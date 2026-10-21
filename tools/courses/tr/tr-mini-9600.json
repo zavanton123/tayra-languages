@@ -1,0 +1,170 @@
+{
+  "id": "tr-mini-9600",
+  "rankUpTo": 9600,
+  "level": "C2",
+  "title": "Gündelik fizik",
+  "description": "Ten standalone stories in which ordinary people meet the physics of daily life: sun and shade, a soufflé, a pendulum, a boat, a ring, a lever, a tea glass, warm air, a paper plane and water's surface.",
+  "topic": "Everyday physics",
+  "names": [
+    "Zehra",
+    "Ömer",
+    "İzmir",
+    "Karşıyaka",
+    "Merve",
+    "Bursa",
+    "Hasan",
+    "Halil",
+    "Cem",
+    "Eskişehir",
+    "Esra",
+    "Yusuf",
+    "Burak",
+    "Ayvalık",
+    "Ayla",
+    "Ankara",
+    "Samanpazarı",
+    "İbrahim",
+    "Mehmet",
+    "Akşehir",
+    "Fatma",
+    "Hatice",
+    "Ahmet",
+    "Trabzon",
+    "Sivas",
+    "Leyla",
+    "Sinan",
+    "Ali"
+  ],
+  "lessons": [
+    {
+      "title": "Balkondaki tente",
+      "summary": "Zehra puts up an awning on her İzmir balcony after her neighbour Ömer explains how the summer and winter sun fall.",
+      "newWords": [
+        "tente",
+        "loş",
+        "dikine",
+        "komşuluk",
+        "kardeşçe",
+        "çoktandır",
+        "güllük",
+        "barışçı"
+      ],
+      "text": "Zehra Hanım otuz yıldır İzmir'de, Karşıyaka'da aynı apartmanda oturuyordu. Evi dördüncü kattaydı ve balkonu güneye bakıyordu. Balkonun bir köşesinde küçük bir güllük vardı; Zehra Hanım saksılarda kırmızı ve pembe güller yetiştiriyordu.\n\nTemmuz gelince balkon fırın gibi oluyordu. Öğle saatlerinde güneş tepedeydi, ışınlar neredeyse dikine iniyor, güllerin yaprakları kuruyordu. Salonun içi de çok ısınıyordu. Zehra Hanım çoktandır bir tente almayı düşünüyordu, ama nasıl bir tente gerektiğini bilmiyordu.\n\nBir akşam üst kattaki komşusu Ömer'le merdivende karşılaştı. Ömer genç bir inşaat mühendisiydi. İkisi arasında eski usul bir komşuluk vardı: bayramlarda birbirlerine tatlı götürür, biri hasta olunca öteki ona çorba yapardı. Zehra Hanım derdini anlattı.\n\n— Kocaman bir tente mi almalıyım, oğlum? diye sordu.\n\n— Hiç gerek yok, Zehra Teyze, dedi Ömer. Yazın güneş gökyüzünde çok yüksekte durur. Işınlar öğleyin neredeyse dikine geldiği için kısa bir tente bile balkonun büyük kısmını gölgede bırakır. Kışın ise güneş alçalır, ışınlar eğik gelir, tentenin altından geçip salonun içine kadar uzanır. Yani doğru ölçüde bir tente yazın gölge yapar, kışın güneşin önünü kesmez.\n\nHafta sonu Ömer elinde bir metreyle geldi, balkonu ölçtü ve bir kâğıda güneşin açılarını çizdi. Bir metre derinliğinde, açık renkli bir tentenin yeteceğini söyledi. Koyu renkli kumaş güneşi emer ve kendisi de ısınır; açık renk ise ışığın çoğunu geri yansıtır.\n\nTente takıldıktan sonra salon gün boyu loş ve serin kaldı. Zehra Hanım ilk günlerde loş odayı biraz garip buldu, ama termometreye bakınca salonun geçen yaza göre çok daha serin olduğunu gördü. Güllük de tentenin altında rahatladı; güller yeniden açtı.\n\nApartmanda herkes Zehra Hanım'ı barışçı bir insan olarak tanırdı. Yıllar önce komşular otopark yüzünden tartışırken onları kardeşçe konuşmaya çağıran da oydu. Şimdi aynı barışçı tavırla Ömer'e teşekkür etti ve ona güllükten bir saksı verdi.\n\n— Komşuluk böyle olur, dedi. Sen bana gölge verdin, ben de sana gül veriyorum.\n\nÖmer gülerek saksıyı aldı. O yazdan sonra iki balkonda da aynı renk tente vardı ve iki komşu akşamları tentelerin altında kardeşçe çay içti.\n\nSorular:\nZehra Hanım çoktandır ne almayı düşünüyordu?\nBalkonu için bir tente almayı düşünüyordu.\nÖmer'e göre kısa bir tente yazın neden yeterli?\nÇünkü yazın güneş çok yüksekte durur ve ışınlar öğleyin neredeyse dikine gelir.\nKışın tentenin altından ne geçer?\nKışın güneş alçalır, eğik gelen ışınlar tentenin altından geçip salona girer.\nÖmer neden açık renkli bir tente önerdi?\nÇünkü koyu renk güneşi emip ısınır, açık renk ise ışığın çoğunu geri yansıtır.\nZehra Hanım Ömer'e ne verdi?\nGüllükten bir saksı gül verdi."
+    },
+    {
+      "title": "Sönen sufle",
+      "summary": "A young cook in a Bursa pastry shop learns why her soufflé collapsed when she opened the oven.",
+      "newWords": [
+        "sufle",
+        "pastane",
+        "deneyimsiz",
+        "şekerci",
+        "rosto",
+        "mademki"
+      ],
+      "text": "Merve yirmi iki yaşındaydı ve Bursa'da, eski çarşının yakınındaki küçük bir pastanede çalışmaya yeni başlamıştı. Aşçılık okulunu bitirmişti, ama mutfakta hâlâ deneyimsizdi. Pastanenin sahibi Hasan Usta ise kırk yıldır tatlı yapıyordu.\n\nBir sabah Hasan Usta ona çikolatalı sufle yapmayı öğretti. Yumurta aklarını uzun uzun çırptılar, eritilmiş çikolatayla yavaşça karıştırdılar ve küçük kaplara döktüler. Sufleler fırında yavaş yavaş kabardı. Merve heyecanlandı ve nasıl göründüklerine bakmak için fırının kapağını açtı. Birkaç saniye içinde sufleler söndü.\n\n— Üzülme, dedi Hasan Usta. Bu hatayı her deneyimsiz aşçı en az bir kere yapar. Mademki nedenini öğrenmek istiyorsun, anlatayım.\n\nUsta, çırpılan yumurta aklarının içinde binlerce küçük hava kabarcığı olduğunu anlattı. Fırında sıcaklık artınca bu kabarcıklardaki hava genişler, sufle de yukarı doğru kabarır. Kapak açılınca içeri soğuk hava girer, kabarcıklardaki hava soğur ve küçülür. Henüz pişmemiş hamur bu değişikliğe dayanamaz ve çöker.\n\n— Yani sufleyi kabartan şey aslında hava, dedi Merve.\n\n— Evet. Mademki bunu anladın, ikinci kuralı da anlarsın: Sufle fırından çıkınca da yavaş yavaş söner, çünkü dışarıdaki hava daha soğuktur. Bu yüzden sufle müşteriyi beklemez, müşteri sufleyi bekler.\n\nHasan Usta aynı kuralın başka yemeklerde de geçerli olduğunu söyledi. Pazar günleri evde rosto yapardı. Rosto fırından çıktıktan sonra da dıştaki ısı merkeze doğru ilerlemeye devam ederdi. Bu yüzden rostoyu fırından biraz erken çıkarır, on dakika dinlendirirdi.\n\nÖğleden sonra yandaki dükkândan şekerci Halil Bey çay içmeye geldi. Halil Bey akide şekeri ve lokum yapıyordu. Merve'nin hikâyesini dinleyince güldü.\n\n— Şekerci de termometresiz çalışamaz, dedi. Şeker şurubu belli bir sıcaklıkta yumuşak kalır, birkaç derece daha ısınınca cam gibi sertleşir. Bizim işimiz de bir çeşit fizik.\n\nErtesi sabah Merve sufleleri yeniden hazırladı. Bu sefer fırının kapağını hiç açmadı; sufleleri camın arkasından izledi. Sufleler kaplarından iki parmak yükseldi. Merve onları fırından çıkarır çıkarmaz müşterilerin masasına götürdü.\n\nHasan Usta bir sufleyi tattı ve başını salladı.\n\n— Artık deneyimsiz değilsin, dedi. Ama bu pastanede bir kural daha var: Kapağı açmadan önce bana sor.\n\nSorular:\nMerve nerede çalışıyordu?\nBursa'da, eski çarşının yakınındaki küçük bir pastanede çalışıyordu.\nSufleler neden söndü?\nMerve fırının kapağını açınca içeri soğuk hava girdi, kabarcıklardaki hava soğuyup küçüldü.\nSufleyi kabartan şey nedir?\nYumurta aklarındaki kabarcıklarda bulunan ve fırında genişleyen havadır.\nHasan Usta rostoyu neden fırından erken çıkarırdı?\nÇünkü rosto fırından çıktıktan sonra da dıştaki ısı merkeze doğru ilerlemeye devam ederdi.\nŞekerci Halil Bey ne söyledi?\nŞekercinin de termometresiz çalışamayacağını, işlerinin bir çeşit fizik olduğunu söyledi."
+    },
+    {
+      "title": "Sicimden bir sarkaç",
+      "summary": "In an Eskişehir study centre, children build a pendulum from string and keys and find that only its length changes its swing.",
+      "newWords": [
+        "sicim",
+        "etüt",
+        "ufaklı",
+        "oynatıcı",
+        "mizahi",
+        "skeç",
+        "yığmak"
+      ],
+      "text": "Eskişehir'de Cem Hoca'nın küçük bir etüt merkezi vardı. Okuldan sonra ufaklı büyüklü yirmi kadar çocuk buraya gelir, ödevlerini yapar, anlamadıkları konuları sorardı. Etüt saatleri genellikle sessiz geçerdi, ama perşembe günleri Cem Hoca bir deney yapardı.\n\nO perşembe masanın üstünde bir yumak sicim, birkaç anahtar ve uzun bir cetvel vardı. Cem Hoca çocuklardan kitaplarını masanın iki ucuna yığmalarını istedi. Çocuklar kitapları üst üste yığdı, Cem Hoca da cetveli iki kitap yığınının arasına köprü gibi yerleştirdi. Sonra cetvele bir sicim bağladı ve sicimin ucuna bir anahtar taktı.\n\n— Bu bir sarkaç, dedi. Anahtarı biraz yana çekip bırakacağım. Sizce bir kez gidip gelmesi kaç saniye sürer?\n\nUfaklı büyüklü herkes bir tahminde bulundu. On iki yaşındaki Esra telefonuyla süreyi ölçtü: yaklaşık bir saniye.\n\n— Şimdi sicimin ucuna üç anahtar takalım, dedi Cem Hoca. Sarkaç ağırlaşınca daha mı hızlı gidip gelir, daha mı yavaş?\n\nÇocukların çoğu \"Daha hızlı!\" diye bağırdı. Esra süreyi yeniden ölçtü. Süre değişmemişti. Sonra Cem Hoca sicimi dört kat uzattı. Bu kez anahtar çok daha yavaş gidip geldi; bir gidip gelme iki saniye sürdü.\n\n— Demek ki sarkacın hızını ağırlık değil, sicimin uzunluğu belirliyor, dedi Esra.\n\n— Aynen öyle. Eski duvar saatleri de bu yüzden ayarlanır. Saat geri kalıyorsa sarkacın boyunu biraz kısaltırsın.\n\nDersin sonunda Cem Hoca bilgisayarındaki video oynatıcısını açtı. Büyük bir binanın tavanından sarkan, otuz metre uzunluğunda bir sarkacın videosunu gösterdi. Oynatıcıda videoyu yavaşlattı ve çocuklarla birlikte saniyeleri saydı. Dev sarkaç da aynı kurala uyuyordu.\n\nErtesi hafta çocuklar, Cem Hoca'nın önerisiyle, bu deney hakkında kısa ve mizahi bir skeç hazırladı. Skeçte Esra bilim insanını oynadı. Küçük kardeşi Yusuf ise ağır olduğu için herkesten hızlı gideceğini sanan inatçı bir sarkacı oynadı. Yusuf iki eliyle sicime tutunup sallanırken bütün etüt merkezi güldü.\n\nMizahi skeç velilerin de çok hoşuna gitti. Velilerden biri skeci telefonuyla kaydetti. O akşam aileler videoyu evlerindeki oynatıcıda tekrar tekrar izledi, çocuklar da kitaplarını masaya yığıp evde yeni sarkaçlar kurdu.\n\nSorular:\nCem Hoca'nın etüt merkezine kimler geliyordu?\nOkuldan sonra ufaklı büyüklü yirmi kadar çocuk geliyordu.\nÇocuklar kitaplarını ne yaptı?\nKitaplarını masanın iki ucuna üst üste yığdılar.\nSicimin ucuna üç anahtar takınca ne oldu?\nSüre değişmedi; sarkaç yine bir saniyede gidip geldi.\nSarkacın hızını ne belirliyor?\nAğırlık değil, sicimin uzunluğu belirliyor.\nMizahi skeçte Yusuf neyi oynadı?\nAğır olduğu için hızlı gideceğini sanan inatçı bir sarkacı oynadı."
+    },
+    {
+      "title": "Çalkantılı bir sabah",
+      "summary": "On his uncle's fishing boat off Ayvalık, Burak learns why a boat rights itself in rough water and why pelicans float so easily.",
+      "newWords": [
+        "gırgır",
+        "sardalya",
+        "pelikan",
+        "çalkantılı",
+        "denizkız",
+        "talihli"
+      ],
+      "text": "Burak on dört yaşındaydı ve yaz tatilini Ayvalık'ta, balıkçı amcası Halil'in yanında geçiriyordu. Halil'in küçük bir gırgır teknesi vardı. Tekne mavi beyaza boyanmıştı ve burnunda, dalgaların üstüne uzanmış gibi duran ahşap bir denizkızı vardı. Halil bu denizkızını teknenin bekçisi sayardı.\n\nBir sabah saat dörtte denize açıldılar. Gece rüzgâr esmişti ve deniz biraz çalkantılıydı. Burak ilk defa bu kadar çalkantılı bir denizdeydi. Tekne bir sağa bir sola yatıyor, ama her seferinde kendiliğinden doğruluyordu.\n\n— Amca, tekne neden devrilmiyor? diye sordu Burak.\n\nHalil gülümsedi ve teknenin dibini gösterdi. Ağır motor ve demir parçalar teknenin en altındaydı.\n\n— Ağırlık ne kadar aşağıda olursa tekne o kadar dengeli olur, dedi. Dalga tekneyi yana yatırınca su, batan tarafı yukarı doğru iter. Alttaki ağırlık da tekneyi yeniden dik duruma çeker. Bu yüzden balığı güverteye değil, aşağıdaki ambara koyarız.\n\nGüneş doğarken gırgır ağını denize bıraktılar. Ağ geniş bir daire çizerek bir sardalya sürüsünün çevresini sardı. Halil ağın altını kapattı ve ağı yavaş yavaş tekneye çekti. Ağın içi gümüş gibi parlayan sardalyalarla doluydu.\n\nO sırada teknenin yanına iki pelikan kondu. Pelikanlar kocaman gagalarıyla sudan balık kapmaya çalışıyordu. Burak, pelikanların suyun üstünde nasıl bu kadar rahat durduğunu sordu. Halil, pelikanın kemiklerinin içinde hava boşlukları olduğunu ve tüylerinin arasında da hava tuttuğunu anlattı. Bu yüzden pelikan suyun üstünde bir mantar gibi hafif kalıyordu.\n\n— Büyük gemiler de öyle, dedi Halil. Demirden yapılsalar bile içleri havayla dolu olduğu için batmazlar.\n\nDönüş yolunda deniz yatıştı. Ambar sardalyayla doluydu ve tekne suya biraz daha gömülmüştü, ama çalkantılı sabaha göre çok daha sakin gidiyordu. Ağırlık yine aşağıdaydı.\n\nLimanda Halil'in balıkçı arkadaşları onları karşıladı.\n\n— Bugün talihli günündeymişsin, dedi biri Burak'a. İlk çıkışında bu kadar sardalya!\n\nBurak talihli olduğunu biliyordu, ama artık teknenin neden devrilmediğini de biliyordu. Akşam defterine pelikanları ve teknenin burnundaki denizkızını çizdi. Resmin altına da şu notu yazdı: \"Ağırlık aşağıda, hava içeride.\"\n\nSorular:\nHalil'in teknesinin burnunda ne vardı?\nAhşap bir denizkızı vardı.\nÇalkantılı denizde tekne neden devrilmiyordu?\nÇünkü ağır motor ve demir parçalar teknenin en altındaydı ve tekneyi yeniden dik duruma çekiyordu.\nGırgır ağı neyin çevresini sardı?\nBir sardalya sürüsünün çevresini sardı.\nPelikanlar suyun üstünde neden hafif kalıyor?\nÇünkü kemiklerinin içinde hava boşlukları var ve tüylerinin arasında hava tutuyorlar.\nLimanda Burak'a ne dediler?\nTalihli gününde olduğunu, ilk çıkışında çok sardalya tuttuklarını söylediler."
+    },
+    {
+      "title": "Daralan alyans",
+      "summary": "Ayla asks an old Ankara jeweller why her wedding ring is tight in summer and loose in winter, and he cleans her grandmother's necklace.",
+      "newWords": [
+        "alyans",
+        "gerdanlık",
+        "akça",
+        "dilber",
+        "cazibeli",
+        "kollamak",
+        "samur"
+      ],
+      "text": "Ayla otuz yaşındaydı ve iki yıl önce evlenmişti. Alyansı ince, sade bir altın halkaydı. Kışın parmağında bol geliyor, ellerini yıkarken kayıp düşecek gibi oluyordu. Temmuzda ise aynı alyans parmağını sıkıyor, akşamları zor çıkıyordu.\n\nBir cumartesi Ankara'da, Samanpazarı'ndaki eski bir kuyumcuya gitti. Dükkânın sahibi İbrahim Usta yetmiş yaşına yakındı. Çarşıdakiler, \"İbrahim Usta kendi kârını değil, müşterinin çıkarını kollar,\" derdi. Usta yanındaki genç çırağını da kollar, ona işin bütün inceliklerini öğretirdi.\n\nAyla alyansını gösterdi ve sordu:\n\n— Usta, yazın altın mı genişliyor? Alyansı büyüttürmem mi gerekiyor?\n\n— Hayır, kızım, dedi İbrahim Usta. Metal ısınınca biraz genişler, bu doğru. Ama bu çok küçük bir farktır; bir yaz gününün sıcağında altın bir halka bir saç teli kadar bile büyümez. Asıl değişen sizin parmağınız. Sıcakta vücut fazla ısıyı atmak için ellere daha çok kan gönderir, damarlar genişler ve parmaklar şişer. Soğukta damarlar daralır, parmak incelir. Alyansı büyütürsek kışın elinizden düşer.\n\nUsta, alyansın içine iki küçük çıkıntı eklemeyi önerdi. Böylece alyans kışın kaymayacak, yazın da fazla sıkmayacaktı.\n\nSonra Ayla çantasından anneannesinden kalan eski bir gerdanlık çıkardı. Gerdanlık gümüştendi; üstünde akça, süt rengi küçük taşlar vardı. Ama yıllar içinde kararmıştı. İbrahim Usta gerdanlığı bir kâseye koydu, üstüne ılık sabunlu su döktü ve çok ince bir samur fırçayla taşların arasını temizledi.\n\n— Samur kılı yumuşaktır, taşı çizmez, dedi. Sert bir fırça gümüşü çizer.\n\nGerdanlık temizlenince eski cazibeli parıltısına kavuştu. Akça taşlar ışıkta hafifçe parladı. Ayla telefonundaki eski bir fotoğrafı gösterdi. Fotoğrafta genç anneannesi bu gerdanlıkla duruyordu.\n\n— Ne dilber bir hanımmış, dedi usta. Gerdanlık da ona çok yakışmış. Bu kadar cazibeli bir parçayı artık kimse yapmıyor.\n\nAyla, anneannesine gençliğinde mahallede \"dilber\" dediklerini anlattı. Usta gülümsedi, gerdanlığı küçük bir kutuya koydu ve samur fırçayı yerine kaldırdı.\n\nBir hafta sonra Ayla alyansını almaya geldi. Alyans parmağına tam oturuyordu. Usta, ağustos sıcağında yine biraz sıkarsa elini birkaç dakika soğuk suya tutmasını söyledi. Soğuk su damarları daraltır, parmak incelir ve alyans kolayca çıkar.\n\nSorular:\nAyla'nın alyansı yazın ve kışın nasıl oluyordu?\nKışın parmağında bol geliyor, yazın ise parmağını sıkıyordu.\nÇarşıdakiler İbrahim Usta için ne derdi?\nKendi kârını değil, müşterinin çıkarını kolladığını söylerdi.\nUsta'ya göre yazın asıl değişen nedir?\nAsıl değişen parmaktır; sıcakta damarlar genişler ve parmaklar şişer.\nUsta gerdanlığı neyle temizledi?\nIlık sabunlu suyla ve çok ince bir samur fırçayla temizledi.\nFotoğraftaki kadın kimdi?\nAyla'nın gerdanlığı takmış genç anneannesiydi."
+    },
+    {
+      "title": "Kasaları kaldırırken",
+      "summary": "A greengrocer with back pain learns from the chief physician how lifting far from the body overloads the spine.",
+      "newWords": [
+        "başhekim",
+        "sıhhat",
+        "korse",
+        "ecza",
+        "hazımsızlık"
+      ],
+      "text": "Mehmet Bey elli iki yaşındaydı ve Akşehir'de bir manav dükkânı işletiyordu. Her sabah kamyondan otuz kadar meyve ve sebze kasası indiriyordu. Bir sabah, bir kasa domatesi kaldırırken belinde keskin bir ağrı hissetti.\n\nBirkaç gün ağrı kesicilerle idare etti. Evdeki ecza dolabında ne varsa içti, çoğunu da aç karnına. Bu kez de midesi bozuldu; her yemekten sonra hazımsızlık çekmeye başladı. Sonunda karısı Fatma Hanım onu ilçenin küçük devlet hastanesine götürdü.\n\nHastanenin başhekimi Hatice Hanım, Mehmet Bey'in eski müşterisiydi. Başhekim olmasına rağmen hasta bakmayı bırakmamıştı. Mehmet Bey'i dinledi, belini muayene etti ve masasına bir cetvel ile bir kalem koydu.\n\n— Mehmet Bey, kasayı nasıl kaldırıyorsunuz, gösterir misiniz? dedi.\n\nMehmet Bey dizlerini kırmadan öne eğildiğini, kasayı kollarını uzatarak tuttuğunu anlattı. Başhekim cetveli kalemin üstüne koydu ve bir kaldıraç yaptı.\n\n— Omurganız bu kalem gibi bir dayanak noktası, dedi. Kasayı vücudunuzdan uzakta tutarsanız sırt kaslarınız kasanın on katı kadar bir kuvvetle çekmek zorunda kalır, çünkü kaslar omurgaya çok yakın durur. Kasayı karnınıza yaklaştırırsanız bu yük birkaç kat azalır. Dizlerinizi kırın, yükü kollarınızla değil bacaklarınızla kaldırın.\n\nHatice Hanım ona iki haftalığına bir bel korsesi yazdı.\n\n— Korse kalıcı bir çözüm değil, dedi. Uzun süre takarsanız kaslarınız tembelleşir. İki hafta korseyle dinlenin, sonra fizik tedaviye başlayın.\n\nHazımsızlık için de uyardı: Ağrı kesicileri aç karnına içmek mideyi bozuyordu. Ecza dolabındaki eski ilaçları da atmasını söyledi.\n\n— Sıhhat her şeyden önce gelir, dedi. Dükkân bir gün beklesin, beliniz beklemez.\n\nMehmet Bey iki hafta korse taktı. Sonra fizik tedaviye gitti ve kasaları başhekimin anlattığı gibi, dizlerini kırarak ve kasayı karnına yaklaştırarak kaldırmayı öğrendi. Ağrı yavaş yavaş geçti, ilaçları bırakınca hazımsızlık da kalmadı.\n\nBir ay sonra hastaneye bir kasa kiraz götürdü. Kasayı da doğru kaldırdı.\n\n— Sıhhatinize, Hatice Hanım, dedi. Bu kirazı sizin cetvelinize borçluyum.\n\nSorular:\nMehmet Bey'in beli nasıl ağrımaya başladı?\nBir sabah bir kasa domatesi kaldırırken belinde keskin bir ağrı hissetti.\nMehmet Bey neden hazımsızlık çekmeye başladı?\nÇünkü ecza dolabındaki ağrı kesicileri aç karnına içiyordu.\nBaşhekim cetvel ve kalemle ne gösterdi?\nKasayı vücuttan uzakta tutunca sırt kaslarının çok daha büyük bir kuvvetle çekmek zorunda kaldığını gösterdi.\nHatice Hanım korse için ne dedi?\nKorsenin kalıcı bir çözüm olmadığını, uzun süre takılırsa kasları tembelleştirdiğini söyledi.\nMehmet Bey bir ay sonra hastaneye ne götürdü?\nBir kasa kiraz götürdü."
+    },
+    {
+      "title": "İnce belli bardak",
+      "summary": "At a Trabzon coffeehouse, a retired physics teacher explains the tea glass and the spoon at his retirement gathering.",
+      "newWords": [
+        "kahvehane",
+        "devran",
+        "basmakalıp",
+        "münasebetiyle",
+        "icabet",
+        "kindar"
+      ],
+      "text": "Ahmet Hoca otuz beş yıl Trabzon'da bir lisede fizik öğretmenliği yaptı. Emekli olduğu hafta eski öğrencisi Yusuf, mahalledeki kahvehanesinde onun için küçük bir buluşma düzenledi. Kapıya bir kâğıt astı: \"Ahmet Hoca'mızın emekliliği münasebetiyle perşembe akşamı çaylar bizden.\"\n\nDavete bütün mahalle icabet etti. Eski öğrenciler, komşular, Ahmet Hoca'yla kırk yıldır tavla oynayan Hasan Efendi bile geldi. Kahvehane o akşam her zamankinden kalabalıktı.\n\nYusuf, hocasından bir konuşma yapmasını rica etti. Herkes basmakalıp bir veda konuşması bekliyordu: teşekkürler, anılar, öğütler. Ama Ahmet Hoca basmakalıp sözler yerine masadaki çay bardağını eline aldı.\n\n— Bu bardağa bakın, dedi. Bizim ince belli bardağımız aslında küçük bir fizik dersidir. Üstü geniştir, çünkü çay en çok yüzeyden soğur; böylece ağzınızı yakmayacak bir sıcaklığa çabuk iner. Altı ise dar ve dolgundur; dipteki çay böylece sıcak kalır. Siz de bardağı belinden değil, kenarından tutarsınız, çünkü ince cam ısıyı çabuk geçirir.\n\nSonra bardağa bir kaşık koydu.\n\n— Annelerimiz kaynar suyu bardağa dökmeden önce içine kaşık koyardı. Neden? Cam ısınınca genişler. İç yüzey bir anda ısınır, dış yüzey soğuk kalırsa cam çatlar. Metal kaşık ısının bir kısmını hemen çeker ve camı korur.\n\nKahvehanedekiler alkışladı. Hasan Efendi de güldü.\n\n— Kırk yıldır bana tavlada fizik anlatıyorsun, dedi. Ama zarları yine ben atıyorum.\n\nHasan Efendi kindar biri değildi; kırk yıl önce kaybettiği bir maçı hâlâ şakayla anardı, ama kimseye kin tutmazdı. Ahmet Hoca da onu iyi tanırdı.\n\n— Sen kindar olsaydın, dedi, bu kahvehanede bu kadar yıl benimle oturmazdın.\n\nGece ilerlerken yaşlılar devrandan söz etti. Mahallede yeni binalar yükselmiş, eski bahçeler kaybolmuştu.\n\n— Devran değişiyor, dedi Hasan Efendi. Ama çay bardağı aynı kaldı.\n\n— Çünkü fizik değişmiyor, dedi Ahmet Hoca.\n\nYusuf o akşamdan sonra kahvehanenin duvarına küçük bir levha astı. Levhada ince belli bir bardak resmi vardı ve altında şu yazıyordu: \"Kenarından tut, kaşığı unutma.\"\n\nSorular:\nYusuf kapıya ne yazdı?\nKapıya \"Ahmet Hoca'mızın emekliliği münasebetiyle perşembe akşamı çaylar bizden\" yazdı.\nDavete kimler icabet etti?\nEski öğrenciler, komşular ve Hasan Efendi dahil bütün mahalle icabet etti.\nİnce belli bardağın üstü neden geniş?\nÇünkü çay en çok yüzeyden soğur ve böylece ağzı yakmayacak bir sıcaklığa çabuk iner.\nKaynar su dökmeden önce bardağa neden kaşık konur?\nÇünkü metal kaşık ısının bir kısmını çeker ve camın çatlamasını önler.\nHasan Efendi devran için ne dedi?\nDevranın değiştiğini, ama çay bardağının aynı kaldığını söyledi."
+    },
+    {
+      "title": "Yatakhanede ilk kış",
+      "summary": "A new boarder in Sivas discovers why the top bunks are warmer and what the strange night noises in the pipes are.",
+      "newWords": [
+        "yatakhane",
+        "hiyerarşi",
+        "cüretkar",
+        "kaotik",
+        "ekstrem",
+        "esrarlı"
+      ],
+      "text": "Yusuf on dört yaşındaydı ve eylülde Sivas'ta yatılı bir liseye başladı. Okulun yatakhanesi uzun bir salondu; iki yanında ranzalar diziliydi ve kırk öğrenci aynı yatakhanede uyuyordu.\n\nİlk gece her şey kaotikti. Herkes valizini açıyor, dolapları paylaşmaya çalışıyor, yatağını arıyordu. Bu kaotik ortamda bir kural çabucak ortaya çıktı: Yatakhanede bir hiyerarşi vardı. Son sınıflar alt yatakları alıyor, yeni gelenler üst yataklara çıkıyordu. Yusuf da kapıya yakın bir ranzanın üst yatağına yerleşti.\n\nAralıkta hava ekstrem bir soğukluğa ulaştı. Gece termometre eksi yirmiyi gösterdi. Son sınıflar alt yataklarda battaniyelere sarınıp titriyordu. Yusuf ise üst yatakta rahat uyuyordu.\n\nBir gece Yusuf esrarlı bir sesle uyandı. Duvarlardaki kalorifer borularından tık tık sesler geliyordu. Sesler önce yavaş, sonra hızlı geliyor, sonra kesiliyordu. Birkaç öğrenci de uyanmıştı ve sesin nereden geldiğini tartışıyordu.\n\nErtesi gün fizik dersinde Yusuf cüretkar bir şey yaptı: Ders bitmeden elini kaldırdı ve öğretmenden esrarlı sesleri açıklamasını istedi. Öğretmen Leyla Hanım bu soruyu sevdi.\n\n— Kalorifer kazanı sabaha karşı yeniden çalışınca sıcak su soğuk borulara gelir, dedi. Metal ısınınca genişler. Borular duvardaki kelepçelerin içinde biraz kayar ve her kaydığında o sesi çıkarır. Yani esrarlı bir şey yok, sadece genleşen metal var.\n\nSonra Yusuf ikinci bir soru sordu: Üst yatak neden daha sıcaktı?\n\n— Sıcak hava hafiftir ve yükselir, dedi Leyla Hanım. Soğuk hava ise ağırdır, yere çöker. Tavana yakın yatan daha sıcak havada uyur. Ekstrem soğuklarda bu fark birkaç dereceyi bulur.\n\nO akşam Yusuf öğrendiklerini yatakhanede anlattı. Son sınıflardan Burak bir süre düşündü, sonra gülerek şöyle dedi:\n\n— Demek bu hiyerarşi kışın tersine dönüyor. Yaz gelince alt yatak bizim, ama kışın üst yataklar yeni gelenlerin şansı.\n\nHiçbir şey değişmedi; herkes kendi yatağında kaldı. Ama o kıştan sonra yatakhanede kimse esrarlı seslerden korkmadı. Her gece borular tıkırdayınca biri karanlıkta \"Genleşen metal!\" diye fısıldadı ve herkes uykusuna döndü.\n\nSorular:\nİlk gece yatakhane nasıldı?\nHer şey kaotikti; herkes valizini açıyor, dolapları paylaşıyor, yatağını arıyordu.\nYatakhanedeki hiyerarşi nasıldı?\nSon sınıflar alt yatakları, yeni gelenler üst yatakları alıyordu.\nYusuf nasıl cüretkar bir şey yaptı?\nDers bitmeden elini kaldırdı ve öğretmenden esrarlı sesleri açıklamasını istedi.\nBorulardan neden ses geliyordu?\nÇünkü sıcak su gelince metal genişliyor ve borular kelepçelerin içinde kayıyordu.\nEkstrem soğuklarda üst yatak neden daha sıcak?\nÇünkü sıcak hava hafiftir ve yükselir, soğuk hava ise yere çöker."
+    },
+    {
+      "title": "Kâğıt uçak yarışması",
+      "summary": "A retired aviator judges a school paper-plane contest in Eskişehir and shows why a clip on the nose makes a plane fly farther.",
+      "newWords": [
+        "havacı",
+        "klasman",
+        "münhasır",
+        "anlatı",
+        "şeritli"
+      ],
+      "text": "Eskişehir'de her bahar ortaokullar arasında bir kâğıt uçak yarışması yapılırdı. Yarışma ortaokul öğrencilerine münhasırdı; liseliler ve öğretmenler yalnızca izleyebilirdi. Bu yıl jüride emekli havacı Sinan Bey vardı. Sinan Bey otuz yıl yolcu uçağı kullanmıştı.\n\nYarışmadan önce Sinan Bey çocuklara kısa bir konuşma yaptı. Bu konuşma bir havacının anlatısı gibiydi: ilk uçuşunu, Eskişehir'in üstünde gördüğü bulutları, kanatların altından geçen havayı anlattı. Çocuklar anlatıyı sessizce dinledi.\n\n— Uçağı havada tutan şey kanadın altına çarpan havadır, dedi. Kanat biraz yukarı bakarsa hava onu yukarı iter. Ama uçağın ağırlık merkezi de önemli. Ağırlık çok arkadaysa uçak burnunu kaldırır, durur ve düşer. Ağırlık biraz öndeyse uçak düzgün süzülür.\n\nYarışma başladı. Her öğrenci uçağını üç kez attı ve en uzun atış sayıldı. Spor salonunun duvarına büyük bir klasman tablosu asıldı. Her atıştan sonra hakemler mesafeleri ölçüyor ve klasmanı yeniden yazıyordu.\n\nOn bir yaşındaki Merve'nin uçağı kırmızı şeritli bir kâğıttan yapılmıştı. İlk atışta uçak burnunu kaldırdı, havada bir an durdu ve yere düştü. Merve klasmanın en altındaydı. Üzgün bir şekilde Sinan Bey'e baktı.\n\nSinan Bey yaklaştı ama uçağa dokunmadı. Sadece bir soru sordu:\n\n— Ağırlık merkezin nerede sence?\n\nMerve biraz düşündü. Sonra masadaki ataşlardan birini aldı ve şeritli uçağın burnuna taktı. İkinci atışta kırmızı şeritli uçak salonun ortasına kadar düzgün bir şekilde süzüldü. Üçüncü atışta daha da uzağa gitti.\n\nKlasmanın başında ise Ömer adında bir çocuk vardı. Onun uçağı uzun ve dar kanatlıydı; burnu da birkaç kat katlanmış, ağır bir kâğıttı. Sinan Bey, Ömer'in ağırlığı farkında olmadan öne topladığını ve bu yüzden uçağın salonun sonuna kadar süzüldüğünü söyledi.\n\nGünün sonunda Merve klasmanda üçüncü oldu. Ödül töreninde Sinan Bey ona küçük bir pilot rozeti taktı.\n\n— Ben kimsenin uçağına el sürmem, dedi. Bu yarışma çocuklara münhasır. Ama soru sormak serbest.\n\nMerve o akşam evde yeni uçaklar yaptı. Her birinin burnuna farklı sayıda ataş taktı ve hangisinin en uzağa gittiğini bir deftere yazdı. Defterin ilk sayfasına da Sinan Bey'in anlatısından bir cümle yazdı: \"Uçağı havada tutan, kanadın altındaki havadır.\"\n\nSorular:\nYarışma kimlere münhasırdı?\nOrtaokul öğrencilerine münhasırdı.\nSinan Bey'in anlatısı neler hakkındaydı?\nİlk uçuşu, Eskişehir'in üstündeki bulutlar ve kanatların altından geçen hava hakkındaydı.\nMerve'nin uçağı ilk atışta neden düştü?\nÇünkü ağırlık merkezi çok arkadaydı; uçak burnunu kaldırdı ve düştü.\nMerve şeritli uçağına ne taktı?\nBurnuna bir ataş taktı.\nMerve klasmanda kaçıncı oldu?\nÜçüncü oldu."
+    },
+    {
+      "title": "Su üstünde yürüyenler",
+      "summary": "Leyla and her son visit a lake park near Ankara, where the entrance turnstile and a water insect each show a small law of physics.",
+      "newWords": [
+        "turnike",
+        "istilacı",
+        "karakterize",
+        "hacet"
+      ],
+      "text": "Bir pazar sabahı Leyla oğlu Ali'yle Ankara'nın yakınındaki bir göl parkına gitti. Ali dokuz yaşındaydı ve her şeyin nedenini soruyordu.\n\nParkın girişinde metal bir turnike vardı. Ali turnikeyi itmeye çalıştı, ama kolunun ortaya yakın bir yerinden ittiği için turnike zor döndü. Leyla ona kolun ucundan itmesini söyledi. Ali ucundan itince turnike kolayca döndü.\n\n— Neden böyle oldu? diye sordu Ali.\n\n— Bir şeyi döndürürken ne kadar uzaktan itersen o kadar az güç harcarsın, dedi Leyla. Kapı kolları da bu yüzden menteşenin karşı tarafındadır. Turnike de aynı kurala uyar.\n\nGölün kıyısında küçük bir ahşap iskele vardı. Suyun yüzeyinde ince, uzun bacaklı böcekler kayıyordu. Ali şaşırdı: Böcekler suya batmıyor, sanki buz üstünde paten yapıyorlardı.\n\nLeyla, suyun yüzeyinin ince bir zar gibi davrandığını anlattı. Su molekülleri birbirini çeker; yüzeydekiler aşağı ve yana doğru çekildiği için yüzey gergin kalır. Böceğin bacakları hafif ve uzundur, ağırlığını geniş bir alana dağıtır. Bu yüzden zarı yırtmaz.\n\n— Evde de deneyebilirsin, dedi. Bir bardak suyun üstüne bir iğneyi yavaşça koyarsan yüzer. Ama suya biraz deterjan dökersen zar bozulur ve iğne batar.\n\nİskelenin yanında bir bilgi levhası vardı. Levhada gölün bir bölümünü kaplayan yeşil bir su bitkisinden söz ediliyordu. Bitki istilacı bir türdü; başka bir kıtadan gelmiş, çok hızlı yayılmış, yerli bitkilerin ışığını kesmişti. Levha bu istilacı türü karakterize eden özellikleri sıralıyordu: kalın yapraklar, havayla dolu saplar ve birkaç hafta içinde iki katına çıkan bir yüzey.\n\n— Havayla dolu saplar mı? dedi Ali. O zaman o da bir mantar gibi yüzüyor.\n\n— Aynen öyle, dedi Leyla. Bir bitkiyi karakterize eden şey bazen onu yüzdüren şeydir.\n\nAli'nin o gün gölün kıyısında çok şey öğrendiğini söylemeye hacet yok. Eve dönerken bir bardak suyun üstüne iğne koymak için sabırsızlanıyordu. Çıkışta turnikeyi bu kez kolun ucundan itti ve annesine döndü.\n\n— Artık açıklamaya hacet yok, dedi gülerek. Uzaktan iten az güç harcar.\n\nSorular:\nAli turnikeyi ilk seferde neden zor döndürdü?\nÇünkü turnikeyi kolun ortaya yakın bir yerinden itti.\nBöcekler suya neden batmıyordu?\nÇünkü suyun yüzeyi ince bir zar gibi gergin kalıyor, böcekler de ağırlıklarını geniş bir alana dağıtıyordu.\nİğne hangi durumda batar?\nSuya biraz deterjan dökülürse zar bozulur ve iğne batar.\nLevhadaki istilacı türü karakterize eden özellikler nelerdi?\nKalın yapraklar, havayla dolu saplar ve çok hızlı yayılmaydı.\nAli çıkışta turnikeyi nasıl itti?\nBu kez kolun ucundan itti."
+    }
+  ]
+}

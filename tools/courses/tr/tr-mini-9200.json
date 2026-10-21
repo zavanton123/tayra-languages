@@ -1,0 +1,177 @@
+{
+  "id": "tr-mini-9200",
+  "rankUpTo": 9200,
+  "level": "C2",
+  "title": "Haritalar ve yol bulmak",
+  "description": "Ten standalone stories about maps, directions and finding one's way, from Cappadocia's old paths to a lost hamster in a new flat.",
+  "topic": "Maps and finding the way",
+  "names": [
+    "Kapadokya",
+    "Ürgüp",
+    "Uçhisar",
+    "Ayla",
+    "Karaburun",
+    "Sinan",
+    "Datça",
+    "Halil",
+    "Leyla",
+    "Ankara",
+    "Bursa",
+    "Burak",
+    "Cem",
+    "Esra",
+    "Zehra",
+    "Beyoğlu",
+    "Ömer",
+    "Fatma",
+    "Sivas",
+    "Yusuf",
+    "Emine",
+    "Mehmet",
+    "Merve",
+    "İbrahim",
+    "İzmir",
+    "Eskişehir"
+  ],
+  "lessons": [
+    {
+      "title": "Dedemin haritası",
+      "summary": "The narrator walks the paths of Cappadocia with a hand-drawn map left by his grandfather.",
+      "newWords": [
+        "yadigar",
+        "etraflıca",
+        "oyulmak",
+        "panorama",
+        "panoramik",
+        "çehre",
+        "güzelleştirmek"
+      ],
+      "text": "Dedemden bana küçük bir yadigar kaldı: elle çizilmiş, kenarları yıpranmış eski bir Kapadokya haritası. Dedem gençliğinde Ürgüp'te rehberlik yapmış, bu haritayı da yıllarca cebinde taşımış. Geçen bahar bu yadigarı yanıma alıp Kapadokya'ya gittim. Amacım, dedemin çizdiği yolları bir bir yürümekti.\n\nİlk akşam haritayı otelin terasında etraflıca inceledim. Dedem her vadiyi, her patikayı, her çeşmeyi ince bir kalemle işaretlemişti. Bazı yerlerin yanına küçük notlar düşmüştü: \"Burada kayaya oyulmuş bir ev var\", \"Bu yolda öğleden sonra gölge bulunmaz\". Notları okurken onun sesini duyar gibi oldum.\n\nErtesi sabah haritadaki en uzun yolu seçtim. Vadiye indikçe kayaya oyulmuş evler birer birer karşıma çıktı. Kapılar, pencereler, raflar, hatta ocaklar bile yumuşak taşın içine oyulmuştu. Yüzyıllar önce insanlar bu taşı sabırla oyarak kendilerine serin ve sağlam yuvalar yapmışlardı.\n\nÖğleye doğru, haritanın bir köşesinde yıldızla işaretlenmiş bir tepeye vardım. Dedem yanına tek bir kelime yazmıştı: \"Panorama\". Tepeye çıkınca ne demek istediğini anladım. Önümde bütün bölgenin panoraması açılıyordu: pembe ve sarı vadiler, peri bacaları, uzakta karlı Erciyes. Bu panoramik manzarayı tek bir fotoğrafa sığdırmak imkânsızdı; telefonumun panoramik çekimi bile onun ancak bir parçasını yakalayabildi.\n\nAkşam Uçhisar'da küçük bir kahvede yaşlı bir adamla tanıştım. Haritayı gösterince yüzü aydınlandı; dedemi hatırlıyordu.\n— Deden bu yolları etraflıca bilirdi, dedi. Turistlere yalnızca yolu göstermezdi, bu toprakların çehresini de anlatırdı.\n\nBölgenin çehresi o günden bu yana çok değişmişti. Yeni oteller, geniş yollar, sabahları gökyüzünü dolduran balonlar gelmişti. Ama adam bu değişimin her şeyi bozmadığını söyledi:\n— Bazı genç otelciler eski taş evleri onarıp güzelleştirdi. Köyü yeniden güzelleştiren biraz da onlar oldu. Taşı güzelleştirirsen insan da geri gelir.\n\nSon gün haritayı yeniden açtım ve dedemin notlarının yanına kendi notlarımı ekledim: hangi çeşmenin kuruduğunu, hangi evin onarıldığını, panoramanın en güzel göründüğü saati. Belki bir gün bu yadigar benden de birine kalır ve o da bu yolları aynı merakla yürür.\n\nSorular:\nDedesinden yazara ne kaldı?\nDedesinden yazara elle çizilmiş, eski bir Kapadokya haritası kaldı.\nVadideki evler nasıl yapılmıştı?\nEvler yumuşak taşın içine, kayaya oyulmuştu.\nYazarın dedesi tepenin yanına hangi kelimeyi yazmıştı?\nDedesi tepenin yanına \"Panorama\" kelimesini yazmıştı.\nYazar panoramik manzarayı neden tek bir fotoğrafa sığdıramadı?\nÇünkü manzara çok genişti; telefonun panoramik çekimi bile onun ancak bir parçasını yakalayabildi.\nYaşlı adama göre köyü kimler güzelleştirdi?\nEski taş evleri onaran genç otelciler köyü güzelleştirdi."
+    },
+    {
+      "title": "Ege kıyısında bir patika",
+      "summary": "Ayla follows a walking map on the Aegean coast and finds her way around a steep slope, a swamp and a damaged road.",
+      "newWords": [
+        "enlem",
+        "ılıman",
+        "çamlık",
+        "insafsız",
+        "batak",
+        "volta",
+        "göçük"
+      ],
+      "text": "Ayla, Karaburun'daki yazlığa vardığı ilk sabah masanın üstüne büyük bir yürüyüş haritası yaydı. Haritanın kenarlarında küçük rakamlarla yazılmış enlem çizgileri vardı. Ayla parmağını kıyı boyunca gezdirip yazlığın enlemini buldu: 38 derecenin biraz üstü. Bu enlemde iklimin ılıman olduğunu biliyordu; kışlar yumuşak geçer, yazlar sıcak olsa da akşamları denizden serin bir rüzgâr eserdi. Ilıman havanın tadını çıkarmak için yürüyüşe nisan ayını seçmişti.\n\nHaritaya göre patika köyden başlıyor, bir çamlığın içinden geçiyor, sonra deniz kenarına iniyordu. Çamlık, haritada koyu yeşil bir leke gibi görünüyordu. Ayla çantasına su, ekmek ve peynir koydu, yola çıktı.\n\nÇamlığa girince hava birden değişti. Çam iğnelerinin kokusu her yeri sarmıştı, ağaçların arasından ılıman bir rüzgâr esiyordu. Ayla bir süre yalnızca kendi adımlarını dinledi. Çamlığın sonunda yol birden aşağı inen dik bir yokuşa döndü. Haritada küçük görünen bu yokuş, gerçekte insafsız bir yokuştu. Ayla her on adımda bir durup nefes aldı. \"Bu kadar insafsız bir yokuşu haritaya bu kadar masum bir çizgiyle çizmek olur mu?\" diye düşündü ve kendi kendine gülümsedi.\n\nAşağıda onu başka bir güçlük bekliyordu. Patika, kıyıdaki küçük bir batağın kenarına çıkıyordu. Son yağmurlardan sonra batak genişlemiş, yolun bir kısmını kaplamıştı. Haritada batağın yeri mavi, kesik çizgilerle gösterilmişti, ama yolun suyun altında kalabileceği yazmıyordu. Ayla batağa girmek istemedi; ayakkabıları çamura saplanabilirdi.\n\nBir süre batağın kenarında volta attı. Bir sağa, bir sola yürüyor, haritaya bakıyor, sonra yeniden volta atıyordu. Sonunda haritada ince, kesik bir çizgi fark etti: tepeden dolaşan eski bir köy yolu. Bu yoldan gitmeye karar verdi.\n\nKöy yolu da kolay değildi. Bir yerde asfaltta derin bir göçük vardı; kış yağmurları yolun kenarını aşındırmış, toprak aşağı kaymıştı. Ayla göçüğün kenarından dikkatle geçti. Biraz ileride ikinci bir göçük gördü, onu da dolaştı.\n\nAkşam yazlığa döndüğünde haritayı yeniden açtı ve kalemle batağı, iki göçüğü ve o insafsız yokuşu işaretledi. Yanına da bir not düştü: \"Nisanda batak taşıyor; tepedeki köy yolundan gidin, ama göçüklere dikkat edin.\"\n\nSorular:\nAyla haritada yazlığın enlemini bulunca ne düşündü?\nBu enlemde iklimin ılıman olduğunu, kışların yumuşak geçtiğini düşündü.\nPatika nereden geçiyordu?\nPatika köyden başlıyor, bir çamlığın içinden geçiyor, sonra deniz kenarına iniyordu.\nAyla yokuşu neden insafsız buldu?\nÇünkü haritada küçük görünen yokuş çok dikti ve Ayla her on adımda bir durup nefes almak zorunda kaldı.\nAyla batağın kenarında ne yaptı?\nBatağın kenarında volta attı ve haritaya bakıp başka bir yol aradı.\nKöy yolunda Ayla'yı ne bekliyordu?\nKöy yolunda asfaltta iki derin göçük vardı."
+    },
+    {
+      "title": "Sisin içinde",
+      "summary": "An apprentice and an old boatbuilder take a wooden boat across a foggy bay by chart, and the hull scrapes the sand.",
+      "newWords": [
+        "ayılmak",
+        "dok",
+        "karina",
+        "sürtmek",
+        "soğukkanlılık",
+        "buharlaşmak",
+        "istemsiz"
+      ],
+      "text": "Sinan, Datça'da küçük bir tersanede çırak olarak çalışıyordu. Tersanenin yaşlı ustası Halil Usta, kırk yılını teknelerin arasında geçirmişti. Bir nisan sabahı, güneş daha doğmadan Sinan'ı telefonla uyandırdı:\n— Bugün ahşap tekneyi karşı koydaki doka götüreceğiz. Yarım saat içinde burada ol.\n\nSinan yarı uykulu bir halde tersaneye vardı. Hava soğuktu, deniz kalın bir sisin altındaydı. Halil Usta ona bir bardak sıcak çay uzattı. Sinan çayı içip denizden gelen serin rüzgârı yüzünde hissedince biraz ayıldı. Usta güldü:\n— Ayıldın mı? Bu sisle iki gözüne de ihtiyacım var.\n\nTekneye bindiler. Halil Usta deniz haritasını küçük masaya yaydı, pusulayı yanına koydu. Haritada koyun derinliği küçük rakamlarla yazılmıştı; karşı kıyıdaki doka giden yolun üstündeki sığ kum ise sarıyla işaretlenmişti. Usta tekneyi yavaşça doktan çıkardı. Sis o kadar yoğundu ki teknenin bir ucundan öbür ucu zor görünüyordu.\n\nYarı yola geldiklerinde teknenin altından garip bir ses geldi. Karina sığ kuma sürtüyordu. Sinan'ın kalbi hızla çarpmaya başladı. Ama Halil Usta hiç telaşlanmadı. Motoru durdurdu, haritaya baktı, sonra büyük bir soğukkanlılıkla tekneyi biraz geri aldı.\n— Korkma, dedi. Karina sağlamdır. Kuma sürttü, kayaya değil. Kaya olsaydı ses başka olurdu.\n\nSinan ustasının soğukkanlılığını hayranlıkla izledi. Kendisi olsa ne yapacağını bilemezdi. Halil Usta ona karinanın ne olduğunu anlattı: teknenin suyun altında kalan, gövdenin en alt kısmı.\n— İyi bir karina dalgayı yarar, tekneyi dengede tutar. Her kış onu kontrol eder, boyarız. Bugün de dokta ilk iş ona bakacağız.\n\nTekneyi kumun kenarından dolaştırırken güneş yükseldi. Sis yavaş yavaş buharlaşıyordu. Önce kıyıdaki kayalar, sonra beyaz evler, en sonunda da dok göründü. Sis buharlaştıkça Sinan'ın içindeki korku da dağıldı ve yüzüne istemsiz bir gülümseme yayıldı.\n\nDoka vardıklarında tekneyi kızağa çektiler. Karinanın altında kumun bıraktığı ince çizikler vardı. Sinan parmağını çiziklerin üstünde gezdirdi. Halil Usta istemsiz bir hareketle çenesini kaşıdı.\n— Bunlar bir kat boyayla geçer, dedi. Ama denizden aldığın ders geçmez: haritayı oku, acele etme, korkunca dur ve düşün.\n\nSinan o akşam defterine şöyle yazdı: \"Bugün soğukkanlılığın da bir pusula olduğunu öğrendim.\"\n\nSorular:\nSinan tersanede nasıl ayıldı?\nSıcak çayı içip denizden gelen serin rüzgârı yüzünde hissedince ayıldı.\nHalil Usta ile Sinan tekneyi nereye götürüyorlardı?\nTekneyi karşı koydaki doka götürüyorlardı.\nYarı yolda ne oldu?\nTeknenin karinası sığ kuma sürttü.\nHalil Usta bu durumda nasıl davrandı?\nHiç telaşlanmadı; motoru durdurdu, haritaya baktı ve soğukkanlılıkla tekneyi geri aldı.\nSis buharlaşınca Sinan ne hissetti?\nKorkusu dağıldı ve yüzüne istemsiz bir gülümseme yayıldı."
+    },
+    {
+      "title": "Eski haritalar ve bir hipotez",
+      "summary": "A sociologist and her students compare old maps of Bursa to test an idea about where rich and poor families lived.",
+      "newWords": [
+        "sosyolog",
+        "hipotez",
+        "aristokrat",
+        "hiyerarşik",
+        "tutarsızlık",
+        "ekol",
+        "bağnaz"
+      ],
+      "text": "Leyla Hanım, Ankara'da bir üniversitede çalışan bir sosyolog. Şehirlerin eski haritalarına bakarak insanların geçmişte nasıl yaşadığını anlamaya çalışıyor. Ona göre bir harita yalnızca yolları değil, bir toplumun düzenini de gösterir. Bu dönem öğrencileriyle birlikte Bursa'nın yüz yıl önce çizilmiş haritalarını inceliyorlar.\n\nİlk derste Leyla Hanım öğrencilerine bir hipotez sundu. Hipotezi şuydu: eski şehirde bir evin yeri, sahibinin toplumdaki yerine göre belirlenmişti. Zengin aileler, aristokratlar ve büyük tüccarlar şehrin yukarısındaki serin, yeşil yamaçlarda otururdu. Esnaf çarşının çevresinde, işçiler ise ovaya yakın, aşağı mahallelerde yaşardı. Yani şehrin planı hiyerarşik bir düzen gösteriyordu: yukarıdan aşağıya inen bir merdiven gibi.\n— Bu hiyerarşik düzeni haritada görebiliyor musunuz? diye sordu.\n\nÖğrenciler haritanın üstüne eğildi. Gerçekten de yamaçtaki büyük bahçeli evler, aşağıdaki sık ve küçük evlerden kolayca ayırt ediliyordu. Ama Burak adlı bir öğrenci başka bir şey fark etti.\n— Hocam, burada bir tutarsızlık var, dedi. Bu haritada şu sokak bir aristokrat ailenin konağına çıkıyor. Ama 10 yıl sonra çizilen haritada aynı sokak hiç yok.\n\nLeyla Hanım öğrencinin dikkatini övdü. Eski haritalarda tutarsızlıklar sık görülürdü: onları farklı kişiler çizmişti, bazıları sokakları gözle tahmin etmiş, bazıları da önemli bulduğu yerleri büyük göstermişti. Bir haritadaki tutarsızlığı açıklamak için başka belgelere de bakmak gerekiyordu: tapu kayıtlarına, eski fotoğraflara, mektuplara.\n\nLeyla Hanım, şehirleri haritalarla inceleyen bir ekolden geliyordu. Bu ekol, insanların yaşadığı yerin onların ilişkilerini de etkilediğini savunurdu. Ama Leyla Hanım bu ekolün her fikrini sorgusuz kabul etmezdi.\n— İyi bir sosyolog bağnaz olmamalı, dedi öğrencilerine. Bağnaz bir araştırmacı yalnızca kendi hipotezine uyan bilgiyi görür. Biz ise hipotezimizi bozan bilgiye de bakmalıyız.\n\nHafta sonunda öğrenciler arşivde yeni bir belge buldular: o sokak, bir selden sonra kapatılmış ve yerine bir bahçe yapılmıştı. Tutarsızlık böylece açıklandı. Aristokrat ailenin konağı ise yerinde duruyordu. Leyla Hanım'ın hipotezi ayakta kaldı, ama artık daha dikkatli bir dille yazılmıştı.\n\nSorular:\nLeyla Hanım ne iş yapıyor?\nLeyla Hanım, Ankara'da bir üniversitede çalışan bir sosyolog.\nLeyla Hanım'ın hipotezi neydi?\nEski şehirde bir evin yeri, sahibinin toplumdaki yerine göre belirlenmişti.\nAristokratlar şehrin neresinde otururdu?\nAristokratlar şehrin yukarısındaki serin, yeşil yamaçlarda otururdu.\nBurak haritalarda hangi tutarsızlığı fark etti?\nBir haritadaki sokağın 10 yıl sonra çizilen haritada olmadığını fark etti.\nLeyla Hanım'a göre bir sosyolog neden bağnaz olmamalı?\nÇünkü bağnaz bir araştırmacı yalnızca kendi hipotezine uyan bilgiyi görür."
+    },
+    {
+      "title": "Haritalı dikte",
+      "summary": "A teacher writes in her diary about a dictation lesson in which the children write directions and draw the route on a map.",
+      "newWords": [
+        "dikte",
+        "imla",
+        "mızmızlanmak",
+        "cevaben",
+        "latife",
+        "eğitimsiz"
+      ],
+      "text": "Sevgili günlük,\n\nBugün dördüncü sınıflarla farklı bir ders yaptım: haritalı bir dikte. Her çocuğa mahallemizin basit bir haritasını dağıttım. Sonra yol tariflerini yüksek sesle okudum; çocuklar hem cümleleri defterlerine yazdılar hem de yolu haritada çizdiler. Diktenin iki amacı vardı: imlayı çalışmak ve harita okumayı öğrenmek.\n\nİlk cümleyi okudum: \"Okulun kapısından çık, sağa dön ve fırının önünden geç.\" Çocuklar başlarını eğip yazmaya başladılar. Ama Cem hemen mızmızlanmaya başladı:\n— Öğretmenim, çok hızlı okuyorsunuz. Hem yazıp hem çizmek çok zor!\nCem'in mızmızlanmasına alıştım. Her yeni etkinlikte önce biraz mızmızlanır, sonra en çok o eğlenir. Ona cevaben cümleyi bir kez daha, yavaşça okudum.\n\nİkinci cümlede küçük bir latife yaptım: \"Fırından gelen kokuyu takip et, ama simit almak için durma, dikte bekler!\" Sınıf güldü, Cem bile gülümsedi. Bu latife herkesi biraz rahatlattı. Bazen küçük bir latife, uzun bir açıklamadan daha çok işe yarıyor.\n\nDikte devam etti: parkın yanından geçmek, köprünün üstünden karşıya geçmek, kütüphanenin önünde sola dönmek. Çocuklar çizdikçe haritaların üstünde renkli, eğri yollar belirdi.\n\nDers bitince defterleri topladım. İmla hatalarının çoğu büyük harflerde ve kesme işaretlerindeydi: bazı çocuklar sokak adlarını küçük harfle başlatmış, bazıları da kesme işaretini unutmuştu. Gelecek hafta imla kurallarını bu hatalar üzerinden yeniden çalışacağız.\n\nHaritalar ise benim için daha ilginçti. Eğitimsiz bir göze hepsi birbirine benzeyebilirdi, ama ben her çizgide bir çocuğun düşünme biçimini gördüm. Harita okumak da sonradan öğrenilen bir beceri; eğitimsiz bir göz sağı solu, kuzeyi güneyi kolayca karıştırabilir. Bugün birkaç çocuk haritayı ters tutarak çizmişti, ama çizdikleri yol yine de doğruydu.\n\nEn şaşırtıcı harita Cem'inkiydi. Bütün sabah mızmızlanan Cem, yolu hiç hata yapmadan çizmiş, kütüphanenin önüne de küçük bir kitap resmi eklemişti. Çıkarken yanıma geldi:\n— Öğretmenim, bir sonraki derste daha uzun bir dikte yapalım mı? diye sordu.\nBu soruya cevaben güldüm ve \"Söz, yapacağız\" dedim.\n\nEsra\n\nSorular:\nÖğretmen bugün nasıl bir ders yaptı?\nÖğretmen bugün haritalı bir dikte yaptı.\nDiktenin amaçları neydi?\nDiktenin amaçları imlayı çalışmak ve harita okumayı öğrenmekti.\nCem neden mızmızlandı?\nÇünkü öğretmenin çok hızlı okuduğunu, hem yazıp hem çizmenin zor olduğunu düşünüyordu.\nÖğretmen ikinci cümlede ne yaptı?\nİkinci cümlede küçük bir latife yaptı ve sınıf güldü.\nÖğretmene göre eğitimsiz bir göz neyi karıştırabilir?\nEğitimsiz bir göz sağı solu, kuzeyi güneyi kolayca karıştırabilir."
+    },
+    {
+      "title": "Aynalı salonda bir defile",
+      "summary": "A retired teacher finds her way through Beyoğlu's steep streets to a film set and plays a guest at a fashion show.",
+      "newWords": [
+        "figüran",
+        "projektör",
+        "koşuşturmak",
+        "defile",
+        "manto",
+        "fiyakalı",
+        "aynalı",
+        "ışıklandırmak"
+      ],
+      "text": "Zehra Hanım emekli bir öğretmendi ve yıllardır içinde küçük bir hayal taşıyordu: bir filmde, kısa da olsa görünmek. Bir gün bir yapım şirketinin figüran aradığını duydu ve başvurdu. Bir hafta sonra telefonu çaldı: ertesi sabah saat 7'de, Beyoğlu'nda eski bir binada olması gerekiyordu.\n\nZehra Hanım adresi telefonundaki haritaya yazdı. Harita onu Tünel'den aşağı, dar ve dik sokaklara yönlendirdi. Sokaklar birbirine o kadar benziyordu ki iki kez yanlış köşeden döndü. Sonunda bir binanın önünde büyük projektörler ve yerlere uzanan kablolar gördü ve doğru yerde olduğunu anladı. Projektörler, bir film ekibinin en kolay fark edilen iziydi.\n\nBinanın içinde herkes koşuşturuyordu. Kimi kablo taşıyor, kimi ışıkları ayarlıyor, kimi elinde kâğıtlarla bir odadan ötekine koşuşturuyordu. Genç bir kadın Zehra Hanım'ı karşıladı ve öteki figüranların yanına götürdü.\n\nO gün bir defile sahnesi çekilecekti. Filmin kahramanı genç bir modacıydı ve ilk defilesini düzenliyordu. Figüranlar, defileyi izleyen davetlileri oynayacaktı. Zehra Hanım'a koyu yeşil, uzun bir manto ile tüylü, fiyakalı bir şapka verdiler. Aynanın karşısına geçince kendini zor tanıdı; manto ona çok yakışmıştı.\n\nÇekim, duvarları baştan sona aynalarla kaplı bir salonda yapılacaktı. Böyle aynalı bir salonu ışıklandırmak kolay değildi, çünkü her ışık aynalarda bir daha yansıyordu. Işık ekibi projektörlerin yerini defalarca değiştirdi. Sonunda salonun ışıklandırması tamamlandı ve aynalı duvarlar bir masal sarayı gibi parlamaya başladı.\n\nYönetmen herkese yerini gösterdi. Zehra Hanım ön sırada, fiyakalı şapkası ve uzun mantosuyla oturacaktı. Görevi basitti: modeller önünden geçerken alkışlamak ve kameraya bakmamak. Müzik başladı, modeller aynalı salonun ortasında yürüdü. Defile sahnesi tam on iki kez çekildi. Her seferinde ekip yine koşuşturdu, ışıklar yeniden ayarlandı.\n\nAkşam olunca Zehra Hanım mantoyu ve şapkayı geri verdi. Yorgundu ama çok mutluydu. Yönetmen ona teşekkür etti ve \"İyi bir figüransınız, kameraya hiç bakmadınız\" dedi. Eve dönerken Zehra Hanım bu kez haritaya bakmadı; sabah kaybolduğu sokakları artık tanıyordu.\n\nSorular:\nZehra Hanım'ın yıllardır taşıdığı hayal neydi?\nBir filmde, kısa da olsa görünmekti.\nZehra Hanım doğru binayı nasıl tanıdı?\nBinanın önündeki büyük projektörleri ve kabloları görünce tanıdı.\nO gün hangi sahne çekilecekti?\nO gün bir defile sahnesi çekilecekti.\nZehra Hanım'a ne giydirdiler?\nKoyu yeşil, uzun bir manto ile tüylü, fiyakalı bir şapka giydirdiler.\nAynalı salonu ışıklandırmak neden zordu?\nÇünkü her ışık aynalarda bir daha yansıyordu."
+    },
+    {
+      "title": "Köy düğünü",
+      "summary": "Ömer and Fatma lose their phone map on the way to a village wedding near Sivas and find it by following the clarinet.",
+      "newWords": [
+        "klarnet",
+        "cıvıl",
+        "akort",
+        "güllü",
+        "seremoni",
+        "halay",
+        "sağlıcakla"
+      ],
+      "text": "Ömer ile Fatma, eski bir arkadaşlarının düğünü için Sivas'a gittiler. Düğün, şehre bir saat uzaklıktaki küçük bir köyde yapılacaktı. Davetiyede köyün adından başka yalnızca kısa bir tarif vardı: \"Gölün kenarından sola, büyük çınardan sonra sağa.\"\n\nBir süre telefonun haritasıyla ilerlediler. Ama dağ yoluna girince telefon çekmez oldu ve harita boş, gri bir ekrana döndü. Ömer arabayı yolun kenarına çekti. Fatma davetiyedeki tarifi yüksek sesle okudu. Gölü bulmuşlardı, ama büyük çınar neredeydi? Tam o sırada yoldan bir çoban geçti.\n— Düğüne mi gidiyorsunuz? diye sordu. Klarnetin sesini takip edin, kaybolmazsınız.\n\nGerçekten de biraz ileride, rüzgârın getirdiği ince bir klarnet sesi duydular. Ses onları büyük çınarın yanından geçirip köyün meydanına kadar götürdü.\n\nMeydan cıvıl cıvıldı. Çocuklar koşuyor, kadınlar sofraları hazırlıyor, yaşlılar gölgede sohbet ediyordu. Meydanın bir köşesinde müzisyenler sazlarını akort ediyordu. Klarnet çalan genç adam, klarnetinin akordunu birkaç kez dinledi; davulcu da sabırla bekledi. Ancak her şey akort olunca müzik başlayacaktı.\n\nDüğün evinin bahçesi güllüydü; kapının iki yanında kırmızı ve pembe güller açmıştı. Nikâh seremonisi bu güllü bahçede yapıldı. Seremoni kısa ve sadeydi: gelinle damat imza attı, herkes alkışladı, çocuklar havaya renkli kâğıtlar saçtı. Fatma, şehirdeki kalabalık seremonilerden çok bu sade seremoniyi sevdi.\n\nSeremoniden sonra müzik başladı ve herkes halaya kalktı. Ömer halayı pek bilmezdi, ama Fatma onu elinden tutup halkaya kattı. Halayın başında damadın amcası elinde bir mendil sallıyordu. Klarnet hızlandıkça halay da hızlandı ve meydan yeniden cıvıl cıvıl oldu.\n\nAkşam yemeğinde herkes uzun sofralara oturdu. Fatma yanında oturan yaşlı bir kadına köyün yolunu sordu. Kadın, büyük çınarın yüz yaşından büyük olduğunu ve köyü arayan herkesin yolunu ona bakarak bulduğunu anlattı. \"Haritalar değişir, çınar değişmez,\" dedi gülerek.\n\nGüneş batarken yola çıkma vakti geldi. Gelinin annesi onları kapıya kadar geçirdi.\n— Sağlıcakla gidin, dedi. Yolu bulabilecek misiniz?\n— Bulacağız, diye cevap verdi Ömer. Gölü, çınarı ve klarneti unutmayacağız.\n— Siz de sağlıcakla kalın, dedi Fatma.\n\nDönüş yolunda telefonun haritası yeniden açıldı, ama ikisi de ona pek bakmadı. Klarnetin sesi hâlâ kulaklarındaydı.\n\nSorular:\nDavetiyede hangi tarif vardı?\n\"Gölün kenarından sola, büyük çınardan sonra sağa\" tarifi vardı.\nÇoban onlara ne öğütledi?\nKlarnetin sesini takip etmelerini öğütledi.\nMüzisyenler meydanda ne yapıyordu?\nMüzisyenler sazlarını akort ediyordu.\nNikâh seremonisi nerede yapıldı?\nNikâh seremonisi düğün evinin güllü bahçesinde yapıldı.\nGelinin annesi onlara ne dedi?\n\"Sağlıcakla gidin\" dedi ve yolu bulabilecekler mi diye sordu."
+    },
+    {
+      "title": "Kayıp hamster",
+      "summary": "Yusuf's hamster escapes in the family's new flat, and Yusuf draws a map of the rooms to search them one by one.",
+      "newWords": [
+        "döşemek",
+        "minder",
+        "hamster",
+        "bücür",
+        "poğaça",
+        "yüzsüz",
+        "küstahça"
+      ],
+      "text": "Yusuf'un ailesi geçen ay Ankara'da yeni bir eve taşındı. Annesi Emine Hanım ile babası Mehmet Bey evi haftalarca döşedi: salona yeni bir halı serdiler, pencerelere perde taktılar, cam önüne renkli minderler dizdiler. Yusuf'un odasını da birlikte döşediler. Odanın en güzel köşesinde Yusuf'un hamsteri için büyük bir kafes duruyordu.\n\nHamster küçücük, bücür bir şeydi; avuç içine sığıyordu. Ama bu bücür hayvanın büyük bir merakı vardı. Bir sabah Yusuf kafesin kapısını açık bulunca donup kaldı: hamster yoktu.\n— Ev çok büyük, dedi Yusuf ağlamaklı bir sesle. Onu nasıl bulacağız?\nBabası onu sakinleştirdi:\n— Bir harita çizelim. Her odayı tek tek arayalım, baktığımız her yere haritada bir çarpı koyalım.\n\nYusuf büyük bir kâğıda evin haritasını çizdi: mutfak, banyo, salon, iki yatak odası ve koridor. Önce mutfağa baktılar. Dolapların arkasına baktılar, fırının altına baktılar. Hamster yoktu. Yusuf haritada mutfağın üstüne bir çarpı koydu. Sonra banyoya baktılar. Hamster yine yoktu. Bir çarpı daha. Sonra yatak odasına baktılar. Orada da yoktu.\n\nEn son salona geldiler. Annesi sabah kahvaltıda poğaça yemiş, tabağı da minderlerin yanında unutmuştu. Yusuf eğilince gördü: hamster en yumuşak minderin üstüne kurulmuş, iki eliyle bir poğaça parçasını kemiriyordu. Yanakları poğaça kırıntılarıyla dolmuştu.\n\nBabası gülmeye başladı.\n— Şu yüzsüze bak, dedi. Bütün evi ayağa kaldırmış, kendisi mindere oturmuş, poğaça yiyor!\nHamster başını kaldırdı ve onlara küstahça baktı; sanki \"Ne var, ben de kahvaltı yapıyorum\" der gibiydi. Yusuf onu iki eliyle yavaşça aldı. Hamster avucunda yine küstahça başını havaya kaldırdı.\n— O yüzsüz değil, dedi Yusuf. Sadece meraklı. Bu evi henüz tanımıyor.\n\nEmine Hanım kalan poğaçayı mutfağa götürdü ve güldü:\n— Biz evi aylarca döşedik, o ise en güzel minderi bir sabahta kendine seçti.\n\nO gün Yusuf haritayı odasının duvarına astı. Salonun üstüne kırmızı kalemle bir yıldız çizdi ve yanına şunu yazdı: \"Hamster burada bulundu: minderin üstünde, poğaçanın yanında.\" Akşam babası da kafesin kapısına küçük ama sağlam bir kilit taktı.\n\nSorular:\nYusuf'un annesiyle babası yeni evde ne yaptı?\nEvi haftalarca döşediler; halı serdiler, perde taktılar, minderler dizdiler.\nYusuf'un hamsteri nasıl bir hayvandı?\nKüçücük, bücür ama çok meraklı bir hayvandı.\nYusuf hamsteri bulmak için ne yaptı?\nEvin haritasını çizdi ve her odayı tek tek arayıp haritada işaretledi.\nHamster nerede bulundu?\nSalonda, en yumuşak minderin üstünde, poğaça kemirirken bulundu.\nBabası hamstere neden \"yüzsüz\" dedi?\nÇünkü hamster bütün evi ayağa kaldırmış, kendisi mindere oturup poğaça yiyordu."
+    },
+    {
+      "title": "Gece yarısı hastane yolu",
+      "summary": "Burak drives his wife to the hospital at night by the phone map, keeping to the traffic rules, and their baby is born by caesarean.",
+      "newWords": [
+        "cenin",
+        "sezaryen",
+        "riayet",
+        "suskun",
+        "tıkırında",
+        "unlu"
+      ],
+      "text": "Merve'nin doğumuna iki hafta vardı. Son kontrolde doktor, ultrason ekranında ceninin duruşunu göstermişti: bebeğin başı aşağıda değil, yukarıdaydı. Doktor, ceninin bu duruşu değişmezse sezaryen yapacaklarını söylemişti. Sezaryen için bir gün bile belirlemişlerdi. Ama bebek o günü beklemedi.\n\nBir gece saat 2'de Merve, kocası Burak'ı uyandırdı. Sancıları başlamıştı. Burak bir an ne yapacağını bilemedi, sonra kapının yanında hazır bekleyen çantayı aldı. Hastane şehrin öbür ucundaydı. Burak telefonun haritasını açtı; harita en kısa yolu gösterdi: 25 dakika.\n\nGece yolları boştu. Burak'ın içinden gaza basmak geliyordu, ama kendini tuttu. Kırmızı ışıklarda durdu, hız sınırına riayet etti. \"Bu gece hiçbir şeyin sırası değil,\" diye düşündü. O gece trafik kurallarına riayet etmek, ona hem bir görev hem de bir sakinlik kaynağı oldu.\n\nMerve yol boyunca suskundu. Gözlerini kapatmış, derin derin nefes alıyordu. Burak onun bu suskun halinden önce korktu; sonra anladı ki Merve, doğum kursunda öğrendiği nefes alıştırmalarını yapıyordu. Suskun kalmak, onun kendine yardım etme yoluydu.\n\nHaritanın gösterdiği yolda bir köprü onarımdaydı. Harita hemen yeni bir yol hesapladı ve onları sahil yolundan geçirdi. Burak ekrandaki küçük mavi noktanın hastaneye doğru yavaş yavaş ilerleyişini izledi. Her kavşakta haritanın sesini dinledi, her dönüşte hızını biraz daha düşürdü. Hastaneye vardıklarında nöbetçi doktor Merve'yi muayene etti ve ceninin hâlâ aynı durumda olduğunu söyledi. Sezaryen kararı hemen verildi. Burak koridorda beklemeye başladı.\n\nBir saat sonra bir hemşire geldi:\n— Merak etmeyin, her şey tıkırında, dedi. Anne de kız bebek de çok iyi.\n\nSabaha karşı Burak hastanenin karşısındaki fırına gitti. Fırın bütün gece açıktı ve vitrini unlu ürünlerle doluydu: simitler, açmalar, kurabiyeler. Burak hemşireler için büyük bir kutu kurabiye ve başka unlu tatlılar aldı. Fırıncı, Burak'ın yüzündeki gülümsemeyi görünce sordu:\n— Hayırdır, bir müjde mi var?\n— Kızım doğdu, dedi Burak. Her şey tıkırında.\n\nOdaya döndüğünde Merve uyanmıştı. Artık suskun değildi; bebeğin minik ellerini gösterip gülüyordu.\n\nSorular:\nDoktor son kontrolde ne göstermişti?\nUltrason ekranında ceninin duruşunu, bebeğin başının yukarıda olduğunu göstermişti.\nDoktor neden sezaryen yapacaklarını söylemişti?\nÇünkü ceninin başı aşağıda değil, yukarıdaydı.\nBurak yolda nasıl araba sürdü?\nKırmızı ışıklarda durdu ve hız sınırına riayet etti.\nMerve yol boyunca neden suskundu?\nÇünkü doğum kursunda öğrendiği nefes alıştırmalarını yapıyordu.\nBurak fırından ne aldı?\nHemşireler için bir kutu kurabiye ve başka unlu tatlılar aldı."
+    },
+    {
+      "title": "Bayinin çizdiği harita",
+      "summary": "İbrahim, new in Eskişehir, gets lost on his first working day until a newspaper seller draws him a map.",
+      "newWords": [
+        "yitik",
+        "bayi",
+        "naklen",
+        "ikincilik",
+        "brüt",
+        "lazanya",
+        "dirilmek"
+      ],
+      "text": "İbrahim, yeni işi için İzmir'den Eskişehir'e taşındı. Şehri hiç bilmiyordu. İlk günlerde kendini yitik bir yolcu gibi hissediyordu: sokak adları ona bir şey söylemiyor, tramvay hatları kafasında birbirine karışıyordu. Telefonundaki harita bile bazen onu yanlış yere götürüyordu.\n\nİşe başlayacağı sabah yine yolunu kaybetti. Köşede bir gazete bayisi gördü ve içeri girdi. Bayi, güler yüzlü, yaşlı bir adamdı. Dükkânın köşesindeki küçük televizyonda bir maç naklen yayınlanıyordu.\n— Kusura bakmayın, dedi İbrahim, nehrin kenarındaki yeni iş merkezini arıyorum.\nBayi gözünü ekrandan ayırmadan elini kaldırdı:\n— İki dakika, şu set bitsin, size yolu çizeyim. Naklen yayın, kaçırmak istemem.\n\nMaç, şehrin kadın voleybol takımının final maçıydı. Takım son seti kaybetti ve turnuvayı ikincilikle bitirdi. Bayi bir an üzüldü, sonra gülümsedi:\n— İkincilik de bir başarıdır, dedi. Geçen yıl ilk turda elenmişlerdi.\n\nSonra bir gazetenin kenarına küçük bir harita çizdi: köprüyü, iki tramvay durağını ve köşedeki büyük çınarı. İbrahim bayiye teşekkür etti, haritayı cebine koydu ve on dakika sonra ofisin kapısındaydı.\n\nOfiste onu insan kaynaklarından bir kadın karşıladı. Sözleşmeyi birlikte okudular. Maaşı sözleşmede brüt olarak yazılmıştı; kadın, brüt maaştan vergi ve sigorta düşülünce eline geçecek parayı da ayrıca gösterdi. İbrahim brüt ile net arasındaki farkı ilk kez bu kadar açık görüyordu.\n\nÖğle arasında yeni iş arkadaşları onu yakındaki küçük bir lokantaya götürdü. Hepsi lazanya ısmarladı. Lokantanın lazanyası, mahallede herkesin bildiği bir lezzetti. İbrahim de lazanyayı denedi ve çok beğendi. Yemekte arkadaşları ona şehrin en kolay yollarını anlattı, kâğıt bir peçetenin üstüne de en yakın tramvay durağını çizdiler. İbrahim bir günde iki harita kazandığını düşünüp güldü.\n\nAkşam eve yürüyerek döndü. Sabah sessiz olan nehir kıyısı, akşamüstü adeta dirildi: kafeler doldu, öğrenciler köprülere oturdu, sandallar suya indi. Kıyı her akşam böyle diriliyordu ve İbrahim bu kalabalığın içinde kendini ilk kez yabancı hissetmedi.\n\nErtesi sabah bayiye uğrayıp gazetesini aldı. Artık kendini yitik hissetmiyordu. Bayinin çizdiği haritayı da atmadı; onu, yitik geçen ilk günden kalan bir hatıra olarak masasının çekmecesine koydu.\n\nSorular:\nİbrahim ilk günlerde kendini nasıl hissediyordu?\nKendini yitik bir yolcu gibi hissediyordu.\nBayinin televizyonunda ne yayınlanıyordu?\nŞehrin kadın voleybol takımının final maçı naklen yayınlanıyordu.\nTakım turnuvayı nasıl bitirdi?\nTakım son seti kaybetti ve turnuvayı ikincilikle bitirdi.\nSözleşmede maaş nasıl yazılmıştı?\nMaaş sözleşmede brüt olarak yazılmıştı.\nAkşamüstü nehir kıyısında ne oldu?\nKıyı adeta dirildi; kafeler doldu, öğrenciler köprülere oturdu, sandallar suya indi."
+    }
+  ]
+}

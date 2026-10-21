@@ -1,0 +1,176 @@
+{
+  "id": "tr-mini-9400",
+  "rankUpTo": 9400,
+  "level": "C2",
+  "title": "Az bilinen meslekler",
+  "description": "Ten standalone stories about people who work in rare trades across Turkey: a watch repairer, a cable-car technician, a prompter, a farrier, a rose-oil distiller and others.",
+  "topic": "Rare professions",
+  "names": [
+    "Beyoğlu",
+    "Sinan",
+    "Halil",
+    "Bursa",
+    "Ayla",
+    "Burak",
+    "Esra",
+    "Cem",
+    "İstanbul",
+    "Ömer",
+    "Fatma",
+    "Hasan",
+    "Ürgüp",
+    "Leyla",
+    "Isparta",
+    "Mehmet",
+    "Zehra",
+    "Ankara",
+    "İbrahim",
+    "Karabük",
+    "Zonguldak",
+    "Merve",
+    "Emine",
+    "Ali",
+    "Ayşe",
+    "Yusuf",
+    "Ahmet",
+    "Türkçe",
+    "Avrupa",
+    "Anadolu",
+    "İzmir"
+  ],
+  "lessons": [
+    {
+      "title": "Pasajdaki saat ustası",
+      "summary": "A watch repairer in an old Beyoğlu arcade brings an antique clock with a little blacksmith figure back to life.",
+      "newWords": [
+        "pasaj",
+        "kuvars",
+        "yonga",
+        "zamane",
+        "vekaleten",
+        "insansı"
+      ],
+      "text": "Beyoğlu'nda, ana caddeden içeri açılan eski bir pasajın en dip köşesinde küçük bir saat dükkânı vardı. Camında \"Saat tamiri\" yazıyordu, ama yazının boyası çoktan solmuştu. İçeride, tezgâhın arkasında Sinan oturuyordu. Otuz beş yaşındaydı ve bu işi on yedi yaşında, Halil Usta'nın yanında öğrenmişti.\n\nHalil Usta iki yıl önce gözleri zayıflayınca dükkânı Sinan'a bırakmıştı. Dükkân hâlâ ustanın adına kayıtlıydı; Sinan orayı vekaleten işletiyordu. Kapıdaki küçük levhada da öyle yazıyordu: \"Halil Usta adına vekaleten Sinan.\"\n\nPasajın öteki dükkânları birer birer değişmişti. Eskiden orada bir terzi, bir kitapçı ve bir fotoğrafçı vardı; şimdi telefon kılıfı satan dükkânlar ve bir kafe vardı. Sinan'ın dükkânı ise hâliyle eskisi gibi kalmıştı: duvarda onlarca saat, çekmecelerde binlerce küçük parça.\n\nBir sabah dükkâna genç bir kadın girdi. Elinde, dedesinden kalmış eski bir masa saati vardı. Saatin üstünde küçük, insansı bir figür duruyordu: elinde çekiç tutan bir demirci. Eskiden her saat başında bu insansı figür kolunu kaldırır, küçük bir çana vururmuş.\n\n— Saat yıllardır çalışmıyor, dedi kadın. Bir tamirciye götürdüm, içine kuvars bir mekanizma takalım dedi. Ama o zaman demirci de durur, değil mi?\n\n— Hâliyle durur, dedi Sinan. Kuvars mekanizma pille çalışır ve zamanı çok iyi tutar, ama bu figürü hareket ettiremez. Demirciyi saatin içindeki çarklar taşır.\n\nSinan saati açtı, uzun uzun inceledi ve kadından bir hafta süre istedi.\n\nO hafta her akşam dükkânı kapattıktan sonra saatin başına oturdu. Çarkları tek tek temizledi, kırık bir dişliyi kendi eliyle yeniden yaptı. Zamane saatlerinde böyle bir iş yoktu. Zamane saatlerin içinde bir pil, küçük bir yonga ve birkaç kablo vardı; bozulunca yongayı değiştirir, işi bitirirdin. Akıllı saatleri ise Sinan hiç açmazdı; yongalarına ancak markanın servisi dokunabilirdi.\n\nCuma günü genç kadın yeniden geldi. Sinan saati kurdu ve tezgâhın üstüne koydu. Saat on ikiyi gösterince insansı demirci yavaşça kolunu kaldırdı ve çana on iki kere vurdu.\n\nKadın bir süre sesini çıkaramadı. Sonra gülümsedi:\n\n— Dedem bu sesi çok severdi.\n\nAkşam Sinan, Halil Usta'yı aradı ve olanları anlattı. Yaşlı usta telefonda bir süre sustu, sonra şunu söyledi:\n\n— Zamane ustaları yongadan anlıyor, sen çarktan anlıyorsun. İkisi de lazım, ama çarktan anlayan artık az.\n\nSorular:\nSinan'ın dükkânı neredeydi?\nBeyoğlu'nda, eski bir pasajın en dip köşesinde.\nSinan dükkânı neden vekaleten işletiyordu?\nÇünkü dükkân hâlâ Halil Usta'nın adına kayıtlıydı; usta gözleri zayıflayınca dükkânı Sinan'a bıraktı.\nKadının saatinin üstünde ne vardı?\nElinde çekiç tutan, insansı bir demirci figürü vardı.\nSinan saate neden kuvars bir mekanizma takmadı?\nÇünkü kuvars bir mekanizma insansı figürü hareket ettiremez; figürü saatin çarkları taşır.\nHalil Usta telefonda ne dedi?\nZamane ustalarının yongadan, Sinan'ın ise çarktan anladığını söyledi."
+    },
+    {
+      "title": "Puslu bir sabah teleferikte",
+      "summary": "A cable-car technician in Bursa checks the line on a hazy autumn morning and explains to a trainee why automation still needs a human ear.",
+      "newWords": [
+        "teleferik",
+        "aks",
+        "akçaağaç",
+        "istatistiki",
+        "velhasıl",
+        "puslu",
+        "otomasyon"
+      ],
+      "text": "Bursa'da teleferik sabah sekizde yolcu almaya başlar, ama Ayla her gün saat altıda istasyonda olurdu. Ayla teleferiğin bakım teknisyenlerinden biriydi. Yolcular onun işini pek görmezdi: kabinlere biner, Uludağ'a çıkar, manzarayı fotoğraflar, akşam aşağı inerlerdi. Kabinlerin her gün güvenle gidip gelmesi ise Ayla ile beş arkadaşının işiydi.\n\nO sabah hava pusluydu. Dağın yarısı bulutların içinde kalmıştı, aşağıdaki şehir de puslu bir örtünün altında zor seçiliyordu. Ayla'nın yanında o gün stajyer Burak vardı. Burak makine mühendisliği okuyordu ve teleferiğe ilk kez bu kadar yakından bakıyordu.\n\nİkisi önce kontrol odasına girdiler. Son yıllarda teleferiğin büyük bölümü otomasyonla çalışıyordu. Bilgisayar halatın hızını ayarlıyor, rüzgâr sertleşince kabinleri kendiliğinden yavaşlatıyor, bir sorun olursa ekrana kırmızı bir uyarı düşürüyordu. Ekranda o sabah hiçbir uyarı yoktu.\n\n— Her şey yeşil, dedi Burak. Otomasyon bu kadar iyiyken neden her sabah hattı geziyoruz?\n\nAyla cevap vermedi, onu istasyonun altına götürdü. Orada büyük çark dönüyordu. Ayla elini çarkın aksına yakın bir yere koydu, sonra kulağını yaklaştırdı.\n\n— Dinle, dedi. Bu aks yirmi yıldır aynı sesle döner. Bir gün sesi biraz değişirse otomasyon bunu hemen fark etmez. Ama ben ederim.\n\nSonra boş bir kabine binip yukarı çıktılar. Kabin yavaşça yükseldi ve aşağıda akçaağaç ormanı başladı. Ekim ayıydı; akçaağaçlar kıpkırmızı olmuştu. Puslu havada kırmızı yapraklar sanki ateş gibi parlıyordu. Burak bir süre ormanı seyretti, sonra Ayla'nın elindeki deftere baktı.\n\nAyla her direğin yanından geçerken deftere bir şey yazıyordu. Hangi makaranın ne zaman değiştirildiğini, hangi aksın kaç saat çalıştığını yıllardır kaydediyordu. Bu istatistiki kayıtlar sayesinde bir parçanın ne zaman yorulacağını aşağı yukarı önceden bilebiliyordu.\n\n— Bilgisayarda da bu bilgiler var, dedi Burak.\n\n— Var, dedi Ayla. Ama istatistiki bir bilgi sana yalnızca bir olasılık söyler. Parçanın kendisini görmek, sesini duymak başka bir şey. Velhasıl makineye güvenirsin, ama onu dinlemeyi bırakmazsın.\n\nSaat sekize doğru bulutlar dağıldı. Akçaağaçların arasından ilk güneş ışığı vurdu. Aşağıda yolcular sıraya girmeye başlamıştı. Ayla defterini kapattı ve kontrol odasına haber verdi: hat hazırdı.\n\nAkşam Burak stajyer defterine o günü yazdı. En sona şu cümleyi ekledi: \"Otomasyon gözdür, usta kulaktır; velhasıl ikisi de lazım.\"\n\nSorular:\nAyla her sabah saat kaçta istasyonda olurdu?\nAyla her sabah saat altıda istasyonda olurdu.\nBurak otomasyon hakkında ne sordu?\nOtomasyon bu kadar iyiyken neden her sabah hattı gezdiklerini sordu.\nAyla aksın yanında neden kulağını yaklaştırdı?\nAksın sesini dinlemek için; ses biraz değişirse otomasyonun bunu hemen fark etmeyeceğini biliyordu.\nAyla defterine ne yazıyordu?\nMakaraların ne zaman değiştirildiğini ve aksların kaç saat çalıştığını; yani istatistiki kayıtlar tutuyordu.\nKabinden aşağı bakınca ne görünüyordu?\nPuslu havada kıpkırmızı bir akçaağaç ormanı görünüyordu."
+    },
+    {
+      "title": "Görünmeyen ses",
+      "summary": "A prompter tells how she saved a young actor's forgotten verse line on the opening night of a play at the Harbiye open-air theatre.",
+      "newWords": [
+        "açıkhava",
+        "tiyatrocu",
+        "sahnelemek",
+        "mısra",
+        "edebiyatçı",
+        "saygısızca",
+        "telepati"
+      ],
+      "text": "Adım Esra. Kırk yıldır tiyatrodayım, ama seyircilerin çoğu beni hiç görmedi. Ben suflörüm: oyuncular sahnede bir cümleyi unutursa, onu karanlıktan fısıldayan kişi benim. Eskiden her tiyatroda suflör vardı; bugün bu işi yapan birkaç kişi kaldık. Genç tiyatrocular çoğu zaman metni ezberler, suflöre ihtiyaç duymaz. Ama bazı oyunlar vardır ki en iyi tiyatrocuya bile bir ses lazım olur.\n\nGeçen yaz topluluğumuz eski bir oyunu, Harbiye'deki açıkhava tiyatrosunda sahneledi. Oyun baştan sona şiirle yazılmıştı. Onu Türkçeye yaşlı bir edebiyatçı çevirmişti. Bu edebiyatçı her mısrayı aylarca düşünmüş, her kelimeyi tek tek seçmişti. Oyunda iki bin mısra vardı ve yönetmen tek bir mısranın bile değişmesini istemiyordu.\n\nKapalı bir salonda suflör sahnenin önündeki küçük bir kutuda oturur. Açıkhava tiyatrosunda böyle bir kutu yoktu. Bu yüzden ben sahnenin yanında, büyük bir dekor parçasının arkasında oturdum. Önümde metin, elimde küçük bir lamba vardı.\n\nİlk gece tiyatro doluydu. Edebiyatçı da ön sıradaydı. Oyunun ortasında, en uzun konuşmayı genç oyuncu Cem yapacaktı. Cem sahnenin ortasına geldi, ilk dört mısrayı güzelce söyledi, sonra durdu. Tam o sırada arka sıralardan birinin telefonu çaldı. Adam telefonu kapatacağına açtı ve saygısızca, yüksek sesle konuşmaya başladı. Cem'in aklındaki mısra o anda uçup gitti.\n\nSeyirci bunu fark etmedi; açıkhava tiyatrosunda insanlar sessizliği bir an rüzgâra ya da oyunun bir parçasına bağlar. Ben fark ettim. Cem'in gözü bir an benim tarafıma kaydı. Beşinci mısrayı yavaşça, yalnızca onun duyacağı bir sesle fısıldadım. Cem başını kaldırdı ve mısrayı sanki o an kendisi bulmuş gibi söyledi. Konuşmanın geri kalanını hiç durmadan bitirdi. Arka sıradaki adam da çevresindekilerin bakışlarından utanmış olmalı ki telefonu sonunda kapattı.\n\nOyundan sonra Cem yanıma geldi.\n\n— Esra Hanım, o mısrayı siz söylemeseydiniz orada kalırdım. Sanki aramızda telepati var.\n\n— Telepati değil bu, dedim. Kırk yıl. Bir oyuncunun ne zaman unutacağını, nefesinden anlıyorum.\n\nYaşlı edebiyatçı da yanımıza geldi. Bana teşekkür etti ve şöyle dedi: \"Benim mısralarımı seyirci sizin sayenizde eksiksiz duydu.\" Sonra o saygısızca konuşan adamdan da bahsetti, ama gülerek: \"Onun telefonu benim çevirimin ilk eleştirmeniydi.\"\n\nBizim işimizin adı afişlerde yazmaz. Ama bir oyunu sahnelemek, görünmeyen insanların da işidir.\n\nSorular:\nEsra'nın mesleği nedir?\nEsra suflördür; oyuncular bir cümleyi unutunca onu karanlıktan fısıldar.\nTopluluk oyunu nerede sahneledi?\nHarbiye'deki açıkhava tiyatrosunda sahneledi.\nOyunu kim çevirmişti?\nOyunu yaşlı bir edebiyatçı Türkçeye çevirmişti.\nCem neden mısrayı unuttu?\nArka sıradaki bir adam telefonla saygısızca, yüksek sesle konuştuğu için mısra aklından uçup gitti.\nCem oyundan sonra Esra'ya ne dedi?\nMısrayı Esra söylemeseydi orada kalacağını, sanki aralarında telepati olduğunu söyledi."
+    },
+    {
+      "title": "Yağız kısrağın nalı",
+      "summary": "One of the last farriers near Ürgüp re-shoes a dark mare whose old shoe was nailed on crooked.",
+      "newWords": [
+        "kısrak",
+        "yağız",
+        "çalık",
+        "küçükbaş",
+        "fedakar",
+        "tereyağlı",
+        "debriyaj"
+      ],
+      "text": "Ürgüp'e yakın küçük bir köyde, Ömer Usta güne her zaman aynı şekilde başlardı. Karısı Fatma sabah erkenden sobayı yakar, sacın üstünde tereyağlı yufka pişirirdi. Ömer Usta tereyağlı yufkasını yer, iki bardak çay içer, sonra alet çantasını omzuna alıp yola çıkardı.\n\nÖmer Usta nalbanttı. Babası da, dedesi de nalbanttı. Eskiden köyde her evin bir atı, bir eşeği olurdu; Ömer Usta'nın da işi hiç bitmezdi. Şimdi köylülerin çoğu küçükbaş hayvan besliyordu. Koyunlar, keçiler dağda otluyor, ama küçükbaş hayvanın nala ihtiyacı olmuyordu. Kapadokya'da atları artık en çok turistler için atlı turlar düzenleyen çiftlikler besliyordu.\n\nO sabah da böyle bir çiftlikten telefon gelmişti. Çiftliğin sahibi Hasan, en sevdiği kısrağın topalladığını söylemişti. Ömer Usta eski kamyonetine bindi. Kamyonetin debriyajı yıllardır sertti; her viteste debriyaja bütün gücüyle basmak gerekiyordu. Yine de vadinin yolunu yarım saatte aldı. Çiftliğe vardığında Hasan onu ahırın kapısında bekliyordu. İçeride, parlak tüylü, yağız bir kısrak duruyordu. Yağız tüyleri sabah ışığında neredeyse mavi görünüyordu.\n\n— Bu kısrak çok fedakâr bir hayvandır usta, dedi Hasan. On yıldır turistleri vadilere taşıyor, bir kere bile huysuzluk etmedi. Dün akşamdan beri sol arka ayağına basmıyor.\n\nÖmer Usta kısrağın boynunu okşadı, onunla alçak sesle konuştu. Sonra sol arka ayağını yavaşça kaldırdı ve nalı inceledi. Sorunu hemen gördü: çivilerden biri çalık çakılmıştı. Çalık çivi tırnağın içinde yana doğru gitmiş, hayvanın canını yakıyordu.\n\n— Bu nalı kim çaktı? diye sordu.\n\n— Şehirden bir genç geldi geçen ay, dedi Hasan. Hızlı çalışıyordu.\n\nÖmer Usta bir şey söylemedi. Eski nalı dikkatle söktü, çalık çiviyi çıkardı, tırnağı temizleyip düzeltti. Sonra küçük ocağını yaktı, yeni bir nalı ateşte ısıttı ve örsün üstünde çekiçle kısrağın ayağına göre biçimlendirdi. Nalı yerine koydu ve çivileri birer birer, dümdüz çaktı. Bütün iş bir saat sürdü. Yağız kısrak bu bir saat boyunca kıpırdamadan bekledi.\n\nİş bitince Hasan kısrağı avluda yürüttü. Hayvan sol ayağına yeniden rahatça basıyordu.\n\n— Siz de fedakârsınız usta, dedi Hasan. Bu yaşta, debriyajı tutmayan bir kamyonetle bu yolu bir nal için geldiniz.\n\n— Bir nal için değil, bir kısrak için geldim, dedi Ömer Usta gülerek.\n\nEve döndüğünde Fatma ona yine tereyağlı bir yufka hazırlamıştı. Ömer Usta yemeğini yerken çantasındaki çalık çiviyi çıkarıp masaya koydu.\n\n— Bunu saklayacağım, dedi. Torunlarıma bir nalbandın neden acele etmemesi gerektiğini göstermek için.\n\nSorular:\nFatma her sabah ne pişirirdi?\nSacın üstünde tereyağlı yufka pişirirdi.\nKöylüler şimdi daha çok hangi hayvanları besliyordu?\nKöylülerin çoğu küçükbaş hayvan, yani koyun ve keçi besliyordu.\nHasan kısrak hakkında ne dedi?\nKısrağın çok fedakâr olduğunu, on yıldır turistleri taşıdığını ve hiç huysuzluk etmediğini söyledi.\nYağız kısrak neden topallıyordu?\nÇünkü nalın çivilerinden biri çalık çakılmıştı ve hayvanın canını yakıyordu.\nÖmer Usta çalık çiviyi neden sakladı?\nTorunlarına bir nalbandın neden acele etmemesi gerektiğini göstermek için sakladı."
+    },
+    {
+      "title": "Gülistandan gelen koku",
+      "summary": "A rose-oil distiller in Isparta shows a perfume buyer from Istanbul how her oil compares with a cheaper one.",
+      "newWords": [
+        "gülistan",
+        "tütsü",
+        "öznel",
+        "kıyas",
+        "hayvani"
+      ],
+      "text": "Isparta'da mayıs sonu ile haziran ortası arasında köylerde kimse geç uyumaz. Güller güneş doğmadan toplanmalıdır, çünkü güneş yükseldikçe kokuları uçar. Leyla da her sabah saat dörtte kalkar, ailesinin gülistanına giderdi. Gülistan, yamaçta sıra sıra uzanan, binlerce gül fidanıyla dolu bir bahçeydi. Leyla'nın dedesi o gülistanı elli yıl önce kurmuştu.\n\nLeyla gül yağı ustasıydı. Toplanan gülleri aynı sabah büyük bakır kazanlara koyar, suyla birlikte yavaş yavaş ısıtırdı. Kazandan çıkan buhar soğuyunca damla damla gül suyu olurdu. Gül suyunun yüzeyinde de ince, sarı bir yağ toplanırdı. Bir kilo gül yağı için birkaç ton gül gerekiyordu.\n\nLeyla mevsim bitince kurumuş gül yapraklarını da değerlendirirdi. Onları reçineyle karıştırıp küçük çubuklar halinde tütsü yapardı. Tütsü yanınca bütün oda gülistan gibi kokardı. Komşular Leyla'nın tütsüsünü düğünlerde, bayramlarda evlerine alırdı.\n\nBir haziran sabahı İstanbul'dan bir parfüm şirketinin alıcısı geldi. Adı Ahmet Bey'di. Elinde iki küçük şişe vardı.\n\n— Leyla Hanım, dedi, şirketimiz sizden yağ almak istiyor. Ama başka bir üretici bize çok daha ucuz bir yağ öneriyor. Patronum ikisini kıyas etmemi istedi.\n\nLeyla gülümsedi. İki küçük kâğıt şerit aldı, birini kendi yağına, birini Ahmet Bey'in getirdiği yağa batırdı.\n\n— Koku konusunda herkesin zevki farklıdır, dedi. Bu yüzden koku biraz öznel bir şeydir. Ama bu kıyas öznel değil. Şimdi koklayın, bir saat sonra yeniden koklayın.\n\nAhmet Bey ilk anda iki şerit arasında büyük bir fark göremedi. Bir saat sonra ucuz yağın kokusu neredeyse bitmişti. Leyla'nın yağı ise hâlâ sabahki gibi kokuyordu.\n\n— Ucuz yağa yapay maddeler katmışlar, dedi Leyla. Eskiden bazı parfümcüler yağı uzun süre tutmak için hayvani maddeler de kullanırdı. Biz yağımıza ne yapay ne de hayvani bir madde katarız. Bizim yağımız yalnızca gülistandan gelir.\n\nAhmet Bey bir süre düşündü. Bu kıyası patronuna nasıl anlatacağını biliyordu artık. Yine de son bir soru sordu:\n\n— Peki, hangi koku daha güzel? Bu da mı öznel?\n\n— O kesinlikle öznel, dedi Leyla gülerek. Ama bana sorarsanız en güzeli şafakta gülistanda dolaşmak.\n\nAhmet Bey ertesi sabah saat dörtte Leyla'yla birlikte gülistana gitti. Dönerken bavulunda iki kutu da gül tütsüsü vardı.\n\nSorular:\nGüller neden güneş doğmadan toplanır?\nÇünkü güneş yükseldikçe güllerin kokusu uçar.\nLeyla kurumuş gül yapraklarından ne yapardı?\nOnları reçineyle karıştırıp küçük çubuklar halinde tütsü yapardı.\nAhmet Bey'in patronu ondan ne istedi?\nİki yağı kıyas etmesini istedi.\nLeyla neden kokunun biraz öznel olduğunu söyledi?\nÇünkü koku konusunda herkesin zevki farklıdır.\nLeyla yağına ne tür maddeler katmıyordu?\nYapay ya da hayvani hiçbir madde katmıyordu."
+    },
+    {
+      "title": "Tavandaki çiçekler",
+      "summary": "A restoration plasterer repairs the baroque ceiling of an old mansion on the Bosphorus after a water leak, reading its history layer by layer.",
+      "newWords": [
+        "sıva",
+        "barok",
+        "sülfat",
+        "hükümdarlık",
+        "birleştirici",
+        "kronolojik"
+      ],
+      "text": "Mehmet Usta bir restorasyon ustasıydı. İşi, eski binaların tavanlarındaki ve duvarlarındaki süslemeleri onarmaktı. İstanbul'da bu işi bilen çok az usta kalmıştı.\n\nBir kış günü Boğaz'daki eski bir köşkün sahibi onu aradı. Çatıdan sızan yağmur suyu salonun tavanına ulaşmış, tavandaki sıva yer yer dökülmüştü. Köşk on dokuzuncu yüzyılda, bir padişahın hükümdarlığı döneminde yapılmıştı. Salonun tavanı barok süslemelerle doluydu: kıvrılan yapraklar, çiçek demetleri, köşelerde küçük kabuklar. O dönemde Avrupa'dan gelen barok süsleme İstanbul'da çok sevilmişti; aynı hükümdarlık yıllarında yapılan birçok köşkte benzer tavanlar vardı.\n\nMehmet Usta ilk gün hiçbir şeye dokunmadı. Tavanın her köşesinin fotoğrafını çekti, dökülen sıva parçalarını tek tek toplayıp kutulara koydu. Sonra bir parçayı ikiye kırdı ve kesitine baktı. Sıvanın içinde ince ince katmanlar vardı: en altta kireçli eski bir sıva, onun üstünde alçı, en üstte de birkaç kat boya.\n\nMehmet Usta'nın yanında çalışan genç mimar Zehra bu katmanları görünce şaşırdı.\n\n— Tavan sanki bir kitap gibi, dedi.\n\n— Öyle, dedi Mehmet Usta. Her katman bir onarım. Bunları kronolojik bir sıraya koyarsak köşkün hangi dönemde ne yaşadığını anlarız.\n\nZehra parçaları laboratuvara götürdü. Sonuç bir hafta sonra geldi. Alçı katmanında bol miktarda kalsiyum sülfat vardı; bu, alçının ta kendisiydi. Ama en üstteki onarımda başka bir şey kullanılmıştı: biri, belki elli yıl önce, alçıya çimento karıştırmıştı. Çimento eski sıvayla iyi anlaşmamış, nemi içeri hapsetmişti. Tavandaki çatlakların çoğu oradan başlıyordu.\n\nMehmet Usta çimentolu katmanı sabırla kazıdı. Sonra eski tarife uygun bir karışım hazırladı: kalsiyum sülfat bakımından zengin bir alçı, biraz kireç ve su. Kireç bu karışımın birleştirici malzemesiydi; yeni sıvayı eski sıvaya yapıştıracak olan oydu. Usta kayıp yaprakları ve çiçekleri, sağlam kalan parçalardan aldığı kalıplarla yeniden yaptı.\n\nZehra bu arada bütün işi kronolojik olarak bir rapora yazdı: tavanın ilk yapılışını, sonraki onarımları ve kendi yaptıklarını. Rapor, ileride köşke gelecek ustalar için hazırlanmıştı.\n\nİş üç ay sürdü. Son gün köşkün sahibi salona girip yukarı baktı. Barok çiçekler sanki hiç dökülmemiş gibiydi.\n\n— Hangi parçalar eski, hangileri yeni? diye sordu.\n\n— Siz ayıramıyorsanız iyi iş çıkarmışız demektir, dedi Mehmet Usta. Ama Zehra Hanım'ın raporunda hepsi yazıyor.\n\nAkşam eve dönerken Zehra, ustanın ekipteki rolünü düşündü. Mimarlar, boyacılar, marangozlar onun çevresinde bir aile gibi çalışıyordu. Kireç sıvada ne ise Mehmet Usta da ekipte oydu: birleştirici bir güç.\n\nSorular:\nKöşkün tavanındaki sıva neden dökülmüştü?\nÇatıdan sızan yağmur suyu tavana ulaştığı için dökülmüştü.\nKöşk ne zaman yapılmıştı?\nOn dokuzuncu yüzyılda, bir padişahın hükümdarlığı döneminde yapılmıştı.\nLaboratuvar alçı katmanında ne buldu?\nBol miktarda kalsiyum sülfat buldu.\nKarışımdaki kirecin görevi neydi?\nKireç birleştirici malzemeydi; yeni sıvayı eski sıvaya yapıştırıyordu.\nZehra raporu nasıl yazdı?\nBütün işi kronolojik olarak, tavanın ilk yapılışından son onarıma kadar yazdı."
+    },
+    {
+      "title": "Haberlerin bekçisi",
+      "summary": "An archivist at an old news agency in Ankara digitises decades of reports and shows an intern how news used to travel.",
+      "newWords": [
+        "habercilik",
+        "multimedya",
+        "ulak",
+        "yedeklemek",
+        "yönlendirici",
+        "menenjit",
+        "revan"
+      ],
+      "text": "Zehra, Ankara'daki eski bir haber ajansının arşivcisiydi. Ajansın bodrum katında, uzun raflarda yüz yıla yakın bir habercilik geçmişi duruyordu: sararmış gazete kupürleri, cam negatifler, ses bantları, eski film makaraları. Zehra'nın görevi bunların hepsini dijital ortama aktarmak ve yeni bir multimedya arşivi kurmaktı. Bu arşivde bir haberin metni, fotoğrafı, sesi ve görüntüsü aynı yerde bulunacaktı.\n\nBir pazartesi sabahı arşive stajyer Ali geldi. Ali iletişim fakültesinde habercilik okuyordu. Zehra ona önce rafları gezdirdi.\n\n— Bu ajans kurulduğunda haberler nasıl gelirdi? diye sordu Ali.\n\n— Bazı uzak yerlerden ulakla, dedi Zehra. Telgrafın olmadığı kasabalarda bir ulak haberi alır almaz atına biner, yola revan olurdu. Haberi en yakın telgrafhaneye götürürdü. Eski kayıtlarda hâlâ \"Ulak sabah yola revan oldu\" gibi cümleler görürsün; yani yola çıktı. Bir haberin Ankara'ya ulaşması bazen iki gün sürerdi. Şimdi bir haber iki saniyede dünyayı dolaşıyor.\n\nZehra masasına oturdu ve bilgisayarı açtı. Ama ekranda bir uyarı vardı: internet bağlantısı yoktu. Odanın köşesindeki yönlendirici bozulmuştu; ışıkları yanıp sönüyordu. Ali yönlendiriciyi kapatıp açtı, ama işe yaramadı.\n\n— Ulakları özledik, dedi Zehra gülerek.\n\nTeknik servisi aradı, sonra işine devam etti. Bağlantı olmadan da tarama yapılabilirdi.\n\nO gün 1960'lı yıllardan bir dosya üzerinde çalıştılar. Dosyada bir menenjit aşı kampanyası hakkında haberler vardı. Doğu Anadolu'daki köylerde bir menenjit salgını başlamış, sağlık ekipleri karlı yollarda köy köy dolaşıp çocukları aşılamıştı. Haberin yanında bir fotoğraf vardı: kalın paltolu bir hemşire, kucağında bir çocuk, arkada bir cip. Bir de ses bandı vardı; üstünde \"Menenjit kampanyası, doktorla röportaj\" yazıyordu.\n\n— İşte multimedya arşivi bu, dedi Zehra. Metni, fotoğrafı ve sesi yan yana koyacağız. Biri bu kampanyayı araştırdığında hepsini bir arada görecek.\n\nAkşama doğru teknik servis geldi ve yeni bir yönlendirici taktı. Bağlantı geri geldi. Zehra o günkü bütün taramaları sunucuya yükledi. Sonra Ali'ye son işi gösterdi: yedeklemek.\n\n— Her akşam bütün dosyaları yedekleriz, dedi. Bir yedek burada, bir yedek başka bir binada, bir yedek de çevrim içi bir depoda durur. Yüz yıllık bir arşivi bir yönlendiriciye ya da bir diske emanet edemeyiz.\n\nAli o akşam dosyaları kendi eliyle yedekledi. Çıkarken rafların arasında bir an durdu.\n\n— Habercilik hep hız işi sanıyordum, dedi. Burada sabır işi gibi görünüyor.\n\n— İkisi de, dedi Zehra. Hızlı olan haberi verir. Sabırlı olan onu saklar.\n\nSorular:\nZehra'nın görevi neydi?\nAjansın eski arşivini dijital ortama aktarmak ve bir multimedya arşivi kurmaktı.\nEskiden telgrafı olmayan kasabalardan haber nasıl gelirdi?\nBir ulak haberi atla en yakın telgrafhaneye götürürdü.\nO sabah internet neden yoktu?\nOdanın köşesindeki yönlendirici bozulmuştu.\nDosyadaki haberler ne hakkındaydı?\nDoğu Anadolu köylerindeki bir menenjit aşı kampanyası hakkındaydı.\nZehra dosyaları nasıl yedekliyordu?\nHer akşam üç yedek alıyordu: biri ajansta, biri başka bir binada, biri çevrim içi bir depoda duruyordu."
+    },
+    {
+      "title": "Rayların yanında otuz yıl",
+      "summary": "A railway track walker on the winding line near Karabük spends his last weeks before retirement checking sleepers, as he has for thirty years.",
+      "newWords": [
+        "travers",
+        "dolambaçlı",
+        "kıdem",
+        "devamsızlık",
+        "gururlan",
+        "tereddütsüz",
+        "aerobik",
+        "bovling"
+      ],
+      "text": "İbrahim, Karabük ile Zonguldak arasındaki demir yolunda yol bekçisiydi. Otuz yıldır her sabah aynı işi yapıyordu: rayların yanında yürüyerek on beş kilometrelik bir bölümü kontrol etmek. Bu bölümde hat dağların arasından dolambaçlı bir yolla geçiyordu. Tren tüneller, köprüler ve keskin virajlar arasında ağır ağır ilerliyordu. Dolambaçlı hatlar en çok bakım isteyen hatlardı.\n\nİbrahim'in çantasında bir çekiç, bir anahtar ve küçük bir defter vardı. Yürürken her traversin üstüne bakar, gevşek bir vida gördüğünde anahtarla sıkardı. Traversler rayları taşıyan ağır kirişlerdi; eskiden ahşaptı, şimdi çoğu betondu. Bir travers çatlarsa ray yerinden oynayabilirdi.\n\nBölgedeki bekçilerin arasında kıdemi en fazla olan İbrahim'di. Otuz yıl boyunca her gün işinin başındaydı. Müdürlükteki kayıtlarda adının yanında tek bir devamsızlık bile yoktu. Gençler ona bu yüzden şaka yollu \"Devamsızlık Sıfır\" diyordu.\n\nBir kış sabahı hava çok sisliydi. İbrahim bir virajın ortasında durdu: bir traversin ortasından boydan boya bir çatlak geçiyordu. Saat sekizdeki yük treni yirmi dakika sonra buradan geçecekti. İbrahim hiç durmadan, tereddütsüz istasyonu aradı ve trenin yavaş gelmesini istedi. Sonra rayların ortasına kırmızı bayrağını dikti. Tren o virajı yürüyüş hızında geçti; öğleden sonra ekip gelip traversi değiştirdi.\n\nO akşam müdür onu aradı:\n\n— İbrahim Bey, tereddütsüz davrandığınız için teşekkür ederim. Kıdeminiz boşuna değil.\n\nEmekliliğine birkaç hafta kalmıştı. Kızı Merve ona her akşam telefon ediyordu. Merve, Ankara'da doktordu.\n\n— Baba, emekli olunca da yürümeyi bırakma, dedi bir akşam. Aerobik egzersiz kalbe çok iyi gelir.\n\nİbrahim güldü.\n\n— Kızım, ben otuz yıldır her gün on beş kilometre aerobik yapıyorum.\n\nSon iş gününde arkadaşları istasyonda ona küçük bir tören hazırladılar. Bir de hediye verdiler: bir bovling topu.\n\n— Artık traverslerle değil, lobutlarla uğraşacaksın, dedi en genç bekçi.\n\nİbrahim hediyeyi şaşkınlıkla tuttu. Ömründe hiç bovling oynamamıştı. Ama törene Ankara'dan gelen Merve'nin gözleri doluydu; babasıyla çok gururlanıyordu.\n\n— Seninle gururlanıyorum baba, dedi. Otuz yıl, tek bir devamsızlık yok.\n\nİbrahim de içten içe gururlandı. Hafta sonu Merve'yle birlikte ilk kez bovling salonuna gitti. İlk atışında bütün lobutları devirdi.\n\nSorular:\nİbrahim'in işi neydi?\nRayların yanında yürüyerek on beş kilometrelik bir hattı kontrol etmekti.\nTraversler ne işe yarar?\nTraversler rayları taşıyan ağır kirişlerdir.\nGençler İbrahim'e neden \"Devamsızlık Sıfır\" diyordu?\nÇünkü otuz yılda kayıtlarında tek bir devamsızlık bile yoktu.\nSisli sabah İbrahim ne yaptı?\nÇatlak bir travers gördü, tereddütsüz istasyonu aradı ve trenin yavaş gelmesini istedi.\nArkadaşları İbrahim'e ne hediye etti?\nBir bovling topu hediye ettiler."
+    },
+    {
+      "title": "Süngerci Hasan",
+      "summary": "An old sponge diver in Bodrum teaches his granddaughter, a biotechnology student, to dive and tells her what a bad year once taught the divers.",
+      "newWords": [
+        "balıklama",
+        "baloncuk",
+        "çırpınmak",
+        "musibet",
+        "biyoteknoloji"
+      ],
+      "text": "Hasan, Bodrum'un son süngercilerinden biriydi. Gençliğinde her yaz bir tekneyle aylarca denize açılır, deniz dibinden doğal sünger toplardı. Şimdi yetmiş yaşındaydı. Teknesi limanda duruyor, o da her sabah kahvede oturup denize bakıyordu.\n\nO yaz torunu Ayşe yanına geldi. Ayşe İzmir'de üniversitede biyoteknoloji okuyordu. Hocası denizdeki süngerler üzerine bir araştırma yapıyordu. Bazı süngerlerin içinde ilaç yapımında kullanılabilecek maddeler vardı ve biyoteknoloji bu maddeleri laboratuvarda üretmenin yollarını arıyordu.\n\n— Dede, dedi Ayşe, hocam canlı süngerlerin fotoğraflarını istiyor. Beni onların yaşadığı yere götürür müsün?\n\nHasan sevindi. Ertesi sabah teknesini hazırladı, Ayşe'yle birlikte koydan dışarı çıktı. Sakin, berrak bir sabahtı.\n\n— Eskiden biz böyle dalardık, dedi Hasan. Elimizde yassı bir taş tutar, suya balıklama atlardık. Taş bizi hızla dibe indirirdi. Bir nefeste dibe iner, süngeri keser, yukarı çıkardık.\n\nSonra kendi gençliğindeki gibi teknenin kenarından suya balıklama atladı. Ayşe onu şaşkınlıkla izledi; dedesi yetmiş yaşında hâlâ bir genç gibi dalıyordu. Biraz sonra suyun yüzüne küçük baloncuklar çıktı, ardından Hasan'ın başı göründü.\n\nAyşe de maskesini taktı ve suya girdi. Ama ilk dakikalarda heyecandan nefesini tutamadı; suyun yüzünde çırpınıp duruyordu. Hasan yanına yüzdü.\n\n— Çırpınma, dedi sakin bir sesle. Su sana karşı değil. Sırtüstü yat, nefes al, sonra yavaşça in.\n\nAyşe dedesinin dediğini yaptı. Bu kez suyun altına süzüldü ve kayaların arasında koyu renkli süngerleri gördü. Fotoğraflarını çekti. Yukarı çıkarken ağzından çıkan baloncukların ışığa doğru yükselişini izledi.\n\nTeknede kurulanırken Hasan ona bir hikâye anlattı.\n\n— Seksenli yıllarda bir musibet geldi, dedi. Bir hastalık bütün denizdeki süngerleri yok etti. Bir yıl içinde neredeyse hiç sünger kalmadı. Biz de o yıl hiç iş yapamadık, çok zor günler geçirdik.\n\n— Sonra ne oldu? diye sordu Ayşe.\n\n— Sonra öğrendik. Eskiden her süngeri sökerdik, küçüğünü de büyüğünü de. O musibetten sonra küçükleri bırakmayı, süngeri kökünden değil üstünden kesmeyi öğrendik, çünkü sünger yeniden büyür. Atalarımız \"Bir musibet bin nasihatten iyidir\" der.\n\nAyşe bu sözleri defterine yazdı. Hocasına göndereceği rapora da ekledi: biyoteknoloji, süngerleri denizden sökmeden onlardan yararlanmanın yolunu arıyordu. Dedesi bu dersi kırk yıl önce denizin dibinde öğrenmişti.\n\nSorular:\nAyşe üniversitede ne okuyordu?\nAyşe İzmir'de biyoteknoloji okuyordu.\nEski süngerciler nasıl dalardı?\nEllerinde yassı bir taşla suya balıklama atlar, bir nefeste dibe inerlerdi.\nAyşe suya ilk girdiğinde ne oldu?\nHeyecandan nefesini tutamadı ve suyun yüzünde çırpındı.\nSeksenli yıllarda nasıl bir musibet geldi?\nBir hastalık denizdeki süngerlerin neredeyse hepsini yok etti.\nSüngerciler o musibetten sonra ne öğrendi?\nKüçük süngerleri bırakmayı ve süngeri kökünden değil üstünden kesmeyi öğrendiler."
+    },
+    {
+      "title": "İpek ve denim",
+      "summary": "A silk weaver in an old Bursa inn works with her son, who designs denim, on a jacket that joins both fabrics.",
+      "newWords": [
+        "ipekçi",
+        "denim",
+        "örtüş",
+        "tabu",
+        "empoze"
+      ],
+      "text": "Bursa'daki eski bir hanın üst katında, küçük bir dükkânda Emine Hanım ipek dokurdu. Emine Hanım bir ipekçiydi. Babası da, dedesi de ipekçiydi. Bir zamanlar Bursa'nın her köşesinde ipekçi dükkânları vardı; köylüler koza getirir, ipekçiler kozadan ipliği çeker, tezgâhta eşarp ve kumaş dokurdu. Şimdi handa yalnızca birkaç ipekçi kalmıştı.\n\nEmine Hanım'ın oğlu Yusuf ise bambaşka bir işte çalışıyordu. İstanbul'da bir giyim şirketinde denim tasarımcısıydı. Kot pantolonların, kot ceketlerin kumaşını o seçiyor, rengini o belirliyordu. Denim sağlam, kalın, her gün giyilen bir kumaştı. İpek ise ince, hafif ve özel günlerin kumaşıydı.\n\nBir bahar günü Yusuf annesini ziyarete geldi. Elinde bir çizim dosyası vardı.\n\n— Anne, dedi, şirket yeni bir koleksiyon hazırlıyor. Moda markaları yıllardır bize aynı şeyi empoze ediyor: her şey ucuz olsun, her şey hızlı olsun. Ben bu kez başka bir şey yapmak istiyorum. Bir denim ceket, ama içi senin ipeğinden.\n\nEmine Hanım gözlüğünü taktı ve çizimlere baktı. Bir süre hiçbir şey söylemedi. Babası için ipeği başka bir kumaşla karıştırmak bir tabuydu. \"İpek ipektir, onu hiçbir şeyle birleştirmezsin,\" derdi. Emine Hanım da yıllarca bu tabuya uymuştu.\n\n— Deden bunu duysa ne derdi, biliyor musun? dedi.\n\n— Biliyorum, dedi Yusuf gülerek. Ama dedem de kendi zamanında yeni desenler denemiş. Sen anlatmıştın.\n\nEmine Hanım düşündü. Son yıllarda dükkânına genç müşteriler de gelmeye başlamıştı. Onlar ipeği günlük hayatta giymek istiyorlardı, yalnızca düğünlerde değil. Yusuf'un fikri bu gençlerin isteğiyle örtüşüyordu. Üstelik kendi düşüncesiyle de örtüşüyordu: ipek dolapta beklememeli, giyilmeliydi.\n\n— Peki, dedi sonunda. Ama bir şartım var. Kimse bana bir desen empoze etmeyecek. Ceketin içindeki ipeği ben tasarlayacağım.\n\n— Anlaştık, dedi Yusuf.\n\nEmine Hanım bir ay boyunca tezgâhının başından kalkmadı. Koyu mavi denimin içine uygun, açık mavi bir ipek dokudu; kenarlarına Bursa'nın eski çini desenlerinden küçük çiçekler işledi. Yusuf ilk ceketi diktirip handaki dükkâna getirdi. Dışı sert bir denim, içi yumuşak bir ipekti.\n\nEmine Hanım ceketi denedi ve aynaya baktı. İki kumaş birbirine beklediğinden çok daha iyi uyuyordu.\n\n— Babamın tabusu bugün bozuldu, dedi gülümseyerek. Ama ipekçi yine benim.\n\nSorular:\nEmine Hanım'ın mesleği neydi?\nEmine Hanım bir ipekçiydi; Bursa'da eski bir handa ipek dokurdu.\nYusuf hangi işte çalışıyordu?\nİstanbul'da bir giyim şirketinde denim tasarımcısıydı.\nYusuf'a göre moda markaları ne empoze ediyordu?\nHer şeyin ucuz ve hızlı olmasını empoze ediyordu.\nEmine Hanım'ın babası için tabu neydi?\nİpeği başka bir kumaşla karıştırmak onun için bir tabuydu.\nYusuf'un fikri kimin isteğiyle örtüşüyordu?\nİpeği günlük hayatta giymek isteyen genç müşterilerin isteğiyle örtüşüyordu."
+    }
+  ]
+}

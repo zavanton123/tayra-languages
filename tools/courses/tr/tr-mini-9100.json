@@ -1,0 +1,186 @@
+{
+  "id": "tr-mini-9100",
+  "rankUpTo": 9100,
+  "level": "C2",
+  "title": "Kimya ve malzemeler",
+  "description": "Ten short texts (reports, letters, columns, an interview) in which everyday places in Turkey and beyond, from a tile kiln and a barber's shop to a coral reef and a henna night, show the chemistry of materials at work.",
+  "topic": "Chemistry and materials",
+  "names": [
+    "Eskişehir",
+    "Halil",
+    "Ankara",
+    "Ayla",
+    "Avustralya",
+    "Merve",
+    "Esra",
+    "İzmir",
+    "Hasan",
+    "Adana",
+    "Leyla",
+    "Karaburun",
+    "İstanbul",
+    "Hatice",
+    "Ömer",
+    "Fatma",
+    "Burak",
+    "Sinan",
+    "Ali",
+    "Bursa",
+    "İbrahim",
+    "Mehmet",
+    "Zehra",
+    "Anadolu"
+  ],
+  "lessons": [
+    {
+      "title": "Kiremidin ateşi",
+      "summary": "A visitor spends a day at an old roof-tile workshop near Eskişehir and learns from the master how clay, iron and fire make a good tile.",
+      "newWords": [
+        "kiremit",
+        "harıl",
+        "işbaş",
+        "kalifiye",
+        "layıkıyla",
+        "büyükçe",
+        "upuzun",
+        "levye"
+      ],
+      "text": "Geçen sonbahar, Eskişehir'e yakın küçük bir köyde yüz yıllık bir kiremit atölyesini ziyaret ettim. Atölye, köyün dışında, upuzun bir kavak sırasının sonunda duruyordu. Sabah yedide vardığımda işçiler çoktan işbaşı yapmıştı. Avluda harıl harıl çalışan on kadar kişi vardı: kimi çamuru karıştırıyor, kimi kalıpları dolduruyor, kimi de kurumuş kiremitleri fırına taşıyordu. Avlunun ortasında, tuğladan örülmüş büyükçe bir fırın duruyordu.\n\nAtölyenin sahibi Halil Usta beni büyükçe bir masanın yanına götürdü. Masanın üzerinde iki kiremit vardı: biri koyu kırmızı, öteki soluk ve çatlak.\n\n— İkisi de aynı topraktan, dedi. Fark, işin layıkıyla yapılıp yapılmamasında.\n\nHalil Usta'ya göre iyi bir kiremidin sırrı önce kildedir. Kil, çok ince taneli bir topraktır; suyla karışınca yumuşar ve kolayca şekil alır. Kuruyunca sertleşir, ama yalnızca kurumak yetmez: kurumuş kiremit yağmur alınca yeniden çamura döner. Asıl değişim fırında olur. Yaklaşık 900 derecede kilin içindeki su tamamen çıkar ve küçük taneler birbirine kaynar. Bu kimyasal bir dönüşümdür; geri dönüşü yoktur. Kiremide rengini veren ise topraktaki demirdir: demir, fırındaki oksijenle birleşerek o tanıdık kırmızıyı oluşturur.\n\n— Soluk olan fırında yeterince kalmamış, dedi Halil Usta. Acele etmişiz. Kalifiye bir ustanın gözü bunu hemen görür.\n\nAtölyede çalışanların çoğu genç değildi. Halil Usta, kalifiye eleman bulmanın her yıl biraz daha zorlaştığını anlattı. Gençler şehirdeki fabrikalara gidiyordu; orada kiremitler makineyle, büyük bir hızla yapılıyordu. Fabrika kiremidi daha ucuzdu, ama Halil Usta'nın deyişiyle \"ruhsuzdu\".\n\nÖğleden sonra köyün eski evlerinden birinin çatısına çıktık. Ev sahibi, çatıdaki kırık kiremitlerin değişmesini istiyordu. Genç bir işçi, eski kiremitleri levyeyle dikkatle kaldırdı. Levyeyi kiremidin altına yavaşça sokuyor, hafifçe bastırıyordu; kiremit kırılmadan yerinden çıkıyordu. Bazı kiremitler seksen yıllıktı ve hâlâ sağlamdı.\n\n— Bak, dedi Halil Usta, bunları dedem yapmış. Layıkıyla yapılan iş, insandan uzun yaşar.\n\nAkşam köyden ayrılırken upuzun kavak sırasının arkasında güneş batıyordu. Fırının bacasından ince bir duman yükseliyordu. Avluda işçiler hâlâ harıl harıl çalışıyordu; ertesi sabah yine erkenden işbaşı yapacaklardı.\n\nSorular:\nYazar atölyeye vardığında işçiler ne yapıyordu?\nİşçiler çoktan işbaşı yapmıştı ve avluda harıl harıl çalışıyordu.\nKiremide kırmızı rengini ne verir?\nTopraktaki demir, fırındaki oksijenle birleşerek kiremide kırmızı rengini verir.\nSoluk kiremit neden öyle olmuş?\nFırında yeterince kalmamış, çünkü acele edilmiş.\nKalifiye eleman bulmak neden zorlaşıyor?\nGençler şehirdeki fabrikalara gidiyor; orada kiremitler makineyle yapılıyor.\nİşçi eski kiremitleri nasıl kaldırdı?\nLevyeyi kiremidin altına yavaşça sokup hafifçe bastırarak kaldırdı."
+    },
+    {
+      "title": "Bronz levhadaki yazıt",
+      "summary": "A museum conservator in Ankara tests the alloy of a small bronze plaque, finds its inscription genuine and revises an old reading with the blessing of the professor who made it.",
+      "newWords": [
+        "alaşım",
+        "yazıt",
+        "sahih",
+        "mümtaz",
+        "müstesna",
+        "tahrir",
+        "revizyon",
+        "memnu"
+      ],
+      "text": "Ankara'daki bir müzenin restorasyon laboratuvarında çalışan Ayla Hanım, yirmi yıldır eski metal eserlerle uğraşıyor. Laboratuvarın kapısında eski bir levha asılı: \"Eserlere çıplak elle dokunmak memnudur.\" Ayla Hanım, ilk gün bu cümleye gülümsediğini anlatıyor; \"memnu\" kelimesini o güne kadar yalnızca eski romanlarda görmüş. Ama kural, kelimesi kadar eski ve ciddi: eldeki yağ ve tuz, metalin yüzeyinde yıllarca sürecek bir bozulma başlatabilir. Bu yüzden laboratuvarda eldivensiz çalışmak bugün de memnu.\n\nGeçen ay laboratuvara müstesna bir parça geldi: üzerinde kısa bir yazıt bulunan, avuç içi büyüklüğünde bronz bir levha. Bronz, büyük ölçüde bakırdan oluşan bir alaşımdır. Alaşım, iki ya da daha çok metalin eritilip karıştırılmasıyla elde edilir; ortaya çıkan madde çoğu zaman onu oluşturan metallerin her birinden daha sert ve dayanıklıdır. İnsanlar bu yüzden binlerce yıl önce bronzdan alet, kap ve levha yapmaya başlamıştı.\n\nLevhanın yüzeyi yeşil bir tabakayla kaplıydı. Bu yeşil renk, bakırın havadaki oksijen ve suyla yüzyıllar boyunca girdiği tepkimelerin sonucudur. Ayla Hanım'ın ilk sorusu, yazıtın sahih olup olmadığıydı. Piyasada, eski görünsün diye kimyasallarla yeşertilmiş sahte levhalar da dolaşıyordu.\n\nBunu anlamanın bir yolu, alaşımın kendisine bakmaktır. Eski ustaların kullandığı alaşım bugünkünden farklıdır; içinde, o dönemin madenlerinden gelen çok küçük miktarlarda başka metaller bulunur. Laboratuvardaki cihaz, levhaya zarar vermeden bu metallerin oranını ölçtü. Sonuç açıktı: alaşım eskiydi, yazıt sahihti. Ayla Hanım'ın elindeki levha, gerçekten müstesna bir eserdi.\n\nSonra sıra yazıtın okunmasına geldi. Levha otuz yıl önce bir kez okunmuş ve kayda geçmişti. O okumayı yapan, ülkenin en mümtaz yazıt uzmanlarından biri sayılan bir profesördü. Ne var ki temizlenen yüzeyde, o dönemde fark edilmeyen iki harf ortaya çıktı. Bu iki harf, cümlenin anlamını biraz değiştiriyordu. Ayla Hanım, eski okumada bir revizyon gerektiğini düşündü ve yeni metni dikkatle tahrir etti.\n\nMümtaz profesör bugün doksan yaşında. Ayla Hanım, revizyonu yayımlamadan önce ona bir mektup yazdı. Profesörün cevabı kısaydı: \"Bilim, kendi revizyonunu yapabildiği sürece bilimdir. Metni tahrir ederken gösterdiğiniz özen için size teşekkür ederim.\"\n\nAyla Hanım bu mektubu laboratuvarın duvarına, o eski levhanın yanına astı. Biri bir kuralı, öteki bir tavrı hatırlatıyor.\n\nSorular:\nLaboratuvarda neden çıplak elle çalışmak memnu?\nÇünkü eldeki yağ ve tuz, metalin yüzeyinde bir bozulma başlatabilir.\nBronz nasıl bir alaşımdır?\nBronz, büyük ölçüde bakırdan oluşan, sert ve dayanıklı bir alaşımdır.\nAyla Hanım yazıtın sahih olduğunu nasıl anladı?\nCihaz, alaşımdaki metallerin oranını ölçtü; alaşımın eski olduğu anlaşıldı.\nEski okumada neden bir revizyon gerekti?\nTemizlenen yüzeyde, daha önce fark edilmeyen iki harf ortaya çıktı.\nMümtaz profesör mektubunda ne yazdı?\nBilimin kendi revizyonunu yapabildiği sürece bilim olduğunu yazdı ve teşekkür etti."
+    },
+    {
+      "title": "Resiften bir mektup",
+      "summary": "A young marine biologist on a research ship in Australia writes to a friend about the chemistry of a coral reef, her moment of despair and the koalas she saw on land.",
+      "newWords": [
+        "resif",
+        "koala",
+        "alabildiğine",
+        "tutunmak",
+        "ümitsizlik",
+        "sömürmek",
+        "sıcakkanlı",
+        "yitmek"
+      ],
+      "text": "Sevgili Merve,\n\nAvustralya'ya geleli üç ay oldu. Sana bu mektubu araştırma gemisinin küçük kamarasından yazıyorum. Penceremden alabildiğine uzanan, mavinin her tonuna boyanmış bir deniz görünüyor. Bu suyun altında dünyanın en büyük mercan resifi var.\n\nResif uzaktan bakınca bir kaya gibi görünür, ama aslında canlıdır. Onu oluşturan mercanlar küçücük hayvanlardır. Her biri, deniz suyundaki kalsiyumu kullanarak kendine sert, beyaz bir iskelet yapar. Milyonlarca mercanın iskeleti üst üste birikince resif oluşur. Mercanların dokusunda yaşayan minik bitkiler de onlara hem besin hem renk verir.\n\nBizim ekip resifin kimyasını ölçüyor. Okyanus, havadaki karbondioksitin bir bölümünü emer. Bu gaz suya karışınca hafif bir asit oluşur ve deniz suyu yavaş yavaş asitleşir. Asitli suda mercanların iskelet yapması zorlaşır. Bir de sıcaklık var: su birkaç derece ısınınca o minik bitkiler mercanı terk eder ve mercan bembeyaz kalır. Beyazlayan mercan hemen ölmez, ama uzun süre böyle kalırsa yitip gider. Bazı bölgelerde resifin yarısı böyle yitmiş.\n\nİlk haftalarda beyazlamış alanları görünce derin bir ümitsizliğe kapıldım. İnsanlar yıllarca denizi alabildiğine sömürdü, dedim kendi kendime; şimdi bedelini mercanlar ödüyor. Ekibin başındaki yaşlı biyolog çok sıcakkanlı bir kadın. Ümitsizliğimi fark edince beni bir sabah resifin başka bir köşesine götürdü. Orada, beyazlamış bir alanın kenarında, genç mercanların kayalara yeniden tutunduğunu gördük. Küçücük, renkli, inatçı canlılardı. Bir mercan yavrusu uygun bir yüzey bulursa ona tutunur ve yeni bir topluluk başlatır.\n\n— Doğa, sömürülen her şeyi geri vermez, dedi biyolog. Ama ona zaman tanırsan yeniden tutunmayı bilir. Ümitsizlik ise bize hiçbir şey kazandırmaz.\n\nHafta sonları karaya çıkıyoruz. Geçen pazar bir korulukta ilk kez koala gördüm. Bir ağacın dalına sarılmış, uyuyordu. Koalalar günün büyük bölümünü uyuyarak geçirirmiş, çünkü yedikleri yapraklar çok az enerji verirmiş. Bu sıcakkanlı, sakin hayvanlara bakarken resifi düşündüm. Koalalar da ormanlarını kaybederse yitip gidebilir. İkisi de yaşadığı yere sıkı sıkıya bağlı.\n\nDöndüğümde sana anlatacak çok şeyim olacak. Şimdilik bu kadar.\n\nSevgiyle,\nEsra\n\nSorular:\nEsra mektubu nereden yazıyor?\nAvustralya'da, araştırma gemisinin küçük kamarasından yazıyor.\nResif nasıl oluşur?\nMilyonlarca mercanın sert iskeleti üst üste birikince resif oluşur.\nAsitli su mercanları nasıl etkiler?\nAsitli suda mercanların iskelet yapması zorlaşır.\nEsra neden ümitsizliğe kapıldı?\nResifte beyazlamış alanları gördüğü için ümitsizliğe kapıldı.\nSıcakkanlı biyolog Esra'ya ne gösterdi?\nGenç mercanların kayalara yeniden tutunduğunu gösterdi.\nKoalalar neden çok uyur?\nÇünkü yedikleri yapraklar çok az enerji verir."
+    },
+    {
+      "title": "Annemin mutfağındaki kimya",
+      "summary": "A chemist remembers her mother's kitchen in İzmir as her first laboratory: the milkman's milk curdling, spinach and stones, a slow stew, şalgam, cornelian cherry sherbet changing colour, and her father's grapefruit.",
+      "newWords": [
+        "sütçü",
+        "bidon",
+        "ıspanak",
+        "mesane",
+        "yahni",
+        "şalgam",
+        "kızılcık",
+        "greyfurt"
+      ],
+      "text": "Annemin mutfağı, ben farkında olmadan, çocukluğumun ilk kimya laboratuvarıydı. Bunu yıllar sonra, üniversitede kimya okurken anladım.\n\nİzmir'deki evimizin kapısını her sabah sütçü çalardı. Sütçü Hasan Amca, sütü köyden büyük alüminyum bidonlarla getirir, annemin uzattığı tencereye bidondan döküverirdi. Annem bu sütün bir kısmını kaynatır, bir kısmını peynir yapmak için ayırırdı. Ayırdığı süte biraz limon sıkınca süt kesilir, beyaz parçalar suyun içinde toplanırdı. Ben buna sihir derdim. Oysa olan şey basitti: sütteki proteinler, asidin etkisiyle birbirine tutunur ve dibe çöker. Sütçünün bidonundan gelen süt, böylece tezgâhın üstünde küçük bir deneye dönüşürdü.\n\nKışın sofrada sık sık ıspanak olurdu. Annem \"Ispanak demir doludur\" derdi. Gerçekten de ıspanakta demir vardır, ama vücut bu demiri kolay kolay alamaz, çünkü ıspanak bir tür asit de içerir. Bu asit kalsiyumla birleşince suda erimeyen küçük kristaller oluşturur. Bu kristaller fazla birikirse böbrekte ya da mesanede taş yapabilir. Doktorlar bu yüzden böbrek ya da mesane taşı olan hastalara ıspanağı az yemelerini söyler. Annemin ıspanağı hep yoğurtla vermesi de aslında akıllıcaymış: yoğurttaki kalsiyum, o asidin bir kısmını daha midede bağlıyor.\n\nPazar günleri annem etli bir yahni pişirirdi. Yahniyi kısık ateşte saatlerce kaynatırdı. Etin sert dokusu uzun süre ısıyla yumuşar, çünkü onu bir arada tutan lifler yavaş yavaş çözülür. Annem yahninin sırrını tek kelimeyle açıklardı: sabır. Kimyacı olarak ben de aynı şeyi söylüyorum, yalnızca daha uzun cümlelerle.\n\nBabam Adana'dandı; evimizde şalgam hiç eksik olmazdı. Şalgam suyu, mor havuç ve biraz şalgamın tuzlu suda günlerce bekletilmesiyle yapılır. Bu sürede suda bakteriler çoğalır ve şekeri bir asite dönüştürür; şalgamın ekşi tadı buradan gelir. Koyu rengi ise havucun mor boyasından.\n\nO mor boyanın bir benzeri kızılcıkta da vardır. Bir gün annem kızılcık şerbetinin içine yanlışlıkla bir kaşık karbonat döktü; şerbet bir anda kırmızıdan mavimsi bir renge döndü. Kızılcığın rengi, içinde bulunduğu sıvının asitliğine göre değişir. Ben o gün, adını bilmeden, hayatımdaki ilk kimya deneyini seyretmiştim.\n\nSon olarak greyfurt. Babam her sabah yarım greyfurt yerdi. Doktoru bir gün ona, içtiği ilaçla greyfurdu birlikte almamasını söyledi, çünkü greyfurt bazı ilaçların vücutta parçalanmasını yavaşlatır. Babam biraz bozuldu ama sözünü dinledi; greyfurdu öğleden sonraya aldı.\n\nMutfak, kimyayı kitaplardan önce öğreten bir yer. Annem bunu bilmiyordu, ama her şeyi doğru yapıyordu.\n\nSorular:\nSütçü sütü nasıl getirirdi?\nSütçü Hasan Amca, sütü köyden büyük alüminyum bidonlarla getirirdi.\nLimon sıkılınca süt neden kesilir?\nSütteki proteinler, asidin etkisiyle birbirine tutunur ve dibe çöker.\nMesane taşı olan hastalara neden ıspanağı az yemeleri söylenir?\nÇünkü ıspanaktaki asit, kalsiyumla birleşip taş yapabilen kristaller oluşturur.\nAnnem yahninin sırrını nasıl açıklardı?\nYahninin sırrını tek kelimeyle, sabır diye açıklardı.\nŞalgamın ekşi tadı nereden gelir?\nBakterilerin şekeri bir asite dönüştürmesinden gelir.\nDoktor babama greyfurt hakkında ne söyledi?\nİlacıyla greyfurdu birlikte almamasını söyledi."
+    },
+    {
+      "title": "Ortancanın rengi",
+      "summary": "A retired chemistry teacher who moved to a village in Karaburun finds her blue hydrangeas turning pink and works out, with a neighbour's help, that the soil is to blame.",
+      "newWords": [
+        "ortanca",
+        "fulya",
+        "maki",
+        "kurtçuk",
+        "yolmak",
+        "telaşlanmak",
+        "sezgisel",
+        "buzağı"
+      ],
+      "text": "Leyla emekli bir kimya öğretmeni. Üç yıl önce İzmir'den Karaburun'daki küçük bir köye taşındı. Köyün çevresindeki tepeler makiyle kaplı: kokulu, sık, kısa çalılar. Kışın bu makilerin arasında fulyalar açar; sarı ve beyaz fulyaların kokusu rüzgârla bütün köye yayılır.\n\nLeyla taşınırken İstanbul'daki eski evinin balkonundan mavi ortancalarını da getirdi. İlk yaz ortancalar güzelce açtı. Ama ikinci yaz, Leyla bir sabah bahçeye çıkınca gözlerine inanamadı: mavi ortancalar pembeye dönmüştü. Önce telaşlandı; çiçekler hastalandı mı diye düşündü. Yapraklarına baktı, köklerine baktı, toprağı eşeledi. Toprakta birkaç kurtçuk buldu, ama bunlar zararsızdı. Kurtçuklar toprağı havalandırıyor, bitkiye yardım ediyordu.\n\nSonra öğretmenliği aklına geldi ve telaşlanmayı bıraktı. Ortancanın rengi toprağın kimyasına bağlıdır. Asitli toprakta bitki, topraktaki alüminyumu alabilir ve çiçekleri mavi olur. Kireçli toprakta ise alüminyum suya geçmez; bitki onu alamaz ve çiçekler pembe açar. Karaburun'un toprağı kireçliydi. Leyla'nın ortancaları hasta değildi; yalnızca yeni topraklarını anlatıyorlardı.\n\nLeyla bu işi bir deneyle çözmeye karar verdi. Ortancaların bir kısmını saksılara aldı, saksıların toprağına çam iğnesi ve kahve telvesi karıştırdı. Bu malzemeler toprağı yavaş yavaş asitli hâle getirir. Öteki ortancaları ise olduğu gibi bıraktı.\n\nKomşusu Hatice, Leyla'nın bahçede ot yolduğunu görünce yanına geldi. Hatice'nin ahırında o bahar yeni doğmuş bir buzağı vardı; Hatice buzağıyı her sabah çayıra götürürken Leyla'nın bahçesinin önünden geçerdi. Buzağı da bu kez annesinin yanından ayrılıp çitin dibine kadar gelmişti.\n\n— Ortancaların rengini mi değiştiriyorsun? diye sordu Hatice. Annem de eskiden çiçeklerin dibine paslı çiviler gömerdi.\n\nLeyla gülümsedi. Hatice'nin annesinin yöntemi kimya kitaplarında yazmıyordu, ama sezgisel olarak doğru bir yere dokunuyordu: toprağın kimyasını değiştirerek bitkinin neyi alabileceğini değiştirmek. Köylülerin bilgisi çoğu zaman böyle sezgiseldir; yüzlerce yıllık gözleme dayanır.\n\nİki kadın birlikte otları yolmaya devam etti. Hatice otları kökünden yoluyor, Leyla da onları bir sepete atıyordu. Buzağı, çitin öbür yanından onları merakla seyrediyordu.\n\nErtesi yaz saksıdaki ortancalar yeniden maviye döndü; bahçedekiler pembe kaldı. Leyla ikisini de sevdi. Kışın ise tepelerdeki makilerin arasında yine fulyalar açtı.\n\nSorular:\nKaraburun'daki tepeler neyle kaplı?\nTepeler makiyle, yani kokulu, sık ve kısa çalılarla kaplı.\nLeyla ortancaların pembeye döndüğünü görünce ne yaptı?\nÖnce telaşlandı; yapraklara, köklere baktı ve toprağı eşeledi.\nToprakta bulduğu kurtçuklar zararlı mıydı?\nHayır, kurtçuklar zararsızdı; toprağı havalandırıyorlardı.\nOrtancalar neden pembe açtı?\nKaraburun'un toprağı kireçli olduğu için bitki alüminyumu alamadı.\nHatice'nin annesinin yöntemi neden sezgisel olarak doğruydu?\nÇünkü toprağın kimyasını değiştirerek bitkinin neyi alabileceğini değiştiriyordu.\nİki kadın birlikte ne yaptı?\nBirlikte bahçedeki otları yoldular."
+    },
+    {
+      "title": "Hapsolan hava",
+      "summary": "A new building manager in Ankara gets cold radiators working again by letting out trapped air, has an electrician repair an unauthorised job, and explains to his wife why her plastic pegs keep breaking.",
+      "newWords": [
+        "kalorifer",
+        "tali",
+        "hapsolmak",
+        "elektrikçi",
+        "yetkisiz",
+        "merci",
+        "galon",
+        "mandal",
+        "lineer"
+      ],
+      "text": "Ankara'da kışlar uzun ve serttir. Ömer'in oturduğu eski apartmanda kalorifer, bina kadar yaşlı. Ömer bu yıl apartmanın yöneticiliğini üstlendi ve daha ilk soğuk günde bir sorunla karşılaştı: en üst kattaki dairelerin kaloriferleri ısınmıyordu.\n\nÖmer önce bodrumdaki kazan dairesine indi. Ana boru oradan çıkıyor, her kata giden tali borulara ayrılıyordu. Kazan çalışıyordu, su sıcaktı; ama sıcak su tali borulardan üst katlara ulaşmıyordu. Ömer'in aklına babasının bir sözü geldi: \"Kalorifer ısınmıyorsa içinde hava vardır.\"\n\nGerçekten de öyleydi. Sistem yaz boyunca boş kalmış, sonbaharda yeniden doldurulurken peteklerin içinde hava hapsolmuştu. Hapsolan hava, suyun geçmesini engelliyordu. Ömer üst kattaki dairelere tek tek gitti ve her peteğin yanındaki küçük vanayı açtı. Önce bir tıslama duyuldu, sonra birkaç damla su geldi. Hava çıkmış, su yeniden akmaya başlamıştı.\n\nAma sorun bitmedi. Kazanın pompası arada bir duruyordu. Ömer bir elektrikçi çağırdı. Elektrikçi, pompanın kablolarına bakınca yüzünü buruşturdu.\n\n— Buraya yetkisiz biri elini sürmüş, dedi. Bir elektrikçi bu bağlantıları böyle yapmaz.\n\nAnlaşıldı ki önceki yönetici, masraf olmasın diye pompayı bir tanıdığına onartmıştı. Yetkisiz yapılan bu onarım hem tehlikeliydi hem de sistemin garantisini bitirmişti. Elektrikçi bağlantıları yeniden yaptı ve Ömer'e, kazanın yıllık bakımı için yetkili mercilere başvurması gerektiğini söyledi. Ömer ertesi gün ilgili mercie, yani doğal gaz şirketine başvurdu; bir hafta sonra yetkili servis geldi.\n\nServisten gelen genç teknisyen sistemin suyuna bir galon koruyucu sıvı ekledi. Bu sıvı, boruların içinde demirin paslanmasını yavaşlatıyordu. Teknisyene göre bir galon, bütün bina için yetiyordu.\n\nO akşam Ömer eve döndüğünde eşi Fatma, çamaşırları kaloriferin üstünde kuruturken kullandığı plastik mandalların kırıldığından yakınıyordu. Ömer mandallardan birini eline aldı. Plastik, uzun zincir biçiminde moleküllerden oluşur. Bazı plastiklerde bu zincirler lineer, yani düz bir çizgi gibidir ve birbirinin yanında düzenli dizilir. Lineer zincirli plastikler ısınınca yumuşar, soğuyunca yeniden sertleşir. Her gün ısınıp soğuyan bir mandalın içinde zincirler zamanla kopar ve plastik kırılgan olur.\n\n— Mandalları kaloriferin üstüne değil, yanına as, dedi Ömer. Hem kaloriferler artık ısınıyor; çamaşırlar orada da kurur.\n\nFatma güldü ve mandalları kaloriferin yanındaki askıya taşıdı.\n\nSorular:\nÜst kattaki kaloriferler neden ısınmıyordu?\nPeteklerin içinde hava hapsolmuştu ve bu hava suyun geçmesini engelliyordu.\nÖmer hapsolan havayı nasıl çıkardı?\nHer peteğin yanındaki küçük vanayı açarak çıkardı.\nElektrikçi pompada ne fark etti?\nPompanın bağlantılarına yetkisiz birinin elini sürdüğünü fark etti.\nTeknisyen sistemin suyuna ne ekledi?\nDemirin paslanmasını yavaşlatan bir galon koruyucu sıvı ekledi.\nPlastik mandallar neden kırılıyordu?\nHer gün ısınıp soğudukları için içlerindeki lineer zincirler kopuyor ve plastik kırılgan oluyordu."
+    },
+    {
+      "title": "Sesin saffeti",
+      "summary": "A trumpet student at the İzmir conservatory learns about brass from his old teacher, is teased by his cousin the rapper, and ends up playing on his cousin's song with the teacher's trust.",
+      "newWords": [
+        "konservatuvar",
+        "majör",
+        "saffet",
+        "kürklü",
+        "rapçi",
+        "sataşmak",
+        "güdü",
+        "itimat"
+      ],
+      "text": "Burak, İzmir'deki konservatuvarın ikinci sınıfında trompet okuyor. Trompeti dedesinden kalma. Dedesi de bir zamanlar aynı konservatuvarda okumuş, sonra yıllarca bir orkestrada çalmış.\n\nTrompet pirinçten yapılır. Pirinç, bakır ile çinkonun bir alaşımıdır. Alaşımdaki bakır arttıkça metal daha kırmızımsı ve daha yumuşak olur; sesi de daha sıcak çıkar. Burak'ın trompetinin yüzeyi yer yer kararmıştı. Bu kararma, bakırın havadaki oksijenle girdiği yavaş bir tepkimenin sonucuydu. Konservatuvardaki hocası Sinan Bey, ona trompeti ılık, sabunlu suyla yıkamasını ve sert temizleyicilerden uzak durmasını söylemişti.\n\nSinan Bey eski kuşaktan bir müzisyendi. Kışın derslere kürklü bir paltoyla gelir, o kürklü paltoyu çıkarmadan önce öğrencilerine bir majör gam çaldırırdı.\n\n— Do majör, derdi. Önce sesin saffetini duymak istiyorum. Saffeti olmayan ses, ne kadar yüksek olursa olsun, müzik değildir.\n\nBurak \"saffet\" kelimesini ilk kez ondan duymuştu: arılık, temizlik anlamına geliyordu. Sinan Bey'e göre bir sesin saffeti, metalin saffetine benzerdi: içine karışan her yabancı şey onu bulandırırdı.\n\nBurak'ın kuzeni Ali ise rapçiydi. Ali, her fırsatta Burak'a sataşırdı:\n\n— Hâlâ dedenin trompetiyle majör gam mı çalıyorsun? Gel, benim şarkıma bir şey çal da biraz para kazan.\n\nBurak önceleri bu sataşmalara bozulurdu. Ama bir gün kuzeninin küçük stüdyosuna gitti. Rapçi kuzeni, bilgisayarda hazırladığı ritmi ve üzerine yazdığı sözleri ona dinletti. Burak, trompetle kısa bir ezgi ekledi. Ezgi, do majör gamın sade notalarından oluşuyordu. Ali bir süre sustu, sonra kaydı yeniden dinletti. Bu kez Burak'a sataşmadı; yalnızca \"Bir daha çal,\" dedi.\n\nAkşam Burak, Sinan Bey'e olanları anlattı. Bir rapçinin şarkısında çalmasının konservatuvarda hoş karşılanmayacağından çekiniyordu. Sinan Bey biraz düşündü.\n\n— Seni bu işe iten güdü ne? diye sordu. Para mı, merak mı, sevgi mi?\n\n— Merak, dedi Burak. Bir de kuzenime bir şey göstermek istedim.\n\n— Güdün temizse müziğin türü önemli değil. Sana itimadım tam. Yeter ki sesin saffetini kaybetme.\n\nBurak, hocasının itimadını boşa çıkarmadı. Bahar konserinde do majör bir parçayı çaldı; ay sonunda da kuzeninin şarkısı yayımlandı. Şarkının sonunda, dedesinin trompetinden çıkan kısa ve temiz bir ezgi duyuluyordu.\n\nSorular:\nTrompet neden yer yer kararmıştı?\nBakır, havadaki oksijenle yavaş bir tepkimeye girmişti.\nSinan Bey derslerde önce ne isterdi?\nÖğrencilerine bir majör gam çaldırır ve sesin saffetini duymak isterdi.\nAli, Burak'a nasıl sataşırdı?\nHâlâ dedesinin trompetiyle majör gam çaldığı için ona takılırdı.\nSinan Bey, Burak'a hangi güdüyü sordu?\nOnu bu işe iten güdünün para mı, merak mı, sevgi mi olduğunu sordu.\nSinan Bey sonunda Burak'a ne dedi?\nOna itimadının tam olduğunu ve sesin saffetini kaybetmemesini söyledi."
+    },
+    {
+      "title": "Usturanın çeliği",
+      "summary": "An old barber in Bursa explains the steel of his razor and the alum stone he uses, and talks with his oldest customer, a retired judge, about the years when he arrived penniless and about dishonest sellers.",
+      "newWords": [
+        "ustura",
+        "kür",
+        "hakimlik",
+        "meteliksiz",
+        "gariban",
+        "çarçur",
+        "fırsatçı"
+      ],
+      "text": "Bursa'nın eski çarşısında kırk yıllık bir berber dükkânı var. Dükkânın sahibi İbrahim Usta, müşterilerini hâlâ usturayla tıraş ediyor. Duvarda, babasından kalma bir ustura asılı duruyor; sapı kemikten, ağzı çeliktendir.\n\nİbrahim Usta'ya göre iyi bir usturanın sırrı çeliğindedir. Çelik, demirle çok az miktarda karbonun alaşımıdır. Karbon arttıkça çelik sertleşir ve ağzı daha keskin olur; ama çelik fazla sertleşirse kırılgan da olur. Usta bu dengeyi bulmak için yıllarca farklı usturalar denemiş. Şimdi usturasını her sabah deri bir kayışa sürterek biliyor.\n\nTıraştan sonra müşterinin yüzüne beyaz, saydam bir taş sürüyor. Bu taş, alüminyum içeren bir tuzdur. Küçük kesiklerde kanı durdurur ve deriyi sıkılaştırır; tıraşın ardından yüzde kalan yanmayı da azaltır.\n\nDükkânın en eski müşterisi Halil Bey, emekli bir hakim. Otuz beş yıl hakimlik yapmış. Hakimlikten emekli olduktan sonra her cumartesi dükkâna gelip tıraş oluyor ve İbrahim Usta'yla uzun uzun sohbet ediyor.\n\nHalil Bey'in derisi hassas. Doktoru ona her yıl Bursa'nın kaplıcalarında iki haftalık bir kür önermiş. Bu kür, sıcak ve kükürtlü sularda yapılan banyolardan oluşuyor. Kükürt, derideki küçük yaraları kurutur ve iyileştirir. Halil Bey kürü bitirince yüzü rahatlıyor ve usturanın keskinliğine daha kolay dayanıyor.\n\nİbrahim Usta'nın hayatı her zaman bu kadar düzenli olmamış. Gençliğinde, köyünden yeni gelmiş meteliksiz bir gariban olarak bu dükkânda çırak olarak başlamış. O yıllarda kazandığı az parayı çarçur etmemiş; her lirayı biriktirip ilk usturasını almış. Halil Bey o zamanlar genç bir hakimmiş. Meteliksiz çırağa ilk bahşişini o vermiş.\n\nBir cumartesi Halil Bey, çarşıdaki yeni dükkânlardan söz etti. Bazı fırsatçılar, ucuz ve kötü çelikten yapılmış usturaları \"el yapımı\" diye pahalıya satıyormuş.\n\n— Hakimlik yaptığım yıllarda çok fırsatçı gördüm, dedi Halil Bey. Hepsinin ortak noktası, garibanların bilgisizliğinden yararlanmaktır.\n\nİbrahim Usta başını salladı.\n\n— Ben de meteliksizken bir kez kandırıldım, dedi. Kötü çelikten bir ustura aldım; bir ayda paslandı. Paramı çarçur ettim, ama dersimi aldım. Şimdi çırağıma da söylüyorum: önce çeliğe bak, sonra fiyata.\n\nHalil Bey güldü ve yüzünü yeniden ustaya uzattı. Ustura, sabunun üzerinde sessizce kaymaya başladı.\n\nSorular:\nİbrahim Usta müşterilerini neyle tıraş ediyor?\nMüşterilerini hâlâ usturayla tıraş ediyor.\nÇelikte karbon artınca ne olur?\nÇelik sertleşir ve ağzı keskinleşir, ama fazla sertleşirse kırılgan olur.\nHalil Bey kaplıcada nasıl bir kür yapıyor?\nSıcak ve kükürtlü sularda yapılan banyolardan oluşan iki haftalık bir kür yapıyor.\nİbrahim Usta gençliğinde parasını ne yaptı?\nParasını çarçur etmedi; her lirayı biriktirip ilk usturasını aldı.\nHalil Bey'e göre fırsatçıların ortak noktası nedir?\nHepsi garibanların bilgisizliğinden yararlanır."
+    },
+    {
+      "title": "Simyadan kimyaya",
+      "summary": "A listener reports on a public lecture in İstanbul by a retired chemistry professor about alchemists and their patrons, activation energy, and what is fiction in films.",
+      "newWords": [
+        "metafizik",
+        "feodal",
+        "hami",
+        "projeksiyon",
+        "kurgusal",
+        "spoiler",
+        "aktivasyon",
+        "tasavvur"
+      ],
+      "text": "Geçen hafta İstanbul'da bir kültür merkezinde, kimyanın tarihi üzerine verilen bir konferansa gittim. Konuşmacı, emekli bir kimya profesörü olan Mehmet Bey'di. Salon kalabalıktı. Arkadaki bir projeksiyon cihazı, sahnedeki büyük perdeye eski el yazmalarından resimler yansıtıyordu.\n\nMehmet Bey söze simya ile başladı. Orta Çağ'da simyacılar, kurşunu altına çevirmenin yolunu arıyordu. Bu arayış yalnızca maddeyle ilgili değildi; aynı zamanda metafizik bir arayıştı. Simyacılara göre maddenin dönüşümü, insanın iç dünyasındaki bir dönüşümün yansımasıydı. Bugün bize kurgusal gelen bu metafizik düşünceler, o dönemde ciddi olarak tartışılırdı.\n\nProjeksiyonda bu kez bir şatonun resmi belirdi. Mehmet Bey, simyacıların çoğunun bir hamisi olduğunu anlattı. Feodal beyler ve zengin aileler, altın üretme umuduyla simyacılara para ve çalışma odası verirdi. Hami karşılığında zenginlik beklerdi; simyacı ise çoğu zaman hamisini oyalayacak bir sonuç bulmak zorunda kalırdı. Feodal dünyanın bu garip ilişkileri, bilimin ilk laboratuvarlarının kurulmasına da yol açmıştı.\n\nSimyacılar hiçbir zaman altın üretemedi. Bugün bunun nedenini biliyoruz: kurşunu altına çevirmek, kimyasal bir tepkimeyle değil, atomun çekirdeğini değiştirmekle olur. Ama simyacıların emeği boşa gitmedi. Damıtma ve süzme gibi yöntemleri onlar geliştirdi. Metafizik soruların peşinden giderken kimyanın aletlerini yaptılar.\n\nSonra Mehmet Bey, bir kimyasal tepkimenin nasıl başladığını anlattı. Her tepkimenin başlaması için aşılması gereken bir enerji eşiği vardır; buna aktivasyon enerjisi denir. Masadaki bir kâğıt, havadaki oksijenle iç içe olduğu hâlde kendiliğinden yanmaz, çünkü yanmanın aktivasyon enerjisi yüksektir. Bir kibritin alevi bu eşiği aşmaya yeter. Bazı maddeler ise aktivasyon enerjisini düşürerek tepkimeyi hızlandırır. Vücudumuzdaki pek çok tepkime de böyle maddeler sayesinde olur.\n\nSoru bölümünde genç bir dinleyici, sevdiği bir bilimkurgu filmindeki parlak, kırılmaz metalin gerçekte var olup olamayacağını sordu.\n\n— Size spoiler vermeyeyim, dedi profesör; belki filmi henüz izlememiş olanlar vardır. Ama şunu söyleyebilirim: o metal büyük ölçüde kurgusal.\n\nSalonun arkasından biri \"Lütfen spoiler yok!\" diye seslendi; herkes güldü.\n\nKonferansın sonunda Mehmet Bey gençlere döndü. Simyacıların altını tasavvur ettiğini, bugünün kimyacılarının ise güneş ışığını depolayan, kendi kendini onaran malzemeleri tasavvur ettiğini söyledi. \"Bugün tasavvur bile edemediğimiz malzemeleri belki sizler bulacaksınız,\" dedi.\n\nSorular:\nProjeksiyon cihazı perdeye ne yansıtıyordu?\nEski el yazmalarından resimler yansıtıyordu.\nSimyacıların arayışı neden metafizik bir arayıştı?\nÇünkü onlara göre maddenin dönüşümü, insanın iç dünyasındaki bir dönüşümün yansımasıydı.\nFeodal beyler simyacılara neden para verirdi?\nSimyacıların altın üreteceğini umdukları için para verirlerdi.\nKâğıt neden kendiliğinden yanmaz?\nÇünkü yanmanın aktivasyon enerjisi yüksektir.\nProfesör filmdeki metal hakkında ne dedi?\nSpoiler vermek istemedi, ama o metalin büyük ölçüde kurgusal olduğunu söyledi."
+    },
+    {
+      "title": "Kınanın kimyası",
+      "summary": "An interview with a chemist who is chief advisor at a cosmetics company in İstanbul about the chemistry of henna, its place in folklore, and the danger of illegally sold \"black henna\".",
+      "newWords": [
+        "başdanışman",
+        "görücü",
+        "kınalı",
+        "folklor",
+        "inovasyon",
+        "kızarıklık",
+        "gayrimeşru",
+        "hukuksal"
+      ],
+      "text": "Zehra Hanım, İstanbul'daki bir kozmetik şirketinde başdanışman olarak çalışan bir kimyacı. Son iki yıldır kına üzerine bir araştırma yürütüyor. Kendisiyle laboratuvarında konuştuk.\n\n— Kına neden ilginizi çekti?\n\n— Çocukluğumdan beri. Anneannem görücü usulüyle evlenmiş. Görücüler eve geldiğinde ellerinin kınalı olduğunu hep anlatırdı. Kına gecesinde ellerine yakılan kınanın rengi haftalarca solmamış. Ben o kınalı ellerin hikâyesiyle büyüdüm. Kimyacı olunca da merak ettim: bu renk nasıl bu kadar kalıcı oluyor?\n\n— Peki, nasıl oluyor?\n\n— Kına bitkisinin yapraklarında renk veren küçük bir molekül var. Yapraklar toz hâline getirilip ılık suyla karıştırılınca bu molekül ortaya çıkar. Deriye sürüldüğünde, derinin dış tabakasındaki proteinlere bağlanır. Bu bağ çok sağlamdır; renk ancak deri yenilendikçe kaybolur. Saçta da durum aynıdır.\n\n— Kına, Anadolu folklorunda nasıl bir yer tutuyor?\n\n— Çok büyük bir yer. Folklor araştırmacıları, kınanın yüzyıllardır düğünlerde ve bayramlarda kullanıldığını kaydetmiş. Kına gecesinde gelinin elleri kınalı olur; yanındaki kızlar türküler söyler. Folklorda kına, sevincin ve yeni bir başlangıcın işaretidir.\n\n— Şirketiniz için kına neden önemli?\n\n— İnovasyon için. İnsanlar artık doğal boyalar istiyor. Bizim inovasyon ekibimiz, kınanın renklerini çeşitlendirmenin yollarını arıyor, ama kınanın kimyasını bozmadan. Doğal olanla yeni olanı birleştirmek, bence en iyi inovasyon budur.\n\n— Kara kına da sık konuşulan bir konu.\n\n— Evet, bu konuda insanları uyarmamız gerekiyor. Tatil yerlerinde \"kara kına\" diye satılan bazı karışımlarda, saç boyalarında kullanılan güçlü bir kimyasal bulunuyor. Bu madde doğrudan deriye sürülünce ciddi kızarıklık, kaşıntı ve yara yapabiliyor. Kızarıklık bazen haftalarca sürüyor; bazı insanlarda iz bile bırakıyor. Bu ürünlerin çoğu gayrimeşru yollarla, hiçbir denetimden geçmeden satılıyor.\n\n— Bunun hukuksal bir boyutu var mı?\n\n— Var. Kozmetik ürünlerinin içeriği hukuksal kurallara bağlıdır. Ama gayrimeşru satıcıları denetlemek zor. Ben başdanışman olarak şirketimize, kutularımıza açık uyarılar koymayı önerdim. Hukuksal olarak zorunlu değil, ama doğru olan bu.\n\n— Son olarak: sizin elleriniz kınalı mı?\n\n— (Gülüyor.) Geçen ay kızımın kına gecesi vardı. Evet, hâlâ biraz kınalı.\n\nSorular:\nZehra Hanım nerede çalışıyor?\nİstanbul'daki bir kozmetik şirketinde başdanışman olarak çalışıyor.\nAnneannesi nasıl evlenmiş?\nGörücü usulüyle evlenmiş; görücüler geldiğinde elleri kınalıymış.\nKınanın rengi neden kalıcıdır?\nKınadaki molekül, derinin dış tabakasındaki proteinlere sağlam bir bağla bağlanır.\nFolklorda kına neyin işaretidir?\nSevincin ve yeni bir başlangıcın işaretidir.\nKara kına deride ne yapabilir?\nCiddi kızarıklık, kaşıntı ve yara yapabilir.\nZehra Hanım şirketine ne önerdi?\nKutulara açık uyarılar koymayı önerdi."
+    }
+  ]
+}

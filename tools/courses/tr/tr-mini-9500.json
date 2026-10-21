@@ -1,0 +1,179 @@
+{
+  "id": "tr-mini-9500",
+  "rankUpTo": 9500,
+  "level": "C2",
+  "title": "Şehir planlaması",
+  "description": "Ten standalone stories about how Turkish towns and cities are planned, built and lived in: building sites, streets, water, parks, health and old places kept alive.",
+  "topic": "Urban planning",
+  "names": [
+    "İzmir",
+    "Esra",
+    "Halil",
+    "Merve",
+    "Antalya",
+    "Hasan",
+    "Eskişehir",
+    "Ömer",
+    "Leyla",
+    "Bursa",
+    "Zehra",
+    "Burak",
+    "Fatma",
+    "Avrupa",
+    "Bogota",
+    "TransMilenio",
+    "Ciclovía",
+    "Mehmet",
+    "Ayla",
+    "Türkiye",
+    "Cem",
+    "Samanyolu",
+    "Mars",
+    "Jüpiter",
+    "Voyager",
+    "Yusuf"
+  ],
+  "lessons": [
+    {
+      "title": "Şantiyede bir sabah",
+      "summary": "A site engineer in İzmir checks a modular housing site and secures a delivery date.",
+      "newWords": [
+        "şantiye",
+        "modüler",
+        "fosforlu",
+        "süveter",
+        "köhne",
+        "garantile",
+        "aksamak",
+        "kolaçan",
+        "çıkagel"
+      ],
+      "text": "İzmir'de kasım sabahları serin olur. Esra o sabah montunun altına kalın, gri bir süveter giymiş, saat yedide şantiyeye varmıştı. Şantiye, kentin kuzeyindeki eski bir mahallede, yıllarca boş kalmış köhne bir binanın yerindeydi. Belediye bu köhne yapıyı yıktırmış, yerine modüler konutlardan oluşan küçük bir site yapılmasına karar vermişti.\n\nModüler yapının mantığı basittir: evin parçaları fabrikada üretilir, şantiyede yalnızca birleştirilir. Bu yüzden iş hızlı ilerler, çevreye daha az toz ve gürültü yayılır. Esra bu projenin mühendisiydi ve modüler konutların mahalleye iyi geleceğine inanıyordu.\n\nKapıdan girer girmez işçilerin fosforlu yeleklerini gördü. Sisli havada fosforlu renkler uzaktan bile parlıyordu. Esra da kendi yeleğini süveterinin üstüne geçirdi, kaskını taktı ve her sabahki gibi şantiyeyi kolaçan etmeye başladı. Önce iskeleleri, sonra elektrik kablolarını, en son da temelin yanındaki su birikintilerini kolaçan etti.\n\nSon haftalarda işler biraz aksıyordu. Yağmurlar yüzünden beton geç kurumuş, bir kamyon da yolda arıza yapmıştı. Esra, takvimin aksamasından çok mahalle sakinlerinin sabrından endişe ediyordu; çünkü insanlar yeni evlerinin bir an önce bitmesini bekliyordu.\n\nSaat dokuza doğru, hiç haber vermeden, evlerin parçalarını üreten firmanın sahibi Halil Bey çıkageldi. Esra şaşırdı, çünkü toplantı ertesi gün içindi. Halil Bey gülümsedi:\n\n— Kusura bakmayın, yakından geçiyordum, böyle habersiz çıkageldim. Takvimi birlikte konuşalım dedim.\n\nŞantiyedeki küçük ofise geçtiler. Esra aksayan işleri tek tek anlattı. Halil Bey dikkatle dinledi, sonra fabrikayı aradı. Telefonu kapattığında rahatlamış görünüyordu:\n\n— Son parçaları ayın yirmisinde göndereceğiz. Tarihi garantiledim; fabrika o hafta yalnızca sizin işinize çalışacak.\n\n— Bunu yazılı olarak da garantilemek mümkün mü? diye sordu Esra.\n\n— Elbette. Öğleden önce yazılı olarak gönderirim.\n\nHalil Bey gidince Esra bir kez daha şantiyeyi dolaştı. Köhne binadan geriye yalnızca eski bir kapı tokmağı kalmıştı; onu ofisteki masasında saklıyordu. Birkaç ay sonra bu arsada aileler oturacak, çocuklar bahçede oynayacaktı. Esra süveterinin kollarını sıvadı ve işinin başına döndü.\n\nSorular:\nEsra o sabah neler giymişti?\nMontunun altına kalın, gri bir süveter giymişti; şantiyede de üstüne fosforlu bir yelek geçirdi.\nŞantiye nerede kuruluydu?\nKentin kuzeyindeki eski bir mahallede, köhne bir binanın yerinde kuruluydu.\nModüler konutların avantajı nedir?\nParçalar fabrikada üretildiği için iş hızlı ilerler, çevreye daha az toz ve gürültü yayılır.\nİşler neden aksıyordu?\nYağmurlar yüzünden beton geç kurumuş, bir kamyon da yolda arıza yapmıştı.\nHalil Bey ne garantiledi?\nSon parçaların ayın yirmisinde gönderileceğini garantiledi."
+    },
+    {
+      "title": "Caddemizi daraltmak",
+      "summary": "A resident's column asks the city to test narrowing a busy avenue before deciding.",
+      "newWords": [
+        "daraltmak",
+        "sürdürülebilirlik",
+        "efektif",
+        "geçilmez",
+        "ihtilaf",
+        "hitaben",
+        "manasız",
+        "kısalmak"
+      ],
+      "text": "Bu yazıyı, mahallemizin ana caddesi hakkında karar verecek olan belediyenin ulaşım dairesine hitaben yazıyorum; ama aynı caddeyi her gün kullanan komşularıma da hitaben.\n\nYıllardır caddemiz dört şeritli bir otoyol gibi işliyor. Sabah ve akşam saatlerinde arabalar o kadar sıkışıyor ki cadde yayalar için neredeyse geçilmez bir duvara dönüşüyor. Okula giden çocuklar, pazara giden yaşlılar karşıya geçmek için dakikalarca bekliyor. Kâğıt üzerinde bir yol olan bu cadde, gerçekte mahallenin iki yakası arasında geçilmez bir sınır.\n\nBelediyenin önerisi caddeyi daraltmak: dört şeritten ikisini kaldırıp yerine geniş kaldırımlar, ağaçlar ve bir bisiklet yolu yapmak. Öneri açıklanınca mahallede bir ihtilaf çıktı. Esnafın bir kısmı müşterilerin park yeri kalmayacağından korkuyor; bazı sürücüler de yolu daraltmanın trafiği daha da kötüleştireceğini düşünüyor. Bu ihtilafı küçümsemek istemiyorum; kaygılar anlaşılır.\n\nAncak başka şehirlerin deneyimi farklı bir şey söylüyor. Yolu daraltan pek çok kentte bir süre sonra trafiğin azaldığı görülmüş; çünkü insanlar kısa yolculuklar için arabayı bırakıp yürümeye, bisiklete ya da otobüse binmeye başlamış. Yaya geçitlerinin uzunluğu kısalınca karşıya geçmek hem kolaylaşmış hem daha güvenli hale gelmiş. Kimi kentlerde otobüs yolculuğu on dakika kısalmış.\n\nSürdürülebilirlik bugün her toplantıda geçen bir kelime oldu. Ne yazık ki çoğu zaman manasız bir slogandan öteye gidemiyor. Oysa sürdürülebilirlik büyük sözlerle değil, somut kararlarla anlam kazanır: bir caddenin çocuklara geri verilmesiyle, gölge veren bir ağaçla, güvenli bir bisiklet yoluyla.\n\nBelediyeden tek bir isteğim var: kararı alırken efektif bir yöntem izlesin. Önce geçici bariyerlerle birkaç aylık bir deneme yapılsın, esnafla ve sakinlerle düzenli toplantılar düzenlensin, sonuçlar açıkça paylaşılsın. Bu, hem en ucuz hem en efektif yoldur. Herkesin fikri sorulmadan alınan bir karar, ne kadar doğru olursa olsun, manasız bir kavgaya dönüşebilir.\n\nCaddemizi daraltmak aslında mahallemizi genişletmek demek. Geçilmez bir yolun yerine insanların buluştuğu bir cadde, bence bu ihtilafa değer.\n\nSorular:\nYazar bu yazıyı kime hitaben yazıyor?\nBelediyenin ulaşım dairesine ve caddeyi her gün kullanan komşularına hitaben yazıyor.\nCadde yayalar için neden geçilmez bir duvara dönüşüyor?\nSabah ve akşam saatlerinde arabalar çok sıkıştığı için yayalar karşıya geçemiyor.\nBelediye caddeyi nasıl daraltmak istiyor?\nDört şeritten ikisini kaldırıp yerine geniş kaldırımlar, ağaçlar ve bir bisiklet yolu yapmak istiyor.\nMahallede neden bir ihtilaf çıktı?\nEsnaf park yeri kalmayacağından, bazı sürücüler de trafiğin kötüleşeceğinden korkuyor.\nYazara göre en efektif yöntem nedir?\nÖnce geçici bariyerlerle bir deneme yapmak, sakinlerle konuşmak ve sonuçları açıkça paylaşmaktır."
+    },
+    {
+      "title": "Flamingolar ve kentin suyu",
+      "summary": "A chemist at a treatment plant protects the flamingos' wetland and meets a viper.",
+      "newWords": [
+        "kimyager",
+        "flamingo",
+        "amonyum",
+        "mikroorganizma",
+        "debi",
+        "haşere",
+        "engerek",
+        "benek"
+      ],
+      "text": "Merve, İzmir'in kuzeyindeki atık su arıtma tesisinde kimyager olarak çalışıyor. Tesis, kentin kenarında, denize açılan geniş bir sulak alanın hemen yanında. Bu sulak alan her yıl binlerce flamingoya ev sahipliği yapıyor. Merve işe gelirken, tuzlu suyun içinde tek ayak üstünde duran pembe flamingoları görmeden güne başlamıyor.\n\nBir kimyagerin buradaki görevi kâğıt üzerinde basit: kentten gelen kirli suyun temizlenip denize öyle bırakılmasını sağlamak. Ama iş göründüğünden incedir. Atık sudaki amonyum fazla olduğunda sudaki oksijeni azaltır, balıkları ve dolaylı olarak flamingoları etkiler. Merve her sabah sudan örnek alıyor, amonyum düzeyini ölçüyor ve sonuçları bir tabloya işliyor.\n\nSuyu asıl temizleyenler ise gözle görülmeyen mikroorganizmalar. Havuzlara verilen havayla çoğalan bu mikroorganizmalar, amonyumu yavaş yavaş daha zararsız maddelere dönüştürüyor. Merve onlara şakayla tesisin \"en çalışkan işçileri\" diyor.\n\nTesise su getiren derenin debisi de önemli. Kışın yağmurlarla debi artınca havuzlar taşabilir; yazın debi düşünce su ısınır ve kokar. Merve bu yüzden derenin debisini her gün kontrol ediyor.\n\nBir yaz belediye, sivrisinek ve başka haşerelerle mücadele etmek için sulak alanın kenarına güçlü bir ilaç sıkmayı planladı. Merve bunu duyunca endişelendi: ilaç suya karışırsa mikroorganizmaları da öldürebilir, flamingoların besini olan küçük canlılara zarar verebilirdi. Belediyeye bir rapor yazdı ve haşereye karşı daha yumuşak yöntemler önerdi: durgun su birikintilerini kurutmak, sivrisinek yiyen küçük balıkları havuzlara bırakmak. Öneri kabul edildi.\n\nMerve hafta sonları sulak alanın içindeki yürüyüş yolunda dolaşmayı seviyor. Bir pazar sabahı yolun ortasında güneşlenen bir engerek gördü. Sırtındaki koyu benekler zikzak bir çizgi oluşturuyordu. Merve durdu ve sessizce bekledi. Engerek bir süre sonra otların arasına kaydı. Merve, yılanların da bu alanın sahiplerinden biri olduğunu biliyor; benekli sırtıyla engerek, sağlıklı bir doğanın işaretiydi.\n\nAkşam eve dönerken flamingolar gün batımında suyun üstünde pembe benekler gibi görünüyordu. Merve, kentin suyunu temizlemenin aynı zamanda bu kuşların evini korumak olduğunu düşündü.\n\nSorular:\nMerve nerede ve hangi görevde çalışıyor?\nİzmir'in kuzeyindeki atık su arıtma tesisinde kimyager olarak çalışıyor.\nAmonyum neden önemlidir?\nFazla olduğunda sudaki oksijeni azaltır; balıkları ve dolaylı olarak flamingoları etkiler.\nSuyu asıl kimler temizliyor?\nGözle görülmeyen mikroorganizmalar temizliyor.\nMerve derenin debisini neden kontrol ediyor?\nKışın debi artınca havuzlar taşabilir, yazın debi düşünce su ısınır ve kokar.\nMerve haşerelere karşı ne önerdi?\nDurgun su birikintilerini kurutmayı ve sivrisinek yiyen küçük balıkları havuzlara bırakmayı önerdi.\nMerve yürüyüş yolunda ne gördü?\nSırtında koyu benekler olan bir engerek gördü."
+    },
+    {
+      "title": "Çatıdaki arılar",
+      "summary": "A part-time beekeeper keeps hives and a kiwi vine on a city roof in Antalya.",
+      "newWords": [
+        "arıcılık",
+        "aromatik",
+        "portakallı",
+        "kivi",
+        "yağmalamak",
+        "evvelki",
+        "bükülmek"
+      ],
+      "text": "Hasan, Antalya'da bir belediye binasının çatısında arıcılık yapıyor. Aslında bir muhasebeci; arıcılığa beş yıl önce, babasından öğrendiği bilgilerle başladı. Kentte arıcılık ilk duyulduğunda insanlara garip gelir: arılar şehirde ne bulacak? Oysa Antalya'nın parkları, bahçeleri ve sokaklardaki portakal ağaçları arılar için zengin bir sofradır.\n\nBelediye, kent içinde arıcılığı desteklemek için birkaç binanın çatısını bahçeye dönüştürdü. Hasan'ın çatısında artık on kovan var. Kovanların çevresine aromatik bitkiler dikildi: lavanta, kekik, adaçayı. Aromatik bitkiler hem arıları çekiyor hem de çatıda çalışanlara güzel bir koku bırakıyor. Yaz öğlenlerinde bu aromatik koku bütün terası sarıyor.\n\nBaharda portakallar çiçek açınca arılar sabahtan akşama sokaklara uçuyor. O haftalarda toplanan bal açık renkli ve hafif portakallı oluyor. Hasan bu portakallı balı çok seviyor; annesi de her yıl ondan portakallı bir kek yapıyor.\n\nÇatının bir köşesinde bir de kivi asması var. Evvelki yıl Hasan asmayı tellere bağlamış, ilk meyveleri sabırla beklemişti. Ne var ki meyveler olgunlaşınca kuşlar geldi. Bir sabah kivileri yağmaladılar; Hasan çatıya çıktığında dallarda tek bir sağlam meyve kalmamıştı.\n\nHasan evvelki yılın bu dersini unutmadı. Geçen yıl asmanın üstüne ince bir file gerdi. Bu kez kuşlar kivileri yağmalamadı ve hasat bol oldu. Dallar o kadar yüklüydü ki meyvelerin ağırlığıyla aşağı doğru büküldü. Hasan bükülen dalları desteklemek için altlarına tahta çubuklar yerleştirdi; yine de bazı ince dallar rüzgârda büküldükçe endişelendi. Sonunda kivileri bir hafta erken topladı ve komşularına dağıttı. Komşular da karşılık olarak ona evlerinde yaptıkları reçelleri getirdi.\n\nHasan'a göre çatı bahçeleri yalnızca bal ya da meyve için değil, kentin sıcağını azaltmak için de önemli. Yeşil bir çatı, yazın binanın içini birkaç derece serin tutuyor. Hasan hafta sonları okul gruplarını çatıya davet ediyor, çocuklara arıcılığı anlatıyor. Çocuklar en çok portakallı balın tadına bakmaya bayılıyor; kivi zamanı geldiğinde de herkes bir tane kivi alıp evine götürüyor.\n\nSorular:\nHasan arıcılığa nasıl başladı?\nBeş yıl önce, babasından öğrendiği bilgilerle başladı.\nKovanların çevresine neden aromatik bitkiler dikildi?\nBu bitkiler arıları çekiyor ve çatıya güzel bir koku bırakıyor.\nBal neden portakallı oluyor?\nArılar baharda sokaklardaki portakal çiçeklerine uçuyor.\nEvvelki yıl kivilere ne oldu?\nKuşlar kivileri yağmaladı ve dallarda sağlam meyve kalmadı.\nDallar neden büküldü?\nHasat çok bol olduğu için dallar meyvelerin ağırlığıyla aşağı doğru büküldü."
+    },
+    {
+      "title": "Nişasta fabrikası",
+      "summary": "An old starch factory in Eskişehir becomes a modest culture centre that honours its workers.",
+      "newWords": [
+        "nişasta",
+        "önsöz",
+        "melankolik",
+        "reva",
+        "narsist",
+        "böbürlenmek",
+        "kinetik",
+        "bateri"
+      ],
+      "text": "Eskişehir'in eski sanayi bölgesinde, demiryolunun hemen yanında, 1950'lerde kurulmuş bir nişasta fabrikası vardı. Fabrika buğdaydan nişasta üretir, bu nişastayı kâğıt ve kumaş fabrikalarına satardı. 1990'larda kapandıktan sonra bina uzun yıllar boş kaldı. Belediye sonunda yapıyı yıkmak yerine bir kültür merkezine dönüştürmeye karar verdi.\n\nGeçen ay merkezin açılışı için küçük bir kitap yayımlandı. Kitabın önsözünü, fabrikada otuz yıl çalışmış olan Ömer Usta yazdı. Ömer Usta önsözde, sabahları bacadan yükselen buharı, nişasta çuvallarının beyaz tozunu, öğle yemeklerinde paylaşılan ekmeği anlatıyor. Böyle bir binanın yıkılmasını kimsenin reva görmeyeceğini de yazıyor. Önsözün son cümlesi şöyle: \"Bu duvarlar bizim gençliğimizi hatırlıyor.\"\n\nKitabı okuyanların çoğu biraz melankolik bir duyguya kapılıyor: kapanan bir fabrika, dağılan bir mahalle, başka şehirlere giden işçiler... Ama mimarlar binayı tasarlarken bu melankolik havayı hüzne değil, saygıya dönüştürmek istemişler. Eski tuğla duvarlar, demir kirişler ve büyük pencereler olduğu gibi korunmuş. Yıkılmayı reva görmedikleri bu yapıya yalnızca cam bir giriş eklemişler.\n\nProjenin başındaki mimar Leyla Hanım, açılışta şunları söyledi:\n\n— Bazı mimarlar binalarını kendi adlarının anıtı gibi tasarlar. Böyle narsist bir yaklaşım bize uygun değildi. Biz kendi imzamızla böbürlenmek değil, burada çalışanların emeğini yâd etmek istedik.\n\nGerçekten de binada böbürlenen bir gösteriş yok. Giriş salonunda, eski makinelerin parçalarından yapılmış kinetik bir heykel duruyor. Rüzgârla ya da ziyaretçilerin dokunuşuyla dişliler yavaşça dönüyor. Kinetik heykel, fabrikanın bir zamanlar hiç durmayan hareketini yâd ediyor.\n\nÜst katta gençler için müzik stüdyoları var. Akşamları oradan bateri sesleri yükseliyor. Bir zamanlar makinelerin gürültüsünün duyulduğu salonda şimdi bir çocuk ilk kez bateri çalmayı öğreniyor. Ömer Usta bir akşam bu sesleri duyunca gülümsemiş: \"Bu bina sessiz kalmayı hiç sevmedi zaten.\"\n\nKültür merkezi, yeni bir kent yaratmak için eskiyi yok saymanın tek yol olmadığını gösteriyor. Narsist gösterişler yerine geçmişi yâd eden ve bugünün insanına hizmet eden yapılar da mümkün.\n\nSorular:\nFabrika ne üretiyordu?\nBuğdaydan nişasta üretiyor ve bu nişastayı kâğıt ve kumaş fabrikalarına satıyordu.\nKitabın önsözünü kim yazdı?\nFabrikada otuz yıl çalışmış olan Ömer Usta yazdı.\nMimarlar melankolik havayı neye dönüştürmek istemişler?\nHüzne değil, saygıya dönüştürmek istemişler.\nLeyla Hanım neden narsist bir yaklaşımı istemedi?\nKendi imzalarıyla böbürlenmek değil, çalışanların emeğini yâd etmek istiyorlardı.\nKinetik heykel neyi yâd ediyor?\nFabrikanın bir zamanlar hiç durmayan hareketini yâd ediyor.\nÜst katta akşamları ne duyuluyor?\nMüzik stüdyolarından bateri sesleri duyuluyor."
+    },
+    {
+      "title": "Çocukların parkı",
+      "summary": "A landscape architect redesigns a neighbourhood park in Bursa with the children's drawings.",
+      "newWords": [
+        "oynak",
+        "afacan",
+        "evcilik",
+        "badminton",
+        "basketbolcu",
+        "bitirici",
+        "hakemlik",
+        "dalaşmak",
+        "esnemek"
+      ],
+      "text": "Bursa'da eski bir mahallede, apartmanların arasında kalmış bir park yıllardır bakımsızdı. Salıncaklar paslanmış, bankların tahtaları oynak hale gelmişti. Oturan herkes oynak tahtaların gıcırtısından rahatsız oluyordu. Belediye parkı yenilemeye karar verince, peyzaj mimarı Zehra işe çocuklara sormakla başladı.\n\nBir cumartesi sabahı mahallenin çocuklarını parka topladı. Çoğu yerinde duramayan, afacan çocuklardı. Zehra onlara renkli kalemler ve büyük kâğıtlar dağıttı:\n\n— Hayalinizdeki parkı çizin, dedi.\n\nAfacanlar bir süre birbirlerinin kâğıtlarına bakıp güldüler, sonra çizmeye başladılar. Küçüklerin birçoğu ağaçların altında, evcilik oynayabilecekleri küçük bir ev çizdi. Zehra evcilik köşesini hemen plana ekledi: alçak duvarlar, tahta bir masa ve bir pencere. Ona göre evcilik, çocukların şehir hayatını taklit ederek öğrendiği en eski oyundu.\n\nBiraz daha büyük çocuklar ise spor alanı istiyordu. Bir grup badminton sahası çizmişti, bir başka grup basketbol potası. Mahallede oturan Burak Bey gençliğinde basketbolcuydu. İyi bir bitirici olarak tanınırmış; potanın altında topu alınca kaçırmazmış. Şimdi emekli bir basketbolcu olarak hafta sonları gençlere ders veriyor, mahalle maçlarında hakemlik yapıyordu. Zehra'ya, basketbol sahasının yanında bir de badminton alanı olursa küçük çocukların da oynayabileceğini söyledi.\n\nÇizim sırasında iki afacan aynı kırmızı kalemi istedi ve küçük bir dalaşma başladı. Burak Bey, hakemlik yıllarından kalma sakin sesiyle araya girdi:\n\n— Kalem sırayla kullanılır. Beş dakika sen, beş dakika o.\n\nÇocuklar dalaşmayı bıraktılar; birkaç dakika sonra aynı kâğıda birlikte bir pota çiziyorlardı.\n\nZehra'nın planında zemin de önemliydi. Salıncakların altına, düşen çocuğun canını yakmayan, üstüne basıldıkça hafifçe esneyen kauçuk bir zemin döşenecekti. Çocuklar örneği görünce üstünde zıpladılar; zemin esnedikçe kahkahalar yükseldi.\n\nPark altı ay sonra açıldı. Banklar artık oynak değil, salıncaklar yeni. Evcilik köşesinde küçükler oyuncak bardaklarla çay hazırlıyor, badminton alanında toplar havada uçuşuyor, Burak Bey yine hakemlik yapıyor. Ona sorarsanız, eski bir bitirici olarak bu parkın en güzel sayısı, planın çocuklara sorularak yapılmasıydı.\n\nSorular:\nEski parkın bankları nasıldı?\nBankların tahtaları oynak hale gelmişti ve gıcırdıyordu.\nZehra işe nasıl başladı?\nMahallenin çocuklarını toplayıp onlardan hayallerindeki parkı çizmelerini istedi.\nKüçük çocuklar ne çizdi?\nAğaçların altında evcilik oynayabilecekleri küçük bir ev çizdiler.\nBurak Bey kimdir?\nGençliğinde iyi bir bitirici olarak tanınan, şimdi hakemlik yapan emekli bir basketbolcudur.\nİki afacanın dalaşması nasıl bitti?\nBurak Bey kalemin sırayla kullanılacağını söyleyince dalaşmayı bıraktılar.\nSalıncakların altına nasıl bir zemin döşenecekti?\nBasıldıkça hafifçe esneyen kauçuk bir zemin döşenecekti."
+    },
+    {
+      "title": "Sağlıklı kent üzerine",
+      "summary": "An orthopaedic doctor explains in an interview how walking, noise and green space shape health.",
+      "newWords": [
+        "ortopedi",
+        "kıkırdak",
+        "azlık",
+        "kızamık",
+        "karabasan",
+        "horlamak",
+        "kızarmak"
+      ],
+      "text": "Kentlerin tasarımı sağlığımızı nasıl etkiliyor? Bu soruyu, yıllarını hem bir ortopedi kliniğinde hem de belediyenin sağlıklı kent kurulunda geçirmiş olan Fatma Hanım'a sorduk.\n\n— Bir ortopedi uzmanı şehir planlamasıyla neden ilgilenir?\n\n— Çünkü kliniğe gelen hastaların büyük kısmının sorunu az hareket etmekten kaynaklanıyor. Diz ağrısıyla gelen birçok kişi, kıkırdağının yıprandığını düşünüyor ve hareketten kaçıyor. Oysa eklemdeki kıkırdak düzenli ve ölçülü hareketle beslenir. Yürüyüş yolu olmayan, kaldırımları arabalarla dolu bir kentte insanlar yürümüyor; bu da dizleri ve kıkırdağı zayıflatıyor.\n\n— Yani ortopedi kaldırımda başlıyor diyebilir miyiz?\n\n— Biraz öyle. Ben hastalarıma ilaçtan önce yürümeyi öneriyorum. Ama önce yürünecek bir yer gerekiyor. Mahallelerimizde asıl sorun yeşil alan azlığı. Park azlığı yüzünden yaşlılar evden çıkmıyor, çocuklar ekran başında kalıyor.\n\n— Kentin sağlığa etkisi tarih boyunca da tartışıldı mı?\n\n— Elbette. On dokuzuncu yüzyılda Avrupa'nın büyük kentlerinde, kalabalık ve havasız evlerde kızamık gibi bulaşıcı hastalıklar hızla yayılırdı. Kızamık çocuklar arasında özellikle ağır geçerdi. Geniş caddeler, parklar ve güneş alan evler, kısmen bu hastalıklarla mücadele için planlandı. Modern şehir planlaması bir anlamda halk sağlığının çocuğudur.\n\n— Bugünün kentinde en çok gözden kaçan sorun nedir?\n\n— Gürültü. Otoyolun kenarında oturan bir hastam vardı. Geceleri kamyon sesleriyle sık sık uyanıyor, bazı geceler ağır bir karabasan yaşadığını anlatıyordu. Eşi de onun uykusunda yüksek sesle horladığını söylüyordu. Uyku bozulunca kilo artıyor, horlama artıyor, dizlere binen yük de artıyor. Gürültüyü azaltan ağaç sıraları ve sessiz asfalt, bu karabasan döngüsünü kırmanın bir yolu.\n\n— Hastanız sonra ne yaptı?\n\n— Daha sessiz bir mahalleye taşındı. Birkaç ay sonra karabasanların geçtiğini, eşinin de artık horlamadığını söyledi. Şimdi her sabah parkta yürüyor.\n\n— Son olarak okurlarımıza ne önerirsiniz?\n\n— Kış sabahlarında bile kısa yürüyüşler yapsınlar. Soğukta yanakların kızarması bir sağlık işaretidir, korkulacak bir şey değil. Ben de her sabah yürüyerek işe gidiyorum; kliniğe vardığımda yüzüm kızarmış oluyor, ama güne daha dinç başlıyorum.\n\nSorular:\nFatma Hanım nerelerde çalışmış?\nHem bir ortopedi kliniğinde hem de belediyenin sağlıklı kent kurulunda çalışmış.\nKıkırdak nasıl beslenir?\nEklemdeki kıkırdak düzenli ve ölçülü hareketle beslenir.\nFatma Hanım'a göre mahallelerdeki asıl sorun nedir?\nYeşil alan azlığıdır.\nEskiden kalabalık evlerde hangi hastalıklar yayılırdı?\nKızamık gibi bulaşıcı hastalıklar hızla yayılırdı.\nOtoyolun kenarında oturan hasta geceleri ne yaşıyordu?\nKamyon sesleriyle uyanıyor, ağır bir karabasan yaşıyor ve yüksek sesle horluyordu.\nFatma Hanım'ın yüzü neden kızarmış oluyor?\nSoğukta yürüyerek işe gittiği için yüzü kızarmış oluyor."
+    },
+    {
+      "title": "Bogota'dan bir mektup",
+      "summary": "A planning student in Bogotá writes to her professor about buses, car-free Sundays and slow honest steps.",
+      "newWords": [
+        "peso",
+        "dilenmek",
+        "kaypak",
+        "aktüel"
+      ],
+      "text": "Sevgili Mehmet Hocam,\n\nBogota'ya geleli üç hafta oldu. Size söz verdiğim gibi, şehrin ulaşımı hakkındaki ilk izlenimlerimi yazıyorum.\n\nŞehrin omurgası TransMilenio adlı hızlı otobüs sistemi. Otobüsler caddelerin ortasındaki kendi şeritlerinde ilerliyor, duraklar metro istasyonları gibi kapalı. Bir yolculuk yaklaşık üç bin peso tutuyor; bu da bizim paramızla bir simit parası kadar. Her sabah kartıma birkaç bin peso yükleyip yurttan fakülteye gidiyorum. Kahvaltıdaki ekmek de bir otobüs yolculuğu kadar peso tutuyor; buradaki öğrenciler fiyatları hep böyle karşılaştırıyor.\n\nBurada herkesin anlattığı bir hikâye var. Doksanlı yıllarda kavşaklarda, trafikte bekleyen arabaların arasında pek çok insan dileniyormuş. Şehrin yöneticileri, yalnızca yollar için değil insanlar için de planlama yapmak gerektiğini fark etmişler. Kütüphaneler, parklar ve bisiklet yolları açılmış; eskiden dilenen gençlerin bir kısmı bu yeni yerlerde iş bulmuş. Bugün hâlâ dilenen insanlar var elbette, ama şehrin havası değişmiş.\n\nPazar günleri Ciclovía denen bir uygulama var: ana caddeler sabahtan öğlene arabalara kapanıyor, binlerce kişi bisikletle, patenle ya da yürüyerek şehri dolaşıyor. Geçen pazar ben de kiraladığım bir bisikletle katıldım. Hiç tanımadığım insanlarla aynı yolu paylaşmak, kocaman bir meydanda olmak gibiydi.\n\nBurada tanıştığım bir plancı, ilk yıllarda bu projelere inanmayanların çok olduğunu anlattı. Bazı yorumcular kendilerini kâhin sanarak, insanların arabalarını asla bırakmayacağını yazmışlar. Plancı gülerek, \"Şehircilikte kimse kâhin değildir; denersiniz, ölçersiniz, düzeltirsiniz\" dedi. Bu cümleyi not defterime yazdım.\n\nBir konuda da dürüst olmalıyım: her şey göründüğü kadar parlak değil. Otobüsler sabahları çok kalabalık. Yağmur yağınca istasyonların taş zeminleri kaypak oluyor; insanlar düşmemek için demirlere tutunuyor. Bu kaypak zeminler bana, iyi bir planın küçük ayrıntılarla da ilgilenmesi gerektiğini hatırlattı.\n\nBu konular burada çok aktüel; gazeteler her gün yeni hatları, bisiklet yollarını tartışıyor. Türkiye'de de aynı derecede aktüel olduğunu düşünüyorum. Döndüğümde bitirme tezimi Bogota ile İzmir'in karşılaştırması üzerine yazmak istiyorum. Bu konuda sizin görüşlerinizi de öğrenmek isterim; mektubunuzu merakla bekliyorum.\n\nSaygılarımla,\nAyla\n\nSorular:\nAyla mektubu kime yazıyor?\nHocası Mehmet Bey'e yazıyor.\nBir otobüs yolculuğu kaç peso tutuyor?\nYaklaşık üç bin peso tutuyor.\nDoksanlı yıllarda kavşaklarda ne oluyormuş?\nTrafikte bekleyen arabaların arasında pek çok insan dileniyormuş.\nPlancı kâhin sözüyle ne anlatmak istedi?\nŞehircilikte kimsenin geleceği bilemeyeceğini; denemek, ölçmek ve düzeltmek gerektiğini anlatmak istedi.\nYağmur yağınca istasyonlarda ne oluyor?\nTaş zeminler kaypak oluyor ve insanlar demirlere tutunuyor."
+    },
+    {
+      "title": "Karanlık gökyüzü",
+      "summary": "An astronomer persuades a mountain town to change its street lights and the night sky returns.",
+      "newWords": [
+        "astronom",
+        "safir",
+        "asteroit",
+        "plütonyum",
+        "şaşı"
+      ],
+      "text": "Cem, Antalya'nın batısındaki dağlarda, küçük bir kasabanın yukarısındaki gözlemevinde çalışan bir astronom. On beş yıl önce buraya geldiğinde geceler o kadar karanlıktı ki Samanyolu bir bulut gibi gökyüzünü ikiye bölerdi. Bir astronom için bundan güzel bir manzara olamazdı.\n\nNe var ki kasaba büyüdü. Yeni bir otel, bir alışveriş merkezi ve geniş bir otopark yapıldı. Her yeni yapıyla birlikte gökyüzüne doğru parlayan lambalar çoğaldı. Cem, teleskobun görüntüsünde kasabanın ışıklarının bıraktığı turuncu sisi her yıl biraz daha belirgin görüyordu.\n\nBir gün belediye, kasabanın bütün sokak lambalarını yenilemeye karar verdi. Cem bunu bir fırsat bildi ve belediyedeki toplantıya katıldı. Lambaların ışığı yalnızca aşağıya, yola vermesini, sıcak renkli olmasını ve gece yarısından sonra kısılmasını önerdi.\n\n— Bu hem enerji tasarrufu sağlar hem de gökyüzünü bize geri verir, dedi.\n\nYeni lambalar takıldıktan sonra fark hemen görüldü. Gün batımından sonra gökyüzü bir süre derin, safir mavisi bir renge bürünüyor, ardından yıldızlar tek tek beliriyordu. Kasabanın çocukları bu saate \"safir saati\" adını verdi.\n\nAynı yıl gözlemevindeki ekip, Mars ile Jüpiter arasında dolanan yeni bir asteroit keşfetti. Asteroit küçük ve sönük bir ışık noktasıydı; kasabanın karanlık gökyüzü olmasa belki hiç görülmeyecekti. Bir süre sonra asteroide kasabanın adı verildi.\n\nCem bu haberi kasabanın okulunda anlattı. Çocuklar bir sürü soru sordu. Biri, uzak gezegenlere giden araçların güneşten uzakta nasıl enerji bulduğunu merak etti. Cem, bazı uzay araçlarının plütonyum ile çalışan özel pillerle donatıldığını anlattı: plütonyum yavaş yavaş bozunurken ısı üretiyor, bu ısı da elektriğe çevriliyor. Voyager araçları da kırk yılı aşkın süredir bu sayede çalışıyor.\n\nBir başka öğrenci, bir astronomun bütün gece teleskoba bakıp bakmadığını sordu. Cem güldü:\n\n— Eskiden öyleydi. Bazı geceler sabaha kadar tek gözle baktığım için şaşı olacağımı sanırdım. Şimdi kameralar bakıyor, biz bilgisayardan izliyoruz. Merak etme, kimse şaşı olmadı.\n\nOkuldan dönerken hava kararmaya başlamıştı. Cem yolun kenarında durdu ve safir rengi gökyüzünde ilk yıldızın belirmesini bekledi. Kasabanın ışıklarını değiştirmenin, keşfettikleri asteroitten daha büyük bir başarı olduğunu düşündü.\n\nSorular:\nCem nerede çalışıyor?\nAntalya'nın batısındaki dağlarda, bir kasabanın yukarısındaki gözlemevinde astronom olarak çalışıyor.\nCem sokak lambaları için ne önerdi?\nIşığın yalnızca aşağıya vermesini, sıcak renkli olmasını ve gece yarısından sonra kısılmasını önerdi.\nÇocuklar neye \"safir saati\" dedi?\nGün batımından sonra gökyüzünün derin, safir mavisi bir renge büründüğü saate dediler.\nEkip ne keşfetti?\nMars ile Jüpiter arasında dolanan yeni bir asteroit keşfetti.\nBazı uzay araçları uzakta nasıl enerji buluyor?\nPlütonyum ile çalışan özel piller ısı üretiyor, bu ısı da elektriğe çevriliyor.\nCem eskiden neden şaşı olacağını sanırdı?\nSabaha kadar tek gözle teleskoba baktığı için sanırdı."
+    },
+    {
+      "title": "Meydandaki çınar",
+      "summary": "Neighbours in Bursa save an old plane tree from a road plan, and young clones of it are planted.",
+      "newWords": [
+        "ağırbaşlı",
+        "çilingir",
+        "mağrur",
+        "vazgeçir",
+        "klonla",
+        "cübbe"
+      ],
+      "text": "Bursa'nın eski bir semtinde, küçük bir meydanın ortasında altı yüz yaşında bir çınar duruyor. Gövdesi o kadar kalın ki çevresini sarmak için beş kişinin el ele tutuşması gerekiyor. Mahallenin yaşlıları ona \"ağırbaşlı dede\" diyor; çünkü fırtınada bile dalları telaşsız, ağırbaşlı bir şekilde sallanıyor.\n\nMeydanın köşesinde Yusuf Usta'nın çilingir dükkânı var. Yusuf Usta kırk yıldır bu meydanda çilingir olarak çalışıyor; kapıda kalan komşulara koşuyor, kaybolan anahtarların yenisini yapıyor. Dükkânının penceresinden her sabah çınarı görüyor. Yaşlı ağaç ona, yıllara rağmen başı dik, mağrur bir komşu gibi görünüyor.\n\nBirkaç yıl önce belediye, meydanın yanındaki yolu genişletmek için bir plan hazırladı. Planda çınarın köklerinin bir kısmı kesilecekti. Yusuf Usta ve komşuları buna karşı çıktı. Bir uzman çağırıp ağacın köklerinin ne kadar geniş bir alana yayıldığını ölçtürdüler. Uzmanın raporu belediyeyi bu plandan vazgeçirdi; yol, meydanın öbür tarafından dolaşacak şekilde yeniden çizildi. Yusuf Usta, \"Bizi kimse vazgeçiremezdi, ama asıl belediyeyi vazgeçirmek zordu,\" diye gülüyor.\n\nArdından üniversiteden bir ekip geldi. Ekip, yaşlı ağaçların genetik mirasını korumak için onları klonlama çalışması yapıyordu. Çınarın dallarından küçük parçalar alıp fidanlıkta yetiştirdiler. Bu yolla klonlanmış genç çınarlar, yaşlı ağacın birebir kopyası oluyor. Ekibin başındaki profesör, eski ağaçları klonlamanın, bir kütüphanedeki eski bir el yazmasını kopyalamak gibi olduğunu anlattı.\n\nGeçen bahar klonlanmış fidanlardan biri meydanın öbür ucuna dikildi. Şimdilik küçük, ince bir ağaç; ama Yusuf Usta onun da bir gün dedesi gibi mağrur ve ağırbaşlı bir duruşu olacağına inanıyor.\n\nHer haziran, yakındaki lisenin öğrencileri mezuniyet günü cübbeleriyle meydana geliyor ve çınarın altında fotoğraf çektiriyor. Siyah cübbeler, yeşil yaprakların altında rüzgârla dalgalanıyor. Bu yıl öğrencilerden biri cübbesinin cebinden anahtarını düşürdü; Yusuf Usta anahtarı bulup ona geri verdi. Kız gülerek, \"Siz çilingir olmasaydınız ben bu akşam eve nasıl girerdim?\" dedi.\n\nYusuf Usta, meydanda iki çınar, bir çilingir dükkânı ve her yıl gelen cübbeli gençler olduğu sürece bu semtin ruhunun kaybolmayacağını düşünüyor.\n\nSorular:\nMahallenin yaşlıları çınara neden \"ağırbaşlı dede\" diyor?\nÇünkü fırtınada bile dalları telaşsız, ağırbaşlı bir şekilde sallanıyor.\nYusuf Usta ne iş yapıyor?\nKırk yıldır meydanda çilingir olarak çalışıyor.\nBelediyeyi yol planından ne vazgeçirdi?\nAğacın köklerini ölçen uzmanın raporu belediyeyi vazgeçirdi.\nÜniversiteden gelen ekip ne yaptı?\nÇınarın dallarından parçalar alıp onu klonlama çalışması yaptı ve genç çınarlar yetiştirdi.\nÖğrenciler mezuniyet günü ne yapıyor?\nCübbeleriyle meydana gelip çınarın altında fotoğraf çektiriyorlar."
+    }
+  ]
+}
