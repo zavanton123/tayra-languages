@@ -1,0 +1,100 @@
+1	2501	larry	
+2	2502	elizabeth	elizabeth'in
+3	2503	pişir	pişirdi pişirdik pişirdim pişirdin pişirdiği pişirdiğim pişirdiğin pişirdiğini pişirebilir pişirebilirim pişirecek pişireceksin pişireceğim pişireceğiz pişirelim pişiren pişireyim pişirilen pişirilir pişirilmiş pişirin pişirip pişirir pişiririm pişirirken pişirirsin pişiriyor pişiriyordu pişiriyorlar pişiriyorsun pişiriyorum pişiriyoruz pişirme pişirmekten pişirmem pişirmesi pişirmeye pişirmeyi pişirmiş
+4	2504	servet	servete serveti servetim servetimi servetimin servetimiz servetimizi servetin servetinden servetine servetini servetinin servetiniz servetinizi servetiyle servetle servetler servetleri servetlerini servetten
+5	2505	emma	
+6	2506	önlem	önleme önlemi önlemimi önlemimizi önlemini önlemler önlemlere önlemleri önlemlerin önlemlerine önlemlerini önlemlerinin önlemleriyle
+7	2507	neresi	
+8	2508	şüphesiz	
+9	2509	artır	artırabilir artırabiliriz artıracak artıracaktır artıracağım artıracağız artıralım artıran artırarak artırdı artırdık artırdılar artırdım artırdığı artırdığını artırmada artırmadan artırmaktadır artırmalıyız artırmamız artırmanın artırması artırmaya artırmayla artırmayı artırmış artırmıştır artırıldı artırılması artırılmış artırın artırıp artırır artırıyor artırıyorum
+10	2510	hamle	hamlede hamleden hamleler hamleleri hamlelerini hamlem hamlemi hamlemiz hamlemizi hamleni hamlenin hamlenizi hamlesi hamlesine hamlesini hamlesinin hamlesiydi hamleydi hamleye hamleyi hamleyle
+11	2511	ihlal	ihlalden ihlaldir ihlali ihlalidir ihlalinden ihlaline ihlalini ihlalinin ihlaller ihlalleri ihlallerini
+12	2512	okunmak	okun okunabilir okunabiliyor okunacak okunamaz okunan okundu okunduğu okunmalı okunmamış okunmaz okunmuyor okunmuş okunup okunur okunurken okunuyor okunuyordu
+13	2513	asit	aside asidi asidin asitle asitler asitleri asitten
+14	2514	moral	morali moralim moralimi moralimin moralimiz moralimizi moralin moralini moralinin moraliniz moralinizi moralle moraller moralleri morallerini moralsiz
+15	2515	anmak	anacak anacağım anacağız analar analı analım anama anan anar andı andım andığımda anma anmaya anmış ansa anılmak anın anınız anıyor anıyorum anıyoruz
+16	2516	durak	duraklar durakları duraklarına duraklarında duraklarını duraksız durakta duraktan durağa durağı durağım durağımız durağın durağına durağında durağındaki durağından durağını durağının durağınız
+17	2517	komiser	komisere komiseri komiserim komiserin komiserini komiserle
+18	2518	bağımlı	bağımlıdır bağımlılar bağımlılara bağımlılarla bağımlıları bağımlıların bağımlılarına bağımlılarını bağımlılarının bağımlılıkla bağımlılığıyla bağımlının bağımlısı bağımlısıdır bağımlısın bağımlısına bağımlısını bağımlısının bağımlısıydı bağımlısıydım bağımlısıymış bağımlısıyım bağımlıya bağımlıydı bağımlıydım bağımlıymış bağımlıyı bağımlıyım bağımlıyız
+19	2519	pete	
+20	2520	çiftçi	çiftçiden çiftçiler çiftçilerden çiftçilere çiftçileri çiftçilerin çiftçilerle çiftçilikle çiftçilikten çiftçiliğe çiftçinin çiftçisi çiftçisin çiftçiydi çiftçiye çiftçiyi çiftçiyim çiftçiyiz çiftçiyle
+21	2521	akademik	
+22	2522	kımıldamak	kımılda kımıldadı kımıldadığını kımıldama kımıldamadan kımıldamadı kımıldamadım kımıldamasın kımıldamaya kımıldamayacak kımıldamayacağım kımıldamayı kımıldamayın kımıldamaz kımıldamıyor kımıldamıyordu kımıldamıyorum kımıldarsa kımıldarsan kımıldarsanız kımıldat kımıldatamıyorum kımıldatma kımıldayamadım kımıldayamıyor kımıldayamıyorum kımıldayan kımıldayın kımıldıyor
+23	2523	yapay	yapayım
+24	2524	füze	füzeden füzeler füzelerden füzelere füzeleri füzelerimiz füzelerimizi füzelerin füzelerini füzelerinin füzelerle füzenin füzesi füzesini füzeye füzeyi füzeyle
+25	2525	örümcek	örümcekle örümcekler örümceklerden örümceklere örümcekleri örümceklerin örümceklerle örümcekten örümceğe örümceği örümceğin
+26	2526	çıldırmak	çıldır çıldıracak çıldıracaksın çıldıracağım çıldıralım çıldıran çıldırdı çıldırdılar çıldırdım çıldırdın çıldırdınız çıldırdığı çıldırma çıldırmadım çıldırmaya çıldırmıyorum çıldırmış çıldırmışlar çıldırmışsın çıldırmışsınız çıldırmıştı çıldırmıştım çıldırın çıldırıp çıldırır çıldırırdı çıldırırdım çıldırırlar çıldırırım çıldırıyor çıldırıyordu çıldırıyordum çıldırıyorlar çıldırıyorsun çıldırıyorum
+27	2527	selamünaleyküm	sa
+28	2528	muhabbet	muhabbete muhabbeti muhabbetim muhabbetimiz muhabbetin muhabbetinden muhabbetine muhabbetini muhabbetinin muhabbetiniz muhabbetinizi muhabbetle muhabbetler muhabbetleri muhabbetlerini muhabbetten muhabbetti
+29	2529	olanak	olanaklar olanaklara olanakları olanaklarını olanaksızdı olanaksızdır olanağı olanağım olanağımız olanağın olanağını
+30	2530	koleksiyon	koleksiyona koleksiyonda koleksiyondan koleksiyonlar koleksiyonları koleksiyonlarını koleksiyonluk koleksiyonu koleksiyonum koleksiyonuma koleksiyonumdan koleksiyonumu koleksiyonumun koleksiyonumuz koleksiyonun koleksiyonuna koleksiyonunda koleksiyonundan koleksiyonunu koleksiyonunun koleksiyonunuz koleksiyonunuzu koleksiyonuyla
+31	2531	avantaj	avantaja avantajdır avantajlar avantajlara avantajları avantajlarına avantajlarından avantajlarını avantajlı avantajlıyız avantajı avantajım avantajımız avantajımıza avantajımızı avantajın avantajına avantajından avantajını
+32	2532	yalamak	yala yaladı yaladım yaladın yaladığı yaladığın yaladığını yalama yalamaktan yalamam yalaman yalaması yalamasını yalamaya yalamayı yalamış yalandı yalanmış yalar yalarken yalarsın yalarım yalasın yalatmak yalayabilir yalayabilirsin yalayacak yalayacaksın yalayacağım yalayan yalayarak yalayayım yalayın yalayıp yalıyor yalıyordu yalıyorsun yalıyorum
+33	2533	imparator	imparator'un imparatora imparatorla imparatorlar imparatorları imparatoru imparatorum imparatorumuz imparatorumuzun imparatorun imparatoruna
+34	2534	düzelmek	düzel düzeldi düzeldim düzeldin düzelebilir düzelecek düzeleceksin düzeleceğim düzeleceğiz düzelince düzelip düzelir düzelirim düzelirse düzelirsin düzeliyor düzelme düzelmedi düzelmeye düzelmeyecek düzelmez düzelmezse düzelmiyor düzelmiş düzelmişti düzelsin düzeltilmesi
+35	2535	incit	incitebilir incitecek inciteceksin inciteceğini incitemem incitemeyecek incitemez inciten incitir incitirsen incitiyor incitiyorsun incitme incitmeden incitmedi incitmedim incitmedin incitmekten incitmelerine incitmem incitmemek incitmesine incitmeye incitmeyecek incitmeyeceğim incitmeyeceğiz incitmeyi incitmeyin incitmez incitmezdi incitmiş incitti incittiler incittim incittin incittiysem incittiği incittiğim incittiğimi incittiğini
+36	2536	yaratıcı	yaratıcıdır yaratıcılar yaratıcıları yaratıcım yaratıcımız yaratıcın yaratıcının yaratıcısı yaratıcısın yaratıcısına yaratıcısını yaratıcısının yaratıcıydı yaratıcıyım
+37	2537	kiralık	kiralıktı
+38	2538	çapında	
+39	2539	resmî	resmi resmidir resmileşti resmileştirelim resmileştirmek resmisin resmiydi
+40	2540	şerefsiz	şerefsizi şerefsizler
+41	2541	klip	klibi klibin klibinde klibini klibinin klibiyle klipler klipleri klipte
+42	2542	anket	ankete anketi anketin anketinde anketine anketini anketler anketlerde anketlere anketleri ankette
+43	2543	uzaylı	uzaylıdan uzaylılar uzaylılara uzaylılardan uzaylıları uzaylıların uzaylının uzaylısın uzaylıya uzaylıyı uzaylıyım
+44	2544	büyüklük	büyüklükleri büyüklükte büyüklükten büyüklüğe büyüklüğü büyüklüğün
+45	2545	leke	lekeden lekedir lekeler lekelerden lekelere lekeleri lekelerin lekelerine lekelerini lekelerinin lekeleriyle lekelerle lekeli lekenin lekesi lekesinden lekesine lekesini lekesinin lekesiyle lekeye lekeyi lekeyle
+46	2546	papa	papa'nın papa'ya papalar papalık papanın papası papaya papayı
+47	2547	sürükle	sürükledi sürüklediler sürükledim sürükledin sürüklediniz sürüklediği sürüklediğim sürüklediğini sürükleme sürüklemeye sürüklemiş sürüklendi sürüklendik sürüklendim sürüklendiğini sürüklenen sürüklenerek sürüklenip sürüklenir sürüklenirken sürükleniyor sürükleniyorum sürükleniyoruz sürüklenme sürüklenmek sürüklenmeye sürüklenmiş sürüklerim sürüklerken sürükleyebilir sürükleyecek sürükleyeceğim sürükleyen sürükleyerek sürükleyip sürüklüyor sürüklüyordu sürüklüyorsun sürüklüyorum
+48	2548	doğrulamak	doğrula doğruladı doğruladık doğruladılar doğruladım doğruladın doğruladınız doğruladığı doğrulama doğrulamadı doğrulamalıyız doğrulamam doğrulamaya doğrulamıyor doğrulamış doğrulandı doğrular doğrularsa doğrularım doğrulayabilecek doğrulayabilir doğrulayabilirim doğrulayabiliriz doğrulayabilirsiniz doğrulayacak doğrulayan doğrulayın doğruluyor doğruluyorum
+49	2549	korsan	korsana korsancılık korsandı korsanla korsanlar korsanlara korsanlardan korsanlarla korsanları korsanların korsanlarının korsansın korsanı korsanım korsanın korsanını korsanının
+50	2550	protokol	protokolde protokolden protokole protokoller protokollere protokolleri protokollerin protokollerine protokollerini protokolü protokolümüz protokolün protokolüne protokolünü protokolünün
+51	2551	taklit	taklidi taklidim taklidimi taklidin taklidini taklidiydi taklitler taklitleri taklitlerini taklitti
+52	2552	halı	halıda halıdaki halıdan halılar halılara halıları halıların halım halıma halımı halının halısı halısına halısını halısının halıya halıyla halıyı
+53	2553	rehber	rehberde rehberdeki rehberden rehbere rehberi rehberim rehberimi rehberimiz rehberin rehberinde rehberindeki rehberinden rehberine rehberini rehberinin rehberiniz rehberiyim rehberle rehberler rehberleri rehberli
+54	2554	yönlendirmek	yönlendir yönlendirdi yönlendirdik yönlendirdiler yönlendirdim yönlendirdin yönlendirdiniz yönlendirdiği yönlendirdiğim yönlendirebilecek yönlendirebilir yönlendirebilirim yönlendirebiliriz yönlendirebilirsin yönlendirecek yönlendireceğim yönlendireceğiz yönlendirelim yönlendiren yönlendirerek yönlendireyim yönlendirilen yönlendirin yönlendirip yönlendirir yönlendiririm yönlendirirler yönlendiriyor yönlendiriyordu yönlendiriyorlar yönlendiriyorsun yönlendiriyorum yönlendiriyoruz yönlendirme yönlendirmeliyiz yönlendirmem yönlendirmeye yönlendirmiş yönlendirsin
+55	2555	alem	alemci alemde alemden alemdesin alemdesiniz aleme alemi alemin aleminde alemindeki aleminden alemine alemini aleminin alemler alemlere alemleri alemlerin alemsin
+56	2556	lakin	lâkin
+57	2557	mezarlık	mezarlıklar mezarlıklarda mezarlıkları mezarlıkların mezarlıkta mezarlıktaki mezarlıktan mezarlığa mezarlığı mezarlığı'na mezarlığı'nda mezarlığın mezarlığına mezarlığında mezarlığından mezarlığını mezarlığının
+58	2558	haberdar	haberdardı haberdardım haberdardır haberdarlar haberdarmış haberdarsın haberdarsınız haberdarım haberdarız
+59	2559	kadeh	kadehe kadehi kadehim kadehimi kadehimizi kadehin kadehinde kadehinden kadehine kadehini kadehle kadehler kadehleri kadehlerimizi kadehlerini kadehlerinizi kadehte kadehten
+60	2560	kaynaklanmak	kaynaklanabilir kaynaklanan kaynaklandı kaynaklandığı kaynaklandığını kaynaklanmıyor kaynaklanmış kaynaklanır kaynaklanıyor kaynaklanıyordu
+61	2561	ahlak	ahlaka ahlakla ahlaktan ahlakçı ahlakı ahlakım ahlakın ahlakına ahlakını ahlakının
+62	2562	disk	diske diski diskim diskimi diskin diskinde diskinden diskine diskini diskinin diskle diskler diskleri disklerin disklerini diskte diskteki diskten
+63	2563	şeyle	
+64	2564	soygun	soyguna soygunda soygundaki soygundan soygundu soygundur soygunla soygunlar soygunlara soygunlarda soygunlardan soygunlarla soygunları soygunların soygunlarını soygunsa soygunu soygunun soygununa soygununda soygunundaki soygunundan soygununu soygununun soygunuyla
+65	2565	icat	icadı icadım icadımı icadın icadından icadını icadının icatlar icatlara icatları icatların icatlarından icatlarını
+66	2566	unsur	unsurdur unsurlar unsurlara unsurlardan unsurlarla unsurları unsurların unsurlarından unsurlarını unsurlarının unsuru unsurudur unsurun unsurunu
+67	2567	üretici	üreticiden üreticiler üreticileri üreticilerin üreticilerinden üreticilerine üreticilerini üreticilerinin üreticinin üreticisi üreticisine üreticisini üreticisinin üreticiye üreticiyi
+68	2568	maliyet	maliyeti maliyetin maliyetine maliyetini maliyetinin maliyetle maliyetler maliyetleri maliyetlerini maliyetli
+69	2569	işlenmek	işlendi işlendiği işlenebilir işlenecek işlenen işlenir işlenirken işleniyor işlenmedi işlenmemiş işlenmiş işlenmişti
+70	2570	kibar	kibardı kibardın kibardır kibarlar kibarlıkla kibarmış kibarsın kibarsınız kibarım
+71	2571	düğme	düğmede düğmeden düğmeler düğmelerden düğmelere düğmeleri düğmelerin düğmenin düğmesine düğmesini düğmeye düğmeyi
+72	2572	tohum	tohuma tohumdan tohumlar tohumlara tohumları tohumlarımı tohumların tohumlarından tohumlarını tohumlarının tohumlu tohumu tohumun tohumundan tohumunu tohumunun
+73	2573	âmin	amin
+74	2574	farklılık	farklılıklar farklılıkları farklılıklarımız farklılıklarımıza farklılıklarımızı farklılıkların farklılıklarını farklılığı farklılığın farklılığını
+75	2575	kaplan	kaplan'ın kaplana kaplandan kaplanla kaplanlar kaplanlarla kaplanları kaplanların kaplanı kaplanım kaplanın
+76	2576	avuç	avuca avucu avucuma avucumda avucumun avucumuzda avucumuzun avucuna avucunda avucundaki avucunu avucunun avucunuzu avucunuzun avuçlar avuçları avuçlarım avuçlarımın avuçların avuçlarına avuçlarında avuçlarını avuçlarının avuçta
+77	2577	vicdan	vicdana vicdandan vicdanla vicdanları vicdanlarını vicdanlı vicdanı vicdanım vicdanıma vicdanımda vicdanımla vicdanımı vicdanımın vicdanımız vicdanın vicdanına vicdanında vicdanından vicdanınla vicdanını vicdanının vicdanınız vicdanınıza vicdanınızı vicdanıyla
+78	2578	iklim	iklimde iklime iklimi iklimin ikliminde iklimine iklimini ikliminin iklimlendirme iklimlerde
+79	2579	mola	molada moladan moladayım molalar molaları molam molan molası molasına molasında molasını molaya molayı
+80	2580	pratik	pratikle pratikte pratiğe pratiği pratiğim pratiğini
+81	2581	atlatmak	atlat atlatabilecek atlatabilir atlatabilirim atlatabiliriz atlatabilirsin atlatabilmek atlatacak atlatacaksın atlatacağım atlatacağız atlatalım atlatamadı atlatamadım atlatamayacak atlatamaz atlatamazsın atlatan atlatma atlatmam atlatmama atlatmaya atlatmış atlatmışsın atlattı atlattık atlattılar atlattım atlattın atlattınız atlattığı atlattığımız atlatıp atlatır atlatırsak atlatırsın atlatırım atlatırız atlatıyor
+82	2582	şaşırtmak	şaşırt şaşırtabilir şaşırtabilirim şaşırtabiliriz şaşırtacak şaşırtacağım şaşırtacağız şaşırtalım şaşırtamaz şaşırtan şaşırtarak şaşırtayım şaşırtma şaşırtmadı şaşırtmalı şaşırtmamalı şaşırtmasın şaşırtmaya şaşırtmaz şaşırtmazdı şaşırtmıyor şaşırtmış şaşırtmıştı şaşırttı şaşırttım şaşırttın şaşırttınız şaşırttığım şaşırtın şaşırtıp şaşırtır şaşırtırdı şaşırtırım şaşırtıyor şaşırtıyorsun şaşırtıyorsunuz şaşırtıyorum
+83	2583	kostüm	kostümcü kostümden kostüme kostümle kostümler kostümlerden kostümlere kostümleri kostümlerimiz kostümlerimizi kostümlerin kostümlerinden kostümlerini kostümleriniz kostümlerinizi kostümlerle kostümlü kostümü kostümüm kostümüme kostümümü kostümün kostümünde kostümünden kostümüne kostümünü kostümünün kostümünüz kostümüyle
+84	2584	nişan	nişana nişandan nişanları nişanlarını nişanı nişanım nişanımı nişanımız nişanımızı nişanın nişanına nişanını nişanınızı
+85	2585	kiralamak	kirala kiraladı kiraladık kiraladılar kiraladım kiraladın kiraladınız kiraladığı kiraladığım kiraladığımız kiraladığın kiraladığınız kiralama kiralamam kiralamaya kiralamış kiralamışlar kiralamıştı kiralamıştık kiralamıştım kiralanan kiralar kiralayabilir kiralayabilirim kiralayabiliriz kiralayabilirsin kiralayabilirsiniz kiralayacak kiralayacağım kiralayacağız kiralayalım kiralayan kiralayın kiralayıp kiralıyor kiralıyorlar kiralıyorsun kiralıyorum kiralıyoruz
+86	2586	kıskanmak	kıskanacak kıskanacağım kıskanan kıskanayım kıskandı kıskandım kıskandın kıskandınız kıskandırmak kıskandığı kıskandığım kıskandığın kıskandığını kıskanma kıskanmadım kıskanmadın kıskanmalı kıskanmam kıskanmaya kıskanmaz kıskanmıyor kıskanmıyorsun kıskanmıyorum kıskanmış kıskanmıştı kıskanmıştım kıskanıp kıskanır kıskanırdı kıskanırdım kıskanırım kıskanıyor kıskanıyordu kıskanıyordum kıskanıyordun kıskanıyorlar kıskanıyorsun kıskanıyorsunuz kıskanıyorum
+87	2587	acımasız	acımasızdı acımasızdır acımasızlar acımasızlık acımasızlığı acımasızlığın acımasızmış acımasızsın acımasızsınız acımasızı acımasızım
+88	2588	tarla	tarlada tarladaki tarladan tarlalar tarlalara tarlalarda tarlalardan tarlaları tarlaların tarlalarına tarlalarında tarlalarından tarlalarını tarlalarının tarlam tarlanın tarlası tarlasına tarlasında tarlasındaki tarlasından tarlasını tarlasının tarlaya tarlayı
+89	2589	espri	espriden espriler esprilerden esprilere esprileri esprilerim esprilerime esprilerimi esprilerin esprilerinden esprilerine esprilerini esprilisin esprim esprimi esprinin esprisi esprisine esprisini espriydi espriye espriyi espriyle
+90	2590	sesli	
+91	2591	filo	filoda filodaki filodan filolar filoları filom filomuz filomuzu filomuzun filonun filonuz filosu filosuna filosunda filosundaki filosundan filosunu filosunun filosuyla filoya filoyla filoyu
+92	2592	askerlik	askerlikte askerlikten askerliğe askerliği askerliğimi askerliğin askerliğini
+93	2593	amatör	amatöre amatörler amatörlere amatörleri amatörlerin amatörlerle amatörsün amatörüm amatörün
+94	2594	kayser	kayseri
+95	2595	eva	evan
+96	2596	sanal	
+97	2597	oscar	oscar'a oscar'ı
+98	2598	sunulmak	sunulacak sunulan sunuldu sunulduğu sunulmadı sunulmuş sunulmuştu sunulur sunuluyor
+99	2599	stüdyo	stüdyoda stüdyodaki stüdyodan stüdyolar stüdyoları stüdyolarına stüdyolarında stüdyolarından stüdyom stüdyoma stüdyomda stüdyomu stüdyomuza stüdyomuzda stüdyon stüdyona stüdyonun stüdyosu stüdyosuna stüdyosunda stüdyosundan stüdyosunu stüdyosunun stüdyoya stüdyoyla stüdyoyu
+100	2600	fonksiyon	fonksiyonlar fonksiyonları fonksiyonların fonksiyonlarına fonksiyonlarında fonksiyonlarını fonksiyonlarının fonksiyonlu fonksiyonu fonksiyonun fonksiyonunu fonksiyonunun

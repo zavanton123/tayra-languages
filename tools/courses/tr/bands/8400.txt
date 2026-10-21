@@ -1,0 +1,100 @@
+1	8301	portatif	
+2	8302	okçuluk	
+3	8303	kayınpeder	kayınpederi kayınpederim kayınpederimin kayınpederin kayınpederinin kayınpederiniz
+4	8304	pabuç	pabuca pabucu pabucumun pabucunu pabuçlar pabuçları pabuçlarını
+5	8305	alaaddin	
+6	8306	nitrojen	nitrojeni nitrojenle
+7	8307	kıble	kıbleye
+8	8308	günışık	günışığı günışığım günışığına günışığında günışığını
+9	8309	atmaca	
+10	8310	trafo	
+11	8311	ihtiras	ihtirasla ihtirası ihtirasın
+12	8312	gard	gardı gardımı gardımızı gardını gardınızı
+13	8313	haşim	
+14	8314	sevindirici	
+15	8315	uyuşmazlık	uyuşmazlıklar uyuşmazlıkları uyuşmazlığı
+16	8316	akman	
+17	8317	ataköy	
+18	8318	gökalp	
+19	8319	gülben	
+20	8320	ittihat	
+21	8321	zeybek	
+22	8322	nezih	
+23	8323	cetvel	cetveli cetvelle
+24	8324	larva	larvalar larvaları larvanın larvası
+25	8325	uykucu	uykucular
+26	8326	yanılsama	yanılsamadan yanılsamadır yanılsamalar yanılsaması yanılsamasını
+27	8327	fobi	fobim fobin fobisi
+28	8328	şarapnel	şarapneli
+29	8329	fahişelik	fahişelikten fahişeliğe fahişeliği fahişeliğin
+30	8330	tedarikçi	tedarikçiler tedarikçileri tedarikçisi tedarikçiyi
+31	8331	misket	misketler misketleri
+32	8332	bilimkurgu	
+33	8333	vak	
+34	8334	gıpta	
+35	8335	hükümlü	hükümlüler
+36	8336	balerin	balerinler
+37	8337	süratle	
+38	8338	mut	muta mutu
+39	8339	ahududu	ahududulu
+40	8340	je	
+41	8341	ram	rama
+42	8342	görkem	görkemi görkemine görkemini görkemiyle görkemliydi
+43	8343	cik	
+44	8344	rambo	
+45	8345	antidepresan	antidepresanlar
+46	8346	homojen	
+47	8347	yollu	
+48	8348	lütfü	
+49	8349	mevsimlik	
+50	8350	karayel	
+51	8351	asimile	
+52	8352	sırıtmak	sırıt sırıtan sırıtarak sırıtma sırıtmayı sırıtıp sırıtıyor sırıtıyorsun
+53	8353	acente	acentesi acentesinde acentesine acentesini
+54	8354	illaki	
+55	8355	biyokimya	
+56	8356	darı	darısı
+57	8357	bektaşi	
+58	8358	elmacık	
+59	8359	keşfedilmemiş	
+60	8360	obsesif	
+61	8361	hayalperest	hayalperestim hayalperestler hayalperestsin
+62	8362	salıver	salıverdi salıverdiler salıverildi salıverilecek salıverilen salıverilme salıverilmesi salıverilmesini salıverilmiş salıverin salıverme salıvermek
+63	8363	mışıl	
+64	8364	epilepsi	epilepsisi
+65	8365	maceracı	maceracılar
+66	8366	smaç	smacı
+67	8367	mehtap	mehtabı
+68	8368	asaf	
+69	8369	titizlikle	
+70	8370	alabora	
+71	8371	vasi	vasileri vasili vasim vasin vasisi
+72	8372	reklamcılık	reklamcılıkta
+73	8373	beyhude	
+74	8374	evermek	ever
+75	8375	silahlanmak	silahlan silahlandı silahlandırmak silahlanma silahlanmaya silahlanmış silahlanın silahlanıp
+76	8376	arkadaşça	
+77	8377	minnettarlık	minnettarlıkla minnettarlığı minnettarlığımı minnettarlığımın minnettarlığın minnettarlığını
+78	8378	gıdıklamak	gıdıkla gıdıkladı gıdıklama gıdıklamaya gıdıklamayı gıdıklar gıdıklarım gıdıklayacağım gıdıklayan gıdıklayıcı gıdıklıyor gıdıklıyorsun
+79	8379	dara	
+80	8380	kokpit	kokpite kokpiti kokpitin kokpitte kokpitten
+81	8381	korunaklı	
+82	8382	ruhen	
+83	8383	vuku	
+84	8384	jeton	jetonlu jetonu jetonum
+85	8385	kardemir	
+86	8386	köroğlu	
+87	8387	ortaç	
+88	8388	seküler	
+89	8389	tarhan	
+90	8390	tesettür	
+91	8391	yeşillik	yeşillikler yeşillikleri yeşilliğe yeşilliği
+92	8392	arş	arşın
+93	8393	amirlik	amirliği
+94	8394	hazin	
+95	8395	sahici	
+96	8396	sahteci	sahtecilik sahtecilikten sahteciliği
+97	8397	örgütlemek	örgütle örgütlenmesi örgütler
+98	8398	kaput	kaputa kaputu kaputun kaputuna
+99	8399	bekleyiş	bekleyişi bekleyişin bekleyişten
+100	8400	sıvışmak	sıvış sıvışacağım sıvışalım sıvışma sıvışmaya sıvışmayı sıvışmış sıvıştı sıvıştım sıvıştın sıvışıp sıvışıyor

@@ -1,0 +1,100 @@
+1	5001	zindan	zindana zindanda zindandan zindanlar zindanlara zindanlarda zindanları zindanlarında zindanı zindanın zindanına zindanında
+2	5002	tübitak	tübitak'ın
+3	5003	idrak	
+4	5004	revir	revirde revirdeki revirden revire reviri revirin revirinde revirine
+5	5005	server	
+6	5006	orantılı	orantılıdır
+7	5007	bulmaca	bulmacada bulmacalar bulmacaları bulmacanın bulmacası bulmacasını bulmacaya bulmacayı
+8	5008	izzet	
+9	5009	lanetli	lanetlidir lanetliler lanetlilerin lanetlisin lanetliydi lanetliyim lanetliyiz
+10	5010	psikiyatri	psikiyatride psikiyatriden psikiyatrisi psikiyatriye psikiyatriyi
+11	5011	odaklı	
+12	5012	kaburga	kaburgada kaburgadan kaburgalar kaburgalara kaburgalarda kaburgaları kaburgalarım kaburgalarımı kaburgaların kaburgalarına kaburgalarında kaburgalarından kaburgalarını kaburgalarının kaburgam kaburgamı kaburgan kaburganın kaburgası kaburgasına kaburgasını kaburgaya kaburgayı
+13	5013	samuray	samuraya samurayla samuraylar samurayları samurayların samurayı samurayım samurayın
+14	5014	yürekli	yüreklidir yüreklisin yürekliydi yürekliyim
+15	5015	berat	beratı
+16	5016	haf	haftaki
+17	5017	sürdürmek	sürdürür
+18	5018	pir	piri
+19	5019	havaliman	havalimanı'na havalimanı'nda havalimanı'ndan havalimanı'nın
+20	5020	demirci	demirci'nin demirciler demircinin demirciye
+21	5021	gübre	gübreden gübreler gübreleri gübrenin gübresi gübreye gübreyi gübreyle
+22	5022	claude	
+23	5023	düğ	düğmelerim düğmelerimi düğmelerine düğmelerini düğmelerinin düğmelerle düğmem düğmemi düğmen düğmeni düğmesi düğmesinin düğmeyle
+24	5024	ıslah	ıslahı
+25	5025	anten	antene anteni antenin antenini antenle antenler antenleri
+26	5026	taburcu	
+27	5027	muhasebeci	muhasebeciler muhasebecileri muhasebecilerin muhasebecim muhasebecimiz muhasebecimle muhasebecin muhasebecinin muhasebecisi muhasebecisin muhasebeciydi muhasebeciye muhasebeciyi muhasebeciyim muhasebeciyle
+28	5028	hükmetmek	hükmedebilir hükmedecek hükmedeceksin hükmedeceğim hükmedeceğiz hükmeden hükmeder hükmediyor hükmediyordu hükmediyorum hükmet hükmetme hükmetmeye hükmetmeyi hükmetmiş hükmetti hükmettiği
+29	5029	pedro	
+30	5030	hiza	hizada hizan hizası hizasına hizasında hizasından hizaya hizayı
+31	5031	verimlilik	verimliliği verimliliğini
+32	5032	susuz	
+33	5033	tatbikat	tatbikata tatbikatlar tatbikatları tatbikatta tatbikatı tatbikatın
+34	5034	ilahiyat	
+35	5035	isyancı	isyancılar isyancılara isyancılardan isyancıları isyancıların
+36	5036	beraat	
+37	5037	cephane	cephaneler cephaneleri cephanem cephanemiz cephanemizi cephanen cephaneni cephanenin cephanenizi cephanesi cephanesini cephaneye cephaneyi
+38	5038	bauer	
+39	5039	müsteşar	müsteşarı
+40	5040	tasavvuf	tasavvufun
+41	5041	ergenlik	ergenlikte ergenlikten ergenliğe ergenliği ergenliğin
+42	5042	söyleşi	söyleşide söyleşiler söyleşileri söyleşisi söyleşiyi
+43	5043	diriliş	dirilişi dirilişin dirilişini
+44	5044	im	imde imden imi imin imiz imle
+45	5045	hidrojen	hidrojenden hidrojeni hidrojenin hidrojenle
+46	5046	hemfikir	hemfikirdi hemfikirdik hemfikirdir hemfikirim hemfikiriz hemfikirler
+47	5047	kabak	kabakları kabaklı kabağa kabağı kabağım kabağını
+48	5048	gururlu	
+49	5049	yapışkan	yapışkanlı yapışkansın yapışkanı
+50	5050	gam	gama gamalı
+51	5051	farkındalık	farkındalığı farkındalığın
+52	5052	küçülmek	küçül küçüldü küçüldükçe küçülecek küçülen küçülme küçülmeye küçülmüş küçültme küçülüp küçülür küçülüyor
+53	5053	kararname	kararnamesi kararnamesiyle
+54	5054	papel	papelden papele papeli papelim papelimi papelin papeline
+55	5055	yoğunlaşmak	yoğunlaş yoğunlaşacak yoğunlaşacağım yoğunlaşacağız yoğunlaşalım yoğunlaşan yoğunlaşarak yoğunlaşma yoğunlaşmalısın yoğunlaşmalıyız yoğunlaşmaya yoğunlaşmış yoğunlaşmıştı yoğunlaştı yoğunlaştım yoğunlaştığı yoğunlaşın yoğunlaşıp yoğunlaşır yoğunlaşıyor
+56	5056	vatansever	vatanseverdi vatanseverim vatanseverler vatanseverleri vatanseverlerin vatanseverlik vatanseverliğin vatanseversin
+57	5057	torpido	torpidoda torpidolar torpidoları torpidonun torpidosu torpidoya torpidoyu
+58	5058	alışılmadık	
+59	5059	dadı	dadıdan dadılar dadıları dadıların dadım dadımız dadın dadının dadınız dadısı dadısının dadıya dadıyla dadıyı dadıyım
+60	5060	süzülmek	süzül süzüldü süzüldüm süzülecek süzülen süzülerek süzülme süzülmeye süzülmüş süzülüp süzülür süzülürken süzülüyor süzülüyordu süzülüyorlar süzülüyorsun süzülüyorum
+61	5061	şeftali	şeftaliler şeftalileri şeftalili şeftalim şeftalinin şeftalisi şeftaliyi
+62	5062	kandırma	kandırmaya
+63	5063	kontenjan	kontenjanlar kontenjanı kontenjanından
+64	5064	valiz	valizde valize valizi valizim valizimi valizin valizinde valizine valizini valiziniz valizinizi valizle valizler valizleri valizlerimi valizlerimizi valizlerin valizlerini valizlerinizi
+65	5065	lif	lifi lifler lifleri lifli
+66	5066	gevrek	gevrekler gevrekleri gevreği gevreğin gevreğinden gevreğine gevreğini gevreğinin gevreğiyle
+67	5067	uğurlu	
+68	5068	dişli	dişliler dişlileri dişlilerin dişlisi
+69	5069	anlayışlı	
+70	5070	bisküvi	bisküviler bisküvilerden bisküvileri bisküvilerini bisküvisi bisküviyi
+71	5071	hançer	hançerden hançere hançeri hançerimi hançerin hançerini hançerler hançerleri
+72	5072	emekçi	emekçiler emekçileri emekçilerin
+73	5073	karlı	
+74	5074	sarsmak	sars sarsa sarsabilir sarsacak sarsan sarsar sarsma sarsmaya sarsmayın sarsmış sarsmıştı sarstı sarstım sarstın sarsılmaz sarsın sarsıp sarsıyor sarsıyorsun
+75	5075	misyon	misyona misyonu misyonum misyonumuz misyonun misyonunu misyonunun
+76	5076	uzunca	
+77	5077	kırpmak	kırp kırpacak kırpan kırpar kırparak kırpma kırpmadan kırpmadı kırpmadım kırpmadın kırpmam kırpmaya kırptı kırptım kırptın kırpın kırpıp kırpıyor kırpıyorsun kırpıyorum
+78	5078	başsavcı	başsavcının başsavcısı başsavcısının başsavcıya başsavcıyla başsavcıyı
+79	5079	hareketsiz	
+80	5080	bakkal	bakkala bakkalda bakkaldan bakkalı bakkalın
+81	5081	iple	ipiyle iplemiyor iplerle
+82	5082	cha	
+83	5083	inandırıcı	inandırıcıydı
+84	5084	sentetik	sentetikler sentetikleri
+85	5085	selamlamak	selamla selamladı selamlamaya selamlar selamlarım selamlarız selamlasın selamlayalım selamlayan selamlayın selamlıyor selamlıyorlar selamlıyorum selamlıyoruz
+86	5086	acınası	
+87	5087	argo	argoda argosu
+88	5088	yatılı	
+89	5089	peşin	
+90	5090	tayfa	tayfadan tayfalar tayfam tayfan tayfanın tayfası tayfasına tayfasından tayfasını tayfasının tayfasıyla tayfaya tayfayla tayfayı
+91	5091	haçlı	
+92	5092	barmen	barmenden barmene barmeni barmenim barmenimiz barmenin barmenle barmenler barmenlerin
+93	5093	gevşek	gevşekti
+94	5094	filozof	filozoflar filozofların filozofu filozofun
+95	5095	ışıl	
+96	5096	susturmak	sustur susturabilir susturacak susturacağım susturamaz susturamazsın susturdu susturdular susturdum susturdun susturma susturmam susturmaya sustursun susturun susturup susturur sustururum susturuyor
+97	5097	manşet	manşete manşeti manşetinde manşetler manşetlerde manşetlerden manşetlere manşetleri manşetlerinde manşette manşetten
+98	5098	lionel	
+99	5099	ameliyathane	ameliyathanede ameliyathanedeki ameliyathaneden ameliyathanemde ameliyathanemden ameliyathanenin ameliyathaneye ameliyathaneyi
+100	5100	bayern	

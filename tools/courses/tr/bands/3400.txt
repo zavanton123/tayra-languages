@@ -1,0 +1,100 @@
+1	3301	asır	asra asrın asırda asırdan asırdır asırlar asırlardır
+2	3302	çekinmek	çekin çekindi çekindim çekindin çekindiği çekindiğim çekindiğin çekine çekinebilir çekinecek çekinelim çekinen çekinerek çekinin çekinir çekinirdim çekinirler çekiniyor çekiniyordu çekiniyordum çekiniyorlar çekiniyorsan çekiniyorsun çekiniyorsunuz çekiniyorum çekinme çekinmeden çekinmedi çekinmem çekinmeyecek çekinmeyen çekinmeyin çekinmez çekinmezdi çekinmezler çekinmiyor çekinmiyorlar çekinmiyorsun çekinmiyorum
+3	3303	ünvan	unvan unvanı ünvanlar ünvanı ünvanım ünvanımı ünvanın ünvanına ünvanını
+4	3304	holding	holding'e holding'in holdingi holdingin holdingleri
+5	3305	istiklal	
+6	3306	cüret	cüreti cüretimi cüretinde cüretini cüretle
+7	3307	hareketli	
+8	3308	itaat	itaati
+9	3309	yıkım	yıkıma yıkımdan yıkımla yıkımlar yıkımı yıkımın yıkımına yıkımından yıkımını yıkımının
+10	3310	levent	
+11	3311	özen	özene özeni özenle özensiz
+12	3312	neşe	neşeden neşelidir neşelisin neşelisiniz neşeliydi neşeliyim neşem neşemi neşemiz neşemizi neşen neşeni neşenin neşenizi neşesi neşesini neşeye neşeyi neşeyle
+13	3313	kutup	kutba kutbu kutbun kutbuna kutbunda kutbundaki kutbundan kutbunu kutbunun kutuplar kutuplara kutuplarda kutuplardaki kutuplardan kutupları kutupların kutuplu kutupta
+14	3314	ayıp	ayıbı ayıplı ayıpsın ayıptır
+15	3315	alış	alışacaktır alışana alışmaları alışmamız alışman alışmanın alışmanız alışması alışmasını alışmayı alışmışsındır alıştıktan alıştığını alışı alışıla alışılagelmiş alışıldık alışım alışımda alışımı alışın alışında alışını
+16	3316	adaylık	adaylıktan adaylığı adaylığım adaylığımı adaylığın adaylığını adaylığınızı
+17	3317	gayret	gayreti gayretin gayretini gayretle gayretleri gayretli
+18	3318	deyi	deyince
+19	3319	sığınak	sığınaklar sığınaklara sığınaklarda sığınakları sığınaklarına sığınaklarında sığınaklarını sığınakta sığınaktaki sığınaktan sığınaktır sığınağa sığınağı sığınağım sığınağıma sığınağımız sığınağın sığınağına sığınağında sığınağından sığınağını sığınağının
+20	3320	dennis	
+21	3321	muhafaza	muhafazası
+22	3322	fragman	fragmanları fragmanı
+23	3323	anlık	
+24	3324	alfa	alfalar alfayı
+25	3325	boğa	boğadan boğalar boğalarla boğaları boğaların boğanın boğası boğaya boğayla boğayı
+26	3326	yığın	yığına yığında yığınlar yığınları yığınlarına yığınlarını yığınlarının yığını yığının yığınına yığınında yığınından yığınını yığınının yığınıydı yığınıyla
+27	3327	zombi	zombiden zombiler zombilerden zombilere zombileri zombilerin zombinin zombiye zombiyi
+28	3328	sabırsızlanmak	sabırsızlanan sabırsızlandım sabırsızlanmaya sabırsızlanıyor sabırsızlanıyordu sabırsızlanıyordum sabırsızlanıyorlar sabırsızlanıyorsun sabırsızlanıyorsunuz sabırsızlanıyorum sabırsızlanıyoruz
+29	3329	salmak	sala salacak salacaklar salacaksın salacağım salacağız salalım salan salar salarak salarlar salarım salarız salayım saldı saldık saldılar saldım saldın saldınız saldığı salma salmaya salmış salmışlar salmıştı salsa salın salıp salıyor salıyorlar salıyorsun salıyorum salıyoruz
+30	3330	borçlu	borçlular
+31	3331	kaos	kaosa kaosla kaosta kaostan kaostu kaosu kaosun
+32	3332	yeraltı	yeraltını yeraltının
+33	3333	nancy	
+34	3334	gözlü	
+35	3335	afiyet	afiyetle
+36	3336	kabin	kabinde kabindeki kabinden kabine kabinede kabinenin kabinesi kabineye kabineyi kabini kabinin kabininde kabininden kabinine kabinini kabininin kabinler kabinleri
+37	3337	depresyon	depresyona depresyonda depresyondaki depresyondan depresyondaydı depresyondaydım depresyondayım depresyonla depresyonu depresyonun
+38	3338	kısmen	
+39	3339	yönelmek	yönel yöneldi yöneldik yöneldiler yöneldim yöneldin yöneldiği yönelecek yöneleceğiz yönelelim yönelen yönelerek yönelin yönelip yönelir yönelirler yöneliyor yöneliyorlar yöneliyorum yöneliyoruz yönelme yönelmeye yönelmiş yönelmişler yönelmişti yönelsin yöneltilen
+40	3340	raymond	
+41	3341	dayanışma	dayanışmanın dayanışması dayanışmaya dayanışmayı
+42	3342	olağan	olağandan olağandır
+43	3343	yanık	yanıklar yanıklara yanıklarla yanıkları yanıkların yanıklarını yanıktı yanığa yanığı yanığın yanığına
+44	3344	nedense	
+45	3345	statü	statüde statüm statünü statüsü statüsünde statüsüne statüsünü statüsünün statüye
+46	3346	ortaokul	ortaokula ortaokulda ortaokuldaki ortaokuldan ortaokuldayken ortaokulu ortaokulun
+47	3347	sönmek	sön söndü söndüğü söndüğünde sönecek sönen söner sönerken sönerse sönmedi sönmemiş sönmesin sönmeye sönmeyecek sönmeyen sönmez sönmüş sönmüştü sönsün sönünce sönüp sönüyor sönüyordu
+48	3348	çalar	çaları çaların
+49	3349	üstünlük	üstünlükleri üstünlüğe üstünlüğü üstünlüğüm üstünlüğümü üstünlüğümüz üstünlüğün üstünlüğüne üstünlüğünü üstünlüğünün
+50	3350	bağlılık	bağlılıkla bağlılıkları bağlılıklarını bağlılıktan bağlılıktır bağlılığa bağlılığı bağlılığım bağlılığımı bağlılığımın bağlılığımız bağlılığımızı bağlılığın bağlılığına bağlılığından bağlılığını bağlılığının bağlılığınız bağlılığınızı
+51	3351	elemek	ele eledi eledik eledim eleme elemeler elemelerde elemelere elemeleri elemelerinde elemelerine elememiz elemesi elemeye elemeyi elemiş elen elendi elendim elendin elenecek elenen elenir eleniyor elenmiş eler eleyebiliriz eleyelim eleyerek eleyip eliyor eliyoruz
+52	3352	samsung	samsung'un
+53	3353	stat	stad stada stadı stadı'nda stadın stadında statta
+54	3354	deplasman	deplasmanda deplasmanı deplasmanına deplasmanında
+55	3355	ressam	ressama ressamdı ressamdır ressamla ressamlar ressamlardan ressamları ressamların ressamlık ressamsın ressamı ressamım ressamın
+56	3356	hayret	hayrete hayretler
+57	3357	kin	kinden kine kini kinim kinin kinini kinle
+58	3358	büyüleyici	büyüleyicidir büyüleyicisin büyüleyiciydi
+59	3359	nev	neve nevi nevin
+60	3360	bakteri	bakteriden bakteriler bakterilerden bakterilere bakterileri bakterilerin bakterilerle bakterinin bakterisi bakteriye bakteriyi
+61	3361	volkan	volkana volkandan volkanlar volkanlardan volkanları volkanların volkanı volkanın
+62	3362	karma	karmam karman karmanın karması karmaya karmayı
+63	3363	zekalı	zekalılar zekalıları zekalıların zekalının zekalısın zekalıya zekalıyla zekalıyı zekalıyım
+64	3364	tabaka	tabakada tabakadan tabakalar tabakaları tabakalarının tabakanın tabakası tabakasına tabakasında tabakasından tabakasını tabakasının tabakasıyla tabakaya tabakayla tabakayı
+65	3365	döngü	döngüde döngüden döngüdür döngüler döngüleri döngülerini döngünün döngüsü döngüsünde döngüsünden döngüsüne döngüsünü döngüsünün döngüye döngüyü
+66	3366	şimşek	şimşekle şimşekler şimşekleri şimşekten şimşeği şimşeğin
+67	3367	karışım	karışıma karışımda karışımdan karışımlar karışımları karışımlı karışımı karışımıdır karışımım karışımın karışımına karışımından karışımını karışımının karışımıydı karışımıyla
+68	3368	ufuk	ufka ufku ufkumu ufkumuzu ufkun ufkuna ufkunda ufkunu ufkunun ufuklar ufuklara ufukta ufuktaki ufuktan
+69	3369	bank	banklar banklarda bankta banktan bankı bankın
+70	3370	parçalanmak	parçalanabilir parçalanacak parçalanan parçalanarak parçalandı parçalandığı parçalanmamış parçalanmaya parçalanmış parçalanmıştı parçalansın parçalanıp parçalanır parçalanırsa parçalanıyor parçalanıyordu
+71	3371	beceri	beceriler becerilere becerileri becerilerim becerilerimi becerilerin becerilerinden becerilerine becerilerini becerilerinin becerileriniz becerilerinizi becerim becerimi becerin becerini beceriniz becerinizi becerisi becerisine becerisini becerisinin becerisiyle beceriye beceriyi beceriyle
+72	3372	mevzu	mevzuat mevzuata mevzuatı mevzuda mevzudan mevzular mevzulara mevzuları mevzunun mevzusu mevzusuna mevzusunda mevzusundan mevzusunu mevzuya mevzuyu
+73	3373	kokain	kokainden kokaine kokaini kokainim kokainin kokainini kokainle
+74	3374	çember	çemberde çemberden çembere çemberi çemberin çemberinde çemberinden çemberine çemberini çemberinin çemberler çemberleri
+75	3375	motosiklet	motosiklete motosikleti motosikletim motosikletimi motosikletimin motosikletimle motosikletin motosikletine motosikletini motosikletinin motosikletiyle motosikletle motosikletler motosikletlere motosikletleri motosikletli motosikletliler motosiklette motosikletten motosikletçi
+76	3376	farz	farzdır farzı
+77	3377	egzersiz	egzersizden egzersize egzersizi egzersizin egzersizini egzersizle egzersizler egzersizleri egzersizlerimi egzersizlerini
+78	3378	men	meni
+79	3379	bilge	bilgedir bilgeler bilgelerin bilgen bilgesi bilgesin
+80	3380	se	
+81	3381	şampanya	şampanyadan şampanyalar şampanyaları şampanyalı şampanyam şampanyamı şampanyamız şampanyanı şampanyanın şampanyanız şampanyanızdan şampanyası şampanyaya şampanyayla şampanyayı
+82	3382	aksiyon	aksiyona aksiyondan aksiyonu aksiyonun
+83	3383	bencil	bencildi bencildim bencildir bencilim bencilin benciller bencilsin bencilsiniz
+84	3384	iflas	iflasa iflastan iflası iflasın iflasına iflasını
+85	3385	şişko	şişkolar şişkonun şişkosun şişkoya şişkoydu şişkoyu
+86	3386	fren	frenden frene freni frenini frenle frenleme frenler frenlere frenleri frenlerim frenlerin frenlerini
+87	3387	görünmez	görünmezdir
+88	3388	vizyon	vizyona vizyonda vizyonlar vizyonları vizyonu vizyonum vizyonumu vizyonun vizyonuna vizyonunu
+89	3389	tahrik	
+90	3390	sürgün	sürgünde sürgündeki sürgünden sürgündeyken sürgüne sürgünler sürgünü sürgünün
+91	3391	tayin	tayini tayinim tayinimi tayinin tayinini
+92	3392	hatalı	
+93	3393	yağış	yağışlar yağışların yağışı yağışın
+94	3394	ölçmek	ölç ölçebilir ölçebiliriz ölçecek ölçeceğim ölçeceğiz ölçelim ölçen ölçer ölçerek ölçeri ölçeyim ölçme ölçmem ölçmeye ölçtü ölçtük ölçtüm ölçtün ölçülmesi ölçün ölçüp ölçüyor ölçüyorlar ölçüyorsun ölçüyorum ölçüyoruz
+95	3395	muz	muza muzdan muzla muzlar muzları muzların muzlu muzu muzum muzumu muzun muzunu
+96	3396	yanlışlıkla	
+97	3397	yuvarlak	yuvarlaklar yuvarlaktır
+98	3398	kâr	kâra kârdan kârlar kârı kârım kârımız kârımızı kârın kârını
+99	3399	adem	adem'in
+100	3400	şüphelenmek	şüphelendi şüphelendik şüphelendikleri şüphelendiler şüphelendim şüphelendin şüphelendiniz şüphelendiği şüphelendiğim şüphelendiğimiz şüphelendiğin şüphelendiğini şüphelendiğiniz şüphelenebilir şüphelenecek şüphelenen şüphelenip şüphelenir şüphelenirler şüphelenirse şüpheleniyor şüpheleniyordu şüpheleniyordum şüpheleniyorlar şüpheleniyorsun şüpheleniyorsunuz şüpheleniyorum şüpheleniyoruz şüphelenmedi şüphelenmedim şüphelenmedin şüphelenmesin şüphelenmeye şüphelenmeyecek şüphelenmez şüphelenmezler şüphelenmiyor şüphelenmiş şüphelenmiştim

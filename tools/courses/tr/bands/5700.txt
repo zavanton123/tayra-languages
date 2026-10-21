@@ -1,0 +1,100 @@
+1	5601	beşik	beşikte beşikteki beşikten beşiğe beşiği beşiğin beşiğinde beşiğinden beşiğine beşiğini
+2	5602	yeralt	yeraltına yeraltında yeraltındaki yeraltından
+3	5603	mb	
+4	5604	fiilen	
+5	5605	mühimmat	mühimmata mühimmatı
+6	5606	cool	
+7	5607	sindirim	sindirime sindirimi
+8	5608	roberto	
+9	5609	safha	safhada safhalarda safhaları safhalarında safhası safhasına safhasında safhasını safhaya safhayı
+10	5610	sarp	
+11	5611	çiçekli	
+12	5612	kadı	kadına kadında kadından kadını kadının kadınız
+13	5613	meçhul	
+14	5614	sakallı	
+15	5615	mine	
+16	5616	vahşet	vahşete vahşeti vahşetin vahşetten
+17	5617	klişe	klişedir klişeler klişelerden klişeleri klişeleşmiş klişesi
+18	5618	prototip	prototipi prototipin prototipini prototipler prototipleri
+19	5619	hekimlik	hekimliği
+20	5620	heba	
+21	5621	enayi	enayiler enayilerin enayinin enayisin enayiye enayiyi
+22	5622	yosun	yosunla yosunlar yosunları yosunların yosunlu yosunu
+23	5623	tava	tavada tavadan tavalar tavaları tavası tavasını tavaya tavayla tavayı
+24	5624	radyoaktif	
+25	5625	limuzin	limuzinde limuzindeki limuzinden limuzine limuzini limuzinim limuzinin limuzinine limuzinini limuzinle limuzinler
+26	5626	namlu	namluda namludan namlulu namlunun namlusu namlusuna namlusundan namlusunu namlusunun namluya namluyu
+27	5627	yorumcu	yorumcular yorumcuları yorumcusu
+28	5628	çatlamak	çatla çatladı çatlama çatlamaya çatlamış çatlar çatlasa çatlasın çatlatmış çatlattı çatlattım çatlayacak çatlayacağım çatlayana çatlayıp çatlıyor çatlıyorum
+29	5629	mescit	mescide mescidi mescidin
+30	5630	iltihap	iltihabı iltihabın iltihabına iltihabından iltihaplanma iltihaplanması iltihaplanmış iltihaplı
+31	5631	canan	
+32	5632	tekel	tekeli tekelinde tekeline
+33	5633	dizel	
+34	5634	araştırman	araştırmana araştırmanda araştırmanı araştırmanın araştırmanız
+35	5635	aza	azam azan
+36	5636	çırak	çırağı çırağım çırağın
+37	5637	umursamaz	
+38	5638	kanatlı	
+39	5639	çimento	çimentodan çimentonun çimentoya çimentoyla çimentoyu
+40	5640	tugay	tugaylar tugayı
+41	5641	daralmak	daralan daraldı daraldım daralma daralması daralmış daralır daralıyor
+42	5642	cumhur	
+43	5643	yükseköğretim	
+44	5644	kabaca	kabacaydı
+45	5645	unesco	unesco'nun
+46	5646	eskort	eskorta eskortlar eskortluk eskortu eskortum
+47	5647	yulaf	yulaflı
+48	5648	çözünürlük	çözünürlükte çözünürlüğe çözünürlüğü
+49	5649	arsa	arsada arsaları arsanın arsası arsaya arsayı
+50	5650	sapmak	sapar sapma sapmadan sapmalar sapması sapmaya sapmayalım sapmayın sapmış saptı saptık saptılar saptım saptın saptırmak sapın sapıp sapıyor sapıyorsun sapıyoruz
+51	5651	fısıldamak	fısılda fısıldadı fısıldadım fısıldadın fısıldadığı fısıldadığını fısıldama fısıldamaya fısıldamayı fısıldamış fısıldar fısıldayacak fısıldayacağım fısıldayan fısıldayarak fısıldayıp fısıldıyor fısıldıyordu fısıldıyorlar fısıldıyorsun fısıldıyorum fısıldıyoruz
+52	5652	çekmen	çekmene çekmeni çekmenin
+53	5653	roland	
+54	5654	ümmet	ümmeti ümmetin
+55	5655	vale	valeler valen valenin valesi valeye valeyi
+56	5656	aras	
+57	5657	kuşatma	kuşatmadan kuşatmanın kuşatması kuşatmasında kuşatmasını kuşatmaya kuşatmayı
+58	5658	dengeli	
+59	5659	dandik	
+60	5660	çaresizlik	çaresizlikle çaresizlikten çaresizliğe çaresizliği çaresizliğin çaresizliğini
+61	5661	temizlikçi	temizlikçiler temizlikçileri temizlikçilerin temizlikçim temizlikçimiz temizlikçinin temizlikçisi temizlikçiye temizlikçiyi temizlikçiyim
+62	5662	iletim	iletimi
+63	5663	öge	ögeleri öğe öğeleri
+64	5664	keşfedilmek	keşfedildi keşfedildiği keşfedilecek keşfedilen keşfedilmedi keşfedilmiş keşfedilmişti
+65	5665	akalın	akalın'ın
+66	5666	komando	komandolar komandoları komandoların komandosu
+67	5667	içindekiler	içindekileri
+68	5668	ilerlemek	ilerler ilerleyiş
+69	5669	kamusal	
+70	5670	faul	fauldü faulü
+71	5671	kurye	kuryeler kuryeleri kuryenin kuryesi kuryeye kuryeyi kuryeyle
+72	5672	balistik	balistikte balistiğe
+73	5673	baybay	bb
+74	5674	eksiksiz	
+75	5675	tulum	tulumlar tulumları tulumlarını tulumlu tulumu tulumum tulumumu tulumun tulumuna tulumunda tulumunu tulumunun
+76	5676	tepsi	tepside tepsiler tepsileri tepsin tepsinin tepsisi tepsisine tepsisini tepsiye tepsiyi tepsiyle
+77	5677	dayanak	dayanakları dayanaklı dayanağı dayanağım dayanağımız dayanağın dayanağınız
+78	5678	velayet	velayeti velayetin velayetini
+79	5679	promosyon	promosyonu
+80	5680	şeriat	şeriata şeriatın
+81	5681	çat	çatlar çattığında çatır
+82	5682	pin	pine pini
+83	5683	esrarengiz	
+84	5684	sivilce	sivilceler sivilceleri sivilcelerin sivilcem sivilcen sivilcesi sivilceyi
+85	5685	erdemli	
+86	5686	anestezi	anesteziden anestezinin anesteziye anesteziyi anesteziyle
+87	5687	talip	talibi talibim talibin talipleri talipli
+88	5688	sıcacık	sıcacıktı
+89	5689	çarpma	
+90	5690	mikrodalga	mikrodalgada mikrodalgalar mikrodalganın mikrodalgaya mikrodalgayı
+91	5691	soyut	
+92	5692	fıfa	
+93	5693	ebe	ebeler eben ebeni ebenin ebesi ebesin ebesini ebesinin ebeyi ebeyim
+94	5694	gazoz	gazozla gazozu gazozun
+95	5695	yırtık	yırtıklar yırtığa yırtığı yırtığın
+96	5696	zorba	zorbalar zorbalara zorbalardan zorbaları zorbaların zorbanın zorbaya zorbayı
+97	5697	hu	
+98	5698	fethetmek	fethedecek fethedeceğim fethedeceğiz fetheden fetheder fethedip fethet fethetme fethetmeye fethetti fethettik fethettiler fethettim fethettin fethettiği
+99	5699	bileklik	bileklikler bileklikleri bileklikten bilekliği bilekliğim bilekliğimi bilekliğin bilekliğini
+100	5700	mutasyon	mutasyona mutasyonlar mutasyonu mutasyonun

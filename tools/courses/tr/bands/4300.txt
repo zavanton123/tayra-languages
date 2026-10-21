@@ -1,0 +1,100 @@
+1	4201	dindar	dindardı dindardır dindarlar dindarsın
+2	4202	gereksinim	gereksinimi gereksinimini gereksinimler gereksinimleri gereksinimlerini
+3	4203	kravat	kravata kravatla kravatlar kravatları kravattan kravatı kravatım kravatımı kravatın kravatına kravatını kravatınız kravatınızı
+4	4204	pençe	pençeler pençelere pençeleri pençelerim pençelerimi pençelerin pençelerinde pençelerinden pençelerine pençelerini pençelerinin pençeleriyle pençelerle pençeli pençeni pençesi pençesinde pençesinden pençesine pençesini pençeyi
+5	4205	kahkaha	kahkahadan kahkahalar kahkahalara kahkahalarla kahkahaları kahkahaların kahkahalarını kahkahanın kahkahası kahkahasını kahkahaya kahkahayla kahkahayı
+6	4206	süvari	süvariler süvarilere süvarileri süvarilerin süvarilerini süvarinin süvarisi süvariyi
+7	4207	edep	adabı adabına adabını adap edebi
+8	4208	yoksulluk	yoksullukta yoksulluktan yoksulluğa yoksulluğu yoksulluğun
+9	4209	hugo	
+10	4210	tasarımcı	tasarımcılar tasarımcıları tasarımcıların tasarımcımız tasarımcının tasarımcısı tasarımcıyı tasarımcıyım
+11	4211	taslak	taslaklar taslakları taslaklarını taslakta taslağa taslağı taslağın taslağını
+12	4212	mendil	mendile mendili mendilim mendilimi mendilin mendilini mendiliniz mendille mendiller mendilleri
+13	4213	onarmak	onar onarabilir onarabilirim onarabiliriz onarabilirsin onaracak onaracağım onaracağız onaralım onaramaz onaran onardı onardık onardım onardın onarma onarmalıyız onarmam onarmamız onarmanın onarması onarmaya onarmayı onarmış onarılabilir onarılacak onarılamayacak onarılamaz onarıldı onarılması onarılmaz onarılmış onarın onarıp onarır onarırken onarırım onarıyor onarıyorum
+14	4214	kaygı	kaygılar kaygıları kaygılarım kaygıların kaygılarını kaygılarınız kaygılıydı kaygılıyım kaygım kaygımız kaygısı kaygısız kaygıyı
+15	4215	vasiyet	vasiyete vasiyeti vasiyetim vasiyetimde vasiyetime vasiyetimi vasiyetin vasiyetinde vasiyetinden vasiyetine vasiyetini vasiyetinin vasiyette vasiyetten
+16	4216	karikatür	karikatürler karikatürleri karikatürü
+17	4217	kargaşa	kargaşada kargaşadan kargaşanın kargaşası kargaşaya kargaşaydı kargaşayı
+18	4218	ispatlamak	ispatla ispatladı ispatladık ispatladım ispatladın ispatlama ispatlamalıyız ispatlamam ispatlamamız ispatlaman ispatlamanın ispatlaması ispatlamaya ispatlamaz ispatlamıyor ispatlamış ispatlanana ispatlandı ispatlanmamış ispatlanmış ispatlar ispatlarım ispatlarız ispatlayabilir ispatlayabilirim ispatlayabiliriz ispatlayacak ispatlayacaksın ispatlayacağım ispatlayacağız ispatlayamam ispatlayamayız ispatlayamaz ispatlayamazsın ispatlayamazsınız ispatlayan ispatlayana ispatlayın ispatlıyor
+19	4219	lehine	
+20	4220	ırkçı	
+21	4221	yayınevi	yayınevinde yayınevine yayınevinin yayınevleri
+22	4222	balta	baltadan baltalar baltaları baltalarını baltam baltamı baltanı baltanın baltası baltasını baltasıyla baltaya baltayla baltayı
+23	4223	dönük	dönükken dönüktü
+24	4224	metot	metodu metodum metodun metodunu metotlar metotlarla metotları metotlarını
+25	4225	cıa	
+26	4226	hırs	hırsa hırsla hırsları hırsların hırslarını hırstan hırsı hırsım hırsımı hırsın hırsına hırsından hırsını hırsının hırsınız hırsıyla
+27	4227	biçmek	biç biçebilir biçecek biçeceğim biçemezsin biçen biçer biçerek biçerim biçerken biçersin biçilemez biçin biçip biçiyor biçiyorlar biçiyorsun biçiyorum biçme biçmeye biçmiş biçti biçtiler biçtim biçtin biçtiği biçtiğin
+28	4228	serum	seruma serumdan serumla serumları serumu serumun serumuna serumunu serumunun
+29	4229	makas	makasa makaslar makasları makası makasım makasımı makasın makasını makasıyla
+30	4230	ebedi	ebedidir
+31	4231	mega	megan
+32	4232	tasarruf	tasarrufu
+33	4233	coşku	coşkunun coşkusu coşkusunu coşkuya coşkuyla coşkuyu
+34	4234	iskender	iskender'in
+35	4235	mastürbasyon	mastürbasyona mastürbasyondan mastürbasyonu
+36	4236	müzikal	müzikalde müzikale müzikali müzikalin müzikalinde müzikalinden müzikaline müzikalini müzikalinin müzikaller müzikallere müzikalleri
+37	4237	gb	
+38	4238	şekerlemek	şekerle şekerleme şekerlemeden şekerlemeler şekerlemelerden şekerlemeleri şekerlemeli şekerlemesi şekerlemeye şekerlemeyi şekerler şekerlerim
+39	4239	mürekkep	mürekkebe mürekkebi mürekkebin mürekkeple mürekkepten
+40	4240	e-posta	e-postada e-postadan e-postalar e-postalara e-postalarda e-postaları e-postalarıma e-postalarımı e-postaların e-postalarına e-postalarını e-postamı e-postana e-postanı e-postanın e-postası e-postasını e-postaya e-postayı
+41	4241	gezgin	gezgine gezgini gezginim gezginin gezginler gezginlere gezginleri gezginlerin
+42	4242	denetle	denetledi denetledim denetleme denetlemek denetlemem denetlemesi denetlemeye denetleniyor denetleyecek denetleyeceğim denetleyen denetleyici denetleyicisi denetliyor denetliyorum
+43	4243	terbiye	terbiyeden terbiyem terbiyen terbiyeni terbiyenizi terbiyesi terbiyesini terbiyeye
+44	4244	çikolatalı	
+45	4245	düşünceli	düşüncelidir düşünceliler düşüncelisin düşüncelisiniz düşünceliydi düşünceliyim düşünceliymiş
+46	4246	oba	obama
+47	4247	franz	
+48	4248	hatip	hatipler
+49	4249	susamak	susa susadı susadık susadım susadın susadınız susamadım susamadın susamaz susamış susamışlar susamışsın susamıştı susamıştım susamışım susar susarsan susarsın susarım susayan susuyor susuyorsun susuyorum
+50	4250	antrenör	antrenöre antrenörler antrenörleri antrenörü antrenörüm antrenörümüz antrenörün
+51	4251	gidermek	giderdi giderdik giderdim giderdin giderdiniz giderebilir giderecek giderelim gideren giderin giderir gideririz gideriyor giderme gidermem gidermeye gidermiş giderse gidersek gidersem gidersen giderseniz gidersin
+52	4252	sın	sının
+53	4253	bizimki	bizimkisi
+54	4254	yummak	yum yuma yumabilirim yumacak yumacaksın yumacağım yumamam yumamayız yumamazdım yumamazsın yuman yumar yumarsın yumdu yumduk yumdum yumdun yumdunuz yummam yummayacağım yummayacağız yummaz yummuş yumul yumulun yumuyor yumuyorsun yumuyorum
+55	4255	kefalet	kefalete kefaleti kefaletimi kefaletin kefaletini kefaletiniz kefaletinizi kefaletle kefaletsiz
+56	4256	devirmek	devirdi devirdik devirdiler devirdim devirdin devirebilecek devirebilir devirecek devireceksin devireceğim devireceğiz devirelim deviren devirerek devirin devirip devirir deviririm deviriyor devirme devirmeye devirmiş devrilir
+57	4257	hurda	hurdadan hurdalar hurdaları hurdaların hurdalık hurdalıkta hurdalıktan hurdalığa hurdalığı hurdalığın hurdanın hurdası hurdaya hurdayla hurdayı
+58	4258	zırhlı	zırhlılar zırhlısı
+59	4259	serin	serindi serindir serinmiş
+60	4260	acemi	acemiler acemilerden acemilere acemileri acemilerin acemilerle acemilik aceminin acemisin acemiye acemiyi acemiyim
+61	4261	kanamak	kana kanadı kanadım kanadın kanadığını kanamadan kanamadı kanamaları kanamalı kanamam kanaman kanamanın kanamanız kanaması kanamasına kanamasından kanamasını kanamasının kanamaya kanamayla kanamaz kanamıyor kanamış kanamıştı kanarken kanarsa kanayacak kanayan kanayana kanayarak kanayıp kanıyor kanıyordu kanıyordum kanıyorlar kanıyorsun kanıyorum
+62	4262	kelle	kelleler kelleleri kellelerini kellem kellemi kellemizi kellen kellene kelleni kellenin kellenizi kellesi kellesine kellesini kellesinin kelleyi
+63	4263	çalıntı	çalıntıdır çalıntıymış
+64	4264	karayol	karayolu
+65	4265	kasap	kasabı kasabım kasabın kasapla kasaplar kasapların kasapta kasaptan kasaptı
+66	4266	kentsel	
+67	4267	memnuniyetle	
+68	4268	uygarlık	uygarlıklar uygarlıkları uygarlıkların uygarlıktan uygarlığa uygarlığı uygarlığımız uygarlığımızın uygarlığın uygarlığının
+69	4269	beyan	beyanda beyanları beyanı beyanını
+70	4270	gömülü	gömülüdür gömülüydü gömülüymüş
+71	4271	havale	havalesi havaleyi
+72	4272	başak	
+73	4273	sör	
+74	4274	devralmak	devral devralabilir devralabilirim devralabilirsin devralacak devralacaksın devralacağım devralacağını devralacağız devralan devralayım devraldı devraldık devraldım devraldın devraldığı devraldığım devraldığımda devraldığında devraldığını devralma devralmadan devralmam devralması devralmasını devralmaya devralmayı devralmış devralın devralıp devralır devralırım devralırız devralıyor devralıyorsun devralıyorum devralıyoruz
+75	4275	sami	
+76	4276	hafife	
+77	4277	limit	limiti limitim limitimi limitin limitine limitini limitinin limitler limitleri limitlerin limitlerine limitlerini limitlerinin limitli limitsiz
+78	4278	yakınlık	yakınlıkta yakınlıktan yakınlığa yakınlığı yakınlığım yakınlığımız yakınlığın yakınlığını yakınlığınız
+79	4279	ebru	
+80	4280	melissa	
+81	4281	yargıtay	yargıtay'ın
+82	4282	nem	nemden neme nemi nemin nemliydi
+83	4283	bilinçli	
+84	4284	kokulu	
+85	4285	yırtmak	yırt yırtabilir yırtabilirim yırtacak yırtacaksın yırtacağım yırtan yırtar yırtarak yırtarken yırtarsın yırtarım yırtarız yırtma yırtmaya yırtmış yırtmışsın yırttı yırttık yırttılar yırttım yırttın yırttığı yırtıldı yırtın yırtıp yırtıyor yırtıyorsun yırtıyorum
+86	4286	budala	budalalar budalaları budalanın budalası budalasın budalaya budalayı budalayım
+87	4287	çeşitlilik	çeşitlilikte çeşitliliğe çeşitliliği çeşitliliğin çeşitliliğini
+88	4288	gayri	
+89	4289	sinsi	sinsidir sinsilik
+90	4290	sözleşmek	sözleşmeli sözleşmem sözleşmeye sözleşmiştik sözleştik sözleştiğimiz
+91	4291	çelebi	çelebi'nin
+92	4292	emlak	
+93	4293	troy	
+94	4294	kısmak	kıs kısabilir kısalar kısalım kısar kısarak kısasın kısaydı kısaymış kısayım kısma kısmaya kıssadan kıstım kıstır kıstırdı kıstırdık kıstırdılar kıstırdım kıstırmak kıstırmış kıstırılmış kıstırıp kısıldı kısıldık kısıldılar kısıldım kısılmak kısılmış kısılmıştı kısılıp kısılıyor kısın kısıp kısıyorum
+95	4295	ceylan	ceylan'ın ceylanlar ceylanı ceylanım
+96	4296	düğüm	düğüme düğümle düğümlenmesi düğümler düğümleri düğümlerini düğümlü düğümü düğümün düğümünü
+97	4297	sorunlu	
+98	4298	öd	öde ödediklerini ödedikten ödediğimi ödediğini ödemediğini ödemekten ödemeyeceğini ödendi ödendiğini ödenecek ödenen ödenir ödeniyor ödenmedi ödenmeli ödenmemiş ödenmesi ödenmesini ödenmez ödenmiş ödet ödetecek ödeteceğim ödeteceğiz ödetirim ödeyecektir ödeyeceğimi ödeyeceğine ödeyeceğini ödeyene ödleri ödlerini ödü ödüm ödümü ödümüz ödümüzü ödünü ödünüz
+99	4299	akrep	akrebi akrebin akreple akrepler akrepleri
+100	4300	teknolojik	

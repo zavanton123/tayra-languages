@@ -1,0 +1,100 @@
+1	9601	pediatri	pediatride
+2	9602	kinci	
+3	9603	meşruiyet	meşruiyetini
+4	9604	aptallaşmak	aptallaşma aptallaşmayın aptallaşıyor aptallaşıyorsun
+5	9605	taşikardi	taşikardisi taşikardiye
+6	9606	aleni	
+7	9607	tatbik	
+8	9608	cıvata	cıvatalar cıvataları cıvatayı
+9	9609	fondip	
+10	9610	avam	
+11	9611	kenetlenmek	kenetlendi kenetlendik kenetlenme kenetlenmeliyiz kenetlenmiş
+12	9612	silik	
+13	9613	disket	disketi disketler disketleri
+14	9614	kontrast	kontrastlı
+15	9615	kepenk	kepengi kepenkler kepenkleri
+16	9616	tarifsiz	
+17	9617	hezimet	hezimete
+18	9618	uyuşuk	uyuşuklar
+19	9619	kartvizit	kartviziti kartvizitim kartvizitimi kartvizitin kartvizitini kartvizitler
+20	9620	hıçkır	hıçkıra hıçkırarak
+21	9621	ölçüt	ölçütü
+22	9622	müreffeh	
+23	9623	gibisinden	
+24	9624	miyav	
+25	9625	hıçkırık	hıçkırıklar hıçkırıklara hıçkırıkları
+26	9626	bilgiç	
+27	9627	yudumlamak	yudumla yudumlar yudumlarken yudumlayıp yudumluyor
+28	9628	seçik	
+29	9629	defansif	
+30	9630	sorumsuzluk	
+31	9631	zum	
+32	9632	başsız	
+33	9633	biberli	
+34	9634	üzüntülü	
+35	9635	cümbüş	cümbüşe cümbüşü
+36	9636	divane	
+37	9637	nida	
+38	9638	sterilize	
+39	9639	sansar	sansarı
+40	9640	ayşenur	
+41	9641	başkonsolosluk	başkonsolosluğu
+42	9642	doğanay	
+43	9643	gülten	
+44	9644	halkbank	
+45	9645	horasan	
+46	9646	nursi	
+47	9647	tüsiad	
+48	9648	prömiyer	prömiyeri prömiyerini
+49	9649	dönüştürücü	dönüştürücüler dönüştürücüyü
+50	9650	kaygılı	
+51	9651	genelge	genelgesi
+52	9652	şişkin	
+53	9653	tahkikat	tahkikatı
+54	9654	kist	kisti
+55	9655	kışkırtma	kışkırtmasına kışkırtmayı
+56	9656	muson	musonun
+57	9657	dirhem	
+58	9658	monoton	
+59	9659	avanak	avanaklar
+60	9660	reaktif	
+61	9661	durakla	durakladın duraklama duraklat
+62	9662	üçkağıtçı	üçkağıtçılar üçkağıtçının
+63	9663	ferahlık	ferahlığı
+64	9664	bıldırcın	
+65	9665	kemancı	
+66	9666	oduncu	oduncular oduncunun
+67	9667	otomatikman	
+68	9668	gofret	gofreti
+69	9669	vantilatör	vantilatöre vantilatörü
+70	9670	kaynatmak	kaynat kaynatacak kaynatan kaynatma kaynatmaya kaynattı kaynattım kaynatın kaynatıp kaynatır kaynatıyor kaynatıyorsunuz
+71	9671	çağrışım	çağrışımı
+72	9672	manipülasyon	manipülasyonu
+73	9673	deccal	
+74	9674	dakik	dakiklik dakiktir
+75	9675	pişti	
+76	9676	sızı	
+77	9677	mecburiyet	mecburiyeti mecburiyetim mecburiyetinde mecburiyetten
+78	9678	pati	patiler patileri patilerini patini patisi
+79	9679	tutuksuz	
+80	9680	menopoz	menopoza
+81	9681	çalınmak	çalınır
+82	9682	görmemezlik	görmemezlikten
+83	9683	kabe	
+84	9684	libero	
+85	9685	hijyenik	
+86	9686	mihrap	mihraba mihrabın mihrapta
+87	9687	valf	valfi valfleri
+88	9688	ergül	
+89	9689	tika	
+90	9690	binaen	
+91	9691	pedikür	
+92	9692	obez	
+93	9693	varsayımsal	
+94	9694	namağlup	
+95	9695	kodaman	kodamanlar kodamanları kodamanların kodamanı kodamanın
+96	9696	tanker	tankere tankeri tankerin tankerler tankerleri
+97	9697	sura	surada suradaki suradan suraya
+98	9698	ardışık	
+99	9699	edebî	
+100	9700	dad	dat

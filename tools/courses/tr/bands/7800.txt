@@ -1,0 +1,100 @@
+1	7701	adaletli	
+2	7702	tıpatıp	
+3	7703	mossad	
+4	7704	düzlem	düzlemde düzleme düzlemi
+5	7705	sifon	sifonu sifonunu
+6	7706	düzlük	düzlükler düzlüklerde düzlükleri düzlüklerinde düzlükte düzlüğe düzlüğü
+7	7707	özgürlükçü	
+8	7708	mazot	
+9	7709	ayça	
+10	7710	özlük	
+11	7711	lokomotif	lokomotife lokomotifi lokomotifin lokomotiften
+12	7712	salıncak	salıncaklar salıncakta salıncaktan salıncağa salıncağı salıncağın
+13	7713	dedikoducu	dedikoducular
+14	7714	sıtma	sıtmadan sıtmaya
+15	7715	migren	migreni migrenim migrenin
+16	7716	caba	cabana cabası
+17	7717	yataklık	
+18	7718	azat	
+19	7719	müzayede	müzayedede müzayededen müzayedesi müzayedesinde müzayedesine müzayedeye müzayedeyi
+20	7720	kışkırtıcı	
+21	7721	aromalı	
+22	7722	soğukluk	soğukluğu
+23	7723	güdümlü	
+24	7724	saba	
+25	7725	hemencecik	
+26	7726	dostane	
+27	7727	gotik	
+28	7728	çeçe	çeçen
+29	7729	alçakça	alçakçaydı
+30	7730	alakadar	
+31	7731	hiper	
+32	7732	nadi	nadine
+33	7733	işbirlikçi	işbirlikçiler
+34	7734	tamamlayıcı	
+35	7735	dalak	dalağı dalağım dalağımı dalağın dalağında dalağını
+36	7736	yelkenli	yelkenliye yelkenliyi yelkenliyle
+37	7737	çomak	çomağı çomağın
+38	7738	tanrısal	
+39	7739	ödüllendirmek	ödüllendir ödüllendirdi ödüllendirecek ödüllendireceğim ödüllendirilmek ödüllendirir ödüllendiriyor ödüllendiriyorum ödüllendirme
+40	7740	saydam	
+41	7741	iskan	
+42	7742	sıkıyönetim	
+43	7743	gestapo	
+44	7744	çelenk	çelengi çelenkler çelenkleri
+45	7745	gevezelik	gevezeliği
+46	7746	çoğul	çoğulu
+47	7747	bosch	
+48	7748	suçüstü	
+49	7749	şansölye	şansölyenin şansölyesi
+50	7750	ambalaj	ambalajlı ambalajı ambalajını
+51	7751	meyhane	meyhanede meyhaneden meyhanenin meyhanesi meyhaneye
+52	7752	ramak	
+53	7753	mail	mailde maili mailimi mailin mailini mailiniz maille mailler mailleri maillerime maillerimi maillerine maillerini
+54	7754	misyoner	misyonerler misyonerleri misyonerlerin
+55	7755	seher	
+56	7756	cereyan	cereyanı
+57	7757	hücreli	
+58	7758	sümüklü	
+59	7759	bürokratik	
+60	7760	müessese	müesseseden müessesemizden müessesemizin müessesenin müessesesi
+61	7761	bihaber	bihaberdi bihaberdim bihaberim bihaberler bihabersin
+62	7762	teşrif	
+63	7763	hayrola	
+64	7764	kağan	
+65	7765	helyum	helyuma helyumu
+66	7766	beylik	beyliği
+67	7767	krater	kratere krateri kraterin kraterler kraterleri
+68	7768	aşure	
+69	7769	demirören	
+70	7770	mumcu	
+71	7771	nişantaşı	
+72	7772	peker	
+73	7773	türksat	
+74	7774	özgül	
+75	7775	ebediyet	ebediyete ebediyeti ebediyetin
+76	7776	utku	
+77	7777	direnişçi	direnişçiler direnişçilere direnişçileri direnişçilerin direnişçilerle
+78	7778	belgrad	
+79	7779	çalılık	çalılıklar çalılıklara çalılıklarda çalılıklardan çalılıkları çalılıkların çalılıkta çalılıktan çalılığa çalılığı çalılığın
+80	7780	tutanak	tutanaklar tutanaklara tutanakları tutanaklarını tutanağa tutanağı tutanağını
+81	7781	sümük	sümükle sümüğü sümüğün sümüğünü
+82	7782	istinaden	
+83	7783	abuk	
+84	7784	muvaffak	
+85	7785	mahrem	
+86	7786	sadist	sadistin sadistler sadistsin
+87	7787	ikaz	
+88	7788	kovalamaca	kovalamacadan kovalamacanın kovalamacası kovalamacaya kovalamacayı
+89	7789	sağdıç	sağdıcı sağdıcım sağdıcın
+90	7790	yamyam	yamyamlar yamyamların yamyamın
+91	7791	ürkek	
+92	7792	balıklı	
+93	7793	müteakip	
+94	7794	işitsel	
+95	7795	itina	itinayla
+96	7796	nazır	nazırı nazırım
+97	7797	hakkari	hakkari'de hakkari'nin
+98	7798	haciz	hacizli
+99	7799	atıştırmak	atıştır atıştıracak atıştıracağım atıştıralım atıştırdım atıştırma atıştırmaya atıştırın atıştırıp atıştırırım atıştırırız
+100	7800	antrenörlük	

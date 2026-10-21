@@ -1,0 +1,100 @@
+1	5101	üslup	üslubu üslubun üslubunu üslupla
+2	5102	hafifçe	
+3	5103	örtülü	örtülüydü
+4	5104	sığ	sığacağını sığdı sığması sığsın
+5	5105	neticede	
+6	5106	manevra	manevralar manevraları manevrası manevrasını manevraya manevrayı
+7	5107	saltanat	saltanatı saltanatın saltanatına saltanatını saltanatının
+8	5108	anımsamak	anımsa anımsadım anımsadın anımsadığım anımsama anımsamaya anımsamıyor anımsamıyorum anımsar anımsarsın anımsatacak anımsatmak anımsattı anımsatıcı anımsatır anımsatıyor anımsatıyorsun anımsayamadım anımsayamıyorum anımsayın anımsıyor anımsıyorsun anımsıyorum
+9	5109	malt	malta
+10	5110	sabırsızlık	sabırsızlıkla sabırsızlıktan
+11	5111	deneyimli	deneyimlidir deneyimliler deneyimlisin deneyimliyim
+12	5112	romantizm	romantizmden romantizme romantizmi romantizmin romantizmle
+13	5113	sema	semada semaları semalarında semaya
+14	5114	tefek	
+15	5115	eşdeğer	eşdeğerdir eşdeğeri
+16	5116	rahatlatıcı	
+17	5117	memnuniyet	memnuniyeti memnuniyetini memnuniyetsiz
+18	5118	basket	basketi
+19	5119	kask	kaska kaskla kasklar kaskları kasklı kasksız kaskı kaskım kaskımı kaskın kaskına kaskını kaskının
+20	5120	tuzla	tuzla'da tuzlanmış
+21	5121	sarımsak	sarmısak sarımsakla sarımsaklı sarımsağı
+22	5122	müebbet	müebbede
+23	5123	kor	kora korda korum koruma korumacı korumada korumadan korumalar korumalara korumalardan korumaları korumalarım korumaların korumalarına korumalarından korumalarını korumalarının korumalık korumamı korumamız korumamıza korumamızı koruman korumana korumanı korumanın korumanız korumanıza korumanızı koruması korumasına korumasında korumasını korumasının korumasız korumayla korumayı korun korunun
+24	5124	tunç	tunca
+25	5125	şut	şutu şutunu
+26	5126	hastalıklı	
+27	5127	reçel	reçele reçeli reçelin reçelini reçelle reçelli
+28	5128	kripto	kriptolu
+29	5129	değişebilir	
+30	5130	organizma	organizmadan organizmadır organizmalar organizmalara organizmaları organizmaların organizmanın organizmaya organizmayı
+31	5131	dümen	dümende dümenden dümene dümeni dümenin dümenini dümenler
+32	5132	koordinasyon	koordinasyonu
+33	5133	birliktelik	birliktelikler birliktelikleri birlikteliğe birlikteliği birlikteliğim birlikteliğimiz birlikteliğimizden birlikteliğimizi birlikteliğimizin birlikteliğin birlikteliğine birlikteliğini birlikteliğiniz
+34	5134	şaban	
+35	5135	avro	avroluk avroya avroyu
+36	5136	karate	karatede karatenin karateye karateyi
+37	5137	piyango	piyangoda piyangodan piyangonun piyangosu piyangosunu piyangoya piyangoyu
+38	5138	yazıcı	yazıcıda yazıcıdan yazıcılar yazıcının yazıcısı yazıcıya yazıcıyı
+39	5139	beleş	beleşe
+40	5140	alfabe	alfabede alfabedeki alfabenin alfabesi alfabesinde alfabesine alfabesini alfabesiyle alfabeyi
+41	5141	şişmek	şişecek şişeler şişen şişer şişip şişiyor şişme şişmeye şişmişti şişti şiştim
+42	5142	manga	mangaları manganın mangası mangasına mangasını mangasının mangaya mangayı
+43	5143	ts	
+44	5144	paranoyak	paranoyaklar paranoyaklaşmaya paranoyaklaştı paranoyaklaştım paranoyaklık paranoyaksın paranoyaktı paranoyaktır paranoyakça paranoyağım
+45	5145	maraton	maratona maratonda maratonu maratonun maratonuna maratonunda maratonunu
+46	5146	hoşnut	hoşnudum hoşnutum
+47	5147	kalsiyum	
+48	5148	kalınlık	kalınlıkta kalınlığı kalınlığında kalınlığındaki kalınlığını
+49	5149	kırıcı	kırıcılar
+50	5150	ötmek	öt ötecek öten öter öterse ötesin öteydi öteyim ötme ötmeden ötmedi ötmesi ötmeye ötmeyecek ötmeyi ötmez ötmüyor ötmüş öttü öttün öttür öttürmek öttüğü öttüğünü ötüp ötüyor
+51	5151	ring	ringde ringdeki ringden ringe ringi ringin ringinde ringine ringlerde ringlere
+52	5152	ambar	ambara ambarda ambardaki ambardan ambarları ambarı ambarın ambarına ambarında ambarını
+53	5153	çekişmek	çekiş çekişen çekişirken çekişiyor çekişme çekişmeler çekişmeli çekişmenin çekişmesi çekişmeye çekişmeyi çekiştirip çekiştiriyor çekiştiriyorsun çekiştirme çekiştirmek çekiştirmeye çekiştirmeyi
+54	5154	dokuzuncu	
+55	5155	gösteriş	gösterişe gösterişi gösterişten
+56	5156	tutarlı	tutarlıydı
+57	5157	faşizm	faşizme faşizmi faşizmin
+58	5158	toto	
+59	5159	tas	tasa tasası taslar tası tasın tasını tasınız
+60	5160	ova	ovada ovalar ovalara ovalarda ovaları ovaların ovalarında ovanın ovası ovasında ovaya
+61	5161	atlet	atlete atleti atletim atletin atletini atletler atletleri atletlerin atletti
+62	5162	ateist	ateistim ateistler
+63	5163	taramak	taradı taradık taradılar taradım taradın taramalı taramalıyız taramam taramaya taramış tarar tararken tararım tarasın tarayabilir tarayacak tarayacağım tarayacağız tarayalım tarayan tarayarak tarayayım tarayın tarayıp tarıyor tarıyordum tarıyorlar tarıyorsun tarıyorum tarıyoruz
+64	5164	baharat	baharatla baharatlar baharatlarla baharatları baharatların baharatı
+65	5165	kuşkusuz	
+66	5166	tüh	
+67	5167	meteor	meteordan meteorlar meteorların meteoru meteorun
+68	5168	yetmezlik	yetmezliği yetmezliğinden yetmezliğine yetmezliğini yetmezliğinin
+69	5169	paketlemek	paketle paketledi paketledik paketledim paketledin paketleme paketlemem paketlemeye paketlemiş paketlenmiş paketler paketlerim paketleyecek paketleyeceğim paketleyelim paketleyeyim paketleyin paketleyip paketliyor paketliyorum
+70	5170	zihniyet	zihniyete zihniyeti zihniyetin zihniyetini
+71	5171	safra	safran
+72	5172	mangal	mangala mangalda mangalı mangalın
+73	5173	ezan	ezanı ezanın
+74	5174	şort	şortla şortlar şortları şortlu şortu şortum şortumu şortumun şortun şortunu şortunun şortuyla
+75	5175	içilmek	içilebilir içilecek içilen içilir içiliyor içilmeyen içilmez içilmiyor içilmiş
+76	5176	eğri	eğrisi
+77	5177	yandık	yandıktan yandığı yandığım yandığımı yandığımın yandığına yandığında yandığından yandığını
+78	5178	astım	astımı astımım astımın
+79	5179	taşmak	taşa taşacak taşan taşar taşardı taşma taşmaya taşmış taşmıştı taşsın taştı taştığı taşın taşıp taşıyor taşıyordu taşıyorduk taşıyordum taşıyordun taşıyorlar taşıyorlardı taşıyorlarmış taşıyormuş taşıyorsa taşıyorsan taşıyorsun taşıyorsunuz taşıyorum taşıyoruz
+80	5180	ılık	
+81	5181	umutsuzluk	umutsuzlukla umutsuzluktan umutsuzluğa umutsuzluğu umutsuzluğun
+82	5182	bütünlük	bütünlüğü
+83	5183	asist	asistle
+84	5184	kayıtsız	kayıtsızlık
+85	5185	fal	fala falken falı falım falıma falımda falın falına falında falını falınıza
+86	5186	mk	
+87	5187	sarma	sarmadan sarmalar sarmaları sarmam sarmamı sarmamız sarman sarması sarmasına sarmasını sarmaya sarmayı
+88	5188	arma	armada arman armanın arması armasını armaya armayı
+89	5189	malik	
+90	5190	çizik	çizikler çiziklere çizikleri çiziği
+91	5191	büyükelçilik	büyükelçilikte büyükelçilikten büyükelçiliğe büyükelçiliği büyükelçiliğinde büyükelçiliğine
+92	5192	luther	
+93	5193	konyaspor	
+94	5194	bilhassa	
+95	5195	toygar	turgay
+96	5196	kanalizasyon	kanalizasyona kanalizasyonda kanalizasyondan kanalizasyonlarda kanalizasyonu kanalizasyonun
+97	5197	hüsün	hüsn hüsnü
+98	5198	cumhurbaşkan	cumhurbaşkanı'na cumhurbaşkanım cumhurbaşkanımız
+99	5199	kanaat	kanaatim kanaatimce kanaatindeyim kanaatine
+100	5200	madencilik	madenciliği

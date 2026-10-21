@@ -1,0 +1,100 @@
+1	7901	açıklayıcı	
+2	7902	büyücülük	büyücülükle büyücülükten büyücülüğe büyücülüğü büyücülüğün
+3	7903	feryat	feryadı feryatları
+4	7904	eşitsizlik	eşitsizliği
+5	7905	üzümlü	
+6	7906	patoloji	patolojisi patolojiye
+7	7907	parkur	parkurda parkuru
+8	7908	bullock	
+9	7909	akışkan	
+10	7910	samir	
+11	7911	hizbullah	
+12	7912	resulullah	
+13	7913	rauf	
+14	7914	eşarp	eşarbı eşarbım eşarbımı eşarbın eşarbını eşarpla eşarplı
+15	7915	kirpi	kirpiler kirpinin
+16	7916	eskimek	eskidi eskimeye eskimez eskimiyor eskimişti eskir eskiye eskiyen eskiyor
+17	7917	ritm	ritmde ritme ritmi ritmim ritmimi ritmin ritminde ritmine ritmini
+18	7918	sıhhiye	sıhhiyeye
+19	7919	iğrenmek	iğrendim iğrendiriyor iğrenirim iğreniyor iğreniyorsun iğreniyorum iğrenme
+20	7920	cevizli	
+21	7921	adanaspor	
+22	7922	miğfer	miğferi miğferimi miğferin miğferini miğferler
+23	7923	özellikli	
+24	7924	ileti	iletiler iletisi iletiyi
+25	7925	zarafet	zarafeti zarafetin zarafetini zarafetle
+26	7926	zabıta	zabıtası
+27	7927	yalakalık	yalakalığı
+28	7928	hipnotize	
+29	7929	demeç	demeci demeçte
+30	7930	saldırganlık	saldırganlığa saldırganlığı saldırganlığını
+31	7931	rekreasyon	
+32	7932	iskandinav	
+33	7933	anormallik	anormallikler anormallikleri anormalliği anormalliğin
+34	7934	yalıtım	yalıtımlı yalıtımı
+35	7935	bornoz	bornozla bornozu bornozum bornozumu bornozun bornozunu
+36	7936	sisli	
+37	7937	şanzıman	şanzımanı
+38	7938	perspektif	perspektife perspektifi perspektifinden perspektiften
+39	7939	seksüel	
+40	7940	tornavida	tornavidam tornavidayla tornavidayı
+41	7941	kromozom	kromozomlar kromozomları kromozomu
+42	7942	kalıtsal	kalıtsaldır
+43	7943	zımbırtı	zımbırtıdan zımbırtılar zımbırtılardan zımbırtıları zımbırtılarını zımbırtının zımbırtısı zımbırtısını zımbırtıya zımbırtıyı
+44	7944	mitsubishi	
+45	7945	büyükbaş	
+46	7946	kağıdını	
+47	7947	maço	
+48	7948	tıklım	
+49	7949	katî	kati
+50	7950	dahice	
+51	7951	akıtmak	akıt akıtacak akıtacağım akıtan akıtarak akıtma akıtmadan akıtmaya akıttı akıttım akıttın akıtıp akıtır akıtırım akıtıyor
+52	7952	yaşamsal	
+53	7953	babasız	
+54	7954	litrelik	
+55	7955	dürüm	dürümler dürümü
+56	7956	uncu	
+57	7957	dolandırmak	dolandıran dolandırarak dolandırdı dolandırdım dolandırdın dolandırdığı dolandırma dolandırmaya dolandırmayacağım dolandırmış dolandırıp dolandırıyor dolandırıyorsun
+58	7958	isteksiz	
+59	7959	intikal	
+60	7960	lonca	loncanın loncası loncaya
+61	7961	kamara	kamarada kamaralar kamaraları kamarama kamaramda kamarana kamaranın kamaranıza kamaranızda kamarası kamarasına kamarasında kamarasından kamaraya
+62	7962	fıtık	fıtığı
+63	7963	şıllık	şıllıklar şıllığı şıllığın
+64	7964	coşmak	coş coşacak coşalım coşan coşar coşma coşmaya coşmuş coştu coştum coştur coşturmak coşturuyor coşuyor
+65	7965	kemirmek	kemir kemirdi kemirecek kemiren kemirilmiş kemirip kemirir kemiriyor kemiriyordu kemirmeye kemirmiş
+66	7966	kanunen	
+67	7967	zürafa	zürafalar zürafaları zürafaya zürafayı
+68	7968	interaktif	
+69	7969	kıraç	
+70	7970	böğürtlen	böğürtlenler böğürtlenli
+71	7971	buruk	
+72	7972	başparmak	başparmaklarını başparmağı başparmağım başparmağımı başparmağın başparmağını başparmağının
+73	7973	hukuken	
+74	7974	parıltı	parıltılar parıltıları parıltısı parıltısını parıltıyı
+75	7975	ensar	
+76	7976	karaköy	
+77	7977	microsoft	microsoft'un
+78	7978	rabia	
+79	7979	tofaş	
+80	7980	çağla	
+81	7981	mühürlü	
+82	7982	sadri	
+83	7983	adaletsiz	
+84	7984	pekiyi	
+85	7985	nesnel	
+86	7986	salman	
+87	7987	cebir	cebirden
+88	7988	aşağılama	
+89	7989	korkulu	
+90	7990	şaplak	şaplağı
+91	7991	latif	
+92	7992	gülle	güllesi
+93	7993	sikke	sikkeler sikkeleri sikkesi sikkeyi
+94	7994	bostan	bostanlı
+95	7995	gözdağı	
+96	7996	ayarlanabilir	
+97	7997	panzehir	panzehri
+98	7998	sülfür	
+99	7999	brifing	brifingde brifinge brifingi
+100	8000	derleme	derlemesi

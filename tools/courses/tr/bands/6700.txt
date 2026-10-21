@@ -1,0 +1,100 @@
+1	6601	terbiyesiz	terbiyesizler terbiyesizleşme terbiyesizsin
+2	6602	asılsız	
+3	6603	doçent	
+4	6604	ezberlemek	ezberle ezberledi ezberledim ezberledin ezberleme ezberlemem ezberlemen ezberlemeye ezberlemiş ezberlemişsin ezberlemiştim ezberleyin ezberleyip ezberliyorum
+5	6605	hemşirelik	hemşireliği
+6	6606	fasıl	faslı faslına faslını
+7	6607	rönesans	rönesansı
+8	6608	kauçuk	kauçuktan
+9	6609	gamze	gamzeleri
+10	6610	zan	zannımca
+11	6611	sıkkın	sıkkındı
+12	6612	ıntel	ıntel'in
+13	6613	entegrasyon	entegrasyonu
+14	6614	kireç	
+15	6615	soğutucu	soğutucuda soğutucudan soğutucular soğutucunun soğutucusu soğutucuya soğutucuyu
+16	6616	hentbol	
+17	6617	şartsız	
+18	6618	mitoloji	mitolojide mitolojinin mitolojisi mitolojisinde mitolojisindeki mitolojisinden mitolojisine mitolojisinin
+19	6619	hippi	hippiler hippilere hippileri hippilerin hippilerle hippinin hippiye
+20	6620	sempozyum	sempozyumu
+21	6621	sağanak	sağanağı
+22	6622	minyatür	
+23	6623	sabırsız	sabırsızca sabırsızdı sabırsızdır sabırsızsın sabırsızım
+24	6624	tımarhane	tımarhanede tımarhanedeki tımarhaneden tımarhanenin tımarhanesi tımarhaneye tımarhaneyi
+25	6625	hazırlıksız	
+26	6626	milletvekillik	milletvekilliği
+27	6627	misil	misli misline mislini misliyle
+28	6628	büyülemek	büyüle büyüledi büyüledim büyüledin büyülemeye büyülemiş büyülemişti büyülenmiş büyüler büyülerim büyüleyecek büyüleyen büyülüyor büyülüyorsun
+29	6629	modifiye	
+30	6630	koşulsuz	
+31	6631	göksel	
+32	6632	jöle	jöleden jölenin jölesi jöleye jöleyi
+33	6633	tükürük	tükürükle tükürüğü tükürüğün tükürüğünü
+34	6634	uçurtma	uçurtmalar uçurtmaları uçurtması uçurtmayı
+35	6635	arya	aryan
+36	6636	naz	naza nazca
+37	6637	farksız	
+38	6638	kolektif	
+39	6639	ironi	ironinin ironisi ironiye ironiyi
+40	6640	düşmanca	
+41	6641	lorraine	
+42	6642	hatırlatan	
+43	6643	yapraklı	
+44	6644	tartmak	tart tartar tartlar tartmaya tarttım tartın tartıp tartıyor
+45	6645	esat	
+46	6646	emlakçı	emlakçıdan emlakçılar emlakçım emlakçının emlakçısı emlakçıya emlakçıyla emlakçıyı emlakçıyım
+47	6647	çığ	çığa çığı
+48	6648	sahan	sahanda sahanın
+49	6649	telekomünikasyon	
+50	6650	gözlüklü	
+51	6651	ütü	ütüler ütüyle ütüyü
+52	6652	kitaplık	kitaplıkta kitaplığa kitaplığı kitaplığın
+53	6653	stk	stk'lar
+54	6654	talihsizlik	talihsizlikler talihsizlikleri talihsizlikten talihsizlikti talihsizliğe talihsizliği talihsizliğim talihsizliğin talihsizliğine talihsizliğini
+55	6655	leopar	leoparlar leoparları leoparların leoparı leoparın
+56	6656	piyon	piyonlar piyonları piyonsun piyonu piyonum piyonun piyonunu
+57	6657	sıkışık	sıkışıklık sıkışıklığı sıkışıktı sıkışığım sıkışığız
+58	6658	şehirlerarası	
+59	6659	gariplik	gariplikler gariplikleri garipliği
+60	6660	donma	donmadan donması donmasını donmaya
+61	6661	söğüt	söğüdün söğütler
+62	6662	tepmek	tep tepebilir tepecek tepeler tepeli tepeme tepen teper tepinip tepip tepiyor tepiyorsun tepme tepmesi tepmeye tepmiş tepsin tepti teptik teptim teptin
+63	6663	ümitsiz	ümitsizdi ümitsizim
+64	6664	milletvekil	milletvekilim milletvekilimiz milletvekilinden milletvekiline milletvekilinin
+65	6665	tatlıses	tatlıses'in
+66	6666	sömürge	sömürgesi
+67	6667	abartma	abartmayı
+68	6668	bencillik	bencillikten bencilliği bencilliğim bencilliğin
+69	6669	mareşal	mareşali
+70	6670	ikiyüzlü	ikiyüzlüler ikiyüzlüsün
+71	6671	dağıtıcı	dağıtıcılar dağıtıcının dağıtıcısı dağıtıcıya dağıtıcıyı
+72	6672	smokin	smokini smokinim smokinimi smokinin smokinini smokinle smokinli
+73	6673	eşkıya	eşkıyalar eşkıyaları eşkıyaların eşkıyanın eşkıyası
+74	6674	vahiy	vahiyler
+75	6675	bekarlık	bekarlığa bekarlığın
+76	6676	fermuar	fermuarlı fermuarı fermuarım fermuarımı fermuarın fermuarına fermuarını
+77	6677	halis	
+78	6678	akarsu	akarsular akarsuyun
+79	6679	didik	
+80	6680	menemen	
+81	6681	trol	troller trolleri trollerin trolü
+82	6682	hun	hunlar
+83	6683	çerez	çerezi çerezler çerezleri
+84	6684	budist	budistler
+85	6685	ivme	
+86	6686	bilkent	
+87	6687	poyraz	
+88	6688	selimiye	
+89	6689	ülkücü	
+90	6690	ıvan	
+91	6691	temenni	temennimiz
+92	6692	yalanlamak	yalanla yalanladı yalanlama yalanlar yalanlarım yalanlıyor
+93	6693	komplikasyon	komplikasyonlar komplikasyonları komplikasyonu
+94	6694	murad	
+95	6695	müşavir	müşaviri müşavirleri
+96	6696	jeolojik	
+97	6697	babacan	
+98	6698	telli	
+99	6699	viral	
+100	6700	ihtiva	

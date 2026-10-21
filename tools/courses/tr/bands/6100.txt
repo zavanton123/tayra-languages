@@ -1,0 +1,100 @@
+1	6001	ekber	
+2	6002	kıvırmak	kıvrıl kıvrıla kıvrılacak kıvrılan kıvrılarak kıvrıldı kıvrılmak kıvrılmış kıvrılıp kıvrılır kıvrılıyor kıvır kıvırdı kıvırdım kıvırdın kıvırma kıvırmaya kıvırmayı kıvırın kıvırıp kıvırır kıvırıyor kıvırıyorsun
+3	6003	santimetre	santimetresini santimetreye
+4	6004	netice	neticesi neticesini neticeye neticeyi
+5	6005	tefsir	tefsiri
+6	6006	alakasız	
+7	6007	dokunaklı	dokunaklıydı
+8	6008	dalgıç	dalgıcı dalgıçlar dalgıçları dalgıçların
+9	6009	dekore	
+10	6010	gelinmek	gelindi geline gelinebilir gelinecek gelinemez gelinen gelinin gelininiz gelinir geliniyor gelinmez gelinmiş gelinsin
+11	6011	hızır	
+12	6012	travesti	travestiler travestiye travestiyle
+13	6013	takıntılı	takıntılıdır takıntılıydı takıntılıydım takıntılıyım
+14	6014	ntv	ntv'de
+15	6015	ufo	
+16	6016	kuğu	kuğular kuğuları kuğuların kuğunun kuğuya kuğuyu
+17	6017	truva	truvalı truvalılar
+18	6018	nal	nala nalları nalı
+19	6019	bordo	
+20	6020	kirletmek	kirlet kirletecek kirleteceksin kirleten kirletici kirletip kirletir kirletiyor kirletiyorlar kirletiyorsun kirletiyorsunuz kirletme kirletmem kirletmeye kirletmeyin kirletmiş kirletti kirlettiler kirlettim kirlettin kirlettiniz kirlettiği
+21	6021	enerjik	enerjiksin enerjikti enerjiğim
+22	6022	pıhtı	pıhtıları pıhtılaşma pıhtılaşması pıhtılaşmasını pıhtılaşmaya pıhtılaşmayı pıhtılaşmıyor pıhtılaşmış pıhtılaştırıcı pıhtısı pıhtıyı
+23	6023	eleştirel	
+24	6024	goril	gorile gorili gorilin gorille goriller gorillerden gorillere gorilleri gorillerin
+25	6025	müftü	müftüsü
+26	6026	gaye	gayeleri gayem gayemiz gayesi
+27	6027	kuzeydoğu	kuzeydoğuda kuzeydoğudaki kuzeydoğudan kuzeydoğusunda kuzeydoğusundaki kuzeydoğuya
+28	6028	alkışlamak	alkışla alkışladı alkışladılar alkışlamaya alkışlamayı alkışlamayın alkışlar alkışlasın alkışlayacak alkışlayalım alkışlayan alkışlayın alkışlıyor alkışlıyorlar alkışlıyorsunuz alkışlıyorum alkışlıyoruz
+29	6029	müge	
+30	6030	danışmak	danış danışabilir danışacak danışacağım danışalım danışarak danışayım danışmalısın danışmalıydın danışmalıyım danışmalıyız danışmam danışmaya danıştı danıştım danıştın danışın danışıyor
+31	6031	oktar	oktar'ın
+32	6032	diyabet	diyabeti diyabetin
+33	6033	halüsinasyon	halüsinasyona halüsinasyonlar halüsinasyonlara halüsinasyonları halüsinasyonların halüsinasyonu
+34	6034	belirleyici	
+35	6035	boyalı	
+36	6036	milis	milisler milislere milisleri milislerin
+37	6037	siren	sireni sirenler sirenleri sirenlerin
+38	6038	dostça	
+39	6039	tahsin	
+40	6040	şölen	şölende şölene şöleni şölenine
+41	6041	alaycı	
+42	6042	sekreterlik	sekreterliği sekreterliğine sekreterliğini
+43	6043	kavim	kavimler kavmi kavmin
+44	6044	madenci	madenciler madencilere madencileri madencilerin madencinin madencisi
+45	6045	sevecen	sevecendi sevecendir
+46	6046	marley	
+47	6047	vanilya	vanilyalı
+48	6048	muaf	muaftır
+49	6049	hallol	hallolacak hallolacağını hallolana halloldu hallolduğuna hallolduğunda hallolduğunu hallolması hallolmasını hallolmuş hallolsun hallolur halloluyor
+50	6050	jimnastik	jimnastikte jimnastiğe jimnastiği
+51	6051	uykusuz	uykusuzum
+52	6052	zorbalık	zorbalıkla zorbalıktan zorbalığa zorbalığı zorbalığın
+53	6053	mahmud	
+54	6054	gürses	gürses'in
+55	6055	yegane	
+56	6056	koordinatları	
+57	6057	aktaş	
+58	6058	dekorasyon	dekorasyona dekorasyonlar dekorasyonları dekorasyonu dekorasyonunu
+59	6059	solcu	solcular
+60	6060	flor	flora
+61	6061	perakende	
+62	6062	mina	
+63	6063	kamaşmak	kamaştı kamaştıran kamaştırıcı kamaştırıyor kamaştırıyorsun
+64	6064	konsol	konsola konsolda konsoldan konsolu konsolun konsoluna konsolunu
+65	6065	keş	keşe keşi keşin keşler keşleri keşlerin keşti
+66	6066	sebebiyet	
+67	6067	arpa	
+68	6068	put	puta putlara putları putu
+69	6069	arzulamak	arzuladı arzuladıkları arzuladım arzuladın arzuladığı arzuladığım arzuladığımız arzuladığın arzuladığını arzuladığınız arzulamıyor arzulamıyorum arzular arzularım arzulayan arzuluyor arzuluyordu arzuluyordum arzuluyorsan arzuluyorsun arzuluyorum
+70	6070	seyyar	
+71	6071	aylak	aylaklar aylakları aylakların aylağın
+72	6072	sayıca	
+73	6073	statik	
+74	6074	fedakârlık	fedakârlıklar fedakârlıkları fedakârlıkta fedakârlığa fedakârlığı fedakârlığın
+75	6075	noter	noterden notere noteri noterim
+76	6076	bölücü	bölücülük
+77	6077	macun	macunu macununu macununun
+78	6078	ithalat	ithalatı
+79	6079	önderlik	önderliği
+80	6080	ferman	fermanı fermanımı fermanın fermanını
+81	6081	aspirin	aspirine aspirini aspirinin aspirinle
+82	6082	kavramak	kavra kavradı kavradım kavradın kavradığını kavramakta kavramaya kavramış kavramıştı kavrar kavrayacak kavrayamadı kavrayamadım kavrayamadın kavrayamıyor kavrayamıyorum kavrayan kavrayıcı kavrayın kavrayıp kavrayış kavrayışı kavrıyor kavrıyorsun kavrıyorum
+83	6083	yatkın	yatkındır
+84	6084	bulantı	bulantıları bulantım bulantın bulantısı bulantısına
+85	6085	trip	
+86	6086	kederli	kederliyim
+87	6087	hidayet	hidayete
+88	6088	suikastçı	suikastçılar suikastçılardan suikastçıları suikastçıların suikastçının suikastçısı suikastçıya suikastçıyı
+89	6089	ikişer	ikişerli
+90	6090	şema	şemalar şemaları şemalarını şeması şemasını şemaya şemayı
+91	6091	dizüstü	dizüstünü
+92	6092	vaiz	vaizdi vaize vaizi vaizin vaizler
+93	6093	limonata	limonataya limonatayı
+94	6094	aklamak	akla akladı akladığını aklama aklamaya aklandı aklandım aklandın aklandığını aklanmış aklar aklayacak aklayan aklayıcı aklıyor
+95	6095	yapılı	
+96	6096	kıtlık	kıtlıktan kıtlığa kıtlığı kıtlığın
+97	6097	nankör	nankörler nankörsün
+98	6098	masumiyet	masumiyeti masumiyetimi masumiyetin masumiyetine masumiyetini masumiyetinin masumiyetinizi
+99	6099	suratlı	suratlılar
+100	6100	sağcı	sağcılar

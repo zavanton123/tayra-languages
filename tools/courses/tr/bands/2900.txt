@@ -1,0 +1,100 @@
+1	2801	karakol	karakola karakolda karakoldaki karakoldan karakoldayım karakollar karakollara karakolları karakolu karakolun karakoluna karakolunda karakolundaki karakolundan karakolunu karakolunun
+2	2802	parlamak	parla parladı parladığı parladığında parladığını parlama parlamalar parlamaları parlaması parlamasına parlamasını parlamaya parlamayı parlamıyor parlamış parlar parlardı parlarken parlarlar parlasın parlatmayı parlatılmış parlayacak parlayacaksın parlayacağım parlayan parlayarak parlayıcı parlayın parlayıp parlıyor parlıyordu parlıyorlar parlıyorsun parlıyorum
+3	2803	bruce	
+4	2804	ateşlemek	ateşle ateşledi ateşlediler ateşledim ateşledin ateşlediği ateşlediğini ateşleme ateşlemeden ateşlemedim ateşlemesi ateşlemeye ateşlemeyi ateşlemiş ateşlendi ateşlendiği ateşlendiğinde ateşlendiğini ateşlenecek ateşlenen ateşlenir ateşleniyor ateşlenme ateşlenmemiş ateşlenmesi ateşlenmeye ateşlenmiş ateşlersen ateşleyebilir ateşleyecek ateşleyeceğim ateşleyeceğiz ateşleyelim ateşleyen ateşleyerek ateşleyin ateşleyip ateşliyor ateşliyorum
+5	2805	kabus	kabusa kabuslar kabuslara kabuslardan kabuslarla kabusları kabuslarım kabuslarımda kabusların kabuslarına kabuslarında kabuslarından kabuslarını kabusta kabustan kabustu kabustur kabusu kabusudur kabusum kabusun kabusuna kabusunu kabusunum
+6	2806	vincent	
+7	2807	pamuk	pamukla pamuklar pamukları pamuklu pamuktan pamuğa pamuğu pamuğun pamuğundan
+8	2808	kritik	kritikti
+9	2809	mor	morlar morluk morluklar morluklara morluklarla morlukları morlukların morluğu moru morun mosmor
+10	2810	şişman	şişmandı şişmandım şişmandır şişmanken şişmanlar şişmanları şişmansın şişmanı şişmanım
+11	2811	gizem	gizemden gizemdi gizemdir gizeme gizemi gizemin gizemine gizemini gizeminin gizemle gizemler gizemlerden gizemleri gizemlerin gizemlerinden gizemlerini gizemlerle
+12	2812	ayrılık	ayrılıkla ayrılıklar ayrılıkları ayrılıklarımız ayrılıktan ayrılıkçılarla ayrılığa ayrılığı ayrılığımız ayrılığımızın ayrılığın ayrılığına ayrılığını
+13	2813	yükseklik	yükseklikleri yükseklikte yükseklikten yüksekliğe yüksekliği yüksekliğin
+14	2814	şerefe	
+15	2815	iri	iriler irili iriydi iriymiş
+16	2816	asistan	asistana asistandı asistanla asistanlar asistanlara asistanlardan asistanları asistanlarım asistanların asistanlarından asistansın asistanı asistanım asistanımdı asistanımı asistanımın asistanımız asistanın asistanına asistanından asistanını asistanının asistanınız asistanıydı asistanıydım asistanıyla asistanıyım
+17	2817	gri	gridir griler grinin grisi griydi griye
+18	2818	rahatsızlık	rahatsızlıklar rahatsızlıkları rahatsızlıktan rahatsızlığa rahatsızlığı rahatsızlığım rahatsızlığımı rahatsızlığın rahatsızlığına rahatsızlığından rahatsızlığını rahatsızlığının rahatsızlığınız
+19	2819	sızmak	sız sızabilir sızacak sızacağım sızacağız sızan sızar sızarak sızarken sızarsa sızdı sızdık sızdılar sızdım sızdın sızdırıldı sızdığı sızma sızmam sızmaya sızmaz sızmazdı sızmıyor sızmış sızmışlar sızmıştı sızmıştım sızmışım sızın sızıp sızıyor sızıyordu sızıyorlar sızıyorum
+20	2820	had	haddi haddim haddime haddimi haddimizi haddinden haddine haddini haddinizi hadlerini hudut
+21	2821	ilim	ilimle ilimler ilimleri ilme ilmi ilmin ilmini
+22	2822	marcus	
+23	2823	mars	mars'a mars'ta mars'ın marsa marslı marslılar marslıların marsta marstan marsın
+24	2824	mum	muma mumdan mumla mumlar mumlara mumlardan mumlarla mumları mumların mumlarını mumlu mumu mumun mumunu
+25	2825	çamur	çamura çamurda çamurdaki çamurdan çamurları çamurluydu çamuru çamurun
+26	2826	sahiplik	sahipliği sahipliğinde sahipliğini
+27	2827	yavaşça	
+28	2828	keçi	keçiden keçiler keçilere keçileri keçilerin keçilerini keçilerle keçim keçin keçinin keçisi keçisine keçisini keçiye keçiyi keçiyle
+29	2829	koşu	koşuda koşudan koşular koşuları koşum koşumu koşun koşunun koşusu koşusuna koşusunda koşusunu koşuya koşuyu
+30	2830	cinsiyet	cinsiyete cinsiyeti cinsiyetimi cinsiyetin cinsiyetine cinsiyetini cinsiyetinin cinsiyetle cinsiyetler cinsiyetleri cinsiyetli cinsiyetten cinsiyetçi cinsiyetçilik
+31	2831	aktör	aktörden aktördü aktördür aktöre aktörle aktörler aktörlerden aktörlere aktörleri aktörlerin aktörlerle aktörlük aktörlüğü aktörsün aktörü aktörüm aktörün
+32	2832	oliver	
+33	2833	kuvvetli	
+34	2834	kuşak	kuşaklar kuşaklara kuşakları kuşakların kuşaklı kuşaklılar kuşakta kuşaktan kuşaktır kuşağa kuşağı kuşağım kuşağımdan kuşağımı kuşağın kuşağına kuşağında kuşağındaki kuşağından kuşağını kuşağının
+35	2835	sıralama	sıralamada sıralamaları sıralaması sıralamasına sıralamasında sıralamasını sıralamaya sıralamayı
+36	2836	asil	asilce asildi asili asiller asilleri asillerin asillik asilsin
+37	2837	öğrenim	öğrenimi öğrenimine öğrenimini
+38	2838	tarama	taramada taramadan taramalar taramalara taramalarda taramaları taramalarımız taramalarına taramalarında taramalarını taramam taramamız taraman taramanı taramanın taraması taramasına taramasında taramasından taramasını taramaya taramayı
+39	2839	semt	semte semti semtin semtinde semtindeki semtinden semtine semtleri semtlerinden semtte semtteki semtten
+40	2840	donanım	donanıma donanımla donanımlar donanımları donanımlı donanımı donanımımız donanımın donanımını
+41	2841	kimya	kimyada kimyadan kimyamız kimyanın kimyası kimyasını kimyaya kimyayla kimyayı
+42	2842	protein	proteine proteini proteinin proteinler proteinleri proteinlerin proteinli
+43	2843	borsa	borsada borsadaki borsadan borsalar borsaları borsanın borsası borsasında borsaya borsayla borsayı
+44	2844	ziraat	
+45	2845	kırk	kırklarında kırklı kırkı kırkına
+46	2846	sel	selde selden seli selin seline seller
+47	2847	damat	damada damadı damadım damadıma damadımla damadımı damadımın damadımız damadın damadına damadını damadının damadınız damatla damatlar
+48	2848	ter	terden tere teri terime terimi terimin terin terini terinin teriyle terler terleri terlerim terlikle terliklerle tersin
+49	2849	dehşet	dehşete dehşeti dehşetin dehşetinden dehşetini dehşetle dehşetli dehşetten dehşetti dehşettir
+50	2850	has	hastır hası
+51	2851	elveda	
+52	2852	soymak	soyabilir soyacak soyacaksın soyacağım soyacağız soyalı soyalım soyan soyar soyarak soyarken soyarlar soyarım soyarız soydu soyduk soydular soydum soydun soydunuz soyduğu soyduğun soyma soymadım soymam soymaya soymuş soymuşlar soyulmak soyun soyup soyuyor soyuyordu soyuyordum soyuyorlar soyuyorsun soyuyorsunuz soyuyorum soyuyoruz
+53	2853	papaz	papaza papazdan papazdı papazla papazlar papazlara papazları papazların papazı papazım papazımız papazın papazını papazının
+54	2854	ayet	ayeti ayetin ayetinde ayetini ayetler ayetleri ayetlerin ayette ayetten
+55	2855	tekme	tekmeler tekmeleri tekmelerim tekmelerini tekmemi tekmesi tekmesini tekmeydi tekmeye tekmeyi tekmeyle
+56	2856	biyolojik	
+57	2857	sandviç	sandviçe sandviçi sandviçim sandviçime sandviçimi sandviçimin sandviçin sandviçine sandviçini sandviçinin sandviçiniz sandviçle sandviçler sandviçlerden sandviçlere sandviçleri sandviçlerin sandviçlerini sandviçlerle sandviçte sandviçten
+58	2858	hikmet	hikmet'in hikmeti hikmetse
+59	2859	disiplin	disiplinden disiplindir disipline disiplini disiplinin disiplinini disiplinle disiplinler disiplinli disiplinsiz
+60	2860	detaylı	
+61	2861	mahal	mahalde mahalleri mahallerinde mahallerine mahallerini mahalli mahallimiz mahallinde mahallindeki mahallinden mahalline mahallini mahallinin mahalliyle
+62	2862	gram	gramdan gramlık gramı gramını
+63	2863	kazı	kazıcı kazıcılar kazıda kazılar kazılarda kazıları kazılı kazım kazıma kazımayı kazın kazınmış kazının kazısı kazıya kazıyı
+64	2864	ibadet	ibadete ibadeti ibadetin ibadetini ibadetler ibadetleri ibadetlerini ibadettir
+65	2865	balo	baloda balodaki balodan balolar balolara baloları balom baloma balomda balomu balona balonda balondan balonu balonun balosu balosuna balosunda balosundaki balosundan balosunu balosunun baloya baloyu
+66	2866	casus	casusa casusla casuslar casuslara casuslardan casuslarla casusları casuslarım casuslarımız casusların casuslarından casuslarını casussun casustu casusu casusum casusumuz casusun casusunu casusunun casususun casusuydu
+67	2867	bilek	bilekle bilekler bilekleri bileklerim bileklerime bileklerimi bileklerin bileklerinde bileklerindeki bileklerinden bileklerine bileklerini bileklerinin bilekli bilekte bilekten bileğe bileği bileğim bileğimde bileğimdeki bileğimden bileğime bileğimi bileğimin bileğin bileğinde bileğindeki bileğinden bileğine bileğini bileğinin bileğiniz bileğinizi
+68	2868	olgun	olgunlaşması olgunlaştığını olgunlukla olgunluğa olgunluğu olgunluğun olgunsun olgunum
+69	2869	döndürmek	döndür döndürdü döndürdük döndürdüler döndürdüm döndürdün döndürdünüz döndürdüğü döndürebilecek döndürebilir döndürebilirim döndürebiliriz döndürebilirsin döndürecek döndüreceksin döndüreceğim döndüreceğiz döndürelim döndüremez döndüremezsin döndüren döndürerek döndüreyim döndürme döndürmeliyiz döndürmem döndürmeme döndürmeye döndürmüş döndürmüştü döndürün döndürüp döndürür döndürürken döndürürüm döndürüyor döndürüyorsun döndürüyorum döndürüyoruz
+70	2870	kahverengi	kahverengiler kahverengisi kahverengiydi kahverengiye kahverengiyi
+71	2871	işlev	işlevi işlevini işlevinin işlevler işlevleri işlevlerini işlevli işlevsiz
+72	2872	yarışmak	yarışa yarışabilecek yarışabilir yarışabilirim yarışacak yarışacaklar yarışacaksın yarışacaksınız yarışacağım yarışacağız yarışalım yarışamam yarışamaz yarışamazsın yarışan yarışarak yarışmaya yarışmayacağım yarışmıyoruz yarışsın yarıştı yarıştık yarıştım yarıştın yarıştığı yarışın yarışıp yarışır yarışırken yarışırım yarışırız yarışıyor yarışıyordu yarışıyorduk yarışıyorlar yarışıyorsun yarışıyorsunuz yarışıyorum yarışıyoruz
+73	2873	duruş	duruşa duruşta duruşu duruşum duruşumu duruşumuzu duruşun duruşuna duruşunda duruşundan duruşunu duruşunuz
+74	2874	hürriyet	hürriyet'in hürriyeti
+75	2875	albert	albertine
+76	2876	tişört	tişörte tişörtle tişörtler tişörtlerden tişörtlere tişörtleri tişörtlerin tişörtlerinden tişörtlerini tişörtlerinizi tişörtlü tişörtsüz tişörtte tişörtten tişörtü tişörtüm tişörtüme tişörtümü tişörtümün tişörtün tişörtünde tişörtündeki tişörtünden tişörtüne tişörtünü tişörtünün tişörtüyle
+77	2877	şık	şıkkı şıklar şıkmış şıksın şıksınız şıktı
+78	2878	oluşum	oluşumlar oluşumları oluşumların oluşumu oluşumuna oluşumunda oluşumundan oluşumunu oluşumunun
+79	2879	yarmak	yarabilir yaracak yaracağım yaramadı yaramadığı yaramam yaramamış yaramamıştı yaramaya yaramayacak yaramayan yaramazdı yaramazlar yaramazsa yaramazsın yaramazsınız yaramıyor yaramıyordu yaramıyorlar yararak yarardı yararsa yararsın yararım yaraydı yardı yardılar yardın yarmış yarıladık yarıldı yarılmış yarılmıştı yarılıp yarıp yarıyor yarıyordu yarıyorlar yarıyormuş
+80	2880	irtibat	irtibata irtibatta irtibatı irtibatım irtibatımız irtibatını
+81	2881	gitar	gitara gitarda gitardan gitarla gitarlar gitarları gitarlı gitarı gitarım gitarıma gitarımla gitarımı gitarın gitarına gitarını gitarının gitarıyla
+82	2882	muamele	muameleden muamelenin muamelesi muameleye muameleyi
+83	2883	eksiklik	eksiklikler eksiklikleri eksikliklerini eksikliği eksikliğim eksikliğimi eksikliğin eksikliğinden eksikliğine eksikliğini eksikliğinin
+84	2884	viski	viskiden viskiler viskileri viskili viskim viskimi viskimiz viskin viskini viskinin viskiniz viskisi viskisini viskiye viskiyi viskiyle
+85	2885	donanma	donanmada donanmadaki donanmadan donanmadaydı donanmamız donanmanın donanması donanmasına donanmasında donanmasından donanmasını donanmasının donanmaya donanmayla donanmayı
+86	2886	doz	doza dozda dozdan dozla dozlar dozlarda dozları dozu dozun dozunda dozunu
+87	2887	değin	deyin
+88	2888	çizim	çizimde çizimdeki çizimden çizime çizimi çizimim çizimin çizimine çizimini çizimle çizimler çizimlerde çizimlerden çizimlere çizimleri çizimlerim çizimlerimi çizimlerin çizimlerinden çizimlerine çizimlerini çizimlerle
+89	2889	yut	yuta yutabilir yutacak yutacaksın yutacağım yutacağını yutan yutarlar yutarsın yutarım yutarız yutma yutmadan yutmadı yutmadım yutmam yutman yutması yutmasını yutmaya yutmaz yutmuyorum yutmuş yutmuştu yuttu yuttuk yuttular yuttum yuttun yuttunuz yutturmak yuttuğu yuttuğunu yutulur yutun yutup yutuyor yutuyorsun yutuyorum
+90	2890	iblis	iblise iblisi iblisim iblisin iblisini iblisinin iblisle iblisler iblislerden iblislere iblisleri iblislerin iblislerle iblisten iblistir
+91	2891	terfi	terfiden terfii terfiler terfim terfimi terfin terfini terfinin terfisi terfisini terfiye terfiyi
+92	2892	sihirli	sihirlidir
+93	2893	ısırmak	ısır ısırabilir ısıracak ısıracağım ısıran ısırarak ısırdı ısırdılar ısırdım ısırdın ısırdığı ısırdığında ısırdığını ısırma ısırmadan ısırmadı ısırmam ısırması ısırmasın ısırmasına ısırmasını ısırmaya ısırmayı ısırmaz ısırmış ısırmıştı ısırılan ısırıldı ısırıldım ısırılmış ısırınca ısırıp ısırır ısırırlar ısırırsa ısırırım ısırıyor ısırıyorlar ısırıyorsun
+94	2894	belirsiz	belirsizdi belirsizdir belirsizlikle
+95	2895	gösterge	göstergeler göstergelere göstergeleri göstergelerine göstergelerini göstergesi göstergesidir göstergesine göstergesini göstergesiydi göstergeye
+96	2896	telsiz	telsizde telsizdeki telsizden telsize telsizi telsizim telsizimi telsizimiz telsizin telsizinden telsizine telsizini telsizinin telsiziniz telsizle telsizler telsizleri telsizlerin telsizlerini telsizlerinizi
+97	2897	tenis	tenise tenisi tenisin tenisinde teniste tenisten
+98	2898	yerleşim	yerleşimci yerleşimciler yerleşimcileri yerleşimcilerin yerleşime yerleşimi yerleşimin yerleşimine
+99	2899	elle	ellediğini
+100	2900	ibne	ibneden ibnedir ibneler ibnelerden ibnelere ibneleri ibnelerin ibnelerle ibnenin ibnesi ibnesin ibneydi ibneye ibneyi ibneyim

@@ -1,0 +1,100 @@
+1	2701	favori	favoriler favorileri favorilerim favorilerimden favorilerinden favorilerini favorim favorimdi favorimdir favorimiz favorimsin favorin favoriniz favorisi favorisiydi
+2	2702	bravo	
+3	2703	gary	
+4	2704	korunmak	korun korunacak korunacaksın korunan korunarak korundu korunduğu korunmakta korunmalı korunmam korunmaya korunmuyor korunmuş korunun korunup korunur korunurlar korunuyor korunuyordu korunuyorlar korunuyorsun korunuyorum korunuyoruz
+5	2705	tabanca	tabancada tabancadan tabancalar tabancalarla tabancaları tabancalarını tabancalı tabancam tabancamla tabancamı tabancan tabancanı tabancanın tabancanız tabancası tabancasına tabancasından tabancasını tabancasının tabancasıyla tabancaya tabancayla tabancayı
+6	2706	ışın	ışına ışında ışınla ışınladı ışınlamak ışınlanacak ışınlandı ışınlandılar ışınlanma ışınlanmak ışınlanmaya ışınlanmayı ışınlanmış ışınlanıp ışınlar ışınlara ışınlarla ışınları ışınların ışınlarına ışınlarından ışınlarını ışınlarının ışınlarıyla ışınlayabilir ışınlayabiliriz ışınlayacak ışınlayın ışınlayıp ışınlı ışını ışınım ışının ışınına ışınından ışınını ışınının ışınıyla
+7	2707	psikoloji	psikolojide psikolojiden psikolojinin psikolojisi psikolojisine psikolojisini psikolojisinin psikolojiye psikolojiyi psikolojiyle
+8	2708	ödünç	
+9	2709	kanka	kankalar kankaları kankalarım kankalarımla kankaların kankalık kankam kankamın kankan kankanın kankası kankayız pampa panpa
+10	2710	negatif	negatife negatifi negatifler negatifleri negatiflerini negatifti
+11	2711	parçalamak	parçala parçaladı parçaladık parçaladılar parçaladım parçaladın parçaladığı parçaladığın parçaladığını parçalama parçalamadan parçalamaya parçalamayı parçalamış parçalamışlar parçalamıştı parçalandığında parçalandığını parçalar parçalardı parçalarken parçalarlar parçalarız parçalayabilir parçalayacak parçalayacaklar parçalayacaksın parçalayacağım parçalayacağız parçalayalım parçalayan parçalayarak parçalayın parçalayıp parçalıyor parçalıyordu parçalıyorlar parçalıyorsun parçalıyorum
+12	2712	korunma	korunmadan korunmaları korunmam korunmamız korunman korunmanın korunmanız korunması korunmasına korunmasında korunmasını korunmaya korunmayı
+13	2713	grafik	grafikler grafikleri grafikte grafiğe grafiği grafiğini
+14	2714	dean	
+15	2715	inkar	inkarı
+16	2716	peri	periler perilerden perilere perileri perilerin perilerinin perilerle perim perimsin perin perinin perisi perisin perisine perisini perisinin perisiyim periye periyi periyim
+17	2717	etek	etekle etekler etekleri eteklerin eteklerinde eteklerindeki eteklerinden eteklerine eteklerini eteklerinin etekli eteğe eteği eteğim eteğime eteğimi eteğimin eteğin eteğinde eteğindeki eteğine eteğini eteğinin
+18	2718	eğilmek	eğil eğildi eğildim eğildin eğilebilir eğilecek eğileceksin eğileceğim eğilen eğilerek eğilin eğilince eğilip eğilir eğilirim eğilirken eğiliyor eğiliyorsun eğiliyorum eğiliyoruz eğilme eğilmelisin eğilmem eğilmeye eğilmez eğilmiş eğilmişti eğilsene eğilsin
+19	2719	kraliyet	kraliyete kraliyeti kraliyetin kraliyetten
+20	2720	üvey	
+21	2721	gizlemek	gizle gizledi gizlediler gizledim gizledin gizlediniz gizlediği gizlediğim gizlediğin gizlediğini gizleme gizlemedim gizlemem gizlemen gizlemenin gizlemesi gizlemeye gizlemeyi gizlemiyorum gizlemiş gizlendiğini gizlenmesi gizlenmeyi gizlenmiştir gizler gizlerler gizleyebilir gizleyecek gizleyemezsin gizleyen gizleyerek gizleyin gizleyip gizliyor gizliyordu gizliyorlar gizliyorsun gizliyorsunuz gizliyorum
+22	2722	doğuş	doğuştan doğuşu doğuşun
+23	2723	piyano	piyanocu piyanoda piyanodan piyanolar piyanoları piyanom piyanomu piyanon piyanonun piyanosu piyanosunu piyanoya piyanoyla piyanoyu
+24	2724	anlamsız	
+25	2725	phil	
+26	2726	köken	kökenden kökeni kökenim kökenin kökeninde kökeninden kökenine kökenini kökeninin kökenleri kökenlerini kökenli kökenlidir
+27	2727	sevinç	sevinci sevincim sevincimi sevincin sevincini sevinçle sevinçleri sevinçli sevinçliyim sevinçliyiz sevinçten
+28	2728	önder	önderi önderimiz önderler önderleri önderliğinde önderliğindeki
+29	2729	mutsuz	mutsuzdu mutsuzdum mutsuzdun mutsuzdur mutsuzken mutsuzlar mutsuzsan mutsuzsun mutsuzum mutsuzuz
+30	2730	kumar	kumara kumarda kumardan kumardı kumardır kumarla kumarı kumarın
+31	2731	nakil	nakilden nakiller nakilleri nakle nakli naklimi naklin naklinde naklinden nakline naklini naklinin nakliyle
+32	2732	çorap	çoraba çorabı çorabım çorabımı çorabımın çorabın çorabına çorabında çorabını çorabının çorapla çoraplar çoraplara çoraplardan çoraplarla çorapları çoraplarım çoraplarımla çoraplarımı çoraplarımın çorapların çoraplarına çoraplarından çoraplarını çoraplarının çoraplarınızı çoraplarıyla çoraplı çorapsız çoraptan
+33	2733	hop	
+34	2734	gerçeklik	gerçeklikler gerçeklikleri gerçeklikte gerçeklikten gerçekliğe gerçekliği gerçekliğim gerçekliğimiz gerçekliğin gerçekliğinde gerçekliğinden gerçekliğine gerçekliğini gerçekliğinin
+35	2735	cin	cinden cindi cine cini cinim cinin cinini cinle cinler cinlerden cinlere cinleri cinlerin cinli cinsin
+36	2736	ross	ross'un rossum
+37	2737	tüp	tüpe tüple tüpler tüplerden tüplere tüpleri tüplerin tüplerinden tüplerine tüplerini tüplerinin tüplerle tüplü tüpte tüpten tüpü tüpün tüpünde tüpünden tüpüne tüpünü tüpünün tüpüyle
+38	2738	türkü	türküler türküleri türkünün türküsü türküsünü türküyü
+39	2739	kovulmak	kovulabilirim kovulabilirsin kovulacak kovulacaksın kovulacağım kovulacağız kovulan kovuldu kovulduk kovuldular kovuldum kovuldun kovuldunuz kovulduğu kovulduğum kovulduğun kovulma kovulmadı kovulmadım kovulmadın kovulmam kovulmama kovulmaya kovulmuş kovulmuşsun kovulmuştu kovulmuştum kovulmuştun kovulunca kovulup kovulur kovulursam kovulursun kovulursunuz kovulurum kovuluruz kovuluyor kovuluyordum kovuluyorum
+40	2740	senatör	senatöre senatörle senatörler senatörlere senatörleri senatörlerin senatörlerle senatörü senatörüm senatörün senatörünü
+41	2741	usul	usulde usule usulle usuller usullere usulleri usulsüz usulü usulünce usulüne usulünü usulüyle
+42	2742	sopa	sopada sopadan sopalar sopalarla sopaları sopalarım sopalarımı sopaların sopalarını sopalarıyla sopalı sopam sopamı sopan sopanı sopanın sopası sopasına sopasından sopasını sopasının sopasıyla sopaya sopayla sopayı
+43	2743	kaltak	kaltakla kaltaklar kaltaklara kaltaklardan kaltakları kaltakların kaltaksın kaltaktan kaltaktır kaltağa kaltağı kaltağım kaltağın kaltağını
+44	2744	tırnak	tırnaklar tırnaklara tırnaklarla tırnakları tırnaklarım tırnaklarıma tırnaklarımla tırnaklarımı tırnaklarımın tırnakların tırnaklarına tırnaklarında tırnaklarındaki tırnaklarından tırnaklarınla tırnaklarını tırnaklarının tırnaklarınızı tırnaklarıyla tırnaklı tırnağa tırnağı tırnağım tırnağıma tırnağımla tırnağımı tırnağın tırnağına tırnağında tırnağını tırnağının
+45	2745	nefis	nefismiş nefisti nefistir nefse nefsi nefsin nefsine nefsini nefsinin
+46	2746	bakımından	
+47	2747	iyileştirmek	iyileştir iyileştirdi iyileştirdiler iyileştirdim iyileştirdin iyileştirdiği iyileştirdiğin iyileştirebilecek iyileştirebilir iyileştirebilirim iyileştirebiliriz iyileştirebilirsin iyileştirecek iyileştirecekler iyileştireceğim iyileştireceğiz iyileştirelim iyileştiremem iyileştiremeyeceği iyileştiremez iyileştiren iyileştireyim iyileştirin iyileştirip iyileştirir iyileştiririm iyileştiriyor iyileştiriyorum iyileştirme iyileştirmeler iyileştirmem iyileştirmenin iyileştirmesi iyileştirmesini iyileştirmeye iyileştirmeyi iyileştirmez iyileştirmiş iyileştirsin
+48	2748	hitap	
+49	2749	fon	fona fonda fondaki fondan fonlar fonları fonların fonlarına fonlarını fonlarının fonu fonum fonumuz fonun fonuna fonunda fonundan fonunu fonunun fonuyla
+50	2750	gebermek	geber geberdi geberdim geberdin geberecek gebereceksin gebereceksiniz gebereceğim gebereceğiz geberene geberesice geberin geberip geberir geberirsin geberiyorum gebermesini gebermiş gebersin gebert gebertecek gebertecekler geberteceğim geberteceğiz gebertin gebertip gebertir gebertirdim gebertirim gebertmeden gebertmek gebertmeye gebertti geberttim
+51	2751	artı	artılar artıları artılarını artısı
+52	2752	lüks	lükse lükstür lüksü lüksüm lüksümüz lüksün lüksüne lüksünüz
+53	2753	tanıştırmak	tanıştır tanıştırabilir tanıştırabilirim tanıştırabilirsin tanıştıracak tanıştıracaksın tanıştıracaktım tanıştıracağım tanıştıracağız tanıştıralım tanıştıran tanıştırayım tanıştırdı tanıştırdım tanıştırdın tanıştırdığı tanıştırdığım tanıştırdığın tanıştırma tanıştırmadı tanıştırmadım tanıştırmadın tanıştırmalısın tanıştırmalıyım tanıştırmam tanıştırmama tanıştırmaya tanıştırmayacak tanıştırmıyorsun tanıştırmış tanıştırmıştı tanıştırmıştım tanıştırsana tanıştırın tanıştırıp tanıştırır tanıştırırdım tanıştırırsın tanıştırırım
+54	2754	söylenti	söylentiden söylentidir söylentiler söylentilerden söylentilere söylentileri söylentilerin söylentilerine söylentilerini söylentilerle söylentinin söylentisi söylentisini söylentiydi söylentiye söylentiyi
+55	2755	barbar	barbara barbarlar barbarlara barbarlardan barbarlarla barbarları barbarların barbarlığa barbarı barbarın
+56	2756	beklenti	beklentiler beklentilere beklentileri beklentilerim beklentilerimi beklentilerimin beklentilerimiz beklentilerimizi beklentilerimizin beklentilerin beklentilerine beklentilerini beklentilerinin beklentileriniz beklentilerinizi beklentilerle beklentim beklentimiz beklentin beklentini beklentiniz beklentisi beklentisini beklentisiyle beklentiye
+57	2757	alışkanlık	alışkanlıklar alışkanlıklara alışkanlıklardan alışkanlıkları alışkanlıklarım alışkanlıklarımdan alışkanlıklarımı alışkanlıklarımızı alışkanlıkların alışkanlıklarına alışkanlıklarından alışkanlıklarını alışkanlıklarının alışkanlıklarınızı alışkanlıktan alışkanlıktır alışkanlığa alışkanlığı alışkanlığım alışkanlığımı alışkanlığımız alışkanlığın alışkanlığına alışkanlığından alışkanlığını alışkanlığınız
+58	2758	vallahi	valla
+59	2759	marş	marşa marşlar marşları marşı marşı'nı marşı'nın marşımız marşımızı marşını marşının
+60	2760	uefa	uefa'nın uefa'ya
+61	2761	kesinti	kesintiden kesintiler kesintilere kesintileri kesintilerinden kesintili kesintinin kesintisi kesintisinden kesintisine kesintisini kesintisinin kesintisiz kesintiye kesintiyi
+62	2762	ley	leydi leydiler leydim leyim
+63	2763	canlandırmak	canlandır canlandırabilir canlandırabilirim canlandırabilirsin canlandırabiliyor canlandırabiliyorum canlandıracak canlandıracağım canlandıracağız canlandıralım canlandıramıyorum canlandıran canlandırarak canlandırdı canlandırdık canlandırdım canlandırdın canlandırdığı canlandırdığım canlandırdığın canlandırma canlandırmanın canlandırması canlandırmasını canlandırmaya canlandırmayı canlandırmayın canlandırmış canlandırmıştı canlandırmıştım canlandırın canlandırıp canlandırır canlandırıyor canlandırıyordu canlandırıyordum canlandırıyorsun canlandırıyorum canlandırıyoruz
+64	2764	vinç	vince vinci vinci'nin vincin vinçle vinçler vinçleri
+65	2765	seslenmek	seslen seslendi seslendiler seslendim seslendin seslendiniz seslendirdiği seslendiği seslendiğim seslenebilir seslenebilirsin seslenecek sesleneceksin sesleneceğim seslenen sesleneyim seslenin seslenince seslenip seslenir seslenirdi seslenirim sesleniriz seslenirken seslenirler seslenirsin sesleniyor sesleniyordu sesleniyordum sesleniyorlar sesleniyorsun sesleniyorsunuz sesleniyorum sesleniyoruz seslenme seslenmeliyim seslenmeye seslenmiyor seslenmiş
+66	2766	belgesel	belgeselde belgesele belgeseli belgeselin belgeselini belgeseller belgeselleri
+67	2767	gövde	gövdede gövdedeki gövdeden gövdeleri gövdeli gövdenden gövdeni gövdenin gövdesi gövdesinde gövdesindeki gövdesinden gövdesine gövdesini gövdesinin gövdeye gövdeyi
+68	2768	turist	turiste turisti turistim turistin turistiz turistler turistlerden turistlere turistleri turistlerin turistlerle turistsin
+69	2769	karşın	
+70	2770	çağdaş	
+71	2771	tez	tezi tezim tezimi tezimin tezin tezinde tezine tezini tezinin tezler tezleri tezli tezsiz
+72	2772	sinirlenmek	sinirlen sinirlendi sinirlendiler sinirlendim sinirlendin sinirlendiniz sinirlendiriyor sinirlendirmek sinirlendiği sinirlendiğim sinirlendiğin sinirlenebilir sinirlenecek sinirleneceğim sinirlenen sinirlenince sinirlenip sinirlenir sinirlenirdi sinirlenirdim sinirlenirim sinirlenirler sinirlenirse sinirleniyor sinirleniyorlar sinirleniyorsun sinirleniyorum sinirlenme sinirlenmedim sinirlenmem sinirlenmeye sinirlenmeyeceğim sinirlenmeyin sinirlenmez sinirlenmiyorum sinirlenmiş sinirlenmişim sinirlenmişti sinirlenmiştim
+73	2773	sunu	sunum sunuma sunumda sunumdan sunumdu sunumla sunumlar sunumları sunumu sunumum sunumumu sunumumuz sunumun sunumuna sunumunda sunumunu sunumunun sunumunuz sunumuyla sunun
+74	2774	dönüm	dönümleri dönümlerini dönümü dönümümüz dönümümüzde dönümümüzü dönümün dönümünde dönümüne dönümünü dönümünüz
+75	2775	eşek	eşekle eşekler eşekleri eşeksin eşekten eşektir eşeğe eşeği eşeğim eşeğimi eşeğin eşeğini eşşek
+76	2776	ejderha	ejderhadan ejderhalar ejderhalara ejderhalardan ejderhalarla ejderhaları ejderhaların ejderhalı ejderham ejderhan ejderhanın ejderhası ejderhaya ejderhayla ejderhayı
+77	2777	imha	imhası imhaya
+78	2778	göçmen	göçmendi göçmene göçmeni göçmenin göçmenler göçmenlerden göçmenlere göçmenleri göçmenlerin göçmenlerle
+79	2779	öğretmenlik	öğretmenlikten öğretmenliğe öğretmenliği öğretmenliğin
+80	2780	york	york'a york'ta york'taki york'tan york'un yorklu yorklular
+81	2781	şahane	şahanedir şahanesin şahaneydi şahaneydin şahaneyim şahaneymiş
+82	2782	enfeksiyon	enfeksiyona enfeksiyondan enfeksiyonla enfeksiyonlar enfeksiyonlara enfeksiyonları enfeksiyonlu enfeksiyonu enfeksiyonum enfeksiyonun enfeksiyonuna enfeksiyonunu
+83	2783	aldatmak	aldatabilir aldatacak aldatamam aldatamazsın aldatan aldatarak aldatmadı aldatmadım aldatmadın aldatmam aldatmasın aldatmaya aldatmayacağım aldatmaz aldatmıyor aldatmıyorum aldatmış aldatmıştı aldattı aldattılar aldattım aldattın aldattınız aldattığı aldattığım aldattığın aldattığını aldatılmak aldatıp aldatır aldatırken aldatırsan aldatırsın aldatıyor aldatıyordu aldatıyormuş aldatıyorsa aldatıyorsun aldatıyorum
+84	2784	sonbahar	sonbahara sonbaharda sonbahardan sonbaharı sonbaharın sonbaharında
+85	2785	muazzam	muazzamdı muazzamdır
+86	2786	oylama	oylamada oylamadan oylamamız oylamanın oylaması oylamasına oylamasında oylamasını oylamaya oylamayı
+87	2787	rastlamak	rastladı rastladık rastladılar rastladım rastladın rastladınız rastladığım rastladığımız rastladığın rastlama rastlamadı rastlamadık rastlamadım rastlamam rastlamamış rastlamamıştım rastlamış rastlamışlar rastlamıştım rastlanan rastlar rastlarsak rastlarsam rastlarsan rastlarsanız rastlarsın rastlarsınız rastlarım rastlarız rastlayabilirsiniz rastlayamadık rastlayamadım rastlayan rastlayınca rastlayıp rastlıyor rastlıyorum rastlıyoruz
+88	2788	plaka	plakadan plakalar plakaları plakaların plakalarını plakalı plakamı plakan plakanı plakanın plakası plakasına plakasında plakasını plakasının plakasız plakaya plakayı
+89	2789	kilitlemek	kilitle kilitledi kilitledik kilitlediler kilitledim kilitledin kilitlediniz kilitleme kilitlemedim kilitlemedin kilitlemelisin kilitlemeliyiz kilitlemem kilitlemeye kilitlemiyor kilitlemiş kilitlemişler kilitlemişti kilitlemiştim kilitlendi kilitlerdi kilitleriz kilitlersin kilitleyebilir kilitleyebilirsin kilitleyecek kilitleyeceksin kilitleyeceğim kilitleyeceğiz kilitleyelim kilitleyen kilitleyeyim kilitleyin kilitleyip kilitliyor kilitliyorlar kilitliyorsun kilitliyorum kilitliyoruz
+90	2790	tema	temalar temaları temalı temamız temanın temaya temayı
+91	2791	dövüşmek	dövüşe dövüşebilir dövüşebilirim dövüşecek dövüşeceksin dövüşeceğim dövüşeceğiz dövüşelim dövüşemem dövüşemez dövüşemezsin dövüşen dövüşerek dövüşme dövüşmelisin dövüşmem dövüşmeye dövüşmeyeceğim dövüşmüyorsun dövüşmüş dövüştü dövüştük dövüştüm dövüştün dövüştüğü dövüştüğüm dövüştüğün dövüşün dövüşüp dövüşür dövüşürken dövüşürsün dövüşürüm dövüşürüz dövüşüyor dövüşüyorlar dövüşüyorsun dövüşüyorum dövüşüyoruz
+92	2792	çubuk	çubukla çubuklar çubuklara çubuklardan çubuklarla çubukları çubukların çubuklarından çubuklarını çubuklarının çubuklarıyla çubukta çubuktan çubuğa çubuğu çubuğum çubuğumu çubuğun çubuğuna çubuğundan çubuğunu çubuğunun çubuğuyla
+93	2793	bölgesel	
+94	2794	stil	sitili stilde stile stili stilim stilimi stilin stilinde stilinden stiline stilini stilinin stiliniz stiliyle stiller stilleri stillerini
+95	2795	sim	simdi simli
+96	2796	bireysel	
+97	2797	mantar	mantara mantardan mantarla mantarlar mantarlara mantarlardan mantarlarla mantarları mantarların mantarlarını mantarı mantarın mantarını
+98	2798	kalıntı	kalıntılar kalıntılara kalıntılarda kalıntılardan kalıntılarla kalıntıları kalıntıların kalıntılarına kalıntılarında kalıntılarından kalıntılarını kalıntılarının kalıntılarıyla kalıntının kalıntısı kalıntısına kalıntısını kalıntıyı
+99	2799	penis	penise penisi penisim penisimden penisime penisimi penisimin penisimle penisin penisinde penisinden penisine penisini penisinin penisiniz penisiyle penisle penisler penislerden penisleri penislerini penisli penisten
+100	2800	oymak	oyacak oyacağım oyalar oyan oyar oyarak oyarım oydu oydum oydun oyma oymalı oymaya oymuş oyunuz oyup oyuyor

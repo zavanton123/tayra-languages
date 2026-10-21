@@ -1,0 +1,100 @@
+1	3701	skandal	skandala skandaldan skandaldı skandalla skandallar skandallara skandallardan skandallarla skandalları skandalı skandalın skandalına skandalından skandalını skandalının skandalıyla
+2	3702	çabalamak	çabala çabaladı çabaladık çabaladım çabaladın çabaladığı çabaladığım çabaladığımı çabaladığımız çabaladığın çabaladığını çabalama çabalamaktan çabalamalısın çabalamam çabalaması çabalamaya çabalamayı çabalamıyorsun çabalamış çabalarken çabalarsam çabalarsan çabalasam çabalasan çabalayacak çabalayacağım çabalayan çabalayarak çabalayın çabalayıp çabalıyor çabalıyordu çabalıyordum çabalıyorlar çabalıyorsun çabalıyorsunuz çabalıyorum çabalıyoruz
+3	3703	şahsi	şahsî
+4	3704	büyülü	büyülüdür büyülüler büyülüydü
+5	3705	elif	elif'in
+6	3706	kova	kovada kovadan kovalar kovaları kovam kovanın kovası kovasına kovasında kovasını kovasının kovaya kovayla kovayı
+7	3707	haliyle	
+8	3708	pazarlamak	pazarla pazarlama pazarlamaya pazarlamayı pazarlar pazarlayan pazarlıyor pazarlıyorsun
+9	3709	akar	akar'ın
+10	3710	çılgınlık	çılgınlıklar çılgınlıkları çılgınlıktan çılgınlığa çılgınlığı çılgınlığın
+11	3711	monica	
+12	3712	sığır	sığıra sığırlar sığırlara sığırlardan sığırlarla sığırları sığırlarımı sığırların sığırlarını sığırı sığırın
+13	3713	suret	sureti suretinde suretinden suretini suretiyle suretle surette
+14	3714	hakikaten	
+15	3715	kaçınmak	kaçın kaçına kaçınalım kaçınan kaçınarak kaçındı kaçındık kaçındım kaçındın kaçındığı kaçındığım kaçındığını kaçınma kaçınmalısın kaçınmalısınız kaçınmalıyız kaçınmam kaçınmamız kaçınmanın kaçınmanız kaçınması kaçınmaya kaçınmayı kaçınmış kaçınılamaz kaçınılması kaçının kaçınıp kaçınır kaçınırım kaçınıyor kaçınıyorlar kaçınıyorsun kaçınıyorum kaçınıyoruz
+16	3716	tarikat	tarikata tarikatlar tarikatta tarikattan tarikatı tarikatın tarikatına tarikatından tarikatının
+17	3717	miting	mitingde mitinge mitingi mitinginde mitingine mitingler mitingleri
+18	3718	azgın	azgınlar
+19	3719	damga	damgalar damgaları damgalı damgası damgasına damgasını damgayı
+20	3720	ciğer	ciğerde ciğere ciğeri ciğerim ciğerimi ciğerimin ciğerin ciğerinde ciğerinden ciğerine ciğerini ciğerinin ciğerler ciğerlerde ciğerlere ciğerleri ciğerlerim ciğerlerime ciğerlerimi ciğerlerin ciğerlerinde ciğerlerindeki ciğerlerinden ciğerlerine ciğerlerini ciğerlerinin ciğerleriniz ciğerli
+21	3721	sur	surlar surlara surları surların surlarına surlarının suru surun
+22	3722	lou	
+23	3723	pişmek	piş pişecek pişen pişer pişerken pişirmek pişiyor pişiyorum pişmedi pişmemiş pişmesi pişmeye pişmiş pişmişti pişsin piştim
+24	3724	ihale	ihaleler ihaleleri ihalesi ihalesini ihaleye ihaleyi
+25	3725	ge	
+26	3726	finans	
+27	3727	bağır	bağrıma bağrımıza bağrına bağrında bağrından bağırana bağırdıklarını bağırdığımda bağırdığımı bağırdığında bağırdığını bağırmadan bağırmakla bağırmaktan bağırmalar bağırmaları bağırmamı bağırman bağırmana bağırmanı bağırmanın bağırmanız bağırmanıza bağırması bağırmasına bağırmasını bağırmayı bağırış bağırışlar bağırışları bağırışlarını bağırışını
+28	3728	kaş	kaşla kaşlar kaşları kaşlarım kaşlarımı kaşların kaşlarına kaşlarını kaşlarının kaşı kaşıma kaşımayı kaşın kaşına kaşındırıcı kaşınmayı kaşını kaşının
+29	3729	manken	mankendi mankene mankeni mankenim mankenin mankenle mankenler mankenlerden mankenlere mankenleri mankenlerin mankenlerle mankenlik mankenliği
+30	3730	karbon	karbona karbondan karbonu karbonun
+31	3731	mit	mit'in miti mitler mitleri
+32	3732	beyzbol	beyzbola beyzbolda beyzboldan beyzbolla beyzbolu beyzbolun
+33	3733	tabut	tabuta tabutla tabutlar tabutları tabutların tabutta tabuttaki tabuttan tabutu tabutum tabutuma tabutun tabutuna tabutunda tabutundan tabutunu tabutunun
+34	3734	etnik	
+35	3735	ahlaki	
+36	3736	işsiz	
+37	3737	klavye	klavyede klavyeden klavyenin klavyesi klavyeye klavyeyi
+38	3738	ayin	ayinde ayinden ayindir ayine ayini ayinin ayininde ayininden ayinine ayinini ayininin ayinle ayinler ayinlerde ayinlere ayinleri ayinlerin ayinlerinde ayinlerine ayinlerini ayinlerinin ayinlerle
+39	3739	koloni	koloniciler kolonide kolonideki koloniden koloniler kolonilerde kolonilerden kolonilere kolonileri kolonilerin kolonilerine kolonilerini kolonileşme koloninin kolonisi kolonisinde kolonisinden kolonisine kolonisini kolonisinin koloniye koloniyi
+40	3740	görüntüle	görüntüledi görüntüleme görüntülemek görüntülemeye görüntülemeyi görüntülemiş görüntülendi görüntülenen görüntülenir görüntülenmiş görüntüleyen
+41	3741	danışma	danışmada danışmadaki danışmadan danışmamız danışmayı
+42	3742	harekat	harekata harekatta harekatı harekatı'nda harekatın harekatına harekatında harekatını harekatının
+43	3743	hobi	hobiden hobiler hobileri hobilerim hobilerin hobilerinden hobilerini hobileriniz hobim hobimdir hobin hobiniz hobisi hobiye
+44	3744	buğday	buğdaya buğdaydan buğdaylı buğdayı buğdayın
+45	3745	sıçramak	sıçra sıçradı sıçradım sıçrama sıçraması sıçramaya sıçramış sıçramıştı sıçrar sıçrarsa sıçrayabilir sıçrayacak sıçrayalım sıçrayan sıçrayarak sıçrayın sıçrayıp sıçrıyor
+46	3746	ruhsal	
+47	3747	mobilya	mobilyalar mobilyalara mobilyalardan mobilyalarla mobilyaları mobilyalarım mobilyalarımı mobilyaların mobilyalarını mobilyalarının mobilyalı mobilyanın mobilyası mobilyaya mobilyayı
+48	3748	poker	pokerde pokerden pokere pokeri pokerin
+49	3749	anıt	anıta anıtlar anıtları anıtların anıtı anıtın anıtına anıtını anıtının
+50	3750	penaltı	penaltıdan penaltılar penaltıyı
+51	3751	fotoğrafçı	fotoğrafçıdır fotoğrafçılar fotoğrafçılara fotoğrafçıları fotoğrafçıların fotoğrafçım fotoğrafçımız fotoğrafçının fotoğrafçısı fotoğrafçısın fotoğrafçısıyım fotoğrafçıya fotoğrafçıydı fotoğrafçıyla fotoğrafçıyı fotoğrafçıyım
+52	3752	kontrat	kontrata kontratla kontratlar kontratları kontratlarını kontratta kontratı kontratım kontratımda kontratımı kontratımız kontratın kontratına kontratında kontratını kontratının kontratınız
+53	3753	arif	
+54	3754	diana	diana'nın
+55	3755	mesut	mesudum
+56	3756	meraklı	meraklıdır meraklılar meraklısın meraklısınız meraklıydı meraklıydım meraklıysan meraklıyım meraklıyız
+57	3757	link	linke linki linkin linkini linkler linkleri linkte linkten
+58	3758	bolca	
+59	3759	rozet	rozete rozeti rozetim rozetime rozetimi rozetin rozetine rozetini rozetinin rozetiniz rozetinizi rozetle rozetler rozetleri rozetlerimizi rozetlerini rozetlerinizi rozetli rozetsiz
+60	3760	şifa	şifacı şifacılar şifacıya şifacıyım şifalar şifayı
+61	3761	nine	nineciğim nineler ninem ninemden nineme ninemi ninemin ninemle ninen ninene nineni ninenin ninenle ninesi ninesini ninesinin nineye nineyi
+62	3762	estetik	estetiği
+63	3763	demet	demeti demetleri
+64	3764	güzelce	
+65	3765	güldürmek	güldür güldürdü güldürdüm güldürdün güldürebilir güldürecek güldüreceğim güldüren güldürme güldürmeye güldürmeyin güldürüp güldürür güldürürdü güldürüyor güldürüyordu güldürüyorsun güldürüyorsunuz güldürüyorum
+66	3766	manastır	manastıra manastırda manastırdaki manastırdan manastırları manastırı manastırın manastırına manastırında
+67	3767	avlanmak	avlanacak avlanacağız avlanalım avlanan avlanarak avlandı avlandık avlandım avlandın avlandığı avlanma avlanmaya avlanmış avlanıp avlanır avlanırken avlanırlar avlanırım avlanırız avlanıyor avlanıyorduk avlanıyordum avlanıyorlar avlanıyorsun avlanıyorum avlanıyoruz
+68	3768	heyecanlanmak	heyecanlanacak heyecanlanan heyecanlandı heyecanlandık heyecanlandılar heyecanlandım heyecanlandın heyecanlandınız heyecanlandırıcı heyecanlandığım heyecanlanma heyecanlanmadım heyecanlanmadın heyecanlanmam heyecanlanmamıştım heyecanlanmaya heyecanlanmayın heyecanlanmıyor heyecanlanmıyorum heyecanlanmış heyecanlanmıştı heyecanlanmıştım heyecanlanınca heyecanlanıp heyecanlanır heyecanlanırdı heyecanlanırdım heyecanlanırsın heyecanlanırım heyecanlanıyor heyecanlanıyorsun heyecanlanıyorum
+69	3769	menü	menüde menüdeki menüden menüler menüleri menümüz menümüzde menünün menüsü menüsünde menüsünden menüsüne menüsünü menüye menüyü mönü
+70	3770	atak	atakla ataklar atakları atakta atağa atağı atağın atağını
+71	3771	gey	geyim geyler geylere geyleri geylerin geysin lgbti
+72	3772	cezalandırmak	cezalandır cezalandıracak cezalandıracaklar cezalandıracaksın cezalandıracağım cezalandıracağız cezalandıralım cezalandıramazsın cezalandıran cezalandırdı cezalandırdılar cezalandırdım cezalandırdın cezalandırma cezalandırmalıyım cezalandırmalıyız cezalandırmam cezalandırmaya cezalandırmayacağım cezalandırmayın cezalandırmaz cezalandırmıyorum cezalandırmış cezalandırsın cezalandırın cezalandırıp cezalandırır cezalandırırım cezalandırıyor cezalandırıyorlar cezalandırıyorsun cezalandırıyorsunuz cezalandırıyorum
+73	3773	tabela	tabelada tabeladaki tabelalar tabelalara tabelaları tabelalarını tabelanın tabelası tabelasına tabelasında tabelasını tabelasının tabelaya tabelayla tabelayı
+74	3774	pusu	pusuda pusunun pusuya pusuyu
+75	3775	menzil	menzilde menzilden menzile menzili menzilimizde menzilin menzilinde menzilinden menzilindeyiz menziline menzilini menzilinin menzilleri menzilli
+76	3776	çörek	çörekle çörekler çöreklerden çöreklere çörekleri çöreklerim çöreklerin çöreklerinden çöreklerini çöreklerle çörekten çöreğe çöreği çöreğim çöreğimi çöreğin çöreğini
+77	3777	alerji	alerjiden alerjiler alerjileri alerjilerim alerjim alerjin alerjiniz alerjisi alerjisini
+78	3778	algılamak	algıla algıladı algıladık algıladım algıladın algıladığı algıladığım algıladığımız algılama algılamam algılamaya algılamayın algılamıyor algılamıyorum algılamış algılanan algılar algılarım algılayabilir algılayabiliyor algılayacak algılayamıyor algılayan algılayıp algılıyor algılıyorsun algılıyorum algılıyoruz
+79	3779	mahvol	mahvolabilir mahvolacak mahvolacaksın mahvolacaktı mahvolacağını mahvolacağız mahvolan mahvoldu mahvolduk mahvoldular mahvoldum mahvoldun mahvolduğu mahvolduğunu mahvolma mahvolmadan mahvolmadı mahvolması mahvolmasına mahvolmasını mahvolmuş mahvolmuştu mahvolmuştum mahvolsun mahvolurdu mahvolurdum mahvolursun mahvolurum mahvoluruz mahvoluyor
+80	3780	jen	jeni jensen
+81	3781	işitmek	işit işitecek işiteceğim işiten işitince işitir işitiyor işitiyorum işitme işitmedim işitmeye işitmiyor işitmiş işitmiştim işitti işittik işittim işittin işittiniz işittiğim işittiğini
+82	3782	dük	düke dükle dükler dükü düküm dükün dükünün düşes düşese düşesi
+83	3783	nazım	
+84	3784	mercedes	mercedes'in
+85	3785	ramazan	ramazanda
+86	3786	monte	
+87	3787	sevk	
+88	3788	bekçi	bekçiler bekçileri bekçilerin bekçimiz bekçinin bekçisi bekçisine bekçisini bekçisinin bekçisiyim bekçiye bekçiyi bekçiyim
+89	3789	paramparça	paramparçaydı
+90	3790	hamam	hamama hamamda hamamlar hamamı hamamına hamamında
+91	3791	zarif	zarifsin zarifsiniz zarifti zariftir
+92	3792	seans	seansa seanslar seanslara seanslarda seansları seansların seanslarına seanslarında seanslarını seanslarının seansta seanstan seansı seansımız seansımızda seansımızı seansın seansına seansında seansından seansını seansının seansınız
+93	3793	kaçta	
+94	3794	zırh	zırha zırhla zırhlar zırhları zırhlarını zırhtan zırhı zırhım zırhımı zırhın zırhına zırhında zırhını zırhının
+95	3795	fırça	fırçalar fırçaları fırçalarım fırçalarını fırçam fırçamı fırçan fırçanı fırçanın fırçası fırçasına fırçasından fırçasını fırçasının fırçasıyla fırçayla fırçayı
+96	3796	zamanlamak	zamanlama zamanlamam zamanlamaya zamanlar zamanlardı zamanlarım
+97	3797	inatçı	inatçıdır inatçısın inatçısınız inatçıydı inatçıyım
+98	3798	unutulmaz	
+99	3799	boylu	
+100	3800	meslektaş	meslektaşlar meslektaşları meslektaşlarım meslektaşlarıma meslektaşlarımla meslektaşlarımı meslektaşlarımın meslektaşlarımız meslektaşların meslektaşlarına meslektaşlarını meslektaşlarının meslektaşlarınız meslektaşlarıyla meslektaşı meslektaşım meslektaşıma meslektaşımla meslektaşımı meslektaşımın meslektaşımız meslektaşın meslektaşına meslektaşını meslektaşının meslektaşınız meslektaşız

@@ -1,0 +1,100 @@
+1	7501	sürtünme	sürtünmeden sürtünmesi sürtünmeye sürtünmeyi
+2	7502	gayrı	
+3	7503	yapıştırıcı	yapıştırıcısı yapıştırıcıyla yapıştırıcıyı
+4	7504	delicesine	
+5	7505	cayır	
+6	7506	vedalaşmak	vedalaş vedalaşacağız vedalaşalım vedalaşayım vedalaşma vedalaşmadan vedalaşmaya vedalaşmayı vedalaştık vedalaştım vedalaşın vedalaşıp vedalaşırken vedalaşıyor vedalaşıyoruz
+7	7507	kameraman	kameramanlar kameramanı kameramanım kameramanımız kameramanın
+8	7508	işletmecilik	işletmeciliği
+9	7509	solist	solisti solistimiz solistleri
+10	7510	manav	manava manavda manavdan manavın
+11	7511	rağbet	
+12	7512	metabolizma	metabolizmam metabolizman metabolizması
+13	7513	eğimli	
+14	7514	gaddar	gaddarsın
+15	7515	sentez	sentezi sentezlenmiş
+16	7516	kilolu	
+17	7517	yutmak	yutar
+18	7518	muamma	
+19	7519	olgunluk	olgunlukta
+20	7520	banliyö	banliyöde banliyödeki banliyöler banliyölerde banliyöye
+21	7521	uz	
+22	7522	çaktırmadan	
+23	7523	refakat	
+24	7524	gökdelen	gökdeleni gökdelenin gökdelenler gökdelenleri gökdelenlerin
+25	7525	ikilem	ikilemde ikileme ikilemi ikilemin ikilemini ikilemle
+26	7526	cubur	
+27	7527	pekmez	pekmezi pekmezini
+28	7528	joseph	josephine
+29	7529	geveze	gevezenin gevezesin
+30	7530	araf	arafa arafta araftan
+31	7531	ekonomist	ekonomistler
+32	7532	akıbet	akıbeti akıbetine akıbetini
+33	7533	döşek	döşeği döşeğin döşeğinde döşeğindeki döşeğindeyken döşeğine
+34	7534	tayt	taytlar taytlı taytı taytını
+35	7535	çalgı	çalgılar çalgıyı
+36	7536	mika	mikan
+37	7537	nakış	
+38	7538	muafiyet	muafiyeti
+39	7539	girdap	girdaba girdabı girdabın girdabına girdabında girdaplar
+40	7540	kene	keneler
+41	7541	gelişigüzel	
+42	7542	salatalık	salatalıklar salatalıklı
+43	7543	öfkelenmek	öfkelen öfkelendi öfkelendim öfkelendin öfkelendiğim öfkelendiğini öfkelenecek öfkelenen öfkelenip öfkelenir öfkeleniyor öfkeleniyorsun öfkeleniyorum öfkelenme öfkelenmeye öfkelenmiş öfkelenmişti öfkelenmiştim
+44	7544	verem	veremden veremi
+45	7545	soba	sobanın sobası sobaya sobayı
+46	7546	sofistike	
+47	7547	selfie	
+48	7548	mikroskop	mikroskoba mikroskobu mikroskobun mikroskopla mikroskopta
+49	7549	fırtınalı	
+50	7550	çavdar	
+51	7551	irtifa	irtifada irtifadan
+52	7552	rulo	rulosu
+53	7553	uygar	uygarca
+54	7554	falcı	falcılar falcının falcısı falcıya falcıyı
+55	7555	maktul	maktule maktulle maktullerin maktulü maktulümüz maktulün
+56	7556	kanguru	kangurular kangurunun kanguruyu
+57	7557	konteyner	konteynerde konteynere konteyneri konteynerin konteynerinde konteynerine konteynerleri
+58	7558	saygısız	saygısızsın
+59	7559	siyanür	siyanürle siyanürü
+60	7560	deterjan	deterjanı
+61	7561	dilli	
+62	7562	dürbün	dürbünden dürbünle dürbünlü dürbünü dürbünün dürbününü
+63	7563	konforlu	
+64	7564	erciyes	
+65	7565	maarif	
+66	7566	tcdd	
+67	7567	vasıta	vasıtası
+68	7568	çömlek	çömlekler çömlekleri çömleğe çömleği çömleğin
+69	7569	hicret	
+70	7570	cılız	
+71	7571	andreas	
+72	7572	tekabül	
+73	7573	ihtiyatlı	
+74	7574	erk	erkeler erkendi erkendir erkene erkenmiş
+75	7575	tonik	toniği
+76	7576	günahkâr	günahkârlar günahkârları günahkârların günahkârı günahkârım günahkârın
+77	7577	başörtüsü	
+78	7578	hissedar	hissedarlar hissedarlara hissedarları hissedarların hissedarlarına hissedarı
+79	7579	sevimsiz	
+80	7580	eskimiş	eskimişti
+81	7581	güzelleşmek	güzelleşecek güzelleşelim güzelleşir güzelleşiyor güzelleşiyorsun güzelleşmeye güzelleşmiş güzelleşmişsin güzelleşti
+82	7582	üçer	
+83	7583	kuyumcu	kuyumcuda kuyumcudan kuyumcular kuyumcunun kuyumcuya kuyumcuyu
+84	7584	ücra	
+85	7585	nadide	
+86	7586	ardıç	
+87	7587	nikâh	nikâha nikâhı
+88	7588	hediyelik	
+89	7589	meze	mezeler mezeleri mezesi
+90	7590	dershane	dershaneler dershaneye
+91	7591	yetiştiricilik	yetiştiriciliği
+92	7592	hibe	
+93	7593	adlandırmak	adlandır adlandıran adlandırdı adlandırdıkları adlandırdığı adlandırdığım adlandırdığımız adlandırdığın adlandırma adlandırır adlandırıyor adlandırıyorlar adlandırıyorsun adlandırıyorum
+94	7594	müdahil	
+95	7595	programlamak	programla programladı programladım programladın programlaması programlamış programlar programlayıp programlıyorum
+96	7596	çubuklu	
+97	7597	karşıtlık	karşıtlığı
+98	7598	nüsha	nüshası nüshasını
+99	7599	entrika	entrikalar entrikaları entrikaların entrikalarını entrikanın entrikası
+100	7600	cehalet	cehalete cehaleti cehaletimi cehaletin cehaletini cehaletten

@@ -1,0 +1,100 @@
+1	9401	safir	safiri
+2	9402	bitirici	
+3	9403	dinsiz	
+4	9404	süveter	süveteri süveterimi süveterin süveterini süveterler
+5	9405	dilenmek	dilen dilenecek dilenen dilenerek dilenir dileniyor dileniyorsun dileniyorum dilenme dilenmeye
+6	9406	çağrışmak	çağrıştırıyor
+7	9407	nişasta	nişastası
+8	9408	aromatik	
+9	9409	fosforlu	
+10	9410	astronom	astronomlar astronomların
+11	9411	sığınmacı	
+12	9412	kama	
+13	9413	basketbolcu	
+14	9414	bükülmek	büküldü bükülen bükülmeye bükülmüş bükülüp bükülüyor
+15	9415	ajanlık	ajanlığa ajanlığı
+16	9416	münafık	münafıklar
+17	9417	rumi	
+18	9418	portakallı	
+19	9419	arıcılık	
+20	9420	siklemek	sikler siklet
+21	9421	şaşı	
+22	9422	plütonyum	plütonyumu plütonyumun
+23	9423	tüymek	tüydü tüydüm tüye tüyelim tüymeliyiz tüymeye tüymüş tüyün tüyüp tüyüyorum
+24	9424	gözyaş	gözyaşlarımla gözyaşlarınla gözyaşlarıyla gözyaşıyla
+25	9425	kimyager	kimyagerin
+26	9426	flamingo	flamingolar
+27	9427	amonyum	
+28	9428	ağırbaşlı	
+29	9429	evvelki	
+30	9430	esnemek	esne esnedi esneme esnemeye esneyin esniyor
+31	9431	hitaben	
+32	9432	peso	
+33	9433	haşere	haşerat haşereler
+34	9434	ahıska	
+35	9435	akbulut	
+36	9436	aktüel	
+37	9437	dgs	
+38	9438	gencebay	
+39	9439	kılınç	
+40	9440	teala	
+41	9441	evcilik	
+42	9442	afacan	afacanlar
+43	9443	kaypak	
+44	9444	pornografik	
+45	9445	horlamak	horladığını horlama horlamam horlamaya horlar horlayan horluyor horluyordu horluyordun horluyorsun
+46	9446	modüler	
+47	9447	reva	
+48	9448	şantiye	şantiyede şantiyenin şantiyeye
+49	9449	köhne	
+50	9450	azlık	azlığı azlığından
+51	9451	kısalmak	kısaldı kısalmış kısaltılmış kısalır kısalıyor
+52	9452	cübbe	cübbesi cübbeyi cüppe cüppesi cüppesini cüppeyi
+53	9453	efektif	
+54	9454	hakemlik	
+55	9455	yâd	yâda
+56	9456	vazgeçir	vazgeçirdi vazgeçirdim vazgeçirecek vazgeçiremez vazgeçirmek vazgeçirmeye
+57	9457	dalaşmak	dalaşma dalaşmaya dalaşmayı dalaşı dalaşına dalaşını
+58	9458	od	odda odu odum oduna odundan odunu odunun
+59	9459	clooney	
+60	9460	müşrik	müşrikler
+61	9461	brecht	
+62	9462	melankolik	
+63	9463	kivi	
+64	9464	mikroorganizma	mikroorganizmalar mikroorganizmaların
+65	9465	baskan	
+66	9466	kinetik	
+67	9467	yağmalamak	yağmaladı yağmaladılar yağmalama yağmalamaya yağmalamış yağmalandı yağmalar yağmalayan yağmalayıp yağmalıyor yağmalıyorlar
+68	9468	garantile	garantiledi garantiledim garantilemek garantilemiş garantileyecek garantileyen garantiliyor
+69	9469	oynak	
+70	9470	geçilmez	
+71	9471	aksamak	aksa aksadı aksama aksatmadan aksatıyor aksayan aksıyor
+72	9472	kıkırdak	kıkırdağı
+73	9473	badminton	
+74	9474	kızamık	
+75	9475	lala	
+76	9476	daraltmak	daralt daraltabilir daraltabiliriz daraltacak daraltmamız daraltmaya daralttı daralttık daralttım daraltın daraltır daraltıyor
+77	9477	sürdürülebilirlik	
+78	9478	umar	umarlar umarın
+79	9479	önsöz	önsözü
+80	9480	kâhin	kâhini kâhinler
+81	9481	zalimlik	zalimliği zalimliğin
+82	9482	çilingir	
+83	9483	engerek	engereği
+84	9484	manasız	
+85	9485	mağrur	
+86	9486	bahattin	
+87	9487	ihtilaf	ihtilafa ihtilaflı
+88	9488	bili	biliyim
+89	9489	kızarmak	kızar kızaracak kızaracaksın kızaran kızardı kızardım kızardın kızardığını kızarma kızarması kızarmaya kızarmış kızarmıştı kızarsa kızarsın kızartılmış kızarıp kızarır kızarıyor kızarıyorsun
+90	9490	kolaçan	
+91	9491	debi	debisi
+92	9492	asteroit	asteroidin asteroitler
+93	9493	narsist	
+94	9494	karabasan	karabasanlar
+95	9495	ortopedi	ortopediyi
+96	9496	klonla	klonlama klonlamak klonlamaya klonlanmış
+97	9497	benek	benekler benekleri beneklerini
+98	9498	çıkagel	çıkageldi
+99	9499	böbürlenmek	böbürlenecek böbürlenen böbürlenerek böbürlenip böbürleniyor böbürleniyorsun böbürlenme böbürlenmeye böbürlenmeyi
+100	9500	bateri	bateriyi

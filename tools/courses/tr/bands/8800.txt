@@ -1,0 +1,100 @@
+1	8701	dikiz	dikizlerken
+2	8702	soğanlı	
+3	8703	emzirmek	emzirdi emzirdim emziren emzirirken emziriyor emziriyorum emzirme emzirmeye emzirmeyi
+4	8704	ürpermek	ürperdi ürperdim ürperiyor ürperiyorum ürpertiyor
+5	8705	sükunet	sükunete sükuneti sükunetini sükunetle
+6	8706	özenli	
+7	8707	sinatra	
+8	8708	süspansiyon	süspansiyonu
+9	8709	boklu	
+10	8710	tümgeneral	
+11	8711	sinmek	sindi sinen siner sinin siniyor sinmedi sinmiyor sinmiş sinmişti
+12	8712	nemrut	
+13	8713	piercing	piercingi
+14	8714	zoraki	
+15	8715	durdurulamaz	
+16	8716	hipertansiyon	
+17	8717	drenaj	
+18	8718	kamufle	
+19	8719	kansız	
+20	8720	tokmak	tokmakla tokmağı tokmağını
+21	8721	toksikoloji	toksikolojiye
+22	8722	maskara	maskarası maskaraya
+23	8723	telkin	telkinde
+24	8724	absürt	absürd
+25	8725	minnacık	
+26	8726	yılmak	yıla yıldı yıldırmak yılmayacağım yılmış yılın yılınız
+27	8727	kamçı	kamçılar kamçısı kamçıyla kamçıyı
+28	8728	cık	
+29	8729	balay	balayım balayımı balayımız balayımızda balayımızı balayındayken balayındayız balayınız balayınızda balayınızı
+30	8730	iyot	
+31	8731	aort	aorta aortu
+32	8732	uyluk	
+33	8733	neriman	
+34	8734	deforme	
+35	8735	incecik	
+36	8736	alkali	alkalin
+37	8737	külçe	külçeler külçeleri külçesi
+38	8738	raket	raketi raketin raketini raketle raketleri
+39	8739	şad	
+40	8740	cilve	cilveleri cilvesi cilvesine
+41	8741	eskrim	
+42	8742	kudurmak	kuduracak kudurdu kudurmuş kudurur kuduruyor kuduruyorum
+43	8743	fırıncı	fırıncının
+44	8744	trompet	trompeti trompetler
+45	8745	ukalalık	ukalalığı
+46	8746	tavus	
+47	8747	akkuyu	
+48	8748	baysal	
+49	8749	gönenmek	gönen
+50	8750	kamer	
+51	8751	migros	
+52	8752	nasa	nasa'nın
+53	8753	peyami	
+54	8754	tobb	
+55	8755	kilim	kilimi kilimin kilimler
+56	8756	tefekkür	
+57	8757	ayırıcı	
+58	8758	zanaat	
+59	8759	çardak	çardakta çardağı çardağın
+60	8760	yavan	
+61	8761	kafi	kafidir
+62	8762	duygulu	
+63	8763	alımlı	
+64	8764	heybetli	
+65	8765	ato	
+66	8766	tomar	tomarla tomarı
+67	8767	teşekkül	teşekküllü
+68	8768	görünmezlik	görünmezlikten görünmezliği
+69	8769	derslik	
+70	8770	telepatik	
+71	8771	ürküt	ürküten ürkütme ürkütmeye ürkütmüş ürküttü ürküttüm ürküttün ürkütür ürkütüyor ürkütüyorsun
+72	8772	tepetaklak	
+73	8773	düzensizlik	düzensizlikler düzensizliğe düzensizliği
+74	8774	yirminci	
+75	8775	kadem	
+76	8776	harflemek	harfle harfler harflerim
+77	8777	çökertmek	çökertebilir çökertecek çökerten çökertir çökertiyor çökertme çökertmeye çökertmiş çökertti
+78	8778	kartopu	
+79	8779	tazı	tazılar tazıları tazısı
+80	8780	jokey	jokeyi jokeyin jokeyler
+81	8781	dahiyane	
+82	8782	kort	korta kortları kortta kortu kortun kortuna kortunda
+83	8783	yırtılmış	
+84	8784	çıplaklık	çıplaklığa çıplaklığı
+85	8785	leğen	leğeni
+86	8786	depozito	depozitosu depozitosunu depozitoyu
+87	8787	şizofren	şizofrenler
+88	8788	jant	jantlar jantları
+89	8789	sabıkalı	sabıkalılar
+90	8790	lavanta	
+91	8791	zırvala	zırvalama zırvalamaya zırvalamayı zırvalayıp zırvalıyor zırvalıyorsun
+92	8792	makinist	makiniste makinisti makinistin makinistler
+93	8793	boğucu	
+94	8794	pim	pimi pimini
+95	8795	terbiyesizlik	terbiyesizliği
+96	8796	pizzacı	pizzacıda pizzacıdan pizzacının pizzacısı pizzacıya pizzacıyı
+97	8797	binek	
+98	8798	iflah	
+99	8799	koroner	
+100	8800	peron	perona peronda perondan

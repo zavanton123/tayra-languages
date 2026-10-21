@@ -1,0 +1,100 @@
+1	2201	akış	akışa akışları akışı akışın akışına akışında akışından akışını akışının
+2	2202	rejim	rejimde rejimden rejimdeyim rejime rejimi rejimin rejimine rejimini rejiminin rejimle rejimler rejimleri
+3	2203	tünel	tünelde tüneldeki tünelden tünele tüneli tünelin tünelinde tünelinden tüneline tünelini tünelinin tünelle tüneller tünellerde tünellerden tünellere tünelleri tünellerin tünellerinde tünellerinden tünellerine tünellerini tünellerinin tünellerle
+4	2204	şahit	şahide şahidi şahidim şahidimdir şahidimiz şahidin şahidini şahidiniz şahitle şahitler şahitlerden şahitlere şahitleri şahitlerim şahitlerimiz şahitlerin şahitlerle şahitsin şahitsiniz şahittir
+5	2205	indirim	indirimde indirimden indirimdeydi indirime indirimi indirimimiz indirimin indiriminden indirimine indirimini indirimle indirimler indirimleri indirimli
+6	2206	damar	damara damarda damardan damarlar damarlara damarlarda damarlardan damarları damarlarım damarlarıma damarlarımda damarlarımdaki damarlarımı damarlarımızda damarların damarlarına damarlarında damarlarındaki damarlarından damarlarını damarlarının damarlarınızda damarı damarıdır damarıma damarımı damarın damarına damarında damarından damarını damarının
+7	2207	minnettar	minnettardı minnettardım minnettardır minnettarlar minnettarsın minnettarım minnettarız
+8	2208	ey	
+9	2209	tanımlamak	tanımla tanımladı tanımladık tanımladılar tanımladım tanımladın tanımladığı tanımladığın tanımladığınız tanımlama tanımlamam tanımlamaya tanımlamıyor tanımlamış tanımlamıştı tanımlanan tanımlar tanımlarken tanımlarsın tanımlarsınız tanımlarız tanımlayabilir tanımlayabilirim tanımlayabiliriz tanımlayacak tanımlayamadığım tanımlayamadığımız tanımlayamıyorum tanımlayan tanımlayın tanımlayıp tanımlıyor tanımlıyorlar tanımlıyorsun tanımlıyorsunuz tanımlıyorum tanımlıyoruz
+10	2210	gergin	gergindi gergindik gergindim gergindin gergindir gerginim gerginiz gerginken gerginler gerginleşiyor gerginleşti gerginliğim gerginliğimi gerginliğini gerginsen gerginsin gerginsiniz
+11	2211	hakan	hakan'ın
+12	2212	bizzat	
+13	2213	kolayca	
+14	2214	dondurma	dondurmadan dondurmalar dondurmaları dondurmalı dondurmam dondurmamı dondurmamız dondurman dondurmanı dondurmanın dondurmanız dondurması dondurmasını dondurmaya dondurmayla dondurmayı
+15	2215	uğruna	
+16	2216	gerekçe	gerekçeler gerekçeleri gerekçelerim gerekçelerini gerekçelerle gerekçeli gerekçem gerekçemiz gerekçen gerekçeniz gerekçesi gerekçesini gerekçesiyle gerekçeye gerekçeyi gerekçeyle
+17	2217	cemaat	cemaate cemaati cemaatim cemaatimden cemaatimin cemaatimiz cemaatimize cemaatimizin cemaatin cemaatinden cemaatine cemaatini cemaatinin cemaatle cemaatler cemaatleri cemaatlerin cemaatte cemaatten
+18	2218	hocam	
+19	2219	temin	temini
+20	2220	idari	
+21	2221	koruyucu	koruyucudur koruyucular koruyucuları koruyucuların koruyucularıyız koruyucum koruyucumuz koruyucun koruyucunun koruyucunuz koruyucusu koruyucusudur koruyucusuna koruyucusunu koruyucusuyum koruyucuya koruyucuyu
+22	2222	bilinç	bilince bilinci bilincim bilincimi bilincimin bilincimiz bilincimizi bilincin bilincinde bilincindeyim bilincine bilincini bilincinin bilinciniz bilincinizi bilinciyle bilinçle bilinçleri bilinçlerini bilinçsiz bilinçsizce
+23	2223	tavır	tavra tavrı tavrım tavrımı tavrımız tavrımızı tavrın tavrına tavrından tavrınla tavrını tavrının tavrınız tavrınızdan tavrınızı tavrıyla tavırda tavırdan tavırla tavırlar tavırlara tavırlarla tavırları tavırlarım tavırlarımı tavırların tavırlarına tavırlarında tavırlarından tavırlarınla tavırlarını tavırlarının tavırlarınız tavırlarınızı tavırlarıyla tavırlı
+24	2224	jason	
+25	2225	ikiz	ikizi ikizim ikizimi ikizin ikizine ikizini ikizinin ikiziyiz ikiziz ikizler ikizlerden ikizlere ikizleri ikizlerim ikizlerimiz ikizlerin ikizlerinden ikizlerine ikizlerini ikizlerinin
+26	2226	nakit	nakde nakdi nakitle nakitleri nakitten nakittir
+27	2227	çeyrek	çeyreklik çeyrekte çeyrekteki çeyrekten çeyreğe çeyreği çeyreğin çeyreğinde çeyreğindeki çeyreğinden çeyreğine çeyreğini
+28	2228	etiket	etikete etiketi etiketin etiketinde etiketine etiketini etiketiyle etiketle etiketledim etiketleme etiketlemek etiketlemiş etiketlendi etiketlenmiş etiketler etiketlere etiketleri etiketlerin etiketlerini etiketleyip etiketli etikette
+29	2229	ilham	ilhama ilhamla ilhamı ilhamın ilhamını
+30	2230	fizik	fizikle fizikte fizikteki fizikten fiziğe fiziği fiziğim fiziğin fiziğinde fiziğine fiziğini fiziğinin
+31	2231	mantık	mantıkla mantıklıca mantıklısı mantıksızca mantıktan mantıktır mantığa mantığı mantığım mantığıma mantığımı mantığın mantığına mantığında mantığınla mantığını mantığının mantığıyla
+32	2232	kovmak	kov kovabilir kovabilirim kovacak kovacaklar kovacağım kovacağını kovalar kovamam kovamazsın kovar kovarlar kovarım kovdu kovduktan kovdular kovdum kovdun kovdunuz kovduğu kovduğunu kovma kovmakla kovmam kovman kovmaya kovmayacağım kovmayı kovmuş kovucu kovulduğumu kovulduğunu kovulması kovulmasını kovun kovup kovuyor kovuyorsun kovuyorum
+33	2233	kaliteli	kalitelidir
+34	2234	stres	strese stresi stresimi stresin stresinden stresine stresini stresle streslidir streslisin stresliydi stresliydim stresliyim stressiz stresten
+35	2235	yetenekli	yeteneklidir yetenekliler yeteneklisin yeteneklisiniz yetenekliydi yetenekliydin yetenekliyim yetenekliyiz yetenekliymiş yetenekliymişsin
+36	2236	paralel	paralellik
+37	2237	nesne	nesneden nesnedir nesneler nesnelerden nesnelere nesneleri nesnelerin nesnelerle nesnenin nesnesi nesneye nesneyi nesneyle
+38	2238	sessizlik	sessizlikle sessizlikler sessizlikte sessizlikten sessizliğe sessizliği sessizliğim sessizliğimi sessizliğin sessizliğinde sessizliğinden sessizliğine sessizliğini sessizliğinin sessizliğinizi
+39	2239	fazlasıyla	
+40	2240	havalimanı	havalimanları havalimanına havalimanında havalimanından havalimanını havalimanının
+41	2241	merhamet	merhamete merhameti merhametim merhametin merhametinden merhametine merhametini merhametinin merhametiniz merhametinize merhametiyle merhametle merhametten merhamettir
+42	2242	gömlek	gömlekle gömlekler gömleklerden gömlekleri gömleklerim gömleklerimi gömleklerin gömleklerinden gömleklerini gömlekte gömlekten gömleğe gömleği gömleğim gömleğime gömleğimi gömleğimin gömleğin gömleğinde gömleğindeki gömleğinden gömleğine gömleğini gömleğinin gömleğiniz gömleğinizi gömleğiyle
+43	2243	gelişmiş	
+44	2244	gözlem	gözlemcisi gözlemcisin gözlemciyim gözlemde gözlemdi gözleme gözlemeler gözlemeleri gözlemesi gözlemeye gözlemeyi gözlemi gözlemle gözlemledi gözlemledik gözlemledim gözlemlediğim gözlemlediğimiz gözlemleme gözlemlemek gözlemlemeye gözlemlendi gözlemlenen gözlemlenmiştir gözlemler gözlemleri gözlemlerim gözlemlerime gözlemlerini gözlemleyecek gözlemleyeceğim gözlemleyen gözlemleyerek gözlemleyin gözlemleyip gözlemliyor gözlemliyordum gözlemliyorum gözlemliyoruz
+45	2245	rıza	rıza'nın rızaları rızalarıyla rızam rızamla rızamı rızan rızanla rızanı rızanız rızanızla rızanızı rızası rızasını rızasıyla
+46	2246	tutuklu	tutuklular tutuklulara tutuklulardan tutuklularla tutukluları tutukluların tutukluluk tutukluluğu tutuklum tutuklunun tutuklusun tutuklusunuz tutukluya tutukluyken tutukluyla tutukluyu tutukluyum
+47	2247	katliam	katliama katliamcı katliamda katliamdan katliamdı katliamla katliamlar katliamlara katliamlardan katliamları katliamların katliamı katliamın katliamına katliamında katliamından katliamını katliamının
+48	2248	jerry	
+49	2249	başvuru	başvuruda başvurular başvuruları başvuruların başvurularında başvurularını başvurum başvurumda başvurumu başvurun başvurunda başvurunu başvurunun başvurunuz başvurunuzu başvurusu başvurusuna başvurusunda başvurusunu başvurusunun başvuruyu
+50	2250	ceket	cekete ceketi ceketim ceketimde ceketimden ceketime ceketimi ceketimin ceketimle ceketin ceketinde ceketindeki ceketinden ceketine ceketini ceketinin ceketiniz ceketinizi ceketinle ceketiyle ceketle ceketler ceketleri ceketlerimizi ceketlerini ceketlerinizi ceketliler ceketmiş cekette ceketten
+51	2251	toplumsal	
+52	2252	ödev	ödevde ödevden ödeve ödevi ödevim ödevimde ödevime ödevimi ödevimin ödevimiz ödevimizi ödevin ödevinde ödevinden ödevine ödevini ödevinin ödeviniz ödevinizi ödevle ödevler ödevleri ödevlerim ödevlerime ödevlerimi ödevlerimizi ödevlerin ödevlerinde ödevlerine ödevlerini ödevleriniz ödevlerinizi
+53	2253	kitle	kitleler kitlelere kitleleri kitlelerin kitlem kitlemiz kitlen kitlenin kitlesi kitlesine kitlesini kitlesinin kitleye kitleyi
+54	2254	arkadaşlık	arkadaşlıkla arkadaşlıklar arkadaşlıklara arkadaşlıkları arkadaşlıklarını arkadaşlıkta arkadaşlıktan arkadaşlığa arkadaşlığı arkadaşlığım arkadaşlığımdan arkadaşlığımı arkadaşlığımız arkadaşlığımıza arkadaşlığımızdan arkadaşlığımızı arkadaşlığımızın arkadaşlığın arkadaşlığına arkadaşlığından arkadaşlığını arkadaşlığının arkadaşlığınız arkadaşlığınıza arkadaşlığınızı arkadaşlığınızın
+55	2255	tecrübe	tecrübeden tecrübedir tecrübeler tecrübelerden tecrübelere tecrübeleri tecrübelerim tecrübelerimden tecrübelerime tecrübelerimi tecrübelerimiz tecrübelerin tecrübelerinden tecrübelerine tecrübelerini tecrübeleriniz tecrübelerinize tecrübem tecrübemden tecrübeme tecrübemi tecrübemiz tecrübemle tecrüben tecrübenin tecrübeniz tecrübesi tecrübesinden tecrübesine tecrübesini tecrübesiyle tecrübeydi tecrübeye tecrübeyi tecrübeyle
+56	2256	mağara	mağarada mağaradaki mağaradan mağaralar mağaralara mağaralarda mağaralardan mağaraları mağaraların mağaralarına mağaralarında mağarana mağaranın mağarası mağarasına mağarasında mağarasından mağarasını mağarasının mağaraya mağarayı
+57	2257	alçak	alçaklar alçaklara alçakları alçakların alçaksın alçakta alçaktan alçaktır alçağa alçağı alçağım alçağın
+58	2258	akademi	akademide akademideki akademiden akademideyken akademileri akademinin akademisi akademisi'nde akademisi'ne akademisi'nin akademisinde akademisinden akademisine akademisini akademisinin akademiye akademiyi
+59	2259	dağılmak	dağıl dağılabilir dağılabilirsiniz dağılacak dağılacağını dağılacağız dağılalım dağılan dağılana dağıldı dağıldık dağıldıktan dağıldılar dağıldım dağıldığı dağıldığında dağıldığını dağılmaması dağılmasın dağılmaya dağılmayın dağılmaz dağılmış dağılmışlar dağılmışsın dağılmıştı dağılmıştır dağılsın dağılın dağılınca dağılıp dağılır dağılırken dağılırlar dağılırsa dağılıyor dağılıyordu dağılıyorlar dağılıyoruz
+60	2260	masaj	masaja masajdan masajla masajlar masajları masajı masajın masajına masajından masajını
+61	2261	etkileyici	
+62	2262	vekil	vekile vekili vekilim vekilimiz vekilin vekiline vekilini vekilinin vekiliyim vekiliyle vekiller vekilleri vekillerin
+63	2263	krallık	krallık'ta krallık'ın krallıklar krallıkları krallıkların krallıkta krallıktaki krallıktan krallığa krallığı krallığı'nın krallığım krallığıma krallığımda krallığımı krallığımın krallığımız krallığımıza krallığımızı krallığımızın krallığın krallığına krallığında krallığındaki krallığından krallığını krallığının krallığınız krallığınızı
+64	2264	hadis	hadise hadise'nin hadiseden hadiseler hadiseleri hadisenin hadisenize hadisesi hadiseye hadiseyi hadisi hadisler hadislerde hadisleri hadislerin
+65	2265	komite	komitede komitedeki komiteden komiteler komiteleri komitemiz komitenin komitesi komitesi'nin komitesinde komitesindeki komitesinden komitesindeyim komitesine komitesini komitesinin komitesiyle komiteye komiteyi komiteyle
+66	2266	alışmak	alışabildin alışabilir alışabilirim alışacak alışacaksın alışacağım alışacağız alışamadı alışamadım alışamayacağım alışamıyorum alışma alışmakta alışmalısın alışmam alışmaya alışmış alışmışsın alışmıştı alışmıştık alışmıştım alışmışım alışsan alıştı alıştık alıştılar alıştım alıştın alıştığım alıştığımız alıştığın alışınca alışır alışırsın alışırsınız alışırım alışıyor alışıyorsun alışıyorum
+67	2267	bahane	bahaneden bahanedir bahaneler bahanelere bahaneleri bahanelerin bahanelerini bahanelerle bahanem bahanemiz bahanen bahaneniz bahanesi bahanesini bahanesiyle bahaneydi bahaneye bahaneyi bahaneyle
+68	2268	oksijen	oksijende oksijenden oksijene oksijeni oksijenim oksijenimiz oksijenin oksijenini oksijenle oksijenleri oksijenli oksijensiz oksijensizlikten
+69	2269	haksız	haksızdı haksızdım haksızsam haksızsın haksızsınız haksızım
+70	2270	yayımlanmak	yayımlanacak yayımlanan yayımlanarak yayımlandı yayımlandığı yayımlanmamış yayımlanmış yayımlanır
+71	2271	elma	elmadan elmalar elmalara elmalardan elmalarla elmaları elmaların elmalarını elmam elmamı elman elmanı elmanın elması elmasın elmasını elmasının elmaya elmayla elmayı
+72	2272	gözlük	gözlükle gözlükler gözlüklerden gözlüklere gözlükleri gözlüklerim gözlüklerimi gözlüklerin gözlüklerinden gözlüklerine gözlüklerini gözlüklerinin gözlükleriniz gözlüklerinizi gözlükleriyle gözlüklerle gözlükten gözlüğe gözlüğü gözlüğüm gözlüğümü gözlüğün gözlüğüne gözlüğünü gözlüğünün gözlüğünüz gözlüğünüzü gözlüğüyle
+73	2273	buçuk	buçukluk buçukta buçuktan buçuğa buçuğu buçuğunda
+74	2274	giyinmek	giyin giyindi giyindik giyindim giyindin giyindiniz giyinebilir giyinebilirsin giyinecek giyineceğim giyinelim giyinen giyinerek giyineyim giyinin giyinip giyinir giyinirdi giyinirim giyinirken giyiniyor giyiniyorlar giyiniyorsun giyiniyorum giyinme giyinmedim giyinmedin giyinmelisin giyinmeliyim giyinmem giyinmemişsin giyinmeye giyinmeyi giyinmiş giyinmişsin giyinmişti giyinmiştim giyinsem giyinsen
+75	2275	bodrum	bodrum'a bodrum'da bodruma bodrumda bodrumdaki bodrumdan bodrumdayım bodrumdayız bodrumu bodrumun bodrumuna bodrumunda bodrumundaki bodrumundan bodrumunu
+76	2276	perşembe	perşembeden perşembeleri perşembesi perşembeydi perşembeye perşembeyi
+77	2277	halt	halta haltlar haltları haltsa halttan haltı haltın
+78	2278	zenci	zenciden zenciler zencilerden zencilere zencileri zencilerin zencilerle zencim zencinin zencisi zencisin zenciydi zenciye zenciyi zenciyim zenciyle
+79	2279	engelli	engelliler engellilere engellilerin engellilik engelliyim
+80	2280	kastetmek	kasteden kastederek kastedilen kastediyor kastediyordu kastediyordum kastediyordun kastediyorlar kastediyorsan kastediyorsanız kastediyorsun kastediyorsunuz kastediyorum kastediyoruz kastetmedi kastetmedim kastetmedin kastetmemiştim kastetmiyor kastetmiyordum kastetmiyorsun kastetmiyorum kastetmiş kastetmişti kastetmiştim kastetmiştin kastetti kastettikleri kastettim kastettin kastettiniz kastettiği kastettiğim kastettiğin kastettiğiniz
+81	2281	katlanmak	katlan katlanabilir katlanabilirim katlanacak katlanacaksın katlanacağım katlanacağız katlanamadım katlanamadığım katlanamam katlanamayacağım katlanamaz katlanamazdım katlanamıyor katlanamıyorsun katlanamıyorum katlanan katlanarak katlandı katlandık katlandım katlandın katlandığım katlandığın katlanma katlanmam katlanmaya katlanmayacağım katlanmış katlanılmaz katlanıp katlanır katlanırsın katlanırsınız katlanırım katlanıyor katlanıyorsun katlanıyorum katlanıyoruz
+82	2282	bütçe	bütçede bütçeden bütçeleri bütçelerini bütçeli bütçem bütçemi bütçemiz bütçemize bütçemizi bütçemizin bütçen bütçeni bütçenin bütçeniz bütçenizi bütçesi bütçesinde bütçesinden bütçesine bütçesini bütçesinin bütçeye bütçeyi bütçeyle
+83	2283	do	dom
+84	2284	aranmak	aran arana aranacak aranacaklar aranan arandı arandım arandığı arandığımız aranma aranmaya aranmaz aranmış aranın aranıp aranır aranırken aranıyor aranıyordu aranıyorlar aranıyormuş aranıyorsun aranıyorsunuz aranıyorum aranıyoruz
+85	2285	fil	filden fildir file filen filenin filesi fileye fili filim filimi filin filini filiz filizi filizler filizleri filler fillerden fillere filleri fillerin fillerle filli
+86	2286	hakaret	hakarete hakareti hakaretin hakaretler hakaretlere hakaretleri hakaretlerin hakaretlerini hakaretten hakaretti hakarettir
+87	2287	baraj	baraja barajda barajdan barajlar barajları barajı barajı'nın barajın barajını barajının
+88	2288	ırk	ırka ırkla ırklar ırklara ırklardan ırklarla ırkları ırkların ırklı ırktan ırktır ırkçıdır ırkçılar ırkçısın ırkçıydı ırkı ırkım ırkımın ırkımız ırkımızı ırkımızın ırkın ırkına ırkından ırkını ırkının ırkız
+89	2289	kıpırda	kıpırdadı kıpırdadığını kıpırdama kıpırdamadan kıpırdamadı kıpırdamak kıpırdamamaya kıpırdamasın kıpırdamaya kıpırdamayı kıpırdamayın kıpırdamaz kıpırdamıyor kıpırdamıyordu kıpırdamıyorum kıpırdanma kıpırdanmayı kıpırdanıp kıpırdarsa kıpırdarsan kıpırdatmadan kıpırdayalım kıpırdayamadım kıpırdayamaz kıpırdayamıyor kıpırdayamıyorum kıpırdayan kıpırdayın kıpırdayıp kıpırdıyor
+90	2290	eddie	
+91	2291	kurtuluş	kurtuluşu
+92	2292	memleket	memlekete memleketi memleketim memleketimde memleketimden memleketime memleketimi memleketimin memleketimiz memleketin memleketinde memleketindeki memleketinden memleketine memleketini memleketinin memleketiniz memleketlerine memlekette memleketteki memleketten
+93	2293	muhalefet	muhalefete muhalefeti muhalefetin muhalefetle muhalefette muhalefetten
+94	2294	burç	burcu burcum burcun burcuna burcunda burcunu burcunun burçlar burçları burçların
+95	2295	sos	sosa sosla soslar sosları soslu sossuz sosta sostan sosu sosum sosumu sosumuz sosun sosuna sosunda sosundan sosunu sosunun sosuyla
+96	2296	önlemek	önle önledi önledik önledim önledin önleme önlemeliyiz önlemeye önlemiş önlenmesi önler önleyebilecek önleyebilir önleyebilirim önleyebiliriz önleyecek önleyeceğiz önleyen önleyip önlüyor
+97	2297	duyurmak	duyur duyuracak duyuracağım duyuracağız duyuralım duyuran duyurdu duyurduk duyurdular duyurdum duyurdun duyurduğu duyurma duyurmalıyız duyurmaya duyurmuş duyuruldu duyurun duyurur duyuruyor duyuruyorum
+98	2298	zemin	zeminde zemindeki zeminden zemine zemini zeminin zemininde zeminindeki zemininden zeminine zeminini zemininin zeminler
+99	2299	binbaşı	binbaşım binbaşının binbaşısı binbaşıya binbaşıyla binbaşıyı
+100	2300	olumsuz	olumsuzdu olumsuzsun

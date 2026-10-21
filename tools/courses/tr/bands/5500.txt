@@ -1,0 +1,100 @@
+1	5401	defne	
+2	5402	ampul	ampule ampuller ampulleri ampulü ampulün
+3	5403	dönenmek	dönen dönene
+4	5404	zırva	zırvadan zırvalar zırvalara zırvalardan zırvalarla zırvaları zırvaların zırvalarına zırvalarından zırvalarını zırvalarıyla zırvalık zırvalıklar zırvalıklara zırvalıklarla zırvalıkları zırvalıklarına zırvalıklarını zırvalığa zırvalığı zırvalığını zırvası zırvasını zırvayı
+5	5405	sürüngen	sürüngene sürüngeni sürüngenin sürüngenler sürüngenlerden sürüngenlere sürüngenleri sürüngenlerin sürüngenlerle
+6	5406	puro	purodan purolar puroları purolarını purom puromu puronun purosu purosunu puroya puroyla puroyu
+7	5407	facia	faciadan facianın faciası faciasında faciasından faciaya faciaydı faciayı
+8	5408	esasen	
+9	5409	oturtmak	oturt oturtacak oturtacağım oturtacağız oturtalım oturtan oturtayım oturtma oturtmalıyız oturtmam oturtmaya oturtmuş oturttu oturttuk oturttular oturttum oturttun oturtun oturtup oturtur oturturum oturtuyor
+10	5410	fiil	fiilin fiiller fiilleri
+11	5411	faik	
+12	5412	aldatma	aldatmadan aldatmam aldatman aldatmanın aldatması aldatmasın aldatmasına aldatmasını aldatmaya aldatmayı
+13	5413	atlas	atlasa atlası atlasın
+14	5414	ipuç	ipucudur ipucum ipucumuz ipucuna ipucundan ipucunun ipucunuz ipucuydu ipucuyla ipuçlarına ipuçlarından ipuçlarını ipuçlarının ipuçlarıyla
+15	5415	cici	cicili
+16	5416	gurup	guruba gurubu gurubumuz gurubun gurubuna gurubunun guruplar
+17	5417	derviş	dervişler
+18	5418	sürünmek	sürün süründü süründüm sürüne sürünecek sürünen sürünerek sürünme sürünmeye sürünmüş sürünün sürünüp sürünür sürünürken sürünüyor sürünüyordu sürünüyorlar sürünüyorsun sürünüyorum
+19	5419	istikamet	istikamete istikameti istikametinde istikametine istikamette
+20	5420	koğuş	koğuşa koğuşlara koğuşlarda koğuşları koğuşta koğuştaki koğuştan koğuşu koğuşun koğuşuna koğuşunda koğuşundaki koğuşundan
+21	5421	hafız	
+22	5422	anneanne	anneannem anneanneme anneannemi anneannemin anneannemle anneannen anneannene anneannenin anneannenle anneannesi anneannesinin
+23	5423	amigo	amigolar amigoları amigoların
+24	5424	istikrarlı	
+25	5425	dinsel	
+26	5426	nazikçe	
+27	5427	üremek	üreme üremeye ürer ürerler üreyen ürüyor ürüyorlar
+28	5428	vaaz	vaaza vaazlar vaazları vaazlarına vaazlarını vaazı vaazın vaazını
+29	5429	sponsorluk	sponsorluğu sponsorluğunda sponsorluğunu
+30	5430	dokunulmazlık	dokunulmazlığı dokunulmazlığım dokunulmazlığın dokunulmazlığını
+31	5431	kazma	kazmam kazmamız kazman kazmanı kazmanın kazması kazmaya kazmayla kazmayı
+32	5432	tencere	tencerede tencereler tencerenin tenceresi tencereye tencereyi
+33	5433	tapu	tapuda tapuları tapulu tapusu tapusunu tapuyu
+34	5434	ekolojik	
+35	5435	turne	turnede turneden turnedeyken turneler turnenin turnesi turnesinde turnesine turnesini turneye turneyi
+36	5436	sıyırmak	sıyır sıyırabilir sıyıracak sıyıracağım sıyıracağını sıyıramayacaksın sıyıramazsın sıyıran sıyırdı sıyırdık sıyırdım sıyırdın sıyırdığını sıyırmasına sıyırmaya sıyırmış sıyırmışsın sıyırmıştı sıyırın sıyırıp sıyırır sıyırıyor
+37	5437	sosyoloji	sosyolojisi
+38	5438	tay	taydı taydım taydın tayken taylar tayı tayım tayını tayız
+39	5439	delege	delegeler delegeleri delegelerin delegesi
+40	5440	acımasızca	
+41	5441	geliştirici	geliştiriciler geliştiricileri geliştiricilerin geliştiricisi
+42	5442	korkusuz	korkusuzdu korkusuzdur korkusuzlar korkusuzsun
+43	5443	harikulade	harikuladesin harikuladeydi
+44	5444	kabalık	kabalıktan kabalığa kabalığı kabalığım kabalığımı kabalığın kabalığını
+45	5445	kozmik	
+46	5446	solmak	sola solacak solan solar soldu solmaya solmayan solmaz solmuş solun solup soluyor soluyordu soluyorlar soluyorsun soluyorum soluyoruz
+47	5447	fevkalade	fevkaladenin fevkaladeydi
+48	5448	gereğince	
+49	5449	ci	ici
+50	5450	altüst	
+51	5451	meyilli	meyillidir meyillidirler meyilliler meyilliydi meyilliyim
+52	5452	objektif	objektife objektifi
+53	5453	akbaba	akbabalar akbabalara akbabaları akbabaların akbabanın akbabası akbabayı
+54	5454	çağlayan	
+55	5455	stok	stoklar stokları stoklarımız stoklarımızı stokların stoklarında stoklarını stoklarının stokta stoku stokumuz stokunu stokçu stoğu
+56	5456	matematiksel	
+57	5457	panda	pandalar pandaları pandanın pandası pandaya pandayı
+58	5458	öksüz	öksüz'ün öksüzler öksüzüm
+59	5459	hassasiyet	hassasiyeti hassasiyetim hassasiyetin hassasiyetine hassasiyetini hassasiyetle
+60	5460	şımarık	şımarıksın
+61	5461	hacettepe	
+62	5462	rizespor	
+63	5463	sabancı	
+64	5464	ınternational	
+65	5465	porto	
+66	5466	sikiş	sikişe sikişi
+67	5467	usanmak	usandı usandık usandım usanmadan usanmış usanmıştım
+68	5468	cola	
+69	5469	joker	jokerler
+70	5470	sonlandırmak	sonlandır sonlandırabilir sonlandırabiliriz sonlandıracak sonlandıracağım sonlandıracağız sonlandıralım sonlandıran sonlandırdı sonlandırdık sonlandırdım sonlandırma sonlandırmalıyız sonlandırmaya sonlandırın sonlandırıp sonlandırır sonlandırıyor sonlandırıyorum sonlandırıyoruz
+71	5471	parametre	parametreler parametreleri parametrelerin parametrelerini parametresi
+72	5472	dirsek	dirsekler dirsekleri dirseklerine dirseklerini dirsekten dirseğe dirseği dirseğim dirseğime dirseğimi dirseğin dirseğinde dirseğinden dirseğine dirseğini
+73	5473	uzlaşma	
+74	5474	bikini	bikiniler bikinili bikinimi bikinini bikiniyi bikiniyle
+75	5475	bilardo	bilardoda
+76	5476	sahra	
+77	5477	birincil	
+78	5478	kesit	kesiti kesitler
+79	5479	sebepsiz	
+80	5480	olta	oltadan oltam oltama oltamı oltana oltanı oltanın oltası oltasına oltaya oltayla oltayı
+81	5481	külliye	külliyenin külliyesi külliyesi'nde
+82	5482	trilyon	trilyonda
+83	5483	nazaran	
+84	5484	kapitalist	kapitalistler
+85	5485	hoparlör	hoparlörde hoparlörden hoparlöre hoparlörler hoparlörlerden hoparlörlere hoparlörleri hoparlörü hoparlörün
+86	5486	entelektüel	entelektüeller
+87	5487	tutulmuş	tutulmuştu tutulmuştum tutulmuştur
+88	5488	alıştırma	alıştırmalar alıştırmaları alıştırmalarını alıştırması alıştırmasını alıştırmaya
+89	5489	yeşim	
+90	5490	sınamak	sına sınadı sınama sınamaya sınar sınayan sınıyor sınıyordum sınıyorsun
+91	5491	akşener	akşener'in
+92	5492	ideolojik	
+93	5493	liv	
+94	5494	şampuan	şampuana şampuanla şampuanı şampuanımı şampuanın şampuanını
+95	5495	bora	
+96	5496	soytarı	soytarılar soytarıları soytarıların soytarının soytarısı soytarıya soytarıyı
+97	5497	motivasyon	motivasyona motivasyonu motivasyonum motivasyonun motivasyonunu
+98	5498	imal	
+99	5499	övmek	öv övdü övdüm övdün öve övecek öven över övme övmeye övmeyi övülmek övün övünülecek övüp övüyor övüyorsun övüyorum
+100	5500	mısırlı	mısırlılar mısırlılara mısırlıların

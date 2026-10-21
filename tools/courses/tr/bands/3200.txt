@@ -1,0 +1,100 @@
+1	3101	üçlü	üçlüden üçlüler üçlünün üçlüsü üçlüsünü üçlüye üçlüyü
+2	3102	garson	garsona garsondan garsondu garsondum garsonla garsonlar garsonlara garsonlardan garsonlarla garsonları garsonların garsonmuş garsonsun garsonu garsonum garsonumuz garsonun garsonunuz
+3	3103	yüzleşmek	yüzleş yüzleşebilir yüzleşebilirim yüzleşecek yüzleşeceksin yüzleşeceksiniz yüzleşeceğim yüzleşeceğiz yüzleşelim yüzleşemedim yüzleşemem yüzleşen yüzleşerek yüzleşin yüzleşince yüzleşip yüzleşir yüzleşiriz yüzleşirken yüzleşirsin yüzleşiyor yüzleşiyorsun yüzleşiyorum yüzleşiyoruz yüzleşme yüzleşmeli yüzleşmelisin yüzleşmeliyim yüzleşmeliyiz yüzleşmem yüzleşmeye yüzleşmiş yüzleşti yüzleştik yüzleştim yüzleştin yüzleştiği yüzleştiğimiz yüzleştiğin
+4	3104	büyükelçi	büyükelçiler büyükelçim büyükelçimiz büyükelçinin büyükelçisi büyükelçisine büyükelçisini büyükelçisinin büyükelçiye büyükelçiyi büyükelçiyle
+5	3105	donmak	dona donacak donacaksın donacağız donan donar donarak donarken donarsın dondu donduk dondum dondun dondurmak donduğu donmaya donmuyor donmuşsun donmuştu donsun donun donup donuyor donuyordu donuyordum donuyorsun donuyorum donuyoruz
+6	3106	kamyonet	kamyonete kamyoneti kamyonetim kamyonetimde kamyonetimden kamyonetime kamyonetimi kamyonetimin kamyonetimiz kamyonetin kamyonetinde kamyonetinden kamyonetine kamyonetini kamyonetinin kamyonetiyle kamyonetle kamyonetler kamyonetleri kamyonetli kamyonette kamyonetteki kamyonetten
+7	3107	gen	geni genin genini geninin geniz genizden genler genlerden genlere genleri genlerim genlerimde genlerimi genlerimiz genlerimizde genlerimizi genlerimizin genlerin genlerinde genlerinden genlerine genlerini genlerinin genleriyle genlerle nemin
+8	3108	buzdolabı	buzdolabına buzdolabında buzdolabından buzdolabını buzdolabının buzdolapları
+9	3109	ısmarlamak	ısmarla ısmarladı ısmarladık ısmarladım ısmarladın ısmarladığı ısmarladığım ısmarladığın ısmarlama ısmarlamadım ısmarlamam ısmarlamama ısmarlamaya ısmarlamayı ısmarlamış ısmarlamıştı ısmarlamıştım ısmarlar ısmarlardım ısmarlarsan ısmarlarsın ısmarlarım ısmarlarız ısmarlasam ısmarlasana ısmarlayabilir ısmarlayabilirim ısmarlayabilirsin ısmarlayacak ısmarlayacaksın ısmarlayacağım ısmarlayalım ısmarlayan ısmarlayayım ısmarlayın ısmarlayıp ısmarlıyor ısmarlıyorsun ısmarlıyorum
+10	3110	islami	
+11	3111	babamla	
+12	3112	mücevher	mücevherat mücevherden mücevhere mücevheri mücevherim mücevherin mücevherini mücevherle mücevherler mücevherlerden mücevherlere mücevherleri mücevherlerim mücevherlerimi mücevherlerin mücevherlerinden mücevherlerine mücevherlerini mücevherlerinin mücevherlerinizi mücevherlerle mücevherli
+13	3113	ayrım	ayrıma ayrımcı ayrımcısı ayrımı ayrımın ayrımına ayrımında ayrımını
+14	3114	sökmek	sök söke sökebilir sökebilirim sökecek sökeceğim sökeceğiz sökelim söken söker sökerek sökerim sökerken sökme sökmem sökmeye sökmez sökmüyor sökmüş sökmüşler söktü söktük söktüler söktüm söktün sökülüp sökün sökünce söküp söküyor söküyorlar söküyorum
+15	3115	sure	surece surede suredir suren suresi suresini suresinin
+16	3116	garaj	garaja garajda garajdaki garajdan garajdaydı garajı garajım garajıma garajımda garajımı garajımın garajımızda garajın garajına garajında garajındaki garajından garajını garajının garajınızda
+17	3117	salata	salatada salatadan salatalar salataları salatalı salatam salatamı salatamız salatan salatanı salatanın salatanız salatası salatasına salatasından salatasını salatasının salatasıyla salataya salatayla salatayı
+18	3118	santral	santralde santralden santrale santrali santralin santralinde santralinden santraline santralini santralinin santraller santralleri
+19	3119	kenarında	
+20	3120	sonuncu	sonuncuda sonuncudan sonuncular sonuncuları sonuncusu sonuncusun sonuncusuna sonuncusunda sonuncusundan sonuncusunu sonuncusunun sonuncusuydu sonuncusuyum sonuncuya sonuncuydu sonuncuyu sonuncuyum
+21	3121	ölçek	ölçeklerde ölçekli ölçekte ölçekteki ölçeğe ölçeği ölçeğinde ölçeğine
+22	3122	cerrahi	cerrahide cerrahiden cerrahinin cerrahisi cerrahisinde cerrahisine cerrahiye cerrahiyi
+23	3123	zil	zilden zili zilimi zilin ziline zilini zilinin ziller zilleri zillerin zillerini
+24	3124	limon	limona limonla limonlar limonları limonlu limonu limonun
+25	3125	tetik	tetikler tetikte tetikteki tetikten tetikteyim tetiğe tetiği tetiğin tetiğini
+26	3126	düşüş	düşüşe düşüşler düşüşte düşüşten düşüşü düşüşümü düşüşün düşüşünden düşüşüne düşüşünü düşüşünün
+27	3127	deyiş	deyişi deyişimle deyişin deyişine deyişini deyişinizle deyişinle deyişiyle deyişle deyişler
+28	3128	galeri	galeride galerideki galeriden galeriler galerilerde galerileri galerim galerimde galerinin galerisi galerisi'nde galerisinde galerisinden galerisine galerisini galerisinin galeriye galeriyi
+29	3129	komutanlık	komutanlıktan komutanlığa komutanlığı komutanlığı'na komutanlığı'nda komutanlığı'nın komutanlığın komutanlığına komutanlığında komutanlığından komutanlığını komutanlığının
+30	3130	titremek	titre titredi titredim titrediği titrediğini titreme titremem titremeye titremeyen titremez titremiyor titremiyorum titrer titrerdi titrerken titreyecek titreyen titreyerek titreyin titreyip titriyor titriyordu titriyordum titriyorlar titriyorsun titriyorsunuz titriyorum
+31	3131	baz	bazan bazda bazında
+32	3132	yasaklamak	yasakladı yasakladılar yasakladım yasakladın yasakladığı yasaklama yasaklamaya yasaklamış yasaklamıştı yasaklamıştım yasaklandı yasaklar yasaklayacak yasaklayan yasaklıyor yasaklıyorum
+33	3133	hesaplamak	hesapla hesapladı hesapladık hesapladım hesapladın hesaplama hesaplamam hesaplamaya hesaplamış hesaplamıştı hesaplamıştım hesaplanır hesaplar hesaplarken hesaplarsak hesaplarım hesaplayabilir hesaplayabilirim hesaplayabiliriz hesaplayacak hesaplayalım hesaplayan hesaplayarak hesaplayayım hesaplayın hesaplayıp hesaplıyor hesaplıyorsun hesaplıyorum
+34	3134	elektrikli	
+35	3135	belirmek	belirdi belirdin belirecek beliren belirip belirir beliriyor belirmeye belirmiş belirmişti belirtilen
+36	3136	ısınmak	ısın ısınacak ısınalım ısınan ısındı ısındıkça ısındım ısındın ısındığı ısındığında ısındığını ısınma ısınmadan ısınmadı ısınmanın ısınması ısınmasına ısınmasını ısınmaya ısınmayla ısınmayı ısınmış ısınmıştı ısınsın ısının ısınınca ısınıp ısınır ısınırken ısınırsa ısınırsın ısınıyor ısınıyordum ısınıyorsun ısınıyorum ısınıyoruz
+37	3137	mesai	mesaide mesaiden mesaideyim mesailer mesaileri mesaim mesaimi mesaimin mesaimiz mesain mesainin mesaisi mesaisinde mesaisine mesaisini mesaiye mesaiyi
+38	3138	öncü	öncüler öncüleri öncülerin öncülerinden öncüsü
+39	3139	roket	rokete roketi roketim roketin roketini roketinin roketle roketler roketlerden roketlere roketleri roketlerin roketlerini roketlerle roketli
+40	3140	akademisyen	akademisyeni akademisyenin akademisyenler akademisyenlere akademisyenleri akademisyenlerin
+41	3141	şafak	şafakla şafakta şafaktan şafağa şafağı şafağın şafağında
+42	3142	uğratmak	uğrat uğratabilir uğratacak uğratacaksın uğratacağım uğratamam uğratamazsın uğratan uğratma uğratmadı uğratmadım uğratmadın uğratmam uğratmaya uğratmayacak uğratmayacaksın uğratmayacağım uğratmayacağız uğratmayın uğratmaz uğratmazsın uğratmış uğratmıştı uğrattı uğrattık uğrattılar uğrattım uğrattın uğrattınız uğrattıysam uğrattığı uğrattığım uğrattığın uğratıp uğratır uğratırsan uğratıyor uğratıyorsun uğratıyorum
+43	3143	steven	
+44	3144	üzüntü	üzüntüden üzüntüler üzüntüleri üzüntülerimi üzüntülerini üzüntülüyüm üzüntüm üzüntümü üzüntümüzü üzüntün üzüntünü üzüntünün üzüntünüzü üzüntüsü üzüntüsünden üzüntüsünü üzüntüye üzüntüyle üzüntüyü
+45	3145	açıklık	açıklıkla açıklıkta açıklıktan açıklığa açıklığı açıklığın açıklığıyla
+46	3146	es	esi eslik essiz esten estirdi estiren estiriyor estiğinde estiğini
+47	3147	belirgin	belirgindi belirgindir
+48	3148	isabet	isabeti isabetli
+49	3149	kürek	kürekle kürekler küreklere kürekleri küreklerini küreklerle kürekli küreğe küreği küreğim küreğin küreğini
+50	3150	hazret	hazreti hazretleri hazretlerine hazretlerini hazretlerinin hazretleriyle
+51	3151	aktivite	aktivitede aktiviteler aktivitelerde aktivitelerden aktivitelere aktiviteleri aktivitelerin aktivitelerinden aktivitelerine aktivitelerini aktivitelerinin aktivitenin aktivitesi aktivitesine aktivitesini aktiviteye aktiviteyi
+52	3152	bilinmek	bilinir bilinmez
+53	3153	faydalı	faydalıdır faydalıydı
+54	3154	kampüs	kampüse kampüste kampüsteki kampüsten kampüsü kampüsü'nde kampüsün kampüsünde
+55	3155	tümör	tümörden tümöre tümörle tümörler tümörleri tümörlerin tümörlü tümörü tümörüm tümörün tümöründen tümörüne tümörünü tümörünün
+56	3156	dayı	dayım dayıma dayımla dayımı dayımın dayın dayına dayınla dayını dayının dayınız dayısı dayısının
+57	3157	neşeli	
+58	3158	amiral	amirale amirali amiralim amiralin amiraller
+59	3159	skor	skora skorla skorlar skorları skoru skorun skorunu
+60	3160	stratejik	
+61	3161	kıyaslamak	kıyasla kıyasladım kıyaslama kıyaslamaya kıyaslanabilir kıyaslanacak kıyaslanamayacak kıyaslanamaz kıyaslandığında kıyaslanınca kıyaslarsak kıyaslarsan kıyaslarsın kıyaslayacak kıyaslayamazsın kıyaslayınca kıyaslıyor kıyaslıyorsun
+62	3162	tutulma	tutulmadan tutulmaları tutulmanın tutulması tutulmasına tutulmasında tutulmasından tutulmasını tutulmasının tutulmaya tutulmayı
+63	3163	devriye	devriyede devriyeden devriyeler devriyelerden devriyelere devriyeleri devriyelerin devriyelerine devriyelerini devriyemiz devriyenin devriyesi devriyesinde devriyesinden devriyesine devriyesini devriyesinin devriyeye devriyeyi
+64	3164	maksimum	maksimuma maksimumda
+65	3165	çadır	çadıra çadırda çadırdaki çadırdan çadırlar çadırlara çadırlarda çadırları çadırların çadırlarını çadırı çadırım çadırıma çadırımda çadırımı çadırımız çadırımızı çadırın çadırına çadırında çadırından çadırını çadırının
+66	3166	zam	zamlar zammı
+67	3167	demokrat	demokratlar demokratlara demokratları demokratların
+68	3168	lezbiyen	lezbiyendi lezbiyendir lezbiyene lezbiyeni lezbiyenim lezbiyenin lezbiyenle lezbiyenler lezbiyenlerden lezbiyenlere lezbiyenleri lezbiyenlerin lezbiyenlerle lezbiyenmiş lezbiyensin lgbti
+69	3169	finansal	
+70	3170	körfez	körfezde körfezdeki körfezden körfeze körfezi körfezi'nde körfezi'ne körfezin körfezinde körfezindeki körfezinden körfezine körfezinin
+71	3171	kapsamlı	
+72	3172	evrim	evrimde evrimden evrime evrimi evrimin evriminde evrimine evrimini evriminin evrimle evrimleşmiş evrimleşti evrimleştiler evrimleştiğini
+73	3173	algı	algılar algıları algılarım algılarını algınlığı algınlığım algınlığına algınlığından algınlığını algısı algısını algısının algıya algıyı
+74	3174	sonuçlanmak	sonuçlanabilir sonuçlanabilirdi sonuçlanacak sonuçlanacağı sonuçlanan sonuçlandı sonuçlandığı sonuçlanmadı sonuçlanmamış sonuçlanmayacak sonuçlanmaz sonuçlanmış sonuçlanmıştı sonuçlansın sonuçlanır sonuçlanırsa sonuçlanıyor
+75	3175	travma	travmada travmadan travmalar travmaları travmanın travması travmasına travmasından travmasını travmasının travmaya travmayla travmayı
+76	3176	muayene	muayenede muayeneden muayeneler muayenem muayenenin muayenesi muayenesinde muayenesinden muayenesine muayenesini muayeneye muayeneyi
+77	3177	soluk	soluklu solukta soluğa soluğu soluğum soluğun soluğunu
+78	3178	genelkurmay	
+79	3179	buhar	buhara buharda buhardan buharla buharlar buharlı buharlısı buharı buharın buharını
+80	3180	gözetlemek	gözetle gözetledim gözetledin gözetlediği gözetlediğini gözetleme gözetlemede gözetlemekten gözetlemem gözetlemenin gözetlemesi gözetlemeye gözetlemeyi gözetlemiyordum gözetlemiyorum gözetlemiş gözetleniyor gözetler gözetlerim gözetlerken gözetleyecek gözetleyeceksin gözetleyeceğim gözetleyeceğiz gözetleyen gözetleyerek gözetleyin gözetleyip gözetliyor gözetliyordu gözetliyorduk gözetliyordum gözetliyordun gözetliyorlar gözetliyormuş gözetliyorsun gözetliyorsunuz gözetliyorum gözetliyoruz
+81	3181	infaz	infaza infazcı infazcısı infazdan infazlar infazları infazı infazın infazına infazını
+82	3182	sıklıkla	
+83	3183	kazmak	kazabilir kazabiliriz kazacak kazacaksın kazacağım kazacağız kazalım kazar kazarak kazarken kazarlar kazarsın kazarım kazarız kazaydı kazaymış kazayım kazdı kazdık kazdıkları kazdılar kazdım kazdın kazdığı kazdığım kazdığımız kazdığın kazmalıyız kazmaya kazmış kazmışlar kazınmış kazıp kazıyor kazıyordu kazıyorlar kazıyorsun kazıyorum kazıyoruz
+84	3184	askı	askıda askıdan askılar askıları askılarını askılı askılık askına askısı askısına askısını askısıyla askısız askıya askıyı
+85	3185	kuzu	kuzucuk kuzucuğum kuzular kuzuları kuzuların kuzum kuzunun kuzusu kuzuya kuzuyla kuzuyu
+86	3186	konut	konuta konutlandırma konutlar konutlara konutlarda konutları konutların konutta konutu konutuna konutunda
+87	3187	şövalye	şövalyeler şövalyelerden şövalyelere şövalyeleri şövalyelerim şövalyelerin şövalyelerinin şövalyem şövalyenin şövalyesi şövalyesin şövalyesini şövalyesinin şövalyeye şövalyeyi şövalyeyim
+88	3188	korkutucu	korkutucudur korkutucular korkutucusun korkutucuydu korkutucuymuş
+89	3189	cüce	cüceden cüceler cücelerden cücelere cüceleri cücelerin cücelerle cücenin cücesi cücesin cüceydi cüceye cüceyi cüceyle
+90	3190	aldırmak	aldır aldırabilir aldırabilirim aldıracak aldıracağım aldıralım aldıran aldırayım aldırdı aldırdım aldırdın aldırdığı aldırdığın aldırma aldırmadı aldırmadım aldırmam aldırmamak aldırmaya aldırmayacağım aldırmayan aldırmayın aldırmaz aldırmazdım aldırmazlar aldırmazsan aldırmazsın aldırmazsınız aldırmıyor aldırmıyorsun aldırmıyorum aldırmış aldırın aldırıp aldırır aldırırım aldırırız aldırıyor aldırıyorum
+91	3191	valilik	valilikten valiliğe valiliği valiliği'ne valiliğin valiliğine
+92	3192	dahası	dahasını
+93	3193	havlu	havlular havlulara havlulardan havluları havluların havlularını havlum havlumu havlumuz havlun havlunu havlunun havlunuz havlusu havlusunu havluya havluyla havluyu
+94	3194	formül	formülle formüller formülleri formülü formülüm formülün formülünü formülünün
+95	3195	yapışmak	yapış yapışacak yapışacağım yapışan yapışarak yapışma yapışmadan yapışması yapışmasını yapışmaz yapışmıyor yapışmış yapışmışlar yapışmıştı yapışsın yapıştı yapıştım yapıştın yapıştırması yapıştırmayı yapıştırılmış yapıştığı yapıştığını yapışın yapışıp yapışır yapışırlar yapışıyor yapışıyorlar yapışıyorsun
+96	3196	müttefik	müttefike müttefiki müttefikim müttefikimiz müttefikin müttefikiniz müttefikiz müttefikler müttefiklere müttefikleri müttefiklerim müttefiklerimiz müttefiklerimize müttefiklerimizi müttefiklerimizin müttefiklerin müttefiklerinden müttefiklerine müttefiklerini müttefiklerinin müttefiklerle müttefiklik
+97	3197	mekanik	mekanikler mekanikleri mekaniği mekaniğini mekaniğinin
+98	3198	ertelemek	ertele erteledi erteledik ertelediler erteledim erteledin ertelediğim erteleme ertelemeliyiz ertelemem ertelemeye ertelemiş ertelendi erteler ertelerim erteleriz ertelersek ertelesek erteleyebilir erteleyebilirim erteleyebiliriz erteleyebilirsin erteleyecek erteleyeceğim erteleyeceğiz erteleyelim erteleyemem erteleyemeyiz erteleyemez erteleyemezsin erteleyin erteleyip erteliyor erteliyorsun erteliyorum erteliyoruz
+99	3199	zeynep	zeynep'in
+100	3200	manevi	manevî

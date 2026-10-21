@@ -1,0 +1,100 @@
+1	4501	kehanet	kehanete kehaneti kehanetin kehanetinde kehanetini kehanetinin kehanetler kehanetlerde kehanetlere kehanetleri kehanetlerin kehanetlerini kehanette kehanetteki kehanetten
+2	4502	sakso	sakson saksoya saksoyu
+3	4503	flaş	flaşlar flaşı
+4	4504	boris	
+5	4505	sıkıca	
+6	4506	dikey	dikeyim
+7	4507	reçete	reçeteler reçeteleri reçetelerini reçeteli reçetem reçetemi reçeten reçeteni reçeteniz reçetesi reçetesini reçeteye reçeteyi reçeteyle
+8	4508	donmuş	
+9	4509	âlem	âlemde âleme âlemi âlemin âleminde âlemine âleminin âlemlerin
+10	4510	odtü	odtü'de
+11	4511	yabani	yabaniler yabanilerin
+12	4512	kast	
+13	4513	pilav	pilava pilavdan pilavla pilavlı pilavı pilavın
+14	4514	entegre	
+15	4515	baki	bakim bakin bakiyim
+16	4516	tsk	tsk'dan tsk'ya
+17	4517	sonsuzluk	sonsuzlukta sonsuzluktan sonsuzluğa sonsuzluğu sonsuzluğun
+18	4518	horoz	horoza horozla horozlar horozları horozu horozum horozun horozunu
+19	4519	fail	faili failimiz failin failini failler failleri faillerin
+20	4520	antika	antikadır antikalar antikalara antikalarla antikaları antikaların antikayı
+21	4521	dolandırıcı	dolandırıcıdır dolandırıcılar dolandırıcılara dolandırıcıları dolandırıcıların dolandırıcının dolandırıcısı dolandırıcıya dolandırıcıydı dolandırıcıymış dolandırıcıyı dolandırıcıyım
+22	4522	birikim	birikimi birikimim birikimimi birikimimiz birikimin birikimine birikimini birikimleri birikimlerim birikimlerimi birikimlerimizi birikimlerini birikimli
+23	4523	yıkıcı	yıkıcıdır yıkıcıydı
+24	4524	binali	
+25	4525	inat	inada inadı inadına inadından inadını inatla inatçılar inatçının
+26	4526	ejder	ejdere ejderi ejderin ejderinin ejderle ejderler ejderleri ejderlerin
+27	4527	tc	
+28	4528	basitçe	
+29	4529	rivayet	rivayete rivayetler
+30	4530	afiş	afişe afişi afişin afişini afişler afişlerde afişleri afişlerini afişte
+31	4531	kanuni	kanuni'nin
+32	4532	fıkra	fıkralar fıkraları fıkram fıkranın fıkrası fıkrasına fıkrasını fıkrayı
+33	4533	nilüfer	nilüferler
+34	4534	kompleks	komplekse kompleksi kompleksim kompleksin kompleksine kompleksini kompleksinin kompleksleri kompleksli
+35	4535	börek	börekler böreklerden börekleri böreklerini böreği böreğin böreğini
+36	4536	cazibe	cazibem cazibeme cazibemi cazibemin caziben cazibene cazibeni cazibenin cazibenle cazibesi cazibesinden cazibesine cazibesini cazibesinin cazibesiyle cazibeye cazibeyi cazibeyle
+37	4537	yasemin	
+38	4538	lale	laleler laleleri lalesi
+39	4539	geçenlerde	
+40	4540	vaz	
+41	4541	babalık	babalıktan babalığa babalığı babalığın
+42	4542	karmaşa	karmaşada karmaşadan karmaşanın karmaşası karmaşasında karmaşasından karmaşasını karmaşaya karmaşaydı karmaşayla karmaşayı
+43	4543	reel	
+44	4544	yenik	yeniği
+45	4545	eylemek	eyle eyledi eyleme eyler eylesin
+46	4546	çakal	çakala çakallar çakallara çakallardan çakallarla çakalları çakalların çakallık çakalı çakalım çakalın
+47	4547	izah	izahı
+48	4548	kaçakçılık	kaçakçılıkla kaçakçılıktan kaçakçılığa kaçakçılığı kaçakçılığına kaçakçılığında kaçakçılığından kaçakçılığını kaçakçılığının kaçakçılığıyla
+49	4549	talihsiz	talihsizce
+50	4550	filtre	filtreden filtreler filtreleri filtrelerini filtreli filtresi filtresini filtreyi
+51	4551	düşmanlık	düşmanlıklar düşmanlıkları düşmanlıktan düşmanlığı
+52	4552	freddie	
+53	4553	gürültülü	
+54	4554	güneşli	
+55	4555	timsah	timsaha timsahla timsahlar timsahlara timsahlarla timsahları timsahların timsahı timsahın
+56	4556	yanak	yanaklar yanaklara yanakları yanaklarım yanaklarıma yanaklarımı yanakların yanaklarına yanaklarında yanaklarındaki yanaklarından yanaklarını yanaklarının yanaktan yanağa yanağı yanağıma yanağımda yanağımdan yanağımı yanağın yanağına yanağında yanağındaki yanağından yanağını yanağının yanağınızı
+57	4557	sefil	sefili sefilin sefilleri
+58	4558	enflasyon	enflasyona enflasyonu enflasyonun
+59	4559	şelale	şelalede şelaleden şelaleler şelaleleri şelalenin şelalesi şelalesine şelaleye şelaleyi
+60	4560	dayamak	daya dayadı dayadılar dayadım dayadın dayadığın dayadığında dayadığını dayama dayamış dayamıştı dayar dayatma dayatmak dayatılan dayayan dayayarak dayayın dayayıp dayıyor
+61	4561	sütun	sütuna sütunda sütunlar sütunlara sütunları sütunların sütunu sütunun sütununa sütununu
+62	4562	cumhuriyetçi	cumhuriyetçiler cumhuriyetçilere cumhuriyetçileri cumhuriyetçilerin cumhuriyetçiyim
+63	4563	meğer	
+64	4564	kasten	
+65	4565	ziyan	ziyanı
+66	4566	gerilmek	geril gerildi gerildik gerildim gerildin gerildiği gerilecek gerilemeye gerilemiştir gerilen gerilince gerilip gerilir geriliyor geriliyorsun geriliyorum gerilme gerilmeye gerilmiş gerilmişsin gerilmişti gerilmiştim
+67	4567	alkolik	alkolikle alkolikler alkoliklere alkoliklerin alkolikmiş alkoliksin alkolikti alkoliktir alkoliğim alkoliğin
+68	4568	sekizinci	
+69	4569	süslemek	süsle süsledim süsleme süslemeli süslemeye süslemiş süslenmek süslenmiş süsler süsleriz süsleyecek süsleyeceğiz süsleyelim süsleyen süsleyerek süsleyin süsleyip süslüyor
+70	4570	köşk	köşke köşkler köşkte köşkü köşkü'nde köşkün köşkünde köşkünden köşküne köşkünü köşkünün
+71	4571	salt	
+72	4572	mızrak	mızrakla mızraklar mızraklarla mızrakları mızraklarını mızrağa mızrağı mızrağımı mızrağın mızrağını
+73	4573	afet	afete afeti afetin afetler
+74	4574	sakatlık	sakatlıklar sakatlığı
+75	4575	sığmak	sığabilecek sığabileceği sığabilir sığacak sığacağı sığan sığar sığarız sığdı sığmadı sığmam sığmayacak sığmayan sığmaz sığmazdı sığmıyor sığsın sığıyor
+76	4576	faydalanmak	faydalan faydalanabilir faydalanabilirim faydalanabiliriz faydalanabilirsin faydalanacak faydalanacağım faydalanalım faydalanan faydalanarak faydalandı faydalandım faydalandın faydalanma faydalanmalıyız faydalanmaya faydalanmayı faydalanmış faydalanın faydalanıp faydalanır faydalanıyor faydalanıyorlar faydalanıyorsun faydalanıyorum
+77	4577	imzalı	
+78	4578	hortum	hortuma hortumdan hortumla hortumlar hortumları hortumlarını hortumu hortumun hortumuna hortumunu hortumunun hortumuyla
+79	4579	klaus	
+80	4580	daimi	
+81	4581	yoğurt	yoğurda yoğurdu yoğurdun yoğurdunu yoğurtla yoğurttan
+82	4582	kötüleşmek	kötüleşebilir kötüleşecek kötüleşen kötüleşince kötüleşir kötüleşirse kötüleşiyor kötüleşiyordu kötüleşme kötüleşmeye kötüleşmiş kötüleşmişti kötüleşti kötüleştiği
+83	4583	yalın	
+84	4584	yanlışlık	yanlışlıklar yanlışlığı
+85	4585	eczane	eczanede eczanedeki eczaneden eczaneler eczanelerde eczanenin eczanesi eczaneye eczaneyi
+86	4586	bronz	bronzdan bronzlaşma bronzlaşmak bronzlaşmaya bronzlaşmış bronzlaşmışsın bronzlaştırıcı
+87	4587	esmek	ese esecek eserdi eserim eserken eserler eserse esince esip esiyor esiyordu esme esmeye essen essin esti estikçe estiği
+88	4588	kısıtlı	
+89	4589	husus	hususlar hususta hususu hususunda hususundaki
+90	4590	beceriksiz	beceriksizce beceriksizdi beceriksizdir beceriksizim beceriksizin beceriksizler beceriksizsin beceriksizsiniz
+91	4591	isimsiz	isimsizler
+92	4592	döviz	
+93	4593	balayı	balayına balayında balayından balayını balayının
+94	4594	gerginlik	gerginlikler gerginlikten gerginliğe gerginliği gerginliğin
+95	4595	vajina	vajinada vajinadan vajinalar vajinaları vajinalı vajinam vajinama vajinamdan vajinamı vajinamın vajinan vajinandan vajinanın vajinası vajinasına vajinasında vajinasından vajinasını vajinasının vajinaya vajinayla vajinayı
+96	4596	utangaç	utangacım utangacımdır utangaçlar utangaçtı utangaçtım utangaçtır
+97	4597	güya	
+98	4598	sharon	
+99	4599	andre	
+100	4600	esnek	esnektir

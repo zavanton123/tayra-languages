@@ -1,0 +1,100 @@
+1	4401	senet	senede senedi senedin senedini senetler senetleri senetlerin senetlerine senetlerini senetlerinin senettir
+2	4402	nemli	
+3	4403	hüzünlü	hüzünlüyüm
+4	4404	muhasebe	muhasebede muhasebedeki muhasebeden muhasebesi muhasebesini muhasebeye muhasebeyi
+5	4405	cezasına	
+6	4406	atv	atv'de
+7	4407	çip	çipe çipi çipin çipine çipini çipinin çiple çipler çipleri çiplerin çiplerini çipli çipte
+8	4408	blair	
+9	4409	dram	dramı dramın
+10	4410	mikro	
+11	4411	mermer	mermerden mermere mermeri mermerin
+12	4412	telaş	talaş talaşı telaşa telaşla telaştan telaşı telaşın
+13	4413	öğüt	öğüdü öğüdüm öğüdümü öğüdünü öğütler öğütleri öğütlerini öğütülmüş
+14	4414	terapist	terapiste terapisti terapistim terapistime terapistimi terapistimin terapistimiz terapistimle terapistin terapistine terapistini terapistinin terapistiyim terapistiyle terapistle terapistler terapistleri terapistlerin terapistsin
+15	4415	yıldızlı	
+16	4416	animasyon	animasyonlar animasyonu
+17	4417	seda	sedan
+18	4418	emeklilik	
+19	4419	berk	berke berkin
+20	4420	hasret	hasreti hasretim hasretini hasretiyle hasretle
+21	4421	kısıtlamak	kısıtlama kısıtlamalar kısıtlamaları kısıtlaması kısıtlamaya kısıtlanması kısıtlar kısıtlayan kısıtlıyor
+22	4422	sanatsal	
+23	4423	canlanmak	canlan canlanacak canlanalım canlanan canlandı canlandım canlandırılması canlanma canlanmaya canlanmış canlansın canlanın canlanıp canlanır canlanıyor
+24	4424	küpe	küpeler küpelere küpeleri küpelerim küpelerimi küpelerin küpelerini küpem küpemi küpen küpeni küpenin küpesi küpesini küpeyi
+25	4425	koşarak	
+26	4426	bıyık	bıyıkla bıyıklar bıyıkları bıyıklarım bıyıklarımı bıyıkların bıyıklarını bıyıktan bıyığa bıyığı bıyığım bıyığımı bıyığın bıyığına bıyığını bıyığının
+27	4427	bereket	bereketi bereketini
+28	4428	ece	ecem
+29	4429	far	fara farlar farları farların farlarını farlı farı
+30	4430	vaziyet	vaziyete vaziyeti vaziyetin vaziyetini vaziyette vaziyettesin vaziyetteydi vaziyetteyim vaziyetteyiz vaziyetteyken
+31	4431	ayık	ayıkken ayıksın ayıktı ayıktım ayığım
+32	4432	fenomen	fenomene fenomeni fenomenin fenomenler fenomenleri
+33	4433	chan	
+34	4434	sızıntı	sızıntıdan sızıntılar sızıntıları sızıntının sızıntısı sızıntısına sızıntısından sızıntısını sızıntısının sızıntıya sızıntıyı
+35	4435	sörf	sörfe sörfü sörfün
+36	4436	anormal	anormaller anormalleri
+37	4437	yargılama	yargılamayı
+38	4438	kumsal	kumsala kumsalda kumsaldaki kumsaldan kumsallar kumsallarda kumsalları kumsalı kumsalın kumsalında
+39	4439	vefa	vefalı
+40	4440	rutin	rutine rutini rutinim rutinimi rutinin rutinine rutinini rutinleri rutinlerini
+41	4441	turta	turtadan turtalar turtaları turtaların turtam turtanın turtası turtasını turtaya turtayı
+42	4442	hasat	hasada hasadı hasattan
+43	4443	aracılık	aracılığı aracılığımla aracılığınla
+44	4444	kase	kasede kaseden kaseler kaseleri kasem kasenin kasesi kasesine kasesini kasesinin kaseye kaseyi
+45	4445	tost	tostu tostun tostunu
+46	4446	tekmelemek	tekmele tekmeledi tekmeledik tekmelediler tekmeledim tekmeledin tekmelediğim tekmelediğini tekmeleme tekmelemeden tekmelemem tekmelemeye tekmelemeyi tekmelemiş tekmelendi tekmelenmiş tekmeler tekmelerdim tekmelerim tekmeleriz tekmelerken tekmelerler tekmeleyebilir tekmeleyebilirim tekmeleyecek tekmeleyeceksin tekmeleyeceğim tekmeleyeceğiz tekmeleyelim tekmeleyen tekmeleyerek tekmeleyeyim tekmeleyin tekmeleyip tekmeliyor tekmeliyordu tekmeliyorsun tekmeliyorum
+47	4447	yakınlaşmak	yakınlaş yakınlaşabilir yakınlaşma yakınlaşmam yakınlaşmaya yakınlaşmış yakınlaşmıştık yakınlaştı yakınlaştık yakınlaştıkça yakınlaştılar yakınlaştım yakınlaştın yakınlaştınız yakınlaştır yakınlaştırabilir yakınlaştıracak yakınlaştıran yakınlaştırdı yakınlaştırma yakınlaştırmak yakınlaştırır yakınlaştırıyor yakınlaşın yakınlaşıp yakınlaşır yakınlaşıyor yakınlaşıyorum yakınlaşıyoruz
+48	4448	kurtarıcı	kurtarıcılar kurtarıcıları kurtarıcım kurtarıcımız kurtarıcımızın kurtarıcın kurtarıcının kurtarıcınız kurtarıcısı kurtarıcısın kurtarıcıya kurtarıcıyı
+49	4449	master	
+50	4450	insanoğlu	
+51	4451	anneciğim	
+52	4452	yapıştırmak	yapıştır yapıştıracak yapıştıracağım yapıştıralım yapıştıran yapıştırarak yapıştırayım yapıştırdı yapıştırdım yapıştırdın yapıştırdığın yapıştırma yapıştırmam yapıştırmaya yapıştırmış yapıştırmışlar yapıştırmışsın yapıştırmıştı yapıştırmıştım yapıştırın yapıştırıp yapıştırır yapıştırırım yapıştırıyor yapıştırıyorlar yapıştırıyorsun yapıştırıyorum
+53	4453	vagon	vagona vagonda vagondaki vagondan vagonlar vagonlara vagonlarda vagonları vagonların vagonu vagonun vagonuna vagonunda vagonundan vagonunu vagonunun
+54	4454	casusluk	casuslukla casusluktan casusluğa casusluğu casusluğun
+55	4455	dengesiz	
+56	4456	benzerlik	benzerliği
+57	4457	yelek	yelekle yelekler yelekleri yeleklerini yeleklerinizi yelekli yeleğe yeleği yeleğim yeleğime yeleğimi yeleğin yeleğinden yeleğine yeleğini yeleğinin
+58	4458	ikamet	
+59	4459	bitkisel	
+60	4460	tapmak	tap tapa tapacak tapan tapanlar tapar taparcasına tapardı tapardım taparlar taparım tapma tapmaya taptım taptığı taptığım taptığını tapılacak tapılası tapıyor tapıyordu tapıyordum tapıyorlar tapıyorlardı tapıyorsun tapıyorum tapıyoruz
+61	4461	tasfiye	tasfiyesi
+62	4462	vade	vadede vadeden vadem vaden vadesi vadesini vadesiz
+63	4463	kutsamak	kutsa kutsadı kutsadığı kutsama kutsamaya kutsamış kutsanmak kutsanmış kutsar kutsasın kutsayacak kutsayan kutsayın kutsuyor kutsuyorum
+64	4464	kerem	
+65	4465	lake	laken
+66	4466	mülkiyet	mülkiyete mülkiyeti mülkiyetin mülkiyetine mülkiyetini
+67	4467	harap	
+68	4468	gökçe	gökçen
+69	4469	heves	hevesi hevesim hevesimi hevesin hevesine hevesini hevesinizi hevesle hevesleri heveslerini hevesti
+70	4470	iştah	iştahla iştahları iştahlı iştahı iştahım iştahımı iştahın iştahını iştahınız iştahınızı
+71	4471	eyvah	
+72	4472	bariz	barizdi
+73	4473	hokey	hokeyde hokeyden hokeye hokeyi
+74	4474	siyahi	siyahiler siyahileri siyahilerin siyahiyim
+75	4475	kronik	
+76	4476	hans	
+77	4477	keşiş	keşişe keşişi keşişim keşişin keşişler keşişlerden keşişlere keşişleri keşişlerin keşişlerle
+78	4478	atamak	atadı atadılar atadım atadığı atamadı atamam atamaya atamayız atamaz atamazsın atamazsınız atamıyorum atamış atanmak atar atardı atardım atarken atarlar atarsa atarsam atarsan atarsanız atarsın atarsınız atarım atarız atayacak atayacağım atıyor atıyordu atıyordum atıyordun atıyorlar atıyorlardı atıyorsun atıyorsunuz atıyorum atıyoruz
+79	4479	baron	barona baronla baronlar baronları baronu baronum baronun
+80	4480	denklem	denklemde denklemden denkleme denklemi denklemin denklemini denkleminin denklemler denklemleri denklemlerin
+81	4481	mikrop	mikrobu mikrobun mikroplar mikroplara mikroplardan mikroplarla mikropları mikropların mikroplu mikroptan
+82	4482	operatör	operatöre operatörler operatörleri operatörü operatörün operatörüne
+83	4483	gülüş	gülüşe gülüşler gülüşleri gülüşlerini gülüşmeler gülüşü gülüşüm gülüşümü gülüşün gülüşünde gülüşünden gülüşüne gülüşünü gülüşünün gülüşünüz
+84	4484	şaşmak	şaş şaşalı şaşar şaşardım şaşardın şaşarsın şaşarsınız şaşarım şaşma şaşmadım şaşmam şaşmamak şaşmamalı şaşmıyorum şaşmış şaştı şaştım şaşıp şaşıyorum
+85	4485	sahtekar	sahtekara sahtekardan sahtekardı sahtekarlar sahtekarları sahtekarsın sahtekarsınız sahtekarı sahtekarım sahtekarın
+86	4486	haberci	haberciler habercilere habercileri habercilerin habercinin habercisi habercisidir habercisiydi haberciyi haberciyim
+87	4487	derya	
+88	4488	esad	esad'a esad'ın
+89	4489	tesadüfen	
+90	4490	staj	staja stajı stajım stajımı stajın stajını
+91	4491	hastalanmak	hastalanabilir hastalanacak hastalanacaksın hastalanacağım hastalanan hastalandı hastalandım hastalandın hastalandığı hastalandığım hastalandığında hastalanma hastalanmadı hastalanmadım hastalanmam hastalanmaya hastalanmaz hastalanmış hastalanmıştı hastalanmıştım hastalanınca hastalanıp hastalanır hastalanırsa hastalanırsam hastalanırsan hastalanırsın hastalanıyor hastalanıyorum
+92	4492	nimet	nimeti nimetini nimetler nimetlerden nimetlere nimetleri nimetlerin nimetlerinden nimetlerini nimettir
+93	4493	gezinti	gezintiden gezintiler gezintinin gezintisi gezintisine gezintiye gezintiyi
+94	4494	efekt	efekti efektler efektleri efektlerini efektlerle
+95	4495	soğutmak	soğut soğutacak soğutan soğutma soğutmadan soğutmalı soğutmaya soğuttu soğutulmuş soğutur soğutuyor
+96	4496	motel	motelde moteldeki motelden motele moteli motelin motelinde moteline moteller motellerde motelleri
+97	4497	günlerce	
+98	4498	dolma	dolmadan dolması dolmasına dolmasını dolmaya
+99	4499	benlik	benliği benliğim benliğime benliğimi benliğimin benliğimizi benliğimle benliğin benliğinden benliğine benliğini benliğinin benliğinizi benliğinle benliğiyle
+100	4500	tolga	

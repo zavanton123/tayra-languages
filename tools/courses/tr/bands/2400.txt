@@ -1,0 +1,100 @@
+1	2301	dövme	dövmede dövmeden dövmeler dövmelerden dövmelere dövmeleri dövmelerimi dövmelerin dövmelerine dövmelerini dövmelerinin dövmem dövmeme dövmemi dövmen dövmene dövmeni dövmenin dövmeniz dövmesi dövmesinden dövmesine dövmesini dövmesinin dövmeye dövmeyi
+2	2302	fakir	fakirdi fakirdik fakirdim fakirdir fakire fakiri fakirim fakirin fakiriz fakirler fakirlerden fakirlere fakirleri fakirlerin fakirlerle fakirsin fukara
+3	2303	kırıklık	kırıklığına
+4	2304	teşhis	teşhise teşhisi teşhisim teşhisimi teşhisin teşhisine teşhisini teşhisiniz teşhisiyle teşhisler teşhisleri teşhiste
+5	2305	zehir	zehirden zehirdi zehirdir zehirler zehirlerden zehirlere zehirleri zehirlerin zehirlidir zehirliydi zehirliymiş zehre zehri zehrin zehrinden zehrine zehrini zehrinin zehriyle
+6	2306	taban	tabana tabanda tabandan tabanlar tabanları tabanlarına tabanlarında tabanlarını tabanı tabanımız tabanımızda tabanın tabanına tabanında tabanındaki tabanından tabanını tabanının tabanıyla
+7	2307	dalmak	dala dalacak dalacaksın dalacağım dalacağız dalalım dalamazsın dalan dalar dalarak dalardım dalarken dalarsın dalarım dalarız daldı daldık daldılar daldım daldın daldınız daldığı daldığım dalma dalmam dalmaya dalmış dalmışsın dalmıştı dalmıştım dalmışım dalın dalınca dalıp dalıyor dalıyorlar dalıyorsun dalıyorum dalıyoruz
+8	2308	gizlice	
+9	2309	dostluk	dostlukla dostluklar dostlukları dostluklarını dostluktan dostluğa dostluğu dostluğum dostluğumu dostluğumuz dostluğumuza dostluğumuzu dostluğumuzun dostluğun dostluğuna dostluğundan dostluğunu dostluğunun dostluğunuz dostluğunuzu
+10	2310	ortalık	ortalığı
+11	2311	rehin	rehinci rehinciye rehine rehineci rehineler rehinelerden rehinelere rehineleri rehinelerimiz rehinelerin rehinelerle rehinem rehinemiz rehinen rehinenin rehinesi rehineye rehineyi rehineyim rehineyle
+12	2312	karış	karışacağını karışmadan karışmadığını karışmaktan karışmamanı karışmaması karışmamasını karışmamı karışmanı karışması karışmasına karışmasından karışmasını karışmayı karışmıştır karıştıracağını karıştırdığımı karıştırdığını karıştırmadan karıştırmaktan karıştırman karıştırmanın karıştırması karıştırmasına karıştırmasını karıştırmayı karıştırmıştır karıştırılarak karıştırılmış karıştırılır karıştığımı karıştığına karıştığında karıştığından karıştığını karışıma karışımı karışımın karışını
+13	2313	zorluk	zorluklar zorluklara zorluklardan zorlukları zorlukların zorlukta zorluktan zorluğa zorluğu zorluğun
+14	2314	mimar	mimara mimardı mimarla mimarlar mimarları mimarların mimarlarından mimarı mimarım mimarın
+15	2315	ted	
+16	2316	gecikmek	gecikebilir gecikebilirim gecikecek gecikecekmiş gecikeceksin gecikeceğim gecikeceğiz geciken gecikince gecikir gecikirim gecikirse gecikirsek gecikirsem gecikirsen gecikiyor gecikiyorsun gecikiyorum gecikiyoruz gecikmedi gecikmedim gecikmedin gecikmeli gecikmeyin gecikmez gecikmiş gecikmişsin gecikmişti gecikmiştim gecikti geciktik geciktiler geciktim geciktin geciktiniz geciktiği geciktiğim geciktiğimiz geciktiğini
+17	2317	gömmek	göm gömdü gömdük gömdükleri gömdüler gömdüm gömdün gömdünüz gömdüğü gömdüğüm gömdüğümüz gömdüğün gömebilir gömebiliriz gömecek gömecekler gömeceksin gömeceğim gömeceğiz gömelim gömen gömer gömerek gömeyim gömme gömmeliyiz gömmem gömmeye gömmüş gömmüşler gömmüştüm gömüldü gömün gömüp gömüyor gömüyorlar gömüyorsun gömüyorum gömüyoruz
+18	2318	sarışın	sarışına sarışından sarışındı sarışınla sarışınlar sarışınlara sarışınlardan sarışınlarla sarışınları sarışını sarışınım sarışının
+19	2319	görsel	görselde görseli görseller görselleri görsellik
+20	2320	hacı	hacılar hacıları hacıların hacım
+21	2321	öbür	öbürleri öbürlerini öbürü öbürüne öbürünü öbürünün
+22	2322	akp	akp'den akp'ye
+23	2323	korkak	korkaklar korkaklara korkaklardan korkaklarla korkakları korkakların korkakmış korkaksın korkaksınız korkaktan korkaktı korkaktım korkaktır korkağa korkağı korkağım korkağın korkağız
+24	2324	hatıra	hatıradan hatıralar hatıralara hatıralardan hatıralarla hatıraları hatıralarım hatıralarımda hatıralarımdan hatıralarımı hatıralarımız hatıralarımızı hatıraların hatıralarına hatıralarında hatıralarından hatıralarını hatıralarının hatıralarıyla hatıralık hatıram hatıran hatıranın hatırası hatırasına hatırasını hatıraya hatırayı
+25	2325	yem	yemdi yeme yemeden yemeleri yemelerine yemelerini yemem yememi yememin yememiz yememize yememizi yemen yemene yemeni yemenin yemeniz yemenize yemenizi yemesi yemesinden yemesine yemesini yemeye yemeyi yemi yemim yemimiz yeminden yemine yemini yeminin yemle yemlemek yemler yemleri yemlerini yemliyor yemsin
+26	2326	benimki	benimkide benimkidir benimkisi benimkiydi benimkiyse
+27	2327	hile	hileden hiledir hileler hilelere hileleri hilelerin hilelerinden hilelerine hilelerini hilelerle hileliydi hilenin hilesi hilesidir hilesini hileydi hileye hileyi hileyle
+28	2328	madalya	madalyalar madalyaları madalyaların madalyalarını madalyalı madalyam madalyamı madalyan madalyanı madalyanın madalyası madalyasını madalyasıyla madalyaya madalyayla madalyayı
+29	2329	pembe	pembeler pembeli pembenin pembesi pembeydi pembeye pembeyi pespembe
+30	2330	inek	inekle inekler ineklerden ineklere inekleri ineklerin ineklerini ineklerle ineksin inekten inekti inekçe ineğe ineği ineğim ineğimiz ineğin ineğini
+31	2331	trabzonspor	trabzonspor'a trabzonspor'da trabzonspor'dan trabzonspor'u trabzonspor'un trabzonsporlu
+32	2332	politik	
+33	2333	talimat	talimata talimatla talimatlar talimatlara talimatlarla talimatları talimatlarım talimatlarıma talimatlarımı talimatlarımızı talimatların talimatlarına talimatlarını talimatlarınız talimatlarınızı talimatı talimatına talimatını talimatıyla
+34	2334	porno	pornocu pornoda pornodan pornolar pornolarda pornoları pornolarını pornonun pornosu pornosuna pornosunu pornoya pornoyla pornoyu
+35	2335	trt	trt'de trt'ye
+36	2336	mecbur	mecburdu mecburduk mecburdum mecburdun mecburlar mecbursam mecbursan mecbursun mecbursunuz mecburum mecburuz
+37	2337	haftalık	haftalıkken
+38	2338	tanıdık	tanıdıklar tanıdığı
+39	2339	direkt	
+40	2340	incelemek	inceleme inceler
+41	2341	market	markete marketi marketin marketinde marketinden marketine marketinin marketler marketlerde marketlerden marketlere marketleri markette marketteki marketten
+42	2342	masal	masala masalcı masalda masaldaki masaldan masallar masallara masallarda masallardaki masallardan masalları masalların masallarına masallarında masallarındaki masallarından masallarını masallarının masallarıyla masalı masalın masalına masalında masalındaki masalından masalını masalının
+43	2343	uzaklık	uzaklıkta uzaklıktadır uzaklıktaki uzaklıktan uzaklıktaydı uzaklıktayım uzaklıktayız uzaklığa uzaklığı uzaklığın uzaklığında uzaklığını
+44	2344	psikolojik	
+45	2345	ipucu	ipucunu ipuçları
+46	2346	göç	göçe göçler göçmeden göçü göçün
+47	2347	yaklaşım	yaklaşıma yaklaşımda yaklaşımdır yaklaşımla yaklaşımlar yaklaşımları yaklaşımı yaklaşımım yaklaşımımı yaklaşımımız yaklaşımın yaklaşımına yaklaşımını yaklaşımının yaklaşımınız
+48	2348	tokat	tokadı tokadını tokat'ta tokat'ın tokatlar tokatlarım tokattan tokattı tokatı
+49	2349	asgari	askeri askerisin askeriydi askeriye askeriyede askeriyedeki askeriyeden askeriyenin askeriyeye askeriyeyi askeriyim
+50	2350	gereksiz	
+51	2351	ani	aniydi
+52	2352	yağmak	yağa yağabilir yağacak yağacakmış yağacağı yağan yağar yağardı yağarken yağarsa yağdı yağdığı yağmadı yağmadığı yağmaya yağmayacak yağmaz yağmazsa yağmıyor yağmış yağmıştı yağsa yağsın yağın yağınca yağıp yağıyor yağıyordu yağıyormuş
+53	2353	turnuva	turnuvada turnuvadaki turnuvadan turnuvalar turnuvalara turnuvalarda turnuvaları turnuvanın turnuvası turnuvası'nda turnuvasına turnuvasında turnuvasından turnuvasını turnuvasının turnuvaya turnuvayı
+54	2354	tavan	tavana tavanda tavandaki tavandan tavanlar tavanları tavanlı tavanı tavanın tavanına tavanında tavanından tavanını
+55	2355	çöl	çölde çöldeki çölden çöldeyiz çöle çöller çöllerde çöllerden çöllere çölleri çöllerinde çölü çölün çölünde çölündeki çölünden çölüne çölünü çölünün
+56	2356	eşcinsel	eşcinseldi eşcinseldir eşcinsele eşcinseli eşcinselim eşcinselin eşcinseliz eşcinselle eşcinseller eşcinsellerden eşcinsellere eşcinselleri eşcinsellerin eşcinsellerle eşcinselliğini eşcinselmiş eşcinselsin
+57	2357	çoğunluk	çoğunlukta çoğunluğa çoğunluğu çoğunluğun çoğunluğunda çoğunluğunu çoğunluğunun
+58	2358	ayar	ayara ayarda ayarlar ayarları ayarlarım ayarlarına ayarlarını ayarlarıyla ayarlı ayarsız ayarı ayarına ayarında ayarını
+59	2359	istatistik	istatistikler istatistiklere istatistikleri istatistiklerin istatistiklerine istatistiklerini istatistiği
+60	2360	artış	artışa artışlar artışları artışı artışın artışına artışından artışını artışının
+61	2361	tbmm	tbmm'de tbmm'deki tbmm'ye
+62	2362	duruşma	duruşmada duruşmadaki duruşmadan duruşmalar duruşmalara duruşmalarda duruşmaları duruşmalarında duruşmam duruşmamda duruşmamız duruşman duruşmanın duruşması duruşmasına duruşmasında duruşmasından duruşmasını duruşmasının duruşmaya duruşmayla duruşmayı
+63	2363	bağış	bağışa bağışlar bağışlara bağışlardan bağışlarla bağışları bağışlarım bağışların bağışlarını bağışlarınız bağışta bağıştan bağışçı bağışçılar bağışçıları bağışçıların bağışçının bağışçısı bağışı bağışın bağışına bağışında bağışını bağışınız
+64	2364	kabuk	kabuklar kabukları kabuklarına kabuklarından kabuklarını kabuklarının kabuklarıyla kabuklu kabukta kabuktan kabuğa kabuğu kabuğum kabuğumdan kabuğumu kabuğun kabuğuna kabuğunda kabuğundaki kabuğundan kabuğunu kabuğunun kabuğuyla
+65	2365	kumanda	kumandada kumandalar kumandaları kumandalı kumandam kumandan kumandana kumandanlar kumandanları kumandanı kumandanım kumandanın kumandanının kumandası kumandasını kumandaya kumandayla kumandayı
+66	2366	öncelik	öncelikler öncelikleri önceliklerim önceliklerimi önceliklerimiz önceliklerimizi önceliklerin önceliklerini önceliklerinin öncelikli önceliklidir öncelikte önceliğe önceliği önceliğim önceliğimiz önceliğimizdir önceliğin önceliğini önceliğinin önceliğiniz
+67	2367	şahin	şahin'in şahini şahinin şahinler şahinleri şahinlerin
+68	2368	üzücü	üzücüdür üzücüydü üzücüymüş
+69	2369	onaylamak	onayla onayladı onayladık onayladılar onayladım onayladın onayladınız onayladığı onayladığım onaylama onaylamadı onaylamadım onaylamadığı onaylamadığım onaylamam onaylamaya onaylamayan onaylamaz onaylamazdı onaylamıyor onaylamıyorsun onaylamıyorum onaylamış onaylandı onaylar onaylardı onaylarsa onaylayabilir onaylayabilirim onaylayacak onaylayacağım onaylayamam onaylayan onaylayın onaylayıp onaylıyor onaylıyorsun onaylıyorum onaylıyoruz
+70	2370	irade	iradeden iradeleri iradeleriyle iradeli iradem irademe irademi irademiz irademizle irademle iraden iradene iradeni iradenin iradenizle iradenle iradesi iradesine iradesini iradesinin iradesiyle iradesiz iradeye iradeyi iradeyle
+71	2371	bant	banda bandı bandım bandımı bandın bandına bandında bandından bandını bandının bandıyla bantla bantladım bantlanmış bantlar bantlarla bantları bantların bantlarından bantlarını bantlayıp bantlı bantta banttan
+72	2372	kalıcı	
+73	2373	protesto	protestoda protestolar protestolara protestoları protestoların protestonun protestosu protestoya protestoyu
+74	2374	köylü	köylüler köylülerden köylülere köylüleri köylülerin köylülerle köylünün köylüsü köylüsün köylüye köylüyle köylüyü köylüyüm
+75	2375	sporcu	sporcular sporculara sporculardan sporcularla sporcuları sporcuların sporcumuz sporcunun sporcusu sporcusun sporcuya sporcuydu sporcuyum
+76	2376	ittifak	ittifaka ittifaklar ittifaktan ittifakı ittifakı'nın ittifakın ittifakına ittifakını ittifakının
+77	2377	nöbet	nöbete nöbeti nöbetim nöbetimde nöbetimi nöbetin nöbetinde nöbetinden nöbetine nöbetini nöbetinin nöbetler nöbetlere nöbetleri nöbetlerin nöbetlerinden nöbetlerine nöbetlerini nöbette nöbetten nöbetteydim nöbetteyim nöbetteyken nöbetçisi nöbetçiyim
+78	2378	zahmet	zahmete zahmeti zahmetin zahmetinde zahmetinden zahmetine zahmetini zahmetiniz zahmetlere zahmetlerin zahmetli zahmetten
+79	2379	sürtük	sürtükler sürtüklerden sürtüklere sürtükleri sürtüklerin sürtüksün sürtükten sürtüktür sürtüğe sürtüğü sürtüğüm sürtüğün sürtüğüne sürtüğünü
+80	2380	pizza	pizzadan pizzalar pizzaları pizzaların pizzam pizzamı pizzamız pizzamızı pizzan pizzanı pizzanın pizzanız pizzanızı pizzası pizzasını pizzaya pizzayla pizzayı
+81	2381	yeryüzü	yeryüzünde yeryüzünden yeryüzüne yeryüzünü yeryüzünün
+82	2382	mhp	mhp'de mhp'den mhp'ye
+83	2383	takma	
+84	2384	keşif	keşfe keşfi keşfim keşfin keşfinde keşfinden keşfine keşfini keşfinin keşfiyle keşifle keşifler keşiflerden keşiflere keşifleri keşiflerin keşiflerinden keşiflerini keşiflerinin keşifte keşiften keşifti
+85	2385	çekirdek	çekirdekler çekirdekleri çekirdeklerini çekirdekli çekirdeksiz çekirdekte çekirdekteki çekirdekten çekirdeğe çekirdeği çekirdeğin çekirdeğinde çekirdeğindeki çekirdeğinden çekirdeğine çekirdeğini çekirdeğinin
+86	2386	umursamak	umursadıkları umursadığı umursadığım umursadığın umursama umursamadan umursamadı umursamadım umursamadın umursamadığı umursamadığım umursamam umursamamak umursamaya umursamayacak umursamayacağım umursamayan umursamazdı umursamazdım umursamazlar umursamazsın umursamıyor umursamıyordu umursamıyorlar umursamıyormuş umursamıyorsun umursamıyorsunuz umursamıyorum umursamıyoruz umursar umursayacak umursayan umursayayım umursuyor umursuyorlar umursuyormuş umursuyorsun umursuyorum umursuyoruz
+87	2387	alıcı	alıcılar alıcılara alıcıları alıcılarım alıcılarımız alıcıların alıcılarını alıcım alıcımız alıcın alıcının alıcısı alıcısını alıcıya alıcıyı
+88	2388	esir	esiri esirim esirimiz esirin esiriyim esirler esirlere esirleri esirlerin esirlerine esirlerini esirlerinin esirlerle
+89	2389	tesadüf	tesadüfe tesadüfler tesadüflerden tesadüflere tesadüfleri tesadüflerle tesadüfmüş tesadüften tesadüftü tesadüftür tesadüfü tesadüfün
+90	2390	yatırmak	yatır yatırabilir yatıracak yatıracaksın yatıracağım yatıracağız yatıralım yatıran yatırayım yatırdı yatırdık yatırdılar yatırdım yatırdın yatırdığı yatırdığım yatırdığın yatırdığını yatırma yatırmalıyız yatırmam yatırmamız yatırmaya yatırmayı yatırmış yatırmıştım yatırılan yatırıldı yatırılması yatırılmış yatırın yatırıp yatırır yatırırdım yatırırım yatırırız yatırıyor yatırıyorum yatırıyoruz
+91	2391	uzunluk	uzunlukları uzunlukta uzunluktaki uzunluğa uzunluğu uzunluğuna uzunluğunda uzunluğundadır uzunluğundaki uzunluğundaydı uzunluğunu uzunluğunun
+92	2392	tüy	tüyden tüye tüyle tüyler tüylerden tüylere tüyleri tüylerim tüylerimi tüylerin tüylerinden tüylerine tüylerini tüylerinin tüylerinizi tüyleriyle tüylerle tüyü tüyün tüyünden tüyüne tüyünü tüyüyle
+93	2393	iade	iadeleri iadelerini iadesi iadesine iadesini
+94	2394	enstitü	enstitüde enstitüdeki enstitüden enstitüleri enstitünün enstitüsü enstitüsü'nde enstitüsü'nden enstitüsü'nün enstitüsünde enstitüsünden enstitüsüne enstitüsünün enstitüye enstitüyü
+95	2395	cins	cinse cinsi cinsin cinsinden cinsine cinsini cinsinin cinsle cinsler cinsleri cinsten cinstendi
+96	2396	koridor	koridora koridorda koridordaki koridordan koridorlar koridorlara koridorlarda koridorlardan koridorları koridorların koridorlarında koridoru koridorun koridoruna koridorunda koridorundan koridorunu koridorunun
+97	2397	istenmek	isten istendi istendiği istenebilir istenecek istenen istenir istenirse isteniyor isteniyordu isteniyorsa isteniyorsun isteniyorsunuz istenmedi istenmediği istenmediğim istenmez istenmiyor istenmiyorsun istenmiyorsunuz istenmiyorum istenmiyoruz istenmiş istenmişti
+98	2398	razı	razılar razısın razıydı razıydım razıysan razıyım razıyız
+99	2399	mac	
+100	2400	adli	

@@ -1,0 +1,100 @@
+1	9001	sömürmek	sömürdü sömüren sömürerek sömürmeye sömürülen sömürüp sömürüyor sömürüyorlar sömürüyorsun
+2	9002	müstesna	
+3	9003	aktivasyon	aktivasyonu
+4	9004	hami	hamisi
+5	9005	mümtaz	
+6	9006	şalgam	şalgamı
+7	9007	ustura	usturası usturayla usturayı
+8	9008	galon	galonluk
+9	9009	seyfi	
+10	9010	tahrir	
+11	9011	güzellikle	
+12	9012	bidon	bidonları bidonlarını bidonu bidonuna bidonunda bidonunu bidonunun
+13	9013	feodal	
+14	9014	fırsatçı	fırsatçılar
+15	9015	majör	
+16	9016	meteliksiz	meteliksizim
+17	9017	merci	mercilere
+18	9018	tasavvur	
+19	9019	sömürgeci	sömürgeciler
+20	9020	büyükçe	
+21	9021	amsterdam	amsterdam'a amsterdam'da
+22	9022	denizlispor	
+23	9023	fulya	
+24	9024	fıba	
+25	9025	kınalı	
+26	9026	sahih	
+27	9027	seyfettin	
+28	9028	yeniköy	
+29	9029	konservatuvar	konservatuvarı
+30	9030	yahni	yahnisi yahnisini yahniyi
+31	9031	şule	
+32	9032	layıkıyla	
+33	9033	buzağı	buzağılar buzağıları buzağıyı
+34	9034	sıcakkanlı	
+35	9035	çarçur	
+36	9036	ortanca	
+37	9037	yazıt	yazıtlar yazıtlara yazıtlarda yazıtları yazıtların yazıtı yazıtın
+38	9038	kurgusal	kurgusaldır
+39	9039	revizyon	
+40	9040	yitmek	yitip
+41	9041	kiremit	kiremitleri
+42	9042	projeksiyon	projeksiyonu
+43	9043	alaşım	alaşımdan alaşımlı alaşımı
+44	9044	levye	levyeyi levyeyle
+45	9045	görücü	
+46	9046	sataşmak	sataşan sataşma sataşmaya sataşmayı sataşmayın sataştı sataştın sataşıp sataşıyor sataşıyordu sataşıyorlar sataşıyorsun
+47	9047	elektrikçi	elektrikçiler
+48	9048	kani	kanin kanini
+49	9049	kızarıklık	kızarıklıklar kızarıklığa kızarıklığı
+50	9050	yolmak	yola yolacağım yolarım yoldu yolmaya yolmuş yolsa yolun yolunca yolunuz yolup yoluyorsun
+51	9051	koala	
+52	9052	mesane	mesanem mesanesi
+53	9053	memnu	memnum
+54	9054	hakimlik	hakimliği
+55	9055	dai	
+56	9056	metafizik	
+57	9057	kalorifer	kalorifere kaloriferi kaloriferin
+58	9058	kalifiye	
+59	9059	greyfurt	
+60	9060	itimat	
+61	9061	sani	
+62	9062	hukuksal	
+63	9063	spoiler	
+64	9064	rapçi	rapçiler
+65	9065	saffet	
+66	9066	kızılcık	
+67	9067	lineer	
+68	9068	işbaş	işbaşı işbaşına işbaşında
+69	9069	ecel	ecele eceli ecelin eceline eceliyle
+70	9070	telaşlanmak	telaşlanacak telaşlandı telaşlandım telaşlandın telaşlanma telaşlanmayın telaşlanmış telaşlanıyorsun
+71	9071	gariban	garibanlar garibanın
+72	9072	upuzun	
+73	9073	tali	
+74	9074	folklor	
+75	9075	maki	
+76	9076	ümitsizlik	ümitsizliğe
+77	9077	fünye	fünyeler fünyeleri fünyesi fünyeyi
+78	9078	defnetmek	defnedildi
+79	9079	mandal	mandala mandalları mandalı mandalını
+80	9080	tutunmak	tutunur
+81	9081	güdü	güdüler güdüleri güdülerim güdülerime güdülerimi güdülerin güdülerine güdülerini güdüsü
+82	9082	celi	celine
+83	9083	kürklü	
+84	9084	harıl	
+85	9085	resif	resife resifi resifin resifler resifleri resiflerin resiflerinin resifte
+86	9086	kurtçuk	kurtçuklar kurtçukları kurtçukların kurtçuğu
+87	9087	hapsolmak	hapsoldu hapsolduk hapsoldum hapsolmuş
+88	9088	yetkisiz	
+89	9089	yolsuz	yolsuzlukla
+90	9090	sütçü	
+91	9091	sezgisel	
+92	9092	alabildiğine	
+93	9093	ıspanak	
+94	9094	kür	kürü
+95	9095	başdanışman	başdanışmanı
+96	9096	florya	
+97	9097	inovasyon	
+98	9098	kocaelispor	
+99	9099	sadettin	
+100	9100	gayrimeşru	

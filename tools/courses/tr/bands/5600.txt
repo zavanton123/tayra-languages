@@ -1,0 +1,100 @@
+1	5501	bereketli	
+2	5502	ezgi	ezgileri ezginin ezgisi ezgiyi
+3	5503	tutucu	tutucudur tutucular tutucusun tutucuyum
+4	5504	sıla	sıla'nın
+5	5505	dişçi	dişçide dişçiden dişçiler dişçilerden dişçilerin dişçim dişçinin dişçisi dişçiye dişçiyi dişçiyle
+6	5506	bürün	büründü büründüm büründün bürünebilir bürünecek bürünen bürünerek bürünme bürünmek bürünmüş bürünmüştü bürünüp bürünür bürünüyor
+7	5507	simit	simidi simidini simitler simitleri
+8	5508	mütevazı	mütevazılık mütevazısın
+9	5509	seçici	
+10	5510	kandil	kandil'e kandili kandiller
+11	5511	girişimci	girişimciler girişimcileri girişimcisi girişimciyim
+12	5512	kontak	kontakta kontağa kontağı kontağım kontağın
+13	5513	mahir	
+14	5514	bet	bete beti betin bette
+15	5515	cazip	
+16	5516	bariyer	bariyere bariyeri bariyerin bariyerini bariyerler bariyerlere bariyerleri bariyerlerin
+17	5517	bülbül	bülbüller bülbülü bülbülün
+18	5518	simülasyon	simülasyona simülasyonda simülasyonlar simülasyonları simülasyonu simülasyonun simülasyonunu
+19	5519	heyecanlandırmak	heyecanlandır heyecanlandıracak heyecanlandıran heyecanlandırdı heyecanlandırdın heyecanlandırmaya heyecanlandırmıyor heyecanlandırmış heyecanlandırmıştı heyecanlandırır heyecanlandırıyor heyecanlandırıyordu heyecanlandırıyorsun
+20	5520	sancı	sancılar sancıları sancılarım sancıların sancılı sancım sancın sancısı
+21	5521	çark	çarka çarklar çarkları çarkların çarklı çarkı çarkın çarkına çarkını çarkının
+22	5522	gitgide	
+23	5523	avşar	avşar'ın
+24	5524	ciddiyet	ciddiyete ciddiyeti ciddiyetimle ciddiyetine ciddiyetini ciddiyetinin ciddiyetle
+25	5525	yazlık	yazlıkta yazlığa yazlığı yazlığına yazlığında
+26	5526	mesafeli	
+27	5527	küçümsemek	küçümsedi küçümsedim küçümsedin küçümsediğini küçümseme küçümsemeye küçümsemeyin küçümsemiyorum küçümsemiş küçümsemişim küçümser küçümseyen küçümseyerek küçümsüyor küçümsüyorlar küçümsüyorsun küçümsüyorsunuz küçümsüyorum
+28	5528	düello	düelloda düellodan düellonun düellosu düelloya düelloyu
+29	5529	bilezik	bilezikler bilezikleri bileziklerim bileziklerin bileziklerini bileziğe bileziği bileziğim bileziğimi bileziğin bileziğini
+30	5530	istem	isteme istemi istemiyle istemsizce
+31	5531	nane	nanesi naneyi
+32	5532	tabip	tabibe tabibi tabibim tabibin tabiple tabipler tabipten
+33	5533	psikiyatrist	psikiyatriste psikiyatristi psikiyatristin psikiyatristler psikiyatristlerin
+34	5534	vida	vidalar vidaları vidalarını vidası vidayı
+35	5535	tetiklemek	tetikledi tetiklediği tetiklediğini tetikleme tetiklemeye tetiklemiş tetikler tetikleyebilir tetikleyecek tetikleyen tetikliyor
+36	5536	onuncu	
+37	5537	karpuz	karpuza karpuzlar karpuzları karpuzu karpuzun
+38	5538	idman	idmana idmanda idmandan idmanı
+39	5539	çimen	çimende çimene çimeni çimenler çimenlerde çimenlere çimenleri çimenlerin
+40	5540	iddialı	
+41	5541	taviz	tavizler
+42	5542	potasyum	potasyumu
+43	5543	nüfuz	nüfuzu nüfuzumu nüfuzun nüfuzunu
+44	5544	anons	anonsları anonsu anonsunu
+45	5545	sünger	süngere süngeri süngerin süngerle süngerler süngerleri
+46	5546	çizelge	çizelgede çizelgeler çizelgeleri çizelgelerini çizelgem çizelgemiz çizelgen çizelgesi çizelgesinde çizelgesine çizelgesini çizelgesinin çizelgeye çizelgeyi
+47	5547	tahsil	tahsili tahsilini tahsilli
+48	5548	fernando	
+49	5549	terzi	terzide terziden terziler terzim terzinin terzisi terziydi terziye terziyi terziyim
+50	5550	denek	denekler deneklerden deneklere denekleri deneklerin deneğe deneği deneğimiz deneğin
+51	5551	komedyen	komedyene komedyeni komedyenim komedyenin komedyenler komedyenleri komedyenlerin komedyenlik komedyensin
+52	5552	nispeten	
+53	5553	özlü	
+54	5554	renault	
+55	5555	terörizm	terörizmden terörizme terörizmi terörizmin terörizmle
+56	5556	silahsız	
+57	5557	cesurca	cesurcaydı
+58	5558	blöf	blöftü blöfü blöfümü blöfünü
+59	5559	aşina	aşinasınız aşinayım aşinayız
+60	5560	piskopos	piskoposa piskoposla piskoposlar piskoposu piskoposun
+61	5561	yuvarlanmak	yuvarlan yuvarlana yuvarlanacak yuvarlanalım yuvarlanan yuvarlanarak yuvarlandı yuvarlandım yuvarlandın yuvarlanma yuvarlanmaya yuvarlanmış yuvarlanıp yuvarlanır yuvarlanırken yuvarlanıyor yuvarlanıyoruz
+62	5562	malikane	malikanede malikaneden malikanenin malikanesi malikanesinde malikanesinden malikanesine malikanesini malikanesinin malikaneye malikaneyi
+63	5563	yaratılış	yaradılış yaradılışı yaradılışın yaratılıştan yaratılışı yaratılışın
+64	5564	tosun	tosun'un
+65	5565	gündelik	
+66	5566	devril	devrildi devrildiğini devrilecek devrilen devrilip devriliyor devrilme devrilmesi devrilmiş devrilsin
+67	5567	silikon	silikondan silikonları silikonlu silikonu
+68	5568	ikincil	
+69	5569	baykuş	baykuşa baykuşlar baykuşları baykuşların baykuşu baykuşun
+70	5570	barikat	barikata barikatlar barikatlara barikatları barikatların barikatta barikattan barikatı barikatın
+71	5571	javier	
+72	5572	fiziki	
+73	5573	bağcı	bağcılar
+74	5574	danıştay	
+75	5575	khk	
+76	5576	çaykur	
+77	5577	arkeoloji	
+78	5578	çevrim	çevrimi
+79	5579	adapte	
+80	5580	deha	dehalar dehanın dehası dehasın dehasına dehasını dehasının dehaya dehayı
+81	5581	yeğlemek	yeğledi yeğler yeğlerdi yeğlerdim yeğlerdin yeğlerim yeğleriz yeğlersin yeğliyor yeğliyorsun yeğliyorum
+82	5582	yaşantı	yaşantım yaşantıma yaşantımı yaşantımın yaşantımız yaşantımıza yaşantımızda yaşantımızı yaşantın yaşantına yaşantını yaşantısı yaşantısına yaşantısını
+83	5583	norm	norma normlar normları
+84	5584	enişte	eniştem enişteme eniştemi eniştemin eniştemle enişten eniştene enişteni eniştenin eniştesi
+85	5585	büfe	büfede büfedeki büfeden büfeleri büfenin büfesi büfesinde büfesine büfesini büfeye büfeyi
+86	5586	taşlamak	taşla taşlama taşlanarak taşlar taşlarım taşlayın
+87	5587	viktor	
+88	5588	start	startını
+89	5589	enstrüman	enstrümanlar enstrümanları enstrümanı enstrümanın enstrümanını
+90	5590	becerikli	beceriklidir beceriklisin becerikliydi becerikliyim becerikliyimdir
+91	5591	dondurucu	dondurucuda dondurucudaki dondurucudan dondurucunun dondurucuya dondurucuyu
+92	5592	marion	
+93	5593	sabretmek	sabredemiyorum sabreden sabredin sabredip sabret sabretmen sabretmeyi sabrettim
+94	5594	dolgu	dolgular dolguları dolgulu dolgusu dolguyu
+95	5595	kısmet	kısmeti kısmetim kısmetin kısmetini kısmetse
+96	5596	bayat	bayattı
+97	5597	kaymakamlık	kaymakamlığı
+98	5598	emperyalizm	emperyalizme emperyalizmi emperyalizmin
+99	5599	kusma	kusmadan kusmam kusman kusmanı kusması kusmasına kusmasını kusmaya kusmayı
+100	5600	masaüstü	

@@ -1,0 +1,100 @@
+1	5701	fıçı	fıçıda fıçıdaki fıçıdan fıçılar fıçıları fıçıların fıçılarını fıçının fıçısı fıçısına fıçısını fıçısının fıçıya fıçıyla fıçıyı
+2	5702	peçete	peçeteler peçeteleri peçetelerin peçeten peçeteni peçetenin peçetesi peçeteye peçeteyi peçeteyle
+3	5703	darp	darptan
+4	5704	birleşim	birleşimi birleşiminden
+5	5705	mis	misi misim misini misiniz
+6	5706	armut	armudu armutlar armutları
+7	5707	insansız	
+8	5708	monitör	monitörde monitörden monitöre monitörler monitörlerde monitörlerden monitörlere monitörleri monitörlerin monitörü monitörün monitörüne monitörünü
+9	5709	baca	bacada bacadan bacalar bacalardan bacaları bacaların bacanın bacası bacasına bacasından bacaya bacayı
+10	5710	sıfırdan	
+11	5711	gar	gara garda garı garına garında
+12	5712	baygın	baygındı baygındım baygınken baygınım
+13	5713	temsilcilik	temsilcilikleri temsilciliği temsilciliğini
+14	5714	reggie	
+15	5715	sosisli	sosisliler sosislileri sosislinin sosislisi sosisliye sosisliyi
+16	5716	olağandışı	
+17	5717	karnaval	karnavala karnavalda karnavaldan karnavalı karnavalın karnavalına
+18	5718	pentagon	
+19	5719	bere	bereler bereleri beren bereni beresi bereyi
+20	5720	pano	panoda panodaki panodan panoları panolarına panolarında panolarını panonun panosu panosuna panosunda panosundan panosunu panosunun panoya panoyu
+21	5721	amanın	
+22	5722	fe	
+23	5723	tasma	tasmalar tasmaları tasmalı tasman tasmanı tasmanın tasması tasmasında tasmasından tasmasını tasmasız tasmayla tasmayı
+24	5724	aslen	
+25	5725	dörtlü	dörtlüyü
+26	5726	tespih	tesbih tespihi
+27	5727	kısır	kısırlaştırılmış kısırım
+28	5728	gerilla	gerillalar gerillalara gerillaları gerillaların
+29	5729	nazlı	
+30	5730	günahkar	günahkara günahkarlar günahkarlara günahkarları günahkarların günahkarsın günahkarı günahkarım günahkarın günahkarız
+31	5731	firar	firarda firardan firarı
+32	5732	hidrolik	hidrolikler hidrolikleri hidroliği
+33	5733	dayanıklılık	dayanıklılığı dayanıklılığın dayanıklılığını
+34	5734	fosil	fosili fosilin fosiller fosilleri fosillerin
+35	5735	striptiz	
+36	5736	fa	fanın
+37	5737	kıllı	kıllıdır
+38	5738	kakao	kakaolu kakaoyu
+39	5739	vahşice	
+40	5740	gösterici	göstericiler göstericilere göstericileri göstericilerin göstericisi
+41	5741	yenilikçi	
+42	5742	kanyon	kanyona kanyonda kanyondan kanyonlar kanyonu kanyonun
+43	5743	hukukçu	hukukçular
+44	5744	dağılma	dağılmadan dağılması dağılmasına dağılmasından dağılmasını dağılmaya
+45	5745	dalgalanmak	dalgalanacak dalgalanan dalgalandı dalgalanma dalgalanmalar dalgalanması dalgalanmaya dalgalanır dalgalanıyor dalgalanıyordu
+46	5746	krep	krepi krepler krepleri kreplerin kreplerini
+47	5747	leonardo	
+48	5748	çocukça	çocukçaydı
+49	5749	veliaht	veliahdı
+50	5750	buy	buyana buymuş
+51	5751	periyodik	
+52	5752	değirmen	değirmende değirmene değirmeni değirmenin değirmeninde değirmenine değirmenini değirmeninin değirmenleri
+53	5753	gırtlak	gırtlaklarını gırtlaktan gırtlağa gırtlağı gırtlağıma gırtlağımı gırtlağımıza gırtlağın gırtlağına gırtlağında gırtlağından gırtlağını
+54	5754	kısık	kısıklı
+55	5755	uyuz	uyuzun
+56	5756	kısas	kısasa kısası kısasın
+57	5757	kaçıncı	
+58	5758	buzul	buzula buzulda buzuldan buzullar buzullara buzullardan buzulları buzulların buzulu buzulun
+59	5759	balıkçılık	balıkçılıkla balıkçılığı
+60	5760	yeryüz	yeryüzündeki
+61	5761	yağmurlu	
+62	5762	kefil	kefilim kefilin
+63	5763	empati	
+64	5764	taşeron	
+65	5765	cansız	
+66	5766	mahsus	mahsustu mahsustur
+67	5767	resimli	
+68	5768	kuşatmak	kuşat kuşatacak kuşatacağız kuşatan kuşatmaya kuşatmış kuşattı kuşattık kuşattılar kuşatılmış kuşatın kuşatıp kuşatır kuşatıyor kuşatıyorlar
+69	5769	kucaklamak	kucakla kucakladı kucakladım kucaklama kucaklaması kucaklamasını kucaklamaya kucaklamayı kucaklar kucaklarken kucaklayacak kucaklayacağım kucaklayan kucaklayarak kucaklayayım kucaklayın kucaklayıp kucaklıyor kucaklıyorum
+70	5770	turbo	turbolu
+71	5771	uzantı	uzantıları uzantısı uzantısıdır
+72	5772	hulusi	
+73	5773	sabahattin	
+74	5774	ödeşmek	ödeşeceğiz ödeşelim ödeşiriz ödeşme ödeşmedik ödeşmeye ödeşmiş ödeştik ödeştiğimizi
+75	5775	bayraktar	
+76	5776	itfaiyeci	itfaiyeciler itfaiyecilere itfaiyecileri itfaiyecilerin itfaiyecinin itfaiyeciydi itfaiyeciye itfaiyeciyi itfaiyeciyim itfaiyeciyle
+77	5777	bürokrat	bürokratlar bürokratların bürokratın
+78	5778	harabe	harabede harabeler harabelerde harabelere harabeleri harabelerin harabelerinde harabeye harabeyi
+79	5779	feminist	feministim feministler
+80	5780	psişik	psişiğim
+81	5781	morfin	morfinden morfine morfini morfinin morfinle
+82	5782	hergele	hergeleler hergeleleri hergelenin hergelesi hergelesin hergeleye hergeleyi
+83	5783	yayıncı	yayıncılar yayıncım yayıncının yayıncısı yayıncıya yayıncıyla
+84	5784	konfederasyon	konfederasyonu konfederasyonun
+85	5785	kontes	kontese kontesi kontesim kontesin
+86	5786	ezel	ezelden ezeli
+87	5787	mütevazi	mütevazilik mütevazisin
+88	5788	sabiha	
+89	5789	istişare	istişarelerde
+90	5790	kiracı	kiracılar kiracılara kiracılardan kiracıları kiracılarım kiracıların kiracım kiracın kiracının kiracınız kiracısı kiracıya kiracıyla kiracıyı kiracıyım
+91	5791	senarist	senaristi senaristler senaristliğini
+92	5792	erbakan	erbakan'ın
+93	5793	mazlum	mazlumların mazlumun
+94	5794	peyzaj	
+95	5795	mağlubiyet	mağlubiyete mağlubiyeti mağlubiyetin mağlubiyetle
+96	5796	atlantik	
+97	5797	sütlü	
+98	5798	gıcık	gıcıksın gıcığın
+99	5799	koordine	koordineli
+100	5800	avcılık	avcılığı avcılığına

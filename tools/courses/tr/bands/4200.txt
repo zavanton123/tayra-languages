@@ -1,0 +1,100 @@
+1	4101	inç	inçlik
+2	4102	ifşa	
+3	4103	kıskançlık	kıskançlıktan kıskançlığa kıskançlığı kıskançlığın
+4	4104	denizaltı	denizaltıda denizaltıdan denizaltılar denizaltıları denizaltıların denizaltına denizaltında denizaltını denizaltının denizaltısı denizaltısını denizaltısının denizaltıya denizaltıyla denizaltıyı
+5	4105	tuzlu	tuzludur tuzluydu
+6	4106	zehirlemek	zehirle zehirledi zehirlediler zehirledim zehirledin zehirlediniz zehirlediği zehirleme zehirlemedim zehirlemeye zehirlemiş zehirlemişti zehirlenmek zehirlenmesi zehirler zehirleyecek zehirleyen zehirleyerek zehirleyip zehirliyor zehirliyordu zehirliyorlar zehirliyorsun
+7	4107	şen	şen'in şeni şenin
+8	4108	yengeç	yengece yengeci yengecin yengeçler yengeçlere yengeçleri yengeçlerin yengeçli
+9	4109	kurumak	kurudu kurudum kuruduğu kuruma kurumadı kurumamış kurumaya kurumaz kurumuş kurumuştu kurur kurusun kuruya kuruyacak kuruyan kuruyor kuruyordu kuruyorduk kuruyordum kuruyordun kuruyorlar kuruyorlardı kuruyormuş kuruyorsa kuruyorsun kuruyorsunuz kuruyorum kuruyoruz kuruyunca kuruyup
+10	4110	karaca	karaca'nın karacan
+11	4111	rahatlık	rahatlığa rahatlığı rahatlığın rahatlığına rahatlığını rahatlığıyla
+12	4112	poşet	poşete poşeti poşetim poşetin poşetine poşetini poşetle poşetler poşetlere poşetleri poşetlerini poşette
+13	4113	geçinmek	geçin geçindirmek geçindiğini geçinebilir geçinebiliriz geçinebiliyor geçinebilmek geçinecek geçineceksin geçineceğim geçineceğiz geçinelim geçinemedik geçinemeyiz geçinemez geçinemiyor geçinemiyorlar geçinemiyorum geçinemiyoruz geçinen geçinin geçinip geçinir geçinirdi geçinirim geçiniriz geçiniyor geçiniyordu geçiniyorduk geçiniyorlar geçiniyorsun geçiniyorsunuz geçiniyorum geçiniyoruz geçinme geçinmem geçinmesi geçinmeye geçinmeyi
+14	4114	trend	trende trendeydi trendeydim trendeyim trendeyiz trendeyken trendi trendleri
+15	4115	lezzet	lezzeti lezzetin lezzetini lezzetler lezzetleri lezzetlidirler
+16	4116	tüketici	tüketiciler tüketicilere tüketicilerin tüketicinin tüketiciye
+17	4117	çürük	çürükler çürüklere çürükleri çürüklerin çürüklerle çürüğe çürüğü çürüğün
+18	4118	terminal	terminalde terminalden terminale terminali terminalin terminalinde terminalinden terminaline terminalini
+19	4119	prim	primi primini primler primleri primlerini
+20	4120	nöbetçi	nöbetçiler nöbetçilerden nöbetçilere nöbetçileri nöbetçilerin nöbetçinin nöbetçiye nöbetçiyi
+21	4121	dizayn	dizaynları dizaynı dizaynın dizaynına dizaynını
+22	4122	tembel	tembeldi tembeldir tembelim tembelin tembeller tembelsin
+23	4123	bağlam	bağlamda bağlamı bağlamında
+24	4124	bale	balede baleden balenin balesi baleye baleyi
+25	4125	lavabo	lavaboda lavabodaki lavabodan lavabolar lavabonun lavabonuz lavabonuzu lavabosu lavabosunda lavabosunun lavaboya lavaboyu
+26	4126	davetli	davetlidir davetliler davetlileri davetlilerin davetlisin davetlisiniz davetliyim davetliyiz
+27	4127	habersiz	
+28	4128	tasarı	tasarıları tasarıma tasarımda tasarımı tasarımın tasarının tasarısı tasarısına tasarısını tasarısının tasarıya tasarıyı
+29	4129	avlu	avluda avludaki avludan avlunun avlusu avlusuna avlusunda avlusundaki avluya avluyu
+30	4130	yatay	yatayım
+31	4131	tabir	tabiri tabirimle tabirini tabirinizle tabirinle tabiriyle tabirle tabirleri
+32	4132	britanya	britanya'nın britanyalı britanyalılar
+33	4133	etken	etkendir etkeni etkenler etkenlerden etkenleri etkenlerin
+34	4134	dolaşıp	
+35	4135	herhâlde	
+36	4136	çivi	çiviler çivileri çivilerim çivilerin çivilerle çivili çivinin çivisi çiviye çiviyi çiviyle
+37	4137	anal	
+38	4138	istekli	
+39	4139	güçsüz	
+40	4140	sofra	sofrada sofrası sofrasına sofrasında sofraya sofrayı
+41	4141	gecikme	gecikmeden gecikmeler gecikmem gecikmenin gecikmesi gecikmeye gecikmeyi
+42	4142	doğruca	
+43	4143	psikolog	psikologla psikologlar psikologlara psikologların psikologsun psikoloğa psikoloğu psikoloğum psikoloğun psikoloğuna
+44	4144	idrar	idrara idrarda idrarı idrarın idrarında idrarını
+45	4145	sperm	spermden sperme spermi spermim spermimi spermin spermini sperminin spermle spermler spermleri spermlerim spermlerimi spermlerin spermlerini spermlerinin
+46	4146	benimsemek	benimse benimsedi benimsedim benimsediği benimsemeye benimsemiş benimsemişti benimsemiştir benimsenen benimsenmesi benimsenmiştir benimseyen benimseyerek benimsiyor
+47	4147	ehil	ehli ehlidir ehline ehlinin
+48	4148	ufacık	
+49	4149	görkemli	
+50	4150	itfaiye	itfaiyede itfaiyeden itfaiyenin itfaiyesi itfaiyeye itfaiyeyi
+51	4151	yarınki	
+52	4152	alim	alimi alimler alimleri alimlerin
+53	4153	alfred	
+54	4154	küp	küpler küplere küpleri küplerini küpü küpün küpüne küpünü küpünün
+55	4155	nereli	nerelisin nerelisiniz nereliydi nereliyim nereliymiş
+56	4156	müjde	müjdeler müjdeli müjdem müjdemi müjdesi müjdesini müjdeyi
+57	4157	çöplük	çöplükleri çöplükte çöplükteki çöplükten çöplüktü çöplüğe çöplüğü çöplüğüm çöplüğümde çöplüğün çöplüğünde çöplüğünden çöplüğüne çöplüğünü çöplüğünün
+58	4158	kabiliyet	kabiliyete kabiliyeti kabiliyetim kabiliyetimi kabiliyetimiz kabiliyetin kabiliyetinden kabiliyetine kabiliyetini kabiliyetinin kabiliyetiniz kabiliyetleri kabiliyetlerini kabiliyetlisin kabiliyette
+59	4159	anlaşılır	anlaşılırdı anlaşılırsa
+60	4160	direksiyon	direksiyona direksiyonda direksiyondaki direksiyondan direksiyonu direksiyonun direksiyonuna direksiyonunda
+61	4161	asılı	asılıydı
+62	4162	sivri	
+63	4163	som	soma somun somunları somunu
+64	4164	ateşkes	ateşkese ateşkesi ateşkesin
+65	4165	dinozor	dinazor dinozora dinozorlar dinozorlara dinozorlardan dinozorlarla dinozorları dinozorların dinozoru dinozorun
+66	4166	pound	pounda pounddan poundu
+67	4167	keder	kederde kederden kedere kederi kederim kederimi kederin kederinden kederini kederle kederler kederleri kederlerini
+68	4168	kaymakam	kaymakamlar kaymakamı kaymakamımız
+69	4169	pasif	
+70	4170	perişan	perişanlık perişanım
+71	4171	yarbay	yarbayı yarbayım yarbayın
+72	4172	dikkatlice	
+73	4173	radar	radara radarda radardan radarla radarlar radarları radarı radarım radarın radarına radarında radarından radarını
+74	4174	komut	komutlar komutlara komutları komutu komutunu
+75	4175	diplomatik	
+76	4176	tarihçi	tarihçiler tarihçilere tarihçileri tarihçilerin tarihçisi tarihçiyim
+77	4177	blog	blogda bloglar blogları blogu blogum blogumu blogun bloguna blogunda blogunu
+78	4178	romeo	
+79	4179	somut	
+80	4180	baro	barodan barolar barosu baroya
+81	4181	afyon	afyon'da afyondan afyonu afyonun
+82	4182	azınlık	azınlıklar azınlıklara azınlıkları azınlıkların azınlıkta azınlıktan azınlığa azınlığı azınlığın
+83	4183	destan	destanlar destanı
+84	4184	şenlik	şenlikler şenlikleri şenlikli şenlikte şenliğe şenliği şenliğin şenliğinde şenliğine
+85	4185	tansiyon	tansiyona tansiyonu tansiyonum tansiyonumu tansiyonun tansiyonuna tansiyonunu tansiyonunuz
+86	4186	etap	etabı etapta
+87	4187	ülkü	ülkücüler
+88	4188	temelli	
+89	4189	eziyet	eziyete eziyeti eziyetin eziyetten
+90	4190	ithal	
+91	4191	biriktirmek	biriktir biriktirdi biriktirdik biriktirdim biriktirdin biriktirdiği biriktirdiğim biriktirdiğimiz biriktirdiğin biriktireceğim biriktiren biriktirip biriktirir biriktirirdi biriktiririm biriktiriyor biriktiriyordu biriktiriyordum biriktiriyorsun biriktiriyorum biriktiriyoruz biriktirme biriktirmem biriktirmeye biriktirmiş biriktirmiştim
+92	4192	yayımlamak	yayımla yayımladı yayımladığı yayımlamaya yayımlanmıştır yayımlayan
+93	4193	katman	katmana katmanda katmanlar katmanları katmanların katmanlarında katmanlarını katmanlarının katmanlı katmanı katmanın katmanına katmanını
+94	4194	misal	misali
+95	4195	bulvar	bulvarda bulvardaki bulvarı bulvarı'nda bulvarın bulvarına bulvarında bulvarındaki bulvarından bulvarının
+96	4196	piyade	piyadeler piyadeleri piyadelerin piyadelerine piyadelerini piyadelerinin piyadesi piyadesinin
+97	4197	lokma	lokmada lokmalar lokmaları lokman lokması lokmasın lokmasını lokmayı
+98	4198	hamburger	hamburgerden hamburgere hamburgeri hamburgerimi hamburgerin hamburgerini hamburgerle hamburgerler hamburgerleri hamburgerlerin
+99	4199	değişmez	değişmezler
+100	4200	nadiren	

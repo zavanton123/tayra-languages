@@ -1,0 +1,100 @@
+1	5301	kırılgan	kırılgandı kırılgandır kırılganım
+2	5302	yurttaş	yurttaşlar yurttaşları yurttaşlarım yurttaşlarımız yurttaşların
+3	5303	sürdürülebilir	
+4	5304	barışçıl	
+5	5305	arayüz	arayüzü
+6	5306	şanlı	
+7	5307	okşamak	okşa okşadı okşadım okşadın okşadınız okşama okşaması okşamaya okşamayı okşandı okşar okşarken okşarım okşayacak okşayan okşayarak okşayın okşayıp okşuyor okşuyordu okşuyorsun okşuyorum
+8	5308	iskoç	iskoçlar iskoçların
+9	5309	centilmen	centilmendi centilmendir centilmene centilmeni centilmenim centilmenin centilmenle centilmenler centilmenlerin centilmenlik centilmensin centilmensiniz
+10	5310	kâbus	kâbusa kâbuslar kâbuslara kâbusları kâbusların kâbustan kâbusu kâbusum kâbusun
+11	5311	peruk	perukla peruklar perukları peruklu peruksuz peruktan peruğa peruğu peruğum peruğumu peruğun peruğunu
+12	5312	kıymak	kıyacak kıyamadım kıyamam kıyan kıyarım kıyasıya kıydı kıydın kıymalı kıymaya kıymayın kıymış kıyılmış kıyının kıyıp
+13	5313	döküm	dökümleri dökümlerini dökümü dökümüne dökümünü
+14	5314	karargah	karargaha karargahları karargahta karargahtan karargahı karargahın karargahına karargahında karargahından karargahını karargahının
+15	5315	yapılanmak	yapılana yapılanma yapılanmaya yapılanın
+16	5316	boksör	boksördü boksöre boksörle boksörler boksörlerden boksörleri boksörlerin boksörsün boksörü boksörüm boksörün
+17	5317	cihat	cihada cihadı cihatçı
+18	5318	kurultay	kurultaya kurultayda kurultayı
+19	5319	bülten	bülteni bülteninde bülteninden bültenine bültenini bültenleri bültenlerinde
+20	5320	dinleyici	dinleyiciler dinleyicilere dinleyicileri dinleyicilerim dinleyicilerimiz dinleyicilerimize dinleyicilerin dinleyicimiz dinleyicinin dinleyicisi dinleyiciye dinleyiciyi dinleyiciyim dinleyiciyimdir
+21	5321	akut	
+22	5322	prezervatif	prezervatife prezervatifi prezervatifim prezervatifin prezervatifle prezervatifler prezervatifleri prezervatifsiz
+23	5323	kıvılcım	kıvılcıma kıvılcımla kıvılcımlar kıvılcımları kıvılcımı kıvılcımın kıvılcımını
+24	5324	aleyhinde	
+25	5325	ölümlü	ölümlüler ölümlülere ölümlüleri ölümlülerin
+26	5326	michel	micheline
+27	5327	ecevit	ecevit'in
+28	5328	gala	galada galadan galan galası galasına galasında galasını galaya
+29	5329	hırslı	hırslıdır hırslısın hırslıydı hırslıydım hırslıyım
+30	5330	zina	zinacı zinadan zinanın zinaya zinayı
+31	5331	yetersizlik	yetersizliği yetersizliğin yetersizliğinden yetersizliğine yetersizliğini
+32	5332	altmış	altmışa altmışlı
+33	5333	doyurmak	doyur doyurabilir doyurabilmek doyuracak doyuracağım doyuracağız doyuralım doyuran doyurayım doyurdu doyurdum doyurdun doyurma doyurmalıyım doyurmam doyurması doyurmaya doyurmayı doyurmaz doyurmuyor doyurun doyurup doyurur doyuruyor doyuruyorum
+34	5334	tasvir	tasviri tasvirini tasvirler tasvirleri
+35	5335	yetmiş	yetmişe yetmişi yetmişlerde yetmişlerin yetmişli
+36	5336	oha	
+37	5337	tango	tangoyu
+38	5338	erzak	erzakla erzaklar erzakları erzaklarını erzakı erzakımız
+39	5339	donut	donat donatılmış donutlar donutları
+40	5340	sportif	
+41	5341	kebap	kebabı
+42	5342	etli	
+43	5343	boncuk	boncuklar boncukları boncuğu
+44	5344	abartılı	abartılıydı
+45	5345	reaktör	reaktörde reaktöre reaktörler reaktörleri reaktörlerin reaktörü reaktörün reaktörüne reaktörünü reaktörünün
+46	5346	üniversiteli	üniversiteliler
+47	5347	azami	
+48	5348	şifrele	şifreleme şifrelemesi şifrelemeyi şifrelenmiş
+49	5349	yaman	yamanlar
+50	5350	parlamenter	parlamenterler
+51	5351	haykırmak	haykır haykıracak haykıracağım haykıran haykırarak haykırdı haykırdım haykırdığını haykırma haykırmaya haykırın haykırıp haykırır haykırırken haykırırım haykırıyor haykırıyordu haykırıyorlar haykırıyorum
+52	5352	doğaüstü	
+53	5353	iris	irisin
+54	5354	itü	
+55	5355	adrenalin	adrenalinden adrenaline adrenalini adrenalinin adrenalinle
+56	5356	musluk	musluklar muslukları musluktan musluğa musluğu musluğun musluğuna musluğunu musluğunun
+57	5357	mercan	mercanlar mercanları mercanların mercanı
+58	5358	aydınlanmak	aydınlanacak aydınlanan aydınlandı aydınlandım aydınlanma aydınlanmanın aydınlanmaya aydınlanmış aydınlansın aydınlanır aydınlanıyor
+59	5359	seksen	sekseni seksenler seksenlerde seksenlerin seksenli
+60	5360	attırmak	attır attırabilir attırabilirim attıracak attıracaksın attıracağım attıralım attıran attırayım attırdı attırdım attırdın attırdığı attırdığın attırma attırmaya attırmayın attırmış attırıp attırır attırırım attırıyor attırıyorsun
+61	5361	parsel	parseli
+62	5362	müdafaa	müdafaaya müdafaaydı müdafaayı
+63	5363	veba	vebadan vebanın vebası vebaya vebayla vebayı
+64	5364	göçmek	göçe göçen göçer göçmüş göçtü göçün göçüp göçüyor
+65	5365	ergin	
+66	5366	kütük	kütükle kütükler kütükleri kütüklerin kütüğe kütüğü kütüğün kütüğüne
+67	5367	carlo	
+68	5368	kir	kirden kirdi kirdin kire kiri kirin kirini kirlenmesi kirlenmesini kirleri kirlileri
+69	5369	parlaklık	parlaklığı parlaklığında parlaklığını
+70	5370	atılgan	atılganın
+71	5371	trans	transa transta
+72	5372	teçhizat	teçhizata teçhizatla teçhizatlar teçhizatları teçhizatlarını teçhizatlı teçhizatı teçhizatımı teçhizatın teçhizatını teçhizatınızı
+73	5373	samimiyet	samimiyete samimiyeti samimiyetimi samimiyetimle samimiyetin samimiyetinden samimiyetine samimiyetini samimiyetten
+74	5374	sarsıntı	sarsıntıdan sarsıntılar sarsıntıları sarsıntılı sarsıntının sarsıntısı sarsıntısından sarsıntıya sarsıntıyı
+75	5375	akvaryum	akvaryuma akvaryumda akvaryumdaki akvaryumdan akvaryumu akvaryumun
+76	5376	milyoner	milyoneri milyonerim milyonerin milyonerle milyonerler milyonerlerin
+77	5377	egzotik	
+78	5378	sırılsıklam	sırılsıklamdı sırılsıklamsın sırılsıklamım
+79	5379	badem	
+80	5380	bileşik	bileşikler bileşikleri bileşiklerin bileşiği
+81	5381	teminat	teminatlar teminatlı teminatı teminatım teminatını
+82	5382	doğaçlama	doğaçlamaya
+83	5383	incelik	incelikle incelikleri inceliklerini incelikli incelikten incelikti inceliği inceliğinde inceliğini
+84	5384	diktatör	diktatöre diktatörler diktatörleri diktatörlerin diktatörü diktatörün
+85	5385	duru	
+86	5386	ölçülmek	ölçüldü ölçülebilir ölçülemeyecek ölçülemez ölçülen ölçülmez ölçülür ölçülüyor
+87	5387	neşelen	neşelendir neşelendirdi neşelendirecek neşelendirelim neşelendiren neşelendirici neşelendirir neşelendiriyor neşelendirmek neşelendirmeye neşelenelim neşelenin neşelenir neşelenmek neşelenmeye
+88	5388	biyografi	biyografimi biyografini biyografisi biyografisini
+89	5389	kapan	kapandıktan kapanlar kapanları kapanlarını kapanı kapanına
+90	5390	topal	topal'ın
+91	5391	rakı	rakım rakımlı rakımı rakısı
+92	5392	sodyum	
+93	5393	hor	horlar
+94	5394	nazar	nazara nazardan nazarında
+95	5395	gidi	gidiyim
+96	5396	işlevsel	işlevsellik işlevselliği
+97	5397	ızgara	ızgarada ızgaraları ızgaranın ızgarası ızgarasına ızgarasını ızgaraya ızgarayı
+98	5398	yamaç	yamaca yamacı yamacıma yamacın yamacına yamacında yamacındaki yamacından yamaçlar yamaçlara yamaçlarda yamaçları yamaçlarında yamaçta yamaçtan
+99	5399	yönetmelik	yönetmelikler yönetmeliklere yönetmelikleri yönetmeliğe yönetmeliği yönetmeliğine yönetmeliğini yönetmeliğinin
+100	5400	yandaş	yandaşları yandaşlarını yandaşlarının yandaşı

@@ -1,0 +1,100 @@
+1	2601	vize	vizeler vizeleri vizem vizemi vizen vizenin vizeniz vizesi vizesini vizesinin vizesiyle vizesiz vizeye vizeyi
+2	2602	devamlı	
+3	2603	müfettiş	müfettişe müfettişi müfettişim müfettişin müfettişine müfettişinin müfettişiyim müfettişle müfettişler müfettişlere müfettişleri
+4	2604	heyet	heyete heyeti heyetin heyetinde heyetinden heyetine heyetini heyetinin heyetiyle heyetle
+5	2605	altyapı	altyapıdan altyapının altyapısı altyapısına altyapısında altyapısını altyapısının altyapıya altyapıyı
+6	2606	öğlen	öğlende öğlenden öğlene öğleni
+7	2607	evrak	evrakla evraklar evraklara evraklarda evraklarla evrakları evraklarım evraklarımı evrakların evraklarına evraklarında evraklarını evraklarının evraklarınız evraklarınızı evrakta evrakı evrakın evrakını
+8	2608	maya	mayalar mayaların mayan mayası
+9	2609	komuta	komutada komutadan komutam komutası komutasına komutasında komutasındaki komutasını komutaya komutayı
+10	2610	önemsemek	önemsedikleri önemsedim önemsedin önemsediği önemsediğim önemsediğin önemsediğini önemsediğiniz önemseme önemsemedi önemsemedim önemsemedin önemsemediği önemsemem önemsemeye önemsemeyecek önemsemeyen önemsemeyin önemsemez önemsemezler önemsemezsin önemsemiyor önemsemiyorlar önemsemiyorsun önemsemiyorum önemser önemserim önemseyecek önemseyen önemseyeyim önemsiyor önemsiyordu önemsiyorlar önemsiyormuş önemsiyorsan önemsiyorsun önemsiyorsunuz önemsiyorum önemsiyoruz
+11	2611	pasaport	pasaporta pasaportla pasaportlar pasaportlara pasaportları pasaportlarımız pasaportlarımızı pasaportların pasaportlarını pasaportlarınız pasaportlarınızı pasaportlu pasaportsuz pasaportu pasaportum pasaportuma pasaportumu pasaportun pasaportuna pasaportunda pasaportunu pasaportunun pasaportunuz pasaportunuzu pasaportuyla
+12	2612	tapınak	tapınaklar tapınaklarda tapınakları tapınakların tapınaklarını tapınakta tapınaktaki tapınaktan tapınaktır tapınakçılar tapınağa tapınağı tapınağım tapınağımız tapınağın tapınağına tapınağında tapınağındaki tapınağından tapınağını tapınağının
+13	2613	lastik	lastikle lastikler lastiklerden lastiklere lastikleri lastiklerim lastiklerimi lastiklerin lastiklerine lastiklerini lastiklerinin lastiklerle lastikli lastikten lastiğe lastiği lastiğim lastiğimi lastiğimiz lastiğin lastiğini lastiğinin
+14	2614	itibari	itibariyle
+15	2615	delikanlı	delikanlıdan delikanlıdır delikanlılar delikanlılara delikanlılarla delikanlıları delikanlıların delikanlının delikanlısı delikanlısın delikanlıya delikanlıydı delikanlıyken delikanlıyla delikanlıyı
+16	2616	kurabiye	kurabiyeden kurabiyeler kurabiyelerden kurabiyelere kurabiyeleri kurabiyelerim kurabiyelerimi kurabiyelerin kurabiyelerinden kurabiyelerini kurabiyelerle kurabiyem kurabiyemiz kurabiyen kurabiyenin kurabiyesi kurabiyesini kurabiyeye kurabiyeyi kurabiyeyle
+17	2617	çap	çaplı çapta çaptaki çaptan çapı çapımda çapına çapındaki çapını çapının
+18	2618	faiz	faize faizi faizin faizini faiziyle faizle faizler faizleri faizli faizsiz
+19	2619	saldırgan	açığım açığız saldırgana saldırganca saldırgandan saldırgandı saldırgandır saldırganla saldırganlar saldırganlara saldırganlardan saldırganları saldırganların saldırganlaştı saldırgansın saldırganı saldırganımız saldırganın
+20	2620	nur	nur'un nurdan nurlu nuru
+21	2621	atmosfer	atmosferde atmosferdeki atmosferden atmosfere atmosferi atmosferin atmosferinde atmosferindeki atmosferinden atmosferine atmosferini atmosferinin
+22	2622	feda	
+23	2623	dönüştürmek	dönüştür dönüştürdü dönüştürdük dönüştürdüler dönüştürdüm dönüştürdün dönüştürdünüz dönüştürdüğü dönüştürdüğüm dönüştürdüğün dönüştürebilecek dönüştürebilir dönüştürebilirim dönüştürebiliriz dönüştürebilirsin dönüştürebiliyor dönüştürecek dönüştüreceksin dönüştüreceğim dönüştüreceğiz dönüştürelim dönüştüren dönüştürerek dönüştürme dönüştürmeye dönüştürmüş dönüştürmüştü dönüştürülebilir dönüştürün dönüştürüp dönüştürür dönüştürürler dönüştürürüm dönüştürürüz dönüştürüyor dönüştürüyorlar dönüştürüyorsun dönüştürüyorum dönüştürüyoruz
+24	2624	evvel	evvelden evveldi
+25	2625	strateji	stratejidir stratejiler stratejileri stratejilerini stratejim stratejimi stratejimiz stratejimizi stratejimizin stratejin stratejini stratejinin stratejiniz stratejisi stratejisine stratejisini stratejisinin stratejiydi stratejiye stratejiyi stratejiyle
+26	2626	siyasal	
+27	2627	sinirli	sinirlidir sinirliler sinirlisin sinirlisiniz sinirliydi sinirliydim sinirliydin sinirliyim sinirliyiz sinirliymiş
+28	2628	antik	
+29	2629	taktik	taktikle taktikler taktiklere taktikleri taktiklerin taktiklerinden taktiklerine taktiklerini taktiklerinin taktikleriyle taktiklerle taktikti taktiktir taktiğe taktiği taktiğidir taktiğim taktiğimiz taktiğin taktiğini taktiğiyle
+30	2630	yeğen	yeğeni yeğenim yeğenimden yeğenime yeğenimi yeğenimin yeğenimiz yeğenimle yeğenimsin yeğenin yeğeninden yeğenine yeğenini yeğeninin yeğeniniz yeğeninize yeğeninizi yeğeninizin yeğeniyim yeğeniyle yeğenler yeğenleri yeğenlerim yeğenlerimi yeğenlerin yeğenlerini
+31	2631	dedikodu	dedikodudan dedikodudur dedikodular dedikodulara dedikodulardan dedikodularla dedikoduları dedikoduların dedikodularına dedikodularını dedikodumu dedikodunun dedikodusu dedikodusunu dedikoduya dedikoduyla dedikoduyu
+32	2632	aykırı	aykırıdır aykırılık aykırıydı
+33	2633	mini	
+34	2634	rezil	rezildi rezilin reziller rezilsin
+35	2635	mod	modda modları modu modumda moduna modunda modundan modunu
+36	2636	takvim	takvimde takvimdeki takvimden takvime takvimi takvimim takvimimde takvimime takvimimi takvimin takviminde takvimine takvimini takviminin takvimler takvimleri takvimlerini
+37	2637	fırın	fırına fırında fırındaki fırından fırınla fırınlanmış fırınlar fırınlara fırınları fırınların fırını fırınım fırınımı fırınımız fırının fırınına fırınında fırınından fırınını fırınının
+38	2638	patrick	
+39	2639	gerilim	gerilimden gerilime gerilimi gerilimin gerilimini gerilimli
+40	2640	sapık	sapıkla sapıklar sapıklara sapıklardan sapıklarla sapıkları sapıkların sapıkmış sapıksın sapıktan sapıktı sapıktır sapığa sapığı sapığım sapığımız sapığın sapığını
+41	2641	doğurmak	doğur doğurabilecek doğurabilir doğurabilirsin doğuracak doğuracaksın doğuracağı doğuracağım doğuramam doğuramazsın doğuran doğurdu doğurdum doğurdun doğurduğu doğurduğum doğurduğun doğurma doğurmadı doğurmadım doğurmam doğurmaya doğurmayacak doğurmayacağım doğurmaz doğurmuş doğurmuştu doğurmuştur doğurup doğurur doğururken doğurursa doğuruyor doğuruyorsun doğuruyorum
+42	2642	jean	
+43	2643	eh	
+44	2644	güncel	
+45	2645	madam	madama madamı madamın
+46	2646	kutlu	
+47	2647	robin	
+48	2648	pas	pasa paslar pasları pastan pastı pası pasını
+49	2649	sıçmak	sıç sıçacak sıçacaksın sıçacağım sıçar sıçardı sıçarken sıçarlar sıçarsan sıçarsın sıçarım sıçarız sıçayım sıçma sıçmadım sıçmam sıçmaya sıçmış sıçmışsın sıçmışım sıçtı sıçtık sıçtılar sıçtım sıçtın sıçtınız sıçtığı sıçtığım sıçtığımın sıçtığın sıçıp sıçıyor sıçıyordum sıçıyorlar sıçıyorsun sıçıyorum
+50	2650	imkân	imkânlar imkânları imkânı imkânım imkânın
+51	2651	af	affa affı affımı affın affına affını affınıza affınızı aftan
+52	2652	tırmanmak	tırman tırmanabilir tırmanabilirim tırmanabiliriz tırmanacak tırmanacaksın tırmanacağım tırmanacağız tırmanalım tırmanan tırmanarak tırmandı tırmandık tırmandım tırmandın tırmandığını tırmanma tırmanmam tırmanmamız tırmanması tırmanmaya tırmanmayı tırmanmış tırmanıcı tırmanın tırmanıp tırmanır tırmanırken tırmanırım tırmanırız tırmanıyor tırmanıyordu tırmanıyorlar tırmanıyorsun tırmanıyorum tırmanıyoruz tırmanış tırmanışa tırmanışı
+53	2653	elmas	elmasa elmasla elmaslar elmaslara elmaslardan elmaslarla elmasları elmaslarım elmaslarımı elmasların elmaslarını elmaslı elmastan elması elmasın elmasını elmasının
+54	2654	nişanlı	nişanlılar nişanlım nişanlıma nişanlımdan nişanlımdı nişanlımla nişanlımı nişanlımın nişanlın nişanlına nişanlından nişanlınla nişanlını nişanlınım nişanlının nişanlınız nişanlınızla nişanlınızı nişanlınızın nişanlısı nişanlısın nişanlısına nişanlısından nişanlısını nişanlısının nişanlısınız nişanlısıydı nişanlısıyla nişanlısıyım nişanlıydı nişanlıydık nişanlıydım nişanlıyken nişanlıymış nişanlıyım nişanlıyız
+55	2655	mimari	mimarinin mimarisi mimarisine mimarisini mimarisinin mimariye mimariyi
+56	2656	ilkokul	ilkokula ilkokulda ilkokuldan ilkokuldayken ilkokulu ilkokulu'nda ilkokulun ilkokulunda
+57	2657	haksızlık	haksızlıklar haksızlıklara haksızlıkları haksızlıktı haksızlığa haksızlığı haksızlığın
+58	2658	boşuna	
+59	2659	iman	imana imandan imanla imanı
+60	2660	tanınmak	tanınabilir tanınacak tanınan tanındı tanınma tanınmamak tanınmamış tanınmaya tanınmayacak tanınmayan tanınmaz tanınmıyor tanınır tanınırdı tanınırlar tanınırım tanınıyor tanınıyordu tanınıyorsun tanınıyorsunuz tanınıyorum
+61	2661	teker	tekerden tekere tekeri tekerin tekerine tekerini tekerler tekerlere tekerleri tekerlerin tekerlerini tekerli tekerlikli
+62	2662	coğrafya	coğrafyada coğrafyadan coğrafyanın coğrafyası coğrafyasına coğrafyasında coğrafyasını coğrafyasının coğrafyaya coğrafyayı
+63	2663	maddi	maddî
+64	2664	olimpiyat	olimpiyatlar olimpiyatlara olimpiyatlarda olimpiyatlardan olimpiyatları olimpiyatların olimpiyatlarına olimpiyatlarında
+65	2665	muhafız	muhafıza muhafızla muhafızlar muhafızlara muhafızlardan muhafızlarla muhafızları muhafızlarım muhafızların muhafızlarına muhafızlarından muhafızlarını muhafızlarının muhafızlarıyla muhafızı muhafızım muhafızın muhafızını muhafızının
+66	2666	böylesi	
+67	2667	şarj	şarja şarjda şarjlı şarjı şarjım şarjın şarjını şarz
+68	2668	kapsamak	kapsadığı kapsama kapsamaktadır kapsamaz kapsamıyor kapsar kapsayacak kapsayan kapsıyor kapsıyordu
+69	2669	anlamlı	
+70	2670	defalarca	
+71	2671	müsait	müsaidim müsaitmiş müsaitse müsaitsen müsaitseniz müsaitsin müsaitti müsaittir
+72	2672	muhabir	muhabirden muhabirdi muhabire muhabiri muhabirim muhabirimiz muhabirimize muhabirin muhabirine muhabirinin muhabiriniz muhabiriyim muhabirle muhabirler muhabirlerden muhabirlere muhabirleri muhabirlerin muhabirlerinden muhabirlerle muhabirlik muhabirliği
+73	2673	âşık	âşıklar âşıkları âşıkların âşıkmış âşıksın âşıksınız âşıktı âşıktık âşıktım âşıktın âşığı âşığım âşığız
+74	2674	kucak	kucaklar kucaklarına kucakta kucağa kucağı kucağıma kucağımda kucağımıza kucağına kucağında kucağındaki kucağından kucağını kucağınıza kucağınızda
+75	2675	şaşırtıcı	şaşırtıcıdır şaşırtıcısın şaşırtıcıydı
+76	2676	uyanık	uyanıkken uyanıklar uyanıklık uyanıksın uyanıksınız uyanıktı uyanıktım uyanıktır uyanığım uyanığız
+77	2677	yunus	yunusa yunuslar yunuslara yunuslardan yunuslarla yunusları yunusların yunusu yunusun
+78	2678	suudi	suudiler
+79	2679	imdat	imdada imdadıma imdadına
+80	2680	tabak	tabakla tabaklar tabaklara tabaklarda tabaklardan tabaklarla tabakları tabakların tabaklarını tabaklarınızı tabakta tabaktaki tabaktan tabağa tabağı tabağım tabağıma tabağımda tabağımdan tabağımı tabağımız tabağın tabağına tabağında tabağındaki tabağından tabağını tabağının tabağınızı
+81	2681	emanet	emanete emaneti emanetin emanetler emanetleri
+82	2682	patlatmak	patlat patlatabilir patlatabiliriz patlatacak patlatacaklar patlatacaksın patlatacağım patlatacağız patlatalım patlatan patlatarak patlatayım patlatma patlatmalıyız patlatmam patlatmaya patlatmış patlatmışlar patlattı patlattık patlattılar patlattım patlattın patlattınız patlattığı patlatın patlatıp patlatır patlatırdım patlatırken patlatırsak patlatırsın patlatırım patlatırız patlatıyor patlatıyorlar patlatıyorsun patlatıyorum patlatıyoruz
+83	2683	özgü	özgüdür özgüydü
+84	2684	amir	amire amiri amirim amirime amirimi amirimin amirimiz amirimle amirin amirinden amirine amirini amirinim amirinin amiriniz amirinize amirinizle amirinle amiriyim amiriyle amirle amirler amirleri amirlerim amirlerime amirlerin amirlerine
+85	2685	masraf	masrafa masraflar masraflara masraflardan masrafları masraflarım masraflarımı masraflarımızı masrafların masraflarına masraflarından masraflarını masraflarının masraflarınız masraflarınızı masraflarıyla masraflıdır masrafsız masraftan masrafı masrafım masrafımı masrafın masrafına masrafından masrafını
+86	2686	kg	
+87	2687	kadir	kadirdir kadirsin kadri
+88	2688	caddesi	
+89	2689	rota	rotada rotadan rotadayız rotalar rotaları rotalarını rotamı rotamız rotamıza rotamızda rotamızdan rotamızı rotamızın rotan rotanı rotanın rotanızı rotası rotasına rotasında rotasından rotasını rotasının rotaya rotayı
+90	2690	öteki	ötekini
+91	2691	zorlu	zorludur zorluydu
+92	2692	sabır	sabra sabrı sabrım sabrımı sabrımın sabrımız sabrımızı sabrın sabrına sabrını sabrının sabrınız sabırdan sabırdır sabırlar sabırları sabırlıdır sabırlısın sabırlıydı sabırlıyım sabırlıyımdır
+93	2693	dayalı	dayalıdır dayalıydı
+94	2694	devrimci	devrimciler devrimcileri devrimcilerin
+95	2695	batman	batman'da batman'ın
+96	2696	ipek	ipekle ipekler ipekten ipeği
+97	2697	denetim	denetimden denetime denetimi denetimin denetiminde denetiminden denetimine denetimini denetimleri denetimli denetimsiz
+98	2698	morgan	morgan'ın
+99	2699	etkileşim	etkileşimde etkileşime etkileşimi etkileşimin etkileşimini etkileşimler etkileşimleri etkileşimli
+100	2700	cüzdan	cüzdana cüzdanda cüzdandan cüzdanlar cüzdanları cüzdanlarını cüzdanlarınızı cüzdanı cüzdanım cüzdanıma cüzdanımda cüzdanımdan cüzdanımı cüzdanımın cüzdanın cüzdanına cüzdanında cüzdanındaki cüzdanından cüzdanını cüzdanının cüzdanınız cüzdanınızı cüzdanıyla

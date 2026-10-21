@@ -1,0 +1,100 @@
+1	8201	koleksiyoncu	koleksiyoncular koleksiyoncuları koleksiyoncunun koleksiyoncusu koleksiyoncuyum
+2	8202	hödük	hödükler hödüğü hödüğün
+3	8203	leylek	leylekler
+4	8204	bayılma	bayılmadan bayılmalar bayılmam bayılmanın bayılmasına bayılmaya
+5	8205	sarsıcı	sarsıcıydı
+6	8206	güçlükle	
+7	8207	ataman	
+8	8208	kavrulmuş	
+9	8209	oyuk	oyuklar oyukları oyukta oyuğa oyuğu oyuğun
+10	8210	paradoks	paradokslar paradoksu
+11	8211	tasvip	
+12	8212	tekrarlayan	
+13	8213	benekli	
+14	8214	çita	çitalar çitanın çitayı
+15	8215	dalgın	dalgınsın dalgınım
+16	8216	patak	patakla patakladı patakladım pataklama pataklamak pataklamaya pataklamış pataklar pataklardım pataklarım pataklayacak pataklayalım pataklayan pataklayın pataklayıp pataklıyor
+17	8217	pietro	
+18	8218	kâfi	kâfidir
+19	8219	vektör	vektörler vektörleri vektörü
+20	8220	eros	
+21	8221	zekât	zekat
+22	8222	briç	briçe
+23	8223	nikel	
+24	8224	tahvil	tahvili tahviller tahvilleri tahvillerin
+25	8225	uzuv	uzuvlar uzuvları uzuvların uzuvlarını uzuvlarının uzvu uzvun uzvunu
+26	8226	münazara	münazarada münazaraya münazarayı
+27	8227	kırgın	kırgınsın kırgınım
+28	8228	daracık	
+29	8229	mirasçı	mirasçıları mirasçım mirasçısı
+30	8230	bone	bonesi
+31	8231	besi	besili besim besime besine besini besinin
+32	8232	mahzur	mahzuru
+33	8233	ekosistem	ekosistemi ekosistemin
+34	8234	panayır	panayıra panayırda panayırdan panayırı panayırında
+35	8235	silinmek	silinir silinme
+36	8236	burunlu	
+37	8237	tiz	
+38	8238	yıkık	
+39	8239	sonlanmak	sonlanacak sonlanan sonlandı sonlandığı sonlanmadı sonlanmayacak sonlanmış sonlanır sonlanıyor
+40	8240	atik	
+41	8241	fizyoloji	fizyolojisi fizyolojisini
+42	8242	selahaddin	
+43	8243	random	
+44	8244	programcı	programcılar programcısı
+45	8245	eskimo	eskimolar eskimoların
+46	8246	sıyrık	sıyrıklar sıyrıkları sıyrığı
+47	8247	düzmek	düzdü düzdüm düzdün düze düzecek düzeceğim düzerim düzerken düzeyim düzmeye düzüyor düzüyorsun düzüyorum
+48	8248	jale	
+49	8249	rtük	
+50	8250	terakki	
+51	8251	ötv	
+52	8252	azarlamak	azarla azarladı azarladım azarladın azarlama azarlamaya azarlandım azarlanmak azarlar azarlayacak azarlayıp azarlıyor azarlıyorsun
+53	8253	vicdani	
+54	8254	bilgisayarlı	
+55	8255	diyafram	diyaframdan diyaframı diyaframın diyaframını
+56	8256	elebaşı	elebaşları elebaşını
+57	8257	alain	
+58	8258	haçlılar	haçlıların
+59	8259	galaktik	
+60	8260	ifa	
+61	8261	moloz	molozlar molozları molozların
+62	8262	nöroloji	nörolojiye
+63	8263	sinüs	sinüsleri sinüslerim
+64	8264	star	star'da starla starlar starları starı starım starın
+65	8265	tokyo	tokyo'da tokyo'ya
+66	8266	tesadüfi	
+67	8267	terhis	
+68	8268	sergilemek	sergiler
+69	8269	dertli	dertlisin
+70	8270	naneli	
+71	8271	tutkal	tutkalla tutkalı
+72	8272	eyer	eyere eyeri eyerin eyerini
+73	8273	çelmek	çeldi çeldin çelen çeliyor çelme çelmeye çelmiş
+74	8274	marihuana	marihuananın marihuanayı
+75	8275	açgözlülük	açgözlülükle açgözlülükten açgözlülüğe açgözlülüğü açgözlülüğün
+76	8276	simetrik	
+77	8277	bölünmez	
+78	8278	ziyadesiyle	
+79	8279	aritmetik	
+80	8280	demografik	
+81	8281	kumpas	kumpasa
+82	8282	karizma	karizmam karizman karizmanı karizması karizmayı
+83	8283	kemirgen	kemirgeni kemirgenin kemirgenler kemirgenleri kemirgenlerin
+84	8284	aparmak	apar aparsın
+85	8285	mors	morstan
+86	8286	müşavirlik	müşavirliği
+87	8287	hararet	hararetle hararetli
+88	8288	cıva	cıvayı
+89	8289	tk	
+90	8290	telef	telefi
+91	8291	karakaş	
+92	8292	sindirmek	sindir sindiremiyorum sindirme sindirmem sindirmeye
+93	8293	aktivist	aktivisti aktivistler
+94	8294	bayır	bayıra bayırda bayırdan bayırı bayırın
+95	8295	gıcır	
+96	8296	maydanoz	maydonoz
+97	8297	şınav	
+98	8298	semra	
+99	8299	yaraşmak	yaraşır
+100	8300	başyapıt	başyapıtı başyapıtım başyapıtını

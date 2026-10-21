@@ -1,0 +1,100 @@
+1	4601	evlatlık	evlatlıktan evlatlığı evlatlığım
+2	4602	fidan	fidanlar fidanı
+3	4603	fidye	fidyeci fidyeciler fidyecilerin fidyenin fidyesi fidyeyi fidyeyle
+4	4604	düzensiz	
+5	4605	tempo	tempoda tempolu temponu temponun temposu temposunu tempoya tempoyla tempoyu
+6	4606	penguen	penguene pengueni penguenin penguenler penguenlere penguenleri penguenlerin penguenlerle
+7	4607	köpük	köpükle köpükler köpükleri köpükten köpüğe köpüğü köpüğün köpüğünü
+8	4608	çit	çite çiti çitin çitini çitle çitler çitlerde çitlerden çitlere çitleri çitlerin çitlerini çitlerle çitli çitte çitten
+9	4609	modül	modülde modüle modüller modülleri modülü modülün modülünde modülüne modülünü modülünün
+10	4610	tahrip	
+11	4611	eksi	eksiler eksileri eksilerini
+12	4612	ziyafet	ziyafete ziyafeti ziyafetin ziyafetinde ziyafetine ziyafetini ziyafetler ziyafette ziyafetten
+13	4613	liberal	liberaller liberallerin
+14	4614	şükret	şükredecek şükredeceğim şükredelim şükrederek şükrederim şükredin şükrediyor şükrediyorum şükrediyoruz şükretmek şükretmeli şükretmeliyim şükretmeliyiz şükretmemiz şükretmeyi şükretsin şükrettim
+15	4615	menfaat	menfaati menfaatim menfaatin menfaatine menfaatini menfaatleri menfaatlerini
+16	4616	tedarik	tedariki tedarikli tedariği
+17	4617	def	defin
+18	4618	havalandırmak	havalandır havalandıralım havalandırma havalandırmalı havalandırmaya havalandırın
+19	4619	hıyar	hıyara hıyarla hıyarlar hıyarları hıyarların hıyarsın hıyarı hıyarım hıyarın
+20	4620	cips	cipsi cipsim cipsin cipsini cipsle cipsler cipslerden cipsleri cipslerini
+21	4621	camia	camiada camianın camiası camiasına camiasında camiasının camiaya
+22	4622	sıkıntılı	
+23	4623	çarpan	
+24	4624	irfan	
+25	4625	çekiç	çekice çekicim çekicimi çekicin çekicini çekicinin çekiçle çekiçler çekiçleri çekiçli
+26	4626	aygıt	aygıta aygıtlar aygıtları aygıtlarını aygıtı aygıtın aygıtına aygıtını aygıtının
+27	4627	lindsay	
+28	4628	albayrak	albayrak'ın
+29	4629	paraşüt	paraşütle paraşütler paraşütleri paraşütlü paraşütsüz paraşütü paraşütüm paraşütün paraşütünü
+30	4630	ahiret	ahirete ahireti ahirette
+31	4631	dolunay	dolunaya dolunayda dolunaydan dolunaylı dolunayı dolunayın dolunayında
+32	4632	yudum	yudumda yudumdan yudumlar yudumu
+33	4633	barınak	barınaklar barınaklara barınakları barınakta barınaktaki barınaktan barınağa barınağı barınağın barınağına barınağında barınağından barınağını
+34	4634	aylarca	
+35	4635	çalışkan	çalışkandı çalışkandır çalışkanlar çalışkansın çalışkanım
+36	4636	tik	tiki tikim
+37	4637	buzlu	
+38	4638	lobi	lobide lobideki lobiden lobideyim lobinin lobisi lobisinde lobisine lobiye lobiyi
+39	4639	aleyh	aleyhi aleyhimde aleyhime aleyhimizde aleyhimize aleyhindeki aleyhinizde aleyhinize aleyhlerinde aleyhlerine aleyhte
+40	4640	montaj	montaja montajda montajı montajını
+41	4641	milliyet	milliyeti
+42	4642	çekmece	çekmecede çekmecedeki çekmeceden çekmeceler çekmecelerde çekmecelerden çekmecelere çekmeceleri çekmecelerin çekmecelerini çekmecem çekmecemde çekmeceme çekmecemi çekmecen çekmecende çekmecene çekmeceni çekmecenin çekmecesi çekmecesinde çekmecesinden çekmecesine çekmecesini çekmeceye çekmeceyi
+43	4643	ırmak	ırmaklar ırmağa ırmağı ırmağın ırmağının
+44	4644	mümin	müminin müminler müminlere müminlerin
+45	4645	vazife	vazifelerini vazifem vazifemi vazifemiz vazifemizi vazifen vazifeni vazifeniz vazifesi vazifesini vazifeye vazifeyi
+46	4646	avrupalı	
+47	4647	yatırımcı	yatırımcılar yatırımcıları yatırımcıların yatırımcının
+48	4648	huy	huya huylar huyları huylarım huylarını huyu huyudur huyum huyumu huyun huyuna huyundan huyunu huyunuz
+49	4649	kapitalizm	kapitalizme kapitalizmi kapitalizmin
+50	4650	jeneratör	jeneratörden jeneratöre jeneratörler jeneratörleri jeneratörlerini jeneratörü jeneratörümüz jeneratörün jeneratörüne jeneratörünü
+51	4651	araşmak	araştırmak
+52	4652	komple	
+53	4653	hoşgörü	hoşgörülü hoşgörün hoşgörünün hoşgörüyle hoşgörüyü
+54	4654	barut	baruta barutla baruttan barutu barutumuz barutun
+55	4655	zerre	zerrecikler zerreler zerreleri zerresi zerresine zerresini
+56	4656	siper	siperde siperden sipere siperi siperin siperler siperlerde siperlerden siperlere siperleri
+57	4657	sterlin	sterlinden sterline sterlini sterlinin sterlinle sterlinlik
+58	4658	kavanoz	kavanoza kavanozda kavanozdaki kavanozdan kavanozlar kavanozlara kavanozları kavanozu kavanozun kavanozuna kavanozunda kavanozundan kavanozunu kavanozunun
+59	4659	zayıflık	zayıflıklar zayıflıkları zayıflıklarımdan zayıflıklarımızı zayıflıklarından zayıflıklarını zayıflıktan zayıflıktır zayıflığa zayıflığı zayıflığım zayıflığımı zayıflığın zayıflığına zayıflığından zayıflığını zayıflığının
+60	4660	telif	
+61	4661	kaide	kaide'nin kaide'ye kaidenin kaidesi kaideyi
+62	4662	mantıksız	mantıksızdı mantıksızdır
+63	4663	huzursuz	
+64	4664	kil	kilden kile kili killer killi
+65	4665	kurutmak	kurudu kurudum kurut kurutacak kurutacağım kurutalım kurutan kurutma kurutmaya kurutmuş kuruttu kuruttum kuruttun kurutup kurutur kuruturum kurutuyor kurutuyorum
+66	4666	kolaylık	kolaylıklar kolaylığı
+67	4667	tescil	tescili tescilli
+68	4668	antalyaspor	antalyaspor'a antalyaspor'da antalyaspor'un
+69	4669	stajyer	stajyere stajyeri stajyerim stajyerimiz stajyerin stajyerken stajyerle stajyerler stajyerlerden stajyerlere stajyerleri stajyerlerin stajyerlerle stajyersin
+70	4670	omurga	omurgada omurgadaki omurgadan omurgalı omurgam omurgama omurgamı omurgan omurgana omurganı omurganın omurgası omurgasına omurgasında omurgasından omurgasını omurgasının omurgasız omurgaya omurgayı
+71	4671	keman	kemana kemanla kemanlar kemanı kemanım kemanımı kemanın kemanını
+72	4672	ahlaksız	ahlaksızlar ahlaksızsın ahlaksızın
+73	4673	hüzün	hüzne hüznü hüznün hüznünü hüzünden hüzünle hüzünlüydü
+74	4674	piramit	piramide piramidi piramidin piramidinin piramitler piramitlerden piramitlere piramitleri piramitlerin piramitte piramitten
+75	4675	şemsiye	şemsiyeler şemsiyeleri şemsiyeli şemsiyem şemsiyemi şemsiyen şemsiyeni şemsiyenin şemsiyeniz şemsiyesi şemsiyesini şemsiyeye şemsiyeyi şemsiyeyle
+76	4676	ırkçılık	ırkçılıkla ırkçılıktan ırkçılığa ırkçılığı ırkçılığın
+77	4677	bahşiş	bahşişe bahşişi bahşişin bahşişini bahşişle bahşişler bahşişlerden bahşişleri bahşişlerin bahşişlerini bahşişlerle
+78	4678	kına	kınama kınanması
+79	4679	lük	
+80	4680	kürk	kürke kürkle kürkler kürkleri kürklerini kürkü kürküm kürkümü kürkün kürkünden kürküne kürkünü kürkünün
+81	4681	huysuz	huysuzdu huysuzdur huysuzlaşıyor huysuzsun huysuzum huysuzun
+82	4682	eğitmen	eğitmene eğitmeni eğitmenim eğitmenimiz eğitmenin eğitmeniniz eğitmeniyim eğitmenler eğitmenleri
+83	4683	bulaşıcı	bulaşıcıdır
+84	4684	otomotiv	
+85	4685	plazma	plazmanın plazması plazmaya plazmayı
+86	4686	hakiki	
+87	4687	imar	imara
+88	4688	pırıl	
+89	4689	sikik	
+90	4690	ari	
+91	4691	tercüman	tercümana tercümanı tercümanım
+92	4692	özgürce	
+93	4693	öç	öce öcü öcüler öcümü öcümüzü öcünü
+94	4694	martin	martin'in martine martini martiniler martinileri martininin martiniye martiniyi
+95	4695	liseli	
+96	4696	teknisyen	teknisyene teknisyeni teknisyenim teknisyenimiz teknisyenin teknisyenini teknisyeninin teknisyeniyim teknisyenler teknisyenlere teknisyenleri teknisyenlerimiz teknisyenlerin
+97	4697	dolaşım	dolaşıma dolaşımı dolaşımın dolaşımına dolaşımında dolaşımını dolaşımının
+98	4698	halat	halata halatla halatlar halatlara halatları halatların halattan halatı halatın halatını
+99	4699	röntgen	röntgende röntgenden röntgene röntgeni röntgeninde röntgenine röntgenini röntgenler röntgenlerde röntgenlere röntgenleri röntgenlerine röntgenlerini
+100	4700	semih	

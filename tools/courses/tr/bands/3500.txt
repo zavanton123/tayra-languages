@@ -1,0 +1,100 @@
+1	3401	güçlenmek	güçlen güçlendi güçlendikçe güçlendiler güçlendim güçlendirilmiş güçlendirmek güçlendiği güçlenecek güçlenen güçlenerek güçlenip güçlenir güçleniyor güçleniyordu güçleniyorlar güçleniyorsun güçleniyorum güçleniyoruz güçlenmeye güçlenmiş güçlenmişsin
+2	3402	cevaplamak	cevapla cevapladı cevapladım cevapladın cevaplama cevaplamadan cevaplamadı cevaplamadın cevaplamaktan cevaplamalıyım cevaplamam cevaplamamı cevaplaman cevaplamanı cevaplaması cevaplamaya cevaplamayacağım cevaplamayı cevaplamıyor cevaplamıyorsun cevaplamış cevaplanacak cevaplandı cevaplanmamış cevaplanması cevaplar cevaplarsan cevaplarsın cevaplasın cevaplayabilir cevaplayabilirim cevaplayacak cevaplayacaksın cevaplayacağım cevaplayamam cevaplayayım cevaplayın cevaplıyor cevaplıyorum
+3	3403	dayanıklı	dayanıklıdır dayanıklılar dayanıklısın dayanıklıydı dayanıklıymış dayanıklıyım dayanıklıyımdır
+4	3404	kılık	kılıkla kılıklılar kılıkta kılığa kılığı kılığına kılığında kılığındaki kılığını
+5	3405	galaksi	galakside galaksideki galaksiden galaksiler galaksilerde galaksilerden galaksilere galaksileri galaksilerin galaksimiz galaksimizde galaksimizdeki galaksimizden galaksimize galaksimizin galaksinin galaksisi galaksisinde galaksisinin galaksiye galaksiyi
+6	3406	kerim	kerim'i kerim'in
+7	3407	sabırlı	
+8	3408	kaplamak	kapla kapladı kapladılar kapladım kapladığı kaplamalı kaplamam kaplamaya kaplamış kaplamıştı kaplanmış kaplar kaplayacak kaplayacağım kaplayacağız kaplayan kaplayarak kaplayın kaplayıp kaplıyor kaplıyordu kaplıyorlar kaplıyorsun
+9	3409	kont	konta kontla kontu kontum kontun kontunun
+10	3410	alıntı	alıntıdır alıntılar alıntıları alıntısı alıntıydı alıntıyı
+11	3411	bulgu	bulgular bulgulara bulgularla bulguları bulgularım bulgularımı bulgularımızı bulguların bulgularına bulgularını bulgularınızı bulgusu bulguya
+12	3412	kumaş	kumaşa kumaşla kumaşlar kumaşlardan kumaşları kumaşların kumaşta kumaştan kumaşı kumaşın kumaşına kumaşından kumaşını
+13	3413	şayet	
+14	3414	post	postları postu postumu postun postuna postunu postunun
+15	3415	altyazı	altyazıda altyazılar altyazıları altyazılı altyazıyı
+16	3416	voleybol	voleybolda voleybolu
+17	3417	camii	
+18	3418	nabız	nabza nabzı nabzım nabzımı nabzın nabzına nabzını nabzının nabzınız nabzınızı nabızsız
+19	3419	yararlanmak	yararlan yararlanabilir yararlanabilirim yararlanabiliriz yararlanabilirsin yararlanacak yararlanacağım yararlanalım yararlanan yararlanarak yararlandı yararlandım yararlandın yararlandığı yararlanma yararlanmalıyız yararlanmaya yararlanmış yararlanın yararlanıp yararlanır yararlanıyor yararlanıyorlar yararlanıyorsun
+20	3420	dâhil	dâhili dâhilinde
+21	3421	fiş	fişe fişi fişim fişimi fişin fişini fişiniz fişinizi fişler fişlere fişleri fişlerimi fişlerin fişlerini fişlerle fişten
+22	3422	grev	grevde grevden grevdeyiz greve grevi grevin grevinde grevine grevini grevle grevler grevleri
+23	3423	dikiş	dikişe dikişi dikişin dikişler dikişlere dikişleri dikişlerim dikişlerin dikişlerini dikişte dikişten
+24	3424	riskli	
+25	3425	fantezi	fanteziden fanteziler fantezilere fantezileri fantezilerim fantezilerimi fantezilerin fantezilerinden fantezilerine fantezilerini fantezilerinin fantezim fantezin fantezini fantezinin fantezisi fantezisine fantezisini fanteziydi fanteziye fanteziyi
+26	3426	ayrıcalık	ayrıcalıklar ayrıcalıklara ayrıcalıkları ayrıcalıkların ayrıcalıklarını ayrıcalıklı ayrıcalıktı ayrıcalıktır ayrıcalığa ayrıcalığı ayrıcalığım ayrıcalığın ayrıcalığına ayrıcalığını
+27	3427	teslimat	teslimata teslimatla teslimatlar teslimatları teslimatlarını teslimatta teslimattan teslimatçı teslimatçısı teslimatı teslimatımız teslimatın teslimatına teslimatını teslimatınız
+28	3428	yokluk	yoklukta yokluktan yokluğa yokluğu yokluğum yokluğumda yokluğumu yokluğun yokluğuna yokluğunda yokluğundan yokluğunu yokluğunun yokluğunuzda
+29	3429	mimarlık	mimarlığı
+30	3430	işemek	işe işedi işediler işedim işedin işediği işediğim işediğin işeme işemedim işemeliyim işemem işememe işemeye işemiş işemişsin işemişti işemiştim işer işerdi işerim işerken işersin işeyebilir işeyebilirim işeyecek işeyeceksin işeyeceğim işeyemem işeyen işeyerek işeyeyim işeyip işiyor işiyordu işiyordum işiyorlar işiyorsun işiyorum
+31	3431	muhtaç	muhtacım muhtacız muhtaçlar muhtaçlara muhtaçsın muhtaçtı muhtaçtır
+32	3432	popo	popodan popolar popoları popolarına popolarını popolarınızı popolu popom popoma popomda popomdan popomla popomu popomun popon popona poponda popondan poponla poponu poponun poponuzu poposu poposuna poposunda poposundaki poposundan poposunu poposunun poposuyla popoya popoyu
+33	3433	evre	evrede evreden evreleri evrelerinde evrelerini evrenin evresi evresinde evresinden evresine evresini evreye evreyi
+34	3434	kanepe	kanepede kanepedeki kanepeden kanepeler kanepeleri kanepem kanepemde kanepeme kanepemi kanepemiz kanepen kanepende kanepene kanepenin kanepesi kanepesinde kanepeye kanepeyi kanepeyle
+35	3435	çürümek	çürü çürüdü çürüme çürümekte çürümesi çürümeye çürümüş çürümüştü çürür çürürken çürürsün çürüsün çürüyecek çürüyeceksin çürüyen çürüyerek çürüyor çürüyorum çürüyüp
+36	3436	tamamıyla	
+37	3437	kurgu	kurgucu kurguda kurgudan kurgudur kurgunun kurgusu kurgusunu kurguya kurguydu kurguyu
+38	3438	hâkim	hâkime hâkimi hâkimin hâkimler
+39	3439	güncellemek	güncelle güncelledi güncelledim güncelleme güncellemesi güncellemeye güncelliyor güncelliyorum
+40	3440	fincan	fincana fincanda fincandan fincanlar fincanları fincanı fincanım fincanımı fincanın fincanına fincanını fincanının
+41	3441	aydınlatmak	aydınlat aydınlatabilir aydınlatabilirsin aydınlatacak aydınlatacağım aydınlatacağını aydınlatalım aydınlatan aydınlatayım aydınlatma aydınlatması aydınlatmaya aydınlatmayı aydınlatsın aydınlattı aydınlattın aydınlattığı aydınlattığın aydınlatın aydınlatır aydınlatıyor aydınlatıyordu aydınlatıyorsun
+42	3442	alkış	alkışa alkışlar alkışlarla alkışları alkışlarınız alkışlarınızla alkışlarınızı alkışı
+43	3443	raf	rafa raflar raflara raflarda raflardaki raflardan rafları rafların raflarında rafta raftaki raftan rafı rafın rafına rafında rafındaki
+44	3444	hücum	hücuma hücumda hücumu hücumuna
+45	3445	hane	hanede haneler haneli haneme hanenin hanesi hanesinde hanesinden hanesini hanesinin haneye haneyi
+46	3446	ajansı	
+47	3447	satranç	satranca satrancı satrancın satrançta satrançtan
+48	3448	ünite	üniteler üniteleri ünitelerin ünitelerini ünitenin ünitesi ünitesinde ünitesindeki ünitesinden ünitesine ünitesini ünitesinin üniteye üniteyi
+49	3449	adamak	adadı adadık adadılar adadım adadın adadığı adadığım adadığın adamalısın adamam adamaya adamış adamışlar adamışsın adamıştı adamıştım adar adarım adaya adayacak adayacağım adayan adayarak adayın adayınız adayıp adıyor adıyorsun adıyorum adıyoruz
+50	3450	başarısızlık	başarısızlıkla başarısızlıklar başarısızlıkları başarısızlıktan başarısızlıktı başarısızlığa başarısızlığı başarısızlığım başarısızlığımı başarısızlığımın başarısızlığın başarısızlığına başarısızlığını başarısızlığının
+51	3451	sihir	sihirden sihirdir sihirle sihirler sihirleri sihre sihri sihrim sihrimi sihrin sihrine sihrini sihrinin
+52	3452	tekerlekli	
+53	3453	pop	poplar
+54	3454	koalisyon	koalisyona koalisyonu koalisyonun
+55	3455	nam	namsan namı namım namıma namımı namın namına namını namınız
+56	3456	üstat	üstad üstada üstadı üstadım üstadın
+57	3457	radikal	radikaller radikalleri radikallerin
+58	3458	sözcü	sözcüleri sözcümüz sözcüsü sözcüsünün sözcüsüyüm
+59	3459	diken	dikene dikeni dikenine dikenler dikenlere dikenleri dikenlerin dikenlerini
+60	3460	yansıtmak	yansıt yansıtacak yansıtan yansıtarak yansıtma yansıtmalı yansıtmaya yansıtmaz yansıtmıyor yansıtmış yansıttı yansıttığı yansıtır yansıtıyor yansıtıyordu yansıtıyorlar yansıtıyorsun yansıtıyorum
+61	3461	yürürlük	yürürlükte yürürlükten yürürlüğe
+62	3462	beter	beterdi beterdir beteri beterim beterin beterini beterler beterleri beterlerini betermiş betersin betersiniz
+63	3463	mevki	mevkide mevkideki mevkiden mevkii mevkiler mevkilerde mevkilere mevkileri mevkilerine mevkilerini mevkili mevkim mevkimi mevkini mevkisi mevkisinde mevkisine mevkisini mevkiye mevkiyi
+64	3464	müddet	müddettir müddetçe
+65	3465	sözlü	
+66	3466	yayla	yaylada yaylalar yaylaları yaylan yaylanın yaylası yaylasında yaylaya
+67	3467	koz	koza kozadan kozalar kozan kozanın kozası kozasından kozaya kozlar kozları kozlarımızı kozlarını kozu kozum kozumu kozumuz kozumuzu kozun kozunu
+68	3468	zihinsel	
+69	3469	boks	boksa boksla boksta bokstan boksu boksun boksçu
+70	3470	ozan	ozanlar ozanı
+71	3471	otorite	otoriteden otoriteler otoritelere otoriteleri otoritelerin otoritem otoriteme otoritemi otoriten otoriteni otoritenin otoritenizi otoritesi otoritesine otoritesini otoritesinin otoriteye otoriteyi otoriteyle
+72	3472	karışıklık	karışıklıklar karışıklıklara karışıklıkları karışıklıkta karışıklıktan karışıklığa karışıklığı karışıklığın karışıklığına karışıklığından karışıklığını karışıklığının
+73	3473	beğeni	beğenin beğenisine beğenisini beğeniyle
+74	3474	diri	
+75	3475	yağlı	
+76	3476	stadyum	stadyuma stadyumda stadyumdaki stadyumdan stadyumu stadyumu'nda stadyumun stadyumuna stadyumunda stadyumunun
+77	3477	opera	operada operadaki operadan operanın operası operasında operasını operaya operayı
+78	3478	malum	malumu malumunuz
+79	3479	yargılamak	yargıla yargıladı yargıladım yargıladın yargıladığım yargılamadım yargılamam yargılamaya yargılamayacak yargılamayacağım yargılamayın yargılamaz yargılamıyor yargılamıyorum yargılamıyoruz yargılanan yargılar yargılarken yargılarsın yargılayabilir yargılayabilirsin yargılayacak yargılayacaklar yargılayacağım yargılayacağız yargılayamam yargılayamayız yargılayamaz yargılayamazsın yargılayamazsınız yargılayan yargılayın yargılayıp yargılıyor yargılıyorlar yargılıyorsun yargılıyorsunuz yargılıyorum yargılıyoruz
+80	3480	dağılım	dağılımları dağılımı dağılımına dağılımında dağılımını dağılımının
+81	3481	kademe	kademede kademeden kademelerinde kademeli kademesi kademesinde kademesine kademeye
+82	3482	teşkil	
+83	3483	savcılık	savcılıkla savcılıkta savcılıktaki savcılıktan savcılığa savcılığı savcılığın savcılığına savcılığında savcılığından savcılığının
+84	3484	germek	ger gerdi gerdiler gerdim gerdin gerdirme gerdiğini gere gerecek gerecekler gereceğim gereceğiz geren gerer gererek gererim gererler gerildiğinde gerildiğini gerilmesi gerin gerip geriyor geriyordu geriyorsun geriyorsunuz geriyorum germe germeye germeyi germiş
+85	3485	basamak	basamaklar basamaklara basamaklarda basamaklardan basamakları basamakların basamaklarında basamaklarını basamaklı basamakta basamaktan basamağa basamağı basamağın basamağına
+86	3486	lokanta	lokantada lokantadaki lokantadan lokantalar lokantalara lokantalarda lokantaları lokantam lokantanın lokantası lokantasına lokantasında lokantasından lokantasını lokantasının lokantaya lokantayı
+87	3487	refah	refaha refahı refahın refahına refahını
+88	3488	kanama	kanamalar kanamayı
+89	3489	bağımlılık	bağımlılıktan bağımlılığa bağımlılığı bağımlılığım bağımlılığın bağımlılığına bağımlılığından bağımlılığını bağımlılığının
+90	3490	odak	odakla odaklama odaklamak odaklandığını odaklanmamı odaklanmamız odaklanmamızı odaklanman odaklanmanı odaklanmanın odaklanmanız odaklanmanızı odaklanması odaklanmasına odaklanmasını odaklanmayı odaklar odakları odaklayın odağı odağında odağını
+91	3491	propaganda	propagandası propagandasını
+92	3492	esmer	esmerdi esmeri esmerim esmerler esmerleri
+93	3493	vaat	vaadi vaadinde vaadini vaadiyle vaatler vaatlerde vaatleri vaatlerini vaatlerle vaatte
+94	3494	hayli	
+95	3495	ham	hama
+96	3496	fasulye	fasulyeden fasulyeler fasulyeleri fasulyelerin fasulyelerini fasulyeli fasulyem fasulyenin fasulyesi fasulyeye fasulyeyi fasülye
+97	3497	harold	
+98	3498	mezuniyet	mezuniyete mezuniyeti mezuniyetim mezuniyetimde mezuniyetime mezuniyetimi mezuniyetin mezuniyetinde mezuniyetinden mezuniyetine mezuniyetini mezuniyette mezuniyetten
+99	3499	ayni	aynisi aynisini
+100	3500	bozucu	bozucular bozucuyu

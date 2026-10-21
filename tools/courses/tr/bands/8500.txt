@@ -1,0 +1,100 @@
+1	8401	har	harken
+2	8402	arsenik	arsenikle arseniği
+3	8403	ivmek	iv iver ivmesi
+4	8404	judo	
+5	8405	organizatör	organizatörler organizatörleri organizatörü
+6	8406	cömertçe	
+7	8407	abonelik	aboneliği aboneliğini
+8	8408	gencecik	
+9	8409	tıkalı	
+10	8410	çakı	çakımı çakın çakısı çakıyla çakıyı
+11	8411	noktalama	
+12	8412	engebeli	
+13	8413	antropoloji	
+14	8414	oksit	
+15	8415	salça	
+16	8416	naçizane	
+17	8417	penisilin	penisiline penisilini penisilinin
+18	8418	salaklık	salaklığı salaklığım salaklığın
+19	8419	ayrık	
+20	8420	kükürt	
+21	8421	kafile	kafilesi
+22	8422	çello	çelloyu
+23	8423	akasya	
+24	8424	takim	takimi takimin
+25	8425	jersey	jersey'de jersey'deki jerseyli
+26	8426	yalaka	yalakalar yalakaları yalakası
+27	8427	amaçsız	
+28	8428	ovmak	ov ovalar ovar ovayım ovma ovmaya
+29	8429	nahoş	
+30	8430	şehadet	
+31	8431	kirpik	kirpikler kirpikleri kirpiklerim kirpiklerin kirpiklerini
+32	8432	evvela	
+33	8433	kalleş	kalleşin kalleşler
+34	8434	vaktiyle	
+35	8435	musiki	musikisi
+36	8436	kalamar	kalamarı
+37	8437	bullak	
+38	8438	samimiyetle	
+39	8439	paçavra	paçavradan paçavralar paçavraları paçavraya paçavrayı
+40	8440	enformasyon	
+41	8441	kırlangıç	kırlangıcı kırlangıçlar
+42	8442	veyahut	
+43	8443	ambargo	ambargosu
+44	8444	kaşıntı	kaşıntım kaşıntın kaşıntısı kaşıntıyı
+45	8445	darlık	darlığı
+46	8446	bermuda	
+47	8447	kafiyeli	
+48	8448	jenerasyon	jenerasyona jenerasyondan jenerasyonu jenerasyonun jenerasyonunun
+49	8449	künye	künyeleri künyesi künyesini künyeyi
+50	8450	güzergâh	güzergâhta güzergâhı güzergâhını
+51	8451	derlemek	derlediği derlenen derler derlerdi derlermiş derlerse derleyip
+52	8452	ayartmak	ayart ayartan ayartma ayartmaya ayartmış ayarttı ayarttım ayarttın ayartıp ayartıyor
+53	8453	alçaltmak	alçalt alçaltabilir alçaltın alçaltır
+54	8454	kahvaltılık	
+55	8455	köprücük	
+56	8456	abdülaziz	
+57	8457	beylerbeyi	
+58	8458	bjk	
+59	8459	error	
+60	8460	fatiha	
+61	8461	gürel	
+62	8462	kemalist	
+63	8463	sultanahmet	
+64	8464	torbalı	
+65	8465	buru	buruna burunu
+66	8466	çöküntü	çöküntünün çöküntüye
+67	8467	fink	
+68	8468	senkron	
+69	8469	üçüncülük	üçüncülüğe üçüncülüğü
+70	8470	küreselleşme	
+71	8471	resmiyet	resmiyete resmiyeti resmiyette
+72	8472	haysiyet	haysiyeti haysiyetim haysiyetimi haysiyetin haysiyetini haysiyetli
+73	8473	kıvrak	
+74	8474	yüceltmek	yücelt yüceltecek yücelten yüceltin yüceltir yüceltiyor yüceltme yüceltmeye
+75	8475	peni	penilik peniye
+76	8476	aşılamak	aşıladı aşılama aşılamaya aşılamaz aşılanmış aşılar aşılayan aşılıyor
+77	8477	hilafet	hilafeti
+78	8478	turkuaz	
+79	8479	hacer	
+80	8480	polimer	
+81	8481	bebeklik	bebeklikten bebekliğimden bebekliğinden bebekliğini
+82	8482	denetçi	denetçiler denetçileri denetçisi
+83	8483	koreografi	koreografisini koreografiyi
+84	8484	brokoli	brokoliyi
+85	8485	buse	busesini
+86	8486	dinmek	dindi dine dinecek diner dinin dinince dininiz diniyor dinmedi dinmeyecek dinmeyen dinmez dinmiyor dinmiş dinsin
+87	8487	katıksız	
+88	8488	ahenk	ahengi ahenkle
+89	8489	yenidoğan	
+90	8490	kumru	kumrular kumruları
+91	8491	adak	adaklar adağı
+92	8492	korkusuzca	
+93	8493	ons	
+94	8494	akay	
+95	8495	sekte	sekteye
+96	8496	kundakçı	kundakçılar kundakçıları kundakçıların kundakçının kundakçıyı
+97	8497	saplantılı	saplantılısın saplantılıydı
+98	8498	büsbütün	
+99	8499	challenge	
+100	8500	nötron	nötronlar

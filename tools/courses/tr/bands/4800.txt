@@ -1,0 +1,100 @@
+1	4701	havai	
+2	4702	astsubay	astsubaylar astsubayı astsubayım astsubayın
+3	4703	antlaşmak	antlaşma antlaşması antlaşmaya
+4	4704	kapsül	kapsülde kapsülden kapsüle kapsüller kapsüllere kapsülleri kapsüllerin kapsüllerine kapsüllerini kapsülü kapsülün kapsülünde kapsülüne kapsülünü kapsülünün
+5	4705	öngörmek	öngördü öngördüğü öngördüğüm öngören öngörmüştü öngörülen öngörün öngörüyor öngörüyorum
+6	4706	şan	şana şanlar şanlısın şansın şansınız şanı şanın şanına şanını
+7	4707	gösterişli	
+8	4708	tarihî	tarihi
+9	4709	çanak	çanağa çanağı çanağın çanağına çanağını
+10	4710	saygıdeğer	
+11	4711	kirlilik	kirlilikten kirliliğe kirliliği kirliliğin kirliliğine kirliliğini kirliliğinin
+12	4712	iktisat	
+13	4713	kamil	kamille
+14	4714	tatmak	tada tadabilir tadabilirsin tadacak tadacaksın tadacaksınız tadacağım tadacağız tadalım tadan tadar tadayım tadın tadıyor tadıyorum tatma tatmadım tatmadın tatmadığım tatmalısın tatmam tatmamıştım tatmaya tatmış tatsana tattı tattım tattın tattığım
+15	4715	turşu	turşular turşuları turşusu turşusunu turşuya turşuyu
+16	4716	hayranlık	hayranlığı hayranlığım hayranlığımı hayranlığın hayranlığını
+17	4717	sürüş	sürüşe sürüşler sürüşü sürüşün sürüşüne sürüşünü
+18	4718	küvet	küvete küveti küvetim küvetimde küvetin küvetinde küvetine küvetini küvetleri küvette küvetteki küvetten
+19	4719	çevik	çeviklik çeviktir
+20	4720	biricik	biriciğim
+21	4721	krema	kremadan kremanın kreması kremasını kremaya kremayla kremayı
+22	4722	hızlandırmak	hızlandır hızlandırabilir hızlandırabilirim hızlandırabiliriz hızlandıracak hızlandıracağım hızlandıralım hızlandıran hızlandırdı hızlandırdım hızlandırma hızlandırmalıyız hızlandırmam hızlandırmaya hızlandırmış hızlandırın hızlandırıp hızlandırır hızlandırıyor hızlandırıyorum
+23	4723	koklamak	kokla kokladı kokladım kokladın kokladığım kokladığın koklama koklamaktan koklamaya koklamayı koklar koklarken koklarsın koklarım koklasana koklayabilir koklayabilirsin koklayabiliyorum koklayacak koklayacağım koklayan koklayarak koklayayım koklayın koklayıp kokluyor kokluyorsun kokluyorum
+24	4724	votka	votkadan votkalı votkam votkanın votkası votkaya votkayla votkayı
+25	4725	uyuşmak	uyuşacak uyuşan uyuşma uyuşmadı uyuşmaya uyuşmayan uyuşmuyor uyuşmuyordu uyuşmuyorlar uyuşmuş uyuştu uyuşturulmuş uyuşup uyuşur uyuşuyor uyuşuyordu
+26	4726	gişe	gişede gişedeki gişeden gişeleri gişesi gişesinde gişeye
+27	4727	aktris	aktrise aktrisi aktrisim aktrisin aktrisle aktrisler aktrislerden aktrisleri aktrislerle aktrissin aktristi aktristin aktörler
+28	4728	gökkuşağı	gökkuşakları gökkuşağına gökkuşağından gökkuşağını gökkuşağının
+29	4729	alışkın	alışkındı alışkındım alışkındır alışkınlar alışkınsın alışkınım alışkınız
+30	4730	bilal	
+31	4731	oyalamak	oyala oyaladı oyaladım oyaladın oyalama oyalamalıyız oyalaman oyalamaya oyalamayı oyalanmadan oyalanmayı oyalar oyalarken oyalarım oyalarız oyalayabilir oyalayabilirim oyalayacak oyalayacaksın oyalayacağım oyalayacağız oyalayamam oyalayan oyalayın oyalayıp oyalıyor oyalıyorlar oyalıyorsun oyalıyorum
+32	4732	temyiz	temyizde temyize temyizi
+33	4733	muhbir	muhbirden muhbirdi muhbire muhbiri muhbirim muhbirimi muhbirimin muhbirimiz muhbirin muhbirini muhbirinin muhbiriniz muhbirle muhbirler muhbirlerden muhbirlere muhbirleri muhbirlerimden muhbirlerin muhbirlerinden
+34	4734	tutuşmak	tutuş tutuşabilir tutuşacak tutuşalım tutuşan tutuşarak tutuşma tutuşması tutuşmaya tutuşmuş tutuşsun tutuştu tutuştuk tutuştular tutuştum tutuşturucu tutuştuğu tutuştuğunu tutuşun tutuşup tutuşur tutuşurken tutuşurlar tutuşuyor tutuşuyordu tutuşuyordum tutuşuyorlar tutuşuyorsun tutuşuyorum tutuşuyoruz
+35	4735	pierce	
+36	4736	kardinal	kardinale kardinali kardinalin kardinaller kardinalleri kardinallerin
+37	4737	karşılıksız	
+38	4738	kibirli	kibirlidir kibirliler kibirlisin kibirliydim kibirliyim
+39	4739	tahsis	tahsisi
+40	4740	dinî	dini
+41	4741	gelinlik	gelinlikle gelinlikler gelinliğe gelinliği gelinliğim gelinliğimi gelinliğin gelinliğini gelinliğinin
+42	4742	ağırlamak	ağırladı ağırladığımız ağırladığın ağırladığınız ağırlama ağırlamaktan ağırlamaya ağırlar ağırlarız ağırlayacak ağırlayacağım ağırlayacağız ağırlayan ağırlıyor ağırlıyoruz
+43	4743	kahramanlık	kahramanlıklar kahramanlıkları kahramanlıktan kahramanlığa kahramanlığı kahramanlığın kahramanlığını
+44	4744	süpürge	süpürgeden süpürgeler süpürgeleri süpürgemi süpürgen süpürgenin süpürgesi süpürgesine süpürgesini süpürgesiyle süpürgeye süpürgeyi süpürgeyle
+45	4745	sezgi	sezgiler sezgilere sezgileri sezgilerim sezgilerime sezgilerin sezgilerine sezgilerini sezgin sezgisi
+46	4746	poster	posterde posterdeki postere posteri posterim posterin posterine posterini posterler posterlere posterleri posterlerin posterlerini
+47	4747	kibrit	kibrite kibriti kibritim kibritin kibritiniz kibritle kibritler kibritleri kibritlerle
+48	4748	seramik	
+49	4749	benzersiz	benzersizdir
+50	4750	semptom	semptomlar semptomlara semptomlardan semptomları semptomların semptomlarına semptomlarını semptomlarının semptomu
+51	4751	hülya	
+52	4752	gangster	gangsterdi gangstere gangsteri gangsterim gangsterin gangsterle gangsterler gangsterlerden gangsterlere gangsterleri gangsterlerin gangsterlerle gangstersin
+53	4753	karga	kargacık kargalar kargalara kargaları kargaların karganın kargası kargaya kargayı
+54	4754	cani	caniler canileri canilerin canim canimi canin canini caninin canisin caniye caniyi
+55	4755	dolaylı	
+56	4756	kasıtlı	
+57	4757	lance	
+58	4758	bitiş	bitişe bitişi bitişine bitişini
+59	4759	ikramiye	ikramiyeler ikramiyeleri ikramiyem ikramiyemi ikramiyen ikramiyeni ikramiyenin ikramiyesi ikramiyesini ikramiyeyi
+60	4760	maurice	
+61	4761	kuantum	
+62	4762	tereyağı	tereyağına tereyağında tereyağından tereyağını tereyağının tereyağıyla
+63	4763	bazlı	
+64	4764	bulanık	bulanıktı
+65	4765	mayo	mayolar mayolarımızı mayolarınızı mayolu mayom mayomu mayon mayonu mayosu mayosunu mayoya mayoyla mayoyu
+66	4766	orgazm	orgazma orgazmdan orgazmlar orgazmı orgazmın orgazmını orgazmının
+67	4767	yök	yök'ün
+68	4768	çalı	çalıdan çalılar çalılara çalılarda çalılardan çalıları çalıların çalım çalının çalısı çalıya çalıyı
+69	4769	çokça	
+70	4770	çoğalmak	çoğalacak çoğalan çoğaldı çoğaldıkça çoğaldılar çoğalma çoğalması çoğalmaya çoğalmış çoğaltmak çoğalır çoğalırlar çoğalıyor çoğalıyorlar
+71	4771	kazara	
+72	4772	türbe	türbenin türbesi türbesini türbeye
+73	4773	taşımacılık	taşımacılığı taşımacılığında
+74	4774	firavun	firavun'un firavuna firavunlar firavunların firavunu firavunun
+75	4775	lütuf	lütfe lütfu lütfudur lütfun lütfuna lütfunda lütfunu lütfuyla lütufla lütufta lütuftu lütuftur
+76	4776	puşt	puşta puştla puştlar puştlara puştları puştların puştsun puştu puştun
+77	4777	tabiat	tabiata tabiatı tabiatım tabiatın tabiatına tabiatını
+78	4778	köstebek	köstebekler köstebekleri köstebeğe köstebeği köstebeğim köstebeğimiz köstebeğin
+79	4779	cinsellik	cinsellikten cinselliğe cinselliği cinselliğin
+80	4780	güçlük	güçlükler güçlüklere güçlükleri güçlüklerle güçlüğü
+81	4781	katalog	katalogda katalogdan kataloglar katalogları kataloğu kataloğuna kataloğunda kataloğunu
+82	4782	turistik	
+83	4783	hilal	
+84	4784	tok	tokum
+85	4785	şato	şatoda şatodaki şatodan şatolar şatom şatonun şatosu şatosuna şatosunda şatosunu şatosunun şatoya şatoyu
+86	4786	yenge	yengeciğim yengem yengeme yengemi yengemin yengemiz yengemle yengenin yengesi yengeyi
+87	4787	eklem	ekleme eklemi eklemler eklemlerde eklemleri eklemlerim eklemlerin eklemlerinde eklemlerine eklemlerini eklemli
+88	4788	muhafazakâr	muhafazakar muhafazakarlar muhafazakarların muhafazakârlar
+89	4789	portre	portreler portreleri portrelerini portrem portremi portreni portrenin portresi portresini portresinin portreyi
+90	4790	sarf	
+91	4791	tecrübeli	tecrübelidir tecrübelisin tecrübeliyim
+92	4792	zarfında	
+93	4793	telekom	
+94	4794	anayasal	
+95	4795	leziz	lezizdi lezizdir lezizler lezizmiş
+96	4796	fazıl	
+97	4797	mona	
+98	4798	paça	paçaları paçalarını paçamı paçamızı paçanı paçası paçasını paçayı
+99	4799	çelişki	çelişkiler çelişkileri çelişkilerle çelişkili çelişkinin çelişkiye çelişkiyi
+100	4800	dahili	dahilindeki

@@ -1,0 +1,100 @@
+1	5201	arife	arefe arefesi arefesinde arifesi arifesinde arifesindeyiz arifesine arifesini arifesiydi
+2	5202	kopyalamak	kopyala kopyaladı kopyaladık kopyaladım kopyaladın kopyalama kopyalamaya kopyalamayı kopyalamış kopyalandı kopyalanmış kopyalanıyor kopyalar kopyalarım kopyalayabilir kopyalayacağım kopyalayan kopyalayıcı kopyalayıp kopyalıyor kopyalıyorum
+3	5203	sosyalizm	sosyalizme sosyalizmi sosyalizmin
+4	5204	dayanılmaz	
+5	5205	palavra	palavradan palavralar palavraları palavralarına palavralarını palavrası palavraya palavraydı palavrayı
+6	5206	sera	serada seranın seraya serayı
+7	5207	port	porta portu
+8	5208	varış	varışı
+9	5209	kabir	kabri kabrini
+10	5210	kınamak	kınadı kınama kınayan kınıyor kınıyorum kınıyoruz
+11	5211	gür	gürler
+12	5212	klima	klimalar klimaları klimanın kliması klimaya klimayı
+13	5213	tufan	tufandan tufanı
+14	5214	bombardıman	bombardımana bombardımanda bombardımandan bombardımanı bombardımanın bombardımanına
+15	5215	gidişat	gidişata gidişatı gidişatın gidişatına gidişatında gidişatından gidişatını
+16	5216	alkollü	
+17	5217	başsağlığı	
+18	5218	azar	azarlar azarı
+19	5219	gore	goren
+20	5220	mahcup	mahcubum mahçup
+21	5221	aşağılamak	aşağıla aşağıladı aşağıladılar aşağıladım aşağıladın aşağıladınız aşağıladığı aşağıladığın aşağılamaya aşağılamış aşağılanmış aşağılar aşağılarsın aşağılayacak aşağılayamazsın aşağılayan aşağılayarak aşağılayıp aşağılıyor aşağılıyorsun aşağılıyorsunuz
+22	5222	beşer	beşeri
+23	5223	şahitlik	şahitlikten şahitliği şahitliğin şahitliğinde
+24	5224	şurası	
+25	5225	uyarla	uyarladım uyarlamak uyarlaması uyarlamasını uyarlanabilir uyarlanan uyarlandı uyarlanmış uyarlanmıştır
+26	5226	akıncı	akıncılar
+27	5227	kombinasyon	kombinasyonlar kombinasyonları kombinasyonu kombinasyonunu
+28	5228	batıl	
+29	5229	sulh	
+30	5230	tetikçi	tetikçiler tetikçilerden tetikçileri tetikçilerin tetikçimiz tetikçinin tetikçisi tetikçiye tetikçiyi tetikçiyle
+31	5231	bun	bunla bunula bunumu bununda
+32	5232	sürat	sürate sürati süratli
+33	5233	meditasyon	meditasyona meditasyonu meditasyonun
+34	5234	stresli	
+35	5235	medyum	medyuma medyumlar medyumlara medyumsun medyumu medyumum medyumun
+36	5236	ıso	
+37	5237	saplanmak	saplanacak saplanan saplandı saplandık saplandım saplandın saplandığı saplanmış saplanmıştı saplanıp saplanır saplanıyor
+38	5238	yerleşik	
+39	5239	duble	
+40	5240	patlak	patlağı
+41	5241	motive	
+42	5242	tükürmek	tükür tükürdü tükürdüler tükürdüm tükürdün tükürdüğü tükürdüğümü tükürdüğünü tükürecek tüküreceğim tüküren tüküreyim tükürme tükürmeye tükürmeyi tükürmüş tükürsen tükürün tükürüp tükürür tükürürdü tükürürüm tükürüyor tükürüyorlar tükürüyorsun tükürüyorum
+43	5243	ilik	iliklerime iliklerine iliği iliğimi iliğine iliğini
+44	5244	ironik	ironiktir
+45	5245	taktir	taktirde taktire
+46	5246	lojistik	
+47	5247	konserve	konserveler konserveleri konservesi konserveyi
+48	5248	yüzüstü	
+49	5249	sistematik	
+50	5250	tabur	tabura taburda taburdan taburlar taburları taburu taburun taburunu taburunun
+51	5251	metrekare	metrekarelik metrekaresi metrekareye
+52	5252	bedavaya	
+53	5253	konvoy	konvoya konvoyda konvoydan konvoyla konvoyları konvoyu konvoyun konvoyuna konvoyunu konvoyunun
+54	5254	fahri	
+55	5255	saptamak	sapta saptadı saptadık saptadılar saptadım saptama saptamalıyız saptamaya saptamış saptanmıştır saptayabilir saptayabiliriz saptayacak saptayamıyorum saptayıp saptıyor saptıyorum saptıyoruz
+56	5256	dolmuş	dolmuştur
+57	5257	matmazel	
+58	5258	titiz	titizdi titizdir titizim titizimdir titizlik titizsin
+59	5259	harç	harca harcanan harcı harcımı harcın harcını harçları
+60	5260	telaffuz	telaffuzu telaffuzun
+61	5261	kasmak	kasalar kasama kasan kasma kassam kastı kastım kastın kastınız kasıla kasılarak kasıldı kasılma kasılmaya kasılmış kasılıyor kasın kasıp kasıyorsun
+62	5262	algoritma	algoritmalar algoritmaları algoritmanın algoritması algoritmasını algoritmaya algoritmayı
+63	5263	endeks	endeksi indeks
+64	5264	ayyaş	ayyaşa ayyaşlar ayyaşların ayyaşsın ayyaştı ayyaşı ayyaşım ayyaşın
+65	5265	şimdilerde	
+66	5266	kaçamak	kaçamaklar kaçamakları kaçamaktan kaçamaktı kaçamağa kaçamağı kaçamağım kaçamağın kaçamağını
+67	5267	lahana	lahanadan lahanalar lahanaları lahanalı lahanası lahanasını lahanayı
+68	5268	meşe	meşeden meşenin meşesi meşeyi
+69	5269	istenmeyen	
+70	5270	tramvay	tramvaya tramvayda tramvaydan tramvayla tramvaylar tramvayı tramvayın
+71	5271	kasıt	kasta kastı kastım kastın kastınız kasıtlıydı
+72	5272	akustik	akustiği
+73	5273	çığır	çığırından
+74	5274	sicil	sicile sicili sicilim sicilime sicilimi sicilin sicilinde siciline sicilini sicilinin siciliniz sicilleri
+75	5275	emel	amal emelleri emellerine
+76	5276	jacques	
+77	5277	kertenkele	kertenkeleler kertenkeleleri kertenkelelerin kertenkelenin kertenkelesi kertenkeleye kertenkeleyi
+78	5278	muhatap	muhatabı
+79	5279	görülmemiş	
+80	5280	takıntı	takıntıları takıntım takıntın takıntını takıntısı takıntısını takıntıya
+81	5281	eyvallah	
+82	5282	dündar	dündar'ın
+83	5283	elektromanyetik	
+84	5284	küstah	küstahlaşma küstahsın küstahsınız küstahın
+85	5285	rezerv	rezervi rezervleri rezervlerini rezervlerinin
+86	5286	paskalya	paskalyada paskalyalar paskalyayı
+87	5287	medrese	medreseler medreseleri medresesi
+88	5288	yağma	yağmadan yağmalar yağması yağmasına yağmasını yağmaya
+89	5289	pastırma	bastırma bastırmadan bastırmam bastırman bastırmanın bastırması bastırmaya bastırmayı pastırmadan pastırması pastırmasını pastırmaya pastırmayla pastırmayı
+90	5290	sansür	sansüre sansürlü sansürü
+91	5291	hol	holde holdeki holden holler holü holün
+92	5292	ayaklı	
+93	5293	kestirme	kestirmeden kestirmeler kestirmem kestirmen kestirmesi kestirmeye kestirmeyi
+94	5294	epeyce	
+95	5295	konsolosluk	konsoloslukta konsolosluktaki konsolosluktan konsolosluğa konsolosluğu konsolosluğun konsolosluğuna konsolosluğunda konsolosluğundan
+96	5296	broşür	broşürde broşüre broşürler broşürlerde broşürlerden broşürlere broşürleri broşürlerini broşürü broşürün broşürünü
+97	5297	kuaför	kuaförde kuaförden kuaföre kuaförler kuaförlük kuaförü kuaförüm kuaförün
+98	5298	zorunluluk	zorunluluklar zorunluluktan zorunluluktur zorunluluğu
+99	5299	gasp	gasptan
+100	5300	iksir	iksirden iksire iksiri iksirin iksirini iksirler iksirleri

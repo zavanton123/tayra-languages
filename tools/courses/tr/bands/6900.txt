@@ -1,0 +1,100 @@
+1	6801	programlanmak	programlanabilir programlandı programlandım programlandın programlandığı programlanmadım programlanmamış programlanmış programlanmıştı
+2	6802	eskişehirspor	eskişehirspor'un
+3	6803	yapımcılık	yapımcılığı yapımcılığını
+4	6804	dumanlı	
+5	6805	yarımada	yarımadası yarımadası'nın yarımadasının
+6	6806	asayiş	asayişi
+7	6807	raunt	raunda raundu raundun rauntluk rauntta raunttan
+8	6808	erkeksi	
+9	6809	gütmek	güden güder güdüyor gütme gütmeden gütmeye gütmeyen
+10	6810	emisyon	emisyonları emisyonu
+11	6811	toy	toya toydum toysun
+12	6812	salya	salyalar salyaları salyaların salyalarını salyalı salyan salyası salyasını
+13	6813	rakun	rakuna rakunlar rakunları rakunların rakunu rakunun
+14	6814	kavak	kavağa
+15	6815	uğurla	uğurladı uğurlama uğurlamak uğurlamaya uğurlandı uğurlarken uğurlayalım uğurlayayım uğurluyoruz
+16	6816	harem	haremde hareme haremi haremin haremine
+17	6817	haliç	
+18	6818	çamlıca	
+19	6819	bürokrasi	bürokrasiden bürokrasinin bürokrasisi bürokrasiye bürokrasiyi bürokrasiyle
+20	6820	karamsar	karamsarsın
+21	6821	teleskop	teleskobu teleskobun teleskobunu teleskopla teleskoplar teleskoplarla teleskopları teleskoptan
+22	6822	atasözü	atasözleri atasözünü
+23	6823	donör	donörden donöre donörü donörümüz donörün
+24	6824	fazlalık	fazlalıkları fazlalığı
+25	6825	dairesel	
+26	6826	molla	
+27	6827	şayan	şayandı
+28	6828	püre	püreli püresi püresine püresini
+29	6829	hollywood	hollywood'a hollywood'da hollywood'un
+30	6830	birincilik	
+31	6831	fışkırmak	fışkıracak fışkıran fışkırdı fışkırma fışkırmaya fışkırmış fışkırtan fışkırır fışkırıyor fışkırıyordu
+32	6832	başkomutan	başkomutanı başkomutanın
+33	6833	meşale	meşaleler meşaleleri meşalelerle meşalesi meşaleyi
+34	6834	astronomi	astronomide astronominin
+35	6835	oyalanmak	oyalan oyalanacak oyalandı oyalandık oyalandım oyalandın oyalanma oyalanmaya oyalanmayalım oyalanmayın oyalanıp oyalanırken oyalanıyor oyalanıyordum oyalanıyorsun oyalanıyorum oyalanıyoruz
+36	6836	dedektiflik	dedektifliğe dedektifliği
+37	6837	tüyo	tüyolar tüyoları tüyosu tüyosunu tüyoyu
+38	6838	viraj	viraja virajda virajdan virajlar virajlarda virajları virajlı virajı virajın
+39	6839	bileşim	bileşime bileşimi bileşimin bileşimini bileşimler
+40	6840	çıldırtmak	çıldırtabilir çıldırtacak çıldırtan çıldırtma çıldırtmaya çıldırtmış çıldırttı çıldırtır çıldırtırdı çıldırtıyor çıldırtıyordu çıldırtıyorsun
+41	6841	mazi	mazide mazimiz mazinin mazisi maziye maziyi
+42	6842	spagetti	spagettiye spagettiyi
+43	6843	sevap	sevabı sevabına
+44	6844	kısacık	
+45	6845	ithaf	
+46	6846	cezaev	cezaevi'nde cezaevi'ne cezaevindeki
+47	6847	pirzola	pirzolalar pirzolaları pirzolam pirzolası pirzolasını pirzolaya pirzolayı
+48	6848	kobra	kobralar kobranın kobrayı
+49	6849	pırlanta	pırlantalar
+50	6850	püf	püften
+51	6851	lenf	
+52	6852	imge	imgeler imgeleri imgesi imgeyi
+53	6853	yorgan	yorgana yorganı yorganın
+54	6854	ılıca	ılıcalı ılıcalı'nın
+55	6855	sabotaj	sabotaja sabotajdan sabotajı
+56	6856	formasyon	formasyonu
+57	6857	vasıf	vasfı vasıflar vasıflara vasıfları vasıflarını vasıflı
+58	6858	suşi	suşisi suşiye suşiyi
+59	6859	annecik	anneciğe anneciği anneciğimi anneciğin anneciğine anneciğini anneciğinin
+60	6860	servi	selvi
+61	6861	açgözlü	açgözlüler açgözlüsün açgözlüydü açgözlüyüm
+62	6862	yakut	yakutlar yakutu
+63	6863	sac	
+64	6864	rasyonel	
+65	6865	cankurtaran	cankurtaranlar cankurtaransın cankurtaranı cankurtaranım
+66	6866	baraka	barakada barakadaki barakadan barakalar barakalara barakalarda barakaları barakaların barakanın barakası barakasına barakasında barakaya barakayı
+67	6867	ananas	ananaslar ananaslı ananası
+68	6868	ke	
+69	6869	baklava	
+70	6870	yasaklı	
+71	6871	magnezyum	
+72	6872	ansiklopedi	ansiklopedisi
+73	6873	karne	karneler karneleri karnemi karnen karneni karnesi karnesini karneye karneyle
+74	6874	ultrason	ultrasona ultrasonda ultrasonla ultrasonu
+75	6875	jilet	jileti jiletle jiletler
+76	6876	kamış	kamışla kamışları kamışı kamışın kamışını
+77	6877	hisar	hisara hisarda hisardan hisarı hisarın
+78	6878	bozgun	bozguna
+79	6879	daktilo	daktiloda daktilomu daktilonun daktilosu daktiloya daktiloyla daktiloyu
+80	6880	tükenmez	
+81	6881	mankafa	mankafalar mankafalı mankafanın mankafasın mankafaya mankafayı
+82	6882	midye	midyeler midyeleri midyesi
+83	6883	alsancak	
+84	6884	gaziantepspor	
+85	6885	bakımlı	
+86	6886	fire	
+87	6887	baston	bastona bastonla bastonu bastonum bastonumu bastonun bastonunu bastonuyla
+88	6888	ralli	rallisi
+89	6889	benz	
+90	6890	bom	
+91	6891	salam	salamlı salamı
+92	6892	şoke	
+93	6893	saga	sagan
+94	6894	süresiz	
+95	6895	aygır	aygıra aygırlar aygırları aygırı aygırım aygırın aygırını
+96	6896	diskalifiye	
+97	6897	kelam	kelamı kelamını
+98	6898	tahribat	tahribata tahribatı tahribatın
+99	6899	bando	bandoda bandonun bandosu bandoya bandoyu
+100	6900	güvensiz	

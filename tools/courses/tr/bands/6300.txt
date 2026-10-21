@@ -1,0 +1,100 @@
+1	6201	öğün	öğünde öğünü öğünüdür
+2	6202	mıknatıs	mıknatısla mıknatıslar mıknatısları mıknatısı mıknatısın
+3	6203	ürpertici	ürperticiydi
+4	6204	acar	
+5	6205	felsefi	
+6	6206	piyanist	piyanisti piyanistim piyanistin
+7	6207	magnus	
+8	6208	ısıtma	ısıtmayı
+9	6209	kanarya	kanaryalar kanaryayı
+10	6210	gölet	gölete göleti göletin gölette göletten
+11	6211	papağan	papağana papağanlar papağanları papağanı papağanım papağanın
+12	6212	tokuşmak	tokuş tokuşa tokuştur tokuşturalım tokuşturma tokuşturun tokuşu
+13	6213	seyitmek	seyit
+14	6214	barzani	barzani'nin
+15	6215	tekila	tekiladan tekilaya tekilayla tekilayı
+16	6216	atletizm	
+17	6217	solgun	solgundu solgunsun
+18	6218	sad	sat satılan
+19	6219	damak	damağı damağım damağımda damağında
+20	6220	kraker	krakeri krakerin krakerle krakerler krakerlerden krakerleri
+21	6221	diplomasi	diplomasinin diplomasisi diplomasiye diplomasiyi
+22	6222	mazur	
+23	6223	varil	varilde varildeki varilden varile varili varilin variller varillere varilleri varillerin
+24	6224	konuşmacı	konuşmacılar konuşmacımız konuşmacısı konuşmacısın
+25	6225	emperyalist	emperyalistler emperyalistlerin
+26	6226	esirgemek	esirge esirgeme esirgemeyen esirgemeyin esirgesin esirgeyen
+27	6227	ilgisiz	
+28	6228	liyakat	
+29	6229	bozdağ	bozdağ'ın
+30	6230	tezahürat	tezahürata tezahüratlar tezahüratları tezahüratı
+31	6231	yaramazlık	yaramazlıklar yaramazlığı
+32	6232	kendince	
+33	6233	önleyici	
+34	6234	postacı	postacılar postacıları postacımız postacının postacısı postacıya postacıyla postacıyı postacıyım
+35	6235	hibrit	hibrid
+36	6236	kemoterapi	kemoterapiden kemoterapinin kemoterapiye kemoterapiyi kemoterapiyle
+37	6237	çocuklu	
+38	6238	beygir	beygiri
+39	6239	ortaklaşa	
+40	6240	hürmet	hürmetine hürmetle hürmetler hürmetlerimi
+41	6241	annemler	annemlerde annemlerden annemlere annemleri annemlerin annemlerle
+42	6242	dinamit	dinamite dinamiti dinamitin dinamitle dinamitler dinamitleri
+43	6243	vakum	vakuma vakumla vakumu vakumun
+44	6244	midilli	midilliler midillileri midillim midillinin midillisi midilliye midilliyi
+45	6245	monaco	
+46	6246	süreklilik	sürekliliği sürekliliğinde sürekliliğini
+47	6247	hardal	hardalla hardalı
+48	6248	marifet	marifeti marifetin marifetini marifetleri marifetlerini marifetli
+49	6249	menkul	
+50	6250	başçavuş	başçavuşu başçavuşum başçavuşun
+51	6251	tuncer	
+52	6252	kondom	kondomlar kondomları kondomu kondomun
+53	6253	secde	secdeye
+54	6254	aceleci	acelecisin
+55	6255	taziye	taziyelerimi taziyelerimizi taziyelerini
+56	6256	coca	
+57	6257	kazımak	kazıdı kazıdım kazıdın kazıma kazımaya kazımış kazımıştım kazır kazırım kazıya kazıyacak kazıyacağım kazıyacağız kazıyalım kazıyan kazıyarak kazıyor kazıyordu kazıyordum kazıyorlar kazıyorlardı kazıyorsun kazıyorsunuz kazıyorum kazıyoruz kazıyın kazıyıp
+58	6258	akümülatör	akü aküleri akülü akünün aküsü aküsünü aküye aküyü
+59	6259	sandal	sandala sandalda sandalla sandallar sandalları sandalı sandalın
+60	6260	fethullah	fethullahçı
+61	6261	bekâr	bekârlar bekârım
+62	6262	gazap	gazabı gazabımı gazabına gazabından gazabını gazabının gazabıyla
+63	6263	talih	talihe talihi talihim talihimiz talihin talihine talihini talihinin
+64	6264	boynuzlu	
+65	6265	kurcalamak	kurcala kurcaladı kurcaladım kurcaladın kurcalama kurcalamaya kurcalamış kurcalanmış kurcalarken kurcalayan kurcalayıp kurcalıyor kurcalıyordu kurcalıyorsun
+66	6266	topluca	
+67	6267	komünizm	komünizme komünizmi komünizmin komünizmle
+68	6268	müstakbel	
+69	6269	çayır	çayıra çayırda çayırdaki çayırlar çayırlara çayırlarda çayırları çayırların çayırı çayırın
+70	6270	kestane	kestaneler kestaneleri kestanesi
+71	6271	duygusuz	duygusuzsun
+72	6272	gereklilik	gereklilikleri gerekliliği gerekliliğine gerekliliğini
+73	6273	geçerlilik	geçerliliği geçerliliğini
+74	6274	sosyete	sosyetede sosyeteden sosyetenin sosyetesi sosyetesinin sosyeteye
+75	6275	toksin	toksini toksinin toksinler toksinlerden toksinleri toksinlerin
+76	6276	kusurlu	kusurluydu
+77	6277	talim	talime talimi talimine
+78	6278	met	mette
+79	6279	gaga	gagalar gagaları gaganı gagası gagasını gagasıyla
+80	6280	çıt	çıta çıtayı çıtı
+81	6281	prestijli	
+82	6282	bilişsel	
+83	6283	esaret	esarete esareti esaretin esaretinden esaretten
+84	6284	pascal	
+85	6285	refleks	refleksi refleksini refleksler refleksleri reflekslerim reflekslerin reflekslerini refleksti
+86	6286	davacı	davacılar davacıların davacının davacıya davacıyı
+87	6287	öksürük	öksürüğü öksürüğüm öksürüğün
+88	6288	yükümlülük	yükümlülükler yükümlülükleri yükümlülüklerim yükümlülüklerini yükümlülüğü yükümlülüğüm yükümlülüğümüz yükümlülüğün yükümlülüğünü
+89	6289	cimri	cimridir cimriler cimrinin cimrisin
+90	6290	akıcı	
+91	6291	tebliğ	tebliği
+92	6292	güz	güze
+93	6293	edepsiz	
+94	6294	ılımlı	
+95	6295	esin	
+96	6296	nafaka	nafakadan nafakası nafakasını nafakayı
+97	6297	namussuz	namussuzlar namussuzu namussuzun
+98	6298	ishal	ishale ishali
+99	6299	katır	katıra katırla katırlar katırları katırı katırım katırın
+100	6300	serpmek	serp serpil serpildi serpilip serpilmiş serpin serpme serpti serptin

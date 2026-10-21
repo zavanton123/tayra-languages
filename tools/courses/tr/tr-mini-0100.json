@@ -1,0 +1,200 @@
+{
+  "id": "tr-mini-0100",
+  "rankUpTo": 100,
+  "level": "A1",
+  "title": "Evde ve ailede",
+  "description": "Ten short everyday stories about home and family: a new house, a new friend, cooking, a game of hide-and-seek, a working day and small kindnesses.",
+  "topic": "Home and family",
+  "names": [
+    "Ali",
+    "Ayşe",
+    "Leyla",
+    "Esra",
+    "Ömer",
+    "Hasan",
+    "Merve",
+    "Yusuf",
+    "Ahmet",
+    "Fatma",
+    "Burak",
+    "Cem",
+    "Ayla",
+    "Mehmet",
+    "İstanbul",
+    "Roma",
+    "Paris",
+    "Tokyo"
+  ],
+  "lessons": [
+    {
+      "title": "Yeni ev",
+      "summary": "Ali and Ayşe have a big new house, but no chairs, so Ali buys two.",
+      "newWords": [
+        "bir",
+        "bu",
+        "ve",
+        "çok",
+        "var",
+        "yok",
+        "ev",
+        "yeni",
+        "büyük",
+        "güzel"
+      ],
+      "text": "Ali ve Ayşe'nin yeni bir evi var. Bu ev çok büyük. Bu ev çok güzel.\n\n— Bu bizim yeni evimiz, diyor Ali. Ev çok büyük!\n— Evet, çok büyük ve çok güzel, diyor Ayşe.\n\nEvde ne var? Evde büyük bir masa var. Masa da yeni. Evde ne yok? Evde sandalye yok!\n\n— Ali, bu evde sandalye yok, diyor Ayşe.\n— Evet, yok. Ben iki yeni sandalye almak istiyorum, diyor Ali.\n\nAli iki sandalye alıyor. Sandalyeler yeni ve çok güzel. Şimdi evde bir masa ve iki sandalye var.\n\n— Şimdi bu ev çok güzel, diyor Ayşe.\n— Evet, yeni evimiz çok güzel, diyor Ali.\n\nAli ve Ayşe yeni evlerini çok seviyor.\n\nSorular:\nAli ve Ayşe'nin ne var?\nOnların yeni bir evi var.\nEv nasıl?\nEv çok büyük ve çok güzel.\nEvde ne var, ne yok?\nEvde bir masa var. Sandalye yok.\nAli ne alıyor?\nAli iki yeni sandalye alıyor."
+    },
+    {
+      "title": "Sen kimsin?",
+      "summary": "Leyla is new on her street; she meets Esra, who invites her home.",
+      "newWords": [
+        "ben",
+        "sen",
+        "o",
+        "ne",
+        "kim",
+        "kız",
+        "çocuk",
+        "evet",
+        "hayır",
+        "mi"
+      ],
+      "text": "Leyla bir kız. Leyla'nın yeni bir evi var. Bir gün Leyla yolda bir çocuk görüyor. Bu çocuk da bir kız.\n\n— Sen kimsin? diyor Leyla.\n— Ben Esra. Ya sen kimsin?\n— Ben Leyla. Bu ev benim yeni evim. Sen de yeni misin?\n— Hayır, ben yeni değilim. Benim evim şu ev, diyor Esra.\n— O ev senin evin mi? O ev çok güzel!\n— Evet, o benim evim. Sen benim evime gelmek istiyor musun? diyor Esra.\n— Evet, çok istiyorum! diyor Leyla.\n\nİki kız Esra'nın evine gidiyor. Onlar yemek yiyor ve konuşuyor. Şimdi Leyla'nın yeni bir arkadaşı var: Esra.\n\nSorular:\nLeyla yolda ne görüyor?\nLeyla yolda bir çocuk görüyor. O çocuk bir kız.\nO kız kim?\nO kız Esra.\nEsra yeni mi?\nHayır, Esra yeni değil.\nİki kız ne yapıyor?\nİki kız yemek yiyor ve konuşuyor."
+    },
+    {
+      "title": "Balık",
+      "summary": "Ömer cooks fish for Ayşe; it takes a long time, but she loves it.",
+      "newWords": [
+        "yemek",
+        "yapmak",
+        "istemek",
+        "sevmek",
+        "şimdi",
+        "daha",
+        "için",
+        "ama",
+        "tamam",
+        "mı"
+      ],
+      "text": "Ömer yemek yapmayı çok seviyor. Ayşe de Ömer'in yemeğini çok seviyor.\n\nBir gün Ömer Ayşe için yeni bir yemek yapmak istiyor.\n\n— Ayşe, sen ne yemek istiyorsun? diyor Ömer.\n— Ben balık istiyorum, diyor Ayşe.\n— Tamam. Ben şimdi senin için balık yapıyorum.\n\nÖmer balık yapıyor. Ama bu yemek çok zaman alıyor. Ayşe yemeğe bakıyor, sonra Ömer'e bakıyor.\n\n— Ömer, yemek daha olmadı mı? diyor Ayşe.\n— Daha olmadı, ama şimdi geliyor! diyor Ömer.\n— Tamam, ben bekliyorum, diyor Ayşe.\n\nSonra yemek geliyor. Ayşe balığı yiyor.\n\n— Bu balık çok güzel! Daha var mı? diyor Ayşe.\n— Evet, daha var. Daha istiyor musun?\n— Evet, daha istiyorum. Ömer, sen çok iyi yemek yapıyorsun!\n\nSorular:\nÖmer ne yapmayı seviyor?\nÖmer yemek yapmayı seviyor.\nAyşe ne istiyor?\nAyşe balık istiyor.\nBalık güzel mi?\nEvet, balık çok güzel.\nDaha balık var mı?\nEvet, daha balık var."
+    },
+    {
+      "title": "Merve nerede?",
+      "summary": "Ayşe looks all over the house for her daughter Merve, who is hiding, and finds her by her hand.",
+      "newWords": [
+        "bulmak",
+        "bakmak",
+        "yer",
+        "bura",
+        "şey",
+        "değil",
+        "iç",
+        "şu",
+        "nasıl",
+        "hiç"
+      ],
+      "text": "Merve, Ayşe'nin kızı. Bir gün Ayşe Merve'yi bulmak istiyor. Ama Merve yok. Merve nerede? Ayşe hiç bilmiyor.\n\nAyşe evin içinde her yere bakıyor. Bir yere bakıyor. Merve burada değil. Bir yere daha bakıyor. Merve burada da değil.\n\n— Merve, sen neredesin? Şimdi yemek var! diyor Ayşe.\n\nAma Merve hiç gelmiyor. Ayşe düşünüyor. Sonra Ayşe bir şey görüyor. Ayşe şu yere bakıyor. Şu yerde bir şey var: bir el! Bu, Merve'nin eli.\n\n— Merve, sen buradasın! Ben seni buldum! diyor Ayşe.\n— Sen beni nasıl buldun? diyor Merve.\n— Ben senin elini gördüm, diyor Ayşe.\n\nMerve geliyor. Merve ve Ayşe yemek yiyor.\n\nSorular:\nAyşe kimi bulmak istiyor?\nAyşe Merve'yi bulmak istiyor.\nAyşe nereye bakıyor?\nAyşe evin içinde her yere bakıyor.\nAyşe ne görüyor?\nAyşe bir el görüyor. Bu, Merve'nin eli.\nAyşe Merve'yi nasıl buluyor?\nAyşe Merve'nin elini görüyor."
+    },
+    {
+      "title": "İş günü",
+      "summary": "Hasan goes to work, works hard, and comes home to his daughter Merve.",
+      "newWords": [
+        "iş",
+        "çalışmak",
+        "gün",
+        "gitmek",
+        "gelmek",
+        "sonra",
+        "önce",
+        "kalmak",
+        "yol",
+        "çıkmak"
+      ],
+      "text": "Hasan çok çalışıyor. Hasan her gün işe gidiyor.\n\nÖnce Hasan kahvaltı yapıyor. Sonra evden çıkıyor. Hasan yolda yürüyor. Yol uzun değil.\n\nSonra Hasan işe geliyor. Hasan işte çok çalışıyor. Hasan işini seviyor. Ama Hasan evini de çok seviyor. Evde kızı Merve var.\n\nHasan işte çok kalmıyor. Hasan işten çıkıyor ve yola çıkıyor. Sonra eve geliyor.\n\n— Baba, geldin! diyor Merve. Sen işte ne yapıyorsun?\n— Ben işte çok çalışıyorum. Ama ben en çok evde kalmayı seviyorum, diyor Hasan.\n— Ben de seninle evde kalmayı seviyorum! diyor Merve.\n\nBu güzel bir gün. Hasan ve Merve evde kalıyor.\n\nSorular:\nHasan her gün nereye gidiyor?\nHasan her gün işe gidiyor.\nHasan önce ne yapıyor?\nÖnce Hasan kahvaltı yapıyor.\nHasan işten sonra nereye gidiyor?\nHasan işten sonra eve gidiyor.\nHasan en çok ne yapmayı seviyor?\nHasan en çok evde kalmayı seviyor."
+    },
+    {
+      "title": "Babası gibi",
+      "summary": "Yusuf helps his father Ahmet make a new table, just like him.",
+      "newWords": [
+        "biz",
+        "siz",
+        "onlar",
+        "her",
+        "zaman",
+        "kendi",
+        "ile",
+        "de",
+        "da",
+        "gibi"
+      ],
+      "text": "Yusuf'un babası Ahmet. Ahmet her zaman kendi işini kendi yapıyor. Yusuf da babası gibi olmak istiyor.\n\nBir gün Ahmet evde yeni bir masa yapıyor. Yusuf geliyor.\n\n— Baba, sen ne yapıyorsun? diyor Yusuf.\n— Ben yeni bir masa yapıyorum, diyor Ahmet.\n— Ben de senin gibi bir şey yapmak istiyorum!\n— Tamam, gel! Bu masayı biz yapıyoruz! diyor Ahmet.\n\nYusuf Ahmet ile çalışıyor. Onlar çok çalışıyor. Ahmet bir şey yapıyor, Yusuf da onu yapıyor.\n\nSonra Ayşe eve geliyor. Ayşe Yusuf'un annesi.\n\n— Siz ne yapıyorsunuz? diyor Ayşe.\n— Biz yeni bir masa yapıyoruz. Bu masa senin için! diyor Yusuf.\n\nAyşe yeni masaya bakıyor.\n\n— Siz çok iyi bir iş yapıyorsunuz! Yusuf, sen de baban gibi kendi işini kendi yapıyorsun, diyor Ayşe.\n\nSorular:\nAhmet her zaman ne yapıyor?\nAhmet her zaman kendi işini kendi yapıyor.\nYusuf kim gibi olmak istiyor?\nYusuf babası gibi olmak istiyor.\nYusuf kim ile çalışıyor?\nYusuf Ahmet ile çalışıyor.\nOnlar ne yapıyor?\nOnlar yeni bir masa yapıyor."
+    },
+    {
+      "title": "Bir çiçek",
+      "summary": "Burak buys a flower for his mother Fatma with his father Hasan.",
+      "newWords": [
+        "almak",
+        "vermek",
+        "demek",
+        "söylemek",
+        "teşekkür",
+        "el",
+        "haydi",
+        "ya",
+        "ki",
+        "iyi"
+      ],
+      "text": "Burak'ın annesi Fatma. Burak Fatma'ya güzel bir şey vermek istiyor. Ama ne vermek istiyor? Burak biliyor ki Fatma çiçek çok seviyor.\n\nBurak babası Hasan'a söylüyor:\n\n— Ben annem için bir çiçek almak istiyorum.\n\nHasan diyor ki:\n\n— Bu çok iyi! Hadi, gidelim!\n\nBurak ve Hasan bir yere gidiyor. Bu yerde çok çiçek var. Burak bir çiçeğe bakıyor, sonra bir çiçeğe daha bakıyor.\n\n— Ya bu? diyor Burak.\n— Evet, o çok iyi, diyor Hasan.\n\nBurak ve Hasan bu çiçeği alıyor. Sonra eve geliyorlar. Burak'ın elinde güzel bir şey var. Burak çiçeği iki eliyle Fatma'ya veriyor.\n\n— Bu senin için! diyor Burak.\n— Teşekkür ederim, Burak! Bu çok güzel, diyor Fatma. Ya sen, Hasan? Sen bana ne veriyorsun?\n— Ben de sana iyi bir yemek yapıyorum! Hadi, Burak, gel! diyor Hasan.\n\nSorular:\nBurak Fatma'ya ne vermek istiyor?\nBurak Fatma'ya bir çiçek vermek istiyor.\nBurak Hasan'a ne söylüyor?\nBurak \"Bir çiçek almak istiyorum\" diyor.\nBurak çiçeği nasıl veriyor?\nBurak çiçeği iki eliyle veriyor.\nFatma ne diyor?\nFatma \"Teşekkür ederim\" diyor."
+    },
+    {
+      "title": "Doğru yol",
+      "summary": "A man cannot find his friend Ali's house, and Cem shows him the way.",
+      "newWords": [
+        "insan",
+        "adam",
+        "doğru",
+        "bilmek",
+        "görmek",
+        "konuşmak",
+        "düşünmek",
+        "böyle",
+        "öyle",
+        "neden"
+      ],
+      "text": "Cem yolda bir adam görüyor. Adam bir eve bakıyor, sonra bir eve daha bakıyor. Adam neden evlere bakıyor? Cem düşünüyor.\n\n— Bir şey mi arıyorsunuz? diyor Cem.\n— Ben Ali'nin evini bulmak istiyorum. Ama evini bilmiyorum, diyor adam.\n\nCem düşünüyor. Cem Ali'nin evini biliyor.\n\n— Ben biliyorum! Bu yoldan doğru gidin. Ali'nin evi büyük ve yeni bir ev, diyor Cem.\n— Böyle mi? diyor adam.\n— Evet, öyle. Böyle doğru gidin, diyor Cem.\n— Ali'nin evi büyük ve yeni bir ev, öyle mi?\n— Evet, öyle! diyor Cem.\n— Teşekkür ederim! diyor adam.\n\nAdam doğru gidiyor ve evi buluyor. Ali evde. Ali ve adam konuşuyor. Sonra Ali Cem'i görüyor ve onunla da konuşuyor.\n\n— Teşekkür ederim, Cem! Sen çok iyi bir insansın, diyor Ali.\n\nAdam da diyor ki:\n\n— Evet, doğru. Cem çok iyi bir insan.\n\nSorular:\nCem yolda kimi görüyor?\nCem yolda bir adam görüyor.\nAdam neden evlere bakıyor?\nAdam Ali'nin evini bulmak istiyor.\nCem ne biliyor?\nCem Ali'nin evini biliyor.\nAli ne diyor?\nAli \"Sen çok iyi bir insansın\" diyor."
+    },
+    {
+      "title": "Yeni yıl",
+      "summary": "Ayla's family spends the last day of the year together and welcomes the new year.",
+      "newWords": [
+        "yıl",
+        "son",
+        "başlamak",
+        "artık",
+        "bile",
+        "tek",
+        "en",
+        "ara",
+        "yüz",
+        "iki"
+      ],
+      "text": "Bugün yılın son günü. Ayla'nın evinde herkes bir arada. Ayla, Ali ve iki çocuk evde. Onlar bir arada yemek yiyor.\n\nBugün Ali bile yemek yapıyor! Ali yemek yapmayı hiç bilmiyor, ama bugün yapıyor.\n\n— Bu yıl çok güzel bir yıl, diyor Ayla. Yeni yıl da güzel olsun!\n\nSaat 12 oluyor. Yeni yıl başlıyor!\n\n— Artık yeni bir yıl başlıyor! diyor Ali.\n\nAyla iki çocuğun yüzüne bakıyor. İki çocuğun da yüzü gülüyor. Ayla tek bir şey istiyor: Bu yeni yıl en iyi yıl olsun! Ali de tek bir şey istiyor: Herkes her zaman böyle bir arada olsun!\n\nArtık yeni yıl başlıyor. Bu, onlar için en güzel gün.\n\nSorular:\nBugün yılın son günü mü?\nEvet, bugün yılın son günü.\nAyla'nın çocuğu var mı?\nEvet, Ayla'nın iki çocuğu var.\nBugün kim yemek yapıyor?\nBugün Ali bile yemek yapıyor.\nAyla ne diyor?\nAyla \"Yeni yıl da güzel olsun\" diyor."
+    },
+    {
+      "title": "Dünyayı görmek",
+      "summary": "Mehmet leaves his job after many years, and he and Fatma set off to see the world.",
+      "newWords": [
+        "dünya",
+        "hayat",
+        "baş",
+        "bırakmak",
+        "olmak",
+        "etmek",
+        "kadar",
+        "sadece",
+        "mu",
+        "olarak"
+      ],
+      "text": "Mehmet 40 yıl bir okulda öğretmen olarak çalıştı. Bugün onun son iş günü. Mehmet artık işini bırakıyor.\n\n— Şimdi ne yapmak istiyorsun? diyor Fatma.\n— Ben dünyayı görmek istiyorum, diyor Mehmet.\n— Dünyayı mı? Dünya çok büyük!\n— Evet, büyük. Ama hayat da çok güzel. Ben sadece bu şehri biliyorum. Ben artık sadece bu şehri değil, dünyayı da görmek istiyorum. Sen de benimle gelmek istiyor musun?\n— Olur! diyor Fatma.\n\nMehmet işini bırakıyor ve onlar yola çıkıyor. Onlar İstanbul'dan Roma'ya gidiyor. Sonra Paris'e, sonra Tokyo'ya gidiyorlar.\n\n— Dünya bu kadar güzel mi? diyor Fatma.\n— Evet, bu kadar güzel, diyor Mehmet. Bu, yeni bir hayatın başı. Hayat artık baştan başlıyor!\n\nFatma Mehmet'e teşekkür ediyor. Mehmet de Fatma'ya teşekkür ediyor. Bu yıl onların en güzel yılı oluyor.\n\nSorular:\nMehmet ne olarak çalıştı?\nMehmet öğretmen olarak çalıştı.\nMehmet ne yapmak istiyor?\nMehmet dünyayı görmek istiyor.\nFatma da gelmek istiyor mu?\nEvet, Fatma da gelmek istiyor.\nOnlar nereye gidiyor?\nOnlar Roma'ya, Paris'e ve Tokyo'ya gidiyor."
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+1	3801	tüketmek	tüket tüketebilir tüketecek tüketen tüketerek tüketilen tüketip tüketir tüketirler tüketiyor tüketiyordu tüketiyorlar tüketiyorsun tüketiyorsunuz tüketiyorum tüketiyoruz tüketme tüketmeye tüketmeyin tüketmiş tüketmişti tüketti tükettik tükettiler tükettim tükettin tükettiği
+2	3802	delice	deliceydi
+3	3803	pınar	pınarı pınarın
+4	3804	geçim	geçimi geçimimi geçimimizi geçimini geçiminizi geçimlerini
+5	3805	eşik	eşikte eşikten eşiğe eşiği eşiğin eşiğinde eşiğindeki eşiğinden eşiğindesin eşiğindeydi eşiğindeydim eşiğindeyim eşiğindeyiz eşiğindeyken eşiğine eşiğini eşiğinin
+6	3806	beste	besteler besteleri bestelerini bestesi bestesini besteyi
+7	3807	siyasetçi	siyasetçiler siyasetçileri siyasetçilerin siyasetçinin
+8	3808	gps	
+9	3809	erimek	eri eridi eridiği eridiğinde eridiğini erimeye erimez erimiş erimişti erir erisin eritilmiş eriyebilir eriyecek eriyen eriyene eriyerek eriyince eriyip eriyor eriyordu eriyorlar eriyorum
+10	3810	arz	arzı arzını
+11	3811	hayvancılık	hayvancılıkla hayvancılıkta hayvancılığa hayvancılığı hayvancılığın
+12	3812	yavaşlamak	yavaşla yavaşladı yavaşladım yavaşlama yavaşlamadı yavaşlamalısın yavaşlamaya yavaşlamıyor yavaşlamış yavaşlar yavaşlasan yavaşlasana yavaşlatır yavaşlayabilir yavaşlayacak yavaşlayalım yavaşlayın yavaşlayıp yavaşlıyor yavaşlıyorlar yavaşlıyorsun yavaşlıyorum yavaşlıyoruz
+13	3813	kazak	kazakla kazaklar kazakları kazakların kazaklı kazağa kazağı kazağım kazağımı kazağın kazağına kazağını kazağının
+14	3814	reform	reformcu reformlar reformları reformların reformu reformunu
+15	3815	anlatım	anlatıma anlatımla anlatımlar anlatımı anlatımıyla
+16	3816	askerî	askeri askerisin askeriydi askeriye askeriyede askeriyedeki askeriyeden askeriyenin askeriyeye askeriyeyi askeriyim
+17	3817	zevkli	
+18	3818	illa	
+19	3819	kütle	kütleler kütleleri kütlelerinin kütleli kütlenin kütlesi kütlesinden kütlesine kütlesini kütlesinin kütleye kütleyi
+20	3820	nezaket	nezakete nezaketi nezaketin nezaketinde nezaketinden nezaketine nezaketini nezaketinin nezaketiniz nezaketinize nezaketinizi nezaketiyle nezaketle nezaketli nezaketten
+21	3821	deyim	deyimdir deyimi deyimimizle deyimimle deyimini deyiminizle deyiminle deyimiyle deyimle deyimler deyimleri
+22	3822	saygılı	
+23	3823	ahır	ahıra ahırda ahırdaki ahırdan ahırlar ahırlara ahırlarda ahırları ahırların ahırı ahırım ahırın ahırına ahırında ahırını
+24	3824	güvence	güvencede güvencem güvencemiz güvencen güvencesi güvencesini güvenceye
+25	3825	vaftiz	vaftizci vaftizi
+26	3826	kabullen	kabullendi kabullendim kabullendin kabullenebilirim kabullenecek kabulleneceksin kabullenelim kabullenemedi kabullenemedim kabullenemem kabullenemez kabullenemiyor kabullenemiyorum kabullenen kabullenin kabullenip kabullenir kabullenirim kabullenirsen kabulleniyor kabulleniyorsun kabulleniyorum kabullenme kabullenmedi kabullenmekte kabullenmekten kabullenmeli kabullenmelisin kabullenmeliyiz kabullenmem kabullenmen kabullenmeni kabullenmenin kabullenmesi kabullenmesini kabullenmeye kabullenmeyi kabullenmiş kabullenmiştim
+27	3827	yansımak	yansıdı yansımam yansımaya yansımış yansır yansıtmaktadır yansıyacak yansıyan yansıyor
+28	3828	tara	taranan tarandı taranmış taranıyor tarat tarattım taratıp
+29	3829	dinamik	dinamikler dinamikleri dinamiklerini dinamiği
+30	3830	teselli	tesellim tesellimiz tesellisi teselliye teselliyi
+31	3831	alışık	alışıklar alışıksın alışıksınız alışıktı alışıktır alışığım alışığız
+32	3832	kendiliğinden	
+33	3833	kızartmak	kızart kızartabilir kızartacak kızartacağım kızartacağız kızartalım kızartan kızartma kızartmadan kızartmalar kızartmaları kızartmalarını kızartması kızartmasına kızartmasını kızartmasının kızartmasıyla kızartmaya kızartmayı kızartmış kızarttı kızarttım kızarttın kızartın kızartıp kızartır kızartırım kızartırız kızartıyor
+34	3834	kaldırım	kaldırıma kaldırımda kaldırımdaki kaldırımdan kaldırımlar kaldırımlara kaldırımlarda kaldırımları kaldırımı kaldırımın
+35	3835	tereddüt	tereddüde tereddüdüm tereddütleri tereddütlerim tereddütlerin tereddütlü tereddütte
+36	3836	güvercin	güvercine güvercini güvercinim güvercinin güvercinle güvercinler güvercinlerden güvercinlere güvercinleri güvercinlerin güvercinlerle
+37	3837	gardiyan	gardiyana gardiyandan gardiyanla gardiyanlar gardiyanlara gardiyanlardan gardiyanlarla gardiyanları gardiyanların gardiyanı gardiyanım gardiyanın
+38	3838	fi	
+39	3839	poz	poza pozlar pozları pozu pozunu
+40	3840	kaplumbağa	kaplumbağadan kaplumbağalar kaplumbağalara kaplumbağalarla kaplumbağaları kaplumbağaların kaplumbağam kaplumbağanın kaplumbağası kaplumbağaya kaplumbağayı
+41	3841	pierre	
+42	3842	feci	feciydi
+43	3843	zekice	
+44	3844	söndürmek	söndür söndürdü söndürdük söndürdüler söndürdüm söndürdün söndürebilir söndürecek söndüreceğim söndürelim söndüremez söndüren söndüreyim söndürme söndürmem söndürmeye söndürmüş söndürün söndürüp söndürür söndürürken söndürürüm söndürüyor söndürüyorum
+45	3845	direnç	direnci direncin direncini dirençle
+46	3846	politikacı	politikacılar politikacılara politikacılardan politikacıları politikacıların politikacının politikacısın politikacıya politikacıyı politikacıyım
+47	3847	but	budu butları butu butun
+48	3848	bakır	bakıra bakırdan bakırı
+49	3849	rütbe	rütbece rütbede rütbeler rütbeleri rütbelerini rütbeli rütbeliler rütbem rütbemi rütben rütbeni rütbenin rütbeniz rütbenizi rütbesi rütbesine rütbesini rütbesinin rütbesiyle rütbeye rütbeyi
+50	3850	ilave	ilavesi
+51	3851	teşebbüs	teşebbüse teşebbüsle teşebbüsleri teşebbüste teşebbüsten teşebbüsü teşebbüsün teşebbüsünde teşebbüsünden teşebbüsünü teşebbüsünün
+52	3852	mesleki	
+53	3853	zarf	zarfa zarfla zarflar zarflara zarfları zarfların zarfta zarftaki zarftan zarfı zarfın zarfını
+54	3854	tanrıça	tanrıçalar tanrıçaları tanrıçaların tanrıçam tanrıçanın tanrıçası tanrıçasın tanrıçasına tanrıçasının tanrıçaya tanrıçayı
+55	3855	dolaşan	
+56	3856	mühim	mühimdir
+57	3857	aşçı	aşçıdan aşçıdır aşçılar aşçılara aşçıları aşçıların aşçım aşçımız aşçın aşçının aşçısı aşçısın aşçıya aşçıydı aşçıydım aşçıyla aşçıyı aşçıyım
+58	3858	istila	istiladan istilanın istilası istilasına istilasından istilasını istilasının istilaya istilayı
+59	3859	söylem	söyleme söylemi söylemine söylemini söyleminin söylemiyle söylemler söylemleri
+60	3860	demin	
+61	3861	sevilen	
+62	3862	salim	
+63	3863	tütün	tütüne tütünle tütünü tütünün
+64	3864	konsantre	
+65	3865	güverte	güvertede güvertedeki güverteden güverteler güvertelerde güvertelere güverteleri güvertenin güvertesi güvertesinde güvertesindeki güvertesinden güvertesine güvertesini güvertesinin güverteye güverteyi
+66	3866	uzatma	uzatmadan uzatmalar uzatmalara uzatmalarda uzatmaları uzatmam uzatman uzatmanı uzatmanın uzatması uzatmasını uzatmaya uzatmayı
+67	3867	veteriner	veterinerde veterinerden veterinere veterineri veterinerim veterinerin veterinerle veterinerler veterinersin
+68	3868	sırasıyla	
+69	3869	foto	fotolar fotoları fotolarını foton fotonun fotosu fotoyu
+70	3870	anonim	anonimlik
+71	3871	zeytin	zeytini zeytinler zeytinleri zeytinli
+72	3872	kpss	kpss'ye
+73	3873	üçgen	üçgene üçgeni üçgenin üçgeninde üçgenine üçgenini üçgeninin üçgenler üçgenleri
+74	3874	yiğit	yiğidi yiğidim yiğidin yiğitler
+75	3875	taşak	taşaklar taşaklara taşakları taşaklarım taşaklarıma taşaklarımdan taşaklarımı taşaklarımın taşakların taşaklarına taşaklarında taşaklarından taşaklarını taşaklarının taşaklarınızı taşağı taşağım taşağımı taşağın taşağını taşşak
+76	3876	diyanet	
+77	3877	rap	
+78	3878	ritim	ritimde ritimle ritimler ritimleri ritimlerini ritimlerle ritme ritmi ritmim ritmimi ritmin ritminde ritmine ritmini ritmiyle
+79	3879	müzakere	müzakereci müzakerede müzakereler müzakerelerde müzakerelere müzakereleri müzakerelerin müzakeresi müzakereye müzakereyi
+80	3880	katar	katar'da katar'ın katara katarlar katarım
+81	3881	davetiye	davetiyede davetiyeler davetiyeleri davetiyelerin davetiyelerini davetiyem davetiyemi davetiyemiz davetiyen davetiyeni davetiyeniz davetiyenizi davetiyesi davetiyesini davetiyeye davetiyeyi davetiyeyle
+82	3882	gümrük	gümrüksüz gümrükte gümrükten gümrükçüler gümrüğe gümrüğü
+83	3883	dürüstlük	dürüstlükten dürüstlüğe dürüstlüğü dürüstlüğüm dürüstlüğümü dürüstlüğün dürüstlüğünden dürüstlüğüne dürüstlüğünü dürüstlüğünüz
+84	3884	domates	domatese domatesi domatesin domatesle domatesler domatesleri domateslerin domatesli
+85	3885	mikrofon	mikrofona mikrofonda mikrofondan mikrofonla mikrofonlar mikrofonları mikrofonu mikrofonum mikrofonumu mikrofonun mikrofonunu
+86	3886	yang	
+87	3887	lens	lense lensi lensim lensimi lensin lensini lensler lensleri lenslerim lenslerimi lenslerin lenslerini
+88	3888	bağlama	bağlamadan bağlamam bağlamama bağlamamı bağlamamız bağlaman bağlamanı bağlamanın bağlamanız bağlamanızı bağlaması bağlamasına bağlamasını bağlamaya bağlamayı
+89	3889	azap	azabı azabına azabından azabını azabının azabıyla azaptan
+90	3890	stefan	
+91	3891	element	elemente elementi elementin elementler elementlerden elementlere elementleri elementlerin elementlerle elementte elementten elementtir
+92	3892	kelepçe	kelepçeden kelepçeler kelepçelerden kelepçelere kelepçeleri kelepçelerim kelepçelerimi kelepçelerin kelepçelerini kelepçelerle kelepçeli kelepçeliydi kelepçeliyken kelepçenin kelepçesi kelepçesini kelepçeye kelepçeyi kelepçeyle
+93	3893	ajans	ajansa ajansla ajanslar ajanslara ajansları ajansların ajanslarına ajansta ajanstaki ajanstan ajansı'nın ajansım ajansıma ajansımı ajansın ajansına ajansında ajansından ajansını ajansının ajansınız ajansıyla
+94	3894	paralı	
+95	3895	ihracat	ihracata ihracatı ihracatın ihracatının
+96	3896	kupon	kuponla kuponlar kuponları kuponlarım kuponlarını kuponu kuponum kuponun kuponunu
+97	3897	çapraz	çaprazında
+98	3898	psikopat	psikopata psikopatla psikopatlar psikopatlarla psikopatları psikopatların psikopatsın psikopattı psikopattır psikopatça psikopatı psikopatın
+99	3899	gidilmek	gidildi gidilebilecek gidilebilir gidilecek gidilen gidilerek gidilir gidiliyor gidilmez gidilmiyor
+100	3900	hormon	hormonlar hormonlardan hormonlarla hormonları hormonlarım hormonların hormonlarını hormonlarının hormonlu hormonu

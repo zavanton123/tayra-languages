@@ -1,0 +1,100 @@
+1	8901	gonca	goncası
+2	8902	epik	
+3	8903	reçine	reçinesi
+4	8904	parke	parkeler
+5	8905	aydınlatıcı	aydınlatıcıydı
+6	8906	lal	lali
+7	8907	düşlemek	düşle düşledim düşlediği düşlediğim düşlediğimiz düşlediğin düşlemiştim düşler düşlerdim düşlerim düşleyen düşlüyor düşlüyordum düşlüyorsun düşlüyorum
+8	8908	kant	
+9	8909	köri	köriyi
+10	8910	anevrizma	anevrizmanın anevrizması anevrizmayı
+11	8911	vahdettin	vahdettin'in
+12	8912	alelade	
+13	8913	binicilik	biniciliği
+14	8914	tefeci	tefeciden tefeciler tefecilere tefecinin tefeciye tefeciyi
+15	8915	zıvana	zıvanadan
+16	8916	kah	
+17	8917	dahiliye	
+18	8918	marquez	
+19	8919	doyasıya	
+20	8920	gitarist	gitaristi gitaristin
+21	8921	diyaliz	diyalize diyalizi
+22	8922	çentik	çentikler
+23	8923	milenyum	milenyuma milenyumda milenyumun
+24	8924	atari	
+25	8925	subaru	
+26	8926	saplı	
+27	8927	tütmek	tüten tüttürüp tütüyor
+28	8928	tecrübesiz	
+29	8929	sansasyonel	
+30	8930	sonlu	
+31	8931	burkmak	burk burkan burkmuş burktu burktum burktun
+32	8932	münakaşa	münakaşaya münakaşayı
+33	8933	ikbal	
+34	8934	nüfuzlu	
+35	8935	işletmeci	işletmecisi
+36	8936	asimetrik	
+37	8937	merhametsiz	
+38	8938	sikici	
+39	8939	kötüleştirmek	kötüleştirdi kötüleştirdin kötüleştirebilir kötüleştirecek kötüleştiren kötüleştirir kötüleştiriyor kötüleştiriyorsun kötüleştirme
+40	8940	kavgacı	
+41	8941	butik	butikte butiği
+42	8942	eylemci	
+43	8943	bobin	bobini bobinini bobinler bobinleri
+44	8944	muska	muskalar muskası muskayı
+45	8945	masraflı	
+46	8946	şanghay	
+47	8947	değirmenci	değirmencinin
+48	8948	kürdan	kürdanı
+49	8949	kızış	kızışacak kızışma kızışmaya kızışmış kızıştı kızıştırmak kızıştığında kızışır kızışırsa kızışıyor
+50	8950	postmodern	
+51	8951	stabilize	
+52	8952	anemi	anemisi
+53	8953	iffet	iffetini
+54	8954	üstsüz	
+55	8955	korgeneral	
+56	8956	adanalı	
+57	8957	akçıl	
+58	8958	alperen	
+59	8959	aynur	
+60	8960	beko	
+61	8961	dsp	
+62	8962	halide	
+63	8963	mehter	
+64	8964	perinçek	
+65	8965	takva	
+66	8966	kehribar	
+67	8967	ido	
+68	8968	mera	
+69	8969	refakatçi	refakatçiler refakatçisi refakatçiye
+70	8970	lejyon	lejyona lejyonları lejyonu lejyonun
+71	8971	kuruşluk	
+72	8972	acem	
+73	8973	ritmik	
+74	8974	orantısız	
+75	8975	anlatıcı	anlatıcısı
+76	8976	sanrı	sanrılar sanrıları sanrılı sanrım
+77	8977	kararlaştırmak	kararlaştıralım kararlaştırdı kararlaştırdık kararlaştırdınız kararlaştırdığımız kararlaştırmıştık kararlaştırırız
+78	8978	gurme	
+79	8979	havasız	
+80	8980	yüzyıllarca	
+81	8981	pompalamak	pompala pompalama pompalamaya pompalamayı pompalanan pompalanıyor pompalar pompalayan pompalayın pompalayıp pompalıyor pompalıyorlar
+82	8982	simetri	simetrisi simetriyi
+83	8983	vıcık	
+84	8984	atmosferik	
+85	8985	armani	
+86	8986	naaş	naaşı naaşını
+87	8987	astronomik	
+88	8988	ustalıkla	
+89	8989	havyar	havyarla havyarı havyarın
+90	8990	metreküp	
+91	8991	battal	
+92	8992	dağcılık	
+93	8993	uğrak	
+94	8994	humus	humusu
+95	8995	platonik	
+96	8996	kazıklamak	kazıkla kazıkladı kazıkladın kazıkladığını kazıklama kazıklamaya kazıklamış kazıklandık kazıklar kazıklayan kazıklıyor kazıklıyorsun
+97	8997	amade	amadedir amadeyim
+98	8998	kaşıklamak	kaşıkla kaşıklar
+99	8999	yekta	
+100	9000	betonarme	

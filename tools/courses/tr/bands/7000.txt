@@ -1,0 +1,100 @@
+1	6901	dindirmek	dindir dindirdi dindirebilir dindirecek dindiren dindirir dindiriyor dindirmeye
+2	6902	tasdik	tasdikli
+3	6903	itaatsizlik	itaatsizlikle itaatsizlikten itaatsizliğe itaatsizliği itaatsizliğin
+4	6904	duyarsız	duyarsızca duyarsızlık
+5	6905	umumi	
+6	6906	üretken	
+7	6907	asık	
+8	6908	hasır	
+9	6909	mercimek	mercimeği
+10	6910	yumuşa	yumuşadı yumuşadığını yumuşama yumuşamaya yumuşamış yumuşamışsın yumuşar yumuşat yumuşatacak yumuşatarak yumuşatma yumuşatmak yumuşatmaya yumuşatmış yumuşattı yumuşatır yumuşatıyor yumuşuyor yumuşuyorsun
+11	6911	ahali	ahalisi
+12	6912	ruhi	
+13	6913	şal	şallar şallı şalı şalım şalımı şalın şalını
+14	6914	sari	sarin
+15	6915	ustalık	ustalığa ustalığı ustalığın ustalığına ustalığını
+16	6916	org	orgu orgun
+17	6917	sedye	sedyede sedyenin sedyeye sedyeyi sedyeyle
+18	6918	ihtisas	ihtisası
+19	6919	müteahhit	müteahhidi müteahhidin müteahhitle müteahhitler
+20	6920	istirahat	istirahata istirahate istirahati istirahatı
+21	6921	arter	arterde arterden artere arteri arterin arterine arterini arterler arterleri
+22	6922	sarılı	sarılıydı
+23	6923	sertlik	sertliği
+24	6924	işveren	işvereni işverenim işverenin işvereniniz işverenler
+25	6925	planet	
+26	6926	kavun	kavunlar kavunları kavunlu kavunu kavunun
+27	6927	nas	
+28	6928	şiirsel	şiirsellik şiirselliği
+29	6929	şark	şarkım şarkıma şarkımı şarkımın şarkımız şarkımızı şarkımızın şarkın şarkına şarkını şarkının şarkınız şarkınızı
+30	6930	dp	
+31	6931	balyoz	balyozla balyozu
+32	6932	manipüle	
+33	6933	caymak	cay caydı caydırmak cayman cayıyor
+34	6934	yun	
+35	6935	düzmece	düzmeceydi
+36	6936	azılı	
+37	6937	gafil	
+38	6938	tembellik	tembellikten tembelliği tembelliğin
+39	6939	yüklem	yükleme
+40	6940	derinlemesine	
+41	6941	attila	
+42	6942	pak	paklar pakı
+43	6943	manzaralı	
+44	6944	vesayet	vesayeti vesayetim vesayetini
+45	6945	merhem	merhemi merhemin
+46	6946	ertem	
+47	6947	maket	maketi maketini
+48	6948	çocuksu	
+49	6949	atıştırmalık	atıştırmalıklar atıştırmalıkları atıştırmalığı
+50	6950	tin	tine tini tinle
+51	6951	griffith	
+52	6952	hangar	hangara hangarda hangardan hangarı hangarın hangarına hangarında
+53	6953	satım	satımı
+54	6954	marjinal	
+55	6955	helva	helvası
+56	6956	yüzbinlerce	
+57	6957	platin	platini
+58	6958	mahsul	mahsuller mahsulleri mahsulü mahsulün
+59	6959	kıpır	
+60	6960	açıklarında	
+61	6961	prodüksiyon	prodüksiyona prodüksiyonu prodüksiyonun
+62	6962	anavatan	anavatana anavatanda anavatanı anavatanımız anavatanın anavatanına
+63	6963	tacir	taciri tacirinin tacirler tacirleri tacirlerine tacirlerini tacirlerinin tacirliği
+64	6964	kalitesiz	
+65	6965	ören	
+66	6966	tarafsızlık	tarafsızlığı tarafsızlığını
+67	6967	moron	moronlar moronlara moronları moronların moronu moronun
+68	6968	paslanmak	paslandı paslandım paslanma paslanmaya paslanmaz paslanmış paslanmışsın paslanmışım
+69	6969	çilekli	
+70	6970	arsız	arsızsın
+71	6971	hadım	
+72	6972	tetkik	tetkiki tetkikler tetkikleri tetkikçi
+73	6973	güreşçi	güreşçiler güreşçilere güreşçileri güreşçilerin güreşçinin güreşçisi
+74	6974	ketçap	ketçabı ketçapla ketçaplı
+75	6975	dışlanmak	dışlanan dışlandı dışlandım dışlanmış dışlanmışlar
+76	6976	kalpsiz	
+77	6977	buyruk	buyruklarını buyruğu buyruğuna buyruğunu buyruğuyla
+78	6978	terbiyeli	
+79	6979	beraberce	
+80	6980	otizm	otizmli
+81	6981	çorak	
+82	6982	bloke	
+83	6983	nebze	
+84	6984	özne	öznesi
+85	6985	palmiye	palmiyeler
+86	6986	eğim	eğime eğimi eğimini
+87	6987	kahrolsun	
+88	6988	poliçe	poliçeleri poliçem poliçesi poliçesine poliçesini poliçeyi
+89	6989	temizleyici	temizleyicide temizleyiciden temizleyiciler temizleyicileri temizleyicisi temizleyicisini temizleyiciye temizleyiciyi
+90	6990	fischer	
+91	6991	teşhir	
+92	6992	yakin	
+93	6993	bağlayıcı	
+94	6994	gülücük	gülücükle gülücükler gülücüğü
+95	6995	dengelemek	dengele dengeleme dengelemeye dengelenmiş dengeler dengeleyecek dengeliyor
+96	6996	barcelona	barcelona'da barcelona'nın barcelona'ya
+97	6997	şuur	şuuru şuurunu
+98	6998	ille	
+99	6999	acıbadem	
+100	7000	uzer	uzerinde uzerinden uzerine

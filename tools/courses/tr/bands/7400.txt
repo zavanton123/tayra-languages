@@ -1,0 +1,100 @@
+1	7301	sarmaşık	sarmaşıklar sarmaşıkları sarmaşığa sarmaşığı
+2	7302	nezle	nezlesi nezleye
+3	7303	kızgınlık	kızgınlığı
+4	7304	çil	çili çiller çilleri
+5	7305	korkuluk	korkuluklar korkuluklara korkuluklardan korkulukları korkuluğa korkuluğu korkuluğun
+6	7306	varoş	varoşlar varoşlara varoşlarda varoşlardaki varoşlardan varoşları varoşların varoşlarında varoşta
+7	7307	pota	potada potanın potası potaya potayı
+8	7308	begüm	
+9	7309	gözlemek	gözledim gözlemeye gözler gözlerim gözlerken gözleyecek gözleyeceğim gözleyeceğiz gözleyen gözleyin gözleyip gözlüyor gözlüyordu gözlüyordum gözlüyorlar gözlüyorsun gözlüyorum gözlüyoruz
+10	7310	yağlamak	yağla yağladı yağladım yağlama yağlamaya yağlamayı yağlandı yağlanması yağlanmış yağlar yağlarım yağlayın yağlayıp
+11	7311	kâfir	kâfirler kâfirleri kâfirlerin
+12	7312	ikon	ikonu
+13	7313	alberto	
+14	7314	edna	
+15	7315	karargâh	karargâha karargâhta karargâhtan karargâhı
+16	7316	temkinli	
+17	7317	taslamak	tasla taslama taslamaya taslamayı taslamayın taslamıyorum taslar taslayamazsın taslayan taslayıp taslıyor taslıyorsun
+18	7318	dublör	dublörler dublörü dublörüm dublörün dublörünü
+19	7319	kârlı	
+20	7320	sina	
+21	7321	azot	
+22	7322	beşlik	beşlikler beşliği
+23	7323	şişlik	şişlikler şişlikleri şişliğe şişliği şişliğin
+24	7324	teneffüs	teneffüse teneffüste
+25	7325	biyopsi	biyopsisi biyopsiyi
+26	7326	alerjik	
+27	7327	tezcan	
+28	7328	robotik	
+29	7329	nakliyat	nakliyatı
+30	7330	usulca	
+31	7331	yanal	
+32	7332	prostat	prostatı prostatım prostatın
+33	7333	abartı	abartıya
+34	7334	inkılap	inkılâp
+35	7335	rızık	rızkı rızkımızı rızkını
+36	7336	aşınmak	aşın aşına aşınma aşınmalar aşınması aşınmaya aşınmış aşının
+37	7337	eğik	
+38	7338	hyundai	
+39	7339	psikiyatr	psikiyatra psikiyatrla psikiyatrlar psikiyatrı psikiyatrım psikiyatrın
+40	7340	aıds	
+41	7341	dolmabahçe	
+42	7342	haydarpaşa	
+43	7343	vıp	
+44	7344	dirençli	
+45	7345	paolo	
+46	7346	paragraf	paragrafa paragrafta paragrafı paragrafın paragrafını
+47	7347	siemens	
+48	7348	biat	
+49	7349	turna	turnalar turnayı
+50	7350	zincirleme	
+51	7351	sucuk	sucuğu
+52	7352	terli	terlisin terliyim
+53	7353	nostalji	nostaljiye
+54	7354	kumral	
+55	7355	uyumsuz	
+56	7356	çırpmak	çırp çırpan çırpar çırparak çırpma çırpmaya çırpılmış çırpın çırpınmayı çırpıp çırpıyor
+57	7357	fak	faka faklı
+58	7358	kartpostal	kartpostallar kartpostalları kartpostalı
+59	7359	lama	lamaya lamayı
+60	7360	ensest	
+61	7361	volt	voltluk
+62	7362	hücresel	
+63	7363	embesil	embesilin embesiller
+64	7364	fâni	fani faniler fanilerin
+65	7365	hasılat	hasılatı hasılatın hasılatını
+66	7366	göçmenlik	
+67	7367	dinç	
+68	7368	mertebe	mertebesi mertebesine mertebeye
+69	7369	şakacı	şakacıdır şakacılar şakacısın şakacısınız
+70	7370	jeoloji	
+71	7371	titanyum	
+72	7372	şaşkınlık	şaşkınlığı
+73	7373	sıyrılmak	sıyrıl sıyrılacağız sıyrılamayacaksın sıyrılamazsın sıyrıldı sıyrıldın sıyrılmaya sıyrılmayı sıyrılmış sıyrılıp sıyrılır sıyrılıyor
+74	7374	karayip	karayipler karayiplerde karayiplere
+75	7375	egzoz	egzozu
+76	7376	duygulan	duygulandı duygulandım duygulandırdı duygulandırıyor
+77	7377	hesaplaşmak	hesaplaşacağım hesaplaşacağız hesaplaşalım hesaplaşma hesaplaşması hesaplaşmaya hesaplaşırız
+78	7378	boss	bossa bossun
+79	7379	uyduruk	
+80	7380	müfredat	müfredata müfredatta müfredatı
+81	7381	keza	
+82	7382	lokal	lokalde lokali
+83	7383	erbaş	
+84	7384	bekaret	bekareti bekaretimi bekaretin bekaretini
+85	7385	damlamak	damladı damlama damlamış damlar damlat damlatma damlatıyor damlatıyorsun damlaya damlayan damlıyor damlıyordu
+86	7386	paso	
+87	7387	saki	
+88	7388	kurulamak	kurula kurulama kurulamadı kurulamaz kurular kurulayayım kuruluyor
+89	7389	civciv	civcivi civcivim civcivin civcivler civcivleri civcivlerin
+90	7390	donuk	
+91	7391	ayaz	ayazda
+92	7392	idareci	idareciler
+93	7393	niyazi	
+94	7394	lapa	lapası lapasını lapaya lapayı
+95	7395	dama	damada daması
+96	7396	akşamüstü	
+97	7397	mantıksal	
+98	7398	arıtmak	arıtma arıtılmış
+99	7399	otostop	otostopla
+100	7400	metraj	metrajlı

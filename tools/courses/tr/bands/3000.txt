@@ -1,0 +1,100 @@
+1	2901	yenilemek	yenile yeniledi yeniledik yeniledim yenilemeliyiz yenilemem yenilemeye yenilemez yenilemiş yenilen yenilendi yenilenecek yenilenen yenilenerek yenilenir yenileniyor yenilenmek yenilenmeye yenilenmiş yeniler yenilerken yenileyebilir yenileyecek yenileyeceğim yenileyeceğiz yenileyelim yenileyen yenileyici yenileyin yenileyip yeniliyor yeniliyorlar yeniliyorsun yeniliyorum yeniliyoruz
+2	2902	dağıtım	dağıtıma dağıtımdan dağıtımı dağıtımına dağıtımında dağıtımından dağıtımını dağıtımının
+3	2903	yükseltmek	yükselt yükseltebilir yükseltebilirim yükseltebiliriz yükseltecek yükselteceğim yükselteceğiz yükseltelim yükselten yükselterek yükseltin yükseltip yükseltir yükseltirim yükseltirsen yükseltiyor yükseltiyorlar yükseltiyorsun yükseltiyorum yükseltiyoruz yükseltme yükseltmelisin yükseltmeliyiz yükseltmem yükseltmeye yükseltmeyin yükseltmiş yükseltti yükselttik yükselttiler yükselttim yükselttin yükselttiğim
+4	2904	pazarlık	pazarlıkla pazarlıklar pazarlıklara pazarlıkları pazarlıklı pazarlıksız pazarlıkta pazarlıktan pazarlıkçı pazarlığa pazarlığı pazarlığın pazarlığına pazarlığını
+5	2905	milliyetçi	milliyetçiler milliyetçileri milliyetçisi
+6	2906	hayati	hayatidir hayatim hayatimi hayatimin hayatin hayatini hayatinin
+7	2907	göbek	göbekle göbekleri göbekli göbekten göbeğe göbeği göbeğim göbeğimde göbeğime göbeğimi göbeğin göbeğinde göbeğindeki göbeğinden göbeğine göbeğini göbeğinin
+8	2908	izleyici	izleyiciler izleyicilerden izleyicilere izleyicileri izleyicilerimiz izleyicilerimize izleyicilerin izleyicilerine izleyicimiz izleyicinin izleyicisi izleyiciye izleyiciyi
+9	2909	yükselen	
+10	2910	incelmek	incele inceleme incelemedim incelemem incelememe incelemeye incelesin inceleyen inceliyor inceliyordu inceliyorduk inceliyordum inceliyorlar inceliyorsun inceliyorsunuz inceliyorum inceliyoruz incelmiş
+11	2911	keser	keserim keseriz keserler kesersin kesersiniz
+12	2912	maliye	maliyesi
+13	2913	ekstra	ekstradan ekstralar ekstraları ekstraya
+14	2914	fen	
+15	2915	yastık	yastıkla yastıklar yastıklara yastıklardan yastıkları yastıkların yastıklarını yastıklarının yastıklı yastıkta yastıktan yastığa yastığı yastığım yastığıma yastığımı yastığımın yastığın yastığına yastığında yastığını yastığının
+16	2916	yas	yasla yasladı yasladım yaslayın yaslayıp yaslı yasta yastan yastayım yası yasımı yasın yasında yasını
+17	2917	soylu	soylu'nun soylular soylulara soylulardan soylularla soyluları soyluların soylunun soylusu
+18	2918	marie	
+19	2919	charlotte	
+20	2920	kafe	kafede kafedeki kafeden kafedeyim kafeler kafelerde kafelere kafeleri kafenin kafesi kafesinde kafesindeki kafesinden kafesine kafesini kafesinin kafeye kafeyi
+21	2921	ziyade	
+22	2922	reis	reis'in reise reisi reisin reisine reisinin reisiyim reisleri
+23	2923	faktör	faktördür faktörler faktörlerden faktörlere faktörleri faktörlerin faktörü faktörünü
+24	2924	kapamak	kapa kapadı kapadık kapadılar kapadım kapadın kapadınız kapamalısın kapamalıyım kapamalıyız kapamam kapamaya kapamazsan kapamıyorsun kapamış kapamışlar kapar kaparsa kaparsan kaparsın kaparım kapasam kapasan kapasana kapasın kapatıldı kapayabilir kapayacak kapayacaksın kapayacağım kapayalım kapayan kapayarak kapayayım kapayın kapayıp kapıyor kapıyorsun kapıyorum
+25	2925	sendika	sendikacı sendikada sendikadaki sendikadan sendikalar sendikalara sendikalarla sendikaları sendikaların sendikalı sendikanın sendikası sendikasına sendikasının sendikasız sendikaya sendikayla sendikayı
+26	2926	kalkış	kalkışa kalkışabilir kalkışacak kalkışan kalkışma kalkışmadan kalkışmadı kalkışmam kalkışması kalkışmasın kalkışmayacağım kalkışmayın kalkışmaz kalkışmazdı kalkışmazdım kalkışmış kalkışmıştı kalkışta kalkıştan kalkıştı kalkıştık kalkıştılar kalkıştım kalkıştın kalkıştınız kalkıştığı kalkıştığın kalkıştığında kalkıştığını kalkışı kalkışınca kalkışını kalkışırlarsa kalkışırsa kalkışırsan kalkışırsanız kalkışırsın kalkışıyor kalkışıyorsun
+27	2927	fener	fenere feneri fenerim fenerimi fenerimiz fenerin fenerinde fenerinden fenerine fenerini fenerinin feneriyle fenerle fenerler fenerleri fenerlerin fenerlerini
+28	2928	komünist	komünisti komünistim komünistin komünistler komünistlerden komünistlere komünistleri komünistlerin komünistlerle komünistti komünisttir
+29	2929	saatlik	
+30	2930	ayırt	ayırdı ayırdım ayırdın ayırdınız
+31	2931	sezmek	sezdi sezdim sezdin sezdirmeden sezebiliyor sezebiliyorum sezen sezer sezer'in sezerse seziyor seziyorsun seziyorum sezmiş sezmiştim
+32	2932	sorgu	sorgucu sorguda sorgudan sorgular sorgularsın sorgularım sorgularız sorgun sorgunun sorgusu sorgusuna sorgusunda sorgusunu sorgusuz sorguya sorguyu
+33	2933	biber	bibere biberi biberin biberle biberler biberleri
+34	2934	şarkıcı	şarkıcıdır şarkıcılar şarkıcılara şarkıcılardan şarkıcıları şarkıcıların şarkıcımız şarkıcının şarkıcısı şarkıcısın şarkıcıya şarkıcıyı şarkıcıyım
+35	2935	ilahi	ilahiler ilahileri ilahisi ilahisini ilahiyi
+36	2936	kelebek	kelebekler kelebekleri kelebeklerin kelebeklerle kelebeğe kelebeği kelebeğim kelebeğin
+37	2937	karşıt	karşıtları karşıtlarının karşıtı karşıtıyım
+38	2938	pat	pata patlar patlarım
+39	2939	saklı	saklıdır saklım saklımız saklısı saklıydı saklıymış
+40	2940	hekim	hekime hekimi hekimim hekimin hekimine hekimini hekimiyim hekimler hekimleri hekimlerin
+41	2941	gerçekçi	gerçekçisin gerçekçiydi gerçekçiyim
+42	2942	fıstık	fıstıkla fıstıklar fıstıklara fıstıklarla fıstıkları fıstıkların fıstıklarını fıstıklı fıstıktan fıstığa fıstığı fıstığım fıstığın fıstığına
+43	2943	delmek	del deldi deldik deldim deldin delebilecek delebilir delecek deleceğim delemez delen deler delerek delerim delindi delinme delinmesi delinmez delinmiş delip deliyor delme delmeye delmeyi delmiş
+44	2944	sade	sadede sadeydi
+45	2945	bent	bendi bendim bendine
+46	2946	bıçaklamak	bıçakla bıçakladı bıçakladıktan bıçakladılar bıçakladım bıçakladın bıçakladınız bıçakladığı bıçakladığım bıçakladığın bıçakladığını bıçaklama bıçaklamadan bıçaklamadım bıçaklaması bıçaklamaya bıçaklamayı bıçaklamış bıçaklamıştı bıçaklanan bıçaklanarak bıçaklandı bıçaklandım bıçaklandığı bıçaklandığını bıçaklanmak bıçaklanmış bıçaklanmıştı bıçaklanıp bıçaklanır bıçaklar bıçaklarken bıçaklarım bıçaklayacak bıçaklayacağım bıçaklayan bıçaklayarak bıçaklayıp bıçaklıyor
+47	2947	şeyh	şeyhi şeyhim şeyhin şeyhler
+48	2948	atom	atomdan atomlar atomlara atomlardan atomları atomların atomlarına atomlarının atomu atomun
+49	2949	pirinç	pirince pirinci pirincimiz pirincin pirinçle pirinçler pirinçleri pirinçli pirinçten
+50	2950	üniforma	üniformadan üniformalar üniformalara üniformalardan üniformalarla üniformaları üniformalarımız üniformalarımızı üniformaların üniformalarını üniformalarınız üniformalarınızı üniformalarıyla üniformalı üniformalılar üniformalıları üniformam üniformamı üniformamın üniformamız üniforman üniformanla üniformanı üniformanın üniformanız üniformanızı üniforması üniformasına üniformasında üniformasını üniformasının üniformasıyla üniformaya üniformayla üniformayı
+51	2951	plaj	plaja plajda plajdaki plajdan plajlar plajları plajı plajın plajına plajında
+52	2952	uslu	usluca
+53	2953	zamanlı	
+54	2954	organik	
+55	2955	elli	elliden ellili ellilik ellisi ellisini elliye
+56	2956	rahmet	rahmeti rahmetinden rahmetine rahmetini rahmetle
+57	2957	toparla	toparladı toparladık toparladım toparladın toparlama toparlamak toparlamalısın toparlamalıyım toparlamam toparlaman toparlamaya toparlamış toparlan toparlanalım toparlandı toparlanma toparlanmak toparlanmam toparlanması toparlanmaya toparlanmış toparlanın toparlanıp toparlanır toparlanıyor toparlar toparlarsın toparlarım toparlarız toparlayacak toparlayacağım toparlayalım toparlayamıyorum toparlayana toparlayayım toparlayın toparlayıp toparlıyor toparlıyorum
+58	2958	adeta	
+59	2959	üzüm	üzümden üzüme üzümle üzümler üzümlerden üzümleri üzümlerin üzümlerini üzümü üzümün üzümünü
+60	2960	kıyamet	kıyamete kıyameti kıyametin kıyametini kıyametle kıyamette kıyametten
+61	2961	muhtemel	muhtemeldir
+62	2962	ihraç	ihracı
+63	2963	lamba	lambada lambadan lambalar lambalardan lambaları lambaların lambalarını lambalarının lambalı lambam lambamı lamban lambanı lambanın lambanız lambası lambasına lambasından lambasını lambasının lambasıyla lambaya lambayla lambayı
+64	2964	kaplı	kaplıdır kaplıydı kaplıyken kaplıymış
+65	2965	sakat	sakata sakatla sakatladı sakatladım sakatlama sakatlamak sakatlanan sakatlandı sakatlandım sakatlandın sakatlanma sakatlanması sakatlanmış sakatlar sakatlara sakatları sakatlayan sakatlıkları sakatlıktan sakatlığım sakatlığın sakatsın sakattı sakatı sakatım
+66	2966	dul	dula duldu dulla dullar dullara dulları dulların dulsun dulu dulum dulun
+67	2967	huzurlu	huzurluydu huzurluyum
+68	2968	sebze	sebzeden sebzedir sebzeler sebzelerden sebzelere sebzeleri sebzelerin sebzelerini sebzelerle sebzeli sebzeye sebzeyi sebzeyle
+69	2969	uşak	uşak'ta uşakla uşaklar uşaklardan uşakları uşakların uşaklarından uşaklık uşaksın uşağa uşağı uşağım uşağımız uşağın uşağına uşağını uşağının uşağınız uşağıyım
+70	2970	denizci	denizciden denizcidir denizciler denizcilerden denizcilere denizcileri denizcilerin denizcilerle denizcinin denizcisi denizcisin denizciydi denizciydim denizciye denizciyi denizciyim denizciyle denizciymiş
+71	2971	sınırsız	sınırsızca sınırsızdır
+72	2972	delilik	delilikler delilikleri delilikte delilikten deliliğe deliliği deliliğin deliliğine deliliğini deliliğinin
+73	2973	yetersiz	yetersizdi yetersizdir yetersizim yetersizmiş yetersizsin
+74	2974	telafi	telafisi
+75	2975	sessizce	
+76	2976	doğrultu	doğrultuda doğrultun doğrultusunda
+77	2977	yoldaş	yoldaşa yoldaşlar yoldaşlara yoldaşları yoldaşlarım yoldaşlarıma yoldaşlarımı yoldaşlarımız yoldaşlarımıza yoldaşlarımızı yoldaşlarımızın yoldaşların yoldaşlarına yoldaşlarını yoldaşlarının yoldaşı yoldaşım yoldaşımız yoldaşın
+78	2978	engin	engine
+79	2979	hizmetçi	hizmetçiden hizmetçiler hizmetçilerden hizmetçilere hizmetçileri hizmetçilerim hizmetçilerin hizmetçilerinden hizmetçilerini hizmetçilerinin hizmetçim hizmetçime hizmetçimi hizmetçimin hizmetçimiz hizmetçin hizmetçinin hizmetçiniz hizmetçisi hizmetçisine hizmetçisini hizmetçisinin hizmetçiye hizmetçiyi
+80	2980	medeniyet	medeniyete medeniyeti medeniyetimiz medeniyetimizi medeniyetimizin medeniyetin medeniyetini medeniyetinin medeniyetle medeniyetler medeniyetleri medeniyetlerin medeniyette medeniyetten
+81	2981	ulu	uluması ulumayı ulusun
+82	2982	araştırmacı	araştırmacılar araştırmacılara araştırmacılardan araştırmacıları araştırmacıların araştırmacılarının araştırmacımız araştırmacının araştırmacısı araştırmacısıyım araştırmacıydı araştırmacıyım
+83	2983	çaresiz	çaresizdi çaresizdik çaresizdim çaresizim çaresiziz çaresizler çaresizsen çaresizseniz çaresizsin
+84	2984	galip	galibe galibi galibini galipler galipleri
+85	2985	erdem	erdem'in erdemden erdemdir erdeme erdemi erdemin erdemini erdemler erdemleri erdemlerini
+86	2986	mağlup	
+87	2987	referandum	referanduma referandumda referandumdan referandumla referandumu referandumun referandumunda
+88	2988	terapi	terapide terapiden terapiler terapilere terapileri terapim terapin terapine terapinin terapisi terapisinde terapisinden terapisine terapisini terapisinin terapisiyle terapiye terapiyi terapiyle
+89	2989	saçlı	
+90	2990	pil	pili pilim pilin piline pilini piller pilleri pillerim pillerin pillerini pilli
+91	2991	şimdiki	
+92	2992	ağrımak	ağrıdı ağrıdığı ağrımaya ağrımaz ağrımıyor ağrır ağrırsa ağrısın ağrıtmak ağrıya ağrıyacak ağrıyan ağrıyor ağrıyordu ağrıyormuş ağrıyorsa
+93	2993	yaşlanmak	yaşlanacak yaşlanacaksın yaşlanacağım yaşlanacağız yaşlanan yaşlandı yaşlandık yaşlandıkça yaşlandım yaşlandın yaşlandığı yaşlandığım yaşlandığın yaşlanma yaşlanmadım yaşlanmadın yaşlanmamış yaşlanmamışsın yaşlanmaya yaşlanmayacak yaşlanmayan yaşlanmaz yaşlanmıyor yaşlanmıyorsun yaşlanmış yaşlanmışsın yaşlanmıştı yaşlanmışım yaşlanınca yaşlanıp yaşlanır yaşlanırken yaşlanırsın yaşlanırız yaşlanıyor yaşlanıyorlar yaşlanıyorsun yaşlanıyorum yaşlanıyoruz
+94	2994	ahmak	ahmakla ahmaklar ahmaklara ahmaklardan ahmaklarla ahmakları ahmakların ahmaksın ahmaksınız ahmaktır ahmağa ahmağı ahmağım ahmağın
+95	2995	kurs	kurslar kurslara kursları kurslarına kursta kurstan kursu kursum kursuna kursunda kursundan kursunu kursunun
+96	2996	büyücü	büyücüden büyücüdür büyücüler büyücülerden büyücülere büyücüleri büyücülerin büyücülerle büyücümüz büyücünün büyücüsü büyücüsün büyücüsünü büyücüsünün büyücüydü büyücüye büyücüyle büyücüyü büyücüyüm
+97	2997	geyik	geyikle geyikler geyiklere geyikleri geyiklerin geyiklerini geyiklerinin geyikli geyikten geyikti geyiğe geyiği geyiğim geyiğin geyiğine geyiğini geyiğinin
+98	2998	müvekkil	müvekkile müvekkili müvekkilim müvekkilimden müvekkilime müvekkilimi müvekkilimin müvekkilimiz müvekkilimize müvekkilimizi müvekkilimizin müvekkilimle müvekkilin müvekkiline müvekkilini müvekkilinin müvekkiliniz müvekkilinize müvekkilinizi müvekkilinizin müvekkilinizle müvekkille müvekkiller müvekkillere müvekkilleri müvekkillerim müvekkillerimden müvekkillerime müvekkillerimi müvekkillerimin müvekkillerimiz müvekkillerimizi müvekkillerimle müvekkillerin müvekkillerinden müvekkillerine müvekkillerini müvekkillerinin müvekkilleriniz
+99	2999	eğilim	eğilimi eğilimim eğilimimiz eğilimin eğiliminde eğilimindedir eğilimindedirler eğilimindeyim eğilimine eğilimini eğiliminin eğiliminiz eğilimler eğilimleri eğilimlerin eğilimlerini eğilimli eğilimlidir eğilimlidirler
+100	3000	radyasyon	radyasyona radyasyondan radyasyonla radyasyonlu radyasyonu radyasyonun radyasyonuna

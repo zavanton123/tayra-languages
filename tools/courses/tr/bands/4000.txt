@@ -1,0 +1,100 @@
+1	3901	muhakkak	
+2	3902	ucube	ucubeden ucubeler ucubelerden ucubelere ucubeleri ucubelerin ucubelerle ucubenin ucubesi ucubesin ucubeye ucubeyi ucubeyim ucubeyle
+3	3903	birikmek	birikecek biriken birikip birikir birikiyor birikmesi birikmeye birikmiş birikmişim birikmişti birikti
+4	3904	sıçan	sıçana sıçandan sıçanla sıçanlar sıçanlara sıçanlardan sıçanlarla sıçanları sıçanların sıçansın sıçanı sıçanın
+5	3905	soğumak	soğudu soğudum soğuma soğumadan soğumadı soğumasın soğumaya soğumuş soğur soğursa soğusun soğuyacak soğuyor soğuyunca soğuyup
+6	3906	zıplamak	zıpla zıpladı zıpladım zıpladın zıpladığını zıplama zıplaman zıplaması zıplamasını zıplamaya zıplamayı zıplamış zıplar zıplarken zıplarım zıplat zıplatıyor zıplaya zıplayabilir zıplayabiliyor zıplayacak zıplayacaksın zıplayalım zıplayan zıplayarak zıplayın zıplayıp zıplıyor zıplıyordu zıplıyorlar zıplıyorsun zıplıyorum zıplıyoruz
+7	3907	biyoloji	biyolojide biyolojiden biyolojinin biyolojisi biyolojiye biyolojiyi
+8	3908	anca	
+9	3909	medeni	medenice
+10	3910	haydut	haydudu haydudun haydutla haydutlar haydutlara haydutlardan haydutlarla haydutları haydutların haydutsun hayduttan hayduttu
+11	3911	mizah	mizahı mizahın mizahını
+12	3912	sancak	sancakta sancağa sancağı sancağını
+13	3913	yorgunluk	yorgunluktan yorgunluğa yorgunluğu yorgunluğun
+14	3914	çiğ	çiğlik
+15	3915	tezgâh	tezgah tezgaha tezgahlar tezgahları tezgahta tezgahtaki tezgahtan tezgahı tezgahın tezgahına tezgahında tezgahını tezgahının tezgâha tezgâhta tezgâhtan tezgâhı tezgâhın tezgâhında
+16	3916	istismar	istismara istismarda istismardan istismarı istismarına
+17	3917	tekerlek	tekerlekle tekerlekler tekerleklere tekerlekleri tekerleklerin tekerleklerini tekerlekte tekerlekten tekerleğe tekerleği tekerleğin tekerleğine tekerleğini
+18	3918	yorucu	yorucudur yorucuydu
+19	3919	polat	polat'ın
+20	3920	nicole	
+21	3921	evsiz	evsizdi evsize evsizi evsizim evsizin evsizler evsizlerden evsizlere evsizleri evsizlerin evsizlerle
+22	3922	halbuki	
+23	3923	çim	çimde çimden çime çimi çimin çimler çimlerde çimlerden çimlere çimleri çimlerimi çimlerin çimlerini
+24	3924	egemenlik	egemenliği egemenliğin
+25	3925	faşist	faşistler faşistlere faşistleri faşistlerin faşistlerle faşistsin
+26	3926	kovboy	kovboya kovboydu kovboyla kovboylar kovboylara kovboylardan kovboylarla kovboyları kovboyların kovboysun kovboyu kovboyum kovboyun
+27	3927	dünkü	
+28	3928	uygunsuz	uygunsuzca uygunsuzdu
+29	3929	meşru	
+30	3930	hamur	hamura hamurdan hamurlu hamuru hamurun hamuruna hamurunda hamurundan hamurunu
+31	3931	şaşkın	şaşkına şaşkındı şaşkındım şaşkınlıktan şaşkınlığa şaşkınlığımı şaşkınlığını şaşkınım
+32	3932	ölümsüz	
+33	3933	materyal	materyalden materyale materyali materyalin materyaller materyallere materyalleri materyallerin materyallerini
+34	3934	muş	muş'ta muşsun muşum muşuz
+35	3935	bölük	bölükler bölükleri bölükte bölükten bölüğe bölüğü bölüğüm bölüğün bölüğünde bölüğünden bölüğüne bölüğünü bölüğünün
+36	3936	arena	arena'da arena'nın arenada arenadaki arenadan arenanın arenası arenasında arenaya arenayı
+37	3937	bizans	bizans'ın bizanslılar
+38	3938	marco	
+39	3939	manuel	manüel
+40	3940	tüketim	tüketime tüketimi tüketimine tüketimini tüketiminin
+41	3941	bulaşık	bulaşıklar bulaşıklara bulaşıkları bulaşıklarını bulaşığı
+42	3942	yaralanma	yaralanmadan yaralanmalar yaralanmalara yaralanmalardan yaralanmaları yaralanmaların yaralanmalarını yaralanmam yaralanman yaralanmanı yaralanmanın yaralanması yaralanmasına yaralanmasından yaralanmasını yaralanmaya yaralanmayı
+43	3943	erişmek	eriş erişebilecek erişebileceği erişebilen erişebilir erişebilirim erişebiliriz erişebilirsin erişebiliyor erişebilmek erişecek erişeceğim erişemedim erişemeyeceği erişemez erişemezsin erişemiyorum erişen erişip erişir erişiyor erişiyorum erişme erişmem erişmeye erişmiş erişti eriştik eriştim eriştin eriştiğim
+44	3944	haram	harama haramdır
+45	3945	car	cara carla
+46	3946	battaniye	battaniyeden battaniyeler battaniyelere battaniyeleri battaniyelerin battaniyem battaniyemi battaniyemiz battaniyen battaniyeni battaniyenin battaniyesi battaniyesine battaniyesini battaniyeye battaniyeyi battaniyeyle
+47	3947	şantaj	şantaja şantajdan şantajla şantajı şantajın
+48	3948	ce	cece celik ça
+49	3949	ergen	ergen'in ergene ergeni ergenin ergenken ergenle ergenler ergenlere ergenleri ergenlerin ergenlerle
+50	3950	istikrar	istikrara istikrarı istikrarın istikrarını
+51	3951	kurumsal	
+52	3952	boyamak	boyadı boyadık boyadılar boyadım boyadın boyadığı boyama boyamam boyamaya boyamış boyamışlar boyamışsın boyamıştı boyamıştım boyar boyarken boyarlar boyarım boyarız boyatmak boyayabilir boyayabilirim boyayabiliriz boyayabilirsin boyayacak boyayacaksın boyayacağım boyayacağız boyayalım boyayan boyayarak boyayın boyayıp boyuyor boyuyordu boyuyorlar boyuyorsun boyuyorum boyuyoruz
+53	3953	muharrem	
+54	3954	haç	haça haçla haçlar haçları haçtan haçı haçım haçın haçını
+55	3955	rahatça	
+56	3956	bataklık	bataklıklar bataklıklara bataklıklarda bataklıklardan bataklıkları bataklıkların bataklıkta bataklıktaki bataklıktan bataklığa bataklığı bataklığın bataklığına bataklığında bataklığının
+57	3957	turuncu	turuncuya turuncuyu
+58	3958	eğmek	eğ eğdi eğdim eğdin eğdirmek eğecek eğeceksin eğeceğim eğelim eğen eğerek eğerim eğerler eğersen eğildiğimde eğildiğinde eğildiğini eğilmen eğilmesi eğilmeyi eğin eğip eğiyor eğiyorsun eğiyorum eğme eğmeden eğmekten eğmem eğmesi eğmesini eğmeye eğmeyecek eğmeyeceğim eğmeyeceğiz eğmeyen eğmeyi eğmez eğmiş
+59	3959	nihai	nihaidir
+60	3960	birdenbire	
+61	3961	gizlenmek	gizlen gizlendi gizlendikleri gizlendim gizlendin gizlendiği gizlenebilir gizlenecek gizlenen gizlenerek gizlenin gizlenip gizlenir gizleniyor gizleniyordu gizleniyorlar gizleniyorsun gizleniyorum gizlenme gizlenmeye gizlenmiş gizlenmişti
+62	3962	celal	celallenme
+63	3963	sırayla	
+64	3964	sent	sente senti sentim sentin sentine sentini sentle sentlik sentten sentti
+65	3965	yayıncılık	yayıncılığı
+66	3966	bernard	
+67	3967	çevirmen	çevirmene çevirmeni çevirmenim çevirmenin çevirmeniz çevirmenler
+68	3968	sersem	serseme sersemi sersemim sersemin sersemler sersemlere sersemleri sersemsin
+69	3969	tır	tıra tırda tırlar tırsak tırı tırın
+70	3970	diyalog	diyaloglar diyalogları diyaloglarını diyaloğa diyaloğu diyaloğun
+71	3971	hakimiyet	hakimiyeti hakimiyetin hakimiyetinde hakimiyetine hakimiyetini hakimiyetinin
+72	3972	vurgu	vurgular vurgulu vurgun vurgundan vurgunu vurgunum vurgunun vurgusu vurguyu
+73	3973	sepet	sepete sepeti sepetim sepetime sepetimi sepetin sepetinde sepetinden sepetine sepetini sepetinin sepetiyle sepetle sepetledi sepetlemek sepetler sepetleri sepetli sepette sepetteki sepetten
+74	3974	abartmak	abart abartacak abartan abartarak abartmadın abartmaya abartmayalım abartmayın abartmıyor abartmıyorum abartmış abartmışlar abartmışsın abartmışım abarttı abarttık abarttım abarttın abarttınız abartılacak abartıp abartır abartırlar abartıyor abartıyorlar abartıyorsun abartıyorsunuz abartıyorum
+75	3975	şeytani	şeytanin şeytanî
+76	3976	istisna	istisnadır istisnalar istisnası istisnasın istisnaydı
+77	3977	şebeke	şebekede şebekeden şebekeler şebekeleri şebekelerini şebekenin şebekesi şebekesinde şebekesinden şebekesine şebekesini şebekesinin şebekeye şebekeyi
+78	3978	helal	
+79	3979	mahrum	
+80	3980	gazetecilik	gazetecilikte gazeteciliğe gazeteciliği gazeteciliğin
+81	3981	vitamin	vitamine vitamini vitaminini vitaminler vitaminleri vitaminlerimi vitaminlerini vitaminli
+82	3982	sıkça	
+83	3983	kıdemli	kıdemliler kıdemliyim
+84	3984	muhtar	muhtarlar muhtarları muhtarı muhtarın
+85	3985	meb	meb'in
+86	3986	yücelmek	yücel
+87	3987	nasip	nasibimi nasibini
+88	3988	teyit	teyidi teyidini
+89	3989	olgu	olgudur olgular olgularda olguları olguların olgunun olgusu olgusunu olgusunun olguya olguyu
+90	3990	ısıtmak	ısıt ısıtabilir ısıtabilirim ısıtacak ısıtacağım ısıtacağız ısıtalım ısıtan ısıtarak ısıtayım ısıtmalı ısıtmaya ısıttı ısıttım ısıttın ısıtılmış ısıtın ısıtıp ısıtır ısıtırken ısıtırsın ısıtırım ısıtırız ısıtıyor ısıtıyorsun ısıtıyorum ısıtıyoruz
+91	3991	kısacası	
+92	3992	efsanevi	efsanevidir
+93	3993	nakliye	nakliyenin nakliyesi nakliyesini nakliyeye nakliyeyi
+94	3994	coğrafi	
+95	3995	oruç	orucu oruçlu
+96	3996	eroin	eroinden eroine eroini eroinin eroinle
+97	3997	piknik	piknikler piknikte piknikten pikniğe pikniği pikniğinde pikniğine
+98	3998	kararmak	karara kararacak karardı karardığı kararma kararmadı kararmaya kararmaz kararmış kararmıştı kararın kararınca kararınız kararıp kararır kararıyor kararıyordu
+99	3999	bağışıklık	bağışıklığı bağışıklığın bağışıklığını
+100	4000	sayısal	

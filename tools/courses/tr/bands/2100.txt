@@ -1,0 +1,100 @@
+1	2001	vahşi	vahşidir vahşiler vahşilerden vahşilere vahşileri vahşilerin vahşileşiyor vahşileşti vahşilik vahşiliği vahşinin vahşiydi vahşiyi vahşiyim
+2	2002	dar	darda dardı dardır darla darmış
+3	2003	sürücü	sürücüde sürücüden sürücüdür sürücüler sürücülerden sürücülere sürücüleri sürücülerin sürücülerini sürücülerle sürücülük sürücüm sürücümüz sürücün sürücünün sürücünüz sürücüsü sürücüsün sürücüsünde sürücüsüne sürücüsünü sürücüsünün sürücüydü sürücüye sürücüyle sürücüyü sürücüyüm
+4	2004	peder	pederden pedere pederi pederim pederimiz pederin pederle pederler
+5	2005	demokratik	demokratikleşme
+6	2006	milyonlarca	milyonlarcası milyonlarcasını
+7	2007	itibar	itibara itibarlarını itibarı itibarım itibarıma itibarımı itibarımız itibarımızı itibarın itibarına itibarını itibarının itibarınız itibarınızı itibarıyla
+8	2008	kopya	kopyada kopyadan kopyalar kopyaları kopyalarım kopyaların kopyalarına kopyalarını kopyam kopyan kopyanın kopyası kopyasıdır kopyasına kopyasını kopyasının kopyasıydı kopyasıyla kopyaya kopyayı
+9	2009	danışman	danışmana danışmandı danışmanla danışmanlar danışmanlara danışmanlardan danışmanlarla danışmanları danışmanlarım danışmanlarımız danışmanların danışmanlarından danışmanlarının danışmanlarıyla danışmansın danışmanı danışmanım danışmanıma danışmanımla danışmanımı danışmanımın danışmanımız danışmanın danışmanına danışmanından danışmanını danışmanının danışmanınız danışmanıydı danışmanıydım danışmanıyla danışmanıyım
+10	2010	büyükanne	büyükanneden büyükanneler büyükanneleri büyükannem büyükannemde büyükannemden büyükanneme büyükannemi büyükannemin büyükannemiz büyükannen büyükannenden büyükannene büyükanneni büyükannenin büyükanneniz büyükannenize büyükannenizin büyükannesi büyükannesinde büyükannesinden büyükannesine büyükannesini büyükannesinin büyükanneye büyükanneyi
+11	2011	hassas	hassaslar hassaslaştı hassaslık hassaslığı hassasmış hassassın hassassınız hassastı hassastır hassastırlar hassasım hassasımdır hassasız
+12	2012	bıkmak	bıkacaksın bıkar bıkarsın bıkmadan bıkmadın bıkmadınız bıkmam bıkmaya bıkmaz bıkmıyor bıkmış bıkmıştı bıkmıştım bıktı bıktık bıktılar bıktım bıktın bıktınız bıktığı bıktığım bıktığın bıkıp
+13	2013	onay	onaya onaylar onaylarım onaylı onayı onayım onayıma onayımı onayın onayına onayından onayını onayınız onayınıza onayınızı onayıyla
+14	2014	becermek	becer becerdi becerdik becerdim becerdin becerdiniz becerdiği becerdiğin becerdiğini becerebilecek becerebilir becerebilirim becerebilirsin becerecek becereceksin becereceğim beceremedi beceremedim beceremedin beceremem beceremeyen beceremez beceremezsin beceremiyor beceremiyorsun beceremiyorum beceren becerip becerir beceririm becerirken becerirsin beceriyor beceriyorsun beceriyorum becerme becermeye becermeyi becermiş
+15	2015	aksine	
+16	2016	beslemek	besle besledi besledik beslediler besledim besledin beslediği beslediğim beslediğin besleme beslemem beslemeye beslemiyor beslemiyorum beslemiş beslenmesi besler beslerdi beslerim beslerken beslerler beslersin besleyebilir besleyecek besleyeceğim besleyeceğiz besleyelim besleyen besleyerek besleyin besleyip besliyor besliyordu besliyordum besliyorlar besliyorsun besliyorsunuz besliyorum besliyoruz
+17	2017	ret	red reddi reddini
+18	2018	yalvarmak	yalvar yalvaracak yalvaracaklar yalvaracaksın yalvaracağım yalvaran yalvararak yalvarayım yalvardı yalvardık yalvardılar yalvardım yalvardın yalvardığını yalvarma yalvarmadım yalvarmam yalvarmamı yalvarman yalvarmanı yalvarmaya yalvarmayacağım yalvarmayı yalvarmış yalvarmıştı yalvarmıştım yalvartma yalvarıp yalvarır yalvarırdım yalvarırken yalvarırım yalvarıyor yalvarıyordu yalvarıyordun yalvarıyorlar yalvarıyorsun yalvarıyorum yalvarıyoruz
+19	2019	gözle	gözlendi gözlenen gözlenir gözleniyor gözlenmektedir gözlenmiştir gözlerle gözüyle
+20	2020	zekâ	zeka zekada zekadan zekalar zekaları zekalarını zekalısınız zekam zekama zekamla zekamı zekamız zekan zekana zekanla zekanı zekanın zekanız zekanızı zekası zekasına zekasından zekasını zekasının zekasıyla zekaya zekayla zekayı zekâm zekâma zekâmı zekân zekânı zekânın zekâsı zekâsına zekâsını zekâya zekâyı
+21	2021	ot	ota otlar otlara otlardan otlarla otları otların otlarını otlarının otlu ottan otu otum otumu otumuz otun otuna otundan otunu otunun otuyla
+22	2022	eric	
+23	2023	kum	kuma kumada kumda kumdaki kumdan kumlar kumlara kumlarda kumlarla kumları kumların kumlarında kumu kumun kumunu
+24	2024	fahişe	fahişeden fahişedir fahişeler fahişelerden fahişelere fahişeleri fahişelerin fahişelerinden fahişelerine fahişelerini fahişelerle fahişem fahişen fahişeni fahişenin fahişesi fahişesin fahişesine fahişesini fahişeydi fahişeye fahişeyi fahişeyim fahişeyle fahişeymiş
+25	2025	dışişleri	
+26	2026	ağabey	ağabeyciğim ağabeye ağabeyi ağabeyim ağabeyimden ağabeyimdi ağabeyime ağabeyimi ağabeyimin ağabeyimiz ağabeyimle ağabeyin ağabeyinden ağabeyine ağabeyini ağabeyinim ağabeyinin ağabeyiniz ağabeyinizi ağabeyinizin ağabeyinle ağabeyiyim ağabeyiyle ağabeyler ağabeyleri ağabeylerim ağabeylerin ağabeylerinin ağabeylik ağabeysin
+27	2027	felaket	felakete felaketi felaketim felaketin felaketinden felaketine felaketini felaketinin felaketle felaketler felaketlerden felaketlere felaketleri felaketlerin felaketlerle felaketmiş felaketsin felakette felaketten felaketti felakettir felâket
+28	2028	mm	
+29	2029	ab	ab'de ab'den aba aban abayı
+30	2030	oğlan	oğlana oğlanda oğlandan oğlandı oğlanla oğlanlar oğlanlara oğlanlardan oğlanlarla oğlanları oğlanların oğlansın oğlanı oğlanım oğlanın oğlanına
+31	2031	yargı	yargıda yargıdan yargılar yargılara yargıları yargılarım yargıların yargılarına yargılarını yargılı yargının yargısı yargısına yargısız yargıya yargıyı
+32	2032	majeste	majesteleri majestelerine majestelerini majestelerinin majestenin
+33	2033	olumlu	olumluydu olumluyum
+34	2034	sunucu	sunucuda sunucudan sunucular sunuculara sunuculardan sunucuları sunucuların sunucularına sunucularından sunucularını sunuculuk sunuculuğu sunuculuğunu sunucumuz sunucunun sunucunuz sunucusu sunucusuna sunucusundan sunucusunu sunucusunun sunucuya sunucuyu
+35	2035	mevsim	mevsimde mevsime mevsimi mevsimidir mevsimin mevsiminde mevsiminden mevsimindeyiz mevsimine mevsimini mevsiminin mevsimiydi mevsimler mevsimlerde mevsimlere mevsimleri mevsimlerin
+36	2036	ilerleme	ilerlemeden ilerlemedir ilerlemeler ilerlemeleri ilerlemelerini ilerlemem ilerlememi ilerlememiz ilerlememizi ilerlemen ilerlemene ilerlemeni ilerlemenin ilerlemeniz ilerlemesi ilerlemesine ilerlemesini ilerlemeye ilerlemeyi
+37	2037	maymun	maymuna maymundan maymundu maymunla maymunlar maymunlara maymunlardan maymunlarla maymunları maymunların maymunlu maymunsun maymunu maymunum maymunumu maymunumuz maymunun maymununa maymununu
+38	2038	boşanmak	boşan boşanacak boşanacaksın boşanacağım boşanacağız boşanalı boşanalım boşanan boşandı boşandık boşandılar boşandım boşandın boşandınız boşandığı boşandığım boşanma boşanmadık boşanmadın boşanmam boşanmaya boşanmayacağım boşanmış boşanmışlar boşanmışsın boşanmıştı boşanınca boşanıp boşanır boşanırcasına boşanırken boşanırlar boşanırsan boşanırım boşanıyor boşanıyorlar boşanıyorsun boşanıyorum boşanıyoruz
+39	2039	tahliye	tahliyede tahliyeden tahliyem tahliyemi tahliyenin tahliyesi tahliyesine tahliyesini tahliyesiz tahliyeye tahliyeyi tahliyeyle
+40	2040	minik	minikler miniğim
+41	2041	keskin	keskindi keskindir keskinlik keskinliği keskinmiş
+42	2042	geçit	geçide geçidi geçidin geçidinde geçidindeki geçidinden geçidine geçidini geçidinin geçitle geçitler geçitlerden geçitleri geçitlerin geçitlerini geçitte geçitteki geçitten
+43	2043	havaalanı	havaalanları havaalanlarına havaalanlarında havaalanlarını havaalanına havaalanında havaalanından havaalanını havaalanının
+44	2044	kaba	kabadır kabalar kabalıktı kabalıktır kabasın kabasınız kabaydı kabaydım kabaydın kabayım
+45	2045	aniden	
+46	2046	birazcık	birazcıkta
+47	2047	kategori	kategoride kategorideki kategoriler kategorilerde kategorilere kategorileri kategorilerinde kategorimiz kategorisi kategorisinde kategorisindeki kategorisine kategoriye
+48	2048	julia	julia'nın julian
+49	2049	kültürel	
+50	2050	yetiştirmek	yetiştir yetiştirdi yetiştirdik yetiştirdikleri yetiştirdiler yetiştirdim yetiştirdin yetiştirdiniz yetiştirdiği yetiştirdiğim yetiştirdiğimiz yetiştirdiğin yetiştirebilir yetiştirebiliriz yetiştirecek yetiştireceksin yetiştireceğim yetiştireceğiz yetiştiren yetiştirin yetiştirip yetiştirir yetiştirirdi yetiştiririm yetiştiririz yetiştirirken yetiştiriyor yetiştiriyorlar yetiştiriyorsun yetiştiriyorsunuz yetiştiriyorum yetiştiriyoruz yetiştirme yetiştirmedi yetiştirmedim yetiştirmem yetiştirmeye yetiştirmiş yetiştirmişsin
+51	2051	teşkilat	teşkilata teşkilatlar teşkilatları teşkilatta teşkilattaki teşkilattan teşkilatı teşkilatı'nın teşkilatımız teşkilatın teşkilatına teşkilatında teşkilatındaki teşkilatından teşkilatını teşkilatının
+52	2052	okyanus	okyanusa okyanusla okyanuslar okyanuslara okyanuslarda okyanuslardaki okyanuslardan okyanusları okyanusların okyanusta okyanustaki okyanustan okyanusu okyanusun okyanusuna okyanusunda okyanusunu okyanusunun
+53	2053	alakalı	alakalıydı
+54	2054	şoför	şoförden şofördü şoföre şoförle şoförler şoförlerden şoförlere şoförleri şoförlerin şoförlerinden şoförlerine şoförlerinin şoförlük şoförlüğü şoförlüğünü şoförsün şoförü şoförüm şoförüme şoförümü şoförümüz şoförün şoföründen şoförüne şoförünü şoförünün şoförünüz şoförüsün şoförüydü şoförüydüm şoförüyle şoförüyüm şöför
+55	2055	yanıt	yanıta yanıtlar yanıtlara yanıtları yanıtlarım yanıtların yanıtlarını yanıtsız yanıtı yanıtım yanıtımı yanıtın yanıtını yanıtınız yanıtınızı
+56	2056	maria	maria'nın marian mariana
+57	2057	taze	taptaze tazecik tazedir tazesini tazeydi tazeyken
+58	2058	robot	robota robotla robotlar robotlara robotlardan robotlarla robotları robotların robotlarını robotsun robottan robottu robotu robotum robotumuz robotun robotuna robotunu robotunun
+59	2059	bal	bala balam balda baldan balla ballıca balı balım balın balını
+60	2060	kıymet	kıymete kıymeti kıymetimi kıymetini kıymetler kıymetli kıymetlidir kıymetlim kıymetlisi kıymetliydi kıymetsiz
+61	2061	kemer	kemerde kemerden kemere kemeri kemerim kemerime kemerimi kemerin kemerinde kemerindeki kemerinden kemerine kemerini kemerinin kemeriniz kemerinizi kemeriyle kemerle kemerler kemerleri kemerlerimizi kemerlerin kemerlerini kemerleriniz kemerlerinizi kemerli
+62	2062	şurada	
+63	2063	esna	esnada esnasında esnasındaki
+64	2064	tüfek	tüfekle tüfekler tüfeklerden tüfeklere tüfekleri tüfeklerimiz tüfeklerin tüfeklerini tüfeklerinizi tüfekleriyle tüfeklerle tüfekli tüfekte tüfekten tüfeğe tüfeği tüfeğim tüfeğimi tüfeğimin tüfeğimiz tüfeğimle tüfeğin tüfeğinden tüfeğine tüfeğini tüfeğinin tüfeğiniz tüfeğiyle
+65	2065	ulaşım	ulaşıma ulaşımda ulaşımı ulaşımın ulaşımını
+66	2066	keşfetmek	keşfedebiliriz keşfedecek keşfedeceğim keşfedeceğiz keşfedelim keşfeden keşfedene keşfeder keşfedilmeyi keşfedin keşfedip keşfediyor keşfediyorum keşfediyoruz keşfet keşfetme keşfetmeden keşfetmen keşfetmenin keşfetmesi keşfetmeye keşfetmeyi keşfetmiş keşfetmişler keşfetmişti keşfetmiştim keşfetti keşfettik keşfettikleri keşfettiler keşfettim keşfettin keşfettiniz keşfettiği keşfettiğim keşfettiğimiz keşfettiğin keşfettiğinde keşfettiğini
+67	2067	yedek	yedekler yedeklere yedekleri yedeklerin yedeklerini yedekte yedeğe yedeği yedeğim yedeğimiz yedeğin yedeğini
+68	2068	katmak	kata katabilir katabiliriz katacak katacağım katacağız katalım katan katarak katarsak katarsan katarız katayım katma katmadım katmadın katmalısın katmalıyız katmamıştım katmaya katmıyor katmıyorum katmış kattı kattık kattılar kattım kattın kattınız kattığı kattığın katın katınca katıp katıyor katıyorlar katıyorsun katıyorum katıyoruz
+69	2069	gerçi	
+70	2070	üs	üsle üsler üsleri üslerin üslerinden üslerine üslerini üslerinin üsse üssü üssü'nde üssüm üssümüz üssümüze üssün üssünde üssündeki üssünden üssüne üssünü üssünün üste üsteki üsten üstesinden
+71	2071	yaygın	yaygındı yaygındır yaygınlaşması
+72	2072	öykü	öyküde öyküden öyküdür öyküler öykülerden öyküleri öykülerin öykülerine öykülerini öyküm öykümü öykümüz öykün öykünü öykünün öyküsü öyküsüdür öyküsünde öyküsünden öyküsüne öyküsünü öyküsünün öyküydü öyküye öyküyle öyküyü
+73	2073	miras	mirasa mirasla miraslarını mirasta mirastan mirası mirasım mirasımdan mirasımı mirasımın mirasımız mirasımızı mirasımızın mirasın mirasına mirasında mirasından mirasını mirasının mirasınız mirasıyla
+74	2074	çakmak	çak çakacak çakacağım çakalı çakan çakar çakardım çakarken çakarım çakayım çakma çakmakla çakmam çakması çakmaya çakmayı çakmağı çakmağım çakmağımı çakmağın çakmağını çakmış çaktı çaktım çaktın çaktınız çaktığı çaktığım çaktığını çakılacak çakılan çakıldı çakılmış çakılıp çakın çakıp çakıyor çakıyorsun çakıyorum
+75	2075	manzara	manzarada manzaradan manzaradır manzaralar manzaraları manzaram manzaramı manzaramız manzaran manzaranın manzarası manzarasına manzarasını manzarasının manzarasıyla manzaraya manzaraydı manzarayla manzarayı
+76	2076	toplu	
+77	2077	mobil	
+78	2078	organizasyon	organizasyona organizasyonda organizasyondan organizasyondur organizasyonla organizasyonlar organizasyonlara organizasyonları organizasyonu organizasyonum organizasyonumuz organizasyonun organizasyonuna organizasyonunda organizasyonunu organizasyonunun
+79	2079	nitelik	nitelikler niteliklere nitelikleri niteliklerin niteliklerinden niteliklerine niteliklerini nitelikli niteliksiz nitelikte niteliktedir nitelikteki nitelikteydi niteliğe niteliği niteliğinde niteliğindedir niteliğindeki niteliğindeydi niteliğine niteliğini
+80	2080	boru	boruda borudan borular borulara borularda borulardan borularla boruları boruların borularına borularında borularından borularını borularının borulu borum boruma borumu borun borunu borunun borusu borusuna borusunda borusundaki borusundan borusunu borusunun boruya boruyla boruyu
+81	2081	kahrolası	kahrolasıca
+82	2082	buluşma	buluşmada buluşmadan buluşmalar buluşmalara buluşmalarda buluşmalardan buluşmaları buluşmaların buluşmanın buluşmaya buluşmayı
+83	2083	yakıt	yakıta yakıtla yakıtlar yakıtları yakıtların yakıtlı yakıttan yakıtı yakıtım yakıtımız yakıtımızı yakıtın yakıtını yakıtının yakıtınız
+84	2084	otomatik	otomatiktir otomatiğe
+85	2085	giysi	giyside giysiden giysiler giysilerden giysilere giysileri giysilerim giysilerime giysilerimi giysilerimin giysilerimiz giysilerimizi giysilerin giysilerinde giysilerindeki giysilerinden giysilerine giysilerini giysilerinin giysileriniz giysilerinizi giysileriyle giysilerle giysili giysim giysimi giysin giysini giysinin giysisi giysisinden giysisine giysisini giysisinin giysisiyle giysiye giysiyi giysiyle
+86	2086	hakem	hakeme hakemi hakemin hakemle hakemler hakemleri hakemlerin hakemli
+87	2087	ısı	ısıda ısıdan ısılarını ısın ısındığında ısındığını ısınmadan ısınmanın ısınması ısınmasına ısınmasını ısınmayla ısınmayı ısını ısının ısısı ısısına ısısını ısısının ısıya ısıyla ısıyı
+88	2088	inşallah	
+89	2089	vadi	vadide vadideki vadiden vadiler vadilerde vadilere vadileri vadilerin vadim vadinin vadisi vadisi'nde vadisi'ne vadisi'nin vadisinde vadisindeki vadisinden vadisine vadisini vadisinin vadiye vadiyi
+90	2090	üyelik	üyelikleri üyeliğe üyeliği üyeliğim üyeliğimi üyeliğin üyeliğinden üyeliğine üyeliğini
+91	2091	yakışmak	yakışacak yakışan yakışmadı yakışmamış yakışmayacak yakışmayan yakışmaz yakışmıyor yakışmış yakışmışsınız yakışmıştı yakıştı yakıştığı yakıştığını yakışır yakışırdı yakışıyor yakışıyordu yakışıyorlar yakışıyorsunuz
+92	2092	küresel	
+93	2093	federasyon	federasyona federasyonu federasyonu'na federasyonu'nun federasyonun federasyonunun
+94	2094	arthur	arthur'un
+95	2095	jüri	jüride jürideki jüriden jüriler jürileri jürilerin jürili jürilik jürimiz jürinin jürisi jüriye jüriyi jüriyle
+96	2096	uzatmak	uzat uzatabilir uzatabilirim uzatabiliriz uzatacak uzatacaksın uzatacağım uzatacağız uzatalım uzatan uzatarak uzatayım uzatmalı uzatmaya uzatmayacağım uzatmayalım uzatmayayım uzatmayın uzatmış uzatmıştı uzatsana uzattı uzattık uzattılar uzattım uzattın uzattığı uzattığım uzatın uzatıp uzatır uzatırken uzatırsan uzatırsın uzatırım uzatıyor uzatıyorsun uzatıyorum uzatıyoruz
+97	2097	ibaret	ibaretim ibaretiz ibaretler ibaretmiş ibaretse ibaretsin ibaretti ibarettir
+98	2098	maruz	
+99	2099	yorulmak	yorulacak yorulacaksın yorulan yoruldu yorulduk yoruldular yoruldum yoruldun yoruldunuz yorulduysan yorulduğu yorulduğum yorulduğun yorulma yorulmadım yorulmadın yorulmadınız yorulmam yorulmaya yorulmayın yorulmaz yorulmuyor yorulmuş yorulmuşsun yorulmuştu yorulmuştum yorulmuşum yorulunca yorulup yorulur yorulursan yorulursun yoruluyor yoruluyorsun yoruluyorum
+100	2100	basketbol	basketbola basketbolda basketboldan basketbolla basketbolu basketbolun

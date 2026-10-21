@@ -1,0 +1,100 @@
+1	8801	kundaklama	
+2	8802	davranışsal	
+3	8803	eflatun	
+4	8804	kurmaca	kurmacaydı
+5	8805	güzide	
+6	8806	yetişkinlik	yetişkinliğe
+7	8807	deodorant	deodorantı deodorantını
+8	8808	yuvarlamak	yuvarla yuvarladı yuvarladım yuvarlama yuvarlamaya yuvarlandığını yuvarlanması yuvarlanmayı yuvarlar yuvarlayalım yuvarlayarak yuvarlayın yuvarlayıp yuvarlıyor
+9	8809	muhakeme	muhakemesi
+10	8810	haşin	
+11	8811	gramer	
+12	8812	türbin	türbini türbinler türbinleri
+13	8813	mürit	müridi müritler müritleri müritlerin müritlerinden müritlerine müritlerini müritlerinin
+14	8814	rulet	ruleti rulette
+15	8815	şerh	şerhi
+16	8816	burjuvazi	burjuvazinin
+17	8817	jeopolitik	
+18	8818	nene	nenem
+19	8819	ekg	
+20	8820	akbaş	
+21	8821	asuman	
+22	8822	dilara	
+23	8823	feyenoord	
+24	8824	hicri	
+25	8825	karakoç	
+26	8826	kompozit	
+27	8827	kâmil	
+28	8828	sunay	
+29	8829	tdk	
+30	8830	rezerve	
+31	8831	teğet	
+32	8832	postal	postala postaladı postaladık postaladılar postaladım postalamak postalamaya postalamış postalanacak postalandı postalanmış postalayacak postalayacağım postalayacağız postalayalım
+33	8833	çakra	çakralarını çakram çakrası çakrasını çakrayı
+34	8834	bej	
+35	8835	banker	bankeri bankerler bankerlerin
+36	8836	kaynaşmak	kaynaş kaynaşma kaynaşması kaynaşmaya kaynaşmış kaynaştı kaynaştık kaynaşın kaynaşıp kaynaşıyor
+37	8837	sapıklık	sapıklığı
+38	8838	radyoloji	radyolojide radyolojiden radyolojiye radyolojiyi
+39	8839	kavurmak	kavuracak kavuran kavurdu kavurucu kavurur kavuruyor
+40	8840	dizgin	dizgini dizginle dizginleme dizginlemek dizginlemeye dizginlenemez dizginler dizginleri dizginlerini
+41	8841	kolordu	kolordusu
+42	8842	rotasyon	rotasyona rotasyonu
+43	8843	glikoz	
+44	8844	şalter	şalteri şalterini şalterleri
+45	8845	çekik	
+46	8846	matador	matadoru matadorun
+47	8847	cesaretlendirmek	cesaretlendirdi cesaretlendirdim cesaretlendirdin cesaretlendirecek cesaretlendiren cesaretlendirir cesaretlendiriyor cesaretlendiriyorsun cesaretlendiriyorum cesaretlendirme cesaretlendirmeye
+48	8848	yönelim	yönelimi
+49	8849	vav	
+50	8850	örf	
+51	8851	tümden	
+52	8852	slayt	slaytlar slaytları
+53	8853	zatürre	zatürreden zatürreye
+54	8854	ast	
+55	8855	çini	
+56	8856	avaz	avazı avazım avazın
+57	8857	kıvrımlı	
+58	8858	onbinlerce	
+59	8859	hidroelektrik	
+60	8860	özgeçmiş	
+61	8861	ranza	ranzada ranzalar ranzanın ranzaya ranzayı
+62	8862	binici	biniciler binicileri binicisi
+63	8863	düşünsel	
+64	8864	bilanço	bilançosu
+65	8865	familya	familyasından
+66	8866	süngü	süngüleri süngüyle süngüyü
+67	8867	levrek	levreği
+68	8868	mesken	meskene
+69	8869	tecelli	
+70	8870	asbest	
+71	8871	zedele	zedeledi zedelemek zedelemiş zedelendi zedelenir zedelenme zedelenmesi zedelenmiş zedeler zedeleyecek zedeliyor zedeliyorsun
+72	8872	çıkarcı	
+73	8873	haylaz	haylazlar
+74	8874	şaşılmak	şaşılacak
+75	8875	çıngıraklı	
+76	8876	saksafon	saksafonu
+77	8877	lolipop	lolipoplar lolipopu
+78	8878	titrek	
+79	8879	arıkan	
+80	8880	cerrahpaşa	
+81	8881	rifat	
+82	8882	selda	
+83	8883	ıbm	
+84	8884	palet	paleti paletler paletleri
+85	8885	sarkık	
+86	8886	avare	
+87	8887	muhallebi	
+88	8888	öğretici	
+89	8889	zımba	zımbası zımbayla zımbayı
+90	8890	giyinik	giyinikken giyiniğim
+91	8891	guguk	
+92	8892	alçalmak	alçal alçalan alçaldı alçaldın alçalma alçalmaya alçalmış alçalın alçalıp alçalır alçalıyor alçalıyorum alçalıyoruz
+93	8893	jeotermal	
+94	8894	keyifsiz	
+95	8895	metafor	metaforlar metaforu
+96	8896	kadastro	kadastrocu
+97	8897	kron	kronu
+98	8898	yarışçı	yarışçılar
+99	8899	psikoz	psikoza psikozlu psikozu
+100	8900	biseksüel	biseksüelim lgbti

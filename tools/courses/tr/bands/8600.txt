@@ -1,0 +1,100 @@
+1	8501	dönümlük	
+2	8502	cezbetmek	cezbedecek cezbeden cezbeder cezbediyor cezbetmeye cezbetti
+3	8503	dokunulmaz	
+4	8504	gerilemek	geriledi gerilemeye gerilemiş gerilemiştir geriliyor geriliyorsun geriliyorum
+5	8505	tenha	
+6	8506	mavili	
+7	8507	kafiye	kafiyeler kafiyesi
+8	8508	ağarmak	ağar ağaracak ağarana ağardı ağardığında ağarmadan ağarmış ağarınca ağarırken ağarıyor
+9	8509	steril	
+10	8510	zifiri	
+11	8511	erika	
+12	8512	şilin	şiline şilini
+13	8513	vana	vanalar vanaları vanası vanasını vanayı
+14	8514	demode	
+15	8515	bulgur	
+16	8516	salkım	
+17	8517	yurtsever	
+18	8518	helak	
+19	8519	savrul	savrulan savruldu savruldum savrulmuş savrulup savrulur savruluyor
+20	8520	zayiat	zayiatlar zayiatı
+21	8521	kaşif	kaşifi kaşifler kaşifleri kaşiflerin
+22	8522	kulis	kulise kuliste
+23	8523	hantal	
+24	8524	ırz	ırza ırzıma ırzına
+25	8525	mecaz	mecazlar mecazı
+26	8526	atomik	
+27	8527	canlılık	canlılığı
+28	8528	istisnasız	
+29	8529	kolera	koleradan
+30	8530	maaşlı	
+31	8531	dezenfekte	
+32	8532	dönek	dönekler
+33	8533	onkoloji	
+34	8534	verimsiz	
+35	8535	medet	
+36	8536	halef	halefi halefim halefin halefini
+37	8537	altuğ	
+38	8538	uyruklu	
+39	8539	görü	görüler görüleri görülü görümde görün göründüklerini göründüğümden göründüğümü göründüğünde göründüğünden göründüğüne göründüğünü göründüğünün görünecektir görüneceğini görünenden görünene görünmeden görünmediğini görünmektedir görünmekten görünmemesi görünmemeye görünmemi görünmemiz görünmen görünmene görünmeni görünmesi görünmesine görünmesini görünmeyebilir görünmeyi görünmezim görünün görünüyordur görünüşlü görünüşüyle görüsü
+40	8540	iftihar	iftiharla
+41	8541	âdet	âdeti
+42	8542	ütopya	
+43	8543	gazino	gazinoda gazinonun gazinosu gazinoya gazinoyu
+44	8544	nikola	
+45	8545	ultraviyole	
+46	8546	budak	budaklı
+47	8547	kom	
+48	8548	yüzüncü	
+49	8549	seki	
+50	8550	kavurma	
+51	8551	cemile	
+52	8552	embriyo	embriyolar embriyoları embriyonun embriyosu embriyoyu
+53	8553	doymuş	
+54	8554	teslimiyet	teslimiyeti
+55	8555	hâlbuki	
+56	8556	eşzamanlı	
+57	8557	ezber	ezberden ezberimde
+58	8558	duygusallık	duygusallığı
+59	8559	tebeşir	tebeşiri tebeşirle
+60	8560	duyusal	
+61	8561	yumru	yumrular yumruları
+62	8562	elastik	
+63	8563	ayçiçeği	ayçiçekleri ayçiçeklerini
+64	8564	masör	masöre masörü masörüm
+65	8565	reha	rehan
+66	8566	hırpalamak	hırpala hırpaladı hırpaladılar hırpaladım hırpalama hırpalamaya hırpalamış hırpalamışlar hırpalanmış hırpalayan hırpalıyor
+67	8567	asalet	asaleti asaletin asaletini asaletle
+68	8568	alıngan	alıngansın
+69	8569	ceyda	
+70	8570	kırtasiye	
+71	8571	bölüşmek	bölüşebiliriz bölüşeceğiz bölüşelim bölüşme bölüşmeye bölüştük bölüşün bölüşüp bölüşürüz bölüşüyoruz
+72	8572	mitolojik	
+73	8573	obezite	
+74	8574	petek	peteği
+75	8575	müzeyyen	
+76	8576	kasiyer	kasiyere kasiyeri kasiyerin kasiyerlik
+77	8577	parşömen	parşömende parşömene parşömeni parşömenin parşömenleri
+78	8578	zayıflatmak	zayıflatabilir zayıflatacak zayıflatan zayıflatmaya zayıflatmış zayıflattı zayıflatır zayıflatıyor
+79	8579	doğurganlık	doğurganlığı
+80	8580	fırt	
+81	8581	şaheser	şaheseri şaheserim şaheserin şaheserini
+82	8582	kaf	
+83	8583	çaydanlık	çaydanlığa çaydanlığı çaydanlığın
+84	8584	dağcı	dağcılar dağcıların
+85	8585	derecelendir	derecelendirme
+86	8586	entellektüel	
+87	8587	fuckbuddy	fb
+88	8588	müren	
+89	8589	kolonya	kolonyası kolonyayı
+90	8590	hayranlıkla	
+91	8591	ekoloji	
+92	8592	iyileştirici	
+93	8593	salınım	salınımı salınımını
+94	8594	karamel	
+95	8595	katran	katrana katranı
+96	8596	enis	
+97	8597	karabulut	
+98	8598	koronavirüs	
+99	8599	koçak	
+100	8600	müsteşarlık	müsteşarlığı

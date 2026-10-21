@@ -1,0 +1,100 @@
+1	6501	kahpe	kahpeler kahpenin kahpesi kahpeyi
+2	6502	medikal	
+3	6503	şems	şemsi
+4	6504	illegal	
+5	6505	karizmatik	
+6	6506	istatistiksel	
+7	6507	karaoke	karaokede karaokeye
+8	6508	fehim	fehmi
+9	6509	picasso	
+10	6510	erişte	erişteler erişteleri erişteli eriştenin eriştesi erişteyi erişteyle
+11	6511	katip	katibi katipler
+12	6512	geometrik	
+13	6513	açıcı	
+14	6514	klas	klası
+15	6515	çar	çarı çarın
+16	6516	sistemli	
+17	6517	imtihan	imtihanı
+18	6518	ilmek	ildi ilen iler ilerler ilerlerse ilin ilme ilmeği ilse
+19	6519	mahzen	mahzende mahzendeki mahzenden mahzene mahzeni mahzenin mahzeninde mahzeninden mahzenine mahzenini mahzenler
+20	6520	aktive	
+21	6521	alışılmış	alışılmışın
+22	6522	bakir	bakirim bakirler bakirsin
+23	6523	doküman	dokümanlar dokümanları dokümanlarını dokümanı döküman
+24	6524	rast	rasta rastlar rastlarım
+25	6525	kaygan	kaygandı kaygandır
+26	6526	zaaf	zaafları zaaflarını zaafı zaafım zaafın zaafını
+27	6527	huzursuzluk	huzursuzluğa huzursuzluğu huzursuzluğun
+28	6528	tonluk	
+29	6529	içtenlikle	
+30	6530	hipnoz	hipnoza hipnozcu hipnozdan hipnozla hipnozu hipnozun
+31	6531	kordon	kordona kordondan kordonu kordonun kordonunu
+32	6532	dondurulmuş	
+33	6533	halkalı	
+34	6534	yedirmek	yedir yedirdi yedirdiler yedirdim yedirdin yedirecek yedireceksin yedireceğim yedireceğiz yedirelim yediren yedirerek yedireyim yedirin yedirip yedirir yediririm yediriyor yediriyorlar yediriyorsun yediriyorum yedirme yedirmem yedirmeye yedirmiş
+35	6535	saklambaç	
+36	6536	oluk	oluklar olukları oluklarını oluktan oluğa oluğu oluğun oluğuna oluğunu
+37	6537	yurtdışı	
+38	6538	mecburen	
+39	6539	öğreti	öğretiler öğretileri öğretilerinden öğretilerine öğretilerini öğretilerinin öğretimde öğretime öğretimi öğretimin öğretin öğretisi öğretisini
+40	6540	muhterem	
+41	6541	kolaylamak	kolaylaştırmak
+42	6542	matkap	matkabı matkabın matkabını matkapla matkaplar
+43	6543	kıvanç	
+44	6544	makbuz	makbuzlar makbuzları makbuzlarını makbuzu makbuzun makbuzunu makbuzunuz
+45	6545	istiridye	istiridyeler istiridyeleri
+46	6546	bankacı	bankacılar bankacıları bankacıların
+47	6547	plato	platoda platodan platon platonun platosu
+48	6548	rastlantı	rastlantılar rastlantıya rastlantıydı rastlantıyla
+49	6549	kafeterya	kafeteryada kafeteryadaki kafeteryadan kafeteryanın kafeteryasında kafeteryaya kafeteryayı
+50	6550	aliyev	aliyev'in
+51	6551	nakavt	nakavtla
+52	6552	türkeş	türkeş'in
+53	6553	tork	torku
+54	6554	hazar	
+55	6555	fazlaca	
+56	6556	lenin	lenin'in
+57	6557	pedal	pedala pedallar pedallara pedalları pedallı pedalı pedalına pedalını
+58	6558	koordinatör	koordinatörü koordinatörüyüm
+59	6559	sakinleştirmek	sakinleştir sakinleştirdi sakinleştirdim sakinleştirebilir sakinleştirecek sakinleştireceğim sakinleştiren sakinleştirin sakinleştirip sakinleştirir sakinleştiririm sakinleştiriyor sakinleştirmem sakinleştirmeye
+60	6560	vurucu	
+61	6561	şahsiyet	şahsiyeti şahsiyetler
+62	6562	varoluş	varoluşa varoluştan varoluşu varoluşumuzun varoluşun varoluşunu varoluşunun
+63	6563	dolay	dolaylarında dolayıdır dolayında dolayıydı
+64	6564	kabarık	
+65	6565	dolgun	
+66	6566	çolak	
+67	6567	pervane	pervaneler pervaneleri pervanenin pervanesi pervaneye pervaneyi
+68	6568	bahçeşehir	
+69	6569	eczacıbaşı	
+70	6570	ünsal	
+71	6571	kuzgun	kuzgunlar kuzgunları kuzgunların kuzgunun
+72	6572	yanaşmak	yanaş yanaşacak yanaşan yanaşma yanaşmadan yanaşmadı yanaşmaya yanaşmaz yanaşmıyor yanaşmış yanaştı yanaştım yanaştır yanaştığında yanaşın yanaşıp yanaşır yanaşıyor yanaşıyorum
+73	6573	kitabevi	kitapevi
+74	6574	arkeolog	arkeologlar arkeologların
+75	6575	işgalci	işgalciler işgalcilere işgalcileri işgalcilerin
+76	6576	tümen	tümeni tümenin
+77	6577	bahçıvan	bahçıvana bahçıvanla bahçıvanlar bahçıvanı bahçıvanım bahçıvanımız bahçıvanın
+78	6578	bedensel	
+79	6579	kuraklık	kuraklıkla kuraklıklar kuraklıkta kuraklıktan kuraklığa kuraklığı kuraklığın
+80	6580	linç	
+81	6581	buket	buketi buketini buketler buketleri
+82	6582	tombul	tombiş tombulum
+83	6583	safi	
+84	6584	zencefil	zencefilli
+85	6585	hizmetkar	hizmetkarlar hizmetkarları hizmetkarların hizmetkarı hizmetkarım hizmetkarın hizmetkarını hizmetkarınız hizmetkarıyım
+86	6586	omurilik	omurilikte omurilikten omuriliğe omuriliği omuriliğin omuriliğinde omuriliğine omuriliğini
+87	6587	pansiyon	pansiyona pansiyonda pansiyondan pansiyonu pansiyonun pansiyonuna pansiyonunda
+88	6588	dekor	dekora dekorlar dekorları dekoru dekorun dekorunu
+89	6589	kano	kanoda kanolar kanoları kanon kanonun kanoya kanoyla kanoyu
+90	6590	bucaksız	
+91	6591	karanfil	karanfiller
+92	6592	kılıklı	
+93	6593	bahşetmek	bahşedeceğim bahşeden bahşeder bahşedildi bahşedilen bahşedilmiş bahşedin bahşediyorum bahşet bahşetmiş bahşetsin bahşetti bahşettiği bahşettiğin
+94	6594	mukaddes	
+95	6595	koparmak	koparır
+96	6596	yelpaze	yelpazede yelpazesi yelpazesini yelpazeyi
+97	6597	sefalet	sefalete sefaleti sefaletin sefaletle sefaletten
+98	6598	faal	
+99	6599	psikiyatrik	
+100	6600	kazançlı	

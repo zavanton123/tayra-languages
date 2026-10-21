@@ -1,0 +1,100 @@
+1	9901	dengeleyici	dengeleyiciler dengeleyicileri
+2	9902	aerodinamik	
+3	9903	haiz	
+4	9904	giyotin	giyotine giyotini giyotinle
+5	9905	halter	
+6	9906	nakarat	nakarata nakaratı
+7	9907	idame	
+8	9908	erozyon	erozyona erozyonu
+9	9909	şişmanla	şişmanladı şişmanladım şişmanladığını şişmanlamak şişmanlamış şişmanlamışsın şişmanlatmak şişmanlatıcı şişmanlatır şişmanlatıyor şişmanlayacaksın şişmanlayıp şişmanlıyor şişmanlıyorsun şişmanlıyorum
+10	9910	içir	içirdi içirdiler içirdim içirdin içireceğim içirin içirip içiriyor içirmeye içirmiş
+11	9911	şak	
+12	9912	jübile	
+13	9913	eeg	
+14	9914	bekçilik	bekçiliği
+15	9915	sümbül	
+16	9916	özelik	özelikle
+17	9917	kem	
+18	9918	minör	
+19	9919	fesih	feshi feshini
+20	9920	kefe	kefede kefeye
+21	9921	eğlendirici	
+22	9922	ringa	
+23	9923	razi	
+24	9924	adile	
+25	9925	barlas	
+26	9926	cnr	
+27	9927	içel	
+28	9928	meşrutiyet	
+29	9929	muazzez	
+30	9930	vestel	
+31	9931	yds	
+32	9932	özdağ	
+33	9933	ısbn	
+34	9934	ebedî	
+35	9935	zahir	
+36	9936	sanatkar	sanatkarlar
+37	9937	vicdansız	
+38	9938	ispiyonla	ispiyonladı ispiyonladığını ispiyonlama ispiyonlamadım ispiyonlamak ispiyonlamaz ispiyonlamış ispiyonlayacak ispiyonlayan ispiyonluyor
+39	9939	karabiber	
+40	9940	münzevi	
+41	9941	kelepir	
+42	9942	cimrilik	
+43	9943	klasör	klasörde klasöre klasörü klasörüne
+44	9944	hancı	
+45	9945	kardiyoloji	kardiyolojiye
+46	9946	gonzales	
+47	9947	emsalsiz	
+48	9948	parlatmak	parlat parlatalım parlatan parlatayım parlatma parlatmaya parlattım parlatıp parlatır parlatıyor
+49	9949	aidiyet	
+50	9950	çalıkuşu	
+51	9951	kolaj	
+52	9952	kürkçü	
+53	9953	mori	
+54	9954	ayrışmak	ayrışma ayrıştırmak
+55	9955	pervasızca	
+56	9956	tekvando	
+57	9957	paradigma	
+58	9958	şe	şeyi
+59	9959	tenisçi	
+60	9960	reenkarnasyon	reenkarnasyona reenkarnasyonu
+61	9961	materyalist	
+62	9962	sandalet	sandaletler sandaletleri sandaletlerini
+63	9963	duyulmamış	
+64	9964	uçaksavar	
+65	9965	orak	
+66	9966	golf	golfe golfle golfte golften golfü golfün
+67	9967	ihtiyat	ihtiyatla
+68	9968	özmen	
+69	9969	kalkık	
+70	9970	arafat	
+71	9971	patinaj	
+72	9972	dökük	
+73	9973	diyabetik	
+74	9974	kamikaze	
+75	9975	haşmet	
+76	9976	ışıltılı	
+77	9977	korteks	kortekse korteksi korteksin korteksinde korteksine
+78	9978	meşrubat	
+79	9979	arkın	
+80	9980	california	california'da
+81	9981	endemik	
+82	9982	gündeş	
+83	9983	kayhan	
+84	9984	proses	
+85	9985	yeşilay	
+86	9986	zincirlikuyu	
+87	9987	ılıcak	
+88	9988	ınter	
+89	9989	lor	lora lorda
+90	9990	anayol	anayola anayolda anayoldan anayolu anayolun
+91	9991	tamirhane	tamirhanede tamirhaneden tamirhanesi tamirhanesinde tamirhanesine tamirhaneye tamirhaneyi
+92	9992	gemici	gemiciler
+93	9993	psikoterapi	
+94	9994	kabız	
+95	9995	kategorize	
+96	9996	şişkinlik	şişkinliği
+97	9997	doldurulmak	doldurulur
+98	9998	sigortacılık	
+99	9999	bakımev	bakımevi bakımevinde bakımevinden bakımevine
+100	10000	cicim	

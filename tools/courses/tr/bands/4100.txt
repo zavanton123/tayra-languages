@@ -1,0 +1,100 @@
+1	4001	ninja	ninjalar ninjaları ninjaların ninjanın ninjayım
+2	4002	cihan	cihanda
+3	4003	kaçık	kaçıkla kaçıklar kaçıkları kaçıkların kaçıksın kaçıktı kaçıktır kaçığa kaçığı kaçığım kaçığın
+4	4004	sms	
+5	4005	sulamak	sula suladım sulama sulamaya sulamayı sulanan sulandı sulandırılmış sulanmaya sulanmış sulanır sulanıyor sular sulayacağım sulayıp suluyor suluyorum
+6	4006	otopark	otoparka otoparkta otoparktaki otoparktan otoparkı otoparkın otoparkına otoparkında otoparkından
+7	4007	işlemci	işlemciler işlemcileri işlemcili işlemcinin işlemcisi işlemcisini işlemciye
+8	4008	telgraf	telgrafa telgrafla telgraflar telgrafları telgrafta telgrafı telgrafımı telgrafın telgrafını telgrafınız
+9	4009	sabun	sabuna sabundan sabunlar sabunları sabunu sabunumu sabunun sabununu
+10	4010	yüksekokul	yüksekokula yüksekokulları yüksekokulu
+11	4011	mekik	mekikle mekikler mekikleri mekikte mekikteki mekikten mekiğe mekiği mekiğimiz mekiğin mekiğinde mekiğinden mekiğine mekiğini mekiğinin
+12	4012	mert	merde
+13	4013	hac	hacca
+14	4014	mübarek	mübarektir mübareği
+15	4015	cemiyet	cemiyete cemiyeti cemiyeti'nin cemiyetin cemiyetinden cemiyetine cemiyetinin cemiyette
+16	4016	tarayıcı	tarayıcıda tarayıcıdan tarayıcılar tarayıcılara tarayıcılarda tarayıcıları tarayıcılarımız tarayıcıların tarayıcılarını tarayıcım tarayıcının tarayıcısı tarayıcısını tarayıcıya tarayıcıyı
+17	4017	fabrikası	
+18	4018	belediyespor	belediyespor'da belediyespor'u belediyespor'un
+19	4019	vatandaşlık	vatandaşlıktan vatandaşlığa vatandaşlığı vatandaşlığına vatandaşlığını
+20	4020	çaylak	çaylakken çaylaklar çaylaklara çaylaklardan çaylakları çaylakların çaylaksın çaylağa çaylağı çaylağım çaylağın
+21	4021	kokteyl	kokteylde kokteylden kokteyle kokteyli kokteylimi kokteylin kokteylinden kokteyline kokteylini kokteylinin kokteyller kokteylleri
+22	4022	yansıma	yansımadan yansımalar yansımaları yansımalarını yansımam yansımamı yansıman yansımanı yansımanın yansıması yansımasına yansımasından yansımasını yansımaya yansımayı
+23	4023	doğruluk	doğruluğunu
+24	4024	rehberlik	rehberliğe rehberliği rehberliğinde rehberliğine rehberliğini
+25	4025	fırlamak	fırla fırladı fırladım fırladın fırlama fırlamaya fırlamış fırlamıştı fırlar fırlatıldı fırlayacak fırlayacakmış fırlayan fırlayın fırlayıp fırlıyor
+26	4026	oturum	oturuma oturumda oturumlar oturumları oturumu oturumun oturumuna oturumunda oturumunu
+27	4027	forvet	forveti
+28	4028	eğitimli	
+29	4029	yarışmacı	yarışmacılar yarışmacılara yarışmacılardan yarışmacılarla yarışmacıları yarışmacılarımız yarışmacıların yarışmacımız yarışmacının yarışmacısı yarışmacıya yarışmacıyı
+30	4030	iltifat	iltifata iltifatlar iltifatları iltifatta iltifattı iltifattır iltifatı iltifatın
+31	4031	görülebilir	
+32	4032	logo	logolu logomuz logosu logosunu logosunun logoyu
+33	4033	kanmak	kana kanacak kanalı kanalım kanamadan kanamadı kanamam kanaman kanamanın kanamanız kanaması kanamasına kanamasından kanamasını kanamaya kanamaz kanamıyor kanan kanarken kanarsa kanayana kandı kandım kandın kandırmak kanma kanmam kanmayacağım kanmayın kanmaz kanmıyorum kanmış kanın kanıp kanıyor kanıyordu kanıyordum kanıyorlar kanıyorsun kanıyorum
+34	4034	topçu	topçular topçuları
+35	4035	birçoğu	birçoğumuz birçoğumuzun birçoğuna birçoğunda birçoğundan birçoğunu birçoğunun birçoğunuz birçoğunuzun
+36	4036	iktisadi	
+37	4037	küre	kürede küredeki küreden küreler küreleri kürelerin kürem küreme kürenin küresi küresine küresini küresinin küreye küreyi küreyle
+38	4038	rezervasyon	rezervasyona rezervasyonlar rezervasyonları rezervasyonu rezervasyonum rezervasyonumu rezervasyonumuz rezervasyonumuzu rezervasyonun rezervasyonunu rezervasyonunuz rezervasyonunuzu
+39	4039	anlaşmazlık	anlaşmazlıklar anlaşmazlıklara anlaşmazlıkları anlaşmazlıklarımız anlaşmazlıklarımızı anlaşmazlıkların anlaşmazlıklarını anlaşmazlıktan anlaşmazlığa anlaşmazlığı anlaşmazlığımız anlaşmazlığın
+40	4040	tabanlı	
+41	4041	bilişim	
+42	4042	reaksiyon	reaksiyona reaksiyonlar reaksiyonları reaksiyonu reaksiyonun reaksiyonunu
+43	4043	şartlı	
+44	4044	palyaço	palyaçodan palyaçolar palyaçolara palyaçolardan palyaçolarla palyaçoları palyaçoların palyaçonun palyaçosu palyaçosun palyaçoya palyaçoyla palyaçoyu palyaçoyum
+45	4045	fındık	fındıklar fındıkları fındıklarını fındığa fındığı
+46	4046	göztepe	göztepe'de
+47	4047	enkaz	enkaza enkazda enkazdan enkazla enkazlar enkazları enkazı enkazın enkazına enkazında enkazından enkazını enkazının
+48	4048	dağınık	dağınıksın dağınıktı dağınıktır
+49	4049	süslü	
+50	4050	yolsuzluk	yolsuzluklar yolsuzlukları yolsuzluktan yolsuzluğa yolsuzluğu yolsuzluğun
+51	4051	lakap	lakabı lakabım lakabımı lakabın lakabını lakabının lakabıyla lakaplar lakapları lakaplı
+52	4052	sulu	
+53	4053	ödem	ödeme ödemede ödemeden ödemeler ödemelerden ödemelere ödemeleri ödemelerimi ödemelerin ödemelerine ödemelerini ödemelerinin ödemelerinizi ödememi ödememin ödememiz ödememize ödememizi ödemen ödemene ödemeni ödemenin ödemeniz ödemenize ödemenizi ödemesi ödemesine ödemesini ödemesinin ödemesiz ödemeyi ödemeyle ödemi
+54	4054	haydamak	hayda haydan haydar
+55	4055	siktiğimin	
+56	4056	ürkütücü	ürkütücüdür ürkütücüydü
+57	4057	atlı	atlılar atlıları atlıların atlının atlısı atlıyı
+58	4058	biftek	biftekle biftekler biftekleri biftekli biftekten bifteğe bifteği bifteğim bifteğimi bifteğimiz bifteğin bifteğini
+59	4059	cafe	
+60	4060	genişletmek	genişlet genişletebilir genişletebiliriz genişletecek genişleteceğim genişleteceğiz genişletelim genişleten genişleterek genişletin genişletip genişletir genişletiyor genişletiyorum genişletiyoruz genişletme genişletmeliyiz genişletmeye genişletti genişlettik genişlettim
+61	4061	akıntı	akıntıda akıntıdan akıntılar akıntılara akıntıları akıntıların akıntılarının akıntının akıntısı akıntısına akıntısının akıntıya akıntıyla akıntıyı
+62	4062	yenilik	yenilikler yeniliklere yenilikleri yeniliğe yeniliği yeniliğin
+63	4063	fedakarlık	fedakarlıkla fedakarlıklar fedakarlıklarda fedakarlıkları fedakarlıkların fedakarlıkta fedakarlıktan fedakarlığa fedakarlığı fedakarlığın fedakarlığını
+64	4064	figür	figüre figürler figürleri figürlerin figürlerinden figürlerini figürlü figürü figürün figürüne figürünü figürünün
+65	4065	ender	enderdir
+66	4066	karavan	karavana karavanda karavandaki karavandan karavanla karavanlar karavanları karavanı karavanım karavanıma karavanımda karavanımı karavanımın karavanımız karavanın karavanına karavanında karavanından karavanını karavanının
+67	4067	rezalet	rezalete rezaleti rezaletin rezaletten rezaletti rezalettir
+68	4068	partili	partililer
+69	4069	mineral	mineraller mineralleri minerallerin minerallerle
+70	4070	değersiz	
+71	4071	ilkel	ilkeldi ilkeller
+72	4072	davul	davula davulda davullar davullara davullarla davulları davulların davullarını davulu davulun
+73	4073	denli	
+74	4074	saadet	saadete saadeti
+75	4075	otoyol	otoyola otoyolda otoyoldaki otoyoldan otoyollar otoyolu otoyolun otoyoluna otoyolunda otoyolunun
+76	4076	sevda	sevdadan sevdam sevdan sevdanın sevdası sevdaya
+77	4077	sensör	sensöre sensörler sensörlerde sensörlere sensörleri sensörlerim sensörlerimiz sensörlerimizi sensörlerin sensörlerinden sensörlerine sensörlerini sensörlerinin sensörü sensörünü
+78	4078	boğaziçi	
+79	4079	havacılık	
+80	4080	çevresel	
+81	4081	varis	varise varisi varisidir varisim varisin varisine varisini varisinin varisisin varisiyim varisler varisleri
+82	4082	hindi	hindiden hindiler hindileri hindilerin hindili hindim hindimiz hindinin hindisi hindisini hindiye hindiyi hindiyle
+83	4083	litre	litrede litreden litrelerce litresi litreye
+84	4084	aleyhine	
+85	4085	mösyö	
+86	4086	koro	koroda korodaki korodan koron korona koronun korosu korosuna korosunda korosunu korosunun koroya koroyla koroyu
+87	4087	sallanmak	sallan sallana sallanacak sallanalım sallanan sallanarak sallandı sallandırmak sallanma sallanmaya sallanmayın sallansın sallanın sallanıp sallanır sallanırken sallanıyor sallanıyordu sallanıyorlar sallanıyorsun sallanıyorum sallanıyoruz
+88	4088	kürsü	kürsüde kürsüden kürsünün kürsüsü kürsüsünde kürsüsünden kürsüsüne kürsüye kürsüyü
+89	4089	çınar	çınar'ın çınarlı çınarı
+90	4090	enteresan	enteresandı enteresanmış
+91	4091	yarasa	yarasadan yarasalar yarasalara yarasalardan yarasalarla yarasaları yarasaların yarasanın yarasası yarasaya yarasayı
+92	4092	hukuki	
+93	4093	zanlı	zanlılar zanlılardan zanlıları zanlıların zanlımız zanlının zanlısı zanlısını zanlısının zanlıya zanlıyla zanlıyı
+94	4094	tribün	tribünde tribünden tribüne tribünler tribünlerde tribünlere tribünleri tribünlerin tribünü tribünün
+95	4095	mayın	mayına mayınla mayınlar mayınlara mayınlardan mayınlarla mayınları mayınların mayınlı mayını mayının
+96	4096	senato	senatoda senatodaki senatodan senatonun senatosu senatosuna senatoya senatoyu
+97	4097	mezhep	mezhebe mezhebi mezhebin mezhebinden mezhebine mezhebini mezhebinin mezhepler mezhepleri
+98	4098	topuk	topukla topuklar topuklarla topukları topuklarım topukların topuklarına topuklarını topuklu topuklular topuklularla topukluları topuğu topuğum topuğumu topuğuna topuğunu
+99	4099	endişeli	
+100	4100	imaj	imaja imajlar imajları imajlarını imajı imajım imajımı imajımız imajımızı imajın imajına imajından imajını imajının imajınızı

@@ -1,0 +1,100 @@
+1	8001	çiftçilik	çiftçiliği
+2	8002	osuruk	osuruklar osuruklu osuruktan osuruğu osuruğun osuruğunu
+3	8003	deşmek	deş deşecek deşeceğim deşen deşer deşerim deşici deşip deşiyor deşme deşmeye deşmiş deşti deştin
+4	8004	besleyici	besleyicidir
+5	8005	anksiyete	
+6	8006	vekillik	vekilliği
+7	8007	mecazi	
+8	8008	ural	urallar
+9	8009	matematikçi	matematikçiler matematikçilerin matematikçinin
+10	8010	mest	
+11	8011	iskambil	
+12	8012	altılı	altılısı
+13	8013	rencide	
+14	8014	nitrat	
+15	8015	atışmak	atışa atışma atıştı atıştık atışın
+16	8016	gem	gemim gemimde gemimden gemime gemimi gemimin gemimizde gemimize gemimizi gemimizin gemin geminde gemine gemini geminin geminiz geminizde geminizden geminize geminizi geminizin
+17	8017	okunuş	okunuşu
+18	8018	istisnai	
+19	8019	tolstoy	
+20	8020	maskot	maskotlar maskotları maskotu maskotumuz maskotun maskotunu
+21	8021	kaval	kavala
+22	8022	kelepçele	kelepçeledi kelepçelediler kelepçeledim kelepçeledin kelepçelemek kelepçelenmiş kelepçeleyin kelepçeleyip
+23	8023	puf	
+24	8024	tersane	tersanede tersanedeki tersanenin tersanesi tersanesinde tersaneye
+25	8025	ithafen	
+26	8026	deh	
+27	8027	nostaljik	
+28	8028	dâhi	dâhiler
+29	8029	podyum	podyuma podyumda podyumun
+30	8030	nakletmek	nakledecekler nakledeceğiz nakledildi nakledin naklediyor naklediyorlar naklediyoruz naklet nakletme nakletmeliyiz nakletmeye nakletti naklettiler
+31	8031	ihtişamlı	
+32	8032	porsuk	porsuklar porsuğu porsuğun
+33	8033	anatomik	
+34	8034	sinyor	sinyora
+35	8035	kabarmak	kabaran kabardı kabarma kabarması kabarmaya kabarmış kabarıp kabarır kabarıyor
+36	8036	bayıltmak	bayılt bayıltacak bayıltan bayıltana bayıltma bayıltmaya bayıltmış bayılttı bayılttılar bayılttım bayılttın bayıltılmış bayıltıp bayıltır
+37	8037	anarşi	anarşinin anarşiye
+38	8038	ulvi	
+39	8039	makro	
+40	8040	balcı	
+41	8041	zerrin	
+42	8042	nikotin	nikotinin
+43	8043	sosyolojik	
+44	8044	uçucu	
+45	8045	küs	küsmüş küstü küstüm küstün küsün
+46	8046	sazan	
+47	8047	oracıkta	
+48	8048	tercihen	
+49	8049	kahveci	kahvecide kahveciye
+50	8050	marul	marulu
+51	8051	harfiyen	
+52	8052	ur	urca uru
+53	8053	lanse	
+54	8054	manda	
+55	8055	öksürmek	öksür öksürdü öksürdüğünü öksüren öksürerek öksürme öksürmeye öksürüp öksürür öksürürken öksürüyor öksürüyordu öksürüyorsun öksürüyorum
+56	8056	lam	lamı
+57	8057	amonyak	
+58	8058	korkaklık	korkaklıkla korkaklığı korkaklığın
+59	8059	stant	standa standı standın standına standında standını standının
+60	8060	yağsız	
+61	8061	tevazu	tevazuyla
+62	8062	zinde	
+63	8063	mahşer	mahşeri mahşerin
+64	8064	sauna	saunada saunaya saunayı
+65	8065	ıhlamur	
+66	8066	karbonat	
+67	8067	curt	
+68	8068	ayrılıkçı	ayrılıkçılar ayrılıkçılara ayrılıkçıların
+69	8069	rüzgarlı	rüzgarlıydı
+70	8070	alıkoymak	alıkoyacak alıkoyacağım alıkoyar alıkoyma alıkoyuyor alıkoyuyorsun alıkoyuyorum
+71	8071	göstermelik	
+72	8072	formüle	
+73	8073	konuşkan	konuşkansın
+74	8074	nedensiz	
+75	8075	rika	
+76	8076	bahtiyar	
+77	8077	cila	cilası cilasını cilaya cilayı
+78	8078	felek	felekten feleğin feleğini
+79	8079	virgül	virgülü
+80	8080	ikindi	
+81	8081	ısıl	
+82	8082	denizaşırı	
+83	8083	paslı	
+84	8084	şaşmaz	
+85	8085	tetikleyici	tetikleyiciyi
+86	8086	inziva	inzivada inzivaya
+87	8087	ozon	
+88	8088	frengi	frengiden frengili
+89	8089	birtane	birtanem birtanesi
+90	8090	kütüphaneci	kütüphaneciler kütüphanecinin kütüphaneciye
+91	8091	mantı	mantısı
+92	8092	huzurev	huzurevi huzurevinde huzurevindeki huzurevinden huzurevine huzurevini
+93	8093	döl	döller dölleri dölü dölünü
+94	8094	haşhaş	haşhaşlı haşhaşı
+95	8095	mağduriyet	mağduriyeti
+96	8096	evlemek	evle evler
+97	8097	bitik	
+98	8098	tamirat	tamirata tamiratlar tamiratı
+99	8099	kumlu	
+100	8100	dut	dutta

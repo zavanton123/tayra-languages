@@ -1,0 +1,100 @@
+1	2101	sıkışmak	sıkış sıkışabilir sıkışacak sıkışacağız sıkışalım sıkışan sıkışarak sıkışma sıkışmaya sıkışmaz sıkışmış sıkışmışlar sıkışmıştı sıkışmıştık sıkışmıştım sıkışsa sıkıştı sıkıştık sıkıştılar sıkıştım sıkıştın sıkıştınız sıkıştırmak sıkıştırılmış sıkıştığı sıkıştığın sıkışın sıkışınca sıkışıp sıkışır sıkışırken sıkışırsa sıkışırsan sıkışırız sıkışıyor
+2	2102	şube	şubede şubedeki şubeden şubeler şubeleri şubemiz şubenin şubesi şubesinde şubesinden şubesine şubesini şubesinin şubeye şubeyi
+3	2103	delirmek	delir delirdi delirdiler delirdim delirdin delirdiniz delirdiği delirdiğim delirecek delireceksin delireceğim deliren delirip delirir delirirdi delirirdim deliririm delirirsin deliriyor deliriyordu deliriyordum deliriyorlar deliriyorsun deliriyorum delirme delirmedi delirmedim delirmedin delirmeye delirmiyorsun delirmiyorum delirmiş delirmişim delirmişler delirmişsin delirmişsiniz delirmişti delirmiştim delirtiyor
+4	2104	vampir	vampirden vampirdi vampire vampiri vampirim vampirin vampiriz vampirle vampirler vampirlerden vampirlere vampirleri vampirlerin vampirlerle vampirlik vampirliğin vampirsin
+5	2105	işletme	işletmeler işletmelerde işletmelere işletmeleri işletmelerin işletmem işletmen işletmenin işletmesi işletmesine işletmesini işletmeye işletmeyi
+6	2106	kirli	kirlidir kirliler kirlisin kirliydi kirliyim
+7	2107	yumruk	yumrukla yumrukladı yumrukladım yumrukladığını yumruklama yumruklamak yumruklamaya yumruklamış yumruklar yumruklara yumruklarken yumruklarla yumrukları yumruklarım yumruklarımı yumrukların yumruklarına yumruklarınla yumruklarını yumruklarıyla yumruklayacak yumruklayan yumruklayarak yumruklayıp yumrukluyor yumrukta yumruktan yumruktu yumruğa yumruğu yumruğum yumruğumu yumruğumun yumruğun yumruğuna yumruğunla yumruğunu yumruğunun yumruğuyla
+8	2108	kapasite	kapasitede kapasiteleri kapasitelerini kapasitelerinin kapasiteli kapasitem kapasitemi kapasitemiz kapasitemizi kapasitemizin kapasiten kapasiteni kapasitenin kapasitesi kapasitesinden kapasitesine kapasitesini kapasitesinin kapasitesiyle kapasiteye kapasiteyi kapasiteyle
+9	2109	büyükşehir	
+10	2110	yerleşmek	yerleş yerleşebildin yerleşebilir yerleşebiliriz yerleşecek yerleşeceksin yerleşeceğim yerleşeceğiz yerleşelim yerleşen yerleşerek yerleşeyim yerleşin yerleşince yerleşip yerleşir yerleşirim yerleşiriz yerleşirsin yerleşiyor yerleşiyorlar yerleşiyorum yerleşiyoruz yerleşme yerleşmem yerleşmeye yerleşmez yerleşmiş yerleşmişler yerleşmişti yerleşsin yerleşti yerleştik yerleştiler yerleştim yerleştin yerleştiniz yerleştirilen yerleştiği
+11	2111	açıkçası	
+12	2112	çığlık	çığlıklar çığlıklarla çığlıkları çığlıklarımı çığlıkların çığlıklarına çığlıklarını çığlıklarının çığlıklarıyla çığlığa çığlığı çığlığımı çığlığın çığlığına çığlığını çığlığıydı
+13	2113	sara	saran saraya sarayı
+14	2114	profil	profilci profilde profilden profile profili profilim profilimde profilime profilimi profilimiz profilimize profilin profilinde profilinden profiline profilini profilinin profilinizi profiliyle profille profiller profilleri profillerini profilli
+15	2115	ümit	ümidi ümidim ümidimi ümidimiz ümidimizi ümidin ümidini ümidinizi ümidiyle ümitle ümitler ümitleri ümitlerim ümitlerini
+16	2116	manyak	manyakla manyaklar manyaklara manyaklardan manyaklarla manyakları manyakların manyakmış manyaksın manyaksınız manyaktan manyaktı manyaktır manyağa manyağı manyağıdır manyağım manyağın manyağının manyağısın manyağıydı manyağıyım
+17	2117	alay	alaya alayda alaydan alayla alaylar alayı alayın alayına alayında alayından alayını alayının alayınız alayınızı
+18	2118	kartal	kartal'da kartal'ın kartala kartaldan kartallar kartallara kartallarla kartalları kartalların kartalı kartalım kartalın kartalını
+19	2119	vefat	vefatı vefatına vefatından vefatını vefatının vefatınıza
+20	2120	akraba	akrabadır akrabalar akrabalara akrabalardan akrabaları akrabalarım akrabalarıma akrabalarımdan akrabalarımla akrabalarımı akrabalarımın akrabalarımız akrabaların akrabalarına akrabalarından akrabalarını akrabalarının akrabalarınız akrabalarıyla akrabalık akrabalığı akrabalığın akrabalığınız akrabam akrabamı akrabamız akraban akrabanı akrabanın akrabanız akrabası akrabasıdır akrabasına akrabasını akrabasının akrabasıyla akrabasıyım akrabaya akrabayız
+21	2121	yahu	
+22	2122	rakam	rakama rakamdan rakamdır rakamla rakamlar rakamlara rakamlarda rakamlardan rakamlarla rakamları rakamların rakamlarına rakamlarını rakamlı rakamı rakamın rakamına rakamını
+23	2123	hazine	hazineden hazinedir hazineler hazinelere hazineleri hazinelerin hazinelerinden hazinelerini hazinelerinin hazinelerle hazinem hazinemi hazinemiz hazinemizi hazinen hazineni hazinenin hazinesi hazinesidir hazinesin hazinesinden hazinesine hazinesini hazinesinin hazineye hazineyi hazineyle
+24	2124	laboratuvar	laboratuvara laboratuvarda laboratuvardaki laboratuvardan laboratuvarla laboratuvarlar laboratuvarlarda laboratuvarları laboratuvarlarına laboratuvarlarında laboratuvarı laboratuvarım laboratuvarıma laboratuvarımda laboratuvarımı laboratuvarımız laboratuvarımıza laboratuvarın laboratuvarına laboratuvarında laboratuvarından laboratuvarını laboratuvarının laboratuvarınız
+25	2125	istihbarat	istihbarata istihbaratla istihbaratlar istihbaratları istihbaratta istihbarattan istihbaratçı istihbaratı istihbaratım istihbaratımız istihbaratımıza istihbaratın istihbaratına istihbaratında istihbaratından istihbaratını istihbaratının
+26	2126	emmek	em emdi emdim emdin emdiği emdiğin emdiğini emebilir emecek emeceksin emeceğim emen emer emerek emerim emerken emerler emersin emi emil emile emilir emiliyor emilmiş emimin emip emiyor emiyordu emiyorlar emiyorsun emiyorum emiş emme emmesi emmesine emmesini emmeye emmeyi emmiş
+27	2127	kate	
+28	2128	şirin	şirindi şirindir şirine şirinim şirinler şirinleri şirinlik şirinmiş şirinsin şirinsiniz
+29	2129	saçmalamak	saçmala saçmaladı saçmaladım saçmaladın saçmalama saçmalamasana saçmalamaya saçmalamayı saçmalamayın saçmalamıyorum saçmalamış saçmalar saçmalayan saçmalayıp saçmalıyor saçmalıyordu saçmalıyordum saçmalıyorlar saçmalıyorsun saçmalıyorsunuz saçmalıyorum saçmalıyoruz
+30	2130	anlaşılan	
+31	2131	işle	işlediklerini işledikten işlediğimi işlediğinde işlediğinden işlediğine işlediğini işlediğinin işlediğinizi işlemediğini işlemekle işlemektedir işlemekten işlemiştir işlendiğinde işlendiğine işlendiğini işlenmeden işlenmektedir işlenmesi işlenmesine işlenmesini işlenmiştir işletilen işletiliyor işletilmesi işletmekten işlettiğini işleyeceğini işleyenin işleyenler işleyenleri işleyenlerin işleyiş işleyişe işleyişi işleyişine işleyişini
+32	2132	hap	hapa hapla haplar haplara haplardan haplarla hapları haplarım haplarımı hapların haplarına haplarından haplarını haplarının haplarınızı haplarıyla haptan hapçı hapı hapım hapımı hapın hapına hapını hapının
+33	2133	tanıtım	tanıtıma tanıtımcı tanıtımdan tanıtımlar tanıtımları tanıtımı tanıtımın tanıtımına tanıtımında tanıtımını
+34	2134	serseri	serseriden serseridir serseriler serserilerden serserilere serserileri serserilerin serserilerle serserinin serserisi serserisin serseriydi serseriye serseriyi serseriyim serseriyle
+35	2135	adi	adice adiler adilik adim adimi adin adini adinin adisin adiyi adiyim
+36	2136	iğne	iğneden iğneler iğnelerden iğnelere iğneleri iğnelerin iğnelerini iğnelerle iğnem iğnemi iğneni iğnenin iğnesi iğnesine iğnesini iğnesinin iğnesiyle iğneye iğneyi iğneyle
+37	2137	hırsızlık	hırsızlıklar hırsızlıkları hırsızlıkların hırsızlıkta hırsızlıktan hırsızlığa hırsızlığı hırsızlığın hırsızlığına hırsızlığında hırsızlığından hırsızlığını hırsızlığının
+38	2138	olasılık	olasılıklar olasılıklara olasılıklardan olasılıkları olasılıkların olasılıklarını olasılıktan olasılıktır olasılığa olasılığı olasılığım olasılığımız olasılığın olasılığına olasılığından olasılığını olasılığının olasılığınız
+39	2139	sayılı	
+40	2140	torun	torunlar torunları torunlarım torunlarıma torunlarımla torunlarımı torunlarımın torunlarımız torunlarımıza torunlarımızın torunların torunlarına torunlarından torunlarını torunlarının torunlarınız torunlarınıza torunlarıyla torunu torunum torunuma torunumla torunumu torunumun torunumuz torunumuzu torunun torununa torunundan torununla torununu torununun torununuz torununuza torununuzu torununuzun torunusun torunuyla torunuyum
+41	2141	heykel	heykelde heykelden heykele heykeli heykelim heykelimi heykelin heykeline heykelini heykelinin heykeliyle heykelle heykeller heykellerden heykellere heykelleri heykellerin heykellerini heykellerinin heykellerle
+42	2142	fatura	faturada faturadan faturalar faturalara faturalardan faturalarla faturaları faturalarım faturalarımı faturalarımızı faturaların faturalarına faturalarını faturalarının faturalarınızı faturalı faturam faturamı faturan faturanı faturanın faturanız faturanızı faturası faturasına faturasından faturasını faturasının faturasız faturaya faturayla faturayı
+43	2143	sekreter	sekreterden sekretere sekreteri sekreterim sekreterime sekreterimi sekreterimin sekreterimiz sekreterimle sekreterin sekreterinden sekreterine sekreterini sekreterinin sekreteriniz sekreterinle sekreteriydi sekreteriydim sekreteriyim sekreteriyle sekreterle sekreterler sekreterleri sekreterlerin sekretersin
+44	2144	karşılıklı	
+45	2145	utanç	utanca utancı utancım utancımdan utancımı utancın utancına utancından utancını utancıyla utançla utançtan utançtı utançtır
+46	2146	bari	
+47	2147	direktör	direktöre direktörlük direktörlüğü direktörü direktörümüz direktörün direktörüyüm
+48	2148	subay	subaya subaydan subaydı subaydır subayla subaylar subaylara subaylardan subaylarla subayları subaylarım subayların subaylarına subaylarından subaylarını subaylarının subaysın subayı subayım subayımı subayımın subayımız subayın subayına subayından subayını subayının subayınız subayıydı subayıydım subayıyla subayıyım
+49	2149	ayrıntı	ayrıntıda ayrıntıdan ayrıntılar ayrıntılara ayrıntılarda ayrıntılardan ayrıntılarla ayrıntıları ayrıntıların ayrıntılarına ayrıntılarını ayrıntılarıyla ayrıntının ayrıntısı ayrıntısına ayrıntısını ayrıntısıyla ayrıntıya ayrıntıyla ayrıntıyı
+50	2150	peynir	peynirden peynire peyniri peynirim peynirimi peynirimiz peynirin peynirinden peynirine peynirini peynirinin peyniriyle peynirle peynirler peynirleri
+51	2151	görünüm	görünümde görünüme görünümleri görünümlü görünümü görünümüm görünümün görünümünde görünümünden görünümüne görünümünü görünümünün görünümüyle
+52	2152	pozitif	pozitifim pozitifti
+53	2153	ateşli	ateşlidir ateşliler ateşlisin ateşliydi ateşliyim ateşliymiş
+54	2154	potansiyel	potansiyele potansiyeli potansiyelim potansiyelimi potansiyelimizi potansiyelin potansiyeline potansiyelini potansiyelinin potansiyelleri potansiyellerini
+55	2155	dijital	dijitale
+56	2156	kek	keke keki kekim kekimi kekin kekinden kekine kekini kekinin kekle kekler keklerden keklere kekleri keklerim keklerimi keklerin keklerinden keklerini keklerle kekte kekten
+57	2157	kuran	kuran'a kuran'da kuran'ı kuran'ın
+58	2158	ulus	ulusa uluslar uluslara uluslardan ulusları ulusların uluslu ulusta ulustan ulusu ulusumuz ulusumuza ulusumuzu ulusumuzun ulusun ulusuna ulusunu ulusunun
+59	2159	tank	tanka tanklar tanklara tanklarda tanklardan tanklarla tankları tanklarımız tankların tanklarına tanklarını tanklarının tankta tanktan tankı tankımız tankın tankına tankında tankından tankını tankının
+60	2160	bozukluk	bozuklukla bozukluklar bozukluklara bozukluklarla bozuklukları bozuklukların bozukluklarına bozukluklarını bozukluktan bozukluğa bozukluğu bozukluğum bozukluğun bozukluğuna bozukluğundan bozukluğunu bozukluğunun bozukluğunuz bozukluğuyla
+61	2161	yak	yakacaktır yakacağını yakmadan yakmakla yakmaktan yakmaları yakmalarına yakmamaya yakmamı yakmamız yakman yakmanın yakması yakmasına yakmasını yakmayı yakmıştır yaktıklarını yaktıktan yaktığımı yaktığında yaktığını yakılacak yakılan yakılarak yakıldı yakıldığı yakıldığını yakıldığınız yakılma yakılmak yakılması yakılmasını yakılmayı yakılmış yakılmıştı yakılıp yakılır yakılıyor
+62	2162	sakınca	sakıncalı sakıncası
+63	2163	salı	salıdan salıları salısı salıya salıydı
+64	2164	seyirci	seyirciden seyirciler seyircilerden seyircilere seyircileri seyircilerim seyircilerimiz seyircilerimize seyircilerimizin seyircilerin seyircilerinin seyircilerle seyircimiz seyircinin seyircisi seyircisiz seyirciye seyirciyi seyirciyim seyirciyle
+65	2165	ertesi	
+66	2166	sal	sala salda saldır saldıracaklarını saldıracaktır saldıracağını saldıranlar saldıranı saldıranın saldırdıklarında saldırdıklarını saldırdıktan saldırdığında saldırdığını saldırmadan saldırmakla saldırmaktan saldırmaları saldırmalarını saldırmamız saldırman saldırmanın saldırması saldırmasına saldırmasını saldırmayı saldırıldı saldırılmış sallar sallarsın sallarım salın salına salınan salındı salınması salınmasını salınmış salınır
+67	2167	sergi	sergide sergideki sergiden sergiler sergileri sergim sergin serginin sergisi sergisinde sergisinden sergisine sergisini sergisinin sergiye sergiyi
+68	2168	beyefendi	beyefendiden beyefendidir beyefendiler beyefendilere beyefendileri beyefendilerin beyefendilerle beyefendinin beyefendisi beyefendisin beyefendisiniz beyefendiydi beyefendiye beyefendiyi beyefendiyim beyefendiyle
+69	2169	macera	macerada maceradan maceradır maceralar maceralara maceralardan maceraları maceralarımı maceraların maceralarına maceralarından maceralarını maceralarının maceralı maceram maceramız maceramıza maceramızın maceran maceranı maceranın maceranız macerası macerasına macerasında macerasını macerasının maceraya maceraydı macerayı
+70	2170	aa	aa'nın
+71	2171	terim	terim'in terimdir terime terimi terimidir terimin terimine terimini teriminin terimle terimler terimleri terimlerin terimlerini terimleriyle terimlerle
+72	2172	odaklanmak	odaklan odaklanabilir odaklanabilirim odaklanabiliriz odaklanabilirsin odaklanacak odaklanacağım odaklanacağız odaklanalım odaklanamıyorum odaklanan odaklanarak odaklandı odaklandık odaklandım odaklandın odaklandığı odaklanma odaklanmalısın odaklanmalıyım odaklanmalıyız odaklanmam odaklanmama odaklanmaya odaklanmıyorsun odaklanmış odaklanmıştı odaklanmıştım odaklansak odaklansan odaklanın odaklanıp odaklanır odaklanırsan odaklanırım odaklanıyor odaklanıyorsun odaklanıyorum odaklanıyoruz
+73	2173	benzin	benzinci benzincide benzincideki benzinciden benzincinin benzinciye benzinden benzine benzini benzinim benzinimiz benzinin benzinini benzininiz benzinle benzinleri benzinli benzinlikteki
+74	2174	hit	hitler hitler'e hitler'i hitler'in hitleri hitlerin
+75	2175	kalkan	kalkana kalkanla kalkanlar kalkanlara kalkanları kalkanlarımız kalkanlarımızı kalkanların kalkanlarını kalkanlarının kalkanlarınızı kalkanlı kalkanı kalkanım kalkanımı kalkanımız kalkanın kalkanına kalkanını kalkanının kalkanıyla
+76	2176	imparatorluk	imparatorluklar imparatorlukları imparatorlukta imparatorluğa imparatorluğu imparatorluğu'na imparatorluğumu imparatorluğun imparatorluğuna imparatorluğunu imparatorluğunun
+77	2177	eleştiri	eleştiride eleştiriler eleştirilerde eleştirilere eleştirileri eleştirilerin eleştirilerine eleştirilerini eleştirim eleştirinin eleştirisi eleştirisini eleştiriye eleştiriyi
+78	2178	çorba	çorbada çorbadan çorbalar çorbaları çorbam çorbamda çorbamı çorbamız çorban çorbanı çorbanın çorbanız çorbanızı çorbası çorbasına çorbasından çorbasını çorbasının çorbasıyla çorbaya çorbayla çorbayı
+79	2179	felsefe	felsefede felsefeden felsefem felsefemi felsefemiz felsefen felsefeni felsefenin felsefesi felsefesine felsefesini felsefesinin felsefeye felsefeyi felsefeyle
+80	2180	ilke	ilkeler ilkelere ilkeleri ilkelerin ilkelerinden ilkelerine ilkelerini ilkelerinin ilkeli ilkem ilkesi ilkesine ilkesini ilkesinin ilkeye
+81	2181	kıl	kılacaktır kılacağını kıldan kıldığını kılla kıllar kıllara kıllardan kıllarla kılları kıllarım kıllarımı kılların kıllarına kıllarından kıllarını kıllarının kılmaktadır kılmanın kılması kılmayı kılmıştır kılı kılım kılıma kılımı kılın kılına kılınan kılından kılındı kılınmış kılınmıştır kılını kılınır kılınızı
+82	2182	röportaj	röportaja röportajcı röportajda röportajdan röportajdı röportajlar röportajları röportajı röportajım röportajımı röportajımız röportajın röportajında röportajından röportajını röpörtaj
+83	2183	makyaj	makyaja makyajdan makyajla makyajlı makyajı makyajım makyajımı makyajın makyajına makyajını makyajının
+84	2184	yüklemek	yükle yükledi yükledik yüklediler yükledim yükledin yüklediniz yüklediği yüklediğim yüklediğin yükleme yüklemem yüklemeye yüklemiş yüklemişler yüklemiştim yüklenen yüklenmek yükler yüklerken yükleyebilir yükleyebilirim yükleyebiliriz yükleyecek yükleyeceksin yükleyeceğim yükleyeceğiz yükleyelim yükleyemezsin yükleyen yükleyerek yükleyeyim yükleyin yükleyip yüklüyor yüklüyorlar yüklüyorsun yüklüyorum yüklüyoruz
+85	2185	hay	
+86	2186	me	mem
+87	2187	beslenmek	beslen beslendi beslendikleri beslendiler beslendim beslendin beslendiği beslenebilir beslenecek besleneceğim beslenen beslenerek beslenip beslenir beslenirim beslenirken beslenirler besleniyor besleniyordu besleniyorlar besleniyormuş besleniyorsun besleniyorum besleniyoruz beslenme beslenmeli beslenmelisin beslenmem beslenmeye beslenmiyor beslenmiş
+88	2188	kusursuz	kusursuzdu kusursuzdur kusursuzlar kusursuzsun kusursuzum
+89	2189	simon	
+90	2190	helikopter	helikopterde helikopterdeki helikopterden helikoptere helikopteri helikopterim helikopterimi helikopterimiz helikopterin helikopterinden helikopterine helikopterini helikopterinin helikopteriniz helikopteriyle helikopterle helikopterler helikopterlerden helikopterlere helikopterleri helikopterlerin helikopterlerle
+91	2191	belirti	belirtiler belirtilerden belirtilere belirtileri belirtileridir belirtilerin belirtilerinden belirtilerine belirtilerini belirtilerinin belirtileriyle belirtilerle belirtisi belirtisidir belirtisinde belirtisine belirtisini belirtiyi
+92	2192	lezzetli	lezzetlidir lezzetliler lezzetlisin lezzetliydi lezzetliydiler lezzetliymiş
+93	2193	meme	memeden memeler memelerden memelere memeleri memelerim memelerime memelerimi memelerimin memelerin memelerinde memelerinden memelerine memelerini memelerinin memeleriyle memelerle memem mememe mememi memen memeni memenin memesi memesinden memesine memesini memeye memeyi
+94	2194	iletmek	ilet iletebilir iletebilirim iletebilirsin iletecek ileteceksin ileteceğim ileteceğiz ileten ileteyim iletildi iletilecek iletilen iletilir iletiliyor iletilmesi iletin iletir iletirim iletiriz iletirsin iletiyor iletiyorum iletme iletmem iletmemi iletmen iletmeni iletmenizi iletmesi iletmesini iletmeye iletmeyi iletmiş iletti ilettik ilettiler ilettim ilettin
+95	2195	duman	duman'ın dumana dumanda dumandan dumanla dumanlar dumanları dumanların dumanlıydı dumanı dumanın dumanından dumanını dumanının
+96	2196	geliştirme	geliştirmede geliştirmeler geliştirmeleri geliştirmem geliştirmemi geliştirmemiz geliştirmen geliştirmenin geliştirmesi geliştirmesine geliştirmeye geliştirmeyi
+97	2197	hayırlı	hayırlıdır hayırlısı hayırlısını hayırlısıyla
+98	2198	alternatif	alternatifi alternatifim alternatifimiz alternatifin alternatifler alternatifleri
+99	2199	metro	metroda metrodaki metrodan metrolar metron metronun metrosu metrosunun metroya metroyla metroyu
+100	2200	harp	harbi harbiden harbin harbiye

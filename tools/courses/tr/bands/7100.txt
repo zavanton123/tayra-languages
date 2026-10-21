@@ -1,0 +1,100 @@
+1	7001	savurmak	savur savuracak savuran savurarak savurdu savurdum savurdun savurduğu savurma savurmaya savurmuş savurup savurur savuruyor savuruyorsun
+2	7002	kefaret	kefareti kefaretim kefaretimi kefaretin kefaretini kefaretle
+3	7003	dallama	dallamalar dallamanın dallamaya dallamayı
+4	7004	karakaya	
+5	7005	malatyaspor	
+6	7006	ssk	
+7	7007	yazıcıoğlu	yazıcıoğlu'nun
+8	7008	kayyım	kayyum
+9	7009	bulutlu	
+10	7010	karakteristik	karakteristiği
+11	7011	şehitlik	şehitliği
+12	7012	şırınga	şırıngada şırıngalar şırıngaları şırınganın şırıngaya şırıngayla şırıngayı
+13	7013	rekabetçi	rekabetçidir
+14	7014	mercek	mercekle mercekler mercekleri merceğe merceği merceğin
+15	7015	yakıcı	
+16	7016	mumya	mumyalar mumyanın mumyaya mumyayı
+17	7017	çamaşırhane	çamaşırhanede çamaşırhanedeki çamaşırhaneden çamaşırhanenin çamaşırhanesi çamaşırhanesinde çamaşırhaneye çamaşırhaneyi
+18	7018	düşürücü	
+19	7019	orkide	orkideler orkideleri orkidenin orkidesi orkideyi
+20	7020	esneklik	esnekliği esnekliğini
+21	7021	uzlaşmak	uzlaşabiliriz uzlaşalım uzlaşmaya uzlaşmayı uzlaşmaz uzlaştık
+22	7022	krom	
+23	7023	füzyon	füzyona füzyonu
+24	7024	göreceli	görecelidir
+25	7025	naylon	naylona
+26	7026	getiri	getirileri getirilerini getirim getirisi getiriyim
+27	7027	sedef	
+28	7028	sefa	sefalar sefası sefasını
+29	7029	kalım	
+30	7030	serap	
+31	7031	bunak	bunaklar bunağın
+32	7032	tutturmak	tuttur tutturacağım tutturamadım tutturamadın tutturamıyorum tutturan tutturdu tutturduk tutturdum tutturdun tutturma tutturmaya tutturmuş tutturur tutturuyor tutturuyorsun
+33	7033	kabarcık	kabarcıklar kabarcıkları kabarcığı kabarcığın
+34	7034	yatıştırıcı	yatıştırıcılar
+35	7035	destansı	
+36	7036	kiler	kilerde kilerdeki kilerden kilere kileri kilerin kilerinde
+37	7037	hanedan	hanedanı hanedanın hanedanına hanedanının
+38	7038	simgele	simgelediği simgelediğini simgeleyen simgeliyor simgeliyordu
+39	7039	öğrencilik	
+40	7040	tekil	
+41	7041	kafein	kafeinden kafeine kafeini kafeinin
+42	7042	şapkalı	şapkalılar
+43	7043	sinirsel	
+44	7044	kumarbaz	kumarbazdı kumarbazlar kumarbazları kumarbazların kumarbazsın kumarbazı kumarbazım kumarbazın
+45	7045	ilaveten	
+46	7046	pankreas	pankreası pankreasın
+47	7047	bono	bonolar bonoları bonolarını bonosu
+48	7048	florida	florida'da florida'daki florida'ya floridalı
+49	7049	cömertlik	cömertliği cömertliğim cömertliğin cömertliğinden cömertliğine cömertliğini cömertliğinin cömertliğiniz
+50	7050	muhtelif	
+51	7051	beka	bekası
+52	7052	gurbet	gurbette
+53	7053	atkı	atkılar atkım atkımı atkın atkını atkısı atkısını atkıyı
+54	7054	hainlik	hainlikle hainlikten hainliği hainliğin hainliğinden hainliğine hainliğiyle
+55	7055	dimitri	
+56	7056	botanik	
+57	7057	juventus	
+58	7058	şablon	şablona şablonlar şablonları şablonu şablonunu
+59	7059	tıkamak	tıka tıkadı tıkadım tıkama tıkamaya tıkamış tıkanan tıkandı tıkandık tıkandım tıkandın tıkandığını tıkanma tıkanması tıkanmaya tıkanmış tıkanmıştı tıkanıp tıkanır tıkanıyor tıkar tıkardım tıkarlar tıkarsın tıkarım tıkarız tıkayabilir tıkayacak tıkayacağım tıkayan tıkayın tıkayıp tıkıyor tıkıyorlar tıkıyorsun tıkıyorum tıkıyoruz
+60	7060	dikkatsiz	
+61	7061	salyangoz	salyangoza salyangozlar salyangozları salyangozu salyangozun
+62	7062	yumuşacık	yumuşacıktı
+63	7063	nezaret	nezarete nezareti nezaretinde nezarette nezaretten
+64	7064	telesekreter	telesekreterde telesekreterdeki telesekretere telesekreteri telesekreterim telesekreterime telesekreterin telesekreterinde telesekreterine
+65	7065	tertip	tertibat tertibatı tertipli
+66	7066	ilaçlamak	ilaçla ilaçlama ilaçlar ilaçlarım
+67	7067	alabalık	alabalığı
+68	7068	pancar	pancarı
+69	7069	taşlı	
+70	7070	bafra	
+71	7071	sıtkı	
+72	7072	mektep	mektebi
+73	7073	anomali	anomaliden anomaliler anomalileri anomalinin anomalisi anomaliye anomaliyi
+74	7074	davulcu	davulcuları davulcusu
+75	7075	haşlamak	haşladı haşlama haşlanmış
+76	7076	uranyum	uranyumdan uranyumu uranyumun
+77	7077	ayran	
+78	7078	dekoratif	
+79	7079	küsur	küsür
+80	7080	güveç	güveci güvecin güvecini güveçte
+81	7081	düzenek	düzeneği düzeneğin düzeneğini
+82	7082	şehvetli	
+83	7083	hepatit	
+84	7084	hırka	hırkamı hırkanı hırkanın hırkası hırkayı
+85	7085	asal	asala
+86	7086	ailecek	
+87	7087	alacakaranlık	alacakaranlıkta alacakaranlığı alacakaranlığın
+88	7088	yardımlaşmak	yardımlaşma
+89	7089	seyrek	
+90	7090	dağınıklık	dağınıklıktan dağınıklığa dağınıklığı dağınıklığın dağınıklığını
+91	7091	tuhaflık	tuhaflıklar tuhaflıkları tuhaflığı tuhaflığın
+92	7092	bilindik	
+93	7093	ıslanmak	ıslanacak ıslanacaksın ıslanan ıslandı ıslandım ıslandın ıslanmasın ıslanmaz ıslanmıyor ıslanmış ıslanmışsın ıslanmıştı ıslanır ıslanıyor
+94	7094	müstakil	
+95	7095	ezbere	
+96	7096	şifalı	
+97	7097	utanmaz	utanmazlar utanmazsın utanmazın
+98	7098	çiftleşme	çiftleşmeyi
+99	7099	motif	motifi motifler motifleri
+100	7100	mecburi	mecburidir

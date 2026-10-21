@@ -1,0 +1,100 @@
+1	6101	siyonist	siyonistler
+2	6102	hüsran	hüsrana hüsranla
+3	6103	şömine	şöminede şömineden şöminenin şöminesi şömineye şömineyi
+4	6104	haham	hahama hahamla hahamlar hahamı hahamım hahamın
+5	6105	hassa	hassan
+6	6106	karıştırıcı	karıştırıcısı karıştırıcıydı karıştırıcıyı
+7	6107	elektron	elektronlar elektronları elektronların elektronun
+8	6108	kaslı	
+9	6109	kalori	kaloriler kalorileri kalorili kalorilik kalorisi kaloriye
+10	6110	mahremiyet	mahremiyete mahremiyeti mahremiyetim mahremiyetime mahremiyetin mahremiyetine mahremiyetini
+11	6111	sondaj	sondaja sondajı
+12	6112	aöf	
+13	6113	bahadır	
+14	6114	gayrimenkul	gayrimenkuller gayrimenkulleri
+15	6115	caiz	caizdir caizse
+16	6116	terlik	terlikler terlikleri terliklerim terliklerimi terliklerin terliklerini terliği terliğini
+17	6117	rektörlük	rektörlüğe rektörlüğü rektörlüğüne
+18	6118	sabote	
+19	6119	parasal	
+20	6120	kompozisyon	kompozisyonu kompozisyonun kompozisyonunu
+21	6121	fotokopi	fotokopileri fotokopilerini fotokopisi fotokopisini
+22	6122	serçe	serçeler serçenin
+23	6123	atay	atay'ın
+24	6124	sikişmek	sikişe sikişelim sikişen sikişip sikişir sikişirken sikişiyor sikişiyorlar sikişiyorsun sikişme sikişmeye sikişmiş sikişti sikiştik sikiştim sikiştin sikiştiğin
+25	6125	aşağılayıcı	
+26	6126	şiş	şişi şişler şişleri şişmesi şişmesine şişmesini şişte şiştiğini
+27	6127	güneybatı	güneybatıda güneybatıdaki güneybatıdan güneybatısında güneybatıya
+28	6128	single	
+29	6129	mozart	mozart'ın
+30	6130	pire	pireler pireleri pirelerin pireli piresi pireyi
+31	6131	halihazırda	
+32	6132	berrak	
+33	6133	olgunlaşmak	olgunlaşan olgunlaşma olgunlaşmamış olgunlaşmaya olgunlaşmış olgunlaşmışsın olgunlaştı olgunlaştım olgunlaştın olgunlaşıp olgunlaşır olgunlaşıyor
+34	6134	papatya	papatyalar
+35	6135	meltem	meltemi meltemler
+36	6136	terazi	terazinin terazisi teraziye teraziyi
+37	6137	fotoğrafçılık	fotoğrafçılıkla fotoğrafçılığa fotoğrafçılığı fotoğrafçılığın
+38	6138	takiben	
+39	6139	erkeklik	erkekliğe erkekliği erkekliğim erkekliğimi erkekliğin erkekliğine erkekliğini erkekliğinin
+40	6140	seferberlik	seferberliği
+41	6141	yeti	yetilerini yetimiz yetini yetisi yetisine yetisini
+42	6142	darbeci	darbeciler darbecilere darbecilerin
+43	6143	ebediyen	
+44	6144	uçuk	uçuklar uçuğu
+45	6145	imiş	
+46	6146	şaman	şamana şamanlar şamanların şamanı şamanın
+47	6147	kiloluk	
+48	6148	saplamak	sapla sapladı sapladım sapladın saplama saplamaya saplamayı saplamış saplandığını saplanması saplar saplarım saplayacak saplayacaksın saplayacağım saplayan saplayarak saplayıp saplıyor
+49	6149	mükemmellik	mükemmellikte mükemmellikten mükemmelliğe mükemmelliği mükemmelliğin
+50	6150	kilometrelerce	
+51	6151	ipotek	ipotekli ipoteğe ipoteği ipoteğini
+52	6152	yozlaşmak	yozlaşma yozlaşmaya yozlaşmış
+53	6153	vah	vahı
+54	6154	çörçil	churchill
+55	6155	insülin	insülini
+56	6156	fizikçi	fizikçiler fizikçileri fizikçilerin fizikçinin fizikçisi fizikçiyim
+57	6157	dam	damda damdaki damdan damlar damı damın
+58	6158	bert	
+59	6159	gedik	gedikler gedikleri gedikten gediği gediğine
+60	6160	alıkoy	alıkoyabilir alıkoyamadım alıkoyamam alıkoyamayacak alıkoyamaz alıkoyamazsın alıkoyamazsınız alıkoyamıyorum alıkoyan alıkoydu alıkoyduk alıkoydular alıkoydum alıkoydun alıkoyduğum alıkoyduğunu alıkoymadı alıkoymasına alıkoymaya alıkoymayayım alıkoymaz alıkoymuyor alıkoymuş alıkoyup
+61	6161	laz	
+62	6162	sevkiyat	sevkiyata sevkiyatlar sevkiyattan sevkiyatı sevkiyatın sevkiyatını
+63	6163	evliya	evliyalar
+64	6164	kısaltma	kısaltmalar kısaltmaları kısaltması
+65	6165	uykusuzluk	uykusuzluktan uykusuzluğa uykusuzluğun
+66	6166	saniyelik	
+67	6167	mae	
+68	6168	boykot	
+69	6169	feribot	feribota feribotla feribotta feribottan feribotu feribotun feribotuna
+70	6170	dokunmatik	
+71	6171	tablet	tablete tableti tabletin tabletini tabletler tabletleri tabletlerini tablette
+72	6172	dezavantaj	dezavantajları dezavantajlı dezavantajı
+73	6173	lağım	lağıma lağımda lağımdan lağımlarda lağımı
+74	6174	ceo	ceo'su
+75	6175	yörük	
+76	6176	vejetaryen	vejetaryendir vejetaryenim vejetaryenler
+77	6177	bakıcılık	bakıcılığı bakıcılığına bakıcılığından bakıcılığını
+78	6178	kolluk	kolluklar kollukları kolluğu
+79	6179	uçuşmak	uçuşa uçuşan uçuşmaya uçuştu uçuştuğu uçuşun uçuşunuz uçuşup uçuşur uçuşurken uçuşuyor uçuşuyordu
+80	6180	sinsice	
+81	6181	havza	havzası havzasında
+82	6182	görüşlü	
+83	6183	karton	kartona kartondan kartonu
+84	6184	burjuva	burjuvalar
+85	6185	tarak	tarakla taraklarda tarakları tarağı tarağım tarağımı tarağın tarağını
+86	6186	havalanmak	havalan havalanacak havalanacağız havalanan havalandı havalandık havalandılar havalandırmadan havalanma havalanmaya havalanmış havalansın havalanın havalanıp havalanır havalanıyor havalanıyoruz
+87	6187	pike	
+88	6188	doğramak	doğra doğradı doğradım doğradın doğrama doğramaya doğramış doğranmış doğrar doğrarken doğrarım doğrayacak doğrayacağım doğrayan doğrayın doğrayıp doğruyor doğruyorum
+89	6189	bertaraf	
+90	6190	dublaj	dublajdan dublajlı
+91	6191	depresif	
+92	6192	jambon	jambona jambondan jambonla jambonlu jambonu jambonun
+93	6193	kapıcı	kapıcıdan kapıcılar kapıcımız kapıcının kapıcısı kapıcıya kapıcıyı kapıcıyım
+94	6194	musallat	
+95	6195	şevket	
+96	6196	klon	klonlar klonları klonların klonu klonum klonun klonunu
+97	6197	geometri	geometriden geometrinin geometrisi
+98	6198	kabartmak	kabart kabartma kabartmalar kabartmalı kabarttı kabartıyor
+99	6199	sabırla	
+100	6200	kafir	kafiri kafirin kafirler kafirlere kafirleri kafirlerin

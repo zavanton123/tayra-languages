@@ -1,0 +1,100 @@
+1	1901	uyum	uyuma uyumla uyumludur uyumlular uyumluluk uyumluluğu uyumluydu uyumluyuz uyumsuzlar uyumu uyumumuz uyumun uyumuna uyumunu
+2	1902	kadarıyla	
+3	1903	aksi	aksilik aksilikler aksiliğe aksiliği aksisin
+4	1904	sevimli	sevimlidir sevimliler sevimlisi sevimlisin sevimlisiniz sevimliydi sevimliydin sevimliyim sevimliymiş
+5	1905	halen	
+6	1906	hafıza	hafızada hafızadan hafızalara hafızalardan hafızaları hafızalarımızı hafızalarını hafızalı hafızam hafızama hafızamda hafızamdaki hafızamdan hafızamla hafızamı hafızamın hafızamız hafızamızı hafızan hafızana hafızanda hafızandan hafızanı hafızanın hafızanız hafızanızı hafızası hafızasına hafızasında hafızasından hafızasını hafızasının hafızasıyla hafızaya hafızayla hafızayı
+7	1907	öncelikle	
+8	1908	dik	dikildiğini dikilmekten dikilmesi dikilmeyi dikişle dikmeden dikmemi dikmesi dikmesini dikmeyi diktir diktiğinde diktiğini dimdik
+9	1909	kötülük	kötülükler kötülüklerden kötülüklere kötülükleri kötülüklerin kötülükte kötülükten kötülüğe kötülüğü kötülüğün
+10	1910	veda	vedalar vedalardan vedaları vedanı vedası vedayı
+11	1911	sorgulamak	sorgula sorguladı sorguladık sorguladılar sorguladım sorguladın sorgulama sorgulamada sorgulamadan sorgulamadım sorgulamam sorgulamama sorgulamamız sorgulamanın sorgulaması sorgulamaya sorgulamayı sorgulamıyor sorgulamıyorum sorgulanabilir sorgulanacak sorgulandı sorgulanmak sorgulanması sorgulanıyor sorgular sorgularken sorgulayacak sorgulayacağım sorgulayacağız sorgulayan sorgulayın sorgulayıp sorguluyor sorguluyorlar sorguluyorsun sorguluyorsunuz sorguluyorum sorguluyoruz
+12	1912	kimyasal	kimyasala kimyasalla kimyasallar kimyasallara kimyasallardan kimyasallarla kimyasalları kimyasalların kimyasalı kimyasalın
+13	1913	kablo	kablocu kabloda kablodan kablolar kablolara kablolarda kablolardan kablolarla kabloları kabloların kablolarına kablolarından kablolarını kablolarının kablolarıyla kablolu kabloluda kablom kablonun kablosu kablosuna kablosunu kablosuyla kablosuz kabloya kabloyla kabloyu
+14	1914	savaşçı	savaşçıdan savaşçıdır savaşçılar savaşçılara savaşçılardan savaşçılardır savaşçıları savaşçılarım savaşçılarımız savaşçılarımızı savaşçıların savaşçılarına savaşçılarından savaşçılarını savaşçılarının savaşçılarız savaşçım savaşçımız savaşçının savaşçısı savaşçısın savaşçısına savaşçısını savaşçısının savaşçıya savaşçıyı savaşçıyım savaşçıyız
+15	1915	dördüncü	dördüncüde dördüncünün dördüncüsü dördüncüye dördüncüyü
+16	1916	işbirliği	işbirlikleri işbirliğini
+17	1917	pantolon	pantalon pantolona pantolonda pantolondan pantolonla pantolonlar pantolonlara pantolonlardan pantolonlarla pantolonları pantolonlarım pantolonlarımı pantolonlarımızı pantolonların pantolonlarına pantolonlarını pantolonlarının pantolonlarınızı pantolonlu pantolonsuz pantolonu pantolonum pantolonuma pantolonumda pantolonumdan pantolonumla pantolonumu pantolonumun pantolonun pantolonuna pantolonunda pantolonundaki pantolonundan pantolonunla pantolonunu pantolonunun pantolonunuz pantolonunuzu pantolonuyla
+18	1918	çavuş	çavuşa çavuşla çavuşlar çavuşu çavuşum çavuşun çavuşunu
+19	1919	heyecanlı	heyecanlıdır heyecanlılar heyecanlısın heyecanlısınız heyecanlıydı heyecanlıydık heyecanlıydım heyecanlıydın heyecanlıymış heyecanlıyım heyecanlıyız
+20	1920	sevişmek	seviş sevişebiliriz sevişecek sevişeceğim sevişeceğiz sevişelim sevişen sevişerek sevişin sevişip sevişir sevişirdik sevişirim sevişiriz sevişirken sevişiyor sevişiyorduk sevişiyorlar sevişiyorsun sevişiyorum sevişiyoruz sevişme sevişmedik sevişmedim sevişmem sevişmeye sevişmeyi sevişmiyoruz sevişmiş sevişmiştik sevişti seviştik seviştim seviştin seviştiniz seviştiği seviştiğim seviştiğimiz seviştiğin
+21	1921	şair	şairdi şairdir şaire şairi şairim şairin şairle şairler şairlere şairleri şairlerin şairlerinden şairsin
+22	1922	öneri	öneride öneriler önerilerde önerilere önerileri önerilerim önerilerimi önerilerin önerilerine önerilerini önerileriniz önerilerinizi önerim önerime önerimi önerimiz önerimizi önerin önerini önerinin öneriniz önerinizi önerisi önerisinde önerisine önerisini önerisiyle öneriydi öneriye öneriyi öneriyle
+23	1923	arzu	arzudan arzudur arzular arzulara arzularla arzuları arzularım arzularımı arzularımız arzularımızı arzuların arzularına arzularından arzularını arzularının arzularınızı arzularıyla arzulu arzum arzumu arzumuz arzun arzuna arzunu arzunun arzunuz arzunuzu arzusu arzusudur arzusuna arzusunda arzusundan arzusunu arzusunun arzusuydu arzusuyla arzuya arzuyla arzuyu
+24	1924	uydu	uyduda uydudan uydular uydulara uydulardan uydularla uyduları uydularımız uyduların uydularına uydularından uydularını uydularının uydum uydumuz uydun uydunun uydunuz uydusu uydusuna uydusundan uydusunu uydusunun uyduya uyduyla uyduyu
+25	1925	renkli	
+26	1926	romantik	romantikler romantiklik romantikmiş romantiksin romantikti romantiktir romantiğim
+27	1927	belirlenmek	belirlendi belirlendiği belirlenebilir belirlenecek belirleneceği belirlenemedi belirlenememiş belirlenemeyen belirlenemez belirlenen belirlenir belirlenirken belirleniyor belirlenmedi belirlenmemiş belirlenmiş belirlenmişti
+28	1928	geleneksel	gelenekseldir
+29	1929	rekor	rekora rekorlar rekorları rekorlarını rekoru rekorum rekorumu rekorun rekoruna rekorunu rekorunun
+30	1930	cilt	cilde cildi cildim cildime cildimi cildimin cildin cildinde cildindeki cildine cildini cildinin cildiniz cildinizi cildinizin ciltler ciltleri ciltli ciltte
+31	1931	soruştur	soruşturacağım soruşturan soruşturduk soruşturdum soruşturmacı soruşturmada soruşturmadaki soruşturmadan soruşturmak soruşturmalar soruşturmaları soruşturmalarını soruşturmam soruşturmamı soruşturmamız soruşturmamıza soruşturmamızı soruşturmamızın soruşturman soruşturmanı soruşturmanın soruşturmanız soruşturmanıza soruşturmanızı soruşturması soruşturmasına soruşturmasında soruşturmasından soruşturmasını soruşturmasının soruşturmasıyla soruşturmaya soruşturmayla soruşturmayı soruşturuluyor soruşturun soruşturuyor soruşturuyorum soruşturuyoruz
+32	1932	imam	imama imamlar imamları imamların imamlık imamı imamın
+33	1933	temizlik	temizlikte temizlikten temizliğe temizliği temizliğin temizliğinde temizliğinden temizliğine temizliğini
+34	1934	sarmak	sar sarabilir saracak saracağım saralım saran sarar sararak sararmış sararsa sararım sardı sardık sardılar sardım sardın sardığı sardığında sardığını sarmalı sarmaya sarmış sarmışlar sarmıştı sarsak sarsan sarsın sarıldığında sarıldığını sarılmamı sarılman sarılmanı sarılması sarılmayı sarınca sarıp sarıyor sarıyorlar sarıyorum
+35	1935	bölmek	böl böldü böldük böldüler böldüm böldün böldüğüm böldüğümüz böle bölebilir bölecek böleceğim böleceğiz bölelim bölen böler bölerek bölerim böleriz bölersek bölme bölmede bölmeden bölmedim bölmeler bölmeleri bölmeli bölmeye bölmeyeyim bölmeyi bölmüyorum bölmüş bölün bölünmüş bölüp bölüyor bölüyorsun bölüyorum bölüyoruz
+36	1936	mağaza	mağazada mağazadaki mağazadan mağazalar mağazalara mağazalarda mağazalardan mağazaları mağazaların mağazalarına mağazalarında mağazalarından mağazalarını mağazam mağazama mağazamda mağazamı mağazamız mağazamıza mağazan mağazanın mağazası mağazasına mağazasında mağazasındaki mağazasından mağazasını mağazasının mağazaya mağazayı
+37	1937	bağışlamak	bağışla bağışladı bağışladım bağışladın bağışladığı bağışladığımız bağışladığını bağışlama bağışlamam bağışlaman bağışlamanı bağışlaması bağışlamasını bağışlamaya bağışlamayacağım bağışlamayı bağışlamış bağışlanacak bağışlanamaz bağışlanan bağışlandı bağışlanma bağışlanmak bağışlanması bağışlanmasını bağışlanmayı bağışlanmış bağışlar bağışlarsın bağışlarsınız bağışlasın bağışlayabilir bağışlayacak bağışlayacağım bağışlayan bağışlayayım bağışlayın bağışlıyor bağışlıyorum
+38	1938	müsaade	müsaadeni müsaadeniz müsaadenizi müsaadenizle müsaadenle müsade
+39	1939	dna	dna'nın dna'sı dna'yı
+40	1940	zincir	zincirde zincirdeki zincirden zincire zinciri zincirim zincirimi zincirin zincirinde zincirindeki zincirinden zincirine zincirini zincirinin zinciriyle zincirler zincirlerden zincirlere zincirleri zincirlerim zincirlerimi zincirlerin zincirlerinden zincirlerini zincirlerinin zincirleriyle zincirlerle zincirli zincirsiz
+41	1941	gülümsemek	gülümse gülümsedi gülümsedim gülümsedin gülümsediği gülümsediğin gülümsediğinde gülümsediğini gülümsemedi gülümsemelisin gülümsemesiyle gülümsemeye gülümsemeyle gülümsemez gülümsemiyor gülümsemiyorsun gülümser gülümserdi gülümserim gülümserken gülümsersen gülümsesin gülümseyebilir gülümseyecek gülümseyeceksin gülümseyeceğim gülümseyen gülümseyerek gülümseyin gülümseyip gülümseyişi gülümseyişini gülümsüyor gülümsüyordu gülümsüyordun gülümsüyorlar gülümsüyorsun gülümsüyorsunuz gülümsüyorum
+42	1942	hemşire	hemşireden hemşiredir hemşireler hemşirelerden hemşirelere hemşireleri hemşirelerin hemşirelerle hemşirem hemşiremiz hemşiren hemşirenin hemşireniz hemşiresi hemşiresin hemşiresine hemşiresini hemşiresiyim hemşiresiyle hemşireydi hemşireydim hemşireye hemşireyi hemşireyim hemşireyle hemşireymiş
+43	1943	cephe	cephede cephedeki cepheden cephelerde cephenin cephesi cephesinde cephesindeki cephesinden cephesine cephesini cephesinin cepheye cepheyi
+44	1944	hain	hainden haindi haindir haine haini hainim hainin hainisin hainle hainler hainlerden hainlere hainleri hainlerin hainlerle hainsin hainsiniz
+45	1945	devir	devirde devirden devirdiğini devirlerde devirli devirmenin devirmeyi devri devrimde devrimden devrime devrimi devrimin devrin devrinde devrinden devrine devrini devrinin
+46	1946	isyan	isyana isyancılarla isyanda isyandan isyandır isyanla isyanlar isyanları isyanı isyanın isyanına isyanında isyanını isyanının
+47	1947	maden	madende madendeki madenden madene madeni madenimiz madenin madeninde madeninden madenine madenini madeninin madenler madenlerde madenlerden madenlere madenleri madenlerin madenlerinde madenlerinden madenlerine madenlerini madenlerinin
+48	1948	duş	duşa duşlar duşlara duşlarda duşları duşların duşta duştaki duştan duştayken duşu duşum duşumu duşun duşuna duşunda duşunu
+49	1949	vaka	vakada vakadaki vakadan vakadır vakalar vakalara vakalarda vakalardan vakalarla vakaları vakaların vakalarına vakalarında vakalarından vakalarını vakalarının vakalarıyla vakam vakama vakamız vakan vakanın vakanız vakası vakasın vakasına vakasında vakasından vakasını vakasının vakasıydı vakasıyla vakaya vakaydı vakayla vakayı vakayım
+50	1950	perde	perdede perdedeki perdeden perdeler perdelerden perdelere perdeleri perdelerimi perdelerin perdelerini perdelerle perdeli perdenin perdesi perdesinde perdesine perdesini perdesinin perdeye perdeyi
+51	1951	sadık	sadıklar sadıksın sadıktı sadıktım sadıktır sadıktırlar sadığım sadığımdır sadığız
+52	1952	dövmek	döv dövdü dövdüler dövdüm dövdün dövdünüz dövdüğü dövdüğün döve dövebilir dövebilirim dövecek döveceksin döveceğim dövelim döven döver döverdi döverdim döverek döverim döverken döverler döveyim dövmedi dövmedim dövmeli dövmeye dövmüş dövmüşler dövmüştü dövülmek dövülmüş dövün dövüp dövüyor dövüyordu dövüyorlar dövüyorsun
+53	1953	cumhurbaşkanlığı	
+54	1954	mermi	mermide mermiden mermiler mermilerden mermilere mermileri mermilerin mermilerinden mermilerini mermilerle mermili mermim mermimiz mermin mermini merminin merminiz mermisi mermisini mermiye mermiyi mermiyle
+55	1955	nazik	nazikler nazikmiş naziksin naziksiniz nazikti naziktiler naziktim naziktin naziktiniz naziktir naziğim
+56	1956	kopmak	kop kopabilir kopacak kopacağını kopalım kopan kopana kopar koparak kopardı kopardık kopardım kopardın kopardınız koparmış koparsa koparıp kopma kopmadan kopmadı kopması kopmasına kopmaya kopmaz kopmuş kopmuştu kopmuştur kopmuşum kopsa kopsun koptu koptuk koptum koptuğu koptuğunda koptuğunu kopup kopuyor kopuyordu
+57	1957	muyum	
+58	1958	aktarmak	aktar aktarabilir aktarabilirim aktaracak aktaracağım aktaracağız aktaran aktararak aktarayım aktardı aktardım aktardığı aktardığına aktardığını aktarma aktarmalı aktarması aktarmaya aktarmayı aktarmış aktarılacak aktarılan aktarıldı aktarıldığı aktarılması aktarılmış aktarılmıştır aktarılır aktarılıyor aktarım aktarımı aktarımını aktarın aktarıp aktarır aktarırım aktarıyor aktarıyorum aktarıyoruz
+59	1959	yerleştirmek	yerleştir yerleştirdi yerleştirdik yerleştirdiler yerleştirdim yerleştirdin yerleştirdiniz yerleştirdiği yerleştirdiğim yerleştirdiğimiz yerleştirdiğin yerleştirebilir yerleştirebilirim yerleştirebiliriz yerleştirecek yerleştireceksin yerleştireceğim yerleştireceğiz yerleştirelim yerleştiren yerleştirerek yerleştireyim yerleştirin yerleştirip yerleştirir yerleştiririm yerleştiririz yerleştirirken yerleştiriyor yerleştiriyorlar yerleştiriyorum yerleştiriyoruz yerleştirme yerleştirmeliyiz yerleştirmem yerleştirmeye yerleştirmiş yerleştirmişler yerleştirmiştim
+60	1960	zannetmek	zannedecek zannedecekler zanneden zanneder zannederdim zannederek zannederim zannederken zannederler zannedersem zannedersin zannedip zannediyor zannediyordu zannediyorduk zannediyordum zannediyordun zannediyorlar zannediyorsan zannediyorsun zannediyorsunuz zannediyorum zannediyoruz zannet zannetme zannetmem zannetmiyordum zannetmiyorum zannetmiş zannetmiştim zannetti zannettik zannettiler zannettim zannettin zannettiniz zannettiği zannettiğim zannettiğin zannettiğinden
+61	1961	sıvı	sıvıda sıvıdan sıvıdır sıvılar sıvılarla sıvıları sıvıların sıvılarını sıvılarının sıvının sıvısı sıvısına sıvısında sıvısından sıvısını sıvısının sıvısıyla sıvıya sıvıyla sıvıyı
+62	1962	kızıl	kızıla kızılla kızıllar kızıllara kızıllardan kızıllarla kızılları kızılların kızılı kızılın
+63	1963	dövüş	dövüşe dövüşebileceğini dövüşeceğini dövüşle dövüşler dövüşlerde dövüşlerden dövüşlere dövüşleri dövüşlerin dövüşlerinde dövüşlerine dövüşlerini dövüşmeden dövüşmekten dövüşmemiz dövüşmenin dövüşmesi dövüşmesine dövüşmesini dövüşmeyi dövüşte dövüşten dövüştür dövüştüğünü dövüşü dövüşüleceğini dövüşüm dövüşümüz dövüşün dövüşünde dövüşünden dövüşüne dövüşünü dövüşünün
+64	1964	sahi	
+65	1965	önümüzdeki	
+66	1966	makale	makalede makaleden makaleler makalelere makaleleri makalelerin makalelerini makalem makalemi makalemin makalen makaleni makalenin makaleniz makalenizi makalesi makalesinde makalesini makaleye makaleyi makaleyle
+67	1967	omuz	omuza omuzda omuzdan omuzlar omuzlara omuzları omuzlarım omuzlarıma omuzlarımda omuzlarımdan omuzlarımı omuzların omuzlarına omuzlarında omuzlarındaki omuzlarından omuzlarındaydı omuzlarını omuzlarının omuzlu omuzum omuzuma omuzun omuzuna omuzunda omza omzu omzum omzuma omzumda omzumdan omzumu omzumun omzun omzuna omzunda omzundan omzunu omzunun
+68	1968	ikil	ikile ikileyin ikili ikilinin ikilisi ikilisini ikilisinin ikilisiniz ikiliydik ikiliye ikiliyi ikiliyiz
+69	1969	kurucu	kurucular kurucuları kurucuların kurucularından kurucularının kurucumuz kurucunun kurucusu kurucusunun kurucuya kurucuyu kurucuyum
+70	1970	gıda	gıdalar gıdalardan gıdaları gıdaların gıdası gıdaya gıdayı
+71	1971	büro	büroda bürodaki bürodan bürolar büroları bürolarına bürom büroma büromda büromdan büromu büromuz büromuza büron bürona büronu büronun büronuza büronuzda bürosu bürosuna bürosunda bürosundaki bürosundan bürosunu bürosunun bürosuyla büroya büroyla büroyu
+72	1972	itiraz	itirazda itirazlar itirazları itirazlarına itirazı itirazım itirazımı itirazımız itirazın itirazına itirazını itirazınız
+73	1973	oysa	
+74	1974	acayip	acaip acayipmiş acayipsin acayipti acayiptir
+75	1975	pes	pesinde pesinden pesine
+76	1976	turizm	turizmde turizme turizmi turizmin turizmine turizminin
+77	1977	konsey	konseyde konseydeki konseyden konseye konseyi konseyi'nde konseyi'ne konseyi'nin konseyin konseyinde konseyinden konseyine konseyini konseyinin konseyle
+78	1978	brian	brian'ın
+79	1979	çikolata	çikolatadan çikolatalar çikolatalardan çikolataları çikolataların çikolatalarını çikolatam çikolatamı çikolatan çikolatanı çikolatanın çikolatası çikolatasını çikolataya çikolatayla çikolatayı
+80	1980	ısrar	ısrarcı ısrarcılar ısrarcısın ısrarcısınız ısrarcıydı ısrarcıyım ısrarla ısrarlı ısrarlıydı ısrarlıyım ısrarı ısrarın ısrarıyla
+81	1981	platform	platforma platformda platformdaki platformdan platformlar platformlarda platformları platformlarında platformu platformudur platformun platformuna platformunda platformundan platformunu platformunun
+82	1982	zihin	zihinde zihinden zihinle zihinler zihinleri zihinlerimiz zihinlerimizi zihinlerin zihinlerinde zihinlerine zihinlerini zihinlerinin zihne zihni zihnim zihnimde zihnimdeki zihnimden zihnime zihnimi zihnimin zihnimiz zihnimizde zihnimizi zihnimle zihnin zihninde zihnindeki zihninden zihnine zihnini zihninin zihniniz zihninizde zihninize zihninizi zihninizin zihninle zihniyle
+83	1983	kütüphane	kütüphaneciyim kütüphanede kütüphanedeki kütüphaneden kütüphanedeydim kütüphaneler kütüphanelerde kütüphaneleri kütüphanem kütüphanemiz kütüphanenin kütüphanesi kütüphanesinde kütüphanesindeki kütüphanesinden kütüphanesine kütüphanesini kütüphanesinin kütüphaneye kütüphaneyi
+84	1984	yüzlerce	yüzlercesi yüzlercesine yüzlercesini yüzlercesinin
+85	1985	bozuk	bozukken bozuklar bozukmuş bozuksa bozuksun bozuktu bozuktur bozuğum bozuğun bozuğunuz
+86	1986	ahbap	ahbabı ahbabım ahbabın ahbaplar ahbapları
+87	1987	birey	bireyden bireye bireyi bireyim bireyin bireyler bireylerde bireylerden bireylere bireyleri bireylerin bireylerinden bireylerini bireylerinin bireysin
+88	1988	erişim	erişime erişimi erişimim erişimimiz erişimin erişimine erişimini erişiminiz erişimleri
+89	1989	özet	özeti özetine özetini özetle özetledi özetledin özetlenebilir özetler özetleri özetlerini özetlersek özetleyebilirim özetleyecek özetleyelim özetleyen özetleyeyim özetliyor özetliyorum
+90	1990	gümüş	gümüşe gümüşler gümüşleri gümüşlerini gümüşten gümüşü gümüşün
+91	1991	dikmek	dikecek dikeceğim dikeceğiz diker dikerek dikerim dikil dikildi dikildim dikilecek dikilen dikilip dikilir dikilirken dikiliyor dikiliyordu dikiliyorsun dikiliyorsunuz dikiliyorum dikiliyoruz dikilme dikilmek dikilmiş dikim dikin dikip dikiyor dikiyorsun dikiyorum dikme dikmeye dikmiş dikmişti dikti diktik diktiler diktim diktin diktiği
+92	1992	kır	kıracaktır kıracağını kıracağıyla kırana kırda kırdıktan kırdığımda kırdığımı kırdığına kırdığında kırdığını kırlar kırlara kırlarda kırları kırmakla kırmaktan kırmamaya kırmıştır kırıcıydı kırılacaktır kırılacağını kırılana kırıldığına kırıldığında kırıldığını kırılmadan kırılmalar kırılması kırılmasına kırılmasından kırılmasını kırılmasının kırılmasıyla kırılmıştır kırım kırım'da kırım'ın kırın
+93	1993	patates	patatese patatesi patatesim patatesimiz patatesin patatesini patatesle patatesler patateslerden patateslere patatesleri patateslerimi patateslerin patateslerini patateslerle patatesli patatesten
+94	1994	uğur	uğra uğradığını uğrayım uğruma uğrunaydı uğrunda uğur'un uğurda uğurlar uğursuzun uğuru uğurum uğuruna
+95	1995	gelenek	gelenekler geleneklerden geleneklere gelenekleri geleneklerimiz geleneklerimize geleneklerimizi geleneklerin geleneklerinden geleneklerine geleneklerini geleneklerinin geleneklerle gelenekten gelenektir geleneğe geleneği geleneğidir geleneğimiz geleneğimizdir geleneğimizi geleneğin geleneğinde geleneğine geleneğini geleneğinin
+96	1996	kira	kirada kiradan kiralar kiralarsın kiraları kiralarım kiralarını kiralarız kiram kiramı kiramız kiramızı kiran kiranı kiranın kiranızı kirası kirasını kiraya kirayla kirayı
+97	1997	yumuşak	yumuşaklar yumuşaklık yumuşaklığı yumuşaklığını yumuşakmış yumuşaksın yumuşaktı yumuşaktır
+98	1998	billy	
+99	1999	şapka	şapkada şapkadaki şapkadan şapkalar şapkalara şapkalardan şapkalarla şapkaları şapkaların şapkalarından şapkalarını şapkalarınızı şapkam şapkama şapkamla şapkamı şapkamın şapkan şapkana şapkandan şapkanla şapkanı şapkanın şapkanız şapkanızı şapkası şapkasına şapkasında şapkasından şapkasını şapkasının şapkasıyla şapkaya şapkayla şapkayı
+100	2000	teğmen	teğmene teğmeni teğmenim teğmenin teğmenle teğmenler

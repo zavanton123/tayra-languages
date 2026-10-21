@@ -1,0 +1,100 @@
+1	2401	clark	
+2	2402	meşhur	meşhurdu meşhurdur meşhurlar meşhursun
+3	2403	blok	bloklar blokları blokların bloklarını blokluk blokta bloktaki bloktan bloku
+4	2404	itmek	itebilir itecek iteceksin iteceğim iteceğiz itelim iten iter iterek iterim iterken itersen itersin iteyim itin itip itiyor itiyordu itiyorlar itiyorsun itiyorsunuz itiyorum itiyoruz itme itmedim itmesene itmeye itmeyin itmiş itmişti itti ittiler ittim ittin ittiniz ittirdi ittirdim ittirin ittiği
+5	2405	kısaca	
+6	2406	çukur	çukura çukurda çukurdaki çukurdan çukurlar çukurlara çukurlarda çukurlardan çukurları çukurların çukurlarına çukurlarında çukurlarından çukurlarını çukuru çukurun çukuruna çukurunda çukurundaki çukurundan çukurunu çukurunun
+7	2407	fırlatmak	fırlat fırlatabilir fırlatabilirim fırlatacak fırlatacaksın fırlatacağım fırlatacağız fırlatalım fırlatan fırlatarak fırlatma fırlatmaya fırlatmış fırlatmıştı fırlatmıştım fırlattı fırlattık fırlattılar fırlattım fırlattın fırlattınız fırlattığı fırlattığım fırlattığın fırlatın fırlatıp fırlatır fırlatırdı fırlatırdım fırlatırken fırlatırlar fırlatırım fırlatırız fırlatıyor fırlatıyordu fırlatıyorlar fırlatıyorsun fırlatıyorum fırlatıyoruz
+8	2408	yıllarca	
+9	2409	yitirmek	yitirdi yitirdik yitirdiler yitirdim yitirdin yitirdiniz yitirdiği yitirdiğim yitirdiğimiz yitirdiğin yitirecek yitireceksin yitireceğim yitiren yitirip yitirir yitiririm yitiririz yitirirsin yitiriyor yitiriyorsun yitiriyorum yitirme yitirmedi yitirmedim yitirmemeliyiz yitirmeye yitirmeyin yitirmiş yitirmişsin yitirmişti yitirmiştim yitirmiştir
+10	2410	tuz	tuza tuzdan tuzlar tuzları tuzu tuzum tuzumuz tuzun tuzunu
+11	2411	ihbar	ihbara ihbarcı ihbarda ihbarlar ihbarları ihbarı ihbarın ihbarına ihbarında ihbarını
+12	2412	seninki	seninkiler seninkilerde seninkilerden seninkilere seninkileri seninkilerin seninkilerle seninkinin seninkisi seninkiydi seninkiyle
+13	2413	taciz	tacizci tacizcileri tacizcinin tacizcisi tacizde tacizden tacizdir tacize tacizi tacizin tacizinden tacizine tacizle tacizler
+14	2414	boşaltmak	boşalt boşaltabilir boşaltabilirim boşaltacak boşaltacaksın boşaltacağım boşaltacağız boşaltalım boşaltan boşaltarak boşaltayım boşaltma boşaltmalısın boşaltmalıyım boşaltmalıyız boşaltmam boşaltmama boşaltmaya boşaltmış boşaltmışlar boşaltsın boşalttı boşalttık boşalttılar boşalttım boşalttın boşaltıldı boşaltın boşaltıp boşaltır boşaltırken boşaltırım boşaltırız boşaltıyor boşaltıyordum boşaltıyorlar boşaltıyorsun boşaltıyorum boşaltıyoruz
+15	2415	bot	bota botlar botlara botlardan botlarla botları botlarım botlarımı botlarımın botların botlarına botlarından botlarını botlarının botlarınızı botlarıyla botta bottaki bottan botu botum botumu botumuz botun botuna botunda botunu botunun botuyla
+16	2416	kaset	kasete kaseti kasetim kasetimi kasetimizi kasetin kasetinde kasetine kasetini kasetinin kasetle kasetler kasetlerde kasetlerden kasetlere kasetleri kasetlerim kasetlerimi kasetlerin kasetlerinden kasetlerine kasetlerini kasetlerle kasette kasetteki kasetten
+17	2417	tutku	tutkudan tutkudur tutkular tutkuları tutkularım tutkularımı tutkuların tutkularına tutkularını tutkularının tutkum tutkumu tutkumun tutkumuz tutkumuzu tutkun tutkuna tutkunları tutkunu tutkunum tutkunun tutkunuyum tutkunuz tutkunuzu tutkusu tutkusuna tutkusunu tutkusunun tutkusuydu tutkusuyla tutkuya tutkuyla tutkuyu
+18	2418	kanlı	
+19	2419	samimi	samimidir samimisin samimiydi samimiydik samimiydim samimiydiniz samimiyim samimiyiz
+20	2420	üzmek	üz üzdü üzdüm üzdün üzdüysem üzdüğü üzdüğüm üzebilir üzecek üzeceksin üzemez üzen üzer üzerdi üzerse üzersen üzme üzmeden üzmedi üzmem üzmemek üzmesin üzmesine üzmeye üzmeyeceğim üzmeyi üzmeyin üzmez üzmüyor üzmüş üzmüştü üzse üzüldüğünü üzün üzüp üzüyor üzüyordu üzüyorsun üzüyorsunuz
+21	2421	genetik	genetiktir genetikçi genetikçiler genetiği genetiğin genetiğini genetiğiyle
+22	2422	havalı	
+23	2423	yaralamak	yarala yaraladı yaraladılar yaraladım yaraladın yaraladınız yaraladığı yaralama yaralamaya yaralamış yaralamışsın yaralamıştı yaralandı yaralanmak yaralar yaralarsın yaralarım yaralayabilir yaralayabilirsin yaralayacak yaralayacaksın yaralayan yaralayıp yaralıyor yaralıyorsun
+24	2424	eren	eren'in erene erenler
+25	2425	çerçeve	çerçevede çerçeveden çerçevelenmiş çerçeveler çerçeveleri çerçevenin çerçevesi çerçevesinde çerçevesinden çerçevesine çerçevesini çerçeveye çerçeveyi
+26	2426	zorunlu	zorunludur zorunluluğum zorunluluğumuz zorunluluğun zorunluluğunu zorunluydu
+27	2427	çoğunlukla	
+28	2428	gürültü	gürültücüler gürültüde gürültüden gürültüler gürültüleri gürültülüdür gürültülüydü gürültünün gürültüsü gürültüsünden gürültüsüne gürültüsünü gürültüsünün gürültüsüyle gürültüye gürültüyle gürültüyü
+29	2429	paha	pahalıdır pahalılar pahalısı pahalısından pahalısını pahalıya pahalıymış pahası pahasına
+30	2430	sergile	sergiledi sergiledikleri sergilediler sergiledim sergiledin sergilediniz sergilediği sergilediğim sergilediğin sergilediğini sergilediğiniz sergileme sergilemektedir sergilemekten sergilemesi sergilemeye sergilemeyi sergilemiş sergilemiştir sergilendi sergilendiği sergilenecek sergilenen sergileniyor sergilenmektedir sergilenmesi sergilerken sergilerler sergileyecek sergileyeceğim sergileyeceğiz sergileyen sergileyerek sergiliyor sergiliyordu sergiliyorlar sergiliyorsun sergiliyorum sergiliyoruz
+31	2431	teşvik	teşvike teşviki teşvikler teşvikten
+32	2432	kutlama	kutlamada kutlamadan kutlamalar kutlamalara kutlamalarda kutlamalardan kutlamaları kutlamaların kutlamanın kutlamaya kutlamayı
+33	2433	story	st
+34	2434	organize	
+35	2435	asansör	asansörcü asansörde asansördeki asansörden asansördeyim asansöre asansörle asansörler asansörlerde asansörlerden asansörlere asansörleri asansörlerin asansörsüz asansörü asansörün asansöründe asansörüne asansörünü asansörünün asansörüyle
+36	2436	ziyaretçi	ziyaretçiler ziyaretçilerden ziyaretçilere ziyaretçileri ziyaretçilerim ziyaretçilerimiz ziyaretçilerin ziyaretçilerini ziyaretçileriniz ziyaretçim ziyaretçimiz ziyaretçin ziyaretçinin ziyaretçiniz ziyaretçisi ziyaretçiye ziyaretçiyi ziyaretçiyim
+37	2437	kül	külden küldür küle külle küller küllerden küllere külleri küllerimi küllerin küllerinden küllerine küllerini küllerinin külleriyle küllerle küllü külü külün
+38	2438	galibiyet	galibiyete galibiyeti galibiyetin galibiyetini galibiyetiyle galibiyetle galibiyetten
+39	2439	büyükbaba	büyükbabaları büyükbabam büyükbabama büyükbabamdan büyükbabamı büyükbabamın büyükbabamız büyükbaban büyükbabana büyükbabandan büyükbabanı büyükbabanın büyükbabanız büyükbabanızı büyükbabanızın büyükbabası büyükbabasına büyükbabasından büyükbabasını büyükbabasının büyükbabaya büyükbabayı
+40	2440	klinik	klinikle klinikler kliniklere klinikleri klinikte klinikteki klinikten kliniğe kliniği kliniğim kliniğime kliniğin kliniğinde kliniğindeki kliniğinden kliniğine kliniğini kliniğinin
+41	2441	plastik	plastikle plastikler plastikleri plastikten plastiğe plastiği plastiğin
+42	2442	bez	bezden beze bezenmiş bezi bezim bezimi bezimiz bezin bezinde bezinden bezine bezini bezinin beziyle bezle bezler bezlerden bezleri bezlerim bezlerin bezlerinde bezlerinden bezlerine bezlerini bezlerinin bezli
+43	2443	soyadı	soyad soyadları soyadlarını soyadım soyadımı soyadımız soyadımızı soyadın soyadına soyadından soyadını soyadının soyadınız soyadınızı soyadıyla
+44	2444	üstlen	üstlendi üstlendim üstlendin üstlendiği üstlendiğim üstlendiğin üstlendiğini üstlenebilir üstlenecek üstleneceksin üstleneceğim üstleneceğini üstlenemem üstlenen üstlenerek üstlenip üstlenir üstlenirim üstleniyor üstleniyorsun üstleniyorum üstleniyoruz üstlenme üstlenmedi üstlenmek üstlenmektedir üstlenmeli üstlenmelisin üstlenmem üstlenmemi üstlenmeni üstlenmesi üstlenmesine üstlenmesini üstlenmeye üstlenmeyi üstlenmiş üstlenmişti üstlenmiştir
+45	2445	derinlik	derinliklerde derinliklerden derinliklere derinlikleri derinliklerin derinliklerinde derinliklerinden derinliklerine derinliklerini derinlikte derinlikten derinliğe derinliği derinliğin derinliğinde derinliğine derinliğini derinliğinin
+46	2446	nadir	nadirdir
+47	2447	mensup	mensubu mensubunun mensubuyum mensupları mensuplarına mensuplarından mensuplarını mensuplarının
+48	2448	tatmin	tatmini tatminsiz
+49	2449	kavuşmak	kavuş kavuşabilir kavuşabilirsin kavuşacak kavuşacaklar kavuşacaksın kavuşacaksınız kavuşacağım kavuşacağız kavuşan kavuşma kavuşmadı kavuşmam kavuşmaya kavuşmaz kavuşmuş kavuşmuşsun kavuşmuştu kavuşmuştur kavuşsun kavuştu kavuştuk kavuştular kavuştum kavuştun kavuştunuz kavuştuğu kavuştuğum kavuşunca kavuşup kavuşur kavuşurlar kavuşursa kavuşursun kavuşursunuz kavuşurum kavuşuruz kavuşuyor
+50	2450	paylaşım	paylaşıma paylaşımcı paylaşımda paylaşımlar paylaşımları paylaşımlarını paylaşımlı paylaşımı paylaşımın paylaşımına paylaşımını
+51	2451	gözyaşı	gözyaşları gözyaşlarım gözyaşlarıma gözyaşlarımı gözyaşlarımın gözyaşlarımız gözyaşların gözyaşlarına gözyaşlarından gözyaşlarını gözyaşlarının gözyaşım gözyaşına gözyaşından gözyaşını gözyaşının
+52	2452	tıklamak	tıkla tıkladım tıklama tıklamanız tıklaması tıklanma tıklat tıklatma tıklayarak tıklayın tıklayınız tıklayıp tıklıyor
+53	2453	rekabet	rekabete rekabeti rekabetin rekabetle rekabette rekabetten
+54	2454	panik	panikler panikten paniğe paniği paniğin
+55	2455	zar	zara zarda zarla zarlar zarlara zarlarla zarları zarların zarlarını zarı zarım zarımı zarın zarına zarında zarını zarının
+56	2456	yürüyüş	yürüyüşler yürüyüşçü yürüyüşçüler yürüyüşü
+57	2457	inci	inciler incileri incilerin incilerini incilerle incili incindi incisi incisini inciye inciyi
+58	2458	kuyruk	kuyrukla kuyruklar kuyrukları kuyruklarını kuyrukta kuyruktan kuyruğa kuyruğu kuyruğum kuyruğuma kuyruğumda kuyruğumu kuyruğumuzu kuyruğun kuyruğuna kuyruğunda kuyruğundaki kuyruğundan kuyruğunu kuyruğunun kuyruğuyla
+59	2459	as	asacağını aslar aslıda asmaca asmadan asmaktan asmalar asmaları asmalarına asmamı asmamız asman asmanı asmanın asması asmasına asmasını asmayı astığını ası asılacağını asıldığımı asıldığında asıldığını asılmadan asılmaktan asılmanı asılması asılmasına asılmasını asılmayı asında asını
+60	2460	damla	damladan damlalar damlaları damlalarını damlalarının damlanın damlası damlasına damlasını damlasının damlasıyla damlaya damlaydı damlayı
+61	2461	mali	malini
+62	2462	versiyon	versiyonda versiyonları versiyonlarını versiyonu versiyonudur versiyonum versiyonumu versiyonumuz versiyonun versiyonuna versiyonunda versiyonundan versiyonunu versiyonunun versiyonuydu versiyonuyla
+63	2463	saye	sayede sayesindedir sayesindeydi
+64	2464	şiddetli	
+65	2465	tasarlamak	tasarla tasarladı tasarladık tasarladılar tasarladım tasarladın tasarladınız tasarladığı tasarladığım tasarladığımız tasarladığın tasarlama tasarlamadım tasarlamaya tasarlamış tasarlamıştı tasarlamıştım tasarlanmış tasarlar tasarlarken tasarlarım tasarlayacağım tasarlayan tasarlayarak tasarlayıp tasarlıyor tasarlıyordu tasarlıyorsun tasarlıyorum tasarlıyoruz
+66	2466	euro	euro'ya euroluk euroya
+67	2467	kul	kula kullar kulları kulların kullarına kullarından kullarını kullarının kulu kulum kulun kuluna kulunu kulunun kulunuz kuluyum
+68	2468	iniş	inişe inişi inişin inişini inişler inişleri inişli inişte inişten inişti
+69	2469	çarşamba	çarşambadan çarşambaları çarşambaya
+70	2470	tavşan	tavşana tavşancık tavşancıklar tavşancığı tavşandan tavşandı tavşanla tavşanlar tavşanlara tavşanlardan tavşanlarla tavşanları tavşanların tavşanı tavşanım tavşanımı tavşanımız tavşanın tavşanına tavşanını tavşanının
+71	2471	gizemli	gizemlidir gizemlisin gizemliydi
+72	2472	ihtiyar	ihtiyara ihtiyardan ihtiyarlar ihtiyarlara ihtiyarlardan ihtiyarlarla ihtiyarları ihtiyarların ihtiyarsın ihtiyarı ihtiyarım ihtiyarın
+73	2473	layık	layıksın layıksınız layıktır layığım layığını layığıyla
+74	2474	büyütmek	büyüt büyütebilir büyütebilirim büyütebiliriz büyütecek büyüteceksin büyüteceğim büyüteceğiz büyütelim büyüten büyüterek büyütme büyütmedim büyütmem büyütmeye büyütmeyelim büyütmeyin büyütmüş büyüttü büyüttük büyüttüler büyüttüm büyüttün büyüttünüz büyüttüğü büyüttüğüm büyüttüğün büyütün büyütüp büyütür büyütürken büyütürsün büyütürüm büyütüyor büyütüyorlar büyütüyorsun büyütüyorsunuz büyütüyorum büyütüyoruz
+75	2475	ebeveyn	ebeveynden ebeveyne ebeveyni ebeveynim ebeveynin ebeveyninin ebeveynle ebeveynler ebeveynlerden ebeveynlere ebeveynleri ebeveynlerim ebeveynlerimi ebeveynlerimin ebeveynlerimiz ebeveynlerimizin ebeveynlerin ebeveynlerinden ebeveynlerine ebeveynlerini ebeveynlerinin ebeveynleriniz ebeveynlerinizin ebeveynleriyle ebeveynleriz ebeveynlerle ebeveynli ebeveynlik ebeveynliğin
+76	2476	ölümcül	ölümcüldü ölümcüldür
+77	2477	cezaevi	cezaevinde cezaevinden cezaevine cezaevini cezaevinin cezaevleri cezaevlerinde
+78	2478	öpücük	öpücükle öpücükler öpücüklere öpücükleri öpücüklerin öpücüklerini öpücüklerle öpücükten öpücüktü öpücüğe öpücüğü öpücüğüm öpücüğümü öpücüğün öpücüğünden öpücüğüne öpücüğünü öpücüğünün öpücüğüydü öpücüğüyle
+79	2479	liderlik	liderliğe liderliği liderliğimi liderliğin liderliğinde liderliğindeki liderliğinden liderliğine liderliğini liderliğinin
+80	2480	sean	
+81	2481	zira	
+82	2482	otuz	otuza otuzdan otuzlarında otuzlu otuzu otuzuma otuzuna otuzunda otuzunu
+83	2483	içiş	içişler içişleri içişlerinden içişlerine
+84	2484	satıcı	satıcıdan satıcıdır satıcılar satıcılara satıcılardan satıcılarla satıcıları satıcıların satıcılarına satıcılarından satıcılarını satıcılarının satıcılarıyla satıcım satıcımız satıcın satıcının satıcısı satıcısıdır satıcısın satıcısına satıcısından satıcısını satıcısının satıcısıydı satıcısıyla satıcısıyım satıcıya satıcıydı satıcıyla satıcıyı satıcıyım
+85	2485	şahıs	şahsa şahsı şahsım şahsıma şahsın şahsına şahsında şahsınıza şahısla şahıslar şahıslara şahısları şahısların şahıstan
+86	2486	tükenmek	tükendi tükendik tükendim tükendin tükendiği tükenebilir tükenecek tükenen tükenince tükenip tükenir tükenirse tükeniyor tükeniyordu tükenme tükenmedi tükenmekte tükenmemiş tükenmesi tükenmeye tükenmeyen tükenmiş tükenmişti tükenmiştim
+87	2487	bünye	bünyem bünyen bünyesi bünyesinde bünyesindeki bünyesine
+88	2488	carter	
+89	2489	öylesine	
+90	2490	keyifli	
+91	2491	beşinci	beşincisi beşinciyi
+92	2492	torba	torbacı torbacılar torbacıları torbacılık torbacım torbacının torbacısı torbacıyı torbada torbadaki torbadan torbalar torbalara torbalarda torbalardan torbalarla torbaları torbaların torbalarına torbalarından torbalarını torbalarının torbalarıyla torbam torbamı torban torbanı torbanın torbası torbasına torbasında torbasından torbasını torbasının torbasıyla torbaya torbayla torbayı
+93	2493	sınırlı	
+94	2494	aşağılık	aşağılıklar aşağılıkları aşağılıksın aşağılıktır aşağılıkça aşağılığı aşağılığın
+95	2495	yavuz	yavuz'un
+96	2496	tıkmak	tık tıka tıkacak tıkacaklar tıkacağım tıkacağız tıkalım tıkama tıkan tıkandı tıkandım tıkanma tıkanması tıkanmış tıkanıp tıkanır tıkanıyor tıkar tıkarlar tıkarım tıkma tıkmadan tıkmaya tıkmayı tıkmış tıktı tıktık tıktılar tıktım tıktın tıkıldık tıkıldım tıkılmış tıkılıp tıkın tıkıp tıkıyor tıkıyorsun tıkış
+97	2497	endüstri	endüstride endüstrileri endüstrinin endüstrisi endüstrisinde endüstrisindeki endüstrisinden endüstrisine endüstrisini endüstrisinin endüstriye endüstriyi
+98	2498	roger	
+99	2499	ambulans	ambulansa ambulansla ambulanslar ambulansları ambulansların ambulansta ambulanstaki ambulanstan ambulansı ambulansın ambülans
+100	2500	sembol	semboldür sembole sembolle semboller sembollerden sembollere sembolleri sembollerin sembollerinden sembollerini sembollerle sembolü sembolüdür sembolün sembolüne sembolünü sembolünün sembolüydü

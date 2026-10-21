@@ -1,0 +1,100 @@
+1	3201	sap	sapa saplar sapları saplarım saplarını sapmış sapta saptanmıştır saptı saptık saptılar saptım saptın saptırabilir saptıracak saptırdı saptırmaya saptırılmış saptırıyor saptırıyorsun saptığını sapı sapın sapına sapında sapından sapını sapının sapıyla
+2	3202	harvey	
+3	3203	kabile	kabilede kabileden kabileler kabilelerden kabilelere kabileleri kabilelerin kabilelerinin kabilelerle kabilem kabilemin kabilemiz kabilemizin kabilen kabilenin kabilesi kabilesinde kabilesinden kabilesine kabilesini kabilesinin kabilesiyle kabileye kabileyi kabileyle
+4	3204	suikast	suikasta suikastlar suikasttan suikastı suikastın suikastını suikastının
+5	3205	esnaf	esnafa esnaflar esnafı esnafımız esnafın
+6	3206	pist	piste pisti pistimizde pistinde pistindeki pistinden pistine pistini pistinin pistleri pistte pistteki pistten
+7	3207	makul	makuldür
+8	3208	çiğnemek	çiğne çiğnedi çiğnedik çiğnediler çiğnedim çiğnedin çiğnediniz çiğnediği çiğnediğin çiğnediğini çiğneme çiğnemeden çiğnemedim çiğnemekten çiğnemem çiğnemenin çiğnemesi çiğnemeye çiğnemeyi çiğnemiş çiğnendi çiğnenmiş çiğner çiğnerim çiğnerken çiğnersen çiğnersin çiğneyecek çiğneyemezsin çiğneyen çiğneyerek çiğneyin çiğneyip çiğniyor çiğniyordu çiğniyorsun çiğniyorsunuz çiğniyorum çiğniyoruz
+9	3209	birleşme	birleşmede birleşmeden birleşmeler birleşmeleri birleşmelerini birleşmemiz birleşmemizi birleşmenin birleşmesi birleşmesinden birleşmesine birleşmesini birleşmesinin birleşmeye birleşmeyi
+10	3210	erkenden	
+11	3211	terketmek	terkedecek terkedeceksin terkedeceğim terkedemem terkedemez terkedemezsin terkeden terkeder terkederek terkederken terkedersen terkedin terkedince terkedip terkediyor terkediyorsun terkediyorum terkediyoruz terket terketme terketmedi terketmedim terketmelisin terketmeliyiz terketmem terketmemelisiniz terketmeye terketmeyecek terketmeyeceğim terketmez terketmiş terketmişti terketti terkettiler terkettim terkettin terkettiği terkettiğim terkettiğin
+12	3212	akciğer	akciğerde akciğere akciğeri akciğerin akciğerinde akciğerine akciğerini akciğerinin akciğerler akciğerlerde akciğerlere akciğerleri akciğerlerim akciğerlerin akciğerlerinde akciğerlerindeki akciğerlerinden akciğerlerine akciğerlerini akciğerlerinin
+13	3213	jet	jete jeti jetim jetin jetine jetini jetiyle jetle jetler jetleri jetlerin
+14	3214	plak	plakla plaklar plakları plaklarım plaklarımı plakların plaklarını plağa plağı plağım plağımı plağın plağını
+15	3215	mekân	mekâna mekânda mekândan mekânlar mekânlara mekânlarda mekânları mekânı mekânım mekânıma mekânımda mekânımı mekânımız mekânın mekânına mekânında mekânını
+16	3216	ardında	
+17	3217	bağımsızlık	bağımsızlıktan bağımsızlığa bağımsızlığı bağımsızlığın
+18	3218	tanıklık	tanıklıktan tanıklığa tanıklığı tanıklığım tanıklığın tanıklığına tanıklığını tanıklığınız
+19	3219	ebu	
+20	3220	eşsiz	
+21	3221	onlarca	onlarcası
+22	3222	nasılsa	
+23	3223	şah	şah'ın şaha şahsın şahı şahım şahın şahını
+24	3224	re	rem rene
+25	3225	minibüs	minibüse minibüsle minibüsler minibüsleri minibüste minibüsteki minibüsten minibüsü minibüsüm minibüsüme minibüsümü minibüsümüz minibüsün minibüsünde minibüsüne minibüsünü minibüsünün
+26	3226	satır	satıra satırda satırdan satırla satırlar satırları satırların satırlık satırı satırın satırını
+27	3227	kafes	kafese kafesi kafesim kafesimi kafesin kafesle kafesler kafeslerde kafeslere kafesleri kafeslerin kafeslerine kafeslerini kafeste kafesteki kafesten
+28	3228	aydınlık	apaydınlık aydınlıkta aydınlıktan aydınlığa aydınlığı aydınlığın
+29	3229	zulüm	zulme zulmü zulmün zulmünden zulmüne zulümden zulümler
+30	3230	hacim	hacimli hacmi hacminde hacmine hacmini hacminin
+31	3231	mafya	mafyada mafyadan mafyalar mafyanın mafyası mafyasına mafyasında mafyasından mafyasını mafyasının mafyasıyla mafyaya mafyayla mafyayı
+32	3232	balon	balona balonda balondan balonla balonlar balonlara balonlardan balonlarla balonları balonların balonlarını balonlu balonu balonum balonun balonuna balonunu balonunun balonuyla
+33	3233	kalça	kalçada kalçadan kalçalar kalçalara kalçaları kalçalarım kalçalarıma kalçalarımı kalçalarımın kalçaların kalçalarına kalçalarında kalçalarından kalçalarını kalçalarının kalçalarınızı kalçam kalçama kalçamda kalçamdan kalçamı kalçamın kalçan kalçana kalçanda kalçandan kalçanı kalçanın kalçanızı kalçası kalçasına kalçasında kalçasındaki kalçasından kalçasını kalçasının kalçaya kalçayı
+34	3234	sağır	sağırdı sağırdır sağırlar sağırların sağırsın sağırım
+35	3235	mürettebat	mürettebata mürettebatla mürettebatta mürettebattan mürettebatı mürettebatım mürettebatımın mürettebatımız mürettebatın mürettebatına mürettebatından mürettebatını mürettebatının mürettebatınız mürettebatıyla
+36	3236	tıraş	traş tıraşa tıraşı tıraşın tıraşına tıraşını
+37	3237	panel	panelde panelden panele paneli panelin panelinde panelindeki panelinden paneline panelini panelinin paneller panelleri panellerini
+38	3238	dana	danalar dananın danayı
+39	3239	eldiven	eldivene eldiveni eldivenim eldivenimi eldivenin eldivenine eldivenini eldiveninin eldivenle eldivenler eldivenlerden eldivenlere eldivenleri eldivenlerim eldivenlerimi eldivenlerin eldivenlerine eldivenlerini eldivenlerinin eldivenlerinizi eldivenlerle eldivenli
+40	3240	seçilmiş	seçilmişlerin
+41	3241	kel	keldi keli kelim kelin kelini keller kelsin
+42	3242	gülümseme	gülümsemeden gülümsemeler gülümsemeleri gülümsemem gülümsememi gülümsemen gülümsemene gülümsemeni gülümsemenin gülümsemenizi gülümsemesi gülümsemesine gülümsemesini gülümsemesinin gülümsemeye gülümsemeyi
+43	3243	sapan	sapancı sapanla sapanı
+44	3244	icap	icabı icabıma icabına icabınıza icabıydı icaplarına
+45	3245	eleştirmek	eleştirdi eleştirdim eleştirdiği eleştirecek eleştiren eleştirerek eleştirilen eleştirip eleştirir eleştirirken eleştiriyor eleştiriyorsun eleştirme eleştirmeye eleştirmiyorum
+46	3246	zalim	zalimdi zalimdir zalimi zalimin zalimler zalimlere zalimlerin zalimsin zalimsiniz
+47	3247	ima	imada imalar imalarda imaları imalı imanın iması
+48	3248	ahşap	ahşaba ahşabı ahşabın ahşaptan
+49	3249	cerrah	cerraha cerrahla cerrahlar cerrahlara cerrahlardan cerrahları cerrahların cerrahlarından cerrahtan cerrahtı cerrahtım cerrahtır cerrahı cerrahım cerrahımız cerrahın cerrahına cerrahını cerrahının cerrahıyla cerrahıyım
+50	3250	kardeşlik	kardeşlikten kardeşliğe kardeşliği kardeşliğin
+51	3251	referans	referansa referanslar referansları referanslarım referanslarımı referansların referanslarını referanslarınız referansı referansım referansın referansınız
+52	3252	beklenmedik	
+53	3253	bm	
+54	3254	simge	simgeler simgeleri simgelerinden simgelerini simgesi simgesidir simgesini
+55	3255	kolye	kolyede kolyeden kolyeler kolyeleri kolyem kolyemi kolyen kolyene kolyeni kolyenin kolyeniz kolyesi kolyesine kolyesini kolyesinin kolyeye kolyeyi kolyeyle
+56	3256	altıncı	altıncısı altıncıyı
+57	3257	kaleci	kalecinin kalecisi kaleciye kaleciyi
+58	3258	ron	
+59	3259	takas	takasa takasla takasta takastan takası takasın takasını
+60	3260	yasadışı	
+61	3261	bursaspor	bursaspor'a bursaspor'da bursaspor'u bursaspor'un
+62	3262	elena	
+63	3263	kaz	kazdığını kazlar kazları kazların kazmaktan kazsın kazılan kazıldı kazılmış kazım kazıma kazın kazınmış kazının
+64	3264	serdar	
+65	3265	prova	provada provadan provalar provalara provalarda provalardan provaları provalarına provalarını provam provamız provan provanın provası provasına provasında provasından provasını provaya provaydı provayı
+66	3266	akıllıca	akıllıcası akıllıcaydı
+67	3267	kızılderili	kızılderililer kızılderililerden kızılderililere kızılderilileri kızılderililerin kızılderililerle kızılderilinin kızılderiliye kızılderiliyi
+68	3268	kıta	kıtada kıtadaki kıtadan kıtalar kıtalarda kıtaları kıtaların kıtanın kıtası kıtasına kıtasında kıtasını kıtasının kıtaya kıtayı
+69	3269	önemsiz	
+70	3270	ikram	ikramda ikramlar ikramı ikramım ikramımız
+71	3271	çevril	çevrildi çevrildim çevrildiğini çevrilebilir çevrilecek çevrilemez çevrilen çevrilerek çevrilir çevriliyor çevrilmemiş çevrilmesi çevrilmesini çevrilmiş çevrilmişti çevrilmiştir
+72	3272	sermaye	sermayeli sermayem sermayemiz sermayen sermayenin sermayesi sermayesini sermayeye sermayeyi
+73	3273	danışmanlık	danışmanlığa danışmanlığı danışmanlığın danışmanlığına danışmanlığında danışmanlığını
+74	3274	elçi	elçiler elçileri elçilerin elçilerini elçimiz elçin elçinin elçisi elçisidir elçisine elçisini elçisinin elçisisin elçisiyim elçisiyle elçiye elçiyi elçiyim
+75	3275	tekrarlamak	tekrarla tekrarladı tekrarladık tekrarladım tekrarlama tekrarlamalıyız tekrarlamam tekrarlamaya tekrarlamayacağım tekrarlanan tekrarlar tekrarlarsa tekrarlarsan tekrarlarız tekrarlayabilir tekrarlayabiliriz tekrarlayacak tekrarlayacağım tekrarlayacağız tekrarlayalım tekrarlayarak tekrarlayayım tekrarlayın tekrarlayıp tekrarlıyor tekrarlıyorlar tekrarlıyorsun tekrarlıyorum tekrarlıyoruz
+76	3276	solunum	solunumu solunumunu
+77	3277	mutlak	mutlaktır
+78	3278	villa	villada villalar villaları villanın villası villasına villasında villaya villayı
+79	3279	direnmek	diren direndi direndiler direndim direndin direnebilir direnecek direneceğim direneceğiz direnemez direnen direnerek direnin direnip direnir direnirse direnirsen direnirseniz direniyor direniyordu direniyorlar direniyorsun direniyorum direnişin direnme direnmeliyiz direnmeye direnmeyin direnmiyorum direnmiş
+80	3280	nü	nün
+81	3281	evrensel	evrenseldir
+82	3282	seçkin	seçkinci seçkinler seçkinleri seçkinlerin
+83	3283	satılık	satılıktır satılığa
+84	3284	azıcık	
+85	3285	sis	sise sisi sisin sisle sisler sisleri sislerin siste sisten sistik
+86	3286	bilgilendirmek	bilgilendir bilgilendirdi bilgilendirdik bilgilendirdim bilgilendirdiğin bilgilendirdiğiniz bilgilendirebilir bilgilendirecek bilgilendireceğim bilgilendireceğiz bilgilendirelim bilgilendireyim bilgilendirin bilgilendirip bilgilendirir bilgilendiririm bilgilendiririz bilgilendirirsin bilgilendiriyor bilgilendiriyordu bilgilendiriyorum bilgilendirme bilgilendirmeliyim bilgilendirmeliyiz bilgilendirmem bilgilendirmeye bilgilendirmiş
+87	3287	ehliyet	ehliyete ehliyeti ehliyetim ehliyetime ehliyetimi ehliyetimin ehliyetin ehliyetinde ehliyetindeki ehliyetine ehliyetini ehliyetinin ehliyetiniz ehliyetinizi ehliyetli
+88	3288	istihdam	istihdama istihdamı
+89	3289	tedbir	tedbiri tedbirimi tedbirler tedbirlere tedbirleri tedbirlerin tedbirlerini tedbirsiz
+90	3290	müzisyen	müzisyendi müzisyendir müzisyene müzisyeni müzisyenim müzisyenin müzisyeniz müzisyenle müzisyenler müzisyenlerden müzisyenlere müzisyenleri müzisyenlerin müzisyenlerle müzisyensin müzisyensiniz
+91	3291	daim	
+92	3292	karaciğer	karaciğerde karaciğerden karaciğere karaciğeri karaciğerim karaciğerimi karaciğerimin karaciğerin karaciğerinde karaciğerinden karaciğerine karaciğerini karaciğerinin karaciğeriniz
+93	3293	takipçi	takipçiler takipçileri takipçilerim takipçilerin takipçilerinden takipçilerine takipçilerini takipçilerinin takipçim takipçimiz takipçin takipçisi
+94	3294	budamak	buda budama budanmış
+95	3295	parlamento	parlamentoda parlamentodaki parlamentodan parlamentonun parlamentosu parlamentosu'nda parlamentosu'nun parlamentoya parlamentoyu
+96	3296	diyet	diyete diyeti diyetim diyetimi diyetin diyetinde diyetine diyetini diyetle diyetler diyette diyetteyim
+97	3297	ayrıntılı	
+98	3298	acilen	
+99	3299	öfkeli	öfkelidir öfkeliler öfkelisin öfkelisiniz öfkeliydi öfkeliydim öfkeliydin öfkeliyim
+100	3300	lazer	lazere lazeri lazerin lazerini lazerle lazerler lazerleri lazerli

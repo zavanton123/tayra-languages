@@ -1,0 +1,100 @@
+1	8101	dingil	dingili dingilin dingiller
+2	8102	patolojik	
+3	8103	ruble	
+4	8104	soprano	sopranolar
+5	8105	lüzumsuz	
+6	8106	hanedanlık	hanedanlığı hanedanlığın hanedanlığına hanedanlığından hanedanlığını hanedanlığının
+7	8107	dekolte	dekolteli dekoltesi
+8	8108	eminönü	
+9	8109	hatipoğlu	
+10	8110	iett	
+11	8111	nabi	
+12	8112	nilgün	
+13	8113	ortaöğretim	
+14	8114	sahabe	
+15	8115	subaşı	
+16	8116	topraklamak	toprakla topraklama topraklar topraklarım
+17	8117	niyaz	niyazımız
+18	8118	formalite	formaliteden formaliteler formalitelere formaliteleri formaliteyi
+19	8119	dantel	danteli
+20	8120	celp	celbi celbini
+21	8121	anadil	anadilde anadili
+22	8122	lunapark	lunaparka lunaparkta lunaparktaki lunaparkı
+23	8123	bükme	bükmeye bükmeyi
+24	8124	yassı	
+25	8125	mir	
+26	8126	sonar	sonarda sonarı
+27	8127	havaalan	havaalanı'na havaalanı'nda havaalanındaki havaalanındayım havaalanındayız
+28	8128	astroloji	astrolojiye
+29	8129	sabi	sabine sabini
+30	8130	yapışık	
+31	8131	oynaşmak	oynaş oynaşacak oynaşalım oynaşan oynaşma oynaşmaya oynaşmayı oynaştık oynaştığı oynaştığını oynaşıp oynaşırken oynaşıyor oynaşıyorsun
+32	8132	yapboz	yapboza yapbozu yapbozun
+33	8133	başsavcılık	başsavcılığı
+34	8134	ülser	ülseri ülserim ülserin
+35	8135	mikroskobik	
+36	8136	nah	
+37	8137	mırıldanmak	mırıldan mırıldanan mırıldanarak mırıldandı mırıldandığın mırıldandığını mırıldanma mırıldanmaya mırıldanmayı mırıldanıp mırıldanır mırıldanırken mırıldanıyor mırıldanıyordu mırıldanıyordun mırıldanıyorsun mırıldanıyorum
+38	8138	lokum	lokumu
+39	8139	ahi	
+40	8140	fısıltı	fısıltılar fısıltıları fısıltısı fısıltıyla
+41	8141	tıkanıklık	tıkanıklığı
+42	8142	çözelti	çözeltisi
+43	8143	delici	
+44	8144	karo	
+45	8145	hepten	
+46	8146	tire	
+47	8147	otantik	
+48	8148	atardamar	atardamara atardamardan atardamarlar atardamarları atardamarı atardamarın atardamarına atardamarını
+49	8149	klor	
+50	8150	kapanık	kapanıktı
+51	8151	lehçe	lehçesi lehçesini
+52	8152	türemek	türe türedi türemiş türemiştir türetilmiş türeyen
+53	8153	asteğmen	
+54	8154	viagra	
+55	8155	gücenmek	gücendim gücendin gücendirmek gücenme gücenmedim gücenmem gücenmeyin gücenmiş
+56	8156	akılsız	
+57	8157	çalkala	çalkalama çalkalanmış çalkalanıyor çalkalayın
+58	8158	nazmi	
+59	8159	akaryakıt	
+60	8160	makbul	makbuldür
+61	8161	allak	
+62	8162	savmak	sava savan savar savası savdı savdım savdın savma savmaya savıp savıyor savıyorsun
+63	8163	yamalak	
+64	8164	garsonluk	garsonluktan garsonluğa garsonluğu
+65	8165	sarmal	sarmala sarmalanmış sarmalı sarmalın
+66	8166	akılcı	
+67	8167	dipnot	
+68	8168	pide	
+69	8169	muhittin	
+70	8170	süzme	
+71	8171	yazışmak	yazışma yazışmaları yazışmaya yazışıyoruz
+72	8172	igor	
+73	8173	imran	
+74	8174	mücahit	mücahitler
+75	8175	berger	
+76	8176	akdoğan	
+77	8177	cebeci	
+78	8178	kocatepe	
+79	8179	mecidiyeköy	
+80	8180	nurullah	
+81	8181	pekkan	
+82	8182	topbaş	
+83	8183	tuncel	
+84	8184	fikstür	fikstürü
+85	8185	sahiplenmek	sahiplen sahiplendi sahiplendim sahiplenecek sahiplenen sahipleniyor sahiplenme sahiplenmeye sahiplenmiş
+86	8186	edi	ediyim
+87	8187	ahit	ahde
+88	8188	kdv	
+89	8189	bunaltıcı	bunaltıcıydı
+90	8190	zimmet	zimmete zimmetime zimmetine zimmetli
+91	8191	işlek	
+92	8192	cariye	cariyeler cariyenin cariyesi
+93	8193	hademe	hademeler hademenin hademesi hademeye hademeyi hademeyim hademeyle
+94	8194	sızlanmak	sızlan sızlanacak sızlanan sızlanarak sızlanma sızlanmaya sızlanmıyorum sızlanıp sızlanıyor sızlanıyorsun
+95	8195	yanıltıcı	yanıltıcıdır
+96	8196	totem	totemi totemin
+97	8197	ciro	cirosu
+98	8198	artistik	
+99	8199	kavramsal	
+100	8200	batık	

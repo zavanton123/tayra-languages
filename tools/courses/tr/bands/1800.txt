@@ -1,0 +1,100 @@
+1	1701	gözaltı	gözaltına gözaltında gözaltından
+2	1702	tony	
+3	1703	sıkıcı	sıkıcıdır sıkıcılar sıkıcısın sıkıcısınız sıkıcıydı sıkıcıymış sıkıcıysa sıkıcıyım
+4	1704	popüler	popülerdi popülerdim popülerdin popülerdir popüleri popülerim popülerler popülerlik popülerliği popülerliğini popülermiş popülersin
+5	1705	patlamak	patla patladı patladım patladın patladığı patladığım patlamadı patlamalı patlamamış patlamasın patlamaya patlamayacak patlamaz patlamış patlamıştı patlar patlardı patlarken patlarlar patlarsa patlarsın patlasa patlasın patlayabilir patlayacak patlayacakmış patlayacaksın patlayacaktı patlayacağı patlayacağım patlayan patlayarak patlayıcılar patlayınca patlayıp patlıyor patlıyordu patlıyorlar patlıyorum
+6	1706	nick	nick'in nicki
+7	1707	bilimsel	
+8	1708	boğaz	boğaz'ın boğaza boğazda boğazdan boğazla boğazlamak boğazlamaya boğazlanmış boğazlar boğazları boğazlarım boğazlarına boğazlarından boğazlarını boğazlayan boğazlı boğazlık boğazı boğazı'nda boğazı'nın boğazım boğazıma boğazımda boğazımdan boğazımı boğazımın boğazımıza boğazımızı boğazın boğazına boğazında boğazındaki boğazından boğazını boğazının boğazınız boğazınıza boğazınızdan boğazınızı
+9	1709	aylık	aylıkken aylıklar aylıktı aylığı aylığımı aylığına aylığını
+10	1710	şok	şoka şokla şoklar şokları şokta şoktan şoktasın şoktaydı şoktaydım şoktayım şoktayız şoktu şoku şokun şokuna şokundan şokunu şokuyla
+11	1711	namaz	namaza namazda namazdan namazları namazlarını namazı namazın namazına namazında namazından namazını namazının
+12	1712	otomobil	oto otomobilde otomobile otomobili otomobilin otomobilini otomobille otomobiller otomobillerde otomobilleri otomobillerin
+13	1713	rom	roma romdan romlu romu
+14	1714	yürek	yürekle yürekler yüreklere yürekleri yüreklerimiz yüreklerimizi yüreklerinde yüreklerine yüreklerini yüreksiz yürekten yüreğe yüreği yüreğim yüreğimde yüreğimdeki yüreğimden yüreğime yüreğimi yüreğimin yüreğimiz yüreğimize yüreğimizi yüreğimle yüreğin yüreğinde yüreğindeki yüreğinden yüreğine yüreğini yüreğinin yüreğiniz yüreğinizde yüreğinize yüreğinizi yüreğinle yüreğiyle
+15	1715	ar	arda arla arı arılar arılara arılardan arılarla arıları arılarım arıların arılarını arılarının arım arın arının arısı arısının arıya arıyla arıyı arıyım
+16	1716	nihayet	nihayete nihayetinde
+17	1717	içerik	içerikler içerikleri içeriklerin içeriklerini içerikli içeriğe içeriği içeriğin içeriğinde içeriğinden içeriğine içeriğini içeriğinin içeriğiyle
+18	1718	bağlanmak	bağlan bağlanabilir bağlanacak bağlanacağım bağlanacağız bağlanalım bağlanamıyorum bağlanan bağlanarak bağlandı bağlandık bağlandılar bağlandım bağlandın bağlandınız bağlandığı bağlandığım bağlandığın bağlanma bağlanmadı bağlanmalı bağlanmam bağlanmamış bağlanmaya bağlanmıyor bağlanmış bağlanmışlar bağlanmıştı bağlanmıştık bağlanmıştım bağlanın bağlanınca bağlanıp bağlanır bağlanıyor bağlanıyorlar bağlanıyorsun bağlanıyorum bağlanıyoruz
+19	1719	fırtına	fırtınada fırtınadaki fırtınadan fırtınadır fırtınalar fırtınalara fırtınalarda fırtınalardan fırtınalarla fırtınaları fırtınaların fırtınalarının fırtınanın fırtınası fırtınasına fırtınasında fırtınasından fırtınasını fırtınasının fırtınaya fırtınaydı fırtınayla fırtınayı
+20	1720	teori	teoride teoriden teoridir teoriler teorilerden teorilere teorileri teorilerim teorilerimi teorilerin teorilerinden teorilerine teorilerini teorilerinin teorileriniz teorilerle teorim teorime teorimi teorimin teorimiz teorimizi teorin teorine teorini teorinin teoriniz teorinizi teorisi teorisinde teorisinden teorisine teorisini teorisinin teorisiyle teoriydi teoriye teoriyi teoriyle
+21	1721	çiftlik	çiftlikle çiftlikler çiftliklerde çiftliklerden çiftliklere çiftlikleri çiftliklerin çiftliklerinde çiftliklerinden çiftliklerine çiftliklerini çiftliklerinin çiftlikte çiftlikteki çiftlikten çiftlikti çiftliğe çiftliği çiftliğim çiftliğimde çiftliğimden çiftliğime çiftliğimi çiftliğimin çiftliğimiz çiftliğimizi çiftliğin çiftliğinde çiftliğindeki çiftliğinden çiftliğine çiftliğini çiftliğinin çiftliğiniz çiftliğinizi
+22	1722	pilot	pilota pilotla pilotlar pilotlara pilotlardan pilotlarla pilotları pilotlarımız pilotların pilotlarından pilotlarını pilotlarının pilotluk pilotluğu pilotsun pilotta pilottan pilottu pilottum pilottur pilotu pilotum pilotumuz pilotun pilotuna pilotunu pilotunun pilotunuz pilotuydu pilotuyla pilotuyum
+23	1723	gönüllü	gönüllüdür gönüllüler gönüllülerden gönüllülere gönüllüleri gönüllülerin gönüllülerle gönüllülük gönüllülükle gönüllümüz gönüllünün gönüllüsü gönüllüsün gönüllüsünüz gönüllüydü gönüllüydüm gönüllüye gönüllüyüm gönüllüyüz
+24	1724	kongre	kongre'nin kongrede kongredeki kongreden kongreler kongrenin kongresi kongresi'nde kongresi'ne kongresi'nin kongresinde kongresine kongresini kongreye kongreyi
+25	1725	teyze	teyzecik teyzecim teyzeciğim teyzeden teyzeler teyzeleri teyzelerim teyzelerin teyzem teyzemde teyzemden teyzeme teyzemi teyzemin teyzemiz teyzemle teyzen teyzenden teyzene teyzeni teyzenim teyzenin teyzeniz teyzenize teyzenizi teyzenizin teyzenizle teyzenle teyzesi teyzesine teyzesini teyzesinin teyzesiyim teyzesiyle teyzeye teyzeyi teyzeyle
+26	1726	gazi	gazi'nin gaziler gazilere gazileri gazilerimize gazilerimizi gazilerin gazinin gazisi gaziyim
+27	1727	etrafında	
+28	1728	yetişmek	yetiş yetişebilecek yetişebilir yetişebilirim yetişebiliriz yetişecek yetişeceksin yetişeceğim yetişeceğiz yetişemedim yetişemem yetişemeyeceğim yetişemeyeceğiz yetişemeyiz yetişemez yetişemiyorum yetişen yetişin yetişip yetişir yetişirim yetişiriz yetişirsin yetişiyor yetişiyorlar yetişme yetişmeliyim yetişmeliyiz yetişmem yetişmeye yetişmez yetişmiyor yetişmiş yetişti yetiştik yetiştim yetiştin yetiştirilen yetiştiği
+29	1729	çocukluk	çocukluklarından çocukluklarını çocuklukta çocukluktan çocukluğu çocukluğum çocukluğuma çocukluğumda çocukluğumdaki çocukluğumdan çocukluğumla çocukluğumu çocukluğumun çocukluğumuz çocukluğumuzda çocukluğumuzdaki çocukluğumuzdan çocukluğumuzu çocukluğun çocukluğuna çocukluğunda çocukluğundaki çocukluğundan çocukluğunla çocukluğunu çocukluğunun çocukluğunuzda çocukluğunuzdan çocukluğunuzu
+30	1730	sabit	sabiti sabitle sabitler sabitti sabittir
+31	1731	yüzbaşı	yüzbaşıdan yüzbaşılar yüzbaşım yüzbaşımız yüzbaşına yüzbaşının yüzbaşısı yüzbaşıya yüzbaşıydı yüzbaşıyla yüzbaşıyı yüzbaşıyım
+32	1732	mide	midede mideden mideleri midelerinde midelerine midelerini midem midemde midemdeki midemden mideme midemi midemin midemiz midende midenden midene mideni midenin mideniz midenizde midenize midenizi midesi midesinde midesindeki midesinden midesine midesini midesinin mideye mideyi mideyle
+33	1733	müdahale	müdahaleci müdahalede müdahaleden müdahaleler müdahalelere müdahaleleri müdahalenin müdahalesi müdahalesine müdahalesini müdahalesiyle müdahaleye müdahaleyi müdahaleyle
+34	1734	ırak	ırak'a ırak'ta ırak'taki ırak'tan ırak'ı ırak'ın
+35	1735	organ	organa organdır organlar organlara organlarda organlardan organlarla organları organlarım organlarımı organlarımız organlarımızı organların organlarına organlarında organlarından organlarını organlarının organlarınız organlarınızı organlarıyla organı organım organımı organın organına organında organından organını organının
+36	1736	yüzük	yüzükle yüzükler yüzüklerden yüzüklere yüzükleri yüzüklerin yüzüklerini yüzüklerle yüzüklü yüzükmüş yüzükte yüzükten yüzüktü yüzüğe yüzüğü yüzüğüm yüzüğüme yüzüğümü yüzüğümün yüzüğümüz yüzüğün yüzüğünden yüzüğüne yüzüğünü yüzüğünün yüzüğünüz yüzüğünüzü yüzüğüydü yüzüğüyle
+37	1737	çirkin	çirkindi çirkindir çirkini çirkinim çirkinler çirkinleri çirkinleşmeden çirkinmiş çirkinse çirkinsin
+38	1738	esas	esaslar esaslara esasları esaslarını esastır esası esasına esasında esasını
+39	1739	yargıç	yargıca yargıcı yargıcım yargıcımız yargıcın yargıcına yargıcını yargıcının yargıçla yargıçlar yargıçlara yargıçlardan yargıçları yargıçların yargıçlık yargıçtan yargıçtı
+40	1740	jim	
+41	1741	uyarı	uyarıcı uyarıcıdır uyarıcılar uyarıcılara uyarıcıları uyarıcısı uyarıcıya uyarıda uyarıdır uyarılar uyarılara uyarıları uyarılarıma uyarıların uyarılarına uyarılarını uyarım uyarıma uyarımı uyarımız uyarın uyarını uyarının uyarınız uyarısı uyarısıdır uyarısına uyarısında uyarısını uyarıya uyarıydı uyarıyla uyarıyı
+42	1742	birleşik	
+43	1743	çatı	çatıda çatıdaki çatıdan çatıdayım çatılar çatılara çatılarda çatılardan çatıları çatıların çatılı çatım çatımın çatımız çatının çatısı çatısına çatısında çatısındaki çatısından çatısını çatısının çatıya çatıyı
+44	1744	moda	modacı modada modadan modadır modanın modası modasına modasını modasının modaya modaydı modayla modaymış modayı
+45	1745	peygamber	peygamber'e peygamber'in peygambere peygamberi peygamberim peygamberimiz peygamberimize peygamberimizin peygamberin peygamberine peygamberler peygamberlere peygamberleri peygamberlerin
+46	1746	basınç	basınca basıncı basıncım basıncın basıncına basıncında basıncından basıncını basıncının basıncınız basıncıyla basınçla basınçlı basınçta basınçtan
+47	1747	hızla	
+48	1748	steve	
+49	1749	sizce	
+50	1750	sandalye	sandalyede sandalyedeki sandalyeden sandalyedeydi sandalyedeyim sandalyeler sandalyelerde sandalyelerden sandalyelere sandalyeleri sandalyelerin sandalyelerini sandalyelerle sandalyeli sandalyem sandalyemde sandalyemden sandalyeme sandalyemi sandalyemin sandalyemiz sandalyen sandalyende sandalyene sandalyeni sandalyenin sandalyeniz sandalyenizi sandalyesi sandalyesinde sandalyesinden sandalyesine sandalyesini sandalyesinin sandalyesiyle sandalyeye sandalyeyi sandalyeyle
+51	1751	dolmak	dol dola dolabilir dolacak dolan dolandırdığını dolandırmadan dolandırmayı dolandırıldık dolandırıldım dolandırıldığını dolandığını dolanmaktan dolanman dolanması dolanmasına dolanmasını dolanmayı dolanıyordur dolardı dolarken dolarmış dolarsa doldu doldum doldurulmuş dolduğu dolmadı dolmamış dolmaya dolmayacak dolmaz dolmuştu dolsun dolunca dolup doluyor doluyordu doluyorum
+52	1752	hangisi	
+53	1753	yo	
+54	1754	denilmek	denildi denildiği denilebilecek denilebilir denilecek denilemez denilen denilerek denilince denilir deniliyor deniliyordu denilmez
+55	1755	bedava	bedavadır bedavaydı
+56	1756	kuzen	kuzeni kuzenim kuzenimden kuzenimdi kuzenimdir kuzenime kuzenimi kuzenimin kuzenimiz kuzenimle kuzenimsin kuzenin kuzeninden kuzenine kuzenini kuzeninim kuzeninin kuzeniniz kuzeninizin kuzeninle kuzenisin kuzeniydi kuzeniyim kuzeniyle kuzeniz kuzenler kuzenleri kuzenlerim kuzenlerimden kuzenlerimi kuzenlerimin kuzenlerimiz kuzenlerimle kuzenlerin kuzenlerinden kuzenlerine kuzenlerini kuzenlerinin kuzenleriyle
+57	1757	seyretmek	seyredebilir seyredebiliriz seyredebilirsin seyredecek seyredeceksin seyredeceğim seyredeceğiz seyredelim seyreden seyreder seyrederdim seyrederek seyrederim seyrederiz seyrederken seyredin seyredip seyrediyor seyrediyordu seyrediyorduk seyrediyordum seyrediyorlar seyrediyorsun seyrediyorum seyrediyoruz seyret seyretmedim seyretmedin seyretmekten seyretmeye seyretmeyi seyretmiş seyretmiştim seyretti seyrettik seyrettim seyrettin seyrettiğim seyrettiğini
+58	1758	virüs	virüse virüsle virüsler virüslerden virüslere virüsleri virüslerin virüslerle virüslü virüsten virüstü virüstür virüsü virüsün virüsünden virüsüne virüsünü virüsünün virüsüyle
+59	1759	gelişim	gelişimde gelişimden gelişime gelişimi gelişimin gelişiminde gelişimine gelişimini gelişiminin gelişimiyle gelişimlerini
+60	1760	tamir	tamirde tamirden tamire tamiri tamirinden tamirine tamirini
+61	1761	birleşmek	birleş birleşecek birleşecekler birleşeceğiz birleşelim birleşen birleşerek birleşin birleşince birleşip birleşir birleşirler birleşirse birleşirsek birleşiyor birleşiyorlar birleşiyoruz birleşmeli birleşmeliyiz birleşmeye birleşmiş birleşmişler birleşsin birleşti birleştik birleştiler birleştiniz birleştiren birleştirmek birleştiği
+62	1762	üstelik	üstelikte
+63	1763	kılmak	kılabilir kılabilirim kılabiliriz kılacak kılacağım kılacağız kılalım kılan kılar kılarak kılarken kıldı kıldık kıldılar kıldım kıldın kıldığı kıldığın kılma kılmalıyız kılmaya kılmaz kılmıyor kılmış kılmıştı kılmıştık kılsın kılın kılıp kılıyor kılıyordu kılıyorlar kılıyorsun kılıyorum kılıyoruz
+64	1764	set	seddi sete seti setim setimden setime setimi setimiz setin setinde setindeki setinden setine setini setinin setiyle setler setlerde setleri setlerini setlerle setlik sette setteki setten
+65	1765	nerde	
+66	1766	derhâl	derhal
+67	1767	zamanla	zamanlamaları zamanlamamız zamanlaman zamanlamanın zamanlamanız zamanlaması zamanlamasını zamanlamaydı zamanlamayla zamanlamayı zamanlayıcı zamanlayıcısı zamanlayıcıya zamanlayıcıyı
+68	1768	işkence	işkenceden işkencedir işkenceler işkencelere işkenceleri işkencenin işkencesi işkencesine işkenceydi işkenceye işkenceyi işkenceyle
+69	1769	sigorta	sigortadan sigortalar sigortaları sigortalarını sigortalı sigortalıyım sigortam sigortamı sigortamın sigortamız sigortamızı sigortan sigortanı sigortanın sigortanız sigortası sigortasına sigortasından sigortasını sigortasının sigortasıyla sigortasız sigortaya sigortayla sigortayı
+70	1770	vatan	vatana vatanı vatanım vatanıma vatanımı vatanımız vatanımıza vatanımızı vatanımızın vatanın vatanına vatanında vatanını
+71	1771	lira	liradan liranın lirası liraya lirayı
+72	1772	açılış	açılışa açılışları açılışta açılıştan açılışı açılışım açılışımız açılışın açılışına açılışında açılışından açılışını
+73	1773	bayağı	basbayağı baya bayağıdır bayağılık
+74	1774	ip	ipe ipi ipim ipimi ipin ipinden ipine ipini ipinin ipler iplerden iplere ipleri iplerin iplerini ipli ipsiz ipte ipten
+75	1775	çete	çetede çetedeki çeteden çeteler çetelerden çetelere çeteleri çetelerin çetelerinden çetelerine çetelerini çetelerinin çetelerle çetem çetemiz çeten çetene çeteni çetenin çetesi çetesinde çetesindeki çetesinden çetesine çetesini çetesinin çetesiyle çeteye çeteyi çeteyle
+76	1776	dolayısıyla	
+77	1777	yirmi	yirmide yirmiden yirmilerinde yirmili yirmilik yirmilikler yirmisi yirmisinde yirmisini yirmiye
+78	1778	bulut	bulut'un buluta bulutla bulutlar bulutlara bulutlarda bulutlardan bulutlarla bulutları bulutların bulutlarına bulutlarından bulutlarını bulutlarının bulutsuz bulutta buluttan bulutu bulutun bulutuna bulutunda bulutundan bulutunu bulutunun bulutuyla
+79	1779	çıplak	çıplakken çıplaklar çıplaklığıyla çıplakmış çıplaksın çıplaktı çıplaktım çıplaktın çıplağım çıplağız çırılçıplak çırılçıplaktı
+80	1780	yaralı	yaralılar yaralılara yaralılardan yaralılarla yaralıları yaralılarımız yaralıların yaralımız yaralının yaralısın yaralısınız yaralıya yaralıydı yaralıydım yaralıyken yaralıymış yaralıysa yaralıyı yaralıyım
+81	1781	sektör	sektörde sektördeki sektörden sektöre sektörler sektörlerde sektörleri sektörlerinde sektörü sektörün sektöründe sektöründeki sektöründen sektöründeyim sektörüne sektörünü sektörünün
+82	1782	yayılmak	yayıl yayılabilir yayılacak yayılan yayılarak yayıldı yayıldıkça yayıldılar yayıldığı yayılma yayılmamış yayılması yayılmasın yayılmaya yayılmaz yayılmıyor yayılmış yayılmışlar yayılmıştı yayılsın yayılın yayılınca yayılıp yayılır yayılırken yayılırlar yayılırsa yayılıyor yayılıyordu yayılıyorlar
+83	1783	jimmy	
+84	1784	petrol	petrolcü petrolden petrole petrolle petrolleri petrolü petrolün petrolünü
+85	1785	yaratık	yaratıkla yaratıklar yaratıklara yaratıklardan yaratıklardı yaratıklardır yaratıklarla yaratıklarsınız yaratıkları yaratıkların yaratıklarına yaratıklarından yaratıklarını yaratıklarının yaratıklarız yaratıksın yaratıktan yaratıktı yaratıktır yaratığa yaratığı yaratığım yaratığın yaratığını yaratığının
+86	1786	mühendislik	mühendislikte mühendislikten mühendisliğe mühendisliği mühendisliğin
+87	1787	geliştirmek	geliştir geliştirdi geliştirdik geliştirdikleri geliştirdiler geliştirdim geliştirdin geliştirdiği geliştirdiğim geliştirdiğimiz geliştirdiğin geliştirebilir geliştirebilirim geliştirebiliriz geliştirebilirsin geliştirecek geliştireceğim geliştireceğiz geliştiren geliştirerek geliştirin geliştirip geliştirir geliştiririz geliştirirken geliştiriyor geliştiriyordu geliştiriyorlar geliştiriyorsun geliştiriyorum geliştiriyoruz geliştirmekte geliştirmelisin geliştirmeliyiz geliştirmeye geliştirmiş geliştirmişler geliştirmişsin geliştirmişti
+88	1788	başarısız	
+89	1789	hüküm	ahkâm hükme hükmü hükmüm hükmümü hükmün hükmünde hükmündedir hükmünden hükmüne hükmünü hükmünün hükmünüzü hükümden hükümler hükümleri hükümlerine hükümlerini hükümsüz
+90	1790	yen	yendikten yendiğini yenebileceğimi yenebileceğini yeneceğimi yeneceğini yenemeyeceğini yenildi yenildik yenildim yenildin yenildiği yenildiğini yenilebilir yenilecek yenilerek yenilince yenilip yenilir yenilmedi yenilmedim yenilmesi yenilmeye yenilmeyeceğim yenilmeyi yenilmez yenilmezim yenilmezler yenilmiş yenin yenmeden yenmekten yenmemiz yenmen yenmenin yenmesi yenmesine yenmesini yenmeyi
+91	1791	aptalca	aptalcadır aptalcaydı aptalcaymış
+92	1792	karışık	karışıkken karışıkmış karışıksa karışıktı karışıktır
+93	1793	kaçak	kaçakla kaçaklar kaçaklara kaçaklardan kaçaklarla kaçakları kaçakların kaçaklarını kaçaklarının kaçaksın kaçaktı kaçaktır kaçakçılarla kaçakçılarına kaçakçılarını kaçakçılarının kaçakçısı kaçakçısını kaçakçısının kaçağa kaçağı kaçağım kaçağımız kaçağın kaçağını kaçağının kaçağısın kaçağıyım
+94	1794	epey	epeyi
+95	1795	paşa	paşa'nın paşa'ya paşa'yı paşalar paşam paşanın
+96	1796	sıcaklık	sıcaklıklar sıcaklıklara sıcaklıklarda sıcaklıkları sıcaklıkta sıcaklıktan sıcaklığa sıcaklığı sıcaklığın
+97	1797	bugünkü	
+98	1798	rahatlamak	rahatla rahatladı rahatladık rahatladım rahatladın rahatlama rahatlamalı rahatlamalısın rahatlamam rahatlamama rahatlamaya rahatlamıyorsun rahatlamış rahatlamıştı rahatlamıştım rahatlarsın rahatlarız rahatlasana rahatlasın rahatlatmak rahatlatır rahatlayabilir rahatlayabilirim rahatlayabiliriz rahatlayabilirsin rahatlayabilirsiniz rahatlayacak rahatlayacaksın rahatlayacağım rahatlayacağız rahatlayalım rahatlayamam rahatlayamıyorum rahatlayayım rahatlayın rahatlayıp rahatlıyor rahatlıyorsun rahatlıyorum
+99	1799	yalancı	yalancıdan yalancıdır yalancılar yalancılara yalancılardan yalancılardır yalancıları yalancıların yalancının yalancısı yalancısın yalancısınız yalancıya yalancıydı yalancıyı yalancıyım
+100	1800	topluluk	toplulukla topluluklar topluluklara topluluklarda toplulukları toplulukların topluluklarının toplulukta topluluktaki topluluktan topluluktur topluluğa topluluğu topluluğu'nun topluluğudur topluluğum topluluğumuz topluluğumuza topluluğumuzu topluluğumuzun topluluğun topluluğuna topluluğunda topluluğundan topluluğunu topluluğunun topluluğuyla topluluğuz

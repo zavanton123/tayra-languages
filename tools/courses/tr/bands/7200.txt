@@ -1,0 +1,100 @@
+1	7101	yonca	yoncayı
+2	7102	dırdır	dırdırı dırdırından dırdırını
+3	7103	hürrem	
+4	7104	içli	
+5	7105	marangoz	marangozdu marangozlar marangozum marangozun
+6	7106	hostes	hostese hostesi hostesim hostesin hostesle hostesler hostesleri
+7	7107	sargı	sargılar sargıları sargılarını sargısı sargıya sargıyı
+8	7108	güve	güveler güveleri güveli güvelik güvende güvenden güvene güveni güvenin güveyi
+9	7109	granit	granitten
+10	7110	kışkırtmak	kışkırtacak kışkırtan kışkırtarak kışkırtmaya kışkırtmış kışkırttı kışkırttım kışkırttın kışkırttığını kışkırtıp kışkırtır kışkırtıyor kışkırtıyorsun
+11	7111	parçalanma	parçalanmadan parçalanması parçalanmasına parçalanmasını parçalanmaya
+12	7112	homoseksüel	homoseksüelim homoseksüeller homoseksüellere homoseksüelleri homoseksüellerin
+13	7113	heteroseksüel	heteroseksüelim heteroseksüeller
+14	7114	fazilet	fazileti faziletli
+15	7115	ela	elana
+16	7116	solak	solakmış solaksın solaktı solağım
+17	7117	madeleine	
+18	7118	sayaç	sayaca sayacı sayacını
+19	7119	kudretli	
+20	7120	ağıt	ağıtlar
+21	7121	kapadokya	kapadokya'da
+22	7122	melike	melikesi
+23	7123	güm	
+24	7124	kaykay	kaykaya kaykaydan kaykayla kaykaylı kaykayı kaykayımı kaykayın kaykayını
+25	7125	mozaik	
+26	7126	buğra	buğu buğusu
+27	7127	konfor	konfora konforludur konforu konforunda
+28	7128	ik	
+29	7129	buton	butona butonu butonuna
+30	7130	şişmiş	
+31	7131	gözetmek	gözet gözetecek gözeten gözetir gözetiyor gözetiyorum gözetmeksizin gözetsin
+32	7132	tazelemek	tazele tazeledi tazeleme tazelemem tazelemeye tazelendi tazelenmiş tazeler tazeleyebilir tazeleyecek tazeleyeceğim tazeleyelim tazeleyeyim tazeleyici tazeleyin tazeliyor
+33	7133	dermek	der derdi derdik derdin derdiniz dereler dereli derince deriniz derme dermiş dermişim derse dersek dersem dersen derseniz dersin
+34	7134	imdi	indi
+35	7135	baran	
+36	7136	zorlukla	
+37	7137	çoluk	
+38	7138	şike	
+39	7139	ereksiyon	ereksiyona ereksiyonu ereksiyonun ereksiyonunu
+40	7140	tadilat	tadilata tadilatta tadilattan tadilatı
+41	7141	alkan	
+42	7142	cenab	
+43	7143	ihlas	
+44	7144	manço	
+45	7145	esinti	esintide esintisi esintiyi esintiyle
+46	7146	sezai	
+47	7147	kadınsı	
+48	7148	argüman	argümanlar argümanları argümanı
+49	7149	ballı	
+50	7150	gerileme	gerilemeye
+51	7151	kut	kutlar kutlarım kutum kutuma kutumda kutumdan kutumu kutumun kutumuz kutun kutuna kutunda kutundan kutunu kutunun kutunuz kutunuza kutunuzu
+52	7152	şerbet	şerbeti
+53	7153	fırçalamak	fırçala fırçaladı fırçaladım fırçaladın fırçalama fırçalamam fırçalamaya fırçalamayı fırçalar fırçalarken fırçalarım fırçalayacağım fırçalayın fırçalayıp fırçalıyor fırçalıyordum fırçalıyorsun fırçalıyorum
+54	7154	selami	
+55	7155	dino	
+56	7156	önerge	önergesi önergeyi
+57	7157	yasamak	yasama yasamaya yasar yasasın yasaya yasayacak yasayan
+58	7158	hazel	
+59	7159	tüzük	tüzüğe tüzüğü tüzüğüne
+60	7160	bandaj	bandaja bandajla bandajlar bandajları bandajlarını bandajlı bandajı bandajın bandajını
+61	7161	dink	dink'in dinkler
+62	7162	gökyüz	gökyüzündeki gökyüzüyle
+63	7163	derman	dermanı dermanım
+64	7164	gergedan	gergedanlar gergedanları gergedanların gergedanı gergedanın
+65	7165	zalimce	
+66	7166	piksel	
+67	7167	yüzücü	yüzücüler yüzücüsü yüzücüsün yüzücüydü yüzücüyüm
+68	7168	garnizon	garnizona garnizonda garnizondan garnizonu garnizonun
+69	7169	rupi	rupilik rupiye rupiyi
+70	7170	cip	cipe cipi cipim cipin cipini ciple cipte cipten
+71	7171	çekingen	çekingendi çekingendir çekingensin
+72	7172	ahlaklı	
+73	7173	bambu	bambudan
+74	7174	sapkın	sapkınca sapkınlar
+75	7175	kuluçka	kuluçkadan kuluçkaya
+76	7176	jaguar	jaguarlar jaguarı
+77	7177	metalik	
+78	7178	anarşist	anarşistler anarşistleri anarşistlerin
+79	7179	güvensizlik	güvensizliği güvensizliğin güvensizliğini
+80	7180	solumak	solu soludu soludum soluduğu soluduğum soluduğumuz soluma solumaktan soluması solumaya solumayı solumuş solur soluyan soluyarak soluyor soluyordu soluyorlar soluyorsun soluyorum soluyoruz soluyup
+81	7181	tarihçe	tarihçesi tarihçesini
+82	7182	spekülasyon	spekülasyona spekülasyondan spekülasyonlar spekülasyonlara spekülasyonları spekülasyonu
+83	7183	neşter	neşteri neşterle
+84	7184	beyanname	beyannamesi beyannameyi
+85	7185	taahhüt	taahhüdü taahhütte
+86	7186	periyot	periyodu periyotta
+87	7187	alfabetik	
+88	7188	asli	
+89	7189	bulandırıcı	bulandırıcıydı
+90	7190	mecnun	
+91	7191	vilayet	vilayeti vilayetin vilayetinde vilayette
+92	7192	hiçlik	hiçlikte hiçlikten hiçliğe hiçliği hiçliğin
+93	7193	step	
+94	7194	neşet	
+95	7195	döküntü	döküntüler döküntüleri döküntünün döküntüsü döküntüye döküntüyü
+96	7196	kramp	kramplar krampları krampı
+97	7197	ıra	ıran
+98	7198	sevdalı	sevdalıları sevdalısı
+99	7199	ezici	eziciler
+100	7200	abluka	ablukası ablukaya ablukayı

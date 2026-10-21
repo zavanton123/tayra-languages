@@ -1,0 +1,100 @@
+1	4301	shakespeare	
+2	4302	optik	optikler
+3	4303	itici	iticiler iticilere iticileri iticilerini
+4	4304	kaplama	kaplamada kaplamadan kaplamalar kaplamaları kaplamam kaplamanın kaplaması kaplamasına kaplamasını kaplamaya kaplamayı
+5	4305	kulaklık	kulaklıkla kulaklıklar kulaklıkları kulaklıklarımı kulaklıklarını kulaklıklı kulaklıktan kulaklığı kulaklığım kulaklığımı kulaklığın kulaklığını
+6	4306	vites	vitese vitesi vitesli viteste vitesten
+7	4307	magazin	
+8	4308	insanoğul	insanoğluna insanoğlundan insanoğlunu insanoğlunun
+9	4309	dalış	dalışa dalışta dalıştan dalışı dalışına dalışını
+10	4310	hah	
+11	4311	us	usa ustan usun
+12	4312	çakır	çakır'ın
+13	4313	hükümdar	hükümdara hükümdarlar hükümdarları hükümdarların hükümdarı hükümdarım hükümdarımız hükümdarın hükümdarının hükümdarıyım
+14	4314	nikah	nikaha nikahta nikahtan nikahı nikahın nikahına nikahını
+15	4315	kılavuz	kılavuza kılavuzda kılavuzlar kılavuzları kılavuzu kılavuzum kılavuzumuz kılavuzun kılavuzuna kılavuzunda kılavuzunu
+16	4316	velet	velede veledi veledin veleti veletin veletle veletler veletlerden veletlere veletleri veletlerin veletlerle
+17	4317	rosa	
+18	4318	yapısal	
+19	4319	batılı	batılılar batılıların
+20	4320	trajedi	trajedide trajediden trajedidir trajediler trajedileri trajedilerin trajedinin trajedisi trajedisini trajediydi trajediye trajediyi trajediyle
+21	4321	hamilelik	hamilelikle hamilelikte hamilelikten hamileliğe hamileliği hamileliğim hamileliğimi hamileliğin hamileliğinde hamileliğini hamileliğinin
+22	4322	sav	sava savası savı savını
+23	4323	trajik	trajikti
+24	4324	like	
+25	4325	pezevenk	pezevenge pezevengi pezevengim pezevengin pezevengini pezevenkle pezevenkler pezevenkleri pezevenklerin pezevenksin
+26	4326	fert	ferdi ferdini fertleri fertlerini fertlerinin
+27	4327	inkâr	
+28	4328	pasifik	pasifik'te pasifikte pasifiğe pasifiğin
+29	4329	namus	namuslu namusu namusum namusumu namusun namusuna namusunu
+30	4330	cahil	cahili cahilim cahilin cahiller cahilsin
+31	4331	tuğla	tuğladan tuğlalar tuğlalardan tuğlaları tuğlaların tuğlalı tuğlaya tuğlayla tuğlayı
+32	4332	santim	santimden santime santimi santimini santimle santimlik
+33	4333	ekselans	ekselansları ekselanslarına ekselanslarını ekselanslarının
+34	4334	levha	levhada levhalar levhaları levhalarını levhanın levhası levhasına levhasını levhasının levhaya levhayı
+35	4335	konsept	konsepte konsepti konseptin konseptine konseptini
+36	4336	çiş	çişe çişi çişim çişimi çişin çişini çişinin çişli
+37	4337	parazit	parazite paraziti parazitin parazitle parazitlenme parazitler parazitlerden parazitlere parazitleri parazitlerin parazitten parazittir
+38	4338	caz	caza cazcı cazdan cazı cazın
+39	4339	tedirgin	tedirgindi tedirgindim tedirginim tedirginlik tedirginsin
+40	4340	kriter	kriteri kriterler kriterlere kriterleri kriterlerine kriterlerini
+41	4341	çatal	çatala çatalla çatallar çatalları çatalı çatalım çatalımı çatalın çatalına çatalını çatalıyla
+42	4342	vardiya	vardiyada vardiyadan vardiyalar vardiyalarla vardiyaları vardiyalarını vardiyalı vardiyamı vardiyamız vardiyan vardiyanın vardiyası vardiyasına vardiyasında vardiyasından vardiyasını vardiyasının vardiyaya vardiyayı
+43	4343	kovan	kovana kovanda kovandaki kovandan kovanlar kovanlara kovanları kovanların kovanlarını kovanı kovanın kovanına kovanında kovanından kovanını kovanının
+44	4344	dem	demi demlerini demli
+45	4345	azim	azimle azmi azmimi azmin azmine azmini azminiz
+46	4346	mel	
+47	4347	kıskanç	kıskancım kıskançlıkla kıskançlığım kıskançlığından kıskançlığını kıskançsın kıskançtı kıskançtım kıskançtır
+48	4348	örgü	örgüden örgüler örgüleri örgülerin örgülü örgün örgünün örgüsü örgüsünü örgüye örgüyü
+49	4349	ayrımcılık	ayrımcılığa ayrımcılığı ayrımcılığın
+50	4350	ruhsat	ruhsata ruhsatları ruhsatlı ruhsatsız ruhsatı ruhsatım ruhsatımı ruhsatımız ruhsatın ruhsatını ruhsatınız ruhsatınızı
+51	4351	amber	amberle
+52	4352	leş	leşi leşin leşini leşler leşleri leşten leşçi
+53	4353	obje	objeler objelere objeleri objelerin objelerle objenin objesi objeye objeyi objeyle
+54	4354	kurmay	kurmaya kurmayı kurmayın
+55	4355	çıtır	çıtırlar çıtırları çıtırı çıtırın
+56	4356	sosis	sosise sosisi sosisim sosisimi sosisin sosisini sosisle sosisler sosislerden sosislere sosisleri sosislerin sosislerini sosisten
+57	4357	yanlı	yanlıları yanlısı yanlısıyım
+58	4358	okuyucu	okuyucular okuyuculara okuyucuları okuyucularım okuyucularımız okuyucuların okuyucunun okuyucusu okuyucuya okuyucuyu
+59	4359	ıssız	
+60	4360	ego	egoları egolarını egom egoma egomu egomun egon egona egonu egonun egosu egosuna egosunu egosunun egoya egoyu
+61	4361	akil	akilli ukala ukalalar ukalanın ukalasın
+62	4362	doymak	doya doyacak doyamıyor doyamıyorum doyana doyar doydu doydum doydun doymadın doymamış doymaz doymuyor doysun doyuyor
+63	4363	tanınmış	
+64	4364	geçersiz	geçersizdir
+65	4365	kuşku	kuşkular kuşkuları kuşkularım kuşkularımı kuşkuların kuşkularını kuşkulu kuşkuluyum kuşkum kuşkun kuşkunuz kuşkusu kuşkuya kuşkuyla
+66	4366	mülakat	mülakata mülakatlar mülakatları mülakatta mülakattan mülakatı mülakatım mülakatın mülakatına mülâkat
+67	4367	koma	komada komadaki komadan komadaydı komadaydım komadaydın komadayken komadaymış komadayım komanın komasına
+68	4368	fantastik	
+69	4369	amcık	amcıklar amcıkları amcığa amcığı amcığın
+70	4370	merhum	merhuma merhumla merhumu merhumun
+71	4371	bosna	bosna'da
+72	4372	dramatik	dramatikleştirme dramatikti
+73	4373	batarya	bataryalar bataryalara bataryaları bataryaların bataryalarını bataryanın bataryası bataryasını bataryaya bataryayı
+74	4374	kumarhane	kumarhanede kumarhanedeki kumarhaneden kumarhaneler kumarhanelerde kumarhanelerden kumarhanelere kumarhaneleri kumarhanelerin kumarhanenin kumarhanesi kumarhanesinde kumarhanesinden kumarhanesine kumarhanesini kumarhanesinin kumarhaneye kumarhaneyi
+75	4375	iskelet	iskelete iskeleti iskeletin iskeletini iskeletinin iskeletle iskeletler iskeletleri
+76	4376	çevrili	çevrilidir çevriliydi çevriliyken
+77	4377	rehabilitasyon	rehabilitasyona rehabilitasyonda rehabilitasyondan rehabilitasyonu rehabilitasyonun
+78	4378	töre	törende törenden törene töreni törenin
+79	4379	içgüdü	içgüdüdür içgüdüler içgüdülere içgüdüleri içgüdülerim içgüdülerime içgüdülerimi içgüdülerimle içgüdülerin içgüdülerinden içgüdülerine içgüdülerini içgüdülerinin içgüdüleriniz içgüdülerinle içgüdüleriyle içgüdüm içgüdün içgüdünü içgüdünün içgüdüsü içgüdüsüne içgüdüsünü içgüdüsüyle içgüdüye içgüdüyle
+80	4380	joel	
+81	4381	branş	branşlar branşlarda branşları branşlarında branşta branşı branşım branşın branşında
+82	4382	milliyetçilik	milliyetçiliği milliyetçiliğin milliyetçiliğinin
+83	4383	hızlanmak	hızlan hızlanabilir hızlanacak hızlanalım hızlanan hızlanarak hızlandı hızlandıkça hızlanma hızlanmalıyız hızlanmaya hızlanmış hızlansan hızlanın hızlanıp hızlanır hızlanıyor hızlanıyorlar hızlanıyorum hızlanıyoruz
+84	4384	akis	aksime aksini aksinize
+85	4385	seminer	seminerde seminerden seminere semineri seminerim seminerin seminerinde seminerine seminerler seminerlere seminerleri
+86	4386	taşıt	taşıtlar taşıtları taşıtı taşıtın
+87	4387	ilkbahar	ilkbahara ilkbaharda ilkbaharı ilkbaharın ilkbaharında
+88	4388	kolaylıkla	
+89	4389	çam	çamlar çamların çamı
+90	4390	kasırga	kasırgada kasırgadan kasırgalar kasırgaları kasırgaların kasırganın kasırgası kasırgasından kasırgaya kasırgayı
+91	4391	tekstil	
+92	4392	tarımsal	
+93	4393	dekan	dekana dekanla dekanlığı dekanı dekanın
+94	4394	gülünç	gülünçsün gülünçtü
+95	4395	coşkun	
+96	4396	kombin	kombine kombini
+97	4397	garcia	
+98	4398	yoga	yogacı yogada yogadan yoganın yogası yogaya yogayı
+99	4399	ruj	ruja rujla ruju rujum rujumu rujun rujunu
+100	4400	çarşaf	çarşafa çarşafla çarşaflar çarşaflara çarşaflarda çarşaflardan çarşaflarla çarşafları çarşaflarım çarşaflarımı çarşafların çarşaflarını çarşafta çarşafı çarşafım çarşafın çarşafını

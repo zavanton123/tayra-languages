@@ -1,0 +1,100 @@
+1	3501	neil	
+2	3502	yaban	yabana yabanda
+3	3503	balina	balinadan balinalar balinalara balinalardan balinalarla balinaları balinaların balinam balinanın balinası balinaya balinayla balinayı
+4	3504	ihmal	ihmalden ihmali
+5	3505	sirk	sirke sirkesi sirkeye sirkeyle sirki sirkin sirkinde sirkine sirkini sirkinin sirkle sirkler sirkte sirkteki sirkten
+6	3506	sözlük	sözlükler sözlükte sözlükten sözlüğe sözlüğü sözlüğümde sözlüğümü sözlüğün sözlüğünde
+7	3507	kesik	kesikle kesikler kesiklerden kesiklere kesikleri kesiklerin kesikten kesikti kesiğe kesiği kesiğin
+8	3508	tipik	
+9	3509	jandarma	jandarmalar jandarmaya jandarmayı
+10	3510	parfüm	parfümden parfüme parfümler parfümleri parfümlü parfümü parfümüm parfümümü parfümün parfümünden parfümünü parfümünün
+11	3511	çoban	çobana çobanlar çobanları çobanların çobanı çobanım çobanın
+12	3512	kırsal	kırsala kırsalda kırsalı kırsalında
+13	3513	karl	
+14	3514	yoksul	yoksullar yoksullara yoksulları yoksulların yoksullukla
+15	3515	rastgele	
+16	3516	tercüme	tercümesi tercümesini
+17	3517	erik	erikler erikli eriği
+18	3518	bağırsak	barsak bağırsaklar bağırsaklara bağırsakları bağırsaklarım bağırsaklarıma bağırsaklarımda bağırsaklarımı bağırsakların bağırsaklarına bağırsaklarında bağırsaklarından bağırsaklarını bağırsaklarının bağırsaklarınız bağırsaklarınızı bağırsakta bağırsağa bağırsağı bağırsağın bağırsağına bağırsağında bağırsağından bağırsağını bağırsağının
+19	3519	kiraz	kirazlar kirazları kirazlı kirazı
+20	3520	uçurum	uçuruma uçurumda uçurumdan uçurumlar uçurumlara uçurumları uçurumu uçurumun
+21	3521	sakız	sakıza sakızdan sakızla sakızlar sakızları sakızı sakızım sakızımı sakızın sakızını
+22	3522	sertifika	sertifikalar sertifikaları sertifikalı sertifikam sertifikamı sertifikan sertifikanı sertifikası sertifikasını sertifikayı
+23	3523	arıza	arızadan arızalar arızaları arızalı arızalıydı arızanın arızası arızaya arızayı
+24	3524	oyunculuk	oyunculukta oyunculuktan oyunculuğa oyunculuğu oyunculuğun
+25	3525	hatır	hatırda hatırlar hatırlarım hatırı hatırım hatırıma hatırımda hatırımı hatırın hatırına hatırında hatırını
+26	3526	işsizlik	işsizliğe işsizliği işsizliğin
+27	3527	kaçınılmaz	kaçınılmazdı kaçınılmazdır kaçınılmazı
+28	3528	ilhan	ilhan'ın
+29	3529	takdim	takdimi
+30	3530	kesici	kesiciler kesicilerden kesicilere kesicileri kesicilerin kesicilerle kesicin kesicinin kesicisi kesiciydi kesiciye kesiciyi kesiciyle
+31	3531	yenileme	yenilemem yenilememiz yenilemen yenilemenin yenilemesi yenilemeye yenilemeyi
+32	3532	etik	etiğe etiği etiğin etiğine etiğini
+33	3533	merkezli	
+34	3534	krem	kreme kremi kremim kremimi kremin kreminden kremine kremini kreminin kremiyle kremle kremler kremleri kremli
+35	3535	aksu	aksu'nun
+36	3536	şöhret	şöhrete şöhreti şöhretim şöhretimi şöhretimiz şöhretin şöhretinden şöhretine şöhretini şöhretinin şöhretiniz şöhretinizi şöhretle şöhretler şöhretleri şöhretten
+37	3537	ispat	ispatlar ispatlarım ispatı ispatıdır ispatını
+38	3538	çan	çana çandır çanlar çanları çanların çanlarını çanlarının çanı çanın çanına çanını
+39	3539	patlayıcı	patlayıcıdır
+40	3540	varsaymak	varsay varsayabilir varsayabilirim varsayabiliriz varsayacağım varsayacağız varsayalım varsayar varsayarak varsayarsak varsaydı varsaydık varsaydım varsaydın varsaymalıyız varsaymıştım varsaysak varsayın varsayıp varsayıyor varsayıyordum varsayıyorsun varsayıyorsunuz varsayıyorum varsayıyoruz
+41	3541	yararlı	
+42	3542	tv	tv'de tv'deki tv'den
+43	3543	norman	normanlar
+44	3544	düşkün	düşkündü düşkündüm düşkündür düşkünler düşkünleri düşkünlük düşkünlüğü düşkünlüğüm düşkünlüğün düşkünlüğünü düşkünmüş düşkünsün düşkünsünüz düşkünü düşkünüm düşkünümdür düşkünüyüm
+45	3545	padişah	padişaha padişahlar padişahları padişahların padişahı padişahın
+46	3546	tutum	tutuma tutumla tutumlar tutumları tutumlarını tutumu tutumum tutumumu tutumun tutumuna tutumundan tutumunu tutumunun tutumunuz tutumunuzu
+47	3547	zayıflamak	zayıfladı zayıfladım zayıfladın zayıflama zayıflaması zayıflamaya zayıflamış zayıflamışsın zayıflar zayıflayacak zayıflayan zayıflayıp zayıflıyor zayıflıyorum
+48	3548	müsabaka	müsabakada müsabakadan müsabakalar müsabakalara müsabakalarda müsabakaları müsabakalarına müsabakalarında müsabakamız müsabakanın müsabakası müsabakasına müsabakasında müsabakasını müsabakaya müsabakayı
+49	3549	editör	editöre editörle editörler editörleri editörü editörüm editörüme editörümü editörümüz editörün editörüne editörünü editörünün editörüyle editörüyüm
+50	3550	gizlilik	gizliliği
+51	3551	ördek	ördekle ördekler ördeklere ördekleri ördeklerin ördekli ördekten ördekçik ördeğe ördeği ördeğim ördeğin ördeğini
+52	3552	görgü	görgülü
+53	3553	saatlerce	
+54	3554	iskele	iskelede iskeledeki iskeleden iskelenin iskelesi iskelesinde iskelesinden iskelesine iskeleye iskeleyi
+55	3555	solucan	solucana solucanla solucanlar solucanlara solucanlardan solucanlarla solucanları solucanların solucanı solucanın
+56	3556	tazminat	tazminatla tazminatları tazminatı tazminatımı tazminatın tazminatını
+57	3557	bakıcı	bakıcıdan bakıcılar bakıcıları bakıcıların bakıcım bakıcımız bakıcın bakıcının bakıcınız bakıcısı bakıcısına bakıcısını bakıcısının bakıcıya bakıcıyı bakıcıyım
+58	3558	gabriel	
+59	3559	güneydoğu	güneydoğu'da güneydoğuda güneydoğudan güneydoğusunda güneydoğuya
+60	3560	yöre	yörede yöredeki yörelerde yörenin yöresi yöresinde yöresine yöreye
+61	3561	boşalmak	boşal boşalacak boşalacağım boşalan boşalana boşaldı boşaldıktan boşaldım boşaldın boşaldığı boşaldığında boşaldığını boşalmadım boşalmaya boşalmaz boşalmış boşalmıştı boşalsın boşalınca boşalıp boşalır boşalırcasına boşalırken boşalırsa boşalıyor boşalıyorum
+62	3562	ihsan	
+63	3563	karınca	karıncadan karıncalar karıncalara karıncalardan karıncalarla karıncaları karıncaların karıncanın karıncası karıncaya karıncayı
+64	3564	soyunmak	soyun soyuna soyunacak soyunacağım soyunalım soyunan soyunayım soyundu soyundum soyundun soyunma soyunmam soyunmamı soyunmanı soyunması soyunmasını soyunmaya soyunmuş soyunsun soyunun soyunup soyunur soyunurken soyunuyor soyunuyorsun soyunuyorum
+65	3565	mühür	mührü mührün mührünü mührünün mühürden mühürle mühürledi mühürledik mühürlediler mühürledim mühürleme mühürlemek mühürlemiş mühürlendi mühürlenecek mühürlenir mühürlenmiş mühürlenmişti mühürler mühürleri mühürleyeceğim mühürleyelim mühürleyin mühürleyip
+66	3566	kovalamak	kovala kovaladı kovaladık kovaladılar kovaladım kovaladın kovaladığı kovaladığım kovaladığımız kovaladığın kovaladığını kovalama kovalamakla kovalamaktan kovalaması kovalamaya kovalamayı kovalamış kovalamıştı kovalanan kovalandım kovalar kovalarken kovalarlar kovalarım kovalayacak kovalayacağım kovalayan kovalayarak kovalayıp kovalıyor kovalıyordu kovalıyordum kovalıyordun kovalıyorlar kovalıyormuş kovalıyorsun kovalıyorum kovalıyoruz
+67	3567	yenilgi	yenilgiden yenilgiler yenilginin yenilgisi yenilgisinden yenilgisini yenilgisiz yenilgiye yenilgiyi yenilgiyle
+68	3568	tarafsız	
+69	3569	kaşık	kaşıklar kaşıkları kaşıkta kaşığa kaşığı kaşığım kaşığımı kaşığın kaşığını kaşığıyla
+70	3570	cisim	cisimle cisimler cisimlere cisimleri cisimlerin cisme cismi cismin
+71	3571	diyar	diyara diyarda diyardaki diyardan diyarlar diyarlara diyarlarda diyarlardaki diyarlardan diyarları diyarların diyarı diyarın diyarına diyarında diyarındaki diyarından diyarını diyarının
+72	3572	adliye	adliyede adliyedeki adliyeden adliyenin adliyesi adliyesi'nde adliyeye
+73	3573	dansçı	dansçıdır dansçılar dansçılara dansçılardan dansçılarla dansçıları dansçıların dansçının dansçısı dansçısın dansçıya dansçıydı dansçıyla dansçıymış dansçıyı dansçıyım
+74	3574	düzine	düzineden düzinelerce düzinesi düzineye
+75	3575	kayak	kayakla kayaklar kayakları kayakta kayağa kayağı
+76	3576	bellek	bellekte bellekten belleğe belleği belleğim belleğin belleğinde belleğine belleğini
+77	3577	sayısız	
+78	3578	atölye	atölyede atölyeden atölyeler atölyeleri atölyem atölyemde atölyeme atölyemi atölyenin atölyesi atölyesinde atölyesine atölyesini atölyesinin atölyeye atölyeyi
+79	3579	avlamak	avla avladı avladık avladıkları avladılar avladım avladın avladınız avladığı avladığımız avlama avlamam avlamaya avlamış avlanmayı avlar avlarken avlarlar avlayabilir avlayabiliriz avlayacak avlayacaklar avlayacaksın avlayacağım avlayacağız avlayalım avlayan avlayarak avlayın avlayıp avlıyor avlıyordu avlıyorduk avlıyordum avlıyorlar avlıyorsun avlıyorsunuz avlıyorum avlıyoruz
+80	3580	soğan	soğana soğandan soğanla soğanlar soğanları soğanların soğansız soğanı soğanın
+81	3581	umutsuz	umutsuzdu umutsuzdum umutsuzlar umutsuzsun umutsuzum
+82	3582	soykırım	soykırıma soykırımcı soykırımdan soykırımı soykırımın
+83	3583	leonard	
+84	3584	mama	mamaları mamalarını maman mamanı maması mamasına mamasından mamasını mamasıyla mamayı
+85	3585	örtmek	ört örtebilir örtecek örteceğim örtelim örten örter örterek örterim örteyim örtme örtmesi örtmeye örtmeyi örtmüş örttü örttük örttüler örttüm örttün örtüldü örtülmüş örtün örtüp örtüyor
+86	3586	bileşen	bileşeni bileşenin bileşenini bileşenler bileşenleri bileşenlerin bileşenlerine bileşenlerini bileşenlerinin
+87	3587	ağırlıklı	
+88	3588	bildirim	bildirimde bildirimi bildiriminde bildirimler bildirimleri
+89	3589	kurbağa	kurbağadan kurbağalar kurbağalara kurbağalardan kurbağalarla kurbağaları kurbağaların kurbağam kurbağanın kurbağası kurbağasın kurbağaya kurbağayla kurbağayı
+90	3590	fetih	fethi fethinden
+91	3591	tr	
+92	3592	sakal	sakala sakaldan sakalla sakallar sakalları sakallarım sakalların sakallarını sakalı sakalım sakalımı sakalın sakalına sakalında sakalından sakalını sakalının sakalıyla
+93	3593	rektör	rektörler rektörü rektörümüz rektörün
+94	3594	ziya	
+95	3595	pompa	pompacı pompadan pompalar pompaları pompaların pompalı pompalıyla pompalıyı pompanın pompası pompasına pompasını pompasının pompaya pompayla pompayı
+96	3596	izlenim	izlenime izlenimi izlenimim izlenimin izlenimine izlenimini izlenimler izlenimleri izlenimlerin izlenimlerini
+97	3597	çabucak	
+98	3598	vuruşmak	vuruş vuruşa vuruşluk vuruştu vuruşun vuruşçu
+99	3599	yalçın	yalçın'ın
+100	3600	başlı	

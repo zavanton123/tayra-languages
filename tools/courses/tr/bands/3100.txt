@@ -1,0 +1,100 @@
+1	3001	yormak	yor yoracak yoracağım yoran yorar yorayım yordu yorduk yordum yordun yorduğum yorma yormadan yormadım yormam yormamalısın yormana yormaya yormayı yormayın yormaz yormuş yormuşsun yormuştur yorsun yorulana yorulduğumda yorulduğumu yorulduğunda yorulduğunu yorulmadan yorulmuşsundur yorulmuşsunuzdur yorulmuştur yorup yoruyor yoruyorsun yoruyorsunuz yoruyorum
+2	3002	dolanmak	dolan dolana dolanacak dolanacağım dolanacağız dolanalım dolanan dolanarak dolanayım dolandı dolandım dolandın dolandırmadan dolandırmayı dolandığı dolandığını dolanma dolanmaya dolanmayı dolanmayın dolanmış dolanmıştı dolanın dolanıp dolanır dolanırdı dolanırken dolanırlar dolanırım dolanıyor dolanıyordu dolanıyordum dolanıyordun dolanıyorlar dolanıyormuş dolanıyorsun dolanıyorsunuz dolanıyorum dolanıyoruz
+3	3003	çarpış	çarpışacak çarpışacaklar çarpışacağız çarpışan çarpışarak çarpışma çarpışmada çarpışmadan çarpışmalar çarpışmaları çarpışmaların çarpışmanın çarpışması çarpışmasını çarpışmaya çarpışmayla çarpışmayı çarpışmış çarpıştı çarpıştık çarpıştılar çarpıştım çarpıştırıcı çarpıştırıcısı çarpıştığı çarpıştığında çarpışıp çarpışırken çarpışıyor
+4	3004	komedi	komedide komediden komediler komedileri komedinin komedisi komediydi komediye komediyi
+5	3005	mason	masonlar masonların
+6	3006	direniş	direnişi
+7	3007	aşı	aşıdan aşılar aşılardan aşıları aşıların aşılarını aşımı aşımına aşın aşına aşınmalar aşınması aşının aşısı aşısını aşısının aşıya aşıyla aşıyı
+8	3008	duyuru	duyuruda duyurudan duyurudur duyurular duyuruları duyurularını duyurum duyurumuz duyurun duyurusu duyurusunda duyurusunu duyuruya duyuruyu
+9	3009	yalnızlık	yalnızlıkta yalnızlıktan yalnızlığa yalnızlığı yalnızlığım yalnızlığımı yalnızlığımın yalnızlığın yalnızlığına yalnızlığından yalnızlığını yalnızlığının
+10	3010	prensip	prensibe prensibi prensibidir prensibim prensibimiz prensibin prensibine prensibini prensipler prensiplerden prensiplere prensipleri prensiplerim prensiplerime prensiplerimi prensiplerimiz prensiplerin prensiplerinden prensiplerine prensiplerini prensiplerle prensipli prensipte
+11	3011	veli	veli'nin veliler velilerden velilere velileri velilerin velinin velisi
+12	3012	insani	insanin
+13	3013	kusmak	kus kusabilirim kusacak kusacakmış kusacaksın kusacaktım kusacağım kusan kusana kusar kusarak kusarken kusarsan kusarsın kusarım kusasım kusmadım kusmaktan kusmam kusmaya kusmuş kusmuştu kusmuştum kusmuştun kustu kustuktan kustum kustun kusturacak kustuğu kustuğum kustuğun kustuğunu kusup kusuyor kusuyordu kusuyordum kusuyorsun kusuyorum
+14	3014	mülk	mülke mülkle mülkler mülklere mülkleri mülklerin mülklerine mülklerini mülklerinin mülkte mülkten mülktür mülkü mülküm mülkümde mülkümden mülküme mülkümü mülkümün mülkümüz mülkün mülkünde mülkünden mülküne mülkünü mülkünün mülkünüz mülkünüzde mülkünüzü
+15	3015	kolej	kolejde kolejdeki kolejden kolejdeyken koleje koleji koleji'nde kolejin kolejinde kolejinden kolejine kolejinin
+16	3016	değişken	değişkendir değişkeni değişkenin değişkenler değişkenleri değişkenlerin değişkenlik
+17	3017	zehirli	
+18	3018	çatlak	çatlakla çatlaklar çatlaklara çatlaklardan çatlaklarla çatlakları çatlakların çatlaksın çatlaktan çatlaktı çatlaktır çatlağa çatlağı çatlağın
+19	3019	besin	besinci besine besini besinin besinler besinleri besinlerin besinlerle
+20	3020	frekans	frekansa frekanslar frekanslarda frekanslardan frekansları frekanslarını frekanslı frekansta frekanstan frekansı frekansın frekansına frekansında frekansından frekansını
+21	3021	kristal	kristalden kristale kristali kristalin kristalini kristalle kristaller kristallere kristalleri kristallerin kristallerini kristallerle
+22	3022	portakal	portakala portakallar portakalları portakalı portakalın
+23	3023	karşılaştırmak	karşılaştır karşılaştırabilir karşılaştırabilirim karşılaştırabiliriz karşılaştıracak karşılaştıracağım karşılaştıracağız karşılaştıralım karşılaştıramazsın karşılaştırarak karşılaştırdı karşılaştırdık karşılaştırdım karşılaştırdın karşılaştırdınız karşılaştırma karşılaştırmalı karşılaştırmam karşılaştırmaya karşılaştırıldığında karşılaştırın karşılaştırınca karşılaştırıp karşılaştırır karşılaştırırsak karşılaştırırız karşılaştırıyor karşılaştırıyorsun karşılaştırıyorum karşılaştırıyoruz
+24	3024	işletim	
+25	3025	ıslak	ıslakken ıslaksın ıslaktı ıslaktır ıslağım
+26	3026	fazladan	
+27	3027	kömür	kömürde kömürden kömüre kömürle kömürler kömürleri kömürleşmiş kömürlükte kömürü kömürün
+28	3028	vesile	vesilesi vesilesiyle vesileyle
+29	3029	konak	konaklar konakları konakta konaktaki konaktan konağa konağı konağın konağına konağında konağından konağını konağının
+30	3030	şükran	şükranla şükranlarımı şükranlarımızı şükranlarını
+31	3031	partner	partnere partneri partnerim partnerime partnerimi partnerimin partnerimle partnerin partnerine partnerini partnerinin partneriniz partnerinize partnerinizi partnerinizin partnerinizle partnerinle partneriyle partneriz partnerle partnerler partnerleri
+32	3032	mağdur	mağdurlar mağdurlara mağdurları mağdurların mağdurlarına mağduru mağdurum mağdurun
+33	3033	uyumlu	
+34	3034	sendrom	sendromlu sendromu sendromum sendromun sendromuna sendromundan sendromunu sendromunun
+35	3035	komplo	komploda komplodan komplodur komplolar komploları komplonun komplosu komplosuna komplosunu komplosunun komploya komploydu komployla komployu
+36	3036	carlos	carlos'un
+37	3037	departman	departmana departmanda departmandaki departmandan departmanlar departmanları departmanı departmanım departmanımın departmanımız departmanımızın departmanın departmanına departmanında departmanındaki departmanından departmanını departmanının departmanınız departmanıyla
+38	3038	ortaklık	ortaklıklar ortaklıkları ortaklıkta ortaklıktan ortaklığa ortaklığı ortaklığımız ortaklığımıza ortaklığımızı ortaklığımızın ortaklığın ortaklığına ortaklığında ortaklığından ortaklığını ortaklığının ortaklığıyla
+39	3039	ideal	idealdir ideali idealin idealler ideallere idealleri ideallerim ideallerin ideallerine ideallerini
+40	3040	uzamak	uza uzadı uzadıkça uzadım uzadın uzadığı uzama uzamadı uzamaya uzamaz uzamış uzamışsın uzar uzarsa uzasın uzatıldı uzaya uzayabilir uzayacak uzayalım uzayan uzayın uzayıp uzuyor
+41	3041	antrenman	antrenmana antrenmanda antrenmandan antrenmandı antrenmanlar antrenmanlara antrenmanlarda antrenmanları antrenmanlarına antrenmanlarını antrenmanı antrenmanım antrenmanın antrenmanına antrenmanında antrenmanından antrenmanını
+42	3042	egemen	egemenliğine egemenliğini egemenliğinin
+43	3043	dere	derede dereden dereler dereleri derenin deresi dereye dereyi
+44	3044	slogan	slogana sloganlar sloganları sloganı sloganım sloganımız sloganımızı sloganın sloganını sloganıyla
+45	3045	böylesine	
+46	3046	felç	felce felci felcin felcine felçli felçten
+47	3047	ekipman	ekipmana ekipmanla ekipmanlar ekipmanlara ekipmanlarla ekipmanları ekipmanlarım ekipmanlarımı ekipmanlarımız ekipmanlarımızı ekipmanların ekipmanlarına ekipmanlarını ekipmanlarınızı ekipmanı ekipmanım ekipmanımı ekipmanımız ekipmanın ekipmanına ekipmanını
+48	3048	apartman	apartmana apartmanda apartmandaki apartmandan apartmanlar apartmanlara apartmanlarda apartmanları apartmanı apartmanım apartmanımda apartmanımın apartmanın apartmanına apartmanında apartmanındaki apartmanından apartmanını apartmanının
+49	3049	gecelik	gecelikler gecelikti geceliği geceliğim geceliğimi geceliğin geceliğine geceliğini
+50	3050	gözetim	gözetimde gözetimden gözetime gözetimi gözetimim gözetimimde gözetimime gözetimimiz gözetimimizde gözetimin gözetiminde gözetimindeki gözetiminden gözetimindeyken gözetimine gözetimini gözetiminiz gözetiminizde gözetimsiz
+51	3051	nice	nicedir niceleri
+52	3052	icra	icrası
+53	3053	taki	
+54	3054	mülteci	mülteciler mültecilerden mültecilere mültecileri mültecilerin mültecilerle mülteciyi
+55	3055	tuş	tuşa tuşla tuşlar tuşlara tuşları tuşların tuşlarına tuşlayın tuşlayınız tuşu tuşuna tuşunu
+56	3056	sahiden	
+57	3057	yapımcı	yapımcılar yapımcılara yapımcılardan yapımcıları yapımcıların yapımcılarına yapımcılarından yapımcılarının yapımcım yapımcımız yapımcın yapımcının yapımcısı yapımcısın yapımcısına yapımcısını yapımcısının yapımcıya yapımcıyı yapımcıyım
+58	3058	kuyu	kuyuda kuyudaki kuyudan kuyular kuyulara kuyuları kuyularına kuyularında kuyularını kuyumu kuyunu kuyunun kuyusu kuyusuna kuyusunda kuyusundan kuyusunu kuyusunun kuyuya kuyuyu
+59	3059	duyarlı	duyarlıdır duyarlılar duyarlılık duyarlılığı duyarlılığın duyarlılığına duyarlılığını duyarlısın duyarlıyım
+60	3060	etkisiz	
+61	3061	kargo	kargoda kargolar kargoları kargonun kargonuz kargosu kargoya kargoyla kargoyu
+62	3062	mekanizma	mekanizmalar mekanizmaları mekanizmalarını mekanizmanın mekanizması mekanizmasıdır mekanizmasına mekanizmasında mekanizmasını mekanizmasının mekanizmaya mekanizmayı
+63	3063	yaymak	yayabilir yayabiliriz yayacak yayacağım yayacağız yayalar yayalım yayan yayar yayarak yayarlar yayarım yayarız yaydı yaydık yaydıkları yaydılar yaydım yaydın yaydığı yaydığın yayma yaymalıyız yaymaya yaymış yayıp yayıyor yayıyordu yayıyorlar yayıyorsun yayıyorsunuz yayıyorum yayıyoruz
+64	3064	başvurmak	başvur başvurabilir başvurabilirim başvurabiliriz başvurabilirsin başvurabilirsiniz başvuracak başvuracaksın başvuracağım başvuracağız başvuralım başvuran başvurarak başvurdu başvurduk başvurdular başvurdum başvurdun başvurdunuz başvurduğu başvurduğum başvurma başvurmadım başvurmalısın başvurmalıyız başvurmam başvurmaya başvurmuş başvurmuştu başvurmuştum başvurulan başvurup başvurur başvururken başvururum başvururuz başvuruyor başvuruyorsun başvuruyorum
+65	3065	bekar	bekardı bekarken bekarlar bekarları bekarların bekarmış bekarsın bekarsınız bekarı bekarım bekarız
+66	3066	taht	tahtta tahttaki tahttan tahtı tahtım tahtıma tahtımı tahtın tahtına tahtında tahtından tahtını tahtının
+67	3067	sığınmak	sığın sığınacak sığınan sığınarak sığındı sığındık sığındım sığındığı sığınma sığınmaya sığınmış sığının sığınıp sığınır sığınırım sığınıyor sığınıyorsun sığınıyorum sığınıyoruz
+68	3068	dayak	dayakla dayaklar dayaktan dayakçı dayağa dayağı dayağın dayağını
+69	3069	şahsen	
+70	3070	burs	bursla burslar bursları burslu burstan bursu bursum bursumu bursuna bursunu bursuyla
+71	3071	özlem	özleme özlemi özlemim özlemin özlemini özlemiyle özlemle
+72	3072	muhalif	muhalifi muhalifler muhaliflere muhalifleri muhaliflerin
+73	3073	mana	manada manası manasına manasında manasını manasıyla manaya
+74	3074	çetin	çetin'in çetindi çetindir
+75	3075	böbrek	böbrekle böbrekler böbreklere böbrekleri böbreklerim böbreklerimi böbreklerin böbreklerinde böbreklerinden böbreklerine böbreklerini böbreklerinin böbrekli böbrekte böbreğe böbreği böbreğim böbreğimi böbreğin böbreğine böbreğini böbreğinin
+76	3076	örtü	örtüler örtüleri örtülerin örtülerini örtüm örtün örtünü örtünün örtüsü örtüsünde örtüsüne örtüsünü örtüsünün örtüsüyle örtüye örtüyle örtüyü
+77	3077	sanık	sanıkla sanıklar sanıklara sanıkları sanıkların sanığa sanığı sanığın
+78	3078	sinek	sinekle sinekler sineklerden sineklere sinekleri sineklerin sineklerle sinekten sineğe sineği sineğin sineğinin
+79	3079	kazanç	kazanca kazancı kazancım kazancımı kazancımın kazancımız kazancımızı kazancın kazancına kazancından kazancını kazancının kazancınız kazançla kazançlar kazançları kazançlarını kazançtan kazançtır
+80	3080	ezik	ezikle ezikler eziklerden eziklere ezikleri eziklerin eziklerle eziksin eziksiniz ezikten ezikti ezikçe eziğe eziği eziğim eziğin
+81	3081	arşiv	arşivci arşivde arşivdeki arşivden arşive arşivi arşivin arşivinde arşivinden arşivine arşivini arşivler arşivlerde arşivlere arşivleri arşivlerinde arşivlerinden arşivlerine arşivlerini
+82	3082	taç	taca tacı tacım tacımı tacın tacına tacını tacının taçla taçlar taçlı
+83	3083	böylelikle	
+84	3084	rüşvet	rüşvete rüşveti rüşvetin rüşvetle rüşvetler rüşvetten
+85	3085	kamuoyu	kamuoyuna kamuoyunda kamuoyundan kamuoyunu kamuoyunun
+86	3086	sı	
+87	3087	eşitlik	eşitliğe eşitliği eşitliğin eşitliğini
+88	3088	verimli	verimlidir verimliydi
+89	3089	sürülmek	sürüldü sürüldüler sürüldüm sürüldün sürüldüğü sürülebilir sürülecek sürülemeyen sürülemez sürülen sürülerek sürülmemiş sürülmez sürülmüş sürülmüştü sürülür sürülüyor
+90	3090	fuar	fuara fuarda fuardaki fuardan fuarı fuarı'nda fuarın fuarına fuarında fuarındaki fuarından fuarını fuarının
+91	3091	sadakat	sadakate sadakati sadakatim sadakatimden sadakatimi sadakatimin sadakatimiz sadakatimizi sadakatin sadakatinden sadakatine sadakatini sadakatinin sadakatiniz sadakatinizi sadakatle sadakatleri sadakatlerini sadakatten sadakattir
+92	3092	özgün	özgünlük özgünüm
+93	3093	başrol	başrolde başroldeki başrollerde başrollerinde başrollerini başrolü başrolünde başrolünü
+94	3094	küfür	küfre küfrü küfürdür küfürler küfürleri küfürlü
+95	3095	şerit	şeride şeridi şeridin şeridinde şeridindeki şeridinden şeridine şeridini şeridinin şeritler şeritlere şeritleri şeritlerini şeritte şeritten
+96	3096	devasa	devasaydı
+97	3097	kaçış	kaçışa kaçışlar kaçışta kaçıştan kaçışı kaçışın
+98	3098	öpüşmek	öpüş öpüşecek öpüşeceğiz öpüşelim öpüşen öpüşme öpüşmeden öpüşmedik öpüşmedim öpüşmekten öpüşmem öpüşmemiz öpüşmemizi öpüşmenin öpüşmesi öpüşmeye öpüşmeyi öpüşmüştük öpüştük öpüştüler öpüştüm öpüştün öpüştünüz öpüştüğümüz öpüştüğümüzde öpüştüğümüzü öpüştüğünü öpüşün öpüşüp öpüşür öpüşürken öpüşürler öpüşüyor öpüşüyordu öpüşüyorduk öpüşüyorlar öpüşüyorlardı öpüşüyorsun öpüşüyoruz
+99	3099	çılgınca	
+100	3100	acıkmak	acık acıkacak acıkan acıkmadım acıkmadın acıkmaya acıkmış acıkmışsın acıkmışsındır acıkmıştı acıkmıştım acıkmıştır acıkmışım acıktı acıktık acıktım acıktın acıktınız acıktıysan acıktığı acıktığım acıktığında acıktığını acıkınca acıkır acıkırsa acıkırsan acıkırsanız acıkırsın acıkırım acıkıyor acıkıyorum

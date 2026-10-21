@@ -1,0 +1,100 @@
+1	3601	endüstriyel	
+2	3602	ilköğretim	
+3	3603	giyim	giyime giyimi giyimin giyimine giyimli
+4	3604	küme	kümede kümeler kümeleri kümelerini kümelerinin kümenin kümesi kümesinde kümesinden kümesine kümesini kümesinin kümeye
+5	3605	övgü	övgüler övgüleri övgülerimi övgülerin övgülerini övgüsünü övgüye övgüyle övgüyü
+6	3606	komak	ko kodu kodum kodun kodunuz koduğum komaya korsak kosan kosun koya koyabilecek koyabileceğim koyabilir koyabilirim koyabiliriz koyabilirsin koyabilirsiniz koyabilmek koyacak koyacaklar koyacaksın koyacaksınız koyacaktım koyacağım koyacağız koyalım koyamadı koyamadım koyamam koyamayız koyamaz koyamazsın koyamazsınız koyamıyorum koyan koyarak koyayım koyunca koyup
+7	3607	genişlemek	genişledi genişledikçe genişleme genişlemeye genişlemiş genişler genişletilmiş genişleyebilir genişleyecek genişleyen genişleyerek genişleyip genişliyor
+8	3608	aş	aşa aşacaktır aşacağını aşana aşmadan aşmaları aşmamız aşman aşmana aşmanın aşmanız aşması aşmasına aşmasını aşmıştır aştıktan aştığımı aştığımızı aştığında aştığını aşıldı aşılması aşılmış aşımı aşımına aşın aşına aşınmalar aşınması aşının
+9	3609	kafatası	kafatasları kafataslarından kafataslarını kafataslarının kafatasına kafatasında kafatasından kafatasını kafatasının
+10	3610	atık	atıklar atıklarla atıkları atıkların atıklarını atığı
+11	3611	nişancı	nişancıdır nişancılar nişancılara nişancılarla nişancıları nişancıların nişancının nişancısı nişancısın nişancıya nişancıydı nişancıyla nişancıyı nişancıyım
+12	3612	köfte	köfteler köfteleri köftelerin köftelerini köfteli köftenin köftesi köfteye köfteyi köfteyle
+13	3613	taşıyıcı	taşıyıcılar taşıyıcıları taşıyıcının taşıyıcısı taşıyıcısına taşıyıcısını taşıyıcısının taşıyıcıya taşıyıcıyı
+14	3614	takviye	takviyeler takviyeleri takviyeli takviyesi takviyeye
+15	3615	geceki	
+16	3616	yükseliş	yükselişe yükselişi yükselişin yükselişine yükselişini yükselişinin yükselişte
+17	3617	izinsiz	
+18	3618	evcil	evcilleştirilmiş evcilleştirmek evcilleştirmeye
+19	3619	pul	pula pullar pullara pullardan pullarla pulları pulların pullarını pullu pulu pulum pulun pulunu
+20	3620	eğitmek	eğit eğitebilir eğitebilirim eğitebiliriz eğitebilirsin eğitecek eğiteceksin eğiteceğim eğiteceğiz eğiten eğiterek eğitilmek eğitilmiş eğitin eğitip eğitir eğitirim eğitirken eğitiyor eğitiyordu eğitiyordum eğitiyorlar eğitiyorsun eğitiyorum eğitiyoruz eğitme eğitmelisin eğitmem eğitmeye eğitmiş eğitmişsin eğitti eğittik eğittiler eğittim eğittin eğittiniz eğittiği eğittiğim
+21	3621	stanley	
+22	3622	sıfat	sıfata sıfatla sıfatlar sıfatları sıfatı sıfatına sıfatını sıfatıyla
+23	3623	hakikat	hakikate hakikati hakikatin hakikatler hakikatleri hakikatten
+24	3624	yörünge	yörüngede yörüngedeki yörüngeden yörüngedeyiz yörüngeler yörüngelerde yörüngeleri yörüngelerinde yörüngelerini yörüngenin yörüngesi yörüngesinde yörüngesindeki yörüngesinden yörüngesine yörüngesini yörüngesinin yörüngeye yörüngeyi
+25	3625	bagaj	bagaja bagajda bagajdaki bagajdan bagajdaydı bagajlar bagajları bagajlarını bagajlarınızı bagajı bagajım bagajıma bagajımda bagajımı bagajın bagajına bagajında bagajındaki bagajından bagajını bagajınız bagajınızı
+26	3626	balıkçı	balıkçılar balıkçılara balıkçıları balıkçıların balıkçının balıkçısı balıkçıya balıkçıydı balıkçıyı balıkçıyım
+27	3627	öncülük	öncülüğünde öncülüğündeki öncülüğünü
+28	3628	divan	divana divanda divanı divanın
+29	3629	başbakanlık	başbakanlığa başbakanlığı
+30	3630	kazık	kazıklar kazıklara kazıkları kazıklı kazıkta kazıktan kazığa kazığı kazığın kazığını
+31	3631	kot	kota kotaları kotamı kotası kotasını kotayı kotla kotlar kotları kotlarını kotu kotum kotumu kotun kotunu
+32	3632	aptallık	aptallıklar aptallıkları aptallıktan aptallığa aptallığı aptallığın
+33	3633	odun	oduna odundan odunla odunlar odunları odunların odunu odunumuz odunun
+34	3634	tarihsel	
+35	3635	uzmanlık	uzmanlığı
+36	3636	birader	bilader biraderi biraderim biraderin biraderler biraderlerin
+37	3637	mazeret	mazerete mazereti mazeretim mazeretimiz mazeretin mazeretini mazeretiniz mazeretler mazeretleri mazeretlerini
+38	3638	balkan	balkanlar balkanlara balkanlarda balkanlardan balkanların
+39	3639	çarşı	çarşıda çarşıdaki çarşıdan çarşısı çarşıya
+40	3640	kukla	kukladan kuklalar kuklalara kuklalardan kuklalarla kuklaları kuklaların kuklanın kuklası kuklasın kuklasını kuklaya kuklaydı kuklayla kuklayı
+41	3641	zenginlik	zenginlikler zenginlikleri zenginliklerini zenginlikte zenginlikten zenginliğe zenginliği zenginliğin zenginliğine zenginliğini zenginliğinin
+42	3642	rahim	rahimde rahimdeki rahimden rahme rahmi rahmim rahmimde rahmime rahmimi rahmin rahminde rahmindeki rahminden rahmindeyken rahmine rahmini rahminin
+43	3643	başlıca	başlıcaları
+44	3644	kaynamak	kayna kaynadı kaynadığı kaynama kaynamaya kaynamaz kaynamış kaynanan kaynar kaynarken kaynasın kaynayacak kaynayan kaynayıp kaynıyor kaynıyordu
+45	3645	çuval	çuvala çuvalda çuvaldaki çuvaldan çuvalla çuvalladı çuvalladık çuvalladım çuvalladın çuvalladınız çuvalladığımı çuvalladığını çuvallama çuvallamış çuvallar çuvallarsa çuvallarsan çuvalları çuvallarını çuvallayan çuvalı çuvalın çuvalına çuvalını çuvalının
+46	3646	yoğunluk	yoğunluğu
+47	3647	saygısızlık	saygısızlıktan saygısızlıktır saygısızlığa saygısızlığı saygısızlığın saygısızlığını
+48	3648	esen	eseni esenler
+49	3649	beton	betona betonda betondan betonla betonu betonun
+50	3650	ceviz	cevizdir cevize cevizi cevizin cevizinden cevizine cevizini cevizler cevizleri cevizlerini
+51	3651	orkestra	orkestrada orkestradan orkestram orkestramız orkestranın orkestrası orkestrasına orkestrasında orkestrasını orkestrasının orkestraya orkestrayla orkestrayı
+52	3652	sünnet	sünnete sünneti sünnettir
+53	3653	balkon	balkona balkonda balkondaki balkondan balkonu balkonun balkonuna balkonunda balkonundan
+54	3654	manyetik	
+55	3655	depola	depolama depolanan depolandığı depolanması depolanmış depolanıyor depoluyor depoluyorlar
+56	3656	makarna	makarnadan makarnalar makarnaları makarnalı makarnanın makarnası makarnaya makarnayla makarnayı
+57	3657	genişlik	genişlikte genişliğe genişliği genişliğinde genişliğindeki genişliğine genişliğini
+58	3658	şefkat	şefkate şefkati şefkatin şefkatinden şefkatine şefkatini şefkatle şefkatli şefkatlisin şefkatliydi
+59	3659	forum	foruma forumda forumlar forumlarda forumları forumu forumunda
+60	3660	ortadoğu	ortadoğu'da ortadoğu'daki ortadoğu'nun ortadoğu'ya ortadoğulu
+61	3661	grip	gribe gribi gribin gribine gribinin gripten
+62	3662	prosedür	prosedürden prosedürdür prosedüre prosedürle prosedürler prosedürlere prosedürleri prosedürlerin prosedürlerine prosedürlerini prosedürü prosedürün prosedürüne prosedürünü
+63	3663	hızlıca	
+64	3664	eşleşmek	eşleşecek eşleşen eşleşin eşleşip eşleşir eşleşirse eşleşiyor eşleşiyorlar eşleşme eşleşmedi eşleşmeye eşleşmiyor eşleşmiş eşleşti eşleştirme eşleştirmek
+65	3665	yetim	yetimdi yetimdim yetime yetimi yetimim yetimin yetimler yetimlerden yetimlere yetimleri yetimlerin yetimlerle
+66	3666	yelken	yelkene yelkeni yelkenini yelkenle yelkenler yelkenleri yelkenlerini
+67	3667	bavul	bavula bavulda bavuldan bavulla bavullar bavullara bavullarla bavulları bavullarım bavullarımı bavullarımız bavullarımızı bavulların bavullarını bavullarınız bavullarınızı bavulu bavulum bavuluma bavulumda bavulumu bavulun bavuluna bavulunda bavulunu bavulunun bavulunuz bavulunuzu
+68	3668	hı	
+69	3669	çeşme	çeşmede çeşmeden çeşmeler çeşmeleri çeşmenin çeşmesi çeşmesine çeşmeye çeşmeyi
+70	3670	reddedilmek	reddedildi reddedildim reddedildin reddedildiği reddedilemez reddedilen reddedilince reddedilir reddedilirse reddediliyor reddedilme reddedilmeye reddedilmiş reddedilmişti
+71	3671	diploma	diplomaları diplomalı diplomam diplomamı diploman diplomanı diplomanız diploması diplomasını diplomaya diplomayı
+72	3672	bildiri	bildiride bildiriler bildirileri bildirinin bildirisi bildirisinde bildirisini bildiriye bildiriyi
+73	3673	taraflı	
+74	3674	ss	
+75	3675	teorik	
+76	3676	bakire	bakireden bakireler bakirelerden bakirelere bakireleri bakirelerin bakirenin bakiresi bakiresin bakireydi bakireydim bakireye bakireyi bakireyim bakireyle bakireymiş
+77	3677	süs	süsler süsleri süslerini süsleriz süsü süsünü
+78	3678	armağan	armağandı armağandır armağanlar armağanları armağanı armağanıdır armağanım armağanın armağanını
+79	3679	fişek	fişekle fişekler fişeklerden fişeklere fişekleri fişeklerin fişeklerini fişeklerle fişeği fişeğini
+80	3680	flört	flörte flörtleşme flörtten flörtü flörtüm flörtün flörtünü
+81	3681	yedinci	yedincisi
+82	3682	devretmek	devrede devredecek devredeceksin devredeceğim devreden devreder devredildi devrediyor devrediyorum devret devretme devretmeye devretmiş devretti devrettim devrettin
+83	3683	leon	leon'un
+84	3684	şiddetle	
+85	3685	otopsi	otopside otopsiden otopsileri otopsinin otopsisi otopsisinde otopsisine otopsisini otopsiye otopsiyi
+86	3686	sosyalist	sosyalistler sosyalistlerin
+87	3687	cömert	cömertler cömertsin cömertsiniz cömertti cömerttir
+88	3688	tahammül	tahammülü tahammülüm tahammülümüz tahammülün
+89	3689	tüccar	tüccara tüccardan tüccardı tüccarlar tüccarlara tüccarlardan tüccarlarla tüccarları tüccarların tüccarlarına tüccarlarından tüccarlarının tüccarı tüccarım tüccarın tüccarına tüccarını tüccarının tüccarıydı
+90	3690	asi	asiler asilerden asilere asileri asilerin asilerle asilik asinin asisin asiydi asiyi asiyim
+91	3691	tilki	tilkiden tilkiler tilkileri tilkilerin tilkinin tilkisi tilkiye tilkiyi tilkiyle
+92	3692	menajer	menajere menajeri menajerim menajerime menajerimi menajerimin menajerimiz menajerimle menajerin menajerine menajerini menajerinin menajeriniz menajerisin menajeriyim menajeriyle menajerle menajerler menajerleri menajerlerin menajerlik menajerliğini
+93	3693	mahsur	mahsuru
+94	3694	üşümek	üşüdü üşüdük üşüdüm üşüdün üşüme üşümedin üşümem üşümesin üşümeye üşümez üşümüyor üşümüyorsun üşümüyorum üşümüş üşümüşsün üşümüştüm üşür üşürsen üşürsün üşütmek üşütmüş üşüyeceksin üşüyen üşüyor üşüyorsun üşüyorum üşüyoruz
+95	3695	ücretli	
+96	3696	zararlı	
+97	3697	havayol	havayolları havayolu
+98	3698	salgın	salgına salgında salgından salgınla salgınlar salgınları salgını salgının salgınına salgınında salgınından salgınını salgınının salgınıyla
+99	3699	elit	elitler elitlerin elitlerinin
+100	3700	güreş	güreşe güreşi güreşin güreşinde güreşine güreşini güreşleri güreşmeyi güreşte güreşten
