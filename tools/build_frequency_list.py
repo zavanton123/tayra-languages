@@ -243,31 +243,56 @@ def kanji_stem(word):
 # ㄹ, "K" a consonant but ㄹ, "" any, and its place in a stack (집에도 is 집 + 에 + 도): the plural 들
 # first, then particles of place, manner and company (two may stack: 에서부터), then 도, 은/는 and their
 # kind, then the case endings 이/가, 을/를, 의. 당 "per" is among the second, right after a counter only
-# (시간당, 개당; 부당 "unjust" is no 부 + 당), and so are 쯤 "about" and 씩 "each" (세 시쯤에, 두 개씩).
+# (시간당, 개당; 부당 "unjust" is no 부 + 당), and so are 쯤 "about", 씩 "each", 째 and 짜리 (세 시쯤에, 두 개씩,
+# 사흘째, 천 원짜리), and 에다 "onto" (벽에다가). 엔, 에선, 에겐 and 한텐 are 에, 에서, 에게 and 한테 with 는 (이번엔, 집에선).
 KOREAN_PARTICLES = [
     ("들", "", 0),
     ("에", "", 1), ("에서", "", 1), ("에게", "", 1), ("에게서", "", 1), ("한테", "", 1), ("한테서", "", 1),
-    ("께", "", 1), ("께서", "", 1), ("로", "R", 1), ("으로", "K", 1), ("로서", "R", 1), ("으로서", "K", 1),
+    ("에다", "", 1), ("에다가", "", 1), ("께", "", 1), ("께서", "", 1), ("로", "R", 1), ("으로", "K", 1), ("로서", "R", 1), ("으로서", "K", 1),
     ("로써", "R", 1), ("으로써", "K", 1), ("와", "V", 1), ("과", "C", 1), ("하고", "", 1), ("랑", "V", 1),
     ("이랑", "C", 1), ("처럼", "", 1), ("보다", "", 1), ("까지", "", 1), ("부터", "", 1), ("마다", "", 1),
     ("만큼", "", 1), ("대로", "", 1), ("만", "", 1), ("밖에", "", 1), ("뿐", "", 1), ("조차", "", 1), ("마저", "", 1),
-    ("당", "", 1), ("쯤", "", 1), ("씩", "", 1),
-    ("도", "", 2), ("은", "C", 2), ("는", "V", 2), ("이나", "C", 2), ("나", "V", 2), ("이라도", "C", 2), ("라도", "V", 2),
+    ("당", "", 1), ("쯤", "", 1), ("씩", "", 1), ("째", "", 1), ("짜리", "", 1),
+    ("엔", "", 2), ("에선", "", 2), ("에겐", "", 2), ("한텐", "", 2), ("도", "", 2), ("은", "C", 2), ("는", "V", 2), ("이나", "C", 2), ("나", "V", 2), ("이라도", "C", 2), ("라도", "V", 2),
     ("이든", "C", 2), ("든", "V", 2), ("이든지", "C", 2), ("든지", "V", 2),
     ("이", "C", 3), ("가", "V", 3), ("을", "C", 3), ("를", "V", 3), ("의", "", 3),
 ]
 # The copula 이다 after a noun (학생이에요, 의사예요), last in a stack and after no particle but those of
-# place and manner (때문이에요, 뿐이에요). After a vowel its 이 may drop (의사였어요, 정도면), not in the forms
-# that would read as another word (다, 고); 면 "if it is" only where the word whole is no other (KOREAN_COPULA_IF).
+# place and manner (때문이에요, 뿐이에요). After a vowel its 이 may drop (의사였어요, 정도면, 고양이다), not in the
+# form that would read as another word (고); 면 "if it is" only where the word whole is no other (KOREAN_COPULA_IF).
 KOREAN_COPULA = [(form, "") for form in (
     "이다", "입니다", "입니까", "이었다", "이었어", "이었어요", "이었습니다", "이었던", "이고", "이지만", "이라고", "이라서",
     "이라면", "이라는", "이란", "인데", "인데요", "인지", "인가", "인가요", "일까", "일까요", "이죠", "이지", "이지요", "이니까",
     "이네요", "이며", "인", "이었기", "이었는지", "이었는데", "이었고", "이었지만", "이었을", "이구나", "이군요", "이던데", "이던데요",
-    "이시라고", "이세요",
+    "이시라고", "이세요", "이라", "이어서", "이었다고", "이었다면", "이었으면", "이자", "일", "이기", "이라며", "이라니", "이냐",
+    "이냐고", "이냐며", "이잖아", "이잖아요", "이네", "이면서", "이시다", "이십니다", "이셨다", "이셨어요", "이신", "이래", "이래요",
 )] + [("이에요", "C"), ("이야", "C"), ("이면", "C")] + [(form, "V") for form in (
     "예요", "야", "였다", "였어", "였어요", "였습니다", "였던", "지만", "라고", "라서", "라면", "라는", "란", "죠", "니까", "네요", "면",
-    "였기", "였는지", "였는데", "였고", "였지만", "였을", "구나", "군요",
+    "였기", "였는지", "였는데", "였고", "였지만", "였을", "구나", "군요", "다", "여서", "였다고", "였다면", "였으면", "라며", "라니",
+    "냐", "냐고", "냐며", "잖아", "잖아요", "면서", "래", "래요", "시라고", "십니다", "셨다", "셨어요",
 )]
+# Forms after a vowel that a verb's stem takes too (가냐, 하잖아, 보면서): after a stem that makes a verb with 다 or 시다,
+# ends a verb's ending (가려다) or is honorific (아시잖아요), they are the verb's.
+KOREAN_COPULA_VOWEL_VERBAL = {
+    "다", "여서", "였다고", "였다면", "였으면", "라며", "라니", "냐", "냐고", "냐며", "잖아", "잖아요", "면서", "래", "래요",
+    "시라고", "십니다", "셨다", "셨어요",
+}
+KOREAN_HONORIFIC_STEM = "시"
+# Forms a verb in 이다 takes too (보이자, 먹일, 보이기): after a stem that makes such a verb, they are its.
+KOREAN_COPULA_VERBAL_I = {
+    "이라", "이어서", "이었다고", "이었다면", "이었으면", "이자", "일", "이기", "이라며", "이라니", "이냐", "이냐고", "이냐며",
+    "이잖아", "이잖아요", "이네", "이면서", "이시다", "이십니다", "이셨다", "이셨어요", "이신", "이래", "이래요",
+}
+# Forms of the copula that are words of their own too (다 "all", 일 "work", 이자 "interest"): they stay whole as a word, and
+# follow no word that comes before a noun (무슨일 is 무슨 일) or the particle 에 (벽에다 is 벽 + 에다), and those of
+# KOREAN_COPULA_LONG a word of two syllables or more only (한일, 위다 are no copula's); cut off a noun, they count for 이다
+# without being listed under it (KOREAN_COPULA_FORMS).
+KOREAN_COPULA_WORDS = {
+    "다", "일", "이자", "이기", "래", "이래", "이래요", "여서", "이어서", "십니다", "이십니다", "셨다", "이셨다", "셨어요",
+    "이셨어요", "이신",
+}
+KOREAN_COPULA_LONG = {"다", "일", "이자", "래", "이래", "이래요"}
+KOREAN_DETERMINERS = {"아무", "무슨", "그런", "이런", "저런", "어떤", "다른", "모든"}
 # Forms a verb ends in too (가세요, 크구나, 보이던데요): after a stem that makes a verb with 다 or 이다, they are its.
 KOREAN_COPULA_VERBAL = {"이구나", "이군요", "이던데", "이던데요", "이시라고", "이세요", "구나", "군요"}
 KOREAN_COPULA_IF = {"이면", "면"}
@@ -278,14 +303,14 @@ KOREAN_NOT_BEFORE_IF = set("다려라자")
 KOREAN_POLITE = "요"
 KOREAN_NOT_BEFORE_POLITE = {"와", "과"}
 KOREAN_PER = "당"
-# The copula's past after a vowel (였어요) is no copula after a stem that makes a verb in 이다 (모이다):
-# 모였어요 is 모이다's.
-KOREAN_COPULA_PAST = "였"
+# The copula's past and 여서 after a vowel (였어요) are no copula after a stem that makes a verb in 이다 (모이다):
+# 모였어요 and 조여서 are 모이다's and 조이다's.
+KOREAN_COPULA_PAST = ("였", "여")
 KOREAN_STACK = 4
 # 가 does not follow these: before it they are 내, 제 (내가), so 나가 is a form of 나가다.
 KOREAN_NOT_BEFORE_GA = {"나", "저"}
-# Nor does the copula follow 아니, being 아니다's own: 아니라고 is a form of 아니다.
-KOREAN_NOT_BEFORE_COPULA = {"아니"}
+# Nor does the copula follow 아니, being 아니다's own (아니라고 is a form of 아니다), or 할, 하다's (할인 is no 할 + 인).
+KOREAN_NOT_BEFORE_COPULA = {"아니", "할"}
 # As SegmentingParser weighs Chinese words: a piece costs the log of its frequency rank plus this; a
 # word the lexicon has without a rank counts as rank KOREAN_UNRANKED.
 KOREAN_WORD_COST = 4.0
@@ -330,6 +355,10 @@ def korean_stacks(rest, stem, known=None, rank=None):
                 if form in KOREAN_COPULA_VERBAL and known is not None and rest.endswith(form) and (
                         known(before + "다") or form[0] == "이" and known(before + "이다")):
                     continue
+                if known is not None and rest.endswith(form) and korean_copula_is_verbs(form, sound, before, stem + rest, known):
+                    continue
+                if form in KOREAN_COPULA_WORDS and pieces and pieces[-1] == "에":
+                    continue
                 # A verb's command quoted (익히라고, 보내라는) where the verb is commoner than the word its stem spells.
                 if form[0] == "라" and sound == "V" and rank is not None and rest.endswith(form) and rank(before + "다") and (
                         not rank(before) or rank(before + "다") < rank(before)):
@@ -349,6 +378,25 @@ def korean_stacks(rest, stem, known=None, rank=None):
 
     go(0, stem[-1], -1, [], 0)
     return out
+
+
+def korean_copula_is_verbs(form, sound, before, word, known):
+    """
+    Whether the copula's [form] after [before] is a verb's instead, by the lexicon's test [known]: one a verb in 이다
+    takes too after a stem that makes one (보이자, 먹일); one in 라 after a vowel where 라 ends a verb's stem (모자라서,
+    자라고); one verbs end in after a vowel (KOREAN_COPULA_VOWEL_VERBAL) after a stem that makes a verb with 다 or 시다,
+    ends a verb's ending or is honorific (가냐, 가려다, 아시잖아요); and a form that is a word itself (KOREAN_COPULA_WORDS)
+    in a [word] the lexicon has (개다, 기념일), after a word that comes before a noun (무슨일), or, for KOREAN_COPULA_LONG,
+    after a word of one syllable (한일).
+    """
+    if form in KOREAN_COPULA_VERBAL_I and known(before + "이다"):
+        return True
+    if sound == "V" and form[0] == "라" and known(before + "라다"):
+        return True
+    if form in KOREAN_COPULA_VOWEL_VERBAL and (known(before + "다") or known(before + "시다") or before[-1] == KOREAN_HONORIFIC_STEM
+                                               or before[-1] in KOREAN_NOT_BEFORE_IF and known(before[:-1] + "다")):
+        return True
+    return form in KOREAN_COPULA_WORDS and (known(word) or before in KOREAN_DETERMINERS or form in KOREAN_COPULA_LONG and len(before) < 2)
 
 
 # The final consonants a verb's stem may lose or change (none, ㄷ, ㄹ, ㅂ, ㅅ, ㅎ), as Hangul numbers them.
@@ -504,7 +552,7 @@ def korean_fused(word, senses):
 # The particles the list counts as words of their own, the dictionary having them only as affixes
 # ("-에서"); the copula's forms are counted for 이다. 하고 "with" is a form of 하다 too, which it goes to.
 KOREAN_OWN = {form for form, _, _ in KOREAN_PARTICLES} - {"하고"} | {KOREAN_POLITE}
-KOREAN_COPULA_FORMS = {form for form, _ in KOREAN_COPULA} - {KOREAN_COPULA_VOWEL_IF}
+KOREAN_COPULA_FORMS = {form for form, _ in KOREAN_COPULA} - {KOREAN_COPULA_VOWEL_IF} - KOREAN_COPULA_WORDS
 
 _korean_inflections = {}
 
@@ -1131,10 +1179,14 @@ def build_korean(found, size):
                     cuts[run] = cut
                     for piece in cut:
                         out[piece] += count
-                    # The copula's 면 after a vowel (정도면) counts as 이면, for 이다; a 면 alone is the noun.
+                    # The copula's 면 after a vowel (정도면) counts as 이면, for 이다; a 면 alone is the noun. Its forms that
+                    # are words too (고양이 + 다, 결과 + 일) count for 이다.
                     if len(cut) > 1 and cut[-1] == KOREAN_COPULA_VOWEL_IF:
                         out[KOREAN_COPULA_VOWEL_IF] -= count
                         out["이" + KOREAN_COPULA_VOWEL_IF] += count
+                    elif len(cut) > 1 and cut[-1] in KOREAN_COPULA_WORDS:
+                        out[cut[-1]] -= count
+                        out["이다"] += count
             pieces.append((name, dict(out), source_label))
         print(f"ko round {round_}: {changed / len(found):.2%} of words cut otherwise", file=sys.stderr)
         if round_ and changed / len(found) < 0.0005 or round_ == KOREAN_ROUNDS:
@@ -1481,7 +1533,7 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None):
         if word == "이다" and language == "ko":
             # The reader reads the copula's 면 (정도 + 면) as 이다's, which the list counts as 이면, and cuts every
             # form of the copula it knows, however seldom (사람이었기), as a word of the list.
-            counted += [f for f, _ in KOREAN_COPULA if f not in counted]
+            counted += [f for f, _ in KOREAN_COPULA if f not in counted and f not in KOREAN_COPULA_WORDS]
         if language == "sr":
             # The counts are of Latin-script text; Serbian is read in Cyrillic too.
             counted = list(dict.fromkeys(counted + [to_serbian_cyrillic(f) for f in counted]))

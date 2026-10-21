@@ -26,12 +26,16 @@ class KoreanParserTest {
         "든" to 369, "살" to 131, "다음" to 272, "주" to 376, "주로" to 1512, "차" to 160, "라도" to 561, "길" to 323,
         "분야" to 662, "두" to 157, "지금" to 60, "쯤" to 741, "씩" to 934, "표" to 2288, "크다" to 140, "보이다" to 300,
         "익히다" to 4848, "익히" to 9653, "백" to 800,
+        "다" to 70, "일" to 19, "고양이" to 1300, "문제" to 100, "흰색" to 5000, "방식" to 400, "결과" to 300, "이자" to 3000,
+        "웬일" to 4000, "사흘" to 3500, "년" to 40, "천" to 900, "이번" to 130, "벽" to 2000, "할인" to 2400, "모자" to 1900,
+        "가다" to 39, "누구" to 120, "엔" to 160, "에선" to 900, "무슨" to 200, "인" to 4,
     )
 
     /** Words a dictionary pack adds, without a rank. */
     private val packWords = listOf(
         "나는", "날다", "사", "집은", "집다", "개는", "아이가", "수도", "도와요", "나와요", "모였어요", "사장", "열한", "부당",
         "여든", "차라", "아이들", "길이", "개이다", "다섯", "정도", "한다", "먹이면", "먹", "크", "보", "원",
+        "개다", "모자라다", "기념일", "기념", "조", "조이다", "것",
     )
 
     @BeforeTest
@@ -223,6 +227,51 @@ class KoreanParserTest {
         // A command quoted, where the verb is commoner than the word its stem spells; after a noun it is the copula.
         assertEquals(listOf("익히라고"), words("익히라고"))
         assertEquals(listOf("친구", "라고"), words("친구라고"))
+    }
+
+    @Test
+    fun theCopulaAfterAVowelAndItsOtherFormsAreCut() {
+        assertEquals(listOf("고양이", "다"), words("고양이다"))
+        assertEquals(listOf("문제", "다"), words("문제다"))
+        assertEquals(listOf("흰색", "이라"), words("흰색이라"))
+        assertEquals(listOf("방식", "이어서"), words("방식이어서"))
+        assertEquals(listOf("결과", "일"), words("결과일"))
+        assertEquals(listOf("친구", "이자"), words("친구이자"))
+        assertEquals(listOf("웬일", "이냐"), words("웬일이냐"))
+        assertEquals(listOf("누구", "냐"), words("누구냐"))
+        assertEquals(listOf("친구", "잖아"), words("친구잖아"))
+        assertEquals(listOf("것", "이어서"), words("것이어서"))
+    }
+
+    /** Copula forms a verb takes too stay the verb's; one that is a word itself is no copula in a word of its own. */
+    @Test
+    fun theCopulasNewFormsGiveWayToVerbsAndWords() {
+        // A verb whose stem the word before is (가다, 보이다, 모자라다), or a word the lexicon has (개다, 기념일).
+        assertEquals(listOf("가냐"), words("가냐"))
+        assertEquals(listOf("조여서"), words("조여서"))
+        assertEquals(listOf("보이자"), words("보이자"))
+        assertEquals(listOf("모자라서"), words("모자라서"))
+        assertEquals(listOf("개다"), words("개다"))
+        assertEquals(listOf("기념일"), words("기념일"))
+        // Not after a word of one syllable (한일), one before a noun (무슨일 is 무슨 일), 에 (벽에다) or 할 (할인).
+        assertEquals(listOf("벽", "에다"), words("벽에다"))
+        assertEquals(listOf("할인"), words("할인"))
+        assertEquals(listOf("무슨일"), words("무슨일"))
+    }
+
+    @Test
+    fun ordinalAndWorthSuffixesAreParticles() {
+        assertEquals(listOf("사흘", "째"), words("사흘째"))
+        assertEquals(listOf("년", "째"), language.parseTokens("3년째").filter { it.isWord }.map { it.token })
+        assertEquals(listOf("천", "원", "짜리"), words("천 원짜리"))
+    }
+
+    @Test
+    fun particlesContractedWithTheTopicAreParticles() {
+        assertEquals(listOf("이번", "엔"), words("이번엔"))
+        assertEquals(listOf("집", "에선"), words("집에선"))
+        assertEquals(listOf("친구", "한텐"), words("친구한텐"))
+        assertEquals(listOf("친구", "에겐"), words("친구에겐"))
     }
 
     @Test

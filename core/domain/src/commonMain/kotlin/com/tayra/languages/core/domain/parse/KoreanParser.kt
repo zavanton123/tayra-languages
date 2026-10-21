@@ -106,9 +106,10 @@ class KoreanParser : SpaceDelimitedParser(), LexiconParser {
             }
             if (slot <= 1 && (pieces.isNotEmpty() || stem !in NOT_BEFORE_COPULA)) {
                 for ((form, sound) in COPULA) {
-                    if (pieces.isEmpty() && verbInI && form.startsWith(COPULA_PAST)) continue
+                    if (pieces.isEmpty() && verbInI && COPULA_PAST.any { form.startsWith(it) }) continue
                     if (form in COPULA_IF && lexicon != null && rest.endsWith(form) && ifIsNoCopula(stem + rest.dropLast(form.length), stem + rest, lexicon)) continue
-                    if (lexicon != null && rest.endsWith(form) && isVerbs(form, sound, stem + rest.dropLast(form.length), lexicon)) continue
+                    if (lexicon != null && rest.endsWith(form) && isVerbs(form, sound, stem + rest.dropLast(form.length), stem + rest, lexicon)) continue
+                    if (form in COPULA_WORDS && pieces.lastOrNull() == AT) continue
                     if (rest.endsWith(form) && at + form.length == rest.length && follows(last, sound)) out += pieces + form
                 }
             }
@@ -135,16 +136,25 @@ class KoreanParser : SpaceDelimitedParser(), LexiconParser {
         word in lexicon || before + VERB_END in lexicon || (before.last() in NOT_BEFORE_IF && before.dropLast(1) + VERB_END in lexicon)
 
     /**
-     * Whether the copula's [form] after [before] is a verb's ending instead: one verbs end in too (가세요, 크구나,
-     * 보이던데요) after a stem that makes a verb with 다 or 이다, or a verb's command quoted (익히라고, 보내라는)
-     * where the verb is commoner than the word its stem spells.
+     * Whether the copula's [form] after [before], in [word], is a verb's ending instead: one verbs end in too (가세요,
+     * 크구나, 보이던데요) after a stem that makes a verb with 다 or 이다; one a verb in 이다 takes too after a stem that
+     * makes one (보이자, 먹일); one in 라 after a vowel where 라 ends a verb's stem (모자라서, 자라고), or a verb's
+     * command quoted (익히라고, 보내라는) where the verb is commoner than the word its stem spells; one verbs end in
+     * after a vowel after a stem that makes a verb with 다 or 시다, ends a verb's ending or is honorific (가냐, 가려다,
+     * 아시잖아요); and one that is a word itself (다, 일) in a [word] the lexicon has (개다, 기념일), after a word
+     * that comes before a noun (무슨일), or, for [COPULA_LONG], after a word of one syllable (한일).
      */
-    private fun isVerbs(form: String, sound: Sound, before: String, lexicon: Lexicon): Boolean {
+    private fun isVerbs(form: String, sound: Sound, before: String, word: String, lexicon: Lexicon): Boolean {
         if (form in COPULA_VERBAL && (before + VERB_END in lexicon || form[0] == '이' && before + COPULA_STEM in lexicon)) return true
+        if (form in COPULA_VERBAL_I && before + COPULA_STEM in lexicon) return true
+        if (sound == Sound.VOWEL && form[0] == '라' && before + "라" + VERB_END in lexicon) return true
+        if (form in COPULA_VOWEL_VERBAL && (before + VERB_END in lexicon || before + HONORIFIC_VERB_END in lexicon ||
+                before.last() == HONORIFIC_STEM || (before.last() in NOT_BEFORE_IF && before.dropLast(1) + VERB_END in lexicon))) return true
+        if (form in COPULA_WORDS && (word in lexicon || before in DETERMINERS || form in COPULA_LONG && before.length < 2)) return true
         if (form[0] != '라' || sound != Sound.VOWEL) return false
         val verb = lexicon.rank(before + VERB_END) ?: return false
-        val word = lexicon.rank(before)
-        return word == null || verb < word
+        val stemWord = lexicon.rank(before)
+        return stemWord == null || verb < stemWord
     }
 
     /** Whether a particle that follows [sound] may come after the syllable [previous]. */
@@ -184,15 +194,44 @@ class KoreanParser : SpaceDelimitedParser(), LexiconParser {
         /** 당 "per", right after a counter only (시간당, 개당; 부당 "unjust" is no 부 + 당). */
         const val PER = "당"
 
+        /** The particle 에, after which the copula's 다 is 에다 "onto" (벽에다). */
+        const val AT = "에"
+
         /** The copula's forms a verb ends in too (가세요, 크구나, 보이던데요). */
         val COPULA_VERBAL = setOf("이구나", "이군요", "이던데", "이던데요", "이시라고", "이세요", "구나", "군요")
 
+        /** The copula's forms after a vowel that a verb's stem takes too (가냐, 하잖아, 보면서). */
+        val COPULA_VOWEL_VERBAL = setOf(
+            "다", "여서", "였다고", "였다면", "였으면", "라며", "라니", "냐", "냐고", "냐며", "잖아", "잖아요", "면서", "래", "래요",
+            "시라고", "십니다", "셨다", "셨어요",
+        )
+        const val HONORIFIC_STEM = '시'
+        const val HONORIFIC_VERB_END = "시다"
+
+        /** The copula's forms a verb in 이다 takes too (보이자, 먹일, 보이기). */
+        val COPULA_VERBAL_I = setOf(
+            "이라", "이어서", "이었다고", "이었다면", "이었으면", "이자", "일", "이기", "이라며", "이라니", "이냐", "이냐고", "이냐며",
+            "이잖아", "이잖아요", "이네", "이면서", "이시다", "이십니다", "이셨다", "이셨어요", "이신", "이래", "이래요",
+        )
+
+        /** The copula's forms that are words of their own too (다 "all", 일 "work", 이자 "interest"). */
+        val COPULA_WORDS = setOf(
+            "다", "일", "이자", "이기", "래", "이래", "이래요", "여서", "이어서", "십니다", "이십니다", "셨다", "이셨다", "셨어요",
+            "이셨어요", "이신",
+        )
+
+        /** Of those, the ones that follow a word of two syllables or more only (한일, 위다 are no copula's). */
+        val COPULA_LONG = setOf("다", "일", "이자", "래", "이래", "이래요")
+
+        /** Words that come before a noun, after which 일 is the noun (무슨일 is 무슨 일). */
+        val DETERMINERS = setOf("아무", "무슨", "그런", "이런", "저런", "어떤", "다른", "모든")
+
         /**
-         * The copula's past after a vowel (였어요) is no copula after a stem that makes a verb in 이다
-         * (모이다): 모였어요 is 모이다's.
+         * The copula's past and 여서 after a vowel (였어요) are no copula after a stem that makes a verb in 이다
+         * (모이다): 모였어요 and 조여서 are 모이다's and 조이다's.
          */
         const val COPULA_STEM = "이다"
-        const val COPULA_PAST = "였"
+        val COPULA_PAST = listOf("였", "여")
 
         /** 면 "if it is", after a consonant 이면, and what comes before it in a verb's ending (한다면, 가려면, 아니라면, 하자면). */
         val COPULA_IF = setOf("이면", "면")
@@ -229,26 +268,29 @@ class KoreanParser : SpaceDelimitedParser(), LexiconParser {
         /** 가 does not follow these: before it they are 내, 제 (내가), so 나가 is a form of 나가다. */
         val NOT_BEFORE_GA = setOf("나", "저")
 
-        /** Nor does the copula follow 아니, being 아니다's own: 아니라고 is a form of 아니다. */
-        val NOT_BEFORE_COPULA = setOf("아니")
+        /** Nor does the copula follow 아니, being 아니다's own (아니라고 is a form of 아니다), or 할, 하다's (할인 is no 할 + 인). */
+        val NOT_BEFORE_COPULA = setOf("아니", "할")
 
         /**
          * The particles, by their place in a stack (집에도 is 집 + 에 + 도): the plural 들 first, then
-         * particles of place, manner and company (two may stack: 에서부터), with 쯤 "about" and 씩 "each" (세 시쯤에,
-         * 두 개씩), then 도, 은/는 and their kind, then the case endings 이/가, 을/를, 의.
+         * particles of place, manner and company (two may stack: 에서부터), with 쯤 "about", 씩 "each", 째, 짜리
+         * and 에다 "onto" (세 시쯤에, 두 개씩, 사흘째, 천 원짜리, 벽에다가), then 도, 은/는 and their kind, with 엔,
+         * 에선, 에겐 and 한텐 (에, 에서, 에게, 한테 with 는: 이번엔, 집에선), then the case endings 이/가, 을/를, 의.
          */
         val PARTICLES: List<Particle> = listOf(
             Particle("들", Sound.ANY, 0),
         ) + listOf(
             "에" to Sound.ANY, "에서" to Sound.ANY, "에게" to Sound.ANY, "에게서" to Sound.ANY, "한테" to Sound.ANY,
-            "한테서" to Sound.ANY, "께" to Sound.ANY, "께서" to Sound.ANY, "로" to Sound.VOWEL_OR_L, "으로" to Sound.CONSONANT_NOT_L,
+            "한테서" to Sound.ANY, "에다" to Sound.ANY, "에다가" to Sound.ANY, "께" to Sound.ANY, "께서" to Sound.ANY,
+            "로" to Sound.VOWEL_OR_L, "으로" to Sound.CONSONANT_NOT_L,
             "로서" to Sound.VOWEL_OR_L, "으로서" to Sound.CONSONANT_NOT_L, "로써" to Sound.VOWEL_OR_L, "으로써" to Sound.CONSONANT_NOT_L,
             "와" to Sound.VOWEL, "과" to Sound.CONSONANT, "하고" to Sound.ANY, "랑" to Sound.VOWEL, "이랑" to Sound.CONSONANT,
             "처럼" to Sound.ANY, "보다" to Sound.ANY, "까지" to Sound.ANY, "부터" to Sound.ANY, "마다" to Sound.ANY,
             "만큼" to Sound.ANY, "대로" to Sound.ANY, "만" to Sound.ANY, "밖에" to Sound.ANY, "뿐" to Sound.ANY,
             "조차" to Sound.ANY, "마저" to Sound.ANY, PER to Sound.ANY, "쯤" to Sound.ANY, "씩" to Sound.ANY,
+            "째" to Sound.ANY, "짜리" to Sound.ANY,
         ).map { (form, sound) -> Particle(form, sound, 1) } + listOf(
-            "도" to Sound.ANY, "은" to Sound.CONSONANT, "는" to Sound.VOWEL, "이나" to Sound.CONSONANT, "나" to Sound.VOWEL,
+            "엔" to Sound.ANY, "에선" to Sound.ANY, "에겐" to Sound.ANY, "한텐" to Sound.ANY, "도" to Sound.ANY, "은" to Sound.CONSONANT, "는" to Sound.VOWEL, "이나" to Sound.CONSONANT, "나" to Sound.VOWEL,
             "이라도" to Sound.CONSONANT, "라도" to Sound.VOWEL, "이든" to Sound.CONSONANT, "든" to Sound.VOWEL,
             "이든지" to Sound.CONSONANT, "든지" to Sound.VOWEL,
         ).map { (form, sound) -> Particle(form, sound, 2) } + listOf(
@@ -257,17 +299,19 @@ class KoreanParser : SpaceDelimitedParser(), LexiconParser {
 
         /**
          * The copula 이다 after a noun (학생이에요, 의사예요), last in a stack and after no particle but those of
-         * place and manner (때문이에요, 뿐이에요). After a vowel its 이 may drop (의사였어요, 정도면), not in the forms
-         * that would read as another word (다, 고); 면 "if it is" only where [ifIsNoCopula] allows.
+         * place and manner (때문이에요, 뿐이에요). After a vowel its 이 may drop (의사였어요, 정도면, 고양이다), not in the
+         * form that would read as another word (고); 면 "if it is" only where [ifIsNoCopula] allows.
          */
         val COPULA: List<Pair<String, Sound>> = listOf(
             "이다", "입니다", "입니까", "이었다", "이었어", "이었어요", "이었습니다", "이었던", "이고", "이지만", "이라고", "이라서",
             "이라면", "이라는", "이란", "인데", "인데요", "인지", "인가", "인가요", "일까", "일까요", "이죠", "이지", "이지요", "이니까",
             "이네요", "이며", "인", "이었기", "이었는지", "이었는데", "이었고", "이었지만", "이었을", "이구나", "이군요", "이던데", "이던데요",
-            "이시라고", "이세요",
+            "이시라고", "이세요", "이라", "이어서", "이었다고", "이었다면", "이었으면", "이자", "일", "이기", "이라며", "이라니", "이냐",
+            "이냐고", "이냐며", "이잖아", "이잖아요", "이네", "이면서", "이시다", "이십니다", "이셨다", "이셨어요", "이신", "이래", "이래요",
         ).map { it to Sound.ANY } + listOf("이에요" to Sound.CONSONANT, "이야" to Sound.CONSONANT, "이면" to Sound.CONSONANT) + listOf(
             "예요", "야", "였다", "였어", "였어요", "였습니다", "였던", "지만", "라고", "라서", "라면", "라는", "란", "죠", "니까", "네요", "면",
-            "였기", "였는지", "였는데", "였고", "였지만", "였을", "구나", "군요",
+            "였기", "였는지", "였는데", "였고", "였지만", "였을", "구나", "군요", "다", "여서", "였다고", "였다면", "였으면", "라며", "라니",
+            "냐", "냐고", "냐며", "잖아", "잖아요", "면서", "래", "래요", "시라고", "십니다", "셨다", "셨어요",
         ).map { it to Sound.VOWEL }
     }
 }
