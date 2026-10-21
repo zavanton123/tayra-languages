@@ -1,0 +1,100 @@
+1	3401	převést	převede převedeme převeden převedena převedeni převedeno převedeny převedete převedl převedla převedli převedlo převedly převedou převedu převeďte převádí převádět
+2	3402	tajemník	tajemnice tajemníci tajemníka tajemníkem tajemníkovi tajemníku tajemníky tajemníků
+3	3403	kongres	kongresech kongresem kongresu kongresy kongresů
+4	3404	ujmout	ujal ujala ujali ujalo ujaly ujetí ujme ujmete ujmou ujmu ujmul ujímá
+5	3405	pochválit	chval chvalte chvále chválen chválení chválil chválila chválili chválit chválí chválím chválíme pochval pochválen pochválena pochváleno pochválil pochválila pochválili pochválí pochválím
+6	3406	brambor	bramborem bramboru brambory brambůrek brambůrků
+7	3407	bytový	bytovou bytová bytové bytového bytovém bytovému bytových bytovým bytovými nebytové nebytových
+8	3408	rekordní	rekordních rekordního rekordním rekordnímu
+9	3409	sklep	sklepa sklepech sklepem sklepu sklepy sklepích sklepě sklepů sklípcích sklípek sklípku sklípky sklípků
+10	3410	formální	formálních formálního formálním formálními formálnímu formálně formálnější
+11	3411	červenka	července červenková červenku červenky
+12	3412	rozsudek	rozsudcích rozsudkem rozsudku rozsudky rozsudků
+13	3413	tiskárna	tiskáren tiskárnami tiskárnou tiskárnu tiskárny tiskárnách tiskárnám tiskárně
+14	3414	výnos	výnosech výnosem výnosové výnosu výnosy výnosů výnosům
+15	3415	semeno	semen semena semene semenech semenem semeny semínka semínko sémě
+16	3416	hluboko	hloub hloubi hloubí hlouběji nejhlouběji
+17	3417	vybudovat	vybudoval vybudováno vybuduje vybudují
+18	3418	žaludek	žaludcích žaludkem žaludku žaludky žaludků
+19	3419	spotřebitel	spotřebitele spotřebitelem spotřebiteli spotřebitelé spotřebitelů spotřebitelům
+20	3420	přísný	nejpřísnější nejpřísnějších nejpřísnějším přísnou přísná přísné přísného přísném přísnému přísní přísných přísným přísnými přísnější přísnějších přísnějším
+21	3421	záviset	nezávisí závisejí závisel závisela záviselo závisí
+22	3422	personál	personálem personálu
+23	3423	atraktivní	atraktivních atraktivního atraktivním atraktivními atraktivnímu atraktivnější atraktivnějším nejatraktivnější nejatraktivnějších nejatraktivnějším
+24	3424	komplexní	komplexních komplexního komplexním komplexními komplexnímu komplexně komplexněji komplexnější komplexnějším nejkomplexnější
+25	3425	devátý	devátou devátá deváté devátého devátém devátých devátým
+26	3426	rozhodující	rozhodujících rozhodujícího rozhodujícím rozhodujícími rozhodujícímu
+27	3427	inteligence	inteligenci inteligencí
+28	3428	použitý	nepoužité použitou použitá použité použitého použitém použitému použitých použitým použitými
+29	3429	mladík	mladice mladickou mladická mladické mladíci mladíka mladíkem mladíkovi mladíku mladíky mladíků mladíkům mladíček
+30	3430	někdejší	někdejších někdejšího někdejším někdejšími někdejšímu
+31	3431	položka	položce položek položkami položkou položku položky položkách položkám
+32	3432	řetěz	řetězech řetězem řetězovou řetězová řetězové řetězového řetězový řetězových řetězovým řetězu řetězy řetězů
+33	3433	nemožný	nemožnou nemožná nemožné nemožného nemožných nemožným nemožně
+34	3434	napříč	
+35	3435	te	
+36	3436	pravomoc	pravomoce pravomocemi pravomoci pravomocí
+37	3437	navázat	navázal navázala navázali navázalo
+38	3438	ošetřit	ošetřen ošetřena ošetřeni ošetřeno ošetřeny ošetření ošetřený ošetřete ošetřil ošetřila ošetřili ošetřoval ošetřovala ošetřovali ošetřovat ošetřován ošetřuje ošetřujeme ošetřují ošetřující ošetří ošetříme
+39	3439	menšina	menšin menšinami menšinou menšinu menšiny menšinách menšinám menšině
+40	3440	rozbít	rozbije rozbijeme rozbijete rozbiju rozbijí rozbil rozbila rozbili rozbilo rozbily rozbit rozbita rozbito rozbity rozbíjet rozbíjí
+41	3441	řádek	řádcích řádkem řádku řádky řádků
+42	3442	kaple	kaplemi kapli kaplička kapličky kaplí
+43	3443	líbat	líbají líbající líbal líbala líbali líbej líbejte líbá líbám líbání líbáním líbáš polib polibte políbení políbil políbila políbili políbit políbí políbím
+44	3444	vyšetřovat	vyšetřen vyšetřena vyšetřeno vyšetřeny vyšetřil vyšetřila vyšetřili vyšetřit vyšetřoval vyšetřovala vyšetřovali vyšetřovalo vyšetřované vyšetřovaný vyšetřován vyšetřována vyšetřováni vyšetřovány vyšetřuje vyšetřujeme vyšetřují vyšetřující vyšetří
+45	3445	porušit	neporušené porušen porušena porušeno porušeny porušený porušil porušila porušili porušilo porušily porušovat porušuje poruší porušíte
+46	3446	motorový	motorovou motorová motorové motorového motorovém motorových motorovým motorovými
+47	3447	taktika	taktice taktickou taktická taktické taktického taktickém taktický taktických taktickým taktickými taktik taktikou taktiku taktiky
+48	3448	kouzelný	kouzelnou kouzelná kouzelné kouzelného kouzelném kouzelnému kouzelní kouzelných kouzelným kouzelnými kouzelně nejkouzelnější
+49	3449	varování	varováním
+50	3450	přitáhnout	přitahoval přitahovala přitahovalo přitahovaly přitahovat přitahován přitahována přitahováni přitahovány přitahování přitahuje přitahujeme přitahujete přitahuju přitahují přitahující přitažení přitáhl přitáhla přitáhli přitáhly přitáhne
+51	3451	parkoviště	parkovišti parkovištích parkovištěm parkovišť
+52	3452	spravedlivý	nejspravedlivější spravedlivou spravedlivá spravedlivé spravedlivého spravedlivém spravedlivému spravedliví spravedlivých spravedlivým spravedlivými spravedlivě spravedlivější
+53	3453	email	emailech emailem emailu emaily emailů
+54	3454	průkaz	průkazech průkazem průkazu průkazy průkazů
+55	3455	zásluha	zásluh zásluhami zásluhou zásluhu zásluhy zásluhách zásluhám zásluze
+56	3456	zapnout	zapne zapneme zapnete zapni zapnou zapnu zapnul zapnula zapnuli zapnut zapnuta zapnuto zapnuty zapnutý zapněte zapínat
+57	3457	bonus	bonusech bonusem bonusu bonusy bonusů
+58	3458	hrana	hran hranami hranou hranu hrany hranách hraně
+59	3459	genetický	genetickou geneticky genetická genetické genetického genetickém genetickému genetických genetickým genetickými
+60	3460	ony	jima nima
+61	3461	komentovat	komentoval komentovala komentovali komentovaný komentovány komentování komentuje komentují komentující
+62	3462	roztomilý	nejroztomilejší roztomile roztomilou roztomilá roztomilé roztomilého roztomilí roztomilých roztomilým roztomilými
+63	3463	vize	vizemi vizi vizí vizích vizím
+64	3464	deprese	depresemi depresi depresí depresích depresím
+65	3465	daleký	dalece dalek daleka dalekou daleká daleké dalekého dalekém dalekých dalekým nedaleké nedalekého nedalekém
+66	3466	banda	band bando bandou bandu bandy bandě
+67	3467	holý	hole holo holou holá holé holého holém holí holých holým holýma holými
+68	3468	odpočinek	odpočinkem odpočinku
+69	3469	spořitelna	spořitelen spořitelnou spořitelnu spořitelny spořitelně
+70	3470	lézt	lez leze lezeme lezete lezeš lezl lezla lezli lezlo lezly lezou lezoucí lezu loz lozit poleze polezou
+71	3471	milovník	milovnice milovnicí milovníci milovníka milovníkem milovníky milovníků milovníkům
+72	3472	výtah	výtahem výtahu výtahy výtahů výtahům výtazích
+73	3473	maturita	maturit maturitou maturitu maturity maturitě
+74	3474	podklad	podkladech podkladem podkladu podklady podkladě podkladů
+75	3475	teta	tet tetami tetičce tetiček tetička tetičkou tetičku tetičky tetka teto tetou tetu tety tetě
+76	3476	usmát	usmál usmála usmáli usmálo usmívat usmívá usměje usměješ usmějte usměju usmějí
+77	3477	dub	doubek duba dubem dubovou dubová dubové dubového dubovém dubový dubových dubovým dubovými dubu duby dubů
+78	3478	trapný	nejtrapnější trapnou trapná trapné trapného trapní trapných trapným trapně trapnější
+79	3479	nakladatelství	nakladatelstvích nakladatelstvím
+80	3480	zvyklý	zvyklá zvyklé zvyklí
+81	3481	křičet	křičel křičela křičeli křičelo křičely křičí křičící křičím křičíme křičíte nekřičí
+82	3482	terorista	teroristech teroristka teroristou teroristovi teroristu teroristy teroristé teroristů teroristům
+83	3483	únik	únicích únikem úniku úniky úniků únikům
+84	3484	organizátor	organizátora organizátorem organizátorovi organizátory organizátorů organizátorům organizátoři
+85	3485	au	
+86	3486	en	
+87	3487	nutně	
+88	3488	komunikovat	komunikoval komunikovala komunikovali komunikovaly komunikuje komunikujeme komunikujete komunikuji komunikujte komunikují komunikující
+89	3489	zkrátit	zkracovat zkracuje zkraťte zkrácen zkrácena zkráceno zkrácenou zkráceny zkrácená zkrácené zkráceného zkráceném zkrácený zkrácených zkráceným zkrácenými zkrátil zkrátila zkrátili zkrátilo zkrátily zkrátí zkrátím zkrátíme
+90	3490	obhájit	obhajoval obhajovat obhajování obhajuje obhajují obhajující obhájení obhájil obhájila obhájili obhájilo obhájily obhájí
+91	3491	terasa	teras terasami terase terasou terasu terasy terasách
+92	3492	spolupracovník	spolupracovnice spolupracovníci spolupracovníka spolupracovníkem spolupracovníkovi spolupracovníky spolupracovníků spolupracovníkům
+93	3493	měkký	měkce měkko měkkou měkká měkké měkkého měkkém měkkému měkkých měkkým měkkými měkčí nejměkčí
+94	3494	tenis	tenise tenisem tenisu
+95	3495	pleť	pleti pletí
+96	3496	shoda	shod shodou shodu shody shodě
+97	3497	car	cara care carem carovi carové caru cary carů
+98	3498	přeprava	přeprav přepravou přepravu přepravy přepravě
+99	3499	vážený	nejváženější nejváženějších váženou vážená vážené váženého váženému vážení vážených váženým váženými
+100	3500	podrobnost	podrobnostech podrobnosti podrobnostmi podrobností

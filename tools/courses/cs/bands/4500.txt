@@ -1,0 +1,100 @@
+1	4401	vynést	vynese vyneseme vynesen vynesena vyneseno vyneseny vynesl vynesla vynesli vyneslo vynesly vynesou vynášet vynáší
+2	4402	katastr	katastrech katastrem katastru katastry katastrů
+3	4403	dostupnost	dostupnosti dostupností
+4	4404	naivní	naivních naivního naivním naivně
+5	4405	zhubnout	hubne hubnou hubnoucí hubnout hubnu zhubl zhubla zhubli zhubne zhubnete zhubnu
+6	4406	ponožka	ponožce ponožek ponožkami ponožkou ponožku ponožky ponožkách
+7	4407	ujít	neušel neušlo ušel
+8	4408	žrát	sežerou sežrat žere žerou žeru žral žrala žrali žralo
+9	4409	očkování	očkováním
+10	4410	chřipka	chřipce chřipek chřipkou chřipková chřipkové chřipkového chřipkových chřipku chřipky
+11	4411	pánbůh	panebože pánaboha pánubohu
+12	4412	vézt	nevezme poveze povezeme povezou povezu vez veze vezeme vezete vezl vezla vezli vezlo vezly vezme vezou vezoucí vezu
+13	4413	ostuda	ostudnou ostudná ostudné ostudný ostudně ostudou ostudu ostudy ostudě
+14	4414	policajt	policajta policajtech policajtem policajti policajtovi policajty policajtů policajtům
+15	4415	oženit	neoženil oženil oženili ožení ženil ženili ženit žení ženě ženění žeň žní žních žně
+16	4416	zaznít	zazní zazněl zazněla zaznělo zazněly
+17	4417	rukavice	rukavic rukavicemi rukavici rukavicí rukavicích rukavička rukavičkách
+18	4418	kdokoli	kohokoli komukoli kýmkoli
+19	4419	počáteční	počátečních počátečního počátečním počátečními počátečnímu
+20	4420	smrdět	smrdí smrdím smrděl smrděla smrdělo
+21	4421	štěpán	štěpána štěpánem štěpánovi
+22	4422	filtr	filtrem filtru filtry filtrů
+23	4423	rozpad	rozpadem rozpadu rozpady
+24	4424	přistání	přistáním
+25	4425	vnímání	vnímáním
+26	4426	prozkoumat	neprozkoumané prozkoumají prozkoumal prozkoumala prozkoumali prozkoumaný prozkoumej prozkoumejte prozkoumá prozkoumáme prozkoumán prozkoumána prozkoumáno prozkoumány prozkoumání prozkoumáte prozkoumávat
+27	4427	celebrita	celebrit celebritami celebritou celebritu celebrity celebritách celebritám celebritě
+28	4428	biskup	biskupa biskupem biskupovi biskupové biskupu biskupy biskupů biskupům
+29	4429	vyslechnout	vyslechl vyslechla vyslechli vyslechne vyslechnou vyslýchají vyslýchal vyslýchala vyslýchali vyslýchat vyslýchá vyslýchán vyslýchána vyslýcháni vyslýchání
+30	4430	přihláška	přihlášce přihlášek přihláškou přihlášku přihlášky
+31	4431	obklopit	obklopen obklopena obklopeni obklopeno obklopeny obklopení obklopil obklopila obklopili obklopilo obklopily obklopovat obklopuje obklopí
+32	4432	solidní	solidních solidního solidním solidními solidně
+33	4433	mistrovský	mistrovskou mistrovská mistrovské mistrovského mistrovském mistrovskému mistrovských mistrovským mistrovskými
+34	4434	pestrý	nejpestřejší pestrou pestrá pestré pestrého pestrém pestrých pestrým pestrými pestře pestřejší
+35	4435	sundat	sundají sundal sundala sundali sundavat sundej sundejte sundá sundám sundáme sundáte
+36	4436	pochybnost	pochybnostech pochybnostem pochybnosti pochybnostmi pochybností
+37	4437	vada	vad vadami vado vadou vadu vady vadách vadám vadě
+38	4438	vybudování	vybudováním
+39	4439	vkus	vkuse vkusem vkusu
+40	4440	nizozemský	nizozemskou nizozemská nizozemské nizozemského nizozemském nizozemskému nizozemských nizozemským nizozemskými nizozemští
+41	4441	usnadnit	usnadnil usnadnila usnadnili usnadnilo usnadnily usnadní usnadníte usnadnění usnadňovat usnadňuje
+42	4442	bronz	bronze bronzem bronzu bronzy
+43	4443	převodovka	převodovce převodovek převodovkami převodovkou převodovku převodovky
+44	4444	pravicový	pravicovou pravicová pravicové pravicového pravicovému pravicoví pravicových pravicovým pravicovými pravicovější
+45	4445	penis	penisem penisu penisy penisů
+46	4446	kolonie	koloniemi kolonii kolonií koloniích koloniím
+47	4447	pozvánka	pozvánce pozvánek pozvánkami pozvánkou pozvánku pozvánky pozvánkách
+48	4448	hotové	hotových hotovým hotovými
+49	4449	opatřit	opatřen opatřena opatřeno opatřeny opatřené opatřený opatřil opatřila opatřili opatřovat opatří opatříme
+50	4450	provázet	provázejí provázel provázela provázen provázeny provází
+51	4451	financovat	financoval financovala financovali financovalo financovaly financované financovaný financován financována financováno financovány financuje financujeme financují financující
+52	4452	statistický	statistickou statistická statistické statistického statistickém statistických statistickým statistickými
+53	4453	sněm	sněmech sněmem sněmu sněmy sněmů
+54	4454	dosažený	dosažen dosaženo dosaženou dosažená dosažené dosaženého dosaženém dosažených dosaženým dosaženými
+55	4455	průvod	průvodech průvodem průvodu průvody průvodů
+56	4456	expedice	expedic expedici expedicí expedicích
+57	4457	id	ide idem idu idy
+58	4458	obhajoba	obhajobou obhajobu obhajoby obhajobě
+59	4459	tarif	tarifech tarifem tarifu tarify tarifů tarifům
+60	4460	obtěžovat	neobtěžoval obtěžoval obtěžovala obtěžovali obtěžovalo obtěžován obtěžováni obtěžování obtěžováním obtěžuje obtěžuji obtěžují obtěžující
+61	4461	zpomalit	zpomalen zpomalené zpomalený zpomalil zpomalila zpomalili zpomalilo zpomalily zpomalovat zpomalte zpomaluje zpomalí
+62	4462	trpaslík	trpaslíci trpaslících trpaslíka trpaslíkem trpaslíkovi trpaslíku trpaslíky trpaslíků trpaslíkům
+63	4463	začínající	začínajících začínajícího začínajícím začínajícími začínajícímu
+64	4464	architektonický	architektonickou architektonická architektonické architektonického architektonickém architektonickému architektonických architektonickým architektonickými
+65	4465	děvka	děvko děvkou děvku děvky
+66	4466	jmenování	jmenováním
+67	4467	vyřadit	vyřadil vyřadila vyřadili
+68	4468	praktika	praktice praktik praktikami praktikou praktiku praktiky praktikách praktikám
+69	4469	satelit	satelitech satelitem satelitu satelity satelitů satelitům
+70	4470	sponzor	sponzora sponzorech sponzorem sponzorovi sponzory sponzorů sponzorům sponzoři
+71	4471	tuzemský	tuzemskou tuzemská tuzemské tuzemského tuzemském tuzemských tuzemským tuzemskými tuzemští
+72	4472	navrátit	navrácen navrácena navráceno navráceny navrácení navrátil navrátila navrátili navrátilo navrátily navrátivší navrátí
+73	4473	zánět	zánětech zánětem zánětu záněty zánětů zánětům
+74	4474	absurdní	absurdních absurdního absurdním absurdně absurdnější nejabsurdnější
+75	4475	dobový	dobovou dobová dobové dobového dobovém dobovému dobových dobovým dobovými dobově
+76	4476	komplikovat	komplikoval komplikovala komplikovalo komplikovaly komplikuje komplikují zkomplikoval zkomplikovala zkomplikovali zkomplikovalo zkomplikovaly zkomplikovat zkomplikuje zkomplikují
+77	4477	kontroverzní	kontroverzních kontroverzního kontroverzním kontroverzními kontroverznímu kontroverzně nejkontroverznější nejkontroverznějších
+78	4478	šíp	šípek šípem šípkovou šípková šípkové šípku šípky šípků šípu šípy šípů šípům
+79	4479	černoch	černocha černochem černochovi černochová černochy černochů černochům černoušek černouška černoušků černošek černoši černoška černošku černošky
+80	4480	vyhledávání	vyhledáváním
+81	4481	stvořit	stvořen stvořena stvořeni stvořeno stvořeny stvořený stvořil stvořila stvořili stvořilo stvořily stvoří
+82	4482	svině	svini sviní sviním
+83	4483	mříž	mřížce mříže mřížek mřížemi mříži mřížka mřížkou mřížku mřížky mříží
+84	4484	pojistné	pojistná pojistného pojistném pojistnému pojistných pojistným pojistnými
+85	4485	přípravek	přípravku přípravky přípravků
+86	4486	řez	řezech řezem řezu řezy řezů
+87	4487	vyhledat	vyhledají vyhledal vyhledala vyhledali vyhledej vyhledejte vyhledá vyhledám vyhledáme vyhledání vyhledáte
+88	4488	povědět	poví povím povíme povíte povíš pověděl pověděla pověděli pověz povězme povězte
+89	4489	pátrání	pátráním
+90	4490	vinohrad	vinohradech vinohradské vinohradský vinohradu vinohrady vinohradů
+91	4491	rituál	rituálech rituálem rituálu rituály rituálů rituálům
+92	4492	převrat	převratem převratu převraty převratů
+93	4493	dynamický	dynamickou dynamicky dynamická dynamické dynamického dynamickém dynamickému dynamických dynamickým dynamickými dynamičtější nejdynamičtější
+94	4494	tetování	tetováním
+95	4495	nuda	nudou nudu nudy nudě
+96	4496	vdova	vdov vdovce vdovcem vdovci vdovec vdovou vdovského vdovský vdovu vdovy vdovám vdově
+97	4497	včela	včel včelami včele včelka včelou včelu včely včelách včelám
+98	4498	detektiv	detektiva detektivem detektivovi detektivové detektivu detektivy detektivů detektivům
+99	4499	prodavač	prodavačce prodavače prodavaček prodavačem prodavači prodavačka prodavačkou prodavačku prodavačky prodavačů
+100	4500	tržní	tržních tržního tržním tržními tržnímu tržně

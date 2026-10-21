@@ -1,0 +1,100 @@
+1	701	sportovní	nesportovní sportovních sportovního sportovním sportovními sportovnímu sportovně sportovněji sportovnější
+2	702	provést	neprovedla neprovedli proved provede provedeme proveden provedena provedeno provedeny provedete provedl provedla provedli provedlo provedly provedou provedu proveď proveďte provádí provádět
+3	703	ministerstvo	ministerstev ministerstva ministerstvech ministerstvem ministerstvu ministerstvy ministerstvům
+4	704	spíše	nejspíše
+5	705	oblíbený	nejoblíbenější nejoblíbenějších nejoblíbenějšího nejoblíbenějším nejoblíbenějšími oblíbenou oblíbená oblíbené oblíbeného oblíbeném oblíbenému oblíbení oblíbených oblíbeným oblíbenými oblíbenější oblíbenějším
+6	706	mysl	mysli myslí myslích myslím
+7	707	pravidlo	pravidel pravidla pravidle pravidlech pravidlem pravidlu pravidly pravidlům
+8	708	historický	historickou historicky historická historické historického historickém historickému historických historickým historickými
+9	709	moderní	moderních moderního moderním moderními modernímu moderně moderněji modernější modernějších modernějšího modernějším modernějšími nejmodernější nejmodernějších nejmodernějšího nejmodernějším nejmodernějšími
+10	710	hodit	hodil hodila hodili hodilo hodily hodí hodící hodím hodíme hodíte hodíš hozen hozena hozenou hozená hozené hození hozený hoď hoďte házejí házel házela házeli házelo házely házení házením házet hází házím házíme házíte háže hážou hážu nehodil nehodily nehodí
+11	711	skutečnost	skutečnostech skutečnostem skutečnosti skutečnostmi skutečností
+12	712	představovat	nepředstavoval nepředstavuje nepředstavuji nepředstavují představoval představovala představovali představovalo představovaly představované představovaný představován představována představovány představování představuje představujeme představujete představuješ představuji představujte představuju představují představující představujících
+13	713	normální	normálních normálního normálním normálními normálnímu normálně normálnější
+14	714	ročník	roč ročnících ročníkem ročníku ročníky ročníků ročníkům
+15	715	postup	postupech postupem postupu postupy postupů postupům
+16	716	průmysl	průmyslem průmyslovou průmyslová průmyslové průmyslového průmyslovém průmyslovému průmysloví průmyslový průmyslových průmyslovým průmyslovými průmyslově průmyslu průmyslů
+17	717	píseň	písni písničce písniček písnička písničkami písničkou písničku písničky písničkách písničkám písní písních písním písně písněmi
+18	718	stroj	stroje strojek strojem stroji strojkem strojku strojky strojků strojích strojů strojům
+19	719	banka	bance bank bankami bankou banku banky bankách bankám
+20	720	někde	
+21	721	zatímco	
+22	722	zítra	
+23	723	podoba	podob podobami podobou podobu podoby podobách podobám podobě
+24	724	oficiální	neoficiální neoficiálních neoficiálního neoficiálním neoficiálně oficiálních oficiálního oficiálním oficiálními oficiálnímu oficiálně
+25	725	řídit	neřídí řiďte řídil řídila řídili řídilo řídily řídí řídící řídících řídícího řídícím řídícími řídícímu řídím řídíme řídíte řídíš řízen řízena řízeni řízeno řízenou řízeny řízená řízené řízeného řízeném řízenému řízený řízených řízeným řízenými řízeně
+26	726	přijet	nepřijel nepřijeli přijede přijedeme přijedete přijedeš přijedou přijedu přijel přijela přijeli přijelo přijely přijeď přijeďte přijíždí přijíždím přijíždíme přijíždíte přijíždějí přijíždějící přijížděl přijížděla přijížděli přijíždělo přijížděly přijíždět
+27	727	hezký	hezcí hezkou hezká hezké hezkého hezkém hezkému hezkých hezkým hezkými hezčí hezčího hezčím nejhezčí nejhezčích nejhezčího nejhezčím
+28	728	zvládnout	nezvládl nezvládla nezvládli nezvládnou zvládat zvládl zvládla zvládli zvládlo zvládly zvládne zvládneme zvládnete zvládneš zvládnou zvládnu zvládnuté zvládnutí zvládnutý zvládá
+29	729	neděle	neděl neděli nedělní nedělních nedělního nedělním nedělnímu nedělí nedělích
+30	730	říjen	října říjnem říjnovou říjnová říjnové říjnového říjnovém říjnový říjnových říjnovým říjnu
+31	731	park	parcích parkem parku parky parků parkům parčík
+32	732	výběr	výběrech výběrem výběru výběry výběrů
+33	733	krok	krocích krokem kroku kroky kroků krokům krůček krůčku krůčky
+34	734	ono	jemu jím něho němu
+35	735	proces	procesech procesem procesu procesy procesů procesům
+36	736	zaplatit	nezaplacené nezaplacených nezaplatil zaplacen zaplacena zaplaceno zaplacenou zaplaceny zaplacená zaplacené zaplaceného zaplacení zaplacením zaplacený zaplacených zaplatil zaplatila zaplatili zaplatilo zaplatily zaplatí zaplatím zaplatíme zaplatíte zaplatíš zaplať zaplaťte
+37	737	rozhodnutí	rozhodnutích rozhodnutím rozhodnutími
+38	738	sloužit	neslouží posloužit poslouží sloužena sloužení sloužil sloužila sloužili sloužilo sloužily slouží sloužící sloužícím sloužím sloužíme služ
+39	739	přitom	
+40	740	spíš	
+41	741	včera	
+42	742	letadlo	letadel letadla letadle letadlech letadlem letadlové letadlu letadly letadlům letadélko
+43	743	speciální	specielní speciálních speciálního speciálním speciálními speciálnímu speciálně
+44	744	zaměstnanec	zaměstnance zaměstnancem zaměstnanci zaměstnancích zaměstnanců zaměstnancům zaměstnankyni zaměstnankyní zaměstnankyním zaměstnankyně zaměstnankyň
+45	745	úspěch	úspěchem úspěchu úspěchy úspěchů úspěchům úspěších
+46	746	učitel	učitelce učitele učitelek učitelem učiteli učitelka učitelkami učitelko učitelkou učitelku učitelky učitelkám učitelskou učitelská učitelské učitelského učitelském učitelskému učitelský učitelských učitelským učitelé učitelích učitelů učitelům
+47	747	duben	dubna dubnem dubnovou dubnová dubnové dubnového dubnovém dubnový dubnových dubnovým dubnu
+48	748	měnit	měnil měnila měnili měnilo měnily mění měnící měnících měnícím měním měníme měníte měně měněn měněna měněny měnění měňte neměnil nemění
+49	749	udržet	neudržel neudržela udržel udržela udrželi udrželo udržely udržení udržením udržoval udržovala udržovali udržovalo udržovaly udržovanou udržovaná udržované udržovaný udržovaných udržovanými udržovat udržován udržována udržováno udržovány udržování udržte udržuje udržujeme udržujete udržuji udržujte udržuju udržují udržující udrží udržím udržíme udržíte
+50	750	jasně	jasněji nejjasněji
+51	751	zapomenout	nezapomínají nezapomínej nezapomíná zapomene zapomeneme zapomenete zapomeneš zapomenou zapomenu zapomenul zapomenut zapomenuta zapomenuti zapomenuto zapomenuty zapomenutí zapomeň zapomeňme zapomeňte zapomněl zapomněla zapomněli zapomnělo zapomněly zapomnění zapomínají zapomínal zapomínala zapomínali zapomínat zapomíná zapomínám zapomínáme zapomínání zapomínáte zapomínáš
+52	752	parlament	parlamentech parlamentem parlamentní parlamentních parlamentního parlamentním parlamentními parlamentnímu parlamentu parlamenty parlamentě parlamentů parlamentům
+53	753	srpen	srpna srpnem srpnovou srpnová srpnové srpnového srpnovém srpnový srpnových srpnovým srpnu
+54	754	splnit	neplní nesplnil nesplnila nesplní plnil plnila plnili plnilo plnily plnit plní plnící plním plníme plněná plněné plnění plněním plněný splnil splnila splnili splnilo splnily splní splním splníme splníte splněn splněna splněno splněny splněné splnění splněný splněných splňovat splňte splňuje
+55	755	silnice	silnic silnicemi silnici silnicí silnicích silnicím silnička
+56	756	titul	titulech titulem titulu tituly titulů titulům
+57	757	sen	sna snech snem snu sny snách snů snům
+58	758	jehož	jejichž jejíž
+59	759	zdarma	
+60	760	studium	studia studiem studii studijní studijních studijním studiu studií studiích studiím
+61	761	událost	událostech událostem události událostmi událostí
+62	762	napadnout	napad napadat napaden napadena napadeni napadeno napadeny napadl napadla napadli napadlo napadly napadne napadnou napadnutí napadá nenapadla nenapadlo nenapadne
+63	763	opustit	neopustí opouští opouštět opustil opustila opustili opustilo opustily opustí opustím opustíme opustíte opustíš opusťte opuštěn opuštěna opuštěni opuštěno opuštěnou opuštěny opuštěná opuštěné opuštěného opuštěném opuštěnému opuštění opuštěný opuštěných opuštěným opuštěnými opuštěně
+64	764	určitý	určitou určitá určité určitého určitém určitému určití určitých určitým určitými
+65	765	účet	účtech účtem účtu účty účtě účtů účtům
+66	766	způsobit	nezpůsobí způsoben způsobena způsobeno způsobenou způsobeny způsobená způsobené způsobeného způsobeném způsobenému způsobení způsobený způsobených způsobeným způsobenými způsobil způsobila způsobili způsobilo způsobily způsobovat způsobuje způsobí způsobím způsobíme způsobíte
+67	767	strávit	stravovali stravovat strávenou strávená strávené stráveného stráveném strávení strávený strávených stráveným strávil strávila strávili strávilo strávily stráví strávím strávíme strávíte trav trávení trávením trávil trávila trávili trávily trávit tráví trávící trávím trávíme trávíte trávě
+68	768	připomenout	připomene připomeneme připomenete připomenou připomenu připomenul připomenula připomenut připomenuta připomenuto připomeň připomeňme připomeňte připomněl připomněla připomněli připomnělo připomněly připomínají připomínající připomínajících připomínajícího připomínajícím připomínajícími připomínal připomínala připomínali připomínalo připomínaly připomínat připomíná připomínám připomínáme připomínán připomínána připomínáno připomínání připomínáte
+69	769	okno	oken okna oknech oknem oknu okny okně oknům okének okénka okénkem okénko okénku okénky okýnek okýnka okýnkem okýnko okýnku
+70	770	herec	herce hercem herci hercova hercích herců hercům hercův herečce hereček herečka herečkami herečkou herečku herečky herečkám
+71	771	zeptat	zeptají zeptal zeptala zeptali zeptalo zeptaly zeptej zeptejme zeptejte zeptá zeptám zeptáme zeptání zeptáte zeptáš
+72	772	správa	správ správou správu správy správě
+73	773	trenér	trenéra trenére trenérem trenérka trenérkou trenérku trenérky trenérovi trenérské trenérský trenéru trenéry trenérů trenérům trenéři
+74	774	čtvrtek	čt čtvrtce čtvrteční čtvrtečních čtvrtečního čtvrtečním čtvrtka čtvrtkem čtvrtku čtvrtky
+75	775	projít	neprojde neprošel neprošly projde projdeme projdete projdeš projdi projdou projdu projděte prošel prošla prošli prošlo prošly
+76	776	květen	května květnem květnovou květnová květnové květnového květnovém květnový květnových květnovým květnu
+77	777	prosinec	prosince prosincem prosinci prosincovou prosincová prosincové prosincového prosincovém prosincový prosincových
+78	778	šťastný	nejšťastnější nejšťastnějších nejšťastnějším šťasten šťastni šťastnou šťastná šťastné šťastného šťastném šťastnému šťastní šťastných šťastným šťastnými šťastně šťastnější šťastnějších šťastnějším
+79	779	klid	klidem klidové klidový klidu
+80	780	občas	
+81	781	voják	vojáci vojácích vojáka vojákem vojákovi vojáku vojáky vojáků vojákům vojáček
+82	782	zástupce	zástupcem zástupci zástupcích zástupců zástupcům zástupkyni zástupkyní zástupkyně
+83	783	výše	výši výší
+84	784	vadit	nevadilo nevadí vadil vadila vadilo vadily vadí vadě
+85	785	technický	technickou technická technické technického technickém technickému technických technickým technickými techničtí
+86	786	dílo	díla díle dílech dílem dílu díly dílům děl
+87	787	označit	označ označen označena označeni označeno označeny označené označený označil označila označili označilo označily označme označoval označovala označovali označovalo označovaly označované označovaný označovat označován označována označováni označováno označovány označování označováním označte označuje označujeme označuji označují označující označí označím označíme označíte
+88	788	přístup	přístupech přístupem přístupové přístupový přístupu přístupy přístupů přístupům
+89	789	umělec	umělce umělcem umělci umělcova umělcích umělců umělcům umělcův uměleckou umělecky umělecká umělecké uměleckého uměleckém uměleckému umělecký uměleckých uměleckým uměleckými umělečtí umělkyni umělkyní umělkyně umělkyň
+90	790	únor	února únorem únorovou únorová únorové únorového únorovém únorový únorových únorovým únoru
+91	791	strom	stromech stromek stromem stromkem stromku stromky stromků stromovou stromová stromové stromového stromový stromových stromu stromy stromě stromů stromům
+92	792	dolar	dolarech dolarem dolaru dolary dolarů dolarům
+93	793	majitel	majitelce majitele majitelem majiteli majitelka majitelkou majitelku majitelky majitelé majitelích majitelů majitelům
+94	794	radost	radostech radostem radosti radostmi radostí
+95	795	materiál	materiálech materiálem materiálu materiály materiálů materiálům
+96	796	centimetr	centimetrech centimetru centimetry centimetrů cm
+97	797	hlásit	hlaste hlásil hlásila hlásili hlásilo hlásí hlásící hlásím hlásíme hlášen hlášena hlášeno hlášeny nehlásil nehlásí ohlásil ohlásila ohlásili ohlásit ohlásí ohlášen ohlášena ohlášeno ohlášené ohlášení přihlaste přihlašte přihlásil přihlásila přihlásili přihlásilo přihlásily přihlásit přihlásí přihlásím přihlášen přihlášeno přihlášení přihlášených
+98	798	vysoká	vysokou vysoké
+99	799	náměstí	náměstích náměstím náměstíčka náměstíčko náměstíčku
+100	800	hotel	hotelech hotelem hotelu hotely hotelích hotelů hotelům hotýlek hotýlku

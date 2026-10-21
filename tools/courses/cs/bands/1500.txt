@@ -1,0 +1,100 @@
+1	1401	divný	divnou divná divné divného divném divní divných divným divnými divně divnější nejdivnější
+2	1402	polský	polskou polsky polská polské polského polském polskému polských polským polskými polští
+3	1403	půda	půd půdou půdu půdy půdách půdě
+4	1404	návštěvník	návštěvnice návštěvních návštěvníci návštěvnících návštěvníka návštěvníkem návštěvníkovi návštěvníku návštěvníky návštěvníků návštěvníkům
+5	1405	chytrý	chytrou chytrá chytré chytrého chytrém chytrému chytrých chytrým chytrými chytře chytřeji chytřejší chytřejšího chytřejším chytří nejchytřejší nejchytřejších nejchytřejším
+6	1406	zásadní	nejzásadnější nejzásadnějších nejzásadnějším zásadních zásadního zásadním zásadními zásadnímu zásadně zásadnější
+7	1407	představa	představ představami představou představu představy představách představám představě
+8	1408	dostupný	dostupnou dostupná dostupné dostupného dostupném dostupnému dostupní dostupných dostupným dostupnými dostupnější nejdostupnější
+9	1409	projev	projevech projevem projevu projevy projevů projevům
+10	1410	karta	karet kart kartami kartičce kartiček kartička kartičkou kartičku kartičky kartičkách kartou kartu kartách kartám kartě
+11	1411	důsledek	důsledcích důsledkem důsledku důsledky důsledků důsledkům
+12	1412	princip	principe principech principem principu principy principů principům
+13	1413	uskutečnit	neuskutečnil neuskuteční uskutečnil uskutečnila uskutečnili uskutečnilo uskutečnily uskuteční uskutečníme uskutečněn uskutečněna uskutečněno uskutečněny uskutečnění uskutečněním uskutečněný uskutečňovat uskutečňuje
+14	1414	šaty	šatech šatů šatům
+15	1415	církev	církve církvemi církvi církví církvích církvím
+16	1416	všimnout	nevšiml nevšimla nevšimne nevšimnout nevšímali nevšímat všiml všimla všimli všimlo všimly všimne všimneme všimnete všimni všimnou všimnu všimnul všimněme všimněte všímají všímal všímala všímali všímat všímejte všímá všímám všímáme všímáte
+17	1417	schválit	neschválí schvaloval schvalovat schvaluje schvalují schválen schválena schváleno schválenou schváleny schválená schválené schváleného schváleném schválenému schválený schválených schváleným schválenými schválil schválila schválili schválilo schválily schválí schválíme
+18	1418	proud	proudech proudem proudový proudových proudu proudy proudů proudům
+19	1419	rozum	nejrozumnější nerozumná nerozumné rozumem rozumnou rozumná rozumné rozumného rozumném rozumnému rozumní rozumný rozumných rozumným rozumnými rozumně rozumnější rozumová rozumové rozumu rozumy
+20	1420	minout	mine mineme minete minou minu minul minula minuli minulo minuly minut minuty míjeli míjet nemine neminul
+21	1421	stavět	stavte staví stavící stavím stavíme stavíte stavíš stavějí stavějící stavěl stavěla stavěli stavělo stavěly stavěn stavěna stavěno stavěny stavění stavěním stavěný
+22	1422	sněmovna	sněmovnou sněmovnu sněmovny sněmovně
+23	1423	dohromady	
+24	1424	jelikož	
+25	1425	okamžitě	
+26	1426	olympijský	olympijskou olympijská olympijské olympijského olympijském olympijskému olympijských olympijským olympijskými olympijští
+27	1427	krize	krise krizemi krizi krizí krizích krizím
+28	1428	kůže	kůžemi kůži kůžička kůží kůžích
+29	1429	zasloužit	zaslouženou zasloužená zasloužené zaslouženého zaslouženému zasloužený zasloužených zaslouženým zasloužil zasloužila zasloužili zasloužilo zasloužily zaslouží zasloužím zasloužíme zasloužíte zasloužíš zasluhuje
+30	1430	odpovědět	neodpověděl odpoví odpovím odpovíme odpovíte odpovíš odpovědí odpověděl odpověděla odpověděli odpovědělo odpověděly odpověz odpovězte
+31	1431	žák	žaček žačka žačkou žačku žačky žáci žácích žáka žákem žákovi žákovskou žákovská žákovské žákovského žákovském žákovský žákovských žáková žáku žáky žákyni žákyní žákyně žákyň žáků žákům žáček
+32	1432	ohled	ohledech ohledem ohledu ohledy ohledů
+33	1433	vesmír	vesmírech vesmírem vesmírnou vesmírná vesmírné vesmírného vesmírném vesmírnému vesmírní vesmírný vesmírných vesmírným vesmírnými vesmíru vesmíry vesmírů
+34	1434	podíl	podílech podílem podílu podíly podílů
+35	1435	projevovat	neprojevilo neprojevily neprojevovala neprojevuje neprojevují neprojeví projevení projevil projevila projevili projevilo projevily projevit projevoval projevovala projevovali projevovalo projevovaly projevování projevuje projevujete projevují projevující projeví projevíte
+36	1436	náročný	nejnáročnější nejnáročnějších nejnáročnějším nenáročná náročnou náročná náročné náročného náročném náročnému nároční náročných náročným náročnými náročně náročnější náročnějších náročnějšího náročnějším náročnějšími
+37	1437	kůň	koni koních koníci koník koníka koníky koníků koním koně koněm koňmi koňovi koňů koňům
+38	1438	zveřejnit	nezveřejnila nezveřejní zveřejnil zveřejnila zveřejnili zveřejnilo zveřejnily zveřejní zveřejním zveřejníme zveřejníte zveřejněn zveřejněna zveřejněno zveřejněny zveřejněné zveřejněný zveřejňovat zveřejňuje zveřejňujeme zveřejňují
+39	1439	vyzkoušet	nevyzkoušené vyzkoušej vyzkoušejte vyzkoušejí vyzkoušel vyzkoušela vyzkoušeli vyzkoušelo vyzkoušely vyzkoušen vyzkoušena vyzkoušeno vyzkoušeny vyzkoušená vyzkoušené vyzkoušení vyzkoušený vyzkoušených vyzkouší vyzkouším vyzkoušíme vyzkoušíte vyzkoušíš
+40	1440	kritika	kritice kritici kritik kritikem kritikou kritikovi kritikové kritiku kritiky kritiků kritikům kritička kritičkou
+41	1441	elektrický	elektrickou elektricky elektrická elektrické elektrického elektrickém elektrickému elektrických elektrickým elektrickými
+42	1442	výjimka	vyjímka výjimce výjimek výjimkami výjimkou výjimku výjimky výjimkách výjimkám
+43	1443	léčba	léčbou léčbu léčby léčbě léčebnou léčebná léčebné léčebného léčebném léčebnému léčebný léčebných léčebným léčebnými léčebně
+44	1444	italský	italskou italsky italská italské italského italském italskému italských italským italskými italští
+45	1445	požadavek	požadavcích požadavkem požadavku požadavky požadavků požadavkům
+46	1446	výstavba	výstavbou výstavbu výstavby výstavbě
+47	1447	přehled	přehledech přehledem přehledu přehledy přehledů
+48	1448	vymyslet	nevymysleli vymyslel vymyslela vymysleli vymyslelo vymyslely vymyslete vymysli vymyslí vymyslím vymyslíme vymyslíte vymyslíš vymyšlen vymyšlena vymyšleno vymyšleny vymýšlejí vymýšlel vymýšlela vymýšleli vymýšlení vymýšlet vymýšlí vymýšlím vymýšlíme vymýšlíte
+49	1449	nádraží	nádražích nádražím
+50	1450	bolet	bol bolel bolela bolelo bolely bolení bolu bolí nebolí
+51	1451	zlato	zlata zlatem zlatu zlaty zlatíčka zlatíčko zlatě
+52	1452	minimálně	
+53	1453	náhodou	
+54	1454	strašně	
+55	1455	agentura	agentur agenturami agenturou agenturu agentury agenturách agenturám agentuře
+56	1456	teorie	teoretickou teoretická teoretické teoretického teoretickém teoretickému teoretický teoretických teoretickým teoretickými teoriemi teorii teorií teoriích teoriím
+57	1457	pobyt	pobytech pobytem pobytu pobyty pobytů pobytům
+58	1458	planeta	planet planetami planetou planetu planety planetách planetám planetě
+59	1459	boží	božích božího božím božími božímu
+60	1460	chlapec	chlapce chlapcem chlapci chlapcovi chlapcovo chlapcích chlapců chlapcům chlapcův chlapečci chlapeček chlapečka chlapečkem chlapečkovi chlapečku chlapečky chlapečků chlapče
+61	1461	památka	památce památek památkami památkou památku památky památkách památkám
+62	1462	režisér	režiséra režisérem režisérka režisérkou režisérku režisérky režisérova režisérovi režiséru režiséry režisérů režisérům režisérův režiséři
+63	1463	účastník	účastnice účastnický účastnických účastníci účastnících účastníka účastníkem účastníkovi účastníku účastníky účastníků účastníkům
+64	1464	rozdělit	rozděl rozdělen rozdělena rozděleni rozděleno rozdělenou rozděleny rozdělená rozdělené rozděleného rozděleném rozdělený rozdělených rozděleným rozdělenými rozdělil rozdělila rozdělili rozdělilo rozdělily rozdělovat rozdělte rozdělují rozdělí rozdělím rozdělíme rozdělíte
+65	1465	úsek	úsecích úsekem úseku úseky úseků úsekům
+66	1466	obsadit	obsadil obsadila obsadili obsadilo obsadily obsadí obsazen obsazena obsazeni obsazeno obsazenou obsazeny obsazená obsazené obsazeného obsazeném obsazení obsazením obsazený obsazených obsazeným obsazovat obsazovány
+67	1467	vydávat	vydávají vydávající vydával vydávala vydávali vydávalo vydávaly vydávané vydávaný vydává vydávám vydáváme vydáván vydávána vydáváno vydávány vydávání vydáváním vydáváte
+68	1468	mina	min minami mino minou minu miny minám mině
+69	1469	samostatný	samostatnou samostatná samostatné samostatného samostatném samostatnému samostatní samostatných samostatným samostatnými samostatnější
+70	1470	metro	meter metra metrech metrem metru metry metrům
+71	1471	sdružení	sdruženích sdružením sdruženími
+72	1472	zimní	zimních zimního zimním zimními zimnímu
+73	1473	vyžadovat	nevyžadovala nevyžadovalo nevyžaduje nevyžadují nevyžádal vyžadoval vyžadovala vyžadovalo vyžadovaly vyžaduje vyžadují vyžádají vyžádal vyžádala vyžádali vyžádalo vyžádaly vyžádané vyžádat vyžádejte vyžádá vyžádání
+74	1474	věda	věd vědami vědní vědních vědního vědou vědu vědy vědách vědám vědě
+75	1475	podpořit	nepodpořil nepodpoří podpořen podpořena podpořeno podpořeny podpoření podpořený podpořil podpořila podpořili podpořilo podpořily podpořte podpoří podpořím podpoříme podpoříte
+76	1476	dařit	dařila dařilo daří nedařilo nedaří
+77	1477	děj	děje dějem ději dějích dějů
+78	1478	předpokládat	nepředpokládají nepředpokládal nepředpokládá předpokládají předpokládající předpokládal předpokládala předpokládali předpokládalo předpokládaly předpokládejme předpokládá předpokládám předpokládáme předpokládán předpokládáte
+79	1479	zadní	nejzazší zadních zadního zadním zadníma zadními zadnímu
+80	1480	zlepšit	zlepšena zlepšené zlepšený zlepšil zlepšila zlepšili zlepšilo zlepšily zlepšoval zlepšovala zlepšovali zlepšovalo zlepšovaly zlepšovat zlepšování zlepšováním zlepšuje zlepšujeme zlepšujete zlepšují zlepšující zlepší zlepším zlepšíme zlepšíte
+81	1481	kdysi	kdys
+82	1482	nejspíš	
+83	1483	pták	ptačí ptačích ptačího ptačím ptačími ptáci ptácích ptáka ptákem ptákovi ptáku ptáky ptáků ptákům ptáčci ptáček ptáčka ptáčkem ptáčkovi ptáčková ptáčkové ptáčku ptáčky ptáčků ptáčkům
+84	1484	současnost	současnosti současností
+85	1485	dopis	dopise dopisech dopisem dopisu dopisy dopisů dopisům
+86	1486	maminka	mamince maminek maminkami maminko maminkou maminku maminky maminkám maminčin maminčina
+87	1487	zisk	nejziskovější ziscích ziskem ziskovou zisková ziskové ziskový ziskových zisku zisky zisků ziskům
+88	1488	suchý	nejsušší such sucha suchem sucho suchou suchu suchá suché suchého suchém suchému suchých suchým suchými suše suší sušší sušších
+89	1489	medaile	medailemi medaili medailí medailích medailím
+90	1490	výlet	výletech výletem výletu výlety výletě výletů výletům
+91	1491	stanovit	stanov stanoven stanovena stanoveno stanoveny stanovené stanovení stanovený stanovil stanovila stanovili stanovilo stanovily stanovovat stanovte stanovuje stanoví stanovíme stanovíte
+92	1492	studovat	nastudoval nastudovat studoval studovala studovali studovalo studovaly studovaný studovaných studován studována studovány studování studuj studuje studujeme studujete studuješ studuji studujte studuju studují studující vystudoval vystudovat
+93	1493	tabulka	tabulce tabulek tabulkami tabulkou tabulková tabulkové tabulkového tabulkový tabulkových tabulku tabulky tabulkách tabulkám
+94	1494	ideální	ideálních ideálního ideálním ideálními ideálnímu ideálně nejideálnější
+95	1495	svaz	svazem svazu svazy svazů svazům
+96	1496	střed	středem středu středy středů
+97	1497	tradice	tradic tradicemi tradici tradicí tradicích tradicím
+98	1498	centrální	centrálních centrálního centrálním centrálními centrálnímu centrálně
+99	1499	počkat	počkají počkal počkala počkali počkalo počkaly počkej počkejme počkejte počká počkám počkáme počkáte počkáš
+100	1500	dějiny	dějin dějinami dějinách dějinám

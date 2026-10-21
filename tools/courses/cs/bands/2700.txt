@@ -1,0 +1,100 @@
+1	2601	propustit	propouští propouštějí propouštěni propouštění propouštět propustil propustila propustili propustilo propustily propustí propusť propuštěn propuštěna propuštěni propuštěno propuštěny propuštěné propuštěný
+2	2602	mužský	mužskou mužská mužské mužského mužském mužskému mužských mužským mužskými mužští
+3	2603	komedie	komediemi komedii komedií komediích komediím
+4	2604	terén	terénech terénem terénu terény terénů
+5	2605	slib	slibech slibem slibu sliby slibů slibům
+6	2606	kalendář	kalendáře kalendářem kalendáři kalendářích kalendářů
+7	2607	investovat	investoval investovala investovali investovalo investovaly investované investovaný investováno investovány investování investuje investujeme investujete investuji investujte investují
+8	2608	hovno	hoven hovna hovnem hovnu hovně hovínka hovínko
+9	2609	psychický	psychickou psychicky psychická psychické psychického psychickém psychickému psychických psychickým psychickými
+10	2610	dres	dresech dresem dresu dresy dresů
+11	2611	citlivý	citlivou citlivá citlivé citlivého citlivém citlivému citliví citlivých citlivým citlivými citlivě citlivěji citlivější citlivějších citlivějším nejcitlivější nejcitlivějších nejcitlivějším
+12	2612	jedině	
+13	2613	nikam	
+14	2614	výborně	
+15	2615	vyplývat	nevyplývají nevyplývá vyplynout vyplynulo vyplývají vyplývající vyplývajících vyplývala vyplývalo vyplývaly vyplývá
+16	2616	rodit	porodil porodila porodily porodit porodí porodím rodil rodila rodili rodilo rodily rodí rodící rodícího rodíme rodě rozenou rozená rozené rození rozený
+17	2617	módní	módních módního módním módními módnímu módně
+18	2618	hloubka	hloubce hloubek hloubkou hloubkové hloubkový hloubku hloubky hloubkách
+19	2619	květ	kvítek květech květem květu květy květů květům
+20	2620	stabilní	nejstabilnější nejstabilnějších nestabilní nestabilních nestabilního nestabilním stabilních stabilního stabilním stabilními stabilnímu stabilnější
+21	2621	předpoklad	předpokladech předpokladem předpokladu předpoklady předpokladů předpokladům
+22	2622	švédský	švédskou švédská švédské švédského švédském švédskému švédských švédským švédskými švédští
+23	2623	hajzl	hajzla hajzle hajzlové hajzlu hajzly hajzlík hajzlů
+24	2624	necelý	necelou necelá necelé necelého necelém necelých necelým necelými
+25	2625	sáhnout	sahají sahající sahal sahala sahali sahalo sahaly sahat sahá sahám saháme sáhl sáhla sáhli sáhlo sáhne sáhneme sáhnete sáhnou sáhnu sáhněte
+26	2626	parta	part parte partou partu partě partů
+27	2627	android	androida androidem androidi androidu androidy androidů
+28	2628	litr	litrech litrem litru litry litrů litrům
+29	2629	licence	licencemi licenci licencí licencích licencím
+30	2630	trestat	netrestá potrestají potrestal potrestala potrestali potrestaný potrestat potrestá potrestán potrestána potrestáni potrestáno potrestány potrestání potrestáním trestají trestající trestal trestala trestali trestalo trestaný trestá trestán trestána trestáni trestáno trestány trestání trestáš
+31	2631	paluba	palub palubou palubu paluby palubách palubě
+32	2632	dýchat	dýchají dýchající dýchal dýchala dýchali dýchalo dýchej dýchejte dýchnout dýchá dýchám dýcháme dýchání dýcháním dýcháte
+33	2633	zastřelit	zastřel zastřelen zastřelena zastřeleni zastřeleno zastřeleny zastřelení zastřelený zastřelil zastřelila zastřelili zastřelte zastřelí zastřelím
+34	2634	individuální	individuálních individuálního individuálním individuálními individuálnímu
+35	2635	jízdní	jízdních jízdního jízdním jízdními jízdnímu
+36	2636	záchranný	záchrannou záchranná záchranné záchranného záchranném záchrannému záchranných záchranným záchrannými
+37	2637	muslim	muslima muslimech muslimem muslimové muslimy muslimů muslimům
+38	2638	obvyklý	nejobvyklejší obvyklejší obvyklou obvyklá obvyklé obvyklého obvyklém obvyklému obvyklí obvyklých obvyklým obvyklými
+39	2639	zaměstnavatel	zaměstnavatele zaměstnavatelem zaměstnavateli zaměstnavatelé zaměstnavatelů zaměstnavatelům
+40	2640	hospoda	hospod hospodou hospodu hospody hospodách hospodě hospůdka hospůdky
+41	2641	donutit	donucen donucena donuceni donuceno donuceny donucení donutil donutila donutili donutilo donutily donutí donutím donutíme donutíte
+42	2642	hlasovat	hlasoval hlasovala hlasovali hlasovalo hlasovaly hlasuje hlasujeme hlasuji hlasujte hlasují hlasující nehlasovali odhlasovali odhlasovat
+43	2643	lidstvo	lidstva lidstvem lidstvu
+44	2644	kněz	kněze knězem knězi kněžka kněžkou kněžku kněžky kněží kněžích kněžím kněžími
+45	2645	stan	stane stanech stanem stanu stany stanů
+46	2646	spáchat	páchají páchal páchala páchali páchat páchá páchány spáchají spáchal spáchala spáchali spáchalo spáchaly spáchanou spáchaná spáchané spáchaného spáchaném spáchaný spáchaných spáchaným spáchá spáchán spáchána spácháno spáchány spáchání
+47	2647	zvaný	zvanou zvaná zvané zvaného zvaném zvanému zvaní zvaných zvaným zvanými
+48	2648	pálit	nepálí pal palme pálené pálil pálila pálili pálilo pálily pálí pálící pálím pálíme vypalovat vypálen vypálena vypáleno vypálenou vypáleny vypálená vypálené vypálení vypálený vypálených vypálil vypálila vypálili vypálilo vypálily vypálit vypálí
+49	2649	filozofie	filosofie filosofii filosofií filozofickou filozofická filozofické filozofického filozofickém filozofický filozofických filozofickým filozofickými filozofii filozofií
+50	2650	přenést	přenese přeneseme přenesen přenesena přeneseno přeneseny přenesete přenesl přenesla přenesli přeneslo přenesly přenesou přeneste přenesu přenášet přenáší
+51	2651	koncept	konceptech konceptem konceptu koncepty konceptů
+52	2652	plést	plete pleteme pletení pletením pletete pleteš pletl pletla pletli pletlo pletly pletou pletu splete spletete spleti spletl spletla spletli spletou spletí spleť splést upletl upletla upletli uplést
+53	2653	poškození	poškozením
+54	2654	prodloužení	prodloužením
+55	2655	cigareta	cigaret cigaretami cigaretou cigaretu cigarety cigaretách cigaretám cigaretě
+56	2656	stres	stresem stresu stresy stresů
+57	2657	záchrana	záchranou záchranu záchrany záchraně
+58	2658	disk	discích diskem disku disky disků diskům
+59	2659	nápis	nápisech nápisem nápisu nápisy nápisů
+60	2660	rod	roda rode rodech rodem rodová rodové rodu rody rodě rodů rodům
+61	2661	specifický	specifickou specifická specifické specifického specifickém specifickému specifických specifickým specifickými specifičtější
+62	2662	anglicky	
+63	2663	doopravdy	
+64	2664	sotva	
+65	2665	man	mana mane manem manka mano manovi manu many maně
+66	2666	romantický	nejromantičtější nejromantičtějších romantickou romantická romantické romantického romantickém romantickému romantických romantickým romantickými romantičtí romantičtější
+67	2667	dostatek	dostatkem dostatku
+68	2668	nařízení	nařízeních nařízením nařízeními
+69	2669	kritizovat	kritizoval kritizovala kritizovali kritizovalo kritizovaly kritizovaný kritizován kritizována kritizováni kritizováno kritizovány kritizování kritizuje kritizujete kritizuji kritizují kritizující
+70	2670	uplatnit	uplatnil uplatnila uplatnili uplatnilo uplatnily uplatní uplatníme uplatníte uplatněn uplatněna uplatněno uplatněny uplatněný uplatňoval uplatňovala uplatňovali uplatňovalo uplatňovaly uplatňovaný uplatňovat uplatňován uplatňována uplatňováno uplatňovány uplatňování uplatňuje uplatňujeme uplatňují uplatňující
+71	2671	rock	rockem rocku rocky rocích
+72	2672	koš	koše košem koši koších košík košíkem košíkovou košíková košíkové košíku košíky košíků košíček košů
+73	2673	malovat	maloval malovala malovali malovaly malovanou malovaná malované malovaného malovaný malovaných malovaným malovanými maluj maluje malujeme malujete maluji maluju malují namaloval namalovala namalovali namalovanou namalovaná namalované namalovaný namalovaným namalovat namalován namalovány namalování namaluj namaluje vymaloval vymalovali vymalovaný vymalovat vymalováno vymalování
+74	2674	odvézt	neodváží odveze odvezeme odvezen odvezena odvezeni odvezeno odvezeny odvezete odvezl odvezla odvezli odvezlo odvezly odvezou odvezte odvezu odvážejí odvážel odvážela odváželi odvážely odváženi odvážet odváží odvážím odvážíme odvážíte
+75	2675	hřbitov	hřbitova hřbitovech hřbitovem hřbitovu hřbitovy hřbitově hřbitovů
+76	2676	založení	založením
+77	2677	dostatečný	dostatečnou dostatečná dostatečné dostatečného dostatečném dostatečnému dostatečných dostatečným dostatečnými
+78	2678	vrtulník	vrtulnících vrtulníkem vrtulníku vrtulníky vrtulníků
+79	2679	výtvarný	výtvarnou výtvarná výtvarné výtvarného výtvarném výtvarnému výtvarní výtvarných výtvarným výtvarnými
+80	2680	jednotný	jednotnou jednotná jednotné jednotného jednotném jednotnému jednotní jednotných jednotným jednotnými
+81	2681	platný	platnou platná platné platného platném platnému platní platných platným platnými platně
+82	2682	vojsko	vojsk vojska vojskem vojsku vojsky vojskům
+83	2683	těžba	těžbou těžbu těžby těžbě
+84	2684	trefit	netrefil netrefí tref trefil trefila trefili trefilo trefily trefovat trefí trefím trefíme trefíte
+85	2685	obnova	obnov obnovou obnovu obnovy obnově
+86	2686	poušť	poušti pouštní pouštních pouštního pouštním pouští pouštích pouštím pouště pouštěmi
+87	2687	pověst	pověstech pověstem pověsti pověstmi pověstí
+88	2688	prominout	promine prominete prominou prominul prominuto prominutí prominutím promiň promiňte
+89	2689	hodlat	hodlají hodlal hodlala hodlali hodlá hodlám hodláme hodláte hodláš nehodlají nehodlá nehodlám nehodláme
+90	2690	dík	díku díků
+91	2691	hrůza	hrůz hrůzami hrůze hrůzou hrůzová hrůzu hrůzy hrůzách hrůzám
+92	2692	registr	registrech registrem registru registry registrů
+93	2693	jemný	jemnou jemná jemné jemného jemném jemnému jemných jemným jemnými jemnější jemnějších jemnějším nejjemnější nejjemnějších
+94	2694	taneční	tanečních tanečního tanečním tanečními tanečnímu tanečně
+95	2695	prudký	nejprudší prudce prudkou prudká prudké prudkého prudkém prudkému prudkých prudkým prudkými prudčeji prudší prudším
+96	2696	chrám	chrámech chrámem chrámu chrámy chrámě chrámů chrámům
+97	2697	nutnost	nutnosti nutností
+98	2698	odhad	odhadech odhadem odhadu odhady odhadů odhadům
+99	2699	obrazovka	obrazovce obrazovek obrazovkami obrazovkou obrazovku obrazovky obrazovkách obrazovkám
+100	2700	laboratoř	laboratoře laboratořemi laboratoři laboratoří laboratořích laboratořím

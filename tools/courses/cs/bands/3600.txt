@@ -1,0 +1,100 @@
+1	3501	vyčistit	vyčisti vyčistil vyčistila vyčistili vyčistilo vyčistily vyčistí vyčistím vyčistíme vyčistíte vyčistěte vyčištěn vyčištěna vyčištěno vyčištěny vyčištění vyčištěný
+2	3502	vykašlat	kašlal kašlala kašlali kašlat kašle kašleme kašlete kašleš kašli kašlou kašlu vykašlal vykašlala vykašlali vykašle vykašleme vykašlete vykašli vykašlou vykašlu
+3	3503	výklad	výkladech výkladem výkladové výkladový výkladových výkladu výklady výkladů výkladům
+4	3504	usilovat	neusiluje usiloval usilovala usilovali usilovalo usilovaly usilování usiluje usilujeme usilujete usiluji usilují usilující usilujících
+5	3505	past	pastech pasti pastička pastičky pastmi pastí
+6	3506	pršet	pršelo prší
+7	3507	elegantní	elegantních elegantního elegantním elegantními elegantnímu elegantně elegantněji elegantnější nejelegantnější
+8	3508	zvětšit	zvětšen zvětšena zvětšenou zvětšená zvětšené zvětšení zvětšený zvětšených zvětšeným zvětšil zvětšila zvětšili zvětšilo zvětšily zvětšovat zvětšuje zvětšují zvětší zvětšíme zvětšíte
+9	3509	externí	externích externího externím externími externě
+10	3510	kritérium	kriterium kritéria kritériem kritérii kritériu kritérií kritériích kritériím
+11	3511	zřejmý	zřejmou zřejmá zřejmé zřejmého zřejmých zřejmým zřejmější
+12	3512	sokol	sokola sokole sokolem sokoli sokolovi sokolová sokolové sokolu sokoly sokolí sokolů
+13	3513	užívání	užíváním
+14	3514	chudák	chudáci chudáka chudákovi chudáky chudáků chudákům chudáček
+15	3515	volání	voláním
+16	3516	trojice	trojic trojici trojicí trojicích
+17	3517	špičkový	špičkovou špičková špičkové špičkového špičkovém špičkovému špičkoví špičkových špičkovým špičkovými špičkově
+18	3518	střídat	střídají střídal střídala střídali střídaly střídá střídáme
+19	3519	odpovídající	odpovídajících odpovídajícího odpovídajícím odpovídajícími odpovídajícímu
+20	3520	ujistit	ujistil ujistila ujistili ujistily ujistí ujistěte ujištěn ujištěni ujištění ujišťovat ujišťuje
+21	3521	radikální	nejradikálnější radikálních radikálního radikálním radikálními radikálnímu radikálně radikálnější
+22	3522	opilý	opile opilou opilá opilé opilého opilému opilí opilých opilým
+23	3523	minimum	minim minima minimech minimem minimu
+24	3524	spolužák	spolužačce spolužaček spolužačka spolužačkou spolužačku spolužačky spolužáci spolužáka spolužákem spolužákovi spolužáky spolužáků spolužákům
+25	3525	děda	dědo dědou dědova dědovi dědovy dědové dědu dědy dědů dědův
+26	3526	kdekoli	kdekoliv
+27	3527	spravovat	spravil spravila spravili spravilo spravit spravoval spravovala spravovali spravovalo spravovaly spravované spravovaný spravován spravována spravováno spravovány spravování spravuje spravujeme spravují spravující spraví
+28	3528	těsný	nejtěsnější nejtěsnějším těsnou těsná těsné těsného těsném těsnému těsní těsných těsným těsnými těsnější
+29	3529	brácha	brácho bráchou bráchovi bráchové bráchu bráchy
+30	3530	dobrovolník	dobrovolnice dobrovolnickou dobrovolnická dobrovolnické dobrovolnického dobrovolnický dobrovolnických dobrovolníci dobrovolnících dobrovolníka dobrovolníkem dobrovolníky dobrovolníků dobrovolníkům
+31	3531	pizza	pizz pizze pizzo pizzou pizzu pizzy
+32	3532	omáčka	omáčce omáček omáčkami omáčkou omáčku omáčky omáčkách vomáčka
+33	3533	automobilka	automobilce automobilek automobilkami automobilkou automobilku automobilky automobilkám
+34	3534	africký	africkou africká africké afrického africkém africkému afrických africkým africkými afričtí
+35	3535	kopat	kopající kopal kopala kopali kopalo kopaly kope kopeme kopete kopl kopla kopli kopne kopnou kopnout kopnu kopnul kopnutí kopou kopu kopá kopání
+36	3536	vrch	vrchem vrchu vrchy vrchů vrších
+37	3537	společník	společnice společníci společníka společníkem společníkovi společníky společníků společníkům
+38	3538	brečet	brečel brečela brečeli brečelo brečí brečím brečíte brečíš
+39	3539	jihomoravský	jihomoravská jihomoravské jihomoravského jihomoravském jihomoravských jihomoravským jihomoravští
+40	3540	strýc	strejc strýce strýcem strýci strýcovou strýcové strýců strýček strýčka strýčkem strýčkové strýčku strýčků
+41	3541	držitel	držitele držitelem držiteli držitelé držitelů držitelům
+42	3542	tenký	nejtenčí tence tenkou tenká tenké tenkého tenkém tenkých tenkým tenkými tenčí tenčích
+43	3543	tatínek	tatínci tatínka tatínkem tatínkova tatínkovi tatínkové tatínku tatínky tatínků
+44	3544	ignorovat	ignoroval ignorovala ignorovali ignorovalo ignorovaly ignorován ignorována ignorováno ignorovány ignorování ignoruje ignorujeme ignorujete ignoruji ignorujte ignoruju ignorují
+45	3545	dočasný	dočasnou dočasná dočasné dočasného dočasném dočasnému dočasných dočasným dočasnými
+46	3546	ba	
+47	3547	kolikrát	
+48	3548	posléze	
+49	3549	vzájemně	
+50	3550	zjevně	
+51	3551	dosah	dosahem dosahu
+52	3552	boční	bočních bočního bočním bočními bočnímu bočně
+53	3553	vyřídit	nevyřízené nevyřízených vyřizovat vyřizuje vyřizují vyřiď vyřiďte vyřídil vyřídila vyřídili vyřídí vyřídím vyřídíme vyřídíte vyřízen vyřízena vyřízeno vyřízeny vyřízení vyřízený
+54	3554	rozhraní	rozhraním rozhraními
+55	3555	sedadlo	sedadel sedadla sedadle sedadlech sedadlem sedadlu sedadly
+56	3556	báseň	básni básnička básničku básní básních básním básně básněmi
+57	3557	cosi	cos čehosi čemsi čemusi čímsi
+58	3558	desetiletí	desetiletích desetiletím desetiletími
+59	3559	okamžitý	okamžitou okamžitá okamžité okamžitého okamžitém okamžitému okamžitých okamžitým
+60	3560	komplikace	komplikacemi komplikaci komplikací komplikacích komplikacím
+61	3561	přelom	přelomem přelomu
+62	3562	vysílat	vysílají vysílala vysílaly vysílá vysíláni
+63	3563	výpočet	výpočtech výpočtem výpočtu výpočty výpočtů výpočtům
+64	3564	operátor	operátorem operátoru operátory operátorů operátorům
+65	3565	podzemní	podzemních podzemního podzemním podzemními
+66	3566	nováček	nováčci nováčka nováčkem nováčkovi nováčková nováčky nováčků nováčkům
+67	3567	zvukový	zvukovou zvuková zvukové zvukového zvukovém zvukovému zvukových zvukovým zvukovými zvukově
+68	3568	podnět	podnětech podnětem podnětu podněty podnětů podnětům
+69	3569	ves	vsi vsí vsích víska
+70	3570	graf	grafech grafem grafová grafové grafu grafy grafů
+71	3571	libra	liber librami librou libru libry librách libře
+72	3572	rozhledna	rozhleden rozhlednou rozhlednu rozhledny rozhledně
+73	3573	dobrovolný	dobrovolnou dobrovolná dobrovolné dobrovolného dobrovolném dobrovolnému dobrovolní dobrovolných dobrovolným dobrovolnými nedobrovolném
+74	3574	distribuce	distribuci distribucí distribucích
+75	3575	modlit	modle modleme modlete modli modlil modlila modlili modlily modlí modlící modlím modlíme modlíte pomodlit
+76	3576	dobrovolně	nedobrovolně
+77	3577	klávesnice	klávesnic klávesnici klávesnicí
+78	3578	šok	šokem šoku šoky šoků šokům
+79	3579	upozornění	upozorněním
+80	3580	římský	římskou římská římské římského římském římskému římských římským římskými římští
+81	3581	odstartovat	odstartoval odstartovala odstartovali odstartovalo odstartovaly odstartován odstartována odstartováno odstartování odstartuje odstartujeme odstartují
+82	3582	alexandr	alexandra alexandre alexandrem alexandrovi alexandru alexandry alexandře
+83	3583	pozemní	pozemních pozemního pozemním pozemními pozemnímu
+84	3584	děcko	děcek děcka děckem děcku děckám
+85	3585	duel	duelu
+86	3586	zbylý	zbylou zbylá zbylé zbylého zbylém zbylí zbylých zbylým zbylými
+87	3587	chalupa	chaloupce chaloupek chaloupka chaloupkou chaloupku chaloupky chaloupkách chalup chalupami chalupou chalupová chalupu chalupy chalupách chalupě
+88	3588	koberec	koberce kobercem koberci kobercové kobercový kobercích koberců kobereček koberečku
+89	3589	originál	originále originálem originálu originály originálů
+90	3590	tančit	tančení tančil tančila tančili tančilo tančily tančí tančící tančících tančícího tančícím tančím tančíme tančíte zatančila zatančit
+91	3591	terapie	terapii terapií terapiích
+92	3592	odvětví	odvětvích odvětvím odvětvími
+93	3593	splácet	nesplacené splacen splacena splaceno splaceny splacení splacením splacený splatil splatila splatili splatit splatí splatím splatíte splácejí splácel splácení splácí splácím splácíme splácíte
+94	3594	nadšení	nadšením
+95	3595	plemeno	plemen plemena plemene plemenem plemeni plemeny plemenům plémě
+96	3596	převod	převodech převodem převodu převody převodů převodům
+97	3597	chodník	chodnících chodníkem chodníku chodníky chodníků chodníček
+98	3598	osvobodit	osvobodil osvobodila osvobodili osvobodilo osvobodily osvobodí osvobozen osvobozena osvobozeni osvobozeno osvobozeny osvobozená osvobozené osvobozeného osvobozeném osvobozený osvobozených osvobozeným osvobozovat osvobozuje osvoboďte
+99	3599	med	medem medovou medová medové medového medový medových medovým medu medy medů
+100	3600	přesun	přesune přesunech přesunem přesunu přesuny přesunů přesunům

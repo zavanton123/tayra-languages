@@ -1,0 +1,100 @@
+1	1	být	bejt bude budeme budete budeš budou budu buď bych bychom byl byla byli bylo byly bys byste bývá je jsem jsi jsme jsou jste nebude nebudeme nebudou nebudu nebyl nebyla nebyli nebylo nebyly nejsem nejsi nejsme nejsou nejste není
+2	2	a	
+3	3	sebe	se sebou si sobě
+4	4	v	ve
+5	5	ten	ta ti to toho tom tomu tos tou tu ty té tím těch těm těma těmi
+6	6	na	naň
+7	7	že	
+8	8	mít	jmění maj maje mají mající majících má mám máme máte máš míti mívají míval mívala mívali mívá mívám míváme měj mějme mějte měl měla měli mělo měly nemají nemá nemám nemáme nemáte nemáš nemít nemějte neměl neměla neměli nemělo
+9	9	z	ze
+10	10	já	mi mne mnou mně mě
+11	11	s	
+12	12	do	
+13	13	který	kterou která které kterého kterém kterému kterých kterým kterýma kterými kterýž kteří
+14	14	ale	
+15	15	o	
+16	16	i	
+17	17	tak	
+18	18	on	ho jeho jej jemu jím mu ním něho něj něm němu von
+19	19	co	oč čeho čem čemu čím
+20	20	za	zač
+21	21	pro	
+22	22	moct	moci moh moha mohl mohla mohli mohlo mohly mohou mohu může můžem můžeme můžete můžeš můžou můžu nemoci nemohl nemohla nemohli nemohlo nemohly nemohou nemohu nemůže nemůžeme nemůžete nemůžeš nemůžou nemůžu
+23	23	rok	let lete letech letem letu lety letů letům roce rocích roka rokem roku roky roků rokům roček
+24	24	k	
+25	25	jako	
+26	26	svůj	svoje svoji svojí svou svá své svého svém svému sví svý svých svýho svým svýma svými
+27	27	jak	jaka jakem jaku jaky jaků
+28	28	po	
+29	29	by	
+30	30	už	
+31	31	od	ode
+32	32	tento	tato tito tohoto tomto tomuto toto touto tuto tyto této tímto těchto těmito těmto
+33	33	chtít	chce chceme chcete chceš chci chtíc chtě chtěj chtěje chtějte chtějí chtěl chtěla chtěli chtělo chtěly chtění chtěný nechce nechceme nechcete nechceš nechci nechtít nechtějí nechtěl nechtěla nechtěli nechtělo nechtěly
+34	34	když	
+35	35	jen	jene jenu jeny jenů
+36	36	ty	tebe tebou ti tobě tě
+37	37	nebo	
+38	38	člověk	lidech lidem lidi lidma lidmi lidskou lidsky lidská lidské lidského lidském lidskému lidský lidských lidským lidskými lidé lidí lidští lidštější človíček človíčka člověka člověkem člověku člověče
+39	39	vy	vám váma vámi vás
+40	40	my	nám náma námi nás
+41	41	také	taky
+42	42	u	
+43	43	aby	abych abychom abys abyste
+44	44	ona	ana ji jima jí ni nima ní
+45	45	jeden	jedna jedni jedno jednoho jednom jednomu jednu jedny jedné jedním jedněch jedněm jedněmi
+46	46	všechen	vše všech všechna všechnu všechny všecko všeho všem všema všemi všemu vši vší vším
+47	47	jít	jde jdeme jdete jdeš jdi jdou jdoucí jdoucích jdoucím jdu jděte jit jíti nejde nejdou nejdu nejít nepůjde nepůjdou nepůjdu nešel nešla nešli nešlo nešly pojď pojďme pojďte půjde půjdeme půjdete půjdeš půjdou půjdu šel šla šli šlo šly
+48	48	nový	nejnověji nejnovější nejnovějších nejnovějšího nejnovějším nejnovějšími nejnovějšímu novou nová nové nového novém novému noví nových novým novýma novými nově nověji novější novějších novějšího novějším novějšími
+49	49	český	českou česky česká české českého českém českému českých českým českými čeští
+50	50	dobrý	dobrej dobrou dobrá dobré dobrého dobrém dobrému dobrých dobrým dobrými dobří lepší lepších lepšího lepším lepšími lepšímu nejlepší nejlepších nejlepšího nejlepším nejlepšími nejlepšímu
+51	51	velký	největší největších největšího největším největšími největšímu velcí velikánské velikánský velkou velká velké velkého velkém velkému velkých velkým velkýma velkými větší větších většího větším většími většímu
+52	52	muset	musejí musel musela museli muselo musely musili musit musí musím musíme musíte musíš nemusejí nemusel nemusela nemuseli nemuselo nemusely nemuset nemusí nemusím nemusíme nemusíte nemusíš
+53	53	až	
+54	54	stát	nestal nestala nestalo nestane nestojí nestojím nestál nestálo stal stala stali stalo staly stane stanete stanou stanu stoje stojí stojící stojících stojícího stojím stojíme stojíte stál stála stáli stálo stály stání státech státem státu státy státě států státům stůj
+55	55	oni	jich jim jima jimi nich nim nima nimi ně
+56	56	další	dalších dalšího dalším dalšíma dalšími dalšímu
+57	57	než	
+58	58	vědět	dověděl dovědět neví nevím nevíte nevíš nevědí nevěděl nevěděla nevěděli nevědělo nevěděly nevědět ví vím víme víte víš vědoucí vědí věděl věděla věděli vědělo věděly vědění věděním věz vězte
+59	59	ještě	eště
+60	60	den	denní denních denního denním denními dennímu dne dnech dnem dni dnové dnu dny dní dnů dnům
+61	61	první	prvních prvního prvním prvními prvnímu prvně
+62	62	můj	moje moji mojí mou mé mého mém mému mí mých mýho mým mýma mými
+63	63	dva	dvou dvě dvěma
+64	64	náš	naše našeho našem našemu naši našich našim našima našimi naší naším
+65	65	ani	
+66	66	říct	neřekl neřekla neřekli neřeknu rčení řekl řekla řekli řeklo řekly řekne řekneme řeknete řekneš řekni řeknou řeknu řekněme řekněte řečeno řečená řečené řečeného řečenému řečený řka říci
+67	67	dát	dají dal dala dali dalo daly danou daná dané daného daném danému daní daný daných daným dej dejme dejte dá dám dáme dán dána dáno dány dáte dáš nedají nedal nedala nedali nedalo nedej nedá nedám nedáme nedáte nedáš
+68	68	pak	paku paky
+69	69	více	víc
+70	70	při	
+71	71	tam	
+72	72	místo	míst místa místech místem místečka místečko místečku místu místy místě místům
+73	73	kde	kdes kdež kdeže
+74	74	celý	cele celičký celou celá celé celého celém celému celí celých celým celými
+75	75	ne	
+76	76	práce	pracech pracemi pracovní pracovních pracovního pracovním pracovními pracovnímu pracovně prací pracích pracího pracím práci
+77	77	něco	něčeho něčem něčemu něčím
+78	78	před	přede
+79	79	život	života živote životech životem životní životních životního životním životními životnímu životně životu životy životě životů životům živůtek živůtku
+80	80	kdo	kdož koho kom komu kým
+81	81	jiný	jinou jiná jiné jiného jiném jinému jiní jiných jiným jinýma jinými
+82	82	protože	
+83	83	vidět	nevidí nevidím nevidíme nevidíte neviděl neviděla neviděli nevidělo neviděly nevidět nevídanou nevídané nevídaný vida vidoucí vidí vidím vidíme vidíte vidíš viděl viděla viděli vidělo viděly viděn viděna viděni viděno viděny vidění viděním viděti viz vizte viď viďte vídám vídáme
+84	84	podle	
+85	85	pokud	
+86	86	tenhle	tahle tihle tohle tohohle tomhle tomuhle touhle tuhle tyhle téhle tímhle těchhle těhle těmahle těmhle těmihle
+87	87	svět	světa světe světech světem světovou světová světové světového světovém světovému světoví světový světových světovým světovými světově světu světy světě světů světům
+88	88	nic	ničeho ničem ničemu ničím
+89	89	každý	každičký každou každá každé každého každém každému každých každým každými
+90	90	doba	dob dobami dobou dobu doby dobách dobám době
+91	91	dělat	dělají dělající dělal dělala dělali dělalo dělaly dělaný dělej dělejme dělejte dělá dělám děláme dělána děláno dělány dělání děláním děláte dělával děláš nedělají nedělal nedělala nedělali nedělalo nedělaly nedělat nedělej nedělejte nedělá nedělám neděláme
+92	92	teď	
+93	93	rád	nejraději nejradši raději radši ráda rádi rádo rády
+94	94	dostat	dostal dostala dostali dostalo dostaly dostane dostaneme dostanete dostaneš dostanou dostanu dostaň dostaňte dostávat dostává nedostal nedostali nedostalo nedostaly nedostane nedostaneme nedostanete nedostanou nedostanu
+95	95	dítě	dítěte dítětem dítěti dětech dětem děti dětmi dětí děťátka děťátkem děťátko děťátku
+96	96	začít	nezačal nezačala nezačali nezačalo nezačne začal začala začali začalo začaly začla začli začne začneme začnete začneš začni začnou začnu začněme začněte začínat začíná
+97	97	druhý	druhej druhou druhá druhé druhého druhém druhému druhých druhým druhými druzí
+98	98	mezi	
+99	99	bez	beze bezová bezu
+100	100	říkat	neříkají neříkal neříkala neříkalo neříká neříkám říkají říkajíc říkající říkal říkala říkali říkalo říkaly říkej říkejme říkejte říká říkám říkáme říkáte říkával říkávala říkávali říkávalo říkává říkávám říkáš

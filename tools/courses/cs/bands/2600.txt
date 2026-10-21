@@ -1,0 +1,100 @@
+1	2501	prozradit	neprozradil neprozradila neprozradí neprozrazuje prozradil prozradila prozradili prozradilo prozradily prozradí prozradím prozradíme prozradíte prozrazen prozrazena prozrazeno prozrazení prozrazením prozrazoval prozrazovat prozrazuje prozrazují prozrazující prozraďte
+2	2502	prodejna	prodejen prodejnami prodejnou prodejnu prodejny prodejnách prodejně
+3	2503	hnědý	hnědou hnědá hnědé hnědého hnědém hnědému hnědí hnědých hnědým hnědýma hnědými hnědě
+4	2504	uvažovat	neuvažoval neuvažovali neuvažuje neuvažují uvažme uvažoval uvažovalo uvažte uvažuje uvažujeme uvažuju uvažují uvážení uvážit uváží uvážím uvážíme uvážíte
+5	2505	břicho	břich břicha břichem břichu břiše bříška bříškem bříško bříšku
+6	2506	vejít	vcházet vchází vejde vejdeme vejdete vejdeš vejdi vejdou vejdu vejděte vešel vešla vešli vešlo vešly
+7	2507	sláva	slávou slávu slávy slávě
+8	2508	kyselina	kyselin kyselinami kyselinou kyselinu kyseliny kyselinách kyselinám kyselině
+9	2509	prožít	prožije prožijeme prožijete prožijte prožijí prožil prožila prožili prožilo prožily prožívat prožívá
+10	2510	lesní	lesních lesního lesním lesními lesnímu
+11	2511	norma	norem normami normou normu normy normách normám normě
+12	2512	sekce	sekcemi sekci sekcí sekcích
+13	2513	islámský	islámskou islámská islámské islámského islámském islámskému islámských islámským islámskými islámští
+14	2514	opačný	opačnou opačná opačné opačného opačném opačnému opačných opačným opačnými opačně
+15	2515	zabrat	zabere zabral zabrala zabrali zabraly zabrán zabírat zabírá
+16	2516	prát	per pera pere pereme perete perou perte peru pral prala prali pralo praly praní praním prána prány vypere vyperte vyperu vyprala vyprat
+17	2517	palec	palce palcem palci palcovou palcová palcové palcový palcových palcovým palcích palců paleček
+18	2518	výjimečný	výjimečnou výjimečná výjimečné výjimečného výjimečném výjimečnému výjimeční výjimečných výjimečným výjimečnými
+19	2519	fotograf	fotografa fotografem fotografka fotografkou fotografku fotografky fotografovi fotografové fotografy fotografů fotografům
+20	2520	čest	cti ctí
+21	2521	závislý	závislou závislá závislé závislého závislí závislých závislým závislými
+22	2522	prezidentský	prezidentskou prezidentská prezidentské prezidentského prezidentském prezidentskému prezidentských prezidentským prezidentskými prezidentští
+23	2523	štít	štítcích štítech štítek štítem štítkem štítku štítky štítků štítu štíty štítě štítů
+24	2524	bankovní	bankovních bankovního bankovním bankovními bankovnímu
+25	2525	sníst	sní sním sníme sníte sníš snědl snědla snědli snědlo snědly snědí sněz snězte
+26	2526	pásmo	pásem pásma pásmech pásmem pásmu pásmy
+27	2527	toužit	netoužil toužení toužil toužila toužili toužilo toužily touží toužící toužících toužícího toužím toužíme toužíte toužíš tuž zatoužil zatoužila zatoužili zatouží zatoužíte
+28	2528	brod	brodek brodem brodu brody brodě
+29	2529	pokles	poklesem poklesu poklesy poklesů poklesům
+30	2530	sloup	sloupce sloupcem sloupci sloupcích sloupců sloupec sloupech sloupek sloupem sloupeček sloupkem sloupku sloupky sloupků sloupová sloupové sloupu sloupy sloupů sloupům
+31	2531	krabice	krabic krabicemi krabici krabicí krabicích krabička krabičky
+32	2532	aneb	
+33	2533	relativně	
+34	2534	nesmysl	nesmyslech nesmyslem nesmyslu nesmysly nesmyslů nesmyslům
+35	2535	zabezpečit	zabezpečen zabezpečena zabezpečeno zabezpečenou zabezpečeny zabezpečená zabezpečené zabezpečeného zabezpečeném zabezpečení zabezpečený zabezpečených zabezpečeným zabezpečil zabezpečila zabezpečili zabezpečily zabezpečovat zabezpečte zabezpečuje zabezpečí zabezpečíme
+36	2536	výdaj	výdaje výdajem výdaji výdajích výdajů výdajům
+37	2537	dotknout	dotkl dotkla dotkli dotklo dotkly dotkne dotkneme dotknete dotkni dotknou dotknu dotknul dotknutí dotkněte dotýkat dotýká dotčen dotčena dotčeni dotčeno dotčeny dotčené dotčení dotčený nedotkl nedotklo
+38	2538	klíčový	klíčovou klíčová klíčové klíčového klíčovém klíčovému klíčoví klíčových klíčovým klíčovými klíčově
+39	2539	uspět	neuspěje neuspěl neuspěla neuspěli uspěje uspějí uspěl uspěla uspěli
+40	2540	připojení	připojením
+41	2541	drobný	drobnou drobná drobného drobném drobnému drobní drobných drobným drobnými drobně drobnější drobnějších drobnějším drobnějšími drobounká
+42	2542	respektovat	nejrespektovanější nejrespektovanějších nerespektovala nerespektovali nerespektují respektoval respektovala respektovali respektovaly respektovanou respektovaná respektované respektovaného respektovaný respektovaných respektovaným respektován respektována respektováni respektováno respektovány respektování respektuj respektuje respektujeme respektujete respektuji respektujte respektuju respektují respektující
+43	2543	koalice	koalic koalici koalicí
+44	2544	argument	argumentech argumentem argumentu argumenty argumentů argumentům
+45	2545	kafe	kafem kafi kafíčka kafíčko
+46	2546	zabíjet	zabíjejte zabíjejí zabíjející zabíjel zabíjela zabíjeli zabíjelo zabíjely zabíjeni zabíjeny zabíjení zabíjením zabíjí zabíjíme zabíjíš
+47	2547	vykládat	vykládají vykládal vykládala vykládali vykládaný vykládá vykládám vykládáme vykládán vykládána vykládáno vykládány vykládání vyložen vyložena vyloženo vyloženou vyloženy vyložená vyložené vyložení vyložený vyložených vyloženě vyložil vyložila vyložili vyložit vyložte vyloží vyložíme
+48	2548	rovina	rovin rovinami rovince rovinka rovinkou rovinku rovinky rovinkách rovinou rovinu roviny rovinách rovině
+49	2549	zdravotnický	zdravotnickou zdravotnická zdravotnické zdravotnického zdravotnickém zdravotnickému zdravotnických zdravotnickým zdravotnickými zdravotničtí
+50	2550	povaha	povah povahou povahový povahu povahy povaze
+51	2551	kamenný	kamennou kamenná kamenné kamenného kamenném kamennému kamenní kamenných kamenným kamennými
+52	2552	bojovník	bojovnice bojovníci bojovnících bojovníka bojovníkem bojovníkovi bojovníku bojovníky bojovníků bojovníkům
+53	2553	počítačový	počítačovou počítačová počítačové počítačového počítačovém počítačovému počítačoví počítačových počítačovým počítačovými
+54	2554	železniční	železničních železničního železničním železničními železničnímu
+55	2555	komunita	komunit komunitami komunitou komunitu komunity komunitách komunitám komunitě
+56	2556	kmen	kmene kmenech kmenem kmeni kmenu kmeny kmenů kmenům
+57	2557	orel	orla orle orlem orli orlice orlici orlicí orlova orlovi orlovou orlová orlové orlu orly orlí orlích orlího orlík orlíka orlíku orlím orlů orlům rola vorlíček
+58	2558	nádrž	nádrže nádržemi nádrži nádrží nádržích nádržím
+59	2559	bojový	bojovou bojová bojové bojového bojovém bojovému bojoví bojových bojovým bojovými bojově
+60	2560	úvaha	úvah úvahami úvahou úvahu úvahy úvahách úvahám úvaze
+61	2561	proměnit	neproměnil proměnil proměnila proměnili proměnilo proměnily promění proměním proměníme proměníte proměněn proměněna proměněni proměněnou proměněná proměněné proměnění proměněný proměněných proměněným proměňoval proměňovala proměňovaly proměňovat proměňování proměňuje proměňují proměňující
+62	2562	výrok	výrocích výrokem výroku výroky výroků výrokům
+63	2563	tableta	tablet tabletami tabletek tabletka tabletu tablety tabletách
+64	2564	kámoš	kámoše kámošem kámoši kámošovi kámošů kámošům
+65	2565	taška	tašce tašek taškami taškou tašku tašky taškách taštička
+66	2566	formát	formátech formátem formátu formáty formátů formátům
+67	2567	registrace	registraci registrací
+68	2568	nos	nose nosem nosu nosy nosík nosů
+69	2569	otevírat	otevírají otevírající otevíral otevírala otevírali otevíralo otevíraly otevírá otevírám otevíráme otevírání otevíráte
+70	2570	hit	hitech hitem hitu hity hitů hitům
+71	2571	kufr	kufrech kufrem kufru kufry kufrů kufřík kufříkem kufříku kufříky kufříků
+72	2572	expert	experta expertem experti expertka experty expertů expertům
+73	2573	investiční	investičních investičního investičním investičními investičnímu
+74	2574	kolej	koleje kolejemi koleji kolejí kolejích kolejím
+75	2575	ačkoli	
+76	2576	love	
+77	2577	nahoře	
+78	2578	zbytečně	
+79	2579	poděkovat	poděkoval poděkovala poděkovali poděkování poděkuje poděkujeme poděkuji poděkujme poděkujte poděkuju poděkují
+80	2580	přivézt	přivez přiveze přivezeme přivezen přivezena přivezeni přivezeno přivezeny přivezete přivezl přivezla přivezli přivezlo přivezly přivezou přivezte přivezu přivážejí přivážel přiváželi přivážet přiváží
+81	2581	květina	květin květinami květinka květinou květinu květiny květinách květinám květině
+82	2582	přednost	přednostech přednostem přednosti přednostmi předností
+83	2583	hračka	hračce hraček hračička hračičky hračkami hračkou hračku hračky hračkách hračkám
+84	2584	dodavatel	dodavatele dodavatelem dodavateli dodavatelská dodavatelský dodavatelé dodavatelích dodavatelů dodavatelům
+85	2585	zpracovat	zpracoval zpracovala zpracovali zpracovalo zpracovaly zpracované zpracovaný zpracován zpracována zpracováno zpracovány zpracovávat zpracovává zpracuje zpracujeme zpracujte zpracují
+86	2586	posunout	posune posuneme posunete posunou posunovat posunování posunu posunuje posunují posunul posunula posunuli posunulo posunuly posunut posunuta posunuto posunuty posuňte
+87	2587	chodba	chodbami chodbičkou chodbou chodbu chodby chodbách chodbě chodeb
+88	2588	překážka	překážce překážek překážkami překážkou překážku překážky překážkách překážkám
+89	2589	koule	koulemi kouli koulí koulích
+90	2590	senátor	senátora senátore senátorem senátorka senátorkou senátorku senátorky senátorovi senátoru senátory senátorů senátorům senátoři
+91	2591	tank	tancích tankem tanku tanky tanků tankům
+92	2592	klášter	kláštera klášterech klášterem klášteru kláštery klášterů klášterům klášteře
+93	2593	orientace	orientaci orientací orientační orientačních orientačního orientačním orientačními orientačnímu
+94	2594	rezervace	rezervacemi rezervaci rezervací rezervacích
+95	2595	šířit	šiřte šíře šířen šířena šířeno šířeny šířené šířený šíři šířil šířila šířili šířilo šířily šíří šířící šíříme
+96	2596	poptávka	poptávce poptávek poptávkou poptávku poptávky
+97	2597	zatknout	zatkl zatkla zatkli zatklo zatkly zatkne zatknou zatýkat zatčen zatčena zatčeni zatčeno zatčeny zatčený
+98	2598	ověřit	ověř ověřen ověřena ověřeno ověřeny ověřené ověření ověřením ověřený ověřil ověřila ověřili ověřilo ověřoval ověřovat ověřte ověřuje ověří ověřím ověříme ověříte
+99	2599	hmota	hmot hmotami hmotou hmotu hmoty hmotách hmotě
+100	2600	volno	volen volna volnem volnu volny

@@ -1,0 +1,100 @@
+1	6201	naklonit	naklonil naklonila nakloní nakloněn nakloněna nakloněni nakloněno nakloněnou nakloněny nakloněná nakloněné naklonění nakloněný nakloněných naklánět
+2	6202	stolní	stolních stolního stolním stolními
+3	6203	jiskra	jisker jiskrou jiskru jiskry jiskře jiskřička
+4	6204	postrádat	nepostrádal postrádají postrádali postrádá
+5	6205	tupý	tupou tupá tupé tupého tupí tupých tupým tupými tupě tupější
+6	6206	podmíněný	nepodmíněné nepodmíněného nepodmíněnému nepodmíněný nepodmíněně podmíněnou podmíněná podmíněné podmíněného podmíněném podmíněnému podmíněných podmíněným podmíněně
+7	6207	zjevný	zjevnou zjevná zjevné zjevného zjevném zjevných zjevným
+8	6208	solit	osolené osolit osolte osolí osolíme sol sole solené solení solí
+9	6209	faul	faulem faulu fauly faulů
+10	6210	marný	marnou marná marné marného marném marní marných marným
+11	6211	vaz	vazem vazu vazy vazů
+12	6212	nepřítomnost	nepřítomnosti nepřítomností
+13	6213	konfigurace	konfiguraci konfigurací konfiguracích
+14	6214	úvazek	úvazku
+15	6215	neformální	neformálních neformálního neformálním neformálně
+16	6216	zápach	zápachem zápachu
+17	6217	bahno	bahna bahnem bahnu bahně
+18	6218	masiv	masivem masivu masivy masivů
+19	6219	letovisko	letoviscích letovisek letoviska letoviskem letovisku letovisky
+20	6220	skokan	skokana skokanem skokani skokany skokanů
+21	6221	stádium	stádia stádiem stádii stádiu stádií stádiích
+22	6222	kasárna	kasáren kasárnami kasárny kasárnách
+23	6223	lupič	lupiče lupičem lupiči lupičů lupičům
+24	6224	dusit	dusil dusila dusili duste dusí dusím dusíme dušenou dušená dušené dušeného dušení dušením dušený dušených dušeným
+25	6225	párek	páreček párečky párkem párku párky párků
+26	6226	výjezd	výjezdech výjezdem výjezdu výjezdy výjezdů
+27	6227	zrno	zrn zrna zrnek zrnem zrnka zrnko zrnky zrnu zrny zrníčka zrníčko
+28	6228	řemeslník	řemeslníci řemeslníka řemeslníkem řemeslníky řemeslníků řemeslníkům
+29	6229	bit	bite bitech bitu bity bitů
+30	6230	progresivní	nejprogresivnější progresivních progresivního progresivním progresivnímu progresivnější
+31	6231	movitý	movitou movitá movité movitého movitých movitým movitější nemovitou nemovitá nemovité nemovitého nemovitý nemovitých nemovitým
+32	6232	osadit	osadil osadili osadí osazen osazena osazeno osazeny osazení osazený osazovat
+33	6233	obočí	obočím
+34	6234	slavík	slavice slavičí slavíci slavíka slavíkem slavíkovi slavíková slavíku slavíky slavíků slavíček
+35	6235	portfolio	portfolia portfoliem portfoliu portfolií
+36	6236	odvod	odvodech odvodem odvodu odvody odvodů odvodům
+37	6237	recepce	recepci recepcí recepcích
+38	6238	atom	atomech atomem atomu atomy atomů
+39	6239	pojistit	pojistil pojistila pojistili pojistí pojištěn pojištěna pojištěni pojištěno pojištěnou pojištěny pojištěná pojištěné pojištěného pojištěný pojištěných pojištěným
+40	6240	klepat	klep klepal klepala klepali klepaly klepe klepl klepla klepne klepnout klepou klepu klepy klepání
+41	6241	deficit	deficitem deficitu deficity deficitů
+42	6242	poker	pokerem pokeru
+43	6243	vietnamský	vietnamskou vietnamská vietnamské vietnamského vietnamském vietnamských vietnamským vietnamskými vietnamští
+44	6244	samostatnost	samostatnosti
+45	6245	obývací	obývacích obývacího obývacím
+46	6246	sedmdesát	sedmdesáti
+47	6247	přeskočit	přeskakoval přeskakovat přeskakování přeskakuje přeskakují přeskočení přeskočil přeskočila přeskočili přeskočilo přeskočte přeskočí přeskočím přeskočíme
+48	6248	obdiv	obdivem obdivu
+49	6249	čelist	čelistech čelisti čelistmi čelistí
+50	6250	ladit	ladil ladila ladili ladilo ladily ladí ladící ladíme ladě laděn laděna laděno laděnou laděny laděný
+51	6251	toxický	toxickou toxická toxické toxického toxických toxickým toxickými
+52	6252	maják	majákem majáku majáky majáků majáček
+53	6253	přijímání	přijímáním
+54	6254	pluk	plukem pluku pluky pluků
+55	6255	optimalizace	optimalizaci optimalizací
+56	6256	hodnost	hodnosti hodností
+57	6257	vychutnat	vychutnají vychutnal vychutnala vychutnali vychutnej vychutnejte vychutná vychutnám vychutnáme vychutnáte vychutnávat
+58	6258	debut	debutem debutu debuty
+59	6259	vyšetřovací	vyšetřovacích vyšetřovacího vyšetřovacím
+60	6260	ústup	ústupem ústupu
+61	6261	prohloubit	prohloubení prohloubením prohloubil prohloubila prohloubili prohloubilo prohloubily prohloubí prohlubovat prohlubuje
+62	6262	demonstrant	demonstranti demonstranty demonstrantů demonstrantům
+63	6263	laserový	laserovou laserová laserové laserového laserových laserovým laserovými
+64	6264	přenosný	přenosnou přenosná přenosné přenosného přenosném přenosných přenosným přenosnými
+65	6265	doživotní	doživotních doživotního doživotním doživotními doživotnímu doživotně
+66	6266	průhledný	průhlednou průhledná průhledné průhledného průhledném průhledných průhledným průhlednými průhledně průhlednější
+67	6267	bratrstvo	bratrstev bratrstva bratrstvem bratrstvu
+68	6268	nesouhlas	nesouhlasem nesouhlasu
+69	6269	úložiště	úložišti úložištích úložištěm úložišť
+70	6270	bohoslužba	bohoslužbou bohoslužbu bohoslužby bohoslužbách bohoslužbám bohoslužbě bohoslužeb
+71	6271	poblahopřát	blahopřeje blahopřejeme blahopřeji blahopřeju blahopřál blahopřát poblahopřál
+72	6272	důstojnost	důstojnosti důstojností
+73	6273	vepřové	vepřového vepřovém vepřovému vepřovým
+74	6274	spotřebitelský	spotřebitelskou spotřebitelská spotřebitelské spotřebitelského spotřebitelském spotřebitelských spotřebitelským
+75	6275	příchuť	příchuti příchutí příchutích příchutě příchutěmi
+76	6276	hanba	hanbou hanbu hanby hanbě
+77	6277	žláza	žláz žlázami žláze žlázou žlázu žlázy žlázách
+78	6278	činný	činnou činná činné činného činní činných činným činnými
+79	6279	krysa	krys krysami krysou krysu krysy krysách krysám krysí krysích krysího
+80	6280	pevnina	pevninou pevninskou pevninské pevninského pevninu pevniny pevnině
+81	6281	klan	klanu
+82	6282	vyčerpaný	vyčerpanou vyčerpaná vyčerpané vyčerpaného vyčerpaní vyčerpaných vyčerpaně
+83	6283	vyjmout	vyjme vyjmeme vyjmou vyjmul vyjmula vyjmuli vyjmut vyjmuta vyjmuto vyjmuty vyjmutí vyjměte vyjímají vyjímal vyjímala vyjímat vyjímá vyjímání vynětí vyňal vyňat vyňata vyňaty
+84	6284	jé	
+85	6285	zčásti	
+86	6286	kompozice	kompozic kompozici kompozicí kompozicích
+87	6287	implementace	implementaci implementací
+88	6288	manévr	manévrech manévrem manévru manévry manévrů
+89	6289	korespondence	korespondenci
+90	6290	koňský	koňskou koňská koňské koňského koňském koňských koňským koňskými
+91	6291	encyklopedie	encyklopedické encyklopedický encyklopedických encyklopedii encyklopedií encyklopediích
+92	6292	hypotéza	hypotéz hypotézami hypotéze hypotézou hypotézu hypotézy
+93	6293	hledět	hledící hledím hledíme hledíte hleděl hleděla hleděli hledělo hleděly hleď hleďme hleďte nehledí pohledět pohleď pohleďme pohleďte
+94	6294	audit	auditech auditem auditu audity auditů
+95	6295	pohledávka	pohledávky
+96	6296	islamista	islamisty islamisté islamistů islamistům
+97	6297	prostitutka	prostitut prostitutce prostitutek prostitutkami prostitutkou prostitutku prostitutky prostitutkám
+98	6298	nemalý	nemalou nemalá nemalé nemalého nemalých nemalým nemalými nemenší
+99	6299	ukrytý	ukrytou ukrytá ukryté ukrytého ukrytém ukrytí ukrytých ukrytým ukrytými
+100	6300	průtok	průtokem průtoku průtoky průtoků průtočné

@@ -1,0 +1,100 @@
+1	8901	elementární	elementárních elementárního elementárním
+2	8902	sloveso	sloves slovesa slovesem
+3	8903	okupační	okupačních okupačního okupačním okupačními
+4	8904	pokání	pokáním
+5	8905	zvýraznit	zvýraznil zvýraznila zvýraznily zvýrazní zvýrazněn zvýrazněna zvýrazněno zvýrazněny zvýraznění zvýrazněný zvýrazňovat
+6	8906	umírněný	umírněnou umírněná umírněné umírněného umírnění umírněných umírněným umírněnými umírněně umírněnější
+7	8907	zamýšlený	zamýšlenou zamýšlená zamýšlené zamýšleného zamýšleném zamýšlenému zamýšlených zamýšleným
+8	8908	dráp	drápech drápem drápu drápy drápů
+9	8909	zlevnit	zlevnil zlevnila zlevnili zlevnily zlevní zlevnění zlevněný zlevňování zlevňuje zlevňují
+10	8910	jablečný	jablečnou jablečná jablečné jablečného jablečných jablečným
+11	8911	elektrotechnika	elektrotechnice elektrotechnik elektrotechniku elektrotechniky
+12	8912	uspokojivý	uspokojivou uspokojivá uspokojivé uspokojivého uspokojivým uspokojivě uspokojivější
+13	8913	neznalost	neznalosti
+14	8914	čáp	čápa čápem čápi čápová čápy čápů
+15	8915	úděl	údělem údělu
+16	8916	sup	supa supi supové supy supí supů supům
+17	8917	spasit	spas spasen spaseni spasení spasil spasí
+18	8918	zesilovač	zesilovače zesilovačem zesilovači zesilovačů
+19	8919	příjemnost	nepříjemnost nepříjemnosti nepříjemností
+20	8920	daněk	daňci daňka daňková daňky daňků daňčí
+21	8921	znojemský	znojemskou znojemská znojemské znojemského znojemském znojemských znojemským znojemští
+22	8922	apartmán	apartmánech apartmánu apartmány apartmánů
+23	8923	povstalecký	povstaleckou povstalecká povstalecké povstaleckého povstaleckých povstaleckým povstaleckými povstalečtí
+24	8924	kašna	kašen kašnou kašnu kašny kašně
+25	8925	úlomek	úlomku úlomky úlomků
+26	8926	kukla	kukel kukle kuklou kuklová kuklu kukly kuklách
+27	8927	nasvědčovat	nasvědčoval nasvědčovalo nasvědčovaly nasvědčuje nasvědčují nasvědčující
+28	8928	zhroucení	zhroucením
+29	8929	zbohatnout	bohatli bohatne bohatnou bohatnout zbohatl zbohatla zbohatli zbohatne
+30	8930	ochlazení	ochlazením
+31	8931	nedokončený	nedokončenou nedokončená nedokončené nedokončeného nedokončeném nedokončení nedokončených nedokončeným
+32	8932	molo	mola mole molech molem molu moly molů molům
+33	8933	teologie	teologii teologií
+34	8934	sládek	sládci sládka sládkem sládkovi sládková sládků
+35	8935	upřednostňovat	upřednostňuje upřednostňují
+36	8936	nerozhodný	nerozhodnou nerozhodná nerozhodné nerozhodného nerozhodném nerozhodní nerozhodným nerozhodně
+37	8937	nárazník	nárazníkem nárazníku nárazníky nárazníků
+38	8938	jestřáb	jestřába jestřábem jestřábi jestřáby jestřábí jestřábů
+39	8939	protagonista	protagonistou protagonistu protagonisty protagonisté protagonistů protagonistům
+40	8940	předvánoční	předvánočních předvánočního předvánočním
+41	8941	ostrovní	ostrovních ostrovního ostrovním
+42	8942	blondýnka	blondýnce blondýnek blondýnkou blondýnku blondýnky
+43	8943	náklonnost	náklonnosti náklonností
+44	8944	zářící	zářících zářícího zářícím zářícími
+45	8945	diskusní	diskusních diskusního diskusním
+46	8946	kapalný	kapalná kapalné kapalného kapalném kapalných kapalným
+47	8947	příšera	příšer příšerami příšerka příšerou příšeru příšery příšeře
+48	8948	okupovaný	okupovanou okupovaná okupované okupovaného okupovaném okupovaných okupovaným
+49	8949	dietní	dietních dietního dietním
+50	8950	útlum	útlumu
+51	8951	hříšník	hříšnice hříšníci hříšníka hříšníkem hříšníkovi hříšníky hříšníků hříšníkům
+52	8952	žárlit	nežárlí žárlil žárlila žárlí žárlím
+53	8953	nacionalistický	nacionalistickou nacionalistická nacionalistické nacionalistického nacionalistických nacionalistickým nacionalistickými
+54	8954	směřování	směřováním
+55	8955	mikroskop	mikroskopem mikroskopu mikroskopy mikroskopů
+56	8956	zvrátit	zvrátil
+57	8957	maskovat	maskoval maskován maskování maskováním maskuje maskují
+58	8958	oman	woman
+59	8959	klokan	klokana klokani klokany klokanů klokánek
+60	8960	kulový	kulovou kulová kulové kulového kulových kulovým
+61	8961	popisek	popiskem popisku popisky popisků
+62	8962	sklář	skláře skláři sklářské sklářský sklářů
+63	8963	nadzemní	nadzemních nadzemního nadzemním nadzemními
+64	8964	výkop	výkopech výkopem výkopu výkopy výkopů
+65	8965	dvacetiletý	dvacetiletou dvacetiletá dvacetileté dvacetiletého dvacetiletém dvacetiletí dvacetiletých dvacetiletým
+66	8966	gastronomie	gastronomii
+67	8967	asfaltový	asfaltovou asfaltová asfaltové asfaltového asfaltových asfaltovým
+68	8968	výstraha	výstrahou výstrahu výstrahy
+69	8969	er	
+70	8970	evidentní	
+71	8971	kdopak	
+72	8972	nefér	
+73	8973	nikterak	
+74	8974	nápadně	
+75	8975	následovně	
+76	8976	podhůří	
+77	8977	předplatné	
+78	8978	rozcestí	
+79	8979	mrav	mravy mravů mravům
+80	8980	zkažený	zkaženou zkažená zkažené zkaženého zkaženém zkažení zkažených zkaženým
+81	8981	bádání	bádáním
+82	8982	dějiště	dějišti dějištěm
+83	8983	alkoholický	alkoholická alkoholické alkoholického alkoholických alkoholickým
+84	8984	tornádo	tornád tornáda tornádem tornádu
+85	8985	potírat	potírají potírá potírání potře potřel potřeme potřete potřít
+86	8986	kochat	kochal kochala kochali kochám kocháme pokochat
+87	8987	symfonie	symfonii symfonií
+88	8988	solný	solnou solná solné solného solném solní solných solným
+89	8989	pornografie	pornografii pornografií
+90	8990	dominikánský	dominikánskou dominikánská dominikánské dominikánského dominikánském dominikánských
+91	8991	suverenita	suverenitu suverenity
+92	8992	očkovat	očkovaná očkované očkovaní očkovaný očkovaných očkován očkováni očkováno očkovány očkuje očkují
+93	8993	chemoterapie	chemoterapii chemoterapií
+94	8994	souhvězdí	souhvězdím
+95	8995	minimalizovat	minimalizoval minimalizovala minimalizovali minimalizovalo minimalizovaly minimalizována minimalizování minimalizuje minimalizují
+96	8996	obživa	obživou obživu obživy obživě
+97	8997	bláha	bláhou bláhová bláhové bláhy
+98	8998	vykázat	vykázal vykázala vykázali vykázalo vykázaly vykáže
+99	8999	ironický	ironickou ironická ironické ironického ironických ironickým
+100	9000	ohromující	ohromujících ohromujícím

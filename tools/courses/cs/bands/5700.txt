@@ -1,0 +1,100 @@
+1	5601	funkcionář	funkcionáře funkcionářem funkcionáři funkcionářů funkcionářům
+2	5602	životnost	životnosti životností
+3	5603	náhrdelník	náhrdelníkem náhrdelníku náhrdelníky náhrdelníků
+4	5604	pojmenovat	pojmenovali pojmenována
+5	5605	brzký	brzkou brzká brzké brzkého brzkém brzkému brzkých brzkým
+6	5606	gotický	gotickou gotická gotické gotického gotickém gotických gotickým gotickými
+7	5607	odraz	odrazem odrazu odrazy odrazů
+8	5608	pasažér	pasažéra pasažérem pasažérka pasažéry pasažérů pasažérům pasažéři
+9	5609	zemřelý	zemřelou zemřelá zemřelé zemřelého zemřelém zemřelému zemřelí zemřelých zemřelým zemřelými
+10	5610	troska	trosek troskami trosku troskách troskám
+11	5611	chronický	chronickou chronicky chronická chronické chronického chronickém chronickému chronických chronickým chronickými
+12	5612	úsporný	nejúspornější úspornou úsporná úsporné úsporného úsporném úspornému úsporných úsporným úspornými úsporně úspornější
+13	5613	relativní	relativních relativního relativním
+14	5614	znemožnit	znemožnil znemožnila znemožnili znemožnilo znemožnily znemožní znemožněn znemožněna znemožněno znemožnění znemožňoval znemožňovala znemožňovalo znemožňovaly znemožňuje znemožňují znemožňující
+15	5615	inspektor	inspektora inspektorem inspektorka inspektorovi inspektory inspektorů inspektorům inspektoři
+16	5616	totožný	totožnou totožná totožné totožného totožných totožným totožně
+17	5617	obývák	obývákem obýváku obýváků
+18	5618	snižování	snižováním
+19	5619	prolomit	prolomen prolomena prolomeno prolomeny prolomení prolomil prolomila prolomili prolomilo prolomily prolomí
+20	5620	sortiment	sortimentem sortimentu
+21	5621	veřejnoprávní	veřejnoprávních veřejnoprávního veřejnoprávním veřejnoprávními
+22	5622	viceprezident	viceprezidenta viceprezidentem viceprezidentka viceprezidentovi viceprezidentů
+23	5623	alan	alana alanem alanovi alanu
+24	5624	buben	bubnech bubnem bubnu bubny bubnů bubínek bubínku bubínky bubínků
+25	5625	centr	centra centre centrech centrem centru centry centrům
+26	5626	hrobka	hrobce hrobek hrobkou hrobku hrobky hrobkách
+27	5627	vizitka	vizitce vizitek vizitkou vizitku vizitky
+28	5628	výdrž	výdrže výdrži výdrží
+29	5629	autonomní	autonomních autonomního autonomním autonomními
+30	5630	bylina	bylin bylinami bylinka bylinou bylinu byliny bylinách
+31	5631	vodovod	vodovodech vodovodem vodovodní vodovodních vodovodního vodovodním vodovodu vodovody vodovodů
+32	5632	těsto	těsta těstem těstíčko těstě
+33	5633	montážní	montážních montážního montážním
+34	5634	zamezit	zamezeno zamezení zamezil zamezila zamezili zamezilo zamezily zamezuje zamezí zamezíme
+35	5635	kvést	kvete kvetl kvetla kvetlo kvetly kvetou pokvete
+36	5636	editor	editora editorem editoru editory editorů editoři
+37	5637	škodlivý	škodlivou škodlivá škodlivé škodlivého škodlivému škodlivých škodlivým škodlivými škodlivější
+38	5638	unikat	unikají unikající unikal unikala unikalo unikaly uniká unikání
+39	5639	hořký	hořce hořkou hořká hořké hořkého hořkém hořkých hořkým
+40	5640	národnost	národnosti národnostmi národností
+41	5641	experimentální	experimentálních experimentálního experimentálním experimentálními
+42	5642	stávka	stávce stávek stávkou stávku stávky stávkám
+43	5643	temnota	temnot temnotou temnotu temnoty temnotách temnotě
+44	5644	průměrně	
+45	5645	rallye	
+46	5646	zevnitř	
+47	5647	zprvu	
+48	5648	foťák	foťákem foťáku foťáky foťáků
+49	5649	střelný	střelnou střelná střelné střelného střelných střelným střelnými
+50	5650	nitro	nitra nitrem nitru nitry
+51	5651	osamělý	osaměle osamělou osamělá osamělé osamělého osamělém osamělému osamělí osamělých osamělým osamělými
+52	5652	paže	pažemi paži paží pažích
+53	5653	programátor	programátora programátorem programátorka programátorovi programátorské programátory programátorů programátorům programátoři
+54	5654	sedmnáct	sedmnácti
+55	5655	popsaný	popsanou popsaná popsané popsaného popsaném popsanému popsaných popsaným popsanými
+56	5656	akutní	akutních akutního akutním akutními akutnímu akutně
+57	5657	relevantní	relevantních relevantního relevantním relevantními relevantně
+58	5658	miliardář	miliardáře miliardářem miliardáři miliardářů
+59	5659	fakultní	fakultních fakultního
+60	5660	dabing	dabingem dabingu
+61	5661	velvyslanectví	velvyslanectvím
+62	5662	realistický	nerealistické realistickou realisticky realistická realistické realistického realistickém realistickému realistických realistickým realistickými realističtí realističtější
+63	5663	zhotovit	zhotoven zhotovena zhotoveno zhotovenou zhotoveny zhotovená zhotovené zhotoveného zhotovení zhotovený zhotovených zhotovil zhotovila zhotovili zhotoví
+64	5664	důchodový	důchodovou důchodová důchodové důchodového důchodovém důchodových důchodovým
+65	5665	zobrazit	zobrazí
+66	5666	angličan	angličana angličanem angličani angličanka angličanovi angličany angličané angličanů angličanům
+67	5667	odevzdat	odevzdal odevzdala odevzdali
+68	5668	prototyp	prototypem prototypu
+69	5669	přetrvávat	přetrvají přetrval přetrvala přetrvalo přetrvaly přetrvat přetrvá přetrvávají přetrvávající přetrvával přetrvávala přetrvávalo přetrvávaly přetrvává přetrvávání
+70	5670	bradavice	bradavce bradavek bradavic bradavicemi bradavici bradavicích bradavka bradavkami bradavku bradavky bradavkách
+71	5671	přesahovat	nepřesahuje přesahuje přesahují
+72	5672	upír	upíra upírech upírem upírka upírky upírovi upíry upírů upírům upíři
+73	5673	záložní	záložních záložního záložním
+74	5674	řízek	řízkem řízku řízky řízků
+75	5675	sklizeň	sklizni sklizní sklizně
+76	5676	dokonalost	dokonalosti dokonalostí
+77	5677	čtvrtletí	čtvrtletích čtvrtletím
+78	5678	talentovaný	nejtalentovanější nejtalentovanějších talentovanou talentovaná talentované talentovaného talentovaní talentovaných talentovaným talentovanými
+79	5679	homosexuální	homosexuálních homosexuálního homosexuálním homosexuálními homosexuálnímu
+80	5680	účtovat	naúčtovat neúčtuje neúčtují účtoval účtovala účtovali účtované účtován účtována účtováno účtovány účtování účtuje účtujeme účtují
+81	5681	zlom	zlomem zlomu zlomy zlomů
+82	5682	preventivní	preventivních preventivního preventivním preventivními preventivnímu
+83	5683	primitivní	nejprimitivnější primitivních primitivního primitivním primitivními primitivnější
+84	5684	součástka	součástek součástkami součástkou součástku součástky součástkách
+85	5685	plavky	plavek plavkami plavkách
+86	5686	chlad	chladem chladu chládek chládka chládková chládku
+87	5687	přebor	přeborech přeboru přebory přeborů
+88	5688	bezdrátový	bezdrátovou bezdrátová bezdrátové bezdrátového bezdrátovému bezdrátových bezdrátovým
+89	5689	podržet	podrž podržel podržela podrželi podrželo podržely podržte podrží podržím podržíme podržíte
+90	5690	vznikající	vznikajících vznikajícího vznikajícím vznikajícími vznikajícímu
+91	5691	moskevský	moskevskou moskevská moskevské moskevského moskevském moskevskému moskevských moskevským
+92	5692	laser	laserem laseru lasery laserů
+93	5693	tovární	továrních továrního továrním továrními továrně
+94	5694	usoudit	usoudil usoudila usoudili usoudí usuzoval usuzovat usuzování usuzuje usuzujeme usuzuji usuzují
+95	5695	zamítnout	zamítl zamítla zamítli zamítnuto
+96	5696	chirurgický	chirurgickou chirurgicky chirurgická chirurgické chirurgického chirurgickém chirurgickému chirurgických chirurgickým chirurgickými
+97	5697	podzemí	podzemím
+98	5698	zdivo	zdiva zdivem zdivu
+99	5699	nabrat	nabral nabrala nabraly
+100	5700	hrdlo	hrdel hrdla hrdle hrdlem hrdlu hrdly

@@ -1,0 +1,100 @@
+1	3101	mince	mincemi minci mincovní mincovního mincí mincích mincím
+2	3102	indický	indickou indická indické indického indickém indickému indických indickým indickými indičtí
+3	3103	místopředseda	místopředsedkyni místopředsedkyní místopředsedkyně místopředsedou místopředsedovi místopředsedové místopředsedu místopředsedy místopředsedů
+4	3104	vstupenka	vstupence vstupenek vstupenkami vstupenkou vstupenku vstupenky vstupenkách
+5	3105	ledový	ledovou ledová ledové ledového ledovém ledovému ledoví ledových ledovým ledovými ledově
+6	3106	potenciál	potenciálem potenciálu potenciály potenciálů
+7	3107	řecký	řeckou řecká řecké řeckého řeckém řeckému řeckých řeckým řeckými řečtí
+8	3108	management	managementem managementu
+9	3109	viditelný	nejviditelnější nejviditelnějších nejviditelnějším viditelnou viditelná viditelné viditelného viditelném viditelnému viditelní viditelných viditelným viditelnými viditelně viditelnější
+10	3110	svědčit	nesvědčí svědčil svědčila svědčili svědčilo svědčily svědčí svědčící
+11	3111	pomalý	nejpomalejší nejpomalejším pomalejší pomalejších pomalejšího pomalejším pomalejšímu pomalou pomalá pomalé pomalého pomalém pomalému pomalí pomalých pomalým pomalými
+12	3112	písmo	písem písma písmech písmem písmu
+13	3113	odnést	odnes odnese odneseme odnesen odnesena odnesete odnesl odnesla odnesli odneslo odnesly odnesou odneste odnesu odnášeli odnášet
+14	3114	náhradní	náhradních náhradního náhradním náhradními náhradnímu
+15	3115	obloha	oblohou oblohu oblohy obloze
+16	3116	porota	porot porotou porotu poroty porotě
+17	3117	církevní	církevních církevního církevním církevními církevnímu
+18	3118	úsilí	úsilím
+19	3119	rozdělení	rozdělením
+20	3120	zklamat	klamal klamat klame klamou klamu nezklamal zklamal zklamala zklamali zklamalo zklamaly zklame zklamou zklamu zklamán zklamána zklamáni
+21	3121	coby	
+22	3122	navždy	
+23	3123	turné	
+24	3124	jasno	jasna jasny
+25	3125	lék	lécích lékem léku léků lékům
+26	3126	počít	počal počala počali počalo počaly počat počata počato počaté počne počnou počnu počínaje počínají počínajíc počínající počínal počínala počínali počínat počíná počínání
+27	3127	poklad	pokladech pokladem pokladu poklady pokladů pokladům
+28	3128	zhoršit	zhoršené zhoršení zhoršený zhoršil zhoršila zhoršili zhoršilo zhoršily zhoršovat zhoršuje zhorší
+29	3129	vedený	vedenou vedená vedené vedeného vedeném vedenému vedených vedeným vedenými
+30	3130	priorita	priorit prioritami prioritou prioritu priority prioritách prioritám prioritě
+31	3131	náklad	nákladech nákladem nákladu nákladů nákladům
+32	3132	batoh	batohem batohu batohy batohů batůžek baťůžek
+33	3133	drát	der dere derou dral drátech drátek drátem drátu dráty drátě drátů
+34	3134	obal	obale obalech obalem obalový obalových obalu obaly obalů
+35	3135	link	linkem linku linky
+36	3136	ekologický	ekologickou ekologická ekologické ekologického ekologickém ekologickému ekologických ekologickým ekologickými ekologičtí ekologičtější nejekologičtější
+37	3137	skříň	skříni skříní skříních skříně skříněmi
+38	3138	zodpovědný	zodpovědni zodpovědnou zodpovědná zodpovědné zodpovědného zodpovědnému zodpovědní zodpovědných zodpovědným zodpovědnými zodpovědnější
+39	3139	zázemí	zázemím
+40	3140	zkratka	zkratce zkratek zkratkami zkratkou zkratku zkratky zkratkách
+41	3141	shromáždit	shromažďoval shromažďovala shromažďovali shromažďovaly shromažďovat shromažďovány shromažďování shromažďováním shromažďuje shromažďujeme shromažďují shromažďující shromáždil shromáždila shromáždili shromáždilo shromáždily shromáždí shromážděna shromážděni shromážděno shromážděny shromážděná shromážděné shromážděný shromážděných shromážděným shromážděnými
+42	3142	usnout	neusnu usla usne usnete usneš usnou usnu usnul usnula usnuli usnulo usnuly usnutí usínali usínat
+43	3143	odvolání	odvoláních odvoláním
+44	3144	ježit	jež ježí ježíš
+45	3145	organismus	organismech organismem organismu organismy organismů organismům
+46	3146	pirát	piráta pirátech pirátem piráti pirátka pirátovi piráty pirátů pirátům
+47	3147	startovat	startoval startovala startovali startovalo startovaly startování startuje startujeme startuji startují startující
+48	3148	vypustit	vypouští vypouštět vypustil vypustila vypustili vypustilo vypustily vypustí vypustím vypustíme vypustíte vypusťte vypuštěn vypuštěna vypuštěni vypuštěno vypuštěny vypuštění vypuštěný
+49	3149	maximum	maxim maxima maxime maximech maximem maximu maximy
+50	3150	inteligentní	inteligentních inteligentního inteligentním inteligentními inteligentnímu inteligentně inteligentnější nejinteligentnější
+51	3151	pytel	pytle pytlem pytli pytlích pytlík pytlů
+52	3152	advokát	advokáta advokátem advokáti advokátka advokátovi advokáty advokátů advokátům
+53	3153	přístupný	přístupno přístupnou přístupná přístupné přístupného přístupném přístupní přístupných přístupným přístupnými přístupnější
+54	3154	zájezd	zájezdech zájezdem zájezdu zájezdy zájezdů
+55	3155	slavnost	slavnostech slavnostem slavnosti slavnostmi slavností
+56	3156	stížnost	stížnostech stížnostem stížnosti stížnostmi stížností
+57	3157	naznačit	naznačen naznačena naznačeno naznačeny naznačená naznačené naznačení naznačený naznačených naznačeným naznačil naznačila naznačili naznačilo naznačily naznačovat naznačuje naznačí naznačím
+58	3158	svědomí	svědomím
+59	3159	mlčet	mlč mlčel mlčela mlčeli mlčení mlčením mlčeti mlčte mlčí mlčící mlčím mlčíme mlčíte pomlčel pomlčet pomlčím
+60	3160	podivný	nejpodivnější nejpodivnějších podivnou podivná podivné podivného podivném podivnému podivní podivných podivným podivnými podivnější
+61	3161	regulace	regulacemi regulaci regulací regulacím
+62	3162	louka	louce loukami loukou louku louky loukách loučka luka
+63	3163	ústřední	ústředních ústředního ústředním ústředními ústřednímu ústředně
+64	3164	nález	nálezech nálezem nálezu nálezy nálezů nálezům
+65	3165	obsluha	obsluhou obsluhu obsluhy obsluze
+66	3166	důraz	důrazem důrazu
+67	3167	kat	kata kate katem kati katovi katy katů
+68	3168	zkoumat	zkoumají zkoumal zkoumala zkoumali zkoumá zkoumáme
+69	3169	drsný	drsnou drsná drsné drsného drsném drsnému drsní drsných drsným drsnými drsně drsněji drsnější drsnějším nejdrsnější nejdrsnějších
+70	3170	stráž	stráže strážemi stráži stráží strážím
+71	3171	dědictví	dědictvím
+72	3172	šíření	šířením
+73	3173	vyskytnout	vyskytl vyskytla vyskytli vyskytlo vyskytly vyskytne vyskytnou vyskytovat vyskytuje
+74	3174	administrativní	administrativních administrativního administrativním administrativními administrativnímu
+75	3175	zvědavý	zvědav zvědavi zvědavá zvědavé zvědavého zvědaví zvědavých zvědavým zvědavě
+76	3176	pravděpodobnost	pravděpodobnosti pravděpodobností
+77	3177	rozlišení	rozlišením
+78	3178	publikum	publika publikem publiku
+79	3179	zastupitel	zastupitele zastupitelem zastupiteli zastupitelé zastupitelů zastupitelům
+80	3180	účinnost	účinnosti účinností
+81	3181	zanechat	zanech zanechají zanechal zanechala zanechali zanechalo zanechaly zanechte zanechá zanechám zanecháme zanechán zanecháte zanechávat zanechává
+82	3182	diskutovat	diskutoval diskutovala diskutovali diskutovalo diskutovaly diskutované diskutovaný diskutován diskutována diskutováno diskutovány diskutování diskutuje diskutujeme diskutujete diskutuji diskutujte diskutují diskutující prodiskutovat
+83	3183	had	hada hadech hadem hadi hadovi hadu hady hadí hadích hadího hadím hadů hadům hádek
+84	3184	prestižní	nejprestižnější nejprestižnějších nejprestižnějšího nejprestižnějším prestižních prestižního prestižním prestižními prestižnější
+85	3185	nenávist	nenávisti nenávistí
+86	3186	králík	králičí králičího králičím králíci králících králíka králíkem králíkovi králíková králíky králíků králíkům králíčci králíček králíčka králíčkem králíčky králíčků
+87	3187	paráda	parádou parádu parády parádě
+88	3188	přehlídka	přehlídce přehlídek přehlídkou přehlídku přehlídky přehlídkách
+89	3189	referendum	referend referenda referendech referendem referendu
+90	3190	příjmení	příjmením
+91	3191	dálka	dálce dálek dálku dálky
+92	3192	logo	loga logu logy
+93	3193	morální	morálních morálního morálním morálními morálnímu morálně
+94	3194	biologický	biologickou biologicky biologická biologické biologického biologickém biologickému biologických biologickým biologickými biologičtí
+95	3195	dlouholetý	dlouholetou dlouholetá dlouholeté dlouholetého dlouholetém dlouholetému dlouholetí dlouholetých dlouholetým dlouholetými
+96	3196	vzdělávací	vzdělávacích vzdělávacího vzdělávacím vzdělávacími vzdělávacímu
+97	3197	sídlit	sídle sídlil sídlila sídlili sídlilo sídlily sídlí sídlící sídlícího sídlíme
+98	3198	dobrodružství	dobrodružstvích dobrodružstvím dobrodružstvími
+99	3199	útvar	útvarech útvarem útvaru útvary útvarů útvarům
+100	3200	pardubický	pardubickou pardubická pardubické pardubického pardubickém pardubickému pardubických pardubickým pardubičtí

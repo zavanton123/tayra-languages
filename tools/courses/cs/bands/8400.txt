@@ -1,0 +1,100 @@
+1	8301	českobudějovický	českobudějovickou českobudějovická českobudějovické českobudějovického českobudějovickém českobudějovických českobudějovickým českobudějovičtí
+2	8302	mrznout	mrzli mrzlo mrzne mrznou mrznoucí mrznu mrznutí zmrzl zmrzla zmrzlo zmrzne zmrznou zmrznout zmrznutí
+3	8303	čitelný	čitelnou čitelná čitelné čitelných čitelným čitelnější
+4	8304	sekačka	sekačce sekaček sekačkou sekačku sekačky
+5	8305	suk	souček suku suky
+6	8306	obíhat	obíhají obíhající obíhajících obíhal obíhala obíhá obíhání oběhl oběhla oběhne oběhnout
+7	8307	regulátor	regulátora regulátorem regulátoru regulátory regulátorů regulátoři
+8	8308	pedál	pedálem pedálu pedály pedálů
+9	8309	křížit	křiž křížený kříží zkřížení zkřížil zkřížila zkřížili zkřížit zkříží
+10	8310	hovadina	hovadin hovadinu hovadiny
+11	8311	akumulátor	akumulátorem akumulátoru akumulátory akumulátorů
+12	8312	rozmístění	rozmístěním
+13	8313	házenkář	házenkáři házenkářka házenkářky házenkářů
+14	8314	nekonečno	nekonečna nekonečnem nekonečnu
+15	8315	kojení	kojením
+16	8316	rezervovat	rezervoval rezervovala rezervovali rezervovanou rezervovaná rezervované rezervovaný rezervován rezervována rezervováno rezervovány rezervuje rezervujte rezervují
+17	8317	vyvolit	vyvolen vyvoleni vyvolení vyvolený vyvolených vyvolil
+18	8318	pohledný	pohlednou pohledná pohledné pohledného pohlední pohledných pohledným
+19	8319	příze	přízi přízí
+20	8320	záď	zádi zádí zádě
+21	8321	sytý	sytou sytá syté sytém sytému sytí sytých sytými sytě sytější
+22	8322	klientela	klientele klientelou klientelu klientely
+23	8323	naživu	
+24	8324	bestseller	bestsellerem bestselleru bestsellery bestsellerů
+25	8325	pitomost	pitomosti pitomostí
+26	8326	poddaný	poddané poddaného poddaní poddaných poddaným poddanými
+27	8327	lupa	lup lupe lupem lupo lupou lupu lupů lupům
+28	8328	průřez	průřezem průřezu průřezy průřezů
+29	8329	seskupit	seskupeny seskupené seskupení seskupením seskupili seskupují
+30	8330	magor	magora magorem magorovi magory magorů magoři
+31	8331	dýně	dýni dýní dýňovou dýňová dýňové dýňového dýňový dýňových
+32	8332	umyvadlo	umyvadel umyvadla umyvadle umyvadlem
+33	8333	odtáhnout	odtahovat odtažen odtažena odtaženo odtáhl odtáhla odtáhli odtáhne odtáhnou
+34	8334	souvislý	souvisle souvislou souvislá souvislé souvislého souvislém souvislých souvislým
+35	8335	klíště	klíštěte klíštětem klíšťat klíšťata klíšťaty klíšťatům klíšťovou klíšťová klíšťové
+36	8336	fólie	fólii fólií
+37	8337	vodík	vodících vodíkem vodíku
+38	8338	zdvořilý	zdvořile zdvořilou zdvořilá zdvořilé zdvořilého zdvořilí
+39	8339	jihozápad	jihozápadu jihozápadě
+40	8340	plachý	plachou plachá plaché plachého plachým plaše plaší
+41	8341	krymský	krymskou krymská krymské krymského krymském krymských krymským krymští
+42	8342	prohledat	prohledají prohledal prohledala prohledali prohledejte prohledá prohledání prohledávat
+43	8343	ošetřovatel	ošetřovatele ošetřovatelek ošetřovatelem ošetřovateli ošetřovatelka ošetřovatelkou ošetřovatelku ošetřovatelky ošetřovatelská ošetřovatelé ošetřovatelů
+44	8344	šifrování	šifrováním
+45	8345	kurýr	kurýra kurýrem kurýrní kurýrovi kurýry kurýrů kurýři
+46	8346	vyjasnit	nevyjasněné vyjasnil vyjasnila vyjasnili vyjasnilo vyjasní vyjasněno vyjasnění vyjasňovat
+47	8347	dravý	dravou dravá dravé dravého draví dravých dravým dravými dravější
+48	8348	mletý	mletou mletá mleté mletého mletí mletých mletým
+49	8349	trafika	trafice trafik trafiku trafiky trafikách
+50	8350	řemeslný	řemeslnou řemeslná řemeslné řemeslného řemeslných řemeslným řemeslně
+51	8351	zběsilý	zběsile zběsilou zběsilá zběsilé zběsilém zběsilí zběsilých zběsilým
+52	8352	zvláštnost	zvláštnostech zvláštnostem zvláštnosti zvláštnostmi zvláštností
+53	8353	bába	bab bábou bábu báby bábě
+54	8354	dřeň	dřeni dření dřeně
+55	8355	symbolizovat	symbolizuje
+56	8356	atletika	atletice atletikou atletiku atletiky
+57	8357	limonáda	limonád limonádou limonádu limonády
+58	8358	dioda	diod diodami diodou diodu diody
+59	8359	nejedlý	nejedlá nejedlé nejedlého nejedlým
+60	8360	operativní	operativních operativního operativním
+61	8361	varhany	varhan varhanami
+62	8362	potit	pocení potil potila potí potím potíme potíte zapotit zpocení
+63	8363	stýkat	stýkají stýkal stýkala stýkali stýká stýkám stýkáme stýkání
+64	8364	travnatý	travnatou travnatá travnaté travnatého travnatém travnatých travnatým travnatými
+65	8365	modifikace	modifikacemi modifikaci modifikací modifikacích
+66	8366	mimino	mimin mimina miminem
+67	8367	sesadit	sesadil sesadila sesadili sesadí sesazen sesazení sesazený
+68	8368	taktovka	taktovkou taktovku taktovky
+69	8369	seč	seče seči
+70	8370	spermie	spermiemi spermii spermií
+71	8371	kotva	kotev kotvou kotvu kotvy kotvě
+72	8372	křestní	křestních křestního křestním křestními
+73	8373	sklenka	sklence sklenek sklenkou sklenku sklenky sklenkách
+74	8374	provdat	provdal provdala provdá
+75	8375	kalich	kalicha kalichem kalichu kalichy
+76	8376	zachránce	zachráncem zachránci zachránců zachránkyně
+77	8377	generovat	generuje
+78	8378	zamotat	zamotají zamotal zamotala zamotali zamotalo zamotaly zamotanou zamotaná zamotané zamotaný zamotá zamotávat
+79	8379	mělký	mělce mělkou mělká mělké mělkého mělkém mělkých mělkým mělčí
+80	8380	puberta	pubertou pubertu puberty pubertě
+81	8381	slupka	slupce slupek slupkou slupku slupky slupkách
+82	8382	střevní	střevních střevního střevním střevními
+83	8383	podnebí	podnebím
+84	8384	borůvka	borůvek borůvkami borůvková borůvkové borůvkový borůvku borůvky
+85	8385	bobek	bobka bobkem bobkové bobku bobky
+86	8386	konspirační	konspiračních konspiračního konspiračním konspiračními
+87	8387	třídit	třídil třídili třídí třídící třídím třídíme třídě tříděný
+88	8388	vyslanec	vyslance vyslancem vyslanci vyslanců vyslankyně
+89	8389	cech	cechem cechu cechy cechů
+90	8390	kůl	kole kolech kolek kolka kolky kolků kolu koly kolům kůlech kůlem kůlu kůly kůlů
+91	8391	brd	brdech brdský brdy
+92	8392	provokace	provokaci provokací provokacím
+93	8393	živobytí	živobytím
+94	8394	synchronizace	synchronizaci synchronizací
+95	8395	gorila	goril gorilami gorilu gorily gorilám
+96	8396	substrát	substrátech substrátem substrátu substráty substrátů
+97	8397	čumět	čum čumí čumím čumíte čumíš čuměl čuměli
+98	8398	režírovat	režíroval režíruje
+99	8399	rozvědka	rozvědce rozvědkou rozvědku rozvědky
+100	8400	vzdorovat	vzdoroval vzdorovala vzdorovali vzdoruje vzdorují vzdorující

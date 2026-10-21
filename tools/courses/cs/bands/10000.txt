@@ -1,0 +1,100 @@
+1	9901	hamr	hamrech hamru hamry hamrů
+2	9902	hvězdárna	hvězdárnou hvězdárnu hvězdárny hvězdárně
+3	9903	fenomenální	fenomenálního fenomenálním
+4	9904	přenechat	přenechal
+5	9905	kláda	kladek kladka kladkou kladku kladky klád kládou kládu klády kládě
+6	9906	razantně	razantněji
+7	9907	agrární	agrárních agrárního
+8	9908	markýz	markýza markýze markýzi markýzou markýzu markýzy
+9	9909	nepředvídatelný	nepředvídatelnou nepředvídatelná nepředvídatelné nepředvídatelného nepředvídatelných nepředvídatelným nepředvídatelnými nepředvídatelně
+10	9910	plynovod	plynovodní plynovodu plynovody plynovodů
+11	9911	kantor	kantora kantorem kantory kantorů kantoři kantůrek
+12	9912	lustr	lustru lustry lustrů
+13	9913	střízlivý	střízlivou střízlivá střízlivé střízlivého střízliví střízlivým střízlivě střízlivější
+14	9914	potvora	potvor potvoru potvory potvůrka
+15	9915	autismus	autismem autismu autistické autistického autistický
+16	9916	nerovný	nerovná nerovné nerovného nerovném nerovných nerovným
+17	9917	autorství	autorstvím
+18	9918	plachetnice	plachetnic plachetnici plachetnicí
+19	9919	minutový	minutovou minutová minutové minutového minutovém minutových minutovým
+20	9920	litevský	litevskou litevská litevské litevského litevském litevských litevským litevští
+21	9921	neklid	neklidem neklidu
+22	9922	hlasovací	hlasovacího hlasovacím
+23	9923	učenec	učence učencem učenci učenců
+24	9924	dopsat	dopisovat dopsal dopsala dopíšu
+25	9925	zastínit	zastínil zastínila zastínilo zastínily zastíní zastíněn zastíněna zastínění
+26	9926	odsun	odsune odsunem odsunu
+27	9927	bráška	bráško bráškou bráškovi bráškové brášku brášky
+28	9928	přepravka	přepravce přepravci přepravců přepravek přepravku přepravky
+29	9929	sporák	sporákem sporáku sporáky sporáků
+30	9930	nepoužitelný	nepoužitelnou nepoužitelná nepoužitelné nepoužitelní nepoužitelných nepoužitelným
+31	9931	úrodný	nejúrodnější úrodnou úrodná úrodné úrodného úrodných
+32	9932	mícha	mích míchou míchu míchy míchám míše
+33	9933	mzdový	mzdovou mzdová mzdové mzdového mzdových mzdovým
+34	9934	cement	cementem cementu
+35	9935	opožděný	opožděnou opožděná opožděné opožděného opoždění opožděným opožděně
+36	9936	obratel	obratle obratlem obratli obratlů
+37	9937	prohnat	prohnal prohnala prohnali prohnalo prohánějí proháněli prohánět prožene
+38	9938	útlak	útlakem útlaku
+39	9939	rozbalit	rozbalení rozbalil rozbalila rozbalili rozbalovat rozbalte rozbalí rozbalíme
+40	9940	auditor	auditora auditorech auditorem auditory auditorů auditoři
+41	9941	mrazit	mraze mrazilo mrazí mrazící mražení mražený zamrazilo zamrazit
+42	9942	přečkat	přečkají přečkal přečkala přečkali přečkaly přečká
+43	9943	arzenál	arsenál arzenálem arzenálu
+44	9944	holčičí	holčičích
+45	9945	učeň	učeni učni učně učněm učňů
+46	9946	imigrace	imigraci imigrací
+47	9947	revír	revírech revírem revíru revíry revírů
+48	9948	pást	pasa pase pasou pasoucí paste pasu pásl pásla pásli pásly
+49	9949	načíst	načetl načetla načte načteno načítat
+50	9950	nepodstatný	nepodstatnou nepodstatná nepodstatné nepodstatného nepodstatných
+51	9951	fešák	fešáci fešáka fešáky
+52	9952	simulovat	simuloval simulovali simulovaný simulování simuluje simulují simulující
+53	9953	rozdávání	rozdáváním
+54	9954	mobilizace	mobilizaci mobilizací
+55	9955	opičí	opičích opičího opičím
+56	9956	výhradní	výhradního výhradním
+57	9957	donekonečna	
+58	9958	mix	mixu
+59	9959	mustang	
+60	9960	puzzle	
+61	9961	vystát	
+62	9962	zvolna	
+63	9963	želé	
+64	9964	rasista	rasisti rasistka rasistu rasisty rasisté rasistů
+65	9965	plenka	plenek plenku plenky plenkách
+66	9966	ženevský	ženevskou ženevská ženevské ženevského ženevském ženevských ženevským
+67	9967	cisterna	cisteren cisternami cisternou cisternu cisterny cisterně
+68	9968	kongresový	kongresovou kongresová kongresové
+69	9969	velikán	velikána velikánem velikáni velikány velikánů velikánům
+70	9970	masný	masnou masná masné masného masných
+71	9971	znečistit	znečistil znečištěn znečištěna znečištěno znečišťovat znečišťování znečišťuje znečišťují znečišťující znečišťujících
+72	9972	madlo	madel madla madle madly
+73	9973	přikrýt	přikryje přikryjeme přikryjte přikryl přikryla přikrývá
+74	9974	rozměrný	rozměrnou rozměrná rozměrné rozměrného rozměrných rozměrným rozměrnými rozměrnější
+75	9975	recese	recesi recesí
+76	9976	příděl	přídělem přídělu příděly přídělů
+77	9977	mech	mechem mechu mechy mechů
+78	9978	žirafa	žiraf žirafou žirafu žirafy žirafí
+79	9979	rozhořčení	rozhořčením
+80	9980	imigrační	imigračních imigračního imigračním
+81	9981	tlupa	tlup tlupou tlupu tlupy tlupách tlupě
+82	9982	orální	orálního orálním orálnímu
+83	9983	globalizace	globalizaci globalizací
+84	9984	genderový	genderovou genderová genderové genderového genderových genderovým
+85	9985	sibiřský	sibiřskou sibiřská sibiřské sibiřského sibiřském sibiřských
+86	9986	mixér	mixérem mixéru mixéry
+87	9987	bájný	bájnou bájná bájné bájného bájném bájných bájným
+88	9988	pískovec	pískovce pískovci pískovcích pískovců
+89	9989	zázvor	zázvorem zázvorovou zázvorová zázvorové zázvorový zázvoru
+90	9990	odpočet	odpočtu odpočty
+91	9991	zkrotit	zkrocení zkrotil zkrotí
+92	9992	zmocněnec	zmocněnce zmocněncem zmocněnci zmocněnců zmocněnkyně
+93	9993	chlor	chlorem chloru chlór chlóru
+94	9994	pokladnice	pokladnici pokladnicí pokladník pokladníka pokladníkem
+95	9995	čidlo	čidel čidla čidlem čidly
+96	9996	hlaveň	hlavni hlavním hlavněmi
+97	9997	kontinuita	kontinuitu kontinuity kontinuitě
+98	9998	soda	sodou sodu sody
+99	9999	kóma	kómatu
+100	10000	vzdělanost	vzdělanosti

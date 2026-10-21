@@ -1,0 +1,100 @@
+1	1801	spadnout	nespadl spadeno spadl spadla spadli spadlo spadly spadne spadneme spadnete spadnou spadnu spadnul spadnutí
+2	1802	manažer	manažera manažerek manažerem manažerka manažerkou manažerku manažerky manažerovi manažery manažerů manažerům manažeři
+3	1803	československý	československou československá československé československého československém československému československých československým československými českoslovenští čs
+4	1804	probudit	probouzejí probouzející probouzel probouzela probouzeli probouzení probouzet probouzí probouzím probouzíme probouzíte probudil probudila probudili probudilo probudily probudí probudím probudíme probudíte probudíš probuzen probuzena probuzená probuzené probuzení probuzením probuzený probuď probuďte
+5	1805	vyprávět	vypráví vyprávím vyprávíme vyprávíte vyprávěj vyprávějte vyprávějí vyprávějící vyprávěl vyprávěla vyprávěli vyprávělo vyprávěly vyprávěn vyprávěna vyprávěny vyprávěné vyprávěný
+6	1806	starost	starostech starostem starosti starostmi starostí
+7	1807	rekord	rekordech rekordem rekordu rekordy rekordů
+8	1808	dáma	dam dám dámami dámo dámou dámu dámy dámám dámě
+9	1809	aniž	
+10	1810	dolů	
+11	1811	foto	
+12	1812	krajina	krajin krajinami krajinou krajinu krajiny krajinách krajinám krajině
+13	1813	vzdát	nevzdá vzdají vzdal vzdala vzdali vzdalo vzdaly vzdejte vzdá vzdám vzdáme vzdání vzdáte vzdávat vzdává vzdáš
+14	1814	jakýkoli	jakoukoli jakákoli jakéhokoli jakékoli jakémkoli jakémukoli jakýchkoli jakýmikoli jakýmkoli
+15	1815	hodnocení	hodnoceních hodnocením
+16	1816	vzdálenost	vzdálenostech vzdálenostem vzdálenosti vzdálenostmi vzdáleností
+17	1817	jezero	jezer jezera jezerech jezerem jezerní jezerního jezeru jezery jezerům jezeře jezírek jezírka jezírkem jezírko jezírku jezírky jezírkách
+18	1818	hlad	hladem hladovou hladová hladové hladového hladovému hladoví hladový hladových hladovým hladovými hladově hladovější hladu hlady
+19	1819	soudce	soudcem soudci soudcovské soudcové soudcích soudců soudcům soudkyni soudkyní soudkyně
+20	1820	dávka	dávce dávek dávkami dávkou dávkový dávku dávky dávkách dávkám
+21	1821	spokojený	nejspokojenější spokojenou spokojená spokojené spokojeného spokojeném spokojenému spokojení spokojených spokojeným spokojenými spokojeně spokojenější
+22	1822	prázdný	prázdna prázdno prázdnou prázdná prázdné prázdného prázdném prázdnému prázdní prázdných prázdným prázdnýma prázdnými prázdně prázdnější
+23	1823	zavolat	zavolají zavolal zavolala zavolali zavolaly zavolej zavolejte zavolá zavolám zavoláme zavolán zavolána zavolání zavoláte zavoláš
+24	1824	přítomnost	přítomnosti přítomností
+25	1825	vrstva	vrstev vrstvami vrstvička vrstvičkou vrstvičku vrstvou vrstvu vrstvy vrstvách vrstvám vrstvě
+26	1826	odměna	odměn odměnami odměnou odměnu odměny odměnách odměně
+27	1827	roh	rohem rohu rohy rohů rohům rozích růžek
+28	1828	zakázat	zakazovat zakazuje zakažte zakázal zakázala zakázali zakázalo zakázaly zakázán zakázána zakázáno zakázány zakáže zakážeme zakážete zakážou
+29	1829	modrý	modro modrou modré modrého modrém modrému modrých modrým modrýma modrými modře modří
+30	1830	pozdě	dýl nejpozději
+31	1831	znak	znacích znakem znaku znaky znaků znakům
+32	1832	procházet	procházejí procházející procházejících procházejícího procházejícím procházel procházela procházeli procházelo procházely procházení prochází procházím procházíme procházíte
+33	1833	případný	případnou případná případné případného případném případnému případní případných případným případnými
+34	1834	detail	detailech detailem detailu detaily detailů detailům
+35	1835	dotaz	dotazech dotazem dotazu dotazy dotazů dotazům
+36	1836	sbírat	sbírají sbírající sbíral sbírala sbírali sbíraly sbírej sbírejte sbírá sbírám sbíráme sbírána sbírány sbírání sbíráte seber sebere sebereme seberete seberou seberte seberu sebral sebrala sebrali sebralo sebraly sebrat sebrán
+37	1837	zvítězit	vítěze vítězil vítězila vítězili vítězit vítězí vítězící vítězíme zvítězil zvítězila zvítězili zvítězilo zvítězily zvítězí zvítězíme
+38	1838	hmotnost	hmotnostech hmotnosti hmotností
+39	1839	náhoda	náhod náhodička náhodnou náhodná náhodné náhodného náhodném náhodnému náhodní náhodný náhodných náhodným náhodnými náhodně náhodu náhody náhodě
+40	1840	sever	severe severem severu
+41	1841	existence	existenci existencí neexistence neexistenci
+42	1842	středisko	střediscích středisek střediska střediskem středisku středisky střediskům
+43	1843	poloha	poloh polohami polohou polohu polohy polohách polohám poloze
+44	1844	dotace	dotacemi dotaci dotací dotacích dotacím
+45	1845	zásah	zásahem zásahu zásahy zásahů zásahům zásazích
+46	1846	okruh	okruhem okruhu okruhy okruhů okruhům okruzích
+47	1847	bok	bocích bokem boku boky boků bokům boček bůček bůčku
+48	1848	zaujmout	zaujal zaujala zaujali zaujalo zaujaly zaujat zaujata zaujati zaujatá zaujaté zaujatí zaujatý zaujatě zaujetí zaujetím zaujme zaujmeme zaujmete zaujmou zaujměte zaujímat zaujímá
+49	1849	zabránit	nezabránili nezabrání zabraňoval zabraňovala zabraňovat zabraňte zabraňuje zabraňují zabraňující zabránil zabránila zabránili zabránilo zabránily zabrání zabráním zabráníme zabráníte zabráněno
+50	1850	mise	misemi misi misí misích misím
+51	1851	populární	nejpopulárnější nejpopulárnějších nejpopulárnějšího nejpopulárnějším nejpopulárnějšími populárních populárního populárním populárními populárnímu populárně populárnější populárnějším
+52	1852	patro	pater patra patrech patrem patru patry patře
+53	1853	úředník	úřednice úřednici úřednicí úředníci úřednících úředníka úředníkem úředníkovi úředníku úředníky úředníků úředníkům úředníček
+54	1854	uznat	neuznal neuznávají neuznává uznají uznal uznala uznali uznalo uznaly uznejte uzná uznám uznáme uznán uznána uznáni uznáno uznány uznáte uznávají uznávající uznával uznávala uznávali uznávat uznává uznávám uznáváme uznáván uznávána uznáváno uznávány uznávání uznáváte uznáš
+55	1855	raketa	raket raketami raketou raketovou raketová raketové raketového raketovém raketovému raketový raketových raketovým raketovými raketu rakety raketách raketám raketě
+56	1856	věž	věže věžemi věži věžička věžičky věží věžích věžím
+57	1857	výraz	výrazech výrazem výrazu výrazy výrazů výrazům
+58	1858	pravidelný	pravidelnou pravidelná pravidelné pravidelného pravidelném pravidelnému pravidelní pravidelných pravidelným pravidelnými pravidelnější
+59	1859	jistota	jistot jistotou jistotu jistoty jistotě
+60	1860	představitel	představitele představitelem představiteli představitelka představitelé představitelích představitelů představitelům
+61	1861	křesťan	křesťana křesťanech křesťanem křesťanka křesťankou křesťanku křesťanky křesťanskou křesťanská křesťanské křesťanského křesťanském křesťanskému křesťanský křesťanských křesťanským křesťanskými křesťany křesťané křesťanští křesťanů křesťanům
+62	1862	plus	plusem plusu plusy plusů
+63	1863	zahrát	zahraje zahrál zahrála zahráli zahrálo
+64	1864	pilot	pilota pilotech pilotem piloti pilotovi pilotu piloty pilotů pilotům
+65	1865	nezapomenout	nezapomene nezapomeneme nezapomenete nezapomenou nezapomenu nezapomeň nezapomeňme nezapomeňte nezapomněl nezapomněla nezapomněli nezapomnělo nezapomněly nezapomínat
+66	1866	negativní	negativních negativního negativním negativními negativnímu negativně
+67	1867	úplný	nejúplnější úplnou úplná úplné úplného úplném úplnému úplní úplných úplným úplnými
+68	1868	informační	informačních informačního informačním informačními informačnímu informačně
+69	1869	základna	základen základnami základnou základnu základny základnách základnám základně
+70	1870	velitel	velitele velitelem veliteli velitelka velitelskou velitelská velitelské velitelského velitelském velitelský velitelských velitelským velitelé velitelů velitelům
+71	1871	maximální	maximálních maximálního maximálním maximálními maximálnímu
+72	1872	vytáhnout	vytahoval vytahovali vytahovat vytahuje vytažen vytažena vytaženo vytaženy vytáhl vytáhla vytáhli vytáhlo vytáhly vytáhne vytáhneme vytáhnete vytáhneš vytáhni vytáhnou vytáhnu vytáhněte
+73	1873	fotbalista	fotbalisti fotbalistka fotbalistky fotbalistou fotbalistovi fotbalistu fotbalisty fotbalisté fotbalistů fotbalistům
+74	1874	požár	požárech požárem požáru požáry požárů požárům
+75	1875	huba	hub hubička hubičku hubičky hubou hubu huby hubě
+76	1876	nezávislý	nezávislou nezávislá nezávislé nezávislého nezávislém nezávislému nezávislí nezávislých nezávislým nezávislými
+77	1877	mluvčí	mluvčích mluvčího mluvčím mluvčími mluvčímu
+78	1878	odchod	odchodem odchodu odchody odchodů
+79	1879	pláž	pláže plážemi pláži plážovou plážová plážové plážového plážovém plážový plážových pláží plážích plážím
+80	1880	zasáhnout	zasahovat zasahuje zasáhl zasáhla zasáhli zasáhlo zasáhly zasáhne zasáhnou
+81	1881	kopec	kopce kopcem kopci kopcích kopců kopcům kopeček
+82	1882	aha	
+83	1883	posádka	posádce posádek posádkami posádkou posádku posádky posádkách posádkám
+84	1884	zahrnout	zahrne zahrneme zahrnou zahrnovat zahrnuje zahrnul zahrnula zahrnuli zahrnulo zahrnuly zahrnut zahrnuta zahrnuti zahrnuto zahrnuty zahrnuté zahrnutí zahrnutý zahrňte
+85	1885	překonat	překonají překonal překonala překonali překonalo překonaly překonanou překonaná překonané překonaný překonaných překoná překonám překonáme překonán překonána překonáno překonány překonání překonáte překonávat překonává
+86	1886	neuvěřitelný	neuvěřitelnou neuvěřitelná neuvěřitelné neuvěřitelného neuvěřitelném neuvěřitelnému neuvěřitelných neuvěřitelným neuvěřitelnými
+87	1887	následek	následcích následkem následku následky následků následkům
+88	1888	přechod	přechodech přechodem přechodové přechodový přechodu přechody přechodů přechodům
+89	1889	kříž	kříže křížek křížem kříži křížkem křížku křížky křížků křížová křížové křížích křížů
+90	1890	lev	leva levy lva lvech lvem lvi lvice lvici lvovi lvové lvu lvy lví lvího lvím lvíček lvíčka lvů lvům
+91	1891	domluvit	domlouvají domlouval domlouvala domlouvali domlouvat domlouvá domlouvám domlouváme domlouvání domluv domluven domluvena domluveni domluveno domluvenou domluvená domluvené domluveného domluveném domluvení domluvený domluvených domluveným domluvil domluvila domluvili domluvilo domluvily domluvte domluví domluvím domluvíme domluvíte domluvíš
+92	1892	hladina	hladin hladinami hladinou hladinu hladiny hladinách hladině
+93	1893	testovat	otestovat testoval testovala testovali testovalo testovaly testovaný testován testována testováni testováno testovány testování testováním testuje testujeme testuji testují testující
+94	1894	studio	studiu
+95	1895	komunista	komunistech komunisti komunistka komunistou komunistu komunisty komunisté komunistů komunistům
+96	1896	sníh	snížek sněhem sněhu sněhy
+97	1897	obličej	obličeje obličejem obličeji obličejích obličejů
+98	1898	objednat	objednají objednal objednala objednali objednalo objednaly objednanou objednaná objednané objednaného objednaný objednaných objednej objednejte objedná objednám objednáme objednán objednána objednáno objednány objednání objednáte objednávají objednával objednávala objednávali objednávat objednává objednávám objednáváme objednávání
+99	1899	střela	střel střelami střele střelou střelu střely střelách střelám
+100	1900	narození	nar narozenou narozená narozené narozeného narozenému narozením narozený narozených narozeným narozenými

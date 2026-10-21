@@ -1,0 +1,100 @@
+1	9801	korporátní	korporátních korporátního korporátním
+2	9802	frustrace	frustraci frustrací
+3	9803	strojový	strojovou strojová strojové strojového strojovém strojovým strojově
+4	9804	revue	revui
+5	9805	spočívající	spočívajícího
+6	9806	vodárna	vodáren vodárnou vodárnu vodárny vodárně
+7	9807	nesmrtelnost	nesmrtelnosti nesmrtelností
+8	9808	zloba	zlobou zlobu zloby zlobě
+9	9809	obrátka	obrátce obrátek obrátky obrátkách
+10	9810	naskytnout	naskytla naskytne
+11	9811	soupeřit	soupeří
+12	9812	okupovat	okupoval okupovala okupovali okupovalo okupovaly okupován okupována okupováno okupuje okupují okupující
+13	9813	konsorcium	konsorcia konsorciem konsorciu
+14	9814	ploutev	ploutve ploutvemi ploutvi ploutví
+15	9815	natažený	nataženou natažená natažené natažení natažených nataženým nataženýma nataženými
+16	9816	kancl	kanclu
+17	9817	projížďka	projížďce projížďku projížďky
+18	9818	trnka	trnkou trnková trnku trnky
+19	9819	hnízdit	hnízdil hnízdila hnízdí hnízdící hnízdě hnízdění
+20	9820	sója	sóji sójovou sójová sójové sójového sójový sójových sóju
+21	9821	zákonodárný	zákonodárnou zákonodárná zákonodárné zákonodárného zákonodárném zákonodárných zákonodárným
+22	9822	baseball	baseballu
+23	9823	kampus	kampusu
+24	9824	šampión	šampióna šampiónem šampióni šampiónka šampióny šampiónů
+25	9825	příjezdový	příjezdovou příjezdová příjezdové příjezdových
+26	9826	atentátník	atentátníci atentátníka atentátníkem atentátníky atentátníků
+27	9827	orgie	orgií orgiích
+28	9828	vzpamatovat	vzpamatoval vzpamatovala vzpamatuje
+29	9829	lilie	liliemi lilii lilií
+30	9830	pozvolný	pozvolnou pozvolná pozvolné pozvolného pozvolnému pozvolným pozvolně pozvolnější
+31	9831	medailista	medailistou medailistu medailisty medailisté medailistů
+32	9832	nevelký	nevelkou nevelká nevelké nevelkého nevelkém nevelkých nevelkým
+33	9833	béčko	béčka béčkem béčku
+34	9834	poskládat	poskládal poskládala poskládali poskládaný poskládá poskládáme poskládána poskládány poskládání
+35	9835	oštěp	oštěpem oštěpu oštěpy oštěpů
+36	9836	smést	smete smetena smetl smetou
+37	9837	hardwarový	hardwarovou hardwarová hardwarové hardwarového hardwarových hardwarovým
+38	9838	způsobilý	způsobilou způsobilá způsobilé způsobilí způsobilých způsobilým
+39	9839	základka	základce základku základky
+40	9840	dozrát	dozrálo zraje zrají zrající zrejme zrál zrála zrálo zrát
+41	9841	nedokonalý	nedokonale nedokonalou nedokonalá nedokonalé nedokonalého nedokonalém nedokonalí nedokonalých nedokonalým
+42	9842	maloobchodní	maloobchodním
+43	9843	věstník	věstníku
+44	9844	osvítit	osvícen osvícenou osvícená osvícené osvíceného osvícený osvícených osvíceným osvítil osvítilo osvítí
+45	9845	dýka	dýk dýkou dýku dýky
+46	9846	zastihnout	nezastihl zastihl zastihli zastihne
+47	9847	sedmiletý	sedmiletou sedmiletá sedmileté sedmiletého sedmiletém
+48	9848	píst	pístem pístu písty pístů
+49	9849	útulný	útulnou útulná útulné útulného útulném útulných útulnější
+50	9850	náhražka	náhražek náhražkami náhražkou náhražku náhražky
+51	9851	stříci	střehu střežen střežena střeženo střeženy střežené střežený
+52	9852	karaoke	
+53	9853	natvrdo	
+54	9854	ob	
+55	9855	tabu	
+56	9856	ústraní	
+57	9857	úřadující	
+58	9858	vlídný	vlídnou vlídná vlídné vlídného vlídní vlídným vlídně vlídnější
+59	9859	zavazadlový	zavazadlového zavazadlovém zavazadlovým
+60	9860	voňavý	voňavou voňavá voňavé voňavého voňavých voňavým voňavými
+61	9861	svržení	svržením
+62	9862	brožura	brožur brožuru brožury brožurách brožuře
+63	9863	enormní	enormních enormního enormním enormnímu enormně
+64	9864	knihovní	knihovních knihovního knihovním knihovně
+65	9865	pronajímatel	pronajímatele pronajímatelem pronajímateli pronajímatelé pronajímatelů
+66	9866	signalizace	signalizaci
+67	9867	zanést	zanese zanesen zanesena zaneseno zaneseny zanesl zanesla zanesli zanesou zanášet
+68	9868	doupě	doupat doupata doupěte doupěti
+69	9869	lékárník	lékárnice lékárníci lékárníka lékárníkem lékárníkovi lékárníky lékárníků
+70	9870	přislíbit	přislíbena přislíbil přislíbilo přislíbily přislíbí
+71	9871	mírumilovný	mírumilovnou mírumilovná mírumilovné mírumilovného mírumilovní mírumilovných mírumilovným
+72	9872	souostroví	souostrovím
+73	9873	vykoupat	vykoupali
+74	9874	mládenec	mládence mládencem mládenci mládenců
+75	9875	zřetel	zřetele zřetelem zřeteli
+76	9876	vepřový	vepřovou vepřová vepřového vepřovém vepřovému vepřových vepřovým
+77	9877	význačný	nejvýznačnější nejvýznačnějších význačnou význačná význačné význačného význační význačných význačným význačnými
+78	9878	zářez	zářezem zářezu zářezy zářezů
+79	9879	školit	vyškolen vyškolit škol škole školicího školil školila školili školí školící
+80	9880	požehnaný	požehnaná požehnané požehnaného požehnaném požehnaných požehnaně
+81	9881	blonďatý	blonďatou blonďatá blonďaté blonďatého blonďatých blonďatými
+82	9882	zvonění	zvoněním
+83	9883	pálka	pálce pálek pálkou pálku pálky
+84	9884	tsunami	cunami
+85	9885	ekvivalent	ekvivalentu ekvivalentů
+86	9886	kopyto	kopyt kopyta kopytech kopytem kopyty kopýtko
+87	9887	nespolehlivý	nespolehlivou nespolehlivá nespolehlivé nespolehlivého nespolehliví nespolehlivých nespolehlivým
+88	9888	zbytkový	zbytkovou zbytková zbytkové zbytkového zbytkových zbytkovým
+89	9889	žvýkačka	žvýkaček žvýkačku žvýkačky
+90	9890	brokovnice	brokovnic brokovnici brokovnicí
+91	9891	podpaží	podpaždí
+92	9892	horoskop	horoskopu horoskopy horoskopů
+93	9893	pech	pecha pechová
+94	9894	spoluúčast	spoluúčasti spoluúčastí
+95	9895	zmrazit	zmrazen zmrazeny zmrazil zmrazila zmrazili zmrazí zmražen zmražení
+96	9896	pyl	pyle pylem pylu pyly pylů
+97	9897	vykrást	vykradli
+98	9898	vzdálit	vzdalovali vzdalovat vzdálil vzdálila vzdálí
+99	9899	rtuť	rtuti rtutí
+100	9900	nosnost	nosnosti nosností

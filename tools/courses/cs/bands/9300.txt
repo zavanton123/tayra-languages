@@ -1,0 +1,100 @@
+1	9201	vytisknout	vytištěna
+2	9202	gratulace	gratulaci gratulací
+3	9203	protiprávní	protiprávního protiprávním protiprávně
+4	9204	nutkání	nutkáním
+5	9205	vřelý	vřelejší vřelo vřelou vřelá vřelé vřelého vřelým
+6	9206	obměna	obměn obměnami obměnou obměnu obměny obměnách obměně
+7	9207	ospravedlnit	ospravedlnil ospravedlnila ospravedlní ospravedlněn ospravedlnění ospravedlňovat ospravedlňuje
+8	9208	réva	révou révu révy révě
+9	9209	praštit	praštil praštila praštili praštilo praští praštím prašť
+10	9210	bobule	bobulemi bobulí bobulích
+11	9211	plodný	nejplodnější nejplodnějších plodnou plodná plodné plodného plodném plodní plodných plodným
+12	9212	třídění	tříděním
+13	9213	tleskat	netleská tleskají tleskal tleskala tleskali tleskalo tleská tleskám tleskáme tleskání
+14	9214	nepřirozený	nepřirozenou nepřirozená nepřirozené nepřirozeného nepřirozených nepřirozeným nepřirozeně
+15	9215	korunka	korunce korunek korunkou korunku korunky
+16	9216	adaptér	adaptérem adaptéru adaptéry adaptérů
+17	9217	skalice	skalici skalicí
+18	9218	vulgární	vulgárních vulgárního vulgárním vulgárními vulgárně
+19	9219	napomáhat	napomáhá
+20	9220	mytologie	mytologii mytologií
+21	9221	fosilní	fosilních fosilního fosilním fosilními
+22	9222	vpád	vpádem vpádu vpády
+23	9223	perioda	period periodou periodu periody periodách periodě
+24	9224	silueta	siluet siluetou siluetu siluety siluetě
+25	9225	roztáhnout	roztahovat roztahování roztahuje roztahují roztáhl roztáhla roztáhli roztáhne roztáhnou roztáhněte
+26	9226	gramotnost	gramotnosti gramotností
+27	9227	vyděšený	vyděšenou vyděšená vyděšené vyděšeného vyděšení vyděšených vyděšeným
+28	9228	nemožnost	nemožnosti
+29	9229	energický	energickou energická energické energického energických energickým energičtí energičtější
+30	9230	stimulace	stimulaci stimulací
+31	9231	šťavnatý	šťavnatou šťavnatá šťavnaté šťavnatého šťavnatých šťavnatější
+32	9232	kybernetický	kybernetickou kybernetická kybernetické kybernetického kybernetickém kybernetických kybernetickým kybernetickými
+33	9233	výběžek	výběžkem výběžku výběžky výběžků
+34	9234	bezproblémový	bezproblémovou bezproblémová bezproblémové bezproblémového bezproblémovým bezproblémově
+35	9235	repríza	repríz repríze reprízou reprízu reprízy reprízách
+36	9236	stý	stou stá sté stého stém stému stým
+37	9237	básnický	básnickou básnicky básnická básnické básnického básnických básnickým
+38	9238	šestnáctý	šestnáctou šestnáctá šestnácté šestnáctého šestnáctém šestnáctým
+39	9239	agregát	agregátu agregáty agregátů
+40	9240	rasistický	rasistickou rasisticky rasistická rasistické rasistického rasistických rasistickým rasistickými
+41	9241	keltský	keltskou keltská keltské keltského keltském keltských keltským
+42	9242	nástraha	nástrah nástrahami nástrahu nástrahy nástrahách nástrahám
+43	9243	brousit	brousil brousila brousí brousím broušené broušení broušený obrousit
+44	9244	protější	protějších protějšího protějším
+45	9245	blahobyt	blahobytem blahobytu
+46	9246	rytířský	rytířskou rytířská rytířské rytířského rytířském rytířských rytířským
+47	9247	apokalypsa	apokalypse apokalypsou apokalypsu apokalypsy
+48	9248	nosník	nosníkem nosníku nosníky nosníků
+49	9249	přízrak	přízrakem přízraku přízraky přízraků
+50	9250	měšťan	měšťana měšťanky měšťanské měšťanský měšťany měšťané měšťanů měšťanům
+51	9251	bandita	banditi banditu bandity bandité banditů banditům
+52	9252	zrůda	zrůd zrůdou zrůdu zrůdy
+53	9253	urna	uren urnou urnu urny urnám urně
+54	9254	množina	množin množinou množinu množiny množině
+55	9255	bezohledný	bezohlednou bezohledná bezohledné bezohledného bezohlední bezohledných bezohledným bezohledně
+56	9256	aerolinky	aerolinek aerolinkami
+57	9257	sesterský	sesterskou sesterská sesterské sesterského sesterském sesterských sesterským sesterskými
+58	9258	uzavírka	uzavírce uzavírek uzavírku uzavírky
+59	9259	capat	cape
+60	9260	dramaticky	
+61	9261	kari	
+62	9262	nedostatečně	
+63	9263	shodně	
+64	9264	supr	
+65	9265	vystihovat	vystihuje
+66	9266	zjednodušeně	
+67	9267	koncipovat	koncipoval koncipovaný koncipován koncipována koncipováno koncipovány koncipování
+68	9268	župan	župana županem županu župany županů
+69	9269	úplněk	úplňkem úplňku
+70	9270	špitál	špitále špitálem špitálu špitály
+71	9271	kopačky	kopaček kopačkách
+72	9272	bludiště	bludišti bludištěm
+73	9273	nabíjení	nabíjením
+74	9274	ortodoxní	neortodoxní ortodoxních ortodoxního ortodoxním ortodoxními
+75	9275	křížení	křížením
+76	9276	meziroční	meziročního meziročním meziročnímu
+77	9277	tlama	tlam tlamou tlamu tlamy tlamě
+78	9278	špaček	špačci špačka špačkem špačková špačky špačků
+79	9279	šlehačka	šlehačkou šlehačku šlehačky
+80	9280	kolík	kolíkem kolíku kolíky kolíků kolíček kolíčky
+81	9281	figurína	figurín figurínami figurínou figurínu figuríny figuríně
+82	9282	geografie	geografii
+83	9283	ateista	ateistická ateistické ateistický ateistou ateistu ateisty ateisté ateistů
+84	9284	uvolňování	uvolňováním
+85	9285	udivovat	udiven udiveni udivilo udivoval udivuje udivují udivující
+86	9286	slonovina	slonovinou slonovinové slonovinu slonoviny
+87	9287	zaměstnanecký	zaměstnaneckou zaměstnanecká zaměstnanecké zaměstnaneckého zaměstnaneckém zaměstnaneckých
+88	9288	krvácet	krvácejí krvácející krvácel krvácela krvácí krvácím
+89	9289	vychovatel	vychovatele vychovatelem vychovateli vychovatelka vychovatelé vychovatelů
+90	9290	kopí	kopím kopími
+91	9291	okenní	okenních okenního okenním okenními
+92	9292	benátský	benátskou benátská benátské benátského benátském benátských
+93	9293	rychtář	rychtáře rychtářem rychtáři
+94	9294	biskupský	biskupskou biskupská biskupské biskupského biskupském biskupských biskupským
+95	9295	přesahující	přesahujícím
+96	9296	zavádějící	zavádějících zavádějícím
+97	9297	fax	faxem faxu faxy faxů
+98	9298	dramaturg	dramaturga dramaturgem dramaturgové dramaturgů
+99	9299	kec	keců
+100	9300	zahajovací	zahajovacího zahajovacím

@@ -1,0 +1,100 @@
+1	3301	vlastnit	vlastni vlastnil vlastnila vlastnili vlastnilo vlastnily vlastnící vlastním vlastníme vlastníte vlastněn vlastněna vlastněnou vlastněny vlastněná vlastněné vlastněného vlastnění vlastněný vlastněných
+2	3302	procesor	procesorech procesorem procesoru procesory procesorů
+3	3303	srovnat	srov srovnal srovnala srovnalo srovnáme srovnávají srovnávat srovnává
+4	3304	komunální	komunálních komunálního komunálním komunálními
+5	3305	děsivý	děsivou děsivá děsivé děsivého děsivém děsivému děsivých děsivým děsivými děsivě děsivější nejděsivější nejděsivějších
+6	3306	záruka	záruce záruk zárukami zárukou záruku záruky zárukách
+7	3307	spálit	spal spalovat spalte spaluje spálen spálena spáleno spálenou spáleny spálená spálené spáleného spáleném spálení spálený spálených spáleným spálil spálila spálili spálilo spálily spálí spálím spálíme spálíte
+8	3308	tržba	tržbami tržbu tržby tržbách tržbám tržeb
+9	3309	vypracovat	vypracoval vypracovala vypracovali vypracovalo vypracovaly vypracované vypracovaný vypracován vypracována vypracováno vypracovány vypracování vypracováním vypracovávat vypracovává vypracuje vypracujeme vypracujte vypracují
+10	3310	přiznání	přiznáním
+11	3311	oboje	obojí obojího obojím obojímu
+12	3312	iniciativa	iniciativ iniciativami iniciativou iniciativu iniciativy iniciativách iniciativám iniciativě
+13	3313	záloha	záloh zálohami zálohou zálohu zálohy zálohách záloze
+14	3314	hájit	haj háje hájení hájil hájila hájili hájily hájí hájící hájím hájíme hájíte
+15	3315	přínos	přínosech přínosem přínosu přínosy přínosů
+16	3316	rybář	rybáře rybářem rybáři rybářová rybářskou rybářská rybářské rybářského rybářském rybářský rybářských rybářským rybářskými rybářů rybářům
+17	3317	syrský	syrskou syrská syrské syrského syrském syrskému syrských syrským syrskými syrští
+18	3318	kabina	kabin kabinami kabince kabinek kabinka kabinku kabinky kabinou kabinu kabiny kabinách kabině
+19	3319	infrastruktura	infrastruktur infrastrukturou infrastrukturu infrastruktury infrastruktuře
+20	3320	upřímný	nejupřímnější upřímnou upřímná upřímné upřímného upřímní upřímných upřímným upřímnější
+21	3321	koza	koz kozami koze kozičky kozou kozu kozy kozách kozám
+22	3322	tělesný	tělesnou tělesná tělesné tělesného tělesném tělesnému tělesných tělesným tělesnými
+23	3323	autorský	autorskou autorská autorské autorského autorském autorskému autorských autorským autorskými
+24	3324	snít	nesnilo sni snil snila snili snilo snily sní snící sním sníme sníte sníš snění sněním
+25	3325	jednoznačně	
+26	3326	mami	
+27	3327	pardon	
+28	3328	proboha	
+29	3329	vpravo	
+30	3330	zato	
+31	3331	pronásledovat	pronásledoval pronásledovala pronásledovali pronásledovalo pronásledovaly pronásledovaná pronásledované pronásledovaného pronásledovaní pronásledovaný pronásledovaných pronásledovaným pronásledován pronásledována pronásledováni pronásledování pronásleduje pronásledují pronásledující
+32	3332	čerpat	načerpat čerpají čerpající čerpal čerpala čerpali čerpalo čerpaly čerpá čerpám čerpáme čerpán čerpána čerpáno čerpány čerpání čerpáte
+33	3333	sbalit	bal bale balen balené balený balil balila balili balit balí balící balím balíme balíte sbal sbaleno sbalení sbalený sbalil sbalila sbalili sbalte sbalí sbalím sbalíme sbalíte
+34	3334	pokrok	pokrokem pokroku pokroky pokroků pokrokům
+35	3335	baba	bab babo babou babu baby babě
+36	3336	zaručit	zaručen zaručena zaručeno zaručenou zaručeny zaručená zaručené zaručeného zaručení zaručený zaručených zaručeným zaručenými zaručil zaručila zaručili zaručilo zaručily zaručovat zaručuje zaručí zaručíme
+37	3337	kryt	krytech krytem krytu kryty krytů
+38	3338	federální	federálních federálního federálním federálními federálnímu federálně
+39	3339	peněženka	peněžence peněženek peněženkou peněženku peněženky peněženkách
+40	3340	shromáždění	shromážděních shromážděním
+41	3341	záření	zářením
+42	3342	zlínský	zlínskou zlínská zlínské zlínského zlínském zlínských zlínským zlínští
+43	3343	korupce	korupci korupcí
+44	3344	mor	more morem moru mory
+45	3345	infekce	infekcemi infekci infekcí infekcích infekcím
+46	3346	pracoviště	pracovišti pracovištích pracovištím pracovištěm pracovišť
+47	3347	proniknout	nepronikla pronikat pronikl pronikla pronikli proniklo pronikly pronikne proniknou proniknutí proniká
+48	3348	jihočeský	jihočeskou jihočeská jihočeské jihočeského jihočeském jihočeskému jihočeských jihočeským jihočeští
+49	3349	venkovní	venkovních venkovního venkovním venkovními venkovnímu
+50	3350	ovce	ovcemi ovci ovcí ovcích ovcím ovečka ovečky ovčí ovčích ovčího ovčím
+51	3351	rozpor	rozporech rozporem rozporu rozpory rozporů rozporům
+52	3352	zavřený	zavřenou zavřená zavřené zavřeného zavřeném zavření zavřených zavřeným zavřenýma zavřenými
+53	3353	účetní	účetních účetního účetním účetními účetnímu
+54	3354	vzniklý	vzniklou vzniklá vzniklé vzniklých
+55	3355	ústecký	ústeckou ústecká ústecké ústeckého ústeckém ústeckých ústeckým ústečtí
+56	3356	veletrh	veletrhem veletrhu veletrhy veletrhů veletrzích
+57	3357	nazvaný	nazvanou nazvaná nazvané nazvaného nazvaném nazvaných nazvaným
+58	3358	burza	burz burze burzou burzovní burzovních burzovního burzovním burzu burzy burzách
+59	3359	hvězdný	hvězdnou hvězdná hvězdné hvězdného hvězdném hvězdnému hvězdní hvězdných hvězdným hvězdnými hvězdně
+60	3360	poločas	poločase poločasem poločasu poločasy poločasů
+61	3361	plastový	plastovou plastová plastové plastového plastovém plastových plastovým plastovými
+62	3362	masivní	masivních masivního masivním masivními masivnímu masivně masivnější
+63	3363	kabát	kabátech kabátek kabátem kabátová kabátu kabáty kabátě kabátů
+64	3364	porno	porna pornem pornu
+65	3365	ovládání	ovládáním
+66	3366	vlast	vlastech vlasti vlastí
+67	3367	fórum	fór fóra fórech fórem fóru fóry
+68	3368	analytik	analytici analytickou analyticky analytická analytické analytického analytickém analytický analytických analytickým analytickými analytika analytikem analytiky analytiků analytikům analytička
+69	3369	lov	lovem lovu lovy lovů
+70	3370	pravděpodobný	nejpravděpodobnější nejpravděpodobnějším pravděpodobnou pravděpodobná pravděpodobné pravděpodobného pravděpodobném pravděpodobných pravděpodobným pravděpodobnější
+71	3371	meč	meče mečem meči mečů
+72	3372	rušit	neruší ruš rušen rušena rušeni rušeno rušeny rušené rušil rušila rušili rušilo rušily ruší rušící ruším rušíme
+73	3373	utrpení	utrpením
+74	3374	instalovat	instaloval instalovala instalovali instalovaný instalován instalována instalováno instalovány instalování instaluje instalujeme instalují nainstaloval nainstalovala nainstalovali nainstalovaný nainstalovat nainstalován nainstalována nainstalováno nainstalovány nainstalování nainstaluje nainstalujeme nainstalujete nainstalují
+75	3375	ubytování	ubytováním
+76	3376	ples	plese plesech plesem plesu plesy plesů
+77	3377	kontrolní	kontrolních kontrolního kontrolním kontrolními kontrolnímu
+78	3378	rozhodování	rozhodováním
+79	3379	balík	balících balíkem balíku balíky balíků
+80	3380	vylepšit	vylepšen vylepšena vylepšeno vylepšeny vylepšené vylepšený vylepšil vylepšila vylepšili vylepšilo vylepšily vylepšovat vylepší vylepším vylepšíme vylepšíte
+81	3381	demonstrace	demonstracemi demonstraci demonstrací demonstracích demonstracím
+82	3382	opakovaně	
+83	3383	otelit	tel
+84	3384	zpočátku	
+85	3385	plot	plotech plotem plotu ploty plotě plotů plůtek
+86	3386	poledne	polednem poledni polední poledních poledního poledním
+87	3387	unést	neunesl neunesou unese unesen unesena uneseni uneseno uneseny unesl unesla unesli uneslo unesly unesou unešen unášet unáší
+88	3388	zločinec	zločince zločincem zločinci zločincích zločinců zločincům zločineckou zločinecká zločinecké zločineckého zločinecký zločineckých zločineckým zločineckými
+89	3389	kabel	kabele kabelech kabelem kabelový kabelových kabelu kabely kabelů
+90	3390	věznice	věznic věznicemi věznici věznicí věznicích
+91	3391	kandidovat	kandidoval kandidovala kandidovali kandidovalo kandidovaly kandiduje kandidujete kandiduji kandidují kandidující
+92	3392	přehrada	přehrad přehradou přehradu přehrady přehradách přehradě
+93	3393	tendence	tendencemi tendenci tendencí tendencích tendencím
+94	3394	zvyknout	zvykat zvykl zvykla zvykli zvyklo zvykly zvykne zvykneme zvyknete zvykneš zvyknou zvyknu zvykněte
+95	3395	síň	síni síní síních síně
+96	3396	slušet	slušel slušela slušelo slušely sluší
+97	3397	podezření	podezřením
+98	3398	profese	profesemi profesi profesí profesích profesím
+99	3399	smůla	smola smůle smůlou smůlu smůly
+100	3400	gen	gene genech genem genu geny genů genům

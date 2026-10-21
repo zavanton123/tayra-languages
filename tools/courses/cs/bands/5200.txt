@@ -1,0 +1,100 @@
+1	5101	mínit	mínil mínila míní míním míníme míníte míněn míněna míněno míněny míněné míněný nemíní
+2	5102	škodit	neuškodilo uškodit škodil škodila škodili škodilo škodí škodící škodě
+3	5103	kompromis	kompromisech kompromisem kompromisu kompromisy kompromisů kompromisům
+4	5104	tajit	netají taj taje tajil tajila tajili tají tající tajů
+5	5105	prodávaný	nejprodávanější nejprodávanějších nejprodávanějšího nejprodávanějším nejprodávanějšími prodávanou prodávaná prodávané prodávaného prodávaných prodávaným
+6	5106	česnek	česnekem česneku
+7	5107	zatáhnout	zatahovat zatažen zatažena zataženi zataženo zataženy zatáhl zatáhla zatáhli zatáhlo zatáhne zatáhnete zatáhnou zatáhněte
+8	5108	sběr	sběrem sběrný sběrných sběru sběry
+9	5109	plech	plechem plechová plechové plechu plechy plechů
+10	5110	ubohý	nejubožejší ubohou ubohá ubohé ubohého ubohém ubohých ubohým ubohými uboze ubozí
+11	5111	drink	drinkem drinku drinky drinků
+12	5112	výzdoba	výzdobou výzdobu výzdoby výzdobě
+13	5113	překrásný	překrásnou překrásná překrásné překrásného překrásném překrásných překrásným překrásnými překrásně
+14	5114	gram	gramech gramu gramy gramů
+15	5115	reflex	reflexe reflexem reflexi reflexu reflexy reflexí reflexů
+16	5116	ekonomie	ekonomii ekonomií
+17	5117	vrba	vrb vrbka vrbou vrbová vrbu vrby vrbě
+18	5118	laik	laici laickou laicky laická laické laického laický laických laickým laika laikovi laiky laiků laikům
+19	5119	luxus	luxusem luxusu
+20	5120	shodit	neshodil shazoval shazovala shazovali shazovat shazování shazuje shazují shodil shodila shodili shodilo shodily shodí shodím shodíte shozen shozena shozeno shození
+21	5121	horizont	horizonte horizontem horizontu horizonty horizontů
+22	5122	vyspat	vyspal vyspala vyspali vyspí vyspím vyspíme vyspíte vyspěte
+23	5123	poslech	poslechem poslechu
+24	5124	kytka	kytek kytička kytičky kytkami kytkou kytku kytky kytkách
+25	5125	ropný	ropnou ropná ropné ropného ropném ropnému ropných ropným ropnými
+26	5126	rozdrtit	drcené drceného drcení drcený drcených drceným drti drtil drtila drtili drtit drtí drtící drtě drť rozdrcen rozdrcena rozdrceni rozdrcenou rozdrceny rozdrcená rozdrcené rozdrcení rozdrcený rozdrcených rozdrtil rozdrtila rozdrtili rozdrtilo rozdrtily rozdrtí rozdrtíme rozdrťte
+27	5127	urážka	urážce urážek urážkami urážkou urážku urážky urážkám
+28	5128	dodatek	dodatcích dodatkem dodatku dodatky dodatků
+29	5129	wan	wanu
+30	5130	poukazovat	poukazoval poukazuje poukazují
+31	5131	osmifinále	
+32	5132	tati	
+33	5133	rychlostní	rychlostních rychlostního rychlostním rychlostními
+34	5134	maraton	maratonem maratonu maratony maratonů
+35	5135	povzbudit	povzbudil povzbudila povzbudili povzbudilo povzbudily povzbudí povzbuzen povzbuzeni povzbuzení povzbuzením povzbuzovat povzbuzuje
+36	5136	podrobit	drobil drobila drobí podroben podrobena podrobeni podrobeno podrobeny podrobil podrobila podrobili podrobilo podrobily podrobovat podrobuje podrobí podrobíme
+37	5137	nazývaný	nazývanou nazývaná nazývané nazývaného nazývaném nazývaní nazývaných nazývaným nazýván nazýváno
+38	5138	azyl	azylem azylové azylový azylu
+39	5139	potrubí	potrubím
+40	5140	pult	pultech pultem pultu pulty pultů
+41	5141	uplynout	uplyne uplynou uplynul uplynula uplynulo uplynuly
+42	5142	oběh	oběhem oběhu
+43	5143	upřesnit	neupřesnil upřesnil upřesnila upřesnili upřesní upřesním upřesněn upřesněna upřesněno upřesněny upřesnění upřesněte upřesňovat upřesňuje
+44	5144	jihovýchodní	jihovýchodních jihovýchodního jihovýchodním jihovýchodně
+45	5145	vášnivý	vášnivou vášnivá vášnivé vášnivého vášnivém vášniví vášnivých vášnivým vášnivými vášnivě
+46	5146	porada	porad poradu porady poradách poradě
+47	5147	val	vale valech valem valu valy valů
+48	5148	bezplatný	bezplatnou bezplatná bezplatné bezplatného bezplatném bezplatnému bezplatných bezplatným bezplatnými
+49	5149	rozpadat	rozpadají rozpadající rozpadal rozpadala rozpadalo rozpadaly rozpadla rozpadnout rozpadá
+50	5150	nosný	nosnou nosná nosné nosného nosném nosných nosným nosnými
+51	5151	cedule	cedulemi ceduli cedulka cedulku cedulí cedulích
+52	5152	příhoda	příhod příhodami příhodou příhodová příhodu příhody příhodách příhodě
+53	5153	civilista	civilistech civilistou civilistu civilisty civilisté civilistů civilistům
+54	5154	sako	sak saka sakem saku saky
+55	5155	krystal	krystalech krystalem krystalu krystaly krystalů
+56	5156	farář	faráře farářem faráři farářka farářů
+57	5157	odvodit	odvodil odvodili odvodí odvozen odvozena odvozeno odvozenou odvozeny odvozená odvozené odvozeného odvození odvozený odvozených odvozeným odvozovat odvozování odvozuje odvozují
+58	5158	bolestivý	bolestivou bolestivá bolestivé bolestivého bolestivých bolestivým bolestivými bolestivě bolestivější nejbolestivější
+59	5159	pověsit	pověsil pověsila pověsili pověste pověsí pověsím pověsíme pověsíte pověšen pověšena pověšeni pověšení pověšený věšel věšela věšeli věšení věšet věší
+60	5160	certifikát	certifikátem certifikátu certifikáty certifikátů
+61	5161	újezd	újezdem újezdu újezdy újezdě újezdů
+62	5162	ledovec	ledovce ledovcem ledovci ledovcovou ledovcová ledovcové ledovcového ledovcový ledovcových ledovcovým ledovcích ledovců
+63	5163	zbožňovat	zbožňoval zbožňovala zbožňovali zbožňovaný zbožňování zbožňuje zbožňujete zbožňuji zbožňuju zbožňují
+64	5164	předešlý	předešlé předešlého předešlém předešlých
+65	5165	plavání	plaváním
+66	5166	kanalizace	kanalizaci kanalizací kanalizacích
+67	5167	rukopis	rukopise rukopisech rukopisem rukopisu rukopisy rukopisů
+68	5168	věcný	věcnou věcná věcné věcného věcném věcnému věcných věcným věcnými věcně
+69	5169	občerstvit	občerstvení občerstvením
+70	5170	vitamín	vitamínem vitamínu vitamíny vitamínů
+71	5171	měď	mědi mědí měděnou měděná měděné měděného měděný měděných měděným měděnými
+72	5172	aféra	afér aférami aférka aférku aférou aféru aféry aférách aféře
+73	5173	děsný	děsnou děsná děsné děsně
+74	5174	účes	účesem účesu účesy účesů
+75	5175	hlavice	hlavic hlavicemi hlavici hlavicí hlavičce hlaviček hlavička hlavičkami hlavičkou hlavičku hlavičky
+76	5176	nika	nice nik niko nikou niku niky
+77	5177	lžíce	lžic lžícemi lžíci lžící
+78	5178	přilehlý	přilehlou přilehlá přilehlé přilehlého přilehlém přilehlých přilehlým přilehlými
+79	5179	cizina	cizinou ciziny cizině
+80	5180	projekce	projekcemi projekci projekcí projekcích
+81	5181	kostra	koster kosterní kosterních kosterního kostrou kostru kostry kostře
+82	5182	posadit	posadil posadila posadili posadí posadím posadíme posadíte posazen posazena posazení posazený posaď posaďte
+83	5183	kabinet	kabinetech kabinetem kabinetu kabinety kabinetů
+84	5184	amatér	amatéra amatérem amatérka amatéry amatérů amatérům amatéři
+85	5185	laso	las lasa lasem
+86	5186	duha	duh duhou duhovou duhová duhové duhového duhovém duhový duhových duhovým duhovými duhu duhy duze
+87	5187	korejský	korejskou korejská korejské korejského korejském korejskému korejských korejským korejskými korejští
+88	5188	závada	závad závadami závadou závadu závady závadám závadě
+89	5189	stejnojmenný	stejnojmennou stejnojmenná stejnojmenné stejnojmenného stejnojmenném stejnojmennému stejnojmenných stejnojmenným
+90	5190	holt	halt
+91	5191	působivý	nejpůsobivější nejpůsobivějších nejpůsobivějším působivou působivá působivé působivého působivém působivých působivým působivými působivě působivější
+92	5192	génius	génia génie géniem géniovi géniové géniů
+93	5193	vůl	vola volek volem voli volovi volové volská volské volský volským voly volů
+94	5194	komentátor	komentátora komentátorem komentátory komentátorů komentátoři
+95	5195	odlet	odletem odletu odlety odletů
+96	5196	poskytovatel	poskytovatele poskytovatelem poskytovateli poskytovatelé poskytovatelů poskytovatelům
+97	5197	dodatečný	dodatečnou dodatečná dodatečné dodatečného dodatečném dodatečnému dodatečných dodatečným dodatečnými
+98	5198	hurá	
+99	5199	leda	
+100	5200	teoreticky	

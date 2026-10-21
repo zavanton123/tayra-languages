@@ -1,0 +1,100 @@
+1	1601	typický	nejtypičtější nejtypičtějších nejtypičtějším typickou typicky typická typické typického typickém typickému typických typickým typickými typičtí
+2	1602	červený	červenou červeného červeném červenému červení červených červeným červenýma červenými červeně červenější
+3	1603	spustit	spouštěli spouštět spustil spustila spustili spustilo spustily spustí spustím spustíme spustíte spusť spusťte spuštěn spuštěna spuštěno spuštěnou spuštěny spuštěná spuštěné spuštěného spuštění spuštěním spuštěný spuštěných spuštěnými
+4	1604	vážný	nejvážnější nejvážnějších nejvážnějším vážnou vážná vážné vážného vážném vážnému vážní vážných vážným vážnými vážnější vážnějších vážnějšího vážnějším vážnějšímu
+5	1605	výměna	výměn výměnami výměnou výměnu výměny výměnách výměnám výměně
+6	1606	zapojit	zapoj zapojen zapojena zapojeni zapojeno zapojeny zapojení zapojený zapojených zapojil zapojila zapojili zapojilo zapojily zapojovat zapojte zapojuje zapojí zapojím zapojíme zapojíte
+7	1607	budoucí	budoucích budoucího budoucím budoucími budoucímu
+8	1608	kapacita	kapacit kapacitami kapacitou kapacitu kapacity kapacitách kapacitám kapacitě
+9	1609	vyvíjet	nevyvinul vyvine vyvinou vyvinout vyvinul vyvinula vyvinuli vyvinulo vyvinuly vyvinut vyvinuta vyvinuto vyvinuty vyvíjejí vyvíjející vyvíjel vyvíjela vyvíjeli vyvíjelo vyvíjely vyvíjen vyvíjena vyvíjeny vyvíjená vyvíjené vyvíjení vyvíjený vyvíjených vyvíjí vyvíjíme
+10	1610	narazit	narazil narazila narazili narazilo narazily narazí narazím narazíme narazíte narazíš naražení naražený narážejí narážející narážel narážela naráželi naráželo narážely narážení narážet naráží narážím narážíme narážíte nenarazila
+11	1611	analýza	analýz analýzami analýze analýzou analýzu analýzy analýzách analýzám
+12	1612	brněnský	brněnskou brněnská brněnské brněnského brněnském brněnskému brněnských brněnským brněnskými brněnští
+13	1613	strategie	strategickou strategická strategické strategického strategickém strategickému strategický strategických strategickým strategickými strategiemi strategii strategií strategiích strategiím
+14	1614	povídat	popovídají popovídal popovídala popovídali popovídaly popovídat popovídejte popovídá popovídám popovídáme popovídání popovídáte povídají povídal povídala povídali povídalo povídaly povídej povídejte povídá povídám povídáme povídání povídáním povídáte
+15	1615	demokracie	demokracii demokracií demokraciích
+16	1616	dokonalý	dokonalejší dokonalejšího dokonalejším dokonalou dokonalá dokonalé dokonalého dokonalém dokonalému dokonalí dokonalých dokonalým dokonalými nejdokonalejší nejdokonalejších nejdokonalejším
+17	1617	složitý	nejsložitější nejsložitějších nejsložitějším složitou složitá složité složitého složitém složitému složitých složitým složitými složitě složitěji složitější složitějších složitějšího složitějším složitějšími
+18	1618	fotit	foceno focené focení fotil fotila fotili fotilo fotily fotí fotím fotíme fotíte fotíš foť foťte vyfocen vyfocena vyfoceno vyfocené vyfocení vyfocený vyfotil vyfotila vyfotili vyfotit vyfotí vyfotím vyfotíme vyfotíte vyfoť vyfoťte
+19	1619	sleva	slev slevami slevou slevu slevy slevách slevám slevě
+20	1620	divit	div dive divem divil divila divili divu divy diví divím divíme divíte divíš divů nedivil podivil podivila
+21	1621	pravidelně	pravidelněji
+22	1622	stěna	stěn stěnami stěnou stěnu stěny stěnách stěnám stěně
+23	1623	absolutní	absolutních absolutního absolutním absolutními absolutnímu absolutně
+24	1624	jakmile	
+25	1625	jinde	
+26	1626	vyhlásit	vyhlašovat vyhlašuje vyhlásil vyhlásila vyhlásili vyhlásilo vyhlásily vyhlásí vyhlásím vyhlásíme vyhlášen vyhlášena vyhlášeni vyhlášeno vyhlášeny vyhlášené vyhlášený
+27	1627	zóna	zón zónami zónou zónu zóny zónách zónám zóně
+28	1628	sdílet	nesdílím sdílej sdílejte sdílejí sdílející sdílel sdílela sdíleli sdílelo sdílely sdílen sdílena sdíleno sdílenou sdíleny sdílená sdílené sdíleného sdíleném sdílení sdílením sdílený sdílených sdíleným sdílenými sdílí sdílím sdílíme sdílíte
+29	1629	datum	dat datech datem datu daty datům
+30	1630	heslo	hesel hesla hesle heslech heslem heslu hesly heslům
+31	1631	ústí	ústím
+32	1632	nemoc	nemocech nemocem nemocemi nemoci nemocí nemocích nemocím
+33	1633	káva	káv kávičku kávou kávovou kávová kávové kávového kávový kávových kávu kávy kávě
+34	1634	prohrát	prohraje prohrajeme prohrajete prohraju prohrají prohrál prohrála prohráli prohrálo prohrály prohrávají prohrávající prohrával prohrávala prohrávali prohrávalo prohrávaly prohrávat prohrává prohrávám prohráváme prohráváte
+35	1635	vědec	vědce vědcem vědci vědcích vědců vědcům vědkyni vědkyně
+36	1636	zážitek	zážitcích zážitkem zážitkový zážitku zážitky zážitků zážitkům
+37	1637	vyloučit	nevyloučil vyloučen vyloučena vyloučeni vyloučeno vyloučeny vyloučené vyloučení vyloučením vyloučený vyloučil vyloučila vyloučili vyloučilo vyloučily vyloučí vyloučíme vyloučíte vylučovat vylučuje
+38	1638	veselý	nejveselejší vesel vesele veseleji veselejší veselo veselou veselá veselé veselého veselém veselému veselí veselím veselých veselým veselými
+39	1639	obrátit	obracejte obracejí obracel obracela obraceli obracely obracení obracet obrací obracím obracíme obracíte obrať obraťme obraťte obrácen obrácena obráceno obrácenou obráceny obrácená obrácené obráceného obráceném obrácení obrácený obrácených obráceným obrácenými obrátil obrátila obrátili obrátilo obrátily obrátí obrátím obrátíme obrátíte obrátíš
+40	1640	revoluce	revolucemi revoluci revolucí revolucích
+41	1641	kompletní	kompletních kompletního kompletním kompletními kompletnímu kompletně nejkompletnější
+42	1642	produkce	produkcemi produkci produkcí produkcích
+43	1643	potraviny	potravin potravinami potravinách potravinám
+44	1644	vybavit	vybaven vybavena vybaveni vybaveno vybavenou vybaveny vybavená vybavené vybaveného vybaveném vybavený vybavených vybaveným vybavenými vybavenější vybavil vybavila vybavili vybavilo vybavily vybavovat vybavte vybavuje vybaví vybavím vybavíme vybavíte
+45	1645	sednout	nesedla sedel sedl sedla sedle sedlem sedli sedlo sedlu sedly sedne sedneme sednete sedneš sedni sednou sednu sedněte
+46	1646	snášet	nesnesla nesnesou nesnášel nesnáší nesnáším snes snese snesete snesl snesla snesli sneslo snesly snesou snesu snášejí snášející snášel snášela snášeli snášely snášení snáší snáším snášíte snést
+47	1647	svatba	svatbou svatbu svatby svatbách svatbám svatbě svateb
+48	1648	senát	senátem senátu senáty senátě senátů
+49	1649	fakulta	fakult fakultami fakultou fakultu fakulty fakultách fakultě
+50	1650	výzva	výzev výzvami výzvou výzvu výzvy výzvách výzvám výzvě
+51	1651	nutit	nenutil nenutí nucen nucena nuceni nuceno nuceny nutil nutila nutili nutilo nutily nutí nutící nutím nutíme nutíte přinucen přinucena přinuceni přinuceny přinucení přinutil přinutila přinutili přinutilo přinutily přinutit přinutí
+52	1652	prohlásit	prohlašoval prohlašovala prohlašovali prohlašovat prohlašuje prohlašujeme prohlašuji prohlašují prohlásil prohlásila prohlásili prohlásilo prohlásily prohlásí prohlásím prohlášen prohlášena prohlášeni prohlášeno prohlášeny prohlášený
+53	1653	přirozený	nejpřirozenější nejpřirozenějším přirozenou přirozená přirozené přirozeného přirozeném přirozenému přirození přirozením přirozených přirozeným přirozenými přirozenější
+54	1654	blog	blogem blogu blogy blogů blozích
+55	1655	prosadit	neprosadil neprosazuje prosadil prosadila prosadili prosadilo prosadily prosadí prosadím prosadíme prosazení prosazoval prosazovala prosazovali prosazovalo prosazovaly prosazovanou prosazovaný prosazovat prosazování prosazuje prosazujeme prosazuji prosazují prosazující
+56	1656	výrobek	výrobcích výrobkem výrobku výrobky výrobků výrobkům
+57	1657	složka	složce složek složkami složkou složku složky složkách složkám
+58	1658	nakupovat	nakoupeno nakoupeny nakoupené nakoupení nakoupený nakoupil nakoupila nakoupili nakoupilo nakoupily nakoupit nakoupí nakoupím nakoupíme nakoupíte nakupoval nakupovala nakupovali nakupovalo nakupovaly nakupovaných nakupování nakupováním nakupte nakupuj nakupuje nakupujeme nakupujete nakupuji nakupujte nakupuju nakupují nakupující
+59	1659	respektive	resp
+60	1660	avšak	
+61	1661	přestože	
+62	1662	přičemž	
+63	1663	rovnou	
+64	1664	též	
+65	1665	uprostřed	
+66	1666	ženská	ženskou ženské ženských ženským ženskými
+67	1667	marka	marce marek marko marku marky
+68	1668	odhalit	neodhalila odhalen odhalena odhaleni odhaleno odhalenou odhaleny odhalená odhalené odhalený odhalených odhaleným odhalenými odhalil odhalila odhalili odhalilo odhalily odhalovat odhalte odhaluje odhalí odhalím odhalíme odhalíte
+69	1669	moment	momentech momentem momentu momenty momentě momentů momentům
+70	1670	informovat	informoval informovala informovali informovalo informovaly informovaná informované informovaného informovaní informovaný informovaných informován informována informováni informováno informovány informování informuje informujeme informujete informuji informujte informují informující
+71	1671	zastávka	zastávce zastávek zastávkami zastávkou zastávku zastávky zastávkách zastávkám
+72	1672	nepřítel	nepřátel nepřátele nepřáteli nepřátelé nepřátelích nepřátelům nepřítele nepřítelem nepříteli
+73	1673	krk	krkem krku krky krků krček
+74	1674	dočkat	dočkají dočkal dočkala dočkali dočkalo dočkaly dočká dočkám dočkáme dočkáte dočkáš
+75	1675	posílat	posílají posílal posílala posílali posílalo posílaly posílejte posílá posílám posíláme posílán posílána posíláni posílány posílání posíláte posíláš
+76	1676	zažít	nezažil nezažila zažije zažil zažila zažili zažily zažívat zažívá
+77	1677	poznámka	pozn poznámce poznámek poznámkami poznámkou poznámkové poznámkového poznámkový poznámkovým poznámku poznámky poznámkách poznámkám
+78	1678	daňový	daňovou daňová daňové daňového daňovém daňovému daňoví daňových daňovým daňovými daňově
+79	1679	kino	kin kina kinech kinem kinu kiny kině
+80	1680	blok	blocích blokem bloku bloky bloků blokům bloček bločky
+81	1681	původ	původem původu
+82	1682	profesor	profesora profesorce profesore profesorem profesorka profesorko profesorkou profesorku profesorky profesorovi profesorské profesorského profesorský profesoru profesory profesorů profesorům profesoři
+83	1683	vyvolat	nevyvolal vyvolají vyvolal vyvolala vyvolali vyvolalo vyvolaly vyvolané vyvolaný vyvolejte vyvolá vyvoláme vyvolán vyvolána vyvoláno vyvolány vyvolání vyvoláním vyvoláte vyvolávat vyvolává
+84	1684	struktura	struktur strukturami strukturou strukturu struktury strukturách strukturám struktuře
+85	1685	objem	objemech objemem objemové objemový objemu objemy objemů
+86	1686	turistika	turistice turistickou turisticky turistická turistické turistického turistickém turistickému turistický turistických turistickým turistickými turistikou turistiku turistiky
+87	1687	stihnout	nestihl nestihla stihl stihla stihli stihlo stihly stihne stihneme stihnete stihneš stihnou stihnu stižen stíhají stíhal stíhala stíhali stíhané stíhaný stíhaných stíhat stíhá stíhám stíháme stíhán stíhána stíháni stíháno stíháte
+88	1688	vejce	vajec vajíček vajíčka vajíčkem vajíčko vajíčku vajíčky vajíčkách vajíčkům vejcem vejci vejcích vejcím
+89	1689	volič	voliče voličem voliči voličské voličský voličích voličů voličům
+90	1690	sada	sad sadami sade sadech sadem sado sadou sadu sady sadách sadě sadů sádek sádky
+91	1691	zelený	zelenou zeleného zeleném zelenému zelení zelených zeleným zelenýma zelenými zeleně zelenější
+92	1692	elektronický	elektronickou elektronická elektronické elektronického elektronickém elektronickému elektronických elektronickým elektronickými elektroničtí
+93	1693	nedávno	nedávna nedávnem
+94	1694	loni	
+95	1695	nadále	
+96	1696	soupeř	soupeřce soupeře soupeřek soupeřem soupeři soupeřka soupeřkami soupeřkou soupeřku soupeřky soupeřkám soupeřovi soupeřovu soupeřů soupeřům soupeřův
+97	1697	oslava	oslav oslavami oslavou oslavu oslavy oslavách oslavám oslavě
+98	1698	dojem	dojme dojmech dojmem dojmu dojmy dojmů
+99	1699	omezení	omezeních omezením omezeními
+100	1700	častý	nejčastější nejčastějších nejčastějšího nejčastějším nejčastějšími častou častá časté častého častém častému častí častých častým častými častější častějších častějšího častějším častějšími častějšímu

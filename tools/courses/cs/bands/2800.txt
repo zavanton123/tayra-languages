@@ -1,0 +1,100 @@
+1	2701	drama	dramat dramata dramatech dramatem dramatu dramaty dramatům
+2	2702	doklad	dokladech dokladem dokladu doklady dokladů dokladům
+3	2703	hm	
+4	2704	bytost	bytostech bytostem bytosti bytostmi bytostí
+5	2705	mírný	mírnou mírná mírné mírného mírném mírnému mírní mírných mírným mírnými mírnější mírnějších mírnějšího mírnějším nejmírnější
+6	2706	limit	limitech limitem limitu limity limitů limitům
+7	2707	vzbudit	vzbudil vzbudila vzbudili vzbudilo vzbudily vzbudí vzbudím vzbudíte vzbuzení vzbuzoval vzbuzovala vzbuzovalo vzbuzovaly vzbuzovat vzbuzuje vzbuzují vzbuzující
+8	2708	cestování	cestováním
+9	2709	novela	novel novelami novele novelou novelu novely novelách
+10	2710	plod	plodech plodem plodu plody plodů plodům plůdek
+11	2711	překročit	nepřekročí překračovat překračuje překročen překročena překročeny překročení překročil překročila překročili překročilo překročily překročí překročíme překročíte
+12	2712	odpustit	odpouští odpouštím odpouštíme odpouštějí odpouštějící odpouštění odpouštět odpustil odpustila odpustili odpustí odpustím odpustíme odpustíte odpusť odpusťte odpuštěn odpuštěna odpuštěno odpuštěny odpuštění odpuštěním
+13	2713	rovný	roven rovna rovni rovny rovná rovné rovného rovném rovnému rovní rovných rovným rovnýma rovnými rovnější
+14	2714	pevnost	pevnosti pevností
+15	2715	podvod	podvodech podvodem podvodu podvody podvodů podvodům
+16	2716	společenství	společenstvích společenstvím společenstvími
+17	2717	zasadit	sadil sázejte sázejí sázející sázel sázela sázeli sázely sázení sázet sází sázím sázíme sázíte zasadil zasadila zasadili zasadilo zasadily zasadí zasadím zasadíme zasadíte zasazen zasazena zasazeno zasazenou zasazeny zasazená zasazené zasazeného zasazení zasazený zasazených zasazovat zasazuje zasaď zasaďte
+18	2718	spočívat	nespočívá spočívají spočíval spočívala spočívá
+19	2719	pásek	pásce páska páskami páskem páskou páskové pásku pásky páskách pásků
+20	2720	velet	vel vele velel velela veleli velen velení velením velí velící velím
+21	2721	zpětný	zpětnou zpětná zpětné zpětného zpětném zpětnému zpětných zpětným zpětnými zpětně
+22	2722	výprava	výprav výpravami výpravou výpravu výpravy výpravách výpravám výpravě
+23	2723	obří	obřích obřího obřím obřími obřímu
+24	2724	ublížit	neublíží ubližoval ubližovala ubližovali ubližovat ubližováno ubližování ubližuje ubližují ublíženo ublížení ublížil ublížila ublížili ublížilo ublížily ublíží ublížím ublížíš
+25	2725	ochranný	ochrannou ochranná ochranné ochranného ochranném ochrannému ochranných ochranným ochrannými
+26	2726	zvyk	zvycích zvykem zvyku zvyky zvyků zvykům
+27	2727	zamilovat	zamiloval zamilovala zamilovali zamilovaly zamilován zamilování zamiluje zamilujeme zamilujete zamiluješ zamiluju zamilují
+28	2728	olympiáda	olympiád olympiádou olympiádu olympiády olympiádách olympiádě
+29	2729	divize	divizemi divizi divizí divizích
+30	2730	komplex	komplexu komplexy komplexů
+31	2731	tmavý	nejtmavší tmavou tmavá tmavé tmavého tmavém tmavému tmaví tmavých tmavým tmavými tmavší tmavších tmavšího tmavším tmavšími
+32	2732	zodpovědnost	zodpovědnosti zodpovědností
+33	2733	prodloužit	prodloužen prodloužena prodlouženo prodlouženy prodlouženém prodloužený prodloužil prodloužila prodloužili prodloužilo prodloužily prodlouží prodloužím prodloužíme prodlužoval prodlužovala prodlužovalo prodlužovaly prodlužovat prodlužte prodlužuje prodlužují prodlužující
+34	2734	grafický	grafickou graficky grafická grafické grafického grafickém grafickému grafických grafickým grafickými
+35	2735	sestavit	sestav sestaven sestavena sestaveno sestaveny sestavené sestavení sestavením sestavený sestavil sestavila sestavili sestavilo sestavily sestavovat sestavte sestavuje sestaví sestavím sestavíme sestavíte
+36	2736	středočeský	středočeskou středočeská středočeské středočeského středočeském středočeských středočeským středočeští
+37	2737	odpočinout	odpočine odpočineme odpočinete odpočinou odpočinu odpočinul odpočinula odpočinuli odpočiň odpočiňte odpočívají odpočívající odpočíval odpočívala odpočívali odpočívaly odpočívat odpočívej odpočívejte odpočívá odpočívám odpočíváme odpočívání odpočíváte
+38	2738	tma	tem tmou tmu tmy tmách tmě
+39	2739	tvrzení	tvrzeních tvrzením tvrzeními
+40	2740	tah	tahem tahu tahy tahů tazích
+41	2741	nárůst	nárůstem nárůstu nárůsty
+42	2742	řadit	řadil řadila řadili řadilo řadily řadí řadící řadím řadíme řadíte řadě řazen řazena řazeni řazeno řazeny řazení řazený
+43	2743	půjčit	půjč půjčení půjčený půjčil půjčila půjčili půjčily půjčovat půjčte půjčují půjčí půjčím půjčíme půjčíte
+44	2744	obyvatelstvo	obyvatelstva obyvatelstvem obyvatelstvu
+45	2745	třikrát	
+46	2746	měření	měřeních měřením měřeními
+47	2747	hromadný	hromadnou hromadná hromadné hromadného hromadném hromadnému hromadných hromadným hromadnými hromadně
+48	2748	šampionát	šampionátech šampionátem šampionátu šampionáty šampionátů
+49	2749	domnívat	domnívají domníval domnívali domnívá domnívám domníváme
+50	2750	úvod	úvodem úvodu úvody
+51	2751	totální	totálních totálního totálním totálnímu totálně
+52	2752	hromada	hromad hromadami hromadou hromadu hromady hromadách hromadě
+53	2753	výbuch	výbuchem výbuchu výbuchy výbuchů výbuchům výbuších
+54	2754	užitečný	nejužitečnější nejužitečnějšího nejužitečnějším užitečnou užitečná užitečné užitečného užitečnému užiteční užitečných užitečným užitečnými užitečně užitečnější užitečnějšího
+55	2755	podnikat	nepodniká podnikají podnikající podnikal podnikala podnikali podnikaly podnikl podnikla podnikli podniklo podnikly podnikne podnikneme podniknete podniknou podniknout podniknut podniknuta podniknuty podniká podnikám podnikáme podnikáte
+56	2756	okresní	okresních okresního okresním okresními okresnímu
+57	2757	etapa	etap etapami etapou etapu etapy etapách etapě
+58	2758	prostý	nejprostší prost prosta prosto prostou prostá prosté prostého prostém prostému prostí prostých prostým prostými prostší
+59	2759	stezka	stezce stezek stezkami stezkou stezku stezky stezkách stezkám
+60	2760	zajímavost	zajímavostech zajímavostem zajímavosti zajímavostmi zajímavostí
+61	2761	sektor	sektorech sektorem sektoru sektory sektorů
+62	2762	zaparkovat	parkoval parkovala parkovali parkovalo parkovat parkování parkuje parkujeme parkuji parkují parkující zaparkoval zaparkovala zaparkovali zaparkovaná zaparkované zaparkovaného zaparkovaném zaparkovaný zaparkovaných zaparkováno zaparkování zaparkuje zaparkujeme zaparkujete zaparkujte zaparkují
+63	2763	islám	islámem islámu
+64	2764	federace	federaci federací federační
+65	2765	hustý	houšť hustou hustá husté hustého hustém hustému hustí hustých hustým hustými hustě hustěji hustější hustší nejhustěji nejhustší
+66	2766	publikace	publikacemi publikaci publikací publikacích publikacím
+67	2767	aj	ay
+68	2768	nařídit	nařizovat nařizuje nařídil nařídila nařídili nařídilo nařídily nařídí nařídím nařízen nařízena nařízeno nařízeny nařízené nařízený
+69	2769	plíce	plic plicní plicních plicního plicním plicích plícemi plíci plících
+70	2770	respekt	respektem respektu
+71	2771	hlasování	hlasováních hlasováním
+72	2772	udělit	udělen udělena uděleno uděleny udělený udělil udělila udělili udělilo udělily udělovat uděluje udělí
+73	2773	špička	špičce špiček špičkami špičkou špičku špičky špičkách špičkám
+74	2774	ropa	rop ropou ropu ropy ropě
+75	2775	vole	woe
+76	2776	železný	neželezných železnou železná železné železného železném železnému železní železných železným železnými
+77	2777	listina	listin listinami listinou listinu listiny listinách listině
+78	2778	nápoj	nápoje nápojem nápoji nápojích nápojů nápojům
+79	2779	čestný	nejčestnější nečestného čestnou čestná čestné čestného čestném čestnému čestní čestných čestným čestnými čestně čestnější
+80	2780	dění	děním
+81	2781	dole	
+82	2782	menu	
+83	2783	značně	
+84	2784	nahrát	nahraj nahraje nahrajeme nahrajete nahraješ nahrajte nahraju nahrají nahrál nahrála nahráli nahrálo nahrály nahrán nahrána nahráno nahrány nahrávat nahrává
+85	2785	přestávka	přestávce přestávek přestávkami přestávkou přestávku přestávky přestávkách
+86	2786	strašný	nejstrašnější strašnou strašná strašné strašného strašném strašnému strašní strašných strašným strašnými strašnější
+87	2787	alternativní	alternativních alternativního alternativním alternativními alternativnímu alternativně
+88	2788	tlustý	nejtlustší tlustou tlustá tlusté tlustého tlustém tlustému tlustí tlustých tlustým tlustými tlustě tlustější tlustší
+89	2789	pas	pase pasech pasem pasu pasy pasů
+90	2790	onen	onoho onom onomu onou onu oné oním oněch oněm oněmi
+91	2791	lano	lan lana lanech lanem lanko lanovou lanová lanové lanového lanoví lanový lanových lanovým lanu lany laně
+92	2792	doporučení	doporučeních doporučením doporučeními
+93	2793	zrcadlo	zrcadel zrcadla zrcadle zrcadlech zrcadlem zrcadlu zrcadly zrcátko
+94	2794	hovor	hovorech hovorem hovoru hovory hovorů hovorům
+95	2795	obtížný	nejobtížnější nejobtížnějších nejobtížnějším obtížnou obtížná obtížné obtížného obtížném obtížnému obtížných obtížným obtížnými obtížnější obtížnějším
+96	2796	světlý	nejsvětlejší světlejší světlejších světlejším světlou světlá světlé světlého světlém světlí světlých světlým světlými
+97	2797	mocný	mocnou mocná mocné mocného mocném mocnému mocní mocných mocným mocnými mocně mocnější mocnějšího mocnějším nejmocnější nejmocnějších nejmocnějšího nejmocnějším nejmocnějšími
+98	2798	dort	dortem dortové dortu dorty dortík dortíku dortíky dortíků dortů
+99	2799	přerušit	nepřerušil nepřeruší přeruš přerušen přerušena přerušeno přerušeny přerušené přerušený přerušil přerušila přerušili přerušilo přerušily přerušovat přerušte přerušuje přeruší přeruším přerušíme
+100	2800	ložnice	ložnic ložnicemi ložnici ložnicí ložnicích

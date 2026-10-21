@@ -1,0 +1,100 @@
+1	7701	nespokojenost	nespokojenosti nespokojeností
+2	7702	zavinit	zavinil zavinila zavinili zavinilo zavinily zaviní zaviněno zaviněné zavinění
+3	7703	marmeláda	marmelád marmeládou marmeládu marmelády
+4	7704	celovečerní	celovečerních celovečerního celovečerním
+5	7705	hospodin	hospodina hospodine hospodinem hospodinu hospodinův
+6	7706	plácat	plácají plácal plácala plácali plácl plácla plácli plácne plácnout plácnu plácá plácám plácáme plácání plácáte plácáš
+7	7707	panský	panskou panská panské panského panském panských panským
+8	7708	obrazový	obrazovou obrazové obrazovým
+9	7709	len	lnu línek
+10	7710	regál	regále regálech regálu regály regálů
+11	7711	cha	
+12	7712	jahody	
+13	7713	nanejvýš	
+14	7714	poněvadž	
+15	7715	toť	
+16	7716	žes	
+17	7717	nevyhnutelný	nevyhnutelnou nevyhnutelná nevyhnutelné nevyhnutelného nevyhnutelnému nevyhnutelným
+18	7718	parodie	parodii parodií
+19	7719	nedostupný	nedostupnou nedostupná nedostupné nedostupného nedostupných nedostupným
+20	7720	vydírání	vydíráním
+21	7721	středozemní	středozemního středozemním středozemnímu
+22	7722	monopol	monopolem monopolu monopoly monopolů
+23	7723	učiliště	učilišti učilištích učilištěm učilišť
+24	7724	zdatný	nejzdatnější zdatnou zdatná zdatné zdatného zdatní zdatných zdatným zdatnými zdatně zdatnější
+25	7725	blokáda	blokád blokádou blokádu blokády blokádě
+26	7726	osamocený	osamocen osamocena osamoceni osamocenou osamocená osamocené osamoceného osamocení osamocených osamoceným osamoceně
+27	7727	pedagogika	pedagogice pedagogikou pedagogiku pedagogiky
+28	7728	exil	exile exilu
+29	7729	rozmístit	rozmístil rozmístila rozmístili rozmístí rozmístěna rozmístěni rozmístěno rozmístěny rozmístěných
+30	7730	protilátka	protilátek protilátkami protilátkou protilátku protilátky
+31	7731	nezletilý	nezletilou nezletilá nezletilému nezletilí nezletilých nezletilým nezletilými
+32	7732	detektivka	detektivce detektivek detektivkou detektivku detektivky detektivkách
+33	7733	úřednický	úřednickou úřednická úřednické úřednického úřednických úřednickým
+34	7734	formulace	formulaci formulací
+35	7735	prověřený	prověřenou prověřená prověřené prověřeného prověření prověřených prověřeným
+36	7736	povrchní	povrchních povrchního povrchním povrchně
+37	7737	reorganizace	reorganizaci
+38	7738	chlazení	chlazením
+39	7739	depo	dep depa depu
+40	7740	pohlédnout	pohlédl pohlédla pohlédli pohlédne pohlédneme pohlédnu pohlížejí pohlížel pohlíželo pohlížet pohlíží
+41	7741	váza	váz vázami váze vázou vázu vázy
+42	7742	odlehlý	nejodlehlejší nejodlehlejších odlehlejší odlehlejších odlehlou odlehlá odlehlé odlehlého odlehlém odlehlých
+43	7743	zachovalý	nejzachovalejší nejzachovalejších zachovalou zachovalá zachovalé zachovalém zachovalých zachovalým zachovalými
+44	7744	hlídač	hlídače hlídačem hlídači hlídačů
+45	7745	psací	psacích psacího psacím psacímu
+46	7746	lázeň	lázni lázní lázních lázním lázněmi
+47	7747	přesilovka	přesilovce přesilovku přesilovky
+48	7748	emigrovat	emigroval emigrovala emigrovali emigrovalo
+49	7749	dezert	dezertem dezertu dezerty dezertů
+50	7750	hovado	hovad hovada
+51	7751	udát	udál udála událo udály
+52	7752	kofein	kofeinem kofeinu
+53	7753	sestřelit	sestřelen sestřeleny sestřelil
+54	7754	guláš	guláše gulášem guláši
+55	7755	cukrový	cukrovou cukrová cukrové cukrového cukrových
+56	7756	řeknout	neřekly neřekne
+57	7757	harmonogram	harmonogramem harmonogramu harmonogramy
+58	7758	hráčský	hráčskou hráčská hráčské hráčského hráčském hráčských hráčským
+59	7759	šetrný	nejšetrnější šetrnou šetrná šetrné šetrného šetrnému šetrných šetrným šetrně šetrněji šetrnější
+60	7760	zapříčinit	zapříčinil zapříčinila zapříčinili zapříčinilo zapříčinily zapříčiní zapříčiněn zapříčiněna zapříčiněno zapříčiněny zapříčiněný
+61	7761	husitský	husitskou husitská husitské husitského husitských husitským husitskými
+62	7762	vodič	vodiče vodičem vodiči vodičů
+63	7763	sepnout	sepne sepnutí spjat spjata spjati spjato spjaty spíná spínání
+64	7764	experimentovat	experimentoval experimentovala experimentovali experimentovalo experimentuje experimentuji experimentují experimentující
+65	7765	fašismus	fašismem fašismu
+66	7766	odklad	odkladech odkladem odkladu odklady odkladů
+67	7767	klapka	klapek klapkami klapkou klapku klapky
+68	7768	uhlík	uhlíkem uhlíku uhlíky uhlíků
+69	7769	následovník	následovníci následovníka následovníkem následovníky následovníků následovníkům
+70	7770	nasbírat	nasbíral nasbírala nasbíraly
+71	7771	router	routeru routery routerů
+72	7772	průkopník	průkopníci průkopníka průkopníkem průkopníky průkopníků průkopníkům
+73	7773	tržnice	tržnic tržnici tržnicí tržnicích
+74	7774	adventní	adventních adventního adventním
+75	7775	rutina	rutin rutinou rutinu rutiny rutině
+76	7776	suterén	suterénem suterénu
+77	7777	šašek	šašci šaška šaškem šašky šašků
+78	7778	výkřik	výkřikem výkřiku výkřiky výkřiků
+79	7779	obstarat	obstarají obstaral obstarala obstarali obstarejte obstará
+80	7780	cholesterol	cholesterolem cholesterolu
+81	7781	desetiletý	desetiletou desetiletá desetileté desetiletého desetiletém desetiletému desetiletých desetiletým
+82	7782	řádit	řádil řádila řádili řádily řádí řádě
+83	7783	třicetiletý	třicetiletou třicetiletá třicetileté třicetiletého
+84	7784	velkorysý	velkorysejší velkorysou velkorysá velkorysé velkorysého velkorysí velkorysých velkorysým
+85	7785	textilie	textiliemi textilii textilií textiliích
+86	7786	pohotovostní	pohotovostních pohotovostního pohotovostním
+87	7787	pekař	pekaře pekařem pekaři pekařka pekařský pekařů pekařův
+88	7788	cukroví	cukrovím
+89	7789	klesající	klesajících klesajícího klesajícím klesajícími klesajícímu
+90	7790	nerezový	nerezovou nerezová nerezové nerezových
+91	7791	labyrint	labyrintem labyrintu labyrintů
+92	7792	nápor	náporem náporu
+93	7793	chcípnout	chcípl chcípla chcíplo chcípne chcípni chcípnou chcípnu chcípnul
+94	7794	vrt	vrtech vrtem vrtu vrty vrtů
+95	7795	naráz	
+96	7796	polo	
+97	7797	počtvrté	
+98	7798	sklonek	sklonku
+99	7799	havarovat	havaroval havarovala havarovali havarovalo havarovaný havaruje
+100	7800	teze	tezemi tezi tezí

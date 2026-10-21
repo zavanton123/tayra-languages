@@ -1,0 +1,100 @@
+1	1901	demokratický	demokratickou demokraticky demokratická demokratické demokratického demokratickém demokratickému demokratických demokratickým demokratickými demokratičtí demokratičtější
+2	1902	japonský	japonskou japonská japonské japonského japonském japonskému japonských japonským japonskými japonští
+3	1903	organizovat	organizoval organizovala organizovali organizovalo organizovaly organizovanou organizovaná organizované organizovaného organizovaném organizovanému organizovaní organizovaný organizovaných organizovaným organizovaně organizován organizována organizováni organizováno organizovány organizování organizováním organizuje organizujeme organizuji organizují organizující zorganizoval zorganizovala zorganizovali zorganizovalo zorganizovaly zorganizovaný zorganizovat zorganizována zorganizování zorganizuje zorganizujeme
+4	1904	charakter	charakterech charakterem charakteru charaktery charakterů
+5	1905	přivést	přivede přivedeme přiveden přivedena přivedeni přivedeno přivedeny přivedete přivedl přivedla přivedli přivedlo přivedly přivedou přivedu přiveď přiveďte přivádí přivádíme přivádějí přivádějící přiváděl přiváděla přiváděli přivádělo přiváděly přiváděn přiváděna přivádět
+6	1906	vystavit	vystaven vystavena vystaveni vystaveno vystavenou vystaveny vystavená vystavené vystaveného vystavení vystavením vystavený vystavených vystaveným vystavenými vystavil vystavila vystavili vystavilo vystavoval vystavovala vystavovali vystavovalo vystavovaly vystavovat vystavován vystavována vystavováni vystavovány vystavuje vystavujeme vystavujete vystavuji vystavují vystavující vystaví vystavím vystavíme vystavíte
+7	1907	lázně	lázní lázních lázním lázněmi
+8	1908	provozovat	neprovozuje provozoval provozovala provozovali provozovalo provozovaly provozovaný provozovaných provozován provozována provozováno provozovány provozování provozováním provozuje provozujeme provozujete provozuji provozují provozující provozujících
+9	1909	var	varech varem varu vary varů varům
+10	1910	stadion	stadionech stadionem stadionu stadiony stadioně stadionů
+11	1911	úzký	nejužší nejužšího nejužším užší užších užšího užším užšími úzce úzko úzkou úzká úzké úzkého úzkém úzkému úzkých úzkým úzkými úžeji
+12	1912	krást	krade krademe kradete kradl kradla kradli kradlo kradly kradou kradu ukraden ukradena ukradeno ukradeny ukradení ukradl ukradla ukradli ukradlo ukradly ukradne ukradnou ukrást
+13	1913	nato	
+14	1914	vybraný	nejvybranější vybranou vybraná vybrané vybraného vybraném vybranému vybraní vybraných vybraným vybranými
+15	1915	mzda	mezd mzdami mzdou mzdu mzdy mzdách mzdám mzdě
+16	1916	plat	plate platech platem platu platy platů platům
+17	1917	kupovat	kupoval kupovala kupovali kupovaly kupované kupování kupuje kupujeme kupujete kupuješ kupuji kupujou kupujte kupuju kupují kupující kupujících kupujícího kupujícím nekupují
+18	1918	vyměnit	nevyměnil vyměnil vyměnila vyměnili vyměnilo vyměnily vymění vyměním vyměníme vyměníte vyměněn vyměněna vyměněni vyměněno vyměněny vyměnění vyměněný vyměň vyměňovat vyměňte vyměňuje vyměňují
+19	1919	domácnost	domácnostech domácnostem domácnosti domácnostmi domácností
+20	1920	regionální	regionálních regionálního regionálním regionálními regionálnímu regionálně
+21	1921	zvýšení	zvýšením
+22	1922	trápit	netrápím potrápit trap trapu trápení trápil trápila trápili trápilo trápily trápí trápící trápím trápíme trápíte
+23	1923	kost	kostech kostem kosti kostmi kostní kostních kostního kostí kůstek kůstka kůstky
+24	1924	dřevo	dřev dřeva dřevem dřevní dřevu dřevě dřívko
+25	1925	běh	běhu běhy běhů běhům bězích
+26	1926	procházka	procházce procházek procházkami procházkou procházkovi procházková procházkové procházku procházky procházkách procházkám
+27	1927	překvapení	překvapením
+28	1928	mládež	mládeže mládeži mládeží
+29	1929	operační	operačních operačního operačním operačními operačnímu operačně
+30	1930	stříbrný	stříbrnou stříbrná stříbrné stříbrného stříbrném stříbrnému stříbrní stříbrných stříbrným stříbrnými stříbrně
+31	1931	nebezpečí	nebezpečích nebezpečím nebezpečími
+32	1932	odstranit	neodstraní odstranil odstranila odstranili odstranilo odstranily odstraní odstraním odstraníme odstraníte odstraněn odstraněna odstraněni odstraněno odstraněny odstraněný odstraň odstraňovat odstraňte odstraňuje
+33	1933	hovořit	hovořil hovořila hovořili hovořilo hovořily hovoří hovořící hovořících hovořícího hovořícím hovořícími hovořím hovoříme hovoříte nehovořil pohovořil pohovořili pohovořit pohovoří
+34	1934	vinit	obvinil obvinila obvinili obvinilo obvinily obvinit obviní obviněn obviněna obviněni obviněno obviněny obviňoval obviňovala obviňovali obviňovaly obviňovat obviňován obviňována obviňováni obviňování obviňuje obviňují obviňující vinil vinila vinili viní vině viněn
+35	1935	bomba	bomb bombami bombou bombu bomby bombách bombám bombě
+36	1936	přednáška	přednášce přednášek přednáškami přednáškou přednášku přednášky přednáškách přednáškám
+37	1937	zajít	zacházejte zacházejí zacházel zacházela zacházeli zacházelo zacházeno zacházet zachází zacházím zacházíme zacházíte zajde zajdeme zajdete zajdi zajdou zajdu zajděte zašel zašla zašli zašlo zašly
+38	1938	opravit	oprav opraven opravena opraveno opraveny opravené opravení opravený opravil opravila opravili opravilo opravily opravoval opravovat opravte opravuje opravujeme opravují opraví opravím opravíme opravíte
+39	1939	podnikání	podnikáním
+40	1940	čelo	čel čela čele čelech čelem čelu čely
+41	1941	hotový	hotov hotova hotovi hotovo hotovou hotovy hotová hotového hotovém hotovému hotoví hotových hotovým hotovými hotově
+42	1942	ocenit	ocenil ocenila ocenili ocenilo ocenily ocení ocením oceníme oceníte oceníš oceněn oceněna oceněni oceněno oceněny oceněné oceněný oceňovat oceňuje
+43	1943	vzdálený	nejvzdálenější nejvzdálenějších nejvzdálenějším vzdálen vzdálena vzdálenou vzdáleny vzdálená vzdálené vzdáleného vzdáleném vzdálenému vzdálení vzdálených vzdáleným vzdálenými vzdáleně vzdálenější vzdálenějších vzdálenějšího vzdálenějším
+44	1944	třetina	třetin třetinami třetinou třetinu třetiny třetinách třetině
+45	1945	mimochodem	
+46	1946	několikrát	
+47	1947	posílit	posil posilovat posiluje posílen posílena posíleni posíleno posílenou posíleny posílená posílené posílení posílením posílený posílil posílila posílili posílilo posílily posílí posílíme posílíte
+48	1948	kdykoli	kdykoliv
+49	1949	tichý	nejtišší tich ticha tichou tichá tiché tichého tichém tichému tichých tichým tichými tiše tišeji tiší tišší
+50	1950	křídlo	křidélek křidélka křidélko křidélky křídel křídla křídle křídlech křídlem křídlu křídly křídlům
+51	1951	sranda	srandička srandovní srandu srandy srandě
+52	1952	obava	obav obavami obavou obavu obavy obavách obavám obavě
+53	1953	cvičení	cvičeních cvičením cvičeními
+54	1954	svědek	svědci svědcích svědka svědkem svědkovi svědkové svědky svědkyni svědkyní svědkyně svědků svědkům
+55	1955	nazvat	nazval nazvala nazvali nazvalo nazvaly nazve nazveme nazvete nazvou nazvu nazván nazvána nazváno nazvány nazvěme nazývat nazývá
+56	1956	přeložit	překládají překládal překládali překládat překládá přeložen přeložena přeloženo přeloženy přeložené přeložení přeložený přeložil přeložila přeložili přeložily přeložte přeloží přeložím přeložíme
+57	1957	zlomit	dolomit lam lomeno lomený lomí lámal lámala lámali lámalo lámaly lámat láme lámete lámou lámu nezlomila ulomil ulomila ulomit zlomen zlomena zlomenou zlomená zlomené zlomeného zlomení zlomený zlomených zlomeným zlomenými zlomil zlomila zlomili zlomilo zlomily zlomí zlomím zlomíme zlomíte
+58	1958	zadek	zadeček zadkem zadku zadky zadků
+59	1959	legenda	legend legendami legendou legendu legendy legendách legendám legendě
+60	1960	vybavení	vybavením
+61	1961	ovoce	ovocem ovoci ovocnou ovocná ovocné ovocného ovocném ovocný ovocných ovocným ovocnými
+62	1962	souhlas	souhlasem souhlasu souhlasy souhlasů
+63	1963	míle	mil míli mílí mílích
+64	1964	jednoduše	jednodušeji nejjednodušeji
+65	1965	oheň	ohni ohně ohněm ohýnek ohňů
+66	1966	zachovat	nezachovalo zachovají zachoval zachovala zachovali zachovalo zachovaly zachovej zachovejte zachová zachovám zachováme zachován zachována zachováno zachovány zachováte zachovávat zachovává
+67	1967	sbor	sborech sborem sboru sbory sborů sborům
+68	1968	ztrácet	neztrácí ztrácejí ztrácející ztrácel ztrácela ztráceli ztrácelo ztrácely ztrácení ztrácí ztrácím ztrácíme ztrácíte ztrácíš
+69	1969	radnice	radnic radnici radnicí radnicích
+70	1970	jaderný	jadernou jaderná jaderné jaderného jaderném jadernému jaderní jaderných jaderným jadernými
+71	1971	dvojice	dvojic dvojicemi dvojici dvojicí dvojicích dvojicím
+72	1972	spisovatel	spisovatelce spisovatele spisovatelek spisovatelem spisovateli spisovatelka spisovatelkou spisovatelku spisovatelky spisovatelé spisovatelích spisovatelů spisovatelům
+73	1973	déšť	dešti deštích deštík deště deštěm dešťů dešťům
+74	1974	bydlení	bydlením
+75	1975	pojištění	pojištěním
+76	1976	důvěra	důvěrou důvěru důvěry důvěře
+77	1977	dovést	dovede dovedeme doveden dovedena dovedeno dovedete dovedeš dovedl dovedla dovedli dovedlo dovedly dovedou dovedu dovádí dovádějí dovádět nedovede nedovedeme nedovedl nedovedla nedovedli nedovedou nedovedu
+78	1978	dvůr	dvora dvorcích dvorech dvorek dvorem dvoreček dvorečku dvorkem dvorku dvorky dvorků dvoru dvory dvorů dvoře
+79	1979	okres	okrese okresech okresem okresu okresy okresů
+80	1980	táhnout	natahovat natahují natažen nataženy natáhl natáhla natáhli natáhne natáhneme natáhnete natáhnou natáhnout natáhnu natáhněte potáhne potáhneme potáhnou tažen tažena taženo taženy táhel táhl táhla táhle táhli táhlo táhly táhne táhneme táhnete táhni táhnou táhnoucí táhnu táhnul táhněte
+81	1981	hodný	hoden hodna hodni hodno hodnou hodny hodná hodné hodného hodném hodní hodných hodným hodnými hodnější nejhodnější
+82	1982	připadnout	připadat připadl připadla připadlo připadly připadne připadnou připadá
+83	1983	hasič	hasiče hasičem hasiči hasičích hasičů hasičům
+84	1984	úvodní	úvodních úvodního úvodním úvodními úvodnímu
+85	1985	rozměr	rozměrech rozměrem rozměru rozměry rozměrů rozměrům
+86	1986	povolení	povolením
+87	1987	hrozný	hroznou hrozná hrozné hrozného hrozném hroznému hrozní hrozných hrozným hroznými hroznější nejhroznější
+88	1988	buňka	buněk buňce buňkami buňkou buňku buňky buňkách buňkám
+89	1989	lehce	lehounce lehčeji
+90	1990	unikátní	unikátních unikátního unikátním unikátními unikátnímu unikátně
+91	1991	nebe	nebem nebi
+92	1992	příbuzný	příbuznou příbuzná příbuzné příbuzného příbuzném příbuznému příbuzní příbuzných příbuzným příbuznými
+93	1993	agent	agenta agentech agentem agenti agentovi agentu agenty agentů agentům
+94	1994	všeobecný	všeobecnou všeobecná všeobecné všeobecného všeobecném všeobecnému všeobecní všeobecných všeobecným všeobecnými všeobecně
+95	1995	rameno	ramen ramena ramene ramenech ramenem rameni ramenou ramenu rameny ramenům raménka rámě
+96	1996	ochutnat	chutnají chutnající chutnal chutnala chutnalo chutnaly chutnat chutná ochutnají ochutnal ochutnala ochutnali ochutnej ochutnejte ochutná ochutnám ochutnáme ochutnání ochutnáte ochutnávají ochutnával ochutnávali ochutnávat ochutnává ochutnávám ochutnáváme ochutnávání
+97	1997	vnímat	nevnímal nevnímala nevnímat nevnímá vnímají vnímající vnímal vnímala vnímali vnímalo vnímaly vnímaný vnímej vnímejte vnímá vnímám vnímáme vnímán vnímána vnímáni vnímáno vnímány vnímáte vnímáš
+98	1998	praktický	nejpraktičtější praktickou praktická praktické praktického praktickém praktickému praktických praktickým praktickými praktičtí praktičtější
+99	1999	roční	ročních ročního ročním ročními ročnímu
+100	2000	manželství	manželstvích manželstvím

@@ -1,0 +1,100 @@
+1	2001	zahájení	zahájením
+2	2002	dluh	dluhem dluhu dluhy dluhů dluhům dluzích
+3	2003	vina	vin vino vinou vinu viny vině
+4	2004	španělský	španělskou španělsky španělská španělské španělského španělském španělskému španělských španělským španělskými španělští
+5	2005	vyhovět	nevyhovovalo nevyhovuje nevyhovující nevyhovujících nevyhovujícího nevyhovujícím nevyhovujícímu vyhovoval vyhovovala vyhovovalo vyhovovaly vyhovovat vyhovuje vyhovují vyhovující vyhovujících vyhovujícím vyhoví vyhovím vyhovíme vyhověl vyhověla vyhověli vyhovělo vyhověly vyhověno vyhovění
+6	2006	učení	učením
+7	2007	pojem	pojme pojmech pojmem pojmu pojmy pojmů pojmům
+8	2008	maximálně	
+9	2009	zaútočit	neútočení zaútočil zaútočila zaútočili zaútočilo zaútočily zaútočí útočení útočil útočila útočili útočilo útočily útočit útočí útočící útočíme
+10	2010	angličtina	angličtinou angličtinu angličtiny angličtině
+11	2011	recenze	recenzemi recenzi recenzí recenzích recenzím
+12	2012	portál	portále portálech portálem portálu portály portálů
+13	2013	rozhlas	rozhlase rozhlasem rozhlasu
+14	2014	divoký	divoce divocí divoko divokou divoká divoké divokého divokém divokému divokých divokým divokými divočejší nejdivočejší nejdivočejších
+15	2015	vůle	vůli vůlí
+16	2016	kvalifikace	kvalifikaci kvalifikací kvalifikacích
+17	2017	chata	chat chatami chatka chatou chatu chaty chatách chatě
+18	2018	schůzka	schůzce schůzek schůzkami schůzkou schůzku schůzky schůzkách schůzkám
+19	2019	panna	panen panence panenek panenka panenkami panenko panenkou panenku panenky panenkách pannami panno pannou pannu panny pannách panně
+20	2020	automat	automatech automatem automatickou automatická automatické automatického automatickém automatickému automatický automatických automatickým automatickými automatu automaty automatů automatům
+21	2021	kapsa	kapes kapsami kapse kapsou kapsu kapsy kapsách
+22	2022	modrá	modrou modré modrých modrým modrými
+23	2023	sál	sále sálech sálem sálu sály sálů
+24	2024	léky	lécích léků lékům
+25	2025	povolit	nepovolené nepovolila povolen povolena povoleni povoleno povolenou povoleny povolená povolené povoleného povoleném povolený povolených povoleným povolenými povolil povolila povolili povolilo povolily povolovat povolte povoluje povolí povolím povolíme povolíte
+26	2026	spojovat	nespojuje spojoval spojovala spojovali spojovalo spojovaly spojované spojovaný spojován spojována spojováni spojováno spojovány spojování spojuje spojujeme spojujete spojuji spojují spojující spojujících spojujícího spojujícím
+27	2027	označení	označením
+28	2028	šílený	nejšílenější nejšílenějších šílenou šílená šílené šíleného šíleném šílenému šílení šílených šíleným šílenými šíleně šílenější
+29	2029	vteřina	vteřin vteřinami vteřinku vteřinou vteřinové vteřinu vteřiny vteřinách vteřině
+30	2030	nastavit	nastav nastaven nastavena nastaveni nastaveno nastavenou nastaveny nastavená nastavené nastaveného nastaveném nastavený nastavených nastaveným nastavenými nastavil nastavila nastavili nastavilo nastavily nastavovat nastavte nastaví nastavím nastavíme nastavíte nastavíš
+31	2031	měřit	měř měřen měřena měřeno měřenou měřeny měřená měřené měřeného měřeném měřený měřených měřeným měřil měřila měřili měřilo měřily měří měřící měřících měřícího měřícím měřím měříme měříte změřen změřena změření změřil změřila změřili změřit změřte změří změřím změříme
+32	2032	jih	jihem jihu
+33	2033	vyplatit	nevyplatilo nevyplatí vyplacen vyplacena vyplaceno vyplaceny vyplacené vyplacení vyplatil vyplatila vyplatili vyplatilo vyplatily vyplatí vyplatíme vyplácet vyplácí
+34	2034	znalost	znalostech znalostem znalosti znalostmi znalostí
+35	2035	školství	školstvím
+36	2036	tentýž	tatáž titíž tomtéž totéž toutéž tutéž tytéž téhož témuž téže tímtéž týchž týmiž týmž
+37	2037	prohlídka	prohlídce prohlídek prohlídkami prohlídkou prohlídku prohlídky prohlídkách prohlídkám
+38	2038	zpracování	zpracováním
+39	2039	generál	generála generálce generále generálem generálka generálkou generálku generálky generálovi generálové generálu generály generálů generálům
+40	2040	literatura	literatur literaturou literaturu literatury literatuře
+41	2041	onemocnění	onemocněních onemocněním onemocněními
+42	2042	turista	turistech turisti turistou turistovi turistu turisty turisté turistů turistům
+43	2043	zbytečný	zbytečnou zbytečná zbytečné zbytečného zbytečném zbytečnému zbyteční zbytečných zbytečným zbytečnými
+44	2044	odpad	odpadech odpadem odpadní odpadních odpadního odpadním odpadními odpadové odpadový odpadu odpady odpadů
+45	2045	tisk	tiskem tisku tisky tisků
+46	2046	umělý	umělou umělá umělé umělého umělém umělému umělí umělých umělým umělými
+47	2047	minimální	minimálních minimálního minimálním minimálními minimálnímu
+48	2048	hezky	
+49	2049	ihned	
+50	2050	nahoru	
+51	2051	létat	létají létající létajících létajícího létajícím létajícími létal létala létali létalo létaly létá létám létáme létání létáním létáte lítají lítal lítat lítám
+52	2052	červené	červených červeným červenými
+53	2053	vzájemný	vzájemnou vzájemná vzájemné vzájemného vzájemném vzájemnému vzájemných vzájemným vzájemnými
+54	2054	střílet	nestřílel střel střelen střelil střelila střelili střelit střelí střelím střílej střílejte střílejí střílející střílel střílela stříleli střílelo střílely střílen stříleni střílení střílí střílím střílíme střílíte
+55	2055	pořadí	pořadím
+56	2056	pohlaví	pohlavní pohlavních pohlavního pohlavním pohlavními pohlavnímu pohlavně pohlavím pohlavími
+57	2057	nula	nul nulami nule nulo nulou nulovou nulová nulové nulového nulovém nulovému nulový nulových nulovým nulovými nulu nuly
+58	2058	tunel	tunelech tunelem tunelu tunely tunelů tunelům
+59	2059	zločin	zločinech zločinem zločinu zločiny zločinů zločinům
+60	2060	uzavřený	uzavřenou uzavřená uzavřené uzavřeného uzavřeném uzavřenému uzavření uzavřením uzavřených uzavřeným uzavřenými uzavřenější
+61	2061	prso	prsa prsem prsou prsu prsy prsům
+62	2062	podání	podáních podáním
+63	2063	soused	souseda sousedce sousedech sousedem sousedi sousedka sousedkou sousedku sousedky sousedovi sousedu sousedy sousedé sousedů sousedům sousedův
+64	2064	vzhled	vzhledu
+65	2065	zrušení	zrušením
+66	2066	sekunda	sekund sekundami sekundou sekundové sekundový sekundu sekundy sekundách sekundě
+67	2067	úsměv	úsměvem úsměvu úsměvy úsměvů
+68	2068	matematika	matematice matematici matematickou matematicky matematická matematické matematického matematickém matematický matematických matematickým matematickými matematik matematikem matematikou matematiku matematiky matematiků
+69	2069	tajemství	tajemstvích tajemstvím tajemstvími
+70	2070	dohodnout	dohadoval dohadovali dohadovat dohadování dohaduje dohadujeme dohadují dohodl dohodla dohodli dohodlo dohodly dohodne dohodneme dohodnete dohodnou dohodnut dohodnuta dohodnuti dohodnuto dohodnuty dohodnuté dohodnutí dohodnutý dohodněte nedohodl nedohodnou
+71	2071	ústavní	ústavních ústavního ústavním ústavními ústavnímu ústavně
+72	2072	ukázka	ukázce ukázek ukázkami ukázkou ukázkovou ukázková ukázkové ukázkového ukázkovém ukázkový ukázkových ukázkovým ukázku ukázky ukázkách ukázkám
+73	2073	porucha	poruch poruchami poruchou poruchové poruchový poruchu poruchy poruchách poruchám poruše
+74	2074	ostrý	nejostřejší ostrou ostrá ostré ostrého ostrém ostrému ostrých ostrým ostrými ostřejší ostřejších ostřejšího ostřejším ostří ostřím
+75	2075	přiblížit	nepřiblíží přibližoval přibližovala přibližovali přibližovaly přibližovat přibližování přibližte přibližuje přibližujeme přibližuji přibližují přibližující přiblížení přiblížením přiblížil přiblížila přiblížili přiblížilo přiblížily přiblíží přiblížím přiblížíme přiblížíte
+76	2076	ukrajinský	ukrajinskou ukrajinsky ukrajinská ukrajinské ukrajinského ukrajinském ukrajinskému ukrajinských ukrajinským ukrajinskými ukrajinští
+77	2077	dan	dana dane danem dani danovi danu dany
+78	2078	asistent	asistenta asistentce asistentek asistentem asistenti asistentka asistentkami asistentkou asistentku asistentky asistentovi asistenty asistentů asistentům
+79	2079	sladký	nejsladší sladce sladko sladkou sladká sladké sladkého sladkém sladkému sladkých sladkým sladkými sladší
+80	2080	scénář	scénáře scénářem scénáři scénářích scénářů
+81	2081	doslova	
+82	2082	ha	
+83	2083	částečně	
+84	2084	zastupitelstvo	zastupitelstev zastupitelstva zastupitelstvech zastupitelstvem zastupitelstvu
+85	2085	duchovní	duchovních duchovního duchovním duchovními duchovnímu duchovně
+86	2086	naplnit	naplnil naplnila naplnili naplnilo naplnily naplní naplním naplníme naplníte naplněn naplněna naplněni naplněno naplněnou naplněny naplněná naplněné naplněného naplněném naplnění naplněním naplněný naplněných naplněným naplněnými naplň naplňovat naplňte naplňuje nenaplnila nenaplněná
+87	2087	složení	složením
+88	2088	okolnost	okolnostech okolnostem okolnosti okolnostmi okolností
+89	2089	skrývat	neskrývají neskrýval neskrývá neskrývám skryje skryjí skryl skryla skryli skryly skryt skryta skryti skryto skrytu skryty skrytí skrýt skrývají skrývající skrýval skrývala skrývali skrývalo skrývaly skrývané skrývá skrývám skrývání
+90	2090	zdejší	zdejších zdejšího zdejším zdejšími zdejšímu
+91	2091	uvolnit	uvolni uvolnil uvolnila uvolnili uvolnilo uvolnily uvolní uvolním uvolníme uvolníte uvolněn uvolněna uvolněni uvolněno uvolněnou uvolněny uvolněná uvolněné uvolněného uvolněném uvolněný uvolněných uvolněným uvolněnými uvolněně uvolněněji uvolněnější uvolněte uvolňovat uvolňuje
+92	2092	motiv	motivech motivem motivu motivy motivů motivům
+93	2093	architekt	architekta architektem architekti architektka architektkou architektky architektovi architektu architekty architektů architektům
+94	2094	interiér	interiérech interiérem interiéru interiéry interiérů
+95	2095	schovat	schovají schoval schovala schovali schovalo schovaly schovanou schovaná schované schovaného schovaní schovaný schovaných schovej schovejte schová schovám schováme schován schována schováno schovány schování schováte schovávají schovával schovávala schovávali schovávaly schovávat schovává schovávám schováváme schovávání schováváte
+96	2096	účinek	účincích účinkem účinku účinky účinků účinkům
+97	2097	následný	následnou následná následné následného následném následnému následných následným následnými
+98	2098	nenávidět	nenávidí nenávidím nenávidíme nenávidíte nenávidíš nenáviděl nenáviděla nenáviděli nenáviděn nenáviděnou nenáviděná nenáviděné nenáviděného nenávidění nenáviděný nenáviděných nenáviděným
+99	2099	nepříjemný	nejnepříjemnější nepříjemnou nepříjemná nepříjemné nepříjemného nepříjemném nepříjemnému nepříjemní nepříjemných nepříjemným nepříjemnými nepříjemně nepříjemnější
+100	2100	ohrozit	nejohroženější nejohroženějších nejohroženějším neohrozí ohrozil ohrozila ohrozili ohrozilo ohrozily ohrozí ohrožen ohrožena ohroženi ohroženo ohroženou ohroženy ohrožená ohrožené ohroženého ohroženém ohrožený ohrožených ohroženým ohroženými ohrožovat ohrožuje

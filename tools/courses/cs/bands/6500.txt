@@ -1,0 +1,100 @@
+1	6401	nadaný	nadanou nadaná nadané nadaného nadaní nadaných nadaným nadanými nejnadanější nejnadanějších
+2	6402	emirát	emirátech emirátu emiráty emirátů
+3	6403	udržitelný	udržitelnou udržitelná udržitelné udržitelného udržitelném udržitelnému udržitelných udržitelným
+4	6404	osmdesát	osmdesáti
+5	6405	statický	statickou staticky statická statické statického statickém statických statickým statickými
+6	6406	bojiště	bojišti bojištích bojištěm bojišť
+7	6407	hodnocený	hodnocen hodnocena hodnoceno hodnocenou hodnoceny hodnocené hodnocených
+8	6408	hodnotný	hodnotnou hodnotná hodnotné hodnotného hodnotných hodnotným hodnotnými hodnotnější nejhodnotnější nejhodnotnějších nejhodnotnějším
+9	6409	šmejd	šmejda šmejde šmejdi šmejdy šmejdů šmejdům
+10	6410	farmaceutický	farmaceutickou farmaceutická farmaceutické farmaceutického farmaceutickém farmaceutických farmaceutickým farmaceutickými
+11	6411	proměnná	proměnnou proměnné proměnných proměnným proměnnými
+12	6412	telekomunikační	telekomunikačních telekomunikačního telekomunikačním telekomunikačními
+13	6413	podceňovat	nepodceňoval podcenil podcenila podcenili podcenit podcení podcenění podceňoval podceňovali podceňovaná podceňované podceňovaný podceňován podceňována podceňování podceňuje podceňují
+14	6414	knoflík	knoflíkem knoflíku knoflíky knoflíků knoflíček
+15	6415	hřebík	hřebíkem hřebíku hřebíky hřebíků hřebíček hřebíčkem hřebíčku hřebíčky hřebíčků řebíček
+16	6416	chlupatý	chlupatou chlupatá chlupaté chlupatého chlupatí chlupatých chlupatým chlupatými
+17	6417	propast	propasti propastí
+18	6418	zakotvit	zakotven zakotvena zakotveno zakotveny zakotvené zakotvení zakotvený zakotvil zakotvila zakotvili zakotví zakotvíme
+19	6419	instruktor	instruktora instruktorem instruktorka instruktory instruktorů instruktoři
+20	6420	finalista	finalistek finalistka finalistkou finalistku finalistky finalistou finalistu finalisty finalisté finalistů finalistům
+21	6421	popelnice	popelnic popelnici popelnicí popelnicích
+22	6422	mladistvý	mladistvou mladistvá mladistvé mladistvého mladistvému mladiství mladistvých mladistvým mladistvými mladistvě
+23	6423	flek	fleka fleku fleky fleků flíček flíčky
+24	6424	zapomenutý	zapomenutou zapomenutá zapomenuté zapomenutého zapomenutém zapomenutí zapomenutých zapomenutým
+25	6425	odvolací	odvolacích odvolacího odvolacím odvolacímu
+26	6426	guma	gum gumou gumu gumy gumách gumě
+27	6427	paradox	paradoxem paradoxu paradoxy paradoxů
+28	6428	pojmenovaný	pojmenovanou pojmenovaná pojmenované pojmenovaného pojmenovaném pojmenovaných pojmenovaným pojmenován
+29	6429	rohlík	rohlíkem rohlíku rohlíky rohlíků rohlíček
+30	6430	astronom	astronoma astronomem astronomka astronomové astronomy astronomů astronomům
+31	6431	bezpochyby	
+32	6432	bezvědomí	
+33	6433	hostující	
+34	6434	ostatky	
+35	6435	čáry	
+36	6436	dirigent	dirigenta dirigentem dirigenti dirigentovi dirigentské dirigenty dirigentů
+37	6437	loterie	loterii loterií loteriích
+38	6438	koryto	koryt koryta korytech korytem korytu korýtka korýtko
+39	6439	sestřenice	bratránek sestřenic sestřenicemi sestřenici sestřenicí sestřenka sestřenkou sestřenky
+40	6440	šatník	šatníkem šatníku šatníků
+41	6441	pohladit	hladil hladila hladili hladit hladí hladím hlazení pohladil pohladila pohladí pohladím pohlazení pohlazením pohlaď
+42	6442	uveřejnit	uveřejnil uveřejnila uveřejnili uveřejnilo uveřejnily uveřejní uveřejněn uveřejněna uveřejněno uveřejněny uveřejněné uveřejnění uveřejněný uveřejňovat
+43	6443	respondent	respondenta respondenti respondenty respondentů respondentům
+44	6444	osvědčení	osvědčením
+45	6445	planý	planou planá plané planého planých planým planými planě
+46	6446	uran	uranem uranu
+47	6447	rušení	rušením
+48	6448	školák	školaček školačka školačku školačky školáci školáka školáky školáků školákům
+49	6449	propadlo	propadla propadly
+50	6450	hlupák	hlupáci hlupáka hlupákem hlupáku hlupáky hlupáků hlupákům
+51	6451	vrcholový	vrcholovou vrcholová vrcholové vrcholového vrcholovém vrcholovému vrcholoví vrcholových vrcholovým vrcholovými
+52	6452	stavitel	stavitele stavitelem staviteli stavitelé stavitelů stavitelům
+53	6453	živina	živin živinami živiny
+54	6454	konzultace	konzultaci konzultacím
+55	6455	potrat	potratech potratem potratu potraty potratů potratům
+56	6456	subjektivní	subjektivních subjektivního subjektivním subjektivními subjektivně
+57	6457	uběhnout	ubíhají ubíhající ubíhal ubíhala ubíhaly ubíhá uběhl uběhla uběhlo uběhly uběhne uběhnou
+58	6458	sólový	sólovou sólová sólové sólového sólovém sólovému sólových sólovým sólovými
+59	6459	strmý	nejstrmější strmou strmá strmé strmého strmém strmých strmým strmými strmě strmější
+60	6460	vyvrátit	vyvracet vyvrací vyvrácen vyvrácena vyvráceno vyvráceny vyvrácení vyvrácený vyvrátil vyvrátila vyvrátili vyvrátilo vyvrátily vyvrátí
+61	6461	stíhání	stíháním
+62	6462	odběratel	odběratele odběratelem odběrateli odběratelé odběratelů odběratelům
+63	6463	klávesy	kláves klávesami klávesách
+64	6464	bubeník	bubenice bubeníci bubeníka bubeníkem bubeníkovi bubeníky bubeníků
+65	6465	bavorský	bavorskou bavorská bavorské bavorského bavorském bavorskému bavorských bavorským bavorští
+66	6466	parcela	parcel parcelami parcele parcelou parcelu parcely parcelách
+67	6467	netopýr	netopýra netopýrem netopýry netopýrů netopýři netopýří netopýřích netopýřího
+68	6468	adopce	adopci adopcí
+69	6469	mutace	mutacemi mutaci mutací mutacích
+70	6470	reklamace	reklamaci reklamací
+71	6471	tenisky	tenisek teniskách
+72	6472	obklíčit	obklíčen obklíčena obklíčeni obklíčeno obklíčení obklíčený obklíčil obklíčila obklíčili obklíčilo obklíčily obklíčí
+73	6473	dynamika	dynamice dynamikou dynamiku dynamiky
+74	6474	borovice	borovic borovicemi borovici borovicí borovička borovičky
+75	6475	bída	bídou bídu bídy bídě běd
+76	6476	kultovní	kultovních kultovního kultovním
+77	6477	kámoška	kámošce kámošek kámoškou kámošku kámošky
+78	6478	molekula	molekul molekulami molekule molekulou molekulu molekuly molekulách
+79	6479	biblický	biblickou biblická biblické biblického biblickém biblickému biblických biblickým biblickými
+80	6480	symptom	symptomem symptomy symptomů symptomům
+81	6481	převoz	převozem převozu převozy
+82	6482	poválečný	poválečnou poválečná poválečné poválečného poválečném poválečných poválečným
+83	6483	zápal	zápalem zápalu
+84	6484	ručník	ručníkem ručníku ručníky ručníků
+85	6485	vyběhnout	vybíhají vybíhající vybíhal vybíhala vybíhat vybíhá vyběhl vyběhla vyběhli vyběhlo vyběhly vyběhne vyběhnou vyběhnu
+86	6486	poznávací	poznávacích poznávacího poznávacím poznávacími
+87	6487	portugalský	portugalskou portugalsky portugalská portugalské portugalského portugalském portugalských portugalským portugalskými portugalští
+88	6488	hold	holdem holdu
+89	6489	sáčko	sáček sáčkem sáčku sáčky
+90	6490	popelka	popelce popelkou popelková popelku popelky
+91	6491	ostraha	ostrahou ostrahu ostrahy ostraze
+92	6492	keramický	keramickou keramická keramické keramického keramickém keramických keramickým keramickými
+93	6493	směřující	směřujících směřujícího směřujícím směřujícími
+94	6494	šálek	šálkem šálku šálky šálků
+95	6495	pomyslný	pomyslnou pomyslná pomyslné pomyslného pomyslném pomyslných pomyslným pomyslně
+96	6496	normalizace	normalizaci
+97	6497	hlubina	hlubin hlubinné hlubinný hlubinu hlubiny hlubinách hlubině
+98	6498	rozmanitý	nejrozmanitější nejrozmanitějších rozmanitou rozmanitá rozmanité rozmanitého rozmanitých rozmanitým rozmanitými rozmanitě rozmanitější
+99	6499	mravenec	brabenec mravence mravenci mravenců mravencům
+100	6500	kapitalismus	kapitalismem kapitalismu

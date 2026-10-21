@@ -1,0 +1,100 @@
+1	4701	koření	kořením kořeněné kořeněný
+2	4702	transakce	transakcemi transakci transakcí transakcích transakcím
+3	4703	koníček	koníčka koníčkem koníčku koníčky koníčků koníčkům
+4	4704	rebel	rebela rebelem rebelka rebelové rebely rebelů rebelům
+5	4705	obhájce	obhájcem obhájci obhájců obhájcům obhájkyni obhájkyní obhájkyně obhájkyněmi
+6	4706	magie	magii magií
+7	4707	mam	mame mamy
+8	4708	lékárna	lékáren lékárnou lékárnu lékárny lékárnách lékárně
+9	4709	převaha	převahou převahu převahy převaze
+10	4710	odstěhovat	odstěhoval odstěhovala odstěhovali odstěhovalo odstěhovaly odstěhuje odstěhují
+11	4711	únava	únavou únavu únavy únavě
+12	4712	provedený	provedenou provedená provedené provedeného provedeném provedených provedeným provedenými
+13	4713	samota	samot samotou samotu samoty samotě
+14	4714	zkazit	nezkazí zkazil zkazila zkazili zkazilo zkazily zkazí zkazím zkazíte
+15	4715	terminál	terminálech terminálem terminálu terminály terminálů
+16	4716	nabitý	nabitou nabitá nabité nabitého nabitém nabitému nabití nabitých nabitým nabitými
+17	4717	vypsat	vypisoval vypisovat vypisovány vypisování vypisuje vypisují vypište vypsal vypsala vypsali vypsalo vypsaly vypsán vypsána vypsáno vypsány vypíše vypíšeme vypíšu
+18	4718	vyspělý	nejvyspělejší nejvyspělejších nejvyspělejším vyspělejší vyspělejších vyspělejším vyspělou vyspělá vyspělé vyspělého vyspělém vyspělí vyspělých vyspělým vyspělými
+19	4719	ujet	neujel ujede ujedete ujedou ujedu ujel ujela ujeli ujelo ujely ujíždět
+20	4720	úklid	úklidem úklidu
+21	4721	nositel	nositele nositelem nositeli nositelka nositelé nositelů nositelům
+22	4722	lanovka	lanovce lanovek lanovkami lanovkou lanovku lanovky
+23	4723	pozorný	pozorná pozorné pozorného pozorní pozorným pozorně pozorněji pozornější
+24	4724	nominovat	nominoval nominovala nominovali nominovalo nominovaný nominován nominována nominováni nominováno nominovány nominování nominuje nominují
+25	4725	zemědělec	zemědělce zemědělcem zemědělci zemědělců zemědělcům
+26	4726	energetika	energetice energetik energetikou energetiku energetiky
+27	4727	kladný	kladnou kladná kladné kladného kladném kladnému kladných kladným kladnými
+28	4728	belgický	belgickou belgická belgické belgického belgickém belgickému belgických belgickým belgickými belgičtí
+29	4729	vídat	nevídanou nevídaná nevídané nevídaného nevídaný nevídaných nevídaným nevídám vídají vídal vídala vídali vídá vídám vídáme vídáte
+30	4730	hostitel	hostitele hostitelem hostiteli hostitelka hostitelkou hostitelky hostitelskou hostitelská hostitelské hostitelského hostitelském hostitelský hostitelských hostitelským hostitelé hostitelů hostitelům
+31	4731	smluvní	smluvních smluvního smluvním smluvními smluvně
+32	4732	námitka	námitce námitek námitkami námitkou námitku námitky námitkách námitkám
+33	4733	grant	grantem grantu granty grantů
+34	4734	ostře	nejostřeji ostřeji
+35	4735	klec	klece kleci klecí klecích
+36	4736	poprosit	poprosil poprosila poprosili poproste poprosí poprosím poprosíme
+37	4737	kreativní	kreativních kreativního kreativním kreativními kreativně kreativnější
+38	4738	zabavit	zabaven zabavena zabaveno zabaveny zabavení zabavením zabavený zabavil zabavila zabavili zabavilo zabavily zabavovat zabavování zabavuje zabavují zabaví zabavíte
+39	4739	programový	programovou programová programové programového programovém programovému programových programovým programovými
+40	4740	formace	formacemi formaci formací formacích formacím
+41	4741	manželský	manželskou manželská manželské manželského manželském manželskému manželských manželským manželskými
+42	4742	kontrakt	kontraktech kontraktem kontraktu kontrakty kontraktů
+43	4743	cestovatel	cestovatele cestovatelem cestovateli cestovatelka cestovatelský cestovatelé cestovatelů cestovatelům
+44	4744	sklenice	sklenic sklenicemi sklenici sklenicí sklenicích sklenička
+45	4745	ovzduší	ovzduším
+46	4746	týdeník	týdeníkem týdeníku týdeníky týdeníků
+47	4747	lampa	lamp lampami lampička lampou lampu lampy lampách lampě
+48	4748	raný	nejranější nejranějších ranou raná rané raného raném raní raných raným raně
+49	4749	masakr	masakrech masakrem masakru masakry masakrů masakrům
+50	4750	špína	špínou špínu špíny špíně
+51	4751	stavebnictví	
+52	4752	výjimečně	
+53	4753	wifi	
+54	4754	devadesátý	devadesátá devadesáté devadesátém devadesátých
+55	4755	hovězí	hovězích hovězího hovězím hovězímu
+56	4756	válec	válce válcem válci válcích válců váleček válečkem válečku válečky válečků
+57	4757	nadcházející	nadcházejících nadcházejícího nadcházejícím nadcházejícími nadcházejícímu
+58	4758	motýl	motýla motýlci motýlek motýlem motýli motýlka motýlkem motýlku motýlky motýly motýlí motýlích motýlů motýlům
+59	4759	přísně	nejpřísněji přísněji
+60	4760	bordel	bordelem bordelu bordely bordelů
+61	4761	odlišit	odlišeny odlišení odlišil odlišila odlišili odlišoval odlišovala odlišovalo odlišovaly odlišovat odlišuje odlišují odlišující odliší
+62	4762	pečovat	pečoval pečovala pečovali pečovaly pečováno pečování pečuj pečuje pečujeme pečujete pečuješ pečuji pečujte pečují pečující
+63	4763	předloha	předloh předlohami předlohou předlohu předlohy předloze
+64	4764	výroční	výročních výročního výročním
+65	4765	melodie	melodiemi melodii melodií melodiích melodiím
+66	4766	ukazatel	ukazatele ukazatelem ukazateli ukazatelé ukazatelích ukazatelů
+67	4767	instrukce	instrukcemi instrukci instrukcí instrukcích instrukcím
+68	4768	legislativní	legislativních legislativního legislativním legislativními legislativnímu legislativně
+69	4769	sukně	sukni sukní sukních sukněmi sukýnky
+70	4770	zvon	zvonech zvonem zvonu zvony zvonů
+71	4771	lebka	lebce lebek lebkami lebkou lebku lebky
+72	4772	ořech	ořechu ořechy ořechů
+73	4773	titulní	titulních titulního titulním
+74	4774	velikonoční	velikonočních velikonočního velikonočním velikonočními
+75	4775	intervence	intervencemi intervenci intervencí intervencích intervencím
+76	4776	kazit	kaz kaze kazem kazil kazila kazili kazilo kazily kazu kazy kazí kazím kazů kažení
+77	4777	udat	udal udala udali udá udání udáním udávat udává
+78	4778	vpředu	vepředu
+79	4779	volejbal	volejbale volejbalem volejbalovou volejbalová volejbalové volejbalového volejbalovém volejbalový volejbalových volejbalovým volejbalu
+80	4780	mariánský	mariánskou mariánská mariánské mariánského mariánském mariánských mariánským
+81	4781	památkový	památkovou památková památkové památkového památkovém památkových památkovým
+82	4782	beton	betonech betonem betonu betony betonů
+83	4783	čelní	čelních čelního čelním čelními čelnímu čelně
+84	4784	zadání	zadáním
+85	4785	poctivý	poctivou poctivá poctivé poctivého poctivém poctivému poctiví poctivých poctivým poctivými poctivější
+86	4786	radikál	radikála radikálem radikálové radikály radikálů radikálům
+87	4787	vynález	vynálezech vynálezem vynálezu vynálezy vynálezů vynálezům
+88	4788	ego	eg ega egem egu egy
+89	4789	muzikant	muzikanta muzikantem muzikanti muzikantka muzikantovi muzikanty muzikantů muzikantům
+90	4790	pavilon	pavilonech pavilonem pavilonu pavilony pavilonů
+91	4791	tečka	tečce teček tečkami tečkou tečku tečky
+92	4792	pečivo	pečiva pečivem pečivu
+93	4793	interval	intervalech intervalem intervalu intervaly intervalů
+94	4794	hraniční	hraničních hraničního hraničním hraničními hraničnímu
+95	4795	dívčí	dívčích dívčího dívčím dívčími
+96	4796	zásuvka	zásuvce zásuvek zásuvkami zásuvkou zásuvku zásuvky zásuvkách
+97	4797	beseda	besed besedou besedu besedy besedách besedě
+98	4798	drtivý	drtivou drtivá drtivé drtivého drtivém drtivému drtivým drtivě
+99	4799	námořnictvo	námořnictva námořnictvem námořnictvu
+100	4800	odpůrce	odpůrcem odpůrci odpůrců odpůrcům odpůrkyně

@@ -1,0 +1,100 @@
+1	101	myslet	myslel myslela mysleli myslelo myslely mysleme myslete mysli myslil myslí myslící myslím myslíme myslíte myslíš myšlen myšlena myšleno myšleny myšlení myšlením nemyslel nemyslet nemysli nemyslím
+2	102	moc	mocí
+3	103	proč	
+4	104	nějaký	nějací nějakou nějaká nějaké nějakého nějakém nějakému nějakých nějakým nějakýma nějakými ňáký
+5	105	takový	takovejch takovou taková takové takového takovém takovému takoví takových takovýho takovým takovýma takovými
+6	106	někdo	někoho někom někomu někým
+7	107	asi	
+8	108	jejich	
+9	109	její	jejích jejího jejím jejíma jejími jejímu
+10	110	strana	str stran stranami stranou stranu strany stranách stranám straně
+11	111	čas	čase časech časem časovou časová časové časového časovém časovému časový časových časovým časovými času časy časů časům
+12	112	město	měst města městech městem městečka městečko městu městy městě městům
+13	113	váš	vaše vašeho vašem vašemu vaši vašich vašim vašima vašimi vaší vaším
+14	114	sám	sama sami samo samou samu samy samé samého samém samému samých samým samými
+15	115	kdy	
+16	116	dobře	lépe líp nejlépe nejlíp
+17	117	malý	male malinkatou malinkatá malinkaté malinkatý malinká malinké malinký malou malá malé malého malém malému malí malých malým malýma malými menší menších menšího menším menšími menšímu nejmenší
+18	118	přijít	nepřijde nepřijdete nepřijdou nepřišel nepřišla nepřišli nepřišlo přijde přijdeme přijdete přijdeš přijdou přijdu přijď přijďte přišel přišla přišli přišlo přišly
+19	119	společnost	společenskou společensky společenská společenské společenského společenském společenskému společenský společenských společenským společenskými společenští společnostech společnostem společnosti společnostmi společností
+20	120	dnes	
+21	121	či	
+22	122	věc	věcech věcem věci věciček věcička věcičku věcičky věcmi věcí
+23	123	škola	škol školami školce škole školek školička školka školkou školku školky školkách školou školu školy školách školám
+24	124	takže	
+25	125	no	
+26	126	udělat	neudělal neudělala neudělalo neudělá neudělám udělají udělal udělala udělali udělalo udělaly udělané udělaný udělej udělejme udělejte udělá udělám uděláme udělán udělána uděláno udělány udělání uděláte uděláš
+27	127	však	šak
+28	128	díky	
+29	129	nad	nade
+30	130	již	
+31	131	poslední	nejposlednější neposlední posledních posledního posledním posledními poslednímu posledně
+32	132	jenž	jehož jejž jemuž jež jichž jimiž jimž jímž jíž nichž nimiž nimž niž nímž níž něhož nějž němuž němž něž
+33	133	tři	třech třem třema třemi tří
+34	134	pod	pode
+35	135	třeba	třebas
+36	136	jestli	
+37	137	žena	žen ženami ženina ženo ženou ženskou žensky ženské ženského ženském ženskému ženský ženských ženským ženskýma ženskými ženu ženuška ženy ženách ženám ženě žínka žínku žínky
+38	138	žádný	žádnou žádná žádné žádného žádném žádnému žádní žádných žádným žádnými
+39	139	země	zemi zemskou zemská zemské zemského zemském zemskému zemský zemských zemským zemskými zemí zemích zemím zeměmi
+40	140	právě	
+41	141	tady	
+42	142	všechno	
+43	143	tedy	teda
+44	144	vysoký	nejvyšší nejvyšších nejvyššího nejvyšším nejvyššími nejvyššímu nejvýš nejvýše vysoce vysocí vysoko vysokou vysoké vysokého vysokém vysokému vysokých vysokým vysokými vyšší vyšších vyššího vyšším vyššími vyššímu výš
+45	145	problém	problémech problémem problému problémy problémů problémům
+46	146	ke	
+47	147	velmi	
+48	148	jaký	jací jakou jaká jaké jakého jakém jakému jakých jakým jakýma jakými
+49	149	část	částech částem části částmi částí
+50	150	cena	cen cenami cenou cenu ceny cenách cenám ceně
+51	151	najít	najde najdeme najdete najdeš najdi najdou najdu najděte najit našel našla našli našlo našly nenajde nenajdete nenajdou nenašel nenašla nenašli nenašly
+52	152	přes	přese
+53	153	cesta	cest cestami cestička cesto cestou cestu cesty cestách cestám cestě
+54	154	proti	
+55	155	proto	
+56	156	některý	některou některá některé některého některém některému některých některým některýma některými někteří
+57	157	hodně	nejvíc nejvíce
+58	158	nikdy	
+59	159	muž	muže mužem muži mužova mužovi mužové mužích mužík mužíčci mužíček mužíčka mužů mužům mužův
+60	160	nikdo	nikoho nikom nikomu nikým
+61	161	hrát	hraj hraje hrajeme hrajete hraješ hraji hrajou hrajte hraju hrají hrající hrajících hrané hraní hraním hraný hrej hrál hrála hráli hrálo hrály hrána hráno hrány nehraje nehrají nehrál nehráli
+62	162	kdyby	kdybych kdybychom kdybys kdybyste
+63	163	konec	konce koncem konci koncovou koncová koncové koncového koncovém koncovému koncoví koncový koncových koncovým koncovými koncích konců koncům konečky
+64	164	několik	několika
+65	165	například	např
+66	166	případ	případe případech případem případová případové případových případu případy případě případů případům
+67	167	hra	her herní herních herního herním herními hernímu hrachu hrami hrou hru hry hrách hrám hře hříček hříčka hříčkami hříčkou hříčku hříčky
+68	168	kvůli	
+69	169	zde	
+70	170	hlavní	hlavních hlavního hlavním hlavními hlavnímu nejhlavnější
+71	171	nechat	nech nechají nechal nechala nechali nechalo nechaly nechej nechejme nechejte nechme nechte nechá nechám necháme necháte nechávat nechává necháš nenech nenechají nenechal nenechala nenechali nenechalo nenechaly nenechat nenechejte nenechme nenechte nenechá nenechám nenecháme nenecháte nenecháš
+72	172	všichni	všici
+73	173	dům	dome domech domek domem domeček domečkem domečku domečky domečků domku domovní domovních domovního domovním domovními domu domy domě domům
+74	174	rodina	rodin rodinami rodince rodinka rodinkou rodinku rodinky rodinnou rodinná rodinné rodinného rodinném rodinnému rodinní rodinný rodinných rodinným rodinnými rodinně rodino rodinou rodinu rodiny rodinách rodinám rodině
+75	175	vůbec	
+76	176	tu	
+77	177	pán	pan pana pane panu pána pánech pánem páni pánovi pánové pánskou pánská pánské pánského pánském pánský pánských pánským pánskými pánu pány pánů pánům pánův
+78	178	vláda	vlád vládami vládní vládních vládního vládním vládními vládnímu vládou vládu vlády vládách vládám vládě
+79	179	ano	
+80	180	stejně	
+81	181	měsíc	měsíce měsícem měsíci měsících měsíců měsícům měsíček měsíčku měsíčkách měsíčků měsíční měsíčních měsíčního měsíčním měsíčními měsíčnímu měsíčně
+82	182	což	čehož čemuž čemž čímž
+83	183	možná	
+84	184	pouze	
+85	185	čekat	nečekají nečekal nečekali nečeká čekají čekající čekajících čekal čekala čekali čekalo čekaly čekané čekej čekejte čeká čekám čekáme čekání čekáním čekáte čekáš
+86	186	zase	zas
+87	187	vlastní	nejvlastnější vlastních vlastního vlastním vlastníma vlastními vlastnímu
+88	188	peníze	peněz penězi penězích penězům peněžní peněžních peněžního peněžním peněžními
+89	189	potřebovat	nepotřeboval nepotřebuje nepotřebuji nepotřebují potřeboval potřebovala potřebovali potřebovalo potřebovaly potřebuje potřebujeme potřebujete potřebuješ potřebuji potřebujou potřebuju potřebují potřebující
+90	190	voda	vod vodami vodička vodní vodních vodního vodním vodními vodnímu vodo vodou vodové vodu vody vodách vodám vodě
+91	191	opravdu	
+92	192	pár	párech párem páru páry párů párům
+93	193	firma	fa firem firmami firmou firmu firmy firmách firmám firmě
+94	194	hodina	hodin hodinami hodince hodinka hodinku hodinou hodinovou hodinová hodinové hodinového hodinovém hodinový hodinových hodinovým hodinu hodinách hodinám hodině
+95	195	prostě	
+96	196	týden	tejden týdenní týdenních týdenního týdenním týdne týdnech týdnem týdnu týdny týdnů týdnům
+97	197	systém	systémech systémem systému systémy systémů systémům
+98	198	film	filmech filmem filmu filmy filmů filmům
+99	199	vypadat	nevypadala nevypadá vypadají vypadající vypadal vypadala vypadali vypadalo vypadaly vypadá vypadám vypadáme vypadáte vypadávat vypadáš
+100	200	ruka	ruce ruk rukama rukami rukou ruku ruky rukách rukám ručiček ručička ručičkama ručičkami ručičkou ručičku ručičky ručka ručku ručky ruční ručních ručního ručním ručními ručnímu

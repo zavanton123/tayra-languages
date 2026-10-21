@@ -1,0 +1,100 @@
+1	201	získat	nezískal nezískala nezískali nezískaly nezíská získají získal získala získali získalo získaly získané získaný získej získejte získá získám získáme získán získána získáno získány získání získáním získáte získávat získává získáš
+2	202	skupina	skupin skupinami skupinek skupinka skupinku skupinky skupinkách skupinou skupinovou skupinová skupinové skupinového skupinovém skupinový skupinových skupinovým skupinově skupinu skupiny skupinách skupinám skupině
+3	203	řada	řad řadami řadou řadová řadové řadu řady řadách řadám řadě řadů
+4	204	žít	nežije nežijí nežil žij žije žijeme žijete žiješ žiji žijme žijou žijte žiju žijí žijící žijících žijícího žijícím žijícími žijícímu žil žila žili žilo žily žit žita žito žití žitím žitě žíti
+5	205	jo	
+6	206	mladý	ml mlada mladej mladi mladičkou mladičké mladičký mladou mlady mladá mladé mladého mladém mladému mladí mladých mladým mladýma mladými mladě mladší mladších mladšího mladším mladšími mladšímu mlád nejmladší nejmladších nejmladšího nejmladším nejmladšími nejmladšímu
+7	207	republika	republice republik republikami republikou republikovou republiková republikové republikového republikovém republikový republikových republikovým republiku republiky republikách
+8	208	auto	aut auta aute autech autem autu auty autíček autíčka autíčkem autíčko autíčku autíčky autě autům
+9	209	mnoho	mnoha nejvíc nejvíce
+10	210	kniha	knih knihami knihou knihu knihy knihách knihám knize knížce knížek knížečka knížka knížkami knížkou knížku knížky knížkách knížkám
+11	211	dokázat	dokazovat dokazuje dokaž dokažte dokázal dokázala dokázali dokázalo dokázaly dokázána dokázáno dokáže dokážeme dokážete dokážeš dokáži dokážou dokážu dokáží nedokázal nedokázala nedokázali nedokázalo nedokázaly nedokáže nedokážeme nedokážou nedokážu nedokáží
+12	212	ostatní	ostatních ostatního ostatním ostatníma ostatními ostatnímu ostatně
+13	213	oblast	oblastech oblastem oblasti oblastmi oblastí
+14	214	chvíle	chvil chvilce chvilek chviličku chvilka chvilkami chvilkou chvilku chvilky chvilkách chvílemi chvíli chvílí chvílích chvílím
+15	215	starý	nejstarší nejstarších nejstaršího nejstarším nejstaršími nejstaršímu nestará stara starej staro starou stary stará staré starého starém starému starých starýho starým starými staře stařičký staří stár
+16	216	stále	
+17	217	dost	dosti
+18	218	často	nejčastěji častěji
+19	219	jenom	
+20	220	trochu	
+21	221	slovo	slov slova slovech slovem slovu slovy slovíček slovíčka slovíčkem slovíčko slovíčky slově slovům slůvka slůvko
+22	222	jediný	jedinej jedinný jedinou jediná jediné jediného jediném jedinému jediní jediných jediným jedinými
+23	223	hlava	hlav hlavami hlavinka hlavičce hlaviček hlavička hlavičkami hlavičkou hlavičku hlavičky hlavo hlavou hlavovou hlavová hlavové hlavového hlavový hlavových hlavovým hlavu hlavy hlavách hlavám hlavě
+24	224	brzy	brzo dřív nejdřív nejdříve
+25	225	oba	obou obě oběma
+26	226	ať	hatí hatě hať
+27	227	tým	týmech týmem týmová týmové týmu týmy týmů týmům
+28	228	pořád	
+29	229	jméno	jmen jména jménech jménem jménu jmény jméně jménům
+30	230	dlouhý	delší delších delšího delším delšími delšímu dlouhou dlouhá dlouhé dlouhého dlouhém dlouhému dlouhých dlouhým dlouhýma dlouhými dlouzí nejdelší nejdelších nejdelšího nejdelším
+31	231	snažit	nesnažil nesnažila nesnaží nesnažíte snaž snažení snažením snažil snažila snažili snažilo snažily snažme snažte snaží snažíc snažící snažících snažím snažíme snažíte snažíš
+32	232	patřit	nepatřil nepatřilo nepatří patře patři patřil patřila patřili patřilo patřily patří patřící patřících patřícího patřícím patřícímu patřím patříme patříte patříš
+33	233	různý	nejrůznější nejrůznějších nejrůznějšího nejrůznějším nejrůznějšími různou různá různé různého různém různému různí různých různým různýma různými různě
+34	234	jednou	
+35	235	pracovat	nepracoval nepracovala nepracuje pracoval pracovala pracovali pracovalo pracovaly pracování pracuj pracuje pracujeme pracujete pracuješ pracuji pracujme pracujou pracujte pracuju pracují pracující pracujících pracujícího pracujícím
+36	236	špatný	horší horších horšího horším horšími horšímu nejhorší nejhorších nejhoršího nejhorším nejhoršími nejhoršímu špatnou špatná špatné špatného špatném špatnému špatní špatných špatnýho špatným špatnými
+37	237	právo	neprávem práv práva právech právem právu právy právům
+38	238	možný	možno možnou možné možného možném možnému možní možných možným možnými možně
+39	239	během	
+40	240	hned	
+41	241	dojít	docházet dochází dojde dojdeme dojdete dojdeš dojdi dojdou dojdu dojděte došel došla došli došlo došly nedojde nedošli nedošlo
+42	242	zápas	zápase zápasech zápasem zápasu zápasy zápasů zápasům
+43	243	hledat	hledaje hledají hledajíc hledajíce hledající hledajících hledajícího hledal hledala hledali hledalo hledaly hledanou hledaná hledané hledaného hledanému hledaní hledaný hledaných hledaným hledej hledejme hledejte hledá hledám hledáme hledán hledány hledání hledáním hledáte hledáš nehledali nejhledanější nejhledanějších nejhledanějšího nejhledanějším
+44	244	dlouho	déle dýl nedlouho nejdéle
+45	245	kolem	kol
+46	246	zákon	zákona zákonech zákonem zákonu zákony zákoně zákonů zákonům
+47	247	stejný	stejno stejnou stejná stejné stejného stejném stejnému stejní stejných stejným stejnými
+48	248	vrátit	nevrátil nevrátila nevrátili nevrátit nevrátí vrať vraťme vraťte vrácen vrácena vráceni vráceno vráceny vrácení vrácením vrácený vrátil vrátila vrátili vrátilo vrátily vrátí vrátím vrátíme vrátíte vrátíš
+49	249	služba	službami službičku službou službu služby službách službám službě služeb
+50	250	skvělý	nejskvělejší skvěle skvělou skvělá skvělé skvělého skvělém skvělému skvělí skvělých skvělým skvělými
+51	251	americký	americkou americky americká americké amerického americkém americkému amerických americkým americkými američtí
+52	252	člen	člena člence členech členek členem členka členkami členkou členku členky členkám členovi členové členskou členská členské členského členském členský členských členským členskými členu členy členů členům
+53	253	zpráva	zpráv zprávami zprávička zprávou zprávu zprávy zprávách zprávám zprávě
+54	254	krásný	krásno krásnou krásná krásné krásného krásném krásnému krásní krásných krásným krásnýma krásnými krásně krásnější krásnějšího krásnějším nejkrásněji nejkrásnější nejkrásnějších nejkrásnějšího nejkrásnějším nejkrásnějšími
+55	255	znát	neznají neznal neznala neznali nezná neznám neznáme neznáte znají znal znala znali znalo znaly zná znám známe znáte znáš
+56	256	válka	válce válek válečnou válečná válečné válečného válečném válečnému váleční válečný válečných válečným válečnými válkami válkou válku války válkách válkám
+57	257	pravda	pravd pravdami pravdou pravdová pravdu pravdy pravdách pravdě
+58	258	rozhodnout	nerozhodl nerozhodla nerozhodne rozhodl rozhodla rozhodli rozhodlo rozhodly rozhodne rozhodneme rozhodnete rozhodneš rozhodni rozhodnou rozhodnu rozhodnut rozhodnuta rozhodnuti rozhodnuto rozhodnuty rozhodnutá rozhodnuté rozhodnutého rozhodnutý rozhodněte rozhodovat rozhoduje
+59	259	informace	informacemi informaci informací informacích informacím
+60	260	vést	nevede nevedl nevedla nevedlo nevedly ved veda vede vedeme veden vedena vedeni vedeno vedeny vedete vedeš vedl vedla vedli vedlo vedly vedou vedu veď veďte vésti
+61	261	někdy	
+62	262	sem	
+63	263	snad	
+64	264	důležitý	důležitou důležitá důležité důležitého důležitém důležitému důležití důležitých důležitým důležitými důležitě důležitější důležitějších důležitějšího důležitějším důležitějšími nejdůležitější nejdůležitějších nejdůležitějšího nejdůležitějším nejdůležitějšími nejdůležitějšímu
+65	265	počet	počtech počtem počtu počty počtů počtům
+66	266	minuta	minut minutami minutek minutka minutku minutky minutou minutu minuty minutách minutám minutě
+67	267	otázka	otázce otázek otázkami otázkou otázku otázky otázkách otázkám
+68	268	plný	pln plna plnej plni plno plnou plny plná plné plného plném plnému plní plných plným plnýma plnými plně plnější
+69	269	kolo	kol kola kole kolech koleček kolečka kolečkem kolečko kolečku kolečky kolečkách kolou kolové kolový kolu koly kolům
+70	270	psát	nepiš nepíše piš pište psal psala psali psalo psaly psanou psaná psané psaného psaném psanému psaní psaním psaníčka psaníčko psaný psaných psaným psanými psán psána psáno psány psával píše píšeme píšete píšeš píši píšou píšu píší píšící
+71	271	projekt	projektech projektem projektu projekty projektů projektům
+72	272	zůstat	nezůstal nezůstala nezůstalo nezůstaly nezůstane nezůstanou zůstal zůstala zůstali zůstalo zůstaly zůstane zůstaneme zůstanete zůstaneš zůstanou zůstanu zůstaň zůstaňme zůstaňte zůstávat zůstává
+73	273	opět	
+74	274	vlastně	
+75	275	úplně	
+76	276	akce	akcemi akci akcí akcích akcím akční akčních akčního akčním akčními akčnímu akčně akčnější
+77	277	důvod	důvodech důvodem důvodu důvody důvodů důvodům
+78	278	mluvit	mluv mluvenou mluvená mluvené mluveného mluveném mluvenému mluvení mluvený mluvených mluveným mluvil mluvila mluvili mluvilo mluvily mluviti mluvme mluvte mluví mluvící mluvících mluvím mluvíme mluvíte mluvíš mluvě nemluvil nemluvili nemluví nemluvím
+79	279	věřit	nevěřil nevěřila nevěřili nevěřilo nevěřit nevěří nevěřím nevěříme věř věře věření věřil věřila věřili věřilo věřily věřme věřte věří věřící věřících věřícího věřícím věřícími věřícímu věřím věříme věříte věříš
+80	280	výsledek	výsledcích výsledkem výsledku výsledky výsledků výsledkům
+81	281	jet	jede jedeme jedete jedeš jedou jedoucí jedoucího jedoucím jedu jel jela jeli jelo jely jeto jeď jeďte nejede nejel nejela nejeli nejet nepojede nepojedu pojede pojedeme pojedete pojedeš pojedou pojedu
+82	282	změna	změn změnami změnou změnu změny změnách změnám změně
+83	283	jinak	nejinak
+84	284	večer	večera večere večerech večerem večerní večerních večerního večerním večerními večernímu večeru večery večerů
+85	285	vždy	
+86	286	evropský	evropskou evropsky evropská evropské evropského evropském evropskému evropských evropským evropskými evropští
+87	287	skončit	neskončil neskončila neskončilo neskončí skončena skončeno skončené skončení skončením skončený skončete skonči skončil skončila skončili skončilo skončily skončí skončím skončíme skončíte skončíš
+88	288	prezident	president prezidenta prezidente prezidentem prezidenti prezidentka prezidentky prezidentova prezidentovi prezidentu prezidenty prezidentů prezidentům prezidentův
+89	289	politika	politice politici politicích politik politikami politikem politikou politikovi politikové politiku politiky politikách politiků politikům politička političkou političku političky
+90	290	určitě	
+91	291	používat	nejpoužívanější nejpoužívanějších nejpoužívanějším nepoužívají nepoužíval nepoužívaly nepoužívat nepoužívá používají používající používal používala používali používalo používaly používanou používaná používané používaného používaném používaní používaný používaných používaným používanými používej používejte používá používám používáme používán používána používáni používáno používány používání používáním používáte používáš
+92	292	známý	nejznámější nejznámějších nejznámějšího nejznámějším nejznámějšími nejznámějšímu znám známa známi známo známou známy známá známé známého známém známému známí známých známým známými známější známějších známějšího známějším
+93	293	přesně	nejpřesněji přesněji
+94	294	čtyři	čtyry čtyř čtyřech čtyřem čtyřma čtyřmi
+95	295	noc	noci nocí nocích
+96	296	centrum	center centra centrech centrem centru centry centrům
+97	297	král	krále králem králi králova královen královi královna královnami královnin královnina královninu královniny královnině královno královnou královnu královny královně královo královskou královská královské královského královském královskému královský královských královským královskými královu královy králová králové králově královští králích králů králům králův
+98	298	volba	volbami volbou volbu volby volbách volbám volbě voleb
+99	299	dál	dáli
+100	300	samozřejmě	

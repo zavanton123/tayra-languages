@@ -1,0 +1,100 @@
+1	301	pomoct	nepomohl nepomohla nepomohlo nepomohou nepomůže pomoci pomohl pomohla pomohli pomohlo pomohly pomohou pomohu pomoz pomozme pomozte pomoženo pomůže pomůžeme pomůžete pomůžeš pomůžou pomůžu
+2	302	možnost	možnostech možnostem možnosti možnostmi možností
+3	303	většina	většinovou většinová většinové většinového většinovému většinový většinových většinovým většinu většiny většině
+4	304	číslo	čísel čísla čísle číslech číslem číslu čísly číslům
+5	305	stránka	stránce stránek stránkami stránkou stránku stránky stránkách stránkám
+6	306	alespoň	aspoň
+7	307	hlavně	
+8	308	především	
+9	309	prosit	pros prose prosil prosila prosili prosily proste prosí prosící prosím prosíme
+10	310	vzít	nevezmeme nevzal nevzala nevzali nevzaly vem vezme vezmeme vezmete vezmeš vezmi vezmou vezmu vezměme vezměte vzal vzala vzali vzalo vzaly vzat vzata vzati vzato vzaty vzatý vzetí
+11	311	státní	státních státního státním státními státnímu státně
+12	312	základní	nejzákladnější nejzákladnějších nejzákladnějším základních základního základním základními základnímu základně
+13	313	způsob	způsobech způsobem způsobu způsoby způsobů způsobům
+14	314	program	programech programem programu programy programů programům
+15	315	dávat	dávají dávající dával dávala dávali dávalo dávaly dávej dávejte dává dávám dáváme dáván dávána dáváno dávány dávání dáváním dáváte dáváš nedávají nedával nedávala nedávali nedává
+16	316	přítel	nejpřátelštější přátel přátele přáteli přátelskou přátelsky přátelská přátelské přátelského přátelském přátelskému přátelský přátelských přátelským přátelskými přátelé přátelích přátelští přátelštější přátelům přítele přítelem příteli přítelkyni přítelkyní přítelkyně přítelkyněmi přítelkyň přítelovi
+17	317	platit	neplatil neplatilo neplatily neplatí placen placena placeni placeno placenou placeny placená placené placeného placeném placení placením placený placených placeným placenými platil platila platili platilo platily platí platící platím platíme platíte platíš plať plaťte
+18	318	milovat	miloval milovala milovali milovaly milovanou milovaná milované milovaného milovaném milovanému milovaní milovaný milovaných milovaným milovanými milován milována milováni milování milováním miluj miluje milujeme milujete miluješ miluji milujme milujou milujte miluju milují milující milujících milujícího milujícím milujícími nejmilovanější nemiloval nemiluje
+19	319	znamenat	neznamenala neznamená znamenají znamenající znamenal znamenala znamenali znamenalo znamenaly znamená znamenáš
+20	320	hráč	hráče hráčem hráči hráčka hráčky hráčích hráčů hráčům hráčův
+21	321	spolu	
+22	322	líbit	lib líbil líbila líbili líbilo líbily líbí líbím líbíte líbíš nelíbil nelíbila nelíbilo nelíbí zalíbil zalíbit
+23	323	oko	oka okem oku oky oček oči očima očka očkem očko očku očky očí očích očím voko voči
+24	324	kraj	kraje krajem kraji krajích krajíček krajů krajům
+25	325	kilometr	kilometrech kilometrem kilometru kilometry kilometrů kilometrům km
+26	326	ruský	ruskou rusky ruská ruské ruského ruském ruskému ruských ruským ruskými ruští
+27	327	policie	policejní policejních policejního policejním policejními policejnímu policejně policii policií
+28	328	síla	sil silami silou silové silový silách silám síle sílou sílu síly
+29	329	osobní	nejosobnější osobních osobního osobním osobními osobnímu osobně osobnější
+30	330	rada	rad radami rado radou radovi radová radu rady radách radám radě radů
+31	331	stačit	nestačil nestačila nestačili nestačí stačil stačila stačili stačilo stačily stačí stačím stačíme stačíte
+32	332	rychle	nejrychleji rychleji
+33	333	představit	představ představen představena představeni představeno představeny představenému představení představeních představením představeními představený představil představila představili představilo představily představme představte představí představím představíme představíte
+34	334	sociální	sociálních sociálního sociálním sociálními sociálnímu sociálně
+35	335	osoba	osob osobami osobou osobu osoby osobách osobám osobě
+36	336	typ	type typech typem typový typu typy typů typům
+37	337	ulice	ul ulic ulicemi ulici ulicí ulicích ulicím uličce uliček ulička uličkami uličkou uličku uličky uličkách uliční
+38	338	napsat	napiš napište napsal napsala napsali napsalo napsaly napsán napsána napsáno napsány napsání napíše napíšeme napíšete napíšeš napíši napíšou napíšu napíší nenapsal
+39	339	zjistit	nezjistil nezjistí zjisti zjistil zjistila zjistili zjistilo zjistily zjistí zjistím zjistíme zjistíte zjistíš zjistěte zjištěn zjištěna zjištěno zjištěny zjištěné zjištění zjištěních zjištěním zjištěními zjištěný zjišťovat zjišťuje
+40	340	ráno	ranní ranních ranního ranním ranními rannímu rán ránem
+41	341	podívat	nepodíval nepodívali podívají podíval podívala podívali podívalo podívaly podívej podívejme podívejte podívá podívám podíváme podívání podíváte podíváš
+42	342	článek	článcích článeček článkem článku články článků článkům
+43	343	nakonec	
+44	344	zatím	
+45	345	silný	nejsilněji nejsilnější nejsilnějších nejsilnějšího nejsilnějším nejsilnějšími nejsilnějšímu silnej silnou silná silné silného silném silnému silní silných silným silnými silně silněji silnější silnějších silnějšího silnějším silnějšími silnějšímu
+46	346	fakt	fakta faktech faktem faktu fakty faktů faktům
+47	347	objevit	neobjevil neobjevila neobjevili neobjevily objev objevech objevem objeven objevena objeveni objeveno objeveny objeveného objevení objevený objevil objevila objevili objevilo objevily objevovat objevte objevu objevují objevy objeví objevím objevíme objevíte objevíš objevů objevům
+48	348	změnit	nezměnil nezměnila nezměnilo nezmění nezměněné změnil změnila změnili změnilo změnily změní změním změníme změníte změníš změněn změněna změněno změněny změněný změň změňme změňte
+49	349	tělo	tílka tílko tílku těl těla těle tělech tělem tělu těly tělíčko tělům
+50	350	chodit	chodil chodila chodili chodilo chodily chodí chodící chodím chodíme chodíte chodíš chození chozením choď choďte nechodil nechodit nechodí nechodím nechoď nechoďte
+51	351	připravit	připrav připraven připravena připraveni připraveno připravenou připraveny připravená připravené připraveného připraveném připravenému připravení připravený připravených připraveným připravenými připravenější připravil připravila připravili připravilo připravily připravme připravte připraví připravím připravíme připravíte připravíš
+52	352	stav	stavech stavem stavová stavové stavového stavový stavových stavu stavy stavů stavům
+53	353	jednat	jednají jednající jednajících jednal jednala jednali jednalo jednaly jednej jednejte jedná jednám jednáme jednáno jednáte nejednala nejednali nejednalo nejedná
+54	354	soutěž	soutěže soutěžemi soutěži soutěží soutěžích soutěžím
+55	355	vztah	vztahem vztahu vztahy vztahů vztahům vztazích
+56	356	vyjít	nevyjde nevyšel nevyšla nevyšlo vycházet vychází vyjde vyjdeme vyjdete vyjdi vyjdou vyjdu vyjděte vyšel vyšla vyšli vyšlo vyšly
+57	357	pět	pěje pějí pěl pěli pěn pěti
+58	358	úřad	úřadech úřadem úřadu úřady úřadě úřadů úřadům
+59	359	děkovat	děkoval děkovala děkovali děkování děkuje děkujeme děkuji děkujme děkujte děkuju děkují
+60	360	lze	
+61	361	navíc	
+62	362	třetí	třetích třetího třetím třetími třetímu
+63	363	černý	nejčernější černa černej černo černou černá černé černého černém černému černí černých černým černýma černými černě černější
+64	364	existovat	existoval existovala existovali existovalo existovaly existuje existujeme existuješ existuji existujou existuju existují existující existujících existujícího existujícím existujícími existujícímu neexistoval neexistovala neexistovali neexistovalo neexistovaly neexistuje neexistuješ neexistují
+65	365	holka	holce holek holkami holko holkou holku holky holkách holkám holčičce holčiček holčička holčičkami holčičko holčičkou holčičku holčičky holčičkám
+66	366	fungovat	fungoval fungovala fungovali fungovalo fungovaly fungování fungováním funguje fungujeme fungujete funguji fungujou funguju fungují fungující fungujících fungujícího fungujícím fungujícími nefungoval nefungovaly nefunguje nefungují zafungovat
+67	367	obec	obce obcemi obci obcí obcích obcím
+68	368	prostor	prostora prostorech prostorem prostorovou prostorová prostorové prostorového prostorovém prostorový prostorových prostorovým prostorovými prostorově prostoru prostory prostorách prostorů prostorům
+69	369	takhle	
+70	370	těžký	nejtěžší nejtěžších nejtěžšího nejtěžším nejtěžšími těžce těžcí těžkou těžká těžké těžkého těžkém těžkému těžkých těžkým těžkými těžší těžších těžšího těžším těžšími
+71	371	celek	celcích celkovou celková celkové celkového celkovém celkovému celkový celkových celkovým celkovými celkově celku celky celků celkům
+72	372	kromě	krom
+73	373	uvést	neuvedl neuvedla neuvedli uved uvede uvedeme uveden uvedena uvedeni uvedeno uvedeny uvedení uvedením uvedete uvedl uvedla uvedli uvedlo uvedly uvedou uvedu uveď uveďme uveďte uvádí uvádět
+74	374	doma	
+75	375	vždycky	
+76	376	pražský	pražskou pražská pražské pražského pražském pražskému pražských pražským pražskými pražští
+77	377	domácí	domácích domácího domácím domácími domácímu
+78	378	brát	ber bere bereme berete bereš berme berou beroucí berte beru bral brala brali bralo braly braní braním braný brán bráni bráno nebere neberou neberu nebral nebrala nebrali nebraly
+79	379	postavit	nepostaví postav postaven postavena postaveni postaveno postavenou postaveny postavená postavené postavení postavením postavený postavil postavila postavili postavilo postavily postavme postavte postaví postavím postavíme postavíte postavíš
+80	380	smrt	smrti smrtí
+81	381	klub	klube klubech klubem klubovou klubová klubové klubového klubovém klubový klubových klubovým klubovými klubu kluby klubů klubům
+82	382	celkem	
+83	383	později	
+84	384	situace	situacemi situaci situací situacích situacím situační situačních situačním
+85	385	původní	původních původního původním původními původnímu původně
+86	386	národní	národních národního národním národními národnímu národně
+87	387	cíl	cíle cílech cílem cíli cílů cílům
+88	388	barva	barev barevnou barevná barevné barevného barevném barevnému barevní barevný barevných barevným barevnými barevně barevnější barvami barvou barvu barvy barvách barvám barvě
+89	389	čína	čínou čínskou čínská čínské čínského čínském čínskému čínský čínských čínským čínskými čínu číny číně čínští číňan číňanka
+90	390	vytvořit	nevytvoří vytvoř vytvořen vytvořena vytvořeni vytvořeno vytvořenou vytvořeny vytvořená vytvořené vytvořeného vytvořeném vytvořenému vytvoření vytvořením vytvořený vytvořených vytvořeným vytvořenými vytvořil vytvořila vytvořili vytvořilo vytvořily vytvořme vytvořte vytvoří vytvořím vytvoříme vytvoříte vytvoříš
+91	391	nejen	
+92	392	přímo	
+93	393	cítit	cítil cítila cítili cítilo cítily cítí cítící cítím cítíme cítíte cítíš cítění cítěním necítil necítila necítí
+94	394	kluk	klouček kloučka kluci klucích kluka klukem klukovi kluku kluky kluků klukům klučík
+95	395	výroba	výrob výrobní výrobních výrobního výrobním výrobními výrobnímu výrobně výrobou výrobu výroby výrobě
+96	396	kolik	kolice kolika koliku koliky
+97	397	základ	základe základech základem základu základy základě základů základům
+98	398	web	webech webem webovou webová webové webového webovém webovému webový webových webovým webovými webu weby webů webům
+99	399	rámec	rámce rámcem rámci rámcový rámcích rámců
+100	400	dále	dáli

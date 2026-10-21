@@ -1,0 +1,100 @@
+1	8401	převrátit	převracet převrátil převrátila převrátili převrátilo převrátily převrátí
+2	8402	poslušnost	poslušnosti poslušností
+3	8403	cvik	cviku cviky cviků
+4	8404	netrpělivý	netrpělivá netrpělivé netrpěliví netrpělivě
+5	8405	prut	proutek proutkem prutem prutu pruty prutů
+6	8406	dohledat	dohledal dohledání dohledávat
+7	8407	předškolní	předškolních předškolního předškolním
+8	8408	oslovovat	oslovovali oslovuje
+9	8409	osvěžit	osvěžení osvěžil osvěžila osvěžte osvěží
+10	8410	joo	
+11	8411	odtamtud	
+12	8412	stavení	staveních stavením
+13	8413	soustrast	soustrasti
+14	8414	utajení	utajením
+15	8415	drzost	drzosti drzostí
+16	8416	vagón	vagónech vagónu vagóny vagóně vagónů
+17	8417	salám	salámem salámu salámy salámů
+18	8418	krátit	krácení krácením krátil krátili krátí
+19	8419	domluva	domluv domluvou domluvu domluvy domluvě
+20	8420	neteř	neteře neteři neteří
+21	8421	proměnlivý	proměnlivou proměnlivá proměnlivé proměnlivého proměnlivém proměnlivých proměnlivým
+22	8422	poklidný	poklidnou poklidná poklidné poklidného poklidném poklidných poklidným
+23	8423	úryvek	úryvkem úryvku úryvky úryvků
+24	8424	vernisáž	vernisáže vernisáži vernisáží
+25	8425	ohrada	ohrad ohradou ohradu ohrady ohradách ohradě
+26	8426	pekelný	pekelnou pekelná pekelné pekelného pekelném pekelných pekelným pekelnými
+27	8427	pěstitel	pěstitele pěstitelem pěstiteli pěstitelé pěstitelů pěstitelům
+28	8428	hierarchie	hierarchii hierarchií
+29	8429	katar	katarem katarská katarské katarského katarském katarský kataru
+30	8430	sčítat	sečte sečteme sečteno sečteny sečtou sečtu sečíst sčítá
+31	8431	lákadlo	lákadel lákadla lákadlem lákadly lákadlům
+32	8432	sob	soba sobe sobem sobi soby sobí sobů
+33	8433	nalít	nalil nalili
+34	8434	pěvkyně	pěvce pěvcem pěvci pěvců pěvec pěvkyni pěvkyní
+35	8435	lem	lemech lemem lemu lemy lemů
+36	8436	metodický	metodickou metodická metodické metodického metodických metodickým
+37	8437	choreografie	choreografii choreografií
+38	8438	kamenice	kamenici kamenicí
+39	8439	farní	farních farního farním
+40	8440	křišťálový	křišťálovou křišťálová křišťálové křišťálového křišťálových křišťálovým
+41	8441	prodloužená	prodlouženou
+42	8442	trčet	trčel trčela trčely trčí trčící
+43	8443	sestřih	sestřihem sestřihu sestřihy
+44	8444	tlumič	tlumiče tlumičem tlumiči tlumičů
+45	8445	švec	ševce ševci ševců švece švecová
+46	8446	virový	virovou virová virové virového virových virovým virovými
+47	8447	nahrávací	nahrávacích nahrávacího nahrávacím
+48	8448	složitost	složitosti složitostí
+49	8449	řídicí	řídicích
+50	8450	sjezdovka	sjezdovce sjezdovek sjezdovkami sjezdovkou sjezdovku sjezdovkách
+51	8451	svěrák	svěráka svěrákem svěrákovi svěráku
+52	8452	vyvarovat	vyvaroval vyvarovali vyvarujeme vyvarujte
+53	8453	doručení	doručením
+54	8454	flétna	fléten flétnou flétnu flétny
+55	8455	rezervní	rezervních rezervního
+56	8456	garance	garanci garancí
+57	8457	žebrák	žebračka žebráci žebráka žebrákem žebrákovi žebráku žebráky žebráků
+58	8458	prostata	prostatou prostatu prostaty prostatě
+59	8459	buddha	buddhou buddhovi buddhu buddhy buddhů
+60	8460	vidina	vidinou vidinu vidiny vidině
+61	8461	dopřát	dopřávat
+62	8462	miniaturní	miniaturních miniaturního miniaturním miniaturními
+63	8463	výluka	výluce výluk výlukou výluku výluky výlukách
+64	8464	výběh	výběhem výběhu výběhy výběhů výbězích
+65	8465	trojnásobný	trojnásobnou trojnásobná trojnásobné trojnásobného trojnásobným
+66	8466	periodikum	periodik periodika periodiku periodikách
+67	8467	pohřešovaný	pohřešovanou pohřešovaná pohřešované pohřešovaného pohřešovaném pohřešovaní pohřešovaných pohřešovaným
+68	8468	vytratit	vytratil vytratila vytratili vytratilo vytratily vytratí vytrácel vytrácela vytrácet
+69	8469	elektroda	elektrod elektrodami elektrodou elektrodu elektrody elektrodě
+70	8470	osudný	osudnou osudná osudné osudného osudným osudnými
+71	8471	podkroví	podkrovím
+72	8472	popadnout	popadl popadla popadne
+73	8473	slovinský	slovinskou slovinská slovinské slovinského slovinském slovinských slovinským slovinští
+74	8474	přívoz	přívoze přívozem přívozu přívozy
+75	8475	vysílačka	vysílačce vysílaček vysílačkami vysílačkou vysílačku vysílačky
+76	8476	krční	krčních krčního krčním
+77	8477	hunt	huntem
+78	8478	brnění	brněním
+79	8479	seznámený	seznámena seznámení
+80	8480	přívěs	přívěsem přívěsu přívěsy přívěsů
+81	8481	hrdinství	hrdinstvím
+82	8482	nádorový	nádorová nádorové nádorového nádorových nádorovým nádorovými
+83	8483	nedorozumění	nedorozuměním
+84	8484	spjatý	spjatou spjatá spjaté spjatého spjatí spjatých
+85	8485	zakládající	zakládajících zakládajícího zakládajícím zakládajícími
+86	8486	kompresor	kompresorem kompresoru kompresory kompresorů
+87	8487	přirozenost	přirozenosti
+88	8488	navodit	navodil navodí navození navozovat navozuje navozují navozující
+89	8489	vysokorychlostní	vysokorychlostních vysokorychlostního vysokorychlostním
+90	8490	všestranný	všestrannou všestranná všestranné všestranného všestranných všestranným všestranně
+91	8491	půlroční	půlročních půlročního půlročním
+92	8492	rovnoměrně	nerovnoměrně rovnoměrněji
+93	8493	pozměnit	pozměnil pozměnila pozměnili pozmění pozměněn pozměněna pozměněny pozměnění pozměněný pozměňovat
+94	8494	tajnost	tajnosti tajností
+95	8495	zjednodušení	zjednodušením
+96	8496	dostačující	nedostačující
+97	8497	bosý	bos bosa bosi boso bosou bosá bosé bosí bosých bosýma
+98	8498	křída	křídou křídu křídy křídě
+99	8499	tíha	tíhou tíhu tíhy tíze
+100	8500	čtrnáctý	čtrnáctou čtrnáctá čtrnácté čtrnáctého čtrnáctém čtrnáctým

@@ -1,0 +1,100 @@
+1	4001	vinice	vinic vinicemi vinici vinicí vinicích viníci viník viníka viníkem viníkovi viníky viníků viníkům
+2	4002	pyšný	pyšnou pyšná pyšné pyšného pyšní pyšných pyšným pyšně
+3	4003	památník	památníkem památníku památníky památníků
+4	4004	představenstvo	představenstev představenstva představenstvem představenstvu
+5	4005	svetr	svetrech svetrem svetru svetry svetrů svetřík svetříku svetříky
+6	4006	alfa	alf alfou alfu alfy alfě
+7	4007	neštěstí	neštěstích neštěstím
+8	4008	člun	člunech člunem člunu čluny člunů člunům
+9	4009	miminko	miminek miminka miminkem miminku miminky
+10	4010	rys	rysa rysech rysem rysi rysu rysy rysí rysů rysům
+11	4011	těhotný	těhotnou těhotná těhotné těhotných těhotným
+12	4012	sériový	sériovou sériová sériové sériového sériovém sériovému sérioví sériových sériovým sériovými sériově
+13	4013	paprsek	paprscích paprskem paprsku paprsky paprsků paprskům
+14	4014	netradiční	netradičních netradičního netradičním netradičními netradičnímu netradičně
+15	4015	využívaný	nejvyužívanější využívanou využívaná využívané využívaného využívaní využívaných využívaným využívanými využíván využívána využívány
+16	4016	organizační	organizačních organizačního organizačním organizačními organizačnímu organizačně
+17	4017	kresba	kresbami kresbou kresbu kresby kresbách kresbám kresbě kreseb
+18	4018	elektronika	elektronice elektronik elektronikou elektroniku elektroniky
+19	4019	krém	krémech krémem krému krémy krémů
+20	4020	spolehlivý	nejspolehlivější nejspolehlivějších nejspolehlivějším spolehlivou spolehlivá spolehlivé spolehlivého spolehlivému spolehliví spolehlivých spolehlivým spolehlivými spolehlivější
+21	4021	trouba	troubo troubou troubové troubu trouby troubě trub
+22	4022	kolektivní	kolektivních kolektivního kolektivním kolektivními kolektivnímu
+23	4023	lyžařský	lyžařskou lyžařská lyžařské lyžařského lyžařském lyžařskému lyžařských lyžařským lyžařskými
+24	4024	pěší	pěších pěšího pěším pěšími pěšímu
+25	4025	orchestr	orchestrech orchestrem orchestru orchestry orchestrů
+26	4026	přimět	přiměje přimějí přiměl přiměla přiměli přimělo přiměly
+27	4027	špinavý	nejšpinavější špinavou špinavá špinavé špinavého špinavém špinaví špinavých špinavým špinavými špinavě špinavější
+28	4028	zkušební	zkušebních zkušebního zkušebním zkušebními zkušebnímu
+29	4029	mýtus	mýtech mýtem mýtu mýty mýtů mýtům
+30	4030	zakoupit	zakoupen zakoupena zakoupeno zakoupeny zakoupil zakoupila zakoupili zakoupilo zakoupily zakoupí zakoupíte
+31	4031	játra	jater játrech játry játrům
+32	4032	podělit	poděl podělil podělila podělili podělily podělte podělí podělím podělíme podělíte
+33	4033	realizovat	realizoval realizovala realizovali realizovalo realizovaly realizování realizuje realizujeme realizují realizující
+34	4034	mládě	mláděte mládětem mláděti mláďat mláďata mláďaty mláďatům
+35	4035	slaný	slanou slaná slané slaného slaném slaných slaným slanými
+36	4036	levice	levici levicí
+37	4037	značit	značen značena značeno značeny značení značený značil značilo značí značící značíme
+38	4038	houby	
+39	4039	rande	
+40	4040	čtyřicet	čtyřiceti
+41	4041	probrat	prober probere probereme proberete proberou proberte proberu probral probrala probrali probralo probraly
+42	4042	liška	lišce lišek liškami liškou liškovi lišková lišku lišky lišák lišáka liščí liščího liščím
+43	4043	ustoupit	neustoupila ustoupil ustoupila ustoupili ustoupilo ustoupily ustoupí ustupovat ustupuje
+44	4044	plášť	plášti pláštích pláštík pláštíkem pláště pláštěm plášťů
+45	4045	edice	edic edici edicí edicích
+46	4046	částice	částic částicemi částici částicové částicový částicí částicích částicím
+47	4047	houba	houbami houbička houbičky houbou houbová houbové houbu houbách houbám houbě hub
+48	4048	personální	personálních personálního personálním personálními personálnímu
+49	4049	smetana	smetanou smetanovi smetanová smetanové smetanový smetanu smetany smetaně smetánce smetánka smetánkou smetánku smetánky
+50	4050	nepřátelský	nepřátelskou nepřátelsky nepřátelská nepřátelské nepřátelského nepřátelském nepřátelskému nepřátelských nepřátelským nepřátelskými nepřátelští
+51	4051	protestovat	protestoval protestovala protestovali protestovalo protestovaly protestuje protestujeme protestuji protestují protestující protestujících
+52	4052	vystřídat	vystřídají vystřídal vystřídala vystřídali vystřídalo vystřídaly vystřídá
+53	4053	citovat	citoval citovala citovali citovaly citované citovaný citován citována citováno citovány citování cituje citujeme citujete cituji cituju citují
+54	4054	smíšený	smíšenou smíšená smíšené smíšeného smíšeném smíšení smíšených smíšeným smíšenými
+55	4055	nacista	nacisti nacistou nacistu nacisty nacisté nacistů nacistům
+56	4056	jízdenka	jízdence jízdenek jízdenkami jízdenkou jízdenku jízdenky jízdenkách
+57	4057	rozpustit	rozpouští rozpouštět rozpustil rozpustila rozpustili rozpustilo rozpustily rozpustí rozpustíme rozpusťte rozpuštěn rozpuštěna rozpuštěno rozpuštěnou rozpuštěny rozpuštěná rozpuštěné rozpuštěného rozpuštění rozpuštěním rozpuštěný rozpuštěných rozpuštěným rozpuštěnými
+58	4058	studna	studni studnička studnou studnu studny studní studních studně studánce studánek studánka studánkou studánku studánky
+59	4059	navazovat	navazuje
+60	4060	zmrzlina	zmrzlin zmrzlinou zmrzlinové zmrzlinový zmrzlinu zmrzliny zmrzlině
+61	4061	tuhý	nejtužší tuhou tuhá tuhé tuhého tuhém tuhých tuhým tuhými tuze tužší
+62	4062	vývojář	vývojáře vývojářem vývojáři vývojářský vývojářů vývojářům
+63	4063	kyslík	kyslíkem kyslíku
+64	4064	infarkt	infarktem infarktu infarkty infarktů
+65	4065	odstavec	odst odstavce odstavcem odstavci odstavcích odstavců
+66	4066	zakázaný	zakázanou zakázaná zakázané zakázaného zakázaném zakázaných zakázaným zakázanými
+67	4067	zákonný	zákonnou zákonná zákonné zákonného zákonném zákonnému zákonní zákonných zákonným zákonnými zákonně
+68	4068	vylézt	vylez vyleze vylezeme vylezete vylezl vylezla vylezli vylezlo vylezly vylezou vylezte vylezu vylézat vylézá
+69	4069	pěst	pěsti pěstmi pěstí
+70	4070	znění	zněním
+71	4071	oranžový	oranžovou oranžová oranžové oranžového oranžovém oranžoví oranžových oranžovým oranžovými oranžově
+72	4072	smutek	smutkem smutku smutky
+73	4073	plakat	plakal plakala plakali plakalo plakaly plačící pláče pláčeme pláčete pláčeš pláčou pláču
+74	4074	kulatý	kulatou kulatá kulaté kulatého kulatém kulatému kulatých kulatým kulatými kulatější
+75	4075	pozvání	pozváním
+76	4076	an	ana any
+77	4077	rozchod	rozchodech rozchodem rozchodu rozchody rozchodů
+78	4078	pedagog	pedagoga pedagogové pedagogy pedagogů
+79	4079	pohřbít	pohřben pohřbena pohřbeni pohřbeno pohřbeny pohřbená pohřbené pohřbeného pohřbení pohřbený pohřbených pohřbil pohřbila pohřbili pohřbilo pohřbily pohřbí pohřbívat
+80	4080	vizuální	vizuálních vizuálního vizuálním vizuálními vizuálnímu vizuálně
+81	4081	reprezentační	reprezentačních reprezentačního reprezentačním reprezentačními reprezentačnímu
+82	4082	finální	finálních finálního finálním finálnímu finálně
+83	4083	potlačit	potlačen potlačena potlačeno potlačeny potlačené potlačení potlačením potlačil potlačila potlačili potlačilo potlačily potlačovat potlačuje potlačí
+84	4084	fenomén	fenoménem fenoménu fenomény fenoménů fenoménům
+85	4085	nádobí	nádobím nádobíčko
+86	4086	derby	
+87	4087	kecy	
+88	4088	ku	
+89	4089	obzvlášť	
+90	4090	komplikovaný	komplikovanou komplikovaná komplikované komplikovaného komplikovaném komplikovaných komplikovaným komplikovanými komplikovanější komplikovanějších nejkomplikovanější
+91	4091	ochránce	ochráncem ochránci ochránců ochráncům ochránkyni ochránkyní ochránkyně
+92	4092	tahat	tahají tahal tahala tahali tahaly tahá tahám taháme tahání taháním taháte taháš
+93	4093	zdolat	zdolají zdolal zdolala zdolali zdolalo zdolaly zdolá zdolání zdolávat
+94	4094	němčina	němčinou němčinu němčiny němčině
+95	4095	provincie	provinciemi provincii provincií provinciích
+96	4096	produkovat	produkoval produkovala produkovali produkovalo produkovaly produkovaný produkován produkována produkováno produkovány produkování produkuje produkujeme produkují produkující
+97	4097	vybojovat	vybojoval vybojovali
+98	4098	zmatený	zmatenou zmatená zmatené zmateného zmatení zmatených zmateným zmateně
+99	4099	ukrýt	ukryje ukryjí ukryl ukryla ukryli ukryly ukryt ukryta ukryti ukryto ukryty ukrývat ukrývá
+100	4100	remíza	remíz remíze remízou remízu remízy remízách

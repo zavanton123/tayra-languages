@@ -1,0 +1,100 @@
+1	7201	kadeřník	kadeřnice kadeřníci kadeřníka kadeřníkem kadeřníkovi kadeřníky kadeřníků
+2	7202	summit	summitu
+3	7203	třebaže	
+4	7204	vymykat	vymkl vymkla vymkli vymklo vymkly vymkne vymknou vymknout vymknul vymknutí vymykají vymykající vymykal vymykala vymyká
+5	7205	osvědčený	osvědčenou osvědčená osvědčené osvědčeného osvědčeném osvědčenému osvědčených osvědčeným osvědčenými
+6	7206	uchopit	uchopení uchopil uchopila uchopili uchopte uchopí uchopíme uchopíte
+7	7207	rozsvítit	rozsviťte rozsvícen rozsvíceno rozsvícení rozsvícený rozsvítil rozsvítila rozsvítili rozsvítilo rozsvítily rozsvítí rozsvítíme
+8	7208	velmoc	velmocemi velmoci velmocí
+9	7209	um	umem umu umě
+10	7210	přílet	příletem příletu přílety příletů
+11	7211	trhlina	trhlin trhlinami trhlinou trhlinu trhliny trhlině
+12	7212	dějepis	dějepise dějepisu
+13	7213	zvyklost	zvyklostech zvyklostem zvyklosti zvyklostmi zvyklostí
+14	7214	kompenzace	kompenzaci
+15	7215	lepidlo	lepidel lepidla lepidlem
+16	7216	magnet	magnetem magnetu magnety magnetů
+17	7217	vlastenecký	vlasteneckou vlastenecká vlastenecké vlasteneckého vlasteneckých vlasteneckým vlastenečtí
+18	7218	invalidní	invalidních invalidního invalidním
+19	7219	antikoncepce	antikoncepci antikoncepcí
+20	7220	soft	softu
+21	7221	drzý	drze drzejší drzou drzá drzé drzého drzí drzým
+22	7222	číslice	číslic číslicemi číslici číslicové číslicový číslicově číslicí
+23	7223	přívěsek	přívěskem přívěsku přívěsky přívěsků
+24	7224	próza	prozaická prozaické prozaický prozaických prozaičtější próz próze prózou prózu prózy prózách
+25	7225	vertikální	vertikálních vertikálního vertikálním vertikálními
+26	7226	porodnice	porodnic porodnici porodnicích
+27	7227	koordinátor	koordinátora koordinátorem koordinátory koordinátorů koordinátoři
+28	7228	hospodařit	hospodaří
+29	7229	vápno	vápna vápnem vápně
+30	7230	logistika	logistice logistik logistikou logistiku logistiky
+31	7231	kterýkoli	kteroukoli kterákoli kteréhokoli kterékoli kterémkoli kterémukoli kterýmkoli
+32	7232	republikán	republikána republikánem republikáni republikány republikánů republikánům
+33	7233	přílišný	přílišnou přílišná přílišné přílišného přílišném přílišnému přílišným
+34	7234	satan	satana satane satanem satanovi satanův
+35	7235	spalování	spalováním
+36	7236	neexistující	neexistujících neexistujícího neexistujícím
+37	7237	hrávat	hrával hrávala hrávali hrávaly hrává
+38	7238	nedaleký	nedalekou nedaleká nedalekému nedalekých nedalekým
+39	7239	ohňostroj	ohňostroje ohňostrojem ohňostroji ohňostrojů
+40	7240	výpočetní	výpočetních výpočetního výpočetním
+41	7241	vosk	voskem vosku vosky vosků
+42	7242	geografický	geografickou geograficky geografická geografické geografického geografickém geografických geografickým geografickými
+43	7243	obydlí	obydlích obydlím
+44	7244	snímač	snímače snímačem snímači snímačů
+45	7245	přestřelka	přestřelce přestřelky
+46	7246	postranní	postranních postranního postranním postranními
+47	7247	lán	lánech lánu lány lánů
+48	7248	paragraf	paragrafech paragrafem paragrafu paragrafy paragrafů
+49	7249	lokace	lokacemi lokaci lokací lokacích lokační
+50	7250	koupání	koupáním
+51	7251	vázaný	vázanou vázaná vázané vázaného vázaní vázaných vázaným vázanými
+52	7252	pře	pří přím
+53	7253	rub	rubem rubu ruby
+54	7254	nesmrtelný	nesmrtelnou nesmrtelná nesmrtelné nesmrtelného nesmrtelní nesmrtelných nesmrtelným nesmrtelnými
+55	7255	umírající	umírajících umírajícího umírajícím umírajícímu
+56	7256	válčit	válčení válčil válčila válčili válčilo válčily válčí válčící
+57	7257	kázání	kázáních kázáním
+58	7258	předkolo	předkole
+59	7259	manuál	manuálem manuálu manuály manuálů
+60	7260	motorkář	motorkáře motorkářem motorkáři motorkářské motorkářský motorkářů motorkářům
+61	7261	uctít	uctil uctila uctili uctí uctívají uctívat uctění
+62	7262	předsíň	předsíni předsíní předsíně
+63	7263	prostředník	prostředníci prostředníka prostředníkem prostředníku prostředníky prostředníků prostředníček prostředníčkem prostředníčku
+64	7264	spalovací	spalovacích spalovacího spalovacím spalovacími
+65	7265	odhodlaný	odhodlanou odhodlaná odhodlané odhodlaného odhodlaní odhodlaných odhodlaným odhodlaně odhodlán odhodláni
+66	7266	dostih	dostihem dostihu dostihy dostihů dostizích
+67	7267	družina	družinou družinu družiny
+68	7268	podložka	podložce podložek podložkou podložku podložky podložkách
+69	7269	paleta	palet paletou paletu palety paletách paletě
+70	7270	obtížnost	obtížnosti obtížností
+71	7271	příslušenství	příslušenstvím
+72	7272	jubilejní	jubilejních jubilejního jubilejním
+73	7273	motivační	motivačních motivačního motivačním motivačně
+74	7274	pomeranč	pomeranče pomerančem pomeranči pomerančích pomerančů
+75	7275	chodidlo	chodidel chodidla chodidle chodidlech chodidlem chodidly chodidlům
+76	7276	průšvih	průšvihem průšvihu průšvihy průšvihů
+77	7277	ubytovací	ubytovacích ubytovacího ubytovacím
+78	7278	plavecký	plaveckou plavecká plavecké plaveckého plaveckém plaveckých plaveckým
+79	7279	zelenka	zelenkou zelenkovi zelenková zelenku zelenky
+80	7280	ekologie	ekologii ekologií
+81	7281	ahojky	
+82	7282	bezesporu	
+83	7283	zaručeně	
+84	7284	gril	grilem grilu grily grilů
+85	7285	lord	lorda lordů
+86	7286	tramvajový	tramvajové
+87	7287	úchvatný	úchvatnou úchvatná úchvatné úchvatného úchvatných úchvatným úchvatně
+88	7288	záštita	záštitou záštitu záštity
+89	7289	jihokorejský	jihokorejskou jihokorejská jihokorejské jihokorejského jihokorejském jihokorejských jihokorejským jihokorejští
+90	7290	výsadba	výsadbou výsadbu výsadby výsadbách výsadbě výsadeb
+91	7291	deštník	deštníkem deštníku deštníky deštníků
+92	7292	vynořit	vynoření vynořil vynořila vynořili vynořilo vynořily vynořovat vynořuje vynoří
+93	7293	bestie	bestii bestií
+94	7294	veverka	veverek veverkou veverková veverku veverky
+95	7295	fragment	fragmentech fragmentem fragmentu fragmenty fragmentů
+96	7296	tesař	tesaře tesařem tesaři tesařová tesařík tesařů
+97	7297	ceremoniál	ceremoniálech ceremoniálem ceremoniálu ceremoniály ceremoniálů
+98	7298	demise	demisi demisí
+99	7299	slitina	slitin slitinu slitiny slitině
+100	7300	spotřebič	spotřebiče spotřebiči spotřebičích spotřebičů

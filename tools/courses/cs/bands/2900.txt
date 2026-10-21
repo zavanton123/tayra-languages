@@ -1,0 +1,100 @@
+1	2801	závazek	závazcích závazkem závazku závazky závazků závazkům
+2	2802	cvičit	cvičen cvičeni cvičený cvičil cvičila cvičili cvičilo cvičily cvičte cvičí cvičící cvičících cvičím cvičíme cvičíte cvičíš vycvičen vycvičena vycvičeni vycvičené vycvičení vycvičený vycvičil vycvičila vycvičili vycvičit vycvičí zacvičit
+3	2803	zpoždění	zpožděním
+4	2804	dohled	dohledem dohledu
+5	2805	prášek	prášcích práškem prášková práškové prášku prášky prášků
+6	2806	odvolat	odvolají odvolal odvolala odvolali odvolalo odvolaly odvolaný odvolejte odvolá odvolám odvoláme odvolán odvolána odvoláni odvoláno odvolány odvoláte odvolávat odvolává
+7	2807	vlastnictví	vlastnictvím
+8	2808	jednička	jedničce jedniček jedničkami jedničkou jedničku jedničky
+9	2809	šedý	šedou šedá šedé šedého šedém šedí šedých šedým šedými šedě
+10	2810	magazín	magazínech magazínem magazínu magazíny magazínů
+11	2811	grafika	grafice grafici grafik grafikami grafikem grafikou grafiku grafiky grafikách grafiků grafička
+12	2812	pohřeb	pohřbech pohřbem pohřbu pohřby pohřbů
+13	2813	idiot	idiota idiote idiotem idioti idiotovi idioty idiotů
+14	2814	prsten	prstenem prstenu prsteny prstenů prstýnek prstýnkem prstýnku prstýnky prstýnků
+15	2815	definovat	definoval definovala definovali definovalo definovaly definovanou definovaná definované definovaného definovaném definovaný definovaných definovaným definovanými definován definována definováno definovány definování definuje definujeme definujete definujte definují definující
+16	2816	vzrůst	vzroste vzrostl vzrostla vzrostlo vzrostly vzrostou vzrůstat vzrůstem vzrůstu vzrůstá
+17	2817	zákoník	zákoníkem zákoníku zákoníky zákoníků
+18	2818	sýr	syrečky sýra sýrech sýrem sýru sýry sýrů sýrům
+19	2819	unavený	unavenou unavená unavené unaveného unavení unavených unaveným unaveně unavenější
+20	2820	očekávání	očekáváních očekáváním očekáváními
+21	2821	polévka	polévce polévek polévkou polévku polévky polévkách polívka polívkou polívková polívku polívky
+22	2822	prezentovat	prezentoval prezentovala prezentovali prezentovalo prezentovaly prezentované prezentovaný prezentován prezentována prezentováno prezentovány prezentování prezentuje prezentujeme prezentujete prezentuji prezentují prezentující
+23	2823	investor	investora investorem investorovi investory investorů investorům investoři
+24	2824	moderátor	moderátora moderátorce moderátorem moderátorka moderátorkou moderátorku moderátorky moderátorovi moderátory moderátorů moderátorům moderátoři
+25	2825	robot	robota robotech robotem roboti robotovi robotu roboty robotů robotům
+26	2826	hrabě	hrab hrabal hrabala hrabali hrabat hrabata hrabe hrabeme hrabou hrabu hraběnce hraběnka hraběnkou hraběnku hraběnky hraběte hrabětem hraběti hrábnout
+27	2827	byť	
+28	2828	navzájem	
+29	2829	nikoli	
+30	2830	katalog	katalogem katalogový katalogu katalogy katalogů katalozích
+31	2831	milenka	milence milencem milenci milencích milenců milencům milenec milenecký milenek milenkami milenko milenkou milenku milenky
+32	2832	lidový	lidovou lidová lidové lidového lidovém lidovému lidoví lidových lidovým lidovými lidově
+33	2833	spatřit	nespatřil nespatří spatřen spatřena spatřeni spatřeno spatřeny spatření spatřil spatřila spatřili spatřilo spatřily spatřoval spatřovala spatřovali spatřovat spatřuje spatřujeme spatřuji spatřují spatří spatřím spatříme spatříte
+34	2834	nastavení	nastavením
+35	2835	odstoupit	odstoupil odstoupila odstoupili odstoupilo odstoupily odstoupivší odstoupí odstoupím odstup odstupech odstupem odstupte odstupu odstupy
+36	2836	křižovatka	křižovatce křižovatek křižovatkami křižovatkou křižovatku křižovatky křižovatkách
+37	2837	kouřit	kouře kouřil kouřila kouřili kouřilo kouřily kouří kouřící kouřících kouřím kouříme kouříte kouříš zakouřené zakouřeném zakouřil zakouřit
+38	2838	oceán	oceánech oceánem oceánské oceánského oceánský oceánských oceánu oceány oceánů
+39	2839	ozbrojený	ozbrojenou ozbrojená ozbrojené ozbrojeného ozbrojeném ozbrojenému ozbrojení ozbrojených ozbrojeným ozbrojenými
+40	2840	kytara	kytar kytarami kytarou kytarové kytarový kytaru kytary kytaře
+41	2841	záchod	záchoda záchodech záchodem záchodky záchodovou záchodová záchodové záchodových záchodu záchody záchodě záchodů
+42	2842	svěřit	svěřen svěřena svěřeno svěřenou svěřeny svěřená svěřené svěřeného svěřeném svěření svěřený svěřených svěřeným svěřenými svěřil svěřila svěřili svěřilo svěřily svěřoval svěřovala svěřovali svěřovat svěřování svěřte svěřuje svěřujeme svěřujete svěřuji svěřují svěří svěřím svěříme svěříte
+43	2843	půlnoc	půlnoci půlnocí půlnoční půlnočního půlnočním
+44	2844	klobouk	kloboucích kloboukem klobouku klobouky klobouků klobouček kloboučkem kloboučku kloboučky
+45	2845	opera	oper operou operu opery operách opeře
+46	2846	zlepšení	zlepšením
+47	2847	arabský	arabskou arabsky arabská arabské arabského arabském arabskému arabských arabským arabskými arabští
+48	2848	frank	francích frankem franku franky franků
+49	2849	uniknout	neunikl neuniklo unikl unikla unikli uniklo unikly unikne uniknou
+50	2850	soukromí	soukromím
+51	2851	povídka	povídce povídek povídkami povídkou povídku povídky povídkách povídkám
+52	2852	mandát	mandátech mandátem mandátu mandáty mandátů
+53	2853	institut	institutu
+54	2854	vnitro	vnitra vnitru
+55	2855	kopie	kopiemi kopii kopií kopiích
+56	2856	zaměstnat	zaměstnají zaměstnal zaměstnala zaměstnali zaměstnalo zaměstnaná zaměstnané zaměstnaného zaměstnaní zaměstnaný zaměstnaných zaměstná zaměstnán zaměstnána zaměstnáni zaměstnáno zaměstnány zaměstnávají zaměstnávající zaměstnával zaměstnávala zaměstnávali zaměstnávalo zaměstnávaly zaměstnávat zaměstnává zaměstnávám zaměstnáváme zaměstnávání zaměstnáváte
+57	2857	producent	producenta producentem producenti producentka producentovi producenty producentů producentům
+58	2858	skrytý	skryto skrytou skrytá skryté skrytého skrytém skrytému skrytí skrytých skrytým skrytými skrytě
+59	2859	přístav	přístavech přístavek přístavem přístavku přístavky přístavu přístavy přístavů
+60	2860	středověk	středověcí středověkem středověkou středověku středověká středověké středověkého středověkém středověkému středověký středověkých středověkým středověkými
+61	2861	uprchlík	uprchlice uprchlíci uprchlících uprchlíka uprchlíkem uprchlíkovi uprchlíky uprchlíků uprchlíkům
+62	2862	naštvat	naštval naštvala naštvali naštvalo naštve naštvou naštvu štval štvala štvali štvalo štve štvou štvát
+63	2863	kontext	kontextech kontextem kontextu kontexty kontextů
+64	2864	zablokovat	blokoval blokovala blokovali blokovalo blokovaly blokovaný blokovat blokován blokována blokováno blokovány blokování blokuje blokují blokující zablokoval zablokovala zablokovali zablokovalo zablokovaly zablokovaný zablokován zablokována zablokováno zablokovány zablokování zablokuje zablokují
+65	2865	zkušený	nejzkušenější nejzkušenějších nejzkušenějším zkušenou zkušená zkušené zkušeného zkušenému zkušení zkušených zkušeným zkušenými zkušenější zkušenějších zkušenějšího zkušenějším zkušenějšími
+66	2866	uklidnit	uklidni uklidnil uklidnila uklidnili uklidnilo uklidnily uklidní uklidním uklidníte uklidnění uklidněte uklidňovat uklidňuje
+67	2867	zápis	zápise zápisech zápisem zápisu zápisy zápisů zápisům
+68	2868	jindy	
+69	2869	lese	
+70	2870	navzdory	
+71	2871	neboli	
+72	2872	čtvrtfinále	
+73	2873	osmý	osmou osmá osmé osmého osmém osmému osmých osmým
+74	2874	nadšený	nadšenou nadšená nadšené nadšeného nadšených nadšeným nadšenými nadšeně
+75	2875	realizace	realizacemi realizaci realizací realizacích realizacím
+76	2876	polák	polka polkou polku polky poláci poláka polákem polákovi poláková poláky poláků polákům poláček
+77	2877	pauza	pauz pauzami pauze pauzou pauzu pauzy pauzách
+78	2878	tenista	tenistce tenistek tenistka tenistkou tenistku tenistky tenistou tenistovi tenistu tenisty tenisté tenistů tenistům
+79	2879	prádlo	prádla prádle prádlem prádlu prádélko
+80	2880	gay	gaye gayem gayi gayů gayům
+81	2881	naložit	nakládají nakládal nakládala nakládali nakládanou nakládaná nakládané nakládaný nakládaných nakládat nakládá nakládám nakládáme nakládáno nakládání naložen naložena naloženi naloženo naloženy naložené naložení naložený naložil naložila naložili naložte naloží naložím naložíme naložíte
+82	2882	sůl	solemi soli solí
+83	2883	blesk	bleskem blesku blesky blesků bleskům
+84	2884	jev	jevech jevem jevu jevy jevů jevům
+85	2885	zasedání	zasedáních zasedáním
+86	2886	směs	směsi směsný směsí směsích
+87	2887	nezávislost	nezávislosti nezávislostí
+88	2888	patnáct	patnácti
+89	2889	liberecký	libereckou liberecká liberecké libereckého libereckém libereckému libereckých libereckým liberečtí
+90	2890	útěk	útěkem útěku útěky útěků
+91	2891	nejbližší	nejbližšímu
+92	2892	instalace	instalacemi instalaci instalací instalacích instalacím instalační instalačních instalačního
+93	2893	související	souvisejících souvisejícího souvisejícím souvisejícími
+94	2894	litovat	litoval litovala litovali lituje litujeme litujete lituji lituju litují nelitujeme politovat
+95	2895	farma	farem farmami farmou farmu farmy farmách farmě
+96	2896	tlačítko	tlačítek tlačítka tlačítkem tlačítku tlačítky
+97	2897	platnost	platnosti platností
+98	2898	nekonečný	nekonečnou nekonečná nekonečné nekonečného nekonečném nekonečnému nekonečných nekonečným nekonečnými nekonečně
+99	2899	humor	humorem humoru
+100	2900	blbost	blbostech blbosti blbostmi blbostí

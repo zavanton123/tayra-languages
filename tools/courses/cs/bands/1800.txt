@@ -1,0 +1,100 @@
+1	1701	design	designem designu designy designů
+2	1702	nálada	nálad náladami náladou náladu nálady náladách náladám náladě
+3	1703	pozorovat	pozoroval pozorovala pozorovali pozorovaly pozorovaná pozorované pozorovaného pozorovaný pozorovaných pozorován pozorována pozorováni pozorováno pozorovány pozorování pozorováních pozorováním pozorováními pozoruj pozoruje pozorujeme pozorujete pozoruji pozorujte pozoruju pozorují pozorující zpozoroval zpozorovala zpozorovali zpozorovat zpozorován zpozorování zpozoruje
+4	1704	přístroj	přístroje přístrojem přístroji přístrojové přístrojový přístrojích přístrojů přístrojům
+5	1705	bezpečný	bezpečno bezpečnou bezpečná bezpečné bezpečného bezpečném bezpečnému bezpeční bezpečných bezpečným bezpečnými bezpečnější bezpečnějších bezpečnějšího bezpečnějším nejbezpečnější nejbezpečnějších nejbezpečnějším
+6	1706	čerstvý	nejčerstvější nejčerstvějších čerstvou čerstvá čerstvé čerstvého čerstvém čerstvému čerství čerstvých čerstvým čerstvými čerstvě čerstvější
+7	1707	krása	krás krásami kráse kráso krásou krásu krásy krásách
+8	1708	vydělat	vydělají vydělal vydělala vydělali vydělalo vydělaly vydělané vydělaných vydělejte vydělá vydělám vyděláme vyděláno vyděláte vydělávají vydělával vydělávala vydělávali vydělávaly vydělávat vydělává vydělávám vyděláváme vyděláváte vyděláš
+9	1709	večeře	večeřa večeři večeří večeřích večeřím
+10	1710	potíž	potíže potížemi potíží potížích potížím
+11	1711	tehdejší	tehdejších tehdejšího tehdejším tehdejšími tehdejšímu
+12	1712	vyhnout	nevyhýbá vyhne vyhneme vyhnete vyhni vyhnou vyhnu vyhnul vyhnula vyhnuli vyhnulo vyhnuly vyhněte vyhýbají vyhýbal vyhýbala vyhýbali vyhýbaly vyhýbat vyhýbejte vyhýbá vyhýbám vyhýbáme vyhýbáte
+13	1713	uvedený	uvedenou uvedená uvedené uvedeného uvedeném uvedenému uvedení uvedením uvedených uvedeným uvedenými
+14	1714	skladba	skladbami skladbou skladbu skladby skladbách skladbám skladbě skladeb
+15	1715	lhát	lhal lhala lhali lhaly lhaní lže lžeme lžete lžeš lži lžou lžu zalhal zalhat
+16	1716	instituce	institucemi instituci institucí institucích institucím
+17	1717	vzdělání	vzděláním
+18	1718	vzpomínka	vzpomínce vzpomínek vzpomínkami vzpomínkou vzpomínku vzpomínky vzpomínkách vzpomínkám
+19	1719	komunistický	komunistickou komunistická komunistické komunistického komunistickém komunistickému komunistických komunistickým komunistickými komunističtí nekomunistické
+20	1720	finance	financemi financí financích financím
+21	1721	vyrovnat	nejvyrovnanější nevyrovnaná nevyrovnané nevyrovnaný nevyrovná vyrovnají vyrovnal vyrovnala vyrovnali vyrovnalo vyrovnaly vyrovnanou vyrovnaná vyrovnané vyrovnaného vyrovnaném vyrovnanému vyrovnaní vyrovnaný vyrovnaných vyrovnaným vyrovnanými vyrovnanější vyrovnejte vyrovná vyrovnám vyrovnáme vyrovnán vyrovnána vyrovnáno vyrovnány vyrovnání vyrovnáním vyrovnáte vyrovnávají vyrovnávali vyrovnávat vyrovnává
+22	1722	kanál	kanále kanálech kanálek kanálem kanálkem kanálku kanálky kanálků kanálu kanály kanálů kanálům
+23	1723	zakázka	zakázce zakázek zakázkami zakázkou zakázku zakázky zakázkách zakázkám
+24	1724	požadovat	nepožaduje požadoval požadovala požadovali požadovalo požadovaly požadovanou požadovaná požadované požadovaného požadovaném požadovanému požadovaný požadovaných požadovaným požadovanými požadován požadována požadováno požadovány požadování požaduje požadujeme požadujete požaduji požadujte požadují požadující
+25	1725	anebo	
+26	1726	naštěstí	
+27	1727	bar	bare barech barem baru bary barů
+28	1728	zavést	zavede zavedeme zaveden zavedena zavedeno zavedeny zavedete zavedl zavedla zavedli zavedlo zavedly zavedou zavedu zaveďte zavádí zavádět
+29	1729	sestava	sestav sestavou sestavu sestavy sestavách sestavě
+30	1730	spolek	spolcích spolkem spolkovou spolková spolkové spolkového spolkovém spolkový spolkových spolkovým spolkovými spolku spolky spolků spolkům
+31	1731	dálnice	dálnic dálnicemi dálnici dálnicí dálnicích dálnicím
+32	1732	přenos	přenosech přenosem přenosové přenosový přenosu přenosy přenosů přenosům
+33	1733	okraj	okraje okrajem okraji okrajovou okrajová okrajové okrajového okrajový okrajových okrajovým okrajovými okrajově okrajích okrajů okrajům
+34	1734	vítat	přivítal přivítat vítají vítající vítal vítala vítali vítalo vítaly vítanou vítaná vítané vítaní vítaný vítaným vítej vítejte vítá vítám vítáme vítán vítána vítáni vítáno vítány vítání
+35	1735	hledisko	hledisek hlediska hlediskem hledisku hledisky
+36	1736	chytit	chycen chycena chyceni chyceno chycení chycený chytají chytající chytal chytala chytali chytat chytil chytila chytili chytilo chytily chytli chytnout chytá chytám chytáme chytání chytáte chytí chytím chytíme chytíte chyť chyťte
+37	1737	potřebný	nejpotřebnější potřebnou potřebná potřebné potřebného potřebném potřebnému potřební potřebných potřebným potřebnými potřebnější
+38	1738	víra	vírou víru víry víře věr
+39	1739	zranění	zraněních zraněním zraněními
+40	1740	obyčejný	nejobyčejnější obyčejnou obyčejná obyčejné obyčejného obyčejném obyčejnému obyčejní obyčejných obyčejným obyčejnými obyčejně obyčejnější
+41	1741	mrzet	mrzela mrzelo mrzí nemrzí
+42	1742	věta	vět větami větou větu věty větách větám větě
+43	1743	stop	stopem stopu stopy stopě
+44	1744	vánoční	vánočních vánočního vánočním vánočními vánočnímu vánočně
+45	1745	zařadit	zařadil zařadila zařadili zařadilo zařadily zařadí zařadím zařadíme zařadíte zařazen zařazena zařazeni zařazeno zařazeny zařazení zařazením zařazený zařazovat zařazuje zařaďte
+46	1746	dřevěný	dřevěnou dřevěná dřevěné dřevěného dřevěném dřevěnému dřevěných dřevěným dřevěnými
+47	1747	smát	smál smála smáli smálo smály směj směje smějeme smějete směješ směji smějou smějte směju smějí smějící zasmál zasmát
+48	1748	klesat	klesají klesal klesala klesali klesalo klesaly klesl klesla klesli kleslo klesly klesne klesnou klesnout klesá klesám klesáme klesání
+49	1749	vědecký	vědeckou vědecky vědecká vědecké vědeckého vědeckém vědeckému vědeckých vědeckým vědeckými vědečtí
+50	1750	zub	zoubek zubech zubem zubová zubové zubu zuby zubů zubům
+51	1751	vůdce	vůdcem vůdci vůdcové vůdců vůdcům vůdcův vůdkyni vůdkyní vůdkyně
+52	1752	pošta	pošt poštou poštu pošty poštách poště
+53	1753	útočník	útočnice útočníci útočnících útočníka útočníkem útočníkovi útočníky útočníků útočníkům
+54	1754	sovětský	sovětskou sovětská sovětské sovětského sovětském sovětskému sovětských sovětským sovětskými sovětští
+55	1755	pouhý	pouhou pouhá pouhé pouhého pouhém pouhému pouhých pouhým pouhými pouzí
+56	1756	teplý	nejtepleji nejteplejší nejteplejších nejteplejším teple tepleji teplejší teplejších teplejšího teplejším teplou teplá teplé teplého teplém teplému teplých teplým teplými
+57	1757	nárok	nárocích nárokem nároku nároky nároků nárokům
+58	1758	dodnes	
+59	1759	krátce	
+60	1760	spojených	
+61	1761	lokalita	lokalit lokalitami lokalitou lokalitu lokality lokalitách lokalitám lokalitě
+62	1762	čeština	češtinou češtinu češtiny češtině
+63	1763	kalhoty	kalhot kalhotami kalhotek kalhotkami kalhotky kalhotkách kalhotkám kalhotové kalhotový kalhotách kalhotám
+64	1764	kontrolovat	kontroloval kontrolovala kontrolovali kontrolovalo kontrolovaly kontrolované kontrolovaný kontrolován kontrolována kontrolováni kontrolováno kontrolovány kontrolování kontroluje kontrolujeme kontrolujete kontroluji kontrolujou kontrolujte kontroluju kontrolují kontrolující zkontrolovali zkontrolovat zkontrolovány zkontroluje
+65	1765	vazba	vazbami vazbou vazbu vazby vazbách vazbám vazbě vazeb
+66	1766	investice	investic investicemi investici investicí investicích investicím
+67	1767	zaznamenat	nezaznamenal nezaznamenali zaznamenají zaznamenal zaznamenala zaznamenali zaznamenalo zaznamenaly zaznamenané zaznamenaný zaznamenejte zaznamená zaznamenám zaznamenáme zaznamenán zaznamenána zaznamenáno zaznamenány zaznamenání zaznamenáte zaznamenávat zaznamenává
+68	1768	líto	lej leje lije lil lila lili lilo lily lit lita lito lití lít
+69	1769	signál	signálech signálem signálu signály signálů signálům
+70	1770	čtenář	čtenáře čtenářek čtenářem čtenáři čtenářka čtenářky čtenářský čtenářích čtenářů čtenářům
+71	1771	symbol	symbolech symbolem symbolu symboly symbolů symbolům
+72	1772	rozsáhlý	nejrozsáhlejší nejrozsáhlejších nejrozsáhlejším rozsáhle rozsáhlejší rozsáhlejších rozsáhlejšího rozsáhlejším rozsáhlou rozsáhlá rozsáhlé rozsáhlého rozsáhlém rozsáhlému rozsáhlých rozsáhlým rozsáhlými
+73	1773	dodávka	dodávce dodávek dodávkami dodávkou dodávku dodávky dodávkách dodávkám
+74	1774	dolní	dolejší dolních dolního dolním dolními dolnímu
+75	1775	léčit	leč léčen léčena léčeni léčeno léčeny léčení léčený léčil léčila léčili léčilo léčily léčí léčící léčím léčíme léčíte neléčí vyléčen vyléčena vyléčil vyléčila vyléčili vyléčilo vyléčit vyléčí
+76	1776	zákaz	zákazem zákazu zákazy zákazů zákazům
+77	1777	generální	generálních generálního generálním generálními generálnímu
+78	1778	komora	komor komorami komorou komoru komory komorách komorám komoře komůrce komůrka
+79	1779	sdělit	nesdělil sdělena sděleno sděleny sdělení sdělením sdělil sdělila sdělili sdělilo sdělily sdělovat sdělte sděluje sdělí sdělím sdělíme sdělíte
+80	1780	sexuální	sexuálních sexuálního sexuálním sexuálními sexuálnímu sexuálně
+81	1781	bitva	bitev bitvami bitvou bitvu bitvy bitvách bitvám bitvě
+82	1782	perfektní	perfektních perfektního perfektním perfektními perfektnímu perfektně
+83	1783	party	párty
+84	1784	akademie	akademickou akademická akademické akademického akademickém akademickému akademický akademických akademickým akademickými akademii akademií akademiích akademičtí
+85	1785	luxusní	luxusních luxusního luxusním luxusními luxusnímu luxusně luxusnější luxusnějších nejluxusnější nejluxusnějších nejluxusnějším
+86	1786	nijak	
+87	1787	odkud	
+88	1788	příště	
+89	1789	násilí	nenásilnou nenásilná nenásilné násilnou násilná násilné násilného násilném násilnému násilní násilný násilných násilným násilnými násilně násilnější násilím
+90	1790	známka	známce známek známkami známkou známku známky známkách známkám
+91	1791	zvednout	zvedají zvedal zvedala zvedali zvedaly zvedat zvedejte zvedl zvedla zvedli zvedlo zvedly zvedne zvedneme zvednete zvedneš zvedni zvednou zvednu zvedněte zvedá zvedám zvedáme zvedáte
+92	1792	váha	vah vahami vahou vahách váhami váhou váhu váhy váhám váze vážek vážka vážky vážkách
+93	1793	karty	karet karetní kartami kartách kartám
+94	1794	obnovit	obnov obnoven obnovena obnoveno obnoveny obnovené obnovení obnovením obnovený obnovil obnovila obnovili obnovilo obnovily obnovovat obnovte obnovuje obnoví obnovíme
+95	1795	vládnout	vládl vládla vládli vládlo vládly vládne vládneme vládnou vládnoucí vládnoucích vládnoucího vládnoucím vládnoucími vládnoucímu vládnu vládnutí
+96	1796	narozeniny	narozenin narozeninami narozeninách narozeninám
+97	1797	tip	tipech tipem tipu tipy tipů
+98	1798	vybírat	vybírají vybíral vybírala vybírali vybíralo vybíraly vybírej vybírejte vybírá vybírám vybíráme vybírán vybírána vybíráni vybíráno vybírány vybírání vybíráte vybíráš
+99	1799	ucho	oušek ouška ouško oušky uch ucha uchem uchu uchy uši ušima uší uších uším
+100	1800	letecký	leteckou letecká letecké leteckého leteckém leteckému leteckých leteckým leteckými letečtí

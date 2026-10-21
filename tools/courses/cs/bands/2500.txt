@@ -1,0 +1,100 @@
+1	2401	mužstvo	mužstev mužstva mužstvech mužstvem mužstvu mužstvy mužstvům
+2	2402	peklo	pekel pekla pekle peklem peklu pekly
+3	2403	sedmý	sedmou sedmá sedmé sedmého sedmém sedmému sedmí sedmých sedmým
+4	2404	cyklus	cyklech cyklem cyklu cykly cyklů
+5	2405	důl	dolech dolem dolu doly dolům důlek důlku důlky důlků
+6	2406	platba	platbami platbou platbu platby platbách platbám platbě plateb
+7	2407	touha	touhami touhou touhu touhy touhách touhám touze
+8	2408	příslušný	příslušnou příslušná příslušné příslušného příslušném příslušnému příslušní příslušných příslušným příslušnými příslušně
+9	2409	soustava	soustav soustavami soustavnou soustavná soustavné soustavného soustavnému soustavný soustavným soustavně soustavou soustavu soustavy soustavách soustavě
+10	2410	mořský	mořskou mořská mořské mořského mořském mořskému mořských mořským mořskými mořští
+11	2411	van	vane vanu vany
+12	2412	loňský	loňskou loňská loňské loňského loňském loňskému loňských loňským loňskými
+13	2413	dělit	děl dělen dělena děleno dělenou děleny dělená dělené děleného děleném dělený dělených děleným dělil dělila dělili dělilo dělily dělí dělící dělím dělíme dělíte
+14	2414	údolí	údolní údolích údolím údolími
+15	2415	dvanáct	dvanácti
+16	2416	dílna	dílen dílnami dílničky dílnou dílnu dílny dílnách dílně
+17	2417	tráva	trav travička travní travních travním travou trávou trávu trávy trávě
+18	2418	sazba	sazbami sazbou sazbu sazby sazbách sazbám sazbě sazeb
+19	2419	linie	liniemi linii linií liniích liniím
+20	2420	zelená	zelenou zelených zeleným zelenými
+21	2421	předem	
+22	2422	upřímně	
+23	2423	archiv	archive archivech archivem archivu archivy archivů archív archívu
+24	2424	rudý	rudo rudou rudá rudé rudého rudém rudému rudí rudých rudým rudýma rudými rudě
+25	2425	titulek	titulcích titulkem titulku titulky titulků titulkům
+26	2426	lišit	lišil lišila lišili lišilo lišily liší lišící lišíme neliší
+27	2427	vrah	vraha vrahem vrahovi vrahové vrahu vrahy vrahů vrahům vrazi vrazích vražedkyni vražedkyní vražedkyně
+28	2428	království	královstvích královstvím královstvími
+29	2429	letoun	letounech letounem letounu letouny letounů letounům
+30	2430	láhev	lahev lahvemi lahvičce lahviček lahvička lahvičku lahvičky lahvičkách lahví lahvích lahvím láhve láhvemi láhvi láhví láhvích
+31	2431	růže	růžemi růži růžička růží růžích růžím
+32	2432	pojišťovna	pojišťoven pojišťovnami pojišťovnou pojišťovnu pojišťovny pojišťovnách pojišťovnám pojišťovně
+33	2433	vedlejší	vedlejších vedlejšího vedlejším vedlejšími vedlejšímu
+34	2434	kavárna	kaváren kavárenský kavárnami kavárnička kavárnou kavárnu kavárny kavárnách kavárně
+35	2435	kov	kovech kovem kovu kovy kovů kovům
+36	2436	konkurence	konkurenci konkurencí
+37	2437	žebříček	žebříčcích žebříčkem žebříčku žebříčky žebříčků
+38	2438	dosavadní	dosavadních dosavadního dosavadním dosavadními dosavadnímu
+39	2439	sledování	sledováním
+40	2440	podstatný	nejpodstatnější nejpodstatnějších nejpodstatnějším podstatnou podstatná podstatné podstatného podstatném podstatnému podstatných podstatným podstatnými podstatnější
+41	2441	vyjádření	vyjádřeních vyjádřením vyjádřeními
+42	2442	náhrada	náhrad náhradami náhradou náhradu náhrady náhradách náhradě
+43	2443	hana	han hani hanička hanka hanou hanu hany haně
+44	2444	nezbytný	nezbytnou nezbytná nezbytné nezbytného nezbytném nezbytných nezbytným nezbytnými nezbytně
+45	2445	samý	samou samá samé samého samém samému samí samých samým samými
+46	2446	stěžovat	nestěžoval postěžoval postěžovat stěžoval stěžovala stěžovali stěžovalo stěžovaly stěžování stěžuje stěžujeme stěžujete stěžuješ stěžuji stěžujou stěžuju stěžují
+47	2447	zdravotnictví	zdravotnictvím
+48	2448	přítomný	přítomen přítomna přítomni přítomno přítomnou přítomny přítomná přítomné přítomného přítomném přítomnému přítomní přítomných přítomným přítomnými
+49	2449	smích	smíchem smíchu smíchy
+50	2450	medvěd	medvídci medvídek medvídka medvídkem medvídkovi medvídky medvídků medvěda medvědech medvědem medvědi medvědice medvědici medvědovi medvědu medvědy medvědí medvědích medvědího medvědím medvědů medvědům nedvěd
+51	2451	baterie	bateriemi baterii baterií bateriích bateriím
+52	2452	chléb	chleba chlebem chlebové chlebu chleby chlebíček chlebíčky chlebíčků chlebů
+53	2453	el	
+54	2454	málem	
+55	2455	veřejně	
+56	2456	znova	
+57	2457	los	losa lose losem losi losu losy losů
+58	2458	sebevražda	sebevražd sebevraždou sebevraždu sebevraždy sebevraždách sebevraždám sebevraždě sebevražednou sebevražedná sebevražedné sebevražedného sebevražedném sebevražední sebevražedný sebevražedných sebevražedným sebevražednými
+59	2459	talent	talentem talentu talenty talentů talentům
+60	2460	dopoledne	dopoledni dopolední dopoledních dopoledního dopoledním
+61	2461	dělník	dělnic dělnice dělníci dělnících dělníka dělníkem dělníkovi dělníky dělníků dělníkům
+62	2462	podezřelý	podezřelou podezřelá podezřelé podezřelého podezřelém podezřelému podezřelí podezřelých podezřelým podezřelými
+63	2463	srát	naser nasere naserou naseru nasral nasrala nasralo nasrat ser sera sere sereš serou serte seru sralo
+64	2464	rybník	rybníce rybnících rybníka rybníkem rybníku rybníky rybníků rybníkům rybníček rybníčku
+65	2465	žlutá	žlutou žluté žlutých žlutým žlutými
+66	2466	pruh	proužek proužky pruhem pruhu pruhy pruhů pruzích
+67	2467	třicet	třiceti
+68	2468	ocel	ocele oceli ocelovou ocelová ocelové ocelového ocelovém ocelový ocelových ocelovým ocelovými ocelově ocelí
+69	2469	vrchní	vrchních vrchního vrchním vrchními vrchnímu
+70	2470	průvodce	průvodcem průvodci průvodcích průvodců průvodcům průvodkyni průvodkyní průvodkyně
+71	2471	vstát	vstal vstala vstali vstane vstaneme vstanete vstaneš vstanou vstanu vstaň vstaňte vstával vstávali vstávat vstává
+72	2472	stálý	nestálou nestálá nestálé nestálý stálejší stálou stálá stálé stálého stálém stálému stálí stálých stálým stálými
+73	2473	běhat	běhají běhající běhal běhala běhali běhalo běhaly běhej běhejte běhá běhám běháme běhání běháte běháš
+74	2474	móda	mód módech módem módou módu módy módě módů
+75	2475	předložit	předkládají předkládal předkládala předkládali předkládaný předkládat předkládá předkládám předkládáme předkládán předkládána předkládáno předkládány předkládání předložen předložena předloženo předloženy předložené předložení předložený předložil předložila předložili předložilo předložily předložte předloží předložím předložíme předložíte
+76	2476	hod	hodech hodem hodu hody hodů
+77	2477	oznámení	oznámením
+78	2478	inspirace	inspiraci inspirací inspirační
+79	2479	výpověď	výpovědi výpovědí výpovědích výpovědím výpověďmi
+80	2480	křeslo	křesel křesla křesle křeslech křeslem křeslu křesly křesílka křesílko
+81	2481	trvalý	trvalejší trvalejšího trvalou trvalá trvalé trvalého trvalém trvalému trvalých trvalým trvalými
+82	2482	balíček	balíčcích balíčkem balíčku balíčky balíčků balíčkům
+83	2483	vězeň	vězeňkyně vězeňkyň vězni vězních vězně vězněm vězňové vězňů vězňům
+84	2484	zakladatel	zakladatele zakladatelek zakladatelem zakladateli zakladatelka zakladatelkou zakladatelku zakladatelky zakladatelské zakladatelé zakladatelů zakladatelům
+85	2485	mediální	mediálních mediálního mediálním mediálními mediálnímu
+86	2486	jed	jede jedem jedu jedy jedů
+87	2487	podrobný	nejpodrobněji nejpodrobnější podrobnou podrobná podrobné podrobného podrobném podrobnému podrobných podrobným podrobnými podrobně podrobněji podrobnější podrobnějších podrobnějšího podrobnějším podrobnějšímu
+88	2488	prase	prasat prasata prasatech prasaty prasatům prasete prasetem praseti prasečí prasečích prasečího prasečím prasátek prasátka prasátkem prasátko prasátku
+89	2489	subjekt	subjektech subjektem subjektu subjekty subjektů subjektům
+90	2490	nahrávka	nahrávce nahrávek nahrávkami nahrávkou nahrávku nahrávky nahrávkách nahrávkám
+91	2491	tvůrce	tvůrcem tvůrci tvůrcích tvůrců tvůrcům tvůrkyně
+92	2492	řádný	řádnou řádná řádné řádného řádném řádnému řádní řádných řádným řádnými řádně
+93	2493	maska	masce masek maskami maskou masku masky maskách
+94	2494	ach	
+95	2495	semifinále	
+96	2496	zpravidla	
+97	2497	brýle	brejle brýlemi brýlí brýlích brýlím
+98	2498	zavedení	zavedením
+99	2499	choroba	chorob chorobami chorobou chorobu choroby chorobách chorobám chorobě
+100	2500	zelenina	zelenin zeleninou zeleninovou zeleninová zeleninové zeleninového zeleninový zeleninových zeleninovým zeleninu zeleniny zelenině

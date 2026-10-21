@@ -1,0 +1,100 @@
+1	5001	schválně	
+2	5002	čau	
+3	5003	hostování	hostováních hostováním
+4	5004	pochyba	pochyb pochybami pochyby pochybách pochybám
+5	5005	křest	křtem křtu křty
+6	5006	důkladně	důkladněji nejdůkladněji
+7	5007	granát	granátem granátu granáty granátů
+8	5008	údaj	údajem údaji údajích údajů údajům
+9	5009	děkan	děkana děkanem děkani děkanka děkanovi děkanů
+10	5010	fotografický	fotografickou fotograficky fotografická fotografické fotografického fotografickém fotografických fotografickým fotografickými
+11	5011	sun	sune sunu
+12	5012	zánik	zánikem zániku
+13	5013	ložisko	ložiscích ložisek ložiska ložiskem ložisku ložisky ložiskách ložiskům
+14	5014	ot	ota ote otovi otu oty
+15	5015	administrativa	administrativou administrativu administrativy administrativě
+16	5016	zasažený	zasažen zasažena zasaženi zasaženo zasaženou zasaženy zasažená zasažené zasaženého zasaženém zasažení zasažených zasaženým
+17	5017	irský	irskou irská irské irského irském irskému irských irským irskými irští
+18	5018	zajíc	zaječice zaječí zaječích zajíce zajícem zajíci zajícová zajíců zajíček
+19	5019	příručka	příručce příruček příručkou příručku příručky příručkách
+20	5020	vakcína	vakcín vakcínami vakcínou vakcínu vakcíny vakcínách vakcíně
+21	5021	rozbor	rozborech rozborem rozboru rozbory rozborů
+22	5022	jeřáb	jeřába jeřábek jeřábem jeřábi jeřábka jeřábková jeřábu jeřáby jeřábů
+23	5023	větrný	větrnou větrná větrné větrného větrném větrnému větrných větrným větrnými
+24	5024	vstupné	vstupného vstupném vstupným
+25	5025	urychlit	urychlené urychlení urychlený urychlil urychlila urychlili urychlilo urychlily urychlovat urychluje urychlí urychlíme
+26	5026	oblastní	oblastních oblastního oblastním oblastnímu
+27	5027	migrace	migraci migrací
+28	5028	delegace	delegaci delegací
+29	5029	sňatek	sňatcích sňatkem sňatku sňatky sňatků sňatkům
+30	5030	schéma	schémat schémata schématech schématem schématu schématy
+31	5031	kotník	kotnících kotníkem kotníku kotníky kotníků kotníkům
+32	5032	popravit	poprav popraven popravena popraveni popraveno popraveny popravené popravení popravený popravil popravila popravili popraví
+33	5033	moudrost	moudrosti moudrostí
+34	5034	chlubit	chlubení chlubil chlubila chlubili chlubí chlubím
+35	5035	pařížský	pařížskou pařížská pařížské pařížského pařížském pařížskému pařížských pařížským
+36	5036	sympatický	nejsympatičtější nesympatické sympatickou sympaticky sympatická sympatické sympatického sympatických sympatickým sympatičtí sympatičtější
+37	5037	záhadný	nejzáhadnější nejzáhadnějších záhadnou záhadná záhadné záhadného záhadném záhadnému záhadní záhadných záhadným záhadnými
+38	5038	potěšení	potěšením
+39	5039	příšerný	příšernou příšerná příšerné příšerného příšerném příšerných příšerným příšerně
+40	5040	kondice	kondici kondicí
+41	5041	znásilnění	znásilněním
+42	5042	minerál	minerálech minerálem minerálu minerály minerálů
+43	5043	srdečný	srdečnou srdečná srdečné srdečného srdečným srdečně
+44	5044	předměstí	předměstské předměstských předměstích předměstím
+45	5045	kriminální	kriminálních kriminálního kriminálním kriminálními kriminálnímu
+46	5046	želva	želv želvami želvou želvu želvy želvám želví želvě
+47	5047	poradenství	poradenstvím
+48	5048	překvapivý	nejpřekvapivější překvapivou překvapivá překvapivé překvapivého překvapivém překvapivému překvapivých překvapivým překvapivými překvapivější
+49	5049	praskat	praskají praskající praskal praskala praskaly praskl praskla prasklo praskly praskne prasknou prasknout prasknul praská praskání
+50	5050	kardinál	kardinála kardinálem kardinálovi kardinálové kardinálu kardinály kardinálů
+51	5051	dílčí	dílčích dílčího dílčím dílčími
+52	5052	vyjednávání	vyjednáváních vyjednáváním
+53	5053	přerušení	přerušením
+54	5054	kořist	kořisti kořistí
+55	5055	kráska	krásce krásek kráskami krásko kráskou krásku krásky
+56	5056	benzín	benzínem benzínový benzínu
+57	5057	sehrát	sehraje sehrají sehrál sehrála sehráli
+58	5058	zahradník	zahradnice zahradnickou zahradnická zahradnické zahradnického zahradnický zahradnických zahradnickým zahradníci zahradníka zahradníkem zahradníkovi zahradníková zahradníky zahradníků zahradníček
+59	5059	pojmout	pojal pojala pojali pojalo pojaly pojat pojata pojato pojaty pojaté pojatý pojme pojmou pojmu pojímat pojímá
+60	5060	jihoafrický	jihoafrickou jihoafrická jihoafrické jihoafrického jihoafrickém jihoafrických jihoafrickým jihoafričtí
+61	5061	jehla	jehel jehlami jehle jehlička jehličky jehlou jehlu jehly jehlách
+62	5062	fantasy	
+63	5063	nezávisle	
+64	5064	senior	seniory
+65	5065	vzápětí	
+66	5066	příkop	příkopech příkopem příkopu příkopy příkopě příkopů
+67	5067	potrvat	nepotrvá potrvají potrvá
+68	5068	poradna	poraden poradnou poradnu poradny poradnách poradně
+69	5069	celní	celních celního celním celními celnímu
+70	5070	stíhačka	stíhačce stíhaček stíhačkami stíhačkou stíhačku stíhačky stíhačkách stíhačkám
+71	5071	kretén	kreténa kreténe kreténi kretény kreténů
+72	5072	vyvinutý	nevyvinuté vyvinutou vyvinutá vyvinuté vyvinutého vyvinutí vyvinutých vyvinutým vyvinutými vyvinutější
+73	5073	interaktivní	interaktivních interaktivního interaktivním interaktivními interaktivně
+74	5074	předpokládaný	předpokládanou předpokládaná předpokládané předpokládaného předpokládaném předpokládanému předpokládaných předpokládaným předpokládanými
+75	5075	průběžný	průběžnou průběžná průběžné průběžného průběžném průběžnému průběžných průběžným průběžnými
+76	5076	očistit	očistil očistila očistili očistí očistím očistíme očistěte očištěn očištěna očištěni očištěno očištěny očištěné očištění očištěný
+77	5077	žalobce	žalobcem žalobci žalobců žalobcům žalobkyni žalobkyní žalobkyně
+78	5078	plošina	plošin plošinami plošinou plošinu plošiny plošinách plošině
+79	5079	pozdravit	pozdravení pozdravil pozdravila pozdravili pozdravovat pozdravuj pozdravuje pozdravuji pozdravujte pozdraví pozdravím pozdravíme zdrav zdravení zdravil zdravila zdravili zdravit zdravím zdravíme
+80	5080	romský	romskou romská romské romského romském romských romským romskými romští
+81	5081	vylepšení	vylepšeních vylepšením vylepšeními
+82	5082	oslabit	oslaben oslabena oslabeni oslabeno oslabenou oslabeny oslabená oslabené oslabeného oslabený oslabených oslabeným oslabil oslabila oslabili oslabilo oslabily oslabí
+83	5083	čočka	čočce čoček čočkami čočkou čočku čočky čočkách
+84	5084	baterka	baterek baterkami baterkou baterku baterky
+85	5085	symbolický	symbolickou symbolická symbolické symbolického symbolickém symbolickému symbolických symbolickým symbolickými
+86	5086	přejet	přejede přejedeme přejedete přejedou přejedu přejel přejela přejeli přejelo přejetí přejetý přejeďte přejíždět
+87	5087	textový	textovou textová textové textového textovém textových textovým textovými
+88	5088	věkový	věkovou věková věkové věkového věkovém věkovému věkových věkovým věkovými
+89	5089	oblouk	obloucích obloukem obloukový oblouku oblouky oblouků
+90	5090	královéhradecký	královéhradecká královéhradecké královéhradeckého královéhradeckém královéhradeckých královéhradeckým královéhradečtí
+91	5091	přísaha	přísah přísahou přísahu přísahy přísahám přísaze
+92	5092	vývojový	vývojovou vývojová vývojové vývojového vývojovém vývojových vývojovým vývojovými vývojově
+93	5093	povědomí	povědomím
+94	5094	nucený	nucenou nucená nucené nuceného nuceném nucenému nucení nucených nuceným nuceně
+95	5095	dodržování	dodržováním
+96	5096	pomsta	pomstou pomstu pomsty pomstě
+97	5097	záliv	zálivem zálivu zálivy zálivů
+98	5098	problematický	nejproblematičtější problematickou problematicky problematická problematické problematického problematickém problematickému problematických problematickým problematickými problematičtější
+99	5099	letý	letou letá leté letého letému letých letým
+100	5100	jednoznačný	jednoznačnou jednoznačná jednoznačné jednoznačného jednoznačném jednoznačnému jednoznačných jednoznačným

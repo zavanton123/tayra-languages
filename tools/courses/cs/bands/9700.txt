@@ -1,0 +1,100 @@
+1	9601	vytlačit	vytlačil vytlačila
+2	9602	odchovanec	odchovance odchovancem odchovanci odchovanců
+3	9603	rokle	rokli roklí
+4	9604	osvícení	osvícením
+5	9605	dovršit	dovršen dovršena dovršení dovršením dovršil dovršila dovršili dovršuje dovrší
+6	9606	absorbovat	absorboval absorbovala absorbované absorbován absorbována absorbovány absorbování absorbuje absorbují absorbující
+7	9607	vysrat	vyser vyseru vysral
+8	9608	ztuhnout	tuhne tuhnou tuhnout tuhnutí ztuhl ztuhla ztuhly ztuhne ztuhnou ztuhnutí
+9	9609	razie	razii razií
+10	9610	snímání	snímáním
+11	9611	chladno	chladna chladnu
+12	9612	optimista	optimistka optimistou optimisty optimisté
+13	9613	přírodovědecký	přírodovědecká přírodovědecké
+14	9614	gray	graye grayem
+15	9615	fosfor	fosforem fosforu
+16	9616	tažný	tažnou tažná tažné tažného tažní tažných tažným
+17	9617	šeptat	dělají dělal dělala dělali dělalo dělaly dělaný dělej dělejme dělejte dělá dělám děláme dělána děláno dělány děláte děláš zašeptal zašeptala šeptají šeptal šeptala šeptali šeptalo šeptej šeptá šeptání
+18	9618	partyzán	partyzána partyzáni partyzány partyzánů partyzánům
+19	9619	radiační	radiačních radiačního radiačním
+20	9620	sociologický	sociologickou sociologická sociologické sociologického sociologickém sociologických sociologickým
+21	9621	máti	mateří
+22	9622	sakrální	sakrálních sakrálního
+23	9623	zkorumpovaný	zkorumpovanou zkorumpovaná zkorumpované zkorumpovaného zkorumpovaní zkorumpovaných zkorumpovaným zkorumpovanými
+24	9624	natřít	natírat natře natřel natřela natřeli natřeme natřen natřena natřeno natřeny natřete natřu
+25	9625	sedmnáctý	sedmnáctou sedmnáctá sedmnácté sedmnáctého sedmnáctém sedmnáctým
+26	9626	dělostřelectvo	dělostřelectva dělostřelectvem dělostřelectvu
+27	9627	okrást	okradli
+28	9628	parket	parketu
+29	9629	obdélníkový	obdélníkovou obdélníková obdélníkové obdélníkového obdélníkovém obdélníkových obdélníkovým
+30	9630	epilepsie	epilepsii epilepsií epileptické epileptický epileptických
+31	9631	rukojeť	rukojeti rukojetí
+32	9632	opilost	opilosti
+33	9633	namočit	máčení máčet máčí namočení namočený namočil namočila namočili namočte namočí namočím namočíme
+34	9634	nepřípustný	nepřípustnou nepřípustná nepřípustné nepřípustného
+35	9635	věštec	věštce věštcem věštci věštců věštkyni věštkyně
+36	9636	přívětivý	nejpřívětivější přívětivou přívětivá přívětivé přívětivého přívětiví přívětivým přívětivě přívětivější
+37	9637	industriální	industriálních industriálního industriálním
+38	9638	promenáda	promenádou promenádu promenády promenádě
+39	9639	odbornost	odbornosti
+40	9640	houslista	houslistka houslistkou houslistky houslistou houslistu houslisty houslisté houslistů
+41	9641	bolševický	bolševické bolševických
+42	9642	humorný	humornou humorná humorné humorného humorných humorným humornými
+43	9643	pozitivum	pozitiva pozitivem pozitivy
+44	9644	letka	letce letky
+45	9645	podělat	podělal podělala podělali podělaný podělá
+46	9646	zmařit	zmařen zmařena zmařeno zmařeny zmaření zmařený zmařil zmařila zmařili zmařilo zmařily zmaří
+47	9647	civilizovaný	civilizovanou civilizovaná civilizované civilizovaného civilizovaném civilizovaní civilizovaných civilizovaným civilizovanější
+48	9648	povodňový	povodňovou povodňová povodňové povodňového povodňových
+49	9649	prádelna	prádelen prádelnou prádelnu prádelny prádelně
+50	9650	stonek	stoncích stonkem stonku stonky stonků
+51	9651	prošetřit	prošetření prošetřil prošetřila prošetřili prošetřoval prošetřovat prošetřování prošetřuje prošetřujeme prošetřují prošetří
+52	9652	spád	spádem spádu spády
+53	9653	svitek	svitcích svitkem svitku svitky svitků
+54	9654	nevědomost	nevědomosti nevědomostí
+55	9655	ala	
+56	9656	log	logem
+57	9657	okr	
+58	9658	podepsání	
+59	9659	swing	
+60	9660	tango	
+61	9661	ubýt	ubylo
+62	9662	účelově	
+63	9663	útlý	nejútlejšího útlou útlá útlé útlého útlém
+64	9664	celník	celníci celníka celníky celníků
+65	9665	mast	masti mastmi mastí
+66	9666	bufet	bufetu
+67	9667	nesrovnalost	nesrovnalostem nesrovnalosti nesrovnalostí
+68	9668	padělek	padělkem padělku padělky padělků
+69	9669	rozhodovací	rozhodovacích rozhodovacího rozhodovacím
+70	9670	potyčka	potyčce potyček potyčku potyčky potyčkách potyčkám
+71	9671	třicítka	třicítce třicítkou třicítku třicítky
+72	9672	odplata	odplatou odplatu odplaty odplatě
+73	9673	promoce	promoci promocí
+74	9674	špenát	špenátem špenátový špenátu
+75	9675	sádlo	sádla sádle sádlem
+76	9676	stopky	stopek stopkami stopkách
+77	9677	domorodý	domorodou domorodá domorodé domorodého domorodí domorodých domorodým domorodými
+78	9678	periferie	periferii periferií periferiích periférie periférii
+79	9679	klam	klame klamem klamu klamy klamů
+80	9680	přímořský	přímořskou přímořská přímořské přímořského přímořském přímořských přímořským
+81	9681	nevěřící	nevěřících nevěřícího nevěřícím nevěřícími
+82	9682	klavírní	klavírních klavírního klavírním
+83	9683	ztroskotat	ztroskotal ztroskotala ztroskotalo ztroskotaly
+84	9684	rozzářit	rozzářil rozzářily rozzáří
+85	9685	kotlina	kotlinou kotlinu kotliny kotlině
+86	9686	vykopat	vykopal vykopala vykopali vykope vykopeme vykopou vykopány vykopávat vykopává
+87	9687	kal	kale kalu kaly kalů
+88	9688	horlivý	horlivou horlivá horlivé horlivého horliví horlivých horlivým horlivě
+89	9689	likér	likérem likéru likéry likérů
+90	9690	hazardní	hazardních hazardního hazardním hazardními
+91	9691	domovina	domovinou domovinu domoviny domovině
+92	9692	hnůj	hnoje hnojem hnoji
+93	9693	ptactvo	ptactva ptactvem ptactvu
+94	9694	radium	radia radiem radiu
+95	9695	požití	požitím
+96	9696	přednosta	přednostech přednostka přednostou přednosty
+97	9697	ventilace	ventilaci ventilací
+98	9698	doktrína	doktrín doktrínou doktrínu doktríny doktríně
+99	9699	vykřiknout	vykřikl vykřikla vykřikoval vykřikovala vykřikovali vykřikovat vykřikují
+100	9700	čich	čichem čichu

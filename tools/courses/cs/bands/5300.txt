@@ -1,0 +1,100 @@
+1	5201	tmavě	
+2	5202	přeměnit	přeměnil přeměnila přeměnili přeměnilo přeměnily přemění přeměněn přeměněna přeměněno přeměněny přeměněný přeměňovat přeměňování přeměňuje přeměňují
+3	5203	svačina	svačin svačinka svačinou svačinu svačiny svačině
+4	5204	kaše	kaši kašička kaší
+5	5205	pozorovatel	pozorovatele pozorovatelem pozorovateli pozorovatelka pozorovatelé pozorovatelů pozorovatelům
+6	5206	patent	patentech patentem patentu patenty patentů patentům
+7	5207	servisní	servisních servisního servisním
+8	5208	zkoumání	zkoumáním
+9	5209	povedený	nejpovedenější nejpovedenějších povedenou povedená povedené povedeného povedeném povedenému povedených povedeným povedenými povedenější
+10	5210	povstání	povstáním
+11	5211	pot	pote potem potu
+12	5212	vztek	vztekem vzteku vzteky
+13	5213	perspektiva	perspektiv perspektivou perspektivu perspektivy perspektivách perspektivě
+14	5214	přibývat	přibývají přibývalo přibývá
+15	5215	dopravit	doprav dopraven dopravena dopraveni dopraveno dopraveny dopravení dopravil dopravila dopravili dopravilo dopravily dopravovat dopraví dopravíme dopravíte
+16	5216	atomový	atomovou atomová atomové atomového atomovém atomových atomovým atomovými
+17	5217	věčnost	věčnosti věčností
+18	5218	katedrála	katedrál katedrále katedrálou katedrálu katedrály
+19	5219	žalovat	obžaloval obžalovali obžalovat obžalován obžalována obžalováni obžalování zažaloval zažalovat žaloval žalovala žalovali žalovaný žalován žaluje žaluji žalují žalující
+20	5220	strážný	strážná strážné strážného strážném strážnému strážní strážních strážního strážných strážným
+21	5221	spořit	spoře spoření spoří spořící spořících spořícím
+22	5222	přesnost	přesnosti přesností
+23	5223	kmenový	kmenovou kmenová kmenové kmenového kmenovém kmenoví kmenových kmenovým kmenovými
+24	5224	libovolný	libovolnou libovolná libovolné libovolného libovolném libovolnému libovolných libovolným libovolnými
+25	5225	stranický	stranickou stranicky stranická stranické stranického stranickém stranickému stranických stranickým stranickými straničtí
+26	5226	sledovaný	nejsledovanější nejsledovanějších nejsledovanějším sledovanou sledovaná sledované sledovaného sledovaném sledovaní sledovaných sledovaným sledovanými
+27	5227	mínění	míněním
+28	5228	řezat	nařezat pořezal pořezat rozřezat seřezat řezal řezala řezali řezání řezáním řež řeže řežeme řeži řežou řízl řízla řízne říznou říznout říznul
+29	5229	charakterizovat	charakterizoval charakterizovala charakterizovali charakterizovalo charakterizovaly charakterizované charakterizovaný charakterizován charakterizována charakterizováno charakterizovány charakterizuje charakterizují charakterizující
+30	5230	vymazat	vymazal vymazala vymazali vymazalo vymazaly vymazán vymazána vymazáno vymazány vymaž vymaže vymažeme vymažete vymažou vymažte vymažu
+31	5231	kouř	kouře kouřem kouři kouřovou kouřová kouřové kouřový kouřových kouřovým kouřovými
+32	5232	nejistý	nejistou nejistá nejisté nejistého nejistém nejistí nejistých nejistým nejistě
+33	5233	vydavatel	vydavatele vydavatelem vydavateli vydavatelka vydavatelé vydavatelů vydavatelům
+34	5234	dvouletý	dvouletou dvouletá dvouleté dvouletého dvouletém dvouletému dvouletých dvouletým
+35	5235	zavázat	zavazovat zavazuje zavázal zavázala zavázali zavázaly zaváže
+36	5236	jóga	jógou jógu jógy józe
+37	5237	bus	buse busem busu busy
+38	5238	etnický	etnickou etnická etnické etnického etnickém etnických etnickým etnickými etničtí
+39	5239	dárce	dárcem dárci dárcích dárců dárcům dárkyně
+40	5240	léčivý	léčivou léčivá léčivé léčivého léčivých léčivým léčivými
+41	5241	borec	borce borcem borci borců borcům
+42	5242	nov	nove novu novy
+43	5243	osmnáct	osmnácti
+44	5244	nakažený	nakaženou nakažená nakažené nakaženého nakažení nakažených nakaženým nakaženými
+45	5245	analyzovat	analyzoval analyzovala analyzovali analyzován analyzována analyzováno analyzovány analyzování analyzuje analyzujeme analyzuji analyzují analyzující
+46	5246	výchozí	výchozích výchozího výchozím výchozími výchozímu
+47	5247	prováděný	prováděna prováděno prováděnou prováděny prováděná prováděné prováděného prováděném prováděných prováděným prováděnými
+48	5248	topení	topením
+49	5249	zvyšování	zvyšováním
+50	5250	konzola	konzol konzole konzolu konzoly
+51	5251	tažení	taženích tažením
+52	5252	realizovaný	realizovanou realizovaná realizované realizovaného realizovaných realizovaným realizován realizována realizovány
+53	5253	srst	srsti srstí
+54	5254	válečník	válečnice válečnický válečníci válečníka válečníkem válečníkovi válečníky válečníků válečníkům
+55	5255	střídání	střídáním
+56	5256	kytarista	kytaristka kytaristou kytaristovi kytaristu kytaristy kytaristé kytaristů
+57	5257	dokumentární	dokumentárních dokumentárního dokumentárním dokumentárními dokumentárně
+58	5258	dotyčný	dotyčnou dotyčná dotyčné dotyčného dotyčném dotyčnému dotyční dotyčných dotyčným
+59	5259	mísa	mis miska miskami mís míse mísou mísu mísy
+60	5260	ideál	ideálech ideálem ideálu ideály ideálů ideálům
+61	5261	pohotovost	pohotovosti pohotovostí
+62	5262	začátečník	začátečnice začátečníci začátečníka začátečníky začátečníků začátečníkům
+63	5263	kult	kultem kultu kulty kultů
+64	5264	impuls	impulsem impulsy impulsů
+65	5265	řasa	řas řasami řasou řasu řasy řasách
+66	5266	zemní	zemního zemním
+67	5267	nepatrný	nepatrnou nepatrná nepatrné nepatrného nepatrném nepatrnému nepatrných nepatrným nepatrnými nepatrně
+68	5268	naslouchat	naslouchají naslouchající naslouchal naslouchala naslouchali naslouchejte naslouchá naslouchám nasloucháme naslouchání nasloucháte
+69	5269	sprostý	sprostou sprostá sprosté sprostého sprostí sprostých sprostým sprostými sprostě
+70	5270	petice	petic petici peticí
+71	5271	krizový	krizovou krizová krizové krizového krizovém krizových krizovým
+72	5272	bo	
+73	5273	kdepak	
+74	5274	neb	
+75	5275	nepochybně	
+76	5276	wellness	
+77	5277	pouto	pout pouta poutech poutem poutka poutko poutu pouty
+78	5278	suma	sum sumo sumou sumu sumy sumě
+79	5279	těstovina	těstovin těstovinami těstovinový těstoviny těstovinách těstovinám
+80	5280	lepit	lep lepení lepený lepil lepila lepili lepily lepí lepím lepíme nalepení nalepený nalepil nalepila nalepili nalepit nalepte nalepí přilepen přilepena přilepenou přilepená přilepené přilepení přilepený přilepil přilepila přilepili přilepit přilepte přilepí přilepíme
+81	5281	záchranář	záchranáře záchranářem záchranáři záchranářka záchranářů záchranářům
+82	5282	citát	citátem citátu citáty citátů
+83	5283	pláč	pláče pláčem pláči
+84	5284	potravinářský	potravinářskou potravinářská potravinářské potravinářského potravinářském potravinářských potravinářským potravinářskými
+85	5285	pomyslet	pomyslel pomyslela pomysleli pomyslete pomyslí pomyslím pomyslíme pomyslíte pomýšlel pomýšlet
+86	5286	synovec	synovce synovcem synovci synovců
+87	5287	krmit	krmen krmena krmeni krmeny krmil krmila krmili krmily krmte krmí krmící krmím krmíme krmíte krmě nakrmit
+88	5288	čtvereční	čtverečních čtverečního čtverečním
+89	5289	nežádoucí	nežádoucích nežádoucího nežádoucím nežádoucími nežádoucímu
+90	5290	štafeta	štafet štafetou štafetu štafety štafetách štafetě
+91	5291	prorok	proroci prorocká prorocké prorocký prorockých proroka prorokem prorokovi proroku proroky proroků prorokům
+92	5292	oltář	oltáře oltářem oltáři oltářů
+93	5293	kompetence	kompetencemi kompetenci kompetencí kompetencích
+94	5294	balet	baletem baletu baletů
+95	5295	eso	esa esem esu esy
+96	5296	aparát	aparátem aparátu aparáty aparátů
+97	5297	zavěsit	zavěs zavěsil zavěsila zavěsili zavěste zavěsí zavěsíme zavěšen zavěšena zavěšeno zavěšeny zavěšené zavěšení zavěšený
+98	5298	přehnaný	přehnanou přehnaná přehnané přehnaného přehnaných přehnaným přehnaně
+99	5299	přechodný	přechodnou přechodná přechodné přechodného přechodném přechodnému přechodných přechodným přechodnými
+100	5300	válet	válej válejí válející válel válela váleli válelo válely válení válí válím válíme

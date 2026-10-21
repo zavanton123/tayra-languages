@@ -1,0 +1,100 @@
+1	2901	samice	samce samcem samci samců samcům samec samečci sameček samečka samečky samečků samic samicemi samici samicí samicím samičce samiček samička samičkou samičku samičky
+2	2902	platforma	platforem platformami platformou platformu platformy platformách platformě
+3	2903	dojet	dojede dojedeme dojedete dojedou dojedu dojel dojela dojeli dojelo dojely dojetí dojetím dojeďte
+4	2904	diplomat	diplomata diplomatem diplomati diplomatickou diplomaticky diplomatická diplomatické diplomatického diplomatickém diplomatickému diplomatický diplomatických diplomatickým diplomatickými diplomatka diplomaty diplomaté diplomatů diplomatům
+5	2905	příjezd	příjezdem příjezdu příjezdy příjezdů
+6	2906	logický	logickou logická logické logického logickém logickému logických logickým logickými logičtější nejlogičtější
+7	2907	porod	porodech porodem porodu porody porodů porodům
+8	2908	vzkaz	vzkazem vzkazu vzkazy vzkazů
+9	2909	dámský	dámskou dámská dámské dámského dámském dámských dámským
+10	2910	schod	schodech schodu schody schodů schodům schůdek
+11	2911	úmrtí	úmrtích úmrtím úmrtími
+12	2912	čára	čar čarami čarou čarách čárami čárce čárek čárka čárkami čárkou čárku čárky čárou čárové čáru čáře
+13	2913	jeskyně	jeskyni jeskyní jeskyních jeskyním jeskyněmi jeskyň jeskyňky
+14	2914	kráva	krav kravami kravské kravského kravský kravských kravským kravám krávami krávo krávou krávu krávy krávě
+15	2915	předčasný	předčasnou předčasná předčasné předčasného předčasném předčasnému předčasných předčasným předčasnými předčasně
+16	2916	medicína	medicínou medicínu medicíny medicíně
+17	2917	civilizace	civilizacemi civilizaci civilizací civilizacích civilizacím civilizační civilizačního
+18	2918	naproti	
+19	2919	vzhůru	
+20	2920	poškodit	poškodil poškodila poškodili poškodilo poškodily poškodí poškodíte poškozen poškozena poškozeni poškozeno poškozeny poškozovat poškozuje
+21	2921	legendární	legendárních legendárního legendárním legendárními legendárnímu
+22	2922	kritický	kritickou kritická kritické kritického kritickém kritickému kritických kritickým kritickými kritičtí kritičtější nejkritičtější
+23	2923	dech	dechem dechu dechy dechů
+24	2924	problematika	problematice problematikou problematiku problematiky
+25	2925	spokojit	nespokojí spokojen spokojena spokojeni spokojeno spokojeny spokojení spokojil spokojila spokojili spokojí spokojím spokojíme
+26	2926	inženýr	inženýra inženýre inženýrem inženýrka inženýrovi inženýrské inženýrský inženýry inženýrů inženýrům inženýři
+27	2927	rozloučit	louče loučil loučila loučili loučit loučí loučím loučíme luč rozloučení rozloučením rozloučil rozloučila rozloučili rozloučilo rozloučily rozloučí rozloučím rozloučíme rozlučte
+28	2928	postižený	postižena postiženi postiženo postiženou postiženy postižená postižené postiženého postiženém postiženému postižených postiženým postiženými
+29	2929	nerv	nerve nervech nervem nervu nervy nervů nervům
+30	2930	mráz	mraze mrazech mrazem mrazu mrazy mrazík mrazíky mrazíků mrazů mrazům mráze mrázek mrázová
+31	2931	padesát	padesáti
+32	2932	uhlí	uhlím
+33	2933	kuchař	kuchařce kuchaře kuchařek kuchařem kuchaři kuchařka kuchařkou kuchařku kuchařky kuchařová kuchařové kuchařů kuchařům
+34	2934	hrdý	hrdou hrdá hrdé hrdého hrdí hrdých hrdým hrdými hrdě
+35	2935	chladný	chladna chladnou chladná chladné chladného chladném chladnému chladní chladných chladným chladnými chladně chladněji chladnější chladnějších chladnějšího chladnějším nejchladnější nejchladnějších nejchladnějším
+36	2936	věrný	nejvěrněji nejvěrnější nejvěrnějších nejvěrnějším věren věrna věrni věrnou věrná věrné věrného věrném věrnému věrní věrných věrným věrnými věrně věrnější
+37	2937	objednávka	objednávce objednávek objednávkami objednávkou objednávku objednávky objednávkách
+38	2938	likvidace	likvidaci likvidací
+39	2939	financování	financováním
+40	2940	duševní	duševních duševního duševním duševními duševnímu duševně
+41	2941	chemie	chemii chemií
+42	2942	historik	historici historika historikem historikovi historikové historiky historiků historikům historička historičkou historičky
+43	2943	parametr	parametrech parametrem parametru parametry parametrů parametrům
+44	2944	střelba	střelbou střelbu střelby střelbách střelbě střeleb
+45	2945	nominace	nominacemi nominaci nominací nominacích
+46	2946	protest	protestech protestem protestu protesty protestů protestům
+47	2947	krevní	krevních krevního krevním krevními krevnímu
+48	2948	skóre	skórem
+49	2949	reklamní	reklamních reklamního reklamním reklamními
+50	2950	kanadský	kanadskou kanadská kanadské kanadského kanadském kanadskému kanadských kanadským kanadskými kanadští
+51	2951	redakce	redakcemi redakci redakcí redakcích
+52	2952	éra	éro érou éru éry éře
+53	2953	koní	koních koním
+54	2954	styk	stycích stykem styku styky styků stykům
+55	2955	císař	císaře císařem císaři císařova císařovi císařová císařové císařově císařů císařův
+56	2956	řetězec	řetězce řetězcem řetězci řetězcích řetězců řetězcům
+57	2957	hlášení	hlášeních hlášením
+58	2958	natolik	
+59	2959	mlýn	mlýna mlýnech mlýnek mlýnem mlýnkem mlýnku mlýnky mlýnků mlýnské mlýnský mlýnu mlýny mlýně mlýnů
+60	2960	výcvik	výcvikem výcviku výcviky výcviků
+61	2961	máslo	másla másle máslem máslu
+62	2962	panel	panelech panelem panelu panely panelů panelům
+63	2963	vchod	vchodech vchodem vchodu vchody vchodů
+64	2964	telefonní	telefonních telefonního telefonním telefonními telefonnímu
+65	2965	prezentace	prezentaci prezentací prezentacích
+66	2966	ráj	ráje rájem ráji rájích rájů
+67	2967	zvážit	zvaž zvažme zvažoval zvažovala zvažovali zvažovalo zvažovat zvažována zvažování zvažte zvažuje zvažujeme zvažujete zvažuji zvažuju zvažují zvážení zvážil zvážila zvážili zváží zvážím zvážíme zvážíte
+68	2968	týkající	týkajících týkajícího týkajícím týkajícími
+69	2969	švýcarský	švýcarskou švýcarská švýcarské švýcarského švýcarském švýcarskému švýcarských švýcarským švýcarskými švýcarští
+70	2970	motivace	motivaci motivací
+71	2971	úhel	úhlech úhlem úhlu úhly úhlů úhlům
+72	2972	vyhlášení	vyhlášením
+73	2973	kilo	kil kila kilech kilem kily
+74	2974	údržba	údržbou údržbu údržby údržbě
+75	2975	bouře	bouřemi bouři bouří bouřích bouřím
+76	2976	pozdější	pozdějších pozdějšího pozdějším pozdějšími pozdějšímu
+77	2977	dobro	dobra dobrem dobru dobry
+78	2978	lípa	lip lipami lipka lipou lipovou lipová lipové lipového lipový lipových lípami lípou lípu lípy lípě
+79	2979	porovnání	porovnáním
+80	2980	schránka	schránce schránek schránkami schránkou schránku schránky schránkách schránkám
+81	2981	střet	střetech střetem střetu střety střetů střetům
+82	2982	surovina	surovin surovinami surovinou surovinu suroviny surovinách surovinám surovině
+83	2983	písmeno	písmen písmena písmene písmenech písmenem písmenu písmeny
+84	2984	neobvyklý	neobvykle neobvyklou neobvyklá neobvyklé neobvyklého neobvyklém neobvyklému neobvyklých neobvyklým neobvyklými
+85	2985	zraněný	zraněnou zraněná zraněné zraněného zraněnému zraněných zraněným zraněnými
+86	2986	vyplnit	vyplnil vyplnila vyplnili vyplnilo vyplnily vyplní vyplním vyplníme vyplníte vyplněn vyplněna vyplněno vyplněny vyplněné vyplnění vyplněný vyplň vyplňovala vyplňovali vyplňovat vyplňte vyplňují
+87	2987	trénovat	trénoval trénovala trénovali trénuje
+88	2988	závodník	závodnic závodnice závodnici závodnicí závodníci závodníka závodníkem závodníkovi závodníku závodníky závodníků závodníkům
+89	2989	provozní	provozních provozního provozním
+90	2990	velvyslanec	velvyslance velvyslancem velvyslanci velvyslanců velvyslankyni velvyslankyní velvyslankyně
+91	2991	skok	skocích skokem skoku skoky skoků skokům
+92	2992	zahynout	nezahynul zahyne zahynou zahynul zahynula zahynuli zahynulo zahynuly
+93	2993	tlačit	dotlačit přitlačil přitlačit tlačen tlačena tlačeni tlačeny tlačení tlačil tlačila tlačili tlačilo tlačily tlačte tlačí tlačící tlačím tlačíme tlačíte
+94	2994	sprcha	sprch sprchami sprchou sprchovou sprchová sprchové sprchového sprchovém sprchový sprchových sprchovým sprchu sprchy sprchách sprše sprška sprškou spršku spršky
+95	2995	soulad	souladu
+96	2996	čistě	čistěji
+97	2997	tenkrát	tenkráte
+98	2998	dramatický	dramatickou dramatická dramatické dramatického dramatickém dramatickému dramatických dramatickým dramatickými dramatičtější nejdramatičtější nejdramatičtějších
+99	2999	poškozený	nepoškozené poškozenou poškozená poškozené poškozeného poškozeném poškozenému poškozených poškozeným poškozenými
+100	3000	rytíř	rytíře rytířem rytíři rytířích rytířů rytířům

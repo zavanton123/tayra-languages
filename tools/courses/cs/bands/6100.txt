@@ -1,0 +1,100 @@
+1	6001	parazit	parazita parazitech parazitem paraziti parazity parazité parazitů parazitům
+2	6002	element	elementech elementem elementu elementy elementů elementům
+3	6003	repertoár	repertoárem repertoáru
+4	6004	požehnání	požehnáním
+5	6005	polibek	polibkem polibku polibky polibků
+6	6006	kalifornium	kalifornia kalifornii kalifornií
+7	6007	bublina	bublin bublinami bublinka bublinou bublinu bubliny bublinách bublině
+8	6008	rumunský	rumunskou rumunská rumunské rumunského rumunském rumunských rumunským rumunskými rumunští
+9	6009	odezva	odezvou odezvu odezvy odezvě
+10	6010	útočiště	útočišti útočištěm útočišť
+11	6011	lichý	lichou lichá liché lichého lichých lichým liší
+12	6012	nepřijatelný	nepřijatelnou nepřijatelná nepřijatelné nepřijatelného nepřijatelných nepřijatelným nepřijatelně
+13	6013	kontaktní	kontaktních kontaktního kontaktním kontaktními
+14	6014	aktiv	aktivech aktivem aktivu aktivy aktivům
+15	6015	jednorázový	jednorázovou jednorázová jednorázové jednorázového jednorázovém jednorázovému jednorázových jednorázovým jednorázovými
+16	6016	porozumění	porozuměním
+17	6017	úplatek	úplatcích úplatkem úplatku úplatky úplatků
+18	6018	kvalifikační	kvalifikačním
+19	6019	odtrhnout	odtrhl odtrhla odtrhli odtrhlo odtrhly odtrhne odtrhnou odtržen odtržena odtrženi odtržené odtržení odtržený
+20	6020	krajan	krajana krajance krajanem krajanka krajankou krajanku krajanky krajanovi krajany krajané krajanů krajanům
+21	6021	dvouhra	dvouher dvouhru dvouhry dvouhrách dvouhře
+22	6022	napájet	napájejí napájel napájen napájena napájeno napájeny napájení napájený napájí
+23	6023	přepsat	přepisoval přepisovala přepisovat přepisovány přepisování přepisováním přepisuje přepisují přepište přepsal přepsala přepsali přepsán přepsána přepsány přepíše přepíšeme přepíšu
+24	6024	jednostranný	jednostrannou jednostranná jednostranné jednostranného jednostranném jednostrannému jednostranných jednostranným jednostranně
+25	6025	archeologický	archeologickou archeologická archeologické archeologického archeologickém archeologickému archeologických archeologickým archeologickými
+26	6026	oblak	oblacích oblaka oblakem oblaku oblaky oblaků oblakům obláček
+27	6027	obilí	obilím
+28	6028	sláma	slam slaměná slaměné slaměný slaměných slámou slámová slámové slámu slámy slámě
+29	6029	ubírat	neubírá uber ubrat ubíral ubírala ubírá
+30	6030	pilotní	pilotních pilotního pilotním pilotně
+31	6031	keramika	keramice keramik keramikou keramiku keramiky
+32	6032	úbytek	úbytkem úbytku
+33	6033	uvítat	uvítal uvítala uvítali uvítalo uvítaly uvítá uvítáme
+34	6034	lopata	lopat lopatami lopatce lopatek lopatka lopatkami lopatkou lopatku lopatky lopatkách lopatou lopatu lopaty lopatě
+35	6035	hrozen	hrozne hroznech hroznem hroznu hrozny hroznů
+36	6036	jídelníček	jídelníčkem jídelníčku jídelníčky jídelníčků
+37	6037	běžecký	běžecké
+38	6038	bílkovina	bílkovin bílkovinami bílkovinou bílkovinu bílkoviny bílkovinách
+39	6039	pohyblivý	pohyblivou pohyblivá pohyblivé pohyblivého pohyblivém pohybliví pohyblivých pohyblivým pohyblivými pohyblivější
+40	6040	doga	dog dogu dogy
+41	6041	nakazit	nakazil nakazila nakazili nakazilo nakazily nakazí nakažen nakažena nakaženi nakaženo
+42	6042	kdežto	
+43	6043	nu	
+44	6044	rally	
+45	6045	stěží	
+46	6046	uměle	
+47	6047	konkurz	konkurzech konkurzem konkurzu konkurzy konkurzů
+48	6048	klín	klína klínem klínu klíny klíně klínů
+49	6049	basa	bas basem basou basové basový basu basy basů
+50	6050	penzijní	penzijních penzijního penzijním penzijnímu
+51	6051	ochranka	ochrance ochrankou ochranku ochranky
+52	6052	prales	pralesa pralese pralesem pralesu pralesy pralesích pralesů
+53	6053	něžný	něžnou něžná něžné něžného něžném něžných něžným něžnými něžně něžnější
+54	6054	zvonit	zazvonil zazvonit zvonil zvonila zvonili zvonilo zvonily zvoní zvonící zvoňte
+55	6055	odvádět	odvádí odvádějí
+56	6056	harmonie	harmonii harmonií
+57	6057	katolík	katolička katolíci katolíka katolíkem katolíky katolíků katolíkům
+58	6058	injekce	injekcemi injekci injekcí injekcích
+59	6059	přízemní	přízemních přízemního přízemním přízemními
+60	6060	nájemné	nájemného nájemném nájemnému nájemným
+61	6061	konstruktér	konstruktéři
+62	6062	autentický	autentickou autenticky autentická autentické autentického autentickém autentických autentickým autentickými autentičtější nejautentičtější
+63	6063	vystavět	vystaví vystavím vystavíme vystavíte vystavěl vystavěla vystavěli vystavěn vystavěna vystavěno vystavěny vystavění vystavěný
+64	6064	příslušnost	příslušnosti příslušností
+65	6065	evangelium	evangelia evangeliem evangelii evangeliu evangelií evangeliích
+66	6066	lovecký	loveckou lovecká lovecké loveckého loveckém loveckému loveckých loveckým loveckými lovečtí
+67	6067	tep	tepe tepem tepovou tepová tepové tepu tepy tepů
+68	6068	hřbet	hřbetech hřbetem hřbetu hřbety hřbetě hřbetů
+69	6069	rukáv	rukávech rukávem rukávu rukávy rukávě rukávů
+70	6070	najíst	najedl najedli nají
+71	6071	motto	mott motta mottem mottu
+72	6072	grilovat	grilovali grilovaný grilování griluje grilujeme ugrilovat
+73	6073	specializace	specializaci specializací
+74	6074	bankéř	bankéře bankéřem bankéři bankéřů bankéřům
+75	6075	hazard	hazardem hazardu
+76	6076	vyjednávat	vyjednal vyjednat vyjednávají vyjednává
+77	6077	vstřícný	vstřícnou vstřícná vstřícné vstřícného vstřícní vstřícných vstřícným vstřícně vstřícnější
+78	6078	odměnit	odměnil odměnila odměnili odmění odměním odměníme odměněn odměněna odměněni odměněno odměněny odměňovat odměňuje
+79	6079	osel	osla oslem osli oslovi oslu osly oslí oslího oslík oslím oslů
+80	6080	dominanta	dominant dominantami dominantou dominantu dominanty dominantám dominantě
+81	6081	telefonovat	telefonoval telefonovala telefonovali telefonování telefonuje telefonují zatelefonoval zatelefonovat
+82	6082	atlet	atleta atletek atletem atleti atletka atletkou atletky atlety atletů atletům
+83	6083	ambasáda	ambasád ambasádou ambasádu ambasády ambasádách ambasádě
+84	6084	balkón	balkon balkónech balkónem balkónu balkóny balkóně balkónů
+85	6085	hradecký	hradeckou hradecká hradecké hradeckého hradeckém hradeckých hradeckým hradečtí
+86	6086	věnec	vínku věnce věncem věnci věnců věneček
+87	6087	produktivní	nejproduktivnější nejproduktivnějších nejproduktivnějšího nejproduktivnějším produktivních produktivního produktivním produktivně produktivnější
+88	6088	bombardování	bombardováním
+89	6089	zubař	zubaře zubařem zubaři zubařka zubařské zubařů
+90	6090	kauce	kauci kaucí
+91	6091	koncovka	koncovce koncovek koncovkami koncovkou koncovku koncovky koncovkách
+92	6092	přilákat	přilákají přilákal přilákala přilákali přilákalo přilákaly přiláká přilákání
+93	6093	chirurgie	chirurgii chirurgií
+94	6094	rezidence	rezidenci rezidencí
+95	6095	plošný	plošnou plošná plošné plošného plošném plošnému plošných plošným plošnými
+96	6096	pumpa	pump pumpička pumpou pumpu pumpy pumpě
+97	6097	diplomacie	diplomacii diplomacií
+98	6098	kyselý	kysele kyselejší kyselou kyselá kyselé kyselého kyselém kyselých kyselým kyselými
+99	6099	odpadky	odpadcích odpadků
+100	6100	akceptovat	akceptoval akceptovala akceptovali akceptován akceptována akceptováno akceptovány akceptování akceptuje akceptujeme akceptuji akceptují neakceptoval

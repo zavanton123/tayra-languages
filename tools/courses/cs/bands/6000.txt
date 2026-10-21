@@ -1,0 +1,100 @@
+1	5901	kronika	kronice kronik kronikou kroniku kroniky kronikách
+2	5902	udělení	udělením
+3	5903	vyprodat	vyprodal vyprodala vyprodali vyprodaný vyprodán vyprodána vyprodáno vyprodány vyprodání
+4	5904	privátní	privátních privátního privátním privátními privátně
+5	5905	vinař	vinaře vinařem vinaři vinařské vinařský vinařů vinařům
+6	5906	komponent	komponentu komponenty komponentů
+7	5907	chybný	chybnou chybná chybné chybného chybném chybnému chybných chybným
+8	5908	džíny	džín džínami džínech džínovou džínách džínů
+9	5909	parfém	parfémech parfémem parfému parfémy parfémů
+10	5910	rozklad	rozkladem rozkladu rozklady
+11	5911	efektivita	efektivitou efektivitu efektivity efektivitě
+12	5912	souběžný	souběžnou souběžná souběžné souběžného souběžném souběžných souběžným souběžně
+13	5913	ulevit	ulevil ulevila ulevili ulevilo uleví
+14	5914	kapalina	kapalin kapalinami kapalinou kapalinu kapaliny kapalině
+15	5915	mrkev	mrkve mrkvi mrkvička mrkvičku mrkvičky mrkví
+16	5916	koncentrační	koncentračních koncentračního koncentračním koncentračními
+17	5917	telefonát	telefonátech telefonátem telefonátu telefonáty telefonátů
+18	5918	kulička	kuliček kuličky
+19	5919	přehlédnout	přehlédl přehlédne přehlédnou přehlédnutí přehlížejí přehlížel přehlížela přehlíželi přehlížen přehlížena přehlíženy přehlížení přehlížený přehlížet přehlíží přehlížíme
+20	5920	záporný	zápornou záporná záporné záporného záporném záporných záporným zápornými záporně
+21	5921	střelecký	střeleckou střelecká střelecké střeleckého střeleckém střeleckých střeleckým střeleckými
+22	5922	živočišný	živočišnou živočišná živočišné živočišného živočišných živočišným živočišnými
+23	5923	hněv	hněvem hněvu
+24	5924	dbát	dbají dbal dbala dbali dbalo dbejte dbá dbám dbáme dbáno
+25	5925	ručit	neručí ručení ručením ručil ručí ručím ručíte
+26	5926	stavit	stavil stavila stavili stavte staví stavící stavím stavíme stavíte stavíš
+27	5927	návštěvnost	návštěvnosti
+28	5928	informatika	informatice informatik informatiku informatiky
+29	5929	materiální	materiálních materiálního materiálním materiálními materiálně
+30	5930	loupež	loupeže loupežemi loupeži loupeží loupežích loupežím
+31	5931	golfový	golfovou golfová golfové golfového golfovém golfových golfovým golfovými
+32	5932	vyčerpat	vyčerpají vyčerpal vyčerpala vyčerpali vyčerpalo vyčerpaly vyčerpá vyčerpán vyčerpána vyčerpáni vyčerpáno vyčerpány vyčerpáte vyčerpávat vyčerpává
+33	5933	akustický	akustickou akustická akustické akustického akustickém akustických akustickým akustickými
+34	5934	berlínský	berlínskou berlínská berlínské berlínského berlínském berlínských berlínským berlínští
+35	5935	odnětí	odnětím
+36	5936	publikovaný	nepublikované publikovanou publikovaná publikované publikovaného publikovaném publikovaných publikovaným publikovanými publikována publikovány
+37	5937	pobřežní	pobřežních pobřežního pobřežním pobřežními
+38	5938	sjezdovky	sjezdovek sjezdovkami sjezdovkách
+39	5939	dlužit	dlužen dlužil dlužila dlužili dluží dlužím dlužíme dlužíte
+40	5940	zápěstí	zápěstích zápěstím
+41	5941	pravit	prav pravil pravila pravili pravilo praví pravím pravě
+42	5942	prostřední	prostředních prostředního prostředním
+43	5943	kouzelník	kouzelnice kouzelníci kouzelníka kouzelníkem kouzelníkovi kouzelníky kouzelníků
+44	5944	vídeňský	vídeňskou vídeňská vídeňské vídeňského vídeňském vídeňskému vídeňských vídeňským vídeňští
+45	5945	nečas	nečase nečasem nečasovi nečasová nečasové nečasu
+46	5946	vzejít	nevzejde vzejde vzešel vzešla vzešlo vzešly
+47	5947	hostinec	hostince hostincem hostinci hostincích hostinců hostinskou hostinská hostinské hostinského hostinský hostinských hostinským hostinští
+48	5948	zástava	zástav zástavou zástavu zástavy zástavě
+49	5949	reference	referencemi referenci referencí referencích
+50	5950	kosmetický	kosmetickou kosmetická kosmetické kosmetického kosmetickém kosmetických kosmetickým kosmetickými
+51	5951	koncern	koncernem koncernu koncerny koncernů
+52	5952	maličkost	maličkostech maličkostem maličkosti maličkostmi maličkostí
+53	5953	čerpací	čerpacích
+54	5954	zřízený	zřízena zřízenou zřízeny zřízená zřízené zřízeného zřízeném zřízených zřízeným
+55	5955	interakce	interakcemi interakci interakcí interakcích interakcím
+56	5956	ekonomicky	
+57	5957	gamesa	games
+58	5958	inu	
+59	5959	napůl	
+60	5960	vědom	
+61	5961	zdali	
+62	5962	zákulisí	
+63	5963	časově	
+64	5964	vodítko	vodítek vodítka vodítkem vodítku
+65	5965	zjednodušit	zjednodušen zjednodušené zjednodušený zjednodušil zjednodušila zjednodušili zjednodušilo zjednodušovat zjednodušují zjednoduší zjednoduším zjednodušíme
+66	5966	laboratorní	laboratorních laboratorního laboratorním laboratorními
+67	5967	horník	horníci horníka horníkem horníky horníků horníkům
+68	5968	zázračný	zázračnou zázračná zázračné zázračného zázračném zázračnému zázračných zázračným
+69	5969	vyústit	vyústil vyústila vyústilo vyústily vyústí vyústění vyústěním
+70	5970	zlomek	zlomcích zlomkem zlomku zlomky zlomků
+71	5971	přestoupit	přestoupení přestoupil přestoupila přestoupili přestoupí
+72	5972	nadmořský	nadmořskou nadmořská nadmořské nadmořských
+73	5973	kandidatura	kandidaturou kandidaturu kandidatury kandidatuře
+74	5974	úmluva	úmluv úmluvami úmluvou úmluvu úmluvy úmluvě
+75	5975	navazující	navazujících navazujícího navazujícím navazujícími
+76	5976	psychika	psychice psychikou psychiku psychiky
+77	5977	úkryt	úkrytech úkrytem úkrytu úkryty úkrytů
+78	5978	nepořádek	nepořádkem nepořádku
+79	5979	eliminovat	eliminoval eliminovala eliminovali eliminovalo eliminovaly eliminován eliminována eliminováno eliminovány eliminování eliminuje eliminujeme eliminují
+80	5980	pětka	pětce pětek pětkou pětku pětky
+81	5981	sýkora	sýkorky sýkorou sýkorová sýkoru sýkory
+82	5982	homosexuál	homosexuála homosexuálech homosexuálem homosexuálové homosexuály homosexuálů homosexuálům
+83	5983	mrakodrap	mrakodrapem mrakodrapu mrakodrapy mrakodrapů
+84	5984	otvírat	otvírají otvíral otvírala otvírali otvíraly otvírá otvírám otvíráme otvírání
+85	5985	strašit	strašení strašil strašila strašili strašilo strašily straší
+86	5986	kontrast	kontrastem kontrastu kontrasty kontrastů
+87	5987	emocionální	emocionálních emocionálního emocionálním emocionálními emocionálně
+88	5988	proudit	proudil proudila proudili proudilo proudily proudí proudící rozproudit
+89	5989	svolat	svolal svolala svolá svoláno svolávat svolává
+90	5990	manipulovat	manipuloval manipulovala manipulovali manipulovalo manipulován manipulováno manipulování manipuluje manipulují manipulující
+91	5991	náhradník	náhradnice náhradníci náhradníka náhradníkem náhradníky náhradníků
+92	5992	favorit	favorita favoritů
+93	5993	knihkupectví	knihkupectvích knihkupectvím
+94	5994	plnohodnotný	plnohodnotnou plnohodnotná plnohodnotné plnohodnotného plnohodnotném plnohodnotnému plnohodnotných plnohodnotným plnohodnotnými plnohodnotně
+95	5995	padesátý	padesátá padesáté padesátého padesátém padesátých padesátým
+96	5996	stadium	stadia stadiem stadiu stadií stadiích
+97	5997	akcionář	akcionáře akcionářem akcionáři akcionářů akcionářům
+98	5998	koupel	koupele koupeli koupelí koupelím
+99	5999	přistěhovalec	přistěhovalce přistěhovalci přistěhovalců přistěhovalcům
+100	6000	náhled	náhledem náhledu náhledy náhledů

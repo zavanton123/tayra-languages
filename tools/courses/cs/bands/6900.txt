@@ -1,0 +1,100 @@
+1	6801	teritorium	teritoria teritoriem teritoriu teritorií teritoriích
+2	6802	tatra	tatrou
+3	6803	lákavý	lákavou lákavá lákavé lákavého lákavých lákavým lákavě lákavější nejlákavější
+4	6804	montáž	montáže montáži montáží
+5	6805	stolice	stolici stolicí stoličce stoliček stolička stoličku stoličky
+6	6806	aktér	aktéra aktérem aktéry aktérů aktérům aktéři
+7	6807	statut	statutem statutu
+8	6808	ventil	ventilem ventilu ventily ventilů
+9	6809	hacker	hackera hackerem hackerský hackery hackerů hackerům hackeři
+10	6810	výtisk	výtiscích výtiskem výtisku výtisky výtisků
+11	6811	sochař	sochaře sochařem sochaři sochařka sochařky sochařský sochařů
+12	6812	basketbalový	basketbalovou basketbalová basketbalové basketbalového basketbalovém basketbaloví basketbalových basketbalovým
+13	6813	basketbalista	basketbalistek basketbalistka basketbalistky basketbalistou basketbalistu basketbalisty basketbalisté basketbalistů
+14	6814	posilovna	posiloven posilovnou posilovnu posilovny posilovně
+15	6815	cenzura	cenzurou cenzuru cenzury cenzuře
+16	6816	slanina	slaninou slaninu slaniny slanině
+17	6817	spotřebovat	spotřeboval spotřebovala spotřebovali spotřebovalo spotřebovaly spotřebované spotřebována spotřebováno spotřebování spotřebovávat spotřebovává spotřebuje spotřebujeme spotřebujete spotřebují
+18	6818	pohodový	pohodovou pohodová pohodové pohodového pohodovém pohodoví pohodových pohodovým pohodovější
+19	6819	bezmála	
+20	6820	kupředu	
+21	6821	moto	
+22	6822	plynule	
+23	6823	poctivě	
+24	6824	prokazatelně	
+25	6825	zvenčí	
+26	6826	úmyslně	
+27	6827	farnost	farnostech farnosti farností
+28	6828	sestoupit	sestoupil sestoupila sestoupili sestoupilo sestoupily sestoupí sestoupíme sestupovat sestupuje
+29	6829	provádění	prováděním
+30	6830	odbočka	odbočce odboček odbočkami odbočkou odbočku odbočky
+31	6831	zuřit	rozzuření rozzuřil rozzuřila rozzuřilo rozzuří zuřil zuřila zuřily zuří zuřící
+32	6832	zřetelně	nejzřetelněji zřetelněji
+33	6833	segment	segmentu segmentů
+34	6834	obsažený	obsaženou obsažená obsažené obsaženého obsažených obsaženým obsaženými
+35	6835	atletický	atletickou atletická atletické atletického atletickém atletických atletickým
+36	6836	gumový	gumovou gumová gumové gumového gumovém gumových gumovým gumovými
+37	6837	koupat	koupající koupal koupala koupali koupe koupeme koupou koupu
+38	6838	vyhledávač	vyhledávače vyhledávačem vyhledávači vyhledávačích vyhledávačů
+39	6839	sportovat	sportoval sportovala sportovali sportování sportuje sportujete sportuji sportují sportující zasportovat
+40	6840	východisko	východisek východiska východiskem východisky
+41	6841	semestr	semestrech semestru semestry semestrů
+42	6842	raketoplán	raketoplánem raketoplánu raketoplány raketoplánů
+43	6843	infekční	infekčních infekčního infekčním infekčními
+44	6844	bolševik	bolševici bolševika bolševiky bolševiků bolševikům
+45	6845	odchylka	odchylce odchylek odchylkami odchylkou odchylku odchylky odchylkám
+46	6846	trubice	trubic trubici trubicí trubička trubičky
+47	6847	zeměpis	zeměpisnou zeměpisná zeměpisné zeměpisného zeměpisný zeměpisných zeměpisným zeměpisně zeměpisu
+48	6848	staroměstský	staroměstskou staroměstská staroměstské staroměstského staroměstském staroměstským
+49	6849	hnus	hnusem hnusu
+50	6850	syntetický	syntetickou synteticky syntetická syntetické syntetického syntetických syntetickým syntetickými
+51	6851	makléř	makléře makléřem makléři makléřů makléřům
+52	6852	listí	listím
+53	6853	trolejbus	trolejbusech trolejbusem trolejbusu trolejbusy trolejbusů
+54	6854	zahrnující	zahrnujících zahrnujícího zahrnujícím
+55	6855	blondýna	blondýn blondýno blondýnou blondýnu blondýny blondýně
+56	6856	pohlednice	pohlednic pohlednici pohlednicích
+57	6857	vytočit	vytočení vytočený vytočil vytočila vytočili vytočilo vytočte vytočí vytáčel vytáčení vytáčet vytáčí
+58	6858	struna	strun strunami strunou strunu struny strunách struně
+59	6859	rubrika	rubrice rubrik rubriku rubriky rubrikách
+60	6860	konektor	konektorem konektoru konektory konektorů
+61	6861	filozof	filosof filozofa filozofem filozofovi filozofy filozofů
+62	6862	kartáč	kartáče kartáček kartáčem kartáči kartáčů
+63	6863	fontána	fontán fontánami fontánou fontánu fontány fontáně
+64	6864	utvořit	utvořen utvořena utvoření utvořil utvořila utvořili utvořilo utvořily utvoří utvoříme utvářet utváří
+65	6865	lidskost	lidskosti lidskostí
+66	6866	máj	máje máji májová májové májového májový májí
+67	6867	odposlech	odposlechem odposlechu odposlechy odposlechů
+68	6868	luna	lun luno lunou lunu luny luně
+69	6869	hrot	hrotem hrotu hroty hrotů
+70	6870	byrokracie	byrokracii byrokracií byrokratickou byrokratická byrokratické byrokratického byrokratický byrokratických byrokratickým
+71	6871	socialista	socialisti socialistou socialistu socialisty socialisté socialistů socialistům
+72	6872	vojna	vojnou vojnu vojny vojně
+73	6873	pitomý	nejpitomější pitomou pitomá pitomé pitomého pitomí pitomých pitomým pitomě
+74	6874	archeolog	archeologa archeologem archeologové archeology archeologů archeologům archeoložka
+75	6875	sekundární	sekundárních sekundárního sekundárním sekundárními
+76	6876	břišní	břišních břišního břišním
+77	6877	zmírnit	zmírnil zmírnila zmírnili zmírnilo zmírnily zmírní zmírněn zmírněny
+78	6878	radioaktivní	radioaktivních radioaktivního radioaktivním radioaktivními radioaktivnímu
+79	6879	přídavný	přídavnou přídavná přídavné přídavného přídavných přídavným přídavnými
+80	6880	sblížit	sbližovat sbližování sbližuje sbližují sblížení sblížil sblížila sblížili sblížilo sblížily sblíží
+81	6881	dlažba	dlažbou dlažbu dlažby dlažbě dlažeb
+82	6882	sestup	sestupem sestupu
+83	6883	poukázat	poukázal poukázala poukázali poukázalo poukázaly poukázáno poukáže
+84	6884	rival	rivala rivalem rivalovi rivalové rivaly rivalů rivalům
+85	6885	nota	not notami notou notové notového notový notových notu notách notě
+86	6886	kupa	kup kupka kupou kupu kupy kupě
+87	6887	stereotyp	stereotypech stereotypem stereotypu stereotypy stereotypů stereotypům
+88	6888	hostit	hosti hostil hostila hostili hostilo hostily hostí pohostit
+89	6889	svatyně	svatyni svatyní svatyň
+90	6890	přikázat	přikazovat přikazuje přikázal přikázala přikázali přikázáno přikáže
+91	6891	rychlík	rychlíka rychlíkem rychlíková rychlíkové rychlíku rychlíky rychlíků
+92	6892	hádanka	hádanek hádankami hádankou hádanku hádanky hádankách
+93	6893	argentinský	argentinskou argentinská argentinské argentinského argentinském argentinskému argentinských argentinským argentinští
+94	6894	zavádění	zaváděním
+95	6895	pekárna	pekáren pekárnou pekárnu pekárny pekárnách pekárně
+96	6896	zbourat	bourají boural bourala bourali bourat bourá bourání zbourají zboural zbourala zbourali zbourá zbouráme zbourán zbourána zbouráno zbourány
+97	6897	piano	pian piana pianem pianu
+98	6898	fu	
+99	6899	kdesi	
+100	6900	lékařství	

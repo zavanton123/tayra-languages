@@ -1,0 +1,100 @@
+1	4601	otřást	otřes otřese otřesem otřesen otřesena otřeseni otřesení otřesu otřesy otřesů otřesům otřásat otřásl otřásla otřáslo otřásly otřásá
+2	4602	perla	perel perlami perle perlička perličku perlou perlová perlové perlový perlu perly
+3	4603	zmatek	zmatcích zmatkem zmatku zmatky zmatků zmatkům
+4	4604	chodec	chodce chodcem chodci chodců chodcům chodkyně
+5	4605	sedačka	sedačce sedaček sedačkami sedačkou sedačku sedačky sedačkách
+6	4606	znalec	znalce znalcem znalci znalců znalcům znalkyně
+7	4607	rozpoznat	rozpoznají rozpoznal rozpoznala rozpoznali rozpozná rozpoznáme rozpoznán rozpoznána rozpoznáno rozpoznány rozpoznání rozpoznáte rozpoznávají rozpoznávat rozpoznává rozpoznávání rozpoznáváním
+8	4608	rozbitý	rozbitou rozbitá rozbité rozbitého rozbitém rozbití rozbitím rozbitých rozbitým rozbitými
+9	4609	dozorce	dozorcem dozorci dozorců dozorcům dozorkyně dozorčí dozorčího
+10	4610	pasáž	pasáže pasážemi pasáži pasáží pasážích pasážím
+11	4611	dohnat	dohnal dohnala dohnali dohnalo dohnaly dohnán dohánět dožene doženeme doženou doženu
+12	4612	nepříznivý	nepříznivou nepříznivá nepříznivé nepříznivého nepříznivém nepříznivému nepříznivých nepříznivým nepříznivými nepříznivě
+13	4613	dočíst	dočetl dočetla dočetli dočte dočteme dočtete dočteš dočtu
+14	4614	natož	
+15	4615	přinejmenším	
+16	4616	zemětřesení	zemětřeseních zemětřesením
+17	4617	ředitelství	ředitelstvím
+18	4618	zbláznit	blázni bláznit blázní bláznění zbláznil zbláznila zbláznili zbláznilo zblázní zblázním zbláznění
+19	4619	indián	indiána indiánech indiánem indiáni indiánka indiánky indiány indiánů indiánům
+20	4620	navigace	navigaci navigací navigační
+21	4621	vlhký	vlhkou vlhká vlhké vlhkého vlhkém vlhkému vlhkých vlhkým vlhkými vlhčí vlhčích
+22	4622	poloostrov	poloostrova poloostrovem poloostrovu poloostrově
+23	4623	rozlišit	rozlišil rozlišoval rozlišovali rozlišovat rozlišování rozlišuje rozlišujeme rozlišují rozliší
+24	4624	zdánlivý	zdánlivou zdánlivá zdánlivé zdánlivého zdánlivém zdánlivých zdánlivým zdánlivě
+25	4625	letectvo	letectva letectvem letectvu
+26	4626	propadnout	propadat propadl propadli propadly propadne propadá
+27	4627	uslyšet	neuslyší uslyšel uslyšela uslyšeli uslyší uslyším uslyšíme uslyšíte uslyšíš
+28	4628	opora	opor oporami oporou oporu opory oporám opoře
+29	4629	objektiv	objektivem objektivu objektivy objektivů
+30	4630	tancovat	tancoval tancovala tancovali tancovalo tancovaly tancování tancuj tancuje tancujeme tancuju tancují tancující zatancovat
+31	4631	kočár	kočárek kočárem kočárkem kočárku kočárky kočárků kočáru kočáry kočárů kočáře
+32	4632	radovat	radoval radovala radovali radovalo radovaly raduj raduje radujeme raduji radujme radujte radují
+33	4633	šatna	šaten šatnami šatnou šatnu šatny šatnách šatně
+34	4634	jeviště	jevišti jevištní jevištních jevištního jevištích jevištěm
+35	4635	ponorka	ponorce ponorek ponorkami ponorkou ponorkovou ponorková ponorkové ponorku ponorky ponorkách ponorkám
+36	4636	podstoupit	podstoupení podstoupil podstoupila podstoupili podstoupilo podstoupily podstoupí podstoupím podstoupíte podstupovat podstupuje
+37	4637	utkat	utkají utkal utkala utkali utkalo utkaly utká utkáme utkáte
+38	4638	podvodník	podvodnice podvodníci podvodníka podvodníkem podvodníkovi podvodníky podvodníků podvodníkům
+39	4639	dominovat	dominoval dominovala dominovali dominovalo dominovaly dominuje dominují dominující dominujícím
+40	4640	pokrm	pokrmech pokrmem pokrmu pokrmy pokrmů pokrmům
+41	4641	optimální	optimálních optimálního optimálním optimálnímu
+42	4642	penalta	penalt penaltou penaltu penalty penaltách penaltě
+43	4643	statečný	nejstatečnější statečnou statečná statečné statečného statečném statečnému stateční statečných statečným statečnými statečně statečnější
+44	4644	náraz	nárazech nárazem nárazu nárazy nárazů nárazům
+45	4645	zítřek	zítřka zítřkem zítřku zítřky zítřků zítřkům
+46	4646	páteř	páteře páteři páteří
+47	4647	nudný	nejnudnější nudnou nudná nudné nudného nudném nudní nudných nudným nudnými nudně nudnější
+48	4648	běžec	běžce běžcem běžci běžců běžcům běžkyni běžkyně běžkyň
+49	4649	únos	únosech únosem únosu únosy únosů únosům
+50	4650	úpadek	úpadkem úpadku
+51	4651	nosič	nosiče nosičem nosiči nosičích nosičů
+52	4652	náskok	náskokem náskoku
+53	4653	obejmout	obejme obejmou obejmu obejmul obejmutí objal objala objali objímají objímající objímal objímala objímali objímat objímá objímám objímání
+54	4654	tis	tisu tisy
+55	4655	vyznačit	vyznačen vyznačena vyznačeno vyznačeny vyznačené vyznačení vyznačený vyznačil vyznačili vyznačovat vyznačuje vyznačí
+56	4656	vyučovat	vyučil vyučit vyučoval vyučovala vyučovali vyučovalo vyučován vyučována vyučovány vyučuje vyučuji vyučují vyučující
+57	4657	štědrý	nejštědřejší štědrou štědrá štědré štědrého štědrém štědrému štědrých štědrým štědře štědřejší štědří
+58	4658	dědic	dědice dědicem dědici dědický dědicové dědiců dědicům dědička dědičkou dědičku dědičky
+59	4659	dotáhnout	dotahovat dotažena dotáhl dotáhla dotáhli dotáhlo dotáhly dotáhne dotáhneme dotáhnete dotáhnou dotáhnu
+60	4660	hloupost	hlouposti hloupostmi hloupostí
+61	4661	zřídit	zřídil zřídila zřídilo zřídily zřídí zřízen zřízeno
+62	4662	mexický	mexickou mexická mexické mexického mexickém mexickému mexických mexickým mexickými mexičtí
+63	4663	rodák	rodačka rodáci rodáka rodákem rodákovi rodáky rodáků
+64	4664	kloub	kloubech kloubem kloubu klouby kloubů kloubům
+65	4665	dovoz	dovozem dovozu dovozy dovozů
+66	4666	organický	organickou organicky organická organické organického organickém organických organickým organickými
+67	4667	výslech	výslechem výslechu výslechy výslechů výslechům výsleších
+68	4668	uniforma	uniforem uniformami uniformou uniformu uniformy uniformách uniformě
+69	4669	vztáhnout	vztahovat vztahuje vztažena vztaženo vztáhl vztáhla vztáhne
+70	4670	sud	soudek soudku sudech sudem sudu sudy sudů
+71	4671	nahlásit	nahlaste nahlaš nahlásil nahlásila nahlásili nahlásilo nahlásí nahlásíte nahlášen nahlášena nahlášeno nahlášeny nahlášení nahlášený
+72	4672	týž	tatáž touž táž téhož témuž témž témže téže týchž týmiž týmž
+73	4673	kruhový	kruhovou kruhová kruhové kruhového kruhovém kruhovému kruhových kruhovým kruhovými
+74	4674	logicky	
+75	4675	potřetí	
+76	4676	provaz	provaze provazem provazu provazy provazů provázek provázkem provázku provázky provázků
+77	4677	terč	terče terčem terči terčík terčů
+78	4678	kurt	kurtech kurtem kurtu kurty kurtů
+79	4679	míchat	míchají míchal míchala míchali míchaná míchané míchaný míchaných míchejte míchá míchám mícháme míchání mícháte namíchala namíchat namíchá promíchat promíchejte promíchá promícháme smíchat
+80	4680	tolerance	toleranci tolerancí
+81	4681	atrakce	atrakcemi atrakci atrakcí atrakcích atrakcím
+82	4682	závodit	vodění závodil závodila závodili závodilo závodily závodí závodící závodím závodíme závodíte závodě
+83	4683	občanství	občanstvím
+84	4684	historka	historek historku historky
+85	4685	uplatnění	uplatněním
+86	4686	uvolnění	uvolněním
+87	4687	střih	střihem střihu střihy střihů
+88	4688	vozit	voz vozil vozila vozili vozilo vozily vozí vozím vozíme vozíte
+89	4689	posvátný	nejposvátnější nejposvátnějších posvátnou posvátná posvátné posvátného posvátném posvátnému posvátných posvátným posvátnými
+90	4690	konverzace	konverzaci konverzací
+91	4691	přiměřený	nepřiměřená nepřiměřené nepřiměřeně přiměřenou přiměřená přiměřené přiměřeného přiměřeném přiměřených přiměřeným přiměřeně
+92	4692	zneužít	nezneužil zneužije zneužijí zneužil zneužila zneužili zneužit zneužita zneužito zneužity zneužívají zneužívající zneužíval zneužívala zneužívali zneužívat zneužívá zneužíván zneužívána zneužíváni zneužíváno zneužívány
+93	4693	cenit	cenil cenila cenili cení cením ceníme ceníte ceně ceněn ceněna ceněno ceněny
+94	4694	bio	biu
+95	4695	hůl	hole holemi holi holí holích holím hůlka
+96	4696	jáma	jamce jamek jamka jamkami jamkou jamku jamky jamkách jámou jámu jámy jámách jámě
+97	4697	povstalec	povstalce povstalci povstalců povstalcům
+98	4698	neutrální	neutrálních neutrálního neutrálním neutrálními neutrálnímu neutrálně
+99	4699	vystřelit	vystřel vystřelen vystřelena vystřeleno vystřelenou vystřeleny vystřelená vystřelené vystřelení vystřelený vystřelených vystřelil vystřelila vystřelili vystřelilo vystřelily vystřelí vystřelím vystřelíte
+100	4700	štěně	štěněte štěnětem štěněti štěňat štěňata štěňaty štěňátek štěňátka štěňátko

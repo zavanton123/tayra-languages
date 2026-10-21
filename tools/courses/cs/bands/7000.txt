@@ -1,0 +1,100 @@
+1	6901	ron	
+2	6902	sbohem	
+3	6903	stokrát	
+4	6904	zblízka	
+5	6905	šedivý	šedivou šedivá šedivé šedivého šedivém šediví šedivých šedivým šedivými
+6	6906	dynamo	dynama dynamem dynamu
+7	6907	strojírenský	strojírenskou strojírenská strojírenské strojírenského strojírenském strojírenských strojírenským strojírenští
+8	6908	bicí	bicích bicím bicími
+9	6909	stabilizace	stabilizaci stabilizací
+10	6910	zasvětit	zasvěcen zasvěcena zasvěceni zasvěceno zasvěceny zasvěcení zasvětil zasvětila zasvětili zasvětí
+11	6911	hranolky	hranolků
+12	6912	přijímací	přijímacích přijímacího přijímacím
+13	6913	houska	housce housek houskou housku housky
+14	6914	porcelán	porcelánem porcelánovou porcelánová porcelánové porcelánový porcelánových porcelánu
+15	6915	kurátor	kurátora kurátorem kurátorka kurátory kurátorů kurátoři
+16	6916	agenda	agend agendou agendu agendy
+17	6917	ztvárnit	ztvárnil ztvárnila ztvární
+18	6918	sněžit	sněžení sněžením sněžilo sněží
+19	6919	prorazit	prorazil prorazila prorazili prorazilo prorazily prorazí proražen
+20	6920	kvóta	kvót kvótami kvótu kvóty kvótách kvótám
+21	6921	velryba	velryb velrybami velrybou velrybu velryby velrybám velrybí velrybího velrybě
+22	6922	holocaust	holocaustem holocaustu holokaust
+23	6923	konzultant	konzultanta konzultantem konzultanti konzultanty konzultantů
+24	6924	kriminalita	kriminalitou kriminalitu kriminality kriminalitě
+25	6925	řadový	řadovou řadová řadové řadového řadovém řadoví řadových řadovým řadovými
+26	6926	propad	propadem propadu propady
+27	6927	vegetace	vegetaci vegetací vegetační vegetačním
+28	6928	čtyřletý	čtyřletou čtyřletá čtyřleté čtyřletého čtyřletém čtyřletých čtyřletým
+29	6929	vznešený	nejvznešenější vznešenou vznešená vznešené vznešeného vznešeném vznešenému vznešení vznešených vznešeným vznešenými vznešenější
+30	6930	salón	salonů salónech salónem salónu salóny salónů
+31	6931	matrace	matracemi matraci matrací matracích
+32	6932	napodobit	napodobení napodobil napodobila napodobili napodobovat napodobování napodobující napodobí
+33	6933	zplodit	plodit plodí plodící plození zplodil zplodila zplodili zplodí zplození
+34	6934	známost	známostem známosti známostmi známostí
+35	6935	bulvár	bulvárech bulvárem bulváru bulváry bulvárů
+36	6936	rozběhnout	rozbíhají rozbíhající rozbíhala rozbíhat rozbíhá rozběhl rozběhla rozběhli rozběhlo rozběhly rozběhne rozběhnou
+37	6937	závist	závisti závistí
+38	6938	apoštol	apoštola apoštolem apoštolové apoštoly apoštolů apoštolům
+39	6939	léčebna	léčeben léčebnou léčebnu léčebny léčebnách léčebně
+40	6940	rozvinutý	nejrozvinutější rozvinutou rozvinutá rozvinuté rozvinutého rozvinutém rozvinutí rozvinutých rozvinutým rozvinutými rozvinutější
+41	6941	třicátý	třicátou třicátá třicáté třicátého třicátém třicátých třicátým
+42	6942	karma	karmou karmu karmy karmě
+43	6943	politolog	politologa politologové politologů politoložka
+44	6944	oboustranný	oboustrannou oboustranná oboustranné oboustranného oboustranném oboustranných oboustranným oboustranně
+45	6945	malování	malováním
+46	6946	multifunkční	multifunkčních multifunkčního multifunkčním
+47	6947	koordinace	koordinaci koordinací
+48	6948	tepna	tepen tepnami tepnou tepnu tepny tepnách tepně
+49	6949	florbal	florbale florbalovou florbalová florbalové florbalového florbalový florbalových florbalu
+50	6950	zahřát	zahřeje zahřejeme zahřejete zahřejte zahřejí zahřál zahřála zahřáli zahřálo zahřívat
+51	6951	promyšlený	promyšlenou promyšlená promyšlené promyšleného promyšlení promyšlených promyšleným promyšlenými promyšleně promyšlenější
+52	6952	pravoslavný	pravoslavnou pravoslavná pravoslavné pravoslavného pravoslavném pravoslavní pravoslavných pravoslavným pravoslavnými
+53	6953	rozčílit	rozčilovat rozčiluje rozčílená rozčílení rozčílený rozčílil rozčílila rozčílilo rozčílí
+54	6954	puč	puče pučem puči
+55	6955	jahoda	jahod jahodami jahodovou jahodová jahodové jahodového jahodový jahodu jahodách
+56	6956	potýkat	potýkají potýká potýkáme
+57	6957	slabina	slabin slabinou slabinu slabiny slabinách
+58	6958	vyhradit	vyhradil vyhradila vyhradili vyhradí vyhrazen vyhrazena vyhrazeno vyhrazeny vyhrazení vyhrazuje
+59	6959	budík	budíkem budíku budíky budíků budíček
+60	6960	tkadlec	kadlec tkalci tkalcovský tkalců
+61	6961	elf	elfa elfové elfy elfů elfům
+62	6962	stoupání	stoupáním
+63	6963	vydra	vyder vydrou vydrová vydru vydry vydří
+64	6964	rozepnout	rozepne rozepnul rozepnuté rozepnutý rozpínat rozpětí
+65	6965	nálož	nálože náložemi náloží
+66	6966	produktivita	produktivitou produktivitu produktivity produktivitě
+67	6967	mozaika	mozaice mozaik mozaikami mozaikou mozaiku mozaiky
+68	6968	koridor	koridorech koridorem koridoru koridory koridorů
+69	6969	servírka	servírce servírek servírkou servírku servírky
+70	6970	pořízený	pořízena pořízená pořízené
+71	6971	bitevní	bitevních bitevního bitevním bitevními
+72	6972	vak	vacích vakem vaku vaky vaků váček váčky
+73	6973	jihlavský	jihlavskou jihlavská jihlavské jihlavského jihlavském jihlavských jihlavským jihlavští
+74	6974	snoubenka	snoubence snoubencem snoubenci snoubenců snoubencům snoubenec snoubenkou snoubenku snoubenky
+75	6975	apartmá	
+76	6976	pozadu	
+77	6977	systematicky	
+78	6978	teďka	
+79	6979	nátěr	nátěrem nátěrové nátěrových nátěru nátěry nátěrů
+80	6980	výlučný	výlučnou výlučná výlučné výlučného výlučným výlučně
+81	6981	seno	sena senem seně
+82	6982	opona	oponou oponu opony oponě
+83	6983	enzym	enzymem enzymu enzymy enzymů
+84	6984	zpáteční	zpátečním
+85	6985	reprodukce	reprodukcemi reprodukci reprodukcí
+86	6986	stárnutí	stárnutím
+87	6987	povlečení	povlečením
+88	6988	rozvrh	rozvrhem rozvrhu rozvrhy
+89	6989	domněnka	domněnce domněnek domněnkou domněnku domněnky domněnkách domněnkám
+90	6990	synonymum	synonym synonyma synonymem
+91	6991	konzervatoř	konzervatoře konzervatoři konzervatoří konzervatořích
+92	6992	echo	ech echa
+93	6993	variace	variacemi variaci variací variacích
+94	6994	plaz	plaza plazi plazy plazů
+95	6995	jednoduchost	jednoduchosti jednoduchostí
+96	6996	striktní	striktních striktního striktním striktně
+97	6997	četba	četbou četbu četby četbě
+98	6998	metropolitní	metropolitních metropolitního metropolitním
+99	6999	osvědčit	osvědčil osvědčila osvědčili osvědčilo osvědčily osvědčí
+100	7000	zájmový	zájmovou zájmová zájmové zájmového zájmovém zájmových zájmovým zájmovými

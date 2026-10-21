@@ -1,0 +1,100 @@
+1	5301	pokrytí	pokrytím
+2	5302	kukuřice	kukuřici kukuřicí kukuřičnou kukuřičná kukuřičné kukuřičného kukuřičném kukuřičný kukuřičných kukuřičným
+3	5303	pokorný	pokornou pokorná pokorné pokorného pokorní pokorným pokorně
+4	5304	přijatelný	nejpřijatelnější přijatelnou přijatelná přijatelné přijatelného přijatelném přijatelných přijatelným přijatelně přijatelnější
+5	5305	pitný	pitnou pitná pitné pitného
+6	5306	komár	komára komárek komáry komárů komárům komáři
+7	5307	zesnulý	zesnulou zesnulá zesnulé zesnulého zesnulém zesnulému zesnulí zesnulých zesnulým zesnulými
+8	5308	partnerský	partnerskou partnerská partnerské partnerského partnerském partnerských partnerským partnerskými
+9	5309	vyšetřovatel	vyšetřovatele vyšetřovatelem vyšetřovateli vyšetřovatelka vyšetřovatelé vyšetřovatelů vyšetřovatelům
+10	5310	zbrojovka	zbrojovce zbrojovek zbrojovkou zbrojovku zbrojovky
+11	5311	všední	všedních všedního všedním
+12	5312	odsouzený	odsouzenou odsouzená odsouzené odsouzeného odsouzenému odsouzených odsouzeným odsouzenými
+13	5313	bankovnictví	bankovnictvím
+14	5314	jemně	jemněji
+15	5315	zmocnit	zmocnil zmocnila zmocnili zmocnilo zmocnily zmocní zmocněn zmocnění zmocňují
+16	5316	hradba	hradbami hradbou hradbu hradby hradbách hradbám hradbě hradeb
+17	5317	pohonný	pohonnou pohonná pohonné pohonného pohonných pohonným pohonnými
+18	5318	spěchat	spěchají spěchající spěchal spěchala spěchali spěchej spěchá spěchám spěcháme spěcháte
+19	5319	výměra	výměrou výměru výměry výměře
+20	5320	dělnický	dělnickou dělnická dělnické dělnického dělnickém dělnických dělnickým
+21	5321	vlézt	nevlezl vlez vleze vlezeme vlezete vlezl vlezla vlezli vlezlo vlezly vlezou vlezte vlezu
+22	5322	zajetí	zajetím
+23	5323	leták	letácích letákem letáku letáky letáků letáček
+24	5324	hruď	hrudi hrudí
+25	5325	utopit	utopen utopení utopením utopený utopil utopila utopili utopilo utopily utopí utopím
+26	5326	spoušť	spoušti spouští spouštím spouště
+27	5327	součet	součtem součtu součty
+28	5328	zabiják	zabijačka zabijačkové zabijačku zabijačky zabijáci zabijácké zabijácký zabijáka zabijákem zabijákovi zabijáky zabijáků
+29	5329	renesanční	renesančních renesančního renesančním renesančními
+30	5330	žába	žab žabek žabka žabku žabky žabkách žabí žabích žabího žábami žábou žábu žáby žábě
+31	5331	terénní	terénních terénního terénním terénními
+32	5332	severozápadní	severozápadních severozápadního severozápadním severozápadně
+33	5333	přestupek	přestupcích přestupkem přestupku přestupky přestupků přestupkům
+34	5334	kravina	kravin kravinu kraviny
+35	5335	hrudník	hrudníkem hrudníku
+36	5336	umožňující	umožňujících umožňujícího umožňujícím umožňujícími
+37	5337	parní	parních parního parním parními
+38	5338	trofej	trofeje
+39	5339	kamkoli	kamkoliv
+40	5340	plynout	plyne plynou plynoucí plynoucích plynoucího plynoucím plynoucími plynu plynul plynula plynulo plynuly plynutí
+41	5341	protáhnout	protahovat protáhl protáhla protáhli protáhlo protáhly protáhne protáhneme protáhnete protáhnou protáhnu protáhněte
+42	5342	jedenáctý	jedenáctou jedenáctá jedenácté jedenáctého jedenáctém jedenáctým
+43	5343	loket	lokte loktech loktem lokti loktu lokty loktů
+44	5344	operovat	operoval operovala operovali operovalo operovaly operovaný operován operována operování operuje operujeme operují operující
+45	5345	tužka	tužce tužek tužkou tužku tužky
+46	5346	živnostník	živnostníci živnostníka živnostníkem živnostníky živnostníků živnostníkům
+47	5347	spontánní	spontánních spontánního spontánním spontánnímu spontánně
+48	5348	konzumace	konzumaci konzumací
+49	5349	kilogram	kilogramech kilogramu kilogramy kilogramů
+50	5350	cpát	cpa cpal cpala cpali cpe cpeme cpi cpou cpu
+51	5351	výstaviště	výstavišti výstavištěm
+52	5352	smyčka	smyčce smyček smyčkami smyčkou smyčku smyčky smyčkách
+53	5353	angažmá	
+54	5354	back	
+55	5355	nemluvě	
+56	5356	nečekaně	
+57	5357	ryze	
+58	5358	sousedství	
+59	5359	vpřed	
+60	5360	vstříc	
+61	5361	čtyřikrát	
+62	5362	celoživotní	celoživotních celoživotního celoživotním celoživotnímu celoživotně
+63	5363	sporný	spornou sporná sporné sporného sporném sporných sporným spornými
+64	5364	podlaží	podlažích podlažím podlažími
+65	5365	pobývat	pobude pobudu pobyl pobyla pobyli pobyty pobýt pobývají pobývající pobýval pobývala pobývali pobývalo pobývaly pobývá pobývání
+66	5366	dlužník	dlužníci dlužníka dlužníkem dlužníkovi dlužníku dlužníky dlužníků dlužníkům
+67	5367	justice	justici justicí
+68	5368	návyk	návycích návykovou návyková návykové návykový návykových návykovými návyku návyky návyků návykům
+69	5369	rekreační	rekreačních
+70	5370	angažovat	angažoval angažovala angažovali angažovalo angažovaly angažovaný angažovaných angažován angažování angažuje angažují
+71	5371	víkendový	víkendovou víkendová víkendové víkendového víkendovém víkendových víkendovým víkendovými
+72	5372	průchod	průchodem průchodu průchody průchodů
+73	5373	ježek	ježci ježka ježkem ježkovi ježková ježkové ježky ježků ježčí
+74	5374	soutěžící	soutěžících soutěžícího soutěžícím soutěžícími soutěžícímu
+75	5375	důležitost	důležitosti důležitostí
+76	5376	komik	komici komickou komická komické komického komický komických komickým komickými komika komikem komiku komiky komiků komička
+77	5377	smrtící	smrtících smrtícího smrtícím smrtícími
+78	5378	hormon	hormonem hormonu hormony hormonů hormonům
+79	5379	taťka	taťko taťkou taťkovi taťku taťky
+80	5380	pat	pate patem patu paty
+81	5381	ubytovat	ubytoval ubytovala ubytovali ubytovalo ubytovaní ubytovaný ubytován ubytována ubytováni ubytováno ubytovány ubytuje ubytujeme ubytujete ubytujte ubytují
+82	5382	vyznamenání	vyznamenáním vyznamenáními
+83	5383	mat	mate matem matu maty
+84	5384	strážník	strážníci
+85	5385	zřídka	nezřídka
+86	5386	zmrd	zmrda zmrde zmrdi zmrdy zmrdů
+87	5387	navýšení	navýšením
+88	5388	odolnost	odolnosti odolností
+89	5389	putovat	putoval putovaly putuje putují
+90	5390	dozor	dozorem dozoru
+91	5391	zpřístupnit	zpřístupnil zpřístupnila zpřístupnili zpřístupnilo zpřístupní zpřístupníme zpřístupněn zpřístupněna zpřístupněno zpřístupněny zpřístupnění zpřístupněný zpřístupňovat
+92	5392	tesla	tesle teslou teslu tesly
+93	5393	srovnatelný	srovnatelnou srovnatelná srovnatelné srovnatelného srovnatelném srovnatelných srovnatelným srovnatelnými
+94	5394	housle	houslemi housličky houslová houslové houslového houslový houslových houslí houslích houslím
+95	5395	rovnat	rovnají rovnající rovnal rovnala rovnalo rovná rovnám rovnání urovnal urovnala urovnat urovná urovnáme urovnání urovnávat
+96	5396	povýšit	povyšoval povyšovat povyšování povyšuje povyšují povýšen povýšena povýšeni povýšeno povýšeny povýšená povýšené povýšeného povýšený povýšil povýšila povýšili povýší
+97	5397	pohovor	pohovorech pohovorem pohovoru pohovory pohovorů
+98	5398	upevnit	upevnil upevnila upevnili upevnilo upevnily upevní upevníme upevněn upevněna upevněno upevněny upevnění upevněný upevněte upevňovat upevňuje
+99	5399	žralok	žraloci žraloka žralokem žralokovi žraloky žraloků žralokům žraločí žraločích
+100	5400	obžalovaný	obžalovanou obžalovaná obžalované obžalovaného obžalovanému obžalovaní obžalovaných obžalovaným obžalovanými

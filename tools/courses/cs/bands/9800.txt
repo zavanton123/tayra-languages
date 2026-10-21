@@ -1,0 +1,100 @@
+1	9701	asistovat	asistoval asistovala asistovali asistuje asistují
+2	9702	balkánský	balkánskou balkánská balkánské balkánského balkánském balkánských balkánským
+3	9703	sáně	saní saních saně
+4	9704	úsměvný	úsměvnou úsměvná úsměvné úsměvných úsměvným
+5	9705	kříženec	křížence křížencem kříženci kříženců
+6	9706	poschodí	poschodích
+7	9707	včelí	včelích včelího včelím
+8	9708	měchýř	měchýře měchýřem měchýři
+9	9709	branný	brannou branná branné branného branných
+10	9710	vegan	veganem vegani veganka vegany veganů
+11	9711	přívod	přívodem přívodu
+12	9712	skořice	skořici skořicí
+13	9713	modelování	modelováním
+14	9714	nezodpovědný	nezodpovědnou nezodpovědná nezodpovědné nezodpovědného nezodpovědní nezodpovědných nezodpovědným
+15	9715	rodilý	rodilá rodilé rodilého rodilí rodilých rodilým rodilými
+16	9716	aura	aur aurou auru aury
+17	9717	nosorožec	nosorožce nosorožci nosorožců nosorožčí
+18	9718	eben	ebena ebene ebenem ebenové
+19	9719	klavírista	klavíristka klavíristkou klavíristky klavíristou klavíristu klavíristy klavíristů
+20	9720	textař	textaře textařem textaři textařka textařů
+21	9721	férový	férovou férová férové férového férovém féroví férových férově férovější
+22	9722	liz	lize lizu lizy
+23	9723	áčko	áčka áčkem áčku
+24	9724	sestrojit	sestrojen sestrojení sestrojený sestrojil sestrojila sestrojili sestrojí sestrojíme
+25	9725	pochodeň	pochodní pochodně pochodněmi
+26	9726	zrakový	zrakovou zraková zrakové zrakového zrakových zrakovým zrakově
+27	9727	součinnost	součinnosti
+28	9728	žár	žárem žáru
+29	9729	kýbl	kyblík kýble kýblem kýblu
+30	9730	vlhko	vlhka vlhkem vlhku
+31	9731	diabetes	diabetem diabetu
+32	9732	řádění	řáděním
+33	9733	neměnný	neměnnou neměnná neměnné neměnného neměnných neměnným
+34	9734	románský	románskou románská románské románského románském románských románským
+35	9735	zamítnutý	zamítnut zamítnuta
+36	9736	orchidej	orchideje orchidejí
+37	9737	zápasník	zápasnice zápasníci zápasníka zápasníkem zápasníky zápasníků
+38	9738	potah	potahem potahu potahy potahů
+39	9739	draslík	draslíkem draslíku
+40	9740	jezuita	jezuitskou jezuitská jezuitské jezuitského jezuitský jezuitských jezuity jezuité jezuitů
+41	9741	objet	objede objedeme objedu objel objela objeli objíždět
+42	9742	přidělit	přidělil přidělila přidělili
+43	9743	sklárna	skláren sklárnou sklárnu sklárny sklárnách sklárně
+44	9744	zapsaný	zapsané
+45	9745	kradený	kradenou kradená kradené kradeného kradeném kradení kradených kradeným kradenými
+46	9746	skandální	skandálních skandálního skandálním
+47	9747	krájet	krájel krájení krájí krájím nakrájet
+48	9748	sevřený	sevřenou sevřená sevřené sevření
+49	9749	zrzavý	zrzavou zrzavá zrzavé zrzavého zrzavých zrzavým zrzavými
+50	9750	kamarádit	kamarádil kamarádila kamarádili kamarádí skamarádili skamarádit
+51	9751	džbán	džbánek džbánem džbánu džbány džbánů
+52	9752	kapitulace	kapitulaci kapitulací
+53	9753	šrot	šrotem šrotu
+54	9754	horda	hord hordami hordou hordu hordy hordám hordě
+55	9755	vandal	vandala vandalové vandaly vandalů vandalům
+56	9756	legrační	legračních legračního legračním legračně
+57	9757	štětec	štětce štětcem štětců
+58	9758	bezplatně	
+59	9759	jmenovitě	
+60	9760	letecky	
+61	9761	madam	
+62	9762	návratně	nenávratně
+63	9763	panečku	
+64	9764	preventivně	
+65	9765	předvečer	
+66	9766	přenesení	
+67	9767	váhání	
+68	9768	víckrát	
+69	9769	smyšlený	smyšlenou smyšlená smyšlené smyšleného smyšleném smyšlených smyšleným smyšlenými
+70	9770	patologie	patologii patologií
+71	9771	nepochopitelný	nepochopitelnou nepochopitelná nepochopitelné nepochopitelného nepochopitelných nepochopitelným
+72	9772	štír	štíra štíru štíry štírů štíři
+73	9773	hojnost	hojnosti hojností
+74	9774	paseka	pasece pasek paseku paseky pasekách
+75	9775	hendikep	handicap handicapu hendikepem hendikepu
+76	9776	oblačnost	oblačnosti
+77	9777	vlnový	vlnovou vlnová vlnové vlnových
+78	9778	stehlík	stehlíka stehlíková stehlíkové
+79	9779	kalibr	kalibrem kalibru kalibry
+80	9780	utřít	utíral utírala utírat utírá utírám utírání utře utřel utřela utřeme utření utřený utřete utřu
+81	9781	opěrný	opěrnou opěrná opěrné opěrného opěrných opěrným opěrnými
+82	9782	působiště	působišti působištěm působišť
+83	9783	čilý	čile čilejší čilou čilá čilé čilého čilí čilým
+84	9784	ekolog	ekologa ekologové ekology ekologů
+85	9785	eliminace	eliminaci eliminací
+86	9786	maskovaný	maskovanou maskovaná maskované maskovaného maskovaní maskovaných maskovaným
+87	9787	věrohodný	nejvěrohodnější věrohodnou věrohodná věrohodné věrohodného věrohodných věrohodným věrohodnější
+88	9788	bojovný	bojovnou bojovná bojovné bojovného bojovní bojovných bojovným bojovně bojovnější
+89	9789	příměs	příměsi příměsí
+90	9790	římskokatolický	římskokatolickou římskokatolická římskokatolické římskokatolického
+91	9791	žrádlo	žrádla žrádlem
+92	9792	bořit	boření bořil boří zbořit
+93	9793	upálit	upaloval upalovali upalovat upaluje upálen upálena upáleni upálil upálili upálí
+94	9794	nadechnout	nadechl nadechla nadechli nadechne nadechnu nadechněte
+95	9795	narůstající	narůstajících narůstajícího narůstajícím narůstajícími narůstajícímu
+96	9796	žleb	žlebu žleby
+97	9797	instalatér	instalatéra instalatérem instalatéry instalatérů instalatéři
+98	9798	skener	skenerem skeneru skenery skenerů
+99	9799	uzený	uzenou uzená uzené uzeného uzení uzeným
+100	9800	pískat	pískají pískající pískal pískala pískali píská

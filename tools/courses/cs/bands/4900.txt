@@ -1,0 +1,100 @@
+1	4801	charita	charit charitou charitu charity charitě
+2	4802	gólman	gólmana gólmanem gólmani gólmanovi gólmany gólmanů
+3	4803	hádka	hádce hádek hádkami hádkou hádku hádky hádkách hádkám
+4	4804	impérium	impéria impériem impériu impérií
+5	4805	velkolepý	nejvelkolepější velkolepou velkolepá velkolepé velkolepého velkolepém velkolepému velkolepých velkolepým velkolepými velkolepě velkolepější
+6	4806	dohlížet	dohlížejí dohlížející dohlížel dohlížela dohlíželi dohlíželo dohlížely dohlížení dohlíží dohlížíme
+7	4807	marně	
+8	4808	párkrát	
+9	4809	záhy	
+10	4810	idea	ideje idejemi ideji idejí idejích idejím ideou ideu idey
+11	4811	satelitní	satelitních satelitního satelitním satelitními
+12	4812	systémový	systémovou systémová systémové systémového systémovém systémovému systémových systémovým systémovými systémově
+13	4813	neziskový	neziskovou nezisková neziskové neziskového neziskovém neziskových neziskovým neziskovými
+14	4814	zakrýt	zakryje zakryjeme zakryjete zakryjte zakryjí zakryl zakryla zakryli zakrylo zakryly zakryt zakryta zakryto zakryty zakrývají zakrývající zakrýval zakrývala zakrývaly zakrývat zakrývá zakrývání
+15	4815	radar	radarech radarem radaru radary radarů
+16	4816	žďár	žďárem žďáru
+17	4817	interpretace	interpretacemi interpretaci interpretací interpretacím
+18	4818	aktivovat	aktivoval aktivovala aktivovali aktivovalo aktivovaly aktivovaný aktivován aktivována aktivováno aktivovány aktivování aktivuje aktivujeme aktivujete aktivujte aktivují aktivující
+19	4819	křehký	křehce křehcí křehkou křehká křehké křehkého křehkém křehkých křehkým křehkými křehčí
+20	4820	popel	popela popele popelem popelová popelu
+21	4821	závidět	závidí závidím závidíme závidíte záviděl záviděla záviděli
+22	4822	beta	bet beto betu bety
+23	4823	přednášet	přednesl přednášejí přednášel přednášela přednášeli přednášení přednáší přednáším přednést
+24	4824	prvotní	prvotních prvotního prvotním prvotnímu prvotně
+25	4825	střetnout	střetl střetla střetli střetlo střetly střetne střetnou střetnutí
+26	4826	útočný	útočnou útočná útočné útočného útočném útoční útočných útočným útočnými útočně
+27	4827	uzel	uzle uzlem uzlu uzly uzlík uzlů
+28	4828	škála	škále škálou škálu škály
+29	4829	nábřeží	nábřežím
+30	4830	senzor	senzorem senzoru senzory senzorů senzorům
+31	4831	potravina	potravin potravinami potravinou potravinovou potravinová potravinové potravinového potravinovém potravinový potravinových potravinovým potravinovými potravinu potravinách potravinám potravině
+32	4832	zastánce	zastáncem zastánci zastánců zastáncům zastánkyní zastánkyně
+33	4833	zatčení	zatčením
+34	4834	kladivo	kladiv kladiva kladivem kladivu kladivy kladívka kladívkem kladívko
+35	4835	živnostenský	živnostenskou živnostenská živnostenské živnostenského živnostenském živnostenskému živnostenských živnostenským
+36	4836	dlaň	dlani dlaní dlaních dlaně dlaněmi
+37	4837	gravitace	gravitaci gravitací gravitační gravitačních gravitačního gravitačním
+38	4838	živnost	živnosti živností
+39	4839	zámecký	zámecká zámecké zámeckém zámeckých
+40	4840	poprava	poprav popravami popravou popravu popravy popravách popravám popravě
+41	4841	nebeský	nebeskou nebeská nebeské nebeského nebeském nebeskému nebeských nebeským nebeskými nebeští
+42	4842	úrokový	úrokovou úroková úrokové úrokového úrokových úrokovým úrokovými
+43	4843	mírový	mírovou mírová mírové mírového mírovém mírovému mírových mírovým mírovými
+44	4844	oxid	oxide oxidem oxidu oxidy oxidů
+45	4845	inspekce	inspekci inspekcí
+46	4846	fráze	frázemi frázi frází frázích frázím
+47	4847	miláček	miláčci miláčka miláčkem miláčkovi miláčkové miláčku miláčky miláčků
+48	4848	obuv	obuvi obuví
+49	4849	mezera	mezer mezerami mezerou mezeru mezery mezerách mezeře
+50	4850	doručit	doručen doručena doručeno doručenou doručeny doručené doručený doručených doručil doručila doručili doručte doručí doručíme
+51	4851	sjednotit	sjednocen sjednocena sjednoceni sjednocenou sjednoceny sjednocená sjednocené sjednoceného sjednocený sjednocených sjednocovat sjednocuje sjednotil sjednotila sjednotili sjednotilo sjednotily sjednotí sjednotíme
+52	4852	klimatický	klimatickou klimaticky klimatická klimatické klimatického klimatickém klimatických klimatickým klimatickými
+53	4853	zpravodaj	zpravodaje zpravodajem zpravodaji zpravodajka zpravodajové zpravodajů
+54	4854	kachna	kachen kachnička kachničky kachnou kachnu kachny kachní kachních kachního kachním kachně
+55	4855	mafie	mafii mafií
+56	4856	pocta	poct poctami poctou poctu pocty poctě
+57	4857	stádo	stád stáda stádech stádem stádečko stádu stády stádě
+58	4858	epidemie	epidemiemi epidemii epidemií epidemiích
+59	4859	povolat	nejpovolanější nejpovolanějších nepovolaných povolají povolal povolala povolali povolané povolaní povolaný povolaných povolá povolán povolána povoláni povoláno povolány
+60	4860	kamion	kamionech kamionem kamionu kamiony kamionů
+61	4861	napadení	napadením
+62	4862	hnát	hnal hnala hnali hnalo hnaly hnán hnána hnáni hnáty nežene žene ženeme ženou ženoucí ženu žeň žní žních žně
+63	4863	přemístit	přemístil přemístila přemístili přemístilo přemístily přemístí přemístíme přemístěn přemístěna přemístěni přemístěno přemístěny přemístění přemístěním přemístěte přemísťovat přemísťování přemísťuje přemísťují
+64	4864	sušenka	sušenek sušenkami sušenku sušenky sušenkách
+65	4865	specifikace	specifikacemi specifikaci specifikací specifikacích
+66	4866	kop	kope kopech kopem kopu kopy kopů
+67	4867	lehnout	lehl lehla lehli lehlo lehly lehne lehnete lehni lehnou lehnu lehněte
+68	4868	penzion	penzionech penzionem penzionu penziony penzionů
+69	4869	krát	
+70	4870	vozovka	vozovce vozovek vozovkou vozovku vozovky vozovkách
+71	4871	bezdomovec	bezdomovce bezdomovcem bezdomovci bezdomovců bezdomovcům bezdomovkyně
+72	4872	zubní	zubních zubního zubním
+73	4873	jazz	jazzem jazzu jazzy
+74	4874	pouzdro	pouzder pouzdra pouzdrech pouzdrem pouzdru pouzdry pouzdře
+75	4875	paralelní	paralelních paralelního paralelním paralelními paralelně
+76	4876	odrazit	odrazil odrazila odrazili odrazilo odrazily odrazí odrazíme odražen odražená odražené odraženého odraženému odražení odražený odražených
+77	4877	vznést	vznese vznesen vznesena vzneseno vzneseny vznesl vznesla vznesli vzneslo vznesly vznesou vznášejí vznášející vznášel vznášela vznášeli vznášelo vznášely vznášení vznášet vznáší vznáším
+78	4878	nákaza	nákaz nákaze nákazou nákazu nákazy nákazám
+79	4879	betonový	betonovou betonová betonové betonového betonovém betonových betonovým betonovými
+80	4880	měnový	měnovou měnová měnové měnového měnovém měnovému měnových měnovým
+81	4881	fyzikální	fyzikálních fyzikálního fyzikálním fyzikálními fyzikálně
+82	4882	samozřejmost	samozřejmosti samozřejmostí
+83	4883	předběžný	předběžnou předběžná předběžné předběžného předběžném předběžnému předběžných předběžným
+84	4884	textilní	textilních textilního textilním textilními
+85	4885	výdělek	nejvýdělečnější nejvýdělečnějším výdělečnou výdělečná výdělečné výdělečný výdělečně výdělkem výdělku výdělky výdělků
+86	4886	otisk	otisky otisků
+87	4887	hasičský	hasičskou hasičská hasičské hasičského hasičském hasičských hasičským
+88	4888	porce	porci porcí porcích
+89	4889	zadat	zadal zadejte zadán zadáno zadávat
+90	4890	mikina	mikin mikinou mikinu mikiny mikině
+91	4891	hradit	hradil hradila hradili hradí hradíme hradě hrazen hrazena hrazeno hrazeny hrazené hrazení hrazený
+92	4892	náplň	náplni náplní náplně náplněmi
+93	4893	odběr	odběrem odběru odběry odběrů
+94	4894	cílený	cílenou cílená cílené cíleného cíleném cílenému cílení cílených cíleným cílenými cíleně
+95	4895	nesprávný	nesprávnou nesprávná nesprávné nesprávného nesprávném nesprávnému nesprávných nesprávným nesprávnými
+96	4896	poštovné	poštovného
+97	4897	identifikace	identifikaci identifikací
+98	4898	živočich	živočicha živočichem živočichové živočichy živočichů živočichům živočiších
+99	4899	lokomotiva	lokomotiv lokomotivami lokomotivou lokomotivu lokomotivy lokomotivě
+100	4900	pocítit	nepociťoval nepocítil pociťoval pociťovat pociťována pociťuje pociťují pocítil pocítila pocítili pocítí pocítím pocítíme pocítíte

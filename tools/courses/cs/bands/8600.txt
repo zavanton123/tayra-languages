@@ -1,0 +1,100 @@
+1	8501	zlost	zlosti zlostí
+2	8502	četnost	četnosti četností
+3	8503	turbína	turbín turbínami turbínou turbínu turbíny
+4	8504	mig	migy
+5	8505	hospodář	hospodáře hospodářem hospodáři hospodářů
+6	8506	babka	babce babek babkou babku babky
+7	8507	analogový	analogovou analogová analogové analogového analogových analogovým analogovými analogově
+8	8508	tréninkový	tréninkové
+9	8509	zvrat	zvratu zvraty
+10	8510	draft	draftu
+11	8511	manipulační	
+12	8512	zaprvé	
+13	8513	přivodit	přivodil přivodila přivodili přivodilo přivodily přivodí přivádí přivádíme přivádějí přivádějící přiváděl přiváděla přiváděli přivádělo přiváděly přiváděn přiváděna přivádět
+14	8514	chladič	chladiče chladičem chladiči chladičů
+15	8515	kaplan	kaplana kaplanem kaplani kaplanovi kaplanů
+16	8516	obydlený	neobydlená neobydlené obydlenou obydlená obydlené obydleného obydleném obydlených obydleným
+17	8517	vnitrozemí	vnitrozemím
+18	8518	registrovat	registruje registrují
+19	8519	roztrhat	roztrhají roztrhal roztrhala roztrhali roztrhalo roztrhané roztrhaný roztrhá roztrhán roztrhání
+20	8520	výplň	výplni výplní výplních výplně výplněmi
+21	8521	házená	házenou házené
+22	8522	modřina	modrák modřin modřinami modřinka modřinu modřiny
+23	8523	uhlíkový	uhlíkovou uhlíková uhlíkové uhlíkového uhlíkových uhlíkovým uhlíkovými
+24	8524	děs	děsem děsu děsy
+25	8525	bombardovat	bombardoval bombardovala bombardovali bombardovalo bombardovaly bombardován bombardována bombardováni bombardováno bombardovány bombarduje bombardují vybombardovat
+26	8526	prosperující	prosperujících prosperujícího prosperujícím
+27	8527	cukrárna	cukráren cukrárnou cukrárnu cukrárny cukrárně
+28	8528	rolník	rolnického rolnický rolníci rolníka rolníky rolníků rolníkům
+29	8529	zvěst	zvěsti zvěstí
+30	8530	trajekt	trajektem trajektu trajekty trajektů
+31	8531	fikce	fikci fikcí
+32	8532	úlovek	úlovkem úlovku úlovky úlovků
+33	8533	sliznice	sliznic sliznici sliznicí sliznicích
+34	8534	klon	klonem klonu klony klonů
+35	8535	kojit	kojeno kojila kojí kojící kojím
+36	8536	revitalizace	revitalizaci revitalizací
+37	8537	impozantní	impozantních impozantního impozantním impozantně
+38	8538	meteorit	meteoritech meteoritem meteoritu meteority meteoritů
+39	8539	vložka	vložek vložkami vložky
+40	8540	kolemjdoucí	kolemjdoucích kolemjdoucího kolemjdoucím
+41	8541	koloniální	koloniálních koloniálního koloniálním koloniálními
+42	8542	chátrat	chátrají chátrající chátral chátrala chátraly chátrá chátrání
+43	8543	nahraný	nahranou nahraná nahrané nahraného nahraných nahraným
+44	8544	redakční	redakčním
+45	8545	tabákový	tabákovou tabáková tabákové tabákového tabákovém tabákových tabákovým tabákovými
+46	8546	nekvalitní	nekvalitních nekvalitního nekvalitním nekvalitními nekvalitně
+47	8547	vydařený	nejvydařenější nevydařené nevydařeném nevydařený nevydařených vydařenou vydařená vydařené vydařeném vydařených vydařeným
+48	8548	inkoust	inkoustem inkoustu inkousty inkoustů
+49	8549	implantát	implantátem implantátu implantáty implantátů
+50	8550	vytknout	vytkl vytkla vytkli vytknul vytýkat vytýká
+51	8551	členění	členěním
+52	8552	koleda	koled koledami koledou koledu koledy koledě
+53	8553	půvab	půvabem půvabu půvaby
+54	8554	vadný	vadnou vadná vadné vadného vadných vadným
+55	8555	republikánský	republikánskou republikánská republikánské republikánského republikánských republikánským republikánští
+56	8556	zaměnit	zaměnil zaměnila zaměnili zamění zaměněn zaměněna zaměňovat zaměňován zaměňována zaměňovány zaměňování zaměňuje zaměňují
+57	8557	vyšehrad	vyšehradem vyšehradu vyšehradě
+58	8558	špetka	špetkou špetku špetky
+59	8559	chlapecký	chlapeckou chlapecká chlapecké chlapeckého chlapeckém chlapeckých chlapeckým
+60	8560	destrukce	destrukci destrukcí
+61	8561	osvěta	osvětou osvětu osvěty osvětě
+62	8562	tolerantní	tolerantního tolerantnější
+63	8563	čtvercový	čtvercovou čtvercová čtvercové čtvercového čtvercovém čtvercových čtvercovým
+64	8564	krtek	krtci krteček krtka krtkem krtkovi krtky krtků krtčí
+65	8565	nukleární	nukleárních nukleárního nukleárním nukleárními
+66	8566	početí	početím
+67	8567	hejno	hejn hejna hejnech hejnem hejnu
+68	8568	panelák	panelácích paneláku paneláky paneláků
+69	8569	vektor	vektorem vektorovou vektorová vektorové vektorový vektorových vektoru vektory vektorů
+70	8570	poskytnutý	poskytnutou poskytnutá poskytnuté poskytnutého poskytnutém poskytnutých
+71	8571	mystický	mystickou mystická mystické mystického mystickém mystických mystickým mystickými
+72	8572	přizvat	přizval přizvala přizvali přizve přizván přizvána přizváni přizvání
+73	8573	načasování	načasováním
+74	8574	pramenit	pramenila pramení
+75	8575	lyžovat	lyžoval lyžovali lyžuje zalyžovat
+76	8576	menšinový	menšinovou menšinová menšinové menšinového menšinových menšinovým menšinovými
+77	8577	čistírna	čistíren čistírnou čistírnu čistírny čistírnách čistírně
+78	8578	rétorika	rétorice rétorikou rétoriku rétoriky
+79	8579	kvalifikovat	kvalifikoval kvalifikovala kvalifikovali kvalifikovalo kvalifikovaly kvalifikován kvalifikována kvalifikováno kvalifikuje kvalifikují
+80	8580	deformace	deformacemi deformaci deformací deformacím
+81	8581	lahodný	lahodnou lahodná lahodné lahodného lahodných lahodným lahodně nejlahodnější
+82	8582	řetízek	řetízky
+83	8583	osmiletý	osmiletou osmiletá osmileté osmiletého osmiletém osmiletých osmiletým
+84	8584	přízvuk	přízvukem přízvuku přízvuky
+85	8585	licenční	licenčních
+86	8586	soupiska	soupisce soupisku soupisky
+87	8587	desetina	desetin desetinou desetinu desetiny desetinách desetině
+88	8588	spoluobčan	spoluobčany spoluobčané spoluobčanů spoluobčanům
+89	8589	připomenutí	připomenutím
+90	8590	vločka	vloček vločkami vločkové vločku vločky
+91	8591	sperma	spermatem spermatu
+92	8592	nominální	nominálních nominálního nominálním nominálně
+93	8593	unavit	unaven unavena unaveni unavení unavil unavila unavilo unavovat unaví
+94	8594	prs	prsem prsu prsy prsů prsům
+95	8595	světlomet	světlometem světlometu světlomety světlometů
+96	8596	dostavět	dostaví
+97	8597	držák	držákem držáku držáky držáků
+98	8598	teploměr	teploměrem teploměru teploměry teploměrů
+99	8599	čajový	čajovou čajová čajové čajového čajovém čajových čajovým
+100	8600	nadsázka	nadsázce nadsázkou nadsázku nadsázky

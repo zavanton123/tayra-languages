@@ -1,0 +1,100 @@
+1	2101	značný	značnou značná značné značného značném značnému značných značným značnými
+2	2102	hloupý	hloupou hloupá hloupé hloupého hloupém hloupému hloupí hloupých hloupým hloupými hloupě hloupější nejhloupější
+3	2103	nemovitost	nemovitostech nemovitostem nemovitosti nemovitostmi nemovitostí
+4	2104	spotřeba	spotřebou spotřebu spotřeby spotřebě
+5	2105	reprezentace	reprezentacemi reprezentaci reprezentací reprezentacích
+6	2106	upozornit	upozornil upozornila upozornili upozornilo upozornily upozorní upozorním upozorníme upozorníte upozorněn upozorněna upozorněni upozorněte upozorňovat upozorňuje
+7	2107	obléct	obleč obleče oblečen oblečena oblečeni oblečenou oblečeny oblečená oblečené oblečeného oblečený oblečených oblečete oblečou oblečte obleču obléci oblékají oblékal oblékala oblékali oblékaly oblékat oblékl oblékla oblékli oblékly oblékne obléknete oblékni obléknou obléknout obléknu oblékněte obléká oblékám oblékáme oblékání oblékáte
+8	2108	pokuta	pokut pokutami pokutou pokutové pokutový pokutu pokuty pokutách pokutám pokutě
+9	2109	nástup	nástupem nástupu nástupy
+10	2110	horský	horskou horská horské horského horském horskému horských horským horskými horští
+11	2111	digitální	digitálních digitálního digitálním digitálními digitálnímu digitálně
+12	2112	snídaně	snídani snídaní snídaněmi snídaňové snídaňový
+13	2113	družstvo	družstev družstva družstvech družstvem družstvu družstvy družstvům
+14	2114	jarní	jarních jarního jarním jarními jarnímu
+15	2115	jádro	jader jadérka jádra jádrech jádrem jádru jádry jádře
+16	2116	olej	oleje olejem oleji olejová olejové olejích olejů
+17	2117	rozhodčí	rozhodčích rozhodčího rozhodčím rozhodčími rozhodčímu
+18	2118	vnější	vnějších vnějšího vnějším vnějšími vnějšímu
+19	2119	palivo	paliv paliva palivech palivem palivové palivový palivu palivy palivům
+20	2120	zapsat	zapisoval zapisovala zapisovali zapisovaly zapisovat zapisovány zapisování zapisuje zapisujeme zapisuji zapisují zapiš zapište zapsal zapsala zapsali zapsalo zapsaly zapsán zapsána zapsáni zapsáno zapsány zapíše zapíšeme zapíšete zapíšou zapíšu zapíší
+21	2121	čokoláda	čokolád čokoládou čokoládovou čokoládová čokoládové čokoládového čokoládový čokoládových čokoládovým čokoládovými čokoládově čokoládu čokolády čokoládě
+22	2122	spodní	nejspodnější spodních spodního spodním spodními spodnímu spodně
+23	2123	vysílání	vysíláním
+24	2124	budovat	budoval budovala budovali budovalo budovaly budované budovaný budován budována budováno budovány budování budováním buduje budujeme budujete buduji budují budující
+25	2125	hrubý	hrubou hrubá hrubé hrubého hrubém hrubému hrubí hrubých hrubým hrubými hrubě hrubší hrubších hrubším nejhrubší nejhrubšího
+26	2126	studený	nejstudenější studena studenou studená studené studeného studeném studených studeným studenými studeně studenější
+27	2127	cenný	cennou cenná cenné cenného cenném cennému cenní cenných cenným cennými cennější cennějšího nejcennější nejcennějších nejcennějšího nejcennějším
+28	2128	odlišný	odlišnou odlišná odlišné odlišného odlišném odlišnému odlišní odlišných odlišným odlišnými odlišně odlišnější
+29	2129	akorát	
+30	2130	údajně	
+31	2131	obvod	obvodech obvodem obvodu obvody obvodě obvodů obvodům
+32	2132	výhled	výhledech výhledem výhledu výhledy výhledů výhledům
+33	2133	srazit	sraz srazil srazila srazili srazilo srazily srazu srazy srazí srazů sražen sražena sražení sražený srážet sráží
+34	2134	skála	skal skalami skalce skalek skalka skalkou skalku skalky skalkách skalou skalách skalám skálami skále skálou skálu skály
+35	2135	vzdělávání	vzděláváním
+36	2136	hodinky	hodinek hodinkami hodinkách hodinkám
+37	2137	konflikt	konfliktech konfliktem konfliktu konflikty konfliktů konfliktům
+38	2138	anděl	andílci andílek andílka andílkem andílky andílků anděla anděle andělech andělem anděli andělovi andělová andělové andělu anděly andělé andělíček andělíčka andělíčky andělů andělům
+39	2139	snížení	snížením
+40	2140	blbý	blbou blbá blbé blbého blbí blbých blbým blbě blbější nejblbější
+41	2141	funkční	funkčních funkčního funkčním funkčními funkčnímu funkčně nefunkční nefunkčních nefunkčního nefunkčním nefunkčními
+42	2142	pořídit	pořídil pořídila pořídili pořídíte pořízen pořízeny
+43	2143	slavnostní	slavnostních slavnostního slavnostním slavnostnímu slavnostně slavnostnější
+44	2144	ukončení	ukončením
+45	2145	srovnání	srovnáním
+46	2146	skočit	skoč skočil skočila skočili skočilo skočily skočte skočí skočím skočíme skočíte skákající skákal skákala skákali skákalo skákaly skákat skákejte skáče skáčeme skáčete skáčou skáču
+47	2147	židovský	židovskou židovská židovské židovského židovském židovskému židovských židovským židovskými židovští
+48	2148	stoupat	stoupají stoupající stoupajících stoupajícího stoupajícím stoupajícími stoupajícímu stoupal stoupala stoupali stoupalo stoupaly stoupl stoupla stouplo stouply stoupne stoupnou stoupnout stoupá stoupám stoupáme stoupáte
+49	2149	závislost	závislostech závislostem závislosti závislostmi závislostí
+50	2150	horký	horce horkou horká horké horkého horkém horkému horkých horkým horkými
+51	2151	znamení	znameních znamením znameními znamének znaménka znaménkem znaménko znaménky znamínko
+52	2152	závěrečný	závěrečnou závěrečná závěrečné závěrečného závěrečném závěrečnému závěrečných závěrečným závěrečnými
+53	2153	dětství	dětstvím
+54	2154	ochotný	ochoten ochotna ochotni ochotno ochotnou ochotny ochotná ochotné ochotného ochotní ochotných ochotným ochotně ochotněji ochotnější
+55	2155	pás	pase pasech pasem pasu pasy pasů páse pásech pásem pásu pásy pásů
+56	2156	chemický	chemickou chemická chemické chemického chemickém chemickému chemických chemickým chemickými
+57	2157	koleno	kolen kolena kolene kolenech kolenem koleni kolenou kolenu koleny koleně kolenům kolínko
+58	2158	úspěšně	úspěšněji
+59	2159	zloděj	zloděje zlodějem zloději zlodějka zlodějku zlodějky zlodějích zlodějíček zlodějů zlodějům
+60	2160	bazén	bazénech bazének bazénem bazénu bazény bazéně bazénů
+61	2161	elektrárna	elektráren elektrárnami elektrárnou elektrárnu elektrárny elektrárnách elektrárnám elektrárně
+62	2162	automaticky	
+63	2163	nikde	
+64	2164	prohlédnout	prohlédl prohlédla prohlédli prohlédlo prohlédne prohlédneme prohlédnete prohlédni prohlédnou prohlédnu prohlédnutí prohlédněte prohlížejí prohlížel prohlížela prohlíželi prohlížely prohlížení prohlížením prohlížet prohlíží prohlížím prohlížíme prohlížíte
+65	2165	hokejista	hokejisti hokejistou hokejistovi hokejistu hokejisty hokejisté hokejistů hokejistům
+66	2166	blízkost	blízkosti blízkostí
+67	2167	zelené	zelených zeleným zelenými
+68	2168	přestěhovat	přestěhoval přestěhovala přestěhovali přestěhovalo přestěhovaly přestěhován přestěhována přestěhování přestěhuje přestěhujeme přestěhujte přestěhují stěhoval stěhovala stěhovali stěhovalo stěhovaly stěhovat stěhuje stěhujeme stěhujete stěhuji stěhuju stěhují
+69	2169	míč	míče míček míčem míči míčová míčové míčích míčů
+70	2170	záměr	záměrech záměrem záměru záměry záměrů záměrům
+71	2171	postoj	postoje postojem postoji postojích postojů postojům
+72	2172	umístění	umístěním
+73	2173	naprostý	naprostou naprostá naprosté naprostého naprostém naprostému naprostí naprostých naprostým
+74	2174	hlídat	hlídají hlídající hlídal hlídala hlídali hlídalo hlídaly hlídaný hlídej hlídejte hlídá hlídám hlídáme hlídán hlídána hlídány hlídání hlídáním hlídáte pohlídat
+75	2175	souviset	nesouvisely nesouvisí souvisejí souvisel souvisela souviselo souvisely souvisí souvisící
+76	2176	zachytit	nezachytil zachycen zachycena zachyceni zachyceno zachyceny zachycení zachycením zachycený zachycovat zachycuje zachytil zachytila zachytili zachytilo zachytily zachytávat zachytí zachytím zachytíme zachytíte
+77	2177	rozsah	rozsahem rozsahu rozsahy rozsahů
+78	2178	software	softwarem softwaru softwary softwarů
+79	2179	střelec	střelce střelcem střelci střelců střelcům střelkyní střelkyně
+80	2180	spravedlnost	spravedlnosti spravedlností
+81	2181	dar	dare darech darem daru dary darů darům
+82	2182	vlastník	vlastníci vlastnících vlastníka vlastníkem vlastníkovi vlastníku vlastníky vlastníků vlastníkům
+83	2183	říše	říšemi říši říšskou říšská říšské říšského říšském říšský říšských říšským říší říších
+84	2184	tričko	triček trička tričkem tričku tričky tričkách
+85	2185	odbor	odborech odborem odboru odbory odborů odborům
+86	2186	vtipný	nejvtipnější vtipnou vtipná vtipné vtipného vtipní vtipných vtipným vtipnými vtipně vtipnější
+87	2187	fi	
+88	2188	jestliže	
+89	2189	každopádně	
+90	2190	převážně	
+91	2191	cizinec	cizince cizincem cizinci cizincích cizinců cizincům cizineckou cizinecká cizinecké cizineckého cizinka cizinkou cizinku cizinky
+92	2192	půjčka	půjčce půjček půjčkami půjčkou půjčku půjčky půjčkách půjčkám
+93	2193	poradce	poradcem poradci poradců poradcům poradkyni poradkyní poradkyně
+94	2194	obávat	nejobávanější neobává obávají obávající obával obávala obávali obávalo obávaly obávanou obávaná obávané obávaného obávaní obávaný obávaných obávaným obávanými obává obávám obáváme obáváte
+95	2195	žid	žida židech židem židi židovi židovka židy židé židů židům
+96	2196	odpor	odporem odporu odpory odporů
+97	2197	statistika	statistice statistici statistik statistikami statistikou statistiku statistiky statistikách statistikám statistiků
+98	2198	socha	soch sochami sochou sochu sochy sochách sochám sošce soše sošek soška soškami soškou sošku sošky
+99	2199	vtip	vtipem vtipu vtipy vtipů vtipům vtípek
+100	2200	červená	červenou červených červeným červenými červenější

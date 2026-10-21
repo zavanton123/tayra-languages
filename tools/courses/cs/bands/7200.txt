@@ -1,0 +1,100 @@
+1	7101	zombie	zombies zombií
+2	7102	formulovat	formuloval formulovala formulovali formulované formulovaný formulován formulována formulováno formulovány formulování formuluje formulují
+3	7103	odvoz	odvozem odvozu
+4	7104	hollywoodský	hollywoodskou hollywoodská hollywoodské hollywoodského hollywoodském hollywoodských hollywoodským hollywoodskými hollywoodští
+5	7105	hnojivo	hnojiv hnojiva hnojivem hnojivy
+6	7106	otravný	nejotravnější otravnou otravná otravné otravného otravní otravných otravným otravně
+7	7107	chlast	chlastem chlastu
+8	7108	důvěryhodný	důvěryhodnou důvěryhodná důvěryhodné důvěryhodného důvěryhodní důvěryhodných důvěryhodným důvěryhodnými důvěryhodně důvěryhodnější nejdůvěryhodnější
+9	7109	vnouče	vnoučat vnoučata vnoučaty vnoučatům vnoučetem
+10	7110	pečeť	pečeti pečetí pečetě
+11	7111	turbo	turba turbem turby
+12	7112	nájemník	nájemnice nájemníci nájemníka nájemníkem nájemníkovi nájemníky nájemníků nájemníkům
+13	7113	heroin	heroinu
+14	7114	kasino	kasin kasina kasinech kasinem kasinu
+15	7115	tlumit	tlumená tlumené tlumení tlumený tlumených tlumeným tlumeně tlumí tlumící ztlumení ztlumil ztlumit ztlumte ztlumí
+16	7116	konkurovat	konkuroval konkurovala konkurovaly konkuruje konkurují konkurující
+17	7117	pohřební	pohřebních pohřebního pohřebním
+18	7118	kousat	kousal kousala kousl kousla kousne kousnout kousnu kousání kouše koušou
+19	7119	přibrat	přibere přiberou přiberu přibral přibrala přibrali přibrání přibírat
+20	7120	přitažlivý	nejpřitažlivější nejpřitažlivějších přitažlivou přitažlivá přitažlivé přitažlivého přitažliví přitažlivých přitažlivým přitažlivě přitažlivější
+21	7121	kakao	kakaa kakaem kakaové kakaový
+22	7122	moderovat	moderoval moderovala moderovali moderovaný moderování moderuje moderují
+23	7123	dceřiný	dceřinou dceřiná dceřiné dceřiných dceřiným dceřinými
+24	7124	krokodýl	krokodýla krokodýlem krokodýli krokodýlovi krokodýly krokodýlí krokodýlů krokodýlům
+25	7125	ilustrační	
+26	7126	mega	
+27	7127	neúspěšně	
+28	7128	zajisté	
+29	7129	provozovna	provozoven provozovnami provozovnou provozovnu provozovny provozovnách provozovně
+30	7130	kašpar	kašpara kašparem kašparovi kašparů kašpaři
+31	7131	znepokojovat	znepokojen znepokojena znepokojeni znepokojil znepokojila znepokojilo znepokojoval znepokojovalo znepokojuje znepokojují znepokojující
+32	7132	předposlední	předposledního předposledním
+33	7133	rušný	nejrušnější nejrušnějších nejrušnějším rušno rušnou rušná rušné rušného rušném rušných rušným rušnější
+34	7134	gigant	giganta gigantem giganti gigantu giganty gigantů
+35	7135	omega	omegou omegu omegy
+36	7136	průnik	průnikem průniku průniky průniků
+37	7137	rvačka	rvačce rvaček rvačkou rvačku rvačky rvačkách rvačkám
+38	7138	fúze	fúzi fúzí fůze
+39	7139	spolehlivost	spolehlivosti spolehlivostí
+40	7140	potlesk	potleskem potlesku
+41	7141	esej	eseje eseji esejí esejích esejů
+42	7142	žádoucí	žádoucích žádoucího žádoucím
+43	7143	podélný	podélnou podélná podélné podélného podélném podélných podélným podélnými podélně
+44	7144	mravní	mravních mravního mravním mravně
+45	7145	okurka	okurek okurkami okurkou okurku okurky
+46	7146	troufnout	netroufli netroufám troufl troufla troufli troufne troufnete troufnou troufnu troufá troufám troufáme troufáte
+47	7147	běloch	bělocha bělochem bělochy bělochů bělochům běloši běloška bělošky
+48	7148	ocet	octa octem octovou octová octové octu
+49	7149	bečva	bečvou bečvu bečvy bečvě
+50	7150	čurák	čuráci čuráka čuráku čůrák
+51	7151	startovní	startovního
+52	7152	lysý	lysou lysá lysé
+53	7153	archa	archou archu archy arše
+54	7154	švestka	švestek švestkami švestku švestky švestkách
+55	7155	glóbus	globus glóbem glóbu glóby glóbů
+56	7156	starobylý	starobylou starobylá starobylé starobylého starobylém starobylých starobylým starobylými
+57	7157	zelí	zelím
+58	7158	soukup	soukupa soukupem soukupová soukupové
+59	7159	panelový	panelovou panelová panelové panelového panelovém panelových panelovým panelovými
+60	7160	kolotoč	kolotoče kolotočem kolotoči kolotočů
+61	7161	listový	listovou listová listové listového listovém listoví listových listovým listovými
+62	7162	vědomosti	vědomostech vědomostem vědomostmi vědomostí
+63	7163	půvabný	nejpůvabnější půvabnou půvabná půvabné půvabného půvabných půvabným půvabně
+64	7164	lino	lin lina linem linu liny
+65	7165	zrádce	zrádcem zrádci zrádců zrádcům
+66	7166	vír	vírem víru víry vírů
+67	7167	tematický	tematickou tematická tematické tematického tematickém tematických tematickým tematickými
+68	7168	napjatý	napjatou napjatá napjaté napjatého napjatém napjatí napjatých napjatým napjatě
+69	7169	šéfkuchař	šéfkuchaře šéfkuchařem šéfkuchaři šéfkuchařka šéfkuchařů
+70	7170	nápadný	nejnápadnější nápadnou nápadná nápadné nápadného nápadní nápadných nápadným nápadnými nápadnější
+71	7171	odhodlání	odhodláním
+72	7172	prokurátor	prokurátora prokurátorka prokurátoři
+73	7173	pilulka	pilulce pilulek pilulkami pilulku pilulky pilulkách
+74	7174	thriller	thrillerem thrilleru thrillery thrillerů
+75	7175	mrtvice	mrtvici mrtvicí
+76	7176	kontinentální	kontinentálních kontinentálního kontinentálním
+77	7177	stupnice	stupnic stupnici stupnicí
+78	7178	nadnárodní	nadnárodních nadnárodního nadnárodním nadnárodními
+79	7179	uspokojení	uspokojením
+80	7180	rak	raci raka rakem raková raku raky raků račí ráček
+81	7181	nedůvěra	nedůvěrou nedůvěru nedůvěry nedůvěře
+82	7182	chopit	chop chopil chopila chopili chopily chopte chopí
+83	7183	stuha	stuh stuhami stuhou stuhu stuhy stuze stužka stužky
+84	7184	povýšení	povýšením
+85	7185	nadějný	nadějnou nadějná nadějné nadějného nadějní nadějných nadějným nadějnější nejnadějnější
+86	7186	monarchie	monarchii monarchií
+87	7187	lesba	lesbo lesbu lesby lesbám leseb
+88	7188	šunka	šunce šunkou šunkový šunku šunky
+89	7189	technolog	technologa technologové technology
+90	7190	posedlý	posedlou posedlá posedlé posedlého posedlí posedlých
+91	7191	strašlivý	strašlivou strašlivá strašlivé strašlivého strašlivém strašlivých strašlivým strašlivě
+92	7192	podobnost	podobnosti podobností
+93	7193	sít	seje sejme sejí sel sela selo seta seti sety setí sil sila sily síti zasít
+94	7194	konkurenceschopnost	konkurenceschopnosti
+95	7195	němý	něma němou němá němé němého němém němí němých němým
+96	7196	pochopitelný	pochopitelnou pochopitelná pochopitelné pochopitelných pochopitelným
+97	7197	meditace	meditaci meditací meditacích meditacím
+98	7198	bramborový	bramborovou bramborová bramborové bramborového bramborových bramborovým bramborovými
+99	7199	boháč	boháče boháčem boháči boháčová boháčů boháčům
+100	7200	badatel	badatele badatelem badateli badatelka badatelský badatelé badatelů badatelům

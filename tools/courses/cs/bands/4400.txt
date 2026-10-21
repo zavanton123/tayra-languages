@@ -1,0 +1,100 @@
+1	4301	strážce	strážcem strážci strážcích strážců strážcům strážkyní strážkyně
+2	4302	ikona	ikon ikonami ikonou ikonu ikony ikonách ikonám ikoně
+3	4303	zátěž	zátěže zátěži zátěží
+4	4304	mela	mel mele melo melou melu mely
+5	4305	částečný	částečnou částečná částečné částečného částečném částečnému částečných částečným
+6	4306	syndrom	syndrome syndromem syndromu syndromy syndromů
+7	4307	asistence	asistencemi asistenci asistencí
+8	4308	ustanovení	ustanoveních ustanovením ustanoveními
+9	4309	diagnóza	diagnostickou diagnosticky diagnostická diagnostické diagnostického diagnostickém diagnostický diagnostických diagnostickým diagnostickými diagnóz diagnózami diagnóze diagnózou diagnózu diagnózy
+10	4310	obětovat	obětoval obětovala obětovali obětovalo obětovaly obětován obětována obětováni obětováno obětovány obětování obětuje obětujeme obětujete obětuji obětují
+11	4311	reaktor	reaktorech reaktorem reaktoru reaktory reaktorů
+12	4312	tvůrčí	tvůrčích tvůrčího tvůrčím tvůrčími tvůrčímu
+13	4313	optický	optickou optická optické optického optickém optickému optických optickým optickými
+14	4314	chudoba	chudobou chudobu chudoby chudobě
+15	4315	šestnáct	šestnácti
+16	4316	pec	pece peci pecí pecích
+17	4317	usnesení	usneseních usnesením
+18	4318	aktualizovat	aktualizoval aktualizovala aktualizovali aktualizovanou aktualizovaná aktualizované aktualizovaného aktualizovaném aktualizovaný aktualizovaných aktualizován aktualizována aktualizováno aktualizovány aktualizuje aktualizujeme aktualizují
+19	4319	rozloha	rozlohou rozlohu rozlohy rozloze
+20	4320	solární	solárních solárního solárním solárními solárnímu
+21	4321	kemp	kempe kempech kempem kempu kempy kempů
+22	4322	katedra	kateder katedrou katedru katedry katedře
+23	4323	sídliště	sídlišti sídlištích sídlištěm sídlišť
+24	4324	dočasně	
+25	4325	kéž	
+26	4326	primárně	
+27	4327	překvapivě	
+28	4328	re	
+29	4329	house	housem housu
+30	4330	izolace	izolaci izolací
+31	4331	šťáva	šťáv šťávami šťávou šťávu šťávy šťávách šťávě
+32	4332	ostravský	ostravskou ostravská ostravské ostravského ostravském ostravskému ostravských ostravským ostravští
+33	4333	stvoření	stvořením stvořeními
+34	4334	tvářit	tváře tváření tvářil tvářila tvářili tváří tvářící tvářím tváříme tváříte tváříš zatvářil zatvářila
+35	4335	přípravný	přípravnou přípravná přípravné přípravného přípravném přípravnému přípravných přípravným přípravnými
+36	4336	pomocník	pomocnice pomocnici pomocníci pomocníka pomocníkem pomocníkovi pomocníky pomocníků pomocníkům
+37	4337	cela	cel cele celo celou celu cely celách
+38	4338	plochý	plochou plochá ploché plochého plochém plochých plochým plochými plošší
+39	4339	dánský	dánskou dánsky dánská dánské dánského dánském dánskému dánských dánským dánskými dánští
+40	4340	příloha	příloh přílohami přílohou přílohu přílohy přílohách příloze
+41	4341	záchvat	záchvatech záchvatem záchvatu záchvaty záchvatů záchvatům
+42	4342	povodeň	povodni povodní povodních povodním povodně povodněmi
+43	4343	keř	keře keřem keři keřích keřík keříky keřů keřům
+44	4344	zásilka	zásilce zásilek zásilkami zásilkou zásilku zásilky zásilkách
+45	4345	riskovat	riskla risknout risknu risknul riskoval riskovala riskovali riskování riskuj riskuje riskujeme riskujete riskuji riskují
+46	4346	skutek	skutcích skutkem skutkové skutkový skutku skutky skutků skutkům
+47	4347	uchazeč	uchazeče uchazečem uchazeči uchazečích uchazečů uchazečům
+48	4348	inzerát	inzerátech inzerátem inzerátu inzeráty inzerátů
+49	4349	noty	not notami notách
+50	4350	shrnout	shrne shrneme shrnu shrnuje shrnul shrnula shrnuli shrnuta shrnuto shrnuty shrňme
+51	4351	aktivista	aktivisti aktivistou aktivistu aktivisty aktivisté aktivistů aktivistům
+52	4352	kontejner	kontejnerech kontejnerem kontejneru kontejnery kontejnerů
+53	4353	zmenšit	zmenšen zmenšenou zmenšeny zmenšená zmenšené zmenšeného zmenšeném zmenšení zmenšením zmenšený zmenšených zmenšil zmenšila zmenšili zmenšilo zmenšily zmenšovala zmenšovat zmenšuje zmenšují zmenší zmenšíme
+54	4354	rozjet	rozjede rozjel
+55	4355	nedostatečný	nedostatečnou nedostatečná nedostatečné nedostatečného nedostatečném nedostatečnému nedostatečných nedostatečným nedostatečnými
+56	4356	prapor	praporce praporech praporek praporem praporkem praporku praporky praporu prapory praporů
+57	4357	resort	resortech resortem resortu resorty resortů
+58	4358	mše	mši mší mších
+59	4359	barák	barácích baráka barákem baráku baráky baráků baráček
+60	4360	ordinace	ordinaci ordinací ordinacích
+61	4361	vzorec	vzorce vzorcem vzorci vzorcích vzorců vzorcům vzoreček
+62	4362	doprovodný	doprovodnou doprovodná doprovodné doprovodného doprovodném doprovodných doprovodným doprovodnými
+63	4363	střevo	střev střeva střevech střevem střevu střevy střevě střívka
+64	4364	připomínka	připomínce připomínek připomínkami připomínkou připomínku připomínky připomínkách připomínkám
+65	4365	démon	démona démonech démonem démoni démonovi démonu démony démonů démonům
+66	4366	náčelník	náčelnice náčelníci náčelníka náčelníkem náčelníkovi náčelníku náčelníky náčelníků
+67	4367	mechanika	mechanice mechanici mechanik mechanikem mechanikou mechaniku mechaniky mechaniků mechanikům
+68	4368	intenzivně	intenzivněji nejintenzivněji
+69	4369	lavice	lava lavic lavicemi lavici lavicí lavicích
+70	4370	nevýhoda	nevýhod nevýhodami nevýhodou nevýhodu nevýhody nevýhodách nevýhodě
+71	4371	plukovník	plukovníci plukovníka plukovníkem plukovníkovi plukovníku plukovníků
+72	4372	pyramida	pyramid pyramidami pyramidou pyramidová pyramidové pyramidový pyramidových pyramidu pyramidy pyramidách pyramidě
+73	4373	exekuce	exekucemi exekuci exekucí exekucích exekuční exekučních exekučního exekučním
+74	4374	realitní	realitních realitního
+75	4375	neříkat	neříkali neříkaly neříkej neříkejme neříkejte neříkáme neříkáte
+76	4376	dieta	diet dietami dietou dietu dietách dietě
+77	4377	výpadek	výpadcích výpadkem výpadku výpadky výpadků výpadkům
+78	4378	klip	klipech klipem klipu klipy klipů
+79	4379	uznávaný	nejuznávanější nejuznávanějších nejuznávanějším uznávanou uznávaná uznávané uznávaného uznávaném uznávaní uznávaných uznávaným uznávanými
+80	4380	nenápadný	nenápadnou nenápadná nenápadné nenápadného nenápadném nenápadní nenápadných nenápadným nenápadnými nenápadně nenápadnější
+81	4381	třináct	třinácti
+82	4382	amatérský	amatérskou amatérsky amatérská amatérské amatérského amatérském amatérskému amatérských amatérským amatérskými amatérští
+83	4383	neomezený	neomezenou neomezená neomezené neomezeného neomezeném neomezenému neomezených neomezeným neomezenými neomezeně
+84	4384	ehm	
+85	4385	ručně	
+86	4386	takřka	
+87	4387	obr	obra obrech obrem obrovi obry obryně obrů obrům obři
+88	4388	cihla	cihel cihlami cihle cihlou cihlovou cihlová cihlové cihlového cihlovém cihlový cihlových cihlovými cihlu cihly cihlách
+89	4389	exkluzivní	exkluzivních exkluzivního exkluzivním exkluzivními
+90	4390	charakteristický	charakteristickou charakteristicky charakteristická charakteristické charakteristického charakteristických charakteristickým charakteristickými
+91	4391	celostátní	celostátních celostátního celostátním celostátnímu
+92	4392	duo	dua duem dui duu
+93	4393	odolat	neodolal neodolá odolají odolal odolala odolali odolalo odolaly odolá odolávají odolávat odolává
+94	4394	ledvina	ledvin ledvinami ledvinka ledvinku ledvinky ledvinou ledvinová ledvinové ledvinový ledvinových ledvinu ledviny ledvinách ledvině
+95	4395	zastupovat	nezastupuje zastupoval zastupuje zastupují
+96	4396	dvojče	dvojčat dvojčata dvojčatech dvojčaty dvojčatům dvojčete dvojčetem dvojčeti
+97	4397	protein	proteinem proteinu proteiny proteinů
+98	4398	rozejít	rozejde rozejdeme rozejdou rozešel rozešla rozešli rozešlo rozešly
+99	4399	kůra	kůr kůrka kůrkou kůrku kůrky kůrou kůru kůry kůře
+100	4400	hojný	hojnou hojná hojné hojného hojném hojných hojným hojně hojněji hojnější nejhojněji nejhojnější

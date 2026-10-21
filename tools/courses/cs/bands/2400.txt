@@ -1,0 +1,100 @@
+1	2301	gymnázium	gymnasia gymnasium gymnázia gymnáziem gymnáziu gymnázií gymnáziích
+2	2302	prázdniny	prázdnin prázdninami prázdninách prázdninám
+3	2303	zranit	nezraněn zranil zranila zranili zranilo zranily zraní zraníte zraněn zraněna zraněni zraněno zraněny zraňovat
+4	2304	budoucno	budoucna budoucnu
+5	2305	efektivní	efektivních efektivního efektivním efektivními efektivnímu efektivně efektivněji efektivnější efektivnějšího efektivnějším efektivnějšímu nejefektivněji nejefektivnější nejefektivnějších nejefektivnějším
+6	2306	ocenění	oceněním oceněními
+7	2307	cukr	cukrem cukru cukry cukrů
+8	2308	sportovec	sportovce sportovcem sportovci sportovců sportovcům sportovkyni sportovkyní sportovkyně sportovkyň
+9	2309	opozice	opozici opozicí
+10	2310	vyzvat	vyzval vyzvala vyzvali vyzvalo vyzvaly vyzve vyzveme vyzvou vyzvu vyzván vyzvána vyzváni vyzvány vyzvání vyzvěte vyzývají vyzýval vyzývala vyzývali vyzývaly vyzývat vyzývá vyzývám vyzýváme vyzýván vyzýváni
+11	2311	displej	displeje displejem displeji displejích displejů
+12	2312	faktor	faktorech faktorem faktoru faktory faktorů faktorům
+13	2313	rakovina	rakovin rakovinné rakovinných rakovinou rakovinový rakovinu rakoviny rakovině
+14	2314	papež	papeže papežem papeži papežova papežovi papežové papežskou papežská papežské papežského papežském papežský papežských papežským papežů papežův
+15	2315	inspirovat	inspiroval inspirovala inspirovali inspirovalo inspirovaly inspirované inspirovaný inspirován inspirována inspirováni inspirováno inspirovány inspiruje inspirujeme inspirujete inspiruji inspirujte inspirují inspirující inspirujících inspirujícím
+16	2316	vlk	vlci vlcích vlka vlkem vlkovi vlková vlku vlky vlků vlkům vlčat vlčata vlče vlček vlčice vlčici vlčka vlčkem vlčková vlčkové vlčí vlčích vlčího vlčím
+17	2317	vyšetřování	vyšetřováním
+18	2318	účinný	nejúčinněji nejúčinnější nejúčinnějších nejúčinnějším neúčinnou neúčinná neúčinné neúčinný účinnou účinná účinné účinného účinném účinnému účinných účinným účinnými účinně účinněji účinnější účinnějších účinnějšího účinnějším
+19	2319	předpis	předpise předpisech předpisem předpisu předpisy předpisů předpisům
+20	2320	tanec	tance tancem tanci tancích tanců tancům taneček
+21	2321	cestovat	cestoval cestovala cestovali cestovalo cestovaly cestuje cestujeme cestujete cestuji cestujte cestuju cestují
+22	2322	expozice	expozic expozicemi expozici expozicí expozicích expozicím
+23	2323	díra	dírami dírce dírek dírka dírkou dírou díru díry dírách dírám díře děr
+24	2324	tramvaj	tramvaje tramvajemi tramvaji tramvají tramvajích tramvajím
+25	2325	potěšit	nepotěší potěš potěšen potěšena potěšeni potěšená potěšený potěšil potěšila potěšili potěšilo potěšily potěšte potěší potěším potěšíme potěšíte
+26	2326	ozvat	neozval ozval ozvala ozvali ozvalo ozvaly ozve ozveme ozvete ozveš ozvi ozvou ozvu ozvěte ozývají ozývat
+27	2327	architektura	architektur architekturou architekturu architektury architektuře
+28	2328	cestující	cestujících cestujícího cestujícím cestujícími cestujícímu
+29	2329	zařídit	zařizoval zařizovala zařizovali zařizovat zařizování zařizuje zařizujeme zařizují zařiď zařiďte zařídil zařídila zařídili zařídilo zařídily zařídí zařídím zařídíme zařídíte zařízen zařízena zařízeni zařízeno zařízenou zařízeny zařízená zařízené zařízeného zařízeném zařízený zařízených
+30	2330	standardní	standardních standardního standardním standardními standardnímu standartní
+31	2331	půlka	půlce půlek půlkou půlku půlky
+32	2332	recept	receptech receptem receptu recepty receptů receptům
+33	2333	mírně	mírněji
+34	2334	zoo	zo
+35	2335	temný	nejtemnější nejtemnějších nejtemnějším temno temnou temná temné temného temném temnému temní temných temným temnými temně temnější temnějších temnějším
+36	2336	hrozba	hrozbami hrozbou hrozbu hrozby hrozbách hrozbám hrozbě hrozeb
+37	2337	cyklista	cyklisti cyklistickou cyklistická cyklistické cyklistického cyklistickém cyklistický cyklistických cyklistickým cyklistka cyklistky cyklistou cyklistovi cyklistu cyklisty cyklisté cyklistů cyklistům
+38	2338	vynikající	vynikajících vynikajícího vynikajícím vynikajícími vynikajícímu
+39	2339	pobřeží	pobřežích pobřežím
+40	2340	podpis	podpisem podpisu podpisy podpisů
+41	2341	břeh	břehem břehu břehy břehů břehům březích
+42	2342	odvaha	odvahou odvahu odvahy odvaze
+43	2343	drak	draci dracích draka drakem drakovi draku draky draků drakům dračice dračici dračí dračích dračího dračím dračími sani saně saň
+44	2344	koupelna	koupelen koupelnami koupelnou koupelnový koupelnu koupelny koupelnách koupelně
+45	2345	zaměstnání	zaměstnáních zaměstnáním zaměstnáními
+46	2346	hej	
+47	2347	odtud	
+48	2348	virus	vir vire virem viru viry virů virům
+49	2349	brankář	brankáře brankářem brankáři brankářka brankářky brankářů
+50	2350	nůž	nože nožem noži nožích nožík nožíkem nožů
+51	2351	rozšíření	rozšířením
+52	2352	vyhodit	vyhazovat vyhazuje vyhazují vyhodil vyhodila vyhodili vyhodilo vyhodily vyhodí vyhodím vyhodíme vyhodíte vyhozen vyhozena vyhozeni vyhozeno vyhozeny vyhození vyhozený vyhoďte
+53	2353	porážka	porážce porážek porážkami porážkou porážku porážky porážkách porážkám
+54	2354	klidný	klidnou klidná klidné klidného klidném klidnému klidní klidných klidným klidnými klidnější klidnějších klidnějšího klidnějším nejklidnější
+55	2355	spojenec	spojence spojencem spojenci spojenců spojencům spojeneckou spojenecká spojenecké spojeneckého spojenecký spojeneckých spojeneckým spojeneckými spojenečtí
+56	2356	prospěch	prospěchem prospěchu
+57	2357	lež	lžemi lži lží lžích lžím
+58	2358	seznámit	seznamovat seznamuje seznámeni seznámil seznámili seznámí seznámíme
+59	2359	příslušník	příslušnice příslušníci příslušnících příslušníka příslušníkem příslušníkovi příslušníku příslušníky příslušníků příslušníkům
+60	2360	rádio	rádia rádiem rádii rádiu rádií rádiích
+61	2361	dopad	dopadech dopadem dopadu dopady dopadů dopadům
+62	2362	pobočka	pobočce poboček pobočkami pobočkou pobočku pobočky pobočkách pobočkám
+63	2363	román	románech románem románu romány románě románů románům
+64	2364	pusa	pus puse pusinka pusou pusu pusy
+65	2365	vložit	vkládat vkládá vlož vložen vložena vloženo vloženy vložené vložení vložený vložil vložila vložili vložilo vložily vložte vloží vložím vložíme vložíte vložíš
+66	2366	falešný	falešnou falešná falešné falešného falešném falešnému falešní falešných falešným falešnými falešně
+67	2367	provedení	provedeních provedením
+68	2368	oddíl	oddíle oddílech oddílem oddílu oddíly oddílů oddílům
+69	2369	důstojník	důstojnice důstojníci důstojníka důstojníkem důstojníkovi důstojníku důstojníky důstojníků důstojníkům
+70	2370	pozadí	pozadím
+71	2371	debata	debat debatami debatou debatu debaty debatách debatám debatě
+72	2372	nákladný	nejnákladnější nákladnou nákladná nákladné nákladného nákladní nákladních nákladního nákladním nákladními nákladnímu nákladných nákladným nákladnými nákladnější
+73	2373	hrob	hrobech hrobek hrobem hrobové hrobu hroby hrobě hrobů hrobům
+74	2374	kouzlo	kouzel kouzla kouzlech kouzlem kouzlu kouzly kouzlům
+75	2375	přijetí	přijetím
+76	2376	kapitola	kapitol kapitolami kapitole kapitolou kapitolu kapitoly kapitolách kapitolám
+77	2377	oddělit	oddělen oddělena odděleni odděleno oddělenou odděleny oddělená oddělené odděleného odděleném oddělený oddělených odděleným oddělenými odděleně oddělil oddělila oddělili oddělilo oddělily oddělovat oddělte odděluje oddělí oddělíme
+78	2378	milión	miliónech miliónem miliónu milióny miliónů miliónům
+79	2379	omyl	omylech omylem omylu omyly omylů omylům
+80	2380	sval	svalech svalem svalovou svalová svalové svalového svalovém svalovému svalový svalových svalovým svalovými svalu svaly svalů svalům
+81	2381	rozvíjet	rozvine rozvinou rozvinout rozvinul rozvinula rozvinuli rozvinulo rozvinuly rozvinut rozvinuta rozvíjejí rozvíjející rozvíjejících rozvíjel rozvíjela rozvíjeli rozvíjelo rozvíjely rozvíjen rozvíjena rozvíjeno rozvíjeny rozvíjení rozvíjí rozvíjím rozvíjíme
+82	2382	tuna	tun tunami tunou tunu tuny tunách tunám
+83	2383	souboj	souboje soubojem souboji soubojích soubojů soubojům
+84	2384	záběr	záběrech záběrem záběru záběry záběrů záběrům
+85	2385	stín	stínech stínem stínu stíny stínů stínům
+86	2386	dopředu	
+87	2387	dostatečně	
+88	2388	jakoby	
+89	2389	mezitím	
+90	2390	nikoliv	
+91	2391	dnešek	dneška dneškem dnešku
+92	2392	pěstovat	pěstoval pěstovala pěstovali pěstovalo pěstovaly pěstovaný pěstován pěstována pěstovány pěstování pěstováním pěstuje pěstujeme pěstujete pěstuji pěstují pěstující vypěstoval vypěstovat
+93	2393	přesunout	přesune přesuneme přesunete přesunou přesunovat přesunu přesunuje přesunujeme přesunují přesunul přesunula přesunuli přesunulo přesunuly přesunut přesunuta přesunuti přesunuto přesunuty přesuňme přesuňte
+94	2394	podlaha	podlah podlahami podlahou podlahová podlahové podlahu podlahy podlahách podlaze
+95	2395	globální	globálních globálního globálním globálními globálnímu globálně
+96	2396	výuka	výuce výukou výuku výuky
+97	2397	zemědělství	zemědělstvím
+98	2398	zlo	zel zla zlem zlu
+99	2399	plzeňský	plzeňskou plzeňská plzeňské plzeňského plzeňském plzeňskému plzeňských plzeňským plzeňskými plzeňští
+100	2400	emoce	emocemi emoci emocí emocích emocím

@@ -1,0 +1,100 @@
+1	3601	nevhodný	nejnevhodnější nevhodnou nevhodná nevhodné nevhodného nevhodném nevhodnému nevhodných nevhodným nevhodnými nevhodně
+2	3602	potrava	potravní potravních potravního potravním potravou potravu potravy potravě
+3	3603	básník	básníci básnících básníka básníkem básníkovi básníku básníky básníků básníkům básnířka básnířkou básnířku básnířky
+4	3604	pistole	pistolemi pistoli pistolí
+5	3605	dokola	
+6	3606	jedenáct	jedenácti
+7	3607	brigáda	brigád brigádami brigádou brigádu brigády brigádách brigádě
+8	3608	gratulovat	gratuloval gratulovali gratuluje gratulujeme gratuluji gratuluju gratulují
+9	3609	schůze	schůzi schůzí schůzích
+10	3610	pneumatika	pneumatice pneumatik pneumatikami pneumatikou pneumatiku pneumatiky pneumatikách pneumatikám
+11	3611	večírek	večírcích večírkem večírku večírky večírků večírkům
+12	3612	dálkový	dálkovou dálková dálkové dálkového dálkovém dálkovému dálkových dálkovým dálkovými dálkově
+13	3613	narušit	narušen narušena narušeno narušenou narušeny narušená narušené narušeného narušený narušených narušeným narušil narušila narušili narušilo narušily narušovat narušuje naruší nenarušil
+14	3614	odstranění	odstraněním
+15	3615	uvěřit	uvěření uvěřil uvěřila uvěřili uvěří uvěřím uvěříme uvěříte
+16	3616	nástupce	nástupcem nástupci nástupců nástupcům nástupkyni nástupkyní nástupkyně
+17	3617	kabelka	kabelce kabelek kabelkami kabelkou kabelková kabelku kabelky kabelkách
+18	3618	nehet	nehtech nehtem nehtu nehty nehtů
+19	3619	otravovat	otrav otravoval otravovala otravovali otravovalo otravuje otravuji otravuju otravují otráven otrávena otráveni otrávenou otrávená otrávené otráveného otrávení otrávený otrávených otráveným otráveně otrávil otrávila otrávili otrávilo otrávit otráví
+20	3620	don	dona done donem donu
+21	3621	posun	posune posunem posunu posuny posunů posunům
+22	3622	uvěznit	uvěznil uvěznila uvěznili uvěznily uvězní uvězněn uvězněna uvězněni uvězněno uvězněnou uvězněny uvězněná uvězněné uvězněného uvězněný uvězněných uvězněným vězni věznil věznili věznit vězní vězně vězněn vězněna vězněni vězněny vězněného věznění vězněním vězněný
+23	3623	reprezentant	reprezentanta reprezentantem reprezentanti reprezentantů
+24	3624	bohatství	bohatstvím
+25	3625	desátý	desátou desátá desáté desátého desátém desátému desátých desátým
+26	3626	viset	vis visel visela viseli viselo visely visí visící visících visícího
+27	3627	mokrý	mokrou mokrá mokré mokrého mokrém mokrých mokrým mokrými mokří
+28	3628	imunita	imunit imunitou imunitu imunity imunitě
+29	3629	obdivovat	obdivoval obdivovala obdivovali obdivovaná obdivovaný obdivován obdivována obdivování obdivuje obdivujeme obdivujete obdivuji obdivuju obdivují
+30	3630	kníže	knížat knížata knížaty knížete knížetem knížeti kněžna kněžnou kněžnu kněžny kněžně
+31	3631	ohromný	ohromnou ohromná ohromné ohromného ohromném ohromnému ohromných ohromným ohromnými ohromně
+32	3632	australský	australskou australská australské australského australském australskému australských australským australskými australští
+33	3633	přistát	přistane přistaneme přistanete přistanou přistál přistála přistáli přistálo přistály přistávat přistává
+34	3634	včerejší	včerejších včerejšího včerejším včerejšímu
+35	3635	ideologie	ideologickou ideologická ideologické ideologického ideologickém ideologickému ideologický ideologických ideologickým ideologickými ideologiemi ideologii ideologií ideologiím
+36	3636	svíčka	svíčce svíček svíčkami svíčkou svíčku svíčky svíčkách
+37	3637	tajemný	tajemnou tajemná tajemné tajemného tajemném tajemnému tajemní tajemných tajemným tajemnými tajemně tajemnější
+38	3638	knižní	knižních knižního knižním knižními knižnímu knižně
+39	3639	zachování	zachováním
+40	3640	husa	hus huse husička husičky husou husovi husu husy husí husích husího husím
+41	3641	svah	svahem svahu svahy svahů svazích
+42	3642	propojit	propojen propojena propojeni propojeno propojeny propojené propojený propojil propojila propojili propojilo propojily propojovat propojí propojíme
+43	3643	živit	živ živena živení živený živil živila živili živilo živily živí živící živím živíme živíte živě živěji
+44	3644	lyžování	lyžováním
+45	3645	socialismus	socialismem socialismu
+46	3646	jakkoli	jakkoliv
+47	3647	poučit	pouč poučen poučena poučeni poučená poučené poučení poučením poučený poučil poučila poučili poučoval poučovat poučování poučte poučuje poučí poučím poučíme poučíte
+48	3648	prevence	prevenci prevencí
+49	3649	slepý	slepou slepá slepé slepého slepém slepému slepí slepých slepým slepými
+50	3650	kohout	kohouta kohoutek kohoutem kohouti kohoutka kohoutkem kohoutková kohoutkové kohoutku kohoutky kohoutků kohoutovi kohoutová kohoutu kohouty kohoutů
+51	3651	masáž	masáže masážemi masáži masážní masážních masážního masážním masážními masáží masážích
+52	3652	radní	radních radního radním radními radnímu
+53	3653	klima	klimatem klimatu
+54	3654	kouření	kouřením
+55	3655	přirozeně	přirozeněji
+56	3656	stánek	stáncích stánkem stánku stánky stánků
+57	3657	ďábel	ďábelskou ďábelsky ďábelská ďábelské ďábelského ďábelském ďábelský ďábelských ďábelským ďábla ďáblem ďáblic ďáblice ďáblicích ďáblovi ďáblové ďáblu ďábly ďáblík ďáblů ďáblům ďáblův
+58	3658	odhadnout	odhadl odhadla odhadli odhadovat odhaduje
+59	3659	patrný	patrno patrnou patrná patrné patrným patrnější
+60	3660	absence	absenci absencí
+61	3661	lhůta	lhůt lhůtami lhůtou lhůtu lhůty lhůtách lhůtě
+62	3662	garáž	garáže garážemi garáži garáží garážích
+63	3663	smrtelný	nejsmrtelnější smrtelnou smrtelná smrtelné smrtelného smrtelném smrtelnému smrtelní smrtelných smrtelným smrtelnými smrtelně
+64	3664	koncentrace	koncentracemi koncentraci koncentrací koncentracích koncentracím
+65	3665	zdůraznit	zdůraznil zdůraznila zdůraznili zdůraznilo zdůraznily zdůrazní zdůrazněn zdůrazněna zdůrazněno zdůrazněny zdůraznění zdůrazňovat zdůrazňuje
+66	3666	ústava	ústavou ústavu ústavy ústavě
+67	3667	platební	platebních platebního platebním platebními platebnímu
+68	3668	zpravodajský	zpravodajskou zpravodajsky zpravodajská zpravodajské zpravodajského zpravodajském zpravodajských zpravodajským zpravodajskými
+69	3669	trvale	trvaleji
+70	3670	aliance	alianci aliancí
+71	3671	trpělivost	trpělivosti trpělivostí
+72	3672	hřích	hříchem hříchu hříchy hříchů hříchům hříších
+73	3673	odkazovat	odkazoval odkazovala odkazovali odkazovalo odkazovaly odkazováno odkazování odkazuje odkazujeme odkazuji odkazují odkazující odkázal odkázala odkázali odkázat odkázán odkázána odkázáni odkázáno odkázány odkáže odkážu
+74	3674	urazit	urazil urazila urazili urazilo urazily urazí urazíte uražen uražena uraženou uražená uražené uražení uražený urážet uráží
+75	3675	náboj	náboje nábojem náboji nábojích nábojů
+76	3676	pobavit	pobavení pobavením pobavený pobavil pobavila pobavili pobavilo pobavily pobavte pobaví pobavím pobavíme pobavíte
+77	3677	poštovní	poštovních poštovního poštovním poštovními poštovnímu
+78	3678	chod	chodech chodem chodu chody chodů
+79	3679	rozložit	rozkládají rozkládající rozkládajících rozkládal rozkládala rozkládalo rozkládaly rozkládat rozkládá rozkládání rozložen rozložena rozloženo rozloženy rozložené rozložený rozložil rozložila rozložili rozložilo rozložily rozložte rozloží rozložíme rozložíte
+80	3680	dovnitř	
+81	3681	evidentně	
+82	3682	kámo	
+83	3683	náhle	
+84	3684	níže	
+85	3685	pr	
+86	3686	obdobný	obdobnou obdobná obdobné obdobného obdobném obdobnému obdobných obdobným obdobnými
+87	3687	šperk	špercích šperkem šperku šperky šperků šperkům
+88	3688	kostka	kostce kostek kostečka kostička kostkami kostkou kostkový kostku kostky kostkách
+89	3689	opak	opakem opaku
+90	3690	slovník	slovnících slovníkem slovníku slovníky slovníků slovníček
+91	3691	pochod	pochodech pochodem pochodu pochody pochodů pochodům
+92	3692	pokladna	pokladen pokladnami pokladnička pokladničku pokladničky pokladnou pokladnu pokladny pokladnách pokladnám pokladně
+93	3693	milost	milosti milostí
+94	3694	náprava	náprav nápravami nápravou nápravu nápravy nápravách nápravě
+95	3695	obytný	obytnou obytná obytné obytného obytném obytných obytným obytnými
+96	3696	charakteristika	charakteristice charakteristik charakteristikami charakteristikou charakteristiku charakteristiky charakteristikách charakteristikám
+97	3697	uspořádání	uspořádáním
+98	3698	portrét	portrétech portrétem portrétu portréty portrétů portrétům
+99	3699	toaleta	toalet toaletami toaletní toaletního toaletou toaletu toalety toaletách toaletě
+100	3700	odvážný	nejodvážnější nejodvážnějších odvážnou odvážná odvážné odvážného odvážném odvážnému odvážní odvážných odvážným odvážnými odvážně odvážnější

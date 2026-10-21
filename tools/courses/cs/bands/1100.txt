@@ -1,0 +1,100 @@
+1	1001	soudit	odsoudil odsoudila odsoudili odsoudit odsoudí odsouzen odsouzena odsouzeni odsouzeno odsouzeny odsuzovat odsuzuje posoudil posoudit posoudí posouzení posuzoval posuzovala posuzovat posuzován posuzována posuzovány posuzování posuzuje posuzujeme posuzují posuďte soudil soudila soudili soudí soudím soudíte soudě souzen souzena souzeni souzeno souzení
+2	1002	pondělí	pondělní pondělních pondělního pondělním pondělím
+3	1003	kolega	kolego kolegou kolegovi kolegové kolegu kolegy kolegyni kolegyní kolegyním kolegyně kolegyněmi kolegyň kolegů kolegům
+4	1004	prostředek	prostředcích prostředka prostředkem prostředku prostředky prostředků prostředkům
+5	1005	hudební	hudebních hudebního hudebním hudebními hudebnímu hudebně
+6	1006	koukat	koukají koukal koukala koukali koukalo koukaly koukej koukejte koukl koukla koukli koukne koukneme kouknete koukneš koukni kouknou kouknout kouknu kouknul koukněte kouká koukám koukáme koukání koukáte koukáš
+7	1007	opakovat	neopakovala neopakovaly neopakuje opakoval opakovala opakovali opakovalo opakovaly opakovanou opakovaná opakované opakovaného opakovaném opakovanému opakovaný opakovaných opakovaným opakovanými opakování opakováním opakuj opakuje opakujeme opakujete opakuji opakujte opakuju opakují opakující zopakoval zopakovala zopakovali zopakovat zopakuje zopakujeme zopakuji zopakujme zopakujte zopakují
+8	1008	dovolená	dovolenou dovolené dovolených dovoleným
+9	1009	kočka	kocour kocoura kocourek kocourem kocourovi kocoury kocouři kočce koček kočičce kočiček kočička kočičko kočičkou kočičku kočičky kočičí kočičích kočičího kočičím kočičími kočkami kočko kočkou kočku kočky kočkách kočkám
+10	1010	topit	top topem topil topila topili topilo topu topy topí topící topím topíme topíte
+11	1011	tvorba	tvorbou tvorbu tvorby tvorbě
+12	1012	stůl	stole stolech stolek stolem stoleček stolečku stolku stolu stoly stolů stolům
+13	1013	body	
+14	1014	zhruba	
+15	1015	víkend	víkendech víkendem víkendu víkendy víkendů
+16	1016	předmět	předmětech předmětem předmětný předmětu předměty předmětů předmětům
+17	1017	mrtvý	mrtev mrtva mrtvi mrtvo mrtvou mrtvá mrtvé mrtvého mrtvém mrtvému mrtví mrtvých mrtvým mrtvými mrtvě
+18	1018	dovolit	dovol dovolen dovolena dovoleno dovoleny dovolení dovolením dovolený dovolil dovolila dovolili dovolilo dovolily dovolovat dovolte dovoluje dovolí dovolím dovolíme dovolíte dovolíš nedovolenou nedovolená nedovolené nedovoleného nedovolenému nedovolený nedovolených nedovolil nedovolila nedovolili nedovolí nedovolíme
+19	1019	právní	právních právního právním právními právnímu právně
+20	1020	milimetr	milimetrech milimetru milimetry milimetrů mm
+21	1021	komise	komisemi komisi komisí komisích komisím
+22	1022	host	hosta hoste hostech hostem hosti hostovi hostu hosty hosté hostí hostů hostům
+23	1023	hokej	hokeje hokejem hokeji hokejovou hokejová hokejové hokejového hokejovém hokejovému hokejoví hokejový hokejových hokejovým hokejovými
+24	1024	vítězství	vítězstvích vítězstvím vítězstvími
+25	1025	milý	mile milejší milou milá milé milého milém milému milí milých milým milými nejmilejší nejmilejších nejmilejším
+26	1026	technologie	technologiemi technologii technologií technologiích technologiím
+27	1027	kulturní	kulturních kulturního kulturním kulturními kulturnímu kulturně
+28	1028	restaurace	restauracemi restauraci restaurací restauracích restauracím restaurační restauračních restauračního
+29	1029	končit	konče konči končil končila končili končilo končily končí končící končících končícím končím končíme končíte končívá končíš nekončí
+30	1030	hnutí	hnutích hnutím hnutími
+31	1031	natáčet	natočen natočena natočeno natočeny natočení natočený natočil natočila natočili natočilo natočily natočit natočte natočí natočím natočíme natočíte natáčejí natáčel natáčela natáčeli natáčelo natáčely natáčen natáčena natáčeno natáčeny natáčení natáčený natáčí natáčím natáčíme natáčíte
+32	1032	vracet	nevracej nevracejí nevraceli vracejí vracející vracel vracela vraceli vracelo vracely vracení vrací vracím vracíme vracíte vracíš
+33	1033	aktivita	aktivit aktivitami aktivitou aktivitu aktivity aktivitách aktivitám aktivitě
+34	1034	oběť	obětech obětem oběti obětmi obětí oběťmi
+35	1035	tábor	tábora táborech táborem táborová táborové táborový táborskou táborská táborské táborského táborském táborský táborských táborským táboru tábory táborští táborů táborům táboře
+36	1036	ztráta	ztrát ztrátami ztrátou ztrátu ztráty ztrátách ztrátám ztrátě
+37	1037	spousta	spoustou spousty spoustě
+38	1038	doporučit	doporučen doporučena doporučeno doporučeny doporučené doporučený doporučil doporučila doporučili doporučilo doporučily doporučoval doporučovala doporučovali doporučovalo doporučovaný doporučovat doporučován doporučována doporučováno doporučovány doporučování doporučte doporučuje doporučujeme doporučujete doporučuji doporučuju doporučují doporučující doporučí doporučím doporučíme doporučíte nedoporučila nedoporučuje nedoporučují
+39	1039	přečíst	nepřečetl přečet přečetl přečetla přečetli přečetlo přečte přečteme přečten přečtena přečteno přečteny přečtení přečtením přečtete přečteš přečti přečtou přečtu přečtěte
+40	1040	zbýt	nezbude nezbyl nezbylo nezbývalo nezbývá zbude zbudou zbyde zbydou zbyl zbyla zbyli zbylo zbyly zbývají zbýval zbývala zbývalo zbývaly zbývat zbývá
+41	1041	letiště	letišti letištní letištních letištního letištním letištích letištím letištěm letišť
+42	1042	chystat	chystají chystající chystal chystala chystali chystalo chystaly chystá chystám chystáme chystáte chystáš nechystá
+43	1043	manželka	manželce manželek manželkami manželkou manželku manželky manželkách manželkám manželčin
+44	1044	čtvrtý	čtvrtou čtvrtá čtvrté čtvrtého čtvrtém čtvrtému čtvrtí čtvrtých čtvrtým čtvrtými
+45	1045	jaro	jar jara jarem jaru jaře
+46	1046	bota	bot botami botička botičky botou botu boty botách botám botě
+47	1047	ukazovat	neukazují ukazoval ukazovala ukazovali ukazovalo ukazovaly ukazování ukazuje ukazujeme ukazujete ukazuji ukazujou ukazuju ukazují ukazující
+48	1048	sbírka	sb sbírce sbírek sbírkami sbírkou sbírku sbírky sbírkách sbírkám
+49	1049	předchozí	předchozích předchozího předchozím předchozími předchozímu
+50	1050	přírodní	přírodních přírodního přírodním přírodními přírodnímu přírodně
+51	1051	chovat	chovají chovající choval chovala chovali chovalo chovaly chovaný chovej chovejte chová chovám chováme chován chována chováni chováno chovány chováte chováš nechová
+52	1052	nástroj	nástroje nástrojem nástroji nástrojích nástrojů nástrojům
+53	1053	tvrdý	nejtvrdší nejtvrdších nejtvrdšího nejtvrdším netvrdí tvrdou tvrdá tvrdé tvrdého tvrdém tvrdému tvrdí tvrdých tvrdým tvrdými tvrdší tvrdších tvrdšího tvrdším
+54	1054	příklad	příkladech příkladem příkladu příklady příkladě příkladů příkladům
+55	1055	kvalitní	kvalitních kvalitního kvalitním kvalitními kvalitnímu kvalitně kvalitněji kvalitnější kvalitnějších kvalitnějšího kvalitnějším kvalitnějšímu nejkvalitnější nejkvalitnějších nejkvalitnějšího nejkvalitnějším
+56	1056	pohoda	pohodička pohodou pohodu pohody pohodě
+57	1057	zábava	nejzábavnější nejzábavnějších zábav zábavnou zábavná zábavné zábavného zábavném zábavní zábavních zábavního zábavním zábavný zábavných zábavným zábavnými zábavně zábavnější zábavou zábavu zábavy zábavách zábavám zábavě
+58	1058	dodat	dodají dodal dodala dodali dodalo dodaly dodejme dodá dodám dodán dodávat dodává
+59	1059	účast	účastech účasti účastí
+60	1060	circa	cca
+61	1061	ven	
+62	1062	budoucnost	budoucnosti budoucností
+63	1063	drahý	drah draha draho drahou drahoušek drahoušku drahá drahách drahé drahého drahém drahému drahých drahým drahými draze drazí dražší dražších dražšího dražším dražšími dráže nejdražší nejdražších nejdražšího nejdražším nejdražšími
+64	1064	pomalu	nejpomaleji pomaleji
+65	1065	dívat	dívají díval dívala dívali dívalo dívaly dívej dívejme dívejte dívá dívám díváme dívání díváte díváš nedíval nedívala nedívejte
+66	1066	zaměřit	zaměřen zaměřena zaměřeni zaměřeno zaměřeny zaměřené zaměření zaměřením zaměřený zaměřil zaměřila zaměřili zaměřilo zaměřily zaměřme zaměřovat zaměřte zaměřuje zaměří zaměřím zaměříme zaměříte
+67	1067	vstup	vstupech vstupem vstupu vstupy vstupů vstupům
+68	1068	osm	osmi
+69	1069	kostel	kostela kostele kostelech kostelem kostelní kostelních kostelního kostelním kostelu kostely kostelích kostelík kostelíka kostelíkem kostelíky kostelíček kostelů kostelům
+70	1070	scéna	scén scénami scénou scénu scény scénách scénám scéně
+71	1071	ekonomický	ekonomickou ekonomická ekonomické ekonomického ekonomickém ekonomickému ekonomických ekonomickým ekonomickými ekonomičtí ekonomičtější neekonomické nejekonomičtější
+72	1072	obrovský	obrovskou obrovsky obrovská obrovské obrovského obrovském obrovskému obrovských obrovským obrovskými obrovští
+73	1073	odpoledne	odpolednem odpoledni odpolední odpoledních odpoledního odpoledním
+74	1074	procento	proc procent procenta procentech procentem procentu procenty procentům
+75	1075	očekávat	nejočekávanější nejočekávanějších neočekávají neočekával neočekávanou neočekávaná neočekávané neočekávaného neočekávaný neočekávaných neočekávaným neočekávaně neočekává očekávají očekávající očekával očekávala očekávali očekávalo očekávaly očekávanou očekávaná očekávané očekávaného očekávaném očekávanému očekávaní očekávaný očekávaných očekávaným očekávejte očekává očekávám očekáváme očekáván očekávána očekáváno očekávány očekáváte
+76	1076	nést	dones donese donesete donesl donesla donesli doneslo donesly donesou doneste donesu donášel donášení donášet donáší donést nenesla nes nese neseme nesen nesena neseny nesete neseš nesl nesla nesli neslo nesly nesou nesoucí neste nesu ponese poneseme ponesete ponesou ponesu
+77	1077	řád	řádech řádem řádu řády řádě řádů řádům
+78	1078	odpovídat	neodpovídají neodpovídal neodpovídala neodpovídá odpovídají odpovídal odpovídala odpovídali odpovídalo odpovídaly odpovídejte odpovídá odpovídám odpovídáme odpovídání odpovídáte
+79	1079	pozor	pozoru
+80	1080	brnět	brní brně
+81	1081	prvek	prvcích prvkem prvku prvky prvků prvkům
+82	1082	linka	lince linek linkami linkou linková linkové linku linky linkách linkám
+83	1083	uspořádat	pořádají pořádající pořádal pořádala pořádali pořádalo pořádaly pořádanou pořádaná pořádané pořádaného pořádaném pořádaný pořádaných pořádat pořádá pořádám pořádáme pořádán pořádána pořádány pořádání pořádáte uspořádají uspořádal uspořádala uspořádali uspořádalo uspořádaly uspořádaná uspořádané uspořádaný uspořádaných uspořádá uspořádáme uspořádán uspořádána uspořádáno uspořádány
+84	1084	následně	
+85	1085	euro	eur eura eurech eurem euru eury
+86	1086	tvrdit	tvrdil tvrdila tvrdili tvrdilo tvrdily tvrdí tvrdící tvrdím tvrdíme tvrdíte tvrdíš tvrzeno
+87	1087	vnitřní	nejvnitřnější vnitřních vnitřního vnitřním vnitřními vnitřnímu vnitřně
+88	1088	příjem	příjme příjmech příjmem příjmu příjmy příjmů příjmům
+89	1089	počasí	počasím
+90	1090	doplnit	doplnil doplnila doplnili doplnilo doplnily doplní doplním doplníme doplníte doplněn doplněna doplněni doplněno doplněny doplněné doplnění doplněním doplněný doplň doplňoval doplňovala doplňovali doplňovalo doplňovaly doplňovat doplňován doplňována doplňováno doplňovány doplňování doplňováním doplňte doplňuje doplňujeme doplňujete doplňuji doplňují doplňující doplňujících
+91	1091	domov	domova domovech domovem domovu domovy domově domovů domovům
+92	1092	podnikatel	podnikatele podnikatelek podnikatelem podnikateli podnikatelka podnikatelkou podnikatelky podnikatelskou podnikatelsky podnikatelská podnikatelské podnikatelského podnikatelském podnikatelskému podnikatelský podnikatelských podnikatelským podnikatelskými podnikatelé podnikatelů podnikatelům
+93	1093	nabídnout	nabídl nabídla nabídli nabídlo nabídly nabídne nabídneme nabídnete nabídnou nabídnu nabídnut nabídnuta nabídnuto nabídnuty
+94	1094	obsah	obsahem obsahu obsahy obsahů
+95	1095	jíst	jedení jedl jedla jedli jedlo jedly jedoucí jedoucího jedoucím jedí jez jezem jezte jezu jezy jezů jím jíme jíte jíš nejedl nejí nejím
+96	1096	nebezpečný	nebezpečnou nebezpečná nebezpečné nebezpečného nebezpečném nebezpečnému nebezpeční nebezpečných nebezpečným nebezpečnými nebezpečně nebezpečnější nebezpečnějšího nebezpečnějším nejnebezpečnější nejnebezpečnějších nejnebezpečnějšího nejnebezpečnějším
+97	1097	pacient	pacienta pacientech pacientem pacienti pacientovi pacienty pacientů pacientům pacientův
+98	1098	závěr	závěrech závěrem závěru závěry závěrů závěrům
+99	1099	areál	areálech areálem areálu areály areálů
+100	1100	tvar	tvarech tvarem tvaru tvary tvarů tvarům

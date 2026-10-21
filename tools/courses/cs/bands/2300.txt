@@ -1,0 +1,100 @@
+1	2201	asociace	asociacemi asociaci asociací
+2	2202	vzácný	nejvzácnější nejvzácnějších nejvzácnějším vzácnou vzácná vzácné vzácného vzácném vzácnému vzácní vzácných vzácným vzácnými vzácně vzácněji vzácnější vzácnějších
+3	2203	správce	správcem správci správcové správcích správců správcům správkyní správkyně
+4	2204	příkaz	příkazech příkazem příkazovou příkazové příkazového příkazovém příkazový příkazu příkazy příkazů příkazům
+5	2205	prokázat	prokazovat prokazuje prokázal prokázala prokázali prokázalo prokázaly prokázán prokázána prokázáno prokázány prokázání prokáže prokážete prokážou
+6	2206	otevření	otevřením
+7	2207	tušit	netušené netušili netuší netušící tuš tušil tušila tušili tuší tuším tušíme tušíte tušíš
+8	2208	těsně	nejtěsněji těsněji
+9	2209	spánek	spáncích spánkem spánkovou spánková spánkové spánkového spánkový spánkových spánku spánky
+10	2210	zásoba	zásob zásobami zásobou zásobu zásoby zásobách zásobám zásobě
+11	2211	písek	píscích písecká písecké píseckého písecký píseckých píseček pískem písková pískové písku písky písků
+12	2212	divadelní	divadelních divadelního divadelním divadelními divadelnímu divadelně
+13	2213	jakýsi	jacísi jakousi jakási jakéhosi jakémsi jakémusi jakési jakýchsi jakýmisi jakýmsi jakýs
+14	2214	běžně	nejběžněji
+15	2215	účastnit	neúčastní účastni účastnil účastnila účastnili účastnilo účastnily účastní účastnící účastním účastníme účastníte
+16	2216	odcházet	odcházejí odcházející odcházel odcházela odcházeli odcházelo odcházely odcházení odchází odcházím odcházíme odcházíte odcházíš
+17	2217	důchod	důchodech důchodem důchodu důchody důchodě důchodů
+18	2218	moravský	moravskou moravská moravské moravského moravském moravskému moravských moravským moravskými moravští
+19	2219	továrna	továren továrnami továrnou továrnu továrny továrnách továrnám továrně
+20	2220	zázrak	zázracích zázrakem zázraku zázraky zázraků zázrakům
+21	2221	zemědělský	zemědělskou zemědělsky zemědělská zemědělské zemědělského zemědělském zemědělskému zemědělských zemědělským zemědělskými zemědělští
+22	2222	momentálně	
+23	2223	pokaždé	
+24	2224	poněkud	
+25	2225	tudíž	
+26	2226	včas	
+27	2227	napětí	napětím
+28	2228	vědomí	vědomím
+29	2229	okolní	okolních okolního okolním okolními okolnímu
+30	2230	vypadnout	nevypadl nevypadlo vypadl vypadla vypadli vypadlo vypadly vypadne vypadneme vypadnete vypadni vypadnou vypadnu vypadnutí vypadněte
+31	2231	výstup	výstupech výstupem výstupu výstupy výstupů výstupům
+32	2232	originální	nejoriginálnější nejoriginálnějších originálních originálního originálním originálními originálnímu originálně originálnější
+33	2233	osa	os osami ose oso osou osu osy osách
+34	2234	izraelský	izraelskou izraelská izraelské izraelského izraelském izraelskému izraelských izraelským izraelskými izraelští
+35	2235	pořádný	pořádnou pořádná pořádné pořádného pořádném pořádnému pořádní pořádných pořádným pořádnými
+36	2236	výchova	výchovou výchovu výchovy výchově
+37	2237	šestý	šestou šestá šesté šestého šestém šestému šestí šestých šestým
+38	2238	standard	standardech standardem standardu standardy standardů standardům
+39	2239	zavraždit	vraždil vraždila vraždili vraždilo vraždit vraždí vraždící vraždě vražděni vraždění zavraždil zavraždila zavraždili zavraždily zavraždí zavražděn zavražděna zavražděni zavražděno zavražděny zavraždění zavražděním zavražděný zavražděných
+40	2240	nasadit	nasadil nasadila nasadili nasadilo nasadily nasadí nasadím nasadíme nasadíte nasazen nasazena nasazeni nasazeno nasazenou nasazeny nasazená nasazené nasazeného nasazený nasazených nasazeným nasazenými nasazoval nasazovat nasaďte
+41	2241	cestovní	cestovních cestovního cestovním cestovními cestovnímu
+42	2242	územní	územních územního územním územními územnímu územně
+43	2243	slečna	slečen slečinka slečnami slečno slečnou slečnu slečny slečnám slečně
+44	2244	absolvovat	absolvoval absolvovala absolvovali absolvovalo absolvovaly absolvování absolvováním absolvuje absolvujeme absolvujete absolvuji absolvují
+45	2245	prachy	prachů
+46	2246	mimořádný	mimořádnou mimořádná mimořádné mimořádného mimořádném mimořádnému mimořádní mimořádných mimořádným mimořádnými
+47	2247	vysočina	vysočinou vysočinu vysočiny vysočině
+48	2248	kauza	kauz kauzami kauze kauzou kauzu kauzy kauzách kauzám
+49	2249	francium	francii francií
+50	2250	rakouský	rakouskou rakouská rakouské rakouského rakouském rakouskému rakouských rakouským rakouskými rakouští
+51	2251	hodnotit	hodnotil hodnotí hodnotíte nehodnotí ohodnocen ohodnocena ohodnoceni ohodnoceno ohodnoceny ohodnocené ohodnocení ohodnotil ohodnotila ohodnotili ohodnotit ohodnotí zhodnotil zhodnotila zhodnotit zhodnotí
+52	2252	zájemce	zájemcem zájemci zájemců zájemcům zájemkyně
+53	2253	vykonávat	vykonají vykonal vykonala vykonali vykonalo vykonaly vykonanou vykonaná vykonané vykonaný vykonaných vykonat vykoná vykonán vykonána vykonáno vykonány vykonání vykonáním vykonávají vykonával vykonávala vykonávali vykonávalo vykonávaly vykonává vykonávám vykonáváme vykonáván vykonávána vykonáváno vykonávány vykonávání vykonáváte
+54	2254	úvěr	úvěrech úvěrem úvěru úvěry úvěrů úvěrům
+55	2255	drobné	drobných drobným drobnými
+56	2256	odpovědnost	odpovědnosti odpovědností
+57	2257	čtvrt	čtvrti čtvrtí čtvrtích čtvrtě čtvrtěmi
+58	2258	efekt	efektech efektem efektu efekty efektů efektům
+59	2259	populace	populacemi populaci populací populacích populační populačních populačního populačním populačně
+60	2260	ačkoliv	
+61	2261	ročně	
+62	2262	vlajka	vlajce vlajek vlajkami vlajkou vlajkovou vlajková vlajkové vlajkového vlajkový vlajkových vlajkovým vlajku vlajky vlajkách
+63	2263	jedinec	jedince jedincem jedinci jedincích jedinců jedincům
+64	2264	tyč	tyče tyčemi tyči tyčince tyčinek tyčinka tyčinkami tyčinkou tyčinku tyčinky tyčinkách tyčka tyčky tyčové tyčí tyčích
+65	2265	varovat	varoval varovala varovali varovalo varovaly varován varována varováni varuje varujeme varuji varujte varuju varují varující
+66	2266	tiskový	tiskovou tisková tiskové tiskového tiskovém tiskových tiskovým tiskovými
+67	2267	vyrůst	vyroste vyrostl vyrostla vyrostli vyrostlo vyrostly vyrostou vyrostu vyrůstal vyrůstat
+68	2268	podléhat	nepodlehnout nepodléhají nepodléhá podlehl podlehla podlehli podlehlo podlehly podlehne podlehnete podlehneš podlehnou podlehnout podlehnutí podléhají podléhající podléhajících podléhal podléhala podléhali podléhalo podléhaly podléhá podléhám podléháme
+69	2269	kořen	kořene kořenech kořenem kořeni kořenovou kořenová kořenové kořenového kořenový kořenových kořenovým kořenu kořeny kořenů kořenům kořán kořínek kořínka kořínková kořínky kořínků
+70	2270	palác	paláce palácem paláci palácový palácích paláců
+71	2271	hádat	hádají hádal hádala hádali hádaly hádej hádejte hádá hádám hádáme hádání hádáte pohádají pohádal pohádali pohádat pohádá uhodla uhodnout uhádnout
+72	2272	opravdový	opravdovou opravdová opravdové opravdového opravdovém opravdovému opravdoví opravdových opravdovým opravdovými opravdově opravdovější
+73	2273	triko	tricích trik trika trikem triku triky triků trikům
+74	2274	sklad	skladech skladem skladu sklady skladě skladů skladům
+75	2275	vypnout	vypjaté vypjatý vypne vypneme vypnete vypni vypnou vypnu vypnul vypnula vypnuli vypnulo vypnut vypnuta vypnuto vypnuty vypnutá vypnuté vypnutý vypněte vypínat vypíná
+76	2276	příchod	příchodem příchodu příchody příchodů
+77	2277	růžový	růžovou růžová růžové růžového růžovém růžoví růžových růžovým růžovými růžově růžovější
+78	2278	pivovar	pivovarech pivovarem pivovarské pivovarský pivovaru pivovary pivovarů pivovarům pivovaře pivovárek
+79	2279	zásada	zásad zásadami zásadou zásadová zásadový zásadu zásady zásadách zásadám zásadě
+80	2280	věčný	věčnou věčná věčné věčného věčném věčnému věční věčných věčným věčnými věčně
+81	2281	výkonný	nejvýkonnější nejvýkonnějších nejvýkonnějším výkonnou výkonná výkonné výkonného výkonném výkonnému výkonní výkonných výkonným výkonnými výkonnější výkonnějších výkonnějšího výkonnějším
+82	2282	komerční	komerčních komerčního komerčním komerčními komerčnímu komerčně
+83	2283	databáze	databázemi databázi databází databázích databázím
+84	2284	dav	dave davem davu davy davů davům
+85	2285	obdržet	neobdržel obdržel obdržela obdrželi obdrželo obdržely obdrží obdržím obdržíme obdržíte obdržíš
+86	2286	jezdec	jezdce jezdcem jezdci jezdcích jezdců jezdcům jezdkyně
+87	2287	předvést	nepředvádí předvede předvedl předvedly předvádí předvádím předvádíme předvádíte předváděcí předvádějí předvádějící předváděl předváděla předváděli předváděly předváděné předvádění předvádět
+88	2288	reforma	reforem reformami reformou reformu reformy reformách reformám reformě
+89	2289	obránce	obráncem obránci obránců obráncům
+90	2290	prohlášení	prohlášeních prohlášením prohlášeními
+91	2291	sluneční	slunečních slunečního slunečním slunečními slunečnímu
+92	2292	doplněk	doplňcích doplňkem doplňkovou doplňková doplňkové doplňkového doplňkovém doplňkový doplňkových doplňkovým doplňkovými doplňku doplňky doplňků doplňkům
+93	2293	poblíž	
+94	2294	zkrátka	
+95	2295	chudý	chudou chudá chudé chudého chudém chudému chudí chudých chudým chudými chudě chudší chudších chudším chudšími nejchudší nejchudších nejchudším
+96	2296	olomoucký	olomouckou olomoucká olomoucké olomouckého olomouckém olomouckému olomouckých olomouckým olomouckými olomoučtí
+97	2297	obchodník	obchodnice obchodníci obchodníka obchodníkem obchodníkovi obchodníku obchodníky obchodníků obchodníkům
+98	2298	elektřina	elektřinou elektřinu elektřiny elektřině
+99	2299	skrz	skrze
+100	2300	sklo	skel skla skle sklech sklem sklu skly sklíčko

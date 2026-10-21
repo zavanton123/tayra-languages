@@ -1,0 +1,100 @@
+1	8601	sousto	sousta soustem soustu
+2	8602	gr	
+3	8603	loučení	
+4	8604	opětovně	
+5	8605	podivně	
+6	8606	vhod	
+7	8607	všudy	
+8	8608	zvenku	
+9	8609	bodnout	bodal bodat bodl bodla bodlo bodne bodnou bodnul bodá bodání
+10	8610	opasek	opaskem opasku opasky opasků
+11	8611	odsunout	odsune odsunu odsunul odsunula odsunuli odsunulo odsunuly odsunut odsunuta odsunuti odsunuto odsunuty
+12	8612	sérum	sér séra sérem séru
+13	8613	krutost	krutosti krutostí
+14	8614	šála	šál šále šálou šálu šály
+15	8615	losovat	losovali losování losuje losují
+16	8616	statečnost	statečnosti statečností
+17	8617	recepční	recepčního recepčním
+18	8618	černošský	černošskou černošská černošské černošského černošském černošských černošským černošskými černošští
+19	8619	figurovat	figuroval figuruje nefiguroval
+20	8620	strašidlo	strašidel strašidla strašidlech strašidly
+21	8621	prohodit	prohodil prohodila prohodili prohodily prohodí prohodím prohodíme prohození
+22	8622	podtitul	podtitulem
+23	8623	nepohodlný	nepohodlnou nepohodlná nepohodlné nepohodlného nepohodlní nepohodlných nepohodlným nepohodlně
+24	8624	zaskakovat	zaskakoval zaskakuje zaskočilo zaskočit
+25	8625	průser	průseru průsery
+26	8626	vesničan	vesničana vesničany vesničané vesničanů vesničanům
+27	8627	emigrace	emigraci emigrací
+28	8628	deštivý	deštivo deštivou deštivá deštivé deštivého deštivém deštivých nejdeštivější
+29	8629	tipovat	tipnout tipoval tipovala tipovali tipování tipuje tipuji tipuju
+30	8630	helikoptéra	helikoptér helikoptérou helikoptéru helikoptéry helikoptéře
+31	8631	fyziologický	fyziologickou fyziologicky fyziologická fyziologické fyziologického fyziologickém fyziologických fyziologickým
+32	8632	plynulý	plynulejší plynulou plynulá plynulé plynulého plynulému plynulým
+33	8633	trám	trámech trámu trámy trámů
+34	8634	veš	vši vší vším
+35	8635	zápisek	zápiscích zápisky zápisků
+36	8636	konzulát	konzulátem konzulátu konzuláty konzulátů
+37	8637	napínavý	napínavou napínavá napínavé napínavého napínavém napínavých napínavým napínavější nejnapínavější
+38	8638	řev	řevem řevu
+39	8639	katastrofální	katastrofálních katastrofálního katastrofálním katastrofálními
+40	8640	těžiště	těžišti těžištěm
+41	8641	aromatický	aromatickou aromatická aromatické aromatického aromatických aromatickým aromatickými
+42	8642	kapesník	kapesníkem kapesníku kapesníky kapesníků kapesníček
+43	8643	profík	profíci profíka profíkem profíky profíků
+44	8644	doslovný	doslovná doslovné doslovného doslovném doslovným doslovně
+45	8645	pohovka	pohovce pohovkou pohovku pohovky
+46	8646	poranit	poranil poranila poranili poraní poraněn poraněnou poraněný
+47	8647	konzerva	konzerv konzervami konzervu konzervy konzervách konzervě
+48	8648	jatky	jatek jatka jatkách
+49	8649	uzávěr	uzávěrem uzávěru uzávěry uzávěrů
+50	8650	klenoty	klenotech klenotů klenotům
+51	8651	gangster	gangstera gangsterské gangsterský gangstery gangsterů gangsteři
+52	8652	myslitel	myslitele myslitelem mysliteli myslitelé myslitelů
+53	8653	dvorní	dvorních dvorního dvorním
+54	8654	výherce	výhercem výherci výherců výhercům výherkyni výherkyně
+55	8655	odhadovaný	odhadovanou odhadovaná odhadované odhadovaného odhadovaných odhadovaným odhadován
+56	8656	robotický	robotickou robotická robotické robotického robotických robotickým
+57	8657	naučný	naučné naučného
+58	8658	prověrka	prověrkou prověrku prověrky
+59	8659	milník	milníkem milníku milníky milníků
+60	8660	máta	mát mátou mátovou mátová mátové mátový mátu máty mátě
+61	8661	čekárna	čekáren čekárnu čekárny čekárnách čekárně
+62	8662	svázaný	svázanou svázaná svázané svázaného svázaní svázaných svázanýma
+63	8663	varle	varlat varlata varlatech varlaty varlete
+64	8664	poskytovaný	poskytovanou poskytovaná poskytované poskytovaného poskytovaných
+65	8665	nevládní	nevládních nevládním nevládními
+66	8666	sportoviště	sportovišti sportovištích sportovišť
+67	8667	sekvence	sekvencí
+68	8668	sousedit	sousedí sousedící
+69	8669	hormonální	hormonálních hormonálního hormonálním hormonálními
+70	8670	bleskový	bleskovou blesková bleskové bleskového bleskovém bleskových bleskovým
+71	8671	opar	oparem oparu opary
+72	8672	proroctví	proroctvím
+73	8673	varovný	varovnou varovná varovné varovného varovných varovným varovnými varovně
+74	8674	mejdan	mejdanech mejdanu mejdany mejdanů
+75	8675	deštný	deštná deštné deštného deštném deštných deštným
+76	8676	prastarý	prastarou prastará prastaré prastarého prastarých prastarým prastarými
+77	8677	kosmos	kosmu kosmy
+78	8678	tucet	tuctech tuctem tuctu tucty tuctů
+79	8679	stud	studem studu study
+80	8680	vlas	vlasech vlasem vlasu vlasů vlasům
+81	8681	parník	parníkem parníku parníky parníků
+82	8682	rezoluce	rezoluci rezolucí
+83	8683	disident	disidenta disidentem disidenti disidentka disidenty disidentů disidentům
+84	8684	dřina	dřinou dřinu dřiny dřině
+85	8685	předák	předáci předáka předákem předáky předáků
+86	8686	svézt	svezl svezli svážet
+87	8687	proslout	proslul proslula prosluli proslulo prosluly
+88	8688	uplynutí	uplynutím
+89	8689	sólista	sólistka sólistkou sólistky sólistou sólistu sólisty sólisté sólistů
+90	8690	hrom	hrome hromové hromový hromu hromy hromů
+91	8691	sypat	posypal posypané posypaný posypat posypání sypal sypala sypaly sype sypou sypu
+92	8692	karneval	karnevalem karnevalu karnevaly
+93	8693	guru	gurua
+94	8694	zveřejňování	zveřejňováním
+95	8695	javor	javorem javorové javoru javory javorů
+96	8696	docent	docenta docentem docenti docentka docentů
+97	8697	referát	referátem referátu referáty referátů
+98	8698	korektní	korektních korektního korektním
+99	8699	vydatný	vydatnou vydatná vydatné vydatného vydatném vydatných vydatným vydatnými vydatnější
+100	8700	hobby	

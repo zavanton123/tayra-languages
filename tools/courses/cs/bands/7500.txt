@@ -1,0 +1,100 @@
+1	7401	výtvor	výtvorem výtvory výtvorů výtvorům
+2	7402	taxikář	taxikáře taxikářem taxikáři taxikářů
+3	7403	ring	ringem ringu
+4	7404	promítání	promítáním
+5	7405	sloučenina	sloučenin sloučeninami sloučeninou sloučeninu sloučeniny sloučeninách sloučenině
+6	7406	referenční	referenčních referenčního referenčním
+7	7407	synagoga	synagog synagogou synagogu synagogy synagogách synagoze
+8	7408	pobíhat	pobíhají pobíhající pobíhal pobíhala pobíhali pobíhaly pobíhá pobíhám pobíhání
+9	7409	ušlechtilý	nejušlechtilejší ušlechtilejší ušlechtilou ušlechtilá ušlechtilé ušlechtilého ušlechtilí ušlechtilých ušlechtilým ušlechtilými
+10	7410	jas	jasem jasu jasů
+11	7411	přemluvit	přemlouvat přemlouvá přemluvil přemluvila přemluvili přemluví
+12	7412	svit	svitem svitu
+13	7413	krám	krámech krámem krámu krámě krámů
+14	7414	představivost	představivosti představivostí
+15	7415	detekce	detekci
+16	7416	práh	prahem prahů
+17	7417	projednání	projednáním
+18	7418	paprika	paprice paprik paprikami paprikou papriku papriky
+19	7419	barel	barelech barelu barely barelů
+20	7420	vrak	vrakem vraku vraky vraků
+21	7421	ctít	cti ctil ctila ctili ctí ctím ctíme ctěn ctění ctěný poctít
+22	7422	kvetoucí	kvetoucích kvetoucího kvetoucím kvetoucími
+23	7423	ocelář	oceláře oceláři ocelářská ocelářské ocelářského ocelářský ocelářů
+24	7424	nacismus	nacismem nacismu
+25	7425	sborník	sbornících sborníku sborníky sborníků
+26	7426	přesouvat	přesouvá
+27	7427	problémový	problémovou problémová problémové problémového problémoví problémových problémovým problémovými
+28	7428	zhasnout	zhasl zhasla zhaslo zhasly zhasne zhasni zhasnou zhasnul zhasnuto zhasnutí zhasněte zhasínat zhasíná
+29	7429	příčný	příčnou příčná příčné příčného příčném příčných příčným příčnými příčně
+30	7430	četa	čet četou četu čety četě
+31	7431	nepravděpodobný	nepravděpodobnou nepravděpodobná nepravděpodobné nepravděpodobných
+32	7432	nezvyklý	nezvyklou nezvyklá nezvyklé nezvyklého nezvyklém nezvyklých nezvyklým nezvyklými
+33	7433	relaxace	relaxaci
+34	7434	proslov	proslovech proslovem proslovu proslovy proslovů
+35	7435	sudí	sudích sudího sudím
+36	7436	porotce	porotcem porotci porotců porotcům porotkyně
+37	7437	oplátka	oplátkou oplátku
+38	7438	pýcha	pýchou pýchu pýchy pýše
+39	7439	mání	
+40	7440	kulka	kulce kulek kulkami kulkou kulku kulky kulkách kulkám
+41	7441	dodání	dodáním
+42	7442	propagační	propagačních propagačního propagačním propagačními
+43	7443	vynálezce	vynálezcem vynálezci vynálezců
+44	7444	vibrace	vibracemi vibraci vibrací vibracím
+45	7445	přísahat	přísahají přísahal přísahala přísahali přísahá přísahám
+46	7446	datovat	datovaný datován datována datováno datovány datování datuje datují
+47	7447	převyšovat	převyšovaly převyšuje převyšují
+48	7448	drobnost	drobnosti drobností
+49	7449	předběhnout	předbíhají předbíhal předbíhat předbíhá předbíhám předbíháme předbíhání předběhl předběhla předběhli předběhlo předběhly předběhne
+50	7450	objetí	objetím
+51	7451	číselný	číselnou číselná číselné číselného číselném číselných číselným číselnými číselně
+52	7452	dotyk	dotykem dotyku dotyky dotyků
+53	7453	ambiciózní	ambiciózních ambiciózního ambiciózním ambicióznější nejambicióznější
+54	7454	textil	textilem textilu
+55	7455	prosklený	prosklenou prosklená prosklené proskleného prosklení prosklených proskleným prosklenými
+56	7456	sumec	som sumce sumci sumců
+57	7457	kozel	kozla kozlem kozlové kozly kozlík kozlíku
+58	7458	zranitelný	nejzranitelnější zranitelnou zranitelná zranitelné zranitelného zranitelní zranitelných zranitelným zranitelnější
+59	7459	pečlivý	pečlivou pečlivá pečlivé pečlivého pečlivém pečlivému pečliví pečlivých pečlivým pečlivější
+60	7460	skřítek	skřítci skřítka skřítkem skřítkovi skřítkové skřítku skřítky skřítků
+61	7461	renovace	renovaci
+62	7462	stahování	stahováním
+63	7463	zřetelný	nejzřetelnější zřetelnou zřetelná zřetelné zřetelného zřetelných zřetelným zřetelnější
+64	7464	sestávat	sestávají sestávající sestával sestávala sestávalo sestává
+65	7465	selhat	selhala selhávat selže selžou
+66	7466	nervozita	nervozitou nervozitu nervozity nervozitě
+67	7467	půdorys	půdorysem půdorysu půdorysy půdorysů
+68	7468	rentgen	rentgenem rentgenová rentgenové rentgenového rentgenovém rentgenový rentgenových rentgenovým rentgenovými rentgenu rentgeny rentgenů
+69	7469	kariérní	kariérních kariérního kariérním
+70	7470	deklarace	deklaraci deklarací
+71	7471	ségra	ségrou ségru ségry ségře
+72	7472	riskantní	riskantních riskantního riskantním riskantnímu riskantně riskantnější
+73	7473	sevřít	sevře sevřel sevřela sevřeli sevřelo sevřete svírají svírající svíral svírala svíraly svírat svírá svírání svěrací
+74	7474	svislý	svislou svislá svislé svislého svislém svislých svislým svislými
+75	7475	reprezentativní	reprezentativních reprezentativního reprezentativním
+76	7476	adekvátní	adekvátních adekvátního adekvátním adekvátně
+77	7477	jezdecký	jezdeckou jezdecká jezdecké jezdeckého jezdeckém jezdeckých jezdeckým
+78	7478	buddhismus	buddhismem buddhismu buddhistickou buddhistická buddhistické buddhistického buddhistickém buddhistický buddhistických buddhistickým buddhistickými buddhističtí
+79	7479	komplet	kompletu
+80	7480	barvit	barvení barví barvící barvím barvě obarvit
+81	7481	zpomalení	zpomalením
+82	7482	trilogie	trilogii trilogií
+83	7483	devadesát	devadesáti
+84	7484	superman	supermana supermanem supermanovi
+85	7485	vyčkat	vyčkal vyčkali vyčkejte vyčká vyčkáme vyčkávají vyčkával vyčkávala vyčkávali vyčkávat vyčkává vyčkáváme vyčkávání
+86	7486	geometrický	geometrickou geometrická geometrické geometrického geometrickém geometrických geometrickým geometrickými
+87	7487	valit	valena valil valila valili valily valí valím valíme
+88	7488	přirovnat	přirovnal přirovnávat přirovnává
+89	7489	přepážka	přepážce přepážek přepážkami přepážkou přepážku přepážky přepážkách
+90	7490	přijímač	přijímače přijímačem přijímači přijímačích přijímačů
+91	7491	revolver	revolverem revolveru revolvery revolverů
+92	7492	obstát	neobstojí neobstála obstojí obstál obstála obstáli obstálo obstály
+93	7493	dokumentovat	dokumentoval dokumentovala dokumentovali dokumentován dokumentována dokumentováno dokumentovány dokumentování dokumentuje dokumentují dokumentující
+94	7494	přísun	přísunem přísunu
+95	7495	obvodní	obvodních obvodního obvodním obvodnímu
+96	7496	palačinka	palačinek palačinku palačinky
+97	7497	řikat	řikal řikala řikali řiká řikám
+98	7498	půdní	půdních půdního půdním
+99	7499	identický	identickou identicky identická identické identického identických identickým identickými
+100	7500	zasedat	zasedají zasedal zasedala zasedali zasedalo zasedli zasednout zasedá

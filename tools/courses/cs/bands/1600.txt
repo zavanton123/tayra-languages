@@ -1,0 +1,100 @@
+1	1501	reagovat	nereagoval nereagovala nereagovali nereagují reagoval reagovala reagovali reagovalo reagovaly reagování reaguje reagujeme reagujete reaguješ reaguji reagujte reaguju reagují reagující zareagoval zareagovala zareagovat zareaguje
+2	1502	vážit	neváží važ važme važte váže vážení vážil vážila vážili vážilo vážily váží vážící vážím vážíme vážíte vážíš
+3	1503	zvuk	zvucích zvukem zvuku zvuky zvuků zvukům
+4	1504	rozpočet	rozpočtech rozpočtem rozpočtu rozpočty rozpočtů rozpočtům
+5	1505	pryč	
+6	1506	droga	drog drogami drogou drogovou drogová drogové drogového drogovém drogovému drogoví drogový drogových drogovým drogovými drogu drogy drogách drogám droze
+7	1507	mléko	mléce mléka mlékem mléku mléčnou mléčná mléčné mléčného mléčném mléčný mléčných mléčným mléčnými mléčně mlíka mlíkem mlíko mlíčko
+8	1508	soustředit	soustředil soustředila soustředili soustředilo soustředily soustředí soustředím soustředíme soustředíte soustředěn soustředěna soustředěni soustředěno soustředěnou soustředěny soustředěná soustředěné soustředěného soustředění soustředěním soustředěný soustředěných soustředěným soustředěně soustřeď soustřeďme soustřeďoval soustřeďovala soustřeďovat soustřeďování soustřeďte soustřeďuje soustřeďujeme soustřeďují
+9	1509	dospělý	dospěle dospělejší dospělou dospělá dospělé dospělého dospělém dospělému dospělí dospělých dospělým dospělými
+10	1510	galerie	galeriemi galerii galerií galeriích
+11	1511	realita	realit realitami realitou realitu reality realitách realitě
+12	1512	odjet	odjede odjedeme odjedete odjedou odjedu odjel odjela odjeli odjelo odjely odjeďte odjíždí odjíždím odjíždíme odjíždíte odjíždějí odjíždějící odjížděl odjížděla odjížděli odjíždělo odjížděly odjíždět
+13	1513	vlastnost	vlastnostech vlastnostem vlastnosti vlastnostmi vlastností
+14	1514	sehnat	sehnal sehnala sehnali sehnaly sežene seženeme seženete seženeš seženou seženu sežeň sežeňte shání sháním sháníme sháníte shánějí sháněl sháněla sháněli shánění shánět
+15	1515	čelit	čel čele čelil čelila čelili čelilo čelily čelí čelící čelím čelíme čelíte
+16	1516	okamžik	okamžicích okamžikem okamžiku okamžiky okamžiků okamžikům
+17	1517	nastat	nastal nastala nastalo nastaly nastane nastanou nastávat nastává nenastal nenastane
+18	1518	tajný	nejtajnější nejtajnějších tajnou tajná tajné tajného tajném tajnému tajní tajných tajným tajnými
+19	1519	konečný	konečnou konečná konečné konečného konečném konečnému konečných konečným konečnými
+20	1520	konstrukce	konstrukcemi konstrukci konstrukcí konstrukcích konstrukcím
+21	1521	kapitán	kapitána kapitáne kapitánem kapitáni kapitánovi kapitánu kapitány kapitánů kapitánům kapitánův
+22	1522	fronta	front frontami frontou frontu fronty frontách frontám frontě
+23	1523	zúčastnit	nezúčastnili nezúčastnit nezúčastní nezúčastněných zúčastnil zúčastnila zúčastnili zúčastnilo zúčastnily zúčastní zúčastním zúčastníme zúčastníte zúčastněná zúčastněné zúčastnění zúčastněný zúčastněných zúčastněným zúčastněnými zúčastňovat
+24	1524	volit	nevolit vol volen volena voleni voleno voleny volení volený volených volil volila volili volilo volily volte volí volím volíme volíte volíš
+25	1525	veliký	největší velicí velikou veliká veliké velikého velikém velikému velikých velikým velikými větší
+26	1526	profesionální	profesionálních profesionálního profesionálním profesionálními profesionálnímu profesionálně profesionálnější
+27	1527	teplo	nejtepleji tepelnou tepelná tepelné tepelného tepelném tepelnému tepelný tepelných tepelným tepelnými tepelně tepla teple tepleji teplem teploučko teplu teplíčko
+28	1528	hele	
+29	1529	neustále	
+30	1530	prakticky	
+31	1531	trošku	
+32	1532	zkoušet	zkoušej zkoušejte zkoušejí zkoušející zkoušel zkoušela zkoušeli zkoušelo zkoušely zkoušen zkoušena zkoušeni zkoušeno zkoušeny zkoušená zkoušené zkoušeného zkoušení zkoušený zkoušených zkouší zkouším zkoušíme zkoušíte
+33	1533	prst	prstech prstem prstu prsty prstík prstíky prstíčky prstě prstů prstům
+34	1534	čaj	čaje čajem čaji čajích čajů
+35	1535	smutný	nejsmutnější smutno smutnou smutná smutné smutného smutném smutnému smutní smutných smutným smutnými smutně smutnější
+36	1536	připojit	nepřipojila připoj připojen připojena připojeni připojeno připojenou připojeny připojená připojené připojeného připojeném připojený připojených připojeným připojenými připojil připojila připojili připojilo připojily připojovat připojte připojuje připojí připojím připojíme připojíte připojíš
+37	1537	přesný	nejpřesnější přesnou přesná přesné přesného přesném přesnému přesní přesných přesným přesnými přesnější přesnějších přesnějšího přesnějším přesnějšímu
+38	1538	policista	policistech policisti policistka policistkou policistku policistky policistou policistovi policistu policisty policisté policistů policistům
+39	1539	přispět	nepřispívají přispívají přispívající přispívajících přispíval přispívala přispívali přispívalo přispívaly přispívat přispívá přispívám přispíváme přispívání přispěje přispějeme přispějete přispěji přispějte přispěju přispějí přispěl přispěla přispěli přispělo přispěly přispění přispěním
+40	1540	zamířit	míře míření mířený mířil mířila mířili mířilo mířily mířit míří mířící mířím míříme míříte namířen namířeny namířili namířit zamiřte zamířil zamířila zamířili zamířilo zamířily zamíří zamířím zamíříme zamíříte
+41	1541	průměrný	průměrnou průměrná průměrné průměrného průměrném průměrnému průměrní průměrných průměrným průměrnými
+42	1542	fáze	fázemi fázi fázovou fázová fázové fázového fázový fázových fázovým fází fázích
+43	1543	snadno	nejsnáze nesnáz nesnáze nesnází nesnázích snadněji snáze
+44	1544	slušný	nejslušnější slušnou slušná slušné slušného slušném slušnému slušní slušných slušným slušnými slušně slušnější
+45	1545	kód	kódech kódem kódu kódy kódů kódům
+46	1546	náboženství	náboženskou nábožensky náboženská náboženské náboženského náboženském náboženskému náboženský náboženských náboženským náboženskými náboženstvích náboženstvím náboženstvími náboženští
+47	1547	hala	hal halami hale halem halo halou halové halový halu haly halách
+48	1548	devět	devíti
+49	1549	hřiště	hřišti hřištích hřištěm hřišť
+50	1550	hluboký	hlubokou hluboká hluboké hlubokého hlubokém hlubokému hlubokých hlubokým hlubokými hlubší hlubších hlubšího hlubším hlubšími hlubšímu nejhlubší nejhlubších nejhlubšího nejhlubším
+51	1551	spolupracovat	nespolupracoval spolupracoval spolupracovala spolupracovali spolupracovalo spolupracovaly spolupracuje spolupracujeme spolupracujete spolupracuji spolupracujte spolupracují spolupracující
+52	1552	atmosféra	atmosfér atmosférou atmosféru atmosféry atmosféře
+53	1553	obecně	obecněji
+54	1554	částka	částce částek částečka částečky částkami částkou částku částky částkách
+55	1555	postoupit	postoupen postoupena postoupeno postoupeny postoupení postoupil postoupila postoupili postoupilo postoupily postoupí postoupíme postupoval postupovala postupovali postupovat postupováno postupuje postupují
+56	1556	přejít	přecházet přechází přejde přejdeme přejdete přejdi přejdou přejdu přejděme přejděte přešel přešla přešli přešlo přešly
+57	1557	ušetřit	nešetří ušetřen ušetřena ušetřeni ušetřeno ušetřeny ušetření ušetřený ušetřete ušetři ušetřil ušetřila ušetřili ušetřilo ušetřily ušetří ušetřím ušetříme ušetříte ušetříš šetřete šetři šetřil šetřila šetřili šetřilo šetřit šetří šetřící šetřím šetříme šetříte
+58	1558	alkohol	alkoholem alkoholu alkoholy alkoholů
+59	1559	pohádka	pohádce pohádek pohádkami pohádkou pohádkovou pohádková pohádkové pohádkového pohádkovém pohádkový pohádkových pohádkovým pohádkovými pohádkově pohádku pohádky pohádkách pohádkám
+60	1560	naposledy	
+61	1561	někam	
+62	1562	přibližně	
+63	1563	sakra	
+64	1564	těžko	
+65	1565	kruh	kroužcích kroužek kroužkem kroužku kroužky kroužků kroužkům kruhem kruhu kruhy kruhů kruhům kruzích
+66	1566	nemocný	nemocen nemocnou nemocná nemocné nemocného nemocném nemocnému nemocní nemocných nemocným nemocnými nemocně
+67	1567	povinný	povinen povinna povinni povinno povinnou povinny povinná povinné povinného povinném povinnému povinní povinných povinným povinnými povinně
+68	1568	anglický	anglickou anglická anglické anglického anglickém anglickému anglických anglickým anglickými angličtí
+69	1569	střecha	střech střechami střechou střechu střechy střechách střeše stříška stříškou stříšku stříšky
+70	1570	soudní	soudních soudního soudním soudními soudnímu soudně
+71	1571	pád	pádech pádem pádu pády pádě pádů pádům
+72	1572	osud	osudech osudem osudu osudy osudů osudům
+73	1573	výročí	výročích výročím
+74	1574	svátek	svátcích svátkem svátku svátky svátků svátkům
+75	1575	snadný	nejsnadnější nejsnazší snadnou snadná snadné snadného snadném snadnému snadných snadným snadně snadnější snadnějšímu snazší
+76	1576	výborný	výbornou výborná výborné výborného výborném výbornému výborní výborných výborným výbornými
+77	1577	příčina	příčin příčinami příčinnou příčinná příčinné příčinou příčinu příčiny příčinách příčinám příčině
+78	1578	přání	přáních přáním přáními přáníčko
+79	1579	kombinace	kombinacemi kombinaci kombinací kombinacích kombinacím
+80	1580	neznámý	neznáma neznámo neznámou neznámá neznámé neznámého neznámém neznámému neznámí neznámých neznámým neznámými neznámější
+81	1581	hrozit	hrozil hrozila hrozili hrozilo hrozily hrozí hrozící hrozícím hrozím nehrozila nehrozí pohrozil pohrozila pohrozili pohrozit pohrozí
+82	1582	vít	vil vila vilami vile vili vilka vilky vilou vilu vily vilách vit vita vito víta víte vítem víti vítu vítů
+83	1583	oběd	oběda obědem obědu obědy obědě obědů
+84	1584	led	ledem ledu ledy ledě ledů
+85	1585	podílet	nepodílel podílejí podílející podílel podílela podíleli podílelo podílely podílení podílí podílím podílíme podílíte
+86	1586	poplatek	poplatcích poplatkem poplatku poplatky poplatků poplatkům
+87	1587	pátý	pátou pátá páté pátého pátém pátému pátí pátých pátým
+88	1588	průzkum	průzkumech průzkumem průzkumu průzkumy průzkumů průzkumům
+89	1589	vítr	větrech větrem větru větry větrů větrům větřík
+90	1590	levý	levou levá levé levého levém levému leví levých levým
+91	1591	trénink	trénincích tréninkem tréninku tréninky tréninků tréninkům
+92	1592	hrozně	
+93	1593	ohledně	
+94	1594	současně	
+95	1595	profil	profile profilech profilem profilový profilu profily profilů
+96	1596	spor	sporech sporem sporu spory sporů sporům
+97	1597	akcie	akciemi akcii akciovou akciová akciové akciového akciovém akciový akciových akciovým akcií akciích akciím
+98	1598	nedostatek	nedostatcích nedostatkem nedostatku nedostatky nedostatků nedostatkům
+99	1599	babička	babi babičce babiček babičkami babičko babičkou babičku babičky babičkám babiččin babiččina
+100	1600	dvacet	dvaceti

@@ -1,0 +1,100 @@
+1	9001	klacek	klackem klacku klacky klacků
+2	9002	vůdčí	vůdčích vůdčího vůdčím vůdčími
+3	9003	běloruský	běloruskou běloruská běloruské běloruského běloruském běloruských běloruským
+4	9004	jeptiška	jeptišek jeptiškami jeptiškou jeptišku jeptišky
+5	9005	šifra	šifer šifrou šifru šifry šifře
+6	9006	časný	časnou časná časné časného časném časných časným
+7	9007	diář	diáře diáři
+8	9008	barman	barmana barmanem barmani barmanka barmanku barmanky barmanovi barmany barmanů
+9	9009	posedlost	posedlosti posedlostí
+10	9010	fašista	fašisti fašistou fašistu fašisty fašisté fašistů fašistům
+11	9011	tvarovaný	tvarovanou tvarovaná tvarované tvarovaného tvarovaných tvarovaným tvarovanými
+12	9012	elegance	eleganci elegancí
+13	9013	hrdlička	hrdličkou hrdličková hrdličku hrdličky
+14	9014	špionáž	špionáže špionáži špionáží
+15	9015	rezonance	rezonanci rezonancí
+16	9016	důvěryhodnost	důvěryhodnosti důvěryhodností
+17	9017	hláska	hlásek hlásku hlásky
+18	9018	vyzdobit	vyzdoben vyzdobena vyzdobenou vyzdobeny vyzdobená vyzdobené vyzdobený vyzdobených vyzdobil vyzdobila vyzdobili vyzdobí
+19	9019	obdivovatel	obdivovatele obdivovatelem obdivovateli obdivovatelka obdivovatelé obdivovatelů obdivovatelům
+20	9020	pohanský	pohanskou pohanská pohanské pohanského pohanských pohanským pohanskými pohanští
+21	9021	výhon	výhonech výhonek výhonky výhonků výhonu výhony výhonů
+22	9022	primář	primáře primářem primáři primářka
+23	9023	španělka	španěl španělkou španělku španělky
+24	9024	nadávka	nadávek nadávkami nadávku nadávky
+25	9025	hořčice	hořčici hořčicí hořčičné hořčičný
+26	9026	památný	památnou památná památné památného památném památných památným
+27	9027	spodek	spodkem spodku spodky spodků
+28	9028	začlenění	začleněním
+29	9029	projednávání	projednáváním
+30	9030	zbroj	zbroje zbroji zbrojí
+31	9031	očíslovat	očíslovány číslované číslovaných číslovány číslování
+32	9032	hygienik	hygienici hygienickou hygienická hygienické hygienického hygienický hygienických hygienickým hygienickými hygienika hygieniků
+33	9033	konverze	konverzi
+34	9034	telka	telce telku telky
+35	9035	protéct	protekla proteklo proteče protékat protéká
+36	9036	přít	pra přel přeli přou
+37	9037	prostituce	prostituci prostitucí
+38	9038	úhlopříčka	úhlopříčce úhlopříček úhlopříčkou úhlopříčku úhlopříčky
+39	9039	modernizovat	modernizoval modernizovala modernizovaná modernizovaný modernizován modernizována modernizovány modernizuje modernizují zmodernizoval zmodernizovaná zmodernizované zmodernizovaný zmodernizovat
+40	9040	roztroušený	roztroušenou roztroušená roztroušené roztroušených roztroušeně
+41	9041	pastýř	pastýře pastýřem pastýři pastýřka pastýřů
+42	9042	poslušný	poslušnou poslušná poslušné poslušného poslušní poslušným poslušně
+43	9043	neklidný	neklidnou neklidná neklidné neklidného neklidném neklidní neklidných neklidně
+44	9044	vonný	vonnou vonná vonné vonného vonných vonnými
+45	9045	matika	matikou matiku matiky
+46	9046	tkvít	netkví tkví tkvěl
+47	9047	astma	astmatem astmatický astmatu
+48	9048	hrátky	hrátek hrátkami hrátkách hrátkám
+49	9049	vyvodit	vyvodil vyvodila vyvodili vyvodí vyvození vyvozovat vyvozování vyvozuje vyvozují
+50	9050	kormidlo	kormidel kormidla kormidlem kormidlu
+51	9051	příhodný	nejpříhodnější příhodnou příhodná příhodné příhodném příhodných příhodným příhodně příhodnější
+52	9052	koště	koštěte koštětem koštěti košťat košťata košťaty
+53	9053	předehra	předehrou předehru předehry předehře
+54	9054	konvence	konvencemi konvenci konvencí konvencím
+55	9055	štola	štol štole štolou štolu štoly štolách
+56	9056	ježiši	
+57	9057	kurevsky	
+58	9058	nazpět	
+59	9059	strhující	
+60	9060	tichost	tichosti
+61	9061	vzkazovat	vzkazuje
+62	9062	vícery	vícero
+63	9063	zmírnění	
+64	9064	punčocha	punčoch punčochami punčochu punčochy punčochách
+65	9065	kanón	kanónem kanónu kanóny kanónů
+66	9066	rozmnožovat	rozmnožení rozmnožil rozmnožila rozmnožili rozmnožit rozmnožovali rozmnožuje rozmnožují rozmnoží
+67	9067	ryzí	nejryzejší ryzích ryzího ryzím
+68	9068	hladovět	hladoví hladovějící hladověli hladovění
+69	9069	nadpis	nadpisem nadpisu nadpisy
+70	9070	obrys	obrysech obrysem obrysu obrysy obrysů
+71	9071	kriminálník	kriminálníci kriminálníka kriminálníkem kriminálníky kriminálníků
+72	9072	konzervativec	konzervativce konzervativci konzervativců konzervativcům
+73	9073	pravdivost	pravdivosti pravdivostí
+74	9074	staveniště	staveništi staveništích staveništěm stavenišť
+75	9075	monumentální	monumentálních monumentálního monumentálním
+76	9076	agresivita	agresivitou agresivitu agresivity agresivitě
+77	9077	blázinec	blázince blázinci
+78	9078	vrstevník	vrstevníci vrstevníka vrstevníky vrstevníků vrstevníkům
+79	9079	nosní	nosních nosního nosními
+80	9080	kletba	kletbou kletbu kletby kletbě kleteb
+81	9081	rovnocenný	rovnocennou rovnocenná rovnocenné rovnocenného rovnocenní rovnocenných rovnocenným rovnocennými
+82	9082	telefonický	telefonickou telefonická telefonické telefonického telefonickém telefonických telefonickým
+83	9083	improvizace	improvizaci improvizací
+84	9084	zprostředkovatel	zprostředkovatele zprostředkovatelem zprostředkovateli zprostředkovatelé zprostředkovatelů
+85	9085	zákoutí	zákoutích zákoutími
+86	9086	vjet	vjede vjel vjíždí vjíždím vjíždíme vjíždějí vjížděl vjíždění vjíždět
+87	9087	činoherní	činoherních činoherního činoherním
+88	9088	střep	střepem střepu střepy střepů střípek
+89	9089	estetika	estetice estetikou estetiku estetiky
+90	9090	rýsovat	narýsovat rýsoval rýsovala rýsování rýsuje rýsují
+91	9091	následník	následníci následníka následníkem následníky následníků
+92	9092	upřít	upírají upíral upírala upírat upírá upírána upřel upřela upřeli upřena upřeno upřeny
+93	9093	flexibilní	flexibilních flexibilního flexibilním flexibilnější
+94	9094	houpačka	houpačce houpaček houpačkou houpačku houpačky houpačkách
+95	9095	číhat	číhají číhající číhal číhali číhá
+96	9096	jakost	jakosti
+97	9097	krajinný	krajinnou krajinné
+98	9098	humanitní	humanitních humanitního humanitním
+99	9099	najet	najel
+100	9100	vyhostit	vyhostil vyhostila vyhostili vyhostí vyhoštěn vyhoštěna vyhoštěni vyhoštění

@@ -1,0 +1,100 @@
+1	6501	zrychlení	zrychlením
+2	6502	interpret	interpreta interpretem interpreti interpretovi interprety interpretů interpretům
+3	6503	hořící	hořících hořícího hořícím hořícími
+4	6504	publicista	publicistka publicistou publicistu publicisty publicisté publicistů
+5	6505	diktátor	diktátora diktátorem diktátorovi diktátory diktátorů diktátoři
+6	6506	pěna	pěn pěnou pěnové pěnový pěnu pěny pěně
+7	6507	panovník	panovnice panovnici panovnické panovníci panovníka panovníkem panovníkovi panovníku panovníky panovníků panovníkům
+8	6508	žebřík	žebřících žebříkem žebříku žebříky žebříků
+9	6509	kos	kosa kose kosi koso kosou kosová kosu kosy kosí kosík kosů
+10	6510	ráže	ráž ráži ráží
+11	6511	nepřímo	
+12	6512	soužití	
+13	6513	rob	roba robe robem robi robo robu roby
+14	6514	kmotr	kmoch kmotra kmotrem kmotrou kmotrovi kmotru kmotry kmotrů kmotře kmotři kmotřička
+15	6515	zavazadla	zavazadel zavazadlech zavazadly
+16	6516	smartphone	smartphonech smartphonem smartphonu smartphony smartphonů
+17	6517	oživení	oživením
+18	6518	zeleň	zeleni zelení zeleně
+19	6519	cyklistika	cyklistice cyklistikou cyklistiku cyklistiky
+20	6520	poradenský	poradenskou poradenská poradenské poradenského poradenských
+21	6521	kondom	kondomem kondomu kondomy kondomů
+22	6522	solidarita	solidaritou solidaritu solidarity solidaritě
+23	6523	hon	honech honu hony honů
+24	6524	kádr	kádrem kádru kádry kádrů
+25	6525	optimismus	optimismem optimismu
+26	6526	stárnout	nestárnoucí stárne stárneme stárnou stárnoucí stárnu zestárl zestárla zestárli zestárne zestárnou zestárnout zestárnul
+27	6527	kreditní	kreditních kreditního kreditním kreditními
+28	6528	okrasný	okrasnou okrasná okrasné okrasného okrasných okrasným okrasnými
+29	6529	dorost	doroste dorostem dorostu
+30	6530	převézt	převezena převezl převezli převážet
+31	6531	syrový	syrovou syrová syrové syrového syrovém syrových syrovým syrově
+32	6532	céva	cév cévami cévka cévky cévu cévy cévách
+33	6533	slezský	slezskou slezská slezské slezského slezském slezských slezským
+34	6534	shrnutí	shrnutím
+35	6535	stodola	stodol stodole stodolou stodolu stodoly stodolách
+36	6536	lesk	leskem lesku
+37	6537	chvála	chval chvále chválou chválu chvály
+38	6538	sladkost	sladkostech sladkosti sladkostmi sladkostí
+39	6539	výhrada	výhrad výhradami výhradou výhradu výhrady výhradám výhradě
+40	6540	fascinovat	fascinoval fascinovala fascinovalo fascinovaly fascinovaná fascinovaný fascinován fascinována fascinováni fascinuje fascinují
+41	6541	pronést	pronese pronesl pronesla
+42	6542	nebesa	nebes nebesy nebesích nebesům
+43	6543	thajský	thajskou thajská thajské thajského thajském thajských thajským thajští
+44	6544	důvěrný	důvěrnou důvěrná důvěrné důvěrného důvěrném důvěrných důvěrným důvěrnými důvěrně
+45	6545	knedlík	knedlíkem knedlíku knedlíky knedlíků
+46	6546	výtvarník	výtvarníci výtvarníka výtvarníky výtvarníků
+47	6547	antický	antickou antická antické antického antickém antických antickým antickými antičtí
+48	6548	papoušek	papoušci papouška papouškem papouškovi papoušková papoušky papoušků
+49	6549	vývoz	vývozem vývozu vývozy vývozů
+50	6550	akvárium	akvarijní akvária akváriem akváriu akvárií akváriích
+51	6551	obnovitelný	obnovitelnou obnovitelná obnovitelné obnovitelných obnovitelným obnovitelnými
+52	6552	hroutit	hroucení hroutil hroutila hroutí hroutící zhroutil zhroutit
+53	6553	kšeft	kšeftech kšeftem kšeftu kšefty kšeftů
+54	6554	intelektuální	intelektuálních intelektuálního intelektuálním intelektuálními intelektuálnímu intelektuálně
+55	6555	upoutat	upoutají upoutal upoutala upoutali upoutalo upoutaly upoutaná upoutaný upoutá upoután upoutána upoutání upoutává
+56	6556	smečka	smečce smeček smečkou smečku smečky smečkách
+57	6557	fotografovat	fotografoval fotografovala fotografovali fotografované fotografovaný fotografováno fotografuje fotografujete fotografuji fotografují vyfotografoval vyfotografovala vyfotografovali vyfotografovat vyfotografován
+58	6558	kopecký	kopecká kopeckého kopeckým
+59	6559	radostný	neradostné radostnou radostná radostné radostného radostném radostných radostným radostně radostněji radostnější
+60	6560	stýskat	nestýská stýskalo stýská stýskání
+61	6561	nadvláda	nadvládou nadvládu nadvlády nadvládě
+62	6562	úroda	úrodou úrodu úrody úrodě
+63	6563	delegát	delegáta delegátem delegáti delegáty delegátů delegátům
+64	6564	pirátský	pirátskou pirátská pirátské pirátského pirátském pirátských pirátským pirátskými
+65	6565	sólo	sól sóla sólem sólu
+66	6566	výtečný	výtečnou výtečná výtečné výtečného výteční výtečných výtečným výtečně
+67	6567	tvrz	tvrze tvrzi tvrzí
+68	6568	šelma	šelem šelmami šelmou šelmu šelmy šelmám šelmě
+69	6569	píchat	píchají píchal píchali píchl píchla píchli píchlo píchne píchnout píchnu píchnul píchnutí píchá píchání
+70	6570	mocenský	mocenskou mocensky mocenská mocenské mocenského mocenském mocenskému mocenských mocenským mocenskými
+71	6571	slušnost	slušnosti slušností
+72	6572	stipendium	stipendia stipendiem stipendiu stipendií
+73	6573	sluchátko	sluchátek sluchátkem sluchátku sluchátky sluchátkách sluchátkům
+74	6574	holandský	holandskou holandská holandské holandského holandském holandských holandským holandskými holandští
+75	6575	nepřímý	nepřímou nepřímá nepřímé nepřímého nepřímém nepřímých nepřímým nepřímými
+76	6576	blb	blba blbce blbe blbem blbka blby blbů
+77	6577	provize	provizi provizní provizí
+78	6578	kliknout	klikat klikněte klikání klikáním
+79	6579	pochvala	pochval pochvalou pochvalu pochvaly
+80	6580	alergický	alergickou alergická alergické alergických alergičtí
+81	6581	odlišnost	odlišnostech odlišnostem odlišnosti odlišnostmi odlišností
+82	6582	hravý	hravou hravá hravé hravého hraví hravých hravým hravě
+83	6583	adrenalin	adrenaline adrenalinem adrenalinu
+84	6584	lítost	lítosti lítostí
+85	6585	odsouzení	odsouzením
+86	6586	třást	potřesení potřásl potřásla potřásli potřást třese třesení třesou třesoucí třeste třesu třásl třásla třásli třáslo třásly zatřese zatřásl zatřásla zatřást
+87	6587	ovčák	ovčáci ovčácký ovčáka ovčákem ovčáky ovčáků ovčáček
+88	6588	base	
+89	6589	em	
+90	6590	ju	
+91	6591	kupodivu	
+92	6592	nepřetržitě	
+93	6593	spása	spáse spásná spásné spásný spásou spásu spásy
+94	6594	padák	padácích padáka padákem padáku padáky padáků
+95	6595	doběhnout	dobíhající dobíhá dobíhám doběhl doběhla doběhli doběhly doběhne doběhnu
+96	6596	veterinární	veterinárních veterinárního veterinárním
+97	6597	anténa	antén anténami anténní anténou anténu antény anténě
+98	6598	důrazný	důraznou důrazná důrazné důrazným důrazně důrazněji důraznější
+99	6599	újma	újmou újmu újmy újmě
+100	6600	pacientka	pacientce pacientek pacientkami pacientkou pacientku pacientky pacientkám

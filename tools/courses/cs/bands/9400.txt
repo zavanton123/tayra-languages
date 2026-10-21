@@ -1,0 +1,100 @@
+1	9301	fous	fousek fousy
+2	9302	zavazadlo	zavazadel zavazadle zavazadlech zavazadlem zavazadly
+3	9303	místostarosta	místostarostů
+4	9304	svérázný	svéráznou svérázná svérázné svérázného svérázných svérázným svéráznými
+5	9305	strejda	strejdo strejdou strejdovi strejdu strejdy
+6	9306	pustina	pustin pustinou pustinu pustiny pustinách pustině
+7	9307	ňadro	ňader ňadra ňadrech ňadry
+8	9308	severokorejský	severokorejskou severokorejská severokorejské severokorejského severokorejských severokorejským severokorejští
+9	9309	přebrat	přebral přebírají přebírající přebíral přebírala přebírali přebíraly přebírat přebírá přebírám přebíráme přebírání přebíráte
+10	9310	střelivo	střeliva střelivem střelivu
+11	9311	cop	copem copu copy copánek
+12	9312	nevidomý	nevidomá nevidomé nevidomého nevidomí nevidomých nevidomým
+13	9313	tření	třením
+14	9314	novoroční	novoročních novoročního novoročním
+15	9315	normál	normálu
+16	9316	loděnice	loděnic loděnici loděnicích
+17	9317	dojíždět	dojíždí dojížděl dojížděla dojížděli
+18	9318	trojský	trojskou trojská trojské trojského trojském trojských trojským
+19	9319	uzda	uzdu uzdě
+20	9320	výboj	výboje výbojem výboji výbojů výbojům
+21	9321	vyhlédnout	vyhlédl vyhlédla vyhlédli vyhlédne vyhlédnuté vyhlížet vyhlíží
+22	9322	nezvěstný	nezvěstná nezvěstné nezvěstného nezvěstní nezvěstných
+23	9323	kožešina	kožešin kožešinami kožešinou kožešinu kožešiny kožešině
+24	9324	dálný	dálného dálném
+25	9325	pojišťovací	pojišťovacích pojišťovacího pojišťovacím
+26	9326	límec	límce límcem límci límeček
+27	9327	průsmyk	průsmykem průsmyku průsmyky průsmyků
+28	9328	kácení	kácením
+29	9329	uživit	uživení uživil uživila uživili uživí živ
+30	9330	audiovizuální	audiovizuálních audiovizuálního audiovizuálním
+31	9331	kočí	kočová kočího kočím
+32	9332	hliníkový	hliníkovou hliníkového hliníkovém hliníkových hliníkovým hliníkovými
+33	9333	bitka	bitce bitek bitkou bitku bitky bitkách
+34	9334	ananas	ananasem ananasový ananasu ananasy
+35	9335	busta	bust bustou bustu busty
+36	9336	komando	komanda
+37	9337	křižník	křižníkem křižníku křižníky křižníků
+38	9338	soudržnost	soudržnosti soudržností
+39	9339	atmosférický	atmosférickou atmosférická atmosférické atmosférického atmosférických atmosférickým atmosférickými
+40	9340	podmořský	podmořskou podmořská podmořské podmořského podmořském podmořských podmořským
+41	9341	torzo	torza torzem torzu
+42	9342	polykat	polkl polkla polknout polknutí polykají polykal polykala polyká polykám polykání
+43	9343	zaoblený	zaoblenou zaoblená zaoblené zaoblení zaoblených zaobleným zaoblenými
+44	9344	podvodný	podvodnou podvodná podvodné podvodného podvodných podvodným podvodnými podvodně
+45	9345	holení	holením
+46	9346	rozluštit	luštit luští luštění rozluštil rozluštili rozluští rozluštění
+47	9347	zdlouhavý	zdlouhavou zdlouhavá zdlouhavé zdlouhavého zdlouhavém zdlouhavých zdlouhavým zdlouhavější
+48	9348	narůst	narostl narostly
+49	9349	kvantitativní	kvantitativních kvantitativního kvantitativním kvantitativně
+50	9350	jubileum	jubilea jubileu jubileí
+51	9351	předkrm	předkrmem předkrmu předkrmy předkrmů
+52	9352	pruhovaný	pruhovanou pruhovaná pruhované pruhovaného pruhovaném pruhovaných pruhovaným
+53	9353	gruzínský	gruzínskou gruzínská gruzínské gruzínského gruzínském gruzínských gruzínským
+54	9354	náležitě	
+55	9355	zámoří	
+56	9356	ťuk	
+57	9357	indikátor	indikátorem indikátoru indikátory indikátorů
+58	9358	všudypřítomný	všudypřítomnou všudypřítomná všudypřítomné všudypřítomného všudypřítomní všudypřítomných všudypřítomným všudypřítomnými
+59	9359	takt	taktech taktem taktu takty taktů
+60	9360	jihoamerický	jihoamerickou jihoamerická jihoamerické jihoamerického jihoamerickém jihoamerických jihoamerickým jihoameričtí
+61	9361	poukaz	poukazem poukazu poukazy poukazů
+62	9362	třídenní	třídenního
+63	9363	sebedůvěra	sebedůvěrou sebedůvěru sebedůvěry sebedůvěře
+64	9364	léčitel	léčitele léčitelem léčiteli léčitelka léčitelé léčitelů
+65	9365	teoretik	teoretici teoretika teoretikem teoretikové teoretiky teoretiků teoretička
+66	9366	glosa	glos glosy
+67	9367	bylinný	bylinnou bylinná bylinné bylinného bylinných bylinným bylinnými
+68	9368	květináč	květináče květináčem květináči květináčích květináčů
+69	9369	zákeřný	nejzákeřnější zákeřnou zákeřná zákeřné zákeřného zákeřní zákeřných zákeřným zákeřnější
+70	9370	zažádat	zažádal zažádala
+71	9371	oddanost	oddanosti oddaností
+72	9372	sociologie	sociologii sociologií
+73	9373	naladit	naladil naladila naladili naladí naladíte naladěn nalaďte
+74	9374	křeček	křečci křečka křečkem křečkovi křečky křečků
+75	9375	dobývání	dobýváním
+76	9376	referent	referenta referentem referenti
+77	9377	kamení	kamením
+78	9378	spolknout	spolkl spolkla spolkli spolklo spolkne spolknou spolknul spolknutí
+79	9379	naladěný	naladěnou naladěná naladěné naladěného naladění naladěných naladěným
+80	9380	nadbytečný	nadbytečnou nadbytečná nadbytečné nadbytečného nadbytečných nadbytečným nadbytečnými nadbytečně
+81	9381	pokrytectví	pokrytectvím
+82	9382	sušit	osušit suše sušení sušením sušil sušila suší suším sušíme usušit
+83	9383	vylodit	vylodil vylodila vylodili vylodilo vylodily vylodí vylodění
+84	9384	erotika	erotice erotikou erotiku erotiky
+85	9385	rozmach	rozmachu
+86	9386	bolestné	bolestná bolestného bolestných bolestným
+87	9387	čeleď	čeledi čeledí
+88	9388	obecenstvo	obecenstva obecenstvem obecenstvu
+89	9389	stoka	stoce stok stokou stoku stoky stokách
+90	9390	stožár	stožárech stožáru stožáry stožárů
+91	9391	tapeta	tapet tapetami tapetou tapetu tapety tapetě
+92	9392	vagon	vagonech vagonu vagony vagonů
+93	9393	pokusný	pokusnou pokusná pokusné pokusného pokusní pokusných pokusným pokusnými pokusně
+94	9394	slina	slin slinami slinu sliny slinách
+95	9395	gynekolog	gynekologa gynekologem gynekologovi gynekologové gynekologů gynekoložka
+96	9396	znehodnotit	znehodnocen znehodnocena znehodnoceny znehodnocení znehodnocování znehodnocuje znehodnocují znehodnotil znehodnotila znehodnotí
+97	9397	hluchý	hluchá hluché hluchého hluchých hluchým hluší
+98	9398	dezinfekce	desinfekce dezinfekci dezinfekcí
+99	9399	tyran	tyrana tyranem tyrani tyranovi tyrany tyranů tyranům
+100	9400	druholigový	druholigovou druholigové druholigového druholigovém druholigovému druholigových druholigovým

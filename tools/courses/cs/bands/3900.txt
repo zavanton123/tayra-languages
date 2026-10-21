@@ -1,0 +1,100 @@
+1	3801	nevinný	nevinen nevinnou nevinná nevinné nevinného nevinném nevinnému nevinní nevinných nevinným nevinnými nevinně
+2	3802	guvernér	guvernéra guvernérem guvernérka guvernérovi guvernéry guvernérů guvernéři
+3	3803	identifikovat	identifikoval identifikovala identifikovali identifikovalo identifikovaly identifikovaný identifikovaných identifikován identifikována identifikováni identifikováno identifikovány identifikování identifikuje identifikujeme identifikují identifikující
+4	3804	směna	směn směnami směnou směnu směny směnách směně
+5	3805	integrace	integraci integrací
+6	3806	chůze	chůzi chůzí
+7	3807	těleso	těles tělesa tělese tělesech tělesem tělesu tělesy tělesům tělísko
+8	3808	orientovat	orientoval orientovala orientovali orientovanou orientovaná orientované orientovaného orientovaném orientovaní orientovaný orientovaných orientovaným orientovanými orientován orientována orientováni orientováno orientovány orientuje orientujeme orientují orientující
+9	3809	rytmus	rytmech rytmem rytmu rytmy rytmů
+10	3810	motorka	motorce motorek motorkami motorkou motorku motorky motorkách motorkám
+11	3811	oblek	oblecích oblekem obleku obleky obleků obleček
+12	3812	agresivní	agresivních agresivního agresivním agresivními agresivnímu agresivně agresivněji agresivnější agresivnějším nejagresivnější
+13	3813	trávník	trávnících trávníkem trávníku trávníky trávníků trávníček
+14	3814	nádhera	nádherou nádheru nádhery nádheře
+15	3815	úřední	úředních úředního úředním úředními úřednímu
+16	3816	vrhnout	vrhají vrhající vrhal vrhala vrhali vrhaly vrhat vrhl vrhla vrhli vrhlo vrhly vrhne vrhneme vrhnete vrhnou vrhnu vrhnul vrhněte vrhá vrhám vrháme vržen vržena vrženi vrženy
+17	3817	akt	aktech aktem aktu akty aktů aktům
+18	3818	golf	golfem golfu
+19	3819	omluva	omluv omluvami omluvou omluvu omluvy omluvám omluvě
+20	3820	šikovný	nejšikovnější šikovnou šikovná šikovné šikovného šikovní šikovných šikovným šikovnými šikovně šikovnější
+21	3821	vzdušný	vzdušnou vzdušná vzdušné vzdušného vzdušném vzdušnému vzdušných vzdušným vzdušnými vzdušně vzdušnější
+22	3822	pomocný	pomocnou pomocná pomocné pomocného pomocném pomocní pomocných pomocným pomocnými
+23	3823	potvrzení	potvrzením
+24	3824	vnuk	vnouček vnoučka vnuci vnuka vnukem vnukovi vnuky vnuků vnukům vnučce vnuček vnučka vnučkou vnučku vnučky
+25	3825	pachatel	pachatele pachatelem pachateli pachatelé pachatelích pachatelů pachatelům
+26	3826	vládce	vládcem vládci vládcové vládců vládcům vládkyni vládkyní vládkyně
+27	3827	pozoruhodný	nejpozoruhodnější nejpozoruhodnějších nejpozoruhodnějším pozoruhodnou pozoruhodná pozoruhodné pozoruhodného pozoruhodném pozoruhodných pozoruhodným pozoruhodnými pozoruhodně pozoruhodnější
+28	3828	zklamání	zklamáním
+29	3829	klika	klice klik klikami klikem klikou kliková klikové kliku kliky kliků kličce kliček klička kličkami kličko kličkou kličku kličky
+30	3830	hmyz	hmyzem hmyzu hmyzí hmyzích hmyzího hmyzím
+31	3831	naštvaný	naštvaná naštvané naštvaného naštvaní naštvaných naštvaným naštvaně
+32	3832	obálka	obálce obálek obálkami obálkou obálku obálky obálkách
+33	3833	čarodějnice	čaroděj čaroděje čarodějem čaroději čarodějka čarodějnic čarodějnicemi čarodějnici čarodějnicí čarodějnicích čarodějnicím čarodějové čarodějů
+34	3834	muzikál	muzikálech muzikálem muzikálu muzikály muzikálů muzikálům
+35	3835	tempo	tempa tempu
+36	3836	armádní	armádních armádního armádním armádními armádnímu
+37	3837	úraz	úraze úrazech úrazem úrazu úrazy úrazů úrazům
+38	3838	bronzový	bronzovou bronzová bronzové bronzového bronzovém bronzoví bronzových bronzovým bronzovými
+39	3839	konstatovat	konstatoval konstatovala konstatovali konstatovalo konstatováno konstatování konstatováním konstatuje konstatuji konstatují
+40	3840	prověřovat	prověřili prověřilo prověřit prověřoval prověřovala prověřovali prověřován prověřována prověřovány prověřování prověřuj prověřuje prověřujeme prověřují prověří
+41	3841	barokní	barokních barokního barokním barokními baroknímu
+42	3842	odolný	nejodolnější nejodolnějších odolnou odolná odolné odolného odolní odolných odolným odolnými odolnější
+43	3843	hluboce	hloub hloubi hloubí hlouběji nejhlouběji
+44	3844	vonět	nevoní voní vonící voním voněl voněla vonělo voněly
+45	3845	pořadatel	pořadatele pořadatelem pořadateli pořadatelka pořadatelský pořadatelé pořadatelů pořadatelům
+46	3846	sonda	sond sondami sondou sondu sondy sondě
+47	3847	modernizace	modernizaci modernizací
+48	3848	londýnský	londýnskou londýnská londýnské londýnského londýnském londýnskému londýnských londýnským londýnští
+49	3849	odvést	odvede odveden odvedena odvedeni odvedl odvedli odvedou
+50	3850	mohutný	mohutnou mohutná mohutné mohutného mohutném mohutnému mohutní mohutných mohutným mohutnými mohutně mohutnější nejmohutnější
+51	3851	ruda	rud rudo rudou rudu rudy rudě
+52	3852	demokrat	demokrata demokratem demokrati demokratka demokraty demokraté demokratů demokratům
+53	3853	odrůda	odrůd odrůdami odrůdou odrůdu odrůdy odrůdách odrůdám odrůdě
+54	3854	štáb	štábem štábu štáby štábů
+55	3855	nechutný	nechutnou nechutná nechutné nechutného nechutných nechutným nechutně
+56	3856	dobýt	dobude dobudou dobyl dobyla dobyli dobylo dobyly dobyt dobyta dobyto dobytí dobytím dobývají dobýval dobývala dobývali dobývat dobývá
+57	3857	lekce	lekcemi lekci lekcí lekcích
+58	3858	hmm	
+59	3859	jakožto	
+60	3860	né	
+61	3861	zdaleka	
+62	3862	čistit	čistil čistila čistili čistí čistící čistím čistíme čistíte čištění čištěním
+63	3863	mamka	mamce mamko mamkou mamku mamky
+64	3864	napsaný	napsanou napsaná napsané napsaného napsaném napsaných napsaným napsanými
+65	3865	trubka	trubce trubek trubkami trubkou trubkové trubku trubky trubkách
+66	3866	dědeček	dědečka dědečkem dědečkova dědečkovi dědečkovy dědečkové dědečku dědečky dědečků dědečkův
+67	3867	soutěžní	soutěžních soutěžního soutěžním soutěžními soutěžnímu
+68	3868	tanečnice	tanečnic tanečnicemi tanečnici tanečnicí tanečníci tanečník tanečníka tanečníkem tanečníky tanečníků tanečníkům
+69	3869	autorita	autorit autoritami autoritou autoritu autority autoritám autoritě
+70	3870	zákrok	zákrocích zákrokem zákroku zákroky zákroků zákrokům
+71	3871	lůžko	lůžek lůžka lůžkem lůžkovou lůžková lůžkové lůžkového lůžkovém lůžkový lůžkových lůžku lůžky lůžkách
+72	3872	hnusný	hnusnou hnusná hnusné hnusného hnusném hnusní hnusných hnusným hnusně hnusnější nejhnusnější
+73	3873	lavička	lavičce laviček lavičkami lavičkou lavičku lavičky lavičkách
+74	3874	dovednost	dovednostech dovednostem dovednosti dovednostmi dovedností
+75	3875	postupný	postupnou postupná postupné postupného postupném postupnému postupných postupným postupnými
+76	3876	lovit	loven loveni lovení lovením lovil lovila lovili lovily loví lovící lovím lovíme uloven uloveno ulovení ulovený ulovil ulovila ulovili ulovit uloví
+77	3877	téct	tekl tekla teklo tekly tekoucí teč teče tečou téci
+78	3878	ruch	ruchem ruchu ruchy ruchů
+79	3879	čtrnáct	čtrnácti
+80	3880	schválení	schválením
+81	3881	havárie	havárii havárií haváriích haváriím
+82	3882	připisovat	připisoval připisovala připisovali připisován připisována připisováno připisovány připisuje připisujeme připisují připsal připsat
+83	3883	lovec	lovce lovcem lovci lovců lovcům lovkyně
+84	3884	vyhrožovat	vyhrožoval vyhrožovala vyhrožovali vyhrožováno vyhrožování vyhrožuje vyhrožují
+85	3885	kapitál	kapitálem kapitálu
+86	3886	otrok	otroci otroka otrokem otroku otroky otrokyni otrokyní otrokyně otroků otrokům
+87	3887	parádní	parádních parádního parádním
+88	3888	specializovaný	specializovanou specializovaná specializované specializovaného specializovaném specializovanému specializovaní specializovaných specializovaným specializovanými
+89	3889	rovnováha	rovnováhou rovnováhu rovnováhy rovnováze rovnovážnou rovnovážná rovnovážné rovnovážného rovnovážný
+90	3890	stabilita	stabilitou stabilitu stability stabilitě
+91	3891	ocas	ocase ocasem ocasní ocasních ocasu ocasy ocasů ocásek ocáskem ocásku ocásky
+92	3892	odrážet	neodráží odrážejí odrážející odrážel odrážela odráželi odráželo odrážely odrážení odráží
+93	3893	tabule	tabulemi tabuli tabulí tabulích
+94	3894	chov	chovech chovem chovu chovy chovů
+95	3895	lídr	lídra lídrem lídrovi lídry lídryní lídryně lídrů lídrům lídři
+96	3896	líčit	líčen líčení líčením líčil líčila líčili líčí líčící líčím
+97	3897	pokyn	pokynech pokynem pokynu pokyny pokynů pokynům
+98	3898	revoluční	revolučních revolučního revolučním revolučními revolučnímu revolučně
+99	3899	služební	služebních služebního služebním služebními služebnímu
+100	3900	skladatel	skladatele skladatelem skladateli skladatelka skladatelky skladatelova skladatelé skladatelů skladatelům

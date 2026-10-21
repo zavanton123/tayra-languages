@@ -1,0 +1,100 @@
+1	6101	marihuana	marihuanou marihuanu marihuany marihuaně
+2	6102	šňůra	šňůr šňůrami šňůrka šňůrou šňůru šňůry šňůrách šňůře
+3	6103	zřítit	zřícení zřítil zřítila zřítili zřítilo zřítily zřítí
+4	6104	přihodit	nepřihodilo přihazovat přihodil přihodila přihodili přihodilo přihodily přihodí přihodím přihodíme přihoďte
+5	6105	konkurent	konkurenta konkurentem konkurenti konkurentovi konkurenty konkurentů konkurentům
+6	6106	odpojit	odpojen odpojena odpojeno odpojeny odpojení odpojený odpojil odpojila odpojili odpojovat odpojte odpojí odpojíme
+7	6107	evakuace	evakuaci evakuací evakuační
+8	6108	vyznání	vyznáním
+9	6109	kučera	kučerou kučerovi kučerová kučerové kučeru kučery
+10	6110	mešita	mešit mešitou mešitu mešity mešitách mešitě
+11	6111	fotografování	fotografováním
+12	6112	získávání	získáváním
+13	6113	žadatel	žadatele žadatelem žadateli žadatelé žadatelů žadatelům
+14	6114	sedmdesátý	sedmdesátá sedmdesáté sedmdesátých sedmdesátým
+15	6115	jazzový	jazzovou jazzová jazzové jazzového jazzovém jazzoví jazzových jazzovým jazzovými
+16	6116	zralý	zralejší zralou zralá zralé zralého zralém zralí zralých zralým zralými
+17	6117	sopka	sopce sopek sopkami sopkou sopku sopky
+18	6118	mocnost	mocnostem mocnosti mocnostmi mocností
+19	6119	dozadu	
+20	6120	fuj	
+21	6121	jenomže	
+22	6122	sorry	
+23	6123	zanedlouho	
+24	6124	sluch	sluchem sluchovou sluchová sluchové sluchového sluchový sluchových sluchovým sluchu
+25	6125	agrese	agresi agresí
+26	6126	ironie	ironii ironií
+27	6127	rozeznat	nerozeznal nerozeznání rozeznají rozeznal rozeznali rozezná rozeznáme rozeznání rozeznáte rozeznávají rozeznávat rozeznává rozeznáváme rozeznávání
+28	6128	půle	půli půlí
+29	6129	adaptace	adaptaci adaptací adaptacích
+30	6130	nahrávání	nahráváním
+31	6131	komorní	komorních komorního komorním komornější
+32	6132	povodí	povodích povodím
+33	6133	lak	lakem laku laky laků
+34	6134	zapracovat	zapracoval zapracovala zapracovali zapracovány zapracování zapracuje zapracujeme zapracujte
+35	6135	divočina	divočinou divočinu divočiny divočině
+36	6136	sprint	sprintech sprintem sprintu sprinty sprintů
+37	6137	konstrukční	konstrukčních konstrukčního konstrukčním konstrukčními
+38	6138	orgasmus	orgasmem orgasmu orgasmy orgasmů
+39	6139	převážit	převažovat převažují převážen převážena převáženi převáženy převážení převážil převážila převážilo převážily převáží
+40	6140	zaměstnanost	zaměstnanosti
+41	6141	herna	heren hernou hernu herny hernách herně
+42	6142	poručík	poručíka poručíkem poručíkovi poručíku
+43	6143	výbušnina	výbušnin výbušninami výbušninou výbušninu výbušniny výbušninách
+44	6144	vystupování	vystupováním
+45	6145	trezor	trezorech trezorem trezoru trezory trezorů
+46	6146	přejmenovat	přejmenoval přejmenovala přejmenovali přejmenovalo přejmenovaly přejmenovaný přejmenován přejmenována přejmenováno přejmenovány přejmenování přejmenováním přejmenovávat přejmenuje
+47	6147	osvětlit	osvětlen osvětlena osvětleno osvětlenou osvětleny osvětlená osvětlené osvětleného osvětleném osvětlený osvětlených osvětleným osvětlil osvětlila osvětloval osvětlovalo osvětlovaly osvětlovat osvětlování osvětluje osvětlují osvětlující osvětlí
+48	6148	softwarový	softwarovou softwarová softwarové softwarového softwarovém softwarových softwarovým softwarovými
+49	6149	dekorace	dekoracemi dekoraci dekorací dekoracích
+50	6150	imigrant	imigranta imigranti imigranty imigrantů imigrantům
+51	6151	silvestr	silvestra silvestrem silvestrovské silvestrovský silvestru
+52	6152	kapr	kapra kaprem kapry kaprů kapři kapří
+53	6153	oslabení	oslabením
+54	6154	uváděný	uváděn uváděna uváděnou uváděny uváděná uváděné uváděných uváděným
+55	6155	rozlehlý	nejrozlehlejší rozlehlejší rozlehlou rozlehlá rozlehlé rozlehlého rozlehlém rozlehlých rozlehlým rozlehlými
+56	6156	panika	panice panikou paniku paniky
+57	6157	spolubydlící	spolubydlících spolubydlícího spolubydlícím spolubydlícími
+58	6158	estetický	estetickou estetická estetické estetického estetickém estetickému estetických estetickým estetickými
+59	6159	jogurt	jogurtem jogurtový jogurtu jogurty jogurtů
+60	6160	pozemský	pozemskou pozemská pozemské pozemského pozemském pozemskému pozemských pozemským pozemskými pozemští
+61	6161	dimenze	dimenzemi dimenzi dimenzí dimenzích
+62	6162	slalom	slalomu
+63	6163	dostavit	dostavil dostavila dostavili dostavilo
+64	6164	botanika	botanice botanici botanickou botanicky botanická botanické botanického botanický botanických botanik botaniku botaniky botaniků botanička
+65	6165	nezákonný	nezákonnou nezákonná nezákonné nezákonného nezákonném nezákonnému nezákonných nezákonným nezákonně
+66	6166	preferovat	preferovány preferuje preferují
+67	6167	sauna	saun saunou saunu sauny sauně
+68	6168	týmový	týmovou týmová týmové týmového týmovém týmovému týmoví týmových týmovým týmovými týmově
+69	6169	podpůrný	podpůrnou podpůrná podpůrné podpůrného podpůrných podpůrným podpůrnými podpůrně
+70	6170	boxer	boxera boxerem boxerovi boxery boxerů boxeři
+71	6171	hlasitý	hlasitou hlasitá hlasité hlasitého hlasitém hlasitému hlasití hlasitých hlasitým hlasitými hlasitější nejhlasitější
+72	6172	hrnek	hrncích hrnkem hrnku hrnky hrnků hrníček hrníčkem hrníčku hrníčky hrníčků
+73	6173	replika	replice replik replikami replikou repliku repliky replikách
+74	6174	obsluhovat	obsloužit obsluhoval obsluhovala obsluhovali obsluhována obsluhovány obsluhování obsluhuje obsluhují obsluhující
+75	6175	neschopný	neschopna neschopnou neschopná neschopné neschopného neschopní neschopných neschopným neschopnými
+76	6176	kazeta	kazet kazetami kazetou kazetový kazetu kazety kazetách kazetě
+77	6177	vrcholit	vrcholil vrcholila vrcholilo vrcholily vrcholí vrcholící vyvrcholilo vyvrcholit
+78	6178	čerpadlo	čerpadel čerpadla čerpadlem čerpadly
+79	6179	citace	citacemi citaci citací citacích
+80	6180	celoroční	celoročních celoročního celoročním celoročnímu celoročně
+81	6181	charta	chart chartou chartu charty chartě
+82	6182	postřeh	postřehem postřehu postřehy postřehů
+83	6183	kompaktní	kompaktních kompaktního kompaktním kompaktními kompaktnější
+84	6184	sekera	seker sekerami sekerka sekerou sekeru sekery sekyra sekyrou sekyru sekyry
+85	6185	rasismus	rasismem rasismu
+86	6186	specializovat	specializuje specializují
+87	6187	celosvětově	
+88	6188	málokdy	
+89	6189	ou	
+90	6190	whisky	
+91	6191	zoufale	
+92	6192	spiknutí	spiknutím
+93	6193	stromeček	stromečkem stromečku stromečky stromečků
+94	6194	obžaloba	obžalobou obžalobu obžaloby obžalobě
+95	6195	jednatel	jednatele jednatelem jednateli jednatelka jednatelé jednatelů
+96	6196	privatizace	privatizaci privatizací
+97	6197	výslovný	výslovnou výslovné výslovného výslovným výslovně
+98	6198	panák	panáci panácích panáka panákem panáku panáky panáků
+99	6199	spolehlivě	spolehlivěji
+100	6200	transparentní	transparentních transparentního transparentním transparentně transparentnější

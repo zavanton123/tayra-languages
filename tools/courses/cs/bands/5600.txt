@@ -1,0 +1,100 @@
+1	5501	haló	
+2	5502	jakož	
+3	5503	taxi	
+4	5504	zezadu	
+5	5505	náušnice	náušnic náušnicemi náušnici
+6	5506	izolovat	izoloval izolovala izolovali izolované izolovaný izolován izolována izolováni izolováno izolovány izolování izoluje izolují
+7	5507	hedvábí	hedvábnou hedvábná hedvábné hedvábného hedvábném hedvábný hedvábných hedvábným hedvábím
+8	5508	mládek	mládka mládková
+9	5509	sešit	sešitech sešitu sešity sešitě sešitů
+10	5510	žíla	žil žilami žilka žilou žilách žílami žíle žílou žílu žíly žílách
+11	5511	banán	banánech banánem banánu banány banánů
+12	5512	pivní	pivních pivního pivním pivními
+13	5513	kupní	kupních
+14	5514	mučení	mučením
+15	5515	chovatel	chovatele chovatelem chovateli chovatelka chovatelé chovatelů chovatelům
+16	5516	šílenství	šílenstvím
+17	5517	zpochybnit	nezpochybňuje zpochybnil zpochybnila zpochybnili zpochybnilo zpochybnily zpochybní zpochybněn zpochybněna zpochybněno zpochybněny zpochybnění zpochybňovat zpochybňování zpochybňuje zpochybňují zpochybňující
+18	5518	chutný	chutnou chutná chutné chutného chutných chutným chutně chutnější nejchutnější
+19	5519	rektor	rektora rektorem rektorka rektorovi rektory rektorů rektoři
+20	5520	sjet	sjel sjela sjeli sjíždí sjíždím sjíždíme sjíždějí sjížděl sjížděla sjížděli sjížděly sjíždění sjíždět
+21	5521	víla	víl vílami víle vílou vílu víly vílách vílám vílí
+22	5522	rakev	rakve rakvemi rakvi rakví rakvích
+23	5523	počin	počinem počinu počiny počinů počinům
+24	5524	pochlubit	pochlubil
+25	5525	nadchnout	nadchl nadchla nadchli nadchlo nadchly nadchne nadchnou nadchnul nadšen nadšena nadšeni nadšeno
+26	5526	pecka	pecce pecek peckou pecková peckové pecku pecky
+27	5527	centrála	centrál centrále centrálou centrálu centrály
+28	5528	kodex	kodexem kodexu kodexy kodexů
+29	5529	regulovat	reguloval regulovala regulované regulovaný regulován regulována regulováno regulovány regulování reguluje regulují regulující
+30	5530	otrava	otrav otravou otravu otravy otravách otravám otravě
+31	5531	hlína	hlínou hlínu hlíny hlíně
+32	5532	jizva	jizev jizvami jizvou jizvu jizvy jizvě
+33	5533	revize	revizemi revizi revizí revizích
+34	5534	dražba	dražbou dražbu dražby dražbách dražbě dražeb
+35	5535	nit	nitek niti nitka nitkami nitku nitky nití nitě nitěmi
+36	5536	hymna	hymen hymnou hymnu hymny hymně
+37	5537	můra	můr můrami můrou můru můry můrách můře
+38	5538	těžit	těžil těžila těžili těžily těží
+39	5539	zrada	zradou zradu zrady zradě
+40	5540	rovnice	rovnic rovnicemi rovnici rovnicí rovnicích
+41	5541	samospráva	samospráv samosprávami samosprávou samosprávu samosprávy samosprávě
+42	5542	tušení	tušením
+43	5543	osmdesátý	osmdesátá osmdesáté osmdesátých
+44	5544	rozvést	rozvedl rozvedla rozvedli rozvádí rozvádět
+45	5545	nádvoří	nádvořích nádvořím
+46	5546	sběratel	sběratele sběratelem sběrateli sběratelka sběratelé sběratelů sběratelům
+47	5547	záplava	záplav záplavami záplavou záplavu záplavy záplavách záplavám záplavě
+48	5548	zajatec	zajatce zajatcem zajatci zajatcích zajatců zajatcům zajatkyně
+49	5549	nůžky	nůžek nůžkami
+50	5550	dotazník	dotazníkem dotazníku dotazníky dotazníků
+51	5551	biologie	biologii biologií
+52	5552	rozložení	rozložením
+53	5553	nastartovat	nastartoval nastartovala nastartovali nastartovalo nastartovaly nastartovaný nastartován nastartování nastartuje nastartujeme nastartujte nastartují
+54	5554	něčí	něčích něčího něčím
+55	5555	václavský	václavská václavské václavského václavském václavským
+56	5556	detektor	detektorem detektoru detektory detektorů
+57	5557	moč	moče moči močí
+58	5558	penze	penzi penzí
+59	5559	neoprávněný	neoprávněnou neoprávněná neoprávněné neoprávněného neoprávněném neoprávněnému neoprávněných neoprávněným neoprávněně
+60	5560	koupaliště	koupališti koupalištích koupalištěm koupališť
+61	5561	kupec	kupce kupcem kupci kupců kupcům
+62	5562	vrabec	brabec vrabce vrabci vrabcová vrabců
+63	5563	skaut	skauta skautem skauti skautu skauty skautů skautům
+64	5564	vysadit	vysadil vysadila vysadili vysadily vysadí vysadíme vysadíte vysazen vysazena vysazeni vysazeno vysazeny vysazení vysazený vysazovat vysazuje vysaďte
+65	5565	citron	citronem citronová citronové citronu citrony citronů citrón citrónem citrónu citróny citrónů
+66	5566	zdanění	zdaněním
+67	5567	zdražovat	zdražení zdražil zdražila zdražilo zdražily zdražit zdražování zdražuje zdražují zdraží
+68	5568	poselství	poselstvím
+69	5569	výstřel	výstřelech výstřelem výstřelu výstřely výstřelů
+70	5570	splátka	splátek splátku splátky splátkách
+71	5571	expanze	expanzi expanzí
+72	5572	doteď	
+73	5573	interview	
+74	5574	stoprocentně	
+75	5575	tudy	
+76	5576	vloni	
+77	5577	panství	panstvích panstvím
+78	5578	souřadnice	souřadnic souřadnicemi souřadnici souřadnicích souřadnicím
+79	5579	ilegální	ilegálních ilegálního ilegálním ilegálními ilegálnímu ilegálně
+80	5580	ústní	ústních ústního ústním ústně
+81	5581	skladovat	skladoval skladovala skladovali skladován skladována skladováno skladovány skladování skladuje skladujeme skladujete skladují
+82	5582	nátlak	nátlakem nátlaku
+83	5583	strojní	strojních strojního strojním strojně
+84	5584	uhradit	neuhradí uhradil uhradila uhradili uhradí uhradíme uhrazen uhrazena uhrazeno uhrazeny uhrazené uhrazení
+85	5585	prospět	prospívat prospívá prospěje prospějí prospěl prospěla prospělo prospěly
+86	5586	intimní	intimních intimního intimním intimními intimnímu intimnější nejintimnější nejintimnějších
+87	5587	klimatizace	klimatizaci klimatizací
+88	5588	brzdit	brzdil brzdila brzdilo brzdily brzdí brzdící brzdím brzdě brzdění zabrzdit
+89	5589	hubený	hubenou hubená hubené hubeného hubení hubených hubeným hubenější
+90	5590	krvácení	krvácením
+91	5591	padlý	padlá padlé padlého padlému padlí padlých padlým padlými
+92	5592	přízeň	přízni přízní přízně
+93	5593	ukradený	ukradenou ukradená ukradené ukradeného ukradeném ukradení ukradených ukradeným ukradenými
+94	5594	léčivo	léčiv léčiva léčivech léčivem léčivy
+95	5595	incident	incidentem incidentu incidenty
+96	5596	příjemce	příjemcem příjemci příjemců příjemcům
+97	5597	císařský	císařskou císařská císařské císařského císařském císařskému císařských císařským císařskými císařští
+98	5598	podepsaný	podepsanou podepsaná podepsané podepsaného podepsaném podepsaní podepsaných podepsaným
+99	5599	oprávnění	oprávněním oprávněními
+100	5600	překladatel	překladatele překladatelem překladateli překladatelka překladatelkou překladatelku překladatelky překladatelé překladatelů překladatelům

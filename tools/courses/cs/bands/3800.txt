@@ -1,0 +1,100 @@
+1	3701	osvětlení	osvětlením
+2	3702	mrknout	mrkat mrkl mrkla mrkli mrkne mrkneme mrknete mrkni mrknu mrknul mrknutí mrknutím mrkněte mrká
+3	3703	koláč	koláče koláček koláčem koláči koláčích koláčů
+4	3704	oděv	oděvech oděvem oděvní oděvních oděvního oděvním oděvu oděvy oděvů
+5	3705	manipulace	manipulacemi manipulaci manipulací manipulacích manipulacím
+6	3706	vychovat	vychovají vychoval vychovala vychovali vychovaly vychovaná vychované vychovaní vychovaný vychovaných vychová vychováme vychován vychována vychováni vychování vychovávají vychovával vychovávat vychovávány
+7	3707	propojení	propojením
+8	3708	maďarský	maďarskou maďarská maďarské maďarského maďarském maďarskému maďarských maďarským maďarskými maďarští
+9	3709	konzervativní	konzervativních konzervativního konzervativním konzervativními konzervativnímu konzervativnější
+10	3710	karlovarský	karlovarskou karlovarská karlovarské karlovarského karlovarském karlovarskému karlovarských karlovarským karlovarští
+11	3711	neviditelný	neviditelnou neviditelná neviditelné neviditelného neviditelném neviditelní neviditelných neviditelným neviditelnými neviditelně
+12	3712	kombinovat	kombinoval kombinovala kombinovali kombinovaly kombinované kombinovaný kombinován kombinována kombinovány kombinování kombinuje kombinujeme kombinuji kombinují kombinující zkombinoval zkombinovala zkombinovali zkombinovat zkombinuje
+13	3713	spadat	spadají spadající spadal spadala spadali spadalo spadaly spadané spadá spadám spadáte
+14	3714	usadit	usadil usadila usadili usadilo usadily usadí usadím usadíme usadíte usazen usazena usazeni usazeny usazení usazený usazeným usazovat usazuje usaďte
+15	3715	definice	definic definicemi definici definicí definicích
+16	3716	krádež	krádeže krádežemi krádeži krádeží krádežích krádežím
+17	3717	hýbat	hne hnout hnul hnula hnuli hnulo hnuly hněte hýbají hýbal hýbala hýbali hýbalo hýbaly hýbe hýbejte hýbete hýbou hýbu nehnul nehýbal
+18	3718	železnice	železnic železnici železnicí železnicích
+19	3719	logika	logice logik logikou logiku logiky
+20	3720	zobrazovat	zobrazuje zobrazují
+21	3721	aspekt	aspektech aspektem aspektu aspekty aspektů aspektům
+22	3722	hnízdo	hnízd hnízda hnízdech hnízdem hnízdečka hnízdečko hnízdu hnízdě
+23	3723	tragédie	tragédiemi tragédii tragédií tragédiích tragédiím
+24	3724	napravit	napraven napravena napraveno napraveny napravení napravený napravil napravila napravili napravilo napravily napravte napraví napravím napravíme
+25	3725	cenový	cenovou cenová cenové cenového cenovém cenových cenovým cenovými cenově
+26	3726	koupě	koupi koupí koupím kup
+27	3727	stanovisko	stanoviscích stanovisek stanoviska stanoviskem stanovisku stanovisky stanoviskům
+28	3728	herecký	hereckou herecky herecká herecké hereckého hereckém hereckému hereckých hereckým hereckými herečtí
+29	3729	psycholog	psychologa psychologem psychologovi psychologové psychology psychologů psychologům psycholožce psycholožka psycholožkou psycholožku psycholožky
+30	3730	formule	formuli formulí
+31	3731	letenka	letence letenek letenkou letenku letenky
+32	3732	soudruh	soudruha soudruhem soudruhu soudruhy soudruhů soudruhům soudruzi soudružka soudružko soudružky
+33	3733	invaze	invazi invazí
+34	3734	rozkaz	rozkazech rozkazem rozkazu rozkazy rozkazů rozkazům
+35	3735	darovat	daroval darovala darovali darovalo darovaly darovaný darován darována darováno darovány darování daruj daruje darujeme darujete daruji darujte darují
+36	3736	kapka	kapce kapek kapkami kapkou kapku kapky kapkách
+37	3737	fantastický	fantastickou fantasticky fantastická fantastické fantastického fantastickém fantastických fantastickým fantastickými fantastičtí
+38	3738	hladký	hladkou hladká hladké hladkého hladkém hladkému hladkých hladkým hladkými hladší nejhladší
+39	3739	egyptský	egyptskou egyptská egyptské egyptského egyptském egyptskému egyptských egyptským egyptskými egyptští
+40	3740	hudebník	hudebnice hudebníci hudebnících hudebníka hudebníkem hudebníkovi hudebníky hudebníků hudebníkům
+41	3741	tkáň	tkáni tkání tkáních tkáním tkáně tkáněmi
+42	3742	bezprostředně	
+43	3743	cupat	cupu
+44	3744	furt	
+45	3745	klinika	klinice kliniku kliniky
+46	3746	socialistický	socialistickou socialisticky socialistická socialistické socialistického socialistickém socialistickému socialistických socialistickým socialistickými socialističtí
+47	3747	dosažení	dosažením
+48	3748	motocykl	motocyklech motocyklem motocyklovou motocyklová motocyklové motocyklového motocyklový motocyklových motocyklu motocykly motocyklů
+49	3749	napojit	napojen napojena napojeni napojeno napojeny napojené napojení napojený napojil napojila napojili napojovat napojí napojíme
+50	3750	dospět	dospívat dospívá dospěje dospějeme dospějete dospějí dospěl dospěla dospěli dospělo dospěly
+51	3751	plátno	pláten plátna plátnech plátnem plátnu plátny plátně
+52	3752	vinný	vinen vinna vinni vinnou vinny vinná vinné vinného vinném vinní vinných vinným vinnými
+53	3753	chaos	chaosem chaosu
+54	3754	rozdílný	rozdílnou rozdílná rozdílné rozdílného rozdílném rozdílnému rozdílní rozdílných rozdílným rozdílnými rozdílně
+55	3755	zrak	zrakem zraku zraky zrakům
+56	3756	ponechat	ponechají ponechal ponechala ponechali ponechalo ponechaly ponechme ponechte ponechá ponechám ponecháme ponechán ponechána ponecháni ponecháno ponechány ponecháte ponechávat ponechává
+57	3757	kout	kouta koutech koutem koutu kouty koutě koutů kuje kují kul kula kuli kuta kutí
+58	3758	vlhkost	vlhkosti vlhkostí
+59	3759	dokumentace	dokumentaci dokumentací
+60	3760	zoufalý	zoufalejší zoufalou zoufalá zoufalé zoufalého zoufalém zoufalému zoufalí zoufalých zoufalým
+61	3761	výplata	výplat výplatou výplatu výplaty výplatě
+62	3762	hořet	hořel hořela hořelo hořely hoření hořením hoří hořím shořel shořela shořelo shořely shořet shoří
+63	3763	stanoviště	stanovišti stanovištích stanovištím stanovištěm stanovišť
+64	3764	vstřelit	vstřelení vstřelený vstřelil vstřelila vstřelili vstřelí
+65	3765	pojetí	pojetím
+66	3766	odkládat	odkládají odkládal odkládala odkládali odkládá odkládám odkládáme odkládání odkládáním odkládáte odložili odložit odloží
+67	3767	nelegální	nelegálních nelegálního nelegálním nelegálními nelegálnímu nelegálně
+68	3768	žaloba	žalob žalobami žalobou žalobu žaloby žalobách žalobám žalobě
+69	3769	skleněný	skleněnou skleněná skleněné skleněného skleněném skleněných skleněným skleněnými
+70	3770	otvor	otvorech otvorem otvoru otvory otvorů
+71	3771	fantazie	fantaziemi fantazii fantazií fantaziích
+72	3772	extrémní	extrémních extrémního extrémním extrémními extrémnímu extrémnější nejextrémnější
+73	3773	zbývající	zbývajících zbývajícího zbývajícím zbývajícími
+74	3774	moravskoslezský	moravskoslezskou moravskoslezská moravskoslezské moravskoslezského moravskoslezském moravskoslezských moravskoslezským
+75	3775	business	businessu
+76	3776	notebook	noteboocích notebookem notebooku notebooky notebooků
+77	3777	propagace	propagaci propagací
+78	3778	dopustit	dopouští dopouštět dopustil dopustila dopustili dopustilo dopustily dopustí dopustíme dopustíte nedopustí
+79	3779	šetření	šetřením
+80	3780	proslulý	nejproslulejší nejproslulejších proslulou proslulá proslulé proslulého proslulém proslulému proslulí proslulých proslulým proslulými
+81	3781	dvojitý	dvojitou dvojitá dvojité dvojitého dvojitém dvojitému dvojitých dvojitým dvojitými
+82	3782	báze	bázi bází
+83	3783	sankce	sankcemi sankci sankcí sankcích sankcím
+84	3784	vděčný	vděčen vděčni vděčnou vděčná vděčné vděční vděčných vděčným vděčnější
+85	3785	doložit	dokládají dokládající dokládal dokládat dokládá doložen doložena doloženo doloženy doložení doložený doložil doložila doložili doloží
+86	3786	bilance	bilanci bilancí
+87	3787	talíř	talíře talířek talířem talíři talířové talířích talířů
+88	3788	slovní	slovních slovního slovním slovními slovnímu slovně
+89	3789	obranný	obrannou obranná obranné obranného obranném obrannému obranných obranným obrannými
+90	3790	bít	bij bije bijou bijte bijí bijící bil bila bili bilo bily bita biti bity bití bitím nebije zbije zbil zbila zbili zbit zbít
+91	3791	copak	
+92	3792	mimořádně	
+93	3793	nahlas	
+94	3794	podstatně	
+95	3795	politicky	
+96	3796	týdně	
+97	3797	vsadit	vsadil vsadila vsadili vsadilo vsadily vsadí vsadím vsadíme vsadíte vsazen vsazena vsazeno vsazeny vsazený vsaď vsaďte vsázet
+98	3798	fialový	fialovo fialovou fialová fialové fialového fialovém fialových fialovým fialovými fialově
+99	3799	kometa	komet kometami kometou kometu komety kometách kometě
+100	3800	post	poste postech postem postu posty postů

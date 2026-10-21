@@ -1,0 +1,100 @@
+1	5801	senátní	senátních senátního senátním senátními
+2	5802	vous	vousech vousem vousu vousy vousů
+3	5803	odvrátit	odvracet odvrací odvrácena odvrácení odvrátil odvrátila odvrátili odvrátilo odvrátily odvrátí
+4	5804	zástavba	zástavbou zástavbu zástavby zástavbě
+5	5805	legie	legiemi legii legií legiích legiím
+6	5806	zesílit	zesilovat zesiluje zesílen zesílena zesíleny zesílení zesílený zesílil zesílila zesílili zesílilo zesílily zesílí
+7	5807	nářadí	nářadím
+8	5808	bodový	bodovou bodová bodové bodového bodovém bodovému bodových bodovým bodovými
+9	5809	čtyřka	čtyřce čtyřkou čtyřku čtyřky
+10	5810	redukce	redukci redukcí
+11	5811	útes	tes útesech útesem útesu útesy útesů útesům
+12	5812	lidovec	lidovce lidovci lidovců lidovcům
+13	5813	úhrada	úhrad úhradou úhradu úhrady úhradách úhradě
+14	5814	rozebírat	rozebrali rozebrat rozebírají rozebíral rozebírala rozebírali rozebírá rozebírám rozebíráme rozebírány rozebírání
+15	5815	romantika	romantice romantici romantik romantikou romantiku romantiky romantiků
+16	5816	mentální	mentálních mentálního mentálním mentálními mentálnímu
+17	5817	koktejl	koktejlech koktejlem koktejlový koktejlu koktejly koktejlů
+18	5818	pohoří	pohořích pohořím
+19	5819	europoslanec	europoslance europoslancem europoslanci europoslanců europoslankyně
+20	5820	uhasit	has hasil hasili hasit hasí hasící hašení uhasil uhasila uhasili uhasí uhašen uhašení
+21	5821	přeměna	přeměn přeměnou přeměnu přeměny přeměnách přeměně
+22	5822	dospělost	dospělosti dospělostí
+23	5823	publikovat	publikovali publikování publikováním publikuje
+24	5824	hustota	hustotou hustotu hustoty hustotě
+25	5825	patřičný	patřičnou patřičná patřičné patřičného patřičném patřičných patřičným patřičnými patřičně
+26	5826	proslavit	proslavil proslavila
+27	5827	dron	drone dronem dronu drony dronů
+28	5828	obohatit	obohacen obohacena obohaceno obohaceny obohacený obohacovat obohacují obohatil obohatila obohatili obohatilo obohatily obohatí
+29	5829	uspokojit	uspokojen uspokojena uspokojeni uspokojeny uspokojil uspokojila uspokojili uspokojilo uspokojily uspokojovat uspokojuje uspokojí
+30	5830	dýchací	dýchacích dýchacího dýchacím dýchacími
+31	5831	obviněný	obviněné obviněného obviněnému obviněných obviněným obviněnými
+32	5832	tříletý	tříletou tříletá tříleté tříletého tříletém tříletému tříletých tříletým
+33	5833	matice	matic maticemi matici maticové maticí
+34	5834	chlup	chlupu chlupy chlupů
+35	5835	výmluva	výmluv výmluvami výmluvou výmluvu výmluvy
+36	5836	pěvecký	pěveckou pěvecky pěvecká pěvecké pěveckého pěveckém pěveckých pěveckým pěveckými
+37	5837	čistota	čistotou čistotu čistoty čistotě
+38	5838	soul	soulem soulské soulu
+39	5839	nezaměstnaný	nezaměstnaná nezaměstnané nezaměstnaného nezaměstnaní nezaměstnaných nezaměstnaným nezaměstnanými
+40	5840	kunda	kund kundička kundo kundou kundu kundy kundě
+41	5841	věrnost	věrnosti věrností
+42	5842	plachta	plachet plachetka plachtami plachtou plachtu plachty plachtách plachtě
+43	5843	barbar	barbara barbaru barbary barbarů barbarům barbaři
+44	5844	každoroční	každoročních každoročního každoročním každoročnímu
+45	5845	číšník	číšnice číšnici číšnicí číšníci číšníka číšníkem číšníkovi číšníky číšníků
+46	5846	lhář	lháře lhářem lháři lhářka lhářů
+47	5847	projednat	projednají projednal projednala projednali projednalo projedná projednávají projednával projednávala projednávali projednávat projednává
+48	5848	pomstít	mstil mstí mstít mstě pomstil pomstila pomstili pomstí
+49	5849	přesvědčivý	nejpřesvědčivější přesvědčivou přesvědčivá přesvědčivé přesvědčivého přesvědčivých přesvědčivým přesvědčivě přesvědčivěji přesvědčivější
+50	5850	krytí	krytím
+51	5851	provokovat	provokoval provokovala provokovali provokování provokuje provokují provokující vyprovokoval vyprovokovala vyprovokovali vyprovokovalo vyprovokovaly vyprovokovat vyprovokován vyprovokování vyprovokuje
+52	5852	požární	požárních požárního požárním požárně
+53	5853	meta	met metou metu mety metách metě
+54	5854	závazný	závaznou závazná závazné závazného závazných závazným závaznými závazně
+55	5855	líný	línou líná líné líného líní líných líným líně línější
+56	5856	váhat	neváhají neváhal neváhá váhají váhající váhal váhala váhali váhá váhám váháte
+57	5857	katastrální	katastrálních katastrálního katastrálním katastrálnímu
+58	5858	sušený	sušenou sušená sušené sušeného sušení sušením sušených sušeným sušenými
+59	5859	vzdělaný	nejvzdělanější vzdělanou vzdělaná vzdělané vzdělaného vzdělaní vzdělaných vzdělaným vzdělanými vzdělanější
+60	5860	námořník	námořnické námořnický námořníci námořníka námořníkem námořníkovi námořníky námořníků námořníkům
+61	5861	vízum	víz víza vízem vízy
+62	5862	onemocnět	onemocní onemocníte onemocněl onemocněla onemocněli onemocnělo onemocněly
+63	5863	důkladný	důkladnou důkladná důkladné důkladného důkladném důkladnému důkladných důkladným důkladnější
+64	5864	pračka	pračce praček pračkou pračku pračky
+65	5865	regulační	regulačních regulačního regulačním regulačními
+66	5866	garantovat	garantoval garantovala garantovanou garantovaná garantované garantovaného garantovaný garantovaných garantovaným garantován garantována garantováno garantovány garantuje garantujeme garantuji garantuju garantují garantující
+67	5867	včerejšek	včerejška včerejšku
+68	5868	přehrávač	přehrávače přehrávačem přehrávači přehrávačích přehrávačů
+69	5869	poutník	poutnice poutníci poutníka poutníkem poutníkovi poutníky poutníků poutníkům
+70	5870	důsledný	důslednou důsledná důsledné důsledného důsledném důslednému důslední důsledným důsledně důsledněji důslednější
+71	5871	dobrota	dobrot dobrotami dobrotou dobrotu dobroty dobrotě
+72	5872	horák	horáka horákem horákovi horáková horákové horákyně
+73	5873	rehabilitace	rehabilitaci rehabilitací rehabilitační
+74	5874	nejasný	nejasnou nejasná nejasné nejasného nejasných nejasným nejasnými nejasně
+75	5875	animace	animacemi animaci animací animační
+76	5876	hráz	hráze hrázi hrází hrázích
+77	5877	doleva	
+78	5878	koneckonců	
+79	5879	kontaktovat	
+80	5880	nechť	
+81	5881	nepříliš	
+82	5882	přepadení	
+83	5883	ss	
+84	5884	zdědit	zdědil zdědila zdědili zdědilo zdědily zdědí zděděnou zděděná zděděné zděděného zděděný zděděných
+85	5885	střešní	střešních střešního střešním střešními
+86	5886	specialita	specialit specialitami specialitou specialitu speciality specialitách specialitám
+87	5887	sametový	sametovou sametová sametové sametového sametovém sametoví sametových sametovým
+88	5888	žebro	žeber žebra žebrech žebrem žebru žebry
+89	5889	dotek	dotekem doteku doteky doteků
+90	5890	projektový	projektovou projektová projektové projektového projektovém projektových projektovým
+91	5891	dalekohled	dalekohledem dalekohledu dalekohledy dalekohledů
+92	5892	sloučit	sloučen sloučena sloučeny sloučené sloučení sloučením sloučil sloučila sloučili sloučily sloučí
+93	5893	tchán	tchyni tchyní tchyně tchána tchánem tchánovi tchýni tchýní tchýně
+94	5894	palma	palem palmami palmou palmovou palmová palmové palmového palmovém palmový palmových palmovým palmu palmy palmě
+95	5895	garda	gard gardou gardu gardy gardě
+96	5896	nejistota	nejistot nejistotou nejistotu nejistoty nejistotě
+97	5897	znečištění	znečištěním
+98	5898	tělocvična	tělocvičen tělocvičnou tělocvičnu tělocvičny tělocvičnách tělocvičně
+99	5899	hliník	hliníkem hliníková hliníkové hliníku
+100	5900	příchozí	příchozích příchozího příchozím příchozími příchozímu

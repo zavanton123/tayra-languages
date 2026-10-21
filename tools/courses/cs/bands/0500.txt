@@ -1,0 +1,100 @@
+1	401	matka	matce matek mateřskou mateřská mateřské mateřského mateřském mateřskému mateřský mateřských mateřským mateřskými matička matkami matko matkou matku matky matkách matkám matčin matčině
+2	402	koupit	koupen koupena koupeno koupeny koupení koupený koupil koupila koupili koupilo koupily koupí koupím koupíme koupíte koupíš kup kupte nekoupil nekoupí
+3	403	nyní	
+4	404	umět	neumí neumím neumíme neumějí neuměl neuměla neuměli umí umím umíme umíte umíš uměj umějí uměl uměla uměli umělo uměly
+5	405	dnešní	dnešních dnešního dnešním dnešními dnešnímu
+6	406	začátek	začátcích začáteční začátkem začátku začátky začátků začátkům
+7	407	milion	milionech milionem milionová milionové milionu miliony milionů milionům
+8	408	pokračovat	nepokračovat pokračoval pokračovala pokračovali pokračovalo pokračovaly pokračování pokračováních pokračováním pokračuj pokračuje pokračujeme pokračujete pokračuji pokračujme pokračujte pokračuju pokračují pokračující pokračujících pokračujícího pokračujícím pokračujícímu
+9	409	tisíc	tisíce tisícem tisíci tisících tisíců tisícům
+10	410	vyhrát	nevyhrál vyhraj vyhraje vyhrajeme vyhrajete vyhraješ vyhraji vyhrajou vyhrajte vyhraju vyhrají vyhrál vyhrála vyhráli vyhrálo vyhrály vyhráno vyhrávala vyhrávat
+11	411	bůh	boha bohem bohovi bohové bohu bohy bohyni bohyní bohyně bohyň bohů bohům bozi bozích bože božskou božsky božská božské božského božském božskému božský božských božským božskými bůžek bůžka
+12	412	bílý	bíle bílou bílá bílé bílého bílém bílému bílí bílých bílým bílými bělejší
+13	413	pes	fen fena fenka fenkou fenou fenu feny pejsci pejsek pejska pejskem pejskovi pejskové pejsku pejsky pejsků pejskům psa pse psech psem psi psovi psu psy psí psích psího psík psíka psíkem psíky psím psími psímu psů psům
+14	414	název	názvech názvem názvu názvy názvů názvům
+15	415	rodič	rodiče rodičem rodiči rodičové rodičích rodičů rodičům
+16	416	současný	současnou současná současné současného současném současnému současní současných současným současnými
+17	417	občan	občana občance občane občanech občanek občanem občanka občankou občanku občanky občanovi občanskou občansky občanská občanské občanského občanském občanskému občanský občanských občanským občanskými občanu občany občané občanští občanů občanům občánků
+18	418	bývalý	bývalou bývalá bývalé bývalého bývalém bývalému bývalí bývalých bývalým bývalými nebývalou nebývalá nebývalé nebývalého nebývalý
+19	419	držet	drž drže držel držela drželi drželo držely držen držena drženi drženo drženy držení držením držme držte drží držíc držíce držící držím držíme držíte držíš nedrží
+20	420	otec	otce otcem otci otcovi otcovskou otcovská otcovské otcovského otcovský otcovských otcové otců otcům otcův otče
+21	421	zdroj	zdroje zdrojem zdroji zdrojovou zdrojová zdrojové zdrojového zdrojovém zdrojový zdrojových zdrojovým zdrojích zdrojů zdrojům
+22	422	syn	syna synech synek synem synovi synovy synové synu syny synáček synáčka synů synům synův
+23	423	mimo	mimoni mimoně mimoň
+24	424	číst	nečetli nečtou četl četla četli četlo četly čte čteme čten čtena čteno čteny čtení čteních čtením čtete čteš čti čtou čtoucí čtu čtěte čísti
+25	425	soud	soudech soudem soudu soudy soudě soudů soudům
+26	426	správný	nejsprávnější správnou správná správné správného správném správnému správní správních správního správním správními správnímu správných správným správnými správnější
+27	427	poté	
+28	428	zejména	
+29	429	zároveň	
+30	430	plán	plánech plánek plánem plánu plány plánů plánům
+31	431	pomoc	pomoci
+32	432	tvůj	tvoje tvoji tvojí tvou tvá tvé tvého tvém tvému tví tvých tvým tvými
+33	433	funkce	funkcemi funkci funkcí funkcích funkcím
+34	434	bát	bojte bojí bojím bojíme bojíte bojíš bál bála bále báli bálo bálu bály bání neboj nebojte nebojí nebojím nebojíme nebojíte nebál nebála
+35	435	pocit	pocitech pocitem pocitu pocity pocitů pocitům
+36	436	září	zář zářijovou zářijová zářijové zářijového zářijovém zářijový zářijových zářím
+37	437	působit	nepůsobila nepůsobilo nepůsobí působení působením působil působila působili působilo působily působí působící působících působícího působím působíme působíte působíš
+38	438	trh	trhem trhu trhy trhů trhům trzích
+39	439	obchod	obchode obchodech obchodem obchodu obchody obchodě obchodů obchodům obchůdek obchůdky
+40	440	kam	kampak
+41	441	obraz	obraze obrazech obrazem obrazu obrazy obrazů obrazům obrázcích obrázek obrázkem obrázku obrázky obrázků obrázkům
+42	442	svoboda	nejsvobodnější svobod svobodami svobodnou svobodná svobodné svobodného svobodném svobodnému svobodní svobodný svobodných svobodným svobodnými svobodně svobodněji svobodnější svobodou svobodovi svobodová svobodové svobodu svobody svobodách svobodám svobodě
+43	443	zajímavý	nejzajímavější nejzajímavějších nejzajímavějšího nejzajímavějším zajímavou zajímavá zajímavé zajímavého zajímavém zajímavému zajímaví zajímavých zajímavým zajímavými zajímavě zajímavěji zajímavější zajímavějších zajímavějšího zajímavějším
+44	444	sice	
+45	445	včetně	
+46	446	znovu	
+47	447	byt	byte bytech bytem byteček bytu byty bytě bytů bytům
+48	448	součást	součástech součástem součásti součástmi součástí
+49	449	růst	roste rosteme rostl rostla rostli rostlo rostly rostou rostoucí rostoucích rostoucího rostoucím rostoucími rostoucímu rostu růstem růstovou růstová růstové růstového růstový růstových růstovým růstu
+50	450	politický	politickou politická politické politického politickém politickému politických politickým politickými političtí
+51	451	autor	autora autorce autorech autorek autorem autorka autorkou autorku autorky autorova autorovi autoru autory autorčin autorčina autorů autorům autorův autoři
+52	452	podpora	podpor podporou podporu podpory podporách podpoře
+53	453	směr	směrech směrem směrovou směrová směrové směrového směrový směrových směrovým směrovými směrově směru směry směrů směrům
+54	454	pohled	pohledech pohledem pohledový pohledu pohledy pohledů pohledům
+55	455	málo	maličko mála mále málu nejméně nejmíň neméně
+56	456	nízký	nejnižší nejnižších nejnižšího nejnižším nejnižšími nejníže nižší nižších nižšího nižším nižšími nižšímu nízce nízko nízkou nízká nízké nízkého nízkém nízkému nízkých nízkým nízkými
+57	457	ministr	ministra ministrem ministrova ministrovi ministru ministry ministryni ministryní ministryně ministrů ministrům ministrův ministře ministři
+58	458	tolik	tolika
+59	459	zájem	zájmech zájmem zájmu zájmy zájmů zájmům
+60	460	výkon	výkonech výkonem výkonový výkonu výkony výkonů výkonům
+61	461	slyšet	neslyšel neslyšela neslyšeli neslyší neslyšící poslyš poslyšte slyš slyšel slyšela slyšeli slyšelo slyšely slyšen slyšení slyšením slyšte slyší slyšící slyším slyšíme slyšíte slyšíš slýchával slýchávala slýchávám slýcháváme
+62	462	smlouva	smlouvami smlouvou smlouvu smlouvy smlouvách smlouvám smlouvě smluv
+63	463	místní	místních místního místním místními místnímu místně
+64	464	ukázat	neukázal ukaž ukažme ukažte ukázal ukázala ukázali ukázalo ukázaly ukázán ukázána ukázáno ukázány ukáže ukážeme ukážete ukážeš ukážou ukážu ukáží
+65	465	druh	druha druhem druhové druhu druhy druhů druhům druzi druzích družce družka družkou družku družky
+66	466	německý	německou německy německá německé německého německém německému německých německým německými němečtí
+67	467	období	obdobích obdobím obdobími
+68	468	přece	přec přeci
+69	469	dokonce	
+70	470	střední	středních středního středním středními střednímu středně
+71	471	láska	lásce lásek láskami lásko láskou lásku lásky láskách láskám
+72	472	podobný	nejpodobnější nepodobná nepodobné podobnou podobná podobné podobného podobném podobnému podobní podobných podobným podobnými podobnější
+73	473	chybět	chybí chybím chybíš chybějí chybějící chybějících chybějícího chybějícím chybějícími chybějícímu chyběl chyběla chyběli chybělo chyběly chybění nechybí nechyběla nechybělo
+74	474	bod	bode bodech bodem bodu bodě bodů bodům
+75	475	síť	síti sítí sítích sítím sítě sítěmi síťovou síťová síťové síťového síťovém síťový síťových síťovým síťovými
+76	476	chápat	chápající chápal chápala chápali chápalo chápaly chápe chápejte chápeme chápete chápeš chápou chápu chápán chápána chápáni chápáno chápány chápání chápáním nechápal nechápala nechápali nechápe nechápeš nechápou nechápu
+77	477	totiž	
+78	478	kamarád	kamaráda kamarádce kamaráde kamarádech kamarádek kamarádem kamarádi kamarádka kamarádkami kamarádkou kamarádku kamarádky kamarádkám kamarádovi kamarádu kamarády kamarádů kamarádům
+79	479	sledovat	nesleduje nesledují sledoval sledovala sledovali sledovalo sledovaly sledován sledována sledováni sledováno sledovány sleduj sleduje sledujeme sledujete sleduješ sleduji sledujme sledujte sleduju sledují sledující
+80	480	stavba	stavbami stavbou stavbu stavby stavbách stavbám stavbě staveb
+81	481	loď	lodi lodička lodičky lodí lodích lodím lodě loděk loděmi loďce loďka loďkou loďku loďky loďkách loďmi
+82	482	závod	závodech závodem závodu závody závodě závodů závodům
+83	483	veřejný	neveřejné veřejnou veřejná veřejné veřejného veřejném veřejnému veřejní veřejných veřejným veřejnými
+84	484	telefon	telefonech telefonem telefonu telefony telefonů telefonům
+85	485	video	videa videem videi videu videí videích videím
+86	486	zemřít	nezemře nezemřela zemře zemřel zemřela zemřeli zemřelo zemřely zemřeme zemřete zemřeš zemři zemřou zemřu
+87	487	poslat	nepošle poslal poslala poslali poslalo poslaly poslán poslána posláni posláno poslány poslání posláním pošle pošleme pošlete pošleš pošli pošlou pošlu
+88	488	prodej	prodeje prodejem prodeji prodejích prodejů prodejům
+89	489	vůz	voze vozech vozem vozu vozy vozících vozík vozíkem vozíku vozíky vozíků vozíček vozů vozům
+90	490	příběh	příběhem příběhu příběhy příběhů příběhům příbězích
+91	491	mezinárodní	mezinárodních mezinárodního mezinárodním mezinárodními mezinárodnímu mezinárodně
+92	492	poprvé	
+93	493	zcela	
+94	494	organizace	organizacemi organizaci organizací organizacích organizacím
+95	495	doufat	doufaje doufají doufajíc doufal doufala doufali doufalo doufaly doufejme doufá doufám doufáme doufání doufáte
+96	496	noha	noh nohama nohami nohou nohu nohy nohách nohám noze nožce nožek nožiček nožička nožičkama nožičkami nožičku nožičky nožičkách nožka nožkami nožku nožky nožkách
+97	497	prý	prej
+98	498	využít	nevyužil využij využije využijeme využijete využiješ využiji využijme využijte využiju využijí využil využila využili využilo využily využit využita využiti využito využity využívat využívá
+99	499	příliš	
+100	500	téměř	

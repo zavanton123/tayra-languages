@@ -1,0 +1,100 @@
+1	8001	alej	aleje alejemi aleji alejí alejích
+2	8002	užívaný	užívané užívaných užíván užívány
+3	8003	odepsat	odepisovat odepiš odepsal odepsala odepsali odepsaly odepíše odepíšu
+4	8004	záře	zář záři zářím
+5	8005	naléhavý	naléhavou naléhavá naléhavé naléhavého naléhavém naléhavých naléhavým naléhavější
+6	8006	chemik	chemici chemika chemikem chemiky chemiků chemičce chemička chemičku chemičky
+7	8007	ozdobit	ozdob ozdoben ozdobena ozdobeno ozdobeny ozdobení ozdobil ozdobila ozdobili ozdobily ozdobte ozdobí ozdobíme
+8	8008	podstavec	podstavce podstavcem podstavci
+9	8009	fanatik	fanatici fanatickou fanatická fanatické fanatického fanatický fanatických fanatickým fanatika fanatikem fanatiky fanatiků fanatičtí
+10	8010	usilovně	usilovněji
+11	8011	původce	původcem původci původců
+12	8012	mango	mang manga mangu mangy
+13	8013	diamantový	diamantovou diamantová diamantové diamantového diamantových diamantovým
+14	8014	dochovaný	dochovanou dochovaná dochované dochovaného dochovaných dochovaným dochovanými
+15	8015	zápasit	zápasení zápasil zápasila zápasili zápasilo zápasí zápasící zápasím zápasíme
+16	8016	nezdravý	nezdravou nezdravá nezdravé nezdravého nezdraví nezdravých nezdravým nezdravě
+17	8017	završit	završen završena završeno završení završený završil završila završili završilo završí
+18	8018	myčka	myčce myček myčkou myčku myčky
+19	8019	těžební	těžebních těžebního těžebním těžebními
+20	8020	vyklidit	vyklidil vyklidila vyklidili vyklidí vyklizen vyklizena vyklizení vyklízet
+21	8021	bankrot	bankrotem bankrotu bankroty bankrotů
+22	8022	ucelený	nejucelenější ucelenou ucelená ucelené uceleného ucelených uceleným ucelenější
+23	8023	rozkoš	rozkoše rozkoši rozkoší
+24	8024	scenárista	scenáristou scenáristu scenáristy scenáristé scenáristů
+25	8025	muka	muk mukách
+26	8026	domorodec	domorodce domorodci domorodců domorodcům
+27	8027	vyzbrojit	vyzbrojen vyzbrojena vyzbrojeni vyzbrojeny vyzbrojené vyzbrojení vyzbrojený vyzbrojil vyzbrojila vyzbrojili vyzbrojte vyzbrojí
+28	8028	vodorovný	vodorovnou vodorovná vodorovné vodorovného vodorovném vodorovných vodorovným vodorovnými
+29	8029	nakladatel	nakladatele nakladatelem nakladateli nakladatelské nakladatelský nakladatelé nakladatelů
+30	8030	vakuum	vakua vakuem vakuovou vakuová vakuové vakuových vakuově vakuu
+31	8031	půjčovna	půjčoven půjčovnou půjčovnu půjčovny půjčovnách půjčovně
+32	8032	rosol	rosola rosolem rosolová rosolu
+33	8033	bezmocný	bezmocnou bezmocná bezmocné bezmocného bezmocní bezmocných bezmocným bezmocně
+34	8034	vyhladit	vyhladil vyhladila vyhladili vyhladí vyhlazena vyhlazeni vyhlazeny vyhlazení vyhlazovat
+35	8035	kopřiva	kopřiv kopřivami kopřivka kopřivku kopřivou kopřivová kopřivu kopřivy
+36	8036	chmel	chmela chmele chmelem chmelová chmelové chmelu
+37	8037	světoznámý	světoznámou světoznámá světoznámé světoznámého světoznámých světoznámým
+38	8038	doplatit	doplacení doplatil doplatila doplatili doplatilo doplatí doplatíte doplácet
+39	8039	žárlivost	žárlivosti žárlivostí
+40	8040	pastvina	pastvin pastvinami pastvinu pastviny pastvinách pastvině
+41	8041	klaun	klauna klaunem klauni klauny klaunů
+42	8042	kreativita	kreativitou kreativitu kreativity kreativitě
+43	8043	extrém	extrémem extrému extrémy extrémů extrémům
+44	8044	zdar	zdaru
+45	8045	kartel	kartelem kartelu kartely kartelů kartelům
+46	8046	odškodné	odškodného
+47	8047	peřina	peřin peřinka peřinou peřinu peřiny peřinách peřině
+48	8048	tryska	trysek tryskami tryskou trysku trysky
+49	8049	plevel	plevele plevelem plevelu plevelů plevelům
+50	8050	ústrojí	ústrojím
+51	8051	sněžný	sněžnou sněžná sněžné sněžného sněžném sněžní sněžných sněžným
+52	8052	šach	šachové šachu šachách šachů
+53	8053	titan	titanem titanu
+54	8054	nástěnný	nástěnnou nástěnná nástěnné nástěnných nástěnnými
+55	8055	logistický	logistickou logistická logistické logistického logistickém logistických logistickým
+56	8056	nevšední	nevšedních nevšedního nevšedním nevšedními nevšedně
+57	8057	krajka	krajce krajek krajkami krajkou krajku krajky
+58	8058	projektant	projektanti projektanty
+59	8059	vybuchnout	vybuchl vybuchla vybuchlo vybuchly vybuchne vybuchnou
+60	8060	závěť	závěti závětí
+61	8061	recyklace	recyklaci recyklací
+62	8062	suvenýr	suvenýrem suvenýry suvenýrů
+63	8063	dvoudenní	dvoudenním
+64	8064	odeslání	odesláním
+65	8065	úpatí	úpatím
+66	8066	kopaná	kopanou kopané
+67	8067	che	
+68	8068	navenek	
+69	8069	přehledně	
+70	8070	čong	
+71	8071	motat	motají motal motala motali motá motám motáme motání
+72	8072	stojan	stojanech stojanem stojanu stojany stojanů stojánek
+73	8073	loňsko	loňska loňsku
+74	8074	soudobý	soudobou soudobá soudobé soudobého soudobém soudobých soudobým soudobými
+75	8075	hadry	hadrech hadrů
+76	8076	vyřazený	vyřazen vyřazena vyřazeny
+77	8077	gin	džin džina ginem ginu giny
+78	8078	národnostní	národnostních národnostního národnostním
+79	8079	výtěžek	výtěžku výtěžky
+80	8080	síra	sirné sírou sírovou sírová sírové síru síry síře
+81	8081	křoví	křovím
+82	8082	šablona	šablon šablonami šablonu šablony šabloně
+83	8083	převážný	převážnou převážná převážné
+84	8084	ohnisko	ohnisek ohniska ohniskem ohnisku
+85	8085	řítit	řítil řítila řítili řítí řítící řítím řítíme
+86	8086	sedmička	sedmičce sedmiček sedmičkou sedmičku sedmičky
+87	8087	družstevní	družstevních družstevního družstevním
+88	8088	knihovnice	knihovnici knihovnické knihovnický knihovnicí knihovníci knihovník knihovníka knihovníkem knihovníky knihovníků
+89	8089	ženich	ženicha ženichem ženichovi ženichy
+90	8090	protiklad	protikladem protikladné protikladných protikladu protiklady protikladů
+91	8091	obora	oborou oboru obory oboře
+92	8092	rajský	rajskou rajská rajské rajského rajském rajských rajským
+93	8093	hypoteční	hypotečních hypotečního hypotečním
+94	8094	špice	špic špici špicí
+95	8095	hobit	hobita hobiti hobitovi hobity hobitů
+96	8096	prolínat	prolínají prolínající prolínala prolínaly prolíná prolínání
+97	8097	docházka	docházce docházkou docházku docházky
+98	8098	afghánský	afghánskou afghánská afghánské afghánského afghánském afghánských afghánským afghánští
+99	8099	zatočit	zatočení zatočený zatočil zatočila zatočili zatočte zatočí zatočíme
+100	8100	zpověď	zpovědi zpovědí

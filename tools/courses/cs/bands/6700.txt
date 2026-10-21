@@ -1,0 +1,100 @@
+1	6601	lesklý	leskle lesklou lesklá lesklé lesklého lesklém lesklých lesklým lesklými
+2	6602	laciný	lacino lacinou laciná laciné laciného laciných laciným lacinými lacině laciněji lacinější nejlacinější
+3	6603	kubánský	kubánskou kubánská kubánské kubánského kubánském kubánských kubánským kubánskými kubánští
+4	6604	podívaná	podívanou podívané
+5	6605	zdržovat	zdržoval zdržovaly zdržuje zdržují
+6	6606	svěží	svěže svěžejší svěžích svěžího svěžím
+7	6607	multimediální	multimediálních multimediálního multimediálním multimediálními
+8	6608	bulharský	bulharskou bulharská bulharské bulharského bulharském bulharských bulharským bulharskými bulharští
+9	6609	svolení	svolením
+10	6610	kulomet	kulometem kulometu kulomety kulometů
+11	6611	pominout	pomine pomineme pominou pominu pominul pominula pominulo pominuly pominutí pomiňme
+12	6612	přepočet	přepočtu
+13	6613	řepa	řepný řepou řepu řepy řepě řípa
+14	6614	premiérový	premiérovou premiérová premiérové premiérového premiérovém premiérovému premiérových premiérovým
+15	6615	pohltit	pohlcen pohlcena pohlceni pohlceno pohlcení pohltil pohltila pohltilo pohltily pohltí
+16	6616	teror	teroru
+17	6617	jídelní	jídelních jídelního jídelním
+18	6618	betlém	betléma betlémem betlému betlémy betlémě betlémů
+19	6619	blaho	blah blaha blahem blahu
+20	6620	filharmonie	filharmonii filharmonií
+21	6621	bakalářský	bakalářskou bakalářská bakalářské bakalářského bakalářském bakalářských bakalářským
+22	6622	arch	archu archy archů arších
+23	6623	sprej	spreje sprejem spreji sprejů
+24	6624	sklízet	sklidil sklidit sklízejí sklízel sklízela sklízeli sklízení sklízí sklízíme
+25	6625	slogan	sloganem sloganu slogany sloganů
+26	6626	artefakt	artefaktech artefaktem artefaktu artefakty artefaktů
+27	6627	zemina	zemin zeminou zeminu zeminy zemině
+28	6628	citlivost	citlivosti citlivostí
+29	6629	napít	napije napijete napijte napiju napijí napil napila napili
+30	6630	traktor	traktorem traktoru traktory traktorů
+31	6631	facka	facek facku facky
+32	6632	pepř	pepře pepřem pepři
+33	6633	třináctý	třináctou třináctá třinácté třináctého třináctém třináctým
+34	6634	středoevropský	středoevropskou středoevropská středoevropské středoevropského středoevropském středoevropských středoevropským středoevropskými
+35	6635	střežit	střežen střežena střeženo střeženy střežené střežení střežený střežil střežila střežili střežily střeží střežící
+36	6636	bariéry	bariér bariérami
+37	6637	zadaný	zadanou zadaná zadané zadaného zadaném zadaní zadaných zadaným zadanými
+38	6638	kredit	kreditem kreditu kredity kreditů
+39	6639	nafta	naftou naftu nafty naftě
+40	6640	mol	mola mole molech molem moli molu moly molů molům
+41	6641	podotknout	podotkl podotkla
+42	6642	indiánský	indiánskou indiánská indiánské indiánského indiánském indiánských indiánským indiánskými indiánští
+43	6643	náročnost	nenáročnost náročnosti
+44	6644	chemikálie	chemikáliemi chemikálii chemikálií chemikáliím
+45	6645	tisícovka	tisícovce tisícovek tisícovkami tisícovkou tisícovku tisícovky tisícovkách
+46	6646	vrtat	vrtají vrtal vrtala vrtalo vrtá vrtání vrtáním
+47	6647	opatrnost	neopatrnost opatrnosti opatrností
+48	6648	příliv	přílivem přílivu přílivy
+49	6649	šachy	šachovou šachového šachový šachách šachů
+50	6650	namontovat	montoval montovala montovali montovaly montovaný montovat montován montována montovány montování montuje montují namontoval namontovali namontovaný namontován namontována namontováno namontovány smontovat
+51	6651	použitelný	použitelnou použitelná použitelné použitelného použitelných použitelným
+52	6652	mávat	mávají mávající mával mávala mávali mávne mávnout mává mávám mávání zamávat
+53	6653	obrněný	obrněnou obrněná obrněné obrněného obrněném obrněných obrněným obrněnými
+54	6654	severský	severskou severská severské severského severském severských severským severskými severští
+55	6655	kolaps	kolapsu
+56	6656	odložený	odložen odložena odloženo odloženou odložená odložené
+57	6657	podvečer	podvečera podvečerní podvečerních podvečerním podvečeru
+58	6658	nájemce	nájemcem nájemci nájemců nájemcům
+59	6659	opětovný	opětovné opětovného opětovném opětovnému
+60	6660	operní	operních operního operním operními
+61	6661	poklesnout	poklesl poklesla pokleslo poklesly poklesne poklesnou
+62	6662	vzrušující	vzrušujících vzrušujícího vzrušujícím
+63	6663	zásobování	zásobováním
+64	6664	nadřízený	nadřízeného nadřízenému nadřízení
+65	6665	orlický	orlické orlických
+66	6666	korekce	korekci korekcí
+67	6667	zchladit	chladil chladit chladí chladící chlazeny chlazený ochladilo ochladit zchladil zchladila zchladí zchlazení
+68	6668	olivový	olivovou olivová olivové olivového olivovém olivových olivovým olivovými olivově
+69	6669	přírůstek	přírůstkem přírůstku přírůstky přírůstků
+70	6670	zaplavit	zaplaven zaplavena zaplaveno zaplaveny zaplavená zaplavené zaplavení zaplavený zaplavených zaplavil zaplavila zaplavili zaplavilo zaplavily zaplavovat zaplavuje zaplaví
+71	6671	generátor	generátory
+72	6672	smrk	smrkem smrku smrky smrků smrček smrčky
+73	6673	tloušťka	tloušťce tloušťkou tloušťku tloušťky tloušťkách
+74	6674	pohraniční	pohraničních pohraničního pohraničním
+75	6675	prognóza	prognostický prognóz prognóze prognózou prognózu prognózy
+76	6676	úvěrový	úvěrovou úvěrová úvěrové úvěrového úvěrovém úvěrových úvěrovým úvěrovými
+77	6677	bezva	
+78	6678	hladce	
+79	6679	malinko	
+80	6680	place	
+81	6681	bříza	březovou březová březové březového březový březových bříz břízami bříze břízou břízu břízy
+82	6682	dechový	dechovou dechová dechové dechového dechových dechovým dechovými
+83	6683	bič	biče bičem bičík bičíkem bičíky
+84	6684	mastný	mastnou mastná mastné mastného mastných mastným mastnými mastnější
+85	6685	mimozemšťan	mimozemšťana mimozemšťanech mimozemšťanem mimozemšťani mimozemšťany mimozemšťané mimozemšťanů mimozemšťanům
+86	6686	dekret	dekretem dekretu dekrety dekretů
+87	6687	sponzorovat	jmenoval jmenovala jmenovali jmenovalo jmenovaly jmenován jmenována jmenováni jmenováno jmenovány jmenuje jmenujeme jmenujete jmenuješ jmenuji jmenujme jmenuju jmenují sponzoruje
+88	6688	exponát	exponáty exponátů
+89	6689	filmař	filmaře filmařem filmaři filmařka filmařů filmařům
+90	6690	vyndat	vyndají vyndal vyndala vyndali vyndej vyndejte vyndá vyndám vyndáme vyndáte vyndávat
+91	6691	srozumitelný	srozumitelnou srozumitelná srozumitelné srozumitelného srozumitelných srozumitelným srozumitelně srozumitelnější
+92	6692	vysněný	vysněnou vysněná vysněné vysněného vysněném vysněnému vysněných vysněným
+93	6693	bašta	bašt baštami baštou baštu bašty baště
+94	6694	šokovat	šokoval šokovala šokovali šokovalo šokovaly šokovaná šokovaní šokovaný šokovaně šokován šokována šokováni šokuje šokují
+95	6695	psychiatr	psychiatra
+96	6696	developer	developera developerem developerovi developery developerů developerům developeři
+97	6697	smysluplný	smysluplnou smysluplná smysluplné smysluplného smysluplnému smysluplných smysluplným smysluplně smysluplnější
+98	6698	předpovědět	předpoví předpovídat předpovídá předpověděl předpověděla předpověděli
+99	6699	kompatibilní	kompatibilních kompatibilního kompatibilním
+100	6700	nerovnost	nerovnostech nerovnosti nerovnostmi nerovností

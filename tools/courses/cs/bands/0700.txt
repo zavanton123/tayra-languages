@@ -1,0 +1,100 @@
+1	601	li	
+2	602	pomocí	
+3	603	většinou	
+4	604	věnovat	nevěnoval nevěnovali nevěnuje věnoval věnovala věnovali věnovalo věnovaly věnované věnovaný věnován věnována věnováno věnovány věnování věnováním věnuj věnuje věnujeme věnujete věnuješ věnuji věnujme věnujte věnuju věnují věnující
+5	605	zařízení	zařízeních zařízením zařízeními
+6	606	sport	sportech sportem sportu sporty sportů sportům
+7	607	městský	městskou městská městské městského městském městskému městských městským městskými městští
+8	608	zvýšit	nezvyšuje nezvýší zvyšoval zvyšovala zvyšovali zvyšovalo zvyšovaly zvyšovat zvyšte zvyšuje zvyšujeme zvyšujete zvyšuji zvyšují zvyšující zvyšujících zvýšen zvýšena zvýšeno zvýšenou zvýšeny zvýšená zvýšené zvýšeného zvýšeném zvýšenému zvýšený zvýšených zvýšeným zvýšenými zvýšil zvýšila zvýšili zvýšilo zvýšily zvýší zvýším zvýšíme zvýšíte
+9	609	vysvětlit	vysvětlen vysvětlena vysvětleno vysvětleny vysvětlení vysvětlením vysvětlete vysvětli vysvětlil vysvětlila vysvětlili vysvětlilo vysvětlily vysvětloval vysvětlovala vysvětlovali vysvětlovalo vysvětlovaly vysvětlovat vysvětlováno vysvětlovány vysvětlování vysvětluje vysvětlujeme vysvětlujete vysvětluji vysvětlujte vysvětluju vysvětlují vysvětlující vysvětlí vysvětlím vysvětlíme vysvětlíte
+10	610	krátký	kratičké kratičký kratší kratších kratšího kratším kratšími krátcí krátkou krátká krátké krátkého krátkém krátkému krátkých krátkým krátkýma krátkými nejkratší nejkratších nejkratším
+11	611	takzvaný	takzvanou takzvaná takzvané takzvaného takzvaném takzvanému takzvaní takzvaných takzvaným takzvanými tzv
+12	612	těšit	netěší těš těšení těšil těšila těšili těšilo těšily těšte těší těšící těším těšíme těšíte těšíš
+13	613	metr	metrech metrem metru metry metrů metrům
+14	614	internet	internetem internetu internety
+15	615	řízení	řízeních řízením
+16	616	obchodní	obchodních obchodního obchodním obchodními obchodnímu obchodně
+17	617	hodiny	hodinám
+18	618	méně	míň
+19	619	dosáhnout	dosahoval dosahovala dosahovali dosahovalo dosahovaly dosahovat dosahováno dosahování dosahuje dosahujeme dosahují dosahující dosáhl dosáhla dosáhli dosáhlo dosáhly dosáhne dosáhneme dosáhnou nedosahovaly nedosahuje nedosáhl nedosáhla nedosáhli nedosáhly nedosáhne
+20	620	špatně	hůř hůře nejhůř nejhůře
+21	621	konečně	
+22	622	samotný	samotnou samotná samotné samotného samotném samotnému samotní samotných samotným samotnými
+23	623	aplikace	aplikacemi aplikaci aplikací aplikacích aplikacím
+24	624	spát	nespala nespí nespíš spal spala spali spalo spaly spaní spi spinkat spinká spával spí spící spících spícího spícím spícími spím spíme spíte spěte
+25	625	gól	góla gólech gólem gólu góly gólů gólům
+26	626	obsahovat	neobsahoval neobsahovaly neobsahuje neobsahují obsahoval obsahovala obsahovalo obsahovaly obsahuje obsahují obsahující obsahujících obsahujícího obsažen obsažena obsaženo obsaženy obsáhl obsáhne obsáhnout
+27	627	tvořit	netvoří tvořen tvořena tvořeno tvořeny tvořené tvoření tvořením tvořený tvořil tvořila tvořili tvořilo tvořily tvoří tvořící tvořím tvoříme tvoříte
+28	628	ztratit	neztratil neztratit neztratí ztracen ztracena ztraceni ztraceno ztracenou ztraceny ztracená ztracené ztraceného ztraceném ztracenému ztracení ztracený ztracených ztraceným ztracenými ztratil ztratila ztratili ztratilo ztratily ztratí ztratím ztratíme ztratíte ztratíš
+29	629	útok	útocích útokem útoku útoky útoků útokům
+30	630	podařit	nepodařené nepodařilo nepodaří podařená podařené podařený podařil podařila podařilo podařily podaří
+31	631	řešení	řešeních řešením řešeními
+32	632	schopný	nejschopnější nejschopnějších neschopen neschopni schopen schopna schopni schopno schopnou schopny schopná schopné schopného schopní schopných schopným schopnými schopně schopnější
+33	633	předseda	předsedkyni předsedkyní předsedkyně předsedo předsedou předsedovi předsedové předsedu předsedy předsedů předsedům
+34	634	považovat	nepovažoval nepovažovala nepovažuje nepovažuji nepovažují považoval považovala považovali považovalo považovaly považované považovaný považován považována považováni považováno považovány považování považuje považujeme považujete považuješ považuji považujte považuju považují považující
+35	635	zkušenost	zkušenostech zkušenostem zkušenosti zkušenostmi zkušeností
+36	636	televize	televizemi televizi televizí televizích televizím
+37	637	jistě	jistěji
+38	638	potom	
+39	639	rozhodně	
+40	640	štěstí	štěstím štěstíčko
+41	641	přijmout	nepřijal nepřijaly nepřijme nepřijmou nepřijmout nepřijímal nepřijímá přijal přijala přijali přijalo přijaly přijat přijata přijati přijato přijaty přijaté přijatý přijme přijmeme přijmete přijmeš přijmi přijmou přijmu přijměme přijměte přijímají přijímal přijímala přijímali přijímat přijímá přijímána
+42	642	deset	deseti desíti
+43	643	ochrana	ochran ochranou ochranu ochrany ochraně
+44	644	zbraň	zbrani zbraní zbraních zbraním zbraně zbraněmi zbraňový
+45	645	ředitel	ředitelce ředitele ředitelem řediteli ředitelka ředitelkou ředitelku ředitelky ředitelské ředitelského ředitelský ředitelé ředitelů ředitelům
+46	646	obyvatel	obyvatele obyvatelek obyvatelem obyvateli obyvatelka obyvatelky obyvatelé obyvatelích obyvatelů obyvatelům
+47	647	divadlo	divadel divadla divadle divadlech divadlem divadlu divadly divadlům divadélko
+48	648	přát	nepřeje nepřejí nepřál nepřála popřáli popřát přej přeje přejeme přejete přeješ přeji přejme přejte přeju přejí přející přál přála přáli přálo přály přáno
+49	649	fotka	fotce fotek fotkami fotkou fotku fotky fotkách fotkám
+50	650	poslanec	poslance poslancem poslanci poslancích poslanců poslancům poslaneckou poslanecká poslanecké poslaneckého poslaneckém poslaneckému poslanecký poslaneckých poslaneckým poslankyni poslankyní poslankyně poslanče
+51	651	dveře	dveřmi dveřní dveřních dveřního dveří dveřích dveřím dvířek dvířka dvířky
+52	652	území	územích územím územími
+53	653	významný	nejvýznamněji nejvýznamnější nejvýznamnějších nejvýznamnějšího nejvýznamnějším nejvýznamnějšími významnou významná významné významného významném významnému významní významných významným významnými významně významněji významnější významnějších významnějšího významnějším
+54	654	rychlý	nejrychlejší nejrychlejších nejrychlejšího nejrychlejším nejrychlejšími nejrychlejšímu rychlejší rychlejších rychlejšího rychlejším rychlejšími rychlejšímu rychlou rychlá rychlé rychlého rychlém rychlému rychlí rychlých rychlým rychlými
+55	655	jistý	jist jista jisti jisto jistou jisty jistá jisté jistého jistém jistému jistí jistých jistým jistými jistější nejjistější
+56	656	hvězda	hvězd hvězdami hvězdic hvězdice hvězdici hvězdiček hvězdička hvězdičkami hvězdičkou hvězdičku hvězdičky hvězdou hvězdu hvězdy hvězdách hvězdám hvězdě
+57	657	zajistit	zajisti zajistil zajistila zajistili zajistilo zajistily zajistí zajistím zajistíme zajistíte zajistěte zajištěn zajištěna zajištěni zajištěno zajištěny zajištěné zajištění zajištěním zajištěný zajišťovat zajišťuje
+58	658	mnohem	
+59	659	naopak	
+60	660	vedle	
+61	661	bavit	bav bavil bavila bavili bavilo bavily bavme bavte baví bavím bavíme bavíte bavíš nebavila nebavili nebavilo nebaví
+62	662	jmenovat	jmenoval jmenovala jmenovali jmenovalo jmenovaly jmenovanou jmenovaná jmenované jmenovaného jmenovaném jmenovanému jmenovaní jmenovaný jmenovaných jmenovaným jmenovanými jmenován jmenována jmenováni jmenováno jmenovány jmenuje jmenujeme jmenujete jmenuješ jmenuji jmenujme jmenuju jmenují nejmenoval nejmenovala nejmenovanou nejmenovaná nejmenované nejmenovaného nejmenovaném nejmenovaný nejmenovaných nejmenovaným
+63	663	spolupráce	spoluprací spolupráci spoluprácí
+64	664	zastavit	nezastavil nezastaví zastav zastaven zastavena zastaveni zastaveno zastaveny zastavené zastavení zastavením zastavený zastavil zastavila zastavili zastavilo zastavily zastavme zastavovat zastavte zastavuje zastaví zastavím zastavíme zastavíte
+65	665	sobota	so sobot sobotou sobotu soboty sobotách sobotě
+66	666	sto	set sete setech setem setu sety setů sta stech stem stu sty stě stům
+67	667	odpověď	odpovědi odpovědí odpovědích odpovědím odpověďmi
+68	668	založit	zakládat zakládá založ založen založena založeni založeno založenou založeny založená založené založeného založeném založenému založený založených založeným založenýma založenými založil založila založili založilo založily založte založí založím založíme založíte
+69	669	odejít	odejde odejdeme odejdete odejdeš odejdi odejdou odejdu odejděte odejit odešel odešla odešli odešlo odešly
+70	670	požádat	nepožádal nepožádala nežádá požádají požádal požádala požádali požádalo požádaly požádejte požádá požádám požádáme požádán požádána požádáni požádáno požádání požádáte žádají žádající žádajících žádal žádala žádali žádalo žádaly žádané žádaný žádat žádejte žádá žádám žádáme žádán žádána žádáno žádání žádáte
+71	671	pátek	pá páteční pátečních pátečního pátečním pátka pátkem pátková pátku pátky pátků
+72	672	starší	starších staršího starším staršími staršímu
+73	673	leden	ledna lednem lednovou lednová lednové lednového lednovém lednový lednových lednovým lednu
+74	674	premiér	premiéra premiére premiérem premiérka premiérkou premiérku premiérky premiérou premiérova premiérovi premiéru premiéry premiérách premiérů premiérův premiéře premiéři
+75	675	množství	množstevní množstvích množstvím
+76	676	vliv	vlivech vlivem vlivu vlivy vlivů vlivům
+77	677	světlo	světel světla světle světlech světlem světlu světly světlům světélko světýlko
+78	678	dle	
+79	679	naprosto	
+80	680	zpět	
+81	681	kontrola	kontrol kontrolami kontrole kontrolou kontrolu kontroly kontrolách kontrolám
+82	682	uvidět	neuvidí neuvidíme neuvidíte uvidí uvidím uvidíme uvidíte uvidíš uviděl uviděla uviděli uviděly
+83	683	značka	značce značek značkami značkou značku značky značkách značkám
+84	684	pěkný	nejpěknější pěknou pěkná pěkné pěkného pěkném pěknému pěkní pěkných pěkným pěknými pěknější
+85	685	pomáhat	nepomáhají nepomáhá pomáhají pomáhající pomáhal pomáhala pomáhali pomáhalo pomáhaly pomáhej pomáhejte pomáhá pomáhám pomáháme pomáhání pomáháte pomáháš
+86	686	bratr	bratra bratrech bratrem bratrova bratrovi bratru bratry bratrů bratrům bratrův bratře bratři bratří bratřím bratříček bratříčka
+87	687	smět	nesmí nesmím nesmíme nesmíte nesmíš nesmějí nesměl nesměla nesměli nesmělo nesměly smí smím smíme smíte smíš směj směje smějte smějí smějící směl směla směli smělo směly
+88	688	utkání	utkáních utkáním
+89	689	album	alb alba albech albem albu alby
+90	690	aktuální	aktuálních aktuálního aktuálním aktuálními aktuálnímu aktuálně aktuálnější nejaktuálnější
+91	691	příští	příštích příštího příštím příštímu
+92	692	stanice	stanic stanicemi stanici stanicí stanicích stanicím
+93	693	vítěz	vítězce vítěze vítězek vítězem vítězi vítězka vítězkami vítězkou vítězku vítězky vítěznou vítězná vítězné vítězného vítězném vítěznému vítězní vítězný vítězných vítězným vítěznými vítězně vítězové vítězích vítězů vítězům
+94	694	minulý	minule minulou minulá minulé minulého minulém minulému minulí minulých minulým minulými
+95	695	hrad	hradech hradem hradu hrady hradě hradů hradům hrádek hrádeček hrádkem hrádku hrádky
+96	696	přestat	nepřestal nepřestával nepřestávali nepřestává přestal přestala přestali přestalo přestaly přestane přestaneme přestanete přestaneš přestanou přestanu přestav přestaň přestaňme přestaňte přestávají přestával přestávala přestávali přestávalo přestávaly přestávat přestává přestávám přestáváme přestáváte
+97	697	dneska	
+98	698	dříve	
+99	699	společně	
+100	700	tehdy	

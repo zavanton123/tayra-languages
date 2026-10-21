@@ -1,0 +1,100 @@
+1	801	technika	technice technici technik technikami technikem technikou technikovi techniku techniky technikách technikám techniků technikům technička
+2	802	pochopit	nepochopil nepochopila nepochopili nepochopí pochop pochopen pochopena pochopeno pochopeny pochopení pochopením pochopil pochopila pochopili pochopilo pochopily pochopte pochopí pochopím pochopíme pochopíte pochopíš
+3	803	prostřednictvím	
+4	804	rovněž	
+5	805	červen	června červnem červnovou červnová červnové červnového červnovém červnový červnových červnu
+6	806	zeman	zemana zemanem zemanovi zemanová zemanové zemanů zemanův zemánek
+7	807	zlatý	zlatou zlatá zlaté zlatého zlatém zlatému zlatí zlatých zlatým zlatými zlatě
+8	808	jezdit	jezdi jezdil jezdila jezdili jezdilo jezdily jezdí jezdící jezdím jezdíme jezdíte jezdíval jezdívala jezdívali jezdíš jezděte ježdění nejezdil nejezdila nejezdili nejezdilo nejezdily nejezdí nejezdím nejezdíme
+9	809	chránit	chraň chraňte chránil chránila chránili chránilo chránily chrání chránící chráníme chráníte chráněn chráněna chráněni chráněno chráněnou chráněny chráněná chráněné chráněného chráněném chránění chráněný chráněných chráněným chráněnými neochrání ochraňovat ochránil ochránila ochránili ochránily ochránit ochrání ochráníme ochráníte uchránil uchránit uchrání
+10	810	zvláštní	nejzvláštnější zvláštních zvláštního zvláštním zvláštními zvláštnímu zvláštně zvláštnější
+11	811	rychlost	rychlostech rychlostem rychlosti rychlostmi rychlostí
+12	812	seriál	seriálech seriálem seriálový seriálu seriály seriálů seriálům
+13	813	tradiční	nejtradičnější tradičních tradičního tradičním tradičními tradičnímu tradičně tradičnější
+14	814	vlak	vlacích vlakem vlakovou vlaková vlakové vlakového vlakovém vlakovému vlakový vlakových vlakovým vlaku vlaky vlaků vlakům vláček vláčkem vláčku vláčky vláčků
+15	815	pokusit	nepokoušel nepokoušeli nepokouší nepokusil nepokusila pokoušejí pokoušející pokoušel pokoušela pokoušeli pokoušelo pokoušely pokoušení pokoušet pokouší pokouším pokoušíme pokoušíte pokusil pokusila pokusili pokusilo pokusily pokusme pokuste pokusí pokusím pokusíme pokusíte pokušení pokušením
+16	816	naučit	nauč naučenou naučená naučené naučení naučený naučených naučil naučila naučili naučilo naučily naučme naučte naučí naučím naučíme naučíte naučíš nenaučil nenaučili nenaučí
+17	817	uživatel	uživatele uživatelem uživateli uživatelka uživatelskou uživatelská uživatelské uživatelského uživatelském uživatelskému uživatelský uživatelských uživatelským uživatelskými uživatelé uživatelích uživatelů uživatelům
+18	818	zvíře	zvířat zvířata zvířatech zvířaty zvířatům zvířete zvířetem zvířeti zvířátka zvířátko
+19	819	vojenský	vojenskou vojenská vojenské vojenského vojenském vojenskému vojenských vojenským vojenskými vojenští
+20	820	konkrétní	konkrétních konkrétního konkrétním konkrétními konkrétnímu konkrétně konkrétněji konkrétnější konkrétnějšího
+21	821	majetek	majetkem majetkovou majetková majetkové majetkového majetkovém majetkovému majetkový majetkových majetkovým majetkovými majetku majetky majetků majetkům
+22	822	daleko	nejdál nejdále
+23	823	kancelář	kanceláře kancelářemi kanceláři kancelářskou kancelářská kancelářské kancelářského kancelářském kancelářský kancelářských kancelářským kancelářskými kanceláří kancelářích kancelářím
+24	824	most	mostech mosteckou mostecká mostecké mosteckého mosteckém mostecký mosteckých mostek mostem mostečtí mostu mosty mostě mostů mostům můstcích můstek můstkem můstku můstky můstků
+25	825	zahrada	zahrad zahradami zahradou zahradu zahrady zahradách zahradám zahradě zahrádka zahrádky
+26	826	přinést	nepřinese nepřinesla nepřineslo nepřinesly nepřináší přines přinese přineseme přinesen přinesena přineseny přinesete přinesl přinesla přinesli přineslo přinesly přinesou přineste přinesu přinášet
+27	827	konat	dokonal dokonala dokonali dokonaly dokonat dokonán dokonána dokonáno dokonání konají konající konal konala konali konalo konaly konané konaný konejte koná konám konáme konána konány konání konáním konáš nekonal nekonaly nekoná
+28	828	učinit	neučinil neučinili neučiní nečiní učinil učinila učinili učinilo učinily učiní učiním učiníme učiníte učiněn učiněna učiněno učiněny učiněné učinění učiněný učiň učiňte činil činila činili činilo činily činit činiti činí činící činím činíme činíte činěn činěny činění čiň čiňte
+29	829	přesto	
+30	830	maso	mas masa masami mase masem masou masovou masová masové masového masovém masovému masoví masový masových masovým masovými masově masu masy masám masíčka masíčko masům
+31	831	úkol	úkolech úkolem úkolu úkoly úkolů úkolům
+32	832	bojovat	bojoval bojovala bojovali bojovalo bojovaly bojování bojuj bojuje bojujeme bojujete bojuješ bojuji bojujme bojujte bojuju bojují bojující nebojuje nebojují
+33	833	nutný	nejnutnější nejnutnějších nejnutnějším nutno nutnou nutná nutné nutného nutném nutnému nutných nutným nutnými
+34	834	příprava	příprav přípravami přípravou přípravu přípravy přípravách přípravám přípravě
+35	835	blízko	blíž blíže blíží blížím nejblíže
+36	836	ptát	neptal neptá ptají ptal ptala ptali ptalo ptaly ptej ptejme ptejte ptá ptám ptáme ptáte ptáš
+37	837	zdraví	zdravím zdravíčko
+38	838	podzim	podzimem podzimní podzimních podzimního podzimním podzimními podzimnímu podzimu
+39	839	úspěšný	nejúspěšnější nejúspěšnějších nejúspěšnějšího nejúspěšnějším nejúspěšnějšími úspěšnou úspěšná úspěšné úspěšného úspěšném úspěšnému úspěšní úspěšných úspěšným úspěšnými úspěšnější úspěšnějších úspěšnějším
+40	840	pustit	nepouští nepustil nepustí pouštěli pouštět pustil pustila pustili pustilo pustily pustí pustím pustíme pustíte pustíš pusť pusťme pusťte puštěn puštění puštěný
+41	841	motor	motorech motorek motorem motoru motory motorů motorům
+42	842	kategorie	kategoriemi kategorii kategorií kategoriích kategoriím
+43	843	počítat	nepočítaje nepočítají nepočítal nepočítá nepočítáme počítají počítal počítala počítali počítalo počítaly počítej počítejte počítá počítám počítáme počítán počítána počítáno počítány počítání počítáním počítáte spočítají spočítal spočítala spočítali spočítat spočítej spočítejte spočítá spočítám spočítáme spočítáno spočítáte vypočítal vypočítali vypočítat vypočítá
+44	844	miliarda	miliard miliardami miliardou miliardu miliardy miliardách miliardám miliardě mld
+45	845	manžel	manžela manžele manželem manželi manželova manželovi manželu manžely manželé manželů manželům manželův manžílek
+46	846	koncert	koncertech koncertem koncertu koncerty koncertě koncertů koncertům
+47	847	návštěva	návštěv návštěvami návštěvou návštěvu návštěvy návštěvách návštěvám návštěvě
+48	848	podnik	podnicích podnikem podnikovou podniková podnikové podnikového podnikovém podnikový podnikových podnikovým podnikovými podniku podniky podniků podnikům
+49	849	běžný	běžnou běžná běžné běžného běžném běžnému běžní běžných běžným běžnými běžnější nejběžnější nejběžnějších nejběžnějším nejběžnějšími
+50	850	otevřený	otevřenou otevřená otevřené otevřeného otevřeném otevřenému otevřených otevřeným otevřenýma otevřenými otevřeně otevřeněji otevřenější
+51	851	vzhledem	
+52	852	festival	festivale festivalech festivalem festivalu festivaly festivalů festivalům
+53	853	dopravní	dopravních dopravního dopravním dopravními dopravnímu dopravně
+54	854	britský	britskou britská britské britského britském britskému britských britským britskými britští
+55	855	řidič	řidiče řidičem řidiči řidička řidičku řidičky řidičovi řidičská řidičské řidičského řidičský řidičských řidičským řidičích řidičů řidičům
+56	856	poskytnout	neposkytl neposkytuje neposkytují poskytl poskytla poskytli poskytlo poskytly poskytne poskytneme poskytnete poskytnou poskytnu poskytnut poskytnuta poskytnuto poskytnuty poskytněte poskytoval poskytovala poskytovali poskytovalo poskytovaly poskytovat poskytován poskytována poskytováno poskytovány poskytuje poskytujeme poskytujete poskytuji poskytují poskytující
+57	857	vozidlo	vozidel vozidla vozidle vozidlech vozidlem vozidlu vozidly vozidlům
+58	858	rozhovor	rozhovorech rozhovorem rozhovoru rozhovory rozhovorů rozhovorům
+59	859	výstava	výstav výstavami výstavka výstavou výstavu výstavy výstavách výstavám výstavě
+60	860	vystoupit	nevystoupí vystoupení vystoupeních vystoupením vystoupeními vystoupil vystoupila vystoupili vystoupilo vystoupily vystoupí vystoupím vystoupíme vystoupíte vystup vystupovat vystupte vystupuje
+61	861	umožnit	umožnil umožnila umožnili umožnilo umožnily umožní umožníme umožníte umožněn umožněna umožněno umožněny umožnění umožněte umožňovat umožňuje
+62	862	stávat	nestávají nestává stávají stávající stávajících stávajícího stávajícím stával stávala stávali stávalo stávaly stává stávám stáváme stáváte
+63	863	široký	nejširší nejširších nejširšího nejširším nejširšímu široce široko širokou široká široké širokého širokém širokému širokých širokým širokými širší širších širšího širším širšími širšímu šíře šířeji šíři šíří
+64	864	finále	finálem
+65	865	pít	nepil pij pije pijeme pijete piješ piji pijou pijte piju pijí pijící pil pila pile pili pilka pilkou pilku pilky pilo pilou pilu pily pit pita pity pití pitím vypije vypijeme vypijete vypijte vypiju vypijí vypil vypila vypili vypít
+66	866	zdravotní	zdravotních zdravotního zdravotním zdravotními zdravotnímu zdravotně
+67	867	postupně	
+68	868	tentokrát	tentokráte
+69	869	zbytek	zbytcích zbytkem zbytku zbytky zbytků zbytkům
+70	870	skutečný	skutečnou skutečná skutečné skutečného skutečném skutečnému skuteční skutečných skutečným skutečnými skutečnější
+71	871	prodat	neprodá prodají prodal prodala prodali prodalo prodaly prodanou prodaná prodané prodaného prodaný prodaných prodaným prodanými prodejte prodá prodám prodáme prodán prodána prodáni prodáno prodány prodání prodáte
+72	872	mistr	mistra mistrem mistrova mistrovi mistru mistry mistryni mistryní mistryně mistryněmi mistryň mistrů mistrům mistrův mistře mistři
+73	873	výzkum	výzkumech výzkumem výzkumnou výzkumná výzkumné výzkumného výzkumném výzkumnému výzkumní výzkumný výzkumných výzkumným výzkumnými výzkumu výzkumy výzkumů výzkumům
+74	874	test	testech testem testu testy testů testům
+75	875	blízký	bližší bližších bližšího bližším bližšímu blízce blízcí blízka blízkou blízká blízké blízkého blízkém blízkému blízkých blízkým blízkými nejbližších nejbližšího nejbližším nejbližšími nejblíž nejblíže
+76	876	podporovat	nepodporovat podporoval podporovala podporovali podporovalo podporovaly podporovanou podporovaná podporované podporovaného podporovaní podporovaný podporovaných podporovaným podporovanými podporován podporována podporováni podporováno podporovány podporování podporuje podporujeme podporujete podporuji podporujte podporuju podporují podporující podporujících
+77	877	rozvoj	rozvoje rozvojem rozvoji rozvojovou rozvojová rozvojové rozvojového rozvojovém rozvojový rozvojových rozvojovým rozvojovými
+78	878	pamatovat	nepamatoval nepamatovala nepamatuje nepamatuji nepamatuju nepamatují pamatoval pamatovala pamatovali pamatovalo pamatováno pamatování pamatuj pamatuje pamatujeme pamatujete pamatuješ pamatuji pamatujme pamatujte pamatuju pamatují zapamatoval zapamatovala zapamatovali zapamatovat zapamatování zapamatuj zapamatuje zapamatujeme zapamatujete zapamatujte zapamatují
+79	879	deska	desce desek desk deskami deskou deskový desku desky deskách deskám destička
+80	880	vlasy	vlasech vlasů vlasům
+81	881	kus	kuse kusech kusem kusu kusy kusů kusům
+82	882	zničit	nezničí nič ničeny ničení ničil ničila ničili ničilo ničily ničit ničící ničíme ničíte zničen zničena zničeni zničeno zničenou zničeny zničená zničené zničeného zničeném zničení zničením zničený zničených zničeným zničil zničila zničili zničilo zničily zničte zničí zničím zničíme zničíte zničíš
+83	883	plánovat	naplánoval naplánovala naplánovali naplánovanou naplánovaná naplánované naplánovaný naplánovaných naplánovat naplánován naplánována naplánováno naplánovány naplánování neplánuje plánoval plánovala plánovali plánovalo plánovaly plánovanou plánovaná plánované plánovaného plánovaném plánovanému plánovaný plánovaných plánovaným plánován plánována plánováno plánovány plánuje plánujeme plánujete plánuji plánuju plánují
+84	884	stupeň	stupni stupních stupně stupněm stupňový stupňů stupňům
+85	885	počítač	počítače počítačem počítači počítačích počítačů počítačům
+86	886	ostrov	ostrova ostrované ostrovanů ostrove ostrovech ostrovem ostrovský ostrovu ostrovy ostrově ostrovů ostrovům ostrůvcích ostrůvek ostrůvkem ostrůvku ostrůvky ostrůvků
+87	887	vedoucí	vedoucích vedoucího vedoucím vedoucími vedoucímu
+88	888	jednání	jednáních jednáním jednáními
+89	889	ležet	leže ležel ležela leželi leželo ležely ležení leží ležící ležících ležícího ležícím ležícími ležícímu ležím ležíme ležíte ležíš neležela neleží
+90	890	fajn	
+91	891	super	
+92	892	venku	
+93	893	průběh	průběhem průběhu průběhy průběhů
+94	894	kvalita	kvalit kvalitami kvalitou kvalitu kvality kvalitách kvalitám kvalitě
+95	895	zima	zim zimami zimou zimová zimu zimy zimách zimě
+96	896	režim	režimech režimem režimu režimy režimů režimům
+97	897	moře	mořem moři moří mořích mořím
+98	898	myšlenka	myšlence myšlenek myšlenkami myšlenkou myšlenkovou myšlenková myšlenkové myšlenkového myšlenkovém myšlenkový myšlenkových myšlenkovým myšlenkovými myšlenkově myšlenku myšlenky myšlenkách myšlenkám
+99	899	učit	uč učen učeni učená učené učeného učený učených učil učila učili učilo učily učme učte učí učící učím učíme učíte učíš
+100	900	výhoda	nejvýhodněji nejvýhodnější nejvýhodnějších nejvýhodnějším výhod výhodami výhodnou výhodná výhodné výhodného výhodném výhodnému výhodný výhodných výhodným výhodnými výhodně výhodněji výhodnější výhodnějších výhodnějším výhodou výhodu výhody výhodách výhodám výhodě

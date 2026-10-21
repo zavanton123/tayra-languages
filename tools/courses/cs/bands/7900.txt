@@ -1,0 +1,100 @@
+1	7801	trn	trnem trnu trny trnů
+2	7802	vzduchový	vzduchovou vzduchová vzduchové vzduchového vzduchovém vzduchových vzduchovým vzduchovými
+3	7803	sloh	slohem slohové slohový slohu slohy slohů
+4	7804	prvoligový	prvoligovou prvoligová prvoligové prvoligového prvoligovém prvoligoví prvoligových prvoligovým prvoligovými
+5	7805	probírat	probíral probírá
+6	7806	dospívající	dospívajících dospívajícího dospívajícím dospívajícími
+7	7807	velkoměsto	velkoměst velkoměsta velkoměstech velkoměstem velkoměstě
+8	7808	narůstat	narůstají narůstal narůstá
+9	7809	fabrika	fabrice fabrik fabriku fabriky fabrikách
+10	7810	zvědavost	zvědavosti zvědavostí
+11	7811	krach	krachem krachu krachy
+12	7812	abstraktní	abstraktních abstraktního abstraktním abstraktními abstraktně
+13	7813	posvětit	posvěcen posvěcena posvěceno posvěcené posvěcení posvěcený posvětil posvětila posvětili posvětí svěcení světil světit světí světě
+14	7814	pach	pachem pachu pachy pachů
+15	7815	digitalizace	digitalizaci digitalizací
+16	7816	širý	širou širé širého širém širých širým
+17	7817	nepřetržitý	nepřetržitou nepřetržitá nepřetržité nepřetržitého nepřetržitém nepřetržitých nepřetržitým
+18	7818	nadstandardní	nadstandardních nadstandardním nadstandardními
+19	7819	provizorní	provizorních provizorního provizorním
+20	7820	panenský	panenskou panenská panenské panenského panenském panenských panenským
+21	7821	odhodit	odhazovat odhazují odhodil odhodila odhodili odhodilo odhodí odhozen odhozena odhození odhozený odhoďte
+22	7822	baráž	baráže baráži baráží
+23	7823	trakt	traktem traktu
+24	7824	sobecký	sobeckou sobecky sobecká sobecké sobeckého sobeckých sobeckým sobečtí
+25	7825	pojídat	pojedl pojedli pojí pojídají pojídal pojídali pojídá pojídání pojíst
+26	7826	skladiště	skladišti skladištích skladištěm skladišť
+27	7827	účtenka	účtence účtenek účtenku účtenky
+28	7828	senzační	senzačních senzačního senzačním senzačně
+29	7829	meloun	melounem melounu melouny melounů
+30	7830	nachlazení	nachlazením
+31	7831	steak	steakem steaku steaky steaků
+32	7832	hřídel	hřídele hřídelem hřídeli hřídelí hřídelů
+33	7833	uklidňující	uklidňujících uklidňujícího uklidňujícím
+34	7834	zúžit	zužovat zužuje zúžen zúžena zúžené zúžený zúžil zúžila zúžili zúžilo zúží
+35	7835	adoptovat	adoptoval adoptovala adoptovali adoptovaný adoptován adoptuje adoptují
+36	7836	kolínský	kolínskou kolínská kolínské kolínského kolínském kolínských kolínským kolínští
+37	7837	světec	světce světcem světci světců světice světici
+38	7838	dealer	dealera dealerem dealerovi dealery dealerů dealerům dealeři
+39	7839	ruina	ruin ruinami ruinu ruiny ruinách ruinám
+40	7840	neobyčejný	neobyčejnou neobyčejná neobyčejné neobyčejného neobyčejných neobyčejným neobyčejnými
+41	7841	malebný	malebnou malebná malebné malebného malebném malebných malebným malebnými
+42	7842	uhličitý	uhličitá uhličité uhličitého uhličitým
+43	7843	vlastnický	vlastnickou vlastnická vlastnické vlastnického vlastnických vlastnickým
+44	7844	sága	ság ságo ságou ságu ságy sáze
+45	7845	vyhodnocení	vyhodnocením
+46	7846	důvěřovat	důvěřoval důvěřovala důvěřovali důvěřuj důvěřuje důvěřujeme důvěřujete důvěřuji důvěřujte důvěřují
+47	7847	jízdné	jízdného jízdném jízdnému jízdným
+48	7848	šampon	šamponů
+49	7849	švagr	švagra švagrem švagrovi
+50	7850	přespat	přespal přespala přespali přespávat přespí přespíme
+51	7851	vynutit	vynucena vynuceného vynuceném vynucení vynucený vynucovat vynucuje vynutil vynutila vynutili vynutilo vynutily vynutí
+52	7852	obklad	obkladu obklady obkladů
+53	7853	nechtěný	nechtěnou nechtěná nechtěné nechtěného nechtěnému nechtění nechtěných nechtěným nechtěnými
+54	7854	pětina	pětin pětinu pětiny pětině
+55	7855	odbočit	odbočení odbočil odbočila odbočili odbočovat odbočte odbočí odbočím odbočíme odbočíte
+56	7856	čirý	čirou čirá čiré čirého čirým
+57	7857	dynastie	dynastii dynastií
+58	7858	damašek	damaškem damašku
+59	7859	dostavba	dostavbou dostavbu dostavby dostavbě
+60	7860	nezapomenutelný	nezapomenutelnou nezapomenutelná nezapomenutelné nezapomenutelného nezapomenutelných nezapomenutelným
+61	7861	šestka	šestce šestek šestkou šestku šestky
+62	7862	vymyšlený	vymyšlenou vymyšlená vymyšlené vymyšleného vymyšleném vymyšlení vymyšlených vymyšleným
+63	7863	dědičný	dědičnou dědičná dědičné dědičného dědičných dědičným dědičnými dědičně
+64	7864	bystrý	bystrou bystrá bystré bystrého bystrém bystrých bystrým bystře bystřejší bystří
+65	7865	semafor	semaforech semaforem semaforu semafory semaforů
+66	7866	bizarní	bizardní bizarních bizarního bizarním bizarními bizarně nejbizarnější
+67	7867	panda	pand pando pandou pandu pandy pandě
+68	7868	vápník	vápníkem vápníku
+69	7869	psychiatrie	psychiatrii
+70	7870	neurčitý	neurčitou neurčitá neurčité neurčitého neurčitých neurčitým neurčitě
+71	7871	pelikán	pelikána pelikánem pelikáni pelikánová pelikánů
+72	7872	trans	transu
+73	7873	českomoravský	českomoravskou českomoravská českomoravské českomoravského
+74	7874	razit	razil razila razili razily razí razím razíme ražena raženy ražení ražený
+75	7875	ničivý	nejničivější ničivou ničivá ničivé ničivého ničivém ničivých ničivým ničivými ničivější
+76	7876	zaplnit	zaplnil zaplnila zaplnili zaplnilo zaplní
+77	7877	cívka	cívce cívek cívkami cívkou cívku cívky cívkách
+78	7878	desetkrát	
+79	7879	exkluzivně	
+80	7880	letectví	
+81	7881	nač	
+82	7882	oblačno	
+83	7883	pohraničí	
+84	7884	pomezí	
+85	7885	tragicky	
+86	7886	trosky	
+87	7887	libero	liber libera
+88	7888	truhlář	truhláře truhlářem truhláři truhlářů
+89	7889	stráň	stráni strání stráních stráně
+90	7890	matrika	matrice matrici matricí matrik matriku matriky matrikách
+91	7891	rozhled	rozhledem rozhledu rozhledy
+92	7892	padouch	padoucha padouchem padouchovi padouchy padouchů padouchům padouši
+93	7893	záchranka	záchrance záchrankou záchranku záchranky
+94	7894	prožitek	prožitcích prožitkem prožitku prožitky prožitků prožitkům
+95	7895	přeháňka	přeháněk přeháňkami přeháňky
+96	7896	matrix	matrixu
+97	7897	emisní	emisních emisního emisním emisními
+98	7898	průjem	průjmech průjmem průjmu průjmy průjmů průjmům
+99	7899	genocida	genocidou genocidu genocidy genocidě
+100	7900	zjevit	zjevil zjevila zjeví

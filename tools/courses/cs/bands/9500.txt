@@ -1,0 +1,100 @@
+1	9401	cent	centu centy centů
+2	9402	líh	lihem lihu
+3	9403	fandit	nefandím
+4	9404	astra	aster astro astru astry
+5	9405	pokrytec	pokrytce pokrytci pokrytců pokryteckou pokrytecká pokrytecké pokrytecký
+6	9406	žaludeční	žaludečních žaludečního žaludečním žaludečními
+7	9407	souhra	souhrou souhru souhry souhře
+8	9408	svinstvo	svinstvem
+9	9409	entita	entit entitami entitou entitu entity entitě
+10	9410	sir	sira siru
+11	9411	karikatura	karikatur karikaturami karikaturou karikaturu karikatury karikatuře
+12	9412	imaginární	imaginárních imaginárního imaginárním
+13	9413	lucemburský	lucemburskou lucemburská lucemburské lucemburského lucemburských lucemburským
+14	9414	vid	vide vidu
+15	9415	rozkrok	rozkrokem rozkroku
+16	9416	vyslyšet	vyslyš vyslyšel vyslyšela vyslyšeli vyslyšen vyslyšena vyslyšeno vyslyšeny vyslyší
+17	9417	epocha	epoch epochu epochy epochách epoše
+18	9418	provinit	provinil provinila provinili proviní provinění
+19	9419	bezkontaktní	bezkontaktních bezkontaktního bezkontaktním
+20	9420	reflektor	reflektorem reflektoru reflektory reflektorů
+21	9421	biolog	biologa biologem biologové biology biologů bioložka
+22	9422	nástavba	nástavbou nástavbu nástavby nástavbě nástaveb
+23	9423	chrámový	chrámovou chrámová chrámové chrámového chrámovém chrámových chrámovým
+24	9424	mateřství	mateřstvím
+25	9425	topný	topnou topná topné topného topných topným topnými
+26	9426	obnášet	obnášel obnášela obnášelo obnáší
+27	9427	prioritní	prioritních prioritním prioritně
+28	9428	mumie	mumii mumií
+29	9429	naprogramovat	naprogramoval naprogramovali naprogramovaný naprogramován naprogramována naprogramováni naprogramováno naprogramovány naprogramování
+30	9430	hraničit	hraničilo hraničí hraničící
+31	9431	úl	úlech úlu úly úlů
+32	9432	dok	docích doku doky doků
+33	9433	přínosný	nejpřínosnější přínosnou přínosná přínosné přínosného přínosnější
+34	9434	neblahý	neblahou neblahá neblahé neblahého neblahých neblahým neblaze
+35	9435	gramatika	gramatice gramatikou gramatiku gramatiky
+36	9436	dramaturgie	dramaturgii dramaturgií
+37	9437	nerost	neroste nerostu nerosty nerostů
+38	9438	ubývat	ubývají ubývá
+39	9439	hledáček	hledáčkem hledáčku
+40	9440	odbýt	odbude odbyl odbyla odbyli odbývá
+41	9441	dohlédnout	dohlédl dohlédla dohlédli dohlédne dohlédneme dohlédnete dohlédnou dohlédnu dohlédněte
+42	9442	skalnatý	skalnatou skalnatá skalnaté skalnatého skalnatém skalnatých skalnatým skalnatými
+43	9443	mramor	mramorem mramoru
+44	9444	praděd	praděda pradědem pradědovi pradědu
+45	9445	utáhnout	utahovat utahuje utáhl utáhla utáhne utáhneme utáhnou utáhněte
+46	9446	smrad	smradem smradu
+47	9447	zeměkoule	zeměkouli zeměkoulí
+48	9448	zarostlý	zarostlou zarostlá zarostlé zarostlého zarostlém zarostlých
+49	9449	svítání	svítáním
+50	9450	služebna	služebnou služebnu služebny služebně
+51	9451	monografie	monografii monografií
+52	9452	bůhví	
+53	9453	desetitisíc	desetitisíce
+54	9454	krámy	
+55	9455	mizerně	
+56	9456	nadmíru	
+57	9457	nejednou	
+58	9458	nejmenších	
+59	9459	plošně	
+60	9460	raf	
+61	9461	raz	
+62	9462	reál	reálu
+63	9463	vlastnoručně	
+64	9464	úředně	
+65	9465	ambulantní	ambulantních ambulantního ambulantním
+66	9466	přikázání	přikázáním přikázáními
+67	9467	pořizovat	pořizoval pořizují
+68	9468	posmrtný	posmrtnou posmrtná posmrtné posmrtného posmrtném posmrtných posmrtným
+69	9469	rozkvět	rozkvětem rozkvětu
+70	9470	medicínský	medicínskou medicínsky medicínská medicínské medicínského medicínském medicínských medicínským
+71	9471	nespavost	nespavosti nespavostí
+72	9472	evidovat	evidoval evidovali evidovány eviduje
+73	9473	šarm	šarmem šarmu
+74	9474	tvrdohlavý	tvrdohlavou tvrdohlavá tvrdohlavé tvrdohlaví tvrdohlavě
+75	9475	duna	dun dunami dunu duny dunách duně
+76	9476	neochota	neochotou neochotu neochoty neochotě
+77	9477	anomálie	anomáliemi anomálii anomálií
+78	9478	zmizelý	zmizelou zmizelá zmizelé zmizelého zmizelém zmizelých
+79	9479	hrozivý	hrozivou hrozivá hrozivé hrozivého hrozivých hrozivým hrozivější
+80	9480	kompas	kompasem kompasu kompasy
+81	9481	šestiletý	šestiletou šestiletá šestileté šestiletého šestiletém šestiletých šestiletým
+82	9482	tenhleten	tahleta tohleto tuhletu tyhlety
+83	9483	fatální	fatálních fatálního fatálním fatálnímu
+84	9484	tiskovka	tiskovce tiskovku tiskovky
+85	9485	třesk	třeskem třesku třesky
+86	9486	doubrava	doubravka doubravou doubravy doubravě
+87	9487	obrazec	obrazce obrazci obrazců
+88	9488	úkaz	úkazem úkazu úkazy úkazů
+89	9489	primátorka	primátorkou primátorku primátorky
+90	9490	přistěhovat	přistěhoval přistěhovala přistěhovali přistěhovalo přistěhování přistěhuje
+91	9491	zajišťující	zajišťujících zajišťujícím
+92	9492	glukóza	glukózo glukózou glukózu glukózy
+93	9493	pochodovat	pochodoval pochodovala pochodovali pochodovalo pochodovaly pochodování pochoduje pochodují pochodující pochodujících
+94	9494	rozprostírat	rozprostírají rozprostírající rozprostíral rozprostírala rozprostírá rozprostřena rozprostřít
+95	9495	jarmark	jarmarcích jarmarkem jarmarku jarmarky jarmarků
+96	9496	společenstvo	společenstev společenstva společenstvu
+97	9497	chaotický	chaotickou chaoticky chaotická chaotické chaotického chaotickém chaotických chaotickým
+98	9498	baroko	baroka barokem baroku
+99	9499	detekovat	detekoval detekován detekována detekováno detekovány detekování detekuje detekují
+100	9500	ventilátor	ventilátorem ventilátoru ventilátory ventilátorů

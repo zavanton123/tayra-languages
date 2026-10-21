@@ -1,0 +1,100 @@
+1	1201	návrat	návratech návratem návratová návratové návratu návraty návratů
+2	1202	oblečení	oblečením
+3	1203	produkt	produktech produktem produktu produkty produktů produktům
+4	1204	vyrobit	vyrob vyroben vyrobena vyrobeno vyrobenou vyrobeny vyrobená vyrobené vyrobeného vyrobeném vyrobení vyrobený vyrobených vyrobeným vyrobenými vyrobil vyrobila vyrobili vyrobilo vyrobily vyrobte vyrobí vyrobím vyrobíme vyrobíte
+5	1205	máma	mámin mámina mámo mámou mámu mámy mámě
+6	1206	branka	brance branek brankami branko brankou branku branky brankách brankám
+7	1207	televizní	televizních televizního televizním televizními televiznímu
+8	1208	výbor	výborech výborem výboru výbory výborů výborům
+9	1209	ovlivnit	neovlivnila neovlivnilo neovlivní neovlivňují ovlivnil ovlivnila ovlivnili ovlivnilo ovlivnily ovlivní ovlivníme ovlivněn ovlivněna ovlivněni ovlivněno ovlivněny ovlivněné ovlivnění ovlivněný ovlivňoval ovlivňovala ovlivňovali ovlivňovalo ovlivňovaly ovlivňovat ovlivňován ovlivňována ovlivňováni ovlivňováno ovlivňovány ovlivňování ovlivňuje ovlivňujeme ovlivňují ovlivňující
+10	1210	automobil	automobile automobilech automobilem automobilovou automobilová automobilové automobilového automobilovém automobilovému automobiloví automobilový automobilových automobilovým automobilovými automobilu automobily automobilů automobilům
+11	1211	pohybovat	nepohne nepohnul nepohybují pohne pohnete pohnou pohnout pohnu pohnul pohnula pohnuli pohnulo pohnuly pohnut pohyboval pohybovala pohybovali pohybovalo pohybovaly pohybuje pohybujeme pohybujete pohybuji pohybujte pohybuju pohybují pohybující pohybujících
+12	1212	plyn	plyne plynech plynem plynovou plynová plynové plynového plynovém plynový plynových plynovým plynovými plynu plyny plynů plynům
+13	1213	bezpečnostní	bezpečnostních bezpečnostního bezpečnostním bezpečnostními bezpečnostnímu bezpečnostně
+14	1214	připravovat	připravoval připravovala připravovali připravovalo připravovaly připravované připravovaný připravován připravována připravováni připravováno připravovány připravování připravuje připravujeme připravujete připravuji připravuju připravují připravující připravujících
+15	1215	mapa	map mapami mapka mapku mapou mapu mapy mapách mapám mapě
+16	1216	dárek	dárcích dáreček dárkem dárková dárkové dárku dárky dárků dárkům
+17	1217	severní	nejseverněji nejsevernější nejsevernějšího nejsevernějším severních severního severním severními severnímu severně severněji severnější
+18	1218	zmínit	nezmínil zmiňme zmiňovat zmiňte zmiňuje zmínil zmínila zmínili zmínilo zmínily zmíní zmíním zmíníme zmíníte zmíněn zmíněna zmíněni zmíněno zmíněnou zmíněny zmíněná zmíněné zmíněného zmíněném zmíněnému zmínění zmíněný zmíněných zmíněným zmíněnými
+19	1219	počátek	počátcích počátkem počátku počátky počátků počátkům
+20	1220	klidně	klidněji
+21	1221	záležitost	záležitostech záležitostem záležitosti záležitostmi záležitostí
+22	1222	obecný	nejobecnější obecnou obecná obecné obecného obecném obecnému obecní obecních obecního obecním obecními obecnímu obecných obecným obecnými obecnější obecnějších obecnějšího obecnějším
+23	1223	rostlina	rostlin rostlinami rostlinka rostlinky rostlinnou rostlinná rostlinné rostlinného rostlinném rostlinný rostlinných rostlinným rostlinnými rostlinou rostlinu rostliny rostlinách rostlinám rostlině
+24	1224	obrana	obran obranou obranu obrany obraně
+25	1225	mobilní	mobilních mobilního mobilním mobilními mobilnímu
+26	1226	bydlet	bydlel bydlela bydleli bydlelo bydlely bydli bydlí bydlící bydlím bydlíme bydlíte bydlíš nebydlel nebydleli nebydlí
+27	1227	kariéra	kariér kariérou kariéru kariéry kariéře
+28	1228	spojení	spojeních spojením spojeními
+29	1229	ovládat	neovládl neovládáte ovládají ovládající ovládal ovládala ovládali ovládalo ovládaly ovládané ovládaný ovládejte ovládl ovládla ovládli ovládlo ovládly ovládne ovládnete ovládnou ovládnout ovládněte ovládá ovládám ovládáme ovládán ovládána ovládáni ovládáno ovládány ovládáte ovládáš
+30	1230	dopadnout	dopadají dopadající dopadala dopadalo dopadaly dopadat dopadl dopadla dopadli dopadlo dopadly dopadne dopadneme dopadnete dopadnou dopadnu dopadá nedopadlo nedopadly
+31	1231	zachránit	zachraň zachraňme zachraňoval zachraňovala zachraňovali zachraňovat zachraňování zachraňte zachraňuje zachraňujeme zachraňují zachraňující zachránil zachránila zachránili zachránilo zachránily zachrání zachráním zachráníme zachráníte zachráněn zachráněna zachráněni zachráněno zachráněny zachráněné zachránění zachráněný
+32	1232	jenže	
+33	1233	školní	školních školního školním školními školnímu
+34	1234	přežít	nepřežije nepřežil přežije přežijeme přežijete přežiješ přežiju přežijí přežil přežila přežili přežilo přežily přežití přežitím přeživší přežívat přežívá
+35	1235	vyrábět	nevyrábí nevyráběl vyrábí vyrábím vyrábíme vyrábíte vyrábějí vyrábějící vyrábějících vyráběl vyráběla vyráběli vyrábělo vyráběly vyráběn vyráběna vyráběno vyráběny vyráběné vyrábění vyráběný
+36	1236	souvislost	souvislostech souvislostem souvislosti souvislostmi souvislostí
+37	1237	uložit	ukládají ukládal ukládala ukládali ukládaly ukládat ukládá ukládám ukládáme ukládán ukládána ukládány ukládání ulož uložen uložena uloženo uloženou uloženy uložená uložené uloženého uloženém uložení uložením uložený uložených uloženým uloženými uložil uložila uložili uložilo uložily uložte uloží uložím uložíme uložíte
+38	1238	unie	unii unií
+39	1239	termín	termínech termínem termínu termíny termínů termínům
+40	1240	místnost	místnostech místnostem místnosti místnostmi místností
+41	1241	fyzika	fyzice fyzici fyzickou fyzická fyzické fyzického fyzickém fyzickému fyzický fyzických fyzickým fyzickými fyzik fyzikem fyzikou fyzikové fyziku fyziky fyziků fyzikům fyzičce fyzička fyzičkou fyzičku fyzičky
+42	1242	snížit	nesníží snižovat snižte snižuje snížen snížena sníženo sníženou sníženy snížená snížené sníženého sníženém sníženému snížený snížených sníženým sníženými snížil snížila snížili snížilo snížily sníží snížím snížíme snížíte
+43	1243	sejít	nesejde nesešli scházejí scházející scházel scházela scházeli scházelo scházely scházení scházet schází scházím scházíme scházíte sejde sejdeme sejdete sejdou sejdu sešel sešla sešli sešlo sešly
+44	1244	narodit	nar narodil narodila narodili narodilo narodily narodí narodíme narodíte narozen narozena narozeni narozenou narozená narozené narozeného narozenému narozený narozených narozeným narozenými nenarodili nenarodí
+45	1245	trasa	tras trasami trase trasou trasu trasy trasách trasám
+46	1246	převzít	přebírají přebírající přebíral přebírala přebírali přebíraly přebírat přebírá přebírám přebíráme přebírání přebíráte převezme převezmeme převezmete převezmou převezmu převezměte převzal převzala převzali převzalo převzaly převzat převzata převzato převzaty převzatý převzetí převzetím
+47	1247	volební	volebních volebního volebním volebními volebnímu
+48	1248	točit	otoč otočená otočené otočení otočený otočil otočila otočili otočilo otočily otočit otočte otočí otočím otočíme otočíte otáčejí otáčející otáčel otáčela otáčeli otáčení otáčet otáčí otáčím otáčíme toč točení točený točil točila točili točilo točily točí točící točím točíme točíte
+49	1249	ústav	ústavech ústavem ústavu ústavy ústavů ústavům
+50	1250	chlap	chlapa chlape chlapech chlapem chlapi chlapovi chlapy chlapů chlapům
+51	1251	úterý	út úterní úterních úterního úterním
+52	1252	utéct	utek utekl utekla utekli uteklo utekly uteč uteče utečeme utečete utečou utečte uteču utéci utíkají utíkající utíkal utíkala utíkali utíkalo utíkaly utíkat utíkej utíkejte utíká utíkám utíkáme utíkání utíkáte
+53	1253	odehrát	odehraje odehrajeme odehrají odehrál odehrála odehráli odehrálo odehrály odehrán odehrána odehráno odehrány odehrávají odehrávající odehrával odehrávala odehrávalo odehrávaly odehrávat odehrává
+54	1254	veškerý	veškerou veškerá veškeré veškerého veškerém veškerému veškerých veškerým veškerými
+55	1255	nákup	nákupech nákupem nákupu nákupy nákupů nákupům
+56	1256	zrušit	nezruší zrušen zrušena zrušeno zrušeny zrušené zrušený zrušil zrušila zrušili zrušilo zrušily zrušme zrušte zruší zruším zrušíme zrušíte
+57	1257	nejprve	nejprv
+58	1258	lehký	lehcí lehko lehkou lehká lehké lehkého lehkém lehkému lehkých lehkým lehkými lehčí lehčích lehčího lehčím lehčími nejlehčí nejlehčích nejlehčím
+59	1259	konference	konferencemi konferenci konferencí konferencích
+60	1260	sezóna	sezón sezónou sezónu sezóny sezónách sezóně
+61	1261	kampaň	kampani kampaní kampaních kampaním kampaně kampaněmi
+62	1262	divák	diváci diváckou divácká divácké diváckého diváckém diváckému divácký diváckých diváckým divácích diváka divákem divákovi diváku diváky diváků divákům
+63	1263	zpívat	nezpíval nezpívá zazpívají zazpíval zazpívala zazpívali zazpívaly zazpívat zazpívá zazpívám zazpíváme zazpíváte zpívají zpívající zpívajících zpíval zpívala zpívali zpívalo zpívaly zpívané zpívaný zpívej zpívejte zpívá zpívám zpíváme zpívání zpíváte zpíváš
+64	1264	snímek	snímcích snímkem snímku snímky snímků snímkům
+65	1265	noční	nočních nočního nočním nočními nočnímu
+66	1266	prodávat	neprodával neprodává prodávají prodávající prodávajících prodávajícího prodávajícím prodávajícímu prodával prodávala prodávali prodávalo prodávaly prodávejte prodává prodávám prodáváme prodáván prodávána prodáváno prodávány prodáváte
+67	1267	vařit	uvařeno uvařené uvaření uvařený uvařil uvařila uvařili uvařily uvařit uvařte uvaří uvařím uvaříme uvaříte vař vařenou vařená vařené vařeného vaření vařením vařený vařených vařeným vařenými vařil vařila vařili vařilo vařily vařte vaří vařící vařím vaříme vaříte vaříš
+68	1268	východní	nejvýchodnější nejvýchodnějším východních východního východním východními východnímu východně východněji
+69	1269	národ	národa národe národech národem národu národy národě národů národům
+70	1270	vyřešit	nevyřešené nevyřeší vyřeš vyřešen vyřešena vyřešeno vyřešenou vyřešeny vyřešená vyřešené vyřešení vyřešený vyřešených vyřešil vyřešila vyřešili vyřešilo vyřešily vyřešte vyřeší vyřeším vyřešíme vyřešíte
+71	1271	bránit	braň braňme braňte bránil bránila bránili bránilo bránily brání bránící bráním bráníme bráníte bráněno nebránit nebrání neubránil ubránil ubránila ubránili ubránit ubrání ubráníme
+72	1272	levný	levnou levná levné levného levném levnému levní levných levným levnými levně levněji levnější levnějších levnějšího levnějším levnějšími nejlevněji nejlevnější nejlevnějších nejlevnějšího nejlevnějším
+73	1273	výhra	výher výherní výherních výherním výhrami výhrou výhru výhry výhrách výhrám výhře
+74	1274	nalézt	nalezen nalezena nalezeni nalezeno nalezeny nalezl nalezla nalezli nalezlo nalezly nalezne nalezneme naleznete nalezneš naleznou naleznu nalézají nalézat nenalezen
+75	1275	pevný	nejpevnější pevnou pevná pevné pevného pevném pevnému pevní pevných pevným pevnými pevně pevněji pevnější pevnějšího pevnějším
+76	1276	umřít	umírat umírá umře umřel umřela umřeli umřelo umřely umřeme umřete umřeš umřou umřu
+77	1277	pořad	pořadech pořadem pořadu pořady pořadů pořadům
+78	1278	setkat	nesetkal nesetkaly setkají setkal setkala setkali setkalo setkaly setká setkám setkáme setkáte setkávat setkáváme
+79	1279	dorazit	doraz dorazil dorazila dorazili dorazilo dorazily dorazte dorazí dorazím dorazíme dorazíte dorážet doráží nedorazil
+80	1280	vůči	
+81	1281	vězení	vězeních vězením
+82	1282	rekonstrukce	rekonstrukcemi rekonstrukci rekonstrukcí rekonstrukcích rekonstrukcím
+83	1283	přední	nejpřednější nejpřednějších předních předního předním předníma předními přednímu předně přednější
+84	1284	klíč	klíče klíček klíčem klíči klíčkem klíčku klíčky klíčků klíčová klíčové klíčích klíčů klíčům
+85	1285	starosta	starostce starostech starostka starostkou starostku starostky starosto starostou starostovi starostové starostu starosty starostů starostům starostův
+86	1286	kurva	kurev kurvička kurvu kurvy
+87	1287	nahradit	nahradil nahradila nahradili nahradilo nahradily nahradí nahradím nahradíme nahradíte nahrazen nahrazena nahrazeni nahrazeno nahrazeny nahrazení nahrazením nahrazený nahrazoval nahrazovala nahrazovali nahrazovaly nahrazovat nahrazován nahrazována nahrazováno nahrazovány nahrazování nahrazuje nahrazujeme nahrazují nahrazující nahraďte nenahradí
+88	1288	výrazně	nejvýrazněji nevýrazně výrazněji
+89	1289	zkouška	zkoušce zkoušek zkouškami zkouškou zkoušku zkoušky zkouškách zkouškám
+90	1290	opatření	opatřeních opatřením opatřeními
+91	1291	proběhnout	proběhl proběhla proběhli proběhlo proběhly proběhne proběhnou proběhnu
+92	1292	region	regionech regionem regionu regiony regionů regionům
+93	1293	start	startech startem startu starty startů startům
+94	1294	novinář	novinářce novináře novinářem novináři novinářka novinářkou novinářku novinářky novinářské novinářský novinářích novinářů novinářům
+95	1295	přiznat	nepřiznal nepřizná přiznají přiznal přiznala přiznali přiznejme přizná přiznám přiznán přiznáno přiznáte přiznávat přiznává
+96	1296	duše	doušku doušky dušemi duši dušička duší duších duším
+97	1297	dispozice	dispozic dispozicemi dispozici dispozicí dispozicích dispozicím
+98	1298	pozitivní	pozitivních pozitivního pozitivním pozitivními pozitivnímu pozitivně pozitivněji pozitivnější
+99	1299	zpěvačka	zpěvačce zpěvaček zpěvačkami zpěvačkou zpěvačku zpěvačky zpěvaččin zpěváci zpěvák zpěváka zpěvákem zpěvákovi zpěváku zpěváky zpěváků zpěvákům zpěváček
+100	1300	vyjádřit	nevyjádřil nevyjádří vyjadřovat vyjadřuje vyjádřen vyjádřena vyjádřeno vyjádřeny vyjádřené vyjádřený vyjádřete vyjádřil vyjádřila vyjádřili vyjádřilo vyjádřily vyjádří vyjádřím vyjádříme vyjádříte

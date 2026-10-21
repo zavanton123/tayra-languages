@@ -1,0 +1,100 @@
+1	7901	varšavský	varšavskou varšavská varšavské varšavského varšavském varšavských
+2	7902	podvést	podváděl podvádět
+3	7903	malina	malin malinami malinou malinová malinové malinu maliny
+4	7904	kaňon	kaňonech kaňonem kaňonu kaňony kaňonů
+5	7905	přísloví	příslovím
+6	7906	kanout	kana kane
+7	7907	vzkříšení	vzkříšením
+8	7908	jedle	jedli jedlička jedlí
+9	7909	vypravěč	vypravěče vypravěčem vypravěči vypravěčka vypravěčky vypravěčů
+10	7910	odvíjet	odvíjí
+11	7911	květinový	květinovou květinová květinové květinového květinovém květinových květinovým květinovými
+12	7912	instinkt	instinktem instinktu instinkty instinktů instinktům
+13	7913	formovat	formoval formovaly formuje formují
+14	7914	pustý	pusto pustou pustá pusté pustého pustém pustí pustých pustým
+15	7915	otevřenost	otevřenosti otevřeností
+16	7916	ofenziva	ofenzivou ofenzivu ofenzivy ofenzivě ofenzíva ofenzívu
+17	7917	bombardér	bombardérem bombardéru bombardéry bombardérů bombardérům
+18	7918	zaslechnout	zaslechl zaslechla zaslechne
+19	7919	vypršet	vypršel vypršela vypršelo vypršely vyprší
+20	7920	neškodný	neškodnou neškodná neškodné neškodného neškodní neškodných neškodným neškodně
+21	7921	učební	učebních učebního učebním učebními učebně
+22	7922	hornina	hornin horninami horninou horninu horniny horninách hornině
+23	7923	spirála	spirál spirále spirální spirálou spirálový spirálu spirály
+24	7924	infračervený	infračervenou infračervená infračervené infračerveného infračerveném infračervených infračerveným infračervenými
+25	7925	šukat	šukají šukal šuká šukání
+26	7926	nachystat	nachystal nachystala nachystali nachystejte nachystá nachystám nachystáme nachystán nachystáno nachystány
+27	7927	rez	rezavou rezavá rezavé rezavého rezavý rezavých rezavým rezavými rezavě rezu rezy rzi rzí
+28	7928	klobása	klobás klobásami klobáska klobásou klobásu klobásy
+29	7929	onkologie	onkologickou onkologická onkologické onkologického onkologickém onkologický onkologických onkologickým onkologii
+30	7930	výloha	výloh výlohami výlohou výlohu výlohy výlohách výloze
+31	7931	ubrus	ubrousek ubrouskem ubrousku ubrousky ubrousků ubrusem ubrusu ubrusy ubrusů
+32	7932	regenerace	regeneraci regenerací
+33	7933	vyhrazený	vyhrazenou vyhrazená vyhrazené vyhrazeného vyhrazeném vyhrazení vyhrazených vyhrazeným
+34	7934	redaktorka	redaktorce redaktorkou redaktorku redaktorky
+35	7935	barvivo	barviv barviva barvivem barvivy
+36	7936	patnáctý	patnáctou patnáctá patnácté patnáctého patnáctém patnáctým
+37	7937	horizontální	horizontálních horizontálního horizontálním horizontálními
+38	7938	viditelnost	viditelnosti viditelností
+39	7939	emoční	emočních emočního emočním emočně
+40	7940	delfín	delfína delfínem delfíni delfíny delfíní delfínů
+41	7941	jojo	joj
+42	7942	notář	notáře notářem notáři notářka notářský notářů
+43	7943	servírovat	naservírovala naservírovat servíroval servírovala servírovali servírovaný servírovány servírování servíruje servírujeme servírujte servírují
+44	7944	rozhodný	rozhodnou rozhodná rozhodné rozhodného rozhodném rozhodnému rozhodní rozhodných rozhodným
+45	7945	fest	festa feste festu
+46	7946	osmička	osmičce osmiček osmičkou osmičku osmičky
+47	7947	propracovat	propracoval propracovala propracovali propracované propracovaný propracování propracovává propracujeme
+48	7948	blecha	blech blechami blechová blechu blechy blechám bleší bleším
+49	7949	myslivec	myslivce myslivcem myslivci myslivcová myslivců myslivcům
+50	7950	milice	milic milicemi milici milicí milicím
+51	7951	diskrétní	diskrétních diskrétního diskrétním diskrétně
+52	7952	vytrvalost	vytrvalosti vytrvalostí
+53	7953	registrační	registračních
+54	7954	průlom	průlomem průlomu
+55	7955	mrazivý	mrazivou mrazivá mrazivé mrazivého mrazivém mrazivých mrazivým mrazivými mrazivě
+56	7956	limuzína	limuzín limuzínou limuzínu limuzíny limuzíně
+57	7957	step	stepi stepu stepí stepích
+58	7958	reputace	reputaci reputací
+59	7959	komnata	komnat komnatu komnaty komnatách komnatě
+60	7960	debilní	debilních debilním debilně
+61	7961	dřít	dra dře dřel dřela dřeli dřeme dřeni dření dřou dřu
+62	7962	mnichovský	mnichovskou mnichovská mnichovské mnichovského mnichovském mnichovských mnichovským
+63	7963	vnést	vnese vnesl vnesla vnesli vneslo vnesly vnášet vnáší
+64	7964	kapesní	kapesních kapesního kapesním
+65	7965	novostavba	novostavbami novostavbou novostavbu novostavby novostavbách novostavbě novostaveb
+66	7966	příplatek	příplatkem příplatku příplatky příplatků
+67	7967	výzkumník	výzkumnice výzkumníci výzkumníka výzkumníky výzkumníků výzkumníkům
+68	7968	zdokonalit	zdokonalené zdokonalení zdokonalený zdokonalil zdokonalila zdokonalili zdokonalovat zdokonalí
+69	7969	optimistický	optimistickou optimistická optimistické optimistického optimistických optimistickým optimističtí optimističtější
+70	7970	etiketa	etiket etiketami etiketou etiketu etikety etiketách etiketě
+71	7971	gestapo	gestapa
+72	7972	balada	balad baladou baladu balady baladě
+73	7973	hlučný	hlučnou hlučná hlučné hlučného hlučném hluční hlučných hlučným hlučně hlučnější
+74	7974	láva	lávou lávová lávové lávového lávový lávových lávovými lávu lávy lávě
+75	7975	blond	
+76	7976	diety	
+77	7977	honem	
+78	7978	klišé	
+79	7979	kupé	
+80	7980	ponětí	
+81	7981	sočit	soči
+82	7982	celodenní	celodenních celodenního celodenním celodenně
+83	7983	vyzdvihnout	vyzdvihl vyzdvihla vyzdvihli vyzdvihne vyzdvihoval vyzdvihovat vyzdvihování vyzdvihuje vyzdvihují vyzdvižen vyzdvižení
+84	7984	využívající	využívajících
+85	7985	bezchybný	bezchybnou bezchybná bezchybné bezchybného bezchybném bezchybným bezchybně
+86	7986	forman	formana formanem formanovi formanová formanů formánek
+87	7987	rvát	rva rval rvala rvali rve rvou
+88	7988	odvážit	neodvažuje neodvážil odvažte odvážil odvážila odvážili odváží odvážím odvážíme odvážíte
+89	7989	aktivum	aktiva aktivech aktivem aktivu aktivy aktivům
+90	7990	harmonický	harmonickou harmonická harmonické harmonického harmonickém harmonických harmonickým
+91	7991	odporovat	odporoval odporovala odporovali odporovalo odporovaly odporuje odporují odporující
+92	7992	integrovat	integroval integrovala integrovali integrován integrována integrováni integrováno integrovány integrování integruje integrují integrující
+93	7993	bezvadný	bezvadnou bezvadná bezvadné bezvadného bezvadném bezvadně
+94	7994	pasovat	pasoval pasovala pasovali pasovalo pasovaly pasován pasování pasuje pasují
+95	7995	vypínač	vypínače vypínačem vypínači vypínačů
+96	7996	separatista	separatisty separatisté separatistů separatistům
+97	7997	rozvedený	rozvedenou rozvedená rozvedené rozvedeného rozvedení rozvedených rozvedeným
+98	7998	bonbon	bonbony bonbonů bonbón bonbóny
+99	7999	matný	matnou matná matné matného matným matně matnější
+100	8000	tribuna	tribunou tribunách tribuně

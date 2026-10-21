@@ -1,0 +1,100 @@
+1	501	spojit	nespojí spoj spojen spojena spojeni spojeno spojenou spojeny spojená spojené spojeného spojeném spojenému spojený spojeným spojenými spojil spojila spojili spojilo spojily spojme spojte spojí spojím spojíme spojíte spojů
+2	502	názor	názorech názorem názoru názory názorů názorům
+3	503	budova	budov budovami budovou budovu budovy budovách budovám budově
+4	504	vzniknout	nevznikl nevzniklo nevznikly nevznikne vznikat vznikl vznikla vznikli vzniklo vznikly vznikne vzniknou vzniknul vzniknuvší vzniká
+5	505	hranice	hranic hranicemi hranici hranicí hranicích hranicím
+6	506	návrh	návrhem návrhu návrhy návrhů návrhům návrzích
+7	507	energie	energetickou energeticky energetická energetické energetického energetickém energetickému energetický energetických energetickým energetickými energiemi energii energií energiích energiím
+8	508	lékař	lékařce lékaře lékařek lékařem lékaři lékařka lékařkou lékařku lékařky lékařskou lékařsky lékařská lékařské lékařského lékařském lékařskému lékařský lékařských lékařským lékařskými lékařích lékařů lékařům
+9	509	jídlo	jídel jídla jídle jídlech jídlem jídlu jídly jídlům
+10	510	jasný	jasnou jasná jasné jasného jasném jasnému jasní jasných jasným jasnými jasnější jasnějších jasnějším nejjasnější nejjasnějších nejjasnějším
+11	511	století	staletí staletích staletími stoletích stoletím stoletími
+12	512	chyba	chyb chybami chybička chybka chybku chybky chybou chybová chybové chybu chyby chybách chybám chybě
+13	513	rozdíl	rozdílech rozdílem rozdílový rozdílu rozdíly rozdílů rozdílům
+14	514	domů	
+15	515	léto	letům léta létech létem létu léty létě létům
+16	516	hodnota	hodnot hodnotami hodnotou hodnotu hodnoty hodnotách hodnotám hodnotě
+17	517	potřeba	potřeb potřebami potřebou potřebu potřeby potřebách potřebám potřebě
+18	518	téma	témat témata tématech tématem tématu tématy tématům
+19	519	model	modela modelce modelech modelek modelem modelka modelkami modelkou modelku modelky modelkách modelkám modelové modelu modely modelů modelům
+20	520	jazyk	jazyce jazycích jazyka jazykem jazykovou jazyková jazykové jazykového jazykovém jazykovému jazykový jazykových jazykovým jazykovými jazykově jazyku jazyky jazyků jazykům jazýček
+21	521	podmínka	podmínce podmínek podmínkami podmínkou podmínku podmínky podmínkách podmínkám
+22	522	doprava	doprav dopravou dopravu dopravy dopravě
+23	523	nějak	
+24	524	ovšem	
+25	525	skoro	
+26	526	vydat	nevydalo nevydá vydají vydal vydala vydali vydalo vydaly vydané vydaný vydej vydejme vydejte vydá vydám vydáme vydán vydána vydáni vydáno vydány vydáte vydáš
+27	527	srdce	srdcem srdci srdcovou srdcová srdcové srdcový srdcí srdcích srdcím srdeční srdečních srdečního srdečním srdečními srdečnímu srdíček srdíčka srdíčkem srdíčko srdíčku srdíčky
+28	528	volný	volnou volná volné volného volném volnému volní volných volným volnými volně volněji volnější volnějšího volnějším
+29	529	text	textech textem textu texty textů textům
+30	530	polovina	pol polovin polovinou polovinu poloviny polovině
+31	531	zkusit	zkus zkusil zkusila zkusili zkusilo zkusily zkusme zkuste zkusí zkusím zkusíme zkusíte zkusíš zkušení
+32	532	role	rolemi roli rolí rolích rolím
+33	533	zajímat	nezajímají nezajímal nezajímala nezajímali nezajímalo nezajímaly nezajímá zajímají zajímající zajímal zajímala zajímali zajímalo zajímaly zajímejte zajímá zajímám zajímáme zajímáte zajímáš
+34	534	okolí	okolím
+35	535	student	studenta studentce studentech studentek studentem studenti studentka studentkami studentkou studentku studentky studentkám studentovi studentskou studentská studentské studentského studentském studentskému studentský studentských studentským studentskými studentu studenty studentík studentů studentům
+36	536	provoz	provozech provozem provozu provozy provozů
+37	537	půl	
+38	538	trvat	netrvalo netrvá trvají trvající trvajících trvajícího trvajícím trvajícímu trval trvala trvali trvalo trvaly trvejte trvá trvám trváme trvání trváním trváte
+39	539	list	listech listem listu listy listě listů listům lístcích lístek lísteček lístkem lístku lístky lístků lístkům
+40	540	liga	lig ligou ligu ligy ligách lize
+41	541	finanční	finančních finančního finančním finančními finančnímu finančně nefinančních
+42	542	vybrat	vyber vybere vybereme vyberete vybereš vyberme vyberou vyberte vyberu vybral vybrala vybrali vybralo vybraly vybrán vybrána vybráni vybráno vybrány
+43	543	činnost	činnostech činnostem činnosti činnostmi činností
+44	544	třída	tříd třídami třídou třídu třídy třídách třídám třídě
+45	545	nabízet	nabízejí nabízející nabízel nabízela nabízeli nabízelo nabízely nabízen nabízena nabízeno nabízeny nabízení nabízený nabízených nabízí nabízím nabízíme nabízíte nenabízí
+46	546	sedět	nesedí neseděl poseděl poseděli posedět sedávala sedí sedíc sedící sedících sedícího sedícím sedím sedíme sedíte sedíš sedě seděl seděla seděli sedělo seděly sedění sezení sezeních sezením seďte
+47	547	letos	
+48	548	zrovna	
+49	549	zabít	nezabil zabij zabije zabijeme zabijete zabiješ zabijou zabijte zabiju zabijí zabil zabila zabili zabilo zabily zabit zabita zabiti zabito zabity zabití zabitím
+50	550	přidat	přidají přidal přidala přidali přidalo přidaly přidané přidaný přidej přidejme přidejte přidá přidám přidáme přidán přidána přidáno přidány přidání přidáním přidáte přidávat přidává přidáš
+51	551	verze	verzemi verzi verzí verzích verzím
+52	552	data	dat datech datovou datová datové datového datovém datový datových datovým datovými daty datům
+53	553	zdát	nezdá nezdálo zdají zdá zdál zdála zdáli zdálo zdály zdání
+54	554	nabídka	nabídce nabídek nabídkami nabídkou nabídku nabídky nabídkách nabídkám
+55	555	pokoj	pokoje pokojem pokoji pokojová pokojové pokojích pokojík pokojíku pokojů pokojům
+56	556	vážně	vážněji
+57	557	použít	nepoužije nepoužijí nepoužili použij použije použijeme použijete použiješ použiji použijme použijou použijte použiju použijí použil použila použili použilo použily použit použita použiti použito použity
+58	558	bohužel	
+59	559	vedení	vedeních vedením
+60	560	smysl	smyslech smyslem smyslu smysly smyslů smyslům
+61	561	pozice	pozic pozicemi pozici pozicí pozicích pozicím poziční
+62	562	boj	boje bojem boji bojích bojů bojům
+63	563	šance	šancemi šanci šancí šancích šancím
+64	564	jednotka	jednotce jednotek jednotkami jednotkou jednotkovou jednotková jednotkové jednotkových jednotku jednotky jednotkách jednotkám
+65	565	úroveň	úrovni úrovní úrovních úrovním úrovně úrovněmi
+66	566	poznat	nepoznají nepoznal nepoznali nepoznaný nepozná nepoznání poznají poznal poznala poznali poznalo poznaly poznej poznejte pozná poznám poznáme poznán poznání poznáním poznáte poznáš
+67	567	jednotlivý	jednotlivou jednotlivá jednotlivé jednotlivého jednotlivém jednotlivému jednotliví jednotlivých jednotlivým jednotlivými jednotlivě
+68	568	řešit	neřešil neřeší řešen řešena řešeno řešeny řešil řešila řešili řešilo řešily řešte řeší řešící řeším řešíme řešíte řešíš
+69	569	prostředí	prostředích prostředím prostředími
+70	570	jednoduchý	jednoduchou jednoduchá jednoduché jednoduchého jednoduchém jednoduchému jednoduchých jednoduchým jednoduchými jednoduší jednodušší jednodušších jednoduššího jednodušším jednoduššími jednoduššímu nejjednodušší nejjednodušších nejjednoduššího nejjednodušším
+71	571	díl	díle dílech dílem dílu díly dílů dílům
+72	572	listopad	lis lise lisem listopadem listopadovou listopadová listopadové listopadového listopadovém listopadový listopadových listopadu lisu lisy lisů
+73	573	fotografie	fotografiemi fotografii fotografií fotografiích fotografiím
+74	574	společný	společnou společná společné společného společném společnému společní společných společným společnými
+75	575	hora	hor horami horka horo horou horová horu hory horách horám hoře hoří hořím hůrka hůry hůře
+76	576	svatý	nejsvětější nejsvětějšího sv svatou svatá svaté svatého svatém svatému svatí svatých svatým svatými
+77	577	otevřít	neotevřel neotevřela otevře otevřel otevřela otevřeli otevřelo otevřely otevřeme otevřen otevřena otevřeni otevřeno otevřeny otevřete otevřeš otevři otevřou otevřte otevřu
+78	578	hudba	hudbou hudbu hudby hudbě hudeb
+79	579	škoda	škod škodami škodou škodová škodu škody škodách škodám škodě
+80	580	užít	neužil neužívá užij užije užijeme užijete užiješ užiji užijme užijou užijte užiju užijí užil užila užili užilo užily užit užita užito užity užití užitím užívají užíval užívala užívali užívaly užívat užívá užívám užíváme užíváš
+81	581	styl	style stylech stylem stylovou stylová stylové stylového stylovém stylový stylových stylovým stylovými stylu styly stylů stylům
+82	582	seznam	seznamech seznamem seznamu seznamy seznamů
+83	583	zda	
+84	584	dcera	dcer dcerami dcerce dcerka dcerkou dcerku dcerky dcero dcerou dceru dceruška dcerušku dcerušky dcery dcerách dcerám dceři dceřin dceřina
+85	585	armáda	armád armádami armádou armádu armády armádách armádám armádě
+86	586	sex	sexem sexu sexy
+87	587	nemocnice	nemocnic nemocnicemi nemocnici nemocnicí nemocnicích nemocnicím nemocniční nemocničních nemocničního nemocničním
+88	588	nacházet	nacházejí nacházející nacházel nacházela nacházeli nacházelo nacházely nacházení nachází nacházím nacházíme nacházíte nacházíš nenachází
+89	589	paní	pí
+90	590	historie	historii historií
+91	591	šest	šesti
+92	592	koruna	korun korunami korunní korunou korunový korunu koruny korunách korunám koruně
+93	593	pravý	pravou pravá pravé pravého pravém pravému praví pravých pravým pravými pravě
+94	594	forma	forem formami formou formu formy formách formám formě
+95	595	vývoj	vývoje vývojem vývoji
+96	596	hlas	hlase hlasech hlasem hlasovou hlasová hlasové hlasového hlasový hlasových hlasovým hlasovými hlasu hlasy hlasů hlasům
+97	597	březen	března březnem březnovou březnová březnové březnového březnovém březnový březnových březnu
+98	598	věk	věcích věkem věku věky věků
+99	599	určit	určen určena určeni určeno určenou určeny určená určené určeného určeném určenému určení určením určený určených určeným určenými určete urči určil určila určili určilo určily určovat určuje určí určím určíme určíte
+100	600	docela	

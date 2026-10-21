@@ -1,0 +1,100 @@
+1	3201	krutý	krutou krutá kruté krutého krutém krutému krutí krutých krutým krutými krutě krutější nejkrutější nejkrutějších
+2	3202	sousední	sousedních sousedního sousedním sousedními sousednímu
+3	3203	stydět	nestydí stydí stydím stydíme stydíte styděl styděla styděli styď styďte
+4	3204	dřívější	dřívějších dřívějšího dřívějším dřívějšími dřívějšímu
+5	3205	doprovod	doprovodem doprovodu doprovody
+6	3206	modlitba	modlitbami modlitbou modlitbu modlitby modlitbách modlitbám modlitbě modliteb
+7	3207	hlídka	hlídce hlídek hlídkami hlídkou hlídku hlídky hlídkách hlídkám
+8	3208	obejít	neobejde obcházet obchází obejde obejdeme obejdete obejdou obejdu obešel obešla obešli obešlo obešly
+9	3209	kotel	kotle kotlem kotli kotly kotlích kotlík kotlíku kotlů
+10	3210	emise	emisemi emisi emisí emisích emisím
+11	3211	košile	košil košilemi košili košilka košilku košilí košilích
+12	3212	výbava	výbav výbavou výbavu výbavy výbavách výbavě
+13	3213	mnohdy	
+14	3214	namísto	
+15	3215	nýbrž	
+16	3216	podél	
+17	3217	prima	
+18	3218	vlevo	
+19	3219	jednotlivec	jednotlivce jednotlivcem jednotlivci jednotlivcích jednotlivců jednotlivcům jednotlivkyň
+20	3220	kovový	kovovou kovová kovové kovového kovovém kovovému kovových kovovým kovovými
+21	3221	pochybovat	nepochyboval nepochybovali nepochybuje pochyboval pochybovala pochybovali pochybování pochybuje pochybujeme pochybujete pochybuji pochybuju pochybují
+22	3222	slza	slz slzami slzička slzou slzu slzy slzách slzám slzí
+23	3223	sračka	sraček sračku sračky sračkách
+24	3224	předchůdce	předchůdcem předchůdci předchůdcích předchůdců předchůdcům předchůdkyni předchůdkyní předchůdkyně předchůdkyň
+25	3225	trocha	troch trochou trochy trošce troše troška troškou trošky troškách
+26	3226	nalezený	nalezenou nalezená nalezené nalezeného nalezeném nalezení nalezením nalezených nalezeným nalezenými
+27	3227	tamní	tamních tamního tamním tamními tamnímu
+28	3228	lado	lad lada ladech ladem ladu lady
+29	3229	venkov	venkova venkovem venkovu venkově
+30	3230	bunda	bund bundou bundu bundy bundách bundě
+31	3231	klasika	klasice klasici klasik klasikem klasikou klasiku klasiky klasiků klasikům
+32	3232	katolický	katolickou katolická katolické katolického katolickém katolickému katolických katolickým katolickými katoličtí
+33	3233	výskyt	výskytem výskytu výskyty výskytů
+34	3234	zlobit	nezlob nezlobte rozzlobení rozzlobil rozzlobila rozzlobilo rozzlobit rozzlobí zlobení zlobil zlobila zlobili zlobilo zlobily zlobí zlobím zlobíme zlobě
+35	3235	potenciální	potenciálních potenciálního potenciálním potenciálními potenciálnímu potenciálně
+36	3236	bouda	boudou boudová boudu boudy boudách boudě bud budce budek budka budkou budku budky budkách
+37	3237	jablko	jabko jablek jablka jablkem jablku jablky jablkách jablíček jablíčka jablíčko
+38	3238	měna	měn měnami měnou měnu měny měnách měnám měně
+39	3239	mládí	mládím
+40	3240	tuk	tucích tukem tukovou tuková tukové tukového tukový tukových tuku tuky tuků
+41	3241	civilní	civilních civilního civilním civilními civilnímu civilnější
+42	3242	nahý	nahou nahá nahé nahého nahém nahých nahým nahými nazí
+43	3243	strop	stropech stropem stropu stropy stropě stropů
+44	3244	utratit	utracen utracena utraceno utraceny utracení utratil utratila utratili utratilo utratily utratí utratím utratíme utratíte utrácet
+45	3245	děsit	děsil děsila děsili děsilo děsily děsí děsím děsíte vyděsil vyděsila vyděsili vyděsilo vyděsily vyděsit vyděsí vyděšen vyděšeni vyděšení
+46	3246	zmínka	zmínce zmínek zmínkou zmínku zmínky
+47	3247	vstupní	vstupních vstupního vstupním vstupními vstupnímu
+48	3248	hejtman	hejtmana hejtmanem hejtmani hejtmanovi hejtmany hejtmanů hejtmanům
+49	3249	firemní	firemních firemního firemním firemními firemnímu
+50	3250	návod	návodem návodu návody návodů
+51	3251	legrace	legraci
+52	3252	směřovat	směřovala směřovalo směřovaly směřuje směřují
+53	3253	hradiště	hradišti hradištko hradištěm hradišť
+54	3254	kolekce	kolekcemi kolekci kolekcí kolekcích
+55	3255	intenzívní	intenzivní intenzivních intenzivního intenzivním intenzivními intenzivnímu intenzivnější intenzivnějším intenzivnějšímu intenzívním intenzívně nejintenzivnější
+56	3256	příznak	příznacích příznakem příznaku příznaky příznaků příznakům
+57	3257	zpěv	zpěvem zpěvu zpěvy zpěvů
+58	3258	předek	předci předcích předka předkem předkovi předkové předku předky předků předkům
+59	3259	pramen	pramene pramenech pramenem prameni pramenu prameny pramenů pramenům pramínek
+60	3260	porušení	porušením
+61	3261	zakončit	zakončen zakončena zakončeno zakončeny zakončení zakončený zakončil zakončila zakončili zakončilo zakončily zakončí zakončím zakončíme
+62	3262	lyže	lyžemi lyži lyží lyžích
+63	3263	nešťastný	nešťastnou nešťastná nešťastné nešťastného nešťastném nešťastnému nešťastní nešťastných nešťastným nešťastnými nešťastně
+64	3264	rasa	ras rasami rase rasou rasovou rasová rasové rasového rasovém rasový rasových rasovým rasu rasy rasách rasám
+65	3265	uklidit	uklidil uklidila uklidili uklidí uklidím uklidíme uklidíte uklizen uklizeno uklizená uklizené uklizení uklizený ukliď ukliďme ukliďte uklízejí uklízel uklízela uklízeli uklízení uklízením uklízet uklízí uklízím uklízíme
+66	3266	trend	trendech trendem trendu trendy trendů
+67	3267	odebrat	odebere odebereme odeberete odeberou odeberte odeberu odebral odebrala odebrali odebralo odebraly odebrán odebrána odebráno odebrány odebírají odebíral odebírala odebírali odebírat odebírá odebírám odebíráme odebírán odebírána odebírány odebírání
+68	3268	péct	pekl pekla pekli pekly peč peče pečeme pečeni pečenou pečená pečené pečeného pečený pečených pečeným pečenými pečete pečou pečte peču pečící péci upéct
+69	3269	extrémně	
+70	3270	go	
+71	3271	každoročně	
+72	3272	vzadu	
+73	3273	kdokoliv	kohokoliv komukoliv kýmkoliv
+74	3274	mechanismus	mechanismech mechanismem mechanismu mechanismy mechanismů mechanismům
+75	3275	reportáž	reportáže reportážemi reportáži reportážní reportáží reportážích
+76	3276	strava	stravou stravu stravy stravě
+77	3277	zapálit	zapal zapalovat zapalte zapaluje zapálen zapálena zapálenou zapálená zapálené zapáleného zapálení zapálený zapálených zapáleným zapálenými zapálil zapálila zapálili zapálilo zapálily zapálí zapálím zapálíme zapálíte
+78	3278	hospodářství	hospodářstvím
+79	3279	členství	členstvím
+80	3280	nouze	nouza nouzi nouzovou nouzového nouzovém nouzovému nouzový nouzových nouzovým nouzí
+81	3281	zamyslet	zamyslel zamyslela zamysleli zamysleme zamyslete zamysli zamyslí zamyslím zamyslíme zamyslíte zamýšlejí zamýšlel zamýšlet zamýšlí
+82	3282	identita	identit identitami identitou identitu identity identitě
+83	3283	úmysl	úmyslech úmyslem úmyslu úmysly úmyslů úmyslům
+84	3284	světelný	světelnou světelná světelné světelného světelném světelnému světelných světelným světelnými
+85	3285	nábytek	nábytkem nábytku
+86	3286	ret	rtech rtem rtu rty rtů rtům
+87	3287	modul	module modulech modulem modulu moduly modulů modulům
+88	3288	dopravce	dopravcem dopravci dopravců dopravcům
+89	3289	ticho	tich ticha tichem tichu
+90	3290	provozovatel	provozovatele provozovatelem provozovateli provozovatelka provozovatelé provozovatelů provozovatelům
+91	3291	jelen	jelena jelenem jeleni jelenovi jelenu jeleny jelení jeleních jeleního jelením jelenů jelínek lani laní laně laň laňka
+92	3292	komunismus	komunismem komunismu
+93	3293	každodenní	každodenních každodenního každodenním každodenními každodennímu každodenně
+94	3294	alternativa	alternativ alternativami alternativou alternativu alternativy alternativách alternativě
+95	3295	rejstřík	rejstřících rejstříkem rejstříku rejstříky rejstříků
+96	3296	žánr	žánrech žánrem žánrové žánrový žánru žánry žánrů žánrům
+97	3297	sjezd	sjezdech sjezdem sjezdu sjezdy sjezdů
+98	3298	epizoda	episoda epizod epizodami epizodou epizodu epizody epizodách epizodám epizodě
+99	3299	úder	úderech úderem úderu údery úderů úderům
+100	3300	vyhláška	vyhlášce vyhlášek vyhláškami vyhláškou vyhlášku vyhlášky vyhláškách

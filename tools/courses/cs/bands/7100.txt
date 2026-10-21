@@ -1,0 +1,100 @@
+1	7001	množit	množili množí
+2	7002	nostalgie	nostalgickou nostalgická nostalgické nostalgický nostalgických nostalgickým nostalgii nostalgií
+3	7003	dekáda	dekád dekádu dekády dekádách dekádě
+4	7004	vyvést	vyveden vyvedeni vyvedl vyvedla vyvedli vyvádět
+5	7005	přihrávka	přihrávce přihrávek přihrávkami přihrávkou přihrávku přihrávky přihrávkách
+6	7006	rádiový	rádiovou rádiová rádiové rádiového rádiovém rádiových rádiovým rádiově
+7	7007	nudle	nudlemi nudli nudlí
+8	7008	peří	peřím
+9	7009	funkčnost	funkčnosti funkčností
+10	7010	hromadit	hromadil hromadila hromadily hromadí hromadící hromadě nahromadil nahromadila nahromadilo nahromadily nahromadit nahromadí nahromaděné nahromaděný
+11	7011	porušování	porušováním
+12	7012	různorodý	různorodou různorodá různorodé různorodého různorodých různorodým různorodými různorodě různorodější
+13	7013	tolerovat	tolerovány toleruje
+14	7014	severočeský	severočeskou severočeská severočeské severočeského severočeském severočeských severočeským
+15	7015	zírat	zírají zíral zírala zírali zíraly zírá zírám zíráme zírání zíráte
+16	7016	vymezení	vymezením
+17	7017	siemens	siemensu
+18	7018	zítřejší	zítřejších zítřejšího zítřejším
+19	7019	pasta	pastou pastu pasty pastě
+20	7020	šílenec	šílence šílencem šílenci šílenců šílencům
+21	7021	basketbal	basketbale basketbalem basketbalu
+22	7022	mrcha	mrchu mrchy mrška
+23	7023	břemeno	břemen břemena břemene břemenem břemeny břímě
+24	7024	přihlížet	přihlížející přihlížejících přihlížejícího přihlížejícím přihlížel přihlíží
+25	7025	zhodnocení	zhodnocením
+26	7026	metalový	metalovou metalová metalové metalového metalovém metaloví metalových metalovým
+27	7027	výchovný	výchovnou výchovná výchovné výchovného výchovném výchovných výchovným výchovnými
+28	7028	abeceda	abecední abecedního abecedním abecedou abecedu abecedy abecedě
+29	7029	škůdce	škůdcem škůdci škůdců škůdcům
+30	7030	astronomický	astronomickou astronomicky astronomická astronomické astronomického astronomickém astronomických astronomickým astronomickými
+31	7031	soucit	soucitem soucitu
+32	7032	administrátor	administrátora administrátorem administrátory administrátorů administrátoři
+33	7033	španělština	španělštinou španělštinu španělštiny španělštině
+34	7034	rozptýlit	rozptylovat rozptýlen rozptýlena rozptýleni rozptýlenou rozptýleny rozptýlená rozptýlené rozptýleného rozptýlený rozptýlených rozptýlil rozptýlila rozptýlili rozptýlily rozptýlí
+35	7035	převládat	převládají převládala převládl převládá
+36	7036	nežli	
+37	7037	paradoxně	
+38	7038	strojírenství	
+39	7039	certifikace	certifikaci
+40	7040	kráter	kráterem kráteru krátery kráterů
+41	7041	jiřina	jiřinka jiřinou jiřinu jiřiny jiřině
+42	7042	kalkulačka	kalkulačce kalkulaček kalkulačkou kalkulačku kalkulačky
+43	7043	klad	klade kladem kladu klady kladů
+44	7044	spojovací	spojovacích spojovacího spojovacím spojovacími
+45	7045	dodaný	dodanou dodaná dodané dodaného dodaných dodaným dodanými dodána dodáno dodány
+46	7046	zahnat	zahnal zahnala zahnali zahnalo zahnaly zahnán zahnáni zahánějí zahánět zažene zaženou
+47	7047	středoškolský	středoškolskou středoškolská středoškolské středoškolského středoškolském středoškolských středoškolským středoškolští
+48	7048	vanilka	vanilkou vanilkovou vanilková vanilkové vanilkového vanilkový vanilkovým vanilku vanilky
+49	7049	vzrušení	vzrušením
+50	7050	pochybný	pochybnou pochybná pochybné pochybného pochybných pochybným pochybnými pochybně
+51	7051	tekutý	tekutou tekutá tekuté tekutého tekutém tekutých tekutým tekutými
+52	7052	vypovědět	vypoví vypověděl vypověděla vypověděli vypovědělo vypověděly vypovězen vypovězena
+53	7053	plechovka	plechovce plechovek plechovkami plechovkou plechovku plechovky plechovkách
+54	7054	karanténa	karanténu karantény karanténě
+55	7055	demonstrovat	demonstroval demonstrovala demonstrovali demonstrovalo demonstrovaly demonstruje demonstrují demonstrující
+56	7056	balón	balónem balónu balóny balónů
+57	7057	distribuční	distribučních
+58	7058	meteorolog	meteorologa meteorologové meteorology meteorologů
+59	7059	sčítání	sčítáním
+60	7060	vysvědčení	vysvědčením
+61	7061	vývar	vývarem vývaru vývary
+62	7062	šuplík	šuplících šuplíku šuplíky šuplíků
+63	7063	puk	puka pukem puku puky puků
+64	7064	výzbroj	výzbroje
+65	7065	straka	strak strakou strakovi straková straku straky
+66	7066	losos	lososa lososem lososi lososová lososové lososy lososů
+67	7067	plavec	plavce plavcem plavci plavců plavcům plavkyně
+68	7068	nástupiště	nástupišti nástupištích nástupištěm nástupišť
+69	7069	zácpa	zácpou zácpu zácpy zácpách zácpám zácpě
+70	7070	kalifornský	kalifornskou kalifornská kalifornské kalifornského kalifornském kalifornských kalifornským kalifornští
+71	7071	šikana	šikanou šikanu šikany šikaně
+72	7072	exkurze	exkurzi exkurzí
+73	7073	prosperita	prosperitou prosperitu prosperity prosperitě
+74	7074	sváteční	svátečních svátečního svátečním
+75	7075	dodělat	dodělají dodělal dodělala dodělali dodělá dodělám doděláme dodělání dodělával dodělávat dodělává dodělávám
+76	7076	žízeň	žízni žízní žízně
+77	7077	zarazit	zarazil zarazila zarazili zarazilo zarazí zarazím zaražené zaražení zaražený
+78	7078	plazma	plasma plazmatu plazmou plazmovou plazmová plazmové plazmového plazmový plazmových plazmu plazmy plazmě
+79	7079	horolezec	horolezce horolezcem horolezci horolezců horolezcům horolezkyně
+80	7080	koordinovat	koordinoval koordinovala koordinovali koordinovanou koordinovaná koordinované koordinovaného koordinovaný koordinovaných koordinovaně koordinován koordinována koordinovány koordinuje koordinujeme koordinují
+81	7081	brusle	bruslemi brusli bruslí bruslích bruslím
+82	7082	astronaut	astronauta astronautem astronauti astronautka astronauty astronauté astronautů astronautům
+83	7083	usmrtit	usmrcen usmrcena usmrceni usmrceno usmrceny usmrcení usmrcených usmrcování usmrtil usmrtila usmrtili usmrtily usmrtí
+84	7084	atribut	atributem atributu atributy atributů atributům
+85	7085	zábrana	zábran zábranami zábranou zábranu zábrany
+86	7086	vrozený	vrozenou vrozená vrozené vrozeného vrozených vrozeným vrozenými
+87	7087	hostina	hostin hostinou hostinu hostiny hostinách hostině
+88	7088	lineární	lineárních lineárního lineárním lineárními lineárně
+89	7089	docílit	docíleno docílení docílil docílila docílili docílilo docílí docílíme docílíte
+90	7090	zrod	zrodem zrodu
+91	7091	demolice	demolici demolicí demolicích
+92	7092	inženýrství	inženýrstvím
+93	7093	polární	polárních polárního polárním
+94	7094	skot	skota skotem skoti skotové skotu skoty skotů skotům
+95	7095	produkční	produkčních produkčního produkčním produkčně
+96	7096	neplatný	neplatnou neplatná neplatné neplatných neplatným
+97	7097	arogantní	arogantních arogantního arogantním arogantně
+98	7098	trauma	traumat traumata traumatech traumatem traumatu traumaty
+99	7099	protějšek	protějškem protějšku protějšky protějšků protějškům
+100	7100	kamna	kamen kamnech kamny kamínka

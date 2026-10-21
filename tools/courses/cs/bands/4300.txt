@@ -1,0 +1,100 @@
+1	4201	poznatek	poznatcích poznatkem poznatku poznatky poznatků poznatkům
+2	4202	vykazovat	nevykazují vykazoval vykazovala vykazovalo vykazovaly vykazuje vykazují
+3	4203	partie	partii partií partiích
+4	4204	kuře	kuřat kuřata kuřaty kuřete kuřetem kuřeti kuřátek kuřátka kuřátko
+5	4205	pochopitelně	
+6	4206	víceméně	
+7	4207	liberální	liberálních liberálního liberálním liberálními liberálnímu liberálnější
+8	4208	slabost	slabostech slabosti slabostmi slabostí
+9	4209	konto	kont konta kontech kontem kontu kontě
+10	4210	mnohokrát	mnohokráte
+11	4211	tragický	nejtragičtější nejtragičtějších tragickou tragická tragické tragického tragickém tragickému tragických tragickým tragickými tragičtější
+12	4212	nezaměstnanost	nezaměstnanosti nezaměstnaností
+13	4213	dávný	dávnou dávná dávné dávného dávném dávnému dávní dávných dávným dávnými dávnější
+14	4214	malba	malbami malbou malbu malby malbách malbám malbě maleb
+15	4215	mýlit	myl mýlil mýlila mýlili mýlí mýlím mýlíme mýlíte mýlíš
+16	4216	komiks	komiksech komiksem komiksu komiksy komiksů komiksům
+17	4217	latina	latin latino latinou latinskou latinská latinské latinského latinském latinský latinských latinským latinu latiny latině
+18	4218	obřad	obřadech obřadem obřadu obřady obřadů obřadům
+19	4219	mlha	mlh mlhami mlhou mlhové mlhu mlhy mlhách mlze
+20	4220	plavba	plavbou plavbu plavby plavbách plavbě plaveb
+21	4221	opice	opic opicemi opici opicí opicích opicím opička
+22	4222	partnerství	partnerstvím
+23	4223	příznivý	nejpříznivější příznivou příznivá příznivé příznivého příznivém příznivému příznivých příznivým příznivými příznivější příznivějších příznivějším
+24	4224	inflace	inflaci inflací
+25	4225	plamen	plamene plamenech plamenem plameni plamenu plameny plamenů plamenům plamének plamínek
+26	4226	zřízení	zřízením
+27	4227	geniální	geniálních geniálního geniálním geniálnímu geniálně
+28	4228	lázeňský	lázeňskou lázeňská lázeňské lázeňského lázeňském lázeňskému lázeňských lázeňským lázeňskými lázeňští
+29	4229	monitor	monitorech monitorem monitoru monitory monitorů
+30	4230	metropole	metropolemi metropoli metropolí metropolích
+31	4231	inovace	inovacemi inovaci inovací inovacích inovacím
+32	4232	plánování	plánováním
+33	4233	prvý	prvou prvá prvé prvého prvém prví prvých prvým
+34	4234	pohodlně	pohodlněji
+35	4235	pilíř	pilíře pilířem pilíři pilířích pilířů pilířům
+36	4236	bratranec	bratrance bratrancem bratranci bratranců bratránek
+37	4237	opatrně	neopatrně opatrněji
+38	4238	dluhopis	dluhopisech dluhopisu dluhopisy dluhopisů dluhopisům
+39	4239	magnetický	magnetickou magnetická magnetické magnetického magnetickém magnetickému magnetických magnetickým magnetickými
+40	4240	úrok	úrocích úrokem úroku úroky úroků úrokům
+41	4241	oční	očních očního očním očními očnímu
+42	4242	záhada	záhad záhadami záhadou záhadu záhady záhadách záhadám záhadě
+43	4243	dvojka	dvojce dvojek dvojkou dvojku dvojky
+44	4244	náramek	náramkem náramku náramky náramků
+45	4245	postižení	postižením
+46	4246	zastávat	zastávají zastával zastávala zastávali zastávalo zastává
+47	4247	početný	nejpočetnější nejpočetnějších nejpočetnějším početnou početná početné početného početní početných početným početnými početnější početnějším
+48	4248	předpověď	předpovědi předpovědí předpovědích předpovědím předpověďmi
+49	4249	horečka	horečce horeček horečkami horečkou horečku horečky horečkách
+50	4250	teroristický	teroristickou teroristická teroristické teroristického teroristickém teroristickému teroristických teroristickým teroristickými
+51	4251	krátkodobý	krátkodobou krátkodobá krátkodobé krátkodobého krátkodobém krátkodobému krátkodobých krátkodobým krátkodobými krátkodobě krátkodobější
+52	4252	marketingový	marketingovou marketingová marketingové marketingového marketingovém marketingoví marketingových marketingovým marketingovými
+53	4253	železo	želez železa železe železem železu
+54	4254	atentát	atentátech atentátem atentátu atentáty atentátů
+55	4255	kopírovat	kopíroval kopírovala kopírovali kopírovalo kopírovaly kopírování kopíruje kopírujeme kopírují kopírující
+56	4256	balení	baleních balením
+57	4257	báječný	báječnou báječná báječné báječného báječném báječní báječných báječným báječnými báječně nejbáječnější
+58	4258	předvolební	předvolebních předvolebního předvolebním
+59	4259	kožený	koženou kožená kožené koženého koženém kožených koženým koženými
+60	4260	ateliér	ateliérech ateliérem ateliéru ateliéry ateliérů
+61	4261	flotila	flotil flotile flotilou flotilu flotily
+62	4262	hot	
+63	4263	jaksi	
+64	4264	jinam	
+65	4265	nesmírně	
+66	4266	ps	
+67	4267	tajně	
+68	4268	vyhlídka	vyhlídce vyhlídek vyhlídkami vyhlídkou vyhlídku vyhlídky vyhlídkách vyhlídkám
+69	4269	působnost	působnosti působností
+70	4270	skalní	skalních skalního skalním skalními skalnímu
+71	4271	potopit	potopena potopené potopení potopený potopil potopila potopili potopilo potopily potopí potápí potápějí potápějící potápěl potápěla potápěli potápění potápět
+72	4272	major	majora majore majorem majorovi majoru majorů mjr
+73	4273	plavat	plav plavající plaval plavala plavali plavalo plavaly plave plaveme plavete plavou plavu
+74	4274	inscenace	inscenaci inscenací
+75	4275	podprsenka	podprsence podprsenek podprsenkou podprsenku podprsenky
+76	4276	moudrý	moudrou moudrá moudré moudrého moudrému moudrých moudrým moudrými moudře moudřejší moudří nejmoudřejší
+77	4277	neschopnost	neschopnosti neschopností
+78	4278	výsledný	výslednou výsledná výsledné výsledného výsledném výslednému výsledných výsledným
+79	4279	slon	slona slonech slonem sloni slonice slonovi slony slonů slonům
+80	4280	figura	figur figurami figurek figurka figurkami figurkou figurku figurky figurou figuru figury figuře
+81	4281	sněhový	sněhovou sněhová sněhové sněhového sněhovém sněhových sněhovým sněhovými sněhově
+82	4282	pravice	pravici pravicí
+83	4283	anonymní	anonymních anonymního anonymním anonymními anonymnímu anonymně
+84	4284	ženatý	ženat ženatá ženaté ženatého ženatí ženatých ženatým
+85	4285	mercedes	mercedesu
+86	4286	magický	magickou magicky magická magické magického magickém magickému magických magickým magickými
+87	4287	bouřka	bouřce bouřek bouřkami bouřkou bouřková bouřkové bouřkový bouřkových bouřku bouřky bouřkách
+88	4288	polní	polních polního polním polními polnímu
+89	4289	propuštění	propuštěním
+90	4290	tvor	tvora tvorech tvorem tvoreček tvorovi tvorové tvoru tvory tvorů tvorům
+91	4291	pavouk	pavouci pavouka pavoukem pavoukovi pavouku pavouky pavouků pavoukům pavouček pavoučí pavoučích pavoučího
+92	4292	kalous	kalouse kalousek kalousová
+93	4293	nervový	nervovou nervová nervové nervového nervovém nervovému nervových nervovým nervovými nervově
+94	4294	popřít	nepopřel popírat popírá popře popřel popřela popřeli popřelo popřely popření popřením
+95	4295	přestup	přestupech přestupem přestupu přestupy přestupů
+96	4296	evoluce	evoluci evolucí evoluční evolučních evolučního evolučním evolučně
+97	4297	strčit	strkají strkal strkala strkali strkat strká strkám strkání strč strčil strčila strčili strčte strčí strčím strčíme strčíte
+98	4298	kolář	koláře kolářem kolářovi kolářová kolářové
+99	4299	podřídit	podřídil podřídila podřídili podřídí podřízen podřízena podřízeni podřízeno podřízenou podřízeny podřízená podřízené podřízeného podřízeném podřízenému podřízení podřízený podřízených podřízeným podřízenými
+100	4300	motivovat	motivoval motivovala motivovali motivovalo motivovaly motivovanou motivovaná motivované motivovaného motivovaní motivovaný motivovaných motivovaným motivován motivována motivováni motivováno motivovány motivování motivuje motivují motivující

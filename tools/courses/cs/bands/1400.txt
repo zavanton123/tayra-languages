@@ -1,0 +1,100 @@
+1	1301	zvlášť	zvláště
+2	1302	pozvat	nezval pozval pozvala pozvali pozvalo pozvaly pozve pozveme pozvete pozvi pozvou pozvu pozván pozvána pozváni pozváno pozvány pozvěte zval zvala zvali zve zveme zvete zvi zvou zvoucí zvu zván zvána zváni zváno zvány zvát
+3	1303	podstata	podstat podstatou podstatu podstaty podstatě
+4	1304	duch	ducha duchem duchovi duchové duchu duchy duchů duchům duších
+5	1305	princ	prince princem princezen princezna princeznami princeznin princeznička princezno princeznou princeznu princezny princeznách princeznám princezně princi princova princovi princovy princové princově princátko princů princův
+6	1306	poradit	poradil poradila poradili poradilo poradily poradí poradím poradíme poradíte poradíš poraď poraďte radil radila radili radily radit radí radím radíme radíte radě raď
+7	1307	upravit	uprav upraven upravena upraveno upravenou upraveny upravená upravené upraveného upraveném upravení upravený upravených upraveným upravenými upraveně upravil upravila upravili upravilo upravily upravovala upravovat upravte upravuje upravujeme upravují upraví upravím upravíme upravíte
+8	1308	ahoj	
+9	1309	dosud	
+10	1310	předtím	
+11	1311	povést	nepovedlo povede povedla povedlo povedou
+12	1312	cizí	cizích cizího cizím cizími cizímu
+13	1313	pocházet	nepochází pocházejí pocházející pocházejících pocházejícího pocházejícím pocházejícími pocházel pocházela pocházeli pocházelo pocházely pochází pocházím pocházíme pocházíte pojde pošel pošla pošli
+14	1314	výrazný	nejvýraznější nejvýraznějších nejvýraznějším nejvýraznějšími nevýrazná nevýrazné nevýrazném výraznou výrazná výrazné výrazného výrazném výraznému výrazní výrazných výrazným výraznými výraznější výraznějších výraznějšího výraznějším výraznějšími výraznějšímu
+15	1315	chování	chováním
+16	1316	trestný	trestnou trestná trestné trestného trestném trestnému trestní trestních trestního trestním trestnímu trestných trestným trestnými trestně
+17	1317	mistrovství	mistrovstvích mistrovstvím
+18	1318	lid	lide lidech lidem lidová lidové lidu
+19	1319	podepsat	nepodepsal nepodepíše podepisoval podepisovala podepisovali podepisovat podepisování podepisuje podepisujete podepisuji podepisují podepisující podepiš podepište podepsal podepsala podepsali podepsalo podepsaly podepsán podepsána podepsáni podepsáno podepsány podepíše podepíšeme podepíšete podepíšou podepíšu podepíší
+20	1320	fotbalový	fotbalovou fotbalová fotbalové fotbalového fotbalovém fotbalovému fotbaloví fotbalových fotbalovým fotbalovými fotbalovější
+21	1321	dráha	drah drahami drahou drahách drahám dráhami dráhou dráhu dráhy dráhách dráze drážce drážek drážka drážkami drážkou drážku drážky drážkách
+22	1322	osobnost	osobnostech osobnostem osobnosti osobnostmi osobností
+23	1323	pohár	pohárech pohárek pohárem poháru poháry pohárů
+24	1324	filmový	filmovou filmová filmové filmového filmovém filmovému filmoví filmových filmovým filmovými
+25	1325	doktor	doktora doktorce doktore doktorech doktorem doktorka doktorko doktorkou doktorku doktorky doktorova doktorovi doktoru doktory doktorů doktorům doktoři
+26	1326	internetový	internetovou internetová internetové internetového internetovém internetovému internetoví internetových internetovým internetovými
+27	1327	poměr	poměrech poměrem poměru poměry poměrů poměrům
+28	1328	běžet	běž běžel běžela běželi běželo běžely běžte běží běžící běžícím běžím běžíme běžíte běžíš neběžel poběží
+29	1329	kamera	kamer kamerami kamerka kamerou kameru kamery kamerách kamerám kameře
+30	1330	příspěvek	příspěvcích příspěvkem příspěvku příspěvky příspěvků příspěvkům
+31	1331	desítka	desítce desítek desítkami desítkou desítku desítky desítkách desítkám
+32	1332	trpět	netrpí neutrpěla protrpět přetrpět trp trpí trpící trpících trpícího trpícím trpícími trpím trpíme trpíte trpíš trpěl trpěla trpěli trpělo trpěly utrpí utrpěl utrpěla utrpěli utrpělo utrpěly utrpět
+33	1333	naděje	nadějemi naději nadějí nadějích nadějím
+34	1334	zabývat	nezabýval nezabývá zabývají zabývající zabývajících zabýval zabývala zabývali zabývalo zabývaly zabývá zabývám zabýváme zabýváte
+35	1335	význam	významech významem významu významy významů
+36	1336	vstoupit	vstoupení vstoupil vstoupila vstoupili vstoupilo vstoupily vstoupí vstoupím vstoupíme vstoupíte vstoupíš vstupovat vstupte vstupuje
+37	1337	následovat	následoval následovala následovali následovalo následovaly následované následovaný následován následována následováni následováno následovány následování následuj následuje následujeme následuji následujte následují
+38	1338	dávno	
+39	1339	pozornost	pozornosti pozorností
+40	1340	dna	dnech dnem dno dnou dnu dny dně dnům
+41	1341	překvapit	nepřekvapilo překvapen překvapena překvapeni překvapená překvapené překvapeného překvapený překvapeným překvapeně překvapil překvapila překvapili překvapilo překvapily překvapovat překvapte překvapuje překvapí překvapím překvapíme překvapíte
+42	1342	zem	zemi zemí zemích zemím zeměmi
+43	1343	médium	média médiích
+44	1344	ekonomika	ekonomice ekonomik ekonomikami ekonomikou ekonomiku ekonomiky ekonomikách ekonomikám
+45	1345	mír	mírem míru míry
+46	1346	adresa	adres adresami adrese adresou adresu adresy adresách adresám
+47	1347	slavit	neslaví oslav oslavení oslavil oslavila oslavili oslavilo oslavily oslavit oslavovat oslavte oslavuje oslaví oslavím oslavíme oslavíte slaven slavena slavení slavil slavila slavili slavilo slavily slaví slavící slavím slavíme slavíte
+48	1348	stovka	stovce stovek stovkami stovkou stovku stovky stovkách stovkám
+49	1349	trest	trestech trestem trestu tresty trestů trestům
+50	1350	žádost	žádostech žádostem žádosti žádostmi žádostí
+51	1351	jakýkoliv	jakoukoliv jakákoliv jakéhokoliv jakékoliv jakémkoliv jakémukoliv jakýchkoliv jakýmikoliv jakýmkoliv
+52	1352	setkání	setkáních setkáním setkáními
+53	1353	zbavit	nezbavíme zbav zbaven zbavena zbaveni zbaveno zbavenou zbaveny zbavená zbavené zbaveného zbavení zbavený zbavených zbavil zbavila zbavili zbavilo zbavily zbavme zbavoval zbavovala zbavovali zbavovat zbavování zbavte zbavuje zbavujeme zbavujete zbavuji zbavují zbaví zbavím zbavíme zbavíte zbavíš
+54	1354	sídlo	sídel sídla sídle sídlech sídlem sídlu sídly sídlům
+55	1355	hospodářský	hospodářskou hospodářsky hospodářská hospodářské hospodářského hospodářském hospodářskému hospodářských hospodářským hospodářskými
+56	1356	čin	činech činem činu činy činů činům
+57	1357	slíbit	sliboval slibovala slibovali slibovalo slibovaly slibovaný slibovat slibování slibte slibuje slibujeme slibujete slibuji slibuju slibují slibující slíbena slíbeno slíbené slíbený slíbil slíbila slíbili slíbilo slíbily slíbí slíbím slíbíte
+58	1358	letět	doletí doletěl doletěla doletět letí letící letících letícího letícím letím letíme letíte letíš letěl letěla letěli letělo letěly leť leťte odletí odletěl odletěla odletěli odletělo odletěly odletět odlétat poletí poletím poletíme poletíte přiletí přiletěl přiletěla přiletěli přiletělo přiletěly přiletět
+59	1359	dvakrát	
+60	1360	nelze	
+61	1361	pořádně	
+62	1362	uvnitř	
+63	1363	komentář	komentáře komentářem komentáři komentářích komentářů komentářům
+64	1364	odborník	odbornice odbornici odbornicí odborníci odbornících odborníka odborníkem odborníkovi odborníku odborníky odborníků odborníkům
+65	1365	zlý	hůř hůře nejhůř nejhůře zle zlou zlá zlé zlého zlém zlému zlí zlých zlým zlými
+66	1366	oprava	oprav opravami opravou opravu opravy opravách opravám opravě
+67	1367	paměť	pamětech paměti pamětí
+68	1368	vlna	vln vlnami vlnek vlnka vlnky vlnou vlnu vlny vlnách vlnám vlně
+69	1369	nastoupit	nastoupení nastoupením nastoupil nastoupila nastoupili nastoupilo nastoupily nastoupí nastoupím nastoupíme nastoupíte nastupovat nastupte nastupuje nenastoupil
+70	1370	reklama	reklam reklamami reklamou reklamu reklamy reklamách reklamám reklamě
+71	1371	reálný	nereálné reálnou reálná reálné reálného reálném reálnému reální reálných reálným reálnými reálně reálnější
+72	1372	odkaz	odkazech odkazem odkazu odkazy odkazů odkazům
+73	1373	ukončit	ukončen ukončena ukončeno ukončeny ukončené ukončený ukončete ukončil ukončila ukončili ukončilo ukončily ukončovat ukončuje ukončí ukončím ukončíme ukončíte
+74	1374	vražda	vražd vraždami vraždou vraždu vraždy vraždách vraždám vraždě
+75	1375	uvědomit	neuvědomil neuvědomí uvědom uvědomil uvědomila uvědomili uvědomilo uvědomily uvědomme uvědomovat uvědomte uvědomuje uvědomí uvědomím uvědomíme uvědomíte uvědomíš
+76	1376	diskuse	diskusemi diskusi diskusí diskusích diskusím diskuze diskuzemi diskuzi diskuzí diskuzích diskuzím
+77	1377	popis	popisech popisem popisu popisy popisů popisům
+78	1378	deník	denících deníkem deníkové deníku deníky deníků deníkům deníček
+79	1379	časopis	časopise časopisech časopisem časopisu časopisy časopisů časopisům
+80	1380	řeč	řečech řečem řeči řečmi řečí
+81	1381	vyrazit	vyraz vyrazil vyrazila vyrazili vyrazilo vyrazily vyrazte vyrazí vyrazím vyrazíme vyrazíte vyrazíš vyražen vyražena vyraženo vyraženy vyražené vyražení vyražený vyrážet vyráží
+82	1382	pozemek	pozemcích pozemkem pozemku pozemky pozemků pozemkům
+83	1383	zavřít	zavírají zavíral zavírala zavírali zavíraly zavírat zavírej zavírá zavírám zavíráme zavíráni zavírání zavíráš zavře zavřel zavřela zavřeli zavřelo zavřely zavřeme zavřen zavřena zavřeni zavřeno zavřeny zavřete zavřeš zavři zavřou zavřu
+84	1384	orgán	orgánech orgánem orgánu orgány orgánů orgánům
+85	1385	využití	využitím
+86	1386	průměr	průměrech průměrem průměru průměry průměrů
+87	1387	brána	bran branami branou branách branám bránami bráno bránou bránu brány bráně
+88	1388	omluvit	omlouvají omlouval omlouvala omlouvali omlouvat omlouvá omlouvám omlouváme omlouvání omluv omluven omluvena omluvil omluvila omluvili omluvilo omluvily omluvte omluví omluvím omluvíte
+89	1389	slabý	nejslabší nejslabších nejslabšího nejslabším slabou slabá slabé slabého slabém slabému slabí slabých slabým slabými slabě slaběji slabší slabších slabšího slabším slabšími slabšímu
+90	1390	knihovna	knihoven knihovnami knihovnička knihovnou knihovnu knihovny knihovnách knihovnám knihovně
+91	1391	server	serveru
+92	1392	ryba	ryb rybami rybce rybek rybiček rybička rybičkami rybičkou rybičku rybičky rybka rybkami rybkou rybku rybky rybou rybová rybu ryby rybách rybám rybě
+93	1393	vrchol	vrcholcích vrcholech vrcholek vrcholem vrcholkem vrcholku vrcholky vrcholků vrcholu vrcholy vrcholů vrcholům
+94	1394	vesnice	vesnic vesnicemi vesnici vesnicí vesnicích vesnicím vesnička vesničky
+95	1395	záda	zad zádech zády zádům
+96	1396	oproti	
+97	1397	případně	
+98	1398	studie	studiemi studii studií studiích studiím
+99	1399	kuchyně	kuchyni kuchyní kuchyních kuchyněmi kuchyň kuchyňka kuchyňkou kuchyňky
+100	1400	táta	tatík tatíček táto tátou tátova tátovi tátové tátu táty tátův

@@ -1,0 +1,100 @@
+1	5401	vyniknout	vynikal vynikala vynikali vynikaly vynikat vynikl vynikla vynikly vynikne vyniká
+2	5402	novodobý	novodobou novodobá novodobé novodobého novodobém novodobí novodobých novodobým novodobými
+3	5403	cirkus	cirkuse cirkusech cirkusem cirkusu cirkusy cirkusů
+4	5404	poloviční	polovičních polovičního polovičním
+5	5405	preference	preferencemi preferenci preferencí preferencích preferencím
+6	5406	stěhování	stěhováním
+7	5407	blížit	blížil blížila blížili blížilo blížily blíží blížím blížíme blížíte
+8	5408	zklamaný	zklamaná zklamané zklamaní zklamaných zklamaně
+9	5409	verš	verše veršem verši verších veršů
+10	5410	řemeslo	řemesel řemesle řemeslech řemeslem řemeslu řemesly řemeslům
+11	5411	cyklostezka	cyklostezce cyklostezek cyklostezkami cyklostezkou cyklostezku cyklostezky cyklostezkách
+12	5412	konopí	konopný konopím
+13	5413	sigma	sigmou sigmu sigmy sigmě
+14	5414	chirurg	chirurga chirurgem chirurgovi chirurgové chirurgy chirurgů chirurgům
+15	5415	nádech	nádechem nádechu nádechy nádechů
+16	5416	zacházení	zacházením
+17	5417	koaliční	koaličních koaličního koaličním koaličními
+18	5418	výprodej	výprodeje výprodeji výprodejích výprodejů
+19	5419	školský	školskou školská školské školského školském školských školským školskými
+20	5420	es	
+21	5421	vskutku	
+22	5422	odveta	odvetu odvetě
+23	5423	býk	býci býka býkem býkovi býku býky býků býček býčka býčí býčích býčím
+24	5424	okrsek	okrscích okrskem okrsku okrsky okrsků
+25	5425	beránek	beránci beránka beránkem beránkovi beránková beránku beránky beránků
+26	5426	pamětní	pamětních pamětního pamětním
+27	5427	čepel	čepele čepelemi čepeli čepelová čepelí
+28	5428	frakce	frakcemi frakci frakcí frakcích
+29	5429	dutina	dutin dutinami dutinou dutinu dutiny dutinách dutině
+30	5430	trup	trupem trupu trupy trupů
+31	5431	dřevina	dřevin dřevinami dřevinou dřevinu dřeviny dřevinách dřevinám
+32	5432	víko	vík víka víkem víku víček víčka víčkem víčko víčku víčky víčkách
+33	5433	zdravotník	zdravotnice zdravotníci zdravotníka zdravotníkem zdravotníky zdravotníků zdravotníkům
+34	5434	třídní	třídních třídního třídním třídními třídnímu třídně
+35	5435	skleník	sklenících skleníkem skleníkové skleníkového skleníkový skleníkových skleníkovým skleníku skleníky skleníků
+36	5436	humanitární	humanitárních humanitárního humanitárním
+37	5437	zneužívání	zneužíváním
+38	5438	rum	rumem rumu rumy rumů
+39	5439	štíhlý	štíhle štíhlejší štíhlou štíhlá štíhlé štíhlého štíhlí štíhlých štíhlým štíhlými
+40	5440	supermarket	supermarketech supermarketem supermarketu supermarkety supermarketů
+41	5441	pověřený	pověřen pověřena pověřenou pověřená pověřené pověřeného pověřených pověřeným
+42	5442	hektar	hektarech hektaru hektary hektarů
+43	5443	jihozápadní	jihozápadních jihozápadního jihozápadním jihozápadně
+44	5444	trojúhelník	trojúhelníka trojúhelníkem trojúhelníku trojúhelníky trojúhelníků
+45	5445	objasnit	objasnil objasnila objasnili objasní objasníme objasněn objasněna objasněno objasněny objasnění objasněte objasňovat objasňuje
+46	5446	odznak	odznaky odznaků odznáček
+47	5447	slepice	slepic slepicemi slepici slepicí slepicím slepička
+48	5448	lucerna	luceren lucernami lucernou lucernu lucerny lucerně
+49	5449	vězeňský	vězeňskou vězeňská vězeňské vězeňského vězeňském vězeňských vězeňským
+50	5450	odradit	neodradilo odradil odradila odradili odradilo odradily odradí odrazovat odrazuje
+51	5451	nadměrný	nadměrnou nadměrná nadměrné nadměrného nadměrném nadměrnému nadměrných nadměrným nadměrnými
+52	5452	znásilnit	znásilnil znásilnila znásilnili znásilní znásilněn znásilněna znásilněno znásilněny znásilňovat znásilňuje
+53	5453	sluha	slouha sluhou sluhovi sluhové sluhu sluhy sluhů služek služka služkou služku služky
+54	5454	zavedený	zavedenou zavedená zavedené zavedeného zavedeném zavedenému zavedených zavedeným zavedenými
+55	5455	plastický	plastickou plastická plastické plastického plastických plastickým plastickými plastičtí
+56	5456	krajní	krajních krajního krajním krajními krajně
+57	5457	mýdlo	mýdel mýdla mýdlem
+58	5458	poskytování	poskytováním
+59	5459	úleva	úlev úlevami úlevou úlevu úlevy úlevě
+60	5460	etický	etickou eticky etická etické etického etickém etickému etických etickým etickými
+61	5461	rezignace	rezignaci rezignací
+62	5462	bedna	beden bednami bednou bednu bedny bednách bedně
+63	5463	transformace	transformaci transformací
+64	5464	bankovka	bankovce bankovek bankovkami bankovkou bankovku bankovky bankovkách
+65	5465	dinosaurus	dinosaura dinosaurech dinosaurem dinosaury dinosaurů dinosaurům dinosauři
+66	5466	úspěšnost	úspěšnosti úspěšností
+67	5467	šedesát	šedesáti
+68	5468	hruška	hrušce hrušek hruškami hruškou hruškovou hrušková hruškové hruškový hrušku hrušky hruškách
+69	5469	zvířecí	zvířecích zvířecího zvířecím zvířecími
+70	5470	programování	programováním
+71	5471	velitelství	velitelstvím
+72	5472	výčet	výčtem výčtu výčty
+73	5473	kašel	kašle kašlem kašli
+74	5474	koncertní	koncertních koncertního koncertním koncertními
+75	5475	šátek	šáteček šátečky šátkem šátku šátky šátků
+76	5476	prkno	prken prkna prknech prknem prknu prkny prkně prkénka prkénko prkýnko
+77	5477	ráz	rázová rázové rázu rázy rázů
+78	5478	věřitel	věřitele věřitelem věřiteli věřitelé věřitelů věřitelům
+79	5479	úkon	úkonech úkonem úkonu úkony úkonů úkonům
+80	5480	šedesátý	šedesátá šedesáté šedesátého šedesátém šedesátých šedesátým
+81	5481	náznak	náznacích náznakem náznaku náznaky náznaků
+82	5482	konvoj	konvoje konvojem konvoji konvojů
+83	5483	fuk	fuka
+84	5484	newyorský	newyorskou newyorská newyorské newyorského newyorském newyorských newyorským newyorští
+85	5485	letový	letovou letová letové letového letovém letoví letových letovým letovými
+86	5486	šéfredaktor	šéfredaktora šéfredaktorem šéfredaktorka šéfredaktorkou šéfredaktorky šéfredaktorovi šéfredaktorů šéfredaktoři
+87	5487	závěs	závěsech závěsem závěsu závěsy závěsů
+88	5488	nora	nor norou noru nory norách noře
+89	5489	maturitní	maturitních maturitního maturitním
+90	5490	stehno	stehen stehna stehnech stehnem stehnu stehny stehně stehýnka stehýnko
+91	5491	vyhodnotit	vyhodnocen vyhodnocena vyhodnoceno vyhodnoceny vyhodnocovat vyhodnocuje vyhodnotil vyhodnotila vyhodnotili vyhodnotilo vyhodnotí vyhodnotíme
+92	5492	saúdský	saúdskou saúdská saúdské saúdského
+93	5493	šroub	šroubek šroubem šroubové šroubový šroubu šrouby šroubů
+94	5494	týpek	týpci týpka týpkem týpkovi týpky týpků
+95	5495	zajmout	zajal zajala zajali zajaly zajat zajata zajati zajato zajatý zajatých zajme zajmou zajmu
+96	5496	vrata	vrat vratech vraty vratům vrátek vrátka vrátky
+97	5497	octnout	ocitl ocitnout ocitá octl octla octli octne octnou octnul
+98	5498	čapka	čapek čapkou čapku čapky
+99	5499	advokátní	
+100	5500	fit	

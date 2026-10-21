@@ -1,0 +1,100 @@
+1	4501	výběrový	výběrová výběrové výběrovém výběrovým
+2	4502	vana	vanami vanička vano vanou vanu vany vaně
+3	4503	milostný	milostnou milostná milostné milostného milostném milostnému milostných milostným milostnými
+4	4504	souhrn	souhrnem souhrnnou souhrnná souhrnné souhrnného souhrnném souhrnný souhrnných souhrnným souhrnně souhrnu
+5	4505	profesní	profesních profesního profesním profesními profesnímu
+6	4506	exploze	explozemi explozi explozí explozích explozím
+7	4507	pozdrav	pozdravem pozdravu pozdravy pozdravů
+8	4508	aukce	aukci aukcí aukcích aukční aukčních aukčního aukčním
+9	4509	vlivný	nejvlivnější nejvlivnějších nejvlivnějšího nejvlivnějším vlivnou vlivná vlivné vlivného vlivní vlivných vlivným vlivnými
+10	4510	ohlas	ohlasech ohlasem ohlasu ohlasy ohlasů ohlasům
+11	4511	palba	palbou palbu palby palbě
+12	4512	pohodlí	pohodlím
+13	4513	rozmezí	
+14	4514	kancléř	kancléřce kancléře kancléřem kancléři kancléřka kancléřkou kancléřku kancléřky
+15	4515	končetina	končetin končetinami končetinou končetinu končetiny končetinách končetinám končetině
+16	4516	černobílý	černobíle černobílou černobílá černobílé černobílého černobílém černobílých černobílým černobílými
+17	4517	police	polic policemi polici policí policích polička
+18	4518	čip	čipech čipem čipu čipy čipů
+19	4519	vysokoškolský	vysokoškolskou vysokoškolsky vysokoškolská vysokoškolské vysokoškolského vysokoškolském vysokoškolskému vysokoškolských vysokoškolským vysokoškolskými vysokoškolští
+20	4520	roztok	roztocích roztokem roztoku roztoky roztoků
+21	4521	zadržený	zadržen zadrženi zadrženo zadržená zadržené zadrženého zadržení zadržením zadržených zadrženým zadrženými
+22	4522	odporný	nejodpornější odpornou odporná odporné odporného odporní odporných odporným odpornými odporně odpornější
+23	4523	poznamenat	poznamenal poznamenala poznamenaly poznamenejme poznamená poznamenává
+24	4524	pokrýt	nepokryje pokryje pokryjí pokryla pokryly pokryt pokrývat pokrývá
+25	4525	zasílat	zaslal zaslala zaslali zaslalo zaslat zasílají zasílal zasílali zasílejte zasílá zasílám zasílány zasílání zašle
+26	4526	prohlížeč	prohlížeče prohlížečem prohlížeči prohlížečích prohlížečů
+27	4527	mez	meze mezí mezích
+28	4528	spokojenost	spokojenosti spokojeností
+29	4529	osvobození	osvobozením
+30	4530	hřeben	hřebene hřebenech hřebenem hřebeni hřebenu hřebeny hřebenů hřebínek hřebínku hřebínky
+31	4531	hotelový	hotelovou hotelová hotelové hotelového hotelovém hoteloví hotelových hotelovým hotelovými
+32	4532	budit	budil budila budili budilo budily budí budící budím budíte budě buzení buďme buďte nebudil nebuďme
+33	4533	tekutina	tekutin tekutinami tekutinou tekutinu tekutiny tekutinách tekutině
+34	4534	posrat	poser posera posere poserete poseru posral posrala posrali posralo
+35	4535	zdobit	zdoben zdobena zdobeno zdobeny zdobení zdobil zdobila zdobili zdobilo zdobily zdobí zdobící zdobíme
+36	4536	pojistka	pojistce pojistek pojistkami pojistkou pojistku pojistky
+37	4537	zveřejnění	zveřejněním
+38	4538	spojka	spojce spojek spojkami spojkou spojku spojky
+39	4539	nabýt	nabude nabudou nabyde nabyl nabyla nabyli nabylo nabyly nabývat nabývá
+40	4540	vynechat	nevynechal vynechal vynechala vynechám vynechávat vynechává
+41	4541	posudek	posudcích posudkem posudku posudky posudků
+42	4542	brutální	brutálních brutálního brutálním brutálními brutálnímu brutálnější nejbrutálnější nejbrutálnějších
+43	4543	náruč	náruče náruči náručí
+44	4544	klinický	klinickou klinická klinické klinického klinickém klinických klinickým klinickými
+45	4545	nevěsta	nevěst nevěstin nevěsto nevěstou nevěstu nevěsty nevěstě
+46	4546	využívání	využíváním
+47	4547	konkurenční	konkurenčních konkurenčního konkurenčním konkurenčními konkurenčnímu konkurenčně
+48	4548	sourozenec	sourozence sourozencem sourozenci sourozencích sourozenců sourozencům
+49	4549	brouk	brouci brouka broukem brouku brouky brouků broukům broučci brouček broučka broučku broučky broučků
+50	4550	finský	finskou finská finské finského finském finskému finských finským finskými finští
+51	4551	úsvit	úsvitem úsvitu
+52	4552	skříňka	skříněk skříňce skříňkami skříňkou skříňku skříňky skříňkách
+53	4553	mouka	mouce moukou mouku mouky moučka
+54	4554	mrtvola	mrtvol mrtvolami mrtvole mrtvolou mrtvolu mrtvoly mrtvolách mrtvolám
+55	4555	objektivní	objektivních objektivního objektivním objektivními objektivnímu objektivně objektivnější
+56	4556	křivka	křivce křivek křivkami křivkou křivku křivky křivkách křivkám
+57	4557	komín	komína komínech komínem komínová komínové komínu komíny komíně komínů
+58	4558	podobat	nepodobá podobají podobající podobal podobala podobali podobalo podobaly podobá podobám
+59	4559	rýže	rýži rýží
+60	4560	trojka	trojce trojek trojkou trojkové trojku trojky
+61	4561	vyhledávat	nejvyhledávanějším vyhledávají vyhledával vyhledávala vyhledávali vyhledávaly vyhledávaný vyhledává vyhledávám vyhledáváme vyhledáván vyhledávána vyhledáváno vyhledávány vyhledáváte
+62	4562	vyznat	vyznají vyznal vyznala vyznali vyzná vyznám vyznáme vyznáte vyznávají vyznávající vyznával vyznávala vyznávali vyznávat vyznává vyznávám vyznáváme vyznávání vyznáš
+63	4563	vázat	važ važme važte vázal vázala vázaly vázán vázána vázáni vázáno vázány váže vážou vážící
+64	4564	valný	valnou valná valné valného valném valných valným valně
+65	4565	směšný	směšnou směšná směšné směšného směšní směšných směšným směšnými směšně
+66	4566	prospěšný	prospěšnou prospěšná prospěšné prospěšného prospěšní prospěšných prospěšným prospěšnými prospěšnější
+67	4567	uprchnout	prchají prchat prchá uprchl uprchla uprchli uprchne uprchnou
+68	4568	porost	poroste porostech porostem porostu porosty porostů
+69	4569	úspory	úspor úsporami úsporách úsporám
+70	4570	puška	pušce pušek puškami puškou pušku pušky puškách
+71	4571	finálový	finálovou finálová finálové finálového finálovém finálovému finálových finálovým
+72	4572	debil	debila debile debilové debily debilů
+73	4573	střídavý	střídavou střídavá střídavé střídavého střídavých střídavým střídavými střídavě
+74	4574	marketing	marketingem marketingu
+75	4575	pomůcka	pomůcek pomůckami pomůckou pomůcku pomůcky pomůckách
+76	4576	hradní	hradních hradního hradním hradními hradnímu
+77	4577	nudit	nenudil nudil nudila nudili nudilo nudily nudí nudím nudíte nudě
+78	4578	nájezd	nájezdu nájezdy nájezdů
+79	4579	zrychlit	zrychlenou zrychlená zrychlené zrychleného zrychleném zrychlený zrychleným zrychlil zrychlila zrychlili zrychlilo zrychlily zrychlovat zrychluje zrychlí
+80	4580	veterán	veterána veteránech veteránem veteráni veteránovi veteránu veterány veteránů veteránům
+81	4581	přestavba	přestavbami přestavbou přestavbu přestavby přestavbách přestavbám přestavbě přestaveb
+82	4582	loutka	loutek loutkami loutkou loutkovou loutková loutkové loutkového loutkovém loutkový loutkových loutkovým loutku loutky
+83	4583	morálka	morálce morálkou morálku morálky
+84	4584	neúspěch	neúspěchem neúspěchu neúspěchy neúspěchů neúspěchům neúspěších
+85	4585	poezie	poezii poezií
+86	4586	stáj	stáje stájemi stáji stájí stájích
+87	4587	takovýhle	takovouhle takováhle takovéhle takovémhle takovýmhle
+88	4588	lednice	lednic lednici lednicí
+89	4589	odjezd	odjezdem odjezdu odjezdy odjezdů
+90	4590	brada	brad bradkou bradku bradou bradu brady bradě
+91	4591	mikrofon	mikrofonem mikrofonu mikrofony mikrofonů
+92	4592	kolektiv	kolektivech kolektivu kolektivy kolektivů
+93	4593	deka	dece dek dekami deko dekou deku deky dečka dečky
+94	4594	předstírat	předstírají předstíral předstírala předstírali předstírá předstírání předstíráním
+95	4595	dvacátý	dvacátou dvacátá dvacáté dvacátého dvacátém dvacátému dvacátých dvacátým
+96	4596	nynější	nynějších nynějšího nynějším nynějšímu
+97	4597	intenzita	intenzit intenzitou intenzitu intenzity intenzitě
+98	4598	ilustrace	ilustracemi ilustraci ilustrací ilustracích ilustracím
+99	4599	elita	elit elitami elitou elitu elity elitám elitě
+100	4600	svést	nesvede sveden svedl svádí svádím svádějí sváděl sváděla sváděli sváděly svádění svádět

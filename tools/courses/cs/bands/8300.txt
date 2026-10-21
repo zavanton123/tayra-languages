@@ -1,0 +1,100 @@
+1	8201	roztočit	roztoč roztoče roztočení roztoči roztočil roztočila roztočili roztočte roztočí roztočíme roztočů roztáčet
+2	8202	akademik	akademici akademika akademiky akademiků
+3	8203	migrační	migračních migračního
+4	8204	hamburger	hamburgeru hamburgery hamburgerů
+5	8205	klenot	klenotech klenotem klenotu klenotů klenotům
+6	8206	šlechtický	šlechtickou šlechtická šlechtické šlechtického šlechtických šlechtickým šlechtickými
+7	8207	dědek	dědci dědka dědkem dědkovi dědkové dědku dědky
+8	8208	anton	antona
+9	8209	cvičný	cvičnou cvičná cvičné cvičného cvičném cvičných cvičným cvičně
+10	8210	výkyv	výkyvy výkyvů výkyvům
+11	8211	nedílný	nedílnou nedílná nedílné
+12	8212	ozdobný	ozdobnou ozdobná ozdobné ozdobného ozdobných ozdobným ozdobnými ozdobně
+13	8213	bezdůvodný	bezdůvodná bezdůvodné bezdůvodného bezdůvodně
+14	8214	seřadit	seřadil seřadila seřadili seřadí seřadíme seřazena seřazeni seřazeno seřazeny seřazení seřazený seřaďte
+15	8215	lahůdka	lahůdek lahůdkami lahůdkou lahůdku lahůdky
+16	8216	tepláky	teplácích teplákové teplákách tepláků
+17	8217	palice	palic palicemi palici palicí palička
+18	8218	sled	sledem sledu
+19	8219	explodovat	explodoval explodovala explodovalo explodovaly exploduje explodují explodující
+20	8220	zhlédnout	zhlédl zhlédla zhlédli zhlédlo zhlédly zhlédne zhlédnou
+21	8221	prodělat	prodělal prodělali prodělávají
+22	8222	adresář	adresáře adresáři adresářů
+23	8223	hydraulický	hydraulickou hydraulická hydraulické hydraulického hydraulických hydraulickým hydraulickými
+24	8224	amnestie	amnestii amnestií
+25	8225	nauka	nauce nauk naukou nauku nauky
+26	8226	ion	ionty iontů
+27	8227	otok	otokem otoku otoky otoků otokům
+28	8228	soumrak	soumrakem soumraku
+29	8229	cílit	cil cíle cílen cílena cílení cílil cílila cílí
+30	8230	zletilý	nezletilé nezletilého zletilé
+31	8231	ctnost	ctnostech ctnosti ctnostmi ctností nectnosti
+32	8232	plodnost	plodnosti plodností
+33	8233	nepotřebný	nepotřebnou nepotřebná nepotřebné nepotřebného nepotřebných nepotřebným nepotřebnými
+34	8234	žurnalistika	žurnalistice žurnalistikou žurnalistiku žurnalistiky
+35	8235	neshoda	neshod neshody
+36	8236	neúplný	neúplnou neúplná neúplné neúplného neúplných neúplným neúplně
+37	8237	tibetský	tibetskou tibetská tibetské tibetského tibetském tibetských tibetským tibetští
+38	8238	krušných	
+39	8239	potažmo	
+40	8240	protisměr	protisměru
+41	8241	přednostně	
+42	8242	řemesla	
+43	8243	klání	kláních kláním
+44	8244	šampaňské	šampaňského šampaňském šampaňským
+45	8245	kužel	kužele kuželem kuželu kužely kuželů
+46	8246	mandle	mandlemi mandlí mandlích
+47	8247	nevěra	nevěrou nevěru nevěry nevěře
+48	8248	frajer	frajera frajerka frajery frajeři
+49	8249	kazatel	kazatele kazatelem kazateli kazatelé kazatelů
+50	8250	rozmyslet	rozmyslela
+51	8251	dospívání	dospíváním
+52	8252	náchylný	náchylná náchylné náchylní náchylných náchylnější
+53	8253	vlastenec	vlastence vlastencem vlastenci vlastenců vlastencům vlastenka
+54	8254	spona	spon sponami sponek sponka sponkou sponku sponky sponou sponu spony
+55	8255	opilec	opilce opilcem opilci opilců
+56	8256	mašina	mašin mašinka mašinou mašinu mašiny mašině
+57	8257	karavan	karavanech karavanem karavanu karavany karavanů
+58	8258	kapsle	kapsli kapslí kapslích
+59	8259	vyšplhat	vyšplhal vyšplhala
+60	8260	navýšit	navýšila
+61	8261	intuice	intuici intuicí
+62	8262	lhostejný	lhostejno lhostejná lhostejné lhostejní lhostejným lhostejně
+63	8263	kosmonaut	kosmonauta kosmonautem kosmonauti kosmonauty kosmonautů
+64	8264	soupis	soupisem soupisu soupisy soupisů
+65	8265	improvizovat	improvizoval improvizovali improvizovanou improvizovaná improvizované improvizovaného improvizovaném improvizovaný improvizovaných improvizovaným improvizovaně improvizuje
+66	8266	momentální	momentálních momentálního momentálním
+67	8267	sodný	sodná sodné sodného sodným
+68	8268	předčit	předčil předčila předčili předčilo předčily předčí
+69	8269	nepřístupný	nepřístupnou nepřístupná nepřístupné nepřístupného nepřístupném nepřístupných
+70	8270	příslib	příslibem příslibu
+71	8271	veličina	veličin veličinami veličinou veličinu veličiny
+72	8272	oválný	oválnou oválná oválné oválného oválných oválným oválnými
+73	8273	trávicí	trávicích trávicího trávicím
+74	8274	nesporný	nespornou nesporná nesporné nesporných nesporným nesporně
+75	8275	nespokojený	nespokojená nespokojené nespokojeného nespokojení nespokojených nespokojeným nespokojenými nespokojeně
+76	8276	lux	luxe luxů
+77	8277	usedlost	usedlosti usedlostí
+78	8278	škrábanec	škrábance škrábanci škrábanců škrábancům
+79	8279	diesel	dieselem dieselu diesely dieselů
+80	8280	malo	mala
+81	8281	sebevědomý	sebevědomou sebevědomá sebevědomé sebevědomého sebevědomým sebevědomě sebevědomější
+82	8282	otěhotnět	otěhotní otěhotněla
+83	8283	hitparáda	hitparád hitparádu hitparády hitparádách hitparádě
+84	8284	kladenský	kladenskou kladenská kladenské kladenského kladenském kladenských kladenským kladenští
+85	8285	kelímek	kelímcích kelímkem kelímku kelímky kelímků
+86	8286	panorama	panoramat panoramata panoramatem panoramatu
+87	8287	devatenáctý	devatenáctou devatenáctá devatenácté devatenáctého devatenáctém devatenáctým
+88	8288	příležitostný	příležitostnou příležitostná příležitostné příležitostného příležitostní příležitostných příležitostným příležitostnými
+89	8289	obdivuhodný	obdivuhodnou obdivuhodná obdivuhodné obdivuhodného obdivuhodných obdivuhodným obdivuhodně
+90	8290	nevolnost	nevolnosti nevolností
+91	8291	aminokyselina	aminokyselin aminokyselinami aminokyselinu aminokyseliny
+92	8292	lišta	lišt lištami lištou lištu lišty lištách liště
+93	8293	hledí	hledím
+94	8294	mára	mar máry
+95	8295	uchýlit	uchylovat uchýlil uchýlila uchýlili uchýlilo uchýlily uchýlí
+96	8296	křivý	křivou křivá křivé křivého křiví křivých křivým křivě
+97	8297	kraťasy	kraťasech kraťasů
+98	8298	oliva	oliv olivami olivou olivu olivy
+99	8299	excelentní	excelentních excelentního excelentním excelentně
+100	8300	krmivo	krmiv krmiva krmivem krmivu

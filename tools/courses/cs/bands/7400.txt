@@ -1,0 +1,100 @@
+1	7301	prvotřídní	prvotřídních prvotřídního prvotřídním
+2	7302	cukrovka	cukrovce cukrovkou cukrovku cukrovky
+3	7303	vysavač	vysavače vysavačem vysavači vysavačů
+4	7304	zmlátit	zmlácen zmlácení zmlácený zmlátil zmlátila zmlátili zmlátí
+5	7305	clo	cel cla clech clem clu cly
+6	7306	sejmout	sejme sejmeme sejmi sejmou sejmu sejmul sejmuli sejmut sejmuta sejmutí sejměte sňal
+7	7307	řečník	řečnickou řečnická řečnické řečnického řečnický řečnických řečnickým řečníci řečníka řečníkem řečníky řečníků
+8	7308	ohřát	hřeje hřejí hřál hřála hřálo hřát ohřeje ohřejeme ohřejte ohřejí ohřál ohřála
+9	7309	přísada	přísad přísadami přísadou přísadu přísady
+10	7310	bloudit	bloudil bloudila bloudili bloudí bloudící bloudím bloudíme zabloudil zabloudila zabloudili zabloudit zabloudí
+11	7311	vrána	vran vraní vránou vránová vránu vrány vráně
+12	7312	sirotek	sirotci sirotka sirotkem sirotky sirotků sirotkům
+13	7313	interpretovat	interpretoval interpretovala interpretovali interpretován interpretována interpretováno interpretovány interpretuje interpretují
+14	7314	pěchota	pěchotou pěchotu pěchoty pěchotě
+15	7315	alarm	alarmem alarmu alarmy alarmů
+16	7316	ustavit	ustaven ustavena ustaveno ustaveny ustavená ustavené ustavení ustavením ustavený ustavil ustavila ustavili ustaví
+17	7317	totalitní	totalitních totalitního totalitním totalitními totalitnímu
+18	7318	neříct	neřeklo neřekneme neřeknete neřekneš neřeknou
+19	7319	vtrhnout	vtrhl vtrhla vtrhli vtrhlo vtrhly vtrhne vtrhnou vtrhnul
+20	7320	zvýhodnit	zvýhodněn zvýhodněni zvýhodněné zvýhodnění zvýhodněný zvýhodňovat zvýhodňuje
+21	7321	buněčný	buněčnou buněčná buněčné buněčného buněčném buněčných
+22	7322	služebník	služebnice služebníci služebníka služebníkem služebníku služebníky služebníků služebníkům
+23	7323	nasměrovat	nasměroval nasměrovala nasměrovali nasměrovalo nasměrovaly nasměrován nasměrována nasměrování nasměruje nasměrujeme nasměrujte nasměrují směrovat směrovány směruje
+24	7324	chovanec	chovance chovancem chovanci chovanců
+25	7325	sezónní	sezónních sezónního sezónním sezónními
+26	7326	kvantový	kvantovou kvantová kvantové kvantového kvantovém kvantových kvantovým
+27	7327	pověřit	pověřeni pověřil pověřila pověří
+28	7328	intelektuál	intelektuála intelektuálem intelektuálové intelektuály intelektuálů intelektuálům
+29	7329	pomluva	pomluv pomluvami pomluvu pomluvy pomluvám pomluvě
+30	7330	komodita	komodit komoditami komoditou komoditu komodity komoditách
+31	7331	oponent	oponenta oponentem oponenti oponentovi oponenty oponentů oponentům
+32	7332	krmení	krmením
+33	7333	kameraman	kameramana kameramanem kameramani kameramanka kameramanovi kameramany kameramanů
+34	7334	aktivace	aktivaci
+35	7335	svrhnout	svrhl svrhla svrhli svrhlo svrhly svrhne svrhnou svržen svržena svrženi svrženého svržený
+36	7336	kozí	kozích kozího kozím
+37	7337	plýtvat	plýtvají plýtvá plýtváme plýtvání
+38	7338	inovativní	inovativních inovativního inovativním inovativními
+39	7339	archivní	archivních archivního archivním archivními
+40	7340	flaška	flašce flašek flaškou flašku flašky
+41	7341	prarodič	prarodiče prarodiči prarodičích prarodičů prarodičům
+42	7342	kotouč	kotouče kotouček kotoučem kotouči kotoučů
+43	7343	precizní	precizního precizním precizně preciznější
+44	7344	dějství	dějstvích dějstvím
+45	7345	atlas	atlase atlasem atlasu atlasy atlasů
+46	7346	exemplář	exempláře exemplářem exempláři exemplářích exemplářů
+47	7347	alkoholik	alkoholici alkoholika alkoholikem alkoholiky alkoholiků alkoholikům alkoholička
+48	7348	únosce	únoscem únosci únosců únoscům
+49	7349	ústředí	ústředím
+50	7350	nábor	náborem náboru nábory náborů
+51	7351	diktatura	diktatur diktaturou diktaturu diktatury diktatuře
+52	7352	jihovýchod	jihovýchodu jihovýchodě
+53	7353	šikmý	šikmo šikmou šikmá šikmé šikmého šikmém šikmých šikmým šikmými
+54	7354	mučit	mučen mučena mučeni mučeny mučil mučila mučili mučí mučící
+55	7355	oblíbit	oblíbeny oblíbil oblíbila oblíbili
+56	7356	razítko	razítek razítka razítkem razítku razítky
+57	7357	loajální	loajálních loajálního loajálním loajálními loajálně
+58	7358	sympatie	sympatiemi sympatii sympatií sympatiích sympatiím
+59	7359	dosadit	dosadil dosadila dosadili dosadí dosadíme dosazen dosazena dosazeni dosazení dosazený dosazovat dosaďte
+60	7360	severovýchod	severovýchodu severovýchodě
+61	7361	křížový	křížovou křížová křížové křížového křížovém křížovému křížových křížovým křížovými křížově
+62	7362	kalendářní	kalendářních kalendářního kalendářním kalendářnímu
+63	7363	třešně	třešni třešnička třešničkou třešničku třešničky třešní třešních třešněmi
+64	7364	ingredience	ingrediencemi ingredienci ingrediencí
+65	7365	zamknout	zamkl zamkla zamkli zamkne zamknou zamknul zamkněte zamykají zamykal zamykat zamyká zamykám zamykání zamčeno
+66	7366	buchta	buchet buchtou buchtu buchty
+67	7367	systematický	systematickou systematická systematické systematického systematickém systematickému systematických systematickým
+68	7368	zlomenina	zlomenin zlomeninami zlomeninou zlomeninu zlomeniny zlomeninám zlomenině
+69	7369	homo	
+70	7370	naživo	
+71	7371	poskytnutí	
+72	7372	potichu	
+73	7373	omítka	omítce omítek omítkami omítkou omítku omítky
+74	7374	tele	telat telata telecí telecího telecím telete telátka telátko
+75	7375	úspora	úsporu úspoře
+76	7376	bazar	bazarech
+77	7377	arcibiskup	arcibiskupa arcibiskupem arcibiskupovi arcibiskupů
+78	7378	chlapík	chlapíci chlapíka chlapíkem chlapíkovi chlapíky chlapíků
+79	7379	vnitřek	vnitřkem vnitřku vnitřky
+80	7380	nápověda	nápověd nápovědou nápovědu nápovědy nápovědě
+81	7381	nepravidelný	nepravidelnou nepravidelná nepravidelné nepravidelného nepravidelném nepravidelnému nepravidelných nepravidelným nepravidelnými
+82	7382	bankomat	bankomatech bankomatu bankomaty bankomatů
+83	7383	pitva	pitev pitvou pitvu pitvy pitvě
+84	7384	naskočit	naskakovat naskakuje naskoč naskočil naskočila naskočili naskočilo naskočily naskočí
+85	7385	zaregistrovat	zaregistroval zaregistrovali zaregistrovalo zaregistrovány
+86	7386	okouzlující	okouzlujících okouzlujícího okouzlujícím
+87	7387	sociolog	sociologa sociologem sociologové sociology sociologů socioložka
+88	7388	kroutit	kroucená kroucené kroucení kroutil kroutila kroutili kroutí kroutící kroutím
+89	7389	vyčerpání	vyčerpáním
+90	7390	pláň	pláni plání pláních pláně pláněmi
+91	7391	nastolit	nastolen nastolena nastolení nastolený nastolil nastolila nastolili nastolí
+92	7392	protektorát	protektorátem protektorátu
+93	7393	maršál	maršála maršálem maršálovi maršálové maršálu maršály maršálů
+94	7394	membrána	membrán membránami membránou membránu membrány membránách membráně
+95	7395	výživné	výživná výživného výživném výživných výživným
+96	7396	předstih	předstihem předstihu
+97	7397	admirál	admirála admirálem admirálovi admirálové admirálu
+98	7398	stěžejní	stěžejních stěžejního stěžejním stěžejními
+99	7399	zakládání	zakládáním
+100	7400	koeficient	koeficientem koeficientu koeficienty koeficientů

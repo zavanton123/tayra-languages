@@ -1,0 +1,100 @@
+1	4101	nádoba	nádob nádobami nádobce nádobka nádobku nádobky nádobou nádobu nádoby nádobách nádobě
+2	4102	čert	čerta čerte čertech čertem čerti čertice čertovi čertu čerty čertík čertů čertům čertův
+3	4103	doména	domén doménami doménou doménu domény doménách doméně
+4	4104	jídelna	jídelen jídelnou jídelnu jídelny jídelnách jídelně
+5	4105	nedávný	nedávnou nedávná nedávné nedávného nedávném nedávnému nedávných nedávným nedávnými
+6	4106	prodejný	prodejnou prodejná prodejné prodejní prodejních prodejním prodejných
+7	4107	dvoje	dvojí dvojích dvojího dvojím dvojímu
+8	4108	vyslat	vyslal vyslala vyslaly vyslán vyslány vyšle
+9	4109	detailní	detailních detailního detailním detailními detailnímu detailně detailněji detailnější
+10	4110	polštář	polštáře polštářek polštářem polštáři polštářkem polštářku polštářky polštářků polštářích polštářů
+11	4111	moucha	mouchami mouchou mouchu mouchy mouchám mouše much mušce mušek muška muškou mušku mušky
+12	4112	fasáda	fasád fasádami fasádou fasádu fasády fasádách fasádě
+13	4113	brazilský	brazilskou brazilská brazilské brazilského brazilském brazilskému brazilských brazilským brazilskými brazilští
+14	4114	přízemí	přízemím
+15	4115	podvozek	podvozcích podvozkem podvozku podvozky podvozků
+16	4116	holub	holoubek holuba holubem holubi holubic holubice holubici holubička holubovi holubová holubové holuby holubí holubů holubům
+17	4117	status	statusem statusu statusy statusů
+18	4118	integrovaný	integrovanou integrovaná integrované integrovaného integrovaném integrovaných integrovaným integrovanými
+19	4119	redaktor	redaktora redaktorem redaktorovi redaktory redaktorů redaktorům redaktoři
+20	4120	nesmyslný	nesmyslnou nesmyslná nesmyslné nesmyslného nesmyslném nesmyslnému nesmyslných nesmyslným nesmyslnými nesmyslně
+21	4121	životopis	životopise životopisech životopisem životopisu životopisy životopisů
+22	4122	srážky	srážek srážkami srážkách srážkám
+23	4123	galaxie	galaxiemi galaxii galaxií galaxiích
+24	4124	učebnice	učebnic učebnicemi učebnici učebnicí učebnicích
+25	4125	honit	honil honila honili honilo honily honí honící honím honíme honíš honění
+26	4126	pára	par parami parou párech párou párová párové páru páry párů párům páře
+27	4127	osada	osad osadami osadou osadu osady osadách osadě
+28	4128	pozdní	pozdních pozdního pozdním pozdnímu
+29	4129	kouč	kouče koučem kouči koučka koučové koučů
+30	4130	reprezentovat	reprezentoval reprezentovali reprezentovalo reprezentovaly reprezentován reprezentovány reprezentuje reprezentují
+31	4131	profesionál	profesionála profesionálech profesionálem profesionálka profesionálovi profesionálové profesionály profesionálů profesionálům
+32	4132	statek	statcích statkem statku statky statků statkům
+33	4133	odstín	odstínech odstínem odstínu odstíny odstínů
+34	4134	řvát	zařval zařvala zařvat zařve zařvu řval řvala řvali řvalo řvaní řve řvou řvoucí řvu
+35	4135	pokročilý	nejpokročilejší pokročilejší pokročilejších pokročilejšího pokročilejším pokročilou pokročilá pokročilé pokročilého pokročilém pokročilému pokročilí pokročilých pokročilým pokročilými
+36	4136	gesto	gest gesta gestech gestem gestu gesty gestům
+37	4137	evidence	evidenci evidencí evidencích
+38	4138	obliba	oblibou oblibu obliby oblibě
+39	4139	tisknout	otiskl otiskli otiskly otisknout tiskl tiskla tiskli tisklo tiskly tiskne tiskneme tisknou tisknu tisknutí tištěnou tištěny tištěná tištěné tištěného tištěném tištění tištěný tištěných tištěným tištěnými
+40	4140	vášeň	vášni vášní vášním vášně vášněmi
+41	4141	krýt	kryje kryjí kryjící kryl kryla kryli krylo kryly kryta kryti kryto kryty
+42	4142	primární	primárních primárního primárním primárními primárnímu
+43	4143	ojedinělý	ojediněle ojedinělou ojedinělá ojedinělé ojedinělého ojedinělém ojedinělých ojedinělým ojedinělými
+44	4144	námořní	námořních námořního námořním námořními
+45	4145	těhotenství	těhotenstvím
+46	4146	legislativa	legislativou legislativu legislativy legislativě
+47	4147	vdát	vdala vdaly vdanou vdaná vdané vdaných vdá vdávají vdávala vdávat vdává vdávání
+48	4148	green	greene greenem greenu greeny
+49	4149	připustit	nepřipustil připouští připouštět připustil připustila připustili připustí připustím připustíme připusťme připuštěn připuštěna připuštěni připuštění
+50	4150	nádor	nádorech nádorem nádoru nádory nádorů nádorům
+51	4151	cože	
+52	4152	fyzicky	
+53	4153	ks	
+54	4154	očividně	
+55	4155	faktura	faktur fakturami fakturou fakturu faktury fakturách faktuře
+56	4156	protivník	protivníci protivníka protivníkem protivníkovi protivníky protivníků protivníkům
+57	4157	hluk	hlukem hluku hluky
+58	4158	zahradní	zahradních zahradního zahradním zahradními
+59	4159	opatrný	opatrnou opatrná opatrné opatrného opatrném opatrní opatrným opatrnější
+60	4160	skotský	skotskou skotská skotské skotského skotském skotskému skotských skotským skotskými skotští
+61	4161	záložník	záložníci záložníka záložníkem záložníky záložníků
+62	4162	zpravodajství	zpravodajstvím
+63	4163	pasivní	pasivních pasivního pasivním pasivními pasivnímu pasivně
+64	4164	nervózní	nervózního nervózním nervózně nervóznější
+65	4165	mrak	mracích mrakem mraku mraky mraků mráček
+66	4166	brzda	brzd brzdami brzdou brzdu brzdy brzdách brzdám brzdě
+67	4167	popularita	popularitou popularitu popularity popularitě
+68	4168	magistrát	magistrátem magistrátu magistráty magistrátů
+69	4169	vyhnat	vyhnal vyhnala vyhnali vyhnalo vyhnaly vyhnán vyhnána vyhnáni vyhnáno vyhnány vyhnání vyhání vyhánět vyžene vyženeme vyženou vyžeň vyžeňte
+70	4170	tygr	tygra tygrem tygrovi tygry tygrů tygrům tygři tygřík
+71	4171	pódium	pódia pódiem pódiu pódií pódiích
+72	4172	výživa	výživou výživu výživy výživě
+73	4173	proměna	proměn proměnami proměnou proměnu proměny proměnách proměnám proměně
+74	4174	schodiště	schodišti schodištích schodištěm schodišť
+75	4175	neustálý	neustálou neustálá neustálé neustálého neustálém neustálému neustálých neustálým neustálými
+76	4176	náležet	nenáleží náležejí náležející náležel náležela náleželo náležely náleží náležící
+77	4177	hoch	hocha hochem hochu hochy hochů hochům hošek hoši hošík
+78	4178	vypovídat	vypovídají vypovídající vypovídal vypovídala vypovídali vypovídalo vypovídaly vypovídá
+79	4179	iluze	iluzemi iluzi iluzí iluzích iluzím
+80	4180	sklon	sklonech sklonem sklonu sklony sklonů sklonům
+81	4181	svědectví	svědectvím svědectvími
+82	4182	psychologie	psychologii psychologií
+83	4183	odpovědný	odpovědnou odpovědná odpovědné odpovědného odpovědnému odpovědní odpovědných odpovědným odpovědnými
+84	4184	jednota	jednot jednotou jednotu jednoty jednotě
+85	4185	cibule	cibuli cibulka cibulový cibulí
+86	4186	doprovodit	doprovodil doprovodila doprovodili doprovodilo doprovodily doprovodí doprovodím doprovázet doprovází
+87	4187	interní	interních interního interním interními interně
+88	4188	propaganda	propagandou propagandu propagandy propagandě
+89	4189	zamilovaný	zamilovanou zamilovaná zamilované zamilovaného zamilovaní zamilovaných zamilovaným
+90	4190	vyprávění	vyprávěním
+91	4191	promítat	promítají promítal promítala promítali promítalo promítaly promítaný promítl promítla promítli promítlo promítly promítne promítneme promítnou promítnout promítnut promítnuty promítnutí promítá promítáme promítán promítány
+92	4192	porovnat	porovnají porovnal porovnala porovnali porovnej porovnejte porovná porovnám porovnáme porovnány porovnáte porovnávat porovnává
+93	4193	dovézt	doveze dovezeme dovezen dovezena dovezeni dovezeno dovezeny dovezl dovezla dovezli dovezlo dovezly dovezou dovezu dovážejí dovážel dovážela dováželi dováželo dovážely dováženy dovážené dovážení dovážený dovážet dováží dovážíme
+94	4194	rozhlasový	rozhlasovou rozhlasová rozhlasové rozhlasového rozhlasovém rozhlasovému rozhlasoví rozhlasových rozhlasovým rozhlasovými
+95	4195	volant	volante volantem volantu volanty
+96	4196	pomník	pomníkem pomníku pomníky pomníků pomníček
+97	4197	skvrna	skvrn skvrnami skvrnka skvrnou skvrnu skvrny skvrnách skvrnám skvrně
+98	4198	měřítko	měřítek měřítka měřítkem měřítku měřítky měřítkách
+99	4199	málokdo	málokomu
+100	4200	asijský	asijskou asijská asijské asijského asijském asijských asijským asijskými asijští

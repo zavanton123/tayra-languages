@@ -1,0 +1,100 @@
+1	901	uzavřít	uzavírat uzavírá uzavře uzavřel uzavřela uzavřeli uzavřelo uzavřely uzavřeme uzavřen uzavřena uzavřeni uzavřeno uzavřeny uzavření uzavřením uzavřete uzavřou uzavřu
+2	902	série	sériemi sérii sérií sériích sériím
+3	903	zákazník	zákaznic zákaznice zákaznici zákaznicí zákaznicím zákazníci zákaznících zákazníka zákazníkem zákazníkovi zákazníku zákazníky zákazníků zákazníkům
+4	904	aktivní	aktivních aktivního aktivním aktivními aktivnímu aktivně aktivněji aktivnější aktivnějším nejaktivnější nejaktivnějších nejaktivnějším
+5	905	záležet	nezáleželo nezáleží záleželo záleží
+6	906	strach	stracha strachem strachová strachu strachy strachů
+7	907	kultura	kultur kulturami kulturou kulturu kultury kulturách kulturám kultuře
+8	908	úžasný	nejúžasnější nejúžasnějších nejúžasnějšího úžasnou úžasná úžasné úžasného úžasném úžasnému úžasní úžasných úžasným úžasnými úžasně úžasnější
+9	909	teplota	teplot teplotami teplotou teplotu teploty teplotách teplotám teplotě
+10	910	letní	letních letního letním letními letnímu
+11	911	zahraniční	zahraničních zahraničního zahraničním zahraničními zahraničnímu zahraničně
+12	912	komunikace	komunikacemi komunikaci komunikací komunikacích komunikacím komunikační komunikačních komunikačního komunikačním komunikačními komunikačně
+13	913	rozšířit	nejrozšířenější nejrozšířenějších nejrozšířenějším rozšiřoval rozšiřovala rozšiřovali rozšiřovalo rozšiřovaly rozšiřovat rozšiřován rozšiřování rozšiřováním rozšiřte rozšiřuje rozšiřujeme rozšiřují rozšiřující rozšířen rozšířena rozšířeno rozšířenou rozšířeny rozšířená rozšířené rozšířeného rozšířeném rozšířenému rozšířený rozšířených rozšířeným rozšířenými rozšířenější rozšířil rozšířila rozšířili rozšířilo rozšířily rozšíří rozšíříme
+14	914	omezit	neomezuje omezen omezena omezeni omezeno omezenou omezeny omezená omezené omezeného omezeném omezenému omezený omezených omezeným omezenými omezeně omezil omezila omezili omezilo omezily omezoval omezovala omezovalo omezovaly omezovat omezován omezována omezování omezováním omezte omezuje omezují omezující omezujících omezí omezím omezíme
+15	915	dohoda	dohod dohodami dohodou dohodu dohody dohodách dohodám dohodě
+16	916	velice	
+17	917	souhlasit	nesouhlasil nesouhlasili nesouhlasí nesouhlasím souhlasil souhlasila souhlasili souhlasilo souhlasily souhlasí souhlasím souhlasíme souhlasíte souhlasíš
+18	918	vhodný	nejvhodnější nejvhodnějších nejvhodnějšího nejvhodnějším vhodnou vhodná vhodné vhodného vhodném vhodnému vhodní vhodných vhodným vhodnými vhodně vhodnější vhodnějších vhodnějšího vhodnějším
+19	919	sedm	sedmi sedum
+20	920	zvolit	nezvolení zvol zvolen zvolena zvoleni zvoleno zvolenou zvoleny zvolená zvolené zvoleného zvoleném zvolenému zvolení zvolením zvolený zvolených zvoleným zvolenými zvolil zvolila zvolili zvolilo zvolily zvolme zvolte zvolí zvolím zvolíme zvolíte zvolíš
+21	921	dokument	dokumentech dokumentem dokumentu dokumenty dokumentů dokumentům
+22	922	turnaj	turnaje turnajem turnaji turnajích turnajů turnajům
+23	923	sestra	sester sestrami sestro sestrou sestru sestry sestrách sestrám sestře sestřin sestřina sestřičce sestřiček sestřička sestřičkami sestřičko sestřičkou sestřičku sestřičky sestřičkám
+24	924	dětský	dětskou dětsky dětská dětské dětského dětském dětskému dětských dětským dětskýma dětskými dětští
+25	925	klasický	klasickou klasicky klasická klasické klasického klasickém klasickému klasických klasickým klasickými klasičtí klasičtější
+26	926	zámek	zámcích zámeček zámečku zámkem zámku zámky zámků zámkům
+27	927	partner	partnera partnerech partnerem partnerka partnerky partnerovi partneru partnery partnerů partnerům partneři
+28	928	živý	nejživější živ živa živi živo živou živá živé živého živém živému živí živých živým živými živě živěji živější
+29	929	obor	oborech oborem oborové oborový oboru obory oborů oborům
+30	930	muzeum	muzea muzeem muzei muzejní muzejních muzeu muzeí muzeích muzeím
+31	931	dívka	dívce dívek dívence dívenka dívenku dívenky dívkami dívko dívkou dívku dívky dívkách dívkám dívčin dívčina dívčinu dívčiny
+32	932	postel	postele postelemi posteli postelové postelí postelích postýlka postýlky
+33	933	příroda	přírodou přírodu přírody přírodě
+34	934	trať	trati tratí tratích tratím tratě tratěmi
+35	935	univerzita	universita univerzit univerzitami univerzitní univerzitních univerzitního univerzitním univerzitními univerzitnímu univerzitou univerzitu univerzity univerzitách univerzitám univerzitě
+36	936	výška	vejška výšce výšek výškami výškou výškovou výšková výškové výškového výškovém výškový výškových výškovým výškovými výškově výšku výšky výškách
+37	937	nápad	nápadech nápadem nápadu nápady nápadů nápadům
+38	938	čistý	nejčistější nejčistší čista čisto čistou čistá čisté čistého čistém čistému čistí čistých čistým čistými čistější čistší
+39	939	probíhat	neprobíhá probíhají probíhající probíhajících probíhajícího probíhal probíhala probíhali probíhalo probíhaly probíhá
+40	940	skutečně	
+41	941	bohatý	bohatou bohatá bohaté bohatého bohatém bohatému bohatí bohatých bohatým bohatými bohatě bohatší bohatších bohatšího bohatším bohatšími nejbohatší nejbohatších nejbohatšího nejbohatším nejbohatšími
+42	942	padat	nepadl nepadla nepadlo pad padají padající padal padala padali padalo padaly padl padla padli padlo padly padne padneme padnete padni padnou padnoucí padnout padnu padnul padá padám padáme padání padáte
+43	943	následující	následujících následujícího následujícím následujícími následujícímu
+44	944	položit	klade klademe kladen kladeny kladl kladla kladli kladou kladu klást pokládají pokládal pokládali pokládat pokládá pokládám pokládáme pokládán pokládána pokládání polož položen položena položenou položeny položená položené položení položený položených položil položila položili položilo položte položí položím položíme položíte
+45	945	přemýšlet	nepřemýšlel nepřemýšlím popřemýšlet přemýšlej přemýšlejme přemýšlejte přemýšlejí přemýšlející přemýšlel přemýšlela přemýšleli přemýšlelo přemýšlely přemýšlení přemýšlením přemýšlí přemýšlím přemýšlíme přemýšlíte přemýšlíš
+46	946	týkat	netýkají netýkala netýkalo netýká týkají týkal týkala týkalo týkaly týká týče
+47	947	letošní	letošních letošního letošním letošními letošnímu
+48	948	daň	dani daní daních daním daně daněmi
+49	949	nosit	nenosí nosil nosila nosili nosilo nosily noste nosí nosící nosím nosíme nosíte nosíval nosíš nošen nošena nošeny nošení nošený
+50	950	reakce	reakcemi reakci reakcí reakcích reakcím
+51	951	potvrdit	nepotvrdil nepotvrdila potvrdil potvrdila potvrdili potvrdilo potvrdily potvrdí potvrdím potvrdíme potvrdíte potvrzen potvrzena potvrzeni potvrzeno potvrzeny potvrzené potvrzený potvrzovat potvrzuje potvrďte
+52	952	navštívit	navštiv navštivte navštívení navštívil navštívila navštívili navštívilo navštívily navštíví navštívím navštívíme navštívíte navštěvoval navštěvovala navštěvovali navštěvovalo navštěvovaly navštěvovaný navštěvovat navštěvován navštěvována navštěvováno navštěvovány navštěvování navštěvuje navštěvujeme navštěvujete navštěvuji navštěvují navštěvující nejnavštěvovanější
+53	953	jižní	jižních jižního jižním jižními jižnímu jižně jižněji nejjižněji nejjižnější nejjižnějšího nejjižnějším
+54	954	tvář	tváře tvářemi tváři tvářička tvářičku tváří tvářích tvářím
+55	955	slunce	sluncem slunci sluncí slunko sluníčka sluníčkem sluníčko sluníčku
+56	956	soukromý	soukromou soukromá soukromé soukromého soukromém soukromému soukromých soukromým soukromými soukromě
+57	957	šéf	šéfa šéfe šéfem šéfovi šéfové šéfy šéfů šéfům
+58	958	podat	nepodal nepodala podají podal podala podali podalo podaly podaný podej podejte podá podám podáme podán podána podáno podány podáte podávají podávající podával podávala podávali podávaly podávané podávaný podávat podávejte podává podávám podáváme podáván podávána podáváno podávány podávání podáváním podáš
+59	959	autobus	autobuse autobusech autobusem autobusovou autobusová autobusové autobusového autobusovém autobusovému autobusový autobusových autobusovým autobusovými autobusu autobusy autobusů autobusům
+60	960	nicméně	
+61	961	okolo	
+62	962	vždyť	
+63	963	slovenský	slovenskou slovensky slovenská slovenské slovenského slovenském slovenskému slovenských slovenským slovenskými slovenští
+64	964	kapela	kapel kapelami kapele kapelou kapelu kapely kapelách kapelám
+65	965	kousek	kouscích kouska kouskem kousku kousky kouskách kousků kouskům kousíček
+66	966	poslouchat	nejposlouchanější neposlechl neposlechne poslechl poslechla poslechli poslechne poslechneme poslechnete poslechni poslechnou poslechnout poslechnu poslechněte poslouchají poslouchající poslouchal poslouchala poslouchali poslouchalo poslouchaly poslouchej poslouchejte poslouchá poslouchám posloucháme poslouchání posloucháte posloucháš
+67	967	znít	nezní zni zní znějí znějící zněl zněla zněli znělo zněly
+68	968	překlad	překladech překladem překladu překlady překladů překladům
+69	969	víno	vín vína vínech vínem vínečko vínko vínu víny víně vínům
+70	970	západní	nejzápadnější nejzápadnějším západních západního západním západními západnímu západně západněji
+71	971	pole	polem poli polí polích polím políčko
+72	972	plocha	ploch plochami plochou plochu plochy plochách plochám ploše ploška
+73	973	operace	operacemi operaci operací operacích operacím
+74	974	veřejnost	veřejnosti veřejností
+75	975	délka	délce délek délkami délkou délku délky délkách
+76	976	francouzský	francouzskou francouzsky francouzská francouzské francouzského francouzském francouzskému francouzských francouzským francouzskými francouzští
+77	977	popsat	popisoval popisovala popisovali popisovaly popisovanou popisovaná popisované popisovaného popisovaný popisovaných popisovat popisován popisována popisováno popisovány popisování popisuje popisujeme popisujete popisuješ popisuji popisují popisující popiš popište popsal popsala popsali popsalo popsaly popsán popsána popsáno popsány popíše popíšeme popíšete popíši popíšu
+78	978	příležitost	příležitostech příležitostem příležitosti příležitostmi příležitostí
+79	979	navrhnout	navrhl navrhla navrhli navrhlo navrhly navrhne navrhneme navrhni navrhnou navrhnu navrhněte navrhoval navrhovala navrhovali navrhované navrhovaný navrhovat navrhován navrhována navrhováno navrhovány navrhování navrhováním navrhuje navrhujeme navrhujete navrhuji navrhuju navrhují navrhující navržen navržena navrženi navrženo navrženy navržené navržení navržený nenavrhl
+80	980	minulost	minulosti minulostí
+81	981	přicházet	nepřicházela nepřichází přicházejí přicházející přicházejících přicházel přicházela přicházeli přicházelo přicházely přichází přicházím přicházíme přicházíte přicházíš
+82	982	stavební	stavebních stavebního stavebním stavebními stavebnímu stavebně
+83	983	chuť	chuti chutí chutím chutě chutěmi chuťovou chuťová chuťové chuťový chuťových chuťově
+84	984	řeka	řece řek řekami řekou řeku řeky řekách řekám říčka říčky říční říčních říčního říčním
+85	985	starat	nestaral postarají postaral postarala postarali postaralo postaraly postarat postarej postarejte postará postarám postaráme postaráte starají starající staral starala starali staralo staraly starej starejte stará starám staráme starání staráte staráš
+86	986	pohyb	pohybech pohybem pohybové pohybový pohybu pohyby pohybů pohybům
+87	987	najednou	
+88	988	neboť	
+89	989	všude	
+90	990	zřejmě	
+91	991	odmítnout	neodmítl odmítat odmítl odmítla odmítli odmítlo odmítly odmítne odmítneme odmítnete odmítnou odmítnu odmítnut odmítnuta odmítnuti odmítnuto odmítnuty odmítnutá odmítnuté odmítnutí odmítnutím odmítnutý odmítnutých odmítněte odmítá
+92	992	objekt	objektech objektem objektu objekty objektů objektům
+93	993	schopnost	schopnostech schopnostem schopnosti schopnostmi schopností
+94	994	péče	péči péčí
+95	995	rána	ran ranami ranka ranku ranou ranách ranám ránou ránu rány ráně
+96	996	postava	postav postavami postavou postavu postavy postavách postavám postavě
+97	997	klient	klienta klientech klientem klienti klientovi klientu klienty klientů klientům
+98	998	přímý	nejpřímější přímou přímá přímé přímého přímém přímému přímí přímých přímým přímými přímější
+99	999	les	lesa lesem lesu lesy lesích lesů lesům
+100	1000	pivo	piv piva pivech pivem pivečko pivko pivu pivy pivě

@@ -1,0 +1,100 @@
+1	9101	branže	branži
+2	9102	kalorie	kalorií
+3	9103	osnova	osnov osnovou osnovu osnovy osnovách osnově
+4	9104	monitorovat	monitoruje
+5	9105	zanedbatelný	zanedbatelnou zanedbatelná zanedbatelné zanedbatelným zanedbatelně
+6	9106	koláž	koláže kolážemi koláži koláží
+7	9107	odr	odru odry odře
+8	9108	sjednaný	sjednanou sjednané sjednán sjednána sjednáno sjednány
+9	9109	trip	tripu
+10	9110	lesbický	lesbickou lesbická lesbické lesbického lesbickém lesbických lesbickým
+11	9111	přepracovat	přepracoval přepracovala přepracovali přepracován přepracována přepracováno přepracovány přepracování
+12	9112	laťka	laťku laťky
+13	9113	hnací	hnacích hnacího hnacím
+14	9114	pařit	paření pařil pařila pařili paří pařím
+15	9115	lehkost	lehkosti lehkostí
+16	9116	osvojit	osvojil osvojila osvojili osvojily osvojovat osvojuje osvojí
+17	9117	rozrůst	rozrostl rozrostla rozrostlo
+18	9118	přetížení	přetížením
+19	9119	přeplněný	přeplněnou přeplněná přeplněné přeplněného přeplněném přeplnění přeplněných přeplněným
+20	9120	náves	návsi návsí
+21	9121	legionář	legionáře legionáři legionářů legionářům
+22	9122	bulvární	bulvárních bulvárního bulvárním
+23	9123	demence	demenci demencí
+24	9124	výslovnost	výslovnosti výslovností
+25	9125	výsada	výsad výsadami výsadou výsadu výsady
+26	9126	demografický	demografickou demografická demografické demografického demografických demografickým
+27	9127	nastávající	nastávajících nastávajícího nastávajícím
+28	9128	racek	racci racka rackovi rackové racku racky racků
+29	9129	rouška	roušek rouškou roušku roušky
+30	9130	vrh	vrhu vrhy vrhů
+31	9131	plantáž	plantáže plantážemi plantáži plantáží plantážích
+32	9132	úmrtnost	úmrtnosti úmrtností
+33	9133	vodit	vodil vodila vodili vodí vodící vodě vodění
+34	9134	vosa	vos vosu vosy vosí vosího
+35	9135	zátah	zátahu
+36	9136	sdělovací	sdělovacích sdělovacím sdělovacími
+37	9137	domnělý	domněle domnělou domnělá domnělé domnělého domnělém domnělému domnělých domnělým
+38	9138	zákonodárce	zákonodárcem zákonodárci zákonodárců zákonodárcům
+39	9139	zaslaný	zaslané zaslaném zaslán zaslána
+40	9140	bližní	bližních bližního bližním bližními bližnímu
+41	9141	korunovat	korunoval korunovala korunovali korunovaný korunován korunována korunováno korunování korunuje korunují nekorunovaný
+42	9142	hutný	hutnou hutná hutné hutní hutních hutního hutním hutným hutnější
+43	9143	slovenština	slovenštinou slovenštinu slovenštiny slovenštině
+44	9144	padesátka	padesátce padesátkou padesátku padesátky
+45	9145	přibližný	přibližnou přibližná přibližné přibližného přibližném
+46	9146	šek	šekem šeku šeky šeků
+47	9147	zášť	zášti záští
+48	9148	elektrotechnický	elektrotechnickou elektrotechnická elektrotechnické elektrotechnického elektrotechnickém elektrotechnických
+49	9149	zmrzlý	zmrzlou zmrzlá zmrzlé zmrzlého zmrzlém zmrzlí zmrzlých zmrzlým
+50	9150	přípustný	přípustnou přípustná přípustné přípustných
+51	9151	zodpovědně	zodpovědněji
+52	9152	osídlení	osídlením
+53	9153	kompetentní	kompetentních kompetentního kompetentním nekompetentní
+54	9154	příď	přídi přídí přídě
+55	9155	opce	opci opcí
+56	9156	vřed	vředem vředu vředy vředů
+57	9157	impulz	impulzem impulzu impulzy impulzů
+58	9158	stíhací	stíhacího
+59	9159	usvědčit	usvědčen usvědčena usvědčeni usvědčení usvědčený usvědčil usvědčila usvědčili usvědčí
+60	9160	dříví	dřívím
+61	9161	ležák	ležáku ležáky ležáků
+62	9162	výpad	výpadech výpadem výpadu výpady výpadů výpadům
+63	9163	podnítit	podnítil podnítila podnítilo podnítily podnítí podněcovat podněcuje
+64	9164	donedávna	
+65	9165	podezřele	
+66	9166	telefonicky	
+67	9167	vícekrát	
+68	9168	zaslouženě	
+69	9169	zticha	
+70	9170	tělovýchova	tělovýchovná tělovýchovu tělovýchovy
+71	9171	rozcházet	rozcházejí rozcházel rozcházeli rozcházely rozchází rozcházíme
+72	9172	imitace	imitaci imitací
+73	9173	mušle	mušlemi mušli mušličky mušlí
+74	9174	namítnout	namítají namítat namítl namítla namítne namítnete namítá nenamítal
+75	9175	vážnost	vážnosti vážností
+76	9176	špionážní	špionážních špionážního špionážním
+77	9177	konfederace	konfederaci konfederací konfederační
+78	9178	pseudonym	pseudonymem pseudonymu pseudonymy pseudonymů
+79	9179	učebna	učeben učebnami učebnou učebnu učebny učebnách učebně
+80	9180	nacionalista	nacionalisty nacionalisté nacionalistů nacionalistům
+81	9181	znakový	znakovou znaková znakové znakového znakovém znakových znakovým
+82	9182	přítok	přítocích přítokem přítoku přítoky přítoků
+83	9183	nepochopit	nepochopen nepochopily nepochopím nepochopíme nepochopíte nepochopíš
+84	9184	stříkačka	stříkačce stříkaček stříkačkou stříkačku stříkačky
+85	9185	vegetarián	vegetariána vegetariánem vegetariáni vegetariánka vegetariány vegetariánů
+86	9186	připravenost	připravenosti připraveností
+87	9187	klášterní	klášterních klášterního klášterním
+88	9188	promyslet	promyslel promysleli promyslete promyslí promyslím promyšleno promýšlel promýšlet
+89	9189	domino	domin domina dominu dominy
+90	9190	svátost	svátosti svátostí
+91	9191	lesnický	lesnickou lesnická lesnické lesnického lesnických
+92	9192	odhlásit	odhlásil odhlásila odhlásili odhlásí odhlášení
+93	9193	carský	carskou carská carské carského carském carských carským
+94	9194	efektní	efektních efektním efektními efektně
+95	9195	terminologie	terminologii terminologií
+96	9196	ceněný	ceněnou ceněná ceněné ceněného ceněných ceněným
+97	9197	mudrc	mudrce mudrci mudrcové mudrců
+98	9198	filosofický	filosofickou filosofická filosofické filosofického filosofickém filosofických filosofickým
+99	9199	sekretariát	sekretariátu
+100	9200	drahokam	drahokamem drahokamu drahokamy drahokamů

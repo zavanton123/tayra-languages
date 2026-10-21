@@ -1,0 +1,100 @@
+1	4901	strhnout	strhl strhla strhli strhlo strhly strhne strhnou strhnul strhávat strhává stržen stržena strženo strženy
+2	4902	bydliště	bydlišti bydlištěm
+3	4903	fér	férová férové
+4	4904	rovnost	rovnosti rovností
+5	4905	klavír	klavírem klavíru klavíry klavírů
+6	4906	vedro	veder vedra vedrech vedrem vedru
+7	4907	vodopád	vodopádech vodopádem vodopádu vodopády vodopádů vodopádům
+8	4908	mnich	mnicha mnichem mnichovi mnichové mnichu mnichy mnichů mnichům mniši mníšek mníšku
+9	4909	skandál	skandálech skandálem skandálu skandály skandálů skandálům
+10	4910	kovář	kováře kovářem kováři kovářová kovářové kovářík kovářů
+11	4911	lom	lomech lomem lomský lomu lomy lomů
+12	4912	směrnice	směrnic směrnicemi směrnici směrnicí směrnicích směrnicím
+13	4913	makat	makají makal makala makali makej maká makám makáme makáte makáš máknout
+14	4914	diskriminace	diskriminaci diskriminací
+15	4915	příměří	příměřím
+16	4916	procedura	procedur procedurami procedurou proceduru procedury procedurách procedurám proceduře
+17	4917	skromný	skromnou skromná skromné skromného skromném skromní skromných skromným skromnými skromně skromněji skromnější
+18	4918	hmotný	hmotnou hmotná hmotné hmotného hmotném hmotnému hmotných hmotným hmotnými hmotně hmotnější
+19	4919	účetnictví	účetnictvím
+20	4920	odhalení	odhalením
+21	4921	diamant	diamantech diamantem diamantu diamanty diamantů
+22	4922	neúspěšný	neúspěšnou neúspěšná neúspěšné neúspěšného neúspěšném neúspěšnému neúspěšní neúspěšných neúspěšným neúspěšnými
+23	4923	exotický	exotickou exotická exotické exotického exotickém exotických exotickým exotickými exotičtí exotičtější
+24	4924	dominantní	dominantních dominantního dominantním dominantními dominantnímu dominantně dominantnější
+25	4925	jedovatý	jedovatou jedovatá jedovaté jedovatého jedovatí jedovatých jedovatým jedovatými jedovatě nejjedovatější
+26	4926	udeřit	udeřil udeřila udeřili udeřilo udeřily udeří
+27	4927	kolona	kolon kolonou kolonu kolony kolonách koloně
+28	4928	spekulace	spekulacemi spekulaci spekulací spekulacích spekulacím
+29	4929	kladně	
+30	4930	obzvláště	
+31	4931	pohromadě	
+32	4932	sluchátka	
+33	4933	záměrně	
+34	4934	diplom	diplomem diplomovou diplomová diplomové diplomových diplomu diplomy diplomů
+35	4935	plavidlo	plavidel plavidla plavidle plavidlech plavidlem plavidlu plavidly plavidlům
+36	4936	korporace	korporacemi korporaci korporací korporacích korporacím
+37	4937	vyzvednout	vyzvedl vyzvedli vyzvednuta
+38	4938	čepice	čepic čepicemi čepici čepicí čepicích čepička čepičkou čepičku čepičky
+39	4939	zdržet	nezdrží zdrž zdržel zdržela zdrželi zdrželo zdržely zdrží zdržím zdržíme zdržíte
+40	4940	palestinský	palestinskou palestinská palestinské palestinského palestinském palestinskému palestinských palestinským palestinskými palestinští
+41	4941	nevlastní	nevlastních nevlastního nevlastním nevlastními nevlastnímu
+42	4942	řezník	řezníci řezníka řezníkem řezníkovi řezníky řezníků řezníček
+43	4943	pohánět	pohání pohánějí pohánějící poháněl poháněla pohánělo poháněly poháněn poháněna poháněno poháněnou poháněny pohánění poháněný
+44	4944	náhlý	náhlou náhlá náhlé náhlého náhlém náhlému náhlých náhlým náhlými
+45	4945	export	exportem exportu exporty exportů
+46	4946	vypuknout	vypukl vypukla vypukly vypukne
+47	4947	eurozóna	eurozónu eurozóny eurozóně
+48	4948	valašský	valašskou valašská valašské valašského valašském valašských valašským
+49	4949	zmiňovaný	zmiňovanou zmiňovaná zmiňované zmiňovaného zmiňovaném zmiňovanému zmiňovaní zmiňovaných zmiňovaným zmiňovanými
+50	4950	zvracet	zvracel zvracela zvracení zvracením zvrací zvracím
+51	4951	srbský	srbskou srbsky srbská srbské srbského srbském srbskému srbských srbským srbskými srbští
+52	4952	vévoda	vejvoda vévodkyni vévodkyní vévodkyně vévodou vévodovi vévodové vévodu vévody vévodů
+53	4953	vzestup	vzestupem vzestupu vzestupy vzestupů
+54	4954	kvalifikovaný	kvalifikovanou kvalifikovaná kvalifikované kvalifikovaného kvalifikovaní kvalifikovaných kvalifikovaným kvalifikovanými kvalifikovaně kvalifikovanější
+55	4955	venkovský	venkovskou venkovská venkovské venkovského venkovském venkovskému venkovských venkovským venkovskými venkovští
+56	4956	hrací	hracích hracího hracím hracími
+57	4957	vyskočit	vyskakovat vyskoč vyskočil vyskočila vyskočili vyskočilo vyskočily vyskočí vyskočím
+58	4958	levicový	levicovou levicová levicové levicového levicovém levicovému levicoví levicových levicovým levicovými
+59	4959	shodný	shodnou shodná shodné shodného shodném shodných shodným shodnými
+60	4960	výstavní	výstavních výstavního výstavním výstavními
+61	4961	vysílač	vysílače vysílačem vysílači vysílačích vysílačů
+62	4962	kotě	kotěte koťat koťata koťaty koťátek koťátka koťátko
+63	4963	opřít	opírat opírá opře opřel opřela opřeli opřeme opřen opřena opřete opři opřu
+64	4964	palubní	palubních palubního palubním
+65	4965	ovladač	ovladače ovladačem ovladači ovladačů
+66	4966	terorismus	terorismem terorismu
+67	4967	poranění	poraněních poraněním poraněními
+68	4968	vklad	vkladech vkladem vkladu vklady vkladů
+69	4969	oříšek	oříškem oříškové oříšku oříšky oříšků voříšek
+70	4970	tropický	tropickou tropická tropické tropického tropickém tropických tropickým tropickými
+71	4971	bláznivý	bláznivou bláznivá bláznivé bláznivého bláznivém blázniví bláznivých bláznivým bláznivými bláznivě bláznivější nejbláznivější
+72	4972	užitek	užitkem užitkovou užitková užitkové užitkového užitkový užitkových užitkovým užitku užitky
+73	4973	obtíž	obtíže obtížemi obtíží obtížích obtížím
+74	4974	opoziční	opozičních opozičního opozičním opozičními
+75	4975	munice	munici municí
+76	4976	zatáčka	zatáčce zatáček zatáčkami zatáčkou zatáčku zatáčky zatáčkách
+77	4977	oživit	oživen oživena oživené oživený oživil oživila oživili oživilo oživily oživovat oživte oživují oživí
+78	4978	křesťanství	křesťanstvím
+79	4979	zásobník	zásobnících zásobníkem zásobníku zásobníky zásobníků
+80	4980	vrcholný	vrcholnou vrcholná vrcholné vrcholného vrcholném vrcholnému vrcholní vrcholných vrcholným vrcholnými vrcholně
+81	4981	vyčítat	nevyčítá vyčetl vyčetla vyčetli vyčte vyčíst vyčítají vyčítal vyčítala vyčítali vyčítá vyčítám vyčítána vyčítáno
+82	4982	čtyřhra	čtyřher čtyřhru čtyřhry čtyřhře
+83	4983	bezprostřední	bezprostředních bezprostředního bezprostředním bezprostřednímu
+84	4984	četný	nejčetnější četná četné četných četným četnými četnější
+85	4985	nepokoj	nepokoje nepokoji nepokojích nepokojů nepokojům
+86	4986	zvěř	zvěře zvěři zvěří
+87	4987	zaniknout	zanikají zanikl zanikla zaniklo zanikly zanikne zaniknou zaniká
+88	4988	rezignovat	rezignoval rezignovala rezignovali rezignovalo rezignuje rezignuji rezignují
+89	4989	charitativní	charitativních charitativního charitativním
+90	4990	helma	helem helmami helmou helmu helmy helmách helmě
+91	4991	přehánět	přehnal přehnala přehnaly přehnat přehání přeháním přeháníme přeháníte přehánějí přeháněl přehánění
+92	4992	pátrat	pátrají pátral pátrali pátrá pátráme
+93	4993	formulář	formuláře formulářem formuláři formulářích formulářů
+94	4994	vědomý	vědoma vědomi vědomo vědomou vědomy vědomá vědomé vědomého vědomých vědomým
+95	4995	výpis	výpisem výpisu výpisy výpisů
+96	4996	propagovat	propagoval propagovala propagovali propagovaly propagovaný propagován propagována propagování propaguje propagují propagující
+97	4997	nálet	náletech náletem náletu nálety náletů náletům
+98	4998	vesta	vest vestami vestou vestu vesty vestách vestě
+99	4999	ambice	ambic ambicemi ambici ambicí ambicích ambicím
+100	5000	kudy	

@@ -1,0 +1,100 @@
+1	8101	genetika	genetice genetici genetik genetikou genetiku genetiky
+2	8102	huť	huti hutí hutích hutě
+3	8103	perspektivní	neperspektivní perspektivních perspektivního perspektivním perspektivnější
+4	8104	milosrdenství	milosrdenstvím
+5	8105	ohnout	ohne ohni ohnou ohnul ohnula ohněte ohýbají ohýbal ohýbat ohýbá
+6	8106	mág	mága mágem mágovi mágové mágy mágů
+7	8107	výstroj	výstroje výstroji výstrojí
+8	8108	gama	gamu gamy
+9	8109	záhon	záhonech záhonek záhonky záhonu záhony záhoně záhonů
+10	8110	džus	džusem džusu džusy džusů
+11	8111	obezita	obezitou obezitu obezity obezitě
+12	8112	sedan	sedanu
+13	8113	nezájem	nezájmu
+14	8114	nesnesitelný	nesnesitelnou nesnesitelná nesnesitelné nesnesitelného nesnesitelných nesnesitelným nesnesitelně
+15	8115	kravata	kravat kravatou kravatu kravaty kravatách kravatě
+16	8116	připevnit	připevnil připevnila připevnili připevní připevníme připevněn připevněna připevněno připevněny připevnění připevněný připevněte
+17	8117	náklaďák	náklaďákem náklaďáku náklaďáky náklaďáků
+18	8118	tlumočník	tlumočnice tlumočníci tlumočníka tlumočníkem tlumočníky tlumočníků
+19	8119	přídavek	přídavkem přídavku přídavky přídavků
+20	8120	olovo	olova olovem
+21	8121	přitažlivost	přitažlivosti přitažlivostí
+22	8122	uklízečka	uklízeč uklízeče uklízeček uklízeči uklízečkou uklízečku uklízečky
+23	8123	vyletět	vyletí vyletěl vyletěla vyletěli vyletělo vyletěly vylétají vylétl vylétá
+24	8124	neurologie	neurologickou neurologická neurologické neurologického neurologický neurologických neurologickým neurologickými neurologii
+25	8125	rádce	rádcem rádci rádcové rádců rádkyně
+26	8126	odcizit	odcizen odcizena odcizeno odcizeny odcizený odcizil odcizila odcizili odcizí
+27	8127	nepřesný	nepřesnou nepřesná nepřesné nepřesných nepřesným nepřesně
+28	8128	hlásat	hlásají hlásající hlásal hlásala hlásali hlásaly hlásá hlásání
+29	8129	nabíječka	nabíječce nabíječek nabíječkou nabíječku nabíječky
+30	8130	znalecký	znalecká znalecké znaleckého znaleckém znaleckých znaleckým
+31	8131	sofistikovaný	nejsofistikovanější sofistikovanou sofistikovaná sofistikované sofistikovaného sofistikovaných sofistikovaným sofistikovanými sofistikovanější
+32	8132	prestiž	prestiže prestiži prestiží
+33	8133	sebeobrana	sebeobranu sebeobrany sebeobraně
+34	8134	akvizice	akvizic akvizicemi akvizici akvizicí akvizicích
+35	8135	zbrojní	zbrojních zbrojního zbrojním
+36	8136	způsobilost	způsobilosti
+37	8137	výletní	výletních výletního výletním
+38	8138	kokot	kokota kokote kokoti
+39	8139	prostorný	prostornou prostorná prostorné prostorného prostorném prostorných prostorným prostornější
+40	8140	písničkář	písničkáře písničkářem písničkáři písničkářka písničkářů
+41	8141	půst	půstem půstu půsty
+42	8142	obvodový	obvodovou obvodová obvodové obvodového obvodových obvodovým obvodovými
+43	8143	ulehčit	ulehčení ulehčil ulehčila ulehčili ulehčilo ulehčovat ulehčí
+44	8144	doktorát	doktorátem doktorátu doktoráty doktorátů
+45	8145	ilustrovat	ilustroval ilustrovala ilustrovaný ilustrována ilustruje ilustrují ilustrující
+46	8146	jakto	
+47	8147	odstraňování	
+48	8148	parádně	
+49	8149	postaraný	postaráno
+50	8150	depresivní	depresivních depresivního depresivním depresivně
+51	8151	bratrský	bratrskou bratrská bratrské bratrského bratrských bratrským
+52	8152	nabytí	nabytím
+53	8153	seznamka	seznamce seznamek seznamku seznamky seznamkách
+54	8154	orientální	orientálních orientálního orientálním orientálními
+55	8155	komfortní	komfortních komfortního komfortním komfortnější
+56	8156	nádražní	nádražních nádražním
+57	8157	bušit	buš buše bušení bušením buši bušil bušila bušili bušilo buší
+58	8158	přistávací	přistávacích přistávacího přistávacím
+59	8159	dusík	dusíkem dusíku
+60	8160	bláto	bláta blátem blátě
+61	8161	vyvrcholení	vyvrcholením
+62	8162	zadavatel	zadavatele zadavatelem zadavateli zadavatelé zadavatelů zadavatelům
+63	8163	špagety	špaget špagetami
+64	8164	klávesa	kláves klávesami klávesou klávesovou klávesová klávesové klávesový klávesových klávesu klávesách
+65	8165	postačit	nepostačí postačí
+66	8166	dráždit	dráždil dráždila dráždí dráždění podráždit podráždí
+67	8167	simulátor	simulátorech simulátorem simulátoru simulátory simulátorů
+68	8168	savec	savce savci savců savcům savčí
+69	8169	fix	fixa fixem fixu fixy
+70	8170	výbušný	výbušnou výbušná výbušné výbušného výbušných výbušným výbušnými
+71	8171	tamější	tamějších tamějšího tamějším tamějšími
+72	8172	placka	placce placek plackami plackou placku placky
+73	8173	totalita	totality
+74	8174	tribun	tribune tribunu tribuny
+75	8175	sirup	sirupem sirupu sirupy sirupů
+76	8176	exportní	exportních exportního exportním
+77	8177	mrazák	mrazákem mrazáku mrazáky
+78	8178	senzace	senzaci senzací
+79	8179	klenba	klenbami klenbou klenbu klenby klenbě kleneb
+80	8180	vršek	vrškem vršku vršky vršků
+81	8181	zaplést	zaplete zapleten zapletena zapleteni zapleteno zapleteny zapletl zapletla zapletli zapletou zaplétat zaplétá
+82	8182	mísit	mis miste míse mísení mísil mísila mísily mísí mísící míšení
+83	8183	laguna	lagun lagunou lagunu laguny lagunách laguně
+84	8184	záblesk	zábleskem záblesku záblesky záblesků
+85	8185	převezený	převezen převezení
+86	8186	zámořský	zámořskou zámořská zámořské zámořského zámořském zámořských zámořským zámořskými
+87	8187	nadpřirozený	nadpřirozenou nadpřirozená nadpřirozené nadpřirozeného nadpřirozených nadpřirozeným nadpřirozenými nadpřirozeně
+88	8188	nafotit	nafocení nafotil nafotila nafotili nafotily nafotí nafotím
+89	8189	novorozenec	novorozence novorozencem novorozenci novorozenců
+90	8190	procesní	procesních procesního procesním
+91	8191	vinařství	vinařstvím
+92	8192	andělský	andělskou andělská andělské andělského andělských andělským andělskými
+93	8193	přátelit	přátel přátele přátelil přátelila přátelili přátelí spřátelit
+94	8194	zatmění	zatměním
+95	8195	rotace	rotaci rotací
+96	8196	biatlon	biatlonový biatlonu
+97	8197	diagnostikovat	diagnostikoval diagnostikovali diagnostikován diagnostikována diagnostikováno diagnostikovány diagnostikování diagnostikuje diagnostikují
+98	8198	liberál	liberála liberálové liberály liberálů liberálům
+99	8199	molekulární	molekulárních molekulárního molekulárním
+100	8200	zástup	zástupem zástupu zástupy zástupů zástupům

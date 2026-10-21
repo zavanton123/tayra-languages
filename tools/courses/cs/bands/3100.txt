@@ -1,0 +1,100 @@
+1	3001	sobotní	sobotních sobotního sobotním sobotnímu
+2	3002	vyslovit	nevyslovil nevysloví vyslov vysloven vyslovena vysloveno vyslovenou vysloveny vyslovená vyslovené vyslovení vyslovený vysloveně vyslovil vyslovila vyslovili vyslovilo vyslovily vyslovoval vyslovovali vyslovovat vyslovte vyslovuje vyslovují vysloví vyslovím vyslovíte
+3	3003	příznivec	příznivce příznivcem příznivci příznivců příznivcům
+4	3004	větev	větve větvemi větvi větvička větvičky větví větvích větvím
+5	3005	důchodce	důchodci důchodců důchodcům důchodkyni důchodkyně
+6	3006	kreslit	kreslené kreslení kreslením kreslený kreslených kresli kreslil kreslila kreslili kreslily kreslí kreslící kreslím kreslíte nakreslen nakreslena nakresleny nakreslete nakresli nakreslil nakreslila nakreslili nakreslit nakreslí nakreslím
+7	3007	patrně	
+8	3008	výhradně	
+9	3009	experiment	experimentech experimentem experimentu experimenty experimentů experimentům
+10	3010	obvinění	obviněních obviněním obviněními
+11	3011	svítit	nesvítilo nesvítí posvítit sviť svítil svítila svítili svítilo svítily svítí svítící
+12	3012	tvrdě	tvrději
+13	3013	literární	literárních literárního literárním literárními literárnímu literárně
+14	3014	seminář	semináře seminářem semináři seminářích seminářů
+15	3015	projet	projede projel projela projeli projelo projíždí projíždět
+16	3016	neskutečný	neskutečnou neskutečná neskutečné neskutečného neskutečných neskutečným neskutečně
+17	3017	shodnout	neshodnou neshoduje shodl shodla shodli shodlo shodly shodne shodneme shodnete shodnou shodoval shodovala shodovali shodovalo shodovaly shodovat shoduje shodujeme shodují
+18	3018	protokol	protokolech protokolem protokolu protokoly protokolů protokolům
+19	3019	rozvod	rozvodech rozvodem rozvodu rozvody rozvodů rozvodům
+20	3020	režie	režii režií
+21	3021	závažný	nejzávažnější nejzávažnějších nejzávažnějším závažnou závažná závažné závažného závažném závažnému závažných závažným závažnými závažně závažnější závažnějších závažnějšího závažnějším
+22	3022	stříbro	stříbra stříbrem stříbru stříbře
+23	3023	pohon	pohonem pohonu pohony pohonů
+24	3024	ústa	úst ústech ústy ústům
+25	3025	koncepce	koncepcemi koncepci koncepcí koncepcích
+26	3026	přizpůsobit	přizpůsoben přizpůsobena přizpůsobeno přizpůsobenou přizpůsobeny přizpůsobená přizpůsobené přizpůsobení přizpůsobením přizpůsobený přizpůsobených přizpůsobil přizpůsobila přizpůsobili přizpůsobilo přizpůsobily přizpůsobovat přizpůsobte přizpůsobuje přizpůsobují přizpůsobí přizpůsobím přizpůsobíme přizpůsobíte
+27	3027	box	boxech boxem boxu boxy boxů
+28	3028	písemný	písemnou písemná písemné písemného písemném písemných písemným písemnými písemně
+29	3029	ligový	ligovou ligová ligové ligového ligovém ligovému ligových ligovým ligovými
+30	3030	disciplína	disciplín disciplínami disciplínou disciplínu disciplíny disciplínách disciplínám disciplíně
+31	3031	obchodovat	neobchoduje obchodoval obchodovala obchodovali obchodovalo obchodovaly obchodované obchodovány obchodování obchodováním obchoduje obchodujeme obchodujete obchoduji obchodují obchodující obchodujících
+32	3032	rodný	rodnou rodná rodné rodného rodném rodnému rodných rodným
+33	3033	šířka	šířce šířek šířkou šířku šířky šířkách
+34	3034	katastrofa	katastrof katastrofami katastrofou katastrofu katastrofy katastrofách katastrofám katastrofě
+35	3035	malíř	malíře malířem malíři malířka malířkou malířku malířky malířova malířskou malířská malířské malířského malířském malířský malířských malířským malířů malířům malířův
+36	3036	jedinečný	jedinečnou jedinečná jedinečné jedinečného jedinečném jedinečnému jedineční jedinečných jedinečným jedinečnými jedinečně
+37	3037	vlákno	vláken vlákna vláknech vláknem vláknu vlákny vlákně vláknům
+38	3038	smazat	mazal mazala mazali mazalová mazat mazání mazáním maže mažeme mažou mažu namazal namazala namazat namaže namažeme namažu pomazal pomazaný pomazán pomazání smazal smazala smazali smazaly smazán smazána smazáno smazány smazání smaž smaže smažeme smažete smažou smažte smažu umazal umazat
+39	3039	myš	myši myšička myška myškou myšková myšku myšky myšmi myší myších myšího myším
+40	3040	silniční	silničních silničního silničním silničními silničnímu
+41	3041	uherský	uherskou uherská uherské uherského uherském uherských uherským uherští
+42	3042	fotoaparát	fotoaparátech fotoaparátem fotoaparátu fotoaparáty fotoaparátů
+43	3043	potomek	potomci potomcích potomka potomkem potomkovi potomku potomky potomků potomkům
+44	3044	židle	židlemi židli židličce židličku židličky židlí židlích
+45	3045	pečlivě	pečlivěji
+46	3046	stopa	stopami stopou stopové stopových stopu stopy stopách stopám stopě
+47	3047	index	indexech indexem indexu indexy indexů
+48	3048	specialista	specialisti specialistka specialistkou specialistky specialistou specialistovi specialistu specialisty specialisté specialistů specialistům
+49	3049	žlutý	žlutou žluté žlutého žlutém žlutému žlutí žlutých žlutým žlutými žlutě
+50	3050	závodní	závodních závodního závodním závodními závodnímu
+51	3051	lokální	lokálních lokálního lokálním lokálními lokálnímu lokálně
+52	3052	spis	spise spisech spisem spisu spisy spisů spisům
+53	3053	náměstek	náměstci náměstka náměstkem náměstkovi náměstku náměstky náměstkyně náměstků
+54	3054	frekvence	frekvencemi frekvenci frekvencí frekvencích
+55	3055	nerad	nerada neradi nerado nerady
+56	3056	úcta	úctou úctu úcty úctě
+57	3057	ohrožení	ohrožením
+58	3058	bezpečí	bezpečím
+59	3059	turecký	tureckou turecky turecká turecké tureckého tureckém tureckému tureckých tureckým tureckými turečtí
+60	3060	aktualizace	aktualizacemi aktualizaci aktualizací aktualizacích
+61	3061	dokonale	dokonaleji
+62	3062	úloha	úloh úlohami úlohou úlohu úlohy úlohách úlohám úloze
+63	3063	prach	prachem prachu prachů
+64	3064	prohra	proher prohrami prohrou prohru prohry prohrách prohře
+65	3065	svatební	svatebních svatebního svatebním svatebními svatebnímu
+66	3066	lákat	lákají lákající lákal lákala lákali lákalo lákaly láká lákání nelákalo neláká
+67	3067	pronájem	pronájmem pronájmu pronájmy pronájmů
+68	3068	ač	
+69	3069	podruhé	
+70	3070	zadarmo	
+71	3071	nasazení	nasazením
+72	3072	technologický	technologickou technologicky technologická technologické technologického technologickém technologickému technologických technologickým technologickými
+73	3073	tón	tónech tónem tónu tóny tónů tónům
+74	3074	svazek	svazcích svazkem svazku svazky svazků svazkům
+75	3075	přátelství	přátelstvím
+76	3076	servis	servisech servisem servisu servisy servisů
+77	3077	potok	potoce potocích potoka potokem potoku potoky potoků potůček potůčka potůčkem potůčku potůčky potůčků
+78	3078	vyšetření	vyšetřeních vyšetřením vyšetřeními
+79	3079	absolvent	absolventa absolventem absolventi absolventka absolventovi absolventy absolventů absolventům
+80	3080	příčka	příčce příček příčkami příčkou příčku příčky příčkách
+81	3081	anketa	anket anketou anketu ankety anketách anketě
+82	3082	nadace	nadacemi nadaci nadací nadacích nadacím
+83	3083	ekonom	ekonoma ekonomem ekonomka ekonomové ekonomy ekonomů ekonomům
+84	3084	takovýto	takovouto takováto takovéhoto takovémto takovémuto takovéto takovíto takovýchto takovýmito takovýmto
+85	3085	salát	salátech salátem salátová salátové salátový salátu saláty salátů
+86	3086	promluvit	nepromluvil nepromluvila nepromluvili nepromluví promlouval promlouvat promluv promluvil promluvila promluvili promluvilo promluvily promluvte promluví promluvím promluvíme promluvíte
+87	3087	obrat	ober obere oberou obral obrala obrali obratech obratem obratu obraty obratů obíral obírat
+88	3088	zastoupit	zastoupen zastoupeno zastoupení zastoupením zastoupil zastoupila zastoupí
+89	3089	blázen	blázna blázne bláznem blázni blázny bláznů bláznům
+90	3090	tok	tocích tokem toku toky toků tokům
+91	3091	povolání	povoláních povoláním
+92	3092	spoléhat	nespoléhejte spolehnout spoléhají spoléhající spoléhal spoléhala spoléhali spoléhalo spoléhaly spoléhá spoléhám spoléháme spoléhání spoléháte
+93	3093	vůně	vůni vůní vůněmi
+94	3094	byznys	byznyse byznysem byznysu
+95	3095	dodržet	dodržel dodržen dodržoval dodržovali dodržovaly dodržovat dodržováno dodržuje dodržujte dodržují dodrží nedodržela nedodržuje
+96	3096	pero	per pera perem peru pery peříčko péra pérem péro péry pírek pírka pírkem pírko
+97	3097	prodejce	prodejcem prodejci prodejců prodejcům
+98	3098	přistoupit	nepřistoupí přistoupeno přistoupení přistoupil přistoupila přistoupili přistoupilo přistoupily přistoupí přistoupím přistoupíme přistoupíte přistup přistupoval přistupovat přistupte přistupuje přistupují
+99	3099	dělo	děl děla dělem děly dělům
+100	3100	děvče	děvčat děvčata děvčatech děvčaty děvčatům děvčete děvčetem děvčeti děvčátek děvčátka děvčátko děvčátku

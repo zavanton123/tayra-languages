@@ -1,0 +1,100 @@
+1	1101	poměrně	nepoměrně
+2	1102	dozvědět	dovídáme dozví dozvídat dozvídáme dozvím dozvíme dozvíte dozvíš dozvědí dozvěděl dozvěděla dozvěděli dozvědělo dozvěděly nedozví nedozvěděl nedozvěděli
+3	1103	velikost	velikostech velikosti velikostmi velikostí
+4	1104	východ	východem východu východy východě východů
+5	1105	generace	generacemi generaci generací generacích generacím generační
+6	1106	oddělení	odděleních oddělením odděleními
+7	1107	vzduch	vzduchem vzduchu
+8	1108	obvykle	
+9	1109	podobně	
+10	1110	spoustu	
+11	1111	kámen	kamene kamenech kamenem kameni kamenu kameny kamenů kamenům kamínek kamínkem kamínku kamínky kamínků
+12	1112	vytvářet	nevytváří vytvářejí vytvářející vytvářel vytvářela vytvářeli vytvářelo vytvářely vytvářen vytvářena vytvářeno vytvářeny vytvářené vytváření vytvářením vytvářený vytváří vytvářím vytváříme vytváříte
+13	1113	míra	mírami mírou mírové míru míry mírách míře měr měrou
+14	1114	teprve	teprv
+15	1115	umění	uměních uměním
+16	1116	náklady	nákladech nákladů nákladům
+17	1117	papír	papírech papírek papírem papírovou papírová papírové papírového papírovém papíroví papírový papírových papírovým papírovými papíru papíry papírů papírům papíře
+18	1118	porazit	poraz porazil porazila porazili porazilo porazily porazí porazím porazíme porazíte poražen poražena poraženi poraženo poraženou poraženy poražená poražené poraženého poraženému poražení poražený poražených poraženým poraženými porážet poráží
+19	1119	dlouhodobý	dlouhodobou dlouhodobá dlouhodobé dlouhodobého dlouhodobém dlouhodobému dlouhodobí dlouhodobých dlouhodobým dlouhodobými dlouhodobě dlouhodoběji dlouhodobější dlouhodobějších dlouhodobějšího dlouhodobějším
+20	1120	stáhnout	stahovaly stahovat stahuje stahují stažen stažena staženi staženo staženou staženy stažená stažené staženého stažení stažením stažený stažených staženým staženými stáhl stáhla stáhli stáhlo stáhly stáhne stáhneme stáhnete stáhni stáhnou stáhnu stáhněte
+21	1121	vzpomenout	nevzpomenu nevzpomněla nevzpomínal nevzpomíná nevzpomínám vzpomene vzpomeneme vzpomenete vzpomeneš vzpomenou vzpomenu vzpomenul vzpomeň vzpomeňme vzpomeňte vzpomněl vzpomněla vzpomněli vzpomínají vzpomínal vzpomínala vzpomínali vzpomínalo vzpomínat vzpomínejte vzpomíná vzpomínám vzpomínáme vzpomínán vzpomínání vzpomínáte vzpomínáš
+22	1122	pravděpodobně	nejpravděpodobněji pravděpodobněji
+23	1123	pracovník	pracovnic pracovnice pracovnici pracovnicí pracovníci pracovnících pracovníka pracovníkem pracovníkovi pracovníku pracovníky pracovníků pracovníkům
+24	1124	kurz	kurs kursech kursem kursu kursy kursů kurze kurzech kurzem kurzovní kurzu kurzy kurzů kurzům
+25	1125	přesvědčit	přesvědčen přesvědčena přesvědčeni přesvědčeno přesvědčeny přesvědčená přesvědčené přesvědčení přesvědčením přesvědčený přesvědčených přesvědčeným přesvědčeně přesvědčil přesvědčila přesvědčili přesvědčilo přesvědčily přesvědčovala přesvědčovat přesvědčování přesvědčováním přesvědčte přesvědčuje přesvědčujeme přesvědčují přesvědčí přesvědčím přesvědčíme přesvědčíte
+26	1126	krev	krve krvi krví
+27	1127	mozek	mozcích mozeček mozečku mozkem mozkovou mozková mozkové mozkového mozkovém mozkový mozkových mozkovým mozkovými mozku mozky mozků
+28	1128	zdravý	nejzdravější zdravej zdravou zdravá zdravé zdravého zdravém zdravému zdravých zdravým zdravými zdravě zdravěji zdravější zdravějšího zdravějším zdráv zdráva zdrávi zdrávo
+29	1129	metoda	metod metodami metodou metodu metody metodách metodám metodě
+30	1130	fanoušek	fanoušci fanoušcích fanouška fanouškem fanouškovi fanouškovskou fanouškovská fanouškovské fanouškovský fanouškovských fanouškové fanoušku fanoušky fanoušků fanouškům fanynek fanynka fanynkou fanynku fanynky fanynkám
+31	1131	mnohý	mnohou mnohá mnohé mnohého mnohém mnohému mnohých mnohým mnohými mnozí
+32	1132	potkat	nepotkali potkají potkal potkala potkali potkalo potkaly potká potkám potkáme potkání potkáte potkávat potkává potkáš
+33	1133	umístit	umisťovat umístil umístila umístili umístilo umístily umístí umístím umístíme umístíte umístěn umístěna umístěni umístěno umístěnou umístěny umístěná umístěné umístěného umístěném umístěnému umístěný umístěných umístěným umístěnými umístěte
+34	1134	soubor	souborech souborem souboru soubory souborů souborům
+35	1135	úprava	úprav úpravami úpravou úpravu úpravy úpravách úpravám úpravě
+36	1136	takto	
+37	1137	povrch	povrchem povrchovou povrchová povrchové povrchového povrchovém povrchovému povrchový povrchových povrchovým povrchovými povrchově povrchu povrchy povrchů površích
+38	1138	vznik	vznikem vzniku
+39	1139	příjemný	nejpříjemnější nejpříjemnějších nejpříjemnějším příjemnou příjemná příjemné příjemného příjemném příjemnému příjemní příjemných příjemným příjemnými příjemně příjemněji příjemnější příjemnějších příjemnějšího příjemnějším
+40	1140	účel	účelem účelovou účelová účelové účelového účelový účelových účelovým účelu účely účelů účelům
+41	1141	cit	citech citem citovou citová citové citového citovém citovému citový citových citovým citovými citu city citů citům
+42	1142	právník	právnickou právnická právnické právnického právnickém právnický právnických právnickým právnickými právničce právnička právničkou právničku právničky právníci právnících právníka právníkem právníkovi právníky právníků právníkům
+43	1143	důkaz	důkazech důkazem důkazu důkazy důkazů důkazům
+44	1144	jejíž	jehož jejichž jejíchž jejíhož jejímiž jejímuž jejímž
+45	1145	slavný	nejslavnější nejslavnějších nejslavnějšího nejslavnějším nejslavnějšími slavnou slavná slavné slavného slavném slavnému slavní slavných slavným slavnými slavně slavnější slavnějších slavnějšího slavnějším
+46	1146	riziko	nejrizikovější rizicích rizik rizika rizikem rizikovou riziková rizikové rizikového rizikovém rizikovému rizikový rizikových rizikovým rizikovými rizikovější riziku riziky rizikům
+47	1147	novinka	novince novinek novinkami novinkou novinku novinky novinkách novinkám
+48	1148	fotbal	fotbale fotbalem fotbalu fotbálek
+49	1149	horní	horních horního horním horními hornímu hořejší
+50	1150	prdel	prdele prdeli prdelka prdelku prdelky prdelí
+51	1151	tlak	tlacích tlakem tlaku tlaky tlaků tlakům
+52	1152	nádherný	nejnádhernější nádhernou nádherná nádherné nádherného nádherném nádhernému nádherní nádherných nádherným nádhernými nádherně
+53	1153	složit	nesložil skládají skládající skládal skládala skládali skládalo skládaly skládaný skládat skládá skládám skládáme skládání skládáte slož složen složena složeno složenou složeny složená složené složeného složeném složený složených složeným složenými složil složila složili složilo složily složte složí složím složíme složíte
+54	1154	zahraničí	zahraničím
+55	1155	odborný	odbornou odborná odborné odborného odborném odbornému odborní odborných odborným odbornými odborně odbornější
+56	1156	červenec	července červencem červenci červencovou červencová červencové červencového červencovém červencový červencových
+57	1157	středa	st středeční středečních středečního středečním středo středou středová středové středu středy středě středů
+58	1158	západ	západem západu západy západě
+59	1159	pokus	pokusech pokusem pokusu pokusy pokusů pokusům
+60	1160	nehoda	nehod nehodami nehodou nehodu nehody nehodách nehodám nehodě
+61	1161	pěkně	nepěkně
+62	1162	zmizet	mizejí mizející mizel mizela mizeli mizelo mizely mizet mizí mizící mizím nezmizelo nezmizí zmiz zmizel zmizela zmizeli zmizelo zmizely zmizení zmizením zmizí zmizím
+63	1163	mobil	mobile mobilech mobilem mobilu mobily mobilů mobilům
+64	1164	správně	správněji
+65	1165	bezpečnost	bezpečnosti bezpečností
+66	1166	dokud	
+67	1167	zahájit	zahajovat zahajte zahajuje zahájen zahájena zahájeno zahájeny zahájené zahájený zahájil zahájila zahájili zahájilo zahájily zahájí zahájím zahájíme zahájíte
+68	1168	vydání	vydáních vydáním
+69	1169	předat	nepředal předají předal předala předali předalo předaly předaný předejte předá předám předáme předán předána předáni předáno předány předání předáním předáte předávají předával předávala předávali předávalo předávaly předávat předává předávám předáváme předáván předávána předáváno předávány předávání předáváte
+70	1170	dít	dáli dí dím díte děje ději dějou dějí děl děla děli děly neděje nedělo
+71	1171	zboží	zbožím
+72	1172	vzor	vzorcích vzorech vzorek vzorem vzoreček vzorkem vzorku vzorky vzorků vzorkům vzorovou vzorové vzorový vzoru vzory vzorů vzorům
+73	1173	bolest	bolestech bolestem bolesti bolestmi bolestí bolístku bolístky
+74	1174	záznam	záznamech záznamem záznamu záznamy záznamů záznamům
+75	1175	kandidát	kandidáta kandidátce kandidátech kandidátek kandidátem kandidáti kandidátka kandidátkou kandidátku kandidátky kandidátkách kandidátovi kandidátu kandidáty kandidátů kandidátům
+76	1176	údaje	údaji údajích údajů údajům
+77	1177	fond	fondech fondem fondu fondy fondů fondům
+78	1178	dokončit	dokončen dokončena dokončeno dokončenou dokončeny dokončená dokončené dokončeného dokončeném dokončení dokončením dokončený dokončených dokončeným dokončete dokončil dokončila dokončili dokončilo dokončily dokončovat dokončuje dokončí dokončím dokončíme dokončíte nedokončila nedokončí
+79	1179	praxe	praxi praxí
+80	1180	zeď	zdech zdem zdi zdmi zdí zídce zídek zídka zídkou zídku zídky
+81	1181	kontakt	kontaktech kontaktem kontaktu kontakty kontaktů kontaktům
+82	1182	cokoli	cokoliv čehokoli čemkoli čemukoli čímkoli
+83	1183	vydržet	nevydržel nevydržela nevydržely nevydržení nevydrží nevydržím vydrž vydržel vydržela vydrželi vydrželo vydržely vydržení vydržovat vydržování vydržte vydržuje vydrží vydržím vydržíme vydržíte vydržíš
+84	1184	krajský	krajskou krajská krajské krajského krajském krajskému krajských krajským krajskými krajští
+85	1185	jízda	jízd jízdami jízdou jízdu jízdy jízdách jízdám jízdě
+86	1186	noviny	novin novinami novinová novinové novinového novinovém novinový novinových novinovým novinách novinám
+87	1187	volat	volají volající volal volala volali volalo volaly volaný volej voleje volejem volejte volá volám voláme volán volána voláni voláno volány voláte voláš
+88	1188	výrobce	výrobcem výrobci výrobcích výrobců výrobcům
+89	1189	povinnost	povinnostech povinnostem povinnosti povinnostmi povinností
+90	1190	denně	
+91	1191	pořádku	
+92	1192	zpátky	
+93	1193	snaha	snah snahami snahou snahu snahy snahách snahám snaze
+94	1194	hrdina	hrdince hrdinech hrdinek hrdinka hrdinkami hrdinkou hrdinku hrdinky hrdinou hrdinovi hrdinová hrdinové hrdinu hrdiny hrdinů hrdinům
+95	1195	oznámit	neoznámila oznam oznamovat oznamte oznamuje oznámen oznámena oznámeni oznámeno oznámeny oznámené oznámený oznámil oznámila oznámili oznámilo oznámily oznámí oznámím oznámíme oznámíte
+96	1196	látka	látce látek látkami látkou látkovou látková látkové látkového látkový látkových látkovým látku látky látkách látkám
+97	1197	varianta	variant variantami variantou variantu varianty variantách variantám variantě
+98	1198	použití	použitím
+99	1199	sezona	sezonou sezonu sezony sezoně
+100	1200	rozumět	nerozumí nerozumíme nerozumějí nerozuměl porozumí porozumíme porozumíte porozuměl porozuměla porozuměli porozumět rozumí rozumím rozumíme rozumíte rozumíš rozuměj rozumějte rozumějí rozuměl rozuměla rozuměli rozumělo rozuměly rozuměno rozumění
