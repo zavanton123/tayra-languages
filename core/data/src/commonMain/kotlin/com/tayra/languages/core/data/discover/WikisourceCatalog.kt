@@ -324,7 +324,7 @@ class WikisourceCatalog(
             if (id == "title" || id == "about") return false
             if (!id.startsWith("c0_") || spine.none { it.startsWith("c1_") }) return true
             val words = { text: String -> Regex("""[\p{L}\p{N}]+""").findAll(text.replace(Regex("<[^>]+>"), " ")).count() }
-            val linked = Regex("""<a\b[^>]*>(.*?)</a>""", RegexOption.DOT_MATCHES_ALL).findAll(html).sumOf { words(it.groupValues[1]) }
+            val linked = Regex("""<a\b[^>]*>([\s\S]*?)</a>""").findAll(html).sumOf { words(it.groupValues[1]) }
             return linked * 10 < words(html) * 4
         }
     }

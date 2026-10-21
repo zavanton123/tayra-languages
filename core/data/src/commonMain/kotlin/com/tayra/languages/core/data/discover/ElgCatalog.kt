@@ -120,7 +120,7 @@ class ElgCatalog(
         val BOOK_ID = Regex("""<id>[^<]*details\.php\?book=(\d+)</id>""")
         val EPUB = Regex("""<link type="application/epub\+zip" href="([^"]+)"""")
         val AUTHOR = Regex("""<author>\s*<name>([^<]+)</name>""")
-        val CONTENT = Regex("""<content[^>]*><!\[CDATA\[(.*?)]]></content>""", RegexOption.DOT_MATCHES_ALL)
+        val CONTENT = Regex("""<content[^>]*><!\[CDATA\[([\s\S]*?)]]></content>""")
         val CATEGORY = Regex("""<category [^>]*label="([^"]+)"""")
         val TOTAL = Regex("""<opensearch:totalResults>(\d+)</opensearch:totalResults>""")
         val NEXT = Regex("""<link[^>]*rel="next"""")

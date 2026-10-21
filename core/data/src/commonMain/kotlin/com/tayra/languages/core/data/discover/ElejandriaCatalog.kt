@@ -141,7 +141,7 @@ class ElejandriaCatalog(
         val BOOK_LINK = Regex("""https://www\.elejandria\.com/libro/(?!descargar|link_descarga)[^/"<\s]+/[^/"<\s]+/\d+""")
 
         /** The link whose text is "Descargar en ePub": its last number is the ePub file's. */
-        val EPUB_LINK = Regex("""<a [^>]*href="[^"]*/libro/descargar/[^"]*/(\d+)"[^>]*>(?:(?!</a>).)*ePub""", RegexOption.DOT_MATCHES_ALL)
+        val EPUB_LINK = Regex("""<a [^>]*href="[^"]*/libro/descargar/[^"]*/(\d+)"[^>]*>(?:(?!</a>)[\s\S])*ePub""")
 
         private const val GREETING = "¡Esperamos que lo disfrutéis!"
         private const val THANKS = "¡Gracias por leer este libro"

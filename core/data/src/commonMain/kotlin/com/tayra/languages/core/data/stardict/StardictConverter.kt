@@ -146,7 +146,7 @@ internal class Stardict(
     companion object {
         /** Plain text, its locale's text, phonetics left out (they are IPA), Pango, XDXF, HTML, MediaWiki, KingSoft, WordNet. */
         private val TEXT_TYPES = setOf('m', 'l', 'g', 'x', 'h', 'w', 'k', 'y', 'n')
-        private val XDXF_KEY = Regex("<k>.*?</k>", RegexOption.DOT_MATCHES_ALL)
+        private val XDXF_KEY = Regex("""<k>[\s\S]*?</k>""")
 
         /** The .ifo file's key=value lines, from among [files]. */
         fun ifo(files: List<ArchiveFile>): Map<String, String> {
