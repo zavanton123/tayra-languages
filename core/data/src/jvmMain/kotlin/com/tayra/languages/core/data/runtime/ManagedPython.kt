@@ -45,11 +45,14 @@ class ManagedPython(private val dir: File = File(DatabaseDriverFactory.dataDirec
         if (!isInstalled) error("the Python download did not contain ${python.absolutePath}")
     }
 
-    /** Installs [packages] with pip, reporting each package it fetches as "[label]: fetching x". */
-    fun pip(packages: List<String>, label: String, onProgress: (String) -> Unit) {
+    /** Installs [packages] with pip, reporting each package it fetches as "[label]: fetching x", followed by its [notes] if any. */
+    fun pip(packages: List<String>, label: String, notes: Map<String, String> = emptyMap(), onProgress: (String) -> Unit) {
         run(listOf(python.absolutePath, "-m", "pip", "install", "--disable-pip-version-check", "--no-input") + packages, PIP_TIMEOUT_MS) { line ->
             when {
-                line.startsWith("Collecting ") -> onProgress("$label: fetching ${line.removePrefix("Collecting ").substringBefore(' ')}\u2026")
+                line.startsWith("Collecting ") -> {
+                    val name = line.removePrefix("Collecting ").substringBefore(' ')
+                    onProgress("$label: fetching $name${notes[name]?.let { " ($it)" }.orEmpty()}\u2026")
+                }
                 line.startsWith("Installing collected") -> onProgress("$label: unpacking\u2026")
             }
         }

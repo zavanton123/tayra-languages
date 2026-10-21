@@ -6,6 +6,7 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.withContext
+import kotlinx.serialization.json.JsonObject
 import kotlinx.serialization.json.jsonPrimitive
 import java.io.File
 
@@ -19,6 +20,8 @@ abstract class PythonSpeechEngine(
     private val pipPackages: List<String>,
     /** About how much pip downloads for [pipPackages] into a fresh Python. */
     private val pipDownloadSize: Long,
+    /** What some of [pipPackages] are, shown while pip fetches them. */
+    private val pipNotes: Map<String, String> = emptyMap(),
 ) : LocalSpeechEngine {
 
     override val hasRuntimeSetup: Boolean = true
@@ -29,13 +32,24 @@ abstract class PythonSpeechEngine(
     /** A few words on what is installed, appended to the status line. */
     protected abstract suspend fun installedSummary(): String
 
-    override suspend fun isReady(): Boolean = runCatching { worker.request(STATUS_TIMEOUT_MS, "cmd" to "status", "engine" to workerName) }.isSuccess
+    /**
+     * What an installation made by an older version of the app lacks, from the worker's status
+     * reply; null when nothing. Such an installation is not ready, so setting up again adds it.
+     */
+    protected open fun missing(reply: JsonObject): String? = null
+
+    /** About how much [setUp] downloads when only what [missing] reports is to be added. */
+    protected open val missingDownloadSize: Long get() = pipDownloadSize
+
+    private suspend fun statusReply(): JsonObject = worker.request(STATUS_TIMEOUT_MS, "cmd" to "status", "engine" to workerName)
+
+    override suspend fun isReady(): Boolean = runCatching { missing(statusReply()) == null }.getOrDefault(false)
 
     override suspend fun status(): String = try {
-        val reply = worker.request(STATUS_TIMEOUT_MS, "cmd" to "status", "engine" to workerName)
+        val reply = statusReply()
         val version = reply["version"]?.jsonPrimitive?.content ?: "?"
         val py = reply["python"]?.jsonPrimitive?.content?.let { " · Python $it" }.orEmpty()
-        "$displayName $version$py · ${installedSummary()}"
+        "$displayName $version$py · ${listOfNotNull(installedSummary(), missing(reply)).joinToString(" · ")}"
     } catch (e: Exception) {
         "$displayName is not installed yet: ${e.message}"
     }
@@ -44,7 +58,7 @@ abstract class PythonSpeechEngine(
         try {
             python.ensure { progressState.value = it }
             progressState.value = "Installing $displayName\u2026"
-            python.pip(pipPackages, "Installing $displayName") { progressState.value = it }
+            python.pip(pipPackages, "Installing $displayName", pipNotes) { progressState.value = it }
             worker.restart()
         } finally {
             progressState.value = null
@@ -52,7 +66,10 @@ abstract class PythonSpeechEngine(
         status()
     }
 
-    override suspend fun runtimeDownloadSize(): Long? = if (isReady()) null else pipDownloadSize + python.downloadSize
+    override suspend fun runtimeDownloadSize(): Long? {
+        val reply = runCatching { statusReply() }.getOrNull() ?: return pipDownloadSize + python.downloadSize
+        return if (missing(reply) == null) null else missingDownloadSize
+    }
 
     /** Runs one synthesis in the worker and returns the WAV bytes. */
     protected suspend fun synthesizeWith(vararg fields: Pair<String, String>): ByteArray {

@@ -6,14 +6,18 @@ One request per line on stdin, one reply per line on stdout:
   {"id": 2, "cmd": "synthesize", "engine": "piper", "model": "/path/voice.onnx", "text": "...", "speed": "1.0", "out": "/tmp/x.wav"}
   {"id": 3, "cmd": "synthesize", "engine": "kokoro", "model": "/path/kokoro.onnx", "voices": "/path/voices.bin",
    "voice": "pf_dora", "lang": "pt-br", "text": "...", "speed": "1.0", "out": "/tmp/x.wav"}
+Kokoro's status also lists the languages whose readers fail to load: {"id": 4, ..., "missing": ["zh", "ja"]}.
 Any failure replies {"id": ..., "error": "..."}. Loaded models are kept for the next request.
 """
+import importlib.util
 import json
 import sys
+import types
 import wave
 
 PIPER = {}
 KOKORO = {}
+READERS = {}
 
 
 def version(package):
@@ -31,8 +35,37 @@ def status(engine):
     if engine == "kokoro":
         import kokoro_onnx  # noqa: F401
         import soundfile  # noqa: F401
-        return {"version": version("kokoro-onnx"), "python": sys.version.split()[0]}
+        missing = []
+        for lang in MISAKI_LANGS:
+            try:
+                reader(lang)
+            except Exception:  # noqa: BLE001
+                missing.append(lang)
+        return {"version": version("kokoro-onnx"), "python": sys.version.split()[0], "missing": missing}
     raise RuntimeError(f"unknown engine {engine!r}")
+
+
+# The voices of these languages were trained on misaki's readers, not on eSpeak's, which
+# reads Chinese poorly and Japanese kanji not at all; the others go through kokoro-onnx's eSpeak.
+MISAKI_LANGS = ("zh", "ja")
+
+
+def reader(lang):
+    """misaki's reader for the language, set up as Kokoro's own pipeline does for the v1.0 model."""
+    found = READERS.get(lang)
+    if found is None:
+        if lang == "zh":
+            from misaki import zh
+            found = zh.ZHG2P()
+        else:
+            # misaki.ja imports pyopenjtalk up front, yet only its "pyopenjtalk" version uses it; the default
+            # reader runs on fugashi and UniDic. pyopenjtalk has no wheels, so a stand-in spares a compiler.
+            if importlib.util.find_spec("pyopenjtalk") is None:
+                sys.modules["pyopenjtalk"] = types.ModuleType("pyopenjtalk")
+            from misaki import ja
+            found = ja.JAG2P()
+        READERS[lang] = found
+    return found
 
 
 KOKORO_PADDING_SECONDS = 0.2
@@ -60,7 +93,12 @@ def synthesize(req):
         model = KOKORO.get(key)
         if model is None:
             model = KOKORO[key] = Kokoro(req["model"], req["voices"])
-        samples, rate = model.create(text, voice=req["voice"], speed=speed, lang=req["lang"])
+        lang = req["lang"]
+        if lang in MISAKI_LANGS:
+            phonemes = reader(lang)(text)[0]
+            samples, rate = model.create(phonemes, voice=req["voice"], speed=speed, lang=lang, is_phonemes=True)
+        else:
+            samples, rate = model.create(text, voice=req["voice"], speed=speed, lang=lang)
         # Kokoro trims the silence off both ends, leaving a few hundredths of a second, which
         # sounds cut off once the player's own start-up eats into it: give each end some quiet.
         import numpy
