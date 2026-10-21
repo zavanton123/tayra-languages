@@ -6,6 +6,7 @@ import androidx.compose.runtime.rememberCoroutineScope
 import co.touchlab.kermit.Logger
 import com.tayra.languages.core.domain.service.LocalSpeech
 import com.tayra.languages.core.domain.service.SentenceAudio
+import com.tayra.languages.core.domain.service.SpokenNumbers
 import com.tayra.languages.core.domain.settings.SettingsRepository
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Job
@@ -79,15 +80,16 @@ class Speaker(
         }
         val prefs = settings.current
         val engine = local.find(prefs.speechEngine)
+        val spoken = SpokenNumbers.normalize(text, languageCode)
         if (engine == null || languageCode == null) {
             output = Output.SYSTEM
-            system.speak(text, languageCode, done)
+            system.speak(spoken, languageCode, done)
             return
         }
         job = scope.launch {
             _working.value = true
             val wav = try {
-                prepared?.audioFor(text, languageCode) ?: engine.synthesize(text, languageCode, prefs.speechVoices["${engine.engine.name}:$languageCode"], prefs.speechSpeed)
+                prepared?.audioFor(text, languageCode) ?: engine.synthesize(spoken, languageCode, prefs.speechVoices["${engine.engine.name}:$languageCode"], prefs.speechSpeed)
             } catch (e: CancellationException) {
                 // Stopped or replaced: the newer request owns the state now.
                 throw e
@@ -102,7 +104,7 @@ class Speaker(
                 player.play(wav, done)
             } else {
                 output = Output.SYSTEM
-                system.speak(text, languageCode, done)
+                system.speak(spoken, languageCode, done)
             }
         }
     }

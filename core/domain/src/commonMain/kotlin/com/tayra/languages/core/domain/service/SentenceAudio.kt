@@ -123,7 +123,7 @@ class SentenceAudio(
         return synthesis.withLock {
             cache.read(key) ?: try {
                 val prefs = settings.current
-                engine.synthesize(text, languageCode, prefs.speechVoices["${engine.engine.name}:$languageCode"], prefs.speechSpeed)
+                engine.synthesize(SpokenNumbers.normalize(text, languageCode), languageCode, prefs.speechVoices["${engine.engine.name}:$languageCode"], prefs.speechSpeed)
             } catch (e: CancellationException) {
                 throw e
             } catch (e: Exception) {
@@ -146,10 +146,11 @@ class SentenceAudio(
         return "${engine.engine.name}${engine.cacheVersion}|${prefs.speechVoices}|${prefs.speechSpeed}"
     }
 
+    /** Keyed by the text as spoken, so a clip cached before its numbers were rewritten is made again. */
     private fun keyOf(text: String, languageCode: String): String? {
         val engine = engine() ?: return null
         val prefs = settings.current
         val voice = prefs.speechVoices["${engine.engine.name}:$languageCode"].orEmpty()
-        return "${engine.engine.name}${engine.cacheVersion}|$voice|${prefs.speechSpeed}|$languageCode|$text"
+        return "${engine.engine.name}${engine.cacheVersion}|$voice|${prefs.speechSpeed}|$languageCode|${SpokenNumbers.normalize(text, languageCode)}"
     }
 }
