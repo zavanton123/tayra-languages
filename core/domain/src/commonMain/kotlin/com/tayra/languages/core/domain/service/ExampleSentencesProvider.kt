@@ -4,7 +4,8 @@ import com.tayra.languages.core.domain.model.Language
 
 /**
  * An example sentence using a term, with a translation and a recording when available; a sentence
- * taken from a published text links to it ([sourceUrl]) with its date (yyyy-mm-dd).
+ * taken from a published text links to it ([sourceUrl]) with its date (yyyy-mm-dd), and one from a
+ * course to its [lesson].
  */
 data class ExampleSentence(
     val text: String,
@@ -12,11 +13,16 @@ data class ExampleSentence(
     val audioUrl: String? = null,
     val sourceUrl: String? = null,
     val date: String? = null,
+    val lesson: ExampleLesson? = null,
 )
+
+/** The course lesson an example sentence is from. */
+data class ExampleLesson(val courseId: String, val lessonId: String, val courseTitle: String, val lessonTitle: String)
 
 /** Where example sentences come from. */
 enum class ExampleSource(val label: String) {
     TATOEBA("Tatoeba"),
+    COURSES("My courses"),
     LEIPZIG("Leipzig Corpora"),
 }
 
@@ -30,7 +36,7 @@ data class ExampleSourceFeatures(
     val phrases: Boolean,
 ) {
     companion object {
-        val TATOEBA = ExampleSourceFeatures(ExampleSource.TATOEBA, audio = true, sorts = ExampleSort.entries, translations = true, phrases = true)
+        val TATOEBA = ExampleSourceFeatures(ExampleSource.TATOEBA, audio = true, sorts = ExampleSort.entries - ExampleSort.COURSE_ORDER, translations = true, phrases = true)
     }
 }
 
@@ -44,6 +50,8 @@ enum class ExampleSort(val apiValue: String, val label: String) {
     OLDEST("created", "Oldest first"),
     RECENTLY_MODIFIED("-modified", "Recently modified"),
     RANDOM("random", "Random"),
+    /** The order of the course packs' courses and lessons; no service has it. */
+    COURSE_ORDER("course", "Course order"),
 }
 
 enum class SentenceOrigin(val apiValue: String, val label: String) {
