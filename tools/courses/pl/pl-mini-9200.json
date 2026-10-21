@@ -1,0 +1,229 @@
+{
+  "id": "pl-mini-9200",
+  "rankUpTo": 9200,
+  "level": "C2",
+  "title": "Mapy i orientacja w terenie",
+  "description": "Ten stories and essays about maps, compasses, routes and finding one's way in town, in the wild and at sea.",
+  "topic": "Maps and finding the way",
+  "names": [
+    "Bieszczady",
+    "Bieszczadach",
+    "Afryki",
+    "Weronika",
+    "Weroniki",
+    "Izabelinie",
+    "Puszczy Kampinoskiej",
+    "Bruno",
+    "Brunona",
+    "Zbigniew",
+    "Sierakowa",
+    "Grzegorz",
+    "Pieninach",
+    "Podhalu",
+    "Dunajca",
+    "Lidia",
+    "Lidko",
+    "Sandomierzem",
+    "Wawrzyńca",
+    "Wawrzyniec",
+    "Tadeusza",
+    "Tadeusz",
+    "Natalia",
+    "Natalii",
+    "Lublina",
+    "Iga",
+    "Igi",
+    "Kamil",
+    "Kamila",
+    "Kazimierzem Dolnym",
+    "Łódź",
+    "Łodzi",
+    "Joanna",
+    "Joannę",
+    "Joanny",
+    "Piotrkowskiej",
+    "Czesław",
+    "Czesławie",
+    "Czesława",
+    "Osaki",
+    "Uniwersytecie Morskim",
+    "Uniwersytet Morski",
+    "Gdyni",
+    "Gdynia",
+    "Kacper",
+    "Kacpra",
+    "Kacprowi",
+    "Dominik",
+    "Olszewski",
+    "Beata",
+    "Biebrzą",
+    "Biebrzy",
+    "Biebrza",
+    "Szymon",
+    "Jukatanu",
+    "Jukatanie",
+    "Kasiu",
+    "Rafałem",
+    "Rafał",
+    "Chicago",
+    "Ernesto",
+    "Ernesta",
+    "Ewa",
+    "Paulina",
+    "Pauliny",
+    "Lasach Oliwskich"
+  ],
+  "lessons": [
+    {
+      "title": "Gdzie naprawdę wschodzi słońce",
+      "summary": "A mountain guide tests the old rules for finding north against what astronomy and biology say.",
+      "newWords": [
+        "wschodzić",
+        "astronomia",
+        "polaryzacja",
+        "fizjologiczny",
+        "tesla",
+        "miernik",
+        "nonsens",
+        "sęk",
+        "skryć",
+        "kanoniczny"
+      ],
+      "text": "Od piętnastu lat prowadzę grupy po Bieszczadach i prawie na każdej wycieczce ktoś zadaje mi to samo pytanie.\n\n— A gdyby pani zgubiła mapę, a telefon by padł, to jak by pani znalazła północ?\n\nOdpowiadam, że w plecaku mam jeszcze kompas, ale wiem, że nie o to chodzi. Ludzie chcą usłyszeć o dawnej mądrości, która pozwala obejść się bez żadnych urządzeń. Sprawdźmy więc, co z niej zostaje.\n\nZacznijmy od rady najbardziej kanonicznej, którą powtarzają stare poradniki i ludzie przy ogniskach: mech rośnie po północnej stronie drzew. Brzmi to rozsądnie, bo na północną stronę pnia pada mniej słońca. Niestety w lesie to nonsens. Mech rośnie tam, gdzie jest wilgotno i gdzie woda dłużej spływa po korze, a to zależy od tego, jak pochyla się pień, jakie drzewa rosną obok i skąd wieje wiatr. Widziałam buki pokryte mchem ze wszystkich stron i takie, na których mech rósł akurat od południa. Kanoniczna rada sprawdza się może przy samotnym drzewie w otwartym polu, ale nie w gęstym lesie, czyli tam, gdzie gubimy się najczęściej.\n\nZe słońcem jest lepiej, choć i tu czeka pułapka. Każde dziecko wie, że słońce wschodzi na wschodzie. Tymczasem dokładnie na wschodzie wschodzi tylko dwa razy w roku, wiosną i jesienią, kiedy dzień jest równy nocy. W czerwcu słońce wschodzi w Bieszczadach daleko na północnym wschodzie, a w grudniu wyraźnie na południowym wschodzie. Różnica sięga kilkudziesięciu stopni. Astronomia nie jest tu żadną tajemnicą: wystarczy pamiętać, że oś Ziemi jest pochylona. Odrobina astronomii chroni przed błędem, który na długiej trasie potrafi zaprowadzić nas do niewłaściwej doliny.\n\nA co wtedy, gdy słońce skrywają chmury? Pszczoły radzą sobie i w takich warunkach, bo widzą polaryzację światła na niebie. Polaryzacja układa się w stały wzór, który zależy od położenia słońca, więc owad zna kierunek, choć samo słońce jest skryte za chmurą. Człowiek nie widzi polaryzacji gołym okiem, dlatego w taki dzień musi mu wystarczyć mapa.\n\nJeszcze ciekawsze jest to, jak ptaki, które co roku lecą do Afryki, wyczuwają pole magnetyczne Ziemi. Badacze wciąż szukają mechanizmu fizjologicznego, który im to umożliwia, i podejrzewają szczególne białka w oku. Sęk w tym, że ziemskie pole jest niezwykle słabe. Ma około pięćdziesięciu milionowych części tesli, a zwykły magnes na lodówce jest od niego co najmniej sto razy silniejszy. Tesla to jednostka, której w życiu codziennym prawie nie używamy, ale właśnie w teslach fizycy wyrażają siłę pola. Taki sygnał trudno nawet zmierzyć, a co dopiero poczuć, i w tym sęk całej zagadki.\n\nMój telefon ma w środku maleńki miernik pola magnetycznego i to on obraca strzałkę na ekranie. Taki miernik łatwo jednak oszukać: wystarczy metalowy zamek plecaka albo samochód zaparkowany obok. Dlatego przed każdym wyjściem sprawdzam, czy miernik w telefonie pokazuje to samo co mój stary kompas. Proces fizjologiczny w ciele ptaka i elektronika w telefonie robią w gruncie rzeczy to samo: zamieniają słaby sygnał na kierunek.\n\nJaka z tego nauka? Nie ufajmy radom tylko dlatego, że są stare. Słońce, gwiazdy i kształt terenu mówią wiele, ale trzeba je czytać z głową, a mapę i kompas warto mieć przy sobie.\n\nPytania:\nDlaczego rada o mchu jest według autorki nonsensem?\nBo mech rośnie tam, gdzie jest wilgotno, a nie zawsze po północnej stronie drzewa.\nKiedy słońce wschodzi dokładnie na wschodzie?\nTylko dwa razy w roku, wiosną i jesienią, kiedy dzień jest równy nocy.\nJak pszczoły znajdują kierunek, kiedy słońce jest skryte za chmurami?\nWidzą polaryzację światła na niebie, która zależy od położenia słońca.\nJak silne jest pole magnetyczne Ziemi?\nMa około pięćdziesięciu milionowych części tesli, więc jest dużo słabsze od magnesu na lodówce.\nCo autorka sprawdza przed każdym wyjściem?\nSprawdza, czy miernik w telefonie pokazuje to samo co jej stary kompas."
+    },
+    {
+      "title": "Niebieska kropka w puszczy",
+      "summary": "A dog runs off in the Kampinos Forest and a map on a phone, a local online group and a forester bring him home.",
+      "newWords": [
+        "szarpać",
+        "zoologiczny",
+        "ała",
+        "chłód",
+        "moderator",
+        "odzew",
+        "przyprowadzić",
+        "głaskać",
+        "weterynaryjny"
+      ],
+      "text": "Weronika mieszka w Izabelinie, na skraju Puszczy Kampinoskiej, i codziennie rano chodzi z psem do lasu. Bruno ma dwa lata i bardzo dużo energii. Kiedy poczuje sarnę albo dzika, zaczyna szarpać smycz tak mocno, że Weronika ledwo go utrzymuje. Dlatego jesienią kupiła w sklepie zoologicznym obrożę z nadajnikiem. Sprzedawca w sklepie zoologicznym pokazał jej, jak działa aplikacja: na mapie widać niebieską kropkę, która pokazuje, gdzie jest pies, a obok szlaki, drogi i nazwy polan.\n\nW listopadowy poranek Bruno zobaczył między sosnami jelenia. Zaczął szarpać tak gwałtownie, że Weronika poślizgnęła się na mokrych liściach i upadła na kolano.\n\n— Ała! — krzyknęła i przez chwilę nie mogła wstać.\n\nSmycz wysunęła się jej z ręki, a kiedy podniosła głowę, psa już nie było.\n\nOtworzyła aplikację. Niebieska kropka szybko przesuwała się na zachód, w stronę bagien. Weronika szła za nią przez godzinę, przez mokre łąki i wąskie leśne ścieżki, ale kropka wciąż była daleko. Tymczasem robiło się coraz zimniej. Wilgotny chłód przenikał przez kurtkę, a na chłodzie bateria w telefonie traciła energię szybciej niż zwykle. Kiedy zostało jej kilka procent, Weronika zrozumiała, że musi wrócić do domu, zanim telefon zgaśnie w środku lasu.\n\nW domu podłączyła telefon do ładowarki i napisała post w lokalnej grupie mieszkańców. Moderator grupy, pan Zbigniew, od razu przypiął post na górze strony i dodał mapę z zaznaczonym miejscem, w którym pies zniknął. Odzew był ogromny. W ciągu kwadransa pojawiło się kilkadziesiąt komentarzy. Ktoś widział psa przy drodze do Sierakowa, ktoś inny proponował, że pojedzie tam rowerem. Moderator co pół godziny dopisywał nowe informacje, żeby nikt nie szukał w złym miejscu. Weronika nie spodziewała się takiego odzewu od ludzi, których w większości nawet nie znała.\n\nPo południu kropka zatrzymała się przy domu leśnika. Wkrótce zadzwonił telefon.\n\n— Dzień dobry, mam pani psa — powiedział spokojny męski głos. — Siedzi u mnie na podwórku i je chleb. Przyprowadzę go na parking przy szlaku, bo tam łatwo pani trafi.\n\nPół godziny później leśnik przyprowadził Brunona na kawałku sznurka. Pies był brudny i zmęczony, ale cały. Weronika uklękła przy nim i długo go głaskała, a on lizał ją po rękach. Leśnik też go pogłaskał i powiedział, że to nie pierwszy pies, którego przyprowadził z lasu tej jesieni.\n\nNa wszelki wypadek pojechali jeszcze do przychodni weterynaryjnej. Lekarka obejrzała łapy psa i wyjęła mu z jednej łapy mały kolec. Weronika głaskała go po głowie, żeby się nie bał. W przychodni weterynaryjnej usłyszała też, że obroża z nadajnikiem to dobry pomysł, ale w lesie najważniejsza jest mocna smycz.\n\nDopiero wieczorem Weronika poczuła kolano.\n\n— Ała — powiedziała cicho, kiedy zobaczyła wielki siniak.\n\nNapisała jeszcze w grupie podziękowanie dla leśnika, dla moderatora i dla wszystkich, którzy pomagali. Odzew i tym razem był bardzo ciepły.\n\nPytania:\nCo Weronika kupiła w sklepie zoologicznym?\nKupiła obrożę z nadajnikiem, dzięki której widzi psa na mapie w telefonie.\nDlaczego Weronika upadła?\nBo Bruno zobaczył jelenia i zaczął szarpać smycz, a ona poślizgnęła się na mokrych liściach.\nDlaczego musiała wrócić do domu?\nBo na chłodzie bateria w telefonie szybko traciła energię.\nCo zrobił moderator grupy?\nPrzypiął post na górze strony, dodał mapę i co pół godziny dopisywał nowe informacje.\nKto przyprowadził Brunona?\nPrzyprowadził go leśnik, u którego pies siedział na podwórku.\nCo zrobiła lekarka w przychodni weterynaryjnej?\nObejrzała łapy psa i wyjęła mu z łapy mały kolec."
+    },
+    {
+      "title": "Burza nad przełęczą",
+      "summary": "A woman and her cyclist brother plan a mountain ride on a paper map and get through a summer storm.",
+      "newWords": [
+        "kolarz",
+        "aluminiowy",
+        "dźwignia",
+        "szorstki",
+        "trwałość",
+        "mięśniowy",
+        "poprzeczny",
+        "burzliwy",
+        "zahamować",
+        "solidarny"
+      ],
+      "text": "Mój brat Grzegorz jest kolarzem amatorem, ale traktuje rower poważniej niż niejeden zawodowiec. Kiedy zaproponował mi trzy dni jazdy po Pieninach i Podhalu, zgodziłam się pod jednym warunkiem: trasę zaplanujemy razem, na papierowej mapie, a nie tylko w telefonie.\n\nWieczorem rozłożyliśmy mapę na stole w kuchni. Grzegorz od razu szukał podjazdów, ja patrzyłam na odległości między wioskami i na miejsca, w których można coś zjeść. Mapa pokazywała więcej, niż się spodziewałam: gęste poziomice przy przełęczy i drobne szlaki w dolinach, których aplikacja w ogóle nie widziała. Grzegorz, jak każdy kolarz, liczył każdą trasę w metrach pod górę.\n\n— Pierwszego dnia 400 metrów, drugiego prawie tysiąc — powiedział. — Dasz radę, Lidko?\n\n— Jeśli będziemy solidarni i pojedziemy w moim tempie, to tak.\n\nMój rower ma lekką aluminiową ramę, którą kupiłam dwa lata temu. Grzegorz długo mnie przekonywał, że aluminiowa rama nie ustępuje stalowej, a trwałość ma zupełnie wystarczającą, jeśli się o nią dba. Przed wyjazdem sprawdził jeszcze hamulce i ustawił dźwignię hamulca, bo była za daleko od kierownicy i musiałam sięgać do niej całą dłonią. Na długich zjazdach dźwignia musi być pod palcami, wyjaśnił, bo wtedy hamuje się spokojnie, a nie w panice.\n\nPierwszy dzień był łatwy. Jechaliśmy wzdłuż Dunajca, a asfalt był gładki jak stół. Drugiego dnia droga na przełęcz okazała się stara i zniszczona. Szorstki asfalt był pełen dziur, a na zakrętach leżał piasek. Na stromych odcinkach drogę przecinały poprzeczne rowki, które mają odprowadzać wodę. Grzegorz uprzedził mnie, żebym przejeżdżała przez poprzeczne rowki prosto, bo jeśli wjedzie się w nie pod kątem, koło łatwo wpada w rowek.\n\nW połowie podjazdu poczułam pierwsze skurcze w nogach. Ból mięśniowy był tak silny, że musiałam zejść z roweru. Grzegorz nie pojechał dalej sam. Usiedliśmy na kamieniu, zjedliśmy po bananie i wypiliśmy dużo wody, a on opowiadał, że zmęczenie mięśniowe w górach zna każdy kolarz, nawet ten najlepszy. Potem wziął mój plecak na swój bagażnik. Tak wyglądała nasza solidarna jazda: on niósł więcej, ja wyznaczałam tempo.\n\nNa przełęczy niebo nagle zrobiło się ciemne. Lato w górach bywa burzliwe, ale prognoza zapowiadała burze dopiero na późne popołudnie. Zaczęło padać, a szorstka nawierzchnia zrobiła się mokra i niebezpieczna. Na zjeździe przed pierwszym zakrętem chciałam zahamować mocno, ale przypomniałam sobie słowa brata i hamowałam delikatnie, obiema dźwigniami naraz. Raz musiałam zahamować przed owcą, która wyszła na drogę, i rower stanął spokojnie.\n\nBurzliwe popołudnie spędziliśmy pod dachem przystanku autobusowego. Kiedy przestało padać, dojechaliśmy do schroniska, mokrzy, ale zadowoleni. Moja aluminiowa rama zniosła wszystkie dziury i o jej trwałość nie musiałam się już martwić. Wieczorem znowu rozłożyliśmy mapę i Grzegorz zaznaczył ołówkiem nową, łagodniejszą trasę na ostatni dzień.\n\nPytania:\nDlaczego Lidia chciała planować trasę na papierowej mapie?\nBo mapa pokazuje więcej niż aplikacja, na przykład drobne szlaki w dolinach.\nCo Grzegorz zrobił z dźwignią hamulca?\nUstawił ją bliżej kierownicy, bo była za daleko.\nJak trzeba przejeżdżać przez poprzeczne rowki?\nTrzeba przejeżdżać przez nie prosto, bo pod kątem koło łatwo wpada w rowek.\nCo się stało w połowie podjazdu?\nLidia poczuła silny ból mięśniowy w nogach i musiała zejść z roweru.\nJak hamowała Lidia na mokrym zjeździe?\nHamowała delikatnie, obiema dźwigniami naraz."
+    },
+    {
+      "title": "Mapa pradziadka Wawrzyńca",
+      "summary": "A woman finds a hand-drawn map of her great-grandfather's village and walks the fields it shows with her half-brother.",
+      "newWords": [
+        "pradziadek",
+        "przegroda",
+        "przypis",
+        "wieśniak",
+        "orka",
+        "przyrodni",
+        "anegdota",
+        "piętno",
+        "taić",
+        "dręczyć"
+      ],
+      "text": "Kiedy babcia przeprowadziła się do nas, do miasta, pojechałam porządkować jej stary dom pod Sandomierzem. Na strychu znalazłam drewnianą skrzynkę. W środku były przegrody z cienkiej deski, a w każdej przegrodzie leżało coś innego: listy, zdjęcia, guziki, kawałek sznurka. W ostatniej, najwęższej przegrodzie był złożony na cztery arkusz grubego papieru. To była mapa narysowana ręką mojego pradziadka Wawrzyńca.\n\nPradziadek narysował na niej swoją wieś tak, jak wyglądała około 1930 roku: drogę, staw, kilka domów, studnię i długie, wąskie pola ciągnące się aż do Wisły. Przy każdym polu postawił numer, a na dole kartki, pod kreską, dopisał przypisy. Przypis pierwszy mówił: „Glina ciężka, orka tylko po deszczu”. Przypis trzeci: „Tu woda stoi do maja”. Przy siódmym polu był najdłuższy przypis, o roku powodzi, kiedy rzeka zabrała połowę zboża.\n\nW dokumentach z tamtych lat o ludziach takich jak on pisano po prostu „wieśniak”. Dziś to słowo bywa obraźliwe, ale pradziadek, jak opowiadała babcia, sam tak o sobie mówił i był z tego dumny. Był wieśniakiem, który umiał czytać i pisać, a to w jego wsi nie było wcale oczywiste. Dla takiego wieśniaka mapa była czymś w rodzaju dziennika: zapisywał w niej, kiedy zaczyna się wiosenna orka, gdzie ziemia jest najlepsza i które pole nadaje się tylko na łąkę.\n\nZadzwoniłam do mojego przyrodniego brata Tadeusza. Mamy wspólnego ojca, ale różne matki, i przez wiele lat widywaliśmy się rzadko. To jednak Tadeusz zna najwięcej rodzinnych historii, bo jako chłopiec spędzał każde wakacje u babci. Mój przyrodni brat przyjechał w najbliższą sobotę i od razu pochylił się nad mapą.\n\n— Pamiętam to pole — powiedział, pokazując numer siódmy. — Babcia mówiła, że po tamtej powodzi orka trwała tu do czerwca, bo ziemia była pełna piasku.\n\nPotem opowiedział anegdotę, którą słyszał od babci wiele razy. Pradziadek podobno przez całe życie liczył kroki, zamiast używać miarki, i jego mapa była tak dokładna, że sąsiedzi przychodzili do niego, kiedy kłócili się o granicę pola. Tadeusz zna więcej takich anegdot. Nie wiem, ile w nich prawdy, ale chętnie w nie wierzę.\n\nPoszliśmy razem nad rzekę, z mapą w ręce. Dużo się zmieniło: zamiast wąskich pól są dziś duże łąki, a staw zarósł trzciną. Powódź zostawiła jednak trwałe piętno na krajobrazie. Tam, gdzie pradziadek zaznaczył zniszczone pole, do dziś ziemia jest niższa i bardziej piaszczysta. To piętno widać nawet na zdjęciach z satelity.\n\nJedna rzecz nie dawała mi jednak spokoju. Dręczyły mnie pytania, na które mapa nie odpowiadała: dlaczego babcia nigdy nam jej nie pokazała? Czy coś przed nami ukrywała? Wieczorem do niej zadzwoniłam. Babcia roześmiała się i powiedziała, że niczego nie tai, po prostu nie przyszło jej do głowy, że stara kartka może kogoś zainteresować.\n\n— Po co miałabym taić coś przed własnymi wnukami? — dodała. — Przyjedźcie w niedzielę, to opowiem wam resztę.\n\nPytania:\nGdzie leżała mapa pradziadka?\nLeżała w najwęższej przegrodzie drewnianej skrzynki na strychu.\nCo pradziadek zapisywał w przypisach?\nZapisywał, jaka jest ziemia na każdym polu, kiedy można zaczynać orkę i co się stało w roku powodzi.\nKim jest Tadeusz dla autorki?\nJest jej przyrodnim bratem: mają wspólnego ojca, ale różne matki.\nO czym opowiada anegdota, którą Tadeusz słyszał od babci?\nO tym, że pradziadek liczył kroki zamiast używać miarki, a sąsiedzi przychodzili do niego, kiedy kłócili się o granicę pola.\nJakie piętno zostawiła powódź?\nZiemia w miejscu zniszczonego pola jest do dziś niższa i bardziej piaszczysta.\nJakie pytania dręczyły autorkę?\nDręczyły ją pytania, dlaczego babcia nigdy nie pokazała im mapy i czy coś przed nimi ukrywała.\nCo odpowiedziała babcia?\nPowiedziała, że niczego nie tai, tylko nie przyszło jej do głowy, że stara kartka może kogoś zainteresować."
+    },
+    {
+      "title": "Sesja w wąwozie",
+      "summary": "A photographer uses a map to find the right ravine and the right hour of light for an outdoor portrait session.",
+      "newWords": [
+        "plener",
+        "zaaranżować",
+        "pozować",
+        "soczysty",
+        "brunet",
+        "beret",
+        "przymierzyć",
+        "puder"
+      ],
+      "text": "Natalia jest fotografką z Lublina i od kilku lat robi głównie zdjęcia w plenerze. Studio ma swoje zalety, ale nic nie zastąpi światła, które przechodzi przez liście, ani wiatru, który porusza włosy. Praca w plenerze wymaga jednak przygotowania, o jakim w studiu nikt nie myśli: trzeba znać teren, pogodę i drogę słońca po niebie.\n\nW maju napisała do niej młoda para, Iga i Kamil. Chcieli mieć zdjęcia na pierwszą rocznicę ślubu i marzyli o lessowych wąwozach pod Kazimierzem Dolnym. Natalia obiecała, że wszystko zaaranżuje, ale najpierw musiała zobaczyć miejsce na własne oczy.\n\nWieczorem usiadła nad mapą turystyczną okolicy. Wąwozów jest tam kilkadziesiąt, a każdy biegnie w inną stronę. Natalia szukała takiego, który ciągnie się z zachodu na wschód, bo wtedy wczesnym rankiem słońce zagląda w głąb wąwozu i oświetla ściany z boku. Wąwóz, który biegnie z północy na południe, rano jest ciemny jak korytarz. Z mapy wybrała dwa miejsca i w sobotę pojechała je obejrzeć. Pierwszy wąwóz był zbyt zarośnięty. Drugi okazał się idealny: wysokie ściany, korzenie drzew wiszące nad ścieżką i soczysta, majowa zieleń, w której każdy kolor wydaje się mocniejszy. Natalia zaznaczyła na mapie miejsce, w którym ścieżka się rozszerza, bo tam łatwo będzie ustawić ludzi.\n\nSesję zaaranżowała na niedzielę o 6:30. Iga i Kamil przyjechali punktualnie, choć trochę zaspani. Kamil jest wysokim brunetem z krótką brodą i ciemnymi oczami. Natalia od razu wiedziała, że brunet w ciemnej kurtce zniknie na tle ciemnych korzeni, więc poprosiła go o jasną koszulę. Na szczęście miał ją w samochodzie.\n\nIga przywiozła torbę pełną rzeczy. Przy samochodzie zaczęła przymierzać berety: czerwony, granatowy i musztardowy. Czerwony beret wyglądał w zieleni zbyt ostro, granatowy zlewał się z cieniem, a musztardowy pasował do koloru lessu. Przymierzając jeszcze szal, uznała, że zasłania jej szyję, i odłożyła go do torby. Kamil w tym czasie przymierzał kapelusz, ale szybko go zdjął. W końcu została w musztardowym berecie.\n\nZanim zaczęli, Natalia wyjęła z torby puder. Rano w wąwozie jest wilgotno, a wilgoć sprawia, że skóra błyszczy w świetle. Odrobina pudru na czole i nosie wystarczyła, żeby twarze wyglądały naturalnie. Kamil najpierw protestował, ale po zobaczeniu pierwszych zdjęć sam poprosił o puder.\n\nNajtrudniejsze było pozowanie. Iga i Kamil nie lubili pozować i na początku stali sztywno jak do zdjęcia w dowodzie. Natalia przestała więc mówić im, jak mają pozować. Poprosiła ich, żeby po prostu szli ścieżką, rozmawiali i zatrzymywali się tam, gdzie im się podoba. Wtedy zaczęli się śmiać, a ona robiła zdjęcia z daleka.\n\nPo godzinie słońce stanęło wyżej i światło w wąwozie zrobiło się płaskie. Sesja w plenerze się skończyła, ale Natalia była zadowolona. Na najlepszym zdjęciu Iga w musztardowym berecie i Kamil w jasnej koszuli idą przez soczystą zieleń, a za nimi świeci złote poranne słońce.\n\nPytania:\nDlaczego Natalia studiowała mapę przed sesją?\nSzukała wąwozu, który biegnie z zachodu na wschód, bo wtedy rano słońce oświetla go z boku.\nNa kiedy Natalia zaaranżowała sesję?\nZaaranżowała ją na niedzielę o 6:30.\nDlaczego poprosiła Kamila o jasną koszulę?\nBo Kamil jest brunetem i w ciemnej kurtce zniknąłby na tle ciemnych korzeni.\nKtóry beret wybrała Iga i dlaczego?\nWybrała musztardowy beret, bo pasował do koloru lessu.\nDo czego Natalia użyła pudru?\nUżyła pudru, żeby skóra nie błyszczała w wilgotnym wąwozie.\nJak Natalia pomogła parze, która nie lubiła pozować?\nPoprosiła ich, żeby po prostu szli ścieżką i rozmawiali, a sama robiła zdjęcia z daleka."
+    },
+    {
+      "title": "Łódź według murali",
+      "summary": "A visitor walks a mural trail in Łódź, gets lost between old factory houses and is helped by a barman and an elderly gentleman.",
+      "newWords": [
+        "mural",
+        "barman",
+        "zagadać",
+        "zakładowy",
+        "samuraj",
+        "dżentelmen",
+        "udekorować",
+        "współtwórca"
+      ],
+      "text": "Joanna przyjechała do Łodzi na dwa dni, bo od dawna chciała zobaczyć tutejsze murale. W hostelu przy Piotrkowskiej dostała papierową mapę, na której zaznaczono kilkadziesiąt ścian pomalowanych przez artystów z całego świata. Każdy mural miał na mapie swój numer i krótki opis. Joanna postanowiła iść pieszo i nie zaglądać do telefonu, dopóki naprawdę się nie zgubi.\n\nRano zeszła do hostelowego baru na śniadanie. Barman, młody chłopak z kolczykiem w uchu, zobaczył mapę w jej ręce i od razu zaczął doradzać.\n\n— Niech pani zacznie od numeru 12, to jest mój ulubiony mural — powiedział. — A potem warto skręcić w stronę dawnej fabryki, tam jest kilka mniej znanych.\n\nJoanna zapisała sobie jego rady na marginesie. Barman dodał jeszcze, że jeśli się zgubi, wystarczy zagadać do kogoś starszego, bo starsi łodzianie znają każdą bramę.\n\nPierwsze murale znalazła bez trudu. Na jednym z nich wielka dziewczyna w żółtym płaszczu trzymała w dłoniach miniaturową kamienicę. Na innym ogromny samuraj w czerwonym stroju, z wachlarzem w dłoni, patrzył z wysokości czwartego piętra na zwykły tramwaj. Joanna długo stała pod samurajem i próbowała zrozumieć, skąd samuraj wziął się na łódzkiej ścianie. Opis na mapie wyjaśniał tylko, że namalował go artysta z Osaki, który kilka lat mieszkał w mieście.\n\nPotem skręciła w stronę dawnej fabryki i tu zaczęły się kłopoty. Między ceglanymi budynkami biegło wiele wąskich uliczek, które na mapie wyglądały jak jedna. Joanna weszła między dawne domy zakładowe, w których kiedyś mieszkali robotnicy przędzalni, i straciła orientację. Wszystkie budynki zakładowe były podobne: czerwona cegła, wysokie okna, podwórka z drzewami.\n\nNa ławce przed jednym z domów siedział starszy pan w kapeluszu, z laską i w starannie zawiązanym krawacie. Wyglądał jak prawdziwy dżentelmen z dawnych lat. Joanna przypomniała sobie radę barmana i postanowiła do niego zagadać.\n\n— Przepraszam pana, szukam muralu z ptakami. Na mapie powinien być gdzieś tutaj.\n\n— Ptaki są za rogiem, droga pani — odpowiedział z uśmiechem. — Ale najpierw proszę spojrzeć na nasz dom.\n\nOkazało się, że pan Czesław mieszka w tym domu zakładowym od urodzenia. Opowiedział, że kiedy kilka lat temu pewien artysta udekorował ścianę jego budynku, sąsiedzi najpierw byli przeciwni. Teraz są dumni, bo ich ściana jest udekorowana obrazem starej przędzalni, a ludzie przyjeżdżają ją oglądać z całej Polski. Pan Czesław dodał skromnie, że jest współtwórcą tego muralu: to on pożyczył artyście zdjęcia z rodzinnego albumu, na których widać dawne hale fabryki.\n\n— Nie trzymałem pędzla, ale można powiedzieć, że jestem współtwórcą — zaśmiał się prawdziwy dżentelmen i odprowadził Joannę do rogu ulicy.\n\nWieczorem Joanna wróciła do hostelu. Bar był już udekorowany kolorowymi lampkami, a barman przecierał stoły. Opowiedziała mu o panu Czesławie, a on wziął jej mapę i dopisał długopisem nowy numer przy domu zakładowym za rogiem.\n\n— Będę tam wysyłał wszystkich gości — obiecał.\n\nPytania:\nCo Joanna dostała w hostelu?\nDostała papierową mapę z muralami, z których każdy miał swój numer i krótki opis.\nCo doradził jej barman?\nDoradził, żeby zaczęła od numeru 12, a jeśli się zgubi, żeby zagadała do kogoś starszego.\nCo przedstawiał mural przy tramwaju?\nPrzedstawiał ogromnego samuraja w czerwonym stroju, z wachlarzem w dłoni.\nGdzie Joanna straciła orientację?\nStraciła ją między dawnymi domami zakładowymi, które wszystkie były do siebie podobne.\nDlaczego pan Czesław mówi, że jest współtwórcą muralu?\nBo pożyczył artyście zdjęcia z rodzinnego albumu, na których widać dawne hale fabryki."
+    },
+    {
+      "title": "Sztorm w symulatorze",
+      "summary": "A navigation student in Gdynia brings a virtual ship into port through a storm on a bridge simulator, and the exercise is discussed afterwards.",
+      "newWords": [
+        "symulator",
+        "zwierzchnik",
+        "ingerować",
+        "furia",
+        "opresja",
+        "odciągnąć",
+        "przedyskutować"
+      ],
+      "text": "Na Uniwersytecie Morskim w Gdyni jest sala, która z zewnątrz wygląda jak zwykła pracownia, a w środku przypomina mostek prawdziwego statku. Przed fotelami stoją stoły z radarem i ekranami, na których widać mapę morską, a wokół rozciąga się wielki obraz morza. To symulator nawigacyjny. Studenci spędzają w nim dziesiątki godzin, zanim staną na mostku statku, który naprawdę płynie.\n\nKacper jest na trzecim roku nawigacji. Tego dnia miał wprowadzić do portu w Gdyni wirtualny statek z kontenerami, długi na prawie 200 metrów. W ćwiczeniu był oficerem nawigacyjnym, a jego zwierzchnikiem, czyli kapitanem statku, był kolega z roku, Dominik. Prawdziwy kapitan, wykładowca Olszewski, siedział w sąsiednim pokoju i obserwował wszystko na monitorach. Przed ćwiczeniem uprzedził ich, że nie będzie ingerował, chyba że statkowi zagrozi poważne niebezpieczeństwo.\n\nKacper zaczął od mapy. Sprawdził głębokości przy wejściu do portu, zaznaczył tor wodny i miejsca, w których trzeba zmienić kurs. Na papierze wszystko wydawało się proste. Potem wykładowca włączył pogodę. Wiatr z północnego zachodu rósł z każdą minutą, aż morze w symulatorze wpadło w prawdziwą furię. Fale uderzały w dziób, a obraz na ekranach poruszał się tak, że Kacprowi zrobiło się niedobrze, choć podłoga sali przecież stała w miejscu.\n\nFuria wiatru spychała statek na płytką wodę po prawej stronie toru. Kacper zgłosił to zwierzchnikowi, a Dominik kazał zmniejszyć prędkość. To był błąd: wolniejszy statek jeszcze gorzej słuchał steru. Po kilku minutach statek znalazł się w poważnej opresji, kilkadziesiąt metrów od miejsca, w którym woda miała zaledwie 8 metrów głębokości.\n\n— Wzywam holowniki — powiedział Kacper.\n\nDominik się zgodził. Po chwili na ekranie pojawiły się dwa holowniki. Jeden podszedł od strony płytkiej wody i zaczął odciągać tył statku na środek toru. Drugi pchał dziób. Powoli, metr po metrze, holowniki odciągały statek od niebezpiecznego miejsca. Kacper wiedział, że gdyby wezwał je dziesięć minut wcześniej, nie musiałyby nikogo odciągać, wystarczyłoby, żeby szły obok.\n\nStatek wyszedł z opresji i godzinę później stał w porcie. Wykładowca ani razu nie ingerował. Kiedy Kacper i Dominik wyszli z symulatora, byli mokrzy od potu, jakby naprawdę stali w sztormie na otwartym mostku.\n\n— Teraz musimy wszystko przedyskutować — powiedział kapitan Olszewski i włączył nagranie.\n\nOglądali ćwiczenie minuta po minucie. Wykładowca nie krzyczał i nikogo nie oceniał. Pytał tylko, co każdy z nich widział w danej chwili i dlaczego podjął taką decyzję. Dominik przyznał, że jako zwierzchnik powinien był słuchać oficera, kiedy ten pierwszy raz mówił o płytkiej wodzie. Kacper przyznał, że za późno pomyślał o holownikach.\n\n— Właśnie po to jest symulator — powiedział na koniec wykładowca. — Tu można popełnić błąd, przedyskutować go spokojnie i spróbować jeszcze raz. Na prawdziwym morzu tej szansy nie ma.\n\nPytania:\nJak wygląda symulator na Uniwersytecie Morskim?\nWygląda jak mostek statku: ma stoły z radarem, ekrany z mapą morską i wielki obraz morza.\nKto był zwierzchnikiem Kacpra w ćwiczeniu?\nJego zwierzchnikiem był kolega z roku, Dominik, który grał kapitana statku.\nKiedy wykładowca chciał ingerować?\nChciał ingerować tylko wtedy, gdyby statkowi zagroziło poważne niebezpieczeństwo.\nDlaczego statek znalazł się w opresji?\nBo furia wiatru spychała go na płytką wodę, a wolniejszy statek gorzej słuchał steru.\nCo zrobiły holowniki?\nJeden zaczął odciągać tył statku na środek toru, a drugi pchał dziób, aż statek odszedł od płytkiej wody.\nPo co według wykładowcy jest symulator?\nŻeby można było popełnić błąd, przedyskutować go spokojnie i spróbować jeszcze raz."
+    },
+    {
+      "title": "Misa po lodowcu",
+      "summary": "An aunt and her nephew follow a map along a wooden path across the Biebrza marshes and learn where the valley and its gas come from.",
+      "newWords": [
+        "jajecznica",
+        "rzeźbić",
+        "misa",
+        "wytwór",
+        "brzydzić",
+        "metan",
+        "cieplarniany"
+      ],
+      "text": "Beata od lat obiecywała siostrzeńcowi, że pokaże mu bagna nad Biebrzą. W końcu w maju pojechali tam we dwoje na długi weekend. Szymon ma 12 lat, lubi mapy i od razu zapowiedział, że to on będzie prowadził.\n\nPierwszego ranka gospodyni pensjonatu podała im na śniadanie jajecznicę z jajek od własnych kur, z cebulą i świeżym chlebem. Szymon zjadł dwie porcje jajecznicy i dopiero wtedy rozłożył na stole mapę. Dolina Biebrzy wyglądała na niej jak ogromna zielona plama, pełna niebieskich kresek i drobnych znaczków, które oznaczają mokry teren. Drogi kończyły się na jej brzegu, jakby nikt nie odważył się wejść dalej.\n\n— Ciociu, dlaczego tu jest tak płasko? — zapytał Szymon.\n\nBeata pokazała mu na mapie wzgórza, które otaczają dolinę z obu stron. Wyjaśniła, że kilkanaście tysięcy lat temu leżał tu lodowiec. Lód przesuwał się powoli i rzeźbił teren jak cierpliwy rzeźbiarz: tu zostawiał wzgórza z piasku i kamieni, tam wyrzeźbił głębokie zagłębienia. Dolina Biebrzy to szeroka, płaska misa, którą lodowiec wyrzeźbił, a potem wypełniła woda. Wzgórza wokół niej są wytworem tego samego lodowca. Szymon długo patrzył na mapę i powiedział, że teraz widzi brzegi tej misy, bo poziomice na wzgórzach są gęste, a w środku nie ma ich prawie wcale.\n\nPo śniadaniu poszli na drewnianą ścieżkę, która prowadzi przez bagno do wieży widokowej. Deski były mokre, a po obu stronach stała czarna woda z kępami trawy. Szymon pochylił się i dotknął palcem mułu przy brzegu deski, ale zaraz cofnął rękę.\n\n— Fuj, brzydzę się tego — powiedział i wytarł palec o trawę.\n\nBeata się uśmiechnęła. Przyznała, że ona też brzydzi się błota, ale błoto na Biebrzy jest czymś niezwykłym. To torf, wytwór tysięcy lat, w czasie których martwe rośliny opadały na dno i nie mogły się rozłożyć, bo ciągle przykrywała je woda.\n\nNagle Szymon zauważył, że spod wody wypływają małe pęcherzyki. Beata wyjaśniła, że to metan. Kiedy rośliny gniją w miejscu, gdzie brakuje powietrza, powstaje gaz, który wypływa na powierzchnię. Metan jest jednym z gazów cieplarnianych, tak jak dwutlenek węgla, a nawet silniej od niego ogrzewa Ziemię. Jednocześnie zdrowe, mokre bagno wiąże w torfie ogromne ilości węgla.\n\n— To bagno jest dobre czy złe? — zapytał Szymon.\n\n— Dopóki jest mokre, raczej dobre — odpowiedziała Beata. — Gorzej, kiedy ludzie odprowadzają z niego wodę. Wtedy torf wysycha i wypuszcza do powietrza gazy cieplarniane, które bagno trzymało w sobie przez tysiące lat.\n\nZ wieży widokowej zobaczyli całą misę doliny, łosia w trzcinach i stado żurawi. Szymon zaznaczył łosia ołówkiem na mapie. Wieczorem przy kolacji opowiedział gospodyni o metanie, a ona obiecała, że rano znowu zrobi mu jajecznicę.\n\nPytania:\nCo Szymon zjadł na śniadanie?\nZjadł dwie porcje jajecznicy z cebulą.\nJak powstała dolina Biebrzy?\nLodowiec rzeźbił teren i wyrzeźbił szeroką, płaską misę, którą potem wypełniła woda.\nCzego brzydził się Szymon?\nBrzydził się mułu przy brzegu drewnianej ścieżki.\nSkąd biorą się pęcherzyki na wodzie?\nTo metan, który powstaje, kiedy rośliny gniją w miejscu, gdzie brakuje powietrza.\nCo się dzieje, kiedy ludzie odprowadzają wodę z bagna?\nTorf wysycha i wypuszcza do powietrza gazy cieplarniane.\nCo Szymon zobaczył z wieży widokowej?\nZobaczył całą misę doliny, łosia w trzcinach i stado żurawi."
+    },
+    {
+      "title": "List z Jukatanu",
+      "summary": "In a letter to her sister, a Polish woman from Chicago describes a small expedition through the Mexican forest to a hidden natural well.",
+      "newWords": [
+        "router",
+        "domyślnie",
+        "ekspedycja",
+        "trampek",
+        "peso",
+        "drób",
+        "maczeta"
+      ],
+      "text": "Droga Kasiu,\n\npiszę do Ciebie z małego miasta na Jukatanie, w hostelowym ogródku, bo tylko tu jest dobry zasięg. Router wisi na ścianie nad recepcją i wszyscy goście siedzą jak najbliżej niego, z telefonami w rękach. Wczoraj wróciliśmy z Rafałem z naszej małej ekspedycji. Rafał uparcie nazywa ją ekspedycją, ja wolę mówić o wycieczce, ale muszę Ci o niej opowiedzieć, zanim zapomnę szczegóły.\n\nWszystko zaczęło się od mapy. Właściciel hostelu narysował nam długopisem na kartce drogę do cenoty, czyli naturalnej studni w skale, w której można się kąpać. Mówił, że turyści prawie tam nie docierają, bo nie ma jej w żadnym przewodniku. Rafał postanowił, że dla pewności ściągnie też mapę do telefonu, żeby działała bez zasięgu. Usiadł z laptopem przy routerze i pobierał ją przez pół wieczoru. Rano okazało się, że aplikacja domyślnie pobiera tylko mały kawałek terenu wokół miasta i to w słabej jakości. Gdyby nie zmienił tego ustawienia, w lesie mielibyśmy na ekranie pustą szarą plamę. Na szczęście zauważył to jeszcze przy śniadaniu, gdy router był w zasięgu, i pobrał cały region w najlepszej jakości.\n\nDrugi problem miałam ja. Przyjechałam w trampkach, bo w Chicago chodzę w nich wszędzie. Właściciel hostelu spojrzał na moje białe trampki i od razu powiedział, że to zły pomysł. Wyjaśnił, że w lesie są kamienie, kolce i mrówki, a w trampkach daleko nie zajdę. Poszliśmy więc na targ. Za mocne buty za kostkę zapłaciłam 600 pesos, czyli mniej niż za obiad w Chicago. Na targu kupiliśmy też wodę, owoce i tortille, a obok, w najgłośniejszej części targu, sprzedawano drób: kury, indyki, a nawet kaczki w koszach. Rafał chciał koniecznie sfotografować indyki i sprzedawca pozwolił mu na to za kilka pesos.\n\nDo cenoty prowadził nas pan Ernesto, sąsiad właściciela hostelu. Był to spokojny, siwy mężczyzna z maczetą u pasa. W wielu miejscach ścieżka zarosła tak bardzo, że pan Ernesto musiał ciąć gałęzie maczetą, żebyśmy mogli przejść. Robił to bardzo sprawnie, jednym ruchem, jakby maczeta była przedłużeniem jego ręki. Szliśmy dwie godziny w strasznym upale i wilgoci. Mapa w telefonie pokazywała naszą kropkę dokładnie na środku zielonej plamy, bez żadnej drogi, więc bez pana Ernesta na pewno byśmy się zgubili.\n\nA potem nagle las się skończył i zobaczyliśmy otwór w skale, a w dole wodę tak przejrzystą, że widać było każdy kamień na dnie. Zeszliśmy po drewnianej drabinie i pływaliśmy w chłodnej wodzie przez godzinę. Nikogo poza nami tam nie było.\n\nWieczorem w hostelu Rafał znowu siedział przy routerze i wysyłał zdjęcia do całej rodziny. Zobaczysz je wkrótce. Od teraz zawsze sprawdzam, co aplikacja robi domyślnie. Wiem też, że nasza ekspedycja nie udałaby się bez trzech rzeczy: dobrej mapy, porządnych butów i pana Ernesta z jego maczetą.\n\nŚciskam Cię mocno,\nEwa\n\nPytania:\nDlaczego Ewa pisze list w ogródku hostelu?\nBo tylko tam jest dobry zasięg, blisko routera.\nCo aplikacja robiła domyślnie?\nDomyślnie pobierała tylko mały kawałek terenu wokół miasta i to w słabej jakości.\nDlaczego Ewa nie mogła iść w trampkach?\nBo w lesie są kamienie, kolce i mrówki, a w trampkach daleko by nie zaszła.\nIle Ewa zapłaciła za buty?\nZapłaciła 600 pesos.\nJaki drób sprzedawano na targu?\nSprzedawano kury, indyki i kaczki.\nDo czego pan Ernesto używał maczety?\nCiął nią gałęzie tam, gdzie ścieżka zarosła."
+    },
+    {
+      "title": "Pierwszy bieg na orientację",
+      "summary": "A woman who thinks she has no sense of direction runs her first orienteering race in the Oliwa forest and changes her mind about herself.",
+      "newWords": [
+        "samoocena",
+        "jednostronny",
+        "desperacko",
+        "nazajutrz",
+        "konkluzja"
+      ],
+      "text": "Przez całe życie byłam przekonana, że nie mam orientacji w terenie. Gubiłam się w centrach handlowych, na parkingach i na dworcach. Kiedy ktoś tłumaczył mi drogę, kiwałam głową, a po dwóch skrzyżowaniach nie pamiętałam już niczego. Moja samoocena w tej sprawie była tak niska, że w ogóle przestałam próbować i we wszystkim słuchałam telefonu.\n\nDlatego kiedy koleżanka z pracy, Paulina, zaprosiła mnie na bieg na orientację w Lasach Oliwskich, najpierw się zaśmiałam. Paulina jednak nie ustępowała. Powiedziała, że na najkrótszej trasie dla początkujących startują dzieci i emeryci, a moja ocena samej siebie jest po prostu jednostronna: pamiętam tylko te chwile, w których się zgubiłam, a zapominam o tych, w których trafiłam do celu bez problemu. Ta uwaga mnie zastanowiła. Rzeczywiście, nigdy nie liczyłam swoich sukcesów.\n\nW sobotę rano stanęłam na starcie z mapą w ręce. Była to jednostronna kartka w folii: na przodzie mapa lasu w dużej skali, z czerwonymi kółkami w miejscach punktów kontrolnych, a z tyłu nic, bo opis punktów organizatorzy wydrukowali osobno. Paulina pokazała mi, jak obrócić mapę tak, żeby jej północ zgadzała się z północą w terenie, i jak trzymać kciuk w miejscu, w którym akurat jestem.\n\nPierwsze trzy punkty znalazłam szybko i poczułam się prawie jak zawodowiec. Przy czwartym zaczęły się kłopoty. Punkt stał gdzieś w małym dole między bukami, a ja biegałam w kółko i nie mogłam go znaleźć. Szukałam desperacko, zaglądałam za każde drzewo, aż w końcu usiadłam na pniu i miałam ochotę wszystko rzucić. Wtedy przypomniałam sobie radę Pauliny: zamiast desperacko biegać, wróć do ostatniego pewnego miejsca. Wróciłam do skrzyżowania ścieżek, policzyłam kroki i po dwóch minutach zobaczyłam biało-pomarańczowy znacznik.\n\nNa metę dobiegłam po godzinie i dwudziestu minutach, jako jedna z ostatnich w mojej kategorii. Byłam jednak szczęśliwa. Mój wynik wcale nie był dobry, ale moja samoocena wzrosła bardziej niż po niejednej pochwale w pracy.\n\nNazajutrz bolały mnie nogi, ale od rana siedziałam nad mapą z zawodów i rysowałam ołówkiem drogę, którą naprawdę przebiegłam. Wyglądała jak rysunek dziecka: przy czwartym punkcie pełno było pętli, w których desperacko szukałam znacznika. Nazajutrz po biegu zadzwoniła też Paulina i zapytała, czy przyjdę na następne zawody. Powiedziałam, że tak, zanim zdążyłam się zastanowić.\n\nJaka jest moja konkluzja? Orientacja w terenie nie jest talentem, który się ma albo nie. To umiejętność, której można się nauczyć jak jazdy na rowerze. Ta konkluzja wydaje mi się dziś oczywista, a jeszcze miesiąc temu bym w nią nie uwierzyła. Telefon zostawiam teraz czasem w kieszeni i próbuję znaleźć drogę sama.\n\nPytania:\nJaka była samoocena autorki w sprawie orientacji w terenie?\nByła bardzo niska: autorka myślała, że w ogóle nie ma orientacji w terenie.\nDlaczego Paulina uważała, że ocena autorki jest jednostronna?\nBo autorka pamiętała tylko chwile, w których się zgubiła, a zapominała o tych, w których trafiła do celu.\nJak wyglądała mapa na zawodach?\nByła to jednostronna kartka w folii z mapą lasu i czerwonymi kółkami w miejscach punktów kontrolnych.\nCo pomogło autorce znaleźć czwarty punkt?\nPomogła jej rada Pauliny, żeby wrócić do ostatniego pewnego miejsca, zamiast desperacko biegać.\nCo autorka robiła nazajutrz?\nRysowała ołówkiem na mapie drogę, którą naprawdę przebiegła.\nJaka jest konkluzja autorki?\nOrientacja w terenie to umiejętność, której można się nauczyć jak jazdy na rowerze."
+    }
+  ]
+}
