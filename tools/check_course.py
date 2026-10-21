@@ -826,7 +826,8 @@ def korean_reader():
         lemmas = {}
         for form, lemma in db.execute("SELECT form_lc, lemma FROM forms"):
             lemmas.setdefault(form, set()).add(lemma)
-        _korean.update(fl=fl, known=lambda w: w in words or w in pack, rank=bundled.get, verbs=verbs, lemmas=lemmas)
+        _korean.update(fl=fl, known=lambda w: w in words or w in pack, rank=bundled.get, verbs=verbs, lemmas=lemmas,
+                       reu=fl.korean_reu_doubling(lemmas))
     return _korean
 
 
@@ -846,7 +847,7 @@ def korean_guess(form, ranks, heads, depth=0):
     if form.endswith(fl.KOREAN_POLITE) and form[:-1] in ranks:
         return form[:-1]
     found = [(steps, ranks[lemma], lemma) for lemma, steps in fl.korean_dictionary_forms(form)
-             if lemma in heads and lemma in k["verbs"] and fl.korean_stem_of(lemma, form)]
+             if lemma in heads and lemma in k["verbs"] and fl.korean_stem_of(lemma, form) and fl.korean_reu_fits(lemma, form, k["reu"])]
     if found:
         return min(found)[2]
     stem = next((form[:-len(e)] for e in fl.KOREAN_SPOKEN_ENDINGS if form.endswith(e) and len(form) > len(e)), None)
