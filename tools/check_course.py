@@ -797,7 +797,8 @@ def _turkish_stem(word, ranks):
         for verb in (stem + "mak", stem + "mek"):
             if verb in ranks:
                 return verb
-    return None
+    # The list keeps some verbs under their bare stem (hıçkır, durakla).
+    return next((stem for stem in stems if len(stem) > 3 and stem in ranks), None)
 
 
 # Korean: runs of Hangul are the words, each cut as the reader cuts it (KoreanParser, ported as
