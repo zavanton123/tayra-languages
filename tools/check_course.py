@@ -783,9 +783,8 @@ def _turkish_stem(word, ranks):
     match = TR_ABLE.search(word, 2)
     if match:
         stems.append(word[:match.start()])
-    match = TR_TENSE.search(word, 2)
-    if match:
-        stems.append(word[:match.start()])
+    # Every place a tense ending may start (tekrarlanıyor is tekrarla-n-ıyor, not tekr-ar...).
+    stems += [word[:i] for i in range(2, len(word)) if TR_TENSE.match(word, i)]
     # A negative stem (kararma- of kararmak, in kararmadığını).
     stems += [stem[:-2] for stem in stems if len(stem) > 4 and stem[-2:] in ("ma", "me")]
     for stem in list(stems):
