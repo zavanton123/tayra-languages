@@ -1,0 +1,182 @@
+{
+  "id": "tr-mini-8300",
+  "rankUpTo": 8300,
+  "level": "C2",
+  "title": "Tasarım ve zanaat",
+  "description": "Stories about weavers, designers, saddle makers, restorers, watchmakers, mirror makers, milliners and food stylists at work.",
+  "topic": "Design and craft",
+  "names": [
+    "Hatice",
+    "Konya",
+    "Merve",
+    "İstanbul",
+    "Halil",
+    "Burak",
+    "İzmir",
+    "Cem",
+    "Yusuf",
+    "Hasan",
+    "Esra",
+    "Safranbolu",
+    "Ömer",
+    "Ali",
+    "Eskişehir",
+    "Leyla",
+    "Mehmet",
+    "Ayla",
+    "Zehra",
+    "Beyoğlu",
+    "Emine",
+    "Ankara",
+    "Sinan",
+    "İbrahim"
+  ],
+  "lessons": [
+    {
+      "title": "Leylekli kilim",
+      "summary": "A grandmother and her granddaughter weave a symmetrical kilim with storks on it.",
+      "newWords": [
+        "leylek",
+        "dalgın",
+        "besi",
+        "simetrik",
+        "aritmetik",
+        "bölünmez",
+        "kâfi",
+        "benekli",
+        "güçlükle"
+      ],
+      "text": "Hatice Hanım, Konya'ya bağlı küçük bir köyde kırk yıldır kilim dokuyordu. Her bahar köy meydanındaki yaşlı çınara bir çift leylek gelir, ağacın tepesindeki büyük yuvaya yerleşirdi. Hatice Hanım çocukluğundan beri leylekleri seyretmeyi severdi. O yaz torunu Merve, İstanbul'daki tasarım okulunu bitirip köye geldi ve babaannesine bir teklifte bulundu:\n\n— Birlikte bir kilim dokuyalım mı? Deseni ben çizeyim, sen doku. Üstünde de leylekler olsun.\n\nHatice Hanım bir süre dalgın dalgın pencereden çınara baktı. Köyün eski kilimlerinde leylek pek görülmezdi, ama fikir hoşuna gitti.\n\nİşe yünden başladılar. Komşuları Halil Amca'nın koyunları köyün en besili koyunlarıydı. Hatice Hanım yünü avucunda torununa gösterdi:\n\n— Besili bir koyunun yünü kalın ve parlak olur, boyayı da iyi tutar.\n\nMerve akşamları deseni kareli kâğıda çizdi. Her kare, tezgâhtaki bir çözgü teline denk geliyordu. Desenin simetrik olmasını istiyordu: sağ yarı, sol yarının aynadaki görüntüsü gibi olacaktı. Ama burada küçük bir aritmetik sorunu çıktı. Tezgâhta 121 tel vardı ve 121 ikiye bölünmez. Merve önce telaşlandı, çözümü babaannesi buldu:\n\n— Ortadaki tel ikisinin de malı olsun. Leyleğin gagası tam o telin üstüne gelir, iki yanda altmışar tel kalır.\n\nAritmetik tutunca desen de simetrik oldu. Sıra renklere geldi. Merve on renk istiyordu, Hatice Hanım ise başını salladı:\n\n— Üç renk kâfi, kızım. Beyaz leylek, kırmızı gaga, bir de kahverengi zemin. Fazlası gözü yorar.\n\nMerve ısrar etmedi, yalnızca zemini benekli yapmayı önerdi: kahverengi zeminde küçük beyaz noktalar, uzaktan bakınca çiçekli bir tarla gibi görünecekti. Benekli zemine Hatice Hanım da itiraz etmedi; üç renk yine kâfi geliyordu.\n\nDokuma bir ay sürdü. Hatice Hanım'ın gözleri artık ince telleri güçlükle seçiyordu; telleri Merve sayıyor, babaannesi ise ipliği sabırla sıkıştırıyordu. Bazı akşamlar Merve dalgın bir hâlde çınara bakıp leyleklerin yavrularını sayıyordu. Hatice Hanım ona takılıyordu:\n\n— Leylekleri değil, telleri say!\n\nSon sırayı bitirdiklerinde ikisi de yorgundu. Hatice Hanım kilimi güçlükle kaldırıp duvara astı. Merve bir adım geri çekildi. Kilim bölünmez bir bütün gibi duruyordu: ne sağ yarısı soldan güzeldi ne sol yarısı sağdan.\n\n— Bu kilim satılmaz, dedi Hatice Hanım. Çınarın karşısındaki bu evde, leyleklerin yanında kalacak.\n\nSorular:\nMerve babaannesine ne teklif etti?\nBirlikte, üstünde leylekler olan bir kilim dokumayı teklif etti.\nHatice Hanım besili koyunların yünü hakkında ne dedi?\nBesili bir koyunun yününün kalın ve parlak olduğunu, boyayı da iyi tuttuğunu söyledi.\nDesen neden bir aritmetik sorunu çıkardı?\nTezgâhta 121 tel vardı ve 121 ikiye bölünmez; bu yüzden desen kolayca simetrik olmuyordu.\nHatice Hanım neden üç rengin kâfi olduğunu söyledi?\nÇünkü ona göre fazla renk gözü yorar.\nZemin nasıl bir zemindi?\nKahverengi, küçük beyaz noktalarla benekli bir zemindi."
+    },
+    {
+      "title": "Beneklerdeki gizli ad",
+      "summary": "A designer draws a cheetah logo for a programmer's running-shoe company and hides its name in Morse code.",
+      "newWords": [
+        "programcı",
+        "çita",
+        "demografik",
+        "bilgisayarlı",
+        "vektör",
+        "galaktik",
+        "tesadüfi",
+        "mors"
+      ],
+      "text": "Burak, İzmir'de küçük bir tasarım stüdyosu işletiyordu. Bir pazartesi sabahı stüdyoya Cem adında genç bir programcı geldi. Cem, iki arkadaşıyla birlikte internetten koşu ayakkabısı satan bir şirket kurmuştu ve şirketin bir logoya ihtiyacı vardı.\n\n— Hızı anlatan bir şey istiyoruz, dedi Cem. Aklımızda bir çita var.\n\nBurak'ın ilk sorusu, müşterilerin kim olduğuydu. Cem bilgisayarını açıp elindeki demografik verileri gösterdi: alıcıların çoğu 25 ile 40 yaş arasındaydı, yarıdan fazlası kadındı, büyük kısmı şehirde yaşıyor ve sabahları işten önce koşuyordu. Burak bu demografik tabloya uzun uzun baktı.\n\n— O hâlde çok süslü, çok vahşi bir çita olmasın, dedi. Sade ve hafif olsun, sabah erkenden koşan biri gibi.\n\nBurak çizimlerine kurşun kalemle başladı, sonra bilgisayarlı çizime geçti. Logoyu vektör olarak çizdi. Cem bunun nedenini sordu; programcı olmasına rağmen tasarım programlarını pek bilmiyordu.\n\n— Bir fotoğraf küçük karelerden oluşur, büyüttükçe bozulur, diye açıkladı Burak. Vektör ise çizgileri matematikle tarif eder: şu noktadan şu noktaya, şu eğrilikte. Bilgisayarlı tasarımın en büyük kolaylığı budur. Logo ister bir düğme kadar küçük olsun ister bir bina kadar büyük, vektör çizgileri hep keskin kalır.\n\nCem güldü:\n\n— Yani logo da bir program gibi, bir tarif.\n\nBir hafta sonra Burak üç taslak sundu. Birincisinde çitanın etrafında yıldızlar ve gezegenler vardı; Burak buna galaktik çita adını vermişti. Cem'in ortakları bu galaktik havayı beğendi, ama Cem tereddüt etti: müşterileri gökyüzünde değil, sahilde ve parkta koşuyordu. İkinci taslakta çitanın benekleri tesadüfi dağılmıştı, gerçek bir hayvanın derisi gibi. Üçüncüsü en sadesiydi: öne eğilmiş bir gövde ve sırtında bir sıra benek.\n\nCem üçüncü taslağa uzun uzun baktı.\n\n— Bu benekler neden böyle sıralı? Tesadüfi gibi durmuyor.\n\nBurak gülümsedi.\n\n— Tesadüfi değil. Kısa benekler nokta, uzun benekler çizgi. Bu, mors alfabesi. Yan yana okuyunca şirketinizin adı çıkıyor.\n\nCem kâğıdı eline alıp benekleri tek tek saydı. Gençken amatör telsizcilik yapmıştı, mors alfabesini hâlâ hatırlıyordu. Gerçekten de şirketin adı yazıyordu.\n\n— Bunu kimse fark etmez, dedi.\n\n— Fark eden de olur, dedi Burak. Fark edince de unutmaz.\n\nLogo o ay ayakkabıların yanına, kutuların üstüne ve sitenin köşesine yerleşti. Birkaç ay sonra bir müşteri şirkete kısa bir mesaj gönderdi: \"Çitanın beneklerini okudum.\" Cem mesajı hemen Burak'a iletti.\n\nSorular:\nCem kimdi ve stüdyoya neden geldi?\nCem genç bir programcıydı; koşu ayakkabısı satan şirketi için bir logo istiyordu.\nDemografik veriler müşteriler hakkında ne söylüyordu?\nMüşterilerin çoğunun 25 ile 40 yaş arasında olduğunu, şehirde yaşadığını ve sabahları koştuğunu söylüyordu.\nBurak logoyu neden vektör olarak çizdi?\nÇünkü vektör çizgileri matematikle tarif eder ve logo büyüyünce de küçülünce de keskin kalır.\nCem galaktik taslak konusunda neden tereddüt etti?\nÇünkü müşterileri gökyüzünde değil, sahilde ve parkta koşuyordu.\nÜçüncü taslaktaki benekler neden tesadüfi değildi?\nÇünkü benekler mors alfabesiyle şirketin adını yazıyordu."
+    },
+    {
+      "title": "Saraç dükkânında bir ders",
+      "summary": "A young apprentice is scolded for spoiling the leather on a saddle and learns to do it again slowly.",
+      "newWords": [
+        "bayır",
+        "atik",
+        "eyer",
+        "tutkal",
+        "sıyrık",
+        "azarlamak",
+        "hödük",
+        "kırgın"
+      ],
+      "text": "Yusuf on yedi yaşındayken Hasan Usta'nın yanına çırak olarak girdi. Ustanın dükkânı, kasabanın çarşısından yaylaya çıkan dik bir bayırın ortasındaydı. Yusuf her sabah bayırı koşarak çıkar, dükkânın kepengini açar, tezgâhı silerdi. Hasan Usta altmışını geçmişti ama hâlâ atik bir adamdı; tezgâhla raflar arasında bir genç gibi gidip gelirdi.\n\nDükkânda en çok eyer yapılırdı. Yaylada at besleyen aileler, at gezisi düzenleyen çiftlikler, hatta şehirden gelen binicilik kulüpleri Hasan Usta'nın eyerlerini isterdi. Her eyer ahşap bir iskeletle başlardı. Usta iskeletin üstüne deri katlarını tutkal ile yapıştırır, sonra kenarlarını elle dikerdi.\n\nBir gün usta, Yusuf'a ilk kez tek başına bir iş verdi: bir eyerin oturağını deriyle kaplamak. Yusuf heyecanla deriyi kesti, tutkalı sürdü, deriyi yapıştırdı. Ama acele etmişti. Tutkal iyice ısınmadan sürülmüş, deri bir köşede kabarmıştı. Üstelik bıçak bir an kayınca derinin yüzünde uzun bir sıyrık açılmıştı.\n\nHasan Usta eyeri eline alınca yüzü değişti. Yusuf'u bütün çarşının duyacağı bir sesle azarladı:\n\n— Tutkalı soğuk sürersen deri tutmaz! Bıçağı aceleyle çekersen deride sıyrık kalır! Bu dükkânda hödük gibi mi çalışacaksın?\n\nYusuf tek kelime etmedi. O akşam bayırı yavaş yavaş indi. Hem kırgın hem utanmıştı; ustanın kendisini herkesin önünde azarlamasını kaldıramamıştı. Kendini gerçekten bir hödük gibi hissediyordu.\n\nErtesi sabah Yusuf dükkâna geç geldi. Hasan Usta tezgâhta oturmuş, onu bekliyordu. Önünde iki eski eyer duruyordu.\n\n— Otur, dedi. Bu ikisini ben senin yaşındayken yaptım.\n\nYusuf eyerlere baktı. Birinde derinin kenarı kabarmıştı, öbürünün yanında solmuş, eski bir sıyrık vardı.\n\n— Benim ustam da beni çok azarlardı, dedi Hasan Usta. Ben de ona bir hafta kırgın kalmıştım. Sonra anladım ki onun öfkesi bana değil, derinin boşa gitmesineydi. Dün sesimi fazla yükselttim, o kısım için senden özür dilerim. Ama söylediklerimin hepsi doğru.\n\nYusuf artık kırgın değildi. Usta ona tutkalı ısıtmayı yeniden gösterdi: tutkal bal kıvamına gelene kadar beklemek, sonra deriye ince bir kat hâlinde sürmek. Yusuf o gün aynı oturağı baştan kapladı. Bu kez hiç acele etmedi. Akşam olduğunda eyer tezgâhın üstünde parlıyordu; ne kabarık bir köşe vardı ne bir sıyrık.\n\nHasan Usta eyeri çevirip dikkatle baktı, sonra atik bir hareketle rafa yerleştirdi.\n\n— Bu eyer satılır, dedi.\n\nYusuf o akşam bayırı koşarak indi.\n\nSorular:\nHasan Usta'nın dükkânı neredeydi?\nKasabanın çarşısından yaylaya çıkan dik bir bayırın ortasındaydı.\nYusuf'un ilk işinde ne oldu?\nAcele ettiği için deri bir köşede kabardı, bıçak kayınca da derinin yüzünde uzun bir sıyrık açıldı.\nHasan Usta Yusuf'u nasıl azarladı?\nBütün çarşının duyacağı bir sesle azarladı ve ona hödük gibi mi çalışacağını sordu.\nErtesi sabah usta Yusuf'a neden eski eyerleri gösterdi?\nÇünkü o eyerleri gençken kendisi yapmıştı ve onlarda da kabarık bir kenar ve eski bir sıyrık vardı.\nTutkal nasıl sürülmeliydi?\nTutkal bal kıvamına gelene kadar ısıtılmalı, sonra deriye ince bir kat hâlinde sürülmeliydi."
+    },
+    {
+      "title": "Yıkık konağın bahçesi",
+      "summary": "An architect restores a ruined mansion and keeps the wild garden that has grown around it.",
+      "newWords": [
+        "yıkık",
+        "moloz",
+        "daracık",
+        "oyuk",
+        "kemirgen",
+        "ekosistem",
+        "mahzur",
+        "terakki"
+      ],
+      "text": "Mimar Esra, Safranbolu'da yarı yıkık bir konağın restorasyonunu üstlendiğinde, işin ilk ayının moloz taşımakla geçeceğini biliyordu. Konağa ulaşmak için daracık, taş döşeli bir sokaktan geçmek gerekiyordu. Sokak o kadar daracıktı ki kamyon giremiyordu; moloz el arabalarıyla tek tek sokağın başına taşındı.\n\nKonağın çatısı yıllar önce çökmüş, ikinci katın bir bölümü de yıkık duvarların arasına düşmüştü. Moloz temizlendikçe ev yeniden görünmeye başladı: ahşap tavanlar, oymalı dolaplar, geniş sofalar, renkli camlı pencereler.\n\nEsra'nın ekibinde ahşap ustası Ömer Usta vardı. Ömer Usta kirişleri tek tek inceledi ve birçoğunda derin oyuklar buldu.\n\n— Bu oyuklar kemirgen işi, dedi. Fareler boş evde yıllarca rahat yaşamış.\n\nBazı oyukların içinde hâlâ kuru ot ve kâğıt parçaları vardı; kemirgenler yuvalarını oraya kurmuştu. Esra kirişleri değiştirmek yerine onarmaya karar verdi. Ömer Usta oyukları temizledi, aynı cins ağaçtan kestiği parçalarla doldurdu ve kirişleri sağlamlaştırdı.\n\nBahçe ise başka bir dünyaydı. Yetmiş yıldır kimse dokunmadığı için orada küçük bir ekosistem oluşmuştu: yaban gülleri, bir incir ağacı, böğürtlenler, kuşlar, kirpiler ve yıkık duvarın dibinde güneşlenen kertenkeleler. Kemirgenler de bu ekosistemin bir parçasıydı; geceleri bahçede dolaşan baykuşlar sayesinde sayıları hiç artmamıştı.\n\nBelediyeden gelen bir uzman, bahçenin tamamen temizlenip yeniden düzenlenmesini önerdi. Esra itiraz etti:\n\n— Bahçeyi baştan sona temizlemenin büyük bir mahzuru var. Bu ekosistemi bir kez bozarsak geri getiremeyiz.\n\nUzman bir süre düşündü, sonra Esra'ya hak verdi. Bahçede yürüyüş yolları açmanın bir mahzuru yoktu, ama ağaçlara ve duvar diplerine dokunulmayacaktı.\n\nRestorasyonun son haftalarında Ömer Usta, giriş kapısının üstündeki taşta silik bir yazı buldu. Yazı eski harflerle yazılmıştı. Esra yazının fotoğrafını tarihçi bir arkadaşına gönderdi. Arkadaşı yazıyı okudu: konak 1890'larda bir tüccar tarafından yaptırılmıştı ve kapının üstünde \"Terakki, emek ve sabırla gelir\" yazıyordu. Terakki, o dönemde \"ilerleme\" anlamında çok kullanılan bir kelimeydi.\n\nKonak iki yıl sonra küçük bir kütüphane olarak açıldı. Kapının üstündeki taş temizlendi ama yerinden oynatılmadı. Açılış günü Esra ziyaretçileri bahçede gezdirirken taşı gösterdi:\n\n— Bana göre asıl terakki, eskiyi yıkmadan yeniye yer açmak.\n\nSorular:\nMoloz neden el arabalarıyla taşındı?\nÇünkü konağa giden sokak çok daracıktı ve kamyon giremiyordu.\nKirişlerdeki oyukları kim açmıştı?\nOyukları, boş evde yıllarca yaşayan kemirgenler açmıştı.\nBahçede nasıl bir ekosistem oluşmuştu?\nYaban gülleri, bir incir ağacı, böğürtlenler, kuşlar, kirpiler, kertenkeleler ve kemirgenlerle küçük bir ekosistem oluşmuştu.\nEsra'ya göre bahçeyi tamamen temizlemenin mahzuru neydi?\nEkosistem bir kez bozulursa geri getirilemezdi.\nKapının üstündeki yazıda ne yazıyordu?\n\"Terakki, emek ve sabırla gelir\" yazıyordu."
+    },
+    {
+      "title": "Panayırdaki saat",
+      "summary": "A watch collector finds a master's pocket watch at a fair, meets its young heir and decides not to buy it.",
+      "newWords": [
+        "koleksiyoncu",
+        "panayır",
+        "başyapıt",
+        "mirasçı",
+        "çelmek",
+        "açgözlülük",
+        "tahvil"
+      ],
+      "text": "Ali Bey emekli bir mühendisti ve otuz yıldır eski cep saatleri topluyordu. Arkadaşları onu şaka yollu \"saat koleksiyoncusu Ali\" diye çağırırdı. Her sonbahar, Eskişehir'in yakınındaki bir kasabada kurulan panayırı kaçırmazdı. Panayırda bakır kaplar, el yapımı bıçaklar, dokumalar ve eski eşyalar satılırdı; Ali Bey de saatçilerin tezgâhlarını tek tek dolaşırdı.\n\nO yıl panayırın en sonundaki küçük bir tezgâhta durdu. Tezgâhın arkasında Leyla adında genç bir kadın oturuyordu. Önünde bir kadife kutu vardı, kutunun içinde de gümüş bir cep saati. Ali Bey saati eline aldı, kapağını açtı ve nefesini tuttu. Kapağın içinde ünlü bir İstanbul saatçisinin imzası vardı. Bu usta, hayatı boyunca yalnızca birkaç saat yapmıştı; koleksiyoncular onun her saatini bir başyapıt sayardı.\n\n— Bu saat nereden geldi? diye sordu Ali Bey.\n\n— Büyük dedemindi, dedi Leyla. Saati yapan usta onun ustasıymış. Ben dedemin tek mirasçısıyım. Evde bir kutu alet ve bu saat kaldı.\n\nAli Bey bir fiyat sordu. Leyla'nın söylediği rakam, bu başyapıt için gülünç derecede düşüktü. O sırada tezgâha ikinci bir koleksiyoncu yaklaştı, saate bir göz attı ve hemen daha yüksek bir fiyat önerdi. Ali Bey'in içinde bir şey kıpırdadı. Bu saate sahip olma isteği aklını çeliyordu. Bankadaki tahvil birikimini bozarsa ikisinden de fazlasını verebilirdi. Tahvil onun emeklilik güvencesiydi, ama o an bunu düşünmüyordu.\n\nSonra Leyla'nın yüzüne baktı. Genç kadın saati satmaktan hiç memnun görünmüyordu.\n\n— Saati neden satıyorsunuz? diye sordu.\n\n— Dedemin atölyesini yeniden açmak istiyorum, dedi Leyla. Saat tamiri öğreniyorum, ama alet almak için paraya ihtiyacım var.\n\nAli Bey o an kendi açgözlülüğünü fark etti. Otuz yıldır topladığı saatlerin çoğu bir çekmecede duruyordu, kimse onları kurmuyordu. Bu başyapıt da onun çekmecesine girecekti. Açgözlülük, insanın aklını en çok böyle anlarda çeler, diye düşündü.\n\n— Saati satmayın, dedi. Atölyeniz için gereken aletlerin bir kısmı bende var. Hiçbirini kullanmıyorum. Onları size getireyim.\n\nİkinci koleksiyoncu omuz silkip uzaklaştı. Leyla önce inanamadı, sonra teşekkür etti. Bir ay sonra Ali Bey, arabasının bagajı dolu, Leyla'nın atölyesinin önünde durdu. Tahvil hesabına hiç dokunmamıştı. Atölyenin vitrininde, kadife kutusunun içinde, gümüş saat çalışıyordu.\n\nSorular:\nAli Bey her sonbahar nereye giderdi?\nEskişehir'in yakınındaki bir kasabada kurulan panayıra giderdi.\nKoleksiyoncular o ustanın saatlerini neden başyapıt sayardı?\nÇünkü usta hayatı boyunca yalnızca birkaç saat yapmıştı ve her biri çok değerliydi.\nLeyla kimin mirasçısıydı?\nBüyük dedesinin tek mirasçısıydı.\nAli Bey saati almak için ne yapmayı düşündü?\nBankadaki tahvil birikimini bozmayı düşündü.\nAli Bey neden saati almaktan vazgeçti?\nKendi açgözlülüğünü fark etti ve Leyla'nın atölyesini açmasına yardım etmeye karar verdi."
+    },
+    {
+      "title": "Cıvasız ayna",
+      "summary": "A mirror maker restores an old museum mirror without using mercury and settles the debate over a bridge table.",
+      "newWords": [
+        "cıva",
+        "sarsıcı",
+        "vicdani",
+        "ifa",
+        "hararet",
+        "telef",
+        "nikel",
+        "briç"
+      ],
+      "text": "Mehmet Usta, İstanbul'un eski çarşılarından birinde kırk yıldır ayna yapıyordu. Bir gün bir müzeden Ayla Hanım adında bir uzman dükkâna geldi. Müzenin deposunda iki yüz yıllık bir duvar aynası vardı. Aynanın camı sağlamdı ama arkasındaki gümüş renkli kaplama yer yer dökülmüştü.\n\n— Eski usulle onarılmasını istiyoruz, dedi Ayla Hanım. Aynanın aslına uygun kalması önemli.\n\nMehmet Usta aynayı uzun uzun inceledi. Eski aynaların arkası kalay ile cıva karışımıyla kaplanırdı. Bu kaplama aynaya güzel bir derinlik verirdi, ama cıva zehirliydi.\n\n— Size bir şey anlatayım, dedi usta. Eski zamanlarda ayna ustaları genç yaşta hastalanırdı. Elleri titrer, dişleri dökülürdü. Sebebi cıvaydı.\n\nAyla Hanım bunu ilk kez duyuyordu. Güzel bir aynanın arkasındaki bu hikâyeyi sarsıcı buldu. Mehmet Usta devam etti:\n\n— Bu yüzden ben cıva kullanmam. Bu benim için vicdani bir mesele. Çırağımın sağlığını bir aynaya değişmem.\n\nİkisi arasında hararetli bir tartışma başladı. Ayla Hanım, müzenin kurallarını hararetle savunuyordu; usta da kendi vicdani sınırını. Sonunda Ayla Hanım bir uzlaşma önerdi: aynanın eski kaplamasının sağlam kısımları olduğu gibi kalacak, yalnızca dökülen yerler cıvasız, modern bir gümüş yöntemiyle tamamlanacaktı.\n\nMehmet Usta işe başladı. Görevini titizlikle ifa etmek için önce eski kaplamanın sınırlarını küçük fırçalarla temizledi. Sonra camı ısıttı; atölyedeki fırının harareti yaz sıcağı gibiydi. İşin en zor kısmı buydu: cam fazla ısınırsa çatlar ve iki yüz yıllık emek bir anda telef olurdu.\n\nÇerçevenin köşelerinde de bir sorun vardı. Yüz yıl kadar önce biri çerçeveyi onarmış, köşelere parlak nikel kaplı vidalar takmıştı. Ayla Hanım bu nikel vidaların aynanın tarihinin bir parçası olduğunu söyledi; usta da onları sökmedi, yalnızca temizledi.\n\nOnarım üç hafta sürdü. Bu sürede usta ile uzmanın arasında bir dostluk doğdu. İkisi de briç oynamayı seviyordu. Çarşamba akşamları usta, Ayla Hanım'ı ve iki arkadaşını atölyenin arkasındaki küçük odaya çağırırdı. Briç masasında usta şöyle derdi:\n\n— Ayna işi de briç gibi. Acele edersen kaybedersin. Elindeki her kartı, her fırça darbesini hesaplayacaksın.\n\nSon gün ayna müzeye götürüldü. Eski kaplama ile yeni kaplamanın birleştiği yer, en yakından bakınca bile zor seçiliyordu. Hiçbir emek telef olmamıştı. Ayla Hanım, müzeye yazdığı raporda ustanın görevini eksiksiz ifa ettiğini belirtti. Aynanın yanındaki küçük tabelaya da onarımın cıvasız yapıldığını yazdırdı.\n\nSorular:\nEski aynaların arkası neyle kaplanırdı?\nKalay ile cıva karışımıyla kaplanırdı.\nAyla Hanım neyi sarsıcı buldu?\nEski ayna ustalarının cıva yüzünden genç yaşta hastalandığını öğrenmeyi sarsıcı buldu.\nMehmet Usta neden cıva kullanmıyordu?\nÇünkü bu onun için vicdani bir meseleydi; çırağının sağlığını korumak istiyordu.\nİşin en zor kısmı neydi?\nCamı ısıtmaktı, çünkü cam fazla ısınırsa çatlar ve bütün emek telef olurdu.\nUsta ayna işini neden briç oyununa benzetti?\nÇünkü ikisinde de acele eden kaybeder ve her hareketi hesaplamak gerekir."
+    },
+    {
+      "title": "Şarkıcının bonesi",
+      "summary": "A milliner designs a light woollen hat for a young singer who reaches high notes on stage.",
+      "newWords": [
+        "karakaş",
+        "star",
+        "burunlu",
+        "gıcır",
+        "karizma",
+        "tiz",
+        "diyafram",
+        "bone",
+        "yaraşmak"
+      ],
+      "text": "Zehra Hanım'ın şapka dükkânı, Beyoğlu'nda dar bir pasajın içindeydi. Bir kış sabahı dükkâna karakaş, iri gözlü genç bir kadın girdi. Zehra Hanım onu hemen tanıdı: televizyondaki bir yarışmayla tanınan ve birkaç ayda star olan şarkıcı Ayla'ydı. Ayaklarında sivri burunlu, gıcır gıcır siyah çizmeler vardı.\n\n— Yeni turnem için bir şapka istiyorum, dedi Ayla. Sahnede herkesin aklında kalacak bir şey.\n\nYanında menajeri de vardı. Menajer, telefonundaki fotoğrafları gösterdi: dünyaca ünlü starların taktığı kocaman, tüylü şapkalar.\n\n— Karizma lazım, dedi menajer. Bir star sahneye çıkınca karizması salonun sonundan görünmeli.\n\nZehra Hanım fotoğraflara baktı, sonra Ayla'ya döndü.\n\n— Bana sahnede nasıl şarkı söylediğinizi anlatır mısınız?\n\nAyla biraz düşündü.\n\n— Şarkılarımın çoğunda tiz notalar var. Tiz bir notaya çıkarken başımı geriye atıyorum. Şarkıcılar nefesi diyaframdan alır; diyafram iyi çalışsın diye omuzlarımı ve boynumu rahat tutmam gerekiyor. Geçen turnede büyük bir şapka denedim, her tiz notada başımdan kaydı.\n\nZehra Hanım gülümsedi.\n\n— O zaman size büyük bir şapka değil, bir bone yapalım. İnce yünden, başınızı saran, hiç kaymayan bir bone. Kenarında küçük bir siperlik olur, ışık yüzünüze güzel düşer.\n\nMenajer itiraz etti: bir bone sıradan görünmez miydi? Zehra Hanım, karizmanın şapkadan gelmediğini, şapkanın yalnızca onu taşıdığını söyledi. Sonra Ayla'nın karakaş yüzüne bakıp rafından koyu yeşil bir yün çıkardı.\n\n— Bu renk size yaraşır, dedi. Kaşlarınızla gözleriniz öne çıkar.\n\nBone bir haftada hazırlandı. Zehra Hanım yünü elde ördü, iç tarafını ipekle astarladı, siperliği ince bir keçeyle sağlamlaştırdı. Ayla provaya geldiğinde boneyi taktı ve aynanın karşısında en tiz şarkısını söyledi. Başını geriye attı, diyaframından derin bir nefes aldı. Bone yerinden kıpırdamadı.\n\nMenajer bile ikna olmuştu.\n\n— Gerçekten yaraşıyor, dedi. Çizmeleri de değiştirelim mi?\n\n— Hayır, dedi Zehra Hanım. Sivri burunlu çizmeler yeşil boneyle çok iyi gidiyor.\n\nTurnenin ilk konserinden sonra gazetelerde Ayla'nın yeşil bonesinin fotoğrafları çıktı. Birkaç hafta içinde Beyoğlu'ndaki küçük dükkâna aynı boneyi isteyen genç kızlar gelmeye başladı.\n\nSorular:\nDükkâna gelen genç kadın kimdi?\nTelevizyondaki bir yarışmayla tanınan ve kısa sürede star olan şarkıcı Ayla'ydı.\nMenajer nasıl bir şapka istiyordu?\nDünyaca ünlü starların taktığı gibi kocaman, tüylü bir şapka istiyordu.\nAyla büyük şapkalarla neden sorun yaşıyordu?\nTiz notalara çıkarken başını geriye atıyordu ve büyük şapka başından kayıyordu.\nŞarkıcılar nefesi nereden alır?\nŞarkıcılar nefesi diyaframdan alır.\nZehra Hanım neden koyu yeşil yünü seçti?\nÇünkü bu rengin Ayla'ya yaraşacağını ve kaşlarıyla gözlerini öne çıkaracağını düşündü."
+    },
+    {
+      "title": "Kokusuz bir çekim günü",
+      "summary": "A food stylist with blocked sinuses prepares a cookbook photo shoot by eye.",
+      "newWords": [
+        "dertli",
+        "sinüs",
+        "naneli",
+        "kavrulmuş",
+        "maydanoz",
+        "silinmek"
+      ],
+      "text": "Emine bir yemek stilistiydi. Yemek kitapları ve dergiler için tabakları hazırlar, fotoğrafçının önüne en güzel hâlleriyle koyardı. O hafta Ankara'da büyük bir yemek kitabının çekimi vardı ve Emine çok dertliydi. Bir haftadır sinüsleri tıkalıydı; hiçbir koku alamıyordu.\n\nÇekimin sabahı doktora uğradı. Doktor, sinüslerinin iltihaplandığını, birkaç gün dinlenmesi gerektiğini söyledi.\n\n— Dinlenemem, dedi Emine. Bugün on iki tabak hazırlamam gerekiyor.\n\nStüdyoda fotoğrafçı Sinan onu bekliyordu. Emine'nin dertli yüzünü görünce ne olduğunu sordu.\n\n— Burnum çalışmıyor, dedi Emine. Bir stilist için bu, bir ressamın gözünün görmemesi gibi.\n\nSinan onu sakinleştirdi:\n\n— Fotoğraf koku taşımaz. Biz bugün renge ve ışığa bakacağız. Senin gözün yerinde.\n\nİlk tabak naneli yoğurt çorbasıydı. Emine kuru naneyi her zaman kokusundan seçerdi; bugün rengine baktı. Koyu yeşil, ufalanmamış yapraklar seçti. Çorbanın üstüne bir kaşık tereyağı gezdirip naneli yağı ince bir çizgi hâlinde dağıttı.\n\nİkinci tabak, kavrulmuş fındıklı bir irmik helvasıydı. Fındığın ne kadar kavrulacağını genellikle kokusundan anlardı. Bu kez tavanın başından ayrılmadı, rengine baktı. Fındıklar açık altın renginden bal rengine dönünce ocağı kapattı. Kavrulmuş fındıkları helvanın üstüne tek tek dizdi.\n\nÜçüncü tabak bir mercimek köftesiydi. Emine maydanozu son anda kıydı, çünkü kıyılmış maydanoz yarım saat içinde solar ve fotoğrafta yorgun görünür. Köftelerin arasına birkaç bütün maydanoz yaprağı da yerleştirdi.\n\nÖğleden sonra Sinan'ın fotoğraf makinesinin kartı dolmak üzereydi. Emine endişelendi:\n\n— Kart dolunca eski fotoğraflar silinir mi?\n\n— Hayır, dedi Sinan. Bu makinede hiçbir şey kendiliğinden silinmez. Her kareyi zaten bilgisayara aktarıyorum. Bir fotoğraf ancak ben istersem silinir.\n\nAkşam on iki tabak da çekilmişti. Sinan fotoğrafları büyük ekranda gösterdi. Naneli çorba, kavrulmuş fındıklar, maydanozlu köfteler: hepsi taze ve canlı görünüyordu.\n\nÜç gün sonra Emine'nin sinüsleri açıldı. Mutfağında bir tava fındık kavurdu ve kokuyu derin derin içine çekti. Artık dertli değildi. Yine de o çekimden bir şey öğrenmişti: göz de bir yemeği burun kadar iyi tanıyabilirdi.\n\nSorular:\nEmine o hafta neden dertliydi?\nBir haftadır sinüsleri tıkalıydı ve hiçbir koku alamıyordu.\nEmine naneli çorba için naneyi nasıl seçti?\nKokusuna değil, rengine bakarak koyu yeşil, ufalanmamış yaprakları seçti.\nFındıkların ne kadar kavrulduğunu nasıl anladı?\nTavanın başından ayrılmadı ve fındıkların bal rengine dönmesini bekledi.\nMaydanozu neden son anda kıydı?\nÇünkü kıyılmış maydanoz yarım saat içinde solar ve fotoğrafta yorgun görünür.\nKart dolunca fotoğraflar silinir miydi?\nHayır, Sinan bir fotoğrafın ancak kendisi isterse silineceğini söyledi."
+    },
+    {
+      "title": "Ali'nin yeni eli",
+      "summary": "A former accountant turned designer prints a light prosthetic hand for a boy who wants to do push-ups like his friends.",
+      "newWords": [
+        "müşavirlik",
+        "uzuv",
+        "fizyoloji",
+        "nöroloji",
+        "elebaşı",
+        "şınav"
+      ],
+      "text": "İbrahim, on yıl boyunca Eskişehir'de bir mali müşavirlik bürosunda çalıştı. İşini seviyordu ama akşamları atölyesinde plastikten ve ahşaptan küçük aletler tasarlamak onu daha çok mutlu ediyordu. Kırk yaşına geldiğinde müşavirlik bürosundan ayrıldı ve endüstriyel tasarım okumaya başladı.\n\nOkulda bir proje için üç boyutlu yazıcıyla yapay uzuv tasarlayan bir gruba katıldı. Grup, doğuştan eli ya da parmakları olmayan çocuklar için hafif ve ucuz el protezleri yapıyordu. Bir uzuv tasarlamak için önce elin fizyolojisini öğrenmek gerekiyordu: kemiklerin, kasların ve tendonların birlikte nasıl çalıştığını. İbrahim aylarca fizyoloji kitapları okudu.\n\nBir gün gruba sekiz yaşında Ali adında bir çocuk geldi. Ali sol eli olmadan doğmuştu, ama bunu pek dert etmiyordu. Annesinin anlattığına göre mahallenin elebaşı oydu: top oyunlarını o kurar, takımları o seçer, kimin kaleye geçeceğine o karar verirdi.\n\n— Peki ne istiyorsun? diye sordu İbrahim.\n\n— Şınav çekmek, dedi Ali. Arkadaşlarım yarışıyor, ben yapamıyorum. Elebaşı şınav çekemezse olmaz.\n\nİbrahim güldü, ama isteği ciddiye aldı. Ali'yi önce bir nöroloji uzmanına götürdüler. Doktor, kolundaki sinirlerin ve kasların sağlıklı olduğunu söyledi. Nöroloji muayenesi önemliydi, çünkü protezin parmakları bileğin hareketiyle çalışacaktı: Ali bileğini büktüğünde parmaklar kapanacak, düzelttiğinde açılacaktı.\n\nİbrahim ilk modeli bir haftada çizdi ve yazıcıda bastı. Ama şınav için bu el fazla zayıftı; avuç kısmı Ali'nin ağırlığını taşıyamıyordu. İkinci modelde avucun altına yumuşak ve sağlam bir taban ekledi. Bu yeni uzuv hem parmakları hareket ettirebiliyor hem de yere düz basabiliyordu.\n\nDeneme günü Ali protezi taktı, halının üstüne uzandı ve iki elini yere koydu. İlk şınavda kolları titredi. İkincisinde biraz daha güçlüydü. Üçüncüsünde yüzünde kocaman bir gülümseme vardı.\n\n— Bir ay sonra on tane çekerim, dedi.\n\nBir ay sonra Ali'nin annesi İbrahim'e bir video gönderdi. Mahallenin parkında altı çocuk yan yana şınav çekiyordu. En öndeki, elebaşı Ali'ydi. Videonun sonunda Ali kameraya döndü ve on parmağını birden gösterdi.\n\nİbrahim o akşam eski müşavirlik bürosundaki arkadaşlarına videoyu gönderdi. Biri cevap yazdı: \"Rakamlarla değil, parmaklarla hesap yapıyorsun artık.\"\n\nSorular:\nİbrahim tasarım okumadan önce ne iş yapıyordu?\nEskişehir'de bir mali müşavirlik bürosunda çalışıyordu.\nBir uzuv tasarlamak için neden fizyoloji bilmek gerekiyordu?\nÇünkü kemiklerin, kasların ve tendonların birlikte nasıl çalıştığını anlamak gerekiyordu.\nAli neden mahallenin elebaşıydı?\nTop oyunlarını o kuruyor, takımları o seçiyordu.\nNöroloji muayenesi neden önemliydi?\nÇünkü protezin parmakları bileğin hareketiyle çalışacaktı ve sinirlerin sağlıklı olması gerekiyordu.\nİkinci model neden şınav için daha uygundu?\nAvucun altına yumuşak ve sağlam bir taban eklenmişti, böylece yere düz basabiliyordu."
+    },
+    {
+      "title": "El emeği mi, makine mi?",
+      "summary": "A columnist watches a school debate on handmade versus machine-made goods.",
+      "newWords": [
+        "münazara",
+        "paradoks",
+        "aktivist",
+        "ziyadesiyle",
+        "tasvip",
+        "sindirmek",
+        "sonlanmak"
+      ],
+      "text": "Geçen hafta yeğenimin okulunda bir münazara izledim. Konu, bu sayfanın okurlarına tanıdık gelecektir: \"El emeği mi, makine mi?\" Bir takım el yapımı eşyaları savunuyordu, öbürü fabrikada üretilenleri. Salon doluydu; anneler, babalar, öğretmenler ve meraklı birkaç dede.\n\nEl emeğini savunan takımın ilk konuşmacısı, Zehra adında on altı yaşında bir kızdı. Kendini bir çevre aktivisti olarak tanıttı. Ona göre fabrikada ucuza üretilen eşyalar kısa sürede atılıyor, çöpe giden her eşya da doğaya bir yük bindiriyordu. Elle yapılan bir sandalye ise kuşaktan kuşağa geçebilirdi. Genç aktivist sözlerini sakin ve açık bir dille söyledi; salon onu ziyadesiyle beğendi.\n\nKarşı takım hazırlıklı gelmişti. Onların konuşmacısı Burak, ilginç bir paradoks ortaya attı: el emeğini en çok seven insanlar, onu en az satın alabilen insanlardı. Çünkü elle yapılan bir halı ya da bir çanta pahalıydı, fabrika malı ise herkesin cebine uygundu. Burak'a göre makine, güzel eşyayı herkes için mümkün kılmıştı. Bu paradoks salonda bir süre sessizlik yarattı. Ben de itiraf edeyim, ziyadesiyle etkilendim.\n\nMünazaranın en güzel anı, iki takımın birbirini dinlediği anlardı. Zehra, Burak'ın paradoksunu küçümsemedi. Fabrika malını tümden tasvip etmediğini, ama ucuz eşyanın birçok aile için bir ihtiyaç olduğunu kabul etti. Burak da kötü koşullarda, düşük ücretlerle yapılan üretimi tasvip etmediğini söyledi. İkisi de aynı yerde buluşuyordu: iyi yapılmış, uzun ömürlü eşya.\n\nJüri kararını açıklamadan önce öğretmenler salona kısa bir ara verdi. Aradaki konuşmaları dinledim. Bir dede, söylenenleri sindirmek için zaman gerektiğini söylüyordu. Haklıydı: iki tarafın da doğru bir şey söylediği bir tartışmayı sindirmek kolay değildir. Ben de eve dönerken hâlâ sindirmeye çalışıyordum.\n\nMünazara, beklemediğim bir biçimde sonlandı. Jüri kazanan bir takım seçmedi; iki takıma da aynı puanı verdi. Sonra Zehra ile Burak'ı sahneye çağırdı ve onlardan ortak bir öneri istedi. İki genç kısa bir konuşmadan sonra şunu önerdi: okulun bir atölyesi olsun, öğrenciler orada bozulan eşyaları tamir etsin; hem el emeği öğrensinler hem de fabrika mallarının ömrünü uzatsınlar.\n\nYazımı burada sonlandırmak istiyorum, çünkü o öneriden daha iyi bir sonuç cümlesi bulamıyorum. Okulun müdürü atölye fikrini hemen kabul etti. Haftaya ilk tamir günü varmış. Ben de bir sandalye götüreceğim.\n\nSorular:\nMünazaranın konusu neydi?\nKonu \"El emeği mi, makine mi?\" sorusuydu.\nZehra kendini nasıl tanıttı ve ne savundu?\nKendini bir çevre aktivisti olarak tanıttı ve el yapımı eşyaların uzun ömürlü olduğunu savundu.\nBurak hangi paradoksu ortaya attı?\nEl emeğini en çok sevenlerin onu en az satın alabilen insanlar olduğunu söyledi.\nZehra ve Burak neyi tasvip etmiyordu?\nZehra fabrika malını tümden tasvip etmiyordu; Burak da kötü koşullarda yapılan üretimi tasvip etmiyordu.\nMünazara nasıl sonlandı?\nJüri iki takıma aynı puanı verdi ve öğrenciler okulda bir tamir atölyesi açılmasını önerdi."
+    }
+  ]
+}

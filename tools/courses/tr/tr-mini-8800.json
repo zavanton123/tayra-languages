@@ -1,0 +1,189 @@
+{
+  "id": "tr-mini-8800",
+  "rankUpTo": 8800,
+  "level": "C2",
+  "title": "Türk mutfak kültürü",
+  "description": "Ten standalone stories and columns about food culture in Turkey: bakers and buffets, family tables, regional dishes and the debates and habits around them.",
+  "topic": "Food culture in Turkey",
+  "names": [
+    "Eskişehir",
+    "Halil",
+    "Türkiye",
+    "Burak",
+    "İzmir",
+    "Erzurum",
+    "Ömer",
+    "Konya",
+    "Esra",
+    "Zehra",
+    "Ayla",
+    "Bodrum",
+    "Kars",
+    "Fatma",
+    "Sinan",
+    "Leyla",
+    "Merve",
+    "Afyon",
+    "Emine",
+    "Hasan",
+    "Cem",
+    "Bursa",
+    "İstanbul",
+    "Urla",
+    "Ayşe",
+    "Ege",
+    "Trabzon",
+    "Yusuf",
+    "Hatay",
+    "Türk"
+  ],
+  "lessons": [
+    {
+      "title": "Fırıncının yirminci yılı",
+      "summary": "A writer spends a winter night in an Eskişehir bakery whose owner is in his twentieth year at the oven.",
+      "newWords": [
+        "fırıncı",
+        "zanaat",
+        "yirminci",
+        "leğen",
+        "özenli",
+        "incecik",
+        "sinmek",
+        "ürpermek"
+      ],
+      "text": "Eskişehir'in eski bir mahallesinde, dar bir sokağın köşesinde küçük bir fırın var. Sahibi Halil Usta, bu kış mesleğinin yirminci yılını dolduruyor. Mahallede kimse ona yalnızca \"fırıncı\" demiyor; herkes \"usta\" diyor, çünkü onun için ekmek yapmak sıradan bir iş değil, babasından öğrendiği bir zanaat.\n\nGeçen ocak ayında bir gece, Halil Usta'nın yanında sabaha kadar kaldım. Saat 3'te fırının demir kapısını açtığımızda dışarısı buz gibiydi. Soğuk paltomun içine kadar işledi, ürperdim. Halil Usta hâlimi görünce güldü.\n\n— Biraz sabret, dedi. Fırın ısınınca burada kimse ürpermez.\n\nİlk iş hamurdu. Halil Usta unu, suyu, tuzu ve mayayı büyük bir bakır leğene koydu. Bu leğen ona dedesinden kalmıştı; kenarları yer yer eğrilmişti, ama Halil Usta onu hiçbir yeni kaba değişmezdi. Hamuru leğenin içinde uzun uzun katlayıp bastırdı. Her hareketi özenliydi: ne bir avuç fazla un koyuyordu ne bir damla eksik su.\n\n— Ekmek aceleyi sevmez, dedi. Özenli olmayan fırıncının ekmeği de güzel olmaz.\n\nHamur leğende dinlenirken Halil Usta bana yufka açmayı gösterdi. Küçük bir parça hamuru tezgâhın üstüne koydu ve birkaç dakika içinde incecik bir yufka hâline getirdi. Yufka o kadar incecikti ki arkasından elimin gölgesi görünüyordu. Ben de denedim; benim yufkam incecik olmak bir yana, ortasından delindi. Halil Usta yine güldü.\n\n— Bu zanaat bir gecede öğrenilmez, dedi. Ben de ilk yıllarımda çok yufka deldim.\n\nSaat 6'ya doğru ilk ekmekler fırından çıktı. Taze ekmeğin kokusu bütün sokağa yayıldı; sanki karşıdaki evlerin perdelerine bile sindi. Halil Usta beyaz önlüğünü gösterdi.\n\n— Yirmi yıldır bu koku üstüme sinmiş, dedi. Eşim çamaşırları ne kadar yıkasa da çıkmıyor.\n\nGüneş doğarken ilk müşteriler geldi. Yaşlı bir kadın her sabahki gibi iki ekmek aldı, bir öğrenci de sıcak bir simit. Halil Usta her birine adıyla seslendi; mahallenin bütün çocuklarını, bütün ihtiyarlarını tanıyordu. Fırından çıkarken artık hiç üşümüyordum. Ceketime de o sıcak ekmek kokusu sinmişti. Kapıda Halil Usta'ya yirminci yılının nasıl geçtiğini sordum.\n\n— Tıpkı ilk yılım gibi, dedi. Her gece aynı leğen, aynı un, aynı heyecan. Bir fırıncı bu heyecanı kaybederse ekmeği de tadını kaybeder.\n\nSorular:\nHalil Usta bu kış mesleğinin kaçıncı yılını dolduruyor?\nHalil Usta bu kış mesleğinin yirminci yılını dolduruyor.\nMahallede neden herkes ona \"usta\" diyor?\nÇünkü onun için ekmek yapmak sıradan bir iş değil, babasından öğrendiği bir zanaat.\nHalil Usta hamuru nerede hazırladı?\nDedesinden kalan büyük bir bakır leğende hazırladı.\nYazarın açtığı yufka neden incecik olmadı?\nÇünkü yazar bu zanaati bilmiyordu; yufkası ortasından delindi.\nTaze ekmeğin kokusu nerelere sindi?\nKarşıdaki evlerin perdelerine, Halil Usta'nın önlüğüne ve yazarın ceketine sindi."
+    },
+    {
+      "title": "Soğanlı mı, soğansız mı?",
+      "summary": "A light column on the endless breakfast argument over whether menemen should have onions in it.",
+      "newWords": [
+        "soğanlı",
+        "zırvala",
+        "ayırıcı",
+        "terbiyesizlik",
+        "ukalalık",
+        "maskara",
+        "absürt",
+        "iflah"
+      ],
+      "text": "Türkiye'de bir sofrada tartışma başlatmak için büyük konulara gerek yok. Menemenin soğanlı mı yoksa soğansız mı yapılması gerektiğini sormanız kâfi. Birkaç saniye içinde masadakiler ikiye ayrılır ve herkes kendi annesinin tarifini savunmaya başlar.\n\nGeçen pazar kahvaltıda arkadaşım Burak'la tam da bu konuyu konuştuk. Ben menemeni soğanlı severim: soğan, domatesle birlikte yavaş yavaş piştiğinde yemeğe tatlı bir derinlik verir. Burak ise soğanlı menemene menemen bile demiyor.\n\n— Zırvalıyorsun, dedi. Menemenin ayırıcı özelliği sadeliğidir: domates, biber, yumurta, o kadar. Soğan eklersen başka bir yemek olur.\n\n— Asıl sen zırvalıyorsun, dedim. Annem otuz yıldır menemeni soğanlı yapıyor.\n\n— O zaman annen de otuz yıldır yanılıyor.\n\nMasadaki herkes güldü, ama annemi tartışmaya katması bence küçük bir terbiyesizlikti. Burak bunu fark etti ve hemen özür diledi.\n\n— Terbiyesizlik etmek istemedim, dedi. Ben sadece menemeni fazla ciddiye alıyorum.\n\nBu tartışmada beni asıl düşündüren şey ise ukalalık. Kendi tarifini tek doğru tarif sanan, başkasının tabağına bakıp \"Bu menemen değil\" diyen kişi aslında yemeği değil, kendini anlatır. Ukalalık mutfağın tadını kaçırır; çünkü yemek kültürü tek bir doğrudan değil, binlerce evin küçük farklarından oluşur. İzmir'deki bir evin menemeni ile Erzurum'daki bir evin menemeni aynı olmak zorunda değil. Bölgelerin, hatta ailelerin ayırıcı tatları, mutfağımızı zengin kılan şeyin ta kendisidir.\n\nBir yarışma programında genç bir aşçının menemene peynir ve mantar koyduğunu görmüştüm. Jüri üyelerinden biri tabağı tadınca yüzünü buruşturdu ve aşçıyı herkesin önünde maskara etti. Bence o gün maskara olan aşçı değil, jüri üyesiydi. Yeni bir şey denemek ayıp değildir; ayıp olan, deneyen birini alaya almaktır.\n\nKaldı ki bir kahvaltı yemeği yüzünden iki arkadaşın küsmesi absürt olurdu. Tartışmanın kendisi de biraz absürt aslında: ikimiz de aynı sofrada oturuyor, aynı tavaya ekmek banıyoruz. Ben iflah olmaz bir soğan sevdalısıyım, Burak da iflah olmaz bir sadelik savunucusu. Galiba ikimiz de hiç değişmeyeceğiz.\n\nBu yüzden bir önerim var: tavanın bir yarısına soğan koyalım, öbür yarısına koymayalım. Mutlu bir kahvaltı için iki yumurta, iyi bir domates ve biraz hoşgörü kâfi.\n\nSorular:\nTürkiye'de bir sofrada tartışma başlatmak için ne sormak kâfi?\nMenemenin soğanlı mı yoksa soğansız mı yapılması gerektiğini sormak kâfi.\nBurak'a göre menemenin ayırıcı özelliği nedir?\nBurak'a göre menemenin ayırıcı özelliği sadeliğidir.\nBurak neden özür diledi?\nÇünkü yazarın annesini tartışmaya katmıştı ve bu küçük bir terbiyesizlikti.\nYazara göre ukalalık neden mutfağın tadını kaçırır?\nÇünkü yemek kültürü tek bir doğrudan değil, binlerce evin küçük farklarından oluşur.\nYazar tartışmaya nasıl bir çözüm öneriyor?\nTavanın bir yarısına soğan koymayı, öbür yarısına koymamayı öneriyor."
+    },
+    {
+      "title": "Tuz kabı dolaba kalkıyor",
+      "summary": "A doctor explains Ömer Bey's high blood pressure and how to cook with little salt without making food bland.",
+      "newWords": [
+        "hipertansiyon",
+        "koroner",
+        "aort",
+        "telkin",
+        "yavan",
+        "kamufle",
+        "iyot",
+        "alkali",
+        "kansız"
+      ],
+      "text": "Ömer Bey 58 yaşında, Konya'da yaşayan emekli bir öğretmendi. Son aylarda sık sık başı ağrıyordu. Kızı Esra ısrar edince bir kalp doktoruna gitti. Doktor Zehra Hanım tansiyonunu ölçtü, tahlillerine baktı ve sakin bir sesle konuştu.\n\n— Ömer Bey, tansiyonunuz yüksek. Tıpta buna hipertansiyon diyoruz. Hipertansiyon yıllarca sessizce ilerleyebilir ve kalbi besleyen koroner damarlara zarar verebilir. Vücudumuzun en büyük atardamarı olan aort da bu yüksek basınçtan etkilenir.\n\n— Aort mu? dedi Ömer Bey. İlk kez duyuyorum.\n\n— Kalpten çıkan ana damar, dedi doktor. Bütün vücuda kanı o taşır. Aortun ve koroner damarların sağlığı için önce sofranızı değiştirmemiz gerekiyor.\n\nZehra Hanım ilaçtan önce bazı telkinlerde bulundu. İlk telkini kısaydı: tuz kabı masadan kalkacaktı. Turşu, sucuk ve hazır çorbalar da azalacaktı. Ömer Bey itiraz etti.\n\n— Doktor Hanım, tuzsuz yemek yavan olur. Bizim Konya'da yemek etli, bol baharatlı olur, tuzu da yerinde olur.\n\n— Yavan olmak zorunda değil, dedi doktor. Tuzun eksikliğini limonla, naneyle, biraz pul biberle kamufle edebilirsiniz. İyi pişmiş bir soğan, kavrulmuş bir sarımsak tuzun yokluğunu kolayca kamufle eder.\n\nÖmer Bey'in aklına annesinin sözleri geldi.\n\n— Annem iyotlu tuz yemezsek hasta olacağımızı söylerdi. Tuzu azaltırsam iyot eksik kalmaz mı?\n\n— İyot balıkta, yumurtada, süt ürünlerinde de var, dedi doktor. Az kullanın ama iyotlu tuz kullanmaya devam edin, o kâfi.\n\nKonuşma bitmek üzereyken Ömer Bey cebinden bir kâğıt çıkardı. Esra internette alkali su diye bir şey okumuş, babası için not almıştı. Doktor gülümsedi.\n\n— Alkali suyun tansiyonu düşürdüğüne dair güvenilir bir kanıt yok. Alkali su almak yerine o parayı sebzeye, meyveye harcayın.\n\nDoktor bir şey daha söyledi: tahlillere göre Ömer Bey biraz kansızdı. Bu yüzden yeşil yapraklı sebzeleri, mercimeği ve kuru fasulyeyi sofradan eksik etmemesini istedi. Kansız biri kolay yorulur, dedi; bu da baş ağrılarını artırabilir.\n\nEve döndüğünde Ömer Bey tuz kabını dolaba kaldırdı. İlk günlerde her şey ona yavan geldi. Ama Esra mercimek çorbasına bol limon ve nane koydu, kuru fasulyeye de kavrulmuş soğan ekledi. Üç ay sonra kontrole gittiğinde tansiyonu düşmüştü, artık kansız da değildi. Zehra Hanım'ın telkinleri işe yaramıştı.\n\nSorular:\nDoktor, Ömer Bey'in hastalığına ne ad verdi?\nDoktor buna hipertansiyon dedi.\nHipertansiyon hangi damarlara zarar verebilir?\nKalbi besleyen koroner damarlara ve vücudun en büyük atardamarı olan aorta zarar verebilir.\nDoktor tuzun eksikliğini nasıl kamufle etmeyi önerdi?\nLimonla, naneyle, pul biberle, iyi pişmiş soğanla ve kavrulmuş sarımsakla kamufle etmeyi önerdi.\nDoktor alkali su hakkında ne söyledi?\nAlkali suyun tansiyonu düşürdüğüne dair güvenilir bir kanıt olmadığını söyledi.\nÖmer Bey kansız olduğu için neleri sofradan eksik etmemeliydi?\nYeşil yapraklı sebzeleri, mercimeği ve kuru fasulyeyi sofradan eksik etmemeliydi."
+    },
+    {
+      "title": "Kars'ta bir kış balayı",
+      "summary": "In a letter to a friend, Leyla describes her winter honeymoon in Kars: snowball fights, goose with rice and a guesthouse cat.",
+      "newWords": [
+        "balay",
+        "kudurmak",
+        "alımlı",
+        "heybetli",
+        "çıplaklık",
+        "kartopu",
+        "cilve",
+        "külçe"
+      ],
+      "text": "Sevgili Ayla,\n\nBalayımızın üçüncü günündeyiz. Herkes bize balay için Bodrum'u ya da bir adayı önermişti; biz ise Kars'ı seçtik ve iyi ki seçmişiz. Sana bu mektubu pansiyonun sıcak odasından yazıyorum.\n\nGeldiğimiz gece kar başladı. Sabaha kadar yağdı; rüzgâr pencerenin önünde kudurmuş gibi esiyordu. Kahvaltıda pansiyonun sahibi Fatma Hanım güldü: \"Kars'ta kış böyledir; rüzgâr bir gece kudurur, ertesi gün susar.\" Gerçekten de öğleye doğru gökyüzü açıldı.\n\nFatma Hanım kırk yaşlarında, uzun boylu, alımlı bir kadın. Her sabah masaya bal, kaymak, taze ekmek ve yöreye özgü sert bir peynir koyuyor. Bize kaz etini anlattı: Kars'ta kaz eti kışın en değerli yemekmiş; kurutulmuş kaz eti bulgur pilavının içinde pişirilirmiş. Kocam Sinan, kalın yün berelerden birini bana takınca, \"Bu bereyle çok alımlı oldun,\" dedi. Fatma Hanım da gülerek ona hak verdi.\n\nÖğleden sonra şehrin üstündeki tepeye çıktık. Oradan bakınca karlı ovanın ortasında taş binalar, uzakta da heybetli dağlar görünüyordu. Eski taş kale, karın içinde her zamankinden daha heybetli duruyordu. Kışın ağaçların çıplaklığı ilk anda insana hüzün veriyor; ama o çıplaklığın içinde sessiz bir güzellik de var. Yapraksız dallar, beyaz gökyüzüne çizilmiş ince siyah çizgilere benziyor.\n\nTepeden inerken Sinan bir avuç kar aldı, kartopu yapıp bana attı. Ben de karşılık verdim. Yarım saat boyunca çocuklar gibi kartopu oynadık; yanımızdan geçen iki çocuk da bize katıldı. Sonunda dört kişi, iki takım olduk ve tabii ki çocuklar kazandı.\n\nAkşam yemeğinde Fatma Hanım bize kaz etli pilav pişirdi. Pansiyonun beyaz kedisi masanın altında cilveler yapıyor, Sinan'ın bacağına sürtünüyordu. Sinan da onun cilvelerine dayanamayıp tabağından küçük bir parça et verdi. Fatma Hanım, \"Bu kedi her misafire aynı cilveyi yapar,\" dedi.\n\nYemekten sonra o kadar yorgunduk ki ikimiz de külçe gibi yatağa düştük. Bu sabah kalktığımda bütün vücudum hâlâ külçe gibi ağırdı. Bir saat kartopu oynamak, bir gün koşmak gibiymiş.\n\nYarın donmuş bir göle gideceğiz. Fatma Hanım'ın dediğine göre buzun üstünde kızakla geziliyor, buzun altından tutulan balık da orada pişiriliyormuş. Düğünden önce ikimiz de kıştan hoşlanmadığımızı söylerdik; şimdi her sabah pencereden karı seyrediyoruz.\n\nSevgiyle,\nLeyla\n\nSorular:\nLeyla ile Sinan balay için nereyi seçtiler?\nLeyla ile Sinan balay için Kars'ı seçtiler.\nFatma Hanım Kars'ın rüzgârı hakkında ne dedi?\nFatma Hanım, rüzgârın bir gece kudurup ertesi gün sustuğunu söyledi.\nLeyla kışın ağaçların çıplaklığı hakkında ne düşünüyor?\nİlk anda insana hüzün verdiğini, ama içinde sessiz bir güzellik olduğunu düşünüyor.\nKartopu oyununu kim kazandı?\nKartopu oyununu çocuklar kazandı.\nYemekten sonra Leyla ile Sinan neden külçe gibi yatağa düştüler?\nÇünkü kartopu oynadıkları için çok yorgundular."
+    },
+    {
+      "title": "İstasyonda bir öğle yemeği",
+      "summary": "While her train waits at a small station in midsummer, Merve eats gözleme at the platform buffet with the train driver.",
+      "newWords": [
+        "boğucu",
+        "peron",
+        "makinist",
+        "minnacık",
+        "yırtılmış",
+        "ürküt",
+        "durdurulamaz"
+      ],
+      "text": "Temmuzun ortasında bir öğleden sonra, Merve'nin bindiği tren Afyon'a yakın küçük bir istasyonda durdu. Hoparlörden bir anons yapıldı: ilerideki hatta bakım çalışması vardı, tren burada 40 dakika bekleyecekti. Vagonun içindeki hava boğucuydu; klima çalışmıyordu. Merve çantasını alıp perona indi.\n\nPeronda da hava sıcaktı, ama hiç değilse hafif bir rüzgâr vardı. Peronun ucunda, eski taş binanın yanında küçük bir büfe gördü. Önünde iki masa, tezgâhında bakır bir tepsi duruyordu. Büfeyi yaşlı bir kadın işletiyordu: Emine Teyze.\n\n— Gözleme var kızım, dedi. Patatesli de var, peynirli de. Bir de ayranım var, buz gibi.\n\nMerve peynirli gözleme ile ayran istedi. Masaya oturduğunda yan masada mavi üniformalı bir adam gördü. Trenin makinistiydi. Makinist Hasan Bey 20 yıldır bu hatta tren kullanıyormuş ve bu istasyonda her durduğunda Emine Teyze'nin gözlemesini yermiş.\n\n— Bu hattaki en iyi gözleme burada, dedi makinist. Hızlı trenler bu istasyonda durmuyor; bu tadı bir tek biz eski trenlerin makinistleri biliyoruz.\n\nO sırada minnacık bir kız çocuğu annesinin elini bırakıp büfeye koştu. Elinde yırtılmış bir kâğıt torba vardı; torbanın yırtılmış köşesinden kavrulmuş çekirdekler peronun taşlarına dökülüyordu. Emine Teyze torbayı yenisiyle değiştirdi, içine de bir avuç çekirdek ekledi. Minnacık kız gülümsedi ve utangaç bir sesle teşekkür etti.\n\nBüfenin yanında, gölgede bir kedi uyuyordu. Bir yük treni geçerken uzun bir düdük çaldı; ses kediyi ürküttü, kedi tezgâhın altına kaçtı. Emine Teyze güldü.\n\n— 40 yıldır trenler geçiyor, 40 yıldır bu düdük kedileri ürkütüyor.\n\nHasan Bey çayını içerken biraz da değişimden söz etti. Hızlı tren hatları her yıl yeni şehirlere uzanıyordu; ona göre bu, durdurulamaz bir değişimdi. Yolculuklar kısalıyor, küçük istasyonlar boşalıyordu.\n\n— Hızın önü durdurulamaz, dedi. Ama böyle büfeler kapanınca yolculuğun tadı da biraz kaçacak.\n\nEmine Teyze ona hak verdi; eskiden peronda üç büfe varmış, şimdi bir tek onunki kalmış. Yine de her sabah hamurunu hazırlıyor, öğleye kadar ilk gözlemeleri pişiriyormuş.\n\n40 dakika dolunca anons yeniden duyuldu. Hasan Bey şapkasını takıp lokomotife yürüdü. Merve de Emine Teyze'ye veda edip vagonuna döndü. Vagon hâlâ boğucuydu, ama ağzında taze gözlemenin tadı vardı.\n\nSorular:\nMerve neden trenden perona indi?\nÇünkü tren 40 dakika bekleyecekti ve vagonun içindeki hava boğucuydu.\nMakinist Hasan Bey bu istasyonda ne yer?\nEmine Teyze'nin gözlemesini yer.\nMinnacık kızın torbasına ne oldu?\nTorba yırtılmıştı; Emine Teyze onu yenisiyle değiştirdi ve içine bir avuç çekirdek ekledi.\nKediyi ne ürküttü?\nGeçen yük treninin uzun düdüğü kediyi ürküttü.\nHasan Bey'e göre durdurulamaz olan nedir?\nHızlı tren hatlarının her yıl yeni şehirlere uzanması durdurulamaz bir değişimdir."
+    },
+    {
+      "title": "Mahallenin yeni pizzacısı",
+      "summary": "Cem opens a small pizzeria in a Bursa neighbourhood, and his assistant's clever idea of a pide-shaped pizza wins the street over.",
+      "newWords": [
+        "pizzacı",
+        "depozito",
+        "düzensizlik",
+        "piercing",
+        "binek",
+        "süspansiyon",
+        "jant",
+        "dahiyane",
+        "dikiz"
+      ],
+      "text": "Cem, Bursa'nın sakin bir mahallesinde küçük bir dükkân kiraladı. Dükkânın sahibi üç aylık kira kadar depozito istedi; Cem birikiminin çoğunu bu depozitoya ve eski bir taş fırına harcadı. Hayali, mahallenin ilk pizzacısı olmaktı.\n\nİlk haftalar kolay geçmedi. Mahallede pideyi seven, pizzayı ise ancak arada bir sipariş eden insanlar yaşıyordu. Siparişlerde de büyük bir düzensizlik vardı: bazı akşamlar telefon hiç çalmıyor, bazı akşamlar aynı anda on sipariş geliyordu. Bu düzensizlik Cem'i hem yoruyor hem de endişelendiriyordu.\n\nCem'in yanında Esra adında genç bir kız çalışıyordu. Kaşının üstünde küçük gümüş bir piercing vardı. Mahallenin yaşlıları önce bu piercinge şaşkınlıkla bakmıştı, ama Esra'nın güler yüzü kısa sürede herkesi kazandı. Yaşlı bir müşteri bir gün, \"Kızım, o piercing sana yakışıyor, ama pizzanın yanında bir de ayran olsa daha da yakışırdı,\" dedi.\n\nPaketleri Cem kendisi götürüyordu. Motosikleti yoktu; eski bir binek araç kullanıyordu. Arabanın süspansiyonu yorgundu, her çukurda inliyordu. Bir akşam yokuş bir sokakta derin bir çukura girdi; ön jantlardan biri eğildi. Ertesi gün tamirci jantı düzeltti, süspansiyona da baktı.\n\n— Bu binek araç pizza taşımak için değil, emekli olmak için yapılmış, dedi gülerek.\n\nBir gece, dükkânı kapatırken Esra bir fikir ortaya attı.\n\n— Mahalle pide seviyor, dedi. Neden pizzayı pide gibi yapmıyoruz? Uzun, kenarları kıvrık bir hamur; üstüne de kavurma, kaşar ve bir yumurta.\n\nCem önce güldü, sonra denedi. Taş fırından çıkan ilk pizza o kadar güzeldi ki ikisi de tek kelime etmeden yediler.\n\n— Bu fikir gerçekten dahiyane, dedi Cem.\n\n— Dahiyane değil, dedi Esra, sadece mahalleyi dinledim.\n\nErtesi hafta mahallede herkes yeni pizzayı konuşuyordu. Siparişler arttı ve akşamların düzensizliği yavaş yavaş azaldı. Cem paketleri götürürken arabanın dikiz aynasından arka koltuktaki kutulara bakıyor, kutuların devrilip devrilmediğini kontrol ediyordu. Bir akşam dükkânın önünden ayrılırken dikiz aynasında Esra'nın el salladığını gördü: kapının önünde sipariş için sıra bekleyen insanlar vardı.\n\nYılın sonunda Cem kira sözleşmesini 5 yıl uzattı. Mahallenin pizzacısı artık mahallenin pidecisi gibiydi.\n\nSorular:\nDükkânın sahibi Cem'den ne istedi?\nÜç aylık kira kadar depozito istedi.\nİlk haftalarda siparişlerde nasıl bir sorun vardı?\nSiparişlerde büyük bir düzensizlik vardı; bazı akşamlar hiç sipariş gelmiyor, bazı akşamlar aynı anda on sipariş geliyordu.\nCem paketleri nasıl götürüyordu?\nEski bir binek araçla götürüyordu.\nÇukura girdiğinde arabaya ne oldu?\nÖn jantlardan biri eğildi.\nEsra'nın dahiyane fikri neydi?\nPizzayı pide gibi uzun, kenarları kıvrık bir hamurla, üstüne kavurma, kaşar ve yumurta koyarak yapmak."
+    },
+    {
+      "title": "Sporcunun sofrası",
+      "summary": "A sports nutritionist explains how a tennis player, a fencer and a jockey each need a different table.",
+      "newWords": [
+        "kort",
+        "raket",
+        "eskrim",
+        "telepatik",
+        "jokey",
+        "tazı",
+        "zoraki",
+        "uyluk"
+      ],
+      "text": "On iki yıldır İstanbul'da bir spor kulübünde beslenme uzmanı olarak çalışıyorum. Bana en çok sorulan soru şu: \"Sporcular ne yer?\" Cevabım her seferinde aynı: \"Hangi sporcu?\" Bir tenis oyuncusunun sofrası ile bir jokeyin sofrası birbirine hiç benzemez.\n\nTenisle başlayayım. Tenis maçları bazen 3 saat sürer. Sıcak bir yaz gününde kortta saatlerce koşan bir oyuncu çok su ve tuz kaybeder. Bu yüzden genç oyuncumuz Burak'a maçtan önceki akşam bol makarnalı, sebzeli bir yemek öneriyorum. Kortun kenarındaki çantasında muz, kuru kayısı ve su eksik olmamalı. Burak bir keresinde maçın ortasında enerjisi bitince raketini zor kaldırdığını anlatmıştı. Şimdi her setten sonra birkaç kuru kayısı yiyor ve raketini eskisinden çok daha rahat sallıyor.\n\nEskrim ise bambaşka bir dünya. Eskrimde karşılaşmalar kısa ama çok yoğundur; sporcu bir anda saldırır, bir anda geri çekilir. Eskrim yapan Leyla'nın en büyük ihtiyacı dikkattir. Ağır bir öğle yemeği yerse dikkati dağılır. Ona turnuva günlerinde az ve sık yemeyi, yoğurt, yumurta ve tam buğday ekmeği gibi hafif besinleri öneriyorum. Leyla'yla o kadar uzun zamandır çalışıyoruz ki aramızda neredeyse telepatik bir bağ oluştu: ben daha sormadan o, bir gün önce ne yediğini anlatmaya başlıyor. Antrenörü de Leyla'yla aralarında telepatik bir anlaşma olduğunu söylüyor; bir bakışla birbirlerini anlıyorlar.\n\nEn zor danışanlarım ise jokeyler. Bir jokeyin kilosu atın hızını doğrudan etkiler; bu yüzden pek çok jokey tazı gibi incedir. Genç jokey Halil bana ilk geldiğinde zoraki bir diyet yapıyordu: bütün gün aç kalıyor, yarıştan önce saunaya girip ter atıyordu. Zoraki diyetler kas kaybına yol açar. Oysa bir jokeyin atı yönetmek için güçlü uyluk kaslarına ihtiyacı vardır. Yarış boyunca jokey eyerin üstünde dizlerini bükerek durur ve bütün ağırlığını uyluklarıyla taşır. Halil'e şunu söyledim: \"Tazı gibi ince olmak zorunda değilsin; güçlü olmak zorundasın.\" Artık her gün küçük porsiyonlarla ve bol proteinle besleniyor; uyluk kasları da güçlendi.\n\nBu üç sporcunun ortak noktası, yemeği bir ceza değil, bir araç olarak görmeleri. Zoraki yasaklar kısa sürede bırakılır; iyi kurulmuş bir sofra ise yıllarca sürer. Türk mutfağının sade yemekleri, yani bir tabak kuru fasulye, bir kase yoğurt, bir avuç fındık, çoğu zaman en pahalı tozlardan daha iyi iş görür.\n\nSorular:\nTenis oyuncusu kortta neden çok su ve tuz kaybeder?\nÇünkü sıcak bir yaz gününde kortta saatlerce koşar.\nBurak artık her setten sonra ne yapıyor?\nBirkaç kuru kayısı yiyor ve raketini eskisinden çok daha rahat sallıyor.\nEskrim yapan Leyla'nın en büyük ihtiyacı nedir?\nLeyla'nın en büyük ihtiyacı dikkattir.\nJokey Halil ilk geldiğinde nasıl bir diyet yapıyordu?\nZoraki bir diyet yapıyordu: bütün gün aç kalıyor, yarıştan önce saunaya giriyordu.\nBir jokey neden güçlü uyluk kaslarına ihtiyaç duyar?\nÇünkü yarış boyunca bütün ağırlığını uyluklarıyla taşır ve atı yönetmek zorundadır."
+    },
+    {
+      "title": "Çardağın altında ot yemeği",
+      "summary": "At her aunt's summer house near Urla, Merve gathers wild greens with a retired toxicologist and eats them under the arbour.",
+      "newWords": [
+        "çardak",
+        "kilim",
+        "lavanta",
+        "drenaj",
+        "toksikoloji",
+        "tavus",
+        "sükunet"
+      ],
+      "text": "Merve her yaz bir haftayı teyzesinin Urla'daki yazlığında geçirir. Ev, zeytin ağaçlarının arasında, taş duvarlı eski bir köy evidir. Bahçenin ortasında, üstünü asmanın sardığı geniş bir çardak vardır. Teyzesi Ayşe Hanım yazın bütün yemeklerini bu çardağın altında yer; masanın yanındaki sedire de el dokuması eski bir kilim serer. Kilimin kırmızısı yıllar içinde solmuştur, ama Ayşe Hanım onu hiçbir yeni kilime değişmez.\n\nBahçenin güney kenarında sıra sıra lavanta var. Ayşe Hanım geçen yıl lavantaların yarısını kaybetmişti: kışın yağan yağmur toprakta birikmiş, kökler çürümüştü. Bu yıl bahçıvan toprağın altına çakıl döşeyip küçük bir drenaj kanalı açtı.\n\n— Lavanta kuru toprağı sever, dedi Ayşe Hanım. Drenaj iyi olmazsa yaşamaz.\n\nŞimdi lavantalar sapasağlam ve mor çiçeklerinin kokusu bütün bahçeye yayılıyor.\n\nKomşuları Halil Bey emekli bir üniversite hocası. Yıllarca İzmir'de toksikoloji dersleri vermiş; zehirli bitkileri ve mantarları çok iyi tanıyor. Halil Bey'in bahçesinde bir de tavus kuşu var. Tavus kuşu sabahları duvarın üstüne çıkıp yüksek sesle bağırıyor, sonra kuyruğunu açıp çardağın önünde dolaşıyor.\n\nEge mutfağında otların ayrı bir yeri vardır. İlkbaharda ve sonbaharda kadınlar tarlalardan, bayırlardan yabani otlar toplar, onları zeytinyağıyla pişirir. Bir sabah Merve, Halil Bey'le birlikte ot toplamaya çıktı. Halil Bey her otu koparmadan önce yaprağına, sapına ve kokusuna dikkatle baktı.\n\n— Bazı zehirli otlar yenen otlara çok benzer, dedi. Toksikoloji bana tek bir şey öğretti: Emin olmadığın otu sepete koyma.\n\nSonra Merve'nin topladığı demetin içinden iki dal ayırıp attı.\n\nÖğlen çardağın altında Ayşe Hanım otları zeytinyağı, biraz soğan ve limonla pişirdi. Halil Bey de geldi, tavus kuşu da arkasından. Masada otlar, taze ekmek, peynir ve zeytin vardı. Öğle sıcağında bahçeye derin bir sükûnet çökmüştü. Yalnızca böceklerin sesi ve uzaktan denizin hışırtısı duyuluyordu. Merve bu sükûnetin, İstanbul'da en çok özlediği şey olduğunu düşündü.\n\nTam o sırada tavus kuşu bir kez daha bağırdı ve sükûneti bozdu. Üçü de güldü. Ayşe Hanım tabağından bir parça ekmek atıp kuşu susturdu.\n\nSorular:\nAyşe Hanım yazın yemeklerini nerede yer?\nBahçenin ortasındaki çardağın altında yer.\nAyşe Hanım geçen yıl lavantaların yarısını neden kaybetmişti?\nÇünkü kışın yağan yağmur toprakta birikmiş, kökler çürümüştü.\nBahçıvan bu yıl ne yaptı?\nToprağın altına çakıl döşeyip küçük bir drenaj kanalı açtı.\nHalil Bey'e toksikoloji ne öğretmiş?\nEmin olmadığı otu sepete koymamayı öğretmiş.\nÇardağın altındaki sükûneti ne bozdu?\nHalil Bey'in tavus kuşu bağırarak sükûneti bozdu."
+    },
+    {
+      "title": "Mutfaktaki görünmez emek",
+      "summary": "A granddaughter writes about her grandmother's unseen work in the kitchen, from nursing five children to cooking for village weddings.",
+      "newWords": [
+        "emzirmek",
+        "trompet",
+        "görünmezlik",
+        "yılmak",
+        "tomar",
+        "duygulu"
+      ],
+      "text": "Anneannem geçen ay 90 yaşına girdi. Doğum gününde bütün aile Trabzon'daki köy evinde toplandık. Sofrada onun tarifleriyle yapılmış mısır ekmeği, lahana çorbası ve hamsili pilav vardı. Ama ben o gün yemeklerden çok, onları yıllarca yapan elleri düşündüm.\n\nAnneannem beş çocuk büyütmüş. Her birini iki yıl emzirmiş; bir yandan bebeğini emzirirken öbür yandan ocaktaki tencereyi karıştırırmış. Annem hep anlatır: \"Annemi hiç oturup dinlenirken görmedim. Ya bir bebeği emziriyordu ya hamur açıyordu ya da tarlaya gidiyordu.\"\n\nKöyde bir düğün olduğunda yemekleri köyün kadınları pişirirmiş. Avluda trompet ve davul çalar, gençler oynarmış. Anneannem ve komşuları ise arka bahçedeki büyük kazanların başında sabahtan akşama kadar pilav, et ve tatlı pişirirmiş. Düğün fotoğraflarına baktığımda gelini, damadı, trompet çalan müzisyeni görüyorum; mutfaktaki kadınlar ise hiçbir fotoğrafta yok.\n\nBu görünmezlik bence mutfak kültürümüzün en az konuşulan yanı. Bir yemeğin tarifi kitaplara, lokantaların menülerine girer; onu kuşaklar boyunca yaşatan kadınların adı ise çoğu zaman hiçbir yere yazılmaz. Üstelik bu görünmezliği onlar seçmemişti; o yıllarda kadının emeği, evin sıradan bir parçası sayılıyordu.\n\nAnneannem bunu hiçbir zaman dert etmedi. Zor yıllarda da, dedem uzun süre İstanbul'da çalışırken de yılmadan mutfağını ayakta tuttu. Ona bir gün nasıl hiç yılmadığını sordum. Gülerek şöyle cevap verdi: \"Yılacak vaktim yoktu ki!\"\n\nDoğum gününde annem ona bir hediye verdi: anneannemin tariflerini, annemin yıllar içinde küçük kâğıtlara not ettiği bir tomar kâğıt. Kâğıtların bir kısmı sararmış, bir kısmının üstünde yağ lekeleri vardı. Annem tomarı bir kurdeleyle bağlamıştı.\n\nAnneannem duygulu bir kadın değildir; kolay kolay ağlamaz. Ama o tomarı eline alınca gözleri doldu. Kâğıtları tek tek okudu, bazılarına \"Bu yanlış yazılmış, ben bunu böyle yapmam,\" diye not düştü. Annem de duygulu bir sesle, \"Anne, bunlar senin olsun, senden sonra da biz yaşatalım,\" dedi.\n\nŞimdi o tomarı bir deftere geçiriyorum. Defterin ilk sayfasına kocaman harflerle anneannemin adını yazdım. Bu kez o emeği yapan kişinin adı, tarifin hemen üstünde duracak.\n\nSorular:\nAnneanne bir yandan bebeğini emzirirken öbür yandan ne yaparmış?\nOcaktaki tencereyi karıştırırmış.\nDüğünlerde avluda neler olurmuş?\nAvluda trompet ve davul çalar, gençler oynarmış.\nYazara göre mutfak kültürümüzün en az konuşulan yanı nedir?\nKadınların mutfaktaki emeğinin görünmezliği.\nAnneanne zor yıllarda neden yılmadığını nasıl açıkladı?\n\"Yılacak vaktim yoktu ki!\" diyerek açıkladı.\nYazarın annesi anneanneye ne hediye etti?\nAnneannemin tariflerinin yazılı olduğu, kurdeleyle bağlanmış bir tomar kâğıt hediye etti."
+    },
+    {
+      "title": "Aşçılık okulunda ilk ders",
+      "summary": "On his first day at a cooking school in İstanbul, Yusuf learns to use a meat mallet, care for old pans and turn out an upside-down rice dish.",
+      "newWords": [
+        "derslik",
+        "tokmak",
+        "deforme",
+        "pim",
+        "çökertmek",
+        "teşekkül",
+        "tepetaklak"
+      ],
+      "text": "Yusuf otuz yaşında, bir bankada çalışırken mesleğini değiştirmeye karar verdi ve İstanbul'da bir aşçılık okuluna yazıldı. İlk ders sabah 9'da, okulun en büyük dersliğinde başladı. Derslik bir mutfak gibi düzenlenmişti: her öğrencinin önünde bir ocak, bir tezgâh ve bir dolap vardı. Dersliğin duvarında da büyük bir saat asılıydı.\n\nHocaları Ayla Hanım, Hatay'dan gelen deneyimli bir aşçıydı. İlk işi, dolaplardaki araçları tanıtmak oldu. Önce ahşap bir et tokmağını kaldırdı.\n\n— Tokmak eti dövmek için değil, inceltmek içindir, dedi. Hızlı ve sert vurursanız lifler parçalanır. Hafif ve düzenli vurun.\n\nYusuf tokmağı eline aldı ve bir parça tavuk göğsünü iki kâğıdın arasında yavaş yavaş inceltti. Ayla Hanım bakıp başını salladı: \"Tokmakla iyi anlaşıyorsun.\"\n\nSonra Ayla Hanım eski bir tencere çıkardı. Tencerenin dibi deforme olmuştu; ortası hafifçe yukarı kabarmıştı.\n\n— Sıcak bir tencereyi soğuk suya sokarsanız dibi böyle deforme olur, dedi. Deforme olmuş bir tencerede yemek eşit pişmez; ortası yanar, kenarları çiğ kalır.\n\nTencerenin sapı da sallanıyordu. Ayla Hanım sapı tutan küçük metal pimi gösterdi: pim gevşemişti. Küçük bir çekiçle pimin başına iki kez vurdu ve sap yerine oturdu.\n\n— Bir aşçı araçlarını tanımalı, dedi. Bir pim yüzünden sıcak bir tencere elinizden düşebilir.\n\nArdından fırının başına geçtiler. Ayla Hanım, kek ya da sufle pişirirken fırının kapağının erken açılmaması gerektiğini anlattı.\n\n— İçeri giren soğuk hava keki bir anda çökertir, dedi. Geçen yıl bir öğrencim merakına yenildi, kapağı üç kez açtı ve bütün kekleri çökertti.\n\nGünün son işi Hatay'ın sevilen bir yemeğiydi. Ayla Hanım tencerenin dibine kızarmış patlıcan dilimleri dizdi, üstüne et, en üste de pirinç koydu. Pişince tencereyi büyük bir tepsinin üstüne tepetaklak çevirecekti.\n\n— Bu yemeğin adı \"ters çevrilmiş\" demektir, dedi. Tencereyi tepetaklak çevirmekten korkarsanız yemek dağılır. Cesur olun, tek bir hareketle çevirin.\n\nPilav pişerken Ayla Hanım bir şey daha anlattı: pirinç tencerenin dibinde yavaş yavaş kızarır ve orada ince, altın renkli bir kabuk teşekkül eder. Bu kabuk teşekkül etmeden tencere çevrilirse yemek tepside dağılırmış.\n\nYarım saat sonra Yusuf derin bir nefes aldı ve tencereyi tepsinin üstüne tepetaklak çevirdi. Tencereyi yavaşça kaldırdığında patlıcanlar, et ve pirinç tencerenin şeklini korumuştu. Bütün derslik alkışladı. Yusuf o akşam eve dönerken, bankadaki hiçbir günün ona bu kadar mutlu bitmediğini düşündü.\n\nSorular:\nİlk ders nerede başladı?\nOkulun en büyük dersliğinde başladı.\nAyla Hanım'a göre et tokmağı nasıl kullanılmalı?\nHafif ve düzenli vurularak kullanılmalı; hızlı ve sert vurulursa lifler parçalanır.\nBir tencerenin dibi neden deforme olur?\nSıcak bir tencere soğuk suya sokulursa dibi deforme olur.\nAyla Hanım sallanan sapı nasıl düzeltti?\nGevşemiş pimin başına küçük bir çekiçle iki kez vurdu.\nTencere çevrilmeden önce dipte ne teşekkül etmeli?\nPirinçten ince, altın renkli bir kabuk teşekkül etmeli."
+    }
+  ]
+}
