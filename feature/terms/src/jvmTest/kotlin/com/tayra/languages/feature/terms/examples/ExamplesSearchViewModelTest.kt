@@ -106,7 +106,7 @@ class ExamplesSearchViewModelTest {
     }
 
     @Test
-    fun switchingToLeipzigHidesWhatItLacksAndAllowsLongerSentences() {
+    fun switchingToLeipzigHidesWhatItLacks() {
         val examples = FakeExamples(listOf(ExampleSourceFeatures.TATOEBA, leipzig)) { listOf(ExampleSentence("Uma casa ${it.source}.", null)) }
         val corpus = FakeCorpus()
         val vm = viewModel(examples, corpus)
@@ -120,7 +120,7 @@ class ExamplesSearchViewModelTest {
         waitFor("Leipzig results") { vm.state.value.results.singleOrNull()?.text == "Uma casa LEIPZIG." }
         val query = examples.queries.last()
         assertEquals(ExampleSource.LEIPZIG, query.source)
-        assertEquals(15, query.maxWords)
+        assertEquals(6, query.maxWords)
         assertEquals(ExampleSort.RANDOM, query.sort, "a sort the source lacks gives way to its first")
         assertEquals(null, query.hasAudio)
         assertEquals(leipzig, vm.state.value.features)
@@ -128,7 +128,7 @@ class ExamplesSearchViewModelTest {
 
         vm.resetFilters()
         waitFor("reset") { examples.queries.size == 3 }
-        assertEquals(15, examples.queries.last().maxWords)
+        assertEquals(6, examples.queries.last().maxWords)
         assertEquals(ExampleSource.LEIPZIG, examples.queries.last().source)
 
         vm.searchFor("casa-near")
@@ -166,7 +166,7 @@ class ExamplesSearchViewModelTest {
         waitFor("courses searched") { vm.state.value.results.isNotEmpty() }
         val query = examples.queries.last()
         assertEquals(ExampleSource.COURSES, query.source)
-        assertEquals(15, query.maxWords)
+        assertEquals(6, query.maxWords)
         assertEquals(courses, vm.state.value.features)
         assertEquals(emptyList(), vm.state.value.fallbackSources)
     }

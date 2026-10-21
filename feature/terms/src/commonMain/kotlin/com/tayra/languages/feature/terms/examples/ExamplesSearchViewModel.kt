@@ -144,12 +144,9 @@ class ExamplesSearchViewModel(
     }
 
     private fun defaultFilters(query: ExampleSearchQuery) =
-        query.copy(minWords = 1, maxWords = defaultMaxWords(query.source), sort = ExampleSort.RANDOM, limit = 10, hasAudio = null)
+        query.copy(minWords = 1, maxWords = 6, sort = ExampleSort.RANDOM, limit = 10, hasAudio = null)
 
-    // The sentences of whole texts are longer than Tatoeba's, so fewer would pass a filter as tight.
-    private fun defaultMaxWords(source: ExampleSource) = if (source == ExampleSource.TATOEBA) 6 else 15
-
-    /** Searches [source] instead, with its own default length and without the filters it lacks. */
+    /** Searches [source] instead, without the filters it lacks. */
     fun setSource(source: ExampleSource) {
         val s = _state.value
         val query = s.query ?: return
@@ -158,7 +155,6 @@ class ExamplesSearchViewModel(
         updateQuery {
             it.copy(
                 source = source,
-                maxWords = defaultMaxWords(source),
                 sort = if (it.sort in features.sorts) it.sort else features.sorts.firstOrNull() ?: ExampleSort.RANDOM,
                 hasAudio = if (features.audio) it.hasAudio else null,
             )
