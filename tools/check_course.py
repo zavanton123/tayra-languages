@@ -804,7 +804,9 @@ def korean_reader():
         if not os.path.exists(path):
             sys.exit(f"Korean courses need the ko-en pack at {path}")
         db = sqlite3.connect(path)
-        pack = {w for (w,) in db.execute("SELECT word_lc FROM entries UNION SELECT form_lc FROM forms") if w}
+        # An entry that is a word with its particle or plural 들 (아이들, "plural of 아이") is cut, as the list counts it.
+        fused = {w for w, senses in db.execute("SELECT word_lc, senses FROM entries") if fl.korean_fused(w, senses)}
+        pack = {w for (w,) in db.execute("SELECT word_lc FROM entries UNION SELECT form_lc FROM forms") if w} - fused
         # The copula's forms are listed under 이다; its stem 이 would otherwise begin any word in ㅇ (있었구나).
         verbs = {w for (w,) in db.execute("SELECT word_lc FROM entries WHERE pos IN ('verb', 'adj')")} - {"이다"}
         lemmas = {}
