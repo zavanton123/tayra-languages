@@ -736,7 +736,7 @@ TR_ABLE = re.compile(r"y?[ae]bil")
 TR_HARD = {"d": "t", "ğ": "k", "b": "p", "c": "ç"}
 # A noun's plural, possessive and case (kartınızla, komşularınızla, telefonundaki, dükkânlardaki).
 TR_NOMINAL = re.compile(r"(?:l[ae]r)?(?:[ıiuü]?m|[ıiuü]?n|s?[ıiuü]|[ıiuü]?m[ıiuü]z|[ıiuü]?n[ıiuü]z|l[ae]r[ıiuü])?"
-                        r"(?:n?[ıiuü]|n?[ae]|y[ıiuü]|y[ae]|n?d[ae]|n?d[ae]n|n?[dt][ae]ki|yl[ae]|l[ae]|n[ıiuü]n|[ıiuü]n)?$")
+                        r"(?:n?[ıiuü]|n?[ae]|y[ıiuü]|y[ae]|n?[dt][ae]|n?[dt][ae]n|n?[dt][ae]ki|yl[ae]|l[ae]|n[ıiuü]n|[ıiuü]n)?$")
 TR_PASSIVE = re.compile(r"(?:[ıiuü]l|n)$")
 TR_TENSE = re.compile(r"(?:m?[ıiuü]?yor|[ae]r|[ıiuü]r|[dt][ıiuü]|m[ıiuü]ş|y?[ae]c[ae][kğ]|m[ae]l[ıi]|m[ae]z|m[ae])\w*$")
 
