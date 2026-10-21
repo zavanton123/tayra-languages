@@ -37,8 +37,10 @@ import com.tayra.languages.core.data.network.MyMemoryTranslationProvider
 import com.tayra.languages.core.data.network.SourceRoutingExamples
 import com.tayra.languages.core.data.network.TatoebaExamplesProvider
 import com.tayra.languages.core.data.network.TranslationSuggestionProvider
+import com.tayra.languages.core.data.network.WiktApiClient
 import com.tayra.languages.core.data.network.WiktionaryTranslationProvider
 import com.tayra.languages.core.data.network.createHttpClient
+import com.tayra.languages.core.data.network.createPlainHttpClient
 import com.tayra.languages.core.data.news.FeedNewsReader
 import com.tayra.languages.core.data.news.WikiArticles
 import com.tayra.languages.core.data.repository.BookRepositoryImpl
@@ -70,6 +72,7 @@ import com.tayra.languages.core.domain.dictionary.DictionaryPackStore
 import com.tayra.languages.core.domain.dictionary.DictionaryPacks
 import com.tayra.languages.core.domain.dictionary.ImportedDictionaries
 import com.tayra.languages.core.domain.dictionary.OfflineDictionary
+import com.tayra.languages.core.domain.dictionary.OnlineWiktionary
 import com.tayra.languages.core.domain.export.AnkiExportService
 import com.tayra.languages.core.domain.export.AnkiPackager
 import com.tayra.languages.core.domain.flashcards.FlashcardService
@@ -189,6 +192,8 @@ val dataModule: Module = module {
     single { TermService(get(), get(), translationsWanted = get<LearningTranslations>()::request, chineseTables = getOrNull()) }
     single { ExampleRecordings(KtorRecordingFetcher(get()), get()) }
     single { WordRecordings(CommonsRecordingSource(get())) }
+    // In a browser the requests go without the app's User-Agent, which would need a preflight WiktApi refuses.
+    single<OnlineWiktionary> { if (webPagesSupported) WiktApiClient(get(), get()) else WiktApiClient(createPlainHttpClient(), get(), failureIsMiss = true) }
     single { SentenceAudio(get(), get(), get(), get()) }
     single { TranslationLanguageKeeper(get(), get(), get<DictionaryService>(), get(), get()) }
     single { LexiconService(get(), get(), getOrNull(), getOrNull()) }
