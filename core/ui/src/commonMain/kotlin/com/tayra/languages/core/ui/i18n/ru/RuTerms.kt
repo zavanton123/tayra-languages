@@ -303,13 +303,9 @@ internal val ruTerms: Map<String, String> = mapOf(
     "This source finds single words only, in the exact form typed." to "Этот источник ищет только отдельные слова и только в точно введённой форме.",
     "Often found with" to "Часто встречается с",
     "About {0} sentences in the corpus" to "Около {0} предложения в корпусе|Около {0} предложений в корпусе|Около {0} предложений в корпусе",
-    "Machine translation" to "Машинный перевод",
-    "Open the article" to "Открыть статью",
     "My courses" to "Мои курсы",
     "Try my courses" to "Искать в моих курсах",
     "From your courses" to "Из ваших курсов",
-    "Open the lesson" to "Открыть урок",
-    "This lesson is no longer in your courses." to "Этого урока больше нет в ваших курсах.",
 
     // ExamplesSearchViewModel.kt
     "Language not found" to "Язык не найден",

@@ -172,32 +172,6 @@ class ExamplesSearchViewModelTest {
     }
 
     @Test
-    fun aCourseSentenceOpensItsLessonAtItsPage() {
-        val db = DatabaseProvider(DatabaseDriverFactory(File.createTempFile("tayra-examples-lesson", ".db").also { it.delete() }))
-        val languages = LanguageRepositoryImpl(db)
-        val books = BookRepositoryImpl(db)
-        val repository = CourseRepositoryImpl(db)
-        val languageId = runBlocking { languages.save(Language(name = "Portuguese")) }
-        // Enough words for two pages, with the sentence on the second.
-        val text = (1..300).joinToString(" ") { "Palavra número $it." } + "\n\nA casa fica no fim."
-        val course = Course("c1", "pt", "Primeiro curso", "", CourseLevel.A1, "", listOf(Lesson("l1", "Lição um", "", text)))
-        runBlocking { repository.seedSamples(languageId, listOf(course)) }
-        val service = CourseService(books, languages, BookService(books, languages), repository) { emptyList() }
-        val sentence = ExampleSentence("A casa fica no fim.", null, lesson = ExampleLesson("c1", "l1", "Primeiro curso", "Lição um"))
-        val examples = FakeExamples(listOf(ExampleSourceFeatures.TATOEBA, courses)) { listOf(sentence) }
-        val settings = SettingsRepositoryImpl(MapSettings())
-        val vm = ExamplesSearchViewModel(languageId, "casa", languages, settings, examples, courses = service)
-        waitFor("searched") { vm.state.value.results.isNotEmpty() }
-
-        vm.openLesson(sentence)
-        val route = runBlocking { withTimeout(5_000) { vm.navigation.flow.first() } } as Route.Read
-        val pages = runBlocking { books.getPages(route.bookId) }
-        assertTrue(pages.size > 1, "the test needs two pages")
-        assertEquals(pages.first { "casa" in it.text }.order, route.page)
-        assertTrue(route.page!! > 1)
-    }
-
-    @Test
     fun leipzigResultsAreTranslatedOnceEachAsTheyAreShown() {
         val examples = FakeExamples(listOf(ExampleSourceFeatures.TATOEBA, leipzig)) {
             if (it.source == ExampleSource.TATOEBA) listOf(ExampleSentence("Tem casa.", "Has a house."))

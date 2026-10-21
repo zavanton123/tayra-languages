@@ -303,13 +303,9 @@ internal val frTerms: Map<String, String> = mapOf(
     "This source finds single words only, in the exact form typed." to "Cette source ne trouve que des mots isolés, sous la forme exacte saisie.",
     "Often found with" to "Souvent employé avec",
     "About {0} sentences in the corpus" to "Environ {0} phrase dans le corpus|Environ {0} phrases dans le corpus",
-    "Machine translation" to "Traduction automatique",
-    "Open the article" to "Ouvrir l’article",
     "My courses" to "Mes cours",
     "Try my courses" to "Essayer mes cours",
     "From your courses" to "Tiré de vos cours",
-    "Open the lesson" to "Ouvrir la leçon",
-    "This lesson is no longer in your courses." to "Cette leçon ne fait plus partie de vos cours.",
 
     // ExamplesSearchViewModel.kt
     "Language not found" to "Langue introuvable",

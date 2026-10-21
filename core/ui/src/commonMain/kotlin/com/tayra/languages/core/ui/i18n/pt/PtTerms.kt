@@ -303,13 +303,9 @@ internal val ptTerms: Map<String, String> = mapOf(
     "This source finds single words only, in the exact form typed." to "Esta fonte só encontra palavras isoladas, na forma exata digitada.",
     "Often found with" to "Frequentemente com",
     "About {0} sentences in the corpus" to "Cerca de {0} frase no corpus|Cerca de {0} frases no corpus",
-    "Machine translation" to "Tradução automática",
-    "Open the article" to "Abrir o artigo",
     "My courses" to "Meus cursos",
     "Try my courses" to "Experimentar meus cursos",
     "From your courses" to "Dos seus cursos",
-    "Open the lesson" to "Abrir a lição",
-    "This lesson is no longer in your courses." to "Esta lição não está mais nos seus cursos.",
 
     // ExamplesSearchViewModel.kt
     "Language not found" to "Idioma não encontrado",

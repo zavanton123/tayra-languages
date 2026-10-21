@@ -88,17 +88,6 @@ class CourseService(
         return bookId
     }
 
-    /** The lesson's text as [openLesson] gives it, with the page that holds [sentence] (the first when none does). */
-    suspend fun openLessonAt(courseId: String, lessonId: String, sentence: String): Pair<Long, Int>? {
-        val bookId = openLesson(courseId, lessonId) ?: return null
-        val wanted = squeezed(sentence)
-        val page = books.getPages(bookId).firstOrNull { wanted in squeezed(it.text) }?.order ?: 1
-        return bookId to page
-    }
-
-    // Pages keep paragraph marks and the spaces of words written without them, which the sentence lacks.
-    private fun squeezed(text: String) = text.filterNot { it.isWhitespace() || it == '\u200B' || it == '¶' }
-
     // Changing courses.
 
     /** Makes a course for the language with [languageId]; returns its id. */

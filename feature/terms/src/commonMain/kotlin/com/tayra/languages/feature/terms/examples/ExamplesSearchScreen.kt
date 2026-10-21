@@ -126,7 +126,6 @@ import com.tayra.languages.feature.terms.form.TermFormEvent
 import com.tayra.languages.feature.terms.form.TermFormKey
 import com.tayra.languages.feature.terms.form.TermFormPanel
 import com.tayra.languages.feature.terms.form.TermFormViewModel
-import io.ktor.http.Url
 import io.ktor.http.encodeURLParameter
 import kotlin.math.roundToInt
 import kotlin.random.Random
@@ -151,7 +150,6 @@ fun ExamplesSearchScreen(
 ) {
     val state by viewModel.state.collectAsStateWithLifecycle()
     LifecycleEventEffect(Lifecycle.Event.ON_RESUME) { viewModel.onResumed() }
-    CollectEvents(viewModel.navigation) { onNavigate(it) }
     val query = state.query
     val audio = rememberExampleAudio()
     audio.PrepareSpeech(state.results, state.language?.let { LanguageCodes.codeFor(it.name) })
@@ -165,7 +163,6 @@ fun ExamplesSearchScreen(
     val wordTranslations = koinInject<WordTranslationService>()
     val translateWord: suspend (String) -> String? = { word -> state.language?.let { wordTranslations.translate(it, word) } }
 
-    val uriHandler = LocalUriHandler.current
     val prefs by koinInject<SettingsRepository>().settings.collectAsStateWithLifecycle()
     val showHighlights = prefs.showHighlights
     var textSettingsOpen by rememberSaveable { mutableStateOf(false) }
@@ -328,8 +325,6 @@ fun ExamplesSearchScreen(
                                 translateWord = translateWord,
                                 translation = example.translation,
                                 machineTranslation = if (state.features.translations) null else state.translations[example.text] ?: SentenceTranslation.Loading,
-                                link = example.lesson?.let { lesson -> CardLink("${lesson.courseTitle} · ${lesson.lessonTitle}", tr("Open the lesson")) { viewModel.openLesson(example) } }
-                                    ?: example.sourceUrl?.let { url -> CardLink(sourceLabel(url, example.date), tr("Open the article")) { uriHandler.openUri(url) } },
                                 sound = audio.soundOf(example),
                                 active = index == activeIndex,
                                 onPlay = { activeIndex = index; audio.toggle(example, LanguageCodes.codeFor(query.language.name)) },
@@ -506,15 +501,6 @@ private fun sourceName(source: ExampleSource): String = when (source) {
     else -> source.label
 }
 
-/** What a result links to: the article or the lesson it was taken from. */
-private class CardLink(val label: String, val description: String, val open: () -> Unit)
-
-/** The site a corpus sentence was taken from, and its date. */
-private fun sourceLabel(url: String, date: String?): String {
-    val site = runCatching { Url(url).host.removePrefix("www.") }.getOrNull()?.takeIf { it.isNotEmpty() } ?: url
-    return listOfNotNull(site, date).joinToString(" · ")
-}
-
 /** A labelled compact select box. */
 @Composable
 private fun <T> Select(label: String, options: List<T>, selected: T, optionLabel: (T) -> String, width: androidx.compose.ui.unit.Dp, onSelect: (T) -> Unit) {
@@ -530,8 +516,6 @@ private fun ExampleCard(
     translation: String?,
     /** The machine translation of a result whose source has none. */
     machineTranslation: SentenceTranslation?,
-    /** The text the result was taken from. */
-    link: CardLink?,
     sound: ExampleSound,
     /** The result the keys act on, marked and kept in view. */
     active: Boolean,
@@ -582,17 +566,6 @@ private fun ExampleCard(
             )
             translation?.let { Text(it, style = MaterialTheme.typography.bodyMedium.copy(fontSize = MaterialTheme.typography.bodyMedium.fontSize * fontScale), color = colors.onSurfaceVariant) }
             machineTranslation?.let { MachineTranslation(it, fontScale) }
-            link?.let {
-                LinkText(
-                    it.label,
-                    onClick = it.open,
-                    modifier = Modifier.semantics { contentDescription = it.description },
-                    color = colors.onSurfaceVariant,
-                    style = MaterialTheme.typography.labelSmall,
-                    trailingIcon = AppIcons.OpenInNew,
-                    maxLines = 1,
-                )
-            }
         }
     }
 }
@@ -603,10 +576,7 @@ private fun MachineTranslation(translation: SentenceTranslation, fontScale: Floa
     val colors = MaterialTheme.colorScheme
     val style = MaterialTheme.typography.bodyMedium.copy(fontSize = MaterialTheme.typography.bodyMedium.fontSize * fontScale)
     when (translation) {
-        is SentenceTranslation.Done -> Column {
-            Text(translation.text, style = style, color = colors.onSurfaceVariant)
-            Text(tr("Machine translation"), style = MaterialTheme.typography.labelSmall, color = colors.onSurfaceVariant.copy(alpha = AppAlpha.muted))
-        }
+        is SentenceTranslation.Done -> Text(translation.text, style = style, color = colors.onSurfaceVariant)
         SentenceTranslation.Loading -> Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
             AppSpinner(size = SpinnerSize.Small, color = colors.onSurfaceVariant)
             Text(tr("Translating…"), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)

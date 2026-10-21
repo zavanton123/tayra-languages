@@ -1,8 +1,6 @@
 package com.tayra.languages.feature.terms.examples
 
 import com.tayra.languages.core.ui.i18n.tr
-import com.tayra.languages.core.ui.navigation.Route
-import com.tayra.languages.core.ui.state.UiEvents
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.tayra.languages.core.domain.language.LanguageCatalog
@@ -12,7 +10,6 @@ import com.tayra.languages.core.domain.model.TermStatus
 import com.tayra.languages.core.domain.settings.Hotkey
 import com.tayra.languages.core.domain.settings.HotkeyAction
 import com.tayra.languages.core.domain.repository.LanguageRepository
-import com.tayra.languages.core.domain.courses.CourseService
 import com.tayra.languages.core.domain.service.CorpusWords
 import com.tayra.languages.core.domain.service.ExampleSearchQuery
 import com.tayra.languages.core.domain.service.ExampleSentence
@@ -96,12 +93,7 @@ class ExamplesSearchViewModel(
     private val localTranslator: LocalSentenceTranslator? = null,
     /** The words found near the searched one, where the corpus can be reached. */
     private val corpusWords: CorpusWords? = null,
-    /** Opens the lesson a course sentence is from. */
-    private val courses: CourseService? = null,
 ) : ViewModel() {
-
-    /** Where a result's link leads. */
-    val navigation = UiEvents<Route>()
 
     private val _state = MutableStateFlow(ExamplesSearchUiState())
     val state: StateFlow<ExamplesSearchUiState> = _state.asStateFlow()
@@ -172,17 +164,6 @@ class ExamplesSearchViewModel(
             )
         }
         search()
-    }
-
-    /** Opens the lesson [example] is from in the reader, at the page that holds it. */
-    fun openLesson(example: ExampleSentence) {
-        val lesson = example.lesson ?: return
-        val service = courses ?: return
-        viewModelScope.launch {
-            val opened = service.openLessonAt(lesson.courseId, lesson.lessonId, example.text)
-            if (opened == null) _state.update { it.copy(error = tr("This lesson is no longer in your courses.")) }
-            else navigation.send(Route.Read(opened.first, opened.second))
-        }
     }
 
     /** Searches [word] in the same source and filters, as a collocation chip does. */

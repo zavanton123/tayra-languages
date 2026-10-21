@@ -303,13 +303,9 @@ internal val plTerms: Map<String, String> = mapOf(
     "This source finds single words only, in the exact form typed." to "To źródło wyszukuje tylko pojedyncze słowa, w dokładnie wpisanej formie.",
     "Often found with" to "Często występuje z",
     "About {0} sentences in the corpus" to "Około {0} zdania w korpusie|Około {0} zdań w korpusie|Około {0} zdań w korpusie",
-    "Machine translation" to "Tłumaczenie maszynowe",
-    "Open the article" to "Otwórz artykuł",
     "My courses" to "Moje kursy",
     "Try my courses" to "Spróbuj moich kursów",
     "From your courses" to "Z twoich kursów",
-    "Open the lesson" to "Otwórz lekcję",
-    "This lesson is no longer in your courses." to "Tej lekcji nie ma już w twoich kursach.",
 
     // ExamplesSearchViewModel.kt
     "Language not found" to "Nie znaleziono języka",

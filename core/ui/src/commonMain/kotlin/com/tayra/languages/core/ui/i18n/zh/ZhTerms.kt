@@ -303,13 +303,9 @@ internal val zhTerms: Map<String, String> = mapOf(
     "This source finds single words only, in the exact form typed." to "此来源只能搜索单个词，且须与输入的形式完全一致。",
     "Often found with" to "常见搭配",
     "About {0} sentences in the corpus" to "语料库中约有 {0} 个句子",
-    "Machine translation" to "机器翻译",
-    "Open the article" to "打开原文",
     "My courses" to "我的课程",
     "Try my courses" to "试试我的课程",
     "From your courses" to "来自你的课程",
-    "Open the lesson" to "打开课文",
-    "This lesson is no longer in your courses." to "这篇课文已不在你的课程中。",
 
     // ExamplesSearchViewModel.kt
     "Language not found" to "未找到该语言",

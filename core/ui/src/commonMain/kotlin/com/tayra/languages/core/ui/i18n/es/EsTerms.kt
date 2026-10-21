@@ -303,13 +303,9 @@ internal val esTerms: Map<String, String> = mapOf(
     "This source finds single words only, in the exact form typed." to "Esta fuente solo encuentra palabras sueltas, en la forma exacta escrita.",
     "Often found with" to "A menudo junto a",
     "About {0} sentences in the corpus" to "Alrededor de {0} frase en el corpus|Alrededor de {0} frases en el corpus",
-    "Machine translation" to "Traducción automática",
-    "Open the article" to "Abrir el artículo",
     "My courses" to "Mis cursos",
     "Try my courses" to "Probar mis cursos",
     "From your courses" to "De tus cursos",
-    "Open the lesson" to "Abrir la lección",
-    "This lesson is no longer in your courses." to "Esta lección ya no está en tus cursos.",
 
     // ExamplesSearchViewModel.kt
     "Language not found" to "Idioma no encontrado",
