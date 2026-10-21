@@ -30,6 +30,8 @@ import java.io.File
 import javax.imageio.ImageIO
 import kotlin.test.Test
 import kotlin.test.assertEquals
+import kotlin.test.assertFalse
+import kotlin.test.assertTrue
 
 @OptIn(ExperimentalTestApi::class)
 class WiktionarySectionTest {
@@ -67,52 +69,58 @@ class WiktionarySectionTest {
     }
 
     @Test
-    fun aFormNamesItsLemmaWhichOpens() = runDesktopComposeUiTest(width = 420, height = 400) {
+    fun aFormNamesItsLemmaWhichOpens() = runDesktopComposeUiTest(width = 420, height = 700) {
         val opened = mutableListOf<String>()
-        setContent { Framed { WiktionarySection(WiktionaryUi(comem, tableWord = "comer"), "comem", "Portuguese", { opened += it }, {}, {}) } }
+        setContent { Framed { WiktionarySection(WiktionaryUi(comem, tableWord = "comer", tables = listOf(conjugation), complete = true), "comem", "Portuguese", { opened += it }, {}, {}) } }
         onNodeWithText("third-person plural present indicative of comer").assertExists()
         onNodeWithTag("form-of-comer").performClick()
         assertEquals(listOf("comer"), opened)
         onNodeWithText("/ˈkɔ.mɐ̃j̃/").assertExists()
         onNodeWithText("Portugal").assertExists()
         onNodeWithTag("wiktionary-credit").assertTextEquals("Wiktionary contributors · CC BY-SA 4.0")
-        // The lemma's table is closed until asked for.
-        onAllNodesWithTag("cell").assertCountEquals(0)
+        // No expressions: no section for them, not even a line saying so.
+        onAllNodesWithTag("wiktionary-expressions").assertCountEquals(0)
     }
 
     @Test
-    fun theTableOfTheLemmaTintsTheClickedForm() = runDesktopComposeUiTest(width = 520, height = 600) {
-        var ui by mutableStateOf(WiktionaryUi(comem, tableWord = "comer"))
+    fun theTableIsOpenAndTintsTheClickedForm() = runDesktopComposeUiTest(width = 520, height = 600) {
+        var ui by mutableStateOf(WiktionaryUi(comem, tableWord = "comer", tables = listOf(conjugation), complete = true))
         var toggled = 0
         setContent { Framed { WiktionarySection(ui, "comem", "Portuguese", {}, { toggled++ }, {}) } }
-        onNodeWithTag("wiktionary-table").performClick()
-        assertEquals(1, toggled)
-        ui = ui.copy(tableOpen = true, tablesLoading = true)
-        onNodeWithText("Looking up the table...").assertExists()
-        ui = ui.copy(tablesLoading = false, tables = listOf(conjugation))
         onNodeWithTag("cell-clicked").assertTextEquals("comem")
         onNodeWithText("3rd pl.").assertExists()
         onNodeWithText("present indicative").assertExists()
         onNodeWithText("comendo").assertExists()
         System.getenv("WIKTIONARY_SCREENSHOT")?.let { ImageIO.write(onAllNodes(isRoot())[0].captureToImage().toAwtImage(), "png", File(it)) }
-        ui = ui.copy(tables = emptyList())
-        onNodeWithText("Wiktionary has no table for “comer”.").assertExists()
+        onNodeWithTag("wiktionary-table").performClick()
+        assertEquals(1, toggled)
+        ui = ui.copy(tableOpen = false)
+        onAllNodesWithTag("cell-clicked").assertCountEquals(0)
     }
 
     @Test
     fun synonymsAndExpressionsOpenInThePane() = runDesktopComposeUiTest(width = 420, height = 500) {
         val opened = mutableListOf<String>()
-        var ui by mutableStateOf(WiktionaryUi(comer, tableWord = "comer", tables = listOf(conjugation)))
+        var ui by mutableStateOf(WiktionaryUi(comer, tableWord = "comer", expressions = listOf("comer com os olhos", "comer o chapéu"), complete = true))
         var toggled = 0
         setContent { Framed { WiktionarySection(ui, "comer", "Portuguese", { opened += it }, {}, { toggled++ }) } }
+        // Without a table there is no table section.
+        onAllNodesWithTag("wiktionary-table").assertCountEquals(0)
         onNodeWithTag("synonym-alimentar").performClick()
-        onNodeWithTag("wiktionary-expressions").performClick()
-        assertEquals(1, toggled)
-        ui = ui.copy(expressionsOpen = true, expressions = listOf("comer com os olhos", "comer o chapéu"))
         onNodeWithTag("expression-comer o chapéu").performClick()
         assertEquals(listOf("alimentar", "comer o chapéu"), opened)
-        ui = ui.copy(expressions = emptyList())
-        onNodeWithText("No expressions found.").assertExists()
+        onNodeWithTag("wiktionary-expressions").performClick()
+        assertEquals(1, toggled)
+        ui = ui.copy(expressionsOpen = false)
+        onAllNodesWithTag("expression-comer o chapéu").assertCountEquals(0)
+    }
+
+    @Test
+    fun theCardIsShownOnlyWithATableOrExpressions() {
+        assertFalse(WiktionaryUi(comem, tableWord = "comer").isShown)
+        assertFalse(WiktionaryUi(comem, complete = true).isShown)
+        assertTrue(WiktionaryUi(comem, tables = listOf(conjugation), complete = true).isShown)
+        assertTrue(WiktionaryUi(comer, expressions = listOf("comer o chapéu"), complete = true).isShown)
     }
 
     @Test

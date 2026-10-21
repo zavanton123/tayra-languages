@@ -248,7 +248,7 @@ private fun TermFormContent(
                     if (pack != null && pack.state !is PackState.Installed) DictionaryDownloadCard(pack, state.pairDictionary, draft.text.trim(), onDownload = viewModel::downloadDictionary)
                 }
             }
-            if (!empty && !online.isEmpty) {
+            if (!empty && online.isShown) {
                 WiktionarySection(online, draft.text, language?.name, onOpenWord = viewModel::openWord, onToggleTable = viewModel::toggleTable, onToggleExpressions = viewModel::toggleExpressions)
             }
             if (!empty && state.notes.isNotEmpty()) NotesSection(state.notes)

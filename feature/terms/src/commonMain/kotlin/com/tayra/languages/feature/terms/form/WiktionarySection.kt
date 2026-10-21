@@ -54,9 +54,9 @@ import com.tayra.languages.core.ui.theme.AppSpacing
 import com.tayra.languages.core.ui.theme.AppText
 
 /**
- * What Wiktionary says of the term online: which form of which lemma it is, its pronunciations,
- * its synonyms, the lemma's inflection table and the expressions made with it, the last two
- * opened on demand. Nothing shows for a word Wiktionary lacks, beyond the table of its lemma.
+ * What Wiktionary says of the term online: which form of which lemma it is, its
+ * pronunciations, its synonyms, the lemma's inflection table and the expressions made with it, the
+ * last two collapsible. The pane shows it only for a word with a table or expressions.
  */
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
@@ -90,35 +90,27 @@ internal fun WiktionarySection(
                 synonyms.forEach { WordChip(it, Modifier.testTag("synonym-$it")) { onOpenWord(it) } }
             }
         }
-        wiktionary.tableWord?.let { lemma ->
-            val verb = wiktionary.tables.orEmpty().any { it.pos == "verb" } || page?.entries?.any { it.pos == "verb" } == true
+        val tables = wiktionary.tables
+        if (tables.isNotEmpty()) {
+            val verb = tables.any { it.pos == "verb" } || page?.entries?.any { it.pos == "verb" } == true
             val title = if (verb) tr("Conjugation") else tr("Inflection")
-            Collapsible(title, lemma.takeIf { it != term.trim() }, wiktionary.tableOpen, if (wiktionary.tableOpen) tr("Hide the table") else tr("Show the table"), "wiktionary-table", onToggleTable) {
-                val tables = wiktionary.tables
-                when {
-                    wiktionary.tablesLoading || tables == null -> QuietLine(tr("Looking up the table..."))
-                    tables.isEmpty() -> QuietLine(tr("Wiktionary has no table for “{0}”.", lemma))
-                    else -> tables.forEach { table ->
-                        if (tables.size > 1 && table.pos.isNotEmpty()) Text(table.pos, style = MaterialTheme.typography.labelMedium, color = colors.onSurfaceVariant)
-                        InflectionTableView(table, term)
-                    }
+            val lemma = wiktionary.tableWord?.takeIf { it != wiktionary.headword }
+            Collapsible(title, lemma, wiktionary.tableOpen, if (wiktionary.tableOpen) tr("Hide the table") else tr("Show the table"), "wiktionary-table", onToggleTable) {
+                tables.forEach { table ->
+                    if (tables.size > 1 && table.pos.isNotEmpty()) Text(table.pos, style = MaterialTheme.typography.labelMedium, color = colors.onSurfaceVariant)
+                    InflectionTableView(table, term)
                 }
             }
         }
-        if (page != null) {
+        if (wiktionary.expressions.isNotEmpty()) {
             val action = if (wiktionary.expressionsOpen) tr("Hide expressions") else tr("Show expressions")
             Collapsible(tr("Expressions"), null, wiktionary.expressionsOpen, action, "wiktionary-expressions", onToggleExpressions) {
-                val expressions = wiktionary.expressions
-                when {
-                    wiktionary.expressionsLoading || expressions == null -> QuietLine(tr("Looking up expressions..."))
-                    expressions.isEmpty() -> QuietLine(tr("No expressions found."))
-                    else -> FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.s), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
-                        expressions.forEach { WordChip(it, Modifier.testTag("expression-$it")) { onOpenWord(it) } }
-                    }
+                FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.s), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
+                    wiktionary.expressions.forEach { WordChip(it, Modifier.testTag("expression-$it")) { onOpenWord(it) } }
                 }
             }
-            WiktionaryCredit(page, languageName)
         }
+        wiktionary.credit?.let { WiktionaryCredit(it, languageName) }
     }
 }
 
@@ -242,11 +234,6 @@ private fun WordChip(word: String, modifier: Modifier = Modifier, onClick: () ->
         style = AppText.label,
         color = MaterialTheme.colorScheme.primary,
     )
-}
-
-@Composable
-private fun QuietLine(text: String) {
-    Text(text, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
 }
 
 /** Wiktionary's licence, as its content requires wherever it shows, linking the entry it comes from. */

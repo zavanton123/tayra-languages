@@ -122,23 +122,34 @@ data class TermFormUiState(
 }
 
 /**
- * The term's Wiktionary page, null until it came or when Wiktionary has none, with the parts of it
- * the pane opens on demand: the inflection table of [tableWord] (the term, or the lemma it is a form
- * of) and the expressions made with it. A list still null has not been asked for; empty is a miss.
+ * The term's Wiktionary page, null until it came or when Wiktionary has none, with the inflection
+ * tables of [tableWord] (the term, or the lemma it is a form of) and the expressions made with it.
  */
 data class WiktionaryUi(
     val page: WiktionaryPage? = null,
     /** The page as dictionary entries, shown when no offline dictionary of the pair answers. */
     val dictionary: DictionaryLookup = DictionaryLookup.EMPTY,
     val tableWord: String? = null,
-    val tables: List<InflectionTable>? = null,
-    val tableOpen: Boolean = false,
-    val tablesLoading: Boolean = false,
-    val expressions: List<String>? = null,
-    val expressionsOpen: Boolean = false,
-    val expressionsLoading: Boolean = false,
+    val tables: List<InflectionTable> = emptyList(),
+    val expressions: List<String> = emptyList(),
+    val tableOpen: Boolean = true,
+    val expressionsOpen: Boolean = true,
+    /** Whether the tables and expressions have been asked for. */
+    val complete: Boolean = false,
+    /** The entry the card's licence links: the page, or the lemma's when Wiktionary lacks the word itself. */
+    val credit: WiktionaryPage? = page,
 ) {
-    val isEmpty: Boolean get() = page == null && tableWord == null
+    /** The card shows once Wiktionary gave the word a table or expressions; its other lines alone are not worth one. */
+    val isShown: Boolean get() = complete && (tables.isNotEmpty() || expressions.isNotEmpty())
+
+    /** The word the card is about: the page's headword, or the lemma whose table it shows. */
+    val headword: String? get() = page?.word ?: tableWord
+}
+
+/** Whether the card's sections are open, kept for the session as the reader leaves them. */
+internal object WiktionarySections {
+    var tableOpen = true
+    var expressionsOpen = true
 }
 
 sealed interface TermFormEvent {
@@ -396,8 +407,9 @@ class TermFormViewModel(
     }
 
     /**
-     * Asks Wiktionary about the term once it has stayed open a moment: its page gives the form-of
-     * line, synonyms, pronunciations, recordings and the table of a lemma. [linkParent] is given only
+     * Asks Wiktionary about the term once it has stayed open a moment: its page, then the forms of
+     * the lemma it is a form of and the expressions made with that lemma, so the pane knows whether
+     * there is a table or an expression to show before it shows the card. [linkParent] is given only
      * when the offline dictionary had nothing, so the online lemma never overrides an offline answer.
      */
     private suspend fun loadWiktionary(text: String, offline: DictionaryLookup, language: Language?, linkParent: ((String) -> Unit)?) {
@@ -408,50 +420,38 @@ class TermFormViewModel(
         delay(WIKTIONARY_DELAY_MS)
         val page = source.page(word, code, nativeLanguage())
         if (_state.value.draft.text != text) return
-        val tables = page?.let { InflectionTables.tables(it) }.orEmpty()
-        // A form's table is its lemma's, fetched when the table is opened.
+        val own = page?.let { InflectionTables.tables(it) }.orEmpty()
         val lemma = _state.value.draft.parents.singleOrNull() ?: parentSuggestion(offline, page) ?: offline.lemmas.firstOrNull() ?: page?.lemmas?.firstOrNull()
+        val tableWord = if (own.isNotEmpty()) page?.word else lemma
         _state.update {
             it.copy(
-                wiktionary = WiktionaryUi(page, page?.toLookup() ?: DictionaryLookup.EMPTY, tableWord = if (tables.isNotEmpty()) page?.word else lemma, tables = tables.ifEmpty { null }),
+                wiktionary = WiktionaryUi(page, page?.toLookup() ?: DictionaryLookup.EMPTY, tableWord, tableOpen = WiktionarySections.tableOpen, expressionsOpen = WiktionarySections.expressionsOpen),
                 recordings = withRecordings(it.recordings, page?.let(::recordingsOf).orEmpty()),
             )
         }
         if (linkParent != null && _state.value.draft.parents.isEmpty()) page?.parentSuggestion?.let(linkParent)
+        // A word Wiktionary lacks is asked about in English, the edition with the most words, by its lemma.
+        val edition = page?.edition ?: "en"
+        val tables = own.ifEmpty {
+            tableWord?.let { lemmaWord -> source.forms(lemmaWord, code, edition).map { InflectionTables.table(it.pos, it.forms) }.filter { !it.isEmpty } }.orEmpty()
+        }
+        val headword = tableWord ?: page?.word
+        val expressions = headword?.let { expressionsOf(source.search(it, code, edition), it).take(MAX_EXPRESSIONS) }.orEmpty()
+        if (_state.value.draft.text != text) return
+        val credit = page ?: tableWord?.let { WiktionaryPage(it, edition, WiktionaryCodes.languageCode(code), emptyList()) }
+        _state.update { it.copy(wiktionary = it.wiktionary.copy(tables = tables, expressions = expressions, complete = true, credit = credit)) }
     }
 
-    /** Opens or closes the inflection table; the lemma's forms are asked for the first time it opens. */
+    /** Opens or closes the inflection table; the next words open it as it was left. */
     fun toggleTable() {
-        val current = _state.value.wiktionary
-        _state.update { it.copy(wiktionary = it.wiktionary.copy(tableOpen = !current.tableOpen)) }
-        val word = current.tableWord ?: return
-        if (current.tableOpen || current.tables != null || current.tablesLoading) return
-        val source = wiktionary ?: return
-        val code = _state.value.language?.let { LanguageCodes.codeFor(it.name) } ?: return
-        _state.update { it.copy(wiktionary = it.wiktionary.copy(tablesLoading = true)) }
-        viewModelScope.launch {
-            val editions = (listOfNotNull(current.page?.edition) + WiktionaryCodes.editionsFor(nativeLanguage())).distinct()
-            val tables = editions.firstNotNullOfOrNull { edition ->
-                source.forms(word, code, edition).map { InflectionTables.table(it.pos, it.forms) }.filter { !it.isEmpty }.ifEmpty { null }
-            }.orEmpty()
-            _state.update { if (it.wiktionary.tableWord == word) it.copy(wiktionary = it.wiktionary.copy(tables = tables, tablesLoading = false)) else it }
-        }
+        WiktionarySections.tableOpen = !_state.value.wiktionary.tableOpen
+        _state.update { it.copy(wiktionary = it.wiktionary.copy(tableOpen = WiktionarySections.tableOpen)) }
     }
 
-    /** Opens or closes the expressions made with the term's lemma, searched for the first time it opens. */
+    /** Opens or closes the expressions made with the term's lemma; the next words open them as they were left. */
     fun toggleExpressions() {
-        val current = _state.value.wiktionary
-        _state.update { it.copy(wiktionary = it.wiktionary.copy(expressionsOpen = !current.expressionsOpen)) }
-        if (current.expressionsOpen || current.expressions != null || current.expressionsLoading) return
-        val source = wiktionary ?: return
-        val code = _state.value.language?.let { LanguageCodes.codeFor(it.name) } ?: return
-        val lemma = current.tableWord ?: current.page?.word ?: return
-        _state.update { it.copy(wiktionary = it.wiktionary.copy(expressionsLoading = true)) }
-        viewModelScope.launch {
-            val edition = current.page?.edition ?: WiktionaryCodes.editionsFor(nativeLanguage()).first()
-            val found = expressionsOf(source.search(lemma, code, edition), lemma).take(MAX_EXPRESSIONS)
-            _state.update { if (it.wiktionary.page == current.page) it.copy(wiktionary = it.wiktionary.copy(expressions = found, expressionsLoading = false)) else it }
-        }
+        WiktionarySections.expressionsOpen = !_state.value.wiktionary.expressionsOpen
+        _state.update { it.copy(wiktionary = it.wiktionary.copy(expressionsOpen = WiktionarySections.expressionsOpen)) }
     }
 
     private fun nativeLanguage(): String = settings.current.nativeLanguage.ifBlank { "en" }
