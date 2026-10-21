@@ -1,0 +1,226 @@
+{
+  "id": "cs-mini-2200",
+  "rankUpTo": 2200,
+  "level": "B2",
+  "title": "Tělo a mysl",
+  "description": "Ten stories about health and well-being: a smartwatch, breakfast, a mountain hike, a fear of water, sport, a quieter home, laughter, memory, a medical check-up and an art class.",
+  "topic": "Body and mind",
+  "names": [
+    "Ivana",
+    "Michal",
+    "Radek",
+    "Radka",
+    "Radkovy",
+    "Radkovi",
+    "Radkova",
+    "Radkův",
+    "Doležal",
+    "Doležalovi",
+    "Lucie",
+    "Adam",
+    "Adama",
+    "Adamovi",
+    "Krkonoše",
+    "Krkonoš",
+    "Sněžka",
+    "Sněžku",
+    "Česka",
+    "Eva",
+    "Evě",
+    "Evina",
+    "Kryštof",
+    "Kryštofem",
+    "Ondřej",
+    "Filip",
+    "Filipe",
+    "Kuba",
+    "Kuby",
+    "Jitka",
+    "Pavel",
+    "Pavla",
+    "Rozárka",
+    "Prahy",
+    "Praze",
+    "Olomouci",
+    "Kratochvíl",
+    "Vondráček",
+    "Jarmila",
+    "Jarmile",
+    "Jarmilu",
+    "Pardubicích",
+    "Klára",
+    "Libor",
+    "Liborovi",
+    "Mělníka",
+    "Šimková",
+    "Marta",
+    "Zuzana",
+    "Paolo",
+    "Paola",
+    "Itálie",
+    "Brně"
+  ],
+  "lessons": [
+    {
+      "title": "Chytré hodinky",
+      "summary": "Ivana gets a smartwatch to move more, and learns to use it without being ruled by it.",
+      "newWords": [
+        "hodinky",
+        "pořídit",
+        "digitální",
+        "automaticky",
+        "software",
+        "zachytit",
+        "statistika",
+        "srovnání",
+        "upozornit",
+        "závislost"
+      ],
+      "text": "Ivana pracuje v kanceláři a celý den sedí u počítače. Loni na podzim si řekla, že by se měla víc pohybovat. K narozeninám si proto pořídila chytré hodinky. Byly to první digitální hodinky v jejím životě. Do té doby nosila jen staré hodinky po babičce, které ukazovaly čas a nic víc.\n\nNové hodinky dělaly všechno automaticky. Samy počítaly kroky, měřily srdeční tep a v noci zachytily každé probuzení. Software v telefonu pak z těch čísel každé ráno připravil statistiku: kolik kroků Ivana ušla, kolik hodin spala a kdy jí srdce bilo nejrychleji. Ivana si tu statistiku četla hned po probuzení, ještě v posteli.\n\nPrvní týden ji čísla překvapila. Hodinky zachytily, že za celý den ušla jen dva tisíce kroků. Ve srovnání s doporučenými deseti tisíci to bylo velmi málo. Ivana se rozhodla, že to změní. Začala chodit do práce pěšky a v době oběda se procházela v parku.\n\nHodinky jí v tom pomáhaly. Když seděla u stolu déle než hodinu, vždycky ji krátkým signálem upozornily, že je čas se zvednout a trochu projít. Upozornily ji také, když šla spát příliš pozdě. Po měsíci ukazovala statistika mnohem lepší čísla. Ve srovnání s prvním týdnem chodila Ivana mnohem víc a spala o hodinu déle.\n\nPak se ale něco změnilo. Ivana se na hodinky dívala pořád: v práci, v obchodě i večer při filmu. Když jednou hodinky nezachytily ranní procházku, protože je zapomněla doma, byla celý den naštvaná.\n„Ty už máš na těch hodinkách závislost,“ řekl jí manžel Michal. „Dřív ses dívala na mě, teď se díváš na čísla.“\n\nIvana se nejdřív smála, ale pak o tom přemýšlela. Michal měl pravdu. Závislost na digitálních věcech je dnes běžná a ona nechtěla, aby jí malé hodinky řídily život. Rozhodla se proto, že je bude nosit jen přes den. Software v telefonu si nastavila tak, aby ji upozornil jen jednou denně, a statistiku si teď čte jen v neděli. Hodinky dál pracují automaticky, ale Ivana už je nemusí kontrolovat každou minutu.\n\nDnes chodí víc než dřív a spí lépe. Michal si podobné hodinky pořídit nechce. „Hodinky jsou dobrý pomocník,“ říká mu Ivana, „ale nejlepší pomocník je vlastní hlava.“\n\nOtázky:\nProč si Ivana pořídila chytré hodinky?\nProtože celý den sedí u počítače a chtěla se víc pohybovat.\nCo hodinky dělaly automaticky?\nPočítaly kroky, měřily tep a v noci zachytily každé probuzení.\nKolik kroků Ivana ušla první týden?\nUšla jen dva tisíce kroků, což bylo ve srovnání s doporučenými deseti tisíci velmi málo.\nKdy ji hodinky upozornily?\nKdyž seděla u stolu déle než hodinu a když šla spát příliš pozdě.\nCo jí řekl manžel Michal?\nŘekl jí, že má na hodinkách závislost.\nJak to Ivana vyřešila?\nHodinky nosí jen přes den a statistiku si čte jen v neděli."
+    },
+    {
+      "title": "Snídaně, která pomáhá",
+      "summary": "Radek sees an adviser on healthy eating, starts having breakfast and cuts down on sugar.",
+      "newWords": [
+        "poradce",
+        "snídaně",
+        "horký",
+        "čokoláda",
+        "jádro",
+        "spotřeba",
+        "snížení",
+        "cenný",
+        "olej"
+      ],
+      "text": "Radkovi je 42 let a pracuje v kanceláři velké firmy. Většinu dne sedí u počítače a domů se vrací pozdě večer. Na jaře mu lékař řekl, že má vysoký tlak a že by měl začít jíst zdravěji. Doporučil mu, aby navštívil poradce, který lidem radí, jak jíst zdravě.\n\nPoradce se jmenoval pan Doležal a jeho kancelář byla kousek od Radkovy práce. Na první schůzce chtěl vědět, jak vypadá Radkův běžný den.\n„Co máte k snídani?“ zeptal se.\n„Snídani většinou nemám,“ přiznal Radek. „Ráno si dám jen horkou kávu s mlékem, hodně sladkou. V deset si v práci koupím čokoládu a k obědu už mám obrovský hlad.“\n„To je častá chyba,“ řekl poradce. „Kdo ráno nic nejí, má potom velký hlad a k obědu si dá mnohem víc, než potřebuje. Snídaně je jedno z nejdůležitějších jídel dne. A v tom je jádro problému. Ráno nejíte nic a pak jíte sladké. Vaše spotřeba cukru je příliš vysoká. Prvním krokem bude snížení spotřeby cukru, hlavně v kávě a v jídle mezi obědem a večeří.“\n\nPak mu poradce ukázal, jak může vypadat dobrá snídaně: horký čaj, vejce, kousek ovoce a pár ořechových jader. „Ořechová jádra obsahují cenné látky, které vaše tělo potřebuje,“ vysvětlil. „Také ovoce má mnoho cenných látek.“\n\nRadek se zeptal, jestli se musí čokolády úplně vzdát.\n„Nemusíte,“ odpověděl poradce s úsměvem. „Malý kousek čokolády po obědě nevadí. Jde o snížení, ne o zákaz.“\n\nPan Doležal mu dal ještě jednu cennou radu. Doporučil mu, aby doma vařil jen s trochou oleje a aby olej nedával do každého jídla. „I olej má hodně energie,“ dodal. „Když ho dáváte do jídla hodně, tělo dostane víc energie, než za den potřebuje.“\n\nPrvní týden byl pro Radka těžký. Ráno neměl čas a nechtělo se mu nic připravovat. Po dvou týdnech to ale bylo lehčí. Každé ráno si udělal horký čaj, uvařil si vejce, k tomu si dal ovoce a pár jader a snídani jedl v klidu u okna. Čokoládu si dával jen v neděli. Do kávy už cukr nedával.\n\nPo třech měsících šel Radek znovu k lékaři. Tlak měl nižší a váha ukazovala o 4 kila méně. Když to vyprávěl panu Doležalovi, poradce byl spokojený. „Vidíte,“ řekl. „Snížení spotřeby cukru a dobrá snídaně udělaly víc než jakákoliv dieta.“\n\nOtázky:\nProč šel Radek k poradci?\nProtože mu lékař řekl, že má vysoký tlak a měl by jíst zdravěji.\nCo měl Radek dřív k snídani?\nRáno měl jen horkou sladkou kávu a v deset snědl čokoládu.\nCo bylo podle poradce prvním krokem?\nPrvním krokem bylo snížení spotřeby cukru.\nProč jsou ořechová jádra dobrá?\nProtože obsahují cenné látky, které tělo potřebuje.\nJakou cennou radu dostal Radek o vaření?\nMěl vařit jen s trochou oleje a nedávat olej do každého jídla.\nJak se Radkovi dařilo po třech měsících?\nMěl nižší tlak a o 4 kila méně."
+    },
+    {
+      "title": "Jarní výlet na Sněžku",
+      "summary": "Lucie and her brother Adam climb Sněžka in May; Adam learns to dress for the mountains and hurts his knee.",
+      "newWords": [
+        "jarní",
+        "studený",
+        "obléct",
+        "stoupat",
+        "skála",
+        "pokuta",
+        "horský",
+        "nikde",
+        "výhled",
+        "skočit",
+        "koleno"
+      ],
+      "text": "Lucie a její mladší bratr Adam jezdí každé jaro na společný výlet. Letos si vybrali Krkonoše, protože chtěli vyjít na Sněžku, nejvyšší horu Česka. Byl to jejich první jarní výlet do hor po dlouhé zimě.\n\nRáno bylo jasné, ale studené. Od hor foukal studený vítr. Lucie se oblékla do teplých věcí a dala si na hlavu zimní čepici. Adam si oblékl jen lehké letní věci.\n„Vždyť je to jarní výlet, ne zimní,“ smál se.\n„Jen počkej,“ odpověděla Lucie. „Na horách se počasí mění rychle. Vezmi si s sebou aspoň svetr.“\nAdam si svetr nakonec vzal, ale jen proto, aby se sestra nezlobila.\n\nCesta nejdřív vedla lesem a jen pomalu stoupala. Po hodině začala stoupat prudčeji a les zůstal pod nimi. Kolem cesty ležely velké skály a mezi nimi ještě ležel sníh. U jedné skály chtěli jít kratší cestou přes trávu, ale uviděli tabuli. Stálo na ní, že se v národním parku nesmí chodit mimo cesty a že za to hrozí pokuta.\n„Pokuta by nás stála víc než celý výlet,“ řekla Lucie, a tak šli dál po cestě.\n\nAsi v polovině cesty se zastavili v horské chatě. Dali si horký čaj a chvíli si odpočinuli. Pak šli dál. Čím výš stoupali, tím silnější byl vítr. Adam si nakonec oblékl svetr, který měl s sebou, a už se nesmál.\n\nNa vrcholu nebyl nikde žádný strom, jen kameny, vítr a pár dalších turistů. Výhled ale stál za to. Pod nimi ležely horské lesy, kopce a malé vesnice a daleko na severu byla vidět polská města. Takový výhled Lucie ještě nikdy neviděla. Nikde na světě, myslela si, nemůže být hezčí den.\n\nCestou dolů se stala malá nehoda. Na jednom místě byla přes celou cestu voda z tajícího sněhu. Adam přes ni skočil, ale na druhé straně špatně dopadl a spadl na koleno. Koleno ho bolelo a každý krok dolů byl pomalý. Lucie mu nesla věci a celou cestu šla vedle něj. Přes další vodu už Adam neskočil, ale pomalu ji přešel po kamenech.\n\nVečer seděli v hotelu. Adam měl na koleni led a koleno už tolik nebolelo.\n„Příští rok pojedeme znovu,“ řekl. „Ale svetr si obléknu hned ráno.“\n\nOtázky:\nKam jeli Lucie a Adam na jarní výlet?\nJeli do Krkonoš, protože chtěli vyjít na Sněžku.\nProč nešli kratší cestou přes trávu?\nProtože na tabuli stálo, že za chození mimo cesty hrozí pokuta.\nKde se zastavili v polovině cesty?\nZastavili se v horské chatě a dali si horký čaj.\nJaký byl výhled z vrcholu?\nByly vidět horské lesy, kopce, vesnice a daleko na severu polská města.\nCo se stalo Adamovi cestou dolů?\nSkočil přes vodu, špatně dopadl a spadl na koleno."
+    },
+    {
+      "title": "Strach z vody",
+      "summary": "Eva, afraid of water since childhood, takes a swimming course for adults and passes the final test.",
+      "newWords": [
+        "obávat",
+        "dětství",
+        "odpor",
+        "bazén",
+        "hlídat",
+        "ochotný",
+        "závěrečný",
+        "úspěšně"
+      ],
+      "text": "Evě je 35 let a celý život se obávala vody. Strach z vody měla od dětství. Když jí bylo šest let, spadla na chatě do vody a starší bratr ji musel vytáhnout. Od té doby měla k vodě odpor. Na dovolené u moře sedávala na pláži a do vody chodila jen po kolena.\n\nLoni v září začal její syn Kryštof chodit do bazénu na trénink. Eva sedávala u bazénu a hlídala jeho věci, zatímco byl Kryštof ve vodě. Jednou se jí Kryštof zeptal: „Mami, proč ty nikdy nejdeš do vody?“ Eva nevěděla, co odpovědět. Tehdy se rozhodla, že to zkusí změnit.\n\nNa internetu našla kurz pro dospělé, kteří se obávají vody. Vedl ho trenér Ondřej, klidný a ochotný muž kolem 50 let. Na první hodině mu Eva přiznala, že má k vodě odpor už od dětství.\n„To nevadí,“ řekl Ondřej. „Většina lidí v tomhle kurzu má strach z dětství. Máme čas, nikam nepospícháme.“\n\nPrvní hodina byla v malém bazénu, kde byla voda hluboká jen jeden metr. Eva stála ve vodě a jen dýchala. Ondřej byl celou dobu vedle ní a hlídal, aby se cítila v bezpečí. Na druhé hodině si poprvé zkusila ležet na vodě. Ondřej ji držel za ruce a ochotně jí znovu a znovu vysvětloval, jak má dýchat.\n\nKaždý týden udělala malý krok. Po měsíci dala poprvé hlavu pod vodu. Po dvou měsících se sama dostala z jednoho konce bazénu na druhý. Odpor k vodě pomalu mizel a místo něj přicházel klid.\n\nZávěrečná hodina kurzu byla ve velkém bazénu. Při závěrečné zkoušce měl každý zvládnout 25 metrů bez pomoci. Eva se trochu obávala, ale Ondřej stál na kraji bazénu a hlídal ji. Kousek od něj seděl Kryštof a díval se na mámu. Eva zkoušku úspěšně zvládla. Úspěšně ji zvládli i všichni ostatní lidé z kurzu.\n\n„Jsem rád, že jste byla tak ochotná zkoušet nové věci,“ řekl jí Ondřej po závěrečné hodině.\nTeď chodí Eva s Kryštofem do bazénu každou sobotu. Vody se už neobává a na příští léto plánuje dovolenou u moře. Tentokrát nebude jen hlídat věci na pláži.\n\nOtázky:\nOd kdy se Eva obávala vody?\nVody se obávala od dětství, kdy spadla do vody.\nCo dělala Eva, když byl Kryštof ve vodě?\nSedávala u bazénu a hlídala jeho věci.\nJaký byl trenér Ondřej?\nByl to klidný a ochotný muž kolem 50 let.\nCo musel každý zvládnout při závěrečné zkoušce?\nKaždý musel zvládnout 25 metrů bez pomoci.\nJak dopadla Evina závěrečná zkouška?\nEva zkoušku úspěšně zvládla."
+    },
+    {
+      "title": "Hokejista na fotbale",
+      "summary": "Filip, a retired hockey player, joins a Thursday football team, learns fair play and becomes its top scorer.",
+      "newWords": [
+        "hokejista",
+        "reprezentace",
+        "míč",
+        "družstvo",
+        "rozhodčí",
+        "srazit",
+        "hrubý",
+        "konflikt",
+        "spravedlnost",
+        "střelec"
+      ],
+      "text": "Filip byl 15 let profesionálním hokejistou. Hrál za několik českých klubů a dvakrát i za reprezentaci na mistrovství světa. Hrát za reprezentaci byl jeho velký sen. V 35 letech ale s hokejem skončil, protože ho bolela záda.\n\nPrvní rok po konci kariéry byl těžký. Filip najednou neměl tréninky ani zápasy a celé dny trávil doma. Málo se hýbal, hodně jedl a často měl špatnou náladu. Jeho starý kamarád Kuba to viděl a jednou mu zavolal.\n„Filipe, každý čtvrtek hrajeme s kolegy fotbal. Chybí nám jeden hráč. Nechceš přijít?“\n„Já jsem hokejista, ne fotbalista,“ řekl Filip. „S míčem to neumím.“\n„To nevadí. Nejde o výsledek, jde o pohyb.“\n\nVe čtvrtek přišel Filip na hřiště. Družstvo, ve kterém hrál Kuba, tvořili muži kolem 40 let z jedné firmy. Proti nim hrálo družstvo z blízké nemocnice. Zápas řídil starší rozhodčí, bývalý trenér.\n\nFilip hrál, jak to znal z hokeje. Bojoval o každý míč a do soupeřů šel celým tělem. Po deseti minutách se srazil s jedním hráčem tak silně, že oba spadli na zem. Rozhodčí hned zápas zastavil.\n„To byla hrubá hra,“ řekl rozhodčí. „Tady nejsme na ledě.“\nHráč z druhého družstva byl rozzlobený a chvíli to vypadalo na velký konflikt. Filip mu ale pomohl na nohy, omluvil se a podal mu ruku.\n\nPo první polovině zápasu mu Kuba vysvětlil, že ve fotbale je hrubá hra zakázaná a že rozhodčí na hřišti hlídá spravedlnost. „Pan rozhodčí je tvrdý, ale spravedlnost u něj platí pro obě družstva stejně,“ řekl Kuba.\n\nVe druhé polovině hrál Filip klidně. Už se s nikým nesrazil a soustředil se jen na míč. Zjistil, že má silnou střelu, a dal dva góly. Družstvo vyhrálo 4:2.\n\nOd té doby chodí Filip na fotbal každý čtvrtek. Po půl roce je zase ve formě a má dobrou náladu. Na konci sezony se stal nejlepším střelcem celé malé ligy. Když dostal cenu pro nejlepšího střelce, řekl: „Ještě před rokem bych nevěřil, že bývalý hokejista může být nejlepší střelec ve fotbale.“ Konflikty už nemá ani s rozhodčím, ani se soupeři.\n\nOtázky:\nZa koho hrál Filip na mistrovství světa?\nHrál za reprezentaci.\nProč měl Filip po konci kariéry špatnou náladu?\nProtože neměl tréninky ani zápasy a celé dny trávil doma.\nCo se stalo po deseti minutách prvního zápasu?\nFilip se srazil s hráčem z druhého družstva a rozhodčí zápas zastavil.\nCo podle Kuby hlídá rozhodčí na hřišti?\nRozhodčí hlídá spravedlnost.\nČím se Filip stal na konci sezony?\nStal se nejlepším střelcem celé malé ligy."
+    },
+    {
+      "title": "Dům se zahradou",
+      "summary": "Jitka and Pavel leave a noisy Prague flat, buy an old house in Olomouc and slowly build a calmer life.",
+      "newWords": [
+        "přestěhovat",
+        "záměr",
+        "nemovitost",
+        "půjčka",
+        "značný",
+        "vlastník",
+        "spodní",
+        "umístění",
+        "blízkost",
+        "budovat"
+      ],
+      "text": "Jitka a Pavel bydleli deset let v malém bytě v centru Prahy. Byt nebyl jejich, platili za něj každý měsíc. Pod okny jezdila auta celý den i celou noc a Pavel kvůli hluku špatně spal. Když se jim narodila dcera Rozárka, rozhodli se, že se přestěhují. Jejich záměr byl jasný: chtěli tišší život, víc přírody a víc času pro sebe.\n\nZačali hledat nemovitost v Olomouci, odkud Jitka pochází. Každý večer procházeli na internetu desítky nabídek. Ceny nemovitostí tam byly nižší než v Praze, ale i tak potřebovali půjčku. V bance jim vysvětlili, jak vysokou půjčku si mohou dovolit. Půjčku budou bance vracet 20 let, což je značná část života. Každý měsíc však budou platit méně, než platili za byt v Praze.\n\nNakonec našli starší dům se zahradou na kraji města. Vlastník domu, pan Kratochvíl, byl starý pán, který se stěhoval k dceři. Ukázal jim celý dům, od spodního patra až po střechu. „Ve spodní části zahrady jsem 40 let pěstoval zeleninu,“ řekl. „Půda je tam dobrá.“\n\nUmístění domu bylo výborné. V blízkosti byla škola, obchod i lékař a za domem začínal velký park. Blízkost parku byla pro Pavla důležitá, protože chtěl začít chodit každé ráno ven. Jitka zase ocenila blízkost svých rodičů, kteří bydleli jen dvě ulice od domu.\n\nDům ale potřeboval značné opravy. Střecha i okna byly staré. „Nový domov nepostavíme za týden,“ řekla Jitka. „Budeme ho budovat postupně, kousek po kousku.“\n\nNa podzim podepsali smlouvu a stali se vlastníky domu. V prosinci se přestěhovali. První měsíce byly náročné: ráno práce, odpoledne opravy a večer už neměli sílu na nic. Přesto oba cítili, že se jim žije lépe. Pavel konečně spal celou noc, protože pod okny byla jen tichá ulice.\n\nDnes, po dvou letech, je dům skoro hotový. Pavel buduje ve spodní části zahrady malou zahrádku, stejně jako kdysi pan Kratochvíl, a Rozárka mu pomáhá. Jitka chodí každé ráno s dcerou do parku. Jejich záměr se splnil. „Kdybychom se nepřestěhovali, pořád bychom žili v hluku,“ říká Jitka. „Teď konečně budujeme život, jaký jsme chtěli.“\n\nOtázky:\nProč se Jitka a Pavel rozhodli přestěhovat?\nProtože byt v Praze byl hlučný a chtěli tišší život, víc přírody a víc času pro sebe.\nProč potřebovali půjčku?\nProtože i nižší ceny nemovitostí v Olomouci byly pro ně příliš vysoké.\nKdo byl vlastníkem domu?\nVlastníkem domu byl starý pán Kratochvíl.\nProč bylo umístění domu výborné?\nV blízkosti byla škola, obchod, lékař a velký park.\nCo buduje Pavel ve spodní části zahrady?\nBuduje tam malou zahrádku."
+    },
+    {
+      "title": "Jeden vtip denně",
+      "summary": "A short newspaper column on why laughter is good for body and mind and why everyone laughs at different things.",
+      "newWords": [
+        "údajně",
+        "chemický",
+        "vtip",
+        "souviset",
+        "odlišný",
+        "vtipný",
+        "hloupý",
+        "postoj",
+        "jestliže",
+        "akorát"
+      ],
+      "text": "Moje babička říkávala, že kdo se hodně směje, žije déle. Jako dítě jsem tomu nevěřila. Dnes to ale tvrdí i vědci. Smích údajně snižuje krevní tlak, pomáhá srdci a posiluje obranu těla proti nemocem. Píšu „údajně“, protože nejsem lékařka a všechny studie jsem nečetla. Něco pravdy na tom ale bude.\n\nKdyž se smějeme, v mozku se uvolňují chemické látky, díky kterým se cítíme dobře. Podobné chemické látky tělo vytváří při sportu nebo při dobrém jídle. Proto se po dobrém vtipu cítíme lépe. Zdraví a dobrá nálada spolu souvisí víc, než si myslíme. A souvisí to i s tím, s kým trávíme čas: kdo se směje s přáteli, cítí se méně sám.\n\nKaždý člověk má ale odlišný smysl pro humor. To, co jednomu připadá vtipné, připadá druhému hloupé. Můj muž se směje hloupým vtipům o zvířatech, já mám raději vtipné příběhy ze života. Naše dcera má zase úplně odlišný humor než my oba. Nejvíc se směje, když táta zpívá v kuchyni.\n\nNejdůležitější je podle mě postoj k životu. Jestliže člověk bere každou malou věc vážně, život je pro něj těžší. Jestliže se dokáže zasmát sám sobě, spoustu problémů vyřeší lépe. Takový postoj má můj soused, pan Vondráček. Je mu 80 let a nohy už mu moc neslouží, a přesto má vždycky po ruce nějaký vtip. Když se ho ráno zeptám, jak se má, odpoví: „Akorát. Na sport jsem starý, na špatnou náladu mladý.“\n\nNemusíme se smát pořád a nemusíme se smát všemu. Každý den ale přináší něco, nad čím se dá zasmát: vtipná věta v televizi, hloupá chyba v novinách, pes, který běhá za vlastním ocasem. Podle mě je jeden dobrý vtip denně akorát. Víc nepotřebujeme, ale méně by byla škoda.\n\nZkuste to i vy. Jestliže máte špatný den, řekněte někomu vtip. I hloupý vtip je lepší než žádný.\n\nOtázky:\nCo údajně dělá smích s tělem?\nÚdajně snižuje krevní tlak, pomáhá srdci a posiluje obranu těla proti nemocem.\nProč se po dobrém vtipu cítíme dobře?\nProtože se v mozku uvolňují chemické látky, díky kterým se cítíme dobře.\nProč se každý směje něčemu jinému?\nProtože každý člověk má odlišný smysl pro humor.\nJaký postoj k životu má pan Vondráček?\nDokáže se zasmát sám sobě a vždycky má po ruce nějaký vtip.\nKolik vtipů denně je podle autorky akorát?\nJeden dobrý vtip denně je akorát."
+    },
+    {
+      "title": "Trénink paměti",
+      "summary": "Retired teacher Jarmila hears about a memory course for older people on the radio, signs up and finishes it at a small ceremony.",
+      "newWords": [
+        "vysílání",
+        "vzdělávání",
+        "odbor",
+        "zapsat",
+        "rozsah",
+        "každopádně",
+        "ukončení",
+        "slavnostní"
+      ],
+      "text": "Jarmile je 72 let. Celý život učila matematiku na střední škole v Pardubicích a vždycky měla výbornou paměť. V poslední době si ale všimla, že zapomíná. Nevěděla, kam dala klíče, a v obchodě si nemohla vzpomenout, co chtěla koupit.\n\nJednou ráno poslouchala vysílání Českého rozhlasu o zdraví. Lékařka v něm mluvila o tom, že mozek potřebuje trénink stejně jako tělo. Na konci vysílání řekla, že v mnoha městech existují kurzy paměti pro starší lidi. Jarmila si hned vzala papír a zapsala si, kde se o kurzech dozví víc.\n\nKurz v Pardubicích pořádal odbor sociálních věcí na městském úřadě. Patřil do programu vzdělávání pro starší lidi. Jarmila zavolala na odbor a milá paní jí všechno vysvětlila. Rozsah kurzu byl deset setkání, každý týden jedno. Kurz byl zdarma, stačilo se zapsat. Jarmila se zapsala ještě ten den.\n\nNa první setkání přišlo 12 lidí. Vedla je mladá žena jménem Klára, která studovala psychologii. Vysvětlila jim, že vzdělávání nemá věk a že mozek se může učit celý život. Každé setkání vypadalo stejně: nejdřív krátká teorie, pak cvičení a na konci úkol na doma. Učili se pamatovat si jména, čísla a seznamy věcí na nákup. Dozvěděli se, že pomáhá spojit si slovo s obrázkem nebo s příběhem. „Každopádně si nezapisujte všechno,“ říkala Klára. „Zkuste to nejdřív udržet v hlavě.“\n\nJarmilu kurz bavil. Doma zkoušela paměť s vnukem: on jí řekl deset slov a ona je zopakovala. Na začátku si zapamatovala pět, na konci kurzu devět. Naučila se také, že mozku pomáhá pohyb, dost spánku a setkání s lidmi.\n\nKurz měl sice malý rozsah, ale Jarmile dal hodně. Po deseti týdnech přišlo ukončení kurzu. Odbor připravil slavnostní odpoledne ve velkém sále úřadu. Každý člověk z kurzu dostal na slavnostním ukončení malý dárek a knížku s úkoly na další měsíce. Jarmila měla za celou skupinu krátkou řeč. Mluvila bez papíru celých pět minut.\n\n„Nevím, jestli mám lepší paměť,“ řekla na konci. „Každopádně mám nové přátele a víc chuti do života.“ Na jaře se chce zapsat do dalšího kurzu.\n\nOtázky:\nKde se Jarmila dozvěděla o kurzech paměti?\nDozvěděla se o nich z vysílání Českého rozhlasu o zdraví.\nKdo kurz v Pardubicích pořádal?\nPořádal ho odbor sociálních věcí na městském úřadě jako součást vzdělávání pro starší lidi.\nJaký byl rozsah kurzu?\nKurz měl deset setkání, každý týden jedno.\nCo dostal každý na slavnostním ukončení kurzu?\nKaždý dostal malý dárek a knížku s úkoly.\nKam se chce Jarmila na jaře zapsat?\nChce se zapsat do dalšího kurzu."
+    },
+    {
+      "title": "Prohlídka před nástupem",
+      "summary": "Before starting at a power plant, Libor has a medical check-up and learns that his waistline is a warning sign.",
+      "newWords": [
+        "elektrárna",
+        "nástup",
+        "prohlédnout",
+        "funkční",
+        "vnější",
+        "obvod",
+        "pás",
+        "znamení",
+        "palivo"
+      ],
+      "text": "Liborovi bylo 47 let a od 1. května měl pracovat jako technik v elektrárně u Mělníka. Na novou práci se těšil. Před nástupem do práce však musel jít na lékařskou prohlídku. Bez ní by nástup do elektrárny nebyl možný.\n\nLékařka, paní doktorka Šimková, ho nejdřív požádala, aby se svlékl do pasu. Pak ho pečlivě prohlédla. Poslechla si srdce, změřila mu tlak a podívala se mu do očí a do uší. Potom udělala funkční test srdce. Libor musel deset minut jet na kole, které stálo na místě, a přístroj sledoval, jak jeho srdce pracuje. Srdce bylo plně funkční.\n\n„Na vnější pohled vypadáte zdravě,“ řekla lékařka. „Ale vnější vzhled nám neukáže všechno. Teď vám ještě změřím obvod pasu.“\nObvod pasu měl Libor 108 centimetrů.\n„To je u muže příliš mnoho,“ vysvětlila lékařka. „Velký obvod pasu je znamení, že máte v těle hodně tuku. A to je první znamení, že vám později mohou hrozit problémy se srdcem. Teď to ještě není nemoc, ale je to upozornění.“\n\nLibor se zeptal, co má dělat.\n„Jídlo je pro tělo jako palivo pro elektrárnu,“ odpověděla lékařka s úsměvem. „Elektrárna potřebuje přesně tolik paliva, kolik za den použije. U těla je to stejné. Když mu dáte víc jídla, než potřebuje, zbytek si uloží. U vás si ho ukládá v pase.“\n\nDoporučila mu, aby jedl méně, hlavně méně sladkého, a více ovoce a aby každý den chodil aspoň půl hodiny. Za šest měsíců ho chtěla znovu prohlédnout.\n\nLibor do práce nastoupil 1. května. Elektrárna byla od jeho domu deset kilometrů, a tak si koupil kolo a začal do práce jezdit na něm. V jídelně si místo velkého oběda bral menší jídlo a ovoce. Kolegové se mu nejdřív smáli, ale po čase se k němu dva z nich přidali.\n\nV listopadu ho doktorka Šimková znovu prohlédla. Obvod pasu měl o 9 centimetrů menší a tlak byl lepší. „To je dobré znamení,“ řekla. „Jen tak dál.“\n\nOtázky:\nProč musel Libor jít na lékařskou prohlídku?\nProtože bez prohlídky nemohl nastoupit do práce v elektrárně.\nJak dopadl funkční test srdce?\nSrdce bylo plně funkční.\nProč byl velký obvod pasu znamení problému?\nProtože ukazuje, že má Libor v těle hodně tuku a později mu mohou hrozit problémy se srdcem.\nČemu se podle lékařky podobá jídlo?\nJídlo je pro tělo jako palivo pro elektrárnu.\nCo se změnilo do listopadu?\nObvod pasu měl Libor o 9 centimetrů menší a tlak byl lepší."
+    },
+    {
+      "title": "Socha z hlíny",
+      "summary": "Marta, tired from work, joins an evening art class in Brno, finds calm in clay and gives her first statue to her mother.",
+      "newWords": [
+        "cizinec",
+        "převážně",
+        "tričko",
+        "socha",
+        "naprostý",
+        "dar"
+      ],
+      "text": "Marta pracuje v bance v Brně. Poslední rok byl pro ni velmi náročný. Do práce chodila brzy ráno a domů se vracela pozdě večer. V noci špatně spala a myslela na čísla. Kamarádka Zuzana jí jednou řekla: „Potřebuješ dělat něco rukama, ne hlavou.“ A doporučila jí večerní kurz, kde se dělají věci z hlíny.\n\nKurz vedl Paolo, umělec z Itálie. Byl to cizinec, ale v Brně žil už 20 let a mluvil česky skoro bez chyby. „Cizinec jsem už jen podle dokladů,“ říkal s úsměvem. Na kurz chodilo osm lidí, převážně ženy mezi 30 a 50 lety. Převážně to byli lidé, kteří celý den sedí v kanceláři, stejně jako Marta.\n\nNa první hodině jim Paolo řekl, ať si přinesou staré tričko. „Hlína jde z oblečení špatně dolů,“ vysvětlil. „V tričku, ve kterém tady budete pracovat, byste už nikdy nešli do divadla.“ Marta si vzala staré modré tričko po bratrovi, které jí bylo velké.\n\nPrvní tři hodiny se učili pracovat s hlínou a dělat jednoduché tvary. Pak řekl Paolo, že každý udělá malou sochu podle sebe. Marta se rozhodla, že udělá sochu své babičky, jak sedí na zahradě.\n\nPři práci zažila něco, co dlouho necítila. Celé dvě hodiny nemyslela na práci ani na čísla. Ve velké místnosti byl naprostý klid. Bylo slyšet jen tichou hudbu a Paola, který chodil mezi stoly a radil. „Ruce si pamatují, co hlava zapomněla,“ říkal.\n\nKaždá socha byla jiná. Jedna žena dělala psa, další dítě s míčem, jeden muž strom. Marta na své soše pracovala šest týdnů. Socha nebyla dokonalá, ale babička na ní měla svůj úsměv. Na konci kurzu dal Paolo všechny sochy do horké pece, aby byly pevné.\n\nMarta měla naprostou jistotu, komu sochu dá. Její matka slavila v červnu 70. narozeniny. Když dostala sochu jako dar, chvíli se na ni jen dívala a v očích měla slzy. „To je nejhezčí dar, jaký jsem kdy dostala,“ řekla. „Vypadá přesně jako moje máma.“\n\nMarta teď chodí na kurz každou středu. Spí lépe a v práci je klidnější. Staré tričko po bratrovi už je celé od hlíny, ale nosí ho tam pořád.\n\nOtázky:\nProč začala Marta chodit na kurz?\nProtože měla náročný rok a kamarádka jí řekla, že potřebuje dělat něco rukama.\nKdo kurz vedl?\nVedl ho Paolo, umělec z Itálie, který je cizinec, ale žije v Brně 20 let.\nKdo převážně chodil na kurz?\nPřevážně ženy mezi 30 a 50 lety, které celý den sedí v kanceláři.\nJakou sochu udělala Marta?\nUdělala sochu své babičky, jak sedí na zahradě.\nKomu dala Marta sochu jako dar?\nDala ji jako dar své matce k 70. narozeninám."
+    }
+  ]
+}

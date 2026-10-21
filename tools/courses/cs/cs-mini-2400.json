@@ -1,0 +1,239 @@
+{
+  "id": "cs-mini-2400",
+  "rankUpTo": 2400,
+  "level": "B2",
+  "title": "Věda a technika",
+  "description": "Ten stories about science and technology in everyday Czech life: school robots, wolves on camera, cancer research, sports science, smart homes, self-driving trams, fake videos, a science-fiction novel, drones on a farm and a museum of technology.",
+  "topic": "Science and technology",
+  "names": [
+    "Kryštof",
+    "Hedvika",
+    "Hedvikou",
+    "Pardubicích",
+    "Hradci",
+    "Hradce",
+    "Kratochvíl",
+    "hradeckém",
+    "Jitka",
+    "Vilém",
+    "Vilémem",
+    "Šumava",
+    "Šumavu",
+    "Šumavě",
+    "Vltavě",
+    "Vltavy",
+    "Hronek",
+    "Markéta",
+    "Markétin",
+    "Markéty",
+    "Igor",
+    "Igorem",
+    "Matěj",
+    "Matějovi",
+    "Matěje",
+    "Olomouci",
+    "Olomouce",
+    "Šárko",
+    "Libor",
+    "Lenka",
+    "Lenčina",
+    "Dušan",
+    "Dušana",
+    "Dušanovi",
+    "Kodani",
+    "Simona",
+    "Alžběta",
+    "Alžběty",
+    "Kovandová",
+    "Plzně",
+    "Adéla",
+    "Adélu",
+    "Adélin",
+    "Liberci",
+    "Liberce",
+    "Nela",
+    "Bedřich",
+    "Bedřicha",
+    "Bedřichem",
+    "Kalábových",
+    "Kalába",
+    "Znojma",
+    "Moravě",
+    "Veronika",
+    "Bohuslav",
+    "brněnské",
+    "Bára",
+    "Báru",
+    "Prahy",
+    "Brně",
+    "Jitce",
+    "znojemské",
+    "Veronikou",
+    "Znojmě"
+  ],
+  "lessons": [
+    {
+      "title": "Brankář z gymnázia",
+      "summary": "Two students from a grammar school in Pardubice build a goalkeeper machine for a football competition between schools.",
+      "newWords": [
+        "gymnázium",
+        "brankář",
+        "souboj",
+        "porážka",
+        "odvaha",
+        "vyzvat",
+        "vložit",
+        "hej",
+        "dopředu",
+        "spojenec"
+      ],
+      "text": "Kryštof chodí do třetího ročníku gymnázia v Pardubicích. Nejvíc ho baví fyzika a práce s počítačem. Loni se proto se svou spolužačkou Hedvikou přihlásil do školního kroužku, kde si studenti sami staví malé stroje a píšou pro ně programy.\n\nV březnu přišel do kroužku dopis z gymnázia v Hradci Králové. Studenti odtamtud vyzvali všechny školy v kraji k souboji: každá škola měla postavit dva malé stroje, které budou hrát fotbal proti strojům z ostatních škol. Jeden z nich měl být hráč a druhý brankář.\n\n„Hráče postavíme snadno,“ řekl Kryštof. „Ale brankář je těžší. Musí míč vidět a hned se pohnout.“\n\n„Tak to zkusíme,“ odpověděla Hedvika. „Když nás vyzvali, nemůžeme přece říct ne. Trochu odvahy máme.“\n\nNa brankáři pracovali šest týdnů. Do malého stroje na čtyřech kolech vložili kameru a jednoduchý počítač. Kryštof napsal program: když kamera uvidí míč, stroj pojede doleva nebo doprava. Jenže brankář byl pomalý. Míč často proletěl kolem něj dřív, než se vůbec pohnul.\n\nVelkým spojencem jim byl od začátku jejich učitel fyziky, pan Kratochvíl. Často s nimi zůstával ve škole až do večera. „Nechtějte po brankáři, aby čekal, až míč přiletí,“ poradil jim jednou. „Ať si spočítá, kam míč poletí, a vyjede mu dopředu naproti.“\n\nKryštof tedy vložil do programu nový výpočet. Brankář teď už podle prvních centimetrů letu míče věděl, kam míč dorazí.\n\nSouboj se konal v sobotu na hradeckém gymnáziu. Přijelo sedm škol. V prvním zápase hráli Kryštof a Hedvika proti domácím. Zápas skončil porážkou 0:3. Brankář se pohyboval pomalu a často jel na špatnou stranu.\n\nHedvika byla smutná. „Hej, je to jen první zápas,“ řekl Kryštof. „I porážka nás něco naučí. Pojďme zjistit, co se stalo.“\n\nBrzy na to přišli. V sále bylo moc světla a kamera míč špatně viděla. Vložili do programu jiné nastavení a brankáře znovu vyzkoušeli. Ve druhém souboji chytil brankář čtyři míče a vyhráli 2:1. Ve třetím zápase přišla další porážka, ale jen 1:2.\n\nDomů jeli se čtvrtým místem. Pan Kratochvíl byl spokojený. „Nejdůležitější je, že jste měli odvahu přijet,“ řekl jim ve vlaku. Hedvika se usmála: „Hej, příští rok se připravíme dopředu a vyhrajeme.“ Kryštof věděl, že bez takového spojence, jako je pan Kratochvíl, by brankáře nikdy nedokončili.\n\nOtázky:\nKam chodí Kryštof do školy?\nChodí do třetího ročníku gymnázia v Pardubicích.\nK čemu vyzvali studenti z Hradce Králové ostatní školy?\nVyzvali je k souboji ve fotbale malých strojů.\nCo vložili Kryštof a Hedvika do brankáře?\nVložili do něj kameru a jednoduchý počítač.\nJak jim pomohl pan Kratochvíl?\nPoradil jim, ať brankář spočítá, kam míč poletí, a vyjede mu dopředu naproti.\nProč skončil první zápas porážkou?\nProtože v sále bylo moc světla a kamera míč špatně viděla."
+    },
+    {
+      "title": "Vlci u řeky",
+      "summary": "A biologist in the Šumava national park finds a new wolf family on her forest cameras and explains to a worried farmer how wolves live.",
+      "newWords": [
+        "vlk",
+        "záběr",
+        "temný",
+        "stín",
+        "hrozba",
+        "klidný",
+        "mezitím",
+        "odtud",
+        "břeh",
+        "zoo"
+      ],
+      "text": "Jitka pracuje v Národním parku Šumava. Už třetím rokem sleduje vlky, kteří se na Šumavu vrátili po více než sto letech. Vlk se lidem vyhýbá a člověk ho skoro nikdy neuvidí. Jitka proto dala do lesa 40 malých kamer. Kamera se spustí sama, když se před ní něco pohne, a natočí krátký záběr.\n\nKaždé pondělí jezdí Jitka s kolegou Vilémem kamery kontrolovat. Minulé pondělí jeli brzy ráno k Vltavě. Na břehu řeky, kousek od starého mostu, byla na stromě kamera, která v noci natočila několik záběrů.\n\nV kanceláři si je Jitka pustila na počítači. První záběr byl úplně temný. Bylo na něm vidět jen to, jak se mezi stromy pohybuje nějaký stín. „Je to pes?“ zeptal se Vilém. Na druhém záběru už bylo jasné, že je to vlk. Šel klidně po břehu, zastavil se a díval se přímo do kamery. Na třetím záběru šli po břehu za ním další čtyři vlci a dva z nich byli ještě mladí.\n\n„Tak to je nová rodina,“ řekla Jitka. „Loni tu u řeky žila jen jedna vlčice. Teď už má mladé. Odtud budou mít blízko k vodě i do hlubokého lesa, kam lidé skoro nechodí.“\n\nMezitím Jitce volal pan Hronek, který blízko řeky chová krávy. „Lidi ve vesnici říkají, že u řeky viděli vlky. Jsou pro nás hrozbou?“\n\nJitka mu klidným hlasem vysvětlila, že vlci se lidem vyhýbají. Pro domácí zvířata hrozba je, ale dá se proti ní bránit. Park lidem zaplatí vysoký elektrický plot a radí jim, jak zvířata v noci chránit. „Vlk, který má v lese dost jídla, je klidný a k domům nechodí,“ řekla. Pan Hronek slíbil, že ho ještě ten týden postaví.\n\nMezitím Vilém připravil všechny záběry na přednášku, kterou měla Jitka v sobotu v pražské zoo. V zoo žijí vlci, které lidé mohou vidět každý den. Jitka chtěla návštěvníkům ukázat, jak jiný je život vlků na Šumavě. „V zoo vidíte vlka celý den,“ řekla v sobotu. „U nás většinou vidíme jen stín v temném lese.“ Pak pustila záběr z břehu Vltavy a lidé v sále byli úplně tiší.\n\nOtázky:\nCo dělá Jitka v Národním parku Šumava?\nSleduje vlky, kteří se na Šumavu vrátili po více než sto letech.\nProč dala Jitka do lesa kamery?\nProtože vlk se lidem vyhýbá a člověk ho skoro nikdy neuvidí.\nCo bylo vidět na prvním záběru?\nZáběr byl temný a byl na něm vidět jen stín mezi stromy.\nKoho uviděla Jitka na břehu Vltavy?\nUviděla novou vlčí rodinu, pět vlků, z toho dva mladé.\nProč je to místo pro vlky dobré?\nOdtud mají blízko k vodě i do hlubokého lesa.\nJsou vlci hrozbou pro lidi?\nNe, vlci se lidem vyhýbají. Hrozbou jsou jen pro domácí zvířata."
+    },
+    {
+      "title": "Virus proti rakovině",
+      "summary": "A scientist in Brno and her team use a changed virus to destroy cancer cells and win an award for their research.",
+      "newWords": [
+        "rakovina",
+        "virus",
+        "účinný",
+        "oddělit",
+        "faktor",
+        "ocenění",
+        "přijetí",
+        "dopad",
+        "nikoliv"
+      ],
+      "text": "Markéta pracuje v Brně ve vědeckém ústavu. Spolu se svým týmem hledá nový způsob, jak léčit rakovinu. Už sedm let pracují s virem, kterému říkají jednoduše „náš virus“.\n\nVětšina lidí si pod slovem virus představí nemoc, třeba chřipku. Markétin virus je ale jiný. Vědci ho upravili tak, aby napadal jen buňky rakoviny a zdravé buňky nechal na pokoji. Když virus vnikne do buňky rakoviny, začne se v ní množit, až ji zničí. Zdravé buňky ho nepustí dovnitř.\n\nLoni na jaře udělal tým velký pokus. Markétin kolega Igor odebral pacientům, kteří s tím souhlasili, malé kousky nemocné tkáně. V ústavu pak buňky rakoviny oddělili od zdravých buněk a každou skupinu dali do jiné misky. Když do obou misek přidali virus, výsledek byl jasný: za čtyři dny virus zničil skoro všechny buňky rakoviny, zatímco oddělené zdravé buňky žily dál.\n\nNebylo to ale tak jednoduché. U některých pacientů byl virus velmi účinný, u jiných skoro nefungoval. Tým proto dlouho hledal, čím se ti lidé liší. Zjistili, že roli hraje mnoho faktorů: věk, druh nemoci i to, jak je člověk jinak zdravý. Nejdůležitějším faktorem se nakonec ukázala jedna látka na povrchu buněk. Čím víc té látky buňka měla, tím účinnější byl virus.\n\nMarkéta o tom napsala článek a poslala ho do známého vědeckého časopisu. Čekala na odpověď skoro tři měsíce. Když jí konečně přišla zpráva o přijetí článku, utíkala hned za Igorem. Přijetí v takovém časopise znamená, že práci zkontrolovali jiní vědci a považují ji za dobrou.\n\nNa podzim dostal tým ocenění za nejlepší výzkum roku. Při předávání ocenění se Markéty ptali, kdy bude virus v nemocnicích. „Tak brzy to nebude,“ řekla. „Teď musíme zjistit, jestli je virus účinný i v lidském těle, nikoliv jen v misce. To potrvá několik let.“\n\nNa otázku, jaký dopad bude mít jejich práce, odpověděla klidně: „Virus nevyléčí všechny druhy rakoviny, ale možná pomůže lidem s jedním z nich. Pro mě je důležitý dopad na nemocné, nikoliv ocenění.“\n\nOtázky:\nNa čem pracuje Markétin tým?\nHledá nový způsob, jak léčit rakovinu pomocí upraveného viru.\nČím je Markétin virus jiný?\nNapadá jen buňky rakoviny a zdravé buňky nechá na pokoji.\nCo udělali vědci s buňkami při pokusu?\nOddělili buňky rakoviny od zdravých buněk a dali je do dvou misek.\nJaký faktor se ukázal jako nejdůležitější?\nJedna látka na povrchu buněk. Čím víc jí buňka měla, tím účinnější byl virus.\nCo dostal tým na podzim?\nDostal ocenění za nejlepší výzkum roku."
+    },
+    {
+      "title": "Kolo a čísla",
+      "summary": "A young cyclist from Olomouc gets measured at a sports science institute after a knee injury and learns to ride better.",
+      "newWords": [
+        "sportovec",
+        "cyklista",
+        "sval",
+        "zranit",
+        "cukr",
+        "dostatečně",
+        "mírně",
+        "efektivní",
+        "oddíl",
+        "prospěch"
+      ],
+      "text": "Matěj jezdí na kole za oddíl v Olomouci. Je mu devatenáct let a chce být profesionální cyklista. Loni v létě si ale na jednom závodě zranil koleno. Nespadl, koleno ho prostě začalo bolet. Dva měsíce nemohl trénovat a bál se, že bude muset přestat.\n\nTrenér z oddílu mu poradil, ať zajde na univerzitu do Olomouce. Tam funguje pracoviště, kde vědci zkoumají, jak pracuje tělo sportovce. Matěj tam přišel v září. Lékařka mu na nohy připevnila malé přístroje, které měřily práci každého svalu. Pak měl hodinu jet na kole, které stálo na místě a bylo připojené k počítači.\n\nVýsledky Matěje překvapily. Sval na vnější straně pravé nohy pracoval mnohem víc než na levé. Pravé koleno proto neslo větší váhu. „Tím jste si koleno nejspíš zranil,“ řekla lékařka. „Nejezdíte efektivně. Ztrácíte sílu, kterou byste mohl použít jinak.“\n\nPak se dívali na krev. Během jízdy mu každých deset minut vzali kapku krve a měřili v ní cukr. Po čtyřiceti minutách cukru v krvi rychle ubylo. „Na závodě jíte a pijete málo,“ vysvětlila lékařka. „Svaly potřebují cukr dostatečně brzy, nikoliv až ve chvíli, kdy jste unavený.“\n\nMatěj dostal nový plán. Měl jezdit pomaleji, aby si koleno odpočinulo, a víc posilovat levou nohu. Začátek každé jízdy měl být mírně pomalejší, aby se svaly dostatečně zahřály. Na každou hodinu závodu si měl připravit láhev s vodou a trochou cukru.\n\nNejdřív ho to nebavilo. Jiní cyklisté z oddílu jezdili rychle a on jezdil do kopce jen mírně rychleji než začátečník. Za tři měsíce ale přišel na kontrolu a čísla byla úplně jiná. Oba svaly pracovaly skoro stejně a koleno ho už nebolelo. Jeho jízda byla efektivní: se stejnou silou jel rychleji.\n\n„Každý sportovec si myslí, že víc tréninku je vždycky lepší,“ řekla mu lékařka. „Ale někdy je ve prospěch těla dělat méně a lépe.“ Matěj souhlasil. Na jaře vyhrál svůj první velký závod. Prospěch z toho neměl jen on, ale celý oddíl, protože trenér potom poslal na univerzitu i ostatní sportovce.\n\nOtázky:\nCo se stalo Matějovi loni v létě?\nNa jednom závodě si zranil koleno.\nKam ho poslal trenér z oddílu?\nPoslal ho na univerzitu do Olomouce, kde vědci zkoumají tělo sportovce.\nProč si Matěj zranil koleno?\nProtože sval na pravé noze pracoval víc než na levé a pravé koleno neslo větší váhu.\nCo měřili Matějovi v krvi?\nMěřili v ní cukr.\nProč měl začínat každou jízdu mírně pomaleji?\nAby se svaly dostatečně zahřály."
+    },
+    {
+      "title": "Nová koupelna",
+      "summary": "In an e-mail to her sister, Lenka describes her renovated bathroom with a heated floor and a mirror with a display.",
+      "newWords": [
+        "koupelna",
+        "podlaha",
+        "zařídit",
+        "nákladný",
+        "standardní",
+        "provedení",
+        "displej",
+        "půlka",
+        "vyhodit",
+        "omyl"
+      ],
+      "text": "Ahoj Šárko,\n\nkonečně ti posílám fotky naší nové koupelny! Trvalo to skoro dva měsíce, ale už je hotová. Víš, jak vypadala ta stará: malá a studená, se starými dlaždicemi a s podlahou, na které se nedalo stát bez bot. Libor ji chtěl opravit sám, ale nakonec jsme to zařídili jinak a našli jsme firmu, která všechno udělala za nás.\n\nNejdřív se muselo všechno staré vyhodit, i stará podlaha. Pracovníci firmy to vyhodili za jeden den. Teď je v koupelně víc místa a víc světla.\n\nS firmou jsme dlouho mluvili o tom, jak má nová koupelna vypadat. Nabídli nám dvě provedení. Standardní provedení bylo levnější: bílé stěny, obyčejná podlaha a obyčejné zrcadlo. Dražší provedení mělo teplou podlahu a chytré zrcadlo. Bylo dost nákladné, stálo skoro o půlku víc. Dlouho jsme přemýšleli, ale pak jsme si řekli, že koupelnu nebudeme za pět let dělat znovu, a vzali jsme to dražší.\n\nA víš co? Jsme moc rádi. Teplá podlaha je v zimě skvělá. Ráno se sama spustí v šest hodin, takže když se probudím, je v koupelně teplo. A to zrcadlo! Uprostřed má malý displej. Když se ráno chystám do práce, ukazuje mi na displeji počasí, čas a zprávy. Děti si na něm rády pustí písničky. Libor říkal, že by mu stačilo standardní provedení, ale teď displej používá nejvíc ze všech.\n\nJedna věc se ale nepovedla. Firma omylem objednala jinou podlahu, než jsme vybrali. Místo bílé přišla černá. Pracovníci ji stihli položit na půlku koupelny, než si toho Libor všiml. Firma se nám za ten omyl omluvila, všechno sama zařídila a za týden přišla ta správná. Zbytek černé podlahy jsme ale nevyhodili. Libor ho položí ve svém pracovním pokoji.\n\nNákladné to bylo, to ano. Když jsme spočítali všechny účty, vyšlo to skoro na půlku toho, co stálo naše auto. Myslím ale, že se nám to vyplatí. Stará podlaha byla studená a v zimě jsme platili za teplo v koupelně hodně peněz.\n\nPřijeď se podívat, až budeš mít čas. Uvidíš, že ti ta teplá podlaha bude chybět, až pojedeš domů!\n\nMěj se hezky,\nLenka\n\nOtázky:\nJaká byla Lenčina stará koupelna?\nByla malá a studená, se starými dlaždicemi a se studenou podlahou.\nJaká dvě provedení firma nabídla?\nNabídla standardní provedení a dražší provedení s teplou podlahou a chytrým zrcadlem.\nCo ukazuje displej v zrcadle?\nUkazuje počasí, čas a zprávy.\nJaký omyl udělala firma?\nOmylem objednala černou podlahu místo bílé.\nCo udělá Libor se zbytkem černé podlahy?\nPoloží ho ve svém pracovním pokoji."
+    },
+    {
+      "title": "Tramvaj bez řidiče",
+      "summary": "An experienced tram driver in Brno sits in a self-driving tram during its first trials and talks with the passengers.",
+      "newWords": [
+        "tramvaj",
+        "cestující",
+        "cestovat",
+        "rozšíření",
+        "přesunout",
+        "zaměstnání",
+        "budoucno",
+        "příslušník",
+        "jakoby"
+      ],
+      "text": "Dušan řídí tramvaj v Brně už dvacet let. Zná každou zastávku a mnoho cestujících ho zná jménem. Letos v létě mu vedoucí nabídl nový úkol. Na nové trati, která vznikla rozšířením jedné linky až do nové části města, měly začít zkušební jízdy tramvaje bez řidiče. Tramvaj řídí počítač, který pomocí kamer vidí, co se děje před ní i kolem ní. Dušan měl sedět vepředu a dávat pozor. Kdyby se něco stalo, mohl tramvaj zastavit.\n\nNejdřív měl strach o své zaměstnání. „Jestli tramvaj umí jezdit sama, k čemu tam budu já?“ zeptal se vedoucího. Vedoucí ho uklidnil: „Lidi budeme potřebovat i do budoucna. Někdo musí tramvaje kontrolovat a pomáhat cestujícím. O zaměstnání nepřijdete.“\n\nPrvní jízdy měly být ve dne, ale město je kvůli bezpečnosti přesunulo na noc, kdy je v ulicích málo aut a lidí. Teprve po měsíci zkoušky přesunuli zpátky na den a do tramvaje mohli nastoupit i obyčejní cestující.\n\nBylo to zvláštní. Tramvaj se rozjela jakoby sama od sebe. Na křižovatce zpomalila, na zastávce zastavila přesně tam, kde měla, a sama otevřela dveře. Dušan seděl vepředu s rukama na kolenou a jen se díval.\n\nCestující reagovali různě. Mladí lidé si tramvaj fotili a byli nadšení. Hlavně příslušníci starší generace ale měli obavy. Jedna paní se Dušana zeptala: „Pane, vy opravdu nic neděláte? Ta tramvaj jede jakoby sama!“\n\n„Ona opravdu jede sama,“ usmál se Dušan. „Já jsem tu jen pro jistotu.“ Paní zakroutila hlavou, ale na konečné řekla, že jela klidněji než jindy.\n\nJiný starší pán Dušanovi vyprávěl, že celý život hodně cestoval a podobné metro bez řidiče už viděl v Kodani. „Jsem příslušník generace, která cestovala hlavně vlakem a autobusem,“ řekl. „Ale myslím, že takhle budeme za pár let cestovat všichni.“\n\nZkoušky skončily v listopadu. Do budoucna chce město pustit tramvaje bez řidiče i na další trati, až bude hotové další rozšíření. Dušan už ví, co bude dělat. Bude ostatní řidiče učit, jak nové tramvaje fungují, a své zaměstnání má jisté.\n\nOtázky:\nJak dlouho řídí Dušan tramvaj v Brně?\nŘídí tramvaj v Brně už dvacet let.\nKde se konaly zkušební jízdy?\nNa nové trati, která vznikla rozšířením jedné linky do nové části města.\nProč přesunuli první jízdy na noc?\nKvůli bezpečnosti, protože v noci je v ulicích málo aut a lidí.\nKdo měl z tramvaje bez řidiče obavy?\nHlavně příslušníci starší generace.\nCo bude Dušan dělat do budoucna?\nBude ostatní řidiče učit, jak nové tramvaje fungují."
+    },
+    {
+      "title": "Video, které lže",
+      "summary": "Simona listens to a radio debate about fake videos, calls in about a video her mother received and learns how to spot a fake.",
+      "newWords": [
+        "rádio",
+        "debata",
+        "lež",
+        "falešný",
+        "emoce",
+        "pozadí",
+        "podpis",
+        "ozvat",
+        "zlo"
+      ],
+      "text": "Ve středu večer vařila Simona večeři a jako vždycky si k tomu pustila rádio. Zrovna začínala debata o falešných videích. Ve studiu byli dva hosté: odbornice na bezpečnost na internetu Alžběta Kovandová a jeden student techniky z Prahy.\n\n„Dnes může skoro každý na počítači vyrobit video, na kterém známý člověk říká něco, co nikdy neřekl,“ začala Alžběta. „Ještě před deseti lety by to stálo spoustu peněz a práce. Dnes na to stačí obyčejný počítač.“\n\n„Jak má člověk poznat, že je to lež?“ zeptal se novinář, který debatu vedl.\n\n„Nejdřív se dívejte na pozadí,“ odpověděla. „Program se většinou soustředí na obličej. V pozadí pak často jsou chyby: stíny padají špatným směrem, ruce mají divný tvar, světlo na obličeji neodpovídá světlu v pozadí. A hlavně: dávejte pozor na své emoce. Falešná videa často hrají na emoce. Když má člověk strach nebo je naštvaný, nepřemýšlí a video hned pošle dál.“\n\nStudent doplnil, že velké firmy pracují na digitálním podpisu. Každé pravé video by mělo mít v sobě podpis, který ukáže, kdo a kdy ho natočil. „Když podpis chybí, neznamená to hned, že jde o lež,“ řekl. „Ale je dobré dávat pozor.“\n\nPak se do debaty mohli ozvat lidé u rádia. Jako první se ozval starší pán z Plzně. „Takové programy jsou zlo. Měly by se zakázat,“ řekl.\n\n„Technika sama není dobro ani zlo,“ odpověděla Alžběta. „Stejný program pomáhá při natáčení filmů nebo lidem, kteří přišli o hlas. Zlo dělají lidé, kteří ho používají ke lžím.“\n\nSimona chvíli přemýšlela, ale pak vzala telefon a zavolala do studia. Po pěti minutách čekání se mohla ozvat i ona. Řekla, že její mamince minulý týden přišlo video, na kterém známý lékař prodává nové léky na srdce. Maminka tomu věřila a chtěla si léky objednat.\n\n„To je typický příklad,“ řekla Alžběta. „Ten lékař nic takového nikdy neřekl. Video hraje na emoce, na strach o zdraví. Řekněte mamince, ať se podívá na pozadí a na ústa. U falešného videa často hlas a ústa nejdou dohromady.“\n\nPo debatě Simona hned zavolala mamince. Spolu si video pustily znovu. Teprve teď si maminka všimla, že lékař mluví, ale skoro nepohne ústy. „Byla to lež od začátku do konce,“ řekla maminka. „Příště se nejdřív zeptám tebe.“\n\nOtázky:\nO čem byla debata v rádiu?\nByla o falešných videích.\nKam se podle Alžběty musí člověk nejdřív dívat?\nMusí se dívat na pozadí, protože tam často jsou chyby.\nProč falešná videa hrají na emoce?\nProtože když má člověk strach nebo je naštvaný, nepřemýšlí a video hned pošle dál.\nCo ukáže digitální podpis?\nUkáže, kdo a kdy video natočil.\nCo odpověděla Alžběta pánovi z Plzně?\nŽe technika sama není dobro ani zlo. Zlo dělají lidé, kteří ji používají ke lžím."
+    },
+    {
+      "title": "Drak nad pobřežím",
+      "summary": "A Czech teacher writes a science-fiction novel about a flying machine that looks like magic and uses a chapter of it in class.",
+      "newWords": [
+        "román",
+        "kapitola",
+        "kouzlo",
+        "drak",
+        "inspirovat",
+        "dnešek",
+        "výuka",
+        "vynikající",
+        "seznámit",
+        "pobřeží"
+      ],
+      "text": "Adéla učí češtinu na gymnáziu v Liberci. Ve volném čase píše romány pro mladé lidi. Její nový román se odehrává za dvě stě let v malém městě na pobřeží moře. Moře je tam po bouřích stále vyšší a lidé z města se bojí, že jim jednou vezme domy.\n\nNad pobřežím ale každý večer létá obrovský drak. Lidé ve městě věří, že je to kouzlo: drak umí zastavit vítr a uklidnit vlny. Hlavní hrdinka románu, šestnáctiletá Nela, chce zjistit, odkud se drak vzal. V páté kapitole se dostane až do jeho hnízda na vysoké skále a zjistí, že drak není zvíře, ale stroj. Postavili ho vědci, kteří žili ve městě o sto let dřív. Nikdo už si nepamatuje, jak funguje, a proto mu všichni říkají kouzlo.\n\nK té myšlence Adélu inspirovala jedna známá věta anglického spisovatele: každá dostatečně vyspělá technika vypadá jako kouzlo. Adéla si to často opakovala, když psala. Inspirovaly ji ale i obyčejné věci z dneška. Když se dívala, jak její dvouletá neteř mluví s telefonem a telefon jí odpovídá, napadlo ji, jak by to vypadalo pro člověka, který žil před sto lety.\n\nAby byl drak uvěřitelný, potřebovala si Adéla nechat poradit od někoho, kdo rozumí technice. Přes kamaráda se seznámila s Bedřichem, inženýrem z Liberce, který staví malé létající stroje. Bedřich byl vynikající odborník. Vysvětlil jí, jak by takový drak mohl létat, kolik by vážil a odkud by bral energii. Díky němu je každá kapitola o drakovi technicky správně.\n\nKdyž byl román hotový, Adéla jednu kapitolu použila ve výuce. Studenti ji přečetli a pak měli odpovědět na otázku: Které věci z dneška by člověk z minulosti považoval za kouzlo? Debata byla vynikající. Jeden student jmenoval mapu v mobilu, jiná studentka letadlo, další počítač, se kterým se dá mluvit. Nakonec se shodli, že i dnešek je plný kouzel, jen jsme si na ně zvykli.\n\nTahle výuka se studentům tak líbila, že Adéla na konci roku pozvala Bedřicha do školy. Seznámil studenty se svými stroji a jeden z nich nechal létat po třídě. Studenti tleskali. „Tak teď už víte, jak vypadá kouzlo zblízka,“ řekla Adéla.\n\nOtázky:\nKde se odehrává Adélin nový román?\nOdehrává se za dvě stě let v malém městě na pobřeží moře.\nCo zjistí Nela v páté kapitole?\nZjistí, že drak není zvíře, ale stroj, který postavili vědci.\nCo Adélu inspirovalo?\nInspirovala ji věta, že každá dostatečně vyspělá technika vypadá jako kouzlo.\nS kým se Adéla seznámila?\nSeznámila se s Bedřichem, inženýrem, který staví malé létající stroje.\nNa jakou otázku odpovídali studenti ve výuce?\nKteré věci z dneška by člověk z minulosti považoval za kouzlo."
+    },
+    {
+      "title": "Nad polem",
+      "summary": "A farmer's daughter brings a drone to the family farm in South Moravia and finds a better way to look after the vegetables.",
+      "newWords": [
+        "pěstovat",
+        "zemědělství",
+        "tuna",
+        "globální",
+        "předpis",
+        "díra",
+        "rozvíjet",
+        "nůž",
+        "pobočka"
+      ],
+      "text": "Rodina Kalábových pěstuje zeleninu u Znojma už čtyři generace. Na polích kolem vesnice pěstuje hlavně salát. Za rok prodá asi tři sta tun salátu do obchodů po celé Moravě.\n\nVeronika, dcera pana Kalába, vystudovala zemědělství na univerzitě v Brně a loni se vrátila domů. Chtěla rodinný podnik dál rozvíjet. Její otec Bohuslav dělal všechno tak, jak se to dělalo vždycky: každé ráno prošel celé pole a díval se, jestli rostliny nemají nějaký problém. „To ti trvá tři hodiny,“ řekla mu Veronika. „S dronem to zvládneme za dvacet minut.“\n\nOtec byl nejdřív proti. Nevěřil, že malý létající stroj s kamerou pozná víc než jeho oči. Veronika ale stroj koupila a nejdřív si musela přečíst všechny předpisy. Podle předpisů musí mít pilot zkoušku, nesmí létat nad lidmi a musí stroj pořád vidět. Zkoušku udělala za měsíc.\n\nV červnu ho poprvé nechala letět nad polem. Fotky z kamery si pak s otcem prohlíželi na počítači. Na jednom konci pole uviděli malé díry v listech. „To jsou brouci,“ řekl otec. „Kdybych to viděl o týden později, bylo by tam děr dvakrát víc.“ Rostliny ošetřili jen na tom jednom kusu pole, nikoliv na celém poli, jak to dělali dřív. Ušetřili peníze a do země se dostalo méně chemických látek.\n\nVeronika vysvětlila otci, proč je to důležité. „Zemědělství se kvůli globálním změnám počasí mění. Léta jsou sušší a teplejší a voda je dražší. Globální trh je navíc plný levného jídla z celého světa. Když chceme dál pěstovat, musíme pracovat chytřeji.“\n\nNa podzim přijeli lidé z jedné brněnské firmy, která má ve Znojmě malou pobočku. Ve znojemské pobočce vyvíjejí stroj, který sám pozná hotový salát a nožem ho oddělí od kořene. Dřív to dělali lidé rukama, s nožem v ruce, a byla to těžká práce. Firma chtěla stroj vyzkoušet na skutečném poli. Pan Kalába souhlasil. Stroj jezdil mezi rostlinami pomalu, ale jeho nůž pracoval přesně.\n\n„Stroj ještě není hotový,“ řekl vedoucí pobočky. „Teď zvládne jednu tunu za den. Chceme, aby jednou zvládl tři. Když se to povede, budeme pobočku dál rozvíjet a vezmeme další lidi.“\n\nVečer seděl otec s Veronikou na zahradě. „Můj otec by se divil,“ řekl. „Ale myslím, že by byl rád, že pole pořád pěstujeme my.“\n\nOtázky:\nCo pěstuje rodina Kalábových?\nPěstuje hlavně salát.\nKolik salátu prodá za rok?\nProdá asi tři sta tun salátu.\nCo si musela Veronika přečíst, než začala létat?\nMusela si přečíst všechny předpisy.\nCo uviděli na fotkách z kamery?\nUviděli malé díry v listech.\nCo vyvíjí pobočka brněnské firmy ve Znojmě?\nVyvíjí stroj, který sám pozná hotový salát a nožem ho oddělí od kořene."
+    },
+    {
+      "title": "Prázdniny v muzeu",
+      "summary": "During the summer holidays a grandfather takes his granddaughter to the National Technical Museum in Prague.",
+      "newWords": [
+        "prázdniny",
+        "expozice",
+        "architektura",
+        "potěšit",
+        "tanec",
+        "pusa",
+        "recept"
+      ],
+      "text": "Bára je o prázdninách často sama doma, protože máma i táta pracují. Letos ale měl táta týden dovolené. Táta pracuje ve stavební firmě a staví domy a mosty. Bára s ním ráda chodí po městě, protože o každém domě něco ví. První den prázdnin jí navrhl, že spolu půjdou do Národního technického muzea. Bára nejdřív moc nechtěla, protože si myslela, že muzeum není nic pro ni. Nakonec ale souhlasila.\n\nHned ve velké hale ji muzeum potěšilo. Nahoře byla stará letadla a pod nimi stála auta a jeden celý vlak. Táta ji ale vedl dál, do expozice o architektuře. Tam byly modely domů, mostů a celých ulic. „Tenhle most jsem pomáhal stavět,“ řekl táta u jednoho modelu. Bára se divila, jak moc se architektura za sto let změnila. Staré domy měly malá okna a silné zdi, nové domy jsou skoro celé ze skla.\n\nV další expozici se ukazovalo, co dokáže věda v kuchyni. Jedna paní tam dělala chléb podle receptu, který je sto let starý, a vysvětlovala dětem, proč chléb v teple roste. Pak ukázala jiný recept, moderní, podle kterého je chléb hotový za hodinu. Bára dostala ochutnat oba. „Ten starý recept je lepší,“ řekla. Paní se zasmála: „To říká skoro každý.“\n\nNejvíc Báru potěšila poslední expozice. Kamera tam sledovala návštěvníky a na velké stěně je ukazovala jako barevné postavy. Když se člověk pohyboval, postava na stěně se pohybovala s ním. Bára se dala do tance a na stěně vznikl dlouhý barevný tanec. Pak vzala za ruku i tátu. Táta nejdřív nechtěl, ale nakonec se k jejímu tanci přidal. Lidé kolem se smáli a někteří se přidali k nim.\n\nDomů se vraceli pozdě odpoledne tramvají. V tramvaji se Bára táty zeptala, jestli architektura byla vždycky jeho největší láska. „Architektura a tvoje máma,“ odpověděl táta. „Ale máma je na prvním místě.“\n\nDoma dala Bára tátovi pusu na tvář. „Bylo to lepší, než jsem čekala,“ řekla. Ta pusa tátu potěšila víc než všechno v muzeu. Večer, když přišla máma z práce, udělali spolu chléb podle starého receptu z muzea. A slíbili si, že o příštích prázdninách půjdou do muzea všichni tři.\n\nOtázky:\nProč je Bára o prázdninách často sama doma?\nProtože máma i táta pracují.\nCo bylo v expozici o architektuře?\nByly tam modely domů, mostů a celých ulic.\nCo dělala paní v expozici o vědě v kuchyni?\nDělala chléb podle receptu, který je sto let starý, a vysvětlovala, proč chléb roste.\nCo se stalo v poslední expozici?\nBára se dala do tance a na stěně vznikl barevný tanec. Pak se přidal i táta.\nCo udělala Bára doma?\nDala tátovi pusu na tvář."
+    }
+  ]
+}

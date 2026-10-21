@@ -1,0 +1,212 @@
+{
+  "id": "cs-mini-3000",
+  "rankUpTo": 3000,
+  "level": "B2",
+  "title": "Malé fejetony",
+  "description": "Ten short columns on everyday life in Czechia: a commuter's station announcements, a village linden tree, a neighbourhood cook, official forms, a frosty weekend in Šumava, a castle and a cave, a dog's agility contest, a birth, a newsroom's new building and an old kitchen table.",
+  "topic": "Small columns",
+  "names": [
+    "Kolína",
+    "Prahy",
+    "Praze",
+    "Zdeně",
+    "Zdena",
+    "Kratochvíl",
+    "Vavřinec",
+    "Vavřinci",
+    "Evropě",
+    "Kamila",
+    "Šumavu",
+    "Šumavě",
+    "Moravu",
+    "Bohuš",
+    "Bohuše",
+    "Vídně",
+    "Vendula",
+    "Radkovi",
+    "Radek",
+    "Bertu",
+    "Berta",
+    "agility",
+    "Česku",
+    "Pospíšilová",
+    "Pospíšilové",
+    "Danielou",
+    "Daniela",
+    "Danielu",
+    "Ludmila",
+    "Ludmile",
+    "Šebesta",
+    "Blanka",
+    "Alžběty",
+    "Alžběta",
+    "Ignáce",
+    "Ignác",
+    "Vánocích"
+  ],
+  "lessons": [
+    {
+      "title": "Hlášení na nádraží",
+      "summary": "A commuter writes about the station announcements he knows by heart, a train that is on time for once and the side entrance he has to use.",
+      "newWords": [
+        "hlášení",
+        "vzkaz",
+        "dojet",
+        "předčasný",
+        "příjezd",
+        "dech",
+        "naproti",
+        "vchod",
+        "telefonní",
+        "postižený"
+      ],
+      "text": "Každé ráno jezdím vlakem z Kolína do Prahy. Cesta trvá necelou hodinu, a když všechno funguje, dojedu do kanceláře včas. Všechno ovšem funguje jen občas, a proto hlášení na nádraží znám skoro všechna.\n\n„Vážení cestující, vlak do Prahy bude mít zpoždění asi deset minut.“ To je hlášení, které slyším nejčastěji. Vzhledem k tomu, že ho slyším skoro každý den, už mě nijak nepřekvapí. Horší je, když žádné hlášení nepřijde a vlak prostě nejede. Tehdy lidé na nádraží vytáhnou telefony a začnou psát vzkazy do práce: „Přijdu později, vlak zase nejede.“\n\nJá takový vzkaz obvykle posílám kolegyni Zdeně. Ona ostatně posílá stejné vzkazy mně, protože bydlí za městem a její autobus také nedojede vždy včas. Za ta léta jsme si vyměnili stovky vzkazů a skoro všechny vypadají stejně.\n\nMinulý týden však přišlo jiné hlášení: „Vlak do Prahy přijede včas.“ Lidé se na sebe dívali, jako by nevěřili vlastním uším. Starší pán vedle mě řekl: „Neradujte se předčasně. Ještě musíme do Prahy dojet.“\n\nRadost bývá často předčasná, ale tentokrát jsme opravdu dojeli včas. Příjezd do Prahy byl v 7.40, přesně podle jízdního řádu. Z vlaku jsem spěchal tak rychle, že jsem byl před nádražím úplně bez dechu. Naše kancelář je naproti nádraží, takže jsem byl za dvě minuty u budovy.\n\nHlavní vchod ale nebyl otevřený. Na dveřích byl lístek s telefonním číslem. Zavolal jsem na to telefonní číslo a muž na druhé straně mi řekl, ať jdu bočním vchodem. Ten je upravený pro zdravotně postižené na vozíku. Postiženým lidem tak pomáhá každý den a mně ten den pomohl také.\n\nV osm jsem seděl u stolu. Napsal jsem Zdeně vzkaz: „Jsem v práci včas!“ Odpověděla hned: „To je předčasná radost. Já stojím na zastávce naproti nemocnici a autobus pořád nejede.“\n\nNakonec dojela o půl hodiny později. Když přišla do kanceláře, byla bez dechu, protože běžela od zastávky. „Zítra pojedu vlakem s tebou,“ řekla. Uvidíme, jestli vlak i zítra dojede včas.\n\nOtázky:\nJak jezdí autor do práce?\nJezdí každé ráno vlakem z Kolína do Prahy.\nJaké hlášení slyší na nádraží nejčastěji?\nNejčastěji slyší hlášení, že vlak bude mít zpoždění.\nKomu posílá vzkazy?\nPosílá je kolegyni Zdeně, která mu posílá stejné vzkazy.\nKde je jejich kancelář?\nKancelář je naproti nádraží.\nKdy byl příjezd vlaku do Prahy?\nPříjezd byl v 7.40, přesně podle jízdního řádu.\nProč musel jít bočním vchodem?\nProtože hlavní vchod nebyl otevřený.\nProč byla Zdena bez dechu?\nProtože běžela od zastávky."
+    },
+    {
+      "title": "Lípa u starého mlýna",
+      "summary": "A storm damages the old linden tree by the village mill; the villagers send a protest and the office agrees to save the tree.",
+      "newWords": [
+        "mlýn",
+        "lípa",
+        "historik",
+        "úmrtí",
+        "tenkrát",
+        "bouře",
+        "poškodit",
+        "poškozený",
+        "protest",
+        "zvážit"
+      ],
+      "text": "V naší vesnici roste u starého mlýna lípa. Nikdo přesně neví, jak je stará. Místní historik pan Kratochvíl tvrdí, že ji zasadil majitel mlýna v roce 1790. Píše se to prý v obecní kronice, kde jsou zapsána všechna narození, svatby a úmrtí ve vesnici. Pan Kratochvíl tu knihu zná jako nikdo jiný. Když se ho někdo zeptá na narození nebo úmrtí ve své rodině, najde mu to během chvíle. Majitel mlýna tenkrát zapsal i to, že u mlýna zasadil lípu, aby měl jeho dům v létě stín.\n\nMlýn už dávno nepracuje. Dnes v něm bydlí rodina s dětmi a lípa dál roste. V létě pod ní sedíme, děti kolem ní běhají a v červnu celá vesnice voní jejími květy.\n\nLetos v srpnu však přišla velká bouře. Byl silný vítr, celou noc padal déšť a ráno jsme viděli, že bouře poškodila střechu mlýna i lípu. Jedna velká větev ležela na zemi a kmen byl na jedné straně poškozený. Druhý den přijel pán z úřadu. Řekl, že poškozený strom je nebezpečný a že ho bude nutné porazit.\n\nTo se nám nelíbilo. Sešli jsme se večer u mlýna a napsali jsme protest. Podepsalo ho přes sto lidí, což je v naší vesnici skoro každý. Protest jsme poslali na úřad a pan Kratochvíl k němu přidal dopis. Napsal v něm, že lípa je stará přes dvě stě let a že ji majitel mlýna tenkrát zasadil pro další generace.\n\nÚřad slíbil, že náš protest zváží. Zvážit všechno trvalo měsíc. Pak přijel odborník na stromy, lípu si dlouho prohlížel a řekl, že stačí odstranit poškozenou část. Bouře prý strom poškodila méně, než to vypadalo, a zbytek je zdravý.\n\nNa podzim přijeli odborníci a poškozenou část odstranili. Pan Kratochvíl to všechno zapsal do kroniky. Jako historik ví, že i malá událost může být jednou důležitá. „Za sto let si to někdo přečte,“ řekl mi. „A možná ho to bude zajímat stejně, jako mě zajímá, co psal majitel mlýna tenkrát.“\n\nCo se týče lípy, má na kmeni stopu po bouři, ale v červnu zase voněla jako vždycky.\n\nOtázky:\nKdo podle historika zasadil lípu?\nZasadil ji majitel mlýna v roce 1790.\nCo je zapsáno v kronice?\nV obecní kronice jsou zapsána narození, svatby a úmrtí ve vesnici.\nCo udělala bouře?\nBouře poškodila střechu mlýna i lípu.\nCo udělali lidé ve vesnici?\nNapsali protest a podepsalo ho přes sto lidí.\nCo řekl odborník?\nŘekl, že stačí odstranit poškozenou část a zbytek stromu je zdravý."
+    },
+    {
+      "title": "Kuchař z našeho rohu",
+      "summary": "A small neighbourhood cook, proud of his fresh ingredients, faces a big chain across the street and wins customers through an online ordering platform.",
+      "newWords": [
+        "kuchař",
+        "hrdý",
+        "surovina",
+        "kilo",
+        "máslo",
+        "neobvyklý",
+        "řetězec",
+        "reklamní",
+        "platforma",
+        "objednávka"
+      ],
+      "text": "Na rohu naší ulice je malá restaurace. Má jen šest stolů a vaří v ní jeden kuchař, pan Vavřinec. Je to člověk tichý, ale na svou práci je velmi hrdý. Hrdý je hlavně na to, že vaří jen z čerstvých surovin. Každé ráno jezdí na trh a kupuje tam suroviny od lidí z okolních vesnic: deset kilo masa, pět kilo zeleniny, sýr, vejce a máslo.\n\n„Bez dobrého másla to nejde,“ říká. „Máslo je základ. Kdo šetří na másle, ten nemůže dobře vařit.“\n\nKaždý den vaří jednu polévku a dvě hlavní jídla. Občas připraví i něco neobvyklého, třeba studenou polévku z jahod nebo chléb s horkým sýrem a vejcem. Neobvyklá jídla mají lidé rádi, protože je jinde nedostanou.\n\nLoni na jaře otevřel naproti svou restauraci velký řetězec, který prodává levná rychlá jídla. Řetězec má stovky poboček po celé Evropě a na jeho reklamních obrázcích jsou šťastné rodiny. Reklamní noviny řetězce nám chodily domů každý týden. Pan Vavřinec na reklamu peníze neměl a do jeho restaurace začalo chodit méně lidí.\n\nPomohla mu dcera Kamila. Řekla, že dnes lidé jídlo často objednávají přes internet, a přidala restauraci na jednu platformu, přes kterou si lidé jídlo nechají přivézt domů. Pan Vavřinec tomu nejdřív nevěřil. „Moje jídlo se má jíst teplé, u stolu,“ říkal. Nicméně souhlasil.\n\nNa platformě se brzy objevila první objednávka, pak druhá a třetí. Za měsíc přicházelo každý den přes třicet objednávek. Lidé na platformě psali, že jídlo chutná jako od babičky a že takové neobvyklé polévky nikde jinde nevaří. Kuchař teď kupuje dvakrát víc surovin a o víkendu mu v kuchyni pomáhá i Kamila.\n\nŘetězec naproti má pořád plno, ale náš kuchař si už nestěžuje. Každou objednávku dává do krabice sám a na krabici napíše rukou: „Dobrou chuť.“ Je na to hrdý stejně jako na své máslo.\n\nOtázky:\nNa co je pan Vavřinec hrdý?\nJe hrdý na to, že vaří jen z čerstvých surovin.\nCo kupuje každé ráno na trhu?\nKupuje deset kilo masa, pět kilo zeleniny, sýr, vejce a máslo.\nCo otevřel naproti?\nNaproti otevřel restauraci velký řetězec s levnými rychlými jídly.\nJak pomohla Kamila?\nPřidala restauraci na platformu, přes kterou si lidé jídlo nechají přivézt domů.\nKolik objednávek přicházelo za měsíc?\nZa měsíc přicházelo každý den přes třicet objednávek."
+    },
+    {
+      "title": "Čáry a písmena",
+      "summary": "A columnist reflects on filling in official applications: capital letters in small boxes, signatures on the line and a reply that arrives in the data box.",
+      "newWords": [
+        "vyplnit",
+        "písmeno",
+        "čára",
+        "logický",
+        "kritický",
+        "problematika",
+        "parametr",
+        "soulad",
+        "schránka",
+        "čistě"
+      ],
+      "text": "Každý z nás jednou za čas musí vyplnit nějakou žádost. Já jsem jich minulý měsíc vyplnil pět, a proto dnes píšu o problematice, kterou zná každý: o úředních papírech.\n\nDo žádosti se píše velkými písmeny. Na každé písmeno je jedno malé místo. Když má člověk dlouhé jméno, nevejde se tam a poslední písmena musí psát vedle. Moje celé jméno má 14 písmen, ale žádost jich dovolí jen 12. Kam s posledními dvěma písmeny? To v žádosti nikde nestojí.\n\nDole na stránce je vždy čára. Na čáru se píše podpis. Pod čárou bývá ještě malými písmeny: „Všechny údaje jsou v souladu se skutečností.“ Já věřím, že moje údaje jsou v souladu se skutečností. Nejsem si však jistý, jestli je v souladu se skutečností i sama žádost.\n\nNechci být příliš kritický. Úředníci dělají svou práci a papíry nevymýšlejí. Kritický jsem spíš k tomu, že žádosti často nejsou logické. Proč musím na třetí stránce znovu psát adresu, když jsem ji vyplnil už na první? Logické by bylo napsat ji jednou. Úřednice mi vysvětlila, že každá stránka jde do jiného oddělení. Čistě technicky to chápu, ale čistě lidsky je to zbytečná práce.\n\nLetos jsem poprvé zkoušel vyplnit žádost na internetu. Systém tam hlídá parametry: telefonní číslo musí mít devět čísel a datum se píše jen čísly. Když nějaký parametr nesedí, objeví se červený nápis. Je to jednodušší než papír, i když jsem dvakrát udělal chybu v datu a systém mi žádost vrátil.\n\nOdpověď mi přišla do datové schránky. Datová schránka je něco jako schránka na dopisy, jen je na internetu a nikdo do ní nehodí reklamní noviny. Za to ji mám rád.\n\nCo se týče problematiky úředních papírů, nakonec věřím, že bude lépe. Možná jednou přijde žádost, která bude logická, krátká a dovolí mi napsat celé jméno, všech 14 písmen.\n\nOtázky:\nKolik žádostí autor minulý měsíc vyplnil?\nVyplnil pět žádostí.\nKolik písmen má jeho celé jméno?\nJeho celé jméno má 14 písmen, ale žádost jich dovolí jen 12.\nCo se píše na čáru?\nNa čáru se píše podpis.\nK čemu je autor kritický?\nJe kritický k tomu, že žádosti často nejsou logické.\nKam mu přišla odpověď?\nOdpověď mu přišla do datové schránky."
+    },
+    {
+      "title": "Mráz na Šumavě",
+      "summary": "A grandson spends a frosty weekend at his grandfather's house in Šumava: coal heating, a cold shower and an injured female bird they look after.",
+      "newWords": [
+        "mráz",
+        "uhlí",
+        "chladný",
+        "sprcha",
+        "vzhůru",
+        "zahynout",
+        "zraněný",
+        "samice",
+        "kráva"
+      ],
+      "text": "Každou zimu jezdím na víkend za dědou na Šumavu. Bydlí v malém domě na kraji vesnice a topí uhlím. Za domem má vždy plno uhlí a každé ráno začíná tím, že dá do ohně nové uhlí.\n\nLetos v lednu byl velký mráz. V noci bylo dvacet stupňů pod nulou a ráno ještě patnáct. Když jsem se vzbudil, byl děda dávno vzhůru. Stál u okna a díval se vzhůru na nebe. „Když je nebe takhle čisté, bude ještě větší mráz,“ řekl mi.\n\nKoupelna je v domě nejchladnější místnost. Sprcha tam sice je, ale teplá voda vydrží jen chvíli. Mně to nevadí, ve městě chodím do sprchy každý den a tady to pár dní vydržím. Děda se ale směje: „Chladná sprcha je pro zdraví nejlepší.“ Já mu na to říkám, že on to tak dělá celý život, a já ne.\n\nZa oknem má děda na stromě malý domek pro ptáky a každé ráno do něj dává jídlo. V takovém mrazu je to důležité. „Malí ptáci v mrazu rychle zahynou, když nemají co jíst,“ vysvětlil mi. „Za jednu noc jich může zahynout mnoho.“\n\nTen den jsme pod stromem našli malého ptáka. Seděl ve sněhu a nemohl létat, protože byl zraněný na křídle. Děda ho pomalu zvedl a podíval se na něj. „To je samice,“ řekl. „Samice má slabší barvy než samec.“ Zraněnou samici jsme dali do krabice v kuchyni, kde bylo teplo, a dali jsme jí vodu a jídlo.\n\nOdpoledne jsme šli k sousedovi, který chová krávy. Krávy stály uvnitř v teple a vůbec nevypadaly, že by jim mráz vadil. „Kráva vydrží víc než člověk,“ smál se soused.\n\nSamice u nás zůstala dva dny. Třetí ráno už skákala po krabici a zkoušela létat. Děda otevřel okno a samice odletěla rovnou k domku na stromě. Mráz trval ještě týden, ale věřím, že ho přežila.\n\nOtázky:\nČím topí autorův děda?\nTopí uhlím, které má za domem.\nJaká je sprcha v jeho koupelně?\nSprcha je chladná, protože teplá voda vydrží jen chvíli.\nProč dává děda ptákům jídlo?\nProtože malí ptáci v mrazu rychle zahynou, když nemají co jíst.\nCo našli pod stromem?\nNašli zraněnou samici, která nemohla létat.\nKde stály krávy?\nKrávy stály u souseda uvnitř v teple."
+    },
+    {
+      "title": "Rytíř v jeskyni",
+      "summary": "A family trip to a castle and a cave, where a guide tells the legend of a knight and the children decide it is a paradise.",
+      "newWords": [
+        "rytíř",
+        "legendární",
+        "císař",
+        "éra",
+        "pozdější",
+        "jeskyně",
+        "dramatický",
+        "dobro",
+        "civilizace",
+        "ráj"
+      ],
+      "text": "O prázdninách jsme s dětmi jeli na jižní Moravu. Chtěli jsme vidět hrad a jeskyni, protože hrad i jeskyně jsou pro děti, a ostatně i pro nás, vždy zážitek.\n\nNa hradě nás vedla mladá průvodkyně. Vyprávěla, že hrad postavil ve 13. století rytíř jménem Bohuš. Rytíř Bohuš je v kraji legendární postava. Legendární je hlavně tím, že prý pomáhal chudým lidem a nikdy neodmítl nikoho, kdo ho prosil o pomoc. „Byl to rytíř, který myslel na dobro ostatních víc než na sebe,“ řekla průvodkyně.\n\nPozdější majitelé k hradu přidali nové části. Za jednoho z pozdějších majitelů tu prý spal i sám císař, když cestoval do Vídně. Pokoj, kde císař spal, se zachoval dodnes a je v něm velká zelená postel. Moje dcera Vendula chtěla vědět, jestli byl císař vysoký. Průvodkyně se zasmála a řekla, že postel je spíš krátká.\n\nOdpoledne jsme jeli do jeskyně. V jeskyni je i v létě jen osm stupňů, takže jsme si vzali teplé oblečení. Průvodce nám vysvětlil, že v jeskyních žili lidé už dávno před naší civilizací. Byla to jiná éra, éra bez elektřiny a bez měst. Dnes je v jeskyni elektrické světlo a chodí se tam po dobrých cestách.\n\nV nejhlubší části jeskyně nám průvodce vyprávěl legendu, kterou si děti zapamatovaly nejlépe. Legendární rytíř Bohuš prý jednou v jeskyni ztratil cestu. Neměl světlo a tři dny nemohl najít cestu ven. Nakonec šel za zvukem vody a voda ho dovedla na světlo. Byl to dramatický příběh a průvodce ho vyprávěl dramatickým hlasem. Na konci na chvíli vypnul světla, abychom poznali, jak byla jeskyně tmavá. Synovi Radkovi to vadilo méně než mně.\n\nVečer v hotelu děti říkaly, že to byl nejlepší den prázdnin. „Hrad, rytíř a jeskyně. To je ráj,“ řekl Radek. Já jsem si myslel, že ráj je pro mě spíš teplá sprcha a postel delší, než měl císař.\n\nOtázky:\nKdo podle průvodkyně postavil hrad?\nHrad postavil ve 13. století rytíř Bohuš.\nProč je rytíř Bohuš legendární?\nProtože prý pomáhal chudým lidem a myslel na dobro ostatních.\nKdo na hradě prý spal?\nZa jednoho z pozdějších majitelů tu spal císař, když cestoval do Vídně.\nKdo žil v jeskyních?\nV jeskyních žili lidé už dávno před naší civilizací.\nJak našel rytíř cestu z jeskyně ven?\nŠel za zvukem vody a voda ho dovedla na světlo.\nJak průvodce vyprávěl ten dramatický příběh?\nVyprávěl ho dramatickým hlasem a na konci vypnul světla."
+    },
+    {
+      "title": "Pes, který skáče",
+      "summary": "A dog owner trains her dog for an agility competition, fights her nerves and waits for the results to be announced.",
+      "newWords": [
+        "trénovat",
+        "výcvik",
+        "skok",
+        "závodník",
+        "nerv",
+        "motivace",
+        "skóre",
+        "porovnání",
+        "vyhlášení",
+        "nominace"
+      ],
+      "text": "Mám fenu Bertu. Je to chytrý pes, a protože doma pořád něco hledá, rozhodla jsem se, že ji přihlásím na výcvik. Na výcviku se psi učí poslouchat a také běhat přes překážky. Tomu sportu se říká agility a v Česku ho dělá stále víc lidí.\n\nTrénovat jsme začaly na jaře. Dvakrát za týden jsme jezdily na hřiště za městem, kde výcvik vede paní Pospíšilová. Berta nejvíc milovala skok přes překážku. Každý skok jí dělal radost a po každém skoku se na mě otočila, aby viděla, jestli jsem spokojená. Horší to bylo s tunelem, do kterého nechtěla jít.\n\n„Psovi chybí motivace,“ řekla paní Pospíšilová. „Motivace je u psa jednoduchá: dobré slovo a kousek sýra.“ Měla pravdu. S kouskem sýra v mé ruce šla Berta do tunelu už za týden.\n\nV září jsme jely na první závody. Přijelo přes sto závodníků se svými psy. Ostatní závodníci vypadali, že vědí přesně, co dělají. Já jsem tam byla poprvé a bylo to vidět. Před startem jsem měla velké nervy. Měla jsem studené ruce a Berta to poznala. Psi prý cítí nervy svého člověka.\n\nNáš běh trval necelou minutu. Berta udělala všechny skoky, jen u tunelu se na chvíli zastavila. Naše skóre bylo slušné, ale v porovnání s nejlepšími závodníky jsme potřebovaly mnohem víc času. Porovnání s ostatními mě ale netrápilo. Byla jsem ráda, že jsme to zvládly až do konce.\n\nPak jsme čekaly na vyhlášení výsledků. Vyhlášení trvalo skoro hodinu, protože se výsledky četly po kategoriích. V kategorii pro nové závodníky jsme skončily čtvrté. Navíc nám rozhodčí řekla, že Berta má pěkné skóre ve skocích a že by mohla dostat nominaci na krajské mistrovství pro nové závodníky.\n\nNominace přišla o týden později v dopise. Na mistrovství pojedeme v listopadu. Do té doby budeme trénovat dál. Hlavně musím trénovat sama sebe, abych neměla takové nervy. Berta je ostatně klidnější než já.\n\nOtázky:\nJak se jmenuje autorčin pes?\nJmenuje se Berta a je to fena.\nCo měla Berta nejraději?\nNejraději měla skok přes překážku.\nJaká je podle paní Pospíšilové motivace pro psa?\nMotivace je dobré slovo a kousek sýra.\nJaké bylo jejich skóre v porovnání s nejlepšími?\nBylo slušné, ale v porovnání s nejlepšími potřebovaly víc času.\nCo přišlo o týden později?\nPřišla nominace na krajské mistrovství pro nové závodníky."
+    },
+    {
+      "title": "Inženýr v porodnici",
+      "summary": "An engineer father who trusts logic and tables finds out at his daughter's birth that not everything can be planned.",
+      "newWords": [
+        "inženýr",
+        "porod",
+        "medicína",
+        "chemie",
+        "krevní",
+        "duševní",
+        "natolik"
+      ],
+      "text": "Jsem inženýr. Celý život pracuji s čísly, plány a tabulkami. Když jsme s manželkou Danielou čekali první dítě, připravil jsem se na porod tak, jak se inženýr připravuje na každý projekt. Přečetl jsem tři knihy, udělal jsem si tabulku a v telefonu jsem měl aplikaci, která měřila čas mezi stahy.\n\nVe škole mě nejvíc bavila chemie a fyzika. Medicína mě nikdy nezajímala a o porodu jsem věděl jen to, co člověk vidí ve filmech. Proto jsem si myslel, že když si všechno přečtu, budu připravený. Medicína je ale jiný svět než chemie. V chemii, když dáte dohromady dvě látky, víte, co se stane. U porodu to neví nikdo.\n\nPorod začal o deset dní dřív, než říkala moje tabulka. Bylo to v neděli ve tři ráno. Daniela mě vzbudila a já jsem se natolik bál, že jsem nemohl najít klíče od auta. Nakonec je našla ona.\n\nV porodnici byla Daniela klidnější než já. Sestra jí změřila krevní tlak a řekla, že je všechno v pořádku. Pak změřila krevní tlak i mně, protože jsem prý vypadal hůř než Daniela. Natolik špatně jsem asi opravdu vypadal.\n\nPorod trval 11 hodin. Celou dobu jsem držel Danielu za ruku a nic jiného jsem dělat nemohl. Žádná tabulka mi nepomohla. Když se dcera Ludmila narodila a poprvé se ozvala, měl jsem v očích slzy. Nečekal jsem, že pro mě bude porod natolik silný zážitek.\n\nDnes je Ludmile půl roku. V nemocnici nám dali malou knížku o duševním zdraví mladých rodičů. Píše se v ní, že první měsíce jsou náročné a že duševní zdraví je stejně důležité jako spánek a jídlo. Jako inženýr jsem tomu nejdřív nevěnoval pozornost. Teď vím, že to platí.\n\nMoje tabulky už nepoužívám. Medicína, chemie ani technika neumí naplánovat, kdy se dítě narodí. A možná je dobře, že to tak je.\n\nOtázky:\nJak se autor připravil na porod?\nPřečetl tři knihy, udělal si tabulku a měl aplikaci na měření času.\nCo ho ve škole nejvíc bavilo?\nNejvíc ho bavila chemie a fyzika.\nKdy začal porod?\nZačal o deset dní dřív, v neděli ve tři ráno.\nProč sestra změřila krevní tlak i autorovi?\nProtože vypadal hůř než Daniela.\nO čem byla knížka z nemocnice?\nByla o duševním zdraví mladých rodičů."
+    },
+    {
+      "title": "Redakce v nové budově",
+      "summary": "A newspaper columnist describes the editorial office moving into a modern building with solar panels, and how old habits meet new rules.",
+      "newWords": [
+        "redakce",
+        "panel",
+        "prezentace",
+        "provozní",
+        "financování",
+        "údržba",
+        "střet",
+        "styk",
+        "spokojit",
+        "dámský"
+      ],
+      "text": "Naše redakce se letos na jaře stěhovala. Dvacet let jsme byli ve starém domě v centru, kde byla v zimě zima a v létě velké teplo. Nová budova stojí na okraji města, je celá ze skla a na střeše má sluneční panely. Panely prý vyrobí skoro polovinu elektřiny, kterou budova potřebuje.\n\nPrvní den nás přivítal provozní ředitel pan Šebesta. Připravil pro nás prezentaci, která trvala hodinu. V prezentaci jsme se dozvěděli, jak se v budově topí, kde jsou kuchyňky a kam patří odpad. Ohledně financování budovy nám řekl jen tolik, že se na financování podílela i jedna evropská banka a že díky panelům na střeše bude provoz levnější. Po prezentaci dal každému provozní řád na dvanácti stránkách.\n\nBrzy se ukázalo, že se v nové redakci potkávají dva světy. Starší kolegové vždycky psali u otevřeného okna. Okna v nové budově se ale otevřít nedají, protože o vzduch se stará chytrý systém. Byl to první střet starých zvyků s novými pravidly. Druhý střet přišel kvůli kávě. Kolegyně Blanka si vždy vařila kávu přímo na svém stole, což provozní řád zakazuje.\n\nÚdržba budovy přitom funguje výborně. Údržba přijde do hodiny, když něco nefunguje, a jednou za týden kontroluje panely na střeše. Zdá se, že budova dostává víc péče než my.\n\nNakonec jsme se všichni spokojili s tím, co nová budova nabízí. Blanka se spokojila s kávou z automatu, i když říká, že chutná jako papír. Já jsem se spokojil s tím, že u svého stolu mám výhled na park. Jen jedna věc nám chybí: ve starém domě jsme byli se čtenáři ve styku každý den. Chodili za námi s nápady i s problémy. Do nové budovy na okraji města už nikdo nepřijde.\n\nProto jsme se rozhodli, že jednou měsíčně budeme mít den otevřených dveří. Styk se čtenáři je pro redakci důležitější než sluneční panely. Blanka na první den otevřených dveří přijela na svém starém dámském kole. Říkala, že dámské kolo se k redakci hodí víc než nová budova ze skla.\n\nOtázky:\nJaký byl starý dům?\nVe starém domě byla v zimě zima a v létě velké teplo.\nCo je na střeše nové budovy?\nNa střeše jsou sluneční panely.\nKdo připravil prezentaci?\nPrezentaci připravil provozní ředitel pan Šebesta.\nJaký byl první střet?\nStarší kolegové chtěli psát u otevřeného okna, ale okna se otevřít nedají.\nCo redakci v nové budově chybí?\nChybí jí styk se čtenáři, kteří dřív chodili do redakce každý den."
+    },
+    {
+      "title": "Loučení se starým stolem",
+      "summary": "A family says goodbye to a fifty-year-old kitchen table, pushes it through the door and down four floors of stairs and takes it to be disposed of.",
+      "newWords": [
+        "rozloučit",
+        "věrný",
+        "padesát",
+        "schod",
+        "tlačit",
+        "úhel",
+        "likvidace"
+      ],
+      "text": "Minulou sobotu jsme se rozloučili se starým stolem z kuchyně. Koupili ho rodiče mé ženy Alžběty před padesáti lety, když se brali. Padesát let stál v kuchyni, nejdřív u nich a posledních dvacet let u nás. Jedly u něj tři generace, děti u něj psaly úkoly a o Vánocích na něm stálo víc jídla než za celý zbytek roku.\n\nByl to věrný pomocník celé rodiny. Nikdy se mu nic nestalo, jen byl čím dál těžší a jeho dřevo čím dál tmavší. Alžběta k němu měla vztah. „Byl to nejvěrnější člen rodiny,“ řekla. „Věrnější než náš pes.“\n\nNový stůl už jsme měli objednaný, a tak bylo nutné ten starý dostat z bytu. Bydlíme ve čtvrtém patře a náš dům nemá výtah. Čekalo nás tedy 80 schodů. Pozvali jsme na pomoc souseda Ignáce, který je silný a ochotný.\n\nNejtěžší byly dveře z kuchyně. Stůl se do nich vešel jen pod určitým úhlem. Zkoušeli jsme ho otočit pod jiným úhlem, pak zase pod jiným. Ignác tlačil z jedné strany, já jsem tlačil z druhé a Alžběta nám říkala, kam máme tlačit. Po deseti minutách byl stůl na chodbě.\n\nNa schodech šlo všechno pomaleji. Na každém schodu jsme se zastavili a zjistili, že stůl je těžší, než jsme si mysleli. Ignác šel první a počítal schody. Ve třetím patře jsme si dali přestávku. Dolů jsme ho nakonec dostali za půl hodiny.\n\nPak jsme ho naložili do půjčeného auta a odvezli na místo, kde město bere věci, které už nikdo nechce. Likvidace starého nábytku je tam zdarma. Pracovník nám ukázal kontejner, kam patří velké kusy, a řekl, že kontejner jednou za týden odvezou k likvidaci.\n\nNež jsme stůl dali do kontejneru, Alžběta si k němu ještě naposledy sedla. „Musím se s ním rozloučit pořádně,“ řekla. Padesát let je dlouhá doba. Já jsem se rozloučil rychleji, protože mě bolela záda.\n\nVečer stál v kuchyni nový stůl. Je lehký a hezký. Alžběta u něj seděla a nic neříkala. Pak řekla: „Je pěkný. Ale věrný bude, až u něj budeme jíst dalších padesát let.“\n\nOtázky:\nKdy rodiče Alžběty koupili stůl?\nKoupili ho před padesáti lety, když se brali.\nKolik schodů museli zvládnout?\nMuseli zvládnout 80 schodů.\nProč bylo těžké projít dveřmi?\nProtože se stůl do dveří vešel jen pod určitým úhlem.\nKdo stůl tlačil?\nIgnác tlačil z jedné strany a autor z druhé.\nKam stůl odvezli?\nOdvezli ho tam, kde je likvidace starého nábytku zdarma."
+    }
+  ]
+}

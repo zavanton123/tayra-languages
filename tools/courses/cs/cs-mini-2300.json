@@ -1,0 +1,223 @@
+{
+  "id": "cs-mini-2300",
+  "rankUpTo": 2300,
+  "level": "B2",
+  "title": "Svět práce",
+  "description": "Ten stories about everyday working life in Czechia: a building caretaker, a warehouse, a travel agency, a glass factory, a farm, a theatre, a corner shop, a racecourse, a hospital night shift and a school gym.",
+  "topic": "The world of work",
+  "names": [
+    "Zdeněk",
+    "Zdeňku",
+    "Brna",
+    "Brně",
+    "Ilona",
+    "Radim",
+    "Radimova",
+    "Ostravy",
+    "Opavě",
+    "Vladimíry",
+    "Vladimíra",
+    "Olomouce",
+    "Česku",
+    "Prahy",
+    "Bártová",
+    "Vídni",
+    "Berlíně",
+    "Moravě",
+    "Moravy",
+    "Miroslav",
+    "Miroslava",
+    "Miroslavovi",
+    "Jablonci",
+    "Nisou",
+    "Liberci",
+    "Dominik",
+    "Dominikovi",
+    "Dominikův",
+    "Dominika",
+    "Alžběta",
+    "Znojma",
+    "Dagmar",
+    "Ivo",
+    "Ivovi",
+    "Plzně",
+    "Jitka",
+    "Renata",
+    "Renatu",
+    "Pardubicích",
+    "Blanka",
+    "Hradci",
+    "Vondráček",
+    "Vondráčkovi",
+    "Lukáš",
+    "Lukáše",
+    "Zlíně",
+    "Matyáš",
+    "Matyáše",
+    "Matyášova",
+    "Matouše",
+    "Jakuba",
+    "Matyášovy"
+  ],
+  "lessons": [
+    {
+      "title": "Když vypadne elektřina",
+      "summary": "Zdeněk, the caretaker of an office building in Brno, finds why the power went out on the third floor, fixes it safely and warns everyone in the building.",
+      "newWords": [
+        "správce",
+        "elektřina",
+        "napětí",
+        "vypnout",
+        "vypadnout",
+        "varovat",
+        "včas",
+        "nasadit",
+        "zásada"
+      ],
+      "text": "Zdeněk pracuje jako správce velké kancelářské budovy v centru Brna. Stará se o vodu, o teplo a hlavně o elektřinu. V budově pracuje přes 300 lidí a skoro každý z nich potřebuje ke své práci počítač. Bez elektřiny se tu proto nedá dělat skoro nic.\n\nV pondělí ráno, krátce po osmé, vypadla elektřina v celém třetím patře. V kancelářích byla najednou tma, vypnuly se všechny počítače a lidé vyšli ze svých místností ven. Ilona, která v tom patře vede malý tým, hned zavolala správci.\n\n„Pane Zdeňku, u nás vypadla elektřina. Nefunguje vůbec nic.“\n\n„Hned tam jdu,“ odpověděl Zdeněk. „Prosím, řekněte kolegům, ať zatím nic nezkoušejí sami.“\n\nZdeněk vzal své nástroje a šel do malé místnosti na konci patra, kde jsou jističe. Při práci s elektřinou má jednu zásadu, kterou dodržuje vždycky: než na čemkoli začne pracovat, vypne proud. Potom si nasadil silné rukavice. Rukavice si nasadí i tehdy, když je proud vypnutý. „Ve starých budovách může někde ještě zůstat napětí,“ říká svým mladším kolegům. Malým přístrojem potom kontroloval, jestli opravdu žádné napětí nezůstalo.\n\nPříčinu našel rychle. V jedné kanceláři někdo zapojil do jedné zásuvky tři přístroje najednou: konvici na vodu, malé topení a ještě přístroj na kávu. Tolik elektřiny najednou staré vedení nevydrželo a jistič vypadl. Zdeněk všechny tři přístroje ze zásuvky vytáhl, jistič vrátil do správné polohy a znovu pustil proud. V kancelářích bylo zase světlo a počítače se začaly spouštět.\n\nPotom napsal všem lidem v budově zprávu. Varoval je, aby do jedné zásuvky nedávali víc přístrojů najednou. Varoval je také, že kdyby proud ještě jednou vypadl, nemají nic zkoušet sami, ale mají hned zavolat správci. Na konci připomněl svou starou zásadu: s elektřinou si nikdo nemá hrát.\n\nIlona za ním potom přišla. „Děkuju, že jste to opravil tak rychle. Za hodinu máme schůzku s důležitým klientem a bez počítačů bychom se na ni nestihli připravit.“\n\n„To nic,“ řekl Zdeněk. „Hlavně že jste mi zavolali včas. Kdybyste to zkoušeli opravit sami, mohlo se někomu něco stát. Napětí není vidět, a proto je nebezpečné.“\n\nSchůzka s klientem začala včas. Zdeněk se vrátil do své kanceláře a konečně si uvařil kávu.\n\nOtázky:\nKde pracuje Zdeněk?\nZdeněk pracuje jako správce velké kancelářské budovy v centru Brna.\nCo se stalo v pondělí ráno?\nV celém třetím patře vypadla elektřina.\nJakou zásadu má Zdeněk při práci s elektřinou?\nNež na čemkoli začne pracovat, vypne proud.\nProč vypadl jistič?\nProtože někdo zapojil do jedné zásuvky tři přístroje najednou.\nPřed čím Zdeněk lidi v budově varoval?\nVaroval je, aby do jedné zásuvky nedávali víc přístrojů najednou.\nProč byla Ilona ráda, že jí správce pomohl včas?\nProtože za hodinu měla schůzku s důležitým klientem."
+    },
+    {
+      "title": "Šest set trik do pátku",
+      "summary": "Radim, who runs a warehouse near Ostrava, checks the stock database for a big school order of T-shirts, gets the missing ones from Brno and sends everything off on time.",
+      "newWords": [
+        "sklad",
+        "zásoba",
+        "databáze",
+        "obdržet",
+        "příkaz",
+        "výkonný",
+        "triko",
+        "tudíž",
+        "standard"
+      ],
+      "text": "Radim je vedoucím skladu jedné firmy, která prodává sportovní oblečení přes internet. Sklad stojí na okraji Ostravy a pracuje v něm 20 lidí. Každý den ze skladu odjíždějí stovky zásilek do celé republiky.\n\nVe středu ráno obdržel Radim zprávu od obchodního oddělení. Jedna velká škola v Opavě objednala na sportovní den šest set trik v různých barvách a velikostech. Trika měla odjet ze skladu už v pátek.\n\nRadim nejdřív otevřel databázi, ve které má firma všechny zásoby skladu. U každého zboží je v databázi napsáno, kolik kusů ve skladu je a kde přesně leží. Radim napsal do systému příkaz, který mu ukáže všechna trika. Systém příkaz splnil a ukázal dlouhý seznam. Podle databáze měli bílých a modrých trik dost, ale červených jen 150. Zásoby červených trik tudíž nestačily.\n\nRadim zavolal do Brna firmě, která pro ně trika vyrábí.\n\n„Potřebuju do čtvrtka tři sta červených trik. Stihnete to?“\n\n„Stihneme,“ odpověděl muž v telefonu. „Pošlu je zítra ráno, takže je ve čtvrtek odpoledne obdržíte.“\n\nZatím začali lidé ve skladu chystat zbytek zakázky. Od jara mají nový výkonný vozík, který uveze i velmi těžké věci. Starý vozík byl mnohem méně výkonný, tudíž by s ním práce trvala o den déle.\n\nVe firmě platí jasný standard: každou zásilku musí ještě předtím, než odjede ze skladu, zkontrolovat druhý člověk. Radim na tomto standardu trvá i ve dnech, kdy je práce nejvíc. Ví, že jedna chyba může firmu stát víc peněz než celý den kontrol. Díky tomuto standardu dostane špatné zboží jen málo zákazníků.\n\nVe čtvrtek odpoledne obdrželi červená trika z Brna. Radim je hned zapsal do databáze, aby zásoby v systému odpovídaly tomu, co opravdu leží ve skladu. Pak dal příkaz poslat celou zakázku. Večer už stálo před skladem velké auto se šesti sty triky.\n\nV pátek obdržel Radim od školy krátkou zprávu: „Trika jsme dostali, všechno sedí. Moc děkujeme!“ Radim ji poslal dál všem lidem ve skladu.\n\nOtázky:\nCo prodává Radimova firma?\nRadimova firma prodává sportovní oblečení přes internet.\nCo objednala škola v Opavě?\nŠkola objednala šest set trik v různých barvách a velikostech.\nProč zásoby nestačily?\nProtože podle databáze měli ve skladu jen 150 červených trik.\nProč je práce s novým vozíkem rychlejší?\nProtože nový vozík je mnohem výkonnější než starý.\nJaký standard platí ve firmě?\nKaždou zásilku musí před odjezdem ze skladu zkontrolovat druhý člověk."
+    },
+    {
+      "title": "Nová kolegyně v cestovní kanceláři",
+      "summary": "The owner of a small travel agency in Olomouc interviews applicants and hires a young graduate who proves her German and brings an original idea for a cycling trip.",
+      "newWords": [
+        "zájemce",
+        "absolvovat",
+        "cestovní",
+        "originální",
+        "hodnotit",
+        "slečna",
+        "mimořádný",
+        "prokázat",
+        "odpovědnost"
+      ],
+      "text": "Cestovní kancelář paní Vladimíry je malá firma v centru Olomouce. Pořádá výlety a cesty po Česku i do zahraničí. Letos na jaře se jedna její kolegyně přestěhovala do Prahy, a tak paní Vladimíra začala hledat nového člověka.\n\nNa nabídku práce odpovědělo 12 zájemců. Paní Vladimíra si přečetla, co o sobě napsali, a pět zájemců pozvala na rozhovor. Hledala někoho, kdo mluví dobře německy, umí jednat se zákazníky a nebojí se odpovědnosti. V cestovní kanceláři totiž každý pracovník nese velkou odpovědnost: zákazníci musí odjet na dovolenou ve správný den, se správnými dokumenty a do hotelu, který si opravdu objednali.\n\nRozhovory trvaly celé úterý. Paní Vladimíra každého zájemce hodnotila podle tří věcí: podle jazyků, podle zkušeností a podle toho, jak jedná s lidmi. První čtyři zájemci byli milí, ale žádný z nich ji úplně nepřesvědčil.\n\nJako poslední přišla slečna Bártová. Bylo jí 24 let a v červnu absolvovala vysokou školu v Brně. Během studia absolvovala také praxi v jednom hotelu ve Vídni, kde pracovala půl roku.\n\n„Slečno Bártová, proč chcete pracovat právě v cestovní kanceláři?“ zeptala se paní Vladimíra.\n\n„Protože ráda pomáhám lidem najít místo, kde jim bude dobře,“ odpověděla slečna.\n\nPak ji paní Vladimíra požádala, aby prokázala, jak dobře umí německy. Slečna Bártová měla po telefonu objednat pokoj v jednom hotelu v Berlíně. Zvládla to bez jediné chyby a prokázala, že umí jednat klidně a jasně.\n\nNakonec ukázala nápad, který si připravila doma: originální výlet na kolech po starých hradech a zámcích kolem řeky Moravy. Takový originální nápad paní Vladimíra od žádného zájemce nečekala.\n\nVečer paní Vladimíra všechny zájemce znovu hodnotila. Slečna Bártová měla nejlepší výsledky ve všech třech věcech a její nápad byl mimořádný. Druhý den jí paní Vladimíra zavolala.\n\n„Slečno Bártová, ráda bych vám to místo nabídla. Kdy byste mohla začít?“\n\n„Od září,“ odpověděla slečna Bártová.\n\nSlečna Bártová začala pracovat v září. Její výlet na kolech měl hned první rok mimořádný úspěch a paní Vladimíra ho teď nabízí každé léto.\n\nOtázky:\nProč hledala paní Vladimíra nového člověka?\nProtože se jedna její kolegyně přestěhovala do Prahy.\nKolik zájemců odpovědělo na nabídku práce?\nNa nabídku práce odpovědělo 12 zájemců.\nPodle čeho paní Vladimíra zájemce hodnotila?\nHodnotila je podle jazyků, podle zkušeností a podle toho, jak jednají s lidmi.\nCo absolvovala slečna Bártová během studia?\nAbsolvovala praxi v jednom hotelu ve Vídni.\nJak slečna Bártová prokázala, že umí německy?\nPo telefonu objednala pokoj v hotelu v Berlíně bez jediné chyby.\nJaký originální nápad slečna Bártová ukázala?\nUkázala výlet na kolech po starých hradech a zámcích kolem řeky Moravy."
+    },
+    {
+      "title": "Poslední den pana Miroslava",
+      "summary": "After forty-two years in a glass factory in Jablonec, Miroslav works his last day before retirement and leaves the old furnace to Dominik, the young glassmaker he has trained.",
+      "newWords": [
+        "důchod",
+        "továrna",
+        "sklo",
+        "odcházet",
+        "vyrůst",
+        "věčný",
+        "opravdový",
+        "příchod",
+        "poněkud"
+      ],
+      "text": "Pan Miroslav pracuje v továrně na sklo v Jablonci nad Nisou už 42 let. V pátek má poslední den v práci, protože odchází do důchodu. Do továrny přišel jako kluk hned po základní škole, bylo mu tehdy 15 let. Vyrůstal v ulici kousek od továrny a se sklem pracovala už celá jeho rodina.\n\nV továrně se z mladého kluka stal opravdový mistr. Vyráběl vázy a velká světla do hotelů a divadel. Lidé o něm říkali, že jeho sklo je lehké jako papír a pevné jako kámen. Věci z jeho rukou se prodávaly po celém světě.\n\nPoslední rok se pan Miroslav věnoval hlavně Dominikovi. Dominikův příchod do továrny byl pro něj velkou radostí, protože mladých lidí, kteří chtějí pracovat se sklem, je čím dál méně. Dominik vyrostl v Liberci a ke sklu se dostal skoro náhodou, ale brzy se ukázalo, že mu tato práce jde. Od jeho příchodu je to teprve rok a už umí věci, které se jiní učí pět let.\n\n„Sklo je věčné,“ opakoval mu pan Miroslav. „Když s ním budeš pracovat dobře, tvoje vázy tu budou ještě dlouho po tobě.“\n\nV pátek ráno přišel pan Miroslav do práce jako vždycky v šest hodin. Na důchod se těšil, ale ten den byl poněkud smutný. Na všechno se díval poněkud déle než obvykle: na pece, na nástroje i na velká okna, kterými do haly padá ranní slunce.\n\nOdpoledne se v hale sešli všichni zaměstnanci. Ředitel panu Miroslavovi poděkoval za 42 let práce a řekl, že takových opravdových mistrů už v Česku mnoho není. Potom mu Dominik předal dárek: vázu ze skla, kterou sám vyrobil. Byla to jeho první opravdu dobrá váza.\n\nPan Miroslav ji dlouho držel proti světlu. „Je krásná,“ řekl nakonec. „Vidím, že jsi za ten rok hodně vyrostl.“\n\nKdyž pak z továrny odcházel, zastavil se ještě u nejstarší pece. Oheň v ní hoří už sto let a lidé v továrně mu říkají věčný oheň. „Na ten věčný oheň mi dávej pozor,“ řekl Dominikovi. Dominik mu slíbil, že bude.\n\nPan Miroslav pomalu odcházel k bráně a kolegové se za ním ještě dlouho dívali. V pondělí bude poprvé po 42 letech spát déle než do pěti. Už teď ale ví, že se v důchodu bude do továrny chodit dívat, jak se Dominikovi daří.\n\nOtázky:\nJak dlouho pracuje pan Miroslav v továrně na sklo?\nPracuje v ní už 42 let.\nProč má pan Miroslav v pátek poslední den v práci?\nProtože odchází do důchodu.\nProč byl Dominikův příchod pro pana Miroslava velkou radostí?\nProtože mladých lidí, kteří chtějí pracovat se sklem, je čím dál méně.\nCo dostal pan Miroslav od Dominika?\nDostal vázu ze skla, kterou Dominik sám vyrobil.\nČemu se v továrně říká věčný oheň?\nOhni v nejstarší peci, který hoří už sto let."
+    },
+    {
+      "title": "Pole pro sysly",
+      "summary": "Alžběta, an expert at a farm company near Znojmo, checks a sandy field before a solar plant is built and finds a rare population of ground squirrels, so the panels go on the farm roofs instead.",
+      "newWords": [
+        "zemědělský",
+        "kořen",
+        "písek",
+        "sluneční",
+        "okolní",
+        "populace",
+        "jedinec",
+        "vzácný",
+        "ročně",
+        "územní"
+      ],
+      "text": "Alžběta pracuje jako odbornice na půdu a rostliny ve velkém zemědělském podniku u Znojma. Podnik má mnoho polí a prodává obilí, brambory a zeleninu do obchodů po celém kraji.\n\nLetos na jaře přišel ředitel podniku s novým plánem. Na jednom poli za vesnicí chtěl postavit sluneční elektrárnu. V půdě je tam hodně písku, a proto se tomu poli nikdy moc nedařilo. Kořeny rostlin v písku nenajdou dost vody a v suchém létě tam skoro nic neroste. Ředitel spočítal, že sluneční elektrárna by na tom poli ročně vyrobila tolik elektřiny, kolik ročně potřebují všechny domy ve vesnici.\n\nPodle územního plánu obce se na poli stavět smí. Než se ale začne stavět, musí někdo zkontrolovat, jestli tam nežijí vzácná zvířata nebo nerostou vzácné rostliny. Tuto práci dostala Alžběta.\n\nCelý týden chodila po poli a po okolních polích a lesích. Pátý den uviděla malé zvíře, které se postavilo na zadní nohy a dívalo se kolem. Byl to sysel. Sysli byli kdysi v Česku běžní, ale dnes jsou velmi vzácní. Živí se rostlinami a jejich kořeny a žijí pod zemí v suché půdě s pískem.\n\nAlžběta se na pole vracela několik dní a zvířata počítala. Na poli a na okolních polích spočítala asi 80 jedinců. Taková populace je dnes v Česku velmi vzácná. Když se v populaci každý rok narodí dost mladých jedinců, může se zvířatům na tom místě dařit ještě mnoho let.\n\nAlžběta šla za ředitelem. „Na tom poli žije jedna z největších populací syslů na jihu Moravy. Když tam postavíme elektrárnu, zvířata přijdou o domov.“\n\nŘeditel chvíli přemýšlel. „A co kdybychom dali sluneční panely na střechy našich budov? Máme přece velké haly a sklady.“\n\nAlžběta spočítala, že se na střechy okolních budov vejde skoro stejně panelů jako na pole. Ročně vyrobí jen o něco méně elektřiny a pole zůstane zvířatům. Zemědělský podnik tak bude mít svou elektřinu a nikdo nebude muset měnit územní plán. Za rok byla elektrárna na střechách hotová. Na jaře Alžběta znovu počítala jedince na poli. Bylo jich 90.\n\nOtázky:\nKde pracuje Alžběta?\nAlžběta pracuje ve velkém zemědělském podniku u Znojma.\nCo chtěl ředitel postavit na poli za vesnicí?\nChtěl tam postavit sluneční elektrárnu.\nProč se tomu poli nikdy moc nedařilo?\nProtože je v půdě hodně písku a kořeny rostlin v něm nenajdou dost vody.\nCo říká územní plán obce?\nPodle územního plánu se na poli stavět smí.\nKolik jedinců Alžběta spočítala?\nNa poli a na okolních polích jich spočítala asi 80.\nKam nakonec podnik dal sluneční elektrárnu?\nPodnik ji dal na střechy svých budov."
+    },
+    {
+      "title": "Růžové šaty pro princeznu",
+      "summary": "Dagmar makes costumes for a theatre in an old Brno palace; the pink dress for the season's first premiere looks wrong under the stage lights until she fixes it in time for the opening.",
+      "newWords": [
+        "divadelní",
+        "palác",
+        "růžový",
+        "doplněk",
+        "předvést",
+        "efekt",
+        "tyč",
+        "otevření",
+        "jakýsi"
+      ],
+      "text": "Dagmar vyrábí kostýmy pro jedno divadlo v Brně. Divadlo je ve starém paláci z 18. století. V horní části paláce je velký sál pro diváky a v dolní části jsou divadelní místnosti, kde se vyrábějí věci pro scénu a oblečení pro herce.\n\nZa tři týdny bude otevření nové divadelní sezóny. První premiérou bude pohádka o princezně, která nechce sedět v paláci, ale chce vařit. Režisér chce, aby princezna měla velké růžové šaty. „Růžová je barva princezen,“ vysvětlil Dagmar. „Naše princezna je ale jiná, tak ať je to jakási veselá, silná růžová, ne sladká.“\n\nDagmar hledala tu správnou látku celý týden. Nakonec vybrala silnou růžovou látku, která na světle jakýmsi zvláštním způsobem svítí. K šatům udělala i doplňky: růžovou čepici, bílé rukavice a velkou dřevěnou lžíci na vaření. „Doplňky jsou pro mě stejně důležité jako šaty,“ říká Dagmar. „Divák si jich možná nevšimne, ale bez dobrých doplňků kostým nežije.“\n\nŠaty pro ostatní herce má Dagmar už připravené ve své místnosti na dlouhé železné tyči. Na tyči jich je přes dvacet: oblečení pro krále, pro psa a pro tři stromy.\n\nTýden před premiérou musela Dagmar všechno předvést režisérovi. Herečka, která hraje princeznu, si oblékla růžové šaty a chodila v nich po scéně. Pod silnými světly ale vypadala růžová látka skoro žlutě. Efekt byl úplně jiný, než všichni chtěli.\n\n„Na scéně ta barva ztrácí svůj efekt,“ řekl režisér.\n\n„Za dva dny vám je herečka předvede znovu,“ slíbila Dagmar a vzala si šaty zpátky. Dva dny na ně dávala slabou bílou látku, aby růžová pod světly nevypadala žlutě. Při další zkoušce si herečka šaty oblékla znovu a tentokrát byl efekt přesně takový, jaký režisér chtěl.\n\nV den otevření sezóny byl sál plný. Když princezna poprvé vyšla na scénu ve svých růžových šatech, lidem se to moc líbilo. Dagmar stála za scénou u druhé tyče s oblečením pro druhou část hry a byla šťastná.\n\nOtázky:\nKde je divadlo, pro které Dagmar vyrábí kostýmy?\nDivadlo je ve starém paláci v Brně.\nCo bude za tři týdny?\nZa tři týdny bude otevření nové divadelní sezóny.\nJaké šaty chce režisér pro princeznu?\nChce velké růžové šaty.\nJaké doplňky Dagmar k šatům udělala?\nUdělala růžovou čepici, bílé rukavice a velkou dřevěnou lžíci na vaření.\nProč musela Dagmar šaty upravit?\nProtože pod silnými světly vypadala růžová látka skoro žlutě.\nKde má Dagmar šaty pro ostatní herce?\nMá je ve své místnosti na dlouhé železné tyči."
+    },
+    {
+      "title": "Úvěr pro malý obchod",
+      "summary": "Ivo, who runs a small grocery in Plzeň, applies for a bank loan to modernise his shop, gets it approved and keeps plenty of small change for his older customers.",
+      "newWords": [
+        "úvěr",
+        "obchodník",
+        "drobné",
+        "chudý",
+        "komerční",
+        "čtvrt",
+        "poblíž",
+        "zkrátka",
+        "podléhat",
+        "ačkoliv"
+      ],
+      "text": "Ivo je obchodník. Už 15 let má malý obchod s potravinami v jedné ulici na okraji Plzně. Obchod je otevřený každý den od čtvrt na sedm, aby si lidé mohli koupit chleba ještě před prací.\n\nPoblíž obchodu stojí škola, malá nemocnice a několik velkých domů, kde bydlí hlavně starší lidé. Mnoho z nich žije jen z malého důchodu. Nejsou úplně chudí, ale musí s penězi dobře počítat. Platí většinou hotově a často drobnými. Ivo proto musí mít v pokladně pořád dost drobných.\n\nLetos se Ivo rozhodl, že obchod opraví. Chtěl nové lednice, nová světla a přístroj na placení kartou. Zkrátka chtěl, aby jeho obchod vypadal moderně. Spočítal, že to bude stát asi čtyři sta tisíc korun. Tolik peněz neměl, a tak se rozhodl požádat o úvěr.\n\nNejdřív se zeptal ve dvou komerčních bankách. Ve druhé bance ho přijala paní Jitka. Nabídla mu úvěr pro malé firmy, který se dává na komerční prostory, tedy na obchody, kanceláře a podobná místa. Vysvětlila mu ale, že každý úvěr podléhá kontrole banky.\n\n„Vaše žádost podléhá kontrole našeho oddělení,“ řekla. „Budeme potřebovat vaše výsledky za poslední tři roky.“\n\nIvo přinesl všechny papíry ještě ten den. Ačkoliv byl jeho obchod malý, vydělával každý rok dost peněz. Zákazníci z domů poblíž chodili nakupovat pravidelně a do velkých obchodů za městem se jim nechtělo. Zkrátka, malý obchod měl své věrné zákazníky.\n\nAčkoliv se Ivo bál, že mu banka úvěr nedá, za dva týdny mu paní Jitka zavolala. „Pane Ivo, banka vám úvěr schválila. Za čtvrt hodiny vám pošlu smlouvu.“\n\nZa čtvrt roku byl obchod hotový. Má nové lednice, nová světla i přístroj na placení kartou. Mladší zákazníci platí kartou, ale starší lidé z domů poblíž platí dál hotově. Ivo má proto v pokladně stále dost drobných.\n\n„Chudý obchodník je ten, kdo nemá drobné,“ říká a směje se. „A to já nikdy nebudu.“\n\nOtázky:\nKde má Ivo svůj obchod?\nIvo má malý obchod s potravinami v jedné ulici na okraji Plzně.\nOd kolika hodin je obchod otevřený?\nObchod je otevřený od čtvrt na sedm.\nProč musí mít Ivo v pokladně pořád dost drobných?\nProtože starší lidé z domů poblíž platí většinou hotově a často drobnými.\nProč šel Ivo do banky?\nChtěl požádat o úvěr, protože neměl dost peněz na opravu obchodu.\nCo vysvětlila Ivovi paní Jitka?\nVysvětlila mu, že každý úvěr podléhá kontrole banky."
+    },
+    {
+      "title": "Den velkého závodu",
+      "summary": "Renata, the press officer of the Velká pardubická steeplechase, prepares the press conference, guides the crowds on race day and writes a statement when a storm delays the start.",
+      "newWords": [
+        "tiskový",
+        "prohlášení",
+        "jezdec",
+        "dav",
+        "vlajka",
+        "asociace",
+        "výstup",
+        "skrz"
+      ],
+      "text": "Renata pracuje jako tisková mluvčí Velké pardubické, nejslavnějšího závodu koní v zemi. Závod se jede každý rok v říjnu v Pardubicích. Přijede se na něj podívat přes 20 000 lidí a pro Renatu je to nejtěžší den celého roku.\n\nTýden před závodem připravila Renata tiskovou konferenci. Novináři se na ní dozvěděli, kteří jezdci a koně pojedou, a mohli se jezdců na všechno zeptat. Na konferenci přišel i předseda asociace jezdců. Mluvil o tom, co asociace dělá pro bezpečnost jezdců i koní, a o nových pravidlech, která letos platí.\n\nV den závodu byla Renata na místě už od šesti hodin ráno. Ráno začali vlakem přijíždět diváci. Na nádraží stáli lidé ve žlutých bundách u výstupu z vlaků a ukazovali divákům cestu. Lidí bylo tolik, že se musel otevřít ještě jeden výstup. Celé ráno šel od nádraží k závodní dráze velký dav.\n\nKolem dvanácté začal padat déšť a zvedl se silný vítr. Vedení závodu se rozhodlo, že start bude o půl hodiny později. Renata musela rychle napsat prohlášení pro novináře. V prohlášení vysvětlila, proč bude start později, a napsala, že se závod pojede, jakmile bude vítr slabší. Prohlášení poslala všem novinářům a pak ho přečetla i do rozhlasu. Dav ho vyslechl klidně a čekal.\n\nPo půl hodině vítr opravdu přestal. Skrz okno tiskového centra viděla Renata, jak se koně a jezdci chystají na start. Muž na startu zvedl vlajku a všichni čekali. Když vlajku spustil, koně se rozběhli a dav začal volat jména jezdců.\n\nZávod trval asi deset minut. Vyhrál ho mladý jezdec z Moravy, který jel Velkou pardubickou teprve podruhé. Renata s ním musela projít skrz dav až do tiskového centra, kde už čekali novináři. Na stole tam stála malá vlajka s koněm.\n\nVečer, když dav odešel a na dráze byl klid, napsala Renata poslední tiskovou zprávu dne. Pak vypnula počítač a šla domů. Do příštího října měla trochu klidu.\n\nOtázky:\nKde pracuje Renata?\nRenata pracuje jako tisková mluvčí Velké pardubické.\nKdo přišel na tiskovou konferenci?\nPřišli novináři, jezdci a předseda asociace jezdců.\nKde stáli lidé ve žlutých bundách?\nStáli u výstupu z vlaků a ukazovali divákům cestu.\nProč musela Renata napsat prohlášení?\nProtože kvůli dešti a silnému větru začal závod o půl hodiny později.\nCo udělal muž na startu, když měli koně vyběhnout?\nSpustil vlajku.\nKdo vyhrál Velkou pardubickou?\nVyhrál ji mladý jezdec z Moravy."
+    },
+    {
+      "title": "Noční služba",
+      "summary": "Blanka, a nurse in Hradec Králové, works a night shift; when an older patient faints by his bed, she calls the doctor at once and he soon comes round.",
+      "newWords": [
+        "spánek",
+        "vědomí",
+        "tušit",
+        "vykonávat",
+        "pořádný",
+        "těsně",
+        "běžně",
+        "momentálně"
+      ],
+      "text": "Blanka je zdravotní sestra v nemocnici v Hradci Králové. Tento týden má noční služby. Svou práci vykonává už 12 let a ví, že noční služba má svá pravidla.\n\nPřed noční službou se Blanka snaží přes den pořádně vyspat. Vypne telefon a jde do ložnice, kde je tma a ticho. Spánek ve dne ale není nikdy tak dobrý jako spánek v noci. Proto si před odchodem do práce dá ještě pořádnou večeři, aby měla v noci dost síly.\n\nSlužba začíná v sedm večer. Momentálně leží na oddělení 20 pacientů. Blanka vykonává všechny běžné úkoly: dává pacientům léky, měří jim tlak a zapisuje výsledky do počítače. Později v noci je na oddělení klid a většina pacientů už spí.\n\nVe dvě hodiny ráno slyšela Blanka z jednoho pokoje divný zvuk. Netušila, co to je, ale tušila, že má jít hned. Starší pan Vondráček ležel na zemi těsně vedle své postele a neodpovídal. Ztratil vědomí.\n\nBlanka zavolala lékaře a kontrolovala, jestli pan Vondráček dýchá. Dýchal. Za minutu přišel lékař a společně ho položili na postel. Po chvíli pan Vondráček otevřel oči a přišel k vědomí.\n\n„Co se stalo?“ zeptal se tiše.\n\n„Spadl jste vedle postele,“ řekla Blanka. „Jak se momentálně cítíte?“\n\n„Netuším, co se stalo. Chtěl jsem se jen zvednout z postele a pak už nic nevím.“\n\nLékař ho prohlédl a řekl, že se mu nejspíš udělalo zle, protože se zvedl z postele příliš rychle. Takové věci se u starších pacientů stávají běžně. Člověk na chvíli ztratí vědomí a pak je zase v pořádku. Běžně to není nic vážného, přesto mu lékař ráno nechá udělat několik testů.\n\nDo konce služby chodila Blanka k panu Vondráčkovi každou hodinu. Spal klidně a ráno už měl dobrou náladu. Těsně před sedmou předala Blanka oddělení kolegyni, která přišla na denní službu, a řekla jí, co se v noci stalo.\n\nDoma si dala čaj a šla spát. Po takové noci byl její spánek pořádný a dlouhý.\n\nOtázky:\nKde pracuje Blanka?\nBlanka je zdravotní sestra v nemocnici v Hradci Králové.\nCo dělá Blanka před noční službou?\nSnaží se přes den pořádně vyspat a dá si pořádnou večeři.\nKolik pacientů leží momentálně na oddělení?\nMomentálně leží na oddělení 20 pacientů.\nCo se stalo panu Vondráčkovi ve dvě hodiny ráno?\nZtratil vědomí a ležel na zemi těsně vedle postele.\nProč se to podle lékaře stalo?\nProtože se zvedl z postele příliš rychle.\nKdy předala Blanka oddělení kolegyni?\nTěsně před sedmou ráno."
+    },
+    {
+      "title": "Graf na hodině tělocviku",
+      "summary": "Lukáš, a PE teacher in Zlín, tracks his sixth graders' running times on a chart; slow Matyáš improves the most and plays as a defender in the school tournament.",
+      "newWords": [
+        "výchova",
+        "obránce",
+        "hádat",
+        "osa",
+        "účastnit",
+        "pokaždé",
+        "šestý",
+        "zázrak"
+      ],
+      "text": "Lukáš učí tělesnou výchovu na základní škole ve Zlíně. Má rád všechny třídy, ale letos nejvíc pracuje se šestou třídou. Šestá třída se totiž na jaře bude účastnit velkého školního turnaje ve fotbale.\n\nV září Lukáš změřil, kolik sekund děti potřebují na 60 metrů. Výsledky zapsal do počítače a udělal z nich graf. Na jedné ose jsou měsíce od září do května a na druhé ose sekundy. Každý měsíc běží děti znovu a Lukáš pokaždé přidá do grafu nové výsledky.\n\nNejhorší výsledek měl v září Matyáš. Na 60 metrů potřeboval přes 12 sekund a pokaždé, když doběhl, byl úplně bez síly. Na hodinách tělesné výchovy byl smutný, protože ho nikdo nechtěl do svého týmu.\n\nLukáš mu nabídl, aby chodil dvakrát za týden na trénink po škole. Matyáš začal chodit a nechyběl ani jednou. Běhal, skákal a učil se hrát s míčem. Pokaždé, když se mu něco nepovedlo, to zkusil znovu.\n\nV dubnu přinesl Lukáš do školy velký graf. „Hádejte, kdo se od září zlepšil nejvíc,“ řekl dětem.\n\nDěti hádaly. Jedni hádali Matouše, druzí Jakuba. Nikdo nehádal Matyáše.\n\nLukáš ukázal na graf. Matyášovy výsledky šly na ose se sekundami dolů rychleji než výsledky všech ostatních. V dubnu měl Matyáš na 60 metrů jen devět a půl sekundy.\n\n„To je zázrak!“ řekl Matyáš.\n\n„Žádný zázrak,“ odpověděl Lukáš. „To je práce. Chodil jsi na každý trénink.“\n\nNa turnaji hrál Matyáš za šestou třídu jako obránce. Obránce musí být rychlý a musí dobře číst hru, a to už Matyáš uměl. Šestá třída skončila v turnaji druhá a trenér jiné školy se Lukáše ptal, kde našel tak dobrého obránce.\n\n„Na své hodině tělesné výchovy,“ odpověděl Lukáš s úsměvem.\n\nOtázky:\nCo učí Lukáš?\nLukáš učí tělesnou výchovu na základní škole ve Zlíně.\nČeho se bude šestá třída na jaře účastnit?\nBude se účastnit velkého školního turnaje ve fotbale.\nCo je na osách grafu?\nNa jedné ose jsou měsíce a na druhé ose sekundy.\nKoho děti hádaly, když se Lukáš ptal, kdo se zlepšil nejvíc?\nHádaly Matouše a Jakuba, ale nikdo nehádal Matyáše.\nProč to podle Lukáše nebyl zázrak?\nProtože Matyáš chodil na každý trénink.\nZa koho hrál Matyáš na turnaji?\nHrál za šestou třídu jako obránce."
+    }
+  ]
+}
