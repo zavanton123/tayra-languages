@@ -1,0 +1,101 @@
+# id	rankUpTo	level	topic (English)	title (Ukrainian)
+uk-mini-0100	100	A1	Home and family	Удома і в родині
+uk-mini-0200	200	A1	Everyday life	Звичайний день
+uk-mini-0300	300	A1	Food and shopping	Їжа та покупки
+uk-mini-0400	400	A2	In the city	У місті
+uk-mini-0500	500	A2	School and work	Школа й робота
+uk-mini-0600	600	A2	Free time and hobbies	Вільний час і захоплення
+uk-mini-0700	700	A2	Health and the body	Здоров'я та тіло
+uk-mini-0800	800	A2	Travel and holidays	Подорожі та відпустка
+uk-mini-0900	900	A2	Nature and the seasons	Природа й пори року
+uk-mini-1000	1000	A2	Celebrations and friends	Свята й друзі
+uk-mini-1100	1100	B1	Living and housing	У пошуках житла
+uk-mini-1200	1200	B1	Memories	Спогади
+uk-mini-1300	1300	B1	Jobs and training	Професії та навчання
+uk-mini-1400	1400	B1	Getting around	Як дістатися
+uk-mini-1500	1500	B1	Money and shopping	Гроші та покупки
+uk-mini-1600	1600	B1	Experiencing culture	Культурні вихідні
+uk-mini-1700	1700	B1	Sport and exercise	Спорт
+uk-mini-1800	1800	B1	The environment in daily life	Довкілля в повсякденному житті
+uk-mini-1900	1900	B1	Letters, messages and media	Листи, повідомлення та ЗМІ
+uk-mini-2000	2000	B1	Neighbourhood	Наш район
+uk-mini-2100	2100	B2	Cooking and food	Кухня і смак
+uk-mini-2200	2200	B2	Body and mind	Тіло й розум
+uk-mini-2300	2300	B2	The world of work	Світ праці
+uk-mini-2400	2400	B2	Science and technology	Наука і техніка
+uk-mini-2500	2500	B2	History you can touch	Історія поруч із нами
+uk-mini-2600	2600	B2	Travelling in Ukraine	Подорожі Україною
+uk-mini-2700	2700	B2	Generations	Покоління
+uk-mini-2800	2800	B2	Music	Музика
+uk-mini-2900	2900	B2	Society and living together	Жити разом
+uk-mini-3000	3000	B2	Small columns	Маленькі колонки
+uk-mini-3100	3100	B2	Home and decoration	Дім та інтер'єр
+uk-mini-3200	3200	B2	Fashion and clothes	Мода й одяг
+uk-mini-3300	3300	B2	The great outdoors	На свіжому повітрі
+uk-mini-3400	3400	B2	Traditional crafts	Давні ремесла
+uk-mini-3500	3500	B2	Technology and society	Технології та суспільство
+uk-mini-3600	3600	B2	The sea and the coast	Море й узбережжя
+uk-mini-3700	3700	B2	Books and language	Книжки і мова
+uk-mini-3800	3800	B2	Everyday economics	Економіка на щодень
+uk-mini-3900	3900	B2	Country life	Життя в селі
+uk-mini-4000	4000	B2	City life columns	Міські колонки
+uk-mini-4100	4100	C1	Body and mind in daily life	Тіло й розум у повсякденному житті
+uk-mini-4200	4200	C1	Architecture and heritage	Архітектура і спадщина
+uk-mini-4300	4300	C1	Climate and energy	Клімат і енергія
+uk-mini-4400	4400	C1	Everyday law and rights	Право в повсякденному житті
+uk-mini-4500	4500	C1	Film and television	Кіно і телебачення
+uk-mini-4600	4600	C1	Research and discovery	Дослідження та відкриття
+uk-mini-4700	4700	C1	Living between countries	Життя між двома країнами
+uk-mini-4800	4800	C1	The mind in daily life	Психологія в повсякденному житті
+uk-mini-4900	4900	C1	Sport and society	Спорт і суспільство
+uk-mini-5000	5000	C1	Short essays	Короткі есеї
+uk-mini-5100	5100	C1	History	Сторінки історії
+uk-mini-5200	5200	C1	The science of cooking	Наука на кухні
+uk-mini-5300	5300	C1	Landscapes	Краєвиди
+uk-mini-5400	5400	C1	Caring for others	Турбота про інших
+uk-mini-5500	5500	C1	Visual arts	Образотворче мистецтво
+uk-mini-5600	5600	C1	Journalism and media	Журналістика та ЗМІ
+uk-mini-5700	5700	C1	Transport and mobility	Транспорт і мобільність
+uk-mini-5800	5800	C1	The Ukrainian language	Українська мова
+uk-mini-5900	5900	C1	Starting a business	Власна справа
+uk-mini-6000	6000	C1	Memoirs	Мемуари
+uk-mini-6100	6100	C1	The universe and the stars	Всесвіт і зорі
+uk-mini-6200	6200	C1	Mining and natural resources	Гірнича справа та природні ресурси
+uk-mini-6300	6300	C1	Food and health	Харчування і здоров'я
+uk-mini-6400	6400	C1	Theatre, circus and stage	Театр, цирк і сцена
+uk-mini-6500	6500	C1	Engineering	Мистецтво інженера
+uk-mini-6600	6600	C1	Farm to table	Від поля до столу
+uk-mini-6700	6700	C1	Languages and cultures of Ukraine	Мови й культури України
+uk-mini-6800	6800	C1	Literature in Ukrainian	Українська література
+uk-mini-6900	6900	C1	Numbers and reasoning	Числа і міркування
+uk-mini-7000	7000	C1	Travel columns	Дорожні нотатки
+uk-mini-7100	7100	C1	Public health	Громадське здоров'я
+uk-mini-7200	7200	C1	Everyday philosophy	Філософія в повсякденному житті
+uk-mini-7300	7300	C1	Festivals and faith	Свята і вірування
+uk-mini-7400	7400	C1	Animal behaviour	Поведінка тварин
+uk-mini-7500	7500	C1	Work and the labour market	Праця і зайнятість
+uk-mini-7600	7600	C1	Cities of the world	Міста світу
+uk-mini-7700	7700	C1	Inventions and inventors	Винаходи та винахідники
+uk-mini-7800	7800	C1	State and citizens	Держава і громадяни
+uk-mini-7900	7900	C1	Mountains and winter sport	Гори та зимовий спорт
+uk-mini-8000	8000	C1	Family columns	Сімейні колонки
+uk-mini-8100	8100	C2	The human body	Людське тіло
+uk-mini-8200	8200	C2	Prevention and resilience	Профілактика і стійкість
+uk-mini-8300	8300	C2	Design and craft	Дизайн і майстерність
+uk-mini-8400	8400	C2	Emotions and relationships	Емоції та стосунки
+uk-mini-8500	8500	C2	World history	Сторінки світової історії
+uk-mini-8600	8600	C2	The forest	Ліс
+uk-mini-8700	8700	C2	Advertising and communication	Реклама і комунікація
+uk-mini-8800	8800	C2	Food culture in Ukraine	Українська кухня
+uk-mini-8900	8900	C2	Classical music	Класична музика
+uk-mini-9000	9000	C2	Essays on time	Есеї про час
+uk-mini-9100	9100	C2	Chemistry and materials	Хімія та матеріали
+uk-mini-9200	9200	C2	Maps and finding the way	Карти й орієнтування
+uk-mini-9300	9300	C2	Tales and legends	Казки та легенди
+uk-mini-9400	9400	C2	Rare professions	Рідкісні професії
+uk-mini-9500	9500	C2	Urban planning	Містобудування
+uk-mini-9600	9600	C2	Everyday physics	Фізика в повсякденному житті
+uk-mini-9700	9700	C2	Gardens and botany	Сади і ботаніка
+uk-mini-9800	9800	C2	Folk art and customs	Народне мистецтво і звичаї
+uk-mini-9900	9900	C2	Ethics and living together	Етика і співжиття
+uk-mini-10000	10000	C2	Learning and language	Останні есеї: вчитися і говорити
