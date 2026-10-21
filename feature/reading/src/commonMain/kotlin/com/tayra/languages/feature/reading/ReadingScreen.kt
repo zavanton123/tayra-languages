@@ -375,7 +375,6 @@ fun ReadingScreen(
             // beside a divider; the reader's own toolbar belongs to the text and keeps to its side.
             Row(Modifier.weight(1f)) {
                 Column(Modifier.weight(1f).fillMaxHeight()) {
-                    if (!state.settings.focusMode && !compact) ReaderToolbar(state, viewModel, onMenu = openPane, onHome = leave, onCourses = { onNavigate(Route.Courses) })
                     Box(Modifier.weight(1f).fillMaxWidth().background(MaterialTheme.colorScheme.surfaceVariant.copy(alpha = if (state.settings.focusMode) 0f else AppAlpha.line))) {
                         ReadingBody(
                             state, viewModel, speaker, continuous,
@@ -383,6 +382,8 @@ fun ReadingScreen(
                             onPractice = { onNavigate(Route.Practice(bookId, state.pageNumber)) },
                             onPracticeAll = { kinds -> onNavigate(Route.Practice(bookId, page = null, kinds = kinds.map { it.name })) },
                             onSettings = { onNavigate(Route.OfflineTranslation) },
+                            onMenu = openPane,
+                            onCourses = { onNavigate(Route.Courses) },
                             focusText = { runCatching { focusRequester.requestFocus() } },
                         )
                     }
@@ -476,15 +477,13 @@ private fun ReadingHeader(state: ReadingUiState, viewModel: ReadingViewModel, on
     }
 }
 
-/** Wide-screen toolbar: breadcrumb on the left, the page position and slider in the middle. */
+/** Wide-screen breadcrumb above the title in the text's card, with the page position and slider at its end. */
 @Composable
-private fun ReaderToolbar(state: ReadingUiState, viewModel: ReadingViewModel, onMenu: () -> Unit, onHome: () -> Unit, onCourses: () -> Unit) {
+private fun ReaderBreadcrumb(state: ReadingUiState, viewModel: ReadingViewModel, onHome: () -> Unit, onCourses: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     val rtl = state.language?.rightToLeft == true
-    Row(Modifier.fillMaxWidth().padding(horizontal = AppSpacing.l, vertical = AppSpacing.s), verticalAlignment = Alignment.CenterVertically) {
+    Row(Modifier.fillMaxWidth().padding(bottom = AppSpacing.m), verticalAlignment = Alignment.CenterVertically) {
         Row(Modifier.weight(1f), verticalAlignment = Alignment.CenterVertically) {
-            AppIconButton(Icons.Default.Settings, contentDescription = tr("Reader settings"), onClick = onMenu)
-            Spacer(Modifier.width(AppSpacing.s))
             val lesson = state.lesson
             val separator: @Composable () -> Unit = {
                 Text("/", style = MaterialTheme.typography.bodyLarge, color = colors.outline, modifier = Modifier.padding(horizontal = AppSpacing.s))
@@ -517,7 +516,6 @@ private fun ReaderToolbar(state: ReadingUiState, viewModel: ReadingViewModel, on
                 sliderWidth = if (LocalWindowWidth.current.isExpanded) 300.dp else 160.dp,
             )
         }
-        Spacer(Modifier.weight(1f))
     }
 }
 
@@ -547,6 +545,9 @@ private fun ReadingBody(
     /** Practising every word being learned in the book, with the kinds of question chosen. */
     onPracticeAll: (Set<ExerciseKind>) -> Unit,
     onSettings: () -> Unit,
+    /** Opening the reader's settings, from the floating button a wide window shows. */
+    onMenu: () -> Unit,
+    onCourses: () -> Unit,
     focusText: () -> Unit,
     /** Whether the term panel is open beside the text, which then leaves its scrollbar room on that side. */
 ) {
@@ -650,6 +651,7 @@ private fun ReadingBody(
             if (!focus) {
                 // A phone's bar already shows the title, and the text should start near the top.
                 if (!compact) {
+                    ReaderBreadcrumb(state, viewModel, onHome, onCourses)
                     Text(
                         state.book?.title.orEmpty(),
                         style = AppText.screenTitle.copy(color = theme.readingText, textDirection = if (state.language?.rightToLeft == true) TextDirection.Rtl else TextDirection.Ltr),
@@ -710,6 +712,16 @@ private fun ReadingBody(
         Spacer(Modifier.height(CONTROLS_ROOM))
     }
     EdgeScrollbar(scrollState)
+    if (!compact && !focus) {
+        val settingsDescription = tr("Reader settings")
+        Box(
+            Modifier.align(Alignment.BottomStart).padding(AppSpacing.xxl).size(PLAY_CONTROL_SIZE)
+                .shadow(AppElevation.raised, AppShapes.circle).clip(AppShapes.circle).background(MaterialTheme.colorScheme.primary)
+                .clickable(onClick = onMenu)
+                .semantics { contentDescription = settingsDescription },
+            contentAlignment = Alignment.Center,
+        ) { Icon(Icons.Default.Settings, contentDescription = null, tint = MaterialTheme.colorScheme.onPrimary, modifier = Modifier.size(AppSizes.iconLarge)) }
+    }
     if (state.settings.showSentencePlay && pageSentences.isNotEmpty()) {
         ContinuousControls(
             playing = continuous.active,
