@@ -195,7 +195,13 @@ without spaces between words (Chinese, Cantonese, Japanese, Thai, Lao, Khmer) ar
 rules deinflect to a word ("食べました" for "食べる"). `LexiconService` gives a language its
 lexicon before a page is parsed: the words and forms of its frequency list and every headword and
 form of its installed dictionary packs, made again when the installed packs change. Without a
-lexicon, each Chinese character is a word and a Thai, Lao or Khmer run stays whole. Any language
+lexicon, each Chinese character is a word and a Thai, Lao or Khmer run stays whole. Korean is
+space-delimited, but `KoreanParser` cuts the particles off a word (학교에서 is 학교 + 에서, 집에도 집 +
+에 + 도), each in the form the sound before it takes (이/가, 을/를, 으로/로), the copula after a noun too
+(학생이에요), when the word before them is in its lexicon; of the cuts and the word left whole the
+commonest by the lexicon's ranks wins, as `SegmentingParser` cuts Chinese, so a word of the frequency
+list stays whole (사과; 나가, a form of 나가다) and verbs keep their endings (먹었어요). Lookup finds a
+particle under the pack's suffix entry ("-에서"). Any language
 outside the catalog found in the database is removed on start together with its books and terms.
 
 ## Design system
@@ -752,6 +758,17 @@ as the app's parser cuts it, the longest the dictionary knows first; wordfreq's 
 already. Breton's words are grouped with its French pack's forms, which are far more than its
 English pack's. A language for which wordfreq keeps only its short list is blended with
 the other sources. Downloads are cached in `dictionaries/frequency-sources`.
+
+Korean is counted from whole words, FrequencyWords' and a Leipzig news corpus's blended (wordfreq
+counts Korean in morpheme pieces, which no reader shows), each cut by `korean_pieces`, a port of
+`KoreanParser` to keep in step with it. As the reader cuts by the ranks of the list it ships with, the
+list is built again from cuts made with the last one's ranks until they no longer change; the first
+cut keeps whole the words the counts say are a verb's form rather than a noun with a particle (가는
+of 가다, but 나는 is 나 + 는), and every word left whole that the reader could cut is listed among its
+word's forms, beyond the first 40, so the reader leaves it whole too. Particles are words of their own,
+the copula's forms (이에요, 예요, 입니다) are counted for 이다, and verb forms the pack lacks are grouped by
+Yomitan's Korean rules (`tools/korean_inflection.py`, read from the app's `KoTransforms.kt`).
+`KOREAN_WHOLE` and `KOREAN_CUT` in `tools/frequency_fixes.py` correct that first cut word by word.
 
 Forms are grouped under their dictionary words with the pack's forms table, then simplemma for
 forms the pack lacks. Both are noisy (pronoun tables list every pronoun as a form of the others,

@@ -126,8 +126,8 @@ German, Greek, Polish, Portuguese (Brazilian), Russian or Spanish.
 
 Right-to-left scripts (Arabic, Hebrew, Farsi, Yiddish, Assyrian) read right to left. Chinese,
 Cantonese, Japanese, Thai, Lao and Khmer, written without spaces, are cut into words with the
-language's dictionary and word list, as Yomitan does; Korean words are looked up without their
-particles and endings.
+language's dictionary and word list, as Yomitan does; Korean particles are cut off the word before
+them and read as words of their own (학교에서 is 학교 + 에서), and verbs are looked up without their endings.
 
 ## Books
 
