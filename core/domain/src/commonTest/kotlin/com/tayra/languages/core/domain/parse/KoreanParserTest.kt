@@ -30,7 +30,7 @@ class KoreanParserTest {
     /** Words a dictionary pack adds, without a rank. */
     private val packWords = listOf(
         "나는", "날다", "사", "집은", "집다", "개는", "아이가", "수도", "도와요", "나와요", "모였어요", "사장", "열한", "부당",
-        "여든", "차라", "아이들", "길이", "개이다", "다섯",
+        "여든", "차라", "아이들", "길이", "개이다", "다섯", "정도", "한다", "먹이면", "먹",
     )
 
     @BeforeTest
@@ -174,9 +174,25 @@ class KoreanParserTest {
     }
 
     @Test
-    fun theHonorificGoesWithTheWordBeforeTheParticle() {
-        assertEquals(listOf("사장님", "께"), words("사장님께"))
+    fun theHonorificIsCutOffAWordTheLexiconLacksWithIt() {
+        assertEquals(listOf("사장", "님", "께"), words("사장님께"))
+        assertEquals(listOf("사장", "님"), words("사장님"))
+        assertEquals(listOf("사장", "님", "이"), words("사장님이"))
+        // 선생님 is a word of the list.
         assertEquals(listOf("선생님", "께"), words("선생님께"))
+        assertEquals(listOf("선생님"), words("선생님"))
+    }
+
+    @Test
+    fun theCopulaInIfIsCutAfterANoun() {
+        assertEquals(listOf("이", "정도", "면"), words("이 정도면"))
+        assertEquals(listOf("학생", "이면"), words("학생이면"))
+        assertEquals(listOf("친구", "들", "이면"), words("친구들이면"))
+        // Not after a verb's stem or ending, which take 면 too, nor in a word of its own.
+        assertEquals(listOf("가면"), words("가면"))
+        assertEquals(listOf("한다면"), words("한다면"))
+        assertEquals(listOf("하자면"), words("하자면"))
+        assertEquals(listOf("먹이면"), words("먹이면"))
     }
 
     /** The dictionary's rare words give way to a word of the list and its particles (차라도, 아이들, 길이). */

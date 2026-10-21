@@ -10,9 +10,9 @@ import kotlin.math.ln
  * After a number (한 대가, 3개월에, 열한 시야) or a word of time (다음 주로), a word that is a counter with
  * particles is cut so: 대 + 가, not 대가 "price". A number written out stays whole (여든, not 여 + 든).
  *
- * A word is cut only after a word the lexicon knows, or such a word with the honorific 님 (사장님께). Of the
- * cuts and the word left whole, the one whose
- * pieces are together the most common wins, by the costs SegmentingParser gives Chinese words: a word the
+ * A word is cut only after a word the lexicon knows, or such a word with the honorific 님, which is cut off
+ * too when the lexicon lacks the two together (사장님께 is 사장 + 님 + 께; 선생님께 is 선생님 + 께). Of the cuts
+ * and the word left whole, the one whose pieces are together the most common wins, by the costs SegmentingParser gives Chinese words: a word the
  * frequency list has stays whole (사과; 나가, a form of 나가다). One only a dictionary has never stays
  * whole against a cut after a word of the list: the dictionary's forms tables are full of look-alikes
  * (집은 of 집다, 나는 of 날다), and the list has the words a reader meets.
@@ -35,11 +35,16 @@ class KoreanParser : SpaceDelimitedParser(), LexiconParser {
         var best: Double? = null
         var cut = listOf(word)
         var afterListed = false
-        for (end in word.length - 1 downTo 1) {
+        for (end in word.length downTo 1) {
             val stem = word.substring(0, end)
-            if (stem !in lexicon && !(stem.endsWith(HONORIFIC) && end > 1 && stem.dropLast(1) in lexicon)) continue
+            val head = when {
+                // A word with the honorific 님 the lexicon lacks is the word and 님 (사장님 is 사장 + 님).
+                stem !in lexicon -> if (stem.endsWith(HONORIFIC) && end > 1 && stem.dropLast(1) in lexicon) listOf(stem.dropLast(1), HONORIFIC) else continue
+                end == word.length -> continue
+                else -> listOf(stem)
+            }
             for (stack in stacks(word.substring(end), stem, lexicon)) {
-                val pieces = listOf(stem) + stack
+                val pieces = head + stack
                 val cost = pieces.sumOf { ln((lexicon.rank(it) ?: UNRANKED).toDouble()) + WORD_COST }
                 if (lexicon.rank(stem) != null) afterListed = true
                 if (best == null || cost < best) {
@@ -95,6 +100,7 @@ class KoreanParser : SpaceDelimitedParser(), LexiconParser {
             if (slot <= 1 && (pieces.isNotEmpty() || stem !in NOT_BEFORE_COPULA)) {
                 for ((form, sound) in COPULA) {
                     if (pieces.isEmpty() && verbInI && form.startsWith(COPULA_PAST)) continue
+                    if (form in COPULA_IF && lexicon != null && rest.endsWith(form) && ifIsNoCopula(stem + rest.dropLast(form.length), stem + rest, lexicon)) continue
                     if (rest.endsWith(form) && at + form.length == rest.length && follows(last, sound)) out += pieces + form
                 }
             }
@@ -112,6 +118,13 @@ class KoreanParser : SpaceDelimitedParser(), LexiconParser {
         go(0, stem.last(), -1, emptyList(), 0)
         return out
     }
+
+    /**
+     * Whether 면 "if it is" (정도면, 학생이면) is no copula after [before]: where the [word] whole is another
+     * (먹이면 of 먹이다), or after a verb's stem (받아들이면) or ending (한다면, 가려면, 아니라면, 하자면), which take 면 too.
+     */
+    private fun ifIsNoCopula(before: String, word: String, lexicon: Lexicon): Boolean =
+        word in lexicon || before + VERB_END in lexicon || (before.last() in NOT_BEFORE_IF && before.dropLast(1) + VERB_END in lexicon)
 
     /** Whether a particle that follows [sound] may come after the syllable [previous]. */
     private fun follows(previous: Char, sound: Sound): Boolean {
@@ -157,7 +170,12 @@ class KoreanParser : SpaceDelimitedParser(), LexiconParser {
         const val COPULA_STEM = "이다"
         const val COPULA_PAST = "였"
 
-        /** The honorific 님 after a word (사장님께 is 사장님 + 께 though the lexicon lacks 사장님). */
+        /** 면 "if it is", after a consonant 이면, and what comes before it in a verb's ending (한다면, 가려면, 아니라면, 하자면). */
+        val COPULA_IF = setOf("이면", "면")
+        val NOT_BEFORE_IF = setOf('다', '려', '라', '자')
+        const val VERB_END = "다"
+
+        /** The honorific 님 after a word (사장님께 is 사장 + 님 + 께 though the lexicon lacks 사장님). */
         const val HONORIFIC = "님"
 
         /** Number words before a counter (세 명, 열한 시, 여든 살), which stay whole: 여든 is no 여 + 든. */
@@ -215,15 +233,15 @@ class KoreanParser : SpaceDelimitedParser(), LexiconParser {
 
         /**
          * The copula 이다 after a noun (학생이에요, 의사예요), last in a stack and after no particle but those of
-         * place and manner (때문이에요, 뿐이에요). After a vowel its 이 may drop (의사였어요), not in the forms
-         * that would read as another word (다, 고, 면).
+         * place and manner (때문이에요, 뿐이에요). After a vowel its 이 may drop (의사였어요, 정도면), not in the forms
+         * that would read as another word (다, 고); 면 "if it is" only where [ifIsNoCopula] allows.
          */
         val COPULA: List<Pair<String, Sound>> = listOf(
             "이다", "입니다", "입니까", "이었다", "이었어", "이었어요", "이었습니다", "이었던", "이고", "이지만", "이라고", "이라서",
             "이라면", "이라는", "이란", "인데", "인데요", "인지", "인가", "인가요", "일까", "일까요", "이죠", "이지", "이지요", "이니까",
             "이네요", "이며", "인",
-        ).map { it to Sound.ANY } + listOf("이에요" to Sound.CONSONANT, "이야" to Sound.CONSONANT) + listOf(
-            "예요", "야", "였다", "였어", "였어요", "였습니다", "였던", "지만", "라고", "라서", "라면", "라는", "란", "죠", "니까", "네요",
+        ).map { it to Sound.ANY } + listOf("이에요" to Sound.CONSONANT, "이야" to Sound.CONSONANT, "이면" to Sound.CONSONANT) + listOf(
+            "예요", "야", "였다", "였어", "였어요", "였습니다", "였던", "지만", "라고", "라서", "라면", "라는", "란", "죠", "니까", "네요", "면",
         ).map { it to Sound.VOWEL }
     }
 }

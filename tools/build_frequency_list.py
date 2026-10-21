@@ -257,15 +257,18 @@ KOREAN_PARTICLES = [
     ("이", "C", 3), ("가", "V", 3), ("을", "C", 3), ("를", "V", 3), ("의", "", 3),
 ]
 # The copula 이다 after a noun (학생이에요, 의사예요), last in a stack and after no particle but those of
-# place and manner (때문이에요, 뿐이에요). After a vowel its 이 may drop (의사였어요), not in the forms
-# that would read as another word (다, 고, 면).
+# place and manner (때문이에요, 뿐이에요). After a vowel its 이 may drop (의사였어요, 정도면), not in the forms
+# that would read as another word (다, 고); 면 "if it is" only where the word whole is no other (KOREAN_COPULA_IF).
 KOREAN_COPULA = [(form, "") for form in (
     "이다", "입니다", "입니까", "이었다", "이었어", "이었어요", "이었습니다", "이었던", "이고", "이지만", "이라고", "이라서",
     "이라면", "이라는", "이란", "인데", "인데요", "인지", "인가", "인가요", "일까", "일까요", "이죠", "이지", "이지요", "이니까",
     "이네요", "이며", "인",
-)] + [("이에요", "C"), ("이야", "C")] + [(form, "V") for form in (
-    "예요", "야", "였다", "였어", "였어요", "였습니다", "였던", "지만", "라고", "라서", "라면", "라는", "란", "죠", "니까", "네요",
+)] + [("이에요", "C"), ("이야", "C"), ("이면", "C")] + [(form, "V") for form in (
+    "예요", "야", "였다", "였어", "였어요", "였습니다", "였던", "지만", "라고", "라서", "라면", "라는", "란", "죠", "니까", "네요", "면",
 )]
+KOREAN_COPULA_IF = {"이면", "면"}
+KOREAN_COPULA_VOWEL_IF = "면"
+KOREAN_NOT_BEFORE_IF = set("다려라자")
 # The polite 요, after a particle only (학교에서요): after a verb it is part of the verb (먹었어요). Nor does
 # it follow 와 or 과, which are of writing: 도와요 and 나와요 are forms of 돕다 and 나오다.
 KOREAN_POLITE = "요"
@@ -310,6 +313,12 @@ def korean_stacks(rest, stem, known=None):
         if slot <= 1 and (pieces or stem not in KOREAN_NOT_BEFORE_COPULA):
             for form, sound in KOREAN_COPULA:
                 if not pieces and verb_in_i and form.startswith(KOREAN_COPULA_PAST):
+                    continue
+                # 면 "if it is" (정도면, 학생이면) only where the word whole is no other (먹이면 of 먹이다), nor after a
+                # verb's stem (받아들이면) or ending (한다면, 가려면, 아니라면, 하자면), which take 면 too.
+                before = stem + rest[:len(rest) - len(form)]
+                if form in KOREAN_COPULA_IF and known is not None and rest.endswith(form) and (
+                        known(stem + rest) or known(before + "다") or before[-1] in KOREAN_NOT_BEFORE_IF and known(before[:-1] + "다")):
                     continue
                 if rest.endswith(form) and at + len(form) == len(rest) and korean_follows(last, sound):
                     out.append(pieces + [form])
@@ -451,7 +460,7 @@ def korean_fused(word, senses):
 # The particles the list counts as words of their own, the dictionary having them only as affixes
 # ("-에서"); the copula's forms are counted for 이다. 하고 "with" is a form of 하다 too, which it goes to.
 KOREAN_OWN = {form for form, _, _ in KOREAN_PARTICLES} - {"하고"} | {KOREAN_POLITE}
-KOREAN_COPULA_FORMS = {form for form, _ in KOREAN_COPULA}
+KOREAN_COPULA_FORMS = {form for form, _ in KOREAN_COPULA} - {KOREAN_COPULA_VOWEL_IF}
 
 _korean_inflections = {}
 
@@ -480,16 +489,22 @@ def korean_pieces(word, known, rank):
         return [word]
     best, cut = None, [word]
     after_listed = False
-    for end in range(len(word) - 1, 0, -1):
+    for end in range(len(word), 0, -1):
         stem = word[:end]
-        if not known(stem) and not (stem.endswith(KOREAN_HONORIFIC) and end > 1 and known(stem[:-1])):
+        head = [stem]
+        if not known(stem):
+            # A word with the honorific 님 the lexicon lacks is the word and 님 (사장님 is 사장 + 님, 사장님께 사장 + 님 + 께).
+            if not (stem.endswith(KOREAN_HONORIFIC) and end > 1 and known(stem[:-1])):
+                continue
+            head = [stem[:-1], KOREAN_HONORIFIC]
+        elif end == len(word):
             continue
         for stack in korean_stacks(word[end:], stem, known):
-            cost = sum(math.log(rank(piece) or KOREAN_UNRANKED) + KOREAN_WORD_COST for piece in [stem] + stack)
+            cost = sum(math.log(rank(piece) or KOREAN_UNRANKED) + KOREAN_WORD_COST for piece in head + stack)
             if rank(stem):
                 after_listed = True
             if best is None or cost < best:
-                best, cut = cost, [stem] + stack
+                best, cut = cost, head + stack
     if best is None:
         return [word]
     whole = rank(word) or (KOREAN_UNRANKED if known(word) and not after_listed else None)
@@ -1062,6 +1077,10 @@ def build_korean(found, size):
                     cuts[run] = cut
                     for piece in cut:
                         out[piece] += count
+                    # The copula's 면 after a vowel (정도면) counts as 이면, for 이다; a 면 alone is the noun.
+                    if len(cut) > 1 and cut[-1] == KOREAN_COPULA_VOWEL_IF:
+                        out[KOREAN_COPULA_VOWEL_IF] -= count
+                        out["이" + KOREAN_COPULA_VOWEL_IF] += count
             pieces.append((name, dict(out), source_label))
         print(f"ko round {round_}: {changed / len(found):.2%} of words cut otherwise", file=sys.stderr)
         if round_ and changed / len(found) < 0.0005 or round_ == KOREAN_ROUNDS:
@@ -1363,6 +1382,9 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None):
             # A kanji spelling reached through a kana word read alike (枯れる through かれる to 狩る, 湧く through
             # わく to 分ける) is another word: a kanji word's forms share a kanji with it.
             counted = [f for f in counted if not any(is_cjk(c) and not is_kana(c) for c in f) or set(f) & set(word)]
+        if word == "이다" and language == "ko":
+            # The reader reads the copula's 면 (정도 + 면) as 이다's, which the list counts as 이면.
+            counted.append(KOREAN_COPULA_VOWEL_IF)
         if language == "sr":
             # The counts are of Latin-script text; Serbian is read in Cyrillic too.
             counted = list(dict.fromkeys(counted + [to_serbian_cyrillic(f) for f in counted]))
