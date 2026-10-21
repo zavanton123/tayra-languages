@@ -91,6 +91,7 @@ import com.tayra.languages.core.domain.dictionary.DictionaryLookup
 import com.tayra.languages.core.domain.dictionary.KanjiInfo
 import com.tayra.languages.core.domain.dictionary.PackState
 import com.tayra.languages.core.domain.dictionary.PackStatus
+import com.tayra.languages.core.domain.dictionary.WiktionaryPage
 import com.tayra.languages.core.domain.dictionary.WordFrequency
 import com.tayra.languages.core.domain.flashcards.CardState
 import com.tayra.languages.core.domain.language.LanguageCatalog
@@ -233,11 +234,22 @@ private fun TermFormContent(
         } ?: ErrorMessage(state.error)
 
         val pack = state.dictionaryPack
+        val online = state.wiktionary
         val dictionaryBlock: @Composable () -> Unit = {
+            val code = language?.let { LanguageCodes.codeFor(it.name) }
             when {
                 empty -> Unit
-                !state.dictionary.isEmpty -> DictionarySection(state.dictionary, language?.let { LanguageCodes.codeFor(it.name) }, toneColors = state.toneColors, zhuyin = state.zhuyin, onAdd = viewModel::addGloss)
-                pack != null && pack.state !is PackState.Installed -> DictionaryDownloadCard(pack, state.pairDictionary, draft.text.trim(), onDownload = viewModel::downloadDictionary)
+                !state.dictionary.isEmpty -> DictionarySection(state.dictionary, code, toneColors = state.toneColors, zhuyin = state.zhuyin, onAdd = viewModel::addGloss)
+                else -> {
+                    // Without an installed pack Wiktionary's meanings stand in, beside the offer to download one.
+                    if (pack?.state !is PackState.Installed && !online.dictionary.isEmpty) {
+                        DictionarySection(online.dictionary, code, toneColors = state.toneColors, zhuyin = state.zhuyin, onAdd = viewModel::addGloss, credit = online.page?.let { it to language?.name })
+                    }
+                    if (pack != null && pack.state !is PackState.Installed) DictionaryDownloadCard(pack, state.pairDictionary, draft.text.trim(), onDownload = viewModel::downloadDictionary)
+                }
+            }
+            if (!empty && !online.isEmpty) {
+                WiktionarySection(online, draft.text, language?.name, onOpenWord = viewModel::openWord, onToggleTable = viewModel::toggleTable, onToggleExpressions = viewModel::toggleExpressions)
             }
             if (!empty && state.notes.isNotEmpty()) NotesSection(state.notes)
             // The pane plays a recording from the word's own speaker; the full list is left to the editor page.
@@ -659,7 +671,7 @@ private fun PanelHeader(onClose: (() -> Unit)?) {
  * neutral variant; [filled] false leaves the card white with only a border.
  */
 @Composable
-private fun SectionCard(
+internal fun SectionCard(
     icon: @Composable () -> Unit,
     title: String?,
     count: Int? = null,
@@ -696,7 +708,7 @@ private fun SectionCard(
 private fun DictionaryBadge() = BadgeIcon(AppIcons.BookClosed)
 
 @Composable
-private fun BadgeIcon(icon: androidx.compose.ui.graphics.vector.ImageVector) {
+internal fun BadgeIcon(icon: androidx.compose.ui.graphics.vector.ImageVector) {
     Icon(icon, contentDescription = null, tint = MaterialTheme.colorScheme.primary, modifier = Modifier.size(AppSizes.iconMedium))
 }
 
@@ -712,7 +724,7 @@ private fun SectionTitle(icon: androidx.compose.ui.graphics.vector.ImageVector, 
 }
 
 /** True on the editor page, whose cards have the page's larger headers; the reader's pane keeps them small. */
-private val LocalPageSections = staticCompositionLocalOf { false }
+internal val LocalPageSections = staticCompositionLocalOf { false }
 
 @Composable
 private fun sectionPadding() = if (LocalPageSections.current) AppSpacing.xl else AppSpacing.l
@@ -848,9 +860,17 @@ internal fun FrequencyLabels(frequencies: List<WordFrequency>) {
 /** Parts of speech whose downstep moves as they inflect, so Japanese calls their accented pattern kifuku. */
 private val VERB_OR_ADJECTIVE = setOf("verb", "adj")
 
-/** Meanings from the offline dictionary; the speaker reads a headword aloud, the plus adds a meaning to the translation. */
+/** Meanings from the offline dictionary, or Wiktionary's online; the speaker reads a headword aloud, the plus adds a meaning to the translation. */
 @Composable
-private fun DictionarySection(lookup: DictionaryLookup, languageCode: String?, toneColors: Boolean = false, zhuyin: Boolean = false, onAdd: (String) -> Unit) {
+internal fun DictionarySection(
+    lookup: DictionaryLookup,
+    languageCode: String?,
+    toneColors: Boolean = false,
+    zhuyin: Boolean = false,
+    onAdd: (String) -> Unit,
+    /** The Wiktionary page the entries come from, with the language's English name, when they come from it online. */
+    credit: Pair<WiktionaryPage, String?>? = null,
+) {
     val colors = MaterialTheme.colorScheme
     val speaker = rememberSpeaker(koinInject(), koinInject())
     SectionCard({ DictionaryBadge() }, tr("Dictionary"), count = lookup.entries.size, tint = null, filled = false) {
@@ -913,6 +933,7 @@ private fun DictionarySection(lookup: DictionaryLookup, languageCode: String?, t
                 }
             }
         }
+        credit?.let { (page, languageName) -> WiktionaryCredit(page, languageName) }
     }
 }
 

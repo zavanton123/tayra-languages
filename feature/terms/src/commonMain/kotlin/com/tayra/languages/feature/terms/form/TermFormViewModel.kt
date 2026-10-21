@@ -11,7 +11,14 @@ import com.tayra.languages.core.domain.dictionary.PackStatus
 import com.tayra.languages.core.domain.service.DictionaryService
 import com.tayra.languages.core.domain.dictionary.DictionaryId
 import com.tayra.languages.core.domain.dictionary.DictionaryLookup
+import com.tayra.languages.core.domain.dictionary.InflectionTable
+import com.tayra.languages.core.domain.dictionary.InflectionTables
 import com.tayra.languages.core.domain.dictionary.KanjiInfo
+import com.tayra.languages.core.domain.dictionary.OnlineWiktionary
+import com.tayra.languages.core.domain.dictionary.WiktionaryCodes
+import com.tayra.languages.core.domain.dictionary.WiktionaryPage
+import com.tayra.languages.core.domain.dictionary.expressionsOf
+import com.tayra.languages.core.domain.dictionary.parentSuggestion
 import com.tayra.languages.core.domain.service.WordRecordings
 import com.tayra.languages.core.domain.service.WordRecording
 import com.tayra.languages.core.domain.dictionary.OfflineDictionary
@@ -106,10 +113,32 @@ data class TermFormUiState(
     val flashcard: Flashcard? = null,
     /** Whether this form can show and change the term's flashcard. */
     val flashcardsShown: Boolean = false,
+    /** What Wiktionary has on the term online. */
+    val wiktionary: WiktionaryUi = WiktionaryUi(),
 ) {
     val language: Language? get() = languages.firstOrNull { it.id == draft.languageId }
     val isNew: Boolean get() = draft.isNew
     val showLanguageSelector: Boolean get() = draft.languageId == 0L
+}
+
+/**
+ * The term's Wiktionary page, null until it came or when Wiktionary has none, with the parts of it
+ * the pane opens on demand: the inflection table of [tableWord] (the term, or the lemma it is a form
+ * of) and the expressions made with it. A list still null has not been asked for; empty is a miss.
+ */
+data class WiktionaryUi(
+    val page: WiktionaryPage? = null,
+    /** The page as dictionary entries, shown when no offline dictionary of the pair answers. */
+    val dictionary: DictionaryLookup = DictionaryLookup.EMPTY,
+    val tableWord: String? = null,
+    val tables: List<InflectionTable>? = null,
+    val tableOpen: Boolean = false,
+    val tablesLoading: Boolean = false,
+    val expressions: List<String>? = null,
+    val expressionsOpen: Boolean = false,
+    val expressionsLoading: Boolean = false,
+) {
+    val isEmpty: Boolean get() = page == null && tableWord == null
 }
 
 sealed interface TermFormEvent {
@@ -124,6 +153,8 @@ sealed interface TermFormEvent {
 
 private const val AUTOSAVE_DELAY_MS = 700L
 private const val LOOKUP_DELAY_MS = 400L
+/** Words clicked through quickly are not asked about online; only the one left open is. */
+private const val WIKTIONARY_DELAY_MS = 300L
 
 class TermFormViewModel(
     private val key: TermFormKey,
@@ -141,6 +172,8 @@ class TermFormViewModel(
     private val flashcards: FlashcardService? = null,
     /** People's recordings of the term, played instead of the speech engine when there are some. */
     private val recordings: WordRecordings? = null,
+    /** Wiktionary online: the term's forms, synonyms, pronunciations and, without an offline dictionary, its meanings. */
+    private val wiktionary: OnlineWiktionary? = null,
 ) : ViewModel() {
 
     private val _state = MutableStateFlow(TermFormUiState())
@@ -203,7 +236,7 @@ class TermFormViewModel(
             it.copy(
                 draft = draft, dirty = false, saved = false, error = null, duplicateOf = null, createdAt = null, references = null,
                 translationSuggested = false, lookingUpTranslation = false, dictionary = DictionaryLookup.EMPTY, kanji = emptyList(), recordings = emptyList(), notes = emptyList(),
-                examples = emptyList(), examplesTotal = null, loadingExamples = false,
+                examples = emptyList(), examplesTotal = null, loadingExamples = false, wiktionary = WiktionaryUi(),
             )
         }
         entryJob = viewModelScope.launch {
@@ -227,6 +260,7 @@ class TermFormViewModel(
             }
             // A new inflected form is linked to its lemma so the family shares one status.
             lookup.parentSuggestion?.let { if (untouched) linkParent(it) }
+            launch { loadWiktionary(draft.text, lookup, language, linkParent.takeIf { untouched && lookup.isEmpty }) }
             launch { loadRecordings(draft.text, lookup, language) }
             loadExamples(draft.text, language)
         }
@@ -358,8 +392,69 @@ class TermFormViewModel(
             // An inflected form is rarely recorded; its dictionary form often is.
             lookup.lemmas.firstOrNull()?.let { source.of(it, code) }.orEmpty()
         }
-        if (_state.value.draft.text == text) _state.update { it.copy(recordings = found) }
+        if (_state.value.draft.text == text) _state.update { it.copy(recordings = withRecordings(found, it.recordings)) }
     }
+
+    /**
+     * Asks Wiktionary about the term once it has stayed open a moment: its page gives the form-of
+     * line, synonyms, pronunciations, recordings and the table of a lemma. [linkParent] is given only
+     * when the offline dictionary had nothing, so the online lemma never overrides an offline answer.
+     */
+    private suspend fun loadWiktionary(text: String, offline: DictionaryLookup, language: Language?, linkParent: ((String) -> Unit)?) {
+        val source = wiktionary ?: return
+        val code = language?.let { LanguageCodes.codeFor(it.name) } ?: return
+        val word = text.replace(ZWS_STRING, "").trim()
+        if (word.isEmpty()) return
+        delay(WIKTIONARY_DELAY_MS)
+        val page = source.page(word, code, nativeLanguage())
+        if (_state.value.draft.text != text) return
+        val tables = page?.let { InflectionTables.tables(it) }.orEmpty()
+        // A form's table is its lemma's, fetched when the table is opened.
+        val lemma = _state.value.draft.parents.singleOrNull() ?: parentSuggestion(offline, page) ?: offline.lemmas.firstOrNull() ?: page?.lemmas?.firstOrNull()
+        _state.update {
+            it.copy(
+                wiktionary = WiktionaryUi(page, page?.toLookup() ?: DictionaryLookup.EMPTY, tableWord = if (tables.isNotEmpty()) page?.word else lemma, tables = tables.ifEmpty { null }),
+                recordings = withRecordings(it.recordings, page?.let(::recordingsOf).orEmpty()),
+            )
+        }
+        if (linkParent != null && _state.value.draft.parents.isEmpty()) page?.parentSuggestion?.let(linkParent)
+    }
+
+    /** Opens or closes the inflection table; the lemma's forms are asked for the first time it opens. */
+    fun toggleTable() {
+        val current = _state.value.wiktionary
+        _state.update { it.copy(wiktionary = it.wiktionary.copy(tableOpen = !current.tableOpen)) }
+        val word = current.tableWord ?: return
+        if (current.tableOpen || current.tables != null || current.tablesLoading) return
+        val source = wiktionary ?: return
+        val code = _state.value.language?.let { LanguageCodes.codeFor(it.name) } ?: return
+        _state.update { it.copy(wiktionary = it.wiktionary.copy(tablesLoading = true)) }
+        viewModelScope.launch {
+            val editions = (listOfNotNull(current.page?.edition) + WiktionaryCodes.editionsFor(nativeLanguage())).distinct()
+            val tables = editions.firstNotNullOfOrNull { edition ->
+                source.forms(word, code, edition).map { InflectionTables.table(it.pos, it.forms) }.filter { !it.isEmpty }.ifEmpty { null }
+            }.orEmpty()
+            _state.update { if (it.wiktionary.tableWord == word) it.copy(wiktionary = it.wiktionary.copy(tables = tables, tablesLoading = false)) else it }
+        }
+    }
+
+    /** Opens or closes the expressions made with the term's lemma, searched for the first time it opens. */
+    fun toggleExpressions() {
+        val current = _state.value.wiktionary
+        _state.update { it.copy(wiktionary = it.wiktionary.copy(expressionsOpen = !current.expressionsOpen)) }
+        if (current.expressionsOpen || current.expressions != null || current.expressionsLoading) return
+        val source = wiktionary ?: return
+        val code = _state.value.language?.let { LanguageCodes.codeFor(it.name) } ?: return
+        val lemma = current.tableWord ?: current.page?.word ?: return
+        _state.update { it.copy(wiktionary = it.wiktionary.copy(expressionsLoading = true)) }
+        viewModelScope.launch {
+            val edition = current.page?.edition ?: WiktionaryCodes.editionsFor(nativeLanguage()).first()
+            val found = expressionsOf(source.search(lemma, code, edition), lemma).take(MAX_EXPRESSIONS)
+            _state.update { if (it.wiktionary.page == current.page) it.copy(wiktionary = it.wiktionary.copy(expressions = found, expressionsLoading = false)) else it }
+        }
+    }
+
+    private fun nativeLanguage(): String = settings.current.nativeLanguage.ifBlank { "en" }
 
     private suspend fun loadExamples(text: String, language: Language?) {
         if (language == null || text.isBlank()) return
@@ -392,7 +487,12 @@ class TermFormViewModel(
     }
 
     /** A click on a word of an example, or a phrase dragged over in one: the form moves on to it. */
-    fun openExampleTerm(text: String, sentence: String) {
+    fun openExampleTerm(text: String, sentence: String) = openTerm(text, sentence)
+
+    /** A lemma, synonym or expression Wiktionary names: the form moves on to it. */
+    fun openWord(text: String) = openTerm(text, null)
+
+    private fun openTerm(text: String, sentence: String?) {
         val languageId = _state.value.draft.languageId
         if (languageId == 0L || text.isBlank()) return
         viewModelScope.launch {
@@ -451,6 +551,7 @@ class TermFormViewModel(
                 draft = emptyDraft(it.draft.languageId).copy(text = text), dirty = false, saved = false, error = null, duplicateOf = null,
                 createdAt = null, references = null, translationSuggested = false, lookingUpTranslation = false,
                 dictionary = DictionaryLookup.EMPTY, kanji = emptyList(), recordings = emptyList(), notes = emptyList(), examples = emptyList(), examplesTotal = null, loadingExamples = false,
+                wiktionary = WiktionaryUi(),
             )
         }
         scheduleLookup(text)
@@ -660,3 +761,23 @@ class TermFormViewModel(
         }
     }
 }
+
+private const val MAX_EXPRESSIONS = 20
+
+/** The recordings Wiktionary's page links, each named by its speaker where Lingua Libre's file name gives one, and by its region. */
+internal fun recordingsOf(page: WiktionaryPage): List<WordRecording> = page.audio.mapNotNull { audio ->
+    val url = audio.mp3Url ?: audio.oggUrl ?: return@mapNotNull null
+    val speaker = LINGUA_LIBRE_FILE.find(audio.file)?.groupValues?.get(1)
+    val region = audio.tags.joinToString(", ").ifEmpty { null }
+    val name = when {
+        speaker != null && region != null -> "$speaker ($region)"
+        else -> speaker ?: region ?: audio.file
+    }
+    WordRecording(page.word, url, name, "Wiktionary", audio.pageUrl)
+}
+
+/** [first] then the recordings of [second] it lacks, a file being the same one whichever search found it. */
+internal fun withRecordings(first: List<WordRecording>, second: List<WordRecording>): List<WordRecording> =
+    (first + second).distinctBy { recording -> recording.pageUrl.substringAfter("File:", "").replace(' ', '_').lowercase().ifEmpty { recording.url } }
+
+private val LINGUA_LIBRE_FILE = Regex("""^LL-Q\d+ \([^)]*\)-(.+?)-""")

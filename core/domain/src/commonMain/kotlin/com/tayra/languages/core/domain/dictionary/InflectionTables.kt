@@ -20,6 +20,9 @@ object InflectionTables {
     /** Rows of WiktApi's forms that are notes about the table rather than forms. */
     private val pseudoTags = setOf("table-tags", "inflection-template", "romanization", "canonical", "class")
 
+    /** Words a head line names beside the forms: other spellings, diminutives, related words. */
+    private val otherWordTags = setOf("alternative", "diminutive", "augmentative", "relational", "abbreviation", "misspelling")
+
     /** Tags that only say how a row was read, not which form it is. */
     private val noiseTags = setOf("error-unrecognized-form")
 
@@ -42,9 +45,9 @@ object InflectionTables {
         "masculine", "feminine", "neuter", "animate", "inanimate",
     )
 
-    /** The forms that are forms: notes about the table left out, and spellings that are only a dash. */
+    /** The forms that are forms: notes about the table, other words and spellings that are only a dash left out. */
     fun realForms(forms: List<WiktionaryForm>): List<WiktionaryForm> = forms
-        .filter { form -> form.tags.none { it in pseudoTags } && form.form.isNotBlank() && form.form.any { it.isLetter() } }
+        .filter { form -> form.tags.none { it in pseudoTags || it in otherWordTags } && form.form.any { it.isLetter() } }
         .map { form -> if (form.tags.any { it in noiseTags }) form.copy(tags = form.tags.filter { it !in noiseTags }) else form }
 
     /** The table of one part of speech's forms; the table rows win over the head line's when there are both. */
