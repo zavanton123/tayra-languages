@@ -750,6 +750,9 @@ def turkish_base(word, ranks):
         base = word[:match.start()]
         if base in ranks:
             return base
+        # The y may be the word's own last letter rather than the buffer (kaykaydı is kaykay + dı).
+        if word[match.start()] == "y" and base + "y" in ranks:
+            return base + "y"
         word = base
     # The longest list noun the rest of the word is a plural, possessive and case ending of (omuzdaki is
     # omuz + daki, not o + muzdaki); a two-letter noun (el, ev, su) only with an ending of three letters or more.
