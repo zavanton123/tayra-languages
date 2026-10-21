@@ -1,0 +1,101 @@
+# id	rankUpTo	level	topic (English)	title (Korean)
+ko-mini-0100	100	A1	Home and family	가족과 집
+ko-mini-0200	200	A1	Everyday life	평범한 하루
+ko-mini-0300	300	A1	Food and shopping	음식과 장보기
+ko-mini-0400	400	A2	In the city	동네에서
+ko-mini-0500	500	A2	School and work	학교와 회사
+ko-mini-0600	600	A2	Free time and hobbies	여가와 취미
+ko-mini-0700	700	A2	Health and the body	건강과 몸
+ko-mini-0800	800	A2	Travel and holidays	여행과 휴가
+ko-mini-0900	900	A2	Nature and the seasons	자연과 계절
+ko-mini-1000	1000	A2	Celebrations and friends	명절과 친구
+ko-mini-1100	1100	B1	Living and housing	살 집 구하기
+ko-mini-1200	1200	B1	Memories	추억
+ko-mini-1300	1300	B1	Jobs and training	직업과 배움
+ko-mini-1400	1400	B1	Getting around	길 찾기
+ko-mini-1500	1500	B1	Money and shopping	돈과 쇼핑
+ko-mini-1600	1600	B1	Experiencing culture	문화생활
+ko-mini-1700	1700	B1	Sport and exercise	스포츠와 운동
+ko-mini-1800	1800	B1	The environment in daily life	생활 속의 환경
+ko-mini-1900	1900	B1	Letters, messages and media	편지, 메시지, 미디어
+ko-mini-2000	2000	B1	Neighbourhood	우리 동네
+ko-mini-2100	2100	B2	Cooking and food	요리와 맛
+ko-mini-2200	2200	B2	Body and mind	몸과 마음
+ko-mini-2300	2300	B2	The world of work	일의 세계
+ko-mini-2400	2400	B2	Science and technology	과학과 기술
+ko-mini-2500	2500	B2	History you can touch	가까이 있는 역사
+ko-mini-2600	2600	B2	Travelling in Korea	한국 여행
+ko-mini-2700	2700	B2	Generations	세대
+ko-mini-2800	2800	B2	Music	음악
+ko-mini-2900	2900	B2	Society and living together	더불어 사는 사회
+ko-mini-3000	3000	B2	Small columns	짧은 칼럼
+ko-mini-3100	3100	B2	Home and decoration	집과 인테리어
+ko-mini-3200	3200	B2	Fashion and clothes	패션과 옷
+ko-mini-3300	3300	B2	The great outdoors	야외에서
+ko-mini-3400	3400	B2	Traditional crafts	전통 공예
+ko-mini-3500	3500	B2	Technology and society	기술과 사회
+ko-mini-3600	3600	B2	The sea and the coast	바다와 해안
+ko-mini-3700	3700	B2	Books and language	책과 언어
+ko-mini-3800	3800	B2	Everyday economics	생활 속의 경제
+ko-mini-3900	3900	B2	Country life	시골 생활
+ko-mini-4000	4000	B2	City life columns	도시 생활 칼럼
+ko-mini-4100	4100	C1	Body and mind in daily life	일상 속의 몸과 마음
+ko-mini-4200	4200	C1	Architecture and heritage	건축과 문화유산
+ko-mini-4300	4300	C1	Climate and energy	기후와 에너지
+ko-mini-4400	4400	C1	Everyday law and rights	생활 속의 법과 권리
+ko-mini-4500	4500	C1	Film and television	영화와 텔레비전
+ko-mini-4600	4600	C1	Research and discovery	연구와 발견
+ko-mini-4700	4700	C1	Living between countries	두 나라 사이의 삶
+ko-mini-4800	4800	C1	The mind in daily life	일상 속의 심리
+ko-mini-4900	4900	C1	Sport and society	스포츠와 사회
+ko-mini-5000	5000	C1	Short essays	짧은 에세이
+ko-mini-5100	5100	C1	History	역사의 한 장면
+ko-mini-5200	5200	C1	The science of cooking	부엌의 과학
+ko-mini-5300	5300	C1	Landscapes	풍경
+ko-mini-5400	5400	C1	Caring for others	남을 돌보는 일
+ko-mini-5500	5500	C1	Visual arts	미술
+ko-mini-5600	5600	C1	Journalism and media	언론과 미디어
+ko-mini-5700	5700	C1	Transport and mobility	교통과 이동
+ko-mini-5800	5800	C1	The Korean language	한국어
+ko-mini-5900	5900	C1	Starting a business	내 사업 시작하기
+ko-mini-6000	6000	C1	Memoirs	회고록
+ko-mini-6100	6100	C1	The universe and the stars	우주와 별
+ko-mini-6200	6200	C1	Mining and natural resources	광업과 천연자원
+ko-mini-6300	6300	C1	Food and health	음식과 건강
+ko-mini-6400	6400	C1	Theatre, circus and stage	연극, 서커스, 무대
+ko-mini-6500	6500	C1	Engineering	공학
+ko-mini-6600	6600	C1	Farm to table	밭에서 식탁까지
+ko-mini-6700	6700	C1	Languages and cultures of Korea and its neighbours	한국과 이웃 나라의 언어와 문화
+ko-mini-6800	6800	C1	Korean literature	한국 문학
+ko-mini-6900	6900	C1	Numbers and reasoning	숫자와 생각
+ko-mini-7000	7000	C1	Travel columns	여행 칼럼
+ko-mini-7100	7100	C1	Public health	공중 보건
+ko-mini-7200	7200	C1	Everyday philosophy	일상 속의 철학
+ko-mini-7300	7300	C1	Festivals and faith	축제와 신앙
+ko-mini-7400	7400	C1	Animal behaviour	동물의 행동
+ko-mini-7500	7500	C1	Work and the labour market	일과 노동 시장
+ko-mini-7600	7600	C1	Cities of the world	세계의 도시
+ko-mini-7700	7700	C1	Inventions and inventors	발명과 발명가
+ko-mini-7800	7800	C1	State and citizens	국가와 시민
+ko-mini-7900	7900	C1	Mountains and winter sport	산과 겨울 스포츠
+ko-mini-8000	8000	C1	Family columns	가족 칼럼
+ko-mini-8100	8100	C2	The human body	인간의 몸
+ko-mini-8200	8200	C2	Prevention and resilience	예방과 회복력
+ko-mini-8300	8300	C2	Design and craft	디자인과 솜씨
+ko-mini-8400	8400	C2	Emotions and relationships	감정과 관계
+ko-mini-8500	8500	C2	World history	세계사의 장면들
+ko-mini-8600	8600	C2	The forest	숲
+ko-mini-8700	8700	C2	Advertising and communication	광고와 소통
+ko-mini-8800	8800	C2	Food culture in Korea	한국의 음식 문화
+ko-mini-8900	8900	C2	Classical music	클래식 음악
+ko-mini-9000	9000	C2	Essays on time	시간에 대한 에세이
+ko-mini-9100	9100	C2	Chemistry and materials	화학과 재료
+ko-mini-9200	9200	C2	Maps and finding the way	지도와 길 찾기
+ko-mini-9300	9300	C2	Tales and legends	옛이야기와 전설
+ko-mini-9400	9400	C2	Rare professions	드문 직업
+ko-mini-9500	9500	C2	Urban planning	도시 계획
+ko-mini-9600	9600	C2	Everyday physics	생활 속의 물리학
+ko-mini-9700	9700	C2	Gardens and botany	정원과 식물학
+ko-mini-9800	9800	C2	Folk art and customs	민속 예술과 풍습
+ko-mini-9900	9900	C2	Ethics and living together	윤리와 함께 사는 삶
+ko-mini-10000	10000	C2	Learning and language	마지막 에세이: 배우고 말하기
