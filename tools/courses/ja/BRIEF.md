@@ -146,8 +146,9 @@ Run it with the Python that has MeCab:
   list has some odd entries. Check a word's rank in `wordlist.tsv` or the band files rather than
   guess it. A word may be listed in kana with its kanji spelling among its forms, or the other way
   round: write it as Japanese normally writes it, and put the band file's third column in newWords.
-- The list has no names: people (田中, さくら, ケンさん), places other than the commonest (日本 and
-  most cities are not in the list), shops and brands go in `names`, written exactly as in the text.
+- The list has no names except 日本 (and the words built on it, 日本人, 日本語) and a few the list ranks
+  as common words (東京, 中国): people (田中, さくら, ケンさん), other places, shops and brands go in
+  `names`, written exactly as in the text. Check a place in `wordlist.tsv` before listing it.
   A name listed whole is matched whole wherever it is written, so never list a name that contains a
   band word you teach, and never teach a band word only through a name. Keep only true names in
   `names`, never common words. さん, ちゃん, 様 and 君 after a name count with the name, so list
