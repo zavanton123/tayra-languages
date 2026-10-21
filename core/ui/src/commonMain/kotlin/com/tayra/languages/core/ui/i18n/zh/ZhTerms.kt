@@ -296,6 +296,14 @@ internal val zhTerms: Map<String, String> = mapOf(
     "Has audio" to "有音频",
     "Reset filters" to "重置筛选条件",
     "Text settings" to "文本设置",
+    "Source" to "来源",
+    "Try Leipzig Corpora" to "试试 Leipzig Corpora",
+    "Open the Leipzig Corpora Collection" to "打开 Leipzig Corpora Collection",
+    "This source finds single words only, in the exact form typed." to "此来源只能搜索单个词，且须与输入的形式完全一致。",
+    "Often found with" to "常见搭配",
+    "About {0} sentences in the corpus" to "语料库中约有 {0} 个句子",
+    "Machine translation" to "机器翻译",
+    "Open the article" to "打开原文",
 
     // ExamplesSearchViewModel.kt
     "Language not found" to "未找到该语言",

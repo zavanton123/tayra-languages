@@ -296,6 +296,14 @@ internal val ruTerms: Map<String, String> = mapOf(
     "Has audio" to "Есть аудио",
     "Reset filters" to "Сбросить фильтры",
     "Text settings" to "Настройки текста",
+    "Source" to "Источник",
+    "Try Leipzig Corpora" to "Искать в Leipzig Corpora",
+    "Open the Leipzig Corpora Collection" to "Открыть Leipzig Corpora Collection",
+    "This source finds single words only, in the exact form typed." to "Этот источник ищет только отдельные слова и только в точно введённой форме.",
+    "Often found with" to "Часто встречается с",
+    "About {0} sentences in the corpus" to "Около {0} предложения в корпусе|Около {0} предложений в корпусе|Около {0} предложений в корпусе",
+    "Machine translation" to "Машинный перевод",
+    "Open the article" to "Открыть статью",
 
     // ExamplesSearchViewModel.kt
     "Language not found" to "Язык не найден",

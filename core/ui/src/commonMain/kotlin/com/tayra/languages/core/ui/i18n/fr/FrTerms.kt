@@ -296,6 +296,14 @@ internal val frTerms: Map<String, String> = mapOf(
     "Has audio" to "Avec audio",
     "Reset filters" to "Réinitialiser les filtres",
     "Text settings" to "Paramètres du texte",
+    "Source" to "Source",
+    "Try Leipzig Corpora" to "Essayer Leipzig Corpora",
+    "Open the Leipzig Corpora Collection" to "Ouvrir la Leipzig Corpora Collection",
+    "This source finds single words only, in the exact form typed." to "Cette source ne trouve que des mots isolés, sous la forme exacte saisie.",
+    "Often found with" to "Souvent employé avec",
+    "About {0} sentences in the corpus" to "Environ {0} phrase dans le corpus|Environ {0} phrases dans le corpus",
+    "Machine translation" to "Traduction automatique",
+    "Open the article" to "Ouvrir l’article",
 
     // ExamplesSearchViewModel.kt
     "Language not found" to "Langue introuvable",

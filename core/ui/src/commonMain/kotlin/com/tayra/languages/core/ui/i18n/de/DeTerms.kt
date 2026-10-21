@@ -296,6 +296,14 @@ internal val deTerms: Map<String, String> = mapOf(
     "Has audio" to "Mit Audio",
     "Reset filters" to "Filter zurücksetzen",
     "Text settings" to "Texteinstellungen",
+    "Source" to "Quelle",
+    "Try Leipzig Corpora" to "Leipzig Corpora versuchen",
+    "Open the Leipzig Corpora Collection" to "Leipzig Corpora Collection öffnen",
+    "This source finds single words only, in the exact form typed." to "Diese Quelle findet nur einzelne Wörter, und zwar genau in der eingegebenen Form.",
+    "Often found with" to "Häufig zusammen mit",
+    "About {0} sentences in the corpus" to "Etwa {0} Satz im Korpus|Etwa {0} Sätze im Korpus",
+    "Machine translation" to "Maschinelle Übersetzung",
+    "Open the article" to "Artikel öffnen",
 
     // ExamplesSearchViewModel.kt
     "Language not found" to "Sprache nicht gefunden",

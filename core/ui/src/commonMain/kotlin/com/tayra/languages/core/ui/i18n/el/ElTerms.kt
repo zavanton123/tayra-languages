@@ -296,6 +296,14 @@ internal val elTerms: Map<String, String> = mapOf(
     "Has audio" to "Με ήχο",
     "Reset filters" to "Επαναφορά φίλτρων",
     "Text settings" to "Ρυθμίσεις κειμένου",
+    "Source" to "Πηγή",
+    "Try Leipzig Corpora" to "Δοκιμάστε το Leipzig Corpora",
+    "Open the Leipzig Corpora Collection" to "Άνοιγμα της Leipzig Corpora Collection",
+    "This source finds single words only, in the exact form typed." to "Αυτή η πηγή βρίσκει μόνο μεμονωμένες λέξεις, στην ακριβή μορφή που πληκτρολογήθηκε.",
+    "Often found with" to "Συχνά μαζί με",
+    "About {0} sentences in the corpus" to "Περίπου {0} πρόταση στο σώμα κειμένων|Περίπου {0} προτάσεις στο σώμα κειμένων",
+    "Machine translation" to "Αυτόματη μετάφραση",
+    "Open the article" to "Άνοιγμα του άρθρου",
 
     // ExamplesSearchViewModel.kt
     "Language not found" to "Η γλώσσα δεν βρέθηκε",

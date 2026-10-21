@@ -296,6 +296,14 @@ internal val plTerms: Map<String, String> = mapOf(
     "Has audio" to "Z nagraniem",
     "Reset filters" to "Resetuj filtry",
     "Text settings" to "Ustawienia tekstu",
+    "Source" to "Źródło",
+    "Try Leipzig Corpora" to "Spróbuj Leipzig Corpora",
+    "Open the Leipzig Corpora Collection" to "Otwórz Leipzig Corpora Collection",
+    "This source finds single words only, in the exact form typed." to "To źródło wyszukuje tylko pojedyncze słowa, w dokładnie wpisanej formie.",
+    "Often found with" to "Często występuje z",
+    "About {0} sentences in the corpus" to "Około {0} zdania w korpusie|Około {0} zdań w korpusie|Około {0} zdań w korpusie",
+    "Machine translation" to "Tłumaczenie maszynowe",
+    "Open the article" to "Otwórz artykuł",
 
     // ExamplesSearchViewModel.kt
     "Language not found" to "Nie znaleziono języka",

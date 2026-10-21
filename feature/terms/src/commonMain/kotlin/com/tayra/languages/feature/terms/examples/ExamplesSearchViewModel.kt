@@ -24,6 +24,7 @@ import com.tayra.languages.core.domain.service.TranslationEngine
 import com.tayra.languages.core.domain.service.effectiveEngine
 import com.tayra.languages.core.domain.settings.SettingsRepository
 import kotlinx.coroutines.CancellationException
+import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.SupervisorJob
 import kotlinx.coroutines.cancelChildren
@@ -97,7 +98,8 @@ class ExamplesSearchViewModel(
     private var searchJob: Job? = null
     private var filterJob: Job? = null
     private var collocationsJob: Job? = null
-    private val translationJobs = SupervisorJob(viewModelScope.coroutineContext[Job])
+    /** The results' translations, dropped by the next search. */
+    private val translations = CoroutineScope(viewModelScope.coroutineContext + SupervisorJob(viewModelScope.coroutineContext[Job]))
     /** Whether the on-device translator could be readied: asked once, and again after a failure by the next search. */
     private var localReady: Boolean? = null
     private val localLock = Mutex()
@@ -174,7 +176,7 @@ class ExamplesSearchViewModel(
         filterJob?.cancel()
         searchJob?.cancel()
         collocationsJob?.cancel()
-        translationJobs.cancelChildren()
+        translations.coroutineContext.cancelChildren()
         if (localReady == false) localReady = null
         val keepCollocations = query.source == ExampleSource.LEIPZIG && collocationsFor == query.text.trim()
         if (!keepCollocations) collocationsFor = null
@@ -218,7 +220,7 @@ class ExamplesSearchViewModel(
         _state.update { it.copy(translations = it.translations + (sentence to SentenceTranslation.Loading)) }
         val prefs = settings.current
         val engine = prefs.effectiveEngine(localTranslator != null)
-        viewModelScope.launch(translationJobs) {
+        translations.launch {
             val ready = engine != TranslationEngine.ARGOS || localTranslator == null || prepareLocal(language, prefs.nativeLanguage)
             val result = if (ready) translator.translate(sentence, language) else null
             _state.update {

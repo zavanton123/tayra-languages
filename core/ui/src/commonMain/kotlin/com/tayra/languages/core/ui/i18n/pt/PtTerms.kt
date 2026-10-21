@@ -296,6 +296,14 @@ internal val ptTerms: Map<String, String> = mapOf(
     "Has audio" to "Com áudio",
     "Reset filters" to "Redefinir filtros",
     "Text settings" to "Configurações do texto",
+    "Source" to "Fonte",
+    "Try Leipzig Corpora" to "Experimentar o Leipzig Corpora",
+    "Open the Leipzig Corpora Collection" to "Abrir a Leipzig Corpora Collection",
+    "This source finds single words only, in the exact form typed." to "Esta fonte só encontra palavras isoladas, na forma exata digitada.",
+    "Often found with" to "Frequentemente com",
+    "About {0} sentences in the corpus" to "Cerca de {0} frase no corpus|Cerca de {0} frases no corpus",
+    "Machine translation" to "Tradução automática",
+    "Open the article" to "Abrir o artigo",
 
     // ExamplesSearchViewModel.kt
     "Language not found" to "Idioma não encontrado",

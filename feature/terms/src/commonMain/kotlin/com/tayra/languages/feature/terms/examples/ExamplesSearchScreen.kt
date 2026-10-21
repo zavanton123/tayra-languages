@@ -72,7 +72,9 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.model.TermStatus
 import com.tayra.languages.core.domain.service.ExampleSearchQuery
-import com.tayra.languages.core.domain.service.ExampleSort
+import com.tayra.languages.core.domain.service.ExampleSource
+import com.tayra.languages.core.domain.service.ExampleSourceFeatures
+import com.tayra.languages.core.domain.service.SentenceTranslation
 import com.tayra.languages.core.domain.service.WordTranslationService
 import com.tayra.languages.core.domain.service.YesNo
 import com.tayra.languages.core.domain.settings.HotkeyAction
@@ -81,6 +83,8 @@ import com.tayra.languages.core.domain.settings.UserSettings
 import com.tayra.languages.core.ui.components.AppBottomSheet
 import com.tayra.languages.core.ui.components.AppIconButton
 import com.tayra.languages.core.ui.components.AppIcons
+import com.tayra.languages.core.ui.components.AppSpinner
+import com.tayra.languages.core.ui.components.ChipSize
 import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.Crumb
 import com.tayra.languages.core.ui.components.EmptyMessage
@@ -99,8 +103,10 @@ import com.tayra.languages.core.ui.components.ScrollList
 import com.tayra.languages.core.ui.components.SearchField
 import com.tayra.languages.core.ui.components.SecondaryButton
 import com.tayra.languages.core.ui.components.SelectMenu
+import com.tayra.languages.core.ui.components.SelectableChip
 import com.tayra.languages.core.ui.components.SidePanel
 import com.tayra.languages.core.ui.components.SliderSetting
+import com.tayra.languages.core.ui.components.SpinnerSize
 import com.tayra.languages.core.ui.components.cardSurface
 import com.tayra.languages.core.ui.hotkeys.HotkeyMatcher
 import com.tayra.languages.core.ui.i18n.tr
@@ -120,6 +126,7 @@ import com.tayra.languages.feature.terms.form.TermFormEvent
 import com.tayra.languages.feature.terms.form.TermFormKey
 import com.tayra.languages.feature.terms.form.TermFormPanel
 import com.tayra.languages.feature.terms.form.TermFormViewModel
+import io.ktor.http.Url
 import io.ktor.http.encodeURLParameter
 import kotlin.math.roundToInt
 import kotlin.random.Random
@@ -128,7 +135,8 @@ import org.koin.compose.viewmodel.koinViewModel
 import org.koin.core.parameter.parametersOf
 
 /**
- * Searches Tatoeba example sentences with every filter the API offers. Wide windows show the
+ * Searches Tatoeba example sentences with every filter the API offers, or, for a language the
+ * Leipzig Corpora Collection has, news and Wikipedia sentences with a machine translation. Wide windows show the
  * term pane beside the results, for the searched term or a word clicked in an example; on
  * narrower ones a clicked word opens it in a sheet.
  */
@@ -155,6 +163,7 @@ fun ExamplesSearchScreen(
     val wordTranslations = koinInject<WordTranslationService>()
     val translateWord: suspend (String) -> String? = { word -> state.language?.let { wordTranslations.translate(it, word) } }
 
+    val uriHandler = LocalUriHandler.current
     val prefs by koinInject<SettingsRepository>().settings.collectAsStateWithLifecycle()
     val showHighlights = prefs.showHighlights
     var textSettingsOpen by rememberSaveable { mutableStateOf(false) }
@@ -268,7 +277,9 @@ fun ExamplesSearchScreen(
                 item { PageHeader(query, compact, onBack, onTerms = { onNavigate(Route.Terms()) }) }
                 item { ErrorMessage(state.error) }
                 item { SearchBar(query, viewModel, onSearch = { viewModel.search(); focusList() }) }
-                item { FilterRow(query, viewModel) }
+                item { FilterRow(query, state.sources, state.features, viewModel) }
+                if (!state.features.phrases) item { SourceNote(tr("This source finds single words only, in the exact form typed.")) }
+                if (state.collocations.isNotEmpty()) item { Collocations(state.collocations, onSearch = { viewModel.searchFor(it); focusList() }) }
                 item {
                     Row(Modifier.fillMaxWidth().padding(top = AppSpacing.l)) {
                         AppIconButton(AppIcons.FormatSize, tr("Text settings"), onClick = { textSettingsOpen = !textSettingsOpen }, style = IconButtonStyle.Outlined, tint = MaterialTheme.colorScheme.primary, selected = textSettingsOpen)
@@ -279,6 +290,7 @@ fun ExamplesSearchScreen(
                     Text(
                         when {
                             state.searching -> tr("Searching...")
+                            state.total != null && query.source == ExampleSource.LEIPZIG -> trPlural(state.total!!, "About {0} sentence in the corpus", "About {0} sentences in the corpus")
                             state.total != null -> trPlural(state.total!!, "{0} sentence", "{0} sentences")
                             else -> ""
                         },
@@ -289,15 +301,24 @@ fun ExamplesSearchScreen(
                 }
                 when {
                     state.searching -> item { PlaceholderCards(4, lines = 1) }
-                    state.results.isEmpty() -> item { EmptyMessage(tr("No examples match these filters."), Modifier.fillMaxWidth()) }
+                    state.results.isEmpty() -> item {
+                        Column(Modifier.fillMaxWidth(), horizontalAlignment = Alignment.CenterHorizontally) {
+                            EmptyMessage(tr("No examples match these filters."), Modifier.fillMaxWidth())
+                            if (state.offersLeipzig) SecondaryButton(tr("Try Leipzig Corpora"), onClick = { viewModel.setSource(ExampleSource.LEIPZIG) })
+                        }
+                    }
                     else -> {
                         itemsIndexed(state.results) { index, example ->
+                            // A source without translations has its results translated as they come into view.
+                            if (!state.features.translations) LaunchedEffect(example.text) { viewModel.translate(example.text) }
                             ExampleCard(
                                 text = emphasize(example.text, query.text)
                                     .withStatuses(state.words[example.text].orEmpty(), TayraTheme.current.statusColors, showHighlights)
                                     .withSelected(state.paneTerm, TayraTheme.current.selectedText),
                                 translateWord = translateWord,
                                 translation = example.translation,
+                                machineTranslation = if (state.features.translations) null else state.translations[example.text] ?: SentenceTranslation.Loading,
+                                source = example.sourceUrl?.let { url -> sourceLabel(url, example.date) to { uriHandler.openUri(url) } },
                                 sound = audio.soundOf(example),
                                 active = index == activeIndex,
                                 onPlay = { activeIndex = index; audio.toggle(example, LanguageCodes.codeFor(query.language.name)) },
@@ -396,16 +417,25 @@ private fun PageHeader(query: ExampleSearchQuery, compact: Boolean, onBack: () -
     Column(Modifier.fillMaxWidth().padding(bottom = AppSpacing.xl)) {
         ScreenHeader(tr("Examples for ‘{0}’", query.text), subtitle = null, crumbs = crumbs, titleOnCompact = true, onBack = onBack) {
             if (!compact) Text(tr("Powered by"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
-            LinkText(
-                "Tatoeba",
-                onClick = {
-                    val from = LanguageCodes.tatoebaCodeFor(query.language.name)?.let { "&from=$it" } ?: ""
-                    uriHandler.openUri("https://tatoeba.org/en/sentences/search?query=${query.text.encodeURLParameter()}$from")
-                },
-                modifier = Modifier.semantics { contentDescription = tr("Open on Tatoeba") },
-                style = MaterialTheme.typography.bodyMedium,
-                trailingIcon = AppIcons.OpenInNew,
-            )
+            when (query.source) {
+                ExampleSource.TATOEBA -> LinkText(
+                    "Tatoeba",
+                    onClick = {
+                        val from = LanguageCodes.tatoebaCodeFor(query.language.name)?.let { "&from=$it" } ?: ""
+                        uriHandler.openUri("https://tatoeba.org/en/sentences/search?query=${query.text.encodeURLParameter()}$from")
+                    },
+                    modifier = Modifier.semantics { contentDescription = tr("Open on Tatoeba") },
+                    style = MaterialTheme.typography.bodyMedium,
+                    trailingIcon = AppIcons.OpenInNew,
+                )
+                ExampleSource.LEIPZIG -> LinkText(
+                    "Leipzig Corpora Collection",
+                    onClick = { uriHandler.openUri("https://wortschatz.uni-leipzig.de/en") },
+                    modifier = Modifier.semantics { contentDescription = tr("Open the Leipzig Corpora Collection") },
+                    style = MaterialTheme.typography.bodyMedium,
+                    trailingIcon = AppIcons.OpenInNew,
+                )
+            }
         }
     }
 }
@@ -423,21 +453,46 @@ private val PAGE_SIZES = listOf(5, 10, 20, 30, 50, 100)
 
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
-private fun FilterRow(query: ExampleSearchQuery, viewModel: ExamplesSearchViewModel) {
+private fun FilterRow(query: ExampleSearchQuery, sources: List<ExampleSourceFeatures>, features: ExampleSourceFeatures, viewModel: ExamplesSearchViewModel) {
     FlowRow(
         Modifier.fillMaxWidth().padding(top = AppSpacing.l),
         horizontalArrangement = Arrangement.spacedBy(AppSpacing.m),
         verticalArrangement = Arrangement.spacedBy(AppSpacing.m),
         itemVerticalAlignment = Alignment.Bottom,
     ) {
+        if (sources.size > 1) Select(tr("Source"), sources.map { it.source }, query.source, { it.label }, 170.dp, viewModel::setSource)
         Select(tr("Min words"), (listOf<Int?>(null) + WORD_COUNTS), query.minWords, { it?.toString() ?: tr("Any") }, 110.dp) { v -> viewModel.updateFilters { it.copy(minWords = v) } }
         Select(tr("Max words"), (listOf<Int?>(null) + WORD_COUNTS), query.maxWords, { it?.toString() ?: tr("Any") }, 110.dp) { v -> viewModel.updateFilters { it.copy(maxWords = v) } }
-        Select(tr("Sort"), ExampleSort.entries, query.sort, { tr(it.label) }, 170.dp) { v -> viewModel.updateFilters { it.copy(sort = v) } }
+        Select(tr("Sort"), features.sorts, query.sort, { tr(it.label) }, 170.dp) { v -> viewModel.updateFilters { it.copy(sort = v) } }
         Select(tr("Per page"), PAGE_SIZES, query.limit, { it.toString() }, 110.dp) { v -> viewModel.updateFilters { it.copy(limit = v) } }
-        Select(tr("Has audio"), listOf<YesNo?>(null) + YesNo.entries, query.hasAudio, { it?.label?.let { label -> tr(label) } ?: tr("Any") }, 150.dp) { v -> viewModel.updateFilters { it.copy(hasAudio = v) } }
+        if (features.audio) Select(tr("Has audio"), listOf<YesNo?>(null) + YesNo.entries, query.hasAudio, { it?.label?.let { label -> tr(label) } ?: tr("Any") }, 150.dp) { v -> viewModel.updateFilters { it.copy(hasAudio = v) } }
         Spacer(Modifier.weight(1f))
         SecondaryButton(tr("Reset filters"), onClick = viewModel::resetFilters, icon = Icons.Default.Refresh)
     }
+}
+
+/** What the chosen source cannot do, said under the filters. */
+@Composable
+private fun SourceNote(text: String) {
+    Text(text, Modifier.padding(top = AppSpacing.m), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+}
+
+/** The words most often found near the searched one; each starts a search of its own. */
+@OptIn(ExperimentalLayoutApi::class)
+@Composable
+private fun Collocations(words: List<String>, onSearch: (String) -> Unit) {
+    Column(Modifier.fillMaxWidth().padding(top = AppSpacing.l), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
+        Text(tr("Often found with"), style = AppText.label)
+        FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.s), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
+            words.forEach { word -> SelectableChip(word, selected = false, onClick = { onSearch(word) }, size = ChipSize.Small) }
+        }
+    }
+}
+
+/** The site a corpus sentence was taken from, and its date. */
+private fun sourceLabel(url: String, date: String?): String {
+    val site = runCatching { Url(url).host.removePrefix("www.") }.getOrNull()?.takeIf { it.isNotEmpty() } ?: url
+    return listOfNotNull(site, date).joinToString(" · ")
 }
 
 /** A labelled compact select box. */
@@ -453,6 +508,10 @@ private fun ExampleCard(
     text: AnnotatedString,
     translateWord: suspend (String) -> String?,
     translation: String?,
+    /** The machine translation of a result whose source has none. */
+    machineTranslation: SentenceTranslation?,
+    /** The site and date of the text the result was taken from, and how to open it. */
+    source: Pair<String, () -> Unit>?,
     sound: ExampleSound,
     /** The result the keys act on, marked and kept in view. */
     active: Boolean,
@@ -502,7 +561,37 @@ private fun ExampleCard(
                 onHover = onHover,
             )
             translation?.let { Text(it, style = MaterialTheme.typography.bodyMedium.copy(fontSize = MaterialTheme.typography.bodyMedium.fontSize * fontScale), color = colors.onSurfaceVariant) }
+            machineTranslation?.let { MachineTranslation(it, fontScale) }
+            source?.let { (label, open) ->
+                LinkText(
+                    label,
+                    onClick = open,
+                    modifier = Modifier.semantics { contentDescription = tr("Open the article") },
+                    color = colors.onSurfaceVariant,
+                    style = MaterialTheme.typography.labelSmall,
+                    trailingIcon = AppIcons.OpenInNew,
+                    maxLines = 1,
+                )
+            }
         }
+    }
+}
+
+/** A result's machine translation, as the reader shows a sentence's: a spinner while it loads, nothing when there is none. */
+@Composable
+private fun MachineTranslation(translation: SentenceTranslation, fontScale: Float) {
+    val colors = MaterialTheme.colorScheme
+    val style = MaterialTheme.typography.bodyMedium.copy(fontSize = MaterialTheme.typography.bodyMedium.fontSize * fontScale)
+    when (translation) {
+        is SentenceTranslation.Done -> Column {
+            Text(translation.text, style = style, color = colors.onSurfaceVariant)
+            Text(tr("Machine translation"), style = MaterialTheme.typography.labelSmall, color = colors.onSurfaceVariant.copy(alpha = AppAlpha.muted))
+        }
+        SentenceTranslation.Loading -> Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
+            AppSpinner(size = SpinnerSize.Small, color = colors.onSurfaceVariant)
+            Text(tr("Translating…"), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
+        }
+        SentenceTranslation.Unavailable -> Unit
     }
 }
 
