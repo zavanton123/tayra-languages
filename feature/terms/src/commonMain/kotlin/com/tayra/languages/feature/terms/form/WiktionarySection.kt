@@ -54,7 +54,7 @@ import com.tayra.languages.core.ui.theme.AppSpacing
 import com.tayra.languages.core.ui.theme.AppText
 
 /**
- * What Wiktionary says of the term online: which form of which lemma it is, its
+ * What Wiktionary says of the term online: the word, which form of which lemma it is, its
  * pronunciations, its synonyms, the lemma's inflection table and the expressions made with it, the
  * last two collapsible. The pane shows it only for a word with a table or expressions.
  */
@@ -71,6 +71,7 @@ internal fun WiktionarySection(
     val colors = MaterialTheme.colorScheme
     val page = wiktionary.page
     SectionCard({ BadgeIcon(AppIcons.MenuBook) }, tr("Wiktionary"), tint = null, filled = false) {
+        wiktionary.headword?.let { Text(it, Modifier.testTag("wiktionary-headword"), style = AppText.itemTitle) }
         page?.formOf?.forEach { sense -> FormOfLine(sense, onOpenWord) }
         val pronunciations = page?.pronunciations.orEmpty().take(MAX_PRONUNCIATIONS)
         if (pronunciations.isNotEmpty()) {

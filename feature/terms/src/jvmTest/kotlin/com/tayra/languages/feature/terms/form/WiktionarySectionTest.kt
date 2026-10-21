@@ -72,6 +72,8 @@ class WiktionarySectionTest {
     fun aFormNamesItsLemmaWhichOpens() = runDesktopComposeUiTest(width = 420, height = 700) {
         val opened = mutableListOf<String>()
         setContent { Framed { WiktionarySection(WiktionaryUi(comem, tableWord = "comer", tables = listOf(conjugation), complete = true), "comem", "Portuguese", { opened += it }, {}, {}) } }
+        // The word heads the card, above its form-of line and transcriptions.
+        onNodeWithTag("wiktionary-headword").assertTextEquals("comem")
         onNodeWithText("third-person plural present indicative of comer").assertExists()
         onNodeWithTag("form-of-comer").performClick()
         assertEquals(listOf("comer"), opened)
@@ -104,6 +106,7 @@ class WiktionarySectionTest {
         var ui by mutableStateOf(WiktionaryUi(comer, tableWord = "comer", expressions = listOf("comer com os olhos", "comer o chapéu"), complete = true))
         var toggled = 0
         setContent { Framed { WiktionarySection(ui, "comer", "Portuguese", { opened += it }, {}, { toggled++ }) } }
+        onNodeWithTag("wiktionary-headword").assertTextEquals("comer")
         // Without a table there is no table section.
         onAllNodesWithTag("wiktionary-table").assertCountEquals(0)
         onNodeWithTag("synonym-alimentar").performClick()
