@@ -335,16 +335,51 @@ def korean_stem_of(lemma, word):
     return not ((ord(stem[-1]) - 0xAC00) % 28 == 8 and 0 <= after < 11172 and after // 28 == 11 * 21 + 18)
 
 
+# Endings joined to a verb's stem as they are (하자, 보지, 알리고, 가면), and those after which a stem ending
+# in a vowel swallows the 아/어 of the ending (가도, 서서, 내야; and the stem alone: 지내).
+KOREAN_PLAIN_ENDINGS = ("지", "자", "고", "면", "게")
+KOREAN_VOWEL_ENDINGS = ("", "도", "서", "야")
+
+
+def korean_verb_readings(form, verbs):
+    """The [verbs] whose stem with one of the commonest endings spells [form]: 하자 of 하다, 써 of 쓰다, 봐도 of 보다."""
+    out = set()
+    for ending in KOREAN_PLAIN_ENDINGS:
+        if form.endswith(ending) and len(form) > len(ending):
+            out.add(form[:-len(ending)] + "다")
+    for ending in KOREAN_VOWEL_ENDINGS:
+        if not form.endswith(ending) or len(form) == len(ending):
+            continue
+        base = form[:len(form) - len(ending)]
+        code = ord(base[-1]) - 0xAC00
+        if not 0 <= code < 11172 or code % 28:
+            continue
+        lead, vowel, head = code // 588, code // 28 % 21, base[:-1]
+        # 가 of 가다, 내 of 내다; 써 of 쓰다, but not 라 of a stem in 르 (오르다 is 올라); 봐 of 보다, 줘 of
+        # 주다, 모여 of 모이다; 해 of 하다.
+        stems = [base] if vowel in (0, 1, 4, 5) and base[-1] != "하" else []
+        if vowel in (0, 4) and lead != 5:
+            stems.append(head + chr(0xAC00 + lead * 588 + 18 * 28))
+        stems += [head + chr(0xAC00 + lead * 588 + to * 28) for of, to in ((9, 8), (14, 13), (6, 20)) if vowel == of]
+        if base[-1] == "해":
+            stems.append(head + "하")
+        out.update(stem + "다" for stem in stems)
+    return out & verbs
+
+
 # Endings of spoken Korean that Yomitan's rules do not undo, longest first.
 KOREAN_SPOKEN_ENDINGS = ["잖습니까", "잖아요", "잖니", "잖아"]
 
 # How the dictionary glosses a word written with its particle.
-KOREAN_FUSED = re.compile(r"(topic-marked form of|allomorph of .* before -가)")
+KOREAN_FUSED = re.compile(r"(topic-marked form of|allomorph of .* before -가|plural of)")
 
 
 def korean_fused(word, senses):
-    """Whether a pack entry is a word with its particle (나는, "topic-marked form of 나"; 내가), which the reader cuts."""
-    return word[-1:] in ("는", "은", "가") and all(
+    """
+    Whether a pack entry is a word with its particle (나는, "topic-marked form of 나"; 내가) or with the
+    plural 들 (아이들, "plural of 아이"), which the reader cuts.
+    """
+    return word[-1:] in ("는", "은", "가", "들") and all(
         KOREAN_FUSED.match(gloss) for sense in json.loads(senses) for gloss in sense.get("glosses", [""]))
 
 # The particles the list counts as words of their own, the dictionary having them only as affixes
@@ -794,6 +829,11 @@ def list_ranks(text):
 # the dictionary has needs only be as common.
 KOREAN_VERB_MARGIN = 3.0
 KOREAN_WORD_MARGIN = 1.0
+# A noun spelled as a verb's form is the verb's when it is KOREAN_CASELESS times as common alone as with
+# all of KOREAN_CASES together, and the verb KOREAN_VERB_SHARE times as common as it.
+KOREAN_CASES = ["이", "가", "을", "를", "의", "에", "에서", "에게", "로", "으로", "와", "과"]
+KOREAN_CASELESS = 10.0
+KOREAN_VERB_SHARE = 2.0
 
 
 def build_korean(found, size):
@@ -862,6 +902,22 @@ def build_korean(found, size):
         if not korean_fused(word, senses):
             pos_of[word].add(p)
     seeds = {run for run, (stem, _) in cuttable.items() if reads_as_verb(run, stem) or reads_as_word(run, stem)}
+    # A noun of the pack spelled as a common verb's form (하자 of 하다, 보지 of 보다, 가도 of 가다, 알리고 of
+    # 알리다) is the verb's when it seldom takes a case particle, which a noun takes and a verb's form never
+    # does, and the verb's other forms are KOREAN_VERB_SHARE times as common as it.
+    mass = defaultdict(float)
+    for run, x in share.items():
+        for lemma in lemmas.get(run, ()):
+            mass[lemma] += x
+    verbal_nouns = {}
+    for run, x in share.items():
+        kinds = pos_of.get(run, set()) & WORD_POS
+        if not kinds or kinds - {"noun"}:
+            continue
+        readings = [v for v in korean_verb_readings(run, verbs) if mass[v] - (x if v in lemmas.get(run, ()) else 0) >= KOREAN_VERB_SHARE * x]
+        cased = sum(share.get(run + p, 0.0) for p in KOREAN_CASES if korean_stacks(p, run))
+        if readings and x >= KOREAN_CASELESS * cased:
+            verbal_nouns[run] = max(readings, key=mass.get)
     seeds = (seeds | KOREAN_WHOLE) - KOREAN_CUT
     # The first cut is by wordfreq's ranks, whose Korean is counted in pieces: particles and nouns, few verbs.
     import wordfreq
@@ -896,14 +952,14 @@ def build_korean(found, size):
             break
         # A word left whole that the reader could cut must be in the list for the reader to leave it whole.
         whole_words = {run for run in cuttable if cuts.get(run) == [run]} - KOREAN_CUT
-        text, label = build_list("ko", pieces, size, required=whole_words)
+        text, label = build_list("ko", pieces, size, required=whole_words, verbal_nouns=verbal_nouns)
         words, ranks = list_ranks(text)
         # The words cut by hand stay out of the list (build_list leaves them out), so the reader cuts them.
         lexicon = pack | words
     return text, label
 
 
-def build_list(language, found, size, required=frozenset()):
+def build_list(language, found, size, required=frozenset(), verbal_nouns=None):
     """The list from the sources' counts of the words as the reader cuts them."""
     # Each source's share of its own total, averaged; a form a source does not list counts as 0 there.
     freq = defaultdict(float)
@@ -915,6 +971,7 @@ def build_list(language, found, size, required=frozenset()):
     pos, lemmas, common, outdated = load_dictionary(language)
     overrides = OVERRIDES.get(language, {})
     excluded = EXCLUDE.get(language, set())
+    verbal_nouns = verbal_nouns or {}
     if language == "ko":
         # Listed, a word cut by hand would be left whole by the reader.
         excluded = excluded | KOREAN_CUT
@@ -1021,6 +1078,8 @@ def build_list(language, found, size, required=frozenset()):
                 return {form: 1.0}
         elif language == "ko" and form in KOREAN_OWN:
             return {form: 1.0}
+        elif language == "ko" and form in verbal_nouns and is_word(verbal_nouns[form]):
+            return {verbal_nouns[form]: 1.0}
         elif language == "ko" and any(form.startswith(KOREAN_STEMS[verb]) and verb in lemmas.get(form, []) for verb in KOREAN_STEMS):
             return {next(verb for verb in KOREAN_STEMS if form.startswith(KOREAN_STEMS[verb])): 1.0}
         elif language == "ko" and form in KOREAN_COPULA_FORMS:
