@@ -65,6 +65,8 @@ import androidx.compose.ui.input.key.key
 import androidx.compose.ui.input.key.onPreviewKeyEvent
 import androidx.compose.ui.input.key.type
 import androidx.compose.ui.platform.testTag
+import com.tayra.languages.core.ui.components.grammarTags
+import androidx.compose.ui.platform.LocalUriHandler
 import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.buildAnnotatedString
@@ -496,6 +498,7 @@ private fun Card(card: CardContent, answered: Boolean, speaker: Speaker?, compac
                     style = AppText.cardBack(compact).copy(color = if (card.translation.isEmpty()) colors.outline else colors.onSurfaceVariant, textAlign = TextAlign.Center),
                 )
                 if (card.romanization.isNotEmpty()) Text(card.romanization, style = MaterialTheme.typography.bodyLarge, color = colors.outline)
+                if (card.hints.isNotEmpty()) CardHints(card)
             }
         } else if (revealButton) {
             PrimaryButton(
@@ -505,6 +508,26 @@ private fun Card(card: CardContent, answered: Boolean, speaker: Speaker?, compac
                 Text(tr("Show answer"), style = AppText.itemTitle)
             }
         }
+    }
+}
+
+/** Wiktionary's gender, plural and verb forms of the word, "neuter · plural: Häuser", over the credit its licence asks for. */
+@Composable
+private fun CardHints(card: CardContent) {
+    val colors = MaterialTheme.colorScheme
+    val uriHandler = LocalUriHandler.current
+    Column(Modifier.padding(top = AppSpacing.xs).testTag("flashcard-hints"), horizontalAlignment = Alignment.CenterHorizontally) {
+        Text(
+            card.hints.joinToString(" \u00b7 ") { hint -> hint.form?.let { "${grammarTags(hint.tags)}: $it" } ?: grammarTags(hint.tags) },
+            style = MaterialTheme.typography.bodyMedium.copy(textAlign = TextAlign.Center),
+            color = colors.onSurfaceVariant,
+        )
+        Text(
+            tr("Wiktionary contributors · CC BY-SA 4.0"),
+            Modifier.clip(AppShapes.small).clickable(enabled = card.hintsSource != null) { card.hintsSource?.let(uriHandler::openUri) }.then(NoFocus).padding(AppSpacing.xxs),
+            style = MaterialTheme.typography.labelSmall,
+            color = colors.outline,
+        )
     }
 }
 
