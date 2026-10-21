@@ -18,6 +18,7 @@ import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.domain.render.RenderedPage
 import com.tayra.languages.core.domain.render.TextItem
+import com.tayra.languages.core.domain.render.RenderedSentence
 import com.tayra.languages.core.domain.repository.BookRepository
 import com.tayra.languages.core.domain.service.BookStatsService
 import com.tayra.languages.core.domain.service.BulkTermUpdate
@@ -389,8 +390,26 @@ class ReadingViewModel(
     }
 
     /** The sentence [item] is read in, as shown on screen; stored with a word that starts being learned. */
-    private fun sentenceOf(item: TextItem): String? =
-        _state.value.page.paragraphs.asSequence().flatMap { it.sentences }.firstOrNull { s -> s.items.any { it === item } }?.displayText?.takeIf { it.isNotBlank() }
+    private fun sentenceOf(item: TextItem): String? = sentenceOf(listOf(item))
+
+    /**
+     * The sentence [items] are read in, as shown on screen. Words running past a full stop are
+     * read in every sentence they span, and so is a sentence whose start a phrase from the one
+     * before covers, since it is shown without its first words.
+     */
+    private fun sentenceOf(items: List<TextItem>): String? {
+        val words = items.filter { it.isWord }.ifEmpty { items }
+        val first = words.firstOrNull() ?: return null
+        val sentences = _state.value.page.paragraphs.flatMap { p -> p.sentences.map { p.number to it } }
+        var start = sentences.indexOfFirst { (_, s) -> s.items.any { it === first } }.takeIf { it >= 0 } ?: return null
+        while (start > 0 && sentences[start - 1].second.items.any { it.lastSentenceNumber >= sentences[start].second.number }) start--
+        val last = words.maxOf { it.lastSentenceNumber }
+        var end = start
+        while (end + 1 < sentences.size && sentences[end + 1].second.number <= last) end++
+        return sentences.subList(start, end + 1).groupBy({ it.first }, { it.second }).values
+            .joinToString(" ") { paragraph -> RenderedSentence(paragraph.first().number, paragraph.flatMap { it.items }).displayText }
+            .takeIf { it.isNotBlank() }
+    }
 
     /** The sentences [items] are read in, by term id. */
     private fun sentencesOf(items: List<TextItem>): Map<Long, String> =
@@ -505,7 +524,7 @@ class ReadingViewModel(
             if (copy && text.isNotEmpty()) copyText(text)
             return
         }
-        _state.update { it.copy(selection = range, selecting = false, marked = emptySet(), panel = ReadingPanel.NewTerm(language.id, text, items.firstOrNull()?.let(::sentenceOf))) }
+        _state.update { it.copy(selection = range, selecting = false, marked = emptySet(), panel = ReadingPanel.NewTerm(language.id, text, sentenceOf(items))) }
     }
 
     fun cancelSelection() = _state.update { it.copy(selection = null, selecting = false) }

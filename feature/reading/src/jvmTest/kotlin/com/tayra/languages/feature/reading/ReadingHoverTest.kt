@@ -1300,6 +1300,48 @@ class ReadingHoverTest {
         assertEquals("O lobo dorme na floresta.", lobo()?.sentence)
     }
 
+    /** A phrase picked in the reader and given a status in the term pane stores the sentences it spans, past a full stop too. */
+    @Test
+    fun theTermPaneStoresTheSentencesOfASelectedPhrase() {
+        val vm = runBlocking { reader(mainIsDefault = false, paragraph = "O lobo dorme. A raposa corre na floresta.", wordsPerPage = 100) }
+        startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }, termPane) }
+        rule.setContent { ReadingScreen(bookId = 1, initialPage = null, onNavigate = {}, onHome = {}, viewModel = vm) }
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("lobo dorme", substring = true).fetchSemanticsNodes().isNotEmpty() }
+        val items = vm.state.value.items
+        vm.startSelection(items[vm.index("dorme")].index)
+        vm.endSelection(items[vm.index("A")].index, copy = false)
+        val three = androidx.compose.ui.test.hasText("3") and androidx.compose.ui.test.hasClickAction()
+        rule.waitUntil(5_000) { rule.onAllNodes(three).fetchSemanticsNodes().isNotEmpty() }
+        rule.onAllNodes(three)[0].performClick()
+        fun phrase() = runBlocking { termRepository.list(com.tayra.languages.core.domain.repository.TermListFilter(languageId = languageId, minStatus = TermStatus.LEARNING_3, maxStatus = TermStatus.LEARNING_3), com.tayra.languages.core.domain.repository.TermListSort(), 0, 5) }.items.singleOrNull()
+        rule.waitUntil(5_000) { phrase() != null }
+        assertEquals("dorme. A", phrase()?.displayText)
+        assertEquals("O lobo dorme. A raposa corre na floresta.", phrase()?.sentence)
+    }
+
+    /**
+     * A saved phrase running past a full stop is read in both sentences, and so is a word of the
+     * second, which is shown without the words the phrase covers.
+     */
+    @Test
+    fun aPhraseAcrossAFullStopIsReadInBothSentences() = runBlocking {
+        val vm = reader(paragraph = "O lobo dorme. A raposa corre na floresta. O lobo sonha.", wordsPerPage = 100)
+        val id = termService.save(termService.findOrNew(languageId, "dorme. A").copy(status = TermStatus.WELL_KNOWN))
+        vm.refresh()
+        withTimeout(5_000) { while (vm.index("dorme. A") < 0) delay(20) }
+        suspend fun sentence(id: Long?) = id?.let { termRepository.getById(it) }?.takeIf { it.status.isLearning }?.sentence
+
+        vm.markToLearn(vm.index("dorme. A"))
+        withTimeout(5_000) { while (sentence(id) == null) delay(20) }
+        assertEquals("O lobo dorme. A raposa corre na floresta.", sentence(id))
+        vm.markToLearn(vm.index("raposa"))
+        withTimeout(5_000) { while (sentence(termRepository.findByTextLc(languageId, "raposa")?.id) == null) delay(20) }
+        assertEquals("O lobo dorme. A raposa corre na floresta.", sentence(termRepository.findByTextLc(languageId, "raposa")?.id))
+        vm.markToLearn(vm.index("sonha"))
+        withTimeout(5_000) { while (sentence(termRepository.findByTextLc(languageId, "sonha")?.id) == null) delay(20) }
+        assertEquals("O lobo sonha.", sentence(termRepository.findByTextLc(languageId, "sonha")?.id), "the sentences after it are their own")
+    }
+
     private fun silentWav(samples: Int = 800): ByteArray {
         val data = samples * 2
         val header = java.nio.ByteBuffer.allocate(44).order(java.nio.ByteOrder.LITTLE_ENDIAN).apply {
