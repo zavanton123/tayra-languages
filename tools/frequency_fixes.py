@@ -1432,3 +1432,11 @@ OVERRIDES["ja"]["てる"] = ["いる"]
 # おい "hey" as 追う's, でし as 弟子 rather than です, ところ as 野老 rather than 所.
 OVERRIDES["ja"].update({"はい": ["はい"], "おい": ["おい"], "しか": ["しか"], "よく": ["よく"], "でし": ["です"], "ところ": ["所"]})
 OVERRIDES["ja"].update({"うち": ["内"], "こういう": ["こういう"], "ほんと": ["本当"]})
+# 九 "nine", whose reading ここの the dictionary also gives この.
+OVERRIDES["ja"]["九"] = ["九"]
+# Words the dictionary has only as names, which texts use as common words (日本 in 日本人 and 日本語).
+OVERRIDES["ja"].update({w: [w] for w in ("日本", "地球", "クリスマス", "オリンピック", "ハロウィン", "欧米")})
+# Kanji nouns whose rare readings are commoner kana words: 理由 "reason" (わけ), 友 "friend" (the particle とも).
+OVERRIDES["ja"].update({"理由": ["理由"], "友": ["友"]})
+# あれ "that", which the dictionary also files as a form of ある; おり, the stem of おる in ております.
+OVERRIDES["ja"].update({"あれ": ["あれ"], "おり": ["おる"]})

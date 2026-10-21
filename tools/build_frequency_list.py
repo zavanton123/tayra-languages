@@ -122,7 +122,7 @@ CAPITALISED_NOUNS = {"de"}
 SIMPLEMMA_CODES = {"hr": "hbs", "sr": "hbs", "no": "nb"}
 
 # Parts of speech a frequency list shows; names, letters, affixes and set phrases are left out.
-WORD_POS = {"noun", "adj", "verb", "adv", "pron", "prep", "num", "conj", "det", "article", "intj", "contraction", "particle"}
+WORD_POS = {"noun", "adj", "verb", "adv", "pron", "prep", "num", "conj", "det", "article", "intj", "contraction", "particle", "adnominal"}
 
 # Per-language corrections, reviewed by hand.
 from frequency_fixes import DISPLAY, EXCLUDE, OVERRIDES  # noqa: E402
@@ -476,6 +476,23 @@ def load_dictionary(language):
         for form_lc, of in lemmas.items():
             if form_lc in pos:
                 lemmas[form_lc] = [lemma for lemma in of if (form_lc, lemma) not in aliases]
+        # The pack also files a kanji word under words it can be read as (秋 under 時, 彼 under あれ, 美しい
+        # under 厳しい): a kanji form belongs to a word sharing a kanji with it, or to a reading its entries give.
+        readings = defaultdict(set)
+        for word, reading in db.execute("SELECT e.word_lc, r.reading FROM entries e JOIN entry_readings r ON r.entry_id = e.id"):
+            readings[word].add(reading)
+        kun = {c: k.split() for c, k in db.execute("SELECT character, kunyomi FROM kanji")}
+        # A kana form belongs to a kanji word it is a reading of, or to a verb or adjective it may be a form of
+        # (おり of 降りる, not of 俺).
+        for form_lc, of in lemmas.items():
+            kanji = {c for c in form_lc if is_cjk(c) and not is_kana(c)}
+            if not kanji:
+                lemmas[form_lc] = [l for l in of if is_kana(l) or form_lc in readings[l] or pos.get(l, set()) & {"verb", "adj"}]
+                continue
+            # A verb or adjective of one kanji is read as its kun reading with the same kana (居る as いる).
+            tail = form_lc[1:] if len(kanji) == 1 and form_lc[0] in kanji and is_kana(form_lc[1:]) else None
+            own = readings[form_lc] | ({r.replace(".", "") for r in kun.get(form_lc[0], []) if r.partition(".")[2] == tail} if tail else set())
+            lemmas[form_lc] = [l for l in of if kanji & set(l) or (is_kana(l) and l in own)]
     if language in ("zh", "yue"):
         # A simplified spelling is a form of every traditional word written with it, variant and dialect
         # spellings among them (我们 of 我們 and of 姆們); its count goes to the main word: the most common
