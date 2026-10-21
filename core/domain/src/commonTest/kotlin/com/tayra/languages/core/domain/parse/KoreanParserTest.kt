@@ -20,10 +20,21 @@ class KoreanParserTest {
         "책" to 700, "집" to 121, "나가다" to 174, "나가" to 174, "사과" to 2600, "학생" to 520, "의사" to 1500,
         "서울" to 161, "선생님" to 400, "동생" to 900, "커피" to 1800, "때문" to 95, "너" to 38, "말" to 34,
         "아니다" to 29, "아니" to 131, "개" to 147, "아이" to 261, "수" to 23, "할" to 6, "있다" to 7,
+        "야" to 4, "였어요" to 4, "돕다" to 483, "도와" to 483, "나오다" to 106, "모이다" to 953, "모" to 2518,
+        "하자" to 6, "대" to 228, "대가" to 1297, "로봇" to 2279, "한" to 49, "시" to 153, "시야" to 3394, "몇" to 302,
+        "오" to 183, "분" to 138, "분만" to 3152, "명" to 98, "당" to 388, "시간" to 92, "부" to 400, "여" to 814,
+        "든" to 369, "살" to 131, "다음" to 272, "주" to 376, "주로" to 1512, "차" to 160, "라도" to 561, "길" to 323,
+        "분야" to 662, "두" to 157,
+    )
+
+    /** Words a dictionary pack adds, without a rank. */
+    private val packWords = listOf(
+        "나는", "날다", "사", "집은", "집다", "개는", "아이가", "수도", "도와요", "나와요", "모였어요", "사장", "열한", "부당",
+        "여든", "차라", "아이들", "길이", "개이다", "다섯",
     )
 
     @BeforeTest
-    fun lexicon() = Lexicons.set("ko", Lexicon(ranks.keys + listOf("나는", "날다", "사", "집은", "집다", "개는", "아이가", "수도"), ranks))
+    fun lexicon() = Lexicons.set("ko", Lexicon(ranks.keys + packWords, ranks))
 
     @AfterTest
     fun forget() = Lexicons.set("ko", null)
@@ -115,6 +126,65 @@ class KoreanParserTest {
         assertEquals(listOf("개", "는"), words("개는"))
         assertEquals(listOf("아이", "가"), words("아이가"))
         assertEquals(listOf("할", "수", "도", "있다"), words("할 수도 있다"))
+    }
+
+    /** A verb's form that looks like a word with particles stays whole: 요 follows no 와, nor the copula's past 모. */
+    @Test
+    fun verbFormsThatLookLikeParticlesStayWhole() {
+        assertEquals(listOf("도와요"), words("도와요"))
+        assertEquals(listOf("나와요"), words("나와요"))
+        assertEquals(listOf("모였어요"), words("모였어요"))
+        assertEquals(listOf("의사", "였어요"), words("의사였어요"))
+        assertEquals(listOf("커피", "와"), words("커피와"))
+        // A verb's form the list has (하자 of 하다) is no word of its own.
+        assertEquals(listOf("하자"), words("하자"))
+    }
+
+    /** After a number or a word of time, a counter is cut from its particles, whatever word they spell. */
+    @Test
+    fun aCounterAfterANumberIsCutFromItsParticles() {
+        assertEquals(listOf("로봇", "한", "대", "가"), words("로봇 한 대가"))
+        assertEquals(listOf("대가"), words("대가"))
+        assertEquals(listOf("열한", "시", "야"), words("열한 시야"))
+        assertEquals(listOf("몇", "시", "야"), words("몇 시야"))
+        assertEquals(listOf("시야"), words("시야"))
+        assertEquals(listOf("오", "분", "만"), words("오 분만"))
+        assertEquals(listOf("분", "만"), language.parseTokens("5분만").filter { it.isWord }.map { it.token })
+        assertEquals(listOf("다음", "주", "로"), words("다음 주로"))
+        assertEquals(listOf("주로"), words("주로"))
+        // 야 follows a vowel: 두 분야 is two fields.
+        assertEquals(listOf("두", "분야"), words("두 분야"))
+        // 개이다 is a verb, but after a number 개 is the counter.
+        assertEquals(listOf("다섯", "개", "였어요"), words("다섯 개였어요"))
+        // Not across a comma.
+        assertEquals(listOf("한", "대가"), words("한, 대가"))
+    }
+
+    @Test
+    fun perFollowsACounter() {
+        assertEquals(listOf("한", "명", "당"), words("한 명당"))
+        assertEquals(listOf("시간", "당"), words("시간당"))
+        assertEquals(listOf("부당"), words("부당"))
+    }
+
+    @Test
+    fun numbersWrittenOutStayWhole() {
+        assertEquals(listOf("여든", "살"), words("여든 살"))
+        assertEquals(listOf("열한"), words("열한"))
+    }
+
+    @Test
+    fun theHonorificGoesWithTheWordBeforeTheParticle() {
+        assertEquals(listOf("사장님", "께"), words("사장님께"))
+        assertEquals(listOf("선생님", "께"), words("선생님께"))
+    }
+
+    /** The dictionary's rare words give way to a word of the list and its particles (차라도, 아이들, 길이). */
+    @Test
+    fun rareDictionaryWordsGiveWayToTheListsWords() {
+        assertEquals(listOf("차", "라도"), words("차라도"))
+        assertEquals(listOf("아이", "들"), words("아이들"))
+        assertEquals(listOf("길", "이"), words("길이"))
     }
 
     @Test

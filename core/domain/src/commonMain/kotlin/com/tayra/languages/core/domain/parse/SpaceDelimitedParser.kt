@@ -37,6 +37,12 @@ open class SpaceDelimitedParser : TextParser {
     /** The words a run of word characters is read as: by default, the run itself. */
     protected open fun words(word: String): List<String> = listOf(word)
 
+    /**
+     * The words a run is read as after [previous]: the run before it when only spaces part them, or the
+     * digits just before it (3개), else null. By default the run is read alone.
+     */
+    protected open fun words(word: String, previous: String?): List<String> = words(word)
+
     private fun parseParagraph(text: String, language: Language, tokens: MutableList<ParsedToken>) {
         val termChars = normalizeRegexEscapes(language.wordCharacters.trim()).ifEmpty { DEFAULT_WORD_CHARACTERS }
         val splitExceptions = language.exceptionsSplitSentences.replace(".", "\\.")
@@ -52,10 +58,18 @@ open class SpaceDelimitedParser : TextParser {
         }
 
         var position = 0
+        var previousWord: String? = null
         for (match in wordRegex.findAll(text)) {
             if (match.value.isEmpty()) continue
-            addNonWords(text.substring(position, match.range.first))
-            words(match.value).forEach { tokens.add(ParsedToken(it, isWord = true)) }
+            val gap = text.substring(position, match.range.first)
+            addNonWords(gap)
+            val previous = when {
+                gap.lastOrNull()?.isDigit() == true -> gap.takeLastWhile { it.isDigit() }
+                gap.isNotEmpty() && gap.isBlank() -> previousWord
+                else -> null
+            }
+            words(match.value, previous).forEach { tokens.add(ParsedToken(it, isWord = true)) }
+            previousWord = match.value
             position = match.range.last + 1
         }
         addNonWords(text.substring(position))

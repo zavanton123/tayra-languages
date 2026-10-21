@@ -7,7 +7,11 @@ import kotlin.math.ln
  * 집에도 is 집 + 에 + 도), which then read as words of their own, as Japanese particles do. Verbs and
  * adjectives stay whole (먹었어요): their endings are no particles, and lookup finds the verb.
  *
- * A word is cut only after a word the lexicon knows. Of the cuts and the word left whole, the one whose
+ * After a number (한 대가, 3개월에, 열한 시야) or a word of time (다음 주로), a word that is a counter with
+ * particles is cut so: 대 + 가, not 대가 "price". A number written out stays whole (여든, not 여 + 든).
+ *
+ * A word is cut only after a word the lexicon knows, or such a word with the honorific 님 (사장님께). Of the
+ * cuts and the word left whole, the one whose
  * pieces are together the most common wins, by the costs SegmentingParser gives Chinese words: a word the
  * frequency list has stays whole (사과; 나가, a form of 나가다). One only a dictionary has never stays
  * whole against a cut after a word of the list: the dictionary's forms tables are full of look-alikes
@@ -19,16 +23,22 @@ class KoreanParser : SpaceDelimitedParser(), LexiconParser {
 
     override val name: String get() = "Korean"
 
-    override fun words(word: String): List<String> = Lexicons[CODE]?.let { cut(word, it) } ?: listOf(word)
+    override fun words(word: String): List<String> = words(word, null)
+
+    override fun words(word: String, previous: String?): List<String> {
+        val lexicon = Lexicons[CODE] ?: return listOf(word)
+        return counterCut(word, lexicon, previous) ?: cut(word, lexicon)
+    }
 
     fun cut(word: String, lexicon: Lexicon): List<String> {
+        if (NATIVE_NUMBER.matches(word)) return listOf(word)
         var best: Double? = null
         var cut = listOf(word)
         var afterListed = false
         for (end in word.length - 1 downTo 1) {
             val stem = word.substring(0, end)
-            if (stem !in lexicon) continue
-            for (stack in stacks(word.substring(end), stem)) {
+            if (stem !in lexicon && !(stem.endsWith(HONORIFIC) && end > 1 && stem.dropLast(1) in lexicon)) continue
+            for (stack in stacks(word.substring(end), stem, lexicon)) {
                 val pieces = listOf(stem) + stack
                 val cost = pieces.sumOf { ln((lexicon.rank(it) ?: UNRANKED).toDouble()) + WORD_COST }
                 if (lexicon.rank(stem) != null) afterListed = true
@@ -43,9 +53,35 @@ class KoreanParser : SpaceDelimitedParser(), LexiconParser {
         return if (whole != null && ln(whole.toDouble()) + WORD_COST <= best) listOf(word) else cut
     }
 
-    /** Every way [rest] is a stack of particles after [stem]. */
-    private fun stacks(rest: String, stem: String): List<List<String>> {
+    /**
+     * The word cut as a counter and its particles when [previous], the word before it, is a number or a word
+     * of time before a unit of time; null otherwise, or when the word is a counter itself.
+     */
+    fun counterCut(word: String, lexicon: Lexicon, previous: String?): List<String>? {
+        if (previous == null) return null
+        val counters = when {
+            isNumber(previous) || previous == HOW_MANY -> COUNTERS
+            previous in TIME_WORDS -> TIME_COUNTERS
+            else -> return null
+        }
+        for (counter in counters.filter { word.startsWith(it) }.sortedByDescending { it.length }) {
+            if (counter == word) return null
+            // A counter's stack may hold the copula's past: 다섯 개였어요 is 개 + 였어요, though 개이다 is a verb.
+            val best = stacks(word.substring(counter.length), counter, null)
+                .minByOrNull { stack -> stack.sumOf { ln((lexicon.rank(it) ?: UNRANKED).toDouble()) } }
+            if (best != null) return listOf(counter) + best
+        }
+        return null
+    }
+
+    /** Whether [word] is a number: in digits, or written out, native (세, 열한, 여든) or Sino-Korean (오, 삼십). */
+    private fun isNumber(word: String): Boolean =
+        word.isNotEmpty() && word.all { it.isDigit() } || NATIVE_NUMBER.matches(word) || SINO_NUMBER.matches(word)
+
+    /** Every way [rest] is a stack of particles after [stem]; with the [lexicon], no copula's past after a verb's stem in 이. */
+    private fun stacks(rest: String, stem: String, lexicon: Lexicon?): List<List<String>> {
         val out = mutableListOf<List<String>>()
+        val verbInI = lexicon != null && stem + COPULA_STEM in lexicon
 
         fun go(at: Int, last: Char, slot: Int, pieces: List<String>, place: Int) {
             if (at == rest.length) {
@@ -53,15 +89,19 @@ class KoreanParser : SpaceDelimitedParser(), LexiconParser {
                 return
             }
             if (pieces.size == STACK) return
-            if (pieces.isNotEmpty() && rest.endsWith(POLITE) && at + POLITE.length == rest.length) out += pieces + POLITE
+            if (pieces.isNotEmpty() && pieces.last() !in NOT_BEFORE_POLITE && rest.endsWith(POLITE) && at + POLITE.length == rest.length) {
+                out += pieces + POLITE
+            }
             if (slot <= 1 && (pieces.isNotEmpty() || stem !in NOT_BEFORE_COPULA)) {
                 for ((form, sound) in COPULA) {
+                    if (pieces.isEmpty() && verbInI && form.startsWith(COPULA_PAST)) continue
                     if (rest.endsWith(form) && at + form.length == rest.length && follows(last, sound)) out += pieces + form
                 }
             }
             for (particle in PARTICLES) {
                 if (!rest.startsWith(particle.form, at) || !follows(last, particle.sound)) continue
                 if (particle.form == "가" && pieces.isEmpty() && stem in NOT_BEFORE_GA) continue
+                if (particle.form == PER && (pieces.isNotEmpty() || stem !in COUNTERS)) continue
                 // Two particles of place and manner may stack (에서부터, 까지만); otherwise each comes later than the last.
                 if (particle.slot > slot || (particle.slot == slot && slot == 1 && place == 1)) {
                     go(at + particle.form.length, particle.form.last(), particle.slot, pieces + particle.form, place + if (particle.slot == 1) 1 else 0)
@@ -100,8 +140,49 @@ class KoreanParser : SpaceDelimitedParser(), LexiconParser {
         const val STACK = 4
         const val FINAL_L = 8
 
-        /** The polite 요, after a particle only (학교에서요): after a verb it is part of the verb (먹었어요). */
+        /**
+         * The polite 요, after a particle only (학교에서요): after a verb it is part of the verb (먹었어요). Nor
+         * does it follow 와 or 과, which are of writing: 도와요 and 나와요 are forms of 돕다 and 나오다.
+         */
         const val POLITE = "요"
+        val NOT_BEFORE_POLITE = setOf("와", "과")
+
+        /** 당 "per", right after a counter only (시간당, 개당; 부당 "unjust" is no 부 + 당). */
+        const val PER = "당"
+
+        /**
+         * The copula's past after a vowel (였어요) is no copula after a stem that makes a verb in 이다
+         * (모이다): 모였어요 is 모이다's.
+         */
+        const val COPULA_STEM = "이다"
+        const val COPULA_PAST = "였"
+
+        /** The honorific 님 after a word (사장님께 is 사장님 + 께 though the lexicon lacks 사장님). */
+        const val HONORIFIC = "님"
+
+        /** Number words before a counter (세 명, 열한 시, 여든 살), which stay whole: 여든 is no 여 + 든. */
+        val NATIVE_NUMBER = Regex("(?:열|스물|스무|서른|마흔|쉰|예순|일흔|여든|아흔)(?:한|두|세|석|네|넉|다섯|여섯|일곱|여덟|아홉)?|한|두|세|석|네|넉|다섯|여섯|일곱|여덟|아홉")
+
+        /**
+         * Sino-Korean numbers (오 분, 만 원, 삼십 분), digits between their tens, hundreds, thousands and ten
+         * thousands; but not 이 "this", 사 or 구 alone, which are more often words.
+         */
+        val SINO_NUMBER = Regex("(?:[이삼사오육칠팔구]?[십백천만])+[일이삼사오육칠팔구]?|[일삼오육칠팔]")
+
+        const val HOW_MANY = "몇"
+
+        /** The counters a number comes before. */
+        val COUNTERS = setOf(
+            "개", "명", "분", "시", "시간", "살", "번", "마리", "잔", "병", "권", "장", "대", "층", "원", "년", "월", "일", "주",
+            "주일", "주년", "개월", "달", "가지", "그릇", "벌", "켤레", "송이", "번째", "째", "쪽", "초", "세", "인분", "칸", "줄",
+            "통", "곡", "편", "채", "군데", "학년", "반", "호", "점", "퍼센트", "도", "배", "박", "박스", "봉지", "상자", "조각",
+            "컵", "접시", "바퀴", "정거장", "킬로", "킬로미터", "미터", "킬로그램", "그램", "리터", "센티미터", "호선", "등", "사람",
+            "인", "건", "회",
+        )
+
+        /** Words of time before a unit of time (다음 주, 지난 달, 이번 해), and those units. */
+        val TIME_WORDS = setOf("다음", "이번", "지난", "저번", "매")
+        val TIME_COUNTERS = setOf("주", "달", "해", "번")
 
         /** 가 does not follow these: before it they are 내, 제 (내가), so 나가 is a form of 나가다. */
         val NOT_BEFORE_GA = setOf("나", "저")
@@ -123,7 +204,7 @@ class KoreanParser : SpaceDelimitedParser(), LexiconParser {
             "와" to Sound.VOWEL, "과" to Sound.CONSONANT, "하고" to Sound.ANY, "랑" to Sound.VOWEL, "이랑" to Sound.CONSONANT,
             "처럼" to Sound.ANY, "보다" to Sound.ANY, "까지" to Sound.ANY, "부터" to Sound.ANY, "마다" to Sound.ANY,
             "만큼" to Sound.ANY, "대로" to Sound.ANY, "만" to Sound.ANY, "밖에" to Sound.ANY, "뿐" to Sound.ANY,
-            "조차" to Sound.ANY, "마저" to Sound.ANY,
+            "조차" to Sound.ANY, "마저" to Sound.ANY, PER to Sound.ANY,
         ).map { (form, sound) -> Particle(form, sound, 1) } + listOf(
             "도" to Sound.ANY, "은" to Sound.CONSONANT, "는" to Sound.VOWEL, "이나" to Sound.CONSONANT, "나" to Sound.VOWEL,
             "이라도" to Sound.CONSONANT, "라도" to Sound.VOWEL, "이든" to Sound.CONSONANT, "든" to Sound.VOWEL,
