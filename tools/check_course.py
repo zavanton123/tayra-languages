@@ -827,10 +827,12 @@ def korean_reader():
         lemmas = {}
         for form, lemma in db.execute("SELECT form_lc, lemma FROM forms"):
             lemmas.setdefault(form, set()).add(lemma)
+        # The pack's words that are another's forms (화려한, 먹기, 아빤), as the list builder reads them.
+        glossed = fl.korean_glossed(db.execute("SELECT word_lc, pos, senses FROM entries"), verbs)
         # Nouns and names of the pack, which the rules would read as some verb's form (김 of 기다, 오이 of 오다).
-        nominal = {w for (w,) in db.execute("SELECT word_lc FROM entries WHERE pos IN ('noun', 'name', 'pron', 'num')")}
+        nominal = {w for (w,) in db.execute("SELECT word_lc FROM entries WHERE pos IN ('noun', 'name', 'pron', 'num')")} - glossed.keys()
         _korean.update(fl=fl, known=lambda w: w in words or w in pack, rank=bundled.get, verbs=verbs, lemmas=lemmas,
-                       reu=fl.korean_reu_doubling(lemmas), nominal=nominal, excluded=fl.EXCLUDE.get("ko", set()))
+                       reu=fl.korean_reu_doubling(lemmas), nominal=nominal, excluded=fl.EXCLUDE.get("ko", set()), glossed=glossed)
     return _korean
 
 
@@ -850,8 +852,9 @@ def korean_guess(form, ranks, heads, depth=0):
     fl = k["fl"]
 
     def listed_verb(lemma):
-        # A verb of the list: a headword, or one in 하다 the list counts for its noun (운동하다 of 운동).
-        return lemma in k["verbs"] and (lemma in heads or lemma.endswith("하다") and lemma in ranks and lemma[:-2] in heads)
+        # A verb of the list: a headword, or one in 하다 or 되다 the list counts for its noun (운동하다 of 운동).
+        return lemma in k["verbs"] and (lemma in heads or lemma.endswith(fl.KOREAN_MERGED_LIGHT_VERBS) and lemma in ranks
+                                        and lemma[:-2] in heads)
 
     # A name the list leaves out (김, 박) is no verb's form: the course lists it in its names.
     if form in k["excluded"]:
@@ -859,6 +862,9 @@ def korean_guess(form, ranks, heads, depth=0):
     # The copula's form, which the list lists under 이다 (선생님 + 이세요).
     if form in fl.KOREAN_COPULA_FORMS:
         return "이다" if "이다" in heads else None
+    # A form the pack has as a word, which the list counts for the word it is the form of (화려한 of 화려하다).
+    if k["glossed"].get(form) in ranks:
+        return k["glossed"][form]
     # The pack's own verb for the form (나으세요 of 낫다, not 나다), as the list builder takes it.
     listed = [lemma for lemma in k["lemmas"].get(form, ()) if listed_verb(lemma)]
     if listed:
@@ -872,15 +878,18 @@ def korean_guess(form, ranks, heads, depth=0):
     humble = fl.korean_humble_verb(form, listed_verb)
     if humble:
         return humble
+    stems = [verb for verb, beginnings in fl.KOREAN_STEMS.items() if form.startswith(beginnings) and listed_verb(verb)]
+    if stems:
+        return stems[0]
     found = [(steps, ranks[lemma], lemma) for lemma, steps in fl.korean_dictionary_forms(form)
              if listed_verb(lemma) and fl.korean_stem_of(lemma, form) and fl.korean_reu_fits(lemma, form, k["reu"])]
     if found:
         return min(found)[2]
-    # A verb of a noun and 하다 the pack lacks is the noun's (출시했어요 of 출시), as the list builder takes it.
-    for lemma, _ in fl.korean_dictionary_forms(form):
-        noun = lemma[:-2]
-        if lemma.endswith("하다") and len(noun) > 1 and lemma not in k["verbs"] and noun in heads and noun in k["nominal"] \
-                and form.startswith(noun) and form[len(noun):len(noun) + 1] in fl.KOREAN_HADA:
+    # A verb of a noun and 하다, 되다, 시키다 or 당하다 the pack lacks is the noun's (출시했어요, 출시됐어요 of 출시), as the list
+    # builder takes it.
+    for lemma, _ in [(form, 0)] + fl.korean_dictionary_forms(form):
+        noun = fl.korean_light_noun(lemma, form)
+        if noun and lemma not in k["verbs"] and noun in heads and noun in k["nominal"] and lemma not in fl.KOREAN_APART:
             return noun
     # A verb in 지다 "become" the list lacks is its verb's (쉬워졌다 of 쉽다), as the list builder takes it.
     for lemma, _ in fl.korean_dictionary_forms(form):
@@ -891,6 +900,11 @@ def korean_guess(form, ranks, heads, depth=0):
     stem = next((form[:-len(e)] for e in fl.KOREAN_SPOKEN_ENDINGS if form.endswith(e) and len(form) > len(e)), None)
     if stem and stem + "다" in heads and stem + "다" in k["verbs"]:
         return stem + "다"
+    # After a verb's form in 다 without it (했잖아요 of 했다, 하다's).
+    if stem and len(stem) > 1 and depth < 2:
+        verb = korean_guess(stem + "다", ranks, heads, depth + 1)
+        if verb:
+            return verb
     if form.endswith(fl.KOREAN_POLITE) and len(form) > 2 and depth < 2:
         base = form[:-1]
         listed = [lemma for lemma in k["lemmas"].get(base, ()) if listed_verb(lemma)]
@@ -959,6 +973,10 @@ def korean_tokens(text, ranks, names, heads):
             pieces = pieces[1:]
         previous_end = match.end()
         previous_number = len(pieces) == 1 and pieces[0] == run and fl.korean_number(run)
+        # The copula's form that is a word too (고양이 + 다, 결과 + 일) is not named by its spelling: it counts with the
+        # word before it, as one word.
+        if len(pieces) > 1 and pieces[-1] in fl.KOREAN_COPULA_WORDS:
+            pieces = pieces[:-1]
         # The copula's form alone, which takes a noun before it, is a verb's (말을 이었다 is 잇다's); after a quote it
         # is the copula ("…"이라며).
         if pieces == [run] and run in fl.KOREAN_COPULA_FORMS and (start == 0 or text[start - 1].isspace()):
