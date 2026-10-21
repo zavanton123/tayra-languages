@@ -98,6 +98,20 @@ class MorphologyLookupTest {
         assertTrue(service.lookup(ko, "없다").isEmpty)
     }
 
+    /** The reader shows a particle as a word of its own; the pack has it as a suffix. */
+    @Test
+    fun koreanParticlesAreFoundUnderTheirSuffix() = runTest {
+        val (service, ko) = service(
+            "ko",
+            listOf(
+                Triple("-에서", "particle", "at, in"), Triple("에서", "name", "Esau"),
+                Triple("-나", "particle", "or"), Triple("나", "pron", "I"), Triple("-나", "suffix", "an interrogative marker"),
+            ),
+        )
+        assertEquals(listOf("-에서", "에서"), service.lookup(ko, "에서").entries.map { it.word })
+        assertEquals(listOf("pron", "particle"), service.lookup(ko, "나").entries.map { it.pos })
+    }
+
     @Test
     fun japaneseConjugationsFindTheirDictionaryForm() = runTest {
         val (service, ja) = service("ja", listOf(Triple("使う", "verb", "to use"), Triple("短い", "adj", "short")))

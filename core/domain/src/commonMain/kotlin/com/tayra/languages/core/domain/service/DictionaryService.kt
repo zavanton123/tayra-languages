@@ -218,9 +218,10 @@ class DictionaryService(
         // An entry in another case ("CATS" for "cats"), or one whose every sense is obsolete
         // (the archaic noun "went"), is not the word the reader met: it ranks after the lemmas'
         // entries and does not stop an inflected form from getting its parent.
-        val (own, otherCase) = repository.entries(dictionary, wordLc)
+        val (spelled, otherCase) = repository.entries(dictionary, wordLc)
             .sortedWith(compareBy({ caseRank(it.word, word) }, { !it.common }, { posRank(it.pos) }, { -it.senses.size }))
             .partition { caseRank(it.word, word) < 2 && it.senses.any { sense -> sense.tags.none { tag -> tag in DATED_TAGS } } }
+        val own = withParticles(dictionary, wordLc, spelled)
         // Headwords that differ only in case are usually a common noun and a name ("word", "Word");
         // the one whose case matches the clicked word wins, so the name does not become the parent.
         val lemmas = formLemmas(dictionary, wordLc)
@@ -244,6 +245,16 @@ class DictionaryService(
         }
         if (dictionary.sourceLanguage in PARTICLE_LANGUAGES) beginning(dictionary, word, morphology)?.let { return it }
         return lookup
+    }
+
+    /**
+     * A Korean particle the reader cuts off a word (에서, 도) is filed in the pack as a suffix ("-에서"): its
+     * entry comes first, but after a pronoun, determiner or verb spelled alike (나, "I", before -나, "or").
+     */
+    private suspend fun withParticles(dictionary: DictionaryId, wordLc: String, own: List<DictionaryEntry>): List<DictionaryEntry> {
+        if (dictionary.sourceLanguage !in PARTICLE_LANGUAGES) return own
+        val particles = repository.entries(dictionary, "-$wordLc").filter { it.pos == "particle" }
+        return if (own.any { it.pos in WORDS_BEFORE_PARTICLES }) own + particles else particles + own
     }
 
     /**
@@ -335,6 +346,9 @@ class DictionaryService(
 
     /** Languages whose words carry their particles and endings joined on, so a word's beginning may be the dictionary word. */
     private val PARTICLE_LANGUAGES = setOf("ko")
+
+    /** The parts of speech whose entries come before a particle's spelled alike. */
+    private val WORDS_BEFORE_PARTICLES = setOf("pron", "det", "verb", "adj")
 
     /** More lemmas than any real inflection is shared by; tools/build_dictionary.py drops such forms too. */
     private val MAX_LEMMAS_PER_FORM = 30
