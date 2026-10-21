@@ -183,12 +183,13 @@ class FlashcardsScreenTest {
 
     @Test
     fun aCardWithoutHintsStaysAsItIs() = runDesktopComposeUiTest(width = 1586, height = 1000) {
-        show(wiktionary = FakeWiktionary(null))
+        val viewModel = show(wiktionary = FakeWiktionary(null))
         onNodeWithText("Show answer").performClick()
         onNodeWithText("купить, покупать").assertExists()
         assertEquals(0, onAllNodesWithTag("flashcard-hints").fetchSemanticsNodes().size)
+        // The failed lookup leaves the card to be answered as any other.
         onNodeWithText("Good").performClick()
-        waitUntil(timeoutMillis = 5_000) { status() != TermStatus.NEW_1 || onAllNodesWithText("Show answer").fetchSemanticsNodes().isEmpty() }
+        waitUntil(timeoutMillis = 5_000) { viewModel.state.value.answered == 1 }
     }
 
     @Test
