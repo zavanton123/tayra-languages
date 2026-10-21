@@ -328,6 +328,10 @@ def korean_stacks(rest, stem, known=None):
     return out
 
 
+# The final consonants a verb's stem may lose or change (none, ㄷ, ㄹ, ㅂ, ㅅ, ㅎ), as Hangul numbers them.
+KOREAN_SOFT_FINALS = {0, 7, 8, 17, 19, 27}
+
+
 def korean_stem_of(lemma, word):
     """
     Whether [lemma], a dictionary form, can be what [word] inflects: its stem begins the word, the
@@ -345,7 +349,56 @@ def korean_stem_of(lemma, word):
             return False
     # A stem in ㄹ takes no ending in 으 (길다: 길면, 긴, 길), which the rules allow: 길을 is 길 + 을.
     after = ord(word[len(stem)]) - 0xAC00 if len(word) > len(stem) else -1
-    return not ((ord(stem[-1]) - 0xAC00) % 28 == 8 and 0 <= after < 11172 and after // 28 == 11 * 21 + 18)
+    final = (ord(stem[-1]) - 0xAC00) % 28
+    if final == 8 and 0 <= after < 11172 and after // 28 == 11 * 21 + 18:
+        return False
+    # Only a stem in ㄷ, ㄹ, ㅂ, ㅅ or ㅎ loses or changes its last consonant (들어 of 듣다, 사는 of 살다, 도와 of
+    # 돕다); the rules, which read the letters apart, also take 부터요 for 붙어요.
+    return final in KOREAN_SOFT_FINALS or word[len(stem) - 1] == stem[-1]
+
+
+def korean_reu_doubling(lemmas):
+    """
+    The verbs in 르 of the pack, each with whether its 아/어 forms double the ㄹ (자르다: 잘라, 잘랐다) or not (따르다:
+    따라), by the most of the forms the pack files under it; [lemmas] maps a form to the words it is a form of.
+    """
+    votes = defaultdict(int)
+    for form, of in lemmas.items():
+        for lemma in of:
+            doubled = korean_reu_doubled(lemma, form)
+            if doubled is not None:
+                votes[lemma] += 1 if doubled else -1
+    return {lemma: n > 0 for lemma, n in votes.items() if n}
+
+
+def korean_reu_doubled(lemma, word):
+    """For a verb in 르 and its form in 아/어 (잘라 or 자라 of 자르다), whether the form doubles the ㄹ; None for any other."""
+    stem = lemma[:-1]
+    if len(stem) < 2 or not stem.endswith("르") or len(word) < len(stem) or not lemma.endswith("다"):
+        return None
+    at, before = ord(word[len(stem) - 1]) - 0xAC00, ord(word[len(stem) - 2]) - 0xAC00
+    if not (0 <= at < 11172 and 0 <= before < 11172) or at // 588 != 5 or at // 28 % 21 not in (0, 4):
+        return None
+    return before % 28 == 8
+
+
+def korean_reu_fits(lemma, word, doubling):
+    """Whether [word] may be a form of [lemma] as its 르 takes 아/어 ([doubling], of korean_reu_doubling): 자랐고 is no 자르다's."""
+    doubled = korean_reu_doubled(lemma, word)
+    return doubled is None or lemma not in doubling or doubled == doubling[lemma]
+
+
+# A Korean form goes to a verb at least as common as it with its other forms, the pack and the rules tying
+# many forms to rare verbs that only look alike (미니, a name, to 미다); failing that, to one the rules make it
+# of that is KOREAN_LOOKALIKE times less common, as a verb whose commonest form is this one may be (그래요, 긴).
+KOREAN_LOOKALIKE = 10.0
+# The endings of a polite or formal sentence (부탁해요, 감사합니다), which make no word but the verb's form.
+KOREAN_SENTENCE_ENDINGS = ("요", "니다")
+KOREAN_NOMINAL = {"noun", "pron", "num"}
+# A form shared by verbs is listed only under those it goes to at least a KOREAN_LISTED-th as much as the most.
+KOREAN_LISTED = 3.0
+# The syllables 하다's stem takes (확보해요, 확보했다, 확보합니다, 확보할, 확보한).
+KOREAN_HADA = set("하해했합할한함")
 
 
 # Endings joined to a verb's stem as they are (하자, 보지, 알리고, 가면), and those after which a stem ending
@@ -967,9 +1020,10 @@ def build_korean(found, size):
     # A noun of the pack spelled as a common verb's form (하자 of 하다, 보지 of 보다, 가도 of 가다, 알리고 of
     # 알리다) is the verb's when it seldom takes a case particle, which a noun takes and a verb's form never
     # does, and the verb's other forms are KOREAN_VERB_SHARE times as common as it.
+    left_out = EXCLUDE.get("ko", set()) | KOREAN_CUT
     mass = defaultdict(float)
     for run, x in share.items():
-        for lemma in lemmas.get(run, ()):
+        for lemma in lemmas.get(run, ()) if run not in left_out else ():
             mass[lemma] += x
     verbal_nouns = {}
     for run, x in share.items():
@@ -1052,8 +1106,11 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None):
         if not mass:
             for form, share in freq.items():
                 mass[form] = mass.get(form, 0) + share
-                of = set(lemmas.get(form, [])) - {form}
-                if len(of) == 1 and not is_word(form):
+                # A word left out (the name 김) is no verb's form, and a verb left out (긷다) shares no form; nor is
+                # a form sent elsewhere by hand or as a particle (겁니다 of 거, not 걸다; 든 of 뭐든, not 들다).
+                of = set(overrides[form] if form in overrides else [] if language == "ko" and form in KOREAN_OWN | KOREAN_COPULA_FORMS
+                         else lemmas.get(form, [])) - {form} - excluded
+                if len(of) == 1 and not is_word(form) and form not in excluded:
                     lemma = of.pop()
                     mass[lemma] = mass.get(lemma, 0) + share
         return mass.get(word, 0)
@@ -1074,11 +1131,26 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None):
         guessed.setdefault(key, lemma)
         return key
 
+    reu = {}
+
     def korean_guess(form):
         """The verb or adjective a Korean form the dictionary lacks inflects, by Yomitan's rules: the nearest, then the commonest."""
+        if not reu:
+            reu.update(korean_reu_doubling(lemmas))
+        # The polite 요 after a word (사람요, 다시요), before the rules take it for a verb's (살다, 달다); but 되요, 돼요
+        # misspelt, is of 되다, a verb commoner than the word 되 that its stem spells.
+        base = form[:-1]
+        if form.endswith(KOREAN_POLITE) and is_word(base) and not (
+                is_word(base + "다") and pos[base + "다"] & {"verb", "adj"} and weight(base + "다") >= weight(base)):
+            return base
         found = [(steps, -weight(lemma), lemma) for lemma, steps in korean_dictionary_forms(form)
-                 if korean_stem_of(lemma, form) and pos.get(lemma, set()) & {"verb", "adj"} and lemma in common and lemma not in excluded
-                 and weight(lemma) >= count(form)]
+                 if korean_stem_of(lemma, form) and korean_reu_fits(lemma, form, reu) and pos.get(lemma, set()) & {"verb", "adj"}
+                 and lemma in common and lemma not in excluded]
+        # Failing that, a verb a tenth as common whose stem the form is with a plain ending (길게 of 길다, 쉽지 of 쉽다).
+        # A verb in 하다 is no look-alike when the form spells its 하 out (확보했습니다 of 확보하다).
+        found = [f for f in found if -f[1] >= count(form)] or [
+            f for f in found if -KOREAN_LOOKALIKE * f[1] >= count(form) and any(form == f[2][:-1] + e for e in KOREAN_PLAIN_ENDINGS)
+            or f[2].endswith("하다") and form[len(f[2]) - 2:len(f[2]) - 1] in KOREAN_HADA]
         if not found:
             # Spoken endings the rules lack: 있잖아 "you know, there is" of 있다.
             stem = next((form[:-len(ending)] for ending in KOREAN_SPOKEN_ENDINGS if form.endswith(ending) and len(form) > len(ending)), None)
@@ -1134,6 +1206,7 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None):
 
     def direct(form):
         """The words a form's count goes to, with their shares, before following words that are forms themselves."""
+        compared = False
         if form in overrides:
             others = overrides[form]
             if others == [form]:
@@ -1146,6 +1219,14 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None):
             return {next(verb for verb in KOREAN_STEMS if form.startswith(KOREAN_STEMS[verb])): 1.0}
         elif language == "ko" and form in KOREAN_COPULA_FORMS:
             return {"이다": 1.0}
+        elif language == "ko" and form in pos and form.endswith(KOREAN_SENTENCE_ENDINGS) and not pos[form] & KOREAN_NOMINAL and (
+                verbs := [l for l in dict.fromkeys(lemmas.get(form, [])) if l != form and is_word(l) and pos[l] & {"verb", "adj"} and korean_stem_of(l, form)]):
+            # A verb's polite or formal form that the pack has as a word too (부탁해요 "please", 감사합니다 "thank you") is the verb's.
+            weights = {l: weight(l) or 1e-12 for l in verbs}
+            return {l: w / sum(weights.values()) for l, w in weights.items()}
+        elif language == "ko" and form.endswith("게") and "adv" in pos.get(form, set()) and is_word(form[:-1] + "다") and pos[form[:-1] + "다"] & {"verb", "adj"}:
+            # An adverb in -게 is its adjective's form (짧게 of 짧다, 크게 of 크다); the pro-forms (어떻게, 그렇게) are overrides.
+            return {form[:-1] + "다": 1.0}
         elif language == "ko" and form.endswith("다") and is_word(form) and pos[form] & {"verb", "adj"} and not any(
                 steps and korean_stem_of(lemma, form) and lemma in lemmas.get(form, []) for lemma, steps in korean_dictionary_forms(form)):
             # A dictionary form is no form of another word, as the pack has some (들다 of 먹다, 다르다 of 다른),
@@ -1222,10 +1303,14 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None):
             ]
             if not others:
                 return {form: 1.0}
-        if language == "ko" and form not in overrides:
-            # A Korean form goes only to words at least as common as it with their forms: the pack and the
-            # rules also tie forms to rare verbs that only look alike (미니, a name, to 미다).
-            others = [l for l in others if weight(l) >= count(form)]
+            compared = True
+        if language == "ko" and form not in overrides and not compared:
+            # A form that is a word itself went to its verb above by [TAKEOVER]; others go by KOREAN_LOOKALIKE.
+            near = [l for l in others if weight(l) >= count(form)]
+            if not near:
+                rules = {lemma for lemma, steps in korean_dictionary_forms(form) if steps and korean_stem_of(lemma, form)}
+                near = [l for l in others if l in rules and KOREAN_LOOKALIKE * weight(l) >= count(form)]
+            others = near
         if not others:
             return {form: 1.0} if form in JA_ORPHANS else {}
         weights = {l: weight(l) or 1e-12 for l in others}
@@ -1261,9 +1346,18 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None):
             forms[lemma][form] = forms[lemma].get(form, 0) + share * part
 
     ranked = sorted(scores, key=lambda w: -scores[w])[:size]
+    # A Korean form shared by verbs (산다 of 살다 and 사다, 준다 of 주다 and 줄다) is listed under one it goes to
+    # KOREAN_LISTED times less than to another only for its share of the count: a course counts 산다 as no use of 사다.
+    main = {}
+    if language == "ko":
+        for word in ranked:
+            for form, share in forms[word].items():
+                if form not in main or share > forms[main[form]][form]:
+                    main[form] = word
     lines = [f"# source: {label}", f"# words: {len(ranked)}"]
     for word in ranked:
-        counted = sorted(forms[word], key=lambda f: -forms[word][f])
+        counted = sorted((f for f in forms[word] if f not in main or KOREAN_LISTED * forms[word][f] >= forms[main[f]][f]),
+                         key=lambda f: -forms[word][f])
         counted = counted[:FORMS_PER_WORD] + [f for f in counted[FORMS_PER_WORD:] if f in required]
         if language == "ja" and any(is_cjk(c) and not is_kana(c) for c in word):
             # A kanji spelling reached through a kana word read alike (枯れる through かれる to 狩る, 湧く through
