@@ -1,0 +1,100 @@
+1	2301	sekretarz	sekretarce sekretarek sekretarka sekretarki sekretarką sekretarkę sekretarza sekretarzami sekretarze sekretarzem sekretarzowi sekretarzu sekretarzy
+2	2302	puścić	puszczaj puszczajcie puszczają puszczając puszczali puszczam puszczamy puszczane puszczania puszczanie puszczany puszczasz puszczać puszczał puszczała puszczałem puszczenia puszczenie puszczona puszczone puszczono puszczony puszczą puszczę puści puścicie puścili puścimy puścisz puścił puściła puściłam puściłaś puściłem puściłeś puściło puściły puść puśćcie
+3	2303	niezwykły	niezwykli niezwykła niezwykłe niezwykłego niezwykłej niezwykłych niezwykłym niezwykłymi niezwykłą
+4	2304	burza	burz burzami burze burzowa burzowe burzowego burzowej burzowy burzowych burzową burzy burzą burzę
+5	2305	szlak	szlakach szlakami szlaki szlakiem szlaku szlaków
+6	2306	szary	szara szare szarego szarej szaro szarych szarym szarymi szarzy szarą
+7	2307	trend	trendach trendami trendem trendom trendu trendy trendzie trendów
+8	2308	protestować	protestowali protestowania protestowanie protestował protestowała protestowałem protestowało protestowały protestuj protestuje protestujemy protestujesz protestują protestując protestująca protestujące protestujący protestujących protestuję zaprotestowali zaprotestować zaprotestował zaprotestowała
+9	2309	przebieg	przebiegi przebiegiem przebiegu przebiegów
+10	2310	owszem	
+11	2311	wprost	
+12	2312	zimno	zimna zimnem zimnie zimniej
+13	2313	bzdura	bzdur bzdurach bzdurami bzdury bzdurą bzdurę
+14	2314	skomplikowany	skomplikowana skomplikowane skomplikowanego skomplikowanej skomplikowani skomplikowanie skomplikowanych skomplikowanym skomplikowanymi skomplikowaną
+15	2315	faza	faz fazach fazami fazie fazy fazą fazę
+16	2316	chleb	chleba chlebek chlebem chlebie chlebka chlebowa chlebowe chlebowego chlebowy chlebowych chleby chlebów
+17	2317	doskonały	doskonali doskonalsze doskonalszy doskonała doskonałe doskonałego doskonałej doskonałych doskonałym doskonałymi doskonałą najdoskonalszy
+18	2318	marzyć	marz marzy marzycie marzyli marzyliście marzyliśmy marzymy marzysz marzył marzyła marzyłam marzyłaś marzyłem marzyłeś marzyło marzą marząc marzący marzę
+19	2319	czyn	czynach czynami czynem czynie czynom czynu czyny czynów
+20	2320	obowiązywać	obowiązuje obowiązują obowiązująca obowiązujące obowiązującego obowiązujący obowiązywania obowiązywanie obowiązywał obowiązywała obowiązywało obowiązywały
+21	2321	rejestracja	rejestracje rejestracji rejestracją rejestrację rejestracyjna rejestracyjne rejestracyjnego rejestracyjnej rejestracyjny rejestracyjnych rejestracyjnym rejestracyjnymi rejestracyjną
+22	2322	klatka	klacie klata klatce klatek klatkach klatkami klatki klatką klatkę klaty klatą klatę
+23	2323	globalny	globalna globalne globalnego globalnej globalnemu globalnie globalnych globalnym globalną
+24	2324	żal	żale żalem żalu żalów
+25	2325	skrót	skrócie skrótami skrótem skrótowe skrótu skróty skrótów
+26	2326	uroczystość	uroczystości uroczystościach uroczystościami uroczystościom uroczystością
+27	2327	psychiczny	psychiczna psychiczne psychicznego psychicznej psychicznych psychicznym psychicznymi psychiczną
+28	2328	brzuch	brzucha brzuchach brzuchem brzuchu brzuchy brzusio brzuszek brzuszka brzuszki brzuszkiem brzuszku brzuszków brzuszna brzuszne brzusznego brzusznej brzuszny brzusznych brzuszną
+29	2329	osiedle	osiedla osiedlach osiedlami osiedlem osiedli osiedlu
+30	2330	upaść	upada upadają upadając upadające upadającego upadającej upadający upadających upadającą upadam upadamy upadasz upadać upadał upadała upadały upadli upadliśmy upadnie upadniesz upadną upadnę upadł upadła upadłam upadłaś upadłe upadłego upadłej upadłem upadłeś upadło upadły upadłych upadłym
+31	2331	dwór	dworach dworek dworem dworki dworku dworków dworowi dworu dwory dworze dworów
+32	2332	niezbędny	niezbędna niezbędne niezbędnego niezbędnej niezbędni niezbędnych niezbędnym niezbędnymi niezbędną
+33	2333	nota	nocie not notami noto noty notą notę
+34	2334	gorąco	gorąca gorącem goręcej
+35	2335	ukarać	karali karana karane karani karania karanie karaniem karaniu karano karany karanych karanym karać karał karz karze karzemy karzesz karzą karząc pokarał pokarze ukarali ukarana ukarane ukarani ukarania ukaranie ukaraniu ukarano ukarany ukaranych ukarał ukarała ukarze
+36	2336	opowiadanie	opowiadania opowiadaniach opowiadaniami opowiadaniem opowiadaniu opowiadań
+37	2337	księżniczka	księżniczce księżniczek księżniczkami księżniczki księżniczko księżniczką księżniczkę
+38	2338	pieprzyć	pieprzcie pieprzeni pieprzenia pieprzenie pieprzeniem pieprzmy pieprzona pieprzone pieprzonego pieprzonej pieprzony pieprzonych pieprzonym pieprzoną pieprzy pieprzycie pieprzyli pieprzymy pieprzysz pieprzył pieprzyła pieprzyłem pieprzą pieprząc pieprzę
+39	2339	pasażer	pasażera pasażerami pasażerek pasażerem pasażerka pasażerki pasażerom pasażerowie pasażerów
+40	2340	tajny	tajna tajne tajnego tajnej tajni tajnie tajnych tajnym tajnymi tajną
+41	2341	tańczyć	tańcz tańczcie tańczenia tańczenie tańczy tańczyli tańczyliśmy tańczymy tańczysz tańczył tańczyła tańczyłam tańczyłaś tańczyłem tańczyłeś tańczyły tańczą tańcząc tańcząca tańczące tańczącego tańczącej tańczący tańczących tańczącą tańczę zatańcz zatańczy zatańczyli zatańczymy zatańczysz zatańczyć zatańczył zatańczyła zatańczą zatańczę
+42	2342	uwolnić	uwalnia uwalniają uwalniając uwalniający uwalniamy uwalniana uwalniane uwalniania uwalnianie uwalnianiu uwalniany uwalniać uwalniał uwolni uwolnieni uwolnienia uwolnienie uwolnieniem uwolnieniu uwolnij uwolnijcie uwolnili uwolniona uwolnione uwolniono uwolniony uwolnionych uwolnisz uwolnią uwolnię uwolnił uwolniła uwolniłam uwolniło uwolniły
+43	2343	ubezpieczenie	ubezpieczenia ubezpieczeniach ubezpieczeniami ubezpieczeniem ubezpieczeniowa ubezpieczeniowe ubezpieczeniowego ubezpieczeniowej ubezpieczeniowy ubezpieczeniowych ubezpieczeniowym ubezpieczeniową ubezpieczeniu ubezpieczeń
+44	2344	szczery	szczera szczere szczerego szczerej szczerych szczerym szczerymi szczerzy szczerą
+45	2345	uroczy	urocza urocze uroczego uroczej uroczo uroczych uroczym uroczymi uroczą
+46	2346	wzdłuż	
+47	2347	cytat	cytacie cytatach cytatami cytatem cytatu cytaty cytatów
+48	2348	kolekcja	kolekcjach kolekcje kolekcji kolekcją kolekcję
+49	2349	pożar	pożarach pożarami pożarem pożarom pożaru pożary pożarze pożarów
+50	2350	kij	kija kijach kijami kije kijek kijem kijka kijki kijkiem kijków kijowie kiju kijów
+51	2351	nożna	nożnej nożną
+52	2352	zdążyć	zdąża zdążają zdążono zdąży zdążycie zdążyli zdążyliście zdążyliśmy zdążymy zdążysz zdążył zdążyła zdążyłam zdążyłaś zdążyłby zdążyłem zdążyłeś zdążyło zdążyły zdążą zdążę
+53	2353	top	topem topie topu topy topów
+54	2354	otoczenie	otoczenia otoczeniem otoczeniu
+55	2355	bar	bara barach barami barek barem barkach barkami barki barkiem barku barków barowa barowe barowy baru bary barze barów
+56	2356	wysiłek	wysiłkach wysiłkami wysiłki wysiłkiem wysiłkom wysiłkowi wysiłku wysiłków
+57	2357	ciśnienie	ciśnienia ciśnieniach ciśnieniem ciśnieniowa ciśnieniowe ciśnieniowego ciśnieniowej ciśnieniowy ciśnieniowych ciśnieniowym ciśnieniową ciśnieniu ciśnień
+58	2358	wytrzymać	wytrzyma wytrzymaj wytrzymajcie wytrzymają wytrzymali wytrzymaliśmy wytrzymam wytrzymamy wytrzymania wytrzymasz wytrzymał wytrzymała wytrzymałabym wytrzymałam wytrzymałe wytrzymałego wytrzymałej wytrzymałem wytrzymałeś wytrzymało wytrzymały wytrzymałych wytrzymałym wytrzymałą wytrzymuje wytrzymujesz wytrzymują wytrzymuję wytrzymywać
+59	2359	rzecznik	rzecznicy rzeczniczka rzeczniczki rzeczniczką rzecznika rzecznikiem rzecznikowi rzeczniku rzeczników
+60	2360	ciasto	ciast ciasta ciastach ciastami ciastem cieście
+61	2361	duma	dum dumie dumy dumą dumę
+62	2362	konieczność	konieczności koniecznością
+63	2363	przeprowadzać	przeprowadza przeprowadzają przeprowadzając przeprowadzający przeprowadzali przeprowadzaliśmy przeprowadzam przeprowadzamy przeprowadzana przeprowadzane przeprowadzanego przeprowadzanej przeprowadzania przeprowadzanie przeprowadzaniem przeprowadzaniu przeprowadzano przeprowadzany przeprowadzanych przeprowadzanym przeprowadzasz przeprowadzał przeprowadzała przeprowadzałam przeprowadzałem przeprowadzały
+64	2364	posiłek	posiłkach posiłkami posiłki posiłkiem posiłku posiłków
+65	2365	nastolatek	nastolatka nastolatkach nastolatkami nastolatki nastolatkiem nastolatkom nastolatkowie nastolatku nastolatków
+66	2366	nastrój	nastrojach nastrojami nastroje nastrojem nastrojowi nastroju nastrojów
+67	2367	pobić	pobici pobicia pobicie pobiciem pobiciu pobija pobije pobijemy pobijesz pobiją pobiję pobili pobiliśmy pobita pobite pobitego pobito pobity pobitych pobitym pobił pobiła pobiłam pobiłem pobiło pobiły podbija podbijają podbijając podbijam podbijamy podbijanie podbijał
+68	2368	szok	szoki szokiem szokowej szoku
+69	2369	robotnik	robotnic robotnicy robotnicza robotnicze robotniczego robotniczej robotniczo robotniczy robotniczych robotniczym robotniczą robotnika robotnikach robotnikami robotnikiem robotnikom robotników
+70	2370	departament	departamencie departamentem departamentowi departamentu departamenty departamentów
+71	2371	gospodarstwo	gospodarstw gospodarstwa gospodarstwach gospodarstwem gospodarstwie
+72	2372	świnia	śwince świnek świni świniami świnie świnio świnią świnię świnka świnki świnką świnkę świń
+73	2373	pracodawca	pracodawcach pracodawcami pracodawce pracodawcom pracodawcy pracodawców pracodawcą pracodawcę
+74	2374	posłuchać	posłucha posłuchacie posłuchaj posłuchajcie posłuchajmy posłuchają posłuchali posłucham posłuchamy posłuchania posłuchanie posłuchasz posłuchał posłuchała posłuchałam posłuchałem posłuchałeś
+75	2375	propaganda	propagandy propagandzie propagandą propagandę
+76	2376	wieża	wież wieżach wieżami wieże wieżowych wieży wieżyczce wieżyczek wieżyczka wieżyczkami wieżyczką wieżyczkę wieżą wieżę
+77	2377	legenda	legend legendach legendami legendy legendzie legendą legendę
+78	2378	stawić	staw stawach stawami stawek stawem stawi stawie stawienia stawienie stawili stawimy stawią stawił stawiła stawiło stawiły stawku stawu stawy stawów
+79	2379	przełożyć	przekłada przekładają przekładając przekładam przekładamy przekładane przekładania przekładanie przekładać przekładał przekładała przekładało przełożeni przełożenia przełożenie przełożeniu przełożeń przełożona przełożone przełożonego przełożonej przełożonemu przełożono przełożony przełożonych przełożonym przełożonymi przełożoną przełoży przełożyli przełożymy przełożył przełożyła przełożyłam przełożyłem przełożyło przełożyły przełożą przełóż
+80	2380	tempo	temp tempa tempem tempie
+81	2381	jasno	jaśniej najjaśniej
+82	2382	wychować	wychowa wychowali wychowaliśmy wychowam wychowana wychowane wychowani wychowano wychowany wychowanych wychowanym wychował wychowała wychowałam wychowałaś wychowałem wychowałeś wychowało wychowały wychowuje wychowujesz wychowują wychowując wychowujących wychowywali wychowywana wychowywane wychowywani wychowywania wychowywanie wychowywaniem wychowywaniu wychowywany wychowywać wychowywał wychowywała wychowywałam wychowywałem wychowywały
+83	2383	oj	
+84	2384	se	
+85	2385	wow	
+86	2386	wykształcenie	wykształcenia wykształceniem wykształceniu
+87	2387	elektroniczny	elektroniczna elektroniczne elektronicznego elektronicznej elektronicznie elektronicznych elektronicznym elektronicznymi elektroniczną
+88	2388	przewaga	przewadze przewag przewagi przewagą przewagę
+89	2389	gwałt	gwałcie gwałtach gwałtami gwałtem gwałtu gwałty gwałtów
+90	2390	przemyśleć	przemyśl przemyślana przemyślane przemyślanego przemyślanej przemyślany przemyślanych przemyślaną przemyślał przemyślała przemyślałam przemyślałem przemyślałeś przemyślcie przemyślenia przemyśleniach przemyśleniami przemyślenie przemyśleniu przemyśleń przemyśli przemyślisz przemyślę
+91	2391	oprogramowanie	oprogramowania oprogramowaniem oprogramowaniu
+92	2392	autorstwo	autorstwa
+93	2393	koncepcja	koncepcjach koncepcjami koncepcje koncepcji koncepcją koncepcję koncepcyjne koncepcyjnego koncepcyjny koncepcyjnych koncepcyjnym
+94	2394	znajomość	znajomości znajomościach znajomościami znajomościom znajomością
+95	2395	zamieścić	zamiata zamiatania zamiatanie zamiatać zamieci zamiecie zamieciona zamieszcza zamieszczają zamieszczając zamieszczam zamieszczamy zamieszczane zamieszczania zamieszczanie zamieszczano zamieszczanych zamieszczać zamieszczał zamieszczenia zamieszczenie zamieszczona zamieszczone zamieszczonego zamieszczonej zamieszczono zamieszczony zamieszczonych zamieszczonym zamieć zamieści zamieścili zamieściliśmy zamieścił zamieściła zamieściłem zamieściło zamieściły zamieść
+96	2396	obserwacja	obserwacjach obserwacjami obserwacje obserwacji obserwacjom obserwacją obserwację
+97	2397	pogrzeb	pogrzebach pogrzebem pogrzebie pogrzebowa pogrzebowe pogrzebowego pogrzebowej pogrzebowy pogrzebowych pogrzebowym pogrzebową pogrzebu pogrzeby pogrzebów
+98	2398	majątek	majątkami majątki majątkiem majątku majątków
+99	2399	spytać	spyta spytacie spytaj spytajcie spytajmy spytają spytali spytaliśmy spytam spytano spytany spytasz spytał spytała spytałam spytałaś spytałbym spytałem
+100	2400	zatrudnienie	zatrudnienia zatrudnieniem zatrudnieniu zatrudnień

@@ -1,0 +1,100 @@
+1	4801	eksplozja	eksplozjach eksplozje eksplozji eksplozją eksplozję
+2	4802	zobowiązany	zobowiązana zobowiązane zobowiązani zobowiązanych
+3	4803	apartament	apartamencie apartamentach apartamentami apartamentem apartamentu apartamenty apartamentów
+4	4804	owad	owada owadach owadami owadem owadom owady owadów
+5	4805	współczynnik	współczynnika współczynnikach współczynniki współczynnikiem współczynniku współczynników
+6	4806	suknia	sukien sukni sukniach sukniami suknie suknią suknię
+7	4807	zakwalifikować	kwalifikowana kwalifikowane kwalifikowanego kwalifikowanej kwalifikowany kwalifikowanych kwalifikowanym kwalifikowaną kwalifikować kwalifikował kwalifikowało kwalifikuje kwalifikują kwalifikując kwalifikujące kwalifikujący kwalifikujących kwalifikuję zakwalifikowali zakwalifikowana zakwalifikowane zakwalifikowani zakwalifikowania zakwalifikowanie zakwalifikowano zakwalifikowany zakwalifikował zakwalifikowała zakwalifikowało zakwalifikowały zakwalifikuje zakwalifikują
+8	4808	kiepsko	
+9	4809	odnowić	odnawia odnawiają odnawiając odnawiamy odnawiana odnawiane odnawiania odnawianie odnawianiu odnawiany odnawiać odnowi odnowienia odnowienie odnowieniem odnowieniu odnowili odnowiona odnowione odnowionego odnowionej odnowiono odnowiony odnowionych odnowionym odnowioną odnowią odnowił odnowiła
+10	4810	zaistnieć	zaistniał zaistniała zaistniałe zaistniałego zaistniałej zaistniało zaistniały zaistniałych zaistniałą zaistnieje zaistnieli zaistnienia zaistnienie zaistnieniu
+11	4811	koc	koca kocami koce kocem kocu kocy kocyk kocyka kocyki kocykiem kocyku koców
+12	4812	śmietnik	śmietnika śmietnikach śmietniki śmietnikiem śmietniku śmietników
+13	4813	konsumpcja	konsumpcji konsumpcją konsumpcję konsumpcyjna konsumpcyjne konsumpcyjnego konsumpcyjny konsumpcyjnych
+14	4814	manipulować	manipulowali manipulowane manipulowani manipulowania manipulowanie manipulowaniu manipulował manipuluj manipuluje manipulujesz manipulują manipulując zmanipulowana zmanipulowane zmanipulowania zmanipulowany zmanipulować zmanipulował
+15	4815	kwadratowy	kwadratowa kwadratowe kwadratowego kwadratowej kwadratowych kwadratowym kwadratowymi kwadratową
+16	4816	witamina	witamin witaminami witaminki witaminy witaminą witaminę
+17	4817	chirurg	chirurdzy chirurga chirurgiem chirurgom chirurgowi chirurgów
+18	4818	wylać	wylali wylana wylane wylania wylanie wylano wylany wylanych wylał wylała wylałam wylałem wylałeś wylało wylały wylej wyleje wyleją wyleję wylewa wylewają wylewając wylewam wylewamy wylewane wylewania wylewanie wylewać wylewał wylewała
+19	4819	powierzyć	powierz powierza powierzając powierzam powierzamy powierzać powierzenia powierzenie powierzeniem powierzeniu powierzona powierzone powierzonego powierzonej powierzono powierzony powierzonych powierzonym powierzoną powierzy powierzyli powierzysz powierzył powierzyła
+20	4820	panowanie	panowania panowaniem panowaniu
+21	4821	przymusowy	przymusowa przymusowe przymusowego przymusowej przymusowi przymusowych przymusowym przymusową
+22	4822	błogosławieństwo	błogosławieństw błogosławieństwa błogosławieństwem błogosławieństwie
+23	4823	bramkarz	bramkarza bramkarzami bramkarze bramkarzem bramkarzowi bramkarzy
+24	4824	kozak	kozacka kozacki kozackich kozackie kozackiego kozackiej kozacko kozacy kozaczki kozaka kozakach kozakami kozaki kozakiem kozaków
+25	4825	rytuał	rytuale rytuałach rytuałami rytuałem rytuału rytuały rytuałów
+26	4826	miniony	miniona minione minionego minionej minionych minionym minioną
+27	4827	uroczysty	uroczysta uroczyste uroczystego uroczystej uroczystych uroczystym uroczystą
+28	4828	posiadacz	posiadacza posiadaczami posiadacze posiadaczem posiadaczka posiadaczką posiadaczom posiadaczowi posiadaczy
+29	4829	rebeliant	rebelianci rebelianta rebeliantami rebeliantom rebeliantów
+30	4830	rondo	rond ronda rondem rondzie
+31	4831	szachy	szachach szachami szachowa szachowe szachowego szachowej szachowy szachowych szachowym szachową szachów
+32	4832	biznesmen	biznesmena biznesmenami biznesmenem biznesmeni biznesmenom biznesmenowi biznesmenów bizneswoman
+33	4833	szmata	szmacie szmat szmatami szmatek szmatka szmatki szmatką szmatkę szmato szmaty szmatą szmatę
+34	4834	wytwórnia	wytwórni wytwórniach wytwórnie wytwórnią wytwórnię
+35	4835	akr	ac akra akry akrów
+36	4836	pierdoła	pierdole pierdołach pierdołami pierdołą pierdołę pierdół
+37	4837	dolnośląski	dolnośląska dolnośląskich dolnośląskie dolnośląskiego dolnośląskiej dolnośląskim dolnośląską
+38	4838	lada	lad lado ladzie ladą ladę leda ledy
+39	4839	humanistyczny	humanistyczna humanistyczne humanistycznego humanistycznej humanistyczno humanistycznych humanistycznym humanistycznymi humanistyczną
+40	4840	migracja	migracje migracji migracją migrację
+41	4841	zwierz	zwierza zwierzaczek zwierzaczki zwierzak zwierzaka zwierzakach zwierzakami zwierzaki zwierzakiem zwierzakom zwierzaków zwierze
+42	4842	emeryt	emeryci emeryta emerytami emerytem emerytka emerytki emerytom emerytów
+43	4843	odznaka	odznace odznak odznakami odznaki odznaką odznakę
+44	4844	zdrój	zdroje zdroju
+45	4845	durny	durna durne durnego durnej durni durnie durnych durnym durnymi durną
+46	4846	nadmierny	nadmierna nadmierne nadmiernego nadmiernej nadmiernemu nadmiernych nadmiernym nadmiernymi nadmierną
+47	4847	poprzedzać	poprzedza poprzedzają poprzedzająca poprzedzające poprzedzającego poprzedzającej poprzedzający poprzedzających poprzedzającym poprzedzającą poprzedzały poprzedzić poprzedził poprzedziła poprzedziło poprzedziły poprzedzona poprzedzone poprzedzony
+48	4848	obwiniać	obwinia obwiniacie obwiniaj obwiniajcie obwiniają obwiniając obwiniali obwiniam obwiniania obwinianie obwiniany obwiniasz obwiniał obwiniała obwiniony obwinić obwinił
+49	4849	komar	komara komarami komarem komarom komary komarów
+50	4850	benzyna	benzynie benzyny benzyną benzynę
+51	4851	brzmienie	brzmienia brzmieniami brzmieniem brzmieniu brzmień
+52	4852	udokumentować	dokumentowania dokumentowanie dokumentowaniu dokumentować dokumentował dokumentuje dokumentują dokumentując dokumentująca dokumentujące dokumentujący dokumentujących dokumentującym udokumentowali udokumentowana udokumentowane udokumentowanego udokumentowanej udokumentowania udokumentowanie udokumentowaniu udokumentowano udokumentowany udokumentowanych udokumentowanym udokumentowaną udokumentował
+53	4853	nalot	nalocie nalotach nalotami nalotem nalotu naloty nalotów
+54	4854	spłacić	spłaca spłacają spłacam spłacane spłacania spłacanie spłacasz spłacać spłacał spłacenia spłacenie spłaci spłacimy spłacisz spłacił spłaciła spłacona spłacone spłacony spłacą spłacę
+55	4855	dozwolony	dozwolona dozwolone dozwolonego dozwolonej dozwolonych dozwolonym dozwoloną
+56	4856	nietypowy	nietypowa nietypowe nietypowego nietypowej nietypowo nietypowych nietypowym nietypowymi nietypową
+57	4857	komplet	komplecie komplecik kompletach kompletem kompletu komplety kompletów
+58	4858	apostoł	apostolska apostolski apostolskich apostolskie apostolskiego apostolskiej apostolskim apostolską apostoła apostołami apostołem apostołom apostołowie apostołów
+59	4859	sufit	suficie sufitach sufitami sufitem sufitu sufity sufitów
+60	4860	dążenie	dążenia dążeniach dążeniami dążeniem dążeniu dążeń
+61	4861	dzielny	dzielna dzielne dzielnego dzielnej dzielni dzielnych dzielnym dzielną
+62	4862	nić	nici nicią nitce nitek nitka nitkami nitki nitką nitkę nićmi
+63	4863	obciążenie	obciążenia obciążeniem obciążeniu obciążeń
+64	4864	spot	spocie spota spotach spotem spotu spoty spotów
+65	4865	rozbudowa	rozbudowie rozbudowy rozbudową rozbudowę
+66	4866	gościnny	gościnna gościnne gościnnego gościnnej gościnni gościnnie gościnnych gościnnym gościnnymi gościnną
+67	4867	korekta	korekcie korekt korekty korektą korektę
+68	4868	frytek	frytka frytkach frytkami frytki frytkę
+69	4869	wjazd	wjazdem wjazdu wjazdy wjeździe
+70	4870	wypalić	wypala wypalają wypalam wypalania wypalanie wypalać wypaleni wypalenia wypalenie wypaleniem wypaleniu wypali wypalił wypaliła wypaliło wypaliły wypalona wypalone wypalonego wypalony wypalonych wypalonym wypalą
+71	4871	słuchacz	słuchacza słuchaczami słuchacze słuchaczem słuchaczom słuchaczy
+72	4872	obojętny	obojętna obojętne obojętnego obojętni obojętnych obojętnym obojętną
+73	4873	mniejszyć	mniejszy mniejszą
+74	4874	błona	błon błonach błonia błoniach błonie błoniu błony błoną błonę błoń błońska błoński błońskiej
+75	4875	rozróżnić	rozróżnia rozróżniają rozróżniam rozróżniamy rozróżniania rozróżnianie rozróżniasz rozróżniać rozróżnienia rozróżnienie rozróżnieniem rozróżnieniu
+76	4876	mak	maczek maczka maczki maka maki makiem makowie maku maków
+77	4877	uzależnienie	uzależnienia uzależnieniach uzależnieniami uzależnieniem uzależnieniu uzależnień
+78	4878	unikalny	unikalna unikalne unikalnego unikalnej unikalnych unikalnym unikalnymi unikalną
+79	4879	laser	lasera laserami laserem laserowa laserowe laserowego laserowej laserowo laserowy laserowych laserowym laserowymi laserową lasery laserów
+80	4880	bestia	bestiami bestie bestii bestią bestię
+81	4881	pełnia	pełni pełnie pełnią pełnię
+82	4882	sylwester	sylwestra sylwestrem sylwestrze
+83	4883	frajer	frajera frajerami frajerem frajerom frajerze frajerzy frajerów
+84	4884	popyt	popytem popytu
+85	4885	kompania	kompanie kompanii kompanią kompanię
+86	4886	nierówność	nierówności nierównościach nierównościami nierównością
+87	4887	motyl	mental motyla motylami motyle motylek motylem motyli motylka motylkami motylki motylkiem motylków
+88	4888	nieprzyjemny	nieprzyjemna nieprzyjemne nieprzyjemnego nieprzyjemnej nieprzyjemnie nieprzyjemnych nieprzyjemnym nieprzyjemną
+89	4889	rów	rowa rowach rowami rowek rowem rowie rowka rowkami rowki rowku rowków rowu rowy rowów
+90	4890	marihuana	marihuanie marihuany marihuaną marihuanę
+91	4891	detal	detalach detalami detale detalem detali detalu
+92	4892	korki	korkach korkami korków
+93	4893	interpretować	interpretowali interpretowana interpretowane interpretowania interpretowanie interpretowaniu interpretowany interpretował interpretuje interpretujesz interpretują interpretując interpretuję zinterpretowali zinterpretowane zinterpretowany zinterpretować zinterpretował zinterpretuje
+94	4894	napędzać	napędza napędzają napędzając napędzająca napędzające napędzającego napędzający napędzającym napędzana napędzane napędzanego napędzanej napędzania napędzany napędzanych napędzanym napędzaną napędzał napędzała napędzić
+95	4895	represja	represjach represjami represje represji represjom
+96	4896	zaspokoić	zaspokaja zaspokajają zaspokajające zaspokajane zaspokajania zaspokajanie zaspokajaniu zaspokajać zaspokajał zaspokoi zaspokoił zaspokojenia zaspokojenie zaspokojeniem zaspokojeniu zaspokojona zaspokojone zaspokojony zaspokoję
+97	4897	luksusowy	luksusowa luksusowe luksusowego luksusowej luksusowo luksusowych luksusowym luksusowymi luksusową
+98	4898	pączek	pączka pączkach pączkami pączki pączkiem pączku pączków pączusiu pączuś
+99	4899	wybuchowy	wybuchowa wybuchowe wybuchowego wybuchowej wybuchowi wybuchowo wybuchowych wybuchowym wybuchowymi wybuchową
+100	4900	rozbudować	rozbudowana rozbudowane rozbudowanego rozbudowanej rozbudowania rozbudowanie rozbudowano rozbudowany rozbudowanych rozbudowanym rozbudowanymi rozbudowaną rozbudował rozbudowuje rozbudowując rozbudowywana rozbudowywane rozbudowywany rozbudowywać

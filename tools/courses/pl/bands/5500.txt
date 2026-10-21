@@ -1,0 +1,100 @@
+1	5401	żywić	żyw żywi żywienia żywienie żywieniem żywieniu żywili żywimy żywisz żywią żywiąc żywiące żywiący żywię żywił żywiła żywiły
+2	5402	czosnek	czosnkiem czosnkowa czosnkowe czosnkowy czosnkowym czosnku
+3	5403	skojarzenie	skojarzenia skojarzeniach skojarzeniem skojarzeniu skojarzeń
+4	5404	odpisać	odpisali odpisał odpisała odpisałam odpisałaś odpisałem odpisałeś odpisuj odpisuje odpisujesz odpisują odpisuję odpisywanie odpisywać odpisywał odpisz odpisze odpiszesz odpiszą odpiszę
+5	5405	odporny	odporna odporne odpornego odpornej odporni odpornych odpornym odpornymi odporną
+6	5406	ulepszyć	ulepsza ulepszania ulepszanie ulepszaniem ulepszaniu ulepszać ulepszenia ulepszeniami ulepszenie ulepszeniem ulepszeniu ulepszeń ulepszona ulepszone ulepszonego ulepszonej ulepszono ulepszony ulepszonych ulepszonym ulepszoną ulepszył
+7	5407	indeks	indeksach indeksami indeksem indeksie indeksu indeksy indeksów
+8	5408	oświetlenie	oświetlenia oświetleniem oświetleniu
+9	5409	wycinka	wycince wycinek wycinkach wycinki wycinku wycinków wycinką wycinkę
+10	5410	pastor	pastora pastorem pastorowi pastorzy pastorów
+11	5411	polepszyć	polepsza polepszają polepszania polepszanie polepszać polepszenia polepszenie polepszeniu polepszy polepszył polepszyła polepszyło polepszyły
+12	5412	zasiłek	zasiłkach zasiłki zasiłkiem zasiłku zasiłków
+13	5413	niedostępny	niedostępna niedostępne niedostępnego niedostępnej niedostępni niedostępnych niedostępnym niedostępną
+14	5414	architektoniczny	architektoniczna architektoniczne architektonicznego architektonicznej architektonicznie architektoniczno architektonicznych architektonicznym architektonicznymi architektoniczną
+15	5415	wzbogacić	wzbogaca wzbogacają wzbogacając wzbogacana wzbogacane wzbogacania wzbogacanie wzbogacać wzbogacenia wzbogacenie wzbogaceniu wzbogaci wzbogacili wzbogacił wzbogaciła wzbogaciło wzbogaciły wzbogacona wzbogacone wzbogaconego wzbogaconej wzbogacono wzbogacony wzbogaconych wzbogaconym wzbogaconą
+16	5416	promocyjny	promocyjna promocyjne promocyjnego promocyjnej promocyjnych promocyjnym promocyjną
+17	5417	stos	stosach stosem stosie stosik stosu stosy stosów
+18	5418	cudzoziemiec	cudzoziemca cudzoziemcach cudzoziemcami cudzoziemcem cudzoziemcom cudzoziemcy cudzoziemców cudzoziemka
+19	5419	ważność	ważności
+20	5420	uboczny	uboczne ubocznych ubocznym ubocznymi
+21	5421	wojtek	wojtka wojtkiem wojtkowi wojtku
+22	5422	gara	gar garach gary garze
+23	5423	zagłębie	zagłębi zagłębia zagłębiem zagłębiu
+24	5424	cool	
+25	5425	pi	
+26	5426	szczegółowo	
+27	5427	dowodzenie	dowodzenia dowodzeniem dowodzeniu
+28	5428	dron	drona dronach dronami dronem drony dronów
+29	5429	cipa	cip cipce cipeczka cipeczki cipek cipie cipka cipkami cipki cipkę cipo cipy cipą cipę
+30	5430	zawracać	zawraca zawracaj zawracają zawracam zawracania zawracanie zawracasz zawracał zawróci zawrócili zawrócisz zawrócić zawrócił zawróciła zawróciły zawrócono zawrócę
+31	5431	spam	spamem spamu
+32	5432	dyktator	dyktatora dyktatorami dyktatorem dyktatorowi dyktatorzy dyktatorów
+33	5433	godzinny	godzinna godzinne godzinnego godzinnej godzinnych godzinnym godzinną
+34	5434	rozpacz	rozpaczy rozpaczą
+35	5435	zbrodniarz	zbrodniarza zbrodniarzami zbrodniarze zbrodniarzem zbrodniarzom zbrodniarzy
+36	5436	niewolnictwo	niewolnictwa niewolnictwem niewolnictwie niewolnictwu
+37	5437	patriarcha	patriarchy patriarchów patriarchą patriarchę
+38	5438	zatrucie	zatrucia zatruciach zatruciem zatruciu zatruje zatruta zatrute zatrutego zatruty zatrutych zatrutym zatrutą zatruwa zatruwają zatruwania zatruwanie zatruwać zatruć zatruł zatruła
+39	5439	wylecieć	wylatuje wylatują wyleci wyleciał wyleciała wyleciało wyleciały wylecieli wylecą
+40	5440	solowy	solowa solowe solowego solowej solowych solowym solowymi solową
+41	5441	mazurski	mazurska mazurskich mazurskie mazurskiego mazurskiej mazurskim mazurską
+42	5442	niedobór	niedoborem niedoboru niedobory niedoborze niedoborów
+43	5443	gruz	gruza gruzach gruzami gruzem gruzu gruzy gruzów
+44	5444	rumuński	rumuńska rumuńskich rumuńskie rumuńskiego rumuńskiej rumuńskim rumuńsko rumuńsku rumuńską
+45	5445	hamować	hamowane hamowania hamowanie hamowaniem hamowaniu hamował hamuj hamuje hamują hamując hamujące hamująco hamujący hamujących hamującym hamuję
+46	5446	wymowa	wymowie wymowy wymową wymowę
+47	5447	zasłonić	zasłania zasłaniaj zasłaniają zasłaniając zasłaniam zasłaniania zasłanianie zasłaniasz zasłaniać zasłaniał zasłaniała zasłaniały zasłoni zasłonili zasłonię zasłonięcie zasłonięta zasłonięte zasłonięty zasłoniętych zasłoniętymi zasłoniętą zasłonił zasłoniła zasłoniłem zasłoń
+48	5448	robak	chrobak robaczek robaczki robaka robakach robakami robaki robakiem robaku robaków robal
+49	5449	przeszukać	przeszukaj przeszukali przeszukania przeszukanie przeszukano przeszukany przeszukał przeszukała przeszukałam przeszukałem przeszukań przeszukiwali przeszukiwane przeszukiwania przeszukiwanie przeszukiwaniu przeszukiwać przeszukuje przeszukują przeszukując przeszukuję
+50	5450	pocieszyć	pociesz pociesza pocieszają pocieszająca pocieszające pocieszam pocieszanie pocieszasz pocieszać pocieszał pocieszała pocieszy pocieszył pocieszyła pocieszyłeś pocieszyło pocieszę
+51	5451	samopoczucie	samopoczucia samopoczuciu
+52	5452	teczka	teczce teczek teczkach teczki teczką teczkę
+53	5453	zofia	zofii zofią zofię zosia
+54	5454	bagaż	bagażami bagaże bagażem bagażu bagaży
+55	5455	półwysep	półwyspem półwyspie półwyspu
+56	5456	komp	kompa kompem kompie kompy
+57	5457	pion	piona pionek pionem pionie pionka pionkach pionkami pionki pionkiem pionków pionu piony pionów
+58	5458	upamiętnić	upamiętnia upamiętniają upamiętniająca upamiętniające upamiętniającego upamiętniającej upamiętniający upamiętniających upamiętniającym upamiętniającą upamiętniania upamiętnianie upamiętniać upamiętnieni upamiętnione
+59	5459	order	orderami orderem orderu ordery orderze orderów
+60	5460	kurator	kuratora kuratorem kuratorka kuratorką kuratorowi kuratorzy kuratorów
+61	5461	spowiedź	spowiedzi spowiedzią
+62	5462	mag	maga magami magi magiem magowie magu magów
+63	5463	płocki	płocka płockich płockie płockiego płockiej płockim płocku płocką
+64	5464	śmietana	śmietanie śmietanka śmietanki śmietankowa śmietankowe śmietankowo śmietankowy śmietanką śmietankę śmietanowy śmietany śmietaną śmietanę
+65	5465	kosztowny	kosztowna kosztowne kosztownego kosztownej kosztownych kosztownym kosztowną
+66	5466	hipoteza	hipotez hipotezie hipotezy hipotezą hipotezę
+67	5467	holocaust	holocaustem holocaustu holocauście holokaust holokaustu
+68	5468	oprawa	opraw oprawie oprawki oprawy oprawą oprawę
+69	5469	belka	bela belce bele belek beli belkach belkami belki belką belkę belo belę
+70	5470	zarezerwować	rezerwować rezerwuje rezerwujemy rezerwują rezerwując rezerwuję zarezerwowali zarezerwowaliśmy zarezerwowana zarezerwowane zarezerwowanego zarezerwowanej zarezerwowano zarezerwowany zarezerwowanych zarezerwowaną zarezerwował zarezerwowałem zarezerwuj zarezerwuje zarezerwujesz
+71	5471	maić	mai maili mają mając mająca mające mający maję
+72	5472	legion	legionach legionami legionem legionie legionu legiony legionów
+73	5473	rozebrać	rozbiera rozbierają rozbierając rozbierane rozbierania rozbieranie rozbierany rozbieranych rozbierasz rozbierać rozbierał rozbierała rozbierz rozbierzesz rozbierzmy rozebrali rozebrana rozebrane rozebranego rozebrania rozebranie rozebraniu rozebrano rozebrany rozebranych rozebrał rozebrała rozebrałam rozebrałem rozebrały
+74	5474	gacie	gaci gaciach gaciami gatki
+75	5475	ryzykowny	ryzykowna ryzykowne ryzykownego ryzykownej ryzykownie ryzykownych ryzykownym ryzykowną
+76	5476	widownia	widowni widownie widownią widownię
+77	5477	zwycięski	zwycięscy zwycięska zwycięskich zwycięskie zwycięskiego zwycięskiej zwycięskim zwycięsko zwycięską
+78	5478	pobór	poborem poborowi poboru pobory poborze poborów
+79	5479	hybryda	hybryd hybrydami hybrydowa hybrydowe hybrydowego hybrydowej hybrydowy hybrydowych hybrydowym hybrydową hybrydy hybrydą hybrydę
+80	5480	lunch	lunche lunchu
+81	5481	wiceprezydent	wiceprezydenta wiceprezydentem wiceprezydentowi
+82	5482	widnieć	widniał widniała widniało widniały widnieje widnieją
+83	5483	runa	run runami runiczne runie runo runy runów runą
+84	5484	dekret	dekrecie dekretem dekretu dekrety dekretów
+85	5485	zdziwiony	zdziwieni zdziwiona zdziwione zdziwionego
+86	5486	rehabilitacja	rehabilitacje rehabilitacji rehabilitacją rehabilitację
+87	5487	zainicjować	inicjowane inicjowania inicjowanie inicjowany inicjować inicjuje inicjują inicjując inicjującego inicjujący zainicjowali zainicjowana zainicjowane zainicjowanego zainicjowanej zainicjowania zainicjowanie zainicjowano zainicjowany zainicjowanych zainicjował zainicjowała zainicjowało zainicjowały zainicjuje
+88	5488	śródmieście	śródmiejska śródmiejskich śródmiejskiej śródmieścia śródmieściu
+89	5489	profesjonalista	profesjonalistami profesjonalistka profesjonalistki profesjonalistką profesjonalistom profesjonalisty profesjonalistów profesjonalistą profesjonalistę profesjonaliści
+90	5490	niewygodny	niewygodna niewygodne niewygodnego niewygodnej niewygodnych niewygodnym niewygodną
+91	5491	teściowa	teścia teściami teście teściem teściowe teściowej teściowie teściową teściu teściów teść
+92	5492	skłonny	skłonna skłonne skłonni skłonnych
+93	5493	różnie	
+94	5494	stanowczo	
+95	5495	zadłużenie	zadłużenia zadłużeniem zadłużeniu
+96	5496	imigracja	imigracji imigracją imigrację
+97	5497	wspinać	piąć piął pięcie pnie pniemy pną pnąca pnące pnących wspina wspinają wspinając wspinających wspinali wspinam wspinamy wspinania wspinanie wspinaniu wspinał wspinała wspiąć wspiął wspięli wspięła
+98	5498	skraść	skrada skradanie skradasz skradli skradnie skradziona skradzione skradzionego skradzionej skradziono skradziony skradzionych skradzionym skradzioną skradł skradła skradło skradły
+99	5499	banknot	banknocie banknotach banknotami banknotem banknotu banknoty banknotów
+100	5500	rozpad	rozpadem rozpadowi rozpadu rozpadzie

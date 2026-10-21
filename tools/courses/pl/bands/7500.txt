@@ -1,0 +1,100 @@
+1	7401	plaster	plasterek plasterki plastra plastrami plastrem plastry plastrów
+2	7402	skurwiel	skurwiela skurwielami skurwiele skurwielem skurwieli skurwielom skurwielu
+3	7403	szantaż	szantażem szantażowi szantażu
+4	7404	ładowarka	ładowarce ładowarek ładowarki ładowarką ładowarkę
+5	7405	garderoba	garderobie garderoby garderobą garderobę
+6	7406	gruntowny	gruntowna gruntowne gruntownego gruntownej gruntownie gruntownych gruntownym gruntowną
+7	7407	labirynt	labiryncie labiryntem labiryntu labirynty
+8	7408	pośladek	pośladkach pośladkami pośladki pośladku pośladków
+9	7409	gratis	gratisie
+10	7410	spłata	spłacie spłat spłaty spłatą spłatę
+11	7411	powtórny	powtórne powtórnego powtórnej powtórnie powtórnych powtórnym
+12	7412	sklasyfikować	klasyfikowana klasyfikowane klasyfikowania klasyfikowanie klasyfikowany klasyfikowanych klasyfikować klasyfikuje klasyfikują sklasyfikowana sklasyfikowane sklasyfikowani sklasyfikowanie sklasyfikowano sklasyfikowany sklasyfikowanych
+13	7413	cwaniak	cwaniacy cwaniaczek cwaniaczka cwaniaczki cwaniaczku cwaniaka cwaniakami cwaniaki cwaniakiem cwaniaku cwaniaków
+14	7414	uprzedzić	uprzedza uprzedzając uprzedzam uprzedzać uprzedzeni uprzedzi uprzedził uprzedziła uprzedziłam uprzedzona uprzedzony uprzedzę
+15	7415	gap	gapa gapie gapiów gapę
+16	7416	bukiet	bukiecie bukiecik bukietem bukietu bukiety bukietów
+17	7417	znamię	znamienia znamieniem znamion znamiona
+18	7418	wywiadowczy	wywiadowcza wywiadowcze wywiadowczego wywiadowczej wywiadowczych wywiadowczym wywiadowczą
+19	7419	recepcja	recepcje recepcji recepcją recepcję
+20	7420	nieprawdopodobny	nieprawdopodobna nieprawdopodobne nieprawdopodobnego nieprawdopodobnym nieprawdopodobną
+21	7421	rozpoznawanie	rozpoznawania rozpoznawaniem rozpoznawaniu
+22	7422	nazizm	nazizmem nazizmie nazizmu
+23	7423	alarmowy	alarmowa alarmowe alarmowego alarmowej alarmowych alarmowym alarmową
+24	7424	wystraszyć	wystraszeni wystraszona wystraszone wystraszony wystraszonych wystraszonym wystraszy wystraszyli wystraszysz wystraszył wystraszyła wystraszyłam wystraszyłaś wystraszyłem wystraszyły wystraszę
+25	7425	nietolerancja	nietolerancje nietolerancji nietolerancją nietolerancję
+26	7426	patologiczny	patologiczna patologiczne patologicznego patologicznej patologicznie patologicznych patologicznym patologiczną
+27	7427	fuzja	fuzje fuzji fuzją fuzję
+28	7428	uczta	uczcie uczt uczty ucztą ucztę
+29	7429	zamierzony	zamierzona zamierzone zamierzonego zamierzonej zamierzonych zamierzonym zamierzoną
+30	7430	muszla	muszelka muszelki muszlach muszlami muszle muszli muszlą muszlę
+31	7431	trójca	trójce trójcy trójcą trójcę
+32	7432	rydz	rydza rydze rydzyk
+33	7433	ołów	ołowiem ołowiu
+34	7434	prestiż	prestiżem prestiżu
+35	7435	gardzić	gardzi gardzili gardzisz gardził gardzą gardzę
+36	7436	wbudowywać	wbudowana wbudowane wbudowanego wbudowanej wbudowanie wbudowano wbudowany wbudowanych wbudowanym wbudowanymi wbudowaną
+37	7437	niesprawiedliwość	niesprawiedliwości niesprawiedliwością
+38	7438	kijowy	kijowa kijowe
+39	7439	otwartość	otwartości otwartością
+40	7440	żywnościowy	żywnościowa żywnościowe żywnościowego żywnościowej żywnościowych żywnościowym żywnościową
+41	7441	istny	istna istne istnie istnym istną
+42	7442	wers	wersach wersami wersie wersu wersy wersów
+43	7443	łuska	łusce łusek łuskach łuskami łuski łuską łuskę
+44	7444	współrzędna	współrzędne współrzędnych współrzędnymi
+45	7445	bodziec	bodźca bodźcami bodźce bodźcem bodźców
+46	7446	bandera	bandery banderze banderą banderę
+47	7447	ekspresowy	ekspresowa ekspresowe ekspresowego ekspresowej ekspresowych ekspresowym ekspresową
+48	7448	odbiegać	odbiega odbiegają odbiegające odbiegającego odbiegający odbiegających odbiegającą odbiegał odbiegała odbiegało odbiegały
+49	7449	wzorować	wzorowana wzorowane wzorowanego wzorowanej wzorowanie wzorowany wzorowanych wzorowanym wzorowaną wzorował wzoruje wzorując
+50	7450	bliźni	bliźnich bliźnie bliźniego bliźniemu bliźnim
+51	7451	gęsto	gęściej najgęściej
+52	7452	hera	hero hery herę
+53	7453	chips	chipsa chipsach chipsami chipsy chipsów
+54	7454	domysł	domysłach domysłami domysły domysłów domyśle
+55	7455	pielęgnacja	pielęgnacji pielęgnację pielęgnacyjna pielęgnacyjne pielęgnacyjny pielęgnacyjnych
+56	7456	wizytówka	wizytówce wizytówek wizytówki wizytówką wizytówkę
+57	7457	wyznaniowy	wyznaniowa wyznaniowe wyznaniowego wyznaniowej wyznaniowo wyznaniowych wyznaniowym wyznaniowymi wyznaniową
+58	7458	klejnot	klejnocie klejnotach klejnotami klejnotem klejnotu klejnoty klejnotów
+59	7459	potrącić	potrąca potrącając potrąci potrącił potrąciła potrąciłam potrącona potrącone potrącony
+60	7460	zażywać	zażycia zażycie zażyciu zażyj zażywa zażywają zażywając zażywających zażywam zażywania zażywanie zażywaniem zażywaniu zażywasz zażywał zażywała zażyć zażył zażyłe
+61	7461	zastrzyk	zastrzykach zastrzykami zastrzyki zastrzykiem zastrzyku zastrzyków
+62	7462	niewiedza	niewiedzy niewiedzą niewiedzę
+63	7463	estetyczny	estetyczna estetyczne estetycznego estetycznej estetycznych estetycznym estetycznymi estetyczną
+64	7464	kwantowy	kwantowa kwantowe kwantowego kwantowej kwantowych kwantowym kwantowymi kwantową
+65	7465	usprawnić	usprawni usprawnia usprawniają usprawniać usprawnienia usprawnienie usprawnień
+66	7466	podbój	podbojach podboje podbojem podboju podbojów
+67	7467	wierzchołek	wierzchołka wierzchołkach wierzchołkami wierzchołki wierzchołkiem wierzchołku wierzchołków
+68	7468	wychowanek	wychowanka wychowankami wychowankiem wychowankowie wychowanków
+69	7469	krajobrazowy	krajobrazowa krajobrazowe krajobrazowego krajobrazowej krajobrazowo krajobrazowych krajobrazowym krajobrazową
+70	7470	leśnictwo	leśnictwa leśnictwem leśnictwie
+71	7471	nadmorski	nadmorska nadmorskich nadmorskie nadmorskiego nadmorskiej nadmorskim nadmorską
+72	7472	spokrewniony	spokrewnieni spokrewniona spokrewnione spokrewnionych
+73	7473	buzi	
+74	7474	ironicznie	
+75	7475	moralnie	
+76	7476	sarkastyczny	sarkastyczna sarkastyczne sarkastycznego sarkastycznie sarkastycznym
+77	7477	enzym	enzymami enzymem enzymu enzymy enzymów
+78	7478	ugoda	ugody ugodzie ugodą ugodę
+79	7479	rozwodzić	rozwiedli rozwiedzeni rozwiedzie rozwiedziona rozwiedziony rozwiedzionych rozwiedzioną rozwieść rozwiodą rozwiodła rozwiódł rozwodzi rozwodził rozwodzą
+80	7480	chorwacki	chorwaccy chorwacka chorwackich chorwackie chorwackiego chorwackiej chorwackim chorwacku chorwacką
+81	7481	drażnić	drażni drażnienie drażnij drażnią drażniąc drażniące drażniąco drażniący drażnił drażniły
+82	7482	molo	mol mola mole molem moli
+83	7483	eksperymentalny	eksperymentalna eksperymentalne eksperymentalnego eksperymentalnej eksperymentalnie eksperymentalnych eksperymentalnym eksperymentalnymi eksperymentalną
+84	7484	pedagogika	pedagogice pedagogiki pedagogiką pedagogikę
+85	7485	punktowy	punktowa punktowe punktowego punktowej punktowo punktowych punktowym punktową
+86	7486	bolszewicki	bolszewicka bolszewickich bolszewickie bolszewickiego bolszewickiej bolszewickim bolszewicką
+87	7487	macierzysty	macierzysta macierzyste macierzystego macierzystej macierzystych macierzystym macierzystymi macierzystą
+88	7488	akwarium	akwaria akwariach akwariów
+89	7489	bryła	bryle brył bryłka bryłki bryły bryłą bryłę
+90	7490	asfalt	asfalcie asfaltem asfaltu
+91	7491	folder	folderach folderu foldery folderze folderów
+92	7492	gówniarz	gówniara gówniarza gówniarze gówniarzem gówniarzu gówniarzy
+93	7493	zabiegać	zabiega zabiegają zabiegali zabiegam zabiegamy zabiegana zabiegani zabiegania zabieganie zabiegany zabieganym zabiegał zabiegała zabiegały
+94	7494	relatywny	relatywna relatywne relatywnej relatywnie relatywną
+95	7495	niewystarczający	niewystarczająca niewystarczające niewystarczającej niewystarczających niewystarczającym niewystarczającą
+96	7496	łazić	lezie lizę łazi łazisz łaził łaziła łaziłem łażenia łażenie łażą łażę
+97	7497	przeskoczyć	przeskakiwać przeskakuje przeskakują przeskakując przeskocz przeskoczenia przeskoczy przeskoczyliśmy przeskoczysz przeskoczył przeskoczyła przeskoczyło
+98	7498	kolęda	kolęd kolędami kolędy kolędzie kolędę
+99	7499	kawaleria	kawalerii kawalerią kawalerię
+100	7500	przeszczep	przeszczepach przeszczepem przeszczepie przeszczepu przeszczepy przeszczepów

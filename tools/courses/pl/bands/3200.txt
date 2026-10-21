@@ -1,0 +1,100 @@
+1	3101	przeciwnie	
+2	3102	wkład	wkładami wkładem wkładu wkłady wkładzie wkładów
+3	3103	władca	władcami władco władcom władcy władczyni władczynią władców władcą władcę
+4	3104	lin	lina linach linami linie lino linowa linowe linowej linowo linowy linowych linowym linową liny liną linę
+5	3105	wyraźny	wyraźna wyraźne wyraźnego wyraźnej wyraźniejsze wyraźniejszy wyraźnych wyraźnym wyraźnymi wyraźną
+6	3106	skarga	skardze skarg skargach skargami skargi skargą skargę
+7	3107	przemiana	przemian przemianach przemianami przemianie przemianom przemiany przemianą przemianę
+8	3108	sprawiedliwy	sprawiedliwa sprawiedliwe sprawiedliwego sprawiedliwej sprawiedliwi sprawiedliwie sprawiedliwych sprawiedliwym sprawiedliwą
+9	3109	sfera	sfer sferach sferami sfery sferze sferą sferę
+10	3110	odszkodowanie	odszkodowania odszkodowaniem odszkodowań
+11	3111	uspokoić	uspokaja uspokajają uspokajające uspokajającego uspokajająco uspokajający uspokajających uspokajającym uspokajam uspokajać uspokajał uspokoi uspokoili uspokoisz uspokoił uspokoiła uspokoiłam uspokoiłem uspokoiło uspokoiły uspokojenia uspokojenie uspokojeniu uspokoją uspokoję uspokój uspokójcie
+12	3112	pieśń	pieśni pieśniach pieśniami pieśnią
+13	3113	częsty	częsta częste częstego częstej częstsza częstsze częstszy częstszych częstszym częstszymi częstych częstym częstymi częstą części najczęstszy
+14	3114	pijany	pijana pijane pijanego pijanej pijanemu pijani pijanych pijanym pijanymi pijaną
+15	3115	wirtualny	wirtualna wirtualne wirtualnego wirtualnej wirtualnie wirtualnych wirtualnym wirtualnymi wirtualną
+16	3116	angażować	angażowali angażowania angażowanie angażował angażowała angażuje angażujemy angażujesz angażują angażując angażujące angażujący angażuję zaangażowali zaangażowaliśmy zaangażowana zaangażowane zaangażowani zaangażowano zaangażować zaangażował zaangażowała zaangażowało zaangażowały zaangażuj zaangażuje
+17	3117	pełno	najpełniej pełniej
+18	3118	dyskutować	dyskutowali dyskutowaliśmy dyskutowana dyskutowane dyskutowania dyskutowanie dyskutowano dyskutowany dyskutował dyskutowałem dyskutowało dyskutuj dyskutuje dyskutujemy dyskutujesz dyskutujmy dyskutują dyskutując dyskutujących dyskutuję
+19	3119	ruski	ruscy ruska ruskich ruskie ruskiego ruskiej ruskim ruskimi rusku ruską
+20	3120	kompetencja	kompetencjach kompetencjami kompetencje kompetencji kompetencją kompetencję
+21	3121	odmienny	odmienna odmienne odmiennego odmiennej odmiennie odmiennych odmiennym odmiennymi odmienną
+22	3122	dysk	dyskach dyskami dyski dyskiem dysku dysków
+23	3123	opracowanie	opracowania opracowaniach opracowaniem opracowaniu opracowań
+24	3124	brudny	brudna brudne brudnego brudnej brudni brudno brudnych brudnym brudnymi brudną
+25	3125	mokry	mokra mokre mokrego mokrej mokro mokrych mokrym mokrymi mokrzy mokrą
+26	3126	skutecznie	najskuteczniej skuteczniej
+27	3127	suka	suce suczek suczka suczki suczko suczką suczkę suk suki suko suką sukę suni sunia sunie sunię
+28	3128	skazać	skazali skazana skazane skazanej skazani skazania skazanie skazaniem skazaniu skazano skazał skazała skazało skazały skazań skazuje skazujemy skazują skazując skazujące skazującego skazujący skazujących skazującym skazuję skazywali skazywani skazywanie skazywano skazywać skazywał skaże skażesz
+29	3129	dworzec	dworca dworcach dworce dworcem dworcu dworców
+30	3130	zlecenie	zlecenia zleceniach zleceniami zleceniem zleceniu zleceń
+31	3131	przestępca	przestępcami przestępcom przestępcy przestępców przestępcą przestępcę
+32	3132	naturalnie	naturalniej
+33	3133	integracja	integracje integracji integracją integrację
+34	3134	ubiegły	ubiegła ubiegłego ubiegłej ubiegłych ubiegłym ubiegłą
+35	3135	piasek	piach piachem piachu piaskach piaskami piaski piaskiem piasku piasków
+36	3136	podsumować	podsumowane podsumowano podsumował podsumowała podsumowałeś podsumowuje podsumowują podsumowując podsumowująca podsumowujące podsumowujący podsumowującą podsumuje podsumujemy podsumujmy podsumuję
+37	3137	uprawnienie	uprawnienia uprawnieniach uprawnieniami uprawnieniem uprawnień
+38	3138	przeważnie	
+39	3139	umówić	umawia umawiaj umawiają umawiając umawialiśmy umawiam umawiamy umawiania umawianie umawiasz umawiać umawiał umawiała umawiałam umów umówi umówieni umówienia umówili umówiliśmy umówimy umówiona umówione umówionego umówionej umówiony umówionych umówionym umówioną umówisz umówię umówił umówiła umówiłam umówiłem umówiłyśmy umówmy
+40	3140	pakiet	pakiecie pakietach pakietami pakietem pakietu pakiety pakietów
+41	3141	lać	lali lana lane lanego lani lania lanie lany lał lała lałam lało lei lej leja leje lejek lejemy lejesz lejka leju leją lejąca leję
+42	3142	szósty	szósta szóste szóstego szóstej szóstych szóstym szóstą
+43	3143	życzenie	życzeniach życzeniami życzeniem życzeniom życzeniu życzeń
+44	3144	orientacja	orientacjach orientacje orientacji orientacją orientację
+45	3145	pocisk	pociskach pociskami pociski pociskiem pocisku pocisków
+46	3146	presja	presje presji presją presję
+47	3147	strzelec	strzelca strzelcach strzelcami strzelce strzelcem strzelcom strzelcowi strzelcu strzelcy strzelców strzelecka strzelecki strzeleckich strzeleckie strzeleckiego strzeleckiej strzeleckim strzelecko strzelecką
+48	3148	turystyka	turystyce turystyki turystyką turystykę
+49	3149	wskazówka	wskazówek wskazówkami wskazówki wskazówkom wskazówką wskazówkę
+50	3150	part	parcia parcie parciem party
+51	3151	centrala	central centrale centrali centralą centralę
+52	3152	chujowy	chujowa chujowe chujowego chujowej chujowi chujowych chujowym chujowymi chujową
+53	3153	zapoznać	zapozna zapoznaj zapoznajcie zapoznaje zapoznają zapoznając zapoznali zapoznam zapoznamy zapoznania zapoznanie zapoznaniu zapoznany zapoznasz zapoznał zapoznała zapoznałam zapoznałem zapoznałeś
+54	3154	wnuk	wnuczce wnuczek wnuczka wnuczki wnuczką wnuczkę wnuka wnukach wnukami wnuki wnukiem wnukom wnukowi wnukowie wnuku wnuków wnusia wnęk
+55	3155	krowa	krowach krowami krowi krowia krowie krowiego krowiej krowim krowo krowom krowy krową krowę krów krówek krówka krówki krówkę
+56	3156	strażnik	strażnicy strażniczka strażniczki strażniczką strażnika strażnikami strażnikiem strażnikom strażnikowi strażników
+57	3157	plastik	plastiki plastikiem plastikowa plastikowe plastikowego plastikowej plastikowy plastikowych plastikowym plastikowymi plastikową plastiku plastików
+58	3158	poprawka	poprawce poprawek poprawkach poprawkami poprawki poprawką poprawkę
+59	3159	potwór	potwor potwora potworach potworami potworek potworem potworka potworki potworków potworom potworowi potwory potworze potworów
+60	3160	trawa	traw trawach trawami trawce trawie trawka trawki trawką trawkę trawy trawą trawę
+61	3161	legia	legie legii legio legią legię
+62	3162	konwencja	konwencjach konwencjami konwencje konwencji konwencją konwencję
+63	3163	ścigać	ściga ścigaj ścigają ścigając ścigającego ścigający ścigających ścigali ścigam ścigamy ścigana ścigane ściganego ścigani ścigania ściganie ścigano ścigany ściganych ściganym ścigał ścigała ścigałam ścigały
+64	3164	smutek	smutkiem smutku
+65	3165	kraina	krain krainach krainami krainie krainy krainą krainę
+66	3166	głodny	głodna głodne głodnego głodnemu głodni głodnych głodnym głodnymi
+67	3167	uczciwy	najuczciwszy uczciwa uczciwe uczciwego uczciwej uczciwi uczciwych uczciwym uczciwymi uczciwą
+68	3168	głosić	głosi głosili głosisz głosił głosiła głosiły głoszenia głoszenie głoszeniu głoszona głoszone głoszonej głoszonych głoszonymi głoszoną głoszą głosząc głosząca głoszące głoszący głoszących głoszącym głoszę głoś
+69	3169	jabłko	jabłek jabłka jabłkach jabłkami jabłkiem jabłkowe jabłkowego jabłkowo jabłkowy jabłkowym jabłku jabłuszka jabłuszko
+70	3170	pop	popa popem popie popowie popu popy popów
+71	3171	chwała	chwale chwały chwałą chwałę
+72	3172	odpowiednik	odpowiednicy odpowiednika odpowiednikami odpowiedniki odpowiednikiem odpowiedniku odpowiedników
+73	3173	zanotować	notowali notowana notowane notowanego notowanej notowani notowania notowanie notowano notowany notowanych notowanym notowanymi notowaną notować notował notowała notowań notuje notujemy notują notując notuję zanotowali zanotowaliśmy zanotowane zanotowano zanotowany zanotował zanotowała zanotowałem zanotowało zanotowały zanotuj zanotują
+74	3174	obniżyć	obniż obniża obniżają obniżając obniżająca obniżające obniżający obniżającą obniżamy obniżania obniżanie obniżaniu obniżać obniżał obniżało obniżona obniżone obniżonego obniżonej obniżono obniżony obniżonych obniżonym obniżoną obniży obniżyli obniżymy obniżył obniżyła obniżyło obniżyły obniżą
+75	3175	podsumowanie	podsumowania podsumowaniem podsumowaniu
+76	3176	próg	progach progami progi progiem progowe progu progów
+77	3177	zaskoczony	zaskoczeni zaskoczona zaskoczone zaskoczonego zaskoczonych zaskoczonym zaskoczoną
+78	3178	odpocząć	odpocznie odpoczniemy odpoczniesz odpocznij odpocznijcie odpoczną odpocznę odpoczywa odpoczywaj odpoczywają odpoczywając odpoczywali odpoczywam odpoczywamy odpoczywanie odpoczywasz odpoczywać odpoczywał odpoczywała odpoczął odpoczęli odpoczęła odpoczęłam
+79	3179	łapa	łap łapach łapami łapce łapek łapie łapka łapkach łapkami łapki łapką łapkę łapskami łapy łapą łapę
+80	3180	sok	soczek soczki soczku soczków sokach sokami soki sokiem soku soków
+81	3181	tytułować	tytułował tytułuje zatytułowana zatytułowane zatytułowanego zatytułowanej zatytułowany zatytułowanych zatytułowanym zatytułowaną zatytułować zatytułował
+82	3182	regularny	nieregularnych regularna regularne regularnego regularnej regularni regularnych regularnym regularnymi regularną
+83	3183	dążyć	dąż dąży dążyli dążymy dążysz dążył dążyła dążyły dążą dążąc dążąca dążące dążącego dążącej dążący dążących dążącym dążącą dążę
+84	3184	piosenkarz	piosenkarce piosenkarek piosenkarka piosenkarki piosenkarką piosenkarkę piosenkarza piosenkarzami piosenkarze piosenkarzem piosenkarzom piosenkarzy
+85	3185	dyskryminacja	dyskryminacji dyskryminacją dyskryminację
+86	3186	sprawować	sprawowali sprawowana sprawowane sprawowanego sprawowanej sprawowania sprawowanie sprawowany sprawowanych sprawowaną sprawował sprawowała sprawowało sprawowały sprawuje sprawują sprawując sprawująca sprawujące sprawującego sprawującej sprawujący sprawujących sprawującym
+87	3187	cola	col cole coli colo colą colę kol kola koli
+88	3188	chorować	chorowali chorowania chorowanie chorował chorowała chorowałam choruje chorujemy chorujesz chorują chorujących choruję zachorowali zachorowania zachorowanie zachorowaniem zachorować zachorował zachorowała zachorowałam zachorowałem zachorowało zachorowały zachorowań zachoruje zachorujesz zachorują
+89	3189	franca	franc france franco
+90	3190	zasnąć	zasną zasnął zasnąłem zasnąłeś zasnę zasnęli zasnęła zasnęłam zasnęłaś zaspać zaspał zaspała zaspałam zaspałem zasypia zasypiaj zasypiają zasypiając zasypiam zasypiania zasypianie zasypianiem zasypiasz zasypiać zasypiał zasypiała zasypiałam zaśnie zaśniesz zaśnij zaśnięcie zaśnięciem
+91	3191	junior	juniora juniorach juniorami juniorem juniorka juniorki juniorzy juniorów
+92	3192	wyeliminować	eliminowane eliminowania eliminowanie eliminowaniu eliminować eliminował eliminuje eliminujemy eliminują eliminując eliminujące eliminujący wyeliminowali wyeliminowana wyeliminowane wyeliminowani wyeliminowania wyeliminowanie wyeliminowaniem wyeliminowaniu wyeliminowano wyeliminowany wyeliminował wyeliminowała wyeliminowało wyeliminowały wyeliminuj wyeliminuje wyeliminujemy wyeliminujesz wyeliminują
+93	3193	legalny	legalna legalne legalnego legalnej legalni legalnych legalnym legalnymi legalną
+94	3194	sportowiec	sportowca sportowcach sportowcami sportowcem sportowcom sportowcy sportowców
+95	3195	ambasador	ambasadora ambasadorami ambasadorem ambasadorka ambasadorowi ambasadorowie ambasadorze ambasadorzy ambasadorów
+96	3196	tęcza	tęcz tęcze tęczowa tęczowe tęczowego tęczowej tęczowi tęczowo tęczowy tęczowych tęczowym tęczowymi tęczową tęczy tęczą tęczę
+97	3197	totalny	totalna totalne totalnego totalnej totalni totalnych totalnym totalną
+98	3198	zeznanie	zeznania zeznaniach zeznaniami zeznaniom zeznaniu zeznań
+99	3199	wynająć	wynajmie wynajmiemy wynajmiesz wynajmij wynajmowane wynajmowanie wynajmowany wynajmowanych wynajmowanym wynajmować wynajmował wynajmowała wynajmuje wynajmujemy wynajmujesz wynajmują wynajmując wynajmującego wynajmujący wynajmujących wynajmuję wynajmę wynajął wynająłem wynajęci wynajęcia wynajęcie wynajęli wynajęliśmy wynajęta wynajęte wynajętego wynajętej wynajęto wynajęty wynajętych wynajętym wynajęła wynajęłam
+100	3200	odróżnić	odróżnia odróżniają odróżniające odróżniających odróżniam odróżniania odróżnianie odróżniasz odróżniać odróżniał odróżnienie odróżnieniu odróżnisz

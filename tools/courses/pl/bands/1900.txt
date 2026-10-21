@@ -1,0 +1,100 @@
+1	1801	posiadanie	posiadania posiadaniem posiadaniu
+2	1802	rezultat	rezultacie rezultatach rezultatami rezultatem rezultatu rezultaty rezultatów
+3	1803	kwota	kwocie kwot kwotach kwotami kwotowo kwoty kwotą kwotę
+4	1804	plecy	plecach plecami pleckach plecki pleców
+5	1805	środa	środowa środowe środowej środowy środowych środowym środową środy środzie środą środę śród
+6	1806	karny	karna karne karnego karnej karnie karno karnych karnym karnymi karną
+7	1807	wstyd	wstydem wstydu wstydzie
+8	1808	cudowny	cudowna cudowne cudownego cudownej cudowni cudownych cudownym cudownymi cudowną najcudowniejszy
+9	1809	dłoń	dłoni dłoniach dłonie dłoniom dłonią dłońmi
+10	1810	islam	islamem islamie islamowi islamscy islamska islamski islamskich islamskie islamskiego islamskiej islamskiemu islamskim islamskimi islamską islamu
+11	1811	gdański	gdańscy gdańska gdańskich gdańskie gdańskiego gdańskiej gdańskim gdańsku gdańską
+12	1812	rocznica	rocznic rocznice rocznicowe rocznicowy rocznicy rocznicą rocznicę
+13	1813	ostry	ostra ostre ostrego ostrej ostrych ostrym ostrymi ostrzejsza ostrzejsze ostrzejszy ostrzejszych ostrzejszą ostrzy ostrą
+14	1814	przedsiębiorca	przedsiębiorcach przedsiębiorcami przedsiębiorcom przedsiębiorcy przedsiębiorców przedsiębiorcą przedsiębiorcę
+15	1815	zyskać	zyska zyskacie zyskają zyskali zyskaliśmy zyskam zyskamy zyskania zyskanie zyskasz zyskał zyskała zyskałam zyskałby zyskałem zyskałeś zyskało zyskały zyskiwać zyskiwał zyskiwała zyskiwały zyskuje zyskujemy zyskujesz zyskują zyskując zyskuję
+16	1816	złoto	złocie złota złotem złotko
+17	1817	szczególny	szczególna szczególne szczególnego szczególnej szczególni szczególnych szczególnym szczególnymi szczególną
+18	1818	cie	
+19	1819	widoczny	widoczna widoczne widocznego widocznej widoczni widocznych widocznym widocznymi widoczną
+20	1820	konstrukcja	konstrukcjach konstrukcjami konstrukcje konstrukcji konstrukcją konstrukcję konstrukcyjna konstrukcyjne konstrukcyjnego konstrukcyjnej konstrukcyjnie konstrukcyjno konstrukcyjny konstrukcyjnych konstrukcyjnym konstrukcyjnymi konstrukcyjną
+21	1821	byl	byla bylem
+22	1822	lekko	leciutko lżej
+23	1823	tajemnica	tajemnic tajemnicach tajemnicami tajemnice tajemnicy tajemnicą tajemnicę
+24	1824	środkowy	środkowa środkowe środkowego środkowej środkowi środkowo środkowych środkowym środkową
+25	1825	kraść	kradli kradnie kradniemy kradniesz kradnij kradną kradnąc kradnę kradzione kradziony kradzionych kradzionym kradzionymi kradł kradła kradłem kradło ukradli ukradliście ukradnie ukradniesz ukradnij ukradną ukradnę ukradziona ukradzione ukradzionego ukradziono ukradziony ukradzionych ukradł ukradła ukradłam ukradłaś ukradłem ukradłeś ukradło ukradły ukraść
+26	1826	szereg	szeregach szeregi szeregiem szeregowi szeregu szeregów
+27	1827	dochód	dochodach dochodami dochodem dochodu dochody dochodzie dochodów
+28	1828	humor	humorach humorek humorem humorki humoru humory humorze humorów
+29	1829	mur	murach murami murek murem murka murkiem murku muru mury murze murów
+30	1830	zasięg	zasięgi zasięgiem zasięgu zasięgów
+31	1831	dźwięk	dźwiękach dźwiękami dźwięki dźwiękiem dźwięku dźwięków
+32	1832	wielkość	wielkości wielkościach wielkościami wielkością
+33	1833	zewnętrzny	zewnętrzna zewnętrzne zewnętrznego zewnętrznej zewnętrznemu zewnętrznie zewnętrznych zewnętrznym zewnętrznymi zewnętrzną
+34	1834	norma	norm normach normami normie normom normy normą normę
+35	1835	mieszać	miesza mieszaj mieszajmy mieszają mieszając mieszali mieszam mieszamy mieszana mieszane mieszania mieszanie mieszaniu mieszany mieszanych mieszasz mieszał mieszała mieszały pomieszane pomieszać pomieszał pomieszało pomieszały wymieszaj wymieszane wymieszanie wymieszać zamieszana zamieszane zamieszani zamieszany zamieszanych zamieszać zmieszaj zmieszane zmieszania zmieszanie zmieszać
+36	1836	zainteresowany	zainteresowana zainteresowane zainteresowanego zainteresowanej zainteresowani zainteresowanych zainteresowanym zainteresowanymi zainteresowaną
+37	1837	zarzut	zarzutach zarzutami zarzutem zarzutom zarzutu zarzuty zarzutów
+38	1838	finał	finale finałach finałem finałowa finałowe finałowego finałowej finałowy finałowych finałowym finałową finału finały finałów
+39	1839	naukowiec	naukowca naukowcami naukowcem naukowcom naukowcu naukowcy naukowców
+40	1840	przebywać	przebycia przebycie przebyciu przebyli przebyte przebytej przebyty przebytych przebytym przebytą przebywa przebywacie przebywają przebywając przebywająca przebywające przebywającego przebywającej przebywający przebywających przebywającym przebywającymi przebywali przebywam przebywamy przebywania przebywanie przebywaniem przebywaniu przebywasz przebywał przebywała przebywałem przebywało przebywały przebyć przebył przebyła przebyły
+41	1841	korzyść	korzyści korzyściach korzyściami korzyścią
+42	1842	zadowolony	zadowoleni zadowolona zadowolone zadowolonego zadowolonych zadowolonym zadowoloną
+43	1843	solidarność	solidarności solidarnościowa solidarnościowy solidarnością
+44	1844	przyjemność	przyjemności przyjemnościach przyjemnościami przyjemnością
+45	1845	jezioro	jezior jeziora jeziorach jeziorami jeziorek jeziorem jeziorka jeziorkiem jeziorko jeziorku jeziorze
+46	1846	news	newsa newsach newsami newsem newsie newsy newsów
+47	1847	tablica	tablic tablicach tablicami tablice tablicowe tablicy tabliczce tabliczek tabliczka tabliczkach tabliczkami tabliczki tabliczką tabliczkę tablicą tablicę
+48	1848	okoliczność	okoliczności okolicznościach okolicznościami okolicznościowa okolicznościowe okolicznościowej okolicznościowy okolicznościowych okolicznościowym okolicznościową okolicznością
+49	1849	trybunał	trybunale trybunałami trybunałem trybunałowi trybunału trybunały trybunałów
+50	1850	studio	studiach studiami studiem studiom studiu studiów studyjna studyjne studyjnego studyjnej studyjny studyjnych studyjnym studyjną
+51	1851	szanować	szanowali szanowana szanowane szanowanego szanowanej szanowani szanowania szanowanie szanowany szanowanych szanowanym szanowaną szanował szanowałem szanuj szanujcie szanuje szanujecie szanujemy szanujesz szanujmy szanują szanując szanująca szanujące szanujący szanujących szanuję
+52	1852	pobrać	pobiera pobierają pobierając pobierających pobierali pobieram pobieramy pobierana pobierane pobierania pobieranie pobieraniem pobieraniu pobierany pobieranych pobierasz pobierać pobierał pobierała pobierało pobierz pobierze pobiorą pobiorę pobrali pobrana pobrane pobranego pobranej pobrania pobranie pobrano pobrany pobranych pobrał pobrała pobrałam pobrałem pobrań
+53	1853	turniej	turniejach turniejami turnieje turniejem turnieju turniejów
+54	1854	otrzymywać	otrzymuje otrzymujecie otrzymujemy otrzymujesz otrzymują otrzymując otrzymującej otrzymujący otrzymujących otrzymuję otrzymywali otrzymywana otrzymywane otrzymywanego otrzymywania otrzymywanie otrzymywaniem otrzymywaniu otrzymywany otrzymywanych otrzymywał otrzymywała otrzymywałem otrzymywało otrzymywały
+55	1855	wrzucić	wrzuca wrzucacie wrzucaj wrzucajcie wrzucają wrzucając wrzucali wrzucam wrzucamy wrzucane wrzucania wrzucanie wrzucano wrzucasz wrzucać wrzucał wrzucałam wrzucałem wrzucenia wrzucenie wrzuceniem wrzuceniu wrzuci wrzucili wrzucimy wrzucisz wrzucił wrzuciła wrzuciłam wrzuciłem wrzuciłeś wrzucona wrzucone wrzucono wrzucony wrzucą wrzucę wrzuć wrzućcie
+56	1856	dziesięć	dziesięcio dziesięcioma dziesięciu
+57	1857	ekipa	ekip ekipach ekipami ekipie ekipo ekipom ekipy ekipą ekipę
+58	1858	biskup	biskupa biskupami biskupem biskupi biskupia biskupich biskupie biskupiego biskupiej biskupim biskupią biskupom biskupowi biskupów bp bpa
+59	1859	agent	agenci agencie agenta agentach agentami agentem agentka agentki agentką agentkę agentom agentowi agentów
+60	1860	głęboki	głeboki głęboka głębokich głębokie głębokiego głębokiej głębokim głębokimi głęboką głębsza głębsze głębszego głębszej głębszy głębszych głębszym głębszą najgłębszy
+61	1861	wyrzucić	wyrzuca wyrzucaj wyrzucajcie wyrzucają wyrzucając wyrzucali wyrzucam wyrzucamy wyrzucane wyrzucania wyrzucanie wyrzucany wyrzucanych wyrzucasz wyrzucać wyrzucał wyrzuceni wyrzucenia wyrzucenie wyrzuceniem wyrzuceniu wyrzuci wyrzucili wyrzucisz wyrzucił wyrzuciła wyrzuciłam wyrzuciłem wyrzuciło wyrzuciły wyrzucona wyrzucone wyrzuconego wyrzucono wyrzucony wyrzuconych wyrzucą wyrzucę wyrzuć
+62	1862	wybuch	wybuchach wybuchami wybuchem wybuchowi wybuchu wybuchy wybuchów
+63	1863	pływać	popłynie popłyną popłynąć popłynął popłynęła popłynęły płynie płyniemy płyną płynąc płynąca płynące płynącego płynącej płynący płynących płynącym płynącą płynąć płynął płynę płynęli płynęła płynęło płynęły pływa pływają pływając pływająca pływające pływający pływających pływam pływamy pływania pływanie pływaniu pływał pływały
+64	1864	powyżej	
+65	1865	wspólnie	
+66	1866	zewnątrz	
+67	1867	upadek	upadkami upadki upadkiem upadkowi upadku upadków
+68	1868	komentować	komentowali komentowana komentowane komentowania komentowanie komentowaniem komentowaniu komentowany komentowanych komentował komentowała komentowałem komentowały komentuj komentujcie komentuje komentujemy komentujesz komentują komentując komentujący komentujących komentuję skomentowali skomentowania skomentowanie skomentować skomentował skomentowała skomentowałem skomentuj skomentuje skomentujesz skomentują skomentuję
+69	1869	mrzeć	marcie marto zmarli zmarł zmarła zmarło
+70	1870	zmieścić	mieszczą mieszcząca mieszczące mieszczącego mieszczącej mieszczący mieszczących mieszczącym mieszczącą mieszczę mieści mieścimy mieścisz mieścić mieścił mieściła mieściło mieściły miotły zmiata zmiecie zmieszczą zmieszczę zmieści zmieścili zmieścimy zmieścisz zmieścił zmieściła zmieściło zmieściłoby zmieściły zmieść zmiotła zmiotło zmiótł
+71	1871	populacja	populacjach populacje populacji populacją populację
+72	1872	ekran	ekranach ekranami ekranem ekranie ekranu ekrany ekranów
+73	1873	zwolennik	zwolennicy zwolenniczka zwolenniczką zwolennika zwolennikami zwolennikiem zwolennikom zwolenniku zwolenników
+74	1874	zło	zła złem złom złomem złomie złomu złomy złu
+75	1875	urzędnik	urzędnicy urzędniczka urzędniczki urzędnika urzędnikami urzędnikiem urzędnikom urzędnikowi urzędników
+76	1876	kojarzyć	kojarzeni kojarzenia kojarzenie kojarzona kojarzone kojarzonego kojarzonej kojarzono kojarzony kojarzonych kojarzonym kojarzy kojarzycie kojarzyli kojarzysz kojarzył kojarzyła kojarzyłam kojarzyłem kojarzyło kojarzyły kojarzą kojarząca kojarzące kojarzę skojarzone skojarzony skojarzy skojarzyć skojarzył skojarzyła skojarzyłam skojarzyłem skojarzyło
+77	1877	przetrwać	przetrwa przetrwaj przetrwają przetrwali przetrwaliśmy przetrwam przetrwamy przetrwania przetrwanie przetrwaniem przetrwaniu przetrwał przetrwała przetrwałam przetrwałem przetrwało przetrwały
+78	1878	dna	den denka denko dnem dnie dno dny dnę
+79	1879	spadek	spadkach spadkami spadki spadkiem spadkowa spadkowe spadkowego spadkowej spadkowi spadkowy spadkowych spadkowym spadkową spadku spadków
+80	1880	wyzwanie	wyzwania wyzwaniach wyzwaniami wyzwaniem wyzwaniom wyzwaniu wyzwań
+81	1881	zarejestrować	rejestrowana rejestrowane rejestrowanego rejestrowania rejestrowanie rejestrowany rejestrowanych rejestrować rejestrował rejestruje rejestrujemy rejestrują rejestrując rejestrujące rejestrujących zarejestrowali zarejestrowana zarejestrowane zarejestrowanego zarejestrowanej zarejestrowani zarejestrowania zarejestrowanie zarejestrowaniu zarejestrowano zarejestrowany zarejestrowanych zarejestrowanym zarejestrowanymi zarejestrowaną zarejestrował zarejestrowała zarejestrowałam zarejestrowałem zarejestrowało zarejestrowały zarejestruj zarejestruje zarejestrują
+82	1882	lotniczy	lotnicza lotnicze lotniczego lotniczej lotniczych lotniczym lotniczymi lotniczą
+83	1883	przydać	przyda przydadzą przydaje przydają przydał przydała przydałaby przydałby przydało przydałoby przydały przydałyby
+84	1884	specjalista	specjalistami specjalistka specjalistki specjalistką specjalistkę specjalistom specjalisty specjalistów specjalistą specjalistę specjaliści specjaliście
+85	1885	wybaczyć	wybacz wybacza wybaczają wybaczam wybaczamy wybaczania wybaczanie wybaczać wybaczcie wybaczenia wybaczenie wybaczone wybaczy wybaczycie wybaczyli wybaczymy wybaczysz wybaczył wybaczyła wybaczyłam wybaczyłaś wybaczą wybaczę
+86	1886	setka	seta setce setek setkach setkami setki setkom setką setkę
+87	1887	opowieść	opowiastka opowiastki opowieści opowieściach opowieściami opowieściom opowieścią
+88	1888	metal	metalach metalami metale metalem metali metalowa metalowe metalowego metalowej metalowo metalowy metalowych metalowym metalowymi metalową metalu
+89	1889	odzyskać	odzyska odzyskacie odzyskaj odzyskajmy odzyskają odzyskali odzyskaliśmy odzyskam odzyskamy odzyskana odzyskane odzyskanego odzyskanej odzyskania odzyskanie odzyskano odzyskany odzyskanych odzyskasz odzyskał odzyskała odzyskałam odzyskałem odzyskało odzyskały odzyskiwania odzyskiwanie odzyskiwaniem odzyskiwaniu odzyskiwać odzyskiwał odzyskuje odzyskujemy odzyskują odzyskując
+90	1890	klasyczny	klasyczna klasyczne klasycznego klasycznej klasyczni klasycznie klasycznych klasycznym klasycznymi klasyczną
+91	1891	cywilny	cywilna cywilne cywilnego cywilnej cywilnemu cywilni cywilno cywilnych cywilnym cywilnymi cywilną
+92	1892	olimpijski	olimpijscy olimpijska olimpijskich olimpijskie olimpijskiego olimpijskiej olimpijskim olimpijskimi olimpijską
+93	1893	woleć	wolał wolała wolałaby wolałabym wolałabyś wolałam wolałaś wolałby wolałbym wolałbyś wolałem wolałeś wolało wolałoby wolały wolałyby woleli woleliby wolelibyście wolelibyśmy woleliśmy wolicie wolimy wolisz wolą wolę
+94	1894	pełnić	pełni pełnienia pełnienie pełnieniem pełnieniu pełnili pełniona pełnione pełnionego pełnionej pełnionych pełnioną pełnisz pełnią pełniąc pełniąca pełniące pełniącego pełniącej pełniący pełniących pełniącym pełniącą pełnię pełnił pełniła pełniłem pełniło pełniły
+95	1895	narzekać	narzeka narzekacie narzekaj narzekajcie narzekają narzekając narzekające narzekający narzekających narzekali narzekam narzekamy narzekania narzekanie narzekaniem narzekaniu narzekasz narzekał narzekała narzekałam narzekałaś narzekałbym narzekałem narzekałeś narzekało narzekały narzekań ponarzekać
+96	1896	herbata	herbaciana herbaciane herbacianej herbaciany herbacie herbat herbatce herbatka herbatki herbatką herbatkę herbaty herbatą herbatę
+97	1897	materiały	
+98	1898	niezależnie	
+99	1899	prąd	prądach prądami prądem prądu prądy prądzie prądów
+100	1900	sygnał	sygnale sygnałach sygnałami sygnałem sygnału sygnały sygnałów

@@ -1,0 +1,100 @@
+1	5001	przełamać	przełam przełamali przełamana przełamane przełamania przełamanie przełamaniu przełamany przełamał przełamała przełamałem przełamały przełamie przełamiesz przełamuje przełamując przełamywania przełamywanie przełamywać
+2	5002	dziwo	dziw dziwi dziwie dziwy
+3	5003	drink	drinka drinkach drinkami drinki drinkiem drinku drinków
+4	5004	wulkan	wulkanami wulkanem wulkaniczna wulkaniczne wulkanicznego wulkanicznej wulkaniczny wulkanicznych wulkanicznym wulkaniczną wulkanie wulkanu wulkany wulkanów
+5	5005	demokrata	demokraci demokratami demokratom demokratów demokratą demokratę
+6	5006	guzik	guziczek guziczki guzika guzikach guzikami guziki guzikiem guziku guzików
+7	5007	aga	ag agi ago agą agę jaga jagi jago
+8	5008	prorok	prorocy proroka prorokami prorokiem prorokowi proroku proroków
+9	5009	bezsensowny	bezsensowna bezsensowne bezsensownego bezsensownej bezsensownie bezsensownych bezsensownym bezsensownymi bezsensowną
+10	5010	gęsty	gęsta gęste gęstego gęstej gęstsza gęstsze gęstszy gęstych gęstym gęstymi gęstą
+11	5011	skraj	skrajach skrajem skraju
+12	5012	przelew	przelewem przelewie przelewu przelewy przelewów
+13	5013	nuda	nudy nudów nudą nudę
+14	5014	boom	boomem boomu bum
+15	5015	poprzednik	poprzednicy poprzedniczka poprzedniczki poprzednika poprzednikach poprzednikami poprzednikiem poprzedniku poprzedników
+16	5016	ciąć	ciął cięli cięta cięte ciętego ciętej cięty ciętych ciętym ciętą tnie tniemy tniesz tnij tną tnąc tnące tnących tnącą tnę
+17	5017	kasyno	kasyn kasyna kasynach kasynami kasynem kasynie
+18	5018	ściek	ściekach ściekami ścieki ściekiem ściekowe ściekowego ściekowej ściekowych ścieku ścieków
+19	5019	neutralny	neutralna neutralne neutralnego neutralnej neutralni neutralnie neutralnych neutralnym neutralną
+20	5020	nuklearny	nuklearna nuklearne nuklearnego nuklearnej nuklearnych nuklearnym nuklearnymi nuklearną
+21	5021	pustka	puchy pustce pustek pustkami pustki pustką pustkę
+22	5022	odsłonić	odsłania odsłaniają odsłaniając odsłaniać odsłoni odsłonili odsłonięcia odsłonięcie odsłonięciem odsłonięciu odsłonięta odsłonięte odsłoniętej odsłonięto odsłonięty odsłoniętych odsłoniętym odsłoniętą odsłonił odsłoniła odsłoniły
+23	5023	zazdrosny	zazdrosna zazdrosne zazdrosnego zazdrosnej zazdrosnych zazdrosnym zazdrosną zazdrośni
+24	5024	jednoznacznie	
+25	5025	następująco	
+26	5026	porządnie	
+27	5027	precz	
+28	5028	skrajnie	
+29	5029	ideologiczny	ideologiczna ideologiczne ideologicznego ideologicznej ideologicznych ideologicznym ideologicznymi ideologiczną
+30	5030	ostrożność	ostrożności ostrożnością
+31	5031	preferencja	preferencjach preferencjami preferencje preferencji preferencję
+32	5032	ziomek	ziomka ziomkami ziomki ziomkiem ziomkowi ziomkowie ziomku ziomków
+33	5033	rurki	rurek rurkach rurkami rury
+34	5034	wymarzyć	wymarzona wymarzone wymarzonego wymarzonej wymarzony wymarzonych wymarzonym wymarzoną wymarzy wymarzył wymarzyłam
+35	5035	odra	odry odrze odrą odrę
+36	5036	łatwość	łatwości łatwością
+37	5037	pretensja	pretensjami pretensje pretensji pretensję
+38	5038	litr	litrach litrami litry litrze litrów
+39	5039	rektor	rektora rektorem rektorowi rektorzy rektorów
+40	5040	słuch	słuchem słuchu słuchy
+41	5041	przeglądarka	przeglądarce przeglądarek przeglądarkach przeglądarkami przeglądarki przeglądarką przeglądarkę
+42	5042	arka	arce archa arek arki arką arkę
+43	5043	próbny	próbna próbne próbnego próbnej próbnych próbnym próbną
+44	5044	głębokość	głębokości głębokościach głębokością
+45	5045	nadrobić	nadrabia nadrabiają nadrabiając nadrabiam nadrabiamy nadrabianie nadrabiasz nadrabiać nadrabiał nadrobi nadrobienia nadrobienie nadrobimy nadrobisz nadrobię nadrobił nadrobiłem
+46	5046	epizod	epizodach epizodami epizodem epizodu epizody epizodzie epizodów
+47	5047	mydło	mydeł mydełko mydlana mydlane mydlanej mydlanych mydlaną mydle mydła mydłem
+48	5048	półfinał	półfinale półfinałach półfinałowe półfinałowej półfinałowy półfinałowych półfinałowym półfinału półfinały półfinałów
+49	5049	prześladować	prześladowali prześladowana prześladowane prześladowani prześladowany prześladowanych prześladowanym prześladował prześladowała prześladowało prześladowały prześladuje prześladują
+50	5050	zawieszony	zawieszeni zawieszona zawieszone zawieszonego zawieszonej zawieszonych zawieszonym zawieszoną
+51	5051	kliniczny	kliniczna kliniczne klinicznego klinicznej klinicznie klinicznych klinicznym klinicznymi kliniczną
+52	5052	gonić	goni gonie gonienia gonienie gonili gonimy gonisz gonią goniąc goniący gonię gonił goniła goniłem goń
+53	5053	infekcja	infekcjach infekcjami infekcje infekcji infekcjom infekcją infekcję
+54	5054	inflacja	inflacji inflacją inflację
+55	5055	fortuna	fortun fortunie fortuny fortuną fortunę
+56	5056	księgarnia	księgarni księgarniach księgarnie księgarnią księgarnię księgarń
+57	5057	bilans	bilansem bilansie bilansu
+58	5058	zlecić	zleca zlecając zlecającego zlecam zlecane zlecasz zlecać zlecał zleci zlecili zleciliśmy zlecił zleciła zleciłem zleciło zlecona zlecone zlecono zleconych zlecą zlecę zleć
+59	5059	ful	fula full fulla
+60	5060	wozić	wiezie wiezienia wiezienie wiezieniu wieziesz wieziono wieźli wieźć wiozą wioząc wiozące wiozącego wiozący wiozła wiozłem wiózł wozi wozisz woził woziła wożenia wożenie wożą wożąc wożę
+61	5061	odwrotny	odwrotna odwrotne odwrotnego odwrotnej odwrotnych odwrotnym odwrotną
+62	5062	przedsiębiorczość	przedsiębiorczości przedsiębiorczością
+63	5063	zasłużony	zasłużeni zasłużenie zasłużona zasłużone zasłużonego zasłużonej zasłużonych zasłużonym zasłużoną
+64	5064	zbieg	zbiega zbiegach zbiegi zbiegiem zbiegowi zbiegowie zbiegu zbiegów
+65	5065	sowa	sowia sowich sowie sowim sowy sową sowę sów sówka sówki
+66	5066	proporcja	proporcjach proporcjami proporcje proporcji proporcję
+67	5067	zmienna	zmienne zmiennej zmiennych zmiennym zmiennymi zmienną
+68	5068	ślubny	ślubna ślubne ślubnego ślubnej ślubnych ślubnym ślubnymi ślubną
+69	5069	aktywista	aktywistami aktywistek aktywistka aktywistki aktywistką aktywistom aktywisty aktywistów aktywistą aktywistę aktywiści
+70	5070	szpieg	szpiedzy szpiega szpiegach szpiegami szpiegiem szpiegowska szpiegowski szpiegowskich szpiegowskie szpiegowskiego szpiegowskiej szpiegowskim szpiegowską szpiegów
+71	5071	małżeński	małżeńska małżeńskich małżeńskie małżeńskiego małżeńskiej małżeńskim małżeńskimi małżeńską
+72	5072	skarbowy	skarbowa skarbowe skarbowego skarbowej skarbowi skarbowych skarbowym skarbowymi skarbową
+73	5073	grzeczny	grzeczna grzeczne grzecznego grzeczni grzecznych grzecznym grzeczną
+74	5074	pokrój	pokroje pokrojem pokroju
+75	5075	naklejka	naklejce naklejek naklejkami naklejki naklejką naklejkę
+76	5076	przysięga	przysiąg przysiędze przysięgi przysięgą przysięgę
+77	5077	piana	pian pianek pianie pianka piankami pianki pianką piankę piano piany pianą pianę
+78	5078	winić	wini winisz winią winię winił wiń
+79	5079	pętla	pętlach pętle pętli pętlą pętlę
+80	5080	żonaty	żonaci żonatego żonatych żonatym
+81	5081	amen	
+82	5082	hetera	hetero
+83	5083	menu	
+84	5084	wprawdzie	
+85	5085	zawodowo	
+86	5086	czujnik	czujnika czujnikach czujnikami czujniki czujnikiem czujniku czujników
+87	5087	pieróg	pieroga pierogach pierogami pierogi pierogów pierożki
+88	5088	podpalić	podpala podpalają podpalając podpalali podpalam podpalane podpalania podpalanie podpalać podpalenia podpalenie podpaleniu podpaleń podpali podpalili podpalimy podpalił podpaliła podpaliłam podpalona podpalone podpalono podpalony
+89	5089	rejs	rejsach rejsem rejsie rejsu rejsy rejsów
+90	5090	pogotowie	pogotowia pogotowiem pogotowiu
+91	5091	retoryka	retoryce retoryki retoryką retorykę
+92	5092	samoobrona	samoobronie samoobrony samoobroną samoobronę
+93	5093	guz	guza guzami guzek guzem guzie guzka guzki guzków guzy guzów
+94	5094	manewr	manewrach manewrami manewrem manewru manewry manewrze manewrów
+95	5095	wiceprezes	wiceprezesa wiceprezesem wiceprezesi wiceprezesów
+96	5096	pozwać	pozwali pozwana pozwanego pozwanej pozwanemu pozwani pozwanie pozwany pozwanych pozwanym pozwał pozwała pozwie pozwiemy pozwę pozywa pozywają pozywać
+97	5097	klauzula	klauzul klauzule klauzuli klauzulą klauzulę
+98	5098	wydobycie	wydobycia wydobyciem wydobyciu
+99	5099	pirat	piraci pirata piratach piratami piratem piratom piratów
+100	5100	koza	koz kozach kozami kozie kozo kozy kozą kozę kóz kózka kózki

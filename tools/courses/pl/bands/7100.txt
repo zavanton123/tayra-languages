@@ -1,0 +1,100 @@
+1	7001	rafa	raf rafach rafie rafy rafą rafę
+2	7002	taksówkarz	taksówkarza taksówkarze taksówkarzem taksówkarzowi taksówkarzy
+3	7003	sura	sur
+4	7004	bruk	brukiem brukowa brukowej brukową bruku burg
+5	7005	obdarzyć	obdarz obdarza obdarzam obdarzał obdarzeni obdarzona obdarzone obdarzonego obdarzono obdarzony obdarzonych obdarzonym obdarzoną obdarzy obdarzyli obdarzył obdarzyła obdarzę
+6	7006	zaginięcie	zaginięcia zaginięciem zaginięciu zaginięć
+7	7007	hełm	hełmach hełmami hełmem hełmie hełmu hełmy hełmów
+8	7008	zaufany	zaufana zaufane zaufanego zaufanej zaufanemu zaufani zaufanych zaufanym zaufanymi zaufaną
+9	7009	osiedlić	osiedla osiedlają osiedlali osiedlania osiedlanie osiedlać osiedlenia osiedlenie osiedli osiedlili osiedlił osiedliła osiedliło
+10	7010	dzik	dzika dzikami dzikiem dziku dzików
+11	7011	odważyć	odważ odważy odważyli odważysz odważył odważyła odważyłam odważyłby odważyłbym odważyłem odważą odważę
+12	7012	bania	bani baniach banie banię
+13	7013	archiwalny	archiwalna archiwalne archiwalnego archiwalnej archiwalnych archiwalnym archiwalnymi archiwalną
+14	7014	własnoręczny	własnoręczne własnoręcznie
+15	7015	licznie	liczniej najliczniej
+16	7016	obsadzić	obsadza obsadzane obsadzania obsadzanie obsadzaniu obsadzać obsadzenia obsadzenie obsadzili obsadził obsadziła obsadzona obsadzone obsadzonego obsadzono obsadzony obsadzonych obsadzonym
+17	7017	wyprzeć	wyparci wyparcia wyparcie wyparciu wyparli wyparta wyparte wyparty wyparł wyparła wyparły wypiera wypierają wypierając wypierane wypierania wypieranie wypierać wypierał wyprze
+18	7018	podniecać	podnieca podniecaj podniecają podniecające podniecający podniecającym podniecam podniecamy podniecasz podniecał podnieci podniecić podniecił podniecona
+19	7019	wgląd	wglądu
+20	7020	szuflada	szuflad szufladach szufladki szuflady szufladzie szufladę
+21	7021	zabawić	zabaw zabawi zabawia zabawiają zabawiali zabawiam zabawianie zabawiać zabawiał zabawię zabawił
+22	7022	preparat	preparacie preparatach preparatami preparatem preparatu preparaty preparatów
+23	7023	antykoncepcja	antykoncepcji antykoncepcją antykoncepcję
+24	7024	wznowić	wznawia wznawiają wznawiamy wznawiane wznowi wznowili wznowiona wznowione wznowiono wznowiony wznowił wznowiła
+25	7025	zbroja	zbroi zbrojach zbroje zbroją zbroję
+26	7026	krzywy	krzywe krzywego krzywej krzywi krzywych krzywym krzywymi krzywą
+27	7027	kameralny	kameralna kameralne kameralnego kameralnej kameralnych kameralnym kameralną
+28	7028	procesja	procesjach procesje procesji procesją procesję
+29	7029	relikwia	relikwiami relikwie relikwii relikwią relikwię
+30	7030	abonament	abonamencie abonamentem abonamentu abonamenty
+31	7031	uciąć	ucina ucinając ucinam ucinać uciął ucięcie ucięli ucięta ucięte ucięty ucięła utnie utnij
+32	7032	rho	ro
+33	7033	zjebać	zjebali zjebana zjebane zjebani zjebania zjebanie zjebał zjebała zjebałam zjebałem zjebałeś zjebało zjebie
+34	7034	pęcherz	pęcherza pęcherze pęcherzem pęcherzu pęcherzy pęcherzyk pęcherzyka pęcherzyki pęcherzyku pęcherzyków
+35	7035	wysyłka	wysyłce wysyłek wysyłki wysyłką wysyłkę
+36	7036	oświatowy	oświatowa oświatowe oświatowego oświatowej oświatowo oświatowych oświatowym oświatowymi oświatową
+37	7037	nadążyć	nadąża nadążają nadążam nadążasz nadążać nadążał nadąży
+38	7038	tara	tar taro tary tarze tarą tarę
+39	7039	przestawić	przestaw przestawi przestawia przestawiam przestawiamy przestawiania przestawianie przestawiać przestawienia przestawienie przestawiony przestawię przestawił przestawiła przestawiłam przestawiłem przestawiły
+40	7040	spoczynek	spoczynku
+41	7041	fajerwerk	fajerwerkami fajerwerki fajerwerków
+42	7042	pakt	pakcie paktem paktu pakty paktów
+43	7043	derka	dera derek
+44	7044	potrawa	potrawach potrawami potrawie potrawka potrawki potrawkę potrawy potrawą potrawę straw strawa strawy strawą strawę
+45	7045	konfiguracja	konfiguracjach konfiguracje konfiguracji konfiguracją konfigurację
+46	7046	nawóz	nawozami nawozem nawozie nawozu nawozy nawozów
+47	7047	renta	rencie rent renty rentę
+48	7048	przesunięcie	przesunięcia przesunięciem przesunięciu przesunięć
+49	7049	zróżnicowanie	zróżnicowania zróżnicowaniem zróżnicowaniu
+50	7050	tarapaty	tarapatach tarapatów
+51	7051	czerwień	czerwieni czerwienie czerwienią
+52	7052	komponować	komponowane komponowania komponowanie komponowaniu komponował komponowała komponuje komponują komponując skomponowana skomponowane skomponowanej skomponowania skomponowanie skomponowany skomponowanych skomponowaną skomponować skomponował
+53	7053	kontener	kontenera kontenerach kontenerami kontenerem kontenery kontenerze kontenerów
+54	7054	mailowy	mailowe mailowej mailowo mailowych mailowym mailową
+55	7055	przedwojenny	przedwojenna przedwojenne przedwojennego przedwojennej przedwojennych przedwojennym przedwojennymi przedwojenną
+56	7056	czworo	czworga
+57	7057	spektakularny	spektakularna spektakularne spektakularnego spektakularnej spektakularnie spektakularnych spektakularnym spektakularną
+58	7058	nadajnik	nadajnika nadajnikami nadajniki nadajnikiem nadajniku nadajników
+59	7059	wulgarny	wulgarna wulgarne wulgarnego wulgarnej wulgarnie wulgarnych wulgarnym wulgarną
+60	7060	notka	notce notek notki notką notkę
+61	7061	obyczajowy	obyczajowa obyczajowe obyczajowego obyczajowej obyczajowo obyczajowych obyczajowym obyczajową
+62	7062	niedorzeczny	niedorzeczna niedorzeczne niedorzecznego niedorzecznie niedorzecznym niedorzeczną
+63	7063	rzęsa	rzęs rzęsach rzęsami rzęsy
+64	7064	ślimak	ślimaka ślimakami ślimaki ślimakiem ślimaku ślimaków
+65	7065	słoniowy	słoniowa słoniowej słoniową
+66	7066	ciut	
+67	7067	software	
+68	7068	zona	zon zonie zony zonę
+69	7069	wiewiórka	wiewiór wiewióra wiewiórce wiewiórek wiewiórki wiewiórką wiewiórkę
+70	7070	imieniny	imienin imieninach
+71	7071	natężenie	natężenia natężeniem natężeniu
+72	7072	szeryf	szeryfa szeryfem szeryfów
+73	7073	widoczność	widoczności widocznością
+74	7074	zrzut	zrzucie zrzutami zrzutu zrzuty zrzutów
+75	7075	najemnik	najemnicy najemnika najemnikami najemnikiem najemników
+76	7076	szampan	szampana szampanem szampany
+77	7077	zwarty	zwarci zwarta zwarte zwartego zwartej zwartych zwartym zwartą
+78	7078	cynk	cynkiem cynkowej cynku
+79	7079	kotlet	kotlecika kotleta kotlety kotletów
+80	7080	mitologia	mitologie mitologii mitologią mitologię
+81	7081	buziak	buziaczek buziaczki buziaka buziaki buziaków
+82	7082	adekwatny	adekwatna adekwatne adekwatnego adekwatnej adekwatnych adekwatnym adekwatną
+83	7083	bury	bur bura bure burego bursy burze burzy
+84	7084	chłodno	chłodniej
+85	7085	plansza	plansz planszach plansze planszowa planszowe planszowej planszowych planszową planszy planszą planszę
+86	7086	odnowa	odnowie odnowy odnową odnowę
+87	7087	plon	plonem plonu plony plonów
+88	7088	pogranicze	pogranicza pograniczu
+89	7089	bułgarski	bułgarska bułgarskich bułgarskie bułgarskiego bułgarskiej bułgarskim bułgarską
+90	7090	biegun	bieguna biegunach biegunami biegunem biegunie biegunowe bieguny biegunów
+91	7091	dziedzic	dziedzica dziedzicach dziedzicami dziedzice dziedzicem dziedzicowi dziedziczka dziedziczki dziedziczkę dziedziców
+92	7092	renowacja	renowacje renowacji renowacją renowację
+93	7093	mutacja	mutacjami mutacje mutacji mutacją mutację
+94	7094	dogonić	dogania doganiają doganiamy doganiać dogoni dogonili dogoniliśmy dogonimy dogonią dogonię dogonił dogoniła dogoniły dogoń
+95	7095	gil	gila gile gilem gili
+96	7096	joga	jodze jogi jogo jogą jogę
+97	7097	nawrócić	nawraca nawracają nawracając nawracające nawracających nawracania nawracanie nawracać nawróceni nawróci nawrócili nawrócił nawróciła nawrócona nawróconego nawrócony nawróconych nawrócą nawróć nawróćcie
+98	7098	siekiera	siekier siekierami siekierka siekierki siekierkę siekiery siekierą siekierę
+99	7099	cukrzyca	cukrzyce cukrzycy cukrzycą cukrzycę
+100	7100	testowy	testowa testowe testowego testowej testowi testowych testowym testową

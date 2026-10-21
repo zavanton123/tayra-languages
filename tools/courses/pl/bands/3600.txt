@@ -1,0 +1,100 @@
+1	3501	powiesić	powiesi powiesili powiesił powiesiła powiesiłam powieszeni powieszenia powieszenie powieszona powieszone powieszonego powieszono powieszony powieszonych powieszą powieszę powieś wiesza wieszają wieszając wieszali wieszamy wieszane wieszania wieszanie wieszaniu wieszano wieszać wieszał
+2	3502	dym	dymek dymem dymie dymka dymki dymku dymna dymne dymnej dymny dymnych dymną dymu dymy dymów
+3	3503	wstrzymać	wstrzyma wstrzymaj wstrzymali wstrzymam wstrzymana wstrzymane wstrzymania wstrzymanie wstrzymaniem wstrzymaniu wstrzymano wstrzymany wstrzymał wstrzymała wstrzymało wstrzymały wstrzymuj wstrzymuje wstrzymujemy wstrzymują wstrzymując wstrzymujących wstrzymuję wstrzymywania wstrzymywanie wstrzymywać wstrzymywał
+4	3504	niekoniecznie	
+5	3505	ponoć	
+6	3506	słusznie	
+7	3507	wzajemnie	
+8	3508	eta	ecie et eto
+9	3509	akcent	akcencie akcentach akcentami akcentem akcentu akcenty akcentów
+10	3510	mięsień	mięśni mięśnia mięśniach mięśniami mięśnie mięśniem mięśniom mięśniu
+11	3511	ryj	ryja ryjach ryje ryjek ryjem ryjka ryju ryjów
+12	3512	krzyk	krzykach krzykami krzyki krzykiem krzyku krzyków
+13	3513	ujęcie	ujęcia ujęciach ujęciami ujęciem ujęciu ujęć
+14	3514	egzekucja	egzekucjach egzekucje egzekucji egzekucją egzekucję
+15	3515	protokół	protokole protokołach protokołami protokołem protokołu protokoły protokołów
+16	3516	strategiczny	strategiczna strategiczne strategicznego strategicznej strategicznie strategicznych strategicznym strategicznymi strategiczną
+17	3517	nakazać	nakazali nakazane nakazanie nakazano nakazał nakazała nakazało nakazały nakazuje nakazują nakazując nakazujące nakazującego nakazującej nakazujący nakazujących nakazującą nakazuję nakazywać nakazywał nakazywała nakazywało nakaże
+18	3518	mieszkalny	mieszkalna mieszkalne mieszkalnego mieszkalnej mieszkalno mieszkalnych mieszkalnym mieszkalnymi mieszkalną
+19	3519	cięcie	cięcia cięciach cięciami cięciem cięciom cięciu cięć
+20	3520	bal	balach balami bale balem bali balik balu bol
+21	3521	opona	opon oponach oponami oponie oponki oponkę opony oponą oponę
+22	3522	bezdomny	bezdomna bezdomne bezdomnego bezdomnej bezdomnemu bezdomni bezdomnych bezdomnym bezdomnymi
+23	3523	okręgowy	okręgowa okręgowe okręgowego okręgowej okręgowemu okręgowych okręgowym okręgową
+24	3524	brazylijski	brazylijscy brazylijska brazylijskich brazylijskie brazylijskiego brazylijskiej brazylijskim brazylijską
+25	3525	team	teamem teamie teamu teamy teamów
+26	3526	rywal	rywala rywalami rywale rywalem rywali rywalka rywalki rywalom rywalowi rywalu
+27	3527	przetestować	przetestowaliśmy przetestowana przetestowane przetestowania przetestowanie przetestowano przetestowany przetestował przetestowałem przetestuj przetestuje przetestujemy przetestuję testowali testowaliśmy testowana testowane testowani testowania testowanie testowaniem testowaniu testowano testowany testowanych testować testował testowała testowałam testowałem testuj testuje testujemy testujesz testują testując testujący testuję
+28	3528	posiedzenie	posiedzenia posiedzeniach posiedzeniami posiedzeniem posiedzeniu posiedzeń
+29	3529	półka	półce półek półkach półkami półki półką półkę
+30	3530	oszczędność	oszczędności oszczędnościami oszczędnościom oszczędnością
+31	3531	mary	mar marach
+32	3532	klasyka	klasyce klasycy klasyk klasykami klasyki klasykiem klasyku klasyków klasyką klasykę
+33	3533	zaginąć	zaginie zaginął zaginęli zaginęła zaginęło zaginęły
+34	3534	tag	tagach tagami tagi tagiem tagu tagów
+35	3535	oryginał	oryginale oryginałach oryginałem oryginałowi oryginału oryginały oryginałów
+36	3536	dwoje	dwojga dwojgiem dwojgu
+37	3537	zbiórka	zbiórce zbiórek zbiórkach zbiórki zbiórką zbiórkę
+38	3538	wciągnąć	wciąga wciągają wciągając wciągająca wciągające wciągający wciągającą wciągam wciągamy wciągane wciągania wciąganie wciągany wciągasz wciągać wciągał wciągnie wciągniesz wciągnij wciągnięci wciągnięcia wciągnięcie wciągnięta wciągnięte wciągnięto wciągnięty wciągnął wciągnąłem wciągnę wciągnęli wciągnęła wciągnęłam wciągnęłaś wciągnęło wciągnęły
+39	3539	homoseksualny	homoseksualna homoseksualne homoseksualnego homoseksualnej homoseksualni homoseksualnych homoseksualnym homoseksualnymi homoseksualną
+40	3540	zwłoki	zwłok zwłokach zwłokami
+41	3541	ceremonia	ceremoniach ceremonie ceremonii ceremonią ceremonię
+42	3542	pielęgniarka	pielęgniarce pielęgniarek pielęgniarkach pielęgniarkami pielęgniarki pielęgniarkom pielęgniarką pielęgniarkę
+43	3543	zemsta	zemsty zemstą zemstę zemście
+44	3544	cierpliwość	cierpliwości cierpliwością
+45	3545	rozdawać	rozda rozdaj rozdaje rozdajemy rozdają rozdając rozdającego rozdający rozdaję rozdali rozdam rozdamy rozdane rozdano rozdawaj rozdawali rozdawana rozdawane rozdawania rozdawanie rozdawaniem rozdawaniu rozdawano rozdawany rozdawał rozdawała rozdać rozdał rozdała
+46	3546	wyrwać	wyrwali wyrwaliśmy wyrwana wyrwane wyrwania wyrwanie wyrwaniu wyrwano wyrwany wyrwanych wyrwanym wyrwał wyrwała wyrwałam wyrwałem wyrwałeś wyrwało wyrwały wyrwie wyrwiesz wyrwę wyrywa wyrywaj wyrywają wyrywając wyrywali wyrywam wyrywamy wyrywania wyrywanie wyrywaniu wyrywać wyrywał wyrywała
+47	3547	roboczy	robocza robocze roboczego roboczej roboczo roboczych roboczym roboczymi roboczą
+48	3548	karabin	karabinach karabinami karabinem karabinie karabinu karabiny karabinów kb
+49	3549	uniwersalny	uniwersalna uniwersalne uniwersalnego uniwersalnej uniwersalnie uniwersalnych uniwersalnym uniwersalnymi uniwersalną
+50	3550	manipulacja	manipulacjach manipulacjami manipulacje manipulacji manipulacjom manipulacją manipulację
+51	3551	dywan	dywanami dywanem dywanie dywanik dywaniki dywaniku dywanowe dywanu dywany dywanów
+52	3552	cal	cala calach calem cali calowi calu
+53	3553	przejazd	przejazdach przejazdem przejazdu przejazdy przejazdów przejeździe
+54	3554	oznaczyć	oznacz oznaczcie oznaczmy oznaczona oznaczone oznaczonego oznaczonej oznaczono oznaczony oznaczonych oznaczonym oznaczonymi oznaczoną oznaczy oznaczyli oznaczymy oznaczył oznaczyła oznaczyłam oznaczyłem
+55	3555	zwiedzić	zwiedza zwiedzaj zwiedzają zwiedzając zwiedzający zwiedzających zwiedzali zwiedzam zwiedzamy zwiedzania zwiedzanie zwiedzaniem zwiedzaniu zwiedzać zwiedzał zwiedzeni zwiedzenie zwiedzili zwiedziliśmy zwiedzimy zwiedził zwiedziłam zwiedziłem zwiedzę
+56	3556	aktywnie	aktywniej
+57	3557	pomiar	pomiarach pomiarami pomiarem pomiarowa pomiarowe pomiarowego pomiarowej pomiarowo pomiarowy pomiarowych pomiarowym pomiarowymi pomiarową pomiaru pomiary pomiarze pomiarów
+58	3558	osa	os osie oso osy osę
+59	3559	bad	badach
+60	3560	postanowienie	postanowienia postanowieniach postanowieniami postanowieniem postanowieniom postanowieniu postanowień
+61	3561	fotograficzny	fotograficzna fotograficzne fotograficznego fotograficznej fotograficznych fotograficznym fotograficznymi fotograficzną
+62	3562	stypendium	stypa stypendia stypendialne stypendialnego stypendialny stypendiów stypie stypy
+63	3563	giełda	giełd giełdach giełdowa giełdowe giełdowego giełdowej giełdowy giełdowych giełdowym giełdy giełdzie giełdą giełdę
+64	3564	anonimowy	anonimowa anonimowe anonimowego anonimowej anonimowi anonimowo anonimowych anonimowym anonimowymi anonimową
+65	3565	sztab	sztabach sztabem sztabie sztabowego sztabowi sztabowy sztabowych sztabowym sztabu sztaby sztabów
+66	3566	odnotować	odnotowali odnotowaliśmy odnotowana odnotowane odnotowania odnotowano odnotowany odnotowanych odnotowaną odnotował odnotowała odnotowało odnotowały odnotowuje odnotowują odnotowując odnotowywane
+67	3567	poród	porodem porodu porody porodzie porodów
+68	3568	emitować	emitowana emitowane emitowanego emitowanej emitowania emitowanie emitowany emitowanych emitowanym emitował emitowała emituje emitują emitując emitujące emitujący emitujących wyemitowana wyemitowane wyemitowano wyemitowany wyemitowanych wyemitowanym wyemitować wyemitował wyemitowała wyemituje
+69	3569	cholernie	
+70	3570	totalnie	
+71	3571	wsadzić	wsadza wsadzaj wsadzają wsadzając wsadzamy wsadzanie wsadzać wsadzał wsadzenie wsadzeniu wsadzi wsadzili wsadzisz wsadził wsadziła wsadziłam wsadziłem wsadzono wsadzony wsadzą wsadzę wsadź wsadźcie
+72	3572	znakomity	znakomici znakomita znakomite znakomitego znakomitej znakomitych znakomitym znakomitymi znakomitą
+73	3573	postrzegać	postrzega postrzegają postrzegając postrzegali postrzegam postrzegamy postrzegana postrzegane postrzeganej postrzegani postrzegano postrzegany postrzeganych postrzegasz postrzegał postrzegała
+74	3574	przełom	przełomem przełomie przełomu przełomy przełomów
+75	3575	tunel	tunelach tunelami tunele tunelem tuneli tunelowe tunelowy tunelu
+76	3576	dochodzenie	dochodzenia dochodzeniem dochodzeniu dochodzeń
+77	3577	pociągnąć	pociąga pociągają pociągając pociągająca pociągające pociągam pociągania pociąganie pociągać pociągał pociągała pociągało pociągały pociągnie pociągniesz pociągnij pociągnięci pociągnięcia pociągnięcie pociągnięty pociągnięć pociągną pociągnął pociągnąłem pociągnę pociągnęli pociągnęła pociągnęłam pociągnęło pociągnęły
+78	3578	serbski	serbscy serbska serbskich serbskie serbskiego serbskiej serbskim serbsko serbsku serbską
+79	3579	rycerz	rycerska rycerski rycerskich rycerskie rycerskiego rycerskiej rycerskim rycerską rycerza rycerzach rycerzami rycerze rycerzem rycerzom rycerzowi rycerzu rycerzy
+80	3580	ewolucja	ewolucje ewolucji ewolucją ewolucję
+81	3581	wdrożyć	wdraża wdrażają wdrażana wdrażane wdrażania wdrażanie wdrażaniem wdrażaniu wdrażany wdrażać wdrażał wdrożenia wdrożenie wdrożeniem wdrożeniu wdrożeń wdrożona wdrożone wdrożono wdrożony wdrożonych wdroży wdrożyli wdrożył wdrożyła
+82	3582	graficzny	graficzna graficzne graficznego graficznej graficznie graficznych graficznym graficznymi graficzną
+83	3583	alarm	alarmami alarmem alarmie alarmu alarmy alarmów
+84	3584	odpuścić	odpuszcza odpuszczaj odpuszczają odpuszczam odpuszczamy odpuszczania odpuszczanie odpuszczać odpuszczenia odpuszczenie odpuszczone odpuszczą odpuszczę odpuści odpuścili odpuściliśmy odpuścimy odpuścił odpuściła odpuściłam odpuściłem odpuść odpuśćmy
+85	3585	mafia	mafie mafii mafijna mafijne mafijnego mafijnej mafijny mafijnych mafijnym mafią mafię
+86	3586	bezrobocie	bezrobocia bezrobociem bezrobociu
+87	3587	domyślić	domyśl domyśla domyślacie domyślają domyślam domyślamy domyślasz domyślać domyślał domyślałem domyśli domyślił domyśliła domyśliłam domyśliłem domyślą
+88	3588	dal	dale dali dol
+89	3589	dawka	dawce dawek dawkach dawkami dawki dawką dawkę
+90	3590	ówczesny	ówczesna ówczesne ówczesnego ówczesnej ówczesnemu ówczesnych ówczesnym ówczesnymi ówczesną ówcześni ówcześnie
+91	3591	podążać	podąża podążaj podążają podążając podążające podążającego podążający podążających podążali podążam podążamy podążania podążanie podążaniu podążasz podążał podążała podążały podąży podążyli podążyć podążył podążyła podążą
+92	3592	śmiało	śmielej
+93	3593	oszczędzać	oszczędza oszczędzaj oszczędzają oszczędzając oszczędzające oszczędzający oszczędzali oszczędzam oszczędzamy oszczędzania oszczędzanie oszczędzasz oszczędzał oszczędzała oszczędzenie oszczędzi oszczędzili oszczędzimy oszczędzisz oszczędzić oszczędził oszczędziła oszczędzone oszczędzono oszczędzą oszczędzę oszczędź
+94	3594	wbić	wbicia wbicie wbiciem wbiciu wbij wbija wbijaj wbijają wbijając wbijali wbijam wbijamy wbijania wbijanie wbijasz wbijać wbijał wbijcie wbije wbijemy wbijesz wbiją wbiję wbili wbiliśmy wbita wbite wbitego wbito wbity wbitych wbitym wbitą wbił wbiła wbiłam wbiłem wbiło wbiły
+95	3595	czyj	czyi czyich czyim czyja czyje czyjego czyjej czyją
+96	3596	got	goci gota gotowi gotów
+97	3597	zarobek	zarobkach zarobkami zarobki zarobkiem zarobku zarobków
+98	3598	wkroczyć	wkracza wkraczają wkraczając wkraczających wkraczali wkraczam wkraczamy wkraczania wkraczanie wkraczasz wkraczać wkraczał wkraczała wkroczenia wkroczenie wkroczeniem wkroczeniu wkroczy wkroczyli wkroczyliśmy wkroczymy wkroczył wkroczyła wkroczyło wkroczyły wkroczą
+99	3599	pragnienie	pragnienia pragnieniach pragnieniami pragnieniem pragnieniom pragnieniu pragnień
+100	3600	duchowny	duchowna duchowne duchownego duchownej duchownemu duchowni duchownych duchownym duchownymi duchowną

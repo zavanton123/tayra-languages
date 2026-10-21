@@ -1,0 +1,100 @@
+1	4101	mniejsza	
+2	4102	psychicznie	
+3	4103	podbić	podbicia podbicie podbiciem podbiciu podbija podbijają podbijając podbijam podbijamy podbijanie podbijać podbijał podbije podbiją podbili podbita podbite podbity podbitych podbitym podbił podbiła podbiło podbiły
+4	4104	kwalifikacje	kwalifikacjach kwalifikacjami
+5	4105	romans	romansach romansami romanse romansem romansie romansu romansów
+6	4106	wiza	wiz wizami wizie wizy wizą wizę
+7	4107	przywieźć	przywiezie przywiezienie przywiezieniu przywieziesz przywieziona przywiezione przywieziono przywieziony przywiezionych przywiezioną przywieźcie przywieźli przywieźliśmy przywiozą przywiozę przywiozła przywiozłam przywiozłem przywiozły przywiózł przywozi przywozili przywozimy przywozisz przywozić przywoził przywożone przywożono przywożonych przywożą przywożąc
+8	4108	pomidor	pomidora pomidorach pomidorami pomidorem pomidorki pomidorowa pomidorowe pomidorowego pomidorowy pomidorowym pomidorową pomidory pomidorów
+9	4109	zróżnicowany	zróżnicowana zróżnicowane zróżnicowanego zróżnicowanej zróżnicowanych zróżnicowanym zróżnicowanymi zróżnicowaną
+10	4110	politechnika	politechnice politechnik politechniki politechniką politechnikę
+11	4111	trup	trupa trupach trupami trupem trupie trupy trupów trupę
+12	4112	awaria	awariami awarie awarii awarią awarię
+13	4113	winda	wind windach windami windom windy windzie windą windę
+14	4114	sonda	sond sondach sondami sondy sondzie sondą sondę
+15	4115	wykupić	wykup wykupem wykupi wykupie wykupienia wykupienie wykupieniu wykupili wykupiona wykupione wykupionego wykupiono wykupiony wykupionych wykupisz wykupią wykupię wykupił wykupiła wykupiłam wykupiłem wykupiło wykupiły wykupu wykupuje wykupujemy wykupują wykupując wykupywania wykupywać
+16	4116	grand	granda
+17	4117	biurko	biurek biurka biurkach biurkami biurkiem biurku
+18	4118	współczuć	współczuj współczuje współczujemy współczujesz współczują współczujący współczuję współczuł
+19	4119	klasztor	klasztorach klasztorem klasztorowi klasztoru klasztory klasztorze klasztorów
+20	4120	zmagać	zmaga zmagają zmagając zmagający zmagających zmagali zmagam zmagamy zmagania zmaganie zmagasz zmagał zmagała zmagały zmagań
+21	4121	zasilanie	zasilania zasilaniem zasilaniu
+22	4122	zbędny	zbędna zbędne zbędnego zbędnej zbędnych zbędnym zbędną
+23	4123	reportaż	reportażach reportaże reportażem reportażu reportaży
+24	4124	chata	chacie chat chatach chatka chaty chatą chatę
+25	4125	kredytowy	kredytowa kredytowe kredytowego kredytowej kredytowych kredytowym kredytowymi kredytową
+26	4126	kłótnia	kłótni kłótniach kłótnie kłótnią kłótnię
+27	4127	kontrowersja	kontrowersjach kontrowersjami kontrowersje kontrowersji kontrowersję
+28	4128	hajs	hajsem hajsu hajsy
+29	4129	wyróżnienie	wyróżnienia wyróżnieniami wyróżnieniem wyróżnieniu wyróżnień
+30	4130	łaciński	łacińska łacińskich łacińskie łacińskiego łacińskiej łacińskim łacińskimi łacińską
+31	4131	ciocia	cioci ciocie ciociu ciocią ciocię cioć
+32	4132	szklanka	szklance szklaneczkę szklanek szklankach szklanki szklanką szklankę
+33	4133	frekwencja	frekwencje frekwencji frekwencją frekwencję
+34	4134	wymóg	wymogami wymogi wymogiem wymogom wymogu wymogów
+35	4135	koreański	koreańscy koreańska koreańskich koreańskie koreańskiego koreańskiej koreańskim koreańskimi koreańsku koreańską
+36	4136	sprzeciwić	sprzeciwi sprzeciwia sprzeciwiają sprzeciwiając sprzeciwiające sprzeciwiającego sprzeciwiających sprzeciwiali sprzeciwiam sprzeciwiamy sprzeciwianie sprzeciwiać sprzeciwiał sprzeciwiała sprzeciwienia sprzeciwili sprzeciwił sprzeciwiła sprzeciwiło sprzeciwiły
+37	4137	bazować	bazował bazowała bazowało bazowały bazuje bazują bazując bazująca bazujące bazującego bazującej bazujący bazujących bazującym bazującą bazuję
+38	4138	ręczny	ręczne ręcznego ręcznej ręczni ręczno ręcznych ręcznym ręcznymi ręczną
+39	4139	wykładowca	wykładowcami wykładowcom wykładowcy wykładowczyni wykładowców wykładowcą wykładowcę
+40	4140	ustąpić	ustąp ustąpi ustąpienia ustąpienie ustąpili ustąpisz ustąpią ustąpię ustąpił ustąpiła ustąpiło ustąpiły ustępowania ustępować ustępował ustępowała ustępowały ustępuje ustępują ustępując ustępującego ustępujący
+41	4141	mikrofon	mikrofonach mikrofonami mikrofonem mikrofonie mikrofonu mikrofony mikrofonów
+42	4142	zgon	zgonach zgonem zgonie zgonu zgony zgonów
+43	4143	genetyczny	genetyczna genetyczne genetycznego genetycznej genetycznych genetycznym genetycznymi genetyczną
+44	4144	tkanka	tkance tkanek tkankach tkankami tkanki tkankowej tkanką tkankę
+45	4145	specjalizować	specjalizowali specjalizowane specjalizowanych specjalizował specjalizowała specjalizuje specjalizujemy specjalizują specjalizując specjalizująca specjalizujące specjalizującego specjalizującej specjalizujący specjalizujących specjalizującym specjalizującą specjalizuję wyspecjalizowana wyspecjalizowane
+46	4146	zakażenie	zakażenia zakażeniach zakażeniami zakażeniem zakażeniom zakażeniu zakażeń
+47	4147	zamieszanie	zamieszania zamieszaniem zamieszaniu
+48	4148	tolerować	tolerowali tolerowana tolerowane tolerowanie tolerowany tolerował tolerowała toleruje tolerujemy tolerujesz tolerują toleruję
+49	4149	certyfikat	certyfikatami certyfikatem certyfikatu certyfikaty certyfikatów
+50	4150	nacjonalista	nacjonalistami nacjonalistom nacjonalisty nacjonalistów nacjonalistą nacjonaliści
+51	4151	kochanek	kochance kochanka kochankach kochankami kochanki kochankiem kochankom kochankowi kochankowie kochanku kochanków kochanką kochankę
+52	4152	oderwać	oderwali oderwana oderwane oderwanego oderwani oderwania oderwanie oderwaniem oderwaniu oderwany oderwanych oderwanym oderwaną oderwał oderwała oderwałam oderwało oderwały oderwie odrywa odrywają odrywając odrywam odrywania odrywać
+53	4153	lord	lorda lordem lordowi lordowie lordzie lordów
+54	4154	troll	trolla trollach trollami trolle trollem trolli trollom trollu
+55	4155	pojedynek	pojedynkach pojedynki pojedynkiem pojedynku pojedynków
+56	4156	przykry	przykra przykre przykrego przykrej przykrych przykrym przykrą
+57	4157	rzekomo	
+58	4158	przybrać	przybiera przybierają przybierając przybierania przybierać przybierał przybierała przybierały przybierze przybiorą przybrali przybrana przybrane przybranego przybranej przybrania przybranie przybrany przybranych przybranym przybranymi przybraną przybrał przybrała przybrało przybrały
+59	4159	cesarz	cesarza cesarze cesarzem cesarzowa cesarzowej cesarzowi cesarzową cesarzu cesarzy
+60	4160	byt	bytami bytem bytom bytu byty bytów
+61	4161	inwazja	inwazje inwazji inwazją inwazję
+62	4162	podłączyć	podłącz podłącza podłączam podłączamy podłączane podłączania podłączanie podłączasz podłączać podłączeni podłączenia podłączenie podłączona podłączone podłączonego podłączono podłączony podłączonych podłączonym podłączy podłączyli podłączymy podłączysz podłączył podłączyłam podłączyłem podłączyłeś podłączą podłączę
+63	4163	straszyć	strasz straszcie straszenia straszenie straszeniem straszono straszy straszycie straszyli straszymy straszył straszyła straszą strasząc straszę
+64	4164	jaskinia	jaskini jaskiniach jaskiniami jaskinie jaskinią jaskinię jaskiń
+65	4165	materialny	materialna materialne materialnego materialnej materialnych materialnym materialnymi materialną
+66	4166	milczenie	milczenia milczeniem milczeniu
+67	4167	dysponować	dysponowali dysponowania dysponowanie dysponował dysponowała dysponowało dysponowały dysponuje dysponujemy dysponujesz dysponują dysponując dysponująca dysponujące dysponującego dysponującej dysponujący dysponujących dysponującym dysponuję
+68	4168	chór	chóralna chóralne chóralnej chóralny chóralnych chóralnym chórami chórek chórem chórkach chórki chórku chórowi chóru chóry chórze chórów
+69	4169	formularz	formularza formularzach formularze formularzem formularzu formularzy
+70	4170	efektywny	efektywna efektywne efektywnego efektywnej efektywni efektywniejsza efektywniejsze efektywnych efektywnym efektywną
+71	4171	przychód	przychodach przychodami przychodem przychodu przychody przychodów
+72	4172	szaleć	oszalał oszalała oszalałam oszalałaś oszalałem oszalało oszaleje oszaleją oszaleję oszaleli oszaleć szalał szalała szalałam szalały szalej szaleje szalejesz szaleją szalejąca szalejące szalejącej szalejący szalejących szaleję
+73	4173	son	sonie sony
+74	4174	orkiestra	orkiestr orkiestrach orkiestrami orkiestry orkiestrze orkiestrą orkiestrę
+75	4175	audycja	audycjach audycje audycji audycją audycję
+76	4176	opad	opadach opadami opadem opadowe opadu opady opadów
+77	4177	oświata	oświacie oświaty oświatą oświatę
+78	4178	uzależniony	uzależnieni uzależniona uzależnione uzależnionego uzależnionej uzależnionych uzależnionym uzależnionymi uzależnioną
+79	4179	manga	mandze mang mangi mango mangą mangę
+80	4180	granat	granacie granata granatami granatem granatowa granatowe granatowego granatowej granatowo granatowy granatowych granatowym granatową granatu granaty granatów
+81	4181	rodzeństwo	rodzeństwa rodzeństwem rodzeństwie rodzeństwu
+82	4182	generować	generowana generowane generowanego generowanej generowania generowanie generowaniu generowany generowanych generowanym generowaną generował generowała generowały generuj generuje generujemy generują generując generująca generujące generujący generujących wygenerowane wygenerowania wygenerowanie wygenerowany wygenerowanych wygenerować wygenerował
+83	4183	rozsądek	rozsądkiem rozsądkowi rozsądku
+84	4184	długopis	długopisami długopisem długopisie długopisu długopisy długopisów
+85	4185	srebro	sreber srebra srebrem srebrze
+86	4186	oszustwo	oszustw oszustwa oszustwach oszustwami oszustwem oszustwie oszustwom
+87	4187	cyrk	cyrkach cyrki cyrkiem cyrku cyrków
+88	4188	napad	napadach napadami napadem napadu napady napadzie napadów
+89	4189	zagłada	zagłady zagładzie zagładą zagładę
+90	4190	ironia	ironie ironii ironio ironią ironię
+91	4191	budownictwo	budownictwa budownictwem budownictwie
+92	4192	luz	luzem luzie luzik luzu luzy
+93	4193	zawiesić	zawiesi zawiesili zawiesił zawiesiła zawiesiłam zawiesiło zawiesiły zawiesza zawieszają zawieszając zawieszam zawieszamy zawieszane zawieszania zawieszanie zawieszać zawieszeni zawieszona zawieszone zawieszono zawieszą zawieś
+94	4194	naiwny	naiwna naiwne naiwnego naiwnej naiwni naiwnie naiwnych naiwnym naiwną
+95	4195	czwórka	czwórce czwórek czwórkami czwórki czwórką czwórkę
+96	4196	fizycznie	
+97	4197	jakkolwiek	
+98	4198	miesięcznie	
+99	4199	mini	
+100	4200	nóg	

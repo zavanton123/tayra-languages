@@ -1,0 +1,100 @@
+1	6001	przenośny	przenośna przenośne przenośnego przenośnej przenośni przenośnie przenośnych przenośnym przenośną
+2	6002	konwój	konwoje konwojem konwoju konwojów
+3	6003	specjalizacja	specjalizacje specjalizacji specjalizacją specjalizację
+4	6004	lit	lita lite litego litej litu lity litych litą
+5	6005	zaprowadzić	zaprowadza zaprowadzenia zaprowadzenie zaprowadzeniu zaprowadzi zaprowadzili zaprowadził zaprowadziła zaprowadziłem zaprowadziło zaprowadziły zaprowadzono zaprowadzony zaprowadzą
+6	6006	widmo	widm widma widmem widmie widmowa widmowe widmowej widmowy widmowych
+7	6007	siatkarz	siatkarka siatkarki siatkarza siatkarze siatkarzy
+8	6008	elegancki	elegancka eleganckich eleganckie eleganckiego eleganckiej eleganckim elegancką
+9	6009	kopacz	kopac kopacza kopacze kopaczy
+10	6010	migrant	migranci migranta migrantami migrantom migrantów
+11	6011	wiadro	wiader wiaderka wiaderko wiaderku wiadra wiadrami wiadrem wiadrze
+12	6012	przeliczyć	przelicz przelicza przeliczane przeliczania przeliczanie przeliczać przeliczenie przeliczeniu przeliczone przeliczy przeliczyli przeliczył przeliczyłam przeliczyłem
+13	6013	geometria	geometrie geometrii geometrią geometrię geometryczna geometryczne geometrycznego geometrycznej geometrycznie geometryczny geometrycznych geometrycznym geometrycznymi geometryczną
+14	6014	uczciwie	uczciwiej
+15	6015	socjologia	socjologii socjologią socjologię
+16	6016	hańba	hańbie hańby hańbą hańbę
+17	6017	patent	patencie patentach patentami patentem patentu patenty patentów
+18	6018	przelać	przelali przelana przelane przelanej przelania przelanie przelano przelaną przelał przelała przelałam przelałem przelej przeleje przelejesz przelewa przelewają przelewam przelewane przelewania przelewanie przelewać przelewał przelewała przelewało
+19	6019	przyprawa	przypraw przyprawach przyprawami przyprawy przyprawą przyprawę
+20	6020	dojrzałość	dojrzałości dojrzałością
+21	6021	faszysta	faszystami faszystom faszysty faszystów faszystą faszystę faszyści
+22	6022	jutrzejszy	jutrzejsza jutrzejsze jutrzejszego jutrzejszej jutrzejszych jutrzejszym jutrzejszą
+23	6023	spływać	spłynie spłyną spłynąć spłynął spłynęła spłynęło spłynęły spływa spływaj spływają spływając spływająca spływające spływającej spływający spływających spływającą spływał spływała spływały
+24	6024	antybiotyk	antybiotykach antybiotykami antybiotyki antybiotykiem antybiotyku antybiotyków
+25	6025	grzecznie	grzeczniej
+26	6026	prezerwatywa	prezerwatyw prezerwatywach prezerwatywami prezerwatywie prezerwatywy prezerwatywę
+27	6027	wróżka	wróżek wróżkami wróżki wróżko wróżką wróżkę
+28	6028	zniżka	zniżce zniżek zniżki zniżką zniżkę
+29	6029	spakować	spakowaliśmy spakowana spakowane spakowania spakowanie spakowaniu spakowany spakował spakowała spakowałam spakowałem spakuj spakuje spakuję
+30	6030	seksualność	seksualności seksualnością
+31	6031	len	lan lniane lnianego lnianej lniano lniany lnianych lnianym lnu
+32	6032	ucywilizować	cywilizowana cywilizowane cywilizowanego cywilizowanej cywilizowani cywilizowanie cywilizowany cywilizowanych cywilizowanym cywilizowanymi cywilizowaną
+33	6033	kapusta	kapustka kapusty kapustą kapustę kapuściana kapuście
+34	6034	pryzmat	pryzmatu
+35	6035	malina	malin malinach malinami malince malinka malinki malinkę maliny maliną malinę
+36	6036	kurczę	kurcząt kurczęta
+37	6037	usprawiedliwienie	usprawiedliwienia usprawiedliwieniem usprawiedliwieniu usprawiedliwień
+38	6038	zamożny	najzamożniejszych zamożna zamożne zamożnego zamożnej zamożni zamożniejsi zamożniejszych zamożnych zamożnym zamożną
+39	6039	kapitalizm	kapitalizmem kapitalizmie kapitalizmowi kapitalizmu
+40	6040	rówieśnik	rówieśnicy rówieśnikami rówieśnikiem rówieśników
+41	6041	zrzeszać	zrzesza zrzeszają zrzeszająca zrzeszające zrzeszającego zrzeszającej zrzeszający zrzeszających zrzeszającą zrzeszania zrzeszanie zrzeszeni zrzeszona zrzeszone zrzeszony zrzeszonych
+42	6042	nowelizacja	nowelizacje nowelizacji nowelizacją nowelizację
+43	6043	przejebać	przejebali przejebane przejebany
+44	6044	egzotyczny	egzotyczna egzotyczne egzotycznego egzotycznej egzotycznie egzotycznych egzotycznym egzotycznymi egzotyczną
+45	6045	kurz	kurza kurze kurzem kurzu
+46	6046	macica	macice macicy macicą macicę
+47	6047	bójka	bójce bójek bójkach bójki bójką bójkę
+48	6048	kronika	kronice kronik kronikach kroniki kroniką kronikę
+49	6049	przeklinać	przeklina przeklinaj przeklinają przeklinając przeklinali przeklinam przeklinania przeklinanie przeklinasz przeklinał przekląć przeklął przeklęci przeklęta przeklęte
+50	6050	widywać	widuje widujemy widujesz widują widuję widywali widywane widywano widywany widywał widywała widywałam widywałem
+51	6051	kaloria	kaloriami kalorie kalorii
+52	6052	rozmówca	rozmówcy rozmówczyni rozmówców rozmówcą rozmówcę
+53	6053	harmonia	harmonie harmonii harmonią harmonię
+54	6054	piknik	pikniki piknikiem pikniku pikników
+55	6055	wierność	wierności wiernością
+56	6056	prywatyzacja	prywatyzacje prywatyzacji prywatyzacją prywatyzację
+57	6057	chamski	chamscy chamska chamskich chamskie chamskiego chamskiej chamskim chamskimi chamsko chamsku chamską
+58	6058	republikanin	republikanami republikanie republikanina republikaninem republikanom republikanów
+59	6059	ekspansja	ekspansji ekspansją ekspansję
+60	6060	zbawienie	zbawienia zbawieniem zbawieniu
+61	6061	anulować	anulowali anulowana anulowane anulowania anulowanie anulowaniem anulowaniu anulowano anulowany anulowanych anulował anuluj anuluje
+62	6062	pocieszenie	pocieszenia pocieszeniem
+63	6063	ołówek	ołówka ołówki ołówkiem ołówków
+64	6064	ogniwo	ogniw ogniwa ogniwach ogniwami ogniwem ogniwie
+65	6065	zgarnąć	zgarnia zgarniają zgarniając zgarniamy zgarniać zgarniał zgarnie zgarniemy zgarniesz zgarnij zgarnięcia zgarną zgarnął zgarnęli zgarnęła zgarnęły
+66	6066	koncentracja	koncentracje koncentracji koncentracją koncentrację
+67	6067	soja	soi sojowa sojowe sojowego sojowy sojowych sojowym soję
+68	6068	ratownik	ratownicy ratownika ratownikami ratownikiem ratownikom ratowników
+69	6069	wstrząs	wstrząsach wstrząsami wstrząsem wstrząsie wstrząsu wstrząsy wstrząsów
+70	6070	fundamentalny	fundamentalna fundamentalne fundamentalnego fundamentalnej fundamentalnie fundamentalnych fundamentalnym fundamentalnymi fundamentalną
+71	6071	after	
+72	6072	gender	
+73	6073	nago	
+74	6074	siać	siana sianie siał siała siej sieje siejesz sieją siejąc siejący
+75	6075	partnerstwo	partnerstw partnerstwa partnerstwie
+76	6076	buk	buczek buczka buka buki bukowa bukowe bukowego bukowej bukowo bukowski bukowy bukowych bukowym buku buków
+77	6077	kwartał	kwartale kwartałach kwartału kwartały kwartałów
+78	6078	irański	irańscy irańska irańskich irańskie irańskiego irańskiej irańskim irańską
+79	6079	potomstwo	potomstwa potomstwem potomstwie potomstwu
+80	6080	chirurgiczny	chirurgiczna chirurgiczne chirurgicznego chirurgicznej chirurgicznie chirurgicznych chirurgicznym chirurgicznymi chirurgiczną
+81	6081	płynny	płynna płynne płynnego płynnej płynnych płynnym płynną
+82	6082	interaktywny	interaktywna interaktywne interaktywnego interaktywnej interaktywnych interaktywnym interaktywną
+83	6083	obrać	obiera obierają obierając obieram obieramy obierania obierasz obierać obierał obierz obierze obrali obraliśmy obrana obrane obranego obranej obrania obranie obrano obrany obrał obrała obrałam obrałem obrało obrały
+84	6084	spalanie	spalania spalaniu
+85	6085	odjechać	odjadę odjechali odjechaliśmy odjechał odjechała odjechałem odjechało odjechały odjedzie odjeżdża odjeżdżaj odjeżdżają odjeżdżając odjeżdżający odjeżdżamy odjeżdżasz odjeżdżać odjeżdżał
+86	6086	kolczyk	kolczyka kolczykach kolczykami kolczyki kolczykiem kolczyków
+87	6087	złudzenie	złudzenia złudzeniami złudzeniem złudzeniu złudzeń
+88	6088	stosowny	stosowna stosowne stosownego stosownej stosownych stosownym stosownymi stosowną
+89	6089	mistrzowski	mistrzowska mistrzowskich mistrzowskie mistrzowskiego mistrzowskiej mistrzowskim mistrzowsko mistrzowsku mistrzowską
+90	6090	suwerenność	suwerenności suwerennością
+91	6091	przetrzymać	przetrzyma przetrzymamy przetrzymanie przetrzymał przetrzymuje przetrzymują przetrzymywali przetrzymywana przetrzymywane przetrzymywanego przetrzymywani przetrzymywania przetrzymywanie przetrzymywaniu przetrzymywano przetrzymywany przetrzymywanych przetrzymywać przetrzymywał
+92	6092	pieczęć	pieczątek pieczątka pieczątki pieczątką pieczątkę pieczęci pieczęciach pieczęciami pieczęcie pieczęcią
+93	6093	złotówka	złotów złotówek złotówkach złotówki złotówkę
+94	6094	motto	mott motta mottem
+95	6095	trucizna	trucizn truciznami trucizny trucizną truciznę
+96	6096	wredny	wredna wredne wrednego wrednej wredni wrednie wrednych wrednym wredną
+97	6097	codzienność	codzienności codziennością
+98	6098	fiat	fiacie fiata fiatem fiaty
+99	6099	wpłacić	wpłaca wpłacają wpłacając wpłacali wpłacamy wpłacane wpłacasz wpłacać wpłacał wpłacenia wpłacenie wpłaceniu wpłaci wpłacili wpłacisz wpłacił wpłaciła wpłaciłam wpłaciłem wpłaciłeś wpłacona wpłacone wpłać
+100	6100	krzew	krzewach krzewami krzewem krzewie krzewu krzewy krzewów

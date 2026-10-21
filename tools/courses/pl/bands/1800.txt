@@ -1,0 +1,100 @@
+1	1701	zamierzyć	zamierza zamierzacie zamierzają zamierzając zamierzali zamierzaliśmy zamierzam zamierzamy zamierzano zamierzasz zamierzał zamierzała zamierzałam zamierzałem zamierzało zamierzały zamierzona zamierzone
+2	1702	wpisać	wpisali wpisaliśmy wpisana wpisane wpisanego wpisanej wpisania wpisanie wpisaniu wpisano wpisany wpisanych wpisanym wpisaną wpisał wpisała wpisałam wpisałaś wpisałem wpisałeś wpisało wpisujcie wpisuje wpisujesz wpisują wpisując wpisuję wpisywane wpisywania wpisywanie wpisywać wpisywał wpisz wpiszcie wpisze wpiszemy wpiszesz wpiszą wpiszę
+3	1703	oferta	ofercie ofert ofertach ofertami oferty ofertą ofertę
+4	1704	lód	loda lodach lodami lodem lodowa lodowe lodowego lodowej lodowy lodowych lodowym lodowymi lodową lodu lody lodzie lodzik lodów
+5	1705	artystyczny	artystyczna artystyczne artystycznego artystycznej artystycznie artystyczno artystycznych artystycznym artystycznymi artystyczną
+6	1706	występ	występach występami występem występie występom występu występy występów
+7	1707	wykazać	wykazali wykazana wykazane wykazania wykazanie wykazaniu wykazano wykazany wykazał wykazała wykazałem wykazało wykazały wykazuje wykazujesz wykazują wykazując wykazujące wykazujący wykazujących wykazującym wykazywali wykazywania wykazywanie wykazywać wykazywał wykazywała wykazywało wykazywały wykaż wykaże wykażemy wykażesz wykażą
+8	1708	sięgnąć	sięga sięgaj sięgają sięgając sięgająca sięgające sięgającego sięgającej sięgający sięgających sięgającym sięgającymi sięgającą sięgali sięgam sięgamy sięgania sięganie sięgasz sięgać sięgał sięgała sięgało sięgały sięgnie sięgniesz sięgnij sięgnięcia sięgnięcie sięgnięto sięgną sięgnął sięgnąłem sięgnę sięgnęli sięgnęła sięgnęłam sięgnęło sięgnęły
+9	1709	medal	medalach medalami medale medalem medali medalik medalika medalików medalowej medalowy medalu mental
+10	1710	ogród	ogrodach ogrodami ogrodem ogrodowa ogrodowe ogrodowego ogrodowej ogrodowy ogrodowych ogrodowym ogrodową ogrodu ogrody ogrodzie ogrodów ogródek ogródkami ogródkiem ogródku ogródków
+11	1711	mnóstwo	mnóstwa mnóstwem mnóstwie
+12	1712	odrzucić	odrzuca odrzucają odrzucając odrzucający odrzucali odrzucam odrzucamy odrzucana odrzucane odrzucania odrzucanie odrzucany odrzucasz odrzucać odrzucał odrzucała odrzuceni odrzucenia odrzucenie odrzuceniem odrzuceniu odrzuci odrzucili odrzucimy odrzucisz odrzucił odrzuciła odrzuciłam odrzuciło odrzuciły odrzucona odrzucone odrzuconego odrzucono odrzucony odrzuconych odrzuconą odrzucą odrzuć
+13	1713	zaakceptować	akceptowali akceptowana akceptowane akceptowania akceptowanie akceptowany akceptowanych akceptowanym akceptowaną akceptować akceptował akceptowała akceptuj akceptuje akceptujecie akceptujemy akceptujesz akceptują akceptując akceptuję zaakceptowali zaakceptowana zaakceptowane zaakceptowania zaakceptowanie zaakceptowaniu zaakceptowano zaakceptowany zaakceptowanych zaakceptował zaakceptowała zaakceptowałam zaakceptowało zaakceptowały zaakceptuj zaakceptuje zaakceptujesz zaakceptują zaakceptuję
+14	1714	szkolenie	szkolenia szkoleniach szkoleniami szkoleniem szkoleniu szkoleń
+15	1715	statystyk	statystyce statystycy statystyka statystykach statystykami statystyki statystykom statystyką statystykę
+16	1716	urodziny	urodzin urodzinach urodzinami
+17	1717	wzór	wzorach wzorami wzorek wzorem wzoru wzory wzorze wzorów
+18	1718	kilogram	kg kilograma kilogramach kilogramami kilogramem kilogramy kilogramów
+19	1719	powieść	powiedzenia powiedzenie powiedzeniem powiedzeniu powiedzeń powiedzie powiedzonek powiedzonka powiedzonko powiedź powiedźcie powieści powieściach powieściami powieścią powiodą powiodła powiodło powiodły powiódł
+20	1720	kłamstwo	kłamstewka kłamstw kłamstwa kłamstwach kłamstwami kłamstwem kłamstwie kłamstwom kłamstwu
+21	1721	pogoda	pogodowa pogodowe pogodowego pogodowy pogodowych pogodowymi pogody pogodzie pogodą pogodę
+22	1722	dzieciak	dzieciaczek dzieciaczki dzieciaka dzieciakach dzieciakami dzieciaki dzieciakiem dzieciakom dzieciakowi dzieciaku dzieciaków
+23	1723	węgiel	węgielnego węgielny węgielnym węgla węglach węgle węglem węgli węglowa węglowe węglowego węglowej węglowo węglowy węglowych węglowym węglowymi węglową węglu
+24	1724	restauracja	restauracjach restauracjami restauracje restauracji restauracjom restauracją restaurację restauracyjne restauracyjny
+25	1725	niszczyć	niszcz niszczcie niszczenia niszczenie niszczeniem niszczeniu niszczona niszczone niszczono niszczony niszczy niszczycie niszczyli niszczymy niszczysz niszczył niszczyła niszczyło niszczyły niszczą niszcząc niszcząca niszczące niszczącego niszczącej niszczący niszczących niszczącym niszczącą niszczę
+26	1726	praktycznie	
+27	1727	zapewne	
+28	1728	status	statusem statusie statusu statusy
+29	1729	dziennik	dzienniczek dzienniczka dzienniczku dziennika dziennikach dziennikami dzienniki dziennikiem dziennikowi dzienniku dzienników
+30	1730	deszcz	deszczach deszczami deszcze deszczem deszczowa deszczowe deszczowego deszczowej deszczowy deszczowych deszczowym deszczową deszczu deszczy deszczyk deszczów
+31	1731	odmówić	odmawia odmawiaj odmawiają odmawiając odmawiający odmawiali odmawiam odmawiamy odmawiana odmawiania odmawianie odmawiano odmawiany odmawiasz odmawiać odmawiał odmawiała odmawiały odmów odmówi odmówienia odmówienie odmówili odmówiliśmy odmówimy odmówiono odmówisz odmówią odmówię odmówił odmówiła odmówiłam odmówiłby odmówiłbym odmówiłem odmówiło odmówiły
+32	1732	ukraiński	ukraińscy ukraińska ukraińskich ukraińskie ukraińskiego ukraińskiej ukraińskiemu ukraińskim ukraińskimi ukraińsko ukraińsku ukraińską
+33	1733	mordować	mordowali mordowani mordowania mordowanie mordowaniem mordowaniu mordowano mordowanych mordował mordowała mordowały morduje mordują mordując mordujący zamordowali zamordowaliście zamordowana zamordowane zamordowanego zamordowanej zamordowani zamordowania zamordowanie zamordowaniem zamordowaniu zamordowano zamordowany zamordowanych zamordowanym zamordowaną zamordować zamordował zamordowała zamordowało zamordowały zamorduje
+34	1734	prędkość	prędkości prędkościach prędkościami prędkością
+35	1735	sto	stoma stu
+36	1736	ptak	ptaka ptakach ptakami ptaki ptakiem ptakom ptaku ptaków ptasi ptasia ptasich ptasie ptasiego ptasiej ptasim ptasią ptaszek ptaszka ptaszki ptaszkiem ptaszku ptaszków ptaszyna ptaszynę
+37	1737	zbadać	bada badają badając badająca badające badającego badającej badający badających badali badam badamy badana badane badanego badanej badani badano badany badanych badanym badaną badać badał badała zbada zbadaj zbadajmy zbadają zbadali zbadana zbadane zbadania zbadanie zbadano zbadany zbadanych zbadał zbadała
+38	1738	równy	równa równe równego równej równi równiejsi równiejsze równych równym równymi równą
+39	1739	przewidzieć	przewiduje przewidujemy przewidują przewidując przewidujące przewidujący przewiduję przewidywali przewidywana przewidywane przewidywanego przewidywanej przewidywania przewidywanie przewidywano przewidywany przewidywanych przewidywanym przewidywać przewidywał przewidywała przewidywałem przewidywań przewidzenia przewidzenie przewidziana przewidziane przewidzianego przewidzianej przewidziano przewidziany przewidzianych przewidzianym przewidział przewidziała przewidziałam przewidziałem przewidzieli przewidzieliśmy
+40	1740	zastąpić	zastąp zastąpi zastąpieni zastąpienia zastąpienie zastąpieniem zastąpieniu zastąpili zastąpimy zastąpiona zastąpione zastąpiono zastąpiony zastąpionych zastąpionym zastąpisz zastąpią zastąpił zastąpiła zastąpiłem zastąpiło zastąpiły zastępowana zastępowane zastępowania zastępowanie zastępowany zastępować zastępował zastępowała zastępowały zastępuje zastępujemy zastępują zastępując zastępująca zastępujące zastępujący zastępuję
+41	1741	nienawiść	nienawiści nienawiścią
+42	1742	miliard	miliarda miliardach miliardami miliardem miliardy miliardów mld
+43	1743	osiem	ośmio ośmioma ośmiu
+44	1744	temperatura	temperatur temperaturach temperaturami temperatury temperaturze temperaturą temperaturę
+45	1745	most	mostach mostami mostek mostem mostka mostkami mostki mostkiem mostku mostków mostowy mostu mosty mostów moście mościskach
+46	1746	pragnąć	pragnie pragniecie pragniemy pragniesz pragnij pragną pragnąc pragnąca pragnące pragnący pragnących pragnącą pragnął pragnąłby pragnąłem pragnę pragnęli pragnęliśmy pragnęła pragnęłam pragnęło pragnęły
+47	1747	ząb	ząbek ząbka ząbkach ząbkami ząbki ząbkiem ząbków zęba zębach zębami zębem zębie zębowa zębowe zębowej zębowy zębowych zębową zęby zębów
+48	1748	mina	min minach minami minie minka minki minkę mino miny miną minę
+49	1749	wyłączyć	wyłącz wyłącza wyłączaj wyłączają wyłączając wyłączający wyłączam wyłączamy wyłączane wyłączania wyłączanie wyłączasz wyłączać wyłączał wyłączcie wyłączeni wyłączenia wyłączenie wyłączeniem wyłączeniu wyłączeń wyłączona wyłączone wyłączonego wyłączono wyłączony wyłączonych wyłączonym wyłączoną wyłączy wyłączyli wyłączysz wyłączył wyłączyła wyłączyłam wyłączyłem wyłączyło wyłączą wyłączę
+50	1750	udostępnić	udostępni udostępnia udostępniajcie udostępniają udostępniając udostępniających udostępniam udostępniamy udostępniana udostępniane udostępniania udostępnianie udostępnianiem udostępnianiu udostępniany udostępnianych udostępniać udostępniał udostępnienia udostępnienie udostępnieniu udostępnień udostępnij udostępnili udostępnimy udostępniona udostępnione udostępnionego udostępniono udostępniony udostępnionych udostępnionym udostępnisz udostępnią udostępnił udostępniła udostępniłem udostępniło udostępniły
+51	1751	miejscowy	miejscowa miejscowe miejscowego miejscowej miejscowemu miejscowi miejscowo miejscowych miejscowym miejscowymi miejscową
+52	1752	ktokolwiek	kimkolwiek kogokolwiek komukolwiek
+53	1753	wspólnota	wspólnocie wspólnot wspólnotach wspólnotami wspólnoty wspólnotą wspólnotę
+54	1754	normalnie	najnormalniej normalniej
+55	1755	określenie	określenia określeniach określeniami określeniem określeniu określeń
+56	1756	brytyjski	brytyjscy brytyjska brytyjskich brytyjskie brytyjskiego brytyjskiej brytyjskiemu brytyjskim brytyjskimi brytyjsko brytyjską
+57	1757	czynnik	czynnika czynnikach czynnikami czynniki czynnikiem czynnikom czynniku czynników
+58	1758	generalny	generalna generalne generalnego generalnej generalnemu generalni generalnych generalnym generalną
+59	1759	ochota	ochocie ochoty ochotą ochotę
+60	1760	owoc	owocach owocami owoce owocem owocki owocowa owocowe owocowego owocowej owocowo owocowy owocowych owocowym owocowymi owocową owocu owoców
+61	1761	natychmiast	
+62	1762	równie	
+63	1763	specjalnie	
+64	1764	wręcz	
+65	1765	skok	skoczek skoczka skoczkami skoczki skoczkiem skoczkowie skoczku skoczków skokach skokami skoki skokiem skoku skoków
+66	1766	wystawić	wystaw wystawi wystawia wystawiają wystawiając wystawiali wystawiam wystawiamy wystawiana wystawiane wystawiania wystawianie wystawiany wystawianych wystawiasz wystawiać wystawiał wystawieni wystawienia wystawienie wystawieniem wystawieniu wystawili wystawiliśmy wystawimy wystawiona wystawione wystawionego wystawionej wystawiono wystawiony wystawionych wystawionym wystawią wystawił wystawiła wystawiłem wystawiło wystawiły
+67	1767	cykl	cyklach cyklami cykle cyklem cykli cyklowi cyklu cyklów
+68	1768	pismo	pisemka pisemko pism pisma pismach pismami pismem pismie pismu piśmie
+69	1769	ładnie	najładniej ładniej
+70	1770	poradzić	poradzenia poradzenie poradzi poradzicie poradzili poradziliśmy poradzimy poradzisz poradził poradziła poradziłabym poradziłam poradziłaś poradziłby poradziłem poradziło poradziły poradzono poradzą poradzę poradź
+71	1771	otwierać	otwiera otwieracie otwieraj otwierajcie otwierają otwierając otwierająca otwierające otwierającego otwierającej otwierający otwierających otwierającym otwierającą otwierali otwieram otwieramy otwierana otwierane otwierania otwieranie otwieraniem otwieraniu otwierano otwierany otwieranych otwieraną otwierasz otwierał otwierała otwierałam otwierałem otwierałeś otwierało otwierały
+72	1772	obiad	obiadach obiadami obiadek obiadem obiadki obiadku obiadu obiady obiadów obiedzie
+73	1773	gracz	grac gracza graczach graczami gracze graczem graczom graczowi graczu graczy
+74	1774	stanąć	staniecie staniemy staniesz stanięcia stanięcie staną stanął stanąłby stanąłbym stanąłem stanąłeś stanę stanęli stanęliśmy stanęła stanęłam stanęłaś stanęło stanęły
+75	1775	zwolnić	zwalnia zwalniają zwalniając zwalniające zwalniający zwalniam zwalniamy zwalniani zwalniania zwalnianie zwalniany zwalniasz zwalniać zwalniał zwolni zwolnieni zwolnij zwolnijcie zwolnili zwolniona zwolnione zwolnionego zwolnionej zwolniono zwolniony zwolnionych zwolnionym zwolnią zwolnię zwolnił zwolniła zwolniłam zwolniłem zwolniło zwolniły
+76	1776	kształt	kształcie kształtach kształtami kształtem kształtowi kształtu kształty kształtów
+77	1777	poszczególny	poszczególne poszczególni poszczególnych poszczególnym poszczególnymi
+78	1778	powrócić	powraca powracają powracając powracająca powracające powracającego powracającej powracający powracających powracającym powracającą powracali powracam powracamy powracać powracał powracała powracały powróci powrócili powróciliśmy powrócimy powrócisz powróciwszy powrócił powróciła powróciłam powróciłem powróciło powróciły powrócono powrócą powrócę powróć powróćmy
+79	1779	martwy	martwa martwe martwego martwej martwi martwo martwych martwym martwymi martwą
+80	1780	pomnik	pomnika pomnikach pomnikami pomniki pomnikiem pomnikowi pomnikowych pomniku pomników
+81	1781	atmosfera	atm atmosfer atmosfery atmosferyczne atmosferycznego atmosferycznej atmosferyczny atmosferycznych atmosferycznym atmosferycznymi atmosferze atmosferą atmosferę
+82	1782	kontrolować	kontrolowali kontrolowana kontrolowane kontrolowanego kontrolowanej kontrolowani kontrolowania kontrolowanie kontrolowaniem kontrolowaniu kontrolowany kontrolowanych kontrolowanym kontrolowanymi kontrolowaną kontrolował kontrolowała kontrolowałem kontrolowało kontrolowały kontroluj kontroluje kontrolujemy kontrolujesz kontrolują kontrolując kontrolująca kontrolujące kontrolującego kontrolującej kontrolujący kontrolujących kontrolującym kontrolującą kontroluję skontrolować
+83	1783	uznawać	uznaje uznajecie uznajemy uznajesz uznają uznając uznająca uznające uznającego uznający uznających uznaję uznawali uznawana uznawane uznawanego uznawanej uznawani uznawania uznawanie uznawano uznawany uznawanych uznawanym uznawaną uznawał uznawała uznawało uznawały
+84	1784	lekki	leciutki leciutkie lekka lekkich lekkie lekkiego lekkiej lekkim lekkimi lekką lżejsza lżejsze lżejszej lżejszy lżejszych lżejszym lżejszą najlżejszy
+85	1785	bezpośredni	bezpośrednia bezpośrednich bezpośrednie bezpośredniego bezpośredniej bezpośredniemu bezpośrednim bezpośrednimi bezpośrednią
+86	1786	literatura	literatur literatury literaturze literaturą literaturę
+87	1787	codzienny	codzienna codzienne codziennego codziennej codziennych codziennym codziennymi codzienną
+88	1788	zarządzanie	zarządzania zarządzaniem zarządzaniu
+89	1789	egzamin	egzaminach egzaminami egzaminem egzaminie egzaminom egzaminu egzaminy egzaminów
+90	1790	oficjalnie	
+91	1791	przykro	
+92	1792	pusty	pusta puste pustego pustej pusto pustych pustym pustymi pustą puści
+93	1793	promocja	promocjach promocjami promocje promocji promocją promocję
+94	1794	radzić	radzenia radzenie radzeniu radzi radzicie radzili radzimy radzisz radził radziła radziłabym radziłam radziłaś radziłbym radziłem radziło radziły radzą radząc radzę radź radźcie
+95	1795	udowodnić	udowadnia udowadniają udowadniając udowadniam udowadniania udowadnianie udowadniasz udowadniać udowadniał udowodni udowodnienia udowodnienie udowodnieniu udowodnij udowodnijcie udowodnijmy udowodnili udowodniliśmy udowodnimy udowodniona udowodnione udowodniono udowodniony udowodnioną udowodnisz udowodnią udowodnię udowodnił udowodniła udowodniłem udowodniłeś udowodniło udowodniły
+96	1796	znaczny	znaczna znaczne znacznego znacznej znacznemu znacznych znacznym znacznymi znaczną
+97	1797	port	porcie portach portami portem portowa portowe portowego portowej portowy portowych portowym portową portu porty portów
+98	1798	imigrant	imigranci imigranta imigrantach imigrantami imigrantem imigrantka imigrantom imigrantów
+99	1799	ślad	śladach śladami śladem śladu ślady śladzie śladów
+100	1800	mleko	mleczek mleczka mleczki mleczkiem mleczko mleka mlekiem mlekowego mlekowy mleku

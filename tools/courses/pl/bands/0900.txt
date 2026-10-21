@@ -1,0 +1,100 @@
+1	801	czasami	
+2	802	wcale	
+3	803	armia	armiach armiami armie armii armiom armią armię
+4	804	bohater	bohatera bohaterach bohaterami bohaterem bohaterka bohaterom bohaterowi bohaterowie bohaterze bohaterzy bohaterów
+5	805	potrzebny	potrzebna potrzebne potrzebnego potrzebnej potrzebni potrzebnie potrzebnych potrzebnym potrzebnymi potrzebną
+6	806	stacja	stacjach stacjami stacje stacji stacjom stacją stację stacyjce stacyjka stacyjki stacyjnych
+7	807	pytać	pytacie pytaj pytajcie pytajmy pytają pytając pytające pytającego pytający pytających pytali pytaliśmy pytam pytamy pytana pytane pytani pytano pytany pytanych pytasz pytał pytała pytałam pytałaś pytałem pytałeś pytało pytały
+8	808	przejąć	przejmie przejmowali przejmowania przejmowanie przejmowaniu przejmować przejmował przejmowała przejmowałam przejmuj przejmujcie przejmuje przejmujecie przejmujemy przejmujesz przejmują przejmując przejmujące przejmujący przejmującym przejmuję przejmą przejął przejąłem przejęci przejęcia przejęcie przejęciem przejęciu przejęli przejęta przejęte przejęty przejętych przejęć przejęła przejęłam przejęło przejęły
+9	809	scena	scen scenach scenami scenek scenie scenka scenki scenkę sceny sceną scenę
+10	810	facet	faceci facecie faceta facetach facetami facetem facetka facetom facetowi facetów
+11	811	wskazać	wskazali wskazana wskazane wskazanego wskazania wskazanie wskazaniem wskazano wskazany wskazanych wskazanym wskazał wskazała wskazałem wskazało wskazały wskazań wskazuje wskazują wskazując wskazująca wskazujące wskazującego wskazujący wskazujących wskazującym wskazuję wskazywali wskazywania wskazywanie wskazywać wskazywał wskazywała wskazywało wskazywałoby wskazywały wskaż wskaże wskażą
+12	812	bronić	broni bronicie bronienia bronienie bronieniu bronili broniliśmy bronimy bronione broniony bronisz bronią broniąc broniąca broniące broniącego broniącej broniący broniących broniącą bronię bronił broniła broniłam broniłem broniło broniły brońcie brońmy obroni obronienia obronili obronimy obroniony obronią obronić obronił obroniła obroń
+13	813	treść	treści treściach treściami treścią
+14	814	okolica	okolic okolicach okolicami okolice okolicy okolicą okolicę
+15	815	poprzedni	poprzednia poprzednich poprzednie poprzedniego poprzedniej poprzedniemu poprzednim poprzednimi poprzednio poprzednią
+16	816	dostępny	dostępna dostępne dostępnego dostępnej dostępni dostępnych dostępnym dostępnymi dostępną
+17	817	zielony	zieleni zielona zielone zielonego zielonej zieloni zielono zielonych zielonym zielonymi zieloną
+18	818	wrażenie	wrażenia wrażeniach wrażeniami wrażeniem wrażeniu wrażeń
+19	819	zwykły	najzwyklejszy zwykli zwykła zwykłe zwykłego zwykłej zwykłemu zwykłych zwykłym zwykłymi zwykłą
+20	820	pomyśleć	pomyśl pomyślana pomyślane pomyślany pomyślał pomyślała pomyślałabym pomyślałabyś pomyślałam pomyślałaś pomyślałby pomyślałbym pomyślałem pomyślałeś pomyślało pomyślcie pomyśleli pomyśleliście pomyśleliśmy pomyślenia pomyśli pomyślicie pomyślimy pomyślisz pomyślmy pomyślą pomyślę
+21	821	zwłaszcza	
+22	822	spać	spale spali spaliście spaliśmy spania spanie spaniem spaniu spanko spał spała spałam spałaś spałem spałeś spało spały śpi śpicie śpij śpijcie śpijmy śpimy śpisz śpią śpiąc śpiąca śpiące śpiącego śpiącej śpiący śpiących śpiącym śpiącą śpię
+23	823	model	modela modelach modelami modelce modele modelek modelem modeli modelka modelkami modelki modelką modelkę modelom modelowa modelowe modelowego modelowej modelowi modelowo modelowy modelowych modelowym modelową modelu modelów
+24	824	wynosić	wyniesie wyniesienia wyniesienie wyniesiesz wyniesiona wyniesione wyniesiony wyniesionych wynieś wynieśli wynieść wyniosą wyniosę wyniosła wyniosłam wyniosłe wyniosłem wyniosło wyniosły wyniósł wynosi wynosili wynosił wynosiła wynosiło wynosiły wynoszenia wynoszenie wynoszą wynosząc wynosząca wynoszące wynoszącego wynoszącej wynoszący wynoszących wynoszącym wynoszącą wynoś
+25	825	drużyna	drużyn drużynach drużynami drużynie drużyno drużynom drużynowa drużynowe drużynowego drużynowej drużynowo drużynowy drużynowych drużynowym drużynowymi drużynową drużyny drużyną drużynę
+26	826	prezes	prezesa prezesami prezesem prezesi prezesie prezeska prezeską prezesom prezesowi prezesów
+27	827	zachód	zachodem zachodowi zachodu zachody zachodzie zachodów
+28	828	siostra	siostrach siostrami siostro siostrom siostry siostrze siostrzyczka siostrzyczki siostrzyczko siostrzyczkę siostrą siostrę sióstr
+29	829	drzewo	drzew drzewa drzewach drzewami drzewek drzewem drzewie drzewka drzewkiem drzewko drzewku drzewna drzewne drzewnego drzewnej drzewny drzewnych drzewnym drzewną drzewom drzewu
+30	830	profesor	prof profesora profesorach profesorami profesorek profesorem profesorka profesorom profesorowi profesorowie profesorska profesorski profesorskie profesorskiej profesorze profesorzy profesorów
+31	831	powietrze	powietrza powietrzem powietrzna powietrzne powietrznego powietrznej powietrzno powietrzny powietrznych powietrznym powietrznymi powietrzną powietrzu
+32	832	właściciel	właściciela właścicielach właścicielami właścicielce właściciele właścicielem właścicieli właścicielka właścicielki właścicielką właścicielkę właścicielom właścicielowi właścicielu
+33	833	dawny	dawna dawne dawnego dawnej dawnemu dawni dawniejsze dawniejszych dawnych dawnym dawnymi dawną
+34	834	kończyć	kończ kończcie kończenia kończenie kończeniu kończy kończycie kończyli kończyliśmy kończymy kończysz kończył kończyła kończyłam kończyłem kończyłeś kończyło kończyły kończą kończąc kończąca kończące kończącego kończącej kończący kończących kończącym kończącą kończę
+35	835	młodzież	młodzieżowa młodzieżowe młodzieżowego młodzieżowej młodzieżowy młodzieżowych młodzieżowym młodzieżowymi młodzieżową młodzieży młodzieżą
+36	836	łódź	łodzi łodziach łodziami łodzian łodzianie łodzianin łodzie łodzią łódce łódek łódka łódkach łódkami łódki łódką łódkę łódzcy łódzka łódzki łódzkich łódzkie łódzkiego łódzkiej łódzkim łódzko łódzką
+37	837	pojęcie	pojęcia pojęciach pojęciami pojęciem pojęciowe pojęciu pojęć
+38	838	jakikolwiek	jakakolwiek jakichkolwiek jakiegokolwiek jakiejkolwiek jakiekolwiek jakiemukolwiek jakimikolwiek jakimkolwiek jakąkolwiek
+39	839	włos	włosa włosach włosami włosek włosem włosia włosie włosiem włoska włoskach włoskami włosków włosom włosy włosów
+40	840	sędzia	sędzi sędziach sędziami sędzie sędziego sędziemu sędzina sędziny sędzinę sędzio sędziom sędziowie sędziowska sędziowski sędziowskich sędziowskie sędziowskiego sędziowskiej sędziowskim sędziowską sędziów sędzią sędzię
+41	841	wyspa	wysepka wysepki wysp wyspach wyspami wyspie wyspowego wyspowy wyspowym wyspy wyspą wyspę
+42	842	uczucie	uczucia uczuciach uczuciami uczuciem uczuciom uczuciowa uczuciowe uczuciowego uczuciowej uczuciowo uczuciowy uczuciowych uczuciowym uczuciową uczuciu uczuć
+43	843	oczekiwać	oczekiwali oczekiwaliśmy oczekiwana oczekiwane oczekiwanego oczekiwanej oczekiwania oczekiwaniach oczekiwaniami oczekiwanie oczekiwaniem oczekiwaniom oczekiwaniu oczekiwano oczekiwany oczekiwanych oczekiwanym oczekiwaną oczekiwał oczekiwała oczekiwałam oczekiwałaś oczekiwałbym oczekiwałem oczekiwałeś oczekiwało oczekiwań oczekuj oczekujcie oczekuje oczekujecie oczekujemy oczekujesz oczekują oczekując oczekujące oczekujący oczekujących oczekuję
+44	844	przepis	przepisach przepisami przepisem przepisie przepisom przepisu przepisy przepisów
+45	845	miły	mili milsza milsze milszy milusi milutka milutki miła miłe miłego miłej miłemu miłych miłym miłymi miłą najmilszy
+46	846	uzyskać	uzyska uzyskają uzyskali uzyskaliśmy uzyskam uzyskamy uzyskana uzyskane uzyskanego uzyskanej uzyskania uzyskanie uzyskaniem uzyskaniu uzyskano uzyskany uzyskanych uzyskanym uzyskanymi uzyskaną uzyskasz uzyskał uzyskała uzyskałam uzyskałem uzyskało uzyskały uzyskiwana uzyskiwane uzyskiwania uzyskiwanie uzyskiwaniu uzyskiwany uzyskiwanych uzyskiwać uzyskuje uzyskujemy uzyskują uzyskując
+47	847	zupełnie	najzupełniej
+48	848	nazwać	nazwali nazwaliśmy nazwana nazwane nazwanego nazwanej nazwani nazwania nazwanie nazwaniu nazwano nazwany nazwanych nazwanym nazwaną nazwał nazwała nazwałaby nazwałabym nazwałam nazwałaś nazwałby nazwałbym nazwałem nazwałeś nazwało nazwały nazwie nazwiecie nazwiemy nazwiesz nazwij nazwijmy nazwą nazwę
+49	849	masa	macha mas masach masami masie maso masom masowa masowe masowego masowej masowy masowych masowym masowymi masową masy masą masę
+50	850	dziennikarz	dziennikarce dziennikarek dziennikarka dziennikarki dziennikarką dziennikarkę dziennikarza dziennikarzach dziennikarzami dziennikarze dziennikarzem dziennikarzom dziennikarzowi dziennikarzu dziennikarzy dziennikarzyna
+51	851	różnica	różnic różnicach różnicami różnice różnicowa różnicowe różnicowego różnicowej różnicowy różnicowych różnicowym różnicy różnicą różnicę
+52	852	rozwijać	rozwija rozwijają rozwijając rozwijająca rozwijające rozwijającego rozwijający rozwijających rozwijającym rozwijającą rozwijamy rozwijana rozwijane rozwijania rozwijanie rozwijaniu rozwijany rozwijał rozwijała rozwijało rozwijały rozwinie rozwinięcia rozwinięcie rozwinięciem rozwinięta rozwinięte rozwiniętej rozwinięty rozwiniętych rozwiniętym rozwiniętą rozwinąć rozwinął rozwinęli rozwinęła rozwinęło rozwinęły rozwiń
+53	853	element	elemencie elementach elementami elementem elementom elementowi elementu elementy elementów
+54	854	wniosek	wnioskach wnioskami wnioski wnioskiem wniosku wniosków
+55	855	ludzki	ludzcy ludzka ludzkich ludzkie ludzkiego ludzkiej ludzkiemu ludzkim ludzkimi ludzko ludzku ludzką
+56	856	podjąć	podejmie podejmiecie podejmiemy podejmiesz podejmij podejmą podejmę podjął podjąłby podjąłbym podjąłem podjąłeś podjęcia podjęcie podjęciem podjęciu podjęli podjęliśmy podjęta podjęte podjętego podjętej podjęto podjęty podjętych podjętym podjętymi podjętą podjęła podjęłam podjęłaś podjęło podjęły
+57	857	but	bot bota botach botami botem botki boty botów bucie bucik buciki bucików buciorami buciory buta butach butami butem butki buty butów butą butę
+58	858	pole	pola polach polami polem poletka poletko poletku polna polne polnego polnej polny polnych polnym polnymi polną polu pól
+59	859	drzwi	drwi drzwiach drzwiami drzwiczek drzwiczkami drzwiczki drzwiom drzwiowa drzwiowe drzwiowego drzwiowej drzwiowy drzwiowych drzwiowym drzwiową
+60	860	spędzić	spędza spędzacie spędzają spędzając spędzali spędzaliśmy spędzam spędzamy spędzania spędzanie spędzasz spędzać spędzał spędzała spędzałam spędzałem spędzenia spędzenie spędzeniu spędzi spędzicie spędzili spędziliśmy spędzimy spędzisz spędził spędziła spędziłam spędziłaś spędziłem spędzone spędzonego spędzonej spędzony spędzonych spędzonym spędzą spędzę spędź
+61	861	nadać	nada nadaj nadaje nadajemy nadajesz nadają nadając nadająca nadające nadający nadających nadaję nadali nadana nadane nadanego nadanej nadania nadanie nadano nadany nadanym nadawali nadawana nadawane nadawanego nadawania nadawanie nadawany nadawanych nadawać nadawał nadawała nadawało nadawały nadał nadała nadało nadały
+62	862	wykorzystywać	wykorzystuj wykorzystuje wykorzystujecie wykorzystujemy wykorzystujesz wykorzystują wykorzystując wykorzystująca wykorzystujące wykorzystującego wykorzystującej wykorzystujący wykorzystujących wykorzystującym wykorzystującymi wykorzystującą wykorzystuję wykorzystywali wykorzystywana wykorzystywane wykorzystywanego wykorzystywanej wykorzystywani wykorzystywania wykorzystywanie wykorzystywaniem wykorzystywaniu wykorzystywano wykorzystywany wykorzystywanych wykorzystywanym wykorzystywanymi wykorzystywaną wykorzystywał wykorzystywała wykorzystywałem wykorzystywało wykorzystywały
+63	863	wyjaśnić	wyjaśni wyjaśnia wyjaśniają wyjaśniając wyjaśniająca wyjaśniające wyjaśniający wyjaśniających wyjaśniam wyjaśniamy wyjaśniane wyjaśniania wyjaśnianie wyjaśnianiu wyjaśniać wyjaśniał wyjaśniało wyjaśnicie wyjaśnienia wyjaśnienie wyjaśnieniem wyjaśnieniu wyjaśnień wyjaśnij wyjaśnijmy wyjaśnili wyjaśnimy wyjaśniona wyjaśnione wyjaśniono wyjaśniony wyjaśnisz wyjaśnią wyjaśnię wyjaśnił wyjaśniła wyjaśniłam wyjaśniłem wyjaśniło
+64	864	leżeć	leż leża leżał leżała leżałam leżałaś leżałby leżałem leżałeś leżało leżały leże leżeli leżeliśmy leżenia leżenie leżeniu leży leżycie leżymy leżysz leżą leżąc leżąca leżące leżącego leżącej leżący leżących leżę
+65	865	wzrost	wzrostami wzrostem wzrostowa wzrostowi wzrostowy wzrostową wzrostu wzrosty wzrostów wzroście
+66	866	podobnie	podobnież
+67	867	obok	
+68	868	oto	
+69	869	serio	
+70	870	podejście	podchodzenia podchodzenie podchodzi podchodzicie podchodzili podchodzimy podchodzisz podchodzić podchodził podchodziła podchodziłam podchodziłem podchodzą podchodząc podchodzące podchodzący podchodzę podchodź podejdzie podejdziemy podejdziesz podejdą podejdę podejdź podejścia podejściach podejściem podejściu podejść podeszli podeszliśmy podeszła podeszłam podeszłego podeszło podeszły podeszłym podszedł podszedłem
+71	871	produkt	produkcie produktach produktami produktem produktom produktu produkty produktów
+72	872	kolor	kolorach kolorami kolorek kolorem kolorki kolorom kolorowi koloru kolory kolorze kolorów
+73	873	objąć	obejmie obejmij obejmować obejmował obejmowała obejmowało obejmowały obejmuje obejmują obejmując obejmująca obejmujące obejmującego obejmującej obejmujący obejmujących obejmującym obejmującą obejmuję obejmą objął objęci objęcia objęciach objęcie objęciem objęciu objęli objęta objęte objętego objętej objęto objęty objętych objętym objęła objęło objęły
+74	874	kategoria	kategoriach kategoriami kategorie kategorii kategorią kategorię
+75	875	przynieść	przyniesie przyniesienie przyniesiesz przyniesione przyniesiono przyniesiony przynieś przynieście przynieśli przyniosą przyniosę przyniosła przyniosłam przyniosłaś przyniosłem przyniosło przyniosłoby przyniosły przyniósł przynosi przynosili przynosimy przynosisz przynosić przynosił przynosiła przynosiło przynosiły przynoszenia przynoszenie przynoszą przynosząc przynoszące przynoszącej przynoszący przynoszących przynoszącą przynoszę przynoś
+76	876	zainteresować	interesowali interesować interesował interesowała interesowałam interesowałem interesowało interesowały interesuj interesuje interesujecie interesujemy interesujesz interesują interesując interesująca interesujące interesuję zainteresowali zainteresowana zainteresowane zainteresowani zainteresował zainteresowała zainteresowałam zainteresowałaś zainteresowałem zainteresowałeś zainteresowało zainteresowały zainteresuj zainteresuje zainteresujesz zainteresują
+77	877	dawno	dawniej
+78	878	pewność	pewności pewnością
+79	879	metoda	metod metodach metodami metodom metody metodzie metodą metodę
+80	880	marek	marce mareczek marka markach markami marki markiem marko markowi marku marków marką markę
+81	881	noga	nodze nog nogach nogami nogi nogom nogą nogę nożne nożnej nożny nożną nóżce nóżek nóżka nóżkach nóżkami nóżką nóżkę
+82	882	koncert	koncercie koncertach koncertami koncertem koncertom koncertowa koncertowe koncertowego koncertowej koncertowi koncertowo koncertowy koncertowych koncertowym koncertową koncertu koncerty koncertów
+83	883	publikować	opublikowali opublikowaliśmy opublikowana opublikowane opublikowanego opublikowanej opublikowania opublikowanie opublikowaniem opublikowaniu opublikowano opublikowany opublikowanych opublikowanym opublikowaną opublikować opublikował opublikowała opublikowałem opublikowało opublikuje opublikujemy opublikują opublikuję publikowali publikowana publikowane publikowania publikowanie publikowaniu publikowany publikowanych publikował publikowała publikuje publikujemy publikują publikując publikuję
+84	884	pojawiać	pojawia pojawiają pojawiając pojawiająca pojawiające pojawiającego pojawiającej pojawiający pojawiających pojawiającym pojawiającymi pojawiającą pojawiali pojawiam pojawiamy pojawiania pojawianie pojawiasz pojawiał pojawiała pojawiało pojawiały
+85	885	ubrać	ubiera ubieraj ubierają ubierając ubierali ubieram ubieramy ubierania ubieranie ubierasz ubierać ubierał ubierała ubierz ubierzcie ubierze ubiorę ubrali ubrana ubrane ubranego ubrani ubrania ubraniach ubraniami ubranie ubraniem ubraniu ubranka ubranko ubrany ubranych ubranym ubraną ubrał ubrała ubrałam ubrałem ubrań
+86	886	pół	
+87	887	zapytać	zapyta zapytacie zapytaj zapytajcie zapytajmy zapytają zapytali zapytaliśmy zapytam zapytamy zapytana zapytani zapytania zapytanie zapytaniem zapytaniu zapytano zapytany zapytasz zapytał zapytała zapytałabym zapytałam zapytałaś zapytałem zapytałeś zapytały zapytań zapytuje
+88	888	park	parkach parkami parki parkiem parkowa parkowi parkowy parku parków
+89	889	student	studenci studenciaki studencie studencka studencki studenckich studenckie studenckiego studenckiej studenckim studenckimi studencką studenta studentach studentami studentem studentka studentom studentowi studenty studentów
+90	890	występować	występowali występowaliśmy występowania występowanie występował występowała występowałem występowało występowały występuje występujemy występujesz występują występując występująca występujące występującego występującej występujący występujących występującym występującymi występującą występuję
+91	891	urząd	urzędach urzędami urzędem urzędom urzędowi urzędu urzędy urzędzie urzędów
+92	892	wprowadzić	wprowadzeni wprowadzi wprowadzili wprowadziliśmy wprowadzimy wprowadzisz wprowadził wprowadziła wprowadziłam wprowadziłby wprowadziłem wprowadziłeś wprowadziło wprowadziły wprowadzona wprowadzone wprowadzonego wprowadzonej wprowadzono wprowadzony wprowadzonych wprowadzonym wprowadzonymi wprowadzoną wprowadzą wprowadzę wprowadź wprowadźcie wprowadźmy
+93	893	poważny	najpoważniejszy poważna poważne poważnego poważnej poważnemu poważni poważniejsza poważniejsze poważniejszej poważniejszy poważniejszych poważniejszym poważniejszymi poważniejszą poważnych poważnym poważnymi poważną
+94	894	płyta	płycie płyt płytach płytami płytek płytka płyty płytą płytę
+95	895	los	losach losami losem losie losom losowa losowe losowego losowej losowi losowo losowy losowych losowym losowymi losową losu losy losów
+96	896	kary	kar kara karach karami kare karo karze karą karę
+97	897	zginąć	ginie giniemy giniesz giną ginąc ginące ginący ginących ginąć ginął ginę ginęli ginęła ginęło ginęły giń zginie zginiecie zginiemy zginiesz zginą zginął zginę zginęli zginęła zginęłabym zginęło zginęły zgiń
+98	898	dyrektor	dyrektora dyrektorami dyrektorce dyrektorem dyrektorka dyrektorki dyrektorką dyrektorkę dyrektorom dyrektorowi dyrektorskie dyrektorze dyrektorzy dyrektorów
+99	899	układ	układach układami układem układom układowi układu układy układzie układziki układów
+100	900	północny	północna północne północnego północnej północnemu północno północnych północnym północnymi północną

@@ -1,0 +1,100 @@
+1	4301	ka	
+2	4302	naprzód	
+3	4303	niewątpliwie	
+4	4304	polo	
+5	4305	jądrowy	jądrowa jądrowe jądrowego jądrowej jądrowych jądrowym jądrowymi jądrową
+6	4306	przyjemnie	najprzyjemniej przyjemniej
+7	4307	oznaczenie	oznaczenia oznaczeniach oznaczeniami oznaczeniem oznaczeniu oznaczeń
+8	4308	śmigłowiec	śmigłowca śmigłowcami śmigłowce śmigłowcem śmigłowcu śmigłowców
+9	4309	odrobina	odrobinie odrobiny odrobiną
+10	4310	samiec	samca samcami samce samcem samców samic samica samicami samice samicy samiczka samiczki samicą samicę
+11	4311	żołądek	żołądka żołądkach żołądki żołądkiem żołądku żołądków
+12	4312	wykształcony	wykształceni wykształcona wykształcone wykształconego wykształconej wykształconych wykształconym wykształconymi wykształconą
+13	4313	zaplecze	zaplecza zapleczem zapleczu
+14	4314	naftowy	naftowa naftowe naftowego naftowej naftowych naftowym naftową
+15	4315	gleba	gleb glebach glebie gleby glebą glebę
+16	4316	eksploatacja	eksploatacje eksploatacji eksploatacją eksploatację
+17	4317	egipski	egipscy egipska egipskich egipskie egipskiego egipskiej egipskim egipskimi egipską
+18	4318	farma	farm farmach farmami farmie farmy farmą farmę
+19	4319	nagradzać	nagradza nagradzają nagradzana nagradzane nagradzanego nagradzani nagradzania nagradzanie nagradzany nagradzanych nagradzanym nagrodzeni nagrodzi nagrodzili nagrodzić nagrodził nagrodziła nagrodziło nagrodzona nagrodzone nagrodzonego nagrodzonej nagrodzono nagrodzony nagrodzonych nagrodzonym nagrodzoną
+20	4320	kurier	kuriera kurierami kurierem kurierowi kurierze kurierzy kurierów
+21	4321	bielizna	bielizny bielizną bieliznę bieliźnie
+22	4322	konsola	konsol konsolach konsolami konsole konsoli konsolowe konsolą konsolę
+23	4323	patriotyzm	patriotyzmem patriotyzmie patriotyzmu
+24	4324	bydło	bydle bydlęcych bydła bydłem
+25	4325	obcokrajowiec	obcokrajowca obcokrajowcami obcokrajowcem obcokrajowcom obcokrajowcy obcokrajowców
+26	4326	wymówka	wymówek wymówkami wymówki wymówką wymówkę
+27	4327	przesyłka	przesyłce przesyłek przesyłkami przesyłki przesyłką przesyłkę
+28	4328	celny	celna celne celnego celnej celnie celno celnych celnym celnymi celną
+29	4329	jazz	jazzem jazzie jazzowa jazzowe jazzowego jazzowej jazzowi jazzowo jazzowy jazzowych jazzowym jazzowymi jazzową jazzu
+30	4330	wykląć	wyklęci wyklęta wyklęte wyklęty wyklętych
+31	4331	zjednoczenie	zjednoczenia zjednoczeniem zjednoczeniu
+32	4332	chrzest	chrzcie chrztem chrztu chrzty chrztów
+33	4333	przewód	przewodach przewodami przewodem przewodu przewody przewodzie przewodów
+34	4334	podwórko	podwórka podwórkach podwórkiem podwórkowe podwórku
+35	4335	opera	oper operach opery operze operą operę
+36	4336	animacja	animacjach animacjami animacje animacji animacją animację
+37	4337	cudzy	cudza cudze cudzego cudzej cudzych cudzym cudzymi cudzą
+38	4338	set	secie seta setach setem setu sety setów
+39	4339	helena	hela helen helenie helenka heleny heleną helenę heli helu
+40	4340	prestiżowy	prestiżowa prestiżowe prestiżowego prestiżowej prestiżowo prestiżowych prestiżowym prestiżowymi prestiżową
+41	4341	zapas	zapasach zapasami zapasem zapasie zapasu zapasów
+42	4342	fantazja	fantazjach fantazjami fantazje fantazji fantazją fantazję
+43	4343	prognoza	prognoz prognozach prognozami prognozie prognozom prognozy prognozą prognozę
+44	4344	przytulić	przytul przytula przytulaj przytulają przytulając przytulam przytulamy przytulania przytulanie przytulaniu przytulasz przytulać przytulał przytulała przytulcie przytuleni przytulenia przytulenie przytuli przytulili przytulisz przytulił przytuliła przytuliłam przytuliłem przytulony przytulę
+45	4345	komin	komina kominach kominami kominek kominem kominie kominka kominki kominkiem kominkowego kominku kominków kominowy kominy kominów
+46	4346	druk	drukach druki drukiem druku druków
+47	4347	taktyka	taktyce taktyk taktyki taktyką taktykę
+48	4348	pasta	past pasty pastą pastę paście
+49	4349	talerz	talerza talerzach talerzami talerze talerzem talerzu talerzy talerzyk talerzyki talerzyku
+50	4350	zabudowa	zabudowie zabudowy zabudową zabudowę
+51	4351	pompa	pomp pompach pompami pompek pompie pompka pompki pompkę pompy pompą pompę
+52	4352	hobby	
+53	4353	jakże	
+54	4354	niebawem	
+55	4355	och	
+56	4356	nieszczęście	nieszczęścia nieszczęściach nieszczęściami nieszczęściem nieszczęściu nieszczęść
+57	4357	kabel	kabla kablach kablami kable kablem kabli kablu
+58	4358	ród	rodami rodem rodowi rodu rody rodzie rodów
+59	4359	wstąpić	wstąp wstąpi wstąpienia wstąpienie wstąpieniem wstąpieniu wstąpili wstąpiliśmy wstąpię wstąpił wstąpiła wstąpiłem wstąpiło wstąpiły wstępowali wstępowania wstępować wstępował wstępuje wstępują wstępując wstępujący wstępujących
+60	4360	gołąb	gołąbeczki gołąbek gołąbka gołąbki gołąbków gołębi gołębia gołębiami gołębica gołębicy gołębie gołębiem gołębim
+61	4361	płot	płocie płota płotach płotek płotem płotka płotki płotkiem płotu płoty płotów
+62	4362	odpoczynek	odpoczynkiem odpoczynku
+63	4363	szybkość	szybkości szybkością
+64	4364	męczennik	męczennic męczennica męczennicy męczennika męczennikami męczennikiem męczenników
+65	4365	czarownica	czarownic czarownicach czarownicami czarownice czarownicy czarownicą czarownicę czarownik czarownika czarownikiem czarowników
+66	4366	nazista	nazistach nazistami nazistom nazisty nazistów nazistą nazistę naziści
+67	4367	patriota	patrioci patriotami patriotka patriotką patriotom patrioty patriotów patriotą patriotę
+68	4368	górniczy	górnicza górnicze górniczego górniczej górniczo górniczych górniczym górniczymi górniczą
+69	4369	ziarno	ziaren ziarenek ziarenka ziarenkami ziarenko ziarn ziarna ziarnach ziarnami ziarnem ziarnie ziarnka ziarnko ziarnku
+70	4370	płciowy	płciowa płciowe płciowego płciowej płciowo płciowych płciowym płciowymi płciową
+71	4371	skopiować	kopiowali kopiowane kopiowania kopiowanie kopiowaniem kopiowaniu kopiowany kopiować kopiował kopiuj kopiuje kopiujemy kopiujesz kopiują kopiując kopiuję skopiowali skopiowana skopiowane skopiowania skopiowanie skopiowany skopiował skopiowała skopiowałam skopiowałem skopiuj skopiuje
+72	4372	manifestacja	manifestacjach manifestacje manifestacji manifestacją manifestację
+73	4373	perfekcyjny	perfekcyjna perfekcyjne perfekcyjnego perfekcyjnej perfekcyjni perfekcyjnie perfekcyjnych perfekcyjnym perfekcyjną
+74	4374	miedź	miedzi miedziana miedziane miedzianego miedzianej miedziany miedzianych miedzianym miedzianymi miedzianą miedzią
+75	4375	sprowokować	prowokowali prowokowania prowokowanie prowokować prowokował prowokowała prowokuj prowokuje prowokujesz prowokują prowokując prowokująca prowokujące prowokujący prowokującym prowokuję sprowokowali sprowokowana sprowokowane sprowokowanie sprowokowany sprowokował sprowokowała sprowokowało sprowokowały
+76	4376	jasność	jasności jasnością
+77	4377	zabójca	zabójcami zabójcy zabójczyni zabójców zabójcą zabójcę
+78	4378	siatkówka	siatkówce siatkówki siatkówką siatkówkę
+79	4379	wysłuchać	wysłucha wysłuchaj wysłuchają wysłuchali wysłuchaliśmy wysłucham wysłuchamy wysłuchana wysłuchane wysłuchanie wysłuchaniu wysłuchano wysłuchany wysłuchanym wysłuchał wysłuchała wysłuchałam wysłuchałem wysłuchało wysłuchiwania wysłuchiwać wysłuchuje
+80	4380	dyktatura	dyktatur dyktatury dyktaturze dyktaturą dyktaturę
+81	4381	narciarski	narciarscy narciarska narciarskich narciarskie narciarskiego narciarskiej narciarskim narciarskimi narciarsko narciarską
+82	4382	gwałtowny	gwałtowna gwałtowne gwałtownego gwałtownej gwałtownemu gwałtownych gwałtownym gwałtownymi gwałtowną
+83	4383	turek	turcy turka turkami turki turkiem turkom turkowski turku turków
+84	4384	trumna	trudna trumien trumnach trumnie trumny trumną trumnę
+85	4385	beka	bek beki beko beką bekę
+86	4386	bliźniak	bliźniacy bliźniacza bliźniacze bliźniaczego bliźniaczej bliźniaczek bliźniaczka bliźniaczki bliźniaczo bliźniaczy bliźniaczych bliźniaczym bliźniaczymi bliźniaczą bliźniaka bliźniakach bliźniakami bliźniaki bliźniakiem bliźniaku bliźniaków
+87	4387	pułapka	pułapce pułapek pułapkach pułapkami pułapki pułapką pułapkę
+88	4388	absurd	absurdem absurdu absurdy absurdzie absurdów
+89	4389	konsultacja	konsultacjach konsultacje konsultacji konsultację
+90	4390	obiektywny	obiektywna obiektywne obiektywnego obiektywnej obiektywni obiektywnie obiektywnych obiektywnym obiektywną
+91	4391	wyzwolenie	wyzwolenia wyzwoleniem wyzwoleniu
+92	4392	kropla	kropel kropelka kroplach kroplami krople kropli kroplą kroplę
+93	4393	prawidłowy	prawidłowa prawidłowe prawidłowego prawidłowej prawidłowych prawidłowym prawidłową
+94	4394	plama	plam plamach plamami plamie plamka plamki plamy plamą plamę
+95	4395	holenderski	holenderscy holenderska holenderskich holenderskie holenderskiego holenderskiej holenderskim holenderskimi holendersku holenderską
+96	4396	obserwator	obserwatora obserwatorami obserwatorem obserwatorom obserwatorzy obserwatorów
+97	4397	nasiono	nasion nasiona nasionach nasionami nasionka nasionko
+98	4398	siadać	siada siadaj siadają siadając siadali siadam siadamy siadania siadasz siadał siadała siadałem siadały siadł siadła siadłem siadło siadły siądzie siądę siądź siąść
+99	4399	jeleń	jeleni jelenia jelenie jeleniej jeleniem jeleniu jelenią jelonek jelonka jelonki
+100	4400	disco	

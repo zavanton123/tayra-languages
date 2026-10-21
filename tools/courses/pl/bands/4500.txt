@@ -1,0 +1,100 @@
+1	4401	mianowicie	
+2	4402	nieustannie	
+3	4403	zoo	
+4	4404	komendant	komendanci komendancie komendanta komendantem komendantka komendantowi komendantów
+5	4405	rozpaść	rozpada rozpadają rozpadające rozpadającego rozpadający rozpadających rozpadam rozpadać rozpadał rozpadało rozpadli rozpadnie rozpadną rozpadł rozpadła rozpadło rozpadły
+6	4406	ogórek	ogór ogóra ogórka ogórkach ogórkami ogórki ogórkiem ogórkowa ogórkowej ogórkowy ogórków
+7	4407	sojusznik	sojusznicy sojusznika sojusznikami sojusznikiem sojusznikom sojuszników
+8	4408	odmowa	odmowie odmowy odmową odmowę odmów
+9	4409	podtrzymać	podtrzyma podtrzymana podtrzymania podtrzymanie podtrzymaniu podtrzymany podtrzymał podtrzymała podtrzymuje podtrzymujemy podtrzymują podtrzymując podtrzymująca podtrzymujące podtrzymującego podtrzymującej podtrzymujący podtrzymujących podtrzymującą podtrzymuję podtrzymywali podtrzymywana podtrzymywane podtrzymywania podtrzymywanie podtrzymywaniu podtrzymywany podtrzymywać podtrzymywał podtrzymywała podtrzymywały
+10	4410	sosnowiec	sosnowca sosnowcem sosnowcu
+11	4411	gminny	gminna gminne gminnego gminnej gminnych gminnym gminną
+12	4412	zawdzięczać	zawdzięcza zawdzięczacie zawdzięczają zawdzięczali zawdzięczam zawdzięczamy zawdzięczasz zawdzięczał
+13	4413	rozdzielić	rozdziel rozdziela rozdzielają rozdzielając rozdzielający rozdzielamy rozdzielane rozdzielania rozdzielanie rozdzielaniu rozdzielać rozdzielał rozdzieleni rozdzielenia rozdzielenie rozdzieleniem rozdzieleniu rozdzieli rozdzielili rozdzielił rozdzieliła rozdzieliło rozdzieliły rozdzielona rozdzielone rozdzielono rozdzielony rozdzielonych
+14	4414	kaplica	kaplic kaplicach kaplicami kaplice kaplicy kapliczce kapliczek kapliczka kapliczki kapliczką kapliczkę kaplicą kaplicę
+15	4415	deputowany	deputowanego deputowani deputowanych
+16	4416	rajd	rajdach rajdem rajdu rajdy rajdzie rajdów
+17	4417	trójkąt	trójkącie trójkącik trójkąciki trójkąciku trójkąta trójkątach trójkątem trójkąty trójkątów
+18	4418	perła	pereł perełka perełki perle perłami perłowa perłowe perłowej perłowy perłowych perłowym perłową perły perłą perłę
+19	4419	okoliczny	okoliczna okoliczne okolicznego okolicznej okoliczni okolicznych okolicznym okolicznymi okoliczną
+20	4420	dowództwo	dowództw dowództwa dowództwem dowództwie dowództwu
+21	4421	ugryźć	gryzie gryzienia gryzienie gryziesz gryzą gryząc gryzące gryzący gryzę gryzł gryzła gryzło gryzły gryźć ugryzie ugryzienia ugryzienie ugryzieniu ugryziesz ugryzień ugryziony ugryzę ugryzł ugryzła ugryzłam ugryzłaś ugryzło ugryź
+22	4422	ratusz	ratusza ratusze ratuszem ratuszowa ratuszowej ratuszowy ratuszową ratuszu
+23	4423	niewola	niewoli niewolą niewolę
+24	4424	powiadomienie	powiadomienia powiadomieniami powiadomień
+25	4425	utracić	utracenia utraci utracili utraciliśmy utracimy utracił utraciła utraciłam utraciłeś utraciło utraciły utracona utracone utraconego utraconej utracono utracony utraconych utraconym utraconą utracą
+26	4426	cichociemny	cc cichociemnego cichociemnych
+27	4427	taksówka	taksówce taksówek taksówkach taksówkami taksówki taksówką taksówkę
+28	4428	kora	kor koro kory korze korą korę
+29	4429	automat	automacie automatach automatami automatem automatu automaty automatów
+30	4430	naczelnik	naczelnicy naczelniczka naczelnika naczelnikiem naczelnikowi naczelników
+31	4431	dyspozycja	dyspozycje dyspozycji dyspozycję
+32	4432	wyszukiwarka	wyszukiwarce wyszukiwarek wyszukiwarkach wyszukiwarki wyszukiwarką wyszukiwarkę
+33	4433	diament	diamencie diamentami diamentem diamentowa diamentowe diamentowego diamentowej diamentowy diamentowych diamentowym diamentową diamentu diamenty diamentów
+34	4434	rosa	ros rosie rosy rosą rosę
+35	4435	żelazny	żelazna żelazne żelaznego żelaznej żelazno żelaznych żelaznym żelaznymi żelazną
+36	4436	szlachetny	szlachetna szlachetne szlachetnego szlachetnej szlachetni szlachetnie szlachetnych szlachetnym szlachetnymi szlachetną
+37	4437	wypierdalać	wypierdala wypierdalaj wypierdalajcie wypierdalam wypierdol wypierdolić wypierdolił wypierdolą wypierdolę
+38	4438	szokować	szokuje szokują szokująca szokujące zaszokowana zaszokowany zaszokować zaszokował zaszokowała zaszokowało zszokowana zszokowane zszokowani zszokowany zszokować zszokował zszokowała zszokowało
+39	4439	miligram	mg miligramów
+40	4440	motor	motorach motorami motorek motorem motoru motory motorze motorów
+41	4441	montaż	montażem montażu
+42	4442	dojrzały	dojrzale dojrzali dojrzalsza dojrzalsze dojrzalszy dojrzała dojrzałe dojrzałego dojrzałej dojrzałych dojrzałym dojrzałymi dojrzałą
+43	4443	szkoleniowy	szkoleniowa szkoleniowe szkoleniowego szkoleniowej szkoleniowo szkoleniowych szkoleniowym szkoleniowymi szkoleniową
+44	4444	wystarczać	wystarcza wystarczają wystarczająca wystarczające wystarczał wystarczała wystarczało wystarczały
+45	4445	wmówić	wmawia wmawiaj wmawiają wmawiając wmawiali wmawiam wmawiania wmawianie wmawiano wmawiasz wmawiać wmawiał wmawiała wmawiałam wmówi wmówili wmówiono wmówisz wmówią wmówił wmówiłam
+46	4446	satelita	satelicie satelitach satelitami satelity satelitów satelitą satelitę
+47	4447	bezpłatny	bezpłatna bezpłatne bezpłatnego bezpłatnej bezpłatnych bezpłatnym bezpłatną
+48	4448	absurdalny	absurdalna absurdalne absurdalnego absurdalnej absurdalnie absurdalnych absurdalnym absurdalnymi absurdalną
+49	4449	skarpeta	skarpecie skarpet skarpetach skarpetek skarpetka skarpetkach skarpetkami skarpetki skarpetkę skarpety skarpetę
+50	4450	pakować	pakowali pakowane pakowanie pakował pakowała pakowałam pakuj pakujcie pakuje pakujemy pakujesz pakują pakując pakuję
+51	4451	podatnik	podatnicy podatnika podatnikiem podatnikom podatników
+52	4452	czołówka	czołówce czołówek czołówkach czołówki czołówką czołówkę
+53	4453	motocykl	motocykla motocyklach motocyklami motocykle motocyklem motocykli motocyklu
+54	4454	kręgosłup	kręgosłupa kręgosłupem kręgosłupie kręgosłupy
+55	4455	japończyk	japonka japonkach japonki japonką japończycy japończyka japończykami japończykiem japończykom japończyków
+56	4456	wolontariusz	wolontariusza wolontariuszami wolontariusze wolontariuszem wolontariuszka wolontariuszki wolontariuszką wolontariuszom wolontariuszy
+57	4457	innowacyjny	innowacyjna innowacyjne innowacyjnego innowacyjnej innowacyjnych innowacyjnym innowacyjną
+58	4458	eksport	eksporcie eksportem eksportu
+59	4459	anglik	angielka angielki angielką anglicy anglika anglikami anglikiem anglikom angliku anglików
+60	4460	debiut	debiucie debiutem debiutu debiuty debiutów
+61	4461	android	androida androidem androidy androidzie androidów
+62	4462	wampir	wampira wampirach wampirami wampirek wampirem wampiry wampirze wampirzyca wampirzycy wampirów
+63	4463	łączność	łączności łącznością
+64	4464	dusić	dusi dusimy dusisz dusił dusiła dusiłam duszenia duszenie duszeniu duszona duszone duszony duszoną duszą dusząc duszące duszę duś udusi udusili udusisz udusić udusił udusiła uduszenia uduszenie uduszona uduszone uduszony uduszę uduś
+65	4465	charakterystyka	charakterystyce charakterystyk charakterystykach charakterystyki charakterystyką charakterystykę
+66	4466	negatywnie	
+67	4467	niedobrze	
+68	4468	per	
+69	4469	prawidłowo	
+70	4470	znacząco	
+71	4471	sympatia	sympatie sympatii sympatią sympatię
+72	4472	komercyjny	komercyjna komercyjne komercyjnego komercyjnej komercyjnych komercyjnym komercyjnymi komercyjną
+73	4473	fundament	fundamencie fundamentach fundamentami fundamentem fundamentu fundamenty fundamentów
+74	4474	pedofil	pedofila pedofilach pedofilami pedofile pedofilem pedofili pedofilska pedofilski pedofilskich pedofilskie pedofilów
+75	4475	dziesiąty	dziesiąta dziesiąte dziesiątego dziesiątej dziesiątych dziesiątym dziesiątą
+76	4476	college	college'u college'ów koledż koledżu
+77	4477	rezerwat	rezerwacie rezerwatach rezerwatem rezerwatu rezerwaty rezerwatów
+78	4478	specjalność	specjalności specjalnościach specjalnościami specjalnością
+79	4479	sprawny	sprawna sprawne sprawnego sprawnej sprawni sprawniejsze sprawniejszy sprawniejszą sprawnych sprawnym sprawnymi sprawną
+80	4480	irytować	irytował irytowała irytowało irytuje irytują irytująca irytujące irytuję zirytowana zirytowany zirytować zirytował
+81	4481	garaż	garażach garażami garaże garażem garażu garaży
+82	4482	awansować	awansowali awansowanego awansowania awansowano awansowany awansował awansowała awansowałem awansowało awansowały awansuje awansujemy awansują awansując
+83	4483	klan	klanami klanem klanie klanowi klanu klany klanów
+84	4484	rzekomy	rzekoma rzekome rzekomego rzekomej rzekomi rzekomych rzekomym rzekomą
+85	4485	zarazić	zarazi zarazili zarazisz zaraził zaraziła zaraziłam zaraziłem zaraziło zaraziły zaraża zarażają zarażanie zarażać zarażał zarażeni zarażenia zarażenie zarażona zarażone zarażony zarażonych zarażą zarażę
+86	4486	pech	pecha pechem
+87	4487	śnić	śni śnienia śnij śnili śnimy śnisz śnią śniąc śnię śnił śniła śniłam śniłaś śniłem śniło śniły
+88	4488	dowcip	dowcipach dowcipami dowcipem dowcipie dowcipu dowcipy dowcipów
+89	4489	walizka	walizce walizek walizkach walizkami walizki walizką walizkę
+90	4490	niezależność	niezależności niezależnością
+91	4491	merytoryczny	merytoryczna merytoryczne merytorycznego merytorycznej merytorycznych merytorycznym merytorycznymi merytoryczną
+92	4492	budowla	budowlach budowlami budowle budowli budowlą budowlę
+93	4493	internauta	internauci internautami internautom internauty internautów
+94	4494	poznański	poznańscy poznańska poznańskich poznańskie poznańskiego poznańskiej poznańskim poznańską
+95	4495	partnerski	partnerska partnerskich partnerskie partnerskiego partnerskiej partnerskim partnerskimi partnerską
+96	4496	rozejść	rozchodzenia rozchodzenie rozchodzi rozchodzić rozchodziło rozchodziły rozchodzą rozchodząc rozchodzące rozejdzie rozejdą rozejścia rozejście rozeszli rozeszła rozeszło rozeszły rozszedł
+97	4497	nakład	nakładach nakładami nakładem nakładu nakłady nakładzie nakładów
+98	4498	stereotyp	stereotypach stereotypami stereotypem stereotypom stereotypowi stereotypu stereotypy stereotypów
+99	4499	wojewoda	wojewodowie wojewody wojewodzie wojewodów wojewodą wojewodę
+100	4500	tutejszy	tutejsi tutejsza tutejsze tutejszego tutejszej tutejszych tutejszym tutejszymi tutejszą

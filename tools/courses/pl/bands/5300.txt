@@ -1,0 +1,100 @@
+1	5201	hejt	hejtem hejtu hejty
+2	5202	zasiadać	zasiada zasiadają zasiadając zasiadający zasiadających zasiadali zasiadam zasiadania zasiadanie zasiadał zasiadała zasiadały zasiadł zasiadła zasiadłem zasiadło zasiedli zasiądzie zasiąść
+3	5203	posprzątać	posprząta posprzątaj posprzątają posprzątam posprzątane posprzątania posprzątanie posprzątany posprzątasz posprzątał posprzątała posprzątałam posprzątałaś posprzątałem
+4	5204	import	imporcie importem importu
+5	5205	przyłożyć	przykłada przykładają przykładając przykładam przykładamy przykładasz przykładać przykładał przyłożenia przyłożenie przyłożeniu przyłożeń przyłożona przyłoży przyłożyli przyłożył przyłożyła przyłożyłem przyłożę przyłóż
+6	5206	szyba	szybach szybami szybie szybo szyby szybą szybę
+7	5207	strzała	strzale strzałach strzałami strzałek strzałka strzałkami strzałki strzałką strzałkę strzały strzałów strzałą strzałę
+8	5208	biodro	biedra bioder biodra biodrach biodrami biodrem biodrowa biodrowe biodrowego biodrowej biodrowo biodrowy biodrowych biodrowym biodrze
+9	5209	rod	rodem rodowi rodu rodzie
+10	5210	land	landach landu landy landzie landów
+11	5211	pojebany	pojebana pojebane pojebanego pojebanej pojebani pojebanych pojebanym pojebaną
+12	5212	jury	
+13	5213	ledwie	
+14	5214	kukurydza	kukurydziana kukurydziane kukurydzianej kukurydziany kukurydzianych kukurydzianą kukurydzy kukurydzą kukurydzę
+15	5215	niepewny	niepewna niepewne niepewnego niepewnej niepewni niepewnie niepewnych niepewnym niepewną
+16	5216	dinozaur	dinozaura dinozaurach dinozaurami dinozaurem dinozaurom dinozaury dinozaurów
+17	5217	długotrwały	długotrwale długotrwała długotrwałe długotrwałego długotrwałej długotrwałych długotrwałym długotrwałymi długotrwałą
+18	5218	powtórka	powtórce powtórek powtórki powtórką powtórkę
+19	5219	lewacki	lewaccy lewacka lewackich lewackie lewackiego lewackiej lewackim lewackimi lewacko lewacką
+20	5220	wypad	wypadach wypadami wypadem wypadu wypady wypadzie wypadów
+21	5221	nuta	nucie nut nutach nutami nutce nutka nutki nutką nutkę nutowy nuty nutą nutę
+22	5222	burdel	burdele burdelem burdeli burdelu
+23	5223	okradać	okrada okradają okradali okradani okradania okradanie okradany okradasz okradał okradała okradli okradnie okradnę okradziona okradziono okradziony okradł okradła okraść
+24	5224	buda	bud budach budo budy budzie budą budę
+25	5225	nędza	nędzy nędzą nędzę
+26	5226	dyrekcja	dyrekcje dyrekcji dyrekcją dyrekcję
+27	5227	magnetyczny	magnetyczna magnetyczne magnetycznego magnetycznej magnetycznych magnetycznym magnetycznymi magnetyczną
+28	5228	zasilić	zasila zasilają zasilając zasilająca zasilające zasilającego zasilającej zasilający zasilających zasilającym zasilającą zasilana zasilane zasilanego zasilanej zasilany zasilanych zasilanym zasilaną zasilać zasilenia zasilenie zasili zasilili zasilił zasiliły zasilą
+29	5229	glina	glin glinach glinami glinie glinu gliny gliną glinę
+30	5230	sztywny	sztywna sztywne sztywnego sztywnej sztywni sztywniejszy sztywno sztywnych sztywnym sztywnymi sztywną
+31	5231	częściowy	częściowa częściowe częściowego częściowej częściowych częściowym częściową
+32	5232	cechować	cechował cechowała cechowało cechowały cechuje cechują cechująca cechujące cechujący cechujących nacechowana nacechowane nacechowany
+33	5233	przeciąć	przecina przecinają przecinając przecinająca przecinające przecinający przecinających przecinamy przecinania przecinanie przecinać przecinał przecinały przeciął przecięcia przecięcie przecięciem przecięciu przecięli przecięta przecięte przecięto przecięty przeciętą przecięła przecięłam przecięły przetnie przetną
+34	5234	przeprowadzka	przeprowadzce przeprowadzek przeprowadzkach przeprowadzki przeprowadzką przeprowadzkę
+35	5235	pomalować	pomalowali pomalowana pomalowane pomalowanej pomalowania pomalowanie pomalowano pomalowany pomalowanych pomalowanym pomalowanymi pomalowaną pomalował pomalowała pomalowałam pomalowałem pomaluj pomaluje pomalujesz pomaluję
+36	5236	grosze	groszami groszy
+37	5237	wrak	wraka wraki wrakiem wraku wraków
+38	5238	poszkodowany	poszkodowana poszkodowane poszkodowanego poszkodowanej poszkodowani poszkodowanych poszkodowanym poszkodowanymi
+39	5239	byk	bycze byczek byczki byczku byczków byczy byka bykami byki bykiem byku byków
+40	5240	szczątek	szczątkach szczątkami szczątki szczątków
+41	5241	dopuszczalny	dopuszczalna dopuszczalne dopuszczalnego dopuszczalnej dopuszczalnych dopuszczalnym dopuszczalną
+42	5242	filipin	filipinach filipiny
+43	5243	zjechać	zjadą zjadę zjechali zjechaliśmy zjechał zjechała zjechałem zjechało zjechały zjedzie zjedź zjeżdża zjeżdżaj zjeżdżają zjeżdżając zjeżdżali zjeżdżam zjeżdżamy zjeżdżania zjeżdżasz zjeżdżać zjeżdżał
+44	5244	wiać	wiano wiał wiało wieje wieją wiejące wiejący wieli zwiać zwiał zwiała zwiało zwieje
+45	5245	reżyseria	reżyserii reżyserią reżyserię
+46	5246	startowy	startowa startowe startowego startowej startowi startowych startowym startową
+47	5247	ochotnik	ochotnicy ochotniczka ochotnika ochotnikami ochotnikiem ochotnikom ochotników
+48	5248	niepodległy	niepodległa niepodległe niepodległego niepodległej niepodległych niepodległym niepodległą
+49	5249	przydzielić	przydziela przydzielają przydzielając przydzielane przydzielania przydzielanie przydzielany przydzielać przydzieleni przydzielenia przydzielenie przydzielili przydzielił przydzieliła przydzieliło przydzielona przydzielone przydzielonego przydzielonej przydzielono przydzielony przydzielonych przydzielonym przydzieloną przydzielę
+50	5250	jon	jona jonami jonem jonowi jony jonów
+51	5251	komunikować	komunikowania komunikowanie komunikowaniu komunikował komunikuje komunikujemy komunikują komunikuję skomunikowana skomunikowane skomunikować zakomunikowania zakomunikować zakomunikował
+52	5252	podatny	podatna podatne podatnego podatni podatnych podatnym podatnymi podatną
+53	5253	zbombardować	bombardowane bombardowani bombardowania bombardowanie bombardowany bombardować bombardowań bombarduje bombardują zbombardowali zbombardowana zbombardowane zbombardowanie zbombardowano zbombardowany zbombardował zbombardowała zbombardowało zbombardowały
+54	5254	następstwo	następstw następstwa następstwach następstwami następstwem następstwie
+55	5255	wcielić	wciela wcielają wcielając wcielający wcielamy wcielania wcielanie wcielać wcielał wcieleni wcieli wcielili wcielimy wcielił wcieliła wcielona wcielone wcielonego wcielono wcielony wcielonych wcielonym
+56	5256	białoruski	białoruscy białoruska białoruskich białoruskie białoruskiego białoruskiej białoruskim białorusko białorusku białoruską
+57	5257	fryzjer	fryzjera fryzjerem fryzjerka fryzjerki fryzjerką fryzjerowi fryzjerze fryzjerzy fryzjerów
+58	5258	jednorazowy	jednorazowa jednorazowe jednorazowego jednorazowej jednorazowo jednorazowych jednorazowym jednorazową
+59	5259	cover	coverami coverem coveru covery coverów
+60	5260	podwodny	podwodna podwodne podwodnego podwodnej podwodnych podwodnym podwodnymi podwodną
+61	5261	wyłożyć	wykłada wykładają wykładając wykładam wykładana wykładane wykładania wykładanie wykładany wykładać wykładał wykładała wyłożenia wyłożenie wyłożona wyłożone wyłożonej wyłożono wyłożony wyłożonych wyłoży wyłożyli wyłożył wyłożyła wyłożę wyłóż
+62	5262	spód	spodem spodu spodzie
+63	5263	pogarda	pogardy pogardzie pogardą pogardę
+64	5264	miska	mich micha michy michę misce miseczce miseczek miseczka miseczkach miseczki miseczkę misek miski miską miskę
+65	5265	wypłacić	wypłaca wypłacają wypłacana wypłacane wypłacania wypłacanie wypłacanych wypłacać wypłacał wypłacenia wypłacenie wypłaci wypłacimy wypłacił wypłaciła wypłacona wypłacone wypłacono wypłacą
+66	5266	hrabia	hrabi hrabiego hrabiemu hrabina hrabinie hrabino hrabiny hrabiną hrabinę hrabio hrabiów hrabią
+67	5267	chudy	chuda chude chudego chudej chudo chudsza chudsze chudszy chudych chudym chudymi chudziutka chudą
+68	5268	stłumić	stłumienia stłumienie stłumiona stłumione stłumiony stłumionych stłumił stłumiły tłumi tłumienia tłumienie tłumieniem tłumieniu tłumiona tłumione tłumią tłumiąc tłumiące tłumić tłumił tłumiła
+69	5269	nacjonalistyczny	nacjonalistyczna nacjonalistyczne nacjonalistycznego nacjonalistycznej nacjonalistyczno nacjonalistycznych nacjonalistycznym nacjonalistycznymi nacjonalistyczną
+70	5270	trop	tropach tropami tropem tropie tropu tropy tropów
+71	5271	dobiec	dobiega dobiegają dobiegające dobiegający dobiegał dobiegała dobiegnie dobiegł dobiegła dobiegło dobiegły
+72	5272	zombie	zombi
+73	5273	lotnictwo	lotnictwa lotnictwem lotnictwie
+74	5274	dyrektywa	dyrektyw dyrektywach dyrektywami dyrektywie dyrektywy dyrektywą dyrektywę
+75	5275	deser	deserami deserek deserem deserowe deseru desery deserze deserów
+76	5276	patologia	patologiach patologiami patologie patologii patologią patologię
+77	5277	wypożyczyć	wypożycz wypożycza wypożyczania wypożyczanie wypożyczać wypożyczenia wypożyczenie wypożyczeniu wypożyczeń wypożyczona wypożyczone wypożyczony wypożyczonych wypożyczonym wypożyczyli wypożyczył wypożyczyła wypożyczyłam wypożyczyłem
+78	5278	polować	polowali polowano polował polowała polowały poluje polujesz polują polując polujące polującego polujący polujących poluję upolowania upolowany upolować
+79	5279	mianować	mianowali mianowana mianowanego mianowani mianowania mianowanie mianowaniem mianowaniu mianowano mianowany mianowanych mianowanym mianował mianowała mianuje mianując
+80	5280	informator	informatora informatorami informatorem informatorom informatory informatorze informatorzy informatorów
+81	5281	subtelny	subtelna subtelne subtelnego subtelnej subtelnie subtelniej subtelnych subtelnym subtelną
+82	5282	porcja	porcjach porcje porcji porcją porcję
+83	5283	spożycie	spożycia spożyciem spożyciu
+84	5284	cesarski	cesarska cesarskich cesarskie cesarskiego cesarskiej cesarskim cesarsko cesarską
+85	5285	diecezja	diecezjach diecezje diecezji diecezją diecezję
+86	5286	dobić	dobicia dobicie dobij dobija dobijaj dobijają dobijając dobijające dobijali dobijam dobijamy dobijanie dobijać dobijał dobije dobijemy dobijmy dobiją dobiję dobili dobił dobiła dobiłam dobiło
+87	5287	fioletowy	fioletowa fioletowe fioletowego fioletowej fioletowo fioletowych fioletowym fioletowymi fioletową
+88	5288	cale	
+89	5289	fu	
+90	5290	bor	bora borach borem boru bory borze borów
+91	5291	gorzki	gorzka gorzkich gorzkie gorzkiego gorzkiej gorzkim gorzko gorzką
+92	5292	jedenaście	jedenastoma jedenastu
+93	5293	zazdrość	zazdrości zazdrością
+94	5294	multimedia	multimedialna multimedialne multimedialnego multimedialnej multimedialny multimedialnych multimedialnym multimedialną multimediami multimediów
+95	5295	przewóz	przewozach przewozami przewozem przewozie przewozu przewozy przewozów
+96	5296	dzwon	dzwonach dzwonami dzwonem dzwonie dzwonu dzwony dzwonów
+97	5297	ręcznik	ręcznika ręcznikach ręcznikami ręczniki ręcznikiem ręczniku ręczników
+98	5298	poślubić	poślubi poślubia poślubiając poślubienia poślubienie poślubieniu poślubiona poślubioną poślubisz poślubię poślubił poślubiła
+99	5299	troszczyć	troszczcie troszczenie troszczy troszczycie troszczyli troszczymy troszczysz troszczył troszczyła troszczą troszcząc troszczę zatroszcz zatroszczy zatroszczyć zatroszczył
+100	5300	gładki	gładka gładkich gładkie gładkiego gładkiej gładkim gładkimi gładką

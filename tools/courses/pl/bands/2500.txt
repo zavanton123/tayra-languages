@@ -1,0 +1,100 @@
+1	2401	napięcie	napięcia napięciach napięciami napięciem napięciowe napięciu napięć
+2	2402	trafiać	trafia trafiają trafiając trafiające trafiali trafiam trafiamy trafiasz trafiał trafiała trafiałam trafiałem trafiało trafiały
+3	2403	pokład	pokładach pokładami pokładem pokładu pokłady pokładzie pokładów
+4	2404	front	froncie frontach frontem frontowe frontowi frontowy frontu fronty frontów
+5	2405	słynny	najsłynniejszy słynna słynne słynnego słynnej słynnemu słynni słynnych słynnym słynnymi słynną
+6	2406	dostrzec	dostrzega dostrzegacie dostrzegają dostrzegając dostrzegali dostrzegam dostrzegamy dostrzegania dostrzeganie dostrzegasz dostrzegać dostrzegał dostrzegała dostrzegli dostrzegliśmy dostrzegą dostrzegł dostrzegła dostrzegłam dostrzegłem dostrzegło dostrzegły dostrzeże dostrzeżenia dostrzeżenie dostrzeżesz dostrzeżona dostrzeżone dostrzeżono dostrzeżony
+7	2407	funkcjonariusz	funkcjonariusza funkcjonariuszami funkcjonariusze funkcjonariuszem funkcjonariuszka funkcjonariuszom funkcjonariuszowi funkcjonariuszy
+8	2408	definicja	definicjach definicjami definicje definicji definicją definicję
+9	2409	nieźle	
+10	2410	ekonomia	ekonomie ekonomii ekonomią ekonomię
+11	2411	chrześcijański	chrześcijańscy chrześcijańska chrześcijańskich chrześcijańskie chrześcijańskiego chrześcijańskiej chrześcijańskiemu chrześcijańskim chrześcijańskimi chrześcijańsko chrześcijańsku chrześcijańską
+12	2412	administracyjny	administracyjna administracyjne administracyjnego administracyjnej administracyjnie administracyjno administracyjnych administracyjnym administracyjnymi administracyjną
+13	2413	grzech	grzechach grzechami grzechem grzechowi grzechu grzechy grzechów grzeszki
+14	2414	ucieczka	ucieczce ucieczek ucieczkach ucieczki ucieczką ucieczkę
+15	2415	okropny	okropna okropne okropnego okropnej okropni okropnych okropnym okropnymi okropną
+16	2416	podłoga	podłodze podłogach podłogi podłogowa podłogowe podłogowego podłogowej podłogową podłogą podłogę podłóg
+17	2417	doświadczyć	doświadcza doświadczają doświadczając doświadczających doświadczali doświadczam doświadczamy doświadczania doświadczanie doświadczasz doświadczać doświadczał doświadczała doświadczeni doświadczona doświadczone doświadczonego doświadczonej doświadczony doświadczonych doświadczonym doświadczonymi doświadczoną doświadczy doświadczycie doświadczyli doświadczyliście doświadczyliśmy doświadczysz doświadczył doświadczyła doświadczyłam doświadczyłaś doświadczyłem doświadczyłeś doświadczyło doświadczyły doświadczą doświadczę
+18	2418	zaskoczyć	zaskakiwać zaskakuje zaskakujesz zaskakują zaskakując zaskakująca zaskakujące zaskocz zaskoczeni zaskoczona zaskoczone zaskoczy zaskoczyli zaskoczymy zaskoczysz zaskoczył zaskoczyła zaskoczyłam zaskoczyłaś zaskoczyłem zaskoczyłeś zaskoczyło zaskoczyłoby zaskoczyły zaskoczą zaskoczę
+19	2419	spacer	spacerach spacerek spacerem spacerki spacerkiem spacerku spacerom spaceru spacery spacerze spacerów
+20	2420	wydatek	wydatkach wydatkami wydatki wydatkiem wydatku wydatków
+21	2421	dziewięć	dziewięcioma dziewięciu
+22	2422	rozegrać	rozegra rozegrają rozegrali rozegramy rozegrana rozegrane rozegranego rozegrania rozegranie rozegraniu rozegrano rozegrany rozegranych rozegranym rozegrał rozegrała rozegrało rozegrały rozgrywa rozgrywają rozgrywająca rozgrywające rozgrywającej rozgrywającą rozgrywali rozgrywana rozgrywane rozgrywanego rozgrywanej rozgrywania rozgrywanie rozgrywano rozgrywany rozgrywanych rozgrywanym rozgrywać rozgrywał rozgrywała rozgrywały
+23	2423	dziura	dura dziur dziurach dziurami dziurka dziurki dziury dziurze dziurą dziurę
+24	2424	plotka	plot plota plotce ploteczki plotek plotkach plotkami plotki plotkom plotką plotkę ploty plotą plotę
+25	2425	rolnictwo	rolnictwa rolnictwem rolnictwie
+26	2426	róg	rogach rogami rogi rogiem rogowie rogu rogów rożek rożka rożki rożku
+27	2427	postęp	postępach postępami postępem postępie postępowi postępu postępy postępów
+28	2428	złodziej	złodziei złodzieja złodziejach złodziejami złodziejaszek złodziejaszków złodzieje złodziejem złodziejka złodziejki złodziejką złodziejom złodziejowi złodzieju
+29	2429	rozpoznać	rozpozna rozpoznacie rozpoznaj rozpoznaje rozpoznajemy rozpoznajesz rozpoznają rozpoznając rozpoznający rozpoznaję rozpoznali rozpoznam rozpoznamy rozpoznana rozpoznane rozpoznania rozpoznanie rozpoznaniem rozpoznaniu rozpoznano rozpoznany rozpoznanych rozpoznanym rozpoznaną rozpoznasz rozpoznawali rozpoznawana rozpoznawane rozpoznawany rozpoznawanych rozpoznawać rozpoznawał rozpoznał rozpoznała rozpoznałam rozpoznałem
+30	2430	pogratulować	gratulowali gratulować gratulował gratuluje gratulujemy gratulują gratulując gratuluję pogratulował pogratulowała
+31	2431	schować	chowa chowaj chowajcie chowają chowając chowający chowali chowam chowamy chowane chowanego chowania chowanie chowano chowany chowasz chować chował chowała schowa schowaj schowajcie schowają schowali schowaliście schowam schowamy schowana schowane schowanie schowany schowanych schowanym schowaną schował schowała schowałam schowałaś schowałem
+32	2432	grecki	greccy grecka greckich greckie greckiego greckiej greckim greckimi grecko grecku grecką
+33	2433	laski	lacha laga lasce laseczka laseczki lasek laska laskach laskami lasko laskom laską laskę loska
+34	2434	pozbawić	pozbawi pozbawia pozbawiają pozbawiając pozbawiania pozbawianie pozbawiać pozbawieni pozbawienia pozbawienie pozbawieniem pozbawieniu pozbawili pozbawiona pozbawione pozbawiono pozbawił pozbawiła pozbawiło pozbawiły
+35	2435	as	asa asami asem asie asy asów
+36	2436	turysta	turystami turystka turystom turysty turystów turystą turystę turyści turyście
+37	2437	dokładny	dokładna dokładne dokładnego dokładnej dokładni dokładniejsza dokładniejsze dokładniejszej dokładniejszy dokładniejszych dokładniejszym dokładniejszą dokładnych dokładnym dokładnymi dokładną
+38	2438	załoga	załodze załogami załogi załogom załogowy załogowych załogą załogę załóg
+39	2439	dopuścić	dopuszcza dopuszczają dopuszczając dopuszczająca dopuszczające dopuszczającego dopuszczający dopuszczających dopuszczali dopuszczam dopuszczamy dopuszczane dopuszczanie dopuszczano dopuszczasz dopuszczać dopuszczał dopuszczała dopuszczało dopuszczeni dopuszczenia dopuszczenie dopuszczeniem dopuszczeniu dopuszczona dopuszczone dopuszczono dopuszczony dopuszczonych dopuszczą dopuszczę dopuści dopuścili dopuścimy dopuścił dopuściła dopuściły dopuść
+40	2440	absolutnie	
+41	2441	częściowo	
+42	2442	koniecznie	
+43	2443	odkąd	
+44	2444	publicznie	
+45	2445	wbrew	
+46	2446	średnio	
+47	2447	ot	het hot
+48	2448	czekolada	czekolad czekoladek czekoladka czekoladkami czekoladki czekoladkę czekoladowa czekoladowe czekoladowego czekoladowej czekoladowo czekoladowy czekoladowych czekoladowym czekoladowymi czekoladową czekolady czekoladzie czekoladą czekoladę
+49	2449	metro	metra metrem metru metrze
+50	2450	niespodzianka	niespodziance niespodzianek niespodziankami niespodzianki niespodzianką niespodziankę
+51	2451	kompleks	kompleksach kompleksami kompleksem kompleksie kompleksu kompleksy kompleksów
+52	2452	jebany	jebana jebane jebanego jebanej jebani jebanych jebanym jebanymi jebaną
+53	2453	potężny	najpotężniejszy potężna potężne potężnego potężnej potężnemu potężni potężnie potężniejsza potężniejsze potężniejszy potężniejszych potężniejszym potężniejszą potężnych potężnym potężnymi potężną
+54	2454	łza	zła łez łezka łezką łezkę łzach łzami łzy łzą łzę
+55	2455	kliknąć	klikaj klikajcie klikają klikając klikam klikamy klikania klikanie klikasz klikać kliknie klikniecie klikniesz kliknij kliknijcie kliknięcia kliknięcie kliknięciem kliknięciu kliknięć kliknął kliknąłem kliknę kliknęłam kliknęło
+56	2456	odmiana	odmian odmianach odmianami odmianie odmiany odmianą odmianę
+57	2457	gratulacje	gratulacjami gratulacji
+58	2458	wilk	wilcza wilcze wilczego wilczej wilczek wilczy wilczyca wilczyce wilczych wilczycy wilczym wilczą wilka wilkach wilkami wilki wilkiem wilkom wilkowi wilku wilków
+59	2459	przeglądać	przegląda przeglądaj przeglądają przeglądając przeglądam przeglądamy przeglądania przeglądanie przeglądaniu przeglądasz przeglądał przeglądała przeglądałam przeglądałem przejrzane przejrzał przejrzała przejrzałam przejrzałaś przejrzałem przejrzeli przejrzenia przejrzenie przejrzeniu przejrzeć przejrzy przejrzyj przejrzyjcie przejrzysz przejrzą przejrzę
+60	2460	posługiwać	posługiwali posługiwania posługiwanie posługiwaniu posługiwano posługiwał posługiwała posługuje posługujemy posługujesz posługują posługując posługująca posługujące posługujący posługujących posługuję posłużono posłuży posłużyli posłużymy posłużyć posłużył posłużyła posłużyłem posłużyło posłużyły posłużą posłużę
+61	2461	prokuratura	prokuratur prokuratury prokuraturze prokuraturą prokuraturę
+62	2462	śnieg	śniegi śniegiem śniegowa śniegowe śniegu śniegów śnieżek
+63	2463	rzut	rzucie rzutach rzutami rzutem rzutu rzuty rzutów
+64	2464	wyprawa	wypraw wyprawach wyprawami wyprawie wyprawka wyprawki wyprawkę wyprawy wyprawą wyprawę
+65	2465	osobowy	osobowa osobowe osobowego osobowej osobowo osobowych osobowym osobowymi osobową
+66	2466	nieznany	nieznana nieznanego nieznanej nieznanemu nieznani nieznanych nieznanym nieznanymi nieznaną
+67	2467	świeży	najświeższy świeża świeże świeżego świeżej świeższe świeżutki świeżutkie świeżych świeżym świeżymi świeżą
+68	2468	emisja	emisjami emisje emisji emisją emisję
+69	2469	koalicja	koalicje koalicji koalicją koalicję
+70	2470	cmentarz	cmentarna cmentarne cmentarnego cmentarnej cmentarny cmentarnych cmentarnym cmentarną cmentarza cmentarzach cmentarzami cmentarze cmentarzem cmentarzu cmentarzy cmentarzyska cmentarzysko cmentarzysku
+71	2471	wzrok	wzrokiem wzroku
+72	2472	bateria	bateriach bateriami baterie baterii baterią baterię
+73	2473	przystanek	przystankach przystankami przystanki przystankiem przystankowe przystanku przystanków
+74	2474	hala	hal halach halami hale hali halny halowa halowe halowego halowej halowy halowych halowym halową halą halę hola
+75	2475	korona	koron koronach koronami koronek koronie koronka koronkami koronki koronką koronkę koronne koronnego koronnej koronny koronnych koronnym koronowo korony koroną koronę
+76	2476	róża	rózia róż różach różami różana różane różanego różanej różany różanym różaną róże różem różo różu róży różyczce różyczka różyczki różyczkę różą różę
+77	2477	budowlany	budowlana budowlane budowlanego budowlanej budowlani budowlano budowlanych budowlanym budowlanymi budowlaną
+78	2478	podatkowy	podatkowa podatkowe podatkowego podatkowej podatkowi podatkowo podatkowych podatkowym podatkowymi podatkową
+79	2479	tęsknić	tęskni tęsknicie tęsknili tęskniliście tęsknimy tęsknisz tęsknią tęskniąc tęsknię tęsknił tęskniła tęskniłam tęskniłaś tęskniłem tęskniłeś
+80	2480	spod	spode
+81	2481	basen	basenach basenami basenem basenie basenu baseny basenów
+82	2482	chrześcijanin	chrześcijan chrześcijanach chrześcijanami chrześcijanie chrześcijanina chrześcijaninem chrześcijanka chrześcijanom
+83	2483	podpis	podpisami podpisem podpisie podpisu podpisy podpisów
+84	2484	pośrednictwo	pośrednictwa pośrednictwem
+85	2485	odnośnie	
+86	2486	tematyka	tematyce tematyki tematyką tematykę
+87	2487	reżyser	reżysera reżyserami reżyserem reżyserka reżyserki reżyserką reżyserkę reżyserowi reżyserze reżyserzy reżyserów
+88	2488	wątek	wątkach wątkami wątki wątkiem wątku wątków
+89	2489	honor	honorami honorem honorowi honoru honory honorze honorów
+90	2490	opole	opola opolan opolem opolska opolski opolskich opolskie opolskiego opolskiej opolskim opolską opolu
+91	2491	terapia	terapiach terapie terapii terapią terapię
+92	2492	rock	rocka rockiem rockowa rockowe rockowego rockowej rockowo rockowy rockowych rockowym rockową rocku
+93	2493	rekord	rekordach rekordami rekordem rekordu rekordy rekordzie rekordów
+94	2494	wykluczyć	wyklucza wykluczają wykluczając wykluczające wykluczających wykluczam wykluczamy wykluczania wykluczanie wykluczać wykluczał wykluczała wykluczało wykluczeni wykluczenia wykluczenie wykluczeniem wykluczeniu wykluczona wykluczone wykluczono wykluczony wykluczonych wykluczonym wykluczy wykluczyli wykluczył wykluczyła wykluczyło wykluczyły
+95	2495	okładka	okładce okładek okładkach okładkami okładki okładką okładkę
+96	2496	wynagrodzenie	wynagrodzenia wynagrodzeniach wynagrodzeniami wynagrodzeniem wynagrodzeniu wynagrodzeń
+97	2497	zapobiec	zapobiega zapobiegają zapobiegając zapobiegająca zapobiegające zapobiegający zapobiegających zapobiegania zapobieganie zapobiegać zapobiegnie zapobiegnięcie zapobiegł zapobiegła zapobiegło
+98	2498	piętro	pięter piętra piętrach piętrami piętrem piętrze
+99	2499	objaw	objawach objawami objawem objawom objawu objawy objawów
+100	2500	podejrzany	podejrzana podejrzane podejrzanego podejrzanej podejrzanemu podejrzani podejrzanych podejrzanym podejrzanymi podejrzaną

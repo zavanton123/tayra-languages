@@ -1,0 +1,100 @@
+1	1201	minąć	mija mijają mijając mijające mijającego mijający mijającym mijali mijaliśmy mijam mijamy mijania mijasz mijać mijał mijała mijałam mijałem mijało mijały minie miniesz minięcie minięciu miną minął minąłem minąłeś minę minęli minęliśmy minęła minęłam minęło minęły
+2	1202	ocenić	oceni ocenia oceniacie oceniaj oceniają oceniając oceniający oceniających oceniali oceniam oceniamy oceniana oceniane oceniani oceniania ocenianie ocenianiu oceniano oceniany ocenianych ocenianym oceniasz oceniać oceniał oceniała ocenienie ocenili ocenimy oceniona ocenione oceniono oceniony ocenisz ocenię ocenił oceniła oceniłem oceniło oceń
+3	1203	kierować	kierowali kierowana kierowane kierowanego kierowanej kierowani kierowania kierowanie kierowaniem kierowaniu kierowano kierowany kierowanych kierowanym kierowanymi kierowaną kierował kierowała kierowałam kierowałem kierowało kierowały kieruj kierujcie kieruje kierujecie kierujemy kierujesz kierują kierując kierująca kierujące kierującego kierującej kierujący kierujących kierującym kierującą kieruję
+4	1204	kość	kostce kosteczki kostek kostka kostkach kostkami kostki kostką kostkę kostna kostne kostnego kostnej kostno kostny kostnych kostnym kostną kości kościach kością kośćmi
+5	1205	sprzedaż	sprzedaże sprzedaży sprzedażą
+6	1206	republika	republice republik republikach republiki republiką republikę
+7	1207	stawiać	stawia stawiacie stawiaj stawiajcie stawiajmy stawiają stawiając stawiająca stawiające stawiającego stawiający stawiających stawiającym stawiającą stawiali stawialiśmy stawiam stawiamy stawiana stawiane stawianego stawiani stawiania stawianie stawianiem stawianiu stawiano stawiany stawianych stawianym stawianymi stawiasz stawiał stawiała stawiałam stawiałbym stawiałem stawiało stawiały
+8	1208	fajnie	fajniej najfajniej
+9	1209	maszyna	maszyn maszynach maszynami maszynce maszynek maszynie maszynka maszynki maszynką maszynkę maszynom maszynowa maszynowe maszynowego maszynowej maszynowo maszynowy maszynowych maszynowym maszynowymi maszynową maszyny maszyną maszynę
+10	1210	skala	skal skalach skale skali skalą skalę
+11	1211	lek	lekach lekami leki lekiem lekom lekowe leku leków liku lików
+12	1212	kwiat	kwiatach kwiatami kwiatek kwiatem kwiatka kwiatkami kwiatki kwiatkiem kwiatku kwiatków kwiatom kwiatowa kwiatowe kwiatowego kwiatowej kwiatowo kwiatowy kwiatowych kwiatowym kwiatowymi kwiatową kwiatu kwiatuszek kwiatuszka kwiatuszki kwiatuszku kwiaty kwiatów kwiecie kwieciem kwietnia
+13	1213	tradycja	tradycjach tradycjami tradycje tradycji tradycjom tradycją tradycję
+14	1214	kawa	kaw kawce kawie kawka kawki kawkę kawowe kawowego kawowy kawowym kawusia kawy kawą kawę
+15	1215	sport	sporcie sportach sportami sportem sportom sportowi sportu sporty sportów
+16	1216	zdrowy	najzdrowszy zdrowa zdrowe zdrowego zdrowej zdrowemu zdrowi zdrowiej zdrowo zdrowsza zdrowsze zdrowszy zdrowszych zdrowych zdrowym zdrowymi zdrową zdrów
+17	1217	komórka	komórce komórek komórkach komórkami komórki komórkom komórkowa komórkowe komórkowego komórkowej komórkowy komórkowych komórkowym komórkowymi komórkową komórką komórkę
+18	1218	podzielić	podziel podzielcie podzieleni podzielenia podzielenie podzieleniu podzieli podzielicie podzielili podzieliliśmy podzielimy podzielisz podzielił podzieliła podzieliłam podzieliłaś podzieliłem podzieliłeś podzieliło podzieliły podzielmy podzielona podzielone podzielonego podzielonej podzielono podzielony podzielonych podzielonym podzieloną podzielą podzielę
+19	1219	obejrzeć	obejrzane obejrzany obejrzanych obejrzał obejrzała obejrzałam obejrzałaś obejrzałbym obejrzałem obejrzałeś obejrzało obejrzeli obejrzeliście obejrzeliśmy obejrzenia obejrzenie obejrzeniem obejrzeniu obejrzy obejrzycie obejrzyj obejrzyjcie obejrzyjmy obejrzymy obejrzysz obejrzą obejrzę
+20	1220	liczny	liczna liczne licznego licznej liczni liczniejsi liczniejsza liczniejsze liczniejszej liczniejszych liczniejszą licznych licznym licznymi liczną najliczniejszy
+21	1221	centymetr	centymetra centymetrach centymetrowe centymetrowego centymetrowej centymetrowy centymetrowych centymetrowym centymetrową centymetry centymetrze centymetrów cm
+22	1222	autobus	autobusach autobusami autobusem autobusie autobusowa autobusowe autobusowego autobusowej autobusowy autobusowych autobusowym autobusową autobusu autobusy autobusów
+23	1223	opcja	opcjach opcjami opcje opcji opcją opcję
+24	1224	przeciw	
+25	1225	zazwyczaj	
+26	1226	skóra	skór skórach skórami skórce skórek skórka skórkami skórki skórką skórkę skóry skórze skórą skórę
+27	1227	spory	spor spora sporach sporami spore sporego sporej sporem sporu sporych sporym sporymi sporze sporów sporą spór
+28	1228	liga	lidze lig ligach ligami ligi ligo ligowa ligowe ligowego ligowej ligowy ligowych ligowym ligową ligą ligę
+29	1229	typowy	typowa typowe typowego typowej typowi typowo typowych typowym typowymi typową
+30	1230	ludność	ludności ludnością
+31	1231	przedmiot	przedmiocie przedmiotach przedmiotami przedmiotem przedmiotom przedmiotowi przedmiotowo przedmiotowy przedmiotu przedmioty przedmiotów
+32	1232	przegrać	przegra przegracie przegrają przegrali przegraliśmy przegram przegramy przegrana przegrane przegranego przegranej przegrani przegrania przegranie przegrany przegranych przegranym przegranymi przegraną przegrasz przegrał przegrała przegrałam przegrałaś przegrałem przegrałeś przegrało przegrały przegrywa przegrywają przegrywając przegrywali przegrywam przegrywamy przegrywanie przegrywasz przegrywać przegrywał przegrywała
+33	1233	pogląd	poglądach poglądami poglądem poglądom poglądowi poglądu poglądy poglądzie poglądów
+34	1234	sześć	sześcio sześcioma sześciu
+35	1235	łóżko	łóżeczka łóżeczkach łóżeczkiem łóżeczko łóżeczku łóżek łóżka łóżkach łóżkami łóżkiem łóżkowe łóżkowych łóżku
+36	1236	festiwal	festiwalach festiwale festiwalem festiwali festiwalowi festiwalu
+37	1237	poprawić	popraw poprawcie poprawi poprawia poprawiaj poprawiają poprawiając poprawiające poprawiający poprawiających poprawiam poprawiamy poprawiania poprawianie poprawianiu poprawiasz poprawiać poprawiał poprawiała poprawienia poprawienie poprawieniu poprawili poprawiliśmy poprawimy poprawiona poprawione poprawiono poprawiony poprawioną poprawisz poprawią poprawię poprawił poprawiła poprawiłam poprawiłem poprawiło poprawiły
+38	1238	katolicki	katoliccy katolicka katolickich katolickie katolickiego katolickiej katolickiemu katolickim katolickimi katolicko katolicku katolicką
+39	1239	dzieło	dziele dzieł dzieła dziełach dziełami dziełem dziełom dziełu
+40	1240	siedziba	siedzib siedzibach siedzibami siedzibie siedziby siedzibą siedzibę
+41	1241	wyrok	wyrokach wyrokami wyroki wyrokiem wyrokowi wyroku wyroków
+42	1242	akt	akcie aktach aktami aktem aktom aktowi aktu akty aktów
+43	1243	bezpieczny	bezpieczna bezpieczne bezpiecznego bezpiecznej bezpieczni bezpieczniejsi bezpieczniejsza bezpieczniejsze bezpieczniejszej bezpieczniejszy bezpieczniejszym bezpieczniejszą bezpiecznych bezpiecznym bezpiecznymi bezpieczną najbezpieczniejszy
+44	1244	zaoferować	oferowali oferowana oferowane oferowanego oferowanej oferowania oferowanie oferowano oferowany oferowanych oferowanym oferowaną oferować oferował oferowała oferowało oferowały oferuje oferujemy oferujesz oferują oferując oferująca oferujące oferującej oferujący oferujących oferującym oferującą oferuję zaoferowali zaoferowania zaoferowano zaoferował zaoferowała zaoferowało zaoferuje zaoferujemy zaoferują
+45	1245	sejm	sejmem sejmie sejmowa sejmowe sejmowego sejmowej sejmowi sejmowy sejmowych sejmowym sejmową sejmu sejmy
+46	1246	wystąpić	wystąpi wystąpienia wystąpieniach wystąpieniami wystąpienie wystąpieniem wystąpieniu wystąpień wystąpili wystąpimy wystąpią wystąpię wystąpił wystąpiła wystąpiłem wystąpiło wystąpiły
+47	1247	stąd	
+48	1248	wreszcie	
+49	1249	biedny	biedna biedne biednego biednej biednemu biedni biednie biedniejsi biedniejsza biedniejsze biedniejszej biedniejszy biedniejszych biedniejszym biednych biednym biednymi biedną najbiedniejsi najbiedniejsze najbiedniejszych najbiedniejszym
+50	1250	papier	papierach papierami papierek papierem papierka papierkami papierki papierkiem papierkowej papierku papierków papierowa papierowe papierowego papierowej papierowo papierowy papierowych papierowym papierowymi papierową papieru papiery papierze papierów
+51	1251	ministerstwo	ministerstw ministerstwa ministerstwach ministerstwem ministerstwie ministerstwu
+52	1252	wieczór	wieczora wieczorach wieczorami wieczorek wieczorka wieczorki wieczorkiem wieczorku wieczoru wieczory wieczorze wieczorów
+53	1253	niebo	nieb nieba niebem niebie niebu
+54	1254	odbywać	odbywa odbywają odbywając odbywająca odbywające odbywającego odbywającej odbywający odbywających odbywającym odbywającą odbywali odbywam odbywamy odbywania odbywanie odbywanych odbywał odbywała odbywało odbywały
+55	1255	prasa	pras prasie prasowa prasowe prasowego prasowej prasowy prasowych prasowym prasowymi prasową prasy prasą prasę
+56	1256	sprawiedliwość	sprawiedliwości sprawiedliwością
+57	1257	ogólny	ogólna ogólne ogólnego ogólnej ogólnemu ogólno ogólnych ogólnym ogólnymi ogólną
+58	1258	album	albumach albumami albumem albumie albumu albumy albumów
+59	1259	mistrzostwo	mistrzostw mistrzostwa mistrzostwach mistrzostwami mistrzostwem mistrzostwie mistrzostwom
+60	1260	spokój	spokojem spokoju
+61	1261	zniknąć	znika znikaj znikają znikając znikające znikający znikających znikali znikam znikamy znikania znikanie znikasz znikać znikał znikała znikało znikały zniknie znikniemy zniknij zniknięcia zniknięcie zniknięciem zniknięciu zniknięć znikną zniknął zniknąłby zniknę zniknęli zniknęła zniknęło zniknęły znikł znikła znikło znikły
+62	1262	ogień	ogni ognia ognie ogniem ognik ogniki ogniowa ogniowe ogniowego ogniowej ogniowi ogniowy ogniowych ogniowym ogniową ogniu
+63	1263	zakładać	zakłada zakładacie zakładaj zakładajcie zakładają zakładając zakładająca zakładające zakładającego zakładającej zakładający zakładających zakładającą zakładali zakładaliśmy zakładam zakładamy zakładana zakładane zakładanego zakładanej zakładania zakładanie zakładaniem zakładaniu zakładano zakładany zakładanych zakładasz zakładał zakładała zakładałam zakładałem zakładało zakładały
+64	1264	nienawidzić	nienawidzenia nienawidzi nienawidzicie nienawidzieć nienawidzili nienawidzimy nienawidzisz nienawidził nienawidziła nienawidziłam nienawidziłem nienawidziły nienawidzą nienawidząc nienawidzący nienawidzących nienawidzę nienawidź znienawidzić znienawidzony
+65	1265	spółka	ska spółce spółek spółkach spółkami spółki spółkom spółką spółkę spółę
+66	1266	impreza	impra imprez imprezach imprezami imprezie imprezka imprezkę imprezowa imprezowe imprezowy imprezowym imprezową imprezą imprezę impro
+67	1267	start	starcia starciach starciami starcie starciem starciu startach startami startem startowi startu starty startów starć
+68	1268	śmieszny	najśmieszniejszy śmieszna śmieszne śmiesznego śmiesznej śmieszni śmiesznie śmieszniej śmieszniejsze śmieszniejszy śmieszno śmiesznych śmiesznym śmiesznymi śmieszną
+69	1269	muzeum	muzea muzeach muzealna muzealne muzealnego muzealnej muzealny muzealnych muzealnym muzealną muzeami muzeów
+70	1270	społeczność	społeczności społecznościach społecznościami społecznościom społecznościowe społecznościowego społecznościowej społecznościowy społecznościowych społecznościowym społecznościowymi społecznościową społecznością
+71	1271	warta	warci warcie wart warte wartego wartej warty wartych wartym wartymi wartą wartę
+72	1272	zarobić	zarabia zarabiacie zarabiaj zarabiają zarabiając zarabiające zarabiający zarabiających zarabiającym zarabiali zarabiam zarabiamy zarabiania zarabianie zarabianiu zarabiasz zarabiać zarabiał zarabiała zarabiałem zarabiały zarobi zarobienia zarobienie zarobili zarobimy zarobione zarobiony zarobionych zarobisz zarobią zarobię zarobił zarobiła zarobiłam zarobiłem zarobiło zarobiły zarób
+73	1273	kurs	kursach kursami kursem kursie kursu kursy kursów
+74	1274	niewielki	niewielka niewielkich niewielkie niewielkiego niewielkiej niewielkim niewielkimi niewielką
+75	1275	czoło	czele czole czoła czołach czołem czołowa czołowe czołowego czołowej czołowi czołowo czołowy czołowych czołowym czołowymi czołową czółko
+76	1276	dodatkowo	
+77	1277	szczerze	
+78	1278	porównanie	porównania porównaniami porównaniem porównaniu porównań
+79	1279	strzelać	strzel strzela strzelaj strzelają strzelając strzelające strzelającego strzelający strzelających strzelali strzelaliście strzelam strzelamy strzelania strzelanie strzelaniem strzelaniu strzelano strzelasz strzelał strzelała strzelałam strzelałem strzelało strzelały strzeli strzelili strzeliliśmy strzelimy strzelić strzelił strzeliła strzeliłem strzeliłeś strzeliło strzelone strzelonych strzelą strzelę
+80	1280	uczynić	czyni czynicie czynienie czynieniu czynili czynimy czynione czynisz czynią czyniąc czyniący czynić czynię czynił czyniła czyniło czyniły czyń czyńcie uczyni uczynienia uczynienie uczynili uczyniliście uczyniliśmy uczynimy uczyniono uczynisz uczynią uczynię uczynił uczyniła uczyniłam uczyniłem uczyniło uczyniłoby uczyniły uczyń uczyńmy
+81	1281	konkretny	konkretna konkretne konkretnego konkretnej konkretnemu konkretni konkretniejsze konkretnych konkretnym konkretnymi konkretną
+82	1282	lot	locie lota lotach lotami lotem lotu loty lotów
+83	1283	istotny	istotna istotne istotnego istotnej istotnie istotniejsze istotniejszych istotnych istotnym istotnymi istotną najistotniejszy
+84	1284	indywidualny	indywidualna indywidualne indywidualnego indywidualnej indywidualni indywidualnie indywidualnych indywidualnym indywidualnymi indywidualną
+85	1285	zbierać	zbiera zbieracie zbieraj zbierajcie zbierają zbierając zbierająca zbierające zbierającego zbierającej zbierający zbierających zbierającym zbierającą zbierali zbieraliśmy zbieram zbieramy zbierana zbierane zbierania zbieranie zbieraniem zbieraniu zbierano zbierany zbieranych zbieranymi zbierasz zbierał zbierała zbierałam zbierałem zbierałeś zbierało zbierały
+86	1286	płakać	płacz płaczcie płacze płaczecie płaczem płaczemy płaczesz płaczu płaczą płacząc płacząca płaczące płaczącego płaczącej płaczący płaczących płaczącym płaczącą płaczę płakali płakania płakanie płakał płakała płakałam płakałaś płakałem płakałeś płakało płakały
+87	1287	pojechać	pojadą pojadę pojechali pojechaliśmy pojechania pojechanie pojechał pojechała pojechałabym pojechałam pojechałaś pojechałbym pojechałem pojechałeś pojechało pojechały pojechałyśmy pojedzie pojedziecie pojedziemy pojedziesz pojedź
+88	1288	metr	meter metra metrach metrami metrem metrowa metrowe metrowego metrowej metrowy metrowych metrowym metrową metru metry metryczne metryczny metrycznych metrycznym metrze metrów
+89	1289	wydział	wydziale wydziałach wydziałami wydziałem wydziałowej wydziałowi wydziału wydziały wydziałów
+90	1290	udawać	udaje udajecie udajemy udajesz udają udając udająca udające udającego udającej udający udających udającym udającą udaję udawaj udawajcie udawajmy udawali udawana udawane udawanej udawania udawanie udawaniem udawaniu udawany udawanym udawaną udawał udawała udawałam udawałaś udawałem udawałeś udawało udawały
+91	1291	wpłynąć	wpłynie wpłynięcia wpłynięcie wpłyną wpłynął wpłynęli wpłynęła wpłynęło wpłynęłoby wpłynęły wpływa wpływają wpływając wpływająca wpływające wpływający wpływali wpływamy wpływanie wpływać wpływał wpływała wpływało wpływały
+92	1292	zjeść	zjadł zjadła zjadłabym zjadłam zjadłaś zjadłby zjadłbym zjadłem zjadłeś zjadło zjadły zje zjecie zjedli zjedliście zjedliśmy zjedz zjedzcie zjedzeni zjedzenia zjedzenie zjedzmy zjedzona zjedzone zjedzony zjedzonych zjedzonym zjedzą zjem zjemy zjesz
+93	1293	sportowy	sportowa sportowe sportowego sportowej sportowemu sportowi sportowo sportowych sportowym sportowymi sportową
+94	1294	dodawać	dodaje dodajecie dodajemy dodajesz dodają dodając dodające dodającego dodaję dodawaj dodawali dodawana dodawane dodawania dodawanie dodawaniem dodawaniu dodawano dodawany dodawanych dodawał dodawała dodawałam dodawałem dodawało dodawały
+95	1295	spodziewać	spodziewa spodziewacie spodziewaj spodziewajcie spodziewają spodziewając spodziewali spodziewaliście spodziewaliśmy spodziewam spodziewamy spodziewano spodziewasz spodziewał spodziewała spodziewałabym spodziewałam spodziewałaś spodziewałbym spodziewałem spodziewałeś spodziewało
+96	1296	stolica	stolic stolicach stolicami stolice stolicy stolicą stolicę stołeczna stołeczne stołecznego stołecznej stołeczny stołecznych stołecznym stołeczną
+97	1297	jazda	jazd jazdach jazdy jazdą jazdę jeździe
+98	1298	zbiór	zbiorach zbiorami zbiorek zbiorem zbiorki zbiorowa zbiorowe zbiorowego zbiorowej zbiorowo zbiorowy zbiorowych zbiorowym zbiorową zbioru zbiory zbiorze zbiorów
+99	1299	demokracja	demokracjach demokracje demokracji demokracją demokrację
+100	1300	brama	bram bramach bramami bramce bramek bramie bramka bramkach bramkami bramki bramką bramkę bramy bramą bramę

@@ -1,0 +1,100 @@
+1	7201	młodzieniec	młodzieńca młodzieńcem młodzieńcowi młodzieńcu młodzieńcy młodzieńcze młodzieńców
+2	7202	rozpuścić	rozpuszcza rozpuszczają rozpuszczając rozpuszczania rozpuszczanie rozpuszczać rozpuszczenia rozpuszczenie rozpuszczeniu rozpuszczona rozpuszczone rozpuszczę rozpuści rozpuścił rozpuściła rozpuściło rozpuść
+3	7203	dziecinny	dziecinna dziecinne dziecinnego dziecinni dziecinnie dziecinnych dziecinnym dziecinną
+4	7204	argumentacja	argumentacje argumentacji argumentacją argumentację
+5	7205	rasista	rasistami rasistka rasistów rasistą rasistę rasiści
+6	7206	sort	sorcie sortem sortu sorty
+7	7207	nałóg	nałogami nałogi nałogiem nałogowi nałogu nałogów
+8	7208	pingwin	pingwina pingwinach pingwinek pingwinem pingwiny pingwinów
+9	7209	pukać	puka pukaj pukają pukając pukali pukam pukania pukanie pukasz pukał puknij puknąć puknął
+10	7210	bratanek	bratanica bratanicy bratanicą bratanicę bratanka bratanki bratankiem bratankowi bratankowie bratanków
+11	7211	rozmyślać	rozmyśla rozmyślając rozmyślam rozmyślania rozmyślanie rozmyślasz rozmyślał rozmyślałam rozmyślałem rozmyślań rozmyślił rozmyśliła rozmyśliłaś rozmyślę
+12	7212	zaniedbanie	zaniedbania zaniedbaniem zaniedbań
+13	7213	ułamek	ułamka ułamkach ułamkami ułamki ułamkiem ułamku ułamków
+14	7214	wzruszyć	wzrusza wzruszają wzruszając wzruszająca wzruszające wzruszam wzruszać wzruszeni wzruszona wzruszy wzruszył wzruszyła wzruszyłam wzruszyłem wzruszyło
+15	7215	dok	dokach doki doku doków
+16	7216	holender	holenderka holendra holendrami holendrem holendrom holendrze holendrzy holendrów
+17	7217	włazić	wlazł wlazła wlazłem wlazło wlazły wlezie wleźli wleźć włazi włazisz właź włażą
+18	7218	szaleniec	szaleńca szaleńcem szaleńcy szaleńcze szaleńców
+19	7219	zacny	zacna zacne zacnego zacnej zacni zacnie zacnych zacnym
+20	7220	przeklęty	przeklęci przeklęta przeklęte przeklętego przeklętej przeklętych przeklętym przeklętą
+21	7221	czasowo	
+22	7222	mentalnie	
+23	7223	niewydolność	niewydolności niewydolnością
+24	7224	wściekłość	wściekłości wściekłością
+25	7225	kwarantanna	kwarantannie kwarantanny kwarantanną kwarantannę
+26	7226	jagielloński	jagiellońska jagiellońskie jagiellońskiego jagiellońskiej jagiellońskim
+27	7227	krwawić	krwawi krwawienie krwawią krwawiąc krwawiące krwawiących krwawię krwawił
+28	7228	profilaktyka	profilaktyce profilaktyki profilaktykę
+29	7229	szach	szacha szachach szachami szachu szachów
+30	7230	margines	marginesach marginesem marginesu marginesy marginesów
+31	7231	arcydzieło	arcydzieł arcydzieła arcydziełem
+32	7232	wyć	wyj wyje wyjesz wyją wyjąc wyjące wył wyła wyłam wyłom wyłomu wyły zawył
+33	7233	rewanż	rewanżem rewanżu
+34	7234	pedofilia	pedofilie pedofilii pedofilią pedofilię
+35	7235	rekompensata	rekompensat rekompensaty rekompensatą rekompensatę
+36	7236	stróż	stróża stróżach stróżami stróże stróżem stróżu stróży stróżów
+37	7237	pościel	pościele pościeli pościelą
+38	7238	zalany	zalana zalane zalanego zalanej zalani zalanych zalanym zalaną
+39	7239	oz	ozem
+40	7240	arkusz	arkusza arkuszach arkusze arkuszem arkuszu arkuszy
+41	7241	wydajny	wydajna wydajne wydajnego wydajnej wydajni wydajnie wydajniej wydajniejsze wydajniejszy wydajnych wydajnym wydajną
+42	7242	kryminalista	kryminalistami kryminalisty kryminalistów kryminalistą kryminalistę kryminaliści
+43	7243	hamburger	hamburgera hamburgerem hamburgery hamburgerów
+44	7244	potyczka	potyczce potyczek potyczkach potyczki potyczkę
+45	7245	edytować	edytowane edytowania edytowanie edytowany edytował edytuj edytuje edytuję
+46	7246	bóstwo	bóstw bóstwa bóstwami bóstwem bóstwom
+47	7247	einstein	einsteina einsteinem
+48	7248	wymiotować	wymiotował wymiotowałam wymiotuje wymiotujesz wymiotują wymiotuję zwymiotować zwymiotował zwymiotowała zwymiotowałam zwymiotuje zwymiotujesz zwymiotuję
+49	7249	użyteczność	użyteczności
+50	7250	mrówka	mrówek mrówkami mrówki mrówką
+51	7251	atrakcyjność	atrakcyjności atrakcyjnością
+52	7252	niechciany	niechciana niechciane niechcianego niechcianej niechcianych niechcianym niechcianą
+53	7253	cerkiew	cerkwi cerkwie cerkwią
+54	7254	obcas	obcasa obcasach obcasami obcasem obcasie obcasy obcasów
+55	7255	hipokryta	hipokryci hipokrytami hipokrytka hipokrytką hipokryto hipokrytów hipokrytą
+56	7256	szczupły	szczuplejsza szczuplejszy szczupli szczuplutka szczupła szczupłe szczupłego szczupłych szczupłym szczupłą
+57	7257	żarówka	żarówek żarówki żarówką żarówkę
+58	7258	mer	mera merem meru mery
+59	7259	wytrwałość	wytrwałości wytrwałością
+60	7260	szkodnik	szkodnicy szkodnika szkodnikami szkodniki szkodnikiem szkodników
+61	7261	odstraszać	odstrasza odstraszają odstraszające odstraszający odstraszania odstraszanie odstraszenia odstraszy odstraszyć odstraszył
+62	7262	szyk	szyki szykiem szyku szyków
+63	7263	popadać	popada popadajmy popadają popadając popadali popadam popadamy popadania popadanie popadasz popadał popadało popadały
+64	7264	pokora	pokory pokorze pokorą pokorę
+65	7265	nieustanny	nieustanna nieustanne nieustannego nieustannej nieustannych nieustannym nieustanną
+66	7266	wkurzony	wkurzeni wkurzona wkurzone wkurzonych
+67	7267	upokorzyć	upokarza upokarzające upokarzającego upokarzający upokarzania upokarzany upokarzać upokorzeni upokorzona upokorzony upokorzył upokorzyłaś upokorzyłeś
+68	7268	sexy	seksi
+69	7269	pazur	pazurach pazurami pazurem pazurkami pazurki pazurków pazury pazurów
+70	7270	scenarzysta	scenarzystka scenarzysty scenarzystów scenarzystą scenarzystę scenarzyści
+71	7271	wejściowy	wejściowa wejściowe wejściowego wejściowej wejściowych wejściowym wejściowymi wejściową
+72	7272	empik	empikach empiku
+73	7273	bankier	bankiera bankierem bankierzy bankierów
+74	7274	rabin	rabina rabinem rabini rabinów
+75	7275	podyplomowy	podyplomowe podyplomowego podyplomowych podyplomowym
+76	7276	rękawica	rękawic rękawicach rękawice rękawicy rękawiczka rękawicą rękawicę
+77	7277	wspinaczka	wspinaczce wspinaczek wspinaczki wspinaczką wspinaczkę
+78	7278	poker	pokera pokerem pokerowa pokerze
+79	7279	rewelacja	rewelacjach rewelacjami rewelacje rewelacji rewelacją
+80	7280	egzekwować	egzekwowane egzekwowania egzekwowanie egzekwowaniem egzekwowaniu egzekwowany egzekwuje wyegzekwowania wyegzekwować
+81	7281	bokser	boksera bokserami bokserek bokserem bokserka bokserkach bokserzy bokserów
+82	7282	odbyt	odbycie odbytem odbytu odbyty
+83	7283	wadliwy	wadliwa wadliwe wadliwego wadliwej wadliwie wadliwych wadliwym wadliwą
+84	7284	bankructwo	bankructw bankructwa bankructwem bankructwie
+85	7285	niezdrowy	niezdrowa niezdrowe niezdrowego niezdrowej niezdrowych niezdrowym niezdrową
+86	7286	kodować	kodowana kodowane kodowania kodowanie kodowaniem kodowaniu kodowany kodowanych koduje kodują
+87	7287	spencer	spencera spencerem
+88	7288	realistyczny	realistyczna realistyczne realistycznego realistycznej realistycznych realistycznym realistyczną
+89	7289	bystry	bystra bystre bystrego bystrej bystrych bystrym bystrza bystrą
+90	7290	zrujnować	rujnowanie rujnować rujnuje rujnują zrujnowali zrujnowana zrujnowane zrujnowanie zrujnował zrujnowała zrujnowało zrujnowały zrujnuje zrujnuję
+91	7291	prawdziwość	prawdziwości
+92	7292	parówka	parowa parówa parówek parówkach parówkami parówki parówką parówkę parówy parówą porów
+93	7293	oblać	oblali oblana oblane oblanie oblany oblał oblała oblałam oblałaś oblałem oblej obleje oblejesz obleją obleję oblewa oblewają oblewając oblewamy oblewaniu oblewać
+94	7294	prać	pierz pierza pierze pierzemy piorą piorę prali prana prane prał prała prałam
+95	7295	uprzywilejowany	uprzywilejowana uprzywilejowane uprzywilejowanego uprzywilejowanej uprzywilejowani uprzywilejowanych uprzywilejowanym uprzywilejowaną
+96	7296	rozpoznawalny	rozpoznawalna rozpoznawalne rozpoznawalnego rozpoznawalnej rozpoznawalni rozpoznawalnych rozpoznawalnym rozpoznawalną
+97	7297	wieprzowina	wieprzowa wieprzowe wieprzowego wieprzowej wieprzowiny wieprzowiną wieprzowinę wieprzowy wieprzowych wieprzową
+98	7298	omega	omegi omegą omegę
+99	7299	antysemityzm	antysemityzmem antysemityzmie antysemityzmu
+100	7300	bingo	bing binga

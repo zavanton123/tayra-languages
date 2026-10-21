@@ -1,0 +1,100 @@
+1	601	sezon	sezonach sezonami sezonem sezonie sezonowa sezonowe sezonowego sezonowej sezonowi sezonowy sezonowych sezonowym sezonowymi sezonową sezonu sezony sezonów
+2	602	bezpieczeństwo	bezpieczeństwa bezpieczeństwem bezpieczeństwie bezpieczeństwu
+3	603	zdać	zda zdacie zdadzą zdaj zdaje zdajecie zdajemy zdajesz zdają zdając zdaję zdali zdaliśmy zdam zdamy zdana zdane zdani zdany zdasz zdawali zdawaliśmy zdawania zdawanie zdawać zdawał zdawała zdawałam zdawałem zdawało zdawałoby zdawały zdał zdała zdałam zdałaś zdałem zdało zdały
+4	604	grudzień	gru grudnia grudniem grudniowa grudniowe grudniowego grudniowej grudniowy grudniowych grudniowym grudniu
+5	605	dojść	dojdzie dojdziecie dojdziemy dojdziesz dojdą dojdę dojdź dojścia dojście dojściem dojściu doszedł doszedłem doszedłeś doszli doszliśmy doszła doszłam doszłaś doszło doszłoby doszły doszłyśmy
+6	606	luty	luci lucie lut luta lutego lutowa lutowe lutowej lutym
+7	607	pomiędzy	
+8	608	woli	wola wole wolej wolski wolą wolę
+9	609	osiągnąć	osiągnie osiągniecie osiągniemy osiągniesz osiągnięcia osiągnięciach osiągnięciami osiągnięcie osiągnięciem osiągnięciom osiągnięciu osiągnięta osiągnięte osiągniętego osiągniętej osiągnięto osiągnięty osiągniętych osiągniętym osiągnięć osiągną osiągnąwszy osiągnął osiągnąłem osiągnąłeś osiągnę osiągnęli osiągnęliście osiągnęliśmy osiągnęła osiągnęłam osiągnęło osiągnęły
+10	610	zbudować	budowali budowana budowane budowania budowanie budowaniem budowaniu budowano budowany budowanych budować budował buduje budujemy budujesz budują budując budujące budujących buduję zbudowali zbudowaliśmy zbudowana zbudowane zbudowanego zbudowanej zbudowania zbudowanie zbudowano zbudowany zbudowanych zbudowanym zbudował zbudowała zbuduj zbuduje zbudujemy zbudują zbuduję
+11	611	odbyć	odbycia odbycie odbyciu odbyli odbyliśmy odbyte odbytego odbytej odbyty odbytych odbytym odbył odbyła odbyłam odbyłem odbyło odbyły odbędzie odbędą
+12	612	zaprosić	zaprasza zapraszaj zapraszają zapraszając zapraszali zapraszam zapraszamy zapraszane zapraszani zapraszanie zapraszano zapraszany zapraszasz zapraszać zapraszał zapraszała zaprosi zaprosili zaprosiliśmy zaprosimy zaprosił zaprosiła zaprosiłam zaprosiłem zaprosiło zaprosiły zaproszeni zaproszona zaproszone zaproszono zaproszony zaproszonych zaproszonym zaproszonymi zaproszą zaproszę zaproś zaproście zaprośmy
+13	613	wychodzić	wychodzenia wychodzenie wychodzeniem wychodzeniu wychodzi wychodzicie wychodzili wychodziliśmy wychodzimy wychodzisz wychodził wychodziła wychodziłam wychodziłaś wychodziłem wychodziło wychodziły wychodziłyśmy wychodzą wychodząc wychodząca wychodzące wychodzącej wychodzący wychodzących wychodzącą wychodzę wychodź wychodźcie
+14	614	wchodzić	wchodzenia wchodzenie wchodzeniem wchodzeniu wchodzi wchodzicie wchodzili wchodziliśmy wchodzimy wchodzisz wchodził wchodziła wchodziłam wchodziłaś wchodziłem wchodziło wchodziły wchodzą wchodząc wchodząca wchodzące wchodzącej wchodzący wchodzących wchodzącą wchodzę wchodź wchodźcie wchodźmy
+15	615	koło	kol kola kole koles koli koła kołach kołami kołek kołem kołka kołkami kołki kołkiem kołku kołków kołu kół kółeczka kółeczko kółeczku kółek kółka kółkach kółkami kółkiem kółko kółku
+16	616	pokazywać	pokazuj pokazujcie pokazuje pokazujecie pokazujemy pokazujesz pokazują pokazując pokazująca pokazujące pokazującego pokazującej pokazujący pokazujących pokazującym pokazującymi pokazującą pokazuję pokazywali pokazywaliśmy pokazywana pokazywane pokazywania pokazywanie pokazywaniem pokazywaniu pokazywano pokazywany pokazywanych pokazywał pokazywała pokazywałam pokazywałaś pokazywałem pokazywałeś pokazywało pokazywały
+17	617	szef	szefa szefami szefem szefie szefom szefowa szefowej szefowi szefowie szefową szefów
+18	618	wspomnieć	wspomni wspomniana wspomniane wspomnianego wspomnianej wspomniani wspomniano wspomniany wspomnianych wspomnianym wspomnianymi wspomnianą wspomniał wspomniała wspomniałam wspomniałaś wspomniałem wspomniałeś wspomnicie wspomnieli wspomnieliśmy wspomnienia wspomnieniach wspomnieniami wspomnienie wspomnieniem wspomnieniom wspomnieniu wspomnień wspomnij wspomnijmy wspomnimy wspomnisz wspomną wspomnę
+19	619	umrzeć	umarli umarł umarła umarłam umarłby umarłem umarłeś umarło umarły umarłych umiera umieraj umierają umierając umierająca umierającego umierającej umierający umierających umierającym umierali umieram umieramy umierania umieranie umieraniu umierasz umierać umierał umierała umierało umierały umrze umrzecie umrzemy umrzesz umrzyj umrą umrę
+20	620	prawdopodobnie	najprawdopodobniej
+21	621	bliski	bliscy bliska bliskich bliskie bliskiego bliskiej bliskiemu bliskim bliskimi bliską bliżsi bliższa bliższe bliższej bliższy bliższych bliższym bliższą najbliższe najbliższej najbliższy najbliższych najbliższym najbliższą
+22	622	prywatny	prywatna prywatne prywatnego prywatnej prywatnemu prywatni prywatnie prywatnych prywatnym prywatnymi prywatną
+23	623	gdzieś	
+24	624	inaczej	
+25	625	ofiara	ofiar ofiarach ofiarami ofiarom ofiary ofiarą ofiarę ofierze
+26	626	dowód	dowodach dowodami dowodem dowodom dowodowe dowodowego dowodowej dowodowy dowodowych dowodowym dowodu dowody dowodzie dowodzik dowodów
+27	627	region	regionach regionami regionem regionie regionom regionowi regionu regiony regionów
+28	628	edukacja	edukacje edukacji edukacją edukację edukacyjna edukacyjne edukacyjnego edukacyjnej edukacyjno edukacyjny edukacyjnych edukacyjnym edukacyjnymi edukacyjną
+29	629	świetny	świetna świetne świetnego świetnej świetni świetnych świetnym świetnymi świetną
+30	630	gmina	gmin gminach gminami gminie gminom gminu gminy gminą gminę
+31	631	sprzedać	sprzeda sprzedadzą sprzedaj sprzedaje sprzedajemy sprzedajesz sprzedają sprzedając sprzedająca sprzedające sprzedający sprzedających sprzedaję sprzedali sprzedam sprzedana sprzedane sprzedania sprzedanie sprzedano sprzedany sprzedanych sprzedasz sprzedawali sprzedawana sprzedawane sprzedawania sprzedawanie sprzedawano sprzedawany sprzedawanych sprzedawać sprzedawał sprzedawała sprzedał sprzedała sprzedałem sprzedało sprzedały
+32	632	kontrola	kontrolach kontrole kontroli kontrolna kontrolne kontrolnego kontrolnej kontrolno kontrolny kontrolnych kontrolnym kontrolnymi kontrolną kontrolą kontrolę
+33	633	szkoda	szkodach szkodami szkodom szkody szkodzie szkodą szkodę szkód
+34	634	zdarzyć	zdarza zdarzają zdarzali zdarzać zdarzało zdarzały zdarzenia zdarzeniach zdarzeniami zdarzenie zdarzeniem zdarzeniom zdarzeniu zdarzeń zdarzy zdarzył zdarzyła zdarzyło zdarzyły zdarzą
+35	635	para	par parach parami parka parkach parkami parki parkę paro parom parowa parowe parowego parowej parowy parowych parowym parową paru pary parze parą por porach porami porem porze porów
+36	636	kwiecień	kwi kwietnia kwietniem kwietniowa kwietniowe kwietniowego kwietniowej kwietniowy kwietniowych kwietniowym kwietniu
+37	637	trwać	trwa trwaj trwają trwając trwająca trwające trwającego trwającej trwający trwających trwającym trwającymi trwającą trwali trwam trwamy trwania trwanie trwał trwałaby trwało trwałoby
+38	638	córka	cór córa córce córcia córeczka córek córkach córkami córki córko córkom córką córkę córy
+39	639	pomagać	pomaga pomagacie pomagaj pomagajcie pomagajmy pomagają pomagając pomagająca pomagające pomagającego pomagającej pomagający pomagających pomagającym pomagającą pomagali pomagaliśmy pomagam pomagamy pomagania pomaganie pomaganiem pomaganiu pomagasz pomagał pomagała pomagałam pomagałaś pomagałem pomagało pomagały
+40	640	seria	seriach seriami serie serii serią serię
+41	641	stwierdzić	stwierdza stwierdzają stwierdzając stwierdzające stwierdzający stwierdzających stwierdzam stwierdzamy stwierdzano stwierdzasz stwierdzać stwierdzał stwierdzenia stwierdzeniami stwierdzenie stwierdzeniem stwierdzeniu stwierdzeń stwierdzi stwierdzili stwierdziliśmy stwierdzimy stwierdzisz stwierdził stwierdziła stwierdziłam stwierdziłaś stwierdziłem stwierdziłeś stwierdziło stwierdziły stwierdzona stwierdzone stwierdzono stwierdzony stwierdzonych stwierdzoną stwierdzą stwierdzę
+42	642	stosunek	stosunkach stosunkami stosunki stosunkiem stosunkom stosunkowi stosunkowo stosunku stosunków
+43	643	atak	atakach atakami ataki atakiem atakom atakowi ataku ataków
+44	644	polityk	politycy polityczka politykach politykami politykiem politykom politykowi polityku polityków
+45	645	zawierać	zawarcie zawarciem zawiera zawierają zawierając zawierająca zawierające zawierającego zawierającej zawierający zawierających zawierającym zawierającymi zawierającą zawierali zawieram zawieramy zawierane zawierania zawieranie zawieraniu zawieranych zawierasz zawierał zawierała zawierało zawierały
+46	646	nauczyć	naucz naucza nauczają nauczając nauczali nauczana nauczane nauczanie nauczany nauczać nauczał nauczcie nauczeni nauczenia nauczenie nauczmy nauczona nauczone nauczono nauczony nauczy nauczycie nauczyli nauczyliście nauczyliśmy nauczymy nauczysz nauczył nauczyła nauczyłam nauczyłaś nauczyłby nauczyłem nauczyłeś nauczyło nauczyły nauczą nauczę
+47	647	urodzić	rodzenie rodzi rodzicie rodzima rodzime rodzimego rodzimej rodzimy rodzimych rodzimym rodzimą rodzisz rodzić rodziła rodziły rodzona rodzony rodzą rodzącej urodzeni urodzenia urodzenie urodzeniem urodzeniu urodzeń urodzi urodzili urodziliśmy urodził urodziła urodziłam urodziłaś urodziłem urodziłeś urodziło urodziły urodzona urodzone urodzę
+48	648	wysłać	wysłali wysłaliśmy wysłana wysłane wysłanego wysłanej wysłani wysłania wysłanie wysłaniem wysłaniu wysłano wysłany wysłanych wysłanym wysłanymi wysłaną wysłał wysłała wysłałam wysłałaś wysłałbym wysłałem wysłałeś wysłało wysłały wyściełane wyśle wyślecie wyślemy wyślesz wyślij wyślijcie wyślijmy wyślą wyślę
+49	649	mocno	mocniej najmocniej
+50	650	zależeć	zależał zależała zależało zależałoby zależały zależy zależą
+51	651	łatwo	najłatwiej łatwiej
+52	652	idealny	idealna idealne idealnego idealnej idealni idealnie idealnych idealnym idealnymi idealną
+53	653	starać	stara staracie staraj starajcie starajmy starają starając starające starającego starający starających starającym starali staraliście staraliśmy staram staramy starania staraniach staraniami staranie staraniem staraniom starano starasz starał starała starałam starałaś starałem starałeś starało starały starań
+54	654	budowa	budowach budowie budowy budową budowę budów
+55	655	wydarzenie	wydarzenia wydarzeniach wydarzeniami wydarzeniem wydarzeniom wydarzeniu wydarzeń
+56	656	wydać	wyda wydadzą wydaj wydajcie wydali wydaliście wydaliśmy wydam wydamy wydana wydane wydanego wydanej wydano wydany wydanych wydanym wydanymi wydasz wydał wydała wydałabym wydałam wydałaś wydałem wydałeś wydało wydały
+57	657	komisja	komisjach komisjami komisje komisji komisjom komisją komisję
+58	658	przekonać	przekona przekonacie przekonaj przekonajcie przekonajmy przekonają przekonali przekonaliście przekonaliśmy przekonam przekonamy przekonana przekonane przekonanego przekonani przekonania przekonaniach przekonaniami przekonanie przekonaniem przekonaniom przekonaniu przekonano przekonany przekonanych przekonanym przekonasz przekonał przekonała przekonałam przekonałaś przekonałem przekonałeś przekonało przekonały przekonań
+59	659	zwrócić	zwraca zwracaj zwracajcie zwracają zwracając zwracali zwracam zwracamy zwracania zwracanie zwracano zwracasz zwracać zwracał zwracała zwracałam zwracałem zwrócenia zwrócenie zwróceniu zwróci zwrócili zwróciliśmy zwrócimy zwrócił zwróciła zwróciłam zwróciłem zwróciło zwróciły zwrócona zwrócone zwrócono zwrócony zwrócą zwrócę zwróć zwróćcie zwróćmy
+60	660	zmieniać	zmienia zmieniacie zmieniaj zmieniajcie zmieniajmy zmieniają zmieniając zmieniająca zmieniające zmieniającego zmieniającej zmieniający zmieniających zmieniającym zmieniającymi zmieniającą zmieniali zmienialiśmy zmieniam zmieniamy zmieniana zmieniane zmieniania zmienianie zmienianiem zmienianiu zmieniano zmieniany zmieniasz zmieniał zmieniała zmieniałam zmieniałaś zmieniałem zmieniałeś zmieniało zmieniały
+61	661	mieszkanie	mieszkanek mieszkania mieszkaniach mieszkaniami mieszkaniem mieszkaniowa mieszkaniowe mieszkaniowego mieszkaniowej mieszkaniowo mieszkaniowy mieszkaniowych mieszkaniowym mieszkaniowymi mieszkaniową mieszkaniu mieszkanko mieszkanku mieszkań
+62	662	zauważyć	zauważ zauważa zauważają zauważając zauważam zauważamy zauważasz zauważać zauważał zauważcie zauważeni zauważenia zauważenie zauważeniu zauważmy zauważona zauważone zauważono zauważony zauważonym zauważy zauważycie zauważyli zauważyliście zauważyliśmy zauważymy zauważysz zauważył zauważyła zauważyłam zauważyłaś zauważyłby zauważyłem zauważyłeś zauważyło zauważyły zauważyłyście zauważą zauważę
+63	663	uczeń	uczennic uczennica uczennicami uczennice uczennicy uczennicą uczennicę ucznia uczniach uczniami uczniem uczniom uczniowi uczniowie uczniowska uczniowski uczniowskich uczniowskie uczniowskiego uczniowskiej uczniowskim uczniowską uczniu uczniów
+64	664	las	lasa lasach lasami lasek lasem lasom lassa lasu lasy lasów lesie leśna leśne leśnego leśnej leśni leśno leśny leśnych leśnym leśnymi leśną
+65	665	pozycja	pozycjach pozycjami pozycje pozycji pozycjom pozycją pozycję pozycyjna pozycyjne pozycyjny pozycyjnych pozycyjnym
+66	666	dostęp	dostępem dostępie dostępowi dostępu
+67	667	rozmawiać	rozmawia rozmawiacie rozmawiaj rozmawiajcie rozmawiajmy rozmawiają rozmawiając rozmawiający rozmawiających rozmawiającą rozmawiali rozmawialiście rozmawialiśmy rozmawiam rozmawiamy rozmawiania rozmawianie rozmawiano rozmawiasz rozmawiał rozmawiała rozmawiałam rozmawiałaś rozmawiałem rozmawiałeś rozmawiało rozmawiały rozmawiałyśmy rozmów
+68	668	przeczytać	czytuje czytuję przeczyta przeczytacie przeczytaj przeczytajcie przeczytajmy przeczytają przeczytali przeczytaliście przeczytaliśmy przeczytam przeczytamy przeczytana przeczytane przeczytania przeczytanie przeczytaniem przeczytaniu przeczytany przeczytanych przeczytasz przeczytawszy przeczytał przeczytała przeczytałabym przeczytałam przeczytałaś przeczytałem przeczytałeś przeczytało przeczytały
+69	669	trudno	najtrudniej trudniej
+70	670	oddać	odda oddacie oddadzą oddaj oddajcie oddajmy oddali oddaliby oddaliśmy oddam oddamy oddana oddane oddanego oddanej oddani oddania oddanie oddaniem oddaniu oddano oddany oddanych oddanym oddanymi oddaną oddasz oddał oddała oddałaby oddałabym oddałam oddałaś oddałby oddałbym oddałem oddałeś oddało oddały
+71	671	gość	gości gościa gościach goście gościem gościom gościowi gościu gośćmi
+72	672	super	
+73	673	szpital	szpitala szpitalach szpitalami szpitale szpitalem szpitali szpitalna szpitalne szpitalnego szpitalnej szpitalny szpitalnych szpitalnym szpitalną szpitalom szpitalowi szpitalu
+74	674	stracić	straceni stracenia stracenie straceń straci stracicie stracili straciliby stracilibyśmy straciliście straciliśmy stracimy stracisz straciwszy stracił straciła straciłaby straciłam straciłaś straciłby straciłbym straciłem straciłeś straciło straciłoby straciły straciłyby straciłyśmy stracona stracone straconego straconej stracono stracony straconych straconym straconą stracą stracę
+75	675	moc	mocach mocami moce mocom mocy mocą
+76	676	przyszłość	przyszłości przyszłościowe przyszłościowo przyszłościowy przyszłością
+77	677	światowy	światowa światowe światowego światowej światowi światowo światowych światowym światowymi światową
+78	678	latać	latają latająca latające latającego latający latających latającym latali latam latanie lataniu latasz latał latała latały leci leciał leciała leciało leciały lecieli lecieć lecimy lecisz lecą lecąc lecący lecących lecę leć poleci poleciał poleciała poleciało poleciały polecieli polecieć polecą polecę
+79	679	kolej	kolei kolejach kolejami koleje kolejowa kolejowe kolejowego kolejowej kolejowo kolejowy kolejowych kolejowym kolejowymi kolejową koleją
+80	680	słońce	słonce słoneczka słoneczkiem słoneczko słoneczku słoneczna słoneczne słonecznego słonecznej słonecznie słoneczny słonecznych słonecznym słonecznymi słoneczną słonka słonko słońc słońca słońcem słońcu
+81	681	kilometr	kilometra kilometrach kilometrami kilometrowa kilometrowego kilometrowej kilometrowy kilometrowym kilometrową kilometry kilometrze kilometrów km
+82	682	określić	określ określa określają określając określająca określające określającego określający określających określającą określam określamy określana określane określanej określani określania określanie określaniu określano określany określanych określać określał określi określili określił określiła określiły określona określone określonego określonej określono określony określonych określonym określonymi określoną
+83	683	wspaniały	najwspanialszy wspaniale wspanialej wspaniali wspanialsze wspaniała wspaniałe wspaniałego wspaniałej wspaniałemu wspaniałych wspaniałym wspaniałymi wspaniałą
+84	684	listopad	listopada listopadem listopadowa listopadowe listopadowego listopadowej listopadowy listopadowych listopadowym listopadową listopadzie
+85	685	sierpień	sierpnia sierpniem sierpniowa sierpniowe sierpniowego sierpniowej sierpniowy sierpniowych sierpniowym sierpniu
+86	686	lewa	lew lewe lewego lewej lewemu lewi lewo lewy lewych lewym lewymi lewą lwa lwach lwami lwem lwica lwice lwicy lwie lwom lwu lwy lwów
+87	687	złożyć	złożenia złożenie złożeniem złożeniu złożona złożone złożonego złożonej złożono złożony złożonych złożonym złożonymi złożoną złoży złożyli złożyliśmy złożymy złożysz złożył złożyła złożyłam złożyłem złożyłeś złożyło złożyły złożą złożę złóż złóżcie
+88	688	silny	najsilniej najsilniejszy silna silne silnego silnej silnemu silni silnie silniej silniejsi silniejsza silniejsze silniejszej silniejszy silniejszych silniejszym silniejszymi silniejszą silnych silnym silnymi silną
+89	689	jednocześnie	
+90	690	widać	
+91	691	stosować	stosowali stosowaliśmy stosowana stosowane stosowanego stosowanej stosowania stosowanie stosowaniem stosowaniu stosowano stosowany stosowanych stosowanym stosowanymi stosowaną stosował stosowała stosowałaś stosowałem stosowało stosowały stosuj stosuje stosujecie stosujemy stosujesz stosują stosując stosujące stosujący stosujących stosującym stosuję
+92	692	wracać	wraca wracacie wracaj wracajcie wracajmy wracają wracając wracające wracającego wracający wracających wracali wracaliśmy wracam wracamy wracania wracanie wracasz wracał wracała wracałam wracałaś wracałem wracało wracały wracałyśmy
+93	693	jednostka	jednostce jednostek jednostkach jednostkami jednostki jednostkom jednostkowa jednostkowe jednostkowego jednostkowej jednostkowo jednostkowy jednostkowych jednostkowym jednostkową jednostką jednostkę
+94	694	pić	picia picie piciem piciu pij pija pijam pijcie pije pijemy pijesz piją pijąc piję pile pili piliśmy pit pita pity pił piła piłam piłaś piłem piłeś piły piłą wypicie wypiciu wypij wypije wypijmy wypiję wypić wypił wypiła wypiłam wypiłem
+95	695	przepraszać	przeprasza przepraszaj przepraszają przepraszając przepraszali przepraszam przepraszamy przepraszania przepraszanie przepraszasz przepraszał przepraszała przepraszałam
+96	696	lokalny	lokalna lokalne lokalnego lokalnej lokalnemu lokalni lokalnie lokalnych lokalnym lokalnymi lokalną
+97	697	sukces	sukcesach sukcesami sukcesem sukcesie sukcesom sukcesowi sukcesu sukcesy sukcesów
+98	698	zdobyć	zdobycia zdobycie zdobyli zdobyliście zdobyliśmy zdobyta zdobyte zdobytego zdobytej zdobyto zdobyty zdobytych zdobytym zdobytymi zdobytą zdobywszy zdobył zdobyła zdobyłam zdobyłby zdobyłem zdobyłeś zdobyło zdobyły zdobądź zdobądźmy zdobędzie zdobędziecie zdobędziemy zdobędziesz zdobędą zdobędę
+99	699	oprzeć	oparcia oparcie oparciem oparciu oparli oparta oparte opartego opartej oparto oparty opartych opartym opartymi oparł oparła oparłam oparłem opiera opierają opierając opierająca opierające opierającego opierający opierających opierali opieram opieramy opierania opieranie opierasz opierać opierał opierała opierało opierały oprze oprzyj
+100	700	zachodni	zachodnia zachodnich zachodnie zachodniego zachodniej zachodniemu zachodnim zachodnimi zachodnio zachodnią

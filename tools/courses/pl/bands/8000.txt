@@ -1,0 +1,100 @@
+1	7901	polskość	polskości polskością
+2	7902	łup	łupami łupem łupu łupy łupów
+3	7903	mityczny	mityczna mityczne mitycznego mitycznej mityczni mitycznych mitycznym mityczną
+4	7904	hodowlany	hodowlana hodowlane hodowlanego hodowlanej hodowlanych hodowlanym hodowlaną
+5	7905	odstąpić	odstąpi odstąpienia odstąpienie odstąpieniu odstąpili odstąpiono odstąpię odstąpił odstąpiła odstępuje odstępują odstępując
+6	7906	wymysł	wymysłem wymysły wymysłów wymyśle
+7	7907	ostać	ostania ostanie ostał ostała ostało ostały ostoi ostoją ostoję
+8	7908	precyzja	precyzji precyzją precyzję
+9	7909	karuzela	karuzele karuzeli karuzelą karuzelę
+10	7910	ceramiczny	ceramiczna ceramiczne ceramicznego ceramicznej ceramicznych ceramicznym ceramicznymi ceramiczną
+11	7911	bel	bela bele beli belo belę
+12	7912	oświecić	oświeca oświeceni oświeci oświecił oświecona oświecone oświeconego oświeconej oświecony oświeconych oświeconym oświeconą oświeć
+13	7913	synteza	syntez syntezie syntezy syntezą syntezę
+14	7914	imigracyjny	imigracyjna imigracyjne imigracyjnego imigracyjnej imigracyjnych imigracyjnym imigracyjną
+15	7915	zaadresować	adresowana adresowane adresowania adresowanie adresowany adresowanych adresować adresuje zaadresowana zaadresowane zaadresowany
+16	7916	domniemany	domniemana domniemane domniemanego domniemanej domniemanych domniemanym domniemanymi domniemaną
+17	7917	marudzić	marudzenia marudzenie marudzi marudzisz marudził marudziła marudzą marudzę marudź
+18	7918	wieniec	wieńca wieńcami wieńce wieńcem wieńcu wieńców
+19	7919	bastion	bastionem bastionie bastionu bastiony bastionów
+20	7920	dziwaczny	dziwaczna dziwaczne dziwacznego dziwacznej dziwacznie dziwacznych dziwacznym dziwacznymi dziwaczną
+21	7921	konsensus	konsensusie konsensusu
+22	7922	tatrzański	tatrzańska tatrzańskich tatrzańskie tatrzańskiego tatrzańskiej tatrzańskim tatrzańską
+23	7923	przecinek	przecinka przecinkami przecinki przecinkiem przecinku przecinków
+24	7924	libański	libańscy libańska libańskich libańskie libańskiego libańskiej
+25	7925	skalny	skalna skalne skalnego skalnej skalnych skalnym skalnymi skalną
+26	7926	popaść	popadli popadł popadła popadło popadły
+27	7927	rozpisywać	rozpisane rozpisania rozpisanie rozpisano rozpisany rozpisać rozpisał rozpisała rozpisałam rozpisałem rozpisuje rozpisując rozpisywał rozpisywały rozpisze
+28	7928	znalezisko	znalezisk znaleziska znaleziskami znaleziskiem znalezisku
+29	7929	sąsiadować	sąsiaduje sąsiadują sąsiadująca sąsiadujące sąsiadujący sąsiadujących
+30	7930	krawat	krawacie krawata krawatami krawatem krawaty krawatów
+31	7931	śmiertelność	śmiertelności śmiertelnością
+32	7932	skuter	skutera skuterach skuterem skutery skuterze skuterów
+33	7933	trzeźwy	trzeźwa trzeźwe trzeźwego trzeźwi trzeźwych trzeźwym trzeźwą
+34	7934	tlenek	tlenki tlenkiem tlenku tlenków
+35	7935	piżama	pidżama pidżamie pidżamy pidżamę piżamach piżamie piżamka piżamki piżamy piżamę
+36	7936	konspiracyjny	konspiracyjna konspiracyjne konspiracyjnego konspiracyjnej konspiracyjnych konspiracyjnym konspiracyjną
+37	7937	ogrodnik	ogrodnicy ogrodnika ogrodnikiem ogrodników
+38	7938	dziedziniec	dziedzińca dziedzińce dziedzińcem dziedzińcu dziedzińców
+39	7939	wytykać	wytknie wytknięcie wytknąć wytknął wytyka wytykają wytykając wytykam wytykania wytykanie wytykał
+40	7940	narożnik	narożnika narożnikach narożnikami narożniki narożnikiem narożniku narożników
+41	7941	toksyna	toksyn toksynami toksyny toksyną toksynę
+42	7942	lwowski	lwowska lwowskich lwowskie lwowskiego lwowskiej lwowskim lwowską
+43	7943	bielsku	
+44	7944	lex	
+45	7945	nieoficjalnie	
+46	7946	pojutrze	
+47	7947	racjonalnie	
+48	7948	styczność	styczności
+49	7949	zużyty	zużyta zużyte zużytego zużytej zużytych zużytym zużytą
+50	7950	sparaliżować	paraliżować paraliżuje paraliżując sparaliżowana sparaliżowane sparaliżowanego sparaliżowani sparaliżowany sparaliżowanych sparaliżowaną sparaliżował sparaliżowało sparaliżuje
+51	7951	niczyj	niczyich niczyim niczyja niczyje niczyjego niczyjej niczyją
+52	7952	bogacz	bogacza bogaczami bogacze bogaczem bogaczom bogaczy
+53	7953	bocian	bociana bocianem bocianie bociany bocianów
+54	7954	luby	luba lube lubi lubo lubą
+55	7955	akapit	akapicie akapitach akapitem akapitu akapity akapitów
+56	7956	kotwica	kotwice kotwicy kotwicą kotwicę
+57	7957	posesja	posesjach posesje posesji posesję
+58	7958	zakonny	zakonna zakonne zakonnego zakonnej zakonni zakonnych zakonnym zakonną
+59	7959	epicki	epicka epickich epickie epickiego epickiej epickim epicko epicką
+60	7960	archipelag	archipelagu
+61	7961	nalegać	nalega nalegają nalegając nalegali nalegam nalegamy nalegał nalegała nalegań
+62	7962	szczęściarz	szczęściara szczęściarzami szczęściarze szczęściarzem szczęściarzu szczęściarą
+63	7963	kontynentalny	kontynentalne kontynentalnego kontynentalnej kontynentalnych kontynentalnym kontynentalną
+64	7964	antypolski	antypolska antypolskich antypolskie antypolskiego antypolskiej antypolskim antypolską
+65	7965	peruwiański	peruwiańscy peruwiańska peruwiańskich peruwiańskie peruwiańskiego peruwiańskiej peruwiańskim
+66	7966	siano	siana sianem sianie
+67	7967	glosować	glosowali glosowania glosowanie glosowaniem glosowaniu glosuj glosujcie glosuje glosujesz
+68	7968	satyryczny	satyryczna satyryczne satyrycznego satyrycznej satyrycznych satyrycznym
+69	7969	zmiażdżyć	miażdży miażdżysz miażdżyć miażdżą miażdżąc miażdżąca miażdżące miażdżącej miażdżący miażdżącą zmiażdżenia zmiażdżona zmiażdżone zmiażdżony zmiażdży zmiażdżył
+70	7970	pocić	pocenia pocenie poci pocisz pocą pocę spoceni spoci spocić spociłam spocona spocone
+71	7971	kielich	kielicha kielichem kielichu kielichy kielichów
+72	7972	fasada	fasad fasadach fasadowa fasadowej fasadowy fasady fasadzie fasadą fasadę
+73	7973	przewrót	przewrocie przewrotem przewrotu przewroty przewrotów
+74	7974	zemleć	miel miele mielenia mielenie mielić mielona mielone mielonego mielonej mielony mielonych mielonym mielą zmiel zmielić zmielone zmielonej zmielony
+75	7975	nacja	nacje nacji nacją nację
+76	7976	pochód	pochodach pochodu pochody pochodzie pochodów
+77	7977	zboczeniec	zboczeńca zboczeńcami zboczeńcem zboczeńcu zboczeńcy zboczeńców
+78	7978	złożoność	złożoności złożonością
+79	7979	niedobry	niedobra niedobre niedobrego niedobrych niedobrym niedobrą
+80	7980	wyjawić	wyjawi wyjawia wyjawiając wyjawienia wyjawienie wyjawił wyjawiła
+81	7981	step	stepach stepie stepu stepy stepów
+82	7982	doping	dopingiem dopingu
+83	7983	renesans	renesansem renesansie renesansu
+84	7984	ulokować	lokowane lokowania lokowanie lokować lokuje lokują lokując ulokowali ulokowana ulokowane ulokowanego ulokowanej ulokowania ulokowanie ulokowano ulokowany ulokowanych ulokował ulokowała
+85	7985	doradztwo	doradztwa doradztwem doradztwie
+86	7986	okrzyk	okrzykami okrzyki okrzykiem okrzyku okrzyków
+87	7987	prochy	prochach prochami prochów
+88	7988	uparty	uparci uparta uparte upartego upartych upartym upartą
+89	7989	nieobecny	nieobecna nieobecne nieobecnego nieobecnej nieobecni nieobecnych nieobecnym
+90	7990	ósemka	ósemce ósemek ósemki ósemką ósemkę
+91	7991	drganie	drgania drganiami drgań
+92	7992	dziewictwo	dziewictwa
+93	7993	mada	mad mado mady
+94	7994	heroina	heroiny heroiną heroinę
+95	7995	żużel	żużla żużlowe żużlowego żużlowej żużlowy żużlowych żużlowym żużlu
+96	7996	syrop	syropem syropie syropu syropy
+97	7997	wiedźma	widma wiedźm wiedźmie wiedźmo wiedźmy wiedźmą wiedźmę wydm wydmach wydmami wydmie wydmy
+98	7998	koordynować	koordynowana koordynowane koordynowania koordynowanie koordynowany koordynował koordynowała koordynuje koordynująca koordynującej koordynujący skoordynowana skoordynowane skoordynowanego skoordynowany skoordynowanych skoordynować
+99	7999	festyn	festynach festynie festynu festyny festynów
+100	8000	walijski	walijscy walijska walijskich walijskie walijskiego walijskiej walijskim walijsku

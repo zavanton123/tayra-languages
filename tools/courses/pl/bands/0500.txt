@@ -1,0 +1,100 @@
+1	401	polak	polacy polaka polakach polakami polaki polakiem polakom polakowi polaku polaków polce polek polka polkach polki polko polkom polką polkę
+2	402	pracownik	pracownic pracownica pracownice pracownicy pracownicza pracownicze pracowniczego pracowniczej pracowniczka pracowniczy pracowniczych pracowniczym pracowniczymi pracowniczą pracownicą pracownicę pracownika pracownikach pracownikami pracownikiem pracownikom pracownikowi pracowniku pracowników
+3	403	decyzja	decyzjach decyzjami decyzje decyzji decyzjom decyzją decyzję decyzyjny decyzyjnych
+4	404	ciało	ciał ciała ciałach ciałami ciałek ciałem ciałka ciałko ciałom ciału ciele cielesna cielesne cielesnego cielesnej cielesny cielesnych cielesnym cielesną cielsko
+5	405	skończyć	skończ skończcie skończeni skończenia skończenie skończeniem skończeniu skończmy skończona skończone skończonego skończonej skończony skończonych skończonym skończonymi skończoną skończy skończycie skończyli skończyliście skończyliśmy skończymy skończysz skończywszy skończył skończyła skończyłaby skończyłam skończyłaś skończyłby skończyłem skończyłeś skończyło skończyłoby skończyły skończyłyśmy skończą skończę
+6	406	centrum	centr centra centrach centrami centro centrów
+7	407	wrócić	wróci wrócicie wrócili wróciliście wróciliśmy wrócimy wrócisz wróciwszy wrócił wróciła wróciłabym wróciłam wróciłaś wróciłbym wróciłem wróciłeś wróciło wróciły wróciłyśmy wrócą wrócę wróć wróćcie wróćmy
+8	408	forma	foremki foremne foremny form formach formami formie formom formy formą formę
+9	409	dość	doś
+10	410	pozostać	pozostali pozostaliśmy pozostania pozostanie pozostaniem pozostaniemy pozostaniesz pozostaniu pozostaną pozostanę pozostał pozostała pozostałby pozostałe pozostałego pozostałej pozostałem pozostało pozostałoby pozostały pozostałyby pozostałych pozostałym pozostałymi pozostałą pozostań pozostańcie pozostańmy
+11	411	grać	gracie graj grajcie grają grając grająca grające grającego grającej grający grających grającym grającą grali graliście graliśmy gram grama gramy gramów grana grane granej grani grania granie graniem graniu grany grasz grał grała grałam grałaś grałem grałeś grało grały grywał
+12	412	oznaczać	oznacza oznaczają oznaczając oznaczająca oznaczające oznaczającego oznaczającej oznaczający oznaczających oznaczającym oznaczającą oznaczam oznaczamy oznaczana oznaczane oznaczania oznaczanie oznaczaniu oznaczany oznaczał oznaczała oznaczałaby oznaczałby oznaczało oznaczałoby oznaczały
+13	413	wersja	wersjach wersjami wersje wersji wersją wersję
+14	414	stanowić	stanowi stanowienia stanowienie stanowili stanowimy stanowione stanowionego stanowią stanowiąc stanowiąca stanowiące stanowiącego stanowiącej stanowiący stanowiących stanowiącym stanowiącymi stanowiącą stanowię stanowił stanowiła stanowiłby stanowiło stanowiłoby stanowiły stanów
+15	415	związać	związali związana związane związanego związanej związanemu związani związania związanie związaniu związano związanych związanym związanymi związaną związał związała związałam związało związały związuje zwiąż zwiąże zwiążesz zwiążę
+16	416	przejść	przejdzie przejdziecie przejdziemy przejdziesz przejdą przejdę przejdź przejdźmy przejścia przejściach przejściami przejście przejściem przejściu przeszedł przeszedłby przeszedłem przeszedłeś przeszli przeszliście przeszliśmy przeszła przeszłaby przeszłam przeszłaś przeszłe przeszłego przeszło przeszłoby przeszły przeszłych przeszłym przeszłyśmy
+17	417	myśl	myślach myślami myśle myśli myślom myślowe myślowego myślowy myślowych myślowym myślą
+18	418	długo	dugo dłużej najdłużej
+19	419	słyszeć	słysz słyszana słyszane słyszano słyszany słyszał słyszała słyszałam słyszałaś słyszałem słyszałeś słyszało słyszały słyszałyście słyszeli słyszeliście słyszeliśmy słyszenia słyszenie słyszy słyszycie słyszymy słyszysz słyszą słysząc słyszących słyszę
+20	420	miłość	miłosna miłosne miłosnego miłosnej miłosny miłosnych miłosnym miłosnymi miłosną miłości miłościach miłością
+21	421	rozpocząć	rozpocznie rozpoczniemy rozpoczniesz rozpocznij rozpocznijmy rozpoczną rozpocznę rozpoczął rozpocząłem rozpoczęcia rozpoczęcie rozpoczęciem rozpoczęciu rozpoczęli rozpoczęliśmy rozpoczęta rozpoczęte rozpoczętego rozpoczętej rozpoczęto rozpoczęty rozpoczętych rozpoczętym rozpoczętą rozpoczęła rozpoczęłam rozpoczęło rozpoczęły
+22	422	wojsko	wojsk wojska wojskach wojskami wojskiem wojskom wojskowa wojskowe wojskowego wojskowej wojskowemu wojskowi wojskowo wojskowy wojskowych wojskowym wojskowymi wojskową wojsku
+23	423	liczyć	licz liczcie liczenia liczenie liczeniem liczeniu liczmy liczona liczone liczono liczony liczonych liczy liczycie liczyli liczyliśmy liczymy liczysz liczył liczyła liczyłam liczyłaś liczyłbym liczyłem liczyłeś liczyło liczyły liczą licząc licząca liczące liczącego liczącej liczący liczących liczącym liczącymi liczącą liczę
+24	424	gospodarka	gospodarce gospodarcza gospodarcze gospodarczego gospodarczej gospodarczemu gospodarczo gospodarczy gospodarczych gospodarczym gospodarczymi gospodarczą gospodarek gospodarkach gospodarki gospodarką gospodarkę
+25	425	podobny	podobna podobne podobnego podobnej podobni podobnych podobnym podobnymi podobną
+26	426	stworzyć	stworzeni stworzenia stworzeniami stworzenie stworzeniem stworzeniu stworzeń stworzona stworzone stworzonego stworzonej stworzonka stworzonko stworzono stworzony stworzonych stworzonym stworzonymi stworzoną stworzy stworzycie stworzyli stworzyliście stworzyliśmy stworzymy stworzysz stworzył stworzyła stworzyłam stworzyłaś stworzyłem stworzyłeś stworzyło stworzyły stworzą stworzę stwórz stwórzcie stwórzmy
+27	427	zrozumieć	zrozum zrozumcie zrozumiale zrozumiana zrozumiane zrozumiano zrozumiany zrozumiał zrozumiała zrozumiałam zrozumiałaś zrozumiałby zrozumiałbym zrozumiałe zrozumiałem zrozumiałeś zrozumiało zrozumiały zrozumiałych zrozumiałym zrozumiałą zrozumie zrozumiecie zrozumieją zrozumieli zrozumieliście zrozumieliśmy zrozumiem zrozumiemy zrozumienia zrozumienie zrozumieniem zrozumieniu zrozumiesz
+28	428	ochrona	ochron ochronie ochrony ochroną ochronę
+29	429	poznać	pozna poznacie poznaj poznajcie poznajmy poznają poznali poznaliście poznaliśmy poznam poznamy poznana poznane poznanego poznanej poznani poznania poznanie poznaniem poznaniu poznano poznany poznanych poznanym poznanymi poznasz poznawszy poznał poznała poznałabym poznałam poznałaś poznałby poznałbym poznałem poznałeś poznało poznały poznałyśmy
+30	430	chociaż	
+31	431	trzymać	trzyma trzymacie trzymaj trzymajcie trzymajmy trzymają trzymając trzymająca trzymające trzymającego trzymającej trzymający trzymających trzymającym trzymającą trzymali trzymaliśmy trzymam trzymamy trzymana trzymane trzymanego trzymani trzymania trzymanie trzymaniem trzymaniu trzymano trzymany trzymanych trzymasz trzymał trzymała trzymałam trzymałaś trzymałby trzymałem trzymało trzymały
+32	432	choć	choc coć
+33	433	nazywać	nazywa nazywacie nazywaj nazywajcie nazywajmy nazywają nazywając nazywająca nazywające nazywającego nazywający nazywających nazywali nazywaliśmy nazywam nazywamy nazywana nazywane nazywanego nazywanej nazywani nazywania nazywanie nazywaniem nazywaniu nazywano nazywany nazywanych nazywanym nazywanymi nazywaną nazywasz nazywał nazywała nazywałam nazywałby nazywałem nazywało nazywały
+34	434	pokazać	pokazali pokazaliście pokazaliśmy pokazana pokazane pokazanej pokazani pokazania pokazanie pokazaniem pokazaniu pokazano pokazany pokazanych pokazał pokazała pokazałam pokazałaś pokazałbym pokazałem pokazałeś pokazało pokazały pokaż pokażcie pokaże pokażemy pokażesz pokażmy pokażą pokażę
+35	435	muzyka	muz muza muzy muzyce muzyczka muzyki muzyką muzykę muzą muzę
+36	436	dziać	działam działem działy dziej dziejach dziejami dzieje dziejom dziejów dzieją dziejące dziejących dzieję
+37	437	oba	obaj obie obiema oboje obojga obojgiem obojgu oboma obu
+38	438	ogół	ogóle ogółem ogółowi ogółu
+39	439	internetowy	internetowa internetowe internetowego internetowej internetowi internetowo internetowych internetowym internetowymi internetową
+40	440	uczyć	ucz uczcie uczeni uczenia uczenie uczeniem uczeniu uczmy uczona uczone uczonego uczono uczony uczonych uczonym uczonymi uczy uczycie uczyli uczyliśmy uczymy uczysz uczył uczyła uczyłam uczyłaś uczyłem uczyłeś uczyło uczyły uczą ucząc ucząca uczące uczącego uczącej uczący uczących uczę
+41	441	minister	ministra ministrami ministrem ministrom ministrowi ministrowie ministry ministrze ministrów
+42	442	niestety	
+43	443	szansa	szans szansach szansami szanse szansie szansy szansą szansę
+44	444	odpowiedź	odpowiedzi odpowiedziach odpowiedziami odpowiedzią
+45	445	okazja	okazjach okazje okazji okazją okazję
+46	446	siedzieć	siedzenia siedzeniach siedzeniami siedzenie siedzeniem siedzeniu siedzeń siedzi siedział siedziała siedziałabym siedziałam siedziałaś siedziałby siedziałem siedziałeś siedziało siedziały siedziałyśmy siedzicie siedzieli siedzieliśmy siedzimy siedzisz siedzą siedząc siedząca siedzące siedzącego siedzącej siedząco siedzący siedzących siedzącym siedzącymi siedzącą siedzę siedź siedźcie
+47	447	komentarz	komentarza komentarzach komentarzami komentarze komentarzem komentarzom komentarzowi komentarzu komentarzy
+48	448	zaraz	zara
+49	449	znany	znana znane znanego znanej znanemu znani znanych znanym znanymi znaną
+50	450	lekarz	lekarka lekarska lekarski lekarskich lekarskie lekarskiego lekarskiej lekarskim lekarskimi lekarsko lekarską lekarza lekarzach lekarzami lekarze lekarzem lekarzom lekarzowi lekarzu lekarzy
+51	451	cena	cen cenach cenami cenie cenom ceny ceną cenę cyna cynowy cyny cynę
+52	452	syn	syna synach synami synek synem synka synkiem synkowi synku synom synowi synowie synu synuś syny synów
+53	453	postać	postaci postaciach postaciami postacie postaciom postacią postoi postoje postojem postoju postojów postoję postój
+54	454	rola	rolach rolami rolce role rolek roli rolka rolkach rolki rolkę rolo rolą rolę ról
+55	455	budynek	budynkach budynkami budynki budynkiem budynkom budynkowi budynku budynków
+56	456	kolega	koledze koledzy kolegach kolegami kolegi kolego kolegom kolegów kolegą kolegę kolesi kolesia kolesiami kolesie kolesiem kolesiom kolesiowi kolesiu kolesiów koleś koleżanka koleżka koleżko koleżków
+57	457	pozwolić	pozwolenia pozwoleniami pozwolenie pozwoleniem pozwoleniu pozwoleń pozwoli pozwolicie pozwolili pozwoliliśmy pozwolimy pozwolisz pozwolił pozwoliła pozwoliłaby pozwoliłam pozwoliłby pozwoliłbym pozwoliłbyś pozwoliłem pozwoliłeś pozwoliło pozwoliłoby pozwoliły pozwoliłyby pozwolono pozwolą pozwolę pozwól pozwólcie pozwólmy
+58	458	długi	długa długich długie długiego długiej długim długimi długą dłuższa dłuższe dłuższej dłuższy dłuższych dłuższym dłuższymi dłuższą najdłuższy
+59	459	twarz	twarzach twarzami twarze twarzom twarzowa twarzowe twarzowego twarzowej twarzowy twarzy twarzyczkę twarzą
+60	460	wraz	wrazie
+61	461	jedynie	
+62	462	natomiast	
+63	463	obecny	obecna obecne obecnego obecnej obecnemu obecni obecnych obecnym obecnymi obecną
+64	464	mieszkać	mieszka mieszkacie mieszkaj mieszkają mieszkając mieszkająca mieszkające mieszkającego mieszkającej mieszkający mieszkających mieszkającym mieszkającymi mieszkającą mieszkali mieszkaliśmy mieszkam mieszkamy mieszkasz mieszkał mieszkała mieszkałam mieszkałaś mieszkałem mieszkałeś mieszkało mieszkały
+65	465	rynek	ryneczek ryneczku rynkach rynkami rynki rynkiem rynkowa rynkowe rynkowego rynkowej rynkowi rynkowy rynkowych rynkowym rynkowymi rynkową rynku rynków
+66	466	media	mediach mediami medio mediom mediów
+67	467	zdrowie	zdrowia zdrowiem zdrowiu zdrówka zdrówko
+68	468	cztery	czterech czterej czterem czterema cztero
+69	469	następny	następna następne następnego następnej następnemu następni następnych następnym następnymi następną
+70	470	rosyjski	rosyjscy rosyjska rosyjskich rosyjskie rosyjskiego rosyjskiej rosyjskiemu rosyjskim rosyjskimi rosyjsko rosyjsku rosyjską
+71	471	angielski	angielscy angielska angielskich angielskie angielskiego angielskiej angielskiemu angielskim angielskimi angielsko angielsku angielską
+72	472	ostatnio	
+73	473	raczej	
+74	474	walczyć	walcz walczcie walczenia walczenie walczmy walczono walczy walczycie walczyli walczyliśmy walczymy walczysz walczył walczyła walczyłam walczyłaś walczyłem walczyłeś walczyło walczyły walczą walcząc walcząca walczące walczącego walczącej walczący walczących walczącym walczącymi walczę
+75	475	doktor	doktora doktorami doktorek doktorem doktorka doktorku doktorowi doktorze doktorzy doktorów doktór dr
+76	476	niemiec	niemca niemcach niemcami niemce niemcem niemcom niemcowi niemcu niemcy niemców niemka
+77	477	mama	maa mamami mamcia mamciu mamie mamka mamo mamusi mamusia mamusie mamusiek mamusiu mamusią mamusię mamuś mamuśka mamuśki mamuśkę mamą mamę nana
+78	478	marzec	mar marca marce marcem marcowa marcowe marcowego marcowej marcowy marcowych marcowym marcu
+79	479	amerykański	amerykańscy amerykańska amerykańskich amerykańskie amerykańskiego amerykańskiej amerykańskiemu amerykańskim amerykańskimi amerykańsko amerykańsku amerykańską
+80	480	wystarczyć	wystarczy wystarczył wystarczyła wystarczyłaby wystarczyłby wystarczyło wystarczyłoby wystarczyły wystarczyłyby wystarczą wystarczę
+81	481	wykonać	wykona wykonacie wykonaj wykonają wykonali wykonaliśmy wykonam wykonamy wykonana wykonane wykonanego wykonanej wykonania wykonaniach wykonanie wykonaniem wykonaniu wykonano wykonany wykonanych wykonanym wykonanymi wykonaną wykonasz wykonał wykonała wykonałam wykonałem wykonałeś wykonało wykonały wykonań
+82	482	jechać	jadą jadąc jadąca jadące jadącego jadącej jadący jadących jadącym jadącymi jadącą jadę jechali jechaliście jechaliśmy jechania jechanie jechał jechała jechałam jechałaś jechałem jechałeś jechało jechały jedzie jedziecie jedziemy jedziesz jedź jedźcie jedźmy
+83	483	tytuł	tytule tytułach tytułami tytułem tytułowa tytułowe tytułowego tytułowej tytułowi tytułowy tytułowych tytułowym tytułową tytułu tytuły tytułów
+84	484	coraz	
+85	485	skoro	
+86	486	cieszyć	ciesz cieszcie cieszenia cieszenie cieszmy cieszy cieszycie cieszyli cieszyliśmy cieszymy cieszysz cieszył cieszyła cieszyłabym cieszyłam cieszyłaś cieszyłby cieszyłbym cieszyłem cieszyłeś cieszyło cieszyły cieszą ciesząc ciesząca cieszące cieszącego cieszącej cieszący cieszących cieszącym cieszącą cieszę
+87	487	możliwy	możliwa możliwe możliwego możliwej możliwie możliwych możliwym możliwymi możliwą
+88	488	sztuka	sztuce sztuczek sztuczka sztuczkami sztuczki sztuczką sztuczkę sztuk sztukach sztukami sztuki sztuką sztukę
+89	489	wzgląd	względami względu względy względzie względów
+90	490	mecz	meczach meczami mecze meczem meczowa meczowe meczowego meczowej meczowy meczowych meczowym meczową meczu meczy meczów
+91	491	nauczyciel	nauczyciela nauczycielach nauczycielami nauczyciele nauczycielem nauczycieli nauczycielka nauczycielom nauczycielowi nauczycielska nauczycielski nauczycielskich nauczycielskie nauczycielskiego nauczycielskiej nauczycielskim nauczycielską nauczycielu
+92	492	oglądać	ogląda oglądacie oglądaj oglądajcie oglądajmy oglądają oglądając oglądającego oglądający oglądających oglądającym oglądali oglądaliście oglądaliśmy oglądam oglądamy oglądana oglądane oglądania oglądanie oglądaniem oglądaniu oglądany oglądanych oglądanym oglądasz oglądał oglądała oglądałam oglądałaś oglądałbym oglądałem oglądałeś oglądało oglądały oglądałyśmy oglądnij oglądnięcia oglądnąć
+93	493	brat	braci bracia braciach bracie braciom braciszek braciszka braciszkiem braciszku brata bratek bratem bratki bratku bratków bratu braćmi
+94	494	wasz	wasi wasza wasze waszego waszej waszemu waszych waszym waszymi waszą
+95	495	posiadać	posiada posiadacie posiadają posiadając posiadająca posiadające posiadającego posiadającej posiadający posiadających posiadającym posiadającymi posiadającą posiadali posiadaliśmy posiadam posiadamy posiadana posiadane posiadanego posiadanej posiadany posiadanych posiadanym posiadanymi posiadaną posiadasz posiadał posiadała posiadałby posiadałem posiadało posiadały
+96	496	zajmować	zajmowali zajmowaliśmy zajmowana zajmowane zajmowanego zajmowanej zajmowania zajmowanie zajmowaniem zajmowaniu zajmowano zajmowany zajmowanych zajmowanym zajmował zajmowała zajmowałam zajmowałby zajmowałem zajmowało zajmowały zajmuj zajmuje zajmujecie zajmujemy zajmujesz zajmują zajmując zajmująca zajmujące zajmującego zajmującej zajmujący zajmujących zajmującym zajmującymi zajmującą zajmuję
+97	497	opinia	opiniach opiniami opinie opinii opiniom opinią opinię
+98	498	proces	procesach procesami procesem procesie procesom procesowi procesowy procesowych procesu procesy procesów
+99	499	pies	pieseczek piesek pieska pieskami pieski pieskie pieskiem piesku piesków psa psach psami psem psi psia psich psie psiego psiej psim psimi psisko psią psom psu psy psów
+100	500	pojawić	pojaw pojawi pojawienia pojawienie pojawieniem pojawieniu pojawili pojawiliśmy pojawimy pojawisz pojawią pojawię pojawił pojawiła pojawiłam pojawiłby pojawiłem pojawiłeś pojawiło pojawiłoby pojawiły pojawiłyby

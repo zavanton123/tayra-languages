@@ -1,0 +1,100 @@
+1	9401	skaza	skaz skazy skazą skazę
+2	9402	promil	promila promile promili
+3	9403	alert	alertu alerty alertów
+4	9404	przegłosować	przegłosowali przegłosowana przegłosowane przegłosowania przegłosowaniu przegłosowano przegłosowany przegłosował przegłosowała
+5	9405	czytelnictwo	czytelnictwa
+6	9406	legalność	legalności
+7	9407	kapitalny	kapitalna kapitalne kapitalnego kapitalnie kapitalnym
+8	9408	stołówka	stołówek stołówkach stołówki stołówką stołówkę
+9	9409	cudny	cudna cudnego cudnych cudnym cudną
+10	9410	kanion	kanionach kanionem kanionie kanionu kaniony kanionów
+11	9411	eden	edenie edenu
+12	9412	wenezuelski	wenezuelska wenezuelskich wenezuelskie wenezuelskiego wenezuelskiej wenezuelskim
+13	9413	doić	doi dojenia dojenie doją wydoić
+14	9414	wyczerpujący	wyczerpująca wyczerpujące wyczerpującego wyczerpującej wyczerpująco wyczerpujących wyczerpującym wyczerpującą
+15	9415	doświadczalny	doświadczalna doświadczalne doświadczalnego doświadczalnej doświadczalnie doświadczalnych doświadczalnym doświadczalnymi doświadczalną
+16	9416	przychylny	przychylna przychylne przychylnego przychylni przychylnych przychylnym przychylną
+17	9417	nafta	nafty naftą naftę
+18	9418	polszczyzna	polszczyzny polszczyzną polszczyznę polszczyźnie
+19	9419	niezgoda	niezgody niezgodzie niezgodą niezgodę
+20	9420	wieczorowy	wieczorowa wieczorowe wieczorowego wieczorowej wieczorowo wieczorowych wieczorowym wieczorową
+21	9421	egoizm	egoizmem egoizmu
+22	9422	cyrylica	cyrylicy cyrylicą cyrylicę
+23	9423	balans	balansu
+24	9424	neon	neonami neonowy neonu neony neonów
+25	9425	energiczny	energiczna energiczne energicznego energicznej energicznie energicznych energicznym energiczną
+26	9426	nadsyłać	nadesłane nadesłanych nadesłał nadsyłania
+27	9427	mędrzec	mędrca mędrcem mędrcy mędrców
+28	9428	wyłudzić	wyłudzania wyłudzanie wyłudzać wyłudzenia wyłudzenie wyłudzeń wyłudził
+29	9429	obarczyć	obarcza obarczając obarczam obarczanie obarczać obarczał obarczona obarczone obarczony obarczył
+30	9430	wysypka	wysypki wysypką wysypkę
+31	9431	stuknąć	stuka stukania stukanie stukać stuknie stuknij stuknięta stuknięty stuknął stuknąłem stuknęło
+32	9432	szewc	szewca szewcem szewcy szewczyk szewczyka szewców
+33	9433	nieczysty	nieczysta nieczyste nieczystego nieczystej nieczysto nieczystych nieczystym nieczystymi nieczystą
+34	9434	podczerwień	podczerwieni podczerwienią
+35	9435	wysypisko	wysypisk wysypiska wysypiskach wysypisku
+36	9436	elektron	elektronami elektronu elektrony elektronów
+37	9437	nieuzasadniony	nieuzasadniona nieuzasadnione nieuzasadnionej nieuzasadnioną
+38	9438	emigracyjny	emigracyjne emigracyjnego emigracyjnej emigracyjnych emigracyjnym
+39	9439	inspektorat	inspektoracie inspektoratem inspektoratu inspektoratów
+40	9440	podpiąć	podepnij podepnę podpina podpinam podpinać podpiął podpiąłem podpięcie podpięta podpięte podpięty
+41	9441	chorągiew	chorągiewek chorągiewka chorągiewkami chorągiewki chorągiewką chorągiewkę chorągwi chorągwie chorągwią
+42	9442	tonacja	tonacjach tonacje tonacji tonację
+43	9443	zapracować	zapracowali zapracowaliśmy zapracowana zapracowani zapracowany zapracowanych zapracowanym zapracował zapracowała zapracuje
+44	9444	brona	bron bronie brony bruna
+45	9445	zapalny	zapalna zapalne zapalnego zapalnej zapalnych zapalnym zapalną
+46	9446	baś	basia basiu
+47	9447	kolonizacja	kolonizacji kolonizacją kolonizację
+48	9448	obserwatorium	obserwatoriów
+49	9449	żuk	żuczek żuka żuki żukiem żukowie żuków
+50	9450	odwodnienie	odwodnienia odwodnieniem
+51	9451	zaokrąglony	zaokrąglona zaokrąglone zaokrąglonej zaokrąglonych zaokrąglonym zaokrąglonymi zaokrągloną
+52	9452	bliźnić	bliźniąt bliźnięta bliźniętami
+53	9453	podskakiwać	podskakiwał podskakuj podskakuje podskakują podskoczy podskoczysz podskoczyć podskoczył podskoczyła podskoczyły podskoczą
+54	9454	kolczasty	kolczaste kolczastego kolczastych kolczastym
+55	9455	sceniczny	sceniczna sceniczne scenicznego scenicznej scenicznych scenicznym sceniczną
+56	9456	wyrosły	wyrosła wyrośli
+57	9457	zażalenie	zażalenia zażaleń
+58	9458	pak	paki paku
+59	9459	ażeby	
+60	9460	bodaj	
+61	9461	konno	
+62	9462	kuźwa	
+63	9463	latania	
+64	9464	marnie	
+65	9465	myśmy	
+66	9466	niełatwo	
+67	9467	notorycznie	
+68	9468	pauper	paper
+69	9469	przenigdy	
+70	9470	szerlok	sherlock
+71	9471	bach	bacha
+72	9472	wygadać	wygada wygadaj wygadana wygadany wygadał wygadałam wygaduje wygadujesz wygadują
+73	9473	wytrwać	wytrwa wytrwali wytrwam wytrwamy wytrwasz wytrwał wytrwała wytrwały wytrwałych wytrwałym
+74	9474	szpinak	szpinakiem szpinaku
+75	9475	białostocki	białostoccy białostocka białostockich białostockie białostockiego białostockiej białostockim białostocką
+76	9476	lucyfer	lucyfera lucyferem lucyferze
+77	9477	szept	szeptem szeptu szepty szeptów
+78	9478	sułtan	sułtana sułtanem sułtanie sułtanka sułtanki sułtanowi
+79	9479	pneumatyczny	pneumatyczna pneumatyczne pneumatycznego pneumatycznej pneumatycznie pneumatycznych pneumatycznym pneumatyczną
+80	9480	niekompetencja	niekompetencji niekompetencją niekompetencję
+81	9481	wyro	wer werka werki wery wyr wyra wyrka
+82	9482	poczynić	poczynili poczynione poczyniono poczynionych poczynił poczyniła poczyniłam poczyniłeś
+83	9483	haniebny	haniebna haniebne haniebnego haniebnie haniebnych haniebnym haniebną
+84	9484	wyładować	wyładowane wyładowania wyładowaniami wyładowanie wyładowaniu wyładowany wyładował wyładowań wyładowuje wyładuj
+85	9485	ateizm	ateizmem ateizmu
+86	9486	trzcina	trzcin trzcinie trzciny trzciną trzcinę
+87	9487	deal	dealu
+88	9488	przekręcić	przekręca przekręcając przekręcam przekręcanie przekręcać przekręcenie przekręci przekręcił przekręciłam przekręciłem przekręć
+89	9489	mistyczny	mistyczna mistyczne mistycznego mistycznej mistycznych mistycznym mistyczną
+90	9490	osiąść	osiada osiadają osiadania osiadanie osiadł osiadła osiadłe osiadłego osiadły osiadłych osiedli
+91	9491	przydatność	przydatności
+92	9492	nasilenie	nasilenia nasileniem nasileniu
+93	9493	walec	walca walce walcem walcu walców
+94	9494	notatnik	notatnika notatniki notatnikiem notatniku
+95	9495	karykatura	karykatur karykatury karykaturą karykaturę
+96	9496	krwionośny	krwionośne krwionośnego krwionośnych krwionośnym
+97	9497	niestosowny	niestosowna niestosowne niestosownego niestosownie niestosownych
+98	9498	odkręcić	odkręca odkręcanie odkręcać odkręcenia odkręcenie odkręci odkręcił odkręcony odkręcą odkręć
+99	9499	prawomocny	prawomocne prawomocnego prawomocnych prawomocnym
+100	9500	wywiązać	wywiązanie wywiązał wywiązała wywiązuje wywiązują wywiązywać wywiąże

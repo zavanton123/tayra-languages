@@ -1,0 +1,100 @@
+1	2501	dowódca	dca dowódcami dowódcom dowódcy dowódcze dowódców dowódcą dowódcę
+2	2502	podróżować	podróżowali podróżowaliśmy podróżowania podróżowanie podróżowaniu podróżował podróżowała podróżowałam podróżowałem podróżowało podróżowały podróżuj podróżuje podróżujemy podróżujesz podróżują podróżując podróżująca podróżujące podróżujący podróżujących podróżującą podróżuję
+3	2503	odpad	odpadach odpadami odpadem odpady odpadów
+4	2504	depresja	depresje depresji depresją depresję
+5	2505	trudność	trudności trudnościach trudnościami trudnościom trudnością
+6	2506	adwokat	adwokaci adwokacie adwokata adwokatami adwokatem adwokatowi adwokatów dukat dukata dukaty dukatów
+7	2507	telewizor	telewizora telewizorach telewizorami telewizorem telewizory telewizorze telewizorów
+8	2508	opłacić	opłaca opłacają opłacając opłacali opłacam opłacamy opłacana opłacane opłacanego opłacanej opłacani opłacania opłacanie opłacaniem opłacany opłacanych opłacanym opłacaną opłacasz opłacać opłacał opłacała opłacało opłaceni opłacenia opłacenie opłaceniu opłaci opłacili opłacił opłaciła opłaciło opłaciły opłacona opłacone opłacony opłaconych opłaconą opłacą
+9	2509	kradzież	kradzieżach kradzieżami kradzieże kradzieży kradzieżą
+10	2510	cichy	cicha ciche cichego cichej cichsza cichsze cichszy cichu cichutki cichutku cichych cichym cichymi cichą cisi
+11	2511	ocean	oceanach oceanami oceanem oceaniczne oceanicznego oceanicznej oceaniczny oceanicznych oceanie oceanu oceany oceanów
+12	2512	msza	mszach mszalne mszalnych msze mszy mszą mszę
+13	2513	morda	mord mordach mordami mordka mordki mordo mordu mordy mordzie mordów mordą mordę
+14	2514	szyja	szyi szyj szyjach szyjce szyje szyjek szyjka szyjki szyjką szyjkę szyjna szyjne szyjnego szyjnej szyjny szyjnych szyjnym szyjną szyją szyję
+15	2515	przyroda	przyrody przyrodzie przyrodą przyrodę
+16	2516	przeciętny	przeciętna przeciętne przeciętnego przeciętnej przeciętnemu przeciętni przeciętnie przeciętnych przeciętnym przeciętnymi przeciętną
+17	2517	inżynier	inżyniera inżynierami inżynierem inżynierom inżynierowi inżynierowie inżynierska inżynierski inżynierskich inżynierskie inżynierskiego inżynierskiej inżynierskim inżynierską inżynierzy inżynierów
+18	2518	życiowy	życiowa życiowe życiowego życiowej życiowo życiowych życiowym życiowymi życiową
+19	2519	twierdza	twierdz twierdze twierdzy twierdzą twierdzę
+20	2520	charakterystyczny	charakterystyczna charakterystyczne charakterystycznego charakterystycznej charakterystycznie charakterystycznych charakterystycznym charakterystycznymi charakterystyczną
+21	2521	począć	pocznie pocznę poczyna poczynając poczynania poczynań począwszy począł poczęcia poczęcie poczęciem poczęciu poczęli poczęta poczęte poczętego poczętej poczęty poczętych poczęła
+22	2522	lokalizacja	lokalizacjach lokalizacje lokalizacji lokalizacją lokalizację
+23	2523	lektura	lektur lekturach lekturami lektury lekturze lekturą lekturę
+24	2524	kibic	kibica kibicach kibicami kibice kibicem kibicom kibicowskie kibiców
+25	2525	zabieg	zabiegach zabiegami zabiegi zabiegiem zabiegom zabiegowi zabiegu zabiegów
+26	2526	dotąd	
+27	2527	wyposażyć	wyposaża wyposażając wyposażane wyposażania wyposażanie wyposażeni wyposażona wyposażone wyposażonego wyposażonej wyposażono wyposażony wyposażonych wyposażonym wyposażonymi wyposażoną wyposażyli wyposażył wyposażyła
+28	2528	nadzór	nadzorem nadzorowi nadzoru nadzorze
+29	2529	zapach	zapachach zapachami zapachem zapachu zapachy zapachów
+30	2530	prezentacja	prezentacjach prezentacje prezentacji prezentacją prezentację
+31	2531	przesłać	przesyła przesyłajcie przesyłają przesyłając przesyłali przesyłam przesyłamy przesyłana przesyłane przesyłanej przesyłania przesyłanie przesyłaniu przesyłany przesyłanych przesyłać przesyłał przesłali przesłana przesłane przesłano przesłany przesłanych przesłanym przesłał przesłała przesłałem przesłało prześle prześlemy prześlesz prześlij prześlijcie prześlą prześlę
+32	2532	krąg	kręgach kręgami kręgi kręgiem kręgu kręgów
+33	2533	licencja	licencjach licencjami licencje licencji licencją licencję licencyjna licencyjne licencyjnego licencyjnej licencyjny licencyjnych licencyjną
+34	2534	popatrzeć	popatrz popatrzcie popatrzmy popatrzy popatrzycie popatrzymy popatrzysz popatrzyć popatrzył popatrzą popatrzę
+35	2535	toczyć	toczenia toczenie toczona toczone toczonej toczono toczony toczy toczyli toczymy toczył toczyła toczyło toczyły toczą tocząc tocząca toczące toczącego toczącej toczący toczących toczącym toczącą
+36	2536	stawka	stawce stawek stawkach stawkami stawki stawku stawką stawkę
+37	2537	postawa	postawach postawami postawie postawom postawy postawą postawę
+38	2538	targ	targa targach targami targi targiem targu targów
+39	2539	kilkadziesiąt	kilkudziesięcioma kilkudziesięciu
+40	2540	inteligentny	inteligentna inteligentne inteligentnego inteligentnej inteligentni inteligentnie inteligentniejsi inteligentniejsza inteligentniejsze inteligentniejszy inteligentnych inteligentnym inteligentnymi inteligentną najinteligentniejszych
+41	2541	ludzkość	ludzkości ludzkością
+42	2542	pierścień	pierścieni pierścienia pierścieniach pierścieniami pierścienie pierścieniem pierścieniowe pierścieniu pierścionek pierścionka pierścionkami pierścionki pierścionkiem pierścionku pierścionków
+43	2543	wybitny	najwybitniejszy wybitna wybitne wybitnego wybitnej wybitnemu wybitni wybitnie wybitnych wybitnym wybitnymi wybitną
+44	2544	ekologiczny	ekologiczna ekologiczne ekologicznego ekologicznej ekologiczni ekologicznie ekologicznych ekologicznym ekologicznymi ekologiczną
+45	2545	dostawa	dostaw dostawach dostawami dostawie dostawy dostawą dostawę
+46	2546	rozważyć	rozważ rozważa rozważają rozważając rozważali rozważaliśmy rozważam rozważamy rozważana rozważane rozważania rozważaniach rozważaniami rozważanie rozważaniu rozważano rozważany rozważanych rozważanym rozważasz rozważać rozważał rozważała rozważałam rozważałem rozważań rozważcie rozważenia rozważenie rozważeniu rozważmy rozważy rozważyli rozważymy rozważył rozważę
+47	2547	kosmiczny	kosmiczna kosmiczne kosmicznego kosmicznej kosmiczni kosmicznie kosmicznych kosmicznym kosmicznymi kosmiczną
+48	2548	gabinet	gabinecie gabinetach gabinetem gabinetu gabinety gabinetów
+49	2549	chemia	chemie chemii chemią chemię
+50	2550	powszechnie	najpowszechniej powszechniej
+51	2551	drogowy	drogowa drogowe drogowego drogowej drogowi drogowo drogowych drogowym drogowymi drogową
+52	2552	znaczący	znacząca znaczące znaczącego znaczącej znaczących znaczącym znaczącymi znaczącą
+53	2553	działka	działce działek działkach działkami działki działkiem działko działką działkę
+54	2554	oszukać	oszuka oszukacie oszukają oszukali oszukaliście oszukana oszukane oszukani oszukania oszukanie oszukano oszukany oszukanych oszukanym oszukasz oszukał oszukała oszukałam oszukałaś oszukiwali oszukiwani oszukiwania oszukiwanie oszukiwaniem oszukiwany oszukiwać oszukiwał oszukuj oszukuje oszukujemy oszukujesz oszukujmy oszukują oszukując oszukuję
+55	2555	ułatwić	ułatwi ułatwia ułatwiają ułatwiając ułatwiająca ułatwiające ułatwiającej ułatwiający ułatwiających ułatwiającym ułatwiającą ułatwiamy ułatwiania ułatwianie ułatwiasz ułatwiać ułatwiał ułatwiała ułatwiało ułatwiały ułatwienia ułatwienie ułatwieniem ułatwień ułatwione ułatwią ułatwił ułatwiła ułatwiło ułatwiłoby ułatwiły
+56	2556	kongres	kongresach kongresem kongresie kongresowi kongresu kongresy kongresów
+57	2557	piękno	piękna pięknem pięknu
+58	2558	dolina	dolin dolinach dolinami dolinie dolinki doliny doliną dolinę
+59	2559	oby	obym obyś obyście obyśmy
+60	2560	strzał	strzale strzałach strzałami strzałem strzału strzały strzałów
+61	2561	elektrownia	elektrowni elektrowniach elektrowniami elektrownie elektrownią elektrownię
+62	2562	kapitał	kapitale kapitałem kapitałowi kapitału kapitały kapitałów
+63	2563	niewinny	niewinna niewinne niewinnego niewinnej niewinni niewinnie niewinnych niewinnym niewinnymi niewinną
+64	2564	zarządzać	zarządza zarządzają zarządzając zarządzająca zarządzające zarządzającego zarządzającej zarządzający zarządzających zarządzającym zarządzali zarządzam zarządzamy zarządzana zarządzane zarządzanego zarządzanej zarządzany zarządzanych zarządzanym zarządzaną zarządzasz zarządzał zarządzała zarządzi zarządzili zarządzić zarządził zarządziła zarządzone zarządzono zarządzonych
+65	2565	pominąć	pomija pomijaj pomijają pomijając pomijam pomijamy pomijana pomijane pomijani pomijanie pomijany pomijasz pomijać pomijał pominie pominiemy pominiesz pominięci pominięcia pominięcie pominięciem pominięciu pominięta pominięte pominięto pominięty pominiętych pominąwszy pominął pominąłem pominąłeś pominę pominęli pominęła pominęłam pomiń pomińmy
+66	2566	kopalnia	kopalni kopalniach kopalniami kopalniany kopalnianych kopalnie kopalnią kopalnię kopalń
+67	2567	wyjątkowo	
+68	2568	rejestr	rejestrach rejestrami rejestrem rejestrowy rejestrowych rejestru rejestry rejestrze rejestrów
+69	2569	całować	całowali całowaliśmy całowania całowanie całowaniem całowaniu całował całowała całowałam całowałaś całowałem całowałeś całuj całujcie całuje całujemy całujesz całują całując całujące całujący całujących całuję pocałowali pocałowaniem pocałować pocałował pocałowała pocałowałam pocałowałem pocałowałeś pocałuj pocałujcie pocałuje pocałują pocałuję ucałować ucałował ucałuj
+70	2570	runda	rund rundach rundkę rundy rundzie rundą rundę
+71	2571	rzeczywisty	rzeczywista rzeczywiste rzeczywistego rzeczywistej rzeczywistych rzeczywistym rzeczywistymi rzeczywistą rzeczywiści
+72	2572	żądać	zażąda zażądają zażądali zażądano zażądać zażądał zażądała zażądałem zażądały żąda żądacie żądają żądając żądający żądających żądali żądam żądamy żądane żądanej żądano żądany żądanych żądasz żądał żądała żądało żądały
+73	2573	sukienka	sukience sukienek sukienkach sukienkami sukienki sukienką sukienkę
+74	2574	drewniany	drewniana drewniane drewnianego drewnianej drewnianych drewnianym drewnianymi drewnianą
+75	2575	dekada	dekad dekadach dekadami dekady dekadzie dekadą dekadę
+76	2576	wskaźnik	wskaźnika wskaźnikach wskaźnikami wskaźniki wskaźnikiem wskaźnikowe wskaźniku wskaźników
+77	2577	uchwała	uchwale uchwał uchwałami uchwały uchwałą uchwałę
+78	2578	regulacja	regulacjach regulacjami regulacje regulacji regulacjom regulacją regulację
+79	2579	obietnica	obietnic obietnicach obietnicami obietnice obietnicom obietnicy obietnicą obietnicę
+80	2580	kompletny	kompletna kompletne kompletnego kompletnej kompletni kompletnych kompletnym kompletnymi kompletną
+81	2581	zerwać	zerwali zerwaliście zerwaliśmy zerwana zerwane zerwania zerwanie zerwano zerwany zerwanych zerwał zerwała zerwałam zerwałaś zerwałem zerwałeś zerwało zerwały zerwie zerwiemy zerwiesz zerwij zerwą zerwę zrywa zrywają zrywając zrywam zrywamy zrywania zrywanie zrywaniu zrywasz zrywać zrywał zrywała
+82	2582	nabrać	nabiera nabierają nabierając nabieram nabieramy nabierania nabieranie nabierać nabierał nabierała nabierały nabierz nabierze nabierzemy nabierzesz nabiorą nabiorę nabrali nabraliście nabraliśmy nabrania nabrał nabrała nabrałam nabrałaś nabrałem nabrało nabrały
+83	2583	szalony	salony szaleni szalenie szalona szalone szalonego szalonej szalonych szalonym szalonymi szaloną
+84	2584	genialny	genialna genialne genialnego genialnej genialni genialnie genialnych genialnym genialnymi genialną
+85	2585	dziwnie	dziwniej
+86	2586	rozbić	rozbici rozbicia rozbicie rozbiciem rozbiciu rozbij rozbija rozbijają rozbijając rozbijam rozbijamy rozbijania rozbijanie rozbijać rozbijał rozbijała rozbijały rozbije rozbiją rozbili rozbiliśmy rozbita rozbite rozbitego rozbitej rozbito rozbity rozbitych rozbitym rozbitymi rozbitą rozbił rozbiła rozbiłam rozbiło rozbiły
+87	2587	blokować	blokowali blokowana blokowane blokowania blokowanie blokowaniem blokowaniu blokowany blokowanych blokował blokowała blokowało blokowały blokuj blokuje blokujecie blokujemy blokujesz blokują blokując blokująca blokujące blokującego blokujący blokujących blokującym blokującą blokuję
+88	2588	lustro	luster lustereczko lusterek lusterka lusterkiem lusterko lusterku lustra lustrach lustrami lustrem lustrzana lustrzane lustrzanego lustrzanej lustrzany lustrzanych lustrzanym lustrzaną lustrze
+89	2589	pomieszczenie	pomieszczenia pomieszczeniach pomieszczeniami pomieszczeniem pomieszczeniu pomieszczeń
+90	2590	nominacja	nominacjach nominacjami nominacje nominacji nominacją nominację
+91	2591	malować	malowali malowana malowane malowanego malowanej malowania malowanie malowaniem malowaniu malowano malowany malowanych malowanym malowanymi malowaną malował malowała malowałam malowałaś malowałem malowałeś maluj maluje malujecie malujemy malujesz malują malując malującego malujący maluję
+92	2592	ranking	rankingach rankingi rankingiem rankingu rankingów
+93	2593	litwa	litewscy litewska litewski litewskich litewskie litewskiego litewskiej litewskim litewskimi litewsko litewsku litewską litwie litwy litwą litwę
+94	2594	dziedzictwo	dziedzictwa dziedzictwem dziedzictwie dziedzictwu
+95	2595	konstytucyjny	konstytucyjna konstytucyjne konstytucyjnego konstytucyjnej konstytucyjnie konstytucyjnych konstytucyjnym konstytucyjną
+96	2596	gospodarz	gospodarek gospodarza gospodarzami gospodarze gospodarzem gospodarzom gospodarzowi gospodarzu gospodarzy gospodyni gospodynie gospodynią gospodynię gospodyń
+97	2597	morderca	mordercach mordercami morderce mordercom mordercy morderczyni morderców mordercą mordercę
+98	2598	nacisk	naciskach naciskami naciski naciskiem naciskom naciskowi nacisku nacisków
+99	2599	imprezy	
+100	2600	ledwo	

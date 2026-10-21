@@ -1,0 +1,100 @@
+1	1001	operacja	operacjach operacjami operacje operacji operacjom operacją operację
+2	1002	przemysł	przemysła przemysłem przemysłowa przemysłowe przemysłowego przemysłowej przemysłowi przemysłowo przemysłowy przemysłowych przemysłowym przemysłowymi przemysłową przemysłu przemysły przemysłów przemyśle
+3	1003	kasa	kas kasach kasami kasie kasy kasą kasę
+4	1004	tłumaczyć	tłumacz tłumacza tłumaczami tłumacze tłumaczem tłumaczka tłumaczki tłumaczkę tłumaczom tłumaczona tłumaczone tłumaczono tłumaczony tłumaczonych tłumaczu tłumaczy tłumaczyli tłumaczyliśmy tłumaczymy tłumaczysz tłumaczył tłumaczyła tłumaczyłam tłumaczyłem tłumaczyło tłumaczyłoby tłumaczyły tłumaczą tłumacząc tłumacząca tłumaczące tłumaczącego tłumaczący tłumaczących tłumaczę
+5	1005	niedziela	niedziel niedziele niedzieli niedzielna niedzielne niedzielnego niedzielnej niedzielni niedzielny niedzielnych niedzielnym niedzielną niedzielą niedzielę
+6	1006	oficjalny	oficjalna oficjalne oficjalnego oficjalnej oficjalnemu oficjalni oficjalnych oficjalnym oficjalnymi oficjalną
+7	1007	środki	środkach środkami środkom środków
+8	1008	technologia	technologiach technologiami technologie technologii technologiom technologią technologię
+9	1009	wykonywać	wykonuj wykonuje wykonujecie wykonujemy wykonujesz wykonują wykonując wykonująca wykonujące wykonującego wykonującej wykonujący wykonujących wykonującym wykonującymi wykonującą wykonuję wykonywali wykonywaliśmy wykonywana wykonywane wykonywanego wykonywanej wykonywania wykonywanie wykonywaniem wykonywaniu wykonywano wykonywany wykonywanych wykonywanym wykonywanymi wykonywaną wykonywał wykonywała wykonywałam wykonywałem wykonywało wykonywały
+10	1010	parlament	parlamencie parlamentach parlamentarna parlamentarne parlamentarnego parlamentarnej parlamentarno parlamentarny parlamentarnych parlamentarnym parlamentarnymi parlamentarną parlamentem parlamentowi parlamentu parlamenty parlamentów
+11	1011	święta	świąt świętach świętami
+12	1012	okno	okien okienek okienka okienkach okienkami okienkiem okienko okienku okienna okienne okiennej okiennych okiennymi okienną okna oknach oknami oknem oknie
+13	1013	przenieść	przeniesie przeniesiemy przeniesieni przeniesienia przeniesienie przeniesieniem przeniesieniu przeniesiona przeniesione przeniesiono przeniesiony przenieś przenieśli przenieśliśmy przenieśmy przeniosą przeniosę przeniosła przeniosłam przeniosłem przeniosło przeniosły przeniósł przenosi przenosili przenosimy przenosisz przenosić przenosił przenoszenia przenoszenie przenoszeniu przenoszona przenoszone przenoszony przenoszonych przenoszą przenosząc przenoszę
+14	1014	kot	koci kocia kocica kocich kocie kociego kociej kocim kocimi kocią kocur kocura kocurek kocury kota kotach kotami kotce koteczka koteczki koteczku kotek kotem kotka kotkach kotkami kotki kotkiem kotku kotków kotką kotkę kotom kotu koty kotów
+15	1015	powierzchni	powierzchnia powierzchniach powierzchniami powierzchnie powierzchniowa powierzchniowe powierzchniowego powierzchniowej powierzchniowo powierzchniowy powierzchniowych powierzchniowym powierzchniową powierzchnią powierzchnię
+16	1016	usługa	usłudze usług usługach usługami usługi usługą usługę
+17	1017	przeżyć	przeżycia przeżyciach przeżyciami przeżycie przeżyciem przeżyciu przeżyj przeżyje przeżyjemy przeżyjesz przeżyją przeżyję przeżyli przeżyliście przeżyliśmy przeżywa przeżywają przeżywając przeżywali przeżywaliśmy przeżywam przeżywamy przeżywania przeżywanie przeżywasz przeżywać przeżywał przeżywała przeżywałam przeżywałem przeżywały przeżył przeżyła przeżyłam przeżyłaś przeżyłem przeżyłeś przeżyło przeżyły
+18	1018	głosować	głosowali głosowaliście głosowaliśmy głosowano głosował głosowała głosowałam głosowałem głosowałeś głosowało głosowały głosuj głosujcie głosuje głosujecie głosujemy głosujesz głosujmy głosują głosując głosujący głosujących głosującym głosuję zagłosowali zagłosować zagłosował zagłosowała zagłosowałam zagłosowałem zagłosowało zagłosowały zagłosuj zagłosujcie zagłosuje zagłosujemy zagłosujesz zagłosują zagłosuję
+19	1019	całkowicie	
+20	1020	celem	
+21	1021	oprócz	
+22	1022	wiadomo	
+23	1023	auto	aucie aut auta autach autami autek autem autka autkiem autko autku autu auty
+24	1024	piątek	piona pionie piony piątce piąteczek piąteczka piątka piątkach piątki piątkiem piątkowa piątkowe piątkowego piątkowej piątkowo piątkowy piątkowych piątkowym piątkową piątku piątków piątką piątkę
+25	1025	reklama	reklam reklamach reklamami reklamie reklamom reklamy reklamą reklamę
+26	1026	zakres	zakresach zakresem zakresie zakresu zakresy zakresów
+27	1027	natura	matur matura maturach maturami maturki matury maturze maturą maturę natur naturo natury naturze naturą naturę
+28	1028	teoria	teoriach teoriami teorie teorii teoriom teorią teorię
+29	1029	mistrz	mistrza mistrzami mistrze mistrzem mistrzom mistrzowi mistrzowie mistrzu mistrzyni mistrzyniami mistrzynie mistrzynią mistrzynię mistrzyń mistrzów
+30	1030	przedstawiać	przedstawia przedstawiaj przedstawiają przedstawiając przedstawiająca przedstawiające przedstawiającej przedstawiający przedstawiającym przedstawiającą przedstawiali przedstawiam przedstawiamy przedstawiana przedstawiane przedstawianego przedstawianej przedstawiani przedstawiania przedstawianie przedstawianiu przedstawiano przedstawiany przedstawianych przedstawiasz przedstawiał przedstawiała przedstawiałem przedstawiało przedstawiały
+31	1031	podawać	podaje podajecie podajemy podajesz podają podając podająca podające podającego podający podających podaję podawaj podawajcie podawali podawaliśmy podawana podawane podawanego podawanej podawania podawanie podawaniem podawaniu podawano podawany podawanych podawanym podawaną podawał podawała podawałam podawałem podawało podawały
+32	1032	przyjechać	przyjadą przyjadę przyjechali przyjechaliśmy przyjechał przyjechała przyjechałam przyjechałem przyjechałeś przyjechało przyjechały przyjedzie przyjedziecie przyjedziemy przyjedziesz przyjedź przyjedźcie przyjeżdża przyjeżdżaj przyjeżdżajcie przyjeżdżają przyjeżdżając przyjeżdżający przyjeżdżających przyjeżdżającym przyjeżdżali przyjeżdżam przyjeżdżamy przyjeżdżasz przyjeżdżać przyjeżdżał przyjeżdżała przyjeżdżało przyjeżdżały
+33	1033	płacić	płacenia płacenie płaceniem płaceniu płaci płacicie płacili płaciliśmy płacimy płacisz płacił płaciła płaciłam płaciłbym płaciłem płaciłeś płaciło płaciły płacono płacony płaconych płacą płacąc płacące płacącego płacący płacących płacącymi płacę płać płaćcie
+34	1034	hej	hai haj haju
+35	1035	popularny	najpopularniejszy popularna popularne popularnego popularnej popularni popularnie popularniejsza popularniejsze popularniejszy popularniejszych popularniejszym popularno popularnych popularnym popularnymi popularną
+36	1036	zdecydowanie	zdecydowania
+37	1037	jakość	jakości jakością
+38	1038	trasa	tras trasach trasami trasie trasy trasą trasę
+39	1039	szybki	najszybszy szybcy szybka szybkich szybkie szybkiego szybkiej szybkiemu szybkim szybkimi szybką szybkę szybsza szybsze szybszej szybszy szybszych szybszym szybszą
+40	1040	bogaty	bogaci bogata bogate bogatego bogatej bogatemu bogato bogatsza bogatsze bogatszej bogatszy bogatszych bogatszym bogatszą bogatych bogatym bogatymi bogatą najbogatszy najbogatszych
+41	1041	skutek	skutkach skutkami skutki skutkiem skutkom skutkowe skutkowego skutkowy skutkowych skutkowym skutku skutków
+42	1042	telewizja	telewizjach telewizje telewizji telewizją telewizję
+43	1043	ul	ula ule uli ulu
+44	1044	województwo	wojewódzka wojewódzki wojewódzkich wojewódzkie wojewódzkiego wojewódzkiej wojewódzkiemu wojewódzkim wojewódzkimi wojewódzką województw województwa województwach województwami województwem województwie województwu
+45	1045	piłka	pile pilska pilski pilskiego pilsko pił piła piłce piłeczka piłek piłkach piłkami piłki piłką piłkę piło piły piłą piłę
+46	1046	mowa	mowach mowie mowy mową mowę mów
+47	1047	dodatkowy	dodatkowa dodatkowe dodatkowego dodatkowej dodatkowemu dodatkowi dodatkowych dodatkowym dodatkowymi dodatkową
+48	1048	ciężki	cięzki ciężka ciężkich ciężkie ciężkiego ciężkiej ciężkim ciężkimi ciężką cięższy najcięższy
+49	1049	pasować	pasowali pasowania pasowanie pasowany pasował pasowała pasowałaby pasowałby pasowało pasowałoby pasowały pasuje pasujecie pasujemy pasujesz pasują pasująca pasujące pasującego pasującej pasujący pasujących pasującym pasującymi pasującą pasuję spasować
+50	1050	spokojnie	spokojniej
+51	1051	bawić	baw bawcie bawi bawicie bawienia bawienie bawili bawiliście bawiliśmy bawimy bawisz bawią bawiąc bawiące bawiącego bawiący bawiących bawię bawił bawiła bawiłam bawiłaś bawiłem bawiłeś bawiło bawiły bawmy pobaw pobawi pobawimy pobawić pobawię pobawił pobawmy
+52	1052	wypowiedź	wypowiedzi wypowiedziach wypowiedziami wypowiedzią
+53	1053	szacunek	szacunkach szacunki szacunkiem szacunku szacunków
+54	1054	charakter	charakterach charakterami charakterem charakterowi charakteru charaktery charakterze charakterów
+55	1055	zorganizować	zorganizowali zorganizowaliśmy zorganizowana zorganizowane zorganizowanego zorganizowanej zorganizowani zorganizowania zorganizowanie zorganizowaniem zorganizowaniu zorganizowano zorganizowany zorganizowanych zorganizowanym zorganizowanymi zorganizowaną zorganizował zorganizowała zorganizowałam zorganizowałem zorganizowało zorganizowały zorganizuj zorganizuje zorganizujemy zorganizujesz zorganizujmy zorganizują zorganizuję
+56	1056	średnia	średnich średnie średniej średnim średnimi średnią
+57	1057	niby	
+58	1058	wyłącznie	
+59	1059	znów	
+60	1060	tłumaczenie	tłumaczenia tłumaczeniach tłumaczeniami tłumaczeniem tłumaczeniu tłumaczeń
+61	1061	ruszyć	rusz rusza ruszaj ruszajcie ruszajmy ruszają ruszając ruszające ruszali ruszam ruszamy ruszania ruszanie ruszasz ruszać ruszał ruszała ruszałam ruszałem ruszało ruszały ruszcie ruszenia ruszenie ruszmy ruszy ruszyli ruszyliśmy ruszymy ruszysz ruszył ruszyła ruszyłam ruszyłem ruszyło ruszyły ruszą ruszę
+62	1062	test	testach testami testem testom testowi testu testy testów teście
+63	1063	przedstawiciel	przedstawiciela przedstawicielach przedstawicielami przedstawiciele przedstawicielek przedstawicielem przedstawicieli przedstawicielka przedstawicielki przedstawicielką przedstawicielkę przedstawicielom przedstawicielowi przedstawicielu
+64	1064	cokolwiek	czegokolwiek czemukolwiek czymkolwiek
+65	1065	doprowadzić	doprowadza doprowadzają doprowadzając doprowadzające doprowadzającej doprowadzający doprowadzających doprowadzam doprowadzanie doprowadzać doprowadzał doprowadzała doprowadzało doprowadzały doprowadzenia doprowadzenie doprowadzeniu doprowadzi doprowadzili doprowadziliśmy doprowadzimy doprowadzisz doprowadził doprowadziła doprowadziłaby doprowadziłam doprowadziłaś doprowadziłby doprowadziło doprowadziłoby doprowadziły doprowadzona doprowadzone doprowadzono doprowadzony doprowadzą doprowadzę doprowadź doprowadźcie
+66	1066	lud	luda ludami ludek ludem ludka ludki ludków ludom ludowi ludy ludzie ludów
+67	1067	umieć	umiał umiała umiałabym umiałam umiałaś umiałby umiałbym umiałem umiało umiały umie umiecie umiej umieją umiejąc umiejący umiejących umieli umiem umiemy umiesz
+68	1068	postawić	postaw postawach postawami postawcie postawi postawie postawieni postawienia postawienie postawieniem postawieniu postawili postawiliśmy postawimy postawiona postawione postawionego postawionej postawiono postawiony postawionych postawionym postawionymi postawioną postawisz postawią postawię postawił postawiła postawiłabym postawiłam postawiłbym postawiłem postawiłeś postawiło postawiły postawmy postawy postow
+69	1069	ogłosić	ogłasza ogłaszają ogłaszając ogłaszający ogłaszali ogłaszam ogłaszamy ogłaszane ogłaszania ogłaszanie ogłaszaniu ogłaszano ogłaszany ogłaszać ogłaszał ogłaszała ogłosi ogłosili ogłosiliśmy ogłosimy ogłosisz ogłosił ogłosiła ogłosiło ogłosiły ogłoszeni ogłoszona ogłoszone ogłoszonego ogłoszonej ogłoszono ogłoszony ogłoszonych ogłoszonym ogłoszoną ogłoszą ogłoszę ogłoś
+70	1070	mózg	mózgach mózgami mózgi mózgiem mózgowa mózgowe mózgowego mózgowej mózgowi mózgowo mózgowy mózgowych mózgowym mózgowymi mózgową mózgu mózgów móżdżek móżdżku
+71	1071	reakcja	reakcjach reakcjami reakcje reakcji reakcjom reakcją reakcję
+72	1072	umieścić	umieszcza umieszczają umieszczając umieszczam umieszczamy umieszczana umieszczane umieszczania umieszczanie umieszczaniu umieszczany umieszczanych umieszczać umieszczenia umieszczenie umieszczeniem umieszczeniu umieszczona umieszczone umieszczonego umieszczonej umieszczono umieszczony umieszczonych umieszczonym umieszczonymi umieszczoną umieszczę umieści umieścili umieściliśmy umieścimy umieścisz umieścił umieściła umieściłam umieściłem umieściło umieść
+73	1073	chronić	chroni chronieni chronienia chronienie chronili chronimy chroniona chronione chronionego chronionej chroniony chronionych chronionym chronioną chronią chroniąc chroniąca chroniące chroniącego chroniącej chroniący chroniących chroniącym chroniącą chronił chroniła chroniło chroniły chroń chrońcie chrońmy schronili schronić schronił uchroni uchronią uchronić uchronił uchroniło
+74	1074	złamać	złam złamali złamana złamane złamanego złamano złamany złamanych złamanym złamanymi złamaną złamał złamała złamałam złamałaś złamałem złamało złamały złamie złamiesz złamią łam łamach łamana łamane łamanego łamania łamanie łamaniem łamaniu łamanym łamać łamał łamie łamiesz łamią łamiąc łamiący łamię
+75	1075	poinformować	informowali informowana informowania informowanie informowaniu informowano informowany informować informował informowała informowało informowały informuj informuje informujemy informujesz informują informując informująca informujące informujący informujących informuję poinformowali poinformowana poinformowane poinformowani poinformowania poinformowanie poinformowano poinformowany poinformował poinformowała poinformowało poinformowały poinformuj poinformuje poinformujemy poinformuję
+76	1076	obóz	obozach obozami obozem obozie obozowa obozowe obozowego obozowej obozowi obozowy obozowych obozowym obozową obozu obozy obozów
+77	1077	rosnąć	rosną rosnąc rosnąca rosnące rosnący rosnących rosnę rosła rosło rosły rośli rośnie rośniemy rośnij rósł urosną urosnąć urosła urosło urosły urośli urośnie urośniesz urósł
+78	1078	wybierać	wybiera wybieracie wybieraj wybierajcie wybierajmy wybierają wybierając wybierający wybierających wybierali wybieraliśmy wybieram wybieramy wybierana wybierane wybieranego wybierani wybierania wybieranie wybieraniem wybieraniu wybierano wybierany wybieranych wybieranym wybierasz wybierał wybierała wybierałam wybierałaś wybierałem wybierało wybierały
+79	1079	opieka	opiece opieki opieką opiekę
+80	1080	klucz	klucza kluczach kluczami klucze kluczem kluczowa kluczowe kluczowego kluczowej kluczowi kluczowy kluczowych kluczowym kluczowymi kluczową kluczu kluczy kluczyk kluczyka kluczykami kluczyki kluczykiem kluczyków
+81	1081	cóż	coz czegóż czemuż czymże cóz
+82	1082	żart	żarcia żarcie żarciem żarcik żarciki żarcików żarciu żartach żartami żartem żartu żarty żartów
+83	1083	zejść	schodzenia schodzenie schodzi schodzili schodzimy schodzisz schodzić schodził schodziła schodziłem schodziły schodzą schodząc schodzący schodzę zejdzie zejdziesz zejdą zejdę zejdź zejdźcie zejścia zejście zejściem zejściu zeszli zeszliśmy zeszła zeszłam zeszłe zeszłego zeszłej zeszło zeszły zeszłych zeszłym zeszłą zszedł zszedłem
+84	1084	chuj	chuja chujami chuje chujek chujem chujku chujowi chuju chujów huj huja huju
+85	1085	wydanie	wydania wydaniach wydaniami wydaniem wydaniu wydań
+86	1086	pas	pasa pasach pasami paseczki pasek pasem pasie paska paskach paskami paski paskiem pasku pasków pasu pasy pasów
+87	1087	wschód	wschodem wschodowi wschodu wschody wschodzie
+88	1088	ocena	ocen ocenach ocenami ocenie oceny oceną ocenę
+89	1089	łączyć	łącz łączcie łączenia łączenie łączeniem łączeniu łączmy łączona łączone łączonego łączonej łączono łączony łączonych łączy łączyli łączymy łączysz łączył łączyła łączyło łączyły łączą łącząc łącząca łączące łączącego łączącej łączący łączących łączącym łączącymi łączącą łączę
+90	1090	odwiedzić	odwiedza odwiedzają odwiedzając odwiedzający odwiedzających odwiedzającym odwiedzali odwiedzam odwiedzamy odwiedzana odwiedzane odwiedzania odwiedzanie odwiedzany odwiedzanych odwiedzanym odwiedzasz odwiedzać odwiedzał odwiedzała odwiedzałem odwiedzenia odwiedzenie odwiedzi odwiedzili odwiedziliśmy odwiedzimy odwiedzisz odwiedził odwiedziła odwiedziłam odwiedziłem odwiedziłeś odwiedziło odwiedziły odwiedzą odwiedzę odwiedź odwiedźcie
+91	1091	podatek	podatkach podatkami podatki podatkiem podatkom podatkowi podatku podatków
+92	1092	połączenie	połączenia połączeniach połączeniami połączeniem połączeniu połączeń
+93	1093	wymienić	wymieni wymienia wymieniaj wymieniają wymieniając wymieniali wymienialiśmy wymieniam wymieniamy wymieniana wymieniane wymienianie wymieniany wymienianych wymieniasz wymieniać wymieniał wymienieni wymienili wymieniliśmy wymienimy wymieniona wymienione wymienionego wymienionej wymieniono wymieniony wymienionych wymienionym wymienionymi wymienisz wymienią wymienię wymienił wymieniła wymieniłam wymieniłem wymieniłeś wymień
+94	1094	zaatakować	atakowali atakowana atakowane atakowani atakowania atakowanie atakowany atakować atakował atakowała atakowały atakuj atakuje atakujesz atakują atakując atakująca atakujące atakującego atakujący atakujących atakującym atakującą atakuję zaatakowali zaatakowana zaatakowane zaatakowani zaatakowania zaatakowanie zaatakowaniu zaatakowano zaatakowany zaatakował zaatakowała zaatakowało zaatakowały zaatakuje zaatakują
+95	1095	zabawa	zabaw zabawach zabawami zabawie zabawy zabawą zabawę
+96	1096	uratować	ratowali ratowania ratowanie ratowaniem ratowaniu ratować ratował ratowała ratuj ratujcie ratuje ratujemy ratujesz ratujmy ratują ratując ratujący ratujących ratuję uratowali uratowana uratowane uratowani uratowania uratowanie uratowaniu uratowano uratowany uratowanych uratował uratowała uratowałam uratowałaś uratowałeś uratowało uratowały uratuj uratuje uratują
+97	1097	kanał	kanale kanałach kanałami kanałem kanału kanały kanałów
+98	1098	fan	fana fanach fanami fance fanek fanem fani fanie fanka fankami fanki fankę fanom fanowi fanowska fanowskich fanowskie fanów
+99	1099	polegać	polega polegaj polegają polegając polegająca polegające polegającego polegającej polegający polegających polegającym polegającą polegamy polegania poleganie polegał polegała polegało polegały
+100	1100	ładny	najładniejszy ładna ładne ładnego ładnej ładni ładniejsza ładniejsze ładniejszej ładniejszy ładniejszych ładniejszą ładniutka ładniutki ładniutkie ładnych ładnym ładnymi ładną

@@ -1,0 +1,100 @@
+1	5601	blask	blaski blaskiem blasku
+2	5602	podekscytowany	podekscytowana podekscytowane podekscytowani podekscytowania podekscytowanie
+3	5603	przytoczyć	przytacza przytaczają przytaczając przytaczam przytaczamy przytaczane przytaczanie przytaczany przytaczać przytaczał przytoczenie przytoczona przytoczone przytoczonej przytoczono przytoczony przytoczonych przytoczonym przytoczysz przytoczył przytoczyłem przytoczę
+4	5604	batalion	batalionach batalionem batalionie batalionu bataliony batalionów
+5	5605	kreatywność	kreatywności kreatywnością
+6	5606	zburzyć	burz burzenia burzenie burzy burzyć burzył burzą burząc burzę zburzenia zburzenie zburzeniu zburzona zburzone zburzono zburzony zburzonym zburzy zburzyli zburzył zburzyła zburzyło zburzyły
+7	5607	wpadka	wpadce wpadek wpadkach wpadkami wpadki wpadką wpadkę
+8	5608	wysuszyć	suszenia suszenie suszeniu suszona suszone suszonego suszonej suszony suszonych suszonymi suszoną suszy suszymy suszyć suszą suszę wysusz wysusza wysuszenie wysuszeniu wysuszona wysuszone wysuszony wysuszonych wysuszoną
+9	5609	rzetelny	rzetelna rzetelne rzetelnego rzetelnej rzetelni rzetelnych rzetelnym rzetelną
+10	5610	niejaki	niejaka niejakie niejakiego niejakiej niejakiemu niejakim niejaką
+11	5611	rozdanie	rozdania rozdaniem rozdaniu rozdań
+12	5612	fenomen	fenomenem fenomenie fenomenu fenomeny fenomenów
+13	5613	ostrożnie	ostrożniej
+14	5614	głowica	głowic głowicach głowicami głowice głowicy głowicą głowicę
+15	5615	uczęszczać	uczęszcza uczęszczają uczęszczając uczęszczających uczęszczali uczęszczam uczęszczana uczęszczane uczęszczania uczęszczanie uczęszczany uczęszczanych uczęszczanym uczęszczasz uczęszczał uczęszczała uczęszczałam uczęszczałem uczęszczało uczęszczały
+16	5616	sprawnie	sprawniej
+17	5617	umysłowy	umysłowa umysłowe umysłowego umysłowej umysłowi umysłowych umysłowym umysłową
+18	5618	przedłużenie	przedłużenia przedłużeniem przedłużeniu
+19	5619	dobór	doborem doboru doborze
+20	5620	krewny	krewna krewne krewnego krewnej krewni krewnym krewnymi krewną
+21	5621	zezwolić	zezwala zezwalają zezwalając zezwalająca zezwalające zezwalającej zezwalający zezwalającą zezwalam zezwalać zezwalał zezwoli zezwolili zezwolił zezwoliła zezwoliły zezwolono
+22	5622	zaoszczędzić	zaoszczędzenia zaoszczędzenie zaoszczędzi zaoszczędzili zaoszczędzimy zaoszczędzisz zaoszczędził zaoszczędziłam zaoszczędziłem zaoszczędzone zaoszczędzony zaoszczędzę zaoszczędź
+23	5623	wielkanocny	wielkanocna wielkanocne wielkanocnego wielkanocnej wielkanocnych wielkanocnym wielkanocną
+24	5624	komfort	komforcie komfortem komfortu
+25	5625	wspólnik	wspólnicy wspólniczka wspólnika wspólnikami wspólnikiem wspólnikom wspólnikowi wspólników
+26	5626	naprzeciw	
+27	5627	niejednokrotnie	
+28	5628	nieraz	
+29	5629	wysoce	
+30	5630	podporządkować	podporządkowali podporządkowana podporządkowane podporządkowanej podporządkowania podporządkowanie podporządkowaniu podporządkowany podporządkowanym podporządkowaną podporządkował podporządkowuje podporządkowując podporządkowywać podporządkuje podporządkują
+31	5631	rywalizować	rywalizowali rywalizował rywalizowała rywalizowało rywalizowały rywalizuje rywalizują rywalizując rywalizujące rywalizujący rywalizujących rywalizującymi
+32	5632	wykroczenie	wykroczenia wykroczeniem wykroczeń
+33	5633	brzoza	brzozami brzozie brzozowa brzozowe brzozowej brzozowie brzozowy brzozową brzozy brzozów brzozą brzozę brzóz brzózka
+34	5634	wrażliwość	wrażliwości wrażliwością
+35	5635	kucharz	kucharek kucharka kucharki kucharką kucharkę kucharza kucharzami kucharze kucharzem kucharzu kucharzy
+36	5636	zaraza	zarazie zarazo zarazy zarazą zarazę
+37	5637	mąka	mące mączce mączka mączki mączkę mąk mąki mąką mąkę
+38	5638	prymitywny	prymitywna prymitywne prymitywnego prymitywnej prymitywni prymitywnie prymitywnych prymitywnym prymitywnymi prymitywną
+39	5639	siedlisko	siedlisk siedliska siedliskach siedliskiem siedlisku
+40	5640	uzupełnienie	uzupełnienia uzupełnieniem uzupełnieniu uzupełnień
+41	5641	syf	syfa syfem syfie syfu syfy
+42	5642	pożądany	pożądana pożądane pożądanego pożądanej pożądani pożądanych pożądanym pożądaną
+43	5643	es	esy
+44	5644	wychowawca	wychowawcami wychowawcy wychowawczyni wychowawczynie wychowawczynią wychowawczynię wychowawców wychowawcą wychowawcę
+45	5645	odstawić	odstaw odstawi odstawia odstawiają odstawiając odstawiam odstawiamy odstawiać odstawienia odstawienie odstawieniu odstawili odstawiona odstawione odstawiony odstawisz odstawił odstawiła odstawiłam odstawiłem
+46	5646	ano	anu
+47	5647	kaseta	kasecie kaset kasetach kasetami kasetki kasetkę kasetowe kasetowy kasety kasetą kasetę
+48	5648	parodia	parodie parodii parodią parodię
+49	5649	pula	pul pule puli pulą pulę
+50	5650	przepisać	przepisali przepisana przepisane przepisania przepisanie przepisano przepisany przepisał przepisała przepisałam przepisałem przepisuje przepisują przepisując przepisuję przepisywane przepisywania przepisywanie przepisywaniem przepisywaniu przepisywać przepisywał przepisz przepisze przepiszę
+51	5651	długoterminowy	długoterminowa długoterminowe długoterminowego długoterminowej długoterminowo długoterminowych długoterminowym długoterminową
+52	5652	górnictwo	górnictwa górnictwem górnictwie
+53	5653	nadzorczy	nadzorcza nadzorcze nadzorczej nadzorczych nadzorczym nadzorczą
+54	5654	mleczny	mleczna mleczne mlecznego mlecznej mleczno mlecznych mlecznym mleczną
+55	5655	opodatkowanie	opodatkowania opodatkowaniem opodatkowaniu
+56	5656	rekomendacja	rekomendacjach rekomendacje rekomendacji rekomendacją rekomendację
+57	5657	tango	tang tanga tangu
+58	5658	bloger	blogera blogerami blogerek blogerem blogerka blogerki blogerką blogerkę blogerom blogerze blogerzy blogerów
+59	5659	psychika	psychice psychiki psychiką psychikę
+60	5660	szkolić	szkol szkoleni szkoli szkolili szkolimy szkolił szkoliła szkolona szkolone szkolono szkolony szkolonych szkolą szkoląc szkolę szkól
+61	5661	potok	potokach potokami potoki potokiem potoku potoków
+62	5662	podwyższyć	podwyższa podwyższają podwyższając podwyższania podwyższanie podwyższać podwyższona podwyższone podwyższonego podwyższonej podwyższono podwyższony podwyższonych podwyższonym podwyższoną podwyższy podwyższyli podwyższył podwyższyła
+63	5663	sekta	sekcie sekt sektach sektami sekty sektą sektę
+64	5664	celowy	celowa celowe celowego celowej celowi celowych celowym celową
+65	5665	archeologiczny	archeologiczna archeologiczne archeologicznego archeologicznej archeologiczno archeologicznych archeologicznym archeologicznymi archeologiczną
+66	5666	cukierek	cukiereczek cukiereczku cukierka cukierkami cukierki cukierkiem cukierku cukierków
+67	5667	odgłos	odgłosach odgłosami odgłosem odgłosu odgłosy odgłosów
+68	5668	utopić	topi topienia topienie topią topiąc topić topię topił utop utopi utopienie utopili utopimy utopiona utopione utopiony utopisz utopią utopię utopił utopiła utopiłem
+69	5669	zamrozić	mrozi mrozić mrożenia mrożenie mrożona mrożone mrożonego mrożonej mrożony mrożonych mrożoną mrożące zamraża zamrażania zamrażanie zamrażać zamroził zamroziła zamrożenia zamrożenie zamrożeniu zamrożona zamrożone zamrożonego zamrożono zamrożony zamrożonych zamrożonym zmrożone
+70	5670	boks	boksach boksem boksie boksu boksy boksów
+71	5671	susza	susz susze suszu suszy suszą suszę
+72	5672	błogosławiony	błogosławieni błogosławiona błogosławione błogosławionego błogosławionej błogosławionych błogosławionym błogosławioną
+73	5673	ziemny	ziemna ziemne ziemnego ziemnej ziemnych ziemnym ziemnymi ziemną
+74	5674	pokarm	pokarmem pokarmie pokarmu pokarmy pokarmów
+75	5675	rabat	rabacie rabatach rabatami rabatem rabatu rabaty
+76	5676	obyczaj	obyczajach obyczajami obyczaje obyczajem obyczaju obyczajów
+77	5677	szlachta	szlachcie szlachty szlachtą szlachtę
+78	5678	syrena	syren syrenami syrenie syrenka syrenki syrenką syrenkę syreny syreną syrenę
+79	5679	podły	pele podle podlej podli podła podłe podłego podłej podłych podłym podłą
+80	5680	kaliber	kalibrem kalibru kalibry kalibrze kalibrów
+81	5681	koryto	korycie koryt koryta korytach korytem korytka korytko
+82	5682	wystrzelić	wystrzelenia wystrzelenie wystrzeleniu wystrzeli wystrzelili wystrzeliwane wystrzeliwuje wystrzelił wystrzeliła wystrzeliło wystrzeliły wystrzelona wystrzelone wystrzelono wystrzelony wystrzelonych wystrzelą
+83	5683	korek	korka korkach korkami korkiem korkowa korkowe korkowej korkową korku korków
+84	5684	kończyna	kończyn kończynach kończynami kończynie kończyny kończyną kończynę
+85	5685	adopcja	adopcje adopcji adopcją adopcję
+86	5686	bransoletka	bransolet bransoleta bransoletce bransoletek bransoletkach bransoletkami bransoletki bransoletką bransoletkę bransolety bransoletą bransoletę
+87	5687	pobudzić	pobudza pobudzają pobudzając pobudzające pobudzający pobudzających pobudzającym pobudzane pobudzania pobudzanie pobudzać pobudzenia pobudzenie pobudzeniem pobudzeniu pobudzi pobudził pobudziła pobudziło pobudzona pobudzone pobudzony
+88	5688	body	
+89	5689	niespodziewanie	
+90	5690	obojętnie	
+91	5691	wanta	want
+92	5692	czerń	czerni czernią
+93	5693	przykładowy	przykładowa przykładowe przykładowego przykładowych przykładowym przykładowymi przykładową
+94	5694	łopata	łopacie łopat łopatami łopatce łopatek łopatka łopatkach łopatkami łopatki łopatką łopatkę łopaty łopatą łopatę
+95	5695	taktyczny	taktyczna taktyczne taktycznego taktycznej taktycznie taktyczno taktycznych taktycznym taktyczną
+96	5696	biel	biele bieli bielą bil
+97	5697	namalować	namalowali namalowana namalowane namalowania namalowanie namalowano namalowany namalowanych namalowanym namalowaną namalował namalowała namalowałam namaluj namaluje
+98	5698	koncentracyjny	koncentracyjne koncentracyjnego koncentracyjnych koncentracyjnym
+99	5699	poszanowanie	poszanowania poszanowaniem poszanowaniu
+100	5700	wydawniczy	wydawnicza wydawnicze wydawniczego wydawniczej wydawniczo wydawniczych wydawniczym wydawniczą

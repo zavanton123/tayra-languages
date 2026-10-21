@@ -1,0 +1,100 @@
+1	6101	szczerość	szczerości szczerością
+2	6102	stabilizacja	stabilizacji stabilizacją stabilizację
+3	6103	przedostać	przedostaje przedostają przedostali przedostania przedostanie przedostaniu przedostawać przedostał przedostała przedostało przedostały
+4	6104	zaopatrzyć	zaopatruje zaopatrujemy zaopatrują zaopatrując zaopatrujących zaopatrywane zaopatrywania zaopatrywanie zaopatrywać zaopatrywał zaopatrzeni zaopatrzona zaopatrzone zaopatrzonego zaopatrzono zaopatrzony zaopatrzonych zaopatrzonym zaopatrzoną zaopatrzył
+5	6105	pożytek	pożytki pożytkiem pożytku pożytków
+6	6106	piorun	pieron pioruna piorunami piorunem pioruny piorunów
+7	6107	sponsorować	sponsorowana sponsorowane sponsorowanego sponsorowanej sponsorowani sponsorowania sponsorowanie sponsorowany sponsorowanych sponsorowanym sponsorowaną sponsorował sponsorowała sponsoruje sponsorują zasponsorować
+8	6108	odnawialny	odnawialna odnawialne odnawialnego odnawialnej odnawialnych odnawialną
+9	6109	zniechęcić	zniechęca zniechęcaj zniechęcają zniechęcające zniechęcać zniechęceni zniechęcenia zniechęcenie zniechęci zniechęcili zniechęcił zniechęciła zniechęciło zniechęcony
+10	6110	pierwiastek	pierwiastka pierwiastkami pierwiastki pierwiastkiem pierwiastków
+11	6111	strzelanina	strzelanin strzelaninach strzelaninie strzelaniny strzelaniną strzelaninę
+12	6112	przystać	przystaje przystajesz przystają przystali przystanie przystał przystała przystało przystoi
+13	6113	objawiać	objawi objawia objawiają objawiająca objawiające objawiający objawiającą objawiał objawiała objawiona objawione objawionej objawiony objawioną objawić objawił objawiła objawiło objawiły
+14	6114	przeczucie	przeczucia przeczuciem przeczuwa przeczuwając przeczuwam przeczuwał przeczuwałam przeczuć
+15	6115	niewinność	niewinności niewinnością
+16	6116	płótno	płócien płótna płótnach płótnem płótnie
+17	6117	pornografia	pornografii pornografią pornografię
+18	6118	pośpiech	pośpiechem pośpiechu
+19	6119	tkanina	tkanin tkaninach tkaninami tkaninie tkaniny tkaniną tkaninę
+20	6120	powrotny	powrotna powrotne powrotnego powrotnej powrotnym powrotną
+21	6121	dorobić	dorabia dorabiają dorabiający dorabiam dorabiania dorabianie dorabiasz dorabiać dorabiał dorabiała dorabiałem dorobi dorobienia dorobili dorobiliśmy dorobisz dorobię dorobił dorobiła dorobiłem
+22	6122	okrążenie	okrążenia okrążeniach okrążeniu okrążeń
+23	6123	jedwab	jedwabie jedwabiem jedwabiu jedwabna jedwabne jedwabnego jedwabnej jedwabno jedwabny jedwabnych jedwabnym jedwabną
+24	6124	pięta	pięcie pięt piętach piętami piętek piętka piętki piętkę pięty piętą piętę
+25	6125	autyzm	autyzmem autyzmie autyzmu
+26	6126	romeo	romea
+27	6127	fabularny	fabularna fabularne fabularnego fabularnej fabularnie fabularnych fabularnym fabularnymi fabularną
+28	6128	alimenty	alimentach alimentami alimentów lament lamentu lamenty
+29	6129	jagoda	jagodami jagodowa jagodowe jagodowy jagody jagodą jagodę jagód jagódka
+30	6130	przewodni	przewodnia przewodnich przewodnie przewodniego przewodniej przewodnim przewodnią
+31	6131	podkarpacki	podkarpacka podkarpackich podkarpackie podkarpackiego podkarpackiej podkarpackim podkarpacką
+32	6132	limuzyna	limuzyn limuzynami limuzynie limuzyny limuzyną limuzynę
+33	6133	drama	dram dramami dramatach dramatów dramie dramy dramą dramę
+34	6134	czarodziej	czarodziei czarodzieja czarodziejami czarodzieje czarodziejem czarodziejka czarodziejki czarodzieju czarodziejów
+35	6135	hodować	hodowali hodowana hodowane hodowania hodowanie hodowano hodowany hodowanych hodował hoduje hodujemy hodujesz hodują wyhodowali wyhodowana wyhodowane wyhodowania wyhodowanie wyhodowano wyhodowany wyhodowanych wyhodować wyhodował wyhoduj
+36	6136	aka	
+37	6137	country	
+38	6138	dobrowolnie	
+39	6139	girlsa	girls
+40	6140	konsekwentnie	
+41	6141	niezmiernie	
+42	6142	przytomność	przytomności
+43	6143	dwieście	dwustu
+44	6144	tapeta	tapecie tapet tapetami tapety tapetą tapetę
+45	6145	jad	jadem jadu jadzie jadów
+46	6146	normalność	normalności normalnością
+47	6147	palny	palna palne palnej palnych palną
+48	6148	ingerencja	ingerencje ingerencji ingerencją ingerencję
+49	6149	fejs	fejsa fejsie
+50	6150	bogdan	bogdana bogdanem bogdanka
+51	6151	odłączyć	odłącz odłącza odłączam odłączania odłączanie odłączać odłączenia odłączenie odłączeniu odłączona odłączone odłączono odłączony odłączy odłączyli odłączył odłączyła odłączyłem
+52	6152	praktykować	praktykowali praktykowana praktykowane praktykowania praktykowanie praktykowano praktykowany praktykowanych praktykowaną praktykował praktykowała praktykuje praktykują praktykując praktykujące praktykujący praktykujących praktykuję
+53	6153	dżungla	dżungle dżungli dżunglą dżunglę
+54	6154	tyczyć	tyczy tyczyły tyczą
+55	6155	pianino	pianin pianina pianinem pianinie
+56	6156	rzeczowy	rzeczowa rzeczowe rzeczowego rzeczowej rzeczowo rzeczowych rzeczowym rzeczową
+57	6157	czarnoskóry	czarnoskóra czarnoskóre czarnoskórego czarnoskórej czarnoskórych czarnoskórym czarnoskórzy czarnoskórą
+58	6158	celować	celowali celowane celowania celowanie celował celowała celuj celuje celujemy celujesz celują celując celująco celujący celuję wycelowana wycelowane wycelowany wycelować wycelował
+59	6159	rozstanie	rozstania rozstaniem rozstaniu rozstań
+60	6160	truskawka	truskawek truskawkami truskawki truskawką truskawkę
+61	6161	załapać	załapali załapał załapała załapałam załapałem załapałeś załapie załapiesz załapią
+62	6162	wątpliwy	wątpliwa wątpliwe wątpliwego wątpliwej wątpliwie wątpliwych wątpliwym wątpliwą
+63	6163	kebab	kebaba kebabami kebabem kebabie kebabu kebaby kebabów
+64	6164	ar	ara aro ary arów
+65	6165	zabudować	zabudowana zabudowane zabudowanego zabudowanej zabudowania zabudowanie zabudowany zabudowanych zabudowanym zabudowaną zabudowań
+66	6166	prototyp	prototypem prototypie prototypu prototypy prototypów
+67	6167	wywieźć	wywiezieni wywiezienia wywiezienie wywieziona wywiezione wywieziono wywieziony wywiezionych wywieźli wywiozą wywiozła wywiózł wywozi wywozili wywozimy wywozić wywożenia wywożenie wywożone wywożono wywożonych wywożą
+68	6168	publicysta	publicystka publicysty publicystów publicystą publicyści
+69	6169	pośrednik	pośrednicy pośredniczki pośrednika pośrednikami pośrednikiem pośredników
+70	6170	patronat	patronatem patronatu patronaty
+71	6171	ocalały	ocalali ocalała ocalałe ocalałego ocalałej ocalałych ocalałym ocalałymi ocalałą
+72	6172	trans	transie transu
+73	6173	pograć	pogra pograj pogram pograsz pograł pograłem pogrywa pogrywają pogrywam pogrywać
+74	6174	kpina	kpin kpiny kpiną kpinę
+75	6175	komandor	komandora komandorem komandorowi
+76	6176	azyl	azylem azylu
+77	6177	wskoczyć	wskakiwać wskakuj wskakujcie wskakuje wskakują wskakując wskocz wskoczy wskoczyli wskoczył wskoczyła wskoczyłam wskoczyłem wskoczyło wskoczą
+78	6178	kontrast	kontrastem kontrastu kontrasty kontrastów kontraście
+79	6179	łapówka	łapówek łapówki łapówką łapówkę
+80	6180	napędowy	napędowa napędowe napędowego napędowej napędowi napędowych napędowym napędowymi napędową
+81	6181	uplasować	plasował plasuje plasują plasując uplasowali uplasował uplasowała uplasowało uplasowały
+82	6182	niepowodzenie	niepowodzenia niepowodzeniach niepowodzeniami niepowodzeniem niepowodzeniu niepowodzeń
+83	6183	odrobić	odrabia odrabiają odrabiam odrabiamy odrabiania odrabianie odrabianiu odrabiasz odrabiać odrabiał odrobi odrobienia odrobienie odrobili odrobimy odrobiona odrobione odrobisz odrobię odrobił odrobiła odrobiłam odrobiłaś odrobiłeś odrób
+84	6184	ćwierćfinał	ćwierćfinale ćwierćfinałach ćwierćfinałowe ćwierćfinałowych ćwierćfinałowym ćwierćfinału ćwierćfinały ćwierćfinałów
+85	6185	leczniczy	lecznicza lecznicze leczniczego leczniczej leczniczo leczniczych leczniczym leczniczymi leczniczą
+86	6186	parasol	parasola parasolami parasole parasolem parasoli
+87	6187	kurski	kurskiego kurskiemu kurskim
+88	6188	cytryna	cytryn cytrynka cytryny cytryną cytrynę
+89	6189	powieka	powiece powiek powiekach powiekami powieki powieką powiekę
+90	6190	handlarz	handlarza handlarzami handlarze handlarzem handlarzom handlarzowi handlarzy
+91	6191	tablet	tablecie tabletami tabletem tabletu tablety tabletów
+92	6192	zjebany	zjebana zjebane zjebanego zjebanej zjebani zjebanie zjebanych zjebanym zjebanymi zjebaną
+93	6193	pasażerski	pasażerska pasażerskich pasażerskie pasażerskiego pasażerskiej pasażerskim pasażerską
+94	6194	instancja	instancjach instancje instancji instancją instancję
+95	6195	dopaść	dopada dopadają dopadli dopadnie dopadną dopadnę dopadł dopadła dopadło dopadły
+96	6196	biblijny	biblijna biblijne biblijnego biblijnej biblijnych biblijnym biblijnymi biblijną
+97	6197	wodospad	wodospadach wodospadami wodospadem wodospadu wodospady wodospadzie wodospadów
+98	6198	inspekcja	inspekcje inspekcji inspekcją inspekcję
+99	6199	bynajmniej	
+100	6200	kurny	kurna

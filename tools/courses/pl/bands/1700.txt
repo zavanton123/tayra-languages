@@ -1,0 +1,100 @@
+1	1601	i_tak_dalej	itd
+2	1602	niedawno	
+3	1603	ostatecznie	
+4	1604	pokolenie	pokolenia pokoleniach pokoleniami pokoleniem pokoleniom pokoleniowa pokoleniowej pokoleniu pokoleń
+5	1605	wodny	wodna wodne wodnego wodnej wodni wodno wodnych wodnym wodnymi wodną
+6	1606	gej	geja gejach gejami geje gejem gejom gejowska gejowski gejowskich gejowskie gejowskiego gejowskiej gejowskim gejowsko gejowską geju gejów
+7	1607	świadczyć	świadczenia świadczeniach świadczeniami świadczenie świadczeniem świadczeniu świadczeń świadczona świadczone świadczonych świadczy świadczyli świadczymy świadczył świadczyła świadczyło świadczyły świadczą świadcząc świadcząca świadczące świadczącej świadczący świadczących świadczącym świadczącą świadczę
+8	1608	podejmować	podejmowali podejmowana podejmowane podejmowanej podejmowania podejmowanie podejmowaniem podejmowaniu podejmowano podejmowany podejmowanych podejmowanym podejmowanymi podejmował podejmowała podejmowało podejmowały podejmuj podejmuje podejmujemy podejmujesz podejmują podejmując podejmująca podejmujące podejmujący podejmujących podejmuję
+9	1609	wiosna	wiosen wiosno wiosny wiosną wiosnę wiośnie
+10	1610	wymyślić	wymyśl wymyśla wymyślają wymyślając wymyślam wymyślamy wymyślania wymyślanie wymyślaniu wymyślasz wymyślać wymyślał wymyślcie wymyślenia wymyślenie wymyśli wymyślicie wymyślili wymyśliliśmy wymyślimy wymyślisz wymyślił wymyśliła wymyśliłam wymyśliłaś wymyśliłem wymyśliłeś wymyśliły wymyślona wymyślone wymyślonego wymyślonej wymyślono wymyślony wymyślonych wymyślonym wymyśloną wymyślą wymyślę
+11	1611	świadomość	świadomości świadomością
+12	1612	śmiać	śmiali śmialiście śmialiśmy śmiania śmianie śmiał śmiała śmiałabym śmiałam śmiałaś śmiałbym śmiałe śmiałego śmiałej śmiałem śmiały śmiałych śmiałym śmiałyśmy śmiałą śmiej śmiejcie śmieje śmiejecie śmiejemy śmiejesz śmiejmy śmieją śmiejąc śmiejąca śmiejące śmiejący śmieję śmielej śmieli
+13	1613	poniedziałek	poniedziałki poniedziałkiem poniedziałkowa poniedziałkowe poniedziałkowego poniedziałkowej poniedziałkowy poniedziałkowych poniedziałkowym poniedziałkową poniedziałku poniedziałków
+14	1614	ćwiczyć	ćwicz ćwiczenia ćwiczeniach ćwiczeniami ćwiczenie ćwiczeniem ćwiczeniom ćwiczeniu ćwiczeń ćwiczy ćwiczycie ćwiczyli ćwiczyliście ćwiczyliśmy ćwiczymy ćwiczysz ćwiczył ćwiczyła ćwiczyłam ćwiczyłaś ćwiczyłem ćwiczyły ćwiczą ćwicząc ćwiczących ćwiczę
+15	1615	dotknąć	dotknie dotkniesz dotknij dotknięci dotknięcia dotknięcie dotknięciu dotknięta dotknięte dotkniętej dotknięty dotkniętych dotkniętym dotkną dotknął dotknąłem dotknąłeś dotknę dotknęła dotknęłam dotknęło dotknęły dotyka dotykaj dotykajcie dotykają dotykając dotykających dotykali dotykam dotykamy dotykania dotykanie dotykasz dotykać dotykał dotykała dotykałem dotykały
+16	1616	katastrofa	katastrof katastrofach katastrofami katastrofie katastrofy katastrofą katastrofę
+17	1617	kamera	kamer kamerach kamerami kamerka kamerki kamery kamerze kamerą kamerę
+18	1618	niebieski	niebiescy niebieska niebieskich niebieskie niebieskiego niebieskiej niebieskim niebieskimi niebiesko niebieską
+19	1619	kino	kin kina kinach kinami kinem kinie kinu
+20	1620	płeć	płci płciami płcie płcią
+21	1621	ramię	ramienia ramieniem ramieniu ramienna ramiennego ramiennej ramienny ramion ramiona ramionach ramionami
+22	1622	rządzić	rządzenie rządzi rządzili rządzimy rządził rządziła rządziło rządziły rządzona rządzone rządzony rządzą rządząca rządzące rządzący rządzę rządź
+23	1623	uchodźca	uchodźcach uchodźcami uchodźcom uchodźcy uchodźców uchodźcą uchodźcę
+24	1624	wątpliwość	wątpliwości wątpliwościach wątpliwościami
+25	1625	przeszkadzać	przeszkadza przeszkadzaj przeszkadzajcie przeszkadzają przeszkadzali przeszkadzam przeszkadzamy przeszkadzania przeszkadzanie przeszkadzasz przeszkadzał przeszkadzała przeszkadzało przeszkadzałoby przeszkadzały przeszkodzi przeszkodzić przeszkodził przeszkodziła przeszkodziło przeszkodziły
+26	1626	poczuć	poczuj poczujcie poczuje poczujecie poczujemy poczujesz poczują poczuję poczuli poczuliśmy poczuł poczuła poczułam poczułaś poczułby poczułem poczułeś poczuło poczuły
+27	1627	fala	fal falach falami fale fali falom falowe falowy falą falę
+28	1628	sugerować	sugerowali sugerowana sugerowane sugerowania sugerowanie sugerowano sugerowanych sugerował sugerowała sugerowałbym sugerowałem sugerowało sugerowałoby sugerowały sugeruj sugeruje sugerujecie sugerujemy sugerujesz sugerują sugerując sugerująca sugerujące sugerujący sugerujących sugeruję zasugerowali zasugerowanie zasugerowano zasugerować zasugerował zasugerowała zasugerowałem zasugerowałeś zasugerowało zasugeruje
+29	1629	chęć	chęci chęcia chęciach chęciami chęcią
+30	1630	reprezentować	reprezentowali reprezentowana reprezentowane reprezentowanego reprezentowanej reprezentowani reprezentowania reprezentowanie reprezentowaniem reprezentowany reprezentowanych reprezentowanym reprezentowaną reprezentował reprezentowała reprezentowało reprezentowały reprezentuje reprezentujecie reprezentujemy reprezentujesz reprezentują reprezentując reprezentująca reprezentujące reprezentującego reprezentującej reprezentujący reprezentujących reprezentującym reprezentującymi reprezentującą reprezentuję
+31	1631	cholera	cholero cholery cholerą cholerę
+32	1632	pochodzenie	pochodzenia pochodzeniem pochodzeniu
+33	1633	sesja	sesjach sesjami sesje sesji sesją sesję sesyjny sesyjnych
+34	1634	wprowadzać	wprowadza wprowadzacie wprowadzaj wprowadzajcie wprowadzają wprowadzając wprowadzająca wprowadzające wprowadzającego wprowadzającej wprowadzający wprowadzających wprowadzającym wprowadzającą wprowadzali wprowadzam wprowadzamy wprowadzana wprowadzane wprowadzani wprowadzania wprowadzanie wprowadzaniem wprowadzaniu wprowadzano wprowadzany wprowadzanych wprowadzanymi wprowadzasz wprowadzał wprowadzała wprowadzałem wprowadzało wprowadzały
+35	1635	rolnik	rolnicy rolnicza rolnicze rolniczego rolniczej rolniczo rolniczy rolniczych rolniczym rolniczymi rolniczą rolnika rolnikami rolnikiem rolnikom rolnikowi rolników
+36	1636	przeciwnik	przeciwnicy przeciwniczka przeciwniczką przeciwnika przeciwnikach przeciwnikami przeciwnikiem przeciwnikom przeciwnikowi przeciwniku przeciwników
+37	1637	darmowy	darmowa darmowe darmowego darmowej darmowych darmowym darmowymi darmową
+38	1638	kiedykolwiek	
+39	1639	póki	
+40	1640	wystawa	wystaw wystawach wystawami wystawie wystawka wystawowe wystawowy wystawy wystawą wystawę
+41	1641	zamiar	zamiarach zamiarami zamiarem zamiarom zamiaru zamiary zamiarze zamiarów
+42	1642	wypełnić	wypełni wypełnia wypełniają wypełniając wypełniające wypełniam wypełniamy wypełniania wypełnianie wypełnianiu wypełniasz wypełniać wypełniał wypełniała wypełniały wypełnienia wypełnienie wypełnieniem wypełnieniu wypełnij wypełnili wypełniona wypełnione wypełnionego wypełnionej wypełniono wypełniony wypełnionych wypełnionym wypełnionymi wypełnioną wypełnisz wypełnią wypełnił wypełniła wypełniłam wypełniłem wypełniło wypełniły
+43	1643	umiejętność	umiejętności umiejętnościach umiejętnościami umiejętnościom umiejętnością
+44	1644	dach	dachach dachami dachem dachowa dachowe dachowego dachowej dachowy dachowych dachową dachu dachy dachów dak daszek daszka daszki daszkiem daszku
+45	1645	uderzyć	uderz uderza uderzaj uderzają uderzając uderzająca uderzające uderzającej uderzająco uderzający uderzających uderzającą uderzam uderzamy uderzania uderzanie uderzasz uderzać uderzał uderzała uderzały uderzcie uderzona uderzone uderzono uderzony uderzy uderzyli uderzysz uderzył uderzyła uderzyłam uderzyłaś uderzyłem uderzyłeś uderzyło uderzyły uderzą uderzę
+46	1646	stop	stopach stopami stopem stopie stopom stopu stopy stopów
+47	1647	zamach	zamachach zamachami zamachem zamachom zamachowi zamachowym zamachu zamachy zamachów
+48	1648	demokratyczny	demokratyczna demokratyczne demokratycznego demokratycznej demokratyczni demokratycznie demokratyczno demokratycznych demokratycznym demokratycznymi demokratyczną
+49	1649	skierować	skierowali skierowaliśmy skierowana skierowane skierowanego skierowanej skierowani skierowania skierowanie skierowaniem skierowaniu skierowano skierowany skierowanych skierowanym skierowanymi skierowaną skierował skierowała skierowałam skierowałem skierowało skierowały skieruj skieruje skierujemy skierujmy skierują
+50	1650	przerwa	przerw przerwach przerwami przerwie przerwy przerwą przerwę
+51	1651	ton	tonach tonami tonem tonie tonowe tonowego tonowy tonu tony tonów
+52	1652	sąsiad	sąsiada sąsiadach sąsiadami sąsiadem sąsiadka sąsiadom sąsiadowi sąsiadów sąsiedzi sąsiedzie
+53	1653	ekspert	eksperci ekspercie eksperckich eksperckie eksperckiego eksperckiej eksperta ekspertami ekspertem ekspertka ekspertom ekspertów
+54	1654	prowincja	prowincjach prowincjami prowincje prowincji prowincją prowincję
+55	1655	wstać	wstaje wstajecie wstajemy wstajesz wstają wstając wstaję wstali wstaliście wstaliśmy wstanie wstaniecie wstaniemy wstaniesz wstaną wstanę wstawaj wstawania wstawanie wstawaniem wstawaniu wstawać wstawał wstawała wstawałam wstawałem wstał wstała wstałam wstałaś wstałem wstałeś wstało wstały wstań wstańcie
+56	1656	zmarły	zmarli zmarła zmarłe zmarłego zmarłej zmarłemu zmarłych zmarłym zmarłymi zmarłą
+57	1657	organ	organach organami organem organie organom organowej organowi organowy organu organy organów
+58	1658	zagrać	zagra zagracie zagraj zagrajcie zagrajmy zagrają zagrali zagraliśmy zagram zagramy zagrana zagrane zagrania zagranie zagraniem zagraniu zagrano zagrany zagranych zagrasz zagrał zagrała zagrałby zagrałem zagrało zagrały zagrań
+59	1659	kryzys	kryzysach kryzysami kryzysem kryzysie kryzysom kryzysowi kryzysu kryzysy kryzysów
+60	1660	wymiana	wymian wymianach wymianami wymianie wymiany wymianą wymianę
+61	1661	dochodzić	dochodzi dochodzili dochodzimy dochodzisz dochodził dochodziła dochodziłem dochodziło dochodziły dochodzone dochodzą dochodząc dochodząca dochodzące dochodzącej dochodzący dochodzących dochodzącym dochodzącą dochodzę
+62	1662	inicjatywa	inicjatyw inicjatywach inicjatywami inicjatywie inicjatywnej inicjatywom inicjatywy inicjatywą inicjatywę
+63	1663	tom	tomach tomami tomem tomie tomik tomiki tomikiem tomiku tomików tomowi tomu tomy tomów
+64	1664	oczywisty	oczywista oczywiste oczywistego oczywistej oczywistych oczywistym oczywistymi oczywistą oczywiści
+65	1665	perspektywa	perspektyw perspektywach perspektywami perspektywie perspektywy perspektywą perspektywę
+66	1666	zrealizować	realizowali realizowana realizowane realizowanego realizowanej realizowania realizowanie realizowaniu realizowano realizowany realizowanych realizowanym realizować realizował realizowała realizuje realizujemy realizują realizując realizująca realizujące realizującej realizujący realizujących realizuję zrealizowali zrealizowana zrealizowane zrealizowanego zrealizowania zrealizowanie zrealizowano zrealizowany zrealizowanych zrealizowanym zrealizował zrealizowała zrealizuje zrealizujemy
+67	1667	czwarty	czwarta czwarte czwartego czwartej czwartych czwartym czwartą
+68	1668	śmieć	śmiali śmiał śmiała śmiałabym śmiałam śmiałaś śmiałbym śmiałe śmiałego śmiałej śmiałem śmiały śmiałych śmiałym śmiałyśmy śmiałą śmie śmieci śmiecia śmieciach śmieciami śmiecie śmieciem śmieciu śmiej śmiejcie śmiejmy śmieją śmiejąc śmiejąca śmiejące śmiejącego śmiejący śmiejących śmielej śmieli śmiem śmiesz śmią
+69	1669	miło	milej milusio milutko najmilej
+70	1670	przewodniczący	przewodnicząca przewodniczącego przewodniczącej przewodniczącemu przewodniczących przewodniczącym przewodniczącymi
+71	1671	tuż	
+72	1672	towar	towarach towarami towarem towarowa towarowe towarowego towarowej towarowo towarowy towarowych towarowym towarowymi towarową towaru towary towarze towarów
+73	1673	taniec	taneczna taneczne tanecznego tanecznej taneczno taneczny tanecznych tanecznym tanecznymi taneczną tańca tańcach tańcami tańce tańcem tańcu tańców
+74	1674	powstrzymać	powstrzyma powstrzymacie powstrzymaj powstrzymajcie powstrzymają powstrzymali powstrzymam powstrzymamy powstrzymana powstrzymane powstrzymani powstrzymania powstrzymanie powstrzymaniem powstrzymaniu powstrzymano powstrzymany powstrzymasz powstrzymał powstrzymała powstrzymałam powstrzymałem powstrzymało powstrzymały powstrzymuje powstrzymujesz powstrzymują powstrzymując powstrzymuję powstrzymywania powstrzymywanie powstrzymywać powstrzymywał powstrzymywała powstrzymywało powstrzymywały
+75	1675	elektryczny	elektryczna elektryczne elektrycznego elektrycznej elektrycznie elektryczno elektrycznych elektrycznym elektrycznymi elektryczną
+76	1676	przemoc	przemocy przemocą
+77	1677	cierpieć	cierp cierpi cierpiał cierpiała cierpiałam cierpiałaś cierpiałem cierpiało cierpiały cierpicie cierpie cierpieli cierpimy cierpisz cierpią cierpiąc cierpiąca cierpiące cierpiącego cierpiącej cierpiący cierpiących cierpiącym cierpiącą cierpię
+78	1678	winny	winien winna winne winnego winnej winni winniśmy winno winnych winnym winnymi winną
+79	1679	pobliże	pobliżu pobliży
+80	1680	zamek	zamczyska zamczysko zameczek zameczku zamka zamkach zamkami zamki zamkiem zamkowi zamku zamków
+81	1681	zatrudnić	zatrudni zatrudnia zatrudniają zatrudniając zatrudniająca zatrudniające zatrudniający zatrudniających zatrudniali zatrudniam zatrudniamy zatrudniane zatrudniani zatrudniania zatrudnianie zatrudnianiem zatrudnianiu zatrudniany zatrudnianych zatrudniasz zatrudniać zatrudniał zatrudniała zatrudnieni zatrudnij zatrudnili zatrudnimy zatrudniona zatrudnione zatrudnionej zatrudniono zatrudniony zatrudnionych zatrudnisz zatrudnią zatrudnię zatrudnił zatrudniła zatrudniłem
+82	1682	widz	widza widzach widzami widze widzem widzom widzowi widzowie widzów
+83	1683	przestępstwo	przestępstw przestępstwa przestępstwach przestępstwami przestępstwem przestępstwie przestępstwom
+84	1684	ucho	uch ucha uchem uchu uszach uszami uszkami uszkiem uszko uszom uszu uszy
+85	1685	kontekst	kontekstach kontekstem kontekstu konteksty kontekstów kontekście
+86	1686	wymiar	wymiarach wymiarami wymiarem wymiarowi wymiaru wymiary wymiarze wymiarów
+87	1687	włoski	włoscy włoska włoskich włoskie włoskiego włoskiej włoskiemu włoskim włoskimi włosko włosku włoską
+88	1688	nos	nochal nosa nosami nosek nosem nosie noska noski noskiem nosku nosowa nosowe nosowego nosowej nosowo nosowy nosowych nosową nosy nosów
+89	1689	fabryka	fabryce fabryczna fabryczne fabrycznego fabrycznej fabrycznie fabryczny fabrycznych fabrycznym fabryczną fabryk fabrykach fabrykami fabryki fabrykom fabryką fabrykę
+90	1690	następujący	następująca następujące następującego następującej następujących następującym następującymi następującą
+91	1691	działacz	działacza działaczach działaczami działacze działaczek działaczem działaczka działaczki działaczom działaczy
+92	1692	dosyć	
+93	1693	ha	
+94	1694	zjawisko	zjawisk zjawiska zjawiskach zjawiskami zjawiskiem zjawiskom zjawisku
+95	1695	utwór	utworach utworami utworem utworom utworu utwory utworze utworów
+96	1696	tył	tyłach tyłem tyłowi tyłu tyły tyłów
+97	1697	krzyż	krzyz krzyża krzyżach krzyżami krzyże krzyżem krzyżowi krzyżu krzyży krzyżyk krzyżyka krzyżyki krzyżykiem krzyżyków
+98	1698	palić	pal pala palach palcie pale palenie palicie palili palimy palisz palił paliła paliłam paliłaś paliłem paliłeś paliło paliły palmy palona palone palonego palonej palono palony palonych palu palą paląc paląca palące palącego palącej palący palących palącym palącą palę
+99	1699	regionalny	regionalna regionalne regionalnego regionalnej regionalni regionalnie regionalnych regionalnym regionalnymi regionalną
+100	1700	alkohol	alkoholami alkohole alkoholem alkoholi alkoholu

@@ -1,0 +1,100 @@
+1	1101	słaby	najsłabszy słaba słabe słabego słabej słabi słabiutki słabiutko słabsi słabsza słabsze słabszej słabszy słabszych słabszym słabszymi słabszą słabych słabym słabymi słabą
+2	1102	poważnie	poważniej
+3	1103	europ	europie
+4	1104	interes	interesach interesami interesem interesie interesom interesowi interesu interesy interesów
+5	1105	obserwować	obserwowali obserwowaliśmy obserwowana obserwowane obserwowanego obserwowani obserwowania obserwowanie obserwowano obserwowany obserwowanych obserwowanym obserwował obserwowała obserwowałam obserwowałem obserwowało obserwuj obserwujcie obserwuje obserwujecie obserwujemy obserwujesz obserwują obserwując obserwujący obserwujących obserwuję zaobserwowali zaobserwowaliśmy zaobserwowane zaobserwowania zaobserwowano zaobserwowanych zaobserwować zaobserwował zaobserwowała zaobserwowałam zaobserwowałem
+6	1106	właściwie	właściwiej
+7	1107	względem	
+8	1108	organizować	organizowali organizowana organizowane organizowanego organizowanej organizowania organizowanie organizowaniem organizowaniu organizowano organizowany organizowanych organizowanym organizowanymi organizowaną organizował organizowała organizowałem organizowało organizowały organizuje organizujecie organizujemy organizujesz organizują organizując organizująca organizujące organizującego organizującej organizujący organizujących organizującą organizuję
+9	1109	zgoda	zgody zgodzie zgodą zgodę
+10	1110	skład	składach składami składem składowi składu składy składzie składzik składów
+11	1111	medyczny	medyczna medyczne medycznego medycznej medycznemu medyczni medycznie medyczno medycznych medycznym medycznymi medyczną
+12	1112	włączyć	włącz włącza włączaj włączają włączając włączam włączamy włączania włączanie włączasz włączać włączał włączcie włączenia włączenie włączeniem włączeniu włączona włączone włączonego włączonej włączono włączony włączonych włączonym włączoną włączy włączyli włączyliśmy włączymy włączysz włączył włączyła włączyłam włączyłem włączyło włączyły włączą włączę
+13	1113	kupować	kupowali kupowaliśmy kupowana kupowane kupowania kupowanie kupowaniem kupowaniu kupowano kupowany kupowanych kupowanym kupował kupowała kupowałam kupowałaś kupowałem kupowałeś kupowało kupowały kupuj kupujcie kupuje kupujecie kupujemy kupujesz kupujmy kupują kupując kupujący kupujących kupuję
+14	1114	opis	opisach opisami opisem opisie opisowi opisu opisy opisów
+15	1115	usłyszeć	usłysz usłyszane usłyszano usłyszany usłyszawszy usłyszał usłyszała usłyszałam usłyszałaś usłyszałem usłyszałeś usłyszało usłyszały usłyszcie usłyszeli usłyszeliście usłyszeliśmy usłyszenia usłyszenie usłyszmy usłyszy usłyszycie usłyszymy usłyszysz usłyszą usłyszę
+16	1116	spróbować	spróbowali spróbowaliśmy spróbowania spróbowanie spróbował spróbowała spróbowałam spróbowałaś spróbowałbym spróbowałbyś spróbowałem spróbowałeś spróbuj spróbujcie spróbuje spróbujecie spróbujemy spróbujesz spróbujmy spróbują spróbuję
+17	1117	sprawić	spraw sprawcie sprawi sprawienia sprawienie sprawili sprawiliśmy sprawimy sprawisz sprawią sprawię sprawił sprawiła sprawiłaby sprawiłam sprawiłaś sprawiłby sprawiłem sprawiłeś sprawiło sprawiłoby sprawiły sprawmy
+18	1118	kod	kodach kodami kodem kodu kody kodzie kodów
+19	1119	nieco	
+20	1120	poniżej	
+21	1121	wokół	
+22	1122	zawodowy	zawodowa zawodowe zawodowego zawodowej zawodowi zawodowych zawodowym zawodowymi zawodową
+23	1123	przypomnieć	przypomni przypomniane przypomniano przypomniał przypomniała przypomniałam przypomniałaś przypomniałem przypomniałeś przypomniało przypomniały przypomnicie przypomnieli przypomnienia przypomnienie przypomnieniem przypomnieniu przypomnij przypomnijcie przypomnijmy przypomnimy przypomnisz przypomną przypomnę
+24	1124	szkolny	szkolna szkolne szkolnego szkolnej szkolnemu szkolni szkolno szkolnych szkolnym szkolnymi szkolną
+25	1125	przestrzeń	przestrzeni przestrzeniach przestrzeniami przestrzenie przestrzenią
+26	1126	ala	al alo alu alę
+27	1127	osobisty	osobista osobiste osobistego osobistej osobistemu osobistych osobistym osobistymi osobistą osobiści
+28	1128	zadzwonić	dzwoni dzwonienia dzwonienie dzwonili dzwonimy dzwonisz dzwonią dzwoniąc dzwoniącego dzwoniący dzwoniących dzwonić dzwonię dzwonił dzwoniła dzwoniłam dzwoniłaś dzwoniłem dzwoniłeś dzwoniło dzwoniły dzwoń dzwońcie zadzwoni zadzwonili zadzwonimy zadzwonisz zadzwonią zadzwonię zadzwonił zadzwoniła zadzwoniłabym zadzwoniłam zadzwoniłbym zadzwoniłem zadzwoniłeś zadzwoniły zadzwoń zadzwońcie
+29	1129	cześć	czci czcią cześci cześcią
+30	1130	gówno	gówien gówienko gówna gównem gównie
+31	1131	zakup	zakupach zakupami zakupem zakupie zakupom zakupowe zakupowy zakupu zakupy zakupów
+32	1132	religia	religiach religiami religie religii religią religię
+33	1133	dolar	dolara dolarach dolarami dolarem dolarowy dolary dolarze dolarów
+34	1134	lekcja	lekcjach lekcjami lekcje lekcji lekcją lekcję
+35	1135	zakład	zakładach zakładami zakładem zakładom zakładowi zakładu zakłady zakładzie zakładów
+36	1136	narzędzie	narzędzi narzędzia narzędziach narzędziami narzędziem narzędziom narzędziowe narzędziowy narzędziu
+37	1137	instytucja	instytucjach instytucjami instytucje instytucji instytucjom instytucjonalna instytucjonalne instytucjonalnego instytucjonalnej instytucjonalny instytucjonalnych instytucjonalnym instytucjonalną instytucją instytucję
+38	1138	wpaść	wpada wpadaj wpadajcie wpadają wpadając wpadająca wpadające wpadający wpadali wpadam wpadamy wpadanie wpadasz wpadać wpadał wpadała wpadały wpadli wpadliśmy wpadnie wpadniecie wpadniemy wpadniesz wpadnij wpadnijcie wpadnięcie wpadną wpadnę wpadł wpadła wpadłam wpadłaś wpadłby wpadłbym wpadłem wpadłeś wpadło wpadły wpadłyśmy
+39	1139	zagrożenie	zagrożenia zagrożeniach zagrożeniami zagrożeniem zagrożeniom zagrożeniu zagrożeń
+40	1140	obiekt	obiekcie obiektach obiektami obiektem obiektom obiektowe obiektowi obiektowy obiektu obiekty obiektów
+41	1141	papież	papieża papieżami papieże papieżem papieżowi papieżu papieży
+42	1142	konstytucja	konstytucje konstytucji konstytucją konstytucję
+43	1143	zebrać	zbierz zbierzcie zbierze zbierzecie zbierzemy zbierzesz zbierzmy zbiorą zbiorę zebrali zebraliśmy zebrana zebrane zebranego zebranej zebrani zebrania zebraniach zebranie zebraniem zebraniu zebrano zebrany zebranych zebranym zebranymi zebrał zebrała zebrałam zebrałem zebrałeś zebrało zebrały zebrań
+44	1144	ulubiony	ulubieni ulubiona ulubione ulubionego ulubionej ulubionych ulubionym ulubionymi ulubioną
+45	1145	sen	sena senna senne sennego sennej sennie senny sennych sennym senną snach snami snem snowa snowy snu sny snów śnie
+46	1146	dół	dole doła dołach dołeczek dołeczki dołek dołem dołka dołkach dołki dołkiem dołku dołków dołowi dołu doły dołów
+47	1147	cłapok	in
+48	1148	dziylec	in
+49	1149	i_tym_podobne	itp
+50	1150	ponadto	
+51	1151	zatem	
+52	1152	technik	technice technicy techniczna techniczne technicznego technicznej technicznemu techniczni technicznie techniczno techniczny technicznych technicznym technicznymi techniczną technika technikach technikami techniki technikiem technikom techników techniką technikę
+53	1153	prawy	prawa prawe prawego prawej prawi prawych prawym prawymi prawą
+54	1154	jajko	jaj jaja jajach jajami jajca jajcach jajco jajec jajeczek jajeczka jajeczko jajek jajem jajka jajkach jajkami jajkiem jajku jajo jaju
+55	1155	stowarzyszenie	stowarzyszenia stowarzyszeniach stowarzyszeniami stowarzyszeniem stowarzyszeniom stowarzyszeniu stowarzyszeń
+56	1156	religijny	religijna religijne religijnego religijnej religijnemu religijni religijnie religijno religijnych religijnym religijnymi religijną
+57	1157	usta	ust ustach ustami usteczka ustka ustna ustne ustnego ustnej ustny ustnych ustnym ustną ustom
+58	1158	obcy	obca obce obcego obcej obcemu obco obcych obcym obcymi obcą
+59	1159	zaprezentować	prezentowali prezentowana prezentowane prezentowanego prezentowania prezentowanie prezentowany prezentowanych prezentować prezentował prezentowała prezentowały prezentuje prezentujemy prezentujesz prezentują prezentując prezentująca prezentujące prezentującego prezentujący prezentujących prezentuję zaprezentowali zaprezentowana zaprezentowane zaprezentowanej zaprezentowania zaprezentowanie zaprezentowano zaprezentowany zaprezentowanych zaprezentował zaprezentowała zaprezentowało zaprezentowały zaprezentuje zaprezentujemy zaprezentują
+60	1160	producent	producenci producencie producenta producentach producentami producentem producentka producentki producentką producentom producentowi producentów
+61	1161	nastąpić	nastąpi nastąpią nastąpił nastąpiła nastąpiło nastąpiły następować następował następowała następowało następowały następuje następują następująca następujące
+62	1162	poparcie	poparcia poparciem poparciu
+63	1163	data	dacie dat datach datami daty datą datę
+64	1164	smutny	najsmutniejszy smutna smutne smutnego smutnej smutni smutnie smutniej smutniejsze smutniejszy smutno smutnych smutnym smutnymi smutną
+65	1165	platforma	platform platformach platformami platformie platformy platformą platformę
+66	1166	palec	palca palcach palcami palce palcem palcu palców palic paluch palucha paluchami paluchem paluchu paluchy paluchów paluszek paluszka paluszkach paluszkami paluszki paluszkiem paluszków
+67	1167	hasło	haseł hasełka hasła hasłach hasłami hasłem haśle
+68	1168	dzielić	dziel dzielcie dzielenia dzielenie dzieleniem dzieleniu dzieli dzielicie dzielili dzieliliśmy dzielimy dzielisz dzielił dzieliła dzieliłam dzieliłem dzieliło dzieliły dzielmy dzielona dzielone dzielonej dzielono dzielony dzielonych dzielonym dzieloną dzielą dzieląc dzieląca dzielące dzielącego dzielącej dzielący dzielących dzielącą dzielę
+69	1169	wkrótce	
+70	1170	wszędzie	
+71	1171	dostawać	dostaje dostajecie dostajemy dostajesz dostają dostając dostających dostaję dostawali dostawaliśmy dostawania dostawanie dostawał dostawała dostawałam dostawałaś dostawałem dostawało dostawały
+72	1172	gaz	gaza gazach gazami gazem gazie gazowa gazowe gazowego gazowej gazowo gazowy gazowych gazowym gazowymi gazową gazu gazy gazów gazą gazę
+73	1173	postanowić	postanawia postanawiają postanawiając postanawiam postanawiasz postanowi postanowili postanowiliście postanowiliśmy postanowimy postanowione postanowiono postanowisz postanowią postanowił postanowiła postanowiłam postanowiłaś postanowiłem postanowiłeś postanowiło postanowiły postanowiłyśmy
+74	1174	zapłacić	zapłacenia zapłacenie zapłaceniu zapłaci zapłacicie zapłacili zapłaciliśmy zapłacimy zapłacisz zapłacił zapłaciła zapłaciłabym zapłaciłam zapłaciłaś zapłaciłbym zapłaciłem zapłaciłeś zapłaciło zapłaciły zapłacona zapłacone zapłacono zapłacony zapłaconych zapłacą zapłacę zapłać
+75	1175	zima	zim zimie zimo zimowa zimowe zimowego zimowej zimowo zimowy zimowych zimowym zimowymi zimową zimy zimą zimę
+76	1176	wiązać	powiązana powiązane powiązanego powiązanej powiązani powiązany powiązanych powiązanym powiązaną powiązać wiązana wiązane wiązania wiązanie wiązaniem wiązany wiązał wiązała wiązało wiązały wiązań wiąże wiążesz wiążą wiążąc wiążąca wiążące wiążącej wiążący wiążących wiążę zawiązane zawiązania zawiązany zawiązanymi zawiązać zawiązał zawiązała zawiązuje
+77	1177	daleko	dalek najdalej
+78	1178	sala	sal salach salami sale sali salka salki salo salowy salą salę
+79	1179	duch	ducha duchach duchami duchem duchom duchowi duchu duchy duchów duk duszek duszka duszki duszkiem duszków
+80	1180	działo	dziale dział działach działami działem działkiem działko działowi działu działy działów dzieł
+81	1181	głosowanie	głosowania głosowaniach głosowaniem głosowaniu głosowań
+82	1182	raport	raporcie raportach raportami raportem raportu raporty raportów
+83	1183	praktyk	praktyce praktycy praktyka praktykach praktykami praktyki praktykom praktyków praktyką praktykę
+84	1184	skupić	skup skupcie skupi skupia skupiają skupiając skupiająca skupiające skupiający skupiających skupiali skupiam skupiamy skupiasz skupiać skupiał skupiała skupiało skupiały skupie skupieni skupienia skupienie skupieniu skupili skupimy skupiona skupione skupionej skupiony skupionych skupią skupię skupił skupiła skupiłem skupiły skupmy skupu
+85	1185	powodować	powodowana powodowane powodowania powodowanie powodowany powodowanych powodowanymi powodował powodowała powodowało powodowałoby powodowały powoduje powodują powodując powodująca powodujące powodującego powodującej powodujący powodujących powodującym powodującymi powodującą powoduję
+86	1186	ośrodek	ośrodka ośrodkach ośrodkami ośrodki ośrodkiem ośrodkom ośrodkowi ośrodku ośrodków
+87	1187	konferencja	konferencjach konferencje konferencji konferencją konferencję konferencyjna konferencyjne konferencyjnego konferencyjnej konferencyjno konferencyjny konferencyjnych konferencyjnym konferencyjną
+88	1188	blog	bloga blogach blogami blogi blogiem blogowa blogowe blogowego blogowej blogowy blogowych blogowym blogową blogu blogów
+89	1189	rzeka	rzece rzeczka rzeczna rzeczne rzecznego rzecznej rzeczny rzecznych rzecznym rzeczną rzek rzekach rzekami rzeki rzeką rzekę
+90	1190	robota	robocie robotach robotami roboto robotom roboty robotą robotę robót robótek robótka robótki robótkę
+91	1191	kawałek	kawał kawałeczek kawałeczku kawałeczków kawałka kawałkach kawałkami kawałki kawałkiem kawałku kawałków kawału kawały kawałów
+92	1192	zwać	zowie zowią zwali zwana zwane zwanego zwanej zwanemu zwani zwano zwany zwanych zwanym zwanymi zwała zwały zwie zwiemy zwą
+93	1193	szczyt	szczycie szczytach szczytami szczytem szczytu szczyty szczytów
+94	1194	ustalić	ustal ustala ustalają ustalając ustalam ustalamy ustalana ustalane ustalania ustalanie ustalaniu ustalasz ustalać ustalał ustalenia ustaleniach ustaleniami ustalenie ustaleniem ustaleniu ustaleń ustali ustalili ustaliliśmy ustalimy ustalił ustaliła ustaliły ustalmy ustalona ustalone ustalonego ustalonej ustalono ustalony ustalonych ustalonym ustaloną ustalą
+95	1195	online	
+96	1196	sporo	
+97	1197	pozostawać	pozostaje pozostajemy pozostajesz pozostają pozostając pozostająca pozostające pozostającego pozostającej pozostający pozostających pozostającym pozostającymi pozostającą pozostaję pozostawali pozostawania pozostawanie pozostawał pozostawała pozostawało pozostawały
+98	1198	wróg	wrodzy wroga wrogach wrogami wrogi wrogich wrogie wrogiego wrogiej wrogiem wrogim wrogimi wrogom wrogowi wrogowie wrogu wrogów wrogą
+99	1199	ekonomiczny	ekonomiczna ekonomiczne ekonomicznego ekonomicznej ekonomicznemu ekonomiczni ekonomicznie ekonomiczno ekonomicznych ekonomicznym ekonomicznymi ekonomiczną
+100	1200	zmusić	zmusi zmusili zmusisz zmusił zmusiła zmusiłam zmusiłem zmusiło zmusiły zmusza zmuszaj zmuszają zmuszając zmuszali zmuszam zmuszamy zmuszana zmuszane zmuszani zmuszania zmuszanie zmuszaniu zmuszano zmuszany zmuszasz zmuszać zmuszał zmuszała zmuszeni zmuszenia zmuszenie zmuszona zmuszone zmuszono zmuszony zmuszonych zmuszonym zmuszą zmuś

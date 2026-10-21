@@ -1,0 +1,100 @@
+1	6901	teraźniejszość	teraźniejszości teraźniejszością
+2	6902	jeździec	jeźdźca jeźdźcami jeźdźcem jeźdźcy jeźdźców
+3	6903	mig	miga migi migiem migowego migowy migowym
+4	6904	dyskurs	dyskursie dyskursu dyskursy
+5	6905	tama	tamie tamy tamą tamę
+6	6906	nabój	naboi nabojami naboje nabojem naboju nabojów
+7	6907	przelecieć	przelatuje przeleci przeleciał przeleciała przeleciałam przeleciałem przeleciało przeleciały
+8	6908	zrodzić	zrodzi zrodził zrodziła zrodziło zrodziły zrodzona zrodzone zrodzonego zrodzony zrodzonym
+9	6909	rozmnażać	rozmnaża rozmnażają rozmnażania rozmnażanie rozmnażaniu rozmnożenia rozmnożenie rozmnożyć
+10	6910	zdiagnozować	diagnozowana diagnozowane diagnozowania diagnozowanie diagnozowaniu diagnozowanych diagnozować diagnozuje diagnozują zdiagnozowali zdiagnozowana zdiagnozowane zdiagnozowania zdiagnozowanie zdiagnozowaniu zdiagnozowano zdiagnozowany zdiagnozowanych zdiagnozowaną zdiagnozował
+11	6911	zgrać	zgrają zgrana zgrane zgranej zgrani zgrania zgranie zgrany zgraną zgrał zgrywa zgrywają zgrywam zgrywania zgrywanie zgrywać zgrywał
+12	6912	kompleksowy	kompleksowa kompleksowe kompleksowego kompleksowej kompleksowo kompleksowych kompleksowym kompleksową
+13	6913	świętokrzyski	świętokrzyska świętokrzyskich świętokrzyskiej świętokrzyskim świętokrzyską
+14	6914	konsulat	konsulacie konsulatem konsulatu konsulaty
+15	6915	szew	szwach szwami szwem szwie szwu szwy szwów
+16	6916	derby	derbach derbów
+17	6917	wesoło	weselej
+18	6918	konkurent	konkurenci konkurenta konkurentami konkurentem konkurentom konkurentów
+19	6919	notes	notesie notesik notesu notesy notesów
+20	6920	dzielnie	
+21	6921	porto	
+22	6922	płk	
+23	6923	taxi	
+24	6924	boss	bossa bossami bossem bossowie bossów
+25	6925	passa	pass passo passy passę
+26	6926	koordynacja	koordynacji koordynacją koordynację
+27	6927	krucjata	krucjacie krucjat krucjatach krucjaty krucjatę
+28	6928	posąg	posągami posągi posągiem posągowi posągu posągów posążek posążki
+29	6929	wyższość	wyższości wyższością
+30	6930	oświecenie	oświecenia oświeceniem oświeceniu
+31	6931	armata	armacie armat armatami armatek armatki armaty armatą armatę
+32	6932	przejawiać	przejawia przejawiają przejawiająca przejawiające przejawiający przejawiali przejawiał przejawiała
+33	6933	uśmiechnięty	uśmiechnięci uśmiechnięta uśmiechnięte uśmiechniętego uśmiechniętej uśmiechniętych uśmiechniętym uśmiechniętą
+34	6934	determinacja	determinacji determinacją determinację
+35	6935	gmach	gmachem gmachu gmachy gmachów
+36	6936	metodologia	metodologie metodologii metodologią metodologię
+37	6937	mielec	mielca mielcem mielcu mielecki mieleckiego mieleckiej
+38	6938	beneficjent	beneficjenci beneficjenta beneficjentami beneficjentem beneficjentów
+39	6939	rysownik	rysownicy rysownika rysownikiem rysownikowi rysowników
+40	6940	tytan	tytana tytanami tytanem tytani tytanie tytanowe tytanowy tytanowych tytanową tytanu tytanów
+41	6941	popis	popisem popisu popisy popisów
+42	6942	kiosk	kioskach kioski kiosku kiosków
+43	6943	nocleg	noclegami noclegi noclegiem noclegu noclegów
+44	6944	wstążka	wstążce wstążek wstążkami wstążki wstążką wstążkę
+45	6945	odzwierciedlenie	odzwierciedlenia odzwierciedleniem
+46	6946	satyra	satyr satyry satyrą satyrę
+47	6947	autokar	autokarami autokarem autokaru autokary autokarze autokarów
+48	6948	trąbka	trąb trąba trąbce trąbek trąbki trąbką trąbkę trąby trąbą trąbę
+49	6949	elastyczny	elastyczna elastyczne elastycznego elastycznej elastyczni elastycznie elastycznych elastycznym elastycznymi elastyczną
+50	6950	rzygać	rzyga rzygają rzygam rzygania rzyganie rzyganiem
+51	6951	zarys	zarysem zarysie zarysu zarysy
+52	6952	piasta	piast piasty piaście
+53	6953	socjolog	socjolodzy socjologa socjologiem socjologowie socjologów socjolożka
+54	6954	telekomunikacja	telekomunikacji telekomunikacją telekomunikację
+55	6955	obelga	obelg obelgami obelgi obelgą obelgę
+56	6956	referat	referacie referatem referatu referaty referatów
+57	6957	przejrzysty	przejrzysta przejrzyste przejrzystego przejrzystej przejrzystych przejrzystym przejrzystą przejrzyście
+58	6958	odżywianie	odżywiania odżywianiem odżywianiu
+59	6959	bug	buga bugi bugiem bugu bugów
+60	6960	przeniknąć	przenika przenikają przenikając przenikające przenikający przenikających przenikać przenikały przeniknie przeniknięcia przeniknięcie przeniknął przeniknęła przeniknęło przeniknęły
+61	6961	nierealny	nierealna nierealne nierealnego nierealnie nierealnych nierealnym
+62	6962	esej	esejach eseje esejem eseju esejów
+63	6963	wietnamski	wietnamska wietnamskich wietnamskie wietnamskiego wietnamskiej wietnamskim wietnamską
+64	6964	kurka	kurek kurki kurkiem kurkowi
+65	6965	zawór	zaworach zaworami zaworem zaworu zawory zaworów
+66	6966	ostrożny	ostrożna ostrożne ostrożnego ostrożni ostrożniejsi ostrożnych ostrożnym ostrożną
+67	6967	osioł	osiołek osiołka osiołku osła osłem osły osłów ośle
+68	6968	tona	tonach tonami tonie tono tonowe tonowego tonowy tony toną tonę
+69	6969	otyłość	otyłości otyłością
+70	6970	wilgotność	wilgotności wilgotnością
+71	6971	ewakuować	ewakuowali ewakuowana ewakuowane ewakuowani ewakuowano ewakuowany ewakuowanych ewakuował ewakuuje
+72	6972	autorytarny	autorytarna autorytarne autorytarnego autorytarnej autorytarnych autorytarnym autorytarną
+73	6973	licytacja	licytacje licytacji licytację
+74	6974	niewiadoma	niewiadome niewiadomej niewiadomo niewiadomych niewiadomym niewiadomą
+75	6975	perkusja	perkusje perkusji perkusją perkusję
+76	6976	zabójczy	zabójcza zabójcze zabójczego zabójczej zabójczo zabójczych zabójczym zabójczą
+77	6977	popiół	popiele popiołach popiołem popiołu popioły popiołów
+78	6978	jarka	jarek
+79	6979	potępienie	potępienia potępieniem potępieniu
+80	6980	serwować	serwowana serwowane serwowania serwowanie serwowaniu serwowano serwowany serwował serwuj serwuje serwujemy serwują serwująca serwujący serwujących serwuję zaserwowali zaserwować zaserwował
+81	6981	repertuar	repertuarem repertuaru repertuarze
+82	6982	przelot	przelocie przelotem przelotu przeloty przelotów
+83	6983	nagonka	nagonce nagonki nagonką nagonkę
+84	6984	uprzejmość	uprzejmości uprzejmością
+85	6985	rozpowszechniony	rozpowszechniona rozpowszechnione rozpowszechnionego rozpowszechnionej rozpowszechnionych rozpowszechnionym rozpowszechnioną
+86	6986	kontroler	kontrolera kontrolerem kontrolery kontrolerze kontrolerzy kontrolerów
+87	6987	brednie	
+88	6988	carmen	
+89	6989	chi	
+90	6990	genetycznie	
+91	6991	spaghetti	
+92	6992	zaskakująco	
+93	6993	przewyższać	przewyższa przewyższają przewyższając przewyższające przewyższającej przewyższający przewyższającą przewyższał przewyższała przewyższały przewyższenia przewyższenie przewyższy przewyższyć przewyższył przewyższyła
+94	6994	ciecz	cieczami ciecze cieczy cieczą
+95	6995	kasta	kast kasty kastą kastę kaście
+96	6996	pogłoska	pogłosek pogłoskach pogłoskami pogłoski pogłoskom
+97	6997	bolszewik	bolszewicy bolszewika bolszewikami bolszewikom bolszewików
+98	6998	ozdoba	ozdobami ozdobie ozdoby ozdobą ozdobę ozdób
+99	6999	pierdoły	pierdołach pierdołami pierdół
+100	7000	skumać	kumacie kumają kumam kumasz kumać skumał skumałem

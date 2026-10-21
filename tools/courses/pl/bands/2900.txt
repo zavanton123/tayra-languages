@@ -1,0 +1,100 @@
+1	2801	okulary	okularach okularami okularki okularów
+2	2802	kosmos	kosmosem kosmosie kosmosu
+3	2803	akademicki	akademiccy akademicka akademickich akademickie akademickiego akademickiej akademickim akademickimi akademicką
+4	2804	wielkopolski	wielkopolska wielkopolskich wielkopolskie wielkopolskiego wielkopolskiej wielkopolskim wielkopolską
+5	2805	referendum	referenda referendach referendów
+6	2806	magia	magie magii magią magię
+7	2807	podejrzewać	podejrzewa podejrzewają podejrzewając podejrzewali podejrzewam podejrzewamy podejrzewana podejrzewane podejrzewani podejrzewano podejrzewany podejrzewanych podejrzewasz podejrzewał podejrzewała podejrzewałabym podejrzewałam podejrzewałbym podejrzewałem podejrzewały
+8	2808	fabuła	fabule fabuły fabułą fabułę
+9	2809	inspiracja	inspiracjami inspiracje inspiracji inspiracją inspirację
+10	2810	zamówienie	zamówienia zamówieniach zamówieniami zamówieniem zamówieniu zamówień
+11	2811	dług	dug długach długami długiem długu długów
+12	2812	lajk	lajka lajki lajków like
+13	2813	równość	równości równościowe równością
+14	2814	tolerancja	tolerancje tolerancji tolerancją tolerancję
+15	2815	serwer	serwera serwerach serwerami serwerem serwery serwerze serwerów
+16	2816	oblicze	oblicza obliczem obliczu obliczy
+17	2817	kalendarz	kalendarza kalendarzach kalendarze kalendarzem kalendarzowego kalendarzowy kalendarzowych kalendarzowym kalendarzu kalendarzy kalendarzyk kalendarzyka kalendarzyku
+18	2818	ominąć	omija omijaj omijajcie omijają omijając omijający omijam omijamy omijania omijanie omijaniu omijasz omijać omijał omijałam omijały ominie ominiesz ominięcia ominięcie ominięciem ominą ominął ominąłem ominąłeś ominę ominęła ominęłam ominęło ominęły omiń omińmy
+19	2819	likwidacja	likwidacje likwidacji likwidacją likwidację
+20	2820	absolwent	absolwenci absolwenta absolwentami absolwentem absolwentka absolwentom absolwentów
+21	2821	zapamiętać	zapamięta zapamiętacie zapamiętaj zapamiętajcie zapamiętajmy zapamiętają zapamiętali zapamiętam zapamiętamy zapamiętana zapamiętane zapamiętania zapamiętanie zapamiętano zapamiętany zapamiętanym zapamiętasz zapamiętał zapamiętała zapamiętałam zapamiętałaś zapamiętałem zapamiętałeś zapamiętuje zapamiętujesz zapamiętują zapamiętuję zapamiętywania zapamiętywanie zapamiętywaniem zapamiętywaniu zapamiętywać
+22	2822	jebać	jeb jebali jebana jebane jebani jebania jebanie jebał jebcie jebie jebiesz jebią jebię
+23	2823	zaproszenie	zaproszenia zaproszeniach zaproszeniami zaproszeniem zaproszeniu zaproszeń
+24	2824	śliczny	śliczna śliczne ślicznego ślicznej ślicznie śliczniutka śliczniutki ślicznych ślicznym ślicznymi śliczną
+25	2825	medialny	medialna medialne medialnego medialnej medialni medialnie medialno medialnych medialnym medialnymi medialną
+26	2826	elita	elicie elit elitach elitami elitom elity elitą elitę
+27	2827	amperogodzina	ah
+28	2828	zarazem	
+29	2829	nieruchomość	nieruchomości nieruchomościach nieruchomościami nieruchomością
+30	2830	ostro	ostrzej
+31	2831	naczelny	naczelna naczelne naczelnego naczelnej naczelnemu naczelni naczelnych naczelnym naczelnymi naczelną
+32	2832	zdradzić	zdradza zdradzaj zdradzają zdradzając zdradzający zdradzam zdradzamy zdradzana zdradzania zdradzanie zdradzasz zdradzać zdradzał zdradzała zdradzeni zdradzenie zdradzi zdradzili zdradzimy zdradzisz zdradził zdradziła zdradziłam zdradziłaś zdradziłby zdradziłem zdradziłeś zdradziło zdradziły zdradzona zdradzony zdradzonym zdradzą zdradzę zdradź
+33	2833	strajk	strajkach strajkami strajki strajkiem strajku strajków
+34	2834	marszałek	marszałka marszałkiem marszałkowi marszałkowie marszałku marszałków
+35	2835	polecenie	polecenia poleceniami poleceniem poleceniom poleceniu poleceń
+36	2836	atom	atomami atomem atomie atomowa atomowe atomowego atomowej atomowy atomowych atomowym atomowymi atomową atomu atomy atomów
+37	2837	końcowy	końcowa końcowe końcowego końcowej końcowemu końcowi końcowo końcowych końcowym końcowymi końcową
+38	2838	cecha	cechach cechami cechom cechy cechą cechę cesze
+39	2839	zabezpieczenie	zabezpieczenia zabezpieczeniach zabezpieczeniami zabezpieczeniem zabezpieczeniu zabezpieczeń
+40	2840	obowiązkowy	obowiązkowa obowiązkowe obowiązkowego obowiązkowej obowiązkowemu obowiązkowi obowiązkowych obowiązkowym obowiązkowymi obowiązkową
+41	2841	kult	kulcie kultem kultowa kultowe kultowego kultowej kultowi kultowy kultowych kultowym kultową kultu kulty kultów
+42	2842	masło	masełka masełkiem masełko masła masłem maśle
+43	2843	cenny	cenna cenne cennego cennej cenniejsza cenniejsze cenniejszego cenniejszy cenniejszych cennych cennym cennymi cenną najcenniejszy
+44	2844	ależ	alez
+45	2845	dieta	diecie diet dietach diety dietą dietę
+46	2846	rudy	rud ruda rudach rude rudego rudej rudo rudych rudym rudymi rudzi rudzie rudą rudę
+47	2847	kopać	kop kopali kopanej kopanie kopaniem kopaniu kopał kopała kopcie kopie kopiemy kopiesz kopią kopiąc kopię kopnie kopnij kopnięcia kopnięcie kopnięciem kopnięty kopnięć kopnąć kopnął kopnę kopnęła kopnęłam wykopali wykopane wykopania wykopanie wykopano wykopany wykopać wykopał wykopie wykopią wykopuje wykopywanie
+48	2848	ideologia	ideologiami ideologie ideologii ideologią ideologię
+49	2849	tajemniczy	tajemnicza tajemnicze tajemniczego tajemniczej tajemniczo tajemniczych tajemniczym tajemniczymi tajemniczą
+50	2850	limit	limicie limitach limitami limitem limitu limity limitów
+51	2851	reprezentant	reprezentanci reprezentanta reprezentantami reprezentantek reprezentantem reprezentantka reprezentantki reprezentantką reprezentantkę reprezentantom reprezentantów
+52	2852	wyciąć	wycina wycinają wycinając wycinali wycinam wycinamy wycinane wycinania wycinanie wycinaniu wycinany wycinać wycinał wyciął wyciąłem wycięcia wycięcie wycięciem wycięciu wycięli wycięta wycięte wyciętego wycięto wycięty wyciętych wyciętym wyciętymi wyciętą wycięła wycięłam wytnie wytniesz wytnij wytnijcie wytną wytnę
+53	2853	dominować	dominowali dominował dominowała dominowało dominowały dominuje dominują dominująca dominujące dominujący dominującym zdominowali zdominowana zdominowane zdominowanej zdominowani zdominowany zdominowanych zdominowanym zdominować zdominował zdominowała zdominowało zdominowały zdominuje
+54	2854	zaangażowanie	zaangażowania zaangażowaniem zaangażowaniu
+55	2855	zbiornik	zbiornika zbiornikach zbiornikami zbiorniki zbiornikiem zbiorniku zbiorników
+56	2856	świątynia	świątyni świątyniach świątyniami świątynie świątynią świątynię świątynne świątynnego świątynny świątyń
+57	2857	zatoka	zatoce zatoczce zatoczek zatoczka zatoczki zatok zatokach zatokami zatoki zatokowego zatokowy zatoką zatokę
+58	2858	ziemniak	ziemniaczek ziemniaczki ziemniaka ziemniakach ziemniakami ziemniaki ziemniakiem ziemniaków
+59	2859	publiczność	publiczności publicznością
+60	2860	odbiór	odbiorem odbioru odbiory odbiorze odbiorów
+61	2861	oskarżenie	oskarżenia oskarżeniach oskarżeniami oskarżeniem oskarżeniom oskarżeniu oskarżeń
+62	2862	zgubić	gub gubi gubienie gubimy gubisz gubią gubiąc gubić gubię gubił zgub zgubi zgubieni zgubienie zgubili zgubiliście zgubiliśmy zgubimy zgubiona zgubione zgubiony zgubionych zgubisz zgubią zgubię zgubił zgubiła zgubiłam zgubiłaś zgubiłem zgubiłeś zgubiło zgubiły
+63	2863	waluta	walucie walut walutach walutami walutowa walutowe walutowego walutowej walutowy walutowych walutowym walutową waluty walutą walutę
+64	2864	debil	debila debilami debile debilem debili debilka debilom debilowi debilu
+65	2865	pudełko	pudeł pudełeczka pudełeczko pudełeczku pudełek pudełka pudełkach pudełkami pudełkiem pudełku pudle pudła pudłach pudłem pudło
+66	2866	przeznaczenie	przeznaczenia przeznaczeniem przeznaczeniu
+67	2867	przyjemny	najprzyjemniejszy przyjemna przyjemne przyjemnego przyjemnej przyjemniejsza przyjemniejsze przyjemniejszy przyjemnych przyjemnym przyjemną
+68	2868	miecz	miecza mieczami miecze mieczem mieczu mieczy mieczyk mieczyki
+69	2869	oskarżony	oskarżeni oskarżona oskarżonego oskarżonej oskarżonemu oskarżonych oskarżonym oskarżonymi oskarżoną
+70	2870	nick	nicka nickami nicki nickiem nicku nicków
+71	2871	pogodzić	godzenie godzi godzili godzimy godzisz godzić godził godziła godziły godzą godząc godzące godzę pogodzeni pogodzenia pogodzenie pogodzeniem pogodzeniu pogodzi pogodzili pogodziliście pogodzisz pogodził pogodziła pogodziłam pogodziłem pogodzona pogodzony pogodzą pogodzę pogódź pogódźcie
+72	2872	marnować	marnowane marnowanie marnował marnuj marnuje marnujecie marnujemy marnujesz marnują marnując marnuję zmarnowali zmarnowana zmarnowane zmarnowanego zmarnowania zmarnowanie zmarnowany zmarnowanych zmarnować zmarnował zmarnowała zmarnowałam zmarnowałaś zmarnowałem zmarnowałeś zmarnowało zmarnowały zmarnuj zmarnuje zmarnują zmarnuję
+73	2873	zastępca	zastępcami zastępcy zastępczyni zastępczynią zastępców zastępcą zastępcę
+74	2874	aktualizacja	aktualizacje aktualizacji aktualizacją aktualizację
+75	2875	cytować	cytowana cytowane cytowanego cytowanej cytowania cytowanie cytowaniu cytowany cytowanych cytowanym cytowaną cytował cytowałem cytowań cytuj cytuje cytujemy cytujesz cytują cytując cytujący cytuję zacytowane zacytowany zacytować zacytował zacytowałem zacytowałeś zacytuj zacytuje zacytuję
+76	2876	męczyć	męcz męczenia męczenie męczy męczyli męczymy męczysz męczył męczyła męczyłam męczyłem męczyło męczyły męczą męcząca męczące męczącej męczący męczących męczącym męczącą męczę zmęczeni zmęczona zmęczone zmęczy zmęczysz zmęczyć zmęczył zmęczyła zmęczyłam zmęczyłem zmęczyło zmęczą
+77	2877	federalny	federalna federalne federalnego federalnej federalnemu federalni federalnych federalnym federalnymi federalną
+78	2878	przedsięwzięcie	przedsięwzięcia przedsięwzięciach przedsięwzięciami przedsięwzięciem przedsięwzięciu przedsięwzięć
+79	2879	radny	radna radnego radnej radnemu radni radnych radnym radnymi radną
+80	2880	wstydzić	wstydzenie wstydzi wstydzicie wstydzili wstydzimy wstydzisz wstydził wstydziła wstydziłam wstydziłby wstydziłem wstydzą wstydzę wstydź wstydźcie
+81	2881	worek	wora worami woreczek woreczka woreczkach woreczki woreczkiem woreczku woreczków worem worka workach workami worki workiem worku worków wory worów wór
+82	2882	zmierzać	zmierza zmierzają zmierzając zmierzająca zmierzające zmierzającego zmierzającej zmierzający zmierzających zmierzającym zmierzającymi zmierzającą zmierzali zmierzam zmierzamy zmierzasz zmierzał zmierzała zmierzałem zmierzało zmierzały
+83	2883	kiepski	kiepscy kiepska kiepskich kiepskie kiepskiego kiepskiej kiepskim kiepskimi kiepską
+84	2884	zwyczajny	zwyczajna zwyczajne zwyczajnego zwyczajnej zwyczajni zwyczajnych zwyczajnym zwyczajnymi zwyczajną
+85	2885	czapka	copa czap czapa czapce czapeczce czapeczka czapeczkach czapeczki czapeczką czapeczkę czapek czapkach czapki czapką czapkę czapy czapę
+86	2886	orzeł	orla orle orlego orlej orli orlich orlik orlika orliki orliku orlików orlim orlą orzełek orzełka orzełkiem orła orłach orłami orłem orłowa orłowie orłowo orły orłów
+87	2887	osobny	osobna osobne osobnego osobnej osobnych osobnym osobnymi osobną
+88	2888	serdecznie	
+89	2889	wino	win winach winami winem winie winka winko winno
+90	2890	zastosować	zastosowali zastosowaliśmy zastosowana zastosowane zastosowanego zastosowanej zastosowano zastosowany zastosowanych zastosowanym zastosowanymi zastosowaną zastosował zastosowała zastosowałam zastosowałem zastosowały zastosuj zastosuje zastosujemy zastosujesz zastosują zastosuję
+91	2891	pranie	prania praniem praniu
+92	2892	przestawać	przestaje przestajemy przestajesz przestają przestając przestaję przestawaj przestawajcie przestawali przestawał przestawała przestawały
+93	2893	mit	micie mitach mitami mitem mitu mity mitów
+94	2894	samorząd	samorządach samorządami samorządem samorządom samorządowi samorządu samorządy samorządzie samorządów
+95	2895	lewica	lewice lewicy lewicą lewicę
+96	2896	si	sią
+97	2897	logika	logice logiki logiką logikę
+98	2898	szkodliwy	szkodliwa szkodliwe szkodliwego szkodliwej szkodliwych szkodliwym szkodliwymi szkodliwą
+99	2899	komunikat	komunikacie komunikatach komunikatem komunikatu komunikaty komunikatów
+100	2900	sos	sosach sosami sosem sosie sosik sosu sosy sosów

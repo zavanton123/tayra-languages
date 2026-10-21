@@ -1,0 +1,100 @@
+1	8001	szczytowy	szczytowa szczytowe szczytowego szczytowej szczytowo szczytowych szczytowym szczytową
+2	8002	opatrzyć	opatruje opatrzona opatrzone opatrzono opatrzony opatrzonych opatrzoną opatrzyli opatrzył opatrzyła opatrzę
+3	8003	wir	wiru wiry wirze wirów
+4	8004	bielski	bielska bielskich bielskie bielskiego bielskiej bielskim
+5	8005	zamysł	zamysłem zamysłu zamysły zamysłów zamyśle
+6	8006	widły	wideł widełek widełkach widełki widłach widłami
+7	8007	relacjonować	relacjonowane relacjonowania relacjonowanie relacjonowaniu relacjonował relacjonowała relacjonuje relacjonują relacjonując zrelacjonować
+8	8008	fałsz	fałszem fałszu
+9	8009	posłuszny	posłuszna posłuszne posłusznego posłuszni posłusznie posłusznych posłusznym posłuszną
+10	8010	desperacja	desperacji
+11	8011	widokowy	widokowa widokowe widokowego widokowej widokowych widokowym widokowymi widokową
+12	8012	mir	miru miry mirze mirów
+13	8013	nieprzyjaciel	nieprzyjaciela nieprzyjaciele nieprzyjacielem nieprzyjacielowi nieprzyjaciół nieprzyjaciółmi
+14	8014	odkurzacz	odkurzacza odkurzacze odkurzaczem odkurzaczy
+15	8015	profesjonalizm	profesjonalizmem profesjonalizmu
+16	8016	obrzydzenie	obrzydzenia obrzydzeniem
+17	8017	lawina	lawin lawinie lawiny lawiną lawinę
+18	8018	przylądek	przylądka przylądku
+19	8019	pokładowy	pokładowa pokładowe pokładowego pokładowej pokładowych pokładowym pokładową
+20	8020	zapełnić	zapełni zapełnia zapełniają zapełniać zapełnienia zapełnienie zapełniona zapełnione zapełniony zapełnią zapełnił zapełniły
+21	8021	segregacja	segregacji segregacją segregację
+22	8022	uran	urana uranem uranie uranu
+23	8023	zastrzeżony	zastrzeżona zastrzeżone zastrzeżonego zastrzeżonej zastrzeżonych zastrzeżonym zastrzeżonymi zastrzeżoną
+24	8024	barwnik	barwnika barwnikami barwniki barwnikiem barwników
+25	8025	jednorodzinny	jednorodzinna jednorodzinne jednorodzinnego jednorodzinnej jednorodzinnych jednorodzinnym jednorodzinną
+26	8026	rozgłośnia	rozgłośni rozgłośniach rozgłośnie rozgłośnię
+27	8027	decymetr	dm
+28	8028	elo	
+29	8029	radośnie	
+30	8030	radykalnie	
+31	8031	sporadycznie	
+32	8032	ubaw	
+33	8033	sperma	spermie spermy spermą spermę
+34	8034	pompować	pompowana pompowania pompowanie pompuje pompują pompując
+35	8035	pozbierać	pozbiera pozbieraj pozbierali pozbieram pozbieramy pozbieranie pozbierasz pozbierał pozbierała pozbierałam
+36	8036	rozstrzelać	rozstrzelają rozstrzelali rozstrzelane rozstrzelani rozstrzelano rozstrzelany rozstrzelanych rozstrzelał rozstrzelała rozstrzeliwania rozstrzeliwań
+37	8037	szyna	szyn szynach szynami szynie szyny szyną szynę
+38	8038	buddyzm	buddyzmem buddyzmie buddyzmu
+39	8039	nieufność	nieufności nieufnością
+40	8040	żagiel	żagla żaglach żaglami żagle żaglem żagli żaglowe żaglowych
+41	8041	nieśmiertelny	nieśmiertelna nieśmiertelne nieśmiertelnego nieśmiertelnej nieśmiertelni nieśmiertelnych nieśmiertelnym nieśmiertelną
+42	8042	przechwycić	przechwycenia przechwycenie przechwycili przechwycił przechwyciła przechwyciły przechwycona przechwycone przechwycono przechwycony przechwyconych przechwytuje przechwytują przechwytujący przechwytywania przechwytywanie przechwytywać
+43	8043	intuicja	intuicje intuicji intuicją intuicję
+44	8044	logistyczny	logistyczna logistyczne logistycznego logistycznej logistycznie logistycznych logistycznym logistyczną
+45	8045	przeminąć	przemija przemijają przemijające przemijania przemijanie przemijaniu przeminie przeminą przeminął przeminęła przeminęło przeminęły
+46	8046	znieczulenie	znieczulenia znieczuleniem znieczuleniu
+47	8047	awaryjne	awaryjnych awaryjnym awaryjnymi
+48	8048	ocet	occie octem octu
+49	8049	miodowy	miodowa miodowe miodowego miodowej miodowych miodowym miodową
+50	8050	trzydziesty	trzydziesta trzydzieste trzydziestego trzydziestej trzydziestych trzydziestym
+51	8051	szczekać	szczeka szczekaj szczekają szczekania szczekanie szczekasz szczekał
+52	8052	dodatni	dodatnia dodatnich dodatnie dodatniego dodatniej dodatnim dodatnio dodatnią
+53	8053	wróżyć	wróżenia wróżenie wróży wróżył wróżyła wróżą wróżę
+54	8054	formalność	formalności formalnościami formalnością
+55	8055	starannie	staranniej
+56	8056	autofocus	af
+57	8057	tenisowy	tenisowa tenisowe tenisowego tenisowej tenisowych tenisowym tenisowymi tenisową
+58	8058	redakcyjny	redakcyjna redakcyjne redakcyjnego redakcyjnej redakcyjnych redakcyjnym redakcyjną
+59	8059	ośmieszyć	ośmiesza ośmieszaj ośmieszają ośmieszania ośmieszanie ośmieszasz ośmieszać ośmieszenia ośmieszenie ośmieszy ośmieszył
+60	8060	fart	farcie farta fartem
+61	8061	neutralność	neutralności
+62	8062	skreślić	skreśla skreślam skreślać skreślenia skreślenie skreślił skreśliłem skreślona skreślone skreślono skreślony
+63	8063	wyznacznik	wyznacznika wyznaczniki wyznacznikiem wyznaczników
+64	8064	komiksowy	komiksowa komiksowe komiksowego komiksowej komiksowych komiksowym komiksową
+65	8065	odblokować	odblokowali odblokowane odblokowania odblokowanie odblokowaniu odblokowany odblokował odblokowuje odblokowywania odblokowywanie odblokuj odblokuje odblokują
+66	8066	winogrono	winogron winogrona winogronami
+67	8067	intensywność	intensywności intensywnością
+68	8068	sześćdziesiąt	sześćdziesięciu
+69	8069	pancerz	pancerza pancerze pancerzem pancerzu pancerzy
+70	8070	łykać	łyka łykaj łykają łykam łykamy łykania łykanie łykasz łyknie łykną łyknąć łyknął łyknąłem łyknęli
+71	8071	biust	biustem biustu biusty biuście
+72	8072	kłopotliwy	kłopotliwa kłopotliwe kłopotliwego kłopotliwej kłopotliwych kłopotliwym kłopotliwą
+73	8073	pręt	pręcik pręciki pręcików pręta prętach prętami prętem pręty prętów
+74	8074	przybrzeżny	przybrzeżna przybrzeżne przybrzeżnej przybrzeżnych przybrzeżną
+75	8075	jednorożec	jednorożca jednorożce jednorożcem jednorożcu jednorożców
+76	8076	winnica	winnic winnicach winnice winnicy winnicę
+77	8077	dżoker	joker jokera jokerem
+78	8078	księstwo	księstw księstwa księstwem księstwie
+79	8079	ustabilizować	stabilizowana stabilizowane stabilizowany stabilizować stabilizuje stabilizują stabilizujące stabilizujący stabilizujących ustabilizowana ustabilizowane ustabilizowania ustabilizowanie ustabilizowaniu ustabilizowany ustabilizował ustabilizowała ustabilizowało ustabilizowały ustabilizuje
+80	8080	rum	rumem rumu
+81	8081	obrączka	obrączce obrączek obrączkami obrączki obrączką obrączkę
+82	8082	dwunasty	dwunasta dwunaste dwunastego dwunastej dwunastym dwunastą
+83	8083	lubuski	lubuskie
+84	8084	zapakować	zapakowana zapakowane zapakowany zapakował zapakuj zapakuje zapakujesz
+85	8085	przeróżny	przeróżne przeróżnych
+86	8086	soul	soulu
+87	8087	triumf	triumfem triumfie triumfu triumfy triumfów tryumf
+88	8088	wiceprzewodniczący	wiceprzewodnicząca wiceprzewodniczącego wiceprzewodniczących wiceprzewodniczącym wiceprzewodniczącą
+89	8089	jubileusz	jubileusze jubileuszem jubileuszu
+90	8090	kinowy	kinowa kinowe kinowego kinowej kinowych kinowym kinową
+91	8091	stylowy	stylowa stylowe stylowego stylowej stylowi stylowo stylowych stylowym stylową
+92	8092	wymknąć	wymknie wymknął wymknęła wymknęło wymknęły wymyka wymykają wymykasz wymykać
+93	8093	kajak	kajaka kajakach kajakami kajaki kajakiem kajaku kajaków
+94	8094	osobistość	osobistości osobistościami osobistością
+95	8095	lar	lara lary larze
+96	8096	elegancko	
+97	8097	jednogłośnie	
+98	8098	latte	
+99	8099	mhm	
+100	8100	uparcie	

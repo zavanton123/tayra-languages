@@ -1,0 +1,100 @@
+1	3601	witryna	witryn witrynach witrynie witryny witryną witrynę
+2	3602	narzucać	narzuca narzucaj narzucają narzucając narzucali narzucam narzucane narzucania narzucanie narzucaniu narzucasz narzucał narzucała narzucenia narzucenie narzuci narzucili narzucić narzucił narzuciły narzucona narzucone narzuconego narzuconej narzucono narzucony narzuconych narzuconym narzuconą
+3	3603	garść	garstce garstka garstki garstką garstkę garści garściami garścią
+4	3604	narodowość	narodowości narodowością
+5	3605	zadbać	zadba zadbaj zadbajcie zadbajmy zadbają zadbali zadbaliśmy zadbam zadbamy zadbana zadbane zadbanego zadbanie zadbano zadbany zadbanych zadbasz zadbał zadbała
+6	3606	potęga	potędze potęg potęgami potęgi potęgą potęgę
+7	3607	bolesny	bolesna bolesne bolesnego bolesnej bolesnych bolesnym bolesną
+8	3608	tlen	tlenem tlenie tlenu
+9	3609	przesłanie	przesłania przesłaniem przesłaniu przesłań
+10	3610	meta	mecie met mety metą metę
+11	3611	porada	porad poradami poradom porady poradą poradę
+12	3612	rozsądny	najrozsądniejsze rozsądna rozsądne rozsądnego rozsądnej rozsądni rozsądniejsze rozsądnych rozsądnym rozsądnymi rozsądną
+13	3613	asystent	asystenci asystenta asystentami asystentem asystentka asystentowi asystentów
+14	3614	moneta	monecie monet monetach monetami monety monetą monetę
+15	3615	broda	brod brodach brodami brodu brody brodzie brodów brodą brodę bród bródka bródki bródką bródkę
+16	3616	zrzucić	zrzuca zrzucaj zrzucają zrzucając zrzucali zrzucam zrzucamy zrzucane zrzucania zrzucanie zrzucać zrzucał zrzuceni zrzucenia zrzucenie zrzuceniu zrzuci zrzucili zrzucimy zrzucił zrzuciła zrzuciłam zrzuciłaś zrzuciłem zrzuciły zrzucona zrzucone zrzucono zrzucony zrzuconych zrzucą zrzucę zrzuć
+17	3617	wąski	wąska wąskich wąskie wąskiego wąskiej wąskim wąskimi wąsko wąską węższa węższe węższy węższych węższym węższą
+18	3618	naraz	narazie
+19	3619	smaczny	najsmaczniejszy smaczna smaczne smacznego smacznej smaczniejsza smaczniejsze smacznych smacznym smaczną
+20	3620	niegdyś	
+21	3621	pośród	
+22	3622	tkwić	tkwi tkwimy tkwisz tkwią tkwiące tkwiący tkwię tkwił tkwiła tkwiło tkwiły utkwił utkwiła utkwiło utkwiły
+23	3623	tatuaż	tatuażach tatuażami tatuaże tatuażem tatuażu tatuaży
+24	3624	wołać	woła wołaj wołają wołając wołający wołali wołam wołamy wołania wołanie wołaniem wołasz wołał wołała zawoła zawołaj zawołali zawołam zawołać zawołał zawołała zawołałam zawołałem
+25	3625	jedność	jedności jednością
+26	3626	przydatny	przydatna przydatne przydatnego przydatni przydatnych przydatnym przydatną
+27	3627	zależny	zależna zależne zależnego zależnej zależni zależnych zależnym zależnymi zależną
+28	3628	słuchawka	słuchawce słuchawek słuchawkach słuchawkami słuchawki słuchawkowego słuchawkowy słuchawką słuchawkę
+29	3629	krajobraz	krajobrazem krajobrazie krajobrazu krajobrazy krajobrazów
+30	3630	nurt	nurcie nurtach nurtami nurtem nurtowi nurtu nurty nurtów
+31	3631	rywalizacja	rywalizacje rywalizacji rywalizacją rywalizację
+32	3632	wygodnie	najwygodniej wygodniej
+33	3633	masakra	masakr masakry masakrze masakrą masakrę
+34	3634	blokada	blokad blokadach blokadami blokady blokadzie blokadą blokadę
+35	3635	pyszny	pyszna pyszne pysznego pysznej pysznie pysznych pysznym pyszną
+36	3636	groźny	groźna groźne groźnego groźnej groźni groźnie groźniejsza groźniejsze groźniejszy groźniejszych groźnych groźnym groźnymi groźną najgroźniejszy
+37	3637	lis	lisami lisek lisem lisica lisie liska lisowi lisy lisów
+38	3638	homoseksualista	homoseksualistach homoseksualistami homoseksualistom homoseksualisty homoseksualistów homoseksualistą homoseksualistę homoseksualiści
+39	3639	fotel	fotela fotelach fotelami fotele fotelem foteli fotelik fotelika foteliki fotelików fotelu
+40	3640	więź	więzi więzią
+41	3641	hymn	hymnem hymnie hymnu hymny hymnów
+42	3642	zaskoczenie	zaskoczenia zaskoczeniem zaskoczeniu zaskoczeń
+43	3643	beznadziejny	beznadziejna beznadziejne beznadziejnego beznadziejnej beznadziejni beznadziejnie beznadziejnych beznadziejnym beznadziejnymi beznadziejną
+44	3644	wszechświat	wszechświata wszechświatem wszechświaty wszechświatów wszechświecie
+45	3645	panel	panelach panelami panele panelem paneli panelu
+46	3646	uczestnictwo	uczestnictwa uczestnictwem uczestnictwie uczestnictwu
+47	3647	krem	kremem kremie kremik kremowa kremowe kremowego kremowej kremowo kremowy kremowych kremowym kremową kremu kremy kremów
+48	3648	rysować	rysowane rysowania rysowanie rysowaniem rysowaniu rysował rysowała rysowałam rysowałem rysowałeś rysuj rysuje rysujemy rysujesz rysują rysując rysujące rysuję
+49	3649	słowacki	słowaccy słowacka słowackich słowackie słowackiego słowackiej słowackim słowacko słowacką
+50	3650	regulamin	regulaminach regulaminami regulaminem regulaminie regulaminowi regulaminu regulaminy regulaminów
+51	3651	gotówka	gotówce gotówki gotówką gotówkę
+52	3652	okrutny	okrutna okrutne okrutnego okrutnej okrutni okrutnie okrutnych okrutnym okrutnymi okrutną
+53	3653	słabość	słabości słabościach słabościami słabością
+54	3654	intelektualny	intelektualna intelektualne intelektualnego intelektualnej intelektualnych intelektualnym intelektualnymi intelektualną
+55	3655	dana	danego danej danemu dani dania daniach daniami danie daniem daniu dano dany danym danymi daną danę dań
+56	3656	autorytet	autorytecie autorytetami autorytetem autorytetom autorytetowi autorytetu autorytety autorytetów
+57	3657	młodość	młodości młodością
+58	3658	swoboda	swobody swobodzie swobodą swobodę swobód
+59	3659	dama	dam damami damie damo damom damy damą damę
+60	3660	sprzyjać	sprzyja sprzyjają sprzyjająca sprzyjające sprzyjającego sprzyjającej sprzyjający sprzyjających sprzyjającym sprzyjającą sprzyjanie sprzyjał sprzyjała sprzyjało sprzyjały
+61	3661	zdrajca	zdrajcach zdrajcami zdrajco zdrajcom zdrajcy zdrajców zdrajcą zdrajcę
+62	3662	chodnik	chodnika chodnikach chodnikami chodniki chodnikiem chodnikowe chodnikowych chodniku chodników
+63	3663	etat	etacie etatach etatowi etatu etaty etatów
+64	3664	gniew	gniewem gniewie gniewu
+65	3665	ewentualny	ewentualna ewentualne ewentualnego ewentualnej ewentualnemu ewentualni ewentualnych ewentualnym ewentualnymi ewentualną
+66	3666	odbudowa	odbudowie odbudowy odbudową odbudowę
+67	3667	kreatywny	kreatywna kreatywne kreatywnego kreatywnej kreatywni kreatywnie kreatywnych kreatywnym kreatywną
+68	3668	cudownie	
+69	3669	przykładowo	
+70	3670	zza	
+71	3671	nadużyć	nadużycia nadużyciach nadużyciami nadużycie nadużyciem nadużyciom nadużyciu nadużywa nadużywają nadużywając nadużywam nadużywane nadużywania nadużywanie nadużywaniem nadużywaniu nadużywany nadużywać nadużywał nadużył nadużyłem
+72	3672	phi	fi
+73	3673	oszacować	oszacowali oszacowana oszacowane oszacowania oszacowanie oszacowano oszacowany oszacował oszacowała szacowana szacowane szacowanej szacowania szacowanie szacowano szacowany szacowanych szacowaną szacować szacował szacuje szacujemy szacują szacując szacuję
+74	3674	wspomóc	wspomaga wspomagają wspomagając wspomagająca wspomagające wspomagającego wspomagającej wspomagający wspomagających wspomagającym wspomagającą wspomagali wspomagana wspomagane wspomaganego wspomaganej wspomagani wspomagania wspomaganie wspomaganiem wspomaganiu wspomagany wspomaganych wspomagać wspomagał wspomagała wspomagały wspomogli wspomogę wspomoże wspomożenia wspomógł wspomóż
+75	3675	szkolnictwo	szkolnictwa szkolnictwem szkolnictwie
+76	3676	chrześcijaństwo	chrześcijaństwa chrześcijaństwem chrześcijaństwie chrześcijaństwu
+77	3677	poniższy	poniższa poniższe poniższego poniższej poniższych poniższym poniższą
+78	3678	minus	minusa minusach minusami minusem minusie minusy minusów
+79	3679	miłośnik	miłośnicy miłośniczka miłośnika miłośnikami miłośnikiem miłośnikom miłośniku miłośników
+80	3680	stado	stad stada stadach stadami stadem stadka stadko stadu stadzie
+81	3681	zobowiązanie	zobowiązania zobowiązaniach zobowiązaniami zobowiązaniem zobowiązaniom zobowiązaniu zobowiązań
+82	3682	wrażliwy	wrażliwa wrażliwe wrażliwego wrażliwej wrażliwi wrażliwych wrażliwym wrażliwymi wrażliwą
+83	3683	patriotyczny	patriotyczna patriotyczne patriotycznego patriotycznej patriotycznie patriotyczno patriotycznych patriotycznym patriotycznymi patriotyczną
+84	3684	pułkownik	pułkownicy pułkownika pułkownikiem pułkownikowi pułkowniku pułkowników
+85	3685	egzemplarz	egzemplarza egzemplarzach egzemplarzami egzemplarze egzemplarzem egzemplarzu egzemplarzy
+86	3686	zadeklarować	deklarowali deklarowana deklarowane deklarowanego deklarowanej deklarowania deklarowanie deklarowanym deklarowaną deklarować deklarował deklarowała deklarowało deklaruje deklarujemy deklarujesz deklarują deklarując deklarujące deklarujący deklarujących deklaruję zadeklarowali zadeklarowana zadeklarowanego zadeklarowanej zadeklarowany zadeklarowanych zadeklarowanym zadeklarował zadeklarowała zadeklarowało zadeklarowały zadeklaruje
+87	3687	szczebel	szczebla szczeblach szczeble szczeblem szczebli szczeblu
+88	3688	ogon	ogona ogonach ogonami ogonek ogonem ogonie ogonka ogonki ogonkiem ogonku ogonków ogonowa ogonowej ogonową ogony ogonów
+89	3689	major	majora majorem majorowi majorze majorów mjr
+90	3690	błędny	błędna błędne błędnego błędnej błędnych błędnym błędnymi błędną
+91	3691	dojechać	dojadą dojadę dojechali dojechaliśmy dojechania dojechanie dojechał dojechała dojechałam dojechałem dojedzie dojedziemy dojedziesz dojeżdża dojeżdżają dojeżdżając dojeżdżający dojeżdżających dojeżdżali dojeżdżam dojeżdżamy dojeżdżasz dojeżdżać dojeżdżał
+92	3692	wałęsa	wałęsie wałęsy wałęsą wałęsę
+93	3693	skoncentrować	koncentrowali koncentrować koncentrował koncentrowała koncentrowałem koncentrowały koncentruje koncentrujemy koncentrujesz koncentrują koncentrując koncentrujące koncentruję skoncentrowali skoncentrowana skoncentrowane skoncentrowanego skoncentrowanej skoncentrowani skoncentrowania skoncentrowanie skoncentrowano skoncentrowany skoncentrowanych skoncentrowanym skoncentrowaną skoncentrował skoncentrowała skoncentruj skoncentruje
+94	3694	pomyłka	pomyłce pomyłek pomyłkami pomyłki pomyłką pomyłkę
+95	3695	bariera	barier barierami barierka barierki bariery barierze barierą barierę
+96	3696	zlokalizować	lokalizowane lokalizowania lokalizowanie lokalizować lokalizuje lokalizują zlokalizowali zlokalizowana zlokalizowane zlokalizowanego zlokalizowanej zlokalizowania zlokalizowanie zlokalizowaniu zlokalizowano zlokalizowany zlokalizowanych zlokalizowanym zlokalizowanymi zlokalizowaną zlokalizował zlokalizuj
+97	3697	zechcieć	zechce zechcecie zechcemy zechcesz zechciał zechciała zechciałby zechcieli zechcą zechcę
+98	3698	kciuk	kciuka kciukami kciuki kciukiem kciuku kciuków
+99	3699	opiekować	opiekowali opiekowania opiekowanie opiekował opiekowała opiekowały opiekuje opiekujemy opiekują opiekując opiekująca opiekujące opiekującego opiekujący opiekujących opiekuję zaopiekowali zaopiekować zaopiekował zaopiekowała zaopiekuj zaopiekuje zaopiekujesz zaopiekuję
+100	3700	arcybiskup	abp abpa arcybiskupa arcybiskupem arcybiskupi arcybiskupie arcybiskupowi arcybiskupów

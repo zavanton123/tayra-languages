@@ -1,0 +1,100 @@
+1	3701	popołudnie	popołudnia popołudniami popołudniem popołudniu
+2	3702	geografia	geografii geografią geografię
+3	3703	konfederacja	konfederacje konfederacji konfederacją konfederację
+4	3704	wściekły	wściekle wściekli wściekła wściekłe wściekłego wściekłej wściekłych wściekłym wściekłą
+5	3705	cienki	ciency cieniutki cieniutkie cienka cienkich cienkie cienkiego cienkiej cienkim cienkimi cienko cienką cieńsza cieńsze cieńszy cieńszych cieńszą
+6	3706	ważyć	waż ważenia ważenie ważeniu ważona waży ważymy ważysz ważył ważyła ważyłam ważyłem ważyło ważyły ważą ważąc ważąca ważące ważącego ważący ważących ważącym ważącą ważę
+7	3707	analizować	analizowali analizowana analizowane analizowanie analizowano analizowany analizował analizowała analizowałem analizuj analizuje analizujemy analizujesz analizują analizując analizujący analizuję przeanalizowali przeanalizowaliśmy przeanalizowanie przeanalizowano przeanalizowany przeanalizować przeanalizował przeanalizowała przeanalizuj przeanalizuje przeanalizujemy przeanalizujmy zanalizować
+8	3708	skrzyżowanie	skrzyżowania skrzyżowaniach skrzyżowaniami skrzyżowaniem skrzyżowaniu skrzyżowań
+9	3709	donosić	doniesie doniesiono donieśli donieść doniosę doniosła doniosłe doniosło doniosły doniosłych doniosłym doniosłą doniósł donosi donosili donosił donosiła donosiło donosiły donoszenia donoszenie donoszono donoszą donosząc donoszący donoszę
+10	3710	muzułmański	muzułmańscy muzułmańska muzułmańskich muzułmańskie muzułmańskiego muzułmańskiej muzułmańskim muzułmańskimi muzułmańską
+11	3711	słup	słupa słupach słupami słupek słupem słupie słupka słupkach słupkami słupki słupkiem słupku słupków słupy słupów
+12	3712	mać	maci macie
+13	3713	ciężarówka	ciężarówce ciężarówek ciężarówkach ciężarówkami ciężarówki ciężarówką ciężarówkę
+14	3714	dramatyczny	dramatyczna dramatyczne dramatycznego dramatycznej dramatycznie dramatycznych dramatycznym dramatycznymi dramatyczną
+15	3715	pomarańczowy	pomarańczowa pomarańczowe pomarańczowego pomarańczowej pomarańczowi pomarańczowo pomarańczowych pomarańczowym pomarańczowymi pomarańczową
+16	3716	nieprawda	nieprawdy nieprawdą nieprawdę
+17	3717	partyjny	partyjna partyjne partyjnego partyjnej partyjni partyjno partyjnych partyjnym partyjnymi partyjną
+18	3718	farba	farb farbach farbami farbie farbkami farbki farby farbą farbę
+19	3719	odpaść	odpada odpadają odpadające odpadam odpadać odpadał odpadała odpadli odpadliśmy odpadnie odpadnięcia odpadnięcie odpadnięciu odpadną odpadł odpadła odpadłem odpadło odpadły
+20	3720	ba	
+21	3721	dwukrotnie	
+22	3722	składka	składce składek składkach składkami składki składką składkę
+23	3723	juan	juana juanem juanie juanów
+24	3724	zaangażowany	zaangażowana zaangażowane zaangażowanego zaangażowanej zaangażowani zaangażowanych zaangażowanym zaangażowanymi zaangażowaną
+25	3725	narracja	narracje narracji narracją narrację
+26	3726	ciężar	ciężarem ciężarowe ciężarowi ciężarowy ciężaru ciężary ciężarze ciężarów
+27	3727	śmiertelny	śmiertelna śmiertelne śmiertelnego śmiertelnej śmiertelni śmiertelnych śmiertelnym śmiertelnymi śmiertelną
+28	3728	nakaz	nakazami nakazem nakazie nakazowi nakazu nakazy nakazów
+29	3729	amunicja	amunicje amunicji amunicją amunicję
+30	3730	twierdzenie	twierdzenia twierdzeniami twierdzeniem twierdzeniom twierdzeniu twierdzeń
+31	3731	nobel	nobla noble noblem
+32	3732	jedynka	jedyna jedynce jedynek jedynkach jedynkami jedynki jedynką jedynkę
+33	3733	napaść	napada napadają napadający napadających napadali napadać napadał napadało napadli napadnie napadnięci napadnięta napadnięty napadną napadł napadła napadło napadły napaści napaścią
+34	3734	niepokój	niepokoi niepokoje niepokojem niepokoju niepokojów
+35	3735	groźba	groźbach groźbami groźbie groźby groźbą groźbę gróźb
+36	3736	orzeczenie	orzeczenia orzeczeniem orzeczeniu orzeczeń
+37	3737	banan	banana bananach bananami bananem bananie bananowa bananowe bananowego bananowej bananowo bananowy bananowych bananowym bananową banany bananów
+38	3738	faktyczny	faktyczna faktyczne faktycznego faktycznej faktycznych faktycznym faktycznymi faktyczną
+39	3739	schronisko	schronisk schroniska schroniskach schroniskiem schronisku
+40	3740	odwrót	odwroci odwrocie odwrotem odwrotu
+41	3741	mechaniczny	mechaniczna mechaniczne mechanicznego mechanicznej mechanicznie mechaniczno mechanicznych mechanicznym mechanicznymi mechaniczną
+42	3742	sypialnia	sypialni sypialniach sypialniami sypialnie sypialnią sypialnię
+43	3743	charakteryzować	charakteryzował charakteryzowała charakteryzowało charakteryzowały charakteryzuje charakteryzują charakteryzując charakteryzująca charakteryzujące charakteryzujący charakteryzującą scharakteryzować scharakteryzował
+44	3744	wojownik	wojownicy wojowniczka wojowniczki wojownika wojownikami wojownikiem wojownikom wojowniku wojowników
+45	3745	łagodny	łagodna łagodne łagodnego łagodnej łagodni łagodnie łagodniej łagodniejsza łagodniejsze łagodniejszego łagodniejszy łagodniejszych łagodniejszym łagodniejszą łagodnych łagodnym łagodnymi łagodną
+46	3746	kropka	kropce kropeczki kropek kropkami kropki kropką kropkę
+47	3747	wątroba	wątrobie wątroby wątrobą wątrobę wątróbka wątróbki wątróbką wątróbkę
+48	3748	pachnieć	pachniał pachniała pachniało pachniały pachnie pachniesz pachną pachnąca pachnące pachnącego pachnący pachnących pachnę
+49	3749	dąb	dąbek dąbie dębami dębem dębie dębna dębowa dębowe dębowego dębowej dębowy dębowych dębowym dębową dębu dęby dębów
+50	3750	monitorować	monitorowana monitorowane monitorowania monitorowanie monitorowaniem monitorowaniu monitorowany monitorował monitoruj monitoruje monitorujemy monitorują monitorująca monitorujące monitorującego monitorujący monitorujących
+51	3751	wybić	wybicia wybicie wybiciem wybiciu wybij wybija wybijają wybijając wybijali wybijania wybijanie wybijać wybijał wybijała wybije wybijemy wybijesz wybiją wybili wybita wybite wybito wybity wybitych wybitym wybitą wybił wybiła wybiłam wybiło wybiły
+52	3752	wanna	wanda wanien wannie wanny wanną wannę
+53	3753	rzec	rzecze rzeczona rzeczone rzeczonego rzeczonej rzeczony rzeczonych rzekli rzeką rzekę rzekł rzekła rzekłabym rzekłam rzekłbym rzekłem rzekło
+54	3754	zakochany	zakochana zakochane zakochanego zakochanej zakochani zakochanych zakochanym zakochaną
+55	3755	psychologia	psychologii psychologią psychologię
+56	3756	zadziałać	zadziała zadziałaj zadziałają zadziałania zadziałał zadziałała zadziałało zadziałały
+57	3757	zwyciężyć	zwycięża zwyciężaj zwyciężają zwyciężając zwyciężać zwyciężał zwycięży zwyciężyli zwyciężyliśmy zwyciężymy zwyciężył zwyciężyła zwyciężyło zwyciężyły zwyciężą
+58	3758	zezwolenie	zezwolenia zezwoleniem zezwoleniu zezwoleń
+59	3759	lęk	lękach lękami lęki lękiem lękom lęku lęków
+60	3760	penis	penisa penisach penisami penisem penisie penisy penisów
+61	3761	geograficzny	geograficzna geograficzne geograficznego geograficznej geograficznie geograficzno geograficznych geograficznym geograficznymi geograficzną
+62	3762	prawdopodobieństwo	prawdopodobieństwa prawdopodobieństwem prawdopodobieństwie
+63	3763	łącze	łącza łączach łączem łączu łączy
+64	3764	kowalski	kowalscy kowalska kowalskich kowalskie kowalskiego kowalskiej kowalskiemu kowalskim kowalską
+65	3765	korupcja	korupcje korupcji korupcją korupcję
+66	3766	siódmy	siódma siódme siódmego siódmej siódmym siódmą
+67	3767	ulga	uldze ulg ulgami ulgi ulgą ulgę
+68	3768	śledczy	śledcza śledcze śledczego śledczej śledczych śledczym śledczymi śledczą
+69	3769	ósmy	ósma ósme ósmego ósmej ósmych ósmym ósmą
+70	3770	foto	
+71	3771	hm	
+72	3772	niekiedy	
+73	3773	odrobinę	
+74	3774	otóż	
+75	3775	absolutny	absolutna absolutne absolutnego absolutnej absolutnych absolutnym absolutnymi absolutną
+76	3776	szczepionka	szczepionce szczepionek szczepionkach szczepionkami szczepionki szczepionką szczepionkę
+77	3777	gałąź	gałązka gałęzi gałęziach gałęziami gałęzie gałęzią
+78	3778	ładunek	ładunkach ładunkami ładunki ładunkiem ładunkowej ładunku ładunków
+79	3779	wyjąć	wyjmie wyjmiesz wyjmij wyjmijcie wyjmować wyjmował wyjmuje wyjmujemy wyjmujesz wyjmują wyjmując wyjmuję wyjmę wyjąwszy wyjął wyjąłem wyjąłeś wyjęcia wyjęcie wyjęciu wyjęli wyjęta wyjęte wyjętego wyjętej wyjęto wyjęty wyjętych wyjętym wyjętą wyjęła wyjęłam
+80	3780	terroryzm	terroryzmem terroryzmie terroryzmowi terroryzmu
+81	3781	zestawienie	zestawienia zestawieniach zestawieniem zestawieniu zestawień
+82	3782	czasowy	czasowa czasowe czasowego czasowej czasowi czasowych czasowym czasowymi czasową
+83	3783	opakowanie	opakowania opakowaniach opakowaniem opakowaniu opakowań
+84	3784	żeński	żeńska żeńskich żeńskie żeńskiego żeńskiej żeńskim żeńskimi żeńską
+85	3785	narodziny	narodzin narodzinach narodzinami narodzinom
+86	3786	zastrzelić	zastrzel zastrzelcie zastrzeleni zastrzelenia zastrzelenie zastrzeleniu zastrzeli zastrzelili zastrzelił zastrzeliła zastrzelona zastrzelone zastrzelonego zastrzelono zastrzelony zastrzelonych zastrzelonym zastrzelę
+87	3787	świecić	świecenia świecenie świeci świecisz świecił świeciła świeciło świeciły świecą świecąca świecące świecący świecących świecę świeć
+88	3788	seminarium	seminaria seminariach seminariów
+89	3789	żaba	żab żabach żabami żabce żabek żabie żabka żabki żabko żabką żabkę żaby żabą żabę
+90	3790	rozporządzenie	rozporządzenia rozporządzeniach rozporządzeniami rozporządzeniem rozporządzeniu rozporządzeń
+91	3791	eliminacja	eliminacjach eliminacjami eliminacje eliminacji eliminacją eliminację
+92	3792	upewnić	upewni upewnia upewniając upewniam upewniamy upewniać upewnienia upewnienie upewnij upewnijcie upewnijmy upewnię upewnił upewniła upewniłem
+93	3793	zaawansowany	zaawansowana zaawansowane zaawansowanego zaawansowanej zaawansowani zaawansowanych zaawansowanym zaawansowanymi zaawansowaną
+94	3794	dobrać	dobiera dobieraj dobierają dobierając dobieram dobieramy dobierane dobierani dobierania dobieranie dobieraniu dobierany dobierasz dobierać dobierał dobierz dobierzcie dobierze dobierzemy dobierzesz dobiorą dobrali dobraliśmy dobrana dobrane dobranej dobrani dobranie dobraniem dobrano dobrany dobranych dobranym dobraną dobrał dobrała dobrałam dobrałaś dobrałem
+95	3795	panika	panice paniki paniką panikę
+96	3796	mat	maci macie mata matem mato matu maty matą matę
+97	3797	przeprosić	przeprosi przeprosili przeprosisz przeprosił przeprosiła przeprosiłam przeprosiłaś przeprosiłem przeproszenia przeproszenie przeproszeniem przeproszą przeproszę przeproś
+98	3798	wyczuć	wyczucia wyczucie wyczuciem wyczuj wyczuje wyczują wyczuli wyczuwa wyczuwają wyczuwając wyczuwam wyczuwamy wyczuwania wyczuwasz wyczuwać wyczuwał wyczuł wyczuła wyczułam wyczułem
+99	3799	gorączka	gorączce gorączki gorączką gorączkę
+100	3800	ciotka	ciocie ciot ciota ciotami ciotce ciotek ciotki ciotką ciotkę cioto cioty ciotą

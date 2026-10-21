@@ -1,0 +1,100 @@
+1	8301	obyć	obycia obycie obyciu obywa obył obyło obędzie
+2	8302	rand	randa randy
+3	8303	motocyklista	motocyklistami motocyklisty motocyklistów motocyklistą motocyklistę motocykliści
+4	8304	pet	peta petem pety petów
+5	8305	księgowość	księgowości księgowością
+6	8306	podopieczny	podopieczna podopiecznego podopiecznej podopieczni podopiecznych podopiecznym podopiecznymi
+7	8307	aurora	aurory aurorze aurorę
+8	8308	uwieść	uwiedzenia uwiedzenie uwiedzie uwiedziona uwiodła uwiódł uwodzenia uwodzenie uwodzi uwodzić uwodząc
+9	8309	sutek	sutka sutkach sutkami sutki sutków
+10	8310	sierść	sierści sierścią
+11	8311	maciek	maćka maćkiem maćkowi maćku
+12	8312	mniemanie	mniemania mniemaniu
+13	8313	bierzmowanie	bierzmowania bierzmowaniu
+14	8314	konwencjonalny	konwencjonalna konwencjonalne konwencjonalnego konwencjonalnej konwencjonalnie konwencjonalnych konwencjonalnym konwencjonalnymi konwencjonalną
+15	8315	powikłanie	powikłania powikłaniach powikłaniami powikłaniem powikłań
+16	8316	nadwaga	nadwadze nadwagi nadwagą nadwagę
+17	8317	składowy	składowa składowej składowi składowych składowym składowymi składową
+18	8318	porywacz	porywacza porywaczami porywacze porywaczy
+19	8319	owinąć	owija owijają owijam owijania owijać owinięta owinięte owinięty owiniętą owinął owinęła owinęłam owiń
+20	8320	sprostowanie	sprostowania
+21	8321	schodowy	schodowa schodowe schodowej schodowych schodową
+22	8322	gotycki	gotycka gotyckich gotyckie gotyckiego gotyckiej gotyckim gotycko gotycką
+23	8323	przerażenie	przerażenia przerażeniem przerażeniu
+24	8324	sztafeta	sztafecie sztafet sztafety sztafetę
+25	8325	kołdra	kołder kołderka kołderki kołderką kołderkę kołdry kołdrze kołdrą kołdrę
+26	8326	jednakowy	jednakowa jednakowe jednakowego jednakowej jednakowych jednakowym jednakową
+27	8327	wybronić	wybrania wybronią wybronił
+28	8328	identyfikator	identyfikatora identyfikatorem identyfikatory identyfikatorze identyfikatorów
+29	8329	setny	setna setne setnego setnej setnych setnym setną
+30	8330	potoczyć	potoczy potoczył potoczyła potoczyło potoczyły potoczą
+31	8331	lumen	lm
+32	8332	prostota	prostocie prostoty prostotą prostotę
+33	8333	berliński	berlińska berlińskich berlińskie berlińskiego berlińskiej berlińskim berlińską
+34	8334	monstera	monster
+35	8335	rzeszowski	rzeszowska rzeszowskich rzeszowskie rzeszowskiego rzeszowskiej rzeszowskim rzeszowską
+36	8336	przedwczesny	przedwczesna przedwczesne przedwczesnego przedwczesnej przedwczesnych przedwczesnym przedwczesną
+37	8337	iracki	iracka irackich irackie irackiego irackiej irackim iracką
+38	8338	potoczny	potoczna potoczne potocznego potocznej potocznych potocznym potoczną
+39	8339	bezpodstawny	bezpodstawna bezpodstawne bezpodstawnego bezpodstawnych
+40	8340	adidas	adidasa adidasach adidasy
+41	8341	szopa	szop szopach szopem szopie szopy szopów szopą szopę
+42	8342	europoseł	europosła europosłanka europosłem europosłowie europosłów
+43	8343	nienormalny	nienormalna nienormalne nienormalnego nienormalni nienormalnie nienormalnych nienormalnym
+44	8344	zacisnąć	zaciska zaciskają zaciskając zaciskam zaciskamy zaciskania zaciskanie zaciskać zaciskał zacisnął zacisnąłem zacisnęła zacisnęłam zaciśnij zaciśnięcie zaciśnięta zaciśnięte zaciśniętą
+45	8345	filharmonia	filharmonii filharmonią filharmonię
+46	8346	cement	cemencie cementem cementu
+47	8347	mówca	mówcy mówców mówcą mówcę
+48	8348	dożywotni	dożywotnia dożywotnich dożywotnie dożywotniego dożywotniej dożywotnim dożywotnią
+49	8349	uraczyć	racz raczy raczyli raczysz raczył raczyłeś raczą raczę
+50	8350	cis	cisa cisowa cisy cisów
+51	8351	twitterowy	twitterowa twitterowe twitterowych twitterowym
+52	8352	bezwzględnie	
+53	8353	bodajże	
+54	8354	gładko	
+55	8355	techno	
+56	8356	uff	
+57	8357	wrogość	wrogości wrogością
+58	8358	manna	mann manny mannę
+59	8359	spółdzielczy	spółdzielcza spółdzielcze spółdzielczego spółdzielczej spółdzielczych spółdzielczym spółdzielczą
+60	8360	jebnąć	jebnie jebnij jebnięci jebnięta jebnięty jebną jebnął jebnę
+61	8361	umiar	umiarem umiaru umiarze
+62	8362	starczyć	starcza starczało starczyło starczyłoby starczą
+63	8363	fitness	fitnessie fitnessu
+64	8364	sfrustrowany	sfrustrowana sfrustrowane sfrustrowanego sfrustrowani sfrustrowanych sfrustrowanym
+65	8365	pozytyw	pozytywach pozytywem pozytywu pozytywy pozytywów
+66	8366	nieaktualny	nieaktualna nieaktualne
+67	8367	aparatura	aparatury aparaturze aparaturą aparaturę
+68	8368	wyczerpanie	wyczerpania wyczerpaniem wyczerpaniu
+69	8369	przykuć	przykuci przykuje przykuta przykuty przykuwa przykuwają przykuwać przykuł przykuła przykuło przykuły
+70	8370	dolegliwość	dolegliwości dolegliwościach dolegliwościami
+71	8371	zięć	zięcia zięciem zięciowi zięciów
+72	8372	żegluga	żegludze żeglugi żeglugę
+73	8373	berkel	bk
+74	8374	chomik	chomika chomiki chomikiem chomiku chomików
+75	8375	dorównać	dorówna dorównam dorównał dorównuje dorównują dorównywał
+76	8376	poczekalnia	poczekalni poczekalnie poczekalnię
+77	8377	mieszanina	mieszanin mieszaninie mieszaniny mieszaniną mieszaninę
+78	8378	łaskawy	łaskaw łaskawa łaskawe łaskawej łaskawi łaskawym
+79	8379	sączyć	sącz sączy sączył sączą sącząc
+80	8380	uprzedni	uprzednich uprzednie uprzedniego uprzedniej uprzednim uprzednią
+81	8381	wszechobecny	wszechobecna wszechobecne wszechobecnego wszechobecnej wszechobecnych wszechobecną
+82	8382	filmowiec	filmowca filmowcami filmowcem filmowcy filmowców
+83	8383	refren	refrenem refrenie refrenu refreny
+84	8384	dramaturg	dramaturga dramaturgiem
+85	8385	wielbiciel	wielbiciela wielbicielami wielbicielem wielbicieli wielbicielka
+86	8386	rodzynek	rodzynka rodzynkami rodzynki
+87	8387	kałuża	kałużach kałuże kałuży kałużą kałużę
+88	8388	zrzec	zrzeczenia zrzeczenie zrzeczeniu zrzeka zrzeknie zrzekł zrzekła
+89	8389	rekolekcje	rekolekcjach rekolekcji
+90	8390	jadalny	jadalna jadalne jadalnego jadalnej jadalni jadalnych jadalnym jadalną
+91	8391	pawilon	pawilonach pawilonem pawilonie pawilonu pawilony pawilonów
+92	8392	czek	czeki czekiem czeku czeków
+93	8393	zacofany	zacofana zacofane zacofanej zacofani zacofanych zacofanym
+94	8394	nagłośnienie	nagłośnienia nagłośnieniu
+95	8395	sekretariat	sekretariacie sekretariatem sekretariatu
+96	8396	spin	spinie spiny spinów
+97	8397	sobór	soborem soboru soborze soborów
+98	8398	komnata	komnacie komnat komnatach komnaty komnatę
+99	8399	barokowy	barokowa barokowe barokowego barokowej barokowo barokowych barokowym barokową
+100	8400	remontowy	remontowa remontowe remontowego remontowej remontowi remontowo remontowych remontowym

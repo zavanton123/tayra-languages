@@ -1,0 +1,100 @@
+1	5801	podwyższenie	podwyższenia podwyższeniem podwyższeniu
+2	5802	nieograniczony	nieograniczona nieograniczone nieograniczonego nieograniczonej nieograniczonych nieograniczonym nieograniczoną
+3	5803	zdobić	zdobi zdobienia zdobienie zdobień zdobiona zdobione zdobionego zdobionej zdobiony zdobionych zdobionym zdobionymi zdobioną zdobią zdobiące zdobiący zdobiących zdobił zdobiła zdobiły
+4	5804	obróbka	obróbce obróbki obróbką obróbkę
+5	5805	odpierdolić	odpierdala odpierdalacie odpierdalają odpierdalasz odpierdalać odpierdalał odpierdol odpierdolcie odpierdoli odpierdolili odpierdolił odpierdoliło
+6	5806	przykrywka	przykrywki przykrywką przykrywkę
+7	5807	masowo	
+8	5808	pośrodku	
+9	5809	siak	
+10	5810	spektrum	
+11	5811	księgowy	księgowa księgowe księgowego księgowej księgowemu księgowi księgowych księgowym księgowymi księgową
+12	5812	pluton	plutona plutonem plutonie plutonu plutony plutonów
+13	5813	biżuteria	biżuterie biżuterii biżuterią biżuterię
+14	5814	paragraf	paragrafem paragrafie paragrafu paragrafy paragrafów
+15	5815	elewacja	elewacjach elewacje elewacji elewacją elewację
+16	5816	erotyczny	erotyczna erotyczne erotycznego erotycznej erotycznie erotycznych erotycznym erotycznymi erotyczną
+17	5817	obligacja	obligacjach obligacjami obligacje obligacji
+18	5818	pchać	pcha pchaj pchajcie pchają pchając pchali pchamy pchania pchanie pchany pchał pchała pchały pchnie pchnięta pchnięty pchnąć pchnął pchnęła pchnęło pchnęły
+19	5819	wydostać	wydostaje wydostają wydostali wydostaliśmy wydostania wydostanie wydostaniem wydostaniemy wydostaniu wydostanę wydostał wydostała wydostałem wydostało wydostały
+20	5820	kwitnąć	kwitnie kwitną kwitnąca kwitnące kwitnącej kwitnący kwitł kwitła kwitło kwitły
+21	5821	pałka	pałeczek pałeczka pałeczkami pałeczki pałeczką pałeczkę pałek pałkami pałki pałką pałkę
+22	5822	przywołać	przywoła przywołam przywołane przywołanej przywołania przywołanie przywołany przywołanych przywołał przywołała przywołałem przywołuje przywołujemy przywołujesz przywołują przywołując przywołuję przywoływane przywoływania przywoływanie przywoływać przywoływał
+23	5823	koordynator	koordynatora koordynatorami koordynatorem koordynatorka koordynatorką koordynatorów
+24	5824	nieistotny	nieistotna nieistotne nieistotnych nieistotnym
+25	5825	ring	ringach ringi ringiem ringu ringów
+26	5826	poczet	poczcie pocztu poczty
+27	5827	starzec	starca starcami starcem starcy starcze starców
+28	5828	drzeć	darcia darcie darli darta darł darła drze drzesz drzyj drą drąc drących drę
+29	5829	optymistyczny	optymistyczna optymistyczne optymistycznego optymistycznej optymistycznie optymistycznych optymistycznym optymistyczną
+30	5830	dobrobyt	dobrobycie dobrobytem dobrobytu
+31	5831	doktorat	doktoracie doktoratem doktoratu doktoraty doktoratów
+32	5832	słoik	słoiczek słoiczka słoika słoikach słoikami słoiki słoikiem słoiku słoików słoja słojach słoje słoju słojów słój
+33	5833	brud	brudem brudu brudy brudzie brudów
+34	5834	niejasny	niejasna niejasne niejasnego niejasnej niejasno niejasnych niejasnym niejasną
+35	5835	osądzać	osądza osądzają osądzam osądzania osądzanie osądzeni osądzenia osądzenie osądzi osądzisz osądzić osądził osądzona osądzono osądzony osądźcie
+36	5836	autonomia	autonomii autonomią autonomię
+37	5837	pasożyt	pasożyta pasożytami pasożytem pasożytom pasożyty pasożytów
+38	5838	nieznajomy	nieznajoma nieznajomego nieznajomej nieznajomi nieznajomych nieznajomym nieznajomymi nieznajomą
+39	5839	młyn	młyna młynek młynem młynie młynka młynki młynkiem młyny młynów
+40	5840	dynamika	dynamice dynamiki dynamiką dynamikę
+41	5841	przymus	przymusem przymusie przymusowi przymusu
+42	5842	ożenić	ożeni ożeniony ożenię ożenił ożeniła ożeniłem ożeń żeni żenią żeniąc żenić żenił żeń
+43	5843	pancerny	pancerna pancerne pancernego pancernej pancerni pancernych pancernym pancernymi pancerną
+44	5844	lojalność	lojalności lojalnością
+45	5845	odcień	odcieni odcienia odcieniach odcieniami odcienie odcieniem odcieniu
+46	5846	konkurencyjny	konkurencyjna konkurencyjne konkurencyjnego konkurencyjnej konkurencyjni konkurencyjnych konkurencyjnym konkurencyjnymi konkurencyjną
+47	5847	alfabet	alfabecie alfabetem alfabetu
+48	5848	milicja	milicje milicji milicją milicję milicyjne
+49	5849	opaska	opasce opasek opaskach opaskami opaski opaską opaskę
+50	5850	kondycja	kondycje kondycji kondycją kondycję
+51	5851	zobowiązać	zobowiązali zobowiązaliśmy zobowiązana zobowiązane zobowiązani zobowiązał zobowiązała zobowiązałem zobowiązałeś zobowiązało zobowiązały zobowiązuje zobowiązują zobowiązując zobowiązującego zobowiązuję
+52	5852	stadium	stadia stadiach stadiów
+53	5853	lawa	law lawie lawy lawą lawę
+54	5854	kubański	kubańscy kubańska kubańskich kubańskie kubańskiego kubańskiej kubańskim kubańsko kubańską
+55	5855	niepokojący	niepokojąca niepokojące niepokojącego niepokojąco niepokojących niepokojącym niepokojącą
+56	5856	szeregowy	szeregowa szeregowe szeregowego szeregowej szeregowi szeregowo szeregowych szeregowym szeregowymi
+57	5857	zadedykować	dedykowana dedykowane dedykowanego dedykowanej dedykowany dedykowanych dedykowanym dedykowaną dedykuje dedykujemy dedykuję zadedykowany zadedykował zadedykowała
+58	5858	maleć	malał malała malej maleje maleją malejąca malejące malejącą zmalał zmalała zmalało zmaleje zmaleć
+59	5859	nawyk	nawykach nawykami nawyki nawykiem nawyku nawyków
+60	5860	naleśnik	naleśnika naleśnikach naleśnikami naleśniki naleśnikiem naleśników
+61	5861	ogólnokształcący	ogólnokształcąca ogólnokształcące ogólnokształcącego ogólnokształcącej ogólnokształcących ogólnokształcącym
+62	5862	nadzorować	nadzorowali nadzorowana nadzorowane nadzorowania nadzorowanie nadzorowany nadzorowanych nadzorował nadzorowała nadzoruje nadzorują nadzorując nadzorująca nadzorujące nadzorującego nadzorującej nadzorujący nadzorujących nadzorującym nadzorującą
+63	5863	wół	woła wołami wołek wołowa wołowe wołowego wołowej wołowy wołowych wołowym wołową wołu woły wołów
+64	5864	narta	narcie nart nartach nartami narty
+65	5865	symbolizować	symbolizował symbolizowała symbolizowało symbolizowały symbolizuje symbolizują symbolizująca symbolizujące symbolizujący symbolizujących symbolizującymi symbolizującą
+66	5866	warga	wardze warg wargach wargami wargi wargowej wargowych wargą wargę
+67	5867	obrzęd	obrządek obrządkach obrządki obrządku obrządków obrzędach obrzędami obrzędem obrzędu obrzędy obrzędzie obrzędów
+68	5868	złagodzić	złagodzenia złagodzenie złagodzeniu złagodzi złagodził złagodzone złagodzony łagodzenia łagodzenie łagodzeniu łagodzi łagodzić łagodzą łagodzące łagodzący łagodzących
+69	5869	niespełna	
+70	5870	tymczasowo	
+71	5871	operować	operowali operowana operowane operowania operowanie operowaniu operowany operował operowała operuje operujemy operujesz operują operując operujące operujący operujących zoperować
+72	5872	uczciwość	uczciwości uczciwością
+73	5873	nastoletni	nastoletnia nastoletnich nastoletnie nastoletniego nastoletniej nastoletnim nastoletnią
+74	5874	gruziński	gruzińscy gruzińska gruzińskich gruzińskie gruzińskiego gruzińskiej gruzińskim gruzińską
+75	5875	niepewność	niepewności niepewnością
+76	5876	sformułowanie	sformułowania sformułowaniem sformułowaniu sformułowań
+77	5877	zupełny	zupełna zupełne zupełnego zupełnej zupełni zupełnych zupełnym zupełną
+78	5878	panorama	panoram panoramie panoramy panoramą panoramę
+79	5879	przeciwdziałać	przeciwdziała przeciwdziałające przeciwdziałający przeciwdziałania przeciwdziałanie
+80	5880	dojrzeć	dogląda doglądanie doglądać doglądał dojrzał dojrzała dojrzałam dojrzałem dojrzałeś dojrzeje dojrzeją dojrzeli dojrzeliśmy dojrzewa dojrzewają dojrzewające dojrzewający dojrzewających dojrzewać dojrzewał
+81	5881	elf	elfa elfami elfem elfie elfom elfowie elfy elfów
+82	5882	ujemny	ujemna ujemne ujemnego ujemnej ujemnie ujemnych ujemnym ujemnymi ujemną
+83	5883	lewak	lewacy lewaczka lewaczki lewaka lewakami lewaki lewakiem lewakom lewaku lewaków
+84	5884	kompozytor	kompozytora kompozytorami kompozytorem kompozytorka kompozytorki kompozytorski kompozytorskie kompozytorze kompozytorzy kompozytorów
+85	5885	włókno	włókien włókna włóknach włóknami włóknem
+86	5886	matma	matmie matmy matmą matmę
+87	5887	mobilizacja	mobilizacji mobilizacją mobilizację
+88	5888	zdziwienie	zdziwienia zdziwieniem zdziwieniu
+89	5889	ocieplenie	ocieplenia ociepleniem ociepleniu
+90	5890	budda	buddy buddzie buddów buddą buddę
+91	5891	entuzjazm	entuzjazmem entuzjazmu
+92	5892	pożyteczny	pożyteczna pożyteczne pożytecznego pożyteczni pożytecznych pożytecznym pożyteczną
+93	5893	pokarmowy	pokarmowa pokarmowe pokarmowego pokarmowej pokarmowych pokarmowym pokarmowymi pokarmową
+94	5894	kopernik	kopernika koperniku
+95	5895	fotografować	fotografowali fotografowana fotografowania fotografowanie fotografowaniem fotografowaniu fotografowany fotografował fotografowałem fotografuje fotografują fotografując fotografuję sfotografowana sfotografowane sfotografowany sfotografować sfotografował sfotografowałem
+96	5896	golić	goleni goli golimy golisz golił golą goląc golę ogol ogoli ogolisz ogolić ogolił ogoliła ogoliłam ogoliłem ogolona ogolone ogolony ogoloną ogolę ogól
+97	5897	bezużyteczny	bezużyteczna bezużyteczne bezużytecznej bezużyteczni bezużytecznych bezużytecznym bezużyteczną
+98	5898	zioło	zioła ziołach ziołami ziołem ziół ziółek ziółka ziółko
+99	5899	gwałciciel	gwałciciela gwałcicielami gwałciciele gwałcicielem gwałcicieli
+100	5900	fascynować	fascynował fascynowała fascynowało fascynowały fascynuje fascynują fascynująca fascynujące zafascynowana zafascynowane zafascynowani zafascynowanie zafascynowany zafascynowanych zafascynował zafascynowała

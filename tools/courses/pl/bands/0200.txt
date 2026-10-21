@@ -1,0 +1,100 @@
+1	101	lub	
+2	102	można	mozna
+3	103	widzieć	widzenia widzenie widzeniem widzeniu widzeń widzi widziana widziane widzianego widzianej widziani widziano widziany widzianych widzianym widzianą widział widziała widziałam widziałaś widziałby widziałbym widziałem widziałeś widziało widziały widziałyście widziałyśmy widzicie widzieli widzieliście widzieliśmy widzimy widzisz widzą widząc widzący widzących widzę
+4	104	sprawa	spraw sprawach sprawami sprawie sprawka sprawki sprawom sprawy sprawą sprawę
+5	105	świat	świata światach światami światek światem światowi światu światy światów świecie
+6	106	przy	
+7	107	kraj	kraja krajach krajami kraje krajem krajom krajowa krajowe krajowego krajowej krajowemu krajowi krajowy krajowych krajowym krajowymi krajową kraju krajów
+8	108	wszyscy	wszystkich wszystkim wszystkimi
+9	109	wszystkie	wszystkich wszystkim wszystkimi
+10	110	twój	twa twe twego twej twemu twoi twoich twoim twoimi twoja twoje twojego twojej twojemu twoją twych twym twymi twą
+11	111	więcej	
+12	112	powinien	powinienem powinieneś powinna powinnam powinnaś powinne powinni powinniście powinniśmy powinno powinny powinnyście powinnyśmy
+13	113	chyba	chiba chyb chybie
+14	114	także	
+15	115	tu	
+16	116	miasto	miast miasta miastach miastami miastem miastko miastom miastu miejscy miejska miejski miejskich miejskie miejskiego miejskiej miejskiemu miejskim miejskimi miejsko miejską mieście mieścisko
+17	117	u	
+18	118	drugi	drudzy druga drugich drugie drugiego drugiej drugiemu drugim drugimi drugo drugą
+19	119	dom	domach domami domek domem domie domkach domkami domki domkiem domku domków domom domowi domu domy domów
+20	120	niż	niz niże niżem niżu
+21	121	również	
+22	122	myśleć	myślano myślał myślała myślałam myślałaś myślałby myślałem myślałeś myślało myślały myślałyście myślałyśmy myślcie myśleli myśleliście myśleliśmy myślenia myślenie myśli myślicie myślimy myślisz myślmy myślą myśląc myśląca myślące myślącego myślącej myślący myślących myślącym myślącymi myślącą myślę
+23	123	kilka	kila kilkoma kilku kilo kolko
+24	124	film	filmach filmami filmem filmie filmik filmikach filmikami filmiki filmikiem filmiku filmików filmom filmowa filmowe filmowego filmowej filmowi filmowo filmowy filmowych filmowym filmowymi filmową filmu filmy filmów
+25	125	koniec	końca końcach końcami końce końcem końcowi końcu kończe końców
+26	126	wy	wam wami was
+27	127	zawsze	
+28	128	duży	duzi duzy duża dużego dużej dużemu dużych dużym dużymi dużą największy największą większa większe większego większej większy większych większym większą
+29	129	zdjęcie	zdjęcia zdjęciach zdjęciami zdjęciem zdjęciom zdjęciowa zdjęciowy zdjęciu zdjęć
+30	130	problem	problemach problemami problemem problemie problemik problemom problemowe problemowi problemowy problemu problemy problemów
+31	131	pan	pana panach panami panek panem panie panisko panka panki pano panom panowi panowie panu pany panów
+32	132	właśnie	
+33	133	chodzić	chadza chadzam cho chodz chodzenia chodzenie chodzeniem chodzeniu chodzi chodzicie chodzili chodziliśmy chodzimy chodzisz chodził chodziła chodziłabym chodziłam chodziłaś chodziłbym chodziłem chodziłeś chodziło chodziłoby chodziły chodziłyśmy chodzą chodząc chodząca chodzące chodzący chodzę chodź chodźcie chodźmy
+34	134	znaleźć	znajdzie znajdziecie znajdziemy znajdziesz znajdą znajdę znajdź znajdźcie znajdźmy znalazł znalazła znalazłaby znalazłabym znalazłabyś znalazłam znalazłaś znalazłby znalazłbym znalazłbyś znalazłem znalazłeś znalazło znalazłoby znalazłszy znalazły znalazłyby znalazłyśmy znalezieni znalezienie znaleziona znalezione znaleziono znaleziony znaleźli znaleźliby znaleźliście znaleźliśmy
+35	135	aby	abym abyś abyście abyśmy jaby
+36	136	kobieta	kobieca kobiece kobiecego kobiecej kobiecie kobieco kobiecy kobiecych kobiecym kobiecymi kobiecą kobiet kobietach kobietami kobietka kobietki kobieto kobietom kobiety kobietą kobietę
+37	137	rzecz	rzeczach rzeczami rzeczom rzeczy rzeczą
+38	138	część	cząsteczce cząsteczek cząsteczka cząsteczkach cząsteczkami cząsteczki cząsteczką cząsteczkę cząstek cząstka cząstkach cząstkami cząstki cząstką cząstkę części częściach częściami częściom częścią
+39	139	albo	
+40	140	szkoła	szkole szkołach szkołami szkoło szkołom szkoły szkołą szkołę szkół szkółce szkółek szkółka szkółkach szkółki szkółkę
+41	141	wielki	największy wielce wielcy wielgachne wielka wielkich wielkie wielkiego wielkiej wielkiemu wielkim wielkimi wielko wielką większy
+42	142	sposób	sposobach sposobami sposobem sposobie sposobowi sposobu sposoby sposobów
+43	143	rodzina	rodzin rodzinach rodzinami rodzince rodzinie rodzinka rodzinki rodzinko rodzinką rodzinkę rodzinna rodzinne rodzinnego rodzinnej rodzinnemu rodzinni rodzinnie rodzinny rodzinnych rodzinnym rodzinnymi rodzinną rodzino rodzinom rodziny rodziną rodzinę
+44	144	nikt	nicht nikim nikogo nikomu
+45	145	historia	historiach historiami historie historii historią historię historyczna historyczne historycznego historycznej historycznemu historycznie historyczno historyczny historycznych historycznym historycznymi historyczną historyjka historyjki
+46	146	dzięki	
+47	147	podczas	
+48	148	grupa	grup grupach grupami grupce grupek grupie grupka grupkach grupkami grupki grupką grupkę grupo grupom grupowa grupowe grupowego grupowej grupowo grupowy grupowych grupowym grupowymi grupową grupy grupą grupę
+49	149	dlaczego	
+50	150	nad	nade
+51	151	iść	idzie idziecie idziemy idziesz idą idąc idąca idące idący idę idź idźcie idźmy ić iście sed setem szedł szedłbym szedłem szedłeś szli szliśmy szoł szła szłam szłaś szło szły szłyśmy
+52	152	ostatni	ostatnia ostatnich ostatnie ostatniego ostatniej ostatniemu ostatnim ostatnimi ostatnią
+53	153	nigdy	
+54	154	polityka	polityce polityczka polityczna polityczne politycznego politycznej politycznemu polityczni politycznie polityczno polityczny politycznych politycznym politycznymi polityczną polityki polityką politykę
+55	155	kolejny	kolejna kolejne kolejnego kolejnej kolejnemu kolejni kolejno kolejnych kolejnym kolejnymi kolejną
+56	156	wysoki	najwyżej najwyżsi najwyższa najwyższe najwyższego najwyższej najwyższemu najwyższy najwyższych najwyższym najwyższymi najwyższą wysocy wysoka wysokich wysokie wysokiego wysokiej wysokiemu wysokim wysokimi wysoko wysoką wyżej wyższa wyższe wyższej wyższemu wyższy wyższych wyższym wyższymi wyższą
+57	157	żaden	żadna żadne żadnego żadnej żadnemu żadni żadny żadnych żadnym żadnymi żadną
+58	158	mały	maleńki maleńkich maleńkie maleńkiego maleńkiej maleńkim maleńką mali malijski malijskie malijskiego maluczkich maluczkim malutki mała małe małego małej małemu małych małym małymi małą mniejsze mniejszy najmniejsza najmniejsze najmniejszej najmniejszy najmniejszych najmniejszym najmniejszymi najmniejszą
+59	159	tutaj	tuta
+60	160	zacząć	zacznie zaczniecie zaczniemy zaczniesz zacznij zacznijcie zacznijmy zaczną zacznę zaczął zacząłby zacząłbym zacząłem zacząłeś zaczęcia zaczęcie zaczęli zaczęliby zaczęliście zaczęliśmy zaczęta zaczęte zaczęto zaczęty zaczęła zaczęłaby zaczęłabym zaczęłam zaczęłaś zaczęło zaczęły zaczęłyby zaczęłyście zaczęłyśmy
+61	161	pisać	pisali pisaliśmy pisana pisane pisanego pisanej pisani pisanie pisaniem pisaniu pisano pisany pisanych pisanym pisaną pisał pisała pisałam pisałaś pisałem pisałeś pisało pisały pisuje pisz piszcie pisze piszecie piszemy piszesz piszą pisząc pisząca piszące piszącego piszący piszących piszącym piszę
+62	162	trochę	troszeczkę troszkę
+63	163	temat	temacie tematach tematami tematem tematom tematowi tematu tematy tematyczna tematyczne tematycznego tematycznej tematycznie tematyczny tematycznych tematycznym tematyczną tematów
+64	164	państwo	państewek państewka państewko państw państwa państwach państwami państwem państwie państwom państwu
+65	165	stary	najstarszy najstarszych stara stare starego starej staremu staro starsi starsza starsze starszego starszej starszemu starszy starszych starszym starszymi starszą starych starym starymi starzej starzy starą story
+66	166	wyglądać	wygląda wyglądacie wyglądaj wyglądają wyglądając wyglądająca wyglądające wyglądającego wyglądającej wyglądający wyglądających wyglądającym wyglądającymi wyglądającą wyglądali wyglądaliśmy wyglądam wyglądamy wyglądania wyglądasz wyglądał wyglądała wyglądałaby wyglądałabym wyglądałabyś wyglądałam wyglądałaś wyglądałby wyglądałem wyglądałeś wyglądało wyglądałoby wyglądały wyglądałyby
+67	167	bóg	boga bogach bogami bogi bogiem bogini boginie boginią boginię bogiń bogom bogowi bogowie bogu bogów boscy boska boski boskich boskie boskiego boskiej boskim boskimi bosko boską boża boże bożego bożej bożek bożemu bożka bożków boży bożych bożym bożymi bożą
+68	168	prostu	
+69	169	razem	
+70	170	znać	zna znacie znaj znają znając znająca znające znającej znający znających znali znaliście znaliśmy znam znamy znana znane znanej znani znanie znano znasz znał znała znałam znałaś znałem znałeś znało znały znałyśmy
+71	171	ważny	najważniejsze najważniejszy najważniejszych ważna ważne ważnego ważnej ważni ważnie ważniejsi ważniejsza ważniejsze ważniejszej ważniejszy ważniejszych ważniejszym ważniejszymi ważniejszą ważnych ważnym ważnymi ważną
+72	172	słowo	słowa słowach słowami słowem słowie słowom słowu słowy słów słówkami słówko
+73	173	informacja	informacjach informacjami informacje informacji informacjom informacją informację informacyjna informacyjne informacyjnego informacyjnej informacyjnie informacyjno informacyjny informacyjnych informacyjnym informacyjnymi informacyjną
+74	174	gra	gier gierce gierek gierka gierkach gierkami gierki gierkę grach grami gro grom groma gromem gromu gromy gry grze grą grę
+75	175	zobaczyć	zobacz zobaczcie zobaczenie zobaczeniem zobaczeniu zobaczmy zobaczy zobaczycie zobaczyli zobaczyliście zobaczyliśmy zobaczymy zobaczysz zobaczywszy zobaczył zobaczyła zobaczyłabym zobaczyłam zobaczyłaś zobaczyłby zobaczyłbym zobaczyłbyś zobaczyłem zobaczyłeś zobaczyło zobaczyły zobaczyłyśmy zobaczą zobaczę
+76	176	godzina	godz godzin godzinach godzinami godzinek godzinie godzinka godzinkę godziny godziną godzinę
+77	177	pomoc	pomoce pomocy pomocą
+78	178	dlatego	
+79	179	dużo	duza duzo najwięcej
+80	180	naprawdę	
+81	181	trzeba	
+82	182	rząd	rządach rządami rządek rządem rządku rządom rządowa rządowe rządowego rządowej rządowemu rządowi rządowo rządowy rządowych rządowym rządowymi rządową rządu rządy rządzie rządów rzędach rzędami rzędem rzędowa rzędowe rzędowy rzędu rzędy rzędzie rzędów
+83	183	mało	malutko mniej najmniej
+84	184	prosić	prosi prosicie prosili prosiliście prosiliśmy prosimy prosisz prosił prosiła prosiłabym prosiłam prosiłaś prosiłbym prosiłem prosiłeś prosiło prosiły proszeni proszenia proszenie proszona proszone proszono proszony proszą prosząc proszący proszących proszę proś proście
+85	185	wybór	wyborach wyborami wyborem wyborom wyborowi wyboru wybory wyborze wyborów
+86	186	własny	własna własne własnego własnej własnemu własnych własnym własnymi własną właśni
+87	187	trzy	trzech trzej trzem trzema
+88	188	często	częściej najczęściej
+89	189	dalej	dala
+90	190	prowadzić	prowadza prowadzeni prowadzenia prowadzenie prowadzeniem prowadzeniu prowadzi prowadzicie prowadzili prowadziliśmy prowadzimy prowadzisz prowadził prowadziła prowadziłam prowadziłem prowadziło prowadziłoby prowadziły prowadzona prowadzone prowadzonej prowadzono prowadzony prowadzonych prowadzonym prowadzą prowadząc prowadząca prowadzące prowadzącego prowadzącej prowadzący prowadzących prowadzącym prowadzącymi prowadzącą prowadzę prowadź
+91	191	według	wg
+92	192	zmiana	zmian zmianach zmianami zmianie zmianom zmiany zmianą zmianę
+93	193	stan	stanach stanami stanem staniczek stanik stanika stanikach staniki stanikiem staniku staników stanom stanowej stanowy stanu stany stanów
+94	194	cel	celach celami cele celi celom celowi celu celów cyl
+95	195	system	systemach systemami systemem systemie systemom systemowa systemowe systemowego systemowej systemowi systemowo systemowy systemowych systemowym systemową systemu systemy systemów
+96	196	wojna	wojen wojenka wojenna wojenne wojennego wojennej wojennemu wojenni wojenno wojenny wojennych wojennym wojennymi wojenną wojnach wojnami wojnie wojnom wojny wojną wojnę
+97	197	tyle	tela tyla tyloma tylu
+98	198	prawda	prawd prawdach prawdami prawdo prawdy prawdzie prawdą prawdę
+99	199	powód	powoda powodach powodami powodem powodu powody powodzie powodów powódka powódki
+100	200	dziś	

@@ -1,0 +1,100 @@
+1	8401	przełączyć	przełącz przełącza przełączam przełączania przełączanie przełączać przełączenia przełączenie przełączy przełączył przełączyłem
+2	8402	nadwozie	nadwozi nadwozia nadwoziem nadwoziu
+3	8403	tir	tira tirem tiry tirów
+4	8404	aprobata	aprobacie aprobaty aprobatą aprobatę
+5	8405	upokorzenie	upokorzenia upokorzeniem upokorzeń
+6	8406	odtwarzacz	odtwarzacza odtwarzacze odtwarzaczem odtwarzaczu odtwarzaczy
+7	8407	notariusz	notariusza notariusze notariuszem notariuszy
+8	8408	ogólnokrajowy	ogólnokrajowa ogólnokrajowe ogólnokrajowego ogólnokrajowej ogólnokrajowych ogólnokrajowym ogólnokrajową
+9	8409	zawiadomić	zawiadamia zawiadamiam zawiadamiamy zawiadomi zawiadomili zawiadomiono zawiadomił zawiadomiła
+10	8410	bezlitosny	bezlitosna bezlitosne bezlitosnego bezlitosnej bezlitosnych bezlitosnym bezlitosną bezlitośni bezlitośnie
+11	8411	pasztet	pasztecie pasztecik paszteciki pasztetem pasztetu pasztety pasztetów
+12	8412	paragon	paragonach paragonie paragonu paragony paragonów
+13	8413	kraniec	krańca krańcach krańce krańcem krańcu krańców
+14	8414	toga	todze tog togach togi togo togę
+15	8415	integralny	integralna integralne integralnego integralnej integralnie integralnym integralną
+16	8416	kryty	kryta kryte krytego krytej krytych krytym krytą
+17	8417	spójność	spójności
+18	8418	chorąży	chorążego chorążych chorążym
+19	8419	kucyk	kucyka kucyki kucykiem kucyku kucyków
+20	8420	roznosić	rozniesie roznieść rozniosę rozniosła rozniosło rozniósł roznosi roznosił roznoszenia roznoszenie roznoszą
+21	8421	pomór	pomoru pomorze
+22	8422	wszelaki	wszelakich wszelakie wszelakiego wszelakiej
+23	8423	obić	obicia obicie obija obijając obijam obijamy obijania obijanie obijasz obijać obijał obita obite obity obił obiło
+24	8424	niepoprawny	niepoprawna niepoprawne niepoprawnego niepoprawni niepoprawnych niepoprawnym niepoprawną
+25	8425	niemożność	niemożności niemożnością
+26	8426	wymarły	wymarli wymarła wymarłe wymarłego wymarłych wymarłym wymarłą
+27	8427	zawinąć	zawija zawijają zawijam zawijamy zawijania zawijać zawinie zawinięta zawinięte zawinięty zawinął zawinę zawinęła zawiń
+28	8428	skarbiec	skarbca skarbce skarbcem skarbcu skarbnica skarbnicy skarbnicą
+29	8429	pipa	pip pipka pipki pipo pipą
+30	8430	gruczoł	gruczołach gruczołami gruczołem gruczołu gruczoły gruczołów
+31	8431	patera	pater patrze
+32	8432	pandemia	pandemii pandemią pandemię
+33	8433	kołnierz	kołnierza kołnierze kołnierzem kołnierzu kołnierzy kołnierzyk kołnierzyka kołnierzyki kołnierzykiem kołnierzyku
+34	8434	lokacja	lokacjach lokacje lokacji lokacją lokację
+35	8435	napływać	napłynęła napłynęło napłynęły napływa napływają napływające napływającej napływających napływały
+36	8436	klacz	klacze klaczy ogier ogiera ogierem ogiery ogierów
+37	8437	nisza	nisz niszach nisze niszy niszą niszę
+38	8438	posmarować	nasmarowane nasmarować posmarowane posmarowaną posmarowałam posmarowałem posmaruj smarowania smarowanie smarować smaruj smaruje smarujemy smarują smaruję
+39	8439	specyfikacja	specyfikacje specyfikacji specyfikacją specyfikację
+40	8440	gitarzysta	gitarzystka gitarzysty gitarzystów gitarzystą gitarzystę gitarzyści
+41	8441	taca	tac tace tacki tackę tacy tacą tacę
+42	8442	legislacyjny	legislacyjna legislacyjne legislacyjnego legislacyjnej legislacyjnych legislacyjnym
+43	8443	autentycznie	
+44	8444	dyskretnie	
+45	8445	konklawe	
+46	8446	oho	
+47	8447	popadnie	
+48	8448	retro	
+49	8449	trafnie	
+50	8450	uniwersum	
+51	8451	zen	
+52	8452	psychiatria	psychiatrii psychiatrię
+53	8453	chemikalia	chemikaliami chemikaliów
+54	8454	klif	klifach klifami klifem klifie klifu klify klifów
+55	8455	dziewiczy	dziewicza dziewicze dziewiczego dziewiczej dziewiczych dziewiczym dziewiczą
+56	8456	podległy	podlegli podległa podległe podległego podległej podległych podległym podległymi podległą
+57	8457	związkowy	związkowa związkowe związkowego związkowej związkowi związkowych związkowym związkowymi związkową
+58	8458	inwentarz	inwentarza inwentarzem inwentarzowy inwentarzu inwentarzy
+59	8459	biegunka	biegunki biegunką biegunkę
+60	8460	pędzel	pędzelek pędzla pędzle pędzlem pędzli
+61	8461	puzzle	puzzli
+62	8462	nadziać	nadział nadziej nadzieje nadzieją nadzieję nadziewana nadziewane nadziewany
+63	8463	zagłębiać	zagłębi zagłębia zagłębiam zagłębiamy zagłębienia zagłębieniach zagłębienie zagłębieniu zagłębień zagłębić
+64	8464	zaszczepić	zaszczepi zaszczepieni zaszczepienia zaszczepienie zaszczepili zaszczepiona zaszczepione zaszczepiono zaszczepiony zaszczepionych zaszczepił zaszczepiła
+65	8465	zdziałać	zdziała zdziałasz zdziałał zdziałała
+66	8466	skorpion	skorpiona skorpionie skorpiony skorpionów
+67	8467	gastronomia	gastronomiczna gastronomiczne gastronomicznego gastronomicznej gastronomiczno gastronomiczny gastronomicznych gastronomicznym gastronomiczną gastronomii
+68	8468	tybetański	tybetańscy tybetańska tybetańskich tybetańskie tybetańskiego tybetańskiej tybetańskim
+69	8469	styk	styki styku styków
+70	8470	niepełny	niepełna niepełne niepełnego niepełnej niepełnych niepełnym niepełną
+71	8471	wyłączność	wyłączności
+72	8472	nieodwracalny	nieodwracalna nieodwracalne nieodwracalnego nieodwracalnej nieodwracalnie nieodwracalnych nieodwracalnym nieodwracalną
+73	8473	bełkot	bełkotem bełkotu
+74	8474	wilgoć	wilgoci wilgocią
+75	8475	gnić	gnicia gnicie gnij gnije gniją gnijące gnijących zgnije zgniją zgnić zgnił zgniła zgniłe
+76	8476	domino	domin domina
+77	8477	osłaniać	osłania osłaniaj osłaniają osłaniając osłaniające osłaniający osłaniał osłaniała osłoni osłonić osłonięta osłonięte osłonięty osłoniętych osłoniętym osłonił
+78	8478	skory	skora skore skorzy
+79	8479	edukować	edukowania edukowanie edukuje edukujemy edukują edukując wyedukowane wyedukowani wyedukowany
+80	8480	aktywacja	aktywacji aktywacją aktywację
+81	8481	gips	gipsem gipsie gipsowa gipsowe gipsowego gipsowy gipsowych gipsową gipsu gipsy
+82	8482	konspiracja	konspiracje konspiracji konspiracją konspirację
+83	8483	meksykanin	meksykanie meksykanina meksykaninem meksykanom meksykanów
+84	8484	chemik	chemicy chemiczka chemika chemikiem chemików
+85	8485	wszechstronny	wszechstronna wszechstronne wszechstronnego wszechstronnej wszechstronnie wszechstronnych wszechstronnym wszechstronną
+86	8486	krawczyk	krawczyka
+87	8487	walencja	walencji
+88	8488	konwent	konwencie konwentach konwentu konwenty konwentów
+89	8489	automatyzacja	automatyzacji automatyzacją automatyzację
+90	8490	usatysfakcjonować	satysfakcjonować satysfakcjonuje satysfakcjonująca satysfakcjonujące satysfakcjonujący usatysfakcjonowana usatysfakcjonowani usatysfakcjonowany usatysfakcjonuje
+91	8491	nieduży	nieduża nieduże niedużego niedużej niedużo niedużych niedużym niedużą
+92	8492	gorszyć	gorszy gorszą gorszące gorszących zgorszenia zgorszenie zgorszeniem
+93	8493	wyka	wika wyk wyki wyko
+94	8494	klamka	klamce klamek klamki klamką klamkę
+95	8495	liturgiczny	liturgiczna liturgiczne liturgicznego liturgicznej liturgicznych liturgicznym liturgiczną
+96	8496	przyrządzić	przyrządza przyrządzam przyrządzana przyrządzane przyrządzania przyrządzanie przyrządzany przyrządzać przyrządzenia przyrządziłem przyrządzone
+97	8497	esencja	esencje esencji esencją esencję
+98	8498	filipiński	filipińscy filipińska filipińskich filipińskie filipińskiego filipińskiej filipińskim
+99	8499	drapieżnik	drapieżnicy drapieżnika drapieżnikami drapieżniki drapieżnikiem drapieżników
+100	8500	wkurwiony	wkurwieni wkurwiona wkurwione wkurwionych

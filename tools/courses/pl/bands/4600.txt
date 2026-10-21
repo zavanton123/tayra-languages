@@ -1,0 +1,100 @@
+1	4501	czyż	czyżyk
+2	4502	sądownictwo	sądownictwa sądownictwem sądownictwie
+3	4503	postulat	postulatach postulatami postulatem postulatu postulaty postulatów
+4	4504	cholerny	cholerna cholerne cholernego cholernej cholerni cholernych cholernym cholernymi cholerną
+5	4505	rozłożyć	rozkłada rozkładają rozkładając rozkładające rozkładający rozkładających rozkładam rozkładamy rozkładana rozkładane rozkładania rozkładanie rozkładany rozkładanym rozkładaną rozkładasz rozkładać rozkładał rozłożenia rozłożenie rozłożeniu rozłożona rozłożone rozłożony rozłożonych rozłożonym rozłożonymi rozłoży rozłożyli rozłożył rozłożyła rozłożyłam rozłożyłem rozłożyło rozłożyły rozłożą rozłóż
+6	4506	wiekowy	wiekowa wiekowe wiekowego wiekowej wiekowi wiekowo wiekowych wiekowym wiekową
+7	4507	marchew	marchewce marchewek marchewka marchewkami marchewki marchewkowe marchewkowo marchewkowy marchewką marchewkę marchwi
+8	4508	war	wary
+9	4509	pożarny	pożarna pożarne pożarnej pożarnych pożarną
+10	4510	rozpatrywać	rozpatruje rozpatrujemy rozpatrują rozpatrując rozpatrywana rozpatrywane rozpatrywanego rozpatrywanej rozpatrywania rozpatrywanie rozpatrywaniu rozpatrywany rozpatrywanych rozpatrywał rozpatrzenia rozpatrzenie rozpatrzeć rozpatrzmy rozpatrzona rozpatrzone rozpatrzono rozpatrzony rozpatrzy rozpatrzyć rozpatrzył
+11	4511	zalecać	zaleca zalecają zalecając zalecali zalecam zalecamy zalecana zalecane zalecanej zalecano zalecany zalecanych zalecanym zalecaną zalecał zalecała zalecałbym zalecili zalecić zalecił zaleciła zalecono
+12	4512	audio	
+13	4513	fantasy	
+14	4514	ręcznie	
+15	4515	odporność	odporności odpornościowe odpornościowego odpornościowy odpornościowych odpornościowym odpornością
+16	4516	sąsiedztwo	sąsiedztwa sąsiedztwem sąsiedztwie
+17	4517	dziewica	dziewic dziewicami dziewice dziewico dziewicy dziewicą dziewicę prawiczek prawiczka prawiczkiem prawiczków
+18	4518	sanktuarium	sanktuaria sanktuariach sanktuariów
+19	4519	beton	betonem betonie betonu betonów
+20	4520	smartfon	smartfona smartfonach smartfonami smartfonem smartfonie smartfonu smartfony smartfonów
+21	4521	uchwalić	uchwala uchwalane uchwalania uchwalanie uchwalenia uchwalenie uchwaleniem uchwaleniu uchwali uchwalili uchwalił uchwaliła uchwaliło uchwaliły uchwalona uchwalone uchwalonego uchwalonej uchwalono uchwalony uchwalonych uchwalonym uchwaloną uchwalą
+22	4522	wyzywać	wyzwany wyzwać wyzwał wyzwiesz wyzywa wyzywacie wyzywaj wyzywają wyzywając wyzywające wyzywający wyzywających wyzywali wyzywam wyzywania wyzywanie wyzywasz wyzywał wyzywała
+23	4523	przemieszczać	przemieszcza przemieszczają przemieszczając przemieszczające przemieszczający przemieszczali przemieszczamy przemieszczane przemieszczania przemieszczanie przemieszczaniem przemieszczaniu przemieszczał przemieszczenia przemieszczenie przemieszczeniem przemieszczeniu przemieszczeń przemieszczona przemieszczone przemieszczony przemieścić przemieścił przemieściła
+24	4524	reputacja	reputacje reputacji reputacją reputację
+25	4525	choinka	choince choinek choinki choinkowe choinką choinkę
+26	4526	kurczyć	kurcz kurcze kurczenia kurczenie kurczy kurczą skurczy skurczyć skurczył skurczyła
+27	4527	nieobecność	nieobecności nieobecnością
+28	4528	zapłata	zapłacie zapłaty zapłatą zapłatę
+29	4529	wagon	wagonach wagonami wagonem wagonie wagonik wagonika wagoniki wagonu wagony wagonów
+30	4530	śmieszyć	śmiesz śmieszy śmieszył śmieszyło śmieszą
+31	4531	utalentowany	utalentowana utalentowane utalentowanego utalentowanej utalentowani utalentowanych utalentowanym utalentowanymi utalentowaną
+32	4532	posada	posad posadach posadka posadkę posady posadzie posadą posadę
+33	4533	hołd	hołdem hołdu hołdy hołdzie
+34	4534	realia	realiach realiami realiów
+35	4535	kwestionować	kwestionowali kwestionowana kwestionowane kwestionowania kwestionowanie kwestionowany kwestionował kwestionowała kwestionowałem kwestionuje kwestionujesz kwestionują kwestionując kwestionujących kwestionuję zakwestionowana zakwestionowane zakwestionowania zakwestionować zakwestionował zakwestionowała
+36	4536	market	markecie marketach marketem marketu markety marketów
+37	4537	poprawnie	poprawniej
+38	4538	ilustracja	ilustracjach ilustracjami ilustracje ilustracji ilustracją ilustrację
+39	4539	jama	jamach jamie jamo jamy jamą jamę
+40	4540	zimne	zimnego zimnych zimnym zimnymi
+41	4541	czystość	czystości czystością
+42	4542	zmotywować	motywowana motywowane motywowania motywowanie motywowaniu motywowany motywowanych motywować motywował motywowała motywuje motywujemy motywujesz motywują motywując motywujące motywującego motywujący motywujących umotywowane umotywowany zmotywowana zmotywowani zmotywowany zmotywował zmotywowała zmotywowało zmotywuje
+43	4543	sanitarny	sanitarna sanitarne sanitarnego sanitarnej sanitarno sanitarnych sanitarnym sanitarnymi sanitarną
+44	4544	przetwarzać	przetwarza przetwarzają przetwarzające przetwarzających przetwarzana przetwarzane przetwarzania przetwarzanie przetwarzany przetwarzanych przetworzenia przetworzenie przetworzeniu przetworzona przetworzone przetworzonego przetworzonej przetworzony przetworzonych przetworzyć
+45	4545	prowokacja	prowokacje prowokacji prowokacją prowokację
+46	4546	innowacja	innowacjach innowacjami innowacje innowacji innowacjom innowacją innowację
+47	4547	pył	pyle pyłek pyłem pyłki pyłkiem pyłku pyłków pyłowych pyłu pyły pyłów
+48	4548	seksowny	najseksowniejszy seksowna seksowne seksownego seksownej seksowni seksownie seksowniejsza seksownych seksownym seksownymi seksowną
+49	4549	oddzielny	oddzielna oddzielne oddzielnego oddzielnej oddzielnych oddzielnym oddzielnymi oddzielną
+50	4550	dołożyć	dokłada dokładają dokładając dokładali dokładam dokładamy dokładanie dokładasz dokładać dokładał dołożenie dołożone dołożono dołoży dołożyli dołożyliśmy dołożymy dołożył dołożyła dołożyłem dołożą dołożę dołóż dołóżcie
+51	4551	wywierać	wywarcia wywarcie wywarli wywarł wywarła wywarło wywarły wywiera wywierają wywierając wywierali wywierana wywierania wywieranie wywieraniu wywierano wywierał wywierała wywierały wywrze wywrzeć
+52	4552	wykres	wykresach wykresami wykresem wykresie wykresu wykresy wykresów
+53	4553	doniesienie	doniesienia doniesieniach doniesieniami doniesieniom doniesień
+54	4554	słoń	słoni słonia słoniach słoniami słonie słoniem słonik słoniki słoniu
+55	4555	zagwarantować	zagwarantowana zagwarantowane zagwarantowanego zagwarantowania zagwarantowanie zagwarantowano zagwarantowany zagwarantowaną zagwarantował zagwarantowała zagwarantowało zagwarantuje zagwarantują
+56	4556	prześladowanie	prześladowania prześladowaniach prześladowaniami prześladowaniem prześladowaniu prześladowań
+57	4557	poszerzyć	poszerz poszerza poszerzają poszerzając poszerzające poszerzania poszerzanie poszerzaniu poszerzać poszerzał poszerzenia poszerzenie poszerzeniem poszerzeniu poszerzona poszerzone poszerzonej poszerzono poszerzony poszerzonych poszerzonym poszerzoną poszerzy poszerzyli poszerzył poszerzyła poszerzyło poszerzyły
+58	4558	brygada	brygad brygady brygadzie brygadą brygadę
+59	4559	down	downa downem downie
+60	4560	hipokryzja	hipokryzje hipokryzji hipokryzją hipokryzję
+61	4561	obsada	obsady obsadzie obsadą obsadę
+62	4562	kit	kicie kitami kitem kitu kity kitów
+63	4563	ląd	lądem lądu lądy lądzie lądów
+64	4564	wypłynąć	wypłynie wypłynięcia wypłynięcie wypłynięciem wypłynięciu wypłyną wypłynął wypłynęli wypłynęła wypłynęło wypłynęły wypływa wypływają wypływająca wypływające wypływającej wypływający wypływających wypływającą wypływania wypływać wypływał wypływała wypływały
+65	4565	obieg	obiegi obiegiem obiegu obiegów
+66	4566	bieżący_rok	br
+67	4567	przypadkowo	
+68	4568	hasztag	hashtag hasztagami hasztagiem hasztagu hasztagów
+69	4569	wał	wale wała wałach wałami wałek wałem wałka wałkach wałkami wałki wałkiem wałku wałków wału wały wałów
+70	4570	rozległy	rozlegle rozległa rozległe rozległego rozległej rozległych rozległym rozległymi rozległą
+71	4571	semestr	semestrach semestralne semestralnej semestru semestry semestrze semestrów
+72	4572	fryzura	fryzur fryzurach fryzurami fryzurka fryzury fryzurze fryzurą fryzurę
+73	4573	mnich	mnicha mnichami mnichem mnichom mnichowi mnichu mnichów mnisi mniszek mniszka mniszki
+74	4574	balon	balona balonach balonami balonem balonie balonik balonika balonikami baloniki baloników balonu balony balonów
+75	4575	rozproszyć	rozprasza rozpraszaj rozpraszają rozpraszając rozpraszające rozpraszających rozpraszam rozpraszania rozpraszanie rozpraszasz rozpraszać rozproszeni rozproszenia rozproszenie rozproszeniem rozproszeniu rozproszona rozproszone rozproszonego rozproszonej rozproszony rozproszonych rozproszonym rozproszonymi rozproszoną rozproszyli rozproszył rozproszyła rozproszyły
+76	4576	przedłużyć	przedłuża przedłużają przedłużając przedłużająca przedłużające przedłużającej przedłużający przedłużających przedłużam przedłużane przedłużania przedłużanie przedłużać przedłużał przedłużona przedłużone przedłużonego przedłużonej przedłużono przedłużony przedłużonym przedłużoną przedłuży przedłużyli przedłużył przedłużyła przedłużyło
+77	4577	instruktor	instruktora instruktorami instruktorek instruktorem instruktorka instruktorki instruktorką instruktorzy instruktorów
+78	4578	urzędowy	urzędowa urzędowe urzędowego urzędowej urzędowi urzędowo urzędowych urzędowym urzędowymi urzędową
+79	4579	nominować	nominowana nominowane nominowanego nominowanej nominowani nominowano nominowany nominowanych nominowanym nominowaną nominował nominowała nominuje nominują nominuję
+80	4580	wzorzec	wzorca wzorcach wzorcami wzorce wzorcem wzorcu wzorców
+81	4581	kijowski	kijowska kijowskich kijowskiego kijowskiej kijowskiemu kijowskim kijowsko
+82	4582	rezydencja	rezydencjach rezydencje rezydencji rezydencją rezydencję
+83	4583	wigilia	wigilie wigilii wigilijna wigilijne wigilijnej wigilijny wigilijnym wigilijną wigilią wigilię
+84	4584	pozostałość	pozostałości pozostałościach pozostałościami pozostałością
+85	4585	zawał	zawale zawałem zawału zawały zawałów
+86	4586	ambitny	ambitna ambitne ambitnego ambitnej ambitni ambitnie ambitnych ambitnym ambitną
+87	4587	terror	terrorem terrorowi terroru terrorze
+88	4588	padło	padła padłem
+89	4589	pasmo	pasem pasemka pasemko pasm pasma pasmach pasmami pasmem pasmie paśmie
+90	4590	rozciągnąć	rozciąga rozciągają rozciągając rozciągająca rozciągające rozciągającego rozciągającej rozciągający rozciągających rozciągającym rozciągającą rozciągam rozciągania rozciąganie rozciąganiu rozciągać rozciągał rozciągała rozciągało rozciągały rozciągnij rozciągnięcia rozciągnięcie rozciągnięta rozciągnięte rozciągnięty rozciągnął rozciągnęła
+91	4591	pilny	pilna pilne pilnego pilnej pilniejsze pilnych pilnym pilną
+92	4592	szyb	szybach szybami szybem szybie szybu szyby szybów
+93	4593	kontra	kontr kontry kontrze kontrę
+94	4594	hak	haczyk haczyka haczykami haczyki haczykiem haczyku haczyków haka hakach hakami haki hakiem haku haków hok
+95	4595	najmłodsi	najmłodszych najmłodszym najmłodszymi
+96	4596	karetka	karetce karetek karetkami karetki karetką karetkę
+97	4597	stwarzać	stwarza stwarzają stwarzając stwarzające stwarzających stwarzam stwarzamy stwarzania stwarzanie stwarzasz stwarzał stwarzała stwarzało stwarzały
+98	4598	skręcić	skręca skręcają skręcając skręcający skręcam skręcamy skręcania skręcanie skręcasz skręcać skręcał skręcenia skręcenie skręceniem skręci skręcili skręciliśmy skręcił skręciła skręciłam skręciłem skręcona skręcone skręcony skręconych skręconym skręconą skręć
+99	4599	militarny	militarna militarne militarnego militarnej militarno militarnych militarnym militarnymi militarną
+100	4600	dystrykt	dystrykcie dystryktach dystryktu dystrykty dystryktów

@@ -1,0 +1,100 @@
+1	1401	emocja	emocjach emocjami emocje emocji emocjom emocją emocję
+2	1402	bieg	biega biegach biegami biegi biegiem biegowa biegowe biegowego biegowej biegowi biegowy biegowych biegową biegu biegów
+3	1403	powiat	powiatach powiatami powiatem powiatowa powiatowe powiatowego powiatowej powiatowi powiatowo powiatowy powiatowych powiatowym powiatowymi powiatową powiatu powiaty powiatów powiecie
+4	1404	fizyczny	fizyczna fizyczne fizycznego fizycznej fizyczni fizyczno fizycznych fizycznym fizycznymi fizyczną
+5	1405	silnik	silniczki silniczków silnika silnikach silnikami silniki silnikiem silnikom silnikowa silnikowe silnikowego silnikowej silnikowi silnikowy silnikowych silnikowym silniku silników
+6	1406	zakaz	zakazach zakazami zakazem zakazie zakazom zakazowi zakazu zakazy zakazów
+7	1407	piec	pca pieca piecach piecami piece piecek piecem piecu piecyk piecyka piecyków piecze pieczemy pieczeni pieczenia pieczenie pieczeniem pieczeniu pieczona pieczone pieczonego pieczonej pieczony pieczonych pieczonym pieczonymi pieczoną pieców piekieł piekiełko piekle piekli pieką piekący piekę piekła piekłam piekłem piekło
+8	1408	tweet	tweecie tweeta tweetach tweetami tweetem tweety tweetów
+9	1409	strata	stracie strat stratach stratami stratom straty stratą stratę
+10	1410	partner	partnera partnerami partnerem partnerka partnerom partnerowi partnerze partnerzy partnerów
+11	1411	złapać	złap złapali złapaliśmy złapana złapane złapani złapania złapanie złapaniu złapano złapany złapanych złapanym złapał złapała złapałam złapałem złapałeś złapało złapie złapiesz złapią złapię łap łapania łapanie łapaniem łapaniu łapać łapał łapała łapcie łapie łapiecie łapiemy łapiesz łapią łapiąc łapię
+12	1412	dorosły	dorosła dorosłe dorosłego dorosłej dorosłemu dorosłych dorosłym dorosłymi dorosłą dorośli
+13	1413	straszny	najstraszniejszy straszna straszne strasznego strasznej straszni straszniejsze straszniejszy strasznych strasznym strasznymi straszną
+14	1414	poprosić	poprosi poprosili poprosiliśmy poprosimy poprosisz poprosił poprosiła poprosiłabym poprosiłam poprosiłbym poprosiłem poprosiłeś poprosiło poprosiły poproszeni poproszenia poproszenie poproszona poproszono poproszony poproszą poproszę poproś poproście
+15	1415	inwestycja	inwestycjach inwestycjami inwestycje inwestycji inwestycjom inwestycją inwestycję inwestycyjna inwestycyjne inwestycyjnego inwestycyjnej inwestycyjny inwestycyjnych inwestycyjnym inwestycyjnymi inwestycyjną
+16	1416	widok	widokami widoki widokiem widoku widoków
+17	1417	ów	owa owe owego owej owi owo owy owych owym owymi ową
+18	1418	spotykać	spotyka spotykacie spotykaj spotykają spotykając spotykających spotykali spotykaliśmy spotykam spotykamy spotykana spotykane spotykanego spotykanej spotykania spotykanie spotykany spotykanych spotykanym spotykanymi spotykaną spotykasz spotykał spotykała spotykałam spotykałem spotykało spotykały
+19	1419	kuchnia	kuchence kuchenek kuchenka kuchenki kuchenką kuchenkę kuchenna kuchenne kuchennego kuchennej kuchenny kuchennych kuchennym kuchennymi kuchenną kuchni kuchniach kuchnie kuchnią kuchnię
+20	1420	powitać	powita powitaj powitajcie powitajmy powitali powitam powitamy powitani powitano powitany powitał powitała wita witacie witaj witajcie witają witając witający witali witam witamy witani witania witano witany witasz witać witał witała witały
+21	1421	sprzęt	sprzęcie sprzętach sprzętem sprzętowe sprzętowy sprzętu sprzęty sprzętów
+22	1422	kariera	karier karierach kariery karierze karierą karierę
+23	1423	ciąża	ciąż ciążami ciąże ciąży ciążą ciążę
+24	1424	idea	ideach ideami idee idei ideo ideom ideą ideę
+25	1425	protest	protestach protestami protestem protestom protestu protesty protestów proteście
+26	1426	współczesny	współczesna współczesne współczesnego współczesnej współczesnemu współczesnych współczesnym współczesnymi współczesną współcześni
+27	1427	biblioteka	bibliotece biblioteczce biblioteczka biblioteczki biblioteczkę biblioteczna biblioteczne bibliotecznego bibliotecznej biblioteczno biblioteczny bibliotecznych bibliotecznym biblioteczną bibliotek bibliotekach bibliotekami biblioteki biblioteką bibliotekę
+28	1428	magazyn	magazynach magazynami magazynek magazynem magazynie magazynka magazynki magazynkiem magazynku magazynków magazynowi magazynu magazyny magazynów
+29	1429	niepodległość	niepodległości niepodległością
+30	1430	mocny	mocna mocne mocnego mocnej mocni mocniejsi mocniejsza mocniejsze mocniejszej mocniejszy mocniejszych mocniejszym mocniejszymi mocniejszą mocnych mocnym mocnymi mocną najmocniejszy
+31	1431	piwo	piw piwa piwach piwem piwie piwko piwna piwne piwnego piwnej piwny piwnych piwnym piwną piwu
+32	1432	właściwy	najwłaściwszy właściwa właściwe właściwego właściwej właściwemu właściwi właściwych właściwym właściwymi właściwą
+33	1433	miejscowość	miejscowości miejscowościach miejscowościami miejscowością
+34	1434	staje	staj staja stają staję
+35	1435	adres	adresach adresami adresem adresie adresu adresy adresów
+36	1436	zapisać	zapisali zapisana zapisane zapisanego zapisanej zapisani zapisania zapisanie zapisano zapisany zapisanych zapisanym zapisaną zapisał zapisała zapisałam zapisałem zapisało zapisuje zapisujemy zapisujesz zapisują zapisując zapisuję zapisywali zapisywana zapisywane zapisywania zapisywanie zapisywany zapisywać zapisywał zapisywała zapisz zapiszcie zapisze zapiszemy zapiszesz zapiszę
+37	1437	zawodnik	zawodnicy zawodniczej zawodniczka zawodniczki zawodnika zawodnikach zawodnikami zawodnikiem zawodnikom zawodnikowi zawodniku zawodników
+38	1438	budżet	budżecie budżetami budżetem budżetowa budżetowe budżetowego budżetowej budżetowi budżetowo budżetowy budżetowych budżetowym budżetowymi budżetową budżetu budżety budżetów
+39	1439	symbol	symbolach symbolami symbole symbolem symboli symbolu
+40	1440	dziwić	dziw dziwcie dziwi dziwicie dziwie dziwili dziwimy dziwisz dziwią dziwię dziwił dziwiłam dziwiłem dziwiło dziwy zadziwi zadziwiony zadziwić zadziwił zadziwiło zdziw zdziwcie zdziwi zdziwicie zdziwieni zdziwili zdziwiona zdziwisz zdziwią zdziwić zdziwię zdziwił zdziwiła zdziwiłabym zdziwiłam zdziwiłbym zdziwiłbyś zdziwiłem zdziwiło
+41	1441	leczenie	leczenia leczeniem leczeniu
+42	1442	dumny	dumna dumne dumnego dumnej dumni dumnie dumnych dumnym dumnymi dumną
+43	1443	bilet	bilecie bilecik bileciki biletach biletami biletem biletu bilety biletów
+44	1444	produkować	produkowali produkowana produkowane produkowanego produkowanej produkowania produkowanie produkowano produkowany produkowanych produkowanym produkowanymi produkował produkowała produkuje produkujemy produkujesz produkują produkując produkująca produkujące produkującej produkujący produkujących produkującą wyprodukowali wyprodukowana wyprodukowane wyprodukowanego wyprodukowanej wyprodukowania wyprodukowanie wyprodukowano wyprodukowany wyprodukowanych wyprodukować wyprodukował wyprodukowała wyprodukuje
+45	1445	poruszać	porusza poruszają poruszając poruszająca poruszające poruszającego poruszający poruszających poruszającym poruszali poruszam poruszamy poruszana poruszane poruszania poruszanie poruszaniem poruszany poruszanych poruszasz poruszał poruszała poruszałem poruszało poruszały poruszeni poruszenia poruszenie poruszona poruszone poruszono poruszony poruszy poruszyć poruszył poruszyła poruszyłem poruszyło poruszyły
+46	1446	analiza	analiz analizach analizami analizie analizom analizy analizą analizę
+47	1447	do_spraw	ds
+48	1448	istnienie	istnienia istnieniem istnieniu istnień
+49	1449	gimnazjum	gimnazja gimnazjach gimnazjalna gimnazjalne gimnazjalnego gimnazjalnej gimnazjalny gimnazjalnych gimnazjalnym gimnazjalną gimnazjów
+50	1450	jeździć	jeździ jeździcie jeździj jeździli jeździliśmy jeździmy jeździsz jeździł jeździła jeździłam jeździłaś jeździłem jeździłeś jeździło jeździły jeżdżenia jeżdżenie jeżdżeniem jeżdżeniu jeżdżą jeżdżąc jeżdżąca jeżdżące jeżdżącego jeżdżący jeżdżących jeżdżącym jeżdżę
+51	1451	północ	północy północą
+52	1452	przekroczyć	przekracza przekraczaj przekraczają przekraczając przekraczające przekraczającej przekraczający przekraczających przekraczającym przekraczającą przekraczam przekraczamy przekraczania przekraczanie przekraczaniu przekraczasz przekraczać przekraczał przekraczała przekraczały przekroczenia przekroczenie przekroczeniem przekroczeniu przekroczona przekroczone przekroczono przekroczony przekroczy przekroczyli przekroczyliśmy przekroczysz przekroczył przekroczyła przekroczyłam przekroczyłem przekroczyło przekroczyły przekroczą
+53	1453	flaga	fladze flag flagach flagami flagi flagą flagę
+54	1454	umożliwić	umożliwi umożliwia umożliwiają umożliwiając umożliwiająca umożliwiające umożliwiającego umożliwiającej umożliwiający umożliwiających umożliwiającym umożliwiającymi umożliwiającą umożliwianie umożliwiać umożliwiał umożliwiała umożliwiało umożliwiały umożliwienia umożliwienie umożliwieniu umożliwili umożliwiono umożliwią umożliwił umożliwiła umożliwiłby umożliwiło umożliwiłoby umożliwiły
+55	1455	rak	raczek raka rakami raki rakiem rakowi raku raków rek reki
+56	1456	oryginalny	oryginalna oryginalne oryginalnego oryginalnej oryginalnemu oryginalni oryginalnie oryginalnych oryginalnym oryginalnymi oryginalną
+57	1457	misja	misjach misjami misje misji misją misję
+58	1458	własność	własności własnościach własnościami własnością
+59	1459	warszawski	warszawscy warszawska warszawskich warszawskie warszawskiego warszawskiej warszawskiemu warszawskim warszawskimi warszawsko warszawską
+60	1460	powszechny	powszechna powszechne powszechnego powszechnej powszechnemu powszechniejsze powszechnych powszechnym powszechnymi powszechną
+61	1461	funkcjonować	funkcjonowali funkcjonowania funkcjonowanie funkcjonował funkcjonowała funkcjonowało funkcjonowały funkcjonuje funkcjonujesz funkcjonują funkcjonując funkcjonująca funkcjonujące funkcjonującego funkcjonującej funkcjonujący funkcjonujących funkcjonującym funkcjonującą funkcjonuję
+62	1462	wolno	najwolniej wolniej
+63	1463	prezent	prezencie prezencik prezentach prezentami prezentem prezentu prezenty prezentów
+64	1464	łatwy	najłatwiejszy łatwa łatwe łatwego łatwej łatwiejsza łatwiejsze łatwiejszej łatwiejszy łatwiejszych łatwiejszym łatwiejszą łatwych łatwym łatwymi łatwą
+65	1465	kosztować	kosztował kosztowała kosztowałby kosztowało kosztowałoby kosztowały kosztuje kosztują kosztujący skosztować
+66	1466	reforma	reform reformach reformami reformie reformom reformy reformą reformę
+67	1467	śląski	śląscy śląska śląskich śląskie śląskiego śląskiej śląskim śląskimi śląsko śląsku śląską
+68	1468	pociąg	pociągach pociągami pociągi pociągiem pociągom pociągowe pociągowy pociągowych pociągu pociągów
+69	1469	forum	fora forach forami forów
+70	1470	strefa	stref strefach strefami strefy strefą strefę
+71	1471	zabawny	najzabawniejszy zabawna zabawne zabawnego zabawnej zabawni zabawnie zabawniej zabawniejsza zabawniejsze zabawniejszy zabawnych zabawnym zabawnymi zabawną
+72	1472	pozdrowić	pozdrawia pozdrawiają pozdrawiam pozdrawiamy pozdrawiać pozdrowienia pozdrowieniami pozdrowienie pozdrowieniem pozdrowień pozdrowiona pozdrowię pozdrowił pozdrów pozdrówcie
+73	1473	rejon	rejonach rejonami rejonem rejonie rejonowa rejonowe rejonowego rejonowej rejonowy rejonowych rejonowym rejonową rejonu rejony rejonów
+74	1474	ustawić	ustaw ustawi ustawia ustawiają ustawiając ustawiali ustawiam ustawiamy ustawiane ustawiania ustawianie ustawiasz ustawiać ustawiał ustawieni ustawienia ustawieniach ustawienie ustawieniem ustawieniu ustawień ustawili ustawiliśmy ustawimy ustawiona ustawione ustawionego ustawiono ustawiony ustawionych ustawionym ustawioną ustawisz ustawią ustawię ustawił ustawiła ustawiłam ustawiłem
+75	1475	nowoczesny	najnowocześniejszy nowoczesna nowoczesne nowoczesnego nowoczesnej nowoczesnych nowoczesnym nowoczesnymi nowoczesną nowocześni nowocześnie nowocześniejsze nowocześniejszy
+76	1476	uczelnia	uczelni uczelniach uczelniami uczelniana uczelniane uczelnianego uczelnianej uczelniany uczelnianych uczelnianym uczelnianą uczelnie uczelniom uczelnią uczelnię
+77	1477	rana	ran ranach ranami ranie ranka rany raną ranę
+78	1478	przód	przedzie przodek przodem przodka przodkach przodkami przodkiem przodkom przodkowie przodku przodków przodowi przodu przodzie
+79	1479	wyciągnąć	wyciąga wyciągaj wyciągajcie wyciągają wyciągając wyciągali wyciągam wyciągamy wyciągane wyciągania wyciąganie wyciąganiu wyciągasz wyciągać wyciągał wyciągała wyciągnie wyciągniesz wyciągnij wyciągnijcie wyciągnięcia wyciągnięcie wyciągnięciu wyciągnięta wyciągnięte wyciągniętej wyciągnięto wyciągnięty wyciągniętych wyciągniętą wyciągną wyciągnął wyciągnąłem wyciągnąłeś wyciągnę wyciągnęli wyciągnęła wyciągnęłam wyciągnęły
+80	1480	procent	procencie procenta procentach procentami procentem procentowa procentowe procentowego procentowej procentowo procentowy procentowych procentowym procentową procentu procenty procentów
+81	1481	publikacja	publikacjach publikacjami publikacje publikacji publikacjom publikacją publikację
+82	1482	tradycyjny	tradycyjna tradycyjne tradycyjnego tradycyjnej tradycyjnemu tradycyjni tradycyjnych tradycyjnym tradycyjnymi tradycyjną
+83	1483	padać	pada padają padając padające padającego padającej padający padających padającym padali padam padania padano padasz padał padała padało padały padli padnie padniesz padnij padną padnę padł padła padłam padłem padłeś padły padłych pasie pasł paście paść
+84	1484	ograniczenie	ograniczenia ograniczeniach ograniczeniami ograniczeniem ograniczeniom ograniczeniu ograniczeń
+85	1485	aktywny	aktywna aktywne aktywnego aktywnej aktywni aktywnych aktywnym aktywnymi aktywną
+86	1486	przywitać	przywita przywitaj przywitajcie przywitali przywitaliśmy przywitam przywitania przywitanie przywitaniu przywitany przywitał przywitała przywitało wita witacie witaj witajcie witają witając witający witali witam witamy witani witania witano witany witasz witać witał witała witały
+87	1487	tracić	tracenia tracenie traci tracicie tracili traciliśmy tracimy tracisz tracił traciła traciłam traciłem traciłeś traciło traciły tracone tracą tracąc tracę trać traćcie traćmy
+88	1488	faktycznie	
+89	1489	młodych	
+90	1490	tymczasem	
+91	1491	prawnik	prawnicy prawniczka prawniczki prawnika prawnikami prawnikiem prawnikom prawnikowi prawników
+92	1492	życzyć	zażyczy zażyczysz zażyczyć zażyczył zażyczyła życz życzcie życzmy życzy życzycie życzyli życzymy życzysz życzył życzyła życzyłabym życzyłam życzyłby życzyłbym życzą życząc życzę
+93	1493	nadejść	nadchodzi nadchodzimy nadchodził nadchodziła nadchodziły nadchodzą nadchodząca nadchodzące nadchodzącego nadchodzącej nadchodzący nadchodzących nadchodzącym nadchodzącymi nadchodzącą nadchodzę nadejdzie nadejdą nadejścia nadejście nadejściem nadejściu nadeszła nadeszło nadeszły nadszedł
+94	1494	wysyłać	wysyła wysyłacie wysyłaj wysyłajcie wysyłają wysyłając wysyłające wysyłającego wysyłający wysyłali wysyłaliśmy wysyłam wysyłamy wysyłana wysyłane wysyłani wysyłania wysyłanie wysyłaniem wysyłaniu wysyłano wysyłany wysyłanych wysyłasz wysyłał wysyłała wysyłałam wysyłałaś wysyłałem wysyłało wysyłały
+95	1495	kamień	kamieni kamienia kamieniach kamieniami kamienie kamieniem kamieniu kamyk kamyka kamykami kamyki kamyków
+96	1496	aktor	aktora aktorach aktorami aktorem aktorka aktorom aktorowi aktorze aktorzy aktorzyna aktorów
+97	1497	słodki	najsłodszy słodcy słodka słodkich słodkie słodkiego słodkiej słodkim słodkimi słodko słodką słodsza słodsze słodszy słodziutka słodziutki słodziutkie słodziutko
+98	1498	wyjątkowy	wyjątkowa wyjątkowe wyjątkowego wyjątkowej wyjątkowi wyjątkowych wyjątkowym wyjątkowymi wyjątkową
+99	1499	niebezpieczny	najniebezpieczniejszy niebezpieczna niebezpieczne niebezpiecznego niebezpiecznej niebezpieczni niebezpiecznie niebezpiecznych niebezpiecznym niebezpiecznymi niebezpieczną
+100	1500	seksualny	seksualna seksualne seksualnego seksualnej seksualni seksualnie seksualnych seksualnym seksualnymi seksualną

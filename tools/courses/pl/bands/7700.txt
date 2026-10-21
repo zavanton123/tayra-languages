@@ -1,0 +1,100 @@
+1	7601	wenecki	wenecka weneckich weneckie weneckiego weneckiej weneckim wenecką
+2	7602	odbiornik	odbiornika odbiornikach odbiornikami odbiorniki odbiornikiem odbiorniku odbiorników
+3	7603	poznawczy	poznawcza poznawcze poznawczego poznawczej poznawczo poznawczych poznawczym poznawczymi poznawczą
+4	7604	zakładka	zakładce zakładek zakładkach zakładki zakładkę
+5	7605	równać	równa równaj równają równało
+6	7606	relaks	relaksu
+7	7607	realizm	realizmem realizmu
+8	7608	piekarnik	piekarnika piekarnikiem piekarniku
+9	7609	tęsknota	tęsknocie tęsknoty tęsknotą tęsknotę
+10	7610	uproszczenie	uproszczenia uproszczeniem uproszczeniu uproszczeń
+11	7611	knajpa	knajp knajpach knajpka knajpy knajpę
+12	7612	wpłata	wpłat wpłaty wpłatą wpłatę
+13	7613	bis	bisy
+14	7614	samobójca	samobójcy samobójczyni samobójców samobójcą samobójcę
+15	7615	szajs	szajsem szajsie szajsu
+16	7616	serdeczny	serdeczna serdeczne serdecznego serdecznej serdeczni serdecznych serdecznym serdeczną
+17	7617	aktywować	aktywowana aktywowane aktywowanego aktywowania aktywowanie aktywowany aktywował aktywuj aktywuje aktywujesz aktywują aktywujące aktywujący
+18	7618	słony	słona słone słonego słonej słoni słonia słonych słonym słoną
+19	7619	równouprawnienie	równouprawnienia równouprawnieniem równouprawnieniu
+20	7620	zbiec	zbiega zbiegają zbiegli zbiegł zbiegła zbiegło
+21	7621	przeciągnąć	przeciąga przeciągaj przeciągając przeciągania przeciąganie przeciąganiu przeciągać przeciągał przeciągnie przeciągnij przeciągnięcia przeciągnięcie przeciągnął przeciągnęła przeciągnęło
+22	7622	problematyczny	problematyczna problematyczne problematycznego problematycznej problematycznych problematyczną
+23	7623	baton	batona batonik batoniki batony batonów
+24	7624	wytrzeć	wyciera wycierają wycierając wycieram wycierania wycieranie wycieraniu wycierasz wycierać wytarcia wytarcie wytarta wytarte wytarty wytarł wytarła wytarłem wytrzyj
+25	7625	kazachski	kazachscy kazachskich kazachskie kazachskiego kazachskiej kazachskim
+26	7626	publika	publice publiki publiką publikę
+27	7627	uzbierać	uzbiera uzbierali uzbieram uzbieramy uzbierane uzbieranie uzbierasz uzbierał uzbierała uzbierałem uzbierało
+28	7628	artyleria	artylerii artylerią artylerię
+29	7629	materac	materaca materacach materacami materace materacem materacu materacy materaców
+30	7630	uporać	upora uporali uporaliśmy uporam uporamy uporanie uporał uporałem
+31	7631	baśń	baśni baśniach baśniami baśnie baśniowa baśniowe baśniowej baśniowy baśniowych baśniowym
+32	7632	przechodzień	przechodnia przechodnie przechodniom przechodniu przechodniów
+33	7633	rozsądnie	najrozsądniej rozsądniej
+34	7634	budowniczy	budowniczego budowniczowie budowniczych budowniczym budowniczymi
+35	7635	cent	centa centy centów
+36	7636	straszliwy	straszliwa straszliwe straszliwego straszliwej straszliwie straszliwych straszliwym straszliwą
+37	7637	grad	gradem gradu grady
+38	7638	nieświadomy	nieświadoma nieświadome nieświadomego nieświadomi nieświadomych nieświadomym nieświadomymi nieświadomą
+39	7639	nosze	nosz noszach noszy
+40	7640	wyspać	wyspana wyspany wyspał wyspałam wyspałaś wyspałem wyspałeś wysypiam wysypiać wyśpij wyśpijcie wyśpisz wyśpię
+41	7641	jehowy	jehowa jehowi jehowych
+42	7642	częstochowski	częstochowska częstochowskich częstochowskie częstochowskiego częstochowskiej częstochowskim częstochowską
+43	7643	rozbiór	rozbiorach rozbiorami rozbiorem rozbioru rozbiory rozbiorze rozbiorów
+44	7644	wyścigowy	wyścigowa wyścigowe wyścigowego wyścigowej wyścigowych wyścigowym wyścigowymi wyścigową
+45	7645	nowoczesność	nowoczesności nowoczesnością
+46	7646	oberwać	oberwali oberwanie oberwał oberwała oberwałaś oberwało oberwie oberwiesz obrywa obrywają
+47	7647	okłamywać	okłamali okłamaliśmy okłamać okłamał okłamała okłamałam okłamałaś okłamuj okłamuje okłamujecie okłamujesz okłamujmy okłamują okłamując okłamuję okłamywana okłamywanie okłamywał okłamywała
+48	7648	ortografia	ortografii ortografią ortografię
+49	7649	korporacyjny	korporacyjna korporacyjne korporacyjnego korporacyjnej korporacyjnych korporacyjnym korporacyjną
+50	7650	malarski	malarska malarskich malarskie malarskiego malarskiej malarskim malarskimi malarsko malarską
+51	7651	astronauta	astronauci astronautami astronauty astronautów astronautą astronautę
+52	7652	krzyżak	krzyżacy krzyżaka krzyżakami krzyżakom krzyżaków
+53	7653	sensacyjny	sensacyjna sensacyjne sensacyjnego sensacyjnej sensacyjnie sensacyjno sensacyjnych sensacyjnym sensacyjną
+54	7654	pęknięcie	pęknięcia pęknięciami pęknięciem pęknięciu pęknięć
+55	7655	panda	pand pando pandy pandą pandę
+56	7656	pac	paca pace pacem paco pacy
+57	7657	nawigacja	nawigacji nawigacją nawigację
+58	7658	szopka	szopce szopek szopki szopką szopkę
+59	7659	wyzdrowieć	wyzdrowiał wyzdrowiała wyzdrowiej wyzdrowieje wyzdrowiejesz wyzdrowieję wyzdrowienia wyzdrowienie wyzdrowieniu zdrowiej zdrowieje zdrowienie
+60	7660	kasjer	kasjera kasjerek kasjerem kasjerka kasjerki kasjerką kasjerkę kasjerowi kasjerzy kasjerów
+61	7661	nostalgia	nostalgii nostalgią nostalgię
+62	7662	rozejm	rozejmie rozejmu
+63	7663	machina	machin machinie machiny machiną machinę
+64	7664	przyłapać	przyłapali przyłapana przyłapane przyłapani przyłapano przyłapany przyłapanych przyłapał przyłapała przyłapałam przyłapałem przyłapie przyłapią przyłapię przyłapuje
+65	7665	rzemiosło	rzemiosł rzemiosła rzemiosłem rzemiośle
+66	7666	analogia	analogie analogii analogią analogię
+67	7667	gałka	gale gała gałce gałek gałkami gałki gałką gałkę gały gałę
+68	7668	mania	mani manie maniek manii manią manię mańka mańki
+69	7669	wzrokowy	wzrokowa wzrokowe wzrokowego wzrokowej wzrokowo wzrokowych wzrokowym wzrokową
+70	7670	odstęp	odstępach odstępem odstępie odstępu odstępy odstępów
+71	7671	nurkować	nurkowania nurkowanie nurkował nurkowań nurkuje nurkują nurkując zanurkować zanurkował
+72	7672	rekreacyjny	rekreacyjna rekreacyjne rekreacyjnego rekreacyjnej rekreacyjno rekreacyjnych rekreacyjnym rekreacyjną
+73	7673	persona	person persony personą personę
+74	7674	elitarny	elitarna elitarne elitarnego elitarnej elitarni elitarnych elitarnym elitarną
+75	7675	zbocze	zbocza zboczach zboczami zboczem zboczu zboczy
+76	7676	uszanować	uszanowali uszanowania uszanowanie uszanował uszanuj uszanujcie uszanuje uszanujesz uszanują
+77	7677	koral	korala korale korali koralik koralikami koraliki koralików koralowa koralowe koralowego koralowej koralowy koralowych koralowym koralową
+78	7678	autocasco	ac
+79	7679	kapitałowy	kapitałowa kapitałowe kapitałowego kapitałowej kapitałowi kapitałowo kapitałowych kapitałowym kapitałową
+80	7680	śluz	śluza śluzem śluzie śluzu śluzy śluzą śluzę
+81	7681	nagrobek	nagrobka nagrobkach nagrobkami nagrobki nagrobkiem nagrobku nagrobków
+82	7682	powłoka	powłoce powłok powłokach powłoki powłoką powłokę
+83	7683	proceder	procederem procederu procedery procederze
+84	7684	pędzić	pędzi pędzili pędzimy pędzisz pędził pędziła pędzą pędząc pędzące pędzącego pędzący pędzących pędzącym pędzę pędź
+85	7685	pionier	pioniera pionierami pionierem pionierzy pionierów
+86	7686	intryga	intrydze intryg intrygach intrygami intrygi intrygą intrygę
+87	7687	nieoczekiwany	nieoczekiwana nieoczekiwane nieoczekiwanego nieoczekiwanej nieoczekiwanych nieoczekiwanym nieoczekiwaną
+88	7688	reflektor	reflektora reflektorami reflektorem reflektory reflektorów
+89	7689	ryś	rysi rysia rysie rysiem rysiu
+90	7690	respondent	respondenci respondentów
+91	7691	wiązka	wiązce wiązek wiązkami wiązki wiązką wiązkę
+92	7692	kredka	kredek kredkami kredki kredką kredkę
+93	7693	rzadkość	rzadkości rzadkością
+94	7694	zmobilizować	mobilizowania mobilizować mobilizuje mobilizują zmobilizowali zmobilizowana zmobilizowane zmobilizowani zmobilizowany zmobilizował zmobilizowała zmobilizowały zmobilizuje
+95	7695	pycha	pychy pychą pychę
+96	7696	teleskop	teleskopem teleskopie teleskopowe teleskopowy teleskopu teleskopy teleskopów
+97	7697	nadleśnictwo	nadleśnictw nadleśnictwa nadleśnictwie
+98	7698	zapisek	zapiskach zapiskami zapiski zapisków
+99	7699	zlew	zlewem zlewie zlewu zlewy
+100	7700	zaświadczenie	zaświadczenia zaświadczeń

@@ -1,0 +1,100 @@
+1	3801	pustynia	pustyni pustyniach pustynie pustynią pustynię pustyń
+2	3802	pamiętnik	pamiętniczku pamiętnika pamiętnikach pamiętniki pamiętnikiem pamiętniku pamiętników
+3	3803	głośny	głośna głośne głośnego głośnej głośni głośniejsza głośniejsze głośniejszy głośnych głośnym głośnymi głośną najgłośniejszy
+4	3804	dokumentacja	dokumentacje dokumentacji dokumentacją dokumentację
+5	3805	pieprz	pieprze pieprzem pieprzowego pieprzowy pieprzowym pieprzu pieprzy pieprzyk pieprzyki
+6	3806	mądrość	mądrości mądrościami mądrością
+7	3807	podziemny	podziemna podziemne podziemnego podziemnej podziemni podziemnych podziemnym podziemnymi podziemną
+8	3808	brutalny	brutalna brutalne brutalnego brutalnej brutalnemu brutalni brutalnych brutalnym brutalnymi brutalną
+9	3809	zapasy	zapasach zapasami zapasów
+10	3810	zarzucić	zarzuca zarzucają zarzucając zarzucali zarzucam zarzucane zarzucanego zarzucanie zarzucano zarzucanych zarzucasz zarzucać zarzucał zarzucała zarzucenia zarzuci zarzucili zarzucisz zarzucił zarzuciła zarzuciłam zarzuciłem zarzucone zarzucono zarzucony zarzucą zarzucę zarzuć
+11	3811	pobliski	pobliska pobliskich pobliskie pobliskiego pobliskiej pobliskim pobliskimi pobliską
+12	3812	parsek	parseków pc ps
+13	3813	śmierdzieć	śmierdzi śmierdział śmierdziało śmierdziały śmierdzisz śmierdzą śmierdząca śmierdzące śmierdzę
+14	3814	pedał	pedale pedała pedałach pedałami pedałem pedału pedały pedałów
+15	3815	nowotwór	nowotworach nowotworami nowotworem nowotworowa nowotworowe nowotworowego nowotworowej nowotworowy nowotworowych nowotworowym nowotworowymi nowotworową nowotworu nowotwory nowotworze nowotworów
+16	3816	komedia	komediach komedie komedii komedią komedię
+17	3817	aleja	alei alej alejach alejami alejce aleje alejek alejka alejkach alejkami alejki alejką alejkę aleją aleję
+18	3818	atrakcja	atrakcjami atrakcje atrakcji atrakcją atrakcję
+19	3819	grafik	graficy graficzka grafikach grafikami grafiki grafikiem grafiku grafików
+20	3820	funt	funta funtach funty funtów
+21	3821	sekret	sekrecie sekretach sekretami sekretem sekretu sekrety sekretów
+22	3822	charytatywny	charytatywna charytatywne charytatywnego charytatywnej charytatywnie charytatywnych charytatywnym charytatywną
+23	3823	rozwód	rozwodach rozwodami rozwodem rozwodowa rozwodowe rozwodowego rozwodowej rozwodowy rozwodowych rozwodowym rozwodową rozwodu rozwody rozwodzie rozwodów
+24	3824	pozór	pozorach pozorami pozorem pozorom pozoru pozory pozorów
+25	3825	ikona	ikon ikonach ikonami ikonek ikonie ikonka ikonki ikonkę ikony ikoną ikonę
+26	3826	homoseksualizm	homoseksualizmem homoseksualizmie homoseksualizmu
+27	3827	aczkolwiek	
+28	3828	celowo	
+29	3829	gdziekolwiek	
+30	3830	lecha	
+31	3831	pierwotnie	
+32	3832	stamtąd	
+33	3833	tradycyjnie	
+34	3834	oświadczyć	oświadcza oświadczają oświadczając oświadczam oświadczasz oświadczono oświadczy oświadczyli oświadczył oświadczyła oświadczyłam oświadczyło
+35	3835	pomocny	pomocna pomocne pomocnego pomocnej pomocni pomocnych pomocnym pomocną
+36	3836	podejrzenie	podejrzenia podejrzeniach podejrzeniami podejrzeniem podejrzeniu podejrzeń
+37	3837	kosmetyczka	kosmetyce kosmetyczki kosmetyczką kosmetyczkę kosmetyk kosmetyka kosmetykach kosmetykami kosmetyki kosmetyku kosmetyków
+38	3838	częstotliwość	częstotliwości częstotliwościach częstotliwościami częstotliwością
+39	3839	poranek	poranka poranki porankiem poranku poranków
+40	3840	dąbrowa	dąbrowie dąbrowska dąbrowski dąbrowskich dąbrowskie dąbrowskiego dąbrowskiej dąbrowskim dąbrowską dąbrowy dąbrową
+41	3841	wręczyć	wręcza wręczają wręczając wręczana wręczane wręczania wręczanie wręczano wręczany wręczać wręczał wręczenia wręczenie wręczeniem wręczeniu wręczona wręczone wręczono wręczony wręczy wręczyli wręczył wręczyła wręczą
+42	3842	architekt	architekci architekta architektami architektem architektka architektom architektowi architektów
+43	3843	solidny	solidna solidne solidnego solidnej solidnych solidnym solidnymi solidną
+44	3844	rura	rur rurach rurami rurce rurek rurka rurkach rurkami rurką rurkę ruro rury rurze rurą rurę
+45	3845	rozwalić	rozwal rozwala rozwalają rozwalając rozwalania rozwalanie rozwalasz rozwalać rozwalał rozwalcie rozwalenia rozwalenie rozwali rozwalicie rozwalili rozwalisz rozwalił rozwaliła rozwaliłam rozwaliłaś rozwaliłem rozwaliło rozwaliły rozwalmy rozwalona rozwalone rozwalony rozwaloną rozwalą rozwalę
+46	3846	początkowy	początkowa początkowe początkowego początkowej początkowych początkowym początkowymi początkową
+47	3847	namiot	namiocie namiotach namiotami namiotem namiotu namioty namiotów
+48	3848	rytm	rytmach rytmami rytmem rytmie rytmu rytmy rytmów
+49	3849	surowiec	surowca surowcach surowcami surowce surowcem surowcowe surowców
+50	3850	dyplom	dyplomami dyplomem dyplomie dyplomu dyplomy dyplomów
+51	3851	posadzić	posadzenia posadzenie posadzi posadzili posadzimy posadził posadziła posadziłam posadziłem posadziłeś posadzone posadzono posadzony posadzonych posadzą posadź sadzać sadzenia sadzenie sadzi sadzicie sadzili sadzimy sadzisz sadzić sadził sadzona sadzone sadzą sadząc sadzę zasadza zasadzenia zasadzili zasadzić zasadził zasadzone zasadzono zasadź
+52	3852	poprawny	poprawna poprawne poprawnego poprawnej poprawnych poprawnym poprawną
+53	3853	demonstracja	demonstracjach demonstracje demonstracji demonstracją demonstrację
+54	3854	koncern	koncernami koncernem koncernie koncernom koncernowi koncernu koncerny koncernów
+55	3855	miód	miodek miodem miodku miodu miody miodzie miodzio miodów
+56	3856	horror	horrorach horrorami horrorem horroru horrory horrorze horrorów
+57	3857	kubek	kubeczek kubeczka kubeczki kubeczku kubka kubkach kubkami kubki kubkiem kubku kubków
+58	3858	rodak	rodacy rodaczki rodaka rodakach rodakami rodakiem rodakom rodaków
+59	3859	wcisnąć	wciska wciskaj wciskają wciskając wciskali wciskam wciskamy wciskania wciskanie wciskaniu wciskasz wciskać wciskał wcisną wcisnął wcisnąłem wcisnę wcisnęli wcisnęła wcisnęłam wciśnie wciśniesz wciśnij wciśnięcie wciśnięciu wciśnięta wciśnięte wciśnięty
+60	3860	pocałunek	pocałunkach pocałunkami pocałunki pocałunkiem pocałunku pocałunków
+61	3861	traktat	traktacie traktatach traktatami traktatem traktatu traktaty traktatów
+62	3862	fotka	fotce fotek fotkach fotkami fotki fotką fotkę
+63	3863	konkretnie	konkretniej
+64	3864	powstaniec	powstańca powstańcach powstańcami powstańcem powstańcom powstańcy powstańcze powstańców
+65	3865	płatek	płatka płatkach płatkami płatki płatkiem płatków
+66	3866	formalny	formalna formalne formalnego formalnej formalno formalnych formalnym formalnymi formalną
+67	3867	błoto	błocie błota błotach błotem błotko
+68	3868	przepiękny	przepiękna przepiękne przepięknego przepięknej przepięknie przepięknych przepięknym przepiękną
+69	3869	porucznik	porucznicy porucznika porucznikiem porucznikowi poruczniku poruczników
+70	3870	przypuszczać	przypuszcza przypuszczają przypuszczając przypuszczający przypuszczali przypuszczaliśmy przypuszczam przypuszczamy przypuszczano przypuszczasz przypuszczał przypuszczała przypuszczałam przypuszczałem przypuścić przypuścił przypuściły przypuśćmy
+71	3871	owca	owcach owcami owce owcom owcy owcza owcze owczego owczej owczy owczych owczym owczą owcą owcę owiec owieczka
+72	3872	komisarz	komisarza komisarzami komisarze komisarzem komisarzowi komisarzu komisarzy
+73	3873	kawiarnia	kawiarence kawiarenek kawiarenka kawiarenki kawiarni kawiarniach kawiarnie kawiarnią kawiarnię
+74	3874	oddech	oddechem oddechu oddechy oddechów
+75	3875	niecały	niecała niecałe niecałego niecałej niecałych niecałym niecałą
+76	3876	odczytać	odczyta odczytaj odczytali odczytaliśmy odczytam odczytana odczytane odczytania odczytanie odczytaniem odczytaniu odczytano odczytany odczytasz odczytał odczytała odczytałam odczytałem odczytuje odczytujemy odczytujesz odczytują odczytując odczytuję odczytywali odczytywana odczytywane odczytywania odczytywanie odczytywaniu odczytywany odczytywać odczytywał
+77	3877	terytorialny	terytorialna terytorialne terytorialnego terytorialnej terytorialnych terytorialnym terytorialnymi terytorialną
+78	3878	plecak	plecaka plecakami plecaki plecakiem plecaku plecaków
+79	3879	nawiązanie	nawiązania nawiązaniami nawiązaniem nawiązaniu nawiązań
+80	3880	sponsor	sponsora sponsorami sponsorem sponsorom sponsorskich sponsorzy sponsorów
+81	3881	pióro	piór pióra piórach piórami piórek piórem piórka piórkiem piórko piórkowej piórze
+82	3882	nabyć	nabycia nabycie nabyciem nabyciu nabyli nabyta nabyte nabytego nabytej nabyty nabytych nabytym nabytą nabywa nabywają nabywając nabywane nabywania nabywanie nabywaniu nabywać nabył nabyła nabyłam nabyłem nabyłeś nabyło nabyły nabędziesz
+83	3883	puszka	puchy puszce puszek puszkach puszkami puszki puszkiem puszką puszkę
+84	3884	pierdolony	pierdoleni pierdolona pierdolone pierdolonego pierdolonej pierdolonych pierdolonym pierdolonymi pierdoloną
+85	3885	australijski	australijscy australijska australijskich australijskie australijskiego australijskiej australijskim australijską
+86	3886	uczcić	czci czcij czcili czcimy czcić czcił czczenie czczona czczone czczono czczony czczą uczci uczcijmy uczcili uczcimy uczcił uczciła uczciły uczczenia uczczenie uczczeniu uczczono
+87	3887	testament	testamencie testamentem testamentu testamenty testamentów
+88	3888	dwanaście	dwunastoma dwunastu
+89	3889	zaginiony	zaginieni zaginiona zaginione zaginionego zaginionej zaginionych zaginionym zaginioną
+90	3890	nakręcić	nakręca nakręcają nakręcam nakręcamy nakręcana nakręcania nakręcany nakręcasz nakręcać nakręcał nakręceni nakręcenia nakręcenie nakręceniu nakręci nakręcili nakręcił nakręciła nakręciłam nakręciłem nakręcona nakręcone nakręconego nakręcono nakręcony nakręconych nakręconym nakręcą nakręć
+91	3891	lesbijka	lesbijek lesbijkach lesbijkami lesbijki lesbijką lesbijkę lesbijska lesbijski lesbijskich lesbijskie lesbijskiego lesbijskiej lesbijskim lesbijską
+92	3892	małopolski	małopolska małopolskich małopolskie małopolskiego małopolskiej małopolskim małopolską
+93	3893	przystąpić	przystąpi przystąpienia przystąpienie przystąpieniem przystąpieniu przystąpili przystąpimy przystąpiono przystąpią przystąpił przystąpiła przystąpiło przystąpiły przystępowali przystępowania przystępować przystępuje przystępujemy przystępują przystępując przystępujące przystępujących przystępuję
+94	3894	korytarz	korytarza korytarzach korytarzami korytarze korytarzem korytarzy
+95	3895	luka	luce luk lukach lukami luki lukiem luku luków luką lukę
+96	3896	wymusić	wymusi wymusili wymusił wymusiła wymusiło wymusiły wymusza wymuszają wymuszając wymuszające wymuszane wymuszania wymuszanie wymuszać wymuszał wymuszało wymuszenia wymuszeniami wymuszenie wymuszeń wymuszona wymuszone wymuszonego wymuszonej wymuszono wymuszony wymuszonych wymuszonym wymuszoną wymuszą
+97	3897	próbka	próbce próbek próbkach próbkami próbki próbką próbkę
+98	3898	hodowla	hodowlach hodowle hodowli hodowlą hodowlę
+99	3899	krążyć	krąży krążył krążyła krążyło krążyły krążą krążąc krążąca krążące krążącego krążącej krążący krążących krążącym krążącą okrąża okrążają okrążając okrążać okrążeni okrążony okrążyli okrążyć okrążył
+100	3900	młot	młocie młota młotami młoteczek młotek młotem młotka młotkami młotki młotkiem młotków młoty młotów

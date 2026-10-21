@@ -1,0 +1,100 @@
+1	7101	akumulator	akumulatora akumulatorach akumulatorami akumulatorem akumulatory akumulatorów
+2	7102	szatnia	szatni szatnie szatnię
+3	7103	skorumpować	skorumpowana skorumpowane skorumpowanego skorumpowanej skorumpowani skorumpowany skorumpowanych skorumpowanym skorumpowanymi skorumpowaną
+4	7104	bóbr	bober bobra bobrem bobrowa bobrowo bobru bobry bobrze bobrów
+5	7105	przewodniczyć	przewodnicz przewodniczenia przewodniczenie przewodniczy przewodniczył przewodniczyła przewodnicząca przewodniczącej
+6	7106	nośnik	nośnika nośnikach nośnikami nośniki nośnikiem nośniku nośników
+7	7107	zatrzeć	zaciera zacierają zacierając zacierania zacieranie zacieraniu zacierać zatarcia zatarcie zatarciu zatarte zatarty zatarł zatarła zatarły
+8	7108	barwny	barwna barwne barwnego barwnej barwnie barwnych barwnym barwnymi barwną
+9	7109	szal	szala szale szalem szali szalom szalu szalę
+10	7110	pascal	pascala pascalem pascalu
+11	7111	skorupa	skorup skorupce skorupek skorupie skorupka skorupkach skorupki skorupkę skorupy skorupą skorupę
+12	7112	partyzant	partyzanci partyzanta partyzantami partyzantem partyzantom partyzantów
+13	7113	melać	mela melanie
+14	7114	ospa	osp ospie ospy ospą ospę
+15	7115	narastać	narasta narastają narastająca narastające narastającego narastającej narastający narastających narastającym narastającą narastania narastanie narastał narastała narastało narastały
+16	7116	żenada	żenady żenadę
+17	7117	rozkręcić	rozkręca rozkręcają rozkręcam rozkręcamy rozkręcać rozkręcenie rozkręci rozkręcili rozkręcił rozkręciła rozkręciłem rozkręćmy
+18	7118	streszczenie	streszczenia streszczeniem streszczeniu streszczeń
+19	7119	chamstwo	chamstwa chamstwem
+20	7120	śnieżny	śnieżna śnieżne śnieżnego śnieżnej śnieżnych śnieżnym śnieżnymi śnieżną
+21	7121	świr	świra świrem świry świrów
+22	7122	optymalny	optymalna optymalne optymalnego optymalnej optymalnie optymalnych optymalnym optymalną
+23	7123	dynia	dyni dynie dyniowa dyniowe dyniową dynią dynię dyń
+24	7124	lanca	lanc lance lancy lancą lancę
+25	7125	pochwa	pochwie pochwy pochwą pochwę
+26	7126	barykada	barykad barykadach barykady barykadzie barykadę
+27	7127	parkiet	parkiecie parkietach parkietu parkiety
+28	7128	talia	talie talii talią talię
+29	7129	pierdel	pierdla pierdlu
+30	7130	problematyka	problematyce problematyki problematyką problematykę
+31	7131	pach	pacha pachami pachy pachą pachę pasze
+32	7132	apelacyjny	apelacyjnego apelacyjnej apelacyjnych apelacyjnym
+33	7133	wcielenie	wcielenia wcieleniach wcieleniem wcieleniu wcieleń
+34	7134	posiedzieć	posiedzi posiedział posiedziała posiedzimy posiedzę
+35	7135	włamanie	włamania włamaniami włamaniem włamaniu włamań
+36	7136	władać	włada władają władający władających władali władania władanie władaniem władaniu władał władała
+37	7137	przetransportować	przetransportowali przetransportowana przetransportowane przetransportowani przetransportowanie przetransportowano przetransportowany przetransportował transportowana transportowane transportowania transportowanie transportowano transportowany transportowanych transportować transportował transportuje transportujemy transportują transportujące transportujących
+38	7138	cyniczny	cyniczna cyniczne cynicznego cynicznej cyniczni cynicznie cynicznych cynicznym cyniczną
+39	7139	męka	mąk męce mękach męki męką mękę
+40	7140	polec	polegli polegnie polegną polegnę poległ poległa poległam poległem poległo
+41	7141	ciosać	ciesz cieszcie ciesze cieszmy cieszą ciesząc ciesząca cieszące cieszący cieszę ciosach ciosami ciosie ciosy
+42	7142	ambicje	
+43	7143	błyskawicznie	
+44	7144	corocznie	
+45	7145	drastycznie	
+46	7146	odtąd	
+47	7147	potajemnie	
+48	7148	sushi	
+49	7149	konina	konin koninie
+50	7150	proch	prochach prochami prochem prochu prochów
+51	7151	kalkulator	kalkulatora kalkulatorem kalkulatory kalkulatorze kalkulatorów
+52	7152	ironiczny	ironiczna ironiczne ironicznego ironicznej ironicznych ironicznym ironiczną
+53	7153	współzałożyciel	współzałożyciela współzałożycielem współzałożycieli współzałożycielka
+54	7154	ćwierć	ćwierci
+55	7155	praworządność	praworządności praworządnością
+56	7156	piekarnia	piekarni piekarniach piekarnie piekarnią piekarnię
+57	7157	maskotka	maskotek maskotkami maskotki maskotką maskotkę
+58	7158	weterynarz	weterynarza weterynarze weterynarzem weterynarzy
+59	7159	sekwencja	sekwencjach sekwencjami sekwencje sekwencji sekwencją sekwencję
+60	7160	przysługa	przysług przysługi przysługę
+61	7161	aktorstwo	aktorstwa aktorstwem aktorstwie
+62	7162	nożyce	nożyc nożycami nożyczek nożyczkami nożyczki
+63	7163	sformułować	formułowane formułowania formułowanie formułowaniu formułowanych formułować formułował formułuje formułując sformułowana sformułowane sformułowano sformułowany sformułowanych sformułował
+64	7164	bezcenny	bezcenna bezcenne bezcennego bezcennych bezcennym bezcenną
+65	7165	odliczanie	odliczania
+66	7166	krewetka	krewetek krewetkami krewetki
+67	7167	roztwór	roztworach roztworem roztworu roztwory roztworze roztworów
+68	7168	postępowy	postępowa postępowe postępowego postępowej postępowi postępowo postępowych postępowym postępową
+69	7169	napierdalać	napierdala napierdalaj napierdalają napierdalali napierdalam napierdalania napierdalasz napierdalał napierdolić
+70	7170	zdalny	zdalna zdalne zdalnego zdalnej zdalnych zdalnym zdalną
+71	7171	wokal	wokale wokalem wokali wokalu
+72	7172	psychopata	psychopaci psychopatka psychopatką psychopaty psychopatów psychopatą psychopatę
+73	7173	ewidencja	ewidencji ewidencją ewidencję
+74	7174	pokusa	pokus pokusami pokusie pokusom pokusy pokusą pokusę
+75	7175	pokrewny	pokrewna pokrewne pokrewnego pokrewnej pokrewnych pokrewnym pokrewnymi pokrewną
+76	7176	zdesperowany	zdesperowana zdesperowane zdesperowani zdesperowanych zdesperowanym
+77	7177	komplikować	komplikuje komplikują skomplikowana skomplikowane skomplikowani skomplikowania skomplikować skomplikował skomplikowała skomplikowało skomplikowały skomplikuje
+78	7178	tatar	tatara tatarami tatarka tatarzy tatarów
+79	7179	wodociąg	wodociągach wodociągi wodociągowej wodociągu wodociągów
+80	7180	dojrzewanie	dojrzewania dojrzewaniem dojrzewaniu
+81	7181	zaimponować	imponować imponował imponuje imponują imponująca imponujące zaimponował zaimponowała zaimponowałaś zaimponowałeś
+82	7182	rezerwacja	rezerwacje rezerwacji rezerwacją rezerwację
+83	7183	przebaczenie	przebaczenia przebaczeniu
+84	7184	tyka	tyczce tyczek tyczka tyczki tyk tyki tyko
+85	7185	skurcz	skurczami skurcze skurczem skurczowe skurczowego skurczu skurczy skurczów
+86	7186	rezydent	rezydenci rezydenta rezydentami rezydentem rezydentką rezydentów
+87	7187	profilowy	profilowe profilowego profilowych profilowym
+88	7188	nawa	naw nawie nawy nawą nawę
+89	7189	pokroić	kroi kroimy kroisz kroić kroił krojenia krojenie krojeniu krojona krojone kroję pokrojona pokrojone pokrojony
+90	7190	czasownik	czasownika czasownikami czasowniki czasownikiem czasowniku czasowników
+91	7191	diagnostyka	diagnostyce diagnostyki diagnostyką diagnostykę
+92	7192	orgazm	orgazmem orgazmu orgazmy orgazmów
+93	7193	patyk	patyczek patyczka patyczki patyczkiem patyczku patyczków patyka patykach patykami patyki patykiem patyku patyków
+94	7194	pruski	pruska pruskich pruskie pruskiego pruskiej pruskim prusko pruską
+95	7195	podaż	podaży podażą
+96	7196	rozczarowany	rozczarowana rozczarowane rozczarowani rozczarowanych rozczarowanym
+97	7197	konkret	konkretach konkretami konkretu konkrety konkretów
+98	7198	dziecię	dzieciątka dzieciątkiem dzieciątko dziecięcia dziecięciem dziecięciu
+99	7199	grzbiet	grzbietach grzbietami grzbietem grzbietu grzbiety grzbietów
+100	7200	ściskać	ściska ściskają ściskając ściskam ściskamy ściskania ściskanie ściskasz ściskał ścisnąć ścisnął ścisnąłem ścisnęła ścisnęło ściśnięcie ściśnięta ściśnięte ściśnięty

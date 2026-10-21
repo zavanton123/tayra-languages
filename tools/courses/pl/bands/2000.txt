@@ -1,0 +1,100 @@
+1	1901	zgromadzenie	zgromadzenia zgromadzeniach zgromadzeniem zgromadzeniu zgromadzeń
+2	1902	niezły	niezła niezłe niezłego niezłej niezłych niezłym niezłymi niezłą nieźli
+3	1903	ciemny	ciemna ciemne ciemnego ciemnej ciemnemu ciemni ciemniejsza ciemniejsze ciemniejszej ciemniejszy ciemniejszych ciemniejszym ciemniejszymi ciemniejszą ciemnych ciemnym ciemnymi ciemną
+4	1904	ogłoszenie	ogłoszenia ogłoszeniach ogłoszeniami ogłoszeniem ogłoszeniowe ogłoszeniowym ogłoszeniu ogłoszeń
+5	1905	odpowiednio	odpowiedniej
+6	1906	pobyt	pobycie pobytach pobytem pobytu pobyty pobytów
+7	1907	kredyt	kredycie kredytach kredytami kredytem kredytu kredyty kredytów
+8	1908	kochanie	kochania kochaniem kochaniu
+9	1909	żywo	zywo
+10	1910	poszukiwanie	poszukiwania poszukiwaniach poszukiwaniami poszukiwaniem poszukiwaniom poszukiwaniu poszukiwań
+11	1911	pałac	pałacach pałacami pałace pałacem pałacowa pałacowe pałacowego pałacowej pałacowo pałacowy pałacowych pałacowym pałacową pałacu pałacyk pałacyku pałaców
+12	1912	stawać	stajecie stajemy stajesz stają stając staję stawach stawaj stawali stawami stawania stawanie stawał stawała stawałam stawałem stawało stawały stawie stawy
+13	1913	konieczny	konieczna konieczne koniecznego koniecznej koniecznych koniecznym koniecznymi konieczną
+14	1914	drobny	drobna drobne drobnego drobnej drobni drobniejsze drobniejszych drobniutka drobno drobnych drobnym drobnymi drobną najdrobniejszy
+15	1915	obawiać	obawia obawiacie obawiaj obawiajcie obawiają obawiając obawiających obawiali obawialiśmy obawiam obawiamy obawiano obawiasz obawiał obawiała obawiałam obawiałem obawiały
+16	1916	przyznawać	przyznaje przyznajecie przyznajemy przyznajesz przyznają przyznając przyznające przyznającego przyznającej przyznający przyznających przyznaję przyznawaj przyznawali przyznawana przyznawane przyznawanego przyznawanej przyznawania przyznawanie przyznawaniu przyznawano przyznawany przyznawanych przyznawanym przyznawaną przyznawał przyznawała
+17	1917	blok	bloch bloczek bloczki bloczków blokach blokami bloki blokiem bloku bloków
+18	1918	straż	straże straży strażą
+19	1919	wybrzeże	wybrzeża wybrzeżach wybrzeżem wybrzeżu wybrzeży
+20	1920	postępowanie	postępowania postępowaniach postępowaniem postępowaniu postępowań
+21	1921	wiatr	wiaterek wiatrach wiatrami wiatrem wiatrowi wiatru wiatry wiatrów wietrze wietrzna wietrzne wietrznego wietrznej wietrznie wietrzny wietrznych wietrzną wietrzyk
+22	1922	oficer	oficera oficerach oficerami oficerem oficerom oficerowi oficerowie oficerska oficerski oficerskich oficerskie oficerskiego oficerskiej oficerskim oficerską oficerze oficerów
+23	1923	paliwo	paliw paliwa paliwami paliwem paliwie paliwowe paliwowy
+24	1924	pilot	piloci pilocie pilota pilotach pilotami pilotem pilotom pilotowi piloty pilotów
+25	1925	roczny	roczna roczne rocznego rocznej rocznie rocznych rocznym rocznymi roczną
+26	1926	zdolność	zdolności zdolnościach zdolnościami zdolnościom zdolnością
+27	1927	reagować	reagowali reagowania reagowanie reagowaniem reagował reagowała reagowało reagowały reaguj reaguje reagujemy reagujesz reagują reagując reagująca reagujące reagujący reagujących reaguję zareagowali zareagowaliśmy zareagować zareagował zareagowała zareagowałam zareagowałby zareagowałem zareagowało zareagowały zareaguje zareagujesz zareagują
+28	1928	scenariusz	scenariusza scenariuszach scenariuszami scenariusze scenariuszem scenariuszu scenariuszy
+29	1929	czysty	cysty czyste czystego czystej czystsza czystsze czystszy czystych czystym czystymi czystą czyści czyściutki czyściutko najczystszy
+30	1930	zrezygnować	rezygnowanie rezygnować rezygnował rezygnowała rezygnuj rezygnuje rezygnujemy rezygnujesz rezygnują rezygnując rezygnuję zrezygnowali zrezygnowaliśmy zrezygnowana zrezygnowania zrezygnowanie zrezygnowaniu zrezygnowano zrezygnowany zrezygnował zrezygnowała zrezygnowałam zrezygnowałaś zrezygnowałby zrezygnowałem zrezygnowałeś zrezygnowało zrezygnowały zrezygnuj zrezygnuje zrezygnujemy zrezygnujesz zrezygnują zrezygnuję
+31	1931	któryś	któraś któregoś którejś któremuś któreś którymś którąś
+32	1932	stopa	stopach stopami stopce stopie stopka stopki stopką stopkę stopom stopy stopów stopą stopę stóp stópki
+33	1933	mucha	much muchami mucho muchy muchą muchę musza muszce musze muszej muszek muszka muszki muszką muszkę muszą
+34	1934	rozdział	rozdziale rozdziałach rozdziałami rozdziałem rozdziału rozdziały rozdziałów
+35	1935	zysk	zyska zyskach zyskami zyski zyskiem zysku zysków
+36	1936	aktualny	aktualna aktualne aktualnego aktualnej aktualni aktualnych aktualnym aktualnymi aktualną
+37	1937	istota	istocie istot istotach istotami istotka istoto istotom istoty istotą istotę
+38	1938	umysł	umysłach umysłami umysłem umysłowi umysłu umysły umysłów umyśle
+39	1939	ogarnąć	ogarnia ogarniają ogarniam ogarniamy ogarniania ogarnianie ogarniasz ogarniać ogarniał ogarniała ogarniałem ogarnie ogarniecie ogarniemy ogarniesz ogarnij ogarnijcie ogarnięci ogarnięcia ogarnięcie ogarnięciu ogarnięta ogarnięte ogarniętego ogarniętej ogarnięty ogarniętych ogarniętym ogarną ogarnął ogarnąłem ogarnąłeś ogarnę ogarnęli ogarnęła ogarnęłam ogarnęło ogarnęły
+40	1940	zastosowanie	zastosowania zastosowaniach zastosowaniami zastosowaniem zastosowaniu zastosowań
+41	1941	wzrosnąć	wzrasta wzrastają wzrastająca wzrastające wzrastający wzrastającą wzrastania wzrastanie wzrastać wzrastał wzrastała wzrastało wzrastały wzrosną wzrosła wzrosło wzrosły wzrośnie wzrósł
+42	1942	ujawnić	ujawni ujawnia ujawniają ujawniając ujawniające ujawniający ujawniających ujawniamy ujawniane ujawniania ujawnianie ujawnianiem ujawnianiu ujawniać ujawniał ujawniały ujawnienia ujawnienie ujawnieniem ujawnieniu ujawnij ujawnili ujawniliśmy ujawnimy ujawniona ujawnione ujawniono ujawniony ujawnionych ujawnią ujawnię ujawnił ujawniła ujawniło ujawniły
+43	1943	wezwać	wezwali wezwana wezwane wezwani wezwano wezwany wezwanych wezwał wezwała wezwałem wezwało wezwały wezwie wezwij wezwijcie wezwą wzywa wzywaj wzywają wzywając wzywające wzywającego wzywający wzywających wzywającą wzywali wzywam wzywamy wzywana wzywani wzywania wzywanie wzywano wzywany wzywać wzywał wzywała wzywałem wzywały
+44	1944	zagrozić	zagraża zagrażają zagrażając zagrażające zagrażającego zagrażającej zagrażający zagrażających zagrażającym zagrażającą zagrażali zagrażać zagrażał zagrażała zagrażało zagrażały zagrozi zagrozili zagroził zagroziła zagroziło zagroziły zagrożeni zagrożona zagrożone zagrożonego zagrożonej zagrożony zagrożonych zagrożonym zagrożonymi zagrożoną
+45	1945	pozostawić	pozostaw pozostawi pozostawia pozostawiają pozostawiając pozostawiam pozostawiamy pozostawiane pozostawiania pozostawianie pozostawiać pozostawiał pozostawiała pozostawiały pozostawieni pozostawienia pozostawienie pozostawieniem pozostawieniu pozostawili pozostawimy pozostawiona pozostawione pozostawionego pozostawionej pozostawiono pozostawiony pozostawionych pozostawionym pozostawionymi pozostawioną pozostawisz pozostawią pozostawię pozostawił pozostawiła pozostawiło pozostawiły pozostawmy
+46	1946	ojczyzna	ojczyzn ojczyzno ojczyzny ojczyzną ojczyznę ojczyźnianej ojczyźnie
+47	1947	piłkarz	piłkarka piłkarki piłkarza piłkarzach piłkarzami piłkarze piłkarzem piłkarzom piłkarzowi piłkarzu piłkarzy piłkarzyki
+48	1948	zaufanie	zaufania zaufaniem zaufaniu
+49	1949	poczta	poczcie poczt pocztowa pocztowe pocztowego pocztowej pocztowy pocztowych pocztowym pocztowymi pocztową poczty pocztą pocztę posta
+50	1950	współpracować	współpracowali współpracowaliśmy współpracował współpracowała współpracowałem współpracowało współpracowały współpracuj współpracuje współpracujemy współpracują współpracując współpracująca współpracujące współpracującego współpracującej współpracujący współpracujących współpracującym współpracującymi współpracującą współpracuję
+51	1951	fotografia	fotografiach fotografiami fotografie fotografii fotografią fotografię
+52	1952	cicho	cichutko ciszej najciszej
+53	1953	zachęcić	zachęca zachęcaj zachęcają zachęcając zachęcająca zachęcające zachęcająco zachęcający zachęcających zachęcającą zachęcali zachęcam zachęcamy zachęcani zachęcania zachęcanie zachęcaniu zachęcano zachęcany zachęcać zachęcał zachęcała zachęcało zachęcały zachęceni zachęcenia zachęcenie zachęci zachęcili zachęcił zachęciła zachęciło zachęciły zachęcona zachęcony zachęcą zachęć
+54	1954	niemożliwy	niemożliwa niemożliwe niemożliwego niemożliwej niemożliwie niemożliwych niemożliwym niemożliwymi niemożliwą
+55	1955	kadencja	kadencjach kadencje kadencji kadencją kadencję
+56	1956	książę	książąt książęca książęce książęcego książęcej książęcy książęcych książęcym książęcą książęta książętami książętom księcia księciem księciu księżna księżnej księżną księżnę
+57	1957	grozić	grozi grozili grozisz groził groziła groziłaś groziło groziłoby groziły grożenie grożono grożą grożąc grożące grożący grożącym
+58	1958	aktualnie	
+59	1959	nigdzie	
+60	1960	ode	
+61	1961	zaledwie	
+62	1962	zawrzeć	zawarcie zawarciem zawarli zawarliśmy zawarta zawarte zawartego zawartej zawartemu zawarto zawarty zawartych zawartymi zawartą zawarł zawarła zawarłam zawarłem zawarło zawarły zawrzało zawrze
+63	1963	śledzić	śledzenia śledzenie śledzeniem śledzeniu śledzi śledzia śledzicie śledzie śledziem śledzik śledzili śledziliśmy śledzimy śledzisz śledził śledziła śledziłam śledziłem śledziłeś śledziło śledziły śledzona śledzone śledzony śledzą śledząc śledzące śledzący śledzących śledzę śledź śledźcie
+64	1964	kontynuować	kontynuowali kontynuowaliśmy kontynuowana kontynuowane kontynuowania kontynuowanie kontynuowaniem kontynuowaniu kontynuowano kontynuowany kontynuował kontynuowała kontynuowałem kontynuowało kontynuowały kontynuuj kontynuuje kontynuujemy kontynuują kontynuując kontynuujący kontynuuję
+65	1965	argument	argumencie argumentach argumentami argumentem argumentom argumentu argumenty argumentów
+66	1966	jesień	jesieni jesienia jesienią jesienna jesienne jesiennego jesiennej jesiennie jesienno jesienny jesiennych jesiennym jesiennymi jesienną
+67	1967	zamówić	zamawia zamawiacie zamawiaj zamawiają zamawiając zamawiającego zamawiający zamawiali zamawiam zamawiamy zamawiane zamawiania zamawianie zamawiasz zamawiać zamawiał zamawiała zamawiałam zamawiałem zamów zamówcie zamówi zamówili zamówiliśmy zamówimy zamówiona zamówione zamówiono zamówiony zamówionych zamówioną zamówisz zamówię zamówił zamówiła zamówiłam zamówiłem zamówiłeś zamówmy
+68	1968	wizja	wizjach wizjami wizje wizji wizją wizję
+69	1969	zajść	zachodzenia zachodzi zachodzili zachodzić zachodził zachodziła zachodziło zachodziły zachodzą zachodzące zachodzącego zachodzącej zachodzący zachodzących zachodzącym zachodzącymi zachodzę zajdzie zajdziesz zajdą zajdę zajścia zajściach zajście zajściem zajściu zaszedł zaszli zaszliśmy zaszła zaszłam zaszło zaszły
+70	1970	negatywny	negatywna negatywne negatywnego negatywnej negatywnych negatywnym negatywnymi negatywną
+71	1971	daleki	dalecy daleka dalekich dalekie dalekiego dalekiej dalekim dalekimi daleką dalszy najdalszy
+72	1972	święto	świąt święcie świętach świętami świętem
+73	1973	porównać	porówna porównaj porównajcie porównajmy porównali porównaliśmy porównam porównamy porównane porównano porównany porównasz porównał porównała porównałam porównałem porównałeś porównuj porównuje porównujemy porównujesz porównujmy porównują porównując porównujący porównuję porównywali porównywana porównywane porównywania porównywanie porównywaniu porównywano porównywany porównywanych porównywać porównywał porównywała porównywałem
+74	1974	janusz	janusza janusze januszem januszowi januszu januszy
+75	1975	przerwać	przerwali przerwana przerwane przerwanej przerwania przerwanie przerwaniem przerwaniu przerwano przerwany przerwanych przerwaną przerwał przerwała przerwałam przerwałem przerwało przerwały przerwań przerwie przerwij przerwą przerwę przerywa przerywaj przerywają przerywając przerywam przerywamy przerywana przerywane przerywania przerywanie przerywany przerywanym przerywasz przerywać przerywał przerywała
+76	1976	trwały	trwale trwali trwalsze trwała trwałe trwałego trwałej trwałych trwałym trwałymi trwałą
+77	1977	wyjazd	wyjazdach wyjazdami wyjazdem wyjazdu wyjazdy wyjazdów wyjeździe
+78	1978	realizacja	realizacjach realizacje realizacji realizacją realizację realizacyjne
+79	1979	kilkanaście	kilkunastoma kilkunastu
+80	1980	głośno	głośniej najgłośniej
+81	1981	smak	smaczek smaczki smaczku smaczków smaka smakach smakami smaki smakiem smakowa smakowe smakowo smakowy smakowych smakowymi smaku smaków
+82	1982	oddawać	oddaje oddajecie oddajemy oddajesz oddają oddając oddające oddający oddających oddaję oddawaj oddawajcie oddawali oddawana oddawane oddawania oddawanie oddawaniem oddawaniu oddawano oddawany oddawanych oddawał oddawała oddawałam oddawałem oddawało oddawały
+83	1983	matematyka	matematyce matematycy matematyczka matematyczkę matematyk matematykami matematyki matematykiem matematyków matematyką matematykę
+84	1984	obrońca	obrońcach obrońcami obrońcom obrońcy obrończyni obrończynie obrończynią obrońców obrońcą obrońcę
+85	1985	wytłumaczyć	wytłumacz wytłumaczcie wytłumaczenia wytłumaczenie wytłumaczeniem wytłumaczeń wytłumaczone wytłumaczy wytłumaczyli wytłumaczymy wytłumaczysz wytłumaczył wytłumaczyła wytłumaczyłam wytłumaczyłem wytłumaczyłeś wytłumaczą wytłumaczę
+86	1986	tłum	tłumami tłumem tłumie tłumowi tłumu tłumy tłumów
+87	1987	dosłownie	
+88	1988	szczególność	szczególności
+89	1989	wideo	
+90	1990	kapitan	kapitana kapitanami kapitanem kapitanie kapitanowi kapitanowie kapitanów kapitański kapitańskiej
+91	1991	narkotyk	narkotykach narkotykami narkotyki narkotykiem narkotykom narkotyku narkotyków
+92	1992	prosto	najprościej prościej
+93	1993	zaliczyć	zalicza zaliczają zaliczając zaliczam zaliczamy zaliczana zaliczane zaliczania zaliczanie zaliczany zaliczanych zaliczanym zaliczasz zaliczać zaliczał zaliczenia zaliczenie zaliczeniem zaliczeniu zaliczona zaliczone zaliczono zaliczony zaliczonych zaliczy zaliczyli zaliczyliśmy zaliczymy zaliczysz zaliczył zaliczyła zaliczyłam zaliczyłaś zaliczyłem zaliczyłeś zaliczyło zaliczyły zaliczą zaliczę
+94	1994	wisła	wisełka wisły wisłą wisłę wiślana wiślane wiślanego wiślanej wiślany wiślanych wiślanym wiślaną wiśle
+95	1995	czysta	czyste czystej czystych czystym czystymi czystą
+96	1996	późno	najpóźniej
+97	1997	twardy	najtwardszy twarda twarde twardego twardej twardo twardsza twardsze twardszy twardszym twardych twardym twardymi twardzi twardą
+98	1998	torba	torbach torbami torbie torby torbą torbę toreb torebce torebeczkę torebek torebka torebkach torebkami torebki torebką torebkę
+99	1999	brzeg	brzegach brzegami brzegi brzegiem brzegom brzegowa brzegowe brzegowej brzegowy brzegowych brzegową brzegu brzegów brzeska brzeski brzeskiego brzeskiej brzeskim brzeską
+100	2000	wypaść	wypada wypadają wypadające wypadających wypadam wypadamy wypadania wypadanie wypadasz wypadać wypadał wypadała wypadało wypadałoby wypadały wypadli wypadliśmy wypadnie wypadnięcia wypadnięcie wypadnięciu wypadną wypadł wypadła wypadłem wypadłeś wypadło wypadły wypasać wypasie wypasiona wypasione wypasiony wypasionych wypasionym wypasioną

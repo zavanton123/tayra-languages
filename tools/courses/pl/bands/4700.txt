@@ -1,0 +1,100 @@
+1	4601	pisowski	pisowscy pisowska pisowskich pisowskie pisowskiego pisowskiej pisowskim pisowską
+2	4602	golf	golfa golfem golfie golfik golfowe golfowego golfowy golfowych golfowym golfową golfy
+3	4603	myśliwy	myśliwego myśliwi myśliwska myśliwski myśliwskich myśliwskie myśliwskiego myśliwskiej myśliwskim myśliwską myśliwych myśliwym myśliwymi
+4	4604	rasistowski	rasistowska rasistowskich rasistowskie rasistowskiego rasistowskiej rasistowskim rasistowskimi rasistowską
+5	4605	recepta	recepcie recept recepty receptą receptę
+6	4606	przedmieście	przedmieścia przedmieściach przedmieściem przedmieściu przedmieść
+7	4607	makaron	makaronem makaronie makaroniki makaronu makarony makaronów
+8	4608	porwanie	porwania porwaniach porwaniami porwaniem porwaniu porwań
+9	4609	nazistowski	nazistowscy nazistowska nazistowskich nazistowskie nazistowskiego nazistowskiej nazistowskim nazistowskimi nazistowską
+10	4610	płatność	płatności płatnościach płatnościami płatnością
+11	4611	nawoływać	nawołuje nawołują nawołując nawołująca nawołujące nawołujący nawołujących nawołującą nawołuję nawoływali nawoływania nawoływanie nawoływał nawoływała nawoływań
+12	4612	kiełbasa	kiełbas kiełbasie kiełbaska kiełbaski kiełbasy kiełbasą kiełbasę
+13	4613	trzęsienie	trzęsienia trzęsieniami trzęsieniem trzęsieniu trzęsień
+14	4614	szydło	szydłów
+15	4615	obszerny	obszerna obszerne obszernego obszernej obszernie obszerniejsze obszerniejszy obszernych obszernym obszernymi obszerną
+16	4616	detektyw	detektywa detektywem detektywi detektywie detektywowi detektywów
+17	4617	stężenie	stężenia stężeniach stężeniami stężeniem stężeniu stężeń
+18	4618	zakon	zakonem zakonie zakonowi zakonu zakony zakonów
+19	4619	satysfakcja	satysfakcje satysfakcji satysfakcją satysfakcję
+20	4620	lisa	
+21	4621	netto	
+22	4622	prócz	
+23	4623	wedle	
+24	4624	wskutek	
+25	4625	kontuzja	kontuzjach kontuzjami kontuzje kontuzji kontuzją kontuzję
+26	4626	emerytalny	emerytalna emerytalne emerytalnego emerytalnej emerytalno emerytalnych emerytalnym emerytalną
+27	4627	jednolity	jednolicie jednolita jednolite jednolitego jednolitej jednolitych jednolitym jednolitą
+28	4628	posterunek	posterunkach posterunki posterunkiem posterunku posterunków
+29	4629	kocioł	kociołek kociołka kociołki kotle kotła kotłach kotłami kotłem kotły kotłów
+30	4630	szanowny	szanowna szanowne szanownego szanownej szanownemu szanowni szanownych szanownym
+31	4631	odrębny	odrębna odrębne odrębnego odrębnej odrębnie odrębnych odrębnym odrębnymi odrębną
+32	4632	damski	damska damskich damskie damskiego damskiej damskim damsko damską
+33	4633	czaszka	czacha czachy czaszce czaszek czaszkach czaszkami czaszki czaszką czaszkę
+34	4634	toksyczny	toksyczna toksyczne toksycznego toksycznej toksyczni toksycznie toksycznych toksycznym toksycznymi toksyczną
+35	4635	przyjazd	przyjazdem przyjazdu przyjazdy przyjazdów przyjeździe
+36	4636	sylwetka	sylwetce sylwetek sylwetki sylwetką sylwetkę
+37	4637	gotowość	gotowości gotowością
+38	4638	kazanie	kazania kazaniach kazaniami kazaniem kazaniu kazań
+39	4639	bakteria	bakteriach bakteriami bakterie bakterii bakteriom bakterią bakterię
+40	4640	ochroniarz	ochroniarza ochroniarze ochroniarzem ochroniarzowi ochroniarzy
+41	4641	amator	amatora amatorami amatorem amatorka amatorki amatorką amatorom amatorzy amatorów
+42	4642	petycja	petycje petycji petycją petycję
+43	4643	wyrównać	wyrówna wyrównaj wyrównali wyrównamy wyrównana wyrównane wyrównanej wyrównania wyrównanie wyrównaniem wyrównaniu wyrównany wyrównanym wyrównaną wyrównał wyrównała wyrównały wyrównuje wyrównujemy wyrównując wyrównującą wyrównywania wyrównywanie wyrównywać
+44	4644	parametr	parametrach parametrami parametrem parametru parametry parametrów
+45	4645	dofinansowanie	dofinansowania dofinansowaniem dofinansowaniu dofinansowań
+46	4646	usprawiedliwić	usprawiedliwi usprawiedliwia usprawiedliwiają usprawiedliwiając usprawiedliwiające usprawiedliwiam usprawiedliwianie usprawiedliwiasz usprawiedliwiać usprawiedliwiał usprawiedliwiona usprawiedliwione usprawiedliwiony
+47	4647	saudyjski	saudyjscy saudyjska saudyjskich saudyjskie saudyjskiego saudyjskiej saudyjskim saudyjską
+48	4648	boy	boya boye boyem
+49	4649	blizna	blizn bliznach bliznami blizny blizną bliznę bliźnie
+50	4650	napić	napicia napij napije napijemy napijesz napijmy napiją napiję napili napił napiła napiłabym napiłam napiłbym napiłem
+51	4651	kibel	kibelek kibelka kibla kiblach kible kiblem kibli kiblu
+52	4652	sporządzić	sporządza sporządzając sporządzam sporządzana sporządzane sporządzania sporządzanie sporządzaniu sporządzany sporządzanych sporządzać sporządzał sporządzenia sporządzenie sporządzeniu sporządzi sporządzili sporządzimy sporządził sporządziła sporządzona sporządzone sporządzonego sporządzonej sporządzono sporządzony sporządzonych sporządzonym sporządzoną sporządź
+53	4653	transformacja	transformacje transformacji transformacją transformację
+54	4654	ewangelia	ewangeliach ewangelie ewangelii ewangelią ewangelię
+55	4655	odsunąć	odsunie odsuniecie odsunięci odsunięcia odsunięcie odsunięciem odsunięciu odsunięta odsunięte odsunięto odsunięty odsuniętych odsuną odsunął odsunąłem odsunęli odsunęła odsunęłam odsuwa odsuwają odsuwając odsuwam odsuwamy odsuwane odsuwanie odsuwasz odsuwać odsuń
+56	4656	materia	materie materii materią materię
+57	4657	osobnik	osobnicy osobnika osobnikami osobniki osobnikiem osobnikom osobniku osobników
+58	4658	teoretyczny	teoretyczna teoretyczne teoretycznego teoretycznej teoretyczno teoretycznych teoretycznym teoretycznymi teoretyczną
+59	4659	wiosenny	wiosenna wiosenne wiosennego wiosennej wiosennie wiosennych wiosennym wiosennymi wiosenną
+60	4660	ratunek	ratunkiem ratunku
+61	4661	sarkazm	sarkazmem sarkazmu
+62	4662	łyżka	łyżce łyżeczce łyżeczek łyżeczka łyżeczki łyżeczką łyżeczkę łyżek łyżkami łyżki łyżką łyżkę
+63	4663	algorytm	algorytmach algorytmami algorytmem algorytmie algorytmu algorytmy algorytmów
+64	4664	zalać	zalali zalana zalane zalani zalania zalanie zalaniem zalaniu zalano zalał zalała zalałam zalałem zalało zalały zalej zaleje zalejesz zaleją zalewają zalewając zalewam zalewamy zalewana zalewane zalewania zalewanie zalewany zalewać zalewała
+65	4665	organiczny	organiczna organiczne organicznego organicznej organicznie organicznych organicznym organicznymi organiczną
+66	4666	swobodny	swobodna swobodne swobodnego swobodnej swobodnych swobodnym swobodną
+67	4667	przebudowa	przebudowie przebudowy przebudową przebudowę
+68	4668	swobodnie	swobodniej
+69	4669	dokończyć	dokończ dokończenia dokończenie dokończeniem dokończeniu dokończmy dokończona dokończone dokończony dokończy dokończyli dokończył dokończyła dokończyłam dokończyłem dokończą dokończę
+70	4670	wykaz	wykazach wykazem wykazie wykazu wykazy wykazów
+71	4671	przestępczość	przestępczości przestępczością
+72	4672	sweter	sweterek sweterka sweterki sweterku swetra swetrach swetrem swetry swetrze swetrów
+73	4673	żelazo	żelaza żelazem żelazie
+74	4674	zabytkowy	zabytkowa zabytkowe zabytkowego zabytkowej zabytkowych zabytkowym zabytkowymi zabytkową
+75	4675	przyzwoity	przyzwoici przyzwoicie przyzwoita przyzwoite przyzwoitego przyzwoitej przyzwoitych przyzwoitym przyzwoitą
+76	4676	tłusty	tłusta tłuste tłustego tłustej tłusto tłustych tłustym tłustymi tłustą
+77	4677	kryształ	krysztale kryształach kryształami kryształem kryształki kryształowa kryształowe kryształowego kryształowej kryształowo kryształowy kryształowych kryształowym kryształową kryształu kryształy kryształów
+78	4678	gęba	gębie gęby gębą gębę
+79	4679	mgła	mgieł mgiełka mgiełkę mgle mgły mgłą mgłę
+80	4680	ognisko	ognisk ogniska ogniskach ogniskami ogniskiem ognisku
+81	4681	biografia	biografiach biografie biografii biografią biografię
+82	4682	szyszka	szych szycha szychą szyszce szyszek szyszkami szyszki szyszko szyszkę
+83	4683	spóźnić	spóźni spóźnia spóźniają spóźniam spóźniasz spóźniać spóźniał spóźnieni spóźnij spóźnili spóźnimy spóźniona spóźnione spóźnisz spóźnią spóźnię spóźnił spóźniła spóźniłam spóźniłaś spóźniłem spóźniłeś
+84	4684	urok	uroki urokiem urokowi uroku uroków
+85	4685	zaprzestać	zaprzestaje zaprzestali zaprzestania zaprzestanie zaprzestano zaprzestaną zaprzestał zaprzestała zaprzestałem zaprzestały zaprzestańcie
+86	4686	gad	gada gadami gadem gady gadzie gadów god
+87	4687	horyzont	horyzoncie horyzontach horyzontem horyzontu horyzonty horyzontów
+88	4688	hamulec	hamulca hamulcach hamulcami hamulce hamulcem hamulcowe hamulcowego hamulcowy hamulcowych hamulcowym hamulcową hamulcu hamulców
+89	4689	dekoracja	dekoracjach dekoracjami dekoracje dekoracji dekoracją dekorację
+90	4690	potępiać	potępi potępia potępiają potępiając potępiające potępiający potępiających potępiali potępiam potępiamy potępiane potępianie potępiasz potępiał potępieni potępili potępiona potępione potępiono potępiony potępionych potępić potępił potępiła potępiło potępiły
+91	4691	pedagogiczny	pedagogiczna pedagogiczne pedagogicznego pedagogicznej pedagogiczno pedagogicznych pedagogicznym pedagogiczną
+92	4692	dzwonek	dzwoneczek dzwoneczka dzwoneczki dzwoneczkiem dzwoneczków dzwonka dzwonkami dzwonki dzwonkiem dzwonku dzwonków
+93	4693	melodia	melodiami melodie melodii melodią melodię melodyjki
+94	4694	kusić	kusi kusisz kusił kusiła kusiło kuszenia kuszenie kuszony kuszą kusząca kuszące kusząco kuszący kuszę kuś skusi skusisz skusić skusił skusiła skusiłem skusiło skuszony skuszę
+95	4695	car	cara carem carowi cary carze carów
+96	4696	seryjny	seryjna seryjne seryjnego seryjnej seryjni seryjnie seryjnych seryjnym seryjnymi seryjną
+97	4697	zmysł	zmysłach zmysłami zmysłem zmysłom zmysłu zmysły zmysłów
+98	4698	wiarygodność	wiarygodności
+99	4699	futbol	futbolem futbolu
+100	4700	helikopter	helikoptera helikopterami helikopterem helikoptery helikopterze helikopterów

@@ -1,0 +1,100 @@
+1	1501	zamieszkać	zamieszek zamieszka zamieszkach zamieszkaj zamieszkają zamieszkali zamieszkam zamieszkami zamieszkamy zamieszkana zamieszkane zamieszkanej zamieszkania zamieszkanie zamieszkany zamieszkanych zamieszkanym zamieszkasz zamieszkał zamieszkała zamieszkałe zamieszkałego zamieszkałej zamieszkały zamieszkałych zamieszkałym zamieszki zamieszkiwali zamieszkiwane zamieszkiwania zamieszkiwał zamieszkiwało zamieszkiwały zamieszkuje zamieszkują zamieszkujące zamieszkującej zamieszkujący zamieszkujących
+2	1502	powstały	powstali powstała powstałe powstałego powstałej powstałych powstałym powstałymi powstałą
+3	1503	etap	etapach etapami etapem etapie etapowe etapowy etapu etapy etapów
+4	1504	igrzyska	igrzysk igrzyskach igrzyskami igrzyskom
+5	1505	zbrodnia	zbrodni zbrodniach zbrodniami zbrodnie zbrodniom zbrodnią zbrodnię
+6	1506	wspominać	wspomina wspominaj wspominajcie wspominajmy wspominają wspominając wspominający wspominali wspominaliśmy wspominam wspominamy wspominana wspominane wspominanego wspominania wspominanie wspominano wspominany wspominanych wspominasz wspominał wspominała wspominałam wspominałaś wspominałem wspominałeś wspominały
+7	1507	agencja	agencjach agencjami agencje agencji agencjom agencją agencję
+8	1508	zainteresowanie	zainteresowania zainteresowaniach zainteresowaniami zainteresowaniem zainteresowaniom zainteresowaniu zainteresowań
+9	1509	nagrać	nagra nagraj nagrali nagraliśmy nagram nagramy nagrana nagrane nagranego nagranej nagrano nagrany nagranych nagraną nagrasz nagrał nagrała nagrałam nagrałem nagrało nagrały nagrywa nagrywaj nagrywają nagrywając nagrywali nagrywam nagrywamy nagrywana nagrywane nagrywania nagrywanie nagrywaniu nagrywano nagrywany nagrywasz nagrywać nagrywał nagrywała
+10	1510	struktura	struktur strukturach strukturami strukturom struktury strukturze strukturą strukturę
+11	1511	świadek	świadka świadkach świadkami świadkiem świadkom świadkowi świadkowie świadku świadków
+12	1512	pokonać	pokona pokonaj pokonają pokonali pokonaliśmy pokonam pokonamy pokonana pokonane pokonanego pokonani pokonania pokonanie pokonano pokonany pokonanych pokonanym pokonasz pokonawszy pokonał pokonała pokonałam pokonałem pokonało pokonały pokonuje pokonujemy pokonują pokonując pokonywali pokonywania pokonywanie pokonywaniu pokonywać pokonywał pokonywała
+13	1513	ślub	ślubach ślubami ślubem ślubie ślubu śluby ślubów
+14	1514	zarząd	zarządach zarządem zarządowi zarządu zarządy zarządzie zarządów
+15	1515	boleć	bolał bolała bolało bolały boli bolą bolące bolącym
+16	1516	szczegół	szczególe szczegółach szczegółami szczegółem szczegółom szczegółu szczegóły szczegółów
+17	1517	strasznie	straszniej
+18	1518	długość	długości długościach długością
+19	1519	rzeczywiście	
+20	1520	spoko	
+21	1521	wieczorem	
+22	1522	ukazać	ukazali ukazana ukazane ukazania ukazanie ukazaniem ukazaniu ukazano ukazany ukazanych ukazał ukazała ukazało ukazały ukazuje ukazują ukazując ukazująca ukazujące ukazującego ukazującej ukazujący ukazujących ukazującym ukazującymi ukazującą ukazywana ukazywane ukazywania ukazywanie ukazywany ukazywać ukazywał ukazywała ukazywało ukazywały ukaże ukażą
+23	1523	obecność	obecności obecnością
+24	1524	klimat	klimacie klimacik klimatach klimatem klimatowi klimatu klimaty klimatów
+25	1525	znieść	zniesie zniesienia zniesienie zniesieniu zniesiona zniesione zniesiono zniesiony znieś znieśli zniosą zniosę zniosła zniosłam zniosło zniosły zniósł zniósłby znosi znosili znosimy znosisz znosić znosił znosiła znosiłam znosiłem znosiły znoszenia znoszenie znoszone znoszą znosząc znosząca znoszącej znoszący znoszącą znoszę
+26	1526	odnaleźć	odnajduje odnajdujemy odnajdujesz odnajdują odnajdując odnajduję odnajdywania odnajdywanie odnajdywaniu odnajdywać odnajdzie odnajdziecie odnajdziemy odnajdziesz odnajdą odnajdę odnajdź odnalazł odnalazła odnalazłam odnalazłem odnalazło odnalazły odnalezieni odnalezienia odnalezienie odnalezieniem odnalezieniu odnaleziona odnalezione odnalezionego odnaleziono odnaleziony odnalezionych odnalezionym odnaleźli odnaleźliśmy
+27	1527	radość	radocha radochy radości radościach radością
+28	1528	chiński	chińscy chińska chińskich chińskie chińskiego chińskiej chińskiemu chińskim chińskimi chińsko chińsku chińską
+29	1529	gruby	grub gruba grube grubego grubej grubi grubo grubsza grubsze grubszego grubszej grubszy grubszych grubszym grubszą grubych grubym grubymi grubą najgrubszy
+30	1530	waga	wadze wag wagach wagi wagowa wagowe wagowej wagowo wagowy wagowych wagową wagą wagę ważek ważka ważką
+31	1531	kazać	kazali kazano kazał kazała kazałabym kazałam kazałaś kazałby kazałbym kazałem kazałeś kazało kazały każ każcie każe każemy każesz każą każąc każę
+32	1532	krzyczeć	krzycz krzyczał krzyczała krzyczałam krzyczałaś krzyczałem krzyczałeś krzyczało krzyczały krzyczcie krzyczeli krzyczeliśmy krzyczenia krzyczenie krzyczeniem krzyczy krzyczycie krzyczymy krzyczysz krzyczą krzycząc krzyczące krzyczący krzyczących krzyczę krzyknie krzyknij krzyknąć krzyknął krzyknąłem krzyknę krzyknęła krzyknęłam
+33	1533	dusza	dusz duszach duszami dusze duszka duszo duszom duszy duszą duszę
+34	1534	piotr	piotra piotrek piotrem piotrowi piotruś piotrze
+35	1535	stół	stole stoliczek stolik stolika stolikach stolikami stoliki stolikiem stoliku stolików stołach stołami stołem stołowa stołowe stołowego stołowej stołowi stołowy stołowych stołowym stołową stołu stoły stołów
+36	1536	poszukać	poszuka poszukaj poszukajcie poszukajmy poszukają poszukali poszukam poszukamy poszukania poszukanie poszukasz poszukał poszukała poszukałam poszukałem poszukiwali poszukiwana poszukiwane poszukiwanego poszukiwani poszukiwano poszukiwany poszukiwanych poszukiwanym poszukiwaną poszukiwać poszukiwał poszukiwała poszukiwałem poszukuje poszukujemy poszukujesz poszukują poszukując poszukująca poszukujące poszukujący poszukujących poszukuję
+37	1537	niezależny	niezależna niezależne niezależnego niezależnej niezależni niezależnych niezależnym niezależnymi niezależną
+38	1538	standard	standardach standardami standardem standardom standardu standardy standardzie standardów
+39	1539	japoński	japońscy japońska japońskich japońskie japońskiego japońskiej japońskiemu japońskim japońskimi japońsko japońsku japońską
+40	1540	mięso	mieso miso mięcho mięs mięsa mięsem mięsie mięska mięskiem mięsko
+41	1541	meksyk	meksykańscy meksykańska meksykański meksykańskich meksykańskie meksykańskiego meksykańskiej meksykańskim meksykańskimi meksykańsko meksykańską meksykiem meksyku
+42	1542	urządzenie	urządzenia urządzeniach urządzeniami urządzeniem urządzeniom urządzeniu urządzeń
+43	1543	powoli	powolutku
+44	1544	milimetrowy	milimetrowe milimetrowych mm
+45	1545	przybycie	przybycia przybyciem przybyciu przybyli przybyliśmy przybywa przybywaj przybywajcie przybywają przybywając przybywające przybywający przybywających przybywali przybywam przybywamy przybywać przybywał przybywało przybywały przybywszy przybyć przybył przybyła przybyłam przybyłem przybyłeś przybyło przybądź przybędzie przybędą przybędę
+46	1546	przeznaczyć	przeznacza przeznaczają przeznaczając przeznaczam przeznaczamy przeznaczana przeznaczane przeznaczanie przeznaczanych przeznaczać przeznaczał przeznaczeni przeznaczona przeznaczone przeznaczonego przeznaczonej przeznaczono przeznaczony przeznaczonych przeznaczonym przeznaczonymi przeznaczoną przeznaczy przeznaczyli przeznaczymy przeznaczył przeznaczyła przeznaczyło przeznaczyły
+47	1547	rewolucja	rewolucjach rewolucje rewolucji rewolucją rewolucję rewolucyjna rewolucyjne rewolucyjnego rewolucyjnej rewolucyjni rewolucyjno rewolucyjny rewolucyjnych rewolucyjnym rewolucyjną
+48	1548	sekunda	sekund sekundach sekundami sekundka sekundkę sekundy sekundzie sekundą sekundę
+49	1549	lotnisko	lotnisk lotniska lotniskach lotniskami lotniskiem lotnisku
+50	1550	decydować	decydowali decydowania decydowanie decydowaniu decydował decydowała decydowało decydowały decyduj decyduje decydujecie decydujemy decydujesz decydują decydując decydująca decydujące decydującego decydującej decydujący decydujących decydującym decydującymi decydującą decyduję
+51	1551	wówczas	
+52	1552	administracja	administracje administracji administracją administrację
+53	1553	otwarcie	otwarcia otwarciem otwarciu otwarć
+54	1554	podział	podziale podziałach podziałami podziałem podziałowi podziału podziały podziałów
+55	1555	trener	trenera trenerami trenerem trenerka trenerki trenerką trenerom trenerowi trenerze trenerzy trenerów
+56	1556	zero	zer zera zerami zerem zerowa zerowe zerowego zerowej zerowy zerowych zerowym zerową zeru zerze
+57	1557	żywy	żywa żywe żywego żywej żywi żywsze żywych żywym żywymi żywą
+58	1558	ciągnąć	ciągnie ciągniecie ciągniemy ciągniesz ciągnij ciągnięcia ciągnięcie ciągnięta ciągnięte ciągnięty ciągną ciągnąc ciągnąca ciągnące ciągnącego ciągnącej ciągnący ciągnących ciągnącym ciągnącą ciągnął ciągnąłem ciągnę ciągnęli ciągnęła ciągnęłam ciągnęło ciągnęły ciągła ciągłe ciągłego ciągłej ciągły ciągłych ciągłym ciągłymi ciągłą
+59	1559	konflikt	konflikcie konfliktach konfliktami konfliktem konfliktom konfliktowe konfliktowej konfliktowi konfliktowych konfliktu konflikty konfliktów
+60	1560	podkreślić	podkreśla podkreślają podkreślając podkreślające podkreślający podkreślali podkreślam podkreślamy podkreślana podkreślane podkreślania podkreślanie podkreślano podkreślasz podkreślać podkreślał podkreślała podkreślało podkreślały podkreślenia podkreślenie podkreśleniem podkreśli podkreślili podkreślił podkreśliła podkreśliłem podkreśliło podkreśliły podkreślona podkreślone podkreślono podkreślony podkreślę
+61	1561	pisarz	pisarka pisarska pisarski pisarskich pisarskie pisarskiego pisarskiej pisarskim pisarską pisarza pisarzach pisarzami pisarze pisarzem pisarzom pisarzowi pisarzu pisarzy
+62	1562	towarzyszyć	towarzysz towarzysza towarzyszami towarzyszce towarzysze towarzyszek towarzyszem towarzyszenie towarzyszeniem towarzyszka towarzyszkami towarzyszki towarzyszko towarzyszką towarzyszkę towarzyszom towarzyszowi towarzyszu towarzyszy towarzyszyli towarzyszył towarzyszyła towarzyszyło towarzyszyły towarzyszą towarzysząc towarzysząca towarzyszące towarzyszący
+63	1563	fundusz	funduszach funduszami fundusze funduszem funduszom funduszowi funduszu funduszy funduszów
+64	1564	roślina	roślin roślinach roślinami roślinie roślinka roślinna roślinne roślinnego roślinnej roślinny roślinnych roślinnym roślinnymi roślinną roślinom rośliny rośliną roślinę
+65	1565	babcia	babci babciami babcie babcine babciom babciu babcią babcię babuni babunia babć
+66	1566	telewizyjny	telewizyjna telewizyjne telewizyjnego telewizyjnej telewizyjni telewizyjnych telewizyjnym telewizyjnymi telewizyjną
+67	1567	fundacja	fundacjach fundacjami fundacje fundacji fundacjom fundacją fundację
+68	1568	obiecać	obieca obiecaj obiecajcie obiecali obiecaliśmy obiecam obiecana obiecane obiecanej obiecano obiecany obiecaną obiecał obiecała obiecałam obiecałaś obiecałem obiecałeś obiecało obiecały obiecuj obiecuje obiecujemy obiecujesz obiecują obiecując obiecująca obiecujące obiecującego obiecująco obiecujący obiecujących obiecującym obiecującą obiecuję obiecywali obiecywać obiecywał obiecywała
+69	1569	wypowiedzieć	wypowiada wypowiadaj wypowiadają wypowiadając wypowiadający wypowiadających wypowiadali wypowiadam wypowiadamy wypowiadane wypowiadania wypowiadanie wypowiadasz wypowiadać wypowiadał wypowiadała wypowiadało wypowiadały wypowie wypowiedz wypowiedzenia wypowiedzenie wypowiedzeniem wypowiedzeniu wypowiedziana wypowiedziane wypowiedzianych wypowiedzianym wypowiedział wypowiedziała wypowiedziałam wypowiedziałaś wypowiedziałem wypowiedziało wypowiedziały wypowiedzieli wypowiedzą wypowiem wypowiesz
+70	1570	galeria	galeriach galeriami galerie galerii galerią galerię
+71	1571	twórca	twórcach twórcami twórcom twórcy twórczyni twórców twórcą twórcę
+72	1572	baba	bab babach babami babce babeczek babeczka babeczkach babeczki babeczkę babek babi babia babich babie babiego babiej babim babią babka babkami babki babką babkę babo babska babski babskich babskie babsko baby babą babę boba
+73	1573	okazywać	okazuj okazuje okazujemy okazujesz okazują okazując okazuję okazywali okazywania okazywanie okazywaniu okazywał okazywała okazywało okazywały
+74	1574	pojazd	pojazdach pojazdami pojazdem pojazdom pojazdowi pojazdu pojazdy pojazdów pojeździe
+75	1575	przeszłość	przeszłości przeszłością
+76	1576	obrażać	obrazi obrazili obrazisz obrazić obraził obraziła obraziłam obraziłaś obraziłem obraziłeś obraziło obraź obraża obrażaj obrażajcie obrażają obrażając obrażające obrażających obrażali obrażam obrażamy obrażania obrażanie obrażaniem obrażasz obrażał obrażała obrażeni obrażenia obrażeniami obrażenie obrażeń obrażona obrażone obrażono obrażony obrażą obrażę
+77	1577	tragedia	tragediach tragediami tragedie tragedii tragedią tragedię tragiczna tragiczne tragicznego tragicznej tragiczny tragicznych tragicznym tragiczną
+78	1578	aplikacja	aplikacjach aplikacjami aplikacje aplikacji aplikacją aplikację
+79	1579	niedługo	
+80	1580	osobiście	
+81	1581	towarzystwo	towarzystw towarzystwa towarzystwach towarzystwami towarzystwem towarzystwie towarzystwu
+82	1582	uczestniczyć	uczestniczenia uczestniczenie uczestniczy uczestniczyli uczestniczyliśmy uczestniczymy uczestniczysz uczestniczył uczestniczyła uczestniczyłam uczestniczyłaś uczestniczyłem uczestniczyłeś uczestniczyło uczestniczyły uczestniczą uczestnicząc uczestnicząca uczestniczące uczestniczącego uczestniczącej uczestniczący uczestniczących uczestniczącym uczestniczącymi uczestniczę
+83	1583	liceum	licea liceach liceów
+84	1584	zbliżyć	zbliż zbliża zbliżają zbliżając zbliżające zbliżającego zbliżającej zbliżający zbliżających zbliżającym zbliżającymi zbliżającą zbliżali zbliżam zbliżamy zbliżania zbliżanie zbliżać zbliżał zbliżała zbliżało zbliżały zbliżenia zbliżenie zbliżeniu zbliżona zbliżone zbliżonego zbliżonej zbliżony zbliżonych zbliżonym zbliżoną zbliży zbliżyli zbliżył zbliżyła zbliżyło zbliżyły
+85	1585	wyjątek	wyjątkami wyjątki wyjątkiem wyjątkowi wyjątku wyjątków
+86	1586	wygląd	wyglądem wyglądowi wyglądu wyglądzie
+87	1587	promować	promowali promowana promowane promowanego promowanej promowania promowanie promowaniem promowaniu promowany promowanych promowaną promował promowała promowało promowały promuj promuje promujemy promujesz promujmy promują promując promująca promujące promującego promującej promujący promujących promującym promującymi promującą promuję wypromowania wypromowanie wypromować wypromował wypromowała wypromuje
+88	1588	całkowity	całkowita całkowite całkowitego całkowitej całkowitemu całkowitych całkowitym całkowitymi całkowitą
+89	1589	hiszpański	hiszpańscy hiszpańska hiszpańskich hiszpańskie hiszpańskiego hiszpańskiej hiszpańskim hiszpańskimi hiszpańsko hiszpańsku hiszpańską
+90	1590	zmniejszyć	zmniejsz zmniejsza zmniejszają zmniejszając zmniejszająca zmniejszające zmniejszający zmniejszających zmniejszającą zmniejszam zmniejszamy zmniejszania zmniejszanie zmniejszaniem zmniejszaniu zmniejszać zmniejszał zmniejszała zmniejszenia zmniejszenie zmniejszeniem zmniejszeniu zmniejszona zmniejszone zmniejszonej zmniejszono zmniejszony zmniejszonym zmniejszoną zmniejszy zmniejszyli zmniejszymy zmniejszysz zmniejszył zmniejszyła zmniejszyłem zmniejszyło zmniejszyły zmniejszą
+91	1591	konsekwencja	konsekwencjach konsekwencjami konsekwencje konsekwencji konsekwencjom konsekwencją konsekwencję
+92	1592	kolejka	kolejce kolejek kolejkach kolejkami kolejki kolejką kolejkę
+93	1593	komitet	komitecie komitetach komitetem komitetowi komitetu komitety komitetów
+94	1594	zgodzić	zgodzi zgodzicie zgodzili zgodziliby zgodziliśmy zgodzimy zgodzisz zgodził zgodziła zgodziłaby zgodziłabym zgodziłabyś zgodziłam zgodziłby zgodziłbym zgodziłem zgodziłeś zgodziło zgodziły zgodzono zgodzą zgodzę
+95	1595	edycja	edycjach edycje edycji edycją edycję
+96	1596	instytut	instytucie instytutach instytutami instytutem instytutowi instytutu instytuty instytutów
+97	1597	wakacje	wakacjach wakacjami wakacji
+98	1598	mądry	mądra mądre mądrego mądrej mądremu mądrych mądrym mądrymi mądrze mądrzej mądrzejsi mądrzejsza mądrzejsze mądrzejszy mądrzejszych mądrzejszym mądrzy mądrą najmądrzejsi najmądrzejsza najmądrzejsze najmądrzejszy najmądrzejszych najmądrzejszym
+99	1599	idiota	idioci idiocie idiotami idiotek idiotka idiotki idiotko idiotkę idioto idiotom idioty idiotów idiotą idiotę
+100	1600	rzadko	najrzadziej rzadziej

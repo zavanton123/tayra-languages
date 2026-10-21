@@ -1,0 +1,100 @@
+1	3401	tygodnik	tygodnika tygodnikach tygodniki tygodnikiem tygodnikowi tygodniku tygodników
+2	3402	kanapka	kanapce kanapek kanapkach kanapkami kanapki kanapką kanapkę
+3	3403	wzbudzić	wzbudza wzbudzają wzbudzając wzbudzająca wzbudzający wzbudzania wzbudzanie wzbudzasz wzbudzać wzbudzał wzbudzała wzbudzało wzbudzały wzbudzenia wzbudzenie wzbudzi wzbudził wzbudziła wzbudziło wzbudziły
+4	3404	zlikwidować	likwidowali likwidowane likwidowanego likwidowania likwidowanie likwidowano likwidowanych likwidować likwidował likwiduje likwidujemy likwidują likwidując zlikwidowali zlikwidowaliśmy zlikwidowana zlikwidowane zlikwidowanego zlikwidowanej zlikwidowania zlikwidowanie zlikwidowaniu zlikwidowano zlikwidowany zlikwidowanych zlikwidował zlikwidowała zlikwiduje zlikwidujemy zlikwidujmy zlikwidują
+5	3405	zasługa	zasług zasługach zasługami zasługi zasługą zasługę
+6	3406	niepotrzebny	niepotrzebna niepotrzebne niepotrzebnego niepotrzebnej niepotrzebni niepotrzebnych niepotrzebnym niepotrzebnymi niepotrzebną
+7	3407	dziwka	dziwce dziwek dziwie dziwkach dziwkami dziwki dziwko dziwką dziwkę
+8	3408	instrukcja	instrukcjach instrukcjami instrukcje instrukcji instrukcją instrukcję
+9	3409	ciemno	ciemna ciemniej najciemniej
+10	3410	zapaść	zapada zapadają zapadające zapadających zapadania zapadanie zapadać zapadał zapadała zapadały zapadli zapadnie zapadnięcie zapadnięciu zapadnięte zapadną zapadnę zapadł zapadła zapadłej zapadło zapadły zapasie zapaści
+11	3411	cycek	cyc cyca cycem cycka cyckach cyckami cycki cyckiem cycku cycków cycu cycuszki cyców
+12	3412	chaos	chaosem chaosie chaosowi chaosu
+13	3413	dyscyplina	dyscyplin dyscyplinach dyscyplinami dyscyplinie dyscypliny dyscypliną dyscyplinę
+14	3414	chociażby	
+15	3415	li	
+16	3416	ludu	
+17	3417	zainstalować	instalowana instalowane instalowania instalowanie instalowany instalować instalował instalowałem instaluje instalujemy instalujesz instalują instalując zainstalowali zainstalowaliśmy zainstalowana zainstalowane zainstalowanego zainstalowanej zainstalowania zainstalowanie zainstalowaniu zainstalowano zainstalowany zainstalowanych zainstalowanym zainstalowaną zainstalował zainstalowała zainstalowałam zainstalowałem zainstaluj zainstaluje zainstalujemy zainstalujesz zainstaluję
+18	3418	ciekawostka	ciekawostek ciekawostkach ciekawostkami ciekawostki ciekawostką ciekawostkę
+19	3419	dystrybucja	dystrybucjach dystrybucje dystrybucji dystrybucją dystrybucję
+20	3420	smoleński	smoleńscy smoleńska smoleńskich smoleńskie smoleńskiego smoleńskiej smoleńskim smoleńską
+21	3421	niedźwiedź	niedźwiadek niedźwiadka niedźwiadki niedźwiadku niedźwiedzi niedźwiedzia niedźwiedziach niedźwiedziami niedźwiedzica niedźwiedzicy niedźwiedzie niedźwiedziego niedźwiedziej niedźwiedziem niedźwiedziu niedźwiedzią
+22	3422	zjazd	zjazdach zjazdami zjazdem zjazdowe zjazdowy zjazdu zjazdy zjazdów zjeździe
+23	3423	niedawny	niedawna niedawne niedawnego niedawnej niedawnych niedawnym niedawną
+24	3424	zatwierdzić	zatwierdza zatwierdzającego zatwierdzam zatwierdzane zatwierdzania zatwierdzanie zatwierdzać zatwierdzał zatwierdzi zatwierdzili zatwierdził zatwierdziła zatwierdziło zatwierdzona zatwierdzone zatwierdzonego zatwierdzonej zatwierdzono zatwierdzony zatwierdzonych zatwierdzonym zatwierdzoną
+25	3425	wydawca	wydawcami wydawcom wydawcy wydawców wydawcą wydawcę
+26	3426	maca	mac mace macy macę
+27	3427	marketing	marketingiem marketingu
+28	3428	rzesza	rzesz rzesze rzeszy rzeszą rzeszę
+29	3429	przesada	przesady przesadą przesadę
+30	3430	troska	trosce trosk troskach troskami troski troską troskę
+31	3431	czysto	czyściej
+32	3432	zasadniczy	zasadnicza zasadnicze zasadniczego zasadniczej zasadniczych zasadniczym zasadniczymi zasadniczą
+33	3433	okupacja	okupacje okupacji okupacją okupację
+34	3434	komenda	komend komendach komendy komendzie komendą komendę
+35	3435	ściśle	ściślej
+36	3436	głąb	głąba głąbem głąbie głąby głąbów głębi głębie głębią głębię
+37	3437	okrągły	okrągła okrągłe okrągłego okrągłej okrągło okrągłych okrągłym okrągłymi okrągłą
+38	3438	przekształcić	przekształca przekształcają przekształcając przekształcana przekształcane przekształcania przekształcanie przekształcaniu przekształcać przekształcenia przekształcenie przekształceń przekształci przekształcili przekształcił przekształciła przekształciło przekształciły przekształcona przekształcone przekształconej przekształcono przekształcony przekształconych
+39	3439	powołanie	powołania powołaniem powołaniu powołań
+40	3440	kaczka	kacza kaczce kacze kaczego kaczej kaczek kaczki kaczką kaczkę kaczor kaczora kaczorek kaczorem kaczorowi kaczory kaczorze kaczuszka kaczuszki kaczuszko kaczy kaczych
+41	3441	skuteczność	skuteczności skutecznością
+42	3442	niezgodny	niezgodna niezgodne niezgodnego niezgodnej niezgodnie niezgodnych niezgodnym niezgodną
+43	3443	etniczny	etniczna etniczne etnicznego etnicznej etniczni etniczno etnicznych etnicznym etnicznymi etniczną
+44	3444	rozkład	rozkładach rozkładem rozkładowi rozkładu rozkłady rozkładzie rozkładów
+45	3445	tura	tur turach tury turze turów turą turę
+46	3446	nerwowy	nerwowa nerwowe nerwowego nerwowej nerwowi nerwowo nerwowych nerwowym nerwowymi nerwową
+47	3447	porządny	porządna porządne porządnego porządnej porządni porządnych porządnym porządnymi porządną
+48	3448	poczytać	poczyta poczytacie poczytaj poczytajcie poczytam poczytania poczytasz poczytał poczytała poczytałam poczytałem
+49	3449	kur	kogucie kogucik kogut koguta kogutem koguty kogutów kura kurach kurami kurek kurki kurkiem kurkowi kuro kurom kurowie kury kurze kurów kurą kurę
+50	3450	podwyżka	podwyżce podwyżek podwyżkach podwyżkami podwyżki podwyżkom podwyżką podwyżkę
+51	3451	specyficzny	specyficzna specyficzne specyficznego specyficznej specyficznie specyficznych specyficznym specyficznymi specyficzną
+52	3452	samorządowy	samorządowa samorządowe samorządowego samorządowej samorządowych samorządowym samorządowymi samorządową
+53	3453	generalnie	
+54	3454	lady	
+55	3455	nareszcie	
+56	3456	podlega	
+57	3457	klimatyczny	klimatyczna klimatyczne klimatycznego klimatycznej klimatyczni klimatycznie klimatyczno klimatycznych klimatycznym klimatycznymi klimatyczną
+58	3458	przypadkowy	przypadkowa przypadkowe przypadkowego przypadkowej przypadkowi przypadkowych przypadkowym przypadkowymi przypadkową
+59	3459	płatny	płatna płatne płatnego płatnej płatni płatnych płatnym płatnymi płatną
+60	3460	formuła	formule formuł formułach formułami formułka formułki formuły formułą formułę
+61	3461	nieliczny	nieliczna nieliczne nielicznej nieliczni nielicznych nielicznym nielicznymi
+62	3462	obalić	obala obalają obalając obalamy obalania obalanie obalać obalenia obalenie obali obalili obalimy obalił obaliła obaliło obalona obalone obalonego obalono obalony obalą
+63	3463	hit	hicie hitach hitami hitem hitu hity hitów
+64	3464	geniusz	geniusza geniuszami geniusze geniuszem geniuszu geniuszy
+65	3465	zgwałcić	gwałcenia gwałcenie gwałci gwałcili gwałcić gwałcił gwałcona gwałcone gwałcą gwałcąc zgwałcenia zgwałcenie zgwałci zgwałcili zgwałcisz zgwałcił zgwałciła zgwałciłeś zgwałcona zgwałcone zgwałconej zgwałcono zgwałcony zgwałconych zgwałconą zgwałcą zgwałcę zgwałć
+66	3466	ustanowić	ustanawia ustanawiają ustanawiając ustanawiająca ustanawiające ustanawiającego ustanawiającej ustanawiający ustanawiamy ustanawiane ustanawiania ustanawianie ustanawiać ustanowi ustanowili ustanowiona ustanowione ustanowionego ustanowionej ustanowiono ustanowiony ustanowionych ustanowionym ustanowioną ustanowił ustanowiła ustanowiło ustanowiły
+67	3467	płuco	płuc płuca płucach płucami
+68	3468	odsetek	odsetka odsetkami odsetki odsetkiem odsetku
+69	3469	katedra	katedr katedrach katedry katedrze katedrą katedrę
+70	3470	naprawa	napraw naprawach naprawami naprawie naprawy naprawą naprawę
+71	3471	tarcza	tarcz tarczach tarczami tarcze tarczy tarczą tarczę
+72	3472	skała	skale skał skałach skałami skałce skałek skałka skałkach skałki skały skałą skałę
+73	3473	przyspieszyć	przyspiesz przyspiesza przyspieszają przyspieszając przyspieszające przyspieszający przyspieszamy przyspieszania przyspieszanie przyspieszać przyspieszał przyspieszenia przyspieszenie przyspieszeniem przyspieszeniu przyspieszona przyspieszone przyspieszonego przyspieszony przyspieszonych przyspieszonym przyspieszoną przyspieszy przyspieszył przyspieszyła przyspieszyłem przyspieszyło przyspieszyły przyśpiesza przyśpieszać przyśpieszy przyśpieszyć przyśpieszył przyśpieszyła
+74	3474	szkło	szkieł szkiełka szkiełko szkle szkła szkłami szkłem
+75	3475	koszmar	koszmarach koszmarami koszmarem koszmaru koszmary koszmarze koszmarów
+76	3476	lalka	lal lala lalce lale laleczka lalek lali lalkach lalkami lalki lalkom lalkowy lalkowych lalką lalkę lalo
+77	3477	portfel	portfela portfelach portfelami portfele portfelem portfeli portfelu
+78	3478	mona	mon mony moną
+79	3479	polowanie	polowania polowaniach polowaniem polowaniu polowań
+80	3480	senior	seniora seniorach seniorami seniorek seniorem seniorka seniorzy seniorów
+81	3481	pistolet	pistolecie pistoletach pistoletami pistoletem pistoletu pistolety pistoletów
+82	3482	marny	marna marne marnego marnej marni marnych marnym marną
+83	3483	ciemność	ciemności ciemnościach ciemnością
+84	3484	zawieszenie	zawieszenia zawieszeniem zawieszeniu
+85	3485	logiczny	logiczna logiczne logicznego logicznej logiczno logicznych logicznym logicznymi logiczną
+86	3486	raj	rajach raje rajem raju rajów
+87	3487	kardynał	kardynale kardynała kardynałem kardynałowi kardynałowie kardynałów
+88	3488	wywieść	wywiódł wywodzi wywodzili wywodzimy wywodzić wywodził wywodziła wywodzą wywodząca wywodzące wywodzącego wywodzącej wywodzący wywodzących wywodzącym wywodzącą wywodzę
+89	3489	uzasadnić	uzasadnia uzasadniają uzasadniając uzasadniające uzasadniających uzasadniane uzasadniania uzasadnianie uzasadniano uzasadniać uzasadniał uzasadniała uzasadnij uzasadniona uzasadnione uzasadnionego uzasadnionej uzasadniony uzasadnionych uzasadnionym uzasadnioną uzasadnił
+90	3490	nadzwyczajny	nadzwyczajna nadzwyczajne nadzwyczajnego nadzwyczajnej nadzwyczajni nadzwyczajnie nadzwyczajnych nadzwyczajnym nadzwyczajnymi nadzwyczajną
+91	3491	rozszerzenie	rozszerzenia rozszerzeniach rozszerzeniami rozszerzeniem rozszerzeniu rozszerzeń
+92	3492	wąż	węża wężach wężami węże wężem wężu węży wężyk wężyka wężykiem wężyków wężów
+93	3493	ostrzeżenie	ostrzeżenia ostrzeżeniami ostrzeżeniem ostrzeżeniu ostrzeżeń
+94	3494	notatka	notatce notatek notatkach notatkami notatki notatką notatkę
+95	3495	pamiątka	pamiątce pamiątek pamiątkach pamiątkami pamiątki pamiątkowa pamiątkowe pamiątkowego pamiątkowej pamiątkowy pamiątkowych pamiątkowym pamiątkowymi pamiątkową pamiątką pamiątkę
+96	3496	kontynuacja	kontynuacje kontynuacji kontynuacją kontynuację
+97	3497	promieniowanie	promieniowania promieniowaniem promieniowaniu
+98	3498	unijny	unijna unijne unijnego unijnej unijni unijnych unijnym unijnymi unijną
+99	3499	wyskoczyć	wyskakiwanie wyskakiwać wyskakiwał wyskakuj wyskakuje wyskakujesz wyskakują wyskakując wyskakujące wyskakujących wyskoczy wyskoczyli wyskoczymy wyskoczył wyskoczyła wyskoczyłam wyskoczyłem wyskoczyło wyskoczyły wyskoczą wyskoczę
+100	3500	paszport	paszporcie paszportach paszportami paszportem paszportu paszporty paszportów

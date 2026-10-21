@@ -1,0 +1,100 @@
+1	3001	historyk	historycy historyczka historyka historykami historykiem historykom historyków
+2	3002	odzywać	odezwali odezwać odezwał odezwała odezwałam odezwałem odezwało odezwały odezwie odezwiemy odezwiesz odezwij odezwijcie odezwą odezwę odzywa odzywaj odzywają odzywając odzywam odzywamy odzywasz odzywał odzywała odzywałam odzywałaś
+3	3003	skandal	skandalach skandalami skandale skandalem skandali skandalu
+4	3004	motywacja	motywacje motywacji motywacją motywację
+5	3005	archiwum	archiwa archiwach archiwami archiwów
+6	3006	obwód	obwodach obwodami obwodem obwodowa obwodowe obwodowego obwodowej obwodowy obwodowych obwodowym obwodową obwodu obwody obwodzie obwodów
+7	3007	obchody	obchodach obchodami obchodom obchodów
+8	3008	zaleta	zalet zaletach zaletami zalety zaletą zaletę
+9	3009	pensja	pensjach pensje pensji pensją pensję
+10	3010	laptop	laptopa laptopach laptopem laptopie laptopy laptopów
+11	3011	lewicowy	lewicowa lewicowe lewicowego lewicowej lewicowi lewicowo lewicowych lewicowym lewicowymi lewicową
+12	3012	prawdopodobny	prawdopodobna prawdopodobne prawdopodobnego prawdopodobnej prawdopodobnych prawdopodobnym prawdopodobnymi prawdopodobną
+13	3013	prawicowy	prawicowa prawicowe prawicowego prawicowej prawicowi prawicowo prawicowych prawicowym prawicowymi prawicową
+14	3014	liberalny	liberalna liberalne liberalnego liberalnej liberalni liberalnie liberalno liberalnych liberalnym liberalnymi liberalną
+15	3015	życzenia	życzeniach życzeniami życzeniom życzeń
+16	3016	ach	
+17	3017	automatycznie	
+18	3018	gwarantować	gwarantowana gwarantowane gwarantowanego gwarantowanej gwarantowania gwarantowany gwarantowanych gwarantowanym gwarantowaną gwarantował gwarantowała gwarantowało gwarantowały gwarantuje gwarantujemy gwarantują gwarantując gwarantujące gwarantującego gwarantujący gwarantujących gwarantującym gwarantującą gwarantuję
+19	3019	starożytny	starożytna starożytne starożytnego starożytnej starożytni starożytnych starożytnym starożytnymi starożytną
+20	3020	rozszerzyć	rozszerz rozszerza rozszerzają rozszerzając rozszerzająca rozszerzające rozszerzającej rozszerzający rozszerzających rozszerzającym rozszerzającą rozszerzamy rozszerzania rozszerzanie rozszerzaniu rozszerzać rozszerzał rozszerzona rozszerzone rozszerzonego rozszerzonej rozszerzono rozszerzony rozszerzonych rozszerzonym rozszerzonymi rozszerzoną rozszerzy rozszerzyli rozszerzymy rozszerzył rozszerzyła rozszerzyłem rozszerzyło rozszerzyły
+21	3021	obsługiwać	obsługiwali obsługiwana obsługiwane obsługiwanego obsługiwanej obsługiwani obsługiwania obsługiwanie obsługiwany obsługiwanych obsługiwanym obsługiwaną obsługiwał obsługiwała obsługiwałem obsługiwały obsługuje obsługujemy obsługujesz obsługują obsługując obsługująca obsługujące obsługującego obsługującej obsługujący obsługujących obsługującym obsługującą obsługuję obsłużenia obsłużony obsłuży obsłużyć obsłużył obsłużyła
+22	3022	delikatnie	delikatniej najdelikatniej
+23	3023	rozprawa	rozpraw rozprawach rozprawce rozprawek rozprawie rozprawka rozprawki rozprawkę rozprawy rozprawą rozprawę
+24	3024	inteligencja	inteligencje inteligencji inteligencją inteligencję
+25	3025	awans	awansach awanse awansem awansie awansu awansów
+26	3026	krytyczny	krytyczna krytyczne krytycznego krytycznej krytyczni krytycznych krytycznym krytycznymi krytyczną
+27	3027	mobilny	mobilna mobilne mobilnego mobilnej mobilnie mobilnych mobilnym mobilną
+28	3028	zakochać	zakocha zakochacie zakochaj zakochają zakochali zakochaliśmy zakocham zakochamy zakochania zakochanie zakochasz zakochał zakochała zakochałam zakochałaś zakochałem zakochałeś zakochały zakochiwać zakochuj zakochuje zakochujemy zakochujesz zakochują zakochuję
+29	3029	agresywny	agresywna agresywne agresywnego agresywnej agresywni agresywnie agresywnych agresywnym agresywnymi agresywną
+30	3030	wyświetlać	wyświetl wyświetla wyświetlają wyświetlające wyświetlający wyświetlana wyświetlane wyświetlanego wyświetlania wyświetlanie wyświetlano wyświetlany wyświetlanych wyświetlanym wyświetlał wyświetlała wyświetlało wyświetlały wyświetlenia wyświetlenie wyświetleń wyświetli wyświetlić wyświetlił wyświetliła wyświetliło wyświetlone wyświetlono wyświetlony
+31	3031	przejechać	przejadą przejadę przejechali przejechaliśmy przejechana przejechane przejechania przejechanie przejechaniu przejechany przejechanych przejechał przejechała przejechałam przejechałaś przejechałem przejechało przejechały przejedzie przejedziecie przejedziemy przejedziesz przejedź przejeżdża przejeżdżają przejeżdżając przejeżdżające przejeżdżającego przejeżdżający przejeżdżających przejeżdżaliśmy przejeżdżam przejeżdżamy przejeżdżasz przejeżdżać przejeżdżał przejeżdżała przejeżdżałam przejeżdżałem
+32	3032	pogadać	pogada pogadaj pogadajcie pogadajmy pogadali pogadaliśmy pogadam pogadamy pogadania pogadasz pogadał pogadała pogadałam pogadałem
+33	3033	rzadki	najrzadszy rzadka rzadkich rzadkie rzadkiego rzadkiej rzadkim rzadkimi rzadką rzadsza rzadsze rzadszy
+34	3034	porwać	porwali porwana porwane porwanego porwanej porwani porwano porwany porwanych porwanym porwaną porwał porwała porwałaś porwałeś porwało porwały porwie porwiemy porwiesz porwij porwą porwę porywa porywają porywając porywająca porywające porywający porywamy porywane porywania porywanie porywać porywał
+35	3035	odważny	najodważniejszy odważna odważne odważnego odważnej odważni odważnie odważniej odważniejsi odważniejsza odważniejsze odważniejszy odważnych odważnym odważnymi odważną
+36	3036	biologia	biologie biologii biologią biologię
+37	3037	wstawić	wstaw wstawcie wstawi wstawia wstawiacie wstawiaj wstawiają wstawiając wstawiam wstawiamy wstawiania wstawianie wstawiasz wstawiać wstawiał wstawienia wstawienie wstawieniu wstawili wstawimy wstawiona wstawione wstawiono wstawiony wstawisz wstawią wstawię wstawił wstawiła wstawiłam wstawiłaś wstawiłem wstawiłeś
+38	3038	pozbawiony	pozbawieni pozbawiona pozbawione pozbawionego pozbawionej pozbawionych pozbawionym pozbawionymi pozbawioną
+39	3039	statystyczny	statystyczna statystyczne statystycznego statystycznej statystycznie statystycznych statystycznym statystycznymi statystyczną
+40	3040	negocjacja	negocjacjach negocjacjami negocjacje negocjacji negocjacjom negocjację negocjacyjnych
+41	3041	dzienny	dzienna dzienne dziennego dziennej dzienni dzienno dziennych dziennym dzienną
+42	3042	biga	big
+43	3043	przypaść	przypada przypadają przypadająca przypadające przypadającego przypadającej przypadający przypadających przypadającym przypadającą przypadać przypadał przypadała przypadało przypadały przypadli przypadnie przypadną przypadł przypadła przypadło przypadły
+44	3044	wyprowadzić	wyprowadza wyprowadzają wyprowadzając wyprowadzali wyprowadzam wyprowadzamy wyprowadzane wyprowadzania wyprowadzanie wyprowadzasz wyprowadzać wyprowadzał wyprowadzenia wyprowadzenie wyprowadzeniu wyprowadzi wyprowadzili wyprowadzisz wyprowadził wyprowadziła wyprowadziłam wyprowadziłem wyprowadziło wyprowadziły wyprowadzona wyprowadzone wyprowadzono wyprowadzony wyprowadzonych wyprowadzą wyprowadzę wyprowadź
+45	3045	świąteczny	świąteczna świąteczne świątecznego świątecznej świątecznie świątecznych świątecznym świątecznymi świąteczną
+46	3046	sondaż	sondażach sondażami sondaże sondażu sondaży
+47	3047	alternatywny	alternatywna alternatywne alternatywnego alternatywnej alternatywnie alternatywnych alternatywnym alternatywnymi alternatywną
+48	3048	przebić	przebicia przebicie przebij przebija przebijają przebijając przebijam przebijania przebijanie przebijać przebijał przebije przebijemy przebijesz przebiją przebili przebiliśmy przebita przebite przebito przebity przebił przebiła przebiłam przebiłem przebiło przebiły
+49	3049	anime	
+50	3050	czyżby	
+51	3051	mega	
+52	3052	informatyka	informatyce informatyczna informatyczne informatycznego informatycznej informatyczny informatycznych informatycznym informatycznymi informatyczną informatyki informatyką informatykę
+53	3053	obrót	obrocie obrotach obrotami obrotem obrotowi obrotu obroty obrotów
+54	3054	sojusz	sojuszach sojusze sojuszem sojuszowi sojuszu sojuszy
+55	3055	pożyczka	pożyczce pożyczek pożyczkach pożyczkami pożyczki pożyczką pożyczkę
+56	3056	spis	spisach spisem spisie spisu spisy spisów
+57	3057	nowość	nowości nowościach nowościami nowością
+58	3058	poezja	poezji poezją poezję
+59	3059	kolumna	kolumienki kolumn kolumnach kolumnami kolumnie kolumny kolumną kolumnę
+60	3060	opiekun	opiekuna opiekunami opiekunce opiekunek opiekunem opiekunie opiekunka opiekunki opiekunką opiekunkę opiekunom opiekunowi opiekunowie opiekunów
+61	3061	spisek	spiskach spiski spiskie spiskiem spisko spiskowa spiskowe spiskowej spiskowych spiskowymi spiskową spisku spisków
+62	3062	indyjski	indyjscy indyjska indyjskich indyjskie indyjskiego indyjskiej indyjskim indyjskimi indyjską
+63	3063	smok	smocza smocze smoczego smoczej smoczek smoczka smoczki smoczkiem smoczy smoczyca smoczych smoczym smoczą smoka smokach smokami smoki smokiem smokowi smoku smoków
+64	3064	pierwotny	pierwotna pierwotne pierwotnego pierwotnej pierwotni pierwotnych pierwotnym pierwotnymi pierwotną
+65	3065	wdzięczny	wdzięczna wdzięczne wdzięczni wdzięcznie wdzięcznych wdzięcznym
+66	3066	koszula	koszul koszulach koszulami koszule koszuli koszulą koszulę
+67	3067	kryć	krycia krycie kryciem kryj kryjcie kryje kryją kryjąc kryjąca kryjące kryjący kryjących kryjącym kryjącą kryję kryli kryta kryte krył kryła kryło kryły
+68	3068	zwyczajnie	najzwyczajniej
+69	3069	lodówka	lodów lodówce lodówek lodówkach lodówki lodówko lodówką lodówkę
+70	3070	przerażający	przerażająca przerażające przerażającego przerażającej przerażająco przerażających przerażającym przerażającymi przerażającą
+71	3071	trójka	trójce trójeczka trójek trójkami trójki trójką trójkę
+72	3072	słownik	słowniczek słownika słownikach słownikami słowniki słownikiem słownikowe słownikowej słowniku słowników
+73	3073	wystarczający	wystarczająca wystarczające wystarczającego wystarczającej wystarczających wystarczającym wystarczającymi wystarczającą
+74	3074	mile	milej najmilej
+75	3075	dziesiątka	dziesiątce dziesiątek dziesiątkach dziesiątkami dziesiątki dziesiątkom dziesiątków dziesiątką dziesiątkę
+76	3076	przechowywać	przechowania przechowanie przechować przechował przechowała przechowuje przechowujemy przechowujesz przechowują przechowując przechowuję przechowywali przechowywana przechowywane przechowywanego przechowywanej przechowywania przechowywanie przechowywano przechowywany przechowywanych przechowywanym przechowywał przechowywała
+77	3077	identyczny	identyczna identyczne identycznego identycznej identyczni identycznie identycznych identycznym identycznymi identyczną
+78	3078	szczegółowy	szczegółowa szczegółowe szczegółowego szczegółowej szczegółowych szczegółowym szczegółowymi szczegółową
+79	3079	laboratorium	laboratoria laboratoriach laboratoriami laboratoriów laboratoryjny laboratoryjnych
+80	3080	zagadnienie	zagadnienia zagadnieniach zagadnieniami zagadnieniem zagadnieniom zagadnieniu zagadnień
+81	3081	grzyb	grzyba grzybach grzybami grzybek grzybem grzybie grzybka grzybkach grzybki grzybków grzybowie grzyby grzybów
+82	3082	słuszny	słuszna słuszne słusznego słusznej słusznych słusznym słuszną
+83	3083	złość	złości złością
+84	3084	gang	gangach gangami gangi gangiem gangu gangów
+85	3085	transakcja	transakcjach transakcjami transakcje transakcji transakcją transakcję
+86	3086	sprzątać	sprząta sprzątaj sprzątają sprzątając sprzątająca sprzątające sprzątającej sprzątających sprzątającą sprzątali sprzątaliśmy sprzątam sprzątamy sprzątania sprzątanie sprzątaniem sprzątaniu sprzątasz sprzątał sprzątała sprzątałam sprzątałaś sprzątnie sprzątnąć sprzątnął
+87	3087	wybudować	wybudowali wybudowaliśmy wybudowana wybudowane wybudowanego wybudowanej wybudowania wybudowanie wybudowaniem wybudowaniu wybudowano wybudowany wybudowanych wybudowanym wybudowaną wybudował wybudowała wybudowało wybuduje wybudujemy wybudują
+88	3088	areszt	areszcie aresztach aresztem aresztu areszty aresztów
+89	3089	potwierdzenie	potwierdzenia potwierdzeniem potwierdzeniu potwierdzeń
+90	3090	uświadomić	uświadamia uświadamiają uświadamiając uświadamiam uświadamiania uświadamianie uświadamiasz uświadamiać uświadom uświadomi uświadomienia uświadomienie uświadomieniu uświadomili uświadomisz uświadomią uświadomię uświadomił uświadomiła uświadomiłam uświadomiłaś uświadomiłem uświadomiłeś uświadomiło uświadomiły
+91	3091	wydrukować	drukowali drukowana drukowane drukowanego drukowanej drukowania drukowanie drukowaniu drukowany drukowanych drukowanym drukowanymi drukowaną drukować drukował drukuj drukuje drukujemy drukujesz drukują drukując drukuję wydrukowali wydrukowana wydrukowane wydrukowania wydrukowanie wydrukowano wydrukowany wydrukowanych wydrukował wydrukowała wydrukowałam wydrukuj wydrukuje wydrukujemy wydrukujesz wydrukują wydrukuję
+92	3092	niewolnik	niewolnic niewolnica niewolnice niewolnicza niewolnicze niewolniczego niewolniczej niewolniczy niewolniczych niewolniczą niewolnicę niewolnika niewolnikami niewolnikiem niewolnikom niewolniku niewolników
+93	3093	kurtka	kurt kurta kurtce kurteczka kurtek kurtkach kurtki kurtką kurtkę
+94	3094	kadra	kadrach kadrami kadrowe kadrowy kadry kadrze kadrą kadrę
+95	3095	dyl	del dyla dyle dylu
+96	3096	kolonia	koloniach koloniami kolonie kolonii kolonijny kolonią kolonię kolońska kolońskiej kolońską
+97	3097	zimny	zimna zimnego zimnej zimniejsza zimniejsze zimnych zimnym zimnymi zimną
+98	3098	atrakcyjny	atrakcyjna atrakcyjne atrakcyjnego atrakcyjnej atrakcyjni atrakcyjnie atrakcyjniejsza atrakcyjniejsze atrakcyjniejszy atrakcyjnych atrakcyjnym atrakcyjnymi atrakcyjną
+99	3099	czołg	czołgach czołgami czołgi czołgiem czołgom czołgu czołgów
+100	3100	biologiczny	biologiczna biologiczne biologicznego biologicznej biologicznemu biologiczni biologicznie biologiczno biologicznych biologicznym biologicznymi biologiczną

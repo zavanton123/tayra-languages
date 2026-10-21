@@ -1,0 +1,100 @@
+1	7501	wyciec	wycieka wyciekają wyciekać wycieknie wyciekł wyciekła wyciekło wyciekły
+2	7502	toaletowy	toaletowa toaletowe toaletowego toaletowych toaletowym
+3	7503	ekspres	ekspresem ekspresie ekspresu ekspresy ekspresów
+4	7504	uchylić	uchyl uchyla uchylane uchylania uchylanie uchylać uchyli uchylił uchyliła uchyliłem uchylona uchylone uchylono uchylony uchylę
+5	7505	zrelaksować	relaksować relaksuje relaksujące relaksujący zrelaksowana zrelaksowany zrelaksuj zrelaksujesz
+6	7506	pokrzywdzony	pokrzywdzeni pokrzywdzona pokrzywdzonego pokrzywdzonej pokrzywdzonych pokrzywdzonym pokrzywdzonymi pokrzywdzoną
+7	7507	zatopić	zatapia zatapiając zatapianie zatopi zatopienia zatopienie zatopili zatopiona zatopione zatopionego zatopionej zatopiono zatopiony zatopionych zatopionym zatopioną zatopił zatopiła
+8	7508	arsenał	arsenale arsenałem arsenału
+9	7509	tajski	tajscy tajska tajskich tajskie tajskiego tajskiej tajskim tajską
+10	7510	wiedźmin	wiedźmina wiedźminem wiedźminie
+11	7511	kruchy	krucha kruche kruchego kruchej kruchych kruchym kruchą
+12	7512	napięty	napięta napięte napiętego napiętej napiętych napiętym napiętą
+13	7513	kopuła	kopule kopuł kopułami kopułką kopuły kopułą kopułę
+14	7514	dopłata	dopłat dopłatach dopłaty dopłatą dopłatę
+15	7515	wrony	wron wrona wronie wronka wroną wronę
+16	7516	apollo	apolla apollina
+17	7517	zastępstwo	zastępstw zastępstwa zastępstwie
+18	7518	deweloper	dewelopera deweloperami deweloperem deweloperom deweloperzy deweloperów
+19	7519	wygnanie	wygnania wygnaniem wygnaniu
+20	7520	kler	klerem klerowi kleru
+21	7521	precedens	precedensem precedensu precedensy precedensów
+22	7522	rubel	rubla ruble rubli
+23	7523	okupant	okupanci okupanta okupantami okupantem okupantom okupantowi okupantów
+24	7524	ceramika	ceramice ceramiki ceramiką ceramikę
+25	7525	kanalizacja	kanalizacji kanalizacją kanalizację
+26	7526	katecheta	katecheci katechetka katechetki katechety katechetów katechetą
+27	7527	syndrom	syndromem syndromu
+28	7528	nawiedzać	nawiedza nawiedzają nawiedzających nawiedzane nawiedzany nawiedzał nawiedzały nawiedzeni nawiedzenia nawiedzenie nawiedził nawiedziła nawiedziło nawiedziły nawiedzona nawiedzone
+29	7529	wdawać	wda wdaje wdając wdali wdawania wdawał wdać wdał wdała wdały
+30	7530	filmować	filmowana filmowane filmowania filmowanie filmowany filmował filmuje filmują sfilmowana sfilmowane sfilmowania sfilmowanie sfilmowany sfilmować sfilmował
+31	7531	wyemigrować	emigrowali emigrować emigrował emigruje emigrują emigrujących wyemigrowali wyemigrował wyemigrowała wyemigrowało
+32	7532	indonezyjski	indonezyjscy indonezyjska indonezyjskich indonezyjskie indonezyjskiego indonezyjskiej indonezyjskim
+33	7533	wszystek	wszech wszem wszystka wszystkiej wszystkiemu wszystkimi wszystką
+34	7534	przywiązanie	przywiązania przywiązaniem przywiązaniu
+35	7535	przemienić	przemieni przemienia przemieniają przemieniając przemieniać przemienieni przemienienia przemienienie przemieniona przemienione przemieniony przemienił przemieniła przemieniły
+36	7536	zademonstrować	demonstrowali demonstrowania demonstrowanie demonstrować demonstrował demonstrowało demonstruje demonstrują demonstrując demonstrujących zademonstrowali zademonstrowania zademonstrowano zademonstrował
+37	7537	deja	dei dej
+38	7538	marynarz	marynarza marynarzami marynarze marynarzem marynarzom marynarzy
+39	7539	buntownik	buntownicy buntowniczka buntowniczką buntownika buntownikami buntownikiem buntownikom buntowniku buntowników
+40	7540	implementacja	implementacje implementacji implementacją implementację
+41	7541	siarka	siarce siarki siarką siarkę
+42	7542	kort	korcie kortach kortami kortem kortu korty kortów
+43	7543	edytor	edytora edytorem edytory edytorze edytorzy edytorów
+44	7544	cyfry	
+45	7545	istniejącego	
+46	7546	niesłusznie	
+47	7547	płynnie	
+48	7548	zmroku	
+49	7549	nierówny	nierówna nierówne nierównego nierównej nierównych nierównym nierówną
+50	7550	nawierzchnia	nawierzchni nawierzchniach nawierzchnie nawierzchnią nawierzchnię
+51	7551	toyota	toyocie toyoty toyotą toyotę
+52	7552	skręt	skręcie skręta skrętem skrętu skręty skrętów
+53	7553	stażysta	stażystka stażysty stażystów stażystą stażystę stażyści
+54	7554	wydźwięk	wydźwięku
+55	7555	czujny	czujna czujne czujni czujnie czujnych czujnym
+56	7556	pielgrzym	pielgrzyma pielgrzymami pielgrzymem pielgrzymom pielgrzymów
+57	7557	bunkier	bunkra bunkrach bunkrem bunkry bunkrze bunkrów
+58	7558	szczeniak	szczeniaczek szczeniaczka szczeniaka szczeniaki szczeniakiem szczeniaku szczeniaków
+59	7559	oliwka	oliwek oliwkami oliwki oliwką oliwkę
+60	7560	wykraczać	wykracza wykraczają wykraczając wykraczające wykraczającej wykraczający wykraczających wykraczającą wykroczył
+61	7561	robinson	robinsona robinsonem robinsonów
+62	7562	pralka	pralce pralek pralkach pralki pralkę
+63	7563	sztorm	sztormem sztormie sztormu sztormy sztormów
+64	7564	obydwoje	obydwojga
+65	7565	wiadomy	wiadoma wiadome wiadomego wiadomej wiadomych wiadomym
+66	7566	dawca	dawcami dawce dawcy dawców dawcą dawcę
+67	7567	słoma	słomek słomie słomka słomkami słomki słomkowy słomką słomkę słomy słomą słomę
+68	7568	projekcja	projekcjach projekcje projekcji projekcją projekcję
+69	7569	przydział	przydziale przydziałem przydziału przydziały przydziałów
+70	7570	funkcjonalny	funkcjonalna funkcjonalne funkcjonalnego funkcjonalnej funkcjonalnie funkcjonalno funkcjonalnych funkcjonalnym funkcjonalną
+71	7571	niezrozumiały	niezrozumiale niezrozumiała niezrozumiałe niezrozumiałego niezrozumiałej niezrozumiałych niezrozumiałym niezrozumiałą
+72	7572	spinać	spinaj spinają spinam spinamy spiąć spięcia spięcie spięta spięte spięty spiętych spięć zepnij
+73	7573	zagrywka	zagrywce zagrywek zagrywki zagrywką zagrywkę
+74	7574	skompromitować	kompromitować kompromituje kompromitujesz kompromitują kompromitujące kompromitującego kompromitującej kompromitujących skompromitowana skompromitowane skompromitowany skompromitował skompromitowała
+75	7575	wołowina	wołowa wołowe wołowego wołowej wołowiny wołowiną wołowinę wołowy wołowych wołowym wołową
+76	7576	alkoholizm	alkoholizmem alkoholizmu
+77	7577	komuch	komucha komuchami komuchem komuchom komuchu komuchy komuchów
+78	7578	suweren	suwerena suwerenem suwerenie suwerenowi
+79	7579	szosa	szos szosie szosowy szosowych szosy szosą szosę
+80	7580	zapanować	zapanowania zapanował zapanowała zapanowało zapanowały zapanuj zapanuje
+81	7581	airbus	airbusa airbusem
+82	7582	koma	kom komie komy
+83	7583	lekkoatletyka	lekkoatletyce lekkoatletyczna lekkoatletyczne lekkoatletycznego lekkoatletycznej lekkoatletyczny lekkoatletycznych lekkoatletycznym lekkoatletyczną lekkoatletyki lekkoatletykę
+84	7584	skrypt	skrypcie skryptem skryptu skrypty skryptów
+85	7585	grubas	grubasa grubasek grubasem grubasie grubaska grubaski grubaskiem grubasku grubasy grubasów
+86	7586	syntetyczny	syntetyczna syntetyczne syntetycznego syntetycznej syntetycznie syntetycznych syntetycznym syntetycznymi syntetyczną
+87	7587	obniżka	obniżce obniżek obniżki obniżką obniżkę
+88	7588	przewlekły	przewlekle przewlekła przewlekłe przewlekłego przewlekłej przewlekłych przewlekłym przewlekłą
+89	7589	bojkot	bojkocie bojkotu bojkotów
+90	7590	przepuścić	przepuszcza przepuszczają przepuszczając przepuszczania przepuszczanie przepuszczać przepuszczenia przepuszczenie przepuszczą przepuści przepuścili przepuścił
+91	7591	niebiosa	niebios niebiosach niebiosom
+92	7592	względny	względna względne względnego względnej względnych względnym względną
+93	7593	wyśmienity	wyśmienita wyśmienite wyśmienitej wyśmienitych wyśmienitym wyśmienitą
+94	7594	metabolizm	metaboliczne metaboliczny metabolizmem metabolizmie metabolizmu
+95	7595	cło	ceł cle cła
+96	7596	najazd	najazdach najazdami najazdem najazdu najazdy najazdów najeździe
+97	7597	dech	tchem tchu
+98	7598	przełęcz	przełęcze przełęczy przełęczą
+99	7599	ankietowany	ankietowani ankietowanych
+100	7600	intelektualista	intelektualistka intelektualisty intelektualistów intelektualistą intelektualiści

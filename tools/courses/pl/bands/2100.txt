@@ -1,0 +1,100 @@
+1	2001	ludowy	ludowa ludowe ludowego ludowej ludowi ludowo ludowych ludowym ludowymi ludową
+2	2002	wieść	wiedli wiedzie wiedziony wiedźmy wieści wieściach wieściami wieścią wiodą wiodąc wiodąca wiodące wiodący wiodących wiodła wiodło wiodły wiódł
+3	2003	wyraz	wyrazach wyrazami wyrazem wyrazie wyrazu wyrazy wyrazów
+4	2004	morderstwo	morderstw morderstwa morderstwach morderstwami morderstwem morderstwie morderstwu
+5	2005	przeciwny	przeciwna przeciwne przeciwnego przeciwnej przeciwni przeciwnych przeciwnym przeciwnymi przeciwną
+6	2006	pojedynczy	pojedyncza pojedyncze pojedynczego pojedynczej pojedynczo pojedynczych pojedynczym pojedynczymi pojedynczą
+7	2007	spokojny	spokojna spokojne spokojnego spokojnej spokojni spokojniejsza spokojniejsze spokojniejszy spokojniejszych spokojniejszym spokojniejszą spokojnych spokojnym spokojnymi spokojną
+8	2008	księżyc	księżyca księżycach księżycami księżyce księżycem księżycowa księżycowe księżycowego księżycowej księżycowi księżycowy księżycowych księżycowym księżycową księżycu księżyców
+9	2009	porażka	porazka porażce porażek porażkach porażkami porażki porażką porażkę
+10	2010	bitwa	bitew bitw bitwach bitwami bitwie bitwy bitwą bitwę
+11	2011	gorący	gorąca gorące gorącego gorącej gorących gorącym gorącymi gorącą gorętsza gorętsze gorętszy najgorętszy
+12	2012	bywać	bywa bywają bywali bywam bywamy bywasz bywał bywała bywałam bywałaś bywałem
+13	2013	koszulka	koszulce koszulek koszulkach koszulkami koszulki koszulką koszulkę
+14	2014	tor	torach torami torem toru tory torze torów tr
+15	2015	prośba	prośbach prośbami prośbie prośbom prośby prośbą prośbę próśb
+16	2016	projektować	projektowali projektowana projektowane projektowanego projektowanej projektowania projektowanie projektowaniem projektowaniu projektowany projektowanych projektowanym projektował projektowała projektuje projektujesz projektują projektując projektuję zaprojektowali zaprojektowaliśmy zaprojektowana zaprojektowane zaprojektowanego zaprojektowanej zaprojektowania zaprojektowanie zaprojektowano zaprojektowany zaprojektowanych zaprojektowanym zaprojektowaną zaprojektować zaprojektował zaprojektowała zaprojektowałam zaprojektowałem zaprojektuj zaprojektuje
+17	2017	królestwo	królestw królestwa królestwach królestwami królestwem królestwie królestwu
+18	2018	kula	kul kulach kulami kulce kule kuleczka kulek kuli kulka kulkach kulkami kulki kulkowe kulką kulkę kulą kulę
+19	2019	wycofać	wycofa wycofają wycofali wycofam wycofamy wycofana wycofane wycofania wycofanie wycofano wycofany wycofanych wycofał wycofała wycofałem wycofało wycofały wycofuje wycofujemy wycofują wycofując wycofujące wycofuję wycofywali wycofywane wycofywania wycofywanie wycofywać wycofywał
+20	2020	jednakże	
+21	2021	bajka	bai baj baja bajce baje bajeczka bajeczki bajek bajkach bajkami bajki bajko bajkom bajką bajkę bajo baju bojka bojki bojko
+22	2022	kręcić	kręcenie kręci kręcicie kręcili kręciliśmy kręcimy kręcisz kręcił kręciła kręciłam kręciłem kręciło kręciły kręcona kręcone kręcono kręcony kręconych kręconymi kręcą kręcąc kręcące kręcących kręcę kręć
+23	2023	ścieżka	ścieżce ścieżek ścieżkach ścieżkami ścieżki ścieżką ścieżkę
+24	2024	docenić	doceni docenia doceniacie doceniaj doceniają doceniając doceniali doceniam doceniamy doceniana doceniane doceniani doceniania doceniany docenianym doceniasz doceniać doceniał doceniałam docenienia docenienie docenili docenimy doceniona docenione doceniono doceniony docenionym docenisz docenią docenię docenił doceniła doceniłam doceniłem doceniło doceniły doceń doceńcie
+25	2025	otoczyć	otacza otaczaj otaczają otaczając otaczająca otaczające otaczającego otaczającej otaczający otaczających otaczającym otaczającymi otaczającą otaczali otaczam otaczamy otaczasz otaczać otaczał otaczała otaczało otaczały otocz otoczeni otoczona otoczone otoczonego otoczonej otoczono otoczony otoczonych otoczonym otoczoną otoczy otoczyli otoczył otoczyła otoczyło otoczyły
+26	2026	anioł	aniela aniele anieli anielska anielski anielskich anielskie anielskiego anielskiej anielskim anielską anioła aniołach aniołami aniołek aniołem aniołka aniołkami aniołki aniołkiem aniołku aniołków aniołom aniołowi aniołowie anioły aniołów
+27	2027	popularność	popularności popularnością
+28	2028	kierownik	kierownica kierownice kierownicy kierownicza kierownicze kierowniczego kierowniczej kierowniczka kierowniczy kierowniczych kierowniczym kierowniczą kierownicą kierownicę kierownika kierownikami kierownikiem kierownikom kierownikowi kierowniku kierowników
+29	2029	daniel	daniela daniele danielem danieli danielowi danielu
+30	2030	duda	dud dudach dudy dudzie dudą dudę
+31	2031	spodnie	spodenek spodenkach spodenki spodni spodnia spodniach spodniami spodniej spodnią
+32	2032	wizerunek	wizerunkami wizerunki wizerunkiem wizerunkowi wizerunku wizerunków
+33	2033	poczekać	poczeka poczekacie poczekaj poczekajcie poczekajmy poczekają poczekali poczekam poczekamy poczekaniu poczekasz poczekał poczekała poczekałam poczekałem
+34	2034	kłamać	kłam kłamali kłamaliście kłamaliśmy kłamania kłamanie kłamał kłamała kłamałam kłamałaś kłamałem kłamałeś kłamały kłamcie kłamie kłamiecie kłamiemy kłamiesz kłamią kłamiąc kłamię skłam skłamać skłamał skłamała skłamałam skłamałaś skłamałem skłamałeś skłamie
+35	2035	odległość	odległości odległościach odległością
+36	2036	porozumienie	porozumienia porozumieniach porozumieniem porozumieniu porozumień
+37	2037	potencjalny	potencjalna potencjalne potencjalnego potencjalnej potencjalnemu potencjalni potencjalnie potencjalnych potencjalnym potencjalnymi potencjalną
+38	2038	pochwalić	chwal chwalcie chwalenia chwalenie chwali chwalicie chwalili chwalimy chwalisz chwalić chwalił chwaliła chwaliłem chwaliło chwalmy chwalona chwalone chwalono chwalony chwalą chwaląc chwalę pochwal pochwalcie pochwali pochwalili pochwalisz pochwalił pochwaliła pochwalony pochwalę
+39	2039	zapowiadać	zapowiada zapowiadają zapowiadając zapowiadająca zapowiadające zapowiadającego zapowiadający zapowiadających zapowiadającym zapowiadającą zapowiadali zapowiadaliśmy zapowiadam zapowiadana zapowiadane zapowiadano zapowiadany zapowiadanych zapowiadał zapowiadała zapowiadałem zapowiadało zapowiadały zapowiedz zapowiedziana zapowiedziane zapowiedzianej zapowiedziano zapowiedziany zapowiedzianych zapowiedzianą zapowiedział zapowiedziała zapowiedziało zapowiedziały zapowiedzieli zapowiedzieć
+40	2040	zamykać	zamyka zamykacie zamykaj zamykajcie zamykajmy zamykają zamykając zamykająca zamykające zamykającego zamykającej zamykający zamykających zamykającym zamykającą zamykali zamykam zamykamy zamykana zamykane zamykania zamykanie zamykaniem zamykaniu zamykano zamykany zamykanych zamykasz zamykał zamykała zamykałam zamykały
+41	2041	sfinansować	finansowali finansowana finansowane finansowanego finansowanej finansowani finansowania finansowanie finansowaniem finansowaniu finansowany finansowanych finansowanym finansowaną finansować finansował finansowała finansowały finansuje finansujemy finansują finansując sfinansowali sfinansowana sfinansowane sfinansowania sfinansowanie sfinansowano sfinansowany sfinansował sfinansowała sfinansuje sfinansują
+42	2042	spalić	spal spala spalają spalając spalam spalamy spalany spalasz spalać spalał spaleni spalenia spalenie spaleniem spaleniu spali spalili spalimy spalisz spalił spaliła spaliłam spaliłaś spaliłbym spaliłem spaliłeś spaliło spaliły spalona spalone spalonego spalonej spalono spalony spalonych spalonym spaloną spalą spalę
+43	2043	ponieść	poniesie poniesiemy poniesienia poniesieniem poniesiesz poniesione poniesionej poniesionych ponieśli ponieśliśmy poniosą poniosę poniosła poniosło poniosły poniósł ponosi ponosili ponosimy ponosisz ponosić ponosił ponosiła ponosiły ponoszenia ponoszenie ponoszone ponoszonych ponoszą ponosząc ponoszę
+44	2044	pokrycie	pokryci pokrycia pokryciem pokryciu pokryje pokryją pokryli pokryta pokryte pokrytego pokrytej pokryto pokryty pokrytych pokrytym pokrytymi pokrytą pokrywają pokrywając pokrywająca pokrywające pokrywającego pokrywającej pokrywający pokrywających pokrywającą pokrywane pokrywania pokrywanie pokrywać pokrywał pokrywała pokrywało pokrywały pokryć pokrył pokryła pokryło pokryły
+45	2045	spośród	
+46	2046	dbać	dbacie dbaj dbajcie dbajmy dbają dbając dbająca dbającego dbający dbających dbającą dbali dbam dbamy dbania dbanie dbaniem dbaniu dbano dbasz dbał dbała dbały
+47	2047	dowolny	dowolna dowolne dowolnego dowolnej dowolnie dowolnych dowolnym dowolnymi dowolną
+48	2048	lola	lol loli lolu lolą lolę
+49	2049	ciepły	cieplejsza cieplejsze cieplejszy cieplejszych cieplejszym cieplejszą cieplutki cieplutko ciepła ciepłe ciepłego ciepłej ciepłych ciepłym ciepłymi ciepłą najcieplejszy
+50	2050	sektor	sektora sektorach sektorami sektorem sektorowe sektory sektorze sektorów
+51	2051	pierdolić	pierdol pierdolcie pierdoleni pierdolenia pierdolenie pierdoleniem pierdoleniu pierdoli pierdolicie pierdolimy pierdolisz pierdolił pierdoliła pierdolona pierdolone pierdolą pierdoląc pierdolę
+52	2052	czwartek	czwartki czwartkiem czwartkowe czwartkowego czwartkowej czwartkowy czwartkowych czwartkowym czwartkową czwartku czwartków
+53	2053	rysunek	rysunkach rysunkami rysunki rysunkiem rysunkowa rysunkowe rysunkowego rysunkowej rysunkowy rysunkowych rysunku rysunków
+54	2054	terytorium	terytoria terytoriach terytoriami terytoriów
+55	2055	komunistyczny	komunistyczna komunistyczne komunistycznego komunistycznej komunistycznemu komunistyczni komunistycznych komunistycznym komunistycznymi komunistyczną
+56	2056	oświadczenie	oświadczenia oświadczeniach oświadczeniami oświadczeniem oświadczeniu oświadczeń
+57	2057	odczuwać	odczucia odczuciach odczuciami odczucie odczuciu odczuje odczujemy odczujesz odczują odczuli odczuwa odczuwają odczuwając odczuwających odczuwali odczuwam odczuwamy odczuwane odczuwanego odczuwania odczuwanie odczuwaniu odczuwany odczuwasz odczuwał odczuwała odczuwałam odczuwałem odczuwało odczuć odczuł odczuła odczułam odczułem odczuły
+58	2058	akademia	akademiach akademie akademii akademią akademię
+59	2059	uprawiać	upraw uprawia uprawiacie uprawiaj uprawiają uprawiając uprawiające uprawiającego uprawiający uprawiających uprawiali uprawialiśmy uprawiam uprawiamy uprawiana uprawiane uprawianego uprawianej uprawiania uprawianie uprawiano uprawiany uprawianych uprawianym uprawianą uprawiasz uprawiał uprawiała uprawiałaś uprawiałem uprawiałeś uprawiało uprawiały
+60	2060	strategia	strategiach strategie strategii strategią strategię
+61	2061	ufać	ufa ufacie ufaj ufajcie ufają ufając ufali ufam ufamy ufasz ufał ufała ufałam zaufa zaufaj zaufajcie zaufajmy zaufają zaufali zaufam zaufać zaufał zaufała zaufałam zaufałem
+62	2062	postscriptum	ps
+63	2063	średni	średnich średnie średniego średniej średnim średnimi średnią
+64	2064	zwycięzca	zwycięzcami zwycięzce zwycięzcom zwycięzcy zwycięzców zwycięzcą zwycięzcę zwyciężczyni zwyciężczynie zwyciężczynią zwyciężczynię
+65	2065	bowiem	
+66	2066	doskonale	
+67	2067	el	
+68	2068	wewnątrz	
+69	2069	rozmiar	rozmiarach rozmiarami rozmiarem rozmiarom rozmiaru rozmiary rozmiarze rozmiarów
+70	2070	wyborca	wyborcach wyborcami wyborce wyborcom wyborcy wyborców wyborcą wyborcę
+71	2071	żydowski	żydowscy żydowska żydowskich żydowskie żydowskiego żydowskiej żydowskiemu żydowskim żydowskimi żydowsko żydowsku żydowską
+72	2072	konkurencja	konkurencjach konkurencje konkurencji konkurencją konkurencję
+73	2073	zwrot	zwrocie zwrotach zwrotami zwrotem zwrotowi zwrotu zwroty zwrotów
+74	2074	aresztować	aresztowali aresztowana aresztowane aresztowani aresztowania aresztowaniach aresztowaniami aresztowanie aresztowaniem aresztowaniu aresztowano aresztował aresztowała aresztowało aresztowały aresztowań aresztuje aresztujecie aresztujesz aresztują aresztując
+75	2075	paczka	pace paczce paczek paczkach paczkami paczki paczką paczkę paczuszka paczuszki paka paki pakę
+76	2076	zepsuć	popsuje popsuli popsute popsuty popsuć popsuł popsuła popsułam popsuło popsuły psucia psucie psuj psuje psujesz psują psuję psuć psuł zepsucia zepsucie zepsuje zepsujesz zepsują zepsuli zepsuta zepsute zepsutego zepsutej zepsuty zepsutych zepsutym zepsutą zepsuł zepsuła zepsułam zepsułaś zepsuło zepsuły
+77	2077	modlitwa	modlitw modlitwach modlitwami modlitwie modlitwom modlitwy modlitwą modlitwę
+78	2078	prokurator	prokuratora prokuratorami prokuratorem prokuratorom prokuratorowi prokuratorze prokuratorzy prokuratorów
+79	2079	węgier	węgierka węgierki węgra węgrami węgrem węgrom węgrowie węgry węgrzy węgrów
+80	2080	podziękować	podziękowali podziękowania podziękowaniami podziękowanie podziękowaniem podziękowaniu podziękował podziękowała podziękowałam podziękowałaś podziękowałem podziękowały podziękowań podziękuj podziękujcie podziękuje podziękujemy podziękujesz podziękujmy podziękują podziękuję
+81	2081	śniadanie	śniadania śniadaniami śniadaniem śniadaniowe śniadaniowego śniadaniowej śniadaniowy śniadaniowych śniadaniowym śniadaniu śniadanka śniadanko śniadań
+82	2082	żółty	żółci żółta żółte żółtego żółtej żółto żółtych żółtym żółtymi żółtą
+83	2083	ranny	ranna ranne rannego rannej rannemu ranni rannych rannym rannymi ranną
+84	2084	zapis	zapisach zapisami zapisem zapisie zapisom zapisu zapisy zapisów
+85	2085	generał	generale generalski generalskie generalską generała generałami generałem generałom generałowi generałowie generałów
+86	2086	tryb	trybach trybami trybem trybie trybik trybiki trybikiem trybu tryby trybów
+87	2087	zestaw	zestawach zestawami zestawem zestawie zestawu zestawy zestawów
+88	2088	skorzystać	skorzysta skorzystacie skorzystaj skorzystajcie skorzystajmy skorzystają skorzystali skorzystaliśmy skorzystam skorzystamy skorzystania skorzystanie skorzystaniu skorzystano skorzystasz skorzystał skorzystała skorzystałam skorzystałem skorzystałeś skorzystało skorzystały
+89	2089	uśmiech	uśmiechami uśmiechem uśmiechu uśmiechy uśmiechów uśmieszek uśmieszki uśmieszkiem uśmieszku uśmieszków
+90	2090	rzeczpospolita	rzeczpospolitej rzeczpospolitą rzeczypospolite rzeczypospolitej rzecząpospolitą
+91	2091	puchar	pucharach pucharami pucharek pucharem pucharowe pucharowej pucharowy pucharowych pucharowym pucharu puchary pucharze pucharów
+92	2092	panna	panien panience panienek panienka panienkami panienki panienko panienką panienkę pannami pannie panno panny panną pannę
+93	2093	skrzydło	skrzydeł skrzydełek skrzydełka skrzydełkami skrzydełkiem skrzydełko skrzydle skrzydła skrzydłach skrzydłami skrzydłem
+94	2094	utworzyć	utworzona utworzone utworzonego utworzonej utworzono utworzony utworzonych utworzonym utworzoną utworzy utworzyli utworzyliśmy utworzymy utworzył utworzyła utworzyło utworzyły utworzą utwórz
+95	2095	aresztowany	aresztowana aresztowanego aresztowani aresztowanych aresztowanym aresztowanymi
+96	2096	realny	realna realne realnego realnej realnie realnych realnym realnymi realną
+97	2097	halo	
+98	2098	wycieczka	wycieczce wycieczek wycieczkach wycieczkami wycieczki wycieczką wycieczkę
+99	2099	fizyka	fizyce fizycy fizyczka fizyk fizykami fizyki fizykiem fizyko fizyków fizyką fizykę
+100	2100	plakat	plakacie plakatach plakatami plakatem plakatu plakaty plakatów

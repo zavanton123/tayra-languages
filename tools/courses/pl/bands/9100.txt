@@ -1,0 +1,100 @@
+1	9001	marszałkowski	marszałkowska marszałkowskiego marszałkowskiej marszałkowskim marszałkowską
+2	9002	przegryw	przegrywa przegrywem przegrywów
+3	9003	wlać	wlanie wlaniu wlał wlałam wlałem wlej wleje wlewa wlewaj wlewają wlewam wlewamy wlewasz wlewać
+4	9004	stwór	stwora stworami stworek stworem stworki stwory stworze stworów
+5	9005	radykał	radykałami radykałem radykałowie radykałów
+6	9006	koszara	koszar koszarach koszary
+7	9007	kleić	klei kleiła klejenie klejone kleją klejąca klejące klejącej klejącą
+8	9008	włócznia	włóczni włóczniami włócznie włócznią włócznię
+9	9009	broszura	broszur broszurach broszury broszurze broszurę
+10	9010	targowy	targowa targowe targowego targowej targowo targowych targowym targową
+11	9011	dogodny	dogodna dogodne dogodnego dogodnej dogodnie dogodnych dogodnym dogodną
+12	9012	rybołówstwo	rybołówstwa rybołówstwem rybołówstwie
+13	9013	sierociniec	sierocińca sierocińcach sierocińce sierocińcu sierocińców
+14	9014	walny	walne walnego walnie walnych walnym walną
+15	9015	odkrywca	odkrywcami odkrywcy odkrywców odkrywcą odkrywcę
+16	9016	kuria	kurii kurią kurię
+17	9017	modem	modemu modemy modemów
+18	9018	dwukrotny	dwakroć dwukrotna dwukrotne dwukrotnego dwukrotnej dwukrotnym dwukrotną
+19	9019	kwadrans	kwadransa kwadranse kwadransie
+20	9020	błyskawiczny	błyskawiczna błyskawiczne błyskawicznego błyskawicznej błyskawicznych błyskawicznym błyskawiczną
+21	9021	nieodpowiedzialny	nieodpowiedzialna nieodpowiedzialne nieodpowiedzialnego nieodpowiedzialni nieodpowiedzialnych nieodpowiedzialnym nieodpowiedzialną
+22	9022	musztarda	musztardowego musztardowy musztardy musztardzie musztardą musztardę
+23	9023	zaułek	zaułka zaułkach zaułki zaułku zaułków
+24	9024	german	germanie germanów
+25	9025	reżyserować	reżyserował reżyseruje wyreżyserowana wyreżyserowane wyreżyserowany wyreżyserować wyreżyserował wyreżyserowała wyreżyseruje
+26	9026	zaległy	zaległa zaległe zaległego zaległej zaległych zaległą
+27	9027	szefostwo	szefostwa szefostwem szefostwu
+28	9028	bicz	bic bicza bicze biczem
+29	9029	juror	jurora jurorami jurorem jurorka jurorom jurorzy jurorów
+30	9030	pasza	pasz pasze paszy paszą paszę
+31	9031	inkwizycja	inkwizycji inkwizycją inkwizycję
+32	9032	zwariowany	zwariowana zwariowane zwariowanego zwariowanej zwariowanych zwariowanym zwariowaną
+33	9033	elektroda	elektrod elektrodami elektrody elektrodzie elektrodą elektrodę
+34	9034	poddasze	poddasza poddaszem poddaszu
+35	9035	rozpoznawczy	rozpoznawcza rozpoznawcze rozpoznawczego rozpoznawczej rozpoznawczych rozpoznawczym rozpoznawczą
+36	9036	thriller	thrillera thrillerem thrillery thrillerze thrillerów
+37	9037	kreda	kredo kredy kredzie kredą kredę
+38	9038	paraliż	paraliżem paraliżu
+39	9039	dosięgnąć	dosięga dosięgnie dosięgnął dosięgła dosięgły
+40	9040	kurort	kurorcie kurortach kurortem kurortu kurorty kurortów
+41	9041	podstęp	podstępem podstępu podstępy podstępów
+42	9042	skrzydłowy	skrzydłowa skrzydłowe skrzydłowego skrzydłowej skrzydłowi skrzydłowych skrzydłowym skrzydłowymi
+43	9043	lodowisko	lodowiska lodowiskiem lodowisku
+44	9044	homofob	homofoba homofobami homofobem homofobi homofoby homofobów
+45	9045	konstruktor	konstruktora konstruktorem konstruktorom konstruktorowi konstruktorzy konstruktorów
+46	9046	przymiotnik	przymiotnika przymiotnikami przymiotniki przymiotnikiem przymiotników
+47	9047	bazar	bazarach bazarek bazarku bazaru bazary bazarze
+48	9048	kapituła	kapitule kapituły kapitułę
+49	9049	najem	najmu
+50	9050	pogodny	pogodna pogodne pogodnego pogodnej pogodnie pogodno pogodnych pogodnym pogodną
+51	9051	zemścić	zemszczą zemszczę zemści zemścił zemściło
+52	9052	medyk	medycy medyka medykiem medyku medyków
+53	9053	bibliotekarz	bibliotekarka bibliotekarki bibliotekarza bibliotekarze bibliotekarzem bibliotekarzy
+54	9054	lilia	liliami lilie lilii lilią lilię
+55	9055	grodzki	grodzka grodzkich grodzkie grodzkiego grodzkiej grodzką
+56	9056	poprzeczka	poprzeczek poprzeczki poprzeczką poprzeczkę
+57	9057	wycisnąć	wyciska wyciskam wyciskania wyciskanie wyciskaniu wyciskać wycisnął wycisnęła wyciśnij wyciśnięty
+58	9058	niespokojny	niespokojna niespokojne niespokojnego niespokojnej niespokojnie niespokojnych niespokojnym niespokojną
+59	9059	ognisty	ognista ogniste ognistego ognistej ognistych ognistym ognistą
+60	9060	świetlica	świetlic świetlice świetlicy świetlicą świetlicę
+61	9061	wygasać	wygasa wygasają wygasnąć wygasł wygasła wygasło wygaśnie wygaśnięcia wygaśnięcie
+62	9062	judo	
+63	9063	lotto	
+64	9064	mate	
+65	9065	nom	
+66	9066	spontanicznie	
+67	9067	taco	
+68	9068	tsunami	
+69	9069	bulwar	bulwarach bulwarami bulwarem bulwaru bulwary bulwarze bulwarów
+70	9070	bór	borach borem borowa borowe borowego borowej borowy borowych boru bory borze borów
+71	9071	aktywa	aktywach aktywami aktywów
+72	9072	eksponować	eksponowana eksponowane eksponowania eksponowanie eksponowany eksponowanych eksponuje eksponując wyeksponowana wyeksponowane wyeksponowanie wyeksponowany wyeksponować
+73	9073	kolec	kolca kolcach kolcami kolce kolcem kolców
+74	9074	eks	była
+75	9075	elka	elek elki
+76	9076	fasa	fas faso
+77	9077	konsorcjum	konsorcjów
+78	9078	opel	opla oplem
+79	9079	piekielny	piekielna piekielne piekielnego piekielnej piekielnych piekielnym piekielną
+80	9080	fanatyzm	fanatyzmem fanatyzmu
+81	9081	rzeźbiarz	rzeźbiarza rzeźbiarze rzeźbiarzem rzeźbiarzy
+82	9082	skaner	skanera skanerem skanery skanerów
+83	9083	archidiecezja	archidiecezji archidiecezję
+84	9084	jakiż	jakaż jakież jakąż
+85	9085	gąbka	gąbeczkę gąbek gąbki gąbką gąbkę
+86	9086	fetysz	fetysze fetyszem fetyszu
+87	9087	przeciwność	przeciwności przeciwnościami przeciwnościom przeciwnością
+88	9088	piernik	pierniczki piernika pierniki pierników
+89	9089	nawrócenie	nawrócenia nawróceniu nawróceń
+90	9090	dzicz	dziczy dziczą
+91	9091	uwarunkowanie	uwarunkowania uwarunkowaniach uwarunkowaniami uwarunkowań
+92	9092	przemierzać	przemierza przemierzają przemierzając przemierzający przemierzali przemierzamy przemierzał przemierzała przemierzyć przemierzył
+93	9093	piętrowy	piętrowa piętrowe piętrowego piętrowej piętrowych piętrowym
+94	9094	metrum	metra metrach metrami metrów
+95	9095	kłódka	kłódek kłódki kłódką kłódkę
+96	9096	odchylenie	odchylenia odchyleniami odchyleniem odchyleniu odchyleń
+97	9097	sandał	sandałach sandałami sandałki sandały sandałów
+98	9098	klapek	klapka klapkach klapkami klapki klapką klapkę
+99	9099	folklor	folklorem folkloru folklorze
+100	9100	komandos	komandosa komandosami komandosem komandosi komandosów

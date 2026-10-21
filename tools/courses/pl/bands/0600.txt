@@ -1,0 +1,100 @@
+1	501	międzynarodowy	międzynarodowa międzynarodowe międzynarodowego międzynarodowej międzynarodowemu międzynarodowi międzynarodowo międzynarodowych międzynarodowym międzynarodowymi międzynarodową
+2	502	drogi	drodzy drogich drogie drogiego drogiej drogim drogimi drogo drogą drożej droższa droższe droższej droższy droższych droższym droższą dróg najdrożej najdroższe najdroższy
+3	503	wieś	wiejscy wiejska wiejski wiejskich wiejskie wiejskiego wiejskiej wiejskim wiejskimi wiejską wiocha wiochy wiochę wiosce wiosek wioska wioskach wioskami wioski wioską wioskę wsi wsiach wsiami wsie wsią
+4	504	użyć	użycia użyciach użycie użyciem użyciu użyj użyjcie użyje użyjecie użyjemy użyjesz użyjmy użyją użyję użyli użyliśmy użyta użyte użytego użytej użyto użyty użytych użytym użytą użył użyła użyłabym użyłam użyłaś użyłby użyłbym użyłem użyłeś użyło użyły
+5	505	wrzesień	wrz wrześni września wrześniem wrześniowa wrześniowe wrześniowego wrześniowej wrześniowy wrześniowych wrześniowym wrześniową wrześniu
+6	506	sieć	siatce siateczka siateczki siatek siatka siatkami siatki siatką siatkę siaty sieci sieciach sieciami sieciowa sieciowe sieciowego sieciowej sieciowy sieciowych sieciowym sieciowymi sieciową siecią
+7	507	bać	bali baliśmy banie bano bał bała bałabym bałam bałaś bałbym bałem bałeś bało bały boi boicie boimy boisz bojach boje bojem boju bojów boją bojąc bojący bojących boję bój bójcie bójmy
+8	508	rama	ram ramach ramami ramce ramek ramie ramka ramkach ramki ramką ramkę ramy ramą ramę
+9	509	sklep	sklepach sklepami sklepem sklepie sklepik sklepiku sklepom sklepowa sklepowe sklepowego sklepowej sklepowi sklepowy sklepowych sklepowym sklepową sklepu sklepy sklepów
+10	510	dodać	doda dodacie dodadzą dodaj dodajcie dodajmy dodali dodaliśmy dodam dodamy dodana dodane dodanego dodanej dodania dodanie dodaniem dodaniu dodano dodany dodanych dodanym dodanymi dodaną dodasz dodał dodała dodałabym dodałam dodałaś dodałbym dodałem dodałeś dodało dodały
+11	511	wpływ	wpływach wpływami wpływem wpływie wpływom wpływowi wpływu wpływy wpływów
+12	512	zamiast	
+13	513	konto	koncie kont konta kontach kontami kontem
+14	514	spotkać	spotka spotkacie spotkaj spotkajmy spotkają spotkali spotkaliście spotkaliśmy spotkam spotkamy spotkane spotkany spotkanych spotkasz spotkał spotkała spotkałam spotkałaś spotkałem spotkałeś spotkało spotkały spotkałyśmy
+15	515	środowisko	środowisk środowiska środowiskach środowiskami środowiskiem środowiskom środowiskowa środowiskowe środowiskowego środowiskowej środowiskowo środowiskowy środowiskowych środowiskowym środowiskowymi środowiskową środowisku
+16	516	potrzeba	potrzeb potrzebach potrzebami potrzebie potrzebom potrzeby potrzebą potrzebę
+17	517	znowu	znow
+18	518	premier	premiera premierach premierami premierem premierowa premierowe premierowego premierowej premierowi premierowo premierowy premierowych premierowym premierową premiery premierze premierzy premierów premierą premierę
+19	519	trzeci	trzecia trzecich trzecie trzeciego trzeciej trzeciemu trzecim trzecimi trzecią
+20	520	zabić	zabici zabicia zabicie zabiciem zabiciu zabij zabijcie zabije zabijecie zabijemy zabijesz zabijmy zabiją zabiję zabili zabiliście zabita zabite zabitej zabito zabity zabitych zabił zabiła zabiłabym zabiłam zabiłaś zabiłby zabiłbym zabiłem zabiłeś zabiło zabiły
+21	521	wspólny	wspólna wspólne wspólnego wspólnej wspólnemu wspólni wspólnych wspólnym wspólnymi wspólną
+22	522	stopień	stopni stopnia stopniach stopniami stopnie stopniem stopniowi stopniu
+23	523	prosty	najprostszy prosta proste prostego prostej prostemu prostsza prostsze prostszego prostszej prostszy prostszych prostszym prostszą prostych prostym prostymi prostą prości
+24	524	podać	poda podacie podadzą podaj podajcie podajmy podali podaliśmy podam podamy podana podane podanego podanej podania podaniach podaniami podanie podaniem podaniu podano podany podanych podanym podanymi podaną podasz podał podała podałam podałaś podałem podałeś podało podały podań
+25	525	pochodzić	chadza chadzam pochodzi pochodzili pochodzimy pochodzisz pochodził pochodziła pochodziło pochodziły pochodzą pochodząc pochodząca pochodzące pochodzącego pochodzącej pochodzący pochodzących pochodzącym pochodzącymi pochodzącą pochodzę
+26	526	stanowisko	stanowisk stanowiska stanowiskach stanowiskami stanowiskiem stanowisku
+27	527	warunek	warunkach warunkami warunki warunkiem warunkom warunkowa warunkowe warunkowego warunkowej warunkowo warunkowy warunkowych warunkowym warunkową warunku warunków
+28	528	słuchać	słucha słuchacie słuchaj słuchajcie słuchajmy słuchają słuchając słuchający słuchających słuchającym słuchali słuchaliście słuchaliśmy słucham słuchamy słuchana słuchane słuchania słuchanie słuchaniem słuchaniu słuchasz słuchał słuchała słuchałam słuchałaś słuchałem słuchałeś słuchało słuchały
+29	529	rozmowa	rozmowach rozmowami rozmowie rozmowom rozmowy rozmową rozmowę rozmów
+30	530	niemiecki	niemieccy niemiecka niemieckich niemieckie niemieckiego niemieckiej niemieckiemu niemieckim niemieckimi niemiecko niemiecku niemiecką
+31	531	sprawdzić	sprawdzeni sprawdzenia sprawdzenie sprawdzeniem sprawdzeniu sprawdzi sprawdzicie sprawdzili sprawdziliście sprawdziliśmy sprawdzimy sprawdzisz sprawdził sprawdziła sprawdziłam sprawdziłaś sprawdziłby sprawdziłbym sprawdziłem sprawdziłeś sprawdziło sprawdziły sprawdzona sprawdzone sprawdzonego sprawdzono sprawdzony sprawdzonych sprawdzonym sprawdzoną sprawdzą sprawdzę sprawdź sprawdźcie sprawdźmy
+32	532	suma	sum sumach sumami sumie sumka sumkę sumo sumy sumów sumą sumę
+33	533	nagroda	nagrodach nagrodami nagrody nagrodzie nagrodą nagrodę nagród
+34	534	niski	najniżej najniższy niscy niska niskich niskie niskiego niskiej niskim niskimi nisko nisku niską niżański niżej niżsi niższa niższe niższej niższy niższych niższym niższymi niższą
+35	535	szczęście	szczęścia szczęściem szczęściu
+36	536	lista	listach listami listom listy listą listę liście
+37	537	społeczeństwo	społeczeństw społeczeństwa społeczeństwach społeczeństwami społeczeństwem społeczeństwie społeczeństwu
+38	538	przeciwko	
+39	539	przynajmniej	
+40	540	czerwony	czerwona czerwone czerwonego czerwonej czerwonemu czerwoni czerwono czerwonych czerwonym czerwonymi czerwoną
+41	541	obywatel	obywatela obywatelach obywatelami obywatele obywatelem obywateli obywatelka obywatelom obywatelowi obywatelska obywatelski obywatelskich obywatelskie obywatelskiego obywatelskiej obywatelskim obywatelskimi obywatelską obywatelu
+42	542	styl	stylach stylami style stylem stylowi stylu stylów
+43	543	list	listach listami listek listem listka listkach listkami listki listków listom listowi listu listy listów liście liścik liściki liściku
+44	544	otrzymać	otrzyma otrzymacie otrzymaj otrzymają otrzymali otrzymalibyśmy otrzymaliście otrzymaliśmy otrzymam otrzymamy otrzymana otrzymane otrzymanego otrzymanej otrzymania otrzymanie otrzymaniem otrzymaniu otrzymano otrzymany otrzymanych otrzymanym otrzymanymi otrzymaną otrzymasz otrzymawszy otrzymał otrzymała otrzymałam otrzymałaś otrzymałby otrzymałem otrzymałeś otrzymało otrzymały
+45	545	głupi	gupi głupia głupich głupie głupiego głupiej głupiemu głupim głupimi głupio głupiutka głupią głupsi głupsza głupsze głupszy głupszych głupszym głupszą najgłupszy
+46	546	służba	służb służbach służbami służbie służbom służbowa służbowe służbowego służbowej służbowo służbowy służbowych służbowym służbowymi służbową służby służbą służbę służebną
+47	547	uznać	uzna uznacie uznaj uznajcie uznajmy uznają uznali uznaliśmy uznam uznamy uznana uznane uznanego uznanej uznani uznania uznanie uznaniem uznaniu uznano uznany uznanych uznanym uznanymi uznaną uznasz uznał uznała uznałaby uznałam uznałby uznałbym uznałem uznałeś uznało uznały
+48	548	wartość	wartości wartościach wartościami wartościom wartością
+49	549	zamknąć	zamknie zamkniecie zamkniemy zamkniesz zamknij zamknijcie zamknijmy zamknięci zamknięcia zamknięcie zamknięciem zamknięciu zamknięta zamknięte zamkniętego zamkniętej zamknięto zamknięty zamkniętych zamkniętym zamkniętymi zamkniętą zamknięć zamkną zamknął zamknąłbym zamknąłem zamknąłeś zamknę zamknęli zamknęliśmy zamknęła zamknęłam zamknęło zamknęły
+50	550	reszta	reszcie reszt resztek resztka resztkach resztkami resztki resztką resztkę reszty resztą resztę
+51	551	zarówno	
+52	552	kwestia	kwestiach kwestiami kwestie kwestii kwestiom kwestią kwestię
+53	553	przygotować	przygotowali przygotowaliśmy przygotowana przygotowane przygotowanego przygotowanej przygotowani przygotowania przygotowaniach przygotowaniami przygotowanie przygotowaniem przygotowaniom przygotowaniu przygotowano przygotowany przygotowanych przygotowanym przygotowanymi przygotowaną przygotował przygotowała przygotowałam przygotowałem przygotowałeś przygotowało przygotowały przygotowań przygotuj przygotujcie przygotuje przygotujecie przygotujemy przygotujesz przygotujmy przygotują przygotuję
+54	554	znaczenie	znaczenia znaczeniach znaczeniami znaczeniem znaczeniowo znaczeniu znaczeń
+55	555	karta	karcie kart kartach kartami kartce karteczka kartek kartka kartkach kartkami kartki kartką kartkę kartom karty kartą kartę
+56	556	produkcja	produkcjach produkcjami produkcje produkcji produkcją produkcję produkcyjna produkcyjne produkcyjnego produkcyjnej produkcyjno produkcyjny produkcyjnych produkcyjnym produkcyjnymi produkcyjną
+57	557	więzienie	więzienia więzieniach więzieniami więzieniem więzieniu więzienna więzienne więziennego więziennej więzienni więzienny więziennych więziennym więzienną więzień więźnia więźniach więźniami więźniarek więźniarka więźniarki więźniarką więźniem więźniom więźniowi więźniowie więźniu więźniów
+58	558	ilość	ilości ilościach ilościami ilością
+59	559	październik	pazia paź października październikiem październikowa październikowe październikowego październikowej październikowy październikowych październikowym październikową październiku
+60	560	głównie	
+61	561	lecz	
+62	562	poprzez	
+63	563	wobec	
+64	564	post	posta postach postami postem postu posty postów poście
+65	565	wolność	wolności wolnością
+66	566	zadanie	zadania zadaniach zadaniami zadaniem zadaniom zadaniowa zadaniowe zadaniowej zadaniową zadaniu zadań
+67	567	zapomnieć	zapomni zapomniana zapomniane zapomnianego zapomnianej zapomniani zapomniano zapomniany zapomnianych zapomnianym zapomnianą zapomniał zapomniała zapomniałabym zapomniałam zapomniałaś zapomniałbym zapomniałem zapomniałeś zapomniało zapomniały zapomnicie zapomnieli zapomnieliście zapomnieliśmy zapomnienia zapomnienie zapomnieniem zapomnieniu zapomnij zapomnijcie zapomnijmy zapomnimy zapomnisz zapomną zapomnę
+68	568	jasny	jasna jasne jasnego jasnej jasnych jasnym jasnymi jasną jaśniejsza jaśniejsze jaśniejszej jaśniejszy jaśniejszych jaśniejszym jaśniejszymi jaśniejszą najjaśniejsze najjaśniejszego najjaśniejszy najjaśniejszych najjaśniejszym
+69	569	ciąg	ciągach ciągami ciągi ciągiem ciągu ciągów
+70	570	błąd	błędach błędami błędem błędom błędu błędy błędzie błędów
+71	571	wymagać	wymaga wymagaj wymagają wymagając wymagająca wymagające wymagającego wymagającej wymagający wymagających wymagającym wymagającymi wymagającą wymagali wymagam wymagamy wymagana wymagane wymaganego wymaganej wymagania wymaganiach wymaganiami wymaganie wymaganiem wymaganiom wymagano wymagany wymaganych wymaganym wymaganą wymagasz wymagał wymagała wymagałaby wymagało wymagałoby wymagały wymagań
+72	572	styczeń	sty stycznia styczniem styczniowe styczniowego styczniowej styczniowy styczniowych styczniowym styczniu
+73	573	czerwiec	cze czerwca czerwcem czerwcowe czerwcowego czerwcowej czerwcowy czerwcowych czerwcowym czerwcu
+74	574	utrzymać	utrzyma utrzymają utrzymali utrzymamy utrzymana utrzymane utrzymania utrzymanie utrzymaniem utrzymaniu utrzymany utrzymanych utrzymasz utrzymał utrzymała utrzymały utrzymuj utrzymuje utrzymujemy utrzymujesz utrzymują utrzymując utrzymujące utrzymujący utrzymujących utrzymującym utrzymuję utrzymywali utrzymywana utrzymywane utrzymywania utrzymywanie utrzymywaniu utrzymywany utrzymywać utrzymywał utrzymywała utrzymywało utrzymywały
+75	575	działalność	działalności działalnością
+76	576	linia	liniach liniami linie linii linijce linijek linijka linijkach linijkami linijki linijką linijkę liniom liniowa liniowe liniowego liniowej liniowi liniowo liniowy liniowych liniowym liniowymi liniową linią linię
+77	577	środek	środka środkach środkami środkiem środkom środkowi środku środków
+78	578	wiedza	wiedze wiedzy wiedzą wiedzę
+79	579	kierunek	kierunkach kierunkami kierunki kierunkiem kierunkowa kierunkowe kierunkowego kierunkowej kierunkowy kierunkowych kierunkowym kierunkową kierunku kierunków
+80	580	połowa	połowach połowie połowu połowy połowów połową połowę połów połówka połówki
+81	581	dowiedzieć	dowie dowiecie dowiedz dowiedzcie dowiedzenie dowiedziano dowiedziawszy dowiedział dowiedziała dowiedziałam dowiedziałaś dowiedziałby dowiedziałbym dowiedziałem dowiedziałeś dowiedziało dowiedziały dowiedzieli dowiedzieliśmy dowiedzmy dowiedzą dowiem dowiemy dowiesz
+82	582	rozwiązanie	rozwiązania rozwiązaniach rozwiązaniami rozwiązaniem rozwiązaniom rozwiązaniu rozwiązań
+83	583	wypadek	wypadkach wypadkami wypadki wypadkiem wypadkom wypadkowe wypadkowi wypadkową wypadku wypadków
+84	584	zjednoczyć	jednoczenia jednoczenie jednoczy jednoczyć jednoczył jednoczą jednocząc jednoczącą zjednoczeni zjednoczmy zjednoczona zjednoczone zjednoczonego zjednoczonej zjednoczony zjednoczonych zjednoczonym zjednoczonymi zjednoczoną zjednoczy zjednoczyli zjednoczymy zjednoczył zjednoczyła zjednoczyło zjednoczyły zjednoczą
+85	585	przestać	przestali przestaliśmy przestana przestane przestanie przestaniecie przestaniemy przestaniesz przestano przestaną przestanę przestał przestała przestałabym przestałam przestałaś przestałby przestałem przestałeś przestało przestałoby przestały przestań przestańcie przestańmy przestoje przestojów przestój
+86	586	szczególnie	
+87	587	warto	
+88	588	okazać	okazale okazali okazaliśmy okazane okazania okazanie okazaniem okazaniu okazaną okazał okazała okazałaby okazałby okazałe okazałego okazałej okazałem okazało okazałoby okazały okazałych okazałym okazałymi okazałą okaż okaże okażemy okażą okażę
+89	589	uniwersytet	uniwersytecie uniwersytecka uniwersytecki uniwersyteckich uniwersyteckie uniwersyteckiego uniwersyteckiej uniwersyteckim uniwersytecką uniwersytetach uniwersytetami uniwersytetem uniwersytetowi uniwersytetu uniwersytety uniwersytetów
+90	590	jutro	jutra jutrem jutrze
+91	591	specjalny	specjalna specjalne specjalnego specjalnej specjalnemu specjalni specjalnych specjalnym specjalnymi specjalną
+92	592	choroba	chorobach chorobami chorobie chorobom chorobowa chorobowego chorobowej chorobowo chorobowy chorobowych chorobowym chorobową choroby chorobą chorobę chorób choróbsko
+93	593	dziwny	dziwna dziwne dziwnego dziwnej dziwni dziwniejsza dziwniejsze dziwniejszy dziwniejszych dziwnych dziwnym dziwnymi dziwną najdziwniejszy
+94	594	racja	racjami racje racji racją rację
+95	595	klub	klubach klubami klubem klubie klubik klubiku klubom klubowa klubowe klubowego klubowej klubowi klubowy klubowych klubowym klubowymi klubową klubu kluby klubów
+96	596	nosić	niesie niesienia niesienie niesione nieśli nieść niosą niosąc niosące niosący niosących niosła niósł nosi nosili nosimy nosisz nosił nosiła nosiłam nosiłaś nosiłem nosiło nosiły noszenia noszenie noszeniu noszona noszone noszony noszą nosząc nosząca noszące noszącego noszący noszących noszę noś
+97	597	użytkownik	użytkownicy użytkowniczka użytkowniczki użytkownika użytkownikach użytkownikami użytkownikiem użytkownikom użytkownikowi użytkowniku użytkowników
+98	598	żona	żon żonach żonami żonie żonka żonki żono żonom żony żoną żonę
+99	599	piosenka	piosence piosenek piosenkach piosenkami piosenki piosenkom piosenką piosenkę
+100	600	zabrać	zabiera zabieraj zabierajcie zabierają zabierając zabierali zabieram zabieramy zabierane zabierania zabieranie zabierasz zabierać zabierał zabierała zabierz zabierzcie zabierze zabierzemy zabierzesz zabierzmy zabiorą zabiorę zabrali zabraliśmy zabrana zabrane zabranie zabraniu zabrano zabrany zabranych zabrał zabrała zabrałam zabrałem zabrałeś zabrało zabrały

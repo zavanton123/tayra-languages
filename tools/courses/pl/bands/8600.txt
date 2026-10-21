@@ -1,0 +1,100 @@
+1	8501	niezdolny	niezdolna niezdolne niezdolnego niezdolni niezdolnych niezdolnym niezdolną
+2	8502	odwdzięczyć	odwdzięcza odwdzięczam odwdzięczy odwdzięczymy odwdzięczył odwdzięczę
+3	8503	bankomat	bankomacie bankomatach bankomatu bankomaty bankomatów
+4	8504	szalik	szalika szaliki szalikiem szaliku szalików
+5	8505	baseball	baseballa baseballu bejsbol bejsbolem
+6	8506	wepchnąć	wepchnie wepchnięcie wepchnął wepchnęli wepchnęła wpycha wpychają wpychając wpycham wpychanie wpychać wpychał
+7	8507	utwierdzić	utwierdza utwierdzają utwierdzam utwierdzać utwierdzi utwierdził utwierdziła utwierdziło utwierdziły
+8	8508	ciągłość	ciągłości ciągłością
+9	8509	kontrwywiad	kontrwywiadu kontrwywiadzie
+10	8510	majonez	majonezem majonezie majonezu
+11	8511	zaciąć	zacina zacinają zacinam zacinać zacinał zaciął zaciąłem zacięta zacięte zacięła zacięłam zacięło zatnie
+12	8512	nieprzewidywalny	nieprzewidywalna nieprzewidywalne nieprzewidywalnego nieprzewidywalni nieprzewidywalnych nieprzewidywalnym nieprzewidywalną
+13	8513	wileński	wileńska wileńskich wileńskie wileńskiego wileńskiej wileńskim wileńską
+14	8514	strych	strychach strychem strychu
+15	8515	karczma	karczm karczmach karczmie karczmy karczmą karczmę
+16	8516	spuścizna	spuścizny spuścizną spuściznę spuściźnie
+17	8517	uciekinier	uciekiniera uciekinierami uciekinierem uciekinierzy uciekinierów
+18	8518	rosół	rosole rosołek rosołem rosołu
+19	8519	audyt	audycie audytem audytu audyty audytów
+20	8520	katowicki	katowicka katowickich katowickie katowickiego katowickiej katowickim katowicką
+21	8521	patrycjusz	patrycja
+22	8522	potop	potopem potopie potopu
+23	8523	traktor	traktora traktorach traktorem traktory traktorze traktorów
+24	8524	tik	tiki
+25	8525	meteoryt	meteorycie meteorytach meteorytem meteorytu meteoryty meteorytów
+26	8526	konserwator	konserwatora konserwatorem konserwatorzy konserwatorów
+27	8527	schizofrenia	schizofrenie schizofrenii schizofrenią schizofrenię
+28	8528	pryszcz	pryszcza pryszczami pryszcze pryszczy
+29	8529	buzia	buzie buzią buzię
+30	8530	boleśnie	
+31	8531	bu	
+32	8532	nadmiernie	
+33	8533	portfolio	
+34	8534	próżno	
+35	8535	trzeźwo	
+36	8536	wizualnie	
+37	8537	radiowóz	radiowozem radiowozie radiowozu radiowozy radiowozów
+38	8538	nowatorski	nowatorska nowatorskich nowatorskie nowatorskiego nowatorskiej nowatorskim nowatorską
+39	8539	ziele	ziela zielem zielu zioła ziołach ziołami ziół
+40	8540	mus	musem musie musu musy
+41	8541	niedozwolony	niedozwolone niedozwolonego niedozwolonej niedozwolonych niedozwolonym
+42	8542	spadochron	spadochronach spadochronem spadochronie spadochronu spadochrony spadochronów
+43	8543	niezawodny	niezawodna niezawodne niezawodnego niezawodnej niezawodnie niezawodnych niezawodnym niezawodną
+44	8544	niemoralny	niemoralna niemoralne niemoralnego niemoralnych niemoralnym niemoralną
+45	8545	oszczędnościowy	oszczędnościowa oszczędnościowe oszczędnościowego oszczędnościowej oszczędnościowo oszczędnościowych oszczędnościowym
+46	8546	prostokątny	prostokątna prostokątne prostokątnego prostokątnej prostokątnych prostokątnym prostokątną
+47	8547	wodór	wodorem wodoru
+48	8548	pisowiec	pisowca pisowcami pisowcom pisowcy pisowców
+49	8549	nadgodzina	nadgodzin nadgodzinach nadgodziny
+50	8550	przytyć	przytyje przytyjesz przytyję przytył przytyła przytyłam przytyłaś przytyłem przytyło tycie tyje tyjesz tyją tyję tyć tyłem tyły
+51	8551	popisać	popisali popisał popisała popisuj popisuje popisują popisywać popisywał
+52	8552	graniczyć	graniczy graniczyło graniczą granicząca graniczące graniczącej graniczący graniczących graniczącym
+53	8553	ballada	ballad ballady balladą balladę
+54	8554	wdech	wdechu wdechy wdechów
+55	8555	matrix	matriksie matrixa matrixie
+56	8556	geologiczny	geologiczna geologiczne geologicznego geologicznej geologiczno geologicznych geologicznym geologiczną
+57	8557	dolegać	dolce dolców dolega
+58	8558	któż	kimże
+59	8559	pin	pinem pinu piny pinów
+60	8560	chusta	chust chustka chustki chustkę chusty chustą chustę chuście
+61	8561	nabywca	nabywcami nabywcom nabywcy nabywców nabywcą nabywcę
+62	8562	skrawek	skrawka skrawki skrawkiem skrawku skrawków
+63	8563	urojenie	urojenia urojeniach urojeniami urojeniem urojeń
+64	8564	anatomia	anatomii anatomią anatomię
+65	8565	namiętność	namiętności namiętnościami namiętnością
+66	8566	astma	astmie astmy astmą astmę
+67	8567	wyluzować	wyluzowana wyluzowane wyluzowanego wyluzowani wyluzowany wyluzowanym wyluzuj wyluzujcie
+68	8568	obojętność	obojętności obojętnością
+69	8569	globalizacja	globalizacji globalizacją globalizację
+70	8570	wymordować	wymordowali wymordowana wymordowani wymordowania wymordowanie wymordowaniu wymordowano wymordowanych wymordował wymordowały
+71	8571	zeskanować	skanowania skanowanie skanowaniem skanowaniu skanować skanuje skanuję zeskanowane zeskanuj
+72	8572	siodło	siodeł siodełka siodełkiem siodełko siodle siodła siodłem
+73	8573	wywód	wywodu wywody wywodzie wywodów
+74	8574	krzaki	krzakach krzakami krzaków
+75	8575	napełnić	napełni napełnia napełniają napełniania napełnianie napełniać napełnienia napełnienie napełnieniu napełnij napełniona napełnione napełniony napełnią napełnił napełniła
+76	8576	zbrojeniowy	zbrojeniowa zbrojeniowe zbrojeniowego zbrojeniowej zbrojeniowych zbrojeniowym
+77	8577	eksponat	eksponatami eksponatem eksponatu eksponaty eksponatów
+78	8578	pomysłowy	pomysłowa pomysłowe pomysłowego pomysłowi pomysłowo pomysłowych pomysłowym
+79	8579	wyrzec	wyrzeczenia wyrzeczenie wyrzeczeń wyrzeka wyrzekając wyrzekli wyrzeknie wyrzekł wyrzekła
+80	8580	wyżyna	wyżyn wyżynach wyżynie wyżyny wyżynę
+81	8581	nieładny	nieładna nieładne nieładnie
+82	8582	drżeć	drżał drżała drżały drży drżyj drżyjcie drżą drżąc drżąca drżące drżący drżę zadrżała
+83	8583	zrzeszenie	zrzeszenia zrzeszeniem zrzeszeniu zrzeszeń
+84	8584	wyczerpać	wyczerpana wyczerpane wyczerpani wyczerpał wyczerpała wyczerpałam wyczerpałem wyczerpało wyczerpały wyczerpie wyczerpią wyczerpuje wyczerpują wyczerpująca wyczerpujące
+85	8585	sabotaż	sabotażem sabotażu
+86	8586	niewyobrażalny	niewyobrażalna niewyobrażalne niewyobrażalnego niewyobrażalnej niewyobrażalnych niewyobrażalnym niewyobrażalną
+87	8587	promotor	promotora promotorem promotorzy promotorów
+88	8588	odlot	odlotem odlotu odloty odlotów
+89	8589	idiotyzm	idiotyzmem idiotyzmu idiotyzmy idiotyzmów
+90	8590	mesjasz	mesjasza mesjaszem mesjaszu
+91	8591	rozmieścić	rozmieszcza rozmieszczania rozmieszczanie rozmieszczona rozmieszczone rozmieszczono rozmieszczony rozmieszczonych rozmieszczonymi rozmieścili
+92	8592	artefakt	artefaktami artefaktem artefaktu artefakty artefaktów
+93	8593	podstawić	podstaw podstawi podstawia podstawiając podstawiać podstawienia podstawienie podstawili podstawiona podstawione podstawionego podstawiony podstawionych podstawionym podstawią podstawił
+94	8594	korepetycja	korepetycjach korepetycje korepetycji
+95	8595	zderzak	zderzaka zderzakami zderzaki zderzakiem zderzaku zderzaków
+96	8596	kuna	kun kuni kuno kuny kunów
+97	8597	wesz	wsa wszy
+98	8598	rurociąg	rurociągach rurociągami rurociągi rurociągiem rurociągu rurociągów
+99	8599	oświetlić	oświetla oświetlają oświetlające oświetlać oświetli oświetlona oświetlone oświetlonej oświetlony oświetlonych oświetlonym oświetloną
+100	8600	chrzcić	chrzcił chrzczony ochrzcić ochrzczeni ochrzczona ochrzczone ochrzczono ochrzczony ochrzczonych ochrzczonym

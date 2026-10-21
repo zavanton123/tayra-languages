@@ -1,0 +1,100 @@
+1	8801	wypożyczalnia	wypożyczalni wypożyczalnie wypożyczalnią wypożyczalnię
+2	8802	uprowadzić	uprowadzeni uprowadzili uprowadził uprowadziła uprowadzona uprowadzone uprowadzono uprowadzony uprowadzonych
+3	8803	słupski	słupska słupskich słupskie słupskiego słupskiej słupskim
+4	8804	konwersja	konwersje konwersji konwersją konwersję
+5	8805	popołudniowy	popołudniowa popołudniowe popołudniowego popołudniowej popołudniowych popołudniowym popołudniową
+6	8806	kran	kranie kranik kranu krany
+7	8807	chrom	chromem chromie chromu
+8	8808	indyk	indyka indyki indykiem indyków
+9	8809	farmaceuta	farmaceuci farmaceutka farmaceuty farmaceutów farmaceutą farmaceutę
+10	8810	rozprowadzić	rozprowadza rozprowadzają rozprowadzana rozprowadzane rozprowadzania rozprowadzanie rozprowadzaniem rozprowadzany rozprowadzać rozprowadzał rozprowadzała rozprowadzenia rozprowadzenie
+11	8811	bożonarodzeniowy	bożonarodzeniowa bożonarodzeniowe bożonarodzeniowego bożonarodzeniowej bożonarodzeniowych bożonarodzeniowym bożonarodzeniową
+12	8812	spóźniony	spóźnieni spóźniona spóźnione spóźnionego
+13	8813	medalista	medalistek medalistka medalistki medalistką medalisty medalistów medalistą medaliści
+14	8814	usterka	usterek usterki usterką usterkę
+15	8815	posługa	posłudze posług posługi posługą posługę
+16	8816	profesja	profesje profesji profesją profesję
+17	8817	ogródka	ogródek ogródkach ogródkami ogródki ogródkiem ogródku ogródków
+18	8818	zdezorientowany	zdezorientowana zdezorientowane zdezorientowani zdezorientowanych
+19	8819	życzliwość	życzliwości życzliwością
+20	8820	niezręczny	niezręczna niezręczne niezręcznej niezręcznych
+21	8821	porcelana	porcelanie porcelanowa porcelanowe porcelanowy porcelanowych porcelanową porcelany porcelaną porcelanę
+22	8822	dobitnie	dobitniej
+23	8823	zafundować	fundowane fundowanie fundowanych fundować funduje fundujemy fundują fundując zafundowali zafundował zafundowała zafundowało zafunduj zafunduje
+24	8824	cenowy	cenowa cenowe cenowej cenowo cenowych cenowym cenową
+25	8825	niedaleki	niedaleka niedalekiej niedalekim
+26	8826	licho	licha liche lichej lichy lisi lisia lisich lisie lisiej
+27	8827	przystawka	przystawek przystawkami przystawki przystawką przystawkę
+28	8828	oddziaływać	oddziałuje oddziałują oddziałując oddziałujące oddziałujących oddziaływał oddziaływały
+29	8829	zadośćuczynienie	zadośćuczynienia
+30	8830	wywrócić	wywraca wywracają wywracać wywróci wywrócił wywróciła wywróciłam wywróciłem wywrócone
+31	8831	fok	foczka foczki foka fokami foki fokę
+32	8832	elastyczność	elastyczności elastycznością
+33	8833	jednoosobowy	jednoosobowa jednoosobowe jednoosobowego jednoosobowej jednoosobowo jednoosobowych jednoosobowym jednoosobową
+34	8834	jedenasty	jedenasta jedenaste jedenastego jedenastej jedenastym jedenastą
+35	8835	wrzeć	wre wrze wrzenia wrzenie wrząca wrzącej wrzącą
+36	8836	podwozie	podwozi podwozia podwoziem podwoziu
+37	8837	poćwiczyć	poćwicz poćwiczę
+38	8838	pęk	pęczek pęczka pęczki pęka pęku
+39	8839	eksperymentować	eksperymentowali eksperymentowanie eksperymentowano eksperymentował eksperymentowała eksperymentuj eksperymentuje eksperymentują eksperymentując eksperymentuję
+40	8840	waza	waz wazie wazy wazę
+41	8841	wielbłąd	wielbłąda wielbłądach wielbłądami wielbłądem wielbłądy wielbłądzie wielbłądów
+42	8842	unieważnić	unieważnia unieważniona unieważnione unieważniono unieważniony unieważnił unieważniła
+43	8843	wpatrywać	wpatruje wpatrujesz wpatrują wpatrując wpatruję wpatrywanie wpatrywał wpatrywała wpatrywałam wpatrywałem wpatrywały wpatrzeni wpatrzona wpatrzony
+44	8844	ustrojowy	ustrojowa ustrojowe ustrojowego ustrojowej ustrojowo ustrojowych ustrojowym ustrojową
+45	8845	upić	upij upija upijam upijać upiję upiliśmy upił upiła upiłam upiłem upiłeś
+46	8846	leśnik	leśnicy leśnika leśnikiem leśników
+47	8847	anarchista	anarchistami anarchistów anarchistą anarchiści
+48	8848	atrybut	atrybutami atrybutem atrybutu atrybuty atrybutów
+49	8849	odpłynąć	odpłynie odpłynął odpłynęli odpłynęła odpłynęły odpływa odpływają odpływasz odpływać
+50	8850	datować	datowana datowane datowania datowanie datowany datowanych datowanym datuje datują
+51	8851	rozdzierać	rozdarta rozdarte rozdarty rozdarł rozdarła rozdziera rozdzierające
+52	8852	szlachecki	szlachecka szlacheckich szlacheckie szlacheckiego szlacheckiej szlacheckim szlachecką
+53	8853	indiański	indiańska indiańskich indiańskie indiańskiego indiańskiej indiańskim indiańskimi indiańską
+54	8854	braterstwo	braterstwa braterstwie
+55	8855	niepokalany	niepokalana niepokalane niepokalanego niepokalanej niepokalanemu niepokalanie niepokalanym niepokalaną
+56	8856	politolog	politolodzy politologa politologiem politologów
+57	8857	wygłupiać	wygłupami wygłupia wygłupiaj wygłupiają wygłupiał wygłupy wygłupów
+58	8858	licencjat	licencjata licencjatem licencjatu
+59	8859	głaz	głazami głazem głazie głazu głazy głazów
+60	8860	kometa	komecie komet komety kometą kometę
+61	8861	bestseller	bestsellera bestsellerem bestsellery bestsellerów
+62	8862	pięcioletni	pięcioletnia pięcioletnich pięcioletnie pięcioletniego pięcioletniej pięcioletnim pięcioletnią
+63	8863	rękopis	rękopisem rękopisie rękopisu rękopisy rękopisów
+64	8864	krypta	krypcie krypt kryptach krypto krypty kryptę
+65	8865	postulować	postulowane postulował postuluje postulują postuluję
+66	8866	uchwyt	uchwycie uchwytach uchwytami uchwytem uchwytu uchwyty uchwytów
+67	8867	pomost	pomostem pomostu pomosty pomostów pomoście
+68	8868	połknąć	połknie połknij połknięcia połknięcie połknięciu połknięta połknięty połknął połknąłem połknęła połknęłam połyka połykają połykam połykania połykanie połykać
+69	8869	kłoda	kłody kłodzie kłodę kłód
+70	8870	cynamon	cynamonem cynamonowa cynamonowe cynamonowy cynamonowych cynamonu
+71	8871	dureń	durni durnia durniami durnie durniem durniu durniów
+72	8872	topór	topora toporami toporek toporem topory toporów
+73	8873	talib	talibami talibom talibowie talibów
+74	8874	kajdanki	kajdanek kajdankach kajdankami
+75	8875	szeptać	szepce szepcze szepczesz szepczą szepcząc szepczę szepnąć szepnął szepnąłem szepnęła szeptali szeptał
+76	8876	imperator	imperatora imperatorem
+77	8877	funkcjonalność	funkcjonalności funkcjonalnością
+78	8878	harcerski	harcerska harcerskich harcerskie harcerskiego harcerskiej harcerskim harcerską
+79	8879	uniewinnić	uniewinnia uniewinniający uniewinnieni uniewinniona uniewinniono uniewinniony uniewinnił
+80	8880	jurysdykcja	jurysdykcji jurysdykcją jurysdykcję
+81	8881	rozstawić	rozstawiać rozstawieni rozstawienia rozstawienie rozstawieniu rozstawiona rozstawione rozstawiony rozstawionych rozstawionym rozstawionymi rozstawioną rozstawił
+82	8882	pik	pika piki piku pików
+83	8883	archeolog	archeolodzy archeologa archeologiem archeologowie archeologów
+84	8884	rewizja	rewizje rewizji rewizję
+85	8885	lekkoatleta	lekkoatleci lekkoatletka lekkoatletki lekkoatletów
+86	8886	opłacalny	opłacalna opłacalne opłacalnym opłacalną
+87	8887	pojedynka	pojedynkach pojedynki pojedynkę
+88	8888	analogicznie	
+89	8889	chéra	cher
+90	8890	graffiti	
+91	8891	hardcore	
+92	8892	kombi	
+93	8893	wpół	
+94	8894	zet	
+95	8895	anonimowość	anonimowości
+96	8896	sofa	sof sofie sofy sofę
+97	8897	replika	replik replikach replikami repliki repliką replikę
+98	8898	kolekcjoner	kolekcjonera kolekcjonerami kolekcjonerem kolekcjonerowi kolekcjonerzy kolekcjonerów
+99	8899	mobilność	mobilności mobilnością
+100	8900	koszykarz	koszykarka koszykarki koszykarza koszykarzami koszykarze koszykarzem koszykarzy

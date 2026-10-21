@@ -1,0 +1,100 @@
+1	4001	ruina	ruin ruinach ruinami ruinie ruiny ruiną ruinę
+2	4002	szwedzki	szwedzcy szwedzka szwedzkich szwedzkie szwedzkiego szwedzkiej szwedzkim szwedzko szwedzku szwedzką
+3	4003	przemówienie	przemówienia przemówieniach przemówieniem przemówieniu przemówień
+4	4004	opadać	opada opadają opadając opadająca opadające opadającej opadający opadających opadającym opadającymi opadającą opadania opadanie opadał opadała opadały opadnie opadnięciu opadną opadł opadła opadłe opadłem opadło opadły opadłych opaść
+5	4005	poranny	poranna poranne porannego porannej porannych porannym poranną
+6	4006	zegar	zegara zegarach zegarami zegarem zegarowa zegarowe zegarowej zegarowy zegarowych zegarową zegary zegarze zegarów
+7	4007	przynależność	przynależności przynależnością
+8	4008	mundur	mundurach mundurek mundurem mundurka mundurkach mundurki mundurku mundurków mundurowi munduru mundury mundurze mundurów
+9	4009	unieść	uniesie uniesienia uniesienie uniesieniu uniesień uniesiona uniesione uniesiony uniesionym uniesionymi uniesioną unieś unieście uniosła uniosłam uniosłem uniósł unosi unosimy unosisz unosić unosił unosiła unosiły unoszenia unoszenie unoszą unosząc unosząca unoszące unoszącego unoszący unoszących unoszącą unoszę
+10	4010	różnorodność	różnorodności różnorodnością
+11	4011	oscar	oscara oscarami oscarem oscary oscarów
+12	4012	lekarstwo	lekarstw lekarstwa lekarstwami lekarstwem
+13	4013	wyjebać	wyjeb wyjebali wyjebana wyjebane wyjebania wyjebanie wyjebany wyjebał wyjebała wyjebałem wyjebało wyjebie wyjebią wyjebię
+14	4014	poprowadzić	poprowadzenia poprowadzenie poprowadzi poprowadzili poprowadzimy poprowadzisz poprowadził poprowadziła poprowadziłem poprowadzona poprowadzone poprowadzonej poprowadzono poprowadzony poprowadzoną poprowadzą poprowadzę poprowadź
+15	4015	linka	lince linek linkach linkami linki linków linką linkę
+16	4016	rozliczyć	rozlicz rozlicza rozliczają rozliczając rozliczam rozliczana rozliczane rozliczani rozliczania rozliczanie rozliczaniem rozliczaniu rozliczany rozliczać rozliczał rozliczeni rozliczenia rozliczeniach rozliczenie rozliczeniem rozliczeniu rozliczeń rozliczona rozliczone rozliczony rozliczy rozliczymy rozliczył rozliczą rozliczę
+17	4017	obniżenie	obniżenia obniżeniem obniżeniu
+18	4018	komunikacyjny	komunikacyjna komunikacyjne komunikacyjnego komunikacyjnej komunikacyjnych komunikacyjnym komunikacyjnymi komunikacyjną
+19	4019	obrócić	obraca obracaj obracają obracając obracające obracającego obracającej obracający obracających obracającym obracali obracam obracamy obracane obracania obracanie obracasz obracać obracał obracała obracało obracały obrócenie obróci obrócisz obrócił obróciła obróciłam obróciłem obróciło obróciły obrócona obrócone obrócony obróć
+20	4020	pseudonim	pseudonimami pseudonimem pseudonimie pseudonimu pseudonimy pseudonimów
+21	4021	właściwość	właściwości właściwościach właściwościami właściwościom właściwością
+22	4022	moralność	moralności moralnością
+23	4023	duński	duńska duńskich duńskie duńskiego duńskiej duńskim duńsku duńską
+24	4024	świecki	świeccy świecka świeckich świeckie świeckiego świeckiej świeckim świeckimi świecko świecką
+25	4025	programista	programistami programistka programistom programisty programistów programistą programistę programiści programiście
+26	4026	kielec	kielcach kielcami kielce
+27	4027	akceptacja	akceptacje akceptacji akceptacją akceptację
+28	4028	przystojny	najprzystojniejszy przystojna przystojne przystojnego przystojni przystojnie przystojniejszy przystojnych przystojnym przystojnymi przystojną
+29	4029	formacja	formacjach formacjami formacje formacji formacją formację
+30	4030	afrykański	afrykańscy afrykańska afrykańskich afrykańskie afrykańskiego afrykańskiej afrykańskim afrykańskimi afrykańsko afrykańską
+31	4031	kąpiel	kąpiele kąpieli kąpielą
+32	4032	apteka	aptece aptek aptekach apteki apteką aptekę
+33	4033	reklamowy	reklamowa reklamowe reklamowego reklamowej reklamowych reklamowym reklamowymi reklamową
+34	4034	niewłaściwy	niewłaściwa niewłaściwe niewłaściwego niewłaściwej niewłaściwych niewłaściwym niewłaściwymi niewłaściwą
+35	4035	hałas	hałasem hałasie hałasu hałasy hałasów
+36	4036	kompozycja	kompozycjach kompozycjami kompozycje kompozycji kompozycją kompozycję
+37	4037	skrócić	skraca skracają skracając skracane skracania skracanie skracać skrócenia skrócenie skróceniem skróceniu skróci skrócili skrócił skróciła skróciłam skróciłem skróciły skrócona skrócone skróconego skróconej skrócono skrócony skróconych skróconym skróconą
+38	4038	dyplomatyczny	dyplomatyczna dyplomatyczne dyplomatycznego dyplomatycznej dyplomatycznie dyplomatyczno dyplomatycznych dyplomatycznym dyplomatycznymi dyplomatyczną
+39	4039	obsesja	obsesje obsesji obsesją obsesję obsesyjna obsesyjne obsesyjnego obsesyjno obsesyjnym obsesyjną
+40	4040	niechęć	niechęci niechęcią
+41	4041	katalog	katalogach katalogi katalogiem katalogu katalogów
+42	4042	siłownia	siłowni siłownie siłownią siłownię
+43	4043	osada	osad osadach osadami osadem osadu osady osadzie osadów osadą osadę
+44	4044	au	
+45	4045	fair	
+46	4046	mialić	mial
+47	4047	na_temat	nt
+48	4048	teoretycznie	
+49	4049	ideał	ideale ideałach ideałami ideałem ideałom ideału ideały ideałów
+50	4050	uzasadnienie	uzasadnienia uzasadnieniem uzasadnieniu uzasadnień
+51	4051	pozew	pozwami pozwem pozwie pozwu pozwy pozwów
+52	4052	przeprosiny	przeprosin przeprosinach przeprosinami
+53	4053	dokumentalny	dokumentalna dokumentalne dokumentalnego dokumentalnej dokumentalnych dokumentalnym
+54	4054	refleksja	refleksje refleksji refleksją refleksję refleksyjna refleksyjne refleksyjny refleksyjną
+55	4055	bunt	buncie buntem buntu bunty buntów
+56	4056	odpalić	odpal odpala odpalaj odpalają odpalając odpalam odpalamy odpalane odpalanie odpalasz odpalać odpalał odpalenia odpalenie odpaleniem odpaleniu odpali odpalili odpalisz odpalił odpaliła odpaliłem odpaliło odpalone odpalono odpalony odpalą odpalę
+57	4057	łuk	łukach łukami łuki łukiem łukowe łukowy łuku łuków
+58	4058	trenować	trenowali trenowaliśmy trenowana trenowani trenowania trenowanie trenowaniem trenowaniu trenowany trenował trenowała trenowałam trenowałem trenowało trenuj trenuje trenujemy trenujesz trenują trenując trenujący trenujących trenuję wytrenowany wytrenować
+59	4059	odtworzyć	odtwarza odtwarzaj odtwarzają odtwarzając odtwarzający odtwarzam odtwarzamy odtwarzana odtwarzane odtwarzanego odtwarzanej odtwarzania odtwarzanie odtwarzaniem odtwarzaniu odtwarzany odtwarzanych odtwarzanym odtwarzać odtwarzał odtworzenia odtworzenie odtworzeniem odtworzeniu odtworzeń odtworzona odtworzone odtworzono odtworzony odtworzy odtworzyli odtworzył odtworzyła odtwórz
+60	4060	przerobić	przerabia przerabiają przerabiając przerabiali przerabialiśmy przerabiam przerabiamy przerabiana przerabiane przerabiania przerabianie przerabiany przerabiać przerabiał przerabiałam przerabiałem przerobi przerobienia przerobienie przerobieniu przerobili przerobiliśmy przerobiona przerobione przerobionego przerobionej przerobiono przerobiony przerobionych przerobionym przerobisz przerobią przerobił przerobiła przerobiłam przerobiłem przerobu przerób
+61	4061	ciuch	ciuchach ciuchami ciuchy ciuchów ciuszkach ciuszków
+62	4062	urządzić	urządza urządzają urządzając urządzali urządzam urządzamy urządzane urządzania urządzanie urządzaniu urządzano urządzanych urządzasz urządzać urządzał urządzała urządzi urządzili urządziliśmy urządzimy urządził urządziła urządziło urządziły urządzona urządzone urządzonego urządzonej urządzono urządzony urządzonych urządzonym urządzoną urządzą urządzę urządź
+63	4063	pękać	pęka pękaj pękają pękające pękających pękam pękania pękanie pękasz pękał pękała pękało pękały pęknie pęknięta pęknięte pękniętego pękniętej pęknięty pękniętych pękniętą pękną pęknąć pęknę pękł pękła pękło pękły
+64	4064	promień	promieni promienia promieniach promieniami promienie promieniem promieniu
+65	4065	magister	magistra magistrem magistrze magistrów mgr
+66	4066	klawiatura	klawiatur klawiatury klawiaturze klawiaturą klawiaturę
+67	4067	klasyfikacja	klasyfikacjach klasyfikacje klasyfikacji klasyfikacją klasyfikację
+68	4068	tamtejszy	tamtejsi tamtejsza tamtejsze tamtejszego tamtejszej tamtejszych tamtejszym tamtejszymi tamtejszą
+69	4069	obrada	obrad obradach obradami obradom obrady
+70	4070	poduszka	poduszce poduszeczek poduszeczka poduszeczki poduszek poduszkach poduszkami poduszki poduszką poduszkę
+71	4071	ki	kie kiego kiej kim kimi ką
+72	4072	identyfikacja	identyfikacje identyfikacji identyfikacją identyfikację
+73	4073	sad	sadach sadek sadem sadowa sadowego sadowej sadowy sadu sady sadzie sadów sod
+74	4074	płaszcz	płaszcza płaszczach płaszczami płaszcze płaszczem płaszczu płaszczy płaszczyk płaszczykiem
+75	4075	ranga	randze rang rangi rango rangą rangę
+76	4076	podstawówka	podstawówce podstawówek podstawówkach podstawówki podstawówkę
+77	4077	opóźnienie	opóźnienia opóźnieniach opóźnieniami opóźnieniem opóźnieniu opóźnień
+78	4078	wyrosnąć	wyrasta wyrastają wyrastające wyrastających wyrastającym wyrastać wyrastał wyrastała wyrastały wyrosną wyrosła wyrosłam wyrosłaś wyrosłem wyrosło wyrośli wyrośliśmy wyrośnie wyrośniesz wyrósł
+79	4079	miesięczny	miesięczna miesięczne miesięcznego miesięcznej miesięcznych miesięcznym miesięczną
+80	4080	wyznawca	wyznawcami wyznawcom wyznawcy wyznawców wyznawcą wyznawcę
+81	4081	wypisać	wypisali wypisana wypisane wypisania wypisanie wypisaniu wypisano wypisany wypisanych wypisanym wypisaną wypisał wypisała wypisałam wypisałem wypisuj wypisuje wypisujesz wypisują wypisując wypisuję wypisywania wypisywanie wypisywać wypisywał wypisz wypisze wypiszą wypiszę
+82	4082	oznaka	oznak oznakach oznakami oznaki oznaką oznakę
+83	4083	trzydzieści	trzydziestoma trzydziestu
+84	4084	skłonić	skłania skłaniają skłaniając skłaniających skłaniam skłaniać skłaniał skłaniała skłaniałbym skłaniały skłoni skłonienie skłonił skłoniła skłoniło skłoniły
+85	4085	prawosławny	prawosławna prawosławne prawosławnego prawosławnej prawosławni prawosławnych prawosławnym prawosławnymi prawosławną
+86	4086	potomek	potomka potomkami potomkiem potomkini potomkom potomkowi potomkowie potomku potomków
+87	4087	przetarg	przetargach przetargi przetargiem przetargu przetargów
+88	4088	staż	stażach staże stażem stażu staży
+89	4089	osi	osie osią
+90	4090	żebro	ziobro żeber żeberek żeberka żeberkach żeberkami żeberko żebra żebrach żebrami żebrem żebrze
+91	4091	ratunkowy	ratunkowa ratunkowe ratunkowego ratunkowej ratunkowych ratunkowym ratunkowymi ratunkową
+92	4092	strumień	strumieni strumienia strumieniach strumieniami strumienie strumieniem strumieniu
+93	4093	rakieta	rakiecie rakiet rakietach rakietami rakietki rakietą rakietę
+94	4094	rzeźba	rzeźb rzeźbach rzeźbami rzeźbie rzeźby rzeźbą rzeźbę
+95	4095	zapalić	zapal zapala zapalają zapalając zapalające zapalam zapalania zapalanie zapalać zapalał zapalcie zapali zapalili zapalimy zapalisz zapalił zapaliła zapaliłam zapaliłem zapaliło zapaliły zapalmy zapalona zapalone zapalonego zapalony zapalonych zapalonym zapalonymi zapaloną zapalą zapalę
+96	4096	krwawy	krwawa krwawe krwawego krwawej krwawi krwawo krwawych krwawym krwawymi krwawą
+97	4097	przedział	przedziale przedziałach przedziałek przedziałem przedziału przedziały przedziałów
+98	4098	wóz	wozach wozami wozem wozie wozu wozy wozów
+99	4099	dba	
+100	4100	dokąd	

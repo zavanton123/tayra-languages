@@ -1,0 +1,100 @@
+1	201	język	jezyk jęzor języczek języczka języczki języczkiem języka językach językami języki językiem językowa językowe językowego językowej językowi językowo językowy językowych językowym językowymi językową języku języków
+2	202	żyć	żyj żyjcie żyje żyjecie żyjemy żyjesz żyjmy żyją żyjąc żyjąca żyjące żyjącej żyjący żyjących żyjącą żyję żyle żyli żyliśmy żyta żyto żył żyła żyłach żyłam żyłami żyłaś żyłce żyłek żyłem żyłeś żyłka żyłki żyłką żyłkę żyło żyły żyłą żyłę
+3	203	ile	iloma ilu
+4	204	lubić	lubi lubiana lubiane lubianego lubianej lubiani lubiany lubianych lubianym lubianą lubicie lubienia lubienie lubieniem lubieniu lubieć lubień lubili lubiliśmy lubimy lubisz lubią lubiąca lubiącego lubiący lubiących lubiącym lubiącą lubię lubił lubiła lubiłam lubiłaś lubiłem lubiłeś lubiło lubiły
+5	205	aż	az azy jaz jazie jazu jazy
+6	206	przypadek	przypadkach przypadkami przypadki przypadkiem przypadkom przypadkowi przypadku przypadków
+7	207	należeć	należał należała należałam należałem należało należałoby należały należeli należy należycie należymy należysz należą należąc należąca należące należącego należącej należący należących należącym należącymi należącą należę
+8	208	pytanie	pytania pytaniach pytaniami pytaniem pytaniom pytaniu pytanka pytanko pytań
+9	209	uważać	uważa uważacie uważaj uważajcie uważajmy uważają uważając uważające uważający uważających uważali uważaliśmy uważam uważamy uważana uważane uważanego uważanej uważani uważania uważanie uważano uważany uważanych uważanym uważaną uważasz uważał uważała uważałam uważałaś uważałby uważałbym uważałem uważałeś uważało uważały
+10	210	program	programach programami programem programie programik programom programowej programowi programowy programu programy programów
+11	211	tydzień	tygodni tygodnia tygodniach tygodniami tygodnie tygodniem tygodniowa tygodniowe tygodniowego tygodniowej tygodniowo tygodniowy tygodniowych tygodniowym tygodniową tygodniu
+12	212	potem	potym
+13	213	uwaga	uwadze uwag uwagach uwagami uwagi uwagą uwagę
+14	214	wtedy	
+15	215	podstawa	podstaw podstawach podstawami podstawie podstawowa podstawowe podstawowego podstawowej podstawowy podstawowych podstawowym podstawowymi podstawową podstawy podstawą podstawę
+16	216	pieniądz	pieniądza pieniądzach pieniądze pieniądzem pieniądzom pieniądzu pieniążek pieniędzmi pieniędzy pieniężna pieniężne pieniężnego pieniężnej pieniężnie pieniężno pieniężny pieniężnych pieniężnym pieniężnymi pieniężną
+17	217	wydawać	wydaje wydajecie wydajemy wydajesz wydają wydając wydająca wydające wydającego wydającej wydający wydających wydającym wydaję wydawaj wydawali wydawana wydawane wydawanego wydawanej wydawania wydawanie wydawaniem wydawaniu wydawano wydawany wydawanych wydawanym wydawanymi wydawaną wydawał wydawała wydawałam wydawałem wydawało wydawałoby wydawały
+18	218	napisać	napisali napisaliście napisaliśmy napisana napisane napisanego napisanej napisania napisanie napisaniem napisaniu napisano napisany napisanych napisanym napisanymi napisaną napisał napisała napisałabym napisałam napisałaś napisałby napisałbym napisałem napisałeś napisało napisały napisz napiszcie napisze napiszecie napiszemy napiszesz napiszmy napiszą napiszę
+19	219	dziękować	dziękowali dziękował dziękowała dziękowałam dziękuj dziękujcie dziękuje dziękujemy dziękujesz dziękujmy dziękują dziękując dziękuję
+20	220	droga	drodze drogach drogami drogi drogo drogom drogą drogę drożej dróg dróżka dróżki najdrożej
+21	221	projekt	projekcie projektach projektami projektem projektom projektowe projektowi projektowy projektu projekty projektów
+22	222	wyjść	wyjdzie wyjdziecie wyjdziemy wyjdziesz wyjdą wyjdę wyjdź wyjdźcie wyjścia wyjściach wyjściami wyjście wyjściem wyjściu wyszedł wyszedłby wyszedłem wyszedłeś wyszedłszy wyszli wyszliby wyszliście wyszliśmy wyszła wyszłaby wyszłabym wyszłabyś wyszłam wyszłaś wyszło wyszłoby wyszły wyszłyśmy
+23	223	sytuacja	sytuacjach sytuacjami sytuacje sytuacji sytuacjom sytuacją sytuację
+24	224	różny	różna różne różnego różnej różni różnych różnym różnymi różną
+25	225	rozumieć	rozumiana rozumiane rozumianego rozumianej rozumiano rozumiany rozumianych rozumianym rozumianą rozumiał rozumiała rozumiałam rozumiałaś rozumiałem rozumiało rozumie rozumiecie rozumieją rozumiejąc rozumiejący rozumiejących rozumieli rozumieliśmy rozumiem rozumiemy rozumienie rozumieniu rozumiesz rozumię
+26	226	wziąć	wezmą wezmę weź weźcie weźmie weźmiecie weźmiemy weźmiesz weźmy wziąwszy wziął wziąłby wziąłbym wziąłem wziąłeś wziąść wzięci wzięcia wzięcie wzięciem wzięciu wzięli wzięliby wzięliście wzięliśmy wzięta wzięte wzięto wzięty wziętych wziętym wziętą wzięła wzięłabym wzięłam wzięłaś wzięło wzięły wzięłyśmy
+27	227	pracować	pracowali pracowaliście pracowaliśmy pracowania pracowanie pracowano pracował pracowała pracowałam pracowałaś pracowałbym pracowałem pracowałeś pracowało pracowały pracuj pracuje pracujecie pracujemy pracujesz pracujmy pracują pracując pracująca pracujące pracującej pracujący pracujących pracującą pracuję
+28	228	pewien	pewna pewne pewnego pewnej pewnemu pewni pewnych pewnym pewnymi pewną
+29	229	główny	główna główne głównego głównej głównemu główni głównych głównym głównymi główną
+30	230	miesiąc	miech miecha miechowie miechy miechów miesiąca miesiącach miesiącami miesiące miesiącem miesiącu miesiączki miesięcy mieszek mieszka mieszki mieszkiem mieszkowi mieszków
+31	231	chwila	chwil chwilach chwilami chwile chwili chwilka chwilo chwilą chwilę fila fili
+32	232	czuć	czucia czucie czuciem czuj czuja czujcie czuje czujecie czujemy czujesz czują czując czujące czujący czujących czującym czuję czule czuli czuliby czuliśmy czuł czuła czułabym czułam czułaś czułby czułbym czułe czułego czułej czułem czułeś czuło czuły czułych czułym czułą
+33	233	firma	firm firmach firmami firmie firmom firmowa firmowe firmowego firmowej firmowy firmowych firmowym firmową firmy firmą firmę
+34	234	gdyby	dyby gdybym gdybyś gdybyście gdybyśmy
+35	235	dane	danych danym danymi
+36	236	między	miedzy
+37	237	oko	oczach oczami oczek oczka oczkach oczkami oczkiem oczko oczku oczom oczu oczy oczyma oczów oka okiem oku
+38	238	dostać	dostali dostaliby dostalibyśmy dostaliście dostaliśmy dostana dostane dostania dostanie dostaniecie dostaniem dostaniemy dostaniesz dostaniu dostaną dostanę dostał dostała dostałaby dostałabym dostałabyś dostałam dostałaś dostałby dostałbym dostałbyś dostałem dostałeś dostało dostały dostałyście dostałyśmy dostań
+39	239	mężczyzna	męscy męska męski męskich męskie męskiego męskiej męskim męskimi męsko męsku męską mężczyzn mężczyznach mężczyznami mężczyzno mężczyznom mężczyzny mężczyzną mężczyznę mężczyźni mężczyźnie
+40	240	związek	związkach związkami związki związkiem związkom związkowi związku związków
+41	241	rada	rad radach radami rade rado radom radu rady radzi radzie radą radę
+42	242	oczywiście	
+43	243	szybko	najszybciej szybciej szybciutko
+44	244	niech	niechaj niechby niechże
+45	245	wynik	wynikach wynikami wyniki wynikiem wynikom wynikowe wynikowego wynikowi wynikowy wyniku wyników
+46	246	partia	partiach partiami partie partii partiom partią partię partyjek partyjka partyjki partyjkę
+47	247	śmierć	śmierci śmiercią
+48	248	dawać	daje dajecie dajemy dajesz dają dając dająca dające dającego dającej dający dających dającym dającymi dającą daję dawaj dawajcie dawajmy dawali dawaliśmy dawane dawania dawanie dawaniem dawaniu dawano dawany dawał dawała dawałaby dawałam dawałaś dawałby dawałem dawało dawałoby dawały
+49	249	woda	wod wodach wodami wodo wody wodzie wodą wodę wód
+50	250	czyli	
+51	251	numer	nr nrem numerach numerami numerek numerem numerka numerkami numerki numerkiem numerków numerowi numeru numery numerze numerów umer
+52	252	nadzieja	nadziei nadziejach nadziejami nadzieje nadziejom nadzieją nadzieję
+53	253	ręka	rączce rączek rączka rączkach rączkami rączki rączką rączkę rąk ręce rękach rękami ręki ręko rękom rękoma ręku ręką rękę
+54	254	głowa	głowach głowami głowie głowo głowom głowy głową głowę głów główce główek główka główkach główkami główki główką główkę
+55	255	zmienić	zmieni zmienicie zmienienia zmienienie zmienili zmieniliście zmieniliśmy zmienimy zmieniona zmienione zmienionego zmienionej zmieniono zmieniony zmienionych zmienionym zmienionymi zmienioną zmienisz zmienią zmienię zmienił zmieniła zmieniłaby zmieniłabym zmieniłam zmieniłaś zmieniłby zmieniłbym zmieniłem zmieniłeś zmieniło zmieniłoby zmieniły zmieniłyby zmień zmieńcie zmieńmy
+56	256	nauka	nauce nauczka nauczki nauczką nauczkę nauk naukach naukami nauki nauko naukom naukowa naukowe naukowego naukowej naukowemu naukowi naukowo naukowy naukowych naukowym naukowymi naukową nauką naukę
+57	257	niektóry	niektóre niektórych niektórym niektórymi niektórzy
+58	258	one	je
+59	259	większość	większości większościowe większościowego większościowej większościowy większościowym większością
+60	260	jeżeli	heli jezeli żali żeli
+61	261	ani	
+62	262	później	
+63	263	pewnie	najpewniej pewniej
+64	264	brać	bierz bierzcie bierze bierzecie bierzemy bierzesz bierzmy biorą biorąc biorąca biorące biorącego biorącej biorący biorących biorącym biorącymi biorę braci brali braliśmy brana brane brania branie braniem braniu brano brany branych brał brała brałam brałaś brałbym brałem brałeś brało brały
+65	265	działać	działa działacie działaj działajmy działają działając działająca działające działającego działającej działającemu działający działających działającym działającymi działającą działali działaliśmy działam działamy działasz działał działała działałam działałby działałem działało działały
+66	266	kochać	kocha kochacie kochaj kochajcie kochajmy kochają kochając kochająca kochające kochającego kochającej kochający kochających kochającym kochającą kochali kochaliście kochaliśmy kocham kochamy kochana kochane kochanego kochanej kochani kochaniutka kochaniutki kochany kochanych kochanym kochaną kochasz kochał kochała kochałam kochałaś kochałem kochałeś kochało
+67	267	książka	książce książeczce książeczek książeczka książeczki książeczką książeczkę książek książkach książkami książki książkom książką książkę
+68	268	władza	władz władzach władzami władze władzo władzom władzy władzą władzę
+69	269	prezydent	prezydenci prezydencie prezydencka prezydencki prezydenckich prezydenckie prezydenckiego prezydenckiej prezydenckim prezydenckimi prezydencką prezydenta prezydentami prezydentem prezydentom prezydentowi prezydentów
+70	270	czekać	czeka czekacie czekaj czekajcie czekajmy czekają czekając czekająca czekające czekającego czekającej czekający czekających czekającym czekającą czekali czekaliście czekaliśmy czekam czekamy czekanie czekano czekasz czekał czekała czekałam czekałaś czekałby czekałem czekałeś czekało czekały czekałyśmy
+71	271	tysiąc	tys tysiąca tysiącach tysiącami tysiące tysiącem tysiącom tysiącu tysięcy
+72	272	wiek	wiekach wiekami wieki wiekiem wiekowi wieku wieków
+73	273	udział	udziale udziałach udziałami udziałem udziałowi udziału udziały udziałów
+74	274	jakby	jakbym jakbyś jakbyście jakbyśmy
+75	275	nadal	
+76	276	pamiętać	pamięta pamiętacie pamiętaj pamiętajcie pamiętajmy pamiętają pamiętając pamiętające pamiętający pamiętających pamiętali pamiętam pamiętamy pamiętana pamiętania pamiętanie pamiętano pamiętany pamiętasz pamiętał pamiętała pamiętałam pamiętałaś pamiętałem pamiętałeś pamiętało pamiętały
+77	277	typ	typa typach typami typek typem typiara typie typka typki typkiem typków typom typowi typu typy typów
+78	278	prawdziwy	najprawdziwszy prawdziwa prawdziwe prawdziwego prawdziwej prawdziwemu prawdziwi prawdziwie prawdziwsze prawdziwych prawdziwym prawdziwymi prawdziwą
+79	279	udać	uda udacie udadzą udaj udaje udajmy udali udaliśmy udam udamy udana udane udanego udanej udania udanie udaniem udany udanych udanym udanymi udaną udasz udał udała udałam udałem udałeś udało udałoby udały
+80	280	kościół	kościele kościelisko kościelna kościelne kościelnego kościelnej kościelni kościelny kościelnych kościelnym kościelnymi kościelną kościoła kościołach kościołami kościołem kościołom kościołowi kościoły kościołów kościółek kościółka kościółki kościółku
+81	281	poza	pozach pozie pozo pozy pozę
+82	282	zły	gorsze gorszy najgorsi najgorsza najgorsze najgorszej najgorszemu najgorszy najgorszych najgorszym najgorszymi najgorszą zła złego złej złemu złych złym złymi złą źli
+83	283	pani	panią
+84	284	używać	używa używacie używaj używajcie używajmy używają używając używające używającego używającej używający używających używali używaliśmy używam używamy używana używane używanego używanej używania używanie używaniem używaniu używano używany używanych używanym używanymi używaną używasz używał używała używałam używałaś używałem używałeś używało używały
+85	285	pójść	poszedł poszedłby poszedłbym poszedłbyś poszedłem poszedłeś poszli poszliby poszliście poszliśmy poszła poszłaby poszłabym poszłabyś poszłam poszłaś poszłem poszło poszłoby poszły poszłyby poszłyśmy pójdzie pójdziecie pójdziemy pójdziesz pójdą pójdę pójdź pójdźcie pójdźmy pójścia pójście pójściem pójściu
+86	286	pomóc	pomogli pomogliście pomogliśmy pomogą pomogę pomogła pomogłaby pomogłabym pomogłabyś pomogłam pomogłaś pomogłem pomogłeś pomogło pomogłoby pomogły pomogłyby pomoże pomożecie pomożemy pomożesz pomógł pomógłby pomógłbyś pomóż pomóżcie pomóżmy
+87	287	znajdować	znajdowali znajdowaliśmy znajdowane znajdowanie znajdowano znajdował znajdowała znajdowałam znajdowałem znajdowało znajdowały znajduj znajduje znajdujecie znajdujemy znajdujesz znajdują znajdując znajdująca znajdujące znajdujący znajduję
+88	288	początek	początkach początkami początki początkiem początku początków
+89	289	brak	brakach brakami braki brakiem brakowi braku braków
+90	290	siła	sile sił siłach siłami siłom siły siłą siłę
+91	291	działanie	działania działaniach działaniami działaniem działaniom działaniu działań
+92	292	kurwa	kurew kurewka kurewski kurw kurwami kurwi kurwie kurwiu kurwo kurwy kurwą kurwę
+93	293	punkt	pkt punkcie punkcik punkciki punktach punktami punktem punktom punktowi punktu punkty punktów
+94	294	jedyny	jedyna jedyne jedynego jedynej jedynemu jedyni jedynych jedynym jedynymi jedyną
+95	295	dziewczyna	dziewczyn dziewczynach dziewczynami dziewczynie dziewczynka dziewczyno dziewczynom dziewczyny dziewczyną dziewczynę dziewczęca dziewczęce dziewczęcego dziewczęcej dziewczęco dziewczęcy dziewczęcych dziewczęcym dziewczęcą
+96	296	piękny	najpiękniej najpiękniejszy piekny piękna piękne pięknego pięknej pięknemu piękni pięknie piękniej piękniejsza piękniejsze piękniejszej piękniejszy piękniejszych piękniejszym piękniejszą pięknych pięknym pięknymi piękną
+97	297	liczba	liczb liczbach liczbami liczbie liczbom liczby liczbą liczbę
+98	298	czytać	czyta czytacie czytaj czytajcie czytajmy czytają czytając czytająca czytającego czytający czytających czytającym czytali czytaliście czytaliśmy czytam czytamy czytana czytane czytanej czytanie czytaniem czytaniu czytano czytany czytanych czytanym czytasz czytał czytała czytałam czytałaś czytałem czytałeś czytało czytały czytałyśmy czytań czytuję
+99	299	złoty	zł złoci złota złote złotego złotej złotych złotym złotymi złotą
+100	300	głos	głosach głosami głosem głosie głosik głosom głosowa głosowe głosowego głosowej głosowi głosowy głosowych głosowym głosową głosu głosy głosów

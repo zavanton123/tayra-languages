@@ -1,0 +1,100 @@
+1	4201	pe	
+2	4202	spoza	
+3	4203	zbytnio	
+4	4204	studium	studiach studiami studiom studiów studyjna studyjne studyjnego studyjnej studyjny studyjnych studyjnym studyjną
+5	4205	strażak	strażacy strażaka strażakach strażakami strażakiem strażakom strażaków
+6	4206	kanapa	kanap kanapach kanapie kanapy kanapą kanapę
+7	4207	litość	litości litością
+8	4208	ulotka	ulotce ulotek ulotkach ulotkami ulotki ulotkę
+9	4209	ustrój	ustrojach ustroje ustrojem ustroju ustrojów
+10	4210	cios	ciosach ciosami ciosem ciosie ciosu ciosy ciosów
+11	4211	ziemski	ziemscy ziemska ziemskich ziemskie ziemskiego ziemskiej ziemskim ziemskimi ziemską
+12	4212	azjatycki	azjatycka azjatyckich azjatyckie azjatyckiego azjatyckiej azjatyckim azjatyckimi azjatycko azjatycką
+13	4213	świeca	świec świecach świecami świece świecy świeczka świeczki świecą świecę
+14	4214	dogadać	dogada dogadacie dogadaj dogadają dogadali dogadaliśmy dogadam dogadamy dogadania dogadanie dogadasz dogadał dogadała dogadały dogaduje dogadujecie dogadujemy dogadujesz dogadują dogaduję dogadywali dogadywania dogadywanie dogadywać dogadywał
+15	4215	zapotrzebowanie	zapotrzebowania zapotrzebowaniem zapotrzebowaniu
+16	4216	propagować	propagowali propagowana propagowane propagowania propagowanie propagowaniem propagowaniu propagowany propagował propagowała propaguje propagują propagując propagujące propagującego propagujący propagujących propagującą rozpropagowania rozpropagować rozpropagował
+17	4217	uniemożliwić	uniemożliwi uniemożliwia uniemożliwiają uniemożliwiając uniemożliwiająca uniemożliwiające uniemożliwiający uniemożliwiającą uniemożliwiać uniemożliwiał uniemożliwiała uniemożliwiało uniemożliwiały uniemożliwienia uniemożliwienie uniemożliwili uniemożliwione uniemożliwiono uniemożliwią uniemożliwił uniemożliwiła uniemożliwiło uniemożliwiły
+18	4218	mentalność	mentalności mentalnością
+19	4219	mieszanka	mieszance mieszanek mieszankach mieszanki mieszanką mieszankę
+20	4220	słodycz	słodyczach słodyczami słodycze słodyczy słodyczą
+21	4221	cywil	cywila cywilach cywilami cywile cywilem cywili cywilom cywilu cywilów
+22	4222	dorobek	dorobkiem dorobku
+23	4223	projektant	projektanci projektanta projektantami projektantem projektantka projektantki projektantką projektantkę projektantom projektantów
+24	4224	dowiadywać	dowiaduje dowiadujemy dowiadujesz dowiadują dowiadując dowiaduję dowiadywał
+25	4225	osłona	osłon osłonach osłonami osłonek osłonie osłonka osłonki osłonką osłonkę osłony osłoną osłonę
+26	4226	karmić	karm karmi karmicie karmie karmieni karmienie karmili karmimy karmiona karmione karmiono karmiony karmisz karmią karmiąc karmiąca karmiące karmię karmił karmiła karmiłam karmiłaś karmiły karmy
+27	4227	spocząć	spocznie spoczniemy spocznij spoczną spoczywa spoczywaj spoczywają spoczywający spoczywających spoczywać spoczywał spoczywała spoczywało spoczywały spoczął spoczęli spoczęła spoczęło spoczęły
+28	4228	poradnik	poradnika poradniki poradniku poradników
+29	4229	goły	goli goła gołe gołego gołej gołych gołym gołymi gołą
+30	4230	pożyczyć	pożycz pożycza pożyczają pożyczając pożyczali pożyczam pożyczamy pożyczania pożyczanie pożyczasz pożyczać pożyczał pożyczałem pożyczenia pożyczenie pożyczone pożyczonego pożyczony pożyczonych pożyczonym pożyczy pożyczymy pożyczysz pożyczył pożyczyła pożyczyłam pożyczyłaś pożyczyłem pożyczę
+31	4231	ban	bana banach banacha banem banie bany banów
+32	4232	kupno	kupna kupnem kupnie
+33	4233	podobieństwo	podobieństw podobieństwa podobieństwach podobieństwem podobieństwie
+34	4234	świt	świcie świta świtem świtu świty świtą świtę
+35	4235	wsiąść	wsiada wsiadaj wsiadają wsiadając wsiadam wsiadamy wsiadania wsiadanie wsiadasz wsiadać wsiadał wsiadała wsiadł wsiadła wsiadłam wsiadłem wsiedli wsiedliśmy wsiądzie wsiądą wsiądę wsiądź
+36	4236	lądowanie	lądowania lądowaniem lądowaniu lądowań
+37	4237	administrator	administratora administratorami administratorem administratorowi administratorze administratorzy administratorów
+38	4238	ubiegać	ubiec ubiega ubiegają ubiegając ubiegającego ubiegający ubiegających ubiegającym ubiegali ubiegania ubieganie ubieganiem ubiegasz ubiegał ubiegała ubiegało ubiegł ubiegła
+39	4239	średniowiecze	średniowiecza średniowieczem średniowieczu
+40	4240	przeć	parte party parł parła prze przej przeje przejecie przemy przesz przyj
+41	4241	nerka	nerce nerek nerkach nerkami nerki nerkowa nerkowe nerkowego nerkowej nerkowy nerkowych nerkową nerkę
+42	4242	inżynieria	inżynierii inżynierią inżynierię inżynieryjna inżynieryjne inżynieryjnego inżynieryjnej inżynieryjno inżynieryjny inżynieryjnych inżynieryjnym
+43	4243	złamanie	złamania złamaniem złamaniu złamań
+44	4244	brutto	
+45	4245	homo	
+46	4246	włącznie	
+47	4247	przybliżyć	przybliża przybliżają przybliżając przybliżanie przybliżać przybliżał przybliżenia przybliżenie przybliżeniem przybliżeniu przybliżona przybliżone przybliżonej przybliżony przybliżonych przybliżonym przybliżoną przybliży przybliżył przybliżyła
+48	4248	przewieźć	przewiezie przewiezieni przewiezienia przewiezienie przewiezieniu przewieziona przewiezione przewieziono przewieziony przewiezionych przewieźli przewiozła przewiozły przewiózł przewozi przewozili przewozimy przewozisz przewozić przewoził przewoziła przewożeni przewożenia przewożenie przewożona przewożone przewożonego przewożono przewożony przewożonych przewożą przewożąc przewożące przewożący przewożących
+49	4249	pozazdrościć	pozazdroszczenia pozazdrościł zazdroszczą zazdroszczę zazdrości zazdrościli zazdrościmy zazdrościsz zazdrościć zazdrościł zazdrościłam
+50	4250	zakupić	zakupi zakupienia zakupienie zakupieniem zakupieniu zakupili zakupiona zakupione zakupionego zakupionej zakupiono zakupiony zakupionych zakupionym zakupioną zakupię zakupił zakupiła zakupiłam zakupiłem zakupiło zakupiły
+51	4251	kres	kresach kresami kresem kresowa kresowe kresowego kresowej kresowy kresowych kresu kresy kresów
+52	4252	wykonawczy	wykonawcza wykonawcze wykonawczego wykonawczej wykonawczo wykonawczych wykonawczym wykonawczymi wykonawczą
+53	4253	wywalić	wywal wywala wywalacie wywalają wywalam wywalamy wywalać wywalenia wywalenie wywali wywalili wywalił wywaliła wywaliłam wywaliłaś wywaliłem wywaliło wywalone wywalono wywalony wywalą wywalę
+54	4254	wzmianka	wzmiance wzmianek wzmianki wzmianką wzmiankę
+55	4255	etyka	etyce etyki etyką etykę
+56	4256	przyrodniczy	przyrodnicza przyrodnicze przyrodniczego przyrodniczej przyrodniczo przyrodniczych przyrodniczym przyrodniczymi przyrodniczą
+57	4257	węzeł	węzła węzłach węzłami węzłem węzły węzłów węźle
+58	4258	podlaski	podlaska podlaskich podlaskie podlaskiego podlaskiej podlaskim podlasko podlaską
+59	4259	wjechać	wjadą wjechali wjechaliśmy wjechanie wjechał wjechała wjechałam wjechałem wjechało wjechały wjedzie wjedziemy wjedziesz wjeżdża wjeżdżają wjeżdżając wjeżdżający wjeżdżających wjeżdżam wjeżdżamy wjeżdżania wjeżdżasz wjeżdżać wjeżdżał
+60	4260	papa	pap papcio papie papy papą papę
+61	4261	reporter	reportera reporterami reporterce reporterem reporterka reporterki reporterką reporterkę reporterom reporterowi reporterski reporterskich reporterzy reporterów
+62	4262	odzież	odzieżowa odzieżowe odzieżowego odzieżowej odzieżowy odzieżowych odzieżowym odzieżową odzieży odzieżą
+63	4263	usiłować	usiłowali usiłowania usiłowanie usiłowano usiłował usiłowała usiłowałam usiłowałem usiłowało usiłowały usiłuje usiłujemy usiłujesz usiłują usiłując usiłującego usiłujący usiłujących usiłuję
+64	4264	wygłosić	wygłasza wygłaszają wygłaszając wygłaszali wygłaszam wygłaszane wygłaszania wygłaszanie wygłaszanych wygłaszać wygłaszał wygłosi wygłosili wygłosił wygłosiła wygłoszenia wygłoszenie wygłoszeniu wygłoszona wygłoszone wygłoszonego wygłoszonej wygłoszony wygłoszonych wygłoszonym
+65	4265	uroda	urody urodzie urodą urodę
+66	4266	psychiatra	psychiatrami psychiatry psychiatrzy psychiatrów psychiatrą psychiatrę
+67	4267	bezrobotny	bezrobotna bezrobotne bezrobotnego bezrobotni bezrobotnych bezrobotnym bezrobotnymi bezrobotną
+68	4268	tłuszcz	tłuszcza tłuszczach tłuszcze tłuszczem tłuszczu tłuszczy tłuszczyk tłuszczyku tłuszczów
+69	4269	tort	torcie torcik torta tortem tortu torty tortów
+70	4270	kombinacja	kombinacjach kombinacjami kombinacje kombinacji kombinacją kombinację
+71	4271	pokrywa	pokryw pokrywie pokrywka pokrywki pokrywką pokrywkę pokrywy pokrywą pokrywę
+72	4272	biedronka	biedra biedronce biedronek biedronki biedronką biedronkę
+73	4273	dymisja	dymisje dymisji dymisją dymisję
+74	4274	cegła	cegieł cegiełka cegiełkę ceglana ceglane ceglanego ceglanej ceglany ceglanych ceglanym ceglaną cegle cegłach cegłami cegły cegłą cegłę
+75	4275	kierownictwo	kierownictw kierownictwa kierownictwem kierownictwie kierownictwu
+76	4276	twórczy	twórcza twórcze twórczego twórczej twórczo twórczych twórczym twórczymi twórczą
+77	4277	matematyczny	matematyczna matematyczne matematycznego matematycznej matematycznie matematyczno matematycznych matematycznym matematycznymi matematyczną
+78	4278	przycisk	przyciskami przyciski przyciskiem przycisku przycisków
+79	4279	oddzielić	oddziel oddziela oddzielają oddzielając oddzielająca oddzielające oddzielającej oddzielający oddzielających oddzielającym oddzielającą oddzielamy oddzielane oddzielania oddzielanie oddzielać oddzielała oddzieleni oddzielenia oddzielenie oddzieleniem oddzieleniu oddzieli oddzielił oddzieliła oddzielona oddzielone oddzielono oddzielony oddzielonych oddzielonym
+80	4280	miłosierdzie	miłosierdzia miłosierdziem miłosierdziu
+81	4281	rezerwa	rezerw rezerwach rezerwami rezerwie rezerwy rezerwą rezerwę
+82	4282	uliczny	uliczna uliczne ulicznego ulicznej uliczni ulicznych ulicznym ulicznymi uliczną
+83	4283	szczur	szczura szczurach szczurami szczurek szczurem szczurka szczury szczurze szczurów szur szura
+84	4284	liberał	liberała liberałami liberałem liberałom liberałowie liberałów
+85	4285	naciskać	naciska naciskaj naciskają naciskając naciskali naciskam naciskamy naciskanie naciskany naciskasz naciskał naciskała nacisnąć nacisnął nacisnąłem nacisnęła nacisnęłam naciśnie naciśniesz naciśnij naciśnięcia naciśnięcie naciśnięciem naciśnięciu
+86	4286	namówić	namawia namawiają namawiając namawiali namawiam namawiania namawianie namawiać namawiał namawiała namawiałam namów namówili namówisz namówię namówił namówiła namówiłam namówiłaś namówiłem namówiłeś
+87	4287	ekonomista	ekonomistka ekonomisty ekonomistów ekonomistą ekonomistę ekonomiści
+88	4288	baran	barana baranami baranek baranem barani barania baranich baranie baraniej baranią baranka baranki barankiem baranku baranowie barany baranów owieczka
+89	4289	kujawski	kujawska kujawskich kujawskie kujawskiego kujawskiej kujawskim kujawsko
+90	4290	komunizm	komunizmem komunizmie komunizmowi komunizmu
+91	4291	kwalifikacja	kwalifikacji kwalifikacją kwalifikację
+92	4292	alfa	alf alfie alfy alfą alfę
+93	4293	kapelusz	kapelusik kapelusza kapeluszach kapeluszami kapelusze kapeluszem kapeluszu kapeluszy
+94	4294	olimpiada	olimpiad olimpiadach olimpiady olimpiadzie olimpiadą olimpiadę
+95	4295	pozarządowy	pozarządowa pozarządowe pozarządowej pozarządowych pozarządowym pozarządowymi pozarządową
+96	4296	doznać	dozna doznaje doznajesz doznają doznając doznali doznane doznanej doznania doznanie doznaniem doznanych doznasz doznawali doznawać doznawał doznał doznała doznałam doznałem doznało doznały doznań
+97	4297	kopa	kap kapa kapie kapka kapkę kapusia kapy kop kopach kopem kopie kopy kopów kopą kopę
+98	4298	patrol	patrolach patrolami patrole patrolem patroli patrolu
+99	4299	małżonka	małżonce małżonek małżonkami małżonki małżonkiem małżonkom małżonkowi małżonkowie małżonków małżonką małżonkę
+100	4300	ujrzeć	ujrzawszy ujrzał ujrzała ujrzałam ujrzałem ujrzało ujrzały ujrzeli ujrzeliśmy ujrzenia ujrzenie ujrzeniu ujrzy ujrzycie ujrzymy ujrzysz ujrzą ujrzę

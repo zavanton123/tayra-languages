@@ -1,0 +1,100 @@
+1	2901	sprzedawca	sprzedawcami sprzedawcom sprzedawcy sprzedawczyni sprzedawczynie sprzedawców sprzedawcą sprzedawcę
+2	2902	zabezpieczyć	zabezpiecz zabezpiecza zabezpieczaj zabezpieczają zabezpieczając zabezpieczająca zabezpieczające zabezpieczającej zabezpieczający zabezpieczającym zabezpieczającą zabezpieczali zabezpieczam zabezpieczamy zabezpieczania zabezpieczanie zabezpieczaniu zabezpieczać zabezpieczał zabezpieczała zabezpieczeni zabezpieczona zabezpieczone zabezpieczonego zabezpieczonej zabezpieczono zabezpieczony zabezpieczonych zabezpieczonym zabezpieczoną zabezpieczy zabezpieczyli zabezpieczymy zabezpieczysz zabezpieczył zabezpieczyła zabezpieczyłem zabezpieczyły zabezpieczą
+3	2903	plemię	plemienia plemieniem plemieniu plemienna plemienne plemiennego plemiennej plemienni plemienny plemiennych plemiennym plemienną plemion plemiona plemionach plemionami plemionom
+4	2904	wyobraźnia	wyobraźni wyobraźnie wyobraźnią wyobraźnię
+5	2905	tylny	tylna tylne tylnego tylnej tylni tylnych tylnym tylnymi tylną
+6	2906	rasizm	rasizmem rasizmie rasizmowi rasizmu
+7	2907	delikatny	delikatna delikatne delikatnego delikatnej delikatni delikatniejsza delikatniejsze delikatniejszy delikatnych delikatnym delikatnymi delikatną
+8	2908	mila	mil milach mili milo milowe milowego milowy milowych milowym milą milę
+9	2909	rozrywka	rozrywce rozrywek rozrywkach rozrywkami rozrywki rozrywką rozrywkę
+10	2910	niebezpieczeństwo	niebezpieczeństw niebezpieczeństwa niebezpieczeństwach niebezpieczeństwami niebezpieczeństwem niebezpieczeństwie niebezpieczeństwu
+11	2911	wstęp	wstępem wstępie wstępu wstępy wstępów
+12	2912	interwencja	interwencjach interwencjami interwencje interwencji interwencją interwencję
+13	2913	tramwaj	tramwajach tramwajami tramwaje tramwajem tramwaju tramwajów
+14	2914	redakcja	redakcjach redakcjami redakcje redakcji redakcjo redakcją redakcję
+15	2915	kadr	kadrach kadrami kadrem kadru kadry kadrze kadrów
+16	2916	imperium	imperia imperiów
+17	2917	agresja	agresje agresji agresją agresję
+18	2918	radziecki	radzieccy radziecka radzieckich radzieckie radzieckiego radzieckiej radzieckiemu radzieckim radzieckimi radziecką
+19	2919	sława	sław sławami sławie sławy sławą sławę
+20	2920	doradca	doradcami doradcy doradczyni doradców doradcą doradcę
+21	2921	zwalczać	zwalcza zwalczają zwalczając zwalczające zwalczający zwalczających zwalczali zwalczane zwalczania zwalczanie zwalczaniem zwalczaniu zwalczany zwalczał zwalczenia zwalczenie zwalczyć
+22	2922	przysiąc	przysiągł przysięgają przysięgali przysięgam przysięgasz przysięgać przysięgał przysięgli przysięgła
+23	2923	wybuchnąć	wybucha wybuchają wybuchające wybuchających wybucham wybuchasz wybuchać wybuchały wybuchnie wybuchną wybuchnął wybuchnę wybuchnęła wybuchł wybuchła wybuchło wybuchły
+24	2924	kształtować	kształtowana kształtowane kształtowania kształtowanie kształtowaniem kształtowaniu kształtowany kształtował kształtowała kształtowało kształtowały kształtuje kształtujemy kształtują kształtując kształtujące kształtujących ukształtowali ukształtowana ukształtowane ukształtowanego ukształtowanej ukształtowania ukształtowanie ukształtowaniem ukształtowaniu ukształtowany ukształtowanych ukształtowanym ukształtowaną ukształtować ukształtował ukształtowała ukształtowało ukształtowały
+25	2925	kolacja	kolacje kolacji kolacją kolację
+26	2926	pomorski	pomorska pomorskich pomorskie pomorskiego pomorskiej pomorskim pomorsko pomorską
+27	2927	sterować	sterowana sterowane sterowanego sterowanej sterowani sterowania sterowanie sterowany sterowanych sterowanym sterowanymi sterowaną sterował steruj steruje sterują sterując sterująca sterujące sterującego sterującej sterujący sterujących sterującym sterującą
+28	2928	oskarżyć	oskarża oskarżają oskarżając oskarżające oskarżali oskarżam oskarżana oskarżane oskarżani oskarżania oskarżanie oskarżano oskarżany oskarżanych oskarżasz oskarżać oskarżał oskarżała oskarżały oskarżeni oskarżona oskarżone oskarżonej oskarżono oskarżoną oskarży oskarżyli oskarżysz oskarżył oskarżyła oskarżyło oskarżyły oskarżą
+29	2929	smakować	posmakować posmakuj posmakuje smakował smakowała smakowało smakowały smakuje smakujesz smakują smakuję
+30	2930	zdjąć	zdejmie zdejmiesz zdejmij zdejmijcie zdejmowania zdejmowanie zdejmować zdejmował zdejmuje zdejmujemy zdejmujesz zdejmują zdejmując zdejmuję zdejmą zdejmę zdjął zdjąłem zdjęci zdjęli zdjęta zdjęte zdjęto zdjęty zdjęła zdjęłam zdjęło
+31	2931	warzywo	warzyw warzywa warzywach warzywami warzywem warzywka warzywna warzywne warzywnego warzywnej warzywny warzywnych warzywnym warzywną
+32	2932	strefie	
+33	2933	technologiczny	technologiczna technologiczne technologicznego technologicznej technologicznie technologiczno technologicznych technologicznym technologicznymi technologiczną
+34	2934	okręg	okręgach okręgami okręgi okręgiem okręgu okręgów
+35	2935	cywilizacja	cywilizacjach cywilizacjami cywilizacje cywilizacji cywilizacją cywilizację
+36	2936	zabawka	zabawce zabaweczki zabawek zabawkach zabawkami zabawki zabawką zabawkę
+37	2937	kurczak	kurczaczek kurczaczki kurczaka kurczakach kurczaki kurczakiem kurczakowi kurczaku kurczaków
+38	2938	gol	gola golach golami gole golem golema goli golu
+39	2939	przyłączyć	przyłącz przyłącza przyłączają przyłączając przyłączam przyłączamy przyłączania przyłączanie przyłączać przyłączcie przyłączenia przyłączenie przyłączeniem przyłączeniu przyłączona przyłączone przyłączono przyłączony przyłączonych przyłączy przyłączycie przyłączyli przyłączymy przyłączysz przyłączył przyłączyła przyłączyło przyłączyły przyłączą przyłączę
+40	2940	ławka	ław ława ławach ławami ławce ławeczka ławek ławie ławkach ławkami ławki ławką ławkę ławy ławą ławę
+41	2941	transmisja	transmisje transmisji transmisją transmisję
+42	2942	wyznanie	wyznania wyznaniach wyznaniami wyznaniem wyznaniu wyznań
+43	2943	barwa	barw barwach barwami barwie barwą barwę
+44	2944	brzydki	brzydcy brzydka brzydkich brzydkie brzydkiego brzydkiej brzydkim brzydko brzydką brzydsza brzydsze brzydszy najbrzydszy
+45	2945	kumpel	kumpla kumplami kumple kumplem kumpli kumplom kumplowi kumplu
+46	2946	diabeł	diabełek diabełku diabla diable diabli diablica diabła diabłach diabłami diabłem diabłu diabły diabłów
+47	2947	kopia	kopiach kopiami kopie kopii kopią kopię
+48	2948	zajebisty	zajebista zajebiste zajebistego zajebistej zajebistych zajebistym zajebistymi zajebistą zajebiści
+49	2949	bieda	bid bida biedy biedzie biedą biedę
+50	2950	uśmiechać	uśmiecha uśmiechaj uśmiechajcie uśmiechają uśmiechając uśmiechali uśmiecham uśmiechamy uśmiechania uśmiechasz uśmiechał uśmiechała uśmiechałam uśmiechałeś uśmiechało uśmiechały uśmiechnie uśmiechniesz uśmiechnij uśmiechnijcie uśmiechną uśmiechnąć uśmiechnął uśmiechnąłem uśmiechnąłeś uśmiechnę uśmiechnęli uśmiechnęła uśmiechnęłam uśmiechnęłaś uśmiechnęło
+51	2951	alternatywa	alternatyw alternatywie alternatywy alternatywą alternatywę
+52	2952	minimum	minima minimów
+53	2953	personel	personelem personelowi personelu
+54	2954	widocznie	najwidoczniej
+55	2955	żądanie	żądania żądaniach żądaniami żądaniem żądaniom żądaniu żądań
+56	2956	narażać	narazi narazili narazić naraził naraziła naraziło naraża narażają narażając narażamy narażania narażanie narażasz narażał narażeni narażenia narażenie narażona narażone narażonego narażony narażonych narażonym narażoną narażą
+57	2957	uwzględnić	uwzględni uwzględnia uwzględniają uwzględniając uwzględniająca uwzględniające uwzględniającego uwzględniającej uwzględniający uwzględniających uwzględniającą uwzględniana uwzględniane uwzględniania uwzględnianie uwzględniany uwzględniać uwzględniał uwzględniała uwzględniały uwzględnienie uwzględnieniem uwzględnij uwzględnili uwzględniona uwzględnione uwzględniono uwzględniony uwzględnionych uwzględnił uwzględniła uwzględniłem
+58	2958	ponowny	ponowna ponowne ponownego ponownej ponownemu ponownych ponownym ponowną
+59	2959	przyjazny	przyjazna przyjazne przyjaznego przyjaznej przyjaznych przyjaznym przyjaznymi przyjazną przyjaźni przyjaźnie
+60	2960	czyjś	czyichś czyimiś czyimś czyiś czyjaś czyjegoś czyjejś czyjeś czyjąś
+61	2961	arena	aren arenach arenie areny areną arenę
+62	2962	house	housie
+63	2963	utrudniać	utrudni utrudnia utrudniaj utrudniają utrudniając utrudniające utrudniający utrudniających utrudniającym utrudniali utrudniania utrudnianie utrudniał utrudniała utrudniało utrudniały utrudnienia utrudnienie utrudnieniem utrudnień utrudniona utrudnione utrudniony utrudnioną utrudnią utrudnić utrudnił utrudniło
+64	2964	cofnąć	cofa cofają cofając cofali cofam cofamy cofania cofanie cofaniem cofasz cofać cofał cofnie cofniecie cofniemy cofniesz cofnij cofnijmy cofnięcia cofnięcie cofnięciem cofnięciu cofnięta cofnięte cofniętego cofnięto cofnięty cofną cofnął cofnąłem cofnę cofnęli cofnęliśmy cofnęła cofnęłam cofnęło cofnęły
+65	2965	konserwatywny	konserwatywna konserwatywne konserwatywnego konserwatywnej konserwatywni konserwatywnie konserwatywno konserwatywnych konserwatywnym konserwatywnymi konserwatywną
+66	2966	pański	pańscy pańska pańskich pańskie pańskiego pańskiej pańskim pańską
+67	2967	porzucić	porzuca porzucają porzucając porzucali porzucam porzucamy porzucania porzucanie porzucasz porzucać porzuceni porzucenia porzucenie porzuceniem porzuceniu porzuci porzucili porzuciwszy porzucił porzuciła porzuciłam porzuciłem porzuciło porzuciły porzucona porzucone porzuconego porzuconej porzucono porzucony porzuconych porzuconym porzuconą porzucą porzuć
+68	2968	przewodnik	przewodnicy przewodniczka przewodniczką przewodnika przewodnikach przewodnikami przewodniki przewodnikiem przewodniku przewodników
+69	2969	cudem	
+70	2970	ego	
+71	2971	ewentualnie	
+72	2972	pozytywnie	
+73	2973	sorry	
+74	2974	sprawozdanie	sprawozdania sprawozdaniach sprawozdaniem sprawozdaniu sprawozdań
+75	2975	tabletka	tableta tabletce tabletek tabletkach tabletkami tabletki tabletkę
+76	2976	instrument	instrumencie instrumentach instrumentami instrumentem instrumentu instrumenty instrumentów
+77	2977	kolejność	kolejności kolejnością
+78	2978	dostawca	dostawcami dostawcom dostawcy dostawców dostawcą dostawcę
+79	2979	um	umie umów
+80	2980	uprawa	upraw uprawach uprawami uprawie uprawy uprawą uprawę
+81	2981	przesłuchanie	przesłuchania przesłuchaniach przesłuchaniem przesłuchaniu przesłuchań
+82	2982	uszkodzenie	uszkodzenia uszkodzeniach uszkodzeniami uszkodzeniem uszkodzeniom uszkodzeniu uszkodzeń
+83	2983	sławny	najsławniejszy sławna sławne sławnego sławnej sławni sławnie sławnych sławnym sławnymi sławną
+84	2984	prysznic	prysznica prysznicami prysznice prysznicem prysznicowa prysznicowe prysznicowej prysznicową prysznicu pryszniców
+85	2985	gardło	gardeł gardle gardła gardłem gardłowe gardłowego gardłowej gardłowo gardłowy
+86	2986	łaski	łach łacha łachy łasce łask łaska łaskach łaskami łaskiego łaską łaskę
+87	2987	era	er ero ery erze erą erę
+88	2988	wezwanie	wezwania wezwaniami wezwaniem wezwaniu wezwań
+89	2989	chmura	chmur chmurach chmurami chmurka chmury chmurze chmurą chmurę
+90	2990	tenże	taż tegoż tejże tychże tymże
+91	2991	kryterium	kryteria kryteriach kryteriami kryteriów
+92	2992	architektura	architektur architektury architekturze architekturą architekturę
+93	2993	sowiecki	sowieccy sowiecka sowieckich sowieckie sowieckiego sowieckiej sowieckim sowieckimi sowiecko sowiecką
+94	2994	kwas	kwasach kwasami kwasem kwasie kwasu kwasy kwasów
+95	2995	omówić	omawia omawiają omawiając omawiające omawiający omawiających omawiali omawialiśmy omawiam omawiamy omawiana omawiane omawianego omawianej omawiania omawianie omawianiu omawiano omawiany omawianych omawianym omawianą omawiać omawiał omówi omówienia omówienie omówieniu omówili omówiliśmy omówimy omówiona omówione omówiono omówiony omówią omówię omówił omówiłem
+96	2996	osiągać	osiąga osiągają osiągając osiągająca osiągające osiągającej osiągający osiągających osiągającym osiągali osiągam osiągamy osiągana osiągane osiągania osiąganie osiąganiu osiągany osiąganych osiągasz osiągał osiągała osiągały
+97	2997	papieros	papierosa papierosach papierosami papierosem papierosy papierosów
+98	2998	grosz	gr gros grosik grosika grosików grosza groszami groszem groszy
+99	2999	odbiorca	odbiorcami odbiorcom odbiorcy odbiorców odbiorcą odbiorcę
+100	3000	sprzeciw	sprzeciwem sprzeciwie sprzeciwu sprzeciwy sprzeciwów

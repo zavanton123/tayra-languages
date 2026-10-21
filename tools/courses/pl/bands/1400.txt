@@ -1,0 +1,100 @@
+1	1301	wyjechać	wyjadą wyjadę wyjechali wyjechaliśmy wyjechania wyjechanie wyjechał wyjechała wyjechałam wyjechałaś wyjechałem wyjechałeś wyjechało wyjechały wyjedzie wyjedziemy wyjedziesz wyjedź wyjeżdża wyjeżdżacie wyjeżdżaj wyjeżdżają wyjeżdżając wyjeżdżający wyjeżdżających wyjeżdżali wyjeżdżaliśmy wyjeżdżam wyjeżdżamy wyjeżdżasz wyjeżdżać wyjeżdżał wyjeżdżała wyjeżdżałam wyjeżdżałem
+2	1302	gadać	gada gadacie gadaj gadajcie gadajmy gadają gadając gadająca gadające gadający gadających gadającą gadali gadaliśmy gadam gadamy gadane gadania gadanie gadaniem gadaniu gadasz gadał gadała gadałam gadałaś gadałem gadałeś gadało gadały gadałyśmy
+3	1303	codziennie	
+4	1304	podobno	
+5	1305	świetnie	
+6	1306	uwierzyć	uwierz uwierzcie uwierzenia uwierzy uwierzycie uwierzyli uwierzyliście uwierzyliśmy uwierzymy uwierzysz uwierzył uwierzyła uwierzyłabym uwierzyłam uwierzyłbym uwierzyłem uwierzyłeś uwierzyło uwierzyły uwierzą uwierzę
+7	1307	zakończenie	zakończenia zakończeniach zakończeniami zakończeniem zakończeniu zakończeń
+8	1308	odpowiedzialność	odpowiedzialności odpowiedzialnością
+9	1309	śpiewać	zaśpiewa zaśpiewaj zaśpiewają zaśpiewali zaśpiewam zaśpiewane zaśpiewać zaśpiewał zaśpiewała śpiewa śpiewaj śpiewajcie śpiewajmy śpiewają śpiewając śpiewająca śpiewające śpiewającego śpiewający śpiewających śpiewającą śpiewali śpiewaliśmy śpiewam śpiewamy śpiewana śpiewane śpiewanej śpiewania śpiewanie śpiewaniem śpiewaniu śpiewano śpiewasz śpiewał śpiewała śpiewałam śpiewałaś śpiewały
+10	1310	niewiele	niewielu
+11	1311	przechodzić	przechodzenia przechodzenie przechodzeniem przechodzeniu przechodzi przechodzicie przechodzili przechodziliśmy przechodzimy przechodzisz przechodził przechodziła przechodziłam przechodziłem przechodziłeś przechodziło przechodziły przechodzą przechodząc przechodząca przechodzące przechodzącego przechodzącej przechodzący przechodzących przechodzącym przechodzącą przechodzę przechodź
+12	1312	weekend	weekendami weekendem weekendowa weekendowe weekendowego weekendowej weekendowy weekendowych weekendowym weekendową weekendu weekendy weekendzie weekendów
+13	1313	ryba	ryb rybach rybami rybce rybek rybeńko rybi rybia rybich rybie rybiego rybiej rybim rybią rybka rybkami rybki rybko rybką rybkę rybna rybne rybnego rybnej rybno rybny rybnych rybnym rybnymi rybną rybom ryby rybą rybę
+14	1314	wyraźnie	najwyraźniej wyraźniej
+15	1315	wywołać	wywoła wywołaj wywołają wywołali wywołam wywołana wywołane wywołanego wywołanej wywołania wywołanie wywołaniu wywołany wywołanych wywołanym wywołaną wywołał wywołała wywołało wywołały wywołań wywołuje wywołują wywołując wywołująca wywołujące wywołujący wywołujących wywoływana wywoływane wywoływania wywoływanie wywoływany wywoływanych wywoływać wywoływał wywoływała wywoływało wywoływały
+16	1316	zasłużyć	zasługiwali zasługiwać zasługiwał zasługiwała zasługiwało zasługiwały zasługuje zasługujecie zasługujemy zasługujesz zasługują zasługujący zasługujących zasługuję zasłużenie zasłuży zasłużyli zasłużyliśmy zasłużył zasłużyła zasłużyłam zasłużyłaś zasłużyłem zasłużyłeś zasłużyło zasłużyły
+17	1317	udzielić	udziel udziela udzielaj udzielają udzielając udzielali udzielam udzielamy udzielana udzielane udzielania udzielanie udzielaniu udzielaną udzielasz udzielać udzielał udzielała udzielały udzielenia udzielenie udzieleniem udzieleniu udzieli udzielili udzielił udzieliła udzieliłem udzieliło udzieliły udzielona udzielone udzielonej udzielono udzielony udzielonych udzielonym udzieloną udzielę
+18	1318	uwielbiać	uwielbia uwielbiacie uwielbiaj uwielbiają uwielbiający uwielbiających uwielbiali uwielbiam uwielbiamy uwielbiana uwielbiany uwielbiasz uwielbiał uwielbiała uwielbiałam uwielbiałaś uwielbiałem uwielbiały
+19	1319	miara	miar miarka miarki miarką miarkę miary miarą miarę mierze
+20	1320	plac	placach placami place placem placu placyk placów
+21	1321	termin	terminach terminami terminem terminie terminowe terminowi terminu terminy terminów
+22	1322	żyd	żyda żydach żydami żydek żydem żydka żydki żydom żydowi żydy żydzi żydzie żydów żydówek żydówka żydówki żydówkę
+23	1323	obudzić	budzenia budzenie budzi budzili budzimy budzisz budzić budził budziła budziłam budziło budziły budzą budząc budzące budzącej budzący budzących budzę budź obudzenia obudzenie obudzeniu obudzi obudzili obudzimy obudzisz obudził obudziła obudziłam obudziłem obudziłeś obudziło obudziły obudzony obudzą obudzę obudź obudźcie
+24	1324	policjant	policjanci policjancie policjanta policjantach policjantami policjantem policjantka policjantom policjantowi policjantów
+25	1325	marzenie	marzenia marzeniach marzeniami marzeniem marzeniom marzeniu marzeń
+26	1326	ogólnie	najogólniej ogólniej
+27	1327	wprowadzenie	wprowadzenia wprowadzeniem wprowadzeniu
+28	1328	koń	koni konia koniach konie koniem konik konika konikami koniki konikiem koniku koników koniom koniowi koniu końmi końska koński końskich końskie końskiego końskiej końskim końską
+29	1329	hotel	hotelach hotelami hotele hotelem hoteli hotelik hoteliku hotelowi hotelu
+30	1330	plus	plusa plusach plusami plusem plusie plusy plusów
+31	1331	sobota	sobocie sobotni sobotnia sobotnich sobotnie sobotniego sobotniej sobotnim sobotnią soboty sobotą sobotę sobót sobótka
+32	1332	poczucie	poczucia poczuciem poczuciu
+33	1333	pomimo	
+34	1334	teatr	teatrach teatralna teatralne teatralnego teatralnej teatralnie teatralno teatralny teatralnych teatralnym teatralnymi teatralną teatrami teatrem teatrowi teatru teatry teatrze teatrzyk teatrzyku teatrzyków teatrów
+35	1335	dołączyć	dołącz dołącza dołączają dołączając dołączali dołączam dołączamy dołączane dołączany dołączasz dołączać dołączała dołączcie dołączenia dołączenie dołączeniem dołączeniu dołączona dołączone dołączonej dołączono dołączony dołączonych dołączonym dołączoną dołączy dołączycie dołączyli dołączymy dołączysz dołączył dołączyła dołączyłam dołączyłaś dołączyłem dołączyło dołączyły dołączą dołączę
+36	1336	pacjent	pacjenci pacjencie pacjenta pacjentach pacjentami pacjentem pacjentka pacjentom pacjentowi pacjentów
+37	1337	biznes	biznesach biznesem biznesie biznesowi biznesu biznesy biznesów business businessu
+38	1338	tło	tle tła tłem tłu
+39	1339	dostarczyć	dostarcza dostarczają dostarczając dostarczające dostarczający dostarczali dostarczamy dostarczana dostarczane dostarczanej dostarczania dostarczanie dostarczaniem dostarczaniu dostarczany dostarczanych dostarczasz dostarczać dostarczał dostarczała dostarczało dostarczały dostarczenia dostarczenie dostarczeniu dostarczona dostarczone dostarczono dostarczony dostarczonych dostarczy dostarczyli dostarczymy dostarczysz dostarczył dostarczyła dostarczyło dostarczyły dostarczą
+40	1340	bok	boczek boczki boczkiem boczku boczna boczne bocznego bocznej boczny bocznych bocznym bocznymi boczną bokach bokami boki bokiem boku boków
+41	1341	rower	rowerach rowerami rowerek rowerem rowerka rowerkiem rowerku rowerków rowerowa rowerowe rowerowego rowerowej rowerowy rowerowych rowerowym rowerowymi rowerową roweru rowery rowerze rowerów
+42	1342	przychodzić	przychodzenie przychodzi przychodzicie przychodzili przychodzimy przychodzisz przychodził przychodziła przychodziłam przychodziłem przychodziło przychodziły przychodzą przychodząc przychodząca przychodzące przychodzącego przychodzący przychodzących przychodzącym przychodzę przychodź
+43	1343	zwycięstwo	zwycięstw zwycięstwa zwycięstwach zwycięstwami zwycięstwem zwycięstwie zwycięstwu
+44	1344	wizyta	wizycie wizyt wizytach wizytami wizytek wizyty wizytą wizytę
+45	1345	bić	bici bicia bicie biciem biciu bij bija bijcie bije bijecie bijemy bijesz biją bijąc bijące bijącego bijący bijących bijącym biję bili biliśmy bita bite bitej bito bity bitych bitą bił biła biłam biłaś biłem biło biły
+46	1346	nagranie	nagrania nagraniach nagraniami nagraniem nagraniom nagraniu nagrań
+47	1347	martwić	martw martwcie martwi martwicie martwienie martwili martwiliśmy martwimy martwisz martwią martwiąc martwię martwił martwiła martwiłabym martwiłam martwiłaś martwiłbym martwiłem martwiło zmartwieni zmartwiona zmartwić zmartwił zmartwiło
+48	1348	marsz	marsza marszach marszami marsze marszem marszowi marszu marszy marszów
+49	1349	propozycja	propozycjach propozycjami propozycje propozycji propozycją propozycję
+50	1350	napis	napisach napisami napisem napisie napisu napisy napisów
+51	1351	centralny	centralna centralne centralnego centralnej centralnemu centralnie centralno centralnych centralnym centralnymi centralną
+52	1352	seks	seksem seksie seksowi seksu
+53	1353	wpis	wpisach wpisami wpisem wpisie wpisowi wpisu wpisy wpisów
+54	1354	siedem	siedmio siedmioma siedmiu
+55	1355	lider	lidera liderami liderek liderem liderka liderki liderką liderkę liderom liderowi liderze liderzy liderów
+56	1356	fragment	fragmencie fragmentach fragmentami fragmentem fragmentu fragmenty fragmentów
+57	1357	przyjmować	przyjmowali przyjmowana przyjmowane przyjmowanego przyjmowanej przyjmowani przyjmowania przyjmowanie przyjmowaniem przyjmowaniu przyjmowano przyjmowany przyjmowanych przyjmował przyjmowała przyjmowałam przyjmowałem przyjmowało przyjmowały przyjmuj przyjmuje przyjmujecie przyjmujemy przyjmujesz przyjmują przyjmując przyjmująca przyjmujące przyjmującego przyjmującej przyjmujący przyjmujących przyjmującym przyjmującą przyjmuję
+58	1358	tani	najtaniej najtańszy tania tanich tanie taniego taniej tanim tanimi tanio tanią tańsza tańsze tańszej tańszy tańszych tańszym tańszą
+59	1359	szeroki	najszerszy szeroka szerokich szerokie szerokiego szerokiej szerokiemu szerokim szerokimi szeroką szersza szersze szerszej szerszemu szerszy szerszych szerszym szerszymi szerszą
+60	1360	technikum	technice techniczna techniczne technicznego technicznej technicznemu techniczni technicznie techniczno techniczny technicznych technicznym technicznymi techniczną technika technikach technikami techniki technikom techników techniką technikę
+61	1361	dzielnica	dzielnic dzielnicach dzielnicami dzielnice dzielnicowe dzielnicowego dzielnicowej dzielnicowy dzielnicowych dzielnicowym dzielnicy dzielnicą dzielnicę
+62	1362	przyjęcie	przyjęcia przyjęciach przyjęciem przyjęciu przyjęć
+63	1363	wczesny	najwcześniejszy wczesna wczesne wczesnego wczesnej wczesno wczesnych wczesnym wczesnymi wczesną wcześni wcześniejsza wcześniejsze wcześniejszej wcześniejszy wcześniejszych wcześniejszym wcześniejszymi wcześniejszą
+64	1364	całość	całości całością
+65	1365	chętnie	chętniej najchętniej
+66	1366	euro	
+67	1367	powodzenie	powodzenia powodzeniem powodzeniu
+68	1368	poddać	podda poddadzą poddaje poddajemy poddajesz poddają poddając poddaję poddali poddam poddamy poddana poddane poddanego poddani poddania poddanie poddaniu poddano poddany poddanych poddanym poddanymi poddasz poddawaj poddawajcie poddawana poddawane poddawani poddawanie poddawany poddawać poddawał poddał poddała poddałam poddałem poddało poddały
+69	1369	dziadek	dziad dziada dziadach dziadami dziadem dziadka dziadkach dziadkami dziadki dziadkiem dziadkom dziadkowi dziadkowie dziadku dziadków dziadowi dziadowie dziadu dziady dziadziuś dziadów
+70	1370	strach	stracha strachem strachowi strachu strachy strachów
+71	1371	bezpośrednio	bezpośredniej
+72	1372	małżeństwo	małżeństw małżeństwa małżeństwach małżeństwami małżeństwem małżeństwie małżeństwom małżeństwu
+73	1373	gatunek	gatunkach gatunkami gatunki gatunkiem gatunkom gatunkowa gatunkowe gatunkowego gatunkowej gatunkowi gatunkowo gatunkowy gatunkowych gatunkowym gatunkową gatunku gatunków
+74	1374	dziedzina	dziedzin dziedzinach dziedzinami dziedzinie dziedziny dziedziną dziedzinę
+75	1375	dodatek	dodatkach dodatkami dodatki dodatkiem dodatkowi dodatku dodatków
+76	1376	sprawdzać	sprawdza sprawdzacie sprawdzaj sprawdzajcie sprawdzają sprawdzając sprawdzające sprawdzającego sprawdzający sprawdzających sprawdzającym sprawdzali sprawdzaliśmy sprawdzam sprawdzamy sprawdzana sprawdzane sprawdzani sprawdzania sprawdzanie sprawdzaniem sprawdzaniu sprawdzano sprawdzany sprawdzasz sprawdzał sprawdzała sprawdzałam sprawdzałaś sprawdzałem sprawdzałeś sprawdzało sprawdzały
+77	1377	pozytywny	pozytywna pozytywne pozytywnego pozytywnej pozytywni pozytywnych pozytywnym pozytywnymi pozytywną
+78	1378	mylić	myl mylenie myli mylicie mylili mylisz mylił myliła myliłam myliłaś myliłem myliły mylona mylone mylony mylą myląc myląca mylące mylący mylących mylę pomyl pomyli pomylili pomyliliśmy pomylisz pomylić pomylił pomyliła pomyliłam pomyliłaś pomyliłem pomyliłeś pomyliło pomyliły pomylono pomylę zmylić
+79	1379	muzyczny	muzyczna muzyczne muzycznego muzycznej muzyczni muzycznie muzyczno muzycznych muzycznym muzycznymi muzyczną
+80	1380	niesamowity	niesamowici niesamowita niesamowite niesamowitego niesamowitej niesamowitych niesamowitym niesamowitymi niesamowitą
+81	1381	rozwiązać	rozwiązali rozwiązaliśmy rozwiązana rozwiązane rozwiązanej rozwiązano rozwiązany rozwiązanych rozwiązaną rozwiązał rozwiązała rozwiązałby rozwiązałem rozwiązałeś rozwiązało rozwiązałoby rozwiązały rozwiązuj rozwiązuje rozwiązujemy rozwiązujesz rozwiązują rozwiązując rozwiązujący rozwiązuję rozwiązywane rozwiązywania rozwiązywanie rozwiązywaniem rozwiązywaniu rozwiązywany rozwiązywać rozwiązywał rozwiązywała rozwiąż rozwiąże rozwiążemy rozwiążesz rozwiążą
+82	1382	skarb	skarbach skarbami skarbem skarbie skarbowi skarbu skarby skarbów
+83	1383	zabijać	zabija zabijacie zabijaj zabijajcie zabijają zabijając zabijające zabijającego zabijający zabijali zabijam zabijamy zabijane zabijani zabijania zabijanie zabijaniem zabijaniu zabijano zabijanych zabijasz zabijał zabijała zabijałaś zabijało zabijały
+84	1384	ku	pu
+85	1385	transport	transporcie transportach transportem transportowi transportu transporty transportów
+86	1386	akurat	
+87	1387	dopóki	
+88	1388	niemal	
+89	1389	popełnić	popełni popełnia popełniają popełniając popełniali popełniam popełniamy popełniane popełniania popełnianie popełnianych popełniasz popełniać popełniał popełnienia popełnienie popełnieniem popełnieniu popełnili popełniliście popełniliśmy popełniona popełnione popełnionego popełnionej popełniono popełniony popełnionych popełnionym popełnią popełnię popełnił popełniła popełniłam popełniłaś popełniłem popełniłeś popełniło popełniły
+90	1390	statek	statkach statkami statki statkiem statkom statkowi statku statków
+91	1391	uniknąć	unika unikaj unikajcie unikają unikając unikająca unikający unikali unikam unikamy unikania unikanie unikaniem unikaniu unikasz unikać unikał unikała unikałam unikałaś unikałbym unikałem unikały uniknie unikniecie unikniemy unikniesz uniknięcia uniknięcie uniknięciu unikną uniknął uniknęli uniknęła
+92	1392	ryzyko	ryzyk ryzyka ryzykiem ryzyku
+93	1393	zadać	zada zadaj zadajcie zadaje zadajecie zadajemy zadajesz zadajmy zadają zadając zadaję zadali zadaliśmy zadam zadana zadane zadano zadany zadanych zadasz zadawaj zadawajcie zadawali zadawane zadawania zadawanie zadawaniu zadawanych zadawać zadawał zadawała zadawałam zadawałem zadał zadała zadałam zadałem zadałeś zadały
+94	1394	komunikacja	komunikacje komunikacji komunikacją komunikację
+95	1395	biegać	biec biega biegaj biegają biegając biegających biegali biegam biegamy biegania bieganie bieganiem bieganiu biegasz biegał biegała biegałem biegli biegnie biegniemy biegniesz biegnij biegną biegnąc biegnący biegnę biegł biegła biegłego biegły biegłych biegłym pobiec pobiegli pobiegnę pobiegł pobiegła pobiegłam pobiegłem
+96	1396	krytyka	krytyce krytycy krytyczka krytyk krytykami krytyki krytykiem krytykom krytyków krytyką krytykę
+97	1397	odpowiedzialny	odpowiedzialna odpowiedzialne odpowiedzialnego odpowiedzialnej odpowiedzialni odpowiedzialnie odpowiedzialnych odpowiedzialnym odpowiedzialnymi odpowiedzialną
+98	1398	pewny	pewna pewne pewnego pewnej pewnemu pewni pewniejsza pewniejsze pewniejszy pewnych pewnym pewnymi pewną
+99	1399	połączyć	połącz połączeni połączmy połączona połączone połączonego połączonej połączono połączony połączonych połączonym połączonymi połączoną połączy połączyli połączyliśmy połączymy połączysz połączył połączyła połączyłam połączyłem połączyło połączyły połączą połączę
+100	1400	przedsiębiorstwo	przedsiębiorstw przedsiębiorstwa przedsiębiorstwach przedsiębiorstwami przedsiębiorstwem przedsiębiorstwie przedsiębiorstwom przedsiębiorstwu

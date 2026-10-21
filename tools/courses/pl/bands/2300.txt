@@ -1,0 +1,100 @@
+1	2201	rozum	rozumem rozumie rozumowi rozumu rozumy
+2	2202	rasa	ras rasach rasami rasie rasy rasą rasę
+3	2203	muzyk	muzycy muzyczka muzykami muzyki muzykiem muzykom muzykowi muzyku muzyków
+4	2204	wada	wad wadach wadami wady wadzie wadą wadę
+5	2205	wydarzyć	wydarza wydarzy wydarzył wydarzyła wydarzyło wydarzyły wydarzą
+6	2206	głupota	głupocie głupot głupotach głupotami głupoty głupotą głupotę
+7	2207	burmistrz	burmistrza burmistrzami burmistrzem burmistrzowi burmistrzowie burmistrzu burmistrzów
+8	2208	wnętrze	wnętrz wnętrza wnętrzach wnętrzami wnętrzem wnętrzu
+9	2209	moda	modach modami modo modom mody modzie modą modę mód
+10	2210	maska	masce maseczce maseczek maseczka maseczkach maseczki maseczką maseczkę masek maskach maskami maski maską maskę
+11	2211	ostateczny	ostateczna ostateczne ostatecznego ostatecznej ostatecznemu ostatecznych ostatecznym ostatecznymi ostateczną
+12	2212	izba	izb izbach izbami izbie izby izbą izbę
+13	2213	odbicie	odbicia odbiciem odbiciu odbija odbijają odbijając odbijająca odbijające odbijający odbijających odbijam odbijamy odbijane odbijania odbijanie odbijaniu odbijasz odbijać odbijał odbijała odbijało odbijały odbije odbijemy odbiją odbili odbita odbite odbitego odbity odbitych odbitym odbić odbił odbiła odbiłam odbiłem odbiło odbiły
+14	2214	samobójstwo	samobójstw samobójstwa samobójstwami samobójstwem samobójstwie samobójstwom
+15	2215	zaznaczyć	zaznacz zaznacza zaznaczają zaznaczając zaznaczali zaznaczam zaznaczamy zaznaczania zaznaczasz zaznaczać zaznaczał zaznaczenia zaznaczenie zaznaczeniem zaznaczona zaznaczone zaznaczonego zaznaczonej zaznaczono zaznaczony zaznaczonych zaznaczonym zaznaczonymi zaznaczoną zaznaczy zaznaczyli zaznaczymy zaznaczysz zaznaczył zaznaczyła zaznaczyłam zaznaczyłem zaznaczyłeś zaznaczyły zaznaczę
+16	2216	doczekać	doczeka doczekają doczekali doczekaliśmy doczekam doczekamy doczekasz doczekał doczekała doczekałam doczekałem doczekało doczekały
+17	2217	obawa	obaw obawach obawami obawie obawom obawy obawą obawę
+18	2218	skuteczny	najskuteczniejszy skuteczna skuteczne skutecznego skutecznej skuteczni skuteczniejsza skuteczniejsze skuteczniejszy skuteczniejszą skutecznych skutecznym skutecznymi skuteczną
+19	2219	przekaz	przekazach przekazami przekazem przekazie przekazu przekazy przekazów
+20	2220	dzieciństwo	dzieciństwa dzieciństwem dzieciństwie
+21	2221	butelka	butelce buteleczka butelek butelkach butelkami butelki butelką butelkę butla butlach butle butli butlę
+22	2222	panować	panowali panował panowała panowało panowały panuj panuje panują panująca panujące panującej panujący panujących panuję
+23	2223	finanse	finansach finansami finansów
+24	2224	odwaga	odwadze odwagi odwagą odwagę
+25	2225	emerytura	emerytur emeryturach emeryturami emeryturkę emerytury emeryturze emeryturą emeryturę
+26	2226	gen	genach genami genem genie genom genomem genomie genomu genomy genomów genowa genowej genu geny genów
+27	2227	śmiech	śmiechem śmiechu śmiechy śmiechów śmieszek śmieszka śmieszkami śmieszki śmieszkiem śmieszku śmieszków
+28	2228	skazany	skazana skazanego skazanej skazanemu skazani skazanych skazanym skazanymi skazaną
+29	2229	przywrócić	przywraca przywracają przywracając przywracający przywracam przywracamy przywracania przywracanie przywracaniu przywracać przywracał przywrócenia przywrócenie przywróceniem przywróceniu przywróci przywrócili przywrócimy przywrócił przywróciła przywróciło przywróciły przywrócona przywrócone przywrócono przywrócony przywrócą przywróć przywróćmy
+30	2230	chemiczny	chemiczna chemiczne chemicznego chemicznej chemicznie chemiczno chemicznych chemicznym chemicznymi chemiczną
+31	2231	umyć	mycia mycie myj myje myjecie myjemy myjesz myją myjąc myję myli myta myte myto myty myć mył myła myłam myłaś myłem umycia umycie umyciu umyj umyje umyjemy umyjesz umyję umyli umyta umyte umyty umył umyła umyłam umyłaś umyłem
+32	2232	infrastruktura	infrastruktury infrastrukturze infrastrukturą infrastrukturę
+33	2233	wyróżnić	wyróżnia wyróżniają wyróżniając wyróżniająca wyróżniające wyróżniającego wyróżniającej wyróżniający wyróżniających wyróżniającym wyróżniającymi wyróżniającą wyróżniali wyróżniam wyróżniamy wyróżniana wyróżniane wyróżniania wyróżnianie wyróżniany wyróżniać wyróżniał wyróżniała wyróżniało wyróżniały wyróżnieni wyróżnili wyróżniona wyróżnione wyróżnionego wyróżnionej wyróżniono wyróżniony wyróżnionych wyróżnionym wyróżnioną wyróżnił wyróżniła wyróżniło
+34	2234	rozpoczynać	rozpoczyna rozpoczynaj rozpoczynają rozpoczynając rozpoczynająca rozpoczynające rozpoczynającego rozpoczynającej rozpoczynający rozpoczynających rozpoczynającym rozpoczynającą rozpoczynali rozpoczynam rozpoczynamy rozpoczynania rozpoczynanie rozpoczynasz rozpoczynał rozpoczynała rozpoczynało rozpoczynały
+35	2235	aborcja	aborcje aborcji aborcją aborcję
+36	2236	niezwykle	
+37	2237	show	
+38	2238	wielokrotnie	
+39	2239	przyczynić	przyczyni przyczynia przyczyniają przyczyniając przyczyniające przyczyniamy przyczynianie przyczyniać przyczyniał przyczyniały przyczynienie przyczynili przyczynią przyczynił przyczyniła przyczyniłeś przyczyniło przyczyniły
+40	2240	aspekt	aspekcie aspektach aspektami aspektem aspektom aspektu aspekty aspektów
+41	2241	maksymalny	maksymalna maksymalne maksymalnego maksymalnej maksymalnie maksymalnych maksymalnym maksymalną
+42	2242	logo	log loga logach logi logiem logu logów
+43	2243	krytykować	krytykowali krytykowana krytykowane krytykowanego krytykowani krytykowania krytykowanie krytykowano krytykowany krytykował krytykowała krytykowałem krytykowało krytykowały krytykuj krytykuje krytykujecie krytykujemy krytykujesz krytykują krytykując krytykujące krytykujący krytykujących krytykuję skrytykowali skrytykowana skrytykowane skrytykowany skrytykować skrytykował skrytykowała skrytykowało skrytykowały skrytykuje
+44	2244	zbrojny	zbrojna zbrojne zbrojnego zbrojnej zbrojni zbrojnie zbrojnych zbrojnym zbrojnymi zbrojną
+45	2245	szafa	szaf szafach szafce szafek szafie szafka szafkach szafkami szafki szafką szafkę szafy szafą szafę
+46	2246	załatwić	załatw załatwi załatwia załatwiają załatwiając załatwiali załatwiam załatwiamy załatwiane załatwiania załatwianie załatwianiu załatwiasz załatwiać załatwiał załatwienia załatwienie załatwili załatwiliśmy załatwimy załatwiona załatwione załatwiono załatwiony załatwioną załatwisz załatwią załatwię załatwił załatwiła załatwiłam załatwiłaś załatwiłem załatwiło
+47	2247	godny	godna godne godnego godnej godni godnie godnych godnym godnymi godną godzien
+48	2248	zablokować	zablokowali zablokowana zablokowane zablokowanego zablokowanej zablokowania zablokowanie zablokowaniem zablokowaniu zablokowano zablokowany zablokowanych zablokowanym zablokowaną zablokował zablokowała zablokowałam zablokowałem zablokowało zablokowały zablokuj zablokujcie zablokuje zablokujesz zablokują zablokuję
+49	2249	piąty	piąta piąte piątego piątej piątych piątym piątą
+50	2250	mandat	mandacie mandacik mandatami mandatem mandatu mandaty mandatów
+51	2251	trening	treningach treningami treningi treningiem treningowi treningu treningów
+52	2252	cień	cieni cienia cieniach cieniami cienie cieniem cieniom cieniu
+53	2253	górny	górna górne górnego górnej górnych górnym górnymi górną
+54	2254	wtorek	wtorki wtorku wtorków
+55	2255	kontrakt	kontrakcie kontraktach kontraktami kontraktem kontraktowi kontraktowy kontraktowych kontraktu kontrakty kontraktów
+56	2256	grób	grobach grobami grobem grobie grobu groby grobów
+57	2257	kąt	kącie kącik kąta kątach kątami kątem kątowa kątowe kątowej kątowy kątowych kątową kąty kątów
+58	2258	sztuczny	sztuczna sztuczne sztucznego sztucznej sztucznych sztucznym sztucznymi sztuczną
+59	2259	zakazać	zakazali zakazana zakazane zakazanego zakazanej zakazania zakazanie zakazano zakazany zakazanych zakazanym zakazanymi zakazaną zakazał zakazała zakazało zakazały zakazuje zakazują zakazując zakazująca zakazujące zakazującego zakazującej zakazujący zakazującą zakazywanie zakazywać zakazywał zakaże zakażą
+60	2260	startować	startowali startowaliśmy startowania startowanie startował startowała startowałem startowało startowały startuj startuje startujemy startujesz startują startując startująca startujące startujący startujących startuję wystartowali wystartowaliśmy wystartować wystartował wystartowała wystartowałem wystartowało wystartowały wystartuje wystartują wystartuję
+61	2261	walić	wal wala walcie wale waleni walenie wali walili walimy walisz walił waliła waliło waliły walnie walniesz walnij walnięcie walnięta walnięty walniętym walną walnąć walnął walnąłem walnąłeś walnę walnęli walnęła walnęłam walą waląc walący walę
+62	2262	kieszeń	kieszeni kieszeniach kieszeniami kieszenie kieszenią kieszonce kieszonka kieszonkami kieszonki
+63	2263	arabski	arabscy arabska arabskich arabskie arabskiego arabskiej arabskiemu arabskim arabskimi arabsko arabsku arabską
+64	2264	gotować	gotowali gotowana gotowane gotowanie gotowany gotował gotowała gotowałam gotowałem gotuj gotuje gotujemy gotujesz gotują gotując gotuję ugotowali ugotowana ugotowane ugotowani ugotowania ugotowaniu ugotowany ugotowanych ugotowanym ugotować ugotował ugotowała ugotowałam ugotowałaś ugotuj ugotuje ugotujemy ugotujesz ugotują ugotuję zgotowali zgotował
+65	2265	opracować	opracowali opracowaliśmy opracowana opracowane opracowanego opracowanej opracowano opracowany opracowanych opracowanym opracowanymi opracowaną opracował opracowała opracowałam opracowałem opracowało opracowały opracowuje opracowujemy opracowują opracowując opracowuję opracowywana opracowywane opracowywania opracowywanie opracowywaniem opracowywaniu opracowywany opracowywanych opracowywać opracowywał opracuj opracuje opracujemy opracuję
+66	2266	powyższy	powyższa powyższe powyższego powyższej powyższych powyższym powyższymi powyższą
+67	2267	tożsamość	tożsamości tożsamością
+68	2268	utrata	utracie utraty utratą utratę
+69	2269	zmierzyć	mierz mierzenia mierzenie mierzona mierzone mierzonej mierzony mierzy mierzyli mierzymy mierzysz mierzyć mierzył mierzyła mierzyłam mierzyłem mierzą mierząc mierząca mierzące mierzącego mierzący mierzących mierzę zmierz zmierzenia zmierzenie zmierzona zmierzone zmierzony zmierzy zmierzyli zmierzymy zmierzysz zmierzył zmierzyła zmierzyły zmierzą zmierzę
+70	2270	krótko	krócej najkrócej
+71	2271	wirus	wirusa wirusami wirusem wirusie wirusowa wirusowe wirusowego wirusowej wirusowi wirusowy wirusowych wirusowym wirusową wirusy wirusów
+72	2272	zdrowotny	zdrowotna zdrowotne zdrowotnego zdrowotnej zdrowotnych zdrowotnym zdrowotnymi zdrowotną
+73	2273	łazienka	łazience łazienek łazienkach łazienkami łazienki łazienką łazienkę
+74	2274	info	
+75	2275	okej	
+76	2276	początkowo	
+77	2277	regularnie	
+78	2278	sprzed	
+79	2279	księga	ksiąg księdze księgach księgami księgi księgą księgę
+80	2280	porozmawiać	porozmawia porozmawiaj porozmawiajmy porozmawiają porozmawiali porozmawialiśmy porozmawiam porozmawiamy porozmawiania porozmawiasz porozmawiał porozmawiałam porozmawiały
+81	2281	placówka	placówce placówek placówkach placówkami placówki placówkom placówką placówkę
+82	2282	podręcznik	podręcznika podręcznikach podręcznikami podręczniki podręcznikiem podręczniku podręczników
+83	2283	kłopot	kłopocie kłopotach kłopotami kłopotem kłopotu kłopoty kłopotów
+84	2284	pozbyć	pozbycia pozbycie pozbyciem pozbyciu pozbyli pozbyliśmy pozbyto pozbywa pozbywają pozbywając pozbywali pozbywam pozbywamy pozbywania pozbywanie pozbywasz pozbywać pozbywał pozbył pozbyła pozbyłam pozbyłem pozbyłeś pozbądź pozbędzie pozbędziemy pozbędziesz pozbędą pozbędę
+85	2285	przygoda	przygodach przygodami przygodowa przygodowe przygodowego przygodowej przygodowo przygodowy przygodowych przygodową przygody przygodzie przygodą przygodę przygód
+86	2286	modlić	modlenia modli modlicie modlili modliliśmy modlimy modlisz modlił modliła modliłam modliłem modliły modlono modlą modląc modlącego modlący modlących modlę módl módlcie módlmy
+87	2287	cud	cuda cudach cudami cudu cudy cudzie cudów
+88	2288	dobro	dobrach dobrami dobrem dobrom dobru dóbr
+89	2289	włożyć	wkłada wkładaj wkładają wkładając wkładali wkładam wkładamy wkładane wkładania wkładanie wkładano wkładany wkładasz wkładać wkładał wkładała wkładałam włożenia włożenie włożeniu włożona włożone włożonej włożono włożony włoży włożyli włożyliśmy włożymy włożysz włożył włożyła włożyłam włożyłaś włożyłem włożyłeś włożę włóż włóżcie
+90	2290	nóż	noża nożach nożami noże nożem nożu noży nożyk
+91	2291	pizza	pizz pizze pizzy pizzą pizzę
+92	2292	magiczny	magiczna magiczne magicznego magicznej magicznie magicznych magicznym magicznymi magiczną
+93	2293	literacki	literacka literackich literackie literackiego literackiej literackim literackimi literacko literacką
+94	2294	filozofia	filozofie filozofii filozofią filozofię
+95	2295	żywność	żywności żywnością
+96	2296	ignorować	ignorowali ignorowana ignorowane ignorowani ignorowania ignorowanie ignorowaniu ignorowany ignorowanych ignorował ignorowała ignorowałam ignoruj ignorujcie ignoruje ignorujemy ignorujesz ignorują ignorując ignoruję zignorowali zignorowana zignorowane zignorowania zignorowanie zignorowano zignorowany zignorować zignorował zignorowała zignorowałam zignorowałem zignoruj zignorujcie zignoruje zignorujemy zignorujesz zignorują zignoruję
+97	2297	wieczny	wieczna wieczne wiecznego wiecznej wiecznemu wieczni wiecznych wiecznym wiecznymi wieczną
+98	2298	strój	stroi stroik strojach strojami stroje strojem stroju strojów
+99	2299	ukończyć	ukończenie ukończeniu ukończona ukończone ukończonego ukończonej ukończono ukończony ukończonych ukończonym ukończoną ukończy ukończyli ukończyliśmy ukończył ukończyła ukończyłam ukończyłaś ukończyłem ukończyłeś ukończyło ukończyły ukończą
+100	2300	byle	bele

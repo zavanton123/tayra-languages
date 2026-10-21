@@ -1,0 +1,100 @@
+1	1	w	we
+2	2	być	bycia bycie byli byliśmy był była byłaby byłam byłaś byłby byłbym byłego byłem byłeś było byłoby były byłyby byłych bądź bądźmy będzie będziecie będziemy będziesz będą będąc będące będący będących będę je jest jestem jesteś jesteście jesteśmy sa są
+3	3	to	tego tem temi temu tym tyma tymi
+4	4	i	
+5	5	nie	ni
+6	6	się	cases sie siebie sobie sobą
+7	7	z	ze
+8	8	na	nań ne
+9	9	do	doń
+10	10	że	żem żeś żeście żeśmy
+11	11	mieć	ma macie mają mając mająca mające mający mam mamy masz miana mianem miano miał miała miałaby miałabym miałam miałaś miałby miałbym miałbyś miałem miałeś miało miałoby miały miałyby miałyśmy miej miejcie miejmy mieli mieliby mielibyśmy mieliście mieliśmy mienia mienie
+12	12	jak	jacy jaka jaki jakich jakie jakiego jakiej jakiem jakiemu jakim jakimi jaków jaką
+13	13	o	
+14	14	ten	ci ta te tego tej temu tych tymi tą tę
+15	15	ja	jo mi mię mnie mną
+16	16	a	
+17	17	co	czego czemu czym
+18	18	który	która które którego której któremu których którym którymi którzy którą
+19	19	on	go je jego jemu mu niego niemu nim onego ono onych won wonów
+20	20	ale	hale
+21	21	tak	
+22	22	za	
+23	23	od	odeń
+24	24	po	
+25	25	oni	ich im nich nim nimi
+26	26	dla	dlań
+27	27	rok	lat lata latach latami latek latka latkami latkom latom laty roczek roczku roka roki rokiem roku
+28	28	czy	cy
+29	29	przez	przeze przezeń
+30	30	taki	tacy taka takich takie takiego takiej takiemu takim takimi taką
+31	31	mój	me mego mej memu moi moich moim moimi moja moje mojego mojej mojemu moją mych mym mą
+32	32	bardzo	bardziej najbardziej
+33	33	tylko	tylo
+34	34	ona	je jej ją niej nią ono
+35	35	już	ju jus juz uż
+36	36	móc	mogli mogliby moglibyście moglibyśmy mogliście mogliśmy mogą mogąc mogąca mogące mogącego mogącej mogący mogących mogącym mogącą mogę mogł mogła mogłaby mogłabym mogłabyś mogłam mogłaś mogłem mogłeś mogło mogłoby mogły mogłyby mogłybyśmy mogłyśmy możecie możemy możesz mógł mógłby mógłbym mógłbyś
+37	37	swój	swa swe swego swej swemu swoi swoich swoim swoimi swoja swoje swojego swojej swojemu swoją swoję swych swym swymi swą
+38	38	człowiek	człowiecze człowieczek człowieczka człowieczkiem człowieczku człowieka człowieki człowiekiem człowiekowi człowieku ludzi ludziach ludzie ludziom ludźmi
+39	39	chcieć	chce chcecie chcemy chcenie chcesz chciano chciał chciała chciałaby chciałabym chciałabyś chciałam chciałaś chciałby chciałbym chciałbyś chciałem chciałeś chciało chciałoby chciały chciałyby chciałybyście chciałybyśmy chciałyśmy chciej chcieli chcieliby chcielibyście chcielibyśmy chcieliście chcieliśmy chcą chcąc chcąca chcące chcący chcących chcę
+40	40	może	
+41	41	wiedzieć	wie wiecie wiedz wiedzcie wiedziano wiedział wiedziała wiedziałaby wiedziałabym wiedziałam wiedziałaś wiedziałby wiedziałbym wiedziałbyś wiedziałem wiedziałeś wiedziało wiedziały wiedziałyśmy wiedzieli wiedzielibyśmy wiedzieliście wiedzieliśmy wiedzą wiedząc wiedzący wiedzących wiem wiemy wiesz wsze
+42	42	bo	bom boś bośmy bum
+43	43	ty	ci ciebie cię tobie tobą
+44	44	by	bym byś byście byśmy
+45	45	inny	inna inne innego innej innemu inni innych innym innymi inną iny jenny jeny
+46	46	dobry	dobra dobre dobrego dobrej dobrem dobremu dobrych dobrym dobrymi dobrzany dobrzy dobrą lepsza lepsze lepszego lepszy lepszym najlepsi najlepsza najlepsze najlepszego najlepszej najlepszemu najlepszy najlepszych najlepszym najlepszymi najlepszą
+47	47	jeden	jedna jedne jednego jednej jednemu jedni jedno jednych jednym jednymi jedną jedyn
+48	48	sam	sama same samego samej samem samemu sami samo samowi samu samy samych samym samymi samą
+49	49	czas	cas czasach czasem czasie czasom czasowi czasu czasy czasów
+50	50	my	nam nami nas
+51	51	zostać	zostali zostaliby zostaliście zostaliśmy zostania zostanie zostaniecie zostaniem zostaniemy zostaniesz zostaniu zostaną zostanę został została zostałaby zostałabym zostałabyś zostałam zostałaś zostałby zostałbym zostałbyś zostałem zostałeś zostało zostałoby zostały zostałyby zostałyśmy zostań zostańcie zostańmy
+52	52	oraz	
+53	53	polski	polscy polska polskich polskie polskiego polskiej polskiemu polskim polskimi polsko polsku polską
+54	54	dzień	dni dnia dniach dniami dnie dniem dniom dniu dzionek dziń
+55	55	jeśli	jeli jesli jeśliś jeżli
+56	56	nasz	nasi nasza nasze naszego naszej naszemu naszy naszych naszym naszymi naszą
+57	57	też	
+58	58	nowy	najnowszy nowa nowe nowego nowej nowemu nowi nowiutki nowiutkie nowo nowsza nowsze nowszej nowszy nowszych nowszym nowszymi nowszą nowych nowym nowymi nową
+59	59	coś	cos cosi czegoś czemuś czymś
+60	60	osoba	osobach osobami osobie osobo osobom osoby osobą osobę osób osóbka
+61	61	jeszcze	
+62	62	mówić	mawiać mawiał mów mówcie mówi mówicie mówienia mówienie mówieniem mówieniu mówili mówiliście mówiliśmy mówimy mówione mówiono mówisz mówią mówiąc mówiąca mówiące mówiącego mówiącej mówiący mówiących mówiącym mówiącymi mówiącą mówię mówił mówiła mówiłam mówiłaś mówiłby mówiłem mówiłeś mówiło mówiły mówmy
+63	63	musieć	musi musiano musiał musiała musiałaby musiałabym musiałabyś musiałam musiałaś musiałby musiałbym musiałbyś musiałem musiałeś musiało musiałoby musiały musiałyby musiałyśmy musicie musieli musieliby musielibyście musielibyśmy musieliście musieliśmy musimy musisz muszą musząc muszę
+64	64	pierwszy	pierwsi pierwsza pierwsze pierwszego pierwszej pierwszemu pierwszo pierwszych pierwszym pierwszymi pierwszą
+65	65	jako	
+66	66	każdy	każda każde każdego każdej każdemu każdych każdym każdymi każdą
+67	67	dobrze	lepi lepiej lepsi najlepiej
+68	68	kiedy	
+69	69	miejsce	miejsc miejsca miejscach miejscami miejscem miejscom miejscu misce
+70	70	życie	życia życiach życiem życiu
+71	71	wszystko	wszysko wszystkiego wszystkiemu wszystkim
+72	72	stać	stale stali staliśmy stania stanie staniemy staniesz staną stanę stał stała stałam stałe stałego stałej stałem stało stały stałych stałym stałymi stałą stań stoi stoimy stoisz stoją stojąc stojąca stojące stojącego stojącej stojąco stojący stojących stojącym stojącą stoję stój
+73	73	cały	cali calutki calutkie calutkim cał cała całe całego całej całemu cało całych całym całymi całą
+74	74	strona	stron stronach stronami stronie stronka stronkę stronom strony stroną stronę
+75	75	nawet	
+76	76	teraz	
+77	77	raz	raza razach razie razu razy razów
+78	78	no	nu ną
+79	79	pod	pode
+80	80	ktoś	kimś kogoś komuś
+81	81	nic	niczego niczemu niczym
+82	82	żeby	żebym żebyś żebyście żebyśmy
+83	83	praca	prac pracach pracami prace pracom pracy pracą pracę
+84	84	powiedzieć	powie powiecie powiedz powiedzcie powiedzenia powiedzenie powiedzeniem powiedzeniu powiedziane powiedziano powiedziawszy powiedział powiedziała powiedziałaby powiedziałabym powiedziałabyś powiedziałam powiedziałaś powiedziałby powiedziałbym powiedziałbyś powiedziałem powiedziałeś powiedziało powiedziałoby powiedziały powiedzieli powiedzieliby powiedzielibyśmy powiedzieliście powiedzieliśmy powiedzmy powiedzonek powiedzonka powiedzonko powiedzą powiem powiemy powiesz
+85	85	dwa	dwaj dwie dwiema dwom dwoma dwu dwóch dwóm
+86	86	zrobić	zrobi zrobicie zrobie zrobienie zrobieniem zrobieniu zrobili zrobiliby zrobiliście zrobiliśmy zrobimy zrobiona zrobione zrobiono zrobiony zrobionych zrobioną zrobisz zrobią zrobię zrobił zrobiła zrobiłaby zrobiłabym zrobiłabyś zrobiłam zrobiłaś zrobiłby zrobiłbym zrobiłbyś zrobiłem zrobiłeś zrobiło zrobiłoby zrobiły zrobiłyśmy zrób zróbcie zróbmy
+87	87	dać	da dacie dadzą daj dajcie dajmy dali daliście daliśmy dam damy dana danego danej dani dania danie daniem dano dany danym danymi daną dasz dał dała dałaby dałabym dałam dałaś dałby dałbym dałbyś dałem dałeś dało dałoby dały dań
+88	88	jakiś	jacyś jakaś jakichś jakiegoś jakiejś jakiemuś jakieś jakimiś jakimś jakąś
+89	89	dziecko	dzieci dzieciach dziecinka dziecino dzieciom dziecka dzieckiem dziecku dziećmi
+90	90	kto	kim kogo komu tko
+91	91	robić	robi robicie robienia robienie robieniem robieniu robili robiliby robiliście robiliśmy robimy robiona robione robiono robiony robisz robią robiąc robiąca robiące robiącego robiący robiących robię robił robiła robiłabym robiłam robiłaś robiłby robiłbym robiłem robiłeś robiło robiły robiłyśmy rób róbcie róbmy
+92	92	tam	
+93	93	więc	
+94	94	gdzie	dzie
+95	95	gdy	
+96	96	przed	przede
+97	97	bez	bes beze bzu bzy bzów
+98	98	wiele	najwięcej wielo wieloma wielu
+99	99	prawo	praw prawa prawach prawami prawem prawna prawne prawnego prawnej prawnemu prawni prawnie prawno prawny prawnych prawnym prawnymi prawną prawom prawu
+100	100	jednak	

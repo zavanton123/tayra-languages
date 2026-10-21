@@ -1,0 +1,100 @@
+1	5901	koperta	kopercie kopert kopertach koperty kopertą kopertę
+2	5902	sokół	sokola sokole sokoli sokolim sokoła sokołem sokołowie sokoły sokołów
+3	5903	stocznia	stoczni stoczniach stocznie stocznią stocznię
+4	5904	rozgłos	rozgłosem rozgłosie rozgłosu
+5	5905	fachowiec	fachowca fachowcami fachowcem fachowcy fachowców
+6	5906	zagubiony	zagubieni zagubiona zagubione zagubionego zagubionej zagubionych zagubionym zagubioną
+7	5907	sensacja	sensacje sensacji sensacją sensację
+8	5908	dotyk	dotykiem dotyku
+9	5909	rozstrzygnąć	rozstrzyga rozstrzygają rozstrzygająca rozstrzygające rozstrzygającego rozstrzygający rozstrzygającym rozstrzygane rozstrzygania rozstrzyganie rozstrzyganiu rozstrzygać rozstrzygał rozstrzygały rozstrzygnie rozstrzygnięta rozstrzygnięte rozstrzygnięto rozstrzygnięty rozstrzygną rozstrzygnął rozstrzygnęła rozstrzygnęły
+10	5910	ranek	ranka ranki rankiem ranku
+11	5911	przemowa	przemowie przemowy przemową przemowę przemów
+12	5912	pogrążyć	pogrąża pogrążaj pogrążają pogrążając pogrążasz pogrążać pogrążeni pogrążona pogrążone pogrążonego pogrążonej pogrążony pogrążonych pogrążonym pogrążoną pogrąży pogrążył pogrążyła pogrążyło pogrążyły
+13	5913	zmienny	zmienne zmiennego zmiennej zmiennych zmiennym zmiennymi zmienną
+14	5914	biuletyn	biuletynie biuletynu biuletyny biuletynów
+15	5915	przystosować	przystosowali przystosowana przystosowane przystosowani przystosowania przystosowanie przystosowaniem przystosowaniu przystosowano przystosował przystosowała przystosowały przystosowuje przystosowują przystosowując przystosowywania przystosowywać przystosują
+16	5916	fach	fachem fachowa fachowe fachowego fachowej fachowy fachowych fachowym fachową fachu
+17	5917	wolontariat	wolontariacie wolontariatem wolontariatu
+18	5918	rozejrzeć	rozejrzał rozejrzałam rozejrzałem rozejrzyj rozejrzę rozgląda rozglądajcie rozglądają rozglądając rozglądam rozglądamy rozglądasz rozglądać rozglądał rozglądałam rozglądałem
+19	5919	udoskonalić	doskonalenia doskonalenie doskonali doskonalić doskonalił doskonaliła doskonaląc doskonalące doskonalący udoskonalania udoskonalanie udoskonalać udoskonalenia udoskonalenie udoskonaleniem udoskonaleniu udoskonaleń udoskonalił udoskonalona udoskonalone udoskonalono udoskonalony udoskonaloną
+20	5920	głośnik	głośnika głośnikach głośnikami głośniki głośnikiem głośnikowa głośnikowe głośnikowy głośnikowych głośniku głośników
+21	5921	abc	
+22	5922	ekstra	
+23	5923	gwałtownie	
+24	5924	pilnie	
+25	5925	zależnie	
+26	5926	nieprawdziwy	nieprawdziwa nieprawdziwe nieprawdziwego nieprawdziwych nieprawdziwym nieprawdziwą
+27	5927	bezczelny	bezczelna bezczelne bezczelnego bezczelnej bezczelni bezczelnie bezczelnych bezczelnym bezczelną
+28	5928	przeciwstawić	przeciwstawia przeciwstawiają przeciwstawiając przeciwstawiali przeciwstawiania przeciwstawianie przeciwstawiać przeciwstawiał przeciwstawienia przeciwstawienie przeciwstawili przeciwstawił przeciwstawiła
+29	5929	wielokrotny	wielokrotna wielokrotne wielokrotnego wielokrotnej wielokrotni wielokrotnych wielokrotnym wielokrotnymi wielokrotną
+30	5930	terminal	terminala terminalach terminalami terminale terminalem terminali terminalu
+31	5931	krata	kracie krat kratach kratami kraty kratą kratę
+32	5932	niejeden	niejedna niejednego niejednej niejednemu niejedno niejednym niejedną
+33	5933	reaktor	reaktora reaktorach reaktorami reaktorem reaktory reaktorze reaktorów
+34	5934	maluch	malucha maluchem maluchu maluchy maluchów maluszek maluszka
+35	5935	animować	animowana animowane animowanego animowanej animowanie animowany animowanych animowanym animowaną
+36	5936	magisterski	magisterska magisterskich magisterskie magisterskiej magisterskim magisterską
+37	5937	awantura	awantur awantury awanturze awanturą awanturę
+38	5938	zatwierdzenie	zatwierdzenia zatwierdzeniem zatwierdzeniu
+39	5939	kulinarny	kulinarna kulinarne kulinarnego kulinarnej kulinarnie kulinarnych kulinarnym kulinarnymi kulinarną
+40	5940	zlot	zlocie zlotach zlotem zlotu zloty zlotów
+41	5941	konserwacja	konserwacji konserwacją konserwację
+42	5942	murowany	murowana murowane murowanego murowanej murowanie murowanych murowanym murowaną
+43	5943	treningowy	treningowa treningowe treningowego treningowej treningowi treningowych treningowym treningową
+44	5944	zdechnąć	zdechnie zdechniemy zdechniesz zdechną zdechnę zdechł zdechła zdechłego zdechło zdechły zdechłych zdechłą zdycha zdychają zdychali zdycham zdychać zdychał
+45	5945	napotkać	napotka napotkają napotkali napotkaliśmy napotkamy napotkane napotkanego napotkanej napotkania napotkany napotkanych napotkanym napotkaną napotkasz napotkał napotkała napotkałem napotkały napotyka napotykają napotykając napotykam napotykamy napotykanych
+46	5946	ożywić	ożywi ożywia ożywiają ożywiać ożywienia ożywienie ożywieniem ożywiona ożywione ożywionego ożywionej ożywiony ożywionych ożywioną ożywił ożywiła ożywiło
+47	5947	smród	smrodek smrodem smrodu smrodzie
+48	5948	obrotowy	obrotowa obrotowe obrotowego obrotowej obrotowi obrotowo obrotowych obrotowym obrotowymi obrotową
+49	5949	przestraszyć	przestrasz przestraszeni przestraszona przestraszone przestraszony przestraszonych przestraszonym przestraszy przestraszyli przestraszył przestraszyła przestraszyłam przestraszyłaś przestraszyłem przestraszyłeś przestraszą
+50	5950	zakątek	zakątka zakątkach zakątki zakątku zakątków
+51	5951	średniowieczny	średniowieczna średniowieczne średniowiecznego średniowiecznej średniowieczni średniowiecznych średniowiecznym średniowiecznymi średniowieczną
+52	5952	reklamować	reklamowali reklamowana reklamowane reklamowania reklamowanie reklamowano reklamowany reklamował reklamowała reklamuj reklamuje reklamują reklamując reklamujące reklamujący
+53	5953	adoptować	adoptowali adoptowana adoptowane adoptowanego adoptowany adoptowanych adoptowanym adoptowaną adoptował adoptowała adoptuj adoptuje adoptują zaadoptowane zaadoptowany zaadoptować zaadoptował zaadoptowała zaadoptuje
+54	5954	wąs	wąsa wąsami wąsem wąsik wąsy wąsów
+55	5955	głuchy	głucha głuche głuchego głuchej głucho głuchych głuchym głuchą głusi
+56	5956	frustracja	frustracje frustracji frustracją frustrację
+57	5957	nowina	nowin nowinach nowinami nowinka nowinki nowiny nowiną nowinę
+58	5958	papieski	papieska papieskich papieskie papieskiego papieskiej papieskim papieskimi papieską
+59	5959	zaorać	ora oranie orać orał orz orze wora zaorali zaorane zaorania zaoranie zaorany zaorał zaorałeś
+60	5960	rybnik	rybnicka rybnicki rybnickiego rybnickiej rybnickim rybnika rybniku
+61	5961	ponury	ponura ponure ponurego ponurej ponuro ponurych ponurym ponurą
+62	5962	selekcja	selekcje selekcji selekcją selekcję
+63	5963	irlandzki	irlandzcy irlandzka irlandzkich irlandzkie irlandzkiego irlandzkiej irlandzkim irlandzko irlandzku irlandzką
+64	5964	pasterz	pasterce pasterka pasterki pasterkę pasterska pasterski pasterskich pasterskie pasterskiego pasterskiej pasterskim pasterską pasterza pasterzami pasterze pasterzem pasterzom pasterzu pasterzy
+65	5965	losowanie	losowania losowaniem losowaniu losowań
+66	5966	cygan	cygana cyganach cyganami cyganem cyganie cyganka cyganki cyganką cyganów
+67	5967	dyplomata	dyplomaci dyplomatami dyplomatom dyplomaty dyplomatów dyplomatą dyplomatę
+68	5968	interfejs	interfejsami interfejsem interfejsie interfejsu interfejsy interfejsów
+69	5969	machać	macha machaj machają machając machający machali macham machamy machania machanie machasz machał machała machnie machnij machnięciem machnąć machnął machnąłem machnęła pomachaj pomacham pomachać pomachał pomachała
+70	5970	pierwszeństwo	pierwszeństwa pierwszeństwem pierwszeństwie
+71	5971	wygoda	wygodami wygody wygodzie wygodą wygodę wygód
+72	5972	ubiór	ubiorem ubioru ubiory ubiorze ubiorów
+73	5973	luksus	luksusach luksusem luksusie luksusu luksusy luksusów
+74	5974	uporządkować	porządkowania porządkowanie porządkowaniem porządkowaniu porządkować porządkował porządkuje porządkuję uporządkowana uporządkowane uporządkowanego uporządkowanej uporządkowania uporządkowanie uporządkowaniem uporządkowaniu uporządkowano uporządkowany uporządkowanych uporządkowanym uporządkowaną uporządkował uporządkuj uporządkuje
+75	5975	okupować	okupowali okupowana okupowane okupowanego okupowanej okupowany okupowanych okupowanym okupował okupuje okupują okupując okupujące
+76	5976	cyfra	cyfr cyfrach cyframi cyfrze cyfrą cyfrę
+77	5977	nieodpowiedni	nieodpowiednia nieodpowiednich nieodpowiednie nieodpowiedniego nieodpowiedniej nieodpowiednim nieodpowiednio nieodpowiednią
+78	5978	sprawność	sprawności sprawnością
+79	5979	łowca	łowcami łowcy łowców łowcą łowcę
+80	5980	zasłynąć	słynie słyną słynąca słynące słynącego słynący słynących słynął słynęła zasłynął zasłynęli zasłynęła
+81	5981	rozumowanie	rozumowania rozumowaniem rozumowaniu
+82	5982	niemowlę	niemowląt niemowlęcia niemowlęciem niemowlęcym niemowlęta niemowlętami
+83	5983	zalogować	logowania logowanie logować loguje logujesz logując loguję zalogowany zalogowanym zalogował zaloguj
+84	5984	ekspozycja	ekspozycjach ekspozycje ekspozycji ekspozycją ekspozycję
+85	5985	załamać	załamana załamane załamani załamał załamała załamałam załamało załamały załamie załamię załamuj załamuje załamujesz załamują załamuję załamywać
+86	5986	przesłanka	przesłanek przesłankach przesłankami przesłanki przesłanką przesłankę
+87	5987	nieszczęśliwy	nieszczęśliwa nieszczęśliwe nieszczęśliwego nieszczęśliwej nieszczęśliwi nieszczęśliwie nieszczęśliwych nieszczęśliwym nieszczęśliwymi nieszczęśliwą
+88	5988	klapa	klap klapami klapie klapka klapkach klapkami klapki klapką klapkę klapy klapą klapę
+89	5989	bałtycki	bałtycka bałtyckich bałtyckie bałtyckiego bałtyckiej bałtyckim bałtyckimi bałtycką
+90	5990	ozdobić	ozdabia ozdabiają ozdabiane ozdabiania ozdabiać ozdobienie ozdobiona ozdobione ozdobionego ozdobionej ozdobiono ozdobiony ozdobionych ozdobionym ozdobioną ozdobił ozdobiłam ozdób
+91	5991	spuścić	spuszcza spuszczaj spuszczają spuszczając spuszczam spuszczania spuszczanie spuszczasz spuszczać spuszczenia spuszczenie spuszczone spuszczono spuszczony spuszczoną spuszczą spuszczę spuści spuścili spuścił spuściła spuściłam spuściłem spuść
+92	5992	zaćmienie	zaćmienia zaćmieniem zaćmieniu zaćmień
+93	5993	poselski	poselska poselskich poselskie poselskiego poselskiej poselskim poselską
+94	5994	nora	nor norach norek norka norki nory norze norą norę
+95	5995	bliskość	bliskości bliskością
+96	5996	błędnie	
+97	5997	marginesie	
+98	5998	sucho	
+99	5999	toż	
+100	6000	uprzejmie	

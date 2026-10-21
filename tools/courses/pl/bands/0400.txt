@@ -1,0 +1,100 @@
+1	301	ziemia	ziem ziemi ziemiach ziemiami ziemie ziemio ziemią ziemię
+2	302	istnieć	istniał istniała istniałaby istniało istniałoby istniały istniej istnieje istniejemy istniejesz istnieją istniejąc istniejąca istniejące istniejący istnieję istnieli
+3	303	dzisiaj	dzisiej
+4	304	kiedyś	
+5	305	ponad	
+6	306	przyjaciel	przyjaciela przyjaciele przyjacielem przyjacielowi przyjacielska przyjacielski przyjacielskich przyjacielskie przyjacielskiego przyjacielskiej przyjacielskim przyjacielsko przyjacielsku przyjacielską przyjacielu przyjaciołach przyjaciołom przyjaciół przyjaciółce przyjaciółek przyjaciółka przyjaciółkach przyjaciółkami przyjaciółki przyjaciółko przyjaciółkom przyjaciółką przyjaciółkę przyjaciółmi
+7	307	członek	członka członkach członkami członki członkiem członkini członkinie członkinią członkinię członkiń członkom członkowi członkowie członkowski członkowskich członku członków
+8	308	noc	nocach nocami nocce noce nocek nocka nocki nockę nocna nocne nocnego nocnej nocni nocny nocnych nocnym nocnymi nocną nocy nocą
+9	309	samochód	samochodach samochodami samochodem samochodom samochodowa samochodowe samochodowego samochodowej samochodowi samochodowo samochodowy samochodowych samochodowym samochodowymi samochodową samochodu samochody samochodzie samochodzik samochodzika samochodzikami samochodziki samochodziku samochodów
+10	310	kultura	kultur kulturach kulturami kulturka kulturowa kulturowe kulturowego kulturowej kulturowo kulturowy kulturowych kulturowym kulturowymi kulturową kultury kulturze kulturą kulturę
+11	311	fakt	fakcie faktach faktami faktem faktom faktowi faktu fakty faktów
+12	312	przykład	przykładach przykładami przykładem przykładu przykłady przykładzie przykładów
+13	313	prawie	
+14	314	społeczny	społeczna społeczne społecznego społecznej społecznemu społeczni społecznie społeczno społecznych społecznym społecznymi społeczną
+15	315	potrzebować	potrzebowali potrzebowaliby potrzebowaliśmy potrzebował potrzebowała potrzebowałabym potrzebowałam potrzebowałaś potrzebowałby potrzebowałbym potrzebowałem potrzebowałeś potrzebowało potrzebowały potrzebuj potrzebuje potrzebujecie potrzebujemy potrzebujesz potrzebują potrzebując potrzebująca potrzebujące potrzebującego potrzebującej potrzebujący potrzebujących potrzebującym potrzebującymi potrzebuję
+16	316	moment	momencie momencik momentach momentami momentem momentu momenty momentów
+17	317	góra	gór górach górami górce górek górka górkach górki górką górkę górom górowski góry górze górą górę
+18	318	ciekawy	ciekaw ciekawa ciekawe ciekawego ciekawej ciekawi ciekawie ciekawiej ciekawszy ciekawych ciekawym ciekawymi ciekawą najciekawiej najciekawszy
+19	319	organizacja	organizacjach organizacjami organizacje organizacji organizacjom organizacją organizację organizacyjna organizacyjne organizacyjnego organizacyjnej organizacyjno organizacyjny organizacyjnych organizacyjnym organizacyjnymi organizacyjną
+20	320	młody	młoda młode młodego młodej młodemu młodo młodsi młodsza młodsze młodszego młodszej młodszemu młodszy młodszych młodszym młodszymi młodszą młodym młodymi młodzi młodziej młodziutka młodą najmłodsza najmłodsze najmłodszej najmłodszy najmłodszą
+21	321	patrzeć	patrz patrzał patrzała patrzałam patrzałem patrzcie patrzenia patrzenie patrzmy patrzono patrzy patrzycie patrzyli patrzyliśmy patrzymy patrzysz patrzyć patrzył patrzyła patrzyłam patrzyłaś patrzyłbym patrzyłem patrzyłeś patrzyło patrzyły patrzą patrząc patrząca patrzące patrzącego patrzący patrzących patrzę
+22	322	zespół	zespole zespołach zespołami zespołem zespołom zespołowa zespołowe zespołowego zespołowej zespołowi zespołowy zespołowych zespołowym zespołową zespołu zespoły zespołów
+23	323	poziom	pozioma poziomach poziomami poziome poziomego poziomej poziomem poziomie poziomo poziomowi poziomu poziomy poziomych poziomym poziomymi poziomów poziomą
+24	324	autor	autora autorach autorami autorce autorek autorem autorka autorki autorką autorkę autorom autorowi autorska autorski autorskich autorskie autorskiego autorskiej autorskim autorskimi autorską autorze autorzy autorów
+25	325	badanie	badania badaniach badaniami badaniem badaniom badaniu badań
+26	326	wcześniej	
+27	327	walka	walce waleczna waleczne walecznego waleczni waleczny walecznych walecznym walk walkach walkami walki walkom walką walkę
+28	328	policja	policje policji policjo policją policję policyjna policyjne policyjnego policyjnej policyjni policyjny policyjnych policyjnym policyjnymi policyjną
+29	329	wierzyć	wierz wierzcie wierzenia wierzeniach wierzeniami wierzenie wierzeń wierzmy wierzono wierzy wierzycie wierzyli wierzyliśmy wierzymy wierzysz wierzył wierzyła wierzyłam wierzyłaś wierzyłem wierzyłeś wierzyło wierzyły wierzą wierząc wierząca wierzące wierzącego wierzącej wierzący wierzących wierzącym wierzącymi wierzącą wierzę
+30	330	przyjść	przyjdzie przyjdziemy przyjdziesz przyjdą przyjdę przyjdź przyjdźcie przyjścia przyjście przyjściem przyjściu przyszedł przyszedłby przyszedłem przyszedłeś przyszli przyszliście przyszliśmy przyszła przyszłabym przyszłam przyszłaś przyszłe przyszłego przyszłej przyszłemu przyszło przyszłoby przyszły przyszłych przyszłym przyszłymi przyszłyśmy przyszłą
+31	331	klasa	klas klasach klasami klasie klasom klasowa klasowe klasowego klasowej klasowo klasowy klasowych klasowym klasową klasy klasą klasę
+32	332	milion	miliona milionach milionami milionem milionie milionom milionowa milionowe milionowego milionowej milionowy milionowych milionowym milionową miliony milionów milon mln
+33	333	wybrać	wybierz wybierzcie wybierze wybierzecie wybierzemy wybierzesz wybierzmy wybiorą wybiorę wybrali wybraliście wybraliśmy wybrana wybrane wybranego wybranej wybranemu wybrani wybranie wybraniem wybraniu wybrano wybrany wybranych wybranym wybranymi wybraną wybrał wybrała wybrałabym wybrałam wybrałaś wybrałby wybrałbym wybrałem wybrałeś wybrało wybrały wybrałyśmy
+34	334	chłopak	chłopacy chłopaczek chłopaczka chłopaczki chłopaka chłopakach chłopakami chłopaki chłopakiem chłopakom chłopakowi chłopaku chłopaków chłopca chłopcach chłopcami chłopcem chłopcom chłopcu chłopcy chłopcze chłopczyk chłopczyka chłopczykiem chłopczyku chłopców chłopiec
+35	335	minuta	min minucie minut minutach minutami minutka minutki minutowa minutowe minutowego minutowej minutowy minutowych minutowym minutową minuty minutą minutę
+36	336	narodowy	narodowa narodowe narodowego narodowej narodowemu narodowi narodowo narodowych narodowym narodowymi narodową
+37	337	dotyczyć	dotycz dotyczy dotyczył dotyczyła dotyczyło dotyczyły dotyczą dotycząca dotyczące dotyczącego dotyczącej dotyczący dotyczących dotyczącym dotyczącymi dotyczącą
+38	338	teren	terenach terenami terenem terenie terenom terenowa terenowe terenowego terenowej terenowy terenowych terenowym terenowymi terenową terenu tereny terenów
+39	339	szukać	szuka szukacie szukaj szukajcie szukajmy szukają szukając szukająca szukające szukającego szukającej szukający szukających szukającym szukającą szukali szukaliśmy szukam szukamy szukania szukanie szukaniem szukaniu szukano szukasz szukał szukała szukałam szukałaś szukałbym szukałem szukałeś szukało szukały szukałyśmy
+40	340	matka	mace matce matczyna matczyne matczynego matczynej matczynych matczynym matczyną mateczka mateczki matek mateńko matkach matkami matki matko matkom matką matkę
+41	341	zasada	zasad zasadach zasadami zasadom zasadowa zasadowe zasadowej zasadowy zasadowych zasadowym zasady zasadzie zasadą zasadę
+42	342	próbować	probuje próbowali próbowaliście próbowaliśmy próbowania próbowanie próbowaniu próbowano próbował próbowała próbowałabym próbowałam próbowałaś próbowałby próbowałem próbowałeś próbowało próbowały próbowałyśmy próbuj próbujcie próbuje próbujecie próbujemy próbujesz próbujmy próbują próbując próbująca próbujące próbującego próbującej próbujący próbujących próbującym próbującymi próbującą próbuję
+43	343	pełny	najpełniejszy pełen pełna pełne pełnego pełnej pełnemu pełni pełniejsze pełniejszy pełnych pełnym pełnymi pełną
+44	344	ponieważ	
+45	345	maj	maja majami maje majem majom majowa majowe majowego majowej majowie majowy majowych majowym maju majów
+46	346	akcja	akcjach akcjami akcje akcji akcjom akcją akcję akcyjna akcyjne akcyjnego akcyjnej akcyjny akcyjnych akcyjnym akcyjną
+47	347	podobać	podoba podobają podobali podobam podobamy podobasz podobał podobała podobałam podobało podobały podobie spodoba spodobają spodobam spodobasz spodobać spodobał spodobała spodobałaś spodobało spodobałoby spodobały
+48	348	publiczny	publiczna publiczne publicznego publicznej publicznemu publiczni publiczno publicznych publicznym publicznymi publiczną
+49	349	pewno	najpewniej pewniej
+50	350	rodzic	rodzica rodzicach rodzicami rodzice rodzicem rodzicom rodzicowi rodziców
+51	351	granica	granic granicach granicami granice granicy graniczna graniczne granicznego granicznej graniczni graniczny granicznych granicznym granicznymi graniczną granicą granicę
+52	352	ustawa	ustaw ustawach ustawami ustawie ustawom ustawowe ustawowego ustawowej ustawowy ustawowych ustawowym ustawową ustawy ustawą ustawę
+53	353	obecnie	
+54	354	pomysł	pomysłach pomysłami pomysłem pomysłom pomysłowi pomysłu pomysły pomysłów pomyśle
+55	355	artykuł	artykule artykułach artykułami artykułem artykułowi artykułu artykuły artykułów
+56	356	telefon	telefonach telefonami telefonem telefoniczna telefoniczne telefonicznego telefonicznej telefoniczny telefonicznych telefonicznym telefonicznymi telefoniczną telefonie telefonik telefonu telefony telefonów
+57	357	sąd	sądach sądami sądem sądny sądom sądowa sądowe sądowego sądowej sądowemu sądowi sądowo sądowy sądowych sądowym sądowymi sądową sądu sądy sądzie sądów
+58	358	nazwa	nazw nazwach nazwami nazwie nazwy nazwą nazwę
+59	359	ruch	ruchach ruchami ruchem ruchom ruchowi ruchu ruchy ruchów
+60	360	tworzyć	tworzenia tworzenie tworzeniem tworzeniu tworzona tworzone tworzonego tworzonej tworzono tworzony tworzonych tworzonym tworzonymi tworzoną tworzy tworzycie tworzyli tworzyliśmy tworzymy tworzysz tworzył tworzyła tworzyłam tworzyłem tworzyło tworzyły tworzą tworząc tworząca tworzące tworzącego tworzący tworzących tworzę twórz
+61	361	czarny	czarna czarne czarnego czarnej czarnemu czarni czarno czarnych czarnym czarnymi czarną najczarniejszy
+62	362	wejść	wejdzie wejdziecie wejdziemy wejdziesz wejdą wejdę wejdź wejdźcie wejdźmy wejścia wejściach wejściami wejście wejściem wejściu weszli weszliście weszliśmy weszła weszłam weszłaś weszło weszły weszłyśmy wszedł wszedłby wszedłem wszedłeś
+63	363	mimo	
+64	364	zaczynać	zaczyna zaczynacie zaczynaj zaczynajcie zaczynajmy zaczynają zaczynając zaczynająca zaczynające zaczynającego zaczynającej zaczynający zaczynających zaczynającym zaczynającą zaczynali zaczynaliśmy zaczynam zaczynamy zaczynania zaczynanie zaczynasz zaczynał zaczynała zaczynałam zaczynałaś zaczynałem zaczynało zaczynały
+65	365	serce	serc serca sercach sercami sercem sercom sercowa sercowe sercowego sercowej sercowo sercowy sercowych sercowym sercu serducha serduchem serducho serduszek serduszka serduszkami serduszkiem serduszko serduszku
+66	366	kupić	kup kupały kupcie kupi kupicie kupie kupieni kupienie kupili kupilibyśmy kupiliście kupiliśmy kupimy kupiona kupione kupionego kupionej kupiono kupiony kupionych kupionym kupioną kupisz kupią kupię kupił kupiła kupiłabym kupiłam kupiłaś kupiłby kupiłbym kupiłem kupiłeś kupiło kupiły kupiłyśmy kupmy
+67	367	południe	południa południem południowa południowe południowego południowej południowemu południowi południowo południowy południowych południowym południowymi południową południu
+68	368	spotkanie	spotkania spotkaniach spotkaniami spotkaniem spotkaniom spotkaniu spotkań
+69	369	około	
+70	370	przecież	
+71	371	plan	planach planami planem planie planom planowi planu plany planów
+72	372	ojciec	ociec ocieka ojca ojcach ojcami ojcem ojcom ojcowie ojcu ojcze ojczulek ojców
+73	373	źródło	źródeł źródełka źródełko źródle źródła źródłach źródłami źródłem źródłom źródłowa źródłowe źródłowego źródłowej źródłowy źródłowych źródłowym źródłowymi źródłową
+74	374	imię	imienia imieniem imieniu imion imiona imionach imionami
+75	375	biały	biali biała białe białego białej białemu biało białych białym białymi białą bielszy
+76	376	wiadomość	wiadomości wiadomościach wiadomościami wiadomościom wiadomością
+77	377	pokój	pokoi pokoik pokoiku pokojach pokojami pokoje pokojem pokojowa pokojowe pokojowego pokojowej pokojowi pokojowo pokojowy pokojowych pokojowym pokojowymi pokojową pokoju pokojów
+78	378	europejski	europejscy europejska europejskich europejskie europejskiego europejskiej europejskiemu europejskim europejskimi europejsko europejsku europejską
+79	379	wolny	wolna wolne wolnego wolnej wolnemu wolni wolniejsza wolniejsze wolniejszy wolniejszych wolniejszym wolniejszą wolnych wolnym wolnymi wolną
+80	380	możliwość	możliwości możliwościach możliwościami możliwościom możliwością
+81	381	rozwój	rozwojem rozwojowa rozwojowe rozwojowego rozwojowej rozwojowi rozwojowo rozwojowy rozwojowych rozwojowym rozwojowymi rozwojową rozwoju
+82	382	mieszkaniec	mieszkanka mieszkanki mieszkanką mieszkankę mieszkańca mieszkańcach mieszkańcami mieszkańcem mieszkańcom mieszkańcowi mieszkańcu mieszkańcy mieszkańców
+83	383	dopiero	
+84	384	zająć	zajmie zajmiecie zajmiemy zajmiesz zajmij zajmijcie zajmijmy zajmą zajmę zajął zająłby zająłem zajęci zajęcia zajęciach zajęciami zajęcie zajęciem zajęciu zajęli zajęliśmy zajęta zajęte zajętego zajętej zajęto zajęty zajętych zajętym zajętymi zajętą zajęć zajęła zajęłaby zajęłam zajęłaś zajęło zajęłoby zajęły
+85	385	zbyt	zbycie zbyciu zbytu
+86	386	zdanie	zdania zdaniach zdaniami zdaniem zdaniu zdań
+87	387	okres	okresach okresami okresem okresie okresowi okresu okresy okresów
+88	388	ulica	ulic ulicach ulicami ulice ulicom ulicy uliczce uliczek uliczka uliczkach uliczkami uliczki uliczką uliczkę ulicą ulicę
+89	389	tekst	tekstach tekstami tekstem tekstom tekstowa tekstowe tekstowego tekstowej tekstowi tekstowo tekstowy tekstowych tekstowym tekstową tekstu teksty tekstów tekście
+90	390	rodzaj	rodzajach rodzajami rodzaje rodzajem rodzajom rodzajowa rodzajowi rodzaju rodzajów
+91	391	źle	gorzej najgorzej
+92	392	wciąż	wciągu
+93	393	wśród	
+94	394	potrafić	potrafi potrafia potraficie potrafili potrafiliby potrafiliśmy potrafimy potrafiono potrafisz potrafią potrafiąc potrafiąca potrafiące potrafiącego potrafiący potrafiących potrafiącym potrafiącą potrafię potrafił potrafiła potrafiłaby potrafiłabym potrafiłam potrafiłaś potrafiłby potrafiłbym potrafiłem potrafiłeś potrafiło potrafiły
+95	395	znaczyć	znacz znaczone znaczony znaczy znaczycie znaczyli znaczymy znaczysz znaczył znaczyła znaczyłeś znaczyło znaczyłoby znaczyły znaczą znacząca znaczące znaczę
+96	396	obraz	obraza obrazach obrazami obrazek obrazem obrazie obrazka obrazkach obrazkami obrazki obrazkiem obrazkowa obrazkowe obrazkowego obrazkowej obrazkowy obrazku obrazków obrazom obrazowa obrazowe obrazowej obrazowi obrazowo obrazowy obrazowych obrazu obrazy obrazów obrazą obrazę
+97	397	dokładnie	dokładniej najdokładniej
+98	398	wygrać	wygra wygracie wygraj wygrajcie wygrajmy wygrają wygrali wygralibyśmy wygraliście wygraliśmy wygram wygramy wygrana wygrane wygranego wygranej wygrani wygrania wygranie wygrany wygranych wygranym wygranymi wygraną wygrasz wygrał wygrała wygrałaby wygrałam wygrałaś wygrałby wygrałem wygrałeś wygrało wygrały wygrałyśmy
+99	399	król	kryla króla królach królami króle królem królewscy królewska królewski królewskich królewskie królewskiego królewskiej królewskim królewskimi królewską króli królicze króliczek króliczka króliczki króliczku króliczków królik królika króliki królikiem królików królom królowa królowe królowej królowi królowie królowo królowych królową królu królów
+100	400	założyć	założenia założeniach założeniami założenie założeniem założeniom założeniu założeń założona założone założonego założonej założono założony założonych założonym założonymi założoną założy założycie założyli założyliśmy założymy założysz założył założyła założyłabym założyłam założyłaś założyłbym założyłem założyłeś założyło założyły założą założę załóż załóżcie załóżmy

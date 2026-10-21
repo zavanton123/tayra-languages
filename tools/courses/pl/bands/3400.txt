@@ -1,0 +1,100 @@
+1	3301	emigracja	emigracje emigracji emigracją emigrację
+2	3302	biznesowy	biznesowa biznesowe biznesowego biznesowej biznesowi biznesowo biznesowych biznesowym biznesowymi biznesową
+3	3303	odwołanie	odwołania odwołaniem odwołaniu odwołań
+4	3304	pojąć	pojmali pojmana pojmani pojmania pojmanie pojmaniu pojmano pojmany pojmanych pojmać pojmał pojmie pojmowana pojmowane pojmowanej pojmowania pojmowanie pojmowaniu pojmowany pojmować pojmował pojmuje pojmujemy pojmujesz pojmują pojmuję pojmą pojmę pojął pojęli pojęta pojęte pojętego pojętej pojęty pojętych pojętym pojętą pojęłam
+5	3305	skrajny	skrajna skrajne skrajnego skrajnej skrajni skrajno skrajnych skrajnym skrajnymi skrajną
+6	3306	deska	decha dechy desce desek deskach deskami deski deską deskę
+7	3307	regulować	regulowana regulowane regulowanego regulowanej regulowania regulowanie regulowany regulowanych regulowanym regulowaną regulował regulowały reguluje regulujesz regulują regulując regulująca regulujące regulujący regulujących uregulowana uregulowane uregulowania uregulowanie uregulowaniu uregulowano uregulowany uregulować uregulował uregulowań
+8	3308	uzupełnić	uzupełni uzupełnia uzupełniają uzupełniając uzupełniająca uzupełniające uzupełniający uzupełniających uzupełniali uzupełniam uzupełniamy uzupełniana uzupełniane uzupełniania uzupełnianie uzupełnianiu uzupełniany uzupełniać uzupełniał uzupełniała uzupełniały uzupełnij uzupełnili uzupełnimy uzupełniona uzupełnione uzupełniono uzupełniony uzupełnionych uzupełnioną uzupełnię uzupełnił uzupełniła uzupełniłem uzupełniły
+9	3309	makijaż	makijaże makijażem makijażu makijaży
+10	3310	filtr	filtra filtrach filtrami filtrem filtru filtry filtrze filtrów
+11	3311	odłożyć	odkłada odkładaj odkładają odkładając odkładali odkładam odkładamy odkładane odkładania odkładanie odkładaniu odkładasz odkładać odkładał odkładała odkładałam odkładałem odłożenia odłożenie odłożeniu odłożona odłożone odłożono odłożony odłoży odłożyli odłożymy odłożysz odłożył odłożyła odłożyłam odłożyłem odłożę odłóż odłóżcie odłóżmy
+12	3312	duchowy	duchowa duchowe duchowego duchowej duchowemu duchowi duchowo duchowych duchowym duchowymi duchową
+13	3313	ostrzec	ostrzega ostrzegają ostrzegając ostrzegające ostrzegający ostrzegali ostrzegaliśmy ostrzegam ostrzegamy ostrzegania ostrzeganie ostrzegać ostrzegał ostrzegała ostrzegałam ostrzegałem ostrzegli ostrzegł ostrzegła ostrzegły ostrzeże ostrzeżeni ostrzeżony
+14	3314	liść	listek listka listkach listkami listki listków liści liścia liściach liście liściem liściowe liściowych liściu liśćmi
+15	3315	przypisać	przypisali przypisana przypisane przypisanego przypisanej przypisani przypisania przypisanie przypisano przypisany przypisanych przypisanym przypisaną przypisał przypisała przypisuje przypisujemy przypisujesz przypisują przypisując przypisuję przypisywali przypisywana przypisywane przypisywania przypisywanie przypisywano przypisywany przypisywanych przypisywać przypisywał przypisze
+16	3316	paskal	pa
+17	3317	równocześnie	
+18	3318	tendencja	tendencjach tendencjami tendencje tendencji tendencjom tendencją tendencję
+19	3319	nagły	nagli nagła nagłe nagłego nagłej nagłych nagłym nagłymi nagłą
+20	3320	zdefiniować	definiowana definiowane definiowanej definiowania definiowanie definiowaniu definiowany definiowanych definiować definiował definiuje definiujemy definiujesz definiują definiując definiujące zdefiniowana zdefiniowane zdefiniowanego zdefiniowanej zdefiniowania zdefiniowanie zdefiniowano zdefiniowany zdefiniowanych zdefiniowanym zdefiniowaną zdefiniował zdefiniowała zdefiniuj zdefiniujemy
+21	3321	krawędź	krawędzi krawędziach krawędziami krawędzie krawędziowe krawędziowej krawędziowy krawędzią
+22	3322	zorientować	orientować orientowałem orientuje orientujesz orientują orientuję zorientowali zorientowaliśmy zorientowana zorientowane zorientowanego zorientowanej zorientowani zorientowanie zorientowaniu zorientowany zorientowanych zorientowanym zorientowaną zorientował zorientowała zorientowałam zorientowałem zorientowały zorientuj zorientuje zorientujemy zorientujesz zorientują zorientuję
+23	3323	spektakl	spektaklach spektakle spektaklem spektakli spektaklu
+24	3324	zapalenie	zapalenia zapaleniem zapaleniu zapaleń
+25	3325	kat	kaci kacie kata katach katami katem kato katy katów
+26	3326	gniazdo	gniazd gniazda gniazdach gniazdami gniazdek gniazdem gniazdka gniazdkiem gniazdko gniazdku gnieździe
+27	3327	mechanika	mechanice mechanicy mechanik mechanikami mechaniki mechanikiem mechanikom mechanikowi mechaników mechaniką mechanikę
+28	3328	zranić	rani ranienie ranili ranimy raniono raniony ranisz ranią raniąc ranić ranię ranił raniła raniły rań zrani zranieni zranienia zranienie zranieniem zranili zraniona zranione zranionego zraniony zranionych zranionym zranioną zranisz zranią zranię zranił zraniła zraniłam zraniłaś zraniłem zraniłeś zraniło zraniły
+29	3329	antena	anten antenach antenami antenie anteny anteną antenę
+30	3330	piwnica	piwnic piwnicach piwnicami piwnice piwnicy piwniczka piwniczki piwniczna piwniczne piwnicznej piwnicznych piwnicą piwnicę
+31	3331	dziewczę	dziewcząt dziewczęta dziewczętach dziewczętami dziewczętom
+32	3332	świadectwo	świadectw świadectwa świadectwami świadectwem świadectwie
+33	3333	toaleta	toalecie toalet toaletach toaletami toalety toaletą toaletę
+34	3334	szykować	szykowali szykowane szykowany szykował szykowała szykowałam szykuj szykujcie szykuje szykujemy szykujesz szykujmy szykują szykując szykuję
+35	3335	kształcić	kształceni kształcenia kształcenie kształci kształcił kształciła kształcą kształcąc kształcąca kształcące kształcącej kształcący kształcących kształcącą
+36	3336	nastawić	nastaw nastawia nastawiaj nastawiając nastawiam nastawiamy nastawiania nastawianie nastawiać nastawiałam nastawieni nastawiona nastawione nastawionego nastawionej nastawiony nastawionych nastawionym nastawionymi nastawioną nastawię nastawił nastawiłam nastawiłem
+37	3337	bogactwo	bogactw bogactwa bogactwami bogactwem bogactwie bogactwu
+38	3338	nagi	nadzy naga nagich nagie nagiego nagiej nagim nagimi nagą
+39	3339	ładować	naładowana naładowane naładowanej naładowania naładowanie naładowany naładowanych naładowaną naładować naładował naładuj naładuje władować załadowana załadowane załadowania załadowanie załadowaniu załadowano załadowany załadować załadował załaduj załaduje ładowali ładowana ładowane ładowania ładowanie ładowaniu ładowany ładował ładuj ładuje ładujemy ładujesz ładują ładując ładuję
+40	3340	izraelski	izraelscy izraelska izraelskich izraelskie izraelskiego izraelskiej izraelskim izraelskimi izraelsko izraelską
+41	3341	przekonywać	przekonuj przekonuje przekonujemy przekonujesz przekonują przekonując przekonująca przekonujące przekonującego przekonująco przekonujący przekonujących przekonującym przekonującą przekonuję przekonywali przekonywania przekonywanie przekonywaniu przekonywał przekonywała przekonywujący
+42	3342	ślepy	ślepa ślepe ślepego ślepej ślepi ślepo ślepych ślepym ślepymi ślepą
+43	3343	kamienica	kamienic kamienicach kamienicami kamienice kamienicy kamieniczki kamienicą kamienicę
+44	3344	rezygnacja	rezygnacje rezygnacji rezygnacją rezygnację
+45	3345	praktyczny	praktyczna praktyczne praktycznego praktycznej praktyczni praktyczno praktycznych praktycznym praktycznymi praktyczną
+46	3346	wódka	wóda wódce wódeczka wódek wódki wódką wódkę
+47	3347	tok	toczek toki tokiem toku
+48	3348	obywatelstwo	obywatelstwa obywatelstwem obywatelstwie
+49	3349	piłkarski	piłkarscy piłkarska piłkarskich piłkarskie piłkarskiego piłkarskiej piłkarskim piłkarskimi piłkarsko piłkarską
+50	3350	wartościowy	wartościowa wartościowe wartościowego wartościowej wartościowi wartościowych wartościowym wartościowymi wartościową
+51	3351	guma	gum gumami gumce gumeczki gumek gumie gumka gumki gumką gumkę gumy gumą gumę
+52	3352	białka	białce białek białkach białkami białki białkiem białko białkowa białkowe białkowej białkowo białkowy białkowych białkową białku
+53	3353	kancelaria	kancelariach kancelarie kancelarii kancelarią kancelarię
+54	3354	gwarancja	gwarancjach gwarancjami gwarancje gwarancji gwarancją gwarancję
+55	3355	gubernator	gubernatora gubernatorem gubernatorowi gubernatorzy gubernatorów
+56	3356	wygodny	wygodna wygodne wygodnego wygodnej wygodni wygodniejsza wygodniejsze wygodniejszej wygodniejszy wygodniejszą wygodnych wygodnym wygodną
+57	3357	zupa	zup zupie zupka zupy zupą zupę
+58	3358	spierdalać	spierdala spierdalaj spierdalajcie spierdalają spierdalali spierdalam spierdalamy spierdalał spierdol spierdolenia spierdolenie spierdoli spierdolili spierdolisz spierdolić spierdolił spierdoliła spierdoliłam spierdoliłem spierdoliło spierdoliły spierdolona spierdolone spierdolony spierdolonych spierdolonym spierdolą spierdolę
+59	3359	prawica	prawico prawicy prawicą prawicę
+60	3360	inwestor	inwestora inwestorami inwestorem inwestorom inwestorowi inwestorzy inwestorów
+61	3361	badacz	badacza badaczami badacze badaczem badaczka badaczki badaczom badaczy
+62	3362	surowy	serowa serowe serowy serowym serową surowa surowe surowego surowej surowi surowsze surowszy surowych surowym surowymi surową
+63	3363	tron	tronem tronie tronowa tronowej tronu trony tronów
+64	3364	bieżąco	
+65	3365	powiększyć	powiększ powiększa powiększają powiększając powiększająca powiększające powiększającej powiększający powiększali powiększane powiększanie powiększać powiększał powiększała powiększenia powiększenie powiększeniem powiększeniu powiększona powiększone powiększonego powiększonej powiększono powiększony powiększonych powiększonym powiększonymi powiększoną powiększy powiększyli powiększył powiększyła powiększyło powiększyły powiększą
+66	3366	ambasada	ambasad ambasadach ambasady ambasadzie ambasadą ambasadę
+67	3367	przesadzać	przesadza przesadzacie przesadzaj przesadzajcie przesadzajmy przesadzają przesadzam przesadzamy przesadzania przesadzanie przesadzasz przesadzał przesadzi przesadzili przesadzić przesadził przesadziła przesadziłam przesadziłaś przesadziłem przesadziłeś przesadzona przesadzone przesadzony
+68	3368	konsument	konsumenci konsumenta konsumentami konsumentem konsumentom konsumentów
+69	3369	rzymski	rzymscy rzymska rzymskich rzymskie rzymskiego rzymskiej rzymskiemu rzymskim rzymskimi rzymsko rzymską
+70	3370	płaski	plaski płaska płaskich płaskie płaskiego płaskiej płaskim płaskimi płasko płaską
+71	3371	powiązanie	powiązania powiązaniach powiązaniami powiązaniem powiązaniu powiązań
+72	3372	prywatność	prywatności prywatnością
+73	3373	wypłata	wypłacie wypłat wypłatami wypłaty wypłatą wypłatę
+74	3374	przebrać	przebiera przebierają przebierając przebierali przebieram przebieramy przebierania przebieranie przebierasz przebierać przebierał przebierałam przebierz przebierze przebiorę przebrali przebrana przebrane przebranego przebrani przebrania przebraniach przebranie przebraniem przebraniu przebrany przebranych przebranym przebraną przebrał przebrała przebrałam przebrałaś przebrań
+75	3375	generacja	generacjach generacje generacji generacją generację
+76	3376	klinika	klinice klinik klinikach kliniki kliniką klinikę
+77	3377	bankowy	bankowa bankowe bankowego bankowej bankowemu bankowi bankowych bankowym bankowymi bankową
+78	3378	ryż	ryże ryżem ryżowa ryżowe ryżowego ryżowej ryżowy ryżowych ryżowym ryżową ryżu
+79	3379	przepaść	przepada przepadają przepadam przepadamy przepadasz przepadać przepadał przepadała przepadałam przepadałem przepadnie przepadnij przepadną przepadł przepadła przepadło przepadły przepaści przepaścią
+80	3380	wzajemny	wzajemna wzajemne wzajemnego wzajemnej wzajemnych wzajemnym wzajemnymi wzajemną
+81	3381	intensywny	intensywna intensywne intensywnego intensywnej intensywnemu intensywniejsze intensywniejszy intensywnych intensywnym intensywnymi intensywną
+82	3382	ścisły	ścisła ścisłe ścisłego ścisłej ścisłych ścisłym ścisłymi ścisłą ściślejszej
+83	3383	pojemność	pojemności pojemnościach pojemnością
+84	3384	apel	apelach apele apelem apeli apelu
+85	3385	przetłumaczyć	przetłumacz przetłumaczenia przetłumaczenie przetłumaczeniu przetłumaczona przetłumaczone przetłumaczonego przetłumaczono przetłumaczony przetłumaczonych przetłumaczonym przetłumaczoną przetłumaczy przetłumaczyli przetłumaczysz przetłumaczył przetłumaczyła przetłumaczyłam przetłumaczyłem przetłumaczę
+86	3386	honorowy	honorowa honorowe honorowego honorowej honorowi honorowo honorowych honorowym honorowymi honorową
+87	3387	nudzić	nudzi nudzili nudzisz nudził nudziła nudziłam nudziłem nudziło nudzą nudzę znudzeni znudzenia znudzenie znudzi znudzili znudzisz znudzić znudził znudziła znudziłam znudziło znudziły znudzona znudzone znudzą
+88	3388	turecki	tureccy turecka tureckich tureckie tureckiego tureckiej tureckim tureckimi turecko turecku turecką
+89	3389	transfer	transferach transferami transferem transferu transfery transferze transferów
+90	3390	kilkaset	kilkuset
+91	3391	usiąść	usiadł usiadła usiadłam usiadłem usiadły usiedli usiedliśmy usiądzie usiądziemy usiądziesz usiądą usiądę usiądź usiądźcie
+92	3392	psychologiczny	psychologiczna psychologiczne psychologicznego psychologicznej psychologicznie psychologiczno psychologicznych psychologicznym psychologicznymi psychologiczną
+93	3393	plastyka	plastyce plastyczna plastyczne plastycznego plastycznej plastycznie plastyczny plastycznych plastycznym plastycznymi plastyczną plastyk plastyki plastyków plastykę
+94	3394	cenzura	cenzury cenzurze cenzurą cenzurę
+95	3395	wznieść	wzniesie wzniesienia wzniesieniach wzniesieniami wzniesienie wzniesieniem wzniesieniu wzniesień wzniesiona wzniesione wzniesionej wzniesiono wzniesiony wzniesionych wzniesionym wzniesioną wznieśli wzniosła wzniosłe wzniosły wzniosłych wzniósł wznosi wznosili wznosimy wznosić wznosił wznoszenia wznoszenie wznoszeniu wznoszone wznoszono wznoszonych wznoszą wznosząc wznoszące wznoszącej wznoszący wznoszę
+96	3396	zadowolić	zadowala zadowalają zadowalając zadowalająca zadowalające zadowalającego zadowalająco zadowalający zadowalających zadowalać zadowalał zadowoleni zadowolenia zadowolenie zadowoleniem zadowoleniu zadowoli zadowolisz zadowolił zadowoliła zadowoliło zadowoliły zadowolona zadowolone zadowolą zadowolę
+97	3397	fot	fota foty
+98	3398	zabytek	zabytkach zabytkami zabytki zabytkiem zabytkom zabytku zabytków
+99	3399	lubelski	lubelscy lubelska lubelskich lubelskie lubelskiego lubelskiej lubelskim lubelsko lubelską
+100	3400	radykalny	radykalna radykalne radykalnego radykalnej radykalni radykalnych radykalnym radykalnymi radykalną

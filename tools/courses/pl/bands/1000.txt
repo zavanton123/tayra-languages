@@ -1,0 +1,100 @@
+1	901	pamięć	pamięci pamięciowe pamięciowy pamięciowych pamięcią
+2	902	sądzić	sądzeni sądzenia sądzenie sądzi sądzicie sądzili sądziliśmy sądzimy sądzisz sądził sądziła sądziłam sądziłem sądziłeś sądziło sądzona sądzono sądzony sądzą sądząc sądzę sądź sądźcie
+3	903	serwis	serwisach serwisami serwisem serwisie serwisom serwisu serwisy serwisów
+4	904	rzeczywistość	rzeczywistości rzeczywistościach rzeczywistością
+5	905	podpisać	podpisali podpisaliśmy podpisana podpisane podpisanego podpisanej podpisania podpisanie podpisaniem podpisaniu podpisano podpisany podpisanych podpisanym podpisaną podpisał podpisała podpisałem podpisało podpisały podpisuje podpisujemy podpisujesz podpisują podpisując podpisujący podpisuję podpisywali podpisywania podpisywanie podpisywaniu podpisywać podpisywał podpisz podpiszcie podpisze podpiszesz podpiszą podpiszę
+6	906	unia	unie unii unią unię
+7	907	mąż	męża mężach mężami mężem mężom mężowi mężowie mężu mężuś mężyk mężów
+8	908	krok	kroczek kroczkami kroczki kroczku krokach krokami kroki krokiem kroku kroków
+9	909	link	linkach linkami linki linkiem linku linków
+10	910	powstanie	powstania powstaniach powstaniami powstaniem powstaniu powstań
+11	911	gazeta	gazecie gazet gazetach gazetami gazetce gazetek gazetka gazetkach gazetki gazetkę gazetom gazety gazetą gazetę
+12	912	rzucić	rzuca rzucaj rzucają rzucając rzucającego rzucający rzucali rzucam rzucamy rzucane rzucania rzucanie rzucaniu rzucasz rzucać rzucał rzucała rzucało rzucały rzucenia rzucenie rzuci rzucili rzucisz rzucił rzuciła rzuciłam rzuciłem rzuciłeś rzuciło rzuciły rzucona rzucone rzucono rzucony rzucą rzucę rzuć rzućmy
+13	913	gotowy	gotowa gotowe gotowego gotowej gotowi gotowych gotowym gotowymi gotową gotów
+14	914	artysta	artystach artystami artystce artystek artystka artystkami artystki artystką artystkę artystom artysty artystów artystą artystę artyści artyście
+15	915	poświęcić	poświęca poświęcają poświęcając poświęcali poświęcam poświęcamy poświęcania poświęcanie poświęcasz poświęcać poświęcał poświęcenia poświęcenie poświęceniem poświęceniu poświęceń poświęci poświęcili poświęciliśmy poświęcimy poświęcisz poświęcił poświęciła poświęciłam poświęciłem poświęciłeś poświęciło poświęcona poświęcone poświęconego poświęconej poświęcono poświęcony poświęconych poświęconym poświęconą poświęcą poświęcę poświęć
+16	916	ksiądz	książek księdza księdze księdzem księdzu księża księżach księże księżmi księżom księży księżym
+17	917	poseł	posła posłach posłami posłance posłanka posłanki posłanką posłankę posłem posłom posłowi posłowie posłów pośle
+18	918	naturalny	naturalna naturalne naturalnego naturalnej naturalnemu naturalni naturalnych naturalnym naturalnymi naturalną
+19	919	zdecydować	zdecydowali zdecydowaliście zdecydowaliśmy zdecydowana zdecydowane zdecydowanego zdecydowanej zdecydowani zdecydowano zdecydowany zdecydowanych zdecydowanym zdecydowanymi zdecydowaną zdecydował zdecydowała zdecydowałam zdecydowałaś zdecydowałby zdecydowałem zdecydowałeś zdecydowało zdecydowały zdecyduj zdecydujcie zdecyduje zdecydujecie zdecydujemy zdecydujesz zdecydujmy zdecydują zdecyduję
+20	920	energia	energiach energie energii energią energię
+21	921	otworzyć	otwarci otwarli otwarta otwarte otwarto otwarł otwarła otwarłem otwarło otwarły otworzenia otworzenie otworzeniem otworzeniu otworzona otworzone otworzono otworzony otworzy otworzyli otworzyliśmy otworzymy otworzysz otworzył otworzyła otworzyłam otworzyłaś otworzyłem otworzyłeś otworzyło otworzyły otworzą otworzę otwórz otwórzcie otwórzmy
+22	922	opuścić	opuszcza opuszczaj opuszczają opuszczając opuszczali opuszczam opuszczamy opuszczania opuszczanie opuszczać opuszczał opuszczała opuszczeni opuszczenia opuszczenie opuszczeniem opuszczeniu opuszczona opuszczone opuszczonego opuszczonej opuszczono opuszczony opuszczonych opuszczonym opuszczonymi opuszczoną opuszczą opuszczę opuści opuścili opuścisz opuścił opuściła opuściłam opuściłem opuściło opuściły opuść
+23	923	odkryć	odkrycia odkryciach odkryciami odkrycie odkryciem odkryciu odkryj odkryje odkryjemy odkryjesz odkryją odkryli odkryliśmy odkryta odkryte odkrytego odkrytej odkryto odkryty odkrytych odkrytym odkrytą odkrywa odkrywają odkrywając odkrywam odkrywamy odkrywania odkrywanie odkrywaniu odkrywasz odkrywać odkrył odkryła odkryłam odkryłem odkryłeś odkryło odkryły
+24	924	odpowiedni	odpowiednia odpowiednich odpowiednie odpowiedniego odpowiedniej odpowiedniemu odpowiednim odpowiednimi odpowiednią
+25	925	dotrzeć	dociera docierają docierając docierające docierającego docierających docierali docieram docieramy docieranie docierasz docierać docierał docierała docierało docierały dotarcia dotarcie dotarciem dotarciu dotarli dotarliśmy dotarł dotarła dotarłam dotarłaś dotarłem dotarłeś dotarło dotarły dotrze dotrzecie dotrzemy dotrzesz dotrą dotrę
+26	926	uczestnik	uczestnicy uczestniczek uczestniczka uczestniczki uczestniczką uczestniczkę uczestnika uczestnikach uczestnikami uczestnikiem uczestnikom uczestnikowi uczestników
+27	927	wszelki	wszelka wszelkich wszelkie wszelkiego wszelkiej wszelkim wszelkimi wszelką
+28	928	potwierdzić	potwierdza potwierdzają potwierdzając potwierdzające potwierdzający potwierdzających potwierdzam potwierdzamy potwierdzania potwierdzanie potwierdzasz potwierdzać potwierdzał potwierdzała potwierdzało potwierdzały potwierdzi potwierdzili potwierdzisz potwierdził potwierdziła potwierdziłam potwierdziłem potwierdziłeś potwierdziło potwierdziły potwierdzona potwierdzone potwierdzonego potwierdzonej potwierdzono potwierdzony potwierdzonych potwierdzonym potwierdzonymi potwierdzoną potwierdzą potwierdzę potwierdź
+29	929	ciężko	cięzko ciężej najciężej
+30	930	zgłosić	zgłasza zgłaszajcie zgłaszają zgłaszając zgłaszali zgłaszam zgłaszamy zgłaszane zgłaszania zgłaszanie zgłaszanych zgłaszasz zgłaszać zgłaszał zgłaszała zgłosi zgłosili zgłosisz zgłosił zgłosiła zgłosiłam zgłosiłem zgłosiło zgłosiły zgłoszenia zgłoszenie zgłoszeniem zgłoszeniu zgłoszeń zgłoszona zgłoszone zgłoszonego zgłoszono zgłoszony zgłoszonych zgłoszą zgłoszę zgłoś zgłoście
+31	931	tak_zwany	tzw
+32	932	wywiad	wywiadach wywiadami wywiadem wywiadowi wywiadu wywiady wywiadzie wywiadów
+33	933	tamten	tamci tamta tamte tamtego tamtej tamtemu tamto tamtych tamtym tamtymi tamtą
+34	934	ból	bólach bólami bóle bólem bóli bólowe bólowi bólowych bólu bólów
+35	935	portal	portalach portalami portale portalem portali portalom portalowi portalu
+36	936	trakt	trakcie traktem traktu trakty traktów
+37	937	odebrać	odbiera odbieraj odbierają odbierając odbierali odbieram odbieramy odbierana odbierane odbierania odbieranie odbierany odbierasz odbierać odbierał odbierała odbierz odbierze odbierzemy odbierzesz odbiorą odbiorę odebrali odebraliśmy odebrana odebrane odebrania odebranie odebraniem odebraniu odebrano odebrany odebranych odebrał odebrała odebrałam odebrałem odebrało odebrały
+38	938	położyć	kładli kładzenie kładzie kładziemy kładziesz kładziono kładziony kładą kładąc kładę kładł kładła kładłam kładź kłaść pokłada pokładam położona położone położonego położonej położono położony położonych położonym położonymi położoną położy położyli położysz położył położyła położyłam położyłem położyło położą położę połóż połóżmy
+39	939	normalny	normalna normalne normalnego normalnej normalnemu normalni normalniejszy normalnych normalnym normalnymi normalną
+40	940	uciec	ucieka uciekaj uciekajcie uciekajmy uciekają uciekając uciekająca uciekające uciekającego uciekający uciekających uciekającym uciekającą uciekali uciekam uciekamy uciekania uciekanie uciekasz uciekać uciekał uciekała uciekałam uciekałem uciekały uciekli ucieknie uciekniemy uciekniesz uciekną ucieknę uciekł uciekła uciekłam uciekłaś uciekłem uciekłeś uciekło uciekły
+41	941	relacja	relacjach relacjami relacje relacji relacjom relacją relację
+42	942	twierdzić	twierdzi twierdzicie twierdzili twierdzimy twierdzisz twierdził twierdziła twierdziłam twierdziłem twierdziłeś twierdziło twierdziły twierdzono twierdzą twierdząc twierdząca twierdzące twierdzącego twierdząco twierdzący twierdzących twierdzącą twierdzę
+43	943	porządek	porządkach porządki porządkiem porządkowa porządkowe porządkowego porządkowej porządkowi porządkowy porządkowych porządkowym porządkowymi porządkową porządku porządków
+44	944	wsparcie	wsparcia wsparciem wsparciu
+45	945	ściana	ścian ścianach ścianami ściance ścianek ścianie ścianka ściankach ściankami ścianki ścianką ściankę ściany ścianą ścianę ścienna ścienne ściennego ściennej ścienny ściennych ściennym ściennymi ścienną
+46	946	zwykle	zwyklej
+47	947	całkiem	
+48	948	spojrzeć	spogląda spoglądają spoglądając spoglądający spoglądam spoglądamy spoglądania spoglądanie spoglądasz spoglądać spoglądał spoglądała spoglądałem spojrzał spojrzała spojrzałam spojrzałaś spojrzałem spojrzałeś spojrzeli spojrzeliśmy spojrzenia spojrzeniach spojrzeniami spojrzenie spojrzeniem spojrzeniu spojrzeń spojrzy spojrzycie spojrzyj spojrzymy spojrzysz spojrzą spojrzę spójrz spójrzcie spójrzmy
+49	949	ukryć	ukryci ukrycia ukrycie ukryciu ukryj ukryje ukryli ukryta ukryte ukrytego ukrytej ukryto ukryty ukrytych ukrytym ukrytymi ukrytą ukrywa ukrywaj ukrywajmy ukrywają ukrywając ukrywający ukrywających ukrywali ukrywam ukrywamy ukrywane ukrywania ukrywanie ukrywaniu ukrywasz ukrywać ukrywał ukrywała ukrywały ukrył ukryła ukryłam
+50	950	służyć	służ służenia służenie służy służyli służymy służył służyła służyłem służyło służyły służą służąc służąca służące służącego służącej służący służących służącym służącymi służącą służę
+51	951	oddział	oddziale oddziałach oddziałami oddziałem oddziałom oddziałowi oddziału oddziały oddziałów
+52	952	zawód	zawodach zawodami zawodem zawodowi zawodu zawody zawodzie zawodów
+53	953	mapa	map mapach mapami mapce mapie mapka mapki mapkę mapy mapą mapę małp małpa małpach małpami małpek małpi małpia małpie małpiego małpim małpka małpki małpko małpką małpkę małpo małpy małpą małpę
+54	954	chory	chora chore chorego chorej choremu chorych chorym chorymi chorzy chorą
+55	955	kandydat	kandydaci kandydacie kandydata kandydatach kandydatami kandydatek kandydatem kandydatka kandydatki kandydatką kandydatkę kandydatom kandydatowi kandydatów
+56	956	baza	baz bazach bazami bazie bazowa bazowe bazowego bazowej bazowy bazowych bazowym bazowymi bazową bazy bazą bazę
+57	957	otwarty	otwarci otwarta otwarte otwartego otwartej otwartych otwartym otwartymi otwartą
+58	958	szczęśliwy	najszczęśliwszy szczęśliwa szczęśliwe szczęśliwego szczęśliwej szczęśliwemu szczęśliwi szczęśliwie szczęśliwsi szczęśliwsza szczęśliwsze szczęśliwszy szczęśliwszym szczęśliwych szczęśliwym szczęśliwymi szczęśliwą
+59	959	krak	kraka krakowie kraków
+60	960	profil	profilach profilami profile profilem profili profilu profilów
+61	961	podróż	podróżach podróżami podróże podróżom podróży podróżą
+62	962	domowy	domowa domowe domowego domowej domowemu domowi domowych domowym domowymi domową
+63	963	wykorzystać	wykorzysta wykorzystacie wykorzystaj wykorzystajcie wykorzystajmy wykorzystają wykorzystali wykorzystaliśmy wykorzystam wykorzystamy wykorzystana wykorzystane wykorzystanego wykorzystanej wykorzystani wykorzystanie wykorzystano wykorzystany wykorzystanych wykorzystanym wykorzystaną wykorzystasz wykorzystał wykorzystała wykorzystałam wykorzystałem wykorzystało wykorzystały
+64	964	spowodować	spowodowali spowodowaliśmy spowodowana spowodowane spowodowanego spowodowanej spowodowania spowodowanie spowodowaniu spowodowany spowodowanych spowodowanym spowodowanymi spowodowaną spowodował spowodowała spowodowałaby spowodowałby spowodowało spowodowałoby spowodowały spowoduje spowodujesz spowodują
+65	965	zakończyć	zakończ zakończmy zakończona zakończone zakończonego zakończonej zakończono zakończony zakończonych zakończonym zakończonymi zakończoną zakończy zakończyli zakończyliśmy zakończymy zakończył zakończyła zakończyłam zakończyłem zakończyło zakończyły zakończą zakończę
+66	966	sprawiać	sprawia sprawiacie sprawiaj sprawiają sprawiając sprawiające sprawiający sprawiających sprawiającym sprawiali sprawiam sprawiamy sprawiania sprawianie sprawiasz sprawiał sprawiała sprawiałaś sprawiało sprawiały
+67	967	znacznie	znaczniej
+68	968	gdyż	
+69	969	nagle	
+70	970	opozycja	opozycje opozycji opozycją opozycję
+71	971	funkcja	funkcjach funkcjami funkcje funkcji funkcjom funkcją funkcję funkcyjna funkcyjne funkcyjnego funkcyjny funkcyjnych funkcyjnym
+72	972	wyrazić	wyrazi wyrazili wyraził wyraziła wyraziłam wyraziłem wyraziło wyraziły wyraź wyraża wyrażają wyrażając wyrażające wyrażający wyrażających wyrażali wyrażam wyrażamy wyrażana wyrażane wyrażania wyrażanie wyrażaniu wyrażasz wyrażać wyrażał wyrażała wyrażenia wyrażenie wyrażeniem wyrażeniu wyrażeń wyrażona wyrażone wyrażonej wyrażono wyrażony wyrażoną wyrażę
+73	973	spadać	spada spadaj spadajcie spadają spadając spadająca spadające spadającego spadającej spadający spadających spadającym spadającymi spadającą spadam spadamy spadania spadanie spadasz spadał spadała spadało spadały spadli spadliśmy spadnie spadniemy spadną spadnę spadł spadła spadłaby spadłam spadłaś spadłem spadło spadły spasiony spaść
+74	974	odpowiedzieć	odpowie odpowiecie odpowiedz odpowiedzcie odpowiedziano odpowiedział odpowiedziała odpowiedziałam odpowiedziałaś odpowiedziałbym odpowiedziałem odpowiedziałeś odpowiedziało odpowiedziały odpowiedzieli odpowiedzieliśmy odpowiedzą odpowiem odpowiemy odpowiesz
+75	975	zagraniczny	zagraniczna zagraniczne zagranicznego zagranicznej zagranicznemu zagraniczni zagranicznych zagranicznym zagranicznymi zagraniczną
+76	976	wiec	wiecach wiece wiecu wieców
+77	977	klient	klienci kliencie klienta klientach klientami klientce klientek klientem klientka klientki klientką klientkę klientom klientowi klientów
+78	978	zwiększyć	zwiększ zwiększa zwiększają zwiększając zwiększające zwiększającej zwiększający zwiększających zwiększającą zwiększamy zwiększania zwiększanie zwiększaniem zwiększaniu zwiększasz zwiększać zwiększał zwiększała zwiększenia zwiększenie zwiększeniem zwiększeniu zwiększona zwiększone zwiększonego zwiększonej zwiększono zwiększony zwiększonych zwiększonym zwiększoną zwiększy zwiększyli zwiększymy zwiększył zwiększyła zwiększyło zwiększyły zwiększą
+79	979	wiara	wiar wiary wiarą wiarę wierze
+80	980	spełnić	spełni spełnia spełniają spełniając spełniająca spełniające spełniający spełniających spełniam spełniamy spełniania spełnianie spełnianiu spełniasz spełniać spełniał spełniała spełniało spełniały spełnienia spełnienie spełnieniem spełnieniu spełnij spełnili spełnimy spełniona spełnione spełniony spełnionych spełnionym spełnisz spełnią spełnię spełnił spełniła spełniłem spełniło spełniły
+81	981	podnieść	podniesie podniesiemy podniesienia podniesienie podniesieniem podniesieniu podniesiesz podniesiona podniesione podniesiono podniesiony podniesionym podniesionymi podniesioną podnieś podnieście podnieśli podniosą podniosę podniosła podniosłam podniosłem podniosło podniosły podniósł podnosi podnosimy podnosisz podnosić podnosił podnoszenia podnoszenie podnoszeniu podnoszone podnoszony podnoszą podnosząc podnoszące podnoszę
+82	982	zostawać	zostaje zostajecie zostajemy zostajesz zostają zostając zostaję zostawali zostawanie zostawał zostawała zostawało zostawały
+83	983	obowiązek	obowiązkach obowiązkami obowiązki obowiązkiem obowiązkom obowiązkowi obowiązku obowiązków
+84	984	obchodzić	obchodzenia obchodzenie obchodzeniu obchodzi obchodzicie obchodzili obchodziliśmy obchodzimy obchodzisz obchodził obchodziła obchodziłby obchodziło obchodziły obchodzona obchodzone obchodzonego obchodzono obchodzony obchodzonych obchodzonym obchodzą obchodząc obchodzę obejdzie obejścia obejście obejściem obejściu obejść obeszli obeszła obeszło obszedł obszedłem
+85	985	ograniczyć	ogranicz ogranicza ograniczają ograniczając ograniczające ograniczający ograniczających ograniczam ograniczamy ograniczana ograniczane ograniczania ograniczanie ograniczaniu ograniczasz ograniczać ograniczał ograniczała ograniczało ograniczały ograniczeni ograniczona ograniczone ograniczonego ograniczonej ograniczono ograniczony ograniczonych ograniczonym ograniczonymi ograniczoną ograniczy ograniczyli ograniczył ograniczyła ograniczyło ograniczyły ograniczą ograniczę
+86	986	powtarzać	powtarza powtarzaj powtarzają powtarzając powtarzające powtarzający powtarzających powtarzali powtarzam powtarzamy powtarzana powtarzane powtarzania powtarzanie powtarzany powtarzanych powtarzasz powtarzał powtarzała powtarzałam powtarzałem powtarzały powtórz powtórzenia powtórzenie powtórzeniem powtórzeń powtórzmy powtórzone powtórzonego powtórzy powtórzymy powtórzyć powtórzył powtórzyła powtórzyłem powtórzyło powtórzą powtórzę
+87	987	wynikać	wynika wynikają wynikająca wynikające wynikającego wynikającej wynikający wynikających wynikającym wynikającymi wynikającą wynikał wynikała wynikało wynikałoby wynikały wyniknie wyniknąć wyniknęło wynikł wynikła wynikłe wynikło wynikły wynikłych
+88	988	wyobrazić	wyobrazi wyobraził wyobraziłam wyobraziłem wyobraź wyobraźcie wyobraźmy wyobraża wyobrażacie wyobrażaj wyobrażają wyobrażając wyobrażali wyobrażaliśmy wyobrażam wyobrażamy wyobrażasz wyobrażać wyobrażał wyobrażała wyobrażałam wyobrażałaś wyobrażałem wyobrażałeś wyobrażenia wyobrażeniach wyobrażeniami wyobrażenie wyobrażeniem wyobrażeniom wyobrażeniu wyobrażeń wyobrażone wyobrażę
+89	989	duże	
+90	990	ponownie	
+91	991	zaś	
+92	992	tata	tacie tatami tatko tatku tato taty tatą tatę
+93	993	kampania	kampaniach kampaniami kampanie kampanii kampanią kampanię
+94	994	zaproponować	proponowali proponowana proponowane proponowanej proponowano proponowany proponowanych proponowanym proponowaną proponować proponował proponowała proponowałbym proponowałem proponuje proponujecie proponujemy proponujesz proponują proponując proponuję zaproponowali zaproponowana zaproponowane zaproponowanego zaproponowanej zaproponowania zaproponowano zaproponowany zaproponowanych zaproponował zaproponowała zaproponowałam zaproponowałem zaproponowało zaproponuj zaproponuje zaproponują zaproponuję
+95	995	lato	lat latach latami latem latom lecie
+96	996	popierać	poparli poparta poparte poparty poparł poparła poparło poparły popiera popieracie popierają popierając popierająca popierające popierający popierających popierającym popierającymi popierającą popierali popieram popieramy popierana popierane popierania popieranie popierany popieranych popierasz popierał popierała popierałem popierało popierały poprze poprzesz poprzeć poprą poprę
+97	997	parę	paroma
+98	998	przyczyna	przyczyn przyczynach przyczynami przyczynie przyczynowe przyczynowego przyczynowy przyczyny przyczyną przyczynę
+99	999	kierowca	kierowcach kierowcami kierowce kierowco kierowcom kierowcy kierowców kierowcą kierowcę kierownica kierownice kierownicy kierownicą kierownicę
+100	1000	wewnętrzny	wewnętrzna wewnętrzne wewnętrznego wewnętrznej wewnętrznemu wewnętrznie wewnętrznych wewnętrznym wewnętrznymi wewnętrzną
