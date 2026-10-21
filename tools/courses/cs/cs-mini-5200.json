@@ -1,0 +1,207 @@
+{
+  "id": "cs-mini-5200",
+  "rankUpTo": 5200,
+  "level": "C1",
+  "title": "Věda v kuchyni",
+  "description": "Ten stories, columns and interviews about the chemistry and physics behind everyday cooking, from crushed garlic to broth, ice and baking trays.",
+  "topic": "The science of cooking",
+  "names": [
+    "Markéta",
+    "Vondrová",
+    "Vondrové",
+    "Olomouce",
+    "Olomouc",
+    "Bohdan",
+    "Bohdane",
+    "Ilona",
+    "Ilonin",
+    "Pardubic",
+    "Zuzana",
+    "Zuzaně",
+    "Hana",
+    "Haně",
+    "Hanou",
+    "Brna",
+    "Praze",
+    "Jitka",
+    "Jitce",
+    "Ostravě",
+    "Island",
+    "Islandu",
+    "Sigrid",
+    "Vojtěch",
+    "Vojtěchovi",
+    "Třeboně",
+    "Pavla",
+    "Pavliny",
+    "Kutné",
+    "Anna",
+    "Anny",
+    "Šrámkové",
+    "Šrámková",
+    "Kamil",
+    "Liberci"
+  ],
+  "lessons": [
+    {
+      "title": "Proč babička drtila česnek",
+      "summary": "A man finally understands, through the chemistry of garlic, why his grandmother always crushed it instead of slicing it.",
+      "newWords": [
+        "česnek",
+        "rozdrtit",
+        "mínit",
+        "tajit",
+        "laik",
+        "odvodit",
+        "teoreticky",
+        "upřesnit",
+        "lžíce"
+      ],
+      "text": "Moje babička vařila nejlepší česnekovou polévku v celé vesnici. Svůj postup nikdy netajila a každému, kdo se zeptal, ho ráda popsala. Na jedné věci ale trvala: „Česnek se nekrájí, česnek se drtí.“ Položila stroužek na desku, přitiskla na něj velkou lžíci a jedním pohybem ho rozdrtila. Když jsem se jako kluk ptal, proč ho nekrájí nožem jako cibuli, řekla jen: „Protože tak víc voní.“ Co tím přesně mínila, jsem tehdy nechápal.\n\nJako laik jsem dlouho věřil, že je to jen zvyk. Česnek je přece česnek, ať ho krájím, nebo drtím. Teprve nedávno jsem v knize o chemii vaření našel vysvětlení, které babičce dává za pravdu.\n\nCelý stroužek česneku skoro nevoní. Můžete ho držet v ruce a ruka bude vonět jen slabě. V jeho buňkách jsou totiž dvě látky, které jsou od sebe oddělené. Teprve když se stěny buněk poruší, látky se setkají a vznikne z nich nová, ostrá látka. Právě ta dává česneku jeho typickou vůni a chuť. Autor knihy to ještě upřesňuje: čím víc buněk poškodíme, tím víc té ostré látky vznikne.\n\nZ toho si i laik snadno odvodí jednoduché pravidlo. Celý stroužek, který vložíme do polévky, jí dodá jemnou, skoro sladkou chuť. Nakrájený česnek chutná silněji. A rozdrcený česnek, ve kterém je poškozená většina buněk, chutná nejsilněji. Babička tedy měla pravdu, i když o buňkách nikdy nemluvila.\n\nKniha upřesňuje ještě jednu věc, kterou jsem neznal. Reakce, která v česneku po rozdrcení začne, nějakou dobu trvá. Když česnek hned po rozdrcení hodíme na horký olej, teplo reakci zastaví dřív, než stačí proběhnout. Proto autor radí nechat drcený česnek asi deset minut ležet a teprve potom ho přidat do hrnce. Teoreticky by se dalo spočítat, kolik ostré látky za tu dobu vznikne. Prakticky stačí počkat, než si připravíte zbytek jídla.\n\nOdvodil jsem si z toho i to, proč babička česnek do polévky dávala až na konci. Dlouhé vaření ostrou látku rozkládá, takže polévka by voněla mnohem méně. Teoreticky jsem to tedy pochopil. Babička to věděla prakticky, z mnoha let u plotny.\n\nDnes každý stroužek rozdrtím stejně jako ona, starou lžící, kterou jsem po ní zdědil. Svou malou znalost chemie netajím a rád ji vysvětlím každému, kdo se diví, proč nechávám česnek ležet na desce. A když se mě někdo zeptá, co tím mínila babička, když říkala, že česnek se drtí, odpovím: mínila tím chemii, jen jí tak neříkala.\n\nOtázky:\nCo babička vždycky dělala s česnekem?\nČesnek nikdy nekrájela, ale drtila ho velkou lžící.\nProč celý stroužek česneku skoro nevoní?\nProtože dvě látky v jeho buňkách jsou od sebe oddělené a setkají se, až když se buňky poruší.\nJaké pravidlo si může odvodit i laik?\nČím víc buněk česneku poškodíme, tím silnější chuť má.\nProč autor knihy radí nechat drcený česnek chvíli ležet?\nProtože reakce nějakou dobu trvá a teplo by ji zastavilo příliš brzy.\nProč dávala babička česnek do polévky až na konci?\nProtože dlouhé vaření ostrou látku rozkládá a polévka by voněla méně."
+    },
+    {
+      "title": "Pekařka, která váží všechno",
+      "summary": "An interview with a baker in Olomouc about weighing in grams, dark and light baking trays, a copper pot and a faulty oven.",
+      "newWords": [
+        "plech",
+        "gram",
+        "měď",
+        "pult",
+        "prodávaný",
+        "předešlý",
+        "dodatečný",
+        "závada",
+        "věcný"
+      ],
+      "text": "Markéta Vondrová vede malý obchod s pečivem v centru Olomouce. Její koláče patří k nejprodávanějším ve městě a ráno na ně lidé čekají ve frontě až na ulici. Nejprodávanější je koláč s jablky, hned po něm koláč se švestkami. Zeptali jsme se paní Vondrové, kolik vědy je v obyčejném koláči.\n\nPaní Vondrová, prý u vás nic nejde do trouby bez vážení. Je to pravda?\n\nJe. Doma lidé často měří mouku lžícemi nebo sklenicí, ale to je velmi nepřesné. Sklenice mouky může mít 120 gramů, nebo taky 160, podle toho, jak ji do ní dáte. U chleba to tolik nevadí, u jemného koláče je rozdíl 40 gramů vidět hned. Proto vážíme všechno na gramy, i sůl a prášek do pečiva.\n\nVaše koláče se pečou na tmavých plechách. Proč ne na světlých?\n\nTmavý plech přijme víc tepla z trouby, takže se na něm koláč zespodu peče rychleji. Na světlém plechu by potřeboval o pár minut víc a jeho spodní strana by zůstala bílá. Když jsem obchod převzala, předešlý majitel měl světlé plechy a koláče z nich byly dobré, ale ne výborné. Vyměnila jsem plechy a zkrátila dobu v troubě. Nic dalšího jsem neměnila, a zákazníci si toho rozdílu všimli. Předešlé plechy jsem nevyhodila, peču na nich doma chleba.\n\nZa pultem máte velký měděný kotel. To je jen na ozdobu?\n\nNe, v něm vařím švestky na náplň do koláčů. Měď vede teplo lépe než skoro jakýkoliv jiný kov. Teplo se v ní rychle rozloží po celém dně, takže se ovoce nikde nepřipálí, i když se vaří několik hodin. V obyčejném hrnci by se na jednom místě spálilo a na druhém by bylo ještě studené. Babičky to věděly dávno, i když nevěděly proč. A zákazníci se na ten kotel za pultem rádi dívají.\n\nPrý jste měla s troubou potíže.\n\nHned v prvním měsíci. Jeden plech byl vždycky tmavší než druhý a koláče se pekly každý jinak. Myslela jsem, že dělám chybu já. Technik pak zjistil závadu na senzoru teploty: trouba ukazovala 180 stupňů, ale uvnitř jich bylo skoro 200. Závadu opravil a já si od té doby kupuji do každé trouby dodatečný teploměr. Stojí pár stovek a ušetří mi spoustu zkažených plechů. Dodatečná kontrola se vyplatí vždycky.\n\nCo byste poradila lidem, kteří pečou doma?\n\nBudu věcná: kupte si váhu a teploměr do trouby. To je víc než polovina úspěchu. Věcně řečeno, pečení je chemie, a v chemii se měří. Zbytek je zkušenost a trpělivost.\n\nOtázky:\nProč Markéta Vondrová váží všechny suroviny na gramy?\nProtože měření lžícemi a sklenicí je nepřesné a u jemného koláče je rozdíl několika gramů hned vidět.\nProč peče koláče na tmavých plechách?\nProtože tmavý plech přijme víc tepla a koláč se na něm zespodu peče rychleji.\nK čemu slouží měděný kotel za pultem?\nVaří v něm švestky na náplň, protože měď dobře vede teplo a ovoce se nepřipálí.\nJakou závadu měla trouba?\nMěla vadný senzor teploty a uvnitř bylo tepleji, než ukazovala.\nCo si od té doby kupuje do každé trouby?\nKupuje si dodatečný teploměr."
+    },
+    {
+      "title": "Omáčka v osmifinále",
+      "summary": "An amateur cook in a television contest saves a split egg-and-butter sauce, while a commentator explains why it split.",
+      "newWords": [
+        "osmifinále",
+        "amatér",
+        "komentátor",
+        "porada",
+        "povzbudit",
+        "hurá",
+        "sako",
+        "účes",
+        "vášnivý"
+      ],
+      "text": "Bohdan je učitel matematiky z Pardubic a vášnivý kuchař. Vaří každý večer a o víkendu celé hodiny. Loni se přihlásil do televizní soutěže, ve které proti sobě vaří amatéři z celé republiky. Prošel prvním kolem a v sobotu stál ve studiu v osmifinále.\n\nRáno ho jeho žena Ilona vzala ke kadeřníkovi. „V televizi musíš vypadat dobře,“ řekla a vybrala mu krátký, moderní účes. Bohdan si oblékl tmavé sako a bílou košili. Ve studiu se ale ukázalo, že pod světly je velké horko. Sako si hned sundal a dal ho na židli. Nový účes vydržel jen do první otázky moderátora.\n\nÚkol osmifinále zněl jednoduše: připravit omáčku z vajec a rozpuštěného másla. Každý amatér, který někdy takovou omáčku dělal, ví, že jednoduchá není. Bohdan začal dobře. Vejce s kapkou vody pomalu míchal nad párou. Pak začal přidávat máslo. Chtěl však být rychlý a přidal ho příliš mnoho najednou. Omáčka se během pár vteřin srazila: místo hladké žluté hmoty měl v nádobě rozpuštěný tuk a v něm drobné kousky vajec.\n\nKomentátor soutěže, sám zkušený kuchař, divákům vysvětlil, co se stalo. „Tuk a voda se samy od sebe nespojí,“ řekl komentátor. „Ve vejci je ale látka, která obalí drobné kapky másla a udrží je ve vodě. Když přidáte máslo pomalu, má na to čas. Když ho přidáte najednou, kapky se spojí do velkých a omáčka se rozdělí. Pro amatéra je to nejčastější chyba.“\n\nBohdan na chvíli zůstal stát. Pak uslyšel z publika Ilonin hlas: „Bohdane, to dáš!“ Ilona ho povzbudila ještě dvakrát a on se uklidnil. Vzal čistou nádobu, dal do ní lžíci teplé vody a začal do ní po kapkách přidávat sraženou omáčku. Komentátor to hned pochopil. „Výborně,“ povzbudil ho do mikrofonu. „Začíná znovu od malé kapky. Látka z vajec dostane čas, aby kapky másla znovu obalila.“ Po dvou minutách byla omáčka opět hladká.\n\nČlenové poroty ochutnali všech osm omáček a odešli na poradu. Porada trvala skoro čtvrt hodiny. Bohdan si zatím sedl vedle svého saka a díval se do země. Po poradě porota oznámila, že jeho omáčka nebyla nejlepší, ale že nejlépe ukázal, jak se chyba opraví. Postoupil do čtvrtfinále.\n\n„Hurá!“ zavolala Ilona z publika. Bohdan se jen usmál, oblékl si sako a se zničeným účesem šel podat ruku komentátorovi. „Ilona křičela hurá za nás oba,“ smál se pak doma.\n\nOtázky:\nKdo je Bohdan?\nBohdan je učitel matematiky z Pardubic a vášnivý kuchař.\nProč si ve studiu svlékl sako?\nProtože pod světly ve studiu bylo velké horko.\nProč se omáčka srazila?\nProtože Bohdan přidal příliš mnoho másla najednou a kapky tuku se spojily.\nJak komentátor vysvětlil, co dělá vejce v omáčce?\nŘekl, že látka ve vejci obalí drobné kapky másla a udrží je ve vodě.\nJak Bohdan omáčku zachránil?\nDal do čisté nádoby lžíci teplé vody a po kapkách do ní přidával sraženou omáčku.\nCo rozhodla porota po poradě?\nRozhodla, že Bohdan postupuje do čtvrtfinále."
+    },
+    {
+      "title": "Kuchyně před maratonem",
+      "summary": "A runner preparing for her first marathon learns from a friend what to cook in the last week, and why steaming keeps vitamins.",
+      "newWords": [
+        "maraton",
+        "plavání",
+        "vitamín",
+        "oběh",
+        "vyspat",
+        "rychlostní",
+        "bolestivý",
+        "občerstvit",
+        "poslech"
+      ],
+      "text": "Zuzana z Brna běhá šest let, ale maraton poběží poprvé. Do závodu v Praze zbývá týden. Trénink má za sebou: dlouhé běhy v neděli, rychlostní úseky ve středu a dvakrát týdně plavání, které podle trenéra šetří klouby. Teď už ji čeká hlavně odpočinek a kuchyně. Zavolala proto své kamarádce Haně, která pracuje jako poradkyně pro výživu sportovců.\n\n„Nejdřív si musíš uvědomit, odkud tělo při maratonu bere sílu,“ začala Hana. „Svaly berou energii hlavně z cukru, který mají uložený v sobě. Ta zásoba ale vydrží asi na třicet kilometrů. Proto si ji poslední tři dny před maratonem doplň: víc rýže, chleba a brambor, méně tuku. Rychlostní trénink už nedělej, ať zásoba zůstane ve svalech.“\n\nZuzana se zeptala na zeleninu. Ráda ji vaří dlouho, až je úplně měkká. „To je škoda,“ řekla Hana. „Některé vitamíny teplo nesnášejí. Vitamín C se při dlouhém vaření z velké části rozloží a další přejde do vody, kterou pak vylíváš. Zeleninu dávej raději do páry a jen na pár minut. Zůstane pevná, zelená a vitamíny v ní zůstanou taky.“\n\nPak přišla řeč na pití. Při dlouhém běhu člověk ztrácí potem vodu i sůl. „Když ti chybí voda, krev zhoustne a srdce musí pracovat víc, aby udrželo oběh,“ vysvětlila Hana. „Oběh krve pak přináší do svalů méně kyslíku a ty rychleji ztratí sílu. A když chybí sůl, přijdou bolestivé křeče. Viděla jsem běžce, kteří kvůli bolestivé křeči stáli na 30. kilometru a plakali.“ Proto má Zuzana na trati každých pět kilometrů pít a na občerstvovacích místech se občerstvit i kouskem banánu nebo slaným pečivem. Občerstvení má být malé a pravidelné, ne velké a jednou.\n\n„A poslední rada?“ zeptala se Zuzana. „Vyspi se,“ řekla Hana. „Dva dny před závodem se pořádně vyspi. Noc před maratonem se většina lidí stejně nevyspí, protože jsou nervózní. To nevadí, když jsi spala dobře předtím.“\n\nZuzana si rady zapsala. Týden vařila podle nich: rýži, brambory, zeleninu v páře. Večer před maratonem si pustila do sluchátek rozhlasový pořad o běhu, aby se uklidnila. Poslech jí pomohl víc než čaj. Ráno se cítila odpočatá, i když se, jak říkala Hana, úplně nevyspala.\n\nMaraton doběhla za čtyři hodiny a deset minut. Na každém občerstvovacím místě se napila a žádná křeč nepřišla. V cíli poslala Haně zprávu: „Doběhla jsem. Příště zase s tebou v kuchyni.“\n\nOtázky:\nJak se Zuzana na maraton připravovala?\nBěhala dlouhé běhy, dělala rychlostní trénink a dvakrát týdně chodila na plavání.\nProč má Zuzana poslední dny jíst víc rýže a brambor?\nProtože svaly berou energii hlavně z uloženého cukru a tu zásobu je třeba doplnit.\nCo se stane s vitamíny při dlouhém vaření zeleniny?\nČást vitamínů se rozloží a část přejde do vody.\nCo se děje v těle, když běžci chybí voda?\nKrev zhoustne, srdce musí víc pracovat, aby udrželo oběh, a svaly rychleji ztratí sílu.\nCo pomohlo Zuzaně večer před závodem?\nPomohl jí poslech rozhlasového pořadu o běhu."
+    },
+    {
+      "title": "Kam s olejem z pánve",
+      "summary": "After a blocked drain in an Ostrava block of flats, a resident learns why frying fat must not go into the sink, and where used oil can go instead.",
+      "newWords": [
+        "kanalizace",
+        "potrubí",
+        "sběr",
+        "bezplatný",
+        "cedule",
+        "poskytovatel",
+        "ropný",
+        "děsný",
+        "uplynout"
+      ],
+      "text": "Jitka bydlí v Ostravě v domě se čtyřiceti byty a je ve výboru společenství vlastníků. Jednoho rána k ní přišla sousedka z přízemí: z odpadu v kuchyni jí vytéká voda a v bytě je děsný zápach. Jitka hned zavolala firmu, která se o dům stará.\n\nTechnik přijel za hodinu. Otevřel potrubí ve sklepě a ukázal Jitce, co v něm našel: šedou tvrdou hmotu, která skoro celé potrubí uzavřela. „To je tuk,“ řekl. „Lidé ho lijí do odpadu, protože je horký a dobře teče. Jenže v potrubí rychle vychladne a ztuhne. Usadí se na stěnách, chytá se na něj další tuk, zbytky jídla a vlákna z papíru. Uplyne pár let a potrubí je skoro plné.“\n\nJitka se zeptala, proč tuk nesmyje horká voda. „Na chvíli ano,“ odpověděl technik. „Horká voda ho rozpustí a odnese o pár metrů dál. Tam ale voda vychladne a tuk se usadí znovu. Prostředek na nádobí taky moc nepomůže. Rozbije tuk na malé kapky, ale v kanalizaci se ty kapky zase spojí.“\n\nTechnik potrubí vyčistil a tu hmotu odvezl. Jitka mezitím na stránkách poskytovatele vody a kanalizace v Ostravě našla článek, který to všechno potvrdil. Poskytovatel tam psal, že tuk z kuchyní je jedním z největších problémů městské kanalizace. Ve velkých městech se v kanalizaci tvoří tukové hory, které váží i několik tun a jejich odstranění stojí miliony.\n\nNa stejné stránce se dočetla, co s olejem dělat. Ve městě funguje bezplatný sběr použitého oleje. Olej stačí po vychladnutí nalít do plastové láhve, láhev pevně zavřít a odnést do zvláštního kontejneru. Sběr je pro obyvatele zcela bezplatný a kontejnery stojí na mnoha místech, většinou u kontejnerů na sklo. Olej ze sběru se pak zpracuje na palivo do aut. Takové palivo nahradí část ropné nafty, takže je potřeba méně ropných surovin.\n\nNa schůzi výboru Jitka navrhla, aby dům sousedům problém vysvětlil. Do každé kuchyně by nikdo nešel, ale cedule u vchodu uvidí všichni. Vyrobila tedy dvě cedule. Na první stálo: „Tuk do odpadu nepatří.“ Na druhé byla mapa s nejbližšími kontejnery na olej. Cedule nalepila vedle schránek na dopisy a malou ceduli dala i do sklepa k potrubí.\n\nOd té doby uplynul rok. Potrubí se už neucpalo a v přízemí žádný děsný zápach není. Jitka sama nosí láhev s olejem do kontejneru zhruba jednou za měsíc. Pánev před mytím vytře papírem a papír hodí do koše.\n\nOtázky:\nCo se stalo v bytě v přízemí?\nZ odpadu v kuchyni vytékala voda a v bytě byl děsný zápach.\nCo technik našel v potrubí?\nNašel tvrdou hmotu z tuku, zbytků jídla a vláken z papíru.\nProč horká voda tuk nesmyje?\nProtože o pár metrů dál vychladne a tuk se znovu usadí na stěnách potrubí.\nCo Jitka zjistila na stránkách poskytovatele?\nZjistila, že ve městě funguje bezplatný sběr použitého oleje.\nCo se dělá s olejem ze sběru?\nZpracuje se na palivo, které nahradí část ropné nafty."
+    },
+    {
+      "title": "Led z ledovce",
+      "summary": "On a trip to Iceland, a young woman and her father learn why glacier ice is so clear, and at home they try to make clear ice and smooth ice cream.",
+      "newWords": [
+        "ledovec",
+        "krystal",
+        "cizina",
+        "odlet",
+        "horizont",
+        "překrásný",
+        "působivý",
+        "luxus",
+        "zatáhnout",
+        "val"
+      ],
+      "text": "Loni v létě jsem jela s tátou na Island. Táta je fyzik a v cizině vždycky hledá něco, co by mohl vysvětlit. Tentokrát to byl led. Hned první den nás průvodkyně Sigrid vzala k ledovci, který končí v malém jezeře. Byl to překrásný pohled: bílá a modrá hmota se táhla až k horizontu a na hladině jezera plavaly kusy ledu. Nejpůsobivější byla ta modrá barva, kterou jsem do té doby znala jen z fotografií.\n\nPo stranách ledovce ležely dlouhé valy z kamenů a písku. Sigrid vysvětlila, že je tam za tisíce let přinesl sám ledovec. Pomalu se pohybuje dolů, tlačí kameny před sebou i do stran, a když ustoupí, valy zůstanou. Nejstarší val byl tak daleko, že jsme ho skoro neviděli. Bylo to působivé: na ten kus země kdysi sahal led.\n\nPak jsme z jezera vytáhli kousek ledu. Byl průhledný jako sklo. „Proč není bílý jako led z našeho mrazáku?“ zeptala jsem se. Táta se usmál, protože přesně na tu otázku čekal. „Led z mrazáku vzniká rychle a ze všech stran najednou,“ řekl. „Vzduch, který je ve vodě, nestačí utéct a zůstane uvnitř v drobných bublinách. Proto je kostka uprostřed bílá. Ledovec vznikl ze sněhu, který staletí ležel pod vlastní vahou. Tlak z něj vzduch postupně dostal ven a krystaly ledu jsou v něm velké. Takový led je hustý, skoro bez bublin, a taje velmi pomalu.“\n\nVečer jsme seděli v restauraci a obloha se zatáhla. Číšník nám přinesl vodu s kostkami ledovcového ledu a řekl, že je to místní luxus. Táta se smál, že luxus je to jen pro turisty, ale musel uznat, že kostky vydržely ve sklenici skoro celou večeři.\n\nDen před odletem se zatáhlo znovu a začalo pršet. Táta mi v hotelu zatáhl závěs a nakreslil na papír, jak vypadá krystal ledu. Pak řekl: „Doma zkusíme dvě věci. Udělat průhledný led a zmrzlinu, která bude hladká.“\n\nPři odletu jsem z okna letadla viděla ledovec ještě jednou, jako bílou čáru na horizontu.\n\nPo návratu domů jsme se do toho pustili. Táta říká, že cizina je dobrá hlavně proto, že člověka naučí dívat se jinak i na věci doma. Průhledný led se dá udělat i v kuchyni: vodu dáte do malé nádoby a zabalíte ji ze stran i zespodu do deky. Voda pak mrzne jen od hladiny dolů. Vzduch pak uniká dolů a bubliny zůstanou až v posledním kousku. Ten se odstraní a zbytek je čistý jako sklo. Žádný luxus, jen trpělivost.\n\nSe zmrzlinou je to podobné. Když směs zmrzne v klidu, vyrostou v ní velké krystaly a zmrzlina je na jazyku jako písek. Když ji při mrznutí stále mícháte, krystaly se lámou a zůstanou drobné. Proto je dobrá zmrzlina hladká. Táta ji míchal každých třicet minut a výsledek byl překrásný.\n\nOtázky:\nKam jela autorka s tátou?\nAutorka jela s tátou na Island k ledovci.\nJak vznikly valy po stranách ledovce?\nLedovec za tisíce let tlačil kameny před sebou a do stran a valy zůstaly.\nProč je led z mrazáku uprostřed bílý?\nProtože mrzne rychle a vzduch zůstane uvnitř v drobných bublinách.\nProč je ledovcový led průhledný?\nProtože vznikl ze sněhu, ze kterého tlak během staletí dostal vzduch ven.\nProč je dobrá zmrzlina hladká?\nProtože se při mrznutí míchá a krystaly v ní zůstanou drobné."
+    },
+    {
+      "title": "Polévka pod vrbou",
+      "summary": "At a cottage in South Bohemia a young man makes his first bone soup twice: once too fast and thin, once slowly and properly.",
+      "newWords": [
+        "kostra",
+        "rozpadat",
+        "škodit",
+        "shodit",
+        "reflex",
+        "příhoda",
+        "holt",
+        "ubohý",
+        "vrba"
+      ],
+      "text": "Vojtěch má po dědovi malou chalupu u rybníka kousek od Třeboně. Před chalupou roste stará vrba, jejíž větve visí až k vodě. Pod vrbou stojí lavička a na ní Vojtěch rád sedí s knihou. Loni na podzim si tam ale vzal kuchařku. Chtěl uvařit skutečnou polévku z kostí, takovou, jakou dělával děda.\n\nPrvní pokus dopadl špatně. Koupil dvě kuřecí kostry, dal je do vody a pustil velký plamen. Polévka se vařila tak silně, že voda skákala ven. Za hodinu ji Vojtěch ochutnal. Byla šedá a slabá, chutnala spíš jako voda po nádobí. „Ubohá polévka,“ řekl si nahlas. „Holt jsem chtěl mít hotovo moc rychle.“\n\nVečer si pod vrbou přečetl, co udělal špatně. Kniha to vysvětlovala jasně. V kostech, kůži a kloubech je zvláštní látka, která se při pomalém vaření rozpouští ve vodě. Ta dává dobré polévce plnou chuť, a když polévka stojí přes noc v lednici, je z ní rosol. Potřebuje ale čas: tři, čtyři, někdy i šest hodin. A polévka se nesmí vařit prudce. Když se vaří divoce, tuk se rozbije na drobné kapky, spojí se s vodou a polévka je šedá. Při mírném vaření zůstane tuk nahoře a polévka je čistá. Dlouhé vaření kostem neškodí, naopak. Škodí jim jen příliš velký oheň.\n\nDruhý den to Vojtěch zkusil znovu. Kuřecí kostry dal do studené vody a hrnec postavil na malý plamen. Šedou vrstvu, která vyšla nahoru, sbíral lžící. Pak plamen stáhl na minimum, aby se polévka vařila jen mírně. Přidal mrkev, cibuli a kousek kořene a odešel si sednout pod vrbu.\n\nZa tři hodiny se stala malá příhoda. Vojtěch chtěl polévku ochutnat a omylem shodil z okraje stolu horkou lžíci. Ruka se reflexem natáhla, aby ji chytila, ale lžíce byla horká. Druhý reflex byl rychlejší: Vojtěch ruku stáhl dřív, než si stačil spálit prsty. Lžíce spadla na zem s velkým hlukem, ale nic se nestalo. Lidské tělo má rychlé reflexy, řekl si, rychlejší než mozek. Tentokrát ho reflex ochránil, i když předtím lžíci shodil sám.\n\nPo pěti hodinách se maso z kostí samo rozpadalo. Stačilo se ho dotknout lžící a rozpadlo se na vlákna. Polévka byla zlatá, čistá a voněla jako u dědy. Vojtěch z ní vytáhl kostry a vyhodil je. Část polévky dal do lednice a ráno zjistil, že se z ní stal rosol. Přesně tak to v knize stálo.\n\nTu příhodu se lžící vypráví Vojtěch dodnes. Říká, že polévka z kostí ho naučila dvě věci: že velký oheň škodí a že čas je holt nejlepší koření.\n\nOtázky:\nKde má Vojtěch chalupu?\nMá chalupu u rybníka kousek od Třeboně a před ní roste stará vrba.\nProč byla první polévka ubohá?\nProtože se vařila příliš rychle a prudce, a byla proto šedá a slabá.\nCo se děje s kostmi při pomalém vaření?\nZvláštní látka z kostí, kůže a kloubů se rozpouští ve vodě a dává polévce chuť.\nJaká příhoda se Vojtěchovi stala?\nShodil horkou lžíci a reflexem ruku stáhl dřív, než se spálil.\nJak poznal, že je maso hotové?\nMaso se z kostí samo rozpadalo."
+    },
+    {
+      "title": "Rukopis ve zdi",
+      "summary": "A handwritten nineteenth-century cookbook found in a wall niche in Kutná Hora becomes a book with a scientific appendix explaining why the old recipes work.",
+      "newWords": [
+        "rukopis",
+        "nika",
+        "stejnojmenný",
+        "dodatek",
+        "nazývaný",
+        "génius",
+        "zbožňovat",
+        "výzdoba",
+        "kytka",
+        "pověsit"
+      ],
+      "text": "Když Pavla s manželem opravovali starý dům v Kutné Hoře, objevili v kuchyni ve zdi malou niku. Byla zavřená deskou a celá desetiletí o ní nikdo nevěděl. V nice ležel sešit v kožených deskách. Byl to rukopis kuchařky Anny Šrámkové, která v domě vařila kolem roku 1880. Na prvních stránkách stálo krásným písmem: „Kniha mých receptů.“\n\nPavla rukopis odnesla do městského muzea. Odborníci potvrdili, že je pravý a že podobný rukopis z té doby v kraji nemají. Muzeum ho o dva roky později vydalo jako knihu se stejnojmenným názvem: Kniha mých receptů. Ke stejnojmenné knize připravilo muzeum i malou výstavu, na které byl sešit vystavený v původní nice, kterou přenesli i se zdí.\n\nKniha má zvláštní dodatek. Recepty Anny Šrámkové jsou psané krátce, bez vysvětlení: „Ovoce vař s cukrem, dokud není husté.“ „Maso nasol a nech v chladu tři dny.“ „Kytky na čaj pověs do kuchyně ke stropu.“ V dodatku k nim odbornice na chemii z univerzity vysvětluje, proč to funguje. Dodatek čtou lidé prý víc než samotné recepty.\n\nVšechny tři rady mají podle dodatku společný základ: berou jídlu vodu. Bakterie a plísně potřebují k životu vodu. Cukr v ovoci i sůl na mase na sebe vodu navážou, takže pro bakterie nezbude. Proto se ovoce dobře uvařené s cukrem nekazí ani celý rok. A kytky pověšené v teplé kuchyni ke stropu rychle vyschnou, protože teplý vzduch stoupá nahoru a bere s sebou vlhkost. Anna Šrámková o bakteriích nic nevěděla. Věděla ale, co funguje.\n\nByla tedy Anna v kuchyni géniem? Autorka dodatku píše, že ne. Génius podle ní objevuje nové věci, zatímco Anna pečlivě zapisovala to, co se v kuchyních učilo po generace. Přesto její rukopis obsahuje i jeden recept, který nikde jinde nenašli: koláč nazývaný „lesní cesta“. Je to koláč s ořechy a sušenými jablky. Proč se tak jmenuje, nevysvětluje ani rukopis, ani dodatek. Koláč nazývaný lesní cesta se dnes peče v jedné kavárně na náměstí.\n\nPavla ten koláč zbožňuje. Peče ho každou neděli a říká, že její rodina ho zbožňuje taky. Kuchyni v domě opravili tak, aby vypadala skoro jako za Anny. Výzdoba je jednoduchá: bílé zdi, staré talíře na poličce a svazky sušených kytek, které Pavla sama pověsila ke stropu. Taková výzdoba se jí líbí víc než moderní kuchyně z katalogu.\n\nNika ve zdi nezůstala prázdná. Rukopis je dnes v muzeu, ale Pavla do niky dala vydanou knihu. Recepty Anny Šrámkové se tak na své místo aspoň trochu vrátily.\n\nOtázky:\nCo našla Pavla v nice ve zdi?\nNašla rukopis kuchařky Anny Šrámkové z doby kolem roku 1880.\nCo s rukopisem udělalo muzeum?\nVydalo ho jako stejnojmennou knihu a připravilo k ní výstavu.\nO čem píše odbornice na chemii v dodatku?\nVysvětluje, proč staré rady z rukopisu fungují.\nProč se ovoce uvařené s cukrem nekazí?\nProtože cukr na sebe naváže vodu a bakterie bez vody nemohou žít.\nProč Anna věšela kytky ke stropu?\nProtože teplý vzduch stoupá nahoru a kytky tam rychle vyschnou.\nJak vypadá výzdoba Pavliny kuchyně?\nMá bílé zdi, staré talíře a svazky sušených kytek u stropu."
+    },
+    {
+      "title": "Duha z červeného zelí",
+      "summary": "A chemistry teacher in Liberec uses red cabbage juice to show his class acids and bases, and explains why vinegar keeps red cabbage red and cleans a shower head.",
+      "newWords": [
+        "kabinet",
+        "projekce",
+        "posadit",
+        "duha",
+        "poukazovat",
+        "hlavice",
+        "podrobit"
+      ],
+      "text": "Kamil učí chemii na gymnáziu v Liberci. Jednou za rok dělá se třetím ročníkem hodinu, které říká chemie v kuchyni. Ráno před ní si v kabinetu chemie připraví všechno, co potřebuje: velkou nádobu červené šťávy, kterou doma připravil z červeného zelí, dvanáct sklenic, ocet, citron, jedlou sodu, mýdlo a starou sprchovou hlavici, kterou přinesl z domova. Kabinet je malá místnost vedle třídy, plná skříní a papírů, a Kamil tam musí všechno nosit na dvakrát.\n\nHodina začíná krátkou projekcí. Na plátně se objeví fotografie dvou talířů. Na jednom je zelí červené, na druhém modré až fialové. „Obě jídla jsou ze stejné hlavy zelí,“ řekne Kamil. „Proč mají jinou barvu?“ Nikdo neví. Kamil projekci zastaví a studenty posadí do skupin po třech. Ty, kteří sedí vzadu, posadí dopředu, aby dobře viděli. Každá skupina dostane dvě sklenice červené šťávy.\n\nPak skupiny podrobí zkoušce všechno, co leží na stole. Do první sklenice dají ocet a šťáva změní barvu na jasně červenou. Do druhé jedlou sodu a šťáva je najednou zelená. Citron ji udělá růžovou, mýdlo modrou. Za deset minut stojí na stolech celá duha barev, od červené přes fialovou a modrou až po zelenou a žlutou. Studenti si duhu fotí telefony a Kamil se usmívá, protože to tak dopadne každý rok. Kdo chce, může zkoušce podrobit i další věci: čaj, mléko nebo vodu z kohoutku.\n\n„V té šťávě je látka, která mění barvu podle toho, jestli je v roztoku kyselina, nebo její opak, zásada,“ vysvětlí Kamil. „S kyselinou je šťáva červená, se zásadou modrá a zelená. Proto naše babičky dávaly do červeného zelí ocet nebo kousek jablka. Obojí obsahuje kyselinu. Kdo ho vaří v tvrdé vodě a nic takového nepřidá, dostane modré jídlo jako na druhé fotografii.“ Poukazuje přitom na to, že chuť se tolik nemění, ale oko jí s námi.\n\nNa konec si Kamil nechal sprchovou hlavici. Je na ní bílá vrstva vodního kamene. Kamil hlavici dá do sklenice s octem a za chvíli začne z bílé vrstvy stoupat plyn. „Vodní kámen je zásada,“ řekne. „Ocet je kyselina a rozpustí ho. Stejně můžete doma vyčistit nádobu, ve které vaříte vodu na čaj.“ Do konce hodiny je hlavice skoro čistá.\n\nNa konci hodiny Kamil poukazuje ještě na jednu věc: chemie není jen v učebnici, je v každé kuchyni. Studenti odcházejí s fotografiemi duhy v telefonech. Kamil uklidí sklenice zpátky do kabinetu a hlavici odnese domů, kde ji vrátí zpátky na sprchu.\n\nOtázky:\nCo si Kamil připraví v kabinetu?\nPřipraví si červenou šťávu, sklenice, několik věcí z kuchyně a sprchovou hlavici.\nCo ukazuje projekce na začátku hodiny?\nUkazuje fotografii dvou talířů s jídlem, které je jednou červené a jednou modré.\nJak vznikne na stolech duha?\nStudenti přidávají do šťávy různé látky a šťáva pokaždé změní barvu.\nProč dávaly babičky do červeného zelí kousek jablka?\nProtože jablko obsahuje kyselinu a s kyselinou zůstane jídlo červené.\nCo se stane se sprchovou hlavicí?\nKyselina rozpustí vodní kámen a hlavice je skoro čistá."
+    },
+    {
+      "title": "Aféra s růžovým masem",
+      "summary": "A restaurant owner in Brno writes a calm column about a guest's complaint over pink pork, the science of safe meat temperatures, and the compromise she found.",
+      "newWords": [
+        "aféra",
+        "urážka",
+        "certifikát",
+        "kompromis",
+        "ekonomie",
+        "nosný",
+        "přilehlý",
+        "jihovýchodní",
+        "leda"
+      ],
+      "text": "Mám malou restauraci na jihovýchodním okraji Brna, v přízemí starého domu s přilehlou zahradou, kde v létě sedí hosté pod stromy a kde pěstujeme bylinky do kuchyně. Vařím tu dvanáct let. Minulý měsíc jsem poprvé zažila něco, čemu moje dcera s úsměvem říká aféra.\n\nZačalo to obyčejně. Host si objednal vepřovou panenku a po prvním soustu zavolal obsluhu. Maso bylo uprostřed lehce růžové. „Syrové vepřové? To je urážka,“ řekl a odešel bez placení. Večer už na internetu visela jeho recenze: naši restauraci prý nikomu nedoporučuje, protože tu podávají nebezpečné maso. Během dvou dnů ji sdílely desítky lidí z přilehlých ulic a celá aféra se probírala i v obchodě naproti.\n\nPřiznám se, že jsem tu recenzi vzala jako urážku. Ne proto, že by se host zlobil. Zlobit se smí. Ale proto, že jsem si byla jistá, že maso bylo v pořádku. Mám certifikát z kurzu hygieny potravin a každý kus masa měřím teploměrem. Na kurzu jsme se učili, že nebezpečné bakterie v mase zahynou, když je teplota uvnitř kusu dostatečně vysoká a vydrží tak dostatečně dlouho. Pro vepřové maso se dnes doporučuje 63 stupňů. Barva o bezpečnosti nic neříká: maso může být při té teplotě ještě růžové, a přitom bezpečné. Naopak šedé maso nemusí být propečené dost.\n\nProč tedy nevařit maso vždycky déle, pro jistotu? Tady přichází na řadu ekonomie. Než jsem začala vařit, vystudovala jsem ekonomii, a v kuchyni na ni myslím každý den. Při vyšší teplotě se bílkoviny v mase stahují a vytlačují z něj vodu. Kus, který měl syrový 200 gramů, má pak na talíři 140. Maso je suché, hosté ho nechávají na talíři a já ho vyhazuji. Dobře připravené maso je tedy nejen chutnější, ale i levnější.\n\nCo s tím? Hádat se na internetu jsem nechtěla. Jiná možnost mě nenapadala, leda mlčet a čekat, až lidé zapomenou. To jsem ale nechtěla taky. Nosná myšlenka mojí kuchyně vždycky byla, že host má odcházet spokojený, leda by si sám přál něco jiného. Hledala jsem tedy kompromis. Panenku teď připravujeme na 68 stupňů, takže je uprostřed jen slabě růžová. A na jídelním lístku je krátká věta: „Maso připravujeme podle teploty, ne podle barvy. Pokud ho chcete propečené víc, řekněte nám.“ Ten kompromis mě stál trochu šťávy v mase, ale získala jsem klid.\n\nHostovi jsem napsala krátkou zprávu a pozvala ho na oběd. Přišel. Nechala jsem ho podívat se do kuchyně, ukázala mu teploměr i certifikát a vysvětlila, co se v mase děje. Pak si dal panenku znovu, tentokrát podle své chuti. Recenzi neodstranil, ale připsal k ní dodatek, že mu vše vysvětlili a že se vrátí.\n\nAféra tím skončila. Vlastně bych za ni měla poděkovat: od té doby se mě hosté na teplotu masa ptají sami, a to je pro kuchařku ta nejhezčí otázka.\n\nOtázky:\nKde je autorčina restaurace?\nJe na jihovýchodním okraji Brna a má přilehlou zahradu.\nProč host odešel bez placení?\nProtože maso bylo uprostřed růžové a považoval to za urážku.\nCo se autorka naučila na kurzu, ze kterého má certifikát?\nNaučila se, že bakterie zahynou při dostatečné teplotě uvnitř masa a že barva o bezpečnosti nic neříká.\nJak souvisí vaření masa s ekonomií?\nPři vyšší teplotě maso ztrácí vodu, je lehčí a sušší a hosté ho častěji nechávají na talíři.\nJaký kompromis autorka našla?\nPanenku připravuje na 68 stupňů a hosté si mohou říct, když ji chtějí propečenou víc.\nJaká je nosná myšlenka autorčiny kuchyně?\nHost má odcházet spokojený, to je nosná myšlenka její kuchyně."
+    }
+  ]
+}

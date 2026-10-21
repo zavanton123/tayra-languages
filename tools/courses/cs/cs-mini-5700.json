@@ -1,0 +1,241 @@
+{
+  "id": "cs-mini-5700",
+  "rankUpTo": 5700,
+  "level": "C1",
+  "title": "Doprava a mobilita",
+  "description": "Ten reports, columns, letters and interviews about getting around: a driverless bus in Ostrava, an electric car in a mountain winter, a tram factory in Plzeň, a railway strike, a metro tunnel under Prague, a footbridge named after its engineer, a rally in Zlín, a delayed flight, a patient's trip to a teaching hospital and a cycling holiday in South Moravia.",
+  "topic": "Transport and mobility",
+  "names": [
+    "Ostrava",
+    "Ostravě",
+    "Ondřej",
+    "Vaněk",
+    "Klára",
+    "Prahy",
+    "Praha",
+    "Krkonoš",
+    "Sněžkou",
+    "Plzně",
+    "Plzni",
+    "Martin",
+    "Hejl",
+    "Bratislavy",
+    "Kolína",
+    "Florenc",
+    "Berouně",
+    "Praze",
+    "Lenkou",
+    "Bártovou",
+    "Bártová",
+    "Moravu",
+    "Morava",
+    "Moravě",
+    "Olomouci",
+    "Karel",
+    "Karlu",
+    "Pospíšilovi",
+    "Pospíšil",
+    "Pospíšilovým",
+    "Pospíšilově",
+    "Vojtěch",
+    "Šindler",
+    "Zlína",
+    "Zlíně",
+    "Česku",
+    "Tereza",
+    "Tereze",
+    "Kubíčková",
+    "Jiří",
+    "Mareš",
+    "Mareše",
+    "Valašska",
+    "Vídni",
+    "Londýna",
+    "Londýně",
+    "Brna",
+    "Brno",
+    "Frankfurtu",
+    "Japonska",
+    "Brazílie",
+    "Polska",
+    "Pavla",
+    "Honza",
+    "Matěj",
+    "Matějův",
+    "Marie",
+    "Dostálová",
+    "Tišnova",
+    "Lucie",
+    "Radek",
+    "Radkovi",
+    "Břeclavi",
+    "Pálavou",
+    "Mikulově"
+  ],
+  "lessons": [
+    {
+      "title": "Autobus, který řídí počítač",
+      "summary": "In Ostrava a small driverless bus carries passengers on a test line, and its programmer explains how it sees the street.",
+      "newWords": [
+        "autonomní",
+        "experimentální",
+        "pasažér",
+        "programátor",
+        "laser",
+        "zprvu",
+        "bezdrátový",
+        "zobrazit",
+        "relativní",
+        "odraz"
+      ],
+      "text": "Od září jezdí v Ostravě mezi nádražím a areálem univerzity malý bílý autobus, který nemá volant. Jde o autonomní vozidlo, tedy vůz, který se řídí sám. Provoz je zatím experimentální: město chce zjistit, zda by autonomní autobusy mohly jednou doplnit běžnou hromadnou dopravu. Experimentální linka měří necelé dva kilometry a autobus na ní zastavuje na pěti zastávkách.\n\nJak se takový vůz v ulicích orientuje? Na střeše a po stranách má kamery, senzory a laser. Laser vysílá každou sekundu tisíce krátkých paprsků. Paprsek narazí na překážku a vrátí se zpět; z doby, za kterou se odraz vrátí, spočítá počítač vzdálenost. Z milionů odrazů pak vzniká trojrozměrná mapa okolí, na které je vidět každý strom, sloup i chodec. Problémy zatím dělá hustý déšť a sníh, protože kapky a vločky vytvářejí falešné odrazy.\n\nNestačí ale vědět, kde co stojí. „Důležitá je relativní rychlost, tedy rychlost ostatních aut a lidí vzhledem k našemu autobusu,“ vysvětluje programátor Ondřej Vaněk, který pro projekt píše software. „Když cyklista jede stejným směrem jako my, je jeho relativní rychlost malá a nic nehrozí. Když ale do silnice vběhne dítě, musí počítač zareagovat okamžitě.“\n\nVaněk je jedním ze šesti programátorů, kteří na projektu pracují. Autobus je s jejich kanceláří spojen bezdrátovou sítí. Bezdrátové spojení umožňuje sledovat každou jízdu v reálném čase. Kdyby se vůz zastavil a nevěděl si rady, může ho programátor na dálku poslat dál.\n\nV autobusu sedí kromě pasažérů ještě jeden zaměstnanec dopravního podniku, který do řízení zasahuje jen výjimečně. Pasažéři mají před sebou velkou obrazovku. Ta zobrazí trasu, příští zastávku a také to, co právě „vidí“ senzory: auta se na ní zobrazí jako modré obdélníky, chodci jako žluté body.\n\nZprvu se lidé do autobusu báli nastoupit. „Zprvu jsem si myslela, že je to nebezpečné,“ přiznává studentka Klára, která jím jezdí na přednášky. „Teď mi to přijde úplně normální. Jede pomalu a opatrně, spíš jako začínající řidič.“ Autobus opravdu jezdí nejvýš dvacet kilometrů za hodinu a před každým přechodem zpomalí.\n\nPo prvních měsících se ukázalo, že pasažéři mají autonomní autobus rádi, ale že technika ještě není hotová. Příští rok má linka pokračovat až do centra města.\n\nOtázky:\nProč je provoz autobusu experimentální?\nMěsto teprve zkouší, zda by autonomní autobusy mohly doplnit běžnou dopravu.\nJak laser měří vzdálenost?\nVysílá paprsky a počítač spočítá vzdálenost z doby, za kterou se odraz vrátí.\nCo je relativní rychlost?\nJe to rychlost ostatních aut a lidí vzhledem k autobusu.\nK čemu slouží bezdrátové spojení?\nProgramátoři díky němu sledují každou jízdu a mohou autobus na dálku poslat dál.\nCo zobrazí obrazovka v autobusu?\nZobrazí trasu, příští zastávku a to, co vidí senzory.\nJak se na autobus dívala Klára zprvu a jak dnes?\nZprvu si myslela, že je nebezpečný, dnes jí přijde normální."
+    },
+    {
+      "title": "Elektrickým autem do hor",
+      "summary": "A driver takes an electric car to the Krkonoše for a winter week and reports on its range, charging costs and the battery.",
+      "newWords": [
+        "výdrž",
+        "úsporný",
+        "životnost",
+        "součástka",
+        "chlad",
+        "průměrně",
+        "přesahovat",
+        "účtovat",
+        "škodlivý",
+        "snižování",
+        "realistický"
+      ],
+      "text": "Loni v prosinci jsem si na týden půjčil elektrické auto a vyrazil s ním z Prahy do Krkonoš. Chtěl jsem zjistit, jestli se s elektrickým autem dá jezdit i v zimě, nebo jestli je to jen auto pro léto.\n\nVýrobce uvádí, že výdrž baterie na jedno nabití je 450 kilometrů. Kdo s elektrickým autem jezdil, ale ví, že takové číslo platí jen za ideálních podmínek. Realistický odhad je jiný: v létě s ním člověk ujede kolem 400 kilometrů, v zimě sotva 300. Za to může chlad. Baterie v chladu ztrácí část výkonu a velkou část energie navíc použije topení. Když bylo ráno v Peci pod Sněžkou dvanáct stupňů pod nulou, ukázal displej výdrž o třetinu nižší než večer předtím.\n\nPomohlo mi několik jednoduchých rad. Auto se dá zahřát ještě ve chvíli, kdy je připojené ke kabelu, takže se energie na topení nebere z baterie. Úsporný režim omezí výkon motoru i topení a topení v sedadle je mnohem úspornější než teplý vzduch v celém voze. V úsporném režimu jsem průměrně potřeboval asi o 20 procent méně energie než bez něj. Za celý týden jsem průměrně ujel sto kilometrů denně a prázdná baterie mě nepřekvapila ani jednou.\n\nStanice účtují za energii různě. Jedna účtovala jen podle množství energie, jiná účtovala i za čas, po který auto u stanice stálo. Cena za nabití přesahuje cenu benzínu na stejnou vzdálenost jen výjimečně, většinou je nižší. Doma ze zásuvky je elektřina ještě levnější. Rychlé stanice u dálnice však někdy cenu benzínu přesahují.\n\nLidé se často ptají na životnost baterie. Moderní baterie má životnost přes deset let a i po dvou stech tisících kilometrech si podle výrobců zachová asi 80 procent kapacity. Baterie je nejdražší součástka celého auta. Jiné součástky, které se u běžných aut kazí, tu chybějí: elektrické auto nemá spojku a nepotřebuje výměnu oleje. Méně součástek znamená i méně návštěv v servisu.\n\nA co životní prostředí? Elektrické auto nevypouští do vzduchu žádné škodlivé plyny, takže ve městech přispívá ke snižování emisí. Snižování emisí ale závisí i na tom, odkud se bere elektřina. Pokud pochází z uhlí, škodlivé látky vznikají jinde, v elektrárně. Náročná je i výroba baterie. Podle většiny studií však elektrické auto za celou svou životnost vytvoří méně škodlivých emisí než auto na benzín.\n\nPo týdnu v horách jsem auto vracel spokojený. Na dlouhé zimní cesty je potřeba trochu plánovat, ale realistický pohled zní takto: ve městě a na kratších trasách jsem žádný rozdíl oproti běžnému autu necítil.\n\nOtázky:\nProč má elektrické auto v zimě menší výdrž?\nBaterie v chladu ztrácí výkon a část energie použije topení.\nJak pomohl úsporný režim?\nAuto v něm průměrně potřebovalo asi o 20 procent méně energie.\nJak stanice účtují za energii?\nNěkteré účtují jen podle množství energie, jiné i za čas u stanice.\nJakou životnost má moderní baterie?\nMá životnost přes deset let.\nProč přispívá elektrické auto ke snižování emisí ve městech?\nNevypouští do vzduchu žádné škodlivé plyny."
+    },
+    {
+      "title": "Tramvaj se rodí v hale",
+      "summary": "A reporter visits a tram factory in Plzeň on the day a new prototype is being finished.",
+      "newWords": [
+        "montážní",
+        "tovární",
+        "zhotovit",
+        "dokonalost",
+        "odevzdat",
+        "čtvrtletí",
+        "viceprezident",
+        "vizitka",
+        "prototyp"
+      ],
+      "text": "Na okraji Plzně stojí hala dlouhá skoro tři sta metrů. Vznikají v ní tramvaje, které potom jezdí v českých i zahraničních městech. Navštívili jsme ji v den, kdy byl prototyp nové tramvaje skoro hotový.\n\nU vchodu nás přivítal viceprezident společnosti pro výrobu Martin Hejl. Hned nám podal svou vizitku se jménem, funkcí a telefonem. „Vizitky dnes mnoho lidí nepoužívá, ale v našem oboru se pořád vyměňují,“ usmál se. Viceprezident nás pak provedl celou výrobou.\n\nTramvaj nevzniká najednou. Nejprve se z ocelových profilů zhotoví kostra vozu. Zhotovit jednu kostru trvá asi tři týdny. Potom kostra dostane barvu a putuje na montážní linku. Montážní linka má dvanáct stanovišť a na každém z nich pracuje tým, který do vozu instaluje určité součástky: podlahu, okna, sedadla, kabely, motory a brzdy. Do jedné tramvaje se vejde přes dvacet tisíc součástek. Většinu vyrábějí dodavatelé, ale ty nejdůležitější vznikají přímo v továrních dílnách vedle haly.\n\n„Prototyp je pro nás zkouška všeho,“ vysvětluje Hejl. „Na prototypu zjistíme, jestli díly do sebe zapadají, jestli jsou kabely dost dlouhé a jestli se v kabině dobře sedí. Teprve když prototyp projde všemi testy, začneme vyrábět další vozy.“ Prototyp stráví několik měsíců na zkušební trati a potom v ulicích, zatím bez cestujících.\n\nV tovární hale je čisto a překvapivě klid. Dělníci na montážní lince pracují podle přesných plánů a každý krok zapisují do tabletu. „Dokonalost tu není cíl, ale nutnost,“ říká mistr jedné z linek. „Jediná špatně upevněná součástka může později znamenat poruchu v provozu.“ O tom, jak moc na dokonalosti záleží, svědčí i tovární kontrola: hotový vůz projde přes tisíc zkoušek, než smí ven.\n\nFirma vyrábí průměrně dvě tramvaje týdně. Za jedno čtvrtletí tak vznikne kolem 25 vozů. V minulém čtvrtletí odevzdala firma zákazníkům 26 tramvají, z toho deset do Bratislavy. V příštím čtvrtletí začne vyrábět pro jedno německé město. Odevzdat tramvaj znamená předat ji zákazníkovi, který si ji důkladně prohlédne a teprve potom podepíše, že ji převzal.\n\nNa konci prohlídky nám viceprezident ukázal hotový prototyp. Byl tmavě modrý, s velkými okny a širokými dveřmi. „Za rok by takové vozy měly jezdit i v Plzni,“ řekl a podal nám ještě jednu vizitku, prý pro kolegu.\n\nOtázky:\nCo nám podal viceprezident u vchodu?\nPodal nám svou vizitku se jménem, funkcí a telefonem.\nJak dlouho trvá zhotovit kostru vozu?\nZhotovit jednu kostru trvá asi tři týdny.\nCo se děje na montážní lince?\nTýmy na dvanácti stanovištích instalují do vozu součástky.\nK čemu slouží prototyp?\nFirma na něm zjistí, jestli všechno funguje, než začne vyrábět další vozy.\nProč je dokonalost v továrně nutnost?\nJediná špatně upevněná součástka může znamenat poruchu v provozu.\nKolik tramvají firma odevzdala v minulém čtvrtletí?\nOdevzdala zákazníkům 26 tramvají."
+    },
+    {
+      "title": "Den bez vlaků",
+      "summary": "A commuter from Kolín describes the day a railway strike stopped the trains and how he still got to work.",
+      "newWords": [
+        "stávka",
+        "znemožnit",
+        "nabrat",
+        "osamělý",
+        "chronický",
+        "důchodový",
+        "relevantní",
+        "usoudit",
+        "zamítnout",
+        "funkcionář"
+      ],
+      "text": "Každý den jezdím vlakem z Kolína do Prahy. Cesta trvá necelou hodinu a za ty roky jsem si na ni zvykl: ráno si čtu, večer poslouchám hudbu. Minulý čtvrtek byl ale jiný. Zaměstnanci železnic vyhlásili stávku.\n\nO stávce se mluvilo už dva týdny. Odbory žádaly vyšší mzdy a kratší směny. Ředitelé železnic jejich požadavky zamítli. Funkcionář odborů pak v televizi oznámil, že stávka začne ve čtvrtek ve čtyři ráno a potrvá 24 hodin. Funkcionář také vysvětlil, proč se odbory pro stávku rozhodly: na železnici je chronický nedostatek lidí. Mnoho zaměstnanců brzy dosáhne důchodového věku a mladých přichází málo. Kdo zůstává, pracuje déle, než by měl, a únava je u nich podle odborů chronická.\n\nRáno jsem šel na nádraží, abych se podíval, jak to vypadá. Na tabuli svítilo u všech spojů slovo „zrušeno“. U prázdné koleje stál jen jeden starší pán s kufrem. Vypadal osaměle a nevěděl, co dál. Zeptal se mě, jak se dostane do Prahy. Chvíli jsme se radili a usoudili jsme, že nejlepší bude autobus.\n\nStávka znemožnila cestu vlakem tisícům lidí, ale cestu jako takovou jim znemožnit nemohla. Kraj objednal náhradní autobusy, které jezdily každou hodinu. U zastávky však stála dlouhá fronta a první autobus nás nevzal. Druhý přijel skoro plný. Na dálnici byla kolona, protože autem jelo do Prahy mnohem víc lidí než jindy, a autobus nabral přes hodinu zpoždění. V kanceláři jsem byl až v deset. Ten osamělý pán se mnou dojel až na Florenc a poděkoval mi.\n\nKolega, který bydlí v Berouně, usoudil už večer předtím, že do práce nepojede, a pracoval z domova. Šéf to nabídl všem, kterým stávka cestu do práce znemožnila. Ne každý ale tu možnost má: prodavačka, lékařka nebo řidič autobusu z domova pracovat nemohou.\n\nVečer jsem četl zprávy. Ředitelé železnic tvrdili, že stávka byla zbytečná a že návrh odborů zamítli, protože na něj nemají peníze. Odbory odpověděly, že o chronickém nedostatku lidí mluví už dva roky. Je těžké říct, kdo má pravdu. Pro mě jako cestujícího je relevantní hlavně jedno: aby vlaky jezdily včas a aby je řídili lidé, kteří nejsou unavení. Ostatní argumenty jsou jistě také relevantní, ale ty musí vyřešit ti, kdo spolu jednají.\n\nV pátek jely vlaky znovu. Ten můj sice nabral pět minut zpoždění, ale na to jsem zvyklý.\n\nOtázky:\nProč odbory vyhlásily stávku?\nŘeditelé železnic zamítli jejich požadavky a na železnici je chronický nedostatek lidí.\nProč na železnici chybějí lidé?\nMnoho zaměstnanců brzy dosáhne důchodového věku a mladých přichází málo.\nCo jsme s osamělým pánem usoudili?\nUsoudili jsme, že nejlepší bude jet autobusem.\nProč autobus nabral zpoždění?\nNa dálnici byla kolona, protože do Prahy jelo autem víc lidí než jindy.\nCo je pro autora jako cestujícího relevantní?\nAby vlaky jezdily včas a aby je řídili lidé, kteří nejsou unavení."
+    },
+    {
+      "title": "Čtyřicet metrů pod ulicí",
+      "summary": "An engineer guides a reporter through a new Prague metro tunnel and explains how water, old pipes and an ancient tomb shape the work.",
+      "newWords": [
+        "podzemí",
+        "nitro",
+        "temnota",
+        "prolomit",
+        "vodovod",
+        "unikat",
+        "zamezit",
+        "zevnitř",
+        "zdivo",
+        "hrobka"
+      ],
+      "text": "V Praze se staví nová linka metra. Většina prací probíhá v podzemí, kam se běžný člověk nedostane. My jsme dostali výjimku a s inženýrkou Lenkou Bártovou jsme sjeli výtahem čtyřicet metrů pod povrch.\n\nDole nás obklopila temnota, kterou přerušovaly jen řady světel podél stěn. Bez nich by tu byla úplná temnota. „Lidé si podzemí představují jako tmavou jeskyni,“ říká Bártová. „Ve skutečnosti je to normální stavba, jen bez denního světla.“\n\nTunel vytváří obrovský stroj, který se pomalu prokousává do nitra skály. Hlouběji v nitru země je skála tvrdší a stroj postupuje jen několik metrů denně. Za strojem se stěny tunelu hned obkládají betonovými díly. Starší části pražského metra mají stěny ze zdiva, tedy z cihel nebo kamenů. Takové zdivo vydrží desítky let, ale dnes se už v tunelech nepoužívá.\n\nNejvětším nepřítelem stavitelů je voda. V podzemí je spousta pramenů a voda se snaží dostat do tunelu každou mezerou. Když začne voda do tunelu unikat, čerpadla ji hned odvádějí. Bártová ukazuje na mokrou skvrnu na stěně: „Tady unikala voda minulý týden. Opravili jsme to za dva dny.“\n\nDalší nebezpečí je nad hlavou. V ulicích leží staré trubky, kabely a vodovod. Kdyby se zem nad tunelem pohnula, mohl by vodovod prasknout a celá čtvrť by zůstala bez vody. Tomu se stavitelé snaží zamezit tak, že na povrchu neustále měří, jestli se domy a silnice nepohybují. „Zamezit problémům je levnější než je opravovat,“ říká Bártová. V jedné ulici proto nechali starý vodovod předem vyměnit.\n\nZevnitř vypadá tunel jako dlouhá šedá trubka. Když se člověk dívá zevnitř, nepozná, jestli je právě pod parkem, nebo pod rušnou silnicí. Inženýři to ale vědí přesně, metr po metru.\n\nMinulý měsíc stroj prolomil poslední metry skály a spojil dva úseky tunelu. Když prolomil stěnu, dělníci na druhé straně tleskali a fotili si to.\n\nNe všechno, co se v podzemí najde, je skála. Při stavbě jedné ze stanic narazili dělníci na hrobku z doby bronzové. V hrobce ležely kosti, hliněné nádoby a bronzové náramky. Práce se na několik týdnů zastavily, aby odborníci z muzea mohli hrobku prozkoumat. Nálezy jsou dnes k vidění v Národním muzeu.\n\nNová linka má být otevřena za pět let. Cestující pak budou podzemím projíždět za pár minut a o temnotě, skále a vodě nebudou nic vědět.\n\nOtázky:\nKam sjeli novináři s inženýrkou?\nSjeli výtahem čtyřicet metrů pod povrch, do podzemí.\nZ čeho mají stěny starší části metra?\nMají stěny ze zdiva, z cihel nebo kamenů.\nCo se děje, když začne voda do tunelu unikat?\nČerpadla ji hned odvádějí.\nJak se stavitelé snaží zamezit tomu, aby praskl vodovod?\nNa povrchu neustále měří, jestli se domy a silnice nepohybují.\nCo se stalo minulý měsíc?\nStroj prolomil poslední metry skály a spojil dva úseky tunelu.\nCo našli dělníci při stavbě stanice?\nNašli hrobku z doby bronzové."
+    },
+    {
+      "title": "Lávka nese jeho jméno",
+      "summary": "A new footbridge in Olomouc is named after the late engineer who designed it, and a local editor explains why.",
+      "newWords": [
+        "pojmenovat",
+        "zemřelý",
+        "zlom",
+        "popsaný",
+        "totožný",
+        "editor",
+        "vznikající",
+        "veřejnoprávní",
+        "brzký",
+        "gotický",
+        "troska"
+      ],
+      "text": "Přes řeku Moravu v Olomouci vede od letošního jara nový most pro pěší a cyklisty, takzvaná lávka. Spojuje staré centrum se vznikající čtvrtí na druhém břehu, kde ještě před deseti lety stály jen sklady. Ve vznikající čtvrti dnes bydlí přes dva tisíce lidí a každý den jich přes nový most projdou stovky.\n\nMěsto se rozhodlo most pojmenovat po inženýru Karlu Pospíšilovi, který zemřel před třemi lety. Zemřelý inženýr navrhl mosty po celé Moravě a první plány tohoto mostu nakreslil ještě sám. O tom, jak most pojmenovat, rozhodli sami obyvatelé v anketě, kterou uspořádal místní časopis.\n\n„Návrh přišel od čtenářů,“ říká editor časopisu Vojtěch Šindler. „Jako editor jsem jen vybral pět jmen a čtenáři hlasovali. Jméno zemřelého inženýra jasně vyhrálo.“ O anketě informoval i veřejnoprávní rozhlas a veřejnoprávní televize pak natočila krátkou reportáž z otevření mostu.\n\nPospíšil začínal jako obyčejný inženýr v malé firmě. Zlom v jeho kariéře přišel po povodních v roce 1997, kdy voda strhla několik mostů. Pospíšil tehdy navrhl lehké mosty pro pěší, které vydrží i velkou vodu, protože jí kladou malý odpor. Pro celý obor to znamenalo zlom. Jeho postup je podrobně popsaný v knize, kterou vydal krátce před smrtí. Popsaný postup se dnes učí na technických školách.\n\nNový most však není totožný s jeho původním plánem. Inženýři museli změnit materiál a rozšířit ji pro cyklisty. Tvar a hlavní myšlenka jsou ale s Pospíšilovým návrhem totožné: dlouhý tenký oblouk, který nad vodou skoro mizí.\n\nJen několik desítek metrů od nového mostu je na dně řeky vidět hromada kamenů. Jde o zbytky starého gotického mostu. Gotický most stál na tomto místě už ve 14. století, než ho zničila velká voda. Z trosek se dodnes dají poznat základy dvou pilířů. Při nízké hladině jsou kameny vidět i z břehu a v troskách si hrají ryby. Někteří lidé navrhovali zbytky odstranit, ale město je nechalo na místě jako památku.\n\nNa podzim má začít stavba další lávky o kilometr dál. Město doufá v brzké zahájení prací. Brzký začátek by znamenal, že lávka bude hotová už za dva roky. Jak ji pojmenovat, se zatím neví. Editor Šindler už ale chystá další anketu.\n\nOtázky:\nPo kom se město rozhodlo lávku pojmenovat?\nPo zemřelém inženýru Karlu Pospíšilovi.\nKdo vybral jména do ankety?\nVybral je editor časopisu Vojtěch Šindler.\nKdy přišel zlom v Pospíšilově kariéře?\nPo povodních v roce 1997.\nKde je popsaný jeho postup?\nJe popsaný v knize, kterou vydal krátce před smrtí.\nJe nový most totožný s původním plánem?\nNení, inženýři změnili materiál a rozšířili ji, ale tvar je totožný.\nCo je vidět na dně řeky blízko nového mostu?\nJsou tam vidět zbytky starého gotického mostu, z trosek se dají poznat základy pilířů."
+    },
+    {
+      "title": "Rallye v ulicích Zlína",
+      "summary": "A seventeen-year-old co-driver and her father watch the Zlín rally, and an old racer remembers the early cars.",
+      "newWords": [
+        "rallye",
+        "přebor",
+        "miliardář",
+        "primitivní",
+        "foťák",
+        "sedmnáct",
+        "přetrvávat",
+        "talentovaný"
+      ],
+      "text": "Každé léto se do Zlína sjíždějí tisíce lidí. Koná se tu rallye, jeden z nejstarších automobilových závodů v Česku. Auta závodí na úzkých silnicích v kopcích kolem města a diváci stojí podél trati, často celý den.\n\nMezi nimi je i Tereza Kubíčková. Je jí sedmnáct let a sama už závodí: sedí vedle otce v závodním autě v krajském přeboru. Krajský přebor je soutěž pro amatéry, kteří závodí ve volném čase a auta si opravují sami. „V přeboru jezdíme s dvacet let starým autem,“ říká Tereza. „Ale do rallye ve Zlíně se chci jednou dostat taky.“ V sedmnácti nesmí řídit, a tak čte otci z poznámek, kde je zatáčka a jak je ostrá.\n\nTereza drží v ruce foťák a fotí auta, která jedou kolem. „Mobil je na to moc pomalý,“ vysvětluje. „Dobrý foťák zachytí auto i ve sto čtyřiceti kilometrech za hodinu.“ Fotky pak posílá do klubu, kde je dávají na web.\n\nVedle stojí Jiří Mareš, který v rallye závodil v 70. letech. Tehdejší auta byla podle něj primitivní. „Neměli jsme žádnou elektroniku ani pořádné brzdy. Bylo to primitivní, ale o to víc záleželo na řidiči.“ Dnešní závodní vozy jsou plné elektroniky a stojí miliony. Některé týmy platí sponzoři, jiné bohatí jednotlivci. Letos závodí i jeden miliardář, který má rallye jako koníček. „Miliardář si koupí to nejlepší auto,“ říká Mareš, „ale rychlost si koupit nemůže. Tu musí mít v hlavě.“\n\nMnohé se změnilo, ale něco přetrvává. Přetrvává atmosféra: lidé si nosí deky, jídlo a stoly a celé rodiny tráví u trati víkend. Přetrvává i tradice, že místní pomáhají jezdcům, když se jim na trati něco pokazí.\n\nNejvíc fanoušků sleduje talentovaného mladého jezdce z Valašska, který vede celý závod. „Je hodně talentovaný,“ říká Mareš. „Já jsem v jeho věku jezdil v přeboru a na takové auto jsem mohl jen myslet.“ Tereza si talentovaného jezdce vyfotí, když jede zatáčkou pod nimi.\n\nVečer jdou všichni na náměstí, kde se vyhlašují výsledky. Talentovaný jezdec vyhrál. Tereza si cestou domů prohlíží fotky ve foťáku a plánuje příští sezónu v přeboru.\n\nOtázky:\nKolik je Tereze let?\nJe jí sedmnáct let.\nCo je krajský přebor?\nJe to soutěž pro amatéry, kteří závodí ve volném čase.\nProč Tereza fotí foťákem, a ne mobilem?\nMobil je pomalý, dobrý foťák zachytí i velmi rychlé auto.\nJaká byla podle Mareše auta v 70. letech?\nByla primitivní, neměla elektroniku ani pořádné brzdy.\nCo si podle Mareše miliardář nemůže koupit?\nNemůže si koupit rychlost.\nCo přetrvává z dřívějších let?\nPřetrvává atmosféra a tradice, že místní pomáhají jezdcům."
+    },
+    {
+      "title": "Dopis z letiště",
+      "summary": "A drummer writes to his mother from Vienna airport about a cancelled flight, a backup plane and the long wait.",
+      "newWords": [
+        "buben",
+        "záložní",
+        "inspektor",
+        "národnost",
+        "sortiment",
+        "dabing",
+        "upír",
+        "velvyslanectví"
+      ],
+      "text": "Milá mami,\n\npíšu Ti z letiště ve Vídni, kde už osm hodin čekáme na let do Londýna. Abys měla představu, co se děje, popíšu Ti celý den postupně.\n\nRáno jsme s kapelou přijeli autobusem z Brna. Nejdřív jsme museli předat nástroje k přepravě. Můj velký buben se do kufru nevejde, a tak cestuje ve zvláštním obalu. Paní, která zavazadla přebírala, se na buben dívala s obavami, ale nakonec ho převzala. Buben pak odjel po pásu někam do nitra letiště a já doufal, že ho v Londýně zase uvidím.\n\nLetadlo mělo odletět v jedenáct. Asi půl hodiny před odletem nám oznámili, že se let odkládá. Technik prý na letadle našel poruchu. Na místo přišel inspektor, který musí každou takovou poruchu zkontrolovat. Inspektor rozhodl, že letadlo letět nesmí. Letecká společnost proto poslala záložní letadlo z Frankfurtu. Záložní letadlo ale mělo přiletět až za šest hodin.\n\nV hale sedí lidé snad všech národností. Vedle mě sedí rodina z Japonska, za mnou skupina studentů z Brazílie, kousek dál paní z Polska s malým synem. Je zajímavé, jak lidé různých národností čekají různě: někdo spí na zemi, někdo hraje karty, někdo se nahlas zlobí na zaměstnance letiště.\n\nProšel jsem si všechny obchody. Sortiment je tu velký, ale ceny jsou vysoké. Sortiment se opakuje v každém obchodě: čokoláda, hodinky, kosmetika a hračky. Koupil jsem si jen chleba se sýrem a vodu.\n\nOdpoledne jsem si na tabletu pustil film o upírech, který jsi mi kdysi doporučovala. Byl s českým dabingem. Dabing byl moc povedený, hlasy upírům seděly lépe než v originále. Upír, který žije sám v zámku a bojí se světla, mi připomněl strýce Pavla. Neboj, nebudu mu to říkat.\n\nJeden problém jsme přece jen zažili. Náš kytarista Honza nemohl najít pas. Už jsme řešili, jestli bude muset zajít na české velvyslanectví v Londýně, nebo jestli ho do letadla vůbec pustí. Velvyslanectví by mu prý vystavilo náhradní doklad, ale trvalo by to den. Nakonec se pas našel v jeho batohu mezi notami.\n\nTeď je sedm večer a záložní letadlo právě přistálo. Za hodinu bychom měli letět. Ozvu se Ti z Londýna, hned jak uvidím svůj buben.\n\nMěj se hezky, líbá Tě\nMatěj\n\nOtázky:\nProč cestuje Matějův buben ve zvláštním obalu?\nVelký buben se do kufru nevejde.\nProč letadlo nesmělo odletět?\nInspektor zkontroloval poruchu a rozhodl, že letadlo letět nesmí.\nOdkud přiletělo záložní letadlo?\nPřiletělo z Frankfurtu.\nJaký je sortiment v obchodech na letišti?\nJe velký, ale opakuje se v každém obchodě a ceny jsou vysoké.\nJaký film si Matěj pustil?\nPustil si film o upírech s českým dabingem.\nProč se mluvilo o velvyslanectví?\nHonza nemohl najít pas a na velvyslanectví by mu vystavili náhradní doklad."
+    },
+    {
+      "title": "Cesta do fakultní nemocnice",
+      "summary": "A retired teacher travels by train and tram to the teaching hospital in Brno for a check-up and a small laser treatment.",
+      "newWords": [
+        "fakultní",
+        "chirurgický",
+        "akutní",
+        "preventivní",
+        "bradavice",
+        "paže",
+        "podržet",
+        "hrdlo"
+      ],
+      "text": "Jmenuji se Marie Dostálová, je mi sedmdesát let a bydlím na vesnici u Tišnova. Auto už nemám, a tak jezdím všude vlakem a autobusem. Minulý týden jsem jela do Fakultní nemocnice Brno a chci popsat, jak taková cesta vypadá, protože se mě na ni ptá spousta sousedek.\n\nFakultní nemocnice je velká nemocnice, která spolupracuje s lékařskou fakultou. Učí se tu studenti medicíny a pracují tu přední odborníci. Proto sem posílají pacienty z celého kraje.\n\nRáno jsem vyrazila v půl sedmé. Vlak do Brna jezdí každou hodinu a cesta trvá půl hodiny. Z hlavního nádraží jsem jela tramvají s jedním přestupem. Tramvaje v Brně jezdí často a mají nízkou podlahu, takže se do nich dobře nastupuje i s holí. Ve fakultní nemocnici je spousta budov a cest. Hned u vchodu však stojí mapa a dobrovolníci v zelených vestách, kteří pomáhají najít správnou budovu.\n\nNejdřív jsem šla na preventivní prohlídku. Preventivní prohlídky jsou důležité, protože pomáhají najít nemoc dřív, než začne bolet. Lékařka mi změřila tlak a podívala se mi do hrdla, protože mě poslední týdny škrábalo v krku. Hrdlo bylo jen trochu zarudlé. „Žádný akutní problém tu nevidím,“ řekla. „Kdyby se bolest zhoršila, přijďte hned. Akutní případy bereme bez objednání.“\n\nPotom jsem šla na chirurgickou ambulanci. Na levé paži jsem měla už dva roky bradavici, která se mi zachytávala o oblečení. Doma jsem ji léčila mastí, ale bradavice nezmizela. Chirurgický zákrok trval jen deset minut. Sestra mi řekla, ať ruku podržím v klidu, a lékař bradavici odstranil laserem. „Podržte to ještě chvíli,“ řekla sestra a přitiskla mi na paži obvaz. Nic to nebolelo, jen to trochu pálilo.\n\nNa zpáteční cestě jsem si v nemocniční kavárně dala kávu a koláč. Domů jsem dojela ve dvě odpoledne. Celá cesta mě stála méně než sto korun, protože senioři jezdí se slevou.\n\nSousedkám říkám: nebojte se jet do fakultní nemocnice sami. Doprava je dobrá, lidé ochotní a pro nás, kdo nemáme auto, je to pohodlnější, než si myslíme.\n\nOtázky:\nProč posílají do fakultní nemocnice pacienty z celého kraje?\nPracují tu přední odborníci a spolupracuje s lékařskou fakultou.\nJak se Marie dostala do nemocnice?\nJela vlakem do Brna a pak tramvají s jedním přestupem.\nProč jsou preventivní prohlídky důležité?\nPomáhají najít nemoc dřív, než začne bolet.\nCo lékařka zjistila, když se podívala do hrdla?\nHrdlo bylo jen trochu zarudlé a žádný akutní problém neviděla.\nJak lékař na chirurgické ambulanci odstranil bradavici?\nOdstranil ji laserem.\nCo měla Marie podržet?\nMěla podržet ruku v klidu a potom obvaz na paži."
+    },
+    {
+      "title": "Na kolech mezi sady",
+      "summary": "A couple cycles through South Moravia during the apple harvest, swims in a lake and brings home a necklace.",
+      "newWords": [
+        "sklizeň",
+        "kvést",
+        "těsto",
+        "bylina",
+        "hořký",
+        "řízek",
+        "plavky",
+        "náhrdelník",
+        "obývák"
+      ],
+      "text": "Lucie a Radek si každý rok udělají týdenní výlet na kolech. Letos si vybrali jižní Moravu a září, kdy už není takové horko. Vlakem dojeli do Břeclavi, kola vezli s sebou a odtud vyrazili po cyklostezkách na sever.\n\nV září je na jižní Moravě v plném proudu sklizeň ovoce. V sadech kolem silnic se sbírala jablka a u cest stály stánky, kde zahradníci prodávali ovoce přímo ze sadu. „Letos je sklizeň výborná,“ řekl jim jeden prodavač. „Stromy na jaře dobře kvetly a nepřišel mráz.“ Lucie se zeptala, kdy stromy kvetou. „Koncem dubna,“ odpověděl. „Když všechno kvete, je celý kraj bílý a růžový. To byste měli vidět.“ Nabídl jim jablko z letošní sklizně a Radek si pak koupil celou tašku.\n\nV jedné vesnici se ubytovali u starší paní, která právě pekla koláč s jablky. Ukázala jim, jak se dělá těsto: mouka, máslo, vejce, cukr a trocha mléka. Těsto se nesmí dlouho míchat, jinak je tvrdé. Lucie si recept zapsala a těsto si zkusila udělat sama. Koláč pak jedli večer na zahradě.\n\nPaní měla na zahradě i spoustu bylin. Každá bylina se podle ní hodí na něco jiného: jedna na spaní, jiná na bolest břicha, další do polévky. Nabídla jim čaj z bylin, který byl dost hořký. „Hořký čaj je zdravý,“ smála se. „Kdo chce sladký, ať si dá med.“ Radek si do hořkého čaje dal dvě lžíce medu.\n\nDruhý den jeli kolem vodních nádrží pod Pálavou. Bylo ještě teplo, a tak si vzali plavky a skočili do vody. Radek ale zapomněl plavky v pokoji u paní a musel si v kempu koupit nové. Prodávali tam jen jedny, s velkými rybami. Nakonec se mu líbily.\n\nK obědu si dali v hospodě v Mikulově řízek s bramborami. Řízek byl větší než talíř. Lucie celý řízek nesnědla a zbytek si zabalila na cestu. Odpoledne prošli zámek a staré město. Na trhu u náměstí si Lucie koupila náhrdelník ze skleněných kuliček, který vyrobila místní umělkyně. Náhrdelník měl barvu podzimního lesa.\n\nPo týdnu se vrátili vlakem domů. Večer sedí v obýváku a prohlížejí si fotky. V obýváku voní jablka, která si přivezli v krabici, a Lucie má na krku nový náhrdelník. Zítra chce upéct koláč podle receptu té paní.\n\nOtázky:\nProč je letos sklizeň výborná?\nStromy na jaře dobře kvetly a nepřišel mráz.\nKdy stromy kvetou?\nKvetou koncem dubna.\nJak se dělá těsto na koláč?\nZ mouky, másla, vajec, cukru a trochy mléka a nesmí se dlouho míchat.\nJaký byl čaj z bylin?\nByl dost hořký.\nProč si Radek musel koupit nové plavky?\nZapomněl své plavky v pokoji u paní.\nCo si Lucie koupila na trhu v Mikulově?\nKoupila si náhrdelník ze skleněných kuliček."
+    }
+  ]
+}

@@ -1,0 +1,219 @@
+{
+  "id": "cs-mini-5100",
+  "rankUpTo": 5100,
+  "level": "C1",
+  "title": "Z dějin",
+  "description": "Ten standalone texts on everyday history in Czechia: museums, crafts, medicine, travel, gardens, science and old computer games, told as reports, interviews, essays, a diary and a portrait.",
+  "topic": "History",
+  "names": [
+    "Třebenicích",
+    "Třebenic",
+    "středohoří",
+    "Středohoří",
+    "Prahy",
+    "Praze",
+    "Evropě",
+    "Americe",
+    "Čechách",
+    "Zdeňkou",
+    "Šrámkovou",
+    "Československo",
+    "Moravě",
+    "Znojemsku",
+    "Miroslav",
+    "Bureš",
+    "Bureše",
+    "Tomáš",
+    "Vondráček",
+    "Vídni",
+    "Vídně",
+    "Česku",
+    "Vladimír",
+    "Vaněk",
+    "Vaňkovi",
+    "Beskydech",
+    "Evropy",
+    "Afriky",
+    "Afrika",
+    "Africe",
+    "Česka",
+    "Španělsku",
+    "Karel",
+    "Holeček",
+    "Boleslavi",
+    "Drážďan",
+    "Anna",
+    "Annou",
+    "Mělníku",
+    "Mělníka",
+    "Labe",
+    "Prahu",
+    "Znojma",
+    "Bohumil",
+    "Dobeš",
+    "Rakouska",
+    "Itálie",
+    "Smíchově",
+    "Ondřej",
+    "Ondřejem",
+    "Radek",
+    "Radku"
+  ],
+  "lessons": [
+    {
+      "title": "Červený kámen ze Středohoří",
+      "summary": "A visit to a new exhibition in the regional museum in Třebenice on the history of the Bohemian garnet: its deposits, its golden age, the end of the old craft and what chemical analysis reveals today.",
+      "newWords": [
+        "granát",
+        "ložisko",
+        "minerál",
+        "důkladně",
+        "zánik",
+        "překvapivý",
+        "rozbor",
+        "oblastní"
+      ],
+      "text": "Český granát patří k věcem, které si turisté rádi vozí z Prahy domů, a většinou ani netuší, jak dlouhou historii mají. Oblastní muzeum v Třebenicích, malém městě v Českém středohoří, mu proto věnovalo novou expozici. Oblastní muzea jsou často skromná a málokdo kvůli nim jede přes půl republiky. Tohle ale za cestu stojí.\n\nNávštěvník se nejprve dozví, že granát není jeden minerál, ale celá skupina minerálů, které se od sebe liší barvou i složením. Minerál, kterému se říká český granát, je výrazně červený a většinou drobný, často jen pár milimetrů velký. Jeho ložiska leží hlavně v okolí Třebenic. Na rozdíl od mnoha jiných kamenů se nemusel dobývat hluboko pod zemí. V ložisku ležel v písku jen několik metrů pod povrchem a lidé ho od písku oddělovali vodou podobně jako zlato.\n\nSlávu mu přineslo 16. století, kdy se na dvoře panovníka v Praze sbíraly vzácné kameny a minerály z celého světa a český granát se dostal mezi ně. Největší slávu ale zažil až v 19. století. Šperky s českými granáty se tehdy prodávaly po celé Evropě i v Americe a v Čechách se jimi živily tisíce lidí. Expozice ukazuje, jak důkladně se kámen zpracovával. Nejprve se rozdělil podle velikosti a odstínu, potom se brousil a nakonec ho zasadili do kovu. Každý krok dělal jiný člověk a každý ho musel zvládnout stejně důkladně, jinak by šperk nebyl tak krásný.\n\nPřekvapivé je, jak rychle tahle sláva skončila. Na začátku 20. století začal pomalý zánik celého odvětví. Nejbohatší ložiska byla brzy prázdná, móda se změnila a do obchodů se dostaly levnější šperky ze skla. Zánik velkých dílen však neznamenal zánik granátu. Na několika místech se dobývá dodnes a šperky z něj se stále vyrábějí.\n\nPoslední sál patří vědě. Chemický rozbor dnes prozradí, z jakého ložiska kámen pochází, protože každé ložisko má trochu jiné složení. Díky takovému rozboru lze poznat, jestli je starý šperk opravdu z českého granátu, nebo z kamene z jiné země. Kámen přitom rozbor nijak nepoškodí. Průvodkyně nám ukázala starý šperk, který muzeum dlouho považovalo za obyčejnou kopii. Rozbor však ukázal, že jde o pravé české granáty z 19. století. Pro mnoho návštěvníků je to nejpřekvapivější kus celé výstavy.\n\nKdo má rád minerály, může v muzeu strávit celé dopoledne. Kdo je rád nemá, odejde aspoň s vědomím, že ten malý červený kámen má za sebou bohatší minulost, než by člověk řekl.\n\nOtázky:\nKde leží ložiska českého granátu?\nLožiska českého granátu leží hlavně v okolí Třebenic v Českém středohoří.\nJak lidé granát získávali?\nOddělovali ho vodou od písku, ve kterém ležel jen několik metrů pod povrchem, podobně jako zlato.\nKdy zažil český granát největší slávu?\nNejvětší slávu zažil v 19. století, kdy se šperky s granáty prodávaly po celé Evropě i v Americe.\nProč na začátku 20. století začal zánik celého odvětví?\nProtože nejbohatší ložiska byla brzy prázdná, móda se změnila a do obchodů se dostaly levnější šperky ze skla.\nCo dnes prozradí chemický rozbor?\nRozbor prozradí, z jakého ložiska kámen pochází, a tím i to, jestli je šperk z pravého českého granátu."
+    },
+    {
+      "title": "Vakcína na kostce cukru",
+      "summary": "An interview with a historian of medicine about how Czechoslovakia stopped polio around 1960: the first injected vaccine, the oral one with a weakened virus, vaccination by age group, and people's doubts.",
+      "newWords": [
+        "vakcína",
+        "jehla",
+        "údaj",
+        "zasažený",
+        "oslabit",
+        "urychlit",
+        "věkový",
+        "pochyba",
+        "povědomí"
+      ],
+      "text": "Dětská obrna patřila v polovině 20. století k nejobávanějším nemocem. Napadala hlavně malé děti a mnohé z nich zůstaly ochrnuté na celý život. O tom, jak se ji u nás podařilo zastavit, jsme mluvili s historičkou medicíny Zdeňkou Šrámkovou.\n\nJak vážná byla situace v padesátých letech?\n\nVelmi vážná. Epidemie přicházely skoro každé léto. Podle údajů z té doby v nejhorších letech onemocněly stovky dětí ročně. V těch údajích ale chybí lehčí případy, protože ty lékaři často vůbec nezapsali. Nejvíc byla zasažena města, ale zasažené byly i vesnice. V rodinách panoval strach, kdykoli dítě v létě dostalo horečku.\n\nKdy přišla první vakcína?\n\nPrvní vakcína vznikla v Americe v polovině padesátých let a k nám se dostala v roce 1957. Podávala se jehlou, a to několikrát po sobě. Děti se jehly pochopitelně bály a rodiče také nebyli nadšení. Očkovat jehlou celou generaci bylo navíc pomalé a drahé. Každá jehla se musela pečlivě vyvařit.\n\nA pak?\n\nPak přišla vakcína, která všechno změnila. Obsahovala živý virus, který ale vědci oslabili. Oslabený virus nemoc nevyvolá, tělo se však naučí se proti němu bránit. Hlavní výhoda byla, že nebyla potřeba žádná jehla. Dítě vakcínu spolklo na lžičce nebo na kostce cukru. Tím se celé očkování nesmírně urychlilo. Kde dřív lékař s jehlou zvládl za den několik desítek dětí, tam teď stačilo pár minut na celou třídu.\n\nJak se očkování organizovalo?\n\nPodle věkových skupin. Nejdřív přišly na řadu nejmenší děti, protože tahle věková skupina byla nejvíc ohrožená. Potom starší děti a mladí lidé. Každá věková skupina měla svůj termín a lékaři chodili do škol a školek. Během několika měsíců tak vakcínu dostaly miliony lidí.\n\nNeměli lidé pochyby?\n\nPochyby se objevily, jako u každé nové vakcíny. Někteří rodiče se báli, že oslabený virus dítěti ublíží. Lékaři proto hodně mluvili s lidmi, psalo se o tom v novinách a mluvilo v rozhlase. Pomohlo také to, že povědomí o nemoci bylo velké. Skoro každý znal nějaké dítě, které obrna zasáhla, a to pochyby nakonec přemohlo. Bez takového povědomí by očkování tolik úspěšné nebylo.\n\nA výsledek?\n\nTen byl ohromující. Kolem roku 1960 se nové případy prakticky přestaly objevovat a Československo patřilo k prvním zemím na světě, kde dětská obrna zmizela. Potvrzuje to každý údaj z dalších let.\n\nCo si z toho můžeme vzít dnes?\n\nŽe vakcína sama nestačí. Musí být snadno dostupná a lidé jí musí věřit. Pochyby je potřeba brát vážně a vysvětlovat, a ne je přehlížet. Kde se podaří očkování urychlit, tam se zastaví i epidemie.\n\nOtázky:\nKteré děti byly dětskou obrnou nejvíc ohrožené?\nNejvíc ohrožené byly malé děti, a proto se očkovaly jako první věková skupina.\nJak se podávala první vakcína?\nPrvní vakcína se podávala jehlou, a to několikrát po sobě.\nCo obsahovala druhá vakcína?\nObsahovala živý, ale oslabený virus, který nemoc nevyvolá.\nProč se díky ní očkování urychlilo?\nProtože nebyla potřeba jehla a dítě vakcínu spolklo na lžičce nebo na kostce cukru.\nCo pomohlo přemoci pochyby rodičů?\nPomohlo velké povědomí o nemoci, protože skoro každý znal nějaké dítě, které obrna zasáhla."
+    },
+    {
+      "title": "Mlýn, který zase praská",
+      "summary": "A local association repairs an old wooden windmill in the Znojmo region bit by bit, and its chairman shows the diagram of the machine, the cleaned millstones and the improvements the old millers made.",
+      "newWords": [
+        "větrný",
+        "plošina",
+        "schéma",
+        "dílčí",
+        "praskat",
+        "očistit",
+        "vylepšení",
+        "potrvat",
+        "vstupné"
+      ],
+      "text": "Větrné mlýny kdysi patřily k české a moravské krajině stejně samozřejmě jako lípy u cest. V polovině 19. století jich u nás stály stovky, hlavně na Moravě, kde v mnoha krajích nebylo dost řek pro mlýny vodní. Dnes se jich zachovalo jen několik desítek a točí se jen pár z nich. Jeden větrný mlýn stojí na kopci nad vesnicí na Znojemsku a místní spolek ho už deset let opravuje.\n\n„Lidé si myslí, že větrný mlýn je jednoduchá stavba,“ říká předseda spolku Miroslav Bureš, když nás vede po úzkých dřevěných schodech nahoru. „Ve skutečnosti je to stroj.“ Celý dřevěný mlýn stojí na jediném mohutném dubovém sloupu a otáčí se kolem něj. Mlynář ho musel natočit proti větru pomocí dlouhé tyče, a to i několikrát za den. Na konci schodů je malá plošina a teprve z ní se vchází dovnitř. Z plošiny je vidět celé okolí a v létě na ní začínají prohlídky s průvodcem.\n\nUvnitř visí na stěně velké schéma. Pan Bureš ho nakreslil sám podle starých plánů. Schéma ukazuje, jak se síla větru přenáší z křídel přes kola až na kameny, které z obilí dělaly mouku. „Bez schématu se tu návštěvníci ztratí,“ směje se. „Na schématu je všechno jasné, ale ve skutečnosti tu vidíte jen spoustu dřeva.“\n\nOprava se dělá po částech. Spolek nemá peníze na velkou rekonstrukci, a tak se pouští do dílčích oprav: jeden rok střecha, další rok schody a plošina, potom kola. Každou dílčí opravu je nutné naplánovat tak, aby mlýn mezitím nepoškodila zima. Největším nepřítelem je totiž počasí. Staré dřevo v létě na slunci praská a v zimě do něj proniká voda. „Když je v noci silný vítr, celý mlýn praská,“ říká pan Bureš. „Kdo to slyší poprvé, myslí si, že spadne. Ale takhle praskal i před sto padesáti lety.“\n\nLoni dobrovolníci očistili mlýnské kameny a kola od starého prachu a mouky. Pracovali velmi opatrně, aby dřevo nepoškodili. Teprve když bylo všechno očištěné, objevily se na kolech vyřezané roky a jména. Podle nich se dá poznat, kdy které vylepšení vzniklo. Jeden mlynář nahradil části kol tvrdším dřevem, jiný přidal zařízení, které mlýn chránilo při silném větru. Každé vylepšení bylo drobné, ale dohromady udělala z mlýna stroj, který vydržel přes dvě století.\n\nKolik práce ještě zbývá? „Myslím, že oprava potrvá ještě dva roky,“ říká pan Bureš. „Když nám pomůže kraj, možná to potrvá kratší dobu.“ Spolek si na opravy vydělává hlavně sám. Vstupné je padesát korun a všechno jde na opravu. Vstupné od jedné rodiny zaplatí třeba jedno nové prkno na schody.\n\nAž budou opravy hotové, chce spolek mlýn zase uvést do pohybu a vyrobit v něm aspoň trochu mouky. Pak bude mlýn opět dělat to, k čemu ho kdysi postavili, a když bude v noci praskat, nikoho to nevyděsí.\n\nOtázky:\nProč stálo na Moravě tolik větrných mlýnů?\nProtože v mnoha krajích nebylo dost řek pro mlýny vodní.\nCo ukazuje schéma, které visí uvnitř mlýna?\nSchéma ukazuje, jak se síla větru přenáší z křídel přes kola až na kameny.\nProč spolek dělá jen dílčí opravy?\nProtože nemá peníze na velkou rekonstrukci, a tak opravuje mlýn po částech.\nProč staré dřevo praská?\nStaré dřevo v létě na slunci praská a v zimě do něj proniká voda.\nCo se objevilo, když dobrovolníci očistili kola?\nObjevily se vyřezané roky a jména, podle kterých se dá poznat, kdy které vylepšení vzniklo.\nNa co jde vstupné?\nVšechno vstupné jde na opravu mlýna."
+    },
+    {
+      "title": "Proč se naši předkové neusmívali",
+      "summary": "A short essay weighs the explanations for the serious faces in nineteenth-century photographs: long exposures and weak lenses, bad teeth, and the idea of a portrait as a dignified picture.",
+      "newWords": [
+        "fotografický",
+        "čočka",
+        "nucený",
+        "problematický",
+        "schválně",
+        "pojmout",
+        "kráska",
+        "sympatický"
+      ],
+      "text": "Kdo listuje starým rodinným albem, brzy si všimne jedné věci: lidé na fotografiích z 19. století se skoro nikdy neusmívají. Dívají se vážně, někdy až přísně, jako by je fotograf něčím urazil. Proč tomu tak bylo? Nabízí se několik vysvětlení a žádné z nich neplatí samo o sobě.\n\nNejčastěji se uvádí technika. První fotografické přístroje potřebovaly hodně světla. Jejich čočky ho propouštěly málo a fotografické desky byly málo citlivé, takže jeden snímek mohl trvat i desítky vteřin. Kdo by vydržel tak dlouho se usmívat? Nucený úsměv po chvíli ztuhne a na snímku by vypadal spíš jako bolest. Ve fotografických ateliérech proto stály kovové stojany, o které se zákazník opřel hlavou, aby se nepohnul.\n\nToto vysvětlení je však problematické. S lepšími čočkami se doba snímku brzy zkrátila na pouhé vteřiny, a lidé se přesto dál tvářili vážně. Technika tedy vysvětluje začátky, ale ne celé století. Ještě problematičtější je tvrzení, že se lidé styděli za špatné zuby. Špatné zuby tehdy měl skoro každý, takže se za ně nebylo proč stydět.\n\nPravděpodobnější je, že se lidé netvářili vážně z nouze, ale schválně. Fotografie byla drahá a člověk se nechal fotografovat třeba jen několikrát za život. Snímek měl vydržet celé generace. Fotografové proto pojali portrét podobně jako malíři: jako důstojný obraz, ne jako zachycení okamžiku. Na obrazech se usmívaly hlavně děti a postavy, které měly diváka pobavit. Kdo chtěl působit vážně a slušně, schválně se neusmíval.\n\nPěkně je to vidět na portrétech žen. V ateliérech vznikaly snímky místních krásek, které se pak prodávaly jako pohlednice. I taková kráska se na snímku dívá vážně a klidně. Krása měla být ušlechtilá, ne veselá. Dnes by nám ta kráska připadala spíš chladná než sympatická. Fotograf ji ale pojal přesně tak, jak to tehdy lidé chtěli vidět.\n\nV tom je ten rozdíl. My dnes chceme na fotografii působit sympaticky, přátelsky a uvolněně. Lidé 19. století chtěli působit spíš důstojně a sympatický úsměv by jim připadal lehkomyslný. Změnu přineslo až 20. století: levné fotoaparáty, snímky z dovolené a reklama, která ukazovala šťastné, usměvavé lidi. Fotografie přestala být vzácností a úsměv se stal samozřejmostí, ba skoro povinností.\n\nMožná bychom se proto neměli předkům divit. Kdyby viděli naše fotografie, divili by se spíš oni. Proč se všichni tak nuceně usmívají? A kdo je k tomu nutí? Na nucený úsměv se nakonec můžeme dívat stejně kriticky jako na jejich vážnost.\n\nOtázky:\nProč trval jeden snímek na začátku tak dlouho?\nProtože čočky propouštěly málo světla a fotografické desky byly málo citlivé.\nProč je technické vysvětlení problematické?\nProtože se doba snímku brzy zkrátila na vteřiny, a lidé se přesto dál tvářili vážně.\nJak pojali fotografové portrét?\nPojali ho podobně jako malíři, jako důstojný obraz, a ne jako zachycení okamžiku.\nJak se dívá kráska na staré pohlednici?\nDívá se vážně a klidně, protože krása měla být ušlechtilá, ne veselá.\nJak chceme na fotografii působit dnes?\nDnes chceme působit sympaticky, přátelsky a uvolněně."
+    },
+    {
+      "title": "Sto let u lůžka",
+      "summary": "At a medical faculty's hundredth anniversary the dean greets a delegation from Vienna, recalls the first year's numbers and the flood of 1997, new doctors take their oath, and he speaks of wisdom.",
+      "newWords": [
+        "děkan",
+        "pozdravit",
+        "delegace",
+        "srdečný",
+        "předpokládaný",
+        "přerušení",
+        "administrativa",
+        "přísaha",
+        "moudrost"
+      ],
+      "text": "Fakulta slavila sto let. Do velkého sálu se v pátek dopoledne sešli studenti, profesoři i absolventi, kteří tu studovali před padesáti lety. Děkan fakulty profesor Tomáš Vondráček pozdravil nejdřív nejstarší absolventy a potom delegaci z partnerské univerzity ve Vídni. Delegace přijela už ve čtvrtek a přivezla s sebou dar: kopii dopisu, který si obě fakulty vyměnily před sto lety.\n\n„Vítám vás srdečně,“ pozdravil delegaci děkan nejdřív česky a pak německy. Srdečný tón nikoho nepřekvapil. Obě fakulty spolupracují desítky let a jejich studenti pravidelně jezdí na stáže jedni k druhým. Vedoucí delegace poděkoval a pozdravil sál krátkou větou v češtině, kterou se naučil ve vlaku.\n\nVe svém projevu se děkan vrátil k začátkům. Připomněl, že do prvního ročníku měla podle plánů nastoupit asi čtyřicítka studentů. Předpokládaný počet se však ukázal jako příliš nízký, protože se jich zapsalo přes sto. Ani později se fakultě předpokládané počty nedařilo odhadnout. „Vždycky nás přišlo víc, než jsme čekali,“ řekl děkan s úsměvem. „A vždycky jsme to nějak zvládli.“\n\nZmínil i těžké chvíle. Nejdelší přerušení výuky v novějších dějinách přinesla povodeň v roce 1997, kdy voda zaplavila sklepy dvou budov a s nimi i část archivu. Přerušení trvalo jen několik týdnů, ale škody se opravovaly roky. Díky dobrovolníkům z řad studentů se většinu starých dokumentů podařilo zachránit.\n\nPrávě tyto dokumenty jsou teď k vidění na malé výstavě v předsálí. Výstava ukazuje, jak se za sto let změnila administrativa fakulty. Kdysi stačil jeden úředník, který do tlustých knih ručně zapisoval jména studentů a výsledky jejich zkoušek. Dnes má fakulta celé oddělení a administrativa běží v počítači. Studenti u vitrín žasli, jak málo administrativy dřív stačilo. „A přesto to fungovalo,“ podotkl jeden ze starších profesorů.\n\nVrcholem dne byla promoce. Dvacet nových lékařů složilo přísahu, kterou skládali i jejich předchůdci před sto lety. V přísaze slibují, že budou pomáhat každému bez rozdílu a že pacientovi neublíží. Slova přísahy se za celé století skoro nezměnila. Mnozí rodiče v sále při přísaze plakali.\n\nNa závěr děkan citoval svého učitele, který na fakultě přednášel přes čtyřicet let: „Znalosti najdete v knihách, ale moudrost se učí u lůžka nemocného.“ Děkan dodal, že moudrost se nedá naučit z učebnice ani za šest let studia. „Moudrost přichází s každým pacientem, kterému pomůžete,“ řekl novým lékařům. Slavnost skončila srdečným potleskem a delegace z Vídně pozvala děkana, aby za rok přijel k nim.\n\nOtázky:\nKoho děkan pozdravil jako první?\nDěkan pozdravil nejdřív nejstarší absolventy a potom delegaci z Vídně.\nJaký dar přivezla delegace?\nDelegace přivezla kopii dopisu, který si obě fakulty vyměnily před sto lety.\nProč se předpokládaný počet studentů ukázal jako příliš nízký?\nProtože se do prvního ročníku zapsalo přes sto studentů místo asi čtyřiceti.\nCo způsobilo nejdelší přerušení výuky?\nNejdelší přerušení výuky způsobila povodeň v roce 1997.\nJak se změnila administrativa fakulty?\nKdysi stačil jeden úředník s tlustými knihami, dnes má fakulta celé oddělení a administrativa běží v počítači.\nCo slibují noví lékaři v přísaze?\nSlibují, že budou pomáhat každému bez rozdílu a že pacientovi neublíží."
+    },
+    {
+      "title": "Tři pruhy na stromě",
+      "summary": "A portrait of Vladimír Vaněk, a retired volunteer who has marked hiking trails in the Beskydy mountains for thirty years, and of the rules for Czech trail marks that go back to 1889.",
+      "newWords": [
+        "senior",
+        "dodržování",
+        "příručka",
+        "jednoznačný",
+        "kondice",
+        "kotník",
+        "vzápětí",
+        "potěšení"
+      ],
+      "text": "Kdo chodí po českých horách a lesích, zná je od dětství: tři pruhy nad sebou, bílý, barevný a zase bílý, namalované na stromech, sloupech a kamenech. Česká turistická značka je jednoduchá, a právě proto funguje. Její historie začala v roce 1889, kdy Klub českých turistů vyznačil první trasu blízko Prahy. Dnes vede po Česku přes čtyřicet tisíc kilometrů cest se značkami a starají se o ně dobrovolníci, kterým se říká značkaři.\n\nJedním z nich je Vladimír Vaněk. Je to senior, letos mu bylo 72 let, a cesty v Beskydech značí přes třicet let. „Mladí lidé mají práci a děti, a tak značení často zůstává na nás,“ říká. „Náš spolek se o seniory opírá. Senior má hlavně jednu výhodu: má čas.“\n\nZnačení podle něj není jen práce s barvou. Platí pro něj přísná pravidla a jejich dodržování je základ. Každý značkař dostane příručku, ve které je přesně popsáno, jak velká má značka být, v jaké výšce a jak daleko od té další. Příručka má přes sto stran a pan Vaněk ji zná skoro celou. „Dodržování pravidel není žádná zbytečnost,“ vysvětluje. „Značka musí být jednoznačná. Turista, který přijde v mlze na křižovatku cest, nesmí mít žádné pochyby, kudy dál. Kde značení není jednoznačné, tam se lidé ztratí.“\n\nPráce vyžaduje dobrou kondici. Dobrovolníci chodí desítky kilometrů s barvami a nářadím na zádech, často do prudkých kopců. Pan Vaněk si kondici udržuje celý rok: v zimě jezdí na lyžích, v létě chodí po horách. Přesto se mu loni stala nehoda. Na mokrém kameni si poranil kotník a vzápětí zjistil, že je sám a daleko od vesnice. Kotník ho bolel tak, že nemohl jít dál. Vzápětí se ale za zatáčkou objevili dva turisté, kteří šli po stejné značce. „Dovedli mě dolů po cestě, kterou jsem den předtím značil,“ směje se. Kotník se mu léčil dva měsíce a lékař mu radil, aby zpomalil. Pan Vaněk nezpomalil, jen si koupil lepší boty.\n\nProč to dělá? „Pro potěšení,“ odpovídá hned. Je to potěšení z práce venku, z pohybu i z toho, že po jeho značkách chodí tisíce lidí, které nikdy nepozná. Největší potěšení mu udělá, když potká rodinu s dětmi, která se podle jeho značek bez problémů dostane až nahoru.\n\nNa konci rozhovoru vytáhne z batohu starou příručku, kterou dostal od svého předchůdce. Je hodně používaná a plná poznámek. Pravidla v ní jsou skoro stejná jako v té nové. To, co platilo v roce 1889, platí v podstatě dodnes: značka musí být vidět, musí být jednoznačná a musí vést tam, kam slibuje. Pan Vaněk si příručku schová zpátky do batohu. Zítra jde znovu do kopců.\n\nOtázky:\nKdy začala historie české turistické značky?\nZačala v roce 1889, kdy Klub českých turistů vyznačil první trasu blízko Prahy.\nProč se spolek opírá o seniory?\nProtože mladí lidé mají práci a děti, kdežto senior má čas.\nCo dostane každý značkař?\nKaždý značkař dostane příručku, ve které jsou popsána všechna pravidla značení.\nProč je dodržování pravidel tak důležité?\nProtože značka musí být jednoznačná a turista nesmí mít na křižovatce cest žádné pochyby.\nCo se stalo panu Vaňkovi loni?\nNa mokrém kameni si poranil kotník, ale vzápětí mu pomohli dva turisté.\nProč pan Vaněk značí cesty?\nDělá to pro potěšení z práce venku, z pohybu a z toho, že po jeho značkách chodí tisíce lidí."
+    },
+    {
+      "title": "Kam mizí ptáci",
+      "summary": "A short history of how people found out where birds go in winter: from the old belief in small birds sleeping in ponds, through ringing, to tracking cranes in real time, with a look at sea turtles too.",
+      "newWords": [
+        "migrace",
+        "nezávisle",
+        "průběžný",
+        "jeřáb",
+        "kořist",
+        "záliv",
+        "želva",
+        "vyvinutý"
+      ],
+      "text": "Po staletí si lidé lámali hlavu nad tím, kam na zimu mizí ptáci. Na podzim byli všude, na jaře se vrátili a mezitím jako by se propadli do země. Ještě v 18. století vzdělaní lidé tvrdili, že někteří drobní ptáci tráví zimu na dně rybníků, schovaní v blátě. Představa, že tak malý pták doletí přes moře i poušť, se jim zdála nemožná.\n\nSkutečnou migraci ptáků začali vědci odhalovat až na konci 19. století. Jeden dánský učitel tehdy dal ptákům na nohy malé kovové kroužky se svou adresou. Kdo kroužek našel, poslal mu zprávu, kde se to stalo. Brzy začali stejnou metodu používat vědci v mnoha zemích, často nezávisle na sobě. Každý nalezený kroužek přidal do mapy jeden bod a z bodů se pomalu skládaly trasy. Ukázalo se, že migrace je mnohem delší, než si kdo dovedl představit, a že ptáci z Evropy létají až do jižní Afriky.\n\nKroužky měly jednu velkou nevýhodu. Vědci se dozvěděli jen to, kde pták cestu začal a kde ho našli, ale ne to, kudy letěl. Velkou změnu přinesly až malé vysílače. Dnes stačí přístroj lehčí než mince a vědci dostávají o ptákovi průběžné informace, někdy každou hodinu. Průběžné sledování ukázalo věci, o kterých dřív nikdo neměl ani tušení.\n\nKrásně je to vidět na jeřábech. Jeřáb, velký šedý pták s červenou skvrnou na hlavě, se do Česka v posledních desetiletích vrátil a znovu tu vyvádí mladé. Jeřábi s vysílači ukázali, že na cestě na jih neletí bez cíle. Odpočívají vždy na stejných místech, na polích a u vody, a čekají na příznivý vítr. Někteří jeřábi tráví zimu ve Španělsku, jiní až v severní Africe.\n\nCesta je plná nebezpečí. Unavení ptáci se snadno stanou kořistí sokolů a jiných dravých ptáků, kteří na ně čekají na pobřeží. Některé druhy sokolů mají mladé právě na podzim, kdy je kořisti nejvíc. Nejtěžší částí cesty bývá let přes moře nebo přes široký záliv, kde si pták nemá kde odpočinout. Kdo nemá dost sil, na druhou stranu zálivu nedoletí.\n\nMigrace ale není jen věc ptáků. Mořské želvy se po mnoha letech vracejí klást vejce na tutéž pláž, kde se samy narodily. Některé želvy kvůli tomu plavou přes celý oceán nebo přes velký záliv. Vědci dlouho nevěděli, jak to dokážou. Dnes se zdá, že ptáci i želvy mají vyvinutý smysl pro magnetické pole Země a podle něj se orientují. U některých druhů je ten smysl vyvinutý tak dobře, že najdou cíl i po tisících kilometrů. Dva týmy na různých koncích světa k tomu závěru došly nezávisle na sobě, a to je dobrý důvod jim věřit.\n\nOtázky:\nCo si o některých ptácích mysleli lidé v 18. století?\nMysleli si, že někteří drobní ptáci tráví zimu na dně rybníků, schovaní v blátě.\nJak vědci na konci 19. století zkoumali migraci?\nDávali ptákům na nohy kovové kroužky s adresou, a kdo kroužek našel, poslal zprávu.\nJakou nevýhodu měly kroužky?\nVědci se dozvěděli jen to, kde pták cestu začal a kde ho našli, ale ne to, kudy letěl.\nCo ukázalo průběžné sledování jeřábů?\nUkázalo, že jeřábi odpočívají vždy na stejných místech a čekají na příznivý vítr.\nProč je let přes široký záliv nebezpečný?\nProtože si pták nemá kde odpočinout.\nPodle čeho se orientují ptáci a želvy?\nMají vyvinutý smysl pro magnetické pole Země a orientují se podle něj."
+    },
+    {
+      "title": "Do Drážďan za dva dny",
+      "summary": "A great-grandson introduces the 1912 diary of Karel Holeček, a doctor who drove from Prague to Dresden with his wife over terrible roads, bought petrol at a pharmacy and argued for hours at the customs office.",
+      "newWords": [
+        "benzín",
+        "poradenství",
+        "předměstí",
+        "příšerný",
+        "přejet",
+        "celní",
+        "vyjednávání",
+        "baterka",
+        "chlubit"
+      ],
+      "text": "Můj praděda Karel Holeček patřil k prvním lidem v Mladé Boleslavi, kteří měli vlastní automobil. Byl lékař a na svých cestách si vedl deník, který naše rodina opatruje dodnes. Jedna z prvních dlouhých cest, které v něm popsal, vedla v létě 1912 z Prahy do Drážďan. Cesta, kterou dnes zvládneme za dvě hodiny, mu trvala dva dny.\n\nPro dnešního čtenáře je třeba dodat několik věcí. Benzínové pumpy tehdy skoro nebyly. Benzín se kupoval v lékárnách a v obchodech s barvami a řidič si ho vozil s sebou v plechových kanystrech. Automobilisté se proto sdružovali v klubech, které jim nabízely poradenství: doporučovaly trasy, radily, kde se dá sehnat benzín nebo mechanik, a pomáhaly s papíry na hranicích. Takové poradenství bylo k nezaplacení. Bez něj by se na delší cestu vydal jen málokdo.\n\nZ pradědova deníku:\n\n„10. července. Vyjeli jsme s Annou v šest ráno. Vezu s sebou deset litrů benzínu navíc, protože po cestě ho prý seženu jen v Mělníku. Na předměstí Prahy za námi běželi kluci a psi a jeden kočí na nás křičel, že mu plašíme koně. Za předměstím začala silnice, o které nám v klubu říkali, že je dobrá. Není. Je příšerná: samé díry, kameny a prach. U Mělníka jsme dvakrát píchli. Příšerný den, ale automobil vydržel.\n\n11. července. Ráno jsme přejeli Labe po starém mostě a potom jsme přejeli ještě desítky vesnic. V mnohých z nich lidé viděli automobil poprvé a vybíhali z domů. Odpoledne jsme dojeli na hranici. Celní úředník si automobil dlouho prohlížel a nevěděl, kam ho zapsat. Podle celních předpisů jsme prý měli zaplatit poplatek jako za stroj, který vezeme na prodej. Následovalo dlouhé vyjednávání. Ukazoval jsem mu papíry od klubu, on mi ukazoval své předpisy. Vyjednávání trvalo skoro dvě hodiny, než celní úřad uznal, že automobil prodávat nechceme.\n\nVečer jsme za tmy hledali, kde přespat. Svítili jsme si baterkou, kterou jsem koupil v Praze před cestou. Baterka svítila slabě, ale stačila, abychom našli cestu k hostinci. Anna říká, že bez baterky bychom spali v automobilu.\n\n12. července. Do Drážďan jsme dojeli v poledne. Anna chtěla hned do galerie, já jsem hledal dílnu, kde by mi spravili kolo. Doma se budu chlubit, že jsme dojeli až do Drážďan bez jediné vážné poruchy. O dvou píchlých kolech se raději nezmíním.“\n\nV rodině se dodnes vypráví, že se praděda tou cestou chlubil ještě jako starý pán. Pokaždé byla silnice o něco horší a vyjednávání na hranici o něco delší. Deník ale ukazuje, že ani skutečnost nebyla o mnoho lepší.\n\nOtázky:\nKde se v roce 1912 kupoval benzín?\nBenzín se kupoval v lékárnách a v obchodech s barvami.\nJaké poradenství nabízely kluby automobilistů?\nDoporučovaly trasy, radily, kde sehnat benzín nebo mechanika, a pomáhaly s papíry na hranicích.\nJaká byla silnice za předměstím Prahy?\nSilnice byla příšerná, plná děr, kamenů a prachu.\nProč trvalo vyjednávání na hranici tak dlouho?\nProtože celní úředník nevěděl, kam automobil zapsat, a chtěl poplatek jako za stroj na prodej.\nK čemu potřebovali baterku?\nSvítili si s ní za tmy, aby našli cestu k hostinci.\nČím se chtěl praděda doma chlubit?\nChtěl se chlubit, že dojeli až do Drážďan bez jediné vážné poruchy."
+    },
+    {
+      "title": "Zahrada v příkopu",
+      "summary": "The head gardener of a castle near Znojmo tells how its old dry moat became a garden for a seventeenth-century wedding, with a symbolic plan, a hedge theatre for touring opera companies and a gardener's notes about hares.",
+      "newWords": [
+        "příkop",
+        "oblouk",
+        "zahradník",
+        "sňatek",
+        "symbolický",
+        "hostování",
+        "sehrát",
+        "pomsta",
+        "zajíc"
+      ],
+      "text": "Kdo přijde na zámek blízko Znojma, vstoupí do něj po kamenném mostě se třemi oblouky. Pod mostem dnes kvetou záhony a rostou staré stromy. Před čtyřmi sty lety tu ale byl hluboký suchý příkop, který obklopoval celý zámek. „Příkop byl kdysi hlavní ochranou zámku,“ vysvětluje hlavní zahradník Bohumil Dobeš. „Když už ho nikdo nepotřeboval, udělali z něj zahradu. A to kvůli jedné svatbě.“\n\nV roce 1668 se tehdejší majitel zámku oženil s dcerou bohatého rodu z Rakouska. Sňatek dvou rodů nebyl jen věcí lásky, ale také peněz a majetku. Ženich chtěl nevěstě ukázat, že ji tu čeká krásný domov, a nechal příkop proměnit v zahradu. Pracovalo se na ní dva roky. Ze starých účtů víme, že sem přivezli stovky stromů a keřů z Itálie a z Vídně.\n\nPlán zahrady byl symbolický. Dvě cesty vycházejí z opačných konců příkopu a uprostřed se setkávají u malé kašny. Měly znamenat dva rody, které sňatek spojil. Symbolický význam měly i květiny: bílé růže pro věrnost, červené pro lásku. „Dnešní návštěvníci ten symbolický význam většinou nepoznají,“ říká pan Dobeš. „Proto jim ho rádi vysvětlujeme.“\n\nPod největším obloukem mostu bylo kdysi malé letní divadlo. Jeviště tvořily stříhané keře a diváci seděli na kamenných lavicích. Sem na zámek jezdily na hostování italské operní společnosti. Jedno hostování trvalo i několik týdnů a zpěváci a herci během něj bydleli přímo na zámku. Podle starých zápisů tu jedna společnost sehrála operu o lásce a pomstě. Žárlivý princ v ní touží po pomstě, ale nakonec svému sokovi odpustí. Pomsta se nekoná a opera končí svatbou. Snad i proto ji pro novomanžele vybrali. Herci tu potom sehráli ještě desítky dalších představení.\n\nNejzajímavější čtení jsou ale poznámky tehdejšího zahradníka. Psal je do sešitu celých třicet let. Nejčastěji si v nich stěžuje na počasí a na zajíce. Zajíci v zimě přicházeli z polí, po zmrzlé zemi se dostali do příkopu a okusovali kůru mladých stromů. „Zase zajíc. Tři mladé hrušně zničeny,“ píše zahradník v lednu 1675.\n\n„Zajíci tu jsou dodnes,“ směje se pan Dobeš. „Proti nim pomáhá jen pevný plot. Starý zahradník by nám ho záviděl.“\n\nDnes se zahrada obnovuje podle starých plánů. Zahradníci sázejí stejné druhy stromů a pod obloukem už stojí nové lavice. Na jaře tu má být po dlouhé době zase divadlo. Pokud všechno dobře dopadne, sehraje první představení místní divadelní soubor. Hrát bude podle všeho zase o lásce, a ne o pomstě.\n\nOtázky:\nCo bylo kdysi na místě dnešní zahrady?\nNa místě zahrady byl hluboký suchý příkop, který obklopoval celý zámek.\nProč majitel zámku nechal příkop proměnit v zahradu?\nChtěl ukázat nevěstě po sňatku, že ji tu čeká krásný domov.\nJaký symbolický význam měly dvě cesty v zahradě?\nDvě cesty, které se setkávají uprostřed, měly znamenat dva rody, které sňatek spojil.\nKde bylo letní divadlo a kdo v něm hrál?\nDivadlo bylo pod největším obloukem mostu a hrály v něm italské operní společnosti, které sem jezdily na hostování.\nNa co si tehdejší zahradník nejčastěji stěžoval?\nStěžoval si na počasí a na zajíce, kteří okusovali kůru mladých stromů."
+    },
+    {
+      "title": "Jsi v temné chodbě",
+      "summary": "Radek goes to the launch of his old school friend Ondřej's book on Czech text adventure games of the 1980s and remembers the fantasy game they wrote together at sixteen.",
+      "newWords": [
+        "křest",
+        "čau",
+        "textový",
+        "interaktivní",
+        "fantasy",
+        "záhadný",
+        "vývojový",
+        "poradna"
+      ],
+      "text": "Minulý čtvrtek jsem byl v malém klubu na Smíchově na křtu knihy o českých textových hrách z osmdesátých let. Napsal ji můj spolužák Ondřej, se kterým jsme kdysi takové hry sami psali. Když jsem vešel, stál u dveří a hned na mě mával.\n\n„Čau, Radku! Myslel jsem, že nepřijdeš.“\n\n„Čau. Takový křest bych si přece nenechal ujít.“\n\nPro mladší čtenáře musím vysvětlit, o co šlo. V osmdesátých letech měly domácí počítače tak malou paměť, že se do nich obrázky skoro nevešly. Hry proto byly textové. Na obrazovce se objevila věta, třeba „Jsi v temné chodbě. Na sever vedou dveře.“, a hráč napsal, co chce udělat: „jdi na sever“ nebo „vezmi klíč“. Počítač odpověděl další větou. Textová hra byla vlastně příběh, ve kterém hráč sám rozhodoval, co se stane dál. Dnes se tomu odborně říká interaktivní fikce. My jsme tehdy žádné slovo jako interaktivní neznali, prostě jsme hráli.\n\nVětšina těch her se odehrávala ve světě fantasy. Hráč bloudil záhadným hradem, hledal poklady a utíkal před draky. Fantasy se k textovým hrám skvěle hodila, protože všechno se odehrávalo v hráčově hlavě. Stačilo napsat „Před tebou stojí drak.“ a každý si ho představil po svém. Na kreslení nebylo potřeba ani kousek paměti navíc.\n\nOndřej a já jsme v šestnácti napsali hru o záhadném hradu, ze kterého se nedalo dostat ven. Žádné vývojové nástroje jsme neměli, jen počítač připojený k televizi a sešit, do kterého jsme si kreslili plán hradu. Celý náš vývojový tým tvořili dva kluci, jeden sešit a spousta trpělivosti. Hru jsme pak nahrávali na kazety a rozdávali kamarádům.\n\nBrzy se ukázalo, že jsme ji udělali příliš těžkou. Kamarádi nás zastavovali na chodbě a ptali se, jak projít záhadnými dveřmi ve třetím patře. O pár let později začaly vycházet časopisy o počítačových hrách a v každém z nich byla poradna. Čtenáři do poradny psali, kde se v nějaké hře zasekli, a redakce jim radila. Jednou se v poradně objevil dopis o naší hře. Byli jsme na to pyšní víc než na cokoli jiného.\n\nNa křtu jsme si to s Ondřejem připomněli. Kniha popisuje desítky takových her a jejich autorů. Mnozí z nich dnes pracují jako programátoři, někteří vedou velká vývojová studia. Na konci večera Ondřej vytáhl starý počítač a pustil naši hru. Lidé se kolem něj seběhli a zkoušeli psát příkazy. Z hradu se nikdo nedostal.\n\n„Měli jsme do té knihy dát i poradnu,“ řekl jsem mu.\n\nZasmál se a podal mi knihu s věnováním. Pak se otočil k dalším hostům, kteří chtěli podpis.\n\nOtázky:\nKde byl Radek minulý čtvrtek?\nByl v malém klubu na Smíchově na křtu knihy o českých textových hrách.\nProč byly hry v osmdesátých letech textové?\nProtože domácí počítače měly tak malou paměť, že se do nich obrázky skoro nevešly.\nJak se textová hra hrála?\nNa obrazovce se objevila věta, hráč napsal, co chce udělat, a počítač odpověděl další větou.\nProč se fantasy k textovým hrám hodila?\nProtože všechno se odehrávalo v hráčově hlavě a každý si draka představil po svém.\nCo měli Radek a Ondřej, když psali svou hru?\nNeměli žádné vývojové nástroje, jen počítač připojený k televizi a sešit s plánem hradu.\nCo se jednou objevilo v poradně časopisu?\nObjevil se tam dopis o jejich hře se záhadným hradem."
+    }
+  ]
+}
