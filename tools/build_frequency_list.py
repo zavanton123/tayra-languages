@@ -135,7 +135,7 @@ SIMPLEMMA_CODES = {"hr": "hbs", "sr": "hbs", "no": "nb"}
 WORD_POS = {"noun", "adj", "verb", "adv", "pron", "prep", "num", "conj", "det", "article", "intj", "contraction", "particle", "adnominal"}
 
 # Per-language corrections, reviewed by hand.
-from frequency_fixes import DISPLAY, EXCLUDE, KOREAN_CUT, KOREAN_STEMS, KOREAN_WHOLE, OVERRIDES  # noqa: E402
+from frequency_fixes import DISPLAY, EXCLUDE, KOREAN_APART, KOREAN_CUT, KOREAN_STEMS, KOREAN_WHOLE, OVERRIDES  # noqa: E402
 
 # How common another word must be, against the form itself, to take a form that is also a word:
 # a more common word ("era" to "ser"), or a less common one of a kind that inflects for
@@ -1195,6 +1195,12 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None):
             f for f in found if -KOREAN_LOOKALIKE * f[1] >= count(form) and any(form == f[2][:-1] + e for e in KOREAN_PLAIN_ENDINGS)
             or f[2].endswith("하다") and form[len(f[2]) - 2:len(f[2]) - 1] in KOREAN_HADA]
         if not found:
+            # A verb of a noun and 하다 the pack lacks is the noun's (출시했어요 of 출시), as one it has may be (운동하다).
+            for lemma, _ in korean_dictionary_forms(form):
+                noun = lemma[:-2]
+                if lemma.endswith("하다") and len(noun) > 1 and lemma not in pos and lemma not in KOREAN_APART and is_word(noun) \
+                        and "noun" in pos[noun] and form.startswith(noun) and form[len(noun):len(noun) + 1] in KOREAN_HADA:
+                    return noun
             # Spoken endings the rules lack: 있잖아 "you know, there is" of 있다.
             stem = next((form[:-len(ending)] for ending in KOREAN_SPOKEN_ENDINGS if form.endswith(ending) and len(form) > len(ending)), None)
             if stem and stem + "다" in common and pos.get(stem + "다", set()) & {"verb", "adj"}:
@@ -1270,6 +1276,11 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None):
         elif language == "ko" and form.endswith("게") and "adv" in pos.get(form, set()) and is_word(form[:-1] + "다") and pos[form[:-1] + "다"] & {"verb", "adj"}:
             # An adverb in -게 is its adjective's form (짧게 of 짧다, 크게 of 크다); the pro-forms (어떻게, 그렇게) are overrides.
             return {form[:-1] + "다": 1.0}
+        elif language == "ko" and (noun := korean_hada_noun(form)):
+            # A verb or adjective of a noun and 하다 (운동하다, 요리하다) is the noun's where the noun is the commoner:
+            # a reader who knows 운동 reads 운동해요. KOREAN_APART keeps those whose noun means another thing (이상하다).
+            merged[noun] = form
+            return {noun: 1.0}
         elif language == "ko" and form.endswith("다") and is_word(form) and pos[form] & {"verb", "adj"} and not any(
                 steps and korean_stem_of(lemma, form) and lemma in lemmas.get(form, []) for lemma, steps in korean_dictionary_forms(form)):
             # A dictionary form is no form of another word, as the pack has some (들다 of 먹다, 다르다 of 다른),
@@ -1360,6 +1371,17 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None):
         whole = sum(weights.values())
         return {l: w / whole for l, w in weights.items()}
 
+    merged = {}
+
+    def korean_hada_noun(form):
+        noun = form[:-2]
+        if not form.endswith("하다") or len(noun) < 2 or form in KOREAN_APART or not is_word(form) or not pos[form] & {"verb", "adj"}:
+            return None
+        # The noun must keep its count, not be sent to a verb whose form it spells (보고 of 보다, 작고 of 작다).
+        if not is_word(noun) or "noun" not in pos[noun] or overrides.get(noun, [noun]) != [noun] or noun in verbal_nouns:
+            return None
+        return noun if weight(noun) >= weight(form) else None
+
     resolved = {}
 
     def targets_of(form, depth=0):
@@ -1409,6 +1431,9 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None):
             # A kanji spelling reached through a kana word read alike (枯れる through かれる to 狩る, 湧く through
             # わく to 分ける) is another word: a kanji word's forms share a kanji with it.
             counted = [f for f in counted if not any(is_cjk(c) and not is_kana(c) for c in f) or set(f) & set(word)]
+        if word in merged and merged[word] not in counted:
+            # The verb in 하다 sent to its noun, which texts seldom write in its dictionary form, is listed for the reader to find.
+            counted.append(merged[word])
         if word == "이다" and language == "ko":
             # The reader reads the copula's 면 (정도 + 면) as 이다's, which the list counts as 이면, and cuts every
             # form of the copula it knows, however seldom (사람이었기), as a word of the list.

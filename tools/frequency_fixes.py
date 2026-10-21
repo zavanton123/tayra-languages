@@ -1557,3 +1557,11 @@ OVERRIDES["ko"].update({"너냐": ["너"], "안나": []})
 # 서 (서 있어요, 거기 서) and 기어 (기어 가다) alone are 서다's and 기다's far more than "west" and "marlin";
 # the builder's test for nouns spelled as a verb's form misses them (서로 and 기어이 look like 서, 기어 with a particle).
 OVERRIDES["ko"].update({"서": ["서다"], "기어": ["기다"]})
+# Verbs in 하다 kept apart from their noun, which means another thing (이상하다 "strange", 이상 "above"; 시장하다
+# "hungry", 시장 "market"; 불구하고 "despite").
+KOREAN_APART = {
+    "이상하다", "불구하다", "시장하다", "사고하다", "부인하다", "일정하다", "부상하다", "정당하다", "요원하다", "교사하다", "자세하다",
+    "유리하다", "가정하다", "운명하다", "매장하다", "고대하다", "비상하다", "주체하다", "기구하다", "소원하다", "불길하다", "재고하다",
+    "무력하다", "가세하다", "광대하다", "사양하다", "행사하다", "방한하다", "치열하다", "시사하다", "시인하다", "유도하다", "유치하다",
+    "동경하다", "대두하다", "동사하다",
+}
