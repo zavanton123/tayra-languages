@@ -3,7 +3,8 @@
 Builds a word frequency list for the app: the most common words of a language, as dictionary
 words ("dizer"), each with the forms counted for it ("diz", "disse", ...).
 
-Word counts come from the first source that has the language:
+Word counts come from the first source that has the language (for Korean, the second and third
+blended, counted as whole words that are cut into a word and its particles as the reader cuts them):
 
   1. wordfreq (pip install wordfreq), a blend of subtitles, Wikipedia, books, news and web text
   2. FrequencyWords (hermitdave/FrequencyWords), counts from OpenSubtitles 2018
@@ -33,6 +34,8 @@ Usage: python3 tools/build_frequency_list.py --language pt|all [--source wordfre
 import argparse
 import html
 import io
+import json
+import math
 import re
 import os
 import sqlite3
@@ -89,6 +92,7 @@ FALLBACKS = {
     "sq": {"leipzig": ["sqi_news_2020_1M", "sqi_wikipedia_2021_300K"]},
     "eu": {"leipzig": ["eus_wikipedia_2021_300K", "eus_news_2020_30K"]},
     "eo": {"leipzig": ["epo_newscrawl_2017_1M", "epo_wikipedia_2021_300K"]},
+    "ko": {"leipzig": ["kor_news_2020_1M"]},
 }
 
 # Languages written without spaces: a corpus's runs of letters are cut into words as the app's
@@ -96,6 +100,12 @@ FALLBACKS = {
 SEGMENTED = {"zh", "yue", "ja", "th", "lo", "km"}
 # Of these, the ones whose letters no word covers make one word together, as in the app.
 JOIN_UNKNOWN = {"th", "lo", "km"}
+
+# Korean is counted from whole space-separated words, cut into a word and its particles as the reader
+# cuts them (korean_pieces); wordfreq's Korean is counted in morpheme pieces, which no reader shows.
+SOURCE_ORDER = {"ko": ["frequencywords", "leipzig"]}
+# Languages whose sources are all blended, however many forms the first has.
+BLEND = {"ko"}
 
 # The gloss language of the pack whose forms group a language's words, where English's is small.
 DICTIONARY_TARGETS = {"br": "fr"}
@@ -125,7 +135,7 @@ SIMPLEMMA_CODES = {"hr": "hbs", "sr": "hbs", "no": "nb"}
 WORD_POS = {"noun", "adj", "verb", "adv", "pron", "prep", "num", "conj", "det", "article", "intj", "contraction", "particle", "adnominal"}
 
 # Per-language corrections, reviewed by hand.
-from frequency_fixes import DISPLAY, EXCLUDE, OVERRIDES  # noqa: E402
+from frequency_fixes import DISPLAY, EXCLUDE, KOREAN_CUT, KOREAN_WHOLE, OVERRIDES  # noqa: E402
 
 # How common another word must be, against the form itself, to take a form that is also a word:
 # a more common word ("era" to "ser"), or a less common one of a kind that inflects for
@@ -226,6 +236,151 @@ def kanji_stem(word):
     """The word without the hiragana that end it (食べる → 食, 出し → 出), or empty for a word of kana alone."""
     stem = word.rstrip("".join(chr(c) for c in range(0x3041, 0x3097)))
     return stem if any(is_cjk(c) and not "\u3040" <= c <= "\u30ff" for c in stem) else ""
+
+
+# Korean particles, as the reader cuts them off a word (KoreanParser.kt in core/domain/.../parse; keep
+# the two the same): each with the sound it follows, "C" a final consonant, "V" a vowel, "R" a vowel or
+# ㄹ, "K" a consonant but ㄹ, "" any, and its place in a stack (집에도 is 집 + 에 + 도): the plural 들
+# first, then particles of place, manner and company (two may stack: 에서부터), then 도, 은/는 and their
+# kind, then the case endings 이/가, 을/를, 의.
+KOREAN_PARTICLES = [
+    ("들", "", 0),
+    ("에", "", 1), ("에서", "", 1), ("에게", "", 1), ("에게서", "", 1), ("한테", "", 1), ("한테서", "", 1),
+    ("께", "", 1), ("께서", "", 1), ("로", "R", 1), ("으로", "K", 1), ("로서", "R", 1), ("으로서", "K", 1),
+    ("로써", "R", 1), ("으로써", "K", 1), ("와", "V", 1), ("과", "C", 1), ("하고", "", 1), ("랑", "V", 1),
+    ("이랑", "C", 1), ("처럼", "", 1), ("보다", "", 1), ("까지", "", 1), ("부터", "", 1), ("마다", "", 1),
+    ("만큼", "", 1), ("대로", "", 1), ("만", "", 1), ("밖에", "", 1), ("뿐", "", 1), ("조차", "", 1), ("마저", "", 1),
+    ("도", "", 2), ("은", "C", 2), ("는", "V", 2), ("이나", "C", 2), ("나", "V", 2), ("이라도", "C", 2), ("라도", "V", 2),
+    ("이든", "C", 2), ("든", "V", 2), ("이든지", "C", 2), ("든지", "V", 2),
+    ("이", "C", 3), ("가", "V", 3), ("을", "C", 3), ("를", "V", 3), ("의", "", 3),
+]
+# The copula 이다 after a noun (학생이에요, 의사예요), last in a stack and after no particle but those of
+# place and manner (때문이에요, 뿐이에요). After a vowel its 이 may drop (의사였어요), not in the forms
+# that would read as another word (다, 고, 면).
+KOREAN_COPULA = [(form, "") for form in (
+    "이다", "입니다", "입니까", "이었다", "이었어", "이었어요", "이었습니다", "이었던", "이고", "이지만", "이라고", "이라서",
+    "이라면", "이라는", "이란", "인데", "인데요", "인지", "인가", "인가요", "일까", "일까요", "이죠", "이지", "이지요", "이니까",
+    "이네요", "이며", "인",
+)] + [("이에요", "C"), ("이야", "C")] + [(form, "V") for form in (
+    "예요", "야", "였다", "였어", "였어요", "였습니다", "였던", "지만", "라고", "라서", "라면", "라는", "란", "죠", "니까", "네요",
+)]
+# The polite 요, after a particle only (학교에서요): after a verb it is part of the verb (먹었어요).
+KOREAN_POLITE = "요"
+KOREAN_STACK = 4
+# 가 does not follow these: before it they are 내, 제 (내가), so 나가 is a form of 나가다.
+KOREAN_NOT_BEFORE_GA = {"나", "저"}
+# Nor does the copula follow 아니, being 아니다's own: 아니라고 is a form of 아니다.
+KOREAN_NOT_BEFORE_COPULA = {"아니"}
+# As SegmentingParser weighs Chinese words: a piece costs the log of its frequency rank plus this; a
+# word the lexicon has without a rank counts as rank KOREAN_UNRANKED.
+KOREAN_WORD_COST = 4.0
+KOREAN_UNRANKED = 50_000
+
+
+def korean_follows(previous, sound):
+    """Whether a particle that follows [sound] may come after the syllable [previous]."""
+    code = ord(previous) - 0xAC00
+    if not 0 <= code < 11172:
+        return False
+    final = code % 28
+    return sound == "" or {"C": final != 0, "V": final == 0, "R": final in (0, 8), "K": final not in (0, 8)}[sound]
+
+
+def korean_stacks(rest, stem):
+    """Every way [rest] is a stack of particles after [stem], each a list of pieces."""
+    out = []
+
+    def go(at, last, slot, pieces, place):
+        if at == len(rest):
+            out.append(pieces)
+            return
+        if len(pieces) == KOREAN_STACK:
+            return
+        if pieces and rest.endswith(KOREAN_POLITE) and at + len(KOREAN_POLITE) == len(rest):
+            out.append(pieces + [KOREAN_POLITE])
+        if slot <= 1 and (pieces or stem not in KOREAN_NOT_BEFORE_COPULA):
+            for form, sound in KOREAN_COPULA:
+                if rest.endswith(form) and at + len(form) == len(rest) and korean_follows(last, sound):
+                    out.append(pieces + [form])
+        for form, sound, next_slot in KOREAN_PARTICLES:
+            if not rest.startswith(form, at) or not korean_follows(last, sound):
+                continue
+            if form == "가" and not pieces and stem in KOREAN_NOT_BEFORE_GA:
+                continue
+            # Two particles of place and manner may stack (에서부터, 까지만); otherwise each comes later than the last.
+            if next_slot > slot or (next_slot == slot == 1 and place == 1):
+                go(at + len(form), form[-1], next_slot, pieces + [form], place + (next_slot == 1))
+
+    go(0, stem[-1], -1, [], 0)
+    return out
+
+
+def korean_stem_of(lemma, word):
+    """
+    Whether [lemma], a dictionary form, can be what [word] inflects: its stem begins the word, the
+    stem's last syllable in its first letter only (갔어요 of 가다, 몰라 of 모르다, 해 of 하다). The rules
+    also give words no reading would (다 of 학교에서).
+    """
+    stem = lemma[:-1]
+    if not lemma.endswith("다") or not stem or len(stem) > len(word):
+        return False
+    for i, (a, b) in enumerate(zip(stem, word)):
+        x, y = ord(a) - 0xAC00, ord(b) - 0xAC00
+        if not (0 <= x < 11172 and 0 <= y < 11172):
+            return False
+        if (x // 588 != y // 588) if i == len(stem) - 1 else (x // 28 != y // 28):
+            return False
+    # A stem in ㄹ takes no ending in 으 (길다: 길면, 긴, 길), which the rules allow: 길을 is 길 + 을.
+    after = ord(word[len(stem)]) - 0xAC00 if len(word) > len(stem) else -1
+    return not ((ord(stem[-1]) - 0xAC00) % 28 == 8 and 0 <= after < 11172 and after // 28 == 11 * 21 + 18)
+
+
+# Endings of spoken Korean that Yomitan's rules do not undo, longest first.
+KOREAN_SPOKEN_ENDINGS = ["잖습니까", "잖아요", "잖니", "잖아"]
+
+# How the dictionary glosses a word written with its particle.
+KOREAN_FUSED = re.compile(r"(topic-marked form of|allomorph of .* before -가)")
+
+# The particles the list counts as words of their own, the dictionary having them only as affixes
+# ("-에서"); the copula's forms are counted for 이다. 하고 "with" is a form of 하다 too, which it goes to.
+KOREAN_OWN = {form for form, _, _ in KOREAN_PARTICLES} - {"하고"} | {KOREAN_POLITE}
+KOREAN_COPULA_FORMS = {form for form, _ in KOREAN_COPULA}
+
+_korean_inflections = {}
+
+
+def korean_dictionary_forms(word, bare=True):
+    """
+    The dictionary forms Yomitan's rules give for [word], nearest first, with how many rules each took;
+    without [bare], not those that only take the word for a bare stem (사과 of 사과다).
+    """
+    if word not in _korean_inflections:
+        from korean_inflection import dictionary_forms
+        _korean_inflections[word] = [(lemma, len(trace), trace != ("어간",)) for lemma, trace in dictionary_forms(word)]
+    return [(lemma, steps) for lemma, steps, more in _korean_inflections[word] if bare or more]
+
+
+def korean_pieces(word, known, rank):
+    """
+    A Korean word cut as the reader cuts it: the word and the particles after it (친구가 is 친구 + 가), when
+    the word before them is one the lexicon [known] knows. Of the cuts and the word left whole, the one
+    whose pieces are together the most common wins, by the costs SegmentingParser gives Chinese words
+    ([rank] is a word's frequency rank): a word the frequency list has (나가, a form of 나가다; 사과) stays
+    whole, one it lacks is cut (나는 is 나 + 는, though the dictionary has it as a form of 날다).
+    """
+    best, cut = None, [word]
+    for end in range(len(word) - 1, 0, -1):
+        stem = word[:end]
+        if not known(stem):
+            continue
+        for stack in korean_stacks(word[end:], stem):
+            cost = sum(math.log(rank(piece) or KOREAN_UNRANKED) + KOREAN_WORD_COST for piece in [stem] + stack)
+            if best is None or cost < best:
+                best, cut = cost, [stem] + stack
+    if best is None:
+        return [word]
+    whole = rank(word) or (KOREAN_UNRANKED if known(word) else None)
+    return [word] if whole is not None and math.log(whole) + KOREAN_WORD_COST <= best else cut
 
 
 def is_wordlike(text):
@@ -461,9 +616,13 @@ def load_dictionary(language):
     # Words whose common-word entries are all capitalised ("China", the noun) are names too,
     # except the nouns of a language that capitalises them; those keep their capital ("Haus").
     common = {}
-    for word, word_lc, p in db.execute("SELECT word, word_lc, pos FROM entries"):
+    for word, word_lc, p, senses in db.execute("SELECT word, word_lc, pos, senses FROM entries"):
+        # Korean entries for a word with its particle (나는, "topic-marked form of 나"; 내가), which the reader cuts.
+        if language == "ko" and word_lc[-1:] in ("는", "은", "가") and all(
+                KOREAN_FUSED.match(gloss) for sense in json.loads(senses) for gloss in sense.get("glosses", [""])):
+            continue
         pos[word_lc].add(p)
-        if p not in WORD_POS:
+        if p not in WORD_POS and not (language == "ko" and p == "counter"):
             continue
         if word == word_lc:
             common[word_lc] = word_lc
@@ -581,7 +740,7 @@ def resegment(language, counts):
 
 
 def build(language, source, size):
-    order = [source] if source else ["wordfreq", "frequencywords", "leipzig", "wikipedia", "morphgnt"]
+    order = [source] if source else SOURCE_ORDER.get(language, ["wordfreq", "frequencywords", "leipzig", "wikipedia", "morphgnt"])
     found = []
     for name in order:
         result = SOURCES[name](language, 200_000)
@@ -589,10 +748,139 @@ def build(language, source, size):
             result = (resegment(language, result[0]), result[1])
         if result:
             found.append((name, *result))
-            if len(found) == 1 and len(result[0]) >= ENOUGH_FORMS:
+            if len(found) == 1 and len(result[0]) >= ENOUGH_FORMS and language not in BLEND:
                 break
     if not found:
         sys.exit(f"No frequency source has {language}")
+    if language == "ko":
+        return build_korean(found, size)
+    return build_list(language, found, size)
+
+
+# The reader cuts a Korean word by how common its pieces are, as the list it ships with ranks them, so
+# the Korean list is built again from cuts made with the last one's ranks until they no longer change
+# it, at most KOREAN_ROUNDS times.
+KOREAN_ROUNDS = 6
+KOREAN_LETTERS = re.compile("[\uac00-\ud7a3\u1100-\u11ff\u3130-\u318f]+")
+
+
+def list_ranks(text):
+    """The words of a built list, with their forms, and each one's rank, as LexiconService gives the reader them."""
+    words, ranks = set(), {}
+    rank = 0
+    for line in text.splitlines():
+        if line.startswith("#") or not line.strip():
+            continue
+        rank += 1
+        word, _, forms = line.partition("\t")
+        forms = [f for f in forms.split(" ") if f]
+        key = word.lower()
+        words.update(forms + [key])
+        for form in forms + [key]:
+            ranks.setdefault(form, rank)
+    return words, ranks
+
+
+# How much commoner a word must be than its beginning with any other particle to be read as a verb's form
+# that ends like a particle: 가는 (가다) is far commoner than 가에, 가를; 나는 is not than 나한테.
+KOREAN_VERB_MARGIN = 3.0
+
+
+def build_korean(found, size):
+    db = sqlite3.connect(os.path.join(DICTIONARIES, "ko-en.sqlite"))
+    # As the reader's lexicon has them with the pack installed (Dictionary.sq's selectWords).
+    pack = {w for (w,) in db.execute("SELECT word_lc FROM entries UNION SELECT form_lc FROM forms") if w and " " not in w}
+    verbs = {w for (w,) in db.execute("SELECT word_lc FROM entries WHERE pos IN ('verb', 'adj')")} - {"이다"}
+    lemmas = defaultdict(set)
+    for form, lemma in db.execute("SELECT form_lc, lemma FROM forms"):
+        if lemma in verbs:
+            lemmas[form].add(lemma)
+    share = defaultdict(float)
+    for _, counts, _ in found:
+        total = sum(counts.values())
+        for token, count in counts.items():
+            for run in KOREAN_LETTERS.findall(token):
+                share[run] += count / total / len(found)
+
+    def first_cut(run):
+        """The cut with the longest word the dictionary knows, before the list's ranks can choose among them."""
+        for end in range(len(run) - 1, 0, -1):
+            if run[:end] in pack:
+                stacks = korean_stacks(run[end:], run[:end])
+                if stacks:
+                    return run[:end], stacks[0]
+        return None
+
+    # A word that may be a verb's form or a noun with a particle (가는: 가다, or 가 + 는; 나는: 나다, or 나 + 는)
+    # is the verb's when it is KOREAN_VERB_MARGIN times as common as the noun with any other particle (one
+    # that makes no verb's form), as a noun takes many. These are kept whole when the first list is made;
+    # the list then has them as forms, by which the reader keeps them whole too. KOREAN_WHOLE and
+    # KOREAN_CUT correct it word by word.
+    entries = {w for (w,) in db.execute("SELECT word_lc FROM entries")}
+    cuttable = {run: cut for run in share if (cut := first_cut(run))}
+    with_particle = defaultdict(list)
+    particles = {form for form, _, _ in KOREAN_PARTICLES}
+    for run, (stem, stack) in cuttable.items():
+        if len(stack) == 1 and stack[0] in particles and run not in entries:
+            with_particle[stem].append((share[run], run))
+
+    def verbal(run):
+        """Whether [run] may be a verb's form: by the pack, or by Yomitan's rules past the bare stem, which any word is."""
+        return bool(lemmas.get(run)) or any(
+            lemma in verbs and steps and korean_stem_of(lemma, run) for lemma, steps in korean_dictionary_forms(run, bare=False))
+
+    def reads_as_verb(run, stem):
+        # 하고 after a noun that makes a verb with 하다 is that verb's (공부하고), not "with" (친구하고).
+        if run == stem + "하고" and stem + "하다" in verbs:
+            return True
+        if not verbal(run):
+            return False
+        rival = max((x for x, other in with_particle[stem] if other != run and not verbal(other)), default=0.0)
+        return share[run] >= KOREAN_VERB_MARGIN * rival
+
+    seeds = {run for run, (stem, _) in cuttable.items() if reads_as_verb(run, stem)}
+    seeds = (seeds | KOREAN_WHOLE) - KOREAN_CUT
+    # The first cut is by wordfreq's ranks, whose Korean is counted in pieces: particles and nouns, few verbs.
+    import wordfreq
+    frequencies = wordfreq.get_frequency_dict("ko", wordlist="best")
+    ranks = {w: i + 1 for i, w in enumerate(sorted(frequencies, key=lambda w: -frequencies[w]))}
+    # Only the seeds are left whole by rank: wordfreq has some words with a particle as one piece (나야).
+    for run in cuttable:
+        ranks.pop(run, None)
+    ranks.update({run: 1 for run in seeds})
+    # Nor does the first cut leave whole the others the dictionary has (나야, a form of 나다 to it).
+    lexicon = pack - (cuttable.keys() - seeds)
+    cuts = {}
+    text = label = None
+    for round_ in range(KOREAN_ROUNDS + 1):
+        known, rank = lexicon.__contains__, ranks.get
+        changed = 0.0
+        pieces = []
+        for name, counts, source_label in found:
+            out = defaultdict(int)
+            whole = sum(counts.values())
+            for token, count in counts.items():
+                for run in KOREAN_LETTERS.findall(token):
+                    cut = korean_pieces(run, known, rank)
+                    if cuts.get(run, cut) != cut:
+                        changed += count / whole
+                    cuts[run] = cut
+                    for piece in cut:
+                        out[piece] += count
+            pieces.append((name, dict(out), source_label))
+        print(f"ko round {round_}: {changed / len(found):.2%} of words cut otherwise", file=sys.stderr)
+        if round_ and changed / len(found) < 0.0005 or round_ == KOREAN_ROUNDS:
+            break
+        # A word left whole that the reader could cut must be in the list for the reader to leave it whole.
+        whole_words = {run for run in cuttable if cuts.get(run) == [run]}
+        text, label = build_list("ko", pieces, size, required=whole_words)
+        words, ranks = list_ranks(text)
+        lexicon = pack | words
+    return text, label
+
+
+def build_list(language, found, size, required=frozenset()):
+    """The list from the sources' counts of the words as the reader cuts them."""
     # Each source's share of its own total, averaged; a form a source does not list counts as 0 there.
     freq = defaultdict(float)
     for _, counts, _ in found:
@@ -608,8 +896,26 @@ def build(language, source, size):
     guessed = {}
     lemmatizer = simplemma_for(language)
 
+    # How common a Korean word is with its forms that are no other word's: a verb's dictionary form is
+    # rare in text, so a form of several verbs (가는, of 가다 and 갈다) is shared by this.
+    mass = {}
+
+    def weight(word):
+        if language != "ko":
+            return count(word)
+        if not mass:
+            for form, share in freq.items():
+                mass[form] = mass.get(form, 0) + share
+                of = set(lemmas.get(form, [])) - {form}
+                if len(of) == 1 and not is_word(form):
+                    lemma = of.pop()
+                    mass[lemma] = mass.get(lemma, 0) + share
+        return mass.get(word, 0)
+
     def guess(form):
         """simplemma's word for a form the dictionary does not have, or None for a name or an unknown form."""
+        if language == "ko":
+            return korean_guess(form)
         if lemmatizer is None or len(form) < 2 or not is_wordlike(form) or not lemmatizer.is_known(form):
             return None
         # Web text in every language is full of English, and simplemma knows English loanwords.
@@ -622,6 +928,23 @@ def build(language, source, size):
         guessed.setdefault(key, lemma)
         return key
 
+    def korean_guess(form):
+        """The verb or adjective a Korean form the dictionary lacks inflects, by Yomitan's rules: the nearest, then the commonest."""
+        found = [(steps, -weight(lemma), lemma) for lemma, steps in korean_dictionary_forms(form)
+                 if korean_stem_of(lemma, form) and pos.get(lemma, set()) & {"verb", "adj"} and lemma in common and lemma not in excluded
+                 and weight(lemma) >= count(form)]
+        if not found:
+            # Spoken endings the rules lack: 있잖아 "you know, there is" of 있다.
+            stem = next((form[:-len(ending)] for ending in KOREAN_SPOKEN_ENDINGS if form.endswith(ending) and len(form) > len(ending)), None)
+            if stem and stem + "다" in common and pos.get(stem + "다", set()) & {"verb", "adj"}:
+                return stem + "다"
+            # The polite 요 after an ending the rules know without it (같네요, 있나요, 할게요).
+            if form.endswith(KOREAN_POLITE) and len(form) > 2:
+                base = form[:-1]
+                verbs = [l for l in lemmas.get(base, []) if pos.get(l, set()) & {"verb", "adj"} and l in common]
+                return max(verbs, key=weight) if verbs else korean_guess(base)
+        return min(found)[2] if found else None
+
     def is_word(w):
         # Chinese and Japanese text quotes Latin words, and Wikipedia's leaves markup; the dictionaries have some.
         if language in CJK and not any(is_cjk(c) for c in w):
@@ -632,11 +955,15 @@ def build(language, source, size):
         # counts on its own, as jieba cuts text, is a word (的, 是, 吃).
         if language in ("zh", "yue") and len(w) == 1 and "character" in pos.get(w, set()):
             return w not in excluded
-        kinds = pos.get(w, set()) & WORD_POS
+        # Korean counts with counters, words of their own (세 마리, three animals).
+        kinds = pos.get(w, set()) & (WORD_POS | ({"counter"} if language == "ko" else set()))
         if not kinds or w not in common or w in excluded:
             return False
+        # Korean has words written with Chinese characters too (眞짜 for 진짜), which texts write in Hangul.
+        if language == "ko" and not KOREAN_LETTERS.fullmatch(w):
+            return False
         # Single letters are kept only as the little words they can be ("a", "e", "o").
-        return len(w) > 1 or language == "ja" or bool(kinds & {"prep", "conj", "article", "pron", "det"})
+        return len(w) > 1 or language in ("ja", "ko") or bool(kinds & {"prep", "conj", "article", "pron", "det"})
 
     try:
         from wordfreq import word_frequency
@@ -665,9 +992,18 @@ def build(language, source, size):
             others = overrides[form]
             if others == [form]:
                 return {form: 1.0}
+        elif language == "ko" and form in KOREAN_OWN:
+            return {form: 1.0}
+        elif language == "ko" and form in KOREAN_COPULA_FORMS:
+            return {"이다": 1.0}
+        elif language == "ko" and form.endswith("다") and is_word(form) and pos[form] & {"verb", "adj"} and not any(
+                steps and korean_stem_of(lemma, form) and lemma in lemmas.get(form, []) for lemma, steps in korean_dictionary_forms(form)):
+            # A dictionary form is no form of another word, as the pack has some (들다 of 먹다, 다르다 of 다른),
+            # unless it inflects it (없었다 of 없다).
+            return {form: 1.0}
         else:
             # A simplified character (说) is no word in the dictionary but a form of its traditional one (說).
-            if len(form) == 1 and not is_word(form) and language not in ("zh", "yue"):
+            if len(form) == 1 and not is_word(form) and language not in ("zh", "yue", "ko"):
                 return {}
             known = [s for s in spellings(form) if s in lemmas or s in pos]
             if not known and language == "ja" and len(form) > 1:
@@ -711,17 +1047,25 @@ def build(language, source, size):
         # Japanese files a set phrase under its variants (ありがとう under ありがと), so there it counts for itself.
         elif is_word(form) and form not in overrides and not (others and pos[form] & WORD_POS <= {"intj"} and language != "ja"):
             # A form that is a word itself keeps its count ("casa", not "casar") unless [TAKEOVER] says otherwise.
+            # Korean's forms tables are full of nouns spelled as some verb's form (사실 of 사다, 우려 of 우리다),
+            # so there a word keeps its count, and the few that are a verb's form are overrides (해 of 하다).
+            if language == "ko" and not pos[form] & {"verb", "adj"}:
+                return {form: 1.0}
             inflected = bool(pos[form] & INFLECTED_KINDS)
-            mine = count(form)
+            mine = weight(form)
             others = [
                 l for l in others
-                if count(l) >= TAKEOVER * mine or (inflected and pos[l] & INFLECTED_KINDS and count(l) >= INFLECTED_TAKEOVER * mine)
+                if weight(l) >= TAKEOVER * mine or (inflected and pos[l] & INFLECTED_KINDS and weight(l) >= INFLECTED_TAKEOVER * mine)
             ]
             if not others:
                 return {form: 1.0}
+        if language == "ko" and form not in overrides:
+            # A Korean form goes only to words at least as common as it with their forms: the pack and the
+            # rules also tie forms to rare verbs that only look alike (미니, a name, to 미다).
+            others = [l for l in others if weight(l) >= count(form)]
         if not others:
             return {form: 1.0} if form in JA_ORPHANS else {}
-        weights = {l: count(l) or 1e-12 for l in others}
+        weights = {l: weight(l) or 1e-12 for l in others}
         whole = sum(weights.values())
         return {l: w / whole for l, w in weights.items()}
 
@@ -756,7 +1100,8 @@ def build(language, source, size):
     ranked = sorted(scores, key=lambda w: -scores[w])[:size]
     lines = [f"# source: {label}", f"# words: {len(ranked)}"]
     for word in ranked:
-        counted = sorted(forms[word], key=lambda f: -forms[word][f])[:FORMS_PER_WORD]
+        counted = sorted(forms[word], key=lambda f: -forms[word][f])
+        counted = counted[:FORMS_PER_WORD] + [f for f in counted[FORMS_PER_WORD:] if f in required]
         if language == "sr":
             # The counts are of Latin-script text; Serbian is read in Cyrillic too.
             counted = list(dict.fromkeys(counted + [to_serbian_cyrillic(f) for f in counted]))

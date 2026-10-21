@@ -1448,3 +1448,51 @@ OVERRIDES["ja"].update({
 # Transitive verbs the dictionary files under their intransitive partner (入れる "put in" under 入る "enter").
 OVERRIDES["ja"].update({w: [w] for w in ("入れる", "開ける", "届ける")})
 OVERRIDES["ja"].update({"入れ": ["入れる"], "開け": ["開ける"], "届け": ["届ける"], "あけ": ["開ける"], "あける": ["開ける"]})
+
+# Korean: 거 ("thing", 것 as spoken) is in the pack only as a Chinese character's reading, and its
+# contractions with a particle (게 of 거 + 이, 건, 걸) are written as one; 해, 볼, 갈 and 알 are verb forms
+# the pack files as nouns ("the sun", "cheek"); 여기서 and 내게 are 여기 and 나 contracted with a particle.
+OVERRIDES["ko"] = {
+    "거": ["거"], "게": ["거"], "걸": ["거"], "건": ["거"], "거야": ["거"], "겁니다": ["거"],
+    "해": ["하다"], "하지": ["하다"], "하지만": ["하지만"], "그렇지": ["그렇다"], "아니라": ["아니다"],
+    "아니": ["아니"], "아냐": ["아니다"], "아뇨": ["아뇨"], "말야": ["말"],
+    "마": ["말다"], "마요": ["말다"], "마세요": ["말다"], "마라": ["말다"], "맘": ["마음"],
+    "여기서": ["여기"], "여긴": ["여기"], "여길": ["여기"], "여기요": ["여기"], "거기서": ["거기"], "저기서": ["저기"], "어디서": ["어디"],
+    "내게": ["나"], "네게": ["너"], "볼": ["보다"], "갈": ["가다"], "알": ["알다"], "살": ["살다", "살"],
+    "다시는": ["다시"], "다신": ["다시"],
+    # 뭐 "what" (무엇 as spoken) is not in the pack; contractions of a pronoun with 는 or 를 (넌, 그걸) go to it.
+    "뭐": ["뭐"], "뭔가": ["뭔가"], "뭔데": ["뭐"], "뭔지": ["뭐"], "누군지": ["누구"],
+    "넌": ["너"], "그건": ["그것"], "그걸": ["그것"], "이건": ["이것"], "이걸": ["이것"], "저건": ["저것"], "저걸": ["저것"],
+    "자넨": ["자네"], "얘길": ["이야기"], "제게": ["저"], "거요": ["거"], "거고": ["거"], "거잖아": ["거"],
+    "할": ["하다"], "큰": ["크다"], "보고": ["보다"], "본": ["보다"], "가지고": ["가지다"], "좋아요": ["좋다"], "널": ["너"],
+    "여사": ["여사"], "건데": ["거"], "건가": ["거"], "건가요": ["거"], "건지": ["거"], "거라": ["거"], "겁니까": ["거"], "거다": ["거"],
+    "해도": ["하다"], "해서": ["하다"], "작은": ["작다"], "가요": ["가다"], "그치": ["그렇다"], "왜요": ["왜"],
+    "니가": ["너"], "우릴": ["우리"], "우리요": ["우리"], "우리네": ["우리"], "데는": ["데"], "데서": ["데"],
+    "마시고": ["마시다"], "마담": ["마담"], "비리": ["비리"], "외신": ["외신"], "외세": ["외세"],
+    # Words with a particle the pack has as rare words of their own (나랑, an old word for "country"),
+    # which the reader so leaves whole: they count for the word and the particle.
+    "나랑": ["나", "랑"], "아이들": ["아이", "들"], "너희들": ["너희", "들"], "모두들": ["모두", "들"],
+    "아녜요": ["아니다"], "그럼요": ["그럼"], "저기요": ["저기"], "제발요": ["제발"], "갖고": ["가지다"], "텐데": ["터"], "테니": ["터"],
+    # The copula after a quotation, which news text writes apart from it ("…"이라며).
+    "며": ["이다"], "라며": ["이다"], "이라며": ["이다"], "면서": ["이다"], "이면서": ["이다"],
+}
+
+# Korean words that are a verb's form, or a word with a particle, against what the builder's counts say
+# (build_korean): the list then has the first as forms, by which the reader keeps them whole. The pack
+# and Yomitan's rules read some nouns with 을 as a verb's (짓을 of 짓다, whose form is 지을).
+KOREAN_WHOLE = set()
+KOREAN_CUT = {
+    "짓을", "짓이", "짓은", "짓도", "남의", "적이", "적을", "이를", "길을", "거라고", "거라", "거라면", "거란", "거니까",
+    "나랑", "애가", "아이가", "삶을", "삶은", "숨을", "약을", "불을", "불이", "신의", "신이", "신은", "신도", "집은", "물은",
+    "차는", "배는", "개는", "양이", "양은", "목이", "골을", "빚을", "이거야", "미소를", "측은", "사의",
+}
+# Rare verbs whose forms in the pack spell names and loanwords (미니, 메리, 조니), and 긷다, whose forms are
+# 길다's: their forms go nowhere, or to the word they are.
+EXCLUDE.setdefault("ko", set()).update({
+    "인하대", "닉다", "시읏", "순천", "미다", "베다", "매다", "메다", "헤다", "에다", "재다", "긷다", "디다", "갉다", "모드다", "여의다",
+})
+OVERRIDES["ko"].update({
+    "길은": ["길다"], "길어": ["길다"], "길어요": ["길다"], "길었던": ["길다"], "길어야": ["길다"], "길어서": ["길다"],
+    "길었다": ["길다"], "길었지": ["길다"], "더는": ["더"], "버니": [], "버락": [], "번가": [], "불신": ["불신"],
+    "부실": ["부실"], "분담": ["분담"], "감자": ["감자"], "감면": ["감면"], "때면": ["때"], "땐": ["때"], "땜": ["때문"], "배려": ["배려"], "조니": [], "조이": [],
+})
