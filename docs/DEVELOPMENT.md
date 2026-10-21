@@ -346,10 +346,17 @@ engine has no voice for the language or fails.
   (`ManagedPython`, shared with Argos) through `tts_worker.py`, with the pip packages
   `piper-tts`, `kokoro-onnx` and `soundfile`. Piper voices come from the rhasspy/piper-voices
   catalog (`PiperCatalog`); Kokoro's model and voices from the kokoro-onnx release files.
+  Kokoro reads most languages with kokoro-onnx's eSpeak, but Chinese and Japanese with misaki's
+  readers, which its voices were trained on (`misaki`, `jieba`, `pypinyin`, `cn2an`, `fugashi`,
+  `unidic-lite` and a few small helpers, about 74 MB), passed to kokoro-onnx as phonemes. The
+  worker's status lists the readers that fail to load, and the engine is not ready while any
+  does, so an installation made before they were added offers Install again, which adds them.
 - Android and iOS: `SherpaPiperEngine` and `SherpaKokoroEngine` (core/data commonMain) run in
   sherpa-onnx through a `SherpaRuntime`. Models are the `.tar.bz2` archives of the sherpa-onnx
   `tts-models` release; the list of packaged Piper voices is generated into
-  `SherpaPiperVoices.kt` by `tools/generate_sherpa_voices.py`.
+  `SherpaPiperVoices.kt` by `tools/generate_sherpa_voices.py`. Kokoro there reads Chinese with
+  the model's Chinese lexicon and number rules and the rest with eSpeak; Japanese is left out,
+  as sherpa-onnx has no Japanese reader for it.
   - Android: `AndroidSherpaRuntime` uses sherpa-onnx's Java API, whose library is resolved from
     its GitHub release through an Ivy repository in `settings.gradle.kts`.
   - iOS: `IosSherpaRuntime` (shared iosMain) calls the Kotlin interface `OnDeviceSpeechBridge`,
@@ -357,7 +364,9 @@ engine has no voice for the language or fails.
     uses the C API of the prebuilt `SherpaOnnxC.framework` (fetched by `iosApp/SherpaOnnxC.podspec`)
     and the system bzip2 through the bridging header. `SherpaSpeech.swift` has no dependency on
     the app, so it can be compiled against sherpa-onnx's macOS library and run on a Mac.
-- Web binds no local engines; kokoro-js exists for the browser, should one be added.
+- Web: `WebPiperEngine` and `WebKokoroEngine` (core/data wasmJsMain) run Piper and kokoro-js
+  in the browser. Kokoro's voices other than English get eSpeak phonemes from a piper-phonemize
+  wasm build; Chinese and Japanese are left out, as misaki's readers do not run there.
 
 Recorded words come before any engine in the term pane: `WordRecordings` asks
 `CommonsRecordingSource` for files on Wikimedia Commons the way Yomitan's audio sources do, Lingua

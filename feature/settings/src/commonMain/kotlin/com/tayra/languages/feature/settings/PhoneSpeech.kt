@@ -3,6 +3,8 @@ package com.tayra.languages.feature.settings
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.ExperimentalLayoutApi
+import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -228,6 +230,7 @@ private fun PlaySample(viewModel: SpeechViewModel, language: LanguageOption?) {
 }
 
 /** One download holding the model and every voice, as Kokoro has. */
+@OptIn(ExperimentalLayoutApi::class)
 @Composable
 private fun PhoneModelCard(viewModel: SpeechViewModel, engine: LocalSpeechEngine, pkg: SpeechPackage) {
     val packageBusy by viewModel.packageBusy.collectAsStateWithLifecycle()
@@ -242,8 +245,8 @@ private fun PhoneModelCard(viewModel: SpeechViewModel, engine: LocalSpeechEngine
             color = colors.onSurfaceVariant,
         )
         Spacer(Modifier.height(AppSpacing.m))
-        Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
-            pkg.group.split(", ").filter { it.isNotBlank() }.take(6).forEach { name -> CodeTile(LanguageCodes.codeFor(name) ?: name.take(2), size = 34) }
+        FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.s), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
+            pkg.group.split(", ").filter { it.isNotBlank() }.forEach { name -> CodeTile(LanguageCodes.codeFor(name) ?: name.take(2), size = 34) }
         }
         if (busy) AppProgressBar(null, Modifier.padding(top = AppSpacing.m))
         Spacer(Modifier.height(AppSpacing.l))
