@@ -717,6 +717,73 @@ def turkish_tokens(text):
     return [turkish_lower(re.split(r"['’]", match.group(0))[0]) for match in WORD.finditer(text)]
 
 
+# Regular Turkish endings the list's forms run out on: the copula and personal endings on any word
+# (evdeydi, masaydı, yıldır, telefondaydım), and a verb's -me/-dik/-ecek nouns and converbs with their
+# possessive and case (görmesini, yaşadığını, olacağını, çalıştıktan, görmeden).
+TR_COPULA = re.compile(r"(?:y?ken|y?[dt][ıiuü](?:m|n|k|nız|niz|nuz|nüz|lar|ler)?|y?m[ıiuü]ş(?:[ıiuü]m|s[ıiuü]n|[ıiuü]z|l[ae]r)?|[dt][ıiuü]r|y?s[ae]|y?[ıiuü]m|y?[ıiuü]z|s[ıiuü]n(?:[ıiuü]z)?)$")
+TR_VERBAL = re.compile(
+    # -me nouns with plural, possessive and case (görmesini, yapmalarını, harcamamız)
+    r"(?:m[ae](?:l[ae]r)?(?:s?[ıiuü]|[ıiuü]m|[ıiuü]n|[ıiuü]m[ıiuü]z|[ıiuü]n[ıiuü]z|l[ae]r[ıiuü])?(?:n?[ıiuü]|n?[ae]|n?d[ae]|n?d[ae]n|yl[ae]|y[ıiuü]|y[ae])?"
+    # -dik and -ecek participles with plural, possessive and case (yaşadığını, istediklerini, gittiğimde, edeceklerine)
+    r"|(?:[dt][ıiuü][kğ]|y?[ae]c[ae][kğ])(?:l[ae]r)?(?:[ıiuü](?:m|n|m[ıiuü]z|n[ıiuü]z)?|l[ae]r[ıiuü])?(?:n?[ıiuü]|n?[ae]|n?d[ae]|n?d[ae]n)?"
+    # -en participles (çalışanın, çalışanlarını) and converbs (çalıştıktan, görmeden, -erek, -ince, -ip)
+    r"|y?[ae]n(?:l[ae]r)?(?:[ıiuü]|l[ae]r[ıiuü])?(?:n?[ıiuü]|n?[ae]|n?d[ae]|n?d[ae]n|[ıiuü]n)?"
+    r"|[dt][ıiuü]k[dt][ae]n|m[ae]d[ae]n|y?[ae]r[ae]k|y?[ıiuü]nc[ae]|y?[ıiuü]p"
+    # conditional -se and aorist -erse (yıkarsak, temizlerlerse)
+    r"|(?:[ae]r|[ıiuü]r)?(?:l[ae]r)?s[ae](?:k|m|n|n[ıiuü]z)?)$")
+# -ebil- (yapabileceğini, yatabiliyordu) and the passive -il-/-n- (yapılıyor) before any of those, or a tense.
+TR_ABLE = re.compile(r"y?[ae]bil")
+TR_HARD = {"d": "t", "ğ": "k", "b": "p", "c": "ç"}
+# A noun's plural, possessive and case (kartınızla, komşularınızla, telefonundaki, dükkânlardaki).
+TR_NOMINAL = re.compile(r"(?:l[ae]r)?(?:[ıiuü]?m|[ıiuü]?n|s?[ıiuü]|[ıiuü]?m[ıiuü]z|[ıiuü]?n[ıiuü]z|l[ae]r[ıiuü])?"
+                        r"(?:n?[ıiuü]|n?[ae]|y[ıiuü]|y[ae]|n?d[ae]|n?d[ae]n|n?[dt][ae]ki|yl[ae]|l[ae]|n[ıiuü]n|[ıiuü]n)?$")
+TR_PASSIVE = re.compile(r"(?:[ıiuü]l|n)$")
+TR_TENSE = re.compile(r"(?:m?[ıiuü]?yor|[ae]r|[ıiuü]r|[dt][ıiuü]|m[ıiuü]ş|y?[ae]c[ae][kğ]|m[ae]l[ıi]|m[ae]z|m[ae])\w*$")
+
+
+def turkish_base(word, ranks):
+    """The list word a regularly suffixed Turkish word is a form of, or None."""
+    match = TR_COPULA.search(word)
+    if match and match.start() >= 3:
+        base = word[:match.start()]
+        if base in ranks:
+            return base
+        word = base
+    # The longest list noun the rest of the word is a plural, possessive and case ending of (omuzdaki is
+    # omuz + daki, not o + muzdaki); a two-letter noun (el, ev, su) only with an ending of three letters or more.
+    for end in range(len(word) - 1, 1, -1):
+        if end == 2 and len(word) < 5:
+            break
+        if not TR_NOMINAL.fullmatch(word, end):
+            continue
+        base = word[:end]
+        for noun in (base, base[:-1] + TR_HARD[base[-1]] if base[-1:] in TR_HARD else None):
+            if noun in ranks:
+                return noun
+    # A verb stem may be two letters (ol-, öl-): the verb itself must be a list word.
+    stems = []
+    match = TR_VERBAL.search(word)
+    if match and match.start() >= 2:
+        stems.append(word[:match.start()])
+    match = TR_ABLE.search(word, 2)
+    if match:
+        stems.append(word[:match.start()])
+    match = TR_TENSE.search(word, 2)
+    if match:
+        stems.append(word[:match.start()])
+    for stem in list(stems):
+        passive = TR_PASSIVE.search(stem)
+        if passive and passive.start() >= 2:
+            stems.append(stem[:passive.start()])
+    # A stem softened before a vowel (gid- of gitmek, ed- of etmek).
+    stems += [stem[:-1] + TR_HARD[stem[-1]] for stem in stems if stem[-1:] in TR_HARD]
+    for stem in stems:
+        for verb in (stem + "mak", stem + "mek"):
+            if verb in ranks:
+                return verb
+    return None
+
+
 def check(path, brief=False):
     course = json.load(open(path, encoding="utf-8"))
     code = course["id"].split("-")[0]
@@ -819,6 +886,12 @@ def check(path, brief=False):
             whole_names += numerals
         raw_words = [fold(code, t.lower()) for t in re.findall(r"[^\W\d_]+(?:['’][^\W\d_]+)*", text)]
         lowered = [fold(code, t.lower()) for t in toks] + ["\u0000name"] * whole_names
+        if code == "tr":
+            lowered = [w if w in ranks or w in names else turkish_base(w, ranks) or w for w in lowered]
+        # Ukrainian writes у/в and і/й by the sound before (учинив, вчинив): a word the list has only one way counts.
+        if code == "uk":
+            swap = {"у": "в", "в": "у", "і": "й", "й": "і"}
+            lowered = [w if w in ranks or w in names or w[:1] not in swap or swap[w[0]] + w[1:] not in ranks else swap[w[0]] + w[1:] for w in lowered]
         names_here = names | {"\u0000name"}
         outside = {}
         known = 0
