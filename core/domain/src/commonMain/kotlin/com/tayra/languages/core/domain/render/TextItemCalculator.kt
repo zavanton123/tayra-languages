@@ -44,6 +44,7 @@ object TextItemCalculator {
                     tokenCount = count,
                     sentenceNumber = tokens[index].sentenceNumber,
                     term = termsByTextLc[textLc],
+                    lastSentenceNumber = tokens[index + count - 1].sentenceNumber,
                 ),
             )
         }

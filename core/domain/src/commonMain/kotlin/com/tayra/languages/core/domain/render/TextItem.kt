@@ -17,6 +17,8 @@ class TextItem(
     val tokenCount: Int,
     val sentenceNumber: Int,
     val term: Term?,
+    /** The sentence of the last token: a later one than [sentenceNumber] for a phrase running past a full stop. */
+    val lastSentenceNumber: Int = sentenceNumber,
 ) {
     /** Number of tokens to display, counted from the end of [text]. */
     var displayCount: Int = tokenCount
