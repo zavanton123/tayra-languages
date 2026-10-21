@@ -1,0 +1,3 @@
+-- Korean is read with its own parser, which cuts the particles off a word (학교에서 is 학교 + 에서); a
+-- Korean language made before it was read as space-delimited text.
+UPDATE languages SET parser_type = 'korean' WHERE name = 'Korean' AND parser_type = 'spacedel';
