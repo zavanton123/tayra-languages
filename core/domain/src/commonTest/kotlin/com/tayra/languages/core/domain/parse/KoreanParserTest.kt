@@ -19,11 +19,11 @@ class KoreanParserTest {
         "사람" to 34, "우리" to 35, "가다" to 39, "가는" to 39, "먹다" to 184, "먹었어요" to 184, "학교" to 280, "친구" to 164,
         "책" to 700, "집" to 121, "나가다" to 174, "나가" to 174, "사과" to 2600, "학생" to 520, "의사" to 1500,
         "서울" to 161, "선생님" to 400, "동생" to 900, "커피" to 1800, "때문" to 95, "너" to 38, "말" to 34,
-        "아니다" to 29, "아니" to 131,
+        "아니다" to 29, "아니" to 131, "개" to 147, "아이" to 261, "수" to 23, "할" to 6, "있다" to 7,
     )
 
     @BeforeTest
-    fun lexicon() = Lexicons.set("ko", Lexicon(ranks.keys + listOf("나는", "날다", "사"), ranks))
+    fun lexicon() = Lexicons.set("ko", Lexicon(ranks.keys + listOf("나는", "날다", "사", "집은", "집다", "개는", "아이가", "수도"), ranks))
 
     @AfterTest
     fun forget() = Lexicons.set("ko", null)
@@ -106,6 +106,15 @@ class KoreanParserTest {
         assertEquals(listOf("하늘에서"), words("하늘에서"))
         // The dictionary's 나는 (a form of 날다) is rarer than 나 and 는 together, so it is cut.
         assertEquals(listOf("나", "는"), words("나는"))
+    }
+
+    /** The dictionary's look-alikes (집은 of 집다; 수도, "capital") give way to a word of the list and its particle. */
+    @Test
+    fun aWordOnlyTheDictionaryHasIsCutAfterAWordOfTheList() {
+        assertEquals(listOf("우리", "집", "은"), words("우리 집은"))
+        assertEquals(listOf("개", "는"), words("개는"))
+        assertEquals(listOf("아이", "가"), words("아이가"))
+        assertEquals(listOf("할", "수", "도", "있다"), words("할 수도 있다"))
     }
 
     @Test

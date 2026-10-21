@@ -9,8 +9,9 @@ import kotlin.math.ln
  *
  * A word is cut only after a word the lexicon knows. Of the cuts and the word left whole, the one whose
  * pieces are together the most common wins, by the costs SegmentingParser gives Chinese words: a word the
- * frequency list has stays whole (사과; 나가, a form of 나가다), one it lacks is cut (나는 is 나 + 는,
- * though the dictionary also has it as a form of 날다).
+ * frequency list has stays whole (사과; 나가, a form of 나가다). One only a dictionary has never stays
+ * whole against a cut after a word of the list: the dictionary's forms tables are full of look-alikes
+ * (집은 of 집다, 나는 of 날다), and the list has the words a reader meets.
  *
  * tools/build_frequency_list.py counts words cut the same way (korean_pieces); keep the two the same.
  */
@@ -23,12 +24,14 @@ class KoreanParser : SpaceDelimitedParser(), LexiconParser {
     fun cut(word: String, lexicon: Lexicon): List<String> {
         var best: Double? = null
         var cut = listOf(word)
+        var afterListed = false
         for (end in word.length - 1 downTo 1) {
             val stem = word.substring(0, end)
             if (stem !in lexicon) continue
             for (stack in stacks(word.substring(end), stem)) {
                 val pieces = listOf(stem) + stack
                 val cost = pieces.sumOf { ln((lexicon.rank(it) ?: UNRANKED).toDouble()) + WORD_COST }
+                if (lexicon.rank(stem) != null) afterListed = true
                 if (best == null || cost < best) {
                     best = cost
                     cut = pieces
@@ -36,7 +39,7 @@ class KoreanParser : SpaceDelimitedParser(), LexiconParser {
             }
         }
         if (best == null) return listOf(word)
-        val whole = lexicon.rank(word) ?: if (word in lexicon) UNRANKED else null
+        val whole = lexicon.rank(word) ?: if (word in lexicon && !afterListed) UNRANKED else null
         return if (whole != null && ln(whole.toDouble()) + WORD_COST <= best) listOf(word) else cut
     }
 
