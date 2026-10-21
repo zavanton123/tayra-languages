@@ -1,0 +1,193 @@
+{
+  "id": "tr-mini-2400",
+  "rankUpTo": 2400,
+  "level": "B2",
+  "title": "Bilim ve teknoloji",
+  "description": "Ten everyday stories about science and technology in Turkey: a diving robot, migrating hawks, smart cows, an app that helps doctors, a robot tournament, a school weather station, screens at home, a faulty smart watch, a donated telescope and a time capsule.",
+  "topic": "Science and technology",
+  "names": [
+    "Merve",
+    "Ömer",
+    "İzmir",
+    "Urla",
+    "Leyla",
+    "Bursa",
+    "Hasan",
+    "Avrupa",
+    "Afrika",
+    "Akdeniz",
+    "Pekin",
+    "İstanbul",
+    "Halil",
+    "Zehra",
+    "Konya",
+    "Esra",
+    "Ankara",
+    "Sinan",
+    "Yusuf",
+    "Cem",
+    "Ayla",
+    "Trabzon",
+    "Burak",
+    "Kars",
+    "Fatma",
+    "Ahmet",
+    "Hatice",
+    "Eskişehir",
+    "Ülker"
+  ],
+  "lessons": [
+    {
+      "title": "Deniz tabanındaki robot",
+      "summary": "Merve, an engineer at a marine institute in İzmir, sends a remote-controlled robot down to the sea floor and finds rare white shells.",
+      "newWords": [
+        "enstitü",
+        "dalmak",
+        "taban",
+        "kumanda",
+        "kabuk",
+        "uzunluk",
+        "keşif",
+        "görsel",
+        "ani",
+        "zehir"
+      ],
+      "text": "Merve, İzmir'deki bir deniz enstitüsünde çalışan genç bir mühendisti. Enstitüdeki ekip iki yıldır küçük bir robot üzerinde çalışıyordu. Robotun uzunluğu sadece bir metreydi, ama denizin 300 metre altına kadar dalabiliyordu. Ekip robotu gemiden, uzun bir kabloyla bağlı bir kumandayla yönetiyordu.\n\nBir sabah Merve ve arkadaşı Ömer küçük bir gemiyle Urla'nın açıklarına çıktılar. Amaçları, deniz tabanında yaşayan canlıların görsel bir haritasını çıkarmaktı. Hava güzeldi, deniz sakindi. Ömer robotu suya indirdi, Merve de kumandayı eline aldı.\n\n— Hazır mısın? diye sordu Ömer.\n\n— Hazırım. Robot dalıyor, dedi Merve.\n\nRobot yavaş yavaş daldı. Ekranda önce mavi su, sonra küçük balıklar göründü. 20 dakika kadar sonra robot tabana ulaştı. Taban kum ve taşlarla doluydu. Robotun kamerası her şeyi kaydediyordu; bu görseller daha sonra enstitüde tek tek incelenecekti.\n\nBirden ekranda mor renkli, yumuşak bir hayvan göründü. Ömer endişelendi:\n\n— Bu hayvanın zehri robota zarar verir mi?\n\n— Hayır. Onun zehri sadece küçük balıklara zarar verir. Robot için hiçbir tehlikesi yok, dedi Merve gülümseyerek.\n\nRobot tabanda ilerlerken Merve kumların arasında büyük, beyaz kabuklar gördü. Kabukların uzunluğu 20 santimetreyi geçiyordu. Bunlar bu bölgede çok az görülen bir deniz hayvanının kabuklarıydı. Merve heyecanla robotu durdurdu ve kamerayı kabuklara çevirdi.\n\n— Bu bir keşif mi? diye sordu Ömer.\n\n— Belki de. Bu kabuklar bu bölgede daha önce hiç görülmemişti, dedi Merve.\n\nTam o sırada ani bir akıntı robotu yana itti. Kumandanın ekranında kırmızı bir ışık yandı. Merve hemen robotu yukarı çekti, çünkü bu bölgede ani akıntılar sık görülüyordu ve ekip robotu kaybetmek istemiyordu. Robot birkaç dakika sonra sağlam bir şekilde gemiye döndü.\n\nAkşam enstitüdeki ekip görselleri birlikte izledi. Enstitünün müdürü kabukları görünce çok sevindi. \"Bu, bu yılın en önemli keşfi olabilir\" dedi. Ertesi hafta robot aynı yere tekrar dalacak ve kabukları daha yakından görüntüleyecekti. Merve için bu keşif, iki yıllık emeğin en güzel ödülüydü.\n\nSorular:\nMerve nerede çalışıyordu?\nMerve İzmir'deki bir deniz enstitüsünde çalışıyordu.\nRobotun uzunluğu ne kadardı?\nRobotun uzunluğu sadece bir metreydi.\nÖmer neden endişelendi?\nÇünkü hayvanın zehrinin robota zarar vereceğini düşündü.\nMerve deniz tabanında ne gördü?\nMerve kumların arasında büyük, beyaz kabuklar gördü.\nMerve robotu neden yukarı çekti?\nÇünkü ani bir akıntı robotu yana itti."
+    },
+    {
+      "title": "Şahinin uzun yolu",
+      "summary": "Leyla, a biology student volunteering at a bird station near Bursa, helps fit a tiny transmitter to a rare hawk and follows its migration to Africa.",
+      "newWords": [
+        "göç",
+        "şahin",
+        "tüy",
+        "uzaklık",
+        "alıcı",
+        "çöl",
+        "cins",
+        "korkak",
+        "bant"
+      ],
+      "text": "Leyla, Bursa'da biyoloji okuyan bir öğrenciydi. Her eylül, şehrin yakınındaki bir dağda kuşların göçünü izleyen küçük bir istasyonda gönüllü olarak çalışıyordu. Sonbaharda binlerce kuş Avrupa'dan Afrika'ya göç ederken bu dağın üstünden geçiyordu.\n\nİstasyonun başında Hasan Bey adında yaşlı bir bilim insanı vardı. Hasan Bey 40 yıldır kuş göçü üzerine çalışıyordu. Bir sabah istasyonun ağına bir şahin takıldı. Hasan Bey kuşu dikkatle ağdan çıkarıp Leyla'ya gösterdi.\n\n— Bak, bu bir şahin. Ama sıradan bir şahin değil. Bu cins şahinler bu dağda çok az görülür, dedi.\n\n— Bu cins şahinler kışın nereye gider? diye sordu Leyla.\n\n— Afrika'ya gider. Ama nasıl bir yoldan gittiklerini tam olarak bilmiyoruz, dedi Hasan Bey.\n\nLeyla kuşa yakından baktı. Şahinin sırtındaki tüyler kahverengi, göğsündeki tüyler beyazdı. Kuş çok korkmuştu ve kalbi hızlı hızlı atıyordu.\n\n— Şahinler korkak kuşlar mı? diye sordu Leyla.\n\n— Hayır, aslında cesur kuşlardır. Ama insan eli onlara yabancı. Her kuş gibi o da insandan korkuyor. Bu yüzden çabuk olmalıyız, dedi Hasan Bey.\n\nÖnce kuşu tarttılar ve kanatlarının uzunluğunu ölçtüler. Sonra Hasan Bey kuşun sırtına çok küçük bir verici yerleştirdi. Vericiyi yumuşak bir bantla tüylerin altına bağladı. Bant kuşu rahatsız etmiyordu ve birkaç ay sonra kendi kendine düşecekti.\n\n— Bu verici her gün bir sinyal gönderecek. İstasyondaki alıcı da bu sinyali alacak. Böylece şahinin nereye gittiğini bileceğiz, dedi Hasan Bey.\n\nLeyla şahini iki eliyle tutup havaya bıraktı. Kuş birkaç saniye içinde gökyüzünde kayboldu.\n\nSonraki haftalarda Leyla her sabah alıcının ekranına baktı. Şahin önce güneye, Akdeniz'e doğru uçtu. Sonra denizi geçip Afrika'ya ulaştı. Ardından büyük bir çölün üstünden geçti. Çölde yemek ve su bulmak çok zordu, ama şahin neredeyse hiç durmadan uçtu. Birkaç gün sonra çölü geride bıraktı.\n\nBir gün Hasan Bey haritaya bakıp uzaklığı hesapladı.\n\n— Bizim şahin iki ayda 6000 kilometre uçmuş. Bu uzaklık, İstanbul ile Pekin arasındaki uzaklık kadar, dedi.\n\nLeyla çok şaşırdı. Küçük bir kuşun denizi ve çölü geçerek bu kadar uzak bir yere gitmesi ona inanılmaz geliyordu. İlk gün korkak görünen kuş, aslında çok güçlü bir yolcuydu. Leyla o akşam günlüğüne şöyle yazdı: \"Korkak değil, sadece dikkatli bir kuş.\"\n\nSorular:\nLeyla istasyonda ne yapıyordu?\nLeyla kuşların göçünü izleyen bir istasyonda gönüllü olarak çalışıyordu.\nHasan Bey şahin hakkında ne söyledi?\nBu cins şahinlerin bu dağda çok az görüldüğünü söyledi.\nŞahinin tüyleri ne renkti?\nSırtındaki tüyler kahverengi, göğsündeki tüyler beyazdı.\nHasan Bey vericiyi nasıl bağladı?\nVericiyi yumuşak bir bantla tüylerin altına bağladı.\nLeyla şahinin yolunu nasıl izledi?\nHer sabah alıcının ekranına baktı.\nŞahin iki ayda ne kadar uçtu?\nŞahin iki ayda 6000 kilometre uçtu."
+    },
+    {
+      "title": "Akıllı inekler",
+      "summary": "Zehra, an agricultural engineer, puts sensors on her father Halil's cows in a village near Konya, and the weekly figures win him over.",
+      "newWords": [
+        "inek",
+        "köylü",
+        "ayar",
+        "haftalık",
+        "istatistik",
+        "artış",
+        "talimat",
+        "umursamak",
+        "yem"
+      ],
+      "text": "Halil, Konya'ya yakın küçük bir köyde yaşayan yaşlı bir köylüydü. On iki ineği vardı ve her sabah ineklerini kendisi besliyordu. Kızı Zehra ise Konya'da tarım mühendisi olarak çalışıyordu.\n\nBir hafta sonu Zehra köye büyük bir kutuyla geldi. Kutunun içinde on iki küçük cihaz vardı.\n\n— Baba, bunları ineklerin boynuna takacağız. Bu cihazlar her ineğin ne kadar yürüdüğünü, ne kadar yem yediğini ve ne kadar dinlendiğini kaydediyor, dedi Zehra.\n\nHalil bu yeni teknolojiyi hiç umursamadı.\n\n— Kızım, ben bu inekleri 30 yıldır tanıyorum. Hangisinin hasta olduğunu yüzüne bakınca anlarım. Bu cihazlar gereksiz, dedi.\n\nZehra babasının bu sözlerini umursamadı ve cihazları ineklerin boynuna taktı. Sonra telefonundaki uygulamayı açıp ayarları yaptı. Her ineğin adını, yaşını ve ağırlığını girdi. Babasına da kısa bir talimat yazdı: \"Telefonda kırmızı bir ışık görürsen bana hemen haber ver.\"\n\nHalil talimatı mutfağın duvarına astı, ama telefona pek bakmadı. Bir hafta sonra Zehra köye tekrar geldi ve babasına ilk haftalık raporu gösterdi.\n\n— Bak baba, bu haftalık istatistikler. Sarı ineğin çok az yürüdüğünü görüyor musun? Üstelik son üç gündür yeminin yarısını yemiyor.\n\nHalil şaşırdı, çünkü sarı inekte hiçbir değişiklik fark etmemişti. Hemen köyün hayvan doktorunu çağırdılar. Doktor ineğin ayağında küçük bir yara buldu ve tedavi etti. İnek birkaç gün içinde iyileşti.\n\nSonraki aylarda Halil telefonu daha sık açmaya başladı. Uygulamanın ayarlarını da kendisi değiştirmeyi öğrendi. Artık her pazar akşamı haftalık istatistiklere bakıyordu. İneklerin ne zaman yem istediğini, ne zaman dinlendiğini biliyordu. Yemi buna göre veriyordu ve hiç yem boşa gitmiyordu.\n\nAltı ay sonra Zehra babasına yeni bir tablo gösterdi. Süt miktarında yüzde 15'lik bir artış vardı.\n\n— Bu artış senin sayende baba. İnekler daha sağlıklı, dolayısıyla daha çok süt veriyorlar, dedi Zehra.\n\nHalil gülümsedi. Ertesi gün komşu köylüleri evine çağırdı ve onlara cihazları gösterdi. Köylülerin çoğu önce onun gibi bu teknolojiyi umursamadı, ama süt artışını duyunca fikirlerini değiştirdiler.\n\nSorular:\nHalil'in kaç ineği vardı?\nHalil'in on iki ineği vardı.\nHalil cihazlar hakkında ne düşündü?\nHalil cihazların gereksiz olduğunu düşündü.\nZehra uygulamada ne yaptı?\nAyarları yaptı ve her ineğin adını, yaşını ve ağırlığını girdi.\nZehra babasına hangi talimatı yazdı?\n\"Telefonda kırmızı bir ışık görürsen bana hemen haber ver\" diye yazdı.\nHaftalık istatistikler sarı inek hakkında ne gösterdi?\nSarı ineğin çok az yürüdüğünü ve yeminin yarısını yemediğini gösterdi.\nAltı ay sonra süt miktarında ne kadar artış vardı?\nSüt miktarında yüzde 15'lik bir artış vardı."
+    },
+    {
+      "title": "Gece nöbeti",
+      "summary": "On a night shift in Ankara, Dr Esra notices a spot under a young man's tattoo, checks an app's verdict herself and reassures him.",
+      "newWords": [
+        "teşhis",
+        "nöbet",
+        "koridor",
+        "dövme",
+        "yaklaşım",
+        "öncelik",
+        "onaylamak",
+        "tesadüf",
+        "psikolojik"
+      ],
+      "text": "Esra, Ankara'daki büyük bir hastanede çalışan bir cilt doktoruydu. O hafta hastanede gece nöbeti onundu. Nöbet akşam saat 8'de başlıyor, sabah 8'de bitiyordu. Gece yarısına kadar hastanenin koridorları doluydu, ama sonra her şey sakinleşti.\n\nSaat 1'e doğru koridorda genç bir adam göründü. Adı Sinan'dı. Mutfakta elini kesmişti. Esra yarayı temizleyip kapattı. Sinan'ın kolunda büyük bir dövme vardı. Esra dövmenin içinde küçük, koyu bir nokta fark etti.\n\n— Bu nokta ne zamandır var? diye sordu.\n\n— Bilmiyorum. Dövme çok eski, o noktayı hiç fark etmemiştim, dedi Sinan.\n\nHastane birkaç ay önce yeni bir uygulama kullanmaya başlamıştı. Bu uygulama yapay zekâ ile çalışıyordu ve ciltteki bir noktanın fotoğrafına bakarak teşhis koymaya yardım ediyordu. Esra noktanın fotoğrafını çekti. Uygulama birkaç saniye sonra cevap verdi: \"Tehlikeli değil.\"\n\nAma Esra bu sonucu hemen onaylamadı. Onun yaklaşımı basitti: Uygulama yardımcı olabilirdi, ama son kararı her zaman doktor vermeliydi. Hastanedeki bazı genç doktorlar bu yaklaşımı eski buluyordu, ama Esra'nın önceliği hastanın sağlığıydı, uygulamanın hızı değil. Bu yüzden noktaya bir de kendi gözüyle, uzun uzun baktı. Dövmenin rengi noktanın rengini değiştiriyordu; dolayısıyla uygulamanın yanılması mümkündü.\n\nEsra bir süre sonra kendi kararını verdi. Nokta gerçekten tehlikeli görünmüyordu. Uygulamanın teşhisini onayladı, ama Sinan'a bir ay sonra tekrar gelmesini söyledi.\n\n— Elimi kestiğim için geldim, siz başka bir şey buldunuz. Ne büyük bir tesadüf! dedi Sinan.\n\n— Evet, bir tesadüf. Ama hastanede bu tür tesadüfler sık olur, dedi Esra.\n\nSinan biraz endişelendi. Esra ona her şeyi sakin bir şekilde anlattı. Bu tür noktaların çoğunun tehlikeli olmadığını, kontrolün sadece dikkatli olmak için yapıldığını söyledi. Esra'ya göre hastaların psikolojik durumu da en az teşhis kadar önemliydi. Endişelenen bir hasta geceleri uyuyamazdı ve bu, psikolojik olarak onu çok etkilerdi.\n\nBir ay sonra Sinan hastaneye geldi. Esra noktaya tekrar baktı ve hiçbir değişiklik görmedi. Bu sefer teşhisini koymadan önce uygulamayı kullanmadı bile.\n\n— Bu nokta tehlikeli değil. Artık rahat uyuyabilirsiniz, dedi.\n\nSinan gülerek teşekkür etti ve koridorda yürüyüp gitti. Esra o akşam yine nöbetteydi. Koridorun sonundaki odasında bir kahve içerken, teknolojinin doktorlara yardım ettiğini, ama onların yerini tutmadığını düşündü. Ona göre bir doktorun önceliği her zaman hasta olmalıydı.\n\nSorular:\nEsra hastanede o hafta ne yapıyordu?\nEsra o hafta hastanede gece nöbeti tutuyordu.\nSinan hastaneye neden geldi?\nMutfakta elini kestiği için geldi.\nEsra dövmenin içinde ne fark etti?\nDövmenin içinde küçük, koyu bir nokta fark etti.\nEsra uygulamanın sonucunu neden hemen onaylamadı?\nÇünkü onun yaklaşımına göre son kararı her zaman doktor vermeliydi. Onun önceliği hastanın sağlığıydı.\nEsra'ya göre teşhis kadar önemli olan neydi?\nHastaların psikolojik durumu da teşhis kadar önemliydi."
+    },
+    {
+      "title": "Robot turnuvası",
+      "summary": "Yusuf tells how his robot's wheel broke at a school robot tournament in Ankara, how his friend Cem helped him fix it, and how they won a medal together.",
+      "newWords": [
+        "turnuva",
+        "madalya",
+        "hile",
+        "zorluk",
+        "irade",
+        "kırıklık",
+        "mecbur",
+        "dostluk",
+        "benimki"
+      ],
+      "text": "Benim adım Yusuf. Geçen bahar okulumuz beni Ankara'daki liseler arası robot turnuvasına gönderdi. Turnuvada her robot bir sahada top toplayacak, en çok topu en kısa sürede toplayan robot kazanacaktı. Robotumu altı ay boyunca en iyi arkadaşım Cem'le birlikte yapmıştık. Cem başka bir okulda okuyordu ve o da turnuvaya kendi robotuyla katılıyordu.\n\nTurnuvanın ilk günü her şey yolunda gitti. Benim robotum ilk iki yarışı kazandı. Cem'in robotu da çok iyiydi. Akşam yemekte gülerek tartıştık.\n\n— Hangisi daha hızlı, seninki mi, benimki mi? diye sordum.\n\n— Benimki tabii! dedi Cem.\n\nİkinci gün büyük bir zorluk yaşadım. Üçüncü yarışın başında robotumun bir tekerleği kırıldı. Robot olduğu yerde dönmeye başladı ve tek bir top bile toplayamadı. Büyük bir hayal kırıklığına uğradım. Altı aylık emeğimizin bir dakikada bittiğini düşündüm.\n\nBir sonraki yarışa sadece bir saat vardı. Kırık tekerleği bir saat içinde değiştirmeye mecburdum, yoksa turnuvadan çıkacaktım. Ama yanımda yedek bir teker yoktu. Tam o sırada Cem yanıma geldi. Elinde kendi robotunun yedek tekerleği vardı. Cem bana yardım etmeye mecbur değildi, çünkü o da turnuvada benim rakibimdi.\n\n— Al, bu benimki. Senin robotuna da uyar, dedi.\n\n— Ama sen de benimle yarışıyorsun. Bunu neden yapıyorsun? diye sordum.\n\n— Çünkü dostluk bir yarıştan daha önemli, dedi Cem.\n\nTekerleği birlikte taktık. Bu kolay değildi, çünkü parçalar çok küçüktü ve vaktimiz azdı. Ama ikimiz de pes etmedik. Cem'in iradesi benimkinden bile güçlüydü; ben birkaç kez bırakmak istedim, o hiç bırakmadı. Öğretmenimiz daha sonra bize \"Sizin iradeniz robotlarınızdan daha güçlü\" dedi.\n\nYarıştan sonra başka bir okulun öğrencisi hakeme gidip itiraz etti. \"Başka bir takımın parçasını kullanmak hiledir\" dedi. Hakem kuralları açıp okudu. Kurallara göre başka bir takımdan parça almak hile değildi; tek şart, parçanın turnuvanın listesindeki parçalardan biri olmasıydı. Cem'in tekerleği de o listedeydi. Hakem bunun hile olmadığını açıkladı ve yarış devam etti.\n\nSonunda ben üçüncü oldum, Cem de ikinci. Törende ikimiz de madalya aldık. Benimki bronz bir madalyaydı, Cem'inki gümüş. Hayal kırıklığına uğradığım o dakikadan sonra bir madalya almak bana inanılmaz geliyordu. Ama benim için en değerli şey madalya değildi. Turnuvadan öğrendiğim en önemli şey, zor bir anda yanında duran bir arkadaşın değeriydi. Bu yüzden o madalyayı hâlâ odamın duvarında, Cem'le çekildiğimiz fotoğrafın yanında saklıyorum. Madalya bir hatıra, ama dostluğumuz ondan çok daha değerli.\n\nSorular:\nYusuf'un ikinci gün yaşadığı zorluk neydi?\nÜçüncü yarışın başında robotunun bir tekerleği kırıldı.\nYusuf bir saat içinde ne yapmaya mecburdu?\nKırık tekerleği değiştirmeye mecburdu.\nCem tekerleği neden verdi?\nÇünkü ona göre dostluk bir yarıştan daha önemliydi.\nÖğretmenleri onlara ne dedi?\nOnların iradesinin robotlarından daha güçlü olduğunu söyledi.\nHakem neden bunun hile olmadığını söyledi?\nÇünkü kurallara göre başka bir takımdan parça almak hile değildi.\nYusuf ve Cem hangi madalyaları aldı?\nYusuf üçüncü olduğu için bir madalya aldı, Cem de ikinci olduğu için gümüş bir madalya aldı."
+    },
+    {
+      "title": "Okulun hava istasyonu",
+      "summary": "Ayla, a science teacher in Trabzon, builds a weather station on the school roof with her class, and the students learn to read the clues of a coming storm.",
+      "newWords": [
+        "yağmak",
+        "tavan",
+        "çoğunluk",
+        "asgari",
+        "direkt",
+        "ipucu",
+        "karış"
+      ],
+      "text": "Ayla, Trabzon'daki bir okulda bilim dersleri veren bir öğretmendi. Trabzon'da yağmur çok yağar; bu yüzden öğrencileri en çok hava durumunu merak ediyordu. Bir gün Ayla sınıfa bir fikirle geldi:\n\n— Okulun çatısına kendi hava istasyonumuzu kuralım. Yağmurun ne zaman ve ne kadar yağdığını kendimiz kaydedelim.\n\nSınıfın çoğunluğu bu fikri çok sevdi. Sadece birkaç öğrenci \"Bu çok zor\" dedi, ama onlar da çalışmaya katıldı. İstasyon için yağmuru toplayan bir kap, sıcaklık için bir cihaz ve küçük bir bilgisayar aldılar. Bilgisayar, istasyonun kaydettiği her şeyi direkt olarak okulun internet sitesine gönderecekti.\n\nİstasyonu kurmak planlanandan uzun sürdü. Bazı parçalar iki hafta geç geldi. Bu yüzden öğrenciler biraz üzüldü, ama Ayla onlara beklemeyi öğretti. Sonunda bir cumartesi günü istasyon çalışmaya başladı.\n\nArtık her sabah öğrenciler okula gelir gelmez telefonlarından siteye bakıyorlardı. Gece yağan yağmurun miktarını, en yüksek ve asgari sıcaklığı direkt olarak görebiliyorlardı. Kasımda asgari sıcaklık ilk kez sıfırın altına düştü. O gün sınıftaki çoğunluk kar bekledi, ama kar yağmadı.\n\nBir gün Ayla öğrencilere bir soru sordu:\n\n— Bilgisayar olmadan yağmurun yağacağını nasıl anlayabiliriz? Doğa bize hangi ipuçları verir?\n\nÖğrenciler düşündü. Biri \"Bulutlar kararır\" dedi. Bir başkası \"Kuşlar alçaktan uçar\" dedi. Ayla her ipucunu tahtaya yazdı. Sonra her gün her ipucunu istasyonun ölçümleriyle birlikte kontrol ettiler. Bazı ipuçları gerçekten işe yarıyordu, bazıları ise eski bir inançtan başka bir şey değildi.\n\nAralıkta büyük bir fırtına geldi. Gece boyunca çok yağmur yağdı. Sabah istasyonun kabında su neredeyse bir karış yükselmişti. Bir gecede bir karış yağmur, Trabzon için bile çok fazlaydı. Üstelik eski binanın çatısı su almıştı ve sınıfın tavanından su akıyordu. Öğrenciler tavanın altına kovalar koydu.\n\n— Tavandan gelen su da bir ölçüm sayılır mı? diye şaka yaptı bir öğrenci.\n\nHerkes güldü. Okul müdürü ertesi hafta çatıyı tamir ettirdi. Yıl sonunda sınıf, bir yıl boyunca topladığı ölçümleri bir rapor hâlinde belediyeye gönderdi. Belediye rapordan çok memnun kaldı ve istasyonun okulda kalmasını istedi.\n\nSorular:\nAyla sınıfa hangi fikirle geldi?\nOkulun çatısına bir hava istasyonu kurmak istedi.\nİstasyonu kurmak neden uzun sürdü?\nÇünkü bazı parçalar iki hafta geç geldi.\nÖğrenciler her sabah sitede neleri görebiliyordu?\nYağan yağmurun miktarını, en yüksek ve asgari sıcaklığı görebiliyorlardı.\nFırtınadan sonra istasyonun kabında ne kadar su vardı?\nNeredeyse bir karış su vardı.\nÖğrenciler hangi ipuçları buldu?\nBulutların karardığını ve kuşların alçaktan uçtuğunu söylediler.\nFırtınadan sonra sınıfta ne oldu?\nSınıfın tavanından su aktı."
+    },
+    {
+      "title": "Ekranların esiri miyiz?",
+      "summary": "In a newspaper column, a mother from Eskişehir describes how her family let screens take over their evenings and how they slowly took the evenings back.",
+      "newWords": [
+        "esir",
+        "takma",
+        "ortalık",
+        "gizlice",
+        "yatırmak",
+        "üzücü",
+        "pizza",
+        "öbür"
+      ],
+      "text": "Geçen ay bir akşam salonumuza baktım ve gördüğüm şey beni çok düşündürdü. Kocam bir köşede telefonuyla oynuyordu. Büyük oğlum öbür köşede bilgisayarındaydı. Küçük kızım da benim eski telefonumla çizgi film izliyordu. Masada soğuk bir pizza vardı ve kimse onu umursamıyordu. Hepimiz aynı odadaydık, ama birbirimizden çok uzaktık. Bir köşede bir ekran, öbür köşede başka bir ekran vardı. Ekranların esiri olmuştuk.\n\nO akşam bir şey daha fark ettim. Oğlum sosyal medyada takma bir isim kullanıyordu. Takma adıyla yazdığı yorumları okudum; çoğu bir yabancının yorumları gibiydi. Gerçek hayatta çok nazik bir çocuk olan oğlumun, ekranın arkasında bu kadar farklı olması bana çok üzücü geldi.\n\nİşin en üzücü yanı şuydu: Bu durumu sadece çocuklarıma yükleyemezdim. Ben de akşamları telefonumu elimden bırakmıyordum. Çocukları yatırdıktan sonra uzun süre gereksiz videolar izliyordum. Kızım bazen yatağından kalkıp gizlice eski telefona bakıyordu, ben de gizlice telefonuma bakıyordum. Kimse kimseye \"dur\" demiyordu.\n\nErtesi gün aile olarak bir toplantı yaptık. Kurallarımız basitti. Akşam yemeğinde hiç ekran olmayacaktı. Saat 9'dan sonra bütün telefonlar mutfaktaki bir kutuya girecekti. Hafta sonları en az bir gün dışarıda, ekran olmadan geçecekti. Herkes bu kurallara uyacaktı, kocam ve ben de.\n\nİlk hafta çok zordu. Telefon olmadan geçen akşamlar uzun geliyordu ve evde ortalık karıştı. Oğlum söylendi, kızım ağladı, kocam ise telefonunu kutudan gizlice almaya çalıştı. Ama yavaş yavaş her şey değişti. Akşam yemeklerinde yeniden konuşmaya başladık. Kızımı yatırırken ona masal okumaya başladım. Oğlum bir gün takma adını kullanmayı bıraktığını söyledi. Bir cumartesi akşamı pizzayı birlikte yaptık; o akşam mutfakta ortalık çok dağınıktı, ama herkes gülüyordu.\n\nTeknoloji hayatımızın bir parçası ve bunu değiştiremeyiz. Telefonlar hayatımızı çok kolaylaştırıyor; öte yandan, onları dikkatli kullanmazsak bizi kendilerine esir edebiliyorlar. Bizim ailemiz şimdi bir dengede. Hâlâ ekran kullanıyoruz, ama ekranlar artık bizi yönetmiyor. Pizzayı da artık ekranların önünde değil, masada hep birlikte yiyoruz. Belki siz de bir akşam salonunuza bakmalısınız. Kim bilir, siz de bir ekranın esiri olmuş olabilirsiniz.\n\nSorular:\nYazar bir akşam salonda ne gördü?\nHerkes aynı odadaydı, ama herkes bir ekrana bakıyordu.\nYazara ne üzücü geldi?\nNazik oğlunun, takma adıyla yazdığı yorumlarda çok farklı olması üzücü geldi.\nAile hangi kuralları koydu?\nAkşam yemeğinde ekran olmayacaktı ve saat 9'dan sonra telefonlar bir kutuya girecekti.\nİlk hafta evde neler oldu?\nOrtalık karıştı ve herkes zorlandı.\nYazar artık kızını yatırırken ne yapıyor?\nKızına masal okuyor."
+    },
+    {
+      "title": "Pembe saat",
+      "summary": "Burak, an amateur runner in İzmir, orders a black smart watch online, receives a pink one that does not work, and patiently returns it.",
+      "newWords": [
+        "sporcu",
+        "iade",
+        "market",
+        "zahmet",
+        "istenmek",
+        "pembe",
+        "gereksiz",
+        "razı"
+      ],
+      "text": "Burak, İzmir'de yaşayan ve bir bankada çalışan 30 yaşında bir adamdı. Profesyonel bir sporcu değildi, ama her sabah sahilde koşuyordu. Üç ay sonra hayatının ilk uzun yarışına katılacaktı. Bu yüzden ona kalbinin hızını ve koştuğu yolu gösteren bir akıllı saat lazımdı.\n\nBir akşam büyük bir marketin internet sitesinde istediği saati buldu. Bu market sadece yiyecek değil, elektronik eşya da satıyordu ve saatin fiyatı başka sitelerden daha uygundu. Burak siyah renkli saati seçti ve parasını ödedi.\n\nSaat üç gün sonra geldi. Burak kutuyu heyecanla açtı, ama içinden pembe bir saat çıktı. Burak pembe rengi sevmezdi. Daha da kötüsü, saat hiç açılmıyordu. Bütün gece şarj ettiği hâlde ekran kapkara kaldı.\n\nBurak marketin müşteri hizmetlerini aradı.\n\n— Siyah bir saat sipariş ettim, ama pembe bir saat geldi. Üstelik saat çalışmıyor. İade etmek istiyorum, dedi.\n\n— Çok özür dileriz efendim. İade için sizden önce saatin ve faturanın fotoğrafı isteniyor. Sonra bir şirket çalışanı saati evinizden alacak, dedi telefondaki kadın.\n\nBurak fotoğrafları çekip gönderdi. Ama iki gün sonra bir mesaj geldi: Bu sefer de saatin kutusunun fotoğrafı isteniyordu. Burak bunu gereksiz buldu, çünkü kutu zaten ilk fotoğraflarda görünüyordu. \"Bu kadar gereksiz bir istek olur mu?\" diye düşündü. Yine de bir fotoğraf daha gönderdi.\n\nŞirket çalışanının saati almaya geleceği gün Burak bankada olacaktı. Bu yüzden saati komşusu Fatma Hanım'a bıraktı.\n\n— Size zahmet olacak, ama şirketten biri gelince bu kutuyu ona verebilir misiniz? diye sordu.\n\n— Ne zahmeti, oğlum! Tabii veririm, dedi Fatma Hanım.\n\nBir hafta sonra market Burak'ı aradı. Siyah saatlerin hepsi bitmişti. Ona iki seçenek sundular: ya paranın iadesi ya da çalışan yeni bir pembe saat.\n\nBurak bir süre düşündü. Yarışa az zaman kalmıştı ve hemen bir saate ihtiyacı vardı. Sonunda pembe saate razı oldu. \"Önemli olan rengi değil, çalışması\" dedi kendi kendine. Yeni saat iki gün sonra geldi ve bu sefer mükemmel çalıştı.\n\nYarış günü Burak pembe saatiyle koştu. Yarıştan sonra başka bir sporcu yanına gelip saatini sordu. \"Pembe saat çok yakışmış, nereden aldın?\" dedi. Burak güldü ve iade hikâyesini anlattı. Artık pembe saatini çok seviyordu. Fatma Hanım'a da teşekkür etmek için bir kutu tatlı götürdü.\n\nSorular:\nBurak neden bir akıllı saat istiyordu?\nÇünkü üç ay sonra ilk uzun yarışına katılacaktı.\nBurak'a hangi saat geldi?\nBurak'a çalışmayan pembe bir saat geldi.\nİade için Burak'tan önce ne isteniyordu?\nSaatin ve faturanın fotoğrafı isteniyordu.\nBurak kutunun fotoğrafını neden gereksiz buldu?\nÇünkü kutu zaten ilk fotoğraflarda görünüyordu.\nBurak neden pembe saate razı oldu?\nÇünkü yarışa az zaman kalmıştı ve hemen bir saate ihtiyacı vardı.\nBurak Fatma Hanım'a neden tatlı götürdü?\nÇünkü Fatma Hanım kutuyu şirketin çalışanına verdi."
+    },
+    {
+      "title": "Köy okuluna bir teleskop",
+      "summary": "In a letter to Ahmet Bey, a village teacher near Kars thanks him for the telescope he donated and tells how the children looked at the Moon, learned about the Earth's core and heard an old star tale.",
+      "newWords": [
+        "bağış",
+        "fakir",
+        "yeryüzü",
+        "çekirdek",
+        "incelemek",
+        "sarışın",
+        "masal"
+      ],
+      "text": "Sayın Ahmet Bey,\n\nBen Kars'a bağlı küçük bir köyün okulunda öğretmen olan Hatice. Size bu mektubu, okulumuza yaptığınız bağış için teşekkür etmek amacıyla yazıyorum. Gönderdiğiniz teleskop geçen hafta okulumuza ulaştı.\n\nKöyümüz fakir bir köy. Ailelerin çoğu inek ve koyun besleyerek yaşıyor. Okulumuzun bilgisayarı bile eski. Bu yüzden böyle bir bağış bizim için çok değerli. Fakir bir köyde büyüyen çocukların da yıldızları yakından görmeye hakkı var. Siz bize bu hakkı hediye ettiniz.\n\nTeleskop geldiği akşam öğrencilerimle okulun bahçesinde toplandık. Kars'ta gökyüzü çok temiz, çünkü şehrin ışıkları buraya ulaşmıyor. Önce Ay'a baktık. Her çocuk Ay'ı uzun uzun incelemek istedi. Sınıfımın en küçüğü, sarışın Zehra, ilk kez baktığında \"Öğretmenim, Ay'da dağlar var!\" diye bağırdı. Sarışın başını cihazdan kaldırmak istemedi; sonunda öbür çocuklar sıra istedi.\n\nSonra çocuklara yeryüzü ile Ay arasındaki uzaklığı anlattım. Yeryüzünden bakınca Ay küçük görünür, ama aslında çok büyüktür. Bir öğrencim, yeryüzünde yaşayan bir insanın Ay'a yürüyerek gidip gidemeyeceğini sordu. Hep birlikte bir hesap yaptık: Hiç durmadan yürüse yaklaşık 9 yıl sürerdi.\n\nErtesi gün derste Dünya'nın içini konuştuk. Çocuklara Dünya'nın tam ortasında çok sıcak bir çekirdek olduğunu anlattım. Bir öğrencim \"Bir meyvenin çekirdeği gibi mi?\" diye sordu. Ben de \"Evet, ama bu çekirdek demirden ve Güneş'in yüzeyi kadar sıcak\" dedim. Çocuklar yeryüzünün altında böyle sıcak bir çekirdek olduğuna çok şaşırdı.\n\nBir şey daha anlatmak istiyorum. Köyümüzün yaşlıları yıldızlar hakkında eski masallar bilir. Öğrencilerimden birinin büyükannesi Fatma Hanım bir akşam okula geldi ve bize Ülker yıldızlarının masalını anlattı. Çocuklar önce masalı dinledi, sonra o yıldızları teleskopla inceleyip masaldaki yıldızları tek tek saymaya çalıştı. Böylece masal ile bilim aynı gecede buluştu. Çocuklar yıldızları incelerken Fatma Hanım da ilk kez teleskoba baktı ve çok mutlu oldu.\n\nSizi bahar aylarında köyümüze davet etmek istiyoruz. Çocuklar teleskobu size kendileri göstermek istiyor. Bağışınız için tekrar çok teşekkür ederim.\n\nSaygılarımla,\nHatice\n\nSorular:\nHatice Hanım mektubu neden yazdı?\nOkula yapılan bağış için teşekkür etmek amacıyla yazdı.\nBu bağış köy için neden çok değerliydi?\nÇünkü köy fakir bir köy ve okulun bilgisayarı bile eski.\nSarışın Zehra Ay'da ne gördü?\nAy'da dağlar gördü.\nDünya'nın çekirdeği nasıl bir çekirdek?\nDemirden bir çekirdek ve Güneş'in yüzeyi kadar sıcak.\nFatma Hanım çocuklara ne anlattı?\nÜlker yıldızlarının masalını anlattı."
+    },
+    {
+      "title": "Zaman kapsülü",
+      "summary": "In her diary, a high-school student in Eskişehir describes the new school building and how her class buries a time capsule with today's technology in its garden.",
+      "newWords": [
+        "mimar",
+        "gömmek",
+        "hatıra",
+        "kalıcı",
+        "gecikmek",
+        "tanıdık"
+      ],
+      "text": "12 Haziran, Eskişehir\n\nSevgili günlük,\n\nBugün okulumuzda çok özel bir gün yaşadık. Bildiğin gibi okulumuzun eski binası yıkılmıştı ve yerine yeni bir bina yapılıyordu. Yeni binanın inşaatı bir yıl gecikmişti. İnşaat geciktiği için bütün yıl başka bir okulda, küçük sınıflarda ders gördük. Ama sonunda bina bitti ve bugün açıldı.\n\nBinanın planını genç bir mimar çizmiş. Adı Sinan Bey. Açılışta bize binayı gezdirdi. İnşaatın neden geciktiğini de anlattı: Bina depreme karşı çok güçlü olmalıydı ve bu çok zaman almıştı. Sinan Bey binanın enerjisini güneşten aldığını, çatıdaki sistemin okulun bütün elektriğini sağladığını söyledi. Sınıflar çok ışık alıyor, çünkü mimar her sınıfa büyük pencereler koymuş. Ama binanın içinde tanıdık bir şey de vardı: Eski binanın kapısı. Sinan Bey o eski tahta kapıyı yeni binanın girişine koymuştu.\n\n— Neden eski kapıyı kullandınız? diye sordum.\n\n— Çünkü yeni bir bina, eski hatıraları silmemeli. Bu kapıdan 50 yıldır öğrenciler geçiyor. Bu kapı herkes için tanıdık, dedi mimar.\n\nAçılıştan sonra fizik öğretmenimiz Cem Bey'in fikriyle bir zaman kapsülü hazırladık. Bu, metal bir kutuydu. İçine bugünün teknolojisinden ve hayatımızdan parçalar koyduk: eski bir cep telefonu, küçük bir oyuncak robot, sınıfın fotoğrafı ve her öğrencinin yazdığı bir mektup. Ben mektubumda bugünkü telefonları, uygulamaları ve yapay zekâyı anlattım. Belki 25 yıl sonra bunların hepsi çok eski görünecek.\n\nKutuyu gömmeden önce hepimiz onunla fotoğraf çektirdik. Sonra kutuyu bahçeye gömdük. Önce toprakta derin bir yer açtık, sonra kutuyu dikkatle içine yerleştirdik. Herkes biraz toprak attı. En sonunda kutunun üstüne küçük bir taş koyduk. Taşın üstünde şunlar yazıyor: \"25 yıl sonra açılacak.\"\n\nEn sevdiğim şey en yakın arkadaşım Esra'nın mektubuydu. Esra mektubuna dostluğumuzu yazmış. \"Teknoloji değişir, ama gerçek dostluk kalıcıdır\" diye yazmış. Bunu okuyunca gözlerim doldu. Teknoloji gerçekten çok hızlı değişiyor. Bugün kullandığımız telefonlar birkaç yıl sonra eski olacak. Ama hatıralarımız ve dostluğumuz kalıcı olacak.\n\n25 yıl sonra 40 yaşında olacağım. O gün Esra'yla birlikte okula gelip zaman kapsülünü açmak istiyorum. Belki o zaman bu bina da tanıdık, eski bir bina olacak. Gömdüğümüz kutuda kendi el yazımla yazdığım mektubu bulmak çok güzel bir hatıra olacak.\n\nSorular:\nYeni binanın inşaatı ne kadar gecikmişti?\nYeni binanın inşaatı bir yıl gecikmişti.\nMimar neden eski kapıyı kullanmıştı?\nÇünkü ona göre yeni bir bina eski hatıraları silmemeliydi.\nÖğrenciler zaman kapsülüne neler koydu?\nEski bir cep telefonu, bir oyuncak robot, sınıfın fotoğrafı ve mektuplar koydular.\nÖğrenciler kutuyu nereye gömdü?\nKutuyu okulun bahçesine gömdüler.\nEsra mektubunda ne yazmıştı?\n\"Teknoloji değişir, ama gerçek dostluk kalıcıdır\" diye yazmıştı."
+    }
+  ]
+}

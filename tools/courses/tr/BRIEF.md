@@ -227,9 +227,10 @@ Things to know about the Turkish list and the checker:
   word in its own sense, never through its homograph. Write *7* rather than *yedi*.
 - The question particle is four entries, one per vowel: *mi* (14), *mı* (29), *mu* (51), *mü*
   (356), each with its personal forms (*misin*, *mıyım*, *musun*); each is taught as a word of its
-  own. Suffix fragments in the list (*te*, *ta*, *le*, *li*, *nun*) and bare verb stems that only
-  repeat a verb (*araştır*, *değiş*, *düş*, *oluş*, *gönder*, *girdi*, *ilerle*, *düşür*) are not
-  words to teach: skip them.
+  own. Suffix fragments in the list (*te*, *ta*, *le*, *li*, *nun*) are not words to teach, nor is a
+  bare verb stem whose verb has its own *-mek/-mak* entry holding its forms (*değiş*, *düş*, *oluş*,
+  *gönder*). A stem that is itself the entry holding the verb's forms (*araştır*, *artır*, *pişir*,
+  *ilerle*, *düşür*, *sergile*) is that verb: teach it through its forms (*artırdı*, *pişiriyor*).
 - Verbs made with *etmek* or *olmak* and a noun written apart (*teşekkür etmek*, *yardım etmek*,
   *devam etmek*, *kabul etmek*) are listed by their noun: teach *teşekkür* through *teşekkür
   ederim*, *yardım* through *yardım ediyor*. Those written as one word (*hissetmek*, *affetmek*,
