@@ -87,7 +87,7 @@ fun Tag(
     Row(
         modifier.clip(shape).background(background).padding(horizontal = size.horizontal, vertical = size.vertical),
         verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.spacedBy(AppSpacing.xs),
+        horizontalArrangement = Arrangement.spacedBy(AppSpacing.xs, Alignment.CenterHorizontally),
     ) {
         if (icon != null) Icon(icon, contentDescription = null, tint = textColor ?: content, modifier = Modifier.size(if (size == TagSize.Large) AppSizes.iconSmall else AppSizes.iconTiny))
         Text(text, style = size.textStyle(), color = textColor ?: content, maxLines = 1, softWrap = false)
@@ -147,7 +147,7 @@ fun StatusPill(
     Row(
         modifier.clip(shape).background(color.copy(alpha = AppAlpha.tint)).border(AppBorders.hairline(color.copy(alpha = AppAlpha.line)), shape).padding(padding),
         verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.spacedBy(if (size == TagSize.Small) AppSpacing.xs else AppSpacing.s),
+        horizontalArrangement = Arrangement.spacedBy(if (size == TagSize.Small) AppSpacing.xs else AppSpacing.s, Alignment.CenterHorizontally),
     ) {
         if (dot && value == null) StatusDot(color, size = if (size == TagSize.Small) AppSizes.dot else AppSizes.dotLarge)
         if (value != null) Text(value, style = valueStyle, color = color)
