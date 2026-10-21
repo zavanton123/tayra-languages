@@ -183,6 +183,23 @@ class WiktApiClientTest {
     }
 
     @Test
+    fun anOpenedFormCostsThreeRequestsOnce() = runTest {
+        val store = MemoryStore()
+        val api = client(store)
+        val page = api.page("comem", "pt", "en")!!
+        api.forms(page.parentSuggestion!!, "pt", page.edition)
+        api.search("comer", "pt", page.edition)
+        assertEquals(listOf("en/word/comem|pt", "en/word/comer/forms|pt", "en/search|pt"), requests)
+        // Opened again, in this session or the next, it asks nobody.
+        for (again in listOf(api, client(store))) {
+            again.page("comem", "pt", "en")
+            again.forms("comer", "pt", "en")
+            again.search("comer", "pt", "en")
+        }
+        assertEquals(3, requests.size)
+    }
+
+    @Test
     fun aFailedConnectionPausesTheRequests() = runTest {
         val api = client(offline = true)
         assertNull(api.page("comem", "pt", "en"))
