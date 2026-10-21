@@ -242,7 +242,8 @@ def kanji_stem(word):
 # the two the same): each with the sound it follows, "C" a final consonant, "V" a vowel, "R" a vowel or
 # ㄹ, "K" a consonant but ㄹ, "" any, and its place in a stack (집에도 is 집 + 에 + 도): the plural 들
 # first, then particles of place, manner and company (two may stack: 에서부터), then 도, 은/는 and their
-# kind, then the case endings 이/가, 을/를, 의.
+# kind, then the case endings 이/가, 을/를, 의. 당 "per" is among the second, right after a counter only
+# (시간당, 개당; 부당 "unjust" is no 부 + 당).
 KOREAN_PARTICLES = [
     ("들", "", 0),
     ("에", "", 1), ("에서", "", 1), ("에게", "", 1), ("에게서", "", 1), ("한테", "", 1), ("한테서", "", 1),
@@ -250,6 +251,7 @@ KOREAN_PARTICLES = [
     ("로써", "R", 1), ("으로써", "K", 1), ("와", "V", 1), ("과", "C", 1), ("하고", "", 1), ("랑", "V", 1),
     ("이랑", "C", 1), ("처럼", "", 1), ("보다", "", 1), ("까지", "", 1), ("부터", "", 1), ("마다", "", 1),
     ("만큼", "", 1), ("대로", "", 1), ("만", "", 1), ("밖에", "", 1), ("뿐", "", 1), ("조차", "", 1), ("마저", "", 1),
+    ("당", "", 1),
     ("도", "", 2), ("은", "C", 2), ("는", "V", 2), ("이나", "C", 2), ("나", "V", 2), ("이라도", "C", 2), ("라도", "V", 2),
     ("이든", "C", 2), ("든", "V", 2), ("이든지", "C", 2), ("든지", "V", 2),
     ("이", "C", 3), ("가", "V", 3), ("을", "C", 3), ("를", "V", 3), ("의", "", 3),
@@ -264,8 +266,14 @@ KOREAN_COPULA = [(form, "") for form in (
 )] + [("이에요", "C"), ("이야", "C")] + [(form, "V") for form in (
     "예요", "야", "였다", "였어", "였어요", "였습니다", "였던", "지만", "라고", "라서", "라면", "라는", "란", "죠", "니까", "네요",
 )]
-# The polite 요, after a particle only (학교에서요): after a verb it is part of the verb (먹었어요).
+# The polite 요, after a particle only (학교에서요): after a verb it is part of the verb (먹었어요). Nor does
+# it follow 와 or 과, which are of writing: 도와요 and 나와요 are forms of 돕다 and 나오다.
 KOREAN_POLITE = "요"
+KOREAN_NOT_BEFORE_POLITE = {"와", "과"}
+KOREAN_PER = "당"
+# The copula's past after a vowel (였어요) is no copula after a stem that makes a verb in 이다 (모이다):
+# 모였어요 is 모이다's.
+KOREAN_COPULA_PAST = "였"
 KOREAN_STACK = 4
 # 가 does not follow these: before it they are 내, 제 (내가), so 나가 is a form of 나가다.
 KOREAN_NOT_BEFORE_GA = {"나", "저"}
@@ -286,9 +294,10 @@ def korean_follows(previous, sound):
     return sound == "" or {"C": final != 0, "V": final == 0, "R": final in (0, 8), "K": final not in (0, 8)}[sound]
 
 
-def korean_stacks(rest, stem):
-    """Every way [rest] is a stack of particles after [stem], each a list of pieces."""
+def korean_stacks(rest, stem, known=None):
+    """Every way [rest] is a stack of particles after [stem], each a list of pieces; [known] is the lexicon's test."""
     out = []
+    verb_in_i = known is not None and known(stem + "이다")
 
     def go(at, last, slot, pieces, place):
         if at == len(rest):
@@ -296,16 +305,20 @@ def korean_stacks(rest, stem):
             return
         if len(pieces) == KOREAN_STACK:
             return
-        if pieces and rest.endswith(KOREAN_POLITE) and at + len(KOREAN_POLITE) == len(rest):
+        if pieces and pieces[-1] not in KOREAN_NOT_BEFORE_POLITE and rest.endswith(KOREAN_POLITE) and at + len(KOREAN_POLITE) == len(rest):
             out.append(pieces + [KOREAN_POLITE])
         if slot <= 1 and (pieces or stem not in KOREAN_NOT_BEFORE_COPULA):
             for form, sound in KOREAN_COPULA:
+                if not pieces and verb_in_i and form.startswith(KOREAN_COPULA_PAST):
+                    continue
                 if rest.endswith(form) and at + len(form) == len(rest) and korean_follows(last, sound):
                     out.append(pieces + [form])
         for form, sound, next_slot in KOREAN_PARTICLES:
             if not rest.startswith(form, at) or not korean_follows(last, sound):
                 continue
             if form == "가" and not pieces and stem in KOREAN_NOT_BEFORE_GA:
+                continue
+            if form == KOREAN_PER and (pieces or stem not in KOREAN_COUNTERS):
                 continue
             # Two particles of place and manner may stack (에서부터, 까지만); otherwise each comes later than the last.
             if next_slot > slot or (next_slot == slot == 1 and place == 1):
@@ -410,13 +423,15 @@ def korean_pieces(word, known, rank):
     whole; one only the dictionary has never does against a cut after a word of the list (집은 is 집 + 은,
     though the dictionary has it as a form of 집다).
     """
+    if KOREAN_NATIVE_NUMBER.fullmatch(word):
+        return [word]
     best, cut = None, [word]
     after_listed = False
     for end in range(len(word) - 1, 0, -1):
         stem = word[:end]
-        if not known(stem):
+        if not known(stem) and not (stem.endswith(KOREAN_HONORIFIC) and end > 1 and known(stem[:-1])):
             continue
-        for stack in korean_stacks(word[end:], stem):
+        for stack in korean_stacks(word[end:], stem, known):
             cost = sum(math.log(rank(piece) or KOREAN_UNRANKED) + KOREAN_WORD_COST for piece in [stem] + stack)
             if rank(stem):
                 after_listed = True
@@ -426,6 +441,53 @@ def korean_pieces(word, known, rank):
         return [word]
     whole = rank(word) or (KOREAN_UNRANKED if known(word) and not after_listed else None)
     return [word] if whole is not None and math.log(whole) + KOREAN_WORD_COST <= best else cut
+
+
+def korean_counter_cut(word, known, rank, previous):
+    """
+    A Korean word after [previous], the word before it, cut as a counter and its particles when [previous] is
+    a number (한 대가 is 대 + 가, not 대가 "price"; 열한 시야 is 시 + 야) or a word of time before one (다음 주로
+    is 주 + 로, not 주로 "mainly"); None otherwise, or when the word is a counter itself.
+    """
+    if previous is None:
+        return None
+    counters = KOREAN_COUNTERS if korean_number(previous) or previous == "몇" else KOREAN_TIME_COUNTERS if previous in KOREAN_TIME_WORDS else ()
+    best, cut = None, None
+    for counter in sorted((c for c in counters if word.startswith(c)), key=len, reverse=True):
+        if counter == word:
+            return None
+        # A counter's stack may hold the copula's past: 다섯 개였어요 is 개 + 였어요, though 개이다 is a verb.
+        for stack in korean_stacks(word[len(counter):], counter):
+            cost = sum(math.log(rank(piece) or KOREAN_UNRANKED) for piece in stack)
+            if best is None or cost < best:
+                best, cut = cost, [counter] + stack
+        if cut:
+            return cut
+    return None
+
+
+def korean_number(word):
+    """Whether [word] is a number: in digits, or written out, native (세, 열한, 여든) or Sino-Korean (오, 삼십, 이천이십)."""
+    return word.isdigit() or bool(KOREAN_NATIVE_NUMBER.fullmatch(word) or KOREAN_SINO_NUMBER.fullmatch(word))
+
+
+# Number words before a counter (세 명, 두 시, 열두 개, 여든 살), which stay whole: 여든 is no 여 + 든.
+KOREAN_NATIVE_NUMBER = re.compile("(?:열|스물|스무|서른|마흔|쉰|예순|일흔|여든|아흔)(?:한|두|세|석|네|넉|다섯|여섯|일곱|여덟|아홉)?|한|두|세|석|네|넉|다섯|여섯|일곱|여덟|아홉")
+# Sino-Korean numbers (오 분, 만 원, 삼십 분), digits between their tens, hundreds, thousands and ten thousands;
+# but not 이 "this", 사 or 구 alone, which are more often words.
+KOREAN_SINO_NUMBER = re.compile("(?:[이삼사오육칠팔구]?[십백천만])+[일이삼사오육칠팔구]?|[일삼오육칠팔]")
+# The honorific 님 after a word (사장님께 is 사장님 + 께 though the lexicon lacks 사장님).
+KOREAN_HONORIFIC = "님"
+KOREAN_COUNTERS = {
+    "개", "명", "분", "시", "시간", "살", "번", "마리", "잔", "병", "권", "장", "대", "층", "원", "년", "월", "일", "주",
+    "주일", "주년", "개월", "달", "가지", "그릇", "벌", "켤레", "송이", "번째", "째", "쪽", "초", "세", "인분", "칸", "줄",
+    "통", "곡", "편", "채", "군데", "학년", "반", "호", "점", "퍼센트", "도", "배", "박", "박스", "봉지", "상자", "조각",
+    "컵", "접시", "바퀴", "정거장", "킬로", "킬로미터", "미터", "킬로그램", "그램", "리터", "센티미터", "호선", "등", "사람",
+    "인", "건", "회",
+}
+# Words of time before a unit of time (다음 주, 지난 달, 이번 해), and those units.
+KOREAN_TIME_WORDS = {"다음", "이번", "지난", "저번", "매"}
+KOREAN_TIME_COUNTERS = {"주", "달", "해", "번"}
 
 
 def is_wordlike(text):
@@ -856,7 +918,7 @@ def build_korean(found, size):
         """The cut with the longest word the dictionary knows, before the list's ranks can choose among them."""
         for end in range(len(run) - 1, 0, -1):
             if run[:end] in pack:
-                stacks = korean_stacks(run[end:], run[:end])
+                stacks = korean_stacks(run[end:], run[:end], pack.__contains__)
                 if stacks:
                     return run[:end], stacks[0]
         return None

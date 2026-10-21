@@ -789,16 +789,8 @@ def turkish_base(word, ranks):
 # Korean: runs of Hangul are the words, each cut as the reader cuts it (KoreanParser, ported as
 # build_frequency_list.korean_pieces) by the ranks of the list the app ships, not the courses' pinned one.
 KOREAN_RUN = re.compile("[가-힣ᄀ-ᇿ㄰-㆏]+")
-# Number words before a counter (세 명, 두 시, 열두 개, 오 분): the number and the counter count as known.
-KOREAN_NATIVE_NUMBER = re.compile("(?:열|스물|스무|서른|마흔|쉰|예순|일흔|여든|아흔)?(?:한|두|세|석|네|넉|다섯|여섯|일곱|여덟|아홉)?")
-# Sino-Korean numbers alone (오 분, 만 원), but not 이 "this", 사 or 구, which are more often words.
-KOREAN_SINO_NUMBER = re.compile("[일이삼사오육칠팔구십백천만]{2,}|[일삼오육칠팔십백천만]")
-KOREAN_COUNTERS = {
-    "개", "명", "분", "시", "시간", "살", "번", "마리", "잔", "병", "권", "장", "대", "층", "원", "년", "월", "일", "주",
-    "주일", "주년", "개월", "달", "가지", "그릇", "벌", "켤레", "송이", "번째", "째", "쪽", "초", "세", "인분", "칸", "줄",
-    "통", "곡", "편", "채", "군데", "학년", "반", "호", "점", "퍼센트", "도", "배", "박", "박스", "봉지", "상자", "조각",
-    "컵", "접시", "바퀴", "정거장", "킬로", "킬로미터", "미터", "킬로그램", "그램", "리터", "센티미터", "호선", "등", "사람",
-}
+# Number words (build_frequency_list.korean_number) before a counter (세 명, 두 시, 열두 개, 오 분): the number
+# and the counter count as known.
 _korean = {}
 
 
@@ -830,6 +822,13 @@ def korean_guess(form, ranks, heads, depth=0):
     """
     k = korean_reader()
     fl = k["fl"]
+    # The pack's own verb for the form (나으세요 of 낫다, not 나다), as the list builder takes it.
+    listed = [lemma for lemma in k["lemmas"].get(form, ()) if lemma in heads and lemma in k["verbs"]]
+    if listed:
+        return min(listed, key=ranks.get)
+    # The polite 요 after a word of the list (이거요), before the rules take it for a verb's (익다).
+    if form.endswith(fl.KOREAN_POLITE) and form[:-1] in ranks:
+        return form[:-1]
     found = [(steps, ranks[lemma], lemma) for lemma, steps in fl.korean_dictionary_forms(form)
              if lemma in heads and lemma in k["verbs"] and fl.korean_stem_of(lemma, form)]
     if found:
@@ -839,8 +838,6 @@ def korean_guess(form, ranks, heads, depth=0):
         return stem + "다"
     if form.endswith(fl.KOREAN_POLITE) and len(form) > 2 and depth < 2:
         base = form[:-1]
-        if base in ranks:
-            return base
         listed = [lemma for lemma in k["lemmas"].get(base, ()) if lemma in heads and lemma in k["verbs"]]
         return min(listed, key=ranks.get) if listed else korean_guess(base, ranks, heads, depth + 1)
     return None
@@ -878,30 +875,34 @@ def korean_tokens(text, ranks, names, heads):
     """
     k = korean_reader()
     names = sorted({part for name in names for part in name.split() if part}, key=len, reverse=True)
+    fl = k["fl"]
     out = []
-    previous_number, previous_end = False, 0
+    previous_number, previous_end, previous_run = False, 0, None
     for match in KOREAN_RUN.finditer(text):
         run = match.group(0)
+        start = match.start()
+        # The word before, as the reader gives it: the run before after spaces, or the digits just before.
+        gap = text[previous_end:start]
+        after_digits = start > 0 and text[start - 1].isdigit()
+        before = re.search(r"\d+$", gap).group(0) if after_digits else previous_run if gap and gap.isspace() else None
+        previous_run = run
         particles = korean_name(run, names)
         if particles is not None:
             out.append(KNOWN)
             out.extend(particles)
             previous_number, previous_end = False, match.end()
             continue
-        pieces = k["fl"].korean_pieces(run, k["known"], k["rank"])
-        start = match.start()
+        # After a number, a counter and its particles (한 대가 is 대 + 가, not 대가 "price").
+        pieces = fl.korean_counter_cut(run, k["known"], k["rank"], before) or fl.korean_pieces(run, k["known"], k["rank"])
         # A counter after digits (3개, 2024년에) or after a number word (세 명, 오 분) belongs to the number.
-        after_digits = start > 0 and text[start - 1].isdigit()
-        gap = text[previous_end:start]
         spaced = previous_number and bool(gap) and gap.isspace()
-        if after_digits or spaced and pieces[0] in KOREAN_COUNTERS:
+        if after_digits or spaced and pieces[0] in fl.KOREAN_COUNTERS:
             if spaced:
                 out[-1] = KNOWN
             out.append(KNOWN)
             pieces = pieces[1:]
         previous_end = match.end()
-        previous_number = len(pieces) == 1 and pieces[0] == run and bool(
-            KOREAN_SINO_NUMBER.fullmatch(run) or KOREAN_NATIVE_NUMBER.fullmatch(run))
+        previous_number = len(pieces) == 1 and pieces[0] == run and fl.korean_number(run)
         for piece in pieces:
             out.append(piece if piece in ranks else korean_guess(piece, ranks, heads) or piece)
     return out
