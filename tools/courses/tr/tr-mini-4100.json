@@ -1,0 +1,189 @@
+{
+  "id": "tr-mini-4100",
+  "rankUpTo": 4100,
+  "level": "C1",
+  "title": "Gündelik hayatta beden ve zihin",
+  "description": "Ten standalone texts (columns, interviews and portraits) about how the body and the mind meet in everyday life in Turkey.",
+  "topic": "Body and mind in daily life",
+  "names": [
+    "Ankara",
+    "Esra",
+    "İzmir",
+    "Ayla",
+    "Burak",
+    "Trabzon",
+    "İstanbul",
+    "Bursa",
+    "Fatma",
+    "Merve",
+    "Sinan",
+    "Halil",
+    "Rüzgâr",
+    "Emine",
+    "Yusuf",
+    "İbrahim",
+    "Leyla",
+    "Ayşe",
+    "Mehmet",
+    "Eskişehir",
+    "Ege",
+    "Zehra",
+    "Türkçe",
+    "Fransızca"
+  ],
+  "lessons": [
+    {
+      "title": "Masa başında bir beden",
+      "summary": "Esra, who sits at a computer all day, finds her ankles swollen and changes small habits on her doctor's advice.",
+      "newWords": [
+        "bilişim",
+        "ödem",
+        "topuk",
+        "otopark",
+        "sensör",
+        "litre",
+        "mineral",
+        "sulu",
+        "endişeli"
+      ],
+      "text": "Adım Esra. Otuz dört yaşındayım ve Ankara'da bir bilişim şirketinde çalışıyorum. Bilişim sektöründeki pek çok insan gibi ben de günde en az dokuz saat bilgisayarın karşısında oturuyorum. Yıllarca bunun bedenime bir zararı olduğunu düşünmedim. Sonuçta yorucu bir iş yapmıyordum; ne bir şey taşıyordum ne de koşuyordum.\n\nGeçen kış bir akşam eve döndüğümde ayakkabılarımı çıkarmakta zorlandım. Ayak bileklerim şişmişti. Parmağımla bastığımda derimde küçük bir çukur kalıyor, ancak birkaç saniye sonra kayboluyordu. Endişeli bir şekilde internette araştırma yaptım, ama okuduklarımdan sonra daha da endişeli oldum. Ertesi sabah doktora gittim.\n\nDoktor beni dikkatle dinledi ve bacaklarımı muayene etti. Sonra bunun bir ödem olduğunu söyledi.\n\n— Ödem, vücutta fazla sıvının birikmesidir, diye açıkladı. Sizin durumunuzda ciddi bir hastalık görmüyorum. Bu ödem büyük ihtimalle az hareket etmenizden kaynaklanıyor. Bütün gün oturduğunuz için kan bacaklarınızdan kalbinize kolayca dönemiyor.\n\nArdından bana üç öneride bulundu. Birincisi, her saat başı kalkıp birkaç dakika yürüyecektim. İkincisi, günde en az iki litre su içecektim; oysa ben o güne kadar bir litreyi bile zor içiyordum. Üçüncüsü, tuzu azaltacak, bunun yerine sulu sebze ve meyveler yiyecektim.\n\n— Sulu yiyecekler vücuda hem su hem de mineral verir, dedi doktor. Bazı mineraller vücudun sıvı dengesini korur. Tuz ise sıvıyı vücutta tutar.\n\nİlk hafta bu önerilerin çoğunu unuttum. Sonra telefonuma adımlarımı sayan bir uygulama yükledim. Telefonun içindeki küçük bir sensör attığım her adımı kaydediyor. Bir saat boyunca hareket etmediğimi anlayınca sensör bir sinyal veriyor, telefon da titreyip beni kalkmaya çağırıyor.\n\nEn büyük değişikliği ise otoparkta yaptım. Eskiden her sabah otoparkın kapıya en yakın yerini bulmak için on dakika dolaşırdım. Şimdi arabamı bilerek otoparkın en uzak köşesine bırakıyorum. Böylece sabah ve akşam fazladan bin adım atıyorum.\n\nBir de yürüyüş şeklimi değiştirdim. Eskiden ayaklarımı yere sürüyordum. Şimdi önce topuğumu yere basıyor, sonra ağırlığımı yavaşça parmaklarıma veriyorum. İlk günlerde topuklarım biraz ağrıdı, ama kısa sürede alıştım. Yüksek topuklu ayakkabılarımı da dolaba kaldırdım.\n\nÜç ay sonra ayak bileklerimdeki ödem tamamen geçti. Kendimi daha dinç hissediyorum, öğleden sonraları eskisi kadar yorulmuyorum. Artık endişeli değilim; yalnızca bedenime daha çok dikkat ediyorum.\n\nSorular:\nEsra nerede çalışıyor?\nEsra Ankara'da bir bilişim şirketinde çalışıyor.\nDoktor Esra'nın ayak bileklerindeki şişliğe ne ad verdi?\nDoktor bunun bir ödem olduğunu, yani vücutta fazla sıvının birikmesi olduğunu söyledi.\nDoktor Esra'ya günde kaç litre su içmesini önerdi?\nGünde en az iki litre su içmesini önerdi.\nSulu sebze ve meyveler neden faydalı?\nÇünkü vücuda hem su hem de mineral verirler.\nEsra otoparkta neyi değiştirdi?\nArabasını artık bilerek otoparkın en uzak köşesine bırakıyor ve fazladan yürüyor."
+    },
+    {
+      "title": "Bir nefes sağlık",
+      "summary": "An interview with Ayla, who leads an amateur choir in İzmir, about breath, voice and the joy of singing together.",
+      "newWords": [
+        "koro",
+        "davul",
+        "sevda",
+        "saadet",
+        "cihan",
+        "ender",
+        "iltifat",
+        "çınar"
+      ],
+      "text": "İzmir'de her salı akşamı, eski bir okulun bahçesinde, yaşları yirmi ile yetmiş arasında değişen otuz kişi şarkı söylüyor. Bu amatör koroyu on yıldır Ayla Hanım yönetiyor. Yaz aylarında provalar bahçedeki yaşlı çınarın altında yapılıyor. Ayla Hanım'la bir prova öncesinde, çınarın gölgesinde konuştuk.\n\n— Koronuza kimler geliyor?\n\n— Her meslekten insan geliyor: öğretmenler, hemşireler, emekli memurlar, üniversite öğrencileri. Çoğu daha önce hiç bir koroda şarkı söylememiş. İlk gün çoğunun sesi titriyor, kimse kimsenin gözüne bakmıyor. Birkaç hafta sonra ise aynı insanlar bu çınarın altında birbirine sarılıyor.\n\n— Şarkı söylemenin bedene ne faydası var?\n\n— Doğru şarkı söylemek için önce doğru nefes almak gerekiyor. Gün içinde çoğumuz çok hızlı ve kısa nefes alıyoruz. Koroda nefesi karnımıza kadar indirmeyi, yavaşça vermeyi öğreniyoruz. Bu, kalbi yavaşlatıyor ve insanı sakinleştiriyor. Eski bir şiirde şöyle bir söz var: \"Olmaya devlet cihanda bir nefes sıhhat gibi.\" Cihan, eski dilde dünya demek. Yani cihanda sağlıklı bir nefes kadar büyük bir zenginlik yoktur. Bu sözü her yeni üyemize okurum.\n\n— Hangi şarkıları söylüyorsunuz?\n\n— Çoğunlukla türküler. Türkülerimizin büyük kısmı sevda üzerinedir. Ama sevda yalnızca bir insana duyulan aşk değildir; bir köye, bir denize, kaybolmuş bir zamana duyulan derin özlem de sevdadır. Bir sevda türküsünü söylerken insanlar kendi hayatlarından bir şeyi hatırlıyor. Bazen bir üyemizin gözleri doluyor. Ben bunu kötü bir şey olarak görmüyorum. Ağlamak da bir çeşit nefes almaktır.\n\n— Provalarda müzik aleti kullanıyor musunuz?\n\n— Bazı türkülerde bir üyemiz davul çalıyor. Davulun ritmi otuz kişiyi bir arada tutuyor. Davul başlayınca en utangaç üyemiz bile ayağıyla ritim tutmaya başlıyor.\n\n— Güzel bir sesi olmayan biri de koroya katılabilir mi?\n\n— Tabii. Güzel ses sanıldığı kadar ender değildir. Asıl ender olan, sabırla dinlemeyi bilmektir. Koroda insan önce başkalarını dinlemeyi öğreniyor.\n\n— Üyelerinize iltifat eder misiniz?\n\n— Ederim, ama az ve yerinde. Boş iltifat kimseyi geliştirmez. Bir üyemiz zor bir bölümü sonunda doğru söylediğinde ona bunu açıkça söylerim. O zaman iltifatın bir değeri olur.\n\n— Sizi bu işe bağlayan şey ne?\n\n— Geçen ay, provanın sonunda yetmiş yaşındaki bir üyemiz yanıma geldi. \"Haftanın en büyük saadeti bu iki saat,\" dedi. Saadet büyük bir kelime, biliyorum. Ama o akşam çınarın altında hepimiz bu saadeti hissettik.\n\nSorular:\nAyla Hanım'ın korosu provalarını yazın nerede yapıyor?\nProvalar eski bir okulun bahçesinde, yaşlı bir çınarın altında yapılıyor.\n\"Cihan\" ne demek?\nCihan, eski dilde dünya demek.\nAyla Hanım'a göre sevda yalnızca aşk mıdır?\nHayır, sevda bir köye, bir denize ya da kaybolmuş bir zamana duyulan derin özlem de olabilir.\nDavul koroda ne işe yarıyor?\nDavulun ritmi otuz kişiyi bir arada tutuyor.\nAyla Hanım'a göre koroda asıl ender olan nedir?\nAsıl ender olan, sabırla dinlemeyi bilmektir."
+    },
+    {
+      "title": "Etsiz bir ay",
+      "summary": "Burak tries a plant-based diet for a month, learns to read labels and ends up eating meat only now and then.",
+      "newWords": [
+        "tabanlı",
+        "biftek",
+        "hindi",
+        "fındık",
+        "kokteyl",
+        "rezervasyon",
+        "ilkel",
+        "kanmak",
+        "logo"
+      ],
+      "text": "Geçen ay kendi üzerimde küçük bir deney yaptım: otuz gün boyunca bitki tabanlı beslendim. Yani et, tavuk, balık, süt ve yumurta yemedim. Bunu moda olduğu için değil, sağlığım için yaptım. Yıllık kontrolde kan değerlerim kötü çıkmıştı ve doktorum beslenmemi gözden geçirmemi istemişti.\n\nAslında et yemeyi çok seven biriyim. Hafta sonları kendime kalın bir biftek pişirmek en büyük zevkimdi. Yılbaşında annem fırında hindi yapar, biz de kardeşimle hindinin en güzel yerini paylaşamazdık. Bu yüzden bitki tabanlı bir ayın benim için kolay olmayacağını biliyordum.\n\nİlk gün markete gittim ve hemen bir hata yaptım. Paketinin üzerinde yeşil bir yaprak logosu olan bir bisküvi aldım. Logoya kanıp içindekiler listesini okumamıştım. Evde baktığımda bisküvinin içinde tereyağı ve bol şeker olduğunu gördüm. O yeşil logo yalnızca bir reklamdı. İlk dersim bu oldu: Paketlerin üzerindeki renklere ve logolara kanmayın, listeyi okuyun. Ben o gün kandım, ama bir daha kanmadım.\n\nHerkesin ilk sorusu aynıydı: \"Proteini nereden alacaksın?\" Cevabı yavaş yavaş öğrendim: fasulye, ceviz, fındık. Sabahları kahvaltıda bir avuç fındık yiyordum. Fındıklar Trabzon'daki teyzemin bahçesinden geliyordu; teyzem bunu duyunca bana fazladan iki kilo fındık gönderdi. Öğleden sonraları da kendime bir meyve kokteyli hazırlıyordum: muz, elma, biraz da fındık. Meyve kokteyli beni akşama kadar tok tutuyordu.\n\nBir akşam bir arkadaşım bana güldü.\n\n— İnsan ilkel çağlardan beri et yer, dedi. Bu bizim doğamızda var.\n\nHaklı olabilir. Ama ilkel insanın hayatı bizimkine hiç benzemiyordu. Her gün kilometrelerce yürüyor, et ise belki haftada bir bulabiliyordu. Biz ise bütün gün oturuyor ve her gün et yiyoruz.\n\nAyın sonunda eşimle evlilik yıl dönümümüz vardı. İstanbul'da bitki tabanlı yemekler yapan bir lokanta için rezervasyon yaptım. Lokanta o kadar kalabalıktı ki rezervasyonu iki hafta önceden yapmam gerekti. Menüde \"biftek\" diye bir yemek gördüm ve şaşırdım. Garson bunun mantardan yapıldığını söyledi. Tadı gerçek bir biftek gibi değildi, ama çok lezzetliydi.\n\nOtuz günün sonunda yeniden kontrole gittim. Değerlerim düzelmişti, kendimi de daha hafif hissediyordum. Bugün tamamen et yemeyi bırakmış değilim. Ama artık biftek benim için her hafta değil, ayda bir yenen özel bir yemek.\n\nSorular:\nBurak neden bitki tabanlı beslenmeye karar verdi?\nKan değerleri kötü çıkmıştı ve doktoru beslenmesini gözden geçirmesini istemişti.\nBurak markette nasıl bir hata yaptı?\nYeşil bir logoya kanıp içindekiler listesini okumadan bir bisküvi aldı.\nBurak sabahları ne yiyordu?\nKahvaltıda teyzesinin bahçesinden gelen bir avuç fındık yiyordu.\nBurak'a göre ilkel insanın hayatı bizimkinden nasıl farklıydı?\nİlkel insan her gün kilometrelerce yürüyor, et ise belki haftada bir bulabiliyordu.\nLokantadaki \"biftek\" neden yapılmıştı?\nMantardan yapılmıştı."
+    },
+    {
+      "title": "Rehberlik odası",
+      "summary": "A portrait of Fatma, a school counsellor in Bursa, and of a student who felt worthless after a quarrel with her father.",
+      "newWords": [
+        "rehberlik",
+        "oturum",
+        "değersiz",
+        "yansıma",
+        "imaj",
+        "doğruluk",
+        "anlaşmazlık",
+        "şartlı",
+        "eğitimli"
+      ],
+      "text": "Bursa'daki bir lisenin ikinci katında, kapısında \"Rehberlik Servisi\" yazan küçük bir oda var. Fatma Hanım yirmi yıldır bu odada öğrencileri dinliyor. Üniversitede psikoloji okumuş, sonra da çocuklar ve gençlerle çalışmak üzere ayrıca eğitim almış. Okulun müdürü onun için \"Bu şehirdeki en eğitimli rehberlik öğretmenlerinden biri,\" diyor. Fatma Hanım ise bu sözü duyunca gülüyor: \"Eğitimli olmak yetmiyor. Asıl iş, dinlemeyi bilmek.\"\n\nFatma Hanım her öğrenciyle haftada bir, kırk dakikalık bir oturum yapıyor. Oturumlarda konuşulanlar odadan dışarı çıkmıyor; bu kural olmasa hiçbir öğrencinin kapıyı çalmayacağını biliyor.\n\nBu yıl odaya en sık gelen öğrencilerden biri on altı yaşındaki Merve'ydi. Merve ilk oturumda uzun süre konuşmadı. Sonunda tek bir cümle söyledi:\n\n— Kendimi değersiz hissediyorum.\n\nFatma Hanım bu cümleyi her yıl onlarca kez duyuyor. Gençlerin birçok sebeple kendilerini değersiz hissettiğini biliyor. Bunlardan biri telefonlarında gördükleri hayatlar. \"Ekranda herkes mutlu, herkes güzel, herkes başarılı görünüyor,\" diyor. \"Ama orada gördükleri gerçek hayat değil, insanların kendileri için seçtikleri bir imaj. Bir imajla kendini kıyaslayan genç her zaman kaybeder.\"\n\nMerve'nin derdi ise yalnızca telefonla ilgili değildi. Babasıyla arasında ciddi bir anlaşmazlık vardı. Babası onun doktor olmasını istiyordu, Merve ise resim yapmak istiyordu. Matematik sınavından düşük bir not aldığı akşam babası çok kızmış, Merve de kendini odasına kapatmıştı. Bu anlaşmazlık aylardır sürüyordu.\n\nFatma Hanım oturumlarda Merve'den bir düşüncesini sınamasını istedi: \"Babam beni sevmiyor.\" Merve bu düşüncenin doğruluğundan ne kadar emindi? Birlikte bu düşüncenin doğruluğunu sınadılar. Babası her sabah onu okula bırakıyor, hasta olduğunda başından ayrılmıyordu. Merve yavaş yavaş sorunun sevgi değil, beklenti olduğunu gördü.\n\nFatma Hanım bir gün Merve'ye şöyle dedi:\n\n— Bazı çocuklar ancak yüksek not aldıklarında sevildiklerini düşünür. Buna şartlı sevgi diyoruz. Çoğu zaman anne babalar sevgilerini gerçekten şartlı vermez; yalnızca kaygılarını yanlış gösterirler.\n\nBir ay sonra Merve'nin babası da bir oturuma geldi. Fatma Hanım ona kızının resimlerini gösterdi. Adam uzun süre sessiz kaldı. Sonra kızına döndü ve \"Ben senin yalnızca geleceğin için korkuyorum,\" dedi.\n\nFatma Hanım'ın masasının arkasındaki duvarda küçük bir ayna asılı. Öğrencilerine bazen bu aynayı gösteriyor ve aynadaki yansımanın onların yalnızca bir yüzü olduğunu söylüyor. \"Başkalarının gözünde gördüğünüz yansıma da öyle,\" diyor. \"Siz o yansımadan çok daha fazlasısınız.\"\n\nSorular:\nFatma Hanım öğrencilerle ne sıklıkla oturum yapıyor?\nHer öğrenciyle haftada bir, kırk dakikalık bir oturum yapıyor.\nFatma Hanım'a göre gençler ekranda neyi görüyor?\nGerçek hayatı değil, insanların kendileri için seçtikleri bir imajı görüyorlar.\nMerve ile babası arasındaki anlaşmazlık neydi?\nBabası onun doktor olmasını istiyordu, Merve ise resim yapmak istiyordu.\nŞartlı sevgi ne demek?\nBir çocuğun ancak yüksek not aldığında sevildiğini düşünmesi demek.\nMerve \"Babam beni sevmiyor\" düşüncesinin doğruluğunu nasıl sınadı?\nBabasının onu her sabah okula bıraktığını ve hastayken yanından ayrılmadığını hatırladı."
+    },
+    {
+      "title": "Çaylak forvet",
+      "summary": "Sinan, a nervous rookie striker in an amateur team in Trabzon, learns to calm his body before his first match.",
+      "newWords": [
+        "çaylak",
+        "forvet",
+        "tribün",
+        "mekik",
+        "fırlamak",
+        "lakap",
+        "mert",
+        "sallanmak",
+        "reaksiyon"
+      ],
+      "text": "Sinan on sekiz yaşında, Trabzon'da bir amatör futbol takımının en genç oyuncusu. Takıma bu sezon katıldığı için arkadaşları ona \"çaylak\" diyor. Sinan bu sözden hiç rahatsız olmuyor; her takımda bir çaylak olur, gelecek yıl da başka biri olacak.\n\nSinan forvet oynuyor. İyi bir forvet, gol atmak için hem hızlı bir bedene hem de sakin bir zihne ihtiyaç duyar. Sinan'ın bedeni hızlı, ama zihni pek sakin değil. Antrenmanlarda çok iyi oynuyor; topu ayağına aldığında rakiplerinin arasından fırlayıp kaleye koşuyor. Maçlarda ise heyecandan donup kalıyor.\n\nTakımın kaptanı otuz yaşındaki Halil. O da yıllarca forvet oynamış. Halil herkesin saygı duyduğu, mert bir adam. Hatasını hemen kabul eder, başkasının başarısını da açıkça söyler. Sinan'ın sorununu ilk o fark etti. Bir antrenmandan sonra yanına oturdu.\n\n— Maçtan önce bacakların sallanıyor, değil mi? diye sordu.\n\nSinan şaşırdı. Gerçekten de her maçtan önce soyunma odasında dizleri sallanıyor, elleri titriyordu.\n\n— Benimki de sallanırdı, dedi Halil. Bu senin bedeninin bir tepkisi. Korktuğunu sanıyorsun, ama aslında bedenin hazırlanıyor.\n\nHalil ona birkaç şey öğretti. Önce nefes: dört saniye nefes almak, dört saniye tutmak, dört saniye vermek. Sonra her sabah yüz mekik ve bir koşu. Halil'e göre mekik yalnızca karın kaslarını güçlendirmiyor, insana disiplin de kazandırıyordu. \"Sabah yüz mekik çeken biri, öğleden sonra kendine daha çok güvenir,\" diyordu.\n\nAntrenör de Sinan için ışıklı bir çalışma hazırladı. Yerde renkli lambalar yanıyor, Sinan hangi lamba yanarsa ona koşuyordu. Bu çalışma onun reaksiyon hızını ölçüyordu. İlk hafta reaksiyon süresi yarım saniyeydi; bir ay sonra bu süre çok kısaldı.\n\nSezonun ilk resmî maçı bir pazar günü oynandı. Tribünler ailelerle, komşularla doluydu. Sinan sahaya çıkmadan önce gözlerini kapadı ve Halil'in öğrettiği gibi nefes aldı. Dizleri yine biraz sallandı, ama bu kez korkmadı.\n\nİkinci yarının ortasında Halil ona uzun bir pas verdi. Sinan iki rakibin arasından fırladı ve topu kalecinin yanından ağlara gönderdi. Tribünden büyük bir ses yükseldi. Sinan tribüne baktı ve annesini gördü; ayağa kalkmış, ellerini sallıyordu.\n\nO akşam takım arkadaşları ona yeni bir lakap taktı: \"Rüzgâr.\" Sinan bu lakabı çok sevdi, ama Halil onu uyardı:\n\n— Lakap güzel, ama asıl iş haftaya da aynı sakinlikte oynamak.\n\nSorular:\nArkadaşları Sinan'a neden \"çaylak\" diyor?\nÇünkü takıma bu sezon katılan en genç oyuncu o.\nHalil nasıl bir adam?\nHatasını hemen kabul eden, başkasının başarısını açıkça söyleyen mert bir adam.\nHalil'e göre mekik çekmenin faydası nedir?\nMekik karın kaslarını güçlendiriyor ve insana disiplin kazandırıyor.\nIşıklı çalışma neyi ölçüyordu?\nSinan'ın reaksiyon hızını ölçüyordu.\nMaçtan sonra arkadaşları Sinan'a hangi lakabı taktı?\nOna \"Rüzgâr\" lakabını taktılar."
+    },
+    {
+      "title": "Palyaço korkusu",
+      "summary": "Emine's son Yusuf is frightened of clowns, and his mother plans a sixth birthday party that suits him.",
+      "newWords": [
+        "palyaço",
+        "ürkütücü",
+        "yarasa",
+        "ninja",
+        "süslü",
+        "figür",
+        "küre",
+        "enkaz"
+      ],
+      "text": "Emine'nin oğlu Yusuf altı yaşına giriyordu. Emine doğum günü için büyük bir parti düşünüyordu. Bir arkadaşı ona çocuk partilerine gelen bir palyaço önerdi. Palyaço şarkı söylüyor, balonlarla hayvanlar yapıyor, çocukları bir saat boyunca güldürüyordu. Emine fikri çok beğendi.\n\nAma akşam yemeğinde Yusuf'a palyaçodan söz edince çocuğun yüzü değişti.\n\n— Palyaço istemiyorum, dedi Yusuf. Palyaçolar ürkütücü.\n\nEmine şaşırdı. Ona göre palyaçolar neşeli, renkli figürlerdi. Ama Yusuf'un gözünde beyaz boyalı yüz, kocaman kırmızı ağız ve hiç değişmeyen gülümseme ürkütücüydü.\n\nO gece Emine bu korku hakkında okudu. Birçok çocuğun palyaçodan korktuğunu öğrendi. Uzmanlara göre bunun basit bir sebebi var: Çocuklar insanların ne hissettiğini yüzlerine bakarak anlar. Boyalı bir yüzde ise gerçek duygular görünmez. Gülümseyen ama gözleri bir şey söylemeyen bir yüz, küçük bir çocuğa ürkütücü gelebilir. Emine, oğlunun korkusunun saçma olmadığını anladı.\n\nErtesi gün Yusuf'a ne istediğini sordu. Yusuf hiç düşünmeden cevap verdi:\n\n— Ninja partisi!\n\nYusuf bir süredir ninjalara hayrandı. Siyah giysili, sessiz ve hızlı ninjalar onun gözünde dünyanın en cesur insanlarıydı. Emine ona siyah bir ninja kıyafeti dikti. Pastayı da birlikte hazırladılar. Pasta çok süslüydü: üstünde siyah şekerden küçük bir ninja figürü, etrafında yıldızlar vardı. Yusuf her figürü tek tek kendisi yerleştirdi.\n\nParti günü salon renkli kâğıtlarla süslüydü. Yusuf'un arkadaşları da ninja kıyafetleriyle geldi. Kızlardan biri süslü bir prenses elbisesi giymişti; o gün o da \"prenses ninja\" oldu. Çocuklar saklambaç oynadı, sessizce yürüme yarışması yaptı.\n\nAkşamüstü dedesi Yusuf'a bir kar küresi getirdi. Küre sallanınca içindeki küçük dağ evinin üstüne kar yağıyordu. Yusuf küreyi saatlerce salladı ve karın yavaş yavaş yere inişini izledi.\n\nGece Yusuf yatmadan önce annesine bir şey itiraf etti:\n\n— Ben yarasalardan da korkuyordum, ama artık korkmuyorum. Ninjalar da yarasalar gibi gece çıkıyor.\n\nEmine güldü. Geçen ay bir belgeselde yarasaların karanlıkta seslerle yollarını bulduğunu birlikte izlemişlerdi. Yusuf o günden beri yarasaları ürkütücü değil, ilginç buluyordu.\n\nÇocuklar gittikten sonra salon bir enkaza dönmüştü: yerde pasta parçaları, kâğıtlar, patlamış balonlar vardı. Emine bu enkaza baktı ve yorgun ama mutlu bir şekilde gülümsedi. Yusuf ise kar küresini elinde tutarak koltukta uyuyakalmıştı.\n\nSorular:\nYusuf neden palyaço istemedi?\nÇünkü palyaçoları ürkütücü buluyordu.\nUzmanlara göre çocuklar neden palyaçodan korkabilir?\nÇünkü boyalı bir yüzde gerçek duygular görünmez.\nPastanın üstünde ne vardı?\nSiyah şekerden küçük bir ninja figürü ve yıldızlar vardı.\nDedesi Yusuf'a ne getirdi?\nİçinde küçük bir dağ evi olan bir kar küresi getirdi.\nYusuf neden artık yarasalardan korkmuyor?\nÇünkü bir belgeselde yarasaların karanlıkta seslerle yollarını bulduğunu öğrenmişti ve onları ilginç buluyor."
+    },
+    {
+      "title": "Dedemin sabahları",
+      "summary": "Leyla describes how her grandfather, a retired aviation radio operator, keeps his mind fresh with daily routines at eighty-eight.",
+      "newWords": [
+        "telgraf",
+        "varis",
+        "atlı",
+        "mübarek",
+        "cemiyet",
+        "havacılık",
+        "sulamak",
+        "fedakarlık",
+        "denli"
+      ],
+      "text": "Dedem İbrahim seksen sekiz yaşında. Hâlâ İzmir'deki eski evinde tek başına yaşıyor ve her sabahı aynı şekilde başlıyor. Saat altıda kalkıyor, pencereyi açıyor ve bahçedeki çiçekleri suluyor. Çiçekleri sularken onlarla konuşuyor, hangisinin susuz kaldığını yaprağından anlıyor. \"Bir çiçeği sulamak için önce ona bakmayı bilmek gerekir,\" diyor.\n\nDedem hayatını havacılık alanında geçirdi. Gençliğinde havaalanında telsiz memuruydu. O yıllarda haberleşmenin bir kısmı hâlâ telgrafla yapılıyordu. Dedem telgraf makinesinin sesini bugün bile taklit edebiliyor; masaya parmaklarıyla vurup kısa ve uzun sesler çıkarıyor. Bir keresinde bana adımı telgrafla nasıl yazacağını göstermişti.\n\nÇocukluğu ise bambaşka bir dünyada geçmiş. Köylerine araba girmezmiş; insanlar şehre atlı arabalarla gidermiş. Dedem ilk kez bir uçak gördüğünde yedi yaşındaymış. O gün atlı arabanın üstünden gökyüzüne bakmış ve bir gün uçakların yanında çalışmaya karar vermiş. Havacılık onun için bir meslek değil, çocukluk hayaliymiş.\n\nEmekli olduktan sonra dedem emekli havacıların kurduğu bir cemiyete üye oldu. Cemiyet ayda bir toplanıyor; üyeler eski fotoğraflara bakıyor, gençlere havacılık tarihini anlatıyor. Dedem bu toplantıları hiç kaçırmıyor. Doktoru da ona hep aynı şeyi söylüyor: Yaşlılıkta zihni canlı tutmanın en iyi yolu insanlarla görüşmek ve öğrenmeye devam etmektir. Cemiyetteki arkadaşları dedemin en büyük ilacı.\n\nBabaannem on yıl önce aramızdan ayrıldı. Dedem onu hâlâ büyük bir sevgiyle anıyor. Babaannem yıllarca dedemin vardiyalarına göre yaşamış, geceleri onu beklemiş, üç çocuğu neredeyse tek başına büyütmüş. Dedem bu fedakârlığı hiç unutmadı. \"Onun fedakârlığı olmasa ben bu işi yapamazdım,\" diyor.\n\nBayramlarda bütün aile dedemin evinde toplanıyor. Küçükler elini öpüyor, \"Bayramınız mübarek olsun dede,\" diyor. Dedem de her birine \"Sizin de bayramınız mübarek olsun,\" diye karşılık veriyor ve cebinden şeker çıkarıyor.\n\nGeçen bayram dedem bana eski bir kutu verdi. İçinde ilk telsiz belgesi, siyah beyaz fotoğraflar ve yıllar önce babaanneme yazdığı mektuplar vardı.\n\n— Bu kutunun vârisi sensin, dedi. Ev, eşyalar, bunlar önemli değil. Ama bu kâğıtlar ailenin hafızası.\n\nKendimi bir kutunun değil, bir hayatın vârisi gibi hissettim. Bir insanın bu denli düzenli ve meraklı bir hayat yaşayabileceğini dedemden öğrendim. Onun bu denli dinç olmasının sırrını sorduğumda ise hep aynı cevabı veriyor: \"Her sabah bir şeye bakmak, bir şeyi sulamak ve birini aramak.\"\n\nSorular:\nİbrahim Bey her sabah ne yapıyor?\nSaat altıda kalkıyor, pencereyi açıyor ve bahçedeki çiçekleri suluyor.\nİbrahim Bey hayatını hangi alanda geçirdi?\nHavacılık alanında geçirdi; havaalanında telsiz memuruydu.\nÇocukluğunda insanlar şehre nasıl gidiyordu?\nAtlı arabalarla gidiyorlardı.\nCemiyet İbrahim Bey için neden önemli?\nÇünkü orada insanlarla görüşüyor ve öğrenmeye devam ediyor; bu da zihnini canlı tutuyor.\nİbrahim Bey kutuyu verirken torununa ne dedi?\nBu kutunun vârisinin o olduğunu ve içindeki kâğıtların ailenin hafızası olduğunu söyledi."
+    },
+    {
+      "title": "Dağınık dikkat",
+      "summary": "A columnist looks at how screens scatter our attention and what helped him read a whole book again.",
+      "newWords": [
+        "işlemci",
+        "tarayıcı",
+        "yenilik",
+        "genişletmek",
+        "birçoğu",
+        "iktisadi",
+        "dağınık",
+        "rezalet"
+      ],
+      "text": "Geçen hafta bilgisayarımın tarayıcısında kaç sekme açık olduğuna baktım: otuz yedi. Bir haber, iki tarif, yarım kalmış bir makale, alınmamış bir ayakkabı, bir hava durumu... Tarayıcı bu kadar sekmeyi taşıyabiliyor, ama ben taşıyamıyorum. O gün dikkatimin de tarayıcım gibi olduğunu fark ettim: her şey açık, hiçbiri bitmemiş.\n\nTeknoloji dünyasında sık duyduğumuz bir benzetme var: beyin bir işlemciye benzer. Bu benzetme kulağa hoş geliyor, ama yanıltıcı. Bir bilgisayarın işlemcisi aynı anda pek çok işi gerçekten yapabilir. İnsan beyni ise çoğu zaman yalnızca bir işten diğerine hızla geçer. Her geçişte de bir parça enerji kaybeder. Uzmanlar, aynı anda birkaç iş yaptığımızı sandığımızda aslında hepsini daha kötü yaptığımızı söylüyor. Yani biz işlemci değiliz; dikkatimiz sınırlı bir kaynak.\n\nBu kaynağın iktisadi bir değeri de var. Ücretsiz uygulamaların birçoğu bizden para değil, zaman ister. Ne kadar uzun süre ekrana bakarsak o kadar çok reklam görürüz. Bu yüzden bazı yazarlar bugünkü düzene \"dikkat ekonomisi\" diyor. Dikkatimizin iktisadi bir değeri olduğunu bilmek, ona daha iyi sahip çıkmamızı sağlayabilir.\n\nTelefonlarımız her gün bize bir yenilik sunuyor: yeni bir haber, yeni bir mesaj, yeni bir video. Beynimiz yeniliği sever; her yenilik bize küçük bir mutluluk verir. Ama sürekli yenilik arayan bir zihin, uzun ve sakin bir işe tahammül edemez hâle gelir. Dikkatimiz dağınık bir oda gibi olur: her şey orada, ama aradığınız şey hiçbir zaman elinizin altında değildir.\n\nTelefonumdaki ekran süresi raporuna ilk baktığımda gördüğüm şey tam bir rezaletti: günde altı saat. Bunun iki saati, sonradan hiçbirini hatırlamadığım kısa videolardı. Bu rezaleti kimseye söylemedim, ama kendime bir plan yaptım.\n\nİlk olarak bildirimlerin birçoğunu kapattım. Sonra her akşam yarım saat, telefonu başka bir odaya bırakıp kâğıttan kitap okumaya başladım. İlk günlerde beş sayfada bir elim telefonu arıyordu. Okuduğum her paragrafı iki kez okumam gerekiyordu; zihnim gerçekten dağınıktı.\n\nAma dikkat, bir kas gibi çalıştırılınca güçleniyor. Okuma süremi her hafta on dakika genişlettim. Bir ay sonra bir saat boyunca hiç kalkmadan okuyabiliyordum. Bu sınırı daha da genişletmek için hafta sonları uzun yürüyüşlere telefonumu evde bırakarak çıkmaya başladım.\n\nBu yazıyı yazarken tarayıcımda yalnızca bir sekme açık. Kolay olmadı, ama zihnim artık eskisi kadar dağınık değil. Size de bir öneride bulunayım: Bu akşam telefonunuzu başka bir odaya bırakın ve yarım saat boyunca tek bir şey yapın.\n\nSorular:\nYazarın tarayıcısında kaç sekme açıktı?\nOtuz yedi sekme açıktı.\nYazara göre beyin neden bir işlemciye benzemez?\nÇünkü işlemci aynı anda pek çok işi yapabilir, beyin ise bir işten diğerine geçer ve her geçişte enerji kaybeder.\nDikkatimizin iktisadi değeri nereden geliyor?\nEkrana ne kadar uzun bakarsak o kadar çok reklam görüyoruz; ücretsiz uygulamalar bizden zaman istiyor.\nYazar ekran süresi raporunda ne gördü?\nGünde altı saat ekrana baktığını gördü ve bunu bir rezalet olarak gördü.\nYazar okuma süresini nasıl genişletti?\nHer akşam telefonu başka bir odaya bırakıp okudu ve süreyi her hafta on dakika genişletti."
+    },
+    {
+      "title": "Yavaş yol",
+      "summary": "Ayşe and Mehmet, both worn out, spend a summer travelling the Aegean coast slowly in a caravan.",
+      "newWords": [
+        "karavan",
+        "otoyol",
+        "akıntı",
+        "çevresel",
+        "sabun",
+        "yüksekokul",
+        "kaçık"
+      ],
+      "text": "Ayşe, Eskişehir'de bir yüksekokulda öğretmen. Eşi Mehmet de aynı yüksekokulun kütüphanesinde çalışıyor. Geçen bahar ikisi de çok yorgundu. Ayşe geceleri uyuyamıyor, Mehmet sürekli baş ağrısı çekiyordu. Doktorları ikisine de aynı şeyi söyledi: dinlenmeleri, yavaşlamaları gerekiyordu.\n\nYaz tatili gelince ikisi de uzun zamandır düşündükleri bir şeyi yaptılar. Biriktirdikleri parayla ikinci el, küçük bir karavan aldılar. Plan basitti: iki ay boyunca karavanla Ege kıyısında dolaşacak, hiçbir yere acele etmeden gideceklerdi.\n\nArkadaşlarının çoğu bu fikre güldü.\n\n— Siz kaçık mısınız? dedi Mehmet'in bir arkadaşı. Bu sıcakta bir karavanın içinde iki ay nasıl yaşayacaksınız?\n\nAyşe de gülerek cevap verdi:\n\n— Belki gerçekten biraz kaçık insanlarız. Ama biraz kaçık olmak, hiç dinlenmemekten iyidir.\n\nYola çıktıkları ilk gün kendilerine bir kural koydular: otoyola girmek yok. Otoyolda her şey hızlıdır; insan yalnızca bir yere varmayı düşünür. Onlar otoyol yerine köylerin arasından geçen küçük yolları seçtiler. Bu yollar uzundu, ama her köşede zeytin ağaçları, bir çeşme ya da çay içen yaşlı adamlar vardı. Mehmet bir hafta sonra baş ağrılarının azaldığını fark etti.\n\nKaravanda yaşamak onlara çevresel konular hakkında da çok şey öğretti. Karavanın su deposu küçüktü; her litre suyu dikkatle kullanmak zorundaydılar. Bulaşık ve banyo için yalnızca zeytinden yapılmış doğal bir sabun kullandılar, çünkü bu sabun toprağa ve denize zarar vermiyordu. Çöplerini de ayırıp köylerdeki kutulara bıraktılar. Ayşe, \"Evde yaşarken çevresel etkimizi hiç görmüyorduk,\" dedi. \"Burada her şey gözümüzün önünde.\"\n\nBir sabah küçük bir koyda denize girmek istediler. Kıyıda bir balıkçı onları uyardı:\n\n— Bugün rüzgâr var, akıntı çok güçlü. Kayalıkların ötesine geçmeyin.\n\nBalıkçı onlara akıntıya kapılan bir yüzücünün ne yapması gerektiğini de anlattı: Akıntıya karşı yüzmemek, kıyıya paralel yüzüp akıntıdan çıkmak ve sakin kalmak. Ayşe bunun hayat için de iyi bir öğüt olduğunu düşündü. O gün yalnızca kıyıya yakın yüzdüler, akıntının güçlü olduğu yere hiç yaklaşmadılar.\n\nİki ayın sonunda Eskişehir'e döndüler. Yüksekokulda yeni dönem başladığında Ayşe'nin öğrencileri onun çok değiştiğini söyledi: daha sakin konuşuyor, daha çok dinliyordu. Karavan şimdi evlerinin önünde duruyor. Mehmet her hafta sonu onu temizliyor ve gelecek yazın planını yapıyor.\n\nSorular:\nAyşe ve Mehmet neden yola çıkmaya karar verdi?\nİkisi de çok yorgundu ve doktorları dinlenmelerini, yavaşlamalarını söylemişti.\nMehmet'in arkadaşı onlara ne dedi?\nOnlara kaçık olup olmadıklarını, sıcakta karavanda nasıl yaşayacaklarını sordu.\nNeden otoyola girmediler?\nÇünkü otoyolda her şey hızlıdır ve insan yalnızca bir yere varmayı düşünür.\nNeden doğal sabun kullandılar?\nÇünkü bu sabun toprağa ve denize zarar vermiyordu.\nBalıkçı akıntı hakkında ne öğütledi?\nAkıntıya karşı yüzmemeyi, kıyıya paralel yüzüp akıntıdan çıkmayı ve sakin kalmayı öğütledi."
+    },
+    {
+      "title": "Kürsüdeki sessizlik",
+      "summary": "An interview with Zehra, a law student who reached the final of a television quiz, about how she trained her mind and calmed her body.",
+      "newWords": [
+        "yarışmacı",
+        "kürsü",
+        "mösyö",
+        "hukuki",
+        "aleyhine",
+        "enteresan",
+        "vatandaşlık"
+      ],
+      "text": "Geçen ay televizyondaki bir bilgi yarışmasının finaline Ankara'dan yirmi iki yaşında bir hukuk öğrencisi kaldı: Zehra. Yarışmayı kazanamadı, ama sakinliğiyle izleyicilerin en sevdiği yarışmacı oldu. Zehra'yla zihnini ve bedenini yarışmaya nasıl hazırladığını konuştuk.\n\n— Yarışmaya neden katıldınız?\n\n— Aslında bir arkadaşım beni kaydettirdi. Ben kendimi hiç iyi bir yarışmacı olarak görmüyordum. Ama ilk turu geçince işin peşini bırakmak istemedim.\n\n— Stüdyoda nasıl bir duygu yaşıyorsunuz?\n\n— Her yarışmacı bir kürsünün arkasında duruyor. Kürsüye ilk çıktığımda ellerim buz gibiydi. Işıklar gözümü alıyordu, kalbimin sesini duyuyordum. Kürsüye iki elimle tutunduğumu hatırlıyorum.\n\n— Bu heyecanla nasıl başa çıktınız?\n\n— Bir yöntemim vardı: soru okunurken önce yavaşça nefes vermek. İnsan nefesini verince bedeni sakinleşiyor. Bunu bir koro öğretmeninden öğrenmiştim. Bir de süreyle ilgili bir şey anladım. Yarışmada süre her zaman yarışmacının aleyhine işliyor gibi görünüyor. Ama asıl panik yaptığınızda zaman gerçekten yarışmacının aleyhine işliyor. Sakin olursanız on saniye uzun bir süre.\n\n— Bilgileri nasıl aklınızda tutuyorsunuz?\n\n— Bunu lisedeki Fransızca öğretmenime borçluyum. Okulda ona Mösyö Sinan derdik. Mösyö Sinan bize kelimeleri hayalimizde bir evin odalarına yerleştirmeyi öğretmişti. Mutfağa bir kelime, salona bir başka kelime... Sonra o evde dolaşıp kelimeleri tek tek bulurdunuz. Yarışmadan önce Mösyö Sinan'ı arayıp teşekkür ettim. Çok duygulandı.\n\n— Hukuk eğitiminiz işinize yaradı mı?\n\n— Çok. Hukuki sorularda kendimi rahat hissettim. Ama hukuki bilgiden daha çok, hukukun düşünme biçimi işe yaradı: soruyu dikkatle okumak, her kelimeyi tartmak. Finalde bir soru vatandaşlık hukukuyla ilgiliydi. Vatandaşlık hukuku dersini geçen dönem almıştım; cevabı hemen bildim.\n\n— Yarışmada sizin için en enteresan an hangisiydi?\n\n— Son soruda cevabı bilmediğimi anladığım an. Enteresan bir şekilde hiç üzülmedim. O ana kadar elimden geleni yapmıştım. Bilmemek de bir bilgidir; neyi bilmediğimizi bilmek insanı alçakgönüllü yapar.\n\n— Yarışmadan sonra ne değişti?\n\n— Sokakta beni tanıyanlar oluyor, bu biraz garip. Ama asıl değişen şu: Artık sınavlardan eskisi kadar korkmuyorum. Kürsüde öğrendiğim sakinliği her yere taşıyorum.\n\nSorular:\nZehra yarışmaya nasıl katıldı?\nBir arkadaşı onu yarışmaya kaydettirdi.\nZehra kürsüye ilk çıktığında ne hissetti?\nElleri buz gibiydi, kalbinin sesini duyuyordu ve kürsüye iki eliyle tutundu.\nZehra'ya göre süre ne zaman yarışmacının aleyhine işler?\nYarışmacı panik yaptığında süre gerçekten onun aleyhine işler.\nMösyö Sinan öğrencilerine ne öğretmişti?\nKelimeleri hayallerindeki bir evin odalarına yerleştirmeyi öğretmişti.\nZehra için yarışmanın en enteresan anı hangisiydi?\nSon soruda cevabı bilmediğini anladığı ve buna hiç üzülmediği an."
+    }
+  ]
+}
