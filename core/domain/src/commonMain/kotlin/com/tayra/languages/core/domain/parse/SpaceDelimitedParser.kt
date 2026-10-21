@@ -50,11 +50,10 @@ open class SpaceDelimitedParser : TextParser {
         val wordRegex = Regex(pattern, RegexOption.IGNORE_CASE)
 
         val splitChars = language.regexpSplitSentences.trim().ifEmpty { DEFAULT_SPLIT_SENTENCES }
-        val endOfSentenceRegex = Regex("[${escapeForCharacterClass(splitChars)}]")
 
-        fun addNonWords(s: String) {
-            if (s.isEmpty()) return
-            tokens.add(ParsedToken(s, isWord = false, isEndOfSentence = endOfSentenceRegex.containsMatchIn(s)))
+        fun addNonWords(start: Int, end: Int) {
+            if (start >= end) return
+            tokens.add(ParsedToken(text.substring(start, end), isWord = false, isEndOfSentence = endsSentence(text, start, end, splitChars)))
         }
 
         var position = 0
@@ -62,7 +61,7 @@ open class SpaceDelimitedParser : TextParser {
         for (match in wordRegex.findAll(text)) {
             if (match.value.isEmpty()) continue
             val gap = text.substring(position, match.range.first)
-            addNonWords(gap)
+            addNonWords(position, match.range.first)
             val previous = when {
                 gap.lastOrNull()?.isDigit() == true -> gap.takeLastWhile { it.isDigit() }
                 gap.isNotEmpty() && gap.isBlank() -> previousWord
@@ -72,7 +71,7 @@ open class SpaceDelimitedParser : TextParser {
             previousWord = match.value
             position = match.range.last + 1
         }
-        addNonWords(text.substring(position))
+        addNonWords(position, text.length)
     }
 
     companion object {

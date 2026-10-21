@@ -49,10 +49,11 @@ internal fun normalizeRegexEscapes(pattern: String): String =
         }
     }
 
-/** Escapes a character for use inside a regex character class, portably across engines. */
-internal fun escapeForCharacterClass(text: String): String = buildString {
-    for (ch in text) {
-        if (ch in "\\]^-[/") append('\\')
-        append(ch)
+/**
+ * Whether [text] from [start] until [end] ends a sentence: it holds one of [splitChars] that is not
+ * between two digits, as the point of 38.000 or 2.5 is.
+ */
+internal fun endsSentence(text: String, start: Int, end: Int, splitChars: String): Boolean =
+    (start until end).any { i ->
+        text[i] in splitChars && !(text.getOrNull(i - 1)?.isDigit() == true && text.getOrNull(i + 1)?.isDigit() == true)
     }
-}

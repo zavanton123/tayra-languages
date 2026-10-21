@@ -20,8 +20,10 @@ class ClassicalChineseParser : TextParser {
         val wordRegex = Regex("[${normalizeRegexEscapes(language.wordCharacters)}]")
         val splitChars = language.regexpSplitSentences
 
+        var offset = 0
         return codePoints(prepared).map { ch ->
-            val isEndOfSentence = ch == PARAGRAPH_MARK || (ch.length == 1 && ch[0] in splitChars)
+            val isEndOfSentence = ch == PARAGRAPH_MARK || (ch.length == 1 && endsSentence(prepared, offset, offset + 1, splitChars))
+            offset += ch.length
             ParsedToken(ch, isWord = wordRegex.matches(ch), isEndOfSentence = isEndOfSentence)
         }
     }

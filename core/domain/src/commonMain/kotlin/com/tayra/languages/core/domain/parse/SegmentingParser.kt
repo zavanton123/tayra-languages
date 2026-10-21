@@ -55,7 +55,7 @@ open class SegmentingParser(
                 if (isWord) {
                     segment(run, lexicon).forEach { tokens += ParsedToken(it, isWord = true) }
                 } else {
-                    tokens += ParsedToken(run, isWord = false, isEndOfSentence = run.any { it in splitChars })
+                    tokens += ParsedToken(run, isWord = false, isEndOfSentence = endsSentence(paragraph, i, j, splitChars))
                 }
                 i = j
             }
