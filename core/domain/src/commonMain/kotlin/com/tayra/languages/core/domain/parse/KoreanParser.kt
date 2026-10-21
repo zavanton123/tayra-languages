@@ -100,8 +100,8 @@ class KoreanParser : SpaceDelimitedParser(), LexiconParser {
         /** The polite 요, after a particle only (학교에서요): after a verb it is part of the verb (먹었어요). */
         const val POLITE = "요"
 
-        /** 가 does not follow these: before it they are 내, 네, 제 (내가), so 나가 is a form of 나가다. */
-        val NOT_BEFORE_GA = setOf("나", "너", "저")
+        /** 가 does not follow these: before it they are 내, 제 (내가), so 나가 is a form of 나가다. */
+        val NOT_BEFORE_GA = setOf("나", "저")
 
         /** Nor does the copula follow 아니, being 아니다's own: 아니라고 is a form of 아니다. */
         val NOT_BEFORE_COPULA = setOf("아니")
@@ -136,7 +136,7 @@ class KoreanParser : SpaceDelimitedParser(), LexiconParser {
          */
         val COPULA: List<Pair<String, Sound>> = listOf(
             "이다", "입니다", "입니까", "이었다", "이었어", "이었어요", "이었습니다", "이었던", "이고", "이지만", "이라고", "이라서",
-            "이라면", "이라는", "이란", "인데", "인데요", "인지", "인가", "인가요", "일까", "일까요", "이죠", "이지요", "이니까",
+            "이라면", "이라는", "이란", "인데", "인데요", "인지", "인가", "인가요", "일까", "일까요", "이죠", "이지", "이지요", "이니까",
             "이네요", "이며", "인",
         ).map { it to Sound.ANY } + listOf("이에요" to Sound.CONSONANT, "이야" to Sound.CONSONANT) + listOf(
             "예요", "야", "였다", "였어", "였어요", "였습니다", "였던", "지만", "라고", "라서", "라면", "라는", "란", "죠", "니까", "네요",

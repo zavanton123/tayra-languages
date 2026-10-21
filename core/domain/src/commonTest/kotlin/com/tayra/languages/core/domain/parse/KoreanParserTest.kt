@@ -18,7 +18,8 @@ class KoreanParserTest {
         "에게서" to 3900, "이랑" to 2000, "께서" to 1900,
         "사람" to 34, "우리" to 35, "가다" to 39, "가는" to 39, "먹다" to 184, "먹었어요" to 184, "학교" to 280, "친구" to 164,
         "책" to 700, "집" to 121, "나가다" to 174, "나가" to 174, "사과" to 2600, "학생" to 520, "의사" to 1500,
-        "서울" to 161, "선생님" to 400, "동생" to 900, "커피" to 1800, "때문" to 95,
+        "서울" to 161, "선생님" to 400, "동생" to 900, "커피" to 1800, "때문" to 95, "너" to 38, "말" to 34,
+        "아니다" to 29, "아니" to 131,
     )
 
     @BeforeTest
@@ -74,6 +75,9 @@ class KoreanParserTest {
         assertEquals(listOf("의사", "예요"), words("의사예요"))
         assertEquals(listOf("학생", "입니다"), words("학생입니다"))
         assertEquals(listOf("때문", "이에요"), words("때문이에요"))
+        assertEquals(listOf("말", "이지"), words("말이지"))
+        // 아니 takes no copula, being 아니다's stem: 아니라고 is a form of 아니다.
+        assertEquals(listOf("아니라고"), words("아니라고"))
     }
 
     @Test
@@ -95,6 +99,8 @@ class KoreanParserTest {
     fun wordsAndVerbsStayWhole() {
         assertEquals(listOf("사과"), words("사과"))
         assertEquals(listOf("나가"), words("나가"))
+        // 나 takes 가 only as 내 (내가), but 너가 is spoken for 네가.
+        assertEquals(listOf("너", "가"), words("너가"))
         assertEquals(listOf("가는"), words("가는"))
         assertEquals(listOf("먹었어요"), words("먹었어요"))
         assertEquals(listOf("하늘에서"), words("하늘에서"))
