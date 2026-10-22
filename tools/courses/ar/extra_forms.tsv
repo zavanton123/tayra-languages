@@ -1,9 +1,3 @@
 # Forms the Arabic frequency list files under another word or misses; check_course.py counts them as forms of the word.
 # Each line: the list's headword, a tab, the forms. Only true forms, spelled as unvowelled text writes them.
-أم	أمه
-قال	تقوله
 عمل	تعمله
-وجد	أجده
-أب	أبا أباه
-حياة	حياتي
-اسم	اسمي
