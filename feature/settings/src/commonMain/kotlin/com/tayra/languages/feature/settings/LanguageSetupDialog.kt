@@ -99,14 +99,14 @@ class LanguageSetupViewModel(private val setup: LanguageSetupService) : ViewMode
 
     private var loading: Job? = null
 
-    /** Looks up [languageId]'s downloads afresh, each time the dialog opens. */
+    /** Looks up what [languageId] still needs afresh, each time the dialog opens. */
     fun load(languageId: Long) {
         if (_state.value.languageId == languageId) return
         loading?.cancel()
         _state.value = LanguageSetupUiState(languageId)
         loading = viewModelScope.launch {
             val items = try {
-                setup.overview(languageId).sortedBy { it.status }
+                setup.missing(languageId)
             } catch (e: CancellationException) {
                 throw e
             } catch (e: Exception) {
@@ -142,9 +142,9 @@ class LanguageSetupViewModel(private val setup: LanguageSetupService) : ViewMode
 }
 
 /**
- * The downloads a newly chosen language can use, shown once it is chosen: what is not on the
+ * The downloads a newly chosen language still needs, shown once it is chosen: what is not on the
  * device yet, the usual ones ticked. Closing it leaves started downloads running. Nothing is shown
- * when the language has everything already.
+ * while that is being looked up, nor when the language has what it needs already.
  */
 @Composable
 fun LanguageSetupDialog(languageId: Long?, onClosed: () -> Unit, viewModel: LanguageSetupViewModel = koinViewModel()) {
@@ -160,7 +160,8 @@ fun LanguageSetupDialog(languageId: Long?, onClosed: () -> Unit, viewModel: Lang
     }
     val items = state.items
     LaunchedEffect(items) { if (items != null && items.isEmpty()) close() }
-    if (items != null && items.isEmpty()) return
+    // Switching between languages that have everything opens nothing, not even for the look-up.
+    if (items.isNullOrEmpty()) return
 
     // A phone gets a bottom sheet; wider screens the floating dialog.
     if (LocalWindowWidth.current.isCompact) {

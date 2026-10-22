@@ -59,7 +59,7 @@ class LanguageSetupDialogFlowTest {
     }
 
     @Test
-    fun aLanguageWithNothingToDownloadDoesNotHideTheNextOnesDownloads() = runDesktopComposeUiTest(width = 900, height = 760) {
+    fun aLanguageWithNothingToDownloadOpensNothingAndDoesNotHideTheNextOnesDownloads() = runDesktopComposeUiTest(width = 900, height = 760) {
         val provider = DatabaseProvider(DatabaseDriverFactory(File.createTempFile("tayra-setup-flow", ".db").also { it.delete() }))
         val languages = LanguageRepositoryImpl(provider)
         val books = BookRepositoryImpl(provider)
@@ -80,13 +80,10 @@ class LanguageSetupDialogFlowTest {
         waitUntil(timeoutMillis = 5_000) { closed == 1 }
         onNodeWithTag("language-setup").assertDoesNotExist()
 
+        // English has its course pack, and needs no dictionary or translation: nothing opens at all.
         open = english
-        waitUntil(timeoutMillis = 5_000) { runCatching { onNodeWithText("Everything available for English is already on this device.").assertExists() }.isSuccess }
-        onNodeWithText("On this device").assertExists()
-        onNodeWithText("Download selected").assertDoesNotExist()
-        onNodeWithTag("setup-done").performClick()
-        waitForIdle()
-        assertEquals(2, closed)
+        waitUntil(timeoutMillis = 5_000) { closed == 2 }
+        onNodeWithTag("language-setup").assertDoesNotExist()
 
         open = portuguese
         waitUntil(timeoutMillis = 5_000) { onNodeWithText("Get ready to learn Portuguese").let { runCatching { it.assertExists() }.isSuccess } }

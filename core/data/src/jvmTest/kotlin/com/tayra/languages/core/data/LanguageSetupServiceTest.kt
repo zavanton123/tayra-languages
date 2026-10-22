@@ -177,8 +177,9 @@ class LanguageSetupServiceTest {
         assertEquals(mapOf("PIPER:pt" to "pt_BR-faber-medium"), settings.current.speechVoices, "the picked voice is the one that speaks")
         assertEquals(TranslationEngine.ARGOS, settings.current.translationEngine)
 
-        assertEquals(listOf("Piper · Cadu (low)"), setup.missing(id).map { it.name }, "only the voice left out is still offered")
-        val cadu = setup.missing(id).single()
+        assertEquals(emptyList(), setup.missing(id), "one voice reads Portuguese aloud, so the voice left out is not offered again")
+        val cadu = setup.overview(id).single { it.status == SetupStatus.MISSING }
+        assertEquals("Piper · Cadu (low)", cadu.name, "the other voice can still be had")
         setup.install(listOf(cadu))
         withTimeout(5_000) { setup.states.first { it[cadu.id] == SetupState.Done } }
         assertEquals("pt_BR-faber-medium", settings.current.speechVoices["PIPER:pt"], "a voice chosen before stays chosen")
@@ -263,5 +264,27 @@ class LanguageSetupServiceTest {
             overview.map { it.kind to it.status },
         )
         assertEquals(emptyList(), setup.missing(croatian))
+    }
+
+    /** Switching between languages that have what they need offers nothing, however often; one that lacks something offers only that. */
+    @Test
+    fun aLanguageThatIsReadyOffersNothingAndAnotherOnlyWhatItLacks() = runBlocking {
+        val kokoro = FakeKokoro()
+        val both = LanguageSetupService(
+            languages, settings, coursePacks, DictionaryService(dictionaryStore, dictionaryStore), LocalSpeech(listOf(piper, kokoro)), LocalTranslation(translator),
+        )
+        settings.update { it.copy(speechEngine = SpeechEngine.KOKORO) }
+        val portuguese = languages.save(Language(name = "Portuguese"))
+        val english = languages.save(Language(name = "English"))
+        val first = both.missing(portuguese)
+        val wanted = first.filter { it.kind != SetupKind.VOICE } + first.first { it.engine == "Kokoro" }
+        both.install(wanted)
+        withTimeout(5_000) { both.states.first { s -> wanted.all { s[it.id] == SetupState.Done } } }
+        assertTrue(both.overview(portuguese).any { it.kind == SetupKind.VOICE && it.status == SetupStatus.MISSING }, "Piper's voices are still not on the device")
+
+        repeat(2) {
+            assertEquals(emptyList(), both.missing(portuguese), "Portuguese has its courses, dictionary, a voice and translation")
+            assertEquals(listOf(SetupKind.COURSES), both.missing(english).map { it.kind }, "English lacks only its course pack: Kokoro reads it already")
+        }
     }
 }

@@ -110,8 +110,16 @@ class LanguageSetupService(
     /** Where each item of the last [install] is. */
     val states: StateFlow<Map<String, SetupState>> = _states.asStateFlow()
 
-    /** What [languageId] could still download, in the order it matters to a learner; empty when everything is there. */
-    suspend fun missing(languageId: Long): List<SetupItem> = overview(languageId).filter { it.status == SetupStatus.MISSING }
+    /**
+     * What [languageId] still needs, in the order it matters to a learner: the downloads of each
+     * kind it has nothing of yet. One voice that reads the language aloud is enough, so the other
+     * voices are left to Settings; empty when the language is ready.
+     */
+    suspend fun missing(languageId: Long): List<SetupItem> {
+        val all = overview(languageId)
+        val covered = all.filter { it.status == SetupStatus.INSTALLED }.map { it.kind }.toSet()
+        return all.filter { it.status == SetupStatus.MISSING && it.kind !in covered }
+    }
 
     /**
      * Every kind of download the language can have, in the order it matters to a learner, each
