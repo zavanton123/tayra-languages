@@ -920,30 +920,33 @@ internal fun DictionarySection(
                     modifier = Modifier.padding(start = AppSpacing.xxs, top = AppSpacing.xxs).testTag("inflection-${entry.word}"),
                 )
             }
-            entry.senses.forEachIndexed { senseIndex, sense ->
-                val gloss = sense.glosses.joinToString("; ")
-                if (senseIndex > 0) AppDivider(color = colors.outlineVariant.copy(alpha = AppAlpha.muted))
-                // The meanings line up with the headword above them.
-                Row(verticalAlignment = Alignment.CenterVertically, modifier = Modifier.fillMaxWidth().padding(top = AppSpacing.s, bottom = AppSpacing.s)) {
-                    Column(Modifier.weight(1f)) {
-                        Text(gloss, style = MaterialTheme.typography.bodyLarge)
-                        if (sense.tags.isNotEmpty()) {
-                            Text(sense.tags.joinToString(", "), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
-                        }
-                        // The dictionary's own examples of this sense, each with its translation below it.
-                        sense.examples.forEach { example ->
-                            Row(Modifier.padding(top = AppSpacing.s).height(IntrinsicSize.Min)) {
-                                Box(Modifier.width(QUOTE_RULE_WIDTH).fillMaxHeight().background(colors.primary.copy(alpha = AppAlpha.disabled)))
-                                Column(Modifier.padding(start = AppSpacing.s)) {
-                                    Text(example.text.inLearnedScript(), style = MaterialTheme.typography.bodyMedium, fontStyle = FontStyle.Italic)
-                                    example.translation?.let { Text(it, style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant) }
+            // The meanings sit close together, apart from the card's wider gaps between its parts.
+            Column {
+                entry.senses.forEachIndexed { senseIndex, sense ->
+                    val gloss = sense.glosses.joinToString("; ")
+                    if (senseIndex > 0) AppDivider(color = colors.outlineVariant.copy(alpha = AppAlpha.muted))
+                    // The meanings line up with the headword above them.
+                    Row(verticalAlignment = Alignment.CenterVertically, modifier = Modifier.fillMaxWidth().padding(vertical = AppSpacing.xs)) {
+                        Column(Modifier.weight(1f)) {
+                            Text(gloss, style = MaterialTheme.typography.bodyLarge)
+                            if (sense.tags.isNotEmpty()) {
+                                Text(sense.tags.joinToString(", "), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
+                            }
+                            // The dictionary's own examples of this sense, each with its translation below it.
+                            sense.examples.forEach { example ->
+                                Row(Modifier.padding(top = AppSpacing.s).height(IntrinsicSize.Min)) {
+                                    Box(Modifier.width(QUOTE_RULE_WIDTH).fillMaxHeight().background(colors.primary.copy(alpha = AppAlpha.disabled)))
+                                    Column(Modifier.padding(start = AppSpacing.s)) {
+                                        Text(example.text.inLearnedScript(), style = MaterialTheme.typography.bodyMedium, fontStyle = FontStyle.Italic)
+                                        example.translation?.let { Text(it, style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant) }
+                                    }
                                 }
                             }
                         }
-                    }
-                    Spacer(Modifier.size(AppSpacing.s))
-                    AppTooltip(tr("Add to translation")) {
-                        AppIconButton(Icons.Default.Add, tr("Add to translation"), onClick = { onAdd(gloss) }, style = IconButtonStyle.Tonal)
+                        Spacer(Modifier.size(AppSpacing.s))
+                        AppTooltip(tr("Add to translation")) {
+                            AppIconButton(Icons.Default.Add, tr("Add to translation"), onClick = { onAdd(gloss) }, style = IconButtonStyle.Tonal, size = IconButtonSize.Small)
+                        }
                     }
                 }
             }
