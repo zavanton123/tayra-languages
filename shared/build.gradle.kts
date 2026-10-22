@@ -22,6 +22,7 @@ kotlin {
             implementation(projects.feature.frequency)
             implementation(projects.feature.home)
             implementation(projects.feature.news)
+            implementation(projects.feature.playlists)
             implementation(projects.feature.languages)
             implementation(projects.feature.terms)
             implementation(projects.feature.reading)

@@ -105,7 +105,7 @@ class PlaylistRepositoryImpl(private val provider: DatabaseProvider) : PlaylistR
         withContext(databaseDispatcher) {
             val q = db().playlistsQueries
             q.transaction {
-                var position = q.nextPosition(playlistId).awaitAsOne() ?: 0L
+                var position = q.nextPosition(playlistId).awaitAsOne()
                 for (bookId in bookIds.distinct()) {
                     q.insertItem(playlistId, bookId, position)
                     position++
