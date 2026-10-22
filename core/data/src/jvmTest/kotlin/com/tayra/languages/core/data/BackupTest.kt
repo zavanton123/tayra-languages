@@ -11,12 +11,15 @@ import com.tayra.languages.core.data.db.DatabaseDriverFactory
 import com.tayra.languages.core.data.db.DatabaseProvider
 import com.tayra.languages.core.data.repository.BookRepositoryImpl
 import com.tayra.languages.core.data.repository.LanguageRepositoryImpl
+import com.tayra.languages.core.data.repository.PlaylistRepositoryImpl
 import com.tayra.languages.core.data.repository.TermRepositoryImpl
 import com.tayra.languages.core.data.settings.SettingsRepositoryImpl
 import com.tayra.languages.core.domain.backup.BackupException
 import com.tayra.languages.core.domain.model.BookDraft
 import com.tayra.languages.core.domain.model.Language
 import com.tayra.languages.core.domain.model.TermStatus
+import com.tayra.languages.core.domain.playlists.ListeningPosition
+import com.tayra.languages.core.domain.playlists.PlaylistDraft
 import com.tayra.languages.core.domain.service.BookService
 import com.tayra.languages.core.domain.service.TermService
 import kotlinx.coroutines.runBlocking
@@ -124,6 +127,26 @@ class BackupTest {
         assertTrue(env.books.getBooks().isEmpty())
         assertEquals(TermStatus.NEW_2, env.terms.findByTextLc(language, "gato")?.status)
         assertEquals(2f, env.settings.current.readingFontScale)
+    }
+
+    @Test
+    fun aBackupCarriesThePlaylistsAndWhereListeningGotTo() = runBlocking<Unit> {
+        val env = Env()
+        val language = env.languages.save(Language(name = "Portuguese"))
+        val bookService = BookService(env.books, env.languages)
+        val (lobo, gato) = listOf("O lobo", "O gato").map { bookService.create(BookDraft(languageId = language, title = it, text = "$it dorme.")) }
+        val repository = PlaylistRepositoryImpl(env.provider)
+        val id = repository.create(language, PlaylistDraft("Morning Portuguese", "For the bus", cover = 3), Instant.parse("2026-10-18T08:00:00Z"))
+        repository.addBooks(id, listOf(lobo, gato))
+        val items = repository.playlist(id)!!.items
+        repository.setFinished(items[0].id, Instant.parse("2026-10-18T08:05:00Z"))
+        repository.savePosition(id, ListeningPosition(items[1].id, 1, 2), Instant.parse("2026-10-18T08:06:00Z"))
+        val before = repository.playlist(id)!!
+        val backup = env.backups.create()
+
+        repository.delete(id)
+        env.backups.restore(backup.name)
+        assertEquals(before, repository.playlist(id))
     }
 
     @Test

@@ -1,0 +1,109 @@
+-- Texts to listen to one after another, read aloud by the app's voices; kept per language, like books.
+-- Listening keeps its own place here, apart from the reading progress of the texts.
+CREATE TABLE playlists (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    language_id INTEGER NOT NULL REFERENCES languages(id) ON DELETE CASCADE,
+    name TEXT NOT NULL,
+    description TEXT NOT NULL DEFAULT '',
+    -- The cover's colour, by its place among the app's cover colours.
+    cover INTEGER NOT NULL DEFAULT 0,
+    created_at INTEGER NOT NULL,
+    last_played_at INTEGER,
+    -- Where listening got to: the item, its page (from 1) and the spoken sentence on that page (from 0);
+    -- no item when listening has not started, or went through to the end.
+    current_item_id INTEGER,
+    current_page INTEGER NOT NULL DEFAULT 1,
+    current_sentence INTEGER NOT NULL DEFAULT 0
+);
+
+CREATE INDEX playlists_language ON playlists(language_id);
+
+-- A playlist's texts in order by position; a text is in a playlist once, and goes with its book.
+CREATE TABLE playlist_items (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    playlist_id INTEGER NOT NULL REFERENCES playlists(id) ON DELETE CASCADE,
+    book_id INTEGER NOT NULL REFERENCES books(id) ON DELETE CASCADE,
+    position INTEGER NOT NULL,
+    -- When it was last listened to the end; null until then, and again once the playlist starts over.
+    finished_at INTEGER,
+    UNIQUE (playlist_id, book_id)
+);
+
+CREATE INDEX playlist_items_playlist ON playlist_items(playlist_id, position);
+
+CREATE INDEX playlist_items_book ON playlist_items(book_id);
+
+selectPlaylists:
+SELECT * FROM playlists WHERE language_id = :languageId ORDER BY created_at, id;
+
+selectPlaylist:
+SELECT * FROM playlists WHERE id = :id;
+
+-- The items with what is shown of their texts: the title, what kind of text it is, and its length.
+selectItems:
+SELECT
+    i.id,
+    i.playlist_id,
+    i.book_id,
+    i.position,
+    i.finished_at,
+    b.title,
+    EXISTS (SELECT 1 FROM course_lessons cl WHERE cl.book_id = b.id) AS is_lesson,
+    EXISTS (SELECT 1 FROM news_articles na WHERE na.book_id = b.id) AS is_news,
+    (SELECT count(*) FROM pages p WHERE p.book_id = b.id) AS page_count,
+    (SELECT COALESCE(sum(length(p.text)), 0) FROM pages p WHERE p.book_id = b.id) AS char_count
+FROM playlist_items i
+INNER JOIN books b ON b.id = i.book_id
+WHERE i.playlist_id IN :playlistIds
+ORDER BY i.playlist_id, i.position, i.id;
+
+-- The reader's own books and the news articles opened, which can be added to a playlist; course
+-- lessons are offered from their courses.
+selectTexts:
+SELECT
+    b.id,
+    b.title,
+    EXISTS (SELECT 1 FROM news_articles na WHERE na.book_id = b.id) AS is_news,
+    (SELECT COALESCE(sum(length(p.text)), 0) FROM pages p WHERE p.book_id = b.id) AS char_count,
+    (SELECT max(start_date) FROM pages p WHERE p.book_id = b.id) AS last_opened
+FROM books b
+WHERE b.language_id = :languageId
+  AND b.archived = 0
+  AND b.id NOT IN (SELECT book_id FROM course_lessons)
+ORDER BY last_opened DESC, b.title;
+
+insertPlaylist:
+INSERT INTO playlists(language_id, name, description, cover, created_at) VALUES (:languageId, :name, :description, :cover, :createdAt);
+
+updatePlaylist:
+UPDATE playlists SET name = :name, description = :description, cover = :cover WHERE id = :id;
+
+deletePlaylist:
+DELETE FROM playlists WHERE id = :id;
+
+lastInsertId:
+SELECT last_insert_rowid();
+
+nextPosition:
+SELECT COALESCE(MAX(position), -1) + 1 FROM playlist_items WHERE playlist_id = :playlistId;
+
+insertItem:
+INSERT OR IGNORE INTO playlist_items(playlist_id, book_id, position) VALUES (:playlistId, :bookId, :position);
+
+deleteItem:
+DELETE FROM playlist_items WHERE id = :id;
+
+deleteBookFromPlaylist:
+DELETE FROM playlist_items WHERE playlist_id = :playlistId AND book_id = :bookId;
+
+setItemPosition:
+UPDATE playlist_items SET position = :position WHERE id = :id;
+
+setItemFinished:
+UPDATE playlist_items SET finished_at = :finishedAt WHERE id = :id;
+
+clearFinished:
+UPDATE playlist_items SET finished_at = NULL WHERE playlist_id = :playlistId;
+
+savePosition:
+UPDATE playlists SET current_item_id = :itemId, current_page = :page, current_sentence = :sentence, last_played_at = :playedAt WHERE id = :id;
