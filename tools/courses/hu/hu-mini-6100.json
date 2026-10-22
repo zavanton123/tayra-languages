@@ -1,0 +1,184 @@
+{
+  "id": "hu-mini-6100",
+  "rankUpTo": 6100,
+  "level": "C1",
+  "title": "A világegyetem és a csillagok",
+  "description": "Ten standalone texts about the sky and space: a meteor-shower night, the Sun's activity, life in extreme places, astronaut training, a restored village observatory, a meteorite on a farm, a woodcarver of sundials, light pollution, a night train to the northern lights and an amateur who found an exploding star.",
+  "topic": "The universe and the stars",
+  "names": [
+    "Izsák",
+    "Leila",
+    "Zempléni",
+    "Füzér",
+    "Budapest",
+    "Kerényi",
+    "Arabella",
+    "Magyarország",
+    "Debrecen",
+    "Hámori",
+    "Benigna",
+    "Mars",
+    "Jupiter",
+    "Európa",
+    "Abonyi",
+    "Dárius",
+    "Tarpa",
+    "Szatmári",
+    "Adalbert",
+    "Bárdos",
+    "Kunó",
+    "Szaturnusz",
+    "Hold",
+    "Pethő",
+    "Emerencia",
+    "Mórahalom",
+    "Péli",
+    "Gedő",
+    "Lőwy",
+    "Zoja",
+    "Kőszeg",
+    "Tejút",
+    "Kiara",
+    "Jázon",
+    "Stockholm",
+    "Abisko",
+    "Svédország",
+    "Csépe",
+    "Izolda",
+    "Albertirsa"
+  ],
+  "lessons": [
+    {
+      "title": "Hulló csillagok a hegyekben",
+      "summary": "Izsák and Leila drive to the Zemplén hills to watch the August meteor shower; a slow app update makes Leila nervous about clouds, but the sky clears and they see one very bright meteor.",
+      "newWords": [
+        "hegység",
+        "volán",
+        "okostelefon",
+        "frissítés",
+        "nyugtalan",
+        "vadonatúj",
+        "egyszeri"
+      ],
+      "text": "Izsák és Leila minden év augusztusában elutaznak egy éjszakára valahová, ahol igazán sötét az ég. Augusztus közepén hullik ugyanis a legtöbb csillag. Ilyenkor halad át a Föld azon a poron, amelyet egy régi üstökös hagyott maga után, és az apró porszemek a légkörben elégnek. Egy jó éjszakán óránként akár hatvan hulló csillagot is lehet látni.\n\nIdén a Zempléni-hegységet választották. Leila azt olvasta, hogy a hegység északi részén, Füzér környékén alig van mesterséges fény, és a kis falvakban éjjel az utcai lámpák is gyengék. Budapestről indultak délután, és Izsák ült a volánnál. Leila nem szeret vezetni, Izsák viszont szereti, ha hosszú úton ő ülhet a volán mögött, mert közben csendben gondolkodhat.\n\nLeila az okostelefonján figyelte az időjárást. Tavasszal letöltött egy vadonatúj alkalmazást, amely megmutatja, hol és mikor lesz felhő az égen. Útközben azonban az alkalmazás azt írta ki, hogy frissítés szükséges, különben nem mutat friss adatokat. A frissítés majdnem fél óráig tartott, mert a hegyek között gyenge volt a jel. Leila közben egyre nyugtalanabb lett.\n\n– Mi lesz, ha egész éjjel felhők lesznek? – kérdezte. – Akkor feleslegesen jöttünk ilyen messzire.\n– Ne légy nyugtalan – felelte Izsák. – Ha nem látunk semmit, legalább egy szép helyen töltjük az éjszakát.\n\nAmikor a frissítés végre befejeződött, az okostelefon jó hírt hozott: éjfél után eltűnnek a felhők. Leila megnyugodott.\n\nEste tízkor egy domb tetején, egy mező szélén álltak meg. Izsák kivett két takarót az autóból, és a fűre tette őket. Egymás mellett feküdtek, és nézték az eget. Éjfél előtt még volt néhány felhő, utána valóban tiszta lett az ég, ahogy a vadonatúj alkalmazás jelezte. Leila az okostelefonján számolta a hulló csillagokat: egy óra alatt 42-t látott.\n\nFél kettőkor az egyik sokkal fényesebb volt a többinél. Zöld fénnyel húzott végig az égen, és két-három másodpercig látszott. Leila szerint egyszeri élmény volt, ilyet talán soha többé nem látnak.\n– Lehet, hogy egyszeri volt – mondta Izsák –, de a hulló csillagok jövőre is jönnek.\n\nHajnalban indultak haza. Hazafelé is Izsák ült a volánnál. Leila közben megjelölte a helyet a térképen, hogy jövőre is megtalálják a hegységnek ezt a sötét, csendes sarkát.\n\nKérdések:\nMiért utaznak el Izsák és Leila minden augusztusban?\nMert augusztus közepén hullik a legtöbb csillag, és ezt sötét helyen akarják nézni.\nMiért választották idén a Zempléni-hegységet?\nMert a hegység északi részén alig van mesterséges fény.\nMiért lett Leila nyugtalan útközben?\nMert az alkalmazás frissítése sokáig tartott, és félt, hogy egész éjjel felhők lesznek.\nMit mutatott az okostelefon a frissítés után?\nAzt, hogy éjfél után eltűnnek a felhők.\nMit láttak fél kettőkor?\nEgy nagyon fényes hulló csillagot, amely zöld fénnyel húzott végig az égen.\nKi vezetett hazafelé?\nHazafelé is Izsák ült a volánnál."
+    },
+    {
+      "title": "Beszélgetés a Napról",
+      "summary": "An interview with Arabella Kerényi, a solar researcher in Debrecen, about the Sun's activity, why the northern lights can be seen in Hungary, what the measurements look for and why we should never look straight at the Sun.",
+      "newWords": [
+        "aktivitás",
+        "ártalmatlan",
+        "következtet",
+        "rendellenesség",
+        "egyidejűleg",
+        "némileg"
+      ],
+      "text": "Tavaly ősszel Magyarországon is sokan láttak északi fényt: az ég alja vörös és zöld színben világított. Kerényi Arabella egy debreceni intézetben a Napot kutatja. Arról kérdeztük, mi történik ilyenkor a Napon, és kell-e félnünk tőle.\n\n– Mit jelent az, hogy nő a Nap aktivitása?\n– A Nap felszíne sosem nyugodt, de vannak évek, amikor némileg nyugodtabb, és vannak, amikor sokkal nyugtalanabb. Körülbelül tizenegy évente éri el a Nap aktivitása a legmagasabb szintet. Ilyenkor több sötét folt jelenik meg a felszínén, és gyakrabban vannak nagy kitörések, amelyek során hatalmas mennyiségű anyag és energia indul el az űrbe.\n\n– Ezért látunk ilyenkor északi fényt?\n– Igen. Ha egy kitörés anyaga a Föld felé indul, egy-két nap múlva eléri a Föld mágneses terét, és a légkör felső rétegében világítani kezd. Ezt látjuk északi fénynek. Általában csak messze északon látszik, de amikor a Nap aktivitása nagyon magas, nálunk is megjelenik.\n\n– Veszélyes ez ránk nézve?\n– Az emberekre a Földön ártalmatlan, mert a légkör és a mágneses tér megvéd minket. Az északi fényt nyugodtan nézhetjük, teljesen ártalmatlan látvány. A műholdakat, az áramot és a rádiót viszont zavarhatja. Ezért figyeljük a Napot éjjel-nappal.\n\n– Hogyan figyelik?\n– Több műszerrel, a világ több pontján, egyidejűleg. Ez azért fontos, mert ha egy jelenséget egyszerre több helyen is mérnek, biztosabbak lehetünk benne. Ha egy műszer mást mutat, mint a többi, amely egyidejűleg ugyanazt méri, akkor valószínűleg a műszerrel van baj, nem a Nappal.\n\n– Mit keres a mérésekben?\n– Rendellenességet. A Napnak megvannak a maga szokásai, és ha a megszokottól eltérő jelet látunk, az rendellenesség. A legtöbb rendellenesség semmit sem jelent, de némelyikből arra következtethetünk, hogy hamarosan nagy kitörés lesz. A múlt adataiból következtetünk a jövőre, mint az időjárásnál.\n\n– Meg tudják mondani előre, mikor lesz a következő északi fény?\n– Csak egy-két nappal előre. Az utóbbi években a módszereink némileg pontosabbak lettek, de a Nap még mindig sokszor meglep minket.\n\n– Mit tanácsol az olvasóinknak?\n– Ha a hírekben azt hallják, hogy erős a Nap aktivitása, menjenek ki este a város szélére, és nézzenek észak felé. A Napba viszont soha ne nézzenek közvetlenül, se szabad szemmel, se fényképezőgéppel! Az északi fény ártalmatlan, a Nap fénye a szemünknek nem az.\n\nKérdések:\nMit lehetett látni tavaly ősszel Magyarországon?\nÉszaki fényt: az ég alja vörös és zöld színben világított.\nMi történik a Napon, amikor nő az aktivitása?\nTöbb sötét folt jelenik meg a felszínén, és gyakrabban vannak nagy kitörések.\nMiért ártalmatlan az északi fény az emberekre?\nMert a légkör és a Föld mágneses tere megvéd minket.\nMiért mérnek egyidejűleg több helyen?\nMert ha egy jelenséget egyszerre több helyen is mérnek, biztosabbak lehetnek benne.\nMire lehet következtetni egy rendellenességből?\nNémelyik rendellenességből arra lehet következtetni, hogy hamarosan nagy kitörés lesz.\nMit nem szabad soha csinálni?\nSoha nem szabad közvetlenül a Napba nézni."
+    },
+    {
+      "title": "Élet a sötétben",
+      "summary": "Benigna Hámori, a biologist who nearly failed biology at school, tells secondary school pupils in Szeged about tiny organisms that live in hot springs and under the ice, and why it makes sense to look for life under the surface of other worlds.",
+      "newWords": [
+        "biológia",
+        "enzim",
+        "táplálkozik",
+        "középiskolás",
+        "ösztönöz",
+        "megbukik",
+        "észszerű"
+      ],
+      "text": "Hámori Benigna a szegedi egyetemen dolgozik, és azt kutatja, élhetnek-e élőlények más bolygókon. Egy tavaszi délután a város egyik gimnáziumában tartott előadást. A teremben hatvan középiskolás ült, és a legtöbbjük kíváncsi volt, mit mond majd egy igazi kutató.\n\n– Ki szeret közületek biológiát tanulni? – kérdezte Benigna az elején.\n\nNéhány kéz emelkedett a magasba.\n\n– Én nem szerettem – mondta nevetve. – Kilencedikben majdnem megbuktam biológiából. Tizedikben új tanárt kaptunk, aki arra ösztönzött minket, hogy merjünk kérdezni, és ne csak a könyvből tanuljunk. Ha akkor megbuktam volna, ma talán nem állnék itt.\n\nAztán a témára tért. Elmondta, hogy a Földön az élőlények többsége a Nap energiájából táplálkozik: a növények közvetlenül, mi pedig a növényeken keresztül. Vannak azonban apró élőlények, amelyek sosem látnak napfényt. A tenger mélyén, forró források mellett élnek, vagy kilométeres jég alatt, teljes sötétségben. Ezek a baktériumok kövekből és a vízben oldott anyagokból, például vasból és kénből táplálkoznak.\n\n– Hogyan bírják a hőséget? – kérdezte egy lány az első sorból.\n– Az enzimeik miatt – felelte Benigna. – Minden élőlényben enzimek dolgoznak. Az enzimek olyan fehérjék, amelyek gyorsabbá teszik a testben zajló kémiai folyamatokat. A mi enzimeink negyven-ötven fok fölött már nem működnek jól, de ezeknek a baktériumoknak az enzimei száz fokon is dolgoznak.\n\nEzután arról beszélt, miért fontos ez a csillagok kutatóinak. Ha a Földön a jég alatt és a sötétben is van élet, akkor észszerű ott keresni életet más világokban is, ahol hasonló a helyzet. A Mars felszíne alatt lehet víz, a Jupiter Európa nevű holdján pedig vastag jég alatt egy egész óceán rejtőzik.\n\n– Nem embereket keresünk, és nem is állatokat – mondta Benigna. – Azt keressük, van-e ott valami, ami táplálkozik és szaporodik, akár csak egy baktérium. Szerintem ez nagyon is észszerű kérdés.\n\nAz előadás végén egy magas középiskolás fiú odament hozzá. Bevallotta, hogy biológiából most éppen rosszul áll, és fél, hogy megbukik.\n\n– Én is ettől féltem – mondta Benigna. – Ne a jegyet nézd, hanem azt, amire kíváncsi vagy. A kíváncsiság jobban ösztönöz, mint a félelem.\n\nKérdések:\nKiknek tartott előadást Hámori Benigna?\nHatvan középiskolásnak egy szegedi gimnáziumban.\nMit kutat Benigna?\nAzt kutatja, élhetnek-e élőlények más bolygókon.\nMi történt vele kilencedikben?\nMajdnem megbukott biológiából.\nMiből táplálkoznak a baktériumok, amelyek sosem látnak napfényt?\nKövekből és a vízben oldott anyagokból, például vasból és kénből.\nMiért bírják ezek a baktériumok a hőséget?\nMert az enzimeik száz fokon is dolgoznak.\nMiért észszerű a jég alatt keresni életet más világokban?\nMert a Földön a jég alatt és a sötétben is van élet.\nMit mondott Benigna a fiúnak, aki félt, hogy megbukik?\nAzt, hogy a kíváncsiság jobban ösztönöz, mint a félelem."
+    },
+    {
+      "title": "Felkészülés az űrre",
+      "summary": "A portrait of Dárius Abonyi, a pilot preparing for a space mission: the medical selection, hard training sessions, side effects of weightlessness, a capsule made partly of titanium and the importance of routine.",
+      "newWords": [
+        "tréning",
+        "mellékhatás",
+        "alkalmatlan",
+        "rutin",
+        "elkötelezett",
+        "túllép",
+        "titán"
+      ],
+      "text": "Abonyi Dárius 38 éves pilóta. Gyerekkorában a nagyapja kertjében feküdt a fűben, és azt nézte, hogyan haladnak át a műholdak az égen. Három éve jelentkezett egy programra, amely magyar űrhajóst keres. Közel 500-an jelentkeztek, és ma ő egyike annak a négy embernek, akik még versenyben vannak.\n\nA kiválasztás orvosi vizsgálatokkal kezdődött. A jelentkezők nagy részét már az első hetekben alkalmatlannak találták: volt, akinek a szíve, volt, akinek a szeme miatt. Dárius szerint ebben nincs semmi szégyen.\n– Aki alkalmatlan erre a feladatra, abból még kiváló pilóta, orvos vagy mérnök lehet – mondja. – Az űr egyszerűen más testet kíván.\n\nAz elmúlt egy évben szinte minden napja tréninggel telt. Reggel futás és úszás, délután elmélet és gyakorlat. A legnehezebb tréning egy nagy, gyorsan forgó gépben zajlik, amely azt az erőt utánozza, amely felszálláskor nyomja az űrhajóst. Az orvosok pontosan megmondják, mekkora erő az a határ, amelyet nem szabad túllépni. Dárius egyszer sem lépte túl ezt a határt, és nem is akarja túllépni, de bevallja, hogy az első alkalommal majdnem elájult.\n\nA súly nélküli állapotot egy repülőgépen gyakorolják, amely meredeken emelkedik, majd zuhanni kezd, és ilyenkor húsz másodpercig minden lebeg az utastérben. Ennek az állapotnak sok mellékhatása van. A leggyakoribb mellékhatás a hányinger, de a hosszú űrutazásnak komolyabb mellékhatásai is vannak: gyengülnek a csontok és az izmok. Ezért az űrben is naponta két órát kell edzeni.\n\nDárius megmutatja nekünk annak a kis űrhajónak a mását, amellyel majd utazik. A szerkezet egy része titánból készült, mert a titán könnyű, mégis nagyon erős, és jól bírja a hőséget és a hideget is. Az ablak keretét is titánból gyártották.\n\nAz oktatói szerint Dárius rendkívül elkötelezett. Ő maga ezt egyszerűbben mondja:\n– Elkötelezett vagyok a feladat mellett, de nem rohanok. Az űrben a rutin a legfontosabb. Ha valamit százszor elvégeztem a földön, akkor fent is menni fog.\n\nEzért most minden mozdulatot addig ismétel, amíg rutinná nem válik. A család is megszokta ezt a rutint: a lánya esténként vele együtt gyakorolja a műszerek nevét.\n\nKérdések:\nMit nézett Dárius gyerekkorában a nagyapja kertjében?\nAzt nézte, hogyan haladnak át a műholdak az égen.\nMiért kellett sok jelentkezőnek kiesnie?\nMert az orvosi vizsgálatokon alkalmatlannak találták őket.\nMi a legnehezebb tréning?\nEgy nagy, gyorsan forgó gépben zajló tréning, amely a felszállás erejét utánozza.\nMilyen mellékhatásai vannak a súly nélküli állapotnak?\nA leggyakoribb a hányinger, de hosszú utazáskor gyengülnek a csontok és az izmok is.\nMiért készült az űrhajó egy része titánból?\nMert a titán könnyű, nagyon erős, és jól bírja a hőséget és a hideget.\nMi a legfontosabb Dárius szerint az űrben?\nA rutin: amit a földön százszor elvégzett, az fent is menni fog."
+    },
+    {
+      "title": "A falu csillagvizsgálója újra nyitva",
+      "summary": "In the village of Tarpa a small observatory built by a physics teacher in 1968 decays for twenty years after he retires; his successor Kunó Bárdos gets it renovated, and at the handover the old teacher, now 90, is the first to look through the instrument.",
+      "newWords": [
+        "pusztul",
+        "átadása",
+        "költségvetési",
+        "nyakkendő",
+        "előd"
+      ],
+      "text": "Tarpa szélén, egy kis domb tetején áll egy fehér épület, amelynek kerek, forgatható teteje van. Ez a falu kis csillagvizsgálója. 1968-ban Szatmári Adalbert, aki fizikát tanított a falu iskolájában, építette a lakók segítségével. Húsz évig minden pénteken nyitva volt: gyerekek és felnőttek jártak ide megnézni a Holdat, a bolygókat és a távoli csillagokat.\n\nMiután Szatmári tanár úr nyugdíjba ment, senki sem vette át a munkáját. Az épület bezárt, és lassan pusztulni kezdett. A tetőn befolyt az eső, a falakról lehullott a festék, az ajtót benőtte a fű. Húsz évig pusztult így, és a faluban sokan azt gondolták, hogy már nem lehet megmenteni.\n\nBárdos Kunó, aki maga is Szatmári tanár úr egykori diákja volt, nem nyugodott bele ebbe. Amikor nyugdíjba ment, elhatározta, hogy újra megnyitja az épületet. Először a polgármesteri hivatalhoz fordult, de ott azt mondták neki, hogy költségvetési okokból most nincs pénz a felújításra. A falu költségvetési kerete kicsi, és először az iskolát és az utakat kell rendbe hozni.\n\nKunó ekkor pályázatot írt egy alapítványnak, amely tudományos programokat támogat. Két év alatt háromszor írt pályázatot, és a harmadik alkalommal nyert. A felújítás egy nyáron át tartott. A falu lakói közül sokan segítettek: festettek, takarítottak, és új ajtót készítettek.\n\nSzeptember végén volt az épület ünnepélyes átadása. Kunó évek óta nem viselt nyakkendőt, de erre a napra felvette a legszebb nyakkendőjét. Az átadására eljött a polgármester, a szomszéd falvak iskoláinak tanárai, és ott ült az első sorban a 90 éves Szatmári Adalbert is.\n\n– Ő az elődöm – mondta Kunó a beszédében. – Az elődöm nélkül ma nem lenne mit rendbe hozni, és én sem lennék itt. Amit tudok az égről, azt tőle tanultam.\n\nAz ünnepség után Kunó felkísérte a tanár urat a tetőre, a műszerhez. A régi műszer helyén egy új áll, de Szatmári tanár úr ugyanúgy nézett bele, mint ötven évvel korábban. Megnézte a Szaturnuszt, és sokáig nem szólt semmit. Aztán Kunó nyakkendőjére nézett, mosolygott, és csak annyit mondott:\n– Jól csináltad.\n\nAz épület azóta újra minden pénteken nyitva van. Kunó vezeti, ugyanúgy, ahogy annak idején az elődje.\n\nKérdések:\nKi építette a falu csillagvizsgálóját, és mikor?\nSzatmári Adalbert, a falu fizikatanára építette 1968-ban.\nMi történt az épülettel, miután Szatmári tanár úr nyugdíjba ment?\nBezárt, és húsz évig lassan pusztult.\nMiért nem adott pénzt a polgármesteri hivatal?\nKöltségvetési okokból: először az iskolát és az utakat kellett rendbe hozni.\nHonnan kapott Kunó pénzt a felújításra?\nEgy alapítványtól, amelynek pályázatot írt.\nMit vett fel Kunó az épület átadására?\nFelvette a legszebb nyakkendőjét.\nKi volt Kunó elődje?\nSzatmári Adalbert, a régi tanár, akitől mindent tanult az égről."
+    },
+    {
+      "title": "Kő a pulykák udvarán",
+      "summary": "On a March evening a bright light crosses the sky above Emerencia Pethő's farmstead near Mórahalom; the next morning she finds a small black stone in her turkeys' yard, and a technician from the university collects it, intact, for study.",
+      "newWords": [
+        "pulyka",
+        "sértetlen",
+        "technikus",
+        "gondosan",
+        "rémlik",
+        "fogható",
+        "ösztön"
+      ],
+      "text": "Pethő Emerencia hetvenkét éves, és Mórahalom mellett, egy tanyán él. Harminc pulykát tart: a pulykák nappal a ház mögötti udvaron járnak, éjjel egy kis fa épületben alszanak.\n\nEgy márciusi estén a pulykák furcsán viselkedtek. Hangosan kiabáltak, és nem akartak bemenni aludni. Emerencia azóta is sokat gondol arra, hogy talán már akkor éreztek valamit.\n– Úgy rémlik, már fél órával előtte nyugtalanok voltak – mondja. – Az állatoknak olyan ösztöneik vannak, amilyenek nekünk már nincsenek.\n\nEste kilenc után Emerencia éppen a pulykákat terelte be, amikor az egész udvar világos lett. Az égen egy fényes golyó húzott át kelet felé, olyan fényes, hogy egy pillanatra nappali világosság lett. Utána nagy durranás hallatszott.\n– Semmihez sem fogható látvány volt – meséli. – Hetvenkét év alatt nem láttam semmi ehhez foghatót.\n\nMásnap reggel, amikor kiengedte a pulykákat, az udvar közepén egy fekete követ talált. Akkora volt, mint egy tojás, és a felülete sötét és fényes volt, mintha megolvadt volna. Emerencia ösztöne azt súgta, hogy ne nyúljon hozzá puszta kézzel. Rémlett neki, hogy valamikor a rádióban hallott ilyesmiről. Felhívta az unokáját, aki azonnal értesítette a szegedi egyetemet.\n\nDélután megérkezett egy fiatal technikus, Péli Gedő. A technikus kesztyűt húzott, és nagyon gondosan, egy kis lapáttal emelte fel a követ. Gondosan lefényképezte azt a helyet is, ahol a kő feküdt, aztán egy tiszta zacskóba tette.\n– Ez valószínűleg egy meteorit, egy darab a világűrből – mondta a technikus. – Szerencse, hogy sértetlen maradt. Ha eltört volna, vagy sokáig az esőben feküdt volna, sokkal kevesebbet tudnánk meg belőle.\n\nEmerencia ekkor megkérdezte, megsérült-e valamelyik pulyka. A technikus megszámolta őket: mind a harminc pulyka sértetlen volt, és nyugodtan sétált az udvaron.\n\nAz egyetemen a technikus és a kutatók megvizsgálták a követ. Kiderült, hogy a kő több milliárd éves: idősebb, mint a legtöbb kő a Föld felszínén. A kutatók levélben megköszönték Emerenciának, hogy segített, és meghívták a laborba.\n\nA kő ma egy szegedi kiállításon látható. Mellette egy kis táblán ez áll: „Találta: Pethő Emerencia és harminc pulyka.”\n\nKérdések:\nHány pulykát tart Pethő Emerencia?\nHarminc pulykát tart.\nHogyan viselkedtek a pulykák aznap este?\nHangosan kiabáltak, és nem akartak bemenni aludni.\nMit láttak este kilenc után?\nEgy fényes golyót, amely kelet felé húzott át az égen; semmihez sem fogható látvány volt.\nMit súgott Emerencia ösztöne, amikor megtalálta a követ?\nAzt, hogy ne nyúljon hozzá puszta kézzel.\nHogyan emelte fel a követ a technikus?\nKesztyűt húzott, és nagyon gondosan, egy kis lapáttal emelte fel.\nMiért volt szerencse, hogy a kő sértetlen maradt?\nMert így sokkal többet tudnak meg belőle a kutatók."
+    },
+    {
+      "title": "Az égbolt fából",
+      "summary": "A reporter visits Zoja Lőwy, a woodcarver in Kőszeg who carves sundials and star maps from walnut wood and small star-shaped earrings, and asks her about the message of her work.",
+      "newWords": [
+        "farag",
+        "akaszt",
+        "varázs",
+        "örökkévalóság",
+        "mondanivaló",
+        "fülbevaló",
+        "szimpatikus"
+      ],
+      "text": "Lőwy Zoja műhelye Kőszeg belvárosában, egy régi ház udvarában van. Amikor beléptem, rögtön megéreztem a fa illatát. Zoja ötvenhat éves, húsz éve farag, és szinte mindig ugyanarról: az égről.\n\nLegismertebb munkái a napórák. Egy vastag diófa lapot farag ki úgy, hogy a közepéből egy vékony fa mutató álljon ki. A mutató árnyéka a Nap járása szerint vándorol a lapon, és megmutatja, hány óra van. Zoja a napórákra apró csillagokat és a hónapok nevét is ráfaragja.\n– A napórát nem kell felhúzni, és sosem késik – mondja nevetve. – Amíg süt a Nap, pontosan jár.\n\nA műhely falain csillagtérképek lógnak. Ezeket is diófából faragja: a lapba kis lyukakat fúr, ahol egy-egy csillag van, és vékony vonalakkal köti össze őket. A kész térképet a falra akasztja, és mögé egy gyenge lámpát tesz. Esténként, amikor a lámpát felkapcsolja, a csillagok halványan világítanak a fában. A legnagyobb térképet a bejárattal szemben akasztotta a falra, hogy aki belép, rögtön azt lássa.\n– Ebben van a csillagos ég varázsa – mondja Zoja. – Ha valaki sötétben, a város fényeitől távol nézi az eget, egy pillanatra elfelejti a gondjait. Ezt a varázst szeretném behozni az emberek szobájába.\n\nMegkérdeztem tőle, mi a munkáinak a mondanivalója. Sokáig gondolkodott.\n– Talán az, hogy kicsik vagyunk, de nem vagyunk egyedül – felelte. – A csillagok fénye sok ezer évig utazik, mire hozzánk ér. Aki az eget nézi, egy kicsit az örökkévalóságba néz. Ez nekem nem félelmetes, hanem megnyugtató. Ha a munkáimnak van mondanivalója, akkor ez az.\n\nHozzátette, hogy az első napórája egy örökkévalóságig készült: majdnem egy évig dolgozott rajta, mert háromszor újra kellett kezdenie.\n\nAz asztalon egy kis tálban apró, csillag alakú fülbevalók feküdtek. Ezeket is diófából faragja, a hulladékból, ami a nagy munkákból megmarad. Az első pár fülbevalót az unokájának készítette, aztán a vevők is kérni kezdték. Ma a fülbevaló a legkeresettebb termék a műhelyben, és a diákok is szívesen veszik, mert olcsó.\n\nZoja nyugodt, kedves asszony, aki lassan beszél, és mindenre figyel. Nagyon szimpatikus volt nekem. A vevői is ezt mondják: sokan visszajárnak, nem is mindig vásárolni, csak beszélgetni, mert szimpatikus nekik a műhely csendje. Amikor elköszöntem, egy pár fülbevalót adott a kezembe:\n– A lányának – mondta. – Hogy otthon is legyen egy kis ég.\n\nKérdések:\nHol van Lőwy Zoja műhelye?\nKőszeg belvárosában, egy régi ház udvarában.\nMiből farag napórát Zoja?\nEgy vastag diófa lapból farag napórát.\nMit csinál a kész csillagtérképpel?\nA falra akasztja, és mögé egy gyenge lámpát tesz.\nMi Zoja szerint a csillagos ég varázsa?\nHogy aki sötétben nézi az eget, egy pillanatra elfelejti a gondjait.\nMi a munkáinak a mondanivalója?\nAz, hogy kicsik vagyunk, de nem vagyunk egyedül.\nMiért szeretik a diákok a fülbevalókat?\nMert olcsók."
+    },
+    {
+      "title": "Hová lettek a csillagok?",
+      "summary": "A columnist misses the stars above her town, asks the town hall about the bright new street lights and shop signs, weighs safety against darkness, and welcomes a conditional agreement to dim the lights after midnight.",
+      "newWords": [
+        "hiányol",
+        "tilalom",
+        "hatásköre",
+        "elősegít",
+        "feltételes",
+        "munkavállaló"
+      ],
+      "text": "Gyerekkoromban nyaranta a nagyszüleim kertjében aludtunk a csillagok alatt, és a Tejút úgy húzódott át az égen, mint egy fehér folyó. Ma ugyanabban a városban élek, de ha este kinézek az ablakon, alig látok néhány csillagot. Hiányolom őket. Nem vagyok kutató, csak egy átlagos lakó, aki hiányolja a sötét eget.\n\nTavaly új utcai lámpákat szereltek fel nálunk. Az új lámpák kevesebb áramot használnak, ez jó hír. Sokkal erősebb, fehérebb fényt adnak azonban, mint a régiek, és a fény egy része nem lefelé, hanem oldalra és felfelé megy. Ehhez jönnek még a boltok reklámtáblái, amelyek egész éjjel világítanak, akkor is, amikor senki sincs az utcán.\n\nÍrtam a polgármesteri hivatalnak. Egy kedves ügyintéző válaszolt. Elmagyarázta, hogy az utcai lámpák a város hatáskörébe tartoznak, a boltok reklámtáblái viszont nem: azokról a tulajdonosok döntenek, és ez nem a hivatal hatásköre. Megkérdeztem, nem lehetne-e bevezetni egy tilalmat, amely éjfél után megtiltja a reklámtáblák világítását. Az ügyintéző szerint egy ilyen tilalom sok vitát okozna, és a város nem szívesen tilt.\n\nMegértem. Én sem akarok tilalmat mindenre. A sötétség nem mindenkinek jelent ugyanazt. Városunkban sok munkavállaló dolgozik éjszakai műszakban a gyárban, és éjjel egykor vagy hajnali ötkor indulnak haza. Ezeknek a munkavállalóknak biztonságos, jól látható utcák kellenek, és ezt senki sem vitatja.\n\nA jó megoldás szerintem valahol középen van. Ha a lámpák fénye csak lefelé esik, és éjfél után a felére csökken, az utcák biztonságosak maradnak, az ég mégis sötétebb lesz. Azt olvastam, hogy a sötétebb éjszaka az alvást is elősegíti, és a madarak és a rovarok életét is elősegíti, mert a túl sok fény összezavarja őket.\n\nMúlt héten jó hírt kaptam. A hivatal feltételes igent mondott a javaslatomra: egy utcában próbaképpen éjfél után gyengébb lesz a fény. A feltétel az, hogy a lakók ne panaszkodjanak, és a munkavállalók továbbra is biztonságban érezzék magukat. Ha fél év múlva minden rendben lesz, a többi utcában is így lesz. Ez csak feltételes igen, de egy kezdetnek jó.\n\nLehet, hogy néhány év múlva újra látom a Tejutat a saját ablakomból. Addig is hiányolni fogom, de már reménnyel.\n\nKérdések:\nMit hiányol a szerző?\nA csillagokat és a sötét eget a városa fölött.\nMilyen fényt adnak az új utcai lámpák?\nErősebb, fehérebb fényt, és a fény egy része oldalra és felfelé megy.\nKinek a hatáskörébe tartoznak a reklámtáblák?\nNem a hivatal hatáskörébe tartoznak: a tulajdonosok döntenek róluk.\nMiért kellenek világos utcák az éjszakai műszakban dolgozó munkavállalóknak?\nMert éjjel indulnak haza, és biztonságos utcákra van szükségük.\nMit segít elő a sötétebb éjszaka?\nAz alvást, valamint a madarak és a rovarok életét.\nMilyen választ kapott a szerző a hivataltól?\nFeltételes igent: egy utcában próbaképpen éjfél után gyengébb lesz a fény."
+    },
+    {
+      "title": "Éjszakai vonattal az északi fényhez",
+      "summary": "For her sixteenth birthday Kiara travels with her father Jázon on a night train from Stockholm to Abisko in the far north of Sweden; she falls asleep in their compartment, and the next night green light streams across the sky.",
+      "newWords": [
+        "szerelvény",
+        "fülke",
+        "elnyom",
+        "árad",
+        "zárul"
+      ],
+      "text": "Kiara 16 éves lett januárban, és születésnapjára csak egyet kért az apjától: szeretné látni az északi fényt. Jázon, az apja, régóta tervezte ezt az utat, ezért nem kellett kétszer mondani. Repülővel Stockholmba utaztak, onnan pedig éjszakai vonattal indultak tovább északra, egy Abisko nevű kis faluba Svédország legészakibb részén.\n\nA vonat este hatkor indult a stockholmi pályaudvarról. A hosszú szerelvény 14 kocsiból állt: elöl ülni lehetett, középen enni, hátul pedig aludni. Kiara még sosem utazott ilyen hosszú szerelvénnyel, és végigsétált rajta, mielőtt elindultak.\n\nAz ő fülkéjük kicsi volt, de meleg és tiszta. Két keskeny ágy volt benne egymás fölött, egy kis asztal és egy mosdó. A fülke ajtaja magától zárul, ha az ember becsukja, és csak kártyával lehet kinyitni. Kiara a felső ágyat választotta, mert onnan az ablakon is ki lehetett látni.\n\nVacsora után Kiara elhatározta, hogy egész éjjel ébren marad, és nézi a havas tájat. Egy darabig figyelte, ahogy a sötét erdők és a befagyott tavak eltűnnek az ablak mögött. Aztán egyre nehezebb lett a szeme. Jázon az alsó ágyról látta, hogy a lánya alig bírja nyitva tartani a szemét, és elnyomott egy mosolyt. Fél tíz körül Kiarát elnyomta az álom, és csak reggel ébredt fel, amikor a fülke ablakán már beáradt a halvány téli fény.\n\n– Egész éjjel aludtál – mondta Jázon. – Pedig azt mondtad, egy percet sem alszol.\n\nDélután érkeztek meg a faluba. A falu körül mindent hó borított, és nagyon hideg volt. Egy kis fa házban szálltak meg, ahol a tűzből kellemes meleg áradt a szobába. Este felvették minden meleg ruhájukat, és kimentek a befagyott tó partjára.\n\nTizenegy óra körül megtörtént, amire vártak. Az égen először egy halvány, szürke csík jelent meg, aztán zöld fény áradt szét az égbolt nagy részén. A fény mozgott, hullámzott, mint egy óriási függöny a szélben, néha pedig a széle pirosra váltott. Kiara nem szólt semmit, csak nézte. Jázon látta, hogy a lánya szemében könny van, és ő is elnyomta a saját könnyeit.\n\nAz utazás így zárult: egy hideg tó partján, egy zöld fényben úszó ég alatt. Hazafelé a vonaton Kiara egész éjjel ébren maradt, és az első napot leírta a naplójába.\n\nKérdések:\nMit kért Kiara a születésnapjára?\nAzt, hogy láthassa az északi fényt.\nHány kocsiból állt a szerelvény?\n14 kocsiból állt.\nMilyen volt a fülkéjük?\nKicsi, de meleg és tiszta; két keskeny ágy volt benne egymás fölött.\nMi történt Kiarával fél tíz körül?\nElnyomta az álom, és csak reggel ébredt fel.\nMit láttak este tizenegy óra körül?\nZöld fény áradt szét az égbolt nagy részén, és úgy mozgott, mint egy óriási függöny.\nHogyan zárult az utazás?\nEgy hideg tó partján, egy zöld fényben úszó ég alatt."
+    },
+    {
+      "title": "Egy csillag, amely felrobbant",
+      "summary": "Izolda Csépe, a retired tennis coach who moved to a village near Albertirsa, photographs distant galaxies night after night for three years until she finds an exploding star, and receives a prestigious prize with quiet dignity.",
+      "newWords": [
+        "ász",
+        "törekvés",
+        "rangos",
+        "méltóság",
+        "beköltözik"
+      ],
+      "text": "Csépe Izolda harminc évig teniszt tanított. Fiatalon maga is versenyzett, és a szervái miatt volt híres: egy-egy mérkőzésen tíz-tizenöt ászt is ütött. A klubban a gyerekek csak úgy hívták: „az ász”. Amikor nyugdíjba ment, eladta budapesti lakását, és beköltözött egy kis házba Albertirsa mellett, a falu legszélén.\n– Azért ide költöztem, mert itt sötét van – mondja nevetve. – A városban az eget sem láttam. Amikor beköltöztem, az első éjszakán egész éjjel a kertben ültem.\n\nA kert végében egy kis fa építményt húzott fel, amelynek a teteje oldalra nyitható. Ebben áll a műszere és egy kamera, amelyet számítógép irányít. Izolda távoli galaxisokat fényképez: minden derült éjszakán ugyanazt a harminc-negyven galaxist, egymás után. Reggel a felvételeket összeveti a korábbiakkal, és azt keresi, megjelent-e valahol egy új fénypont.\n\nEgy csillag ugyanis néha az élete végén felrobban. Ilyenkor néhány hétig olyan fényes lesz, mint egy egész galaxis, és a Földről egy új, halvány pontnak látszik egy távoli galaxis szélén. Egy ilyen csillag felfedezése segít a kutatóknak megmérni, milyen messze vannak tőlünk a galaxisok.\n\nHárom évig semmit sem talált. Sokan feleslegesnek tartották a törekvését, de Izolda nem adta fel.\n– A teniszben is ezt tanultam – mondja. – Egy jó szervához ezer gyakorlás kell. Az ász nem a szerencséből jön.\n\nA negyedik év egy februári reggelén egy új pontot látott egy galaxis szélén, amely előző héten még nem volt ott. Bejelentette egy nemzetközi oldalon, és két nappal később egy nagy külföldi intézet megerősítette: egy csillag robbant fel, körülbelül százmillió évvel ezelőtt. A fénye csak most ért ide.\n\nTavasszal egy rangos csillagászati egyesület díjat adott neki. Ez az egyik legrangosabb elismerés, amelyet egy amatőr kaphat. A díjátadón Izolda nagy méltósággal, egyszerűen beszélt. Megköszönte a kutatóknak a segítséget, és elmondta, hogy a díj nem az övé, hanem mindazoké, akik éjszakánként a hidegben ülnek, és nem találnak semmit. A teremben nagy taps volt. Egy újságíró később azt írta róla, hogy olyan méltósággal vette át a díjat, mint egy igazi bajnok.\n\nIzolda azóta is minden derült éjjel fényképez. Szerinte a törekvés a fontos, nem a díj. Azt mondja, ha sosem talál még egy ilyen csillagot, akkor sem bánja meg, hogy ide beköltözött.\n\nKérdések:\nMi volt Csépe Izolda foglalkozása?\nHarminc évig teniszt tanított, és fiatalon versenyzett is.\nMiért hívták a klubban „az ásznak”?\nMert egy-egy mérkőzésen tíz-tizenöt ászt is ütött.\nMiért költözött Albertirsa mellé?\nMert ott sötét az ég, és látja a csillagokat.\nMit keres Izolda a felvételeken?\nAzt, hogy megjelent-e egy új fénypont egy távoli galaxis szélén.\nMit talált a negyedik év egy februári reggelén?\nEgy csillagot, amely körülbelül százmillió évvel ezelőtt robbant fel.\nHogyan vette át a rangos díjat?\nNagy méltósággal, egyszerűen beszélt, és megköszönte a segítséget."
+    }
+  ]
+}

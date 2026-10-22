@@ -1,0 +1,186 @@
+{
+  "id": "hu-mini-6400",
+  "rankUpTo": 6400,
+  "level": "C1",
+  "title": "Színház, cirkusz és színpad",
+  "description": "Stories from the stage and the ring: a set designer, a lighting technician, a circus vet, a trapeze artist, a puppeteer, a canoe theatre on the Tisza, a theatre archive, stage fog, a clown show review and a circus school's new tent.",
+  "topic": "Theatre, circus and stage",
+  "names": [
+    "Csányi",
+    "Zsuzska",
+    "Lantai",
+    "Győr",
+    "Duna",
+    "Pethő",
+    "Halmai",
+    "Imelda",
+    "Ferenczi",
+    "Zsolti",
+    "Kobak",
+    "Kecskemét",
+    "Titusz",
+    "Pamela",
+    "Bozó",
+    "Gáti",
+    "Huba",
+    "Debrecen",
+    "Kertai",
+    "Miska",
+    "Kisköre",
+    "Tiszaroff",
+    "Szolnok",
+    "Tisza",
+    "Lenárd",
+    "Ruzsa",
+    "Tallér",
+    "Fatime",
+    "Pécs",
+    "Gyimesi",
+    "Dusán",
+    "Bánhidi",
+    "Ubul",
+    "Mándoki",
+    "Uzonka",
+    "Makó"
+  ],
+  "lessons": [
+    {
+      "title": "A görbe lépcső",
+      "summary": "A stage designer in Győr designs a set with a curved staircase, a city panorama and a sloping floor.",
+      "newWords": [
+        "megtervez",
+        "színpadi",
+        "panoráma",
+        "görbe",
+        "ék",
+        "kiegészít",
+        "követelmény"
+      ],
+      "text": "Csányi Zsuzska tizenöt éve tervez díszleteket. Tavaly ősszel a győri színház igazgatója felkérte, hogy tervezze meg egy új vígjáték díszletét. A darab egy régi pesti házban játszódik: egy család lakásában és a ház lépcsőjén.\n\nAz első megbeszélésen a rendező, Lantai úr elmondta a követelményeit. Három követelménye volt. A színpadon legyen egy lépcső, amelyen a színészek gyorsan fel- és leszaladhatnak. A nézők az ablakon keresztül lássák a várost. A díszletet pedig egyetlen nap alatt össze lehessen rakni, mert a társulat vidéki városokba is elviszi az előadást.\n\n– A harmadik követelmény a legnehezebb – mondta Zsuzska. – De megpróbálom.\n\nKét hétig rajzolt, és lépésről lépésre megtervezte az egész díszletet. Először egy egyenes lépcsőt tervezett, de az túl sok helyet foglalt el. Ekkor jött az ötlet: a lépcső legyen görbe. Egy görbe lépcső kevesebb helyet foglal, és a nézők szinte minden oldalról látják rajta a színészeket. Zsuzska pontosan megtervezte a lépcső minden fokát, és papírból egy kis modellt is épített belőle.\n\nAz ablak mögé egy panoráma került: a Duna, a hidak és a budai hegyek. Zsuzska nem festette meg a panorámát, hanem egy nagy fényképet nyomtatott vászonra. Amikor a színpadon változnak a fények, a panoráma is változik: reggel világos, éjjel sötétkék, és megjelennek rajta a város fényei.\n\nA legnagyobb gondot a padló okozta. A darab egyik jelenetében kiderül, hogy a házat rosszul építették, és a lakás padlója ferde. Ezért a színpadi padlónak is meg kellett dőlnie egy kicsit. Zsuzska fából készült ékeket tett a padló alá. Az ék egyik vége vastag, a másik vékony, így a padló egyenletesen emelkedik. A próbákon kiderült, hogy a kis ékek nem elég erősek, ezért nagyobb ékeket készíttetett.\n\nAz utolsó héten Zsuzska apró tárgyakkal kiegészítette a díszletet: egy régi rádióval, egy vázával és egy görbe sétabottal. Az ilyen színpadi tárgyak kiegészítik a díszletet, és a nézők elhiszik, hogy egy igazi lakásban vannak.\n\nA bemutatón a nézők elcsodálkoztak, amikor felment a függöny, és meglátták a panorámát. Lantai úr elégedett volt: a díszlet minden követelménynek megfelelt, és egy nap alatt össze lehetett rakni.\n\n– A görbe lépcső volt a legjobb ötlet – mondta a rendező.\n\n– Gyerekkoromban egy olyan házban laktunk, ahol ilyen lépcső volt – felelte Zsuzska. – Most végre hasznát vettem.\n\nKérdések:\nMit kért a győri színház Zsuzskától?\nAzt kérte, hogy tervezze meg egy új vígjáték díszletét.\nMit tervezett meg Zsuzska két hét alatt?\nAz egész díszletet megtervezte, a görbe lépcső minden fokával együtt.\nMilyen követelményei voltak a rendezőnek?\nLegyen a színpadon lépcső, a nézők lássák a várost, és a díszletet egy nap alatt össze lehessen rakni.\nMiért lett görbe a lépcső?\nMert a görbe lépcső kevesebb helyet foglal, és a nézők minden oldalról látják a színészeket.\nMi látszik a panorámán?\nA Duna, a hidak és a budai hegyek látszanak rajta.\nMire valók az ékek a padló alatt?\nArra, hogy a színpadi padló egy kicsit megdőljön.\nMivel egészítette ki Zsuzska a díszletet?\nEgy régi rádióval, egy vázával és egy görbe sétabottal."
+    },
+    {
+      "title": "Fény a pult mögött",
+      "summary": "A theatre lighting technician compares the old switches with today's computer desk and saves a show when it fails.",
+      "newWords": [
+        "kapcsoló",
+        "vezérlő",
+        "algoritmus",
+        "valahányszor",
+        "fokoz",
+        "észrevétlenül",
+        "izzad"
+      ],
+      "text": "Húsz éve én felelek a fényekért egy pesti színházban. Amikor kezdtem, a lámpákat még nagy, fekete kapcsolókkal irányítottuk. Minden lámpának saját kapcsolója volt a falon, és valahányszor véget ért egy jelenet, egy egész sor kapcsolót kellett gyorsan átállítanom. Az előadás után gyakran fájt a kezem.\n\nMa egy számítógépes vezérlő előtt ülök, a nézőtér leghátsó sora mögött. A vezérlő egy hosszú pult, rajta sok kis gomb és két képernyő. A vezérlőben egy algoritmus dolgozik, amely kiszámolja, hogyan változzon a fény egyik jelenetről a másikra. Az algoritmus arra is figyel, melyik lámpa mennyi ideig égett, és mikor kell kicserélni.\n\nA munkám legszebb része mégis az, amikor a fény észrevétlenül változik. Egy jó előadásban a néző nem veszi észre, hogy a színpad lassan sötétebb lesz. Csak azt érzi, hogy jön az este, és a szereplők szomorúbbak lesznek. Ha a fény észrevétlenül változott, jól végeztem a dolgomat.\n\nAz izgalmas jeleneteknél viszont fokozni kell a feszültséget. Ilyenkor a rendező azt kéri, hogy fokozzam a fényt: legyen egyre erősebb és fehérebb, amíg el nem hangzik a legfontosabb mondat. A fénnyel együtt a zene is fokozza a hatást.\n\nA színészek az erős lámpák alatt sokat izzadnak. Nyáron a főszereplőnk minden felvonás után inget cserél, annyira izzad. Egyszer odajött hozzám a szünetben.\n\n– Pethő úr, nem lehetne egy kicsit gyengébb a fény? Úgy izzadok, mintha szaunában lennék.\n\nA következő évben új lámpákat vettünk, amelyek sokkal kevésbé melegítenek. Azóta a színészek alig izzadnak.\n\nTavaly télen, egy előadás közepén a vezérlő hirtelen leállt. A képernyők elsötétültek, de a lámpák szerencsére égve maradtak. Ekkor eszembe jutottak a régi kapcsolók. Még ott voltak a falon, a színpad mellett. Odasiettem, és a darab végéig kézzel irányítottam a fényeket, ahogy húsz évvel korábban. Valahányszor új jelenet kezdődött, egy kollégám szólt nekem a rádión. A közönség semmit nem vett észre.\n\nMásnap a vezérlőt megjavították. A régi kapcsolókat azonban azóta sem szereltük le.\n\nKérdések:\nMivel irányították a fényeket, amikor Pethő úr kezdett?\nNagy, fekete kapcsolókkal irányították őket.\nMit számol ki az algoritmus a vezérlőben?\nAzt, hogyan változzon a fény egyik jelenetről a másikra, és mikor kell kicserélni egy lámpát.\nMikor elégedett Pethő úr a munkájával?\nAkkor, ha a fény észrevétlenül változik, és a néző csak a hangulatot érzi.\nMit kér a rendező az izgalmas jeleneteknél?\nAzt kéri, hogy Pethő úr fokozza a fényt.\nMiért izzadnak a színészek?\nMert az erős lámpák alatt nagyon meleg van.\nMit csinált Pethő úr, amikor leállt a vezérlő?\nA régi kapcsolókkal, kézzel irányította a fényeket a darab végéig."
+    },
+    {
+      "title": "Kobak, a póni",
+      "summary": "A vet in Kecskemét treats a small circus's feverish pony until it is well enough to perform again.",
+      "newWords": [
+        "állatorvos",
+        "lázas",
+        "nyel",
+        "répa",
+        "gyengeség",
+        "járkál"
+      ],
+      "text": "Halmai Imelda állatorvos Kecskeméten. Egy júniusi reggel felhívta egy fiatal férfi, Ferenczi Zsolti. Elmondta, hogy egy kis családi cirkuszban dolgozik, és a cirkusz néhány napja a város szélén áll. A pónijuk, Kobak, két napja nem eszik rendesen.\n\nAz állatorvos még aznap délelőtt kiment hozzájuk. A sátor mögött, egy bekerített réten három ló és egy kis, barna póni állt. Kobak nyugtalanul járkált körbe-körbe a kerítés mellett.\n\n– Tegnap óta csak járkál – mondta Zsolti. – Nem fekszik le, és nem is eszik.\n\nImelda megvizsgálta Kobakot. A póni lázas volt, és amikor vizet ivott, nehezen nyelt. Imelda megnézte a torkát is: piros volt és dagadt.\n\n– Megfázott – mondta az állatorvos. – Fáj a torka, ezért nem tud rendesen nyelni. Amíg lázas, nem szabad dolgoznia. Néhány napig ne lépjen fel.\n\nZsolti megértette. Kobak minden este fellépett a műsorban: körbe-körbe futott a porondon, és Zsolti húga, egy kislány, ült a hátán.\n\nImelda adott egy injekciót, és otthagyott egy port, amelyet meleg vízbe kellett keverni. Azt mondta, hogy Kobakot olyan helyen kell tartani, ahol nem fúj a szél, és puha ételt kell adni neki, például főtt répát.\n\n– Ne aggódjon, ha néhány napig gyenge lesz – tette hozzá. – A láz után a gyengeség természetes.\n\nKét nap múlva Imelda visszament. Kobak már nem volt lázas, de még lassan mozgott, és a feje lógott. Zsolti a kezében egy kis főtt répát tartott elé. Kobak először csak nézte, aztán enni kezdett. Amikor elfogyott a répa, az orrával Zsolti üres keze felé nyúlt, és még többet kért.\n\n– Ez jó jel – nevetett Imelda. – Ha még többet kér, akkor éhes. Most már a nyelés sem fáj neki.\n\nA hét végére Kobak gyengesége elmúlt. Nem járkált többet nyugtalanul, hanem nyugodtan evett a réten. Zsolti felhívta az állatorvost, és meghívta az esti előadásra. Imelda az első sorban ült. Kobak boldogan futott körbe a porondon, a kislány pedig nevetett a hátán.\n\nAz előadás után Zsolti egy zacskó répát adott Imeldának.\n\n– Ezt Kobak küldi – mondta.\n\nKérdések:\nMiért hívta fel Zsolti az állatorvost?\nMert a pónijuk, Kobak, két napja nem evett rendesen.\nMit csinált a póni, amikor Imelda megérkezett?\nNyugtalanul járkált körbe-körbe a kerítés mellett.\nMiért nem tudott Kobak rendesen nyelni?\nMert megfázott, és fájt a torka.\nMilyen ételt kellett adni Kobaknak?\nPuha ételt, például főtt répát.\nMiből látta Imelda, hogy Kobak jobban van?\nKobak megette a répát, és még többet kért.\nHol ült Imelda az esti előadáson?\nAz első sorban ült."
+    },
+    {
+      "title": "A gravitáció könyörtelen",
+      "summary": "A young trapeze artist in Budapest prepares a hard routine with his partner and wins a bronze medal at a circus festival.",
+      "newWords": [
+        "gravitáció",
+        "könyörtelen",
+        "felemel",
+        "kellős",
+        "kiugrik",
+        "szabálytalan",
+        "fokozott",
+        "bronzérem"
+      ],
+      "text": "Titusz tizenkilenc éves, és öt éve tanul egy budapesti cirkuszi iskolában. A trapéz a szakmája: egy rúd, amely két kötélen lóg, magasan a porond fölött. Titusz minden reggel kilenckor kezdi az edzést, és délután négyig a teremben marad.\n\nAz edzője, Bozó úr régen maga is trapézon dolgozott. Az első napon ezt mondta Titusznak:\n\n– A gravitáció könyörtelen. Nem érdekli, hogy fáradt vagy, vagy hogy rossz napod van. Ha hibázol, lefelé húz.\n\nTitusz akkor nevetett ezen. Később megértette, mit jelent. Aki a levegőben dolgozik, minden nap a gravitáció ellen dolgozik, és a gravitáció soha nem fárad el.\n\nIdén tavasszal Titusz egy fiatal lánnyal, Pamelával együtt készült egy nemzetközi cirkuszfesztiválra. A gyakorlatuk kellős közepén Titusz a térdével kapaszkodik a rúdba, fejjel lefelé lóg, és egyetlen mozdulattal felemeli Pamelát. Ez a legnehezebb rész: Pamelát a csuklójánál fogva kell felemelnie, miközben a rúd leng.\n\nAz edzéseken fokozott figyelemmel dolgoztak. A háló mindig ott volt alattuk, és Bozó úr minden mozdulatukat figyelte.\n\nA fesztivál előtti héten Titusz rosszul aludt. Egy éjjel arra ébredt, hogy a szíve szabálytalanul ver. Kiugrott az ágyból, és kiment az erkélyre levegőzni. Másnap orvoshoz ment. Az orvos megvizsgálta, és megnyugtatta: a szíve egészséges, a szabálytalan szívverés csak az izgalomtól van.\n\n– Egy verseny előtt ez a fokozott izgalom természetes – mondta Bozó úr is. – Lélegezz mélyen, és bízz a kezedben.\n\nA fesztiválon tizenkét ország fiatal cirkuszi művészei léptek fel. Titusz és Pamela a második estén következett. A porond kellős közepén, egy kör alakú fényben kezdték a gyakorlatot. Minden sikerült: a lendület, a fordulat, és Titusz a megfelelő pillanatban felemelte Pamelát. A közönség hosszan tapsolt.\n\nAz eredményhirdetésen bronzérmet kaptak. Amikor kimondták a nevüket, Titusz kiugrott a székéből, és megölelte Pamelát és Bozó urat.\n\n– Csak bronzérem – mondta Pamela, de közben mosolygott.\n\n– Az első bronzérmetek – felelte Bozó úr. – És a gravitáció ma nem győzött.\n\nKérdések:\nMit mondott Bozó úr a gravitációról?\nAzt mondta, hogy a gravitáció könyörtelen: ha az ember hibázik, lefelé húz.\nMi a legnehezebb rész Titusz és Pamela gyakorlatában?\nAz, amikor Titusz fejjel lefelé lógva felemeli Pamelát.\nHogyan dolgoztak az edzéseken?\nFokozott figyelemmel dolgoztak, és alattuk mindig ott volt a háló.\nMiért ment Titusz orvoshoz?\nMert egy éjjel arra ébredt, hogy a szíve szabálytalanul ver.\nMit mondott az orvos?\nAzt mondta, hogy a szíve egészséges, és a szabálytalan szívverés csak az izgalomtól van.\nMilyen érmet kaptak a fesztiválon?\nBronzérmet kaptak."
+    },
+    {
+      "title": "Dinoszaurusz a bábszínházban",
+      "summary": "A puppeteer in Debrecen builds a large dinosaur puppet and wins over his old-fashioned grandfather.",
+      "newWords": [
+        "dinoszaurusz",
+        "mítosz",
+        "nemzedék",
+        "régimódi",
+        "eszme",
+        "bezzeg",
+        "teker"
+      ],
+      "text": "Gáti Huba egy debreceni bábszínházban dolgozik. A családjában ő már a harmadik nemzedék, amely ezzel foglalkozik: a nagyapja és az apja is bábokat készített és mozgatott. Huba szerint minden nemzedék másképp csinálja ugyanazt.\n\nIdén ősszel a színház új darabot mutat be kisgyerekeknek. A darab főszereplője egy dinoszaurusz, aki elveszíti a tojását, és végigjárja az erdőt, hogy megtalálja. A darab eszméje egyszerű: a nagy és erős is félhet, és ő is kérhet segítséget. Hubának kellett elkészítenie a dinoszauruszt.\n\nHuba nagyapja 86 éves, de még most is minden héten bejár a műhelybe. Régimódi ember: tollal ír levelet, nem használ számítógépet, és ma is kézzel farag fából. Amikor meglátta a dinoszaurusz rajzát, csak a fejét rázta.\n\n– Bezzeg az én időmben egy báb akkora volt, mint egy kéz – mondta. – Ez a te dinoszauruszod nagyobb, mint egy autó.\n\nHuba elmagyarázta, hogyan fog működni. A dinoszaurusz belsejében könnyű fémből készült rúd van, és egy kar, amelyet a színésznek tekernie kell. Ha Huba jobbra tekeri a kart, a dinoszaurusz felemeli a nyakát, ha balra, lehajtja a fejét. A farkát egy másik színész mozgatja.\n\nHuba sokat olvasott a dinoszauruszokról. Kiderült, hogy sok, amit tudni vélünk róluk, csak mítosz. Nem mindegyik volt óriási: némelyik akkora volt, mint egy tyúk. Az a mítosz sem igaz, hogy mindegyik zöld volt; a tudósok szerint sokuknak színes bőre, sőt tolla volt. Ezért Huba dinoszaurusza sárga lett, kék foltokkal.\n\nA nagyapja néhány napig csak nézte, ahogy Huba dolgozik. Aztán egy reggel leült mellé, és fából kifaragta a dinoszaurusz szemét és fogait. A régimódi módszer és az új eszközök jól megfértek egymás mellett.\n\nA bemutatón a gyerekek kiabáltak, amikor a dinoszaurusz lehajtotta a fejét, és megkérdezte tőlük, nem látták-e a tojását. Az első sorban Huba kislánya ült: ő már a negyedik nemzedék.\n\nAz előadás után a nagyapa megölelte Hubát.\n\n– Bezzeg nekem soha nem jutott eszembe, hogy ilyen nagyot csináljak – mondta. – Pedig érdemes volt.\n\nKérdések:\nKik készítettek bábokat Huba családjában?\nA nagyapja, az apja és ő maga: Huba már a harmadik nemzedék.\nMi a darab eszméje?\nAz, hogy a nagy és erős is félhet, és ő is kérhet segítséget.\nMiért régimódi ember Huba nagyapja?\nMert tollal ír levelet, nem használ számítógépet, és kézzel farag fából.\nHogyan mozog a dinoszaurusz nyaka?\nHuba egy kart teker: ha jobbra tekeri, a dinoszaurusz felemeli a nyakát, ha balra, lehajtja a fejét.\nMilyen mítoszokról olvasott Huba?\nArról, hogy minden dinoszaurusz óriási és zöld volt.\nMit készített a nagyapa a dinoszaurusznak?\nFából kifaragta a szemét és a fogait."
+    },
+    {
+      "title": "Kenuval a Tiszán",
+      "summary": "Diary of a small troupe that travels down the Tisza by canoe and performs on the riverbanks.",
+      "newWords": [
+        "kenu",
+        "átkel",
+        "amerre",
+        "szárad",
+        "környezetbarát",
+        "eper",
+        "uborka"
+      ],
+      "text": "Kertai Miska naplója\n\nJúnius 12., Kisköre\nMa reggel elindultunk. Öten vagyunk, egy kis független társulat tagjai, és két hétig kenuval járjuk a Tiszát. Minden este egy másik faluban lépünk fel, a parton. A díszletünk egyetlen nagy vászon, a jelmezek vízálló zsákokban vannak, és mindent a kenukban viszünk. Három kenunk van: kettőben mi ülünk, a harmadikban a csomagok.\n\nAz ötlet abból indult, hogy környezetbarát módon akartunk utazni. Nincs autónk, nincs teherautónk, csak evezőnk. Azt szeretnénk megmutatni, hogy a színház is lehet környezetbarát.\n\nJúnius 14., Tiszaroff\nDélelőtt át kellett kelnünk a túlsó partra, mert a falu a folyó másik oldalán van. Erős volt a szél, és a víz gyorsan folyt. Mire átkeltünk, mindenki vizes lett, a jelmezes zsák is. A jelmezek egész délután a napon száradtak egy kötélen, két fa között. Estére szerencsére megszáradtak.\n\nJúnius 17.\nAmerre járunk, mindenhol segítenek az emberek. Az egyik faluban egy néni egy kosár epret hozott nekünk, a másikban egy gazda egy zsák uborkát. Az epret evezés közben ettük meg a kenuban. Az uborkából este salátát csináltunk, és a falu gyerekeinek is jutott belőle. Vacsora után ők is átkeltek velünk a folyón egy kis csónakkal, hogy megnézzék, hol alszunk.\n\nJúnius 20.\nKét napig esett az eső. Amerre néztünk, mindenhol szürke víz volt. A jelmezek nem száradtak meg, ezért az esti előadáson a saját ruhánkban játszottunk. A nézők nem bánták. Egy kisfiú azt mondta, hogy így még jobb volt.\n\nJúnius 25., Szolnok\nMa volt az utolsó előadás. Itt nagyobb volt a közönség, mint a falvakban, és egy újságíró is eljött. Megkérdezte, mi volt a legszebb az úton. Nehéz volt választani. Talán a reggelek, amikor a köd még a víz fölött lebeg, és a kenuk csendben siklanak. Vagy az az idős néni, aki az epret hozta, és az előadás végén elsírta magát.\n\nHolnap a kenukat vonatra tesszük, és hazamegyünk. Jövőre ugyanitt, ugyanígy.\n\nKérdések:\nHogyan utazik Miska társulata?\nKenuval járják a Tiszát, és minden este egy másik faluban lépnek fel.\nMiért választották ezt a módot?\nMert környezetbarát módon akartak utazni.\nMi történt, amikor átkeltek a túlsó partra?\nMindenki vizes lett, a jelmezes zsák is.\nHol száradtak a jelmezek?\nA napon, egy kötélen, két fa között.\nMit kaptak a falvakban az emberektől?\nEgy kosár epret és egy zsák uborkát kaptak.\nMiért a saját ruhájukban játszottak június 20-án?\nMert esett az eső, és a jelmezek nem száradtak meg."
+    },
+    {
+      "title": "Plakátok a levéltárban",
+      "summary": "A student researching the history of the Kecskemét theatre finds an untouched box of old posters in the archives.",
+      "newWords": [
+        "levéltár",
+        "közérdekű",
+        "romlik",
+        "érintetlen",
+        "felír",
+        "összehasonlít"
+      ],
+      "text": "Lenárd egyetemista, és a szakdolgozatát a kecskeméti színház első ötven évéről írja. A tanára azt tanácsolta neki, hogy menjen el a megyei levéltárba.\n\n– A levéltárban minden megvan, amit keresel – mondta. – Csak türelem kell hozzá.\n\nA levéltár egy régi épületben van, a belváros közelében. Lenárdot Ruzsa néni fogadta, aki harminc éve dolgozik ott. Először elmagyarázta a szabályokat. A kutatóteremben nem szabad enni és inni, tollat sem szabad használni, csak ceruzát. A régi papírokat csak fehér kesztyűben lehet megfogni.\n\n– A papír romlik a fénytől, a melegtől és a nedvességtől – mondta Ruzsa néni. – Ezért tartjuk az iratokat sötét, hűvös raktárban. Ha rosszul bánunk velük, néhány év alatt jobban romlanak, mint jó helyen száz év alatt.\n\nLenárd azt is megtudta, hogy a levéltár iratai közérdekűek. Nemcsak a kutatók nézhetik meg őket, hanem bárki, aki kéri. Ruzsa néni szerint ez a levéltár legfontosabb szabálya: a város múltja mindenkié, ezért közérdekű.\n\nDélután Ruzsa néni egy nagy, szürke dobozt hozott ki a raktárból. Ezen a dobozon még nem volt szám.\n\n– Ezt 1960-ban hozta be egy színész családja – mondta. – Azóta senki nem nyitotta ki. Érintetlen.\n\nA dobozban valóban minden érintetlen volt: plakátok, belépőjegyek és egy vékony füzet, amelybe valaki minden előadás után felírta, hány néző volt a teremben. Lenárd óvatosan kiterítette a plakátokat az asztalon, és mindent felírt a saját füzetébe: a darabok címét, a dátumokat és a színészek nevét.\n\nEgy hétig minden nap visszajárt. Összehasonlította a régi plakátokat a mai műsorral, és meglepődött, mennyire hasonlítanak. Akkor is vígjátékokat és zenés darabokat játszottak a legtöbbször. Azt is összehasonlította, mennyibe került egy jegy akkor és most, egy kiló kenyérhez viszonyítva.\n\nA szakdolgozatot tavasszal adta le. Ruzsa néni azt kérte, hogy küldjön belőle egy példányt a levéltárnak is.\n\n– Most már ez is közérdekű – mondta mosolyogva. – És vigyázunk rá, hogy ne romoljon.\n\nKérdések:\nMiért ment Lenárd a levéltárba?\nMert a kecskeméti színház első ötven évéről írja a szakdolgozatát.\nMitől romlik a papír?\nA fénytől, a melegtől és a nedvességtől romlik.\nMit jelent az, hogy a levéltár iratai közérdekűek?\nAzt, hogy nemcsak a kutatók nézhetik meg őket, hanem bárki, aki kéri.\nMi volt az érintetlen dobozban?\nPlakátok, belépőjegyek és egy vékony füzet.\nMit írt fel valaki a füzetbe minden előadás után?\nAzt, hogy hány néző volt a teremben.\nMit hasonlított össze Lenárd?\nA régi plakátokat a mai műsorral, és a régi jegyárakat a maiakkal."
+    },
+    {
+      "title": "Köd a színpadon",
+      "summary": "A theatre technician in Pécs and his young assistant make low stage fog with dry ice.",
+      "newWords": [
+        "dioxid",
+        "vegyület",
+        "olvad",
+        "mínusz",
+        "hatol",
+        "kielégítő",
+        "csomagtartó",
+        "jogosítvány"
+      ],
+      "text": "A pécsi színház új előadásában van egy jelenet, amely hajnalban, egy tó partján játszódik. A rendező azt kérte, hogy a köd alacsonyan, a színpad padlóján terjedjen, mint egy igazi tó fölött.\n\nA színház technikusa, Tallér úr először egy régi géppel próbálkozott. Ez a gép egy különleges folyadékot forrósít fel, és ebből a vegyületből fehér füst lesz. A régi gép köde azonban felszállt, és a színészek nem tudtak tőle rendesen lélegezni. Az eredmény nem volt kielégítő.\n\n– Szárazjég kell – mondta Tallér úr a gyakornokának, Fatimének. – A szárazjég nem víz, hanem fagyott szén-dioxid. Ez is vegyület: szénből és oxigénből áll.\n\nFatime a múlt hónapban kapta meg a jogosítványát, és nagyon szeretett vezetni. Tallér úr odaadta neki a színház kocsijának kulcsát.\n\n– A jogosítványod nálad van? – kérdezte.\n\n– Mindig nálam van – felelte Fatime.\n\nEgy szomszéd városban vették meg a jeget egy cégnél, amely gázokat árul. Egy vastag dobozban adták oda, és Fatime a dobozt a csomagtartóba tette. Az eladó figyelmeztette, hogy a doboz tetejét ne zárja le teljesen, és útközben nyissa ki egy kicsit az ablakot, mert a gáz a csomagtartóból az utastérbe is átjut.\n\n– A szárazjég mínusz 78 fokos – magyarázta Tallér úr, amikor Fatime visszaért. – Kesztyű nélkül nem szabad megfogni. A közönséges jég olvad, víz lesz belőle. A szárazjég viszont nem olvad el, hanem rögtön gázzá válik.\n\nFatime vastag kesztyűt húzott, mégis érezte, hogy a mínusz 78 fokos hideg a kesztyűn keresztül is az ujjáig hatol.\n\nAz első próbán a jeget egyszerűen a színpad szélére tették. Kevés köd lett belőle, ez sem volt kielégítő. Ekkor Tallér úr egy nagy edény meleg vizet hozott. Amikor a jeget beledobták, sűrű, fehér köd folyt ki az edényből. A szén-dioxid nehezebb a levegőnél, ezért a köd a földön maradt, és lassan végigfolyt a színpadon. Egészen az első sorig hatolt.\n\n– Ez már kielégítő? – kérdezte Fatime.\n\n– Több mint kielégítő – nevetett Tallér úr. – Ez egy igazi tó partja hajnalban.\n\nAz előadás után kinyitották az ajtókat, hogy friss levegő jöjjön a terembe. Fatime pedig másnap boldogan ült újra a kocsiba: a csomagtartóban az üres doboz várta, hogy újabb jeget hozzon bele.\n\nKérdések:\nMilyen ködöt kért a rendező?\nAlacsony ködöt, amely a színpad padlóján terjed.\nMiért nem volt kielégítő a régi gép?\nMert a köde felszállt, és a színészek nem tudtak tőle rendesen lélegezni.\nMiből van a szárazjég?\nFagyott szén-dioxidból, amely szénből és oxigénből álló vegyület.\nHova tette Fatime a szárazjeget?\nA csomagtartóba tette.\nMiben különbözik a szárazjég a közönséges jégtől?\nA közönséges jég olvad, a szárazjég viszont rögtön gázzá válik.\nMeddig hatolt a köd?\nEgészen az első sorig hatolt."
+    },
+    {
+      "title": "Két bohóc, egy kalap",
+      "summary": "A newspaper review of a wordless clown show about a domineering clown and a gentle one.",
+      "newWords": [
+        "megaláz",
+        "gesztus",
+        "vitat",
+        "kétségkívül",
+        "domináns",
+        "odafigyel"
+      ],
+      "text": "Két bohóc, egy kalap – kritika\n\nGyimesi Dusán és Bánhidi Ubul előadásában egyetlen szó sem hangzik el. Két bohóc áll a színpadon, és mindent gesztusokkal mondanak el. Sokan vitatják, hogy a némajáték felnőtteknek való-e. Én nem vitatom: ez az előadás kétségkívül felnőtteknek is szól.\n\nA történet egyszerű. Az egyik bohóc, akit Bánhidi Ubul játszik, nagy, hangos és domináns. A másik, Gyimesi Dusán bohóca, kicsi és csendes. A domináns bohóc mindenben az első akar lenni. Elveszi a kis bohóc kalapját, vele viteti a csomagjait, és a közönség előtt gúnyolja. Egy jelenetben arra kényszeríti, hogy kifényesítse a cipőjét, miközben ő maga a nézőknek integet.\n\nEz a jelenet a legnehezebb. A domináns bohóc megalázza a kicsit, és a nézők először nevetnek. Aztán lassan elcsendesednek, mert megértik, hogy ez már nem vicces. Gyimesi Dusán nem panaszkodik, nem sír. Csak egy apró gesztussal megigazítja a ruháját, és ebben a gesztusban benne van minden, amit érez.\n\nAz előadás végén a nagy bohóc elveszíti a saját kalapját, és egyedül marad a színpad közepén. Ekkor a kis bohóc odamegy hozzá, és odaadja neki a sajátját. Nem áll bosszút, pedig megtehetné. Ezzel a gesztussal a domináns bohóc is megérti, hogy aki mást megaláz, az végül egyedül marad.\n\nAz előadás nem könnyű szórakozás. A nézőnek nagyon oda kell figyelnie, mert nincs szöveg, ami segítene. Aki azonban odafigyel, rengeteget kap: egy szemöldök, egy váll, egy lépés többet mond, mint egy hosszú mondat. A gyerekek is odafigyelnek: a mellettem ülő kisfiú egész végig csendben volt.\n\nAzt senki nem vitathatja, hogy a két színész nagyon pontosan dolgozik. Bánhidi Ubul nem könnyű szerepet kapott: egy domináns, néha kellemetlen figurát kell játszania úgy, hogy a végén mégis sajnáljuk. Gyimesi Dusán apró gesztusai pedig kétségkívül az év legszebb színpadi pillanatai közé tartoznak.\n\nAz előadás hetven perces, szünet nincs. Kétségkívül érdemes megnézni, felnőtteknek és tizenkét év feletti gyerekeknek egyaránt.\n\nKérdések:\nHogyan mondják el a bohócok a történetet?\nGesztusokkal, egyetlen szó nélkül.\nMilyen a nagy bohóc?\nNagy, hangos és domináns, mindenben az első akar lenni.\nMiért csendesednek el a nézők?\nMert megértik, hogy nem vicces, amikor a nagy bohóc megalázza a kicsit.\nMit csinál a kis bohóc az előadás végén?\nOdaadja a saját kalapját a nagy bohócnak.\nMiért kell a nézőnek nagyon odafigyelnie?\nMert nincs szöveg, ami segítene.\nMit ír a kritikus Gyimesi Dusán gesztusairól?\nAzt, hogy kétségkívül az év legszebb színpadi pillanatai közé tartoznak."
+    },
+    {
+      "title": "Új sátor a cirkuszi iskolának",
+      "summary": "An interview with the head of a small circus school in Makó about how it grew and got its new tent.",
+      "newWords": [
+        "tőke",
+        "növekedési",
+        "szervezeti",
+        "közvetítő",
+        "kényelem",
+        "jegyző"
+      ],
+      "text": "Tíz éve egy tornateremben kezdték nyolc gyerekkel, ma százhúsz tanulójuk van, és saját sátruk. Mándoki Uzonkával, a Makón működő cirkuszi iskola vezetőjével beszélgettünk.\n\n– Hogyan kezdődött az iskola?\n\n– Én magam is artista voltam, húsz évig dolgoztam külföldön. Amikor hazajöttem, azt láttam, hogy a környéken a gyerekek nem tudnak hol cirkuszt tanulni. Az első évben egy iskola tornatermét béreltük hetente kétszer. Tőkénk alig volt: egy kis megtakarításom és néhány szülő segítsége. Ebből a kevés tőkéből vettük az első labdákat és egy szőnyeget.\n\n– Mikor kezdett nőni az iskola?\n\n– A harmadik évben már ötven gyerek járt hozzánk, és a tornaterem kicsi lett. Ekkor ültünk le először, és készítettünk egy növekedési tervet. A növekedési terv szerint öt év alatt saját helyre volt szükségünk. Ehhez viszont nagyobb tőke kellett, mint amennyit a szülők össze tudtak adni.\n\n– Hogyan találtak pénzt?\n\n– Szervezeti változásra volt szükség. Addig csak egy baráti kör voltunk, ezért alapítványt hoztunk létre. A szervezeti munkát két szülő vállalta: az egyik könyvelő, a másik jogi ügyekben segített. Alapítványként már pályázhattunk. Volt egy közvetítő is, egy fiatal nő, aki a helyi cégek és az iskola között közvetített. Ő hozta össze a találkozókat. Közvetítő nélkül sok cég nem is hallott volna rólunk.\n\n– És a sátor?\n\n– A sátornak hely is kellett. Itt a város jegyzője sokat segített. Megmutatta, melyik telek használható, és elmagyarázta, milyen engedélyekre van szükség. A jegyző úr azóta minden évzáró előadásunkra eljön.\n\n– Milyen az új sátor?\n\n– Fűthető, és van benne kétszáz kényelmes szék. Régen a szülők a tornaterem padjain ültek, és fáztak. Most a kényelem a nézőknek is jár. De a gyerekeknek a legfontosabb az, hogy a sátor magas. Végre van hely a kötélnek és a trapéznak.\n\n– Mi a következő terv?\n\n– Nem akarunk túl nagyra nőni. Fontosabb, hogy minden gyerekre jusson idő. A kényelem nem minden; a jó edző többet ér egy szép sátornál.\n\nKérdések:\nHogyan kezdődött az iskola?\nEgy tornateremben, nyolc gyerekkel, kevés tőkével.\nMit mondott a növekedési terv?\nAzt, hogy öt év alatt saját helyre lesz szükségük.\nMilyen szervezeti változás történt?\nA baráti körből alapítvány lett.\nMit csinált a közvetítő?\nA helyi cégek és az iskola között közvetített, és összehozta a találkozókat.\nHogyan segített a jegyző?\nMegmutatta, melyik telek használható, és elmagyarázta, milyen engedélyek kellenek.\nMit jelent a sátor a nézőknek?\nKényelmet: fűthető, és kétszáz kényelmes szék van benne."
+    }
+  ]
+}
