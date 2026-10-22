@@ -1,0 +1,192 @@
+{
+  "id": "hu-mini-6500",
+  "rankUpTo": 6500,
+  "level": "C1",
+  "title": "A mérnökök világa",
+  "description": "Ten standalone stories, interviews, diaries and columns about engineers in Hungary and nearby: acoustics, robots, bridges, solar parks, old buildings, drones, machines, boats and hospital devices.",
+  "topic": "Engineering",
+  "names": [
+    "Gyenes",
+    "Adelina",
+    "Miskolc",
+    "Zelinda",
+    "Lambert",
+    "Mikes",
+    "Győr",
+    "Horvátország",
+    "Debrecen",
+    "Amarilla",
+    "Nyikos",
+    "Megyeri",
+    "Herta",
+    "Budapest",
+    "Ljubljana",
+    "Szlovénia",
+    "Mojca",
+    "Bled",
+    "Savica",
+    "Szőnyi",
+    "Jolanta",
+    "Tápiószele",
+    "Bérczi",
+    "Kolumbán",
+    "Vitus",
+    "Szécsény",
+    "Révai",
+    "Marcián",
+    "Izland",
+    "Florida",
+    "Bertina",
+    "Fábius",
+    "Kecel",
+    "Hódmezővásárhely",
+    "Ilonka",
+    "Elinor",
+    "Severin",
+    "Balaton",
+    "Balatonkenese",
+    "Rodion",
+    "Márta"
+  ],
+  "lessons": [
+    {
+      "title": "Hangzás a régi gyárban",
+      "summary": "Acoustic engineer Adelina Gyenes turns an empty factory hall in Miskolc into a concert hall, tunes its sound and receives a bouquet at the opening ceremony.",
+      "newWords": [
+        "hangzás",
+        "csarnok",
+        "technikailag",
+        "rendhagyó",
+        "zsúfolt",
+        "ceremónia",
+        "csokor"
+      ],
+      "text": "Gyenes Adelina mérnök Miskolcon, a hangzás szakértője. Az a dolga, hogy a termekben jó legyen a hangzás: a zene se túl tompán, se túl élesen ne szóljon, és a terem minden sarkában ugyanolyan tisztán lehessen hallani. Tavaly rendhagyó feladatot kapott. A város egy régi gyár üres csarnokát akarta koncertek számára átalakítani.\n\nA csarnok hatalmas volt: hatvan méter hosszú és húsz méter magas, beton falakkal és vas tetővel. Régen nehéz gépek dolgoztak benne. Adelina az első napon megállt a csarnok közepén, és hangosan tapsolt egyet. A taps hangja majdnem öt másodpercig szólt a falak között. Egy jó koncertteremben a hang körülbelül két másodperc alatt eltűnik.\n\n– Technikailag ez most nem terem, hanem egy óriási barlang – mondta a kollégájának.\n\nAdelina először számítógépen készítette el a csarnok modelljét. Technikailag nem volt könnyű feladat, mert a csarnok formája is rendhagyó: nem szabályos, hanem az egyik vége keskenyebb, mint a másik. Ezért a szokásos megoldások itt nem működtek. Adelina hónapokig próbálkozott. Végül a falakra fából készült, hullámos felületű lapokat tervezett, a tető alá pedig nagy, lógó elemeket, amelyek elnyelik és szétszórják a hangot.\n\nAz építés idején a csarnok zsúfolt volt: munkások, gépek, szerszámok és kábelek mindenütt. Nappal túl nagy volt a zaj, ezért Adelina csak este mérhetett, amikor már mindenki hazament. A méréshez ugyanis teljes csend kell.\n\nEljött az első próba. A város zenekara egy rövid darabot játszott az üres teremben. Adelina a sorok között járt, és mindenhol figyelte a hangzást. Elöl kicsit túl erős volt a dob, hátul viszont meleg és tiszta volt a hangzás. Két lapot máshová tettek, és a második próbán már minden rendben volt.\n\nA megnyitó ceremónián a terem zsúfolt volt: több mint ezer ember ült a székeken. A ceremónia elején a zenekar vezetője egy csokor virágot adott át Adelinának a színpadon. Adelina zavarba jött, mert nem szokott közönség előtt állni. A csokrot az ölében tartotta, amíg a zenekar játszott, és csukott szemmel hallgatta a hangzást. Nem talált benne hibát.\n\nKérdések:\nMi Gyenes Adelina dolga?\nAz, hogy a termekben jó legyen a hangzás.\nMiért volt rendhagyó a feladata?\nMert egy régi gyár üres csarnokát kellett koncertek számára átalakítani, és a csarnok formája is rendhagyó volt.\nMi történt, amikor Adelina tapsolt a csarnok közepén?\nA taps hangja majdnem öt másodpercig szólt a falak között.\nMiért csak este mérhetett Adelina?\nMert nappal a zsúfolt csarnokban túl nagy volt a zaj, a méréshez pedig teljes csend kell.\nMit kapott Adelina a ceremónia elején?\nA zenekar vezetőjétől egy csokor virágot kapott."
+    },
+    {
+      "title": "A delfin ihlette robot",
+      "summary": "Two engineering students in Győr build an underwater robot inspired by dolphins, focus on one simple goal and win the national university competition again as defending champions.",
+      "newWords": [
+        "delfin",
+        "ihlet",
+        "laboratórium",
+        "címvédő",
+        "programozás",
+        "összpontosít",
+        "kitűz"
+      ],
+      "text": "Zelinda és Lambert mérnöknek tanulnak Győrben. Délutánonként az egyetem egyik laboratóriumában dolgoznak egy kis víz alatti robot építésén. A laboratórium a pincében van: van benne egy nagy víztartály, három asztal tele szerszámokkal és egy öreg kávéfőző, amelyet mindenki használ.\n\nA robotot egy delfin ihlette. Zelinda tavaly nyáron Horvátországban delfineket látott a tengerben, és nem tudta elfelejteni, milyen könnyedén úsznak. A delfin az egész testével hajtja előre magát: hullámszerűen mozgatja a testét, és így gyorsan halad. Egy hagyományos víz alatti robotot egy forgó hajócsavar hajt, és sok áramot fogyaszt. A delfin ihlette robot ezzel szemben hajlékony testtel úszik, és sokkal kevesebb energiát használ.\n\nA munka legnehezebb része a programozás volt. A kis motoroknak pontosan egymás után kell mozogniuk, különben a robot csak forog egy helyben. Lambert hetekig ült a programozás fölött a laboratóriumban. Zelinda közben a testet építette: puha műanyagból nyomtatta ki egy nyomtatóval, darabonként.\n\nTavaly a csapatuk megnyerte az egyetemek országos versenyét, így idén ők a címvédők. A címvédőtől mindenki sokat vár, és ez kicsit nyomasztotta őket. A témavezetőjük, Mikes tanár úr azt tanácsolta, hogy ne a többi csapattal törődjenek, hanem a saját munkájukra összpontosítsanak.\n\n– Tűzzetek ki egy egyszerű célt, és arra összpontosítsatok! – mondta.\n\nEzért közösen kitűztek egy célt: a robot egy perc alatt ússza le a húszméteres pályát a medencében, és közben ne térjen le az útjáról. Ezt a célt egy papírra írták, és kitűzték a laboratórium falára, hogy mindig lássák.\n\nA verseny napján Debrecenben, egy uszodában tizenkét csapat gyűlt össze. A nézők sokat beszéltek a címvédő csapatról. Az első futamban a robot ötvenhét másodperc alatt úszta le a pályát. Zelinda és Lambert némán figyelték, mert a robotnak egyedül kellett úsznia, emberi segítség nélkül. Végül ismét ők nyertek.\n\n– Jövőre is ti lesztek a címvédők – mondta mosolyogva Mikes tanár úr.\n\n– Akkor jövőre új célt tűzünk ki – felelte Zelinda. – A robotnak ugrani is meg kell tanulnia, mint egy igazi delfinnek.\n\nKérdések:\nHol dolgoznak Zelinda és Lambert a robot építésén?\nAz egyetem egyik laboratóriumában, a pincében.\nMi ihlette a robotot?\nEgy delfin ihlette, amelyet Zelinda Horvátországban látott a tengerben.\nMi volt a munka legnehezebb része?\nA programozás, mert a motoroknak pontosan egymás után kell mozogniuk.\nMiért nyomasztotta őket, hogy ők a címvédők?\nMert a címvédőtől mindenki sokat vár.\nMilyen célt tűztek ki?\nAzt, hogy a robot egy perc alatt ússza le a húszméteres pályát, és ne térjen le az útjáról.\nMit akar Zelinda jövőre?\nAzt, hogy a robot ugorjon is, mint egy igazi delfin."
+    },
+    {
+      "title": "Egy cikk a hídról",
+      "summary": "In her diary, doctoral student Amarilla measures a Budapest bridge by day, writes her first scientific article by night, survives a computer crash thanks to automatic saving and gets the article accepted.",
+      "newWords": [
+        "napközben",
+        "oldalas",
+        "formátum",
+        "mentés",
+        "titkosít",
+        "megfogalmaz",
+        "publikál"
+      ],
+      "text": "Március 4., hétfő\n\nMa kezdtem el írni az első tudományos cikkemet. Két éve vizsgálom, hogyan rezeg a Megyeri híd, amikor nagy a szél vagy sok teherautó megy át rajta. Napközben a hídon dolgozom: ellenőrzöm az érzékelőket, és letöltöm az adatokat. Este ülök le írni, mert napközben erre nincs időm. A cikk legfeljebb tizenkét oldalas lehet. Ez kevésnek tűnik, de Nyikos professzor szerint egy tizenkét oldalas cikket sokkal nehezebb megírni, mint egy hosszút.\n\nMárcius 9., szombat\n\nA folyóirat nagyon szigorú. Mindent egy bizonyos formátumban kell beküldeni: a szöveget egy különleges formátumban, a képeket és a táblázatokat egy másikban. Fél napig tartott, mire minden ábrát átalakítottam a megfelelő formátumba. Közben rájöttem, hogy a fele adatom rossz formátumban van elmentve.\n\nMárcius 13., szerda\n\nMa este majdnem elvesztettem mindent. Írás közben hirtelen kikapcsolt a laptopom. Azt hittem, odavan az egész fejezet. Szerencsére a program ötpercenként automatikus mentést végez. Amikor újra bekapcsoltam a gépet, ott volt az utolsó mentés: csak két mondat hiányzott. Holnaptól minden este külön mentést is készítek egy másik lemezre.\n\nMárcius 18., hétfő\n\nA hidat üzemeltető cég azt kérte, hogy a nyers adataikat senkinek ne küldjem el titkosítás nélkül. Ezért ma megtanultam, hogyan kell egy fájlt titkosítani. Most már minden fájlt titkosítok, mielőtt elküldöm a professzornak. A jelszót mindig telefonon mondom meg neki.\n\nMárcius 25., hétfő\n\nNyikos professzor elolvasta a cikket. Azt mondta, hogy az eredmények jók, de a következtetést még pontosabban kell megfogalmaznom. Igaza van: én is éreztem, hogy a végén túl sokat akarok mondani. Két estén át fogalmaztam újra az utolsó bekezdést. Végül egyetlen mondatban fogalmaztam meg a lényeget: erős szélben a híd kisebbet rezeg, mint amit a régi számítások mutattak.\n\nMájus 2., csütörtök\n\nMa jött a levél a folyóirattól: elfogadták a cikkemet, és ősszel publikálják. Napközben a hídon álltam a szélben, és egész nap mosolyogtam. A professzor szerint ritka, hogy egy fiatal kutató első cikkét ilyen gyorsan publikálja egy ilyen jó folyóirat.\n\nKérdések:\nMit vizsgál Amarilla két éve?\nAzt, hogyan rezeg a Megyeri híd nagy szélben vagy sok teherautó alatt.\nMiért este ír Amarilla?\nMert napközben a hídon dolgozik, és nincs ideje írni.\nMilyen hosszú lehet a cikk?\nLegfeljebb tizenkét oldalas lehet.\nMi mentette meg a munkáját, amikor kikapcsolt a laptopja?\nAz automatikus mentés, amelyet a program ötpercenként végez.\nMiért titkosítja Amarilla a fájlokat?\nMert a hidat üzemeltető cég azt kérte, hogy a nyers adatokat ne küldje el titkosítás nélkül.\nMit kellett pontosabban megfogalmaznia?\nA cikk következtetését."
+    },
+    {
+      "title": "Egy hét Ljubljanában",
+      "summary": "Herta, an engineer from Győr, spends a week in Ljubljana installing a measuring machine at a partner factory, stays in a small guesthouse, learns a few words of Slovene and visits a waterfall at the weekend.",
+      "newWords": [
+        "bőrönd",
+        "panzió",
+        "szlovén",
+        "fotózik",
+        "nagyváros",
+        "vízesés"
+      ],
+      "text": "Herta gépészmérnök egy gyárban Győrben, ahol autóalkatrészeket gyártanak. A gyárnak van egy partnere Szlovéniában, Ljubljana mellett. Tavasszal ott egy új mérőgépet kellett üzembe helyezni, és a cég Hertát küldte ki egy hétre.\n\nIndulás előtt este Herta elővette a bőröndjét. Egy hétre csomagolt: négy inget, két nadrágot, egy pulóvert, hat napra elegendő tiszta ruhát, a laptopját és egy vastag mappát a gép rajzaival. A bőrönd majdnem tele lett. Egy kis helyet szándékosan üresen hagyott, mert tudta, hogy hazafelé ajándékot is hoz majd.\n\nA cég nem szállodában foglalt neki szobát, hanem egy kis családi panzióban, a gyár közelében. A panzió egy kertes, kétszintes házban volt, csak hat szobával. A tulajdonos, Mojca, kedves középkorú asszony volt. Jól beszélt angolul, de Herta szerette volna megtanulni néhány szót szlovénül is. Mojca minden reggel a reggelinél tanított neki egy-két új szót. Szerdára Herta már szlovénül tudott jó reggelt kívánni és köszönetet mondani.\n\nA gyárban hosszú napok vártak rá. A mérőgép üzembe helyezése lassan haladt, mert minden kábelt és minden beállítást ellenőrizni kellett. Herta minden lépést lefotózott, hogy otthon a kollégái is lássák, hogyan szerelték össze a gépet. Lefotózta a kábeleket, a kijelzőt és a mérési eredményeket is. Este a panzióban kimosott néhány ruhát a mosdóban, és a fotókat egy mappába rendezte.\n\nLjubljana más volt, mint amire Herta számított. Azt hitte, hogy egy zajos nagyvárosba érkezik, de a város inkább csendes és barátságos volt, szűk utcákkal és sok biciklivel. Budapesthez képest egyáltalán nem tűnt nagyvárosnak.\n\nPénteken a gépet átadták a helyi kollégáknak, és minden jól működött. Szombaton Mojca azt javasolta, hogy Herta menjen el Bledbe, a tó mellé, és onnan a hegyekbe a Savica vízeséshez. Herta busszal ment, aztán gyalog mászott fel a vízeséshez. A víz hatalmas zajjal zuhant le a sziklákról. Herta itt nem a munkáért fotózott, hanem csak magának.\n\nVasárnap reggel Mojca egy üveg hegyi mézet adott neki búcsúzóul. Herta betette a bőrönd üres sarkába, és szlovénül mondott köszönetet.\n\nKérdések:\nMiért utazott Herta Szlovéniába?\nMert egy partnergyárban egy új mérőgépet kellett üzembe helyezni.\nMit pakolt Herta a bőröndjébe?\nIngeket, nadrágot, pulóvert, hat napra elegendő tiszta ruhát, a laptopját és a gép rajzait.\nHol lakott Herta Ljubljanában?\nEgy kis családi panzióban a gyár közelében.\nMit tanult Herta Mojcától?\nMinden reggel egy-két szót szlovénül.\nMiért fotózott Herta a gyárban?\nHogy otthon a kollégái is lássák, hogyan szerelték össze a gépet.\nMilyen volt Ljubljana Herta szerint?\nCsendes és barátságos, egyáltalán nem tűnt nagyvárosnak."
+    },
+    {
+      "title": "Napelemek a falu szélén",
+      "summary": "In a column, Jolanta Szőnyi of Tápiószele weighs a planned solar park next to her village: the engineer's view, the unhappy neighbours, and a compromise with low bushes, a footpath and grazing lambs.",
+      "newWords": [
+        "környezetvédelem",
+        "községi",
+        "környéki",
+        "elégedetlen",
+        "álláspontja",
+        "elfogadhatatlan",
+        "megfoszt"
+      ],
+      "text": "Tavasszal egy nagy cég bejelentette, hogy a falunk, Tápiószele szélén, ahol eddig kukorica nőtt, napelemparkot épít. A park nagyon nagy lenne, és közvetlenül az utolsó házak mögött kezdődne. A hírről a legtöbben a községi újságból értesültünk, egy rövid cikkből a harmadik oldalon.\n\nMúlt héten a cég bemutatót tartott a községi könyvtár nagytermében. Eljött rá a falu fele, sőt a környéki tanyákról is sokan bejöttek. Egy fiatal mérnök tartotta az előadást. Nyugodtan és érthetően beszélt. A cég álláspontja egyszerű: a napelemek tiszta áramot termelnek, nem termelnek füstöt, és ez a környezetvédelem szempontjából fontos. A park körülbelül tízezer családnak adna elég áramot.\n\nA teremben azonban sokan elégedetlenek voltak. Egy idős szomszédom azt mondta, hogy hatvan éve nézi a földeket az ablakából, és a park megfosztaná ettől a látványtól. Egy környéki gazda attól félt, hogy a szomszédos földek ára leesik. A legtöbben pedig azért voltak elégedetlenek, mert csak az újságból tudták meg a tervet. Szerintük elfogadhatatlan, hogy ilyen nagy változásról senki nem kérdezte meg előre a lakókat.\n\nÉn egyetértek velük abban, hogy a tájékoztatás késve érkezett, és ez valóban elfogadhatatlan. Ugyanakkor nem gondolom, hogy maga a terv rossz. A környezetvédelem nem csak annyit jelent, hogy kevesebb szén-dioxid kerül a levegőbe. A táj, a fák és a madarak védelme is a környezetvédelem része. A kérdés tehát nem az, hogy legyen-e park, hanem az, hogy milyen legyen.\n\nA mérnök a bemutató végén meghallgatta az elégedetlen lakókat, és két héttel később új tervvel tért vissza. A cég nem akarja megfosztani a lakókat a szép kilátástól, ezért a park és a házak közé nem magas kerítés kerül, hanem alacsony bokrok. A régi úton továbbra is lehet majd sétálni. A park füvét pedig egy környéki juhász bárányai eszik majd le, így nem kell gépekkel vágni.\n\nA cég új álláspontja szerint a parkot a falu kérésére fél évvel később kezdik építeni, hogy közben mindenki elmondhassa a véleményét. Szerintem ez jó irány. A szomszédom még mindig nem örül, de azt mondta, a bárányokat szívesen nézi majd az ablakából.\n\nSzőnyi Jolanta\n\nKérdések:\nMit akar építeni a cég?\nNapelemparkot a falu szélén, ahol eddig kukorica nőtt.\nMi a cég álláspontja?\nHogy a napelemek tiszta áramot termelnek, és ez a környezetvédelem szempontjából fontos.\nMiért voltak elégedetlenek a lakók?\nMert csak az újságból tudták meg a tervet, és senki nem kérdezte meg őket előre.\nMiért elégedetlen az idős szomszéd?\nMert hatvan éve nézi a földeket az ablakából, és a park megfosztaná ettől a látványtól.\nMi van az új tervben?\nAlacsony bokrok, a régi út a sétához és bárányok, amelyek leeszik a füvet.\nMit gondol Jolanta a környezetvédelemről?\nHogy a táj, a fák és a madarak védelme is a környezetvédelem része."
+    },
+    {
+      "title": "Repedések a barokk falon",
+      "summary": "Engineer Kolumbán Bérczi examines an old Baroque mansion in Szécsény that is to become a library, finds the cause of the cracks, has the old wall material analysed, and an old plan found in the archives solves the last problem.",
+      "newWords": [
+        "barokk",
+        "létra",
+        "összetétele",
+        "kiszámíthatatlan",
+        "megnehezít",
+        "megoldódik",
+        "különálló"
+      ],
+      "text": "Bérczi Kolumbán mérnök, régi épületekkel foglalkozik. Ha egy régi házon baj van, ő vizsgálja meg, biztonságos-e, és mit kell tenni vele. Tavaly különleges munkát kapott: Szécsényben egy 250 éves barokk kastélyt akartak könyvtárrá alakítani. A barokk épület szép volt, sárga falakkal és magas ablakokkal, de a falain hosszú repedések futottak.\n\nAz első napon Kolumbánnal együtt jött a fiatal kollégája, Vitus is. Először a tető alá akartak felmenni. Ott állt egy régi, fából készült létra, de nem tűnt biztonságosnak, ezért Kolumbán a saját fém létrájukat hozta be az autóból. Fent lámpával vizsgálták a tetőt tartó vastag fákat. A legtöbb rendben volt, de a sarokban kettő nedves lett, mert ott évek óta befolyt az eső.\n\nA kastély mellett állt egy különálló épület is, a régi lóistálló. Ezt a különálló épületet később kávézónak szánták. Kolumbán meglepődött: az istálló falai sokkal jobb állapotban voltak, mint a kastélyéi. Ebből arra következtetett, hogy a repedéseket nem a talaj okozza, hiszen akkor a különálló istálló falai is megsérültek volna. A hibás tetőn át évek óta folyt le a víz a falakba, és ez okozta a bajt.\n\n– A régi házak kiszámíthatatlanok – mondta Vitusnak. – Soha nem tudod, mit találsz a fal felszíne alatt.\n\nAhhoz, hogy a falakat jól javíthassák, ismerni kellett a régi falak anyagának az összetételét. Kolumbán mintát vett, és elküldte egy laboratóriumba. Két hét múlva megjött az eredmény: az anyag összetétele mész és folyóból hozott homok volt, modern anyagok nélkül. Ez fontos volt, mert a mai kemény anyagok nem illenek egy ilyen régi falhoz, és megnehezítenék, hogy a fal kiszáradjon.\n\nA munkát egy újabb kiszámíthatatlan dolog is megnehezítette. Az egyik fal mögött a munkások egy téglával elzárt kis szobát találtak, amely egyik régi rajzon sem szerepelt. Senki sem tudta, mire szolgált, és azt sem, hogy a fala tartja-e a tetőt.\n\nVégül a kérdés gyorsan megoldódott. Vitus a levéltárban megtalált egy kétszáz éves tervet, amelyen a kis szoba is rajta volt: egy régi konyha kamrája volt, és a fala nem tartotta a tetőt. A probléma így megoldódott, a falat kinyitották, és a kamrából egy kis olvasósarok lett.\n\nA könyvtárat másfél év múlva nyitották meg. Kolumbán a megnyitón nézte a sima, sárga falakat, és örült, hogy egyetlen repedést sem látott rajtuk.\n\nKérdések:\nMi lett a barokk kastélyból?\nKönyvtár.\nMiért hozta be Kolumbán a saját létrájukat?\nMert a régi, fából készült létra nem tűnt biztonságosnak.\nMire következtetett Kolumbán a különálló istállóból?\nArra, hogy a repedéseket nem a talaj okozza, hanem a hibás tetőn át lefolyó víz.\nMi volt a régi falak anyagának összetétele?\nMész és folyóból hozott homok, modern anyagok nélkül.\nMi nehezítette meg még a munkát?\nEgy téglával elzárt kis szoba, amely egyik régi rajzon sem szerepelt.\nHogyan oldódott meg a kérdés?\nVitus a levéltárban talált egy régi tervet, amelyen a kis szoba is rajta volt."
+    },
+    {
+      "title": "Drónnal a felhők fölött",
+      "summary": "An interview with Marcián Révai, an engineer who designs measuring drones that fly above volcanoes in Iceland and into hurricanes over the ocean, about lost drones, careful choices and the imaginary flying machines of his childhood.",
+      "newWords": [
+        "vulkán",
+        "hurrikán",
+        "létfontosságú",
+        "elszáll",
+        "kényszerül",
+        "mintsem",
+        "képzeletbeli"
+      ],
+      "text": "Révai Marcián mérnök. Egy kis csapattal drónokat, vagyis pilóta nélküli kis repülő gépeket tervez, amelyek oda is eljutnak, ahová ember nem mehet. A gépei jártak már egy vulkán fölött Izlandon és egy hurrikán belsejében is. A munkájáról beszélgettünk.\n\n– Mit mérnek a gépei egy vulkán fölött?\n\n– A vulkán gázokat bocsát ki, és ezeknek a gázoknak az összetétele elárulja, mi történik a föld mélyén. Ha a gázok összetétele hirtelen megváltozik, az jelezheti, hogy a vulkán felébred. Ezek az adatok létfontosságúak a környéken élőknek, mert így időben fel lehet készülni.\n\n– Miért nem mennek oda emberek?\n\n– Régen mentek. A kutatók maszkban másztak fel a vulkán szélére. Ma már inkább kockáztatunk egy gépet, mintsem egy ember egészségét. Egy gépet újra meg lehet építeni.\n\n– Előfordult már, hogy elveszett egy gép?\n\n– Igen, többször is. Izlandon egyszer olyan erős lett a szél, hogy a gép egyszerűen elszállt. Láttuk a képernyőn, ahogy egyre távolabb kerül, aztán eltűnt. Egy másik alkalommal egy hirtelen jött vihar miatt arra kényszerültünk, hogy a gépet a tengerbe vezessük. Azóta minden gépbe két külön elemet teszünk, hogy ne kelljen ilyen döntést hoznunk.\n\n– És a hurrikánok?\n\n– Amerikai kutatókkal dolgozunk együtt Floridában. A hurrikán közepén a levegő viszonylag nyugodt, de a széle felé hatalmas a szél. A kis gépet egy nagy repülőgépből engedik ki, és méri, milyen erős a szél, és milyen gyorsan nő a hurrikán ereje. Ez létfontosságú adat, mert ebből lehet kiszámítani, hova ér partot a vihar, és mikor kell elhagyni a part menti városokat.\n\n– Nem fél, hogy a szél ott is elviszi?\n\n– Ott egészen biztosan elszáll – nevet Marcián. – Egy hurrikánból egyetlen gépünk sem jött még vissza. Ezért ezek a gépek kicsik és olcsók. Inkább küldünk be tíz kis gépet, mintsem egyetlen embert. A feladatuk annyi, hogy egy órán át küldjék az adatokat.\n\n– Hogyan lett mérnök?\n\n– Gyerekkoromban képzeletbeli gépeket rajzoltam: repülő házakat, szárnyakkal úszó hajókat, felhőn alvó robotokat. A képzeletbeli gépeim nagy része sosem repülne. Aztán az egyetemen megtanultam, hogyan lehet egy rajzból valódi gépet készíteni. Néha még ma is megnézem a régi füzeteimet. Egyik-másik képzeletbeli gépem nem is áll olyan messze attól, amin most dolgozunk.\n\nKérdések:\nMit mérnek Marcián gépei egy vulkán fölött?\nA vulkán gázainak összetételét.\nMiért létfontosságúak ezek az adatok?\nMert jelezhetik, hogy a vulkán felébred, és a környéken élők időben fel tudnak készülni.\nMi történt Izlandon az erős szélben?\nA gép elszállt, és eltűnt.\nMiért kényszerültek egyszer arra, hogy a gépet a tengerbe vezessék?\nEgy hirtelen jött vihar miatt.\nMit kockáztatnak inkább, mintsem egy ember egészségét?\nEgy gépet, mert azt újra meg lehet építeni.\nMit rajzolt Marcián gyerekkorában?\nKépzeletbeli gépeket: repülő házakat, szárnyakkal úszó hajókat és felhőn alvó robotokat."
+    },
+    {
+      "title": "Napgép a vásáron",
+      "summary": "Bertina and Fábius, a married couple of engineers from Kecel, show their solar-powered herb dryer at a farm fair in Hódmezővásárhely, help the poultry-feeder makers next door and win over an old woman with an orchard.",
+      "newWords": [
+        "stand",
+        "plakát",
+        "gyógynövény",
+        "gyümölcsös",
+        "ejha",
+        "varázsol",
+        "szárnyas"
+      ],
+      "text": "Bertina és Fábius házaspár, mindketten mérnökök. Kecelen van egy kis műhelyük, ahol mezőgazdasági gépeket építenek. A legújabb gépük gyógynövényekhez készült, és a nap melegével működik. A gép tetején egy sötét lemez gyűjti a meleget, a meleg levegő pedig lassan átmegy a rácsokon, ahol a gyógynövények fekszenek. Így a gyógynövények néhány nap alatt megszáradnak, és közben megőrzik az illatukat és a színüket.\n\nTavasszal elvitték a gépet egy nagy mezőgazdasági vásárra Hódmezővásárhelyre. Kaptak egy kis standot a nagy csarnok sarkában. Előző este Fábius egy nagy plakátot nyomtatott. A plakáton a gép fotója volt, alatta pedig nagy betűkkel ez állt: „Itt a nap dolgozik, nem a villany.” Reggel korán feltették a plakátot a stand hátsó falára, a gépet pedig a stand elejére tolták, hogy mindenki lássa.\n\nA szomszéd standon egy cég szárnyasoknak való gépeket mutatott be: tyúkoknak, kacsáknak és libáknak. A gép magától adta a kukoricát, és egy kis képernyőn mutatta, mennyit ettek a szárnyasok. A szomszédok kedvesek voltak: délben megosztották Bertináékkal az ebédjüket, cserébe Fábius megjavította az egyik gépüket.\n\nDélelőtt egy kisfiú állt meg Bertináék gépe előtt. Amikor Fábius bekapcsolta, a gép belsejében forogni kezdett egy kis kerék. A fiú felkiáltott:\n\n– Ejha! Ez forog!\n\nA vásár legkitartóbb látogatója azonban Ilonka néni volt, egy idős asszony, akinek nagy gyümölcsös kertje van a város szélén. Sokáig kérdezte Bertinát.\n\n– És almát is lehet benne szárazra készíteni? Mert a gyümölcsös kertemben annyi alma terem, hogy nem tudom, mit kezdjek vele.\n\n– Persze – felelte Bertina. – A gyümölcs is megszárad benne. Vékony szeletekre kell vágni, és a gép két nap alatt finom, száraz almát varázsol belőle.\n\nBertina mutatott egy zacskó száraz almát, amelyet otthon készítettek. Ilonka néni evett belőle egy darabot, és mosolyogni kezdett.\n\n– Ejha, ez finomabb, mint a boltban vásárolt! – mondta. – Ha ilyet tud varázsolni a nap, akkor nekem is kell egy ilyen gép.\n\nA vásár végére Bertina és Fábius öt gépet adtak el: kettőt gyógynövényeket termelő gazdák rendeltek, hármat pedig olyanok, akiknek gyümölcsös kertjük van. Az első gép Ilonka nénihez került.\n\nKérdések:\nMire készült Bertina és Fábius legújabb gépe?\nGyógynövényekhez készült, és a nap melegével működik.\nMi volt a plakáton?\nA gép fotója, alatta pedig az, hogy „Itt a nap dolgozik, nem a villany.”\nMit mutatott be a szomszéd stand?\nSzárnyasoknak való gépeket.\nMit mondott a kisfiú, amikor forogni kezdett a kerék?\nAzt mondta: „Ejha! Ez forog!”\nMiért kérdezte Ilonka néni az almáról Bertinát?\nMert a gyümölcsös kertjében nagyon sok alma terem.\nMit varázsol a gép az almából?\nKét nap alatt finom, száraz almát varázsol belőle."
+    },
+    {
+      "title": "Csendes hajó a Balatonon",
+      "summary": "Engineer Elinor builds silent solar-powered boats for Lake Balaton; after a weak year she needs a bank loan, and a test ride with an old boatman and a banker in a rising wind convinces the bank.",
+      "newWords": [
+        "hajós",
+        "kimondottan",
+        "mindenkor",
+        "visszaesik",
+        "bankár",
+        "szándékozik",
+        "tőzsde",
+        "visszavesz"
+      ],
+      "text": "Elinor hajóépítő mérnök. Balatonkenesén van egy kis üzeme, ahol csendes, elektromos hajókat épít. A hajók tetején napelemek vannak, így napos időben szinte egész nap tudnak menni. A Balatonon a legtöbb motoros hajó nem járhat, ezért Elinor hajóit kimondottan a tóra tervezte: könnyűek, lassúak és teljesen csendesek.\n\nAz első években jól ment az üzlet. Tavaly azonban hideg és esős volt a nyár, kevés turista jött, és a hajók eladása erősen visszaesett. Elinor tudta, hogy egy rossz év után a bankok óvatosabbak. Ősszel mégis kölcsönt kellett kérnie, hogy megépíthesse az új modellt.\n\nA bankban egy fiatal bankár fogadta. Udvarias volt, de sok kérdést tett fel.\n\n– Mi történik, ha jövőre is visszaesnek az eladások? – kérdezte a bankár. – És szándékozik-e a cég egyszer a tőzsdére menni?\n\n– Nem szándékozom a tőzsdére vinni a céget – felelte Elinor. – Ez kimondottan kis cég, és az is akar maradni. A tőzsde a nagy cégeknek való. Én jó hajókat akarok építeni, nem részvényeket eladni.\n\nA bankár azt mondta, hogy előbb látni szeretné a hajót. Elinor meghívta egy próbaútra.\n\nA próbaútra Elinor elhívta Severin bácsit is. Severin bácsi negyven évig volt hajós a Balatonon: a nagy személyszállító hajókon dolgozott, és senki sem ismerte jobban a tavat, mint ő. Ő ült a kormánykerékhez, aztán a tó közepén átadta Elinornak.\n\n– Egy jó hajós mindenkor figyeli a szelet – mondta. – A Balaton gyorsan változik.\n\nFél óra múlva valóban feltámadt a szél, és a víz hullámos lett. A bankár elsápadt. Severin bácsi nyugodtan visszavette a kormánykereket Elinortól, és a hajót a hullámokkal szemben fordította. A könnyű hajó szépen, egyenletesen haladt, és a motor ekkor sem adott ki semmilyen hangot.\n\n– Sok hajón voltam már – mondta a hajós a bankárnak. – Ez kimondottan jól viselkedik a szélben.\n\nAmikor kikötöttek, a bankár kezet fogott Elinorral. Két héttel később megérkezett a bank levele: megkapta a kölcsönt. Elinor tavasszal elkezdte az új modell építését, és megígérte Severin bácsinak, hogy az első próbaúton is ő veszi vissza a kormánykereket, ha jön a szél.\n\nKérdések:\nMilyen hajókat épít Elinor?\nCsendes, elektromos hajókat, amelyeket kimondottan a Balatonra tervezett.\nMiért esett vissza tavaly az eladás?\nMert hideg és esős volt a nyár, és kevés turista jött.\nMit kérdezett a bankár a tőzsdéről?\nAzt, hogy szándékozik-e a cég egyszer a tőzsdére menni.\nKi Severin bácsi?\nEgy régi hajós, aki negyven évig dolgozott a Balaton hajóin.\nMit figyel egy jó hajós mindenkor?\nA szelet.\nMit csinált Severin bácsi, amikor feltámadt a szél?\nVisszavette a kormánykereket Elinortól, és a hajót a hullámokkal szemben fordította."
+    },
+    {
+      "title": "Maci a vizsgálóban",
+      "summary": "Rodion, an engineer who looks after the machines of a children's clinic in Debrecen, teams up with Márta, a cleaner with a collection of knitted teddy bears, to make examinations less frightening for children.",
+      "newWords": [
+        "takarító",
+        "maci",
+        "kollekció",
+        "hasi",
+        "terápiás",
+        "radioaktív"
+      ],
+      "text": "Rodion mérnök egy klinikán Debrecenben, ahol gyerekeket gyógyítanak. Ő felel azért, hogy a kórház gépei mindig pontosan és biztonságosan működjenek. Minden reggel végigjárja a szobákat, ahol a vizsgálatok folynak: ellenőrzi az ultrahangos gépeket, amelyekkel az orvosok hasi vizsgálatot végeznek, a terápiás lámpákat, amelyek a kisbabák kezelésére szolgálnak, és a földszinti osztály nagy gépét, amely radioaktív anyaggal dolgozik.\n\nEttől az utóbbitól sokan félnek, pedig nincs miért. A gyerek egy nagyon kis adag radioaktív anyagot kap, amely megmutatja, hogyan dolgozik például a veséje. Ez az anyag egy napon belül eltűnik a szervezetből. Rodion feladata, hogy a gép pontosan mérjen, és senki ne kapjon a szükségesnél több sugárzást.\n\nA gépekkel nincs baj, a gyerekekkel viszont gyakran. Sokan sírnak, amikor belépnek egy ilyen szobába, mert ott minden idegen és hideg. Rodion évek óta látta ezt, de nem tudta, mit tehetne. Hiszen ő mérnök, nem orvos.\n\nA megoldást Márta néni hozta, a takarító. Márta néni harminc éve takarító a klinikán, és otthon esténként macikat köt. Az otthoni kollekciója már több mint kétszáz maciból áll: vannak köztük kék, sárga, piros és zöld macik is. Minden héten hoz belőlük néhányat a kórházba, és odaadja a legjobban félő gyerekeknek.\n\nEgy reggel Rodion a folyosón beszélgetett Márta nénivel, és támadt egy ötlete. Egy régi, már nem használt ultrahangos fejből és egy kis képernyőből játékot épített. Ha a gyerek ezt a fejet a maci hasához érinti, a képernyőn megjelenik egy rajzolt maci, belül egy kis dobogó szívvel.\n\nAzóta a hasi vizsgálat előtt a gyerekek először a macijukat vizsgálják meg. A nővér megmutatja, hogyan kell tartani a fejet, a gyerek pedig maga keresi meg a maci szívét. Utána már sokkal kevésbé fél, amikor rá kerül a sor.\n\nA takarító és a mérnök azóta jó barátok. Márta néni kollekciója lassan fogy, mert a gyerekek a macit haza is vihetik. Rodion ezért vett neki tíz csomag fonalat, hogy legyen miből újakat kötni.\n\nKérdések:\nMilyen gépeket ellenőriz Rodion minden reggel?\nAz ultrahangos gépeket, a terápiás lámpákat és a radioaktív anyaggal dolgozó gépet.\nMiért nem kell félni a radioaktív anyagtól?\nMert a gyerek csak nagyon kis adagot kap, és egy napon belül eltűnik a szervezetből.\nKi Márta néni?\nA klinika takarítója, aki otthon esténként macikat köt.\nMekkora Márta néni kollekciója?\nTöbb mint kétszáz maciból áll.\nMit épített Rodion?\nEgy játékot, amellyel a gyerekek a hasi vizsgálat előtt megvizsgálhatják a macijukat.\nMiért fogy Márta néni kollekciója?\nMert a gyerekek a macit haza is vihetik."
+    }
+  ]
+}
