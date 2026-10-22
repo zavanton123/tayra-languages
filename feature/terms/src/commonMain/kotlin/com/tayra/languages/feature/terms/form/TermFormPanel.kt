@@ -250,7 +250,12 @@ private fun TermFormContent(
                 }
             }
             if (!empty && online.isShown) {
-                WiktionarySection(online, draft.text, language?.name, onOpenWord = viewModel::openWord, onToggleTable = viewModel::toggleTable, onToggleExpressions = viewModel::toggleExpressions)
+                val languageCode = language?.let { LanguageCodes.codeFor(it.name) }
+                val speaker = rememberSpeaker(koinInject(), koinInject())
+                WiktionarySection(
+                    online, draft.text, language?.name, onOpenWord = viewModel::openWord, onToggleTable = viewModel::toggleTable, onToggleExpressions = viewModel::toggleExpressions,
+                    languageCode = languageCode, onSpeak = { speaker.speak(it, languageCode) },
+                )
             }
             if (!empty && state.notes.isNotEmpty()) NotesSection(state.notes)
             // The pane plays a recording from the word's own speaker; the full list is left to the editor page.

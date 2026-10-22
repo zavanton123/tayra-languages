@@ -26,6 +26,13 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
+import com.tayra.languages.core.ui.components.IconButtonSize
+import com.tayra.languages.core.ui.components.AppTooltip
+import com.tayra.languages.core.ui.components.AppIconButton
+import androidx.compose.runtime.setValue
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
@@ -69,9 +76,12 @@ internal fun WiktionarySection(
     onOpenWord: (String) -> Unit,
     onToggleTable: () -> Unit,
     onToggleExpressions: () -> Unit,
+    languageCode: String? = null,
+    onSpeak: ((String) -> Unit)? = null,
 ) {
     val colors = MaterialTheme.colorScheme
     val page = wiktionary.page
+    var dialogOpen by remember { mutableStateOf(false) }
     SectionCard({ BadgeIcon(AppIcons.MenuBook) }, tr("Wiktionary"), tint = null, filled = false) {
         wiktionary.headword?.let { Text(it, Modifier.testTag("wiktionary-headword"), style = AppText.itemTitle) }
         page?.formOf?.forEach { sense -> FormOfLine(sense, onOpenWord) }
@@ -87,7 +97,17 @@ internal fun WiktionarySection(
             val verb = tables.any { it.pos == "verb" } || page?.entries?.any { it.pos == "verb" } == true
             val title = if (verb) tr("Conjugation") else tr("Inflection")
             val lemma = wiktionary.tableWord?.takeIf { it != wiktionary.headword }
-            Collapsible(title, lemma, wiktionary.tableOpen, if (wiktionary.tableOpen) tr("Hide the table") else tr("Show the table"), "wiktionary-table", onToggleTable) {
+            val dialogLabel = if (verb) tr("Show the conjugation in a window") else tr("Show the inflection in a window")
+            val openDialog: @Composable () -> Unit = {
+                AppTooltip(dialogLabel) {
+                    AppIconButton(AppIcons.OpenInFull, dialogLabel, onClick = { dialogOpen = true }, size = IconButtonSize.Small, modifier = Modifier.testTag("wiktionary-table-window"))
+                }
+            }
+            if (dialogOpen) {
+                val table = tables.firstOrNull { it.pos == "verb" } ?: tables.first()
+                ConjugationDialog(table, wiktionary.tableWord ?: wiktionary.headword ?: term, term, languageName, languageCode, onSpeak) { dialogOpen = false }
+            }
+            Collapsible(title, lemma, wiktionary.tableOpen, if (wiktionary.tableOpen) tr("Hide the table") else tr("Show the table"), "wiktionary-table", onToggleTable, openDialog) {
                 tables.forEach { table ->
                     if (tables.size > 1 && table.pos.isNotEmpty()) Text(table.pos, style = MaterialTheme.typography.labelMedium, color = colors.onSurfaceVariant)
                     InflectionTableView(table, term)
@@ -136,7 +156,7 @@ private fun FormOfLine(sense: WiktionarySense, onOpenWord: (String) -> Unit) {
 
 /** A heading that opens and closes what is under it, with an optional word beside it ("Conjugation · comer"). */
 @Composable
-private fun Collapsible(title: String, word: String?, open: Boolean, action: String, tag: String, onToggle: () -> Unit, content: @Composable () -> Unit) {
+private fun Collapsible(title: String, word: String?, open: Boolean, action: String, tag: String, onToggle: () -> Unit, extra: (@Composable () -> Unit)? = null, content: @Composable () -> Unit) {
     val colors = MaterialTheme.colorScheme
     AppDivider(color = colors.outlineVariant.copy(alpha = AppAlpha.muted))
     Row(
@@ -148,6 +168,7 @@ private fun Collapsible(title: String, word: String?, open: Boolean, action: Str
         Text(title, style = AppText.labelStrong)
         if (word != null) Text(word, style = MaterialTheme.typography.bodyMedium, color = colors.primary)
         Spacer(Modifier.weight(1f))
+        extra?.invoke()
         Icon(if (open) Icons.Default.KeyboardArrowUp else Icons.Default.KeyboardArrowDown, contentDescription = null, tint = colors.primary, modifier = Modifier.size(AppSizes.iconMedium))
     }
     if (open) content()

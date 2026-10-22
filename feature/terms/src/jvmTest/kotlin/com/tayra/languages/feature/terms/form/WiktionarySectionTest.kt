@@ -11,6 +11,8 @@ import androidx.compose.ui.test.ExperimentalTestApi
 import androidx.compose.ui.test.assertCountEquals
 import androidx.compose.ui.test.assertTextEquals
 import androidx.compose.ui.test.captureToImage
+import androidx.compose.ui.test.hasTestTag
+import androidx.compose.ui.test.hasText
 import androidx.compose.ui.test.isRoot
 import androidx.compose.ui.test.onAllNodesWithTag
 import androidx.compose.ui.test.onAllNodesWithText
@@ -143,5 +145,26 @@ class WiktionarySectionTest {
         assertEquals("https://commons.wikimedia.org/wiki/File:LL-Q5146_(por)-Santamarcanda-comer.wav", fromEntry.first().pageUrl)
         val commons = fromEntry.first().copy(url = "https://upload.test/other.mp3", speaker = "Santamarcanda", source = "Lingua Libre")
         assertEquals(listOf("Santamarcanda", "Pt-comer.ogg"), withRecordings(listOf(commons), fromEntry).map { it.speaker })
+    }
+
+    /** The table's window opens on the pane's form, by mood and tense, with the pronouns; a form is read aloud on a click. */
+    @Test
+    fun theConjugationOpensInAWindowOnTheClickedTense() = runDesktopComposeUiTest(width = 900, height = 900) {
+        val spoken = mutableListOf<String>()
+        setContent { Framed { WiktionarySection(WiktionaryUi(comem, tableWord = "comer", tables = listOf(conjugation), complete = true), "comi", "Portuguese", {}, {}, {}, languageCode = "pt", onSpeak = { spoken += it }) } }
+        onNodeWithTag("wiktionary-table-window").performClick()
+        onNodeWithTag("conjugation-dialog").assertExists()
+        // "comi" is a preterite: the dialog opens there, the form tinted, beside its pronoun.
+        onNodeWithTag("dialog-form-clicked", useUnmergedTree = true).assertTextEquals("comi")
+        onNodeWithText("eu").assertExists()
+        onNodeWithText("Non-finite").assertExists()
+        System.getenv("CONJUGATION_SCREENSHOT")?.let { ImageIO.write(onNodeWithTag("conjugation-dialog").captureToImage().toAwtImage(), "png", File(it)) }
+        onNodeWithTag("tense-0").performClick()
+        onNode(hasText("comemos") and hasTestTag("dialog-form")).performClick()
+        assertEquals(listOf("comemos"), spoken)
+        onNodeWithText("Non-finite").performClick()
+        onNode(hasText("comendo") and hasTestTag("dialog-form")).assertExists()
+        onNodeWithText("Done").performClick()
+        onAllNodesWithTag("conjugation-dialog").assertCountEquals(0)
     }
 }
