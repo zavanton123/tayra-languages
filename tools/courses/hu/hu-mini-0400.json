@@ -1,0 +1,205 @@
+{
+  "id": "hu-mini-0400",
+  "rankUpTo": 400,
+  "level": "A2",
+  "title": "A városban",
+  "description": "Ten short stories about everyday life in Hungarian towns: finding the way, a watch repaired on the square, a café, reading on the tram, a first walk to school, a noisy street, a visit from Berlin, an anniversary, a move and a water bill.",
+  "topic": "In the city",
+  "names": [
+    "Klára",
+    "Debrecen",
+    "Eger",
+    "Nagyerdő",
+    "Szabolcs",
+    "Pécs",
+    "Fanni",
+    "Ákos",
+    "Győr",
+    "Zsolt",
+    "Budapest",
+    "Duna",
+    "Csilla",
+    "Bazsi",
+    "Pál",
+    "Kristóf",
+    "Sopron",
+    "Enikő",
+    "Rita",
+    "Berlin",
+    "Buda",
+    "Pest",
+    "Norbert",
+    "Melinda",
+    "Kecskemét",
+    "Dorka",
+    "Dénes",
+    "Miskolc",
+    "Lajos",
+    "Veszprém"
+  ],
+  "lessons": [
+    {
+      "title": "Hova megy az egyes?",
+      "summary": "Klára is new in Debrecen and asks people on a square which tram goes to the Nagyerdő park.",
+      "newWords": [
+        "hova",
+        "honnan",
+        "innen",
+        "utca",
+        "tér",
+        "elnézés",
+        "kérdez",
+        "egyes",
+        "oldal",
+        "pontosan"
+      ],
+      "text": "Klára Egerből jön Debrecenbe. Ma van itt először. A Nagyerdőre akar menni, de nem tudja, hova kell mennie. Most egy nagy téren áll. A téren sok ember van, és sok villamos jár.\n\nKlára kérdez egy nőt.\n\n– Elnézést! Hova megy ez a villamos?\n– Nem tudom pontosan – mondja a nő. – Én nem itt élek.\n\nKlára egy férfit is kérdez.\n\n– Elnézést, a Nagyerdőre akarok menni. Innen hova kell mennem?\n– A Nagyerdőre az egyes villamos megy – mondja a férfi. – De az egyes nem innen indul. Az utca másik oldaláról indul.\n– Ennek az utcának a másik oldaláról? – kérdezi Klára.\n– Igen, pontosan. Nézze, ott van! – mondja a férfi. – Honnan jön?\n– Egerből.\n– Eger szép város! Érezze jól magát Debrecenben!\n– Köszönöm!\n\nKlára az utca másik oldalára megy. Ott vár 3 percet, és jön az egyes. Klára az egyessel megy a Nagyerdőre. A villamosból szép utcákat és tereket lát.\n\nKérdések:\nHonnan jön Klára?\nKlára Egerből jön.\nHova akar menni Klára?\nKlára a Nagyerdőre akar menni.\nTudja a nő, hova megy a villamos?\nNem, a nő nem tudja pontosan.\nMelyik villamos megy a Nagyerdőre?\nAz egyes villamos megy a Nagyerdőre.\nHonnan indul az egyes?\nAz egyes az utca másik oldaláról indul."
+    },
+    {
+      "title": "Az óra a téren",
+      "summary": "Szabolcs's old watch stops working, and a man in a small shop on a square in Pécs repairs it.",
+      "newWords": [
+        "működik",
+        "fizet",
+        "forint",
+        "darab",
+        "mennyi",
+        "probléma",
+        "gond",
+        "tessék",
+        "azonnal",
+        "öt"
+      ],
+      "text": "Szabolcs Pécsen él. Van egy régi órája. Ezt az órát az apjától kapta, és nagyon szereti. De ma reggel az óra nem működik. Nem megy.\n\nA téren van egy kis hely. Ott egy férfi órákat javít. Szabolcs oda megy.\n\n– Jó napot! Mi a probléma? – kérdezi a férfi.\n– Jó napot! Az órám nem működik.\n\nA férfi nézi az órát.\n\n– Nem nagy probléma. Egy kis darab nem jó benne. Van új darabom.\n– Mennyi idő kell hozzá?\n– Öt perc. Azonnal kezdem.\n– És mennyit kell fizetnem?\n– Az új darab 2000 forint, a munka 1000 forint. Ez 3000 forint.\n– Nem gond.\n\nSzabolcs öt percet vár. A férfi azonnal javítja az órát. Aztán Szabolcs kezébe adja.\n\n– Tessék, itt van. Most már működik.\n\nSzabolcs nézi az órát. Az óra megy!\n\n– Köszönöm! Tessék, itt van 5000 forint.\n– Köszönöm. Nem gond, tessék, itt van 2000 forint vissza. Ha megint probléma van, jöjjön vissza!\n– Jövök. De remélem, nem lesz probléma.\n\nSzabolcs a kezére teszi az órát. Most már tudja, mennyi az idő.\n\nKérdések:\nMi a probléma?\nSzabolcs órája nem működik.\nHova megy Szabolcs?\nSzabolcs egy kis helyre megy a téren.\nMi nem jó az órában?\nEgy kis darab nem jó benne.\nMennyi idő kell hozzá?\nÖt perc kell hozzá.\nMennyit fizet Szabolcs?\nSzabolcs 3000 forintot fizet.\nMűködik most az óra?\nIgen, most már működik."
+    },
+    {
+      "title": "Egy fekete a fő téren",
+      "summary": "Fanni and Ákos finally meet for a black coffee in a small café on Győr's main square.",
+      "newWords": [
+        "iszik",
+        "fekete",
+        "fő",
+        "tartozik",
+        "érte",
+        "tökéletes",
+        "remek",
+        "végre",
+        "bármi",
+        "kicsi"
+      ],
+      "text": "Fanni és Ákos régi barátok. Győrben élnek, de sok a munkájuk, és nem találkoznak sokat. Ma végre van idejük.\n\nA fő téren van egy kicsi hely. Ott nagyon jó kávét lehet inni. Fanni és Ákos oda mennek. A hely kicsi, de szép.\n\n– Jó napot! Két fő? – kérdezi egy lány.\n– Igen, két fő – mondja Ákos.\n– Mit isznak?\n– Én egy feketét kérek – mondja Fanni. – Te mit iszol?\n– Én is feketét iszom – mondja Ákos. – És egy kis vizet.\n– Kérj bármit! – mondja Fanni. – Ma én fizetek.\n\nA lány hozza a két feketét. Ákos iszik egy kicsit.\n\n– Ez tökéletes! – mondja Ákos. – Remek hely!\n– Igen, remek – mondja Fanni. – A fekete itt mindig tökéletes.\n\nEgy órát ülnek ott, és sokat beszélnek. Végre mindent elmondanak.\n\n– Kérsz még bármit? – kérdezi Fanni.\n– Nem, köszönöm. Ennyi elég.\n– Mennyivel tartozunk? – kérdezi Fanni a lánytól.\n– Két fekete és egy víz: 1400 forint.\n\nFanni fizet érte.\n\n– Köszönöm! Legközelebb én fizetek érte – mondja Ákos.\n\nKérdések:\nHol van a kicsi hely?\nA kicsi hely a fő téren van.\nMit iszik Fanni?\nFanni feketét iszik.\nMit iszik Ákos?\nÁkos is feketét iszik, és egy kis vizet.\nMilyen a fekete?\nA fekete tökéletes.\nMennyivel tartoznak?\n1400 forinttal tartoznak.\nKi fizet érte?\nFanni fizet érte."
+    },
+    {
+      "title": "Könyv a villamoson",
+      "summary": "Zsolt reads on the tram every day and chooses a new book in the library.",
+      "newWords": [
+        "könyv",
+        "olvas",
+        "című",
+        "hír",
+        "mai",
+        "néha",
+        "hallgat",
+        "négy",
+        "tegnap"
+      ],
+      "text": "Zsolt Budapesten él. Minden nap villamossal jár a munkába. Az út 40 perc, és Zsolt ezt az időt nagyon szereti, mert olvas.\n\nReggel a mai híreket olvassa. Néha nem olvassa, hanem hallgatja a híreket. De a legjobban könyvet szeret olvasni.\n\nTegnap az úton olvasta a könyv utolsó oldalát. Jó könyv volt. Ma új könyv kell neki.\n\nEste Zsolt elmegy a könyvtárba. Ott négy könyvet néz meg. Az első egy régi magyar könyv. Ezt Zsolt már olvasta. A második könyv nagyon hosszú: 900 oldal. A másik két könyv új. Az egyik az Egy nap a Dunán című könyv.\n\n– Milyen ez a könyv? – kérdezi Zsolt egy nőt.\n– Nagyon jó – mondja a nő. – Én tegnap olvastam.\n\nZsolt ezt a könyvet viszi el. Holnap reggel az úton az Egy nap a Dunán című könyvet fogja olvasni. Holnap a híreket nem olvassa, és nem is hallgatja.\n\nKérdések:\nMit olvas Zsolt reggel?\nZsolt reggel a mai híreket olvassa.\nMit csinál Zsolt néha?\nZsolt néha hallgatja a híreket.\nMit olvasott Zsolt tegnap az úton?\nTegnap a könyv utolsó oldalát olvasta.\nNégy könyvet néz meg Zsolt?\nIgen, Zsolt négy könyvet néz meg.\nMilyen című könyvet visz el Zsolt?\nZsolt az Egy nap a Dunán című könyvet viszi el."
+    },
+    {
+      "title": "Bazsi egyedül megy",
+      "summary": "Six-year-old Bazsi walks to school alone for the first time while his mother Csilla watches.",
+      "newWords": [
+        "gyerek",
+        "iskola",
+        "aggódik",
+        "egyedül",
+        "sincs",
+        "magas",
+        "fehér",
+        "ajtó",
+        "pillanat",
+        "hat"
+      ],
+      "text": "Bazsi Csilla fia. Hat éves, és már iskolába jár. Az iskola közel van, a következő utcában. Ma reggel a gyerek egyedül akar menni.\n\n– Anya, én már nagy vagyok. Egyedül akarok menni az iskolába!\n\nCsilla aggódik.\n\n– Biztos? Te még kicsi vagy.\n– Nem vagyok kicsi! Hat éves vagyok.\n– Jó – mondja Csilla. – De az utcán figyelj!\n\nBazsi indul. Csilla a ház ajtajában áll, és nézi a gyereket. Az utcán most nincs sok ember, a téren sincs. Bazsi az utca jobb oldalán megy.\n\nEgy pillanatra Csilla nem látja Bazsit, mert egy nagy fa áll az utcán. Hol van a gyerek? Az utcán nincs, a téren sincs! Csilla aggódik. De egy pillanat, és Bazsi megint ott van, egy fehér ház előtt.\n\nAz iskola ajtaja is fehér. Az ajtó előtt áll egy magas férfi, Pál. Pál az iskolában dolgozik. Bazsi az ajtóhoz megy, és Pállal együtt megy be az iskolába.\n\nEste Bazsi azt mondja:\n– Holnap is egyedül megyek!\n\nCsilla már nem aggódik. A gyerek tényleg nagy.\n\nKérdések:\nBazsi hat éves?\nIgen, Bazsi hat éves.\nHogyan akar menni Bazsi az iskolába?\nBazsi egyedül akar menni.\nKi aggódik?\nCsilla aggódik.\nMilyen az iskola ajtaja?\nAz iskola ajtaja fehér.\nKi áll az ajtó előtt?\nEgy magas férfi, Pál áll az ajtó előtt."
+    },
+    {
+      "title": "Éjszaka a városban",
+      "summary": "Kristóf cannot sleep on a busy street in Budapest until his mother tells him to sleep in the other room.",
+      "newWords": [
+        "alszik",
+        "éjszaka",
+        "ég",
+        "megpróbál",
+        "erős",
+        "haza",
+        "otthon",
+        "míg",
+        "ok",
+        "változik"
+      ],
+      "text": "Kristóf 3 hete él Budapesten, egy nagy utcán. Éjszaka nem tud aludni. Az utcán éjszaka is van élet: emberek jönnek-mennek és beszélnek. Az utcán erős a fény. Az ég éjszaka sem fekete.\n\nKristóf megpróbál 10-kor aludni. Nem megy. Megpróbál olvasni. Ez sem segít. Míg a város él, Kristóf nem tud aludni. Reggel nem érzi magát erősnek.\n\nKristóf haza akar menni a családjához, Sopronba. A hét végén haza is megy. Otthon éjszaka nincs élet az utcán. Az ég fekete. Kristóf 10 órát alszik.\n\n– Jól nézel ki – mondja az anyja. – Budapesten nem alszol jól?\n– Nem. Ott éjszaka nem tudok aludni.\n– Mi az oka?\n– Az oka az utca. Ott éjszaka is erős a fény, és az emberek beszélnek.\n– Akkor aludj a másik szobában! Az nem az utca oldalán van.\n\nAztán Kristóf Budapestre megy vissza. Most a másik szobában alszik. Ott éjszaka minden fekete. Míg a város él, Kristóf már alszik.\n\nMost minden változik. Kristóf most jól alszik, és reggel erősnek érzi magát. Az utca nem változik, de Kristóf élete igen.\n\nKérdések:\nMi az oka, hogy Kristóf nem tud aludni?\nAz oka az utca.\nMi van az utcán éjszaka?\nAz utcán erős a fény, és az emberek beszélnek.\nHova megy Kristóf a hét végén?\nKristóf Sopronba megy, a családjához.\nMilyen az ég otthon éjszaka?\nOtthon az ég éjszaka fekete.\nHol alszik most Kristóf?\nKristóf most a másik szobában alszik."
+    },
+    {
+      "title": "Enikő Berlinből érkezik",
+      "summary": "Rita shows the Danube and the city to her friend Enikő, who works in Berlin.",
+      "newWords": [
+        "német",
+        "érkezik",
+        "megnéz",
+        "folyik",
+        "akár",
+        "például",
+        "ugyan",
+        "viszont",
+        "micsoda",
+        "hónap"
+      ],
+      "text": "Enikő és Rita régi barátok. Enikő 6 hónapja Berlinben él és dolgozik. A munkában németül beszél. Ugyan még nem beszél nagyon jól németül, de minden hónapban jobban beszél.\n\nMa Enikő Budapestre érkezik. Rita már vár.\n\n– Szia! Végre itt vagy! – mondja Rita.\n– Szia! Ma reggel érkeztem Berlinből – mondja Enikő.\n– Mit akarsz megnézni?\n– Bármit! Például a Dunát. Berlinben ugyan sok minden van, Duna viszont nincs.\n\nA Duna Buda és Pest között folyik. Enikő és Rita megnézik. A víz gyorsan folyik.\n\n– Micsoda szép város! – mondja Enikő. – Akár egész nap is itt állok.\n– Egész nap nem állunk itt – mondja Rita. – Megnézzük a várost is! Például Budát.\n\nMegnézik Budát, és aztán Pestet is. Ugyan esik egy kicsit, de ők nem mennek haza.\n\n– Micsoda nap! – mondja Enikő. – Németül ugyan még nem beszélek jól, magyarul viszont igen!\n– Igen – mondja Rita. – Jöhetsz akár minden hónapban!\n\nKérdések:\nHol él Enikő?\nEnikő Berlinben él.\nHogyan beszél Enikő a munkában?\nEnikő a munkában németül beszél.\nMikor érkezik Enikő Budapestre?\nEnikő ma reggel érkezik.\nMit néznek meg először?\nElőször a Dunát nézik meg.\nHol folyik a Duna?\nA Duna Buda és Pest között folyik.\nMilyen a város Enikő szerint?\nEnikő szerint a város nagyon szép."
+    },
+    {
+      "title": "Öt év együtt",
+      "summary": "Norbert and his wife Melinda go back to the place where they met, to hear live music on their anniversary.",
+      "newWords": [
+        "feleség",
+        "boldog",
+        "fiatal",
+        "óta",
+        "élő",
+        "mielőtt",
+        "utána",
+        "közben"
+      ],
+      "text": "Norbert és Melinda Kecskeméten élnek. Melinda Norbert felesége. 2021 óta élnek együtt. Amikor találkoztak, nagyon fiatalok voltak. Egy helyen találkoztak, ahol élő zene volt.\n\nMa van az ő napjuk: 5 éve Melinda Norbert felesége. Norbert nagyon boldog.\n\nMielőtt munkába megy, Norbert azt kérdezi:\n– Ma este hova menjünk?\n– Oda, ahol először találkoztunk – mondja Melinda. – Ott ma is élő zene van.\n– Remek!\n\nEste elmennek. A hely ma is olyan, mint 5 éve. Sok fiatal ül ott.\n\nMielőtt jön a zene, Norbert és Melinda esznek. Közben sokat beszélnek. Közben a fiatalok is esznek és beszélnek.\n\n– Emlékszel? – kérdezi Melinda. – Akkor mi is ilyen fiatalok voltunk.\n– Persze. És 2021 óta minden nap boldog vagyok.\n\nUtána jön az élő zene. Norbert és Melinda hallgatják. Utána még egy kicsit ülnek, és beszélnek. Utána már haza is mennek.\n\n– Ez tökéletes nap volt – mondja a feleség.\n– Igen. Boldog vagyok, hogy a feleségem vagy – mondja Norbert.\n\nKérdések:\nKi Norbert felesége?\nMelinda Norbert felesége.\n2021 óta élnek együtt?\nIgen, 2021 óta élnek együtt.\nHol találkoztak először?\nEgy helyen, ahol élő zene volt.\nMit csinálnak, mielőtt jön a zene?\nEsznek, és közben beszélnek.\nMit csinálnak utána?\nUtána még ülnek egy kicsit, és beszélnek."
+    },
+    {
+      "title": "Dorka új lakása",
+      "summary": "Dénes helps his friend Dorka move into a new flat in Miskolc.",
+      "newWords": [
+        "küld",
+        "tiszta",
+        "kevés",
+        "lép",
+        "belül",
+        "bele",
+        "megtesz",
+        "miután",
+        "állít"
+      ],
+      "text": "Dorka Miskolcon él. Most új lakásba költözik. Küld egy képet Dénesnek, a barátjának.\n\n– Ez az új lakásom! Segítesz holnap? – írja Dorka.\n– Persze, megteszem! – írja Dénes, és küld egy szép képet is.\n\nMásnap reggel 9-kor Dénes ott van. Dorka kevés dolgot visz: csak a könyveit és néhány képet.\n\nA lakás nem tiszta. Először Dorka és Dénes mindent tisztára mosnak. Miután minden tiszta, Dénes hozza a könyveket. A kezében sok könyv van. Az ajtóhoz lép.\n\n– Lépj be! – mondja Dorka. – Itt van egy fehér szekrény. A könyveket tedd bele!\n\nDénes bele is teszi. Kevés könyv van, még sok hely van benne.\n\n– Ez kevés könyv – mondja Dénes. – Majd veszel még könyveket!\n– Majd veszek – mondja Dorka.\n\n– Azt állítom, hogy egy órán belül kész leszünk – mondja Dénes.\n– Ezt csak te állítod! – mondja Dorka.\n\nDe Dénes jól mondta: egy órán belül kész vannak. Miután minden a helyén van, ülnek egy kicsit.\n\n– Köszönöm, Dénes. Te mindent megteszel!\n– Ez nem nagy dolog!\n\nEste Dorka még egy képet küld Dénesnek. A képen az új lakás van: tiszta és szép.\n\nKérdések:\nMit küld Dorka Dénesnek?\nDorka egy képet küld Dénesnek.\nSok dolgot visz Dorka?\nNem, Dorka kevés dolgot visz.\nHova teszi Dénes a könyveket?\nA fehér szekrénybe teszi bele.\nMit állít Dénes?\nAzt állítja, hogy egy órán belül kész lesznek.\nMikor vannak kész?\nEgy órán belül kész vannak."
+    },
+    {
+      "title": "Lajos ügye",
+      "summary": "Lajos goes to the water office in Veszprém because his water bill is far too high.",
+      "newWords": [
+        "ügy",
+        "rendszer",
+        "valamint",
+        "illetve",
+        "alapján",
+        "azonban",
+        "során"
+      ],
+      "text": "Lajos egyedül él Veszprémben, egy kis házban. Kevés vizet használ. Azonban ebben a hónapban nagyon sokat kell fizetnie a vízért: 30 000 forintot!\n\nLajos elmegy az irodába, ahol a vízért lehet fizetni. Ez fontos ügy.\n\n– Jó napot! Milyen ügyben jön? – kérdezi egy nő.\n– A víz miatt. Ennyit kell fizetnem, azonban én kevés vizet használok.\n– Egy pillanat. Megnézem a rendszerben.\n\nA nő megnézi a rendszert.\n\n– A rendszer alapján ebben a hónapban 30 000 forintot kell fizetnie. Azonban ez nem lehet igaz. Ennyi vizet egy hónap során 4 ember használ, illetve egy nagy család.\n– Pontosan. Én egyedül élek.\n– Akkor a rendszer nem jól működik. Az ügyét azonnal megnézzük. Megnézzük ezt a hónapot, valamint a régi hónapokat is.\n\nA nő 10 percig keres a rendszerben. Lajos közben vár.\n\n– Rendben van. A rendszer alapján most 3000 forintot kell fizetnie. Ezt itt is fizetheti, valamint otthonról is. Ha megint probléma van, jöjjön be, illetve hívjon minket!\n– Köszönöm! Ez remek!\n\nLajos ügye rendben van. A hónap során sokat gondolt erre az ügyre. Most végre nem kell aggódnia.\n\nKérdések:\nMennyit kell fizetnie Lajosnak?\n30 000 forintot kell fizetnie.\nMilyen ügyben megy Lajos az irodába?\nA víz miatt megy az irodába.\nMit néz meg a nő?\nA nő megnézi a rendszert.\nMennyit kell most fizetnie Lajosnak?\nMost 3000 forintot kell fizetnie.\nRendben van Lajos ügye?\nIgen, Lajos ügye rendben van."
+    }
+  ]
+}
