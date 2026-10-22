@@ -1,0 +1,191 @@
+{
+  "id": "hu-mini-5500",
+  "rankUpTo": 5500,
+  "level": "C1",
+  "title": "Képzőművészet",
+  "description": "Stories and texts about the visual arts: a butterfly painter, a medieval wall painting, an interactive sound wall, art in hospital, a gallery reopening, a tennis statue, an artists' colony on the Tisza, a young painter and a collector, a village weaver and a picture book.",
+  "topic": "Visual arts",
+  "names": [
+    "Hortenzia",
+    "Bükk",
+    "Sopron",
+    "Bartos",
+    "Marica",
+    "Zakariás",
+    "Jónatán",
+    "Darvas",
+    "Viktória",
+    "Pécs",
+    "Kriszti",
+    "Bánki",
+    "Orbán",
+    "Tádé",
+    "Győr",
+    "Nina",
+    "Anasztázia",
+    "Arisztid",
+    "Mártély",
+    "Tisza",
+    "Bódog",
+    "Zsanna",
+    "Miskolc",
+    "Gombos",
+    "Bacsó",
+    "Boglár",
+    "Mariska",
+    "Márió",
+    "Lina",
+    "Budapest",
+    "Józsefváros",
+    "Duna",
+    "Kecskemét",
+    "Őrség"
+  ],
+  "lessons": [
+    {
+      "title": "A pillangók festője",
+      "summary": "A portrait of Hortenzia, a painter at the edge of the Bükk hills who paints huge pictures of single butterflies, follows how they hide and camouflage themselves, and plants her garden for them.",
+      "newWords": [
+        "pillangó",
+        "nagyméretű",
+        "hőség",
+        "elbújik",
+        "álcáz",
+        "szőrös",
+        "táplálék",
+        "környezeti"
+      ],
+      "text": "Hortenzia 52 éves, és harminc éve fest pillangókat. Egy kis faluban él a Bükk szélén, egy régi parasztházban, amelynek a kertjében több virág nő, mint fű. A műterme a ház padlásán van. A falakon nagyméretű képek lógnak, és mindegyiken egyetlen pillangó látható, akkora, mint egy ablak.\n\n– Az emberek azt hiszik, hogy a pillangó kicsi és törékeny – mondja Hortenzia. – Ha viszont egy nagyméretű képen látják, egyszerre észreveszik, milyen bonyolult egy szárny. Olyan, mintha egy térképet néznének.\n\nNyáron hajnalban kel, mert délben, a nagy hőségben a pillangók alig mozognak. A hőség miatt elbújnak a levelek alá vagy a fák árnyékába. Ilyenkor Hortenzia sem dolgozik a szabadban. Ő is elbújik a hőség miatt: visszamegy a hűvös műterembe, és a reggeli vázlatain dolgozik tovább.\n\nA munkához sok türelem kell, mert a pillangók nagyon ügyesen álcázzák magukat. Az egyik faj szárnya kívülről olyan, mint egy száraz levél. Ha ez a pillangó összecsukja a szárnyát, és leül egy ágra, szinte lehetetlen észrevenni. Egy másik faj a fa kérgének színével álcázza magát.\n\n– Kezdetben azt hittem, hogy rossz a szemem – meséli nevetve. – Ma már tudom, hogy a pillangók nem előlem bújnak el. Álcázzák magukat, mert így maradnak életben.\n\nKevesen tudják, hogy a pillangó teste szőrös. Hortenzia nagyméretű képein ez jól látszik: a vékony, szőrös test pontosan olyan, mint a valóságban. Egyes növények levele is szőrös, és Hortenzia ezeket is szívesen festi, mert a fény különösen szépen ül meg rajtuk.\n\nA kertjét is a pillangók kedvéért alakította ki. A pillangók tápláléka a virágok édes leve, ezért olyan virágokat ültetett, amelyek tavasztól őszig nyílnak. A pillangók hernyóinak viszont más táplálék kell: ők leveleket esznek, főleg csalánt. Ezért a kert egyik sarkában szándékosan hagyja nőni a csalánt. A szomszédok először nem értették, miért nem tépi ki. Ma már ők is hagynak egy kis sarkot a kertjükben, ahol a pillangók táplálékot találnak.\n\nHortenzia szerint a pillangók érzékenyen jelzik a környezeti változásokat. Harminc éve még sokkal több fajt látott a falu körül. A száraz nyarak, a vegyszerek és az eltűnő rétek mind környezeti okok, amelyek miatt kevesebb a pillangó. A legújabb kiállítását ezért úgy rendezte meg, hogy minden nagyméretű kép mellé egy rövid szöveg kerül a környezeti problémákról.\n\n– Nem akarok tanítani senkit – mondja. – Csak azt szeretném, hogy aki megnézi a képeimet, utána a saját kertjében is észrevegye a pillangókat.\n\nKérdések:\nMit fest Hortenzia, és milyen képeken?\nPillangókat fest, nagyméretű képeken.\nMiért kel nyáron hajnalban?\nMert délben, a nagy hőségben a pillangók alig mozognak, és elbújnak a levelek alá.\nHogyan álcázza magát az egyik pillangófaj?\nA szárnya kívülről olyan, mint egy száraz levél, ezért egy ágon szinte lehetetlen észrevenni.\nMi a pillangók tápláléka?\nA virágok édes leve.\nMiért hagyja nőni a csalánt a kertjében?\nMert a hernyók tápláléka a csalán levele.\nMiért van ma kevesebb pillangó Hortenzia szerint?\nKörnyezeti okok miatt: a száraz nyarak, a vegyszerek és az eltűnő rétek miatt."
+    },
+    {
+      "title": "Kép a vakolat alatt",
+      "summary": "In an old house in Sopron workers find a wall painting under the plaster; the restorer Marica and Zakariás, who will succeed her, uncover it, and a laboratory and old documents date it to the Middle Ages.",
+      "newWords": [
+        "utódja",
+        "tompa",
+        "többszörös",
+        "jellege",
+        "középkor",
+        "elemző",
+        "írásos",
+        "megsemmisül",
+        "barbár"
+      ],
+      "text": "Sopron belvárosában egy régi lakóházat újítanak fel. Tavaly tavasszal a munkások az egyik földszinti szobában leverték a falról a vakolatot, és alatta színes foltokat találtak. A tulajdonos azonnal leállította a munkát, és felhívta Bartos Maricát, aki negyven éve restaurál régi falfestményeket.\n\nMarica 71 éves, de még mindig dolgozik. Két éve azonban nem egyedül jár a munkákra: Zakariás, egy fiatal szakember, tőle tanulja a mesterséget. Marica szerint Zakariás lesz az utódja.\n\n– Jó, ha az ember idejében kiválasztja az utódját – mondja. – Ezt a munkát nem lehet könyvből megtanulni, csak a fal előtt.\n\nAz első napon csak nézték a falat. A foltok színe tompa volt, inkább barna és szürke, mint piros vagy kék.\n\n– A tompa szín nem jelent rosszat – magyarázta Marica Zakariásnak. – A régi festékek a vakolat alatt elveszítik a fényüket, de tisztítás után sokszor újra élénkek lesznek.\n\nA festményt többszörös réteg fedte: legalább négy réteg festék és vakolat. A többszörös réteget csak nagyon lassan lehetett eltávolítani, ezért hetekig tartott, amíg az első alak előtűnt: egy nő egy kosár gyümölccsel, mellette egy fa, az ágain madarak.\n\nA kép jellege alapján Marica már az első héten sejtette, hogy régi festményről van szó. A ruhák szabása, a színek és a rajz jellege mind a középkorra utaltak.\n\n– A festmény jellegéből sok mindent ki lehet olvasni – mondta. – De amit sejtünk, azt még be is kell bizonyítani.\n\nEzért mintát vettek a festékből, és elküldték egy laboratóriumba. Az elemző munka két hónapig tartott. A labor elemzője, egy fiatal vegyész, megállapította, hogy a festék valóban a középkorból, a 15. századból származik. Marica közben írásos forrásokat keresett a városi levéltárban. Egy 1480-ból való írásos emlék megemlíti a házat és a tulajdonosát, egy gazdag kereskedőt. A festményről azonban az írásos források nem szólnak.\n\nMarica szerint szerencse, hogy a kép egyáltalán megmaradt. Az 1960-as években vezetékeket szereltek a falba, és a szerelők barbár módon fúrták át a vakolatot. Egy lyuk pont a nő arca mellett van.\n\n– Ha tíz centivel arrébb fúrnak, az arc megsemmisült volna – mondja Marica. – Barbár munka volt, de nem rossz szándékból történt. Akkor senki sem tudta, mi van a vakolat alatt. Sopronban sok épület megmaradt a középkorból, de a falakra festett képek nagy része megsemmisült. Ez a kép most megmaradt, és ez nagy öröm.\n\nA festményt most Zakariás tisztítja, Marica pedig mellette ül, és csak ritkán szól közbe. Ha a munka elkészül, a szoba a nyári hétvégéken látogatható lesz.\n\nKérdések:\nMit találtak a munkások a vakolat alatt?\nSzínes foltokat találtak, egy régi festmény maradványait.\nKi Zakariás?\nEgy fiatal szakember, aki Maricától tanul, és Marica szerint ő lesz az utódja.\nMiért tartott hetekig, amíg az első alak előtűnt?\nMert a festményt többszörös réteg fedte, legalább négy réteg festék és vakolat.\nHonnan tudták meg, hogy a festék a középkorból származik?\nEgy laboratórium elemzője vizsgálta meg a festéket.\nMit mondanak az írásos források?\nEgy 1480-ból való írásos emlék megemlíti a házat és a tulajdonosát, de a festményről nem szól.\nMiért volt barbár a szerelők munkája?\nMert vezetékek miatt átfúrták a vakolatot, és majdnem megsemmisült a nő arca."
+    },
+    {
+      "title": "Dallam a falon",
+      "summary": "Jónatán, a programmer who draws, builds an interactive wall that turns coloured stickers into a melody; schoolchildren test the beta version, and he wins an innovation prize.",
+      "newWords": [
+        "interaktív",
+        "matrica",
+        "frekvencia",
+        "dallam",
+        "béta",
+        "operációs",
+        "iskolás",
+        "innovációs"
+      ],
+      "text": "Jónatán programozó, de gyerekkora óta rajzol is. Két éve kitalálta, hogyan lehetne a kettőt összekötni: megtervezett egy interaktív falat, amely a színeket hangokká alakítja. A fal egy nagy, fehér felület, fölötte egy kamera, mellette két kis hangfal. Ha valaki egy színes matricát ragaszt a falra, a kamera felismeri a színt, és megszólal egy hang.\n\n– A fény és a hang is rezgés – magyarázza Jónatán. – Minden színnek más a frekvenciája: a vörösnek alacsonyabb, a kéknek magasabb. A hangoknak is van frekvenciája. A program a kettőt párba állítja: az alacsony frekvenciájú színhez mély hang tartozik, a magas frekvenciájúhoz magas.\n\nHa a gyerekek több matricát ragasztanak egymás mellé, a hangokból dallam lesz. A gép balról jobbra olvassa le a sort, mint egy dal hangjegyeit. Néhány piros, sárga és kék matrica egy egyszerű dallamot ad ki, egy hosszú, színes sor pedig egy egész dalt.\n\nAz első változat még nem működött tökéletesen. Jónatán ezt béta változatnak nevezte, és felajánlotta egy általános iskolának Kecskeméten, hogy próbálják ki. A béta változatnak sok hibája volt: a kamera néha összekeverte a narancssárgát a pirossal, és ha egy felhő eltakarta a napot, a dallam hirtelen megváltozott.\n\nA legnagyobb gond a számítógéppel volt. A régi gép operációs rendszere túl lassú volt, ezért a hang mindig egy kicsit később szólalt meg, mint kellett volna. Jónatán egy hétvégén új operációs rendszert telepített, és átírta a programot. Hétfőn a fal már azonnal válaszolt. Ez lett a béta után a második változat.\n\nAz iskolások imádták a falat. A kisebb iskolások eleinte csak nevettek a furcsa hangokon. A nagyobbak hamar rájöttek, hogyan lehet egy ismert dalt kirakni a matricákból. Egy 10 éves iskolás lány egy egész délutánt töltött azzal, hogy kirakja a kedvenc dalának dallamát. Amikor végül hibátlanul szólt, az egész osztály tapsolt.\n\n– Az interaktív fal nem a zenéről szól, és nem is a rajzról – mondja Jónatán. – Arról szól, hogy a gyerekek lássák: a szín és a hang ugyanannak a világnak a része.\n\nTavasszal Jónatán benyújtotta az interaktív falat egy innovációs pályázatra. A zsűri a harmadik helyre tette, és az innovációs díjjal járó pénzből most egy második falat épít. Ezt egy kórházban, a gyerekek osztályán fogják felállítani. Jónatán azt reméli, hogy a következő innovációs pályázaton már egy olyan változattal indulhat, amely a hangokat is színekké tudja alakítani.\n\nKérdések:\nMit csinál Jónatán interaktív fala?\nA színeket hangokká alakítja: ha valaki egy matricát ragaszt a falra, megszólal egy hang.\nHogyan kapcsolja össze a program a színeket és a hangokat?\nA frekvenciájuk szerint: az alacsony frekvenciájú színhez mély hang tartozik, a magas frekvenciájúhoz magas.\nMilyen hibái voltak a béta változatnak?\nA kamera néha összekeverte a színeket, és ha egy felhő eltakarta a napot, a dallam megváltozott.\nMit csinált Jónatán a lassú számítógéppel?\nÚj operációs rendszert telepített, és átírta a programot.\nMit csinált a 10 éves iskolás lány?\nEgy egész délutánt töltött azzal, hogy a matricákból kirakja a kedvenc dalának dallamát.\nMit épít Jónatán az innovációs díj pénzéből?\nEgy második falat, amelyet egy kórházban, a gyerekek osztályán fognak felállítani."
+    },
+    {
+      "title": "Színek a kórházban",
+      "summary": "Doctor Viktória Darvas advises her depressed patients to paint; Kriszti, a shy, polite librarian who does not want pity, starts with grey lines and ends with a yellow picture in the hospital's corridor.",
+      "newWords": [
+        "doktornő",
+        "egészségügy",
+        "depressziós",
+        "tanácsol",
+        "semleges",
+        "félénk",
+        "udvarias",
+        "sajnálat"
+      ],
+      "text": "Darvas Viktória doktornő húsz éve dolgozik az egészségügyben. Pécsen, egy nagy kórház egyik osztályán olyan betegeket kezel, akik depressziósak. Néhány éve minden betegének azt tanácsolja, hogy fessen.\n\n– Nem kell tudni festeni – mondja a doktornő. – Nem szép képeket várok. Azt szeretném, hogy a beteg naponta egy órán át a saját kezével csináljon valamit.\n\nAz egészségügyben sokáig gyanakodva nézték az ilyen módszereket. Ma már egyre több orvos tanácsolja a betegeinek, hogy fessenek, zenéljenek vagy kertészkedjenek. A gyógyszert ez nem pótolja, de a doktornő szerint sokat segít.\n\nA festés egy kis teremben folyik, a kórház udvarán. A terem falai semleges színűek, világosszürkék, a bútorok fehérek. A doktornő szándékosan választott semleges színeket.\n\n– Ha a fal semleges, a papíron minden szín erősebbnek látszik – magyarázza.\n\nTavaly ősszel érkezett az osztályra Kriszti, egy 28 éves könyvtáros. Félénk volt, alig beszélt. Mindenkivel udvarias volt, megköszönt minden ételt és minden gyógyszert, de senkinek sem nézett a szemébe. A doktornő azt tanácsolta neki, hogy járjon el a festésre.\n\nKriszti az első héten csak ült az asztalnál. A második héten szürke vonalakat húzott a papírra. Egyszer azt mondta a doktornőnek:\n\n– Itt mindenki olyan udvarias velem. Kedvesek, de érzem a hangjukban a sajnálatot. Nem akarok sajnálatot.\n\n– Itt nincs helye a sajnálatnak – felelte a doktornő. – Itt mindenki ugyanazt csinálja: fest.\n\nA depressziós betegek gyakran úgy érzik, hogy semmi sem érdekli őket, és semmihez sincs erejük. Krisztinek is minden nap nehéz volt felkelnie. A festésre azonban minden délután lement. A félénk lány egy hónap múlva már a többiekkel együtt nevetett, amikor valakinek a képén a kutya inkább lóra hasonlított.\n\nNovember végén Kriszti egy sárga foltot festett a papír közepére. Másnap egy narancssárgát tett mellé, aztán egy pirosat. A doktornő nem mondott semmit, csak mosolygott.\n\nFebruárban Kriszti hazamehetett. A kórház folyosóján azóta kiállítás van a betegek képeiből, és az egyik sárga kép az övé. Ma már újra a könyvtárban dolgozik, és hetente egyszer egy festőkörbe jár. A doktornő pedig azóta minden új betegnek ugyanazt tanácsolja:\n\n– Próbálja ki. Nem kell, hogy szép legyen.\n\nKérdések:\nMit tanácsol Darvas doktornő a depressziós betegeinek?\nAzt tanácsolja nekik, hogy fessenek.\nMiért semleges színűek a terem falai?\nMert ha a fal semleges, a papíron minden szín erősebbnek látszik.\nMilyen volt Kriszti, amikor az osztályra érkezett?\nFélénk volt, alig beszélt, mindenkivel udvarias volt, de senkinek sem nézett a szemébe.\nMit nem akart Kriszti?\nNem akart sajnálatot.\nHogyan változtak Kriszti képei?\nElőször szürke vonalakat húzott, később sárga, narancssárga és piros színekkel festett.\nMit csinál ma Kriszti?\nÚjra a könyvtárban dolgozik, és hetente egyszer egy festőkörbe jár."
+    },
+    {
+      "title": "Újra nyitva a galéria",
+      "summary": "A letter from the director of the Bánki Galéria to visitors after the renovation: access for disabled visitors, rules for minors, office hours, the audio guide and the folding chairs, and a questionnaire to send back.",
+      "newWords": [
+        "fogyatékos",
+        "feltéve",
+        "kiskorú",
+        "hivatali",
+        "ellenében",
+        "ugyanitt",
+        "támaszt",
+        "visszaküld"
+      ],
+      "text": "Kedves Látogatóink!\n\nÖrömmel értesítjük önöket, hogy egy év felújítás után március 1-jétől újra nyitva tart a Bánki Galéria. Az épület továbbra is a régi helyén áll, de belül sok minden megváltozott. Az alábbiakban összefoglaljuk a legfontosabb változásokat.\n\nAz épületet mostantól a fogyatékos látogatók is könnyen bejárhatják. A bejárati lépcső mellé egy lassan emelkedő utat építettünk, és a lifttel minden emelet elérhető. A fogyatékos látogatók és egy segítőjük ingyen léphetnek be. A fogyatékos vendégeknek kerekesszéket is tudunk adni, feltéve, hogy előre jelzik az igényüket.\n\nKiskorúak csak egy felnőttel együtt látogathatják a kiállításokat. A kiskorúak belépése ingyenes. Iskolai csoportok is ingyen jöhetnek, feltéve, hogy legalább egy héttel korábban jelentkeznek.\n\nA csoportok jelentkezését irodánk intézi, hivatali időben: hétköznap 9 és 15 óra között. Hivatali időn kívül e-mailben is írhatnak nekünk; az üzenetekre a következő munkanapon válaszolunk.\n\nA jegyeket a bejáratnál lehet megvenni. Ugyanitt kis díj ellenében hangos vezetőt is lehet bérelni, amely magyarul és angolul mutatja be a képeket. A készüléket egy irat ellenében adjuk ki, és az iratot akkor kapják vissza, amikor a készüléket visszahozzák. Ugyanitt vásárolhatják meg a kiállításokról szóló könyveket, és ugyanitt lehet jelentkezni a szombati rajztanfolyamra is.\n\nÚj szolgáltatásunk a könnyű, összecsukható szék: a nagyobb termekben bárki leülhet egy kép elé, és addig nézheti, ameddig akarja. A székeket a termek bejáratánál, a falnak támasztva találják. Kérjük, használat után ugyanígy támasszák vissza őket a falhoz, mert a teremben hagyott székek útban vannak. Kérjük azt is, hogy a falnak ne támasszanak se táskát, se kabátot: ezeket a földszinten hagyhatják.\n\nVégül egy kérésünk van. A bejáratnál mindenki kap egy lapot néhány kérdéssel a felújított épületről. Kérjük, töltsék ki, és dobják be a kijáratnál álló dobozba. Aki otthon tölti ki, e-mailben is visszaküldheti. A nyitás előtti héten több mint kétszáz látogató küldte el a véleményét, és a visszaküldött lapok alapján már módosítottunk is néhány dolgot: nagyobb betűkkel írtuk ki a képek címét, és több padot tettünk a folyosóra. Minden lapot elolvasunk, amelyet a látogatók visszaküldenek.\n\nVárjuk önöket szeretettel!\n\nOrbán Tádé, a galéria igazgatója\n\nKérdések:\nMi változott a fogyatékos látogatók számára?\nA lépcső mellé lassan emelkedő utat építettek, a lifttel minden emelet elérhető, és egy segítővel ingyen léphetnek be.\nHogyan látogathatják a kiskorúak a kiállításokat?\nCsak egy felnőttel együtt, ingyen.\nMikor lehet bejelenteni egy iskolai csoportot?\nHivatali időben, hétköznap 9 és 15 óra között, vagy e-mailben.\nMi ellenében lehet hangos vezetőt bérelni?\nKis díj ellenében, és egy iratot is ott kell hagyni.\nHol találják a látogatók a székeket?\nA termek bejáratánál, a falnak támasztva.\nMit tett a galéria a visszaküldött lapok alapján?\nNagyobb betűkkel írta ki a képek címét, és több padot tett a folyosóra."
+    },
+    {
+      "title": "Szobor egy teniszezőről",
+      "summary": "Sculptor Anasztázia makes a statue of Nina, Győr's first Olympian in tennis; at five training sessions she learns that tennis is a tactical game and finally shows Nina leaning on her racket between points.",
+      "newWords": [
+        "olimpikon",
+        "tenisz",
+        "atléta",
+        "ötször",
+        "taktikai",
+        "sovány",
+        "gerinc",
+        "támaszkodik"
+      ],
+      "text": "Győr egyik parkjában jövő tavasszal új szobrot állítanak fel. A szobor Ninát ábrázolja, aki Győrben nőtt fel, és teniszben a város első olimpikonja lett. Kétszer is részt vett az olimpián, és mindkét alkalommal a legjobb nyolc közé jutott. A szobrot Anasztázia készíti, egy fiatal művész, aki eddig főleg állatokról készített szobrokat.\n\n– Amikor megkaptam a megbízást, azt hittem, egyszerű lesz – meséli Anasztázia. – Egy atléta szobra: egy fiatal nő, ütővel a kezében. Aztán rájöttem, hogy a tenisz nem csak mozgás.\n\nMielőtt hozzákezdett, ötször ment el Nina edzésére. Mind az ötször mást látott. Először csak a gyors lábakat és az erős ütéseket figyelte. Később észrevette, hogy Nina minden labda előtt gondolkodik.\n\nNina elmagyarázta neki, hogy a tenisz legalább annyira taktikai játék, mint a sakk. Minden labdánál taktikai döntést kell hozni: hova üssön, milyen gyorsan, mikor menjen előre a hálóhoz.\n\n– A legtöbb pontot nem az erő nyeri meg, hanem a jó taktikai döntés – mondta Nina.\n\nAz első kis modellen Nina túl sovány lett. Amikor Nina meglátta, nevetett.\n\n– Ilyen sovány sosem voltam! Egy atlétának izom kell, nem csak csont.\n\nAnasztázia ekkor figyelte meg alaposabban Nina testét. Nina nem sovány, hanem karcsú és erős. Anasztázia leginkább a tartását akarta megmutatni, és ehhez a gerinc a legfontosabb.\n\n– Egy ember gerince mindent elárul – mondja. – Egy fáradt ember gerince görbe. Aki figyel, annak a gerince egyenes, mint egy húr.\n\nVégül nem ütés közben ábrázolta Ninát, hanem egy szünetben. A szobron Nina az ütőjére támaszkodik, és a pálya másik oldalát nézi. Az ötödik edzésen figyelte meg ezt a mozdulatot: két labda között Nina mindig így támaszkodott az ütőjére egy pillanatra.\n\n– A szünetben látszik, hogy gondolkodik – magyarázza Anasztázia. – Az ütőjére támaszkodik, de a feje már a következő labdán jár. Számomra ez a tenisz lényege.\n\nNina is látta a kész modellt.\n\n– Ez vagyok én – mondta. – Aki teniszt játszik, tudja, hogy a meccs nagy része ilyen pillanatokból áll.\n\nA szobor mellé egy kis táblát is tesznek, amely elmondja, hogyan lett egy Győrben felnőtt lányból olimpikon. A tábla alján egy mondat áll Ninától: „A tenisz fejben dől el.”\n\nKérdések:\nKit ábrázol a szobor?\nNinát, Győr első olimpikonját teniszben.\nHányszor ment el Anasztázia Nina edzésére?\nÖtször ment el, és mind az ötször mást látott.\nMiért taktikai játék a tenisz Nina szerint?\nMert minden labdánál taktikai döntést kell hozni: hova üssön, milyen gyorsan, mikor menjen előre.\nMi volt a baj az első kis modellel?\nNina túl sovány lett rajta.\nMit árul el az ember gerince Anasztázia szerint?\nEgy fáradt ember gerince görbe, aki figyel, annak egyenes.\nMit csinál Nina a szobron?\nAz ütőjére támaszkodik, és a pálya másik oldalát nézi."
+    },
+    {
+      "title": "Nyár a Tisza partján",
+      "summary": "Every summer the painter Arisztid works at the artists' colony in Mártély; he crosses the Tisza by ferry, gets to know an old fisherman who tells him about the river, and eats layered potatoes with the family.",
+      "newWords": [
+        "idény",
+        "komp",
+        "nagyrészt",
+        "halász",
+        "odamegy",
+        "elmesél"
+      ],
+      "text": "Arisztid ötven éve fest, és több mint harminc éve minden nyáron Mártélyra jár, egy kis faluba a Tisza partján. Nyáron itt festők dolgoznak az ország minden részéből. Az idény júniusban kezdődik, és augusztus végéig tart. Az idény alatt a falu egyetlen panziója tele van festőkkel, a régi iskola termeiben pedig közös kiállítás nyílik.\n\nArisztid képei nagyrészt a vízről szólnak. A folyót festi reggel, délben és este, ködben és napsütésben. Kedvenc helye a másik parton van, ahová egy kis komppal lehet átjutni. A komp reggel hattól este nyolcig jár. Arisztid mindig az első komppal megy át, mert hajnalban a legszebb a fény.\n\nA másik parton, a víz mellett egy öreg halász lakik, Bódog bácsi. Az első nyáron Arisztid nem mert odamenni hozzá. Távolról nézte, ahogy a halász a csónakjában ül és a hálóit javítja. A harmadik napon végül odament, és megkérdezte, lefestheti-e.\n\n– Fessen csak – mondta Bódog bácsi. – De közben ne beszéljen, mert elijeszti a halakat.\n\nArisztid azóta minden idényben lefesti Bódog bácsit. Reggelente a vásznát egy fához támasztja, és fest. Ha elfárad, odamegy a halászhoz, és leül mellé a csónak szélére. Ilyenkor Bódog bácsi elmeséli, milyen volt a folyó régen.\n\nElmesélte, hogy a faluban egykor húsz halász élt, és mind a Tiszából élt. Ma ő az utolsó, aki még minden nap kievez. A falu lakói ma már nagyrészt a városban dolgoznak, és csak hétvégén jönnek haza. Azt is elmesélte, hogy a komp 70 éve még csak egy nagy fa csónak volt, amelyet egy ember kézzel húzott át a másik partra.\n\nDélben Bódog bácsi felesége mindig behívja Arisztidot ebédelni. A kedvenc ételük a rakott krumpli: főtt krumpli, tojás és kolbász rétegekben, tejföllel a tetején. Bódog bácsi szerint a rakott krumplit csak úgy lehet elrontani, ha valaki sajnálja belőle a tejfölt.\n\nAz idény végén Arisztid mindig kiállítja a nyári képeit a régi iskolában. Tavaly az egyik kép egy halászt ábrázolt a komp mellett, ködös reggelen. A megnyitón Bódog bácsi is ott volt. Sokáig nézte a képet, aztán annyit mondott:\n\n– A csónakom szebb lett, mint a valóságban.\n\nArisztid ezt dicséretnek vette. Jövő nyáron is az első komppal megy át.\n\nKérdések:\nMikor kezdődik és meddig tart az idény Mártélyon?\nJúniusban kezdődik, és augusztus végéig tart.\nMiről szólnak Arisztid képei?\nNagyrészt a vízről, a folyóról szólnak.\nMiért megy át mindig az első komppal?\nMert hajnalban a legszebb a fény.\nKi Bódog bácsi?\nEgy öreg halász, aki a másik parton lakik.\nMit mesélt el Bódog bácsi a faluról?\nElmesélte, hogy egykor húsz halász élt a faluban, ma ő az utolsó.\nMi a kedvenc ebédjük?\nA rakott krumpli."
+    },
+    {
+      "title": "A gyűjtő",
+      "summary": "Zsanna, a young painter who grew up in poverty in Miskolc, stands out at her graduation show; an influential billionaire collector wants all her pictures, but she keeps her word to her old drawing teacher.",
+      "newWords": [
+        "szegénység",
+        "spórol",
+        "kitűnik",
+        "milliárdos",
+        "befolyásos",
+        "világhírű",
+        "becsület"
+      ],
+      "text": "Zsanna Miskolcon nőtt fel, egy kis lakásban az édesanyjával és két öccsével. Gyerekkorát a szegénység határozta meg: ritkán jutott pénz új ruhára, kirándulásra pedig szinte soha. Zsanna mégsem a szegénységre emlékszik a legjobban, hanem a rajzolásra. Egy idős tanár, Gombos tanár úr, hetente kétszer ingyen tanította rajzolni a környék gyerekeit.\n\nTizenöt éves korában Zsanna elhatározta, hogy festő lesz. A festék drága volt, ezért spórolni kezdett. Nyáron egy boltban dolgozott, és minden fizetéséből félretett egy keveset. Fél évig spórolt az első saját festékeire. Gombos tanár úr adott neki vásznat, és azt mondta:\n\n– A tehetséget nem lehet megvenni. A festéket igen, de arra lehet spórolni.\n\nZsanna később a budapesti művészeti egyetemen tanult. Az utolsó évben a diákok közös kiállításán tíz képet állított ki Miskolcról: gyárakat, régi házakat, egy villamosmegállót esőben. A képei már az első napon kitűntek a többi közül. Nem a méretük miatt, hanem a fényük miatt: a szürke házakon is volt valami meleg. Egy újság is azt írta, hogy Zsanna képei kitűntek a kiállításon. Később ő maga mondta, hogy nem akart kitűnni, csak azt festette, amit látott.\n\nA kiállításra eljött Bacsó úr is, egy ismert milliárdos, aki modern festményeket gyűjt. A milliárdos gyűjteményében világhírű festők képei lógnak, és mindenki tudja, hogy befolyásos ember. Ha egy befolyásos gyűjtő megvesz egy képet, a fiatal festőről beszélni kezdenek.\n\nBacsó úr mind a tíz képet meg akarta venni. Zsanna örült, de egy dolgot el kellett mondania.\n\n– Kilencet szívesen eladok – mondta. – A tizediket viszont megígértem Gombos tanár úrnak. Ő tanított rajzolni, és azt mondtam neki, hogy az első kiállításom legszebb képét neki adom. Ez becsület kérdése.\n\nBacsó úr egy pillanatig hallgatott. Aztán elmosolyodott.\n\n– Én is szegénységben nőttem fel – mondta. – Tudom, mit jelent, ha valaki ingyen segít. A becsület többet ér, mint egy kép. Megveszem a kilencet.\n\nA tizedik kép, a villamosmegálló esőben, ma Gombos tanár úr nappalijában lóg. Zsanna nem lett világhírű, és nem is ez a célja. A képeiből azonban meg tud élni, és nyáron ő is ingyen tanít rajzolni gyerekeket Miskolcon. Azt mondja nekik, amit egykor ő hallott: a festékre lehet spórolni, a becsületre vigyázni kell.\n\nKérdések:\nMi határozta meg Zsanna gyerekkorát?\nA szegénység.\nHogyan vette meg Zsanna az első saját festékeit?\nNyáron egy boltban dolgozott, és fél évig spórolt rájuk.\nMiért tűntek ki Zsanna képei a kiállításon?\nA fényük miatt: a szürke házakon is volt valami meleg.\nKi Bacsó úr?\nEgy befolyásos milliárdos, aki modern festményeket gyűjt.\nMiért nem adta el Zsanna a tizedik képet?\nMert megígérte Gombos tanár úrnak, és ez becsület kérdése volt.\nMit tanít Zsanna ma a gyerekeknek?\nHogy a festékre lehet spórolni, a becsületre vigyázni kell."
+    },
+    {
+      "title": "Takács a híradóban",
+      "summary": "Boglár makes a short film for the local TV news about Mariska néni, a village weaver who learned from her maternal grandmother and weaves mathematical patterns; interest has grown, and a solemn opening follows.",
+      "newWords": [
+        "híradó",
+        "beszámol",
+        "takács",
+        "anyai",
+        "matematikai",
+        "megnövekedik",
+        "ünnepélyes"
+      ],
+      "text": "Boglár a megyei televízió munkatársa. Minden héten egy rövid filmet készít az esti híradóba olyan emberekről, akik valami különlegeset csinálnak. Ezen a héten egy faluba utazott az Őrségbe, hogy beszámoljon Mariska néni műhelyéről.\n\nMariska néni 81 éves, és 60 éve takács. A régi ház hátsó szobájában áll a nagy fa gép, amelyen dolgozik. Ezt még az anyai nagyapja készítette. A szakmát az anyai nagymamájától tanulta, aki szintén takács volt.\n\n– Régen minden faluban volt takács – mondta Mariska néni a kamerának. – A takácsok készítették a falu minden anyagát, a zsákoktól a ruhákig. Ma már csak én vagyok itt.\n\nBoglár megkérdezte, honnan tudja, hogyan kell egy bonyolult mintát elkészíteni. Mariska néni nevetett.\n\n– Ez matematika, kislányom. Minden minta számolás. Ennyi szál fel, ennyi le, aztán fordítva.\n\nA film legérdekesebb része egy fiatal kutató volt, aki egy egyetemen matematikai mintákat vizsgál. Ő elmagyarázta, hogy a régi minták mögött pontos matematikai szabályok állnak, amelyeket a takácsok fejben tartottak. Mariska néni egyetlen sort sem ír le, mégis hibátlanul készíti el a legbonyolultabb mintákat is, mintha egy matematikai könyvből dolgozna.\n\nBoglár azt is elmondta, hogy az utóbbi években megnövekedett azoknak a száma, akik egy régi szakmát szeretnének megtanulni. Mariska nénihez nyáron diákok és városi családok jönnek tanulni. Mióta egy újság is beszámolt a műhelyről, a tanulók száma tovább nőtt: tavaly már harmincan voltak. A megnövekedett érdeklődés miatt a falu egy régi épületet alakított át, hogy ott Mariska néni munkáit ki lehessen állítani.\n\nA film végén Boglár a kiállítás első napjáról is beszámolt. Az ünnepélyes nyitáson ott volt az egész falu. A polgármester rövid, ünnepélyes beszédet mondott, aztán egy kislány egy régi dalt énekelt. Az ünnepélyes pillanat után Mariska néni csak annyit mondott:\n\n– Az anyai nagymamám ezt nem hinné el.\n\nA filmet pénteken este adta le a híradó. Másnap Boglár telefonja egész nap szólt: nézők akarták tudni, hogyan lehet Mariska nénitől tanulni. A híradó vezetője azt mondta, hogy a hónapban ezt a filmet nézték a legtöbben.\n\nKérdések:\nKiről számolt be Boglár a híradóban?\nMariska néniről, egy idős takácsról és a műhelyéről.\nKitől tanulta Mariska néni a szakmát?\nAz anyai nagymamájától, aki szintén takács volt.\nMit mondott a fiatal kutató a régi mintákról?\nAzt, hogy a régi minták mögött pontos matematikai szabályok állnak.\nMiért alakított át a falu egy régi épületet?\nMert megnövekedett az érdeklődés, és Mariska néni munkáit ki akarták állítani.\nMi történt az ünnepélyes nyitáson?\nA polgármester ünnepélyes beszédet mondott, és egy kislány egy régi dalt énekelt.\nMi történt a híradó adása után?\nNézők telefonáltak, mert tudni akarták, hogyan lehet Mariska nénitől tanulni."
+    },
+    {
+      "title": "A madár, amely világot látott",
+      "summary": "Illustrator Márió draws a picture book about a little yellow bird that escapes from its cage; his teenage daughter Lina finds the old hit song in it embarrassing, and together they change the ending.",
+      "newWords": [
+        "játszódik",
+        "ketrec",
+        "szökés",
+        "fogság",
+        "ciki",
+        "sláger"
+      ],
+      "text": "Márió gyerekkönyveket illusztrál. Az új könyv, amelyen most dolgozik, egy kis sárga madárról szól, amely egy ketrecben él egy régi bérház harmadik emeletén. A történet Budapesten játszódik, a Józsefvárosban, egy belső udvaros házban. A madár gazdája egy idős néni, aki minden reggel kinyitja az ablakot, hogy a madár lássa az eget.\n\nEgy nap a néni nyitva felejti a ketrec ajtaját. Ezzel kezdődik a szökés. A madár kirepül az ablakon, és bejárja a várost: leszáll a Duna partjára, megpihen egy villamos tetején, és a piacon magokat szed fel. A szökés egy egész napig tart. Este a madár elfárad, és hazarepül a nyitott ablakon.\n\nMárió tizennégy éves lánya, Lina, minden este megnézi, mit rajzolt az apja aznap. Egyik este nagyon nevetett.\n\n– Apa, a madár miért egy régi slágert fütyül? Ez ciki!\n\nA könyv írója ugyanis azt találta ki, hogy a madár szökés közben egy hetvenes évekbeli slágert fütyül, amelyet a néni rádiója mindig játszott. Márió le is rajzolta a hangjegyeket a madár feje fölé.\n\n– Nem ciki – mondta Márió. – Ez a sláger a néni fiatalságáról szól.\n\n– A gyerekek ezt nem fogják tudni – felelte Lina. – Nekik csak egy furcsa dal lesz.\n\nMárió elgondolkodott. Másnap felhívta az írót, és megbeszélték, hogy a könyv végén a néni elmeséli a madárnak, mit jelent neki ez a sláger. Lina szerint így már nem ciki, hanem szép.\n\nLina egy másik dolgot is szóvá tett. Szerinte a könyv elején a ketrec túl szomorú.\n\n– Ez fogság – mondta. – Egy madárnak a ketrec mindig fogság, akármilyen szép.\n\nMárió ezt is megbeszélte az íróval. A történet végét átírták: a néni a szökés után nem zárja be többé a ketrecet. Az ajtó nyitva marad, a madár akkor megy ki és jön be, amikor akar. Így a ketrec már nem fogság, hanem otthon. A könyv utolsó képén a madár a nyitott ajtóban ül, és a néni rádiója szól.\n\nMárió az utolsó képre egy kislányt is rajzolt a szomszéd ablakába. Linának nem mondta meg, de a kislány haja ugyanolyan, mint az övé. A könyv decemberben jelenik meg, és a címlapon egy kis sárga madár repül a Duna fölött.\n\nKérdések:\nHol játszódik a történet?\nBudapesten játszódik, a Józsefvárosban, egy régi bérházban.\nHogyan kezdődik a madár szökése?\nA néni nyitva felejti a ketrec ajtaját, és a madár kirepül az ablakon.\nMiért tartotta Lina cikinek a könyvet?\nMert a madár egy régi slágert fütyül.\nMit jelent a sláger a néninek?\nA fiatalságáról szól.\nMit mondott Lina a ketrecről?\nAzt, hogy egy madárnak a ketrec mindig fogság, akármilyen szép.\nHogyan írták át a történet végét?\nA néni nem zárja be többé a ketrecet, így a ketrec már nem fogság, hanem otthon."
+    }
+  ]
+}
