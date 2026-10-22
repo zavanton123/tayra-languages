@@ -9,8 +9,9 @@ import androidx.compose.ui.platform.LocalContext
 import co.touchlab.kermit.Logger
 import java.io.File
 
-actual class WavPlayer(context: Context) {
-    private val file = File(context.applicationContext.cacheDir, "speech.wav")
+/** Plays through a file in the cache named [fileName]; players that may sound together need names of their own. */
+actual class WavPlayer(context: Context, fileName: String = "speech.wav") {
+    private val file = File(context.applicationContext.cacheDir, fileName)
     private var player: MediaPlayer? = null
 
     private var done: (() -> Unit)? = null

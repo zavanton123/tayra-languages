@@ -4,12 +4,18 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.remember
 
-private fun speakText(text: String, language: String?, onDone: () -> Unit): Unit = js(
+private fun speakText(text: String, language: String?, rate: Double, onWord: (Int, Int) -> Unit, onDone: () -> Unit): Unit = js(
     """{
         if (!window.speechSynthesis) { onDone(); return; }
         window.speechSynthesis.cancel();
         var utterance = new SpeechSynthesisUtterance(text);
         if (language) utterance.lang = language;
+        utterance.rate = rate;
+        utterance.onboundary = function(e) {
+            if (e.name && e.name !== 'word') return;
+            var length = e.charLength || ((text.slice(e.charIndex).match(/^\S+/) || [''])[0].length);
+            onWord(e.charIndex, e.charIndex + length);
+        };
         var finished = false;
         var finish = function() { if (!finished) { finished = true; onDone(); } };
         utterance.onend = finish;
@@ -26,10 +32,10 @@ private fun resumeSpeech(): Unit = js("{ if (window.speechSynthesis) window.spee
 actual class SpeechSynthesizer {
     private var done: (() -> Unit)? = null
 
-    actual fun speak(text: String, languageCode: String?, onDone: () -> Unit) {
+    actual fun speak(text: String, languageCode: String?, onDone: () -> Unit, rate: Float, onWord: ((IntRange) -> Unit)?) {
         stop()
         done = onDone
-        speakText(text, languageCode) { finish() }
+        speakText(text, languageCode, rate.toDouble(), { start, end -> if (done === onDone) onWord?.invoke(start until end) }) { finish() }
     }
 
     private fun finish() {

@@ -14,8 +14,10 @@ expect class SpeechSynthesizer {
     /**
      * Speaks [text] in the language with the given ISO 639-1 [languageCode], interrupting any earlier
      * speech. [onDone] runs once when the speech ends, is stopped or fails, possibly on another thread.
+     * [rate] is the speed, 1 for the voice's own; where the platform's voice tells, [onWord] gets the
+     * characters of each word as it is reached, also possibly on another thread.
      */
-    fun speak(text: String, languageCode: String?, onDone: () -> Unit = {})
+    fun speak(text: String, languageCode: String?, onDone: () -> Unit = {}, rate: Float = 1f, onWord: ((IntRange) -> Unit)? = null)
 
     /** Holds speech where it is, without calling onDone; false when this platform's voice cannot. */
     fun pause(): Boolean

@@ -30,10 +30,11 @@ actual class SpeechSynthesizer {
             .mapValues { it.value.first() }
     }
 
-    actual fun speak(text: String, languageCode: String?, onDone: () -> Unit) {
+    /** The operating system's commands do not report words; `say` alone takes a rate. */
+    actual fun speak(text: String, languageCode: String?, onDone: () -> Unit, rate: Float, onWord: ((IntRange) -> Unit)?) {
         stop()
         executor.execute {
-            val command = command(text, languageCode?.lowercase())
+            val command = command(text, languageCode?.lowercase(), rate)
             try {
                 val process = ProcessBuilder(command).redirectErrorStream(true).start()
                 current = process
@@ -47,10 +48,12 @@ actual class SpeechSynthesizer {
         }
     }
 
-    private fun command(text: String, language: String?): List<String> = when {
+    private fun command(text: String, language: String?, rate: Float): List<String> = when {
         os.contains("mac") -> {
             val voice = language?.let { macVoicesByLanguage[it] }
-            if (voice != null) listOf("say", "-v", voice, text) else listOf("say", text)
+            // `say` speaks about 175 words a minute unless told otherwise.
+            val pace = if (rate != 1f) listOf("-r", (MAC_WORDS_PER_MINUTE * rate).toInt().toString()) else emptyList()
+            (if (voice != null) listOf("say", "-v", voice) else listOf("say")) + pace + text
         }
         os.contains("win") -> {
             val escaped = text.replace("'", "''")
@@ -83,6 +86,10 @@ actual class SpeechSynthesizer {
     actual fun release() {
         stop()
         executor.shutdownNow()
+    }
+
+    private companion object {
+        const val MAC_WORDS_PER_MINUTE = 175
     }
 }
 
