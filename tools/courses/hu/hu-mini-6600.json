@@ -1,0 +1,174 @@
+{
+  "id": "hu-mini-6600",
+  "rankUpTo": 6600,
+  "level": "C1",
+  "title": "A földtől az asztalig",
+  "description": "Ten standalone stories about how food travels from the soil to the table: potatoes in a basement, wild berries, goat cheese, an ancient wheat, a vegetable-box farm, terrace tomatoes, a hot summer on a melon farm, a newcomer at a village market, a harvest fair and a grandmother's microwave.",
+  "topic": "Farm to table",
+  "names": [
+    "Izidor",
+    "Mátészalka",
+    "Zsuzsika",
+    "Gyopár",
+    "Zemplén",
+    "Tétény",
+    "Hetés",
+    "Zala",
+    "Julianna",
+    "Kartal",
+    "Túrkeve",
+    "Csűrös",
+    "Beáta",
+    "Vica",
+    "Rikárd",
+    "Hajdúnánás",
+    "Debrecen",
+    "Nyíregyháza",
+    "Katinka",
+    "Győr",
+    "Erzsike",
+    "Tass",
+    "Orosháza",
+    "Budapest",
+    "Vilhelmina",
+    "Kiskunság",
+    "Tilla",
+    "Tiszacsege",
+    "Csobán",
+    "Tisza",
+    "Bulcsu",
+    "Ernesztin",
+    "Szeged"
+  ],
+  "lessons": [
+    {
+      "title": "Burgonya az alagsorban",
+      "summary": "Retired railwayman Izidor digs his potatoes on an October morning, stores them in the dark basement in lidded crates and checks them every morning until spring.",
+      "newWords": [
+        "burgonya",
+        "alagsor",
+        "októberi",
+        "vödör",
+        "reggelente",
+        "fedél"
+      ],
+      "text": "Izidor bácsi negyven évig a vasútnál dolgozott Mátészalkán. Amióta nyugdíjba ment, a kertje tölti ki a napjait. A ház mögött tavasztól őszig sokféle zöldség nő: paradicsom, paprika, bab és hagyma, Izidor bácsi azonban a burgonyájára a legbüszkébb. Minden tavasszal hat hosszú sort ültet belőle, és a feleségével, Zsuzsikával egész télen abból főznek.\n\nA burgonyát ősszel szedik ki, amikor a növények levelei már elszáradtak. Izidor bácsi egész évben várja ezeket az októberi napokat. Egy száraz októberi reggelen kimegy a kertbe egy ásóval és két vödörrel. Az egyik vödörbe a nagy, ép burgonyák kerülnek, a másikba a kicsik és azok, amelyeket megsértett az ásó. A sérülteket Zsuzsika még aznap megfőzi, mert ezek nem állnak el sokáig.\n\nA kiásott burgonyát nem viszik le azonnal. Néhány órára kiterítik a ház előtt, hogy a héja megszáradjon. Csak ezután kerül az alagsorba. A ház alagsora hűvös és sötét: télen sem fagy meg benne semmi, nyáron sem melegszik fel. Izidor bácsi szerint ennél jobb hely nincs a burgonyának. Ha túl meleg van, a burgonya kihajt, ha pedig fényt kap, megzöldül, és a zöld burgonyát nem szabad megenni.\n\nAz alagsorban három nagy faláda áll. Mindegyiknek van fedele, amelyen kis lyukak vannak, hogy a burgonya levegőt kapjon. A fedél alatt teljes a sötétség. Izidor bácsi a ládákat sosem tölti meg egészen: ha a burgonya túl vastag rétegben fekszik, alul könnyen megromlik.\n\nReggelente, amikor Zsuzsika nekilát a főzésnek, Izidor bácsi egy kis vödörrel lemegy az alagsorba. Felemeli az egyik láda fedelét, és kiválaszt annyi burgonyát, amennyi aznap kell. Közben a többit is megnézi. Ha egyet puhának vagy foltosnak talál, kiveszi, hogy ne rontsa el a többit. Ez a kis ellenőrzés reggelente csak két percig tart, de így a burgonya kitart tavaszig.\n\nZsuzsika egész télen sokféle ételt főz belőle: levest, paprikás krumplit, rakott krumplit, vasárnaponként pedig sült burgonyát hagymával. Áprilisban, amikor az alagsorban már csak egy fél láda maradt, Izidor bácsi kiválasztja a legszebb, közepes burgonyákat. Ezeket nem eszik meg: ezek kerülnek újra a földbe, hogy egy újabb októberi reggelen ismét tele legyen a két vödör.\n\nKérdések:\nMire a legbüszkébb Izidor bácsi a kertben?\nA burgonyájára a legbüszkébb.\nMikor szedik ki a burgonyát?\nŐsszel, egy száraz októberi reggelen, amikor a levelek már elszáradtak.\nMiért visz ki két vödröt a kertbe?\nMert az egyik vödörbe az ép burgonyák kerülnek, a másikba a kicsik és a sérültek.\nMiért jó hely az alagsor a burgonyának?\nMert hűvös és sötét: télen sem fagy meg benne semmi, nyáron sem melegszik fel.\nMiért vannak lyukak a ládák fedelén?\nHogy a burgonya levegőt kapjon.\nMit csinál Izidor bácsi reggelente az alagsorban?\nKiveszi az aznapi burgonyát, és megnézi, nincs-e a többi között puha vagy foltos."
+    },
+    {
+      "title": "Nem minden bogyó ehető",
+      "summary": "On a foraging walk in the Zemplén hills, guide Gyopár shows which berries are edible, lets the group taste sour orange sea buckthorn and warns them off a poisonous plant.",
+      "newWords": [
+        "ehető",
+        "bogyó",
+        "narancssárga",
+        "citrom",
+        "bármiféle",
+        "rámutat"
+      ],
+      "text": "Egy őszi szombaton részt vettem egy túrán a Zemplénben, ahol ehető növényeket gyűjtöttünk. A túrát Gyopár vezette, egy fiatal kutató, aki évek óta tanítja a városi embereket arra, mit gyűjthetnek az erdőben és a mezőn. Tizenkét résztvevő volt, a legtöbben közülünk először jártunk ilyen túrán.\n\nGyopár már a parkolóban elmondta a legfontosabb szabályt:\n\n– Bármiféle bogyót csak akkor tegyenek a szájukba, ha biztosan tudják, mi az. Ha nem biztosak benne, hagyják a bokron. Nem minden bogyó ehető, ami szép.\n\nAz első bokornál megálltunk. Gyopár rámutatott a kis fekete bogyókra, amelyek sűrűn lógtak az ágakon.\n\n– Ez a bodza. Tavasszal a virágából italt készítünk. A bogyója főzve ehető, például süteményben, nyersen viszont nem szabad sokat enni belőle, mert fájni kezd tőle a gyomor.\n\nKicsit később egy alacsony bokorhoz értünk, amelynek az ágait sűrűn borították az apró, narancssárga bogyók. Ez volt a homoktövis. Gyopár leszedett néhányat, és mindenkit megkínált. A bogyó savanyú volt, mint a citrom, talán még savanyúbb is.\n\n– Több vitamin van benne, mint a citromban – mondta Gyopár. – Télen ebből készítek teát, citrom helyett. A gyerekek is szeretik, talán a narancssárga színe miatt.\n\nA fák alatt, egy hűvös helyen Gyopár ismét megállt, és rámutatott egy kis növényre, amelynek fényes, piros bogyói voltak.\n\n– Ezt jól nézzék meg. Ez a növény nem ehető, sőt mérgező. Aki megeszi a bogyóit, nagyon rosszul lesz tőlük.\n\nEgy idős férfi megkérdezte, hogyan lehet ezt megállapítani bármiféle könyv nélkül.\n\n– Csak sok tanulással – felelte Gyopár. – Egy jó könyv sokat segít, de az erdőben a levelet, a virágot és a szagot is meg kell nézni. Ezért ne egyenek meg bármiféle bogyót csak azért, mert szép a színe.\n\nA túra végén sokféle ehető bogyó volt a kosaramban. Gyopár megmutatta, hogyan lehet a narancssárga bogyókból mézzel és egy kevés citrommal italt készíteni. Otthon én is megpróbáltam. Azóta egy üveg narancssárga ital áll a hűtőmben, és minden reggel iszom belőle egy kanállal.\n\nKérdések:\nMi volt Gyopár legfontosabb szabálya?\nHogy bármiféle bogyót csak akkor tegyünk a szájunkba, ha biztosan tudjuk, mi az.\nEhető-e a bodza bogyója?\nFőzve ehető, nyersen viszont nem szabad sokat enni belőle.\nMilyen színűek a homoktövis bogyói?\nA homoktövis bogyói narancssárgák.\nMilyen íze volt a homoktövis bogyójának?\nSavanyú volt, mint a citrom, talán még savanyúbb is.\nMire mutatott rá Gyopár a fák alatt?\nEgy kis növényre, amelynek fényes, piros bogyói nem ehetők, sőt mérgezők.\nMit készített otthon a mesélő?\nNarancssárga italt a bogyókból, mézzel és citrommal."
+    },
+    {
+      "title": "Kecskék csengővel",
+      "summary": "Veterinary student Tétény spends a spring week on Julianna's goat farm in the Hetés: he gets a vest with ten pockets, learns why the goats wear bells and the gate is always shut, holds a newborn kid and sees how much cheese depends on cleanliness.",
+      "newWords": [
+        "mellény",
+        "csengő",
+        "becsuk",
+        "kicsiny",
+        "újszülött",
+        "tisztaság"
+      ],
+      "text": "Tétény állatorvosnak tanul Budapesten. Tavasszal egy hetet egy kecsketanyán töltött a Hetésben, Zala egyik csendes, dombos vidékén. A tanyát Julianna vezeti: negyven kecskéje van, és a tejükből sajtot készít.\n\nAz első reggelen Julianna egy zöld mellényt adott Téténynek. A mellénynek tíz zsebe volt.\n\n– Ebben a mellényben mindent magadnál tarthatsz – mondta. – Kést, zsineget, egy tiszta kendőt és a telefonodat. A kecskék között mindkét kezedre szükséged lesz, nem érsz rá keresgélni.\n\nDélelőtt kiengedték a kecskéket a legelőre. Mindegyiknek egy kis csengő lógott a nyakában. Julianna elmagyarázta, hogy a csengő nem dísz. A bokrok között nem mindig látja a kecskéket, de a csengők hangjából tudja, merre járnak. Ha egy csengő sokáig nem szól, elmegy megnézni, mi van azzal a kecskével.\n\nAmikor minden kecske kint volt, Julianna becsukta a kaput, és még egyszer megnézte, jól becsukta-e.\n\n– Ezt soha ne felejtsd el – mondta Téténynek. – Ha nyitva marad a kapu, a kecskék fél óra múlva a szomszéd kertjében vannak. A kaput mindig becsukjuk, akkor is, ha csak egy percre megyünk ki.\n\nDélután a kicsiny istállóba mentek, ahol az anyakecskék a kicsinyeikkel pihentek a szalmán. Előző éjjel két gida született. Az újszülöttek még bizonytalanul álltak a lábukon, de már ittak az anyjuk tejéből. Julianna megmutatta, hogyan kell megnézni, jól vannak-e az újszülöttek: meleg-e a fülük, és erősen isznak-e. Julianna szerint a kicsinyek első napjai a legfontosabbak. Tétény ölbe vette az egyik újszülöttet, és nem akarta letenni.\n\nEste jött a fejés, aztán a sajtkészítés. Itt Julianna szigorúbb volt, mint addig egész nap. Szerinte a sajtnál a legfontosabb a tisztaság. A vödröket és a kannákat forró vízzel mossa, a sajtkonyhába senki sem léphet be utcai cipőben, és mindenki kezet mos, mielőtt a tejhez nyúl.\n\n– A tisztaságon múlik minden – mondta. – Egyetlen piszkos vödör elég ahhoz, hogy egy egész heti sajt tönkremenjen. A jó sajt titka nem a recept, hanem a tisztaság.\n\nA hét végén Tétény egy kis kerek sajtot vitt haza. A zöld mellényt Julianna neki ajándékozta.\n\n– Jövő tavasszal hozd vissza – mondta nevetve. – Akkor már tudni fogod, mit tegyél a zsebeibe.\n\nKérdések:\nMit kapott Tétény az első reggelen?\nEgy zöld mellényt kapott, amelynek tíz zsebe volt.\nMiért van csengő a kecskék nyakában?\nMert a bokrok között Julianna nem mindig látja őket, de a csengők hangjából tudja, merre járnak.\nMiért kell mindig becsukni a kaput?\nMert ha nyitva marad, a kecskék fél óra múlva a szomszéd kertjében vannak.\nKik pihentek a kicsiny istállóban?\nAz anyakecskék a kicsinyeikkel, köztük a két újszülött gida.\nMit néz meg Julianna az újszülötteken?\nHogy meleg-e a fülük, és erősen isznak-e.\nMi a legfontosabb a sajtkészítésnél Julianna szerint?\nA tisztaság."
+    },
+    {
+      "title": "Ősi búza Túrkeve mellett",
+      "summary": "Before farmer Kartal can build a new barn, archaeologists find a prehistoric village with carved pottery and burnt grains of an ancient wheat on his land; he sows the old wheat on the site, and bread is baked from it.",
+      "newWords": [
+        "előzmény",
+        "régész",
+        "vés",
+        "megnevezés",
+        "szimbolikus",
+        "nevezetes"
+      ],
+      "text": "Kartalnak Túrkeve mellett van egy gazdasága: kukoricát és búzát termeszt. Tavaly egy új raktárt akart építeni a tanyája mellé. Mielőtt építeni kezdhetett, régészeknek kellett megvizsgálniuk a területet, mert a környék földjeiben sok régi falu nyoma rejtőzik.\n\nA dolognak volt egy előzménye is. Kartal nagyapja évtizedekkel korábban, szántás közben, régi edények darabjait találta ugyanezen a földön, és egy dobozban, a szekrényben őrizte őket. Kartal elmondta ezt az előzményt a régészeknek, és megmutatta nekik a dobozt. Csűrös Beáta, a régészek vezetője, sokáig nézte a darabokat.\n\n– Ezek legalább 3000 évesek – mondta. – Nézze ezeket a vonalakat. Valaki egy csonttal mintát vésett az edény oldalába, mielőtt a tűzbe tette.\n\nA régészek három hétig dolgoztak a földön. Egy egész kis falu nyomait találták meg: a házak helyét, a tűz helyét és rengeteg edénydarabot, sok közülük vésett mintával. A legérdekesebb lelet azonban egy nagy edény alján volt: apró, megégett, fekete magok.\n\nBeáta elmagyarázta, hogy ezek egy ősi búza magjai. A tudósok latin megnevezést használnak rá, a régi magyar megnevezése pedig alakor. Ma már alig termesztik, pedig több ezer évig ebből sütötték az emberek a kenyerüket ezen a vidéken. Beáta szerint a régi megnevezés ma is él néhány idős ember nyelvében.\n\nA raktárt végül száz méterrel arrébb építették fel, hogy a régi falu helye megmaradjon. Kartal azonban sokat gondolt az ősi búzára. Vett egy zsák alakort egy gazdától, aki még termeszti, és ősszel elvetette egy kis darab földön, éppen ott, ahol egykor a falu állt.\n\n– Tudom, hogy ez inkább szimbolikus – mondta. – Ez a kis föld nem ad sok termést. De jó érzés, hogy ugyanazon a helyen ugyanaz a növény nő, mint 3000 évvel ezelőtt.\n\nA következő nyáron a termésből kenyér sült a szomszéd faluban. Kartal egy kis ünnepségre meghívta a régészeket is. Beáta szimbolikus ajándékot hozott: egy csészét, amelybe ugyanazt a mintát vésték, mint amilyen a régi edényeken volt.\n\nTúrkeve környéke eddig a nagy, nyílt pusztáiról volt nevezetes. Most egy újabb nevezetes hellyel lett gazdagabb: a régi falu helyére azóta iskolások járnak, és Kartal maga meséli el nekik a kis búzaföld mellett, mi történt itt.\n\nKérdések:\nMiért kellett régészeknek megvizsgálniuk Kartal földjét?\nMert új raktárt akart építeni, és a környék földjeiben sok régi falu nyoma rejtőzik.\nMi volt a dolog előzménye?\nKartal nagyapja évtizedekkel korábban szántás közben régi edények darabjait találta ugyanezen a földön.\nHogyan díszítették a régi edényeket?\nEgy csonttal mintát véstek az oldalukba, mielőtt a tűzbe tették őket.\nMi az ősi búza régi magyar megnevezése?\nAlakor.\nMiért mondta Kartal, hogy amit vetett, az inkább szimbolikus?\nMert a kis föld nem ad sok termést, de jó érzés, hogy ugyanaz a növény nő ott, mint 3000 éve.\nMilyen ajándékot hozott Beáta?\nEgy csészét, amelybe ugyanazt a mintát vésték, mint a régi edényekre."
+    },
+    {
+      "title": "A címlapon",
+      "summary": "Vica and Rikárd deliver vegetable boxes from a farm near Hajdúnánás; a reporter from the local paper questions them for two hours, their story lands on the front page, and the new orders make an old plan come true.",
+      "newWords": [
+        "kiterjedt",
+        "hírlap",
+        "kikérdez",
+        "címlap",
+        "valósul"
+      ],
+      "text": "Vica és Rikárd öt éve költöztek ki Rikárd nagyapjának a tanyájára, Hajdúnánás mellé. A nagyapa már évek óta a városban lakik, és szívesen átadta a tanyát az unokájának. A fiatalok zöldséget termesztenek, és minden csütörtökön dobozokban viszik ki a vevőknek.\n\nAz elején kevés vevőjük volt: néhány barát, rokon és szomszéd. Ma már kiterjedt hálózatuk van: Debrecenben és a közeli falvakban, sőt Nyíregyházán is szállítanak. A kiterjedt hálózat azonban sok munkával jár. A dobozokat csütörtökön hajnaltól estig állítják össze és viszik ki, a rendeléseket pedig egész héten figyelni kell.\n\nEgy tavaszi napon felhívta őket egy újságíró a helyi hírlaptól. Cikket akart írni róluk. Másnap ki is jött a tanyára, és két órán át kikérdezte őket mindenről: mit termesztenek, hány vevőjük van, mennyibe kerül egy doboz, és miért hagyták ott a debreceni irodai munkájukat. Vica később nevetve mondta, hogy még az anyja sem kérdezte ki soha ilyen alaposan. Rikárdot külön is kikérdezte a nagyapjáról és a régi tanyáról.\n\nAz újságíró azt is megkérdezte, hol van a cég székhelye.\n\n– Hivatalosan itt, a tanyán – felelte Rikárd. – Valójában a konyhában, a nagy asztalnál. Ott állítjuk össze a heti listát, ott írjuk a számlákat, és ott is eszünk.\n\nA cikk egy hét múlva jelent meg, és Vica nagy meglepetésére a címlapra került. A címlapon egy nagy fénykép volt róluk a paradicsomok között, alatta ez a cím: „Iroda a konyhában”. Rikárd vett öt példányt a hírlapból, és az egyiket kitette a raktár falára.\n\nA cikk után sok új rendelés érkezett. Vicáék évek óta gyűjtöttek egy hűtött raktárra, hogy nyáron ne kelljen egyetlen nap alatt mindent leszedni és kiszállítani, de a pénz sosem volt elég. Az új vevőkkel ez a régi terv ősszel végre meg is valósult.\n\nRikárd szerint azonban a terv nem a címlap miatt valósult meg, hanem öt év kitartó munkája miatt. A címlap csak annyit tett, hogy ezt a munkát mások is észrevették.\n\nKérdések:\nHol élnek és dolgoznak Vica és Rikárd?\nRikárd nagyapjának a tanyáján, Hajdúnánás mellett.\nMilyen hálózatuk van ma?\nKiterjedt hálózatuk van Debrecenben, a közeli falvakban és Nyíregyházán is.\nMiről kérdezte ki őket az újságíró?\nArról, mit termesztenek, hány vevőjük van, mennyibe kerül egy doboz, és miért hagyták ott a városi munkájukat.\nHová került a cikk a hírlapban?\nA címlapra került, egy nagy fényképpel.\nMi valósult meg ősszel?\nA régi tervük: végre lett egy hűtött raktáruk.\nRikárd szerint miért valósult meg a terv?\nÖt év kitartó munkája miatt, nem a címlap miatt."
+    },
+    {
+      "title": "Paradicsom a teraszon",
+      "summary": "Katinka, a hairdresser in Győr, grows four kinds of tomato on the terrace of her upstairs flat from seeds a client gave her, feeds her household all summer and shares the surplus with her customers.",
+      "newWords": [
+        "fodrász",
+        "emeleti",
+        "terasz",
+        "bolti",
+        "formájú",
+        "háztartás"
+      ],
+      "text": "Katinka fodrász Győrben. Az üzlete egy régi belvárosi ház földszintjén van, ő maga pedig ugyanennek a háznak az emeleti lakásában lakik a lányával. Az emeleti lakáshoz egy nagy terasz tartozik, amely a csendes belső udvarra néz. Ezen a teraszon Katinka minden nyáron paradicsomot termeszt, régi vödrökben és ládákban.\n\nA paradicsommal évekkel ezelőtt egy vendége miatt kezdett el foglalkozni. Erzsike néni, aki húsz éve jár hozzá hajat vágatni, egy nyáron egy kis zacskó magot hozott neki a saját kertjéből.\n\n– A bolti paradicsomnak nincs íze – mondta. – Próbálja meg ezt, aranyom. Majd meglátja a különbséget.\n\nKatinka megpróbálta, és Erzsike néninek igaza lett. A bolti paradicsom télen kemény és savanyú, a teraszon nőtt viszont édes és illatos. Azóta Katinka minden márciusban maga veti el a magokat az ablakpárkányon, májusban pedig kiviszi a kis növényeket a teraszra.\n\nMa már négyféle paradicsoma van. A legkedvesebb az a fajta, amelynek a termése szív formájú, és akár fél kiló is lehet. Van egy apró, körte formájú, sárga fajtája is, ezt a lánya egyenesen a tőről eszi. A harmadik hosszúkás, ebből szószt főz, a negyedik pedig kicsi és kerek, mint a cseresznye.\n\nA kétszemélyes háztartásnak júliustól szeptemberig egyáltalán nincs szüksége bolti paradicsomra. Sőt, a termés több, mint amennyit a háztartás el tud fogyasztani. Ezért Katinka minden reggel egy tál paradicsomot is levisz az üzletbe. A vendégek hajvágás után ingyen vehetnek belőle. Erzsike néni szerint Győrben nincs még egy fodrász, akinél paradicsomot is lehet kapni. Sokan mondják, hogy ma már nemcsak a frizura miatt járnak ehhez a fodrászhoz.\n\nŐsszel Erzsike néni is megkapja a magáét: egy üveg paradicsomszószt és egy zacskó magot a legszebb, szív formájú paradicsomból. A mag így visszatér oda, ahonnan elindult. A következő nyáron pedig ugyanaz a paradicsom terem két helyen: egy falusi kertben és Győrben, egy ház emeleti teraszán.\n\nKérdések:\nHol lakik Katinka?\nUgyanannak a háznak az emeleti lakásában, amelynek a földszintjén az üzlete van.\nMiért kezdett el paradicsommal foglalkozni?\nMert Erzsike néni, az egyik vendége, magot hozott neki, és azt mondta, hogy a bolti paradicsomnak nincs íze.\nMilyen formájú a legkedvesebb paradicsoma?\nSzív formájú, és akár fél kiló is lehet.\nSzüksége van-e nyáron Katinka háztartásának bolti paradicsomra?\nNincs, mert a terasz termése több, mint amennyit a háztartás el tud fogyasztani.\nMit kapnak a vendégek a fodrásznál?\nHajvágás után ingyen vehetnek a paradicsomból.\nMit kap ősszel Erzsike néni?\nEgy üveg paradicsomszószt és egy zacskó magot a szív formájú paradicsomból."
+    },
+    {
+      "title": "Nem influenza",
+      "summary": "During a July heatwave, melon grower Tass near Orosháza forgets to drink, feels dizzy and thinks he has the flu; the doctor's diagnosis is dehydration that strains his kidneys, and he changes his working day.",
+      "newWords": [
+        "túloldal",
+        "kiszárad",
+        "influenza",
+        "klíma",
+        "diagnózis",
+        "vese"
+      ],
+      "text": "Tassnak Orosháza mellett van egy kis gazdasága. Hagymát, sárgarépát és dinnyét termeszt. A földjei egy csatorna két oldalán fekszenek: a ház az egyik parton áll, a dinnyeföld a túloldalon, ezért Tass naponta többször átmegy a kis fahídon.\n\nTavaly júliusban hetekig nem esett az eső, és napközben negyven fok közelébe emelkedett a hőmérséklet. A föld kiszáradt és megrepedezett, a csatornában is alig maradt víz. Tass hajnaltól estig öntözött, csöveket húzott és szivattyút javított. Enni alig volt ideje, és inni is elfelejtett.\n\nEgy délután, amikor a túloldalról visszafelé jött, megszédült, és le kellett ülnie a híd mellett. Fájt a feje, a derekában tompa fájdalmat érzett, és fázott, pedig nagy hőség volt. A felesége azonnal orvoshoz vitte. Útközben Tass azt mondta, biztosan influenza. Egy rokonuk a múlt héten influenzával feküdt, tőle kaphatta el.\n\nA rendelőben kellemes hűvös volt, a sarokban halkan zúgott a klíma. A doktornő megmérte Tass lázát, megvizsgálta, és megkérdezte, mennyit ivott aznap. Aztán leült, és elmondta a diagnózist.\n\n– Ez nem influenza. Nyáron ritka az influenza, és önnek nincs is igazi láza. A diagnózisom: kiszáradás. A szervezete kiszáradt, mint a föld odakint.\n\nTass megkérdezte, miért fáj akkor a dereka.\n\n– Valószínűleg a veséje miatt – felelte a doktornő. – A vesének sok folyadékra van szüksége, hogy jól dolgozzon. Ha valaki kevés vizet iszik, a vese nehezebben végzi a munkáját, és ilyenkor a derék is fájhat. A veséi rendben vannak, de most pihenniük kell.\n\nA doktornő azt tanácsolta, hogy Tass délben és kora délután ne dolgozzon kint, és óránként igyon meg egy pohár vizet. Azt is mondta, hogy a klíma változik, és a nyarak egyre forróbbak lesznek, ezért ezt nem egy nyárra mondja, hanem mindegyikre.\n\nTass két napig otthon pihent. Azóta a feleségével hajnalban és este öntöznek, a forró órákban pedig a házban dolgoznak. Amikor Tass átmegy a túloldalra, mindig visz magával egy nagy üveg vizet. A dinnyék augusztusban édesek és nagyok lettek, és Tass azt mondja, a diagnózis talán a termést is megmentette.\n\nKérdések:\nHol van Tass dinnyeföldje?\nA csatorna túloldalán, a házzal szemben.\nMi történt a földdel tavaly júliusban?\nHetekig nem esett az eső, ezért a föld kiszáradt és megrepedezett.\nMit gondolt Tass, mi baja van?\nAzt gondolta, hogy influenza, mert egy rokonuk influenzával feküdt.\nMi volt a doktornő diagnózisa?\nKiszáradás: Tass szervezete kiszáradt, mint a föld.\nMiért fájt Tass dereka?\nValószínűleg a veséje miatt, mert a vesének sok folyadékra van szüksége.\nMit tanácsolt a doktornő?\nHogy délben és kora délután ne dolgozzon kint, és óránként igyon meg egy pohár vizet."
+    },
+    {
+      "title": "Kívülállóként a piacon",
+      "summary": "A column: a woman who left her Budapest office for a village in the Kiskunság describes being an outsider at the Saturday market, trying too hard, and how a quarrel with her neighbour over hens became a friendship.",
+      "newWords": [
+        "kívülálló",
+        "külvilág",
+        "váltás",
+        "mindenáron",
+        "veszekedés",
+        "életforma"
+      ],
+      "text": "Három éve hagytam ott Budapestet. Tíz évig egy irodában dolgoztam, a tizenkettedik emeleten, és egy idő után úgy éreztem, hogy a külvilágot csak az ablakon át látom. Vettem egy kis házat nagy kerttel egy faluban a Kiskunságban, és azóta gyógynövényeket termesztek. Ma a szombati piacon árulom a teáimat.\n\nSokan kérdezik, milyen volt a váltás. Őszintén: nehezebb, mint gondoltam. Nem a munka volt nehéz, hanem az, hogy kívülálló lettem. A faluban mindenki ismert mindenkit, sőt egymás nagyszüleit is. Én voltam a városi lány, aki nem tudja, mikor kell vetni, és aki gumicsizmában is úgy néz ki, mintha irodába indulna. A váltás első hónapjaiban sokszor egész nap senkivel sem beszéltem.\n\nAz első évben mindenáron be akartam illeszkedni. Mindenkinek hangosan köszöntem, minden falusi rendezvényre elmentem, és mindenáron olcsóbban adtam a teámat, mint amennyibe nekem került. Ma már tudom, hogy ez hiba volt. Egy kívülállóból nem attól lesz a közösség tagja, hogy mindenáron meg akar felelni.\n\nAmi végül segített, az egy veszekedés volt. A szomszédom, Vilhelmina néni tyúkjai rendszeresen átjártak a kerítés alatt, és kikaparták a kamillámat. Egy reggel elegem lett, és átmentem hozzá. A veszekedés hangos volt, és mindketten mondtunk olyat, amit később megbántunk. Másnap azonban Vilhelmina néni átjött egy tál tojással és egy tekercs dróttal, és együtt megjavítottuk a kerítést. Azóta minden héten megiszunk egy teát a teraszán. Ő tanított meg arra, hogyan kell a kamillát szedni, és ő beszélt rólam először jó szívvel a piacon.\n\nMa már nem érzem magam kívülállónak, bár tudom, hogy a falu szemében még sokáig az leszek. Ez nem baj. A falusi élet nem egy kellemes hétvége, hanem egy egész életforma, a maga szabályaival: korán kelni, figyelni az időjárást, segíteni a szomszédnak, és néha veszekedni is vele. Ezt az életformát nem lehet megvenni, csak lassan megtanulni.\n\nA régi kollégáim néha megkérdezik, nem hiányzik-e a város. Ilyenkor azt felelem, hogy a külvilágtól nem szakadtam el. A piacon egy szombat délelőtt több emberrel beszélek, mint régen egy egész héten az irodában.\n\nKérdések:\nMiért hagyta ott a szerző Budapestet?\nMert úgy érezte, hogy a külvilágot csak az irodája ablakán át látja.\nMi volt a legnehezebb a váltásban?\nAz, hogy kívülálló lett a faluban.\nMit csinált a szerző az első évben?\nMindenáron be akart illeszkedni, és mindenáron olcsóbban adta a teáját.\nMiről szólt a veszekedés Vilhelmina nénivel?\nA szomszéd tyúkjairól, amelyek átjártak a kerítés alatt, és kikaparták a kamillát.\nMi történt a veszekedés után?\nVilhelmina néni átjött tojással és dróttal, együtt megjavították a kerítést, és azóta minden héten teáznak.\nMit gondol a szerző a falusi életformáról?\nHogy nem lehet megvenni, csak lassan megtanulni."
+    },
+    {
+      "title": "Vásár a Tisza mellett",
+      "summary": "Tilla organises the autumn produce fair in Tiszacsege: she solves a clash with a football match, strings peppers for the arch over the entrance, and old Csobán bácsi compares the fair with the ones of his childhood.",
+      "newWords": [
+        "ütközés",
+        "ív",
+        "fűz",
+        "pazar",
+        "erősítő",
+        "felvon",
+        "gyermekkori"
+      ],
+      "text": "Tilla Tiszacsegén dolgozik, a falu közösségi házában. Minden év szeptember végén ő szervezi a falu őszi vásárát, ahol a környék gazdái és termelői árulják, amit egész évben termeltek: mézet, sajtot, zöldséget és gyümölcsöt.\n\nIdén a szervezés rosszul kezdődött. Kiderült, hogy a vásár napjára egy focimeccset is a faluba tettek. Az ütközés komoly gond volt, mert a vásárt mindig a pálya melletti réten tartják, és a parkolón is osztozniuk kellett volna. Tilla két napig telefonált, mire megoldotta: a meccs délelőtt lett, a vásár délben kezdődött. Az ütközésből végül előny lett, mert a meccs után a nézők egyenesen átsétáltak a vásárba. Tilla azóta azt mondja, hogy egy ütközés néha jót is hoz.\n\nA vásár bejárata fölé a falu egyik idős lakója, Csobán bácsi, ágakból egy magas ívet épített. Tilla és a barátnői előző este piros paprikát fűztek hosszú szálakra, és ezekkel díszítették az ívet. Egy este alatt több száz paprikát fűztek fel. A piros ív messziről látszott az úton, és sokan lefényképezték.\n\nDélben megérkezett a zenekar is. A fiatalok egy nagy erősítőt állítottak fel a színpad mellé. Csobán bácsi felvonta a szemöldökét.\n\n– Erősítő? – kérdezte. – Gyermekkori emlékeim szerint egy jó zenészt erősítő nélkül is lehetett hallani a falu végéig.\n\nTilla nevetett, és megkérte a zenészeket, hogy ne szóljon olyan hangosan az erősítő.\n\nA rét közepén hosszú asztalokon pazar áru várta a látogatókat: alma, körte, tök, mindenféle méz, kerek sajtok és házi sütemények. Ilyen pazar asztalt Tilla még egyetlen évben sem látott. Csobán bácsi is végigment az asztalok mellett, és elmondta, hogy gyermekkori vásárain lovakat és teheneket is árultak, a gyerekek pedig édességet kaptak, ha jól viselkedtek.\n\nA nap végén Tilla megkérdezte tőle, milyennek találta a vásárt. Csobán bácsi ismét felvonta a szemöldökét, aztán mosolygott.\n\n– Majdnem olyan volt, mint gyerekkoromban – mondta. – Csak a zene volt hangosabb.\n\nKérdések:\nMi volt az ütközés, amely miatt a szervezés rosszul kezdődött?\nA vásár napjára egy focimeccset is a faluba tettek.\nHogyan oldotta meg Tilla az ütközést?\nA meccs délelőtt lett, a vásár pedig délben kezdődött.\nMivel díszítették a bejárat fölötti ívet?\nPiros paprikával: Tilla és a barátnői előző este paprikát fűztek hosszú szálakra.\nMit csinált Csobán bácsi, amikor meglátta az erősítőt?\nFelvonta a szemöldökét, és azt mondta, hogy egy jó zenészt erősítő nélkül is lehetett hallani a falu végéig.\nMilyen volt az áru az asztalokon?\nPazar: volt alma, körte, tök, méz, sajt és házi sütemény.\nMit árultak Csobán bácsi gyermekkori vásárain?\nLovakat és teheneket is árultak."
+    },
+    {
+      "title": "Mikró a nagymama konyhájában",
+      "summary": "Engineering student Bulcsu explains to his grandmother how a microwave oven heats food, why the time grows with the amount and what really matters for vitamins, and writes about her garden beans on his blog, which he publishes under a pen name.",
+      "newWords": [
+        "elektromágneses",
+        "kinyílik",
+        "arányos",
+        "releváns",
+        "álnév"
+      ],
+      "text": "Bulcsu mérnöknek tanul Szegeden. Szombatonként hazajár a nagymamájához, Ernesztinhez, egy Szeged melletti faluba. A nagymama nagy kertet gondoz, és a konyhájában szinte minden régi: az edények, a szekrények, a kanalak. Csak egy dolog új: egy mikrohullámú sütő, amelyet a családtól kapott a születésnapjára, és amelyhez egy évig hozzá sem nyúlt.\n\n– Nem bízom benne – mondta Bulcsunak. – Nem látom, mitől lesz meleg az étel.\n\nBulcsu leült vele az asztalhoz, és elmagyarázta. A sütő elektromágneses hullámokkal dolgozik, hasonlókkal, mint amilyeneket a rádió vagy a telefon használ. Ezek az elektromágneses hullámok megmozgatják az ételben lévő vizet, és a mozgástól az étel meleg lesz. A hullám nem marad az ételben: amint a sütő kikapcsol, megszűnik, ahogy a fény is eltűnik, ha lekapcsoljuk a lámpát.\n\nAztán megmutatta. Megnyomott egy gombot, és kinyílt a sütő ajtaja. Betett egy tál levest, becsukta az ajtót, és két percre állította. Amikor a sütő jelzett, az ajtó újra kinyílt, és a leves forró volt.\n\n– És ha két tál levest teszek be? – kérdezte a nagymama.\n\n– Akkor nagyjából kétszer annyi idő kell – felelte Bulcsu. – Az idő arányos az étel mennyiségével. Ha kevesebb van a tálban, kevesebb idő is elég. Ez olyan, mint a tűzhelyen: egy nagy fazék víz is lassabban forr fel, mint egy kicsi, és az idő ott is nagyjából arányos a víz mennyiségével.\n\nErnesztin nagymama ezután a vitaminokról kérdezett: nem vesznek-e el a sütőben. Bulcsu szerint ez releváns kérdés, de nem a sütőn múlik. Az a releváns, hogy mennyi ideig és mennyi vízben főzzük a zöldséget. A kevés vízben, rövid ideig főzött zöldségben több vitamin marad, mint abban, amelyet sokáig főzünk sok vízben.\n\nMásnap reggel kimentek a kertbe. A tök virágai éppen kinyíltak, a bokrokon érett a bab. Bulcsu szedett egy tálra valót, kevés vízzel a sütőbe tette, és öt perc múlva már az asztalon volt. A nagymama elismerte, hogy a bab szép zöld maradt.\n\nBulcsu évek óta ír egy blogot a főzésről, de álnéven. Azt, hogy milyen álnéven ír, senki sem tudta a családban. Este megírta a bab receptjét is, a nagymama kertjéről szóló hosszú bevezetővel. Ernesztin nagymama elolvasta, és csak egyet kért: hogy a kertjéről ne álnéven írjon, hanem írja oda az ő igazi nevét.\n\nKérdések:\nMiért nem használta Ernesztin nagymama a mikrohullámú sütőt?\nMert nem bízott benne, és nem látta, mitől lesz meleg az étel.\nHogyan lesz meleg az étel a sütőben?\nAz elektromágneses hullámok megmozgatják az ételben lévő vizet.\nMi történt, amikor Bulcsu megnyomott egy gombot?\nKinyílt a sütő ajtaja.\nMivel arányos az idő, amely alatt az étel meleg lesz?\nAz étel mennyiségével.\nMi a releváns kérdés a vitaminoknál Bulcsu szerint?\nHogy mennyi ideig és mennyi vízben főzzük a zöldséget.\nMit kért a nagymama Bulcsutól a blog miatt?\nHogy a kertjéről ne álnéven írjon, hanem az ő igazi nevét írja oda."
+    }
+  ]
+}
