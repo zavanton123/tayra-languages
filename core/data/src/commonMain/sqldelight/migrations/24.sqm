@@ -1,0 +1,3 @@
+-- Arabic is read with its own parser, which cuts the letters written onto a word's front off it (والكتاب is و + ال +
+-- كتاب); an Arabic language made before it was read as space-delimited text.
+UPDATE languages SET parser_type = 'arabic' WHERE name = 'Arabic' AND parser_type = 'spacedel';

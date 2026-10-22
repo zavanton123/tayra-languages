@@ -4,6 +4,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import co.touchlab.kermit.Logger
 import com.tayra.languages.core.domain.service.ChineseScriptService
+import com.tayra.languages.core.domain.service.CutWordsMigration
 import com.tayra.languages.core.domain.service.BookStatsService
 import com.tayra.languages.core.domain.service.DemoDataService
 import com.tayra.languages.core.domain.service.DictionaryService
@@ -41,6 +42,8 @@ class AppBootstrapViewModel(
     private val bookPacks: BookPackService,
     /** Loads the script tables before texts are parsed, when a Chinese language is read in one script. */
     private val chineseScripts: ChineseScriptService? = null,
+    /** Turns the terms saved as words a parser now cuts (Arabic's والكتاب) into the words it cuts them into. */
+    private val cutWords: CutWordsMigration? = null,
 ) : ViewModel() {
 
     private val _state = MutableStateFlow<BootstrapState>(BootstrapState.Loading)
@@ -55,6 +58,7 @@ class AppBootstrapViewModel(
                 bookPacks.refresh()
                 learningLanguage.ensure()
                 chineseScripts?.prepareIfUsed()
+                cutWords?.migrate()
                 _state.value = BootstrapState.Ready
                 bookStats.refreshAll()
                 dictionaries.refresh()
