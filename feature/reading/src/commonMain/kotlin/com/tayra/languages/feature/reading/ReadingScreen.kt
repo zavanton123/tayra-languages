@@ -1,5 +1,7 @@
 package com.tayra.languages.feature.reading
 
+import com.tayra.languages.core.domain.playlists.PlaylistPlayer
+import com.tayra.languages.feature.playlists.AddToPlaylistButton
 import com.tayra.languages.core.ui.components.inLearnedScript
 import com.tayra.languages.core.ui.components.learningLevels
 import androidx.compose.runtime.rememberUpdatedState
@@ -128,6 +130,7 @@ import com.tayra.languages.core.domain.stats.BookStatsCalculator
 import com.tayra.languages.core.ui.audio.rememberSpeaker
 import com.tayra.languages.core.domain.service.SentenceAudioState
 import com.tayra.languages.core.domain.service.SentenceAudio
+import org.koin.compose.getKoin
 import org.koin.compose.koinInject
 import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.morphology.Chinese
@@ -392,6 +395,7 @@ fun ReadingScreen(
                             onSettings = { onNavigate(Route.OfflineTranslation) },
                             onMenu = openPane,
                             onCourses = { onNavigate(Route.Courses) },
+                            onNewPlaylist = { onNavigate(Route.NewPlaylist(bookId)) },
                             focusText = { runCatching { focusRequester.requestFocus() } },
                         )
                     }
@@ -556,6 +560,8 @@ private fun ReadingBody(
     /** Opening the reader's settings, from the floating button a wide window shows. */
     onMenu: () -> Unit,
     onCourses: () -> Unit,
+    /** Making a playlist that starts with this text. */
+    onNewPlaylist: () -> Unit,
     focusText: () -> Unit,
     /** Whether the term panel is open beside the text, which then leaves its scrollbar room on that side. */
 ) {
@@ -584,6 +590,11 @@ private fun ReadingBody(
     val pageSentences = remember(state.page) { state.page.spokenSentences() }
     LaunchedEffect(pageSentences, speechLanguage) { continuous.setPage(pageSentences, speechLanguage) }
     LaunchedEffect(continuous) { speaker.playing.collect(continuous::speakerTaken) }
+    // The reader's own reading aloud and a playlist's would talk over each other: the reader's takes over. A reader
+    // shown without the app around it has no playlists.
+    val koin = getKoin()
+    val playlistPlayer = remember(koin) { koin.getOrNull<PlaylistPlayer>() }
+    LaunchedEffect(speaker, playlistPlayer) { speaker.playing.collect { if (it != null && playlistPlayer?.state?.value?.isPlaying == true) playlistPlayer.pause() } }
     SideEffect {
         continuous.autoPause = state.settings.autoPause
         continuous.turnPage = {
@@ -748,6 +759,8 @@ private fun ReadingBody(
     }
     if (state.settings.showSentencePlay && pageSentences.isNotEmpty()) {
         ContinuousControls(
+            bookId = state.book?.id?.takeIf { playlistPlayer != null },
+            onNewPlaylist = onNewPlaylist,
             playing = continuous.active,
             autoPause = state.settings.autoPause,
             hotkeys = state.settings.hotkeys.takeUnless { LocalWindowWidth.current.isCompact },
@@ -855,10 +868,12 @@ private fun KeyCap(hotkey: Hotkey) {
 /**
  * The page's play button, to read on from sentence to sentence, with the auto-pause switch after
  * it and, where there is a keyboard ([hotkeys] given), a button listing the listening shortcuts
- * before it.
+ * before it; first of all the button that puts the text in a playlist.
  */
 @Composable
 private fun ContinuousControls(
+    bookId: Long?,
+    onNewPlaylist: () -> Unit,
     playing: Boolean,
     autoPause: Boolean,
     hotkeys: Map<HotkeyAction, Hotkey?>?,
@@ -872,6 +887,11 @@ private fun ContinuousControls(
     val playDescription = if (playing) tr("Pause reading") else tr("Read the page")
     val autoPauseDescription = if (autoPause) tr("Auto-pause on") else tr("Auto-pause off")
     Row(modifier, verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+        if (bookId != null) {
+            // The menu ends where the controls do: past the buttons after this one.
+            val after = PLAY_CONTROL_SIZE + CONTROL_SIZE + AppSpacing.m * 2 + if (hotkeys != null) CONTROL_SIZE + AppSpacing.m else 0.dp
+            AddToPlaylistButton(bookId, CONTROL_SIZE, onCreate = onNewPlaylist, menuShift = after)
+        }
         if (hotkeys != null) {
             Box {
                 AppTooltip(shortcutsDescription) {

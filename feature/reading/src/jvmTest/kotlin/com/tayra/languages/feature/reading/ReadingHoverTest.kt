@@ -107,6 +107,7 @@ class ReadingHoverTest {
     private lateinit var settings: SettingsRepositoryImpl
     private lateinit var termRepository: TermRepositoryImpl
     private lateinit var termService: TermService
+    private lateinit var provider: DatabaseProvider
     private var languageId = 0L
 
     /** The reader's prepared sentence audio, shared with the screen's speaker through Koin. */
@@ -138,7 +139,7 @@ class ReadingHoverTest {
         paragraph: String = "O lobo dorme na floresta.",
     ): ReadingViewModel {
         if (mainIsDefault) Dispatchers.setMain(Dispatchers.Default)
-        val provider = DatabaseProvider(DatabaseDriverFactory(File.createTempFile("tayra-hover", ".db").also { it.delete() }))
+        val provider = DatabaseProvider(DatabaseDriverFactory(File.createTempFile("tayra-hover", ".db").also { it.delete() })).also { this.provider = it }
         val languages = LanguageRepositoryImpl(provider)
         val books = BookRepositoryImpl(provider)
         val terms = TermRepositoryImpl(provider)
@@ -251,6 +252,57 @@ class ReadingHoverTest {
 
         rule.onNodeWithContentDescription("Finish book").performScrollTo().performClick()
         rule.waitUntil(5_000) { home }
+    }
+
+    /** Beside the play controls, a round button puts the text in a playlist, or makes one with it. */
+    @Test
+    fun theReaderPutsTheTextInAPlaylist() {
+        val vm = runBlocking { reader(mainIsDefault = false) }
+        val languages = LanguageRepositoryImpl(provider)
+        val books = BookRepositoryImpl(provider)
+        val courses = com.tayra.languages.core.domain.courses.CourseService(books, languages, BookService(books, languages), com.tayra.languages.core.data.repository.CourseRepositoryImpl(provider)) { emptyList() }
+        val time = com.tayra.languages.core.domain.playlists.ListeningTime(settings)
+        val repository = com.tayra.languages.core.data.repository.PlaylistRepositoryImpl(provider)
+        val playlists = com.tayra.languages.core.domain.playlists.PlaylistService(repository, courses, languages, time)
+        val silent = object : com.tayra.languages.core.domain.playlists.SpeechOutput {
+            override fun play(wav: ByteArray, onDone: () -> Unit) {}
+            override fun speak(text: String, languageCode: String?, rate: Float, onWord: (IntRange) -> Unit, onDone: () -> Unit) {}
+            override fun pause() = false
+            override fun resume() {}
+            override fun stop() {}
+        }
+        val player = com.tayra.languages.core.domain.playlists.PlaylistPlayer(
+            playlists, repository, books, languages, ReadingService(books, languages, termRepository, WordsReadRepositoryImpl(provider), termService), sentenceAudio,
+            LocalSpeech(emptyList()), settings, silent, time, kotlinx.coroutines.CoroutineScope(Dispatchers.Default),
+        )
+        val morning = runBlocking {
+            settings.update { it.copy(currentLanguageId = languageId) }
+            playlists.create(languageId, com.tayra.languages.core.domain.playlists.PlaylistDraft("Morning Portuguese"))
+        }
+        val koin = startKoin {
+            modules(
+                module {
+                    single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio }; single { player }
+                    viewModel { (bookId: Long) -> com.tayra.languages.feature.playlists.AddToPlaylistViewModel(bookId, playlists, settings) }
+                },
+            )
+        }
+        val visited = mutableListOf<com.tayra.languages.core.ui.navigation.Route>()
+        // Given its Koin outright: compositions of earlier tests can leave another one as the default.
+        @Suppress("DEPRECATION")
+        rule.setContent { org.koin.compose.KoinContext(koin.koin) { ReadingScreen(bookId = 1, initialPage = null, onNavigate = { visited += it }, onHome = {}, viewModel = vm) } }
+        rule.waitUntil(5_000) { rule.onAllNodesWithTag("add-to-playlist").fetchSemanticsNodes().isNotEmpty() }
+        rule.onNodeWithTag("add-to-playlist").performClick()
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("Morning Portuguese").fetchSemanticsNodes().isNotEmpty() }
+        rule.onNodeWithTag("menu-playlist-$morning").performClick()
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("Added to Morning Portuguese").fetchSemanticsNodes().isNotEmpty() }
+        assertEquals(listOf(1L), runBlocking { playlists.playlist(morning)!!.items.map { it.bookId } })
+        System.getenv("READING_PLAYLIST_SCREENSHOT")?.let { path ->
+            rule.waitForIdle()
+            javax.imageio.ImageIO.write(rule.onAllNodes(androidx.compose.ui.test.isRoot())[0].captureToImage().toAwtImage(), "png", File(path))
+        }
+        rule.onNodeWithTag("menu-new-playlist").performClick()
+        assertEquals(listOf<com.tayra.languages.core.ui.navigation.Route>(com.tayra.languages.core.ui.navigation.Route.NewPlaylist(1)), visited)
     }
 
     /** The toolbar shows "page of pages" between the arrows, with a slider across the book. */

@@ -6,6 +6,7 @@ kotlin {
     sourceSets {
         commonMain.dependencies {
             implementation(projects.feature.terms)
+            implementation(projects.feature.playlists)
             implementation(libs.compose.ui.backhandler)
         }
         jvmTest.dependencies {
