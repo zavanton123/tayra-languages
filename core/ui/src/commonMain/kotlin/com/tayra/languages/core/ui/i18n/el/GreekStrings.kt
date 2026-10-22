@@ -12,6 +12,7 @@ internal val greekParts: List<Pair<String, Map<String, String>>> = listOf(
     "frequency" to elFrequency,
     "home" to elHome,
     "news" to elNews,
+    "playlists" to elPlaylists,
     "reading" to elReading,
     "settings" to elSettings,
     "settings-more" to elSettingsMore,

@@ -12,6 +12,7 @@ internal val chineseParts: List<Pair<String, Map<String, String>>> = listOf(
     "frequency" to zhFrequency,
     "home" to zhHome,
     "news" to zhNews,
+    "playlists" to zhPlaylists,
     "reading" to zhReading,
     "settings" to zhSettings,
     "settings-more" to zhSettingsMore,

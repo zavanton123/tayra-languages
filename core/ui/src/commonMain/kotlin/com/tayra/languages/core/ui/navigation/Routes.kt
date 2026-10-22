@@ -21,6 +21,28 @@ sealed interface Route {
     @Serializable
     data object News : Route
 
+    /** The playlists of the language being learned: texts to listen to one after another. */
+    @Serializable
+    data object Playlists : Route
+
+    @Serializable
+    data class Playlist(val playlistId: Long) : Route
+
+    /** A new playlist; [bookId] names a text to start it with, as the reader's playlist menu does. */
+    @Serializable
+    data class NewPlaylist(val bookId: Long? = null) : Route
+
+    @Serializable
+    data class EditPlaylist(val playlistId: Long) : Route
+
+    /** Choosing texts of the library to add to a playlist. */
+    @Serializable
+    data class AddToPlaylist(val playlistId: Long) : Route
+
+    /** What the playlist player is playing, with what comes next. */
+    @Serializable
+    data object Player : Route
+
     /** Free books from online libraries, for the language being learned. */
     @Serializable
     data object FindBooks : Route

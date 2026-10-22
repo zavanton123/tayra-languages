@@ -12,6 +12,7 @@ internal val frenchParts: List<Pair<String, Map<String, String>>> = listOf(
     "frequency" to frFrequency,
     "home" to frHome,
     "news" to frNews,
+    "playlists" to frPlaylists,
     "reading" to frReading,
     "settings" to frSettings,
     "settings-more" to frSettingsMore,

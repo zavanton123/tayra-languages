@@ -35,14 +35,14 @@ import com.tayra.languages.core.ui.theme.AppText
 
 /**
  * The phone's bottom bar: the main areas as tabs, with the flashcards due on theirs, and More for
- * everything else. [section] is the area of the current screen; More holds the news, vocabulary and settings areas.
+ * everything else. [section] is the area of the current screen; More holds the news, playlists, vocabulary and settings areas.
  */
 @Composable
 fun PhoneNavBar(section: NavSection?, onNavigate: (Route) -> Unit, onMore: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     val due = LocalFlashcardsDue.current
-    // The news and the vocabulary pages are reached through More.
-    val area = if (section == NavSection.TERMS || section == NavSection.NEWS) NavSection.SETTINGS else section
+    // The news, the playlists and the vocabulary pages are reached through More.
+    val area = if (section == NavSection.TERMS || section == NavSection.NEWS || section == NavSection.PLAYLISTS) NavSection.SETTINGS else section
     NavigationBar(containerColor = colors.surface, modifier = Modifier.testTag("phone-nav")) {
         PhoneTab(NavSection.HOME, Icons.Default.Home, area) { onNavigate(Route.Home) }
         PhoneTab(NavSection.COURSES, AppIcons.School, area) { onNavigate(Route.Courses) }
@@ -83,11 +83,12 @@ private class MoreEntry(val label: String, val icon: ImageVector, val route: Rou
 private class MoreGroup(val title: String, val entries: List<MoreEntry>)
 
 private val moreGroups = listOf(
-    // Where texts come from: the news, free books, and the packs of courses and books to download.
+    // Where texts come from: the news, free books, and the packs of courses and books to download; and listening to them.
     MoreGroup(
         "Reading",
         listOf(
             MoreEntry("News", AppIcons.Newspaper, Route.News),
+            MoreEntry("Playlists", AppIcons.QueueMusic, Route.Playlists),
             MoreEntry("Find books", AppIcons.Book, Route.FindBooks),
             MoreEntry("Course packs", AppIcons.School, Route.CoursePacks),
             MoreEntry("Book packs", AppIcons.Download, Route.BookPacks),

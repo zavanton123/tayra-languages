@@ -73,6 +73,10 @@ class PlaylistService(
 
     suspend fun remove(itemId: Long) = repository.removeItem(itemId)
 
+    /** The text with [bookId] as something to add: its lesson when it was made from one, so it is offered with its course. */
+    suspend fun sourceFor(bookId: Long): PlaylistSource =
+        courses.lessonReading(bookId)?.let { PlaylistSource.Lesson(it.course.id, it.lesson.id) } ?: PlaylistSource.Text(bookId)
+
     /** Moves the item to [toIndex] among the playlist's items. */
     suspend fun move(playlistId: Long, itemId: Long, toIndex: Int) {
         val ids = stored(playlistId).items.map { it.id }.toMutableList()

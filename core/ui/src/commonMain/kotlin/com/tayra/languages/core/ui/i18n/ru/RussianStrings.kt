@@ -12,6 +12,7 @@ internal val russianParts: List<Pair<String, Map<String, String>>> = listOf(
     "frequency" to ruFrequency,
     "home" to ruHome,
     "news" to ruNews,
+    "playlists" to ruPlaylists,
     "reading" to ruReading,
     "settings" to ruSettings,
     "settings-more" to ruSettingsMore,

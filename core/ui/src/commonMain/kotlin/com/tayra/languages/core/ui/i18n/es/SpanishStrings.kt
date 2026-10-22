@@ -12,6 +12,7 @@ internal val spanishParts: List<Pair<String, Map<String, String>>> = listOf(
     "frequency" to esFrequency,
     "home" to esHome,
     "news" to esNews,
+    "playlists" to esPlaylists,
     "reading" to esReading,
     "settings" to esSettings,
     "settings-more" to esSettingsMore,

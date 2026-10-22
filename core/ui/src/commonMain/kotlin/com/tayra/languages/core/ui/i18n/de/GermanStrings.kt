@@ -12,6 +12,7 @@ internal val germanParts: List<Pair<String, Map<String, String>>> = listOf(
     "frequency" to deFrequency,
     "home" to deHome,
     "news" to deNews,
+    "playlists" to dePlaylists,
     "reading" to deReading,
     "settings" to deSettings,
     "settings-more" to deSettingsMore,

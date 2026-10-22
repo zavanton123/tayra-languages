@@ -12,6 +12,7 @@ internal val polishParts: List<Pair<String, Map<String, String>>> = listOf(
     "frequency" to plFrequency,
     "home" to plHome,
     "news" to plNews,
+    "playlists" to plPlaylists,
     "reading" to plReading,
     "settings" to plSettings,
     "settings-more" to plSettingsMore,

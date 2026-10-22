@@ -12,6 +12,7 @@ internal val portugueseParts: List<Pair<String, Map<String, String>>> = listOf(
     "frequency" to ptFrequency,
     "home" to ptHome,
     "news" to ptNews,
+    "playlists" to ptPlaylists,
     "reading" to ptReading,
     "settings" to ptSettings,
     "settings-more" to ptSettingsMore,
