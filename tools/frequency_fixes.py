@@ -1714,3 +1714,6 @@ OVERRIDES["ar"].update({"طيبة": ["طيب"], "سيئة": ["سيئ"], "كلا�
 # Names spelled as forms of a word the rules now list: لبنان, the dual of لبن "milk", counts for nothing, ألبانيا for
 # ألباني; and أنتي is أنت misspelt, not أنة's.
 OVERRIDES["ar"].update({"لبنان": [], "ألبانيا": ["ألباني"], "الباني": ["ألباني"], "أنتي": ["أنت"], "انتي": ["أنت"]})
+
+# Slovak verbs in ne- that are words of their own, not a verb negated: "hate", "can't stand".
+SLOVAK_NEGATIVE_VERBS = {"nenávidieť", "neznášať"}

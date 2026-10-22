@@ -108,6 +108,8 @@ SOURCE_ORDER = {"ko": ["frequencywords", "leipzig"]}
 # Romanian is counted from web text and subtitles alone, as its list was first: Wikipedia's adds the words of its
 # own pages ("licențiere", "demografie") to the first thousand.
 SOURCE_ORDER["ro"] = ["wordfreq", "frequencywords"]
+# So is Slovak, whose courses were written against that list.
+SOURCE_ORDER["sk"] = ["wordfreq", "frequencywords"]
 # Languages whose sources are all blended, however many forms the first has.
 BLEND = {"ko"}
 
@@ -139,7 +141,7 @@ SIMPLEMMA_CODES = {"hr": "hbs", "sr": "hbs", "no": "nb"}
 WORD_POS = {"noun", "adj", "verb", "adv", "pron", "prep", "num", "conj", "det", "article", "intj", "contraction", "particle", "adnominal"}
 
 # Per-language corrections, reviewed by hand.
-from frequency_fixes import ARABIC_CUT, ARABIC_WHOLE, DISPLAY, EXCLUDE, KOREAN_APART, KOREAN_CUT, KOREAN_STEMS, KOREAN_WHOLE, OVERRIDES  # noqa: E402
+from frequency_fixes import ARABIC_CUT, ARABIC_WHOLE, DISPLAY, EXCLUDE, KOREAN_APART, KOREAN_CUT, KOREAN_STEMS, KOREAN_WHOLE, OVERRIDES, SLOVAK_NEGATIVE_VERBS  # noqa: E402
 
 # How common another word must be, against the form itself, to take a form that is also a word:
 # a more common word ("era" to "ser"), or a less common one of a kind that inflects for
@@ -1903,8 +1905,26 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
         key = lower(language, lemma)
         if (lemma != key and language not in CAPITALISED_NOUNS) or (key in pos and key not in common) or key in excluded:
             return None
+        # simplemma gives a negated Slovak verb as a word of its own (neurobil of neurobiť).
+        if language == "sk" and slovak_positive(key):
+            return slovak_positive(key)
         guessed.setdefault(key, lemma)
         return key
+
+    def slovak_positive(word):
+        """
+        The verb a negated Slovak verb (neurobiť, netrápiť) is the form of, as the dictionary or simplemma knows the verb,
+        or None: for other words, and for the verbs that mean more than "not" (nenávidieť, neznášať).
+        """
+        positive = word[2:]
+        if not word.startswith("ne") or not word.endswith("ť") or word in SLOVAK_NEGATIVE_VERBS or positive in excluded:
+            return None
+        if "verb" in pos.get(positive, set()) and positive in common:
+            return positive
+        if not pos.get(positive) and lemmatizer and lemmatizer.is_known(positive) and lemmatizer.lemmatize(positive) == positive:
+            guessed.setdefault(positive, positive)
+            return positive
+        return None
 
     reu = {}
 
@@ -2075,6 +2095,8 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
             return {form: 1.0}
         elif language == "ar" and form in ARABIC_CLITICS:
             return {form: 1.0}
+        elif language == "sk" and "verb" in pos.get(form, set()) and slovak_positive(form):
+            return {slovak_positive(form): 1.0}
         elif language == "ko" and KOREAN_GLOSSED.get(form) and is_word(KOREAN_GLOSSED[form]):
             # A form the pack has as a word (화려한, 먹기, 아빤) is the word it is the form of.
             return {KOREAN_GLOSSED[form]: 1.0}
