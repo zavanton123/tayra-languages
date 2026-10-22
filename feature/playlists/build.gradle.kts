@@ -4,6 +4,10 @@ plugins {
 
 kotlin {
     sourceSets {
+        androidMain.dependencies {
+            implementation(libs.androidx.media3.session)
+            implementation(libs.androidx.activity.compose)
+        }
         jvmTest.dependencies {
             implementation(projects.core.data)
             implementation(libs.multiplatform.settings)
