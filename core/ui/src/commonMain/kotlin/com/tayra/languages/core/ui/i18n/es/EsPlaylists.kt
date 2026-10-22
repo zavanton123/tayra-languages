@@ -92,6 +92,7 @@ internal val esPlaylists: Map<String, String> = mapOf(
     "Create new playlist" to "Crear nueva lista de reproducción",
     "Added to {0}" to "Añadido a «{0}»",
     "Open the player" to "Abrir el reproductor",
+    "Close player" to "Cerrar el reproductor",
     "Shuffle on" to "Aleatorio activado",
     "Shuffle off" to "Aleatorio desactivado",
     "Repeat off" to "Repetición desactivada",

@@ -92,6 +92,7 @@ internal val zhPlaylists: Map<String, String> = mapOf(
     "Create new playlist" to "创建新播放列表",
     "Added to {0}" to "已添加到“{0}”",
     "Open the player" to "打开播放器",
+    "Close player" to "关闭播放器",
     "Shuffle on" to "随机播放：开",
     "Shuffle off" to "随机播放：关",
     "Repeat off" to "重复播放：关",

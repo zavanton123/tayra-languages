@@ -37,6 +37,7 @@ import com.tayra.languages.core.ui.components.AppDivider
 import com.tayra.languages.core.ui.components.AppIconButton
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppSlider
+import com.tayra.languages.core.ui.components.AppTooltip
 import com.tayra.languages.core.ui.components.BarSurface
 import com.tayra.languages.core.ui.components.IconButtonSize
 import com.tayra.languages.core.ui.components.IconButtonStyle
@@ -58,8 +59,9 @@ import org.koin.compose.viewmodel.koinViewModel
 /**
  * The bar the app shows while a playlist is loaded, whatever screen is open: the text and the
  * playlist, the controls, the place in the text and the speed, with a way back to the text in the
- * reader. A phone shows a small one with play and next, which opens the player; [onPlayerScreen]
- * leaves it out there, as the player screen has the controls itself.
+ * reader, and a close button at its end that stops the player until a playlist is played again.
+ * A phone shows a small one with play and next, which opens the player; [onPlayerScreen] leaves it
+ * out there, as the player screen has the controls itself.
  */
 @Composable
 fun PlayerBar(onNavigate: (Route) -> Unit, onPlayerScreen: Boolean, viewModel: PlayerViewModel = koinViewModel()) {
@@ -100,6 +102,7 @@ private fun MiniBar(state: PlayerUiState, viewModel: PlayerViewModel, onOpen: ()
         NowPlayingTitle(state, Modifier.weight(1f).testTag("open-player"), onOpen)
         PlayPauseButton(state, viewModel, IconButtonSize.Regular)
         AppIconButton(AppIcons.SkipNext, contentDescription = tr("Next text"), onClick = viewModel.player::next, enabled = p.hasNext)
+        CloseButton(viewModel)
     }
 }
 
@@ -111,7 +114,17 @@ private fun WideBar(state: PlayerUiState, viewModel: PlayerViewModel, onNavigate
             NowPlayingTitle(state, Modifier.weight(1f), onOpen = if (onPlayerScreen) null else { { onNavigate(Route.Player) } })
             PlayerControls(state, viewModel, Modifier.weight(2.2f), wide = true)
             if (!onPlayerScreen) AppIconButton(AppIcons.QueueMusic, contentDescription = tr("Open the player"), onClick = { onNavigate(Route.Player) }, style = IconButtonStyle.Outlined, modifier = Modifier.testTag("open-player"))
+            CloseButton(viewModel)
         }
+    }
+}
+
+/** Stops the player, keeping where listening got to; the bar, and the system's controls, go with it. */
+@Composable
+private fun CloseButton(viewModel: PlayerViewModel) {
+    val label = tr("Close player")
+    AppTooltip(label) {
+        AppIconButton(Icons.Default.Close, contentDescription = label, onClick = viewModel.player::stop, style = IconButtonStyle.Outlined, shape = AppShapes.circle, modifier = Modifier.testTag("close-player"))
     }
 }
 

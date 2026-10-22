@@ -9,6 +9,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.test.ExperimentalTestApi
+import androidx.compose.ui.test.hasTestTag
 import androidx.compose.ui.test.hasText
 import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.onNodeWithText
@@ -145,6 +146,38 @@ class PlayerScreensTest {
         onNodeWithTag("open-player").performClick()
         assertEquals(listOf<Route>(Route.Player), visited)
     }
+
+    /** The bar alone at the foot of a window [width] wide, until its close button stops the player. */
+    private fun closingTheBar(width: Int, name: String) = runDesktopComposeUiTest(width = width, height = 300) {
+        val id = playing()
+        until { data.output.done != null }
+        data.output.finish()
+        until { data.player.state.value.sentence == 1 && data.output.done != null }
+        val viewModel = viewModel()
+        host(data) {
+            Column(Modifier.fillMaxSize()) {
+                Box(Modifier.weight(1f))
+                PlayerBar(onNavigate = {}, onPlayerScreen = false, viewModel = viewModel)
+            }
+        }
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Morning Portuguese")).fetchSemanticsNodes().isNotEmpty() }
+        screenshot(name)
+        onNodeWithTag("close-player").performClick()
+        until { data.player.state.value.status == PlayerStatus.IDLE }
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasTestTag("player-bar")).fetchSemanticsNodes().isEmpty() }
+        // Stopped where it was, to go on from there when the playlist is played again.
+        val position = runBlocking { data.service.playlist(id)!!.position }
+        assertEquals(1, position?.sentence)
+        data.player.play(id)
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasTestTag("player-bar")).fetchSemanticsNodes().isNotEmpty() }
+        until { data.player.state.value.sentence == 1 && data.player.state.value.status == PlayerStatus.PLAYING }
+    }
+
+    @Test
+    fun theWideBarClosesThePlayerKeepingItsPlace() = closingTheBar(width = 1586, name = "player-bar-close")
+
+    @Test
+    fun thePhoneBarClosesThePlayerKeepingItsPlace() = closingTheBar(width = 400, name = "player-bar-close-phone")
 
     @Test
     fun aTextWithoutAVoiceOffersADownloadTheSystemVoiceOrASkip() = runDesktopComposeUiTest(width = 1586, height = 1000) {

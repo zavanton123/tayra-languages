@@ -92,6 +92,7 @@ internal val ptPlaylists: Map<String, String> = mapOf(
     "Create new playlist" to "Criar nova playlist",
     "Added to {0}" to "Adicionado a “{0}”",
     "Open the player" to "Abrir o player",
+    "Close player" to "Fechar o player",
     "Shuffle on" to "Aleatório ativado",
     "Shuffle off" to "Aleatório desativado",
     "Repeat off" to "Repetição desativada",

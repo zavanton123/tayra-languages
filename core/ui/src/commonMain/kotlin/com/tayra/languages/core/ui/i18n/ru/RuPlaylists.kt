@@ -92,6 +92,7 @@ internal val ruPlaylists: Map<String, String> = mapOf(
     "Create new playlist" to "Создать новый плейлист",
     "Added to {0}" to "Добавлено в «{0}»",
     "Open the player" to "Открыть плеер",
+    "Close player" to "Закрыть плеер",
     "Shuffle on" to "Перемешивание включено",
     "Shuffle off" to "Перемешивание выключено",
     "Repeat off" to "Повтор выключен",
