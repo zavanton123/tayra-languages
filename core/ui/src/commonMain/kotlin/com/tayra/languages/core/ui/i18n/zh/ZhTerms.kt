@@ -306,6 +306,9 @@ internal val zhTerms: Map<String, String> = mapOf(
     "My courses" to "我的课程",
     "Try my courses" to "试试我的课程",
     "From your courses" to "来自你的课程",
+    "Tatoeba isn't responding right now." to "Tatoeba 暂时没有响应。",
+    "The Leipzig Corpora Collection isn't responding right now." to "Leipzig Corpora Collection 暂时没有响应。",
+    "Your courses could not be read." to "无法读取你的课程。",
 
     // ExamplesSearchViewModel.kt
     "Language not found" to "未找到该语言",

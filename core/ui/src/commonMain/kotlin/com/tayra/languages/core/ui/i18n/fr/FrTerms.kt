@@ -306,6 +306,9 @@ internal val frTerms: Map<String, String> = mapOf(
     "My courses" to "Mes cours",
     "Try my courses" to "Essayer mes cours",
     "From your courses" to "Tiré de vos cours",
+    "Tatoeba isn't responding right now." to "Tatoeba ne répond pas pour le moment.",
+    "The Leipzig Corpora Collection isn't responding right now." to "La Leipzig Corpora Collection ne répond pas pour le moment.",
+    "Your courses could not be read." to "Impossible de lire vos cours.",
 
     // ExamplesSearchViewModel.kt
     "Language not found" to "Langue introuvable",

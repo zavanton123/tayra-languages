@@ -306,6 +306,9 @@ internal val ptTerms: Map<String, String> = mapOf(
     "My courses" to "Meus cursos",
     "Try my courses" to "Experimentar meus cursos",
     "From your courses" to "Dos seus cursos",
+    "Tatoeba isn't responding right now." to "O Tatoeba não está respondendo no momento.",
+    "The Leipzig Corpora Collection isn't responding right now." to "A Leipzig Corpora Collection não está respondendo no momento.",
+    "Your courses could not be read." to "Não foi possível ler os seus cursos.",
 
     // ExamplesSearchViewModel.kt
     "Language not found" to "Idioma não encontrado",

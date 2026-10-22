@@ -306,6 +306,9 @@ internal val ruTerms: Map<String, String> = mapOf(
     "My courses" to "Мои курсы",
     "Try my courses" to "Искать в моих курсах",
     "From your courses" to "Из ваших курсов",
+    "Tatoeba isn't responding right now." to "Tatoeba сейчас не отвечает.",
+    "The Leipzig Corpora Collection isn't responding right now." to "Leipzig Corpora Collection сейчас не отвечает.",
+    "Your courses could not be read." to "Не удалось прочитать ваши курсы.",
 
     // ExamplesSearchViewModel.kt
     "Language not found" to "Язык не найден",

@@ -306,6 +306,9 @@ internal val deTerms: Map<String, String> = mapOf(
     "My courses" to "Meine Kurse",
     "Try my courses" to "Meine Kurse versuchen",
     "From your courses" to "Aus deinen Kursen",
+    "Tatoeba isn't responding right now." to "Tatoeba antwortet gerade nicht.",
+    "The Leipzig Corpora Collection isn't responding right now." to "Die Leipzig Corpora Collection antwortet gerade nicht.",
+    "Your courses could not be read." to "Deine Kurse konnten nicht gelesen werden.",
 
     // ExamplesSearchViewModel.kt
     "Language not found" to "Sprache nicht gefunden",

@@ -306,6 +306,9 @@ internal val esTerms: Map<String, String> = mapOf(
     "My courses" to "Mis cursos",
     "Try my courses" to "Probar mis cursos",
     "From your courses" to "De tus cursos",
+    "Tatoeba isn't responding right now." to "Tatoeba no responde en este momento.",
+    "The Leipzig Corpora Collection isn't responding right now." to "La Leipzig Corpora Collection no responde en este momento.",
+    "Your courses could not be read." to "No se pudieron leer tus cursos.",
 
     // ExamplesSearchViewModel.kt
     "Language not found" to "Idioma no encontrado",

@@ -306,6 +306,9 @@ internal val elTerms: Map<String, String> = mapOf(
     "My courses" to "Τα μαθήματά μου",
     "Try my courses" to "Δοκιμάστε τα μαθήματά μου",
     "From your courses" to "Από τα μαθήματά σας",
+    "Tatoeba isn't responding right now." to "Το Tatoeba δεν αποκρίνεται αυτή τη στιγμή.",
+    "The Leipzig Corpora Collection isn't responding right now." to "Το Leipzig Corpora Collection δεν αποκρίνεται αυτή τη στιγμή.",
+    "Your courses could not be read." to "Δεν ήταν δυνατή η ανάγνωση των μαθημάτων σας.",
 
     // ExamplesSearchViewModel.kt
     "Language not found" to "Η γλώσσα δεν βρέθηκε",

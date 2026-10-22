@@ -306,6 +306,9 @@ internal val plTerms: Map<String, String> = mapOf(
     "My courses" to "Moje kursy",
     "Try my courses" to "Spróbuj moich kursów",
     "From your courses" to "Z twoich kursów",
+    "Tatoeba isn't responding right now." to "Tatoeba w tej chwili nie odpowiada.",
+    "The Leipzig Corpora Collection isn't responding right now." to "Leipzig Corpora Collection w tej chwili nie odpowiada.",
+    "Your courses could not be read." to "Nie udało się odczytać twoich kursów.",
 
     // ExamplesSearchViewModel.kt
     "Language not found" to "Nie znaleziono języka",
