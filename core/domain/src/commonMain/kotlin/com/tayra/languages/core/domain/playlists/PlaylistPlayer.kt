@@ -298,8 +298,8 @@ class PlaylistPlayer(
 
     fun setRepeat(mode: RepeatMode) = command { _state.update { it.copy(repeat = mode) } }
 
-    /** The speed of speech, 1 for normal; it is the speech settings' speed, so the reader's sentences change with it. */
-    fun setSpeed(speed: Float) = command { settings.update { it.copy(speechSpeed = speed) } }
+    /** The speed of speech, 1 for normal; the player's own, remembered apart from the reader's. */
+    fun setSpeed(speed: Float) = command { settings.update { it.copy(playlistSpeed = speed) } }
 
     /** Passes over the text that cannot be played, to the next one. */
     fun skip() = command {
@@ -515,9 +515,10 @@ class PlaylistPlayer(
         val code = _state.value.languageCode
         val token = ++request
         val engine = engineInUse()
+        val speed = settings.current.playlistSpeed
         val wav = if (engine != null && code != null) {
             if (_state.value.status != PlayerStatus.PLAYING) _state.update { it.copy(status = PlayerStatus.LOADING) }
-            audio.audioFor(text, code)
+            audio.audioFor(text, code, speed)
         } else {
             null
         }
@@ -526,13 +527,13 @@ class PlaylistPlayer(
         val done = CompletableDeferred<Unit>()
         try {
             if (wav != null) {
-                wavSeconds(wav)?.let { time.record(code!!, text.length, it, settings.current.speechSpeed) }
+                wavSeconds(wav)?.let { time.record(code!!, text.length, it, speed) }
                 output.play(wav) { done.complete(Unit) }
             } else {
                 // A local voice that failed on this sentence leaves it to the system voice, as the reader does.
                 val spoken = SpokenNumbers.normalize(text, code)
                 val onWord: (IntRange) -> Unit = if (spoken == text) { range -> scope.launch { if (request == token) _state.update { it.copy(word = range) } } } else { _ -> }
-                output.speak(spoken, code, settings.current.speechSpeed, onWord) { done.complete(Unit) }
+                output.speak(spoken, code, speed, onWord) { done.complete(Unit) }
             }
             done.await()
         } catch (e: CancellationException) {
@@ -557,7 +558,7 @@ class PlaylistPlayer(
                     if (nextItem != null) ahead += sentencesOf(nextItem.bookId, 1).take(LOOK_AHEAD - ahead.size)
                 }
             }
-            for (sentence in ahead) audio.audioFor(sentence, code)
+            for (sentence in ahead) audio.audioFor(sentence, code, settings.current.playlistSpeed)
         }
     }
 

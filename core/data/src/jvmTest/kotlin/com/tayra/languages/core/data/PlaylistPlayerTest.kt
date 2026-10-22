@@ -96,6 +96,7 @@ class PlaylistPlayerTest {
     private class FakePiper : LocalSpeechEngine {
         val made: MutableList<String> = Collections.synchronizedList(mutableListOf())
         @Volatile var installed = true
+        @Volatile var speed = 0f
         override val engine = SpeechEngine.PIPER
         override val displayName = "Piper"
         override val description = ""
@@ -111,6 +112,7 @@ class PlaylistPlayerTest {
         override suspend fun voices(languageCode: String) = if (installed && languageCode == "pt") listOf(SpeechVoice("pt", "Faber", "pt")) else emptyList()
         override suspend fun synthesize(text: String, languageCode: String, voiceId: String?, speed: Float): ByteArray? {
             made += text
+            this.speed = speed
             return "RIFF|$text".encodeToByteArray()
         }
     }
@@ -205,9 +207,10 @@ class PlaylistPlayerTest {
     @Test
     fun aLocalVoiceSynthesizesTheNextSentencesWhileOnePlays() {
         val setup = setUp()
-        runBlocking { settings.update { it.copy(speechEngine = SpeechEngine.PIPER, speechSpeed = 1.5f) } }
+        runBlocking { settings.update { it.copy(speechEngine = SpeechEngine.PIPER, playlistSpeed = 1.5f) } }
         player.play(setup.playlist)
         hear("wav:Um dois.")
+        assertEquals(1.5f, piper.speed, "the clips are made at the player's speed")
         // While the first played, the rest of the page and the next page were made ready.
         until("the sentences ahead") { piper.made.containsAll(listOf("Um dois.", "Dois três.", "Três quatro.")) }
         hear("wav:Dois três.")
@@ -245,7 +248,25 @@ class PlaylistPlayerTest {
 
         player.setSpeed(1.25f)
         hear("Cinco seis.")
-        assertEquals(1.25f, settings.current.speechSpeed)
+        assertEquals(1.25f, settings.current.playlistSpeed)
+    }
+
+    @Test
+    fun thePlayersSpeedIsItsOwnAndTheReadersStaysAsItWas() {
+        val setup = setUp()
+        runBlocking { settings.update { it.copy(speechSpeed = 0.8f) } }
+        player.setSpeed(1.25f)
+        until("the player's speed") { settings.current.playlistSpeed == 1.25f }
+        assertEquals(0.8f, settings.current.speechSpeed, "the reader's read-aloud keeps its speed")
+        player.play(setup.playlist)
+        until("the first sentence") { output.heard.lastOrNull() == "Um dois." }
+        assertEquals(1.25f, output.rate, "the system voice speaks at the player's speed")
+
+        // The reader's speed changed, the player's is not.
+        runBlocking { settings.update { it.copy(speechSpeed = 1.5f) } }
+        output.finish()
+        until("the next sentence") { output.heard.lastOrNull() == "Dois três." }
+        assertEquals(1.25f, output.rate)
     }
 
     @Test

@@ -10,8 +10,8 @@ import kotlin.time.Duration
 import kotlin.time.Duration.Companion.milliseconds
 
 /**
- * How long texts take to hear: their characters at a voice's pace, at the speed chosen in the
- * settings. The pace starts as a guess for the script and turns into what the voices were heard to
+ * How long texts take to hear: their characters at a voice's pace, at the playlist player's
+ * speed. The pace starts as a guess for the script and turns into what the voices were heard to
  * take once sentences have been synthesized in the language.
  */
 class ListeningTime(private val settings: SettingsRepository) {
@@ -30,9 +30,9 @@ class ListeningTime(private val settings: SettingsRepository) {
         return measured?.let { it.characters / it.seconds } ?: guessedPace(languageCode)
     }
 
-    /** How long [characters] of the language take at the speed chosen. */
+    /** How long [characters] of the language take at the player's speed. */
     fun duration(characters: Int, languageCode: String?): Duration {
-        val speed = settings.current.speechSpeed.takeIf { it > 0f } ?: 1f
+        val speed = settings.current.playlistSpeed.takeIf { it > 0f } ?: 1f
         return (characters / (pace(languageCode) * speed) * 1000).roundToLong().milliseconds
     }
 

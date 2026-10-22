@@ -79,7 +79,7 @@ class PlaylistsViewModel(
     private val choices = MutableStateFlow(Choices())
 
     @OptIn(ExperimentalCoroutinesApi::class)
-    private val playlists = combine(settings.settings.map { it.currentLanguageId to it.speechSpeed }.distinctUntilChanged(), time.changes) { language, _ -> language.first }
+    private val playlists = combine(settings.settings.map { it.currentLanguageId to it.playlistSpeed }.distinctUntilChanged(), time.changes) { language, _ -> language.first }
         .flatMapLatest { id ->
             val name = languages.getById(id)?.name.orEmpty()
             val code = service.languageCode(id)
@@ -142,7 +142,7 @@ class PlaylistDetailViewModel(
     val state: StateFlow<PlaylistDetailUiState> = combine(
         service.observePlaylist(playlistId),
         player.state,
-        combine(time.changes, settings.settings.map { it.speechSpeed }.distinctUntilChanged()) { _, _ -> },
+        combine(time.changes, settings.settings.map { it.playlistSpeed }.distinctUntilChanged()) { _, _ -> },
         error,
     ) { playlist, playing, _, error ->
         val code = playlist?.let { service.languageCode(it.languageId) }

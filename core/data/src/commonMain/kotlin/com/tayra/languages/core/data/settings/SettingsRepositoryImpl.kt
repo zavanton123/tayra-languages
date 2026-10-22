@@ -70,6 +70,7 @@ class SettingsRepositoryImpl(
 
     private fun read(store: Settings, googleTranslateApiKey: String): UserSettings {
         val defaults = UserSettings()
+        val speechSpeed = store.getFloat(Keys.SPEECH_SPEED, defaults.speechSpeed)
         return UserSettings(
             currentLanguageId = store.getLong(Keys.CURRENT_LANGUAGE, defaults.currentLanguageId),
             themeId = store.getString(Keys.THEME, defaults.themeId),
@@ -95,7 +96,9 @@ class SettingsRepositoryImpl(
             autoPause = store.getBoolean(Keys.AUTO_PAUSE, defaults.autoPause),
             speechEngine = SpeechEngine.entries.firstOrNull { it.name == store.getString(Keys.SPEECH_ENGINE, "") } ?: defaults.speechEngine,
             speechVoices = store.getString(Keys.SPEECH_VOICES, "").split('\n').mapNotNull { line -> line.split('\t').takeIf { it.size == 2 }?.let { it[0] to it[1] } }.toMap(),
-            speechSpeed = store.getFloat(Keys.SPEECH_SPEED, defaults.speechSpeed),
+            speechSpeed = speechSpeed,
+            // Until it is first chosen, the playlist player plays at the reader's speed.
+            playlistSpeed = store.getFloat(Keys.PLAYLIST_SPEED, speechSpeed),
             tutorialBooksAdded = store.getBoolean(Keys.TUTORIAL_BOOKS, defaults.tutorialBooksAdded),
             nativeLanguage = LanguageCatalog.nativeOption(
                 store.getStringOrNull(Keys.NATIVE_LANGUAGE) ?: store.getString(Keys.LEGACY_TRANSLATION_TARGET, defaults.nativeLanguage),
@@ -200,6 +203,7 @@ class SettingsRepositoryImpl(
         store.putString(Keys.SPEECH_ENGINE, s.speechEngine.name)
         store.putString(Keys.SPEECH_VOICES, s.speechVoices.entries.joinToString("\n") { "${it.key}\t${it.value}" })
         store.putFloat(Keys.SPEECH_SPEED, s.speechSpeed)
+        store.putFloat(Keys.PLAYLIST_SPEED, s.playlistSpeed)
         store.putBoolean(Keys.TUTORIAL_BOOKS, s.tutorialBooksAdded)
         store.putString(Keys.NATIVE_LANGUAGE, s.nativeLanguage)
         store.putString(Keys.UI_LANGUAGE, s.uiLanguage)
@@ -262,6 +266,7 @@ class SettingsRepositoryImpl(
         const val SPEECH_ENGINE = "speech_engine"
         const val SPEECH_VOICES = "speech_voices"
         const val SPEECH_SPEED = "speech_speed"
+        const val PLAYLIST_SPEED = "playlist_speed"
         const val SHOW_TRANSLATIONS = "reading_show_translations"
         const val PRACTICE_TRANSLATION = "reading_practice_translation"
         const val TRANSLATION_ENGINE = "translation_engine"

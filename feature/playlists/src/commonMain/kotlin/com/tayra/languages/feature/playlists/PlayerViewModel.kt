@@ -59,7 +59,7 @@ class PlayerViewModel(
     val state: StateFlow<PlayerUiState> = combine(
         player.state,
         translations,
-        combine(time.changes, settings.settings.map { it.speechSpeed }.distinctUntilChanged()) { _, speed -> speed },
+        combine(time.changes, settings.settings.map { it.playlistSpeed }.distinctUntilChanged()) { _, speed -> speed },
     ) { p, known, speed ->
         val code = p.languageCode
         val playlist = p.playlist

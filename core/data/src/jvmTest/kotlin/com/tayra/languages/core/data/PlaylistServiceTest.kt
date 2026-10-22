@@ -155,12 +155,28 @@ class PlaylistServiceTest {
     }
 
     @Test
+    fun thePlayersSpeedStartsAtTheReadersAndIsKeptApartFromIt() = runTest {
+        // Settings saved before the player had a speed of its own: it starts at the reader's.
+        val store = MapSettings("speech_speed" to 1.25f)
+        val before = SettingsRepositoryImpl(store)
+        assertEquals(1.25f, before.current.playlistSpeed)
+        before.update { it.copy(playlistSpeed = 1.5f) }
+        before.update { it.copy(speechSpeed = 0.9f) }
+        val after = SettingsRepositoryImpl(store)
+        assertEquals(1.5f, after.current.playlistSpeed)
+        assertEquals(0.9f, after.current.speechSpeed)
+        assertEquals(1f, SettingsRepositoryImpl(MapSettings()).current.playlistSpeed, "the default without either")
+    }
+
+    @Test
     fun listeningTimeIsGuessedFromTheTextAndThenFromWhatWasHeard() = runTest {
         val language = portuguese()
         // 140 characters at the guessed 14 a second.
         assertEquals(10.seconds, service.duration(140, "pt"))
-        settings.update { it.copy(speechSpeed = 2f) }
+        settings.update { it.copy(playlistSpeed = 2f) }
         assertEquals(5.seconds, service.duration(140, "pt"))
+        settings.update { it.copy(speechSpeed = 0.5f) }
+        assertEquals(5.seconds, service.duration(140, "pt"), "the reader's speed is not the player's")
         assertEquals(14.seconds, service.duration(140, "ja"), "a script of syllables and words is said more slowly")
 
         // Heard: 300 characters took 30 s at double speed, so 5 a second at normal speed.
