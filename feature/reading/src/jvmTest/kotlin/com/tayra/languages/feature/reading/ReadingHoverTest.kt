@@ -67,6 +67,7 @@ import com.tayra.languages.feature.terms.form.TermFormViewModel
 import com.tayra.languages.feature.terms.form.TermFormKey
 import androidx.compose.ui.test.click
 import androidx.compose.ui.test.assertTextContains
+import androidx.compose.ui.test.assertTextEquals
 import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.onAllNodesWithTag
 import androidx.compose.ui.test.captureToImage
@@ -230,15 +231,16 @@ class ReadingHoverTest {
         startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }) }
         var home = false
         rule.setContent { ReadingScreen(bookId = 1, initialPage = null, onNavigate = {}, onHome = { home = true }, viewModel = vm) }
-        rule.waitUntil(5_000) { rule.onAllNodesWithText("Mark remaining words as known").fetchSemanticsNodes().isNotEmpty() }
-        rule.onNodeWithText("Mark remaining words as known").performScrollTo().assertTextContains("5")
+        rule.waitUntil(5_000) { rule.onAllNodesWithContentDescription("Mark remaining words as known").fetchSemanticsNodes().isNotEmpty() }
+        rule.onNodeWithContentDescription("Mark remaining words as known").performScrollTo()
+        rule.onNodeWithTag("footer-badge", useUnmergedTree = true).assertTextEquals("5")
         System.getenv("READING_FOOTER_SCREENSHOT")?.let { path ->
             rule.waitForIdle()
             javax.imageio.ImageIO.write(rule.onAllNodes(androidx.compose.ui.test.isRoot())[0].captureToImage().toAwtImage(), "png", File(path))
         }
 
-        rule.onNodeWithText("Mark remaining words as known").performClick()
-        rule.waitUntil(5_000) { rule.onAllNodesWithText("Mark remaining words as known").fetchSemanticsNodes().isEmpty() }
+        rule.onNodeWithContentDescription("Mark remaining words as known").performClick()
+        rule.waitUntil(5_000) { rule.onAllNodesWithContentDescription("Mark remaining words as known").fetchSemanticsNodes().isEmpty() }
         rule.waitUntil(5_000) { rule.onAllNodesWithText("5 words marked as known").fetchSemanticsNodes().isNotEmpty() }
         System.getenv("READING_TOAST_SCREENSHOT")?.let { path ->
             rule.waitForIdle()
@@ -247,7 +249,7 @@ class ReadingHoverTest {
         assertEquals(TermStatus.WELL_KNOWN, runBlocking { termRepository.findByTextLc(languageId, "lobo") }?.status)
         rule.waitUntil(8_000) { rule.onAllNodesWithText("5 words marked as known").fetchSemanticsNodes().isEmpty() }
 
-        rule.onNodeWithText("Finish book").performScrollTo().performClick()
+        rule.onNodeWithContentDescription("Finish book").performScrollTo().performClick()
         rule.waitUntil(5_000) { home }
     }
 
@@ -260,7 +262,8 @@ class ReadingHoverTest {
         val count = vm.state.value.pageCount
         assertTrue(count > 2, "the book should have several pages")
         rule.waitUntil(5_000) { rule.onAllNodesWithText("1  of $count").fetchSemanticsNodes().isNotEmpty() }
-        rule.onNodeWithContentDescription("Next page").performClick()
+        // The toolbar's arrow, before the footer's button.
+        rule.onAllNodesWithContentDescription("Next page")[0].performClick()
         rule.waitUntil(5_000) { rule.onAllNodesWithText("2  of $count").fetchSemanticsNodes().isNotEmpty() }
         assertEquals(2, vm.state.value.pageNumber)
         System.getenv("PAGE_PROGRESS_SCREENSHOT")?.let { path ->
@@ -305,20 +308,19 @@ class ReadingHoverTest {
         var back = 0
         val courses = mutableListOf<String>()
         rule.setContent { ReadingScreen(bookId = 1, initialPage = null, onNavigate = { visited += it }, onHome = { back++ }, onCourse = { courses += it }, viewModel = vm) }
-        rule.waitUntil(5_000) { rule.onAllNodesWithText("Finish lesson").fetchSemanticsNodes().isNotEmpty() }
+        rule.waitUntil(5_000) { rule.onAllNodesWithContentDescription("Finish lesson").fetchSemanticsNodes().isNotEmpty() }
         System.getenv("LESSON_SCREENSHOT")?.let { path ->
             rule.waitForIdle()
             javax.imageio.ImageIO.write(rule.onAllNodes(androidx.compose.ui.test.isRoot())[0].captureToImage().toAwtImage(), "png", File(path))
         }
-        for (gone in listOf("Back to library", "Finish book")) {
-            assertTrue(rule.onAllNodesWithText(gone).fetchSemanticsNodes().isEmpty(), "$gone is not shown in a lesson")
-        }
+        assertTrue(rule.onAllNodesWithText("Back to library").fetchSemanticsNodes().isEmpty(), "Back to library is not shown in a lesson")
+        assertTrue(rule.onAllNodesWithContentDescription("Finish book").fetchSemanticsNodes().isEmpty(), "Finish book is not shown in a lesson")
         // Every way out of a lesson leads to its course, never to the library.
         rule.onNodeWithText(course.title).performClick()
         rule.waitUntil(5_000) { courses.size == 1 }
         rule.onNodeWithText("Back to course").performScrollTo().performClick()
         rule.waitUntil(5_000) { courses.size == 2 }
-        rule.onNodeWithText("Finish lesson").performScrollTo().performClick()
+        rule.onNodeWithContentDescription("Finish lesson").performScrollTo().performClick()
         rule.waitUntil(5_000) { courses.size == 3 }
         assertEquals(List(3) { course.id }, courses)
         assertEquals(0, back, "a lesson never leaves for the library")
@@ -516,11 +518,11 @@ class ReadingHoverTest {
         val visited = mutableListOf<com.tayra.languages.core.ui.navigation.Route>()
         rule.setContent { ReadingScreen(bookId = 1, initialPage = null, onNavigate = { visited += it }, onHome = {}, viewModel = vm) }
         rule.waitUntil(5_000) { rule.onAllNodesWithText("lobo dorme", substring = true).fetchSemanticsNodes().isNotEmpty() }
-        assertTrue(rule.onAllNodesWithText("Practise this page").fetchSemanticsNodes().isEmpty(), "every word is still unknown")
+        assertTrue(rule.onAllNodesWithContentDescription("Practise this page").fetchSemanticsNodes().isEmpty(), "every word is still unknown")
 
         vm.markToLearn(vm.index("lobo"))
-        rule.waitUntil(5_000) { rule.onAllNodesWithText("Practise this page").fetchSemanticsNodes().isNotEmpty() }
-        rule.onNodeWithText("Practise this page").performScrollTo().performClick()
+        rule.waitUntil(5_000) { rule.onAllNodesWithContentDescription("Practise this page").fetchSemanticsNodes().isNotEmpty() }
+        rule.onNodeWithContentDescription("Practise this page").performScrollTo().performClick()
         rule.waitUntil(5_000) { visited.isNotEmpty() }
         assertEquals(listOf<com.tayra.languages.core.ui.navigation.Route>(com.tayra.languages.core.ui.navigation.Route.Practice(1, 1)), visited)
     }
@@ -542,7 +544,7 @@ class ReadingHoverTest {
         rule.waitUntil(5_000) { vm.state.value.isLastPage && vm.state.value.pageNumber > 1 && vm.state.value.items.any { it.isWord } }
         vm.markToLearn(vm.index("floresta"))
         rule.waitUntil(5_000) { rule.onAllNodesWithTag("practice-all").fetchSemanticsNodes().isNotEmpty() }
-        rule.onNodeWithText("Practise the book's words").performScrollTo().performClick()
+        rule.onNodeWithContentDescription("Practise the book's words").performScrollTo().performClick()
         // Both pages' words: lobo, and floresta from this one.
         rule.waitUntil(5_000) { rule.onAllNodesWithText("Practise 2 words").fetchSemanticsNodes().isNotEmpty() }
         rule.onNodeWithTag("practice-kind-GAP_TYPED").performClick()

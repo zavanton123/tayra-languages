@@ -39,6 +39,7 @@ import androidx.compose.material.icons.automirrored.filled.ArrowForward
 import androidx.compose.material.icons.automirrored.filled.KeyboardArrowLeft
 import androidx.compose.material.icons.automirrored.filled.KeyboardArrowRight
 import androidx.compose.material.icons.automirrored.filled.List
+import androidx.compose.material.icons.filled.Check
 import androidx.compose.material.icons.filled.Close
 import androidx.compose.material.icons.filled.Home
 import androidx.compose.material.icons.filled.Info
@@ -102,6 +103,9 @@ import androidx.compose.ui.platform.LocalUriHandler
 import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.text.style.TextDirection
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.graphics.lerp
+import androidx.compose.foundation.layout.offset
+import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.unit.Constraints
 import androidx.compose.ui.layout.Layout
 import androidx.compose.ui.geometry.Offset
@@ -133,13 +137,14 @@ import com.tayra.languages.core.ui.components.AppDivider
 import com.tayra.languages.core.ui.components.AppIconButton
 import com.tayra.languages.core.ui.components.AppSwitch
 import com.tayra.languages.core.ui.components.BarSurface
-import com.tayra.languages.core.ui.components.ButtonSize
 import com.tayra.languages.core.ui.components.LinkText
 import com.tayra.languages.core.ui.components.Notice
 import com.tayra.languages.core.ui.components.PopupCard
 import com.tayra.languages.core.ui.components.AppBottomSheet
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppTooltip
+import com.tayra.languages.core.ui.components.BadgeEmphasis
+import com.tayra.languages.core.ui.components.CountBadge
 import com.tayra.languages.core.ui.components.AppMenu
 import com.tayra.languages.core.ui.components.AppMenuItem
 import com.tayra.languages.core.ui.components.AppTopBar
@@ -752,6 +757,9 @@ private fun ReadingBody(
 /** The small round buttons beside the play button share one size. */
 private val CONTROL_SIZE = 40.dp
 private val PLAY_CONTROL_SIZE = 60.dp
+private val FOOTER_CONTROL_SIZE = 52.dp
+/** How much of the well-known green the mark-known circle takes, over the surface. */
+private const val KNOWN_CIRCLE_TINT = 0.6f
 
 /** Room under the text, so the floating play controls do not cover its end. */
 private val CONTROLS_ROOM = 120.dp
@@ -972,40 +980,48 @@ private fun ReadingFooter(state: ReadingUiState, viewModel: ReadingViewModel, on
         val strip = Modifier.bleed(edgePadding).drawBehind { drawLine(colors.outlineVariant, Offset.Zero, Offset(size.width, 0f), 1.dp.toPx()) }
             .background(colors.onSurface.copy(alpha = AppAlpha.faint)).padding(horizontal = edgePadding, vertical = if (compact) AppSpacing.l else AppSpacing.xl)
         // Next page also marks this one read, which counts its words as read; on the last page that completes the book.
-        val markRemaining: @Composable (Modifier) -> Unit = { modifier ->
+        val markRemaining: @Composable () -> Unit = {
             if (unknowns > 0) {
                 // Before the last page it turns the page as well, and says so.
-                SecondaryButton(if (last) tr("Mark remaining words as known") else tr("Mark the rest known and turn the page"), onClick = { viewModel.markPageRead(true, if (last) 0 else 1) }, modifier = modifier, icon = AppIcons.DoneAll, size = ButtonSize.Large, badge = unknowns)
+                FooterCircle(
+                    if (last) tr("Mark remaining words as known") else tr("Mark the rest known and turn the page"),
+                    AppIcons.DoneAll,
+                    FooterCircleStyle.Known,
+                    badge = unknowns,
+                ) { viewModel.markPageRead(true, if (last) 0 else 1) }
             }
         }
         // Practice asks about the words being learned, so it is offered only when the page has some.
         val practisable = remember(state.page, state.items) { state.items.any { it.isWord && it.status.isLearning } }
         // A text of one page has the same words either way, so it offers only the whole.
-        val practice: @Composable (Modifier) -> Unit = { modifier -> if (practisable && state.pageCount > 1) PracticeButton(tr("Practise this page"), modifier, onPractice) }
-        val practiceAll: @Composable (Modifier) -> Unit = { modifier ->
+        val practice: @Composable () -> Unit = {
+            if (practisable && state.pageCount > 1) FooterCircle(tr("Practise this page"), AppIcons.Style, FooterCircleStyle.Outlined, onClick = onPractice)
+        }
+        val practiceAll: @Composable () -> Unit = {
             if (last && bookWords > 0) {
-                PracticeButton(
+                FooterCircle(
                     when {
                         state.lesson != null -> tr("Practise the lesson's words")
                         state.news -> tr("Practise the article's words")
                         else -> tr("Practise the book's words")
                     },
-                    modifier.testTag("practice-all"),
+                    AppIcons.Style,
+                    FooterCircleStyle.Outlined,
+                    Modifier.testTag("practice-all"),
                 ) { choosingKinds = true }
             }
         }
-        val next: @Composable (Modifier) -> Unit = { modifier ->
-            if (last) PrimaryButton(
+        val next: @Composable () -> Unit = {
+            if (last) FooterCircle(
                 when {
                     state.lesson != null -> tr("Finish lesson")
                     state.news -> tr("Finish article")
                     else -> tr("Finish book")
                 },
+                Icons.Filled.Check,
+                FooterCircleStyle.Filled,
                 onClick = viewModel::finishBook,
-                modifier = modifier,
-                size = ButtonSize.Large,
-                trailingIcon = Icons.AutoMirrored.Filled.ArrowForward,
-            ) else PrimaryButton(tr("Next page"), onClick = { viewModel.markPageRead(false, 1) }, modifier = modifier, size = ButtonSize.Large, trailingIcon = Icons.AutoMirrored.Filled.ArrowForward)
+            ) else FooterCircle(tr("Next page"), Icons.AutoMirrored.Filled.ArrowForward, FooterCircleStyle.Filled) { viewModel.markPageRead(false, 1) }
         }
         Layout(
             content = {
@@ -1019,10 +1035,10 @@ private fun ReadingFooter(state: ReadingUiState, viewModel: ReadingViewModel, on
                     Modifier.heightIn(min = AppSizes.touch),
                     icon = Icons.AutoMirrored.Filled.ArrowBack,
                 )
-                practice(Modifier)
-                practiceAll(Modifier)
-                markRemaining(Modifier)
-                next(Modifier)
+                practice()
+                practiceAll()
+                markRemaining()
+                next()
             },
             modifier = strip,
         ) { measurables, constraints ->
@@ -1045,16 +1061,19 @@ private fun ReadingFooter(state: ReadingUiState, viewModel: ReadingViewModel, on
                     }
                 }
             } else {
+                // Too narrow for one row: the buttons stay on the right, above the way back.
                 val rowGap = AppSpacing.m.roundToPx()
-                // Stacked buttons keep a button's width on a wide card and stay on the right, where the row puts them.
-                val buttonWidth = minOf(width, FOOTER_BUTTON_MAX.roundToPx())
-                val placeables = actions.map { it.measure(Constraints.fixedWidth(buttonWidth)) } + back.measure(Constraints(maxWidth = width))
-                layout(width, placeables.sumOf { it.height } + rowGap * (placeables.size - 1)) {
-                    var y = 0
-                    for (p in placeables) {
-                        p.place(if (p === placeables.last()) 0 else width - p.width, y)
-                        y += p.height + rowGap
+                val buttons = actions.map { it.measure(Constraints()) }
+                val backPlaceable = back.measure(Constraints(maxWidth = width))
+                val buttonsHeight = buttons.maxOfOrNull { it.height } ?: 0
+                layout(width, buttonsHeight + rowGap + backPlaceable.height) {
+                    var x = width
+                    for (p in buttons.reversed()) {
+                        x -= p.width
+                        p.place(x, (buttonsHeight - p.height) / 2)
+                        x -= gap
                     }
+                    backPlaceable.place(0, buttonsHeight + rowGap)
                 }
             }
         }
@@ -1069,9 +1088,29 @@ private fun Modifier.bleed(horizontal: Dp) = layout { measurable, constraints ->
     layout(constraints.maxWidth, placeable.height) { placeable.place(-extra, 0) }
 }
 
+private enum class FooterCircleStyle { Outlined, Known, Filled }
+
+/** A round footer button, its label shown as a tooltip and read out by screen readers; [badge] counts what it acts on. */
 @Composable
-private fun PracticeButton(label: String, modifier: Modifier, onClick: () -> Unit) {
-    SecondaryButton(label, onClick = onClick, modifier = modifier, icon = AppIcons.Abc, size = ButtonSize.Large, tint = MaterialTheme.colorScheme.primary)
+private fun FooterCircle(label: String, icon: ImageVector, style: FooterCircleStyle, modifier: Modifier = Modifier, badge: Int = 0, onClick: () -> Unit) {
+    val colors = MaterialTheme.colorScheme
+    val (background, tint) = when (style) {
+        FooterCircleStyle.Outlined -> colors.surface to colors.primary
+        FooterCircleStyle.Known -> lerp(colors.surface, TayraTheme.current.statusColors.background(TermStatus.WELL_KNOWN), KNOWN_CIRCLE_TINT) to colors.onSurface
+        FooterCircleStyle.Filled -> colors.primary to colors.onPrimary
+    }
+    AppTooltip(label, modifier) {
+        Box {
+            Box(
+                Modifier.size(FOOTER_CONTROL_SIZE).shadow(AppElevation.raised, AppShapes.circle).clip(AppShapes.circle).background(background)
+                    .then(if (style == FooterCircleStyle.Outlined) Modifier.border(AppBorders.selected(colors.primary), AppShapes.circle) else Modifier)
+                    .clickable(onClick = onClick)
+                    .semantics { contentDescription = label },
+                contentAlignment = Alignment.Center,
+            ) { Icon(icon, contentDescription = null, tint = tint, modifier = Modifier.size(AppSizes.iconLarge)) }
+            if (badge > 0) CountBadge(badge, Modifier.align(Alignment.TopEnd).testTag("footer-badge").offset(x = AppSpacing.xs, y = -AppSpacing.xs), emphasis = BadgeEmphasis.Solid)
+        }
+    }
 }
 
 @Composable
@@ -1131,5 +1170,3 @@ private fun EmbeddedTermForm(key: TermFormKey, keyString: String, viewModel: Rea
     }
 }
 
-/** The widest a reader footer button gets when the buttons stack. */
-private val FOOTER_BUTTON_MAX = 420.dp
