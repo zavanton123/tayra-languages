@@ -320,17 +320,11 @@ internal val frTerms: Map<String, String> = mapOf(
     "Play recording" to "Écouter l’enregistrement",
     "Read aloud" to "Lire à voix haute",
 
-    // Wiktionary online (feature/terms WiktionarySection) and the grammatical tags of its tables (core/ui GrammarTags).
+    // Wiktionary online (feature/terms ConjugationSheet) and the grammatical tags of its tables (core/ui GrammarTags).
     "Wiktionary" to "Wiktionnaire",
     "Wiktionary contributors · CC BY-SA 4.0" to "Contributeurs du Wiktionnaire · CC BY-SA 4.0",
-    "Synonyms" to "Synonymes",
     "Conjugation" to "Conjugaison",
     "Inflection" to "Flexion",
-    "Show the table" to "Afficher le tableau",
-    "Hide the table" to "Masquer le tableau",
-    "Expressions" to "Expressions",
-    "Show expressions" to "Afficher les expressions",
-    "Hide expressions" to "Masquer les expressions",
     "1st" to "1re",
     "2nd" to "2e",
     "3rd" to "3e",
@@ -378,9 +372,9 @@ internal val frTerms: Map<String, String> = mapOf(
     "inanimate" to "inanimé",
     "comparative" to "comparatif",
     "superlative" to "superlatif",
-    // The conjugation dialog (feature/terms ConjugationDialog).
-    "Show the conjugation in a window" to "Afficher la conjugaison dans une fenêtre",
-    "Show the inflection in a window" to "Afficher la déclinaison dans une fenêtre",
+    // The conjugation sheet (feature/terms ConjugationSheet) and its row in the Dictionary card.
+    "View conjugations" to "Voir la conjugaison",
+    "View inflections" to "Voir la déclinaison",
     "Select a form to hear it" to "Choisissez une forme pour l’entendre",
     "Non-finite" to "Formes impersonnelles",
     "Person" to "Personne",

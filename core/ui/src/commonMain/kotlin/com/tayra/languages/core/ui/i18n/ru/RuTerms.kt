@@ -320,17 +320,11 @@ internal val ruTerms: Map<String, String> = mapOf(
     "Play recording" to "Воспроизвести запись",
     "Read aloud" to "Прочитать вслух",
 
-    // Wiktionary online (feature/terms WiktionarySection) and the grammatical tags of its tables (core/ui GrammarTags).
+    // Wiktionary online (feature/terms ConjugationSheet) and the grammatical tags of its tables (core/ui GrammarTags).
     "Wiktionary" to "Викисловарь",
     "Wiktionary contributors · CC BY-SA 4.0" to "Участники Викисловаря · CC BY-SA 4.0",
-    "Synonyms" to "Синонимы",
     "Conjugation" to "Спряжение",
     "Inflection" to "Склонение",
-    "Show the table" to "Показать таблицу",
-    "Hide the table" to "Скрыть таблицу",
-    "Expressions" to "Выражения",
-    "Show expressions" to "Показать выражения",
-    "Hide expressions" to "Скрыть выражения",
     "1st" to "1-е л.",
     "2nd" to "2-е л.",
     "3rd" to "3-е л.",
@@ -378,9 +372,9 @@ internal val ruTerms: Map<String, String> = mapOf(
     "inanimate" to "неодушевлённое",
     "comparative" to "сравнительная степень",
     "superlative" to "превосходная степень",
-    // The conjugation dialog (feature/terms ConjugationDialog).
-    "Show the conjugation in a window" to "Показать спряжение в окне",
-    "Show the inflection in a window" to "Показать склонение в окне",
+    // The conjugation sheet (feature/terms ConjugationSheet) and its row in the Dictionary card.
+    "View conjugations" to "Посмотреть спряжение",
+    "View inflections" to "Посмотреть склонение",
     "Select a form to hear it" to "Нажмите на форму, чтобы её услышать",
     "Non-finite" to "Неличные формы",
     "Person" to "Лицо",

@@ -320,17 +320,11 @@ internal val elTerms: Map<String, String> = mapOf(
     "Play recording" to "Αναπαραγωγή ηχογράφησης",
     "Read aloud" to "Ανάγνωση φωναχτά",
 
-    // Wiktionary online (feature/terms WiktionarySection) and the grammatical tags of its tables (core/ui GrammarTags).
+    // Wiktionary online (feature/terms ConjugationSheet) and the grammatical tags of its tables (core/ui GrammarTags).
     "Wiktionary" to "Βικιλεξικό",
     "Wiktionary contributors · CC BY-SA 4.0" to "Συντάκτες του Βικιλεξικού · CC BY-SA 4.0",
-    "Synonyms" to "Συνώνυμα",
     "Conjugation" to "Κλίση ρήματος",
     "Inflection" to "Κλίση",
-    "Show the table" to "Εμφάνιση πίνακα",
-    "Hide the table" to "Απόκρυψη πίνακα",
-    "Expressions" to "Εκφράσεις",
-    "Show expressions" to "Εμφάνιση εκφράσεων",
-    "Hide expressions" to "Απόκρυψη εκφράσεων",
     "1st" to "α΄",
     "2nd" to "β΄",
     "3rd" to "γ΄",
@@ -378,9 +372,9 @@ internal val elTerms: Map<String, String> = mapOf(
     "inanimate" to "άψυχο",
     "comparative" to "συγκριτικός",
     "superlative" to "υπερθετικός",
-    // The conjugation dialog (feature/terms ConjugationDialog).
-    "Show the conjugation in a window" to "Εμφάνιση της κλίσης του ρήματος σε παράθυρο",
-    "Show the inflection in a window" to "Εμφάνιση της κλίσης σε παράθυρο",
+    // The conjugation sheet (feature/terms ConjugationSheet) and its row in the Dictionary card.
+    "View conjugations" to "Δείτε την κλίση του ρήματος",
+    "View inflections" to "Δείτε την κλίση",
     "Select a form to hear it" to "Επιλέξτε έναν τύπο για να τον ακούσετε",
     "Non-finite" to "Απαρέμφατοι τύποι",
     "Person" to "Πρόσωπο",

@@ -38,7 +38,7 @@ import java.io.File
 import java.util.Collections
 import kotlin.test.Test
 import kotlin.test.assertEquals
-import kotlin.test.assertFalse
+import kotlin.test.assertNull
 import kotlin.test.assertTrue
 
 /** What the term form asks Wiktionary for a word it opens, and when its card shows. */
@@ -47,8 +47,6 @@ class TermFormWiktionaryTest {
     @Before
     fun setUp() {
         Dispatchers.setMain(Dispatchers.Default)
-        WiktionarySections.tableOpen = true
-        WiktionarySections.expressionsOpen = true
     }
 
     @After
@@ -120,40 +118,25 @@ class TermFormWiktionaryTest {
     }
 
     @Test
-    fun aFormAsksForItsPageThenItsLemmasFormsAndExpressions() {
+    fun aFormAsksForItsPageThenItsLemmasForms() {
         val wiktionary = FakeWiktionary(listOf(comem), mapOf("comer" to conjugation), listOf("comer", "comer o chapéu"))
         val viewModel = form("comem", wiktionary)
-        waitFor("the card is complete") { viewModel.state.value.wiktionary.complete }
-        assertEquals(listOf("page comem", "forms comer", "search comer"), wiktionary.asked)
-        val card = viewModel.state.value.wiktionary
-        assertTrue(card.isShown)
-        assertEquals("comer", card.tableWord)
-        assertEquals(listOf("comer o chapéu"), card.expressions)
-        assertTrue(card.tableOpen && card.expressionsOpen)
+        waitFor("the table is complete") { viewModel.state.value.wiktionary.complete }
+        assertEquals(listOf("page comem", "forms comer"), wiktionary.asked)
+        val online = viewModel.state.value.wiktionary
+        assertEquals("comer", online.headword)
+        assertEquals("verb", online.table?.pos)
         // The online lemma becomes the parent of a word the offline dictionary lacks.
         waitFor("the parent is linked") { viewModel.state.value.draft.parents == listOf("comer") }
     }
 
     @Test
-    fun aWordWithNeitherTableNorExpressionsHasNoCard() {
+    fun aWordWithNoTableOffersNone() {
         val wiktionary = FakeWiktionary(listOf(muito), emptyMap(), listOf("muito", "muitos"))
         val viewModel = form("muito", wiktionary)
-        waitFor("the card is complete") { viewModel.state.value.wiktionary.complete }
+        waitFor("the table is complete") { viewModel.state.value.wiktionary.complete }
         // A word with no lemma and no table of its own asks for no forms.
-        assertEquals(listOf("page muito", "search muito"), wiktionary.asked)
-        assertFalse(viewModel.state.value.wiktionary.isShown)
-    }
-
-    @Test
-    fun theSectionsStayAsTheyWereLeft() {
-        val wiktionary = FakeWiktionary(listOf(comem), mapOf("comer" to conjugation), listOf("comer o chapéu"))
-        val first = form("comem", wiktionary)
-        waitFor("the card is complete") { first.state.value.wiktionary.complete }
-        first.toggleTable()
-        assertFalse(first.state.value.wiktionary.tableOpen)
-        val next = form("comem", wiktionary)
-        waitFor("the next card is complete") { next.state.value.wiktionary.complete }
-        assertFalse(next.state.value.wiktionary.tableOpen)
-        assertTrue(next.state.value.wiktionary.expressionsOpen)
+        assertEquals(listOf("page muito"), wiktionary.asked)
+        assertNull(viewModel.state.value.wiktionary.table)
     }
 }

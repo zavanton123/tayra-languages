@@ -320,17 +320,11 @@ internal val plTerms: Map<String, String> = mapOf(
     "Play recording" to "Odtwórz nagranie",
     "Read aloud" to "Czytaj na głos",
 
-    // Wiktionary online (feature/terms WiktionarySection) and the grammatical tags of its tables (core/ui GrammarTags).
+    // Wiktionary online (feature/terms ConjugationSheet) and the grammatical tags of its tables (core/ui GrammarTags).
     "Wiktionary" to "Wikisłownik",
     "Wiktionary contributors · CC BY-SA 4.0" to "Autorzy Wikisłownika · CC BY-SA 4.0",
-    "Synonyms" to "Synonimy",
     "Conjugation" to "Koniugacja",
     "Inflection" to "Odmiana",
-    "Show the table" to "Pokaż tabelę",
-    "Hide the table" to "Ukryj tabelę",
-    "Expressions" to "Wyrażenia",
-    "Show expressions" to "Pokaż wyrażenia",
-    "Hide expressions" to "Ukryj wyrażenia",
     "1st" to "1. os.",
     "2nd" to "2. os.",
     "3rd" to "3. os.",
@@ -378,9 +372,9 @@ internal val plTerms: Map<String, String> = mapOf(
     "inanimate" to "nieżywotny",
     "comparative" to "stopień wyższy",
     "superlative" to "stopień najwyższy",
-    // The conjugation dialog (feature/terms ConjugationDialog).
-    "Show the conjugation in a window" to "Pokaż koniugację w oknie",
-    "Show the inflection in a window" to "Pokaż odmianę w oknie",
+    // The conjugation sheet (feature/terms ConjugationSheet) and its row in the Dictionary card.
+    "View conjugations" to "Zobacz koniugację",
+    "View inflections" to "Zobacz odmianę",
     "Select a form to hear it" to "Wybierz formę, aby ją usłyszeć",
     "Non-finite" to "Formy nieosobowe",
     "Person" to "Osoba",

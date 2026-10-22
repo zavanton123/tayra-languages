@@ -320,17 +320,11 @@ internal val esTerms: Map<String, String> = mapOf(
     "Play recording" to "Reproducir grabación",
     "Read aloud" to "Leer en voz alta",
 
-    // Wiktionary online (feature/terms WiktionarySection) and the grammatical tags of its tables (core/ui GrammarTags).
+    // Wiktionary online (feature/terms ConjugationSheet) and the grammatical tags of its tables (core/ui GrammarTags).
     "Wiktionary" to "Wikcionario",
     "Wiktionary contributors · CC BY-SA 4.0" to "Colaboradores de Wikcionario · CC BY-SA 4.0",
-    "Synonyms" to "Sinónimos",
     "Conjugation" to "Conjugación",
     "Inflection" to "Flexión",
-    "Show the table" to "Mostrar la tabla",
-    "Hide the table" to "Ocultar la tabla",
-    "Expressions" to "Expresiones",
-    "Show expressions" to "Mostrar expresiones",
-    "Hide expressions" to "Ocultar expresiones",
     "1st" to "1.ª",
     "2nd" to "2.ª",
     "3rd" to "3.ª",
@@ -378,9 +372,9 @@ internal val esTerms: Map<String, String> = mapOf(
     "inanimate" to "inanimado",
     "comparative" to "comparativo",
     "superlative" to "superlativo",
-    // The conjugation dialog (feature/terms ConjugationDialog).
-    "Show the conjugation in a window" to "Mostrar la conjugación en una ventana",
-    "Show the inflection in a window" to "Mostrar la declinación en una ventana",
+    // The conjugation sheet (feature/terms ConjugationSheet) and its row in the Dictionary card.
+    "View conjugations" to "Ver la conjugación",
+    "View inflections" to "Ver la declinación",
     "Select a form to hear it" to "Elige una forma para oírla",
     "Non-finite" to "Formas no personales",
     "Person" to "Persona",

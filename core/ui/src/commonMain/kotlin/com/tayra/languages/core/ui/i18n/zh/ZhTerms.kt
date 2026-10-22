@@ -320,17 +320,11 @@ internal val zhTerms: Map<String, String> = mapOf(
     "Play recording" to "播放录音",
     "Read aloud" to "朗读",
 
-    // Wiktionary online (feature/terms WiktionarySection) and the grammatical tags of its tables (core/ui GrammarTags).
+    // Wiktionary online (feature/terms ConjugationSheet) and the grammatical tags of its tables (core/ui GrammarTags).
     "Wiktionary" to "维基词典",
     "Wiktionary contributors · CC BY-SA 4.0" to "维基词典贡献者 · CC BY-SA 4.0",
-    "Synonyms" to "同义词",
     "Conjugation" to "变位",
     "Inflection" to "词形变化",
-    "Show the table" to "显示表格",
-    "Hide the table" to "隐藏表格",
-    "Expressions" to "短语",
-    "Show expressions" to "显示短语",
-    "Hide expressions" to "隐藏短语",
     "1st" to "第一人称",
     "2nd" to "第二人称",
     "3rd" to "第三人称",
@@ -378,9 +372,9 @@ internal val zhTerms: Map<String, String> = mapOf(
     "inanimate" to "无生",
     "comparative" to "比较级",
     "superlative" to "最高级",
-    // The conjugation dialog (feature/terms ConjugationDialog).
-    "Show the conjugation in a window" to "在窗口中显示变位",
-    "Show the inflection in a window" to "在窗口中显示词形变化",
+    // The conjugation sheet (feature/terms ConjugationSheet) and its row in the Dictionary card.
+    "View conjugations" to "查看变位",
+    "View inflections" to "查看词形变化",
     "Select a form to hear it" to "选择一个词形即可收听",
     "Non-finite" to "非限定形式",
     "Person" to "人称",

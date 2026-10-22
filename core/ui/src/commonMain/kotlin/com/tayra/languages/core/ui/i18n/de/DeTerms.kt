@@ -320,17 +320,11 @@ internal val deTerms: Map<String, String> = mapOf(
     "Play recording" to "Aufnahme abspielen",
     "Read aloud" to "Vorlesen",
 
-    // Wiktionary online (feature/terms WiktionarySection) and the grammatical tags of its tables (core/ui GrammarTags).
+    // Wiktionary online (feature/terms ConjugationSheet) and the grammatical tags of its tables (core/ui GrammarTags).
     "Wiktionary" to "Wiktionary",
     "Wiktionary contributors · CC BY-SA 4.0" to "Wiktionary-Autoren · CC BY-SA 4.0",
-    "Synonyms" to "Synonyme",
     "Conjugation" to "Konjugation",
     "Inflection" to "Flexion",
-    "Show the table" to "Tabelle zeigen",
-    "Hide the table" to "Tabelle ausblenden",
-    "Expressions" to "Wendungen",
-    "Show expressions" to "Wendungen zeigen",
-    "Hide expressions" to "Wendungen ausblenden",
     "1st" to "1.",
     "2nd" to "2.",
     "3rd" to "3.",
@@ -378,9 +372,9 @@ internal val deTerms: Map<String, String> = mapOf(
     "inanimate" to "unbelebt",
     "comparative" to "Komparativ",
     "superlative" to "Superlativ",
-    // The conjugation dialog (feature/terms ConjugationDialog).
-    "Show the conjugation in a window" to "Konjugation in einem Fenster zeigen",
-    "Show the inflection in a window" to "Deklination in einem Fenster zeigen",
+    // The conjugation sheet (feature/terms ConjugationSheet) and its row in the Dictionary card.
+    "View conjugations" to "Konjugation ansehen",
+    "View inflections" to "Deklination ansehen",
     "Select a form to hear it" to "Wähle eine Form, um sie zu hören",
     "Non-finite" to "Infinite Formen",
     "Person" to "Person",

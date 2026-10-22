@@ -21,7 +21,6 @@ import com.tayra.languages.core.domain.dictionary.KanjiInfo
 import com.tayra.languages.core.domain.dictionary.OnlineWiktionary
 import com.tayra.languages.core.domain.dictionary.WiktionaryCodes
 import com.tayra.languages.core.domain.dictionary.WiktionaryPage
-import com.tayra.languages.core.domain.dictionary.expressionsOf
 import com.tayra.languages.core.domain.dictionary.parentSuggestion
 import com.tayra.languages.core.domain.service.WordRecordings
 import com.tayra.languages.core.domain.service.WordRecording
@@ -133,7 +132,7 @@ data class TermFormUiState(
 
 /**
  * The term's Wiktionary page, null until it came or when Wiktionary has none, with the inflection
- * tables of [tableWord] (the term, or the lemma it is a form of) and the expressions made with it.
+ * tables of [tableWord] (the term, or the lemma it is a form of).
  */
 data class WiktionaryUi(
     val page: WiktionaryPage? = null,
@@ -141,25 +140,16 @@ data class WiktionaryUi(
     val dictionary: DictionaryLookup = DictionaryLookup.EMPTY,
     val tableWord: String? = null,
     val tables: List<InflectionTable> = emptyList(),
-    val expressions: List<String> = emptyList(),
-    val tableOpen: Boolean = true,
-    val expressionsOpen: Boolean = true,
-    /** Whether the tables and expressions have been asked for. */
+    /** Whether the tables have been asked for. */
     val complete: Boolean = false,
-    /** The entry the card's licence links: the page, or the lemma's when Wiktionary lacks the word itself. */
+    /** The entry the table's licence links: the page, or the lemma's when Wiktionary lacks the word itself. */
     val credit: WiktionaryPage? = page,
 ) {
-    /** The card shows once Wiktionary gave the word a table or expressions; its other lines alone are not worth one. */
-    val isShown: Boolean get() = complete && (tables.isNotEmpty() || expressions.isNotEmpty())
+    /** The table the Dictionary card offers, once Wiktionary gave one: a verb's when the word is one among others. */
+    val table: InflectionTable? get() = if (complete) tables.firstOrNull { it.pos == "verb" } ?: tables.firstOrNull() else null
 
-    /** The word the card is about: the page's headword, or the lemma whose table it shows. */
-    val headword: String? get() = page?.word ?: tableWord
-}
-
-/** Whether the card's sections are open, kept for the session as the reader leaves them. */
-internal object WiktionarySections {
-    var tableOpen = true
-    var expressionsOpen = true
+    /** The word the table is of: the lemma, or the page's headword. */
+    val headword: String? get() = tableWord ?: page?.word
 }
 
 sealed interface TermFormEvent {
@@ -424,8 +414,7 @@ class TermFormViewModel(
 
     /**
      * Asks Wiktionary about the term once it has stayed open a moment: its page, then the forms of
-     * the lemma it is a form of and the expressions made with that lemma, so the pane knows whether
-     * there is a table or an expression to show before it shows the card. [linkParent] is given only
+     * the lemma it is a form of, so the Dictionary card knows whether there is a table to offer. [linkParent] is given only
      * when the offline dictionary had nothing, so the online lemma never overrides an offline answer.
      */
     private suspend fun loadWiktionary(text: String, offline: DictionaryLookup, language: Language?, linkParent: ((String) -> Unit)?) {
@@ -441,7 +430,7 @@ class TermFormViewModel(
         val tableWord = if (own.isNotEmpty()) page?.word else lemma
         _state.update {
             it.copy(
-                wiktionary = WiktionaryUi(page, page?.toLookup() ?: DictionaryLookup.EMPTY, tableWord, tableOpen = WiktionarySections.tableOpen, expressionsOpen = WiktionarySections.expressionsOpen),
+                wiktionary = WiktionaryUi(page, page?.toLookup() ?: DictionaryLookup.EMPTY, tableWord),
                 recordings = withRecordings(it.recordings, page?.let(::recordingsOf).orEmpty()),
             )
         }
@@ -451,23 +440,9 @@ class TermFormViewModel(
         val tables = own.ifEmpty {
             tableWord?.let { lemmaWord -> source.forms(lemmaWord, code, edition).map { InflectionTables.table(it.pos, it.forms) }.filter { !it.isEmpty } }.orEmpty()
         }
-        val headword = tableWord ?: page?.word
-        val expressions = headword?.let { expressionsOf(source.search(it, code, edition), it).take(MAX_EXPRESSIONS) }.orEmpty()
         if (_state.value.draft.text != text) return
         val credit = page ?: tableWord?.let { WiktionaryPage(it, edition, WiktionaryCodes.languageCode(code), emptyList()) }
-        _state.update { it.copy(wiktionary = it.wiktionary.copy(tables = tables, expressions = expressions, complete = true, credit = credit)) }
-    }
-
-    /** Opens or closes the inflection table; the next words open it as it was left. */
-    fun toggleTable() {
-        WiktionarySections.tableOpen = !_state.value.wiktionary.tableOpen
-        _state.update { it.copy(wiktionary = it.wiktionary.copy(tableOpen = WiktionarySections.tableOpen)) }
-    }
-
-    /** Opens or closes the expressions made with the term's lemma; the next words open them as they were left. */
-    fun toggleExpressions() {
-        WiktionarySections.expressionsOpen = !_state.value.wiktionary.expressionsOpen
-        _state.update { it.copy(wiktionary = it.wiktionary.copy(expressionsOpen = WiktionarySections.expressionsOpen)) }
+        _state.update { it.copy(wiktionary = it.wiktionary.copy(tables = tables, complete = true, credit = credit)) }
     }
 
     private fun nativeLanguage(): String = settings.current.nativeLanguage.ifBlank { "en" }
@@ -542,9 +517,6 @@ class TermFormViewModel(
 
     /** A click on a word of an example, or a phrase dragged over in one: the form moves on to it. */
     fun openExampleTerm(text: String, sentence: String) = openTerm(text, sentence)
-
-    /** A lemma, synonym or expression Wiktionary names: the form moves on to it. */
-    fun openWord(text: String) = openTerm(text, null)
 
     private fun openTerm(text: String, sentence: String?) {
         val languageId = _state.value.draft.languageId
@@ -820,7 +792,6 @@ class TermFormViewModel(
     }
 }
 
-private const val MAX_EXPRESSIONS = 20
 
 /** The recordings Wiktionary's page links, each named by its speaker where Lingua Libre's file name gives one, and by its region. */
 internal fun recordingsOf(page: WiktionaryPage): List<WordRecording> = page.audio.mapNotNull { audio ->

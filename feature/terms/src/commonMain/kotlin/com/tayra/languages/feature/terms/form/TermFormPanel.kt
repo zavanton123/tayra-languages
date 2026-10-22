@@ -238,24 +238,27 @@ private fun TermFormContent(
         val online = state.wiktionary
         val dictionaryBlock: @Composable () -> Unit = {
             val code = language?.let { LanguageCodes.codeFor(it.name) }
+            // Wiktionary's table of the word opens from the Dictionary card, in a sheet of its own.
+            val table = online.table.takeIf { !empty }
+            val lemma = online.headword ?: draft.text.trim()
+            var tableShown by remember(draft.text) { mutableStateOf(false) }
+            val conjugations: (@Composable () -> Unit)? = table?.let { { ConjugationsRow(lemma, verb = it.pos == "verb") { tableShown = true } } }
+            if (table != null && tableShown) {
+                val speaker = rememberSpeaker(koinInject(), koinInject())
+                ConjugationSheet(table, lemma, draft.text, language?.name, code, online.credit, onSpeak = { speaker.speak(it, code) }) { tableShown = false }
+            }
             when {
                 empty -> Unit
-                !state.dictionary.isEmpty -> DictionarySection(state.dictionary, code, toneColors = state.toneColors, zhuyin = state.zhuyin, onAdd = viewModel::addGloss)
+                !state.dictionary.isEmpty -> DictionarySection(state.dictionary, code, toneColors = state.toneColors, zhuyin = state.zhuyin, onAdd = viewModel::addGloss, extra = conjugations)
                 else -> {
                     // Without an installed pack Wiktionary's meanings stand in, beside the offer to download one.
                     if (pack?.state !is PackState.Installed && !online.dictionary.isEmpty) {
-                        DictionarySection(online.dictionary, code, toneColors = state.toneColors, zhuyin = state.zhuyin, onAdd = viewModel::addGloss, credit = online.page?.let { it to language?.name })
+                        DictionarySection(online.dictionary, code, toneColors = state.toneColors, zhuyin = state.zhuyin, onAdd = viewModel::addGloss, credit = online.page?.let { it to language?.name }, extra = conjugations)
+                    } else {
+                        conjugations?.invoke()
                     }
                     if (pack != null && pack.state !is PackState.Installed) DictionaryDownloadCard(pack, state.pairDictionary, draft.text.trim(), onDownload = viewModel::downloadDictionary)
                 }
-            }
-            if (!empty && online.isShown) {
-                val languageCode = language?.let { LanguageCodes.codeFor(it.name) }
-                val speaker = rememberSpeaker(koinInject(), koinInject())
-                WiktionarySection(
-                    online, draft.text, language?.name, onOpenWord = viewModel::openWord, onToggleTable = viewModel::toggleTable, onToggleExpressions = viewModel::toggleExpressions,
-                    languageCode = languageCode, onSpeak = { speaker.speak(it, languageCode) },
-                )
             }
             if (!empty && state.notes.isNotEmpty()) NotesSection(state.notes)
             // The pane plays a recording from the word's own speaker; the full list is left to the editor page.
@@ -879,6 +882,8 @@ internal fun DictionarySection(
     onAdd: (String) -> Unit,
     /** The Wiktionary page the entries come from, with the language's English name, when they come from it online. */
     credit: Pair<WiktionaryPage, String?>? = null,
+    /** What follows the entries, such as the way to the word's conjugation. */
+    extra: (@Composable () -> Unit)? = null,
 ) {
     val colors = MaterialTheme.colorScheme
     val speaker = rememberSpeaker(koinInject(), koinInject())
@@ -941,6 +946,10 @@ internal fun DictionarySection(
                     }
                 }
             }
+        }
+        if (extra != null) {
+            AppDivider()
+            extra()
         }
         credit?.let { (page, languageName) -> WiktionaryCredit(page, languageName) }
     }

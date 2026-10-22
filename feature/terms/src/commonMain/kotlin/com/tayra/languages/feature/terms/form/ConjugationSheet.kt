@@ -15,11 +15,15 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.filled.KeyboardArrowRight
 import androidx.compose.material.icons.filled.Close
+import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -31,6 +35,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.LocalUriHandler
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
@@ -38,7 +43,8 @@ import com.tayra.languages.core.domain.dictionary.Conjugations
 import com.tayra.languages.core.domain.dictionary.InflectionRow
 import com.tayra.languages.core.domain.dictionary.InflectionTable
 import com.tayra.languages.core.domain.dictionary.WiktionaryCodes
-import com.tayra.languages.core.ui.components.AppDialogSurface
+import com.tayra.languages.core.domain.dictionary.WiktionaryPage
+import com.tayra.languages.core.ui.components.AppBottomSheet
 import com.tayra.languages.core.ui.components.AppDivider
 import com.tayra.languages.core.ui.components.AppIconButton
 import com.tayra.languages.core.ui.components.AppIcons
@@ -54,21 +60,43 @@ import com.tayra.languages.core.ui.components.grammarTags
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.theme.AppAlpha
 import com.tayra.languages.core.ui.theme.AppShapes
+import com.tayra.languages.core.ui.theme.AppSizes
 import com.tayra.languages.core.ui.theme.AppSpacing
 import com.tayra.languages.core.ui.theme.AppText
 
+/** The Dictionary card's way to the [lemma]'s table: "View conjugations" for a verb, "View inflections" for another word. */
+@Composable
+internal fun ConjugationsRow(lemma: String, verb: Boolean, onClick: () -> Unit) {
+    val colors = MaterialTheme.colorScheme
+    Row(
+        Modifier.fillMaxWidth().clip(AppShapes.panel).background(colors.primary.copy(alpha = AppAlpha.tint)).clickable(onClick = onClick)
+            .padding(horizontal = AppSpacing.m, vertical = AppSpacing.m).testTag("view-conjugations"),
+        verticalAlignment = Alignment.CenterVertically,
+        horizontalArrangement = Arrangement.spacedBy(AppSpacing.m),
+    ) {
+        Icon(AppIcons.TableChart, contentDescription = null, tint = colors.primary, modifier = Modifier.size(AppSizes.iconLarge))
+        Column(Modifier.weight(1f)) {
+            Text(if (verb) tr("View conjugations") else tr("View inflections"), style = AppText.labelStrong)
+            Text(lemma, style = MaterialTheme.typography.bodySmall, color = colors.primary)
+        }
+        Icon(Icons.AutoMirrored.Filled.KeyboardArrowRight, contentDescription = null, tint = colors.primary, modifier = Modifier.size(AppSizes.iconMedium))
+    }
+}
+
 /**
- * A word's [table] at full size: a verb's by mood and tense, each tense person by number with its
- * pronouns, another word's as its whole grid. A click on a form reads it aloud; the form the pane
- * is about ([term]) is tinted, and the verb opens on its tense.
+ * A word's [table] in a bottom sheet: a verb's by mood and tense, each tense person by number with
+ * its pronouns, another word's as its whole grid. A click on a form reads it aloud; the form the
+ * pane is about ([term]) is tinted, and the verb opens on its tense. [credit] is the Wiktionary
+ * entry the table comes from, whose licence it names.
  */
 @Composable
-internal fun ConjugationDialog(
+internal fun ConjugationSheet(
     table: InflectionTable,
     lemma: String,
     term: String,
     languageName: String?,
     languageCode: String?,
+    credit: WiktionaryPage?,
     onSpeak: ((String) -> Unit)?,
     onDismiss: () -> Unit,
 ) {
@@ -76,8 +104,13 @@ internal fun ConjugationDialog(
     val verb = table.pos == "verb"
     val clicked = WiktionaryCodes.plain(term)
     val isClicked = { form: String -> WiktionaryCodes.plain(form) == clicked || WiktionaryCodes.plain(form.substringBefore(" [")) == clicked }
-    AppDialogSurface(onDismissRequest = onDismiss, modifier = Modifier.testTag("conjugation-dialog")) {
-        Column(Modifier.padding(horizontal = AppSpacing.xxl, vertical = AppSpacing.xl), verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
+    AppBottomSheet(onDismissRequest = onDismiss, modifier = Modifier.testTag("conjugation-sheet")) {
+        // On a wide window the table keeps a dialog's width, in the middle.
+        Column(
+            Modifier.align(Alignment.CenterHorizontally).widthIn(max = AppSizes.dialogWide).fillMaxWidth()
+                .padding(start = AppSpacing.xxl, end = AppSpacing.xxl, bottom = AppSpacing.xl),
+            verticalArrangement = Arrangement.spacedBy(AppSpacing.l),
+        ) {
             Row(verticalAlignment = Alignment.Top, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
                 Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xxs)) {
                     Text((if (verb) tr("Conjugation") else tr("Inflection")).uppercase(), style = AppText.overline, color = colors.primary)
@@ -91,6 +124,7 @@ internal fun ConjugationDialog(
             Column(Modifier.weight(1f, fill = false).heightIn(max = BODY_MAX_HEIGHT).verticalScroll(rememberScrollState()), verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
                 if (verb) VerbBody(table, languageCode, isClicked, onSpeak) else GridBody(table, isClicked, onSpeak)
             }
+            credit?.let { WiktionaryCredit(it, languageName) }
             AppDivider()
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
                 if (onSpeak != null) {
@@ -288,3 +322,16 @@ private val LABEL_WIDTH_COMPACT = 96.dp
 private val GRID_CELL_WIDTH = 150.dp
 private val TAB_LINE = 2.dp
 private val BODY_MAX_HEIGHT = 520.dp
+
+/** Wiktionary's licence, as its content requires wherever it shows, linking the entry it comes from. */
+@Composable
+internal fun WiktionaryCredit(page: WiktionaryPage, languageName: String?) {
+    val uriHandler = LocalUriHandler.current
+    Text(
+        tr("Wiktionary contributors · CC BY-SA 4.0"),
+        Modifier.clip(AppShapes.small).clickable { uriHandler.openUri(WiktionaryCodes.entryUrl(page, languageName)) }
+            .padding(vertical = AppSpacing.xxs).testTag("wiktionary-credit"),
+        style = MaterialTheme.typography.labelSmall,
+        color = MaterialTheme.colorScheme.onSurfaceVariant,
+    )
+}
