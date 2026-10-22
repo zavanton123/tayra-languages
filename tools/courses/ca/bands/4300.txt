@@ -1,0 +1,100 @@
+1	4201	sord	sorda sordes sords
+2	4202	censurar	censurada censurades censurant censurat censurats censurava censuraven censuren censures censuri censurin censurà
+3	4203	renúncia	renúncies
+4	4204	camperol	camperola camperoles camperols
+5	4205	escocès	escocesa escoceses escocesos escocés
+6	4206	inspector	inspectora inspectores inspectors
+7	4207	bullir	bullen bulli bullia bullida bullides bullien bullint bullit bullits bulls
+8	4208	emblemàtic	emblemàtica emblemàtics emblemàtiques
+9	4209	oxigen	oxígens
+10	4210	dificultar	dificulta dificultada dificultades dificultant dificultaran dificultaren dificultaria dificultarien dificultarà dificultats dificultava dificultaven dificulten dificulti dificultin dificultà dificultés
+11	4211	truc	trucs
+12	4212	informàtic	informàtics informàtiques
+13	4213	cursar	cursada cursades cursant cursarà cursat cursats cursava cursaven cursen curses cursi cursis curso cursà
+14	4214	esclat	esclats
+15	4215	algo	
+16	4216	coet	coets
+17	4217	flamenc	flamenca flamencs flamenques
+18	4218	coco	cocos
+19	4219	fetge	fetges
+20	4220	repercussió	repercussions
+21	4221	meteorològic	meteorològica meteorològics meteorològiques
+22	4222	reveure	revessos revist revistes reviu revés
+23	4223	narcís	narcisa narcisos
+24	4224	minoritari	minoritaris minoritària minoritàries
+25	4225	certesa	certeses
+26	4226	obsessió	obsessions
+27	4227	curtmetratge	curtmetratges
+28	4228	orde	ordes órdens
+29	4229	afiliar	afilia afiliada afiliades afiliant afiliat afiliats afilien afilià
+30	4230	milà	milans
+31	4231	seda	sedes
+32	4232	unificar	unifica unificada unificades unificant unificaren unificaria unificarien unificarà unificat unificats unificava unificà unifiquen unifiqui unifiqués
+33	4233	vapor	vapors
+34	4234	titella	titelles
+35	4235	antifeixista	antifeixistes
+36	4236	recompensa	recompenses
+37	4237	barraca	barraques
+38	4238	costaner	costanera costaneres costaners
+39	4239	debutar	debuta debutant debutants debutaran debutaren debutaria debutarà debutat debutava debutaven debuten debutà debutés
+40	4240	optimista	optimistes
+41	4241	modalitat	modalitats
+42	4242	avantguarda	avantguardes
+43	4243	ratificar	ratifica ratificada ratificades ratificant ratificaren ratificaria ratificarà ratificat ratificats ratificava ratificaven ratifico ratificà ratifiquen ratifiqui ratifiqués
+44	4244	àrbitre	àrbitra àrbitres
+45	4245	confederació	confederacions
+46	4246	ecologista	ecologistes
+47	4247	monarca	monarques
+48	4248	multitudinari	multitudinaris multitudinària multitudinàries
+49	4249	debilitat	debilitada debilitades debilitats
+50	4250	òptica	òptiques
+51	4251	fletxa	fletxes
+52	4252	padrí	padrina padrines padrins
+53	4253	festivitat	festivitats
+54	4254	cardenal	cardenals
+55	4255	gemma	gemmes
+56	4256	guany	guanys
+57	4257	aspiració	aspiracions
+58	4258	melodia	melodies
+59	4259	tarifa	tarifes
+60	4260	adquisició	adquisicions
+61	4261	baró	barons
+62	4262	mer	mera meres mers
+63	4263	lamentable	lamentables
+64	4264	demogràfic	demogràfica demogràfics demogràfiques
+65	4265	intèrpret	intèrprets
+66	4266	divulgació	divulgacions
+67	4267	imaginari	imaginaris imaginària imaginàries
+68	4268	recolzament	recolzaments
+69	4269	filmar	filma filmada filmades filmant filmat filmats filmava filmaven filmen filmes filmi filmin filmà filmés
+70	4270	automàticament	
+71	4271	biologia	
+72	4272	integritat	
+73	4273	setze	
+74	4274	mentalitat	mentalitats
+75	4275	entretenir	entretenen entretenia entretenien entretenim entretenint entretinc entretindré entretinguda entretingudes entretingueu entretingui entretingut entretinguts entreté entretén
+76	4276	amateur	amateurs
+77	4277	emotiu	emotius emotiva emotives
+78	4278	refusar	refusa refusada refusades refusant refusaren refusarà refusat refusats refusava refusaven refusen refuses refusi refuso refusà refusés
+79	4279	aplaudiment	aplaudiments
+80	4280	empitjorar	empitjora empitjorada empitjorant empitjoraren empitjoraria empitjorarà empitjorat empitjorava empitjoraven empitjoren empitjori empitjorà
+81	4281	maltractament	maltractaments
+82	4282	tinta	tintes
+83	4283	estrès	estressos estrés
+84	4284	rodejar	rodegen rodeig rodeja rodejada rodejades rodejant rodejat rodejats rodejava rodejaven
+85	4285	menysprear	menysprea menyspreada menyspreades menyspreant menyspreat menyspreats menyspreava menyspreaven menyspreem menyspreen menysprees menyspreo menyspreïs
+86	4286	femella	femelles
+87	4287	conya	conyes
+88	4288	brindar	brinda brindada brindant brindat brindava brindaven brindem brinden brindi brindis brindo brindà
+89	4289	funeral	funerals
+90	4290	ferroviari	ferroviaris ferroviària ferroviàries
+91	4291	maleir	maleeix maleeixen maleeixi maleeixo maleint maleïa maleïdes maleït maleïts
+92	4292	proveir	proveeix proveeixen proveeixi proveeixin proveint proveiran proveirà proveí proveïa proveïda proveïdes proveïen proveït proveïts proveïx
+93	4293	mític	mítica mítics mítiques
+94	4294	parroquial	parroquials
+95	4295	agut	aguda agudes aguts
+96	4296	revelació	revelacions
+97	4297	petar	peta petada petades petant petaran petarem petarà petat petem peten peti petis peto petos
+98	4298	teclat	teclats
+99	4299	teixir	teixeix teixeixen teixia teixida teixides teixien teixim teixint teixits tixis
+100	4300	libi	libis líbia líbies

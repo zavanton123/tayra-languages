@@ -1,0 +1,100 @@
+1	8801	plebeu	plebea plebees plebeus
+2	8802	entranya	entranyes
+3	8803	cèntric	cèntrica cèntrics cèntriques
+4	8804	petxina	petxines
+5	8805	grill	grills
+6	8806	pocavergonya	pocavergonyes
+7	8807	interruptor	interruptors
+8	8808	proverbi	proverbis
+9	8809	ocultació	ocultacions
+10	8810	molsa	molses
+11	8811	carismàtic	carismàtica carismàtics carismàtiques
+12	8812	compulsiu	compulsius compulsiva compulsives
+13	8813	contingència	contingències
+14	8814	gueto	guetos
+15	8815	portalada	portalades
+16	8816	muntanyenc	muntanyenca muntanyencs muntanyenques
+17	8817	cordial	cordials
+18	8818	senyorial	senyorials
+19	8819	paritat	paritats
+20	8820	oportunista	oportunistes
+21	8821	referenciar	referencia referenciada referenciades referenciant referenciat referenciats referenciava referencien
+22	8822	concordar	concorda concordat concordats concordava concordaven concorden concordi
+23	8823	esquitxar	esquitxa esquitxada esquitxades esquitxant esquitxat esquitxats esquitxava esquitxaven esquitxen esquitxi
+24	8824	àgora	àgores
+25	8825	sostenidor	sostenidors
+26	8826	barbeta	barbetes
+27	8827	escalador	escaladora escaladores escaladors
+28	8828	mim	mims
+29	8829	trimestral	trimestrals
+30	8830	imaginatiu	imaginatius imaginativa imaginatives
+31	8831	barco	barcos
+32	8832	avortar	avorta avortada avortades avortant avortat avortats avorten avortin
+33	8833	deposar	deposada deposat deposats deposà deposés
+34	8834	gres	gresos
+35	8835	familiaritzar	familiaritza familiaritzada familiaritzades familiaritzant familiaritzat familiaritzats familiaritzessin
+36	8836	espècimen	espècimens
+37	8837	excedent	excedents
+38	8838	privatitzar	privatitza privatitzada privatitzades privatitzant privatitzat privatitzats
+39	8839	valla	valles
+40	8840	transitar	transita transitada transitades transitant transitat transitats transitava transitaven transiten transiti transito
+41	8841	adrenalina	
+42	8842	autogestió	
+43	8843	establishment	
+44	8844	gresca	
+45	8845	ictus	
+46	8846	il·luminar	
+47	8847	inconstitucionalitat	
+48	8848	pal·liar	
+49	8849	piemont	
+50	8850	pinós	
+51	8851	puix	
+52	8852	rotundament	
+53	8853	saur	saura
+54	8854	socialització	
+55	8855	tisores	
+56	8856	rebombori	rebomboris
+57	8857	revetlla	revetlles
+58	8858	osonenc	osonenca osonencs
+59	8859	ingesta	ingestes
+60	8860	incomprensible	incomprensibles
+61	8861	monòlit	monòlits
+62	8862	profitós	profitosa profitoses profitosos
+63	8863	mede	meda medes
+64	8864	furtiu	furtius furtiva furtives
+65	8865	clavell	clavellina clavellines clavells
+66	8866	sagrament	sagraments
+67	8867	rodet	rodets
+68	8868	cavalcada	cavalcades
+69	8869	primogènit	primogènita primogènits
+70	8870	consultori	consultoris
+71	8871	morfologia	morfologies
+72	8872	multilingüe	multilingües
+73	8873	navalla	navalles
+74	8874	precepte	preceptes
+75	8875	aromàtic	aromàtica aromàtics aromàtiques
+76	8876	emparentar	emparenta emparentada emparentades emparentat emparentats emparenten emparentà
+77	8877	bestiari	bestiaris
+78	8878	alpinista	alpinistes
+79	8879	nínxol	nínxols
+80	8880	sunnita	sunnites
+81	8881	diluvi	diluvis
+82	8882	pistoler	pistolers
+83	8883	comptabilitzar	comptabilitza comptabilitzada comptabilitzades comptabilitzant comptabilitzaren comptabilitzat comptabilitzats comptabilitzava comptabilitzaven comptabilitzen comptabilitzà
+84	8884	óblast	óblasts
+85	8885	estacional	estacionals
+86	8886	pestanya	pestanyes
+87	8887	engendrar	engendra engendrada engendrades engendrant engendrarà engendrat engendrats engendre engendren engendrà
+88	8888	engrescador	engrescadora
+89	8889	nounat	nounada nounades nounats
+90	8890	paracaigudista	paracaigudistes
+91	8891	confortable	confortables
+92	8892	pinyol	pinyols
+93	8893	paperera	papereres
+94	8894	fortí	fortins
+95	8895	resguardar	resguard resguarda resguardada resguardades resguardat resguardats resguardava resguarden resguards
+96	8896	farigola	farigoles
+97	8897	extremar	extrema extremada extremades extremant extremat extremats extremes extremeu extremi extremis extremo
+98	8898	estament	estaments
+99	8899	esfondrar	esfondra esfondrada esfondrades esfondrant esfondrat esfondrats esfondrava esfondren esfondri esfondrà esfondrés
+100	8900	sociocultural	socioculturals

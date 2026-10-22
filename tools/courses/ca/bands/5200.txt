@@ -1,0 +1,100 @@
+1	5101	tribal	tribals
+2	5102	sergent	sergents
+3	5103	boix	boixa boixes boixos
+4	5104	segar	seg segada segant segat segats segava sego seguem seguen segues segui seguin seguis segués seguí
+5	5105	homicidi	homicidis
+6	5106	simular	simula simulada simulades simulant simulat simulats simulava simulaven simulen simuli simulin
+7	5107	idear	ideada ideades ideant idearen ideat ideats ideava ideen ideo ideà
+8	5108	monopoli	monopolis
+9	5109	gremi	gremis
+10	5110	dotació	dotacions
+11	5111	pany	panys
+12	5112	cabina	cabines
+13	5113	güellar	güell güells
+14	5114	romanès	romanesa romaneses romanesos romanés
+15	5115	enfilar	enfila enfilada enfilades enfilant enfilaran enfilaren enfilat enfilats enfilava enfilaven enfilem enfilen enfilis enfilà
+16	5116	lingüista	lingüistes
+17	5117	espiar	espiada espiant espiat espiats espiava espien espies espiés
+18	5118	comoditat	comoditats
+19	5119	arqueòleg	arqueòlegs arqueòloga arqueòlogues
+20	5120	afortunadament	
+21	5121	decadència	
+22	5122	gom	
+23	5123	simultàniament	
+24	5124	telefonia	
+25	5125	elemental	elementals
+26	5126	embolic	embolics
+27	5127	veterinari	veterinaris veterinària veterinàries
+28	5128	podar	poda podades podant podat podats pode podem poden podes podeu podi podis podés
+29	5129	regir	regeix regeixen regeixi regia regida regides regien regim regint regiran regiren regiria regirà regit regits regix regixen regí regís
+30	5130	malmetre	malmesa malmeses malmesos malmet malmeten malmetent malmeti malmetien malmetin malmetés malmès
+31	5131	llauna	llanda llaunes
+32	5132	farcit	farcida farcides farcits
+33	5133	sàtira	sàtires
+34	5134	manga	mangues
+35	5135	anul·lar	anul
+36	5136	divorci	divorcis
+37	5137	informal	informals
+38	5138	llinatge	llinatges
+39	5139	empatar	empata empatada empatades empatant empataren empatat empatats empatava empataven empaten empatà empatés
+40	5140	elector	electora electores electors
+41	5141	desapercebut	desapercebuda desapercebudes desapercebuts
+42	5142	caserna	casernes
+43	5143	pressupostari	pressupostaris pressupostària pressupostàries
+44	5144	implantar	implanta implantada implantades implantant implantaren implantaria implantarà implantat implantats implantava implantaven implanten implanti implantin implantà implantés
+45	5145	recopilar	recopila recopilada recopilades recopilant recopilaren recopilat recopilats recopilava recopilaven recopilen recopilà
+46	5146	aurora	aurores
+47	5147	convenient	convenients
+48	5148	pesta	pestes
+49	5149	invers	inversa inverses inversos
+50	5150	serrat	serrada serrades serrats
+51	5151	fiar	fia fiant fiat fiava fien fies fieu fio
+52	5152	síndic	síndica síndics síndiques
+53	5153	tauler	taulers
+54	5154	xocar	xoca xocaran xocaren xocarà xocat xocava xocaven xoco xocà xoquen xoqui xoquin xoqués
+55	5155	estómac	estómacs
+56	5156	cristall	cristalls
+57	5157	embarcar	embarca embarcada embarcades embarcant embarcaran embarcaren embarcarà embarcat embarcats embarcava embarcaven embarcà embarque embarquen embarques embarqui embarquin embarqués
+58	5158	maia	maies
+59	5159	meridional	meridionals
+60	5160	morter	morters
+61	5161	masclisme	masclismes
+62	5162	configurar	configura configurada configurades configurant configuraran configuraren configuraria configurarien configurarà configurat configurats configurava configuraven configuren configuri configurà
+63	5163	basílica	basíliques
+64	5164	etiquetar	etiquetada etiquetades etiquetant etiquetat etiquetats etiquetava etiquetem etiqueten etiquetes etiqueteu
+65	5165	escalfament	escalfaments
+66	5166	fidelitat	fidelitats
+67	5167	vulgar	vulgars
+68	5168	repugnant	repugnants
+69	5169	mansió	mansions
+70	5170	vestíbul	vestíbuls
+71	5171	certificació	certificacions
+72	5172	tuitejar	tuiteja tuitejant tuitejat tuitejava
+73	5173	fastigós	fastigosa fastigoses fastigosos
+74	5174	vega	vegues
+75	5175	hipocresia	hipocresies
+76	5176	escuma	escumes espuma
+77	5177	quarter	quarters
+78	5178	emmagatzematge	emmagatzematges
+79	5179	matinal	matinals
+80	5180	acústica	
+81	5181	ciclisme	
+82	5182	mútuament	
+83	5183	pluralitat	
+84	5184	viabilitat	
+85	5185	reiterar	reiter reitera reiterada reiterades reiterant reiterat reiterats reiterava reiteraven reiteren reitero reiterà
+86	5186	vori	ivori
+87	5187	notificar	notifica notificada notificades notificant notificarà notificat notificats notificava notifiquen notifiqui notifiquin notifiqués
+88	5188	atlàntic	atlàntica atlàntics atlàntiques
+89	5189	interfície	interfícies
+90	5190	horitzontal	horitzontals
+91	5191	balena	balenes
+92	5192	iraquià	iraquiana iraquianes iraquians
+93	5193	treva	treves
+94	5194	adorar	adora adorada adorant adoraran adorat adorats adorava adoraven adorem adoren adores adoreu adoro
+95	5195	visualitzar	visualitza visualitzada visualitzades visualitzant visualitzat visualitzats visualitzava visualitzen visualitzes visualitzi visualitzo
+96	5196	evangeli	evangelis
+97	5197	fluvial	fluvials
+98	5198	tambor	tambors
+99	5199	respiració	respiracions
+100	5200	absoldre	absol absoldrà absolen absolent absolgué absolt absolta absoltes absolts

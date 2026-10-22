@@ -1,0 +1,100 @@
+1	4101	desviar	desvia desviada desviades desviant desviaran desviarem desviaren desviaria desviarà desviat desviats desviava desviaven desvien desviessin desvià desviés desviï desviïn
+2	4102	taca	taques
+3	4103	fascinant	fascinants
+4	4104	logo	logos
+5	4105	miss	misses
+6	4106	caçar	cacem cacen caces caci caçada caçades caçant caçat caçats caçava caçaven caçà
+7	4107	refer	refaci refan refaria refarà refeia refent referen refet refeta refetes refets refà refés
+8	4108	andorrà	andorrana andorranes andorrans
+9	4109	monumental	monumentals
+10	4110	gespa	gespes
+11	4111	malestar	malestars
+12	4112	sinònim	sinònima sinònimes sinònims
+13	4113	amar	ama amada amades amaren amarà amaré amava amem amen ames ami amin amis amés
+14	4114	fiança	fiances
+15	4115	mascota	mascotes
+16	4116	rodatge	rodatges
+17	4117	convent	convents
+18	4118	trepitjar	trepitgem trepitgen trepitges trepitgi trepitgés trepitja trepitjada trepitjades trepitjant trepitjat trepitjats trepitjava trepitjaven trepitjà
+19	4119	doctorat	doctorada doctorats
+20	4120	foscor	foscors
+21	4121	expresident	expresidents
+22	4122	equador	
+23	4123	eta	
+24	4124	excel·lència	
+25	4125	infantesa	
+26	4126	infermeria	
+27	4127	paral·lel	
+28	4128	últimament	
+29	4129	greix	greixos
+30	4130	evidenciar	evidencia evidenciada evidenciades evidenciant evidenciaren evidenciaria evidenciat evidenciats evidenciava evidenciaven evidencien evidencies evidencià evidenciés evidenciïn
+31	4131	roser	rosers
+32	4132	reclamació	reclamacions
+33	4133	pallasso	pallassa pallasses pallassos
+34	4134	complexitat	complexitats
+35	4135	temàtic	temàtics temàtiques
+36	4136	madrileny	madrilenya madrilenyes madrilenys
+37	4137	botànic	botànica botànics botàniques
+38	4138	ninot	ninots
+39	4139	eco	ecos
+40	4140	raval	ravals
+41	4141	satisfacció	satisfaccions
+42	4142	meta	metes
+43	4143	sospitar	sospitant sospitaren sospitaria sospitarà sospitat sospitats sospitava sospitaven sospitem sospiten sospites sospitessin sospiti sospitin sospito sospità sospitàvem sospités
+44	4144	recomanable	recomanables
+45	4145	ecosistema	ecosistemes
+46	4146	lleialtat	lleialtats
+47	4147	dèbil	dèbils
+48	4148	sentenciar	sentencia sentenciada sentenciades sentenciant sentenciaren sentenciat sentenciats sentenciava sentencies sentencià
+49	4149	papallona	papallones papalló
+50	4150	indemnització	indemnitzacions
+51	4151	tertúlia	tertúlies
+52	4152	magistrat	magistrats
+53	4153	parer	parers
+54	4154	èmfasi	èmfasis
+55	4155	eixample	eixamples
+56	4156	manuscrit	manuscrita manuscrites manuscrits
+57	4157	migrar	migra migrada migrades migrant migrants migraren migrat migrats migrava migraven migren migrin
+58	4158	pernil	pernils
+59	4159	espelma	espelmes
+60	4160	embolicar	embolica embolicada embolicades embolicant embolicat embolicats embolicava embolicaven emboliquem emboliquen emboliqui emboliquis
+61	4161	acceptació	acceptacions
+62	4162	saviesa	savieses
+63	4163	convicció	conviccions
+64	4164	fortament	
+65	4165	lentament	
+66	4166	mitjanit	
+67	4167	paral·lelament	
+68	4168	quim	
+69	4169	urbanisme	
+70	4170	barranc	barrancs
+71	4171	verificar	verifica verificada verificades verificant verificarà verificat verificats verificava verifiquen verifiqui verifiquin
+72	4172	seriar	seriada seriades seriat seriats serie seriem serieu serio seriï
+73	4173	carboni	carbonis
+74	4174	racional	racionals
+75	4175	immersió	immersions
+76	4176	bastir	basteix basteixen bastia bastida bastides bastien bastint bastiren bastiria bastit bastits bastí bastís
+77	4177	dissoldre	dissol dissoldran dissoldria dissoldrà dissolen dissolent dissolgueren dissolgui dissolguin dissolgué dissolgués dissolia dissolien dissolt dissolta dissoltes dissolts
+78	4178	patriota	patriotes
+79	4179	controvèrsia	controvèrsies
+80	4180	suggeriment	suggeriments
+81	4181	ovella	ovelles
+82	4182	email	emails
+83	4183	terrat	terrats
+84	4184	descompte	descomptes
+85	4185	trair	traeix traeixen traeixi traint trairia trairà traí traís traïa traïda traïdes traïen traïren traït traïts
+86	4186	disfrutar	disfruta disfrutant disfrutaré disfrutat disfrutem disfruten disfrutes disfruteu disfruti disfruto
+87	4187	call	calls
+88	4188	ram	rams
+89	4189	cònsol	cònsols
+90	4190	progressiu	progressius progressiva progressives
+91	4191	èpic	èpica èpics èpiques
+92	4192	tardà	tardana tardanes tardans
+93	4193	ajuntar	ajunt ajunta ajuntada ajuntades ajuntam ajuntant ajuntaran ajuntaren ajuntarà ajuntat ajuntats ajuntava ajuntaven ajuntem ajunten ajuntes ajuntessin ajunteu ajunti ajuntin ajunto ajuntà ajuntés
+94	4194	indici	indicis
+95	4195	empenta	empentes
+96	4196	relatar	relata relatada relatades relatant relatarà relatat relatats relatava relataven relaten relato relatà
+97	4197	àguila	àguiles àliga
+98	4198	viar	viada viam viaria viat vieu vii vià
+99	4199	clot	clotet clotets clots
+100	4200	ascensor	ascensors

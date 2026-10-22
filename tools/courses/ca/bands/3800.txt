@@ -1,0 +1,100 @@
+1	3701	reciclatge	
+2	3702	torrar	torra torrades torrant torrat torrats torrem torren torres torri torrin torro torrà
+3	3703	tèxtil	tèxtils
+4	3704	helicòpter	helicòpters
+5	3705	irlandès	irlandesa irlandeses irlandesos irlandés
+6	3706	fuster	fustera fusteres fusters
+7	3707	enllaçar	enllacem enllacen enllaces enllaci enllacin enllacés enllaça enllaçada enllaçades enllaçant enllaçaran enllaçaren enllaçaria enllaçarà enllaçat enllaçats enllaçava enllaçaven enllaçà
+8	3708	productiu	productius productiva productives
+9	3709	espatlla	espatlles
+10	3710	plural	plurals
+11	3711	expedició	expedicions
+12	3712	comanda	comandes
+13	3713	frenar	frena frenada frenades frenant frenaren frenaria frenarà frenat frenats frenava frenaven frenen frenes freni freno frenà frenés
+14	3714	relaxar	relaxa relaxada relaxades relaxant relaxat relaxats relaxava relaxem relaxen relaxes relaxeu relaxi relaxin
+15	3715	estricte	estricta estrictes
+16	3716	fitxar	fitxada fitxades fitxant fitxaren fitxaria fitxat fitxats fitxava fitxem fitxen fitxes fitxi fitxà fitxés
+17	3717	trasllat	trasllats
+18	3718	deriva	derives
+19	3719	variació	variacions
+20	3720	encarar	encar encarada encarades encarant encarat encarats encarava encaraven encare encarem encaren encarà
+21	3721	torturar	torturada torturades torturant torturarà torturat torturats torturava torturaven torturen tortures torturessin
+22	3722	ras	rasa rases rasos
+23	3723	ruptura	ruptures
+24	3724	aliè	aliena alienes aliens alié
+25	3725	mòdul	mòduls
+26	3726	ocult	oculta ocultes ocults
+27	3727	otomà	otomana otomanes otomans
+28	3728	inspecció	inspeccions
+29	3729	flux	fluxos
+30	3730	mutu	mutus mútua mútues
+31	3731	radar	radars
+32	3732	bronze	bronzes
+33	3733	navegació	navegacions
+34	3734	repassar	repassa repassada repassam repassant repassarem repassaré repassat repassava repassaven repassem repassen repassi repasso repassà
+35	3735	comar	comen como
+36	3736	estructural	estructurals
+37	3737	geografia	geografies
+38	3738	corporació	corporacions
+39	3739	interactiu	interactius interactiva interactives
+40	3740	valoració	valoracions
+41	3741	cuiner	cuinera cuineres cuiners
+42	3742	fama	fames
+43	3743	reforç	reforços
+44	3744	privilegiat	privilegiada privilegiades privilegiats
+45	3745	menut	menuda menudes menuts
+46	3746	afores	
+47	3747	atletisme	
+48	3748	credibilitat	
+49	3749	privacitat	
+50	3750	ullada	
+51	3751	ballarí	ballarina ballarines ballarins
+52	3752	andalús	andalusa andaluses andalusos
+53	3753	descendent	descendents
+54	3754	esmena	esmenes
+55	3755	funcional	funcionals
+56	3756	monte	montes
+57	3757	exhibició	exhibicions
+58	3758	excessiu	excessius excessiva excessives
+59	3759	segrest	segrestos segrests
+60	3760	arquitectònic	arquitectònica arquitectònics arquitectòniques
+61	3761	ofegar	ofega ofegada ofegades ofegant ofegarem ofegaren ofegaria ofegarà ofegat ofegats ofegava ofegaven ofego ofeguem ofeguen ofegues ofeguessin ofegui ofegués ofegà
+62	3762	ver	vera veres
+63	3763	gamma	gammes
+64	3764	recta	rectes
+65	3765	cabanya	cabana cabanes cabanyes
+66	3766	desesperat	desesperada desesperades desesperats
+67	3767	bebè	bebès bebé
+68	3768	puny	punys
+69	3769	posicionar	posiciona posicionada posicionades posicionant posicionarà posicionat posicionats posicionava posicionaven posicionen posiciones posicioni posicionà posicionés
+70	3770	brot	brots
+71	3771	hipoteca	hipoteques
+72	3772	febre	febra febres
+73	3773	implementar	implementa implementada implementades implementant implementaran implementaren implementaria implementarà implementat implementats implementava implementen implementi implementin implementés
+74	3774	aproximació	aproximacions
+75	3775	defecte	defectes
+76	3776	homosexual	homosexuals
+77	3777	bessó	bessona bessones bessons
+78	3778	delinqüent	delinqüents
+79	3779	resar	resa resant resaré resat resava resaven rese resem resen reses resessin resi resin reso resà
+80	3780	impartir	imparteix imparteixen imparteixin impartia impartida impartides impartien impartint impartiren impartiria impartirà impartit impartits impartí impartís
+81	3781	convergència	convergències
+82	3782	humitat	humitats
+83	3783	artesà	artesana artesanes artesans
+84	3784	domicili	domicilis
+85	3785	pam	pams
+86	3786	comissaria	comissaries
+87	3787	tast	tastet tastets tasts
+88	3788	ressenya	ressenyes
+89	3789	afortunat	afortunada afortunades afortunats
+90	3790	esforçar	esforcem esforcen esforces esforcessin esforci esforcis esforça esforçada esforçant esforçaren esforçarà esforçaré esforçat esforçats esforçava esforçaven esforço esforçà
+91	3791	brossa	brosses
+92	3792	clínic	clínics clíniques
+93	3793	avortament	avortaments
+94	3794	mantega	mantegues
+95	3795	santuari	santuaris
+96	3796	enfortir	enforteix enforteixen enforteixi enforteixin enfortia enfortida enfortides enfortien enfortim enfortint enfortiren enfortiria enfortirà enfortit enfortits enfortí
+97	3797	davanter	davantera davanteres davanters
+98	3798	monitor	monitors
+99	3799	motivació	motivacions
+100	3800	traïció	traïcions

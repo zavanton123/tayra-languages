@@ -1,0 +1,100 @@
+1	4001	originari	originaris originària originàries
+2	4002	pregària	pregàries
+3	4003	ancià	anciana ancianes ancians
+4	4004	boiar	boi boiars boies boí
+5	4005	xicotet	xicoteta xicotetes xicotets
+6	4006	subterrani	subterranis subterrània subterrànies
+7	4007	mascle	mascles masclet masclets
+8	4008	cèntim	cèntims
+9	4009	indignació	indignacions
+10	4010	litre	litres
+11	4011	tribut	tributs
+12	4012	pasqua	pasqües
+13	4013	honorable	honorables
+14	4014	sistemàtic	sistemàtica sistemàtics sistemàtiques
+15	4015	governamental	governamentals
+16	4016	preventiu	preventius preventiva preventives
+17	4017	diagonal	diagonals
+18	4018	dinastia	dinasties
+19	4019	mico	micos
+20	4020	admiració	
+21	4021	alumnat	
+22	4022	contínuament	
+23	4023	diables	
+24	4024	eficàcia	
+25	4025	estrictament	
+26	4026	històricament	
+27	4027	justament	
+28	4028	noranta	
+29	4029	unanimitat	
+30	4030	diana	dianes
+31	4031	tenda	tendes
+32	4032	paratge	paratges
+33	4033	qualificació	qualificacions
+34	4034	marró	marrons
+35	4035	urbanització	urbanitzacions
+36	4036	bota	botes bóta
+37	4037	traïdor	traïdora traïdores traïdors
+38	4038	figurar	figurada figurades figurant figurants figuraran figuraren figuraria figurarien figurarà figurat figurats figurava figuraven figuren figures figuressin figuri figurin figurins figurà figurés figurí
+39	4039	contrast	contrastos contrasts
+40	4040	claustre	claustres
+41	4041	gestor	gestora gestores gestors
+42	4042	serp	serpeta serps
+43	4043	denominar	denomina denominada denominades denominant denominaren denominaria denominarà denominat denominats denominava denominaven denominem denominen denomini denominà
+44	4044	mercaderia	mercaderies
+45	4045	galàxia	galàxies
+46	4046	compliment	compliments
+47	4047	filial	filials
+48	4048	prefectura	prefectures
+49	4049	fix	fixa fixes fixos
+50	4050	primitiu	primitius primitiva primitives
+51	4051	llicenciat	llicenciada llicenciades llicenciats
+52	4052	compatible	compatibles
+53	4053	cru	crua crues crus
+54	4054	cendra	cendres
+55	4055	rumb	rumbs
+56	4056	inesperat	inesperada inesperades inesperats
+57	4057	ultimar	ultim ultima ultimant ultimat ultime ultimen ultimes ultimo
+58	4058	defensiu	defensius defensiva defensives
+59	4059	maquinària	maquinàries
+60	4060	generalitzar	generalitza generalitzada generalitzades generalitzant generalitzaren generalitzarà generalitzat generalitzats generalitzen generalitzà generalitzés
+61	4061	complicitat	complicitats
+62	4062	rato	ratos
+63	4063	motxilla	motxilles
+64	4064	deliciós	deliciosa delicioses deliciosos
+65	4065	molest	molesta molestes molestos molests
+66	4066	perla	perles
+67	4067	mac	macs
+68	4068	ironia	ironies
+69	4069	desagradable	desagradables
+70	4070	mocador	mocadors
+71	4071	pàrquing	pàrquings
+72	4072	concertar	concerta concertada concertades concertant concertants concertat concertats concertaven concerten concerti concerto concertà concertàs
+73	4073	macedònia	macedònies
+74	4074	retrobar	retroba retrobada retrobades retrobant retrobaran retrobarem retrobaren retrobaria retrobarà retrobat retrobats retrobava retrobaven retrobem retroben retrobà
+75	4075	reparar	repara reparada reparades reparant repararen reparat reparats reparava reparaven reparem reparen repari reparo reparà reparés
+76	4076	asil	asils
+77	4077	intercanviar	intercanvia intercanviada intercanviades intercanviant intercanviaran intercanviaren intercanviat intercanviats intercanviava intercanviaven intercanviem intercanvien intercanviessin intercanvià intercanviï intercanviïn
+78	4078	maleta	maletes
+79	4079	núvia	nuvi nuvis núvies
+80	4080	jan	jans
+81	4081	socialisme	socialismes
+82	4082	lògic	lògics lògiques
+83	4083	infecció	infeccions
+84	4084	confrontació	confrontacions
+85	4085	júnior	júniors
+86	4086	restringir	restringeix restringeixen restringeixi restringeixin restringia restringida restringides restringien restringint restringit restringits
+87	4087	acreditar	acredita acreditada acreditades acreditant acreditat acreditats acreditava acreditaven acrediten acreditessin acrediti acreditin acredità acredités
+88	4088	adopció	adopcions
+89	4089	esborrany	esborranys
+90	4090	globus	
+91	4091	postres	
+92	4092	mecànica	mecàniques
+93	4093	commemoratiu	commemoratius commemorativa commemoratives
+94	4094	auto	autos
+95	4095	electe	electa electes
+96	4096	dolorós	dolorosa doloroses dolorosos
+97	4097	llavi	llavis
+98	4098	milla	milles
+99	4099	cerebral	cerebrals
+100	4100	mentider	mentidera mentiders

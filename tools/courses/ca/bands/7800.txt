@@ -1,0 +1,100 @@
+1	7701	violoncel	violoncels
+2	7702	cardiovascular	cardiovasculars
+3	7703	cilindre	cilindres
+4	7704	pragmàtic	pragmàtica pragmàtics pragmàtiques
+5	7705	commovedor	commovedora commovedores commovedors
+6	7706	subgrup	subgrups
+7	7707	guarnir	guarneix guarneixen guarnia guarnida guarnides guarnien guarnint guarnit guarnits
+8	7708	instruir	instrueix instrueixen instruint instruirà instruí instruïa instruïda instruïdes instruïen instruït instruïts
+9	7709	perifèric	perifèrica perifèrics perifèriques
+10	7710	pudent	pudents
+11	7711	imant	imants
+12	7712	pròtesi	pròtesis
+13	7713	paramilitar	paramilitars
+14	7714	cuca	cuques cuqueta
+15	7715	eslau	eslaus eslava eslaves
+16	7716	concòrdia	concòrdies
+17	7717	refinat	refinada refinades refinats
+18	7718	nostàlgic	nostàlgica nostàlgics nostàlgiques
+19	7719	coix	coixa coixos
+20	7720	perforació	perforacions
+21	7721	implacable	implacables
+22	7722	franquícia	franquícies
+23	7723	ressentiment	ressentiments
+24	7724	aranès	aranesa araneses aranesos aranés
+25	7725	salpar	salpa salpant salparà salpat salpava salpem salpen salpes salpà salpàs salpés
+26	7726	mainada	mainades
+27	7727	implícit	implícita implícites implícits
+28	7728	altesa	alteses
+29	7729	singularitat	singularitats
+30	7730	inofensiu	inofensius inofensiva inofensives
+31	7731	sella	selles
+32	7732	sor	sora sors
+33	7733	extractiu	extractius extractiva extractives
+34	7734	inclinat	inclinada inclinades inclinats
+35	7735	sacre	sacra sacres
+36	7736	cocodril	cocodrils
+37	7737	aristòcrata	aristòcrates
+38	7738	intrigant	intrigants
+39	7739	impossibilitat	impossibilitada impossibilitats
+40	7740	modernitzar	modernitza modernitzada modernitzades modernitzant modernitzat modernitzats modernitzava modernitzen modernitzà
+41	7741	hemorràgia	hemorràgies
+42	7742	taronger	tarongers
+43	7743	vil	vils
+44	7744	parèntesi	parèntesis
+45	7745	brutalment	
+46	7746	caixmir	
+47	7747	calces	
+48	7748	catolicisme	
+49	7749	cros	
+50	7750	desgast	
+51	7751	detalladament	
+52	7752	messies	
+53	7753	notorietat	
+54	7754	rossell	
+55	7755	carrossa	carrosses
+56	7756	padró	padrons
+57	7757	desconfiar	desconfia desconfiada desconfiant desconfiat desconfiats desconfiava desconfiaven desconfien desconfies desconfieu desconfio
+58	7758	excitar	excita excitada excitades excitant excitants excitats excitava exciten
+59	7759	biòleg	biòlegs biòloga
+60	7760	butlleta	butlletes
+61	7761	conferir	confereix confereixen confereixi conferia conferida conferides conferien conferint conferit conferits conferí
+62	7762	incomplet	incompleta incompletes incomplets
+63	7763	retrobament	retrobaments
+64	7764	neolític	neolítica neolítics neolítiques
+65	7765	conferenciar	conferencia conferencies
+66	7766	auster	austera austeres austers
+67	7767	doblatge	doblatges
+68	7768	subtitular	subtitula subtitulada subtitulades subtitulat subtitulats
+69	7769	fossat	fossats
+70	7770	rèptil	rèptils
+71	7771	glàndula	glàndules
+72	7772	pirar	pir pira pirat pirats pires piris
+73	7773	besavi	besavis
+74	7774	desvetllar	desvetlla desvetllada desvetllant desvetllaré desvetllat desvetllats desvetllava desvetllen desvetllà
+75	7775	geganter	gegantera geganteres geganters
+76	7776	candela	candeles canela
+77	7777	triangular	triangula triangulars
+78	7778	telegrama	telegrames
+79	7779	gorg	gorgs
+80	7780	cardíac	cardíacs cardíaques
+81	7781	perdiu	perdius
+82	7782	obi	obis
+83	7783	tomar	toma tomada tomares tomen tomes tomeu tomi tomis tomo
+84	7784	estafar	estafada estafades estafant estafat estafats estafes
+85	7785	gestar	gestada gestant gestants gestat gestava gesten gestes gestis gesto gestà gestí
+86	7786	pansa	panses
+87	7787	rebost	rebostos rebosts
+88	7788	assoliment	assoliments
+89	7789	atribut	atributs
+90	7790	ximpleria	ximpleries
+91	7791	gralla	gralles
+92	7792	pillar	pilla pillant pillat pillats pillen pilles pillo
+93	7793	qualque	qualques
+94	7794	fall	falls
+95	7795	teixidor	teixidora teixidores teixidors
+96	7796	anuari	anuaris
+97	7797	zebra	zebres
+98	7798	coreògraf	coreògrafa coreògrafs
+99	7799	prosperar	prospera prosperant prosperaren prosperaria prosperat prosperava prosperen prosperes prosperessin prosperi prosperin prospero prosperà prosperés
+100	7800	biogràfic	biogràfica biogràfics biogràfiques

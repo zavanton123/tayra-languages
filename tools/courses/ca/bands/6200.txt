@@ -1,0 +1,100 @@
+1	6101	mineria	
+2	6102	rugbi	
+3	6103	sinceritat	
+4	6104	llagosta	llagostes
+5	6105	beta	betes
+6	6106	amarg	amarga amargs amargues
+7	6107	senyoreta	senyoretes
+8	6108	satíric	satírica satírics satíriques
+9	6109	espavilar	espavila espavilada espavilarà espavilat espavilats espavilem espavilen espaviles espavileu espavilin
+10	6110	vibració	vibracions
+11	6111	extraterrestre	extraterrestres
+12	6112	endur-se	endut enduts
+13	6113	víking	víkinga víkings
+14	6114	mamar	mamada mamades mamant mamaria mamat mamen mames mami mamà mamés
+15	6115	negació	negacions
+16	6116	espès	espesa espessa espesses espessos espés
+17	6117	fascinar	fascina fascinada fascinat fascinats fascinava fascinaven fascinen fascinà
+18	6118	dissident	dissidents
+19	6119	pescar	pesc pescada pescades pescant pescat pescats pescava pescaven pesco pesquem pesquen pesques
+20	6120	martiri	martiris
+21	6121	alè	alens alé
+22	6122	eixamplar	eixampla eixamplada eixamplades eixamplant eixamplaren eixamplat eixamplats eixamplava eixamplem eixamplen eixamples eixampli eixamplà
+23	6123	medicació	medicacions
+24	6124	retreure	retraient retrau retraure retreia retreien retret retreta retrets retreu retreuen
+25	6125	intensificar	intensifica intensificada intensificant intensificaren intensificaria intensificarà intensificat intensificava intensificaven intensificà intensifiquen intensifiqui
+26	6126	solista	solistes
+27	6127	teló	telons
+28	6128	bisbat	bisbats
+29	6129	escassetat	escassedat
+30	6130	maldat	maldats
+31	6131	faraó	faraona faraons
+32	6132	ase	ases
+33	6133	fondre	fonc fondran fondria fondrà fonem fonen fonent fongueren fonguessin fongui fonguin fongué fongués fonia fonien fos foses fosos
+34	6134	consol	consols
+35	6135	cistella	cistelles
+36	6136	doctoral	doctorals
+37	6137	letal	letals
+38	6138	estudiantil	estudiantils
+39	6139	anella	anelles
+40	6140	dofí	dofins
+41	6141	insinuar	insinua insinuada insinuant insinuat insinuava insinuaven insinuen insinues insinuo insinuà
+42	6142	consigna	consignes
+43	6143	cronista	cronistes
+44	6144	vinagre	vinagres
+45	6145	biga	bigues
+46	6146	rem	rems
+47	6147	semàfor	semàfors
+48	6148	neutral	neutrals
+49	6149	consola	consoles
+50	6150	partitura	partitures
+51	6151	ascensió	ascensions
+52	6152	bridge	bridges
+53	6153	obtenció	obtencions
+54	6154	declivi	declivis
+55	6155	adjudicar	adjudica adjudicada adjudicades adjudicant adjudicaren adjudicaria adjudicarà adjudicat adjudicats adjudicava adjudicaven adjudicà adjudiquen adjudiqués
+56	6156	unificació	unificacions
+57	6157	comptable	comptables
+58	6158	brillar	brillarà brillat brillava brillaven brille brillen brilles brilli brillo brillà brillés
+59	6159	astronauta	astronautes
+60	6160	hipòcrita	hipòcrites
+61	6161	incendiar	incendia incendiada incendiades incendiant incendiaren incendiaria incendiat incendiats incendien incendies incendio incendià
+62	6162	grua	grues
+63	6163	reobrir	reobert reoberta reobertes reobre reobren reobri reobria reobrim reobrint reobriran reobrirà reobrí reobrís
+64	6164	apologia	
+65	6165	capdamunt	
+66	6166	cocaïna	
+67	6167	honestedat	
+68	6168	internacionalització	
+69	6169	metàl·lic	
+70	6170	paral·lela	
+71	6171	positivament	
+72	6172	potencialment	
+73	6173	propagació	
+74	6174	soledat	
+75	6175	porra	porres
+76	6176	egoista	egoistes
+77	6177	catalogar	cataloga catalogada catalogades catalogant catalogat catalogats catalogava catalogo cataloguen catalogui
+78	6178	tripulant	tripulants
+79	6179	massacrar	massacra massacrada massacrades massacrant massacrat massacrats massacren massacres
+80	6180	remetre	remesa remeses remesos remet remeta remeten remetent remeti remetia remetien remetin remeto remetria remetrà remeté remès
+81	6181	recipient	recipients
+82	6182	meló	melons
+83	6183	cigarreta	cigarretes
+84	6184	venerar	venera venerada venerades venerant venerat venerats venerava veneraven venere veneren veneres veneri venerin veneris venero venèria
+85	6185	franctirador	franctiradora franctiradores franctiradors
+86	6186	sastre	sastres sastressa
+87	6187	incompliment	incompliments
+88	6188	suplicar	suplica suplicant suplicants suplicaren suplicat suplicava suplico suplicà supliquen supliques
+89	6189	estadístic	estadístics estadístiques
+90	6190	obviar	obvia obviada obviades obviant obviat obviats obviava obvien obvies obvio
+91	6191	subordinat	subordinada subordinades subordinats
+92	6192	embassament	embassaments
+93	6193	dialecte	dialectes
+94	6194	filòleg	filòlegs filòloga
+95	6195	bàltic	bàltica bàltics bàltiques
+96	6196	complementar	complementa complementada complementades complementant complementaren complementaria complementarien complementarà complementat complementats complementava complementaven complementen complementi complementin complemento complementà complementés
+97	6197	trilogia	trilogies
+98	6198	especificació	especificacions
+99	6199	quiosc	quioscos quioscs
+100	6200	vilar	vilars

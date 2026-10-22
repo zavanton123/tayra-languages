@@ -1,0 +1,100 @@
+1	1101	implicar	implica implicada implicades implicant implicaran implicaren implicaria implicarien implicarà implicat implicats implicava implicaven implico implicà implique impliquem impliquen impliquessin impliqui impliquin impliqués
+2	1102	voluntari	voluntaris voluntària voluntàries
+3	1103	ampli	amplis àmplia àmplies
+4	1104	concentració	concentracions
+5	1105	arxiu	arxius
+6	1106	fred	freda fredes freds
+7	1107	simple	simples
+8	1108	cursa	curses
+9	1109	merèixer	mereix mereixem mereixen mereixent mereixeria mereixerien mereixerà mereixes mereixeu mereixi mereixia mereixien mereixies mereixin mereixo mereixés merescuda merescudes merescut merescuts meresqué meréixer
+10	1110	traducció	traduccions
+11	1111	repte	reptes
+12	1112	disc	discos discs
+13	1113	secret	secreta secretes secrets
+14	1114	sexe	sexes
+15	1115	oi	ois
+16	1116	alhora	
+17	1117	completament	
+18	1118	oest	
+19	1119	correu	correus
+20	1120	cartell	cartells
+21	1121	editorial	editorials
+22	1122	net	neta netes nets nét néta
+23	1123	pretendre	pretenc pretendria pretendrà pretenem pretenen pretenent preteneu pretengueren pretenguessin pretengui pretenguin pretengué pretengués pretenia pretenien pretenies pretens pretesa preteses pretesos pretès pretén
+24	1124	cita	cites
+25	1125	plaure	plac plagui plagués plau plauen plaus plaïa
+26	1126	oferta	ofertes
+27	1127	matrimoni	matrimonis
+28	1128	facilitar	facilita facilitada facilitades facilitant facilitaran facilitaren facilitaria facilitarien facilitarà facilitat facilitats facilitava facilitaven faciliten facilites facilitessin faciliteu faciliti facilitin facilità facilités
+29	1129	convocar	convoca convocada convocades convocant convocarem convocaren convocaria convocarien convocarà convocaré convocat convocats convocava convocaven convocà convoquem convoquen convoquessin convoqueu convoqui convoquin convoqués
+30	1130	assolir	assoleix assoleixen assoleixi assoleixin assolia assolida assolides assolien assolim assolint assoliran assolirem assoliren assoliria assolirien assolirà assolisca assolissin assolit assolits assolí assolís
+31	1131	tècnica	tècniques
+32	1132	resultar	resultant resultants resultara resultaran resultaren resultaria resultarien resultarà resultats resultava resultaven resulte resulten resultes resultessin resulti resultin resultà resultés
+33	1133	silenci	silencis
+34	1134	estrany	estranya estranyes estranys
+35	1135	documental	documentals
+36	1136	definir	defineix defineixen defineixes defineixi defineixin definia definida definides definien definim definint definiran definirem definiren definiria definirien definirà definissin definit definits definix definixen definí definís
+37	1137	bastant	bastanta bastantes bastants
+38	1138	repetir	repeteix repeteixen repeteixes repeteixi repeteixin repeteixis repeteixo repetia repetida repetides repetien repetim repetint repetiran repetirem repetiren repetiria repetirien repetirà repetiré repetisca repetissin repetit repetits repetiu repetix repetí repetís
+39	1139	missió	missions
+40	1140	corrupció	corrupcions
+41	1141	blog	blogs
+42	1142	limitar	limita limitada limitades limitant limitaran limitarem limitaren limitaria limitarien limitarà limitaré limitat limitats limitava limitaven limite limitem limiten limites limitessin limiti limitin limitis limito limità limités
+43	1143	positiu	positius positiva positives
+44	1144	crim	crims
+45	1145	resulta	resultes
+46	1146	col·laboració	
+47	1147	tanmateix	
+48	1148	espectacle	espectacles
+49	1149	celebració	celebracions
+50	1150	parella	parelles
+51	1151	carregar	carreg carrega carregada carregades carregant carregaran carregarem carregaren carregaria carregarien carregarà carregaré carregat carregats carregava carregaven carrego carregue carreguem carreguen carregues carreguessin carregueu carregui carreguin carreguis carregués carregà
+52	1152	perfil	perfils
+53	1153	avió	avions
+54	1154	manifestar	manifesta manifestada manifestades manifestant manifestants manifestaran manifestarem manifestaren manifestaria manifestarien manifestarà manifestat manifestats manifestava manifestaven manifeste manifestem manifesten manifestes manifestessin manifesti manifestin manifesto manifestà manifestés
+55	1155	causar	causada causades causant causants causaran causaren causaria causarien causarà causat causats causava causaven causen causes causessin causi causin causis causà causés
+56	1156	oposició	oposicions
+57	1157	reconeixement	reconeixements
+58	1158	intenció	intencions
+59	1159	importar	importa importada importades importaren importaria importarà importat importats importava importaven importe importem importen importes importi importin importo importà importés
+60	1160	cost	costos costs
+61	1161	lletra	lletres
+62	1162	crític	crítics crítiques
+63	1163	confiança	confiances
+64	1164	vent	vents
+65	1165	dilluns	
+66	1166	temperatura	temperatures
+67	1167	convidar	convid convida convidada convidades convidam convidant convidaran convidarem convidaren convidaria convidarà convidaré convidats convidava convidaven convidem conviden convides convidessin convideu convidi convidin convidis convido convidà convidés
+68	1168	destinar	destina destinada destinades destinant destinaran destinaren destinaria destinarien destinarà destinat destinats destinava destinaven destinem destinen destinessin destini destinin destino destinà destinés
+69	1169	roca	roques
+70	1170	romandre	roman romandran romandrem romandria romandrien romandrà romandré romanem romanen romanent romanents romanga romangueren romanguessin romangui romanguin romangué romangués romania romanien romans romàs
+71	1171	mon	mons mos mosset mossos
+72	1172	referir	refereix refereixen refereixes refereixi refereixin refereixo referia referida referides referien referies referim referint referiran referirem referiria referirà referisc referissin referit referits referiu referix referixen referí referís
+73	1173	regidor	regidora regidores regidors
+74	1174	interessar	interessa interessada interessades interessaren interessaria interessarà interessats interessava interessaven interessen interesses interessessin interessi interessin interesso interessà interessés
+75	1175	àrab	àrabs
+76	1176	disponible	disponibles
+77	1177	cafè	cafès café
+78	1178	eliminar	elimina eliminada eliminades eliminant eliminaran eliminarem eliminaren eliminaria eliminarien eliminarà eliminaré eliminat eliminats eliminava eliminaven eliminem eliminen elimines eliminessin elimineu elimini eliminin eliminà eliminés
+79	1179	puta	putes puto putos
+80	1180	parell	parelles parells
+81	1181	extrem	extrema extremes extrems
+82	1182	bàsic	bàsica bàsics bàsiques
+83	1183	elèctric	elèctrica elèctrics elèctriques
+84	1184	vostè	vostès
+85	1185	conversa	converses
+86	1186	encantar	encanta encantada encantades encantant encantaran encantaria encantarà encantats encantava encantaven encanten encantes encanti encanto encantà
+87	1187	exercir	exerceix exerceixen exerceixi exerceixin exercia exercida exercides exercien exercim exercint exerciran exercirem exerciren exerciria exercirien exercirà exercissin exercit exercits exercix exercixen exercí exercís
+88	1188	resolució	resolucions
+89	1189	actualitat	actualitats
+90	1190	solidaritat	solidaritats
+91	1191	normalment	
+92	1192	delicte	delictes
+93	1193	japonès	japonesa japoneses japonesos japonés
+94	1194	infant	infants
+95	1195	gust	gustos gusts
+96	1196	artístic	artística artístics artístiques
+97	1197	gas	gasos
+98	1198	trucar	truca trucada trucades trucant trucaran trucarem trucaria trucarien trucarà trucaràs trucaré trucat trucats trucava trucaven truco trucà trucàvem truquem truquen truques truquessin truqueu truqui truquin truquis truqués
+99	1199	imposar	imposa imposada imposades imposant imposants imposaran imposaren imposaria imposarien imposarà imposat imposats imposava imposaven imposem imposen imposessin imposi imposin imposo imposà imposés
+100	1200	avi	avis àvia àvies

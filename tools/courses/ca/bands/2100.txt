@@ -1,0 +1,100 @@
+1	2001	columna	columnes
+2	2002	zero	zeros
+3	2003	combinar	combina combinada combinades combinant combinaran combinaren combinaria combinarà combinat combinats combinava combinaven combinem combinen combines combinessin combini combinin combinà combinés
+4	2004	apartament	apartaments
+5	2005	tall	talls
+6	2006	liberal	liberals
+7	2007	cervell	cervells
+8	2008	tio	tia ties tios
+9	2009	persecució	persecucions
+10	2010	excusa	excuses
+11	2011	exercici	exercicis
+12	2012	exili	exilis
+13	2013	intercanvi	intercanvis
+14	2014	aposta	apostes
+15	2015	criar	cria criada criades criant criat criats criava criaven crie criem crien cries crio crià criés criïn
+16	2016	onze	onzes
+17	2017	restar	restada restant restants restaran restaren restaria restarien restarà restat restava restaven reste restem resten restessin resteu resti restin resto restà restés
+18	2018	prioritat	prioritats
+19	2019	apunt	apunts
+20	2020	atorgar	atorga atorgada atorgades atorgant atorgants atorgaran atorgarem atorgaren atorgaria atorgarien atorgarà atorgat atorgats atorgava atorgaven atorgo atorgue atorguen atorguessin atorgui atorguin atorgués atorgà
+21	2021	enmig	
+22	2022	oh	
+23	2023	donació	donacions
+24	2024	diada	diades
+25	2025	tancament	tancaments
+26	2026	ficar	fica ficada ficades ficant ficaran ficarem ficaren ficaria ficarà ficaré ficat ficats ficava ficaven fico ficà fique fiquem fiquen fiques fiquessin fiqueu fiqui fiquin fiquis fiqués
+27	2027	bany	banys
+28	2028	moneda	monedes
+29	2029	nuclear	nuclears
+30	2030	projectar	projecta projectada projectades projectant projectaran projectarem projectaren projectaria projectarà projectat projectats projectava projectaven projectem projecten projectes projectessin projecti projectin projecto projectà projectés
+31	2031	atès	atesa ateses atesos atés
+32	2032	cinquè	cinquena cinquenes cinquens cinqué
+33	2033	oriental	orientals
+34	2034	atreure	atrac atragueren atragué atragués atraiem atraient atraients atrau atrauen atrauran atraure atrauria atraurà atregui atreguin atreia atreien atret atreta atretes atrets atreu atreuen atreus
+35	2035	aparell	aparells
+36	2036	laboratori	laboratoris
+37	2037	virtual	virtuals
+38	2038	fracàs	fracassos
+39	2039	espectador	espectadora espectadores espectadors
+40	2040	candidatura	candidatures
+41	2041	eixir	eixia eixida eixides eixien eixim eixint eixiran eixirem eixiren eixiria eixirà eixit eixits eixí isca isquen isquera isqueren ix ixen ixes ixo
+42	2042	alimentar	alimenta alimentada alimentades alimentant alimentaran alimentaren alimentaria alimentaries alimentarà alimentat alimentats alimentava alimentaven alimentem alimenten alimentes alimentessin alimenteu alimenti alimentin alimento alimentà alimentés
+43	2043	docent	docents
+44	2044	invertir	inverteix inverteixen inverteixi inverteixin invertia invertida invertides invertien invertim invertint invertiran invertiren invertiria invertirien invertirà invertissin invertit invertits invertí invertís
+45	2045	reservar	reservada reservades reservant reservaren reservaria reservat reservats reservava reservaven reserven reserves reserveu reservi reservo reservà reservés
+46	2046	turista	turistes
+47	2047	votació	votacions
+48	2048	presidència	presidències
+49	2049	lingüístic	lingüístics lingüístiques
+50	2050	debatre	debatem debaten debatent debateren debati debatia debatien debatran debatrem debatrà debats debatuda debatudes debatut debatuts debaté debatés
+51	2051	còpia	còpies
+52	2052	brutal	brutals
+53	2053	documentació	documentacions
+54	2054	adonar	adonara adone
+55	2055	digne	digna dignes
+56	2056	barça	
+57	2057	debò	
+58	2058	cerca	cerques
+59	2059	constar	consta constaria constarà constat constava constaven consten consti constin constà constés
+60	2060	orientació	orientacions
+61	2061	jurat	jurada jurades jurats
+62	2062	etiqueta	etiquetes
+63	2063	punta	puntes
+64	2064	catòlic	catòlica catòlics catòliques
+65	2065	temple	temples
+66	2066	feminista	feministes
+67	2067	infraestructura	infraestructures
+68	2068	costum	costums
+69	2069	ala	ales
+70	2070	especialitzar	especialitza especialitzada especialitzades especialitzant especialitzaren especialitzat especialitzats especialitzava especialitzaven especialitzen especialitzà
+71	2071	maco	maca macos maques
+72	2072	passejar	passegem passegen passeges passegi passeja passejada passejades passejant passejants passejaran passejaré passejat passejava passejaven passejo passejà passejàvem
+73	2073	activista	activistes
+74	2074	negociació	negociacions
+75	2075	ridícul	ridícula ridícules ridículs
+76	2076	màgic	màgica màgics màgiques
+77	2077	estatut	estatuts
+78	2078	medieval	medievals
+79	2079	ideal	ideals
+80	2080	signatura	signatures
+81	2081	tempesta	tempestes
+82	2082	llençar	llencem llencen llences llencessin llenceu llenci llencin llencis llencés llença llençada llençades llençant llençaren llençaria llençarien llençarà llençaré llençat llençats llençava llençaven llenço llençà
+83	2083	visual	visuals
+84	2084	relleu	relleus
+85	2085	projecció	projeccions
+86	2086	acusat	acusada acusades acusats
+87	2087	fenomen	fenòmens
+88	2088	reforçar	reforcem reforcen reforcessin reforci reforcin reforcés reforça reforçada reforçades reforçant reforçarem reforçaren reforçaria reforçarien reforçarà reforçat reforçats reforçava reforçaven reforçà
+89	2089	fidel	fidels
+90	2090	resident	residents
+91	2091	curiós	curiosa curioses curiosos
+92	2092	múltiple	múltiples
+93	2093	mesurar	mesurada mesurades mesurant mesuraran mesuraren mesuraria mesurarà mesurat mesurats mesurava mesuraven mesurem mesuren mesures mesuri mesurin mesurà mesurés
+94	2094	possiblement	
+95	2095	capa	capes
+96	2096	vestir	vesteix vesteixen vesteixes vesteixi vesteixin vesteixo vestia vestida vestides vestien vestim vestint vestiran vestiren vestiria vestirà vestissin vestits vestiu vestí vestís visten
+97	2097	molí	molinet molinets molins
+98	2098	assassí	assassina assassines assassins
+99	2099	classificació	classificacions
+100	2100	inscriure	inscrigui inscrigué inscrit inscrita inscrites inscrits inscriu inscriuen inscriuria inscriurà inscrivia inscrivien inscrivint inscriviu inscriví

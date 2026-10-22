@@ -1,0 +1,100 @@
+1	5701	dispersar	dispersa dispersada dispersades dispersant dispersaran dispersaren dispersarà dispersat dispersats dispersaven dispersen disperses dispersi dispersin dispersà dispersés
+2	5702	íntegre	íntegra íntegres
+3	5703	sender	senders
+4	5704	oracle	oracles
+5	5705	comercialitzar	comercialitza comercialitzada comercialitzades comercialitzant comercialitzaren comercialitzarà comercialitzat comercialitzats comercialitzava comercialitzaven comercialitzen comercialitzi comercialitzin comercialitzà comercialitzés
+6	5706	trentè	trentena
+7	5707	xat	xats
+8	5708	depredador	depredadora depredadores depredadors
+9	5709	indefinit	indefinida indefinides indefinits
+10	5710	formulari	formularis
+11	5711	jou	jous
+12	5712	hospitalari	hospitalaris hospitalària hospitalàries
+13	5713	suro	suros
+14	5714	vivent	vivents
+15	5715	bru	bruna brunes bruns
+16	5716	afectació	afectacions
+17	5717	naufragi	naufragis
+18	5718	immunitat	immunitats
+19	5719	ressaltar	ressalt ressalta ressaltada ressaltades ressaltant ressaltat ressaltats ressaltava ressaltaven ressalten ressalti ressalts
+20	5720	exhaustiu	exhaustius exhaustiva exhaustives
+21	5721	interrogatori	interrogatoris
+22	5722	predominar	predomina predominaran predominaren predominaria predominarà predominat predominava predominaven predominen predominin predominà
+23	5723	submissió	submissions
+24	5724	denegar	denega denegada denegades denegant denegat denegats denegava deneguen denegués denegà
+25	5725	pasqual	pasquals
+26	5726	visar	vis visa visats vises viseu visi viso visos
+27	5727	guineu	guineus
+28	5728	titularitat	titularitats
+29	5729	arbitrari	arbitraris arbitrària arbitràries
+30	5730	enteniment	enteniments
+31	5731	cadell	cadells
+32	5732	tiquet	tiquets
+33	5733	peó	peona peones peons
+34	5734	colombià	colombiana colombianes colombians
+35	5735	privatització	privatitzacions
+36	5736	comunisme	
+37	5737	homosexualitat	
+38	5738	indiferència	
+39	5739	infanteria	
+40	5740	voluntàriament	
+41	5741	rierol	rierols
+42	5742	bretxa	bretxes
+43	5743	conducció	conduccions
+44	5744	immers	immersa immerses immersos
+45	5745	muscular	musculars
+46	5746	puntada	puntades
+47	5747	vici	vicis
+48	5748	nouvingut	nouvinguda nouvingudes nouvinguts
+49	5749	temptació	temptacions
+50	5750	assajar	assagem assagen assaja assajada assajades assajant assajarem assajaren assajarà assajat assajats assajava assajaven assajà
+51	5751	rehabilitar	rehabilita rehabilitada rehabilitades rehabilitant rehabilitat rehabilitats rehabiliten rehabilità
+52	5752	cerdà	cerdana cerdanes cerdans
+53	5753	dau	daus
+54	5754	ensorrar	ensorra ensorrada ensorrades ensorrant ensorrarà ensorrat ensorrats ensorrava ensorren ensorri ensorrà ensorrés
+55	5755	caricatura	caricatures
+56	5756	erigir	erigeix erigeixen erigia erigida erigides erigien erigint erigiren erigiria erigirà erigissin erigit erigits erigí erigís
+57	5757	dossier	dossiers
+58	5758	àtom	àtoms
+59	5759	mafiós	mafiosa mafioses mafiosos
+60	5760	cosir	cosia cosida cosides cosien cosim cosint cosit cosits cus cusen cuses cusi cuso
+61	5761	rectificació	rectificacions
+62	5762	afiliació	afiliacions
+63	5763	discrepància	discrepàncies
+64	5764	guix	guixos
+65	5765	afluència	afluències
+66	5766	penitenciari	penitenciaris penitenciària penitenciàries
+67	5767	monòleg	monòlegs
+68	5768	desigual	desiguals
+69	5769	iaio	iaia iaies iaios
+70	5770	radiofònic	radiofònica radiofònics radiofòniques
+71	5771	dictamen	dictàmens
+72	5772	vermut	vermuts
+73	5773	ratxa	ratxes
+74	5774	exigent	exigents
+75	5775	escriptori	escriptoris
+76	5776	simulació	simulacions
+77	5777	balança	balances
+78	5778	inserció	insercions
+79	5779	sonda	sondes
+80	5780	esgarrifós	esgarrifosa esgarrifoses esgarrifosos
+81	5781	folklore	folklores
+82	5782	soldar	solda soldada soldades soldans soldant soldats solden soldeu soldà sultà
+83	5783	foraster	forastera forasteres forasters
+84	5784	coreografia	coreografies
+85	5785	activisme	
+86	5786	fermament	
+87	5787	regeneració	
+88	5788	mill	mills
+89	5789	reproductor	reproductora reproductores reproductors
+90	5790	vomitar	vomita vomitades vomitant vomitat vomitava vomites vomito
+91	5791	leone	leones
+92	5792	torxa	torxes
+93	5793	alga	algues
+94	5794	precipitar	precipita precipitada precipitades precipitant precipitaran precipitaren precipitaria precipitarà precipitat precipitats precipitava precipitaven precipiten precipiti precipitin precipità precipités
+95	5795	endarrerir	endarrereix endarrereixen endarrereixin endarreria endarrerida endarrerides endarrerien endarrerint endarrerit endarrerits endarrerí endarrerís
+96	5796	procedència	procedències
+97	5797	llibertari	llibertaris llibertària llibertàries
+98	5798	genet	geneta genetes genets
+99	5799	brou	brous
+100	5800	porqueria	porqueries

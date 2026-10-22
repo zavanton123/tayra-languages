@@ -1,0 +1,100 @@
+1	1801	jurídic	jurídica jurídics jurídiques
+2	1802	naixement	naixements
+3	1803	pur	pura pures purs puríssim
+4	1804	orient	
+5	1805	guardar	guardada guardades guardant guardaran guardarem guardaren guardaria guardarà guardaré guardat guardats guardava guardaven guarde guardem guarden guardes guardessin guardeu guardi guardin guardis guardo guardà guardés
+6	1806	tecnològic	tecnològica tecnològics tecnològiques
+7	1807	desconegut	desconeguda desconegudes desconeguts
+8	1808	tropa	tropes
+9	1809	varietat	varietats
+10	1810	aprenentatge	aprenentatges
+11	1811	alegria	alegries
+12	1812	transició	transicions
+13	1813	dimensió	dimensions
+14	1814	organisme	organismes
+15	1815	dany	danys
+16	1816	torneig	torneigs tornejos
+17	1817	dictadura	dictadures
+18	1818	fomentar	fomenta fomentada fomentades fomentant fomentaran fomentaren fomentaria fomentarà fomentat fomentats fomentava fomentaven fomentem fomenten fomentessin fomenti fomentin fomento fomentà fomentés
+19	1819	autonomia	autonomies
+20	1820	revisar	revisa revisada revisades revisant revisarem revisaren revisaria revisarà revisaré revisat revisats revisava revisaven revisem revisen revises revisessin reviseu revisi revisin revisis revisà revisés
+21	1821	revolucionari	revolucionaris revolucionària revolucionàries
+22	1822	cadira	cadires cadireta cadiretes
+23	1823	manar	mana manada manades manant manaren manaria manarà manaré manat manats manau manava manaven manem manen manes maneu mani manin manis mano manà manés maní
+24	1824	medalla	medalles
+25	1825	fòrum	fòrums
+26	1826	esclau	esclaus esclava esclaves
+27	1827	basc	basca bascos bascs basques
+28	1828	finançar	financem financen finances financessin financin financés finança finançada finançades finançant finançaria finançarien finançarà finançat finançats finançava finançaven finançà
+29	1829	naturalesa	naturaleses
+30	1830	cercle	cercles círcol
+31	1831	contemporani	contemporanis contemporània contemporànies
+32	1832	ah	
+33	1833	clarament	
+34	1834	enlloc	
+35	1835	perfectament	
+36	1836	avantatge	avantatges
+37	1837	ritme	ritmes
+38	1838	lligar	llig lligades lligant lligants lligaran lligarem lligaren lligaria lligarà lligaré lligat lligats lligava lligaven lligo lligue lliguem lliguen lligues lliguessin lligueu lligui lliguin lliguis lligués lligà
+39	1839	ocell	aucell ocells
+40	1840	ignorar	ignora ignorada ignorades ignorant ignorants ignoraran ignorarà ignorat ignorats ignorava ignoraven ignorem ignoren ignores ignoressin ignoreu ignori ignorin ignoro ignorà ignorés
+41	1841	citar	cit citada citades citant citarem citaren citaria citarà citaré citat citats citava citaven citem citen cites citi citin citis cito cità cités
+42	1842	vestit	vestida vestides vestits
+43	1843	magnífic	magnífica magnífics magnífiques
+44	1844	protesta	protestes
+45	1845	esposa	esposes
+46	1846	adolescent	adolescents
+47	1847	patró	patrona patrones patrons
+48	1848	repartir	reparteix reparteixen reparteixes reparteixi reparteixin reparteixo repartia repartida repartides repartien repartim repartint repartiran repartirem repartiren repartiria repartirien repartirà repartiré repartissin repartit repartits repartix repartixen repartí repartís
+49	1849	con	cons
+50	1850	avisar	avisa avisada avisades avisant avisarem avisaren avisarà avisaré avisat avisats avisava avisaven avise avisem avisen avises avisessin aviseu avisi avisin avisis aviso avisà avisés
+51	1851	programació	programacions
+52	1852	nucli	nuclis
+53	1853	encendre	encenc encendran encendrem encendria encendrà encendré encenem encenen encenent enceneu encengueren encenguessin encengui encenguin encengué encengués encenia encenien encens encesa enceses encesos encès encén encés
+54	1854	solidari	solidaris solidària solidàries
+55	1855	contestar	contesta contestada contestades contestant contestaren contestaria contestarà contestaré contestat contestats contestava contestaven conteste contestem contesten contestes contesteu contesti contestin contestis contesto contestà contestí
+56	1856	regional	regionals
+57	1857	ponent	ponents
+58	1858	vicepresident	vicepresidenta vicepresidentes vicepresidents
+59	1859	convocatòria	convocatòries
+60	1860	ànima	ànimes
+61	1861	equipament	equipaments
+62	1862	alba	albes auba
+63	1863	gestionar	gestiona gestionada gestionades gestionant gestionaria gestionarà gestionat gestionats gestionava gestionaven gestione gestionem gestionen gestioni gestionin gestiono gestionà gestionés
+64	1864	classificar	classifica classificada classificades classificant classificaran classificaren classificaria classificarien classificarà classificat classificats classificava classificaven classificà classifiquem classifiquen classifiquessin classifiqui classifiquin classifiqués
+65	1865	interessat	interessada interessades interessats
+66	1866	cooperació	cooperacions
+67	1867	concentrar	concentra concentrada concentrades concentrant concentraran concentrarem concentraren concentrarien concentrarà concentrat concentrats concentrava concentraven concentrem concentren concentres concentressin concentreu concentri concentrin concentrà concentrés
+68	1868	sanitat	
+69	1869	permanent	permanents
+70	1870	targeta	targetes
+71	1871	palestí	palestina palestines palestins
+72	1872	recorregut	recorreguda recorregudes recorreguts
+73	1873	aguantar	aguanta aguantada aguantades aguantant aguantaran aguantarem aguantaren aguantaria aguantarà aguantaré aguantat aguantats aguantava aguantaven aguante aguantem aguanten aguantes aguantessin aguanteu aguanti aguantin aguanto aguantà aguantés
+74	1874	esmorzar	esmorza esmorzant esmorzarem esmorzars esmorzat esmorzava esmorzem esmorzen esmorzo
+75	1875	llatí	llatina llatines llatins
+76	1876	africà	africana africanes africans
+77	1877	detectar	detecta detectada detectades detectant detectaren detectaria detectarà detectat detectats detectava detectaven detectem detecten detectessin detecteu detecti detectin detecto detectà detectés
+78	1878	entrenament	entrenaments
+79	1879	concret	concreta concretes concrets
+80	1880	cavaller	cavallers
+81	1881	comandant	comandanta comandants
+82	1882	pati	patis
+83	1883	impost	impostos imposts
+84	1884	publicitat	publicitats
+85	1885	abast	abastos abasts
+86	1886	amo	ama ames amos
+87	1887	perdó	perdons
+88	1888	renunciar	renuncia renunciant renunciara renunciarem renunciaren renunciaria renunciarien renunciarà renunciaré renunciat renunciava renunciaven renunciem renuncien renuncies renunciessin renuncio renuncià renunciés renunciï renunciïn renunciïs
+89	1889	recentment	
+90	1890	revelar	revela revelada revelades revelant revelaran revelaren revelaria revelarien revelarà revelaré revelat revelats revelava revelaven revelem revelen revelessin reveli revelin revelà revelés
+91	1891	innovació	innovacions
+92	1892	substituir	substitueix substitueixen substitueixi substitueixin substitueixo substituint substituiran substituiria substituirien substituirà substituí substituís substituïa substituïda substituïdes substituïen substituïm substituïren substituïssin substituït substituïts substituïx substituïxen
+93	1893	ajut	ajuts
+94	1894	justificar	justifica justificada justificades justificant justificants justificaran justificaren justificaria justificarien justificat justificats justificava justificaven justificà justifiquen justifiques justifiquessin justifiqui justifiquin justifiqués
+95	1895	destí	destins
+96	1896	gastar	gasta gastada gastades gastant gastaren gastaria gastarà gastaré gastat gastats gastava gastaven gaste gastem gasten gastes gastessin gasteu gasti gastin gastis gasto gastà gastés
+97	1897	ment	ments
+98	1898	brillant	brillants
+99	1899	territorial	territorials
+100	1900	increïble	increïbles

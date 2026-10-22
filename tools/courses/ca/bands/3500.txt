@@ -1,0 +1,100 @@
+1	3401	essència	essències
+2	3402	ostatge	ostatges
+3	3403	admirar	admira admirada admirades admirant admirat admirats admirava admiraven admirem admiren admires admireu admiro admirà
+4	3404	graduar	gradua graduada graduades graduant graduat graduats graduen graduà
+5	3405	antena	antenes
+6	3406	fàstic	fastig fàstics
+7	3407	casualitat	casualitats
+8	3408	amable	amables
+9	3409	pota	potes
+10	3410	passatge	passatges ptge
+11	3411	economista	economistes
+12	3412	ingressar	ingressa ingressada ingressades ingressant ingressaran ingressaren ingressaria ingressarien ingressarà ingressat ingressats ingressava ingressaven ingressen ingressessin ingressi ingressin ingresso ingressà ingressés ingrès
+13	3413	sigla	sigles
+14	3414	copiar	copia copiada copiades copiant copiaren copiarà copiaré copiat copiats copiava copiaven copiem copien copies copio copià copiï
+15	3415	accelerar	accelera accelerada accelerades accelerant acceleraran acceleraren acceleraria accelerarà accelerat accelerats accelerava accelerem acceleren acceleri accelerin accelerà accelerés
+16	3416	veïnat	veïnats
+17	3417	tapa	tapes
+18	3418	diagnòstic	diagnòstica diagnòstics diagnòstiques
+19	3419	interrompre	interromp interrompem interrompen interrompent interromperen interrompi interrompia interrompien interrompin interrompis interromprà interrompuda interrompudes interromput interromputs interrompé interrompés
+20	3420	culminar	culmina culminada culminades culminant culminants culminaran culminaren culminaria culminarien culminarà culminat culminats culminava culminaven culminen culmini culminà culminés
+21	3421	bombardejar	bombardegen bombardegessin bombardeja bombardejada bombardejades bombardejant bombardejaren bombardejat bombardejats bombardejava bombardejaven bombardejos bombardejà
+22	3422	remarcar	remarca remarcada remarcades remarcant remarcat remarcats remarcava remarcaven remarcà remarque remarquem remarquen remarques
+23	3423	lucrar	lucre
+24	3424	fabricació	fabricacions
+25	3425	miserable	miserables
+26	3426	pactar	pacta pactada pactades pactant pactaran pactarem pactaren pactaria pactarà pactat pactats pactava pactaven pactem pacten pactes pacteu pacti pacto pactà pactés
+27	3427	naturalment	
+28	3428	ferrocarril	ferrocarrils
+29	3429	batxillerat	batxillerats
+30	3430	mixt	mixta mixtes mixtos mixts
+31	3431	rastre	rastres
+32	3432	pedagògic	pedagògica pedagògics pedagògiques
+33	3433	vídua	vídues
+34	3434	problemàtica	problemàtiques
+35	3435	antiguitat	antiguitats
+36	3436	casino	casinos
+37	3437	potenciar	potencia potenciada potenciades potenciant potenciarem potenciaria potenciarà potenciat potenciats potenciava potenciaven potenciem potencien potencies potencià potenciés potenciï potenciïn
+38	3438	jubilar	jubila jubilada jubilades jubilant jubilarà jubilat jubilats jubilava jubilen jubiles jubileu jubileus jubilo jubilà
+39	3439	clínica	clíniques
+40	3440	excés	excessos
+41	3441	constituent	constituents
+42	3442	expedient	expedients
+43	3443	auxiliar	auxilia auxiliada auxiliant auxiliares auxiliars auxiliat auxiliats auxilio
+44	3444	compost	composta compostes compostos composts
+45	3445	queixar-se	queixant queixaran queixaren queixarà queixaré queixat queixava queixaven queixem queixen queixessin queixeu queixi queixin queixis queixo queixà queixés
+46	3446	majoritari	majoritaris majoritària majoritàries
+47	3447	nu	nua nues
+48	3448	minar	minada minades minant minat minats minava minen mines mineu mini minin minis mino miní
+49	3449	lleure	lleu lleures lleus
+50	3450	gòtic	gòtica gòtics gòtiques
+51	3451	nomenament	nomenaments
+52	3452	emissora	emissores
+53	3453	litoral	litorals
+54	3454	silenciós	silenciosa silencioses silenciosos
+55	3455	bruixa	bruixes
+56	3456	sospita	sospites
+57	3457	màscara	màscares
+58	3458	península	penínsules
+59	3459	vegetació	vegetacions
+60	3460	inclús	inclusa inclusos
+61	3461	contradicció	contradiccions
+62	3462	pànic	pànics
+63	3463	hectàrea	hectàrees
+64	3464	raonable	raonables
+65	3465	nus	nusos
+66	3466	adherir	adhereix adhereixen adhereixi adhereixin adheria adherida adherides adherien adherim adherint adheriren adherirà adherissin adherit adherits adheriu adherí adherís
+67	3467	activament	
+68	3468	altament	
+69	3469	ignorància	
+70	3470	independentment	
+71	3471	satèl·lit	
+72	3472	àmpliament	
+73	3473	desplaçament	desplaçaments
+74	3474	avantpassat	avantpassada avantpassades avantpassats
+75	3475	íntim	íntima íntimes íntims
+76	3476	misèria	misèries
+77	3477	venedor	venedora venedores venedors
+78	3478	teràpia	teràpies
+79	3479	corb	corba corbes corbs curva
+80	3480	fart	farta fartes farts
+81	3481	flora	flores
+82	3482	hàbit	hàbits
+83	3483	rata	rates
+84	3484	postura	postures
+85	3485	realista	realistes
+86	3486	pebrot	pebrots
+87	3487	aparcar	aparca aparcada aparcades aparcant aparcat aparcats aparquem aparquen aparques aparqués
+88	3488	saludable	saludables
+89	3489	imaginació	imaginacions
+90	3490	dotar	dota dotada dotades dotant dotaren dotaria dotarà dotat dotats dotava dotaven doten dotes doti dotà dotés
+91	3491	mediambiental	mediambientals
+92	3492	enfocament	enfocaments
+93	3493	mensual	mensuals
+94	3494	semifinal	semifinals
+95	3495	abundant	abundants
+96	3496	decepció	decepcions
+97	3497	desafiar	desafia desafiada desafiant desafiaren desafiarà desafiat desafiats desafiava desafiaven desafiem desafien desafio desafià desafiï
+98	3498	educador	educadora educadores educadors
+99	3499	cinturó	cinturons
+100	3500	ordinari	ordinaris ordinària ordinàries

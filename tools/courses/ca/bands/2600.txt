@@ -1,0 +1,100 @@
+1	2501	especialista	especialistes
+2	2502	orella	orelles
+3	2503	desigualtat	desigualtats
+4	2504	joia	joies
+5	2505	fórmula	fórmules
+6	2506	transmissió	transmissions
+7	2507	contaminació	contaminacions
+8	2508	franc	franca francs franques
+9	2509	pesca	pesques
+10	2510	golf	golfs
+11	2511	enfonsar	enfonsa enfonsada enfonsades enfonsant enfonsaran enfonsaren enfonsaria enfonsarà enfonsat enfonsats enfonsava enfonsaven enfonsen enfonsessin enfonsi enfonsin enfonsà enfonsés
+12	2512	coure	coc cocs coent coents coeu cou couen coures cous coïa coïen cuit cuita cuites cuits
+13	2513	detenció	detencions
+14	2514	creativitat	
+15	2515	generalment	
+16	2516	infància	
+17	2517	paciència	
+18	2518	butxaca	butxaques
+19	2519	nas	nasos nassos
+20	2520	rescat	rescats
+21	2521	ferm	ferma fermes ferms
+22	2522	alar	alans alares alars alava aleu ali alà alàs alés alí
+23	2523	nebot	neboda nebodes nebots
+24	2524	rol	rols
+25	2525	rumor	rumors
+26	2526	discussió	discussions
+27	2527	passatger	passatgera passatgeres passatgers
+28	2528	ambiental	ambientals
+29	2529	evolucionar	evoluciona evolucionada evolucionades evolucionant evolucionaran evolucionaren evolucionaria evolucionarien evolucionarà evolucionat evolucionats evolucionava evolucionaven evolucionem evolucionen evolucioni evolucionin evolucionà evolucionés
+30	2530	paquet	paquets
+31	2531	forestal	forestals
+32	2532	fragment	fragments
+33	2533	glòria	glòries
+34	2534	químic	químics químiques
+35	2535	quadrat	quadrada quadrades quadrats
+36	2536	esborrar	esborra esborrada esborrades esborrant esborraria esborrarà esborraré esborrat esborrats esborrava esborraven esborrem esborren esborressin esborreu esborri esborrin esborro esborrà esborrés
+37	2537	adreçar	adrecen adreces adreceu adrecin adrecis adrecés adreçada adreçades adreçant adreçaren adreçat adreçats adreçava adreçaven adreçà
+38	2538	ecològic	ecològica ecològics ecològiques
+39	2539	possessió	possessions
+40	2540	manual	manuals
+41	2541	rendir	rendeix rendeixen rendeixes rendeixi rendeixin rendeixis rendeixo rendia rendida rendides rendien rendim rendint rendirem rendiren rendiria rendirien rendirà rendiré rendissin rendit rendits rendiu rendí rendís
+42	2542	renda	rendes
+43	2543	programari	programaris
+44	2544	lloguer	lloguers
+45	2545	fabricar	fabrica fabricada fabricades fabricaran fabricaren fabricarà fabricat fabricats fabricava fabricaven fabrico fabricà fabriquen fabriques fabriquessin fabriqui fabriquin fabriqués
+46	2546	invitació	invitacions
+47	2547	coca	coques
+48	2548	ubicació	ubicacions
+49	2549	passaport	passaports
+50	2550	protestar	protestada protestant protestants protestaren protestat protestava protestaven protesten protestes protestessin protesti protesto protestà
+51	2551	llevat	llevada llevades llevats
+52	2552	comparació	comparacions
+53	2553	escultura	escultures
+54	2554	dibuixar	dibuixa dibuixada dibuixades dibuixaren dibuixaria dibuixarien dibuixarà dibuixat dibuixats dibuixava dibuixaven dibuixem dibuixen dibuixes dibuixi dibuixin dibuixo dibuixà dibuixés
+55	2555	himne	himnes
+56	2556	ubicar	ubic ubica ubicada ubicades ubicant ubicaran ubicaren ubicaria ubicarien ubicarà ubicat ubicats ubicava ubicaven ubico ubics ubicà ubiqua ubiquem ubiquen ubiqui ubiqués ubiqües
+57	2557	transformació	transformacions
+58	2558	renovar	renova renovada renovades renovant renovaren renovaria renovarien renovarà renovat renovats renovava renovaven renovem renoven renovessin renoveu renovi renovà renovés
+59	2559	autorització	autoritzacions
+60	2560	sòlid	sòlida sòlides sòlids
+61	2561	ona	ones
+62	2562	traductor	traductora traductores traductors
+63	2563	prohibició	prohibicions
+64	2564	vital	vitals
+65	2565	clima	climes
+66	2566	insultar	insulta insultada insultant insultants insultaran insultaria insultat insultats insultava insultaven insultem insulten insultes insulti insultin insultis insulto insultà
+67	2567	metropolità	metropolitana metropolitanes metropolitans
+68	2568	forn	forns
+69	2569	vinya	vinyes vinyeta vinyetes
+70	2570	planejar	planegem planegen planeges planegeu planeig planeja planejada planejades planejant planejaren planejat planejats planejava planejaven planejà
+71	2571	enganxar	enganxa enganxada enganxades enganxant enganxaria enganxarà enganxaré enganxat enganxats enganxava enganxaven enganxem enganxen enganxes enganxessin enganxeu enganxi enganxin enganxis enganxo enganxà
+72	2572	cuinar	cuinada cuinades cuinant cuinarem cuinaria cuinarà cuinaré cuinat cuinats cuinava cuinaven cuinem cuinen cuines cuini cuinin cuino cuinàvem cuinés
+73	2573	gris	grisa grises grisos
+74	2574	progrés	progressos
+75	2575	dama	dames
+76	2576	continu	continus contínua contínues
+77	2577	marítim	marítima marítimes marítims
+78	2578	egipci	egipcis egípcia egípcies
+79	2579	ton	ta tes tesa tons tos tòs
+80	2580	graciar	gracia gracies gracià graciés
+81	2581	ambaixada	ambaixades
+82	2582	commemorar	commemora commemorada commemorant commemorat commemorava commemoraven commemorem commemoren commemorà commemorés
+83	2583	ferrer	ferrera ferreres ferrers
+84	2584	polèmica	polèmiques
+85	2585	resistir	resisteix resisteixen resisteixes resisteixi resisteixin resisteixo resistia resistien resistim resistint resistiran resistirem resistiren resistiria resistirien resistirà resistiré resistissin resistit resistiu resistiva resistives resistí resistís
+86	2586	reivindicació	reivindicacions
+87	2587	intel·lectual	
+88	2588	dependència	dependències
+89	2589	assabentar	assabenta assabentada assabentant assabentaran assabentaren assabentarà assabentat assabentats assabentava assabentaven assabentem assabenten assabentes assabentessin assabenti assabentin assabento assabentà assabentés
+90	2590	navegar	navega navegada navegades navegant navegants navegarem navegaren navegaràs navegat navegava navegaven navego naveguem naveguen navegues navegueu navegui naveguin navegà
+91	2591	suspensió	suspensions
+92	2592	olor	olors
+93	2593	afavorir	afavoreix afavoreixen afavoreixi afavoreixin afavoria afavorida afavorides afavorien afavorim afavorint afavoriran afavorirem afavoriren afavoriria afavoririen afavorirà afavorissin afavorit afavorits afavorí afavorís
+94	2594	drac	dracs
+95	2595	ideològic	ideològica ideològics ideològiques
+96	2596	reducció	reduccions
+97	2597	aparició	aparicions
+98	2598	xocolata	xocolates
+99	2599	bola	boles
+100	2600	subministrament	subministraments

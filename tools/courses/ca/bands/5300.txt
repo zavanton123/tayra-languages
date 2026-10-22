@@ -1,0 +1,100 @@
+1	5201	serè	serena serenes serens
+2	5202	inundar	inunda inundada inundades inundant inundaren inundaria inundat inundats inundava inundaven inunden inundi inundà
+3	5203	buidar	buid buidada buidades buidant buidaren buidat buidats buidava buidaven buiden buides buidi buidin buido buidà
+4	5204	benedicció	benediccions
+5	5205	generós	generosa generoses generosos
+6	5206	ballet	ballets
+7	5207	martell	martells
+8	5208	tirador	tiradora tiradores tiradors
+9	5209	senyera	senyeres
+10	5210	indispensable	indispensables
+11	5211	absent	absents
+12	5212	afusellar	afusella afusellada afusellades afusellant afusellaren afusellat afusellats afusellava afusellen afusellà
+13	5213	frustració	frustracions
+14	5214	folre	folres
+15	5215	granger	grangera grangers
+16	5216	provisió	provisions
+17	5217	enginy	enginys
+18	5218	fòssil	fòssils
+19	5219	apunyalar	apunyala apunyalada apunyalant apunyalat apunyalats
+20	5220	marquès	marquesa marqueses marquesos marqués
+21	5221	altitud	altituds
+22	5222	abusar	abusa abusada abusades abusant abusat abusats abusava abusaven abusen abuses abusi abusin abuso abusés
+23	5223	instrumental	instrumentals
+24	5224	sacsejar	sacsegen sacseja sacsejada sacsejades sacsejant sacsejaren sacsejat sacsejats sacsejava sacsejaven sacsejà
+25	5225	carolina	carolines
+26	5226	llacuna	llacunes
+27	5227	annex	annexa annexes annexos
+28	5228	esquerda	esquerdes
+29	5229	gola	goles
+30	5230	sembrar	sembrada sembrades sembrant sembrarem sembraren sembrat sembrats sembrava sembraven sembre sembrem sembren sembres sembri sembrà
+31	5231	setmanari	setmanaris
+32	5232	avalar	avala avalada avalades avalant avalat avalats avalava avalaven avalen avalessin avali avalin avalà avalés
+33	5233	regulador	reguladora reguladores reguladors
+34	5234	degà	degana deganes degans
+35	5235	suïcida	suïcides
+36	5236	traspàs	traspassos
+37	5237	destitució	destitucions
+38	5238	postgrau	postgraus
+39	5239	sobrenom	sobrenoms
+40	5240	resurrecció	resurreccions
+41	5241	obscur	obscura obscures obscurs
+42	5242	ajornar	ajorna ajornada ajornades ajornant ajornat ajornats ajornava ajornen ajornà ajornés
+43	5243	permanència	permanències
+44	5244	bastó	basto bastonet bastonets bastons
+45	5245	cercavila	cercaviles
+46	5246	pastilla	pastilles
+47	5247	antigament	
+48	5248	austeritat	
+49	5249	corpus	
+50	5250	diplomàcia	
+51	5251	endins	
+52	5252	superioritat	
+53	5253	voleibol	
+54	5254	afanyar	afanya afanyaren afanyat afanyava afanyaven afanyem afanyen afanyeu afanyi afanyin afanyà
+55	5255	cacera	caceres
+56	5256	insuficient	insuficients
+57	5257	insuportable	insuportables
+58	5258	pixar	pixa pixant pixat pixats pixava pixen pixes pixi pixo
+59	5259	distanciar	distancia distanciada distanciades distanciant distanciaren distanciat distanciats distanciava distanciaven distancien distancies distancià distanciés
+60	5260	lar	lars
+61	5261	xicot	xicota xicotes xicots
+62	5262	espina	espines espineta espinetes
+63	5263	potable	potables
+64	5264	morera	moreres
+65	5265	desmuntar	desmunta desmuntada desmuntades desmuntant desmuntarà desmuntat desmuntats desmuntava desmuntaven desmuntem desmunten desmuntà
+66	5266	llis	llisa llises llisos
+67	5267	precedir	precedeix precedeixen precedeixi precedia precedida precedides precedien precedint precediren precedirà precedit precedits precedí
+68	5268	flexible	flexibles
+69	5269	requeriment	requeriments
+70	5270	eslògan	eslògans
+71	5271	crani	cranis
+72	5272	enregistrament	enregistraments
+73	5273	clergue	clergues
+74	5274	carpa	carpes
+75	5275	gamba	gambes
+76	5276	privar	priva privada privades privant privaren privaria privarà privats privava privaven priven privà
+77	5277	comparable	comparables
+78	5278	conforme	conformes
+79	5279	seduir	sedueix sedueixen sedueixi seduint seduí seduïa seduïda seduïdes seduït seduïts
+80	5280	allau	allaus
+81	5281	cavalleria	cavalleries
+82	5282	sofisticat	sofisticada sofisticades sofisticats
+83	5283	acceptable	acceptables
+84	5284	complaure	complaent complaents complaguda complagut complaguts complau complauen complauria complaurà complaïa
+85	5285	traça	traces
+86	5286	micròfon	micròfons
+87	5287	simpatia	simpaties
+88	5288	closca	closques
+89	5289	catalanisme	catalanismes
+90	5290	cínic	cínica cínics cíniques
+91	5291	amat	amada amades
+92	5292	veïnal	veïnals
+93	5293	deessa	deesses déus
+94	5294	benèfic	benèfica benèfics benèfiques
+95	5295	ramaderia	ramaderies
+96	5296	calmar	calmada calmades calmant calmants calmarà calmat calmats calmava calmem calmen calmes calmeu calmi calmin calmis calmo calmés
+97	5297	saqueig	saqueigs saquejos
+98	5298	acumulació	acumulacions
+99	5299	solemne	solemnes
+100	5300	violeta	violetes

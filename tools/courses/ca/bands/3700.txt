@@ -1,0 +1,100 @@
+1	3601	repartiment	repartiments
+2	3602	específicament	
+3	3603	hoquei	
+4	3604	horror	horrors
+5	3605	setmanal	setmanals
+6	3606	retre	ret reta retem reten retent reteren reti retia retien retin reto retrem retreu retrà retràs rets retuda retut retuts reté retés
+7	3607	biològic	biològica biològics biològiques
+8	3608	concebre	concebem conceben concebent conceberen concebia concebien concebuda concebudes concebut concebuts concebé concebés concep
+9	3609	covard	covarda covards
+10	3610	floral	florals
+11	3611	auditori	auditoris
+12	3612	conill	conilla conilles conills
+13	3613	vetllar	vetlla vetllades vetllant vetllarem vetllaria vetllarà vetllat vetllats vetllava vetllaven vetllem vetllen vetlles vetllessin vetlleu vetlli vetllin vetllà vetllés
+14	3614	realització	realitzacions
+15	3615	eficient	eficients
+16	3616	inèdit	inèdita inèdites inèdits
+17	3617	imposició	imposicions
+18	3618	explosiu	explosius explosiva explosives
+19	3619	corregir	corregeix corregeixen corregeixi corregeixin corregia corregida corregides corregien corregim corregint corregirem corregiria corregit corregits corregí corregís
+20	3620	clàusula	clàusules
+21	3621	milícia	milícies
+22	3622	elegant	elegants
+23	3623	dutxa	dutxes
+24	3624	capellà	capellans
+25	3625	obeir	obeeix obeeixen obeeixes obeeixi obeeixin obeeixo obeint obeiran obeirem obeirien obeirà obeiré obeí obeís obeïa obeïda obeïdes obeïen obeïm obeïssin obeït obeïu obeïx
+26	3626	matern	materna maternes materns
+27	3627	alto	altos
+28	3628	cubà	cubana cubanes cubans
+29	3629	carbó	carbons
+30	3630	filòsof	filòsofa filòsofes filòsofs
+31	3631	inclusió	inclusions
+32	3632	vocal	vocales vocals
+33	3633	substitució	substitucions
+34	3634	impulsor	impulsora impulsores impulsors
+35	3635	agrupar	agrupa agrupada agrupades agrupant agruparan agruparen agruparia agrupat agrupats agrupava agrupaven agrupem agrupen agrupessin agrupi agrupin agrupà agrupés
+36	3636	tub	tubs
+37	3637	probabilitat	probabilitats
+38	3638	llaç	llacet llacets llaços
+39	3639	tolerar	tolera tolerada tolerades tolerant tolerants toleraran tolerarem toleraria tolerarà tolerat tolerats tolerava toleraven tolerem toleren toleri tolero tolerà
+40	3640	culpar	culpant culparia culpat culpats culpava culpaven culpen culpes culpeu culpi culpis culpo culpà
+41	3641	ingredient	ingredients
+42	3642	estimular	estimula estimulada estimulades estimulant estimulants estimularen estimularia estimularà estimulat estimulats estimulava estimulaven estimulen estimuli estimulin estimulo estimulà
+43	3643	elefant	elefanta elefantes elefants
+44	3644	afició	aficions
+45	3645	sensibilitat	sensibilitats
+46	3646	pala	pales paleta paletes
+47	3647	holanda	holandes
+48	3648	bestiar	bestiars
+49	3649	psicologia	psicologies
+50	3650	fossa	fos fosses
+51	3651	caos	
+52	3652	consentiment	
+53	3653	esclavitud	
+54	3654	prestigi	
+55	3655	sara	
+56	3656	senzillament	
+57	3657	oració	oracions
+58	3658	enderrocar	enderroca enderrocada enderrocades enderrocant enderrocaren enderrocarà enderrocat enderrocats enderrocava enderrocaven enderrocà enderroquen enderroquessin enderroqués
+59	3659	prestigiós	prestigiosa prestigioses prestigiosos
+60	3660	constatar	constata constatada constatades constatant constataren constatarà constatat constatats constatava constataven constatem constaten constati constato constatà constatés
+61	3661	màniga	mànega mànegues mànigues
+62	3662	roc	rocs
+63	3663	observatori	observatoris
+64	3664	ruïna	ruïnes
+65	3665	toro	toros
+66	3666	imitar	imita imitada imitades imitant imitaren imitarà imitat imitats imitava imitaven imiten imitessin imiti imitin imità imités
+67	3667	conspiració	conspiracions
+68	3668	expansió	expansions
+69	3669	sacrificar	sacrifica sacrificada sacrificades sacrificant sacrificaria sacrificarà sacrificat sacrificats sacrificava sacrificaven sacrificà sacrifiquen sacrifiqui sacrifiqués
+70	3670	supermercat	supermercats
+71	3671	fusió	fusions
+72	3672	protector	protectora protectores protectors
+73	3673	historial	historials
+74	3674	finca	finques
+75	3675	oral	orals
+76	3676	pondre	pon pondrà ponen ponga pongui ponia ponies pons postes postos posts
+77	3677	allotjar	allotgen allotgi allotja allotjada allotjades allotjant allotjaran allotjaren allotjaria allotjarà allotjat allotjats allotjava allotjaven allotjà
+78	3678	piràmide	piràmides
+79	3679	pràctic	pràctics
+80	3680	colon	colona colones colons
+81	3681	tabac	tabacs
+82	3682	gabinet	gabinets
+83	3683	automòbil	automòbils
+84	3684	goig	goigs
+85	3685	publicitari	publicitaris publicitària publicitàries
+86	3686	competitiu	competitius competitiva competitives
+87	3687	resistent	resistents
+88	3688	assetjament	assetjaments
+89	3689	borsa	borses
+90	3690	mesquita	mesquites
+91	3691	presidencial	presidencials
+92	3692	berguedà	berguedana berguedanes berguedans
+93	3693	prejudici	prejudicis
+94	3694	heretar	hereta heretada heretades heretant heretaran heretaren heretaria heretarà heretat heretats heretava heretaven hereten hereti heretin heretà heretés
+95	3695	transferir	transfereix transfereixen transfereixi transfereixin transferia transferida transferides transferint transferiran transferiria transferirà transferit transferits transferí transferís
+96	3696	llistat	llistada llistades llistats
+97	3697	danès	danesa daneses danesos danés
+98	3698	ricar	rico riqui
+99	3699	vacuna	vacunes
+100	3700	necessàriament	

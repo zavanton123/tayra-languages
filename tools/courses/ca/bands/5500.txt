@@ -1,0 +1,100 @@
+1	5401	represàlia	represàlies
+2	5402	esgotar	esgota esgotada esgotades esgotant esgotaren esgotarà esgotats esgotava esgotaven esgoten esgotessin esgoti esgotin esgotà esgotés
+3	5403	deixalla	deixalles
+4	5404	khmer	khmers
+5	5405	peruà	peruana peruanes peruans
+6	5406	missioner	missionera missioneres missioners
+7	5407	trauma	traumes
+8	5408	casual	casuals
+9	5409	celta	celtes
+10	5410	bufar	bufada bufades bufant bufat bufats bufava bufaven bufen bufes bufi bufo bufí
+11	5411	escaure	escaient escaients escaigui escaigué escau escauen esqueia
+12	5412	inclinació	inclinacions
+13	5413	matriu	matrius
+14	5414	videoclip	videoclips
+15	5415	esplendor	esplendors
+16	5416	dilema	dilemes
+17	5417	espiral	espirals
+18	5418	deteriorament	deterioraments
+19	5419	prioritzar	prioritza prioritzant prioritzat prioritzats prioritzava prioritzaven prioritzen prioritzi prioritzo prioritzà
+20	5420	agregar	agrega agregada agregades agregant agregat agregats agregava agreguem agreguen agreguin agregà
+21	5421	pineda	pinedes
+22	5422	aperitiu	aperitius aperitiva
+23	5423	abonar	abona abonada abonades abonant abonat abonats abonava abonaven abonen
+24	5424	duplicar	duplica duplicada duplicades duplicant duplicaria duplicarà duplicat duplicats duplicava duplicaven dupliquem dupliquen
+25	5425	bel	bels
+26	5426	opositor	opositora opositores opositors
+27	5427	perjudicial	perjudicials
+28	5428	arranjament	arranjaments
+29	5429	excavar	excava excavada excavades excavant excavaren excavat excavats excavava excavaven excaven excavà
+30	5430	encantador	encantadora encantadores encantadors
+31	5431	gàbia	gàbies
+32	5432	benzina	benzines
+33	5433	txec	txeca txecs txeques
+34	5434	llatinoamericà	llatinoamericana llatinoamericanes llatinoamericans
+35	5435	similitud	similituds
+36	5436	susceptible	susceptibles
+37	5437	honrat	honrada honrades honrats
+38	5438	llegendari	llegendaris llegendària llegendàries
+39	5439	doctrina	doctrines
+40	5440	simultani	simultanis simultània simultànies
+41	5441	plàtan	plàtans
+42	5442	abelles	
+43	5443	accessibilitat	
+44	5444	autogovern	
+45	5445	borrell	
+46	5446	bueno	
+47	5447	globalització	
+48	5448	vosté	
+49	5449	biennal	biennals
+50	5450	alternar	altern alterna alternada alternades alternant alternants alternaren alternaria alternarà alternat alternats alternava alternaven alterne alternen alternes alterni alternin alterns alternà
+51	5451	caravana	caravanes
+52	5452	confiscar	confisca confiscada confiscades confiscant confiscaren confiscarien confiscat confiscats confiscà confisquen confisqui
+53	5453	monogràfic	monogràfica monogràfics monogràfiques
+54	5454	controvertit	controvertida controvertides controvertits
+55	5455	amplada	amplades
+56	5456	retenció	retencions
+57	5457	huracà	huracans
+58	5458	calda	caldes
+59	5459	distint	distinta distintes distints
+60	5460	lloar	lloa lloada lloades lloant lloat lloats lloava lloaven lloem lloen lloes lloeu lloà
+61	5461	estructurar	estructurada estructurades estructurant estructurants estructurarà estructurat estructurats estructurava estructuraven estructuren estructures estructurà
+62	5462	tap	taps
+63	5463	feudal	feudals
+64	5464	ambulant	ambulants
+65	5465	pipa	pipes
+66	5466	suar	sua suada suant suat suats suava suaves suen sues sueu sueus suo suï suïs
+67	5467	compareixença	compareixences
+68	5468	ancestral	ancestrals
+69	5469	vagó	vagons
+70	5470	carreró	carrerons
+71	5471	desgraciat	desgraciada desgraciades desgraciats
+72	5472	tremolar	tremola tremolant tremolaran tremolat tremolava tremolaven tremolen tremoles tremoli tremolo
+73	5473	ruc	ruca rucs
+74	5474	arruïnar	arruïna arruïnada arruïnades arruïnant arruïnaren arruïnaria arruïnarà arruïnat arruïnats arruïnaven arruïnen arruïni arruïnà arruïnés
+75	5475	estança	estances
+76	5476	custodiar	custodia custodiada custodiades custodiant custodiat custodiats custodiava custodiaven custodien custodio
+77	5477	recurrent	recurrents
+78	5478	esquelet	esquelets
+79	5479	visualització	visualitzacions
+80	5480	eròtic	eròtica eròtics eròtiques
+81	5481	formigó	formigons
+82	5482	mancomunitat	mancomunitats
+83	5483	burro	burra burres burros
+84	5484	terminologia	terminologies
+85	5485	inexistent	inexistents
+86	5486	pseudònim	pseudònims
+87	5487	paviment	paviments
+88	5488	opressió	opressions
+89	5489	comissionat	comissionada comissionats
+90	5490	vedella	vedelles
+91	5491	desacord	desacords
+92	5492	carnisseria	carnisseries
+93	5493	navegador	navegadors
+94	5494	retaule	retaules
+95	5495	enyorar	enyor enyora enyorada enyoram enyorant enyoraré enyorat enyorava enyoraven enyore enyorem enyoren enyores enyoro enyors
+96	5496	bestiesa	bestieses
+97	5497	abundància	abundàncies
+98	5498	clausura	clausures
+99	5499	endinsar	endinsa endinsada endinsades endinsant endinsaren endinsarà endinsat endinsats endinsava endinsaven endinsem endinsen endinsi endinsà
+100	5500	fonda	fondes

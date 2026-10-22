@@ -1,0 +1,100 @@
+1	601	recurs	recursos
+2	602	justícia	justícies
+3	603	realment	
+4	604	reunió	reunions
+5	605	material	materials
+6	606	necessari	necessaris necessària necessàries
+7	607	sala	sales
+8	608	qualitat	qualitats
+9	609	clau	claus
+10	610	desenvolupar	desenvolupa desenvolupada desenvolupades desenvolupant desenvolupara desenvoluparan desenvoluparen desenvoluparia desenvoluparien desenvoluparà desenvoluparé desenvolupat desenvolupats desenvolupava desenvolupaven desenvolupe desenvolupem desenvolupen desenvolupessin desenvolupi desenvolupin desenvolupo desenvolupà desenvolupés
+11	611	escriptor	escriptora escriptores escriptors
+12	612	familiar	familiars
+13	613	departament	departaments
+14	614	defensar	defensada defensades defensam defensant defensaran defensarem defensaren defensaria defensarien defensarà defensaré defensat defensats defensava defensaven defensem defensen defenses defensessin defenseu defensi defensin defensis defenso defensà defensés
+15	615	vell	revell revella revelles vella velles vells
+16	616	créixer	creix creixem creixen creixent creixents creixeran creixeren creixeria creixerien creixerà creixeràs creixes creixessin creixi creixia creixien creixin creixo creixé creixés creixíem cresca crescuda crescudes crescut crescuts cresqueren cresques cresqué cresqués créixens
+17	617	efecte	efectes
+18	618	allà	
+19	619	data	dates
+20	620	màxim	màxima màximes màxims
+21	621	afectar	afecta afectada afectades afectant afectara afectaran afectaren afectaria afectarien afectarà afectat afectats afectava afectaven afecten afectes afectessin afecti afectin afecto afectà afectés
+22	622	recuperar	recuper recupera recuperada recuperades recuperam recuperant recuperara recuperaran recuperarem recuperaren recuperaria recuperarien recuperarà recuperaràs recuperaré recuperat recuperats recuperava recuperaven recupere recuperem recuperen recuperes recuperessin recupereu recuperi recuperin recuperis recupero recuperà recuperés
+23	623	opinió	opinions
+24	624	violència	violències
+25	625	casar	casada casades casant casaran casarem casaren casares casaria casarien casarà casaràs casaré casasses casat casats casau casava casaven casem casen casessin casessis caseu casi casin casis caso casà casés
+26	626	ull	ulls
+27	627	proposar	proposa proposada proposades proposant proposaran proposaren proposaria proposarien proposarà proposat proposats proposava proposaven proposem proposen proposes proposessin proposeu proposi proposin proposo proposà proposés propòs
+28	628	vendre	ven venc vendran vendrem vendria vendrien vendrà vendràs vendré venem venen venent veneu venga venguda vengudes venguem vengueren venguessin vengui venguin venguis vengut vengué vengués venia venien venies vens venuda venudes venut venuts veníem veníeu
+29	629	castell	castells
+30	630	euro	euros
+31	631	directe	directa directes
+32	632	dubte	dubtes
+33	633	mapa	mapes
+34	634	àrea	àrees
+35	635	jornada	jornades
+36	636	text	textos texts
+37	637	ca	can canet cans
+38	638	economia	economies
+39	639	iniciar	inicia iniciada iniciades iniciant iniciara iniciaran iniciarem iniciaren iniciaria iniciarien iniciarà iniciat iniciats iniciava iniciaven iniciem inicien inicies iniciessin inicio inicià iniciés iniciï iniciïn
+40	640	premsa	premses
+41	641	sobretot	sobretots
+42	642	futbol	
+43	643	visita	visites
+44	644	formació	formacions
+45	645	independent	independents
+46	646	aprovar	aprova aprovada aprovades aprovant aprovara aprovaran aprovaren aprovaria aprovarien aprovarà aprovat aprovats aprovava aprovaven aprovem aproven aproves aprovessin aproveu aprovi aprovin aprovo aprovà aprovés
+47	647	televisió	televisions
+48	648	professional	professionals
+49	649	fotografia	fotografies
+50	650	comissió	comissions
+51	651	greu	greus
+52	652	versió	versions
+53	653	dissabte	dissabtes
+54	654	víctima	víctimes
+55	655	origen	orígens
+56	656	atacar	ataca atacada atacades atacant atacants atacaran atacarem atacaren atacaria atacarien atacarà atacat atacats atacava atacaven atacà ataque ataquem ataquen ataques ataquessin ataqueu ataqui ataquin ataquis ataqués
+57	657	endavant	
+58	658	construcció	construccions
+59	659	museu	museus
+60	660	noi	noies noiet nois noy
+61	661	església	esglésies
+62	662	manifestació	manifestacions
+63	663	revista	revistes
+64	664	pitjor	pitjors
+65	665	set	sets
+66	666	triar	tria triada triades triant triaran triaren triareu triaria triarien triarà triaràs triaré triat triats triava triaven triem trien tries triessin trieu trii trio trios trià triés triï triïn triïs
+67	667	direcció	direccions
+68	668	investigació	investigacions
+69	669	referència	referències
+70	670	actuar	actua actuada actuant actuants actuara actuaran actuarem actuaren actuaria actuarien actuarà actuat actuava actuaven actue actuem actuen actues actuessin actueu actuo actuà actués actuï actuïn actuïs
+71	671	etcètera	etc
+72	672	conjunt	conjunta conjuntes conjunts
+73	673	taula	taules
+74	674	personatge	personatges
+75	675	acompanyar	acompany acompanya acompanyada acompanyades acompanyant acompanyants acompanyaran acompanyaren acompanyaria acompanyarien acompanyarà acompanyaràs acompanyaré acompanyat acompanyats acompanyava acompanyaven acompanye acompanyem acompanyen acompanyes acompanyessin acompanyeu acompanyi acompanyin acompanyis acompanyo acompanyà acompanyàrem acompanyés
+76	676	amor	amors
+77	677	votar	vota votada votades votant votants votaran votarem votaren votareu votaria votarien votaries votarà votaràs votaré votat votats votava votaven votem voten votes votessin voteu voti votin votis voto votà votés votéssim
+78	678	signar	signa signada signades signant signants signaran signaren signaria signarien signarà signaré signat signats signau signava signaven signem signen signes signessin signeu signi signin signis signo signà signés
+79	679	provocar	provoca provocada provocades provocant provocaran provocaren provocaria provocarien provocarà provocat provocats provocava provocaven provocà provoque provoquem provoquen provoques provoquessin provoqui provoquin provoqués
+80	680	oblidar	oblida oblidada oblidades oblidant oblidaran oblidarem oblidaren oblidaria oblidarà oblidaràs oblidaré oblidat oblidats oblidava oblidaven oblide oblidem obliden oblides oblidessin oblideu oblidi oblidin oblidis oblido oblidà oblidés
+81	681	alemanya	alemanyes alemània
+82	682	notícies	
+83	683	digital	digitals
+84	684	posició	posicions
+85	685	falta	faltes
+86	686	carta	cartes
+87	687	muntanya	muntanyes
+88	688	condició	condicions
+89	689	ve	ves vés
+90	690	disposar	disposa disposada disposades disposam disposant disposara disposaran disposarem disposaren disposaria disposarien disposarà disposat disposats disposava disposaven disposem disposen disposes disposessin disposeu disposi disposin disposo disposà disposés
+91	691	contingut	continguda contingudes continguts
+92	692	mira	mires
+93	693	iniciativa	iniciatives
+94	694	peu	peus
+95	695	unitat	unitats
+96	696	concert	concerts
+97	697	castellà	castellana castellanes castellans castlans castlà
+98	698	ràdio	ràdios
+99	699	privat	privada privades privats
+100	700	periodista	periodiste periodistes

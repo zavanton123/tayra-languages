@@ -1,0 +1,100 @@
+1	4301	extracció	extraccions
+2	4302	tombar	tombada tombades tombant tombants tombaran tombat tombats tombaven tombem tomben tombes tombeu tombi tombin tombo tombà tombés
+3	4303	burgesia	burgesies
+4	4304	explorador	exploradora exploradores exploradors
+5	4305	cartera	carteres
+6	4306	normalització	normalitzacions
+7	4307	assentament	assentaments
+8	4308	altar	altars
+9	4309	congelar	congela congelada congelades congelant congelarem congelarà congelat congelats congelava congelaven congelen congeli congelin congelés
+10	4310	catorze	
+11	4311	col·lega	
+12	4312	dimonis	
+13	4313	fonamentalment	
+14	4314	independentisme	
+15	4315	holandès	holandesa holandeses holandesos holandés
+16	4316	frontal	frontals
+17	4317	capitalista	capitalistes
+18	4318	cruïlla	cruïlles
+19	4319	horrible	horribles
+20	4320	agrari	agraris agrària agràries
+21	4321	inversor	inversora inversores inversors
+22	4322	cortina	cortines
+23	4323	miniatura	miniatures
+24	4324	cereal	cereals
+25	4325	puntuació	puntuacions
+26	4326	madur	madura madures madurs
+27	4327	investidura	investidures
+28	4328	encetar	enceta encetada encetades encetant encetaren encetat encetava encetem enceten encetà
+29	4329	enfocar	enfoc enfoca enfocada enfocades enfocant enfocaria enfocat enfocats enfocava enfocaven enfoque enfoquem enfoquen enfoques enfoqui
+30	4330	aparent	aparents
+31	4331	anècdota	anècdotes
+32	4332	inundació	inundacions
+33	4333	fàrmac	fàrmacs
+34	4334	escènic	escènica escènics escèniques
+35	4335	llimona	llimones
+36	4336	regnat	regnats
+37	4337	bull	bulls
+38	4338	presenciar	presencia presenciada presenciant presenciaren presenciat presenciava presenciaven presenciem presencien presencio presencià
+39	4339	enviament	enviaments
+40	4340	espluga	esplugues
+41	4341	polèmic	polèmics polèmiques
+42	4342	abat	abats
+43	4343	estafa	estafes
+44	4344	simpàtic	simpàtica simpàtics simpàtiques
+45	4345	munició	municions
+46	4346	olla	olles
+47	4347	rap	raps
+48	4348	búlgar	búlgara búlgares búlgars
+49	4349	massatge	massatges
+50	4350	contractació	contractacions
+51	4351	raïm	raïms
+52	4352	rajola	rajoles
+53	4353	procurar	procura procurant procuraran procurarem procuraren procurarà procuraré procurat procurava procuraven procurem procuren procureu procuri procurin procuro procurà procurés
+54	4354	ploma	plomes
+55	4355	adolescència	
+56	4356	curiosament	
+57	4357	demés	
+58	4358	il·luminació	
+59	4359	cessió	cessions
+60	4360	aliar	alia aliada aliades aliant aliaren aliarà aliats aliava alien alies alii alio alià
+61	4361	iva	ives
+62	4362	simfònic	simfònica simfònics simfòniques
+63	4363	massacre	massacres
+64	4364	fractura	fractures
+65	4365	restablir	restableix restableixen restableixi restablert restablerta restablertes restablerts restablia restablint restabliren restabliria restablirà restablit restablí restablís
+66	4366	patern	paterna paternes paterns
+67	4367	gruix	gruixos
+68	4368	sever	severa severes severs
+69	4369	armari	armariet armariets armaris
+70	4370	interí	interina interines interins
+71	4371	densitat	densitats
+72	4372	coincidència	coincidències
+73	4373	míting	mítings
+74	4374	tauleta	tauletes
+75	4375	desafiament	desafiaments
+76	4376	oportú	oportuna oportunes oportuns
+77	4377	lleial	lleials
+78	4378	atòmic	atòmica atòmics atòmiques
+79	4379	liceu	liceus
+80	4380	casta	castes
+81	4381	encomanar	encomana encomanada encomanades encomanant encomanaren encomanaré encomanat encomanats encomanava encomanaven encomanem encomanen encomanes encomani encomanin encomano encomanà encomanés
+82	4382	insecte	insectes
+83	4383	ambiciós	ambiciosa ambicioses ambiciosos
+84	4384	monja	monges
+85	4385	pulmó	pulmons
+86	4386	austríac	austríaca austríacs austríaques
+87	4387	nat	nada nades nats
+88	4388	empassar	empassa empassada empassades empassant empassarà empassat empassava empassaven empassem empassen empasses empassi empasso
+89	4389	feixisme	feixismes
+90	4390	evacuar	evacua evacuada evacuades evacuant evacuat evacuats evacuava evacuen
+91	4391	sexualitat	sexualitats
+92	4392	biografia	biografies
+93	4393	gram	grama grams
+94	4394	pizza	pizzes
+95	4395	ambulància	ambulàncies
+96	4396	espia	espies
+97	4397	rèplica	rèpliques
+98	4398	volcà	volcans
+99	4399	adversari	adversaris adversària adversàries
+100	4400	dissolució	dissolucions

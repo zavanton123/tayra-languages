@@ -1,0 +1,100 @@
+1	3501	genoll	genolls
+2	3502	bíblia	bíblies
+3	3503	cel·la	
+4	3504	col·locar	
+5	3505	escacs	
+6	3506	focus	
+7	3507	habitualment	
+8	3508	prèviament	
+9	3509	seixanta	
+10	3510	ulleres	
+11	3511	antecedent	antecedents
+12	3512	distinció	distincions
+13	3513	radiació	radiacions
+14	3514	demostració	demostracions
+15	3515	comtat	comtats
+16	3516	gastronòmic	gastronòmica gastronòmics gastronòmiques
+17	3517	promotor	promotora promotores promotors
+18	3518	batejar	bategen bategi bategés bateja batejada batejades batejant batejaren batejaria batejarien batejarà batejat batejats batejava batejaven batejo batejà
+19	3519	considerable	considerables
+20	3520	immobiliària	immobiliàries
+21	3521	monstre	monstres
+22	3522	fortuna	fortunes
+23	3523	continental	continentals
+24	3524	observador	observadora observadores observadors
+25	3525	carril	carrils
+26	3526	maó	maons
+27	3527	mineral	minerals
+28	3528	pic	pics
+29	3529	barret	barretet barrets
+30	3530	inevitable	inevitables
+31	3531	collita	collites
+32	3532	excursió	excursions
+33	3533	nano	nana nanes nanos
+34	3534	hongarès	hongaresa hongareses hongaresos hongarés
+35	3535	administrador	administradora administradores administradors
+36	3536	mural	murals
+37	3537	tortuga	tortugues
+38	3538	enamorat	enamorada enamorades enamorats
+39	3539	conviure	conviscut convisqueren convisqui convisquin convisqué conviu conviuen conviuran conviuria conviurien conviurà convivia convivien convivint
+40	3540	areny	arenys
+41	3541	rutina	rutines
+42	3542	corporal	corporals
+43	3543	campanar	campanars
+44	3544	esquerre	esquer esquerres esquers
+45	3545	balanç	balanços
+46	3546	benvolgut	benvolguda benvolgudes benvolguts
+47	3547	dibuixant	dibuixants
+48	3548	camisa	camises camiseta camisetes
+49	3549	futbolista	futbolistes
+50	3550	contrastar	contrasta contrastada contrastades contrastant contrastants contrastat contrastats contrastava contrastaven contraste contrasten contrastes contrasti
+51	3551	rodalia	rodalies
+52	3552	triple	triples
+53	3553	multinacional	multinacionals
+54	3554	narrar	narra narrada narrades narrant narrarà narrat narrats narrava narraven narren narri narro narrà
+55	3555	dictar	dicta dictada dictades dictant dictaran dictaren dictaria dictarà dictat dictats dictava dictaven dicte dicten dicti dictin dicto dictà dictés
+56	3556	garrotxa	garrotxes
+57	3557	ferir	fereix fereixen fereixi feria ferides ferien ferina ferint feriren ferits ferí ferís
+58	3558	pica	piques
+59	3559	coi	
+60	3560	escombraries	
+61	3561	professorat	
+62	3562	compensar	compensa compensada compensades compensant compensarem compensaria compensarà compensaré compensat compensats compensava compensaven compensen compensi compensin compenso compensà compensés
+63	3563	pantaló	pantalons
+64	3564	mancar	mancada mancades mancant mancants mancaran mancaren mancaria mancarien mancat mancats mancava mancaven mancà manquen manques manqui manquin manqués
+65	3565	contundent	contundents
+66	3566	desè	desenes desens desé
+67	3567	remuntar	remunta remuntada remuntades remuntant remuntarem remuntaren remuntaria remuntarà remuntat remuntava remuntaven remuntem remunten remuntes remunti remuntà remuntés
+68	3568	confusió	confusions
+69	3569	varar	varada varades varat varats varem vareu varo varés
+70	3570	recaptar	recapta recaptada recaptades recaptant recaptarem recaptaren recaptaria recaptat recaptats recaptava recaptaven recapten recaptes recaptà recaptés
+71	3571	especulació	especulacions
+72	3572	matemàtic	matemàtica matemàtics
+73	3573	desconèixer	desconec desconeguda desconegudes desconegui desconeguts desconeix desconeixem desconeixen desconeixent desconeixia desconeixien desconeixíem
+74	3574	empat	empats
+75	3575	disfressa	disfresses
+76	3576	guerrer	guerrera guerreres guerrers
+77	3577	poma	pomes
+78	3578	exigència	exigències
+79	3579	telefònic	telefònica telefònics telefòniques
+80	3580	càlid	càlida càlides càlids
+81	3581	par	pars
+82	3582	embarassat	embarassada embarassades
+83	3583	vela	veles
+84	3584	variable	variables
+85	3585	malson	malsons
+86	3586	rànquing	rànquings
+87	3587	fotografiar	fotografiada fotografiades fotografiant fotografiat fotografiats fotografiava fotografiaven fotografien fotografies fotografià fotografiés
+88	3588	remot	remota remotes remots
+89	3589	profit	profits
+90	3590	mariner	marinera marineres mariners
+91	3591	finalista	finalistes
+92	3592	interrogar	interroga interrogada interrogades interrogant interrogants interrogat interrogats interrogava interrogaven interroguen interrogà
+93	3593	ucraïnès	ucraïnesa ucraïneses ucraïnesos ucraïnés
+94	3594	desplegar	desplega desplegada desplegades desplegant desplegaran desplegaren desplegaria desplegarà desplegat desplegats desplegava desplegaven despleguen despleguessin desplegueu desplegui desplegués desplegà
+95	3595	mecànic	mecànics mecàniques
+96	3596	disfressar	disfressada disfressades disfressant disfressat disfressats disfressava disfressaven disfressen disfresses disfressà
+97	3597	imputar	imputa imputada imputades imputant imputarà imputat imputats imputava imputaven imputen
+98	3598	sobiranista	sobiranistes
+99	3599	bogeria	bogeries
+100	3600	temàtica	temàtiques

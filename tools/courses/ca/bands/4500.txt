@@ -1,0 +1,100 @@
+1	4401	físicament	
+2	4402	genètica	
+3	4403	transcurs	
+4	4404	tecla	tecles
+5	4405	xip	xips
+6	4406	fuga	fugues
+7	4407	confirmació	confirmacions
+8	4408	pianista	pianistes
+9	4409	badar	bada badada badat badem baden bades badi badis bado
+10	4410	tacar	tac tacada tacades tacant tacat tacats taco taquen taques taqui taquin
+11	4411	coherent	coherents
+12	4412	influent	influents
+13	4413	amorós	amorosa amoroses amorosos
+14	4414	ventura	ventures
+15	4415	fatal	fatals
+16	4416	psicòleg	psicòlegs psicòloga psicòlogues
+17	4417	apropiat	apropiada apropiades apropiats
+18	4418	canalla	canalles
+19	4419	molinar	molina molines molino molinàs
+20	4420	ventall	ventalls
+21	4421	sabor	sabors
+22	4422	ultra	ultres
+23	4423	exprés	expressa expresses expressos
+24	4424	supervisar	supervisa supervisada supervisades supervisant supervisarà supervisat supervisats supervisava supervisaven supervisen supervisi supervisà
+25	4425	rodó	redó rodones rodons
+26	4426	iranià	iraniana iranianes iranians
+27	4427	bàrbar	bàrbara bàrbares bàrbars
+28	4428	mercenari	mercenaris mercenària mercenàries
+29	4429	invasor	invasora invasores invasors
+30	4430	gasolina	gasolines
+31	4431	sancionar	sanciona sancionada sancionades sancionant sancionaria sancionarà sancionat sancionats sancionava sancionen sancioni sancionà
+32	4432	partícula	partícules
+33	4433	detectiu	detectius detectiva detectives
+34	4434	currículum	currículums
+35	4435	absorbir	absorbeix absorbeixen absorbeixi absorbeixin absorbia absorbida absorbides absorbien absorbint absorbiria absorbirà absorbit absorbits absorbí absorbís
+36	4436	precipitació	precipitacions
+37	4437	degradació	degradacions
+38	4438	silenciar	silencia silenciada silenciades silenciant silenciat silenciats silencien silencio silencià silenciï
+39	4439	utilitat	utilitats
+40	4440	gerent	gerents
+41	4441	profeta	profetes
+42	4442	plaga	plagues
+43	4443	energètic	energètics energètiques
+44	4444	fanàtic	fanàtica fanàtics fanàtiques
+45	4445	mossèn	mossens
+46	4446	jurista	juristes
+47	4447	cessar	cessa cessada cessant cessants cessaran cessaren cessaria cessarà cessat cessats cessava cessaven cesse cessen cessi cessin cessà cessés
+48	4448	doblar	dobla doblada doblades doblant doblaria doblarà doblat doblats doblava doblaven doblen dobles dobli doblo doblà doblés
+49	4449	arqueologia	
+50	4450	cristianisme	
+51	4451	dimoni	
+52	4452	marihuana	
+53	4453	modernisme	
+54	4454	sostenibilitat	
+55	4455	supervisió	
+56	4456	voluntariat	
+57	4457	engany	enganys
+58	4458	prada	prades
+59	4459	surar	sur surant surat surava suraven suren sures suri surin suris
+60	4460	reclutar	recluta reclutada reclutades reclutant reclutat reclutats reclutava reclutaven recluten reclutes reclutà
+61	4461	cambrer	cambrera cambreres cambrers
+62	4462	desfilada	desfilades
+63	4463	llotja	llonja llotges
+64	4464	estelada	estelades
+65	4465	forjar	forgen forges forja forjada forjades forjant forjaran forjaren forjat forjats forjava forjaven forjà
+66	4466	esbrinar	esbrina esbrinant esbrinaran esbrinarem esbrinat esbrinem esbrinen esbrineu esbrini esbrinin esbrinés
+67	4467	vessar	vessa vessada vessades vessat vessats vessava vessaven vessen vessi vessin vessà
+68	4468	compensació	compensacions
+69	4469	transversal	transversals
+70	4470	arrelar	arrela arrelada arrelades arrelant arrelaren arrelat arrelats arrelava arrelaven arrelen arrelà arrelés
+71	4471	retardar	retarda retardada retardades retardant retardaren retardaria retardarà retardat retardats retardava retarden retardessin retardi retardà retardés
+72	4472	daurat	daurades daurats
+73	4473	venjança	venjances
+74	4474	tweet	tweets
+75	4475	sobtat	sobtada sobtades sobtats
+76	4476	marroquí	marroquina marroquines marroquins
+77	4477	amfitrió	amfitriona amfitriones amfitrions
+78	4478	jubilació	jubilacions
+79	4479	ametlla	ametla ametlles
+80	4480	angoixa	angoixes
+81	4481	modest	modesta modestes modestos modests
+82	4482	correcció	correccions
+83	4483	preferència	preferències
+84	4484	pet	pets
+85	4485	abastar	abasta abastada abastant abastaren abastaria abastarà abastat abastava abastaven abasteix abasteixen abasten abasti abastia abastida abastien abastint abastir abastit abasto abastà abastés
+86	4486	hoste	hostes hostessa hostesses
+87	4487	pausa	pauses
+88	4488	inusual	inusuals
+89	4489	guionista	guionistes
+90	4490	almirall	almiralls
+91	4491	desencadenar	desencadena desencadenada desencadenades desencadenant desencadenaren desencadenaria desencadenarà desencadenat desencadenats desencadenava desencadenen desencadeni desencadenà desencadenés
+92	4492	discret	discreta discretes discrets
+93	4493	longitud	longituds
+94	4494	boníssim	boníssima boníssimes boníssims
+95	4495	succés	successos
+96	4496	esquadra	esquadres
+97	4497	perfecció	perfeccions
+98	4498	matís	matisos
+99	4499	vet	vets
+100	4500	presentador	presentadora presentadores presentadors

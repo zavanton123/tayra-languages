@@ -1,0 +1,100 @@
+1	6801	estela	esteles
+2	6802	genuí	genuïna genuïnes genuïns
+3	6803	revocar	revoca revocada revocades revocant revocat revocats revocà revoquin revoqués
+4	6804	abella	
+5	6805	accidentalment	
+6	6806	agonia	
+7	6807	captivitat	
+8	6808	col·loqui	
+9	6809	constructor	
+10	6810	delinqüència	
+11	6811	eugènia	
+12	6812	imperialisme	
+13	6813	lli	
+14	6814	moderació	
+15	6815	rafel	
+16	6816	titlla	
+17	6817	tranquil·lament	
+18	6818	estèril	estèrils
+19	6819	asteroide	asteroides
+20	6820	amargar	amarga amargada amargant amargants amargat amargats amargo amargues
+21	6821	bajanada	bajanades
+22	6822	totxo	totxos
+23	6823	antologia	antologies
+24	6824	diocesà	diocesana diocesanes diocesans
+25	6825	dominació	dominacions
+26	6826	posposar	posposa posposada posposades posposant posposat posposats posposava posposem posposen posposi posposin
+27	6827	policíac	policíaca policíacs policíaques
+28	6828	dental	dentals
+29	6829	forca	forques
+30	6830	suscitar	suscita suscitada suscitades suscitant suscitaren suscitat suscitats suscitava suscitaven susciten susciti suscità
+31	6831	carregador	carregadora carregadores carregadors
+32	6832	graó	graons
+33	6833	calorós	calorosa caloroses calorosos
+34	6834	visat	visats
+35	6835	invocar	invoca invocada invocades invocant invocarà invocat invocats invocava invocaven invoco invoquem invoquen invoqui
+36	6836	centella	centelles
+37	6837	emèrit	emèrita emèrits
+38	6838	futbolístic	futbolística futbolístics futbolístiques
+39	6839	autoria	autories
+40	6840	perpetrar	perpetra perpetrada perpetrades perpetrant perpetraren perpetrat perpetrats perpetren perpetrà
+41	6841	devorar	devora devorada devorades devorant devorat devorats devorava devoraven devoren devori devorin
+42	6842	opcional	opcionals
+43	6843	reusenc	reusenca reusencs reusenques
+44	6844	brisa	brises
+45	6845	mausoleu	mausoleus
+46	6846	xulo	xula xules xulos
+47	6847	eclesiàstic	eclesiàstica eclesiàstics eclesiàstiques
+48	6848	soca	soques
+49	6849	fuita	fuites
+50	6850	flaix	flaixos
+51	6851	bunyol	bunyols
+52	6852	relíquia	relíquies
+53	6853	mandíbula	mandíbules
+54	6854	gustar	gusta gustau gusti gusto gustà gustí
+55	6855	orador	oradora oradores oradors
+56	6856	llitera	lliteres
+57	6857	bigoti	bigot bigotis
+58	6858	desembarcar	desembarc desembarca desembarcada desembarcades desembarcant desembarcaran desembarcarem desembarcaren desembarcat desembarcats desembarcava desembarcaven desembarco desembarcà desembarquen desembarquessin desembarquin
+59	6859	coeficient	coeficients
+60	6860	restaurador	restauradora restauradores restauradors
+61	6861	maleter	maleters
+62	6862	itinerant	itinerants
+63	6863	apòstol	apòstols
+64	6864	avenir	avenen avenia avenien avenim avens aveníem avinent avinents avingudes avingut avinguts avingué avingués avé
+65	6865	telescopi	telescopis
+66	6866	fixació	fixacions
+67	6867	inseguretat	inseguretats
+68	6868	malnom	malnoms
+69	6869	predominant	predominants
+70	6870	alarmant	alarmants
+71	6871	normand	normanda normandes normands
+72	6872	certificar	certifica certificada certificades certificant certificaren certificats certificava certificaven certificà certifiquen certifiqui certifiqués
+73	6873	texà	texana texanes texans
+74	6874	papar	papam pape papen papes papi papin papis papo papà
+75	6875	penúltim	penúltima penúltims
+76	6876	progressió	progressions
+77	6877	cadí	
+78	6878	eternament	
+79	6879	fisiologia	
+80	6880	hospitalitat	
+81	6881	il·lustrat	
+82	6882	magí	
+83	6883	rollar	rollo
+84	6884	vós	
+85	6885	subscripció	subscripcions
+86	6886	corrector	correctora correctores correctors
+87	6887	marejar	mareja marejada marejades marejant marejat marejo
+88	6888	derbi	derbis
+89	6889	cu	cus
+90	6890	interlocutor	interlocutora interlocutors
+91	6891	hispànic	hispànica hispànics hispàniques
+92	6892	tramitar	tramita tramitada tramitades tramitant tramitat tramitats tramitava tramiten tramiti tramità
+93	6893	opacitat	opacitats
+94	6894	suburbi	suburbis
+95	6895	trompeta	trompetes
+96	6896	legalitzar	legalitza legalitzada legalitzades legalitzant legalitzarà legalitzat legalitzats legalitzava legalitzà legalitzés
+97	6897	persuadir	persuadeix persuadeixen persuadida persuadint persuadit persuadits persuadí
+98	6898	cintura	cintures
+99	6899	ambigüitat	ambigüitats
+100	6900	distant	distants

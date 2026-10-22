@@ -1,0 +1,100 @@
+1	4501	logotip	logotips
+2	4502	repàs	repassos
+3	4503	conreu	conreus
+4	4504	edificació	edificacions
+5	4505	legió	legions
+6	4506	successor	successora successores successors
+7	4507	biodiversitat	
+8	4508	blaugrana	
+9	4509	diner	
+10	4510	protagonisme	
+11	4511	runa	runes
+12	4512	matança	matances
+13	4513	patent	patents
+14	4514	inconscient	inconscients
+15	4515	cafeteria	cafeteries
+16	4516	nadiu	nadiua nadiues nadius
+17	4517	espectre	espectres
+18	4518	barcelonès	barcelonesa barceloneses barcelonesos
+19	4519	peculiar	peculiars
+20	4520	avorrit	avorrida avorrides avorrits
+21	4521	incursió	incursions
+22	4522	tardar	tardant tardaran tardarem tardaren tardaria tardarien tardarà tardaré tardat tardava tardaven tarde tardem tarden tardes tardi tardis tardo
+23	4523	faller	fallera falleres fallers
+24	4524	patrocinador	patrocinadora patrocinadores patrocinadors
+25	4525	farmacèutic	farmacèutica farmacèutics farmacèutiques
+26	4526	allotjament	allotjaments
+27	4527	calçat	calçada calçades calçats
+28	4528	catalanista	catalanistes
+29	4529	precaució	precaucions
+30	4530	invent	invents
+31	4531	complementari	complementaris complementària complementàries
+32	4532	espontani	espontanis espontània espontànies
+33	4533	lavabo	lavabos
+34	4534	incapacitat	incapacitada incapacitades incapacitats
+35	4535	ofendre	ofenen ofenent ofengui ofenguis ofenia ofesa ofeses ofesos ofèn ofès
+36	4536	esplèndid	esplèndida esplèndides esplèndids
+37	4537	mescla	mescles
+38	4538	pelar	pelada pelades pelant pelats pelava pelen peles peleu peli pelin pelis pelo
+39	4539	abric	abrics
+40	4540	respectiu	respectius respectiva respectives
+41	4541	diagnosticar	diagnostica diagnosticada diagnosticades diagnosticant diagnosticaren diagnosticat diagnosticats diagnostiquen diagnostiqui
+42	4542	itinerari	itineraris itinerària
+43	4543	cansar	cansa cansada cansades cansant cansarem cansarà cansaràs cansaré cansats cansava cansaven canse cansem cansen canses canseu cansi cansis canso cansà
+44	4544	anotar	anota anotada anotades anotant anotaren anotaria anotarà anotaré anotat anotats anotava anotaven anotem anoten anoteu anoti anotis anoto anotà anotés
+45	4545	indiferent	indiferents
+46	4546	incorrecte	incorrecta incorrectes
+47	4547	epidèmia	epidèmies
+48	4548	supressió	supressions
+49	4549	exagerar	exagera exagerada exagerades exagerant exagerat exagerats exagerava exageraven exageren
+50	4550	saudita	saudites
+51	4551	quilo	quilos
+52	4552	peatge	peatges
+53	4553	marcador	marcadora marcadores marcadors
+54	4554	hàbitat	hàbitats
+55	4555	khan	khans
+56	4556	calaix	calaixos
+57	4557	infectar	infecta infectada infectades infectant infectarà infectat infectats infecten infecti infectin
+58	4558	atzar	atzars
+59	4559	aiguamoll	aiguamolls
+60	4560	felicitació	felicitacions
+61	4561	selectiu	selectius selectiva selectives
+62	4562	silva	silves
+63	4563	magdalena	magdalenes
+64	4564	aquàtic	aquàtica aquàtics aquàtiques
+65	4565	alfa	
+66	4566	apa	
+67	4567	competitivitat	
+68	4568	formalment	
+69	4569	innocència	
+70	4570	legalitat	
+71	4571	tor	
+72	4572	subtítol	subtítols
+73	4573	destituir	destitueix destitueixen destituint destituí destituís destituïa destituïda destituït destituïts
+74	4574	arquebisbe	arquebisbes
+75	4575	enfadat	enfadada enfadades enfadats
+76	4576	recte	rectes
+77	4577	penar	penada penades penat penats penes peneu peni penis peno pení
+78	4578	polar	polars
+79	4579	laic	laica laics laiques
+80	4580	metàfora	metàfores
+81	4581	cadet	cadets
+82	4582	triangle	triangles
+83	4583	indicació	indicacions
+84	4584	deixeble	deixebles
+85	4585	testament	testaments
+86	4586	inacceptable	inacceptables
+87	4587	tieta	tiet tietes tiets
+88	4588	sagnant	sagnants
+89	4589	dipositar	diposit diposita dipositada dipositades dipositant dipositants dipositaran dipositaren dipositaria dipositarà dipositat dipositats dipositava dipositaven dipositen dipositessin dipositi dipositin diposità
+90	4590	agressor	agressora agressors
+91	4591	traspassar	traspassa traspassada traspassades traspassant traspassaren traspassaria traspassarà traspassat traspassats traspassava traspassaven traspassem traspassen traspassessin traspassi traspassà traspassés
+92	4592	plantació	plantacions
+93	4593	bilingüe	bilingües
+94	4594	ramat	ramats
+95	4595	salar	salada salades salam salant salaria salats salau salem salen sales saleu sali salin salins salis salo salà salàs salés salí
+96	4596	immoble	immobles
+97	4597	prioritari	prioritaris prioritària prioritàries
+98	4598	vari	varis vària vàries
+99	4599	furgoneta	furgonetes
+100	4600	vorera	voreres

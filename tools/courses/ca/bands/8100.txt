@@ -1,0 +1,100 @@
+1	8001	especulador	especuladors
+2	8002	condecorar	condecora condecorada condecorat condecorats
+3	8003	defectuós	defectuosa defectuoses defectuosos
+4	8004	assenyat	assenyada assenyades assenyats
+5	8005	aprofitament	aprofitaments
+6	8006	compàs	compassos
+7	8007	fava	faves
+8	8008	pertorbar	pertorba pertorbada pertorbades pertorbant pertorbat pertorbats pertorbava pertorben pertorbi
+9	8009	desconnexió	desconnexions
+10	8010	tònica	tòniques
+11	8011	enquestar	enquestada enquestades enquestat enquestats enquestes
+12	8012	sobtar	sobta sobtada sobtades sobtats
+13	8013	argumental	argumentals
+14	8014	clam	clams
+15	8015	equivocació	equivocacions
+16	8016	calibre	calibres
+17	8017	embolcall	embolcalls
+18	8018	estrada	estrades
+19	8019	pastar	pastada pastant pastat pastava pasten pastes pasti pastis pasto
+20	8020	jota	jotes
+21	8021	celestial	celestials
+22	8022	afluixar	afluixa afluixant afluixarà afluixat afluixem afluixen afluixeu afluixi
+23	8023	preferible	preferibles
+24	8024	incitació	incitacions
+25	8025	penalitzar	penalitza penalitzada penalitzades penalitzant penalitzarà penalitzat penalitzats penalitzava penalitzaven penalitzen
+26	8026	graner	graners
+27	8027	audaç	audaces audaços
+28	8028	subsidi	subsidis
+29	8029	cobrament	cobraments
+30	8030	raqueta	raquetes
+31	8031	rupestre	rupestres
+32	8032	enumerar	enumera enumerada enumerades enumerant enumerat enumerats enumerava enumeraven enumerem enumeren
+33	8033	solta	soltes
+34	8034	agressivitat	
+35	8035	bolquers	
+36	8036	científicament	
+37	8037	consonància	
+38	8038	contundència	
+39	8039	cànnabis	
+40	8040	còmodament	
+41	8041	descontentament	
+42	8042	desinformació	
+43	8043	federalisme	
+44	8044	fonètica	
+45	8045	hipertensió	
+46	8046	omega	
+47	8047	papat	
+48	8048	renaixença	
+49	8049	saliva	
+50	8050	saturació	
+51	8051	litúrgic	litúrgica litúrgics litúrgiques
+52	8052	torturador	torturadora torturadors
+53	8053	llogater	llogatera llogateres llogaters
+54	8054	forner	fornera forners
+55	8055	reaccionari	reaccionaris reaccionària reaccionàries
+56	8056	usurpador	usurpadors
+57	8057	entranyable	entranyables
+58	8058	bambú	bambús
+59	8059	convincent	convincents
+60	8060	discriminar	discrimina discriminada discriminades discriminant discriminat discriminats discriminava discriminaven discriminen
+61	8061	descentralitzar	descentralitza descentralitzada descentralitzades descentralitzant descentralitzat descentralitzats
+62	8062	intolerant	intolerants
+63	8063	meditar	medit medita meditada meditades meditant meditat meditava mediten
+64	8064	enzim	enzims
+65	8065	neuronal	neuronals
+66	8066	lucratiu	lucratius lucrativa lucratives
+67	8067	detonar	detona detonant detonants detonat detonen
+68	8068	gradual	graduals
+69	8069	palmarès	palmarés
+70	8070	refredat	refredada refredades refredats
+71	8071	dígit	dígits
+72	8072	magnànim	magnànims
+73	8073	mix	mixa mixes
+74	8074	hissar	hissa hissada hissades hissant hissat hissava hissem hissen hissi
+75	8075	madrigal	madrigals
+76	8076	quiròfan	quiròfans
+77	8077	api	apis
+78	8078	enunciar	enuncia enunciada enunciades enunciant enunciat enunciats enunciava enuncien enuncià
+79	8079	maligne	maligna malignes
+80	8080	compaginar	compagina compaginada compaginant compaginarà compaginat compaginava compaginen compaginà
+81	8081	conspirador	conspiradora conspiradores conspiradors
+82	8082	afusellament	afusellaments
+83	8083	riuada	riuades
+84	8084	folklòric	folklòrica folklòrics folklòriques
+85	8085	contraatacar	contraataca contraatacant contraatacà contraataquen
+86	8086	diluir	dilueix dilueixen dilueixi diluint diluïa diluïda diluïdes diluïen diluïm diluït diluïts
+87	8087	cirerer	cirerers
+88	8088	ritu	ritus
+89	8089	toscà	toscana toscanes toscans
+90	8090	vandalisme	vandalismes
+91	8091	babau	babaua babaues babaus
+92	8092	frontó	frontons
+93	8093	connotació	connotacions
+94	8094	desembocadura	desembocadures
+95	8095	histèria	histèries
+96	8096	desterrar	desterra desterrada desterrades desterrant desterrat desterrats desterro desterrà
+97	8097	cúbic	cúbica cúbics cúbiques
+98	8098	magnat	magnats
+99	8099	xiïta	xiïtes
+100	8100	gerra	gerres

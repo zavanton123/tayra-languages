@@ -1,0 +1,100 @@
+1	6701	retall	retalls
+2	6702	superheroi	superherois
+3	6703	intolerable	intolerables
+4	6704	bibliografia	bibliografies
+5	6705	vilatà	vilatana vilatanes vilatans
+6	6706	infame	infames
+7	6707	arrabassar	arrabassa arrabassada arrabassades arrabassant arrabassaren arrabassat arrabassats arrabassava arrabassen arrabassi arrabassà
+8	6708	contradir	contradeia contradeien contradic contradient contradigui contradiguin contradiria contradit contradits contradiu contradiuen
+9	6709	alineació	alineacions
+10	6710	literal	literals
+11	6711	volcànic	volcànica volcànics volcàniques
+12	6712	crònic	crònics cròniques
+13	6713	mamífer	mamíferes mamífers
+14	6714	neurona	neurones
+15	6715	encreuament	encreuaments
+16	6716	pròrroga	pròrrogues
+17	6717	accessori	accessoris accessòria accessòries
+18	6718	hebreu	hebrea hebrees hebreus
+19	6719	sectari	sectaris sectària sectàries
+20	6720	pictòric	pictòrica pictòrics pictòriques
+21	6721	transcriure	transcrit transcrita transcrites transcrits transcriu transcriuen transcrivia transcrivint
+22	6722	extradició	extradicions
+23	6723	amazona	amazones
+24	6724	previsible	previsibles
+25	6725	ventilació	ventilacions
+26	6726	rendible	rendibles
+27	6727	matx	matxos matxs
+28	6728	mató	matons
+29	6729	recanvi	recanvis
+30	6730	intermitent	intermitents
+31	6731	prudent	prudents
+32	6732	rígid	rígida rígides rígids
+33	6733	onda	ondes
+34	6734	patrici	patricis patrícia patrícies
+35	6735	copsar	copsa copsat copsava copsen copsà
+36	6736	diamant	
+37	6737	equitat	
+38	6738	gratitud	
+39	6739	mercadal	
+40	6740	pascal	
+41	6741	queviures	
+42	6742	repetidament	
+43	6743	tarannà	
+44	6744	objecció	objeccions
+45	6745	immortal	immortals
+46	6746	reformista	reformistes
+47	6747	desocupat	desocupada desocupades desocupats
+48	6748	especialització	especialitzacions
+49	6749	intoxicació	intoxicacions
+50	6750	inoblidable	inoblidables
+51	6751	emergir	emergeix emergeixen emergeixi emergeixin emergia emergida emergides emergien emergint emergiran emergiren emergiria emergirà emergit emergits emergí emergís
+52	6752	vaquer	vaquera vaquers
+53	6753	maleïda	maleïdes
+54	6754	subscriptor	subscriptors
+55	6755	demolició	demolicions
+56	6756	humorístic	humorística humorístics humorístiques
+57	6757	travesser	travessera travesseres travessers
+58	6758	deportar	deportada deportades deportant deportats deporte deportes deportà
+59	6759	afecció	afeccions
+60	6760	farga	fargues
+61	6761	turmell	turmells
+62	6762	impregnar	impregna impregnada impregnades impregnant impregnarà impregnat impregnats impregnava impregnaven impregnen impregni impregnà
+63	6763	pallarès	pallaresa pallareses pallaresos pallarés
+64	6764	raonar	raon raona raonada raonades raonant raonat raonats raonava raonem raonen raones raoni
+65	6765	wiki	viqui wikis
+66	6766	poll	polls
+67	6767	deliri	deliris
+68	6768	plor	plors
+69	6769	perfeccionar	perfecciona perfeccionada perfeccionades perfeccionant perfeccionat perfeccionats perfeccionem perfeccionen perfeccionà
+70	6770	inclinar	inclina inclinada inclinades inclinant inclinaren inclinaria inclinats inclinava inclinaven inclinen inclini inclinin inclino inclinà inclinés
+71	6771	feblesa	febleses
+72	6772	llargada	llargades
+73	6773	duna	dunes
+74	6774	bíblic	bíblica bíblics bíbliques
+75	6775	recobrir	recobert recoberta recobertes recoberts recobreix recobreixen recobria recobrien recobrint
+76	6776	ren	rens
+77	6777	mancança	mancances
+78	6778	nora	nores
+79	6779	eternitat	eternitats
+80	6780	pèsol	pèsols
+81	6781	botxí	botxins
+82	6782	jardiner	jardinera jardineres jardiners
+83	6783	titulació	titulacions
+84	6784	hit	hits
+85	6785	emboscada	emboscades
+86	6786	tailandès	tailandesa tailandeses tailandesos tailandés
+87	6787	fra	fres
+88	6788	xiular	xiula xiulada xiulades xiulant xiularà xiulat xiulats xiulava xiulaven xiulem xiulen xiuli
+89	6789	onejar	onegen onegin oneja onejant onejat onejava onejaven
+90	6790	possibilitar	possibilita possibilitant possibilitaren possibilitaria possibilitarà possibilitats possibilitava possibilitaven possibiliten possibiliti possibilitin possibilità possibilités
+91	6791	remolc	remolcs
+92	6792	anglada	anglades
+93	6793	deplorable	deplorables
+94	6794	falset	falsets
+95	6795	coromina	coromines
+96	6796	sectorial	sectorials
+97	6797	senyalar	senyala senyalada senyalades senyalant senyalarà senyalat senyalats senyalava senyalaven senyalen senyalà
+98	6798	expressiu	expressius expressiva expressives
+99	6799	sensibilitzar	sensibilitza sensibilitzada sensibilitzades sensibilitzant sensibilitzat sensibilitzats sensibilitzen
+100	6800	entreveure	entreveia entreveu entreveuen

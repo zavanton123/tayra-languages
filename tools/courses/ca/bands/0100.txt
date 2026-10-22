@@ -1,0 +1,100 @@
+1	1	el	els l la las lassa les lesa lo los
+2	2	de	d del dels des
+3	3	a	al als
+4	4	que	
+5	5	un	una unes uns
+6	6	ser	era eren eres essent estada estat estats ets fora foren fos fossin fou sent seran serem seria serien series serà seré siga siguem sigues sigui siguin siguis sigut so soc som sou sous sóc són érem és ésser éssers
+7	7	per	pel pels pers
+8	8	en	n na ne
+9	9	haver	ha hagi hagin hagis haguem haguera hagueren haguessin hagueu hagut hagué hagués haguéssim haig han has hauran haurem haureu hauria haurien hauries haurà hauràs hauré hauríem hauríeu havent havia havien havies havíem havíeu he hem heu heus hàgim hàgiu
+10	10	anar	anada anam anant anaren anat anava anaven anaves anem anessin aneu aniran anirem anireu aniria anirien anirà aniràs aniré anà anàvem anés va vagi vagin vagis vaig vaja vam van varen vares vas vasos vau ves vàrem vàreu vés
+11	11	es	s sa sana sanes sans se ses so sons sos só
+12	12	no	
+13	13	amb	ab
+14	14	fer	fa facen faci facin facis faig fan faran farem fareu faria farien faries farà faràs faré faríem faríeu fas faça fe feia feien feim fem fems fent fera feren fes fessin fet feta fetes fets feu fèiem féssim féu
+15	15	seu	seua seues seus seva seves sua sues sèu séu
+16	16	aquest	aquesta aquestes aquestos aquests
+17	17	com	coms còm cóm
+18	18	més	
+19	19	tot	tota totes tots
+20	20	tenir	ten tenc tendra tendre tenen tengut tenia tenien tenies tenim tenint teniu tens teníem tinc tindran tindre tindrem tindreu tindria tindrien tindrà tindràs tindré tindríem tinga tinguem tinguen tingueren tingues tinguessin tingueu tingui tinguin tinguis tingut tingué tingués té
+21	21	poder	podem poden podent poders podeu podia podien podies podran podrem podreu podria podrien podries podrà podràs podré podríem podríeu podíem poguera pogueren poguessin poguessis pogut pogué pogués poguéssim pot pots puc puga puguem puguen pugues pugueu pugui puguin puguis
+22	22	estar	estada estan estant estaran estarem estareu estaria estarien estaries estarà estaràs estaré estaríem estats estau estava estaven estaves estem esteu estic estiga estiguem estiguen estiguera estigueren estigues estiguessin estigueu estigui estiguin estiguis estigué estigués estiguéssim està estàs estàvem estàveu
+23	23	hi	
+24	24	molt	molta moltes molts mòlt mòlta
+25	25	o	
+26	26	si	sins
+27	27	any	anyet anys
+28	28	però	emperò peròs
+29	29	dir	deia deien deies dic dics diem dient dieu diga diguem diguen digueren digues diguessin digueu digui diguin diguis digué digués diran dire direm direu diria dirien diries dirà diràs diré diríem dit dita dites dits diu diuen dius dèiem
+30	30	em	m me mel mels
+31	31	ens	nos
+32	32	veure	vegem vegeu vegi vegin vegis veia veiem veien veient veieren veiessin veieu veig veié veiés veres ves veu veuen veuran veure's veurem veureu veuria veurà veuràs veuré veus vist vista vistes vistos viu vius viva vives vore vèiem vés
+33	33	ja	
+34	34	ho	
+35	35	altre	altra altres
+36	36	també	tb
+37	37	et	t te tes tesa
+38	38	cap	cabot cabots caps
+39	39	dia	dies día
+40	40	nostre	nostra nostres
+41	41	això	
+42	42	sobre	sobres
+43	43	voler	vol voldran voldrem voldreu voldria voldrien voldries voldrà voldràs voldré voldríem voldríeu volem volen volent voleu volguda volguera volgueren volguessin volgut volguts volgué volgués volguéssim volia volien volies vols volíem volíeu vulguem vulguen vulgues vulgueu vulgui vulguin vulguis vull
+44	44	nou	nous nova noves
+45	45	quan	
+46	46	primer	primera primeres primers
+47	47	on	ahont hon hont ont
+48	48	ara	
+49	49	entre	
+50	50	fins	
+51	51	què	
+52	52	dos	dosos dues
+53	53	gran	grandíssim grans
+54	54	donar	dona donada donades donam donant donants donara donaran donarem donaren donareu donaria donarien donaries donarà donaràs donaré donaríem donat donats donau donava donaven donaves donc donem donen donessin doneu dongui doni donin donis dono donà donàrem donés dó dóna
+55	55	perquè	perquès pq
+56	56	persona	persones
+57	57	després	
+58	58	bo	bon bona bones bons òptim òptima òptimes òptims
+59	59	algun	alguna algunes alguns
+60	60	trobar	trob troba trobada trobades trobam trobant trobara trobaran trobarem trobaren trobareu trobaria trobarien trobaries trobarà trobaràs trobaré trobaríem trobaríeu trobat trobats trobava trobaven trobaves trobe trobem troben trobes trobessin trobessis trobeu trobi trobin trobis trobo trobà trobàvem trobés trobéssim
+61	61	mateix	mateixa mateixes mateixos
+62	62	saber	sab sabem saben sabent saberen sabers sabessin sabeu sabia sabien sabies sabina sabran sabrem sabreu sabria sabrien sabries sabrà sabràs sabré sabríem sabríeu sabut sabé sabés sabéssim sabíem sabíeu sap sapiguem sapigueu saps sàpia sàpies sàpiga sàpiguen sàpigues sé
+63	63	part	parta partes parts
+64	64	sense	sens
+65	65	bé	ben béns
+66	66	només	domés nms
+67	67	jo	mi mis
+68	68	meu	meua meues meus meva meves mia mies mèu
+69	69	us	vos
+70	70	encara	
+71	71	li	
+72	72	gent	
+73	73	parlar	parl parla parlada parlades parlam parlant parlants parlara parlaran parlarem parlaren parlaria parlars parlarà parlaràs parlaré parlaríem parlat parlats parlau parlava parlaven parlaves parle parlem parlen parles parlessin parlessis parleu parli parlin parlis parlo parlà parlàvem parlés parléssim parlí
+74	74	lloc	lloch llocs
+75	75	així	aixina aixís
+76	76	durant	
+77	77	cosa	coses coseta
+78	78	tant	tanta tantes tants
+79	79	català	catalana catalanes catalans
+80	80	passar	passa passada passades passam passant passants passara passaran passarem passaren passareu passaria passarien passaries passarà passaràs passaré passaríem passats passau passava passaven passaves passe passem passen passes passessin passessis passeu passi passin passis passo passà passàs passàvem passés
+81	81	qui	
+82	82	arribar	arrib arriba arribada arribades arribant arribara arribaran arribarem arribaren arribareu arribaria arribarien arribaries arribarà arribaràs arribaré arribassin arribat arribats arribava arribaven arribaves arribe arribem arriben arribes arribessin arribessis arribeu arribi arribin arribis arribo arribà arribàrem arribàs arribàvem arribés arribéssim
+83	83	ni	nis
+84	84	posar	posa posada posades posant posara posaran posarem posaren posareu posaria posarien posaries posarà posaràs posaré posaríem posat posats posau posava posaven posaves posem posen poses posessin posessis poseu posi posin posis poso posà posàs posàvem posés
+85	85	contra	contres
+86	86	gràcia	gràcies
+87	87	deixar	deix deixa deixada deixades deixam deixant deixara deixaran deixarem deixaren deixareu deixaria deixarien deixarà deixaràs deixaré deixaríem deixat deixats deixau deixava deixaven deixaves deixe deixem deixen deixes deixessin deixessis deixeu deixi deixin deixis deixo deixà deixàrem deixàvem deixés deixéssiu
+88	88	qual	quales quals
+89	89	país	països
+90	90	tornar	torna tornada tornades tornam tornant tornara tornaran tornarem tornaren tornareu tornaria tornarien tornaries tornarà tornaràs tornaré tornaríem tornat tornats tornau tornava tornaven tornaves torne tornem tornen tornes tornessin tornessis torneu torni tornin tornis torno tornà tornàs tornàvem tornés tornéssim
+91	91	millor	millors
+92	92	ciutat	ciutats
+93	93	començar	comence comencem comencen comences comencessin comencessis comenceu comenci comencin comencis comencés comencí començ comença començada començades començam començant començara començaran començarem començaren començares començaria començarien començarà començaràs començaré començat començats començau començava començaven començo començos començà començàrem començàs començàvem
+94	94	sant	santa santes sants
+95	95	manera	maneres
+96	96	temps	
+97	97	ell	ells
+98	98	acabar	acab acaba acabada acabades acabam acabant acabara acabaran acabarem acabaren acabareu acabaria acabarien acabaries acabarà acabaràs acabaré acabaríem acabat acabats acabava acabaven acabaves acabe acabem acaben acabes acabessin acabessis acabeu acabi acabin acabis acabo acabà acabàs acabàvem acabés acabéssim
+99	99	govern	governs
+100	100	conèixer	conec conega coneguda conegudes coneguem conegueren coneguessin coneguessis conegueu conegui coneguin coneguis conegut coneguts conegué coneguérem conegués coneguéssim coneguéssiu coneix coneixem coneixen coneixent coneixeran coneixerem coneixereu coneixeria coneixerien coneixerà coneixeràs coneixeré coneixes coneixeu coneixia coneixien coneixies coneixíem coneixíeu conéixer

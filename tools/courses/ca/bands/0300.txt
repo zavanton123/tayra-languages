@@ -1,0 +1,100 @@
+1	201	dins	
+2	202	tu	
+3	203	acord	acords
+4	204	recordar	recorda recordada recordades recordant recordaran recordarem recordaren recordareu recordaria recordarien recordarà recordaràs recordaré recordat recordats recordau recordava recordaven recordaves recorde recordem recorden recordes recordessin recordessis recordeu recordi recordin recordis recordo recordà recordés
+5	205	jove	jovens joves jóvens
+6	206	dur	du duc ducs duem duen duent dueu duga duguem dugueren dugues duguessin dugueu dugui duguin dugué dugués duia duien duies duquessa dura duran durem dures duria durien durs durà duràs duré dus dut duta dutes duts duu duus dúiem
+7	207	força	forces
+8	208	pare	pares
+9	209	continuar	continua continuada continuades continuant continuara continuaran continuarem continuaren continuaria continuarien continuarà continuaràs continuaré continuat continuats continuava continuaven continuem continuen continues continuessin continueu continuo continuu continuà continués continuí continuï continuïn continuïs
+10	210	amic	amics amiga amigues
+11	211	general	generala generales generals gral
+12	212	únic	única únics úniques
+13	213	internacional	internacionals
+14	214	participar	particip participa participada participades participant participants participara participaran participarem participaren participaria participarien participarà participaràs participaré participat participats participava participaven participe participem participen participes participessin participeu participi participin participis participo participà participés
+15	215	tal	tals
+16	216	servir	serveix serveixen serveixes serveixi serveixin serveixo servia servida servides servien servies servim servint servira serviran servirem serviren servireu serviria servirien servirà serviràs serviré servisca servisquen servissin servit servits serviu servix servixen serví servís
+17	217	sota	sotes
+18	218	morir	mor mora moren mores moret mori moria morien mories morim morin morint morira moriran morirem moriren morireu moriria moririen morirà moriràs moriré moriríem moris morissin moriu moro moros mors morta mortes morts morí morís muira móra
+19	219	crear	crea creada creades creant creara crearan crearem crearen crearia crearien crearà crearàs crearé creat creats creava creaven cree creem creen crees creessin creeu crei creo creà creés creï creïn creïs
+20	220	llengua	llengües llengüeta llengüetes
+21	221	foto	fotos
+22	222	entendre	entenc entendran entendrem entendreu entendria entendrien entendrà entendràs entendré entendríem entenem entenen entenent enteneu entenguem entengueren entenguessin entenguessis entengueu entengui entenguin entenguis entengué entengués entenguéssim entenguéssiu entenia entenien entens enteníem entesa enteses entesos entès entén
+23	223	nacional	nacionals
+24	224	programa	programes
+25	225	permetre	permesa permeses permesos permet permeta permetem permeten permetent permetera permeteren permetes permetessin permeteu permeti permetia permetien permetin permetis permeto permetran permetrem permetreu permetria permetrien permetrà permetràs permetré permets permeté permetés permetí permès
+26	226	web	webs
+27	227	sistema	sistemes
+28	228	treball	treballs
+29	229	publicar	publica publicada publicades publicans publicant publicara publicaran publicarem publicaren publicaria publicarien publicarà publicaré publicat publicats publicava publicaven publico publicà publicàvem publique publiquem publiquen publiques publiquessin publiqui publiquin publiquis publiqués
+30	230	dada	dades
+31	231	sentir	sent senta senten sentes senti sentia sentida sentides sentien senties sentim sentin sentint sentiran sentirem sentiren sentireu sentiria sentirien sentiries sentirà sentiràs sentiré sentiríem sentis sentissin sentissis sentits sentiu sento sents sentí sentíem sentís sentíssiu
+32	232	terra	terres
+33	233	llegir	llegeix llegeixen llegeixes llegeixi llegeixin llegeixis llegeixo llegia llegida llegides llegien llegies llegim llegint llegiran llegirem llegiren llegireu llegiria llegirà llegiràs llegiré llegissin llegit llegits llegiu llegix llegí llegís lligen lliges
+34	234	menys	
+35	235	tothom	
+36	236	guanyar	guanya guanyada guanyades guanyam guanyant guanyara guanyaran guanyarem guanyaren guanyareu guanyaria guanyarien guanyarà guanyaràs guanyaré guanyaríem guanyat guanyats guanyava guanyaven guanyaves guanye guanyem guanyen guanyes guanyessin guanyeu guanyi guanyin guanyis guanyo guanyà guanyàs guanyàvem guanyés
+37	237	canvi	canvis
+38	238	aigua	aigües
+39	239	alt	alta altes alts
+40	240	llei	lleis
+41	241	nord	
+42	242	canviar	canvia canviada canviades canviant canviants canviara canviaran canviarem canviaren canviaria canviarien canviaries canviarà canviaràs canviaré canviat canviats canviava canviaven canvie canviem canvien canvies canviessin canvieu canvii canvio canvià canviés canviï canviïn canviïs
+43	243	compte	comptes
+44	244	pas	passet passos
+45	245	zona	zones
+46	246	pla	plana planes plans
+47	247	mà	mans mansa manses manso mansos
+48	248	rei	reiet reis
+49	249	obra	obres
+50	250	article	articles
+51	251	propi	propis pròpia pròpies
+52	252	entrar	entr entra entrades entram entrant entrants entrara entraran entrarem entraren entrareu entraria entrarien entrarà entraràs entraré entraríem entrat entrats entrava entraven entraves entrem entren entres entressin entreu entri entrin entris entro entrà entràs entrés entréssim
+53	253	mirar	mir mirada mirades miram mirant miraran mirarem miraren miraria mirarà miraràs miraré mirat mirats mirau mirava miraven miraves mire mirem miren mires miressin mireu miri mirin miris miro mirà miràvem mirés miréssim
+54	254	membre	membres
+55	255	joc	joca jocs
+56	256	baix	baixa baixes baixos baixíssim
+57	257	exemple	exemples
+58	258	banda	bandes
+59	259	març	
+60	260	tipus	
+61	261	partir	parteix parteixen parteixi parteixin partia partida partides partien parties partim partint partiran partirem partiren partiria partirà partiré partissin partiu partix partixen partí partís
+62	262	camp	camps
+63	263	incloure	incloc incloem incloent incloga inclogueren incloguessin inclogui incloguin incloguis inclogué inclogués inclosa incloses inclosos inclou inclouen inclouran inclourem inclouria inclourien inclourà inclous incloïa incloïen inclòs
+64	264	cultura	cultures
+65	265	procés	processos
+66	266	mantenir	mantenen mantengueren mantengut mantengué mantenia mantenien mantenim mantenint manteniu mantens mantinc mantindran mantindre mantindrem mantindria mantindrien mantindrà mantindràs mantindré mantinga mantinguda mantingudes mantinguem mantinguen mantinguera mantingueren mantingues mantinguessin mantingueu mantingui mantinguin mantinguis mantingut mantinguts mantingué mantingués mantinguéssim manté mantén
+67	267	mal	mala males mals
+68	268	potser	
+69	269	considerar	considera considerada considerades consideram considerant considerara consideraran considerarem consideraren consideraria considerarien considerarà consideraré consideraríem considerat considerats considerava consideraven considere considerem consideren consideres consideressin considereu consideri considerin consideris considero considerà consideràvem considerés
+70	270	llarg	llarch llarga llargs llargues
+71	271	porta	portes
+72	272	senyor	senyora senyores senyoret senyoretes senyorets senyors sr sra
+73	273	llibertat	llibertats
+74	274	convertir	converteix converteixen converteixes converteixi converteixin converteixis converteixo convertia convertida convertides convertien convertim convertint convertira convertiran convertirem convertiren convertireu convertiria convertirien convertirà convertiràs convertiré convertisca convertisquen convertissin convertit convertits convertiu convertix convertixen convertí convertís
+75	275	policia	policies
+76	276	quatre	quatres
+77	277	setembre	septembre setembres
+78	278	doncs	donc donchs
+79	279	ningú	
+80	280	plaça	places pça
+81	281	societat	societats
+82	282	idea	idees ideia
+83	283	paraula	paraules
+84	284	major	majors
+85	285	vostre	vostra vostres
+86	286	activitat	activitats
+87	287	necessitar	necessit necessita necessitada necessitades necessitam necessitant necessitaran necessitarem necessitaren necessitareu necessitaria necessitarien necessitaries necessitarà necessitaràs necessitaré necessitaríem necessitats necessitau necessitava necessitaven necessitaves necessite necessitem necessiten necessites necessitessin necessitessis necessiteu necessiti necessitin necessitis necessito necessità necessitàvem necessités necessitéssim
+88	288	terme	termes térmens
+89	289	decidir	decideix decideixen decideixes decideixi decideixin decideixis decideixo decidia decidida decidides decidien decidim decidint decidira decidiran decidirem decidiren decidiria decidirien decidirà decidiràs decidiré decidisca decidissin decidissis decidit decidits decidiu decidix decidixen decidí decidís
+90	290	principal	pral principals
+91	291	acte	actes
+92	292	pagar	pag paga pagada pagades pagana paganes pagans pagant pagara pagaran pagarem pagaren pagareu pagaria pagarien pagaries pagarà pagaràs pagaré pagarés pagat pagats pagava pagaven pagaves pago pagos pague paguem paguen pagues paguessin pagueu pagui paguin paguis pagués paguéssim pagà
+93	293	europeu	europea europees europeus
+94	294	tema	temes
+95	295	buscar	busca buscada buscades buscant buscaran buscarem buscaren buscaria buscarien buscarà buscaràs buscaré buscat buscats buscava buscaven buscaves busco buscà buscàvem busque busquem busquen busques busquessin busqueu busqui busquin busquis busqués
+96	296	ella	elles
+97	297	universitat	universitats
+98	298	milió	milions
+99	299	població	poblacions
+100	300	local	locals

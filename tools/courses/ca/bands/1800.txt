@@ -1,0 +1,100 @@
+1	1701	ai	ais
+2	1702	musulmà	musulmana musulmanes musulmans
+3	1703	coincidir	coincideix coincideixen coincideixi coincideixin coincideixo coincidia coincidien coincidim coincidint coincidiran coincidiren coincidiria coincidirien coincidirà coincidissin coincidit coincidix coincidixen coincidí coincidís
+4	1704	oli	olis
+5	1705	comunista	comunistes
+6	1706	pal	palet palets pals
+7	1707	dominar	domina dominada dominades dominaran dominaren dominaria dominarien dominarà dominat dominats dominava dominaven domine dominem dominen domines dominessin dominin dominis domino dominà dominés
+8	1708	incendi	incendis
+9	1709	estimat	estimada estimades estimats
+10	1710	empresari	empresaris empresària empresàries
+11	1711	relat	relats
+12	1712	colònia	colònies
+13	1713	passeig	passeigs passejos
+14	1714	fruit	fruits
+15	1715	afer	afers
+16	1716	car	cares cars
+17	1717	comprendre	comprenc comprendria comprendrien comprendrà comprenem comprenen comprenent compreneu comprengueren comprenguessin comprengui comprenguin comprengué comprengués comprenia comprenien comprens compresa compreses compresos comprèn comprès
+18	1718	volum	volums
+19	1719	costar	costant costaren costaria costarien costarà costats costava costaven coste costen costes costi costin costo costà costés
+20	1720	inicial	inicials
+21	1721	turc	turca turcs turques
+22	1722	film	films
+23	1723	droga	drogues
+24	1724	adaptar	adapta adaptada adaptades adaptant adaptaran adaptaren adaptaria adaptarien adaptarà adaptat adaptats adaptava adaptaven adaptem adapten adaptes adaptessin adapti adaptin adapto adaptà adaptés
+25	1725	munt	munts muntó
+26	1726	somriure	somreia somreien somric somrient somrients somrieu somrigui somrigut somriu somriuen somriures somrius
+27	1727	poema	poemes
+28	1728	encarregat	encarregada encarregades encarregats
+29	1729	independentista	independentistes
+30	1730	broma	bromes
+31	1731	executiu	executius executiva executives
+32	1732	pilot	pilots
+33	1733	perspectiva	perspectives
+34	1734	regla	regles
+35	1735	extraordinari	extraordinaris extraordinària extraordinàries
+36	1736	crit	crits
+37	1737	forçar	forcem forcen forces forci forcin forcis forcés forçada forçades forçant forçaran forçaren forçaria forçarien forçarà forçat forçats forçava forçaven forço forçà
+38	1738	orgull	orgulls
+39	1739	casal	casals
+40	1740	acudir	acudeix acudeixen acudeixi acudeixin acudeixo acudia acudien acudim acudint acudiran acudiren acudiria acudirien acudirà acudissin acudit acudits acudix acudixen acudí acudís acut
+41	1741	experimentar	experimenta experimentada experimentades experimentant experimentaran experimentaren experimentaria experimentarà experimentat experimentats experimentava experimentaven experimente experimentem experimenten experimentessin experimenti experimentin experimentis experimento experimentà experimentés
+42	1742	federal	federals
+43	1743	provenir	provenen provenia provenien provenint provinc provindran provindre provindria provindrien provindrà provinga provinguessin provingui provinguin provingut provingués prové
+44	1744	difondre	difon difondran difondria difondrà difonen difonent difoneu difongueren difonguessin difongueu difongui difonguin difongué difongués difonia difonien difosa difoses difosos difós
+45	1745	distribució	distribucions
+46	1746	allunyar	allunya allunyada allunyades allunyant allunyarem allunyaren allunyaria allunyarà allunyat allunyats allunyava allunyaven allunye allunyem allunyen allunyes allunyessin allunyeu allunyi allunyin allunyis allunyà allunyés
+47	1747	valorar	valora valorada valorades valorant valorarem valoraren valorarà valorat valorats valorava valoraven valore valorem valoren valores valoressin valoreu valori valorin valoris valoro valorà valorés
+48	1748	assaig	assaigs assajos
+49	1749	conscient	conscients
+50	1750	comunicat	comunicada comunicades comunicats
+51	1751	equivocar	equivoca equivocada equivocades equivocant equivocaràs equivocat equivocats equivocava equivocaven equivoco equivocà equivoque equivoquem equivoquen equivoques equivoqueu equivoqui equivoquis equivoqués equivoquéssim
+52	1752	acostumar	acostuma acostumada acostumades acostumant acostumarà acostumaré acostumat acostumats acostumava acostumaven acostumem acostumen acostumes acostumeu acostumi acostumin acostumis acostumo acostumàvem
+53	1753	cedir	cedeix cedeixen cedeixi cedeixin cedeixo cedia cedida cedides cedien cedim cedint cedira cedirem cediren cediria cedirien cedirà cedissin cedit cedits cedix cedí cedíem cedís
+54	1754	referèndum	referèndums
+55	1755	cobrar	cobra cobrada cobrades cobrant cobraran cobrarem cobraren cobraria cobrarien cobrarà cobraràs cobraré cobrat cobrats cobrava cobraven cobre cobrem cobren cobres cobressin cobreu cobri cobrin cobrà cobrés cobrí
+56	1756	diversitat	diversitats
+57	1757	contractar	contr contracta contractada contractades contractant contractants contractaren contractaria contractarà contractat contractats contractava contractaven contractem contracten contractes contractessin contracti contractin contracto contractà contractés
+58	1758	avinguda	av avingudes
+59	1759	violent	violenta violentes violents
+60	1760	natura	natures
+61	1761	vincular	vincula vinculada vinculades vinculant vinculants vincularen vincularia vincularà vinculat vinculats vinculava vinculaven vinculen vinculi vinculin vinculà vinculés
+62	1762	conductor	conductora conductores conductors
+63	1763	fundador	fundadora fundadores fundadors
+64	1764	allí	
+65	1765	posteriorment	
+66	1766	editar	edita editada editades editant editaran editaren editaria editarà editat editats editava editaven edite editen editi edito edità edités
+67	1767	suggerir	suggereix suggereixen suggereixes suggereixi suggereixin suggereixo suggeria suggerida suggerides suggerien suggerint suggeriren suggeriria suggerit suggerits suggerix suggerí suggerís
+68	1768	suspendre	suspendran suspendria suspenem suspenen suspenent suspengueren suspenguessin suspengui suspengué suspengués suspenia suspenien suspens suspensos suspesa suspeses suspesos suspèn suspès
+69	1769	discutir	discuteix discuteixen discuteixi discuteixin discuteixo discutia discutida discutides discutien discutim discutint discutirem discutiren discutiria discutirien discutirà discutiré discutissin discutit discutits discutiu discutí discutíem discutíeu discutís
+70	1770	oposar	oposa oposada oposades oposant oposaran oposarem oposaren oposaria oposarien oposarà oposat oposats oposava oposaven oposem oposen oposes oposessin oposi oposin oposo oposà oposés
+71	1771	medicina	medicines
+72	1772	eix	eixos
+73	1773	nomenar	nomena nomenada nomenades nomenant nomenaran nomenaren nomenaria nomenarà nomenat nomenats nomenava nomenaven nomene nomenem nomenen nomenessin nomeni nomenin nomeno nomenà nomenés
+74	1774	adonar-se	adona adona't adonant adonaran adonarem adonaren adonareu adonaria adonarà adonaràs adonat adonava adonaven adonem adonen adones adonessin adoneu adoni adonin adono adonà adonés
+75	1775	pilar	pilars
+76	1776	criminal	criminals
+77	1777	bellesa	belleses
+78	1778	cercar	cerc cercada cercades cercam cercant cercarem cercaren cercaria cercarà cercat cercats cercava cercaven cerco cercs cercà cercàvem cerque cerquem cerquen cerques cerquessin cerqueu cerqui cerquin cerqués
+79	1779	transparència	transparències
+80	1780	transmetre	transmesa transmeses transmesos transmet transmeta transmetem transmeten transmetent transmeteren transmetessin transmeti transmetia transmetien transmetin transmetis transmeto transmetran transmetria transmetrà transmeté transmetés transmès
+81	1781	vers	versos
+82	1782	descripció	descripcions
+83	1783	lent	lenta lentes lents
+84	1784	assistent	assistenta assistentes assistents
+85	1785	migdia	migdies
+86	1786	típic	típica típics típiques
+87	1787	agenda	agendes
+88	1788	col	cols
+89	1789	contar	conta contada contades contant contarem contaren contareu contaria contarà contaràs contaré contat contats contava contaven contem conten contes conti conto contà contàvem contés
+90	1790	perdonar	perdon perdona perdonada perdonades perdonant perdonaran perdonarem perdonareu perdonaria perdonarien perdonarà perdonaràs perdonaré perdonat perdonats perdonau perdonava perdonaven perdone perdonem perdonen perdones perdoneu perdoni perdonin perdonis perdono perdonà perdonés
+91	1791	aventura	aventures
+92	1792	sindicat	sindicats
+93	1793	salt	salts
+94	1794	gat	gata gates gats
+95	1795	prat	prats
+96	1796	pilota	pilotes
+97	1797	entrenador	entrenadora entrenadores entrenadors
+98	1798	satisfer	satisfaci satisfacin satisfan satisfaran satisfaria satisfarà satisfeia satisfeien satisfent satisfet satisfeta satisfetes satisfets satisfà satisfés
+99	1799	mart	marta marts
+100	1800	revolta	revoltes

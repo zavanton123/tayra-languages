@@ -1,0 +1,100 @@
+1	8401	pintoresc	pintoresca pintorescos pintorescs pintoresques
+2	8402	capellada	capellades
+3	8403	contestació	contestacions
+4	8404	freqüentar	freqüenta freqüentada freqüentades freqüentant freqüentat freqüentats freqüentava freqüentaven freqüenten freqüentà
+5	8405	odiós	odiosa odioses odiosos
+6	8406	fòsfor	fòsfors
+7	8407	moderar	modera moderada moderades moderant moderats moderava moderen moderi moderà
+8	8408	toponímia	toponímies
+9	8409	trident	tridents
+10	8410	refrany	refranys
+11	8411	consumar	consuma consumada consumades consumant consumat consumats consumava consumà
+12	8412	remodelar	remodela remodelada remodelades remodelant remodelat remodelats remodelen remodelà
+13	8413	ferrat	ferrada ferrades ferrats
+14	8414	seleccionador	seleccionadora seleccionadors
+15	8415	acceleració	acceleracions
+16	8416	trast	trasto trastos trasts
+17	8417	empobrir	empobreix empobreixen empobria empobrida empobrides empobrint empobrit empobrits
+18	8418	predicador	predicadores predicadors
+19	8419	amiant	
+20	8420	aram	
+21	8421	arbitràriament	
+22	8422	bruixeria	
+23	8423	enaltiment	
+24	8424	escepticisme	
+25	8425	exactitud	
+26	8426	glaç	
+27	8427	globalment	
+28	8428	judes	
+29	8429	llautó	
+30	8430	lògicament	
+31	8431	novia	
+32	8432	obscuritat	
+33	8433	ocasionalment	
+34	8434	pap	
+35	8435	sorgiment	
+36	8436	virtualment	
+37	8437	sustentar	sustent sustenta sustentada sustentades sustentant sustentat sustentats sustentava sustentaven sustenten sustenti sustentin sustento
+38	8438	evasió	evasions
+39	8439	imprudent	imprudents
+40	8440	majestuós	majestuosa majestuoses majestuosos
+41	8441	ancorar	ancora ancorada ancorades ancorant ancorat ancorats ancoren ancores
+42	8442	vilanoví	vilanovina vilanovines vilanovins
+43	8443	magrana	magranes
+44	8444	heterosexual	heterosexuals
+45	8445	davallada	davallades
+46	8446	node	nodes
+47	8447	angoixar	angoixada angoixades angoixant angoixants angoixat angoixats angoixes
+48	8448	bac	bacs
+49	8449	incomptable	incomptables
+50	8450	soldadura	soldadures
+51	8451	suavitzar	suavitza suavitzada suavitzades suavitzant suavitzants suavitzat suavitzats suavitzava suavitzen
+52	8452	equitatiu	equitatius equitativa equitatives
+53	8453	colorar	colorada colorant colorants colorat colores colori
+54	8454	maquinista	maquinistes
+55	8455	homòleg	homòlegs homòloga homòlogues
+56	8456	peixet	peixets
+57	8457	traç	traços
+58	8458	hispà	hispana hispanes hispans
+59	8459	escultòric	escultòrica escultòrics escultòriques
+60	8460	transcendir	transcendeix transcendeixen transcendeixi transcendia transcendint transcendit transcendís
+61	8461	refermar	referma refermada refermant refermat refermava refermen refermà
+62	8462	vial	vials
+63	8463	joguet	joguets
+64	8464	llegum	llegums
+65	8465	sortejar	sortegem sortegen sorteja sortejada sortejant sortejarem sortejarà sortejat sortejats sortejava
+66	8466	emplaçar	emplacen emplaça emplaçada emplaçades emplaçant emplaçat emplaçats emplaçava emplaçaven emplaçà
+67	8467	sandàlia	sandàlies
+68	8468	mòmia	mòmies
+69	8469	pubilla	pubilles
+70	8470	quantificar	quantifica quantificada quantificades quantificant quantificat quantificats quantificava quantifiquen
+71	8471	malgastar	malgasta malgastant malgastat malgastats malgastava malgasten malgasteu malgastis
+72	8472	foradada	foradades
+73	8473	irritació	irritacions
+74	8474	compilar	compila compilada compilades compilant compilat compilats compilen compilà
+75	8475	bizantí	bizantina bizantines bizantins
+76	8476	pontar	ponte pontes ponti
+77	8477	revelador	reveladora reveladores reveladors
+78	8478	gasoli	gasoil
+79	8479	desfavorable	desfavorables
+80	8480	subjectar	subjectada subjectades subjectant subjectarà subjectat subjectats subjectava subjectaven subjecten subjecti
+81	8481	elevació	elevacions
+82	8482	cronològic	cronològica cronològics cronològiques
+83	8483	pita	pites
+84	8484	barriada	barriades
+85	8485	capgròs	capgrossos
+86	8486	sincronitzar	sincronitza sincronitzada sincronitzades sincronitzant sincronitzat sincronitzats sincronitzava sincronitzen sincronitzi
+87	8487	bordar	bordada bordant bordat bordats borde borden bordes bordin bordo bordàs
+88	8488	bitlles	birles
+89	8489	cambodjà	cambodjana cambodjanes cambodjans
+90	8490	macedoni	macedonis macedònies
+91	8491	comerciar	comercia comerciava comerciaven comercien comercio
+92	8492	ganga	gangues
+93	8493	ceràmic	ceràmics ceràmiques
+94	8494	correlació	correlacions
+95	8495	recalcar	recalca recalcant recalcat recalcava recalcà recalquen
+96	8496	fisiològic	fisiològica fisiològics fisiològiques
+97	8497	afectuós	afectuosa afectuoses afectuosos
+98	8498	matoll	matolls
+99	8499	olivar	olivada olivares olivars
+100	8500	artifici	artificis

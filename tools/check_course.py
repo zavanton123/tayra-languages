@@ -87,8 +87,8 @@ def fold(code, word):
     # The German list folds ß to ss in most of its forms, so both spellings are compared folded.
     if code == "de":
         return word.replace("ß", "ss")
-    # The French, Italian and Dutch lists write the straight apostrophe; texts may use the curly one.
-    if code in ("fr", "it", "nl"):
+    # The French, Italian, Dutch and Catalan lists write the straight apostrophe; texts may use the curly one.
+    if code in ("fr", "it", "nl", "ca"):
         return word.replace("’", "'")
     # Russian texts for learners write ё where it belongs, while the list holds both spellings of most words.
     if code == "ru":
@@ -332,6 +332,8 @@ def tokens(text, code=None, ranks=None, names=frozenset(), verbs=None, heads=Non
         return chinese_tokens(text, ranks)
     if code == "fr":
         return french_tokens(text, ranks)
+    if code == "ca":
+        return catalan_tokens(text, ranks)
     if code == "es":
         return spanish_tokens(text, ranks, names, verbs)
     if code in ("ru", "uk", "hu"):
@@ -420,6 +422,33 @@ def french_tokens(text, ranks):
                     out.append(elided)
             if part:
                 out.extend([part] if part.lower() in ranks else [piece for piece in part.split("'") if piece])
+    return out
+
+
+# The endings of Catalan ordinals written with digits (1r, 2n, 3a, 4t, 5è, 1rs).
+CATALAN_ORDINAL_ENDINGS = {"r", "n", "t", "è", "a", "s", "rs", "ns", "ts", "es"}
+CATALAN_WORD = re.compile(r"[^\W\d_]+(?:['’·-][^\W\d_]+)*", re.UNICODE)
+# The conjunction i ("and") is missing from the list (the ca-en pack has no entry for it): it counts as known.
+CATALAN_UNLISTED = {"i"}
+
+
+def catalan_tokens(text, ranks):
+    """
+    Catalan words as the list counts them. As the reader does, a word is split at hyphens (dona-m'ho is
+    dona + m'ho, anar-se'n is anar + se'n) and the punt volat stays inside it (col·legi); the elided
+    pronouns and articles come off at the apostrophe on either side (l'home is l + home, s'aixeca is
+    s + aixeca, se'n is se + n, porta'l is porta + l), except the few forms the list has whole (adona't).
+    """
+    out = []
+    for match in CATALAN_WORD.finditer(text.replace("ŀl", "l·l").replace("Ŀl", "L·l")):
+        word = match.group(0).replace("’", "'")
+        if match.start() > 0 and text[match.start() - 1].isdigit() and word.lower() in CATALAN_ORDINAL_ENDINGS:
+            continue
+        for part in word.split("-"):
+            if part.lower() in ranks or "'" not in part:
+                out.extend([part] if part else [])
+            else:
+                out.extend(piece for piece in part.split("'") if piece)
     return out
 
 
@@ -1221,7 +1250,7 @@ def check(path, brief=False):
     names = {fold(code, n.lower()) for n in course.get("names", [])}
     # In Spanish a name of several words or joined by a hyphen (San José, al-Ándalus) counts as one known word wherever it
     # is written whole; the earlier languages count such names word by word, as they were written to.
-    long_names = sorted((n for n in course.get("names", []) if " " in n or "-" in n or (code == "it" and "'" in n)), key=len, reverse=True) if code in ("es", "it", "sr", "nl", "da", "no", "sv", "el", "ar") else []
+    long_names = sorted((n for n in course.get("names", []) if " " in n or "-" in n or (code in ("it", "ca") and "'" in n)), key=len, reverse=True) if code in ("es", "it", "sr", "nl", "da", "no", "sv", "el", "ar", "ca") else []
     # Chinese writes no spaces, so every name is matched whole, the longest first.
     if code in ("zh", "ja"):
         long_names = sorted(course.get("names", []), key=len, reverse=True)
@@ -1306,9 +1335,11 @@ def check(path, brief=False):
             text = re.sub(r"(?m)^أسئلة:", "", text)
         if code == "hu":
             text = re.sub(r"(?m)^Kérdések:", "", text)
+        if code == "ca":
+            text = re.sub(r"(?m)^Preguntes:", "", text)
         toks = tokens(text, code, ranks, names, verbs, set(words) if code in ("it", "ko") else None)
         # A century or a king's number in capital Roman numerals (siglo XVI, Carlos V) is a number.
-        if code in ("es", "ru", "it", "sr", "uk"):
+        if code in ("es", "ru", "it", "sr", "uk", "ca"):
             numerals = sum(1 for t in toks if ROMAN.fullmatch(t))
             toks = [t for t in toks if not ROMAN.fullmatch(t)]
             whole_names += numerals
@@ -1341,7 +1372,7 @@ def check(path, brief=False):
             # An English possessive ("emma's") counts as its word: the list has few of them.
             if t.endswith(("'s", "’s")) and t not in ranks and len(t) > 2:
                 t = t[:-2]
-            if t in names_here:
+            if t in names_here or (code == "ca" and t in CATALAN_UNLISTED):
                 known += 1
                 continue
             # A Chinese number written in characters (三, 二十五, 两) is a number, as digits are, and so is a

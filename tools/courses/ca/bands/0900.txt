@@ -1,0 +1,100 @@
+1	801	controlar	controla controlada controlades controlant controlaran controlarem controlaren controlaria controlarien controlarà controlat controlats controlava controlaven controlem controlen controles controlessin controleu controli controlin controlis controlo controlà controlés
+2	802	perill	perills
+3	803	aire	aires
+4	804	marc	marcs
+5	805	opció	opcions
+6	806	educatiu	educatius educativa educatives
+7	807	menor	menors
+8	808	garantir	garanteix garanteixen garanteixi garanteixin garanteixo garantia garantida garantides garantien garanties garantim garantint garantiran garantirem garantiren garantiria garantirien garantirà garantissin garantit garantits garantix garantí garantís
+9	809	acollir	acollia acollida acollides acollien acollim acollint acolliran acolliren acolliria acollirien acollirà acollissin acollit acollits acollí acollís acull acullen aculli acullin
+10	810	risc	riscos riscs
+11	811	usar	usa usada usades usam usant usara usaran usarem usaren usaria usarien usarà usaré usat usats usava usaven usem usen uses usessin useu usi usin usis uso usà usés
+12	812	deure	dec deguda degudes degueren degui deguin deguts degué degués deuen deuran deures deuria deurien deuries deurà deuríem deus devem devent deveu devia devien devies devíem
+13	813	parir	pareix pareixen pareixes paria parida parides paries parint parit parits parí parís
+14	814	quantitat	quantitats
+15	815	indi	indis índia índies
+16	816	estil	estils
+17	817	augmentar	augmenta augmentada augmentades augmentant augmentara augmentaran augmentarem augmentaren augmentaria augmentarien augmentarà augmentat augmentats augmentava augmentaven augmente augmentem augmenten augmentes augmentessin augmenti augmentin augmento augmentà augmentés
+18	818	arma	armes
+19	819	anomenar	anomena anomenades anomenam anomenant anomenaran anomenarem anomenaren anomenaria anomenarien anomenarà anomenaré anomenaríem anomenats anomenava anomenaven anomene anomenem anomenen anomenes anomenessin anomeneu anomeni anomenin anomenis anomeno anomenà anomenàvem anomenés
+20	820	assemblea	assemblees
+21	821	escollir	escollia escollida escollides escollien escollim escollint escolliran escolliren escollireu escolliria escollirien escolliries escollirà escolliré escollissin escollit escollits escolliu escollí escollís escull escullen esculli escullin escullis escullo esculls
+22	822	capaç	capaces capaços
+23	823	secció	seccions
+24	824	entorn	entorns
+25	825	declaració	declaracions
+26	826	institució	institucions
+27	827	agent	agents
+28	828	congrés	congressos
+29	829	memòria	memòries
+30	830	musical	musicals
+31	831	guàrdia	guàrdies
+32	832	fiscal	fiscals
+33	833	mòbil	mòbils
+34	834	període	períodes
+35	835	normal	normals
+36	836	detall	detalls
+37	837	reduir	redueix redueixen redueixi redueixin reduint reduiran reduirem reduiria reduirien reduirà reduiré reduí reduís reduïa reduïda reduïdes reduïen reduïm reduïren reduïssin reduït reduïts reduïx reduïxen
+38	838	actuació	actuacions
+39	839	eina	eines
+40	840	esdevenir	esdevendria esdevenen esdevengueren esdevengut esdevengué esdevenia esdevenien esdevenint esdevindran esdevindre esdevindrem esdevindria esdevindrien esdevindrà esdevindré esdevinga esdevinguda esdevingudes esdevinguen esdevinguera esdevingueren esdevinguessin esdevingui esdevinguin esdevingut esdevinguts esdevingué esdevingués esdevé
+41	841	verd	verda verdes verds
+42	842	bonic	bonica bonics boniques
+43	843	original	originals
+44	844	discurs	discursos
+45	845	cent	centes cents
+46	846	ràpid	ràpida ràpides ràpids
+47	847	anunciar	anuncia anunciada anunciades anunciant anunciants anunciara anunciarem anunciaren anunciaria anunciarien anunciarà anunciaré anunciat anunciats anunciava anunciaven anuncie anunciem anuncien anunciessin anuncio anuncià anunciés anunciï anunciïn
+48	848	científic	científica científics científiques
+49	849	democràcia	democràcies
+50	850	escena	escenes
+51	851	esport	esports
+52	852	informe	informes
+53	853	abandonar	abandona abandonada abandonades abandonant abandonara abandonaran abandonarem abandonaren abandonareu abandonaria abandonarien abandonarà abandonaràs abandonaré abandonat abandonats abandonava abandonaven abandone abandonem abandonen abandones abandonessin abandoneu abandoni abandonin abandonis abandono abandonà abandonés
+54	854	pedra	pedres
+55	855	lliga	lligues
+56	856	habitant	hab habitants
+57	857	batalla	batalles
+58	858	producció	produccions
+59	859	creació	creacions
+60	860	infantil	infantils
+61	861	enllaç	enllaços
+62	862	denunciar	denuncia denunciada denunciades denunciant denunciants denunciaran denunciarem denunciaren denunciaria denunciarà denunciaré denunciat denunciats denunciava denunciaven denunciem denuncien denuncies denunciessin denuncieu denuncio denuncià denunciés denunciï denunciïs
+63	863	carretera	carreteres ctra
+64	864	cridar	cridada cridades cridant cridaran cridarem cridaren cridaria cridarà cridaràs cridaré cridat cridats cridava cridaven cridaves cride cridem criden crides cridessin crideu cridi cridin cridis crido cridà cridés
+65	865	darrere	darreres
+66	866	esportiu	esportius esportiva esportives
+67	867	córrer	corr corre correguda corregudes corregueren correguessin corregut correguts corregué corregués correm corren correran correrem correria correrien correrà correràs correré corres corri corria corrien corries corrin corris corro corríem córrec córrega
+68	868	or	aur ors
+69	869	nota	notes
+70	870	palau	palaus
+71	871	enllà	
+72	872	importància	
+73	873	to	tons
+74	874	exterior	exteriors
+75	875	indicar	indica indicada indicades indicant indicaran indicaren indicaria indicarien indicarà indicaré indicat indicats indicau indicava indicaven indico indicà indique indiquem indiquen indiquessin indiqueu indiqui indiquin indiqués
+76	876	regne	regnes
+77	877	titular	titul titula titulada titulades titulant titulares titularia titulars titularà titulat titulats titulava titulaven titulen tituli titulo titulà
+78	878	vuit	huit vuits
+79	879	cadena	cadenes
+80	880	meitat	meitats mitat
+81	881	honor	honors
+82	882	protecció	proteccions
+83	883	bandera	banderes bandereta
+84	884	conferència	conferències
+85	885	bloc	blocs
+86	886	gestió	gestions
+87	887	banc	bancs
+88	888	document	documents
+89	889	prohibir	prohibeix prohibeixen prohibeixi prohibeixin prohibeixo prohibia prohibida prohibides prohibien prohibim prohibint prohibiran prohibiren prohibiria prohibirien prohibirà prohibissin prohibit prohibits prohibiu prohibix prohibí prohibís
+90	890	aprofitar	aprofita aprofitada aprofitades aprofitant aprofitaran aprofitarem aprofitaren aprofitaria aprofitarien aprofitarà aprofitaràs aprofitaré aprofitat aprofitats aprofitava aprofitaven aprofitem aprofiten aprofites aprofitessin aprofiteu aprofiti aprofitin aprofito aprofità aprofités
+91	891	religiós	religiosa religioses religiosos
+92	892	actiu	actius activa actives
+93	893	pressió	pressions
+94	894	expressió	expressions
+95	895	somni	somnis
+96	896	candidat	candidata candidates candidats
+97	897	miler	milers
+98	898	constitució	constitucions
+99	899	propietat	propietats
+100	900	curt	curta curtes curts

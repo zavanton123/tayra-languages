@@ -1,0 +1,100 @@
+1	301	algú	
+2	302	octubre	
+3	303	través	
+4	304	camí	camins
+5	305	costat	costats
+6	306	festa	festes
+7	307	humà	humana humanes humans
+8	308	cinc	cincs
+9	309	educació	
+10	310	sinó	
+11	311	germà	germana germanes germanet germanetes germanets germans
+12	312	jugar	juga jugada jugades jugant jugara jugaran jugarem jugaren jugaria jugarien jugarà jugaré jugat jugats jugava jugaven jugaves jugo jugue juguem juguen jugues juguessin jugueu jugui juguin juguis jugués jugà jugàvem
+13	313	mare	mares
+14	314	intentar	intenta intentada intentades intentam intentant intentara intentaran intentarem intentaren intentaria intentarien intentarà intentaràs intentaré intentat intentats intentava intentaven intentaves intente intentem intenten intentes intentessin intenteu intenti intentin intentis intento intentà intentàvem intentés intentéssim
+15	315	premi	premis
+16	316	cert	certa certes certs
+17	317	espai	espais
+18	318	resultat	resultats
+19	319	següent	següents
+20	320	art	arts
+21	321	lliure	lliures
+22	322	abril	abr
+23	323	vídeo	vídeos
+24	324	xarxa	xarxes
+25	325	antic	antics antiga antigues
+26	326	ciutadà	ciutadana ciutadanes ciutadans
+27	327	celebrar	celebr celebra celebrada celebrades celebram celebrant celebrara celebraran celebrarem celebraren celebraria celebrarien celebrarà celebrat celebrats celebrava celebraven celebre celebrem celebren celebres celebressin celebreu celebri celebrin celebro celebrà celebràvem celebrés
+28	328	minut	minuts
+29	329	possible	possibles
+30	330	ple	plena plenes plens
+31	331	dirigir	dirigeix dirigeixen dirigeixes dirigeixi dirigeixin dirigeixis dirigeixo dirigent dirigents dirigia dirigida dirigides dirigien dirigim dirigint dirigira dirigiran dirigirem dirigiren dirigiria dirigirien dirigirà dirigiré dirigisca dirigissin dirigit dirigits dirigiu dirigix dirigixen dirigí dirigíem dirigís
+32	332	quant	quanta quantes quants
+33	333	relació	relacions
+34	334	línia	línies
+35	335	mig	migs mitges mitja mitjos
+36	336	tancar	tanca tancada tancades tancant tancara tancaran tancarem tancaren tancaria tancarien tancarà tancaré tancat tancats tancava tancaven tanco tancà tanque tanquem tanquen tanques tanquessin tanqueu tanqui tanquin tanquis tanqués
+37	337	objectiu	objectius objectiva objectives
+38	338	consell	consells
+39	339	oficial	oficiales oficials
+40	340	popular	populars
+41	341	mica	miques miqueta
+42	342	unir	uneix uneixen uneixes uneixi uneixin uneixis uneixo unia unida unides unien unim unint uniran uniren uniria unirien unirà unisca unissin units uniu unix unixen uní unís
+43	343	escoltar	escolt escolta escoltada escoltades escoltam escoltant escoltaran escoltarem escoltaren escoltareu escoltaria escoltarien escoltaries escoltarà escoltaràs escoltaré escoltat escoltats escoltau escoltava escoltaven escoltaves escolte escoltem escolten escoltes escoltessin escolteu escolti escoltin escoltis escolto escoltà escoltàvem escoltés
+44	344	cos	cosset cossets cossos
+45	345	situació	situacions
+46	346	massa	masses massos
+47	347	treure	trac traent traguem tragueren traguessin tragué tragués traguéssim traiem traient traieu trau trauen trauran traure traurem traureu trauria traurien traurà trauràs trauré traus trec tregui treguin treguis treia treien treies treis tret treta tretes trets treu treuen treus trèiem
+48	348	edició	edicions
+49	349	illa	illes
+50	350	juliol	
+51	351	ús	usos
+52	352	director	directora directores directors
+53	353	música	músiques
+54	354	campanya	campanyes
+55	355	estudi	estudis
+56	356	majoria	majories
+57	357	oferir	ofereix ofereixen ofereixes ofereixi ofereixin ofereixis ofereixo oferia oferida oferides oferien oferim oferint oferira oferiran oferirem oferiren oferiria oferirien oferirà oferiré oferisca oferissin oferit oferits oferiu oferix oferixen ofert oferts oferí oferís
+58	358	elecció	eleccions
+59	359	acció	accions
+60	360	sud	
+61	361	segur	segura segures segurs
+62	362	proper	propera properes propers
+63	363	darrer	darrera darreres darrers
+64	364	sentit	sentida sentides sentits
+65	365	causa	causes
+66	366	república	repúbliques
+67	367	nivell	nivells
+68	368	enviar	envia enviada enviades enviam enviant enviara enviaran enviarem enviaren enviareu enviaria enviarien enviarà enviaràs enviaré enviat enviats enviava enviaven envie enviem envien envies enviessin enviessis envieu envii envio envià enviés enviéssim envií enviï enviïn enviïs
+69	369	actual	actuals
+70	370	maig	majos
+71	371	juny	
+72	372	civil	civils
+73	373	resta	restes
+74	374	favor	favors
+75	375	tocar	toc toca tocada tocades tocant tocaran tocarem tocaren tocaria tocarien tocarà tocaràs tocaré tocat tocats tocava tocaven toco tocs tocà toque toquem toquen toques toquessin toqueu toqui toquin toquis toqués toquéssim
+76	376	organitzar	organitza organitzada organitzades organitzam organitzant organitzara organitzaran organitzarem organitzaren organitzaria organitzarien organitzarà organitzat organitzats organitzava organitzaven organitzem organitzen organitzessin organitzeu organitzi organitzin organitzis organitzà organitzés
+77	377	prou	prous
+78	378	llista	llistes
+79	379	futur	futura futures futurs
+80	380	mostra	mostres
+81	381	valencià	valenciana valencianes valencians
+82	382	febrer	febr
+83	383	caure	caic caiem caient caients caiga caiguda caigudes caiguem caiguen caiguera caigueren caigues caiguessin caigueu caigui caiguin caiguis caigut caiguts caigué caigués cau cauen cauran caurem cauria caurien caurà cauràs cauré caus queia queien queies
+84	384	militar	milita militant militants militaren militares militaria militars militarà militat militats militava militaven militen milites milito milità
+85	385	matí	dematins dematí matins
+86	386	realitat	realitats
+87	387	atenció	atencions
+88	388	preparar	prepara preparada preparades preparant prepararan prepararem prepararen prepararia prepararien prepararà prepararé preparat preparats preparava preparaven preparem preparen prepares preparessin prepareu prepari preparin preparis preparo preparà preparàvem preparés
+89	389	francès	francesa franceses francesos francés
+90	390	autor	autora autores autors
+91	391	por	pors
+92	392	segle	segles
+93	393	formar	formada formades formant formants formara formaran formarem formaren formaria formarien formarà formaràs formaré formats formava formaven formem formen formes formessin formeu formi formin formis formo formà formés
+94	394	unit	unida unides units
+95	395	cara	cares
+96	396	fort	forta fortes forts
+97	397	econòmic	econòmica econòmics econòmiques
+98	398	especial	especials
+99	399	presó	presons
+100	400	llavors	

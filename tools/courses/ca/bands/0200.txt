@@ -1,0 +1,100 @@
+1	101	grup	grups
+2	102	cada	
+3	103	món	mons
+4	104	vida	vides
+5	105	hora	hores
+6	106	quin	quina quines quins
+7	107	públic	pública públics públiques
+8	108	partit	partida partides partits
+9	109	vegada	vegades
+10	110	dona	dones doneta donetes dòna
+11	111	dret	dreta dretes drets
+12	112	quedar	queda quedada quedades quedam quedant quedara quedaran quedarem quedaren quedareu quedaria quedarien quedaries quedarà quedaràs quedaré quedassin quedat quedava quedaven quedaves quede quedem queden quedes quedessin quedessis quedeu quedi quedin quedis quedo quedà quedàs quedàvem quedés quedéssim
+13	113	sempre	
+14	114	casa	cases
+15	115	seguir	segueix segueixen segueixes segueixi segueixin segueixis segueixo seguesc seguia seguida seguides seguien seguim seguint seguira seguiran seguirem seguiren seguireu seguiria seguirien seguiries seguirà seguiràs seguiré seguiríem seguisc seguisca seguisquen seguissin seguissis seguit seguits seguiu seguix seguixen seguí seguíem seguís
+16	116	fill	filla filles fills
+17	117	passat	passada passades passats
+18	118	teu	teua teues teus teva teves tua
+19	119	pensar	pens pensa pensada pensades pensam pensant pensants pensaran pensarem pensaren pensaria pensarien pensaries pensarà pensaràs pensaré pensaríem pensat pensats pensau pensava pensaven pensaves pense pensem pensen penses pensessin penseu pensi pensin pensis penso pensà pensàrem pensàvem pensàveu pensés penséssiu
+20	120	home	homenet homenets homenot homenots homes hòmens
+21	121	tres	tresos
+22	122	tan	
+23	123	mes	mesa meses mesos
+24	124	cas	casos cassos
+25	125	família	famílies
+26	126	història	històries
+27	127	sortir	sortia sortida sortides sortien sorties sortim sortint sortints sortira sortiran sortirem sortiren sortireu sortiria sortirien sortiries sortirà sortiràs sortiré sortiríem sortissin sortissis sortit sortits sortiu sortí sortíem sortís sortíssim surt surten surti surtin surtis surto surts
+28	128	aquí	
+29	129	res	re resos rés
+30	130	mort	morta mortes morts
+31	131	sol	sola soles solet soleta solets sols
+32	132	viure	visc visca viscuda viscudes viscut viscuts visquem visqueren visques visquessin visqueu visqui visquin visquis visqué visqués visquéssim viu viuen viuran viurem viureu viuria viurien viurà viuràs viuré viuríem vius viv viva vives vivia vivien vivim vivint vivir viviu vivíem
+33	133	abans	
+34	134	segons	
+35	135	poc	poca pocs poques poquet poqueta poquets
+36	136	punt	punts
+37	137	moment	momentet moments
+38	138	poble	pobles poblet
+39	139	portar	portada portades portam portant portants portara portaran portarem portaren portareu portaria portarien portaries portarà portaràs portaré portaríem portasses portat portats portava portaven portaves porte portem porten portes portessin portessis porteu porti portin portis porto portà portàvem portàveu portés portéssim
+40	140	avui	avuy hui
+41	141	semblar	sembla semblada semblara semblaran semblaren semblaria semblarien semblarà semblat semblava semblaven semblaves semble semblem semblen sembles semblessin sembleu sembli semblin semblo semblà semblàvem semblés
+42	142	forma	formes
+43	143	treballar	treballa treballada treballades treballam treballant treballara treballaran treballarem treballaren treballareu treballaria treballarien treballarà treballaràs treballaré treballat treballats treballava treballaven treballaves treballe treballem treballen treballes treballessin treballeu treballi treballin treballis treballo treballà treballàvem treballés
+44	144	esperar	esper espera esperada esperades esperam esperant esperaran esperarem esperaren esperareu esperaria esperarien esperaries esperarà esperaràs esperaré esperaríem esperat esperats esperau esperava esperaven esperaves espere esperem esperen esperes esperessin espereu esperi esperin esperis espero esperà esperàvem esperàveu esperés esperéssim
+45	145	social	socials
+46	146	creure	crec crega creguda cregudes creguem creguen cregueren cregues creguessin cregueu cregui creguin creguis cregut creguts cregué cregués creia creiem creien creient creients creies creieu creuen creuran creurem creureu creuria creurien creuries creurà creuràs creuré creuríeu creus crèiem
+47	147	ajudar	aidar ajuda ajudada ajudades ajudant ajudants ajudara ajudaran ajudarem ajudaren ajudareu ajudaria ajudarien ajudaries ajudarà ajudaràs ajudaré ajudaríem ajudat ajudats ajudava ajudaven ajude ajudem ajuden ajudes ajudessin ajudeu ajudi ajudin ajudis ajudo ajudà ajudàvem ajudés
+48	148	aquell	aquella aquelles aquells
+49	149	demanar	deman demana demanada demanades demanam demanant demanaran demanarem demanaren demanareu demanaria demanarien demanaries demanarà demanaràs demanaré demanat demanats demanava demanaven demanaves demane demanem demanen demanes demanessin demanessis demaneu demani demanin demanis demano demanà demanàvem demanàveu demanés
+50	150	caldre	cal caldran caldria caldrien caldrà calen caler calga calguera calgueren calguessin calgui calguin calgut calgué calgués calia calien cals
+51	151	projecte	projectes
+52	152	mai	jamai
+53	153	president	presidenta presidents
+54	154	explicar	explic explica explicada explicades explicam explicant explicara explicaran explicarem explicaren explicareu explicaria explicarien explicaries explicarà explicaràs explicaré explicat explicats explicava explicaven explico explicà explicàvem explique expliquem expliquen expliques expliquessin expliquessis expliqueu expliqui expliquin expliquis expliqués
+55	155	obrir	obert oberta obertes oberts obre obren obres obri obria obrien obrim obrin obrint obrira obriran obrirem obriren obriria obririen obrirà obriràs obriré obris obrissin obriu obro obrí obrís òbriga òbriguen
+56	156	espanyol	espanyola espanyoles espanyols
+57	157	nom	noms
+58	158	cop	colp cops
+59	159	aconseguir	aconsegueix aconsegueixen aconsegueixes aconsegueixi aconsegueixin aconsegueixis aconsegueixo aconseguia aconseguida aconseguides aconseguien aconseguim aconseguint aconseguira aconseguiran aconseguirem aconseguiren aconseguireu aconseguiria aconseguirien aconseguirà aconseguiràs aconseguiré aconseguiríem aconseguisc aconseguisca aconseguisquen aconseguissin aconseguit aconseguits aconseguiu aconseguix aconseguixen aconseguí aconseguís
+60	160	sí	
+61	161	segon	segona segones
+62	162	servei	serveis servici
+63	163	problema	problemes
+64	164	polític	polítics polítiques
+65	165	presentar	presenta presentada presentades presentam presentant presentara presentaran presentarem presentaren presentareu presentaria presentarien presentarà presentaré presentat presentats presentava presentaven presente presentem presenten presentes presentessin presenteu presenti presentin presentis presento presentà presentés presentéssim
+66	166	nosaltres	naltros
+67	167	nen	nena nenes nens nin
+68	168	política	polítiques
+69	169	guerra	guerres
+70	170	divers	diversa diverses diversos
+71	171	petit	petita petites petits petitó
+72	172	empresa	empreses
+73	173	equip	equips
+74	174	tractar	tracta tractada tractades tractant tractants tractara tractaran tractarem tractaren tractaria tractarien tractarà tractaràs tractaré tractat tractats tractava tractaven tracte tractem tracten tractes tractessin tracteu tracti tractin tractis tracto tractà tractàs tractés
+75	175	setmana	setmanes
+76	176	nit	nits
+77	177	final	finals
+78	178	carrer	carrers
+79	179	suport	suports
+80	180	important	importants
+81	181	davant	davants
+82	182	últim	última últimes últims
+83	183	prendre	pren prenc prendran prendrem prendreu prendria prendrien prendrà prendràs prendré prendríem prenem prenen prenent preneu prenga prenguem prenguen prenguera prengueren prengues prenguessin prenguessis prengueu prengui prenguin prenguis prengué prengués prenguéssim prenia prenien prens preníem pres presa preses presos
+84	184	centre	centres
+85	185	mitjà	mitjana mitjanes mitjans
+86	186	escola	escoles
+87	187	diferent	diferents
+88	188	rebre	reb rebem reben rebent rebera reberen rebes rebessin rebeu rebi rebia rebien rebin rebis rebo rebran rebrem rebreu rebria rebrien rebrà rebràs rebré rebuda rebudes rebut rebuts rebé rebés rep reps
+89	189	utilitzar	utilitza utilitzada utilitzades utilitzant utilitzara utilitzaran utilitzarem utilitzaren utilitzareu utilitzaria utilitzarien utilitzarà utilitzaràs utilitzaré utilitzaríem utilitzat utilitzats utilitzava utilitzaven utilitze utilitzem utilitzen utilitzes utilitzessin utilitzeu utilitzi utilitzin utilitzis utilitzo utilitzà utilitzés utilitzéssim
+90	190	feina	feines
+91	191	agradar	agrada agradant agradaran agradaren agradaria agradarien agradarà agradat agradava agradaven agrade agradem agraden agrades agradessin agradi agradin agrado agradà agradés
+92	192	qualsevol	qualssevol
+93	193	clar	clara clares clars
+94	194	informació	informacions
+95	195	perdre	perd perda perdem perden perdent perdera perderen perdes perdessin perdessis perdeu perdi perdia perdien perdin perdis perdo perdran perdrem perdreu perdria perdrien perdries perdrà perdràs perdré perdríem perds perduda perdudes perdut perduts perdé perdés perdí
+96	196	imatge	imagin imatges
+97	197	mentre	
+98	198	escriure	escric escriguera escrigueren escrigues escriguessin escrigui escriguin escriguis escrigué escrigués escriguí escrit escrita escrites escrits escriu escriuen escriuran escriurem escriuria escriurien escriurà escriuràs escriuré escrius escrivia escrivien escrivies escrivim escrivint escriviren escrivissin escriviu escriví escrivís
+99	199	venir	venen venia venien venim venint veniu vens veníem vinc vindran vindre vindrem vindreu vindria vindrien vindrà vindràs vindré vine vinent vinents vinga vinguda vingudes vinguem vinguen vinguera vingueren vingues vinguessin vingueu vingui vinguin vinguis vingut vinguts vingué vingués vinguéssiu
+100	200	llibre	llibres llibret llibrets

@@ -1,0 +1,100 @@
+1	8301	pelat	pelada pelades pelats
+2	8302	fat	fades fats
+3	8303	safari	safaris
+4	8304	viuda	viudes viudo
+5	8305	deliberar	delibera deliberada deliberades deliberant deliberat deliberats deliberava deliberen
+6	8306	baixista	baixistes
+7	8307	rememorar	rememora rememorant rememorava rememoren
+8	8308	fúria	fúries
+9	8309	victoriós	victoriosa victorioses victoriosos
+10	8310	gimnasta	gimnastes
+11	8311	parador	paradors
+12	8312	cacauet	cacauets
+13	8313	boscar	bosca bosco bosque bosques
+14	8314	pontífex	pontífexs
+15	8315	inhabilitar	inhabilita inhabilitada inhabilitant inhabilitat inhabilitats inhabiliten inhabilitin
+16	8316	tors	torsos
+17	8317	immòbil	immòbils
+18	8318	immune	immunes
+19	8319	reconciliar	reconcilia reconciliada reconciliant reconciliat reconciliats reconcilien reconcilià
+20	8320	tossir	tossint tus tussen tussi
+21	8321	argot	argots
+22	8322	mesurament	mesuraments
+23	8323	uzbek	uzbeka uzbeks
+24	8324	dièsel	dièsels
+25	8325	paller	pallers
+26	8326	espiga	espigues
+27	8327	punyeter	punyetera punyeteres
+28	8328	feixa	feixes
+29	8329	arcaic	arcaica arcaics arcaiques
+30	8330	deprimir	deprimeix deprimeixen deprimida deprimides deprimint deprimit deprimits
+31	8331	originalitat	originalitats
+32	8332	cabaret	cabarets
+33	8333	frenètic	frenètica frenètics frenètiques
+34	8334	neurològic	neurològica neurològics neurològiques
+35	8335	encaminar	encamina encaminada encaminades encaminant encaminaren encaminat encaminats encaminava encaminaven encaminen encaminà
+36	8336	caca	caques
+37	8337	evadir	evadeix evadeixen evadint evadit evadits evadí
+38	8338	ancestre	ancestres
+39	8339	embús	embussos
+40	8340	astronomia	
+41	8341	auge	
+42	8342	basquetbol	
+43	8343	col·lisió	
+44	8344	desgraciar	desgracia
+45	8345	escalfor	
+46	8346	espiritualitat	
+47	8347	indefinidament	
+48	8348	llinar	llinars
+49	8349	magisteri	
+50	8350	objectivitat	
+51	8351	pròstata	
+52	8352	senzillesa	
+53	8353	vitalitat	
+54	8354	embargament	embargaments
+55	8355	desviament	desviaments
+56	8356	barbaritat	barbaritats
+57	8357	esquiador	esquiadora esquiadores esquiadors
+58	8358	llaurador	llauradora llauradores llauradors
+59	8359	embrió	embrions
+60	8360	falsificació	falsificacions
+61	8361	pilós	pilosa piloses pilosos
+62	8362	reflexiu	reflexius reflexiva reflexives
+63	8363	gelatina	gelatines
+64	8364	catalitzador	catalitzadora catalitzadores catalitzadors
+65	8365	incompatible	incompatibles
+66	8366	balneari	balnearis balneària
+67	8367	cridaner	cridanera cridaneres cridaners
+68	8368	vetar	vetada vetades vetant vetat vetats vetava veten vetes veti vetin vetà
+69	8369	expropiar	expropia expropiada expropiades expropiant expropiaren expropiat expropiats expropià
+70	8370	nigerià	nigeriana nigerianes nigerians
+71	8371	davantal	davantals
+72	8372	cotitzar	cotitza cotitzada cotitzades cotitzant cotitzat cotitzats cotitzava cotitzaven cotitzen
+73	8373	ministerial	ministerials
+74	8374	obrador	obradors
+75	8375	carner	carnera carners
+76	8376	diàspora	diàspores
+77	8377	efemèride	efemèrides
+78	8378	indemnitzar	indemnitzada indemnitzarà indemnitzat indemnitzats
+79	8379	prosseguir	prossegueix prossegueixen prossegueixi prosseguia prosseguint prosseguiren prosseguirà prosseguit prosseguí
+80	8380	desaprofitar	desaprofita desaprofitada desaprofitant desaprofitat desaprofitem
+81	8381	gerd	gerda gerds
+82	8382	serial	serials
+83	8383	bastió	bastions
+84	8384	hemeroteca	hemeroteques
+85	8385	quico	quica quicos
+86	8386	vorejar	voregen voreja vorejada vorejades vorejant vorejarem vorejat vorejats vorejava vorejaven
+87	8387	desenllaç	desenllaços
+88	8388	insuficiència	insuficiències
+89	8389	accionar	accion acciona accionada accionades accionant accionat accionats accionava accionaven accionen acciones accioni
+90	8390	aquari	aquaris
+91	8391	piló	pilons
+92	8392	renéixer	renada renaix renaixent renaixerà renascuda renascut renat reneix reneixen renàixer
+93	8393	anèmia	anèmies
+94	8394	adjacent	adjacents
+95	8395	partisà	partisana partisanes partisans
+96	8396	despertador	despertadors
+97	8397	simulacre	simulacres
+98	8398	empordanès	empordanesa empordaneses empordanesos
+99	8399	esquerrà	esquerrana esquerranes esquerrans
+100	8400	rutinari	rutinaris rutinària rutinàries

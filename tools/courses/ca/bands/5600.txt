@@ -1,0 +1,100 @@
+1	5501	normalitzar	normalitza normalitzada normalitzades normalitzant normalitzat normalitzats normalitzen
+2	5502	modernitat	modernitats
+3	5503	competidor	competidora competidores competidors
+4	5504	gorra	gorres
+5	5505	tipologia	tipologies
+6	5506	destacable	destacables
+7	5507	jardineria	
+8	5508	prostitució	
+9	5509	empresonament	empresonaments
+10	5510	reviure	reviscuda reviscut revisqui reviu reviuen reviurà revivia revivint reviviu
+11	5511	inquietant	inquietants
+12	5512	sofriment	sofriments
+13	5513	tímid	tímida tímides tímids
+14	5514	mestressa	mestres mestresses
+15	5515	subhasta	subhastes
+16	5516	aleatori	aleatoris aleatòria aleatòries
+17	5517	subvencionar	subvenciona subvencionada subvencionades subvencionant subvencionarà subvencionat subvencionats subvencionava subvencionen subvencionà
+18	5518	incomplir	incompleix incompleixen incompleixi incomplert incomplerta incomplertes incomplerts incomplia incomplides incomplien incomplint incomplit incomplís
+19	5519	articular	articula articulada articulades articulant articularen articularia articulars articulat articulats articulava articulaven articulen articuli articulo articulà
+20	5520	facció	faccions
+21	5521	alcohòlic	alcohòlica alcohòlics alcohòliques
+22	5522	genèric	genèrica genèrics genèriques
+23	5523	cordó	cordonet cordons
+24	5524	comentarista	comentaristes
+25	5525	reafirmar	reafirma reafirmada reafirmant reafirmat reafirmava reafirmem reafirmen reafirmo reafirmà
+26	5526	radi	radis
+27	5527	clandestí	clandestina clandestines clandestins
+28	5528	lluminós	lluminosa lluminoses lluminosos
+29	5529	moldre	mol molc molen molent moleu molia molien mols moltes molts
+30	5530	psiquiàtric	psiquiàtrica psiquiàtrics psiquiàtriques
+31	5531	retrocedir	retrocedeix retrocedeixen retrocedeixi retrocedia retrocedien retrocedim retrocedint retrocediren retrocedirà retrocedit retrocedí retrocedís
+32	5532	voltar	voltada voltades voltat voltats voltava voltaven voltem volten voltes volteu volti volto voltà
+33	5533	civilitzar	civilitza civilitzada civilitzades civilitzat civilitzats
+34	5534	cabre	cabem caben caber cabessin cabia cabien cabo cabrem cabria cabrien cabrà cabré cabuts cabés caps càpiga càpiguen
+35	5535	corral	corrals
+36	5536	georgià	georgiana georgianes georgians
+37	5537	regiment	regiments
+38	5538	porxo	porxe porxos
+39	5539	perruqueria	perruqueries
+40	5540	nòmina	nòmines
+41	5541	sequera	sequeres
+42	5542	neerlandès	neerlandesa neerlandeses neerlandesos neerlandés
+43	5543	vencedor	vencedora vencedores vencedors
+44	5544	paràsit	paràsita paràsites paràsits
+45	5545	desprendre	desprendre's desprendria desprendrà desprenen desprenent desprengui desprenguin desprengué desprengués desprenia desprenien despresa despreses despresos desprèn
+46	5546	calder	calders
+47	5547	col·lapse	
+48	5548	increïblement	
+49	5549	lectiu	lectius lectiva lectives
+50	5550	aterratge	aterratges
+51	5551	collir	collia collida collides collien collint collit collits cull culla cullen cullin culls
+52	5552	súbdit	súbdita súbdits
+53	5553	sot	sots
+54	5554	assequible	assequibles
+55	5555	hoteler	hotelera hoteleres hotelers
+56	5556	promocional	promocionals
+57	5557	vetllada	vetllades
+58	5558	pensador	pensadora pensadores pensadors
+59	5559	pròleg	pròlegs
+60	5560	fada	fades
+61	5561	disset	desset dèsset
+62	5562	respectable	respectables
+63	5563	grandària	grandàries
+64	5564	metodologia	metodologies
+65	5565	mirador	miradors
+66	5566	maltractar	maltracta maltractada maltractades maltractant maltractat maltractats maltractava maltractaven maltracte maltracten maltractes
+67	5567	soterrar	soterra soterrada soterrades soterrant soterrat soterrats soterren
+68	5568	moianès	moianesa moianesos
+69	5569	oldre	ol olga olia ols
+70	5570	recitar	recita recitada recitades recitant recitaren recitarà recitat recitats recitava recitaven reciten reciti recità recités
+71	5571	tribuna	tribunes
+72	5572	abstenció	abstencions
+73	5573	llosa	lloses
+74	5574	divulgar	divulga divulgada divulgades divulgant divulgaren divulgarà divulgat divulgats divulgava divulgaven divulguen divulgués divulgà
+75	5575	botifarra	botifarres
+76	5576	bacteri	bacteris
+77	5577	prototip	prototips
+78	5578	inactiu	inactius inactiva inactives
+79	5579	encoratjar	encoratgem encoratgen encoratja encoratjada encoratjades encoratjant encoratjaren encoratjarà encoratjat encoratjats encoratjava encoratjaven encoratjà
+80	5580	homòfob	homòfoba homòfobes homòfobs
+81	5581	rom	roms
+82	5582	galera	galeres
+83	5583	nominació	nominacions
+84	5584	inestabilitat	inestabilitats
+85	5585	lila	liles
+86	5586	assumpció	assumpcions
+87	5587	castany	castanya castanyes castanyetes castanys
+88	5588	bol	bols
+89	5589	bondat	bondats
+90	5590	impecable	impecables
+91	5591	efímer	efímera efímeres efímers
+92	5592	senglar	senglars
+93	5593	assecar	asseca assecada assecades assecant assecat assecats assecava assecaven asseco assecà assequen assequi assequin assequés secar
+94	5594	filtració	filtracions
+95	5595	disponibilitat	disponibilitats
+96	5596	obediència	obediències
+97	5597	submergir	submergeix submergeixen submergeixi submergia submergida submergides submergien submergint submergirà submergit submergits submergí
+98	5598	catifa	catifes
+99	5599	calefacció	calefaccions
+100	5600	gosar	gosa gosaren gosaria gosarà gosava gosaven gosen goses goseu gosi gosin goso gosà gosés

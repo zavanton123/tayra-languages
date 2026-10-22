@@ -1,0 +1,100 @@
+1	1901	fresc	fresca frescos frescs fresques
+2	1902	neteja	neteges
+3	1903	arc	arcs arquet arquets
+4	1904	lliçó	lliçons
+5	1905	seguiment	seguiments
+6	1906	derivar	derivada derivades derivant derivaran derivaren derivaria derivarien derivarà derivat derivats derivava derivaven derivem deriven derives derivessin derivi derivin derivà derivés
+7	1907	insistir	insisteix insisteixen insisteixes insisteixi insisteixo insistia insistien insistim insistint insistirem insistiren insistirà insistiré insistisc insistit insistiu insistí insistís
+8	1908	jutjar	jutgem jutgen jutges jutgessin jutgeu jutgi jutgin jutgis jutgés jutja jutjada jutjades jutjant jutjaran jutjarem jutjaren jutjarà jutjaré jutjats jutjava jutjaven jutjo jutjà
+9	1909	suís	suïssa suïsses suïssos
+10	1910	referent	referents
+11	1911	corda	cordes
+12	1912	sotmetre	sotmesa sotmeses sotmesos sotmet sotmetem sotmeten sotmetent sotmeteren sotmetessin sotmeti sotmetia sotmetien sotmetin sotmetran sotmetria sotmetrien sotmetrà sotmeté sotmetés sotmès
+13	1913	defensor	defensora defensores defensors
+14	1914	soviètic	soviètica soviètics soviètiques
+15	1915	propòsit	propòsits
+16	1916	tensió	tensions
+17	1917	pràcticament	
+18	1918	espectacular	espectaculars
+19	1919	ànim	ànims
+20	1920	crèdit	crèdits
+21	1921	trajectòria	trajectòries
+22	1922	corona	corones coroneta
+23	1923	sagrat	sagrada sagrades sagrats
+24	1924	soroll	sorolls
+25	1925	poderós	poderosa poderoses poderosos
+26	1926	combat	combats
+27	1927	tribu	tribus
+28	1928	estrenar	estrenada estrenades estrenant estrenaran estrenarem estrenaren estrenaria estrenarien estrenarà estrenat estrenats estrenava estrenaven estrenem estrenen estrenes estrenessin estreni estreno estrenà estrenés
+29	1929	òrgan	òrgans
+30	1930	elegir	elegeix elegeixen elegeixi elegia elegida elegides elegien elegies elegim elegint elegiran elegiren elegiria elegirà elegit elegits elegí elegís
+31	1931	recolzar	recolza recolzada recolzades recolzant recolzaran recolzaren recolzaria recolzarien recolzarà recolzaré recolzat recolzats recolzava recolzaven recolze recolzem recolzen recolzes recolzessin recolzi recolzin recolzo recolzà recolzés
+32	1932	benvingut	benvingudes benvinguts
+33	1933	proclamar	proclama proclamada proclamades proclamant proclamaren proclamaria proclamarà proclamat proclamats proclamava proclamaven proclamem proclamen proclames proclameu proclami proclamo proclamà proclamés
+34	1934	circuit	circuits
+35	1935	arrencar	arranc arrancada arrancades arrancant arrancar arrancaria arrancat arrancats arrancava arranque arranquem arranquen arranqueu arrenca arrencada arrencades arrencant arrencaran arrencarem arrencaren arrencaria arrencarà arrencaré arrencat arrencats arrencava arrencaven arrenco arrencà arrenquem arrenquen arrenques arrenquessin arrenqueu arrenqui arrenquin arrenqués
+36	1936	exacte	exacta exactes
+37	1937	estadística	estadístiques
+38	1938	intervenir	intervenen intervengut intervengué intervenia intervenien intervenim intervenint intervindran intervindre intervindria intervindrien intervindrà intervindré intervinguda intervingudes intervingueren intervinguessin intervingui intervinguin intervingut intervinguts intervingué intervingués intervé
+39	1939	mobilització	mobilitzacions
+40	1940	personalitat	personalitats
+41	1941	tomba	tombes
+42	1942	inaugurar	inaugura inaugurada inaugurades inaugurant inauguraren inauguraria inaugurarà inaugurat inaugurats inaugurava inauguraven inaugurem inauguren inauguri inaugurà inaugurés
+43	1943	funcionament	funcionaments
+44	1944	oscar	osca osques
+45	1945	cadascú	
+46	1946	col·legi	
+47	1947	governador	governadora governadors
+48	1948	derrota	derrotes
+49	1949	modificar	modifica modificada modificades modificant modificaran modificaren modificaria modificarien modificarà modificat modificats modificava modificaven modificà modifique modifiquem modifiquen modifiquessin modifiqui modifiquin modifiqués
+50	1950	crema	cremes
+51	1951	arquitectura	arquitectures
+52	1952	incrementar	incrementa incrementada incrementades incrementant incrementaran incrementaren incrementaria incrementarien incrementarà incrementat incrementats incrementava incrementaven incrementem incrementen incrementessin incrementi incrementin incremento incrementà incrementés
+53	1953	crònica	cròniques
+54	1954	estrena	estrenes
+55	1955	funcionari	funcionaris funcionària funcionàries
+56	1956	disposició	disposicions
+57	1957	conclusió	conclusions
+58	1958	obligació	obligacions
+59	1959	refugi	refugis
+60	1960	recuperació	recuperacions
+61	1961	pro	pros
+62	1962	pacte	pactes
+63	1963	enganyar	enganya enganyada enganyades enganyant enganyaren enganyaria enganyarà enganyaré enganyat enganyats enganyava enganyaven enganyem enganyen enganyes enganyeu enganyi enganyin enganyis enganyà enganyés
+64	1964	jutjat	jutjada jutjades jutjats
+65	1965	agressió	agressions
+66	1966	cívic	cívica cívics cíviques
+67	1967	seure	seguda segudes seguem seguera segui seguin seguis segut seguts segué segués seguí seia seiem seien seient seients seies seieu seuen seuran seurem seuria seuré sèiem
+68	1968	calendari	calendaris
+69	1969	talent	talents
+70	1970	denúncia	denúncies
+71	1971	circumstància	circumstàncies
+72	1972	filosofia	filosofies
+73	1973	potencial	potencials
+74	1974	inventar	inventa inventada inventades inventant inventaren inventaria inventarien inventarà inventat inventats inventava inventaven inventem inventen inventes inventessin inventi inventin inventis invento inventà inventés
+75	1975	mental	mentals
+76	1976	definitiu	definitius definitiva definitives
+77	1977	pacífic	pacífica pacífics pacífiques
+78	1978	creador	creadora creadores creadors
+79	1979	visible	visibles
+80	1980	rebel	rebels
+81	1981	tardor	tardors
+82	1982	dignitat	dignitats
+83	1983	finalitat	finalitats
+84	1984	setge	setges
+85	1985	girar	girada girades girant giraran giraren giraria girarien girarà girat girats girau girava giraven girem giren gires giressin gireu giri girin giris giro girà giràvem girés
+86	1986	significatiu	significatius significativa significatives
+87	1987	directiu	directius directiva directives
+88	1988	trenta	
+89	1989	terrible	terribles
+90	1990	dansa	danses
+91	1991	preocupació	preocupacions
+92	1992	procedent	procedents
+93	1993	instrucció	instruccions
+94	1994	estàtua	estàtues
+95	1995	procediment	procediments
+96	1996	tros	trossos troç
+97	1997	creatiu	creatius creativa creatives
+98	1998	bloquejar	bloquege bloquegem bloquegen bloqueges bloquegeu bloquegi bloquegin bloquegés bloqueja bloquejada bloquejades bloquejant bloquejaren bloquejarà bloquejat bloquejats bloquejava bloquejaven bloquejo
+99	1999	impressionant	impressionants
+100	2000	obrer	obrera obreres obrers

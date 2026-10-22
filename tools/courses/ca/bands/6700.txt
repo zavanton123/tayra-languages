@@ -1,0 +1,100 @@
+1	6601	consultiu	consultius consultiva consultives
+2	6602	pijama	pijames
+3	6603	préssec	préssecs
+4	6604	perjudici	perjudicis
+5	6605	flanc	flancs
+6	6606	tractor	tractora tractores tractors
+7	6607	mem	mems
+8	6608	psiquiatre	psiquiatra psiquiatres
+9	6609	al·lusió	
+10	6610	humilitat	
+11	6611	reig	
+12	6612	santedat	
+13	6613	sociologia	
+14	6614	precisar	precisa precisada precisant precisat precisava precisaven precisen precises precisi precisin preciso precisà
+15	6615	cosmopolita	cosmopolites
+16	6616	castor	castors
+17	6617	estabilitzar	estabilitza estabilitzada estabilitzades estabilitzant estabilitzants estabilitzarà estabilitzat estabilitzats estabilitzen estabilitzi estabilitzà estabilitzés
+18	6618	desallotjament	desallotjaments
+19	6619	ensurt	ensurts
+20	6620	gual	guals
+21	6621	filar	filada filades filant filat filats filava filaven filen files fili filin filis filo filà
+22	6622	contraatac	contraatacs
+23	6623	comunió	comunions
+24	6624	incansable	incansables
+25	6625	persistir	persisteix persisteixen persisteixi persistia persistien persistint persistiren persistirà persistit persistí persistís
+26	6626	incitar	incita incitada incitant incitat incitats incitava incitaven inciten incitin incità incités
+27	6627	barril	barrils
+28	6628	deportat	deportada deportades deportats
+29	6629	invencible	invencibles
+30	6630	cabró	cabrona cabrones cabrons
+31	6631	utopia	utopies
+32	6632	fur	furs
+33	6633	alzina	alzines
+34	6634	cuixa	cuixes
+35	6635	índic	índica índiques
+36	6636	propagar	propaga propagada propagades propagant propagarà propagat propagats propagava propagaven propaguen propagui propaguin propagués propagà
+37	6637	parra	parres
+38	6638	baluard	baluards
+39	6639	dinou	dèneu dènou
+40	6640	estand	estands
+41	6641	humorista	humoristes
+42	6642	opressor	opressora opressores opressors
+43	6643	avorrir	avorreix avorreixen avorreixes avorreixi avorreixo avorria avorrida avorrides avorrien avorrint avorriràs avorriré avorrits avorriu
+44	6644	contextualitzar	contextualitza contextualitzada contextualitzades contextualitzant contextualitzat contextualitzats contextualitzen
+45	6645	nata	nates
+46	6646	ral	rals
+47	6647	formiga	formigues
+48	6648	commoció	commocions
+49	6649	tenyir	tenyeix tenyeixen tenyia tenyida tenyides tenyien tenyint tenyit tenyits
+50	6650	infiltrar	infiltra infiltrada infiltrant infiltraren infiltrat infiltrats infiltren infiltri infiltrà
+51	6651	molecular	moleculars
+52	6652	hormona	hormones
+53	6653	xec	xecs
+54	6654	subjectiu	subjectius subjectiva subjectives
+55	6655	venjar	vengen vengi venja venjada venjant venjarem venjaria venjarà venjaré venjat
+56	6656	precursor	precursora precursores precursors
+57	6657	humanista	humanistes
+58	6658	camell	camella camells
+59	6659	arrasar	arrasa arrasada arrasades arrasant arrasaran arrasaren arrasat arrasats arrasava arrasaven arrasen arrasà arrasés arràs
+60	6660	transformador	transformadora transformadores transformadors
+61	6661	seguici	seguicis
+62	6662	calb	calba calbes calbs
+63	6663	carena	carenes
+64	6664	presencial	presencials
+65	6665	anarquisme	
+66	6666	contràriament	
+67	6667	degudament	
+68	6668	desgraciadament	
+69	6669	desús	
+70	6670	detriment	
+71	6671	finalització	
+72	6672	geologia	
+73	6673	iris	
+74	6674	liberalisme	
+75	6675	permanentment	
+76	6676	rebel·lar	
+77	6677	teòricament	
+78	6678	titar	tito
+79	6679	codina	codines
+80	6680	mutació	mutacions
+81	6681	ràtio	ràtios
+82	6682	ruixar	ruixa ruixada ruixades ruixant ruixat ruixats ruixen
+83	6683	ovari	ovaris
+84	6684	resseguir	ressegueix ressegueixen resseguia resseguida resseguides resseguien resseguint resseguit resseguits
+85	6685	falange	falanges
+86	6686	desastrós	desastrosa desastroses desastrosos
+87	6687	problemàtic	problemàtics problemàtiques
+88	6688	filmació	filmacions
+89	6689	oasi	oasis
+90	6690	plafó	plafons
+91	6691	investir	investeix investeixen investia investida investint investit investits investí
+92	6692	penedir	penedeix penedeixen penedeixes penedeixi penedeixo penedia penedim penedint penediran penedireu penediria penedirà penediràs penediré penedí penedís
+93	6693	conversació	conversacions
+94	6694	enverinament	enverinaments
+95	6695	xou	xous
+96	6696	alleujar	alleugen alleuja alleujada alleujant alleujarà alleujat alleujats alleujava
+97	6697	escombra	escombres escombreta escombretes
+98	6698	concili	concilis
+99	6699	artèria	artèries
+100	6700	ajust	ajustos ajusts

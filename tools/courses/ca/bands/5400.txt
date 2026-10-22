@@ -1,0 +1,100 @@
+1	5301	maltar	malta maltat maltes maltés
+2	5302	confidencial	confidencials
+3	5303	llenya	llenyes
+4	5304	duresa	dureses
+5	5305	plasma	plasmes
+6	5306	guardiola	guardioles
+7	5307	misericòrdia	misericòrdies
+8	5308	patrulla	patrulles
+9	5309	realisme	realismes
+10	5310	contrasenya	contrasenyes
+11	5311	oient	oients
+12	5312	coherència	coherències
+13	5313	cota	cotes
+14	5314	mortalitat	mortalitats
+15	5315	ego	egos
+16	5316	comtal	comtals
+17	5317	blues	
+18	5318	borràs	
+19	5319	considerablement	
+20	5320	efectivitat	
+21	5321	einstein	
+22	5322	homofòbia	
+23	5323	mercuri	
+24	5324	pe	
+25	5325	pertot	
+26	5326	apallissar	apallissa apallissada apallissant apallissat apallissats apallissaven apallissen apallissin
+27	5327	discogràfic	discogràfica discogràfics discogràfiques
+28	5328	performance	performances
+29	5329	esplai	esplais
+30	5330	maduixa	maduixes
+31	5331	accionista	accionistes
+32	5332	certamen	certàmens
+33	5333	ge	ges
+34	5334	traçar	tracem tracen traces traci tracis tracés traçada traçades traçant traçats traçava traçaven traçà tràcia tràcies
+35	5335	pesseta	pessetes ptes
+36	5336	aparador	aparadors
+37	5337	lesbiana	lesbianes
+38	5338	xe	che xes
+39	5339	flotar	flotant flotants flotat flotats flotava flotaven floten flotes floti
+40	5340	canyella	canyelles
+41	5341	vena	venes
+42	5342	minimitzar	minimitza minimitzada minimitzades minimitzant minimitzat minimitzats minimitzava minimitzen minimitzi minimitzin
+43	5343	equatorial	equatorials
+44	5344	senyoria	senyories
+45	5345	assentar	assenta assentada assentades assentant assentaren assentaria assentat assentats assentava assentaven assenten assentessin assenti assento assentà assentés
+46	5346	escultor	escultora escultores escultors
+47	5347	filosòfic	filosòfica filosòfics filosòfiques
+48	5348	escorxador	escorxadors
+49	5349	ambientar	ambienta ambientada ambientades ambientat ambientats ambientava ambiente ambienten ambienti ambientàs
+50	5350	diploma	diplomes
+51	5351	tòpic	tòpica tòpics tòpiques
+52	5352	comptador	comptadora comptadors
+53	5353	destapar	destapa destapada destapant destapat destapats destapava destape destapem destapen destapi destapà
+54	5354	arca	arques
+55	5355	recopilació	recopilacions
+56	5356	correspondència	correspondències
+57	5357	jurament	juraments
+58	5358	albergar	alberga albergant albergaria albergarà albergat albergats albergava albergaven albergo albergue alberguen albergues albergui albergués albergà
+59	5359	cardar	carda cardada cardant cardaria cardat cardats carde cardem carden cardes cardi cardin cardis cardo
+60	5360	caldera	calderes caldereta calderetes calderons calderó
+61	5361	coixí	coixinet coixinets coixins
+62	5362	independitzar	independitza independitzada independitzades independitzant independitzaren independitzarà independitzat independitzats independitzem independitzen independitzi independitzà independitzés
+63	5363	inca	inques
+64	5364	remodelació	remodelacions
+65	5365	legitimar	legitim legitima legitimada legitimades legitimant legitimat legitimats legitimava legitimaven legitimen legitimi legitimés
+66	5366	còctel	còctels
+67	5367	càmping	càmpings
+68	5368	separatista	separatistes
+69	5369	tarragoní	tarragonina tarragonines tarragonins
+70	5370	bacallà	bacallans
+71	5371	devoció	devocions
+72	5372	percussió	percussions
+73	5373	tramitació	tramitacions
+74	5374	homenatjar	homenatgem homenatgen homenatges homenatja homenatjada homenatjades homenatjant homenatjarà homenatjat homenatjats homenatjava homenatjà
+75	5375	semestre	semestres
+76	5376	adequadament	
+77	5377	aviació	
+78	5378	diabetis	
+79	5379	discreció	
+80	5380	essencialment	
+81	5381	nazisme	
+82	5382	wifi	
+83	5383	íntegrament	
+84	5384	ordenança	ordenances
+85	5385	precari	precaris precària precàries
+86	5386	innovar	innova innovant innovat innovem innoven
+87	5387	xai	xais
+88	5388	estupidesa	estupideses
+89	5389	persistent	persistents
+90	5390	recital	recitals
+91	5391	anomalia	anomalies
+92	5392	silvestre	silvestres
+93	5393	indirecte	indirecta indirectes
+94	5394	matricular	matricula matriculada matriculades matriculant matriculat matriculats matriculen matricules matriculà
+95	5395	contradictori	contradictoris contradictòria contradictòries
+96	5396	diàmetre	diàmetres
+97	5397	memorable	memorables
+98	5398	quintana	quintanes
+99	5399	desmentir	desmenteix desmenteixen desmentia desmentida desmentides desmentint desmentiria desmentit desmentits desmentí
+100	5400	interferència	interferències

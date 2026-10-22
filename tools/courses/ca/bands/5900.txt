@@ -1,0 +1,100 @@
+1	5801	enigma	enigmes
+2	5802	cuir	cuiro cuiros cuirs
+3	5803	rialla	rialles rialleta
+4	5804	poliesportiu	poliesportius
+5	5805	rampa	rampes
+6	5806	decretar	decreta decretada decretades decretant decretat decretats decretava decreten decreti decreto decretà decretés
+7	5807	directori	directoris
+8	5808	paròdia	paròdies
+9	5809	imparcial	imparcials
+10	5810	caramel	caramels
+11	5811	càpsula	càpsules
+12	5812	imitació	imitacions
+13	5813	bategar	batega bategant bategat bategava bateguen
+14	5814	ferri	ferris fèrria fèrries
+15	5815	emigració	emigracions
+16	5816	cranc	crancs
+17	5817	federar	feder federa federada federades federat federats
+18	5818	magnètic	magnètica magnètics magnètiques
+19	5819	romeu	romeus romeva
+20	5820	naval	navals
+21	5821	voltor	voltors
+22	5822	molècula	molècules
+23	5823	llibreta	llibretes
+24	5824	podrit	podrida podrides podrits
+25	5825	agreujar	agreugen agreugi agreuja agreujada agreujades agreujant agreujants agreujaren agreujaria agreujarà agreujat agreujats agreujava agreujaven agreujà
+26	5826	sobrar	sobr sobrada sobrades sobrant sobrants sobrat sobrats sobrava sobraven sobren sobris
+27	5827	matalàs	matalassos
+28	5828	morro	morros
+29	5829	sinistre	sinistra sinistres
+30	5830	apassionant	apassionants
+31	5831	pebre	pebres
+32	5832	propiciar	propicia propiciada propiciades propiciant propiciaran propiciaren propiciaria propiciarien propiciarà propiciat propiciats propiciava propiciaven propicien propicies propicià propiciés propiciï
+33	5833	patriarcat	patriarcats
+34	5834	reconciliació	reconciliacions
+35	5835	pólvora	pólvores
+36	5836	parany	paranys
+37	5837	abstracte	abstracta abstractes
+38	5838	malversació	malversacions
+39	5839	invitar	invita invitada invitades invitant invitat invitats invitava invitaven invitem inviten invites invito invità invités
+40	5840	murar	mura murada murades muraria murat mures muri muro murí
+41	5841	ordenació	ordenacions
+42	5842	proporcional	proporcionals
+43	5843	xocant	xocants
+44	5844	esquirol	esquirols
+45	5845	rotació	rotacions
+46	5846	textura	textures
+47	5847	sindicalista	sindicalistes
+48	5848	acurat	acurada acurades acurats
+49	5849	autoestima	
+50	5850	difícilment	
+51	5851	enormement	
+52	5852	fiabilitat	
+53	5853	maduresa	
+54	5854	nostàlgia	
+55	5855	segrià	
+56	5856	vulnerabilitat	vulnerabilitats
+57	5857	cub	cubs
+58	5858	impactar	impacta impactada impactades impactaran impactaren impactaria impactarà impactat impactats impactava impactaven impacten impactes impacti impactin impacto impactà impactés
+59	5859	esquivar	esquiva esquivant esquivat esquivava esquiven esquives esquivi esquivà
+60	5860	demarcació	demarcacions
+61	5861	armament	armaments
+62	5862	catalanoparlant	catalanoparlants
+63	5863	patriarcal	patriarcals
+64	5864	fluid	fluida fluides fluids
+65	5865	violador	violadores violadors
+66	5866	ferotge	ferotges
+67	5867	paraigua	paraigües
+68	5868	vivenda	vivendes
+69	5869	dormitori	dormitoris
+70	5870	sabater	sabatera sabaters
+71	5871	citació	citacions
+72	5872	mongeta	mongetes
+73	5873	aroma	aromes
+74	5874	comptabilitat	comptabilitats
+75	5875	infanta	infantes
+76	5876	licor	licors
+77	5877	guaita	guaites
+78	5878	cortès	cortesa corteses cortesos cortés
+79	5879	rebentar	rebenta rebentada rebentades rebentant rebentat rebentats rebentava rebente rebentem rebenten rebentin
+80	5880	nodrir	nodreix nodreixen nodria nodrida nodrides nodrien nodrint nodrirà nodrit nodrits nodrix nodrí
+81	5881	rifle	rifles
+82	5882	atmosfèric	atmosfèrica atmosfèrics atmosfèriques
+83	5883	condicional	condicionals
+84	5884	guerrilla	guerrilles
+85	5885	maternitat	maternitats
+86	5886	viver	vivers
+87	5887	cangur	cangurs
+88	5888	desenvolupador	desenvolupadora desenvolupadores desenvolupadors
+89	5889	divorciar	divorcia divorciada divorciades divorciant divorciaren divorciat divorciats divorcien divorcio divorcià
+90	5890	ocular	oculars
+91	5891	congregació	congregacions
+92	5892	tuberculosi	tuberculosis
+93	5893	travar	travada travades travant travat travats traven traves travessin travi travis travà
+94	5894	pastoral	pastorals
+95	5895	instantani	instantanis instantània instantànies
+96	5896	hivernacle	hivernacles
+97	5897	internat	internada internades internats
+98	5898	fraternitat	fraternitats
+99	5899	llepar	llepa llepada llepades llepant lleparàs llepat llepen llepes llepi llepis llepo
+100	5900	diferencial	diferencials

@@ -1,0 +1,100 @@
+1	9201	contrapunt	contrapunts
+2	9202	llistó	llistons
+3	9203	infligir	infligeix infligeixen infligia infligida infligides infligint infligit infligits
+4	9204	degenerar	degenera degenerada degenerades degenerant degenerat degenerats degeneren degeneres degeneri degenerà
+5	9205	transcendental	transcendentals
+6	9206	immunitari	immunitaris immunitària immunitàries
+7	9207	despietat	despietada despietades despietats
+8	9208	negociador	negociadora negociadores negociadors
+9	9209	èxode	èxodes
+10	9210	sevillà	sevillana sevillanes sevillans
+11	9211	impropi	impropis impròpia impròpies
+12	9212	ornament	ornaments
+13	9213	subcampió	subcampiona subcampiones subcampions
+14	9214	reptar	repta reptant reptants reptaren reptat reptava reptaven repten reptes repto
+15	9215	tenebra	tenebres
+16	9216	despreniment	despreniments
+17	9217	albirar	albira albirada albirant albirat albirava albiraven albirem albiren albiri albirà
+18	9218	cartellera	cartelleres
+19	9219	nasal	nasals
+20	9220	bastidor	bastidors
+21	9221	agulló	agullons
+22	9222	curvatura	curvatures
+23	9223	sistèmic	sistèmica sistèmics sistèmiques
+24	9224	banana	bananes
+25	9225	indiscriminat	indiscriminada indiscriminades indiscriminats
+26	9226	cigró	cigrons ciuró
+27	9227	cosmos	
+28	9228	covardia	
+29	9229	enuig	
+30	9230	esgotament	
+31	9231	estrangeria	
+32	9232	excepcionalment	
+33	9233	geopolítica	
+34	9234	gingebre	
+35	9235	peguera	
+36	9236	pelvis	
+37	9237	pisa	
+38	9238	pues	
+39	9239	puntualitat	
+40	9240	republicanisme	
+41	9241	secretament	
+42	9242	pòlissa	pòlisses
+43	9243	ullet	ullets
+44	9244	illot	illots
+45	9245	temible	temibles
+46	9246	reticent	reticents
+47	9247	vassall	vassalla vassalles vassalls
+48	9248	interconnexió	interconnexions
+49	9249	migranya	migranyes
+50	9250	noticiari	noticiaris
+51	9251	mitigar	mitiga mitigada mitigant mitigat mitiguen
+52	9252	contenciós	contenciosa contenciosos
+53	9253	rumiar	rumia rumiant rumiaré rumiat
+54	9254	delirant	delirants
+55	9255	enlairament	enlairaments
+56	9256	difamació	difamacions
+57	9257	unicorn	unicorns
+58	9258	dolçaina	dolçaines
+59	9259	aristocràcia	aristocràcies
+60	9260	cohesionar	cohesiona cohesionada cohesionades cohesionat cohesionats cohesionen
+61	9261	rendibilitat	rendibilitats
+62	9262	menyspreable	menyspreables
+63	9263	plurilingüe	plurilingües
+64	9264	clon	clons
+65	9265	diagnosi	diagnosis
+66	9266	bufanda	bufandes
+67	9267	fertilitzant	fertilitzants
+68	9268	paladar	paladars
+69	9269	moderador	moderadora moderadors
+70	9270	reeixit	reeixides reeixits
+71	9271	mecenatge	mecenatges
+72	9272	fondària	fondàries
+73	9273	piratejar	piratejada piratejat piratejats
+74	9274	tunisià	tunisiana tunisianes tunisians
+75	9275	caducar	caduca caducada caducades caducat caducats caducava caduquen caduques
+76	9276	celeste	celestes
+77	9277	barrufet	barrufets
+78	9278	atípic	atípica atípics atípiques
+79	9279	excitació	excitacions
+80	9280	condicionament	condicionaments
+81	9281	ocupacional	ocupacionals
+82	9282	quimioteràpia	quimioteràpies
+83	9283	vertebral	vertebrals
+84	9284	qüestionable	qüestionables
+85	9285	braçalet	braçalets
+86	9286	trencadís	trencadissa trencadisses trencadissos
+87	9287	plàcid	plàcida plàcides plàcids
+88	9288	parament	paraments
+89	9289	benestant	benestants
+90	9290	recloure	reclosa recloses reclosos reclou reclòs
+91	9291	carcassa	carcasses
+92	9292	germen	gèrmens
+93	9293	hostatge	hostatges
+94	9294	avet	avets
+95	9295	billar	billars
+96	9296	tallafoc	tallafocs
+97	9297	proliferar	prolifera proliferant proliferaren proliferat proliferava proliferaven proliferen proliferin
+98	9298	esprai	esprais
+99	9299	tretzè	tretzena tretzé
+100	9300	terrenal	terrenals

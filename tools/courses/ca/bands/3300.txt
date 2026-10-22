@@ -1,0 +1,100 @@
+1	3201	pollastre	pollastres
+2	3202	bancari	bancaris bancària bancàries
+3	3203	sabata	sabates
+4	3204	súper	súpers
+5	3205	carnaval	carnavals
+6	3206	retard	retards
+7	3207	supervivent	supervivents
+8	3208	avenç	avenços
+9	3209	ibèric	ibèrica ibèrics ibèriques
+10	3210	islam	
+11	3211	màrqueting	
+12	3212	plenament	
+13	3213	tastar	tasta tastant tastarem tastaré tastat tastem tasten tastes tasti
+14	3214	síndrome	síndromes
+15	3215	encàrrec	encàrrecs
+16	3216	monjo	monjos
+17	3217	pistola	pistoles
+18	3218	consecutiu	consecutius consecutiva consecutives
+19	3219	notable	notables
+20	3220	suprimir	suprimeix suprimeixen suprimeixin suprimia suprimida suprimides suprimien suprimint suprimiren suprimiria suprimissin suprimit suprimits suprimí suprimís
+21	3221	kurd	kurda kurdes kurds
+22	3222	grapat	grapats
+23	3223	croat	croada croades croata croates croats
+24	3224	ermita	ermites
+25	3225	gir	girs
+26	3226	trastorn	trastorns
+27	3227	picar	picades picaran picaria picarà picat picats picava picaven pico picà piquen piques piqui piquin piquis piqués
+28	3228	bressol	bressols
+29	3229	festiu	festius festiva festives
+30	3230	enciclopèdia	enciclopèdies
+31	3231	moble	mobles
+32	3232	ira	ires
+33	3233	prevenir	prevenen prevenia prevenint previndre previnguda previngut previnguts prevé
+34	3234	instància	instàncies
+35	3235	aconsellar	aconsella aconsellada aconsellades aconsellant aconsellaren aconsellaria aconsellarà aconsellat aconsellats aconsellava aconsellaven aconsellem aconsellen aconselleu aconselli aconsellin aconsello aconsellà aconsellés
+36	3236	segrestar	segresta segrestada segrestades segrestant segrestaren segrestat segrestats segrestava segrestaven segresten segrestessin segresti segrestin segrestà
+37	3237	alegrar	alegra alegrant alegraren alegraria alegrarà alegraré alegrat alegrava alegraven alegrem alegren alegres alegreu alegri alegro alegrà
+38	3238	bombardeig	bombardeigs bombardejos
+39	3239	imbècil	imbècils
+40	3240	injust	injusta injustes injustos injusts
+41	3241	gelat	gelada gelades gelats
+42	3242	avaluació	avaluacions
+43	3243	noguera	nogueres
+44	3244	transparent	transparents
+45	3245	baralla	baralles
+46	3246	reflex	reflexa reflexes reflexos
+47	3247	caçador	caçadora caçadores caçadors
+48	3248	veterà	veterana veteranes veterans
+49	3249	idiota	idiotes
+50	3250	posicionament	posicionaments
+51	3251	tanc	tancs
+52	3252	colar	colada colades colant colat colau colava colem colen coles coli colin colis colo colàs
+53	3253	instant	instants
+54	3254	impunitat	
+55	3255	instal·lació	
+56	3256	setanta	
+57	3257	metall	metalls
+58	3258	contenidor	contenidora contenidors
+59	3259	cadàver	cadàvers
+60	3260	decorat	decorada decorades decorats
+61	3261	natiu	natius nativa natives
+62	3262	comèdia	comèdies
+63	3263	seminari	seminaris
+64	3264	mode	modes
+65	3265	guardonat	guardonada guardonades guardonats
+66	3266	màrtir	màrtirs
+67	3267	conca	conques
+68	3268	xerrar	xerra xerrades xerram xerrant xerrarem xerrarà xerrat xerrava xerraven xerrem xerren xerres xerris xerro
+69	3269	banyar	banya banyada banyades banyam banyant banyat banyats banyava banyaven banyem banyen banyes banyeta banyetes banyeu banyi banyo banyà
+70	3270	far	fars
+71	3271	carnet	carnets
+72	3272	proporció	proporcions
+73	3273	instar	insta instada instaren instat instava instaven instem insten insti instà instés
+74	3274	atent	atenta atentes atents
+75	3275	processar	processa processada processades processant processaran processarà processat processats processava processaven processen processes processi processin processo processà procès
+76	3276	cúpula	cúpules
+77	3277	gitano	gitana gitanes gitanos
+78	3278	ètnic	ètnica ètnics ètniques
+79	3279	firma	firmes
+80	3280	consorci	consorcis
+81	3281	indicador	indicadora indicadores indicadors
+82	3282	transferència	transferències
+83	3283	llunyà	llunyana llunyanes llunyans
+84	3284	decorar	decora decorada decorades decorant decoraren decorats decorava decoraven decoren decoro decorà
+85	3285	esfera	esferes
+86	3286	consideració	consideracions
+87	3287	requisit	requisits
+88	3288	urna	urnes
+89	3289	preservar	preserva preservada preservades preservant preservarà preservat preservats preservava preservaven preservem preserven preservi preservin preservà preservés
+90	3290	adhesió	adhesions
+91	3291	rostre	rostres
+92	3292	obvi	obvis òbvia òbvies
+93	3293	exportació	exportacions
+94	3294	dieta	dietes
+95	3295	firmar	firmada firmades firmant firmants firmarem firmaren firmaria firmarà firmat firmats firmava firmaven firme firmem firmen firmes firmessin firmeu firmi firmin firmo firmà firmés
+96	3296	gala	gales
+97	3297	fita	fites
+98	3298	sindical	sindicals
+99	3299	gironí	gironina gironines gironins
+100	3300	plegar	pleg plega plegada plegades plegant plegaren plegaria plegats plegava plegaven plego pleguem pleguen plegui pleguis plegués plegà

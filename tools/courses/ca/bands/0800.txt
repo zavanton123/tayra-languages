@@ -1,0 +1,100 @@
+1	701	marcar	marcada marcades marcant marcaran marcarem marcaren marcaria marcarien marcarà marcat marcats marcava marcaven marco marcà marquem marquen marques marquessin marqueu marqui marquin marquis marqués
+2	702	este	esta estes estos
+3	703	funcionar	funcion funciona funcionam funcionant funcionaran funcionaren funcionaria funcionarien funcionarà funcionat funcionava funcionaven funcione funcionem funcionen funciones funcionessin funcioni funcionin funcionà funcionés
+4	704	administració	administracions
+5	705	responsable	responsables
+6	706	exposició	expo exposicions
+7	707	ensenyar	ensenya ensenyada ensenyades ensenyam ensenyant ensenyants ensenyaran ensenyarem ensenyaren ensenyaria ensenyarà ensenyaràs ensenyaré ensenyat ensenyats ensenyava ensenyaven ensenyaves ensenye ensenyem ensenyen ensenyes ensenyessin ensenyeu ensenyi ensenyin ensenyis ensenyo ensenyà ensenyés
+8	708	trencar	trenca trencada trencades trencant trencants trencaran trencarem trencaren trencaria trencarien trencarà trencaràs trencaré trencat trencats trencava trencaven trenco trencà trenque trenquem trenquen trenques trenquessin trenqueu trenqui trenquin trenquis trenqués
+9	709	significar	significa significada significades significant significants significaran significaren significaria significarien significarà significats significava significaven significà signifique signifiquen signifiqui signifiquin signifiqués
+10	710	pràctica	pràctiques
+11	711	vot	vots
+12	712	mil	mils
+13	713	retirar	retira retirada retirades retirant retirara retiraran retiraren retiraria retirarien retirarà retiraré retirat retirats retirava retiraven retirem retiren retires retiressin retireu retiri retirin retiris retiro retirà retirés
+14	714	gaire	gaires
+15	715	volar	vola volada volades volant volants volaran volarem volaren volaria volarien volarà volaràs volaré volat volats volava volaven volem volen voles volessin voleu voli volin volo volà volés
+16	716	respondre	respon responc respondran respondrem respondria respondrien respondrà respondràs respondré responem responen responent responeu responga respongueren responguessin respongueu respongui responguin responguis respongué respongués responia responien responies respons responíem respost respostes respostos
+17	717	diumenge	diumenges
+18	718	habitatge	habitatges
+19	719	diferència	diferències
+20	720	arreu	arreus
+21	721	tecnologia	tecnol tecnologies
+22	722	gènere	gèneres
+23	723	preocupar	preocupa preocupada preocupades preocupant preocupants preocuparen preocuparia preocuparà preocuparé preocupat preocupats preocupava preocupaven preocupe preocupem preocupen preocupes preocupessin preocupeu preocupi preocupin preocupis preocupo preocupà preocupés
+24	724	format	formada formades formats
+25	725	alcalde	alcaldes alcaldessa alcaldesses
+26	726	recollir	recollia recollida recollides recollien recollim recollint recolliran recollirem recolliren recolliria recollirien recollirà recolliràs recolliré recollissin recollit recollits recolliu recollí recollís recullen reculli recullin recullis recullo reculls
+27	727	foc	focs
+28	728	canal	canals
+29	729	democràtic	democràtica democràtics democràtiques
+30	730	victòria	victòries
+31	731	tribunal	tribunals
+32	732	funció	funcions
+33	733	quart	quarta quartes quarts
+34	734	aleshores	
+35	735	tarda	tardes
+36	736	reunir	reuneix reuneixen reuneixes reuneixi reuneixin reunia reunida reunides reunien reunim reunint reunira reuniran reunirem reuniren reuniria reunirien reunirà reuniré reunisca reunissin reunit reunits reuniu reunix reunixen reuní reunís reuníssim
+37	737	època	èpoques
+38	738	declarar	declara declarada declarades declarant declarants declarara declararan declararen declararia declararà declararé declarat declarats declarava declaraven declarem declaren declares declaressin declareu declari declarin declaro declarà declarés
+39	739	mena	menes
+40	740	superior	superiors
+41	741	vall	valls
+42	742	mínim	mínima mínimes mínims
+43	743	hospital	hospitals
+44	744	present	presents
+45	745	basar	bas basada basades basant basaran basaren basaria basars basarà basat basats basava basaven basem basen bases basi basin basis baso basà basés
+46	746	animal	animals
+47	747	oficina	ofi oficines
+48	748	divendres	
+49	749	notícia	
+50	750	presentació	presentacions
+51	751	generar	genera generada generades generant generaran generaren generaria generarien generarà generat generats generau generava generaven genere generem generen generes generessin genereu generi generin generis genero generà generés
+52	752	interessant	interessants
+53	753	cinema	cinemes
+54	754	estació	estacions
+55	755	inici	inicis
+56	756	ciència	ciències
+57	757	x	
+58	758	cobrir	cobert coberta cobertes coberts cobreix cobreixen cobreixi cobreixin cobreixo cobria cobrien cobrim cobrint cobriran cobrirem cobriren cobriria cobririen cobrirà cobrissin cobriu cobrix cobrixen cobrí cobrís
+59	759	necessitat	necessitada necessitades necessitats
+60	760	rus	rusos russa russes russos
+61	761	obligar	obliga obligada obligades obligant obligara obligaran obligaren obligaria obligarien obligarà obligat obligats obligava obligaven obligo obliguem obliguen obligues obliguessin obligueu obligui obliguin obliguis obligués obligà
+62	762	negoci	negocis
+63	763	tradicional	tradicionals
+64	764	energia	energies
+65	765	operació	operacions
+66	766	esdeveniment	esdeveniments
+67	767	participació	participacions
+68	768	desaparèixer	desaparega desapareguda desaparegudes desapareguen desapareguera desaparegueren desapareguessin desaparegui desapareguin desaparegut desapareguts desaparegué desaparegués desapareix desapareixen desapareixent desapareixeran desapareixerem desapareixeria desapareixerien desapareixerà desapareixes desapareixia desapareixien
+69	769	tirar	tira tirada tirades tirana tirans tirant tirants tiraran tirarem tiraren tiraria tirarà tiraràs tiraré tirat tirats tirava tiraven tirem tiren tires tiressin tireu tiri tirin tiris tiro tirà tiràs tirés
+70	770	taller	tallers
+71	771	representant	representants
+72	772	vila	viles
+73	773	feliç	felices feliços
+74	774	complir	compleix compleixen compleixes compleixi compleixin compleixis compleixo complert complerta complertes complerts complia complida complides complien complim complint complira compliran complirem compliren compliria complirien complirà compliré complisca complisquen complissin complit complits compliu complix complí complís
+75	775	escolar	escol escolans escolant escolares escolars escolat escolava escolen escoles escoli escolis escolà
+76	776	líder	líders
+77	777	amagar	amaga amagada amagades amagant amagarem amagaren amagaria amagarà amagaré amagat amagats amagava amagaven amago amaguem amaguen amagues amaguessin amagueu amagui amaguin amaguis amagués amagà
+78	778	est	
+79	779	metre	meses mesos met metis metres mets
+80	780	val	vals valsos
+81	781	avançar	avance avancem avancen avances avancessin avanceu avanci avancin avancés avança avançada avançades avançam avançant avançaran avançarem avançaren avançaria avançarien avançarà avançaré avançat avançats avançava avançaven avanço avançà
+82	782	condemnar	condemna condemnada condemnades condemnant condemnaran condemnaren condemnaria condemnarà condemnat condemnats condemnava condemnaven condemnem condemnen condemnes condemnessin condemneu condemni condemnin condemno condemnà condemnés
+83	783	tallar	talla tallada tallades tallant tallants tallaran tallarem tallaren tallaria tallarien tallarà tallaré tallat tallats tallava tallaven talle tallem tallen talles tallessin talleu talli tallin tallis tallo tallà tallés
+84	784	sopar	sopa sopant soparan soparem sopars soparà soparé sopat sopava sopaven sopem sopen sopes sopeu sopi sopo
+85	785	tradició	tradicions
+86	786	port	ports
+87	787	element	elements
+88	788	estudiar	estudia estudiada estudiades estudiara estudiaran estudiarem estudiaren estudiaria estudiarien estudiarà estudiaré estudiat estudiats estudiava estudiaven estudiem estudien estudies estudiessin estudieu estudio estudià estudiés estudiï estudiïn
+89	789	superar	supera superada superades superant superaran superarem superaren superaria superarien superarà superaràs superaré superat superats superava superaven supere superem superen superes superessin supereu superi superin superà superés superí
+90	790	aplicació	apli aplicacions
+91	791	determinar	determina determinada determinades determinant determinants determinaran determinaren determinaria determinarien determinarà determinat determinats determinava determinaven determinem determinen determinessin determini determinin determinà determinés
+92	792	recerca	recerques
+93	793	lluny	llunys
+94	794	planta	plantes
+95	795	comercial	comercials
+96	796	conflicte	conflictes
+97	797	solució	solucions
+98	798	crisi	crisis
+99	799	judici	judicis
+100	800	volta	voltes

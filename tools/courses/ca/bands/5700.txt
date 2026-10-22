@@ -1,0 +1,100 @@
+1	5601	monetari	monetaris monetària monetàries
+2	5602	passiu	passius passiva passives
+3	5603	autocar	autocars
+4	5604	paradoxa	paradoxes
+5	5605	rendició	rendicions
+6	5606	tem	tems
+7	5607	enrenou	enrenous
+8	5608	abocador	abocadors
+9	5609	botella	botelles
+10	5610	mosquit	mosquits
+11	5611	conscienciació	
+12	5612	davall	
+13	5613	filologia	
+14	5614	patinatge	
+15	5615	polo	
+16	5616	radicalment	
+17	5617	torelló	
+18	5618	trinxera	trinxeres
+19	5619	subministrar	subministra subministrada subministrades subministrant subministraria subministrarà subministrat subministrats subministrava subministraven subministre subministren subministres subministressin subministri subministrin subministrà subministrés
+20	5620	distreure	distragués distraient distraure distregui distreguin distreia distreien distret distreta distretes distrets distreu distreuen distreus
+21	5621	preferent	preferents
+22	5622	pronòstic	pronòstics
+23	5623	xemeneia	xemeneies
+24	5624	cera	ceres
+25	5625	quadra	quadres
+26	5626	programador	programadora programadores programadors
+27	5627	dei	deis
+28	5628	xef	xefs
+29	5629	rai	rais
+30	5630	importació	importacions
+31	5631	banyera	banyeres
+32	5632	plenari	plenaris plenària plenàries
+33	5633	botí	botins
+34	5634	imparable	imparables
+35	5635	bufa	bufes
+36	5636	doblegar	doblega doblegada doblegades doblegant doblegat doblegats doblegava doblegaven dobleguen doblegui
+37	5637	intensiu	intensius intensiva intensives
+38	5638	pissarra	pissarres
+39	5639	multar	multada multades multat multats multe multes multi multin multis
+40	5640	greuge	greuges
+41	5641	revertir	reverteix reverteixen reverteixin revertida revertides revertim revertint revertiria revertirà revertit revertits revertí
+42	5642	quartet	quartets
+43	5643	alinear	alinea alineada alineades alineant alinearan alineat alineats alineava alineaven alineen alineà alineï alineïn
+44	5644	predicar	predica predicada predicant predicaren predicat predicats predicava predicaven predicà prediquen
+45	5645	reixa	reixes
+46	5646	cristianar	cristian cristiano
+47	5647	nàutic	nàutica nàutics nàutiques
+48	5648	nul	nuls
+49	5649	bibliotecari	bibliotecaris bibliotecària bibliotecàries
+50	5650	hipotètic	hipotètica hipotètics hipotètiques
+51	5651	gloriós	gloriosa glorioses gloriosos
+52	5652	polir	poleix poleixen polia polida polides polint polit polits polí
+53	5653	consistori	consistoris
+54	5654	addicció	addiccions
+55	5655	caixer	caixera caixers
+56	5656	evocar	evoca evocada evocades evocant evocaria evocarà evocat evocats evocava evocaven evocà evoquen evoqués
+57	5657	desallotjar	desallotgen desallotja desallotjada desallotjades desallotjant desallotjat desallotjats
+58	5658	invenció	invencions
+59	5659	ungla	ungles
+60	5660	vocabulari	vocabularis
+61	5661	repetició	repeticions
+62	5662	apte	apta aptes
+63	5663	jordà	jordana jordanes jordans
+64	5664	endevinar	endevina endevinant endevinat endevinava endevinaven endevinen endevines endevineu endevini endevinin endevino
+65	5665	tip	tipa tips
+66	5666	renovable	renovables
+67	5667	maqueta	maquetes
+68	5668	preliminar	preliminars
+69	5669	bilió	bilions
+70	5670	irònic	irònica irònics iròniques
+71	5671	defunció	defuncions
+72	5672	flauta	flautes
+73	5673	arxipèlag	arxipèlags
+74	5674	rigorós	rigorosa rigoroses rigorosos
+75	5675	intolerància	intoleràncies
+76	5676	inadequat	inadequada inadequades inadequats
+77	5677	perdedor	perdedora perdedores perdedors
+78	5678	contenció	contencions
+79	5679	garatge	garatges
+80	5680	edificar	edific edifica edificada edificades edificant edificants edificaren edificaria edificarà edificat edificats edificava edificaven edificà edifiquen edifiqués
+81	5681	patologia	patologies
+82	5682	ans	
+83	5683	inrevés	
+84	5684	rapidesa	
+85	5685	repòs	
+86	5686	seguidament	
+87	5687	rua	rues
+88	5688	sabó	sabons
+89	5689	pauta	pautes
+90	5690	comparatiu	comparatius comparativa comparatives
+91	5691	malentès	malentesos malentés
+92	5692	verdader	verdadera verdaderes verdaders
+93	5693	grandesa	grandeses
+94	5694	milionari	milionaris milionària milionàries
+95	5695	colonització	colonitzacions
+96	5696	encadenar	encadena encadenada encadenades encadenant encadenat encadenats encadenen encadenes encadenà
+97	5697	panoràmica	panoràmiques
+98	5698	deficiència	deficiències
+99	5699	serralada	serralades
+100	5700	colze	colzes

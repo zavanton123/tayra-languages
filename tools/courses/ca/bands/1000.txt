@@ -1,0 +1,100 @@
+1	901	conseqüència	conseqüències
+2	902	baixar	baixada baixades baixant baixants baixaran baixarem baixaren baixareu baixaria baixarien baixarà baixaràs baixaré baixat baixats baixava baixaven baixe baixem baixen baixes baixessin baixeu baixi baixin baixis baixo baixà baixàs baixés
+3	903	pis	pisos
+4	904	patrimoni	patrimonis
+5	905	amenaça	amenaces
+6	906	plataforma	plataformes
+7	907	presència	presències
+8	908	pobre	pobra pobres pobrissona pobrissó
+9	909	aspecte	aspectes
+10	910	front	fronts
+11	911	marca	marques
+12	912	penjar	pengem pengen penges pengessin pengeu pengi pengin pengis pengés penja penjada penjades penjant penjants penjaran penjarem penjaren penjaria penjarà penjaràs penjaré penjat penjats penjava penjaven penjo penjà
+13	913	contacte	contactes
+14	914	pont	pontet pontets ponts
+15	915	possibilitat	possibilitats
+16	916	aplicar	aplic aplica aplicada aplicades aplicant aplicara aplicaran aplicarem aplicaren aplicaria aplicarien aplicarà aplicat aplicats aplicava aplicaven aplics aplicà aplique apliquem apliquen apliques apliquessin apliqueu apliqui apliquin apliqués
+17	917	compromís	compromisos
+18	918	alemany	alemanyes alemanys
+19	919	ruta	rutes
+20	920	esforç	esforços
+21	921	malaltia	malalties
+22	922	selecció	seleccions
+23	923	afirmar	afirma afirmada afirmant afirmaren afirmaria afirmarà afirmat afirmava afirmaven afirmem afirmen afirmeu afirmi afirmin afirmo afirmà afirmés
+24	924	gana	ganes
+25	925	responsabilitat	responsabilitats
+26	926	mas	masos
+27	927	comerç	comerços
+28	928	comarca	comarques
+29	929	advocat	abogat advocada advocades advocats
+30	930	faltar	faltant faltaran faltarem faltaren faltaria faltarien faltarà faltaré faltat faltava faltaven falte faltem falten faltes faltessin falteu falti faltin faltis falto faltà faltés
+31	931	platja	platges platjola
+32	932	ací	
+33	933	aniversari	aniversaris
+34	934	grec	grecs grega gregues
+35	935	fundació	fundacions
+36	936	salvar	salva salvada salvades salvant salvara salvaran salvarem salvaren salvareu salvaria salvarien salvarà salvaràs salvaré salvat salvats salvava salvaven salve salvem salven salves salvessin salveu salvi salvin salvis salvo salvà salvés
+37	937	tasca	tasques
+38	938	nombrós	nombrosa nombroses nombrosos
+39	939	doble	dobles
+40	940	pertànyer	pertangut pertangué pertany pertanyem pertanyen pertanyent pertanyeran pertanyeren pertanyeria pertanyerien pertanyerà pertanyessin pertanyeu pertanyi pertanyia pertanyien pertanyin pertanyo pertanys pertanyut pertanyé pertanyés
+41	941	error	errors
+42	942	sessió	sessions
+43	943	electoral	electorals
+44	944	transport	transports
+45	945	reforma	reformes
+46	946	príncep	princesa princeses prínceps
+47	947	copa	copes
+48	948	coneixement	coneixements
+49	949	femení	femenina femenines femenins
+50	950	lluís	lluïsos
+51	951	noia	noies noieta noya
+52	952	hola	
+53	953	internet	
+54	954	llançar	llance llancem llancen llances llancessin llanceta llancetes llanceu llanci llancin llancés llança llançada llançades llançant llançaran llançarem llançaren llançaria llançarien llançarà llançat llançats llançava llançaven llanço llançà
+55	955	intervenció	intervencions
+56	956	negar	nega negada negades negant negaran negaren negaria negarien negarà negaré negat negats negava negaven nego negue neguem neguen negues neguessin negueu negui neguin neguis negués negà
+57	957	peça	peces
+58	958	client	clienta clientes clients
+59	959	tren	trens
+60	960	província	províncies
+61	961	dòlar	dòlars
+62	962	revolució	revolucions
+63	963	frontera	fronteres
+64	964	centrar	centr centra centrada centrades centrant centraran centrarem centraren centraria centrarien centrarà centrat centrats centrava centraven centrem centren centres centressin centri centrin centris centro centrà centrés
+65	965	soldat	soldada soldades soldats
+66	966	comentari	comentaris
+67	967	electrònic	electrònica electrònics electròniques
+68	968	literatura	literatures
+69	969	vaixell	vaixells
+70	970	merda	merdes
+71	971	caixa	caixes caixons caixó
+72	972	estructura	estructures
+73	973	apuntar	apunta apuntada apuntades apuntant apuntaren apuntaria apuntarien apuntarà apuntaré apuntat apuntats apuntava apuntaven apuntaves apunte apuntem apunten apuntes apuntessin apunteu apunti apuntin apuntis apunto apuntà apuntés
+74	974	grau	graus
+75	975	probablement	
+76	976	categoria	categories
+77	977	gratuït	gratuïta gratuïtes gratuïts
+78	978	dormir	dorm dormen dormi dormia dormida dormides dormien dormies dormim dormin dormint dormiran dormirem dormiren dormireu dormiria dormirà dormiràs dormiré dormis dormissin dormit dormits dormiu dormo dorms dormí dormíem dormís
+79	979	famós	famosa famoses famosos
+80	980	arbre	arbres
+81	981	capacitat	capacitats
+82	982	record	records
+83	983	rosa	roses
+84	984	fotre	fot fotem foten fotent fotessin foteu foti fotia fotin fotis fotran fotrem fotreu fotria fotrà fotràs fotré fots fotuda fotudes fotut fotuts fotés fumut fúmer
+85	985	preveure	prevegi prevegin preveia preveien preveient preveié preveiés preveres preveu preveuen previst prevista previstes previstos prevists
+86	986	desitjar	desitge desitgem desitgen desitges desitgessin desitgeu desitgi desitgin desitgis desitgés desitj desitja desitjada desitjades desitjam desitjant desitjaran desitjaren desitjaria desitjarien desitjaries desitjarà desitjaràs desitjat desitjats desitjava desitjaven desitjaves desitjo desitjà desitjàveu
+87	987	concurs	concursos
+88	988	fugir	fugen fuges fugi fugia fugida fugides fugien fugim fugin fugint fugiran fugirem fugiren fugiria fugirien fugirà fugiré fugis fugissin fugit fugits fugiu fugí fugís fuig fuit fujo
+89	989	crítica	crítiques
+90	990	omplir	ompl omple omplen omplert omplerta omplertes omplerts omples ompli omplia omplien omplim omplin omplint ompliran omplirem ompliren ompliria omplirien omplirà ompliré omplis omplissin omplit ompliu omplí omplís
+91	991	vermell	vermella vermelles vermells
+92	992	codi	codis
+93	993	biblioteca	biblioteques
+94	994	jutge	jutges jutgessa jutgesses
+95	995	almenys	
+96	996	descriure	descric descriga descrigui descriguin descrigué descrit descrita descrites descrits descriu descriuen descriuran descriurem descriuria descriurà descrius descrivia descrivien descrivim descrivint descriví
+97	997	pròxim	pròxima pròximes pròxims
+98	998	roig	roges roigs roja rojes rojos
+99	999	torre	torres
+100	1000	corrent	corrents

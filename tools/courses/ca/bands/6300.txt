@@ -1,0 +1,100 @@
+1	6201	refredar	refreda refredada refredades refredant refredarà refredats refredava refreden refredi refredin refredà refredés
+2	6202	insurrecció	insurreccions
+3	6203	pin	pins
+4	6204	espantós	espantosa espantoses espantosos
+5	6205	minvar	minva minvada minvades minvant minvants minvaren minvaria minvat minvats minvava minvaven minven minves minvi minvà minvés
+6	6206	cicatriu	cicatrius
+7	6207	cisterna	cisternes
+8	6208	servent	servents
+9	6209	tossa	tosses
+10	6210	notari	notaris notària
+11	6211	arxivar	arxiva arxivada arxivades arxivant arxivat arxivats arxivava arxiven arxives arxivi
+12	6212	mercantil	mercantils
+13	6213	brutalitat	brutalitats
+14	6214	iniciació	iniciacions
+15	6215	remarcable	remarcables
+16	6216	confecció	confeccions
+17	6217	exempt	exempta exemptes exempts
+18	6218	expectació	expectacions
+19	6219	butaca	butaques
+20	6220	puresa	pureses
+21	6221	sanejament	sanejaments
+22	6222	consolidació	consolidacions
+23	6223	episcopal	episcopals
+24	6224	segador	segadora segadores segadors
+25	6225	noblesa	nobleses
+26	6226	pastanaga	pastanagues
+27	6227	envellir	envelleix envelleixen envelleixi envellia envellida envellides envellim envellint envellit envellits
+28	6228	joieria	joieries
+29	6229	verificació	verificacions
+30	6230	còlera	
+31	6231	localment	
+32	6232	panamà	
+33	6233	primerament	
+34	6234	professionalment	
+35	6235	restabliment	
+36	6236	significativament	
+37	6237	sobra	
+38	6238	validesa	
+39	6239	xenofòbia	
+40	6240	espurna	espurnes
+41	6241	rivalitat	rivalitats
+42	6242	aixeta	aixetes
+43	6243	bústia	bústies
+44	6244	regnar	regnant regnants regnaran regnaren regnaria regnarà regnats regnava regnaven regnen regnes regni regnin regno regnà regnés
+45	6245	emirat	emirats
+46	6246	encobrir	encobert encoberts encobreix encobria encobrint
+47	6247	aventurer	aventurera aventureres aventurers
+48	6248	acampada	acampades
+49	6249	dominicà	dominicana dominicanes dominicans
+50	6250	quirúrgic	quirúrgica quirúrgics quirúrgiques
+51	6251	vehicular	vehicula vehiculada vehiculades vehiculars vehiculat vehiculats vehiculen
+52	6252	estranyar	estranya estranyada estranyaria estranyarà estranyat estranyats estranyava estranyes estranyeu estranyo
+53	6253	pelegrí	pelegrina pelegrines pelegrins
+54	6254	bolígraf	boli bolígrafs
+55	6255	avaria	avaries
+56	6256	aborigen	aborígens
+57	6257	anhel	anhels
+58	6258	embut	embuts
+59	6259	espot	espots
+60	6260	magistral	magistrals
+61	6261	fusionar	fusiona fusionada fusionades fusionant fusionaran fusionaren fusionaria fusionarà fusionat fusionats fusionava fusionaven fusionen fusionessin fusioni fusionin fusionà
+62	6262	lesionar	lesiona lesionada lesionades lesionant lesionat lesionats lesionen lesiones lesionin lesionés
+63	6263	topònim	topònims
+64	6264	intermediari	intermediaris intermediària intermediàries
+65	6265	sintètic	sintètica sintètics sintètiques
+66	6266	auditoria	auditories
+67	6267	tripartit	tripartida tripartits
+68	6268	estendard	estendards
+69	6269	perpetuar	perpetua perpetuada perpetuant perpetuat perpetuava perpetuaven perpetuen perpetuo
+70	6270	cartografia	cartografies
+71	6271	graella	graelles
+72	6272	planter	planters
+73	6273	equivaldre	equival equivaldria equivaldrien equivalen equivalia equivalien
+74	6274	algorisme	algorismes algoritme
+75	6275	estrènyer	estreny estrenyem estrenyen estrenyent estrenyi estrenyia estrenyien estrenyé estretes estrets estrényer
+76	6276	exministre	exministres
+77	6277	dialogar	dialoga dialogada dialogades dialogant dialogarà dialogat dialogats dialogo dialoguem dialoguen dialogues dialogui
+78	6278	edicte	edictes
+79	6279	radioactiu	radioactius radioactiva radioactives
+80	6280	inconstitucional	inconstitucionals
+81	6281	dubtós	dubtosa dubtoses dubtosos
+82	6282	palanca	palanques
+83	6283	aquet	aqueta aquets
+84	6284	simbolisme	simbolismes
+85	6285	oca	oques
+86	6286	ànsia	ànsies
+87	6287	incondicional	incondicionals
+88	6288	alguer	alguers
+89	6289	batle	batles
+90	6290	germanor	germanors
+91	6291	loteria	loteries
+92	6292	internament	internaments
+93	6293	formalitzar	formalitza formalitzada formalitzades formalitzant formalitzaren formalitzat formalitzats formalitzava formalitzen formalitzà formalitzés
+94	6294	secessió	secessions
+95	6295	escòria	escòries
+96	6296	productivitat	productivitats
+97	6297	aeronau	aeronaus
+98	6298	absis	
+99	6299	altrament	
+100	6300	durament	

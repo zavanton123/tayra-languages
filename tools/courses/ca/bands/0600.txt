@@ -1,0 +1,100 @@
+1	501	exèrcit	exèrcits
+2	502	voltant	voltants
+3	503	costa	costes
+4	504	mercat	mercats
+5	505	reconèixer	reconec reconega reconeguda reconegudes reconeguem reconeguera reconegueren reconeguessin reconegui reconeguin reconeguis reconegut reconeguts reconegué reconegués reconeix reconeixem reconeixen reconeixent reconeixeran reconeixereu reconeixeria reconeixerien reconeixerà reconeixes reconeixeu reconeixia reconeixien
+6	506	control	controls
+7	507	mostrar	mostrada mostrades mostrant mostrara mostraran mostrarem mostraren mostraria mostrarien mostrarà mostraràs mostraré mostrat mostrats mostrava mostraven mostre mostrem mostren mostres mostressin mostreu mostri mostrin mostris mostro mostrà mostrés
+8	508	unió	unions
+9	509	aviat	aviats
+10	510	finalment	
+11	511	fons	
+12	512	anomenat	anomenada anomenades anomenats
+13	513	mesura	mesures
+14	514	agafar	agafa agafada agafades agafant agafaran agafarem agafaren agafareu agafaria agafarien agafarà agafaràs agafaré agafaríem agafat agafats agafava agafaven agafaves agafe agafem agafen agafes agafessin agafessis agafeu agafi agafin agafis agafo agafà agafàvem agafés agaféssim gafar
+15	515	experiència	experiències
+16	516	desenvolupament	desenvolupaments
+17	517	produir	produeix produeixen produeixi produeixin produint produiran produiria produirien produirà produí produís produïa produïda produïdes produïen produïm produïra produïren produïsca produïsquen produïssin produït produïts produïx produïxen
+18	518	aturar	atura aturada aturades aturant aturara aturaran aturarem aturaren aturareu aturaria aturarien aturarà aturaré aturat aturats aturau aturava aturaven aturem aturen atures aturessin atureu aturi aturin aturis aturo aturà aturés
+19	519	just	justa justes justos justs
+20	520	valor	valors
+21	521	base	bases
+22	522	tampoc	
+23	523	comú	comuna comunes comuns
+24	524	demostrar	demostra demostrada demostrades demostrant demostraran demostrarem demostraren demostraria demostrarien demostrarà demostraré demostrat demostrats demostrava demostraven demostre demostrem demostren demostres demostressin demostreu demostri demostrin demostris demostro demostrà demostrés
+25	525	sèrie	sèries
+26	526	quilòmetre	kilòmetre km quilòmetres
+27	527	llum	llums
+28	528	viatge	viatges
+29	529	associació	associacions
+30	530	obtenir	obtenen obtengut obtenguts obtengué obtenia obtenien obtenim obtenint obteniu obtens obtinc obtindran obtindrem obtindria obtindrien obtindrà obtindràs obtindré obtindríem obtinga obtinguda obtingudes obtinguem obtinguera obtingueren obtingues obtinguessin obtingui obtinguin obtingut obtinguts obtingué obtingués obté obtén
+31	531	oportunitat	oportunitats
+32	532	gener	
+33	533	mitjançant	
+34	534	americà	americana americanes americans
+35	535	situar	situa situada situades situant situaran situaren situaria situarien situarà situaríem situat situats situava situaven situe situem situen situessin situeu situà situés situï situïn
+36	536	riu	rius
+37	537	entitat	entitats
+38	538	accés	accessos
+39	539	visitar	visitada visitades visitant visitants visitaran visitarem visitaren visitaria visitarien visitarà visitaràs visitaré visitat visitats visitava visitaven visite visitem visiten visites visitessin visiteu visiti visitin visitis visito visità visités
+40	540	fàcil	fàcils
+41	541	natural	naturals
+42	542	mestre	mestra mestres
+43	543	color	colors
+44	544	gaudir	gaudeix gaudeixen gaudeixes gaudeixi gaudeixin gaudeixis gaudeixo gaudia gaudida gaudien gaudim gaudint gaudiran gaudirem gaudiren gaudiria gaudirien gaudirà gaudiràs gaudiré gaudisc gaudissin gaudit gaudits gaudiu gaudix gaudixen gaudí gaudís
+45	545	pujar	puge pugem pugen puges pugessin pugeu pugi pugin pugis pugés puja pujada pujades pujant pujaran pujarem pujaren pujaria pujarien pujarà pujaràs pujaré pujat pujats pujau pujava pujaven pujo pujà
+46	546	evitar	evita evitada evitades evitant evitaran evitarem evitaren evitaria evitarien evitarà evitaràs evitat evitats evitava evitaven evitem eviten evitessin eviteu eviti evitin evito evità evités
+47	547	anterior	anteriors
+48	548	independència	independències
+49	549	capital	capitals
+50	550	malgrat	
+51	551	difícil	difícils
+52	552	preu	preus
+53	553	esquerra	esquerres
+54	554	festival	festivals
+55	555	teatre	teatres
+56	556	marxa	marxes
+57	557	estudiant	estudiants
+58	558	establir	estableix estableixen estableixi estableixin establert establerta establertes establerts establia establida establides establien establim establint establira establiran establirem establiren establiria establirien establirà establisca establisquen establissin establit establits establiu establix establixen establí establís
+59	559	qüestió	qüestions
+60	560	afegir	afegeix afegeixen afegeixes afegeixi afegeixin afegeixis afegeixo afegia afegida afegides afegien afegim afegint afegiran afegirem afegiren afegiria afegirien afegirà afegiré afegissin afegit afegits afegiu afegix afegixen afegí afegís afig afigen
+61	561	informar	informa informada informades informant informaran informarem informaren informaria informarà informaré informat informats informava informaven informem informen informes informessin informessis informeu informi informin informis informo informà informés
+62	562	debat	debats
+63	563	interior	interiors
+64	564	protegir	protegeix protegeixen protegeixes protegeixi protegeixin protegeixis protegeixo protegia protegida protegides protegien protegim protegint protegiran protegirem protegiren protegiria protegirien protegirà protegiré protegisca protegisquen protegissin protegit protegits protegiu protegix protegí protegís
+65	565	publicació	publicacions
+66	566	son	sa sana sanes sans ses sons sos
+67	567	marxar	marxant marxants marxaran marxarem marxaren marxareu marxaria marxarien marxarà marxaràs marxaré marxaríem marxat marxava marxaven marxaves marxe marxem marxen marxes marxessin marxeu marxi marxin marxis marxo marxà marxàvem marxés
+68	568	artista	artistes
+69	569	institut	instituts
+70	570	producte	productes
+71	571	proposta	propostes
+72	572	missatge	missatges
+73	573	existir	existeix existeixen existeixes existeixi existeixin existeixo existia existien existim existint existira existiran existiren existiria existirien existirà existisca existisquen existissin existit existix existixen existí existís
+74	574	jugador	jugadora jugadores jugadors
+75	575	actualment	
+76	576	vosaltres	
+77	577	ministre	ministra ministres
+78	578	relacionar	relacion relaciona relacionada relacionades relacionant relacionaran relacionaria relacionarien relacionarà relacionat relacionats relacionava relacionaven relacionem relacionen relaciones relacionessin relacioni relacionin relacionis relacionà relacionés
+79	579	municipi	municipis
+80	580	acceptar	accepta acceptada acceptades acceptam acceptant acceptara acceptaran acceptarem acceptaren acceptaria acceptarien acceptarà acceptaràs acceptaré acceptat acceptats acceptava acceptaven accepte acceptem accepten acceptes acceptessin accepteu accepti acceptin acceptis accepto acceptà acceptés
+81	581	cor	cors corsa corses corsos
+82	582	parc	parca parcs parques
+83	583	decisió	decisions
+84	584	entrevista	entrevistes
+85	585	diputat	diputada diputades diputats
+86	586	pena	penes
+87	587	assegurar	assegura assegurada assegurades assegurant asseguraran assegurarem asseguraren assegurareu asseguraria assegurarien assegurarà assegurat assegurats assegurava asseguraven assegure assegurem asseguren assegures asseguressin assegureu asseguri assegurin asseguris asseguro assegurà assegurés
+88	588	especialment	
+89	589	pel·lícula	
+90	590	sort	
+91	591	sovint	
+92	592	títol	títols
+93	593	veí	veïna veïnes veïns
+94	594	edat	edats
+95	595	sector	sectors
+96	596	vi	vins
+97	597	assassinat	assassinada assassinades assassinats
+98	598	companyia	companyies
+99	599	estimar	estim estima estimada estimades estimam estimant estimaran estimaren estimaria estimarà estimaràs estimaré estimats estimava estimaven estimaves estime estimem estimen estimes estimessin estimeu estimi estimin estimis estimo estims estimà estimàvem estimés
+100	600	nació	nacions

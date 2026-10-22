@@ -1,0 +1,100 @@
+1	2201	campament	campaments
+2	2202	sorprenent	sorprenents
+3	2203	suma	sumes
+4	2204	cognom	cognoms
+5	2205	moto	motos
+6	2206	financer	financeres financers
+7	2207	galeria	galeries
+8	2208	queixa	queixes
+9	2209	seriós	seriosa serioses seriosos
+10	2210	animació	animacions
+11	2211	sal	sals
+12	2212	felicitar	felicita felicitada felicitant felicitats felicitava felicitem feliciten felicites feliciteu felicito felicità
+13	2213	piscina	piscines
+14	2214	arquitecte	arquitecta arquitectes
+15	2215	empresonar	empresona empresonada empresonades empresonant empresonaren empresonat empresonats empresonava empresonaven empresonen empresonessin empresoni empresonà
+16	2216	cama	cames cameta cametes
+17	2217	quadre	quadres quadro
+18	2218	desprès	despresa despreses despresos
+19	2219	arròs	arrossos
+20	2220	armat	armades armats
+21	2221	mot	mots
+22	2222	suec	sueca suecs sueques
+23	2223	presidir	presideix presideixen presidia presidida presidides presidien presidint presidiran presidiren presidiria presidirà presidit presidits presidix presidí presidís
+24	2224	lema	lemes
+25	2225	aprovació	aprovacions
+26	2226	agricultura	agricultures
+27	2227	fàcilment	
+28	2228	llàstima	
+29	2229	oficialment	
+30	2230	precisament	
+31	2231	contactar	contacta contactada contactades contactant contactarem contactaren contactaria contactarà contactat contactats contactava contactaven contactem contacten contactes contactessin contacteu contacti contacto contactà contactés
+32	2232	sucre	sucres
+33	2233	urgent	urgents
+34	2234	cim	cims
+35	2235	descans	descansos
+36	2236	ciclista	ciclistes
+37	2237	autoritzar	autoritza autoritzada autoritzades autoritzant autoritzaren autoritzaria autoritzarà autoritzat autoritzats autoritzava autoritzaven autoritze autoritzen autoritzessin autoritzi autoritzin autoritzo autoritzà autoritzés
+38	2238	univers	universos
+39	2239	espasa	espases
+40	2240	sostenible	sostenibles
+41	2241	índex	índexs
+42	2242	variar	varia variada variades variaran variaria variarà variat variats variava variaven variem varien varies varii vario varià variï variïn
+43	2243	localitat	localitats
+44	2244	promesa	promeses
+45	2245	agradable	agradables
+46	2246	verge	verges
+47	2247	reproducció	reproduccions
+48	2248	significat	significada significades significats
+49	2249	destrucció	destruccions
+50	2250	innocent	innocents
+51	2251	ombra	ombres
+52	2252	localitzar	localitza localitzada localitzades localitzant localitzaren localitzaria localitzarà localitzat localitzats localitzava localitzaven localitzem localitzen localitzi localitzà localitzés
+53	2253	anònim	anònima anònimes anònims
+54	2254	incident	incidents
+55	2255	comandament	comandaments
+56	2256	lladre	lladres
+57	2257	mobilitat	mobilitats
+58	2258	arrestar	arresta arrestada arrestades arrestant arrestaren arrestat arrestats arresten arrestessin arresti arrestin arresto arrestà arrestés
+59	2259	benestar	
+60	2260	endemà	
+61	2261	solament	
+62	2262	emperador	emperadors emperadriu emperadrius
+63	2263	curiositat	curiositats
+64	2264	financera	financeres
+65	2265	corresponent	corresponents
+66	2266	bord	borda bordes bords
+67	2267	potència	potències
+68	2268	catedral	catedrals
+69	2269	pagament	pagaments
+70	2270	all	alls
+71	2271	atrapar	atrapa atrapada atrapades atrapant atraparan atraparem atraparia atraparien atrapat atrapats atrapava atrapaven atrapem atrapen atrapes atrapessin atrapeu atrapi atrapin atrapo atrapà atrapés
+72	2272	sostre	sostres
+73	2273	mina	mines
+74	2274	modificació	modificacions
+75	2275	criteri	criteris
+76	2276	noruec	noruecs noruega noruegues
+77	2277	samarreta	samarretes
+78	2278	dinàmic	dinàmica dinàmics dinàmiques
+79	2279	passió	passions
+80	2280	instal·lar	instal
+81	2281	petó	petons
+82	2282	esquena	esquenes
+83	2283	rebuig	rebuigs rebutjos
+84	2284	fotògraf	fotògrafa fotògrafes fotògrafs
+85	2285	ofici	oficis
+86	2286	bossa	bosses
+87	2287	alliberament	alliberaments
+88	2288	capdavant	
+89	2289	evidentment	
+90	2290	personalment	
+91	2291	únicament	
+92	2292	boig	boges boigs boja bojos
+93	2293	exclusiu	exclusius exclusiva exclusives
+94	2294	delegat	delegada delegades delegats
+95	2295	diferenciar	diferencia diferenciada diferenciades diferenciant diferenciaran diferenciaren diferenciaria diferenciarà diferenciat diferenciats diferenciava diferenciaven diferenciem diferencien diferencies diferencià diferenciés diferenciï diferenciïn
+96	2296	química	químiques
+97	2297	restauració	restauracions
+98	2298	pou	pous
+99	2299	caracteritzar	caracteritza caracteritzada caracteritzades caracteritzant caracteritzaran caracteritzaren caracteritzaria caracteritzarien caracteritzarà caracteritzat caracteritzats caracteritzava caracteritzaven caracteritzen caracteritzi caracteritzà
+100	2300	ofensiu	ofensius ofensiva ofensives

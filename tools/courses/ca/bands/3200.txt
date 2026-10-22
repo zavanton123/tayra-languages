@@ -1,0 +1,100 @@
+1	3101	infinit	infinita infinites infinits
+2	3102	vulnerable	vulnerables
+3	3103	expulsió	expulsions
+4	3104	dominant	dominants
+5	3105	aparcament	aparcaments
+6	3106	oliva	olives
+7	3107	granada	granades
+8	3108	ampliació	ampliacions
+9	3109	polonès	polonesa poloneses polonesos polonés
+10	3110	feminisme	feminismes
+11	3111	terç	terços
+12	3112	dol	dols
+13	3113	allargar	allarga allargada allargades allargant allargaran allargaren allargaria allargarien allargarà allargaré allargat allargats allargava allargaven allarguen allargues allargui allarguin allargués allargà
+14	3114	robot	robots
+15	3115	fantasia	fantasies
+16	3116	reputació	reputacions
+17	3117	llogar	lloga llogada llogades llogant llogaren llogat llogats llogava llogaven lloguen llogues lloguin llogués llogà
+18	3118	supervivència	supervivències
+19	3119	efectivament	
+20	3120	il·lustració	
+21	3121	leo	
+22	3122	públicament	
+23	3123	sol·licitar	
+24	3124	dissenyador	dissenyadora dissenyadores dissenyadors
+25	3125	vigent	vigents
+26	3126	secretar	secreta secretada secretades secretant secretaria secretaries secretat secretats secreten secretes secreto
+27	3127	dosi	dosis
+28	3128	reconstruir	reconstrueix reconstrueixen reconstrueixi reconstruint reconstruirà reconstruí reconstruís reconstruïa reconstruïda reconstruïdes reconstruïm reconstruïren reconstruït reconstruïts
+29	3129	hort	horts
+30	3130	sospitós	sospitosa sospitoses sospitosos
+31	3131	àcid	àcida àcides àcids
+32	3132	dramàtic	dramàtica dramàtics dramàtiques
+33	3133	espantar	espanta espantada espantades espantant espantarà espantat espantats espantava espantaven espantem espanten espantes espanteu espanti espantis espanto espantà espantés
+34	3134	ritual	rituals
+35	3135	remei	remeis
+36	3136	reglament	reglaments
+37	3137	autopista	autopistes
+38	3138	separació	separacions
+39	3139	regulació	regulacions
+40	3140	gra	grans
+41	3141	oliver	olivers
+42	3142	vesprada	vesprades
+43	3143	concessió	concessions
+44	3144	savi	savis sàvia sàvies
+45	3145	mosso	mossa mosses mosset mossos
+46	3146	fantasma	fantasmes
+47	3147	menció	mencions
+48	3148	mundar	mund mundi mundo
+49	3149	honest	honesta honestes honestos honests
+50	3150	renovació	renovacions
+51	3151	blat	blats
+52	3152	pregar	prega pregant pregaren pregaria pregaries pregaré pregat pregava pregaven prego pregue preguem preguen pregueu pregui preguin pregués pregà
+53	3153	contaminar	contamina contaminada contaminades contaminant contaminants contaminat contaminats contaminava contaminaven contamine contaminen contamines contamini
+54	3154	narrativa	narratives
+55	3155	terratrèmol	terratrèmols
+56	3156	gastronomia	gastronomies
+57	3157	mobilitzar	mobilitza mobilitzada mobilitzades mobilitzant mobilitzaren mobilitzaria mobilitzarà mobilitzat mobilitzats mobilitzava mobilitzaven mobilitzem mobilitzen mobilitzeu mobilitzi mobilitzin mobilitzà mobilitzés
+58	3158	tràfic	tràfics
+59	3159	masclista	masclistes
+60	3160	queixar	queixe queixàs
+61	3161	natal	natals
+62	3162	convencional	convencionals
+63	3163	cultiu	cultius
+64	3164	mortal	mortals
+65	3165	centenari	centenaris centenària centenàries
+66	3166	herència	herències
+67	3167	paradís	paradisos
+68	3168	vigor	vigors
+69	3169	as	asos
+70	3170	estabilitat	estabilitats
+71	3171	enhorabona	
+72	3172	natació	
+73	3173	consens	consensos
+74	3174	pecat	pecats
+75	3175	conquerir	conquereix conquereixen conqueria conquerida conquerides conquerien conquerim conquerint conqueriren conqueriria conquerirà conquerissin conquerit conquerits conquerí
+76	3176	joguina	joguines
+77	3177	moderat	moderada moderades moderats
+78	3178	marea	marees
+79	3179	bla	blan blana blanes blans
+80	3180	botó	botons
+81	3181	aplegar	aplega aplegada aplegades aplegant aplegaren aplegaria aplegarà aplegat aplegats aplegava aplegaven aplego aplegue apleguem apleguen aplegués aplegà
+82	3182	operador	operadora operadores operadors
+83	3183	invisible	invisibles
+84	3184	angle	angla angles
+85	3185	determinació	determinacions
+86	3186	rector	rectora rectores rectors
+87	3187	argumentar	argumenta argumentada argumentades argumentant argumentaren argumentat argumentats argumentava argumentaven argumenten argumento argumentà
+88	3188	captar	capta captada captades captant captarà captat captats captava captaven captem capten captes capti captin capto captà
+89	3189	hajar	hagem hagen hages hageu hagés haja hajam hajau
+90	3190	cava	caves
+91	3191	aparença	aparences
+92	3192	saga	sagues
+93	3193	enamorar	enamora enamorada enamorades enamorant enamoraren enamoraria enamorarà enamoraràs enamorats enamorava enamoren enamores enamori enamorin enamoris enamoro enamorà enamorés
+94	3194	reformar	reformada reformades reformant reformaran reformarem reformaren reformaria reformarà reformat reformats reformava reformem reformen reformes reformi reformà
+95	3195	caire	caires
+96	3196	perjudicar	perjudica perjudicada perjudicades perjudicant perjudicaren perjudicaria perjudicarà perjudicat perjudicats perjudicava perjudicaven perjudicà perjudiquen perjudiqui perjudiquin perjudiqués
+97	3197	redactar	redacta redactada redactades redactant redactaren redactaria redactarà redactat redactats redactava redactaven redacten redacti redactà redactés
+98	3198	dictador	dictadors
+99	3199	acer	acers
+100	3200	lliurament	lliuraments

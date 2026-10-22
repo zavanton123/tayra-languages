@@ -1,0 +1,100 @@
+1	1601	interpretació	interpretacions
+2	1602	complicat	complicada complicades complicats
+3	1603	practicar	practica practicada practicades practicant practicants practicaren practicaria practicarà practicat practicats practicava practicaven practico practicà practique practiquem practiquen practiques practiquessin practiqueu practiqui practiquin practiqués
+4	1604	sumar	sumada sumades sumant sumaran sumaren sumaria sumarien sumarà sumat sumats sumava sumaven sumem sumen sumes sumessin sumeu sumi sumin sumis sumo sumà sumés
+5	1605	universal	universals
+6	1606	juvenil	juvenils
+7	1607	parlamentari	parlamentaris parlamentària parlamentàries
+8	1608	emoció	emocions
+9	1609	reflexió	reflexions
+10	1610	comprometre	compromesa compromeses compromesos compromet comprometem comprometen comprometent comprometeren comprometessin comprometeu comprometi comprometia comprometien comprometin comprometo comprometria comprometrien comprometrà compromets comprometé comprometés compromès
+11	1611	individu	individus
+12	1612	muntar	munta muntada muntades muntana muntanes muntant muntants muntaran muntaren muntaria muntarien muntarà muntaré muntat muntats muntava muntaven munte muntem munten muntes muntessin munteu munti muntin muntis munto muntà muntés
+13	1613	vora	vores
+14	1614	travessar	travessa travessada travessades travessant travessaran travessarem travessaren travessaria travessarà travessat travessats travessava travessaven travesse travessem travessen travesses travessessin travesseu travessi travessin travesso travessà travessés travès
+15	1615	capità	capitana capitanes capitans
+16	1616	cometre	comesa comeses comesos comet cometem cometen cometent cometeren cometessin cometeu cometi cometia cometien cometin cometis cometo cometran cometrem cometria cometrà cometré comets cometé cometés comès
+17	1617	deute	deutes
+18	1618	adequat	adequada adequades adequats
+19	1619	reu	rea rees reus
+20	1620	religió	religions
+21	1621	informatiu	informatius informativa informatives
+22	1622	inspirar	inspira inspirada inspirades inspirant inspiraran inspiraren inspiraria inspirarien inspirarà inspirat inspirats inspirava inspiraven inspiren inspiressin inspiri inspirà inspirés
+23	1623	poeta	poetes
+24	1624	assistència	assistències
+25	1625	alçada	alçades
+26	1626	valent	valenta valentes valents
+27	1627	manifest	manifesta manifestes manifestos manifests
+28	1628	malalt	malalta malaltes malalts
+29	1629	aliment	aliments
+30	1630	regular	regula regulada regulades regulant regulares regularia regulars regularà regulat regulats regulava regulaven regulen regules regulessin reguli regulin regulà regulés
+31	1631	periodisme	
+32	1632	refugiat	refugiada refugiades refugiats
+33	1633	estadi	estadis
+34	1634	promoció	promocions
+35	1635	dubtar	dubt dubta dubtant dubtaran dubtaren dubtaria dubtarà dubtaré dubtat dubtava dubtaven dubtem dubten dubtes dubteu dubti dubtin dubtis dubto dubtà dubtés
+36	1636	gira	gires
+37	1637	intens	intensa intenses intensos
+38	1638	veritable	veritables
+39	1639	guia	guies
+40	1640	neu	neus
+41	1641	mida	mides
+42	1642	ingrés	ingressos
+43	1643	analitzar	analitza analitzada analitzades analitzant analitzaran analitzarem analitzaren analitzaria analitzarà analitzat analitzats analitzava analitzaven analitzem analitzen analitzes analitzessin analitzeu analitzi analitzin analitzo analitzà analitzés
+44	1644	competència	competències
+45	1645	dispositiu	dispositius dispositiva
+46	1646	nacionalista	nacionalistes
+47	1647	conte	contes
+48	1648	liderar	lider lidera liderada liderades liderant lideraren lideraria liderarà liderat liderats liderava lideraven lideren lideresses lideri lidero liderà liderés
+49	1649	vigilar	vigila vigilada vigilades vigilant vigilants vigilaran vigilarem vigilaria vigilarà vigilaré vigilat vigilats vigilava vigilaven vigile vigilem vigilen vigiles vigilessin vigileu vigili vigilin vigilis vigilo vigilà vigilés
+50	1650	eixe	eixa eixes eixos
+51	1651	portaveu	portaveus
+52	1652	moral	morals
+53	1653	consistir	consisteix consisteixen consisteixi consistia consistien consistint consistiren consistiria consistirien consistirà consistit consistix consistixen consistí consistís
+54	1654	consciència	consciències
+55	1655	adquirir	adquireix adquireixen adquireixi adquireixin adquiria adquirida adquirides adquirien adquirim adquirint adquirira adquiriran adquiriren adquiriria adquiririen adquirirà adquirisquen adquirissin adquirit adquirits adquirix adquirixen adquirí adquirís
+56	1656	ei	
+57	1657	igualment	
+58	1658	masculí	masculina masculines masculins
+59	1659	arrel	arrels rel
+60	1660	transformar	transforma transformada transformades transformant transformaran transformaren transformaria transformarien transformarà transformat transformats transformava transformaven transformem transformen transformessin transformi transformin transformà transformés
+61	1661	recórrer	recorre recorreguda recorregudes recorregueren recorreguessin recorreguts recorregué recorregués recorrem recorren recorrent recorreran recorrerem recorreria recorrerien recorrerà recorreu recorri recorria recorrien recorrin
+62	1662	alertar	alerta alertada alertades alertant alertaren alertarà alertat alertats alertava alertaven alerten alertes alertà alertés
+63	1663	genial	genials
+64	1664	ferro	ferros
+65	1665	imperi	imperis
+66	1666	ronda	rda rondes
+67	1667	plantar	plantada plantades plantant plantaren plantaria plantars plantarà plantaré plantat plantats plantava plantaven plantem planten plantes plantessin planti plantin plantis planto plantà plantés
+68	1668	primari	primaris primària primàries
+69	1669	cabell	cabells
+70	1670	massiu	massius massiva massives
+71	1671	finalitzar	finalitza finalitzada finalitzades finalitzant finalitzaran finalitzaren finalitzaria finalitzarien finalitzarà finalitzat finalitzats finalitzava finalitzaven finalitzem finalitzen finalitzessin finalitzi finalitzin finalitzà finalitzés
+72	1672	combatre	combatem combaten combatent combatents combateren combati combatia combatien combatrem combatrà combats combatuda combatudes combatut combatuts combaté
+73	1673	brut	bruta brutes bruts
+74	1674	saltar	salta saltada saltades saltant saltants saltaran saltarem saltaren saltaria saltarà saltaré saltat saltats saltava saltaven saltem salten saltes saltessin salteu salti saltin saltis salto saltà saltés
+75	1675	ballar	balla ballada ballades ballant ballaran ballarem ballaren ballaria ballarà ballaràs ballat ballats ballava ballaven ballem ballen balles ballessin balleu balli ballin ballis ballo ballà ballàvem ballés
+76	1676	reportatge	reportatges
+77	1677	retorn	retorns
+78	1678	violar	viola violada violades violant violaren violaria violarien violarà violat violats violava violaven viole violen violes violi violin violins violà violés violí
+79	1679	disparar	dispar dispara disparada disparades disparant dispararan dispararen dispararia dispararien dispararà disparat disparats disparava disparaven disparem disparen dispares disparessin dispareu dispari disparin disparis disparo dispars disparà disparés
+80	1680	administratiu	administratius administrativa administratives
+81	1681	humanitat	humanitats
+82	1682	admetre	admesa admeses admesos admet admetem admeten admetent admeteren admetessin admeti admetia admetien admetin admeto admetran admetrem admetria admetrà admets admeté admetés admès
+83	1683	comunicar	comunic comunica comunicada comunicades comunicant comunicants comunicaren comunicaria comunicarà comunicaré comunicats comunicava comunicaven comunico comunicà comuniquem comuniquen comuniquessin comuniqueu comuniqui comuniquin comuniqués
+84	1684	comportament	comportaments
+85	1685	consum	consums
+86	1686	obertura	apertura obertures
+87	1687	terrorista	terroristes
+88	1688	calor	calors
+89	1689	cua	coa cues cueta cuetes
+90	1690	executar	executa executada executades executant executants executaran executaren executaria executarien executarà executat executats executava executaven executem executen executessin executeu executi executin executà executés
+91	1691	detenir	detenen detengut detenia detenien detenim detenint detindran detindre detindrem detindria detindrà detindré detinga detinguda detingudes detinguem detingueren detinguessin detingui detinguin detinguts detingué detingués deté detén
+92	1692	despesa	despeses
+93	1693	elaborar	elabora elaborada elaborades elaborant elaboraran elaboraren elaboraria elaborarà elaborat elaborats elaborava elaboraven elaboren elaboressin elabori elaborin elaborà elaborés
+94	1694	correspondre	correspon correspondran correspondria correspondrien correspondrà corresponen corresponga correspongueren corresponguessin correspongui corresponguin correspongué correspongués corresponia corresponien correspost corresposta correspostos
+95	1695	gros	grossa grosses grossos
+96	1696	fundar	funda fundada fundades fundant fundaran fundaren fundaria fundarien fundarà fundat fundats fundava fundaven funde funden fundes fundessin fundi fundà fundés
+97	1697	taxa	taxes
+98	1698	mentir	menteix menteixen menteixes menteixi menteixin menteixis menteixo menten menti mentia mentides mentien mentim mentint mentira mentires mentiria mentirà mentiré mentis mentit mentiu mentix mento ments mentís
+99	1699	llicència	llicències
+100	1700	refugiar	refugia refugiada refugiades refugiant refugiaren refugiats refugiava refugiaven refugien refugio refugià refugiés

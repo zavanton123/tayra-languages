@@ -1,0 +1,100 @@
+1	3801	autodeterminació	
+2	3802	bravo	
+3	3803	comprensió	
+4	3804	rellevància	
+5	3805	ripoll	
+6	3806	òbviament	
+7	3807	còmplice	còmplices
+8	3808	imperial	imperials
+9	3809	misteriós	misteriosa misterioses misteriosos
+10	3810	préstec	préstecs
+11	3811	conquesta	conquestes
+12	3812	vertical	verticals
+13	3813	tèrmic	tèrmica tèrmics tèrmiques
+14	3814	entreteniment	entreteniments
+15	3815	saquejar	saquegen saqueja saquejada saquejades saquejant saquejaren saquejat saquejats saquejava saquejaven saquejà
+16	3816	galeta	galetes
+17	3817	terminal	terminals
+18	3818	migració	migracions
+19	3819	emigrar	emigra emigrada emigrades emigrant emigrants emigraren emigrat emigrats emigrava emigraven emigren emigressin emigrin emigrà
+20	3820	modernista	modernistes
+21	3821	roure	rou roures rous
+22	3822	terrestre	terrestres
+23	3823	plànol	plànols
+24	3824	efectuar	efectua efectuada efectuades efectuant efectuaran efectuaren efectuaria efectuarà efectuat efectuats efectuava efectuaven efectuen efectuessin efectuà efectués efectuï efectuïn
+25	3825	successió	successions
+26	3826	topar	topa topada topades topant toparen toparà topat topava topaven tope topem topen topes topi topo topà
+27	3827	filtrar	filtra filtrada filtrades filtrant filtrants filtrat filtrats filtrava filtraven filtren filtres filtri filtro filtrés
+28	3828	harmonia	harmonies
+29	3829	indonesi	indonesis indonèsia indonèsies
+30	3830	processó	processons
+31	3831	esquí	esquís
+32	3832	coreà	coreana coreanes coreans
+33	3833	debut	debuts
+34	3834	nan	nana nanes nans
+35	3835	rigor	rigors
+36	3836	tàctica	tàctiques
+37	3837	goma	gomes
+38	3838	priorat	priorats
+39	3839	magnitud	magnituds
+40	3840	condicionar	condiciona condicionada condicionades condicionant condicionants condicionaren condicionaria condicionarà condicionat condicionats condicionava condicionaven condicionen condiciones condicioni condicionin condicionà
+41	3841	paella	paelles
+42	3842	telecomunicació	telecomunicacions
+43	3843	incertesa	incerteses
+44	3844	tòxic	tòxica tòxics tòxiques
+45	3845	ceba	cebes
+46	3846	especialitat	especialitats
+47	3847	tristesa	tristeses
+48	3848	dependent	dependenta dependentes dependents
+49	3849	impressionar	impressiona impressionada impressionades impressionat impressionats impressionava impressionaven impressionen impressiones impressioni impressionà
+50	3850	entusiasme	entusiasmes
+51	3851	bloqueig	bloqueigs bloquejos
+52	3852	errada	errades
+53	3853	encant	encants
+54	3854	totalitat	totalitats
+55	3855	portàtil	portàtils
+56	3856	solter	soltera solteres solters
+57	3857	cohesió	
+58	3858	lleugerament	
+59	3859	parcialment	
+60	3860	valentia	
+61	3861	molèstia	molèsties
+62	3862	gallina	gallines gallineta
+63	3863	expandir	expandeix expandeixen expandeixi expandeixin expandia expandida expandides expandien expandint expandiren expandiria expandirà expandit expandits expandí expandís
+64	3864	piular	piula piulades piulant piulat piulats piulava piulem piulen piulo
+65	3865	embaràs	embarassos
+66	3866	decebre	deceben decebent decebrem decebrà decebuda decebudes decebut decebuts decep
+67	3867	incorporació	incorporacions
+68	3868	batlle	batlles batllessa
+69	3869	periodístic	periodística periodístics periodístiques
+70	3870	repertori	repertoris
+71	3871	curar	curada curades curant curaran curaria curarien curarà curaré curat curats curava curaven curem curen cures curi curin curis curo curà curés
+72	3872	vergonyós	vergonyosa vergonyoses vergonyosos
+73	3873	aterrar	aterra aterrada aterrades aterrant aterrarem aterraren aterrarà aterrat aterrats aterrava aterraven aterrem aterren aterressin aterri aterrin aterro aterrà aterrés
+74	3874	cimera	cimeres
+75	3875	menyspreu	menyspreus
+76	3876	setè	setena setenes setens seté
+77	3877	bolet	bolets
+78	3878	cruel	cruels
+79	3879	míssil	míssils
+80	3880	om	olm oms
+81	3881	llur	llurs
+82	3882	assignatura	assignatures
+83	3883	precisió	precisions
+84	3884	exhibir	exhibeix exhibeixen exhibeixi exhibeixin exhibia exhibida exhibides exhibien exhibint exhibiran exhibiren exhibirà exhibissin exhibit exhibits exhibí exhibís
+85	3885	perpetu	perpetus perpètua perpètues
+86	3886	teulada	teulades
+87	3887	exploració	exploracions
+88	3888	exiliat	exiliada exiliades exiliats
+89	3889	emmarcar	emmarca emmarcada emmarcades emmarcant emmarcaria emmarcat emmarcats emmarcava emmarcaven emmarcà emmarquen
+90	3890	tel	tels
+91	3891	sirià	siriana sirianes sirians
+92	3892	maniobra	maniobres
+93	3893	manta	mantes
+94	3894	descàrrega	descàrregues
+95	3895	noció	nocions
+96	3896	passadís	passadissos
+97	3897	tolerància	toleràncies
+98	3898	sènior	sèniors
+99	3899	vaticà	vaticana vaticanes vaticans
+100	3900	occità	occitana occitanes occitans

@@ -1,0 +1,100 @@
+1	5901	ració	racions
+2	5902	televisor	televisors
+3	5903	timbre	timbres
+4	5904	intimidar	intimida intimidada intimidant intimidat intimidats intimidava intimidaven intimiden
+5	5905	llicenciar	llicencia llicenciada llicenciades llicenciant llicenciats llicencien llicencies llicencià
+6	5906	tendresa	tendreses
+7	5907	bit	bits
+8	5908	decoratiu	decoratius decorativa decoratives
+9	5909	veneçolà	veneçolana veneçolanes veneçolans
+10	5910	congost	congostos congosts
+11	5911	autenticitat	
+12	5912	contraban	
+13	5913	culpabilitat	
+14	5914	cèl·lula	
+15	5915	impactant	impactants
+16	5916	fitxatge	fitxatges
+17	5917	marbre	marbres
+18	5918	insignificant	insignificants
+19	5919	indecent	indecents
+20	5920	impremta	impremtes
+21	5921	arsenal	arsenals
+22	5922	penetració	penetracions
+23	5923	estaca	estaques
+24	5924	dron	drons
+25	5925	ingenu	ingenus ingènua ingènues
+26	5926	encarnar	encarna encarnada encarnades encarnant encarnaria encarnarà encarnat encarnats encarnava encarnaven encarnen encarni encarnà
+27	5927	rotar	rota rotant rotat rotava rotaven rotem roten rotes roti roto rotés
+28	5928	ridiculitzar	ridiculitza ridiculitzada ridiculitzades ridiculitzant ridiculitzat ridiculitzats ridiculitzava ridiculitzaven ridiculitzen
+29	5929	verí	verins
+30	5930	aranya	aranyes aranyetes
+31	5931	golejador	golejadora golejadores golejadors
+32	5932	pallissa	pallisses
+33	5933	casella	caselles
+34	5934	islamista	islamistes
+35	5935	encallar	encalla encallada encallades encallat encallats encallava encallen encalli
+36	5936	tort	torta tortes torts
+37	5937	plec	plecs
+38	5938	portador	portadora portadores portadors
+39	5939	malvat	malvada malvades malvats
+40	5940	tova	toves
+41	5941	boicotejar	boicotegen boicoteja boicotejada boicotejades boicotejant boicotejaren boicotejat boicotejats
+42	5942	patriòtic	patriòtica patriòtics patriòtiques
+43	5943	barbacoa	barbacoes
+44	5944	xut	xuts
+45	5945	intermedi	intermedis intermèdia intermèdies
+46	5946	interactuar	interactua interactuant interactuat interactuava interactuaven interactuen interactuï interactuïn
+47	5947	encert	encerts
+48	5948	rètol	rètols
+49	5949	calvari	calvaris
+50	5950	mullar	mulla mullada mullades mullant mullarem mullats mullava mullaven mullem mullen mulli mullin mullis mullo mullà
+51	5951	fondo	fondes fondos
+52	5952	vampir	vampira vampires vampirs
+53	5953	borratxo	borratxa borratxes borratxos
+54	5954	hàbil	hàbils
+55	5955	costella	costelles
+56	5956	irrellevant	irrellevants
+57	5957	implantació	implantacions
+58	5958	embrutar	embruta embrutada embrutant embrutat embrutava embruten embruti embrutin
+59	5959	mitjó	mitjons
+60	5960	neutre	neutra neutres
+61	5961	oïda	oïdes
+62	5962	esquadró	esquadrons
+63	5963	espionatge	espionatges
+64	5964	labor	labors
+65	5965	duració	duracions
+66	5966	cognitiu	cognitius cognitiva cognitives
+67	5967	desviació	desviacions
+68	5968	controlador	controladora controladores controladors
+69	5969	consensuar	consensua consensuada consensuades consensuat consensuats consensuen
+70	5970	estam	estams
+71	5971	abolició	
+72	5972	arrogància	
+73	5973	explícitament	
+74	5974	fermesa	
+75	5975	gentada	
+76	5976	novel·lista	
+77	5977	prudència	
+78	5978	rerefons	
+79	5979	robòtica	
+80	5980	particularitat	particularitats
+81	5981	discrepar	discrepa discrepant discrepants discrepava discrepaven discrepem discrepen discrepo
+82	5982	patronat	patronats
+83	5983	dramaturg	dramaturga dramaturgs dramaturgues
+84	5984	designació	designacions
+85	5985	tatuatge	tatuatges
+86	5986	inflar	infla inflada inflades inflant inflat inflats inflava inflaven inflen infli
+87	5987	saldar	salda saldada saldant saldat saldava saldes saldo saldos saldà
+88	5988	lèxic	lèxica lèxics lèxiques
+89	5989	locutor	locutora locutores locutors
+90	5990	bengala	bengales
+91	5991	manejar	manegem manegen maneges manegi manegin maneja manejada manejades manejant manejat manejats manejava manejaven manejo
+92	5992	purgar	purga purgant purgants purgat purgats purgues
+93	5993	estavellar	estavella estavellada estavellant estavellaren estavellat estavellava estavellen estavelli estavellà estavellés
+94	5994	esgotat	esgotada esgotades esgotats
+95	5995	inserir	insereix insereixen insereixi insereixin inseria inserida inserides inserien inserim inserint inserirà inserit inserits inserí
+96	5996	marxista	marxistes
+97	5997	comprensible	comprensibles
+98	5998	capdavanter	capdavantera capdavanteres capdavanters
+99	5999	adjectiu	adjectius adjectiva adjectives
+100	6000	taquilla	taquilles

@@ -1,0 +1,100 @@
+1	8501	sobrevolar	sobrevol sobrevola sobrevolant sobrevolat sobrevolava sobrevolaven sobrevolen
+2	8502	sabre	sabres
+3	8503	tripular	tripulada tripulades tripulat tripulats
+4	8504	abdomen	
+5	8505	allunyament	
+6	8506	antiavalots	
+7	8507	busseig	
+8	8508	capitoli	
+9	8509	clatell	
+10	8510	dràsticament	
+11	8511	guardaespatlles	
+12	8512	maduració	
+13	8513	natalitat	
+14	8514	rami	ramis
+15	8515	refrigeració	
+16	8516	fura	fures
+17	8517	transmissor	transmissora transmissores transmissors
+18	8518	jamaicà	jamaicana jamaicanes jamaicans
+19	8519	acolorir	acoloreix acoloreixen acolorida acolorides acolorint acolorit acolorits
+20	8520	penitència	penitències
+21	8521	magnificar	magnific magnifica magnificada magnificades magnificat magnificats magnifiquen magnifiques
+22	8522	regionalista	regionalistes
+23	8523	amenaçador	amenaçadora amenaçadores amenaçadors
+24	8524	ió	ions
+25	8525	llançadora	llançadores
+26	8526	encanteri	encanteris
+27	8527	confeccionar	confecciona confeccionada confeccionades confeccionant confeccionaren confeccionat confeccionats confeccionava confeccionaven confeccionen confecciones confeccionà
+28	8528	estatutari	estatutaris estatutària estatutàries
+29	8529	despistat	despistada despistats
+30	8530	encarnació	encarnacions
+31	8531	belar	bela belau belem belen beli belin belis belo
+32	8532	confluir	conflueix conflueixen conflueixin confluint confluïa confluïen confluïren confluït confluïxen
+33	8533	bodega	bodegues
+34	8534	canalitzar	canalitza canalitzada canalitzades canalitzant canalitzat canalitzats canalitzava canalitzaven canalitzen canalitzà
+35	8535	òxid	òxids
+36	8536	exhaurir	exhaureix exhaureixen exhaureixi exhaurida exhaurides exhaurint exhaurit exhaurits exhaurí
+37	8537	vàndal	vàndala vàndals
+38	8538	trobador	trobadora trobadores trobadors
+39	8539	talaia	talaies
+40	8540	ingerir	ingereix ingereixen ingereixi ingereixin ingeria ingerida ingerides ingerien ingerim ingerint ingerit ingerits
+41	8541	superstició	supersticions
+42	8542	gatet	gatets
+43	8543	prestatge	prestatges
+44	8544	prescripció	prescripcions
+45	8545	costura	costures
+46	8546	derivació	derivacions
+47	8547	curació	curacions
+48	8548	monolític	monolítica monolítics monolítiques
+49	8549	ratapinyada	ratapinyades ratpenat
+50	8550	ant	ants
+51	8551	narratiu	narratius narratives
+52	8552	rondar	rondant rondaria rondat rondava rondaven ronden rondi
+53	8553	bramar	brama bramant brami
+54	8554	mofa	mofes
+55	8555	coloració	coloracions
+56	8556	estimulació	estimulacions
+57	8557	esplanada	esplanades
+58	8558	principiant	principiants
+59	8559	torreta	torretes
+60	8560	aflorar	aflora aflorant aflorat aflorava afloraven afloren
+61	8561	temptador	temptadora temptadores
+62	8562	aritmètica	aritmètiques
+63	8563	integrador	integradora integradores integradors
+64	8564	innegable	innegables
+65	8565	substrat	substrats
+66	8566	crispeta	crispetes
+67	8567	mestallar	mestall mestalla
+68	8568	sucar	suca sucades sucant sucat sucats suco suquen
+69	8569	subsidiari	subsidiaris subsidiària subsidiàries
+70	8570	redistribució	redistribucions
+71	8571	rereguarda	rereguardes
+72	8572	epilèpsia	epilèpsies
+73	8573	pesquera	pesqueres
+74	8574	poemari	poemaris
+75	8575	intimidació	intimidacions
+76	8576	praxi	praxis
+77	8577	bocí	bocins
+78	8578	estival	estivals
+79	8579	consolar	consolant consolarà consolats consolava consolen consoles consoli consolo
+80	8580	putada	putades
+81	8581	ventilador	ventiladors
+82	8582	intestí	intestins
+83	8583	crioll	criolla criolles criolls
+84	8584	conspirar	conspira conspirant conspirat conspirava conspiraven conspiren conspirà
+85	8585	urbanitzar	urbanitza urbanitzada urbanitzades urbanitzant urbanitzat urbanitzats urbanitzà
+86	8586	exjugador	exjugadora exjugadors
+87	8587	llinda	llindes
+88	8588	anticapitalista	anticapitalistes
+89	8589	onzè	onzena onzenes onzé
+90	8590	gentilesa	
+91	8591	irònicament	
+92	8592	meteorologia	
+93	8593	pacifisme	
+94	8594	sindicalisme	
+95	8595	sociolingüística	
+96	8596	interceptar	intercepta interceptada interceptades interceptant interceptat interceptats interceptava intercepten interceptés
+97	8597	conducte	conductes
+98	8598	fotograma	fotogrames
+99	8599	destacament	destacaments
+100	8600	atiar	atia atiada atiades atiant atiat atiats atien

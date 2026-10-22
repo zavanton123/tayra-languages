@@ -1,0 +1,100 @@
+1	9801	residenciar	residencia
+2	9802	semen	
+3	9803	transcendència	
+4	9804	lòbul	lòbuls
+5	9805	congre	congres
+6	9806	compressió	compressions
+7	9807	tarja	targes
+8	9808	llevadora	llevador llevadores llevadors
+9	9809	ermità	ermitana ermitans
+10	9810	maquillar	maquilla maquillada maquillant maquillat maquillats maquillaven maquillen
+11	9811	asta	astes
+12	9812	cadastre	cadastres
+13	9813	cúria	cúries
+14	9814	cadència	cadències
+15	9815	ovació	ovacions
+16	9816	capell	capells
+17	9817	exercitar	exercita exercitada exercitant exercitat exercitaven exerciten exerciti exercito
+18	9818	amurar	amur amura
+19	9819	entaular	entaula entaulada entaulant entaulat entaulats entaulen entaulà
+20	9820	diminut	diminuta diminutes diminuts
+21	9821	heretgia	heretgies
+22	9822	melòdic	melòdica melòdics melòdiques
+23	9823	colpidor	colpidora colpidores colpidors
+24	9824	zeta	zetes
+25	9825	arrodonir	arrodoneix arrodoneixen arrodonia arrodonida arrodonides arrodonint arrodonits arrodoní
+26	9826	sanatori	sanatoris
+27	9827	subjacent	subjacents
+28	9828	amplificador	amplificadors
+29	9829	teler	telers
+30	9830	lligament	lligaments
+31	9831	quer	quers
+32	9832	histèric	histèrica histèrics histèriques
+33	9833	senegalès	senegalesa senegaleses senegalesos senegalés
+34	9834	entrellaçar	entrellacen entrellaça entrellaçada entrellaçades entrellaçant entrellaçat entrellaçats entrellaçaven
+35	9835	tobogan	tobogans
+36	9836	intencionat	intencionada intencionades intencionats
+37	9837	orbitar	orbita orbitant orbitaria orbitava orbiten orbites orbiti
+38	9838	sorollós	sorollosa sorolloses sorollosos
+39	9839	pinyó	pinyons
+40	9840	pacificar	pacifica pacificada pacificades pacificant pacificat pacificats pacifiques
+41	9841	cançoneta	cançonetes
+42	9842	sísmic	sísmica sísmics sísmiques
+43	9843	laminar	lamina laminada laminades laminars laminat laminats lamines
+44	9844	contrincant	contrincants
+45	9845	tèrbol	tèrbola tèrboles tèrbols
+46	9846	perimetral	perimetrals
+47	9847	inhibidor	inhibidora inhibidores inhibidors
+48	9848	sensacionalista	sensacionalistes
+49	9849	maximitzar	maximitza maximitzant maximitzen maximitzi maximitzin
+50	9850	ducat	ducats
+51	9851	enfosquir	enfosqueix enfosqueixen enfosquia enfosquida enfosquides enfosquint enfosquit enfosquits enfosquí
+52	9852	vertebrat	vertebrada vertebrades vertebrats
+53	9853	disseminar	dissemina disseminada disseminades disseminant disseminat disseminats disseminen
+54	9854	leu	lei
+55	9855	indeterminat	indeterminada indeterminades indeterminats
+56	9856	xinar	xines xino
+57	9857	qualificatiu	qualificatius
+58	9858	cigala	cigales
+59	9859	metabòlic	metabòlica metabòlics metabòliques
+60	9860	carni	carnis càrnia càrnies
+61	9861	boxejador	boxejadors
+62	9862	agrupament	agrupaments
+63	9863	monstruós	monstruosa monstruoses monstruosos
+64	9864	aqüeducte	aqüeductes
+65	9865	precipici	precipicis
+66	9866	eòlic	eòlica eòlics eòliques
+67	9867	xifrat	xifrada xifrades xifrats
+68	9868	tsar	tsarina tsars
+69	9869	incórrer	incorre incorregut incorren incorrent incorreria incorria
+70	9870	cora	cores
+71	9871	madrastra	madrastres
+72	9872	vassallatge	vassallatges
+73	9873	terrorífic	terrorífica terrorífics terrorífiques
+74	9874	desintegració	desintegracions
+75	9875	digerir	digereix digereixen digerida digerides digerint digerit digerits
+76	9876	cavar	cavada cavades cavant cavat cavats cavaven caven caves cavi cavin cavis
+77	9877	espora	espores
+78	9878	totalitarisme	totalitarismes
+79	9879	mesquí	mesquina mesquines mesquins
+80	9880	caramella	caramelles
+81	9881	paràbola	paràboles
+82	9882	farsant	farsants
+83	9883	imprecís	imprecisa imprecises imprecisos
+84	9884	penedit	penedida penedides penedits
+85	9885	xerraire	xerraires
+86	9886	desestabilitzar	desestabilitza desestabilitzant desestabilitzat desestabilitzen desestabilitzi
+87	9887	corroborar	corrobora corroborada corroborades corroborant corroboraria corroborat corroborats corroborava corroboraven corroboren corrobori corroborin
+88	9888	patològic	patològica patològics patològiques
+89	9889	anta	antes
+90	9890	caducitat	
+91	9891	cobdícia	
+92	9892	decurs	
+93	9893	democratització	
+94	9894	derogació	
+95	9895	eradicació	
+96	9896	espanyolisme	
+97	9897	estàtica	
+98	9898	favorablement	
+99	9899	feminitat	
+100	9900	fidelment	

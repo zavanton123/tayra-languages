@@ -1,0 +1,100 @@
+1	7201	ortogràfic	ortogràfica ortogràfics ortogràfiques
+2	7202	desavantatge	desavantatges
+3	7203	àrtic	àrtica àrtics àrtiques
+4	7204	teula	teules
+5	7205	alçament	alçaments
+6	7206	consultora	consultores
+7	7207	bibliogràfic	bibliogràfica bibliogràfics bibliogràfiques
+8	7208	advocar	advoca advocada advocades advocant advocats advocava advocaven advocà advoquen
+9	7209	jesuïta	jesuïtes
+10	7210	bufó	bufona bufones bufons
+11	7211	illenc	illenca illencs illenques
+12	7212	persiana	persianes
+13	7213	imperialista	imperialistes
+14	7214	pelut	peluda peludes peluts
+15	7215	vacar	vacant vacants vaques vaquí
+16	7216	refresc	refrescos refrescs
+17	7217	erudit	erudita erudites erudits
+18	7218	gaspar	gaspà
+19	7219	vaguista	vaguistes
+20	7220	plasmar	plasmada plasmades plasmant plasmaren plasmaria plasmarà plasmat plasmats plasmava plasmaven plasmen plasmes plasmà
+21	7221	sepulcre	sepulcres
+22	7222	subscriure	subscrigui subscriguin subscrit subscrita subscrites subscrits subscriu subscriuen subscrivia subscrivien subscrivint
+23	7223	fontana	fontanes
+24	7224	carabassa	carabasses carbassa
+25	7225	canònic	canònica canònics canòniques
+26	7226	logística	logístiques
+27	7227	fruiter	fruitera fruiteres fruiters
+28	7228	burocràcia	burocràcies
+29	7229	torrada	torrades
+30	7230	conqueridor	conqueridora conqueridors
+31	7231	confident	confidents
+32	7232	tija	tiges
+33	7233	malla	malles
+34	7234	moralitat	moralitats
+35	7235	atrocitat	atrocitats
+36	7236	enderroc	enderrocs
+37	7237	llom	lloms
+38	7238	inexplicable	inexplicables
+39	7239	destinatari	destinataris destinatària destinatàries
+40	7240	bufet	bufets
+41	7241	insostenible	insostenibles
+42	7242	gesta	gestes
+43	7243	desitjable	desitjables
+44	7244	hidràulic	hidràulics hidràuliques
+45	7245	vestigi	vestigis
+46	7246	promulgar	promulga promulgada promulgades promulgant promulgaren promulgat promulgats promulgava promulgaven promulguen promulgués promulgà
+47	7247	animador	animadora animadores animadors
+48	7248	nissaga	nissagues
+49	7249	ramar	rama rames ramin
+50	7250	modelar	modela modelada modelades modelant modelat modelats modelava modelaven modelen modelo modelà
+51	7251	col·locació	
+52	7252	criminalització	
+53	7253	desocupació	
+54	7254	doblers	
+55	7255	hostaleria	
+56	7256	idò	
+57	7257	inevitablement	
+58	7258	pròpiament	
+59	7259	ral·li	
+60	7260	reialesa	
+61	7261	romanticisme	
+62	7262	serenitat	
+63	7263	sushi	
+64	7264	típicament	
+65	7265	retransmetre	retransmesa retransmeses retransmesos retransmet retransmeten retransmetent retransmetia retransmetien retransmetrà retransmès
+66	7266	prodigi	prodigis
+67	7267	tàpia	tàpies
+68	7268	rebatre	rebat rebaten rebatent rebato rebatuda rebatudes rebatut rebatuts
+69	7269	amoïnar	amoïna amoïnada amoïnat amoïnats amoïnava amoïnen amoïneu amoïni amoïnis
+70	7270	frankfurt	frankfurts
+71	7271	tara	tares
+72	7272	dentista	dentistes
+73	7273	innombrable	innombrables
+74	7274	afinitat	afinitats
+75	7275	impressora	impressores
+76	7276	dictatorial	dictatorials
+77	7277	armilla	armilles
+78	7278	sensual	sensuals
+79	7279	pilotar	pilotada pilotades pilotant pilotat pilotats pilotava pilote piloten pilotes piloti piloto pilotà
+80	7280	puça	puces
+81	7281	pobret	pobreta pobrets
+82	7282	jonquera	jonqueres
+83	7283	absorció	absorcions
+84	7284	paralímpic	paralímpica paralímpics paralímpiques
+85	7285	apocalipsi	apocalipsis
+86	7286	pamflet	pamflets
+87	7287	bombarder	bombarders
+88	7288	píxel	píxels
+89	7289	anatomia	anatomies
+90	7290	germandat	germandats
+91	7291	nomenclatura	nomenclatures
+92	7292	horrorós	horrorosa horroroses horrorosos
+93	7293	adquisitiu	adquisitiva
+94	7294	liquidació	liquidacions
+95	7295	mota	motes
+96	7296	infecciós	infecciosa infeccioses infecciosos
+97	7297	equivaler	equival equivaldria equivaldrien equivalen equivalia equivalien
+98	7298	litigi	litigis
+99	7299	matrimonial	matrimonials
+100	7300	eurodiputat	eurodiputada eurodiputats

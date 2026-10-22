@@ -1,0 +1,100 @@
+1	3301	assetjar	assetgen assetja assetjada assetjades assetjant assetjants assetjaren assetjat assetjats assetjava assetjaven assetjo assetjà
+2	3302	sardana	sardanes
+3	3303	retenir	retenen retenia retenien retenim retenint reteniu retindran retindre retindrem retindrà retinguda retingudes retingueren retingui retinguin retingut retinguts retingué reté retén
+4	3304	infermer	infermera infermeres infermers
+5	3305	avaluar	avalua avaluada avaluades avaluant avaluaran avaluarà avaluat avaluats avaluava avaluaven avaluem avaluen avaluà avalués avaluï avaluïn
+6	3306	constantment	
+7	3307	exclusivament	
+8	3308	mitjan	
+9	3309	catedràtic	catedràtica catedràtics catedràtiques
+10	3310	designar	designa designada designades designant designaren designaria designarà designat designats designava designaven designem designen designes designi designis designà designés
+11	3311	reconstrucció	reconstruccions
+12	3312	lluir	llu llueix llueixen llueixi llueixin llueixo lluint lluiran lluiria lluirà lluu lluí lluïa lluïda lluïdes lluïen lluïs lluït lluïts
+13	3313	eficaç	eficaces eficaços
+14	3314	vàlid	vàlida vàlides vàlids
+15	3315	pila	piles
+16	3316	tripulació	tripulacions
+17	3317	gallec	gallecs gallega gallegues
+18	3318	pescador	pescadora pescadores pescadors
+19	3319	daurada	daurades
+20	3320	cantonada	cantonades
+21	3321	belga	belgues
+22	3322	habitar	habita habitada habitades habitaren habitat habitats habitava habitaven habite habitem habiten habiti habitin habito habità habités
+23	3323	filipí	filipina filipines filipins
+24	3324	progressista	progressistes
+25	3325	divertir	diverteix diverteixen diverteixes diverteixi diverteixis diverteixo divertia divertida divertides divertien divertim divertint divertirem divertirà divertiré divertits divertiu
+26	3326	tona	tones
+27	3327	desnonament	desnonaments
+28	3328	estreta	estretes
+29	3329	cola	coles
+30	3330	canadenc	canadenca canadencs canadenques
+31	3331	alterar	altera alterada alterades alterant alteraren alteraria alterarien alterarà alterat alterats alterava alteraven alteren alteri alterin alterà alterés
+32	3332	colonial	colonials
+33	3333	gras	grassa grasses grassos
+34	3334	diví	divina divines divins
+35	3335	tendir	tendeix tendeixen tendeixes tendeixi tendeixin tendeixo tendia tendien tendim tendint tendiran tendiren tendiria tendirien tendirà tendit tendix tendixen tendí tendís
+36	3336	lluitador	lluitadora lluitadores lluitadors
+37	3337	diversió	diversions
+38	3338	marató	maratons
+39	3339	continuïtat	continuïtats
+40	3340	tràgic	tràgica tràgics tràgiques
+41	3341	decisiu	decisius decisiva decisives
+42	3342	llevant	llevants
+43	3343	gravetat	
+44	3344	occident	
+45	3345	sol·licitud	
+46	3346	cinematogràfic	cinematogràfica cinematogràfics cinematogràfiques
+47	3347	bassa	basses basseta bassetes
+48	3348	poblat	poblada poblades poblats
+49	3349	concepció	concepcions
+50	3350	gota	gotes
+51	3351	espiritual	espirituals
+52	3352	vegetal	vegetals
+53	3353	expectativa	expectatives
+54	3354	elaboració	elaboracions
+55	3355	eliminació	eliminacions
+56	3356	butlletí	butlletins
+57	3357	miracle	miracles
+58	3358	principat	principats
+59	3359	aragonès	aragonesa aragoneses aragonesos aragonés
+60	3360	depressió	depressions
+61	3361	estatus	status
+62	3362	promocionar	promociona promocionada promocionades promocionant promocionarà promocionat promocionats promocionava promocionaven promocionen promociones promocioni promocionin promocionà
+63	3363	clan	clans
+64	3364	bernat	bernats
+65	3365	singular	singulars
+66	3366	rebaixar	rebaixa rebaixada rebaixades rebaixant rebaixaria rebaixarien rebaixarà rebaixat rebaixats rebaixava rebaixaven rebaixen rebaixes rebaixi rebaixà rebaixés
+67	3367	jurar	jur jura jurada jurades jurant juraren juraria jurats jurava juraven jurem juren jures juressin jureu juri juris juro jurà jurés
+68	3368	commemoració	commemoracions
+69	3369	poètic	poètica poètics poètiques
+70	3370	irregular	irregulars
+71	3371	rendiment	rendiments
+72	3372	agrupació	agrupacions
+73	3373	bot	bots
+74	3374	garriga	garrigues
+75	3375	simbòlic	simbòlica simbòlics simbòliques
+76	3376	vaca	vaques vaqueta vaquetes
+77	3377	desobediència	desobediències
+78	3378	encaixar	encaixa encaixada encaixades encaixant encaixaria encaixat encaixats encaixava encaixaven encaixem encaixen encaixes encaixessin encaixi encaixin encaixo encaixés
+79	3379	mona	mones
+80	3380	clavar	clav clava clavada clavades clavant clavaran clavaria clavarà clavat clavats clavava clavaven clave clavem claven claves clavessin claveu clavi clavin clavo clavà clavés
+81	3381	adjunt	adjunta adjuntes adjunts
+82	3382	agraïment	agraïments
+83	3383	carro	carret carrets carros
+84	3384	correctament	
+85	3385	gratis	
+86	3386	popularitat	
+87	3387	tennis	tenis
+88	3388	variant	variants
+89	3389	infern	inferns
+90	3390	postal	postals
+91	3391	salutació	salutacions
+92	3392	àpat	àpats
+93	3393	televisiu	televisius televisiva televisives
+94	3394	cala	cales
+95	3395	obstacle	obstacles
+96	3396	moreno	morena morenes morenos morrena morrenes
+97	3397	mama	mames
+98	3398	ceràmica	ceràmiques
+99	3399	persa	perses
+100	3400	lligada	lligades

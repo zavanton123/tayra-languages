@@ -1,0 +1,100 @@
+1	7801	arbust	arbustos arbusts
+2	7802	teta	tetes
+3	7803	pandèmia	pandèmies
+4	7804	perforar	perfora perforada perforades perforant perforat perforats perforen
+5	7805	marcial	marcials
+6	7806	hereditari	hereditaris hereditària hereditàries
+7	7807	aspre	aspra aspres
+8	7808	inspeccionar	inspecciona inspeccionada inspeccionades inspeccionant inspeccionaran inspeccionat inspeccionats inspeccionava inspeccionen
+9	7809	fortificar	fortifica fortificada fortificades fortificant fortificat fortificats fortificà fortifiquen
+10	7810	dialectal	dialectals
+11	7811	ratllat	ratllada ratllades ratllats
+12	7812	etiquetatge	etiquetatges
+13	7813	brilla	brilles
+14	7814	violinista	violinistes
+15	7815	contractista	contractistes
+16	7816	escanyar	escanya escanyada escanyant escanyat escanyats
+17	7817	canonge	canonges
+18	7818	ascendent	ascendents
+19	7819	latitud	latituds
+20	7820	bregar	brega bregant bregat bregues
+21	7821	àrid	àrida àrides àrids
+22	7822	escaldar	escalda escaldada escaldades escaldat escaldats escaldes
+23	7823	sintaxi	sintaxis
+24	7824	xenòfob	xenòfoba xenòfobes xenòfobs
+25	7825	radiografia	radiografies
+26	7826	heroic	heroica heroics heroiques
+27	7827	aplicable	aplicables
+28	7828	autodefensa	
+29	7829	diòxid	
+30	7830	erròniament	
+31	7831	fascinació	
+32	7832	parcel·la	
+33	7833	saxó	saxona saxones saxons
+34	7834	codificar	codifica codificada codificades codificant codificat codificats codifiquen
+35	7835	sediment	sediments
+36	7836	germanastre	germanastres
+37	7837	ressentit	ressentida ressentits
+38	7838	caputxí	caputxina caputxines caputxins
+39	7839	auditiu	auditius auditiva auditives
+40	7840	enriquidor	enriquidora enriquidores enriquidors
+41	7841	descalç	descalces descalça descalços
+42	7842	compilació	compilacions
+43	7843	bateig	bateigs batejos
+44	7844	processador	processadors
+45	7845	ferramenta	ferramentes
+46	7846	periple	periples
+47	7847	porpra	porpres
+48	7848	centralitzar	centralitza centralitzada centralitzades centralitzant centralitzat centralitzats centralitzava centralitzen centralitzà
+49	7849	arranjar	arrangen arranja arranjada arranjades arranjant arranjarà arranjat arranjats arranjava arranjà
+50	7850	eritreu	eritrea eritreus
+51	7851	sumari	sumaris sumària sumàries
+52	7852	destructiu	destructius destructiva destructives
+53	7853	havanera	havaneres
+54	7854	hídric	hídrica hídrics hídriques
+55	7855	perllongar	perllonga perllongada perllongades perllongant perllongaren perllongaria perllongarà perllongat perllongats perllongava perllonguen perllongui perllongués perllongà
+56	7856	afany	afanys
+57	7857	depriment	depriments
+58	7858	pessimista	pessimistes
+59	7859	negligència	negligències
+60	7860	opi	opis
+61	7861	coacció	coaccions
+62	7862	claror	clarors
+63	7863	progenitor	progenitora progenitores progenitors
+64	7864	follet	follets
+65	7865	associatiu	associatius associativa associatives
+66	7866	tala	tales
+67	7867	predilecte	predilecta predilectes
+68	7868	podrir	podreix podreixen podreixi podreixin podria podrida podrides podrien podries podrint podrits podríem podríeu podrís
+69	7869	rosari	rosaris
+70	7870	saba	sabes
+71	7871	electrodomèstic	electrodomèstics
+72	7872	careta	caretes
+73	7873	xa	xas
+74	7874	rascar	rasca rascada rascades rascant rascat rasco rasquen rasques
+75	7875	lloro	lloros
+76	7876	estrall	estralls
+77	7877	ordi	ordis
+78	7878	grana	granes
+79	7879	palmer	palmers
+80	7880	cítric	cítrica cítrics cítriques
+81	7881	esclafar	esclafa esclafada esclafades esclafant esclafat esclafats esclafi esclafà
+82	7882	ullal	ullals
+83	7883	usual	usuals
+84	7884	modular	modul modula modulada modulades modulant modulars modulat modulats modulava modulen modules
+85	7885	furtar	furta furtada furtades furtant furtaren furtat furtats furten
+86	7886	nevar	neva nevades nevant nevares nevarà nevats nevava neves neveu nevi nevin nevis nevà
+87	7887	bandoler	bandolera bandoleres bandolers
+88	7888	apatxe	apache apatxes
+89	7889	distorsionar	distorsiona distorsionada distorsionades distorsionant distorsionat distorsionats distorsionava distorsionaven distorsionen distorsioni
+90	7890	espoli	espolis
+91	7891	homogeni	homogenis homogènia homogènies
+92	7892	maridatge	maridatges
+93	7893	declinar	declina declinant declinaren declinat declinava declinen declino declinà
+94	7894	filferro	filferros
+95	7895	incentiu	incentius
+96	7896	arcada	arcades
+97	7897	gandul	gandula gandules ganduls
+98	7898	autonomista	autonomistes
+99	7899	capitalitat	
+100	7900	enfortiment	

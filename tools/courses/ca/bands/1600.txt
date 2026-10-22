@@ -1,0 +1,100 @@
+1	1501	secundari	secundaris secundària secundàries
+2	1502	cura	cures
+3	1503	explicació	explicacions
+4	1504	editor	editora editores editors
+5	1505	convidat	convidada convidades convidats
+6	1506	requerir	requereix requereixen requereixi requereixin requeria requerida requerides requerien requerim requerint requeriran requeriren requeriria requeririen requerirà requerisca requerisquen requerissin requerit requerits requerix requerixen requerí requerís
+7	1507	creixement	creixements
+8	1508	velocitat	velocitats
+9	1509	vacança	vacances
+10	1510	succeir	succeeix succeeixen succeeixi succeeixin succeint succeiran succeiria succeirien succeirà succeí succeís succeïa succeïda succeïdes succeïen succeïra succeïren succeïssin succeït succeïts succeïx succeïxen
+11	1511	amunt	
+12	1512	tendència	tendències
+13	1513	campionat	campionats
+14	1514	heroi	herois heroïna heroïnes
+15	1515	adoptar	adopta adoptada adoptades adoptant adoptants adoptara adoptaran adoptaren adoptaria adoptarien adoptarà adoptat adoptats adoptava adoptaven adopte adoptem adopten adoptessin adopti adoptin adoptà adoptés
+16	1516	càrrega	càrregues
+17	1517	sorpresa	sorpreses
+18	1518	serra	serres
+19	1519	reserva	reserves
+20	1520	apropar	aprop apropa apropada apropant aproparen aproparia aproparà apropat apropava apropaven apropem apropen apropes apropessin apropeu apropi apropin apropis apropo apropà apropés
+21	1521	xiquet	xiqueta xiquetes xiquets
+22	1522	torn	torns
+23	1523	augment	augments
+24	1524	disputar	disputa disputada disputades disputant disputaran disputaren disputaria disputarien disputarà disputat disputats disputava disputaven disputen disputes disputessin disputi disputin disputà disputés
+25	1525	carn	carns
+26	1526	aeri	aeris aèria aèries
+27	1527	llet	llets
+28	1528	au	aus
+29	1529	regal	regalet regals
+30	1530	productor	productora productores productors
+31	1531	capturar	captura capturada capturades capturant capturaran capturaren capturaria capturarà capturat capturats capturava capturaven capturem capturen captures capturessin captureu capturi capturin capturà capturés
+32	1532	dolç	dolces dolça dolços
+33	1533	tranquil	tranquils
+34	1534	degut	deguda degudes deguts
+35	1535	federació	federacions
+36	1536	benvinguda	benvingudes
+37	1537	entregar	entrega entregada entregades entregant entregaran entregarem entregaren entregaria entregarà entregaré entregat entregats entregava entregaven entrego entreguem entreguen entregues entreguessin entregueu entregui entreguin entreguis entregués entregà
+38	1538	sencer	sencera senceres sencers
+39	1539	útil	útils
+40	1540	còmic	còmica còmics còmiques
+41	1541	repressió	repressions
+42	1542	establiment	establiments
+43	1543	aproximadament	
+44	1544	exactament	
+45	1545	immediatament	
+46	1546	lingüística	
+47	1547	ràpidament	
+48	1548	constant	constants
+49	1549	connexió	connexions
+50	1550	marit	marits
+51	1551	novetat	novetats
+52	1552	evident	evidents
+53	1553	contribuir	contribueix contribueixen contribueixi contribueixin contribuint contribuiran contribuiria contribuirien contribuirà contribuí contribuís contribuïa contribuïen contribuïm contribuïren contribuïssin contribuït contribuïu contribuïx contribuïxen
+54	1554	confiar	confia confiada confiades confiant confiaran confiaren confiaria confiarà confiaré confiat confiats confiava confiaven confie confiem confien confies confiessin confieu confii confio confià confiàvem confiés confiï confiïn confiïs
+55	1555	fosc	fosca foscos foscs fosques
+56	1556	autobús	autobusos
+57	1557	poesia	poesies
+58	1558	plat	platet platets plats
+59	1559	físic	físics físiques
+60	1560	do	dons
+61	1561	mandat	mandats
+62	1562	específic	específica específics específiques
+63	1563	comparar	compar compara comparada comparades comparam comparant compararia compararà comparat comparats comparava comparaven comparem comparen compares compareu compari comparin comparis comparo comparà comparés
+64	1564	felicitat	felicitada felicitats
+65	1565	consultar	consultada consultades consultant consultaria consultarà consultat consultats consultava consultaven consulten consultes consulteu consulti consultin consultà consultés
+66	1566	retallar	retalla retallada retallades retallant retallaran retallaren retallaria retallarà retallat retallats retallava retallaven retallen retalli retallà retallés
+67	1567	pintura	pintures
+68	1568	callar	calla callada callades callant callaran callarem callaria callarà callaré callat callats callau callava callaven calle callem callen calles calleu calli callin callis callo callés
+69	1569	característica	característiques
+70	1570	concedir	concedeix concedeixen concedeixi concedeixin concedeixo concedia concedida concedides concedien concedim concedint concedira concediran concediren concediria concedirà concedissin concedit concedits concedix concedí concedís
+71	1571	humor	humors
+72	1572	jueu	jueus jueva jueves
+73	1573	finançament	finançaments
+74	1574	col·lecció	
+75	1575	excepte	
+76	1576	física	
+77	1577	paisatge	paisatges
+78	1578	termini	terminis
+79	1579	divertit	divertida divertides divertits
+80	1580	habitació	habitacions
+81	1581	retornar	retorna retornada retornades retornant retornaran retornarem retornaren retornaria retornarien retornarà retornaré retornat retornats retornava retornaven retorne retornem retornen retornes retornessin retorneu retorni retornin retornis retorno retornà retornés
+82	1582	fusta	fustes
+83	1583	horari	horaris horària horàries
+84	1584	actitud	actituds
+85	1585	comprovar	comprova comprovada comprovades comprovant comprovants comprovaran comprovarem comprovaren comprovaria comprovarà comprovaré comprovat comprovats comprovava comprovaven comprovem comproven comproves comproveu comprovi comprovin comprovis comprovo comprovà comprovés
+86	1586	policial	policials
+87	1587	emergència	emergències
+88	1588	enquesta	enquestes
+89	1589	diàleg	diàlegs
+90	1590	enorme	enormes
+91	1591	preciós	preciosa precioses preciosos
+92	1592	mentida	mentides
+93	1593	trànsit	trànsits
+94	1594	bicicleta	bici bicicletes
+95	1595	sec	seca secs seques séc
+96	1596	romà	romana romanes romans
+97	1597	negatiu	negatius negativa negatives
+98	1598	anunci	anuncis
+99	1599	penal	penals
+100	1600	bomba	bombes

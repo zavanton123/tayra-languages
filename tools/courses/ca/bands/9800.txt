@@ -1,0 +1,100 @@
+1	9701	concessionari	concessionaris concessionària concessionàries
+2	9702	ferradura	ferradures
+3	9703	reorganitzar	reorganitza reorganitzada reorganitzades reorganitzant reorganitzaren reorganitzarà reorganitzat reorganitzats reorganitzen reorganitzà
+4	9704	alfabetització	
+5	9705	caviar	
+6	9706	conscientment	
+7	9707	coronavirus	
+8	9708	desgavell	
+9	9709	lentitud	
+10	9710	provisionalment	
+11	9711	pòquer	
+12	9712	reobertura	
+13	9713	respir	
+14	9714	safrà	
+15	9715	substancialment	
+16	9716	tranquil·litzar	
+17	9717	vagament	
+18	9718	iugoslau	iugoslaus iugoslava iugoslaves
+19	9719	aconsellable	aconsellables
+20	9720	boc	bocs
+21	9721	transbordador	transbordadores transbordadors
+22	9722	hivernal	hivernals
+23	9723	maqui	maquis
+24	9724	sonoritat	sonoritats
+25	9725	buf	bufs
+26	9726	patufet	patufets
+27	9727	bolero	boleros
+28	9728	rapinyaire	rapinyaires
+29	9729	somiador	somiadora somiadores somiadors
+30	9730	ajornament	ajornaments
+31	9731	capitular	capitula capitulant capitularen capitulars capitulat capitulava capitulo capitulà
+32	9732	diabòlic	diabòlica diabòlics diabòliques
+33	9733	discòrdia	discòrdies
+34	9734	penalització	penalitzacions
+35	9735	immortalitzar	immortalitza immortalitzada immortalitzades immortalitzant immortalitzat immortalitzats immortalitzà
+36	9736	miratge	miratges
+37	9737	grafia	grafies
+38	9738	ombrívol	ombrívola ombrívoles ombrívols
+39	9739	relegar	relega relegada relegades relegant relegat relegats relegava releguen relegà
+40	9740	capó	capons
+41	9741	motoritzar	motoritzada motoritzades motoritzat motoritzats
+42	9742	desorientar	desorienta desorientada desorientades desorientat desorientats desorienten
+43	9743	beneficiari	beneficiaris beneficiària beneficiàries
+44	9744	guarniment	guarniments
+45	9745	tremend	tremenda tremendes tremends
+46	9746	làctic	làctica làctics làctiques
+47	9747	pigment	pigments
+48	9748	planer	planera planeres planers
+49	9749	dominical	dominicals
+50	9750	abastiment	abastiments
+51	9751	transfronterer	transfronterera transfrontereres transfronterers
+52	9752	opac	opaca opacs opaques
+53	9753	delicadesa	delicadeses
+54	9754	gentil	gentils
+55	9755	monografia	monografies
+56	9756	veta	vetes
+57	9757	veïnatge	veïnatges
+58	9758	belarús	bielorús
+59	9759	reclús	reclusa recluses reclusos
+60	9760	garnatxa	garnatxes
+61	9761	xampany	xampanys
+62	9762	noure	nogueres nogué nogués nous
+63	9763	rifar	rif rifat rifes rifà
+64	9764	amazic	amazics amaziga amazigues
+65	9765	pastera	pasteres
+66	9766	deformació	deformacions
+67	9767	falsificar	falsifica falsificada falsificades falsificant falsificat falsificats falsificava falsifiquen
+68	9768	solt	soltes solts
+69	9769	sureda	suredes
+70	9770	canaleta	canaletes
+71	9771	adequar	adequa adequant adequava adequaven adeqüen adeqüi adeqüin adeqüés
+72	9772	albergínia	albergínies
+73	9773	addició	addicions
+74	9774	estacionament	estacionaments
+75	9775	líric	lírics líriques
+76	9776	inseparable	inseparables
+77	9777	tentacle	tentacles
+78	9778	simetria	simetries
+79	9779	honra	honres
+80	9780	automobilístic	automobilística automobilístics automobilístiques
+81	9781	cromàtic	cromàtica cromàtics cromàtiques
+82	9782	alcoholisme	
+83	9783	antisemitisme	
+84	9784	biosfera	
+85	9785	bordeta	
+86	9786	celeritat	
+87	9787	centralitat	
+88	9788	cooperativisme	
+89	9789	etnologia	
+90	9790	extensament	
+91	9791	frescor	
+92	9792	guiatge	
+93	9793	immortalitat	
+94	9794	liti	
+95	9795	merci	
+96	9796	obesitat	
+97	9797	passamuntanyes	
+98	9798	pessimisme	
+99	9799	reconquesta	
+100	9800	rentaplats	

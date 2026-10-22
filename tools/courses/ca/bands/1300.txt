@@ -1,0 +1,100 @@
+1	1201	agrair	agraeix agraeixen agraeixes agraeixi agraeixo agraint agrairan agrairem agrairia agrairà agrairàs agrairé agrairíem agraí agraïa agraïda agraïdes agraïen agraïm agraïsc agraït agraïts agraïu
+2	1202	turisme	turismes
+3	1203	trist	trista tristes tristos trists
+4	1204	pèrdua	pèrdues
+5	1205	vehicle	vehicles
+6	1206	representació	representacions
+7	1207	prometre	promeses promesos promet prometem prometen prometent prometeren prometeu prometi prometia prometien prometo promets prometé prometés prometíem promès promés
+8	1208	aeroport	aeroports
+9	1209	similar	similars
+10	1210	solar	solana solanes solans solares solars solem solen soles soleu soli solis solo solos solà solés solí
+11	1211	senzill	senzilla senzilles senzills
+12	1212	fase	fases
+13	1213	olímpic	olímpica olímpics olímpiques
+14	1214	expert	experta expertes experts
+15	1215	etapa	etapes
+16	1216	finestra	finestres finestreta finestretes
+17	1217	tuit	tuits
+18	1218	dijous	
+19	1219	dimarts	
+20	1220	gens	
+21	1221	malament	
+22	1222	judicial	judicials
+23	1223	màquina	maquineta maquinetes màquines
+24	1224	cristià	cristiana cristianes cristians
+25	1225	sorprendre	sorprenc sorprendran sorprendrem sorprendria sorprendrà sorprendràs sorprendré sorprenem sorprenen sorpreneu sorprengueren sorprengui sorprenguin sorprenguis sorprengué sorprengués sorprenia sorprenien sorprens sorpreses sorpresos sorprèn sorprès
+26	1226	llar	llars
+27	1227	reclamar	reclama reclamada reclamades reclamant reclamants reclamarem reclamaren reclamaria reclamarien reclamarà reclamat reclamats reclamava reclamaven reclamem reclamen reclamessin reclameu reclami reclamin reclamo reclamà reclamés
+28	1228	teoria	teories
+29	1229	pensament	pensaments
+30	1230	accedir	accedeix accedeixen accedeixi accedeixin accedeixo accedia accedida accedides accedien accedim accedint accediran accediren accediria accedirien accedirà accedissin accedit accedits accediu accedix accedí accedís
+31	1231	motor	motora motores motors motriu motrius
+32	1232	secretari	secretaris secretària secretàries
+33	1233	escapar	escap escapa escapada escapades escapant escaparan escaparem escaparen escapareu escaparia escaparà escaparé escapat escapats escapava escapaven escapem escapen escapes escapessin escapeu escapi escapin escapis escapo escapà escapés
+34	1234	vespre	vespres
+35	1235	distància	distàncies
+36	1236	ordinador	ordinadors
+37	1237	impedir	impedeix impedeixen impedeixi impedeixin impedia impedida impedides impedien impedim impedint impediran impedirem impediren impedireu impediria impedirien impedirà impedisca impedissin impedit impedits impediu impedix impedí impedís
+38	1238	proporcionar	proporciona proporcionada proporcionades proporcionant proporcionaran proporcionaren proporcionaria proporcionarien proporcionarà proporcionat proporcionats proporcionava proporcionaven proporcionem proporcionen proporciones proporcionessin proporcioni proporcionin proporcionà proporcionés
+39	1239	animar	anim anima animada animades animant animaran animarem animaren animaria animarà animat animats animava animaven animem animen animes animessin animeu animi animo animà animés
+40	1240	mur	murs
+41	1241	socialista	socialistes
+42	1242	robar	robada robades robant robarem robaren robaria robarà robaré robat robats robau robava robaven robem roben robes robessin robi robin robins robis robo robà robés robí
+43	1243	fira	fires
+44	1244	terreny	terrenys
+45	1245	portal	portals
+46	1246	comentar	comenta comentada comentades comentant comentaran comentarem comentaren comentaria comentarà comentaré comentat comentats comentava comentaven comentem comenten comentes comentessin comenti comento comentà comentàvem comentés
+47	1247	igualtat	igualtats
+48	1248	districte	districtes
+49	1249	dividir	divideix divideixen divideixi divideixin dividia dividida dividides dividien dividim dividint dividiran dividirem dividiren dividiria dividirien dividirà dividit dividits dividiu dividix dividí dividís
+50	1250	dimecres	
+51	1251	escenari	escenaris
+52	1252	ensenyament	ensenyaments
+53	1253	criticar	critica criticada criticades criticant criticaren criticaria criticarà criticat criticats criticava criticaven critico criticà critiquem critiquen critiques critiqueu critiqui critiquin critiquis critiqués
+54	1254	governar	governa governada governades governant governaran governarem governaren governaria governarien governarà governat governats governava governaven governe governem governen governes governessin governeu governi governin governo governà governés
+55	1255	agència	agències
+56	1256	universitari	universitaris universitària universitàries
+57	1257	intern	interna internes interns
+58	1258	cantant	cantants
+59	1259	sensació	sensacions
+60	1260	britànic	britànica britànics britàniques
+61	1261	accident	accidents
+62	1262	gol	gols
+63	1263	idioma	idiomes
+64	1264	argument	arguments
+65	1265	associar	associa associada associades associant associaren associaria associarà associat associats associava associaven associem associen associes associà associés associï associïn
+66	1266	estendre	estendran estendria estendrien estendrà estenem estenen estenent esteneu estenga estengueren estenguessin estengui estenguin estengué estengués estenia estenien estesa esteses estesos estès estén
+67	1267	esmentar	esmenta esmentada esmentades esmentant esmentaran esmentarem esmentaria esmentarà esmentaré esmentat esmentats esmentava esmentaven esmente esmentem esmenten esmenti esmentin esmento esmentà esmentés
+68	1268	sonar	sona sonada sonades sonant sonants sonaran sonaren sonaria sonarà sonat sonats sonava sonaven sonen sones sonessin soni sonin sono sonà sonés
+69	1269	perfecte	perfecta perfectes
+70	1270	sentència	sentències
+71	1271	estrella	estrela estrelles
+72	1272	xinès	xinesa xineses xinesos xinés
+73	1273	conservar	conserva conservada conservades conservant conservants conservaran conservarem conservaren conservaria conservarien conservarà conservat conservats conservava conservaven conservem conserven conserves conservessin conserveu conservi conservin conservo conservà conservés
+74	1274	venda	vendes
+75	1275	industrial	industrials
+76	1276	acostar	acosta acostada acostades acostant acostaren acostaria acostarà acostaré acostat acostats acostava acostaven acoste acostem acosten acostes acostessin acosteu acosti acostin acostis acosto acostà acostés
+77	1277	manca	manques
+78	1278	fonamental	fonamentals
+79	1279	ou	ous
+80	1280	ciutadania	ciutadanies
+81	1281	sexual	sexuals
+82	1282	símbol	símbols
+83	1283	lliurar	lliur lliura lliurada lliurades lliurant lliuraran lliurarem lliuraren lliuraria lliurarien lliurarà lliurat lliurats lliurava lliuraven lliurem lliuren lliures lliuressin lliureu lliuri lliurin lliuro lliurà lliurés
+84	1284	lectura	lectures
+85	1285	començament	començaments
+86	1286	pluja	pluges
+87	1287	enfrontar	enfronta enfrontada enfrontades enfrontant enfrontaran enfrontarem enfrontaren enfrontaria enfrontarien enfrontarà enfrontat enfrontats enfrontava enfrontaven enfrontem enfronten enfrontes enfrontessin enfronti enfrontin enfrontis enfronto enfrontà enfrontés
+88	1288	detingut	detinguda detingudes detinguts
+89	1289	respectar	respecta respectada respectades respectant respectaran respectaren respectaria respectarien respectarà respectaré respectat respectats respectau respectava respectaven respectem respecten respectes respectessin respecteu respecti respectin respectis respecto respectà respectés
+90	1290	occidental	occidentals
+91	1291	norma	normes
+92	1292	mediterrani	mediterranis mediterrània mediterrànies
+93	1293	açò	ço
+94	1294	registre	registres
+95	1295	dinar	dina dinant dinarem dinars dinat dinava dinaven dinem dinen dines dini dino dinà dinés
+96	1296	doctor	doctora doctores doctors dra
+97	1297	traslladar	trasllada traslladada traslladades traslladant traslladara traslladaran traslladaren traslladaria traslladarien traslladarà traslladat traslladats traslladava traslladaven traslladem traslladen trasllades traslladessin traslladeu traslladi traslladin traslladà traslladés
+98	1298	amenaçar	amenacem amenacen amenaces amenacessin amenaci amenacin amenacis amenacés amenaçada amenaçades amenaçant amenaçaren amenaçaria amenaçarà amenaçat amenaçats amenaçava amenaçaven amenaço amenaçà
+99	1299	resistència	resistències
+100	1300	peix	peixos

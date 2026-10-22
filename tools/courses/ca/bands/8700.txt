@@ -1,0 +1,100 @@
+1	8601	finestral	finestrals
+2	8602	extremista	extremistes
+3	8603	server	servera serveres servers
+4	8604	vigatà	vigatana vigatanes vigatans
+5	8605	estampa	estampes
+6	8606	tapadora	tapadores
+7	8607	malaltís	malaltissa malaltisses malaltissos
+8	8608	badaloní	badalonina badalonines badalonins
+9	8609	preludi	preludis
+10	8610	ramal	ramals
+11	8611	encobertar	encoberta encobertes
+12	8612	maldecap	maldecaps
+13	8613	digestió	digestions
+14	8614	diürn	diürna diürnes diürns
+15	8615	londinenc	londinenca londinencs londinenques
+16	8616	neozelandès	neozelandesa neozelandeses neozelandesos
+17	8617	popularitzar	popularitza popularitzada popularitzades popularitzant popularitzaren popularitzaria popularitzat popularitzats popularitzen popularitzà popularitzés
+18	8618	digitalització	digitalitzacions
+19	8619	rectoria	rectories
+20	8620	llegar	llega llegada llegades llegant llegaren llegats llegava llego llegue lleguen llegues llegà
+21	8621	absolució	absolucions
+22	8622	provocador	provocadora provocadores provocadors
+23	8623	insurgent	insurgents
+24	8624	faula	faules
+25	8625	peninsular	peninsulars
+26	8626	estressar	estressa estressada estressades estressant estressat estressats
+27	8627	terapèutic	terapèutics terapèutiques
+28	8628	analfabet	analfabeta analfabetes analfabets
+29	8629	fisonomia	fesomia fesomies fisonomies
+30	8630	ranxo	ranxos
+31	8631	cruixent	cruixents
+32	8632	cubell	cubells
+33	8633	maquinari	maquinaris
+34	8634	accelerador	acceleradora acceleradores acceleradors
+35	8635	comprensiu	comprensius comprensiva comprensives
+36	8636	calamar	calamars
+37	8637	aglutinar	aglutina aglutinada aglutinades aglutinant aglutinants aglutinarà aglutinat aglutinats aglutinava aglutinaven aglutinen aglutini aglutinà aglutinés
+38	8638	fúnebre	fúnebres
+39	8639	novaiorquès	novaiorquesa novaiorqueses novaiorquesos novaiorqués
+40	8640	credo	credos
+41	8641	desesperar	desesper desespera desesperada desesperades desesperant desesperats desesperen desespereu desesperis
+42	8642	sigma	sigmes
+43	8643	fissura	fissures
+44	8644	dedicatòria	dedicatòries
+45	8645	llaurar	llaura llaurada llaurades llaurant llaurat llaurats llaurava llauraven llauren llaures llauri llauris llaurí
+46	8646	sociològic	sociològica sociològics sociològiques
+47	8647	sega	segues
+48	8648	ondar	ondada ondara onde
+49	8649	puré	purés
+50	8650	arna	arnes
+51	8651	encerclar	encercla encerclada encerclades encerclant encerclaren encerclat encerclats encerclava encerclaven encerclen
+52	8652	concís	concisa concises concisos
+53	8653	interaccionar	interacciona interaccionant interaccionat interaccionaven interaccionen interacciones interaccioni interaccionin
+54	8654	enganyós	enganyosa enganyoses enganyosos
+55	8655	castanyer	castanyera castanyeres castanyers
+56	8656	tremolor	tremolors
+57	8657	bordell	bordells
+58	8658	esculpir	esculpeix esculpeixen esculpia esculpida esculpides esculpien esculpint esculpit esculpits esculpí
+59	8659	boxa	
+60	8660	capacitació	
+61	8661	col·lectivitat	
+62	8662	escolarització	
+63	8663	fisioteràpia	
+64	8664	glucosa	
+65	8665	motociclisme	
+66	8666	presumiblement	
+67	8667	psicològicament	
+68	8668	repulsa	
+69	8669	sodi	
+70	8670	vigència	
+71	8671	barracó	barracons
+72	8672	porcar	porco porque porques porquí
+73	8673	repetitiu	repetitius repetitiva repetitives
+74	8674	jungla	jungles
+75	8675	redreçar	redrecen redreç redreça redreçant redreçat
+76	8676	allistar	allista allistant allistaren allistat allistats allisten allistà
+77	8677	torrassa	torrasses
+78	8678	penyal	penyals
+79	8679	contagiar	contagia contagiada contagiades contagiant contagiat contagiats contagien contagio
+80	8680	combatiu	combatius combativa combatives
+81	8681	acostament	acostaments
+82	8682	mataroní	mataronina mataronines mataronins
+83	8683	capitell	capitells
+84	8684	moscovita	moscovites
+85	8685	escanejar	escanegen escaneig escaneja escanejada escanejades escanejant escanejat escanejats escanejo
+86	8686	legislador	legisladora legisladors
+87	8687	prefix	prefixos
+88	8688	infinitat	infinitats
+89	8689	glop	glopet glops
+90	8690	disgustar	disgusta disgustada disgustat disgustats disgustava disgustà
+91	8691	centreafricà	centreafricana
+92	8692	arboç	arboços
+93	8693	precoç	precoces precoços
+94	8694	novè	novenes novens nové
+95	8695	trinquet	trinquets
+96	8696	subsistir	subsisteix subsisteixen subsisteixi subsistia subsistien subsistint subsistiren subsistirà subsistit subsistí
+97	8697	bruguera	brugueres
+98	8698	cantor	cantora cantores cantors
+99	8699	escrutini	escrutinis
+100	8700	caòtic	caòtica caòtics caòtiques

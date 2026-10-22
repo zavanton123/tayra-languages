@@ -1,0 +1,100 @@
+1	1301	soci	socis sòcia sòcies
+2	1302	investigar	investiga investigada investigades investigant investigaran investigarem investigaria investigarà investigaré investigat investigats investigava investigaven investigo investiguem investiguen investigues investiguessin investigueu investigui investiguin investiguis investigués investigà
+3	1303	nau	naus naveta navetes
+4	1304	vint	vints
+5	1305	dalt	
+6	1306	semblant	semblants
+7	1307	plegat	plegada plegades plegats
+8	1308	resum	resums
+9	1309	literari	literaris literària literàries
+10	1310	rebutjar	rebutgem rebutgen rebutges rebutgessin rebutgeu rebutgi rebutgin rebutgés rebutja rebutjada rebutjades rebutjant rebutjaran rebutjaren rebutjaria rebutjarien rebutjarà rebutjat rebutjats rebutjava rebutjaven rebutjo rebutjà
+11	1311	marina	marines
+12	1312	emetre	emesa emeses emesos emet emeta emetem emeten emetent emeteren emetessin emeti emetia emetien emetin emetran emetria emetrà emeté emetés emès
+13	1313	esperit	esperits
+14	1314	correcte	correcta correctes
+15	1315	hivern	hiverns
+16	1316	bar	bars
+17	1317	estratègia	estratègies
+18	1318	exposar	exposa exposada exposades exposant exposaran exposarem exposaren exposaria exposarien exposarà exposat exposats exposava exposaven exposem exposen exposes exposessin exposeu exposi exposin exposà exposés
+19	1319	riure	reia reien reies riem rient rieu riga rigueu rigui riguin riguis rigut rigués riuen riurem riures riureu riuria riurien riurà riuràs riuré rèiem
+20	1320	elevar	eleva elevada elevades elevant elevarem elevaren elevaria elevarien elevarà elevat elevats elevava elevaven elevem eleven elevi elevin elevà elevés
+21	1321	gravar	grava gravada gravades gravant gravaran gravaren gravaria gravarien gravarà gravat gravats gravava gravaven gravem graven graves gravessin graveu gravi gravin gravis gravà gravés
+22	1322	benefici	beneficis
+23	1323	llenguatge	llenguatges
+24	1324	damunt	
+25	1325	constituir	constitueix constitueixen constitueixi constitueixin constituint constituiran constituiria constituirien constituirà constituí constituís constituïa constituïda constituïdes constituïen constituïm constituïren constituïssin constituït constituïts constituïx constituïxen
+26	1326	habitual	habituals
+27	1327	desig	desigs desitjos
+28	1328	efectiu	efectius efectiva efectives
+29	1329	complex	complexa complexes complexos
+30	1330	inversió	inversions
+31	1331	despertar	desperta despertada despertades despertant despertaran despertaren despertaria despertarà despertaràs despertat despertats despertava despertaven desperte despertem desperten despertes desperteu desperti despertin despertis desperto despertà despertés
+32	1332	recomanar	recomana recomanada recomanades recomanant recomanaren recomanaria recomanarà recomanat recomanats recomanava recomanaven recomane recomanem recomanen recomanes recomaneu recomani recomano recomanà recomanés
+33	1333	cavall	cavallet cavallets cavalls
+34	1334	terrassa	terrasses
+35	1335	impacte	impactes
+36	1336	acadèmic	acadèmica acadèmics acadèmiques
+37	1337	jardí	jardins
+38	1338	demanda	demandes
+39	1339	dolent	dolenta dolentes dolents dolentíssim
+40	1340	paret	parets
+41	1341	ambdós	ambdues
+42	1342	habilitat	habilitada habilitades habilitats
+43	1343	laboral	laborals
+44	1344	recent	recents
+45	1345	creuar	creua creuada creuades creuant creuaran creuarem creuaren creuaria creuarien creuarà creuaré creuat creuats creuava creuaven creuem creuen creues creuessin creueu creui creuin creuis creuà creués
+46	1346	buit	buida buides buits
+47	1347	campió	campiona campiones campions
+48	1348	interpretar	interpreta interpretada interpretades interpretant interpretaran interpretaren interpretaria interpretarien interpretarà interpretat interpretats interpretava interpretaven interprete interpretem interpreten interpretes interpretessin interpreti interpretin interpretis interpreto interpretà interpretés
+49	1349	fantàstic	fantàstica fantàstics fantàstiques
+50	1350	be	bens bes besos bessos
+51	1351	autèntic	autèntica autèntics autèntiques
+52	1352	envoltar	envolta envoltada envoltades envoltant envoltants envoltaran envoltaren envoltarà envoltat envoltats envoltava envoltaven envoltem envolten envolteu envolti envoltin envoltà envoltés
+53	1353	comitè	comitès comité
+54	1354	matèria	matèries
+55	1355	gràfic	gràfica gràfics gràfiques
+56	1356	cuina	cuines
+57	1357	ministeri	ministeris
+58	1358	post	posta postes postos posts
+59	1359	os	oss ossa ossos ós óssa
+60	1360	turístic	turística turístics turístiques
+61	1361	convèncer	convencem convencen convencent convencerem convenceren convencereu convenceria convencerà convencessin convenceu convenci convencia convencien convencé convencés convenç convençuda convençudes convençut convençuts convéncer
+62	1362	decret	decrets
+63	1363	adult	adulta adultes adults
+64	1364	connectar	connecta connectada connectades connectant connectaran connectarem connectaren connectaria connectarà connectat connectats connectava connectaven connecte connectem connecten connectes connectessin connecti connectin connecto connectà connectés
+65	1365	continuació	continuacions
+66	1366	càmera	càmeres
+67	1367	autònom	autònoma autònomes autònoms
+68	1368	pobresa	
+69	1369	principalment	
+70	1370	reacció	reaccions
+71	1371	sobreviure	sobrevisc sobrevisca sobreviscut sobrevisqueren sobrevisquessin sobrevisqui sobrevisquin sobrevisqué sobrevisqués sobreviu sobreviuen sobreviuran sobreviurem sobreviuria sobreviurien sobreviurà sobreviuràs sobrevius sobrevivia sobrevivien sobrevivim sobrevivint
+72	1372	planeta	planetes
+73	1373	dissenyar	dissenya dissenyada dissenyades dissenyant dissenyaren dissenyaria dissenyarà dissenyat dissenyats dissenyava dissenyaven dissenyem dissenyen dissenyi dissenyo dissenyà dissenyés
+74	1374	absolut	absoluta absolutes absoluts
+75	1375	boca	boques
+76	1376	context	contextos contexts
+77	1377	cadascun	cadascuna
+78	1378	pa	panellet panellets panet panets pans
+79	1379	integrar	integra integrada integrades integrant integraran integraren integraria integrarien integrarà integrat integrats integrava integraven integre integrem integren integressin integri integrin integro integrà integrés
+80	1380	encarregar	encarrega encarregada encarregades encarregant encarregara encarregaran encarregarem encarregaren encarregaria encarregarien encarregarà encarregaré encarregats encarregava encarregaven encarrego encarregue encarreguem encarreguen encarregues encarreguessin encarregueu encarregui encarreguin encarregués encarregà
+81	1381	bell	bella belles bells bellíssim
+82	1382	plaer	plaers pler
+83	1383	permís	permisos
+84	1384	global	globals
+85	1385	frase	frases
+86	1386	ordenar	ordena ordenada ordenades ordenant ordenaran ordenaren ordenaria ordenarà ordenat ordenats ordenava ordenaven ordenem ordenen ordenes ordeneu ordeni ordenin ordenis ordeno ordenà ordenés
+87	1387	reina	reines reineta reinetes reyna
+88	1388	republicà	republicana republicanes republicans
+89	1389	introduir	introdueix introdueixen introdueixi introdueixin introdueixis introduint introduiran introduirem introduiria introduirien introduirà introduí introduís introduïa introduïda introduïdes introduïen introduïm introduïren introduïssin introduït introduïts introduïx introduïxen
+90	1390	impulsar	impulsa impulsada impulsades impulsant impulsaran impulsarem impulsaren impulsaria impulsarien impulsarà impulsat impulsats impulsava impulsaven impulsem impulsen impulsessin impulsi impulsin impulso impulsà impulsés
+91	1391	comte	comtes comtessa comtesses
+92	1392	acusar	acusa acusada acusades acusant acusaran acusaren acusaria acusarien acusarà acusats acusava acusaven acusen acuses acusessin acuseu acusi acusin acuso acusà acusés
+93	1393	gegant	geganta gegantes gegants
+94	1394	col·lectiu	
+95	1395	ex	
+96	1396	aportar	aport aporta aportada aportades aportant aportaran aportaren aportaria aportarien aportarà aportat aportats aportava aportaven aporte aporten aportes aportessin aporti aportin aportà aportés
+97	1397	estatal	estatals
+98	1398	cambra	cambres cambreta
+99	1399	orgullós	orgullosa orgulloses orgullosos
+100	1400	vergonya	vergonyes

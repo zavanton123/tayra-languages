@@ -1,0 +1,100 @@
+1	4801	traçat	traçada traçades traçats
+2	4802	competent	competents
+3	4803	tauró	taurons
+4	4804	fregar	frega fregada fregades fregant fregaran fregarà fregat fregats fregava fregaven freguen fregues
+5	4805	vestuari	vestuaris
+6	4806	humiliació	humiliacions
+7	4807	simpatitzant	simpatitzants
+8	4808	irresponsable	irresponsables
+9	4809	concretar	concreta concretada concretades concretant concretaren concretaria concretarien concretarà concretat concretats concretava concretaven concreten concretes concreti concreto concretà concretés
+10	4810	emprenyar	emprenya emprenyada emprenyades emprenyarà emprenyat emprenyats emprenyen emprenyi emprenyis emprenyo
+11	4811	prostitut	prostituta prostitutes prostituts
+12	4812	taxista	taxistes
+13	4813	infracció	infraccions
+14	4814	quadern	quaderns
+15	4815	mat	mats
+16	4816	volt	volts
+17	4817	pertinent	pertinents
+18	4818	transacció	transaccions
+19	4819	artefacte	artefactes
+20	4820	intimitat	intimitats
+21	4821	recompte	recomptes
+22	4822	tou	tous toves tua
+23	4823	trencament	trencaments
+24	4824	enterrament	enterraments
+25	4825	demandar	demandada demandades demandant demandants demandarà demandat demandats demandava demandaven demande demanden demandes demandà
+26	4826	llana	llanes
+27	4827	salat	salada salades salats
+28	4828	renom	renoms
+29	4829	llindar	llindars
+30	4830	discoteca	disco discoteques
+31	4831	cartró	cartrons
+32	4832	missatger	missatgera missatgeres missatgers
+33	4833	tomb	tombs
+34	4834	adient	adients
+35	4835	sirena	sirenes
+36	4836	cortesia	cortesies
+37	4837	configuració	configuracions
+38	4838	carib	caribs
+39	4839	emplaçament	emplaçaments
+40	4840	banquer	banquers
+41	4841	alteració	alteracions
+42	4842	caritat	caritats
+43	4843	novell	novella novelles novells
+44	4844	cérvol	cero ceros cérvola cérvoles cérvols
+45	4845	panxa	panxes
+46	4846	follar	folla follada follant follat follava folle follem follen folles folli follin follis follo
+47	4847	cobla	cobles
+48	4848	avant	
+49	4849	internacionalment	
+50	4850	llavor	
+51	4851	noces	
+52	4852	obertament	
+53	4853	pacíficament	
+54	4854	pietat	
+55	4855	prosperitat	
+56	4856	suficientment	
+57	4857	veritablement	
+58	4858	forense	forenses
+59	4859	truita	truites
+60	4860	panell	panells
+61	4861	segment	segments
+62	4862	genètic	genètics genètiques
+63	4863	fluix	fluixa fluixes fluixos
+64	4864	nevera	neveres
+65	4865	hostil	hostils
+66	4866	fregit	fregida fregides fregits
+67	4867	generador	generadora generadores generadors
+68	4868	entrepà	entrepans
+69	4869	burgès	burgesa burgeses burgesos burgés
+70	4870	miner	minera mineres miners
+71	4871	fre	frens
+72	4872	enllestir	enllesteix enllestia enllestida enllestides enllestim enllestint enllestiren enllestit enllestits enllestí
+73	4873	falcó	falconet falcons
+74	4874	viral	virals
+75	4875	marinar	marinada marinat marinats marino marín
+76	4876	aplec	aplecs
+77	4877	madurar	madura madurada madurades madurant madurarà madurat madurats maduren madures maduri madurin maduro
+78	4878	cineasta	cineastes
+79	4879	drap	draps
+80	4880	tronc	troncs
+81	4881	artesania	artesanies
+82	4882	predir	predeia predeien predient predigué predit predita predites predits prediu prediuen
+83	4883	enveja	enveges
+84	4884	respectuós	respectuosa respectuoses respectuosos
+85	4885	narrador	narradora narradores narradors
+86	4886	verb	verbs
+87	4887	insular	insulars
+88	4888	inclusiu	inclusius inclusiva inclusives
+89	4889	honorar	honora honorada honorant honorat honorats honorava honoraven honorem honoren honoreu honoris honorà
+90	4890	errar	erra errades errant errants errat errats errava erre erren erres erri erro errà
+91	4891	dens	densa denses densos
+92	4892	sentimental	sentimentals
+93	4893	reprimir	reprimeix reprimeixen reprimia reprimida reprimides reprimien reprimint reprimit reprimits reprimí
+94	4894	pedrera	pedreres
+95	4895	reporter	reportera reporteres reporters
+96	4896	mediació	mediacions
+97	4897	enriquir	enriqueix enriqueixen enriquia enriquida enriquides enriquien enriquint enriquiren enriquirà enriquit enriquits enriquí
+98	4898	cullera	culleres
+99	4899	prestació	prestacions
+100	4900	complicar	complica complicada complicades complicant complicaren complicaria complicarà complicats complicava complicaven complicà compliquem compliquen compliqui

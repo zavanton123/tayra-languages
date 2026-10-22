@@ -1,0 +1,100 @@
+1	6901	romanç	romanços
+2	6902	quadrar	quadrada quadrades quadraria quadrats quadrava quadraven quadren quadres quadri quadro
+3	6903	aixafar	aixafa aixafada aixafades aixafant aixafaria aixafat aixafats aixafava aixafen
+4	6904	decapitar	decapita decapitada decapitades decapitant decapitat decapitats decapiten decapità
+5	6905	impotent	impotents
+6	6906	ria	ries
+7	6907	psicòpata	psicòpates
+8	6908	comparsa	comparses
+9	6909	sardina	sardines
+10	6910	satisfactori	satisfactoris satisfactòria satisfactòries
+11	6911	argila	argiles
+12	6912	bastard	bastarda bastardes bastards
+13	6913	balada	balades
+14	6914	afroamericà	afroamericana afroamericanes afroamericans
+15	6915	fèrtil	fèrtils
+16	6916	espanyolista	espanyolistes
+17	6917	filera	fileres
+18	6918	píndola	píndoles
+19	6919	numèric	numèrica numèrics numèriques
+20	6920	antibiòtic	antibiòtica antibiòtics antibiòtiques
+21	6921	desarmar	desarma desarmada desarmades desarmant desarmat desarmats desarmen
+22	6922	teologia	teologies
+23	6923	vessament	vessaments
+24	6924	activació	activacions
+25	6925	lloança	lloances
+26	6926	ratificació	ratificacions
+27	6927	modernització	modernitzacions
+28	6928	frare	frares
+29	6929	metròpoli	metròpolis
+30	6930	collonada	collonades
+31	6931	nosa	noses
+32	6932	blindat	blindada blindades blindats
+33	6933	prescindir	prescindeix prescindeixen prescindia prescindint prescindit prescindís
+34	6934	prevaler	preval prevaldran prevaldre prevaldrà prevalen prevalent prevalgui prevalgut prevalgués prevalia prevalien
+35	6935	sabadellenc	sabadellenca sabadellencs sabadellenques
+36	6936	dispers	dispersa disperses dispersos
+37	6937	xalet	xalets
+38	6938	glacera	glaceres
+39	6939	populista	populistes
+40	6940	revoltar	revoltada revoltades revoltant revoltaren revoltat revoltats revoltava revolten revoltes revoltà
+41	6941	anonimat	
+42	6942	anterioritat	
+43	6943	carinyo	
+44	6944	confort	
+45	6945	industriar	industria
+46	6946	negativament	
+47	6947	objectivament	
+48	6948	secretariat	
+49	6949	tacte	
+50	6950	quinta	quintes
+51	6951	sociòleg	sociòlegs sociòloga
+52	6952	habilitar	habilita habilitada habilitades habilitant habilitaren habilitats habilitava habilitaven habiliten habiliti habilità habilités
+53	6953	electró	electrons
+54	6954	evolutiu	evolutius evolutiva evolutives
+55	6955	trompa	trompes
+56	6956	acreditació	acreditacions
+57	6957	espinós	espinosa espinoses espinosos
+58	6958	apropiació	apropiacions
+59	6959	exquisit	exquisida exquisides exquisits
+60	6960	abadessa	abadesses abats
+61	6961	secundar	secund secunda secundada secundades secundant secundaren secundaria secundaries secundat secundats secundava secundaven secunden secundi secundo secundà
+62	6962	porció	porcions
+63	6963	intriga	intrigues
+64	6964	devastador	devastadora devastadores devastadors
+65	6965	retrocés	retrocessos
+66	6966	emmascarar	emmascara emmascarada emmascarades emmascarant emmascarat emmascarats emmascaren
+67	6967	desconcertar	desconcerta desconcertada desconcertant desconcertants desconcertat desconcertats desconcertà
+68	6968	flagrant	flagrants
+69	6969	nefast	nefasta nefastes nefastos nefasts
+70	6970	sabotatge	sabotatges
+71	6971	abdominal	abdominals
+72	6972	barana	baranes
+73	6973	atribució	atribucions
+74	6974	travessia	travessies
+75	6975	vestimenta	vestimentes
+76	6976	escorça	escorces
+77	6977	brodar	broda brodada brodades brodant brodat brodats broden
+78	6978	disgust	disgustos disgusts
+79	6979	reelegir	reelegida reelegit reelegits
+80	6980	drenatge	drenatges
+81	6981	medusa	meduses
+82	6982	antidemocràtic	antidemocràtica antidemocràtics antidemocràtiques
+83	6983	baptista	baptistes
+84	6984	majordom	majordoma majordoms
+85	6985	àgil	àgils
+86	6986	jacint	jacints
+87	6987	escorcollar	escorcolla escorcollada escorcollant escorcollat escorcollats escorcollen
+88	6988	caní	canina canines canins
+89	6989	ela	ele eles
+90	6990	gestació	gestacions
+91	6991	coneixedor	coneixedora coneixedores coneixedors
+92	6992	sagrera	sagreres
+93	6993	extremitat	extremitats
+94	6994	supòsit	supòsits
+95	6995	pinça	pinces
+96	6996	formidable	formidables
+97	6997	infart	infarts
+98	6998	botar	botada botam botant botat bote boten botes boti botin boto
+99	6999	cripta	criptes
+100	7000	polzada	polzades

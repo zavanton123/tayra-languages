@@ -1,0 +1,100 @@
+1	9301	cistell	cistells
+2	9302	ratllar	ratllada ratllades ratllant ratllats ratllava ratllaven ratllen ratlles ratllis
+3	9303	floreta	floretes
+4	9304	porquet	porquets
+5	9305	colonitzador	colonitzadora colonitzadores colonitzadors
+6	9306	budisme	
+7	9307	cinisme	
+8	9308	desconcert	
+9	9309	eradicar	
+10	9310	magnesi	
+11	9311	patum	
+12	9312	proletariat	
+13	9313	selectivitat	
+14	9314	zinc	
+15	9315	neandertal	neandertals
+16	9316	privació	privacions
+17	9317	trampós	tramposa tramposos
+18	9318	esvelt	esvelta esveltes esvelts
+19	9319	corriol	corriols
+20	9320	rosca	rosques
+21	9321	púnic	púnica púnics púniques
+22	9322	aberració	aberracions
+23	9323	bau	baus
+24	9324	cunyada	cunyades
+25	9325	flautista	flautistes
+26	9326	calçotada	calçotades
+27	9327	lúcid	lúcida lúcides lúcids
+28	9328	servitud	servituds
+29	9329	temperament	temperaments
+30	9330	endurar	endura endurem endureu enduro endurà enduràs endurí
+31	9331	fraternal	fraternals
+32	9332	desmesurat	desmesurada desmesurades desmesurats
+33	9333	moraga	moragues
+34	9334	renovador	renovadora renovadores renovadors
+35	9335	xop	xopa xopes xops
+36	9336	arxivístic	arxivística arxivístics arxivístiques
+37	9337	burocràtic	burocràtica burocràtics burocràtiques
+38	9338	pecar	peca peco peque pequem pequen peques pequin
+39	9339	indultar	indulta indultada indultat indultats
+40	9340	esprint	esprints
+41	9341	eivissenc	eivissenca eivissencs eivissenques
+42	9342	mugró	mugrons
+43	9343	sahrauí	sahrauís
+44	9344	joiós	joiosa joioses joiosos
+45	9345	honrar	honrada honrades honrant honrarà honrats honrem honren honres
+46	9346	mutilar	mutila mutilada mutilades mutilant mutilat mutilats mutilen
+47	9347	cantaire	cantaires
+48	9348	tutelar	tutelada tutelades tutelars tutelat tutelats tuteles
+49	9349	populisme	populismes
+50	9350	falca	falques
+51	9351	flanquejar	flanquegen flanqueig flanqueja flanquejada flanquejades flanquejant flanquejat flanquejats flanquejaven
+52	9352	paleolític	paleolítica paleolítics paleolítiques
+53	9353	pediàtric	pediàtrica pediàtrics pediàtriques
+54	9354	agermanar	agermana agermanada agermanades agermanat agermanats agermanen
+55	9355	fumador	fumadora fumadores fumadors
+56	9356	místic	místics místiques
+57	9357	esfèric	esfèrica esfèrics esfèriques
+58	9358	albanès	albanesa albaneses albanesos albanés
+59	9359	mànager	mànagers
+60	9360	postrar	postrada postrat postre
+61	9361	curós	curosa curoses curosos
+62	9362	eufemisme	eufemismes
+63	9363	alleugerir	alleugerar alleugereix alleugereixen alleugeria alleugerida alleugerides alleugerint alleugerit alleugerits
+64	9364	destresa	destreses
+65	9365	bitxo	bitxos
+66	9366	diferenciació	diferenciacions
+67	9367	vèrtex	vèrtexs
+68	9368	irreal	irreals
+69	9369	platònic	platònica platònics platòniques
+70	9370	conjurar	conjur conjura conjurat conjurats conjuren conjurs
+71	9371	aparellar	aparella aparellada aparellades aparellant aparellat aparellats aparellaven aparellen
+72	9372	resignar	resigna resignada resignant resignat resignats resignava resignen
+73	9373	immillorable	immillorables
+74	9374	bugaderia	bugaderies
+75	9375	copilot	copilots
+76	9376	gelar	gela gelades gelant gelats gelava gelem gelen geles geli gelis
+77	9377	peluix	peluixos
+78	9378	arraconar	arracona arraconada arraconades arraconant arraconat arraconats arraconen arraconà
+79	9379	paredar	pared paredada paredes
+80	9380	baronia	baronies
+81	9381	incògnita	incògnites
+82	9382	neoclàssic	neoclàssica neoclàssics neoclàssiques
+83	9383	clarinet	clarinets
+84	9384	peculiaritat	peculiaritats
+85	9385	punter	puntera punteres punters
+86	9386	iberoamericà	iberoamericana iberoamericanes iberoamericans
+87	9387	almogàver	almogàvers
+88	9388	deshabitar	deshabitada deshabitades deshabitat deshabitats
+89	9389	exportador	exportadora exportadores exportadors
+90	9390	endreçar	endrecen endreça endreçada endreçat endreçats
+91	9391	telègraf	telègrafs
+92	9392	anestèsia	
+93	9393	apatia	
+94	9394	automoció	
+95	9395	civada	
+96	9396	còlon	
+97	9397	dolçor	
+98	9398	genèticament	
+99	9399	industrialització	
+100	9400	judicatura	

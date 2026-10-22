@@ -1,0 +1,100 @@
+1	1001	règim	règims
+2	1002	testimoni	testimonis
+3	1003	autoritat	autoritats
+4	1004	figura	figures
+5	1005	cantar	canta cantada cantades cantam cantara cantaran cantarem cantaren cantares cantareu cantaria cantarien cantarà cantaràs cantaré cantat cantats cantava cantaven cantaves cante cantem canten cantes cantessin cantessis canteu canti cantin cantis canto cantà cantàvem cantés cantí
+6	1006	concepte	conceptes
+7	1007	resoldre	resol resolc resoldran resoldrem resoldria resoldrien resoldrà resoldré resolem resolen resolent resolga resolgueren resolguessin resolgui resolguin resolguis resolgué resolgués resolia resolien resols resolt resolta resoltes resolts
+8	1008	voluntat	voluntats
+9	1009	alliberar	allibera alliberada alliberades alliberant alliberaran alliberarem alliberaren alliberaria alliberarien alliberarà alliberaràs alliberat alliberats alliberava alliberaven alliberem alliberen alliberes alliberessin allibereu alliberi alliberin allibero alliberà alliberés
+10	1010	reial	reials
+11	1011	preferir	prefereix prefereixen prefereixes prefereixi prefereixin prefereixis prefereixo preferia preferida preferides preferien preferim preferint preferiren preferiria preferirien preferiries preferirà preferiríem preferisc preferissin preferit preferits preferiu preferix preferixen preferí preferís
+12	1012	propietari	propietaris propietària propietàries
+13	1013	gos	gossa gosses gosset gossets gossos
+14	1014	provar	provada provades provant provaran provarem provaren provaria provarien provarà provaràs provaré provat provats provava provaven provem proven proves provessin proveu provi provin provis provo provà provés
+15	1015	moure	moc mocs moga moguda mogudes moguem mogueren mogues moguessin mogueu mogui moguin moguis mogut moguts mogué mogués mou mouen mouran mourem mouria mourien mourà mouràs mouré mous movem movent moveu movia movien movies
+16	1016	contrari	contraris contrària contràries
+17	1017	tractament	tractaments
+18	1018	promoure	promoguda promogudes promoguen promogueren promoguessin promogui promoguin promogut promoguts promogué promogués promou promouen promouran promouria promourien promourà promovem promovent promovia promovien
+19	1019	ocupació	ocupacions
+20	1020	contenir	contenen contengut contenguts contenia contenien contenint contindran contindre contindria contindrà continga continguda contingudes continguen continguessin contingui continguin continguts contingué contingués conté
+21	1021	estranger	estrangera estrangeres estrangers
+22	1022	papa	papes
+23	1023	modern	moderna modernes moderns
+24	1024	botiga	botigues
+25	1025	balear	balears
+26	1026	ferit	ferida ferides ferits
+27	1027	simplement	
+28	1028	totalment	
+29	1029	urbà	urbana urbanes urbans
+30	1030	confirmar	confirma confirmada confirmades confirmant confirmarem confirmaren confirmaria confirmarien confirmarà confirmat confirmats confirmava confirmaven confirmem confirmen confirmes confirmessin confirmeu confirmi confirmin confirmo confirmà confirmés
+31	1031	dependre	depenc dependran dependria dependrien dependrà depenem depenen depenent depengueren depenguessin depengui depenguin depengué depengués depenia depenien depeses depèn depès
+32	1032	límit	límits
+33	1033	culpa	culpes
+34	1034	caminar	camina caminada caminades caminant caminants caminarem caminaren caminaria caminarà caminaràs caminaré caminat caminava caminaven caminaves caminem caminen camines camineu camini caminin caminis camino caminà caminàs caminàvem caminés camín
+35	1035	roba	robes
+36	1036	bosc	boscos boscs
+37	1037	imaginar	imagina imaginada imaginades imaginant imaginaren imaginaria imaginaries imaginat imaginats imaginau imaginava imaginaven imaginaves imaginem imaginen imagines imagineu imagini imaginis imagino imaginà imaginàvem
+38	1038	actor	actora actores actors actriu actrius
+39	1039	nadal	nadals
+40	1040	blau	blaus blava blaves
+41	1041	identificar	identifica identificada identificades identificant identificaran identificarem identificaren identificaria identificarien identificarà identificat identificats identificava identificaven identificà identifiquem identifiquen identifiques identifiquessin identifiqui identifiquin identifiqués
+42	1042	vaga	vagues
+43	1043	alternatiu	alternatius alternativa alternatives
+44	1044	italià	italiana italianes italians
+45	1045	ric	rica rics riques
+46	1046	aixecar	aixec aixeca aixecada aixecades aixecant aixecaran aixecarem aixecaren aixecaria aixecarien aixecarà aixecaràs aixecaré aixecat aixecats aixecava aixecaven aixeco aixecà aixequem aixequen aixeques aixequessin aixequeu aixequi aixequin aixequis aixequés
+47	1047	guanyador	guanyadora guanyadores guanyadors
+48	1048	enrere	
+49	1049	juntament	
+50	1050	quasi	
+51	1051	indústria	indústries
+52	1052	destruir	destrueix destrueixen destrueixes destrueixi destrueixin destrueixis destruint destruiran destruirem destruiria destruirien destruirà destruiré destruí destruís destruïa destruïda destruïdes destruïen destruïm destruïren destruïssin destruït destruïts destruïu
+53	1053	pressupost	pressupostos pressuposts
+54	1054	objecte	objectes
+55	1055	espècie	espècies
+56	1056	restaurant	restaurants
+57	1057	fals	falsa falses falsos
+58	1058	cel	cels
+59	1059	visió	visions
+60	1060	legal	legals
+61	1061	flor	flors
+62	1062	anàlisi	anàlisis
+63	1063	sanitari	sanitaris sanitària sanitàries
+64	1064	hotel	hotels
+65	1065	metge	metges metgessa
+66	1066	generació	generacions
+67	1067	conseller	consellera conselleres consellers
+68	1068	complet	completa completes complets
+69	1069	esperança	esperances
+70	1070	ambient	ambients
+71	1071	tècnic	tècnics tècniques
+72	1072	directament	
+73	1073	impossible	impossibles
+74	1074	separar	separa separada separades separant separaran separarem separaren separaria separarien separarà separat separats separava separaven separe separem separen separes separessin separeu separi separin separà separàvem separés
+75	1075	expressar	expressa expressada expressades expressant expressaran expressarem expressaren expressaria expressarà expressat expressats expressava expressaven expressem expressen expresses expressessin expresseu expressi expressin expresso expressà expressés exprès
+76	1076	exigir	exigeix exigeixen exigeixes exigeixi exigeixin exigeixo exigia exigida exigides exigien exigim exigint exigiran exigirem exigiren exigiria exigirien exigirà exigiré exigissin exigit exigits exigiu exigix exigixen exigí exigís
+77	1077	sentiment	sentiments
+78	1078	particular	particulars
+79	1079	escala	escales
+80	1080	crida	crides
+81	1081	beure	bec becs beguda begudes beguem begues begueu begui beguin beguines beguis begut beguts begué begués beu beuen beuran beurem beures beuria beurà beuràs beuré beus bevem bevent beveu bevia bevien bevies
+82	1082	àmbit	àmbits
+83	1083	viatjar	viatgem viatgen viatges viatgessin viatgeu viatgi viatgin viatgis viatgés viatja viatjant viatjants viatjaran viatjarem viatjaren viatjaria viatjarien viatjarà viatjaré viatjat viatjava viatjaven viatjo viatjà
+84	1084	telèfon	telf telèfons
+85	1085	pell	pells
+86	1086	disseny	dissenys
+87	1087	cremar	crem cremada cremades cremant cremaran cremarem cremaren cremaria cremarien cremarà cremaràs cremaré cremat cremats cremava cremaven cremem cremen cremes cremessin cremeu cremi cremin cremis cremo cremà cremés
+88	1088	observar	observa observada observades observant observants observaran observarem observaren observaria observarà observat observats observava observaven observem observen observes observessin observeu observi observin observis observo observà observés
+89	1089	caràcter	caràcters
+90	1090	sang	sangs
+91	1091	carrera	carreres
+92	1092	dècada	dècades
+93	1093	content	contenta contentes contents
+94	1094	enemic	enemics enemiga enemigues
+95	1095	clàssic	clàssica clàssics clàssiques
+96	1096	pista	pistes
+97	1097	ocasió	ocasions
+98	1098	coll	collet collets colls
+99	1099	conduir	condueix condueixen condueixes condueixi condueixin condueixis condueixo conduint conduiran conduirem conduiria conduirien conduirà conduiré conduí conduís conduïa conduïda conduïdes conduïen conduïm conduïren conduïsquen conduïssin conduït conduïts conduïu conduïx conduïxen
+100	1100	assistir	assisteix assisteixen assisteixes assisteixi assisteixin assisteixo assistia assistida assistides assistien assistim assistint assistiran assistirem assistiren assistiria assistirien assistirà assistiràs assistiré assistissin assistit assistits assistix assistí assistís

@@ -1,0 +1,100 @@
+1	8101	engranatge	engranatges
+2	8102	conglomerat	conglomerats
+3	8103	improbable	improbables
+4	8104	amfiteatre	amfiteatres
+5	8105	manco	manques
+6	8106	lava	laves
+7	8107	amagatall	amagatalls
+8	8108	quintar	quintades quintars quintes quinti quinto quintos quintí
+9	8109	alliberació	
+10	8110	col·leccionista	
+11	8111	connivència	
+12	8112	convenciment	
+13	8113	desesperadament	
+14	8114	esclavatge	
+15	8115	eventualment	
+16	8116	freqüentment	
+17	8117	idoneïtat	
+18	8118	melic	
+19	8119	riquerar	riquer
+20	8120	solidesa	
+21	8121	sol·licitant	
+22	8122	summament	
+23	8123	trilingüisme	
+24	8124	vàlua	
+25	8125	úter	
+26	8126	làpida	làpides
+27	8127	descontent	descontents
+28	8128	lletrat	lletrada lletrades lletrats
+29	8129	gripau	gripal gripals gripaus
+30	8130	reproductiu	reproductius reproductiva reproductives
+31	8131	vòmit	vòmits
+32	8132	escurçar	escurcen escurça escurçada escurçades escurçant escurçaria escurçat escurçats escurçava escurçaven
+33	8133	lona	lones
+34	8134	patrullar	patrullant patrullava patrullaven patrullen patrulles
+35	8135	alcoià	alcoiana alcoianes alcoians
+36	8136	minúscula	minúscules
+37	8137	ocre	ocres
+38	8138	granet	granets
+39	8139	reedició	reedicions
+40	8140	molló	mollons
+41	8141	sabatilla	sabatilles
+42	8142	intuir	intueix intueixen intueixo intuint intuí intuïa intuïen intuïm intuït
+43	8143	inhumà	inhumana inhumanes inhumans
+44	8144	agosarat	agosarada agosarades agosarats
+45	8145	sénia	sénies
+46	8146	imprevisible	imprevisibles
+47	8147	reactivar	reactivada reactivant reactivat reactivem reactiven reactivi reactivà
+48	8148	neutró	neutrons
+49	8149	gavina	gavines
+50	8150	anal	anals
+51	8151	bruixot	bruixots
+52	8152	adulteri	adulteris
+53	8153	contraposar	contraposa contraposada contraposades contraposant contraposat contraposats contraposava contraposaven contraposen
+54	8154	indumentària	indumentàries
+55	8155	retina	retines
+56	8156	telemàtica	telemàtiques
+57	8157	obac	obacs obaga obagues
+58	8158	silueta	siluetes
+59	8159	insegur	insegura insegures insegurs
+60	8160	saturar	satura saturada saturades saturant saturat saturats saturen saturi
+61	8161	memoritzar	memoritza memoritzada memoritzades memoritzant memoritzat memoritzats memoritzava memoritzaven memoritzem memoritzen memoritzeu
+62	8162	enciam	enciams encisam
+63	8163	insuperable	insuperables
+64	8164	tempo	tempos
+65	8165	descomposició	descomposicions
+66	8166	regressió	regressions
+67	8167	divinitat	divinitats
+68	8168	aforament	aforaments
+69	8169	terrassenc	terrassenca terrassencs terrassenques
+70	8170	làmpada	làmpades
+71	8171	germànic	germànica germànics germàniques
+72	8172	mesclar	mesclada mesclades mesclant mesclat mesclats mesclava mesclaven mesclem mesclen mescles mesclin
+73	8173	clavegueram	claveguerams
+74	8174	pakistanès	pakistanesa pakistaneses pakistanesos
+75	8175	fideu	fideus
+76	8176	fatiga	fatigues
+77	8177	autobiogràfic	autobiogràfica autobiogràfics autobiogràfiques
+78	8178	gavarra	gavarres
+79	8179	ranci	rancis rància ràncies
+80	8180	paloma	palomes
+81	8181	llima	llimes
+82	8182	logístic	logístics logístiques
+83	8183	escapament	escapaments
+84	8184	robust	robusta robustes robustos robusts
+85	8185	bioquímica	bioquímiques
+86	8186	inacabat	inacabada inacabades inacabats
+87	8187	impermeable	impermeables
+88	8188	mamut	mamuts
+89	8189	toxina	toxines
+90	8190	africar	africada africat africats afrique
+91	8191	incessant	incessants
+92	8192	angolès	angolesa angoleses angolesos
+93	8193	patinet	patinets
+94	8194	bis	bisos
+95	8195	depurar	depura depurada depurades depurant depurat depurats depuren
+96	8196	traumàtic	traumàtica traumàtics traumàtiques
+97	8197	manament	manaments
+98	8198	acuradament	
+99	8199	cansament	
+100	8200	clergat	

@@ -1,0 +1,100 @@
+1	9501	testicle	testicles
+2	9502	castellonenc	castellonenca castellonencs castellonenques
+3	9503	oratori	oratoris oratòries
+4	9504	gravador	gravadora gravadores gravadors
+5	9505	reglamentari	reglamentaris reglamentària reglamentàries
+6	9506	floc	flocs
+7	9507	pinzellada	pinzellades
+8	9508	oratòria	oratòries
+9	9509	auca	auques
+10	9510	groguenc	groguenca groguencs groguenques
+11	9511	finlandès	finlandesa finlandeses finlandesos finlandés
+12	9512	vistós	vistosa vistoses vistosos
+13	9513	vespra	vespres
+14	9514	noucentista	noucentistes
+15	9515	hospitalització	hospitalitzacions
+16	9516	ciri	ciris
+17	9517	randa	randes
+18	9518	regadiu	regadius
+19	9519	foral	forals
+20	9520	pinar	pinars
+21	9521	rotlle	rogle rotlles rotlo
+22	9522	muscle	muscles
+23	9523	murcià	murciana murcianes murcians
+24	9524	decadent	decadents
+25	9525	giratori	giratoris giratòria giratòries
+26	9526	prior	priora priores priors
+27	9527	assetjador	assetjadora assetjadores assetjadors
+28	9528	acaballes	
+29	9529	al·lèrgia	
+30	9530	bilingüisme	
+31	9531	criminalitat	
+32	9532	dux	
+33	9533	endeutament	
+34	9534	estadísticament	
+35	9535	magnetisme	
+36	9536	oficialitat	
+37	9537	pèrsic	
+38	9538	solvència	
+39	9539	tamarit	
+40	9540	baga	bagues
+41	9541	sicilià	siciliana sicilianes sicilians
+42	9542	dominic	dominica dominics dominiques
+43	9543	gàngster	gàngsters
+44	9544	endeutar	endeuta endeutada endeutant endeutat endeutats
+45	9545	emfatitzar	emfatitza emfatitzant emfatitzat emfatitzava emfatitzaven emfatitzen emfatitzà
+46	9546	niar	nia niades nien nio
+47	9547	entristir	entristeix entristida entristit entristits
+48	9548	congestió	congestions
+49	9549	beneit	beneita beneites beneits
+50	9550	rentador	rentadores rentadors
+51	9551	patinador	patinadora patinadores patinadors
+52	9552	paginar	pagina pagine pagines
+53	9553	sinopsi	sinopsis
+54	9554	llesca	llesques
+55	9555	optimització	optimitzacions
+56	9556	sangonera	sangoneres
+57	9557	cotització	cotitzacions
+58	9558	nàusea	nàusees
+59	9559	dissuadir	dissuadeix dissuadeixen dissuadit
+60	9560	seducció	seduccions
+61	9561	forcat	forcada forcades forcats
+62	9562	casquet	casquets
+63	9563	vitrina	vitrines
+64	9564	midar	midem mides midi midis mido
+65	9565	curset	cursets
+66	9566	taurí	taurina taurines taurins
+67	9567	primícia	primícies
+68	9568	reposició	reposicions
+69	9569	miraculós	miraculosa miraculoses miraculosos
+70	9570	temerari	temeraris temerària temeràries
+71	9571	mandrós	mandrosa mandrosos
+72	9572	alzinar	alzinars
+73	9573	eclipsar	eclipsa eclipsada eclipsades eclipsant eclipsarà eclipsat eclipsats eclipsava eclipsen eclipses eclipsis
+74	9574	gerència	gerències
+75	9575	capacitar	capacita capacitada capacitades capacitant capacitats capaciten capacità
+76	9576	hobby	hobbies
+77	9577	pomada	pomades
+78	9578	espardenya	espardenyes
+79	9579	despatxar	despatxa despatxada despatxant despatxaran despatxat despatxats despatxava despatxen
+80	9580	orgasme	orgasmes
+81	9581	reactiu	reactius reactiva reactives
+82	9582	reemplaçament	reemplaçaments
+83	9583	maionesa	maioneses
+84	9584	mitològic	mitològica mitològics mitològiques
+85	9585	carisma	carismes
+86	9586	recopilatori	recopilatoris recopilatòria
+87	9587	simposi	simposis
+88	9588	cúmul	cúmuls
+89	9589	soterrament	soterraments
+90	9590	distanciament	distanciaments
+91	9591	encausar	encausada encausades encausat encausats
+92	9592	seixantè	seixantena
+93	9593	nutricional	nutricionals
+94	9594	meritori	meritoris meritòria meritòries
+95	9595	renal	renals
+96	9596	protó	protons
+97	9597	textual	textuals
+98	9598	bri	brins
+99	9599	atapeït	atapeïda atapeïdes atapeïts
+100	9600	vegà	vegana veganes vegans

@@ -1,0 +1,100 @@
+1	1401	identitat	identitats
+2	1402	suficient	suficients
+3	1403	existència	existències
+4	1404	breu	breus
+5	1405	primavera	primaveres
+6	1406	colla	colles
+7	1407	lluna	llunes lluneta llunetes
+8	1408	profund	profunda profundes profunds
+9	1409	circular	circul circula circulada circulant circulants circularan circularen circularia circulars circularà circulat circulava circulaven circulen circulessin circuleu circuli circulin circulo circulà circulés
+10	1410	competició	competicions
+11	1411	sorgir	sorgeix sorgeixen sorgeixi sorgeixin sorgia sorgida sorgides sorgien sorgint sorgiran sorgiren sorgiria sorgirien sorgirà sorgissin sorgit sorgits sorgix sorgixen sorgí sorgís
+12	1412	pintar	pintada pintades pintant pintaran pintarem pintaren pintaria pintarà pintaré pintat pintats pintava pintaven pintem pinten pintes pinteu pinti pintin pinto pintà pintés
+13	1413	estona	estones estoneta
+14	1414	dolor	dolors
+15	1415	senyal	senyals
+16	1416	pacient	pacients
+17	1417	cort	corts
+18	1418	enguany	
+19	1419	llit	llits
+20	1420	homenatge	homenatges
+21	1421	traduir	tradueix tradueixen tradueixi tradueixin traduint traduiran traduiria traduirien traduirà traduí traduís traduïa traduïda traduïdes traduïen traduïm traduïren traduïssin traduït traduïts traduïx
+22	1422	intent	intents
+23	1423	emprar	empr empra emprada emprades emprant empraran emprarem empraren empraria emprarien emprarà emprat emprats emprava empraven empre emprem empren empres empressin empri emprin empro emprà emprés
+24	1424	fil	filet filets fils
+25	1425	cicle	cicles
+26	1426	músic	músics músiques
+27	1427	dibuix	dibuixos
+28	1428	xifra	xifres
+29	1429	medi	medis
+30	1430	fixar	fixa fixada fixades fixant fixaran fixarem fixaren fixaria fixarà fixaré fixat fixats fixau fixava fixaven fixe fixem fixen fixes fixessin fixeu fixi fixin fixis fixo fixà fixés
+31	1431	capítol	capítols
+32	1432	residència	residències
+33	1433	soler	solc solcs solem solen solent solera soleres solers soleu solia solien solies solíem
+34	1434	durar	dura durades durara duraran duraren duraria durarien durarà durat durava duraven dure durem duren dures duressin duri durin duris duro duros durà durés
+35	1435	joventut	joventuts
+36	1436	àngel	àngels
+37	1437	mètode	mètodes
+38	1438	collons	colló
+39	1439	plantejar	plantegem plantegen planteges plantegessin plantegi plantegin plantegés planteig planteja plantejada plantejades plantejant plantejaran plantejaren plantejaria plantejarà plantejat plantejats plantejava plantejaven plantejo plantejà plantejàvem
+40	1440	influència	influències
+41	1441	protagonista	protagonistes
+42	1442	plorar	plora plorada plorades plorant ploraran plorarem ploraria plorarà ploraràs ploraré plorat plorava ploraven ploraves plore plorem ploren plores ploreu plori ploris ploro plorà
+43	1443	salvador	salvadora salvadores salvadors
+44	1444	posterior	posteriors
+45	1445	difusió	difusions
+46	1446	ma	
+47	1447	petició	peticions
+48	1448	pes	pesos
+49	1449	argentí	argentina argentines argentins
+50	1450	domini	dominis
+51	1451	individual	individuals
+52	1452	inscripció	inscripcions
+53	1453	instrument	instruments
+54	1454	palma	palmes
+55	1455	monument	monuments
+56	1456	evolució	evolucions
+57	1457	presoner	presonera presoneres presoners
+58	1458	investigador	investigadora investigadores investigadors
+59	1459	braç	braços
+60	1460	ball	balls
+61	1461	ampliar	amplia ampliada ampliades ampliant ampliaran ampliarem ampliaren ampliaria ampliarien ampliarà ampliat ampliats ampliava ampliaven amplie ampliem amplien amplies ampliessin amplio amplià ampliés ampliï ampliïn
+62	1462	contracte	contractes
+63	1463	segurament	
+64	1464	completar	completa completada completades completant completaran completaren completaria completarien completarà completat completats completava completaven completem completen completes completessin completi completin completo completà completés
+65	1465	tram	trams
+66	1466	centenar	centenars
+67	1467	perseguir	persegueix persegueixen persegueixes persegueixi persegueixin persegueixo perseguia perseguida perseguides perseguien perseguim perseguint perseguiran perseguirem perseguiren perseguiria perseguirà perseguissin perseguit perseguits perseguí perseguís
+68	1468	san	sans
+69	1469	recull	reculls
+70	1470	fàbrica	fàbriques
+71	1471	groc	grocs groga grogues
+72	1472	dificultat	dificultada dificultades dificultats
+73	1473	suprem	suprema supremes suprems
+74	1474	previ	previs prèvia prèvies
+75	1475	roda	rodes
+76	1476	càncer	càncers
+77	1477	rural	rurals
+78	1478	for	fors
+79	1479	factor	factors
+80	1480	puig	puigs
+81	1481	registrar	registra registrada registrades registrant registraran registraren registraria registrarà registrat registrats registrava registraven registrem registren registres registressin registreu registri registrin registro registrà registrés
+82	1482	seguidor	seguidora seguidores seguidors
+83	1483	consulta	consultes
+84	1484	mèdic	mèdica mèdics mèdiques
+85	1485	novel·la	
+86	1486	quelcom	
+87	1487	assumir	assumeix assumeixen assumeixes assumeixi assumeixin assumeixo assumia assumida assumides assumien assumim assumint assumira assumiran assumiren assumiria assumirien assumirà assumiré assumisc assumisca assumissin assumit assumits assumiu assumix assumixen assumí assumís
+88	1488	divisió	divisions
+89	1489	incorporar	incorpora incorporada incorporades incorporant incorporara incorporaran incorporaren incorporaria incorporarien incorporarà incorporat incorporats incorporava incorporaven incorpore incorporem incorporen incorporessin incorpori incorporin incorporis incorporà incorporés incorpòria
+90	1490	episodi	episodis
+91	1491	pantalla	pantalles
+92	1492	audiència	audiències
+93	1493	assenyalar	assenyala assenyalada assenyalades assenyalant assenyalaren assenyalaria assenyalarà assenyalat assenyalats assenyalava assenyalaven assenyalem assenyalen assenyales assenyali assenyalo assenyalà assenyalés
+94	1494	anual	anuals
+95	1495	perillós	perillosa perilloses perillosos
+96	1496	arran	ran
+97	1497	odi	odis
+98	1498	pesar	pesa pesada pesades pesant pesants pesaria pesarà pesat pesats pesava pesaven pese pesen peses pesessin peseu pesi pesin peso pesà pesés
+99	1499	assumpte	assumpta assumptes
+100	1500	lector	lectora lectores lectors

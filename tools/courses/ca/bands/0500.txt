@@ -1,0 +1,100 @@
+1	401	anglès	anglesa angleses anglesos anglés
+2	402	paper	papers
+3	403	alumne	alumna alumnes
+4	404	comunitat	comunitats
+5	405	cultural	culturals
+6	406	veritat	veritats vrt
+7	407	junt	junta juntes junts
+8	408	suposar	suposa suposada suposades suposant suposara suposaran suposarem suposaren suposaria suposarien suposarà suposat suposats suposava suposaven supose suposem suposen suposes suposessin suposeu suposi suposin suposo suposà suposés supòs
+9	409	compartir	comparteix comparteixen comparteixes comparteixi comparteixin comparteixis comparteixo compartia compartida compartides compartien compartim compartint compartiran compartirem compartiren compartiria compartirien compartirà compartiràs compartiré compartissin compartit compartits compartiu compartix compartixen compartí compartíem compartís compartíssim
+10	410	mar	mars
+11	411	destacar	destaca destacada destacades destacant destacaran destacarem destacaren destacaria destacarien destacarà destacaríem destacat destacats destacava destacaven destacà destaquem destaquen destaques destaquessin destaqui destaquin destaqués
+12	412	seguretat	seguretats
+13	413	agost	
+14	414	prop	
+15	415	moviment	moviments
+16	416	èxit	èxits
+17	417	club	clubs
+18	418	creu	creus
+19	419	realitzar	realitza realitzada realitzades realitzant realitzara realitzaran realitzarem realitzaren realitzaria realitzarien realitzarà realitzat realitzats realitzava realitzaven realitze realitzem realitzen realitzes realitzessin realitzi realitzin realitzà realitzés
+20	420	motiu	motius motiva motives
+21	421	comunicació	comunicacions
+22	422	classe	classes
+23	423	menjar	menge mengem mengen menges mengessin mengeu mengi mengin mengis mengés menj menja menjada menjades menjant menjaran menjarem menjaren menjareu menjaria menjaries menjars menjarà menjaràs menjaré menjat menjats menjava menjaven menjaves menjo menjà menjàvem
+24	424	fi	fina fines fis
+25	425	ajuntament	ajuntaments
+26	426	mundial	mundials
+27	427	preguntar	pregunt preguntada preguntant preguntaran preguntarem preguntaren preguntareu preguntaria preguntarà preguntaràs preguntaré preguntat preguntats preguntava preguntaven preguntaves pregunte preguntem pregunten preguntes preguntessin pregunteu pregunti preguntin preguntis pregunto preguntà preguntàvem preguntés
+28	428	font	fonts
+29	429	diari	diaris diària diàries
+30	430	entrada	entrades
+31	431	càrrec	càrrecs
+32	432	diners	
+33	433	aparèixer	aparec aparega apareguda aparegudes apareguen apareguera aparegueren apareguessin aparegui apareguin apareguis aparegut apareguts aparegué aparegués apareix apareixen apareixent apareixeran apareixeria apareixerien apareixerà apareixes apareixia apareixien
+34	434	central	centrals
+35	435	negre	negra negres negret negreta negretes negrets
+36	436	dedicar	dedic dedica dedicada dedicades dedicant dedicara dedicaran dedicarem dedicaren dedicaria dedicarien dedicarà dedicaràs dedicaré dedicat dedicats dedicava dedicaven dedico dedicà dediquem dediquen dediques dediquessin dediqueu dediqui dediquin dediquis dediqués
+37	437	professor	professora professores professors
+38	438	principi	principis
+39	439	ordre	ordres
+40	440	salut	saluts
+41	441	parar	para parada parades parant pararan pararem pararen pararia pararà pararàs pararé parat parats parava paraven parem paren paressin pareu pari parin paris paro parà parés parí
+42	442	organització	organitzacions
+43	443	pau	paus pava
+44	444	company	companya companyes companyons companys companyó
+45	445	nombre	nombres
+46	446	curs	cursos
+47	447	edifici	edificis
+48	448	parlament	parlaments
+49	449	novembre	
+50	450	estiu	estius
+51	451	raó	raons
+52	452	prova	proves
+53	453	interès	interessos interés
+54	454	pàgina	pàg pàgines
+55	455	blanc	blanca blancs blanques
+56	456	ocupar	ocupa ocupada ocupades ocupant ocupants ocupara ocuparan ocuparem ocuparen ocuparia ocuparien ocuparà ocuparàs ocuparé ocupat ocupats ocupava ocupaven ocupe ocupem ocupen ocupes ocupessin ocupeu ocupi ocupin ocupo ocupà ocupés
+57	457	aprendre	aprenc aprendran aprendrem aprendreu aprendria aprendrien aprendrà aprendràs aprendré aprenem aprenen aprenent aprenenta aprenentes aprenents apreneu aprenguem aprenguen aprengueren aprenguessin aprengui aprenguin aprenguis aprengué aprengués aprenia aprenien aprens apresa apreses apresos aprèn après aprés
+58	458	respecte	respectes
+59	459	cotxe	cotxes cotxet cotxets
+60	460	allò	
+61	461	desembre	
+62	462	tard	
+63	463	resposta	respostes
+64	464	descobrir	descobert descoberta descobertes descoberts descobreix descobreixen descobreixes descobreixi descobreixin descobreixis descobreixo descobria descobrien descobrim descobrint descobrira descobriran descobrirem descobriren descobrireu descobriria descobririen descobrirà descobriràs descobriré descobrissin descobriu descobrix descobrixen descobrí descobrís
+65	465	construir	construeix construeixen construeixi construeixin construeixo construint construiran construirem construiria construirien construirà construiré construí construíem construís construïa construïda construïdes construïen construïm construïren construïsca construïssin construït construïts construïx construïxen
+66	466	tercer	tercera terceres tercers
+67	467	deu	deus
+68	468	territori	territoris
+69	469	cançó	cançons
+70	470	comprar	compra comprada comprades comprant comprara compraran comprarem compraren compraria comprarien comprarà compraràs compraré comprat comprats comprava compraven compraves compre comprem compren compres compressin compreu compri comprin compris compro comprà comprés
+71	471	real	reals
+72	472	temporada	temporades
+73	473	lluitar	lluit lluitada lluitades lluitant lluitaran lluitarem lluitaren lluitaria lluitarien lluitarà lluitaràs lluitaré lluitat lluitava lluitaven lluite lluitem lluiten lluites lluitessin lluiteu lluiti lluitin lluito lluità lluitàvem lluités
+74	474	gairebé	
+75	475	barri	barris
+76	476	matar	mata matada matam matant matara mataran matarem mataren matareu mataria matarien mataries matarà mataràs mataré matat matats matava mataven matem maten mates matessin mateu mati matin matis mato matà matés
+77	477	lluita	lluites
+78	478	històric	històrica històrics històriques
+79	479	pregunta	preguntes pregunteta
+80	480	representar	representa representada representades representara representaran representarem representaren representaria representarien representarà representat representats representava representaven represente representem representen representes representessin representeu representi representin represento representà representés
+81	481	millorar	millora millorada millorades milloram millorant milloraran millorarem milloraren milloraria millorarien millorarà milloraré millorat millorats millorava milloraven millore millorem milloren millores milloressin millori millorin milloris millorà millorés
+82	482	defensa	defenses
+83	483	déu	déus
+84	484	patir	pateix pateixen pateixes pateixi pateixin pateixis pateixo patia patida patides patien paties patim patins patint patira patiran patirem patiren patiria patirien patirà patiràs patiríem patisca patisques patissin patit patits patiu patix patixen patí patís
+85	485	sis	sisos
+86	486	ahir	
+87	487	néixer	naix naixem naixen naixent naixents naixeran naixeren naixeria naixerien naixerà naixessin naixia naixien naixé naixés nasca nascuda nascudes nascut nascuts nasqueren nasquessin nasqué nasqués neix neixen neixes neixi neixin nàixer
+88	488	atac	atacs
+89	489	via	vies
+90	490	número	numeret núm números
+91	491	regió	regions
+92	492	treballador	treballadora treballadores treballadors
+93	493	model	models
+94	494	usuari	usuaris usuària usuàries
+95	495	municipal	municipals
+96	496	igual	iguals
+97	497	total	totals
+98	498	demà	
+99	499	comptar	compt compta comptada comptades comptant comptara comptaran comptarem comptaren comptaria comptarien comptarà comptaré comptat comptats comptava comptaven comptem compten comptes comptessin compteu compti comptin comptis compto comptà comptàvem comptés
+100	500	personal	personals

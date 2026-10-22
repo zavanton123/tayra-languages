@@ -1,0 +1,100 @@
+1	2901	mencionar	menciona mencionant mencionat mencionava mencionaven mencionem mencionen menciones mencioneu mencioni mencionà mencionés
+2	2902	reproduir	reprodueix reprodueixen reprodueixi reprodueixin reproduint reproduiran reproduiria reproduirà reproduí reproduís reproduïa reproduïda reproduïdes reproduïen reproduïm reproduïren reproduïssin reproduït reproduïts reproduïx reproduïxen
+3	2903	coma	comes
+4	2904	recepció	recepcions
+5	2905	aspirar	aspira aspirada aspirades aspirant aspirants aspiraria aspirat aspirats aspirava aspiraven aspirem aspiren aspirin aspirà aspirés
+6	2906	normativa	normatives
+7	2907	automàtic	automàtica automàtics automàtiques
+8	2908	circ	circs
+9	2909	fiscalia	fiscalies
+10	2910	emprendre	emprendran emprendria emprendrà emprenen emprenent emprengueren emprenguessin emprengui emprenguin emprengué emprengués emprenia emprenien empreses empresos emprèn emprès
+11	2911	extens	extensa extenses extensos
+12	2912	protagonitzar	protagonitza protagonitzada protagonitzades protagonitzant protagonitzaran protagonitzaren protagonitzaria protagonitzarà protagonitzat protagonitzats protagonitzava protagonitzaven protagonitzen protagonitzi protagonitzà protagonitzés
+13	2913	llàgrima	llàgrimes
+14	2914	franquisme	
+15	2915	intel·ligent	
+16	2916	culte	culta cultes
+17	2917	test	testa testes testos tests
+18	2918	asiàtic	asiàtica asiàtics asiàtiques
+19	2919	provisional	provisionals
+20	2920	hisenda	hisendes
+21	2921	incapaç	incapaces incapaços
+22	2922	càstig	càstigs
+23	2923	urgència	urgències
+24	2924	climàtic	climàtica climàtics climàtiques
+25	2925	trama	trames
+26	2926	preparació	preparacions
+27	2927	violació	violacions
+28	2928	percentatge	percentatges
+29	2929	emocionar	emociona emocionada emocionades emocionarà emocionat emocionats emocionava emocionen emociones
+30	2930	bitllet	bitllets
+31	2931	fracassar	fracassa fracassada fracassades fracassant fracassaren fracassaria fracassarà fracassat fracassats fracassava fracassaven fracassen fracassessin fracassi fracasso fracassà fracassés
+32	2932	marí	marines marins
+33	2933	certificat	certificada certificades certificats
+34	2934	redacció	redaccions
+35	2935	empènyer	empeny empenyem empenyen empenyent empenyeren empenyerà empenyeu empenyi empenyia empenyien empenyin empenyé empenyés empesa empeses empesos empès empényer
+36	2936	tortura	tortures
+37	2937	disciplina	disciplines
+38	2938	pirata	pirates
+39	2939	pop	polp popets pops
+40	2940	muralla	muralles
+41	2941	desena	desenes
+42	2942	conformar	conforma conformada conformades conformant conformaran conformaren conformaria conformarien conformarà conformaré conformat conformats conformava conformaven conformem conformen conformes conformi conformin conformis conformà conformés
+43	2943	sobirà	sobirana sobiranes sobirans
+44	2944	domèstic	domèstica domèstics domèstiques
+45	2945	pressionar	pressiona pressionada pressionades pressionant pressionaren pressionaria pressionat pressionats pressionava pressionaven pressionem pressionen pressiones pressioneu pressioni pressionà pressionés
+46	2946	procedir	procedeix procedeixen procedeixi procedeixin procedia procedien procedim procedint procedirem procediren procediria procedirien procedirà procedissin procedit procediu procedix procedixen procedí procedís
+47	2947	convenció	convencions
+48	2948	decoració	decoracions
+49	2949	rambla	rambles rbla
+50	2950	criatura	criatures
+51	2951	casament	casaments
+52	2952	bàndol	bàndols
+53	2953	utilització	utilitzacions
+54	2954	transportar	transporta transportada transportades transportant transportaran transportarem transportaren transportarà transportat transportats transportava transportaven transporte transporten transportes transportessin transporteu transporti transportin transporto transportà transportés
+55	2955	legislatura	legislatures
+56	2956	multitud	multituds
+57	2957	calma	calmes
+58	2958	restaurar	restaura restaurada restaurades restauraren restaurarà restaurat restaurats restaurava restauren restauri restauro restaurà restaurés
+59	2959	despatx	despatxos
+60	2960	bèstia	bestiola bestioles bèsties
+61	2961	castrar	castra castrant castrat castrats castre castres castri castro
+62	2962	comunitari	comunitaris comunitària comunitàries
+63	2963	substància	substàncies
+64	2964	presumpte	presumpta presumptes
+65	2965	suïcidi	suïcidis
+66	2966	llest	llesta llestes llestos llests
+67	2967	sac	sacs
+68	2968	casc	cascos cascs
+69	2969	teatral	teatrals
+70	2970	gravació	gravacions
+71	2971	enfront	
+72	2972	tradicionalment	
+73	2973	autonòmic	autonòmica autonòmics autonòmiques
+74	2974	tesi	tesis
+75	2975	conselleria	conselleries
+76	2976	comerciant	comerciantes comerciants
+77	2977	tragèdia	tragèdies
+78	2978	flota	flotes
+79	2979	ateneu	ateneus
+80	2980	estúpid	estúpida estúpides estúpids
+81	2981	valuós	valuosa valuoses valuosos
+82	2982	meravella	meravelles
+83	2983	favorit	favorita favorites favorits
+84	2984	brau	braus brava braves
+85	2985	jaciment	jaciments
+86	2986	barrejar	barregem barregen barreges barregessin barregeu barregi barregin barregés barrejada barrejades barrejant barrejaran barrejaren barrejaria barrejarà barrejat barrejats barrejava barrejaven barrejà
+87	2987	informàtica	informàtiques
+88	2988	residu	residus
+89	2989	convenir	convenen convenia convenien convenint convindre convindria convindrà convinguda convingudes convingueren convingui convinguin convingut convinguts convingué convingués convé
+90	2990	emprenedor	emprenedora emprenedores emprenedors
+91	2991	envair	envaeix envaeixen envaeixi envaeixin envaint envairan envairien envaí envaís envaïa envaïda envaïdes envaïen envaïren envaïssin envaït envaïts
+92	2992	geogràfic	geogràfica geogràfics geogràfiques
+93	2993	piano	pianos
+94	2994	comporta	comportes
+95	2995	estel	estels
+96	2996	immigració	immigracions
+97	2997	planificació	planificacions
+98	2998	banca	banques banqueta banquetes
+99	2999	alegre	alegres
+100	3000	lateral	laterals

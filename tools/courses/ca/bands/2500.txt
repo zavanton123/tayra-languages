@@ -1,0 +1,100 @@
+1	2401	porc	porcs
+2	2402	adeu	adeus adéu
+3	2403	llegenda	llegendes
+4	2404	identificació	identificacions
+5	2405	prevenció	prevencions
+6	2406	salvatge	salvatges
+7	2407	atur	aturs
+8	2408	propaganda	propagandes
+9	2409	bàsicament	
+10	2410	dintre	
+11	2411	fum	
+12	2412	il·legal	
+13	2413	il·lusió	
+14	2414	plata	
+15	2415	rere	
+16	2416	desert	deserts
+17	2417	matinada	matinades
+18	2418	freqüent	freqüents
+19	2419	ample	ampla amples
+20	2420	esportista	esportistes
+21	2421	orquestra	orquestres
+22	2422	delegació	delegacions
+23	2423	escriptura	escriptures
+24	2424	nocturn	nocturna nocturnes nocturns
+25	2425	franquista	franquistes
+26	2426	reflexionar	reflexiona reflexionada reflexionant reflexionarà reflexionat reflexionava reflexionaven reflexionem reflexionen reflexiones reflexioneu reflexioni reflexionin reflexiono reflexionà
+27	2427	mecanisme	mecanismes
+28	2428	combinació	combinacions
+29	2429	branca	branques
+30	2430	educar	educa educada educades educant educaren educat educats educava educaven educà eduquem eduquen eduqués
+31	2431	descomptar	descompta descomptada descomptant descomptat descomptats descomptem descompten descomptes descompto
+32	2432	alcohol	alcohols
+33	2433	igualar	iguala igualada igualades igualant igualaria igualarà igualat igualats igualava igualaven igualen iguales iguali igualés
+34	2434	app	apps
+35	2435	subvenció	subvencions
+36	2436	prim	prima primes prims
+37	2437	multa	multes
+38	2438	distingir	distingeix distingeixen distingeixi distingeixin distingeixo distingia distingida distingides distingien distingim distingint distingiran distingirem distingiren distingiria distingirà distingit distingits distingix distingixen distingí distingís
+39	2439	cerimònia	cerimònies
+40	2440	operar	opera operada operades operant operaran operaren operaria operarien operarà operat operats operava operaven operem operen operes operessin operi operin operà operés
+41	2441	teixit	teixida teixides teixits
+42	2442	organitzador	organitzadora organitzadores organitzadors
+43	2443	castigar	castig castiga castigada castigades castigant castigaran castigaren castigaria castigarà castigat castigats castigava castigaven castigo castiguen castiguessin castigui castiguin castiguis castigués castigà
+44	2444	cristina	cristines
+45	2445	senat	senats
+46	2446	seriosament	
+47	2447	escàndol	escàndols
+48	2448	sòl	solet soleta solets sòls
+49	2449	optar	opta optant optaren optaria optarien optarà optat optava optaven optem opten optessin opti optin opto optà optés
+50	2450	abús	abusos
+51	2451	cervesa	cerveses
+52	2452	onada	onades
+53	2453	beca	beques
+54	2454	immediat	immediata immediates immediats
+55	2455	absència	absències
+56	2456	pressa	presses
+57	2457	fila	files
+58	2458	pujol	pujols
+59	2459	cosí	cosina cosines cosins
+60	2460	rodar	rodada rodades rodant rodaran rodaria rodarà rodat rodats rodava rodaven rodem roden rodes rodi rodin rodis rodo rodà rodàvem rodés
+61	2461	advertir	adverteix adverteixen adverteixo advertia advertida advertides advertien advertim advertint advertiren advertit advertits advertí advertís
+62	2462	llançament	llançaments
+63	2463	armeni	armenis armènia armènies
+64	2464	activar	activa activada activades activant activaran activarem activaria activarà activat activats activava activaven activem activen actives activeu activi activin activo activà activés
+65	2465	barra	barres barrot barrots
+66	2466	cinta	cintes
+67	2467	masia	masies
+68	2468	turó	turons
+69	2469	estàndard	estàndards
+70	2470	fallar	fallada fallades fallant fallarem fallaren fallaria fallarà fallaràs fallaré fallat fallats fallava fallaven fallem fallen falles fallessin falleu falli fallin fallis fallo fallà fallés
+71	2471	tinent	tinenta tinents
+72	2472	taronja	taronges
+73	2473	continent	continents
+74	2474	extra	extres
+75	2475	monestir	monestirs
+76	2476	plantilla	plantilles
+77	2477	cinquanta	
+78	2478	novament	
+79	2479	terrorisme	
+80	2480	diccionari	diccionaris
+81	2481	aclarir	aclareix aclareixen aclareixi aclareixin aclaria aclarida aclarides aclarien aclarim aclarint aclariren aclarirà aclariré aclarit aclarits aclariu aclarí aclarís
+82	2482	concloure	concloem concloent concloents conclogueren conclogui concloguin conclogué conclogués conclosa concloses conclosos conclou conclouen conclouria conclourà concloïa concloïen conclòs
+83	2483	estable	estables
+84	2484	cementiri	cementeri cementiris
+85	2485	imprimir	impresa impreses impresos imprimeix imprimeixen imprimeixi imprimeixo imprimia imprimien imprimim imprimint imprimiren imprimirà imprimí imprès
+86	2486	racó	racons recó
+87	2487	assessor	assessora assessores assessors
+88	2488	desgràcia	desgràcies
+89	2489	cova	coves
+90	2490	siri	siris síria síries
+91	2491	apostar	apostades apostam apostant apostaren apostaria apostarà apostat apostats apostava apostaven aposte apostem aposten apostes apostessin aposteu aposti apostin aposto apostà apostés
+92	2492	impressió	impressions
+93	2493	calcular	calcul calcula calculada calculades calculant calcularem calcularen calcularà calculat calculats calculava calculaven calculem calculen calculeu calculi calculo calculà
+94	2494	clicar	clic clica clicant clicat clicats clics cliques cliqueu
+95	2495	guiar	guiada guiades guiant guiaran guiaren guiaria guiarà guiaré guiat guiats guiava guiaven guie guiem guien guies guio guià guiés guiï guiïn
+96	2496	actualització	actualitzacions
+97	2497	ideologia	ideologies
+98	2498	raça	races
+99	2499	pronunciar	pronuncia pronunciada pronunciades pronunciant pronunciarem pronunciaren pronunciaria pronunciarà pronunciat pronunciats pronunciava pronunciaven pronunciem pronuncien pronunciessin pronuncieu pronuncio pronuncià pronunciés pronunciï pronunciïn
+100	2500	circulació	circulacions

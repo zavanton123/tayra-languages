@@ -1,0 +1,100 @@
+1	2101	placa	plaques
+2	2102	acordar	acorda acordada acordades acordant acordaren acordarà acordat acordats acordava acordaven acorde acordem acorden acordes acordessin acordeu acordi acordin acordo acordà acordés
+3	2103	colom	coloma colomes coloms
+4	2104	xic	xica xics xiques
+5	2105	retrat	retrats
+6	2106	discriminació	discriminacions
+7	2107	expulsar	expulsa expulsada expulsades expulsant expulsaren expulsaria expulsarien expulsarà expulsat expulsats expulsava expulsaven expulsem expulsen expulsessin expulsi expulsin expulsà expulsés
+8	2108	moda	modes
+9	2109	execució	execucions
+10	2110	distribuir	distribueix distribueixen distribueixi distribueixin distribuint distribuiran distribuiria distribuirien distribuirà distribuí distribuís distribuïa distribuïda distribuïdes distribuïen distribuïren distribuïssin distribuït distribuïts distribuïx distribuïxen
+11	2111	façana	façanes
+12	2112	pendent	pendents
+13	2113	existent	existents
+14	2114	saló	salons
+15	2115	meravellós	meravellosa meravelloses meravellosos
+16	2116	facultat	facultats
+17	2117	forat	forats
+18	2118	emissió	emissions
+19	2119	pit	pitet pits
+20	2120	vidre	vidres
+21	2121	drama	drames
+22	2122	temporal	temporals
+23	2123	comportar	comportant comportaran comportaren comportaria comportarien comportarà comportat comportava comportaven comportem comporten comportes comportessin comporteu comporti comportin comportà comportés
+24	2124	marge	margens marges
+25	2125	integració	integracions
+26	2126	xerrada	xerrades
+27	2127	amistat	amistats
+28	2128	riba	ribes
+29	2129	basa	bases
+30	2130	actualitzar	actualitza actualitzada actualitzades actualitzant actualitzarem actualitzarà actualitzat actualitzats actualitzava actualitzaven actualitzem actualitzen actualitzi actualitzin actualitzà
+31	2131	cul	culot culs
+32	2132	asseure	assec asseguda assegudes asseguem assegui asseguin asseguis assegut asseguts assegué assegués asseia asseiem asseien asseient asseieu asseu asseuen asseure's asseurem asseurà asseuré asseus
+33	2133	bàsquet	
+34	2134	dotze	
+35	2135	intel·ligència	
+36	2136	núvol	núvols
+37	2137	formatge	formatges formatgets
+38	2138	notar	notada notant notaran notarem notaren notaria notaries notarà notat notava notaven notem noten notes noteu noti notin notis noto notà notés
+39	2139	alçar	alce alcem alcen alces alcessin alceu alci alcin alcis alcés alça alçades alçant alçaran alçarem alçaren alçaria alçarà alçaré alçat alçats alçava alçaven alçà
+40	2140	selva	selves
+41	2141	reflectir	reflecteix reflecteixen reflecteixi reflecteixin reflectia reflectida reflectides reflectien reflectint reflectiran reflectiren reflectiria reflectirien reflectirà reflectissin reflectit reflectits reflectix reflectixen reflectí reflectís
+42	2142	institucional	institucionals
+43	2143	diputació	diputacions
+44	2144	pi	pinetell pinetells pins
+45	2145	amant	amants
+46	2146	trigar	triga trigant trigaran trigarem trigaren trigareu trigaria trigarien trigarà trigaràs trigaré trigaríem trigat trigava trigaven trigo triguen trigues trigueu trigui triguin triguis trigués trigà
+47	2147	definició	definicions
+48	2148	inferior	inferiors
+49	2149	adreça	adreces
+50	2150	aula	aules
+51	2151	riquesa	riqueses
+52	2152	moltíssim	moltíssima moltíssimes moltíssims
+53	2153	pagès	pagesa pageses pagesos pagés
+54	2154	constitucional	constitucionals
+55	2155	rellotge	rellotges
+56	2156	discapacitat	discapacitada discapacitades discapacitats
+57	2157	subjecte	subjecta subjectes
+58	2158	evidència	evidències
+59	2159	descarregar	descarrega descarregada descarregades descarregant descarregaren descarregaria descarregarien descarregarà descarregat descarregats descarregava descarregaven descarrego descarreguem descarreguen descarregues descarregueu descarregui descarreguin descarregués descarregà
+60	2160	rival	rivals
+61	2161	matemàtiques	
+62	2162	virus	
+63	2163	escut	escuts
+64	2164	fulla	fulles
+65	2165	aïllar	aïlla aïllada aïllades aïllant aïllants aïllat aïllats aïllava aïllaven aïllen aïllà
+66	2166	atendre	atenc atendran atendrem atendrà atendré atenem atenen atenent atenguen atengueren atenguessin atengui atenguin atengué atengués atenia atenien atens atesa ateses atesos atén
+67	2167	exemplar	exemplars
+68	2168	nazi	nazis
+69	2169	august	augusta augusts
+70	2170	qualificar	qualifica qualificada qualificades qualificant qualificaren qualificaria qualificarien qualificarà qualificat qualificats qualificava qualificaven qualificà qualifiquen qualifiqui qualifiquin qualifiqués
+71	2171	conservador	conservadora conservadores conservadors
+72	2172	avís	avisos
+73	2173	pols	polsos
+74	2174	centímetre	centímetres cm
+75	2175	portuguès	portuguesa portugueses portuguesos portugués
+76	2176	radical	radicals
+77	2177	cuidar	cuid cuida cuidada cuidades cuidant cuidarem cuidaren cuidaria cuidarà cuidaràs cuidaré cuidat cuidats cuidava cuidaven cuidem cuiden cuides cuidessin cuideu cuidi cuidin cuidis cuido cuidà cuidés
+78	2178	probable	probables
+79	2179	desastre	desastres
+80	2180	abraçar	abracem abracen abraceu abraci abracés abraç abraça abraçada abraçades abraçant abraçaren abraçaria abraçarà abraçat abraçats abraçava abraçaven abraço abraçà
+81	2181	desfer	desfaci desfacin desfaig desfan desfaran desfarem desfaria desfarà desfaré desfeia desfeien desfem desfent desferen desfessin desfet desfeta desfetes desfets desfeu desfà desfàs desfés
+82	2182	explosió	explosions
+83	2183	gel	gels
+84	2184	excepció	excepcions
+85	2185	seqüència	seqüències
+86	2186	culpable	culpables
+87	2187	coalició	coalicions
+88	2188	ficció	ficcions
+89	2189	valer	valc valdran valdre valdria valdrien valdrà valem valen valeu valgueren valgui valguin valgut valgué valgués valia valien vals valsos
+90	2190	seleccionar	seleccion selecciona seleccionada seleccionades seleccionant seleccionarà seleccionat seleccionats seleccionava seleccionaven seleccione seleccionem seleccionen selecciones seleccioneu seleccioni seleccionin seleccionà seleccionés
+91	2191	concretament	
+92	2192	definitivament	
+93	2193	excel·lent	
+94	2194	mentrestant	
+95	2195	vèncer	vencen vencent vencerem venceren venceria vencerà venceràs venci vencia vencien vencé vencés venç vença vençuda vençudes vençut vençuts véncer
+96	2196	metro	metros
+97	2197	rècord	rècords
+98	2198	cup	cups
+99	2199	desplaçar	desplacem desplacen desplaces desplacessin desplaci desplacin desplacés desplaça desplaçada desplaçades desplaçant desplaçaran desplaçaren desplaçaria desplaçarien desplaçarà desplaçat desplaçats desplaçava desplaçaven desplaçà
+100	2200	sobirania	sobiranies

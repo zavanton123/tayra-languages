@@ -1,0 +1,100 @@
+1	2701	addicional	addicionals
+2	2702	tresor	tresors
+3	2703	fruita	fruites
+4	2704	acta	actes
+5	2705	invasió	invasions
+6	2706	herba	herbes
+7	2707	armada	armades
+8	2708	destrossar	destrossa destrossada destrossades destrossant destrossaren destrossaria destrossarà destrossat destrossats destrossava destrossaven destrossen destrosses destrossin destrossà
+9	2709	llegat	llegada llegades llegats
+10	2710	empleat	empleada empleades empleats
+11	2711	barreja	barreges
+12	2712	combustible	combustibles
+13	2713	partidari	partidaris partidària partidàries
+14	2714	fitxa	fitxes
+15	2715	extensió	extensions
+16	2716	penya	penyes
+17	2717	suportar	suporta suportada suportades suportant suportaran suportaria suportarien suportarà suportat suportats suportava suportaven suporte suportem suporten suportes suporti suportin suporto suportà
+18	2718	símptoma	símptomes
+19	2719	experiment	experiments
+20	2720	disculpa	disculpes
+21	2721	estètic	estètica estètics estètiques
+22	2722	segell	segells
+23	2723	encapçalar	encapçala encapçalada encapçalades encapçalant encapçalaren encapçalaria encapçalarà encapçalat encapçalats encapçalava encapçalaven encapçalen encapçalà encapçalés
+24	2724	assignar	assigna assignada assignades assignant assignaran assignaren assignaria assignarà assignat assignats assignava assignaven assignem assignen assigni assignin assignà assignés
+25	2725	accessible	accessibles
+26	2726	lamentar	lamenta lamentant lamentaria lamentarà lamentat lamentava lamentaven lamente lamentem lamenten lamentes lamenti lamento lamentà
+27	2727	alimentació	alimentacions
+28	2728	telar	tele
+29	2729	fortalesa	fortaleses
+30	2730	professió	professions
+31	2731	noma	nomes
+32	2732	víctor	
+33	2733	posseir	posseeix posseeixen posseeixi posseeixin posseeixo posseint posseiria posseirà posseí posseís posseïa posseïda posseïdes posseïen posseïm posseïren posseïsca posseït posseïts posseïu posseïx posseïxen
+34	2734	fabricant	fabricants
+35	2735	catàleg	catàlegs
+36	2736	ros	rossa rosses rossos
+37	2737	consolidar	consolida consolidada consolidades consolidant consolidaran consolidaren consolidaria consolidarien consolidarà consolidat consolidats consolidava consolidaven consoliden consolidessin consolidi consolidin consolidà consolidés
+38	2738	brigada	brigades
+39	2739	estratègic	estratègica estratègics estratègiques
+40	2740	pegar	pega pegada pegades pegant pegaria pegarà pegat pegats pegava pegaven pego pegue peguem peguen pegues pegui peguis pegà pegàs
+41	2741	contribució	contribucions
+42	2742	mite	mites
+43	2743	pensió	pensions
+44	2744	salari	salaris
+45	2745	òpera	òperes
+46	2746	minoria	minories
+47	2747	cable	cables
+48	2748	participatiu	participatius participativa participatives
+49	2749	arqueològic	arqueològica arqueològics arqueològiques
+50	2750	alimentari	alimentaris alimentària alimentàries
+51	2751	revisió	revisions
+52	2752	frau	fraus
+53	2753	excepcional	excepcionals
+54	2754	accent	accents
+55	2755	engegar	engega engegada engegades engegant engegaren engegaria engegarà engegat engegats engegava engegaven engeguem engeguen engegues engegui engegués engegà
+56	2756	ce	ces
+57	2757	fonament	fonaments
+58	2758	vincle	vincles
+59	2759	coronel	coronels
+60	2760	contemplar	contempla contemplada contemplades contemplant contemplaren contemplat contemplats contemplava contemplaven contemplem contemplen contempleu contempli contemplin contemplà
+61	2761	arrossegar	arrossega arrossegada arrossegades arrossegant arrossegaran arrossegaren arrossegaria arrossegarà arrossegat arrossegats arrossegava arrossegaven arrosseguem arrosseguen arrossegues arrossegui arrosseguin arrossegués arrossegà rossegar
+62	2762	falla	falles
+63	2763	guarda	guardes
+64	2764	recepta	receptes
+65	2765	absurd	absurda absurdes absurds
+66	2766	envers	
+67	2767	jazz	
+68	2768	malauradament	
+69	2769	relativament	
+70	2770	psicològic	psicològica psicològics psicològiques
+71	2771	manipular	manipula manipulada manipulades manipulant manipulat manipulats manipulava manipulaven manipulen manipuli manipulin
+72	2772	conducta	conductes
+73	2773	xoc	xocs
+74	2774	nadó	nadons
+75	2775	dotzena	dotzenes
+76	2776	ascens	ascensos
+77	2777	bateria	bateries
+78	2778	civilització	civilitzacions
+79	2779	proximitat	proximitats
+80	2780	esclatar	esclata esclatada esclatant esclataren esclataria esclatarà esclatat esclatava esclataven esclaten esclatessin esclati esclatin esclatà esclatés
+81	2781	sisè	sisena sisenes sisens sisé
+82	2782	consumir	consumeix consumeixen consumeixi consumeixin consumen consumi consumia consumida consumides consumien consumim consumint consumiran consumiren consumirà consumissin consumit consumits consumo consums consumí consumís
+83	2783	disminuir	disminueix disminueixen disminueixi disminueixin disminuint disminuiran disminuiria disminuirien disminuirà disminuí disminuís disminuïa disminuïda disminuïdes disminuïen disminuïren disminuïssin disminuït disminuïts disminuïx
+84	2784	lideratge	lideratges
+85	2785	introducció	intr introduccions
+86	2786	misteri	misteris
+87	2787	periòdic	periòdica periòdics periòdiques
+88	2788	porter	porters
+89	2789	missa	misses
+90	2790	historiador	historiadora historiadores historiadors
+91	2791	abordar	abord aborda abordada abordades abordant abordaren abordaria abordarà abordat abordats abordava abordaven aborden abordi abordin abordo abordà abordés
+92	2792	robatori	robatoris
+93	2793	barca	barques
+94	2794	cantó	cantons
+95	2795	inútil	inútils
+96	2796	reivindicar	reivindica reivindicada reivindicades reivindicam reivindicant reivindicarem reivindicaren reivindicaria reivindicarà reivindicat reivindicats reivindicava reivindicaven reivindicà reivindiquem reivindiquen reivindiquessin reivindiqués
+97	2797	pioner	pionera pioneres pioners
+98	2798	tapar	tapada tapades tapant taparen tapat tapats tapava tapaven tapem tapen tapes tapessin tapeu tapi tapin tapis tapo tapà tapés
+99	2799	reprendre	reprendran reprendrem reprendria reprendrien reprendrà reprenem reprenen reprenent reprengueren reprenguessin reprengui reprenguin reprengué reprengués reprenia reprenien represa represes represos reprèn reprès
+100	2800	arreglar	arregla arreglada arreglades arreglant arreglarem arreglaren arreglaria arreglarà arreglaré arreglat arreglats arreglava arreglaven arreglem arreglen arregles arregleu arregli arreglin arreglis arreglo arreglà arreglés

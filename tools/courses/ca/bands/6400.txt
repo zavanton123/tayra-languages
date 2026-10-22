@@ -1,0 +1,100 @@
+1	6301	envergadura	
+2	6302	lamentablement	
+3	6303	manilles	
+4	6304	metal	
+5	6305	socors	
+6	6306	successivament	
+7	6307	àlies	
+8	6308	motocicleta	motocicletes
+9	6309	bro	bros
+10	6310	anotació	anotacions
+11	6311	tropical	tropicals
+12	6312	campar	campa campant campaven campen campes campi campin campis campo campà campàs campí
+13	6313	tonyina	tonyines
+14	6314	incentivar	incentiva incentivada incentivades incentivant incentivat incentivats incentivava incentiven incentives
+15	6315	tibetà	tibetana tibetanes tibetans
+16	6316	prosa	proses
+17	6317	adhesiu	adhesius adhesiva adhesives
+18	6318	oponent	oponents
+19	6319	crespar	crespi crespo crespí
+20	6320	barber	barbera barbers
+21	6321	viceversa	vv
+22	6322	timó	timons
+23	6323	ximple	ximples
+24	6324	avivar	aviv aviva avivada avivant avivat
+25	6325	monàrquic	monàrquica monàrquics monàrquiques
+26	6326	iot	iots
+27	6327	primordial	primordials
+28	6328	porteria	porteries
+29	6329	single	singles
+30	6330	admirador	admiradora admiradores admiradors
+31	6331	letó	letona letones letons
+32	6332	musa	muses
+33	6333	desbordar	desborda desbordada desbordades desbordant desbordants desbordat desbordats desbordava desbordaven desbordem desborden desbordes desbordi desbordà desbordés
+34	6334	contrarestar	contraresta contrarestada contrarestades contrarestant contrarestat contrarestats contrarestava contraresten
+35	6335	quiet	quieta quietes quiets
+36	6336	perdurar	perdura perdurant perduraran perduraren perduraria perdurarà perdurat perdurava perduren perduri perdurin perdurà perdurés
+37	6337	aclariment	aclariments
+38	6338	confraria	confraries
+39	6339	batec	batecs
+40	6340	grat	grata grates grats
+41	6341	admirable	admirables
+42	6342	desnivell	desnivells
+43	6343	inquiet	inquieta inquietes inquiets
+44	6344	sermó	sermons
+45	6345	proliferació	proliferacions
+46	6346	simfonia	simfonies
+47	6347	destral	astral astrals destrals
+48	6348	mediocre	mediocres
+49	6349	interposar	interposa interposada interposades interposant interposat interposats interposava interposaven interposen interposi interposin interposà interposés
+50	6350	fictici	ficticis fictícia fictícies
+51	6351	arpa	arpes
+52	6352	molar	molaria molars molat molava molen moles moleu moli molin molo molés
+53	6353	confús	confusa confuses confusos
+54	6354	desfilar	desfila desfilades desfilant desfilaran desfilaren desfilat desfilava desfilaven desfile desfilen desfiles desfilà
+55	6355	afeblir	afebleix afebleixen afeblia afeblida afeblides afeblien afeblint afebliria afeblit afeblits afeblí
+56	6356	abstenir	
+57	6357	beisbol	
+58	6358	hidràulica	
+59	6359	il·lustrar	
+60	6360	ioga	
+61	6361	mecenes	
+62	6362	notablement	
+63	6363	rafa	
+64	6364	sistemàticament	
+65	6365	vil·la	
+66	6366	xiulet	xiulets
+67	6367	romaní	romanins romanís
+68	6368	rosat	rosades rosats
+69	6369	progressar	progressa progressant progressarà progressat progressava progressaven progressen progressi progressin progresso progressà progrès
+70	6370	oprimir	oprimeix oprimeixen oprimia oprimida oprimides oprimien oprimint oprimit oprimits
+71	6371	enginyós	enginyosa enginyoses enginyosos
+72	6372	tràiler	tràilers
+73	6373	calavera	calaveres
+74	6374	eclipsi	eclipsis
+75	6375	traficar	trafic trafica traficades traficant traficants traficava traficaven trafico trafiquen
+76	6376	menorquí	menorquina menorquines menorquins
+77	6377	ronyó	ronyons
+78	6378	recreatiu	recreatius recreativa recreatives
+79	6379	elogiar	elogia elogiada elogiades elogiant elogiat elogiats elogiava elogiaven elogien elogio elogià
+80	6380	guarnició	guarnicions
+81	6381	devolució	devolucions
+82	6382	substancial	substancials
+83	6383	ària	àries
+84	6384	rítmic	rítmica rítmics rítmiques
+85	6385	cabdal	cabdals
+86	6386	fanal	fanalet fanalets fanals
+87	6387	recrear	recrea recreada recreades recreant recrearà recreat recreats recreava recreaven recreen recreo recreà
+88	6388	jussà	jussana
+89	6389	numerar	numera numerada numerades numerat numerats numeren numero
+90	6390	falda	faldes faldeta faldetes
+91	6391	remar	rema remada remant remarem remat remats remen remi remo remés
+92	6392	berenar	berena berenada berenars berenàvem
+93	6393	vestidor	vestidors
+94	6394	diligència	diligències
+95	6395	unionista	unionistes
+96	6396	induir	indueix indueixen indueixi indueixin induint induirà induí induïa induïda induïdes induïen induïren induït induïts
+97	6397	equipatge	equipatges
+98	6398	afinar	afina afinada afinades afinant afinat afinats afinava afinaven afinen afines afini
+99	6399	pròsper	pròspera pròsperes pròspers
+100	6400	mania	manies

@@ -1,0 +1,100 @@
+1	5001	elogi	elogis
+2	5002	raspall	raspalls
+3	5003	estímul	estímuls
+4	5004	personalitzar	personalitza personalitzada personalitzades personalitzant personalitzat personalitzats
+5	5005	indignar	indigna indignada indignades indignant indignants indignats indignen indignes indigneu indigno indignà
+6	5006	bisbal	
+7	5007	cancel·lar	
+8	5008	higiene	
+9	5009	neutralitat	
+10	5010	quinzena	
+11	5011	tim	
+12	5012	barallar	barallant barallat barallats barallava barallaven barallem barallen baralles baralleu barallin barallo
+13	5013	simbolitzar	simbolitza simbolitzada simbolitzades simbolitzant simbolitzaria simbolitzat simbolitzats simbolitzava simbolitzaven simbolitzen simbolitzà simbolitzés
+14	5014	apassionat	apassionada apassionades apassionats
+15	5015	fitxer	fitxers
+16	5016	receptor	receptora receptores receptors
+17	5017	presumir	presumeix presumeixen presumeixo presumia presumida presumien presumim presumint presumit presumits
+18	5018	híbrid	híbrida híbrides híbrids
+19	5019	catàstrofe	catàstrofes
+20	5020	eliminatòria	eliminatòries
+21	5021	sanguini	sanguinis sanguínia sanguínies
+22	5022	marià	marian mariana marianes marians
+23	5023	datar	datada datades datant dataria datarien datat datats datava dataven daten dates dati dato datà
+24	5024	musicar	musica musicada musicades musicant musicat musicats musico musicà musiques
+25	5025	desordre	desordres
+26	5026	tramvia	tramvies
+27	5027	pretensió	pretensions
+28	5028	imminent	imminents
+29	5029	punk	punks
+30	5030	titllar	titllada titllades titllant titllat titllats titllava titllaven titllen titlli titllà
+31	5031	rec	recs
+32	5032	burla	burles
+33	5033	evacuació	evacuacions
+34	5034	perímetre	perímetres
+35	5035	tro	trons
+36	5036	carter	carteres carters
+37	5037	agricultor	agricultora agricultores agricultors
+38	5038	plom	ploms
+39	5039	equació	equacions
+40	5040	apropiar	apropia apropiada apropiades apropiant apropiaren apropiats apropiava apropiaven apropien apropià apropiés
+41	5041	retòrica	retòriques
+42	5042	síntesi	síntesis
+43	5043	incert	incerta incertes incerts
+44	5044	boda	bodes
+45	5045	recordatori	recordatoris recordatòria
+46	5046	socialdemòcrata	socialdemòcrates
+47	5047	encertar	encerta encertada encertades encertant encertareu encertats encertava encertaven encertem encerten encertes encerti encerto encertà
+48	5048	solitud	solituds
+49	5049	emblema	emblemes
+50	5050	fracció	fraccions
+51	5051	sogre	sogra sogres
+52	5052	envàs	envasos
+53	5053	fusell	fusells
+54	5054	imam	imams
+55	5055	assignació	assignacions
+56	5056	cancel·lació	
+57	5057	capdavall	
+58	5058	docència	
+59	5059	empatia	
+60	5060	expressament	
+61	5061	generositat	
+62	5062	llapis	
+63	5063	progressivament	
+64	5064	socialment	
+65	5065	temporalment	
+66	5066	tramuntana	
+67	5067	havà	havana havans
+68	5068	reciclar	recicla reciclada reciclades reciclant reciclat reciclats reciclem reciclen recicli
+69	5069	inaugural	inaugurals
+70	5070	capgirar	capgira capgirada capgirant capgiraren capgirat capgirava capgirem capgiren capgirà
+71	5071	constructiu	constructius constructiva constructives
+72	5072	consolat	consolats
+73	5073	ganivet	ganivets
+74	5074	pinya	pinyes
+75	5075	secta	sectes
+76	5076	dorsal	dorsals
+77	5077	cuc	cucs
+78	5078	rotonda	rotondes
+79	5079	erroni	erronis errònia errònies
+80	5080	refrescar	refresca refrescant refrescants refrescarà refrescat refresquen refresqueu
+81	5081	gramàtica	gramàtiques
+82	5082	humiliar	humilia humiliada humiliades humiliant humiliants humiliat humiliats humiliava humilien
+83	5083	enfadar	enfada enfadada enfadades enfadant enfadaran enfadarà enfadats enfadava enfaden enfades enfadeu enfadi enfadin enfadis enfado enfadà
+84	5084	enxampar	enxampa enxampada enxampat enxampats enxampen enxampessin enxampi enxampin enxampo
+85	5085	racial	racials
+86	5086	rotllo	rotllos
+87	5087	jaqueta	jaquetes
+88	5088	picant	picants
+89	5089	tumor	tumors
+90	5090	gruixut	gruixuda gruixudes gruixuts
+91	5091	delimitar	delimita delimitada delimitades delimitant delimitat delimitats delimitava delimitaven delimiten delimiti delimitin
+92	5092	novena	novenes
+93	5093	audició	audicions
+94	5094	urbanístic	urbanística urbanístics urbanístiques
+95	5095	exòtic	exòtica exòtics exòtiques
+96	5096	coronar	coronada coronades coronant coronaran coronaria coronarà coronat coronats coronava coronaven corone coronen corones coroni coronis coronà
+97	5097	abatre	abaten abatent abatia abats abatuda abatudes abatut abatuts
+98	5098	reposar	reposa reposada reposades reposant reposarà reposat reposats reposava reposaven reposen reposi reposin reposo reposà reposés
+99	5099	vintena	vintenes
+100	5100	acomiadament	acomiadaments

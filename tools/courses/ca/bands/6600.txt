@@ -1,0 +1,100 @@
+1	6501	solidaritzar	solidaritza solidaritzant solidaritzem solidaritzen
+2	6502	operari	operaris operària operàries
+3	6503	regularitat	regularitats
+4	6504	abadia	abadies
+5	6505	terapeuta	terapeutes
+6	6506	pèssim	pèssima pèssimes pèssims
+7	6507	estri	estris
+8	6508	durador	duradora duradores duradors
+9	6509	articulació	articulacions
+10	6510	darreria	darreries
+11	6511	acampar	acampa acampades acampant acampat acampats acampaven acampen
+12	6512	òptic	òptics òptiques
+13	6513	incompetència	incompetències
+14	6514	accentuar	accentua accentuada accentuades accentuant accentuaren accentuaria accentuarà accentuat accentuats accentuava accentuaven accentuen accentuà
+15	6515	hostilitat	hostilitats
+16	6516	premissa	premisses
+17	6517	pronunciació	pronunciacions
+18	6518	aerolínia	aerolínies
+19	6519	bolxevic	bolxevics
+20	6520	ametller	ametllers
+21	6521	drogar	drogada drogant drogat drogats drogava drogo droguen drogues
+22	6522	margarita	margarites
+23	6523	vàter	vàters
+24	6524	nadalenc	nadalenca nadalencs nadalenques
+25	6525	prometedor	prometedora prometedores prometedors
+26	6526	muntanyós	muntanyosa muntanyoses muntanyosos
+27	6527	responsabilitzar	responsabilitza responsabilitzant responsabilitzat responsabilitzava responsabilitzaven responsabilitzen responsabilitzà responsabilitzés
+28	6528	exaltació	exaltacions
+29	6529	tovallola	tovalloles
+30	6530	astronòmic	astronòmica astronòmics astronòmiques
+31	6531	pretext	pretextos pretexts
+32	6532	corbata	corbates
+33	6533	trasplantament	trasplantaments
+34	6534	irrompre	irromp irrompen irrompent irromperen irrompia irrompien irromput irrompé
+35	6535	credencial	credencials
+36	6536	hidroelèctric	hidroelèctrica hidroelèctrics hidroelèctriques
+37	6537	escopeta	escopetes
+38	6538	marisc	mariscos mariscs
+39	6539	rastrejar	rastregen rastregi rastreja rastrejada rastrejades rastrejant rastrejat rastrejats rastrejaven
+40	6540	metralladora	metralladores
+41	6541	fabulós	fabulosa fabuloses fabulosos
+42	6542	calç	
+43	6543	desconeixement	
+44	6544	diamants	
+45	6545	extraordinàriament	
+46	6546	gradualment	
+47	6547	individualment	
+48	6548	malbé	
+49	6549	mil·lenni	
+50	6550	residual	residuals
+51	6551	sexualment	
+52	6552	trencaclosques	
+53	6553	waterpolo	
+54	6554	irracional	irracionals
+55	6555	sucursal	sucursals
+56	6556	vibrar	vibra vibrant vibrants vibrarà vibrat vibrava vibraven vibren vibri vibrin
+57	6557	lunar	lunars
+58	6558	comunicatiu	comunicatius comunicativa comunicatives
+59	6559	ressuscitar	ressuscita ressuscitada ressuscitant ressuscitaran ressuscitarà ressuscitat ressuscitats ressuscitava ressusciten ressusciti ressuscità
+60	6560	diòcesi	diòcesis
+61	6561	extracte	extractes
+62	6562	endurir	endureix endureixen endureixi enduria endurida endurides endurien endurint endurit endurits endurí
+63	6563	enverinar	enverina enverinada enverinades enverinant enverinat enverinats enverinava enverinen
+64	6564	apujar	apugem apugen apugi apuja apujada apujant apujat apujats apujava apujo apujà
+65	6565	desafortunat	desafortunada desafortunades desafortunats
+66	6566	marginar	margina marginada marginades marginant marginat marginats marginava marginem marginen
+67	6567	consultor	consultors
+68	6568	admissió	admissions
+69	6569	escèptic	escèptica escèptics escèptiques
+70	6570	barricada	barricades
+71	6571	falsedat	falsedats
+72	6572	palmera	palmeres
+73	6573	unilateral	unilaterals
+74	6574	conceptual	conceptuals
+75	6575	aproximat	aproximada aproximades aproximats
+76	6576	perifèria	perifèries
+77	6577	englobar	engloba englobada englobades englobant englobaria englobat englobats englobava englobaven engloben englobi englobés
+78	6578	decantar	decanta decantada decantades decantant decantaren decantaria decantarien decantarà decantat decantats decantava decantaven decanten decanti decantà decantés
+79	6579	claveguera	clavegueres
+80	6580	vegetarià	vegetariana vegetarianes vegetarians
+81	6581	esvair	esvaeix esvaeixen esvaeixi esvaint esvairan esvairà esvaí esvaïa esvaïda esvaïen esvaïren esvaït esvaïts
+82	6582	acrònim	acrònims
+83	6583	organitzatiu	organitzatius organitzativa organitzatives
+84	6584	aldea	aldees
+85	6585	ban	bans
+86	6586	arenal	arenals
+87	6587	arterial	arterials
+88	6588	cresta	crestes
+89	6589	epicentre	epicentres
+90	6590	tirania	tiranies
+91	6591	trava	traves
+92	6592	constructora	constructores
+93	6593	relator	relatora relators
+94	6594	acomplir	acompleix acompleixen acompleixi acompleixin acomplert acomplerta acomplertes acomplerts acomplia acomplida acomplien acomplint acompliren acomplit acomplí acomplís
+95	6595	repensar	repensa repensant repensat repensem repensen repensi repenso
+96	6596	meteorit	meteorits
+97	6597	disturbi	disturbis
+98	6598	inflexió	inflexions
+99	6599	delícia	delícies
+100	6600	instint	instints

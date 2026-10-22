@@ -1,0 +1,100 @@
+1	8901	tritó	tritons
+2	8902	divisa	divises
+3	8903	contracció	contraccions
+4	8904	estipular	estipula estipulada estipulades estipulant estipulat estipulats estipulava estipulaven estipulen estipuli estipulà
+5	8905	punyeta	punyetes
+6	8906	desavinença	desavinences
+7	8907	entramat	entramats
+8	8908	hidrològic	hidrològica hidrològics hidrològiques
+9	8909	apèndix	apèndixs
+10	8910	arquebisbat	
+11	8911	associacionisme	
+12	8912	cactus	
+13	8913	discretament	
+14	8914	estranyament	
+15	8915	fènix	
+16	8916	hindi	
+17	8917	inactivitat	
+18	8918	lapsus	
+19	8919	passarel·la	
+20	8920	paternitat	
+21	8921	quixot	
+22	8922	prolongació	prolongacions
+23	8923	rostit	rostida rostides rostits
+24	8924	trivial	trivials
+25	8925	filiació	filiacions
+26	8926	bosnià	bosniana bosnianes bosnians
+27	8927	conflictiu	conflictius conflictiva conflictives
+28	8928	vanitat	vanitats
+29	8929	depuradora	depuradores
+30	8930	gladiador	gladiadors
+31	8931	regata	regates
+32	8932	drecera	dreceres
+33	8933	regenerar	regenera regenerada regenerant regenerat regenerats regenerava regeneren
+34	8934	topologia	topologies
+35	8935	bipolar	bipolars
+36	8936	cordar	cordada cordades cordat cordats corde corden cordes cordeu cordin cordis cordà
+37	8937	cotxer	cotxera cotxeres cotxers
+38	8938	desgastar	desgasta desgastada desgastades desgastant desgastat desgastats desgasten desgasti
+39	8939	carlí	carlines carlins
+40	8940	reialme	reialmes
+41	8941	dansaire	dansaires
+42	8942	gegantí	gegantina gegantines gegantins
+43	8943	bocabadat	bocabadada bocabadats
+44	8944	censor	censora censores censors
+45	8945	brusc	brusca bruscos bruscs brusques
+46	8946	expedir	expedeix expedeixen expedida expedides expedit expedita expedits
+47	8947	afilar	afilada afilades afilat afilats
+48	8948	estiuenc	estiuenca estiuencs estiuenques
+49	8949	renegar	renega renegant renegat renegats renegava renegaven reneguen renegà
+50	8950	tristor	tristors
+51	8951	ultimàtum	ultimàtums
+52	8952	brúixola	brúixoles
+53	8953	canell	canells
+54	8954	mística	místiques
+55	8955	pergamí	pergamins
+56	8956	ratafia	ratafies
+57	8957	paisatgístic	paisatgística paisatgístics paisatgístiques
+58	8958	fragmentació	fragmentacions
+59	8959	espadar	espada espadat espadats espadà
+60	8960	subsaharià	subsahariana subsaharianes subsaharians
+61	8961	pontificat	pontificats
+62	8962	angular	angulars angulats angulo
+63	8963	guerriller	guerrillera guerrilleres guerrillers
+64	8964	constitutiu	constitutius constitutiva constitutives
+65	8965	condensar	condensa condensada condensades condensant condensat condensats condensava condensen condensi
+66	8966	claríssim	claríssima
+67	8967	assegurador	asseguradora asseguradores asseguradors
+68	8968	tríptic	tríptics
+69	8969	puntuar	puntua puntuada puntuades puntuant puntuat puntuats puntuava puntuaven puntuen
+70	8970	astut	astuta astutes astuts
+71	8971	estàtic	estàtics estàtiques
+72	8972	frec	frecs
+73	8973	galàctic	galàctica galàctics galàctiques
+74	8974	pruna	prunes
+75	8975	eclèctic	eclèctica eclèctics eclèctiques
+76	8976	zel	zels
+77	8977	asfaltar	asfaltada asfaltades asfaltat asfaltats asfalten asfalto
+78	8978	ressorgiment	ressorgiments
+79	8979	inflable	inflables
+80	8980	barrar	barrada barrades barrant barrarà barrat barrats barrau barrava barraven barren barres barris barro barrà barrés
+81	8981	cicló	ciclons
+82	8982	fogó	fogons
+83	8983	anàleg	anàlegs anàloga anàlogues
+84	8984	raro	rara rares raros
+85	8985	dictaminar	dictamina dictaminada dictaminant dictaminat dictaminava dictaminen dictamini dictaminà dictaminés
+86	8986	mascarell	mascarella mascarells
+87	8987	discórrer	discorre discorren discorrent discorreria discorrerà discorri discorria discorrien
+88	8988	llibert	lliberta llibertes lliberts
+89	8989	eloqüent	eloqüents
+90	8990	envejar	envegen enveges enveig envejada envejarien envejat envejava envejaven envejo
+91	8991	conjectura	conjectures
+92	8992	cocció	coccions
+93	8993	infraroig	infraroges infraroigs infraroja infrarojos
+94	8994	aguiló	
+95	8995	bacó	
+96	8996	cafeïna	
+97	8997	fruitós	
+98	8998	karma	
+99	8999	manisa	manises
+100	9000	megafonia	

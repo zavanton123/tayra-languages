@@ -1,0 +1,100 @@
+1	4701	taverna	tavernes
+2	4702	plató	platons platós
+3	4703	majestat	majestats
+4	4704	ventre	ventres
+5	4705	làser	làsers
+6	4706	var	vara vares vareta varetes vars
+7	4707	estimació	estimacions
+8	4708	dedicació	dedicacions
+9	4709	equilibrar	equilibra equilibrada equilibrades equilibrant equilibrat equilibrats equilibrava equilibre equilibren equilibris
+10	4710	detecció	deteccions
+11	4711	aproximar	aproxima aproximada aproximades aproximant aproximants aproximaria aproximarà aproximats aproximava aproximaven aproximem aproximen aproximi aproximin aproximà aproximés
+12	4712	originar	origina originada originades originant originaren originaria originaries originarà originat originats originava originaven originen origines origini originin originà
+13	4713	agredir	agredeix agredeixen agredida agredides agredien agredint agrediren agredit agredits
+14	4714	encertat	encertada encertades encertats
+15	4715	corresponsal	corresponsals
+16	4716	armar	armades armant armaren armats armava armaven armen armes armi armin armis armà armés
+17	4717	abandonament	abandonaments
+18	4718	tributari	tributaris tributària tributàries
+19	4719	mercader	mercaderes mercaders
+20	4720	dinosaure	dinosaures
+21	4721	neonazi	neonazis
+22	4722	troballa	troballes
+23	4723	ànec	ànecs
+24	4724	anit	
+25	4725	diàriament	
+26	4726	legalment	
+27	4727	regularment	
+28	4728	salvació	
+29	4729	guai	guais
+30	4730	paradigma	paradigmes
+31	4731	xantatge	xantatges
+32	4732	barba	barbes
+33	4733	conversar	conversant conversat conversava conversaven conversem conversen converses conversi converso
+34	4734	conservatori	conservatoris
+35	4735	canari	canaris canària canàries
+36	4736	tutor	tutora tutores tutors
+37	4737	creuer	creuers
+38	4738	caseta	casetes
+39	4739	apoderar	apodera apoderada apoderant apoderaren apoderat apoderats apoderava apoderaven apoderen apoderessin apoderi apoderin apoderà apoderés
+40	4740	llamp	llamps
+41	4741	abaixar	abaix abaixa abaixada abaixades abaixant abaixarà abaixat abaixats abaixava abaixem abaixen abaixeu abaixi abaixo abaixà abaixés
+42	4742	distintiu	distintius distintiva distintives
+43	4743	auxili	auxilis
+44	4744	figa	figues
+45	4745	cascada	cascades
+46	4746	desplegament	desplegaments
+47	4747	recaure	recaient recaiguda recaigudes recaigui recaiguin recaigut recaigué recaigués recau recauen recauria recaurà requeia requeien
+48	4748	injecció	injeccions
+49	4749	beneir	beneeix beneeixen beneeixi beneeixin beneeixo beneint beneirà beneí beneís beneïa beneïda beneïdes beneïen beneïm beneït beneïts beneïx
+50	4750	sexista	sexistes
+51	4751	atlètic	atlètica atlètics atlètiques
+52	4752	cunyat	cunyats
+53	4753	empremta	empremtes
+54	4754	successiu	successius successiva successives
+55	4755	polígon	polígons
+56	4756	emportar	emporte
+57	4757	inventari	inventaris
+58	4758	fonamentar	fonamenta fonamentada fonamentades fonamentant fonamentat fonamentats fonamentava fonamentaven fonamenten fonamenti fonamentà
+59	4759	verbal	verbals
+60	4760	proclamació	proclamacions
+61	4761	guant	guants
+62	4762	xilè	xilena xilenes xilens xilé
+63	4763	substitut	substituta substitutes substituts
+64	4764	gloriar	gloria gloriam glorio
+65	4765	fronterer	fronterera frontereres fronterers
+66	4766	ansietat	ansietats
+67	4767	trajecte	trajectes
+68	4768	capsa	capses capseta capsetes
+69	4769	irregularitat	irregularitats
+70	4770	alfabet	alfabets
+71	4771	impotència	impotències
+72	4772	mut	muda mudes muts
+73	4773	divuit	díhuit
+74	4774	ecologia	ecologies
+75	4775	aprofundir	aprofundeix aprofundeixen aprofundia aprofundida aprofundides aprofundien aprofundint aprofundiria aprofundirà aprofundit aprofundits aprofundí
+76	4776	mosca	mosques
+77	4777	ponència	ponències
+78	4778	sena	senes
+79	4779	renaixement	renaixements
+80	4780	tigre	tigres tigressa
+81	4781	fugitiu	fugitius fugitiva fugitives
+82	4782	patètic	patètica patètics patètiques
+83	4783	polla	polles
+84	4784	embarcació	embarcacions
+85	4785	bonet	
+86	4786	breument	
+87	4787	carnestoltes	
+88	4788	francament	
+89	4789	originàriament	
+90	4790	postguerra	
+91	4791	preservació	
+92	4792	suïcidar	
+93	4793	tranquil·litat	
+94	4794	autoritari	autoritaris autoritària autoritàries
+95	4795	pertinença	pertinences
+96	4796	semblança	semblances
+97	4797	inconvenient	inconvenients
+98	4798	cèlebre	cèlebres
+99	4799	paràgraf	paràgrafs
+100	4800	danyar	danya danyada danyades danyant danyaria danyarà danyat danyats danyen danyi danyin

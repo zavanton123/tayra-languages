@@ -1,0 +1,100 @@
+1	6001	instructor	instructora instructores instructors
+2	6002	creïble	creïbles
+3	6003	majúscula	majúscules
+4	6004	cànon	cànons
+5	6005	ventar	venta ventades ventant ventat vente ventes venti vento
+6	6006	senyalització	senyalitzacions
+7	6007	tina	tinell tines
+8	6008	instaurar	instaura instaurada instaurades instaurant instauraren instaurarà instaurat instaurats instaurava instauren instaurà instaurés
+9	6009	injectar	injecta injectada injectades injectant injectarà injectat injectats injectava injectem injecten
+10	6010	canceller	cancellera cancellers
+11	6011	enlairar	enlaira enlairada enlairades enlairant enlairaran enlairarem enlairaren enlairat enlairats enlairava enlairaven enlairem enlairen enlairi enlairà enlairés
+12	6012	planxa	planxes
+13	6013	influenciar	influencia influenciada influenciades influenciant influenciaren influenciarà influenciat influenciats influencien influencies influencià
+14	6014	especular	especula especulant especulars especulat especulava especulaven especulem especulen especulà
+15	6015	distracció	distraccions
+16	6016	querella	querelles
+17	6017	armadura	armadures
+18	6018	vigília	vigílies
+19	6019	banquet	banquets
+20	6020	perfum	perfums
+21	6021	basta	bastes
+22	6022	desembocar	desemboca desembocant desembocaran desembocaren desembocaria desembocarà desembocat desembocava desembocaven desembocà desemboquen desemboqui
+23	6023	assessorar	assessora assessorada assessorades assessorant assessorat assessorats assessorava assessoraven assessoren assessores assessoreu assessori assessorà
+24	6024	rectificar	rectifica rectificada rectificades rectificant rectificat rectificats rectificava rectifico rectificà rectifiquem rectifiquen rectifiqueu rectifiqui rectifiquin
+25	6025	iber	ibera iberes ibers
+26	6026	assimilar	assimila assimilada assimilades assimilant assimilaren assimilat assimilats assimilava assimilaven assimilem assimilen assimili assimilà
+27	6027	addicte	addicta addictes
+28	6028	vinculació	vinculacions
+29	6029	ramader	ramadera ramaderes ramaders
+30	6030	safata	safates
+31	6031	suborn	suborns
+32	6032	projectil	projectils
+33	6033	militància	militàncies
+34	6034	quarantena	quarantenes
+35	6035	morella	morelles
+36	6036	aqueix	aqueixa aqueixes aqueixos
+37	6037	insígnia	insígnies
+38	6038	ídol	ídols
+39	6039	cirurgià	cirurgiana cirurgians
+40	6040	amabilitat	
+41	6041	anticorrupció	
+42	6042	cloenda	
+43	6043	gramenet	
+44	6044	lis	
+45	6045	llagostera	
+46	6046	lotus	
+47	6047	sorprenentment	
+48	6048	corall	coralls
+49	6049	laietà	laietana laietanes laietans
+50	6050	ganxo	ganxet ganxets ganxos
+51	6051	hamburguesa	hamburgueses
+52	6052	rectangular	rectangulars
+53	6053	confluència	confluències
+54	6054	reeixida	reeixides
+55	6055	pentinat	pentinada pentinades pentinats
+56	6056	galta	galtes
+57	6057	besar	besa besada besant besants besat besava besen beses besi beso besà
+58	6058	conveniència	conveniències
+59	6059	graduació	graduacions
+60	6060	geològic	geològica geològics geològiques
+61	6061	politècnic	politècnica politècnics politècniques
+62	6062	salarial	salarials
+63	6063	facial	facials
+64	6064	fong	fongs
+65	6065	repressiu	repressius repressiva repressives
+66	6066	espòs	esposes esposos
+67	6067	soterrani	soterranis soterrània soterrànies
+68	6068	mobiliari	mobiliaris mobiliària
+69	6069	sobrepassar	sobrepassa sobrepassada sobrepassades sobrepassant sobrepassaren sobrepassarà sobrepassat sobrepassats sobrepassava sobrepassaven sobrepassen sobrepassi sobrepassin sobrepassà sobrepassés
+70	6070	rima	rimes
+71	6071	respiratori	respiratoris respiratòria respiratòries
+72	6072	interferir	interfereix interfereixen interfereixi interfereixin interferia interferida interferides interferien interferint interferirà interferit interferís
+73	6073	regar	rega regada regades regant regants regat regats regava regaven rego reguen regàs
+74	6074	neutralitzar	neutralitza neutralitzada neutralitzades neutralitzant neutralitzaria neutralitzat neutralitzats neutralitzava neutralitzen neutralitzi
+75	6075	compacte	compacta compactes
+76	6076	inestable	inestables
+77	6077	indigne	indigna indignes
+78	6078	reg	regs
+79	6079	viari	viaris viària viàries
+80	6080	defendre	defenen defenent defengué defenia defenien defens defesa defèn defès
+81	6081	cavitat	cavitats
+82	6082	orgue	orgues
+83	6083	abolir	aboleix aboleixen abolia abolida abolides abolien abolint aboliren aboliria abolit abolits abolí abolís
+84	6084	desconfiança	desconfiances
+85	6085	drassana	drassanes
+86	6086	lineal	lineals
+87	6087	cantautor	cantautora cantautores cantautors
+88	6088	clos	closa closes closos
+89	6089	comparèixer	comparegueren comparegui comparegut comparegué comparegués compareix compareixen compareixent compareixents compareixia compareixien
+90	6090	extermini	exterminis
+91	6091	conquistar	conquista conquistada conquistades conquistant conquistaren conquistat conquistats conquistava conquisten conquistes conquistà
+92	6092	segellar	segella segellada segellades segellant segellaria segellat segellats segellava segellaven segellen segelli segellin segellà
+93	6093	caldo	caldos
+94	6094	cabal	cabals
+95	6095	recreació	recreacions
+96	6096	fluir	flueix flueixen flueixi flueixin fluint fluirà fluís fluïa fluïda fluïdes fluïen fluït fluïx
+97	6097	escletxa	escletxes
+98	6098	emancipació	
+99	6099	gratuïtament	
+100	6100	lai	

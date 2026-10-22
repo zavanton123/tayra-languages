@@ -1,0 +1,100 @@
+1	7001	reclam	reclams
+2	7002	ascendència	ascendències
+3	7003	ossi	ossis òssia òssies
+4	7004	vellesa	velleses
+5	7005	amical	amicals
+6	7006	clàudia	clàudies
+7	7007	fundacional	fundacionals
+8	7008	faixa	faixes
+9	7009	cella	celles
+10	7010	pervers	perversa perverses perversos
+11	7011	realitzador	realitzadora realitzadores realitzadors
+12	7012	burlar	burlant burlava burlaven burlen burli
+13	7013	colomer	colomers
+14	7014	adjudicació	adjudicacions
+15	7015	descendència	
+16	7016	duet	
+17	7017	envelliment	
+18	7018	gal·lès	
+19	7019	microona	microones
+20	7020	sallent	
+21	7021	simplicitat	
+22	7022	paràlisi	paràlisis
+23	7023	estrat	estrats
+24	7024	cep	ceps
+25	7025	patrimonial	patrimonials
+26	7026	abonament	abonaments
+27	7027	interminable	interminables
+28	7028	abisme	abismes
+29	7029	lituà	lituana lituanes lituans
+30	7030	binari	binaris binària binàries
+31	7031	dissimular	dissimula dissimulada dissimulades dissimulant dissimulat dissimulats dissimulava dissimulaven dissimulen
+32	7032	automatitzar	automatitza automatitzada automatitzades automatitzant automatitzat automatitzats automatitzen
+33	7033	captació	captacions
+34	7034	alqueria	alqueries
+35	7035	maurar	maura maure maures mauri maurin mauro
+36	7036	moliner	molinera moliners
+37	7037	obsessionar	obsessiona obsessionada obsessionant obsessionat obsessionats obsessionava obsessionen obsessioni
+38	7038	experimentació	experimentacions
+39	7039	devastar	devasta devastada devastades devastant devastaren devastat devastats devastaven devasten devastà
+40	7040	materialitzar	materialitza materialitzada materialitzades materialitzant materialitzaren materialitzaria materialitzarà materialitzat materialitzats materialitzava materialitzaven materialitzen materialitzi materialitzà materialitzés
+41	7041	lacrimogen	lacrimògenes lacrimògens
+42	7042	jerarquia	jerarquies
+43	7043	aldarull	aldarulls
+44	7044	virtuós	virtuosa virtuoses virtuosos
+45	7045	feix	feixos
+46	7046	creditor	creditora creditores creditors
+47	7047	estudiós	estudiosa estudioses estudiosos
+48	7048	descendir	descendeix descendeixen descendia descendien descendint descendiren descendirà descendit descendits descendix descendí descendís
+49	7049	gramatical	gramaticals
+50	7050	menystenir	menystenen menystenia menystenien menystenint menystinc menystinguda menystingudes menystinguem menystingut menystinguts menysté
+51	7051	brillantor	brillantors
+52	7052	estigma	estigmes
+53	7053	esmenar	esmenada esmenades esmenant esmenat esmenats esmenen esmenes
+54	7054	cast	castes castos casts
+55	7055	ofensa	ofenses
+56	7056	exponent	exponents
+57	7057	avellana	avellanes
+58	7058	càntic	càntics
+59	7059	magre	magra magres
+60	7060	recessió	recessions
+61	7061	oro	oros
+62	7062	advers	adversa adverses adversos
+63	7063	polsera	polseres
+64	7064	inhabilitació	inhabilitacions
+65	7065	pela	peles
+66	7066	denotar	denota denotant denotat denotava denotaven denoten denoti
+67	7067	verema	veremes
+68	7068	beat	beata beates beats
+69	7069	electorat	electorats
+70	7070	most	mosts
+71	7071	tàndem	tàndems
+72	7072	sensacional	sensacionals
+73	7073	vast	vasta vastes vastos vasts
+74	7074	alberg	albergs
+75	7075	rull	rulls
+76	7076	castellet	castellets
+77	7077	pícnic	pícnics
+78	7078	agenciar	agencia agencies
+79	7079	atropellar	atropella atropellada atropellades atropellant atropellat atropellats
+80	7080	totalitari	totalitaris totalitària totalitàries
+81	7081	gratificar	gratificant gratificants
+82	7082	califa	califes
+83	7083	afganès	afgana afganesa afganeses afganesos afgans afgà
+84	7084	atracament	atracaments
+85	7085	reportar	reporta reportada reportades reportant reportaren reportaria reportarà reportat reportats reportava reportaven reporten reporti reportà
+86	7086	proa	proes
+87	7087	acústic	acústics acústiques
+88	7088	llicenciatura	llicenciatures
+89	7089	faldilla	faldilles
+90	7090	merder	merders
+91	7091	oligarquia	oligarquies
+92	7092	nedador	nedadora nedadores nedadors
+93	7093	orfeó	orfeons
+94	7094	salvament	salvaments
+95	7095	auricular	auriculars
+96	7096	postular	postula postulada postulades postulant postulat postulats postulava postulaven postulen postulà
+97	7097	honorari	honoraris honorària
+98	7098	civisme	
+99	7099	comercialització	
+100	7100	conciliació	

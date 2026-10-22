@@ -1,0 +1,100 @@
+1	3001	ciutadella	ciutadelles
+2	3002	estirar	estira estirada estirades estirant estiraren estirat estirats estirava estiraven estirem estiren estires estireu estiri estirin estiro estirés
+3	3003	àudio	àudios
+4	3004	pobla	pobles
+5	3005	campus	
+6	3006	literalment	
+7	3007	lliurement	
+8	3008	profundament	
+9	3009	ètica	
+10	3010	quotidià	quotidiana quotidianes quotidians
+11	3011	escalfar	escalf escalfa escalfada escalfades escalfant escalfaria escalfarà escalfat escalfats escalfava escalfaven escalfem escalfen escalfeu escalfi escalfin escalfà escalfés
+12	3012	assegurança	assegurances
+13	3013	menú	menús
+14	3014	trofeu	trofeus
+15	3015	patiment	patiments
+16	3016	fang	fangs
+17	3017	pàtria	pàtries
+18	3018	interacció	interaccions
+19	3019	restricció	restriccions
+20	3020	vianant	vianants
+21	3021	màster	màsters
+22	3022	líquid	líquida líquides líquids
+23	3023	feixista	feixistes
+24	3024	brasiler	brasilera brasileres brasilers
+25	3025	arriscar	arrisca arriscada arriscades arriscant arriscaran arriscaria arriscarà arriscaré arriscat arriscats arriscava arriscaven arrisco arriscà arrisquem arrisquen arrisques arrisqueu arrisqui arrisquis
+26	3026	sonor	sonora sonores sonors
+27	3027	respirar	respira respirant respirat respirava respiraven respirem respiren respires respireu respiri respirin respiris respiro respirà respirés
+28	3028	percebre	percebem perceben percebent percebessin percebi percebia percebien percebin percebo percebran percebria percebrà percebuda percebudes percebut percebuts percebé percebés percep
+29	3029	orgànic	orgànica orgànics orgàniques
+30	3030	assemblar	assembla assemblant assemblaran assemblaria assemblarà assemblat assemblava assemblaven assemblem assemblen assembles assemblessin assembli assemblin assemblo assemblés
+31	3031	dimitir	dimiteix dimiteixen dimiteixi dimiteixin dimiteixo dimitia dimitida dimitint dimitiren dimitiria dimitirà dimitissin dimitit dimití dimitís
+32	3032	descens	descensos
+33	3033	dèficit	dèficits
+34	3034	elit	elits
+35	3035	humit	humida humides humits
+36	3036	increment	increments
+37	3037	etern	eterna eternes eterns
+38	3038	espacial	espacials
+39	3039	tela	teles
+40	3040	ràbia	ràbies
+41	3041	bou	bous
+42	3042	políticament	
+43	3043	respectivament	
+44	3044	denominació	denominacions
+45	3045	legislatiu	legislatius legislativa legislatives
+46	3046	escàs	escassa escasses escassos
+47	3047	racista	racistes
+48	3048	emocionant	emocionants
+49	3049	incidència	incidències
+50	3050	anarquista	anarquistes
+51	3051	cine	cines
+52	3052	quota	quotes
+53	3053	pancarta	pancartes
+54	3054	fibra	fibres
+55	3055	raig	raigs rajos
+56	3056	descobriment	descobriments
+57	3057	resumir	resumeix resumeixen resumen resumia resumida resumides resumien resumint resumit resumits resumix resums resumí
+58	3058	trampa	trampes
+59	3059	mirall	miralls
+60	3060	atmosfera	atmosferes
+61	3061	paio	paia paios
+62	3062	assaltar	assalta assaltada assaltades assaltant assaltants assaltaren assaltat assaltats assaltava assaltaven assalten assaltà assaltés
+63	3063	parent	parenta parentes parents
+64	3064	piulada	piulades
+65	3065	magatzem	magatzems
+66	3066	panorama	panorames
+67	3067	sanció	sancions
+68	3068	càlcul	càlculs
+69	3069	israelià	israeliana israelianes israelians
+70	3070	inspiració	inspiracions
+71	3071	limitació	limitacions
+72	3072	matrícula	matrícules
+73	3073	integral	integrals
+74	3074	delicat	delicada delicades delicats
+75	3075	escon	escons escó
+76	3076	certament	
+77	3077	energètica	
+78	3078	ep	
+79	3079	extremadament	
+80	3080	normalitat	
+81	3081	open	
+82	3082	nervi	nervis
+83	3083	afirmació	afirmacions
+84	3084	destinació	destinacions
+85	3085	sincer	sincera sinceres sincers
+86	3086	cooperativa	cooperatives
+87	3087	alarma	alarmes
+88	3088	immens	immensa immenses immensos
+89	3089	indígena	indígenes
+90	3090	tir	tirs
+91	3091	precís	precisa precises precisos
+92	3092	cabra	cabrelles cabres
+93	3093	canya	cana canes canyes
+94	3094	teòric	teòrica teòrics teòriques
+95	3095	escampar	escampa escampada escampades escampant escamparem escamparen escamparia escamparà escampat escampats escampava escampaven escampe escampen escampeu escampi escampin escampà escampés
+96	3096	ajustar	ajusta ajustada ajustades ajustant ajustaran ajustarem ajustaria ajustarà ajustat ajustats ajustava ajustaven ajuste ajusten ajustes ajustessin ajusteu ajusti ajustin ajusto ajustés
+97	3097	opinar	opina opinant opinaren opinaré opinat opinava opinaven opine opinen opines opineu opini opino opinà
+98	3098	descartar	descart descarta descartada descartades descartant descartaren descartaria descartat descartats descartava descartaven descarte descartem descarten descartes descarti descartis descarto descarts descartà descartés
+99	3099	got	goda godes gotet gots
+100	3100	recinte	recintes

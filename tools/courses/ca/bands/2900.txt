@@ -1,0 +1,100 @@
+1	2801	aparentment	
+2	2802	escòcia	
+3	2803	granja	granges
+4	2804	impuls	impulsos
+5	2805	ploure	plogui plogut plogué plogués plou plouen plourà plovent plovia
+6	2806	menjador	menjadors
+7	2807	estalvi	estalvis estàlvia
+8	2808	franja	franges
+9	2809	salsa	salses
+10	2810	enregistrar	enregistra enregistrada enregistrades enregistrant enregistraren enregistraria enregistrarà enregistrat enregistrats enregistrava enregistraven enregistrem enregistren enregistreu enregistri enregistrà enregistrés
+11	2811	bomber	bombera bombers
+12	2812	nerviós	nerviosa nervioses nerviosos
+13	2813	nina	nin nines nins
+14	2814	serbi	serbis sèrbia sèrbies
+15	2815	qüestionar	qüestiona qüestionada qüestionades qüestionant qüestionat qüestionats qüestionava qüestionaven qüestionem qüestionen qüestiones qüestioni qüestionin qüestionis qüestiono qüestionà qüestionés
+16	2816	alcaldia	alcaldies
+17	2817	videojoc	videojocs
+18	2818	signe	signes
+19	2819	llop	lloba llobes llops
+20	2820	comissari	comissaris comissària
+21	2821	virtut	virtuts
+22	2822	túnel	túnels
+23	2823	precedent	precedents
+24	2824	nacionalisme	nacionalismes
+25	2825	barat	barata barates barats
+26	2826	terror	terrors
+27	2827	petroli	petrolis
+28	2828	cobertura	cobertures
+29	2829	capella	capelles
+30	2830	guapo	guapa guapes guapos
+31	2831	mediàtic	mediàtica mediàtics mediàtiques
+32	2832	orientar	orienta orientada orientades orientant orientaran orientaren orientaria orientarà orientat orientats orientava orientaven oriente orientem orienten orienti orientin orientà orientés
+33	2833	enginyeria	enginyeries
+34	2834	campana	campanes campaneta campanetes
+35	2835	medicament	medicaments
+36	2836	farmàcia	farmàcies
+37	2837	sensible	sensibles
+38	2838	calar	calada calades calant calaren calat calats calava calaven calem calen cales cali calin calis calo calà calàs calés
+39	2839	endur	endu enduc enduem enduen enduent endueu endugueren enduguessin endugui enduguin enduguis endugué endugués enduia enduien enduran enduré enduu endú endús
+40	2840	racisme	racismes
+41	2841	beneficiar	beneficia beneficiada beneficiades beneficiant beneficiaran beneficiaren beneficiaria beneficiarien beneficiarà beneficiat beneficiats beneficiava beneficiaven beneficien beneficiessin beneficio beneficià beneficiés beneficiï beneficiïn
+42	2842	favorable	favorables
+43	2843	coordinació	coordinacions
+44	2844	foment	foments
+45	2845	originalment	
+46	2846	llevar	lleva llevada llevades llevara llevarem llevaren llevaria llevarà llevaré llevats llevava llevaven lleve llevem lleven lleves llevessin lleveu llevi llevin llevis llevo llevà llevés
+47	2847	pavelló	pavellons
+48	2848	cec	cecs cega cego cegues
+49	2849	dimissió	dimissions
+50	2850	acumular	acumula acumulada acumulades acumulant acumularan acumularen acumularia acumularà acumulat acumulats acumulava acumulaven acumulem acumulen acumuli acumulin acumulà acumulés
+51	2851	romànic	romànica romànics romàniques
+52	2852	previsió	previsions
+53	2853	desaparició	desaparicions
+54	2854	influir	influeix influeixen influeixi influeixin influint influiran influiria influirien influirà influí influís influïa influïda influïdes influïen influïren influït influïts influïx influïxen
+55	2855	tic	tics
+56	2856	demòcrata	demòcrates
+57	2857	australià	australiana australianes australians
+58	2858	sitja	sitges
+59	2859	rentar	renta rentada rentades rentant rentat rentats rentava rentaven rente rentem renten rentes renteu renti rentis rento rentà
+60	2860	canó	canons
+61	2861	cagar	caga cagada cagades cagant cagat cagats cagava cago cague caguen cagues cagui cagués
+62	2862	manipulació	manipulacions
+63	2863	maresme	maresmes
+64	2864	moll	molla molles molls
+65	2865	agulla	agulles
+66	2866	formal	formals
+67	2867	feble	febles
+68	2868	motivar	motiv motiva motivada motivades motivant motivaren motivaria motivarà motivat motivats motivava motiven motives motivi motivo motivà motivés
+69	2869	fauna	faunes
+70	2870	assalt	assalts
+71	2871	conveni	convenis
+72	2872	lesió	lesions
+73	2873	luxe	luxes
+74	2874	oriol	oriols
+75	2875	equivalent	equivalents
+76	2876	injustícia	injustícies
+77	2877	coratge	
+78	2878	electricitat	
+79	2879	inicialment	
+80	2880	particularment	
+81	2881	sobte	
+82	2882	intensitat	intensitats
+83	2883	entrevistar	entrevist entrevistada entrevistades entrevistam entrevistant entrevistaren entrevistarà entrevistat entrevistats entrevistava entrevistaven entrevistem entrevisten entrevistes entrevistà entrevistés
+84	2884	legítim	legítima legítimes legítims
+85	2885	atracció	atraccions
+86	2886	bus	busos bussos
+87	2887	coordinar	coordina coordinada coordinades coordinant coordinaren coordinaria coordinarà coordinat coordinats coordinava coordinaven coordinem coordinen coordinessin coordini coordinà coordinés
+88	2888	badia	badies
+89	2889	vessant	vessants
+90	2890	rodona	redona rodones
+91	2891	sacrifici	sacrificis
+92	2892	estret	estretes estrets
+93	2893	nacionalitat	nacionalitats
+94	2894	saludar	salud saluda saludada saludant saludarà saludat saludats saludava saludaven salude saludem saluden saludes saludeu saludi saludin saludo saludà
+95	2895	emportar-se	emporta emporta't emportada emportant emportaran emportarem emportaren emportaria emportarien emportarà emportaràs emportaré emportat emportats emportava emportaven emportem emporten emportes emportessin emporteu emporti emportin emportis emporto emportà emportés
+96	2896	proveïdor	proveïdora proveïdores proveïdors
+97	2897	oceà	oceans
+98	2898	diplomàtic	diplomàtica diplomàtics diplomàtiques
+99	2899	rar	rara rares rars
+100	2900	emocional	emocionals

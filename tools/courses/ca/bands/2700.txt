@@ -1,0 +1,100 @@
+1	2601	fam	fams
+2	2602	delta	deltes
+3	2603	estalviar	estalvia estalviada estalviant estalviarem estalviaria estalviarà estalviaràs estalviaré estalviat estalviats estalviava estalviaven estalviem estalvien estalvies estalvieu estalvio estalviï estalviïs
+4	2604	barceloní	barcelonina barcelonines barcelonins
+5	2605	empresarial	empresarials
+6	2606	senador	senadora senadores senadors
+7	2607	somiar	somia somiada somiades somiant somiat somiats somiava somiaven somiaves somiem somien somies somio somiï somniar
+8	2608	aficionat	aficionada aficionades aficionats
+9	2609	manteniment	manteniments
+10	2610	pol	
+11	2611	composició	composicions
+12	2612	privilegi	privilegis
+13	2613	islàmic	islàmica islàmics islàmiques
+14	2614	dent	dents
+15	2615	anell	anells
+16	2616	lògica	lògiques
+17	2617	gest	gestos gests
+18	2618	camió	camions
+19	2619	comarcal	comarcals
+20	2620	suau	suaus
+21	2621	provincial	provincials
+22	2622	oncle	oncles
+23	2623	cens	censos
+24	2624	corrupte	corrupta corruptes
+25	2625	reparació	reparacions
+26	2626	sacerdot	sacerdots
+27	2627	lleuger	lleugera lleugeres lleugers
+28	2628	afecte	afecta afectes
+29	2629	solitari	solitaris solitària solitàries
+30	2630	romàntic	romàntica romàntics romàntiques
+31	2631	pinta	pintes
+32	2632	equilibri	equilibris
+33	2633	patata	patates
+34	2634	agrícola	agrícoles
+35	2635	artificial	artificials
+36	2636	parcial	parcials
+37	2637	rescatar	rescata rescatada rescatades rescatant rescatarà rescatat rescatats rescatava rescataven rescate rescatem rescaten rescatessin rescati rescatin rescatà rescatés
+38	2638	explorar	explora explorada explorades explorant explorarem exploraren explorarà explorat explorats explorava exploraven explorem exploren explores explori explorin explorà explorés
+39	2639	uniforme	uniformes
+40	2640	extinció	extincions
+41	2641	fumar	fuma fumada fumades fumant fumaria fumat fumats fumava fumaven fumem fumen fumes fumeu fumi fumis fumo
+42	2642	creença	creences
+43	2643	corea	corees
+44	2644	adaptació	adaptacions
+45	2645	altura	altures
+46	2646	durada	durades
+47	2647	assassinar	assassina assassinada assassinades assassinant assassinaren assassinaria assassinarà assassinats assassinava assassinaven assassinen assassines assassinessin assassinin assassinà assassinés
+48	2648	reaccionar	reacciona reaccionant reaccionaran reaccionaren reaccionaria reaccionarien reaccionarà reaccionat reaccionava reaccionaven reaccionem reaccionen reacciones reaccionessin reaccioni reaccionin reacciono reaccionà reaccionés
+49	2649	convivència	convivències
+50	2650	vigilància	vigilàncies
+51	2651	ençà	
+52	2652	quaranta	
+53	2653	rellevant	rellevants
+54	2654	pasta	pastes
+55	2655	profunditat	profunditats
+56	2656	casteller	castellera castelleres castellers
+57	2657	disculpar	disculpant disculparà disculpat disculpau disculpava disculpe disculpen disculpes disculpeu disculpi disculpin disculpis disculpo disculpés
+58	2658	encantat	encantada encantades encantats
+59	2659	característic	característics característiques
+60	2660	atrevir	atreveix atreveixen atreveixes atreveixi atreveixis atreveixo atrevia atrevida atrevides atrevien atrevim atreviran atreviren atreviria atrevirien atreviries atrevirà atrevissin atrevit atrevits atreviu atreví atrevís
+61	2661	témer	temem temen tement temeu temi temia temien temin temis temo tems temuda temudes temut temuts temé temés
+62	2662	guió	guions
+63	2663	implicació	implicacions
+64	2664	barrera	barreres
+65	2665	florir	floreix floreixen floreixi floreixin floria florida florides florien florins florint floriran floriren florirà florit florits florí florís
+66	2666	enfrontament	enfrontaments
+67	2667	acadèmia	acadèmies
+68	2668	ribera	riberes
+69	2669	lleó	lleona lleones lleons
+70	2670	balcó	balcons
+71	2671	prestar	presta prestada prestades prestant prestaran prestaren prestaria prestarà prestat prestats prestava prestaven preste prestem presten prestes prestessin presteu presti prestin prestis presto prestà prestés
+72	2672	programar	programada programades programant programaren programat programats programava programaven programen programes programi programin programà
+73	2673	insult	insults
+74	2674	consumidor	consumidora consumidores consumidors
+75	2675	pintor	pintora pintores pintors
+76	2676	compositor	compositora compositores compositors
+77	2677	monarquia	monarquies
+78	2678	viatger	viatgera viatgeres viatgers
+79	2679	estany	estanya estanys
+80	2680	atleta	atletes
+81	2681	muntatge	muntatges
+82	2682	servidor	servidora servidores servidors
+83	2683	operatiu	operatius operativa operatives
+84	2684	extreure	extragueren extragué extraiem extraient extrau extrauen extraure extrauria extregui extreguin extreia extreien extret extreta extretes extrets extreu extreuen
+85	2685	guitarra	guitarres
+86	2686	obligatori	obligatoris obligatòria obligatòries
+87	2687	factura	factures
+88	2688	acusació	acusacions
+89	2689	hom	
+90	2690	majoritàriament	
+91	2691	rebel·lió	
+92	2692	confessar	confessa confessada confessant confessaren confessaria confessarà confessat confessava confessaven confessen confesseu confessi confessin confesso confessà confessés
+93	2693	provinent	provinents
+94	2694	mallorquí	mallorquina mallorquines mallorquins
+95	2695	potent	potents
+96	2696	acomiadar	acomiada acomiadada acomiadades acomiadant acomiadaren acomiadaria acomiadat acomiadats acomiadava acomiadaven acomiadem acomiaden acomiades acomiadessin acomiadeu acomiadi acomiadin acomiado acomiadà acomiadés
+97	2697	moció	mocions
+98	2698	sofrir	sofert soferta sofertes soferts sofreix sofreixen sofreixi sofreixin sofria sofrida sofrien sofrint sofriran sofriren sofriria sofrirà sofrit sofrixen sofrí sofrís
+99	2699	horta	hortes hortet
+100	2700	excloure	excloem excloent excloents exclogui exclogué exclogués exclosa excloses exclosos exclou exclouen exclouria excloïa excloïen exclòs
