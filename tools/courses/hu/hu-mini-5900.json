@@ -1,0 +1,178 @@
+{
+  "id": "hu-mini-5900",
+  "rankUpTo": 5900,
+  "level": "C1",
+  "title": "Saját vállalkozás",
+  "description": "Ten stories, portraits, a diary, an interview and a column about people who start their own small business: a bakery, an accounting office, a copper workshop, a farm guesthouse and more.",
+  "topic": "Starting a business",
+  "names": [
+    "Kristián",
+    "Veszprém",
+    "Németh",
+    "Viktória",
+    "Miskolc",
+    "Bartos",
+    "Leonárd",
+    "Gödöllő",
+    "Rozmári",
+    "Alex",
+    "Kiskunfélegyháza",
+    "Budapest",
+    "Czakó",
+    "Benedikta",
+    "Debrecen",
+    "Mohácsi",
+    "Ilma",
+    "Győr",
+    "Jusztin",
+    "Klarissza",
+    "Szeged",
+    "Tisza",
+    "Sebők",
+    "Norbi",
+    "Zala",
+    "Eliána",
+    "Szénási",
+    "Buda"
+  ],
+  "lessons": [
+    {
+      "title": "Kenyér a csendes utcában",
+      "summary": "Kristián leaves a large bakery, opens his own small shop with a wood-fired oven in a quiet pedestrian street in Veszprém, and by the second month the shop fills up every Saturday.",
+      "newWords": [
+        "tüzel",
+        "szalonna",
+        "fincsi",
+        "megtelik",
+        "hangulatos",
+        "gyalogos",
+        "némelyik",
+        "nátrium"
+      ],
+      "text": "Kristián tizenöt évig dolgozott egy nagy pékségben Veszprémben. Éjszakánként gépek mellett állt, és a kenyér, amelyet sütöttek, mindennap pontosan ugyanolyan volt. 40 éves korában úgy döntött, hogy saját üzletet nyit, ahol úgy süthet kenyeret, ahogy a nagyapjától tanulta.\n\nA belváros szélén, egy csendes utcában talált egy kis helyiséget. Az utcát néhány éve lezárták az autók elől, azóta csak gyalogosok és biciklisek járnak benne. Kristián egy héten át minden reggel leült a szemközti padra, és megszámolta, hány gyalogos megy el a helyiség előtt hét és kilenc között. Naponta több mint kétszáz gyalogost számolt meg, és ez elég volt neki.\n\nA helyiség hátsó részébe régi típusú sütőt építtetett, amelyben fával kell tüzelni, mint a nagyapja idejében. Kristián hajnali háromkor kezd tüzelni, és öt órára a sütő elég forró ahhoz, hogy betegye az első kenyereket. Amíg tüzel, csend van körülötte, és ezt nagyon szereti.\n\nA kenyér mellett kétféle pogácsát is süt: sajttal és szalonnával. A szalonnát egy közeli tanyáról hozza, ahol egy idős házaspár maga füstöli. Sok vevő mondja, hogy ilyen szalonnát gyerekkora óta nem evett.\n\nKristián arra is figyel, hogy kevés só legyen a kenyérben. Az orvosok szerint a legtöbb ember túl sok nátriumot eszik, és ennek a nátriumnak nagy része a kenyérből jön. Ezért kevesebb sót tesz a tésztába, mint a nagy pékségek, és a pult fölötti táblára is kiírta, hogy a kenyerében kevesebb a nátrium.\n\nAz üzletbe három kis asztalt tett, a falra régi fényképeket akasztott. Az üzlet kicsi, de hangulatos, és a vevők szerint olyan hangulatos, mint egy nagymama konyhája.\n\nAz első héten kevesen jöttek. Ma, a harmadik hónapban, szombatonként reggel nyolcra már megtelik az üzlet, és a sor kiér az utcára. Hétköznap reggel is gyakran megtelik. Némelyik vevő minden reggel jön, némelyik csak hétvégén, és némelyiket Kristián már név szerint ismeri.\n\nEgy reggel egy anyuka jött be a kislányával. A kislány megkóstolta a szalonnával sütött pogácsát, és azt mondta:\n\n– Anya, ez nagyon fincsi!\n\nKristián nevetett. Másnap egy kis táblát tett ki a pultra: „Itt minden fincsi.” A táblát a kislány rajzolta, és azt mondta, ő is fincsi kenyeret fog sütni, ha nagy lesz.\n\nKérdések:\nHol dolgozott Kristián tizenöt évig?\nEgy nagy pékségben dolgozott Veszprémben.\nMiért választotta ezt az utcát?\nMert sok gyalogos megy el ott reggelente: naponta több mint kétszáz.\nHogyan süti Kristián a kenyeret?\nRégi típusú sütőben süti, amelyben fával tüzel, és hajnali háromkor kezd tüzelni.\nHonnan hozza a szalonnát?\nEgy közeli tanyáról hozza, ahol egy idős házaspár maga füstöli.\nMiért tesz kevesebb sót a tésztába?\nMert a legtöbb ember túl sok nátriumot eszik, és ennek nagy része a kenyérből jön.\nMit mondott a kislány a pogácsáról?\nAzt mondta, hogy nagyon fincsi."
+    },
+    {
+      "title": "Könyvelő lett",
+      "summary": "After losing her job of twenty years, Viktória Németh completes an evening course, becomes an accountant and opens a small office in Miskolc for small businesses.",
+      "newWords": [
+        "munkanélküli",
+        "könyvelő",
+        "kötelezettség",
+        "kurzus",
+        "fix",
+        "szembeni",
+        "segítőkész"
+      ],
+      "text": "Németh Viktória negyvenhárom éves volt, amikor a miskolci cég, ahol húsz évig dolgozott, bezárt. Egyik napról a másikra munkanélküli lett. Az első hetekben nem tudta, mit kezdjen magával. Reggelente sokáig ült a konyhában, álláshirdetéseket olvasott, és szégyellte, hogy munkanélküli.\n\nEgy régi kollégája, aki már évek óta könyvelő volt, azt tanácsolta neki, hogy végezzen el egy kurzust, amelyen könyvelőket képeznek. Viktória mindig jól bánt a számokkal, ezért jelentkezett. A kurzus nyolc hónapig tartott, hetente két este. A kurzuson tizenöten tanultak, és közülük sokan szintén munkanélküliek voltak. Esténként együtt ittak egy teát a kurzus után, és ez legalább annyit segített, mint maga a tanulás.\n\nA kurzus végén Viktória vizsgát tett, és könyvelő lett. Nem akart nagy irodában dolgozni: saját vállalkozást indított. Egy kis szobát bérelt a belvárosban, és kis cégek, fodrászok, kézművesek ügyeit vállalta.\n\nHamar rájött, hogy az ügyfelei nagy része nem ismeri a saját kötelezettségeit. Egy fiatal fodrász például nem tudta, hogy minden hónapban jelentést kell küldenie a hivatalnak. Viktória ezért az első találkozáskor mindig leül az új ügyféllel, és egy lapra felírja a kötelezettségeit: mit, mikor és hova kell befizetnie. A lapot az ügyfél hazaviszi, és kiteszi a hűtőre.\n\nA legtöbben a hivatallal szembeni kötelezettségektől félnek, mert nem értik a leveleket, amelyeket kapnak. Viktória szerint a félelem nagy része abból jön, hogy senki nem magyarázza el nekik a szabályokat. Ő elmagyarázza, és ezt az ügyfelei mindennél jobban értékelik.\n\nViktória minden hónapban fix díjat kér. A fix díj miatt az ügyfelek pontosan tudják, mennyit fizetnek, és nem félnek felhívni őt egy kérdéssel. Viktória szerint egy kis vállalkozónak sok bizonytalanság van az életében, legalább a könyvelő díja legyen fix.\n\nMa tizenkét ügyfele van. Az ügyfelek szerint türelmes és segítőkész. Viktória úgy gondolja, egy könyvelőnek nemcsak pontosnak, hanem segítőkésznek is kell lennie, mert az ügyfeleivel szembeni felelőssége nem ér véget a számoknál. Azt is mondja, hogy munkanélküliként tanulta meg, milyen érzés, ha valaki nem tudja, mit kell tennie, és senki nem segít.\n\nKérdések:\nMiért lett Viktória munkanélküli?\nMert a cég, ahol húsz évig dolgozott, bezárt.\nKi tanácsolta neki a kurzust?\nEgy régi kollégája, aki évek óta könyvelő volt.\nMit csinál Viktória egy új ügyféllel az első találkozáskor?\nLeül vele, és egy lapra felírja a kötelezettségeit.\nMitől félnek a legtöbben?\nA hivatallal szembeni kötelezettségektől, mert nem értik a leveleket.\nMiért kér Viktória fix díjat?\nMert így az ügyfelek pontosan tudják, mennyit fizetnek.\nMilyennek tartják őt az ügyfelei?\nTürelmesnek és segítőkésznek."
+    },
+    {
+      "title": "A rézből készült lámpák",
+      "summary": "Leonárd Bartos gives up engineering to make copper vessels and lamps in his grandfather's workshop, and at his tenth fair in Gödöllő he finally wins a prize.",
+      "newWords": [
+        "réz",
+        "rongy",
+        "tükröz",
+        "kellet",
+        "gömb",
+        "dobogó",
+        "tizedik"
+      ],
+      "text": "Bartos Leonárd nagyapja egész életében rézből készített edényeket: lábasokat, tálakat, kannákat. Leonárd gyerekként minden nyarat a nagyapja műhelyében töltött, és nézte, hogyan lesz egy lapos rézlapból kerek tál. Később mérnök lett, és tíz évig egy irodában dolgozott, de a réz illata és hangja sosem ment ki a fejéből.\n\nAmikor a nagyapja nyugdíjba ment, Leonárd átvette a műhelyt. Az első évben alig keresett valamit, de nem bánta meg a döntését. Ma edényeket és lámpákat készít. A lámpái gömb alakúak: egy vékony rézből készült gömbbe apró lyukakat fúr, és amikor a lámpa ég, a fény ezer kis pontban esik a falra.\n\nA munka legfontosabb része a végén jön. A kész edényt Leonárd egy puha ronggyal fényesíti. Új rongyot nem használ, mert az új anyag megkarcolja a felületet; a legjobb rongyok a nagyapja régi ingeiből valók. Egy jól fényesített rézedény úgy tükröz, mint egy tükör. A vevők szeretik, hogy a tál falán látják a saját arcukat, és a réz a lámpa fényét is meleg, sárga színben tükrözi.\n\nLeonárd minden évben részt vesz a kézművesek nagy őszi vásárán Gödöllőn. Idén a tizedik vására volt. A vásáron sok árus hangosan kelleti az áruját: a szomszédja például egész nap kiabálta, hogy az ő méze a legédesebb az országban. Leonárd nem szeret kelletni semmit. Csendben áll a pultja mögött, és ha valaki kézbe vesz egy tálat, elmondja, hogyan készült. Szerinte a réz kelleti magát.\n\nA vásár utolsó napján a szervezők díjat adnak a legszebb munkáknak. A három nyertes felállhat egy kis fa dobogóra a tér közepén. Leonárd kilenc éven át csak lentről nézte a dobogót. A tizedik évben a gömb alakú lámpájával második lett. Amikor felállt a dobogóra, nem tudta, hova nézzen. A dobogón állva a nagyapjára gondolt, aki ott ült az első sorban, és tapsolt.\n\nKérdések:\nMit készített Leonárd nagyapja?\nRézből készített edényeket: lábasokat, tálakat és kannákat.\nMilyen alakúak Leonárd lámpái?\nGömb alakúak, és apró lyukak vannak rajtuk.\nMiért nem használ új rongyot?\nMert az új anyag megkarcolja a felületet.\nHogyan árulja Leonárd az áruját a vásáron?\nNem kelleti hangosan, hanem csendben áll, és elmondja, hogyan készült a tál.\nHányadik vására volt idén?\nIdén a tizedik vására volt.\nMi történt a vásár utolsó napján?\nLeonárd második lett a lámpájával, és felállhatott a dobogóra."
+    },
+    {
+      "title": "Szállás a tanyán",
+      "summary": "Rozmári and Alex turn an old farmstead near Kiskunfélegyháza into a guesthouse; the area has few sights, but guests come for the quiet, the meadows and the owl in the barn.",
+      "newWords": [
+        "látnivaló",
+        "mezei",
+        "bagoly",
+        "hangya",
+        "fázik",
+        "romantika",
+        "esztendő"
+      ],
+      "text": "Rozmári és Alex tizenkét évig éltek egy budapesti lakásban, a negyedik emeleten. Amikor a gyerekeik elköltöztek, eladták a lakást, és vettek egy régi tanyát Kiskunfélegyháza mellett. A házat két év alatt felújították, és három szobát kiadnak a vendégeknek.\n\nA környéken nincs sok látnivaló. Nincs vár, nincs múzeum, nincs fürdő. A legközelebbi látnivaló egy kis tájház a faluban, amely csak szombaton van nyitva. Rozmári először attól félt, hogy emiatt senki sem fog jönni. Aztán rájött, hogy a vendégeik nem látnivalókat keresnek, hanem csendet.\n\nA vendégek többsége városból jön. A tanya romantikája vonzza őket: a hosszú mezei utak, a nagy ég, a csend. A ház mögött mezei virágok nőnek, és reggelente egy mezei nyúl szalad át az udvaron. Alex néha azt mondja, hogy a tanya romantikáját a városi emberek jobban látják, mint azok, akik egész életükben itt éltek.\n\nA pajtában egy bagoly lakik. Nappal alszik, de este, amikor a vendégek kiülnek a ház elé, hallani lehet a hangját. A gyerekek a bagoly miatt maradnak fenn a legtovább. Alex egy kis táblát is kitett a pajta ajtajára: „Itt lakik a bagoly. Kérjük, ne zavarják!”\n\nPersze nem minden olyan romantikus. Nyáron a hangyák bejönnek a konyhába, és egy reggel egy hosszú hangyasor vezetett a cukortartóhoz. Rozmári nem akart mérget használni, ezért minden este alaposan letörli az asztalt, és a cukrot üvegbe zárja. A hangyák azóta kint maradnak.\n\nŐsszel a régi ház hideg. Az első ősszel a vendégek éjszaka fáztak, és reggel udvariasan megkérdezték, van-e még takaró. Rozmári azóta minden szobába két takarót tesz, Alex pedig este fával tüzel a nagy cserépkályhában. Azóta senki sem fázik.\n\nAz első esztendő nehéz volt: kevés vendég jött, és sok mindent meg kellett javítani. A második esztendőben már minden hétvégén telt ház volt. Rozmári szerint egy esztendő kell ahhoz, hogy az ember megismerje a tanyát, és a tanya is megismerje az embert.\n\nKérdések:\nMit vettek Rozmári és Alex Kiskunfélegyháza mellett?\nEgy régi tanyát vettek, és három szobát kiadnak a vendégeknek.\nSok látnivaló van a környéken?\nNincs. A legközelebbi látnivaló egy kis tájház a faluban.\nMi vonzza a vendégeket a tanyára?\nA tanya romantikája: a hosszú mezei utak, a nagy ég és a csend.\nKi lakik a pajtában?\nEgy bagoly lakik a pajtában.\nMit csinált Rozmári a hangyák ellen?\nMinden este letörli az asztalt, és a cukrot üvegbe zárja.\nMilyen volt az első esztendő?\nNehéz volt: kevés vendég jött, és sok mindent meg kellett javítani."
+    },
+    {
+      "title": "Mielőtt belevágsz",
+      "summary": "An interview with Benedikta Czakó, a business adviser in Debrecen, on testing an idea with potential customers, long-term thinking, depending on one client and taking a minority partner.",
+      "newWords": [
+        "megvalósít",
+        "potenciális",
+        "megközelítés",
+        "távú",
+        "kérdéses",
+        "sebezhető",
+        "kisebbségi",
+        "hasonlóság"
+      ],
+      "text": "Czakó Benedikta tizenöt éve dolgozik tanácsadóként Debrecenben. Olyan embereknek segít, akik saját vállalkozást szeretnének indítani. Arról kérdeztük, mire figyeljen az, aki most kezd.\n\n– Mi a leggyakoribb hiba, amelyet a kezdő vállalkozóknál lát?\n\n– Az, hogy túl sokáig csak terveznek. Jó ötlete szinte mindenkinek van. A kérdés az, hogy képes-e megvalósítani. Aki megvalósítja az ötletét, abból vállalkozó lesz; aki csak beszél róla, abból nem.\n\n– Hogyan kezdjen hozzá valaki?\n\n– Először beszéljen a potenciális vevőivel. Ha valaki kávézót akar nyitni, álljon ki egy hétre abba az utcába, ahol nyitni szeretne, és kérdezze meg az arra járókat, betérnének-e. A potenciális vevő az, aki valóban fizetne, nem az, aki csak udvarias.\n\n– Sokan hitelt vesznek fel az induláshoz. Ez jó megközelítés?\n\n– Nem mindig. Sok esetben kérdéses, hogy kell-e egyáltalán hitel. Én egy másik megközelítést ajánlok: kezdjék kicsiben, a saját pénzükből, és csak akkor vegyenek fel hitelt, ha már látják, hogy működik a vállalkozás. Hogy egy hitel jó döntés-e, az mindig kérdéses, amíg nincsenek vevők.\n\n– Mit jelent önnek a hosszú távú gondolkodás?\n\n– Azt, hogy a vállalkozó nemcsak a következő hónapra gondol. A rövid távú siker könnyen félrevezet: az első hónapban mindenki kíváncsi az új üzletre. A hosszú távú terv arról szól, mi lesz az ötödik évben.\n\n– Mikor sebezhető egy kis cég?\n\n– Akkor, ha egyetlen nagy ügyféltől függ. Ha az az ügyfél elmegy, a cég egyik napról a másikra bajban van. Az a vállalkozás, amelynek sok kisebb ügyfele van, sokkal kevésbé sebezhető.\n\n– Mit tanácsol, ha egy ismerős pénzt akar beletenni a cégbe?\n\n– Ez jó lehetőség, de érdemes neki csak kisebbségi részt adni. Ha a barát kisebbségi tulajdonos, a fontos döntések a vállalkozónál maradnak. A kisebbségi tulajdonos lehetőségeit és kötelezettségeit már az elején írják le pontosan.\n\n– Lát valamilyen hasonlóságot azok között, akik sikeresek lesznek?\n\n– Igen, van egy fontos hasonlóság: nem félnek kérdezni. Ez a hasonlóság fontosabb, mint a pénz vagy a diploma.\n\nKérdések:\nMivel foglalkozik Czakó Benedikta?\nTanácsadó: olyan embereknek segít, akik saját vállalkozást szeretnének indítani.\nMi a leggyakoribb hiba szerinte?\nAz, hogy a kezdők túl sokáig csak terveznek, és nem kezdik el megvalósítani az ötletüket.\nKivel beszéljen először egy kezdő vállalkozó?\nA potenciális vevőivel.\nMikor sebezhető egy kis cég?\nAkkor, ha egyetlen nagy ügyféltől függ.\nMit tanácsol, ha egy ismerős pénzt tenne a cégbe?\nAzt, hogy csak kisebbségi részt adjanak neki.\nMilyen hasonlóságot lát a sikeres vállalkozók között?\nAzt, hogy nem félnek kérdezni."
+    },
+    {
+      "title": "A második emeleten",
+      "summary": "Ilma Mohácsi, a masseuse who worked for years in a spa hotel in Győr, sets up her own small treatment room and helps office workers with bad posture.",
+      "newWords": [
+        "kezelő",
+        "órányi",
+        "tartása",
+        "felakaszt",
+        "vászon",
+        "átlátszó",
+        "tevékenykedik"
+      ],
+      "text": "Mohácsi Ilma tizenkét évig egy nagy győri szállodában tevékenykedett: a szálloda vendégeinek adott masszázst. Napi nyolc vendéget kezelt, és mindegyikre pontosan negyven perce jutott. Gyakran érezte, hogy nincs ideje igazán figyelni az emberekre. Amikor egy régi vendége megkérdezte tőle, nem dolgozna-e magának, Ilma sokáig gondolkodott, aztán igent mondott.\n\nEgy régi ház második emeletén talált egy kis lakást, amely két szobából állt. Az egyik szobából váró lett, a másikból kezelő. A kezelő közepére egy széles ágyat tett, a sarokba egy kis szekrényt az olajoknak és a tiszta törölközőknek.\n\nA kezelő ablaka az utcára néz. Ilma átlátszó függöny helyett vastag, világos anyagot választott, hogy a vendégek nyugodtan érezzék magukat. Az ajtó üvegét is kicserélte, mert a régi üveg teljesen átlátszó volt.\n\nAz ágyra vászonból készült lepedőt tesz. A vászon hűvös és erős, és sokszor ki lehet mosni. Ilma minden vendég után tiszta vásznat tesz az ágyra, és a használt lepedőket este kimossa.\n\nAmikor elkészült, felakasztotta a falra a diplomáját és egy régi fényképet a nagymamájáról, aki szintén masszázzsal foglalkozott. Az ajtó mellé egy kis táblát is felakasztott a nevével. A táblát háromszor kellett felakasztania, mert a régi falból mindig kiesett a szög.\n\nIlma nem negyven percet szán egy vendégre, hanem egy órányi időt. Szerinte egy órányi idő alatt már kiderül, hol fáj valami, és miért. Az első alkalommal még fél órányit beszélget is a vendéggel.\n\nA vendégei többsége irodában dolgozik. A legtöbbjüknek rossz a tartása: előre esik a válla, mert egész nap a képernyőt nézi. Ilma ilyenkor nemcsak a hátukat kezeli, hanem azt is megmutatja, hogyan javíthat a tartásán otthon. Egy fiatal férfi, aki egész nap számítógépen dolgozik, három hónap alatt annyit javított a tartásán, hogy már a kollégái is észrevették.\n\nIlma ma kevesebbet keres, mint a szállodában, de jobban alszik. Azt mondja, most először tevékenykedik úgy, ahogy mindig is szeretett volna.\n\nKérdések:\nHol tevékenykedett Ilma korábban?\nEgy nagy győri szállodában: a vendégeknek adott masszázst.\nMi lett a lakás két szobájából?\nAz egyikből váró, a másikból kezelő lett.\nMiért cserélte ki az ajtó üvegét?\nMert a régi ajtó üvege teljesen átlátszó volt.\nMit akasztott fel a falra?\nFelakasztotta a diplomáját és egy fényképet a nagymamájáról.\nMennyi időt szán Ilma egy vendégre?\nEgy órányi időt.\nMilyen gondja van a legtöbb vendégének?\nRossz a tartása, mert egész nap a képernyőt nézi."
+    },
+    {
+      "title": "A háromszög alakú műhely",
+      "summary": "In a short diary, Jusztin renovates a small triangular shop in Budapest for his bicycle repair business, from hauling out rubble to fitting level shelves.",
+      "newWords": [
+        "komplett",
+        "vízszintes",
+        "háromszög",
+        "összeáll",
+        "összejött",
+        "átmenetileg"
+      ],
+      "text": "Március 4.\n\nMa aláírtam a bérleti szerződést. Hat éve javítok biciklit, eddig a szüleim garázsában, de most végre saját műhelyem lesz. A helyiség Budapesten, egy sarkon van, ahol két utca éles szögben találkozik, ezért a műhely háromszög alakú. A barátaim nevetnek rajta, de nekem tetszik. A háromszög csúcsában lesz a pult, onnan mindkét utcára kilátok.\n\nMárcius 11.\n\nA helyiség rossz állapotban van: komplett felújítás kell. Le kell verni a régi burkolatot a falról, ki kell cserélni a villanyt, és új padlót kell rakni. Egy ismerős mester azt mondta, a komplett felújítás legalább két hónap. A pénzem nem elég rá, ezért a barátaimtól kértem segítséget. Egy hét alatt összejött a hiányzó összeg: tizenegy ember adott kisebb-nagyobb részeket. Nem hittem, hogy ilyen gyorsan sikerül. Megígértem, hogy mindenki egy évig ingyen javítja nálam a biciklijét.\n\nMárcius 20.\n\nHárom napig vertük le a burkolatot. A por mindenhol ott van: a cipőmben, a hajamban, a kenyeremben. A törmeléket zsákokba raktuk, és ma reggel egy teherautó vitte el. 32 zsák törmelék jött ki egy ilyen kis helyiségből.\n\nÁprilis 15.\n\nKiderült, hogy a padló nem vízszintes: a háromszög egyik sarka majdnem három centivel lejjebb van. Egy szakember egy hétig dolgozott rajta, hogy teljesen vízszintes legyen. A polcokat én szereltem fel. Mindegyiknél többször is ellenőriztem, hogy vízszintes-e, mert ha nem az, leesnek róla a csavarok.\n\nMájus 2.\n\nLassan összeáll a műhely. A falon lógnak a szerszámok, dobozokban állnak az alkatrészek, a sarokban van két új munkapad. Ma este, amikor leoltottam a villanyt, először éreztem, hogy minden összeállt.\n\nMájus 10.\n\nMég két hét, és kinyitok, de a vevők már keresnek. A javításokat átmenetileg továbbra is a garázsban csinálom, a kész bicikliket pedig átmenetileg anyámék lakásában tárolom. Anyám szerint ez az „átmenetileg” már túl hosszú.\n\nKérdések:\nMiért háromszög alakú a műhely?\nMert egy sarkon van, ahol két utca éles szögben találkozik.\nMilyen felújítás kellett?\nKomplett felújítás: új burkolat, új villany és új padló.\nHogyan jött össze a pénz?\nA barátai segítettek: egy hét alatt összejött a hiányzó összeg.\nMi történt a törmelékkel?\nZsákokba rakták, és egy teherautó elvitte.\nMi volt a baj a padlóval?\nNem volt vízszintes, az egyik sarka majdnem három centivel lejjebb volt.\nHol tárolja Jusztin átmenetileg a kész bicikliket?\nAz anyjáék lakásában."
+    },
+    {
+      "title": "Jelvények Szegedről",
+      "summary": "Klarissza, a university student in Szeged, starts selling small badges of her own drawings online, and a large order from a bookshop makes her jump around the room.",
+      "newWords": [
+        "egyetemista",
+        "jelvény",
+        "továbbít",
+        "szöveges",
+        "ugrál",
+        "szabályzat"
+      ],
+      "text": "Klarissza harmadéves egyetemista Szegeden. Szabadidejében rajzol: a város épületeit, a Tisza-partot, a villamosokat. Tavaly egy barátnője azt mondta, hogy a rajzaiból jelvényt kellene csinálni, mert az egyetemisták szeretik az ilyen apróságokat a táskájukon.\n\nKlarissza talált egy kis műhelyt, amely kis mennyiségben is készít jelvényeket. Az első rendelés száz jelvény volt, öt különböző rajzzal. Amikor megkapta a dobozt, egész este a jelvényeket nézte, és nem hitte el, hogy ezek az ő rajzai.\n\nEgy egyszerű webáruházat nyitott. Kiderült, hogy egy webáruházhoz sok minden kell, amire nem gondolt: például vásárlási szabályzat. A szabályzatban le kell írni, mennyi idő alatt küldi el a rendelést, és mit tehet a vevő, ha nem tetszik neki a jelvény. Klarissza egy hétvégén írta meg a szabályzatot, és egy ismerőse, aki ért az ilyesmihez, átnézte.\n\nA rendeléseket a webáruház automatikusan továbbítja az e-mail-címére. A közösségi oldalán érkező üzeneteket a barátnője továbbítja neki, mert ő kezeli az oldalt. Ha egy vevő telefonon kér valamit, Klarissza szöveges üzenetben válaszol, mert óra közben nem tud telefonálni. A szöveges üzenetekben mindig pontosan leírja, mikor küldi a csomagot.\n\nA vevők többsége egyetemista, de egyre több turista is vásárol. Egyszer egy idős úr rendelt húsz jelvényt, mert az unokáinak akart egy-egy szegedi emléket adni.\n\nEgy kedd reggel egy e-mail érkezett, amelyet a webáruház továbbított. Egy belvárosi könyvesbolt ötszáz jelvényt rendelt. Klarissza kétszer is elolvasta, aztán felállt, és elkezdett ugrálni a szobában. A kutyája is ugrált vele, bár nem tudta, miért. A szomszéd lakó felkopogott a plafonra, de Klarissza ezt sem bánta.\n\nAzóta a jelvényekből fizeti a lakbére egy részét. Egyetemista marad még két évig, de már tudja, hogy a diploma után sem akarja abbahagyni a rajzolást.\n\nKérdések:\nKi Klarissza?\nHarmadéves egyetemista Szegeden, aki szabadidejében rajzol.\nMit csinál a rajzaiból?\nJelvényeket készíttet belőlük, és eladja őket.\nMit kellett leírni a szabályzatban?\nMennyi idő alatt küldi el a rendelést, és mit tehet a vevő, ha nem tetszik neki a jelvény.\nKi továbbítja neki a közösségi oldal üzeneteit?\nA barátnője, aki az oldalt kezeli.\nMiért válaszol szöveges üzenetben?\nMert óra közben nem tud telefonálni.\nMit csinált Klarissza, amikor megkapta a nagy rendelést?\nFelállt, és ugrálni kezdett a szobában, és a kutyája is ugrált vele."
+    },
+    {
+      "title": "Falvak felülről",
+      "summary": "Former geography teacher Norbi Sebők starts a drone photography business, taking pictures of small villages in Zala, and learns to cope with the wind and with insurance.",
+      "newWords": [
+        "landol",
+        "műholdas",
+        "helység",
+        "vándorol",
+        "általi",
+        "tehetetlen",
+        "kiterjed"
+      ],
+      "text": "Sebők Norbi húsz évig tanított földrajzot egy zalai kisvárosban. Mindig szerette a térképeket, és a gyerekeknek is sokszor mutatott műholdas képeket az órákon. A műholdas képeken jól látszanak az erdők és az utak, de egy kis falu házai csak apró pontok rajtuk.\n\n50 éves korában vett egy drónt, és lefényképezte a saját faluját felülről. A képet feltette a falu közösségi oldalára, és egy nap alatt több száz ember osztotta meg. Másnap felhívta a művelődési ház vezetője, és megkérdezte, készítene-e képeket a falu új honlapjára.\n\nÍgy kezdődött a vállalkozása. Norbi ma kis helységeknek dolgozik: falvaknak, amelyek a honlapjukra vagy egy kiadványba szeretnének szép képeket. Egy-egy helység képeit két nap alatt készíti el. Az első nap gyalog bejárja a helységet, és beszélget az emberekkel, hogy tudja, mi fontos nekik: például a régi iskola, a patak vagy egy öreg fa.\n\nTavasztól őszig falutól faluig vándorol a kis autójával. A felesége szerint úgy vándorol, mint régen a kézművesek. A gépet mindig egy nyugodt, nyílt helyről indítja, és oda is landol vele. A gyerekek ilyenkor körülállják, és figyelik, ahogy a gép lassan landol a fűben.\n\nA szél a legnagyobb ellenfele. Erős szélben a gép nem tud repülni, és ilyenkor Norbi tehetetlen. Ül az autóban, és várja, hogy a szél elálljon. Eleinte nagyon zavarta, hogy ilyen tehetetlen, ma már olvas ilyenkor.\n\nMielőtt elkezdett dolgozni, biztosítást kötött. Hosszan olvasta a szerződést, hogy pontosan tudja, mire terjed ki. A biztosítás kiterjed arra, ha a gép elromlik, és arra is, ha a gép kárt tesz valakinek a házában vagy az autójában. Arra viszont nem terjed ki, ha a gép erős szélben repül. A szerződésben külön pont szól a szél általi károkról: ezeket a biztosító nem fizeti. Az, hogy a szél ne okozzon kárt, tehát rajta múlik. Norbi ezért csak akkor engedi fel a gépet, ha biztos benne, hogy a szél általi kár kizárható.\n\nNorbi szerint a legszebb pillanat az, amikor egy idős néni a képen először látja felülről a saját házát.\n\nKérdések:\nMi volt korábban Norbi foglalkozása?\nFöldrajzot tanított egy zalai kisvárosban.\nMi a baj a műholdas képekkel?\nEgy kis falu házai csak apró pontok rajtuk.\nMilyen helységeknek dolgozik Norbi?\nKis helységeknek, falvaknak, amelyek szép képeket szeretnének.\nHol landol a drónnal?\nUgyanazon a nyugodt, nyílt helyen, ahonnan indította.\nMikor tehetetlen Norbi?\nErős szélben, mert akkor a gép nem tud repülni.\nMire terjed ki a biztosítása?\nA biztosítás kiterjed arra, ha a gép elromlik, és arra, ha a gép kárt tesz valakinek."
+    },
+    {
+      "title": "Búcsú a tizedik emelettől",
+      "summary": "In a reflective column, Eliána Szénási, once a senior manager at a bank, writes about saying goodbye to her career, her fear of failure and opening a small tea shop.",
+      "newWords": [
+        "megalázó",
+        "álca",
+        "kór",
+        "búcsúzik",
+        "rangú"
+      ],
+      "text": "Tizennyolc évig dolgoztam egy nagy bankban, az utolsó hat évben magas rangú vezetőként. Az irodám a tizedik emeleten volt, és onnan az egész várost láttam. Tavaly ősszel felmondtam, és ma egy kis teázót vezetek Budán. Sokan kérdezik, miért. Ebben az írásban megpróbálok válaszolni.\n\nEgy magas rangú vezető élete kívülről egyszerűnek tűnik: jó fizetés, szép iroda, tisztelet. Belülről viszont sokszor magányos. Évekig mosolyogtam a megbeszéléseken, és mindenki azt hitte, hogy magabiztos vagyok. A mosoly azonban csak álca volt. Az álca mögött egy fáradt ember állt, aki minden reggel félt attól, hogy hibázik.\n\nVan egy kór, amely a vezetők között nagyon gyakori: a tökéletesség kórja. Aki ebben szenved, nem tud megállni, mert mindig van mit javítani. Én is ebben a kórban szenvedtem. Hétvégén is e-maileket írtam, és szabadság alatt is felvettem a telefont.\n\nA legnagyobb félelmem a kudarc volt. Úgy éreztem, megalázó lenne, ha a saját vállalkozásom nem sikerülne. Mit mondanának a régi kollégáim? Egy egykori magas rangú vezető, aki nem tud eladni egy csésze teát? Ma már tudom, hogy a kudarc nem megalázó. Megalázó csak az lenne, ha meg sem próbáltam volna.\n\nAz utolsó napomon mindenkitől egyesével búcsúztam. A portástól is, aki tizennyolc évig minden reggel köszönt nekem. Furcsa volt búcsúzni egy helytől, ahol az életem nagy részét töltöttem. Amikor kiléptem az ajtón, nem sírtam, csak nagyon könnyűnek éreztem magam.\n\nA teázó kicsi: nyolc asztal, egy pult és sok-sok doboz tea. Most kevesebbet keresek, és többet dolgozom, mint valaha. A tökéletesség kórjából sem gyógyultam meg teljesen: néha még most is háromszor törlöm le ugyanazt az asztalt. De az álcát letettem. Ha fáradt vagyok, azt mondom, hogy fáradt vagyok.\n\nNéha a régi kollégáim is betérnek. Leülnek, isznak egy teát, és mielőtt búcsúznak, halkan megkérdezik, hogyan mertem belevágni. Ilyenkor azt mondom nekik: nem mertem, csak nem akartam tovább félni.\n\nSzénási Eliána\n\nKérdések:\nMi volt az író munkája korábban?\nMagas rangú vezető volt egy nagy bankban.\nMi volt valójában a mosolya a megbeszéléseken?\nCsak álca volt, amely mögött egy fáradt ember állt.\nMilyen kórban szenvedett?\nA tökéletesség kórjában.\nMitől félt a legjobban?\nA kudarctól: úgy érezte, megalázó lenne, ha a vállalkozása nem sikerülne.\nMit csinált az utolsó napján a bankban?\nMindenkitől egyesével elbúcsúzott, a portástól is.\nMit vezet ma?\nEgy kis teázót Budán."
+    }
+  ]
+}
