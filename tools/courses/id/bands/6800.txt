@@ -1,0 +1,100 @@
+1	6701	perwujudan	
+2	6702	probabilitas	
+3	6703	proyektor	
+4	6704	rakus	
+5	6705	sejarawan	
+6	6706	sekuel	
+7	6707	sensei	
+8	6708	tanggul	
+9	6709	terpikirkan	
+10	6710	timbangan	
+11	6711	tiram	
+12	6712	kocok	mengocok
+13	6713	leluasa	keleluasaan
+14	6714	taklukkan	ditaklukkan
+15	6715	induksi	menginduksi
+16	6716	benak	benaknya
+17	6717	bentur	berbenturan terbentur
+18	6718	aniaya	dianiaya
+19	6719	luluh	meluluhkan
+20	6720	berkahi	berkati diberkahi
+21	6721	lotre	lotere
+22	6722	admiral	
+23	6723	ampas	
+24	6724	berbobot	
+25	6725	berpidato	
+26	6726	berseru	
+27	6727	bobo	
+28	6728	bugar	
+29	6729	bukaan	
+30	6730	cucian	
+31	6731	dagangan	
+32	6732	efektivitas	
+33	6733	gambut	
+34	6734	garpu	
+35	6735	granit	
+36	6736	janggal	
+37	6737	jangkar	
+38	6738	kepanjangan	
+39	6739	kewalahan	
+40	6740	kijang	
+41	6741	kurs	
+42	6742	lesu	
+43	6743	lintang	
+44	6744	mendedikasikan	
+45	6745	mendung	
+46	6746	menggaruk	
+47	6747	menyempatkan	
+48	6748	merdu	
+49	6749	metropolis	
+50	6750	mikroskop	
+51	6751	mobilitas	
+52	6752	ngentot	
+53	6753	pancaran	
+54	6754	paradigma	
+55	6755	pemuka	
+56	6756	pendopo	
+57	6757	perekrutan	
+58	6758	pertunangan	
+59	6759	radikalisme	
+60	6760	radioaktif	
+61	6761	reksa	
+62	6762	siasat	
+63	6763	sirna	
+64	6764	spiral	
+65	6765	sunat	
+66	6766	tambak	
+67	6767	tender	
+68	6768	terapis	
+69	6769	terbaca	
+70	6770	trompet	terompet
+71	6771	zebra	
+72	6772	cenderawasih	cendrawasih
+73	6773	ulas	mengulas ulasannya
+74	6774	rombak	berombak dirombak merombak
+75	6775	terjemah	menerjemahkannya terjemahannya
+76	6776	amnesia	
+77	6777	anatomi	
+78	6778	arogan	
+79	6779	belut	
+80	6780	bentar	
+81	6781	berair	
+82	6782	cacar	
+83	6783	dajal	dajjal
+84	6784	deli	
+85	6785	ente	
+86	6786	helium	
+87	6787	integral	
+88	6788	kadangkala	
+89	6789	kebidanan	
+90	6790	ketukan	
+91	6791	knot	
+92	6792	kronologis	
+93	6793	laci	
+94	6794	lanskap	
+95	6795	laras	
+96	6796	lemot	
+97	6797	luntur	
+98	6798	maestro	
+99	6799	manjur	
+100	6800	mazhab	

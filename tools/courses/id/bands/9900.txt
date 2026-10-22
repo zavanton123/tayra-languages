@@ -1,0 +1,100 @@
+1	9801	traksi	
+2	9802	alkitabiah	
+3	9803	amer	
+4	9804	andesit	
+5	9805	anterior	
+6	9806	bekicot	
+7	9807	bergadang	
+8	9808	berkeadilan	
+9	9809	berkumandang	
+10	9810	biopsi	
+11	9811	bundel	
+12	9812	demokratisasi	
+13	9813	dapuk	didapuk
+14	9814	perbincangkan	diperbincangkan
+15	9815	ekstradisi	
+16	9816	epitel	
+17	9817	etanol	
+18	9818	hansip	
+19	9819	holistis	holistik
+20	9820	imperialisme	
+21	9821	inventarisasi	
+22	9822	jambang	
+23	9823	kemelut	
+24	9824	khatam	
+25	9825	konstruktif	
+26	9826	lengkuas	
+27	9827	lugas	
+28	9828	mangkir	
+29	9829	margasatwa	
+30	9830	matsuri	
+31	9831	mayones	
+32	9832	membayangi	
+33	9833	tampik	menampik
+34	9834	contek	mencontek
+35	9835	akomodir	mengakomodir
+36	9836	nira	
+37	9837	nyeleneh	
+38	9838	pailit	
+39	9839	paralayang	
+40	9840	pecinan	
+41	9841	pembagi	
+42	9842	pemilikan	
+43	9843	peniti	
+44	9844	penyambung	
+45	9845	plafon	
+46	9846	politisasi	
+47	9847	prasmanan	
+48	9848	prolog	
+49	9849	rebah	
+50	9850	rimbun	
+51	9851	robotik	
+52	9852	safir	
+53	9853	sasis	
+54	9854	tako	taco
+55	9855	talak	
+56	9856	troli	
+57	9857	umpama	
+58	9858	akrobat	
+59	9859	almarhumah	
+60	9860	amburadul	
+61	9861	balado	
+62	9862	bebuyutan	
+63	9863	beroleh	
+64	9864	bunting	
+65	9865	buyar	
+66	9866	ciu	
+67	9867	destruktif	
+68	9868	detasemen	
+69	9869	lekatkan	dilekatkan
+70	9870	eksemplar	
+71	9871	enamel	
+72	9872	etalase	
+73	9873	etiket	
+74	9874	formalin	
+75	9875	grip	
+76	9876	jahiliah	jahiliyah
+77	9877	jaran	
+78	9878	jazirah	
+79	9879	kabisat	
+80	9880	karoseri	
+81	9881	keingintahuan	
+82	9882	ketidaksesuaian	
+83	9883	kidung	
+84	9884	komisariat	
+85	9885	kontan	
+86	9886	laten	
+87	9887	leleh	
+88	9888	lirih	
+89	9889	makara	
+90	9890	mencelakakan	
+91	9891	dikte	mendikte
+92	9892	dongak	mendongak
+93	9893	mengelap	
+94	9894	menyorot	
+95	9895	nepotisme	
+96	9896	nyinyir	
+97	9897	odol	
+98	9898	opa	
+99	9899	pembedaan	
+100	9900	penceramah	

@@ -1,0 +1,100 @@
+1	4201	argumen	berargumen
+2	4202	agensi	
+3	4203	beta	
+4	4204	break	
+5	4205	eka	
+6	4206	eksternal	
+7	4207	fiksi	
+8	4208	fotografer	
+9	4209	ganas	
+10	4210	inisiatif	
+11	4211	katalog	
+12	4212	kawah	
+13	4213	kebijaksanaan	
+14	4214	kegunaan	
+15	4215	ketujuh	
+16	4216	kutu	
+17	4217	lift	
+18	4218	menaklukkan	
+19	4219	mengusulkan	
+20	4220	menyatu	
+21	4221	organisme	
+22	4222	pemanfaatan	
+23	4223	pembahasan	
+24	4224	pembantaian	
+25	4225	penghubung	
+26	4226	persaudaraan	
+27	4227	rasional	
+28	4228	rujukan	
+29	4229	sentral	
+30	4230	sirkuit	
+31	4231	sosialisasi	
+32	4232	sperma	
+33	4233	telapak	
+34	4234	terusan	
+35	4235	turis	
+36	4236	wayang	
+37	4237	wewenang	
+38	4238	camilan	cemilan
+39	4239	spekulasi	berspekulasi
+40	4240	tutupi	ditutupi
+41	4241	majikan	majikannya
+42	4242	verifikasi	memverifikasi
+43	4243	ratna	rana
+44	4244	padu	berpadu dipadukan memadukan
+45	4245	tuliskan	dituliskan
+46	4246	eksplorasi	mengeksplorasi
+47	4247	rangkap	merangkap terperangkap
+48	4248	bea	bia
+49	4249	kekal	kekekalan
+50	4250	aa	
+51	4251	ab	
+52	4252	amanah	
+53	4253	arahan	
+54	4254	bengkel	
+55	4255	beradaptasi	
+56	4256	berdiam	
+57	4257	cetakan	
+58	4258	direktorat	
+59	4259	efisiensi	
+60	4260	fantasi	
+61	4261	hadis	
+62	4262	humor	
+63	4263	jemaat	
+64	4264	karo	
+65	4265	kecenderungan	
+66	4266	kekaisaran	
+67	4267	kelainan	
+68	4268	kemasan	
+69	4269	legendaris	
+70	4270	leluhur	
+71	4271	lorong	
+72	4272	mempertanyakan	
+73	4273	mengutip	
+74	4274	migas	
+75	4275	minus	
+76	4276	orde	
+77	4277	pati	
+78	4278	pembatasan	
+79	4279	pemberantasan	
+80	4280	pencerahan	
+81	4281	penerjemah	
+82	4282	penginapan	
+83	4283	pengisian	
+84	4284	penyelamatan	
+85	4285	pepatah	
+86	4286	pepohonan	
+87	4287	perampok	
+88	4288	perhubungan	
+89	4289	persidangan	
+90	4290	perspektif	
+91	4291	pilpres	
+92	4292	rapuh	
+93	4293	rintangan	
+94	4294	sakura	
+95	4295	salon	
+96	4296	sekjen	
+97	4297	silver	
+98	4298	tara	
+99	4299	tega	
+100	4300	tumor	

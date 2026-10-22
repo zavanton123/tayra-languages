@@ -1,0 +1,100 @@
+1	3101	pil	
+2	3102	posting	
+3	3103	teluk	
+4	3104	cangkir	secangkir
+5	3105	koalisi	berkoalisi
+6	3106	aneka	beraneka
+7	3107	subur	menyuburkan penyubur
+8	3108	melacak	dilacak lacak terlacak
+9	3109	konteks	konteksnya
+10	3110	musnah	dimusnahkan memusnahkan musnahkan pemusnahan
+11	3111	iklim	beriklim
+12	3112	mengartikan	artikan diartikan
+13	3113	simpang	menyimpang
+14	3114	timpa	ditimpa menimpa menimpanya tertimpa
+15	3115	seratus	tus
+16	3116	letakkan	diletakkan
+17	3117	dakwah	da'wah
+18	3118	lilin	lilinnya
+19	3119	dialog	berdialog
+20	3120	lembar	selembar
+21	3121	visi	visinya
+22	3122	egois	keegoisan
+23	3123	akbar	
+24	3124	arsip	
+25	3125	bangsawan	
+26	3126	bantal	
+27	3127	barisan	
+28	3128	bertentangan	
+29	3129	celah	
+30	3130	emosional	
+31	3131	gurun	
+32	3132	hiu	
+33	3133	kesedihan	
+34	3134	kesetiaan	
+35	3135	ketahuan	
+36	3136	kurus	
+37	3137	membatasi	
+38	3138	menjatuhkan	
+39	3139	mingguan	
+40	3140	palu	
+41	3141	pembalap	
+42	3142	penawaran	
+43	3143	pengamat	
+44	3144	pengendalian	
+45	3145	penipuan	
+46	3146	syuting	
+47	3147	tempur	
+48	3148	tercinta	
+49	3149	tulus	
+50	3150	hidayah	hidayat
+51	3151	pulih	dipulihkan pulihkan
+52	3152	mencium	tercium
+53	3153	basis	berbasiskan
+54	3154	genggam	digenggam genggaman
+55	3155	runtuh	keruntuhan meruntuhkan runtuhnya
+56	3156	akurat	keakuratan
+57	3157	rekam	direkam merekamnya rekamannya
+58	3158	muat	bermuatan muatannya pemuatan termuat
+59	3159	janda	randa
+60	3160	ajaib	ajaibnya
+61	3161	kendara	berkendara berkendaraan kendaraannya
+62	3162	eksperimen	bereksperimen
+63	3163	realitas	realita
+64	3164	bad	
+65	3165	bensin	
+66	3166	bepergian	
+67	3167	betina	
+68	3168	dusun	
+69	3169	gelisah	
+70	3170	helm	
+71	3171	institusi	
+72	3172	iso	
+73	3173	keberatan	
+74	3174	keseimbangan	
+75	3175	keunggulan	
+76	3176	menyala	
+77	3177	mulus	
+78	3178	mutiara	
+79	3179	pangkalan	
+80	3180	perlengkapan	
+81	3181	persaingan	
+82	3182	perwira	
+83	3183	politisi	
+84	3184	ratus	
+85	3185	sanksi	
+86	3186	serat	
+87	3187	start	
+88	3188	toh	
+89	3189	tegang	menegangkan
+90	3190	melukai	lukai
+91	3191	elite	elit
+92	3192	sertifikat	bersertifikat
+93	3193	tepuk	bertepuk menepuk tepukan
+94	3194	santri	santrinya
+95	3195	negosiasi	bernegosiasi menegosiasikan
+96	3196	melancarkan	dilancarkan
+97	3197	etika	beretika
+98	3198	cakap	cakep percakapannya
+99	3199	apresiasi	mengapresiasi
+100	3200	popularitas	popularitasnya

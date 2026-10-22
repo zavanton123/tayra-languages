@@ -1,0 +1,100 @@
+1	7701	menandingi	
+2	7702	merica	
+3	7703	overdosis	
+4	7704	pancur	pancuran
+5	7705	paroki	
+6	7706	pembakar	
+7	7707	pembenahan	
+8	7708	pembukuan	
+9	7709	pengambil	
+10	7710	perapian	
+11	7711	perhotelan	
+12	7712	rajawali	
+13	7713	samir	
+14	7714	senggang	
+15	7715	seruling	
+16	7716	sesepuh	
+17	7717	sian	
+18	7718	slip	
+19	7719	sorak	
+20	7720	spesimen	
+21	7721	stoples	toples
+22	7722	yel	
+23	7723	yogi	
+24	7724	kendur	kendor
+25	7725	tempelkan	ditempelkan
+26	7726	patok	dipatok
+27	7727	kupas	dikupas
+28	7728	cubit	mencubit
+29	7729	ayun	berayun
+30	7730	auditorium	
+31	7731	autis	
+32	7732	bakau	
+33	7733	bergaris	
+34	7734	berutang	
+35	7735	calo	
+36	7736	cupang	
+37	7737	dengerin	
+38	7738	elektronika	
+39	7739	elevator	
+40	7740	emansipasi	
+41	7741	euforia	
+42	7742	fisiologis	
+43	7743	inframerah	
+44	7744	iptek	
+45	7745	kecilan	
+46	7746	keresahan	
+47	7747	kesialan	
+48	7748	kewaspadaan	
+49	7749	kontributor	
+50	7750	lajur	
+51	7751	memarahi	
+52	7752	menagih	
+53	7753	mentok	
+54	7754	meratakan	
+55	7755	metafora	
+56	7756	neng	
+57	7757	ombudsman	
+58	7758	pamor	
+59	7759	pelapor	
+60	7760	peleton	
+61	7761	penghematan	
+62	7762	penguji	
+63	7763	perangsang	
+64	7764	periodik	
+65	7765	perombakan	
+66	7766	perputaran	
+67	7767	pertanahan	
+68	7768	pewarnaan	
+69	7769	pikun	
+70	7770	pungli	
+71	7771	resume	
+72	7772	rubrik	
+73	7773	sekrup	
+74	7774	selendang	
+75	7775	suar	
+76	7776	tawon	
+77	7777	teko	
+78	7778	tenggat	
+79	7779	tuba	
+80	7780	tutor	
+81	7781	yurisdiksi	
+82	7782	kepingin	kepengen
+83	7783	apit	diapit mengapit
+84	7784	hanggar	hangar
+85	7785	tambal	menambal
+86	7786	tertagih	ditagih tagihannya
+87	7787	antek	
+88	7788	auditor	
+89	7789	beo	
+90	7790	berkesinambungan	
+91	7791	berserakan	
+92	7792	birokrat	
+93	7793	bordir	
+94	7794	encer	
+95	7795	endapan	
+96	7796	intern	
+97	7797	intuisi	
+98	7798	jargon	
+99	7799	joglo	
+100	7800	kaktus	

@@ -1,0 +1,100 @@
+1	4001	meninjau	ditinjau tinjau
+2	4002	rukun	kerukunan
+3	4003	kas	kes
+4	4004	batuan	
+5	4005	berbelanja	
+6	4006	berjumpa	
+7	4007	berlian	
+8	4008	beton	
+9	4009	bio	
+10	4010	carter	
+11	4011	dataran	
+12	4012	ganteng	
+13	4013	gatal	
+14	4014	gerai	
+15	4015	gerhana	
+16	4016	imut	
+17	4017	insinyur	
+18	4018	jitu	
+19	4019	judi	
+20	4020	kalori	
+21	4021	katai	kate
+22	4022	kebangkitan	
+23	4023	kedelai	
+24	4024	kehamilan	
+25	4025	kejujuran	
+26	4026	kelamaan	
+27	4027	kesakitan	
+28	4028	konstitusi	
+29	4029	koordinat	
+30	4030	melayang	
+31	4031	mendominasi	
+32	4032	ngapain	
+33	4033	pecahan	
+34	4034	pengajar	
+35	4035	penutupan	
+36	4036	pol	
+37	4037	privasi	
+38	4038	regulasi	
+39	4039	rusa	
+40	4040	saldo	
+41	4041	terpengaruh	
+42	4042	variabel	
+43	4043	jelajah	menjelajahi
+44	4044	mangkuk	mangkok semangkuk
+45	4045	pacu	berpacu memacu
+46	4046	pudar	memudar
+47	4047	frustrasi	frustasi
+48	4048	pajang	dipajang memajang pajangan
+49	4049	moyang	moyangnya
+50	4050	gigit	digigit
+51	4051	iris	diiris mengiris
+52	4052	genting	genteng
+53	4053	ujar	berujar ujarnya
+54	4054	yap	jap
+55	4055	mewarnai	diwarnai
+56	4056	tangani	ditangani
+57	4057	darma	dharma
+58	4058	bibit	pembibitan
+59	4059	wawasan	berwawasan
+60	4060	rama	romo
+61	4061	kumis	berkumis
+62	4062	implementasi	mengimplementasikan
+63	4063	lindung	melindunginya pelindungmu pelindungnya perlindungannya terlindung
+64	4064	diameter	berdiameter
+65	4065	memunculkan	dimunculkan
+66	4066	retak	retakan
+67	4067	tobat	bertobat menobatkan pertobatan taubat
+68	4068	banjar	
+69	4069	bias	
+70	4070	dermaga	
+71	4071	desainer	
+72	4072	elo	
+73	4073	francis	
+74	4074	gandum	
+75	4075	kalung	
+76	4076	kenyang	
+77	4077	keterbatasan	
+78	4078	kewenangan	
+79	4079	konvensional	
+80	4080	lini	
+81	4081	mahkamah	
+82	4082	makalah	
+83	4083	membuatkan	
+84	4084	menabrak	
+85	4085	mudik	
+86	4086	parpol	
+87	4087	pembebasan	
+88	4088	pemrograman	
+89	4089	pinggiran	
+90	4090	portugal	
+91	4091	pustaka	
+92	4092	ribut	
+93	4093	senja	
+94	4094	skandal	
+95	4095	uap	
+96	4096	pesaing	pesaingnya
+97	4097	hasrat	berhasrat hasratnya
+98	4098	unjuk	pengunjuk
+99	4099	sabu	shabu
+100	4100	longsor	longsoran

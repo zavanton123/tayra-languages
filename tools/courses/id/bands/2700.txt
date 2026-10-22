@@ -1,0 +1,100 @@
+1	2601	ledakan	
+2	2602	mayor	
+3	2603	melatih	
+4	2604	merekam	
+5	2605	misteri	
+6	2606	pengakuan	
+7	2607	pisau	
+8	2608	segi	
+9	2609	semen	
+10	2610	tarian	
+11	2611	hapus	apus dihapuskan menghapusnya terhapus
+12	2612	adu	beradu mengadukan
+13	2613	kudus	kekudusan
+14	2614	kendala	kendalanya terkendala
+15	2615	tolak	bertolak ditolaknya menolaknya
+16	2616	pompa	bomba dipompa memompa pam pom
+17	2617	mempercayai	dipercayai
+18	2618	kencang	kencangnya kenceng mengencangkan sekencang
+19	2619	apel	
+20	2620	beralih	
+21	2621	formasi	
+22	2622	gabungan	
+23	2623	gawang	
+24	2624	hatta	
+25	2625	ingatan	
+26	2626	jaminan	
+27	2627	jurnal	
+28	2628	kacamata	
+29	2629	klasemen	
+30	2630	lautan	
+31	2631	memerintahkan	
+32	2632	memperlihatkan	
+33	2633	menyarankan	
+34	2634	nol	
+35	2635	nusa	
+36	2636	panik	
+37	2637	pelayan	
+38	2638	pemegang	
+39	2639	plastik	
+40	2640	platform	
+41	2641	polres	
+42	2642	sastra	
+43	2643	senapan	
+44	2644	sesaat	
+45	2645	sesudah	
+46	2646	toilet	
+47	2647	ulasan	
+48	2648	visual	
+49	2649	wisatawan	
+50	2650	revolusi	berevolusi
+51	2651	biro	bureau
+52	2652	hajar	dihajar menghajar
+53	2653	tingkah	bertingkah tingkahnya
+54	2654	lezat	kelezatan lezatnya
+55	2655	petualangan	petualangannya
+56	2656	bumbu	bumbunya
+57	2657	kutip	dikutip kutipan
+58	2658	jamur	menjamur
+59	2659	tunduk	menunduk menundukkan tertunduk tundukkan
+60	2660	rekening	rekeningnya
+61	2661	hemat	berhemat
+62	2662	over	oper
+63	2663	cair	mencair
+64	2664	busana	berbusana
+65	2665	arena	
+66	2666	berbahasa	
+67	2667	beres	
+68	2668	berkuasa	
+69	2669	debu	
+70	2670	formal	
+71	2671	gelandang	
+72	2672	hidangan	
+73	2673	hormon	
+74	2674	insiden	
+75	2675	jagung	
+76	2676	kedokteran	
+77	2677	kelima	
+78	2678	koin	
+79	2679	kongres	
+80	2680	meluncurkan	
+81	2681	memicu	
+82	2682	oksigen	
+83	2683	pembantu	
+84	2684	pemilih	
+85	2685	pengantin	
+86	2686	penghasilan	
+87	2687	penyelidikan	
+88	2688	peradaban	
+89	2689	perkara	
+90	2690	pinjaman	
+91	2691	protokol	
+92	2692	pujian	
+93	2693	rajin	
+94	2694	seminar	
+95	2695	senyawa	
+96	2696	tuntutan	
+97	2697	resep	resepnya
+98	2698	label	berlabel labelnya
+99	2699	menggali	gali penggali
+100	2700	gairah	bergairah menggairahkan

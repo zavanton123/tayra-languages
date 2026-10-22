@@ -1,0 +1,100 @@
+1	401	km	
+2	402	menuju	
+3	403	meskipun	
+4	404	bukti	buktikan buktinya membuktikan membuktikannya
+5	405	guru	berguru guruku gurunya
+6	406	asli	aslinya keaslian keasliannya
+7	407	milik	dimilikinya memilik memilikinya milikku milikmu miliknya pemiliknya
+8	408	negeri	negeriku negerinya
+9	409	tingkat	bertingkat meningkatnya setingkat tingkatannya tingkatkan
+10	410	peduli	dipedulikan kepedulian kepeduliannya memedulikan pedulikan perduli
+11	411	presiden	presidennya
+12	412	beri	berilah diberi diberikannya memberikanmu memberikannya memberiku memberimu memberinya pemberiannya
+13	413	berapa	
+14	414	kapan	
+15	415	pekerjaan	
+16	416	ambil	diambil diambilnya mengambilnya
+17	417	besok	besoknya esok esoknya keesokan
+18	418	menyebabkan	disebabkan sebabkan
+19	419	buruk	buruknya keburukan seburuk terburuk
+20	420	pilih	dipilih dipilihnya memilihkan memilihmu memilihnya pemilihannya pilihanku pilihannya pilihnya terpilih terpilihnya
+21	421	usaha	berusahalah mengusahakan pengusahaan perusahaannya usahakan usahamu usahanya usahawan
+22	422	mengenai	dikenai
+23	423	ganti	berganti bergantian diganti digantikan gantian gantikan gantinya mengganti menggantikannya menggantinya penggantian penggantinya tergantikan
+24	424	lupa	kelupaan kulupakan melupakannya terlupa
+25	425	mesin	bermesin mesinnya
+26	426	surat	surah suratnya
+27	427	senang	bersenang kesenangan menyenangi senanglah senangnya seneng
+28	428	pesan	berpesan dipesan memesan memesannya pemesan pesanannya pesannya
+29	429	inginkan	diinginkan menginginkan
+30	430	berusaha	
+31	431	demi	
+32	432	mempunyai	
+33	433	menunggu	
+34	434	putih	memutih memutihkan putihnya
+35	435	istri	isteri istriku istrimu istrinya
+36	436	diam	diamkan diamlah didiamkan diem kediaman kediamannya mendiami terdiam
+37	437	main	bermainnya dipermainkan mainannya mainnya memainkannya mempermainkan pemainnya permainannya
+38	438	api	apinya berapi pengapian
+39	439	kabar	kabarkan kabarnya khabar mengabari mengabarkan
+40	440	berharap	
+41	441	memberi	
+42	442	permainan	
+43	443	barang	barangnya
+44	444	sesuai	disesuaikan menyesuaikan sesuaikan
+45	445	panas	dipanaskan memanaskan panaskan panasnya pemanas pemanasan terpanas
+46	446	keras	kerasnya mengeras sekeras
+47	447	warna	warnanya
+48	448	tutup	ditutup menutup menutupinya menutupnya penutupnya tertutup tutupnya
+49	449	yakin	diyakinkan keyakinannya meyakini meyakinkannya
+50	450	selesai	menyelesaikannya penyelesaiannya selesainya
+51	451	dirimu	
+52	452	kehilangan	
+53	453	terdapat	
+54	454	menulis	ditulis
+55	455	ayo	hayo yok yuk
+56	456	wajah	berwajah wajahku wajahmu wajahnya
+57	457	tanda	menandakan tandanya
+58	458	khusus	dikhususkan kekhususan mengkhususkan
+59	459	emas	emasnya mas
+60	460	data	datanya mendata pendataan
+61	461	dokter	dok dokternya doktor
+62	462	musim	musimnya semusim
+63	463	obat	berobat mengobatinya obatan obatnya pengobatannya
+64	464	empat	pat
+65	465	ilmu	ilmunya
+66	466	batu	batunya berbatu membatu
+67	467	lokasi	berlokasi lokasinya
+68	468	kapal	kapalnya perkapalan
+69	469	gua	goa gue gw wa
+70	470	ah	
+71	471	perjalanan	
+72	472	sang	
+73	473	segala	
+74	474	mencapai	dicapai
+75	475	hilang	dihilangkan hilangkan hilangnya ilang kehilangannya menghilangkannya menghilangnya
+76	476	tampil	berpenampilan ditampilkan menampilkannya penampilannya tampilan tampilannya tampilkan tampilnya
+77	477	perang	memerangi perangnya
+78	478	sumber	bersumber sumbernya
+79	479	mengetahui	diketahui
+80	480	gambar	digambar digambarkan gambarannya gambarkan gambarnya menggambar menggambarkannya penggambaran tergambar
+81	481	kamar	kamarnya sekamar
+82	482	kasus	kasusnya
+83	483	lengkap	dilengkapi kelengkapan lengkapnya perlengkapannya selengkapnya terlengkap
+84	484	barat	
+85	485	berikut	
+86	486	nasional	
+87	487	bahan	bahannya
+88	488	nilai	menilainya nilainya penilaiannya ternilai
+89	489	polisi	polis polisinya
+90	490	tunggu	ditunggu menunggumu menunggunya
+91	491	datuk	datu to tuk
+92	492	sehat	kesehatannya menyehatkan sehatnya sihat
+93	493	nyaman	kenyamanan nyamannya senyaman
+94	494	berat	beratkan beratnya memberatkan seberat terberat
+95	495	darah	darahku darahnya mendarah
+96	496	musik	musiknya
+97	497	kantor	berkantor kantoran kantornya perkantoran
+98	498	berita	beritakan beritanya memberitakan pemberitaan
+99	499	saudara	bersaudara saudaraku saudaramu saudaranya saudari sodara
+100	500	pindah	berpindah dipindah dipindahkan kepindahan kepindahannya memindah memindahkan memindahkannya pemindahan pindahkan

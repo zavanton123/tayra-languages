@@ -1,0 +1,100 @@
+1	2401	ekspor	diekspor mengekspor pengekspor
+2	2402	komitmen	komitmennya
+3	2403	baterai	baterainya batere bateri
+4	2404	racun	diracun racunnya
+5	2405	cemas	mencemaskan
+6	2406	awas	mengawasinya
+7	2407	lemari	almari
+8	2408	beku	dibekukan membeku membekukan pembekuan
+9	2409	hancurkan	dihancurkan
+10	2410	volume	volumenya
+11	2411	induk	induknya
+12	2412	prosedur	prosedurnya
+13	2413	hindar	dihindarkan menghindar menghindarinya menghindarkan terhindar terhindarkan
+14	2414	server	servernya
+15	2415	bersenjata	
+16	2416	divisi	
+17	2417	hendak	
+18	2418	internal	
+19	2419	jati	
+20	2420	kaisar	
+21	2421	kelemahan	
+22	2422	kembar	
+23	2423	kesepian	
+24	2424	letnan	
+25	2425	mendirikan	
+26	2426	monster	
+27	2427	pembentukan	
+28	2428	penguasa	
+29	2429	perdamaian	
+30	2430	semalam	
+31	2431	semula	
+32	2432	tanjung	
+33	2433	tawaran	
+34	2434	kacau	mengacaukan
+35	2435	berontak	memberontak pemberontak
+36	2436	tampung	ditampung menampung penampung penampungan
+37	2437	bulat	bulatan
+38	2438	matang	kematangan mematangkan pematangan
+39	2439	tren	trend
+40	2440	alkohol	alcohol
+41	2441	juragan	agan gan
+42	2442	memori	memorinya
+43	2443	muntah	memuntahkan muntahan
+44	2444	panitia	kepanitiaan
+45	2445	tari	tariannya
+46	2446	profil	profilnya
+47	2447	gilir	giliran gilirannya
+48	2448	jaring	jaringannya jejaring penjaringan terjaring
+49	2449	kristal	crystal
+50	2450	ayu	
+51	2451	benteng	
+52	2452	citra	
+53	2453	dugaan	
+54	2454	gagasan	
+55	2455	garuda	
+56	2456	ketentuan	
+57	2457	kewajiban	
+58	2458	langka	
+59	2459	memecahkan	
+60	2460	menekan	
+61	2461	mengeluh	
+62	2462	merawat	
+63	2463	merayakan	
+64	2464	organ	
+65	2465	pipa	
+66	2466	puisi	
+67	2467	semi	
+68	2468	sensitif	
+69	2469	soalnya	
+70	2470	susunan	
+71	2471	terjaga	
+72	2472	usul	diusulkan usulkan usulnya
+73	2473	trap	diterapkan menerapkannya penerapannya
+74	2474	sambut	disambut menyambutnya penyambutan sambutannya
+75	2475	rawat	dirawat merawatnya perawatannya
+76	2476	subjek	subyek
+77	2477	batal	batalkan dibatalkan
+78	2478	prediksi	memprediksi memprediksikan
+79	2479	sombong	kesombongan menyombongkan
+80	2480	mengikat	diikat
+81	2481	curiga	mencurigai mencurigakan
+82	2482	kesatria	ksatria satria
+83	2483	tuduh	dituduh dituduhkan menuduh menuduhnya tertuduh
+84	2484	utuh	keutuhan seutuhnya
+85	2485	andal	andalan andalannya handal
+86	2486	lepaskan	dilepaskan
+87	2487	laju	melaju
+88	2488	berpacaran	pacaran
+89	2489	awan	
+90	2490	baku	
+91	2491	bercerita	
+92	2492	bermimpi	
+93	2493	dompet	
+94	2494	infrastruktur	
+95	2495	keju	
+96	2496	kilometer	
+97	2497	memberitahu	
+98	2498	mencatat	
+99	2499	mendadak	
+100	2500	menerus	

@@ -1,0 +1,100 @@
+1	1101	membayar	
+2	1102	memperoleh	
+3	1103	mengalahkan	
+4	1104	pelatih	
+5	1105	remaja	
+6	1106	ribu	
+7	1107	stasiun	
+8	1108	tujuh	
+9	1109	urusan	
+10	1110	pengetahuan	pengetahuannya
+11	1111	angin	anginnya berangin
+12	1112	jantung	jantungku jantungnya
+13	1113	beruntung	beruntunglah beruntungnya
+14	1114	kebakaran	bakar dibakar membakar terbakar
+15	1115	militer	kemiliteran militernya
+16	1116	gereja	gerejanya
+17	1117	musuh	musuhku musuhmu musuhnya
+18	1118	salat	shalat sholat solat
+19	1119	bahaya	bahayanya baya membahayakan
+20	1120	menemui	ditemui temui
+21	1121	risiko	resiko risikonya
+22	1122	menetapkan	ditetapkan
+23	1123	es	ais
+24	1124	bandara	
+25	1125	berbuat	
+26	1126	cm	
+27	1127	komisi	
+28	1128	penerbangan	
+29	1129	peraturan	
+30	1130	tulisan	
+31	1131	lulus	kelulusannya lulusannya meluluskan
+32	1132	lampu	lampunya
+33	1133	tata	ditata menata
+34	1134	petugas	petugasnya
+35	1135	izin	ijin izinnya mengizinkannya seizin
+36	1136	rekan	rakan rekanan rekannya
+37	1137	sore	sorenya suri
+38	1138	palsu	dipalsukan kepalsuan memalsukan
+39	1139	memungkinkan	dimungkinkan
+40	1140	tersedia	tersedianya
+41	1141	berdua	
+42	1142	berlaku	
+43	1143	dinding	
+44	1144	kesulitan	
+45	1145	makin	
+46	1146	ratu	
+47	1147	situ	
+48	1148	ukuran	
+49	1149	buru	diburu perburuan terburu
+50	1150	tema	bertema bertemakan temanya
+51	1151	syok	so sok
+52	1152	pabrik	pabrikan pabriknya
+53	1153	ragu	meragukan ragukan
+54	1154	alih	dialihkan
+55	1155	timbul	ditimbulkan menimbulkan timbulkan timbulnya
+56	1156	tulang	tulangan tulangnya
+57	1157	serah	berserah kuserahkan menyerahkannya sera serahkan sirah terserah
+58	1158	derita	menderita penderitaannya penderitanya
+59	1159	standar	berstandar standarnya
+60	1160	pekan	sepekan
+61	1161	ekor	ekornya seekor
+62	1162	jari	jariku jarinya
+63	1163	anggap	anggapan beranggapan dianggapnya menganggapnya
+64	1164	sabar	bersabar bersabarlah kesabarannya sabaran
+65	1165	saran	sarankan sarannya
+66	1166	laga	berlaga
+67	1167	anti	
+68	1168	apabila	
+69	1169	kebutuhan	
+70	1170	memasuki	
+71	1171	minuman	
+72	1172	pemuda	
+73	1173	tergantung	
+74	1174	jenderal	jendral
+75	1175	mama	mamah mamanya
+76	1176	sinyal	signal sinyalnya
+77	1177	suci	disucikan kesucian menyucikan sucinya
+78	1178	kecewa	dikecewakan mengecewakan mengecewakannya
+79	1179	sinar	bersinar menyinari sinarnya
+80	1180	lancar	berselancar kelancaran memperlancar pelancar selancar
+81	1181	abad	berabad seabad
+82	1182	fitur	fiturnya
+83	1183	istilah	istilahnya
+84	1184	berbahaya	
+85	1185	generasi	
+86	1186	melindungi	
+87	1187	menghabiskan	
+88	1188	pengembangan	
+89	1189	tertawa	
+90	1190	ujian	
+91	1191	drama	dramanya
+92	1192	memperbaiki	diperbaiki
+93	1193	promosi	mempromosikan promosikan
+94	1194	lahan	lahannya
+95	1195	pesta	berpesta
+96	1196	manajemen	managemen
+97	1197	iman	beriman imanmu imannya keimanan seiman
+98	1198	mesti	musti
+99	1199	taruh	bertaruh dipertaruhkan ditaruh mempertaruhkan menaruhnya pertaruhan taruhan taruhannya
+100	1200	samping	menyamping sampingan sampingnya

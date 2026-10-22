@@ -1,0 +1,100 @@
+1	6301	lawang	
+2	6302	melambat	
+3	6303	membebani	
+4	6304	mencarikan	
+5	6305	mendunia	
+6	6306	mengemis	
+7	6307	menghendaki	
+8	6308	misa	
+9	6309	panji	
+10	6310	pecel	
+11	6311	percik	percikan
+12	6312	sanggar	
+13	6313	spasi	
+14	6314	stempel	
+15	6315	tampang	
+16	6316	tuas	
+17	6317	tupai	
+18	6318	ejek	diejek ejekan
+19	6319	sisip	disisipkan menyisipkan sisipkan
+20	6320	dulang	mendulang menjulang
+21	6321	portofolio	portfolio
+22	6322	khotbah	berkhotbah
+23	6323	rangsang	terangsang
+24	6324	menyalahgunakan	disalahgunakan
+25	6325	suguh	disuguhkan menyuguhkan suguhan
+26	6326	refleks	reflek
+27	6327	pengebom	pembom
+28	6328	administratif	
+29	6329	advokasi	
+30	6330	barak	
+31	6331	beradab	
+32	6332	bercak	
+33	6333	bercakap	
+34	6334	curam	
+35	6335	dakwaan	
+36	6336	etis	
+37	6337	fiber	
+38	6338	gencar	
+39	6339	kari	
+40	6340	kece	
+41	6341	kemunduran	
+42	6342	kepunahan	
+43	6343	keseruan	
+44	6344	kewirausahaan	
+45	6345	malaria	
+46	6346	memandangi	
+47	6347	menerangkan	
+48	6348	menjunjung	
+49	6349	menua	
+50	6350	muasal	
+51	6351	nangka	
+52	6352	nasionalis	
+53	6353	penghakiman	
+54	6354	penghujung	
+55	6355	penyatuan	
+56	6356	platina	platinum
+57	6357	rendang	
+58	6358	renungan	
+59	6359	ritme	
+60	6360	sanak	
+61	6361	sependapat	
+62	6362	silikon	
+63	6363	sirih	
+64	6364	tekstil	
+65	6365	hanyut	terhanyut
+66	6366	lebur	melebur
+67	6367	dus	dos
+68	6368	administrator	
+69	6369	akur	
+70	6370	akurasi	
+71	6371	atletik	
+72	6372	aus	
+73	6373	bangsal	
+74	6374	beralkohol	
+75	6375	berkesempatan	
+76	6376	damar	
+77	6377	dasi	
+78	6378	direktori	
+79	6379	elektromagnetis	elektromagnetik
+80	6380	empati	
+81	6381	flora	
+82	6382	gambir	
+83	6383	garda	
+84	6384	grid	
+85	6385	honorer	
+86	6386	jadul	
+87	6387	kaliber	
+88	6388	kardinal	
+89	6389	keberagaman	
+90	6390	kecintaan	
+91	6391	keledai	
+92	6392	kemasyarakatan	
+93	6393	keputihan	
+94	6394	ketidakadilan	
+95	6395	ketulusan	
+96	6396	kompeten	
+97	6397	kontainer	
+98	6398	maling	
+99	6399	mandala	
+100	6400	mandat	

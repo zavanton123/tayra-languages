@@ -1,0 +1,100 @@
+1	6601	bantai	membantai
+2	6602	zalim	kezaliman
+3	6603	diktator	kediktatoran
+4	6604	sokong	disokong menyokong
+5	6605	amar	
+6	6606	angker	
+7	6607	bahtera	
+8	6608	barel	
+9	6609	cemara	
+10	6610	delima	
+11	6611	dukuh	
+12	6612	embun	
+13	6613	gesekan	
+14	6614	jeli	
+15	6615	kafeina	kafein
+16	6616	kalium	
+17	6617	kapitalisme	
+18	6618	keemasan	
+19	6619	kemandirian	
+20	6620	kesembuhan	
+21	6621	kilang	
+22	6622	koroner	
+23	6623	lava	
+24	6624	lintah	
+25	6625	lobster	
+26	6626	matematis	
+27	6627	membran	
+28	6628	selinap	menyelinap
+29	6629	rangkul	merangkul
+30	6630	modernisasi	
+31	6631	muluk	
+32	6632	nihil	
+33	6633	pascasarjana	
+34	6634	pedal	
+35	6635	pelacakan	
+36	6636	pemotong	
+37	6637	penyembuh	
+38	6638	perumpamaan	
+39	6639	piagam	
+40	6640	sanitasi	
+41	6641	sapaan	
+42	6642	semanggi	
+43	6643	sirop	sirup
+44	6644	sudi	
+45	6645	susulan	
+46	6646	terbaring	
+47	6647	termotivasi	
+48	6648	tika	
+49	6649	widya	
+50	6650	bantah	membantahnya terbantahkan
+51	6651	imbauan	himbauan
+52	6652	campak	dicampakkan
+53	6653	toreh	menoreh menorehkan torehan
+54	6654	penggal	dipenggal
+55	6655	daulat	berdaulat daulah
+56	6656	andil	
+57	6657	aren	
+58	6658	batangan	
+59	6659	bermusuhan	
+60	6660	bros	
+61	6661	bundaran	
+62	6662	candu	
+63	6663	cikal	
+64	6664	diploma	
+65	6665	elektro	
+66	6666	elok	
+67	6667	erupsi	
+68	6668	fauna	
+69	6669	haluan	
+70	6670	imunisasi	
+71	6671	iuran	
+72	6672	kadin	
+73	6673	kakao	
+74	6674	keanekaragaman	
+75	6675	kedelapan	
+76	6676	keharusan	
+77	6677	kerak	
+78	6678	keramat	
+79	6679	kestabilan	
+80	6680	kubis	
+81	6681	kurungan	
+82	6682	lajang	
+83	6683	lingga	
+84	6684	literasi	
+85	6685	magnesium	
+86	6686	mampus	
+87	6687	markus	
+88	6688	marsekal	
+89	6689	menegur	
+90	6690	meramalkan	
+91	6691	metodologi	
+92	6692	mimbar	
+93	6693	misil	
+94	6694	nostalgia	
+95	6695	pagelaran	
+96	6696	pekat	
+97	6697	pembalut	
+98	6698	pengasingan	
+99	6699	pengesahan	
+100	6700	penunjuk	

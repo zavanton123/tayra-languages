@@ -1,0 +1,100 @@
+1	3001	terbangun	
+2	3002	tuduhan	
+3	3003	uni	
+4	3004	taat	ketaatan menaati
+5	3005	telanjang	bertelanjang
+6	3006	batin	batinnya kebatinan
+7	3007	arsitektur	arsitekturnya
+8	3008	perawan	keperawanan
+9	3009	amankan	diamankan
+10	3010	tekad	bertekad
+11	3011	waris	mewarisi mewariskan warisannya warisnya
+12	3012	saleh	salih sholeh soleh
+13	3013	memecat	dipecat
+14	3014	sela	menyela sila
+15	3015	wadah	mewadahi
+16	3016	lambang	melambangkan
+17	3017	hambat	menghambat terhambat
+18	3018	giat	berkegiatan kegiatannya penggiat
+19	3019	jus	juz
+20	3020	balap	membalap
+21	3021	te	tee thee
+22	3022	pamer	dipamerkan memamerkan pamerkan
+23	3023	demo	pendemo
+24	3024	alun	alunan
+25	3025	jamu	jamuan menjamu
+26	3026	bacaan	
+27	3027	bernyanyi	
+28	3028	indeks	
+29	3029	inovasi	
+30	3030	kalender	
+31	3031	kebencian	
+32	3032	kemanusiaan	
+33	3033	kencing	
+34	3034	kerugian	
+35	3035	kiamat	
+36	3036	kriteria	
+37	3037	landasan	
+38	3038	macet	
+39	3039	membaik	
+40	3040	otomotif	
+41	3041	pemahaman	
+42	3042	pemasaran	
+43	3043	penyebaran	
+44	3044	perkebunan	
+45	3045	peternakan	
+46	3046	pidana	
+47	3047	praktis	
+48	3048	sarjana	
+49	3049	sawit	
+50	3050	sensor	
+51	3051	tebing	
+52	3052	terbunuh	
+53	3053	tri	
+54	3054	umpan	
+55	3055	ungu	
+56	3056	gen	bergen
+57	3057	dengarkan	didengarkan
+58	3058	ikhlas	keikhlasan
+59	3059	koperasi	mengoperasikannya
+60	3060	kaku	kekakuan mengakuinya
+61	3061	massal	masal
+62	3062	puja	dipuja memuja pemuja pemujaan pujaan
+63	3063	geser	bergeser digeser menggeser
+64	3064	sejahtera	menyejahterakan
+65	3065	alur	alurnya
+66	3066	jajar	berjajar jajaran jajarannya
+67	3067	potret	memotret pemotretan
+68	3068	kehendak	kehendaknya
+69	3069	armada	armadanya
+70	3070	reputasi	reputasinya
+71	3071	rekrut	direkrut merekrut merekrutnya rekrutan
+72	3072	deskripsi	mendeskripsikan
+73	3073	tinja	head
+74	3074	abang	
+75	3075	angel	
+76	3076	audio	
+77	3077	bagai	
+78	3078	bareng	
+79	3079	belahan	
+80	3080	berburu	
+81	3081	buaya	
+82	3082	but	
+83	3083	formula	
+84	3084	fotografi	
+85	3085	gadget	
+86	3086	iri	
+87	3087	jeruk	
+88	3088	kesabaran	
+89	3089	kolom	
+90	3090	konon	
+91	3091	kriminal	
+92	3092	kuningan	
+93	3093	lantas	
+94	3094	mendatang	
+95	3095	monyet	
+96	3096	oppa	
+97	3097	pembaca	
+98	3098	perlawanan	
+99	3099	persatuan	
+100	3100	pertolongan	

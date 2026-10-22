@@ -1,0 +1,100 @@
+1	5401	giring	digiring menggiring
+2	5402	ingkar	mengingkari mengingkarinya
+3	5403	siram	disiram siraman
+4	5404	peras	diperas memeras
+5	5405	manipulasi	dimanipulasi
+6	5406	domisili	berdomisili
+7	5407	terjang	diterjang menerjang
+8	5408	aktivasi	
+9	5409	ani	
+10	5410	arteri	
+11	5411	berjaga	
+12	5412	bermata	
+13	5413	brutal	
+14	5414	derek	
+15	5415	gencat	gencatan
+16	5416	integritas	
+17	5417	jahe	
+18	5418	jengkel	
+19	5419	karantina	
+20	5420	kecemasan	
+21	5421	kelelawar	
+22	5422	keracunan	
+23	5423	ketawa	
+24	5424	ketidaknyamanan	
+25	5425	kolonial	
+26	5426	kontestan	
+27	5427	lot	
+28	5428	memanipulasi	
+29	5429	memanjang	
+30	5430	menukar	
+31	5431	murka	
+32	5432	parade	
+33	5433	pembatas	
+34	5434	pembela	
+35	5435	pendiam	
+36	5436	penghapusan	
+37	5437	penundaan	
+38	5438	perorangan	
+39	5439	perunggu	
+40	5440	peternak	
+41	5441	rahang	
+42	5442	religius	
+43	5443	tangkapan	
+44	5444	tapak	
+45	5445	tinjauan	
+46	5446	pukau	memukau terpukau
+47	5447	rona	rena
+48	5448	ironis	ironisnya
+49	5449	objektif	obyektif
+50	5450	titi	meniti
+51	5451	tular	ditularkan menularkan tertular
+52	5452	giling	digiling menggiling penggilingan
+53	5453	menonaktifkan	dinonaktifkan
+54	5454	hangus	menghanguskan
+55	5455	cicip	mencicipi mencicipinya
+56	5456	pucuk	sepucuk
+57	5457	kutuk	dikutuk terkutuklah
+58	5458	serakah	keserakahan
+59	5459	cakar	pencakar
+60	5460	pintas	sepintas
+61	5461	merahasiakan	dirahasiakan
+62	5462	perabot	perabotan
+63	5463	hening	keheningan
+64	5464	aspal	
+65	5465	audit	
+66	5466	bah	
+67	5467	becak	
+68	5468	berjudi	
+69	5469	dalang	
+70	5470	gemilang	
+71	5471	hayati	
+72	5472	ilusi	
+73	5473	imun	
+74	5474	jijik	
+75	5475	kasir	
+76	5476	kemah	
+77	5477	kesuburan	
+78	5478	kisi	
+79	5479	komplikasi	
+80	5480	melengkung	
+81	5481	menantikan	
+82	5482	menghafal	
+83	5483	nasabah	
+84	5484	nirkabel	
+85	5485	obesitas	
+86	5486	orgasme	
+87	5487	pelacur	
+88	5488	pelari	
+89	5489	pelengkap	
+90	5490	pembelaan	
+91	5491	pengemis	
+92	5492	penyediaan	
+93	5493	petinju	
+94	5494	pilgub	
+95	5495	podium	
+96	5496	sersan	
+97	5497	sindrom	
+98	5498	sukarelawan	
+99	5499	taruna	
+100	5500	timah	

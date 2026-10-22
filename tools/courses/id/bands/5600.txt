@@ -1,0 +1,100 @@
+1	5501	sisir	menyisir
+2	5502	depo	depot dipo
+3	5503	tanjak	menanjak tanjakan
+4	5504	petik	dipetik
+5	5505	mag	maag
+6	5506	cemar	mencemari mencemarkan tercemar
+7	5507	asteroid	
+8	5508	astronomi	
+9	5509	dapil	
+10	5510	finis	
+11	5511	jok	
+12	5512	keistimewaan	
+13	5513	keperawatan	
+14	5514	ketertiban	
+15	5515	kolektor	
+16	5516	komet	
+17	5517	lereng	
+18	5518	memberkati	
+19	5519	mencantumkan	
+20	5520	menghisap	
+21	5521	menguat	
+22	5522	menuturkan	
+23	5523	merangsang	
+24	5524	militan	
+25	5525	narkotika	
+26	5526	observasi	
+27	5527	parasut	
+28	5528	pelayaran	
+29	5529	pelukis	
+30	5530	penghilang	
+31	5531	penyimpangan	
+32	5532	perampokan	
+33	5533	perempat	
+34	5534	pergeseran	
+35	5535	person	
+36	5536	prosesi	
+37	5537	selat	
+38	5538	seperempat	
+39	5539	siku	
+40	5540	spektakuler	
+41	5541	suram	
+42	5542	terselesaikan	
+43	5543	terumbu	
+44	5544	transit	
+45	5545	usang	
+46	5546	varietas	
+47	5547	ventilasi	
+48	5548	lonjak	lonjakan melonjak
+49	5549	ulur	mengulur mengulurkan
+50	5550	angguk	mengangguk
+51	5551	gembala	penggembala
+52	5552	timun	mentimun
+53	5553	tancap	ditancapkan menancapkan tertancap
+54	5554	abai	mengabaikannya terabaikan
+55	5555	manuver	bermanuver
+56	5556	arak	diarak
+57	5557	saksama	seksama
+58	5558	ramal	diramalkan meramal peramal
+59	5559	suvenir	souvenir
+60	5560	olok	mengolok
+61	5561	mengemban	diemban
+62	5562	gejolak	bergejolak
+63	5563	akademis	
+64	5564	aksara	
+65	5565	anonim	
+66	5566	baron	
+67	5567	berkuda	
+68	5568	bhayangkara	
+69	5569	bungsu	
+70	5570	butiran	
+71	5571	distro	
+72	5572	entri	
+73	5573	haid	
+74	5574	hidrogen	
+75	5575	hun	
+76	5576	kebaya	
+77	5577	ketenagakerjaan	
+78	5578	keterlaluan	
+79	5579	lemas	
+80	5580	lubuk	
+81	5581	maulana	
+82	5582	memancarkan	
+83	5583	memanjat	
+84	5584	merangkak	
+85	5585	nia	
+86	5586	pala	
+87	5587	pemancar	
+88	5588	penganiayaan	
+89	5589	pengatur	
+90	5590	penuaan	
+91	5591	penyalahgunaan	
+92	5592	religi	
+93	5593	resor	
+94	5594	sadis	
+95	5595	singkong	
+96	5596	sorotan	
+97	5597	suntikan	
+98	5598	syariat	
+99	5599	tebakan	
+100	5600	tekstur	

@@ -1,0 +1,100 @@
+1	7901	lantun	lantunan melantunkan
+2	7902	campurkan	dicampurkan
+3	7903	gumul	bergumul pergumulan
+4	7904	amik	
+5	7905	beluk	
+6	7906	balur	belur
+7	7907	bengong	
+8	7908	berbenah	
+9	7909	berkewajiban	
+10	7910	bertuah	
+11	7911	bintara	
+12	7912	dioksida	
+13	7913	eksterior	
+14	7914	ekstrakurikuler	
+15	7915	elastis	
+16	7916	fatihah	
+17	7917	fitrah	
+18	7918	generik	
+19	7919	globe	
+20	7920	golok	
+21	7921	harmonisasi	
+22	7922	improvisasi	
+23	7923	inka	
+24	7924	inpres	
+25	7925	ironi	
+26	7926	janah	jannah
+27	7927	jelata	
+28	7928	jelita	
+29	7929	kafilah	
+30	7930	kebaktian	
+31	7931	keberlangsungan	
+32	7932	keberlanjutan	
+33	7933	kejari	
+34	7934	kependekan	
+35	7935	kesesuaian	
+36	7936	kongo	
+37	7937	lengkungan	
+38	7938	loteng	
+39	7939	mading	
+40	7940	meloncat	
+41	7941	melukiskan	
+42	7942	menampar	
+43	7943	menganiaya	
+44	7944	merendah	
+45	7945	paprika	
+46	7946	pelaminan	
+47	7947	pemerhati	
+48	7948	penantang	
+49	7949	penggelapan	
+50	7950	perniagaan	
+51	7951	pod	
+52	7952	sahara	
+53	7953	sesar	
+54	7954	siber	
+55	7955	tasawuf	
+56	7956	terukur	
+57	7957	testing	
+58	7958	wana	
+59	7959	geledah	digeledah
+60	7960	ateis	atheis
+61	7961	amis	
+62	7962	bersemi	
+63	7963	centang	
+64	7964	defensif	
+65	7965	dobel	
+66	7966	emoji	
+67	7967	garing	
+68	7968	geladak	
+69	7969	hanif	
+70	7970	hidraulik	hidrolik
+71	7971	horizon	
+72	7972	importir	
+73	7973	imunitas	
+74	7974	informan	
+75	7975	inisiasi	
+76	7976	karina	
+77	7977	kelambu	
+78	7978	kelembapan	
+79	7979	ketidakpuasan	
+80	7980	kobra	
+81	7981	lentur	
+82	7982	lokakarya	
+83	7983	magrib	
+84	7984	mahakarya	
+85	7985	maharani	
+86	7986	memilah	
+87	7987	memindai	
+88	7988	mencampurkan	
+89	7989	mencerna	
+90	7990	hasut	menghasut
+91	7991	menyaingi	
+92	7992	monoton	
+93	7993	nitrat	
+94	7994	ovarium	
+95	7995	parabola	
+96	7996	pasutri	
+97	7997	pindai	pemindaian
+98	7998	pemogokan	
+99	7999	pemutusan	
+100	8000	penarik	

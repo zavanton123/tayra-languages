@@ -1,0 +1,100 @@
+1	2101	kepemimpinan	kepemimpinannya
+2	2102	riset	risetnya
+3	2103	hantu	berhantu hantunya menghantui
+4	2104	menyembunyikan	disembunyikan
+5	2105	menghukum	dihukum
+6	2106	bakteri	
+7	2107	banten	
+8	2108	bendera	
+9	2109	bersedia	
+10	2110	el	
+11	2111	hatimu	
+12	2112	keluhan	
+13	2113	kunjungan	
+14	2114	mainan	
+15	2115	memperkenalkan	
+16	2116	menutupi	
+17	2117	mewakili	
+18	2118	pembelian	
+19	2119	pengganti	
+20	2120	pengobatan	
+21	2121	pengurus	
+22	2122	rekor	
+23	2123	seribu	
+24	2124	sesi	
+25	2125	tenggara	
+26	2126	urutan	
+27	2127	wartawan	
+28	2128	impor	diimpor import mengimpor
+29	2129	erat	mempererat pengerat
+30	2130	romantis	romantik romantisnya
+31	2131	apartemen	apartemennya
+32	2132	hidung	hidungnya
+33	2133	kawal	dikawal mengawal mengawali pengawalan pengawalnya
+34	2134	gemuk	kegemukan
+35	2135	juru	jurus menjurus
+36	2136	puji	memuji memujinya pujiannya terpujilah
+37	2137	hentikan	dihentikan
+38	2138	setara	kesetaraan
+39	2139	batik	membatik
+40	2140	menyalahkan	disalahkan
+41	2141	gelas	gelasnya segelas
+42	2142	lemak	lemaknya
+43	2143	tegak	ditegakkan menegakkan penegak tegakkan tegaknya
+44	2144	adat	
+45	2145	berdarah	
+46	2146	berenang	
+47	2147	bersalah	
+48	2148	jalanan	
+49	2149	kumpulan	
+50	2150	logam	
+51	2151	melanggar	
+52	2152	menatap	
+53	2153	pengunjung	
+54	2154	perbatasan	
+55	2155	protein	
+56	2156	seakan-akan	seakan
+57	2157	siaran	
+58	2158	yu	
+59	2159	dirikan	didirikan
+60	2160	klien	kliennya
+61	2161	catat	catatannya dicatat mencatatkan mencatatnya pencatatan
+62	2162	libur	liburannya liburnya
+63	2163	mitra	bermitra mitranya
+64	2164	bajak	bajakan dibajak membajak pembajak pembajakan
+65	2165	gajah	gadjah
+66	2166	tank	tang teng
+67	2167	pilot	pilotnya
+68	2168	golong	digolongkan penggolongan tergolong
+69	2169	nafsu	bernafsu nafsunya
+70	2170	bab	
+71	2171	balapan	
+72	2172	berkumpul	
+73	2173	buruh	
+74	2174	frank	
+75	2175	kasihan	
+76	2176	keadilan	
+77	2177	kehadiran	
+78	2178	koran	
+79	2179	mahkota	
+80	2180	mayoritas	
+81	2181	mengarah	
+82	2182	naga	
+83	2183	awak	awaknya berawak
+84	2184	intelijen	intel
+85	2185	lipat	berlipat dilipat melipat terlipat
+86	2186	juri	penjurian yuri
+87	2187	logo	berlogo logonya
+88	2188	cincin	cincinnya
+89	2189	gang	geng
+90	2190	les	lis
+91	2191	punggung	punggungnya
+92	2192	pusing	memusingkan
+93	2193	pengacara	pengacaranya
+94	2194	konsentrasi	konsentrasinya
+95	2195	nakal	kenakalan
+96	2196	paruh	paro paruhnya separuh separuhnya
+97	2197	rumus	merumuskan perumusan rumusan rumusnya
+98	2198	peluk	berpelukan dipeluk memeluknya pelukan pelukannya
+99	2199	penuhi	dipenuhi
+100	2200	asyik	asik asyiknya mengasyikkan

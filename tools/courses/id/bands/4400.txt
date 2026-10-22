@@ -1,0 +1,100 @@
+1	4301	universal	
+2	4302	pewarna	header
+3	4303	aduk	diaduk mengaduk
+4	4304	harmonis	keharmonisan
+5	4305	bibi	bibinya
+6	4306	susup	menyusup penyusup penyusupan
+7	4307	ketuk	mengetuk
+8	4308	hirup	dihirup menghirup
+9	4309	titip	dititipkan menitipkan penitipan titipkan
+10	4310	bising	kebisingan
+11	4311	diagnosis	diagnosa
+12	4312	adaptasi	
+13	4313	bidan	
+14	4314	bilangan	
+15	4315	bot	
+16	4316	delegasi	
+17	4317	fatal	
+18	4318	handuk	
+19	4319	instansi	
+20	4320	konspirasi	
+21	4321	koordinator	
+22	4322	kupang	
+23	4323	laris	
+24	4324	lintasan	
+25	4325	mengkhawatirkan	
+26	4326	tuai	menuai
+27	4327	monitor	
+28	4328	ormas	
+29	4329	panda	
+30	4330	pemberitahuan	
+31	4331	pembicara	
+32	4332	pendengar	
+33	4333	penghormatan	
+34	4334	penyerahan	
+35	4335	perkotaan	
+36	4336	persepsi	
+37	4337	petinggi	
+38	4338	pot	
+39	4339	prasarana	
+40	4340	sekunder	
+41	4341	seng	
+42	4342	sidik	
+43	4343	solar	
+44	4344	suporter	
+45	4345	suster	
+46	4346	amatir	amatiran
+47	4347	bimbing	dibimbing membimbing
+48	4348	guncang	diguncang guncangan mengguncang terguncang
+49	4349	wisuda	diwisuda
+50	4350	balok	balak
+51	4351	tertib	penertiban
+52	4352	tindas	ditindas menindas penindasan tertindas
+53	4353	datangi	didatangi
+54	4354	benam	membenamkan terbenam
+55	4355	gengsi	bergengsi
+56	4356	guling	berguling menggulingkan terguling
+57	4357	avatar	
+58	4358	bawaan	
+59	4359	bayu	
+60	4360	gegas	bergegas
+61	4361	bidadari	
+62	4362	denda	
+63	4363	dinamis	
+64	4364	evolusi	
+65	4365	filter	
+66	4366	homo	
+67	4367	keenam	
+68	4368	kelenjar	
+69	4369	kemacetan	
+70	4370	kemari	
+71	4371	kipas	
+72	4372	kisaran	
+73	4373	koper	
+74	4374	liang	
+75	4375	magang	
+76	4376	mekanik	
+77	4377	memburuk	
+78	4378	leceh	pelecehan
+79	4379	penampakan	
+80	4380	penerangan	
+81	4381	pengadaan	
+82	4382	penghasil	
+83	4383	psikologis	
+84	4384	pucat	
+85	4385	saingan	
+86	4386	sembari	
+87	4387	sesak	
+88	4388	simulasi	
+89	4389	sketsa	
+90	4390	tatapan	
+91	4391	terpopuler	
+92	4392	vagina	
+93	4393	tiri	tirinya
+94	4394	rayakan	dirayakan
+95	4395	megah	kemegahan
+96	4396	kreasi	berkreasi
+97	4397	din	dien
+98	4398	hayat	hajat hayatnya menghayati penghayatan
+99	4399	sorot	disorot menyoroti
+100	4400	tani	pertaniannya

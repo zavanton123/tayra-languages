@@ -1,0 +1,100 @@
+1	7001	babu	
+2	7002	bahasan	
+3	7003	belerang	
+4	7004	cambuk	
+5	7005	cangkang	
+6	7006	cawan	
+7	7007	larikan	dilarikan
+8	7008	embrio	
+9	7009	gergaji	
+10	7010	goblok	
+11	7011	guci	
+12	7012	heroik	
+13	7013	iga	
+14	7014	kecakapan	
+15	7015	kedap	
+16	7016	kembung	
+17	7017	kepanikan	
+18	7018	ketiadaan	
+19	7019	kicauan	
+20	7020	lesung	
+21	7021	mikrofon	
+22	7022	minor	
+23	7023	moralitas	
+24	7024	nalar	
+25	7025	orderan	
+26	7026	otonom	
+27	7027	pelbagai	
+28	7028	pemekaran	
+29	7029	pemukulan	
+30	7030	persalinan	
+31	7031	portabel	
+32	7032	retina	
+33	7033	shio	
+34	7034	sindikat	
+35	7035	sisik	
+36	7036	spektrum	
+37	7037	syirik	
+38	7038	tambun	
+39	7039	telunjuk	
+40	7040	terlempar	
+41	7041	token	
+42	7042	tum	
+43	7043	tumpul	
+44	7044	wapres	
+45	7045	sandang	disandang
+46	7046	teoretis	teoritis
+47	7047	sampanye	champagne
+48	7048	jebol	menjebol
+49	7049	kosongkan	dikosongkan
+50	7050	parut	parutan
+51	7051	coy	cuy
+52	7052	prangko	perangko
+53	7053	akad	
+54	7054	alibi	
+55	7055	andaikan	
+56	7056	anjlok	
+57	7057	anomali	
+58	7058	barbar	
+59	7059	batalyon	
+60	7060	berfirman	
+61	7061	bertiup	
+62	7062	biadab	
+63	7063	demografi	
+64	7064	devisa	
+65	7065	diplomasi	
+66	7066	doyan	
+67	7067	drainase	
+68	7068	dubes	
+69	7069	ejaan	
+70	7070	garang	
+71	7071	geger	
+72	7072	gendang	
+73	7073	hikmat	
+74	7074	iritasi	
+75	7075	jengkol	
+76	7076	kalem	
+77	7077	kebangkrutan	
+78	7078	keong	
+79	7079	ketepatan	
+80	7080	kompresi	
+81	7081	koo	
+82	7082	kosan	
+83	7083	kuping	
+84	7084	lempeng	
+85	7085	manakala	
+86	7086	menjarah	
+87	7087	ragut	merenggut
+88	7088	oma	
+89	7089	opium	
+90	7090	paguyuban	
+91	7091	parang	
+92	7092	parsial	
+93	7093	peluit	
+94	7094	pengangkutan	
+95	7095	penjahit	
+96	7096	penyeberangan	
+97	7097	pigmen	
+98	7098	punyai	
+99	7099	pustakawan	
+100	7100	rawit	

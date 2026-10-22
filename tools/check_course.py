@@ -350,6 +350,8 @@ def tokens(text, code=None, ranks=None, names=frozenset(), verbs=None, heads=Non
         return korean_tokens(text, ranks, names, heads)
     if code == "ar":
         return arabic_tokens(text, ranks, names)
+    if code == "id":
+        return indonesian_tokens(text, ranks, heads, names)
     out = []
     for match in WORD.finditer(text):
         out.extend(part for part in re.split(r"-", match.group(0)) if part)
@@ -1236,6 +1238,68 @@ def arabic_tokens(text, ranks, names=frozenset()):
     return out
 
 
+# Indonesian: the reader cuts words at spaces, hyphens and punctuation (anak-anak is anak + anak). The list files
+# most affixed forms under their word (membaca under baca; makanan is an entry of its own), but files their clitic
+# forms haphazardly (makanannya under makan, not makanan). So a clitic comes off before a word is looked up: the
+# particles -lah, -kah, -pun, then the possessives -nya, -ku, -mu, and the proclitics ku-, kau- on a word the list
+# lacks; a word whose bare form is an entry counts as that entry. A reduplicated word (anak-anak, teman-temanku,
+# berlari-lari, sehari-hari) is one word, its first half; the ending after a number (1990-an) is not a word.
+INDONESIAN_WORD = re.compile(r"[^\W\d_]+(?:-[^\W\d_]+)*", re.UNICODE)
+INDONESIAN_PARTICLES = ("lah", "kah", "pun")
+INDONESIAN_POSSESSIVES = ("nya", "ku", "mu")
+
+
+def indonesian_bare(word):
+    """The forms [word] may be without its clitics, the particle coming off before the possessive."""
+    out = []
+    for particle in ("",) + INDONESIAN_PARTICLES:
+        if particle and not (word.endswith(particle) and len(word) - len(particle) >= 3):
+            continue
+        stem = word[:len(word) - len(particle)]
+        if particle:
+            out.append(stem)
+        for possessive in INDONESIAN_POSSESSIVES:
+            if stem.endswith(possessive) and len(stem) - len(possessive) >= 3:
+                out.append(stem[:-len(possessive)])
+    return out
+
+
+def indonesian_word(word, ranks, heads, names=frozenset()):
+    """The list word a lowercased Indonesian word counts as: an entry, the entry its bare form is, or a listed form."""
+    if word in names or word in heads:
+        return word
+    bare = indonesian_bare(word)
+    for stem in bare:
+        if stem in heads:
+            return stem
+    if word in ranks:
+        return word
+    for stem in bare:
+        if stem in ranks:
+            return stem
+    for proclitic in ("kau", "ku"):
+        if word.startswith(proclitic) and len(word) - len(proclitic) >= 3:
+            found = indonesian_word(word[len(proclitic):], ranks, heads)
+            if found in ranks:
+                return found
+    return word
+
+
+def indonesian_tokens(text, ranks, heads, names=frozenset()):
+    out = []
+    for match in INDONESIAN_WORD.finditer(text):
+        start = match.start()
+        if start >= 2 and text[start - 1] == "-" and text[start - 2].isdigit():
+            continue
+        parts = [part.lower() for part in match.group(0).split("-") if part]
+        if len(parts) == 2 and parts[0] not in names and (
+                parts[1] == parts[0] or parts[0] in indonesian_bare(parts[1]) or parts[0].endswith(parts[1])):
+            out.append(indonesian_word(parts[0], ranks, heads, names))
+        else:
+            out.extend(indonesian_word(part, ranks, heads, names) for part in parts)
+    return out
+
+
 def check(path, brief=False):
     course = json.load(open(path, encoding="utf-8"))
     code = course["id"].split("-")[0]
@@ -1250,7 +1314,7 @@ def check(path, brief=False):
     names = {fold(code, n.lower()) for n in course.get("names", [])}
     # In Spanish a name of several words or joined by a hyphen (San José, al-Ándalus) counts as one known word wherever it
     # is written whole; the earlier languages count such names word by word, as they were written to.
-    long_names = sorted((n for n in course.get("names", []) if " " in n or "-" in n or (code in ("it", "ca") and "'" in n)), key=len, reverse=True) if code in ("es", "it", "sr", "nl", "da", "no", "sv", "el", "ar", "ca") else []
+    long_names = sorted((n for n in course.get("names", []) if " " in n or "-" in n or (code in ("it", "ca") and "'" in n)), key=len, reverse=True) if code in ("es", "it", "sr", "nl", "da", "no", "sv", "el", "ar", "ca", "id") else []
     # Chinese writes no spaces, so every name is matched whole, the longest first.
     if code in ("zh", "ja"):
         long_names = sorted(course.get("names", []), key=len, reverse=True)
@@ -1337,7 +1401,9 @@ def check(path, brief=False):
             text = re.sub(r"(?m)^Kérdések:", "", text)
         if code == "ca":
             text = re.sub(r"(?m)^Preguntes:", "", text)
-        toks = tokens(text, code, ranks, names, verbs, set(words) if code in ("it", "ko") else None)
+        if code == "id":
+            text = re.sub(r"(?m)^Pertanyaan:", "", text)
+        toks = tokens(text, code, ranks, names, verbs, set(words) if code in ("it", "ko", "id") else None)
         # A century or a king's number in capital Roman numerals (siglo XVI, Carlos V) is a number.
         if code in ("es", "ru", "it", "sr", "uk", "ca"):
             numerals = sum(1 for t in toks if ROMAN.fullmatch(t))

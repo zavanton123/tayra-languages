@@ -1,0 +1,100 @@
+1	1701	impian	impianku impiannya
+2	1702	bunyi	berbunyi bunyinya membunyikan
+3	1703	kerjakan	dikerjakan
+4	1704	perdana	perdananya
+5	1705	motivasi	memotivasi motivasinya
+6	1706	nikmat	menikmatinya nikmatnya
+7	1707	sewa	disewa disewakan menyewakan penyewa penyewaan sewaan sewanya
+8	1708	mencuri	curi dicuri
+9	1709	variasi	bervariasi
+10	1710	belanja	membelanjakan
+11	1711	arus	
+12	1712	bencana	
+13	1713	berumur	
+14	1714	individu	
+15	1715	jabatan	
+16	1716	kekalahan	
+17	1717	kesuksesan	
+18	1718	keterangan	
+19	1719	massa	
+20	1720	mengenakan	
+21	1721	papa	
+22	1722	republik	
+23	1723	we	
+24	1724	menyaksikan	saksikan
+25	1725	adakan	diadakan
+26	1726	banjir	kebanjiran membanjiri
+27	1727	menyebar	disebar
+28	1728	peluang	peluangnya
+29	1729	lempar	dilempar dilemparkan lemparan lemparkan melempar melempari melemparkan melemparkannya pelempar pelemparan
+30	1730	tunda	ditunda menunda menundanya tertunda
+31	1731	mengejar	dikejar
+32	1732	kapasitas	berkapasitas kapasitasnya
+33	1733	saji	disajikan menyajikan sajikan tersaji
+34	1734	komponen	komponennya
+35	1735	padat	memadati padatnya terpadat
+36	1736	kekasih	kekasihku kekasihnya
+37	1737	sumpah	bersumpah sumpahnya
+38	1738	bocah	
+39	1739	contohnya	
+40	1740	diantaranya	
+41	1741	kenangan	
+42	1742	keturunan	
+43	1743	melarikan	
+44	1744	pensiun	
+45	1745	pulsa	
+46	1746	sekalian	
+47	1747	yo	
+48	1748	patah	sepatah
+49	1749	kritik	dikritik mengkritik
+50	1750	mengizinkan	diizinkan izinkan
+51	1751	cedera	cederanya cidera mencederai
+52	1752	merdeka	kemerdekaannya memerdekakan
+53	1753	gelombang	bergelombang
+54	1754	oven	open
+55	1755	menyampaikan	disampaikan
+56	1756	segar	kesegaran menyegarkan penyegar
+57	1757	tempuh	ditempuh menempuh
+58	1758	mental	mentalnya
+59	1759	hasilkan	dihasilkan
+60	1760	respons	merespons respon
+61	1761	kelihatan	keliatan
+62	1762	masak	dimasak masaknya memasak
+63	1763	belas	
+64	1764	departemen	
+65	1765	depok	
+66	1766	kelapa	
+67	1767	kepentingan	
+68	1768	kepolisian	
+69	1769	kreatif	
+70	1770	laba	
+71	1771	level	
+72	1772	matematika	
+73	1773	melaporkan	
+74	1774	novel	
+75	1775	papan	
+76	1776	rangka	
+77	1777	referensi	
+78	1778	set	
+79	1779	upacara	
+80	1780	windows	
+81	1781	gerak	digerakkan gerakannya gerakkan geraknya pergerakannya tergerak
+82	1782	lurus	diluruskan meluruskan
+83	1783	kendali	kendalikan kendalinya mengendalikannya
+84	1784	struktur	strukturnya
+85	1785	menyelenggarakan	diselenggarakan
+86	1786	malas	bermalas malasan males pemalas
+87	1787	murni	kemurnian memurnikan
+88	1788	cermin	bercermin cerminan mencerminkan tercermin
+89	1789	anggaran	
+90	1790	berlalu	
+91	1791	budi	
+92	1792	gempa	
+93	1793	hatinya	
+94	1794	kesepakatan	
+95	1795	lapisan	
+96	1796	maya	
+97	1797	mengucapkan	
+98	1798	otomatis	
+99	1799	pencarian	
+100	1800	persiapan	

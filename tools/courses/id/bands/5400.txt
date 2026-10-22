@@ -1,0 +1,100 @@
+1	5301	daring	
+2	5302	diskriminasi	
+3	5303	emisi	
+4	5304	fan	
+5	5305	gurih	
+6	5306	instruktur	
+7	5307	kanal	
+8	5308	kebangsaan	
+9	5309	kedekatan	
+10	5310	kependudukan	
+11	5311	kepengurusan	
+12	5312	keris	
+13	5313	kilo	
+14	5314	kolesterol	
+15	5315	kompor	
+16	5316	konstan	
+17	5317	larutan	
+18	5318	mantel	
+19	5319	mikir	
+20	5320	mina	
+21	5321	narasi	
+22	5322	penahanan	
+23	5323	pencetak	
+24	5324	pendidik	
+25	5325	penghinaan	
+26	5326	penyu	
+27	5327	pratama	
+28	5328	proklamasi	
+29	5329	rambu	
+30	5330	rileks	
+31	5331	sal	
+32	5332	terpesona	
+33	5333	vampir	
+34	5334	viva	
+35	5335	mengetik	diketik
+36	5336	menguras	terkuras
+37	5337	gendong	digendong menggendong
+38	5338	tumbuk	ditumbuk menumbuk tumbukan
+39	5339	abdi	pengabdiannya
+40	5340	wasiat	wasiatnya
+41	5341	kecoak	kecoa
+42	5342	himpun	berhimpun dihimpun menghimpun
+43	5343	percepat	dipercepat
+44	5344	menopang	ditopang
+45	5345	horizontal	horisontal
+46	5346	realisasi	merealisasikan
+47	5347	bendung	dibendung membendung terbendung
+48	5348	prasangka	berprasangka
+49	5349	jepit	jepitan menjepit
+50	5350	helai	sehelai
+51	5351	kibar	berkibar mengibarkan pengibar pengibaran
+52	5352	alhasil	
+53	5353	banci	
+54	5354	bon	
+55	5355	cakupan	
+56	5356	caleg	
+57	5357	dangkal	
+58	5358	eden	
+59	5359	ember	
+60	5360	enzim	
+61	5361	federasi	
+62	5362	front	
+63	5363	gerobak	
+64	5364	gunting	
+65	5365	hana	
+66	5366	hibah	
+67	5367	interaktif	
+68	5368	janin	
+69	5369	jikalau	
+70	5370	katup	
+71	5371	kedinginan	
+72	5372	kerumunan	
+73	5373	khayalan	
+74	5374	kronis	
+75	5375	meletus	
+76	5376	mendalami	
+77	5377	menewaskan	
+78	5378	menggigit	
+79	5379	menguap	
+80	5380	pai	
+81	5381	pakan	
+82	5382	pelepasan	
+83	5383	pelita	
+84	5384	pemakan	
+85	5385	pengampunan	
+86	5386	pengkhianat	
+87	5387	pornografi	
+88	5388	produktivitas	
+89	5389	register	
+90	5390	sebagus	
+91	5391	silinder	
+92	5392	suplemen	
+93	5393	antre	antri
+94	5394	munafik	kemunafikan
+95	5395	sekira	sekiranya
+96	5396	dayung	mendayung
+97	5397	ganjar	diganjar
+98	5398	desah	desahan mendesah
+99	5399	pecat	pemecatan
+100	5400	afiliasi	berafiliasi

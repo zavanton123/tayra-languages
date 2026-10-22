@@ -1,0 +1,100 @@
+1	3601	wan	uan
+2	3602	sikat	menyikat
+3	3603	rok	roknya
+4	3604	jangkau	dijangkau jangkauannya menjangkau
+5	3605	keping	berkeping kepingan sekeping
+6	3606	deret	berderet deretan sederet
+7	3607	picu	dipicu pemicu pemicunya
+8	3608	pengamanan	pam
+9	3609	heboh	dihebohkan kehebohan menghebohkan
+10	3610	unduh	diunduh mengunduh
+11	3611	lekat	melekat
+12	3612	miring	memiringkan
+13	3613	belok	belokan berbelok membelokkan
+14	3614	geografis	geografi
+15	3615	benih	
+16	3616	berkala	
+17	3617	betah	
+18	3618	bocor	
+19	3619	dek	
+20	3620	dian	
+21	3621	gizi	
+22	3622	grafis	
+23	3623	grosir	
+24	3624	habib	
+25	3625	ikutan	
+26	3626	kerajinan	
+27	3627	kerangka	
+28	3628	konvensi	
+29	3629	manfaatkan	
+30	3630	mantra	
+31	3631	menyelidiki	
+32	3632	modifikasi	
+33	3633	nutrisi	
+34	3634	nyeri	
+35	3635	pahala	
+36	3636	pemeliharaan	
+37	3637	pengajaran	
+38	3638	perolehan	
+39	3639	puskesmas	
+40	3640	rentan	
+41	3641	rudal	
+42	3642	sakitnya	
+43	3643	salinan	
+44	3644	semut	
+45	3645	sponsor	
+46	3646	stan	
+47	3647	teriak	
+48	3648	tragedi	
+49	3649	yatim	
+50	3650	bekal	berbekal membekali
+51	3651	genius	jenius
+52	3652	perlakukan	diperlakukan
+53	3653	bentang	bentangan membentang terbentang
+54	3654	lalui	dilalui
+55	3655	anggun	keanggunan
+56	3656	isyarat	mengisyaratkan
+57	3657	asumsi	asumsikan mengasumsikan
+58	3658	simpati	bersimpati
+59	3659	ter	tar
+60	3660	alarm	
+61	3661	bel	
+62	3662	bergaya	
+63	3663	berkelanjutan	
+64	3664	berlibur	
+65	3665	bersejarah	
+66	3666	bubur	
+67	3667	bulanan	
+68	3668	ilustrasi	
+69	3669	kesimpulan	
+70	3670	lebah	
+71	3671	netizen	
+72	3672	ninja	
+73	3673	norma	
+74	3674	nyamuk	
+75	3675	pemandu	
+76	3676	pemberontakan	
+77	3677	pembesar	
+78	3678	pendirian	
+79	3679	penembakan	
+80	3680	reguler	
+81	3681	saking	
+82	3682	sekejap	
+83	3683	seketika	
+84	3684	skripsi	
+85	3685	spesialis	
+86	3686	teknisi	
+87	3687	terdakwa	
+88	3688	terendah	
+89	3689	usulan	
+90	3690	hargai	dihargai
+91	3691	rohani	kerohanian
+92	3692	labu	labuan
+93	3693	patroli	berpatroli
+94	3694	atasan	atasannya
+95	3695	kreativitas	kreatifitas
+96	3696	curah	curahan curahkan mencurahkan tercurah
+97	3697	fitnah	difitnah memfitnah
+98	3698	landas	berlandaskan
+99	3699	mengkhianati	dikhianati
+100	3700	daftarkan	didaftarkan

@@ -1,0 +1,100 @@
+1	5001	nekat	
+2	5002	pendanaan	
+3	5003	peredaran	
+4	5004	pijat	
+5	5005	purba	
+6	5006	sederajat	
+7	5007	sentra	
+8	5008	ski	
+9	5009	skuad	
+10	5010	sol	
+11	5011	susyi	sushi
+12	5012	talk	
+13	5013	tatanan	
+14	5014	cerdik	kecerdikan
+15	5015	saing	saingannya
+16	5016	invasi	menginvasi
+17	5017	rampas	dirampas perampas perampasan rampasan
+18	5018	gagas	digagas gagasannya menggagas penggagas
+19	5019	alpukat	advokat
+20	5020	tenun	menenun
+21	5021	kiprah	berkiprah kiprahnya
+22	5022	geli	menggelikan
+23	5023	tangkas	ketangkasan
+24	5024	lobi	melobi
+25	5025	eksistensi	eksistensinya
+26	5026	satukan	disatukan
+27	5027	kembara	mengembara pengembara pengembaraan
+28	5028	pemisah	pms
+29	5029	antibiotik	
+30	5030	antik	
+31	5031	atribut	
+32	5032	ayolah	
+33	5033	berdagang	
+34	5034	biner	
+35	5035	bocoran	
+36	5036	bravo	
+37	5037	canggung	
+38	5038	diesel	
+39	5039	donat	
+40	5040	hilir	
+41	5041	ion	
+42	5042	johan	
+43	5043	kedaulatan	
+44	5044	ketergantungan	
+45	5045	kurir	
+46	5046	lonceng	
+47	5047	madar	mada
+48	5048	meleleh	
+49	5049	memperlambat	
+50	5050	mendaftarkan	
+51	5051	moto	
+52	5052	panci	
+53	5053	pembalasan	
+54	5054	penanda	
+55	5055	pencitraan	
+56	5056	penentu	
+57	5057	penggerak	
+58	5058	penyesuaian	
+59	5059	perpaduan	
+60	5060	reaktor	
+61	5061	rumahan	
+62	5062	senat	
+63	5063	slogan	
+64	5064	tunjangan	
+65	5065	uskup	
+66	5066	watak	
+67	5067	sandera	menyandera
+68	5068	riang	periang
+69	5069	khasiat	berkhasiat khasiatnya
+70	5070	jihad	berjihad
+71	5071	gigih	kegigihan
+72	5072	urai	diuraikan mengurai terurai
+73	5073	orisinal	ori orisinil
+74	5074	papar	paparkan terpapar
+75	5075	pasangkan	dipasangkan memasangkan
+76	5076	roboh	merobohkan rubuh
+77	5077	merampok	dirampok rampok
+78	5078	pendahulu	pendahulunya
+79	5079	jerat	dijerat jeratan terjerat
+80	5080	daur	mendaur
+81	5081	akumulasi	terakumulasi
+82	5082	kukuh	dikukuhkan mengukuhkan
+83	5083	menamai	dinamai
+84	5084	bentrok	bentrokan
+85	5085	akademisi	
+86	5086	akuntan	
+87	5087	angan	
+88	5088	anu	
+89	5089	anyar	
+90	5090	baikan	
+91	5091	berkomitmen	
+92	5092	berorientasi	
+93	5093	bertuliskan	
+94	5094	beruntun	
+95	5095	betis	
+96	5096	biara	
+97	5097	cukai	
+98	5098	ekspansi	
+99	5099	fleksibel	
+100	5100	gerbong	

@@ -1,0 +1,100 @@
+1	7201	montok	
+2	7202	nazar	
+3	7203	optimisme	
+4	7204	pacuan	
+5	7205	pelet	
+6	7206	pembubaran	
+7	7207	pemindai	
+8	7208	peninjauan	
+9	7209	perdarahan	
+10	7210	perekaman	
+11	7211	pertigaan	
+12	7212	psikiater	
+13	7213	rayuan	
+14	7214	rekapitulasi	
+15	7215	sahaja	
+16	7216	sepengetahuan	
+17	7217	sip	
+18	7218	suaka	
+19	7219	sukma	
+20	7220	surel	
+21	7221	tagar	
+22	7222	term	
+23	7223	titipan	
+24	7224	ubin	
+25	7225	vokasi	
+26	7226	vulkanis	vulkanik
+27	7227	jajak	menjajaki
+28	7228	merasuki	dirasuki
+29	7229	bangunkan	dibangunkan
+30	7230	artileri	
+31	7231	berdebu	
+32	7232	beringin	
+33	7233	runding	berunding
+34	7234	bujang	
+35	7235	coli	
+36	7236	detektor	
+37	7237	dialek	
+38	7238	dirgantara	
+39	7239	eco	
+40	7240	ejakulasi	
+41	7241	entrepreneur	
+42	7242	gabus	
+43	7243	gembok	
+44	7244	intip	
+45	7245	kalkulator	
+46	7246	katedral	
+47	7247	keabadian	
+48	7248	kemih	
+49	7249	kerendahan	
+50	7250	kiblat	
+51	7251	kimiawi	
+52	7252	kolong	
+53	7253	konkret	
+54	7254	kontaminasi	
+55	7255	lampiran	
+56	7256	logat	
+57	7257	loket	
+58	7258	mengabadikan	
+59	7259	menghidupi	
+60	7260	minimalis	
+61	7261	modis	
+62	7262	nisan	
+63	7263	panggul	
+64	7264	partisipan	
+65	7265	penanggung	
+66	7266	pengeringan	
+67	7267	perfilman	
+68	7268	polong	
+69	7269	posyandu	
+70	7270	prostat	
+71	7271	rayap	
+72	7272	resistansi	resistensi
+73	7273	selaput	
+74	7274	selokan	
+75	7275	setapak	
+76	7276	strata	
+77	7277	swalayan	
+78	7278	tenteram	
+79	7279	terigu	
+80	7280	telantar	terlantar
+81	7281	tiduran	
+82	7282	titel	
+83	7283	vena	
+84	7284	tuding	dituding menuding
+85	7285	sadap	menyadap
+86	7286	klaster	indonesian
+87	7287	menjerat	dijerat
+88	7288	gebrak	gebrakan menggebrak
+89	7289	urung	mengurungkan
+90	7290	kikis	mengikis terkikis
+91	7291	sambar	disambar tersambar
+92	7292	ares	
+93	7293	berkicau	
+94	7294	bermoral	
+95	7295	brankas	
+96	7296	candaan	
+97	7297	dadah	
+98	7298	dahlia	
+99	7299	denah	
+100	7300	durhaka	

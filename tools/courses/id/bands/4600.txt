@@ -1,0 +1,100 @@
+1	4501	mekar	bermekaran
+2	4502	ilham	mengilhami
+3	4503	sejajar	disejajarkan
+4	4504	sengsara	kesengsaraan menyengsarakan
+5	4505	gaduh	gado kegaduhan
+6	4506	rehabilitasi	rehab
+7	4507	perkosa	diperkosa memperkosa
+8	4508	angsa	
+9	4509	asri	
+10	4510	berlindung	
+11	4511	buruan	
+12	4512	camat	
+13	4513	distributor	
+14	4514	elegan	
+15	4515	himpunan	
+16	4516	imajinasi	
+17	4517	kangen	
+18	4518	kapas	
+19	4519	kapel	
+20	4520	kapolres	
+21	4521	kasi	
+22	4522	kecurangan	
+23	4523	kekebalan	
+24	4524	kelanjutan	
+25	4525	keramik	
+26	4526	ketahanan	
+27	4527	kondom	
+28	4528	koridor	
+29	4529	lekas	
+30	4530	mencolok	
+31	4531	menghampiri	
+32	4532	molekul	
+33	4533	ngerti	
+34	4534	nurani	
+35	4535	pasta	
+36	4536	pemutih	
+37	4537	pendaratan	
+38	4538	pengabdian	
+39	4539	pengurangan	
+40	4540	pinang	
+41	4541	preman	
+42	4542	punah	
+43	4543	rahim	
+44	4544	ranah	
+45	4545	satwa	
+46	4546	tanduk	
+47	4547	tengkorak	
+48	4548	tenis	
+49	4549	terdahulu	
+50	4550	terdepan	
+51	4551	terhenti	
+52	4552	tinju	
+53	4553	tinta	
+54	4554	turunan	
+55	4555	undian	
+56	4556	viral	
+57	4557	waduk	
+58	4558	wafat	
+59	4559	waras	
+60	4560	sujud	bersujud
+61	4561	karat	berkarat karatan
+62	4562	buatkan	dibuatkan
+63	4563	tendang	ditendang nendang tendangannya
+64	4564	dusta	berdusta mendustakan pendusta
+65	4565	transformasi	bertransformasi
+66	4566	pastor	pastur
+67	4567	antrean	antrian
+68	4568	janggut	jenggot
+69	4569	pengrajin	perajin
+70	4570	matikan	dimatikan
+71	4571	taufik	taufiq
+72	4572	percayakan	dipercayakan
+73	4573	angkot	
+74	4574	arwah	
+75	4575	bening	
+76	4576	berbaring	
+77	4577	berkonsentrasi	
+78	4578	biologis	
+79	4579	dinosaurus	
+80	4580	em	
+81	4581	formulir	
+82	4582	galau	
+83	4583	gulungan	
+84	4584	jernih	
+85	4585	karpet	
+86	4586	kejaksaan	
+87	4587	kejayaan	
+88	4588	kekecewaan	
+89	4589	kemarau	
+90	4590	koki	
+91	4591	koloni	
+92	4592	komedi	
+93	4593	kosmetik	
+94	4594	laksamana	
+95	4595	mempelai	
+96	4596	menabung	
+97	4597	mengabdi	
+98	4598	mengemudi	
+99	4599	menyinggung	
+100	4600	metabolisme	

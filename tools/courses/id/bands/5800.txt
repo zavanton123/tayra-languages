@@ -1,0 +1,100 @@
+1	5701	penghancuran	
+2	5702	pengisi	
+3	5703	penunjang	
+4	5704	penuntut	
+5	5705	penyangga	
+6	5706	penyiksaan	
+7	5707	perselingkuhan	
+8	5708	perum	
+9	5709	petahana	
+10	5710	printer	
+11	5711	prostitusi	
+12	5712	salut	
+13	5713	sentimen	
+14	5714	tiara	
+15	5715	vegetarian	
+16	5716	lokomotif	lok
+17	5717	artefak	artifak
+18	5718	ambulans	ambulan
+19	5719	omzet	omset
+20	5720	rayu	merayu
+21	5721	menstruasi	mens
+22	5722	bungkam	dibungkam membungkam
+23	5723	jajah	dijajah menjajah terjajah
+24	5724	memasarkan	pasarkan
+25	5725	keseharian	kesehariannya
+26	5726	alang	
+27	5727	antarmuka	
+28	5728	aqua	
+29	5729	bahari	
+30	5730	baling	
+31	5731	berbahagia	
+32	5732	berbisik	
+33	5733	berhala	
+34	5734	berkepanjangan	
+35	5735	cuplikan	
+36	5736	dermawan	
+37	5737	familier	familiar
+38	5738	gadang	
+39	5739	halte	
+40	5740	hara	
+41	5741	insomnia	
+42	5742	cebakan	jebakan
+43	5743	jemaah	
+44	5744	kaidah	
+45	5745	kartika	
+46	5746	karun	
+47	5747	kelakuan	
+48	5748	keripik	
+49	5749	kesiapan	
+50	5750	kontemporer	
+51	5751	koreksi	
+52	5752	lansia	
+53	5753	lembu	
+54	5754	didih	mendidih
+55	5755	pare	
+56	5756	pawai	
+57	5757	pelat	
+58	5758	pemadaman	
+59	5759	pemantauan	
+60	5760	pembimbing	
+61	5761	pendahuluan	
+62	5762	penekanan	
+63	5763	perusak	
+64	5764	pesiar	
+65	5765	plasma	
+66	5766	pose	
+67	5767	presenter	
+68	5768	proporsional	
+69	5769	reklamasi	
+70	5770	risau	
+71	5771	seraya	
+72	5772	singkatnya	
+73	5773	slank	
+74	5774	tebu	
+75	5775	tiruan	
+76	5776	ulat	
+77	5777	wisma	
+78	5778	wulan	
+79	5779	ziarah	
+80	5780	yogurt	yoghurt
+81	5781	rambah	merambah
+82	5782	setir	menyetir
+83	5783	mengeringkan	dikeringkan
+84	5784	tabur	bertabur penabur
+85	5785	gulir	bergulir digulirkan
+86	5786	letih	keletihan
+87	5787	busa	berbusa
+88	5788	alamiah	
+89	5789	amber	
+90	5790	anting	
+91	5791	berpeluang	
+92	5792	bugil	
+93	5793	cawapres	
+94	5794	demokratis	
+95	5795	ditjen	
+96	5796	gitaris	
+97	5797	glukosa	
+98	5798	hafal	
+99	5799	jerami	
+100	5800	kasta	

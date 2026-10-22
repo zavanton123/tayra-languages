@@ -1,0 +1,100 @@
+1	6101	memfoto	difoto
+2	6102	sasar	menyasar sasarannya
+3	6103	goyah	menggoyahkan
+4	6104	rambat	merambat
+5	6105	bolos	membolos
+6	6106	beritahukan	diberitahukan
+7	6107	saki	sake
+8	6108	merosot	kemerosotan
+9	6109	af	
+10	6110	antioksidan	
+11	6111	aparatur	
+12	6112	berlabuh	
+13	6113	biang	
+14	6114	bodi	
+15	6115	buas	
+16	6116	cicil	cicilan
+17	6117	fasih	
+18	6118	hiduplah	
+19	6119	hunian	
+20	6120	injeksi	
+21	6121	inspiratif	
+22	6122	jangkrik	
+23	6123	kekinian	
+24	6124	keributan	
+25	6125	kerikil	
+26	6126	kumuh	
+27	6127	laos	
+28	6128	lotus	
+29	6129	mara	
+30	6130	memanas	
+31	6131	membara	
+32	6132	menyesatkan	
+33	6133	merak	
+34	6134	metropolitan	
+35	6135	minang	
+36	6136	notaris	
+37	6137	nyai	
+38	6138	pelik	
+39	6139	pemeriksa	
+40	6140	pengirim	
+41	6141	penikmat	
+42	6142	pepaya	
+43	6143	pet	
+44	6144	pleno	
+45	6145	puri	
+46	6146	safari	
+47	6147	servis	
+48	6148	sirip	
+49	6149	taktis	
+50	6150	tel	
+51	6151	tumenggung	temanggung
+52	6152	tercantik	
+53	6153	tersambung	
+54	6154	tetua	
+55	6155	intimidasi	mengintimidasi
+56	6156	salin	disalin salinannya
+57	6157	bunker	banker
+58	6158	undi	diundi pengundian
+59	6159	kusut	mengusut
+60	6160	keluh	berkeluh keluhannya
+61	6161	lusin	lusinan selusin
+62	6162	balkon	
+63	6163	belalang	
+64	6164	berkaca	
+65	6165	bermutu	
+66	6166	biola	
+67	6167	dadu	
+68	6168	dokumenter	
+69	6169	ekstensi	
+70	6170	faksi	
+71	6171	gelora	
+72	6172	informal	
+73	6173	jimat	
+74	6174	joni	
+75	6175	kaligrafi	
+76	6176	kegelisahan	
+77	6177	ketapang	
+78	6178	khilafah	
+79	6179	korporasi	
+80	6180	lipatan	
+81	6181	malapetaka	
+82	6182	marmer	
+83	6183	menafsirkan	
+84	6184	menertawakan	
+85	6185	merampas	
+86	6186	merelakan	
+87	6187	musiman	
+88	6188	obsesi	
+89	6189	palang	
+90	6190	pamit	
+91	6191	pangsa	
+92	6192	panjat	
+93	6193	panutan	
+94	6194	parkiran	
+95	6195	patriot	
+96	6196	penakut	
+97	6197	perancang	
+98	6198	perasan	
+99	6199	perpajakan	
+100	6200	pestisida	

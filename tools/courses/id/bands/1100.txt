@@ -1,0 +1,100 @@
+1	1001	situasi	situasinya
+2	1002	pengalaman	berpengalaman pengalamannya
+3	1003	malang	malangnya pemalang
+4	1004	tamu	bertamu tamunya
+5	1005	potong	berpotongan dipotong memotong memotongnya pemotongan terpotong
+6	1006	meter	meteran
+7	1007	ha	
+8	1008	ruangan	
+9	1009	sehari	
+10	1010	menyediakan	disediakan sediakan
+11	1011	sekadar	sekedar
+12	1012	lomba	berlomba lumba
+13	1013	kembang	berkembangnya dikembangkan kembangan kembangkan mengembang mengembangkannya pengembangannya perkembangannya
+14	1014	fisik	fisiknya
+15	1015	bunuh	dibunuh membunuhku membunuhmu membunuhnya pembunuhannya pembunuhnya
+16	1016	aceh	
+17	1017	pantas	
+18	1018	penampilan	
+19	1019	pengguna	
+20	1020	publik	
+21	1021	bohong	berbohong bohongan kebohongannya membohongi pembohongan
+22	1022	normal	normalnya
+23	1023	kamera	kameranya
+24	1024	kursi	kerusi kursinya
+25	1025	turut	berturut menuruti
+26	1026	meja	mejanya
+27	1027	langit	langitnya selangit
+28	1028	komunitas	komunitasnya
+29	1029	miliar	milyar
+30	1030	pintar	pintarnya sepintar
+31	1031	ketahui	diketahui
+32	1032	delapan	lapan pan
+33	1033	rindu	dirindukan kerinduan kurindukan merindukan merindukanmu merindukannya perindu rindukan
+34	1034	kaum	kaumnya
+35	1035	teh	teteh theo tio
+36	1036	inti	intinya
+37	1037	wajib	berwajib kewajibannya
+38	1038	membahas	bahas dibahas membahasnya pembahasannya
+39	1039	bus	bis
+40	1040	jadwal	jadwalkan jadwalnya penjadwalan terjadwal
+41	1041	dahulu	dh
+42	1042	gigi	giginya
+43	1043	kualitas	kualitasnya kwalitas
+44	1044	lapangan	
+45	1045	perbedaan	
+46	1046	seberapa	
+47	1047	ukur	berukuran diukur mengukur pengukur ukurannya
+48	1048	konsep	berkonsep konsepnya
+49	1049	memahami	dipahami
+50	1050	hijau	kehijauan penghijauan
+51	1051	daun	berdaun daunnya dedaunan
+52	1052	biru	birunya kebiruan
+53	1053	khas	kekhasan khasnya
+54	1054	dosa	berdosa dosaku dosamu dosanya pendosa
+55	1055	uji	diuji menguji mengujinya teruji ujiannya
+56	1056	studi	studinya
+57	1057	aturan	
+58	1058	betapa	
+59	1059	kecepatan	
+60	1060	pelajaran	
+61	1061	pemilihan	
+62	1062	planet	
+63	1063	puncak	memuncak pemuncak puncaknya
+64	1064	mi	mee mie
+65	1065	lelah	lelahnya melelahkan
+66	1066	ajar	ajarannya ajarkan diajar diajarkan mengajari mengajarinya mengajarkan mengajarkannya mengajarnya
+67	1067	perut	perutnya
+68	1068	menambah	ditambah
+69	1069	kucing	kucingnya
+70	1070	area	areanya
+71	1071	bekas	bekasnya berbekas membekas
+72	1072	kampus	kampusnya
+73	1073	abu	abuan abunya
+74	1074	tambah	bertambahnya menambahkannya penambahan pertambahan tambahannya
+75	1075	target	targetnya
+76	1076	wujud	berwujud mewujudkan mewujudkannya terwujud terwujudnya wujudkan wujudnya
+77	1077	parah	diperparah keparahan memperparah parahnya separah terparah
+78	1078	artis	
+79	1079	berguna	
+80	1080	dukungan	
+81	1081	kepercayaan	
+82	1082	medan	
+83	1083	mengeluarkan	
+84	1084	perkembangan	
+85	1085	pura	
+86	1086	suruh	disuruh menyuruh menyuruhnya
+87	1087	putar	berputar diputar memutar memutarnya pemutar pemutaran
+88	1088	cita	bercita citakan citaku citanya
+89	1089	tulis	ditulis ditulisnya menuliskannya menulisnya penulisannya penulisnya tulisannya tulisnya
+90	1090	hitung	berhitung dihitung diperhitungkan hitungan hitungannya memperhitungkan menghitungnya penghitung perhitungannya
+91	1091	seru	menyeru menyerukan saru serba serui serunya
+92	1092	duga	diduga terduga
+93	1093	memegang	dipegang megang
+94	1094	akses	aksesnya mengakses mengaksesnya
+95	1095	pendek	pendeknya terpendek
+96	1096	singkat	disingkat sesingkat
+97	1097	solusi	solusinya
+98	1098	berharga	
+99	1099	berhubungan	
+100	1100	kim	

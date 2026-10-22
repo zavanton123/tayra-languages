@@ -1,0 +1,100 @@
+1	5801	ketidakpastian	
+2	5802	klarifikasi	
+3	5803	kontroversial	
+4	5804	korup	
+5	5805	memanjakan	
+6	5806	menculik	
+7	5807	mending	
+8	5808	menelpon	
+9	5809	menelusuri	
+10	5810	menjerit	
+11	5811	meta	
+12	5812	ngantuk	
+13	5813	pebalap	
+14	5814	pemerkosaan	
+15	5815	pemetaan	
+16	5816	pengarang	
+17	5817	penyajian	
+18	5818	profit	
+19	5819	rais	
+20	5820	rim	
+21	5821	rotan	
+22	5822	ruko	
+23	5823	satpam	
+24	5824	selai	
+25	5825	seusai	
+26	5826	terobsesi	
+27	5827	puruk	terpuruk
+28	5828	trotoar	
+29	5829	menenggelamkan	ditenggelamkan
+30	5830	komplet	komplit
+31	5831	timbun	menimbun tertimbun timbunan
+32	5832	gugus	gugusan
+33	5833	zikir	dzikir
+34	5834	yuda	yudha
+35	5835	setor	setoran
+36	5836	bujuk	dibujuk membujuknya
+37	5837	aktual	
+38	5838	algoritma	
+39	5839	baba	
+40	5840	ce	
+41	5841	diklat	
+42	5842	dikti	
+43	5843	ek	
+44	5844	firasat	
+45	5845	getah	
+46	5846	granat	
+47	5847	irit	
+48	5848	jajan	
+49	5849	jua	
+50	5850	kecurigaan	
+51	5851	keilmuan	
+52	5852	kesalahpahaman	
+53	5853	komisioner	
+54	5854	konseling	
+55	5855	kuantitas	
+56	5856	lengket	
+57	5857	liberal	
+58	5858	medsos	
+59	5859	memetik	
+60	5860	mendahului	
+61	5861	menebus	
+62	5862	menyandang	
+63	5863	menyuarakan	
+64	5864	merantau	
+65	5865	nafkah	
+66	5866	obor	
+67	5867	oli	
+68	5868	ornamen	
+69	5869	pantun	
+70	5870	pembatalan	
+71	5871	pembedahan	
+72	5872	pengedar	
+73	5873	penggalian	
+74	5874	penjagaan	
+75	5875	pilek	
+76	5876	salak	
+77	5877	selektif	
+78	5878	tegar	
+79	5879	torpedo	
+80	5880	traktir	
+81	5881	uber	
+82	5882	wol	
+83	5883	amuk	amukan mengamuk
+84	5884	bungkuk	membungkuk
+85	5885	tunggang	menunggang menunggangi tunggangan
+86	5886	biasakan	dibiasakan
+87	5887	asah	asahan diasah
+88	5888	rajut	merajut rajutan
+89	5889	redup	meredup
+90	5890	hirau	dihiraukan hiraukan menghiraukan
+91	5891	tekuk	bertekuk ditekuk menekuk
+92	5892	kerut	berkerut kerutan mengerutkan
+93	5893	sulut	menyulut
+94	5894	membasahi	dibasahi
+95	5895	sembur	menyembur menyemburkan semburan
+96	5896	basmi	membasmi pembasmi
+97	5897	moda	mod
+98	5898	mengambang	diambang
+99	5899	elak	mengelak terelakkan
+100	5900	angkuh	keangkuhan

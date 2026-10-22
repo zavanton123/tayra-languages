@@ -1,0 +1,100 @@
+1	4901	niscaya	
+2	4902	ojek	
+3	4903	penasihat	
+4	4904	penataan	
+5	4905	retinoblastoma	rb
+6	4906	sandiwara	
+7	4907	sengit	
+8	4908	tragis	
+9	4909	tuna	
+10	4910	urat	
+11	4911	tumpang	penumpangnya tumpangan
+12	4912	harfiah	harafiah
+13	4913	hampa	kehampaan
+14	4914	mistis	mistik
+15	4915	serbuk	penyerbukan
+16	4916	menantu	menantunya
+17	4917	sirat	menyiratkan tersirat
+18	4918	urine	urin
+19	4919	esai	essay
+20	4920	akuisisi	mengakuisisi
+21	4921	biarawan	biarawati
+22	4922	acuan	
+23	4923	birokrasi	
+24	4924	cemerlang	
+25	4925	debit	
+26	4926	flat	
+27	4927	jilid	
+28	4928	kebal	
+29	4929	keramaian	
+30	4930	lamaran	
+31	4931	lele	
+32	4932	mancanegara	
+33	4933	melimpah	
+34	4934	merata	
+35	4935	musyawarah	
+36	4936	nona	
+37	4937	paten	
+38	4938	pembohong	
+39	4939	pengajian	
+40	4940	penjajahan	
+41	4941	persik	
+42	4942	poros	
+43	4943	redaksi	
+44	4944	rembang	
+45	4945	rongga	
+46	4946	sejatinya	
+47	4947	sendi	
+48	4948	silam	
+49	4949	spirit	
+50	4950	tembakau	
+51	4951	teriakan	
+52	4952	trek	
+53	4953	vokalis	
+54	4954	wijaya	
+55	4955	zaitun	
+56	4956	sandal	sendal
+57	4957	memperbesar	diperbesar perbesar
+58	4958	suplai	menyuplai
+59	4959	jalin	jalinan terjalin
+60	4960	santap	disantap menyantap
+61	4961	sabda	bersabda
+62	4962	graha	griya
+63	4963	tangkis	menangkis
+64	4964	mesra	bermesraan kemesraan
+65	4965	keji	kekejian
+66	4966	khianat	mengkhianatinya pengkhianatan
+67	4967	semprot	disemprot menyemprot menyemprotkan penyemprotan
+68	4968	ongkos	ongkosnya
+69	4969	alokasi	mengalokasikan
+70	4970	ci	encik
+71	4971	aborsi	
+72	4972	abstrak	
+73	4973	akik	
+74	4974	amir	
+75	4975	aria	
+76	4976	asma	
+77	4977	bobot	
+78	4978	bor	
+79	4979	cobaan	
+80	4980	fosil	
+81	4981	godaan	
+82	4982	gusti	
+83	4983	inflasi	
+84	4984	insting	
+85	4985	ipar	
+86	4986	kalaupun	
+87	4987	kapur	
+88	4988	kendati	
+89	4989	kepadatan	
+90	4990	kera	
+91	4991	ketersediaan	
+92	4992	kewarganegaraan	
+93	4993	kuis	
+94	4994	lembur	
+95	4995	log	
+96	4996	manusiawi	
+97	4997	mengusung	
+98	4998	mentega	
+99	4999	mintalah	
+100	5000	mungil	

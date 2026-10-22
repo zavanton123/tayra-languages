@@ -1,0 +1,100 @@
+1	2001	seleksi	menyeleksi
+2	2002	administrasi	
+3	2003	basah	
+4	2004	bung	
+5	2005	forum	
+6	2006	honda	
+7	2007	kehormatan	
+8	2008	ketakutan	
+9	2009	klasik	
+10	2010	memanfaatkan	
+11	2011	menyentuh	
+12	2012	natal	
+13	2013	operator	
+14	2014	orangtua	
+15	2015	patut	
+16	2016	perpustakaan	
+17	2017	pilkada	
+18	2018	profesor	
+19	2019	rangkaian	
+20	2020	sebulan	
+21	2021	swasta	
+22	2022	hobi	hobinya
+23	2023	praktik	praktek
+24	2024	henti	berhentilah berhentinya hentinya menghentikannya penghentian
+25	2025	akar	akarnya berakar mengakar
+26	2026	topik	bertopik topiknya
+27	2027	senior	seniornya
+28	2028	teliti	diteliti meneliti penelitiannya
+29	2029	gaes	guys
+30	2030	jalankan	dijalankan
+31	2031	personel	personelnya personil personilnya
+32	2032	definisi	definisinya mendefinisikan
+33	2033	ajaran	
+34	2034	aspek	
+35	2035	dapur	
+36	2036	dini	
+37	2037	elemen	
+38	2038	fisika	
+39	2039	gudang	
+40	2040	harian	
+41	2041	hongeroedeem	ho
+42	2042	kelurahan	
+43	2043	kolonel	
+44	2044	majalah	
+45	2045	mengerjakan	
+46	2046	momen	
+47	2047	paru-paru	paru
+48	2048	pelabuhan	
+49	2049	peneliti	
+50	2050	robot	
+51	2051	semesta	
+52	2052	tersebar	
+53	2053	otot	berotot ototnya
+54	2054	perkawinan	kahwin kawin perkawinannya
+55	2055	legenda	melegenda
+56	2056	meyakinkan	yakinkan
+57	2057	sial	sialnya
+58	2058	skala	berskala sekala
+59	2059	seragam	berseragam seragamnya
+60	2060	rupa	rupawan
+61	2061	jaket	jaketnya
+62	2062	sangka	disangka menyangka
+63	2063	laptop	laptopnya
+64	2064	tepi	menepi tepian tepinya
+65	2065	nasihat	menasihati nasehat penasehat
+66	2066	belah	dibelah membelah terbelah
+67	2067	profesi	berprofesi profesinya
+68	2068	krim	krem krimnya
+69	2069	patung	patungnya
+70	2070	ala	
+71	2071	bar	
+72	2072	bawang	
+73	2073	bergantung	
+74	2074	berpengaruh	
+75	2075	bersatu	
+76	2076	jangka	
+77	2077	kedatangan	
+78	2078	mil	
+79	2079	pemandangan	
+80	2080	pemberian	
+81	2081	pemeriksaan	
+82	2082	penjelasan	
+83	2083	perbaikan	
+84	2084	psikologi	
+85	2085	sebutan	
+86	2086	sopan	
+87	2087	tom	
+88	2088	amal	amalnya beramal mengamalkan pengamalan
+89	2089	sihir	penyihir sihirnya
+90	2090	gejala	gejalanya
+91	2091	sembunyi	bersembunyi menyembunyikannya persembunyian persembunyiannya sembunyikan
+92	2092	nikah	menikahinya pernikahannya
+93	2093	melepas	dilepas
+94	2094	gantung	digantung gantungan gantungkan menggantung menggantungkan
+95	2095	baris	berbaris
+96	2096	cat	dicat mengecat
+97	2097	kinerja	berkinerja kinerjanya
+98	2098	mode	mod
+99	2099	jemput	dijemput jemputan menjemput menjemputnya penjemputan
+100	2100	hibur	dihibur menghibur menghiburnya penghibur penghiburan terhibur

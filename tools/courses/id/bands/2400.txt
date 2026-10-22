@@ -1,0 +1,100 @@
+1	2301	badai	
+2	2302	bang	
+3	2303	beras	
+4	2304	bercinta	
+5	2305	cadangan	
+6	2306	karang	
+7	2307	keberuntungan	
+8	2308	keindahan	
+9	2309	ketinggian	
+10	2310	mustahil	
+11	2311	natural	
+12	2312	pameran	
+13	2313	pembelajaran	
+14	2314	pendekatan	
+15	2315	penerimaan	
+16	2316	penurunan	
+17	2317	perak	
+18	2318	pisang	
+19	2319	pramuka	
+20	2320	sinetron	
+21	2321	tampan	
+22	2322	terkejut	
+23	2323	bela	belawan dibela membelai
+24	2324	aset	asetnya
+25	2325	kejut	dikejutkan mengejutkan
+26	2326	seberang	berseberangan menyeberangi
+27	2327	medali	medal
+28	2328	properti	propertinya
+29	2329	asisten	asistennya
+30	2330	kaget	mengagetkan
+31	2331	tajam	mempertajam
+32	2332	undur	diundur mengundurkan pengunduran
+33	2333	kubur	dikubur dikuburkan kuburannya kuburnya mengubur menguburkan penguburan terkubur
+34	2334	anime	
+35	2335	basket	
+36	2336	berkurang	
+37	2337	bersaing	
+38	2338	kerap	
+39	2339	konten	
+40	2340	kotoran	
+41	2341	kuil	
+42	2342	mampir	
+43	2343	maria	
+44	2344	material	
+45	2345	menu	
+46	2346	penutup	
+47	2347	pergerakan	
+48	2348	sewaktu	
+49	2349	singa	
+50	2350	spesies	
+51	2351	strategis	
+52	2352	terdaftar	
+53	2353	undangan	
+54	2354	konfirmasi	mengkonfirmasikan
+55	2355	didik	berpendidikan dididik didikan didiknya pendidikannya
+56	2356	ledak	diledakkan meledak meledakkan
+57	2357	huni	berpenghuni menghuni penghuni penghuninya
+58	2358	disiplin	kedisiplinan
+59	2359	motif	bermotif motifnya
+60	2360	bapa	bapanya
+61	2361	menikahi	dinikahi
+62	2362	mengaktifkan	aktifkan diaktifkan
+63	2363	mengonsumsi	dikonsumsi mengkonsumsi
+64	2364	takdir	takdirku takdirnya
+65	2365	siksa	disiksa menyiksa siksaan tersiksa
+66	2366	kesal	kekesalan
+67	2367	are	
+68	2368	bagaimanapun	
+69	2369	berniat	
+70	2370	bioskop	
+71	2371	candi	
+72	2372	edisi	
+73	2373	fenomena	
+74	2374	ham	
+75	2375	konsumen	
+76	2376	laboratorium	
+77	2377	lowongan	
+78	2378	madu	
+79	2379	mengajak	
+80	2380	menggantikan	
+81	2381	penyimpanan	
+82	2382	perencanaan	
+83	2383	pop	
+84	2384	selagi	
+85	2385	semenjak	
+86	2386	tabel	
+87	2387	terbentuk	
+88	2388	teroris	
+89	2389	varian	
+90	2390	haram	diharamkan mengharamkan
+91	2391	takjub	menakjubkan
+92	2392	mengawasi	awasi
+93	2393	lampau	melampaui terlampau
+94	2394	piring	piringan piringnya sepiring
+95	2395	rezeki	rejeki rezekinya rizki
+96	2396	ekspresi	ekspresinya mengekspresikan
+97	2397	pidato	pidatonya
+98	2398	sedia	kesediaan kesediaannya penyedia sediaan sedianya
+99	2399	kombinasi	mengkombinasikan
+100	2400	lidah	lidahnya

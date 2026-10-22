@@ -1,0 +1,100 @@
+1	5201	dam	
+2	5202	direksi	
+3	5203	donasi	
+4	5204	entitas	
+5	5205	imlek	
+6	5206	jelang	
+7	5207	keanggotaan	
+8	5208	kelopak	
+9	5209	kepergian	
+10	5210	kompensasi	
+11	5211	kontras	
+12	5212	konversi	
+13	5213	lawas	
+14	5214	lelucon	
+15	5215	mabes	
+16	5216	masturbasi	
+17	5217	melulu	
+18	5218	mendasar	
+19	5219	mengunci	
+20	5220	menyeberang	
+21	5221	minoritas	
+22	5222	paparan	
+23	5223	peledak	
+24	5224	penarikan	
+25	5225	penegakan	
+26	5226	penguatan	
+27	5227	penjelajah	
+28	5228	perda	
+29	5229	pori	
+30	5230	satgas	
+31	5231	seruan	
+32	5232	simpanan	
+33	5233	sirkulasi	
+34	5234	sukar	
+35	5235	sungkan	
+36	5236	temperatur	
+37	5237	terampil	
+38	5238	tisu	
+39	5239	vakum	
+40	5240	yak	
+41	5241	tempa	ditempa menempa tapa
+42	5242	sedot	menyedot
+43	5243	korek	mengorek
+44	5244	inisial	berinisial
+45	5245	pedih	kepedihan
+46	5246	langgar	dilanggar
+47	5247	penjabat	pj
+48	5248	menginformasikan	diinformasikan
+49	5249	melumpuhkan	dilumpuhkan lumpuhkan
+50	5250	mengkaji	dikaji
+51	5251	arang	
+52	5252	bug	
+53	5253	gawat	
+54	5254	globalisasi	
+55	5255	had	
+56	5256	hipotesis	
+57	5257	input	
+58	5258	kebajikan	
+59	5259	kerbau	
+60	5260	kerupuk	
+61	5261	konfigurasi	
+62	5262	kontingen	
+63	5263	licin	
+64	5264	melemahkan	
+65	5265	mogok	
+66	5266	naungan	
+67	5267	oposisi	
+68	5268	optik	
+69	5269	pal	
+70	5270	pasrah	
+71	5271	peradilan	
+72	5272	perpindahan	
+73	5273	pipis	
+74	5274	predikat	
+75	5275	radang	
+76	5276	sekarat	
+77	5277	spontan	
+78	5278	station	
+79	5279	terbuang	
+80	5280	terkalahkan	
+81	5281	tontonan	
+82	5282	trailer	
+83	5283	tuban	
+84	5284	wortel	
+85	5285	zakat	
+86	5286	zodiak	
+87	5287	sukacita	bersukacita
+88	5288	rontok	perontok
+89	5289	wibawa	berwibawa kewibawaan
+90	5290	intim	keintiman
+91	5291	meminati	diminati
+92	5292	pantul	memantul memantulkan pantulan
+93	5293	pangkas	dipangkas memangkas pemangkasan
+94	5294	tebang	ditebang menebang penebangan
+95	5295	alim	
+96	5296	bait	
+97	5297	berbatasan	
+98	5298	bersepeda	
+99	5299	bridge	
+100	5300	bule	

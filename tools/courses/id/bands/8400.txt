@@ -1,0 +1,100 @@
+1	8301	kolot	
+2	8302	konter	
+3	8303	korosi	
+4	8304	loyo	
+5	8305	madani	
+6	8306	gugah	menggugah
+7	8307	mengoreksi	
+8	8308	menjabarkan	
+9	8309	moderator	
+10	8310	mori	
+11	8311	oasis	
+12	8312	padan	
+13	8313	pangsit	
+14	8314	paradoks	
+15	8315	paviliun	
+16	8316	pelana	
+17	8317	pembusukan	
+18	8318	penggeledahan	
+19	8319	perah	
+20	8320	perban	
+21	8321	persilangan	
+22	8322	premis	
+23	8323	puak	
+24	8324	rami	
+25	8325	reseptor	
+26	8326	rusun	
+27	8327	saudagar	
+28	8328	sepang	
+29	8329	sidak	
+30	8330	sugesti	
+31	8331	tematik	
+32	8332	terkonsentrasi	
+33	8333	terlarut	
+34	8334	terpandang	
+35	8335	tiroid	
+36	8336	tokek	
+37	8337	totalitas	
+38	8338	trayek	
+39	8339	wihara	vihara
+40	8340	wisman	
+41	8341	tilik	ditilik menilik
+42	8342	anakan	
+43	8343	astrologi	
+44	8344	bahar	
+45	8345	bal	
+46	8346	boa	
+47	8347	cengkih	cengkeh
+48	8348	duk	
+49	8349	fam	
+50	8350	formulasi	
+51	8351	gagap	
+52	8352	gletser	
+53	8353	golput	
+54	8354	gudeg	
+55	8355	healing	
+56	8356	instrumental	
+57	8357	jagal	
+58	8358	kardiovaskular	
+59	8359	kemalasan	
+60	8360	kopertis	
+61	8361	kualitatif	
+62	8362	lanang	
+63	8363	lihai	
+64	8364	luak	luwak
+65	8365	mahakuasa	
+66	8366	maja	
+67	8367	membasuh	
+68	8368	mol	
+69	8369	otoriter	
+70	8370	pelataran	
+71	8371	peledakan	
+72	8372	pencet	
+73	8373	perantau	
+74	8374	perilisan	
+75	8375	persona	
+76	8376	pertamax	
+77	8377	pipih	
+78	8378	raharja	
+79	8379	rahib	
+80	8380	rakitan	
+81	8381	remi	
+82	8382	respek	
+83	8383	rindang	
+84	8384	sampailah	
+85	8385	sekresi	
+86	8386	sensitivitas	
+87	8387	serabut	
+88	8388	soe	
+89	8389	sumbangsih	
+90	8390	tarekat	
+91	8391	taun	
+92	8392	terdidik	
+93	8393	umbul	
+94	8394	urip	
+95	8395	bahana	membahana
+96	8396	tebas	menebas
+97	8397	aliah	aliyah
+98	8398	berakal	
+99	8399	gumam	bergumam
+100	8400	bertulang	

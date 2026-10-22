@@ -1,0 +1,100 @@
+1	5601	telaga	
+2	5602	terpenuhi	
+3	5603	tunas	
+4	5604	liku	berliku
+5	5605	redam	diredam meredam
+6	5606	ngeri	kengerian
+7	5607	pundak	pundaknya
+8	5608	desak	desakan
+9	5609	apotek	apotik
+10	5610	rusuk	rusuknya
+11	5611	gulat	pergulatan
+12	5612	runcing	meruncing
+13	5613	talenta	bertalenta
+14	5614	amplop	
+15	5615	belang	
+16	5616	bendahara	
+17	5617	bergambar	
+18	5618	celaka	
+19	5619	degradasi	
+20	5620	diagram	
+21	5621	diare	
+22	5622	estate	
+23	5623	fundamental	
+24	5624	gagak	
+25	5625	geologi	
+26	5626	inovatif	
+27	5627	kemboja	kamboja
+28	5628	karate	
+29	5629	karbohidrat	
+30	5630	kejelasan	
+31	5631	kelayakan	
+32	5632	konveksi	
+33	5633	lauk	
+34	5634	luhur	
+35	5635	melon	
+36	5636	mematahkan	
+37	5637	menerobos	
+38	5638	menghantam	
+39	5639	mentor	
+40	5640	nantikan	
+41	5641	pari	
+42	5642	pejalan	
+43	5643	pencemaran	
+44	5644	penghitungan	
+45	5645	penyerapan	
+46	5646	perbincangan	
+47	5647	persekutuan	
+48	5648	pinus	
+49	5649	praktisi	
+50	5650	privat	
+51	5651	starter	
+52	5652	setrip	strip
+53	5653	takhta	
+54	5654	tatkala	
+55	5655	warnet	
+56	5656	menggenggam	digenggam
+57	5657	jinak	dijinakkan menjinakkan
+58	5658	korps	kor
+59	5659	pendam	memendam terpendam
+60	5660	frasa	frase
+61	5661	ceroboh	kecerobohan
+62	5662	palem	palm
+63	5663	ajakan	
+64	5664	bantalan	
+65	5665	berbayar	
+66	5666	berciuman	
+67	5667	bingkai	
+68	5668	cam	
+69	5669	doang	
+70	5670	duniawi	
+71	5671	fanatik	
+72	5672	gotong	
+73	5673	imigran	
+74	5674	irigasi	
+75	5675	jurnalistik	
+76	5676	kelam	
+77	5677	kenya	
+78	5678	khalayak	
+79	5679	kol	
+80	5680	kolektif	
+81	5681	konsolidasi	
+82	5682	kronologi	
+83	5683	kubus	
+84	5684	kultur	
+85	5685	licik	
+86	5686	luput	
+87	5687	menargetkan	
+88	5688	mengeluhkan	
+89	5689	menjengkelkan	
+90	5690	toleh	menoleh
+91	5691	menumpang	
+92	5692	menyiarkan	
+93	5693	raup	meraup
+94	5694	moneter	
+95	5695	nyari	
+96	5696	parit	
+97	5697	pemandian	
+98	5698	pendakian	
+99	5699	pendengaran	
+100	5700	penemu	

@@ -1,0 +1,100 @@
+1	4701	maritim	
+2	4702	mempersembahkan	
+3	4703	menular	
+4	4704	merpati	
+5	4705	pembacaan	
+6	4706	penempatan	
+7	4707	pengalihan	
+8	4708	pengangkatan	
+9	4709	persimpangan	
+10	4710	pribumi	
+11	4711	puing	
+12	4712	raden	
+13	4713	regu	
+14	4714	rekreasi	
+15	4715	samurai	
+16	4716	segan	
+17	4717	segenap	
+18	4718	sehubungan	
+19	4719	solidaritas	
+20	4720	terpadu	
+21	4721	tutur	
+22	4722	vokal	
+23	4723	demonstrasi	mendemonstrasikan
+24	4724	realistis	realistik
+25	4725	penguin	pinguin
+26	4726	bimbang	kebimbangan
+27	4727	corak	bercorak
+28	4728	azan	adan adzan
+29	4729	pungut	dipungut memungut pemungut
+30	4730	seret	diseret menyeretnya terseret
+31	4731	tajuk	bertajuk
+32	4732	menyambung	disambung nyambung
+33	4733	kilau	berkilau berkilauan
+34	4734	ritel	retail
+35	4735	amanat	
+36	4736	amunisi	
+37	4737	awam	
+38	4738	balita	
+39	4739	bedak	
+40	4740	berlangganan	
+41	4741	bintik	
+42	4742	er	
+43	4743	hang	
+44	4744	institut	
+45	4745	intensitas	
+46	4746	kaleng	
+47	4747	kejang	
+48	4748	kudu	
+49	4749	logistik	
+50	4750	memburu	
+51	4751	merendahkan	
+52	4752	nominal	
+53	4753	opera	
+54	4754	oral	
+55	4755	orientasi	
+56	4756	paduan	
+57	4757	peka	
+58	4758	pemungutan	
+59	4759	pendekar	
+60	4760	pentas	
+61	4761	perkemahan	
+62	4762	persentase	
+63	4763	pertemanan	
+64	4764	polo	
+65	4765	prodi	
+66	4766	rani	
+67	4767	sedan	
+68	4768	silat	
+69	4769	simpel	
+70	4770	spanduk	
+71	4771	tegangan	
+72	4772	tip	
+73	4773	ulangan	
+74	4774	bisu	membisu
+75	4775	semu	semuannya semunya
+76	4776	mengadu	diadu
+77	4777	karung	mengarungi
+78	4778	isap	dihisap hisap penghisap pengisap
+79	4779	gandeng	bergandengan menggandeng
+80	4780	tandang	bertandang
+81	4781	selaras	keselarasan menyelaraskan
+82	4782	sembah	disembah penyembah penyembahan
+83	4783	martabat	bermartabat
+84	4784	sistematis	sistematik
+85	4785	resah	meresahkan
+86	4786	lapang	kelapangan
+87	4787	serap	diserap
+88	4788	tanggulang	menanggulangi penanggulangan
+89	4789	asas	
+90	4790	aspirasi	
+91	4791	baginda	
+92	4792	biak	
+93	4793	bilik	
+94	4794	bong	
+95	4795	brengsek	
+96	4796	gender	
+97	4797	indikasi	
+98	4798	kebocoran	
+99	4799	kelautan	
+100	4800	kuah	

@@ -1,0 +1,100 @@
+1	301	cari	dicari mencarinya pencariannya
+2	302	film	filem filmnya
+3	303	acara	acaranya
+4	304	cuma	
+5	305	sementara	
+6	306	terakhir	
+7	307	termasuk	
+8	308	umum	diumumkan mengumumkan pengumumannya umumkan
+9	309	ingat	diingatkan diperingatkan ingatannya ingatkan inget memperingatkan mengingatkan mengingatkannya mengingatnya pengingat teringat
+10	310	beli	belinya dibeli membeli membelinya pembelinya
+11	311	nomor	bernomor nombor nomer nomornya
+12	312	tiba	setibanya
+13	313	daftar	daftarnya mendaftar pendaftarannya
+14	314	jenis	berjenis jenisnya sejenis sejenisnya
+15	315	sulit	dipersulit kesulitannya mempersulit menyulitkan sesulit sulitnya tersulit
+16	316	keluar	dikeluarkannya keluarlah keluarnya mengeluarkannya
+17	317	video	videonya vidio
+18	318	kehidupan	
+19	319	semakin	
+20	320	kaki	aki berkaki kakek kakeknya kakiku kakimu kakinya kek
+21	321	selam	islam menyelam menyelami penyelam penyelaman
+22	322	sebut	disebutkan disebutnya menyebut menyebutkan menyebutkannya menyebutnya penyebutan sebutannya sebutkan
+23	323	mati	kematiannya matian matinya mematikannya
+24	324	baca	bacaannya bacanya dibaca dibacanya membaca membacanya pembacanya
+25	325	semuanya	
+26	326	suara	suaraku suaramu suaranya
+27	327	resmi	diresmikan meresmikan peresmian resmikan resminya
+28	328	cerita	ceritaku ceritanya menceritakannya
+29	329	jawab	dijawab jawabkan jawabku jawabnya menjawab menjawabnya
+30	330	pohon	dimohon memohon mohon pemohon permohonan pohonnya
+31	331	memilih	dipilih
+32	332	jelas	diperjelas jelaskan jelasnya ketidakjelasan memperjelas menjelaskannya penjelasannya
+33	333	jumlah	jumlahnya
+34	334	nah	
+35	335	lima	ma
+36	336	proses	berproses prosesnya
+37	337	muda	mudanya semuda termuda
+38	338	kurang	berkurangnya kekurangannya sekurang
+39	339	ruang	ruangannya
+40	340	sebagian	sebagiannya
+41	341	panjang	memanjangkan panjangnya terpanjang
+42	342	menit	menitnya minit semenit
+43	343	semoga	
+44	344	tadi	
+45	345	indah	indahnya keindahannya mengindahkan seindah terindah
+46	346	dapatkan	didapatkan
+47	347	foto	berfoto fotonya
+48	348	program	memprogram programnya
+49	349	aman	amannya keamanannya teraman
+50	350	bawa	bawaannya bawakan dibawa dibawakan dibawanya membawakan membawaku membawamu membawanya pembawaan terbawa
+51	351	soal	mempersoalkan persoalannya
+52	352	jatuh	berjatuhan dijatuhkan jatuhkan jatuhnya menjatuhkannya terjatuh
+53	353	tanah	tanahnya
+54	354	hubungan	
+55	355	masing	
+56	356	naik	dinaikkan menaik menaiki menaikkan naikkan naiknya
+57	357	tubuh	bertubuh tubuhku tubuhmu tubuhnya
+58	358	penuh	kepenuhan memenuhinya pemenuhan penuhnya sepenuh
+59	359	badan	badanku badanmu badannya berbadan
+60	360	menunjukkan	ditunjukkan tunjukkan
+61	361	posisi	memposisikan posisikan posisinya
+62	362	kesempatan	kesempatannya
+63	363	al	
+64	364	makanan	
+65	365	mencoba	
+66	366	mengambil	
+67	367	tugas	bertugas menugaskan penugasan tugaskan tugasku tugasnya
+68	368	ons	on
+69	369	arti	artinya berartinya
+70	370	ayah	ajah ayahku ayahmu ayahnya
+71	371	mampu	berkemampuan kemampuannya semampu semampunya
+72	372	bila	
+73	373	meningkatkan	
+74	374	belakang	belakangku belakangmu belakangnya membelakangi
+75	375	muncul	bermunculan kemunculannya munculkan munculnya
+76	376	desa	desanya
+77	377	warga	warganya
+78	378	kabupaten	
+79	379	minggu	
+80	380	pendidikan	
+81	381	sebab	menyebabkannya penyebab penyebabnya sebabnya
+82	382	cantik	cantiknya kecantikannya secantik
+83	383	pula	
+84	384	hukum	hukumannya hukumnya menghukumnya
+85	385	asal	asalan asalkan asalnya
+86	386	ulang	berulang diulang mengulang mengulangi mengulanginya pengulangan terulang ulangnya
+87	387	disebut	
+88	388	itulah	
+89	389	membawa	
+90	390	pak	
+91	391	murah	murahan murahnya termurah
+92	392	usia	berusia seusia seusianya usianya
+93	393	pulang	dipulangkan kepulangan memulangkan pulangkan pulangnya
+94	394	lewat	melewatinya terlewat terlewati terlewatkan
+95	395	boleh	bolehkan dibolehkan diperbolehkan membolehkan memperbolehkan
+96	396	meninggalkan	ditinggalkan tinggalkan
+97	397	kesehatan	hat
+98	398	hai	
+99	399	hampir	
+100	400	juta	

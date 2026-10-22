@@ -1,0 +1,100 @@
+1	6901	jenguk	menjenguk
+2	6902	mimin	
+3	6903	minumlah	
+4	6904	mutakhir	
+5	6905	nabati	
+6	6906	neraca	
+7	6907	pegadaian	
+8	6908	pelacak	
+9	6909	pemalsuan	
+10	6910	pemerasan	
+11	6911	pengganggu	
+12	6912	penguat	
+13	6913	perizinan	
+14	6914	perseorangan	
+15	6915	rujak	
+16	6916	sekuler	
+17	6917	semenanjung	
+18	6918	sereal	
+19	6919	sil	
+20	6920	silih	
+21	6921	spons	
+22	6922	stimulus	
+23	6923	tabu	
+24	6924	terbayang	
+25	6925	terdesak	
+26	6926	terpidana	
+27	6927	tian	
+28	6928	traktor	
+29	6929	vas	
+30	6930	lilit	lilitan melilit terlilit
+31	6931	belenggu	membelenggu
+32	6932	sanding	bersanding disandingkan
+33	6933	abnormal	
+34	6934	adab	
+35	6935	antibodi	
+36	6936	anus	
+37	6937	arkeolog	
+38	6938	berkhianat	
+39	6939	bersentuhan	
+40	6940	condong	
+41	6941	elektron	
+42	6942	geram	
+43	6943	giok	
+44	6944	gulma	
+45	6945	insulin	
+46	6946	kangkung	
+47	6947	kanselir	
+48	6948	kanvas	
+49	6949	kap	
+50	6950	kehakiman	
+51	6951	kekeliruan	
+52	6952	kemiringan	
+53	6953	kemurahan	
+54	6954	kirana	
+55	6955	kompatibel	
+56	6956	konsulat	
+57	6957	late	
+58	6958	lawak	
+59	6959	lumrah	
+60	6960	lumut	
+61	6961	matriks	
+62	6962	mencela	
+63	6963	meneteskan	
+64	6964	menyamai	
+65	6965	musang	
+66	6966	norak	
+67	6967	autentik	otentik
+68	6968	partisi	
+69	6969	pegulat	
+70	6970	pencetakan	
+71	6971	pengaduan	
+72	6972	penyelidik	
+73	6973	penyelundupan	
+74	6974	perencana	
+75	6975	perhentian	
+76	6976	peribahasa	
+77	6977	pertiwi	
+78	6978	pesimis	
+79	6979	piston	
+80	6980	plankton	
+81	6981	psikis	
+82	6982	rekrutmen	
+83	6983	renyah	
+84	6984	reptil	
+85	6985	rompi	
+86	6986	sinkronisasi	
+87	6987	syahid	
+88	6988	takluk	
+89	6989	terstruktur	
+90	6990	umbi	
+91	6991	warkop	
+92	6992	wira	
+93	6993	tertawakan	ditertawakan
+94	6994	gemuruh	bergemuruh
+95	6995	kukus	dikukus
+96	6996	syukuri	disyukuri
+97	6997	regang	meregangkan peregangan
+98	6998	mengurutkan	diurutkan
+99	6999	agresi	
+100	7000	apoteker	

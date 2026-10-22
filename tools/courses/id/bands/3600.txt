@@ -1,0 +1,100 @@
+1	3501	sepele	disepelekan menyepelekan
+2	3502	salur	disalurkan menyalurkan penyaluran salurkan
+3	3503	incar	diincar incaran mengincar
+4	3504	detak	berdetak
+5	3505	urut	berurutan urutannya
+6	3506	tabrak	bertabrakan ditabrak tertabrak
+7	3507	seluler	selular
+8	3508	langsing	pelangsing
+9	3509	adopsi	mengadopsi
+10	3510	aparat	
+11	3511	bata	
+12	3512	benua	
+13	3513	domestik	
+14	3514	drastis	
+15	3515	eksklusif	
+16	3516	gendut	
+17	3517	independen	
+18	3518	kelelahan	
+19	3519	kontra	
+20	3520	lalat	
+21	3521	las	
+22	3522	melompat	
+23	3523	mengelilingi	
+24	3524	opini	
+25	3525	panduan	
+26	3526	pemprov	
+27	3527	pencegahan	
+28	3528	penyelesaian	
+29	3529	perisai	
+30	3530	pesero	persero
+31	3531	personal	
+32	3532	piano	
+33	3533	ria	
+34	3534	sabun	
+35	3535	sara	
+36	3536	segitiga	
+37	3537	semasa	
+38	3538	semestinya	
+39	3539	sertifikasi	
+40	3540	spiritual	
+41	3541	telekomunikasi	
+42	3542	tendangan	
+43	3543	udang	
+44	3544	layang	melayangkan
+45	3545	ibarat	ibaratkan ibaratnya
+46	3546	pasok	dipasok memasok pemasok
+47	3547	ambisi	ambisinya berambisi
+48	3548	lewati	dilewati
+49	3549	juluk	berjuluk julukan julukannya menjuluki
+50	3550	asin	masin
+51	3551	selingkuh	berselingkuh
+52	3552	esa	teresa
+53	3553	deras	derasnya
+54	3554	hijrah	berhijrah
+55	3555	jahit	dijahit jahitan menjahit
+56	3556	presentasi	mempresentasikan
+57	3557	iring	beriringan iringan mengiringi pengiring
+58	3558	ekstrem	ekstrim
+59	3559	kerah	kerahkan mengerahkan pengerahan
+60	3560	aktivis	
+61	3561	alergi	
+62	3562	atom	
+63	3563	balon	
+64	3564	batasan	
+65	3565	berkeliling	
+66	3566	bertempur	
+67	3567	beruang	
+68	3568	bubuk	
+69	3569	detektif	
+70	3570	diragukan	
+71	3571	efisien	
+72	3572	galaksi	
+73	3573	golf	
+74	3574	gram	
+75	3575	kabinet	
+76	3576	keliru	
+77	3577	komisaris	
+78	3578	lembaran	
+79	3579	mangga	
+80	3580	memberitahukan	
+81	3581	memperlakukan	
+82	3582	mengendarai	
+83	3583	muatan	
+84	3584	pelangi	
+85	3585	pemeran	
+86	3586	pencari	
+87	3587	penyelenggara	
+88	3588	perlombaan	
+89	3589	poster	
+90	3590	registrasi	
+91	3591	rektor	
+92	3592	rempah	
+93	3593	rezim	
+94	3594	sensasi	
+95	3595	tangki	
+96	3596	tempe	
+97	3597	tepung	
+98	3598	terorisme	
+99	3599	vaksin	
+100	3600	wabah	

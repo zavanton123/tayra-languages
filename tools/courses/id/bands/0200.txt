@@ -1,0 +1,100 @@
+1	101	rasa	berasa berperasaan dirasa dirasakannya kurasakan merasakan merasakannya perasa perasaanku perasaanmu perasaannya rasanya serasa
+2	102	bahasa	bahasanya basa
+3	103	ketika	
+4	104	selalu	slalu
+5	105	para	
+6	106	benar	benarnya dibenarkan kebenarannya membenarkan pembenaran sebenar
+7	107	lalu	berlalunya dilaluinya lalunya melalu
+8	108	kota	kotaku kotanya sekota
+9	109	kembali	dikembalikan kembalian kembalikan kembalilah kembalinya mengembalikannya pengembalian
+10	110	bagi	bagiannya bagiku bagimu baginya berbagi dibagi membagi membaginya terbagi
+11	111	terima	diterima diterimanya menerima menerimanya penerimanya terimalah
+12	112	diri	berdirilah berdirinya pendiriannya pendirinya
+13	113	terjadi	terjadilah terjadinya
+14	114	masalah	bermasalah masalahnya mempermasalahkan permasalahan permasalahannya
+15	115	bagian	bahagian
+16	116	teman	berteman menemani menemanimu menemaninya temanku temanmu temannya temen
+17	117	selama	
+18	118	perlu	diperlukan memerlukannya perlukan perlunya
+19	119	makan	dimakan makanannya makanlah makannya memakan memakannya termakan
+20	120	pertama	
+21	121	suka	bersuka disukai disukainya kesukaannya menyukai menyukaimu menyukainya penyuka sesuka sesukanya sukanya
+22	122	masa	masak masakannya masanya
+23	123	tetap	ditetapkannya menetap tetapkan
+24	124	bersama	
+25	125	setiap	
+26	126	tanpa	
+27	127	mulai	dimulailah dimulainya memulainya mulainya
+28	128	paling	berpaling memalingkan
+29	129	luar	diluar luarnya seluar
+30	130	lama	berlama lamanya terlama
+31	131	kepada	kpd
+32	132	kasih	dikasih kasihku kasihmu kasihnya mengasihi pengasih terkasih
+33	133	kata	berkatalah dikata kataku katamu kukatakan mengatakannya perkataannya
+34	134	masuk	masukkan masuknya memasukinya memasukkannya
+35	135	cukup	berkecukupan mencukupi secukupnya
+36	136	berada	
+37	137	kemudian	
+38	138	mana	
+39	139	bulan	berbulan bulannya
+40	140	malam	malamnya malem
+41	141	memang	emang
+42	142	wanita	kewanitaan wanitaku wanitanya
+43	143	melihat	
+44	144	namun	
+45	145	ibu	bu ibuku ibumu ibunya keibuan
+46	146	kecil	berkecil diperkecil kecik kecilku kecilnya memperkecil mengecil mengecilkan sekecil terkecil
+47	147	sedang	
+48	148	sekali	
+49	149	hati	ati hatian perhatiannya
+50	150	air	airku airnya
+51	151	cepat	berkecepatan cepatnya cepet kecepatannya secepat secepatnya tercepat
+52	152	hingga	
+53	153	merupakan	
+54	154	pun	
+55	155	terus	berterus diteruskan meneruskannya penerusnya teruskan
+56	156	kalian	
+57	157	seseorang	
+58	158	tinggi	ditinggikan ketinggiannya meninggi meninggikan tertinggi tertingginya tingginya
+59	159	kenapa	napa
+60	160	tuhan	
+61	161	jam	berjam jamannya jamnya sejam
+62	162	siap	bersiap bersiaplah dipersiapkan disiapkan mempersiapkan mempersiapkannya menyiapkan penyiapan persiapannya siapkan
+63	163	lihat	diliat dilihat dilihatnya liat melihatmu melihatnya ngeliat
+64	164	jauh	berjauhan dijauhkan jauhkan jauhnya kejauhan menjauh menjauhi menjauhkan sejauh terjauh
+65	165	butuh	butuhkan dibutuhkan kebutuhannya membutuhkan membutuhkannya
+66	166	sayang	disayang kesayanganku kesayangannya menyayangi menyayangimu menyayanginya menyayangkan penyayang sayangkan sayangku sayangnya tersayang
+67	167	negara	bernegara negaramu negaranya negarawan
+68	168	sebelum	
+69	169	terlalu	
+70	170	selamat	diselamatkan keselamatannya menyelamatkannya met penyelamat selamatkanlah
+71	171	pemain	
+72	172	datang	berdatangan datangkan datangnya dateng didatangkan kedatangannya mendatanginya mendatangkan pendatang
+73	173	begitu	gitu
+74	174	tentu	ditentukan ketentuannya menentu menentukan menentukannya tentukan tentunya
+75	175	biasa	kebiasaannya terbiasa
+76	176	mata	mataku matamu matanya memata
+77	177	merasa	rasakan
+78	178	sering	
+79	179	yaitu	
+80	180	bagaimana	gimana
+81	181	tanggal	menanggalkan tanggalnya tertanggal
+82	182	cinta	cintaku cintamu cintanya kecintaannya mencintaiku mencintaimu mencintainya tercintanya
+83	183	manusia	manusianya
+84	184	agar	
+85	185	lainnya	
+86	186	depan	depanku depanmu depannya
+87	187	percaya	dipercaya kepercayaannya ketidakpercayaan mempercayainya percayalah
+88	188	lakukan	dilakukan
+89	189	tiga	ga
+90	190	buka	berbuka bukanya dibuka dibukanya membuka membukanya pembukaannya terbuka terbukanya
+91	191	dulu	doeloe
+92	192	sakit	menyakiti menyakitinya penyakitnya sakitan
+93	193	bahkan	
+94	194	si	sih
+95	195	uang	keuangannya uangnya
+96	196	minta	diminta meminta permintaannya
+97	197	mendapatkan	
+98	198	berubah	berubahnya dirubah diubah mengubah mengubahnya merubah merubahnya pengubah pengubahan perubahannya rubah ubah
+99	199	keluarga	berkeluarga keluargaku keluargamu keluarganya sekeluarga
+100	200	sekolah	sek sekolahan sekolahku sekolahnya

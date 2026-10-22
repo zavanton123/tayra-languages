@@ -1,0 +1,100 @@
+1	4101	menghiasi	dihiasi
+2	4102	sita	disita
+3	4103	sisih	menyisihkan penyisihan sisihkan tersisih
+4	4104	perkasa	keperkasaan
+5	4105	khawatirkan	dikhawatirkan
+6	4106	gaib	ghaib
+7	4107	renovasi	merenovasi
+8	4108	salad	selada
+9	4109	tekun	ketekunan menekuni
+10	4110	akreditasi	
+11	4111	akting	
+12	4112	antusias	
+13	4113	bersantai	
+14	4114	bit	
+15	4115	dalem	
+16	4116	lantik	dilantik
+17	4117	duet	
+18	4118	ego	
+19	4119	filosofi	
+20	4120	galeri	
+21	4121	got	
+22	4122	kastel	kastil
+23	4123	kekhawatiran	
+24	4124	ketegangan	
+25	4125	kokoh	
+26	4126	kompetensi	
+27	4127	komunis	
+28	4128	memadai	
+29	4129	menggerakkan	
+30	4130	menginjak	
+31	4131	mikro	
+32	4132	minimum	
+33	4133	menongkrong	nongkrong
+34	4134	nyonya	
+35	4135	opsi	
+36	4136	pelarian	
+37	4137	penentuan	
+38	4138	pengerjaan	
+39	4139	penipu	
+40	4140	pensil	
+41	4141	percuma	
+42	4142	rel	
+43	4143	sengketa	
+44	4144	singgah	
+45	4145	terpencil	
+46	4146	tropis	
+47	4147	suap	disuap
+48	4148	soda	bersoda
+49	4149	upah	upahnya
+50	4150	alis	alisnya
+51	4151	statis	indonesian
+52	4152	memantau	dipantau
+53	4153	surut	menyurutkan
+54	4154	teladan	tauladan
+55	4155	hama	ama
+56	4156	goda	digoda menggodanya tergoda
+57	4157	kunyah	dikunyah mengunyah
+58	4158	aba	abah
+59	4159	kurung	dikurung mengurung terkurung
+60	4160	dokumentasi	mendokumentasikan
+61	4161	pikat	memikat pemikat terpikat
+62	4162	berbahan	
+63	4163	catur	
+64	4164	eksis	
+65	4165	filsafat	
+66	4166	her	
+67	4167	insan	
+68	4168	inspektur	
+69	4169	intan	
+70	4170	kantin	
+71	4171	kesaksian	
+72	4172	keterlibatan	
+73	4173	kutub	
+74	4174	lap	
+75	4175	legislatif	
+76	4176	map	
+77	4177	mutu	
+78	4178	patuh	
+79	4179	pembangkit	
+80	4180	pemberi	
+81	4181	penerbit	
+82	4182	penerus	
+83	4183	pengecualian	
+84	4184	senyuman	
+85	4185	tabrakan	
+86	4186	tato	
+87	4187	tomat	
+88	4188	sandar	bersandar sandaran
+89	4189	orbit	mengorbit orbitnya
+90	4190	perlihatkan	diperlihatkan
+91	4191	amarah	amarahnya
+92	4192	simpul	berkesimpulan kesimpulannya simpulkan
+93	4193	pinta	memintanya
+94	4194	hop	op
+95	4195	pantau	dipantau pantauan pemantau terpantau
+96	4196	belikan	dibelikan membelikan
+97	4197	bobol	dibobol kebobolan membobol pembobolan
+98	4198	sunah	sunnah
+99	4199	sebegitu	segitu
+100	4200	pojok	memojokkan pojokan terpojok

@@ -1,0 +1,100 @@
+1	801	langkah	langkahku langkahmu langkahnya melangkahkan selangkah
+2	802	organisasi	berorganisasi organisasinya pengorganisasian terorganisasi
+3	803	bayar	bayarannya bayarkan dibayar dibayarkan membayarkan membayarnya pembayarannya terbayar terbayarkan
+4	804	sel	selnya
+5	805	kopi	kopinya
+6	806	listrik	kelistrikan listriknya
+7	807	titik	setitik
+8	808	komunikasi	berkomunikasi komunikasinya mengkomunikasikan
+9	809	mirip	kemiripan
+10	810	kandung	dikandung kandungannya kandungnya mengandung terkandung
+11	811	hujan	hujannya penghujan
+12	812	menyerang	diserang
+13	813	berbicara	
+14	814	hewan	
+15	815	mendengar	
+16	816	perasaan	
+17	817	sepatu	sepatunya
+18	818	menyadari	disadari sadari
+19	819	asing	terasing
+20	820	dingin	didinginkan dinginkan dinginnya mendingin mendinginkan sedingin terdingin
+21	821	umur	seumur umurku umurmu umurnya
+22	822	detik	detiknya sedetik
+23	823	terbang	diterbangkan menerbangkan penerbangannya terbangkan terbangnya
+24	824	kawan	berkawan kawanku kawannya sekawan
+25	825	bakal	
+26	826	misalnya	
+27	827	penggunaan	
+28	828	pernikahan	
+29	829	menjelaskan	dijelaskan
+30	830	karakter	berkarakter karakternya
+31	831	bodoh	bodo bodohnya membodohi terbodoh
+32	832	gadis	gadisnya
+33	833	industri	perindustrian
+34	834	telepon	ditelepon menelepon telefon teleponnya telfon telpon
+35	835	tiket	tiketnya
+36	836	hadir	hadirnya kehadirannya
+37	837	putus	berputus diputus diputuskan keputusannya memutus putuskan putusnya terputus
+38	838	kemampuan	
+39	839	mari	
+40	840	tambahan	
+41	841	pacar	pacarku pacarmu pacarnya
+42	842	kayu	kayunya
+43	843	hotel	hotelnya
+44	844	tokoh	tokohnya
+45	845	rahasia	rahasiakan rahasianya
+46	846	lawan	berlawanan dilawan lawannya melawannya
+47	847	kanan	kanannya
+48	848	tangga	tangganya
+49	849	paham	faham memahaminya pahaman
+50	850	total	totalnya
+51	851	lantai	berlantai lantainya
+52	852	rusak	dirusak kerusakannya merusakkan merusaknya pengrusakan perusakan rosak rusaknya
+53	853	ide	idea idenya
+54	854	setuju	menyetujui menyetujuinya persetujuannya
+55	855	proyek	projek proyeknya
+56	856	kemenangan	
+57	857	keuangan	
+58	858	efek	berefek efeknya
+59	859	judul	berjudul judulnya
+60	860	jalur	jalurnya
+61	861	menolak	ditolak
+62	862	cipta	ciptaannya ciptakan diciptakan diciptakannya mencipta menciptakannya penciptaan penciptanya tercipta terciptalah terciptanya
+63	863	upaya	berupaya mengupayakan upayakan upayanya
+64	864	cahaya	bercahaya cahayanya pencahayaan tjahaja
+65	865	energi	energinya
+66	866	grup	grub grupnya
+67	867	biaya	berbiaya biayanya membiayai
+68	868	bupati	
+69	869	dewa	
+70	870	meraih	
+71	871	toko	pertokoan tokonya
+72	872	lemah	kelemahannya lemahnya melemah melemahnya pelemahan selemah terlemah
+73	873	jahat	jahatnya kejahatannya
+74	874	bapak	bapakku bapaknya
+75	875	sungai	sungainya
+76	876	latihan	lat
+77	877	batas	batasannya batasnya sebatas
+78	878	pisah	berpisah dipisah memisahkannya pemisahan perpisahan pisahkan terpisah terpisahkan
+79	879	kiri	kirinya
+80	880	ujung	berujung ujungnya
+81	881	populer	dipopulerkan mempopulerkan popular populernya
+82	882	rilis	dirilis dirilisnya merilis rilisnya
+83	883	mengingat	diingat
+84	884	android	
+85	885	jarang	
+86	886	jawaban	
+87	887	kecamatan	
+88	888	kecuali	
+89	889	menangis	
+90	890	pakaian	
+91	891	setidaknya	
+92	892	taman	
+93	893	pandang	dipandang memandang memandangnya pandangannya pandangnya pemandangannya
+94	894	layak	layaknya selayaknya
+95	895	memimpin	dipimpin dipimpinnya pemimpinnya pimpin pimpinannya
+96	896	mulut	mulutmu mulutnya
+97	897	garis	segaris
+98	898	menunjuk	ditunjuk ditunjukan mempertunjukkan menunjukkannya penunjukan pertunjukan pertunjukannya tunjuk tunjukan
+99	899	tembak	ditembak ditembakkan menembak menembaki menembakkan menembaknya nembak tembakan tertembak
+100	900	paksa	dipaksa dipaksakan memaksa memaksakan memaksanya paksakan pemaksaan
