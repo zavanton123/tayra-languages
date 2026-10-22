@@ -922,8 +922,9 @@ internal fun DictionarySection(
             }
             entry.senses.forEachIndexed { senseIndex, sense ->
                 val gloss = sense.glosses.joinToString("; ")
-                if (senseIndex > 0) AppDivider(Modifier.padding(start = AppSpacing.m), color = colors.outlineVariant.copy(alpha = AppAlpha.muted))
-                Row(verticalAlignment = Alignment.CenterVertically, modifier = Modifier.fillMaxWidth().padding(start = AppSpacing.m, top = AppSpacing.s, bottom = AppSpacing.s)) {
+                if (senseIndex > 0) AppDivider(color = colors.outlineVariant.copy(alpha = AppAlpha.muted))
+                // The meanings line up with the headword above them.
+                Row(verticalAlignment = Alignment.CenterVertically, modifier = Modifier.fillMaxWidth().padding(top = AppSpacing.s, bottom = AppSpacing.s)) {
                     Column(Modifier.weight(1f)) {
                         Text(gloss, style = MaterialTheme.typography.bodyLarge)
                         if (sense.tags.isNotEmpty()) {
