@@ -1686,3 +1686,20 @@ OVERRIDES.setdefault("ar", {}).update({
     "لدي": ["لدى"], "يدي": ["يد"], "تمت": ["تم"], "يجب": ["وجب"], "تجب": ["وجب"], "علي": ["على"], "خطر": ["خطر"],
     "كبيرة": ["كبير"], "ألمان": ["ألماني"], "أسود": ["أسود"], "يوما": ["يوم"], "عدل": ["عدل"], "قيم": ["قيمة"], "لذا": ["لذا"], "أمي": ["أم"], "امي": ["أم"],
 })
+# Arabic feminines and plurals that are words of their own, not the adjective's or singular's (جنسية "nationality",
+# نظرية "theory", ضربة "a blow"); and forms the rules miss (طفلة, which the dictionary lacks; قصص and أنفس, which it
+# has as words of their own).
+OVERRIDES["ar"].update({w: [w] for w in (
+    "جنسية", "نظرية", "ديمقراطية", "بلدية", "خلفية", "ملكية", "شرعية", "بشرية", "أهلية", "دنيا", "نظرة", "ضربة",
+)})
+OVERRIDES["ar"].update({"طفلة": ["طفل"], "قصص": ["قصة"], "أنفس": ["نفس"]})
+# Verbs of their own that wty also tags as another verb's present (أعاد "to repeat", أعد "to prepare", توفي "to die").
+OVERRIDES["ar"].update({w: [w] for w in ("أعاد", "أعد", "توفي")})
+# Forms the rules miss: wty has تصل as a noun too, بقي's forms under its other spelling بقى, أمه as ماه's only, and
+# أود "I would like" shared with ودى.
+OVERRIDES["ar"].update({"تبقى": ["بقي"], "تصل": ["وصل"]})
+OVERRIDES["ar"].update({"طيبة": ["طيب"], "سيئة": ["سيئ"], "كلاب": ["كلب"], "عروض": ["عرض"], "شخصا": ["شخص"], "أبا": ["أب"], "أباه": ["أب"],
+                       "أمه": ["أم"], "أود": ["ود"]})
+# Names spelled as forms of a word the rules now list: لبنان, the dual of لبن "milk", counts for nothing, ألبانيا for
+# ألباني; and أنتي is أنت misspelt, not أنة's.
+OVERRIDES["ar"].update({"لبنان": [], "ألبانيا": ["ألباني"], "الباني": ["ألباني"], "أنتي": ["أنت"], "انتي": ["أنت"]})

@@ -915,6 +915,23 @@ ARABIC_PLURALS = set()
 # How common each verb is by its forms that are no other word's (filled by build_arabic): a form several verbs share is
 # shared by this (يصل is وصل's more than صلى's, يبني بنى's, not بن's).
 ARABIC_VERB_MASS = {}
+# The words wty tags each form a plural of (طلاب of طالب, مرات of مرة), and the feminine singular of (صغيرة of صغير), but
+# as no verb's form; filled by build_arabic.
+ARABIC_PLURAL_OF = defaultdict(set)
+ARABIC_FEMININE_OF = defaultdict(set)
+# Every form wty has as a verbal noun, a participle or an elative (مساعدة, مشاركة), the dictionary's words among them.
+ARABIC_DERIVED = set()
+# The forms read as two words, a word and another with a pronoun (يومي "daily" and "my day"), listed under both.
+ARABIC_SHARED = set()
+# How sure arabic_moved must be: "my X" must be at least this share of the count; the feminine at most so many times as
+# common as the adjective; the singular at least this share of the plural; a verb's own forms at most this share of the
+# other verb's; that verb's forms as common as this share of the form (the more for an elative).
+ARABIC_MINE_SHARE = 0.15
+ARABIC_FEMININE_SHARE = 3.0
+ARABIC_PLURAL_SHARE = 0.3
+ARABIC_VERB_OWN = 0.1
+ARABIC_VERB_TAKES = 0.5
+ARABIC_ELATIVE_VERB = 0.3
 # The words a misspelt form (انا, الى) is, each as common as its spellings that are that word.
 ARABIC_SPELLED = {}
 # The little words: a verb spelled as one has its forms counted for nothing (تمني is no form of من); and a word spelled
@@ -925,19 +942,22 @@ ARABIC_LITTLE = {"pron", "conj", "particle", "det", "article"}
 # The words that take a pronoun after them: nouns, adjectives, verbs and prepositions, and إن and its kind (أنه, لكنها).
 ARABIC_SUFFIXED_KINDS = {"noun", "adj", "verb", "prep", "num"}
 ARABIC_SUFFIXED_PARTICLES = {"أن", "إن", "لكن", "كأن", "لعل", "ليت", "لأن"}
+# The determiners, which take a pronoun even where wty spells the two as another word's form (كلنا, not كال's).
+ARABIC_DETERMINERS = {"كل", "بعض", "جميع", "نفس", "غير"}
 
 
 def arabic_tagged_forms():
     """
     Each form of wty's Arabic dictionary without its vowels, with the words it is an inflection of (ARABIC_FORMS' kinds:
-    True for a verb's, "number" for a plural, dual or singulative, False for another noun's or adjective's); and the
-    forms that are a verbal noun, a participle or an elative, which are words of their own (قيام, عالم, أكبر).
+    True for a verb's, "number" for a plural, dual or singulative, False for another noun's or adjective's); the forms
+    that are a verbal noun, a participle or an elative, which are words of their own (قيام, عالم, أكبر); and each form's
+    tags for each of its words.
     """
     path = os.path.join(DICTIONARIES, "wty", "wty-ar-en.zip")
     if not os.path.exists(path):
         sys.exit(f"{path} is missing; fetch it with: python3 tools/build_yomitan_dictionary.py --source ar --target en")
     import zipfile
-    forms, lexemes = defaultdict(dict), set()
+    forms, lexemes, tagged = defaultdict(dict), set(), defaultdict(set)
     with zipfile.ZipFile(path) as z:
         for name in z.namelist():
             if not name.startswith("term_bank"):
@@ -962,10 +982,11 @@ def arabic_tagged_forms():
                     if term.startswith(ARABIC_ARTICLE) and not lemma.startswith(ARABIC_ARTICLE):
                         continue
                     kind = True if any(t in ARABIC_VERB_TAGS for t in tags) else "number" if any(t in ARABIC_NUMBER_TAGS for t in tags) else False
+                    tagged[term, lemma].update(tags)
                     # A form that is a noun's as well as a verb's is the noun's.
                     earlier = forms[term].get(lemma, True)
                     forms[term][lemma] = kind if earlier is True else "number" if "number" in (earlier, kind) else False
-    return forms, lexemes
+    return forms, lexemes, tagged
 
 
 def arabic_spellings(word, hamza_only=False):
@@ -1012,7 +1033,19 @@ def build_arabic(found, size):
     ARABIC_PLURALS.clear()
     ARABIC_PLURALS.update(w for w, tagged in plural.items() if tagged and all(tagged))
     bound = {w for w, found in glosses.items() if found and all(g.startswith("only used in") for g in found)}
-    forms, lexemes = arabic_tagged_forms()
+    forms, lexemes, tagged = arabic_tagged_forms()
+    ARABIC_PLURAL_OF.clear()
+    ARABIC_FEMININE_OF.clear()
+    for (form, lemma), tags in tagged.items():
+        if tags & ARABIC_VERB_TAGS:
+            continue
+        if "plural" in tags:
+            ARABIC_PLURAL_OF[form].add(lemma)
+        elif {"feminine", "singular"} <= tags and "dual" not in tags:
+            ARABIC_FEMININE_OF[form].add(lemma)
+    ARABIC_DERIVED.clear()
+    ARABIC_DERIVED.update(lexemes)
+    ARABIC_SHARED.clear()
     ARABIC_SPELLED.clear()
     ARABIC_LEXEMES.clear()
     ARABIC_LEXEMES.update(lexemes - pos.keys())
@@ -1030,6 +1063,12 @@ def build_arabic(found, size):
             token = ARABIC_MARKS.sub("", token)
             if is_wordlike(token):
                 share[token] += count / total / len(found)
+    # The feminine of an adjective or a participle the dictionary lacks (مؤكدة, شاملة) is its form.
+    for t in share:
+        base = t[:-1]
+        if t.endswith("ة") and t not in pack and not forms.get(t) and base in words and (
+                "adj" in pos[base] or base.startswith("م") and base in lexemes):
+            forms[t] = {base: False}
 
     def spelled(t, hamza_only=False):
         """
@@ -1071,6 +1110,8 @@ def build_arabic(found, size):
         return out
 
     readings = {}
+    # The determiners that take a pronoun (كلنا "all of us", not كال's verb form).
+    determiners = {w for w in ARABIC_DETERMINERS if w in words}
 
     def reading(t):
         """
@@ -1087,7 +1128,9 @@ def build_arabic(found, size):
                 readings[t] = {t: False, **own, **({} if t in function else suffixed(t, little=True))}
             elif own:
                 hamza = {l: kind for l, kind in spelled(t, hamza_only=True).items() if l in arabic_spellings(t, hamza_only=True)}
-                readings[t] = {**own, **suffixed(t, little=True), **hamza}
+                # A determiner's with a pronoun too (كلنا, not only كال's).
+                little = {**suffixed(t, little=True), **{l: kind for l, kind in suffixed(t).items() if l in determiners}}
+                readings[t] = {**own, **little, **hamza}
             else:
                 readings[t] = {**spelled(t), **suffixed(t)}
         return readings[t]
@@ -1928,6 +1971,63 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
         # A ß spelling the dictionary files as another spelling of the form ("Obergeschoß") adds nothing.
         return [form] + [v for v in eszett_spellings(form) if v not in outdated and form not in lemmas.get(v, [])]
 
+    # The words arabic_moved sent to another, whose other spellings (تقرا, اعرف) follow them.
+    moved = set()
+
+    def arabic_moved(form, others):
+        """
+        The words an Arabic word of the dictionary is a form of after all, with their shares, or None: as the reader reads
+        it, it is that word inflected, however common (ARABIC_MINE_SHARE and the rest say how sure each rule must be).
+        """
+        own = count(form)
+        if not own:
+            return None
+        # "My X" spelled as the adjective of X (يومي "daily" and "my day", هاتفي): the two share its count, X for as much
+        # as X is written with "your" and "his" (يومك, يومه), and it is listed under both.
+        if form.endswith("ي") and "adj" in pos[form]:
+            stem = form[:-1]
+            noun = next((b for b in [stem] + ([stem[:-1] + "ة"] if stem.endswith("ت") else []) if is_word(b) and "noun" in pos[b]), None)
+            if noun:
+                mine = min(count(stem + "ك"), count(stem + "ه"))
+                part = min(1.0, mine / own)
+                if part >= ARABIC_MINE_SHARE:
+                    ARABIC_SHARED.add(form)
+                    if part == 1.0:
+                        moved.add(form)
+                        return {noun: 1.0}
+                    return {form: 1.0 - part, noun: part}
+        # The feminine of an adjective (صغيرة of صغير, عالمية of عالمي) that is no adverb (خاصة "especially") nor verbal noun
+        # (مساعدة "help"), and not much commoner than it (جامعة "university", طائرة "aeroplane", which are nouns).
+        feminine = [l for l in ARABIC_FEMININE_OF.get(form, ()) if is_word(l) and "adj" in pos[l] and ARABIC_FEMININE_SHARE * count(l) >= own]
+        if feminine and "adv" not in pos[form] and form not in ARABIC_DERIVED:
+            moved.add(form)
+            return {feminine[0]: 1.0}
+        # A plural that is no verb's form (طلاب of طالب, مرات of مرة): a sound one, or one the dictionary has only as that,
+        # and not much commoner than its singular (قيام "rising" is more than قائم's).
+        if "verb" not in pos[form]:
+            plurals = [l for l in ARABIC_PLURAL_OF.get(form, ()) if is_word(l) and ARABIC_PLURAL_SHARE * own <= count(l) and (
+                form in (l + "ات", l + "ون", l + "ين") or l.endswith("ة") and form == l[:-1] + "ات"
+                or form in ARABIC_PLURALS or form in ARABIC_LEXEMES)]
+            if plurals:
+                moved.add(form)
+                weights = {l: count(l) or 1e-12 for l in plurals}
+                return {l: w / sum(weights.values()) for l, w in weights.items()}
+        # A verb's present that the dictionary has as a verb or an interjection of its own (ترى, تقرأ, تعرف), or a first
+        # person spelled as an elative (أعرف, أفعل, but not أكثر, أكبر): the verb's, when its other persons are as common
+        # (يعرف, تعرف) and its own forms are few.
+        if form[:1] in ARABIC_IMPERFECT and len(form) > 2:
+            elative = "adj" in pos[form] and form[0] == "أ"
+            if elative and pos[form] & WORD_POS <= {"adj", "verb"} or pos[form] & WORD_POS <= {"verb", "intj"}:
+                persons = max(count(p + form[1:]) for p in "يت" if p != form[0])
+                verbs = [l for l in others if ARABIC_FORMS.get(form, {}).get(l) is True
+                         and ARABIC_VERB_MASS.get(form, 0.0) <= ARABIC_VERB_OWN * ARABIC_VERB_MASS.get(l, 0.0)
+                         and ARABIC_VERB_MASS.get(l, 0.0) >= (ARABIC_ELATIVE_VERB if elative else ARABIC_VERB_TAKES) * own]
+                if verbs and (not elative or persons >= own / 2):
+                    moved.add(form)
+                    weights = {l: ARABIC_VERB_MASS[l] for l in verbs}
+                    return {l: w / sum(weights.values()) for l, w in weights.items()}
+        return None
+
     def direct(form):
         """The words a form's count goes to, with their shares, before following words that are forms themselves."""
         compared = False
@@ -2036,6 +2136,9 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
             # Without its vowels, an Arabic word is often spelled as another's verb form too (أنت as a form of أن "to
             # moan"): it keeps its count.
             if language == "ar":
+                shares = arabic_moved(form, others)
+                if shares:
+                    return shares
                 # Nor is it a noun's form because it is spelled so (أمة "nation", not عبد's feminine; حوالي, not حال's): only
                 # another spelling (علي of على), a little word's with a pronoun (لها of ل), a verb's form that is only a verb
                 # itself (أرى of رأى), a plural the dictionary has as such (أيام of يوم), or a form of a word that inflects as it
@@ -2099,9 +2202,10 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
             if word != form and depth < 3:
                 onward = targets_of(word, depth + 1)
                 # An Arabic word spelled as another's verb form keeps its own forms (يتكون of تكون, not of كان), and a verb
-                # spelled as another word keeps its own (لن of لان "to soften", not of لأن).
-                if language == "ar" and (any(ARABIC_FORMS.get(word, {}).get(t) is True for t in onward)
-                                         or ARABIC_FORMS.get(form, {}).get(word) is True):
+                # spelled as another word keeps its own (لن of لان "to soften", not of لأن); but not one sent to its word by
+                # rule or by hand (تبقى to بقي), whose spellings go with it.
+                if language == "ar" and word not in moved and word not in overrides and (
+                        any(ARABIC_FORMS.get(word, {}).get(t) is True for t in onward) or ARABIC_FORMS.get(form, {}).get(word) is True):
                     onward = None
                 if onward and word not in onward:
                     if word in merged_verbs:
@@ -2141,7 +2245,7 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
         # A Korean form of a word sent to another by hand (해야할 of 해야하다, 해야 하다 written as one) is listed
         # however many forms come before it: the reader finds no word of the list for it otherwise.
         everything = counted
-        counted = counted[:FORMS_PER_WORD] + [f for f in counted[FORMS_PER_WORD:] if f in required or (
+        counted = counted[:FORMS_PER_WORD] + [f for f in counted[FORMS_PER_WORD:] if f in required or (language == "ar" and f in ARABIC_SHARED) or (
             language == "ko" and lemmas.get(f) and all(overrides.get(l, [l]) != [l] for l in lemmas[f]))]
         if language == "ja" and any(is_cjk(c) and not is_kana(c) for c in word):
             # A kanji spelling reached through a kana word read alike (枯れる through かれる to 狩る, 湧く through
