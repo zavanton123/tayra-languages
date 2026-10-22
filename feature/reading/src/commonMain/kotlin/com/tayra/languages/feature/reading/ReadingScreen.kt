@@ -1005,7 +1005,12 @@ private fun ReadingFooter(state: ReadingUiState, viewModel: ReadingViewModel, on
                         state.news -> tr("Practise the article's words")
                         else -> tr("Practise the book's words")
                     },
-                    AppIcons.Style,
+                    // The whole text's own icon tells it from the page's practice beside it.
+                    when {
+                        state.lesson != null -> AppIcons.School
+                        state.news -> AppIcons.Newspaper
+                        else -> AppIcons.MenuBook
+                    },
                     FooterCircleStyle.Outlined,
                     Modifier.testTag("practice-all"),
                 ) { choosingKinds = true }
