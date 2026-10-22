@@ -38,6 +38,7 @@ import com.tayra.languages.core.domain.service.ExampleSentence
 import com.tayra.languages.core.domain.service.ExampleSentencesProvider
 import com.tayra.languages.core.domain.service.ExampleSearchQuery
 import com.tayra.languages.core.domain.service.ExampleSort
+import com.tayra.languages.core.domain.service.ExampleSource
 import com.tayra.languages.core.domain.service.TermService
 import com.tayra.languages.core.domain.service.TermTranslationProvider
 import com.tayra.languages.core.domain.service.TermValidationException
@@ -45,6 +46,7 @@ import com.tayra.languages.core.domain.settings.SettingsRepository
 import com.tayra.languages.core.ui.state.UiEvents
 import com.tayra.languages.feature.terms.examples.ExampleTerms
 import com.tayra.languages.feature.terms.examples.WordStatus
+import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.DelicateCoroutinesApi
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.Job
@@ -85,6 +87,10 @@ data class TermFormUiState(
     /** Total matches reported by the examples provider, when known. */
     val examplesTotal: Int? = null,
     val loadingExamples: Boolean = false,
+    /** Tatoeba could not be asked for examples (offline, too slow), which is not the same as it having none. */
+    val examplesFailed: Boolean = false,
+    /** The examples shown come from the installed courses, standing in for Tatoeba. */
+    val examplesFromCourses: Boolean = false,
     /** Code of the language translations are shown in. */
     val nativeLanguage: String = "en",
     /** When the stored term was created; null for new terms. */
@@ -196,6 +202,9 @@ class TermFormViewModel(
     private var lookupJob: Job? = null
     private var entryJob: Job? = null
     private var finderJob: Job? = null
+    private var examplesJob: Job? = null
+    /** Counts the examples' lookups, so that only the latest one ends the loading. */
+    private var examplesLookup = 0
 
     /** The sentence the form's term is read in, stored with a term that starts being learned while it still occurs there. */
     private fun sentenceFor(draft: TermDraft): String? {
@@ -243,11 +252,12 @@ class TermFormViewModel(
      */
     private fun showEntry(draft: TermDraft, linkParent: (String) -> Unit) {
         entryJob?.cancel()
+        stopExamples()
         _state.update {
             it.copy(
                 draft = draft, dirty = false, saved = false, error = null, duplicateOf = null, createdAt = null, references = null,
                 translationSuggested = false, lookingUpTranslation = false, dictionary = DictionaryLookup.EMPTY, kanji = emptyList(), recordings = emptyList(), notes = emptyList(),
-                examples = emptyList(), examplesTotal = null, loadingExamples = false, wiktionary = WiktionaryUi(),
+                examples = emptyList(), examplesTotal = null, loadingExamples = false, examplesFailed = false, examplesFromCourses = false, wiktionary = WiktionaryUi(),
             )
         }
         entryJob = viewModelScope.launch {
@@ -456,13 +466,51 @@ class TermFormViewModel(
 
     private fun nativeLanguage(): String = settings.current.nativeLanguage.ifBlank { "en" }
 
-    private suspend fun loadExamples(text: String, language: Language?) {
+    private fun stopExamples() {
+        examplesJob?.cancel()
+        examplesLookup++
+    }
+
+    /** Asks for the examples again after Tatoeba failed. */
+    fun retryExamples() {
+        val current = _state.value
+        loadExamples(current.draft.text, current.language)
+    }
+
+    /** Looks the examples up in a job of their own, so that a failure stops none of the entry's other lookups. */
+    private fun loadExamples(text: String, language: Language?) {
+        stopExamples()
         if (language == null || text.isBlank()) return
+        val lookup = examplesLookup
         _state.update { it.copy(loadingExamples = true) }
-        val native = settings.current.nativeLanguage.ifBlank { "en" }
-        val result = examplesProvider.search(ExampleSearchQuery(text, language, native, minWords = 1, maxWords = 15, sort = ExampleSort.RANDOM, limit = 10))
-        _state.update { it.copy(examples = result.sentences, examplesTotal = result.total, loadingExamples = false, nativeLanguage = native) }
-        refreshExampleTerms()
+        examplesJob = viewModelScope.launch {
+            try {
+                val native = nativeLanguage()
+                val query = ExampleSearchQuery(text, language, native, minWords = 1, maxWords = 15, sort = ExampleSort.RANDOM, limit = 10)
+                val result = examplesProvider.search(query)
+                // The installed courses work offline, so they stand in when Tatoeba cannot be asked.
+                val fallback = if (result.failed && examplesProvider.sources(language).any { it.source == ExampleSource.COURSES }) {
+                    examplesProvider.search(query.copy(source = ExampleSource.COURSES)).takeIf { it.sentences.isNotEmpty() }
+                } else null
+                _state.update {
+                    it.copy(
+                        examples = (fallback ?: result).sentences,
+                        // The count would be the courses' while "view all" opens Tatoeba.
+                        examplesTotal = if (fallback == null) result.total else null,
+                        examplesFailed = result.failed,
+                        examplesFromCourses = fallback != null,
+                        nativeLanguage = native,
+                    )
+                }
+                refreshExampleTerms()
+            } catch (e: CancellationException) {
+                throw e
+            } catch (e: Exception) {
+                _state.update { it.copy(examples = emptyList(), examplesTotal = null, examplesFailed = true, examplesFromCourses = false) }
+            } finally {
+                if (lookup == examplesLookup) _state.update { it.copy(loadingExamples = false) }
+            }
+        }
     }
 
     private suspend fun refreshExampleTerms() {
@@ -538,6 +586,7 @@ class TermFormViewModel(
     private fun changeText(before: TermFormUiState, text: String) {
         autosaveJob?.cancel()
         entryJob?.cancel()
+        stopExamples()
         if (before.dirty && before.draft.text.isNotBlank()) {
             val pending = toSave(before.draft)
             val sentence = sentenceFor(before.draft)
@@ -551,7 +600,7 @@ class TermFormViewModel(
                 draft = emptyDraft(it.draft.languageId).copy(text = text), dirty = false, saved = false, error = null, duplicateOf = null,
                 createdAt = null, references = null, translationSuggested = false, lookingUpTranslation = false,
                 dictionary = DictionaryLookup.EMPTY, kanji = emptyList(), recordings = emptyList(), notes = emptyList(), examples = emptyList(), examplesTotal = null, loadingExamples = false,
-                wiktionary = WiktionaryUi(),
+                examplesFailed = false, examplesFromCourses = false, wiktionary = WiktionaryUi(),
             )
         }
         scheduleLookup(text)

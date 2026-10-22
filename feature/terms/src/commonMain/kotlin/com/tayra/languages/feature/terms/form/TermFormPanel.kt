@@ -132,6 +132,7 @@ import com.tayra.languages.core.ui.components.LoadingIndicator
 import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.PaneHeader
 import com.tayra.languages.core.ui.components.PrimaryButton
+import com.tayra.languages.core.ui.components.ButtonSize
 import com.tayra.languages.core.ui.components.QuietButton
 import com.tayra.languages.core.ui.components.ScrollColumn
 import com.tayra.languages.core.ui.components.SecondaryButton
@@ -283,7 +284,7 @@ private fun TermFormContent(
             }
         }
         val examplesBlock: @Composable () -> Unit = {
-            if (!empty) ExamplesSection(state, language, onOpenExamples, onMarkWord = viewModel::markExampleWord, onOpenWord = viewModel::openExampleTerm)
+            if (!empty) ExamplesSection(state, language, onOpenExamples, onMarkWord = viewModel::markExampleWord, onOpenWord = viewModel::openExampleTerm, onRetry = viewModel::retryExamples)
         }
 
         if (embedded) {
@@ -954,6 +955,7 @@ private fun ExamplesSection(
     onMarkWord: (String, String) -> Unit,
     /** A click on a word, or a phrase dragged over, with the example. */
     onOpenWord: (String, String) -> Unit,
+    onRetry: () -> Unit,
 ) {
     val colors = MaterialTheme.colorScheme
     val term = state.draft.text.replace("\u200B", "")
@@ -986,10 +988,17 @@ private fun ExamplesSection(
                 )
             }
         }
+        if (state.examplesFailed && !state.loadingExamples) {
+            Row(verticalAlignment = Alignment.CenterVertically) {
+                Text(tr("Tatoeba isn't responding right now."), Modifier.weight(1f), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
+                QuietButton(tr("Retry"), onClick = onRetry, size = ButtonSize.Compact)
+            }
+        }
         when {
             state.loadingExamples -> Text(tr("Looking up examples..."), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
-            state.examples.isEmpty() -> Text(tr("No examples found."), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
+            state.examples.isEmpty() -> if (!state.examplesFailed) Text(tr("No examples found."), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
             else -> {
+                if (state.examplesFromCourses) Text(tr("From your courses"), style = MaterialTheme.typography.labelSmall, color = colors.onSurfaceVariant)
                 val direction = if (language?.rightToLeft == true) TextDirection.Rtl else TextDirection.Ltr
                 val visible = if (expanded) state.examples else state.examples.take(VISIBLE_EXAMPLES)
                 visible.forEachIndexed { index, example ->
