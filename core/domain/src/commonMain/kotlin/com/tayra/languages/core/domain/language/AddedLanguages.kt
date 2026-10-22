@@ -28,6 +28,28 @@ object AddedLanguages {
         ),
     )
 
+    private fun arabic() = LanguageDefinition(
+        language = Language(
+            name = "Arabic",
+            dictionaries = listOf(
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.EMBEDDED, url = "https://en.wiktionary.org/w/index.php?search=[WORD]#Arabic", isActive = true, sortOrder = 1),
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.EMBEDDED, url = "https://context.reverso.net/translation/arabic-english/[WORD]", isActive = true, sortOrder = 2),
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.POPUP, url = "https://www.livingarabic.com/en/search?q=[WORD]&dc[]=1&dc[]=8&dc[]=3&dc[]=2&dc[]=4&dc[]=6&dc[]=5&dc[]=10&dc[]=9&st[]=0&st[]=1&st[]=2", isActive = true, sortOrder = 3),
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.EMBEDDED, url = "https://www.arabicstudentsdictionary.com/search?q=[WORD]", isActive = true, sortOrder = 4),
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.POPUP, url = "https://www.deepl.com/translator#ar/en/[WORD]", isActive = true, sortOrder = 5),
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.POPUP, url = "https://translate.google.com/?hl=en&sl=ar&tl=en&text=[WORD]&op=translate", isActive = true, sortOrder = 6),
+                LanguageDictionary(useFor = DictionaryUse.SENTENCES, type = DictionaryType.POPUP, url = "https://www.deepl.com/translator#ar/en/[WORD]", isActive = true, sortOrder = 7),
+                LanguageDictionary(useFor = DictionaryUse.SENTENCES, type = DictionaryType.POPUP, url = "https://translate.google.com/?hl=en&sl=ar&tl=en&text=[WORD]", isActive = true, sortOrder = 8),
+            ),
+            regexpSplitSentences = ".!?؟۔‎",
+            exceptionsSplitSentences = "د.|م.|أ.|ع.|أ.د.|ح.|ب.|ج.|س.|ل.ل.|ش.|ن.|ف.|ل.|ي.|خ.|ر.|ا.|غ.|ك.",
+            wordCharacters = "\\x{0600}-\\x{0608}\\x{060B}\\x{060E}-\\x{061A}\\x{061C}\\x{0620}-\\x{0669}\\x{066E}-\\x{06D3}\\x{06D5}-\\x{06FF}\\x{FE70}-\\x{FEFC}",
+            rightToLeft = true,
+            showRomanization = true,
+            parserType = "arabic",
+        ),
+    )
+
     private fun assyrian() = LanguageDefinition(
         language = Language(
             name = "Assyrian",
@@ -354,6 +376,7 @@ object AddedLanguages {
     val all: List<LanguageDefinition> by lazy {
         listOf(
             ancientGreek(),
+            arabic(),
             assyrian(),
             cantonese(),
             cornish(),

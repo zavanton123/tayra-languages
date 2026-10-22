@@ -16,7 +16,7 @@ import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
 
 /**
- * Gives the parsers of languages written without spaces, and Korean's, their lexicons: the words of the
+ * Gives the parsers of languages written without spaces, and Korean's and Arabic's, their lexicons: the words of the
  * language's frequency list, with their forms, and every headword and form of its installed
  * dictionary packs. A lexicon is made again when the installed packs change.
  */
