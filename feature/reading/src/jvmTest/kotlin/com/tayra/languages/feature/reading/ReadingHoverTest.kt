@@ -822,6 +822,26 @@ class ReadingHoverTest {
         assertEquals(listOf<com.tayra.languages.core.ui.navigation.Route>(com.tayra.languages.core.ui.navigation.Route.Examples(languageId, "lobo")), visited)
     }
 
+    /** The examples button beside the word heading the pane opens the examples of that word. */
+    @Test
+    fun theHeadingsExamplesButtonOpensTheExamples() {
+        val vm = runBlocking { reader(mainIsDefault = false, translation = "The wolf sleeps in the forest.") }
+        startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }, termPane) }
+        val visited = mutableListOf<com.tayra.languages.core.ui.navigation.Route>()
+        rule.setContent { ReadingScreen(bookId = 1, initialPage = null, onNavigate = { visited += it }, onHome = {}, viewModel = vm) }
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("lobo dorme", substring = true).fetchSemanticsNodes().isNotEmpty() }
+        val paragraph = rule.onNodeWithText("lobo dorme", substring = true)
+        val layouts = mutableListOf<TextLayoutResult>()
+        paragraph.fetchSemanticsNode().config[SemanticsActions.GetTextLayoutResult].action?.invoke(layouts)
+        val box = layouts.single().getBoundingBox(layouts.single().layoutInput.text.text.indexOf("lobo") + 1)
+        paragraph.performMouseInput { click(Offset(box.center.x, box.center.y + 6.dp.toPx())) }
+        rule.waitUntil(5_000) { rule.onAllNodesWithTag("term-heading").fetchSemanticsNodes().isNotEmpty() }
+
+        rule.onNodeWithContentDescription("Examples").performClick()
+        rule.waitUntil(5_000) { visited.isNotEmpty() }
+        assertEquals(listOf<com.tayra.languages.core.ui.navigation.Route>(com.tayra.languages.core.ui.navigation.Route.Examples(languageId, "lobo")), visited)
+    }
+
     /** Coming back to the reader (from the examples, say) finds the page scrolled where it was left; a new page starts at its top. */
     @Test
     fun comingBackToTheReaderKeepsThePlaceOnThePage() {

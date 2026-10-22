@@ -293,7 +293,7 @@ private fun TermFormContent(
                 // A word opened from a text is shown as its heading, the meaning just under it; its pencil
                 // turns it back into the field. A word still to be typed keeps the field.
                 var editingText by remember(viewModel) { mutableStateOf(false) }
-                if (viewModel.opensOnWord && !editingText && !empty) TermHeading(state, direction, onEdit = { editingText = true })
+                if (viewModel.opensOnWord && !editingText && !empty) TermHeading(state, direction, onEdit = { editingText = true }, onOpenExamples = onOpenExamples)
                 else TermField(state, viewModel, direction, focusRequester)
                 if (empty) WordFinderButton(state, viewModel)
                 if (empty) {
@@ -380,13 +380,16 @@ private fun TermField(state: TermFormUiState, viewModel: TermFormViewModel, dire
     )
 }
 
-/** The word the pane is about, large, with its speaker and a pencil to change how it is written. */
+/** The word the pane is about, large, with its speaker, a way to its examples, and a pencil to change how it is written. */
 @Composable
-private fun TermHeading(state: TermFormUiState, direction: TextDirection, onEdit: () -> Unit) {
+private fun TermHeading(state: TermFormUiState, direction: TextDirection, onEdit: () -> Unit, onOpenExamples: ((Long, String) -> Unit)?) {
     val language = state.language
     Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
         Text(state.draft.text, Modifier.weight(1f).testTag("term-heading"), style = AppText.headline.copy(textDirection = direction))
         TermSpeakButton(state, language?.let { LanguageCodes.codeFor(it.name) })
+        if (onOpenExamples != null && language != null) {
+            AppIconButton(AppIcons.Page, contentDescription = tr("Examples"), onClick = { onOpenExamples(language.id, state.draft.text.trim()) })
+        }
         AppIconButton(Icons.Default.Edit, contentDescription = tr("Edit the word"), onClick = onEdit)
     }
 }
