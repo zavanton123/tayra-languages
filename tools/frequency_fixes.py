@@ -1665,3 +1665,24 @@ OVERRIDES["ko"].update({w: [w] for w in (
 KOREAN_CUT.add("나와")
 # 누구세요 and 어디세요 "who / where is it", 누구 and 어디 with the honorific copula.
 OVERRIDES["ko"].update({"누구세요": ["누구"], "어디세요": ["어디"]})
+
+# Arabic words read whole, or cut into the letters in front and the word after them, against what the builder's
+# counts say (build_arabic): the list has the first, by which the reader keeps them whole, and leaves out the second.
+ARABIC_WHOLE = {
+    "الله", "اللهم", "لله", "اليوم", "الآن", "الان", "الليلة", "اللي", "لقد", "لأن", "لان", "لكي", "لذا", "لذلك", "كذلك",
+    "لما", "بدون", "كلا", "لماذا", "لدى", "كأن",
+}
+ARABIC_CUT = {
+    "ولكن",
+}
+# Names, the stems of names written with ال (صين of الصين, which then stays whole), foreign and dialect words.
+EXCLUDE.setdefault("ar", set()).update({
+    "محمد", "أحمد", "خالد", "حمد", "جون", "سي", "صين", "عراق", "أردن", "فرنس", "قاهرة", "كويت", "دي", "ده", "مكن", "اوروبا",
+    "يمن", "هند", "بنان", "ندن", "اريس", "ندا", "شار", "يرو", "ينيا", "اضل", "سودان", "أربعاء", "جزائر", "سوريا", "تركيا",
+    "روسيا", "بريطانيا", "ألمانيا", "المانيا", "إيطاليا", "ايطاليا", "إسبانيا", "اسبانيا", "أستراليا", "استراليا", "عمان",
+    "ليبيا", "كوريا", "أوروبا", "أوربة", "سليمان", "سارة", "يل", "دبي", "مش",
+})
+OVERRIDES.setdefault("ar", {}).update({
+    "لدي": ["لدى"], "يدي": ["يد"], "تمت": ["تم"], "يجب": ["وجب"], "تجب": ["وجب"], "علي": ["على"], "خطر": ["خطر"],
+    "كبيرة": ["كبير"], "ألمان": ["ألماني"], "أسود": ["أسود"], "يوما": ["يوم"], "عدل": ["عدل"], "قيم": ["قيمة"], "لذا": ["لذا"], "أمي": ["أم"], "امي": ["أم"],
+})

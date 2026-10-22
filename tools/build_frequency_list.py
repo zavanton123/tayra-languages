@@ -12,10 +12,11 @@ blended, counted as whole words that are cut into a word and its particles as th
   4. the language's Wikipedia, counted from its articles dump (for languages none of the others has)
   5. for Ancient Greek, the New Testament's word forms as MorphGNT parses the SBLGNT
 
---source forces one of them. The counts are of word forms; each form is credited to the dictionary
+--source forces one of them. The counts are of word forms (in Arabic, of the words left by cutting off the
+letters written onto their front, as the reader cuts them); each form is credited to the dictionary
 words it is a form of, using the forms table of the language's offline dictionary pack
-(dictionaries/<code>-en.sqlite, made by tools/build_dictionary.py), or for a form the pack does
-not have, the simplemma lemmatizer (pip install simplemma), whose names are capitalised and left out. A form that is also a word in
+(dictionaries/<code>-en.sqlite, made by tools/build_dictionary.py; for Arabic, the tagged forms of
+the wty dictionary the pack is made from), or for a form the pack does not have, the simplemma lemmatizer (pip install simplemma), whose names are capitalised and left out. A form that is also a word in
 its own right ("casa", the noun, and a form of "casar") keeps its count unless the other word is
 more common than the form itself ("era" goes to "ser"); a form of several words ("foi", of "ir"
 and "ser") is shared between them by how common they are. Forms that are not in the dictionary
@@ -135,7 +136,7 @@ SIMPLEMMA_CODES = {"hr": "hbs", "sr": "hbs", "no": "nb"}
 WORD_POS = {"noun", "adj", "verb", "adv", "pron", "prep", "num", "conj", "det", "article", "intj", "contraction", "particle", "adnominal"}
 
 # Per-language corrections, reviewed by hand.
-from frequency_fixes import DISPLAY, EXCLUDE, KOREAN_APART, KOREAN_CUT, KOREAN_STEMS, KOREAN_WHOLE, OVERRIDES  # noqa: E402
+from frequency_fixes import ARABIC_CUT, ARABIC_WHOLE, DISPLAY, EXCLUDE, KOREAN_APART, KOREAN_CUT, KOREAN_STEMS, KOREAN_WHOLE, OVERRIDES  # noqa: E402
 
 # How common another word must be, against the form itself, to take a form that is also a word:
 # a more common word ("era" to "ser"), or a less common one of a kind that inflects for
@@ -759,6 +760,391 @@ KOREAN_TIME_WORDS = {"다음", "이번", "지난", "저번", "매"}
 KOREAN_TIME_COUNTERS = {"주", "달", "해", "번"}
 
 
+# Arabic: the letters written onto the front of a word, as the reader cuts them off (ArabicParser.kt in
+# core/domain/.../parse; keep the two the same): the conjunction و or ف first, then a preposition ب, ك or ل, the
+# article ال, the two together (بال, كال; ل with ال is لل, its alif dropped, and stays one piece), or the future's
+# س before a verb's imperfect (سيكتب). What is left is a word of two letters or more.
+ARABIC_CONJUNCTIONS = ("و", "ف")
+ARABIC_PREPOSITIONS = ("ب", "ك", "ل")
+ARABIC_ARTICLE = "ال"
+ARABIC_FOR_THE = "لل"
+ARABIC_FUTURE = "س"
+ARABIC_IMPERFECT = "يتنأ"
+ARABIC_CLITICS = {*ARABIC_CONJUNCTIONS, *ARABIC_PREPOSITIONS, ARABIC_ARTICLE, ARABIC_FOR_THE, ARABIC_FUTURE}
+# The pronouns joined to the end of a word (كتابه, عليها, كتبوه), longest first, but كن, seldom one and the end of many
+# a word (يمكن, أماكن, لنكن is ل + نكن). Before one, a word may write its ة as
+# ت (مدرستي), its ى as ي or ا (عليه, بناها) and its وا as و (كتبوه); ب and ل take them as well (به, لك).
+ARABIC_SUFFIXES = ("هما", "كما", "هم", "هن", "كم", "ها", "نا", "ني", "ه", "ك", "ي")
+ARABIC_SUFFIXED_PREPOSITIONS = ("ب", "ل")
+# The vowel signs, shadda, sukun, the dagger alif and the tatweel, which are not written in the words they are in.
+ARABIC_MARKS = re.compile("[\u064b-\u065f\u0670\u0640]")
+ARABIC_WORD_COST = 4.0
+ARABIC_UNRANKED = 50_000
+
+
+def arabic_analyses(word):
+    """Every way [word] is the letters in front and a word of two letters or more: والكتاب is و + ال + كتاب, للبيت لل + بيت."""
+    out = []
+    for conjunction in ("",) + ARABIC_CONJUNCTIONS:
+        if not word.startswith(conjunction):
+            continue
+        rest = word[len(conjunction):]
+        head = [conjunction] if conjunction else []
+        options = [([], rest)] if conjunction else []
+        if rest.startswith(ARABIC_FOR_THE):
+            options.append(([ARABIC_FOR_THE], rest[2:]))
+        for preposition in ARABIC_PREPOSITIONS:
+            if rest.startswith(preposition):
+                options.append(([preposition], rest[1:]))
+                if preposition != "ل" and rest.startswith(ARABIC_ARTICLE, 1):
+                    options.append(([preposition, ARABIC_ARTICLE], rest[3:]))
+        if rest.startswith(ARABIC_ARTICLE):
+            options.append(([ARABIC_ARTICLE], rest[2:]))
+        if rest.startswith(ARABIC_FUTURE) and rest[1:2] and rest[1] in ARABIC_IMPERFECT:
+            options.append(([ARABIC_FUTURE], rest[1:]))
+        out.extend((head + clitics, stem) for clitics, stem in options if len(stem) >= 2)
+    return out
+
+
+def arabic_bases(word):
+    """The words [word] may be with a pronoun after it, as they are written before one: كتاب of كتابه, مدرسة of مدرستي, على of عليه."""
+    out = []
+    for suffix in ARABIC_SUFFIXES:
+        base = word[:-len(suffix)]
+        if not word.endswith(suffix) or not base or len(base) == 1 and base not in ARABIC_SUFFIXED_PREPOSITIONS:
+            continue
+        out.append(base)
+        if base.endswith("ت"):
+            out.append(base[:-1] + "ة")
+        elif base.endswith(("ي", "ا")):
+            out.append(base[:-1] + "ى")
+        elif base.endswith("و"):
+            out.append(base + "ا")
+    return out
+
+
+def arabic_pieces(word, known, rank):
+    """
+    An Arabic word cut as the reader cuts it: the letters in front of it and the word they are on (والعالم is و + ال +
+    عالم), when that word is one the lexicon [known] knows, or such a word with a pronoun after it (وكتابهم). A word the
+    frequency list has ([rank] is a word's rank in it) stays whole (ولد, كان, لكن). Of the cuts, the one whose word is
+    the most common wins, by the costs SegmentingParser gives Chinese words, the letters in front costing the log of
+    their rank alone. A word only a dictionary has stays whole unless a cut leaves a word of the list (لبنان is no ل +
+    بنان; the dictionary's forms with ال, العالم, are cut).
+    """
+    if rank(word):
+        return [word]
+    best, cut, after_listed = None, [word], False
+    for clitics, stem in arabic_analyses(word):
+        bases = [stem] + arabic_bases(stem)
+        ranked = next((rank(b) for b in bases if rank(b)), None)
+        if ranked is None and not any(known(b) for b in bases):
+            continue
+        if ranked:
+            after_listed = True
+        cost = sum(math.log(rank(c) or ARABIC_UNRANKED) for c in clitics) + math.log(ranked or ARABIC_UNRANKED) + ARABIC_WORD_COST
+        if best is None or cost < best:
+            best, cut = cost, clitics + [stem]
+    if best is None or known(word) and not after_listed:
+        return [word]
+    return cut
+
+
+# The pack's forms table loses wty's tags, and without its vowels a verbal noun, a participle or a derived verb is
+# spelled as some word's form (تعليم and عالم under علم, أمن under من): the Arabic list's forms come from wty's own
+# dictionary instead, a form whose tags are all of these (case, state, number, gender, person, tense, mood, voice).
+ARABIC_INFLECTION_TAGS = set("""
+    nominative genitive accusative genitive/accusative nominative/genitive nominative/genitive/accusative accusative/genitive
+    informal genitive/accusative/informal oblique definite indefinite construct long-construct definite/indefinite singular
+    dual plural paucal collective singulative masculine feminine masculine/feminine common female equivalent triptote diptote
+    invariable sound-form broken-form first-person second-person third-person second/third-person past non-past perfective
+    imperfective indicative subjunctive jussive imperative active passive active/passive
+""".split())
+ARABIC_VERB_TAGS = {"first-person", "second-person", "third-person", "second/third-person", "past", "non-past", "perfective",
+                    "imperfective", "indicative", "subjunctive", "jussive", "imperative"}
+ARABIC_NUMBER_TAGS = {"plural", "dual", "paucal", "collective", "singulative"}
+ARABIC_DERIVED_TAGS = {"verbal", "noun-from-verb", "participle", "elative"}
+# How a form is its word's, for the forms the Arabic list counts (filled by build_arabic): a verb's form (True), a noun's
+# or adjective's (False), or another spelling of it (None: الى of إلى, ان of أن, فى of في).
+ARABIC_FORMS = {}
+# The verbal nouns, participles and elatives wty has as forms only, words of their own unless a commoner word's plural
+# too (قيام, but مدارس is مدرسة's), and the dictionary's words that are a plural, each sense of them so tagged (أيام);
+# filled by build_arabic.
+ARABIC_LEXEMES = set()
+ARABIC_PLURALS = set()
+# How common each verb is by its forms that are no other word's (filled by build_arabic): a form several verbs share is
+# shared by this (يصل is وصل's more than صلى's, يبني بنى's, not بن's).
+ARABIC_VERB_MASS = {}
+# The words a misspelt form (انا, الى) is, each as common as its spellings that are that word.
+ARABIC_SPELLED = {}
+# The little words: a verb spelled as one has its forms counted for nothing (تمني is no form of من); and a word spelled
+# as a pronoun or particle with letters in front is read whole only when much commoner than the two (وهم is و + هم,
+# not "illusion").
+ARABIC_FUNCTION = {"pron", "prep", "conj", "particle", "det", "article", "adv"}
+ARABIC_LITTLE = {"pron", "conj", "particle", "det", "article"}
+# The words that take a pronoun after them: nouns, adjectives, verbs and prepositions, and إن and its kind (أنه, لكنها).
+ARABIC_SUFFIXED_KINDS = {"noun", "adj", "verb", "prep", "num"}
+ARABIC_SUFFIXED_PARTICLES = {"أن", "إن", "لكن", "كأن", "لعل", "ليت", "لأن"}
+
+
+def arabic_tagged_forms():
+    """
+    Each form of wty's Arabic dictionary without its vowels, with the words it is an inflection of (ARABIC_FORMS' kinds:
+    True for a verb's, "number" for a plural, dual or singulative, False for another noun's or adjective's); and the
+    forms that are a verbal noun, a participle or an elative, which are words of their own (قيام, عالم, أكبر).
+    """
+    path = os.path.join(DICTIONARIES, "wty", "wty-ar-en.zip")
+    if not os.path.exists(path):
+        sys.exit(f"{path} is missing; fetch it with: python3 tools/build_yomitan_dictionary.py --source ar --target en")
+    import zipfile
+    forms, lexemes = defaultdict(dict), set()
+    with zipfile.ZipFile(path) as z:
+        for name in z.namelist():
+            if not name.startswith("term_bank"):
+                continue
+            for row in json.loads(z.read(name)):
+                term, _, entry, _, _, glosses = row[:6]
+                if entry != "non-lemma" or " " in term:
+                    continue
+                term = ARABIC_MARKS.sub("", term)
+                for gloss in glosses:
+                    if not (isinstance(gloss, list) and len(gloss) == 2 and isinstance(gloss[1], list)):
+                        continue
+                    lemma = ARABIC_MARKS.sub("", gloss[0])
+                    tags = " ".join(gloss[1]).split()
+                    if " " in lemma:
+                        continue
+                    if any(t in ARABIC_DERIVED_TAGS for t in tags):
+                        lexemes.add(term)
+                    if lemma == term or not tags or not all(t in ARABIC_INFLECTION_TAGS or t.startswith("ar-infl-") for t in tags):
+                        continue
+                    # The article is cut off by the reader, as it is here (العالم is ال + عالم).
+                    if term.startswith(ARABIC_ARTICLE) and not lemma.startswith(ARABIC_ARTICLE):
+                        continue
+                    kind = True if any(t in ARABIC_VERB_TAGS for t in tags) else "number" if any(t in ARABIC_NUMBER_TAGS for t in tags) else False
+                    # A form that is a noun's as well as a verb's is the noun's.
+                    earlier = forms[term].get(lemma, True)
+                    forms[term][lemma] = kind if earlier is True else "number" if "number" in (earlier, kind) else False
+    return forms, lexemes
+
+
+def arabic_spellings(word, hamza_only=False):
+    """
+    [word] written with the hamza on or under an alif it lacks (ان: أن, إن, آن; الان: الآن), and unless [hamza_only], ى
+    for its last ي and ة for its last ه (الى, مدرسه).
+    """
+    out = []
+    for i, c in enumerate(word):
+        if c == "ا":
+            out.extend(word[:i] + h + word[i + 1:] for h in "أإآ")
+    if hamza_only:
+        return out
+    if word.endswith("ي"):
+        out.append(word[:-1] + "ى")
+    if word.endswith("ه") and len(word) > 2:
+        out.append(word[:-1] + "ة")
+    return out
+
+
+# How much commoner than the letters in front and the word after them, by how often those letters come before words
+# (ال before nearly half), a word the dictionary has that can be read as them must be to be read whole: after ال, a
+# word is all but always the noun it is on (الشمس, الموت, not words of their own); a word after which a pronoun or
+# particle is spelled (وهم "and they", فلم "so not") is much more often the two than a dictionary's look-alike.
+ARABIC_WHOLE_MARGIN = 3.0
+ARABIC_FUNCTION_MARGIN = 15.0
+ARABIC_ARTICLE_MARGIN = 50.0
+ARABIC_ROUNDS = 4
+
+
+def build_arabic(found, size):
+    db = sqlite3.connect(os.path.join(DICTIONARIES, "ar-en.sqlite"))
+    # As the reader's lexicon has them with the pack installed (Dictionary.sq's selectWords).
+    pack = {w for (w,) in db.execute("SELECT word_lc FROM entries UNION SELECT form_lc FROM forms") if w and " " not in w}
+    pos = defaultdict(set)
+    plural, glosses = defaultdict(list), defaultdict(list)
+    for word, p, senses in db.execute("SELECT word_lc, pos, senses FROM entries"):
+        pos[word].add(p)
+        if p in WORD_POS:
+            plural[word] += ["plural" in sense.get("tags", []) for sense in json.loads(senses)]
+            glosses[word] += [g for sense in json.loads(senses) for g in sense.get("glosses", [""])]
+    ARABIC_PLURALS.clear()
+    ARABIC_PLURALS.update(w for w, tagged in plural.items() if tagged and all(tagged))
+    bound = {w for w, found in glosses.items() if found and all(g.startswith("only used in") for g in found)}
+    forms, lexemes = arabic_tagged_forms()
+    ARABIC_SPELLED.clear()
+    ARABIC_LEXEMES.clear()
+    ARABIC_LEXEMES.update(lexemes - pos.keys())
+    for word in ARABIC_LEXEMES:
+        pos[word].add("noun")
+    words = {w for w, kinds in pos.items() if kinds & WORD_POS} - EXCLUDE.get("ar", set()) - ARABIC_CUT - bound
+    function = {w for w in words if pos[w] & ARABIC_FUNCTION}
+    # A verb spelled as a little word (أن "to moan", من "to bestow", عن "to appear") has its forms counted for nothing:
+    # تمني and أنت are no forms of من and أن.
+    forms = {f: {l: kind for l, kind in of.items() if not (kind is True and l in function)} for f, of in forms.items()}
+    share = defaultdict(float)
+    for _, counts, _ in found:
+        total = sum(counts.values())
+        for token, count in counts.items():
+            token = ARABIC_MARKS.sub("", token)
+            if is_wordlike(token):
+                share[token] += count / total / len(found)
+
+    def spelled(t, hamza_only=False):
+        """
+        The words [t] is another spelling of, as ARABIC_FORMS has them, each as common as the spellings that are it (انا is
+        أنا, as أنا is commoner than إنا): words of the dictionary (انا of أنا) and the words of forms (الى of إلى).
+        """
+        out = defaultdict(float)
+        for v in arabic_spellings(t, hamza_only):
+            of = [v] if v in words else [l for l in forms.get(v, ()) if l in words]
+            # A spelling that is several words' form is shared by how common they are (أمور is أمر's, not مار's).
+            whole = sum(share.get(l, 0.0) for l in of) or 1.0
+            for l in of:
+                out[l] += share.get(v, 0.0) * (share.get(l, 0.0) / whole if len(of) > 1 else 1.0)
+        ARABIC_SPELLED[t] = dict(out)
+        return {l: None for l in out}
+
+    def takes_pronouns(word):
+        return bool(pos[word] & ARABIC_SUFFIXED_KINDS) or word in ARABIC_SUFFIXED_PARTICLES
+
+    def suffixed(t, little=False):
+        """
+        The words [t] is a form of with a pronoun after it, as ARABIC_FORMS has them: of its commonest base that is a word or
+        a word's form, written as it is or with a hamza (لانه of لأن), and that takes a pronoun (not هو, أو, لا); a
+        preposition's own forms with one take none (بنا is ب's, so بناها is بنى's). With [little], only a preposition's or
+        إن's and its kind's (عليه, أنه).
+        """
+        best, out = -1.0, {}
+        bases = arabic_bases(t)
+        # A word's ى is written ا before a pronoun (معناه of معنى, not of معنا "with us").
+        bases = [b for b in bases if not (b.endswith("ا") and b[:-1] + "ى" in words)]
+        for base in bases:
+            for b in [base] + arabic_spellings(base):
+                of = {b: "suffix"} if b in words and takes_pronouns(b) else {
+                    l: kind for l, kind in forms.get(b, {}).items() if l in words and takes_pronouns(l) and l not in function}
+                if little:
+                    of = {l: kind for l, kind in of.items() if "prep" in pos[l] or l in ARABIC_SUFFIXED_PARTICLES}
+                if of and share.get(b, 0.0) > best:
+                    best, out = share.get(b, 0.0), of
+        return out
+
+    readings = {}
+
+    def reading(t):
+        """
+        The words [t] read whole is: itself, the words it is a form of, another spelling of, or one of those with a pronoun.
+        A form is a little word's with a pronoun too (به is ب's, أنه أن's), and a word's only where it is no form itself.
+        """
+        if t not in readings:
+            own = {l: kind for l, kind in forms.get(t, {}).items() if l in words}
+            if t in ARABIC_CUT:
+                readings[t] = {}
+            elif t in words or t in ARABIC_WHOLE:
+                # A word spelled as a little word with a pronoun is that (لها "to her", not "to amuse oneself"); but لكن is
+                # no ل + كن.
+                readings[t] = {t: False, **own, **({} if t in function else suffixed(t, little=True))}
+            elif own:
+                hamza = {l: kind for l, kind in spelled(t, hamza_only=True).items() if l in arabic_spellings(t, hamza_only=True)}
+                readings[t] = {**own, **suffixed(t, little=True), **hamza}
+            else:
+                readings[t] = {**spelled(t), **suffixed(t)}
+        return readings[t]
+
+    def dictionary_word(t):
+        return bool(reading(t))
+
+    # The words left out, and those only written with ال (صين, only in الصين), are no words the letters in front are on:
+    # الصين stays whole.
+    unwritten = EXCLUDE.get("ar", set()) | bound
+
+    def stem_known(stem):
+        return stem not in unwritten and (stem in pack or dictionary_word(stem) or any(b in pack for b in arabic_bases(stem)))
+
+    analyses = {t: [(c, s) for c, s in arabic_analyses(t) if stem_known(s)] for t in share}
+    # How often each run of letters in front comes before the dictionary's words, as the counts of the words written
+    # with them against those of the words alone.
+    joined, alone = defaultdict(float), defaultdict(float)
+    for t, found_cuts in analyses.items():
+        if found_cuts and not dictionary_word(t):
+            clitics, stem = max(found_cuts, key=lambda cut: share.get(cut[1], 0.0))
+            joined["+".join(clitics)] += share[t]
+            alone["+".join(clitics)] += share.get(stem, 0.0)
+    rate = {k: joined[k] / alone[k] for k in joined if alone[k]}
+
+    def function_word(stem):
+        return any(pos.get(b, set()) & ARABIC_LITTLE for b in [stem] + arabic_spellings(stem))
+
+    def kept_whole(t):
+        """Whether the builder reads [t] whole: a dictionary's word that is more often itself than what it can be cut into."""
+        if t in ARABIC_WHOLE or not analyses[t] or any(b in ARABIC_WHOLE for b in arabic_bases(t)):
+            return True
+        if not dictionary_word(t):
+            return False
+        # A preposition with its pronoun (بها, لهم) is one word, as a noun with its pronoun is.
+        if t[0] in ARABIC_SUFFIXED_PREPOSITIONS and t[1:] in ARABIC_SUFFIXES:
+            return True
+        for clitics, stem in analyses[t]:
+            margin = ARABIC_ARTICLE_MARGIN if ARABIC_ARTICLE in clitics or ARABIC_FOR_THE in clitics else (
+                ARABIC_FUNCTION_MARGIN if function_word(stem) else ARABIC_WHOLE_MARGIN)
+            if share[t] < margin * rate.get("+".join(clitics), 0.0) * share.get(stem, 0.0):
+                return False
+        return True
+
+    whole = {t for t in share if kept_whole(t)}
+    lemmas = {t: {l: kind for l, kind in reading(t).items() if l != t} for t in share}
+    for form, of in forms.items():
+        lemmas.setdefault(form, {l: kind for l, kind in of.items() if l in words})
+    # A word of the dictionary that is another's spelling too (الان of الآن) is it where that is commoner.
+    for t in share:
+        if t in words:
+            lemmas[t].update({v: None for v in arabic_spellings(t, hamza_only=True) if v in words})
+    lemmas = {t: of for t, of in lemmas.items() if of}
+    ARABIC_FORMS.clear()
+    ARABIC_FORMS.update(lemmas)
+    # A verb is as common as its forms that are no other word's: بنى's (بنيت, يبني), not بن's spelling.
+    ARABIC_VERB_MASS.clear()
+    for t, of in lemmas.items():
+        if len(of) == 1 and t not in words and next(iter(of.values())) is True:
+            lemma = next(iter(of))
+            ARABIC_VERB_MASS[lemma] = ARABIC_VERB_MASS.get(lemma, 0.0) + share.get(t, 0.0)
+
+    # The reader leaves whole the words the list has (rank), and cuts the rest as arabic_pieces does: the first cut
+    # is by wordfreq's ranks, of the words kept whole only, the letters in front taken as the commonest.
+    ordered = sorted(share, key=lambda w: -share[w])
+    ranks = {w: i + 1 for i, w in enumerate(ordered) if w in whole}
+    ranks.update({c: 1 for c in ARABIC_CLITICS})
+    lexicon = pack | whole
+    text = label = None
+    cuts = {}
+    for round_ in range(ARABIC_ROUNDS + 1):
+        known, rank = lexicon.__contains__, ranks.get
+        changed = 0.0
+        pieces = []
+        for name, counts, source_label in found:
+            out = defaultdict(int)
+            total = sum(counts.values())
+            for token, count in counts.items():
+                token = ARABIC_MARKS.sub("", token)
+                if not is_wordlike(token):
+                    continue
+                cut = [token] if token in whole else arabic_pieces(token, known, rank)
+                if cuts.get(token, cut) != cut:
+                    changed += count / total
+                cuts[token] = cut
+                for piece in cut:
+                    out[piece] += count
+            pieces.append((name, dict(out), source_label))
+        print(f"ar round {round_}: {changed / len(found):.2%} of words cut otherwise", file=sys.stderr)
+        if round_ and changed / len(found) < 0.0005 or round_ == ARABIC_ROUNDS:
+            break
+        # A word kept whole that the reader could cut must be in the list for the reader to leave it whole.
+        required = {t for t in whole if analyses.get(t)}
+        text, label = build_list("ar", pieces, size, required=required, cut={t for t, c in cuts.items() if c != [t]} | bound)
+        listed, ranks = list_ranks(text)
+        lexicon = pack | listed
+    return text, label
+
+
 def is_wordlike(text):
     """Letters, hyphens and apostrophes; and the vowel signs and other marks of the scripts that write them apart."""
     return all(c.isalpha() or unicodedata.category(c)[0] == "M" or c in "-'ʻ\u200c" for c in text)
@@ -1073,6 +1459,11 @@ def load_dictionary(language):
             if len(set(of)) > 1:
                 best = max(weight(lemma) for lemma in of)
                 lemmas[form_lc] = [lemma for lemma in of if weight(lemma) == best]
+    if language == "ar" and ARABIC_FORMS:
+        lemmas = defaultdict(list, {form: list(of) for form, of in ARABIC_FORMS.items()})
+        for word in ARABIC_LEXEMES - pos.keys():
+            pos[word].add("noun")
+            common[word] = word
     for form_lc, of in lemmas.items():
         if len(set(of)) > MAX_LEMMAS_PER_FORM:
             # A kana spelling of many kanji words read alike (かかる of 掛かる, 係る, 罹る ...) stays with them.
@@ -1135,6 +1526,8 @@ def build(language, source, size):
         sys.exit(f"No frequency source has {language}")
     if language == "ko":
         return build_korean(found, size)
+    if language == "ar":
+        return build_arabic(found, size)
     return build_list(language, found, size)
 
 
@@ -1306,7 +1699,7 @@ def build_korean(found, size):
     return text, label
 
 
-def build_list(language, found, size, required=frozenset(), verbal_nouns=None):
+def build_list(language, found, size, required=frozenset(), verbal_nouns=None, cut=frozenset()):
     """The list from the sources' counts of the words as the reader cuts them."""
     # Each source's share of its own total, averaged; a form a source does not list counts as 0 there.
     freq = defaultdict(float)
@@ -1322,6 +1715,8 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None):
     if language == "ko":
         # Listed, a word cut by hand would be left whole by the reader.
         excluded = excluded | KOREAN_CUT
+    # So would the words the counts were cut from ([cut]: والعالم, and وفي, a word of the dictionary too).
+    excluded = excluded | cut
 
     # The words simplemma found for forms the dictionary lacks, as they are written.
     guessed = {}
@@ -1350,6 +1745,9 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None):
         """simplemma's word for a form the dictionary does not have, or None for a name or an unknown form."""
         if language == "ko":
             return korean_guess(form)
+        # simplemma takes Arabic words for others of their root (انت for آن); the Arabic list knows its forms itself.
+        if language == "ar":
+            return None
         if lemmatizer is None or len(form) < 2 or not is_wordlike(form) or not lemmatizer.is_known(form):
             return None
         # Web text in every language is full of English, and simplemma knows English loanwords.
@@ -1425,6 +1823,9 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None):
             return False
         if w in guessed and w not in pos:
             return True
+        # The Arabic clitics are words of the reader's, and so are the words read whole by hand (الله, a name to the dictionary).
+        if language == "ar" and (w in ARABIC_CLITICS or w in ARABIC_WHOLE and w in pos and w not in excluded):
+            return True
         # The dictionary files a Chinese character under "character", not as a word; one that wordfreq
         # counts on its own, as jieba cuts text, is a word (的, 是, 吃).
         if language in ("zh", "yue") and len(w) == 1 and "character" in pos.get(w, set()):
@@ -1468,6 +1869,8 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None):
             if others == [form]:
                 return {form: 1.0}
         elif language == "ko" and form in KOREAN_OWN:
+            return {form: 1.0}
+        elif language == "ar" and form in ARABIC_CLITICS:
             return {form: 1.0}
         elif language == "ko" and KOREAN_GLOSSED.get(form) and is_word(KOREAN_GLOSSED[form]):
             # A form the pack has as a word (화려한, 먹기, 아빤) is the word it is the form of.
@@ -1557,12 +1960,25 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None):
             others = stem_of
         # A form whose only entry is an interjection ("foi", "nossa") is counted for the word it is a form of.
         # Japanese files a set phrase under its variants (ありがとう under ありがと), so there it counts for itself.
-        elif is_word(form) and form not in overrides and not (others and pos[form] & WORD_POS <= {"intj"} and language != "ja"):
+        elif is_word(form) and form not in overrides and not (others and pos[form] & WORD_POS <= {"intj"} and language not in ("ja", "ar")):
             # A form that is a word itself keeps its count ("casa", not "casar") unless [TAKEOVER] says otherwise.
             # Korean's forms tables are full of nouns spelled as some verb's form (사실 of 사다, 우려 of 우리다),
             # so there a word keeps its count, and the few that are a verb's form are overrides (해 of 하다).
             if language == "ko" and not pos[form] & {"verb", "adj"}:
                 return {form: 1.0}
+            # Without its vowels, an Arabic word is often spelled as another's verb form too (أنت as a form of أن "to
+            # moan"): it keeps its count.
+            if language == "ar":
+                # Nor is it a noun's form because it is spelled so (أمة "nation", not عبد's feminine; حوالي, not حال's): only
+                # another spelling (علي of على), a little word's with a pronoun (لها of ل), a verb's form that is only a verb
+                # itself (أرى of رأى), a plural the dictionary has as such (أيام of يوم), or a form of a word that inflects as it
+                # does (هذه of هذا).
+                def arabic_form_of(l):
+                    kind = ARABIC_FORMS.get(form, {}).get(l, False)
+                    return kind in (None, "suffix") or kind is True and pos[form] & WORD_POS == {"verb"} or (
+                        kind == "number" and (form in ARABIC_PLURALS or form in ARABIC_LEXEMES)) or (
+                        kind is not True and pos[form] & INFLECTED_KINDS and pos.get(l, set()) & INFLECTED_KINDS)
+                others = [l for l in others if arabic_form_of(l)]
             inflected = bool(pos[form] & INFLECTED_KINDS)
             mine = weight(form)
             others = [
@@ -1581,7 +1997,12 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None):
             others = near
         if not others:
             return {form: 1.0} if form in JA_ORPHANS else {}
-        weights = {l: weight(l) or 1e-12 for l in others}
+        if language == "ar" and len(others) > 1:
+            kinds = ARABIC_FORMS.get(form, {})
+            weights = {l: (ARABIC_VERB_MASS.get(l, 0.0) if kinds.get(l) is True else ARABIC_SPELLED.get(form, {}).get(l, 0.0) if kinds.get(l, 0) is None
+                           else weight(l)) or 1e-12 for l in others}
+        else:
+            weights = {l: weight(l) or 1e-12 for l in others}
         whole = sum(weights.values())
         return {l: w / whole for l, w in weights.items()}
 
@@ -1610,6 +2031,11 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None):
         for word, part in direct(form).items():
             if word != form and depth < 3:
                 onward = targets_of(word, depth + 1)
+                # An Arabic word spelled as another's verb form keeps its own forms (يتكون of تكون, not of كان), and a verb
+                # spelled as another word keeps its own (لن of لان "to soften", not of لأن).
+                if language == "ar" and (any(ARABIC_FORMS.get(word, {}).get(t) is True for t in onward)
+                                         or ARABIC_FORMS.get(form, {}).get(word) is True):
+                    onward = None
                 if onward and word not in onward:
                     if word in merged_verbs:
                         via[form] = word
@@ -1631,6 +2057,7 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None):
             forms[lemma][form] = forms[lemma].get(form, 0) + share * part
 
     ranked = sorted(scores, key=lambda w: -scores[w])[:size]
+    listed, listed_as = set(ranked), set()
     # A Korean form shared by verbs (산다 of 살다 and 사다, 준다 of 주다 and 줄다) is listed under one it goes to
     # KOREAN_LISTED times less than to another only for its share of the count: a course counts 산다 as no use of 사다.
     main = {}
@@ -1674,7 +2101,14 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None):
         if language == "be":
             # A word starts with ў after a vowel ("і ўсе") and with у elsewhere.
             counted = list(dict.fromkeys(counted + [{"у": "ў", "ў": "у"}[f[0]] + f[1:] for f in counted if f[:1] in ("у", "ў")]))
-        lines.append((common.get(word) or guessed.get(word) or word) + "\t" + " ".join(counted))
+        shown = common.get(word) or guessed.get(word) or word
+        if language == "ar":
+            # The commonest spelling heads the word (أن, not ان), of those mostly counted for it and no word of the list.
+            spelled = [f for f in counted if word in arabic_spellings(f) and count(f) > count(word) and forms[word][f] >= count(f) / 2
+                       and f not in listed and f not in listed_as]
+            shown = max(spelled, key=count) if spelled else shown
+            listed_as.add(shown)
+        lines.append(shown + "\t" + " ".join(counted))
     return "\n".join(lines) + "\n", label
 
 
