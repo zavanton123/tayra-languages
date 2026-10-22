@@ -43,6 +43,9 @@ open class SpaceDelimitedParser : TextParser {
      */
     protected open fun words(word: String, previous: String?): List<String> = words(word)
 
+    /** The words a run is read as after [previous] and before [next], the run after it when only spaces part them. */
+    protected open fun words(word: String, previous: String?, next: String?): List<String> = words(word, previous)
+
     private fun parseParagraph(text: String, language: Language, tokens: MutableList<ParsedToken>) {
         val termChars = normalizeRegexEscapes(language.wordCharacters.trim()).ifEmpty { DEFAULT_WORD_CHARACTERS }
         val splitExceptions = withoutEmptyExceptions(language.exceptionsSplitSentences).replace(".", "\\.")
@@ -58,8 +61,8 @@ open class SpaceDelimitedParser : TextParser {
 
         var position = 0
         var previousWord: String? = null
-        for (match in wordRegex.findAll(text)) {
-            if (match.value.isEmpty()) continue
+        val matches = wordRegex.findAll(text).filter { it.value.isNotEmpty() }.toList()
+        for ((index, match) in matches.withIndex()) {
             val gap = text.substring(position, match.range.first)
             addNonWords(position, match.range.first)
             val previous = when {
@@ -67,7 +70,9 @@ open class SpaceDelimitedParser : TextParser {
                 gap.isNotEmpty() && gap.isBlank() -> previousWord
                 else -> null
             }
-            words(match.value, previous).forEach { tokens.add(ParsedToken(it, isWord = true)) }
+            val following = matches.getOrNull(index + 1)
+            val next = following?.takeIf { text.substring(match.range.last + 1, it.range.first).let { gap -> gap.isNotEmpty() && gap.isBlank() } }?.value
+            words(match.value, previous, next).forEach { tokens.add(ParsedToken(it, isWord = true)) }
             previousWord = match.value
             position = match.range.last + 1
         }

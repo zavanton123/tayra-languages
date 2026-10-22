@@ -84,4 +84,25 @@ class ArabicParserMigrationTest {
 
         assertEquals(emptyMap(), migration.migrate(), "done once")
     }
+
+    @Test
+    fun wordsTheReaderLeavesWholeStayAsSaved() = runBlocking<Unit> {
+        val provider = DatabaseProvider(DatabaseDriverFactory(file))
+        val languages = LanguageRepositoryImpl(provider)
+        val terms = TermRepositoryImpl(provider)
+        val id = languages.save(LanguageDefinitions.all.first { it.name == "Arabic" }.language)
+        val saved = listOf("برد", "لبن", "كلنا", "فقد", "فهم").map {
+            terms.save(Term(languageId = id, text = it, textLc = it, status = TermStatus.NEW_1, tokenCount = 1))
+        }
+        // برد "cold" is a word of the list, no ب + رد; كلنا is كل with a pronoun; فقد and فهم alone are whole.
+        val ranks = mapOf(
+            "ال" to 1, "و" to 2, "ب" to 5, "ل" to 7, "لنا" to 7, "ف" to 21, "قد" to 28, "كل" to 19, "ك" to 36, "بن" to 82,
+            "هم" to 123, "رد" to 479, "لبن" to 574, "فهم" to 521, "فقد" to 637, "برد" to 1942,
+        )
+        val heads = mapOf("كل" to 19, "برد" to 1942, "لبن" to 574)
+        val migration = CutWordsMigration(languages, terms, BookRepositoryImpl(provider)) { Lexicons.set("ar", Lexicon(ranks.keys, ranks, heads)) }
+
+        assertEquals(emptyMap(), migration.migrate())
+        assertEquals(listOf("برد", "لبن", "كلنا", "فقد", "فهم"), saved.map { terms.getById(it)!!.text })
+    }
 }

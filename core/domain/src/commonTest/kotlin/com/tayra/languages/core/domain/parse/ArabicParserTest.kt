@@ -15,14 +15,20 @@ class ArabicParserTest {
         "بعد" to 25, "كل" to 19, "ك" to 36, "س" to 41, "قال" to 24, "قالت" to 24, "يوم" to 40, "سنة" to 65, "عالم" to 63,
         "هو" to 18, "به" to 5, "له" to 7, "كتب" to 147, "كتاب" to 164, "كتابه" to 164, "بيت" to 198, "ولد" to 195,
         "فيلم" to 144, "وصل" to 197, "يصل" to 197, "وقت" to 70, "سيد" to 211, "يد" to 289, "يكتب" to 147, "ليل" to 702,
-        "مدرسة" to 208, "مدرستي" to 208, "على" to 6, "عليه" to 6, "جديد" to 64,
+        "مدرسة" to 208, "مدرستي" to 208, "على" to 6, "عليه" to 6, "عليك" to 6, "جديد" to 64, "لنا" to 7, "أن" to 8,
+        "لأن" to 83, "باب" to 430, "أب" to 106, "ابي" to 106, "لدى" to 91, "لدي" to 91, "رد" to 479, "برد" to 1942,
+        "بن" to 82, "لبن" to 574, "بنك" to 827, "فعل" to 101, "فعلي" to 101, "فقد" to 637, "هم" to 123, "فهم" to 521,
+        "لا" to 12, "قالوا" to 24, "درس" to 900, "ولدي" to 195,
     )
+
+    /** The headwords among them, with their own ranks: فعلي is فعل's form, not a headword. */
+    private val heads = listOf("كل", "باب", "ولد", "فعل", "برد", "لبن", "كتاب", "بيت").associateWith { ranks.getValue(it) }
 
     /** Words a dictionary pack adds, without a rank. */
     private val packWords = listOf("العالم", "الكتاب", "لبنان", "بنان", "لد", "صل", "ين", "عد", "كن", "لم", "يلم", "تب")
 
     @BeforeTest
-    fun lexicon() = Lexicons.set("ar", Lexicon(ranks.keys + packWords, ranks))
+    fun lexicon() = Lexicons.set("ar", Lexicon(ranks.keys + packWords, ranks, heads))
 
     @AfterTest
     fun forget() = Lexicons.set("ar", null)
@@ -78,6 +84,46 @@ class ArabicParserTest {
         // No word is left by ل in لم, nor by و in a word the lexicon lacks.
         assertEquals(listOf("لم"), words("لم"))
         assertEquals(listOf("وزارة"), words("وزارة"))
+    }
+
+    @Test
+    fun aHeadwordWithAPronounAfterItStaysWholeWhereThatIsLikelier() {
+        // كل + نا "all of us", باب + ي "my door": not ك + لنا, ب + أبي. The list has ولدي "my child" under ولد, not و + لدى.
+        assertEquals(listOf("كلنا"), words("كلنا"))
+        assertEquals(listOf("بابي"), words("بابي"))
+        assertEquals(listOf("ولدي"), words("ولدي"))
+        // فعلي is a form of فعل, so فعليك is ف + عليك, not فعلي with a pronoun.
+        assertEquals(listOf("ف", "عليك"), words("فعليك"))
+    }
+
+    @Test
+    fun wordsTheListHasStayWholeAgainstACommonerCut() {
+        assertEquals(listOf("برد"), words("برد"))
+        assertEquals(listOf("لبن"), words("لبن"))
+        assertEquals(listOf("و", "برد"), words("وبرد"))
+    }
+
+    @Test
+    fun afterTheConjunctionAWordOfTheListIsCutNoFurther() {
+        assertEquals(listOf("و", "لأن"), words("ولأن"))
+        assertEquals(listOf("لأن"), words("لأن"))
+    }
+
+    @Test
+    fun afterLlAWordOfTheListIsTheArticles() {
+        assertEquals(listOf("لل", "بنك"), words("للبنك"))
+    }
+
+    @Test
+    fun faqadAndFahumGoByTheWordAfterThem() {
+        assertEquals(listOf("ف", "قد", "قالوا"), words("فقد قالوا"))
+        assertEquals(listOf("فقد", "ال", "كتاب"), words("فقد الكتاب"))
+        assertEquals(listOf("فقد"), words("فقد"))
+        assertEquals(listOf("فقد"), words("فقد."))
+        assertEquals(listOf("ف", "هم", "لا"), words("فهم لا"))
+        assertEquals(listOf("ف", "هم", "يعرفون"), words("فهم يعرفون"))
+        assertEquals(listOf("فهم", "ال", "درس"), words("فهم الدرس"))
+        assertEquals(listOf("فهم"), words("فهم"))
     }
 
     @Test

@@ -1162,13 +1162,14 @@ def arabic_reader():
     if not _arabic:
         import sqlite3
         import build_frequency_list as fl
-        words, bundled = fl.list_ranks(open(os.path.join(LISTS, "ar.tsv"), encoding="utf-8").read())
+        text = open(os.path.join(LISTS, "ar.tsv"), encoding="utf-8").read()
+        words, bundled = fl.list_ranks(text)
         path = os.path.join(ROOT, "dictionaries", "ar-en.sqlite")
         if not os.path.exists(path):
             sys.exit(f"Arabic courses need the ar-en pack at {path}")
         db = sqlite3.connect(path)
         pack = {w for (w,) in db.execute("SELECT word_lc FROM entries UNION SELECT form_lc FROM forms") if w and " " not in w}
-        _arabic.update(fl=fl, known=lambda w: w in words or w in pack, rank=bundled.get)
+        _arabic.update(fl=fl, known=lambda w: w in words or w in pack, rank=bundled.get, head=fl.list_heads(text).get)
     return _arabic
 
 
@@ -1177,13 +1178,18 @@ def arabic_tokens(text, ranks, names=frozenset()):
     Arabic words as the reader cuts them: the letters written onto a word's front (و, ف, ب, ك, ل, ال, لل, س) and the
     word, each a word of its own; the letters in front are known little words. A word the list lacks with a pronoun
     after it is counted as the list's word it is on (كتابهم as كتاب). A name, with the letters in front of it (وسارة),
-    is [KNOWN]. Vowel signs are left out, as the reader leaves them out of the words it matches.
+    is [KNOWN]. Vowel signs are left out, as the reader leaves them out of the words it matches. فقد and فهم are cut by
+    the word after them, when only spaces part the two.
     """
     a = arabic_reader()
     fl = a["fl"]
     out = []
-    for match in WORD.finditer(fl.ARABIC_MARKS.sub("", text)):
+    text = fl.ARABIC_MARKS.sub("", text)
+    matches = list(WORD.finditer(text))
+    for i, match in enumerate(matches):
         run = match.group(0)
+        gap = text[match.end():matches[i + 1].start()] if i + 1 < len(matches) else ""
+        following = matches[i + 1].group(0) if gap and not gap.strip() else None
         if run in names:
             out.append(KNOWN)
             continue
@@ -1191,7 +1197,7 @@ def arabic_tokens(text, ranks, names=frozenset()):
         if named is not None:
             out.extend(named + [KNOWN])
             continue
-        for piece in fl.arabic_pieces(run, a["known"], a["rank"]):
+        for piece in fl.arabic_pieces(run, a["known"], a["rank"], following, a["head"]):
             if piece in ranks:
                 out.append(piece)
             elif piece in fl.ARABIC_CLITICS:

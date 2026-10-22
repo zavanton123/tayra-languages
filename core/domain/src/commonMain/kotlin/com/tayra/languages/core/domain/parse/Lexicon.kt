@@ -5,9 +5,13 @@ import kotlin.concurrent.Volatile
 /**
  * The words a language written without spaces is cut into (and Korean's and Arabic's, cut from what is joined to them),
  * lowercase, and the frequency [ranks] of those its frequency list has (1 for the most common), which
- * tell a parser the likelier cut.
+ * tell a parser the likelier cut; a form takes its word's rank, and [heads] has the list's headwords' own.
  */
-class Lexicon(words: Collection<String>, private val ranks: Map<String, Int> = emptyMap()) {
+class Lexicon(
+    words: Collection<String>,
+    private val ranks: Map<String, Int> = emptyMap(),
+    private val heads: Map<String, Int> = emptyMap(),
+) {
     private val words: Set<String> = words.toHashSet()
 
     /** Whether some words have a frequency rank. */
@@ -15,6 +19,9 @@ class Lexicon(words: Collection<String>, private val ranks: Map<String, Int> = e
 
     /** The word's frequency rank, or null when the frequency list does not have it. */
     fun rank(word: String): Int? = ranks[word]
+
+    /** The word's rank as a headword of the frequency list, or null when it is none (only a form, or not listed). */
+    fun headRank(word: String): Int? = heads[word]
 
     /** The longest word, in characters: no longer stretch is ever tried. */
     val maxLength: Int = words.maxOfOrNull { it.length }?.coerceAtMost(MAX_WORD) ?: 0

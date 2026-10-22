@@ -823,19 +823,59 @@ def arabic_bases(word):
     return out
 
 
-def arabic_pieces(word, known, rank):
+# Two words the frequency list has whole that are as often the conjunction ف and a word, told apart by the word after
+# them (ArabicParser's contextCut; keep the two the same). فقد "lost" takes a noun, the ف + قد "so ... has" of the news a
+# verb: before a word with the article, or with none after it, فقد is whole, else ف + قد. فهم "understanding,
+# understood" is ف + هم "so they" only before what only follows a pronoun: a negation, قد, في, or a verb's plural in
+# -ون (فهم لا يعرفون, فهم يعملون).
+# The list counts each as whole for the share of it the reader leaves whole, as the forms of the verb suggest (فقدت,
+# يفقد: some tenth of فقد is "lost"; يفهم, الفهم: over half of فهم is the word), and the rest for ف and the other word.
+ARABIC_CONTEXT_WORDS = {"فقد": ("قد", 0.1), "فهم": ("هم", 0.65)}
+ARABIC_THEY_BEFORE = {"لا", "لم", "لن", "قد", "في", "ليسوا", "كانوا", "أيضا", "جميعا"}
+ARABIC_THEY_VERB = re.compile("^[يتس].{2,}ون$")
+
+
+def arabic_context_cut(word, following):
+    """فقد and فهم cut by the word after them ([following], None when none follows in the sentence), or None for any other word."""
+    if word not in ARABIC_CONTEXT_WORDS:
+        return None
+    stem = ARABIC_CONTEXT_WORDS[word][0]
+    if word == "فقد":
+        whole = following is None or following.startswith(ARABIC_ARTICLE)
+    else:
+        whole = following is None or not (following in ARABIC_THEY_BEFORE or ARABIC_THEY_VERB.match(following))
+    return [word] if whole else ["ف", stem]
+
+
+def arabic_pieces(word, known, rank, following=None, head=None):
     """
     An Arabic word cut as the reader cuts it: the letters in front of it and the word they are on (والعالم is و + ال +
     عالم), when that word is one the lexicon [known] knows, or such a word with a pronoun after it (وكتابهم). A word the
-    frequency list has ([rank] is a word's rank in it) stays whole (ولد, كان, لكن). Of the cuts, the one whose word is
-    the most common wins, by the costs SegmentingParser gives Chinese words, the letters in front costing the log of
-    their rank alone. A word only a dictionary has stays whole unless a cut leaves a word of the list (لبنان is no ل +
-    بنان; the dictionary's forms with ال, العالم, are cut).
+    frequency list has ([rank] is a word's rank in it) stays whole (ولد, كان, لكن), and so may a headword of the list
+    ([head] is its rank as one) with a pronoun after it (كلنا of كل, بابي of باب). Of the cuts and that, the one whose
+    word is the most common wins, by the costs SegmentingParser gives Chinese words, the letters in front costing the
+    log of their rank alone. After the conjunction, a word of the list is left as the reader leaves it alone (ولأن is
+    و + لأن, as لأن is whole), and after لل a word of the list is the article's (للبنك is لل + بنك). A word only a
+    dictionary has stays whole unless a cut leaves a word of the list (لبنان is no ل + بنان; the dictionary's forms with
+    ال, العالم, are cut). فقد and فهم go by the word after them ([following]; arabic_context_cut).
     """
+    context = arabic_context_cut(word, following)
+    if context:
+        return context
     if rank(word):
         return [word]
     best, cut, after_listed = None, [word], False
+    # A headword, not another's form (فعليك is ف + عليك, no فعلي + ك of فعل + ي + ك), nor a word with the article, which is
+    # cut off (الفهم is ال + فهم, no الف + هم).
+    owned = min((head(b) for b in arabic_bases(word) if head and head(b) and not b.startswith(ARABIC_ARTICLE)), default=None)
+    if owned:
+        best, after_listed = math.log(owned) + ARABIC_WORD_COST, True
     for clitics, stem in arabic_analyses(word):
+        if len(clitics) > 1 and clitics[0] in ARABIC_CONJUNCTIONS and rank(word[1:]):
+            continue
+        # After لل, a word of the list is the article's (للبنك is لل + بنك, not ل + لبنك "for your milk").
+        if clitics[-1:] == ["ل"] and stem.startswith("ل") and rank(stem[1:]):
+            continue
         bases = [stem] + arabic_bases(stem)
         ranked = next((rank(b) for b in bases if rank(b)), None)
         if ranked is None and not any(known(b) for b in bases):
@@ -953,6 +993,8 @@ def arabic_spellings(word, hamza_only=False):
 ARABIC_WHOLE_MARGIN = 3.0
 ARABIC_FUNCTION_MARGIN = 15.0
 ARABIC_ARTICLE_MARGIN = 50.0
+ARABIC_DEFINITE_SHARE = 0.3
+ARABIC_DEFINITE_LEAST = 2e-6
 ARABIC_ROUNDS = 4
 
 
@@ -1083,6 +1125,10 @@ def build_arabic(found, size):
         # A preposition with its pronoun (بها, لهم) is one word, as a noun with its pronoun is.
         if t[0] in ARABIC_SUFFIXED_PREPOSITIONS and t[1:] in ARABIC_SUFFIXES:
             return True
+        # A noun often written with the article is that noun (البرد, اللبن): برد is "cold", لبن "milk", no ب + رد or ل + بن.
+        definite = share.get(ARABIC_ARTICLE + t, 0.0)
+        if pos[t] & {"noun", "adj"} and definite >= ARABIC_DEFINITE_SHARE * share[t] and definite >= ARABIC_DEFINITE_LEAST:
+            return True
         for clitics, stem in analyses[t]:
             margin = ARABIC_ARTICLE_MARGIN if ARABIC_ARTICLE in clitics or ARABIC_FOR_THE in clitics else (
                 ARABIC_FUNCTION_MARGIN if function_word(stem) else ARABIC_WHOLE_MARGIN)
@@ -1113,6 +1159,8 @@ def build_arabic(found, size):
     ordered = sorted(share, key=lambda w: -share[w])
     ranks = {w: i + 1 for i, w in enumerate(ordered) if w in whole}
     ranks.update({c: 1 for c in ARABIC_CLITICS})
+    # The words of the dictionary among them are the headwords to be.
+    heads = {w: r for w, r in ranks.items() if w in words}
     lexicon = pack | whole
     text = label = None
     cuts = {}
@@ -1127,10 +1175,17 @@ def build_arabic(found, size):
                 token = ARABIC_MARKS.sub("", token)
                 if not is_wordlike(token):
                     continue
-                cut = [token] if token in whole else arabic_pieces(token, known, rank)
+                cut = [token] if token in whole else arabic_pieces(token, known, rank, head=heads.get)
                 if cuts.get(token, cut) != cut:
                     changed += count / total
                 cuts[token] = cut
+                if token in ARABIC_CONTEXT_WORDS:
+                    # The reader cuts فقد and فهم by the word after them; counted whole for the share it leaves whole.
+                    stem, kept = ARABIC_CONTEXT_WORDS[token]
+                    out[token] += count * kept
+                    out["ف"] += count * (1 - kept)
+                    out[stem] += count * (1 - kept)
+                    continue
                 for piece in cut:
                     out[piece] += count
             pieces.append((name, dict(out), source_label))
@@ -1141,6 +1196,7 @@ def build_arabic(found, size):
         required = {t for t in whole if analyses.get(t)}
         text, label = build_list("ar", pieces, size, required=required, cut={t for t, c in cuts.items() if c != [t]} | bound)
         listed, ranks = list_ranks(text)
+        heads = list_heads(text)
         lexicon = pack | listed
     return text, label
 
@@ -1536,6 +1592,17 @@ def build(language, source, size):
 # it, at most KOREAN_ROUNDS times.
 KOREAN_ROUNDS = 6
 KOREAN_LETTERS = re.compile("[\uac00-\ud7a3\u1100-\u11ff\u3130-\u318f]+")
+
+
+def list_heads(text):
+    """The headwords of a built list, each with its rank."""
+    heads, rank = {}, 0
+    for line in text.splitlines():
+        if line.startswith("#") or not line.strip():
+            continue
+        rank += 1
+        heads.setdefault(line.partition("\t")[0].lower(), rank)
+    return heads
 
 
 def list_ranks(text):
