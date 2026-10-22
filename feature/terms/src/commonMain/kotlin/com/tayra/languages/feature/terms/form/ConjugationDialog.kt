@@ -17,7 +17,6 @@ import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
-import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
@@ -44,7 +43,7 @@ import com.tayra.languages.core.domain.dictionary.InflectionRow
 import com.tayra.languages.core.domain.dictionary.InflectionTable
 import com.tayra.languages.core.domain.dictionary.WiktionaryCodes
 import com.tayra.languages.core.domain.dictionary.WiktionaryPage
-import com.tayra.languages.core.ui.components.AppBottomSheet
+import com.tayra.languages.core.ui.components.AppDialogSurface
 import com.tayra.languages.core.ui.components.AppDivider
 import com.tayra.languages.core.ui.components.AppIconButton
 import com.tayra.languages.core.ui.components.AppIcons
@@ -84,13 +83,13 @@ internal fun ConjugationsRow(lemma: String, verb: Boolean, onClick: () -> Unit) 
 }
 
 /**
- * A word's [table] in a bottom sheet: a verb's by mood and tense, each tense person by number with
+ * A word's [table] in a dialog: a verb's by mood and tense, each tense person by number with
  * its pronouns, another word's as its whole grid. A click on a form reads it aloud; the form the
  * pane is about ([term]) is tinted, and the verb opens on its tense. [credit] is the Wiktionary
  * entry the table comes from, whose licence it names.
  */
 @Composable
-internal fun ConjugationSheet(
+internal fun ConjugationDialog(
     table: InflectionTable,
     lemma: String,
     term: String,
@@ -104,13 +103,8 @@ internal fun ConjugationSheet(
     val verb = table.pos == "verb"
     val clicked = WiktionaryCodes.plain(term)
     val isClicked = { form: String -> WiktionaryCodes.plain(form) == clicked || WiktionaryCodes.plain(form.substringBefore(" [")) == clicked }
-    AppBottomSheet(onDismissRequest = onDismiss, modifier = Modifier.testTag("conjugation-sheet")) {
-        // On a wide window the table keeps a dialog's width, in the middle.
-        Column(
-            Modifier.align(Alignment.CenterHorizontally).widthIn(max = AppSizes.dialogWide).fillMaxWidth()
-                .padding(start = AppSpacing.xxl, end = AppSpacing.xxl, bottom = AppSpacing.xl),
-            verticalArrangement = Arrangement.spacedBy(AppSpacing.l),
-        ) {
+    AppDialogSurface(onDismissRequest = onDismiss, modifier = Modifier.testTag("conjugation-dialog")) {
+        Column(Modifier.padding(horizontal = AppSpacing.xxl, vertical = AppSpacing.xl), verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
             Row(verticalAlignment = Alignment.Top, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
                 Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xxs)) {
                     Text((if (verb) tr("Conjugation") else tr("Inflection")).uppercase(), style = AppText.overline, color = colors.primary)

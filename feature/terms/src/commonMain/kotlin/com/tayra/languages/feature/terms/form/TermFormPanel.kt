@@ -238,14 +238,14 @@ private fun TermFormContent(
         val online = state.wiktionary
         val dictionaryBlock: @Composable () -> Unit = {
             val code = language?.let { LanguageCodes.codeFor(it.name) }
-            // Wiktionary's table of the word opens from the Dictionary card, in a sheet of its own.
+            // Wiktionary's table of the word opens from the Dictionary card, in a dialog of its own.
             val table = online.table.takeIf { !empty }
             val lemma = online.headword ?: draft.text.trim()
             var tableShown by remember(draft.text) { mutableStateOf(false) }
             val conjugations: (@Composable () -> Unit)? = table?.let { { ConjugationsRow(lemma, verb = it.pos == "verb") { tableShown = true } } }
             if (table != null && tableShown) {
                 val speaker = rememberSpeaker(koinInject(), koinInject())
-                ConjugationSheet(table, lemma, draft.text, language?.name, code, online.credit, onSpeak = { speaker.speak(it, code) }) { tableShown = false }
+                ConjugationDialog(table, lemma, draft.text, language?.name, code, online.credit, onSpeak = { speaker.speak(it, code) }) { tableShown = false }
             }
             when {
                 empty -> Unit

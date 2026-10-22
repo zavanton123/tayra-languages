@@ -320,7 +320,7 @@ internal val ruTerms: Map<String, String> = mapOf(
     "Play recording" to "Воспроизвести запись",
     "Read aloud" to "Прочитать вслух",
 
-    // Wiktionary online (feature/terms ConjugationSheet) and the grammatical tags of its tables (core/ui GrammarTags).
+    // Wiktionary online (feature/terms ConjugationDialog) and the grammatical tags of its tables (core/ui GrammarTags).
     "Wiktionary" to "Викисловарь",
     "Wiktionary contributors · CC BY-SA 4.0" to "Участники Викисловаря · CC BY-SA 4.0",
     "Conjugation" to "Спряжение",
@@ -372,7 +372,7 @@ internal val ruTerms: Map<String, String> = mapOf(
     "inanimate" to "неодушевлённое",
     "comparative" to "сравнительная степень",
     "superlative" to "превосходная степень",
-    // The conjugation sheet (feature/terms ConjugationSheet) and its row in the Dictionary card.
+    // The conjugation dialog (feature/terms ConjugationDialog) and its row in the Dictionary card.
     "View conjugations" to "Посмотреть спряжение",
     "View inflections" to "Посмотреть склонение",
     "Select a form to hear it" to "Нажмите на форму, чтобы её услышать",

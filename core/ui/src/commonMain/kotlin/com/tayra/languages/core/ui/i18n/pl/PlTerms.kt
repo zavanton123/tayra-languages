@@ -320,7 +320,7 @@ internal val plTerms: Map<String, String> = mapOf(
     "Play recording" to "Odtwórz nagranie",
     "Read aloud" to "Czytaj na głos",
 
-    // Wiktionary online (feature/terms ConjugationSheet) and the grammatical tags of its tables (core/ui GrammarTags).
+    // Wiktionary online (feature/terms ConjugationDialog) and the grammatical tags of its tables (core/ui GrammarTags).
     "Wiktionary" to "Wikisłownik",
     "Wiktionary contributors · CC BY-SA 4.0" to "Autorzy Wikisłownika · CC BY-SA 4.0",
     "Conjugation" to "Koniugacja",
@@ -372,7 +372,7 @@ internal val plTerms: Map<String, String> = mapOf(
     "inanimate" to "nieżywotny",
     "comparative" to "stopień wyższy",
     "superlative" to "stopień najwyższy",
-    // The conjugation sheet (feature/terms ConjugationSheet) and its row in the Dictionary card.
+    // The conjugation dialog (feature/terms ConjugationDialog) and its row in the Dictionary card.
     "View conjugations" to "Zobacz koniugację",
     "View inflections" to "Zobacz odmianę",
     "Select a form to hear it" to "Wybierz formę, aby ją usłyszeć",

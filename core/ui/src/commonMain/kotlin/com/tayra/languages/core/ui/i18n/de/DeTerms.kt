@@ -320,7 +320,7 @@ internal val deTerms: Map<String, String> = mapOf(
     "Play recording" to "Aufnahme abspielen",
     "Read aloud" to "Vorlesen",
 
-    // Wiktionary online (feature/terms ConjugationSheet) and the grammatical tags of its tables (core/ui GrammarTags).
+    // Wiktionary online (feature/terms ConjugationDialog) and the grammatical tags of its tables (core/ui GrammarTags).
     "Wiktionary" to "Wiktionary",
     "Wiktionary contributors · CC BY-SA 4.0" to "Wiktionary-Autoren · CC BY-SA 4.0",
     "Conjugation" to "Konjugation",
@@ -372,7 +372,7 @@ internal val deTerms: Map<String, String> = mapOf(
     "inanimate" to "unbelebt",
     "comparative" to "Komparativ",
     "superlative" to "Superlativ",
-    // The conjugation sheet (feature/terms ConjugationSheet) and its row in the Dictionary card.
+    // The conjugation dialog (feature/terms ConjugationDialog) and its row in the Dictionary card.
     "View conjugations" to "Konjugation ansehen",
     "View inflections" to "Deklination ansehen",
     "Select a form to hear it" to "Wähle eine Form, um sie zu hören",

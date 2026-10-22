@@ -320,7 +320,7 @@ internal val esTerms: Map<String, String> = mapOf(
     "Play recording" to "Reproducir grabación",
     "Read aloud" to "Leer en voz alta",
 
-    // Wiktionary online (feature/terms ConjugationSheet) and the grammatical tags of its tables (core/ui GrammarTags).
+    // Wiktionary online (feature/terms ConjugationDialog) and the grammatical tags of its tables (core/ui GrammarTags).
     "Wiktionary" to "Wikcionario",
     "Wiktionary contributors · CC BY-SA 4.0" to "Colaboradores de Wikcionario · CC BY-SA 4.0",
     "Conjugation" to "Conjugación",
@@ -372,7 +372,7 @@ internal val esTerms: Map<String, String> = mapOf(
     "inanimate" to "inanimado",
     "comparative" to "comparativo",
     "superlative" to "superlativo",
-    // The conjugation sheet (feature/terms ConjugationSheet) and its row in the Dictionary card.
+    // The conjugation dialog (feature/terms ConjugationDialog) and its row in the Dictionary card.
     "View conjugations" to "Ver la conjugación",
     "View inflections" to "Ver la declinación",
     "Select a form to hear it" to "Elige una forma para oírla",

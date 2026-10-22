@@ -320,7 +320,7 @@ internal val zhTerms: Map<String, String> = mapOf(
     "Play recording" to "播放录音",
     "Read aloud" to "朗读",
 
-    // Wiktionary online (feature/terms ConjugationSheet) and the grammatical tags of its tables (core/ui GrammarTags).
+    // Wiktionary online (feature/terms ConjugationDialog) and the grammatical tags of its tables (core/ui GrammarTags).
     "Wiktionary" to "维基词典",
     "Wiktionary contributors · CC BY-SA 4.0" to "维基词典贡献者 · CC BY-SA 4.0",
     "Conjugation" to "变位",
@@ -372,7 +372,7 @@ internal val zhTerms: Map<String, String> = mapOf(
     "inanimate" to "无生",
     "comparative" to "比较级",
     "superlative" to "最高级",
-    // The conjugation sheet (feature/terms ConjugationSheet) and its row in the Dictionary card.
+    // The conjugation dialog (feature/terms ConjugationDialog) and its row in the Dictionary card.
     "View conjugations" to "查看变位",
     "View inflections" to "查看词形变化",
     "Select a form to hear it" to "选择一个词形即可收听",

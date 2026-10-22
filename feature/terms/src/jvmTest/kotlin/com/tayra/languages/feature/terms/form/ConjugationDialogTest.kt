@@ -28,7 +28,7 @@ import kotlin.test.Test
 import kotlin.test.assertEquals
 
 @OptIn(ExperimentalTestApi::class)
-class ConjugationSheetTest {
+class ConjugationDialogTest {
 
     private val comer = WiktionaryPage(
         "comer", "en", "pt",
@@ -62,14 +62,14 @@ class ConjugationSheetTest {
         assertEquals(1, opened)
     }
 
-    /** The sheet opens on the pane's form, by mood and tense, with the pronouns; a form is read aloud on a click. */
+    /** The dialog opens on the pane's form, by mood and tense, with the pronouns; a form is read aloud on a click. */
     @Test
-    fun theSheetOpensOnTheClickedTense() = runDesktopComposeUiTest(width = 900, height = 900) {
+    fun theDialogOpensOnTheClickedTense() = runDesktopComposeUiTest(width = 900, height = 900) {
         val spoken = mutableListOf<String>()
         var shown by mutableStateOf(true)
-        setContent { Framed { if (shown) ConjugationSheet(conjugation, "comer", "comi", "Portuguese", "pt", comer, onSpeak = { spoken += it }) { shown = false } } }
-        onNodeWithTag("conjugation-sheet").assertExists()
-        // "comi" is a preterite: the sheet opens there, the form tinted, beside its pronoun.
+        setContent { Framed { if (shown) ConjugationDialog(conjugation, "comer", "comi", "Portuguese", "pt", comer, onSpeak = { spoken += it }) { shown = false } } }
+        onNodeWithTag("conjugation-dialog").assertExists()
+        // "comi" is a preterite: the dialog opens there, the form tinted, beside its pronoun.
         onNodeWithTag("dialog-form-clicked", useUnmergedTree = true).assertTextEquals("comi")
         onNodeWithText("eu").assertExists()
         onNodeWithTag("wiktionary-credit").assertTextEquals("Wiktionary contributors · CC BY-SA 4.0")
