@@ -1,0 +1,100 @@
+1	6301	povstalec	povstalcami povstalci povstalcom povstalcov
+2	6302	úväzok	úväzku
+3	6303	zabudovaný	zabudovaná zabudované zabudovanú zabudovaným
+4	6304	túra	túr túre túru túry
+5	6305	divočina	divočine divočinou divočinu divočiny
+6	6306	tolerancia	tolerancie tolerancii toleranciou toleranciu
+7	6307	obzor	obzore obzorom obzoru obzory
+8	6308	trebárs	
+9	6309	rôznorodý	rôznorodá rôznorodé rôznorodých rôznorodými
+10	6310	zjavný	zjavnej zjavnom zjavná zjavné zjavného zjavnému zjavnú zjavných zjavným
+11	6311	muzika	muzike muzikou muziku muziky
+12	6312	neodpustiť	neodpusti neodpustia neodpustil neodpustila neodpustili neodpustí neodpustím neodpustíme neodpustíte neodpustíš
+13	6313	delegácia	delegácie delegácii delegáciou delegáciu
+14	6314	parádne	
+15	6315	garantovať	garantovali garantované garantovaný garantuje garantujem garantujeme garantujete
+16	6316	dopriať	dopraj dopraje doprajem doprajeme dopraješ doprajme doprajte doprial dopriala dopriali
+17	6317	maršal	maršala maršali maršalom maršalov maršalovi
+18	6318	prepojiť	prepoj prepoja prepojil prepojila prepojili prepojte prepojí prepojím prepojíme
+19	6319	tyran	tyrana tyrani tyranmi tyranom
+20	6320	chodec	chodca chodci chodcom chodcov
+21	6321	zapôsobiť	zapôsob zapôsobia zapôsobil zapôsobila zapôsobili zapôsobilo zapôsobí zapôsobím zapôsobíš
+22	6322	vodík	vodíka vodíkom vodíku
+23	6323	sóda	sóde sódou sódu sódy
+24	6324	infikovaný	infikovanej infikovaná infikované infikovaného infikovaní infikovanú infikovaných infikovaným infikovanými
+25	6325	magor	magora magori magormi magorom magorov magorovi
+26	6326	väzenský	väzenskej väzenskom väzenskou väzenská väzenské väzenského väzenskému väzenskú väzenských väzenským väzenskými
+27	6327	slabina	slabine slabinou slabinu slabiny slabinách slabinám slabín
+28	6328	posilnenie	posilnenia posilneniu
+29	6329	výtvor	výtvorom výtvorov výtvoru výtvory
+30	6330	dostaviť	dostav dostavil dostavila dostavili dostavte dostaví
+31	6331	postačiť	postačia postačil postačili postačilo postačí
+32	6332	nevyriešiť	nevyrieši nevyriešia nevyriešil nevyriešila nevyriešili nevyriešilo nevyriešim nevyriešime nevyriešite nevyriešiš
+33	6333	naskočiť	naskoč naskočia naskočil naskočila naskočili naskočilo naskočte naskočí naskočím naskočíme naskočíte naskočíš
+34	6334	štrajk	štrajkom štrajkov štrajku štrajky
+35	6335	cicavec	cicavca cicavcami cicavce cicavcom cicavcov
+36	6336	nebezpečne	nebezpečnejšie
+37	6337	náušnica	náušnicami náušnice náušnici náušniciach náušnicou náušnicu náušníc
+38	6338	priemerne	
+39	6339	čižma	čižiem čižmami čižme čižmičky čižmou čižmu čižmy čižmách
+40	6340	vinník	vinníci vinníka vinníkom vinníkov vinníkovi
+41	6341	zošalieť	zošalejú zošalel zošalela zošaleli zošalie zošaliem zošalieš
+42	6342	adaptácia	adaptácie adaptácii adaptáciou adaptáciu
+43	6343	melón	melóna melónmi melónom melónov melónu melóny
+44	6344	milovník	milovníci milovníka milovníkmi milovníkom milovníkov
+45	6345	sezónny	sezónna sezónne sezónnu sezónnych
+46	6346	zahájiť	zaháj zaháji zahájil zahájila zahájili zahájim zahájime zahájite zahájte
+47	6347	indián	indiána indiánmi indiánom indiánovi
+48	6348	netvrdiť	netvrdil netvrdila netvrdí netvrdím netvrdíme netvrď
+49	6349	starký	starkom starkého starkému starkí starkých starkým
+50	6350	vymedzený	vymedzenom vymedzená vymedzené vymedzení vymedzených
+51	6351	statický	statickej statickou statická statické statického statickú statických
+52	6352	zlúčenie	zlúčenia zlúčení zlúčením
+53	6353	rozloženie	rozloženia rozloženiu rozložením
+54	6354	tipovať	tipoval tipovala tipovali tipuje tipujem tipujeme tipujete tipuješ
+55	6355	pobaviť	pobav pobavia pobavil pobavila pobavili pobavilo pobavme pobavte pobaví pobavím pobavíme pobavíte pobavíš
+56	6356	vyšný	vyšnej vyšnom vyšná vyšné vyšných
+57	6357	prichytiť	prichytia prichytil prichytila prichytili prichytilo prichytí prichytím prichytíme prichytíte prichytíš prichyť
+58	6358	vízum	víz víza vízach vízami
+59	6359	vtrhnúť	vtrhla vtrhli vtrhne vtrhnem vtrhneme vtrhnete vtrhneš vtrhnú vtrhol
+60	6360	pravica	pravice pravici pravicou pravicový pravicových pravicu
+61	6361	variácia	variácie variácii variáciu variáciách variácií
+62	6362	inštruktor	inštruktora inštruktori inštruktorka inštruktorkou inštruktorku inštruktorom inštruktorov
+63	6363	obočie	obočia obočiu obočí obočím
+64	6364	aktivácia	aktivačné aktivačný aktivácie aktivácii aktiváciou aktiváciu
+65	6365	prsník	prsníka prsníkmi prsníkov prsníku prsníky
+66	6366	vibrácia	vibráciami vibrácie vibrácii vibráciu vibráciách vibráciám vibrácií
+67	6367	príchuť	príchute príchuti príchutí príchuťou
+68	6368	zákruta	zákrut zákrute zákrutou zákrutu zákruty zákrutách
+69	6369	nežartovať	nežartoval nežartovala nežartovali nežartuj nežartuje nežartujem nežartujeme nežartujete nežartuješ nežartujte nežartujú
+70	6370	vyhradený	vyhradenej vyhradenom vyhradená vyhradené vyhradenú vyhradených
+71	6371	elixír	elixírom elixírov elixíru elixíry
+72	6372	skontaktovať	skontaktoval skontaktovala skontaktovali skontaktuj skontaktuje skontaktujem skontaktujeme skontaktuješ skontaktujte
+73	6373	riskantný	riskantnej riskantnom riskantná riskantné riskantnú riskantných
+74	6374	skupinka	skupinke skupinkou skupinku skupinky skupinkách
+75	6375	odhodlaný	odhodlane odhodlaná odhodlané odhodlaní odhodlanú odhodlaných
+76	6376	rys	rysa rysmi rysom rysov rysy
+77	6377	hradba	hradbami hradbe hradbou hradbu hradby hradbách hradbám hradieb
+78	6378	písomne	
+79	6379	hranolka	hranoliek hranolkami hranolku hranolky hranolkám
+80	6380	blond	
+81	6381	výmera	výmere výmerou výmeru výmery
+82	6382	modrina	modrinami modrine modrinou modrinu modriny modrinám modrín
+83	6383	rutina	rutine rutinou rutinu rutiny
+84	6384	kaďa	kade kadičky kadí
+85	6385	spodok	spodku
+86	6386	pach	pachom pachov pachu pachy
+87	6387	nemý	nemo nemom nemé nemého nemému nemí nemú nemých nemým
+88	6388	internát	internáte internátoch internátom internátov internátu internáty
+89	6389	vkladať	vkladajú vkladal vkladala vkladali vkladá vkladám vkladáme vkladáte vkladáš
+90	6390	autonómny	autonómna autonómne autonómneho autonómnej autonómnu autonómnych
+91	6391	aparát	aparáte aparátom aparátu aparáty
+92	6392	zviazať	zviazal zviazala zviazali zviaž zviaže zviažem zviažeme zviažete zviažeš zviažme zviažte zviažu
+93	6393	zodvihnúť	zodvihla zodvihli zodvihlo zodvihne zodvihnem zodvihneme zodvihnete zodvihneš zodvihni zodvihnite zodvihnú zodvihol
+94	6394	radikálny	radikálna radikálneho radikálnej radikálni radikálnou radikálnu radikálnych radikálnym
+95	6395	ženích	ženícha ženíchom ženíchov ženíchova ženíchovej ženíchovi
+96	6396	zabalený	zabalená zabalené zabaleného zabalení zabalenú zabalených
+97	6397	vyrážka	vyrážke vyrážkou vyrážku vyrážky vyrážok
+98	6398	výročný	výročnej výročnom výročná výročné výročného výročnú výročných
+99	6399	rušenie	rušenia rušeniu rušení rušením
+100	6400	typicky	

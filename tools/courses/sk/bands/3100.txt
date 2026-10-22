@@ -1,0 +1,100 @@
+1	3001	zapísaný	zapísaná zapísané zapísaní zapísanú zapísaných
+2	3002	procesor	procesora procesore procesormi procesorom procesorov procesoru procesory
+3	3003	zakaždým	
+4	3004	rímsky	rímska rímske rímskeho rímskej rímskemu rímski rímskom rímskou rímsku rímskych rímskym rímskymi
+5	3005	vypustiť	vypusti vypustia vypustil vypustila vypustili vypustilo vypustime vypustite vypustí vypustím vypustíme vypustíte vypustíš vypusť vypusťte
+6	3006	dopravné	dopravnom dopravného
+7	3007	prerušiť	preruš prerušia prerušil prerušila prerušili prerušilo prerušte preruší preruším prerušíme prerušíte prerušíš
+8	3008	zbadať	zbadajú zbadal zbadala zbadali zbadá zbadám zbadáme zbadáte zbadáš
+9	3009	katalóg	katalógoch katalógom katalógov katalógu katalógy
+10	3010	nezvyčajný	nezvyčajne nezvyčajnej nezvyčajnom nezvyčajnou nezvyčajná nezvyčajné nezvyčajného nezvyčajnú nezvyčajných nezvyčajným nezvyčajnými
+11	3011	satelit	satelite satelitmi satelitom satelitov satelitu satelity
+12	3012	doviesť	dovedie dovediem dovedieme dovediete dovedieš dovedú doveď doveďte doviedla doviedli doviedlo doviedol
+13	3013	vyjadrenie	vyjadrenia vyjadreniu vyjadrením
+14	3014	verný	najvernejší najvernejších vernej vernou verná verné verného vernému verní vernú verných verným vernými
+15	3015	nenapadnúť	nenapadla nenapadli nenapadlo nenapadne nenapadnú nenapadol
+16	3016	odporúčať	odporúča odporúčajú odporúčal odporúčala odporúčali odporúčam odporúčame odporúčate odporúčaš
+17	3017	zníženie	zníženia zníženiu znížením
+18	3018	pomalý	najpomalšia najpomalší pomalej pomalom pomalou pomalá pomalé pomalého pomalí pomalú pomalých pomalým pomalými pomalšia pomalšou pomalší
+19	3019	zmrzlina	zmrzline zmrzlinou zmrzlinové zmrzlinovú zmrzlinový zmrzlinových zmrzlinu zmrzliny
+20	3020	výpočet	výpočtami výpočte výpočtoch výpočtom výpočtov výpočtu výpočty
+21	3021	podnet	podnetmi podnetom podnetov podnetu podnety
+22	3022	maslo	masla masle maslom maslovou maslová maslové maslový maslovým
+23	3023	preukaz	preukaze preukazmi preukazoch preukazom preukazov preukazu preukazy
+24	3024	vynechať	vynechaj vynechajme vynechajte vynechajú vynechal vynechala vynechali vynechá vynechám vynecháme vynecháte vynecháš
+25	3025	preukázať	preukazovať preukazuje preukázal preukázala preukázali preukázalo preukázania preukázanie preukázané preukáž preukáže preukážem preukážeme preukážete preukážeš preukážte preukážu
+26	3026	zemiak	zemiaka zemiakmi zemiakoch zemiakom zemiakov zemiakovej zemiakovou zemiaková zemiakové zemiakového zemiakovú zemiakový zemiakových zemiakovým zemiaky zemiačik zemiačiky
+27	3027	niekoľkokrát	
+28	3028	skrátka	
+29	3029	nezvládnuť	nezvládla nezvládli nezvládlo nezvládne nezvládnem nezvládneme nezvládnete nezvládneš nezvládnu nezvládol
+30	3030	báseň	básne básni básní básňach básňou
+31	3031	strčiť	strč strčenie strčený strčia strčil strčila strčili strčme strčte strčí strčím strčíme strčíte strčíš
+32	3032	rozvíjať	rozvíja rozvíjajú rozvíjal rozvíjala rozvíjali rozvíjam rozvíjame
+33	3033	zamestnanie	zamestnania zamestnaniach zamestnaniami zamestnaniu zamestnaní zamestnaním
+34	3034	postihnutý	postihnutej postihnutá postihnuté postihnutého postihnutému postihnutí postihnutú postihnutých postihnutým postihnutými
+35	3035	oddýchnuť	oddýchla oddýchli oddýchne oddýchnem oddýchneme oddýchnete oddýchneš oddýchni oddýchnime oddýchnite oddýchnu oddýchol
+36	3036	tiger	tigra tigrami tigre tigroch tigrom tigrov tigrovi
+37	3037	ukončenie	ukončenia ukončeniu ukončením
+38	3038	brada	bradami brade bradou bradu brady briadka briadkou briadku briadky
+39	3039	zamyslieť	zamyslel zamyslela zamysleli zamysli zamyslime zamyslite zamyslí zamyslím zamyslíme zamyslíte zamyslíš
+40	3040	organický	organickej organickou organická organické organického organickú organických organickým organickými
+41	3041	plášť	plášte plášti plášťa plášťoch plášťom plášťov plášťu
+42	3042	rozsudok	rozsudkami rozsudkoch rozsudkom rozsudkov rozsudku rozsudky
+43	3043	vzrušujúci	najvzrušujúcejší vzrušujúca vzrušujúce vzrušujúceho vzrušujúcej vzrušujúcejšia vzrušujúcejšie vzrušujúcejší vzrušujúcich vzrušujúcim vzrušujúcom vzrušujúcou vzrušujúcu
+44	3044	prístupný	prístupnejšia prístupnejší prístupná prístupné prístupní prístupných prístupným
+45	3045	oblička	obličiek obličkami obličke obličkou obličkové obličkový obličkových obličku obličky obličkách obličkám
+46	3046	ranný	rannej rannom rannou ranná ranné ranného ranní rannú ranných ranným rannými
+47	3047	podržať	podrž podržal podržala podržali podržia podržte podrží podržím podržíme podržíte podržíš
+48	3048	poistenie	poistenia poisteniu poistením
+49	3049	nútený	nútenej nútená nútené núteného nútení nútenú nútených
+50	3050	pokles	poklese poklesom poklesu poklesy
+51	3051	pohotovosť	pohotovosti
+52	3052	zlyhanie	zlyhania zlyhaniu zlyhaní zlyhaním
+53	3053	poviedka	poviedkach poviedke poviedku poviedky poviedok
+54	3054	toaleta	toaletami toalete toaletou toaletu toalety toaletách toaletám toaliet
+55	3055	zrak	zrakmi zrakom zrakového zrakový zraku zraky
+56	3056	vystreliť	vystrelia vystrelil vystrelila vystrelili vystrelilo vystrelí vystrelím vystrelíme vystrelíte vystrelíš vystreľ vystreľte
+57	3057	desiaty	desiat desiata desiate desiateho desiatej desiati desiatom desiatou desiatu
+58	3058	dres	drese dresoch dresom dresov dresu dresy
+59	3059	tušenie	tušenia tušeniu
+60	3060	bábika	bábik bábikami bábike bábikou bábiku bábiky bábikám
+61	3061	hotové	hotového
+62	3062	vtedajší	vtedajšej vtedajšia vtedajšie vtedajšieho vtedajšiu vtedajšom vtedajších vtedajším
+63	3063	ovplyvňovať	ovplyvňoval ovplyvňovala ovplyvňovali ovplyvňovalo ovplyvňuje ovplyvňuješ ovplyvňujú
+64	3064	nazývaný	nazývanej nazývanom nazývanou nazývaná nazývané nazývaného nazývaní nazývanú nazývaných nazývaným nazývanými
+65	3065	civilizácia	civilizáciami civilizácie civilizácii civilizáciou civilizáciu civilizáciách civilizácií
+66	3066	zväčša	
+67	3067	vysielať	vysiela vysielajte vysielajú vysielal vysielala vysielali vysielalo vysielam vysielame vysielate vysielaš
+68	3068	pódium	pódia pódiom pódiu pódiách
+69	3069	pozorovanie	pozorovania pozorovaniu pozorovaní pozorovaním
+70	3070	prehovoriť	prehovoria prehovoril prehovorila prehovorili prehovorilo prehovorte prehovorí prehovorím prehovoríme prehovoríte prehovoríš
+71	3071	akademický	akademickej akademickom akademická akademické akademického akademickú akademických akademickým
+72	3072	zaujímavosť	zaujímavosti zaujímavostí zaujímavosťou
+73	3073	brankár	brankára brankári brankárom brankárov
+74	3074	naháňať	naháňa naháňajte naháňajú naháňajúc naháňal naháňala naháňali naháňalo naháňam naháňame naháňate naháňaš
+75	3075	súvisiaci	súvisiaca súvisiace súvisiacej súvisiacich súvisiacim súvisiacimi súvisiacu
+76	3076	veličenstvo	veličenstva veličenstve veličenstvom veličenstvu veličenstvá
+77	3077	kabát	kabáta kabáte kabátik kabátmi kabátoch kabátom kabátov kabátu kabáty
+78	3078	lekcia	lekciami lekcie lekcii lekciou lekciu lekciách lekciám lekcií
+79	3079	parkovať	parkoval parkovala parkovali parkovalo parkovania parkovanie parkovaní parkovaním parkuje parkujem parkujeme parkujete parkuješ parkujú zaparkoval zaparkovala zaparkovali zaparkovať zaparkuj zaparkuje zaparkujem zaparkujeme zaparkujete zaparkuješ zaparkujte
+80	3080	kopať	kop kopal kopala kopali kopalo kopania kopanie kopaní kopaním kope kopem kopeme kopete kopeš kopme kopom kopte kopú
+81	3081	parkovisko	parkoviska parkoviskom parkovisku parkoviská parkoviskách
+82	3082	chaos	chaose chaosom chaosu
+83	3083	chudák	chudáci chudáka chudákmi chudákom chudákov chudákovi chudáčik chudáčika chudáčikovi chudáčikovia chudáčisko
+84	3084	kabelka	kabeliek kabelkami kabelke kabelkou kabelku kabelky kabelkách
+85	3085	členok	členiek členka členkami členkoch členkom členkou členkov členkové členkový členku členky
+86	3086	vpravo	
+87	3087	pôsobiaci	pôsobiaca pôsobiace pôsobiaceho pôsobiacej pôsobiacich pôsobiacim pôsobiacimi pôsobiacu
+88	3088	baktéria	bakteriálne bakteriálny baktériami baktérie baktérii baktériou baktériu baktériám baktérií
+89	3089	územný	územnej územnom územná územné územného územnú územných územným
+90	3090	uložiť	ulož uložia uložil uložila uložili uložte uloží uložím uložíme uložíte uložíš
+91	3091	nosič	nosiča nosiče nosiči nosičmi nosičoch nosičom nosičov
+92	3092	spoj	spoja spoje spoji spojmi spojom spojov spoju
+93	3093	vyšetrenie	vyšetrenia vyšetreniach vyšetreniam vyšetreniami vyšetreniu vyšetrením
+94	3094	umyť	umyje umyjem umyjeme umyjete umyješ umyjú umyl umyla umyli umyte
+95	3095	nespomínať	nespomína nespomínaj nespomínajte nespomínajú nespomínajúc nespomínal nespomínala nespomínali nespomínam nespomíname nespomínate nespomínaš
+96	3096	vybuchnúť	vybuchla vybuchli vybuchlo vybuchne vybuchnem vybuchneme vybuchneš vybuchni vybuchnú vybuchol
+97	3097	spáliť	spáli spália spálil spálila spálili spálilo spálim spálime spálite spáliš spáľ spáľme spáľte
+98	3098	zameriavať	zameriava zameriavajú zameriaval zameriavala zameriavali zameriavam zameriavame zameriavate zameriavaš
+99	3099	loviť	lovenie lovený lovia loviaci lovil lovila lovili loví lovím lovíme lovíte lovíš
+100	3100	ťažkosť	ťažkosti ťažkostiach ťažkostiam ťažkostí ťažkosťami

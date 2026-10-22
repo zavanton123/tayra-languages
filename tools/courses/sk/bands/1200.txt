@@ -1,0 +1,100 @@
+1	1101	rovno	rovnejšie
+2	1102	príklad	príklade príkladmi príkladoch príkladom príkladov príkladu príklady
+3	1103	televízia	televízie televízii televíziou televíziu televízií televízny televíznych
+4	1104	tréner	trénera tréneri trénermi trénerom trénerov trénerovi
+5	1105	bunka	bunečná buniek bunkami bunke bunkou bunkovej bunkový bunku bunky bunkách bunkám
+6	1106	text	textami texte textoch textom textov textu texty
+7	1107	konštrukcia	konštrukciami konštrukcie konštrukcii konštrukciou konštrukciu konštrukciách konštrukcií
+8	1108	vedec	vedca vedcami vedci vedcoch vedcom vedcov vedcovi vedecký vedeckých vedkyňa vedkyňou vedkyňu
+9	1109	naposledy	
+10	1110	klient	klienta klientami klienti klientmi klientoch klientom klientov klientovi
+11	1111	obed	obeda obede obednú obedný obedoch obedom obedov obedové obedovú obedový obedu obedy obedík
+12	1112	spôsobiť	spôsobia spôsobil spôsobila spôsobili spôsobí spôsobím spôsobíme spôsobíte spôsobíš
+13	1113	zvyčajný	zvyčajne zvyčajnej zvyčajnom zvyčajnou zvyčajná zvyčajné zvyčajného zvyčajní zvyčajnú zvyčajných zvyčajným
+14	1114	naspäť	
+15	1115	vlak	vlakmi vlakoch vlakom vlakov vlakovej vlakový vlaku vlaky vláčik vláčikmi vláčikom vláčiku vláčiky
+16	1116	nádej	nádejach nádejami nádeje nádeji nádejou nádejí
+17	1117	koncert	koncerte koncertoch koncertom koncertov koncertu koncerty
+18	1118	strašne	najstrašnejšie strašnejšie
+19	1119	pomerne	
+20	1120	predchádzajúci	predchádzajúca predchádzajúce predchádzajúceho predchádzajúcej predchádzajúcemu predchádzajúcich predchádzajúcim predchádzajúcimi predchádzajúcom predchádzajúcou predchádzajúcu
+21	1121	úplný	úplnej úplnom úplnou úplná úplné úplného úplnému úplní úplnú úplných úplným úplnými
+22	1122	december	decembra decembri decembrom decembrový decembru
+23	1123	mäso	mäsa mäse mäska mäsko mäsom mäsovej mäsovom mäsovou mäsová mäsové mäsového mäsovú mäsový mäsových mäsovými mäsu
+24	1124	vzdialenosť	vzdialenosti vzdialenostiach vzdialeností vzdialenosťou
+25	1125	skúška	skúškach skúškam skúškami skúške skúškou skúšku skúšky skúšok
+26	1126	divadlo	divadiel divadla divadle divadlom divadlu divadlá divadlách
+27	1127	autobus	autobuse autobusmi autobusoch autobusom autobusov autobusová autobusový autobusu autobusy
+28	1128	sídlo	sídel sídiel sídla sídlach sídle sídlom
+29	1129	príprava	príprav prípravami príprave prípravou prípravu prípravy prípravách prípravám
+30	1130	čaj	čaje čaji čajom čajov čajovej čajovom čajová čajové čajovú čajový čajových čajovým čaju čajík čajíček
+31	1131	bezpečný	bezpečnej bezpečnejšia bezpečnejšiu bezpečnejšou bezpečnejší bezpečnejším bezpečnom bezpečnou bezpečná bezpečné bezpečného bezpečnému bezpeční bezpečnú bezpečných bezpečným bezpečnými najbezpečnejšia najbezpečnejšou najbezpečnejší najbezpečnejších najbezpečnejším
+32	1132	poloha	polohami polohe polohou polohu polohy polohách polôh
+33	1133	slobodný	slobodne slobodnej slobodnejšie slobodnejší slobodnom slobodnou slobodná slobodné slobodného slobodnému slobodní slobodnú slobodných slobodným slobodnými
+34	1134	slabý	najslabšia najslabšie najslabšieho najslabšiu najslabšom najslabší najslabších najslabším slabej slabo slabom slabou slabá slabé slabého slabému slabí slabú slabých slabým slabými slabšej slabšia slabšie slabšieho slabšiu slabšou slabší slabších slabším slabšími
+35	1135	liga	lige ligou ligu ligy líg
+36	1136	predávať	predáva predávaj predávajte predávajú predávajúc predávajúca predávajúceho predávajúci predávajúcim predával predávala predávali predávalo predávam predávame predávanie predávaný predávate predávaš
+37	1137	priamy	najpriamejšia priama priame priameho priamej priamejšie priamejší priamemu priami priamom priamou priamu priamych priamym priamymi
+38	1138	víkend	víkende víkendoch víkendom víkendov víkendu víkendy
+39	1139	kuchyňa	kuchyne kuchyni kuchyniach kuchynka kuchynke kuchynské kuchynský kuchyňou kuchyňu kuchýň
+40	1140	dokončiť	dokonč dokonči dokončia dokončil dokončila dokončili dokončilo dokončime dokončite dokončí dokončím dokončíme dokončíte dokončíš
+41	1141	obyčajný	obyčajnej obyčajnom obyčajnou obyčajná obyčajné obyčajného obyčajnému obyčajní obyčajnú obyčajných obyčajným obyčajnými
+42	1142	právny	právna právne právneho právnej právnemu právni právnom právnou právnu právnych právnym právnymi
+43	1143	reč	rečami reči rečiach rečiam rečou rečí
+44	1144	bomba	bombami bombe bombou bombovej bombovom bombová bombové bombového bombovú bombový bombových bombovým bombovými bombu bomby bombách bombám bômb
+45	1145	verejnosť	verejnosti verejnosťou
+46	1146	droga	drog drogami droge drogou drogu drogy drogách drogám
+47	1147	umožňovať	umožňoval umožňovala umožňovali umožňovalo umožňuje umožňujú umožňujúc
+48	1148	priznať	priznaj priznajme priznajte priznajú priznal priznala priznali priznalo prizná priznám priznáme priznáte priznáš
+49	1149	dohodnúť	dohodla dohodli dohodlo dohodne dohodnem dohodneme dohodnete dohodneš dohodni dohodnime dohodnite dohodnú dohodol
+50	1150	výstavba	výstavbe výstavbou výstavbu výstavby
+51	1151	nehoda	nehodami nehode nehodou nehodu nehody nehodách nehodám nehôd
+52	1152	tajný	najtajnejších tajnej tajnom tajnou tajná tajné tajného tajnému tajní tajnú tajných tajným tajnými
+53	1153	cca	
+54	1154	vitaj	vitajte
+55	1155	zúčastniť	zúčastni zúčastnia zúčastnil zúčastnila zúčastnili zúčastnilo zúčastnite zúčastní zúčastním zúčastníme zúčastníte zúčastníš
+56	1156	premýšľať	premýšľa premýšľaj premýšľajme premýšľajte premýšľajú premýšľajúc premýšľal premýšľala premýšľali premýšľam premýšľame premýšľate premýšľaš
+57	1157	scéna	scén scénach scénami scéne scénou scénu scény
+58	1158	navyše	
+59	1159	festival	festivale festivaloch festivalom festivalov festivalu festivaly
+60	1160	záhrada	záhrad záhradami záhrade záhradka záhradke záhradná záhradný záhradou záhradu záhrady záhradách
+61	1161	príčina	príčin príčinami príčine príčinou príčinu príčiny príčinách
+62	1162	zohnať	zohnal zohnala zohnali zoženie zoženiem zoženieme zoženiete zoženieš zoženú zožeň zožeňme zožeňte
+63	1163	bod	bode bodmi
+64	1164	umelecký	umeleckej umeleckom umeleckou umelecká umelecké umeleckého umeleckému umeleckí umeleckú umeleckých umeleckým umeleckými
+65	1165	krk	krkmi krkoch krkom krkov krku krky krčka krčnej krčný
+66	1166	južný	južne južnej južnejšie južnom južnou južná južné južného južnému južní južnú južných južným najjužnejší
+67	1167	generácia	generačná generáciami generácie generácii generáciou generáciu generáciách generáciám generácií
+68	1168	mobil	mobilmi mobiloch mobilom mobilov mobilu mobily
+69	1169	pivo	piva pivami pive pivom pivu pivá pivách pív
+70	1170	párty	
+71	1171	zrazu	
+72	1172	vstup	vstupe vstupmi vstupoch vstupom vstupov vstupu vstupy
+73	1173	predstava	predstavami predstave predstavou predstavu predstavy predstavách predstavám predstáv
+74	1174	šialený	najšialenejšia najšialenejší najšialenejších šialenej šialenejšia šialenejší šialenom šialenou šialená šialené šialeného šialenému šialení šialenú šialených šialeným šialenými
+75	1175	obliecť	obleč oblečené oblečený oblečie oblečiem oblečieme oblečiete oblečieš oblečme oblečte oblečú oblieka obliekaj obliekajte obliekajú obliekal obliekala obliekali obliekam obliekame obliekate obliekaš obliekať obliekla obliekli obliekol
+76	1176	uskutočniť	uskutočnia uskutočnil uskutočnila uskutočnili uskutočnilo uskutočnite uskutoční uskutočním uskutočníme uskutočníš
+77	1177	nastať	nastal nastala nastali nastalo nastane nastanú nastáva
+78	1178	vina	vine vinu viny
+79	1179	svedok	svedka svedkami svedkoch svedkom svedkov svedkovi svedkovia
+80	1180	osobnosť	osobnosti osobnostiach osobnostiam osobností osobnosťami osobnosťou
+81	1181	vonkajší	vonkajšej vonkajšia vonkajšie vonkajšieho vonkajšiemu vonkajšiu vonkajšom vonkajšou vonkajších vonkajším vonkajšími
+82	1182	potvrdiť	potvrdia potvrdil potvrdila potvrdili potvrdilo potvrdí potvrdím potvrdíme potvrdíte potvrdíš potvrď potvrďte
+83	1183	vraj	
+84	1184	letný	letnej letnom letnou letná letné letného letnému letnú letných letným letnými
+85	1185	zelený	zelenej zeleno zelenom zelenou zelené zeleného zelenému zelení zelenú zelených zeleným zelenými zelenšia zelenšie
+86	1186	štruktúra	štruktúr štruktúrach štruktúrami štruktúre štruktúrou štruktúru štruktúry
+87	1187	vypnúť	vypla vypli vyplo vypne vypnem vypneme vypnete vypneš vypni vypnime vypnite vypnutia vypnutie vypnuté vypnutím vypnutý vypnú vypol vypína vypínajú vypínali vypínam vypíname vypínanie vypínaš vypínať
+88	1188	vyhodiť	vyhodia vyhodil vyhodila vyhodili vyhodilo vyhodí vyhodím vyhodíme vyhodíte vyhodíš vyhoď vyhoďme vyhoďte
+89	1189	všimnúť	všimla všimli všimlo všimne všimnem všimneme všimnete všimneš všimni všimnite všimnú všimol
+90	1190	zložka	zložiek zložkami zložke zložkou zložku zložky zložkách zložkám
+91	1191	prostredníctvom	
+92	1192	skúšať	skúša skúšaj skúšajte skúšajú skúšajúc skúšal skúšala skúšali skúšalo skúšam skúšame skúšate skúšaš
+93	1193	test	testami teste testoch testom testov testu testy
+94	1194	reštaurácia	reštauračné reštauračný reštaurácie reštaurácii reštauráciou reštauráciu reštauráciách reštaurácií
+95	1195	umiestnený	umiestnenej umiestnenou umiestnená umiestnené umiestneného umiestnení umiestnenú umiestnených umiestneným umiestnenými
+96	1196	tona	ton tonami tone tonou tonové tonovú tonový tonu tony tonách
+97	1197	ľud	ľudmi ľudoch ľudom ľudovej ľudový ľudu
+98	1198	predný	prednej prednejšia prednejšie prednejší prednom prednou predná predné predného prednému prednú predných predným prednými
+99	1199	účasť	účasti účastí účasťou
+100	1200	reakcia	reakciami reakcie reakcii reakciou reakciu reakciách reakciám reakcií

@@ -1,0 +1,100 @@
+1	6101	oliva	olivami olive olivu olivy olív
+2	6102	roztrhať	roztrhaj roztrhajte roztrhajú roztrhal roztrhala roztrhali roztrhalo roztrhá roztrhám roztrháme roztrháte roztrháš
+3	6103	opatrovať	opatroval opatrovala opatrovali opatruj opatruje opatrujem opatrujeme opatruješ opatrujte opatrujú
+4	6104	volejbal	volejbale volejbalu
+5	6105	slimák	slimačím slimáci slimáka slimákmi slimákom slimákov slimákovi slimáky slimáčik
+6	6106	nevracať	nevracaj nevracajme nevracajte nevracajú nevracal nevracala nevracali nevracia nevraciam nevraciame nevraciaš
+7	6107	podnikať	podnikajú podnikal podnikala podnikali podniká podnikám podnikáme podnikáte podnikáš
+8	6108	kaucia	kaucie kaucii kauciou kauciu kaucií
+9	6109	prostý	prostej prostá prosté prostého prostí prostú prostých prostým prostými
+10	6110	rasizmus	rasistické rasistický rasizme rasizmom rasizmu
+11	6111	metropola	metropol metropole metropolou metropolu metropoly
+12	6112	zlikvidovať	zlikvidoval zlikvidovala zlikvidovali zlikviduj zlikviduje zlikvidujem zlikvidujeme zlikvidujte zlikvidujú
+13	6113	útecha	úteche útechou útechu útechy
+14	6114	zhasnúť	zhasla zhasli zhaslo zhasne zhasnem zhasneme zhasneš zhasni zhasnite zhasnú zhasol
+15	6115	vysrať	vyser vyserie vyseriem vyserieme vyserieš vyserme vyserte vyserú vysral vysrala vysrali
+16	6116	zastihnúť	zastihla zastihli zastihlo zastihne zastihnem zastihneme zastihnete zastihneš zastihnú zastihol
+17	6117	horký	horka horkej horko horkom horku horká horké horkého horkú
+18	6118	poskytovanie	poskytovania poskytovaním
+19	6119	prevádzkovateľ	prevádzkovatelia prevádzkovateľa prevádzkovateľom prevádzkovateľov
+20	6120	monitor	monitora monitore monitoroch monitorom monitorov monitoru monitory
+21	6121	zapojenie	zapojenia zapojením
+22	6122	káčer	kačica kačicami kačice kačici kačicou kačicu kačíc káčera káčerom
+23	6123	pivovar	pivovare pivovarom pivovarov pivovaru pivovary
+24	6124	transakcia	transakcie transakcii transakciu transakciách transakcií
+25	6125	čerešňa	čerešne čerešnička čerešničkou čerešničku čerešničky čerešní čerešňami čerešňovej čerešňová čerešňové čerešňového čerešňovú čerešňový čerešňových čerešňu
+26	6126	destinácia	destinácie destinácii destináciou destináciu destinácií
+27	6127	klávesnica	klávesnice klávesnici klávesnicou klávesnicu
+28	6128	fašizmus	fašistickej fašistická fašistické fašistickí fašistickú fašistický fašistických fašistickým fašizmom fašizmu
+29	6129	búdka	búdkach búdke búdkou búdku búdky
+30	6130	prípravný	prípravnej prípravnom prípravná prípravné prípravného prípravnú prípravných
+31	6131	tupý	tupej tupo tupou tupá tupé tupého tupí tupú tupých tupým tupými
+32	6132	obuv	obuvi obuvou
+33	6133	žiarivý	najžiarivejších žiarivej žiarivom žiarivou žiarivá žiarivé žiarivého žiarivú žiarivých žiarivým žiarivými
+34	6134	zástanca	zástancami zástancom zástancov zástancovia zástancu
+35	6135	postihnutie	postihnutia postihnutiu postihnutím
+36	6136	pohltiť	pohltia pohltil pohltila pohltili pohltilo pohltí pohltím
+37	6137	čeľusť	čeľuste čeľusti čeľustí čeľusťami čeľusťou
+38	6138	zaľúbený	zaľúbená zaľúbené zaľúbení zaľúbených
+39	6139	dokumentárny	dokumentárneho dokumentárnej dokumentárnych
+40	6140	figúrka	figúrkami figúrke figúrkou figúrku figúrky figúrok
+41	6141	nákaza	nákaz nákaze nákazou nákazu nákazy
+42	6142	teniska	tenisiek teniskami teniske tenisku tenisky teniskách teniskám
+43	6143	kľudný	kľudnejšia kľudnejší kľudnom kľudná kľudné kľudného kľudní kľudnú kľudných kľudným
+44	6144	ojedinelý	ojedinelá ojedinelé ojedinelú ojedinelých ojedinelým
+45	6145	lopata	lopatami lopate lopatka lopatky lopatou lopatu lopaty
+46	6146	strmý	strmo strmom strmá strmé strmých strmým strmšie
+47	6147	rebel	rebela rebeli rebelmi rebeloch rebelom rebelov rebelovi
+48	6148	nepretržite	
+49	6149	ekonomicky	
+50	6150	predĺžiť	predĺž predĺži predĺžia predĺžil predĺžila predĺžili predĺžilo predĺžim predĺžime
+51	6151	emocionálny	emocionálna emocionálneho emocionálnej emocionálnom emocionálnou emocionálnu emocionálnych emocionálnym emocionálnymi
+52	6152	pekelný	pekelnej pekelnom pekelná pekelné pekelného pekelní pekelnú pekelných pekelným pekelnými
+53	6153	prezerať	prezerajú prezeral prezerala prezerali prezerá prezerám prezeráme prezeráte prezeráš
+54	6154	skrátiť	skráti skrátia skrátil skrátila skrátili skrátilo skrátim skrátime skráť skráťme skráťte
+55	6155	klobása	klobás klobásami klobáse klobáska klobásky klobásou klobásový klobásu klobásy
+56	6156	ľútosť	ľútosťou
+57	6157	férový	férovej férovom férová férové férového féroví férovú
+58	6158	popredie	popredia popredí
+59	6159	napadať	napadajú napadal napadali napadalo napadá
+60	6160	neplánovať	neplánoval neplánovala neplánovali neplánuj neplánuje neplánujem neplánujeme neplánujete neplánuješ neplánujú
+61	6161	hlučný	hlučne hlučnej hlučnejšie hlučnejší hlučno hlučná hlučné hlučného hluční hlučnú hlučných hlučným hlučnými
+62	6162	laň	lane lani lanie lanka lanke lanku lanky
+63	6163	príťažlivý	príťažlivou príťažlivá príťažlivé príťažlivého príťažliví príťažlivú príťažlivým
+64	6164	helma	helmami helme helmou helmu helmy helmách
+65	6165	poctivý	najpoctivejší poctivej poctivou poctivá poctivé poctivého poctiví poctivú poctivých poctivým poctivými
+66	6166	združený	združené združení združených
+67	6167	rum	rume rumom rumu rumy
+68	6168	sčasti	
+69	6169	inštalovaný	inštalovaná inštalované inštalovaných inštalovaným
+70	6170	oddychovať	oddychoval oddychovala oddychovali oddychuj oddychuje oddychujem oddychujeme oddychujete oddychuješ oddychujte oddychujú
+71	6171	jesenný	jesennej jesennom jesenná jesenné jesenného jesennú jesenných
+72	6172	pobiť	pobije pobijem pobijeme pobijete pobiješ pobijú pobil pobila pobili pobite
+73	6173	gitarista	gitaristi gitaristom gitaristov gitaristovi gitaristu
+74	6174	dostupnosť	dostupnosti
+75	6175	viedenský	viedenskej viedenskom viedenská viedenské viedenského viedenskú viedenských
+76	6176	meradlo	meradiel meradle meradlom
+77	6177	oddanosť	oddanosti oddanosťou
+78	6178	vynikajúco	
+79	6179	islamský	islamskej islamská islamské islamského islamskú islamských islamským
+80	6180	vypočúvať	vypočúva vypočúvajú vypočúval vypočúvala vypočúvali vypočúvam vypočúvame vypočúvate vypočúvaš
+81	6181	špecializovať	špecializoval špecializovala špecializovali špecializuje špecializujem špecializujeme špecializujete špecializuješ špecializujú
+82	6182	zazvoniť	zazvonia zazvonil zazvonila zazvonili zazvonilo zazvoní zazvoním zazvoníš zazvoň zazvoňte
+83	6183	guma	gume gumou gumu gumy gúm
+84	6184	zajtrajší	zajtrajšej zajtrajšia zajtrajšie zajtrajšieho zajtrajšiemu zajtrajšiu zajtrajšom zajtrajšou zajtrajších zajtrajším
+85	6185	rovnica	rovnicami rovnice rovnici rovniciach rovnicou rovnicu rovníc
+86	6186	sviatosť	sviatosti sviatostí
+87	6187	bicí	bicie bicom bicích bicími
+88	6188	kŕč	kŕča kŕče kŕči kŕčmi kŕčoch kŕčom kŕčov kŕčové
+89	6189	videoklip	videoklipe videoklipov videoklipu videoklipy
+90	6190	narušený	narušenej narušená narušené narušeného narušenú narušených
+91	6191	nemieniť	nemieni nemienia nemienil nemienila nemienim nemienime nemienite nemieniš
+92	6192	aplikovaný	aplikovanej aplikovaná aplikované aplikovanú aplikovaných
+93	6193	chudý	chudej chudo chudá chudé chudého chudí chudú chudých chudým chudými chudšia chudší najchudší
+94	6194	rozruch	rozruchom rozruchu
+95	6195	štyridsať	štyridsiatich štyridsiatimi
+96	6196	sprístupnený	sprístupnená sprístupnené
+97	6197	zámienka	zámienkami zámienkou zámienku zámienky
+98	6198	súrne	
+99	6199	lesbička	lesbickej lesbickom lesbickou lesbická lesbické lesbického lesbickú lesbický lesbických lesbičiek lesbičkami lesbičkou lesbičku lesbičky lesbičkám
+100	6200	nezostávať	nezostáva nezostávaj nezostávajte nezostávajú nezostávalo nezostávam nezostávame nezostávaš

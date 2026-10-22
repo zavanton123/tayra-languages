@@ -1,0 +1,100 @@
+1	9801	bakalársky	bakalárske bakalárskeho
+2	9802	štrukturálny	štrukturálna štrukturálne štrukturálnych
+3	9803	skaziť	skazil skazila skazili skazilo skazí skazím skazíš
+4	9804	zbabelý	zbabelá zbabelé zbabelého zbabelí zbabelých zbabelým
+5	9805	vzchopiť	vzchop vzchopil vzchopila vzchopte vzchopí vzchopíš
+6	9806	adresár	adresára adresáre adresári
+7	9807	navzdory	
+8	9808	zvolenský	zvolenskej
+9	9809	osebe	
+10	9810	napredovať	napredoval napreduj napreduje napredujem napredujeme napreduješ
+11	9811	neurologický	neurologická neurologické neurologického neurologickú neurologických neurologickými
+12	9812	viečko	viečka viečkach viečkami viečkom viečok
+13	9813	menovka	menovkami menovke menovkou menovku menovky
+14	9814	slamka	slamiek slamkami slamkou slamku slamky
+15	9815	semenník	semenníkoch semenníkom semenníkov semenníky
+16	9816	nezlomiť	nezlom nezlomia nezlomil nezlomila nezlomili nezlomilo nezlomte nezlomí nezlomím nezlomíte nezlomíš
+17	9817	neučiť	neuč neučia neučil neučila neučili neučte neučí neučím neučíme neučíte neučíš
+18	9818	fólia	fólie fólii fóliou fóliu
+19	9819	nehorázne	
+20	9820	prelínať	prelína prelínajú
+21	9821	záhadne	záhadnejšie
+22	9822	zjednodušený	zjednodušená zjednodušené
+23	9823	prílišný	prílišnej prílišná prílišné prílišného prílišnému prílišnú prílišným
+24	9824	hríb	hríbami hríbik hríbiky hríboch hríbov hríby
+25	9825	nápor	náporom náporu
+26	9826	účinkujúci	účinkujúcich účinkujúcimi
+27	9827	roztrhaný	roztrhaná roztrhané roztrhaného roztrhaní roztrhanú roztrhaných roztrhaným
+28	9828	absorpcia	absorpcie absorpciu absorpčné
+29	9829	obdivovateľ	obdivovatelia obdivovateľa obdivovateľom obdivovateľov
+30	9830	tur	tura turej
+31	9831	zúrivý	zúrivej zúrivá zúrivé zúrivého zúriví zúrivú zúrivých zúrivým zúrivými
+32	9832	napichnúť	napichla napichli napichne napichnem napichneme napichni napichnite napichnú napichol
+33	9833	pochodovať	pochodoval pochodovala pochodovali pochodovanie pochoduj pochoduje pochodujem pochodujeme pochodujme pochodujte pochodujú pochodujúci
+34	9834	byrokracia	byrokracie byrokracii byrokraciou byrokraciu byrokratická byrokratické byrokratický byrokratických
+35	9835	otočka	otočke otočkou otočku otočky
+36	9836	prekročenie	prekročením
+37	9837	rokfort	rokforte rokfortu
+38	9838	sprostredkovať	sprostredkoval sprostredkovala sprostredkuje
+39	9839	namyslený	namyslenou namyslená namyslené namysleného namyslení namyslenú namyslených namysleným
+40	9840	kontrakcia	kontrakcie kontrakcii kontrakciou kontrakciu
+41	9841	nepredstaviteľný	nepredstaviteľnej nepredstaviteľná nepredstaviteľné nepredstaviteľného nepredstaviteľnú nepredstaviteľných nepredstaviteľným
+42	9842	úradne	
+43	9843	elektronicky	
+44	9844	stredoslovenský	stredoslovenskej stredoslovenská stredoslovenského
+45	9845	substancia	substancie substanciu substancií
+46	9846	obľubovať	obľuboval obľubuje obľubujem obľubujete obľubuješ obľubujú
+47	9847	chytrák	chytráci chytráka chytrákom chytrákov
+48	9848	rozčúlený	rozčúlená rozčúlené rozčúleného rozčúlení
+49	9849	neudrieť	neudrel neudrela neudreli neudri neudrie neudriem neudriete neudrieš
+50	9850	vypracovanie	vypracovaním
+51	9851	predložený	predložená predložené
+52	9852	depo	depa depe diep
+53	9853	nadlho	
+54	9854	posedieť	posedel posedeli posedí posedím posedíme posedíte posedíš poseď
+55	9855	prirovnať	prirovnal prirovnala prirovnali
+56	9856	upokojovať	upokojoval upokojovala upokojuje upokojujem upokojuješ upokojujú
+57	9857	hŕstka	hŕstke hŕstkou hŕstku hŕstky
+58	9858	renesancia	renesancie renesancii renesanciu
+59	9859	naftový	naftové naftových naftovým
+60	9860	priepustnosť	priepustnosti
+61	9861	porobiť	porobil porobila porobili porobilo porobím porába porábal porábala porábate porábaš
+62	9862	pretočiť	pretoč pretočil pretočila pretočili pretočte pretočí pretočím pretočíme pretočíš
+63	9863	džin	džina džinoch džinom džinov džinovi džinovia džinu
+64	9864	posedenie	posedenia posedení
+65	9865	zhotoviť	zhotovil zhotovili
+66	9866	čochvíľa	
+67	9867	mimovládny	mimovládna mimovládne mimovládnych
+68	9868	elektrón	elektrónov elektróny
+69	9869	uctievanie	uctievania uctievaní uctievaním
+70	9870	tlačovka	tlačovke tlačovku tlačovky
+71	9871	juhovýchod	juhovýchode juhovýchodu
+72	9872	arašid	arašidmi arašidoch arašidov arašidu arašidy
+73	9873	odhadovaný	odhadovanej odhadovaná odhadované
+74	9874	plytvanie	plytvania plytvaním
+75	9875	volejbalový	volejbalovej volejbalové
+76	9876	trinásty	trinásta trináste trinásteho trinástej trinástom trinástu trinástym
+77	9877	vysťahovať	vysťahoval vysťahovala vysťahovali vysťahuje vysťahujú
+78	9878	ký	kej kieho kou ká ké kú kými
+79	9879	amulet	amuletmi amuletov amuletu amulety
+80	9880	lyžovať	lyžoval lyžovali lyžuje lyžujem lyžujete lyžuješ lyžujú
+81	9881	odzadu	
+82	9882	zatočiť	zatoč zatočil zatočila zatočili zatočte zatočí zatočím zatočíme zatočíš
+83	9883	prízrak	prízrakom prízrakov prízraku prízraky
+84	9884	pokrývka	pokrývkou pokrývku pokrývky
+85	9885	dojemný	dojemne dojemná dojemné dojemnú
+86	9886	preklínať	preklína preklínaj preklínajú preklínal preklínala preklínam preklíname preklínaš
+87	9887	narafičiť	narafičil narafičila narafičili narafičí
+88	9888	učenec	učenca učencami učenci učencom učencov
+89	9889	uzrieť	uzrel uzrela uzreli uzri uzrie uzriem uzrieš uzrite uzrú
+90	9890	neumožňovať	neumožňuje neumožňujú
+91	9891	margo	
+92	9892	medailón	medailóne medailónom medailónu
+93	9893	kalifornský	kalifornskej kalifornskom kalifornská kalifornské kalifornského kalifornskú kalifornských
+94	9894	nevyskytovať	nevyskytuje nevyskytujú
+95	9895	retiazka	retiazke retiazkou retiazku retiazky
+96	9896	povoľovať	povoľoval povoľuje povoľujem povoľujeme povoľujete povoľujú
+97	9897	zotrvať	zotrvajú zotrval zotrvala zotrvali zotrvá
+98	9898	ubrániť	ubráni ubránil ubránila ubránili ubránim ubránime
+99	9899	jedinečnosť	jedinečnosti
+100	9900	šaman	šamana šamani šamanmi šamanom šamanov šamanovi

@@ -1,0 +1,100 @@
+1	3101	miera	mierou
+2	3102	nezdať	nezdajú nezdal nezdala nezdali nezdalo nezdá nezdám nezdáte nezdáš
+3	3103	humor	humorom humoru
+4	3104	porno	porna porne pornom pornu porná
+5	3105	študijný	študijnej študijnom študijná študijné študijného študijnú študijných študijným
+6	3106	ozajstný	ozajstnej ozajstnom ozajstnou ozajstná ozajstné ozajstného ozajstnému ozajstní ozajstnú ozajstných ozajstným ozajstnými
+7	3107	želanie	vysvedčenia vysvedčenie vysvedčení želania želaniach želaniam želaniami želaniu želaní želaním
+8	3108	obdivovať	obdivoval obdivovala obdivovali obdivuje obdivujem obdivujeme obdivujete obdivuješ obdivujte obdivujú
+9	3109	slávnostný	slávnostnej slávnostnom slávnostná slávnostné slávnostného slávnostnú slávnostných slávnostným
+10	3110	manažment	manažmente manažmentom manažmentu
+11	3111	nemožno	
+12	3112	bratislavský	bratislavskej
+13	3113	premena	premenami premene premenou premenu premeny premien
+14	3114	navštevovať	navštevoval navštevovala navštevovali navštevuje navštevujem navštevujete navštevuješ navštevujú
+15	3115	priorita	prioritami prioritné prioritný prioritou prioritu priority prioritách priorít
+16	3116	svah	svahmi svahoch svahom svahov svahu svahy
+17	3117	taxík	taxíka taxíkoch taxíkom taxíkov taxíku taxíky
+18	3118	uväznený	uväznenej uväznená uväznené uväzneného uväznení uväznenú uväznených uväzneným
+19	3119	ústredný	ústrednej ústrednom ústrednou ústredná ústredné ústredného ústrednú ústredných ústredným ústrednými
+20	3120	tanier	taniera taniere tanieri tanierik taniermi tanieroch tanierom tanierov tanieru
+21	3121	žeby	
+22	3122	agentka	agentiek agentke agentkou agentku agentky
+23	3123	stúpať	stúpa stúpaj stúpajte stúpajú stúpajúc stúpal stúpala stúpali stúpam stúpame stúpate stúpaš
+24	3124	šíriť	šíria šíril šírila šírili šírilo šírim šírime šírite šíriš šírte
+25	3125	sprievodca	sprievodcami sprievodcom sprievodcov sprievodcovi sprievodcovia sprievodcu
+26	3126	ospravedlnenie	ospravedlnenia ospravedlneniu ospravedlnení ospravedlnením
+27	3127	vozík	vozíka vozíkmi vozíkoch vozíkom vozíkov vozíku vozíky
+28	3128	tuk	tukoch tukom tukov tuková tukové tukovú tukových tuku tuky
+29	3129	hudobník	hudobníci hudobníka hudobníkmi hudobníkom hudobníkov hudobníčka
+30	3130	držiteľ	držitelia držiteľa držiteľmi držiteľom držiteľov držiteľovi
+31	3131	povolanie	povolania povolaniach povolaniu povolaním
+32	3132	prepadnúť	prepadla prepadli prepadlo prepadne prepadnem prepadneme prepadnete prepadneš prepadni prepadnú prepadol
+33	3133	prehra	prehier prehrami prehre prehrou prehru prehry prehrách prehrám
+34	3134	banda	bande bandou bandu bandy bánd
+35	3135	novela	novele novelou novelu novely novelách noviel
+36	3136	predviesť	predvedie predvediem predvedieme predvediete predvedieš predvedú predveď predveďme predveďte predviedla predviedli predviedol
+37	3137	nerozprávať	nerozpráva nerozprávaj nerozprávajme nerozprávajte nerozprávajú nerozprával nerozprávala nerozprávali nerozprávam nerozprávame nerozprávate nerozprávaš
+38	3138	zmätený	zmätenej zmätenom zmätená zmätené zmäteného zmätení zmätenú zmätených
+39	3139	spoločník	spoločníci spoločníka spoločníkmi spoločníkom spoločníkov spoločníkovi
+40	3140	sklamať	sklam sklamal sklamala sklamali sklamalo sklame sklamem sklameme sklamete sklameš sklamú
+41	3141	platnosť	platnosti platnosťou
+42	3142	frajer	frajera frajeri frajerka frajerkami frajerke frajerkou frajerku frajerky frajerkám frajermi frajeroch frajerom frajerov frajerovi frajerské frajerský
+43	3143	výprava	výprav výprave výpravou výpravu výpravy výpravách
+44	3144	nepočúvať	nepočúva nepočúvaj nepočúvajte nepočúvajú nepočúvala nepočúvali nepočúvam nepočúvame nepočúvate nepočúvaš
+45	3145	koncepcia	koncepcie koncepcii koncepciou koncepciu koncepcií
+46	3146	nahrať	nahraj nahrajme nahrajte nahrajú nahral nahrala nahrali nahralo nahrá nahrám nahráme nahráte nahráš
+47	3147	benzín	benzíne benzínom benzínovej benzínová benzínové benzínovú benzínový benzínových benzínovým benzínu
+48	3148	osamelý	najosamelejšia najosamelejší osamelej osamelejší osamelom osamelou osamelá osamelé osamelého osamelému osamelí osamelú osamelých osamelým osamelými
+49	3149	zverejniť	zverejni zverejnia zverejnil zverejnila zverejnili zverejnilo zverejnite zverejní zverejním zverejníme zverejníte zverejníš
+50	3150	pobočka	pobočiek pobočkami pobočke pobočkou pobočku pobočky pobočkách
+51	3151	vystrašený	vystrašená vystrašené vystrašeného vystrašení vystrašenú vystrašených vystrašeným
+52	3152	voňať	vonia voniam voniate voniaš voňajú voňal voňala voňali voňalo
+53	3153	rozhodca	rozhodcami rozhodcom rozhodcov rozhodcovi rozhodcovia rozhodcu rozhodkyňa
+54	3154	rozhodujúci	rozhodujúca rozhodujúce rozhodujúceho rozhodujúcej rozhodujúcich rozhodujúcim rozhodujúcom rozhodujúcou rozhodujúcu
+55	3155	ceniť	cenia cenil cenila cenili cení cením ceníme ceníte ceníš ceň
+56	3156	nedotýkať	nedotýka nedotýkaj nedotýkajte nedotýkajú nedotýkal nedotýkala nedotýkali nedotýkam nedotýkame nedotýkaš
+57	3157	zvážiť	zváž zváži zvážiac zvážil zvážila zvážili zvážim zvážime zvážite zvážiš zvážme zvážte
+58	3158	nesnažiť	nesnaž nesnažia nesnažil nesnažila nesnažili nesnažte nesnaží nesnažím nesnažíme nesnažíte nesnažíš
+59	3159	chvost	chvosta chvostami chvoste chvostom chvostov chvostové chvostu chvosty chvostík chvostíkom chvostíky
+60	3160	šálka	šálkach šálke šálkou šálku šálky šálok
+61	3161	žáner	žánre žánri žánroch žánrom žánrov žánru
+62	3162	štatistika	štatistike štatistikou štatistiku štatistiky štatistikách štatistikám štatistík
+63	3163	kilo	kila kilami kile kilom kilá kilách kíl
+64	3164	zobrazenie	zobrazenia zobrazením
+65	3165	štádium	štádia štádiom štádiu štádiá štádiách štádií
+66	3166	samosprávny	samosprávne samosprávneho samosprávnom samosprávnych
+67	3167	koncentrácia	koncentrácie koncentrácii koncentráciou koncentráciu koncentráciách
+68	3168	vedomosť	vedomosti vedomostiach vedomostiam vedomostí vedomosťami vedomosťou
+69	3169	dospieť	dospej dospeje dospejem dospejeme dospejete dospeješ dospejte dospejú dospel dospela dospelejšie dospeli dospelo
+70	3170	autorský	autorskej autorskom autorská autorské autorského autorskú autorských autorským autorskými
+71	3171	vyliečiť	vylieč vylieči vyliečia vyliečil vyliečila vyliečili vyliečilo vyliečim vyliečime vyliečite vyliečiš vyliečte
+72	3172	tragédia	tragédie tragédii tragédiou tragédiu tragédiám tragédií
+73	3173	balíček	balíčka balíčkami balíčkoch balíčkom balíčkov balíčku balíčky
+74	3174	poslanie	poslania poslaniu poslaní poslaním
+75	3175	dokončený	dokončená dokončené dokončení dokončenú dokončených
+76	3176	zapamätať	zapamätaj zapamätajte zapamätajú zapamätal zapamätala zapamätali zapamätá zapamätám zapamätáme zapamätáte zapamätáš
+77	3177	aspekt	aspekte aspektmi aspektoch aspektom aspektov aspektu aspekty
+78	3178	móda	mód móde módou módu módy
+79	3179	slávnosť	slávnosti slávnostiach slávností slávnosťou
+80	3180	pripojenie	pripojenia pripojeniu pripojením
+81	3181	lebka	lebečnej lebečný lebiek lebkami lebke lebkou lebku lebky lebkách
+82	3182	mlčať	mlč mlčal mlčala mlčali mlčania mlčanie mlčaní mlčaním mlčia mlčte mlčí mlčím mlčíte mlčíš
+83	3183	udržiavať	udržiava udržiavaj udržiavajte udržiavajú udržiaval udržiavala udržiavali udržiavalo udržiavam udržiavame udržiavate udržiavaš
+84	3184	pochovaný	pochovaná pochované pochovaného pochovaní pochovanú pochovaných
+85	3185	ochutnať	ochutnaj ochutnajte ochutnajú ochutnal ochutnala ochutnali ochutná ochutnám ochutnáme ochutnáte ochutnáš
+86	3186	motorový	motorovej motorovom motorovou motorová motorové motorového motorovú motorových motorovým motorovými
+87	3187	schôdzka	schôdzkach schôdzkami schôdzke schôdzkou schôdzku schôdzky schôdzok
+88	3188	uniforma	uniforiem uniformami uniforme uniformou uniformu uniformy uniformách uniformám
+89	3189	vystrašiť	vystraš vystrašia vystrašil vystrašila vystrašili vystrašilo vystraší vystraším vystrašíme vystrašíte vystrašíš
+90	3190	blbec	blbca blbcami blbci blbcom blbcov blbcovi
+91	3191	prepustený	prepustená prepustené prepusteného prepustení prepustených prepusteným
+92	3192	hrebeň	hrebene hrebeni hrebeňa hrebeňom hrebeňov hrebienok
+93	3193	kvapka	kvapiek kvapkami kvapke kvapkou kvapku kvapky kvapkách kvapôčky
+94	3194	kábel	kábla káblami káble kábli kábloch káblom káblov káblovej káblová káblové káblovú káblových káblu
+95	3195	doplnený	doplnená doplnené doplnení doplnených
+96	3196	kaviareň	kaviarne kaviarni kaviarní kaviarňach kaviarňou
+97	3197	perfektne	
+98	3198	jablko	jablka jablkami jablkom jablku jablká jablkách jablkám jabĺk jabĺčka jabĺčko
+99	3199	cit	citmi citoch citom citov citu
+100	3200	škaredý	najškaredšia najškaredšie najškaredší najškaredších škaredej škaredom škaredou škaredá škaredé škaredého škaredí škaredú škaredých škaredým škaredými škaredšia škaredšie škaredší

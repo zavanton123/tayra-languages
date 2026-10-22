@@ -1,0 +1,100 @@
+1	8301	odlíšiť	odlíši odlíšil odlíšili
+2	8302	jablkový	jablkovej jablkovom jablková jablkové jablkového jablkovú jablkových jablkovým
+3	8303	zakončený	zakončená zakončené zakončení
+4	8304	kreslenie	kreslenia kreslením
+5	8305	skleník	skleníka skleníkový skleníkových skleníku skleníky
+6	8306	kukuričný	kukuričnej kukuričnom kukuričná kukuričné kukuričného kukuričnú kukuričných kukuričným
+7	8307	neponáhľať	neponáhľa neponáhľaj neponáhľajme neponáhľajte neponáhľal neponáhľala neponáhľali neponáhľam neponáhľame neponáhľate neponáhľaš
+8	8308	jód	jódom jódu
+9	8309	koč	koča koče koči kočom koču
+10	8310	poliklinika	poliklinikou polikliniky
+11	8311	kozmetika	kozmetike kozmetikou kozmetiku kozmetiky
+12	8312	penzión	penzióne penziónom penziónu
+13	8313	vinič	viniča viniči
+14	8314	ocino	ocina ocinka ocinko ocinkom ocinkovi ocinom ocinovi
+15	8315	nehádať	neháda nehádaj nehádajme nehádajte nehádajú nehádal nehádala nehádali nehádam nehádame nehádate nehádaš
+16	8316	verzus	
+17	8317	príbytok	príbytkoch príbytkov príbytku príbytky
+18	8318	sedačka	sedačkami sedačke sedačkou sedačku sedačky
+19	8319	nevinnosť	nevinnosti nevinnosťou
+20	8320	bankrot	bankrote bankrotom bankrotu bankroty
+21	8321	tampón	tampónom tampónov tampónu tampóny
+22	8322	nachytať	nachytal nachytala nachytali nachytá nachytám nachytáme nachytáš
+23	8323	zvesť	zvesti zvestiach zvestí
+24	8324	úložisko	úložiska úložisku
+25	8325	stlačený	stlačená stlačené stlačeného stlačeným
+26	8326	zlomenina	zlomeninami zlomeninou zlomeninu zlomeniny zlomeninách zlomenín
+27	8327	lineárny	lineárne lineárneho lineárnych
+28	8328	prívod	prívodom prívodu prívody
+29	8329	smradľavý	smradľavej smradľavom smradľavou smradľavá smradľavé smradľavého smradľaví smradľavú smradľavých smradľavým
+30	8330	šestka	šestiek šestke šestkou šestku šestky
+31	8331	nedopustiť	nedopusti nedopustia nedopustil nedopustila nedopustili nedopustite nedopustí nedopustím nedopustíme nedopustíte nedopustíš nedopusť
+32	8332	zložitosť	zložitosti zložitosťou
+33	8333	prehlásiť	prehlási prehlásil prehlásila prehlásili prehlásim prehlásiš
+34	8334	laik	laici laika laikov
+35	8335	golier	goliera goliere golieri golierom
+36	8336	puma	pumou pumu pumy
+37	8337	srdečne	najsrdečnejšie
+38	8338	zatmenie	zatmenia zatmení zatmením
+39	8339	martinský	martinskej martinskom martinské martinského martinských
+40	8340	poľnohospodár	poľnohospodári poľnohospodárov
+41	8341	hrach	hrachovú hrachu hráškom hrášku hrášky hrášok
+42	8342	odkopnúť	odkopla odkopli odkoplo odkopne odkopnem odkopneš odkopni odkopnite odkopnú odkopol
+43	8343	ponížiť	poníži ponížil ponížila ponížili ponížilo ponížim ponížiš
+44	8344	kvapalný	kvapalnej kvapalnom kvapalné kvapalného kvapalných
+45	8345	kvalitatívny	kvalitatívne kvalitatívnej
+46	8346	neoficiálne	
+47	8347	ploštica	plošticami ploštice ploštici plošticou plošticu ploštíc
+48	8348	cnosť	cnosti cností cnosťou
+49	8349	zdochnúť	zdochla zdochli zdochlo zdochne zdochnem zdochneme zdochnete zdochneš zdochni zdochnite zdochnú zdochol
+50	8350	psst	
+51	8351	slaboch	slabocha slabochom slabochov slabosi
+52	8352	plnohodnotný	plnohodnotná plnohodnotné plnohodnotného plnohodnotnú plnohodnotným
+53	8353	seriózny	seriózna seriózneho serióznej seriózni serióznu serióznych serióznym
+54	8354	kapucňa	kapucne kapucni kapucniach kapucňou kapucňu
+55	8355	ortuť	ortute ortuti ortuťou
+56	8356	vločka	vločiek vločkami vločku vločky
+57	8357	monitorovanie	monitorovania monitorovaní monitorovaním
+58	8358	zatýkať	zatýka zatýkajú zatýkal zatýkala zatýkali zatýkam zatýkame zatýkate
+59	8359	zavádzanie	zavádzania zavádzaní zavádzaním
+60	8360	brloh	brloha brlohoch brlohom brlohov brlohu brlohy
+61	8361	formulácia	formulácie formulácii formuláciu
+62	8362	prístavba	prístavbe prístavbou prístavbu prístavby
+63	8363	indikátor	indikátorom indikátory
+64	8364	cement	cemente cementom cementu
+65	8365	zaručený	zaručená zaručené zaručenú
+66	8366	sekať	sekaj sekajú sekal sekali sekanie sekaní sekne seknúť seká sekám sekáš
+67	8367	horčík	horčíka
+68	8368	zanikať	zanikajú zaniká
+69	8369	včasný	včasnej včasná včasné včasného
+70	8370	notebook	notebookom notebookov notebooku notebooky
+71	8371	genetika	genetike genetikou genetiku genetiky
+72	8372	obývať	obýva obývajú obýval obývala obývali obývame
+73	8373	načúvať	načúva načúvaj načúvajte načúvajú načúval načúvala načúvali načúvam načúvate načúvaš
+74	8374	karneval	karnevale karnevalom karnevalu karnevaly
+75	8375	súpis	súpise súpisu
+76	8376	hociktorý	hociktorej hociktorom hociktorou hociktorá hociktoré hociktorého hociktorému hociktorí hociktorú hociktorým
+77	8377	záchranca	záchrancami záchrancom záchrancov záchrancovi záchrancovia záchrancu
+78	8378	urán	uráne uránom uránu
+79	8379	členený	členená členené členení
+80	8380	nezahŕňať	nezahŕňa nezahŕňajú
+81	8381	vyvrcholenie	vyvrcholením
+82	8382	rovnocenný	rovnocennej rovnocenná rovnocenné rovnocenného rovnocenní rovnocennú rovnocenných rovnocennými
+83	8383	panvica	panvicami panvice panvici panvicou panvicu panvíc
+84	8384	hrnček	hrnčeka hrnčekom hrnčekov hrnčeku hrnčeky
+85	8385	došľaka	
+86	8386	drevenieť	drevenej
+87	8387	odborne	
+88	8388	relevantný	relevantná relevantné relevantných
+89	8389	reliéf	reliéfom reliéfu reliéfy
+90	8390	náručie	náručia náručím
+91	8391	trajekt	trajekte trajektom trajektov trajektu trajekty
+92	8392	zoradiť	zoradia zoradil zoradila zoradili zoradí zoradím zoradíme zoraď zoraďte
+93	8393	pritlačiť	pritlač pritlačia pritlačil pritlačila pritlačili pritlačte pritlačí pritlačím pritlačíme pritlačíte pritlačíš
+94	8394	deväťdesiaty	deväťdesiate deväťdesiatych
+95	8395	propagovať	propagoval propagovali propaguje propagujem propagujete propagujú
+96	8396	hosťujúci	hosťujúca hosťujúce hosťujúceho hosťujúcich hosťujúcim
+97	8397	encyklopédia	encyklopedické encyklopédie encyklopédii encyklopédiu encyklopédií
+98	8398	zakladajúci	zakladajúce zakladajúcich zakladajúcim
+99	8399	ponižujúci	najponižujúcejší ponižujúca ponižujúce ponižujúcu
+100	8400	fikcia	fikcie fikcii fikciou fikciu

@@ -1,0 +1,100 @@
+1	6901	labuť	labute labuti labutia labutie labutí labuťou
+2	6902	krvinka	krviniek krvinkami krvinky
+3	6903	oddelene	
+4	6904	milostný	milostnej milostnom milostná milostné milostného milostnému milostnú milostných milostným
+5	6905	seno	sena sene senom sien
+6	6906	identifikovaný	identifikovaná identifikované identifikovaní identifikovaných
+7	6907	ubytovať	ubytoval ubytovala ubytovali ubytuj ubytuje ubytujem ubytujeme ubytujete ubytujte ubytujú
+8	6908	márny	márna márne márni
+9	6909	murovaný	murovaná murované murovaných
+10	6910	metafora	metafor metaforami metafore metaforou metaforu metafory metaforách
+11	6911	muzikant	muzikanta muzikanti muzikantom muzikantov
+12	6912	prikazovať	prikazoval prikazuj prikazuje prikazujem prikazujeme prikazuješ prikazujú
+13	6913	vinica	vinice vinici viniciach vinicu viníc
+14	6914	premávať	premáva premávajú premávala premávate premávaš
+15	6915	port	portov portu porty
+16	6916	štvorec	štvorca štvorce štvorci štvorcov štvorcu
+17	6917	preverovať	preveroval preverovala preverovali preveruj preveruje preverujem preverujeme preverujete preveruješ preverujú
+18	6918	upratovanie	upratovania upratovaní upratovaním
+19	6919	evakuovať	evakuoval evakuovali evakuuje evakuujeme evakuujte evakuujú
+20	6920	ambulancia	ambulancie ambulancii ambulanciu
+21	6921	lipa	lipe lipka lipová lipový lipu lipy líp
+22	6922	kompresor	kompresora kompresorom kompresorov kompresory
+23	6923	klenba	klenbami klenbe klenbou klenbu klenby
+24	6924	hrádza	hrádze hrádzi hrádzou hrádzu
+25	6925	strávený	strávenej strávenom strávená strávené stráveného strávenú strávených
+26	6926	posúdiť	posúdi posúdia posúdil posúdila posúdili posúdim posúdime posúď posúďte
+27	6927	arogantný	arogantnej arogantná arogantné arogantného arogantní arogantnú arogantných arogantným
+28	6928	žalovať	žaloval žalovala žalovali žaluj žaluje žalujem žalujeme žalujete žaluješ žalujte žalujú
+29	6929	občianstvo	občianstva
+30	6930	rozprestierať	rozprestiera rozprestierajú
+31	6931	totožný	totožná totožné
+32	6932	uchovávať	uchováva uchovávajte uchovávajú uchovával uchovávala uchovávali uchovávam uchovávame uchovávate uchovávaš
+33	6933	rabín	rabína rabíni rabínom rabínov rabínovi
+34	6934	jednoduchosť	jednoduchosti jednoduchosťou
+35	6935	prehodiť	prehodia prehodil prehodila prehodili prehodí prehodím prehodíme prehodíte prehodíš prehoď prehoďte
+36	6936	bábo	báb
+37	6937	lori	
+38	6938	harmonický	harmonickej harmonická harmonické harmonického harmonických
+39	6939	meg	
+40	6940	nasledovník	nasledovníci nasledovníka nasledovníkmi nasledovníkom nasledovníkov
+41	6941	štvrťfinále	
+42	6942	pôdorys	pôdoryse pôdorysom pôdorysu pôdorysy
+43	6943	vnúča	vnúčat vnúčatami vnúčatá vnúčatám vnúčaťa vnúčence
+44	6944	kameraman	kameramana kameramani kameramanom kameramanov kameramanovi
+45	6945	odmietnutý	odmietnutá odmietnuté odmietnutí odmietnutých
+46	6946	mandát	mandátom mandátov mandátu
+47	6947	výpis	výpise výpisom výpisov výpisu výpisy
+48	6948	predvídať	predvída predvídal predvídala predvídali predvídam
+49	6949	časovo	
+50	6950	nenaučiť	nenaučia nenaučil nenaučila nenaučili nenaučí nenaučím nenaučíme nenaučíte nenaučíš
+51	6951	namočiť	namoč namočia namočil namočila namočili namočte namočí namočím namočíme namočíte namočíš
+52	6952	pomník	pomníka pomníkom pomníku pomníky
+53	6953	odňatie	odňatia odňatím
+54	6954	mrznúť	mrzla mrzli mrzlo mrzne mrznem mrzneme mrzneš mrznú mrzol zamrznúť zamrzol
+55	6955	vzísť	vzišiel vzišla vzišli vzišlo vzíde
+56	6956	trieť	trela trenia trenie trení trením trie trieš trú
+57	6957	rota	rotu roty
+58	6958	netrafiť	netraf netrafia netrafil netrafila netrafili netrafí netrafím netrafíme netrafíte netrafíš
+59	6959	živina	živiny živín
+60	6960	výkonnosť	výkonnosti
+61	6961	hlasne	hlasnejšie najhlasnejšie
+62	6962	ozdoba	ozdobami ozdobou ozdobu ozdoby ozdôb
+63	6963	zlosť	zlostí zlosťou
+64	6964	šestnásť	šestnástich šestnástimi
+65	6965	mačiatko	mačiatka mačiatkami mačiatkom mačiatok
+66	6966	výkupné	výkupnom výkupného výkupnému
+67	6967	elektrika	elektrike elektrikou elektriku elektriky
+68	6968	špičkový	špičkovej špičkovom špičkovou špičková špičkové špičkového špičkoví špičkovú špičkových špičkovým
+69	6969	priľahlý	priľahlej priľahlom priľahlé priľahlého priľahlých
+70	6970	koncil	koncile koncilom koncilu
+71	6971	stvoriteľ	stvoritelia stvoriteľa stvoriteľom stvoriteľov stvoriteľovi
+72	6972	doživotie	doživotia doživotím
+73	6973	starostov	starostova starostove starostovej starostovho starostovi starostovu starostových
+74	6974	alchymista	alchymisti alchymistom alchymistov alchymistu
+75	6975	príslovie	príslovia prísloví
+76	6976	porcia	porcie porcii porciou porciu porcií
+77	6977	brilantný	brilantnou brilantná brilantné brilantného brilantní brilantnú brilantných brilantným
+78	6978	krízový	krízovej krízovom krízová krízové krízového krízovú krízových
+79	6979	duševne	
+80	6980	spájaný	spájaná spájané spájaní
+81	6981	trubica	trubice trubici trubicou trubicu trubíc
+82	6982	zostávajúci	zostávajúca zostávajúce zostávajúceho zostávajúcich zostávajúcim zostávajúcimi zostávajúcu
+83	6983	únava	únave únavou únavu únavy
+84	6984	tínedžer	tínedžera tínedžeri tínedžermi tínedžeroch tínedžerom tínedžerov
+85	6985	zátoka	zátoke zátokou zátoku zátoky
+86	6986	nájomný	nájomnej nájomná nájomní nájomnú nájomných nájomným nájomnými
+87	6987	vykradnúť	vykradla vykradli vykradne vykradnem vykradneme vykradneš vykradnú vykradol
+88	6988	smutne	najsmutnejšie smutnejšie
+89	6989	indický	indickej
+90	6990	mág	mága mágom mágov mágovi mágovia
+91	6991	rozmanitý	rozmanitá rozmanité rozmanitých
+92	6992	deštrukcia	deštrukcie deštrukcii deštrukciou deštrukciu deštruktívna deštruktívne deštruktívnu deštruktívny deštruktívnych deštrukčný
+93	6993	zabraňovať	zabraňuje zabraňujem zabraňujeme zabraňujú
+94	6994	lepiť	lep lepenie lepia lepiacu lepil lepila lepili lepí lepím lepíme lepíš
+95	6995	poháňať	poháňa poháňajú poháňal poháňala poháňali poháňalo
+96	6996	prienik	prienikom prieniku prieniky
+97	6997	vykašlať	vykašlal vykašlala vykašlali vykašle vykašlem vykašleme vykašlete vykašleš vykašli vykašlime vykašlite vykašlú
+98	6998	kdeže	
+99	6999	newton	newtona newtone newtonov
+100	7000	nazbierať	nazbiera nazbieraj nazbierajú nazbieral nazbierala nazbierali nazbieralo nazbieram nazbierate

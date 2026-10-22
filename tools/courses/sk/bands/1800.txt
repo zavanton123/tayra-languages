@@ -1,0 +1,100 @@
+1	1701	obsadiť	obsadenia obsadenie obsadeniu obsadené obsadením obsadený obsadia obsadil obsadila obsadili obsadilo obsadzovať obsadzuje obsadí obsadím obsadíme obsadíte obsaď obsaďte
+2	1702	koleso	kolesa kolesami kolese kolesom kolesá kolesách kolies kolieska kolieskach kolieskami koliesko kolieskom koliesok
+3	1703	divák	diváci divácke divácky diváka divákmi divákom divákov divákovi
+4	1704	riešiť	rieš rieši riešia riešil riešila riešili riešilo riešim riešime riešite riešiš riešme riešte
+5	1705	novinár	novinára novinári novinárka novinárke novinárkou novinárku novinárky novinármi novinároch novinárom novinárov novinárovi novinárskej novinársky
+6	1706	dispozícia	dispozície dispozícii dispozíciou dispozíciu dispozícií
+7	1707	zasa	
+8	1708	umiestnenie	umiestnenia umiestneniu umiestnením
+9	1709	nedeľa	nedele nedeli nedeľnej nedeľnom nedeľná nedeľné nedeľného nedeľnú nedeľný nedeľných nedeľným nedeľou nedeľu nedeľňajšej nedeľňajšie nedeľňajšiu nedeľňajší
+10	1710	zložiť	zlož zložia zložil zložila zložili zložilo zložme zložte zloží zložím zložíme zložíte zložíš
+11	1711	spoločenstvo	spoločenstiev spoločenstva spoločenstvami spoločenstve spoločenstvom spoločenstvu spoločenstvá spoločenstvách
+12	1712	nabudúce	
+13	1713	hriech	hriechmi hriechoch hriechom hriechov hriechu hriechy hriešna hriešne hriešneho hriešnej hriešnemu hriešni hriešnou hriešnu hriešny hriešnych hriešnym hriešnymi
+14	1714	mlieko	mlieka mliekom mlieku mliečka mliečko
+15	1715	stratený	stratenej stratenom stratenou stratená stratené strateného stratenému stratení stratenú stratených strateným stratenými
+16	1716	splniť	splnenia splnenie splneniu splnení splnením splnený splnia splnil splnila splnili splnilo splní splním splníme splníte splníš splň splňte
+17	1717	prevziať	prevezmem prevezmeme prevezmete prevezmeš prevezmi prevezmite prevezmú prevzal prevzala prevzali prevzalo
+18	1718	miláčik	miláčika miláčikom miláčikov miláčikovi miláčikovia
+19	1719	portál	portáli portáloch portálom portálov portálu portály
+20	1720	rakovina	rakovine rakovinou rakovinu rakoviny rakovín
+21	1721	zodpovedať	zodpovedajú zodpovedal zodpovedala zodpovedali zodpovedalo zodpovedá zodpovedám zodpovedáme zodpovedáte zodpovedáš zodpovie zodpoviem zodpoviete zodpovieš
+22	1722	starostlivosť	starostlivosti starostlivosťou
+23	1723	denník	denníka denníkoch denníkom denníkov denníku denníky denníček
+24	1724	cukor	cukre cukrom cukrov cukrovej cukrovou cukrová cukrové cukrového cukroví cukrovú cukrový cukrových cukru cukry cukrík cukríka cukríkmi cukríkoch cukríkom cukríkov cukríkové cukríky cukríček cukríčky
+25	1725	obeta	obetami obete obetou obetu obety obetách obiet
+26	1726	kľud	kľude kľudom kľudu
+27	1727	jaskyňa	jaskyne jaskyni jaskyniach jaskyniam jaskynnej jaskynné jaskynného jaskynní jaskynný jaskynných jaskynným jaskyňou jaskyňu jaskýň
+28	1728	porovnanie	porovnania porovnaní porovnaním
+29	1729	popri	
+30	1730	priemerný	priemernej priemernom priemernou priemerná priemerné priemerného priemernému priemerní priemernú priemerných priemerným priemernými
+31	1731	nevyzerať	nevyzeraj nevyzerajú nevyzeral nevyzerala nevyzerali nevyzeralo nevyzerá nevyzerám nevyzeráme nevyzeráte nevyzeráš
+32	1732	odhaliť	odhalia odhalil odhalila odhalili odhalilo odhalí odhalím odhalíme odhalíte odhalíš odhaľ odhaľte
+33	1733	digitálny	digitálna digitálne digitálneho digitálnej digitálnom digitálnou digitálnu digitálnych digitálnym digitálnymi
+34	1734	hnúť	hne hni hnite hýb hýbal hýbala hýbali hýbalo hýbať hýbe hýbem hýbeme hýbete hýbeš hýbme hýbte hýbu
+35	1735	časový	časovej časovom časovou časová časové časového časovému časovú časových časovým časovými
+36	1736	agent	agenta agentami agenti agentmi agentoch agentom agentov agentovi
+37	1737	trestný	trestnej trestnom trestná trestné trestného trestnému trestnú trestných trestným trestnými
+38	1738	nestať	nestal nestala nestali nestane nestanem nestaneme nestanete nestaneš nestanú nestaň
+39	1739	tentokrát	
+40	1740	riziko	rizika rizikom riziku riziká rizikách rizikám rizík
+41	1741	objem	objeme objemom objemov objemu objemy
+42	1742	udrieť	udiera udierať udrel udrela udreli udrelo udretie udretý udri udrie udriem udrieme udriete udrieš udrime udrite udrú
+43	1743	existencia	existencie existencii existenciou existenciu existencií existenčné
+44	1744	obidva	obidvaja obidve obidvoch obidvom obidvoma obidvomi
+45	1745	tieň	tiene tieni tieňa tieňmi tieňoch tieňom tieňov tieňovej tieňová tieňové tieňového tieňoví tieňovú tieňový tieňových tieňu
+46	1746	ozvať	ozval ozvala ozvali ozvalo ozve ozvem ozveme ozvete ozveš ozvi ozvite ozvú ozýva ozývať
+47	1747	robota	robote robotou robotu roboty robôt
+48	1748	okolnosť	okolnosti okolnostiach okolnostiam okolností okolnosťami
+49	1749	štart	štarte štartom štartov štartovej štartu štarty
+50	1750	kráľovstvo	kráľovstiev kráľovstva kráľovstvami kráľovstve kráľovstvom kráľovstvu kráľovstvá kráľovstvách kráľovstvám
+51	1751	nedávno	
+52	1752	hovno	hovien hovna hovnami hovne hovnom hovnu hovná hovnách
+53	1753	uniesť	unes unesenej unesenie unesenou unesená unesené uneseného unesení unesený unesených unesie unesiem unesieme unesiete unesieš unesú uniesla uniesli unieslo uniesol unáša unášajú unášal unášala unášali unášalo unášam unášame unášate unášaš unášať
+54	1754	výrobca	výrobcami výrobcom výrobcov výrobcovi výrobcovia výrobcu
+55	1755	skvele	najskvelejšie
+56	1756	spokojný	spokojnejší spokojná spokojné spokojného spokojní spokojnú spokojných
+57	1757	generálny	generálna generálne generálneho generálnej generálnemu generálnou generálnu generálnych generálnym
+58	1758	demokracia	demokracie demokracii demokraciou demokraciu demokratickej demokratickom demokraticky demokratická demokratické demokratického demokratickí demokratickú demokratický demokratických demokratickým
+59	1759	pokojne	pokojnejšie
+60	1760	celok	celkov celku celky
+61	1761	narodenie	narodenia narodeniu narodení narodením
+62	1762	spravodlivosť	spravodlivosti spravodlivosťou
+63	1763	požičať	požičaj požičajte požičajú požičal požičala požičali požičalo požičanie požičané požičaný požičia požičiam požičiame požičiate požičiava požičiavajú požičiaval požičiavala požičiavali požičiavam požičiavame požičiavate požičiavaš požičiavať požičiaš
+64	1764	požiar	požiare požiari požiarmi požiarnej požiarny požiaroch požiarom požiarov požiaru
+65	1765	sračka	sračiek sračkami sračke sračkou sračku sračky sračkách sračkám
+66	1766	obnoviť	obnov obnovenej obnovenia obnovenie obnoveniu obnovená obnovené obnoveného obnovení obnovením obnovený obnovia obnovil obnovila obnovili obnovilo obnovovať obnovte obnovuje obnoví obnovím obnovíme obnovíte obnovíš
+67	1767	odlišný	odlišnej odlišnejší odlišnom odlišnou odlišná odlišné odlišného odlišní odlišnú odlišných odlišným odlišnými
+68	1768	vážiť	váž váži vážia vážil vážila vážili vážilo vážim vážime vážite vážiš vážte
+69	1769	fyzický	fyzickej fyzickom fyzickou fyzická fyzické fyzického fyzickému fyzickú fyzických fyzickým fyzickými
+70	1770	isto	
+71	1771	pozemok	pozemkami pozemkoch pozemkom pozemkov pozemku pozemky
+72	1772	uzavretý	uzavretej uzavretom uzavretou uzavretá uzavreté uzavretého uzavretí uzavretú uzavretých uzavretým
+73	1773	euro	eur eura eurami eurá eurách eúr
+74	1774	odvaha	odvahe odvahou odvahu odvahy
+75	1775	zloženie	zloženia zloženiu zložením
+76	1776	vyšetrovanie	vyšetrovania vyšetrovaniach vyšetrovaniu vyšetrovaním
+77	1777	disk	diskami diskoch diskom diskov disku disky
+78	1778	zákazník	zákazníci zákazníka zákazníkmi zákazníkoch zákazníkom zákazníkov zákazníkovi
+79	1779	sviatok	sviatkami sviatkoch sviatkom sviatkov sviatku sviatky sviatočne sviatočnej sviatočnom sviatočná sviatočné sviatočného sviatočnú sviatočný
+80	1780	moment	momente momentmi momentoch momentom momentov momentu momenty
+81	1781	dotknúť	dotkla dotkli dotklo dotkne dotknem dotkneme dotknete dotkneš dotkni dotknite dotknú dotkol
+82	1782	hmota	hmote hmotou hmotu hmoty hmôt
+83	1783	novinka	noviniek novinkami novinke novinkou novinku novinky novinkách novinkám
+84	1784	preboha	
+85	1785	regionálny	regionálna regionálne regionálneho regionálnej regionálnom regionálnou regionálnu regionálnych regionálnym regionálnymi
+86	1786	kamarátka	kamarátkam kamarátkami kamarátke kamarátkou kamarátku kamarátky kamarátok
+87	1787	hladný	hladne hladnej hladnejší hladná hladné hladného hladní hladnú hladných hladným hladnými
+88	1788	opísať	opisovať opisuje opísal opísala opísali opísalo opísaná opísané opísaný opísaných opíš opíše opíšem opíšete opíšeš opíšte
+89	1789	počasie	počasia počasiu počasí počasím
+90	1790	doslova	
+91	1791	zložitý	najzložitejšia najzložitejší najzložitejších zložitej zložitejšia zložitejší zložitejších zložitejším zložitejšími zložitom zložitou zložitá zložité zložitého zložití zložitú zložitých zložitým zložitými
+92	1792	uhol	uhla uhle uhloch uhlom uhlov uhlová uhlové uhlu uhly uhlík uhlíka uhlíkoch uhlíkom uhlíkov uhlíkovej uhlíková uhlíkové uhlíkového uhlíkovú uhlíkový uhlíkových uhlíku uhlíky uholnej
+93	1793	snívať	sníva snívaj snívajte snívajú snívajúc sníval snívala snívali snívalo snívam snívame snívate snívaš
+94	1794	had	hada hadej hadia hadica hadicami hadice hadici hadicou hadicu hadie hadieho hadiu hadička hadičku hadmi hadoch hadom hadov hadovi hady hadí hadíc hadích hadím haďom
+95	1795	medveď	medvede medvedej medvedi medvedia medvedica medvedice medvedici medvedicu medvedie medvedieho medvediu medvedí medvedích medvedík medvedíka medvedíkmi medvedíkom medvedíkov medvedíkovi medvedíky medveďa medveďmi medveďoch medveďom medveďou medveďov medveďovi
+96	1796	panna	panic panica panici panické panického panický panicom panicov panien pannami panne pannou pannu panny pannách pannám
+97	1797	deväť	deviati deviatich deviatim deviatimi
+98	1798	odstrániť	odstráni odstránia odstránil odstránila odstránili odstránilo odstránim odstránime odstránite odstrániš odstráň odstráňme odstráňte
+99	1799	odpustiť	odpusti odpustia odpustil odpustila odpustili odpustite odpustí odpustím odpustíme odpustíte odpustíš odpusť odpusťte
+100	1800	napätie	napätia napätiu napätí napätím

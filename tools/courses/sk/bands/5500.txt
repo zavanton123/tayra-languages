@@ -1,0 +1,100 @@
+1	5401	prales	pralesa pralese pralesoch pralesom pralesov pralesu pralesy
+2	5402	kecať	kecaj kecajte kecajú kecal kecala kecali kecia kecá kecám kecáme kecáte kecáš
+3	5403	púť	púte púti
+4	5404	hus	husi husia husiu husou husí
+5	5405	náruč	náruče náruči náručou náručí
+6	5406	latinský	latinskej latinská latinské latinského latinskú latinských latinským
+7	5407	lôžko	lôžka lôžkami lôžkom lôžku lôžok
+8	5408	napadnutý	napadnutá napadnuté
+9	5409	siahať	siahajú siahal siahala siahali siahalo siahaš
+10	5410	motocykel	motocykla motocykle motocykli motocyklom motocyklov motocyklovej motocyklová motocyklový motocyklových
+11	5411	imunita	imunite imunitou imunitu imunity
+12	5412	pól	póle pólov pólu póly
+13	5413	nenechávať	nenecháva nenechávaj nenechávajte nenechávajú nenechával nenechávala nenechávali nenechávam nenechávame nenechávate nenechávaš
+14	5414	rozpad	rozpade rozpadom rozpadu
+15	5415	štatút	štatútom štatútu
+16	5416	nezamestnanosť	nezamestnanosti nezamestnanosťou
+17	5417	turbo	
+18	5418	ázijský	ázijskej ázijskom ázijská ázijské ázijského ázijskí ázijskú ázijských ázijským ázijskými
+19	5419	trend	trendoch trendom trendov trendu trendy
+20	5420	dimenzia	dimenziami dimenzie dimenzii dimenziu dimenziách dimenzií
+21	5421	lyžovanie	lyžovania lyžovaní
+22	5422	motivácia	motivácie motivácii motiváciou motiváciu
+23	5423	odvádzať	odvádza odvádzajú odvádzal odvádzala odvádzali odvádzam odvádzame odvádzate odvádzaš
+24	5424	nevzdávať	nevzdáva nevzdávaj nevzdávajme nevzdávajte nevzdávajú nevzdával nevzdávala nevzdávali nevzdávam nevzdávame nevzdávate nevzdávaš
+25	5425	potlačiť	potlačil potlačila potlačili potlačme potlačte potlačím potlačíme potlačíš
+26	5426	otáčka	otáčkach otáčkami otáčky otáčok
+27	5427	nepribližovať	nepribližoval nepribližovala nepribližovali nepribližuj nepribližuje nepribližujem nepribližujete nepribližujte nepribližujú
+28	5428	sólo	sóla sóle sólom
+29	5429	nezaplatiť	nezaplatia nezaplatil nezaplatila nezaplatili nezaplatí nezaplatím nezaplatíme nezaplatíte nezaplatíš
+30	5430	heroín	heroíne heroínom heroínu
+31	5431	krabička	krabičiek krabičke krabičkou krabičku krabičky
+32	5432	slanina	slanine slaninka slaninku slaninou slaninové slaninový slaninu slaniny
+33	5433	meď	medi meďou
+34	5434	kondóm	kondómami kondómoch kondómom kondómov kondómu kondómy
+35	5435	citrón	citróna citróne citrónom citrónov citrónová citrónový citrónu citróny
+36	5436	geometria	geometrické geometrický geometrie geometrii geometriou geometriu
+37	5437	štvať	štval štvala štvali štvalo štve štvem štvete štveš štvú
+38	5438	predbehnúť	predbehla predbehli predbehlo predbehne predbehnem predbehneme predbehni predbehnite predbehnú predbehol
+39	5439	pohľadnica	pohľadnicami pohľadnice pohľadnici pohľadniciach pohľadnicu pohľadníc
+40	5440	zaľúbiť	zaľúbi zaľúbia zaľúbil zaľúbila zaľúbili zaľúbilo zaľúbim zaľúbime zaľúbiš
+41	5441	horizontálny	horizontálna horizontálne horizontálneho horizontálnej horizontálnych
+42	5442	antický	antickej antickom antickou antická antické antického antickému antickí antickú antických antickým antickými
+43	5443	objasniť	objasni objasnil objasnila objasnili objasnilo objasnime objasnite objasní objasním objasníme objasníte objasníš
+44	5444	pokušenie	pokušenia pokušeniam pokušeniami pokušeniu pokušení pokušením
+45	5445	pomenovaný	pomenovaná pomenované pomenovaní pomenovaných
+46	5446	aukcia	aukcie aukcii aukciou aukciu aukciách aukcií
+47	5447	architektonický	architektonickej architektonická architektonické architektonickú architektonickým
+48	5448	ilustrácia	ilustráciami ilustrácie ilustráciu ilustrácií
+49	5449	cibuľa	cibule cibuľka cibuľou cibuľová cibuľové cibuľový cibuľu
+50	5450	zapliesť	zapletie zapletiem zapletiete zapletieš zapletú zaplietla zaplietli zaplietlo zaplietol
+51	5451	prepustenie	prepustenia prepusteniu prepustením
+52	5452	súčet	súčte súčtom súčtu
+53	5453	zberateľ	zberatelia zberateľa zberateľmi zberateľom zberateľov zberateľovi
+54	5454	vsadiť	vsadil vsadila vsadili vsadí vsadím vsadíme vsadíte vsadíš vsaď vsaďte
+55	5455	plavecký	plaveckej plaveckom plavecké plaveckého plaveckých
+56	5456	viniť	vinia vinil vinila vinili viní viním viníte viníš viň viňte
+57	5457	preraziť	preraz prerazia prerazil prerazila prerazili prerazilo prerazí prerazím prerazíme prerazíš
+58	5458	hrniec	hrnca hrncami hrnce hrnci hrncom hrncov
+59	5459	neobsahovať	neobsahoval neobsahuje neobsahujú
+60	5460	rozoznať	rozoznajú rozoznal rozoznala rozoznali rozozná rozoznám rozoznáme rozoznáte rozoznáš
+61	5461	nadýchnuť	nadýchla nadýchli nadýchne nadýchnem nadýchneme nadýchnete nadýchneš nadýchni nadýchnime nadýchnite nadýchnu nadýchol
+62	5462	kandidovať	kandidoval kandidovala kandidovali kandiduje kandidujem kandidujete kandiduješ
+63	5463	päťdesiat	päťdesiatich päťdesiatimi
+64	5464	upozorňovať	upozorňoval upozorňovala upozorňovali upozorňuje upozorňujem upozorňujeme upozorňujú
+65	5465	umožňujúci	umožňujúca umožňujúce umožňujúcich umožňujúcim umožňujúcu
+66	5466	kvalifikovaný	kvalifikovanejší kvalifikovaná kvalifikované kvalifikovaného kvalifikovaní kvalifikovaných kvalifikovaným
+67	5467	črta	črtami črtou črtu črty čŕt
+68	5468	nepochybovať	nepochyboval nepochybovala nepochybovali nepochybuj nepochybuje nepochybujem nepochybujeme nepochybuješ nepochybujte
+69	5469	strhnúť	strhla strhli strhlo strhne strhnem strhneme strhnete strhneš strhni strhnite strhnú strhol
+70	5470	jahoda	jahodami jahodovej jahodovou jahodová jahodové jahodového jahodovú jahodový jahodovým jahodu jahody jahôd jahôdka
+71	5471	voziť	vozenie vozia vozil vozila vozili vozí vozím vozíme vozíte vozíš
+72	5472	kreditný	kreditnej kreditnou kreditná kreditné kreditnú kreditných kreditnými
+73	5473	mechanika	mechanike mechanikou mechaniku mechaniky
+74	5474	lanovka	lanoviek lanovke lanovkou lanovku lanovky
+75	5475	odvodený	odvodená odvodené odvodených
+76	5476	klinec	klinca klincami klince klincoch klincom klincov klinček klinčeky
+77	5477	manipulovať	manipuloval manipulovala manipulovali manipuluje manipulujem manipulujeme manipulujete manipuluješ manipulujú
+78	5478	bacha	
+79	5479	veľkonočný	veľkonočnej veľkonočnom veľkonočná veľkonočné veľkonočného veľkonočnú veľkonočných veľkonočným
+80	5480	preferovať	preferoval preferovala preferovali preferuje preferujem preferujeme preferujete preferuješ preferujú
+81	5481	odstaviť	odstav odstavenia odstavenie odstavené odstavení odstavením odstavený odstavia odstavil odstavila odstavili odstavilo odstavte odstaví odstavím odstavíme odstavíš
+82	5482	medicínsky	medicínska medicínske medicínskeho medicínskej medicínskom medicínsku medicínskych medicínskym
+83	5483	spustenie	spustenia spusteniu spustením
+84	5484	poučiť	pouč poučia poučil poučila poučili poučte poučí poučím poučíme poučíte poučíš
+85	5485	poponáhľať	poponáhľa poponáhľaj poponáhľajme poponáhľajte poponáhľal poponáhľala poponáhľali poponáhľam poponáhľame poponáhľaš
+86	5486	antibiotikum	antibiotika antibiotikami antibiotiká antibiotikách antibiotikám antibiotík
+87	5487	implementácia	implementácie implementácii implementáciou implementáciu
+88	5488	predsedníctvo	predsedníctva
+89	5489	pripomienka	pripomienkami pripomienkou pripomienku pripomienky pripomienok
+90	5490	balet	balete baletom baletu
+91	5491	surový	surovej surové surového suroví surovú surových surovým
+92	5492	drzý	drzej drzá drzé drzého drzí drzú drzých drzým drzými
+93	5493	riešený	riešená riešené
+94	5494	nezačínať	nezačína nezačínaj nezačínajme nezačínajte nezačínajú nezačínal nezačínala nezačínali nezačínam nezačínaš
+95	5495	dizajnér	dizajnéra dizajnéri dizajnérom dizajnérov dizajnérovi
+96	5496	experimentálny	experimentálna experimentálne experimentálneho experimentálnej experimentálnom experimentálnou experimentálnu experimentálnych
+97	5497	spadať	spadajú spadá spadáme spadáte
+98	5498	kompromis	kompromise kompromisoch kompromisom kompromisov kompromisu kompromisy
+99	5499	skalica	skalice skalici
+100	5500	vykonávanie	vykonávania vykonávaniu vykonávaním

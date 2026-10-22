@@ -1,0 +1,100 @@
+1	1001	zadok	zadkami zadkoch zadkom zadkov zadku zadky
+2	1002	fotografia	fotografiami fotografickej fotografická fotografické fotografického fotografickú fotografický fotografických fotografie fotografii fotografiou fotografiu fotografiách fotografiám fotografií
+3	1003	obeť	obeti obetiach obetiam obetí obeťami obeťou
+4	1004	osobne	najosobnejšie osobnejšie
+5	1005	strieľať	strelené strelený strelia strelil strelila strelili streliť strelí strelím strelíme strelíte strelíš streľ streľte strieľa strieľaj strieľajte strieľajú strieľajúc strieľajúci strieľal strieľala strieľali strieľalo strieľam strieľame strieľania strieľanie strieľaní strieľaním strieľate strieľaš
+6	1006	starať	staraj starajme starajte starajú staral starala starali staralo starám staráme staráte staráš
+7	1007	nejako	
+8	1008	nasledovať	nasledoval nasledovala nasledovali nasledovalo nasleduj nasleduje nasledujem nasledujeme nasledujete nasleduješ nasledujme nasledujte nasledujú nasledujúc
+9	1009	právnik	právnici právnika právnikmi právnikoch právnikom právnikov právnikovi
+10	1010	dokument	dokumente dokumentmi dokumentoch dokumentom dokumentov dokumentu dokumenty
+11	1011	veda	vedami vede vedou vedu vedy vedách vied
+12	1012	vesmír	vesmíre vesmírmi vesmíroch vesmírom vesmírov vesmíru vesmíry
+13	1013	uveriť	uver uveria uveril uverila uverili uverte uverí uverím uveríme uveríte uveríš
+14	1014	vyriešiť	vyrieš vyrieši vyriešia vyriešil vyriešila vyriešili vyriešilo vyriešim vyriešime vyriešite vyriešiš vyriešme vyriešte
+15	1015	snáď	
+16	1016	obsah	obsahom obsahov obsahu obsahy
+17	1017	narodiť	narodia narodil narodila narodili narodilo narodí narodím narodíme narodíte narodíš
+18	1018	skontrolovať	skontroloval skontrolovala skontrolovali skontroluj skontroluje skontrolujem skontrolujeme skontrolujete skontroluješ skontrolujme skontrolujte skontrolujú
+19	1019	tradičný	tradične tradičnej tradičnejšie tradičnom tradičnou tradičná tradičné tradičného tradičnému tradiční tradičnú tradičných tradičným tradičnými
+20	1020	význam	význame významom významov významu významy
+21	1021	zub	zuba zubami zube zubmi zubnú zubný zuboch zubom zubov zubu zuby zúbky zúbok
+22	1022	využiť	využi využije využijem využijeme využijete využiješ využijú využijúc využil využila využili využilo využime využite
+23	1023	technika	technikami technike technikou techniku techniky technikách technikám techník
+24	1024	prvýkrát	
+25	1025	riešenie	riešenia riešeniach riešeniami riešeniu riešení riešením
+26	1026	horný	hornej hornom hornou horná horné horného horní hornú horných horným
+27	1027	mm	
+28	1028	mrzieť	mrzelo mrzia mrzí
+29	1029	pochádzať	pochádza pochádzajú pochádzal pochádzala pochádzali pochádzalo pochádzam pochádzame pochádzate pochádzaš
+30	1030	január	januára januári januárom januáru
+31	1031	vracať	vracaj vracajte vracajú vracajúc vracajúca vracajúci vracajúcich vracal vracala vracali vracania vracanie vracaní vracaním vracia vraciam vraciame vraciate vraciaš
+32	1032	prevádzka	prevádzkach prevádzke prevádzkou prevádzku prevádzky prevádzok
+33	1033	model	modeli modelmi modeloch modelom modelov modelu modely
+34	1034	nielen	
+35	1035	sranda	srande srandou srandu srandy
+36	1036	šport	športe športoch športom športov športu športy
+37	1037	spoločne	
+38	1038	nočný	nočnej nočnom nočnou nočná nočné nočného nočnému noční nočnú nočných nočným nočnými
+39	1039	čin	čine činmi činoch činom činov činu činy
+40	1040	marec	marca marce marci marcom marcu
+41	1041	topánka	topánkach topánkam topánkami topánke topánkou topánkový topánku topánky topánok topánočky
+42	1042	klasický	klasickej klasickom klasickou klasická klasické klasického klasickému klasickí klasickú klasických klasickým klasickými
+43	1043	zaslúžiť	zaslúž zaslúži zaslúžia zaslúžil zaslúžila zaslúžili zaslúžilo zaslúžim zaslúžime zaslúžite zaslúžiš zaslúžte
+44	1044	pozornosť	pozornosti pozornosťou
+45	1045	kultúrny	kultúrna kultúrneho kultúrnej kultúrnemu kultúrnom kultúrnou kultúrnu kultúrnych kultúrnym kultúrnymi
+46	1046	hmotnosť	hmotnosti hmotnosťou
+47	1047	ponuka	ponukami ponuke ponukou ponuku ponuky ponukám ponúk
+48	1048	papier	papiera papiere papieri papiermi papieroch papierom papierov papieru
+49	1049	uvedomiť	uvedom uvedomia uvedomil uvedomila uvedomili uvedomte uvedomí uvedomím uvedomíme uvedomíte uvedomíš
+50	1050	turnaj	turnaja turnaje turnaji turnajoch turnajom turnajov turnaju
+51	1051	huba	hubami hube hubka hubky hubou hubová hubu huby hubách hubám húb
+52	1052	most	mosta mostami moste mostoch mostom mostov mostu mosty mostík mostíka mostíkom mostíkov mostíku mostíky
+53	1053	lokalita	lokalitami lokalite lokalitou lokalitu lokality lokalitách lokalitám lokalít
+54	1054	vstať	vstal vstala vstali vstalo vstane vstanem vstaneme vstanete vstaneš vstanú vstaň vstaňte vstáva vstávaj vstávajme vstávajte vstávajú vstával vstávala vstávali vstávam vstávame vstávate vstávaš vstávať
+55	1055	návšteva	návštev návštevami návšteve návštevou návštevu návštevy návštevách návštevám
+56	1056	titul	titule titulmi tituloch titulom titulov titulu tituly
+57	1057	zástupca	zástupcami zástupcom zástupcov zástupcovi zástupcovia zástupcu
+58	1058	podpísať	podpisovať podpisuje podpísal podpísala podpísali podpísalo podpísania podpísanie podpísaná podpísaním podpísaný podpíš podpíše podpíšem podpíšeme podpíšete podpíšeš podpíšte podpíšu
+59	1059	dedina	dedine dedinka dedinke dedinou dedinskej dedinská dedinské dedinského dedinskí dedinskú dedinský dedinských dedinu dediny dedinách dedinám dedín
+60	1060	vrstva	vrstiev vrstvami vrstve vrstvou vrstvu vrstvy vrstvách vrstvám
+61	1061	linka	liniek linkami linke linkou linku linky linkách
+62	1062	pokus	pokuse pokusmi pokusoch pokusom pokusov pokusu pokusy
+63	1063	spoločenský	spoločenskej spoločenskom spoločenskou spoločenská spoločenské spoločenského spoločenskému spoločenskí spoločenskú spoločenských spoločenským spoločenskými
+64	1064	zima	zime zimom zimou zimovi zimu zimy zím
+65	1065	absolútny	absolútna absolútne absolútneho absolútnej absolútnemu absolútnom absolútnou absolútnu absolútnych absolútnym
+66	1066	baba	babami babe babou babu baby babách babám báb
+67	1067	obávať	obáva obávaj obávajte obávajú obávajúc obával obávala obávali obávam obávame obávate obávaš
+68	1068	vedľa	
+69	1069	prach	prachmi prachoch prachom prachov prachu prachy
+70	1070	ocko	ocka ockom ockovia
+71	1071	žiaden	
+72	1072	odborný	odbornej odbornom odbornou odborná odborné odborného odbornú odborných odborným odbornými
+73	1073	výborne	
+74	1074	poslanec	poslanca poslancami poslanci poslancom poslancov poslancovi
+75	1075	víno	vín vína vínach víne vínom vínu
+76	1076	prostriedok	prostriedkami prostriedkoch prostriedkom prostriedkov prostriedku prostriedky
+77	1077	končiť	konči končia končiac končiace končiaci končil končila končili končilo končite končí končím končíme končíte končíš
+78	1078	mačka	kocúr kocúra kocúrik kocúrika kocúrom kocúrovi mačacej mačacia mačacie mačacieho mačaciu mačacom mačací mačacích mačacími mačiek mačičiek mačička mačičke mačičkou mačičku mačičky mačkami mačke mačkou mačku mačky mačkách mačkám
+79	1079	múzeum	múzea múzeom múzeu múzeá múzeách múzeí
+80	1080	priať	praj praje prajem prajeme prajete praješ prajme prajte prajú prial priala priali
+81	1081	júl	júla júli júlom júlový júlu júly
+82	1082	oheň	ohne ohni ohniska ohnisko ohniskom ohnisku ohniská ohník ohnísk ohňa ohňoch ohňom ohňov ohňového ohňový ohňu
+83	1083	taliansky	talianska talianske talianskeho talianskej talianskemu talianski talianskom talianskou taliansku talianskych talianskym talianskymi
+84	1084	vzdať	vzdaj vzdajme vzdajte vzdajú vzdal vzdala vzdali vzdalo vzdá vzdám vzdáme vzdáte vzdáš
+85	1085	podujatie	podujatia podujatiach podujatí podujatím vysvedčenia vysvedčenie vysvedčení
+86	1086	odbor	odbore odbormi odboroch odborom odborov odboru odbory
+87	1087	týkať	týka týkajú týkal týkala týkali týkalo
+88	1088	vták	vtáci vtáka vtákmi vtákoch vtákom vtákov vtákovi vtáky vtáčik vtáčiky
+89	1089	park	parkoch parkom parkov parku parky
+90	1090	radosť	radosti radostiach radostí radosťou
+91	1091	ponúknuť	ponúkla ponúkli ponúklo ponúkne ponúknem ponúkneme ponúknete ponúkneš ponúkni ponúknite ponúknu ponúkol
+92	1092	náhodou	
+93	1093	noviny	novinami novinách novinám novín
+94	1094	spojenie	spojenia spojeniach spojeniu spojením
+95	1095	účel	účele účelom účelov účelové účelu účely
+96	1096	august	augusta auguste augustom augustovej augustovi augustové augustového augustový augusty
+97	1097	odtiaľ	
+98	1098	ležať	lež ležal ležala ležali ležalo ležia ležiac ležte leží ležím ležíme ležíte ležíš
+99	1099	únia	únie únii úniou úniu
+100	1100	národ	národa národe národmi národoch národom národov národu národy

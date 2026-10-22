@@ -1,0 +1,100 @@
+1	4201	šíp	šípe šípmi šípom šípov šípu šípy
+2	4202	pohodlný	pohodlnej pohodlnejšia pohodlnejšieho pohodlnejší pohodlnom pohodlnou pohodlná pohodlné pohodlného pohodlnú pohodlných pohodlným
+3	4203	obklopený	obklopenej obklopenom obklopená obklopené obklopeného obklopení
+4	4204	načase	
+5	4205	veľkolepý	veľkolepej veľkolepom veľkolepou veľkolepá veľkolepé veľkolepého veľkolepému veľkolepí veľkolepú veľkolepých veľkolepým
+6	4206	gróf	grófa grófom grófov grófovi
+7	4207	pôsobnosť	pôsobnosti pôsobnosťou
+8	4208	pamätný	pamätnej pamätnom pamätná pamätné pamätného pamätnú pamätných
+9	4209	naplno	
+10	4210	využívanie	využívania využívaniu využívaním
+11	4211	dodávateľ	dodávatelia dodávateľa dodávateľmi dodávateľoch dodávateľom dodávateľov dodávateľovi
+12	4212	prísaha	prísah prísahe prísahou prísahu prísahy prísahám
+13	4213	sluha	sluhami sluhom sluhov sluhovi sluhovia sluhu
+14	4214	pozvaný	pozvaná pozvané pozvaní pozvaných
+15	4215	realizovaný	realizovaná realizované realizovaných
+16	4216	černoch	černocha černochmi černochoch černochom černochov černochovi černosi
+17	4217	klíma	klíme klímou klímu klímy
+18	4218	expedícia	expedície expedícii expedíciou expedíciu expedíciách expedícií
+19	4219	debata	debatami debatou debatu debaty debatách debát
+20	4220	nevzdať	nevzdaj nevzdajú nevzdal nevzdala nevzdali nevzdá nevzdám nevzdáme nevzdáte nevzdáš
+21	4221	nadriadený	nadriadenou nadriadeného nadriadenému nadriadení nadriadených nadriadeným nadriadenými
+22	4222	španielsky	španielske španielskeho španielskej španielskemu španielski španielskou španielskych španielskym španielskymi
+23	4223	fórum	fóra fórach
+24	4224	hmla	hmle hmlou hmlové hmlu hmly
+25	4225	salón	salóna salóne salónoch salónom salónov salónu salóny
+26	4226	usporiadaný	usporiadanej usporiadaná usporiadané usporiadaní usporiadanú usporiadaných
+27	4227	betón	betóne betónom betónové betónový betónu
+28	4228	hustota	hustote hustotou hustotu hustoty
+29	4229	vyzvať	vyzval vyzvala vyzvali vyzve vyzvem vyzveme vyzveš vyzvi vyzvite vyzvú
+30	4230	štartovať	štartoval štartovala štartovali štartovalo štartuj štartuje štartujem štartujeme štartujete štartujte štartujú
+31	4231	čudovať	čudoval čudovala čudovali čuduj čuduje čudujem čudujeme čudujete čuduješ čudujú
+32	4232	očistiť	očisti očistia očistil očistila očistili očistilo očistite očistí očistím očistíme očistíte očistíš očisť
+33	4233	živiť	živia živil živila živili živím živíme živíte živíš
+34	4234	pridelený	pridelenej pridelená pridelené prideleného pridelení pridelenú pridelených prideleným
+35	4235	naveky	
+36	4236	prvotný	prvotnej prvotnom prvotnou prvotná prvotné prvotného prvotnému prvotnú prvotných prvotným
+37	4237	obchodovať	obchodoval obchodovala obchodovali obchodovalo obchoduje obchodujem obchodujeme obchodujete obchoduješ obchodujú
+38	4238	tendencia	tendencie tendenciou tendenciu tendencií
+39	4239	príloha	príloh prílohe prílohou prílohu prílohy
+40	4240	rez	reze rezom rezov rezu rezy
+41	4241	rozhlas	rozhlase rozhlasom rozhlasu
+42	4242	skóre	
+43	4243	nádhera	nádhere nádherou nádheru nádhery
+44	4244	pilier	piliera piliere pilieri piliermi pilieroch pilierom pilierov pilieru
+45	4245	prenajať	prenajal prenajala prenajali prenajalo prenajme prenajmem prenajmeme prenajmeš prenajmi
+46	4246	bodka	bodiek bodkami bodkou bodku bodky
+47	4247	odrezať	odrezal odrezala odrezali odrezalo odrež odreže odrežem odrežeme odrežete odrežeš odrežme odrežte odrežú
+48	4248	nakresliť	nakresli nakreslil nakreslila nakreslili nakreslite nakreslí nakreslím nakreslíme nakreslíte nakreslíš
+49	4249	preniknúť	prenikla prenikli preniklo prenikne preniknem prenikneme prenikneš preniknú prenikol
+50	4250	podvozok	podvozkom podvozkov podvozku podvozky
+51	4251	definovaný	definovanej definovaná definované definovaných
+52	4252	rebro	rebier rebierka rebierko rebra rebrami rebre rebrom rebrá rebrách
+53	4253	členstvo	členstva členstve členstvom
+54	4254	zachraňovať	zachraňoval zachraňovala zachraňovali zachraňuj zachraňuje zachraňujem zachraňujeme zachraňujete zachraňuješ zachraňujú zachraňujúc
+55	4255	nehnuteľnosť	nehnuteľnosti nehnuteľnostiach nehnuteľností nehnuteľnosťami
+56	4256	nezistiť	nezistia nezistil nezistila nezistili nezistilo nezistí nezistím nezistíme nezistíte nezistíš
+57	4257	inštrukcia	inštrukciami inštrukcie inštrukciám inštrukcií
+58	4258	onedlho	
+59	4259	rám	ráme rámoch rámom rámov rámu rámy
+60	4260	náradie	náradia náradí náradím
+61	4261	píla	píl pílami píle pílka pílku pílou pílu píly
+62	4262	reportér	reportéra reportéri reportérmi reportérom reportérov reportérovi
+63	4263	vzťahovať	vzťahuje vzťahujú
+64	4264	vzniknutý	vzniknutej vzniknutá vzniknuté vzniknutého vzniknutú vzniknutých
+65	4265	nestrieľať	nestrieľa nestrieľaj nestrieľajte nestrieľajú nestrieľal nestrieľala nestrieľali nestrieľalo nestrieľam nestrieľame nestrieľate nestrieľaš
+66	4266	modernizácia	modernizácie modernizácii modernizáciou modernizáciu
+67	4267	výhovorka	výhovoriek výhovorkami výhovorkou výhovorku výhovorky
+68	4268	ťažiť	ťaženia ťaženie ťažení ťažia ťažil ťažila ťažili ťažilo ťažte ťaží ťažíme ťažíte ťažíš
+69	4269	utajený	utajenej utajenom utajenou utajená utajené utajeného utajení utajenú utajených utajeným
+70	4270	poisťovňa	poisťovne poisťovni poisťovniam poisťovní poisťovňou poisťovňu
+71	4271	pestovanie	pestovania pestovaniu pestovaním
+72	4272	autorka	autorkou autorku autorky
+73	4273	letenka	leteniek letenkami letenke letenkou letenku letenky
+74	4274	spod	
+75	4275	nepiť	nepi nepije nepijem nepijeme nepijete nepiješ nepijú nepil nepila nepili nepite
+76	4276	virtuálny	virtuálna virtuálne virtuálneho virtuálnej virtuálnom virtuálnou virtuálnu virtuálnych virtuálnym
+77	4277	hlavička	hlavičiek hlavičke hlavičkou hlavičku hlavičky
+78	4278	naštvať	naštval naštvala naštvali naštvalo naštve naštvem naštvete naštveš naštvi naštvú
+79	4279	klasika	klasike klasikou klasiku klasiky
+80	4280	poškodiť	poškodia poškodil poškodila poškodili poškodilo poškodí poškodím poškodíte poškodíš
+81	4281	prevod	prevode prevodoch prevodom prevodov prevodu prevody
+82	4282	odkázať	odkázal odkázala odkázali odkáž odkáže odkážem odkážeme odkážete odkážeš odkážte
+83	4283	nanešťastie	
+84	4284	chrípka	chrípke chrípkou chrípkové chrípku chrípky
+85	4285	rátať	ráta rátaj rátajme rátajte rátajú rátal rátala rátali rátam rátame rátate rátaš
+86	4286	investovať	investoval investovala investovali investovalo investuje investujem investujeme investujete investuješ investujú
+87	4287	tiecť	tečie tečú tečúcej tečúci tiekla tiekli tieklo tiekol
+88	4288	matica	matice matici maticou maticu matička matičke matičky matíc
+89	4289	opasok	opaska opaskom opaskov opasku opasky
+90	4290	vnuk	vnuci vnuka vnukmi vnukom vnukov vnukovi vnukovia vnúčik
+91	4291	plátno	plátien plátna plátnach plátne plátnom
+92	4292	podlažie	podlažia podlažiach podlažiami podlaží
+93	4293	pätnásť	pätnásti pätnástich pätnástimi
+94	4294	pristátie	pristátia pristátiu pristátí pristátím
+95	4295	psychológia	psychológie psychológii psychológiou psychológiu
+96	4296	ibaže	
+97	4297	vodopád	vodopáde vodopádmi vodopádoch vodopádom vodopádov vodopádu vodopády
+98	4298	oplatiť	oplatia oplatil oplatila oplatili oplatilo oplatí oplatím oplatíš
+99	4299	dávny	dávna dávne dávneho dávnej dávni dávnou dávnu dávnych dávnym dávnymi
+100	4300	udeľovať	udeľovali udeľuje udeľujem udeľujú

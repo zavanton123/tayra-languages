@@ -1,0 +1,100 @@
+1	7601	stvárať	stvára stvárajú stváral stvárala stvárali stváram stvárame stvárate stváraš
+2	7602	poskytnutý	poskytnutá poskytnuté poskytnutí poskytnutých
+3	7603	pôvodca	pôvodcom pôvodcu
+4	7604	oneskorenie	oneskorenia oneskorením
+5	7605	veliaci	veliaca veliace veliaceho veliacej veliacemu veliacim veliacom veliacu
+6	7606	dóm	dóme dómu
+7	7607	neobviňovať	neobviňoval neobviňovala neobviňuj neobviňuje neobviňujem neobviňujeme neobviňujte
+8	7608	vznikajúci	vznikajúce vznikajúceho vznikajúcich
+9	7609	experimentovať	experimentoval experimentovala experimentovali experimentovalo experimentovanie experimentuje experimentujem experimentujeme experimentujete experimentujú
+10	7610	zneužiť	zneužije zneužiješ zneužijú zneužil zneužila zneužili
+11	7611	budiť	budenie budia budil budila budili budilo budí budím budíme budíš buďme buďte
+12	7612	fúzia	fúzie fúzii fúziou fúziu fúzií
+13	7613	koľajnica	koľajnice koľajnici koľajniciach koľajniciam koľajníc
+14	7614	zábrana	zábran zábranu zábrany
+15	7615	namieriť	namier namieri namieria namieril namierila namierili namierim namierime namierite namieriš namierte
+16	7616	utvoriť	utvoril utvorila utvorili utvorte utvorí utvára utvárať
+17	7617	zaznieť	zaznejú zaznel zaznela zazneli zaznelo zaznie
+18	7618	poslankyňa	poslankyne
+19	7619	privítanie	privítania privítaní privítaním
+20	7620	čistiareň	čistiarne čistiarni čistiarní
+21	7621	terénny	terénne terénnych
+22	7622	tŕň	tŕne tŕni tŕňa tŕňmi tŕňom tŕňov tŕňová
+23	7623	povzbudiť	povzbudil povzbudila povzbudili povzbudilo povzbudí povzbudíme povzbuď povzbuďte
+24	7624	poslušnosť	poslušnosti poslušnosťou
+25	7625	próza	prozaické próze prózu prózy
+26	7626	pretrvávať	pretrváva pretrvávajú
+27	7627	domnienka	domnienkach domnienkami domnienke domnienku domnienky domnienok
+28	7628	narastať	narastajú narastal narastala narastali narastá
+29	7629	titulný	titulnej titulná titulné titulnú titulných
+30	7630	mechúr	mechúra mechúre mechúrom mechúru
+31	7631	potvora	potvor potvorami potvorka potvorky potvorou potvoru potvory
+32	7632	sympatia	sympatiami sympatie sympatiu sympatií
+33	7633	zmestiť	zmestia zmestil zmestila zmestili zmestilo zmestí zmestím zmestíme zmestíš
+34	7634	dekorácia	dekoráciami dekorácie dekorácii dekoráciou dekoráciu dekorácií
+35	7635	zložite	najzložitejšie zložitejšie
+36	7636	oprieť	oprel oprela opreli opri oprie opriem oprieš oprite
+37	7637	infekčný	infekčná infekčné infekčnú infekčných
+38	7638	neprekvapovať	neprekvapuje
+39	7639	verdikt	verdikte verdiktom verdiktu verdikty
+40	7640	sprava	sprave spravu spravy
+41	7641	chorvátsky	chorvátske chorvátskeho chorvátskej chorvátskych
+42	7642	nepodobať	nepodobajú nepodobal nepodobali nepodobalo nepodobá nepodobám nepodobáme nepodobáte nepodobáš
+43	7643	cukrovka	cukrovke cukrovkou cukrovku cukrovky
+44	7644	dvojhra	dvojhre dvojhry
+45	7645	koks	kokse koksom koksu
+46	7646	uzda	uzde uzdu uzdy
+47	7647	namietať	namieta namietajú namietal namietala namietali namietam namietame namietate
+48	7648	príbuzná	príbuznou príbuzné príbuznú
+49	7649	spontánne	
+50	7650	podplukovník	podplukovníka podplukovníkom podplukovníkovi
+51	7651	lux	luxe luxu
+52	7652	projektový	projektovej projektová projektové projektového
+53	7653	odlietať	odlieta odlietajú odlietal odlietali odlietam odlietame odlietate odlietaš
+54	7654	kotúč	kotúča kotúče kotúči kotúčom
+55	7655	racionálne	
+56	7656	vidlička	vidličiek vidličkami vidličke vidličkou vidličkový vidličku vidličky
+57	7657	zmiasť	zmiatla zmiatli zmiatlo zmiatol zmätie
+58	7658	dvojnásobok	
+59	7659	posudzovať	posudzoval posudzovala posudzovali posudzuje posudzujem posudzujeme posudzuješ posudzujú
+60	7660	elektróda	elektród elektródami elektródy
+61	7661	vysielaný	vysielaná vysielané vysielaných
+62	7662	kľučka	kľučke kľučkou kľučku kľučky
+63	7663	čiarka	čiarkou čiarku čiarky čiarok
+64	7664	nakrúcať	nakrúca nakrúcajú nakrúcal nakrúcala nakrúcali nakrúcam nakrúcame nakrúcate nakrúcaš
+65	7665	prihlásený	prihlásená prihlásené prihlásení prihlásených
+66	7666	cievka	cievku cievky cievok
+67	7667	zľaknúť	zľakla zľakli zľakne zľaknem zľakneš zľaknú zľakol
+68	7668	nedopadnúť	nedopadla nedopadli nedopadlo nedopadne nedopadneš nedopadnú nedopadol
+69	7669	príležitostne	
+70	7670	reportérka	reportérke reportérkou reportérku reportérky
+71	7671	policajtka	policajtke policajtkou policajtku policajtky
+72	7672	samička	samičiek samičke samičku samičky
+73	7673	oblastný	oblastnej oblastná oblastné oblastného oblastnú oblastných
+74	7674	zmazať	zmazal zmazala zmazali zmaž zmaže zmažem zmažeš zmažte
+75	7675	príležitostný	príležitostná príležitostné príležitostnú príležitostných
+76	7676	slúchadlo	slúchadiel slúchadla slúchadlami slúchadlá slúchadlách
+77	7677	podporujúci	podporujúca podporujúce podporujúcej podporujúcich podporujúcu
+78	7678	bič	biča biče bičom bičík bičíkom bičíky
+79	7679	vypýtať	vypýta vypýtaj vypýtajte vypýtajú vypýtal vypýtala vypýtali vypýtam vypýtame vypýtaš
+80	7680	rubrika	rubrike rubriku rubriky rubrikách rubrík
+81	7681	maximum	maxima maxime maximom maximu maximá
+82	7682	ústie	ústia ústiu ústí
+83	7683	spomaľovať	spomaľoval spomaľovala spomaľuje spomaľujem spomaľujeme spomaľuješ spomaľujú
+84	7684	strachovať	strachoval strachovala strachovali strachuj strachuje strachujem strachujeme strachujete strachuješ strachujú
+85	7685	priskoro	
+86	7686	hliníkový	hliníkovej hliníkové hliníkového hliníkovú hliníkových
+87	7687	priekopa	priekope priekopu priekopy
+88	7688	vývoz	vývozom vývozu
+89	7689	pripútať	pripúta pripútaj pripútajte pripútajú pripútal pripútala pripútali pripútam pripútame pripútaš
+90	7690	hnačka	hnačke hnačkou hnačku hnačky
+91	7691	príliv	prílive prílivom prílivov prílivu prílivy
+92	7692	pochváliť	pochváli pochválil pochválila pochválili pochválim pochváliš pochváľ
+93	7693	poistený	poistená poistené poistení
+94	7694	zvrátený	zvrátenej zvrátenom zvrátenou zvrátená zvrátené zvráteného zvrátení zvrátenú zvrátených zvráteným
+95	7695	stajňa	stajne stajni stajniach stajní stajňou stajňu
+96	7696	konzumácia	konzumácie konzumácii konzumáciou konzumáciu
+97	7697	práčovňa	práčovne práčovni práčovňou práčovňu
+98	7698	zárodok	zárodkov zárodku zárodky
+99	7699	zápisník	zápisníka zápisníkom zápisníku zápisníky
+100	7700	bezchybný	bezchybne bezchybnom bezchybnou bezchybná bezchybné bezchybnú bezchybných bezchybným

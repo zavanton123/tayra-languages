@@ -1,0 +1,100 @@
+1	5201	somár	somára somáre somári somárik somárika somármi somárom somárov somárovi
+2	5202	nespomenúť	nespomenie nespomeniem nespomenieme nespomeniete nespomenieš nespomenul nespomenula nespomenuli nespomenú nespomeň
+3	5203	reklamný	reklamnej reklamnom reklamnou reklamná reklamné reklamného reklamní reklamnú reklamných reklamným reklamnými
+4	5204	plot	plota plote plotmi plotom plotov plotu ploty
+5	5205	lenivý	lenivej lenivo lenivá lenivé lenivého leniví lenivú lenivých lenivým lenivými
+6	5206	kamión	kamióna kamióne kamiónmi kamiónoch kamiónom kamiónov kamiónu kamióny
+7	5207	kokaín	kokaíne kokaínom kokaínu
+8	5208	semifinále	
+9	5209	sieťový	sieťovej sieťová sieťové sieťového sieťovú sieťových
+10	5210	ujať	ujal ujala ujali ujalo ujmem ujmete ujmeš ujmi ujmite ujmú
+11	5211	pozorovateľ	pozorovatelia pozorovateľa pozorovateľmi pozorovateľom pozorovateľov pozorovateľovi
+12	5212	chirurgický	chirurgickej chirurgickom chirurgickou chirurgická chirurgické chirurgického chirurgickú chirurgických chirurgickým
+13	5213	transformácia	transformácie transformácii transformáciou transformáciu
+14	5214	diplomatický	diplomatickej diplomatickou diplomaticky diplomatická diplomatické diplomatického diplomatickú diplomatických
+15	5215	klopať	klop klopal klopala klopali klope klopem klopeme klopete klopeš klopú
+16	5216	komiks	komikse komiksoch komiksom komiksov komiksu komiksy
+17	5217	rozširovanie	rozširovania rozširovaniu rozširovaní rozširovaním
+18	5218	pohyblivý	pohyblivom pohyblivá pohyblivé pohyblivého pohyblivú pohyblivých pohyblivým pohyblivými
+19	5219	býk	býci býka býkmi býkoch býkom býkov býkovi býky
+20	5220	slúžka	slúžkami slúžke slúžkou slúžku slúžky slúžok
+21	5221	žrať	žerie žeriem žerieme žeriete žerieš žerte žerú žral žrala žrali žralo
+22	5222	pohádať	poháda pohádajú pohádal pohádala pohádali pohádame pohádate
+23	5223	dezert	dezerte dezertom dezertov dezertu dezerty
+24	5224	zásuvka	zásuviek zásuvkami zásuvke zásuvku zásuvky zásuvkách
+25	5225	veronika	veronike veronikou veroniku veroniky
+26	5226	vyznať	vyznajú vyznal vyznala vyznali vyzná vyznám vyznáme vyznáte vyznáš
+27	5227	kombinovaný	kombinovanej kombinovaná kombinované kombinovaným
+28	5228	hocijaký	hocijakej hocijakom hocijakou hocijaká hocijaké hocijakého hocijakému hocijakú hocijakých hocijakým hocijakými
+29	5229	neúspech	neúspechom neúspechov neúspechu neúspechy
+30	5230	smernica	smernicami smernice smernici smerniciach smernicou smernicu smerníc
+31	5231	potucha	potuchu potuchy potúch
+32	5232	perspektíva	perspektív perspektíve perspektívny perspektívou perspektívu perspektívy
+33	5233	zadať	zadaj zadajte zadal zadala zadali zadá zadám zadáme zadáte zadáš
+34	5234	biblický	biblickej biblickom biblická biblické biblického biblickú biblických
+35	5235	uvoľnenie	uvoľnenia uvoľneniu uvoľnením
+36	5236	lacno	lacnejšie najlacnejšie
+37	5237	imunitný	imunitnej imunitné imunitného imunitnému imunitnú imunitných imunitným
+38	5238	hlavica	hlavicami hlavice hlavici hlavicou hlavicu hlavíc
+39	5239	prilba	prilbami prilbe prilbou prilbu prilby prilbách prilieb
+40	5240	záložný	záložnej záložnom záložná záložné záložného záložnému záložnú záložných záložným
+41	5241	nenosiť	nenos nenosia nenosil nenosila nenosili nenoste nenosí nenosím nenosíme nenosíte nenosíš
+42	5242	predpokladaný	predpokladanej predpokladanom predpokladaná predpokladané predpokladaného predpokladaných predpokladaným
+43	5243	nepriaznivý	nepriaznivej nepriaznivom nepriaznivé nepriaznivého nepriaznivému nepriaznivých nepriaznivým
+44	5244	podpor	podpore
+45	5245	plechovka	plechoviek plechovkami plechovke plechovkou plechovku plechovky plechovkách
+46	5246	maličký	maličkí maličkých maličkým maličkými
+47	5247	zvažovať	zvažoval zvažovala zvažovali zvažuje zvažujem zvažujeme zvažujete zvažuješ zvažujú zvažujúc
+48	5248	zozadu	
+49	5249	textový	textovej textovom textová textové textového textovú textových
+50	5250	investor	investora investori investormi investorom investorov investorovi
+51	5251	nepoužiť	nepouži nepoužije nepoužijem nepoužijeme nepoužijete nepoužiješ nepoužijú nepoužil nepoužila nepoužili nepoužite
+52	5252	spĺňať	spĺňa spĺňajú spĺňal spĺňam spĺňate spĺňaš
+53	5253	pokročilý	pokročilej pokročilejšie pokročilejší pokročilom pokročilou pokročilá pokročilé pokročilého pokročilí pokročilú pokročilých pokročilým pokročilými
+54	5254	uzatvárať	uzatvára uzatvárajú uzatváral uzatvárali uzatváram uzatvárame uzatvárate uzatváraš
+55	5255	finančne	
+56	5256	uspokojiť	uspokoj uspokoja uspokojil uspokojila uspokojili uspokojilo uspokojí uspokojím uspokojíme uspokojíš
+57	5257	narobiť	narobia narobil narobila narobili narobilo narobí narobím narobíme narobíte narobíš
+58	5258	nezobrať	nezober nezoberie nezoberiem nezoberieme nezoberiete nezoberieš nezoberú nezobral nezobrala nezobrali
+59	5259	dneska	
+60	5260	klaun	klauna klaunami klauni klaunmi klaunoch klaunom klaunov klaunovi
+61	5261	urýchliť	urýchli urýchlia urýchlil urýchlila urýchlili urýchlilo urýchlim urýchlime urýchlite
+62	5262	vykopnúť	vykopla vykopli vykopne vykopnem vykopneme vykopnete vykopneš vykopni vykopnite vykopnú vykopol
+63	5263	dovoľovať	dovoľoval dovoľuje dovoľujem dovoľujeme dovoľujete dovoľuješ dovoľujú
+64	5264	markíza	markíze markízy
+65	5265	londýnsky	londýnska londýnske londýnskeho londýnskej londýnski londýnskom londýnskou londýnsku londýnskych londýnskym
+66	5266	šialene	najšialenejšie šialenejšie
+67	5267	dvojička	dvojičiek dvojičkami dvojičke dvojičku dvojičky dvojičkách dvojičkám
+68	5268	vhodne	najvhodnejšie vhodnejšie
+69	5269	žiara	žiari žiarou
+70	5270	zvedavosť	zvedavosti zvedavosťou
+71	5271	interval	intervale intervaloch intervalov intervalu intervaly
+72	5272	kaziť	kazia kazil kazila kazili kazí kazím kazíme kazíte kazíš
+73	5273	úsvit	úsvite úsvitom úsvitu
+74	5274	neúspešný	neúspešnej neúspešnom neúspešná neúspešné neúspešného neúspešných neúspešným
+75	5275	aminokyselina	aminokyseliny aminokyselín
+76	5276	zdolať	zdolaj zdolal zdolala zdolali zdolá zdolám zdoláme
+77	5277	bezprostredne	
+78	5278	jedovatý	jedovatej jedovatou jedovatá jedovaté jedovatého jedovatú jedovatých jedovatým jedovatými
+79	5279	pripustiť	pripusti pripustil pripustila pripustili pripustime pripustite pripustí pripustím pripustíme pripustíš pripusť pripusťme
+80	5280	rezerva	rezerv rezerve rezervou rezervu rezervy
+81	5281	národnosť	národnosti národností
+82	5282	mučenie	mučenia mučeniu mučení mučením
+83	5283	uskutočnený	uskutočnená uskutočnené uskutočneného uskutočnení uskutočnených
+84	5284	veterán	veterána veteráni veteránmi veteránom veteránov veteránovi
+85	5285	bábka	bábkami bábkou bábkové bábkový bábku bábky bábok
+86	5286	vyrovnaný	najvyrovnanejší vyrovnaná vyrovnané vyrovnaného vyrovnaní vyrovnanú vyrovnaným
+87	5287	manipulácia	manipulácie manipulácii manipuláciou manipuláciu manipulácií
+88	5288	škatuľa	škatule škatuli škatuliach škatuľami škatuľka škatuľku škatuľou škatuľu škatúľ
+89	5289	slávnostne	
+90	5290	vak	vakmi vakoch vakom vakov vaku vaky
+91	5291	kravina	kravinami kravine kravinou kravinu kraviny kravinách kravinám
+92	5292	pojednávanie	pojednávania pojednávaniach pojednávaniu pojednávaní pojednávaním
+93	5293	vyhlasovať	vyhlasoval vyhlasovali vyhlasuje vyhlasujem vyhlasujeme vyhlasujete vyhlasuješ vyhlasujú
+94	5294	pleso	plesa plesom plesá plies
+95	5295	šatňa	šatne šatni šatniach šatní šatňu
+96	5296	námaha	námahe námahou námahu námahy
+97	5297	prebiehajúci	prebiehajúce prebiehajúceho prebiehajúcej prebiehajúcemu prebiehajúcich prebiehajúcim prebiehajúcom prebiehajúcu
+98	5298	súdruh	súdruha súdruhmi súdruhom súdruhov súdruhovi súdruhovia súdružka
+99	5299	pokryť	pokry pokryje pokryjem pokryjeme pokryjú pokryl pokryla pokryli pokrylo pokryte
+100	5300	stánok	stánkoch stánkom stánkov stánku stánky

@@ -1,0 +1,100 @@
+1	1601	piatok	piatka piatkom piatkovej piatková piatkové piatkového piatkovú piatkový piatku piatky
+2	1602	poskytnúť	poskytla poskytli poskytlo poskytne poskytnem poskytneme poskytnete poskytneš poskytni poskytnite poskytnú poskytol
+3	1603	vybaviť	vybav vybavia vybavil vybavila vybavili vybavilo vybavme vybavte vybaví vybavím vybavíme vybavíte vybavíš
+4	1604	kontrolovať	kontroloval kontrolovala kontrolovali kontrolovalo kontroluj kontroluje kontrolujem kontrolujeme kontrolujete kontroluješ kontrolujte kontrolujú
+5	1605	nohavice	nohavicami nohaviciach nohaviciam nohavíc
+6	1606	uistiť	uisti uistia uistil uistila uistili uistime uistite uistí uistím uistíme uistíte uistíš
+7	1607	cudzí	cudzej cudzia cudzie cudzieho cudziemu cudziu cudzom cudzou cudzích cudzím cudzími
+8	1608	nálada	nálad nálade náladičku náladou náladu nálady
+9	1609	úsek	úsekmi úsekoch úsekom úsekov úseku úseky
+10	1610	jar	jari jarou
+11	1611	beh	behom behu behy
+12	1612	smiať	smej smeje smejem smejeme smejete smeješ smejte smejú smejúc smial smiala smiali smialo
+13	1613	záver	závere závermi záveroch záverom záverov záveru závery
+14	1614	úprimný	najúprimnejšia najúprimnejšiu najúprimnejší úprimnej úprimnejšia úprimnejší úprimnou úprimná úprimné úprimného úprimní úprimnú úprimných úprimným
+15	1615	neísť	neide neidem neideme neidete neideš neidú neišiel neišla neišli neišlo nepoďme nešiel nešla nešli nešlo
+16	1616	ochrániť	ochráni ochránia ochránil ochránila ochránili ochránilo ochránim ochránime ochránite ochrániš ochráň ochráňte
+17	1617	dráha	dráh dráhach dráhami dráhe dráhou dráhový dráhu dráhy
+18	1618	vykonať	vykonaj vykonajte vykonajú vykonal vykonala vykonali vykonalo vykoná vykonám vykonáme vykonáte vykonáš
+19	1619	krídlo	krídel krídelká krídiel krídla krídlach krídlam krídlami krídle krídlom krídlu
+20	1620	fakulta	fakulte fakultou fakultu fakulty fakultách fakúlt
+21	1621	voľno	voľna voľnom voľná
+22	1622	analýza	analýz analýzach analýzami analýze analýzou analýzu analýzy
+23	1623	momentálny	momentálna momentálne momentálneho momentálnej momentálnu momentálnym
+24	1624	uprostred	
+25	1625	línia	líniami línie línii líniou líniu líniách líniám línií
+26	1626	konanie	konania konaniu konaní konaním
+27	1627	produkcia	produkcie produkcii produkciou produkciu produkcií
+28	1628	dopredu	
+29	1629	nemožný	nemožnej nemožnom nemožnou nemožná nemožné nemožného nemožní nemožnú nemožných nemožným
+30	1630	tancovať	tancoval tancovala tancovali tancovalo tancuj tancuje tancujem tancujeme tancujete tancuješ tancujme tancujte tancujú tancujúc
+31	1631	sever	severe severom severu
+32	1632	dovolenka	dovoleniek dovolenke dovolenkou dovolenkový dovolenku dovolenky dovolenkách
+33	1633	uzavrieť	uzavrel uzavrela uzavreli uzavrelo uzavri uzavrie uzavriem uzavrieme uzavriete uzavrieš uzavrime uzavrite uzavrú
+34	1634	motív	motíve motívmi motívoch motívom motívov motívu motívy
+35	1635	zahraničie	zahraničia zahraničí zahraničím
+36	1636	posádka	posádke posádkou posádku posádky posádok
+37	1637	zázrak	zázrakmi zázrakoch zázrakom zázrakov zázraku zázraky
+38	1638	vydávať	vydáva vydávaj vydávajú vydával vydávala vydávali vydávalo vydávam vydávame vydávate vydávaš
+39	1639	liezť	lez lezenie lezie leziem lezieme leziete lezieš lezte lezú lezúci liezla liezli liezlo liezol vlez vliezť vylez vylezie vyleziem vylezieme vyleziete vylezieš vylezme vylezte vylezú vyliezla vyliezli vyliezlo vyliezol vyliezť zlez zliezť
+40	1640	odmena	odmenami odmene odmenou odmenu odmeny odmenách odmien
+41	1641	piaty	piata piate piateho piatej piatemu piati piatom piatou piatu piatych piatym
+42	1642	akurát	
+43	1643	doska	dosiek doskami doske doskou doskové dosku dosky doskách dosák doštičiek doštička
+44	1644	kryť	kry kryje kryjem kryjeme kryjete kryješ kryjú kryl kryla kryli kryme kryte krytia krytie krytiu kryté krytím krytý
+45	1645	užívať	užíva užívaj užívajme užívajte užívajú užívajúc užíval užívala užívali užívam užívame užívate užívaš
+46	1646	rozmer	rozmere rozmermi rozmeroch rozmerom rozmerov rozmeru rozmery
+47	1647	výraz	výraze výrazmi výrazom výrazov výrazu výrazy
+48	1648	zranený	zranenej zranenom zranenou zranená zranené zraneného zranenému zranení zranenú zranených zraneným zranenými
+49	1649	prakticky	praktickejšie
+50	1650	krása	krás krásach kráse krásou krásu krásy
+51	1651	falošný	falošnej falošnom falošnou falošná falošné falošného falošnému falošní falošnú falošných falošným falošnými
+52	1652	vystúpenie	vystúpenia vystúpeniach vystúpeniami vystúpeniu vystúpení vystúpením
+53	1653	nevrátiť	nevráti nevrátia nevrátil nevrátila nevrátili nevrátilo nevrátim nevrátime nevrátite nevrátiš nevráť
+54	1654	nefungovať	nefungoval nefungovala nefungovali nefungovalo nefunguje nefungujú
+55	1655	vyhlásiť	vyhlás vyhlási vyhlásia vyhlásil vyhlásila vyhlásili vyhlásilo vyhlásim vyhlásime vyhlásite vyhlásiš vyhláste
+56	1656	manažér	manažéra manažéri manažérka manažérke manažérkou manažérku manažérky manažérmi manažérom manažérov manažérovi manažérske manažérsky
+57	1657	nažive	
+58	1658	ochotný	ochotnejší ochotná ochotné ochotného ochotní ochotnú ochotných
+59	1659	chata	chate chatou chatu chaty chatách chát
+60	1660	os	osi osie osieho oska osou osí
+61	1661	inštitúcia	inštitúciami inštitúcie inštitúcii inštitúciou inštitúciu inštitúciách inštitúciám inštitúcií
+62	1662	skurvený	skurvenej skurvenom skurvenou skurvená skurvené skurveného skurvenému skurvení skurvenú skurvených skurveným skurvenými
+63	1663	taška	tašiek taškami taške taškou tašku tašky taškách
+64	1664	areál	areáli areálom areálov areálu areály
+65	1665	kurz	kurze kurzoch kurzom kurzov kurzu kurzy
+66	1666	spodný	spodnej spodnom spodnou spodná spodné spodného spodnému spodnú spodných spodným
+67	1667	prehrať	prehraj prehrajte prehrajú prehral prehrala prehrali prehralo prehrá prehráme prehráte prehráš
+68	1668	pripravovať	pripravoval pripravovala pripravovali pripravovalo pripravuj pripravuje pripravujem pripravujeme pripravujete pripravuješ pripravujú
+69	1669	prax	praxe praxi praxou
+70	1670	opraviť	oprav opravia opravil opravila opravili opravilo opravme opravte opraví opravím opravíme opravíte opravíš
+71	1671	britský	britskej britskom britskou britská britské britského britskému britskí britskú britských britským britskými
+72	1672	ochorenie	ochorenia ochoreniach ochoreniam ochoreniami ochoreniu ochorení ochorením
+73	1673	spôsobovať	spôsoboval spôsobovala spôsobovali spôsobovalo spôsobuje spôsobujem spôsobujeme spôsobujete spôsobuješ spôsobujú spôsobujúc
+74	1674	padať	padaj padajme padajte padajú padajúc padal padala padali padalo padá padám padáme padáte padáš
+75	1675	lopta	loptami lopte loptička loptičky loptou loptové loptový loptu lopty lôpt
+76	1676	príjem	príjmami príjme príjmoch príjmom príjmov príjmu príjmy
+77	1677	združenie	združenia združeniach združeniami združeniu združením
+78	1678	vzdialený	najvzdialenejšej najvzdialenejšom najvzdialenejší najvzdialenejších najvzdialenejším vzdialenej vzdialenejšej vzdialenejšia vzdialenejší vzdialenejších vzdialenom vzdialenou vzdialená vzdialené vzdialeného vzdialenému vzdialení vzdialenú vzdialených vzdialeným vzdialenými
+79	1679	úprimne	najúprimnejšie úprimnejšie
+80	1680	nedávať	nedáva nedávaj nedávajte nedávajú nedával nedávala nedávali nedávalo nedávam nedávame nedávate nedávaš
+81	1681	vystúpiť	vystúp vystúpi vystúpia vystúpil vystúpila vystúpili vystúpilo vystúpim vystúpime vystúpite vystúpiš vystúpme vystúpte
+82	1682	rozsah	rozsahom rozsahu
+83	1683	vyjadriť	vyjadri vyjadria vyjadril vyjadrila vyjadrili vyjadrilo vyjadrite vyjadrí vyjadrím vyjadríme vyjadríte vyjadríš
+84	1684	modliť	modli modlia modliac modlil modlila modlili modlilo modlime modlite modlí modlím modlíme modlíte modlíš
+85	1685	koleno	kolena kolenami kolene kolenom kolenu kolená kolenách kolenám kolien kolienka kolienko
+86	1686	prebrať	preber preberie preberiem preberieme preberiete preberieš preberme preberte preberú prebral prebrala prebrali prebralo
+87	1687	nepôjsť	nepôjde nepôjdem nepôjdeme nepôjdete nepôjdeš nepôjdu
+88	1688	poručík	poručíci poručíka poručíkom poručíkov poručíkovi
+89	1689	jednať	jednaj jednajte jednajú jednal jednala jednali jednalo jedná jednám jednáme jednáte jednáš
+90	1690	plukovník	plukovníci plukovníka plukovníkom plukovníkov plukovníkovi plukovníčka plukovníčkou plukovníčku plukovníčky
+91	1691	prinútiť	prinútenie prinútený prinúti prinútia prinútil prinútila prinútili prinútilo prinútim prinútime prinútite prinútiš prinúť prinúťte
+92	1692	biskup	biskupa biskupi biskupmi biskupom biskupov biskupovi biskupovia biskupskej biskupská biskupské biskupského biskupský
+93	1693	zabezpečiť	zabezpeč zabezpečia zabezpečil zabezpečila zabezpečili zabezpečilo zabezpečte zabezpečí zabezpečím zabezpečíme zabezpečíte zabezpečíš
+94	1694	rekonštrukcia	rekonštrukcie rekonštrukcii rekonštrukciou rekonštrukciu rekonštrukcií
+95	1695	výstup	výstupe výstupmi výstupoch výstupom výstupov výstupu výstupy
+96	1696	známka	známkach známkam známkami známke známkou známku známky známok
+97	1697	česť	cti ctí cťou
+98	1698	tma	tme tmou tmu tmy
+99	1699	zabrániť	zabráni zabránia zabránil zabránila zabránili zabránilo zabránim zabránime zabránite zabrániš zabráň zabráňte
+100	1700	strácať	stráca strácajú strácajúc strácal strácala strácali strácalo strácam strácame strácate strácaš

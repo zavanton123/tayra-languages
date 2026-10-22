@@ -1,0 +1,100 @@
+1	4601	africký	africkej africkom africká africké afrického africkí africkú afrických africkým
+2	4602	ohroziť	ohrozia ohrozil ohrozila ohrozili ohrozilo ohrozí ohrozím ohrozíme ohrozíte ohrozíš
+3	4603	kat	kata kati katom katov katovi
+4	4604	chodievať	chodieva chodievaj chodievajte chodievajú chodieval chodievala chodievali chodievam chodievame chodievate chodievaš
+5	4605	predpovedať	predpovedajú predpovedal predpovedala predpovedali predpovedalo predpovedanie predpovedaný predpovedz predpovedá predpovedám predpoviem
+6	4606	zachytávať	zachytáva zachytávajú zachytávam zachytávame zachytávate zachytávaš
+7	4607	schovávať	schováva schovávajú schovávajúc schovával schovávala schovávali schovávam schovávame schovávate schovávaš
+8	4608	námet	námete námetom námetov námetu námety
+9	4609	tenisový	tenisovej tenisovom tenisovou tenisová tenisové tenisového tenisovú tenisových tenisovým
+10	4610	božiť	bož božia
+11	4611	pomocník	pomocníci pomocníka pomocníkmi pomocníkom pomocníkov pomocníkovi
+12	4612	mučiť	muč mučená mučené mučený mučených mučia mučil mučila mučili mučilo mučte mučí mučím mučíme mučíte mučíš
+13	4613	odsúdiť	odsúdi odsúdia odsúdil odsúdila odsúdili odsúdim odsúdime odsúdite odsúdiš
+14	4614	nadmorský	nadmorskej nadmorskou nadmorská nadmorskú nadmorských
+15	4615	natiahnuť	natiahla natiahli natiahlo natiahne natiahnem natiahneme natiahnete natiahneš natiahni natiahnite natiahnu natiahol
+16	4616	disponovať	disponoval disponovali disponuje disponujem disponujeme disponujete disponujú
+17	4617	bežec	bežca bežcami bežci bežcom bežcov bežcovi bežeckej bežeckom bežecké bežeckého bežeckú bežecký bežeckých
+18	4618	dokumentácia	dokumentácie dokumentácii dokumentáciou dokumentáciu
+19	4619	hliník	hliníka hliníkom hliníku
+20	4620	žart	žarte žartom žartov žartu žarty
+21	4621	roľa	role roli rolí roľu
+22	4622	spravovať	spravoval spravovala spravuje spravujem spravujeme spravujú
+23	4623	nedariť	nedarilo nedarí
+24	4624	odolnosť	odolnosti odolnosťou
+25	4625	vynález	vynáleze vynálezmi vynálezoch vynálezom vynálezov vynálezu vynálezy
+26	4626	naštartovať	naštartoval naštartovala naštartovali naštartovalo naštartuj naštartuje naštartujem naštartujeme naštartuješ naštartujme naštartujte naštartujú
+27	4627	prelom	prelome prelomu
+28	4628	nádych	nádychom nádychov nádychu nádychy
+29	4629	ohrozovať	ohrozoval ohrozovala ohrozovali ohrozovalo ohrozuje ohrozujem ohrozujeme ohrozujete ohrozuješ ohrozujú
+30	4630	publikovať	publikoval publikovala publikovali publikuje publikujem publikujete publikujú
+31	4631	kuba	kube kubo kubou kubu kuby
+32	4632	udržanie	udržania udržaniu udržaní udržaním
+33	4633	zmenšiť	zmenšenie zmenšený zmenši zmenšil zmenšila zmenšili zmenšilo zmenšoval zmenšovala zmenšovať zmenšuje zmenšujú zmenší
+34	4634	spracovaný	spracovaná spracované spracovaného spracovaní
+35	4635	sklamanie	sklamania sklamaniu sklamaním
+36	4636	publikovaný	publikovanej publikovaná publikované publikovaní publikovaných
+37	4637	spevácky	spevácka spevácke speváckeho speváckej speváckom spevácku speváckych
+38	4638	nadväzovať	nadväzuje nadväzujem nadväzujú
+39	4639	zmieriť	zmieril zmierila zmierili zmierim zmierime zmierite zmieriš zmierte
+40	4640	sud	suda sude sudmi sudoch sudom sudov sudu sudy
+41	4641	zabijak	zabijaci zabijaka zabijakmi zabijakom zabijakov zabijakovi
+42	4642	výsluch	výsluchoch výsluchom výsluchov výsluchu výsluchy
+43	4643	dotiahnuť	dotiahla dotiahli dotiahlo dotiahne dotiahnem dotiahneme dotiahnete dotiahneš dotiahni dotiahnime dotiahnite dotiahnu dotiahol
+44	4644	nežný	nežne nežnej nežnejšie nežnejší nežná nežné nežného nežní nežnú nežným nežnými
+45	4645	opakovane	
+46	4646	škandál	škandalózny škandalóznych škandále škandálmi škandálne škandáloch škandálom škandálov škandálu škandály
+47	4647	zahrávať	zahráva zahrávajú zahrával zahrávala zahrávali zahrávam zahrávame zahrávate zahrávaš
+48	4648	narásť	narastie narastú narástla narástli narástlo narástol
+49	4649	rockový	rockovej rockovom rockovou rocková rockové rockového rockovú rockových rockovým rockovými
+50	4650	zrno	zrna zrniek zrniečka zrniečko zrnka zrnkami zrnko zrnkom zrnku zrnká zrnom zrná zŕn
+51	4651	nabrať	naber naberie naberiem naberieme naberieš naberte naberú nabral nabrala nabrali nabralo
+52	4652	masa	masami masou masu masy masám más
+53	4653	veliť	velia velil velila velili velí velím velíme velíte velíš veľ
+54	4654	natáčanie	natáčania natáčaniu natáčaní natáčaním
+55	4655	kostra	kostier kostrami kostre kostrička kostrou kostru kostry kostrách
+56	4656	nasadený	nasadená nasadené nasadení nasadenú nasadených
+57	4657	označovaný	označovaná označované označovaní
+58	4658	zaradenie	zaradenia zaradením
+59	4659	samota	samote samotou samotu samoty
+60	4660	nedotknúť	nedotkla nedotkli nedotklo nedotkne nedotknem nedotkneme nedotknete nedotkneš nedotkni nedotknite nedotknú nedotkol
+61	4661	populárne	najpopulárnejšie populárnejšie
+62	4662	podporovaný	podporovaná podporované podporovaného podporovaní podporovaných
+63	4663	injekcia	injekciami injekcie injekcii injekciou injekciu injekciách injekcií
+64	4664	chrbtica	chrbtice chrbtici chrbticou chrbticový chrbticu
+65	4665	rozsiahle	rozsiahlejšie
+66	4666	hodnotený	hodnotená hodnotené hodnotení
+67	4667	povedomie	povedomia
+68	4668	maličkosť	maličkosti maličkostiach maličkostiam maličkostí maličkosťami maličkosťou
+69	4669	tyč	tyčami tyče tyči tyčou tyčí
+70	4670	stanoviť	stanovil stanovila stanovili stanovím stanovíme stanovíte stanovíš
+71	4671	expert	experta experti expertmi expertoch expertom expertov expertovi
+72	4672	počať	počal počala počali počne počnem počneme počnete počneš počnú počnúc
+73	4673	individuálne	
+74	4674	opakovaný	opakovanej opakovanom opakovaná opakované opakovaného opakovaní opakovaných opakovaným
+75	4675	poslucháč	poslucháča poslucháči poslucháčka poslucháčmi poslucháčom poslucháčov
+76	4676	pulz	pulze pulzom pulzov pulzu pulzy
+77	4677	korupcia	korupcie korupcii korupciou korupciu
+78	4678	historik	historici historika historikom historička
+79	4679	sveter	svetra svetre svetri svetroch svetrom svetrov svetru svetrík svetríku svetríky
+80	4680	fazuľa	fazule fazuli fazuliach fazuľami fazuľka fazuľky fazuľou fazuľovej fazuľová fazuľové fazuľovú fazuľový fazuľových fazuľu fazúľ
+81	4681	ilúzia	ilúziami ilúzie ilúzii ilúziou ilúziu ilúzií
+82	4682	náhrdelník	náhrdelníka náhrdelníkom náhrdelníku náhrdelníky
+83	4683	centrála	centrál centrále centrálou centrálu centrály
+84	4684	nasťahovať	nasťahoval nasťahovala nasťahovali nasťahuj nasťahuje nasťahujem nasťahujeme nasťahujete nasťahuješ nasťahujú
+85	4685	sekera	sekerami sekere sekerou sekeru sekery sekier
+86	4686	úkryt	úkryte úkrytoch úkrytom úkrytov úkrytu úkryty
+87	4687	prostitútka	prostitútkach prostitútkam prostitútkami prostitútke prostitútkou prostitútku prostitútky prostitútok
+88	4688	položka	položiek položkami položke položkou položku položky
+89	4689	celebrita	celebritami celebrite celebritou celebritu celebrity celebritách celebritám celebrít
+90	4690	neobvyklý	neobvyklej neobvyklom neobvyklá neobvyklé neobvyklého neobvyklú neobvyklých neobvyklým
+91	4691	postreliť	postrelia postrelil postrelila postrelili postrelí postrelím postrelíš
+92	4692	doterajší	doterajšej doterajšia doterajšie doterajšieho doterajšiu doterajšom doterajších doterajším
+93	4693	skúsený	najskúsenejší skúsenejšia skúsenejšieho skúsenejší skúsenejších skúsená skúseného skúsení skúsenú skúsených skúseným
+94	4694	zásobník	zásobníka zásobníkom zásobníkov zásobníku zásobníky
+95	4695	armádny	armádna armádne armádneho armádnej armádnemu armádni armádnom armádnou armádnu armádnych armádnym armádnymi
+96	4696	pastier	pastiera pastieri pastierik pastierka pastierom pastierov pastiersky
+97	4697	ránko	
+98	4698	zaplatený	zaplatená zaplatené zaplatení zaplatenú zaplatených
+99	4699	nominácia	nominácie nominácii nomináciu nominácií
+100	4700	džús	džúse džúsik džúsoch džúsom džúsov džúsový džúsu džúsy

@@ -1,0 +1,100 @@
+1	3201	neprestať	neprestal neprestala neprestali neprestalo neprestane neprestanem neprestaneme neprestanete neprestaneš neprestanú neprestaň neprestaňte
+2	3202	oceľový	oceľovej oceľovom oceľovou oceľová oceľové oceľového oceľovú oceľových oceľovým oceľovými
+3	3203	neuveriteľne	
+4	3204	zlomený	zlomenej zlomenom zlomenou zlomená zlomené zlomeného zlomenému zlomení zlomenú zlomených zlomeným zlomenými
+5	3205	jednoznačne	
+6	3206	bozk	bozkami bozkoch bozkom bozkov bozku bozky božtek
+7	3207	synak	synkovia
+8	3208	dopad	dopade dopadom dopadov dopadu dopady
+9	3209	nádor	nádore nádormi nádorom nádorov nádorových nádoru nádory
+10	3210	poistka	poistiek poistkami poistke poistkou poistku poistky poistkách
+11	3211	záväzok	záväzkami záväzkoch záväzkom záväzkov záväzku záväzky
+12	3212	svietiť	svieti svietia svietiace svietiaci svietil svietila svietili svietilo svietite svietiš svieť svieťte
+13	3213	negatívny	negatívna negatívneho negatívnej negatívni negatívnom negatívnou negatívnu negatívnych negatívnym negatívnymi
+14	3214	olympijský	olympijskej olympijskom olympijská olympijské olympijského olympijskú olympijských olympijským
+15	3215	pravdepodobný	najpravdepodobnejšia najpravdepodobnejšie najpravdepodobnejší najpravdepodobnejším pravdepodobnej pravdepodobnejšia pravdepodobnejšie pravdepodobnejší pravdepodobnou pravdepodobná pravdepodobné pravdepodobného pravdepodobnú pravdepodobných pravdepodobným
+16	3216	klinika	klinike klinikou kliniku kliniky klinikách kliník
+17	3217	strategický	strategickej strategickom strategická strategické strategického strategickú strategických strategickým strategickými
+18	3218	ba	
+19	3219	myš	myšami myši myšiach myšie myšou myší
+20	3220	popredný	poprednej poprednou popredná popredné popredného poprední popredných popredným poprednými
+21	3221	schváliť	schváli schvália schválil schválila schválili schválilo schválim schválite schváliš schváľte
+22	3222	depresia	depresiami depresie depresii depresiou depresiu depresiách depresiám depresií
+23	3223	farnosť	farnosti farnostiach farností
+24	3224	nárast	náraste nárastom nárastu
+25	3225	zabávať	zabáva zabávaj zabávajme zabávajte zabávajú zabával zabávala zabávali zabávam zabávame zabávate zabávaš
+26	3226	nákup	nákupe nákupmi nákupoch nákupom nákupov nákupu nákupy
+27	3227	spočiatku	
+28	3228	smrdieť	smrdel smrdela smrdeli smrdelo smrdia smrdí smrdím smrdíte smrdíš
+29	3229	zásielka	zásielkach zásielkami zásielke zásielkou zásielku zásielky zásielok
+30	3230	najesť	naje najedia najedla najedli najedol najedz najedzme najedzte najem najeme najete naješ
+31	3231	zdravotnícky	zdravotnícka zdravotnícke zdravotníckeho zdravotníckej zdravotníckom zdravotnícku zdravotníckych zdravotníckym zdravotníckymi
+32	3232	potvrdený	potvrdená potvrdené potvrdení potvrdenú potvrdených potvrdeným
+33	3233	dobrovoľník	dobrovoľníci dobrovoľnícke dobrovoľníka dobrovoľníkmi dobrovoľníkoch dobrovoľníkom dobrovoľníkov dobrovoľníčka
+34	3234	preberať	preberajú preberal preberala preberali preberá preberám preberáme preberáte preberáš
+35	3235	pauza	pauze pauzou pauzu pauzy
+36	3236	zhoda	zhode zhodou zhodu zhody zhôd
+37	3237	ocenený	ocenená ocenené ocenení ocenených
+38	3238	prázdniny	prázdnin prázdninami prázdninovej prázdninovom prázdninové prázdninovú prázdninový prázdninách
+39	3239	pravdepodobnosť	pravdepodobnosti pravdepodobnosťou
+40	3240	akceptovať	akceptoval akceptovala akceptovali akceptovanie akceptované akceptovaný akceptuj akceptuje akceptujem akceptujeme akceptujete akceptuješ akceptujte akceptujú
+41	3241	nosný	nosnej nosnou nosná nosné nosného nosnú nosných nosným nosnými
+42	3242	fotograf	fotografa fotografi fotografka fotografkou fotografky fotografom fotografov fotografovi
+43	3243	úvod	úvode úvodom úvodu
+44	3244	pokým	
+45	3245	vysokoškolský	vysokoškolskej vysokoškolskom vysokoškolská vysokoškolské vysokoškolského vysokoškolskí vysokoškolskú vysokoškolských vysokoškolským
+46	3246	čoraz	
+47	3247	optický	optickej optickom optickou optická optické optického optickú optických optickým optickými
+48	3248	dramatický	dramatickej dramatickom dramatickou dramatická dramatické dramatického dramatickému dramatickí dramatickú dramatických dramatickým
+49	3249	potrvať	potrvajú potrvalo potrvá
+50	3250	značne	
+51	3251	socializmus	socialistickej socialistická socialistické socialistického socialistickú socialistický socialistických socializme socializmu
+52	3252	náčelník	náčelníci náčelníka náčelníkmi náčelníkom náčelníkov náčelníkovi
+53	3253	tváriť	tvária tváriac tváril tvárila tvárili tvárim tvárime tvárite tváriš tvárme tvárte
+54	3254	rozlúčiť	rozlúč rozlúči rozlúčil rozlúčila rozlúčili rozlúčim rozlúčime rozlúčiš rozlúčme rozlúčte
+55	3255	paráda	paráde parádou parádu parády
+56	3256	odstúpiť	odstúp odstúpi odstúpia odstúpil odstúpila odstúpili odstúpim odstúpime odstúpite odstúpiš odstúpte
+57	3257	odporný	najodpornejšia najodpornejšie najodpornejšiu najodpornejší odporne odpornej odpornejšie odpornom odpornou odporná odporné odporného odpornému odporní odpornú odporných odporným odpornými
+58	3258	sexuálne	
+59	3259	nervový	nervovej nervovom nervovou nervová nervové nervového nervovému nervovú nervových nervovým nervovými
+60	3260	zriadený	zriadená zriadené zriadení zriadených
+61	3261	zamilovaný	zamilovanej zamilovaná zamilované zamilovaného zamilovaní zamilovanú zamilovaných zamilovaným
+62	3262	infarkt	infarkte infarktom infarktov infarktu infarkty
+63	3263	zahynúť	hynie hynú zahynie zahyniem zahynieme zahyniete zahynieš zahynul zahynula zahynuli zahynulo zahynú
+64	3264	nekonečný	nekonečnej nekonečnou nekonečné nekonečného nekonečnému nekoneční nekonečnú nekonečných nekonečným nekonečnými
+65	3265	suka	sukami suke sukou suku suky súk
+66	3266	víťazný	víťaznej víťaznom víťazná víťazné víťazného víťaznú víťazných víťazným
+67	3267	magický	magickej magickom magickou magická magické magického magickú magických magickým magickými
+68	3268	pozitívne	pozitívnejšie
+69	3269	jednota	jednote jednotu jednoty
+70	3270	reťazec	reťazca reťazce reťazci reťazcom reťazcov reťazcu
+71	3271	dohromady	
+72	3272	pravdivý	pravdivej pravdivou pravdivá pravdivé pravdivého pravdiví pravdivú pravdivých pravdivým
+73	3273	trpezlivosť	trpezlivosti trpezlivosťou
+74	3274	iniciatíva	iniciatív iniciatíve iniciatívou iniciatívu iniciatívy
+75	3275	recept	receptami recepte receptoch receptom receptov receptu recepty
+76	3276	krvavý	krvavej krvavom krvavou krvavá krvavé krvavého krvavému krvaví krvavú krvavých krvavým krvavými najkrvavejšia
+77	3277	vzdelávací	vzdelávacej vzdelávacia vzdelávacie vzdelávacieho vzdelávaciu vzdelávacom vzdelávacou vzdelávacích vzdelávacím
+78	3278	hnevať	hnevaj hnevajú hneval hnevala hnevali hnevalo hnevá hnevám hneváme hneváte hneváš
+79	3279	elektráreň	elektrárne elektrárni elektrární elektrárňach elektrárňou
+80	3280	jednak	
+81	3281	orech	orecha orechmi orechom orechov orechová orechový orechu orechy oriešky oriešok
+82	3282	trón	tróne trónom trónu tróny
+83	3283	jednotný	jednotnej jednotnom jednotná jednotné jednotného jednotní jednotnú jednotným
+84	3284	puto	puta putami pute putom putá putách putám pút
+85	3285	drobné	
+86	3286	mierny	mierna mierneho miernej miernejší miernemu miernom miernou miernu miernych miernym miernymi
+87	3287	bunda	bunde bundou bundu bundy bundách búnd
+88	3288	horúčka	horúčkach horúčke horúčkou horúčku horúčky
+89	3289	externý	externej externá externé externého externú externých externým externými
+90	3290	zachovaný	zachovaná zachované zachovaní zachovanú zachovaných
+91	3291	extrémne	extrémnejšie
+92	3292	odhad	odhade odhadom odhadov odhadu odhady
+93	3293	komunikačný	komunikačnej komunikačnom komunikačná komunikačné komunikačného komunikačnému komunikačnú komunikačných komunikačným komunikačnými
+94	3294	odohrávať	odohráva odohrávajú odohrával odohrávala odohrávali odohrávalo
+95	3295	turné	
+96	3296	pozorne	pozornejšie
+97	3297	hod	hode hodoch hodom hodov hodu hody
+98	3298	temnota	temnote temnotou temnotu temnoty temnotách temnôt
+99	3299	tekutina	tekutinami tekutine tekutinou tekutinu tekutiny tekutín
+100	3300	absolvent	absolventa absolventi absolventmi absolventom absolventov absolventovi

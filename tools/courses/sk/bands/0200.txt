@@ -1,0 +1,100 @@
+1	101	dieťa	deti detskej detskom detskou detsky detská detské detského detskému detskí detskú detský detských detským detskými detí deťmi deťoch deťom dieťati dieťatka dieťatko dieťatkom dieťatku dieťatká dieťaťa dieťaťom dieťaťu
+2	102	stať	nestalo stal stala stali stalo stane stanem staneme stanete staneš stanú state staň staňme staňte stáva stávať
+3	103	potrebovať	nepotreboval nepotrebovala nepotrebovali nepotrebovať nepotrebuje nepotrebujem nepotrebujeme nepotrebujete nepotrebuješ nepotrebujú potreboval potrebovala potrebovali potrebovalo potrebuje potrebujem potrebujeme potrebujete potrebuješ potrebujme potrebujú
+4	104	možno	
+5	105	ďalší	ďalšej ďalšia ďalšie ďalšieho ďalšiemu ďalšiu ďalšom ďalšou ďalších ďalším ďalšími
+6	106	aký	akej akom akou aká aké akého akému akí akú akých akým akými
+7	107	však	šak
+8	108	začať	začal začala začali začalo začatia začatie začatí začatím začatý začne začnem začneme začnete začneš začni začnime začnite začnú začína začínať
+9	109	mesto	mesta mestami meste mestečka mestečko mestom mestskej mestskom mestskou mestská mestské mestského mestskému mestskí mestskú mestský mestských mestským mestskými mestu mestá mestách mestám miest
+10	110	nejaký	nejakej nejakom nejakou nejaká nejaké nejakého nejakému nejakí nejakú nejakých nejakým nejakými
+11	111	práca	prác prácach prácam prácami práce práci prácička prácičku prácou prácu
+12	112	človek	človeka človekom človekovi človeku človeče človiečik človiečika človiečikovia ľudí ľuďmi ľuďoch ľuďom
+13	113	svet	sveta svete svetmi svetoch svetom svetov svetovej svetovo svetovom svetovou svetová svetové svetového svetovému svetoví svetovú svetový svetových svetovým svetovými svetský svetských svetu svety
+14	114	malý	malej malom malou malá malé malého malému malí malú malých malým malými menšej menšia menšie menšieho menšiemu menšiu menšom menšou menší menších menším menšími najmenšej najmenšia najmenšie najmenšieho najmenšiu najmenšom najmenšou najmenší najmenších najmenším najmenšími
+15	115	niekto	niekoho niekom niekomu niekým
+16	116	či	
+17	117	tiež	
+18	118	pretože	
+19	119	i	
+20	120	podľa	
+21	121	stále	
+22	122	nikdy	
+23	123	žena	ženami žene ženou ženskej ženskom ženskou žensky ženská ženské ženského ženskému ženskú ženský ženských ženským ženskými ženu ženy ženách ženám žien
+24	124	žiadny	žiadna žiadne žiadneho žiadnej žiadnemu žiadni žiadnom žiadnou žiadnu žiadnych žiadnym žiadnymi
+25	125	rád	najradšej radi radšej ráde rádom rádov rádu rády
+26	126	otec	oco otca otcami otcoch otcom otcov otcova otcove otcovej otcovho otcovi otcovia otcovmu otcovo otcovom otcovou otcovskej otcovsky otcovská otcovské otcovského otcovskú otcovský otcovských otcovským otcovu otcových otcovým otcovými otcu otecka otecko oteckom oteckov oteckovi oteckovia otče
+27	127	bez	bezo
+28	128	medzi	
+29	129	druhý	druhej druhom druhou druhá druhé druhého druhému druhí druhú druhých druhým druhými
+30	130	boh	boha bohmi bohoch bohom bohov bohovi bohovia bohu bohyne bohyni bohyňa bohyňami bohyňou bohyňu bohýň bože božie božského božský boží bôžik bôžika
+31	131	práve	
+32	132	nechať	nechaj nechajme nechajte nechajú nechajúc nechal nechala nechali nechalo nechá nechám necháme necháte necháš nenechaj nenechajme nenechajte nenechajú nenechal nenechala nenechali nenechalo nenechať nenechá nenechám nenecháme nenecháte nenecháš
+33	133	dnes	
+34	134	naozaj	
+35	135	poriadok	poriadkom poriadkov poriadkovej poriadku poriadky
+36	136	problém	problémami probléme problémik problémoch problémom problémov problémové problémový problému problémy
+37	137	cesta	cestami ceste cestička cestičku cestnej cestný cestou cestu cesty cestách cestám ciest
+38	138	slovenský	slovenskej slovenskom slovenskou slovensky slovenská slovenské slovenského slovenskému slovenskí slovenskú slovenských slovenským slovenskými
+39	139	iba	
+40	140	pomôcť	pomohla pomohli pomohlo pomohol pomáha pomáhať pomôž pomôže pomôžem pomôžeme pomôžete pomôžeš pomôžme pomôžte pomôžu
+41	141	prosím	
+42	142	časť	časti častiach častiam častí časťami časťou
+43	143	ďakovať	ďakoval ďakovala ďakovali ďakovanie ďakuj ďakuje ďakujem ďakujeme ďakujete ďakuješ ďakujme ďakujte ďakujú
+44	144	veľa	viacej
+45	145	vždy	
+46	146	vysoký	najvyššej najvyššia najvyššie najvyššieho najvyššiemu najvyššiu najvyššom najvyššou najvyšší najvyšších najvyšším najvyššími vysokej vysoko vysokom vysokou vysoká vysoké vysokého vysokému vysokí vysokú vysokých vysokým vysokými vyššej vyššie vyššieho vyššiemu vyššiu vyššom vyššou vyšší vyšších vyšším vyššími
+47	147	pod	podo
+48	148	asi	
+49	149	muž	muža muži mužmi mužoch mužom mužov mužovi mužskej mužskom mužskou mužská mužské mužského mužskému mužskí mužskú mužský mužských mužským mužskými
+50	150	preto	
+51	151	starý	najstaršej najstaršia najstaršieho najstaršiemu najstaršiu najstaršou najstarší najstarších najstarším najstaršími starej staro starom starou stará staré starého starému starí starú starých starým starými staršej staršia staršie staršieho staršiemu staršiu staršom staršou starší starších starším staršími
+52	152	vďaka	vďak vďake vďakou vďaku vďaky
+53	153	chodiť	chodenie chodia chodiac chodiaci chodil chodila chodili chodilo chodí chodím chodíme chodíte chodíš choď choďme choďte nechodia nechodil nechodila nechodili nechodiť nechodí nechodím nechodíme nechodíte nechodíš nechoď nechoďme nechoďte
+54	154	vrátiť	vrátenia vrátenie vrátená vrátené vrátení vrátením vrátený vráti vrátia vrátil vrátila vrátili vrátilo vrátim vrátime vrátite vrátiš vráť vráťme vráťte
+55	155	teda	
+56	156	dom	domami dome domoch domom domu domy domček domčeka domčekoch domčekom domčekov domčeku domčeky
+57	157	strana	stranami strane stranou stranovú stranový stranu strany stranách stranám strán
+58	158	istý	istej istejšia istejší istom istou istá isté istého istému istí istú istých istým istými najistejšia
+59	159	počuť	nepočuje nepočujem nepočujeme nepočujete nepočuješ nepočujú nepočul nepočula nepočuli nepočulo nepočuť počuj počuje počujem počujeme počujete počuješ počujte počujú počul počula počuli počulo počutia počutie
+60	160	sám	sama sami samu samy
+61	161	meno	mena menami mene menom menou menovej menový menu meny mená menách menám mien
+62	162	zabiť	zabi zabije zabijem zabijeme zabijete zabiješ zabijú zabil zabila zabili zabilo zabime zabite zabitia zabitie zabitiu zabitá zabité zabitého zabití zabitím zabitú zabitý zabitých zabitým zabíja zabíjaj zabíjajte zabíjajú zabíjajúc zabíjal zabíjala zabíjali zabíjalo zabíjam zabíjame zabíjate zabíjaš zabíjať
+63	163	tri	traja troch trom troma tromi
+64	164	pravda	pravde pravdou pravdu pravdy právd
+65	165	viesť	povedie povediem povedieme povediete povedieš povedú vedenia vedenie vedeniu vedení vedením vedený vedie vediem vedieme vediete vedieš vedú vedúc vedúceho vedúcemu vedúci vedúcich vedúcim vedúcimi vedúcom veď veďte viedla viedli viedlo viedol
+66	166	poznať	nepoznajú nepoznal nepoznala nepoznali nepoznalo nepoznať nepozná nepoznám nepoznáme nepoznáte nepoznáš poznaj poznajte poznajú poznajúc poznal poznala poznali poznalo poznania poznanie poznaniu poznaní poznaním pozná poznám poznáme poznáte poznáš
+67	167	rodina	rodinami rodine rodinka rodinke rodinkou rodinku rodinky rodinne rodinnej rodinnom rodinnou rodinná rodinné rodinného rodinnému rodinní rodinnú rodinný rodinných rodinným rodinnými rodinou rodinu rodiny rodinách rodinám rodín
+68	168	dokázať	dokazovať dokazuje dokázal dokázala dokázali dokázalo dokázanie dokázané dokázaním dokázaný dokáž dokáže dokážem dokážeme dokážete dokážeš dokážme dokážte dokážu nedokázal nedokázala nedokázali nedokázalo nedokáže nedokážem nedokážeme nedokážete nedokážeš nedokážu
+69	169	vyzerať	vyzeraj vyzerajte vyzerajú vyzerajúc vyzerajúca vyzerajúce vyzerajúceho vyzerajúci vyzerajúcich vyzerajúcim vyzerajúcimi vyzerajúcu vyzeral vyzerala vyzerali vyzeralo vyzerá vyzerám vyzeráme vyzeráte vyzeráš
+70	170	nikto	nik nikoho nikom nikomu nikým
+71	171	posledný	poslednej poslednom poslednou posledná posledné posledného poslednému poslední poslednú posledných posledným poslednými
+72	172	počas	
+73	173	škola	školami škole školou školskom školský školu školy školách školám škôl
+74	174	lebo	
+75	175	hodina	hodinami hodine hodinka hodinku hodinou hodinovej hodinovom hodinovou hodinová hodinové hodinového hodinovú hodinový hodinových hodinovým hodinu hodiny hodinách hodinám hodín
+76	176	priateľ	priatelia priateliek priateľa priateľka priateľkami priateľke priateľkou priateľku priateľky priateľkách priateľkám priateľmi priateľoch priateľom priateľov priateľovi priateľu
+77	177	žiť	ži žije žijem žijeme žijete žiješ žijú žijúc žijúci žijúcich žil žila žilami žile žili žilo žilou žilu žily žilách žime žite žitia žitie žíl
+78	178	pracovať	pracoval pracovala pracovali pracovalo pracovanie pracuj pracuje pracujem pracujeme pracujete pracuješ pracujme pracujte pracujú pracujúc pracujúci pracujúcich
+79	179	veriť	neveria neveril neverila neverili neveriť neverte neverí neverím neveríme neveríte neveríš ver veria veriac veril verila verili verilo verme verte verí verím veríme veríte veríš
+80	180	prepáčiť	prepáč prepáčenie prepáči prepáčia prepáčil prepáčila prepáčili prepáčim prepáčite prepáčiš prepáčte
+81	181	u	
+82	182	ruka	rukami ruke rukou ruku ruky rukách rukám ručičiek ručička ručičkami ručičku ručičky ručné ručný rúk rúčka rúčke rúčkou rúčku rúčky
+83	183	spolu	
+84	184	spoločnosť	spoločnosti spoločnostiach spoločnostiam spoločností spoločnosťami spoločnosťou
+85	185	cítiť	cíti cítia cítiac cítil cítila cítili cítilo cítim cítime cítite cítiš cíť cíťme cíťte necíti necítia necítil necítila necítili necítilo necítim necítime necítite necítiš necítiť necíť necíťte
+86	186	mama	mamami mame mami mamou mamu mamy mamám
+87	187	pár	páre pármi pároch párom párov páru páry
+88	188	auto	auta autami aute autom autu autá autách autám autíčka autíčkami autíčko autíčkom autíčku áut
+89	189	štát	štáte štátmi štátna štátne štátneho štátnej štátnemu štátni štátnom štátnou štátnu štátny štátnych štátnym štátnymi štátoch štátom štátov štátu štáty
+90	190	keby	
+91	191	sem	
+92	192	ahoj	
+93	193	snažiť	snaž snažia snažiac snažil snažila snažili snažilo snažme snažte snaží snažím snažíme snažíte snažíš
+94	194	trochu	
+95	195	systém	systémami systéme systémoch systémom systémov systému systémy
+96	196	niektorý	niektorej niektorom niektorou niektorá niektoré niektorého niektorému niektorí niektorú niektorých niektorým niektorými
+97	197	noc	nocami noci nociach nociam nocou nocí
+98	198	volať	volaj volajme volajte volajú volajúc volajúceho volajúci volal volala volali volalo volania volanie volaniu volaní volaním volaný volá volám voláme voláte voláš
+99	199	znamenať	neznamenajú neznamenal neznamenala neznamenali neznamenalo neznamená neznamenám neznamenáme neznamenáte neznamenáš znamenajú znamenajúci znamenal znamenala znamenali znamenalo znamená znamenám znamenáme znamenáte znamenáš
+100	200	zlý	horšej horšia horšie horšieho horšiemu horšiu horšom horšou horší horších horším horšími najhoršej najhoršia najhoršieho najhoršiemu najhoršiu najhoršom najhoršou najhorší najhorších najhorším najhoršími zlej zlom zlomom zlomu zlomy zlou zlá zlé zlého zlému zlí zlú zlých zlým zlými

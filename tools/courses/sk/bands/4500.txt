@@ -1,0 +1,100 @@
+1	4401	približovať	približoval približovala približovali približovalo približuje približujem približujeme približuješ približujú
+2	4402	miska	misiek miskami miske miskou misku misky
+3	4403	kladivo	kladiva kladivami kladive kladivko kladivkom kladivom kladivu kladivá kladív
+4	4404	sprievodný	sprievodnej sprievodnou sprievodná sprievodné sprievodných sprievodným sprievodnými
+5	4405	kataster	katastra katastri
+6	4406	redakcia	redakcie redakcii redakciu
+7	4407	doplnok	doplnkami doplnkom doplnkov doplnku doplnky
+8	4408	schéma	schém schémami schéme schému schémy
+9	4409	uznávať	uznáva uznávajú uznával uznávala uznávali uznávam uznávame uznávate uznávaš
+10	4410	vyhnať	vyhnal vyhnala vyhnali vyhnalo vyženie vyženiem vyženieme vyženiete vyženieš vyženú
+11	4411	percento	percenta percentami percente percentom percentu percentá percentách
+12	4412	uvedenie	uvedenia uvedeniu uvedením
+13	4413	čarovný	čarovnej čarovnom čarovnou čarovná čarovné čarovného čarovnú čarovných čarovným čarovnými
+14	4414	štvorcový	štvorcovom štvorcová štvorcové štvorcového štvorcovú štvorcových
+15	4415	redaktor	redaktora redaktori redaktormi redaktorom redaktorov redaktorovi
+16	4416	prispôsobiť	prispôsob prispôsobia prispôsobil prispôsobila prispôsobili prispôsobilo prispôsobte prispôsobí prispôsobím prispôsobíme prispôsobíš
+17	4417	nechýbať	nechýba nechýbajú nechýbal nechýbala nechýbali nechýbalo nechýbam nechýbaš
+18	4418	parný	parnej parnou parná parné parného parnú parných parným
+19	4419	kanadský	kanadskej kanadskom kanadskou kanadská kanadské kanadského kanadskí kanadskú kanadských kanadským
+20	4420	oživiť	oživ oživia oživil oživila oživili oživilo oživme oživte oživí oživím oživíme oživíš
+21	4421	dianie	diania dianí dianím
+22	4422	tanečný	tanečnom tanečného tanečných tanečným
+23	4423	odsťahovať	odsťahoval odsťahovala odsťahovali odsťahuj odsťahuje odsťahujem odsťahujeme odsťahujete odsťahuješ odsťahujte odsťahujú
+24	4424	zrada	zrade zradou zradu zrady zrád
+25	4425	komunista	komunistami komunisti komunistka komunistoch komunistom komunistov komunistu
+26	4426	platba	platbami platbe platbou platbu platby platbách platbám platieb
+27	4427	zhodovať	zhodoval zhodovala zhodovali zhodovalo zhoduje zhodujeme zhodujú
+28	4428	výpadok	výpadkami výpadkoch výpadkom výpadkov výpadku výpadky
+29	4429	taktika	taktike taktikou taktiku taktiky taktikách taktík
+30	4430	štedrý	najštedrejší štedrej štedrejší štedro štedrou štedrá štedré štedrého štedrí štedrú štedrých štedrým
+31	4431	natáčať	natáča natáčaj natáčajte natáčajú natáčal natáčala natáčali natáčalo natáčam natáčame natáčate natáčaš
+32	4432	peší	pešej pešia pešie pešieho pešiu pešou peších
+33	4433	rukopis	rukopise rukopisom rukopisov rukopisu rukopisy
+34	4434	gombík	gombíka gombíkmi gombíkoch gombíkom gombíkov gombíková gombíku gombíky
+35	4435	rozdávať	rozdáva rozdávaj rozdávajte rozdávajú rozdával rozdávala rozdávali rozdávam rozdávame rozdávate rozdávaš
+36	4436	elektronika	elektronike elektronikou elektroniku elektroniky
+37	4437	predajňa	predajne predajni predajniach predajní predajňou predajňu
+38	4438	veľryba	veľrybami veľrybe veľrybia veľrybie veľrybou veľrybu veľryby veľrybách veľrybám veľrybí veľrýb
+39	4439	uplatňovať	uplatňoval uplatňovali uplatňuje uplatňujem uplatňujeme uplatňujú
+40	4440	tenis	tenise tenisu
+41	4441	odstup	odstupe odstupoch odstupom odstupu
+42	4442	pozostatok	pozostatkami pozostatkoch pozostatkom pozostatkov pozostatky
+43	4443	večne	
+44	4444	netopier	netopiera netopiere netopierie netopiermi netopierom netopierov netopierovi netopierí
+45	4445	predchodca	predchodcami predchodcom predchodcov predchodcovi predchodcovia predchodcu
+46	4446	nečítať	nečíta nečítaj nečítajte nečítajú nečítal nečítala nečítali nečítam nečítame nečítate nečítaš
+47	4447	vypovedať	vypovedajú vypovedal vypovedala vypovedali vypovedalo vypovedá vypovedám vypovie
+48	4448	šťava	štiav šťave šťavou šťavu šťavy
+49	4449	vnímanie	vnímania vnímaniu vnímaním
+50	4450	automat	automatmi automatoch automatom automatov automatu automaty
+51	4451	potrestať	potresce potrescem potrestaj potrestajte potrestajú potrestal potrestala potrestali potrestá potrestám potrestáme potrestáte potrestáš
+52	4452	desiatok	
+53	4453	strava	strave stravou stravu stravy stráv
+54	4454	nahrávanie	nahrávania nahrávaniu nahrávaní nahrávaním
+55	4455	zistenie	zistenia zisteniach zisteniam zisteniami zisteniu zistení zistením
+56	4456	ledva	
+57	4457	viazať	viazal viazali viaže viažem viažeš viažu
+58	4458	javisko	javiska javiskom javisku
+59	4459	tlačidlo	tlačidiel tlačidla tlačidlami tlačidlom tlačidlá
+60	4460	prestížny	najprestížnejšie najprestížnejších prestížna prestížne prestížneho prestížnej prestížnom prestížnu prestížnych
+61	4461	užívanie	užívania užívaniu užívaním
+62	4462	prudký	prudkej prudkom prudká prudké prudkého prudkému prudkú prudkých prudkým
+63	4463	havária	havárie havárii haváriou haváriu havárií
+64	4464	hrdosť	hrdosti hrdosťou
+65	4465	poslúžiť	poslúž poslúži poslúžia poslúžil poslúžila poslúžili poslúžilo poslúžim poslúžime poslúžiš poslúžte
+66	4466	zajať	zajal zajala zajali zajme zajmem zajmeme zajmite zajmú
+67	4467	talent	talente talentom talentov talentu talenty
+68	4468	nuda	nudou nudu nudy
+69	4469	vyriešený	vyriešená vyriešené vyriešení vyriešenú vyriešených
+70	4470	odvoz	odvozom odvozu
+71	4471	unikátny	unikátna unikátneho unikátnej unikátnom unikátnou unikátnu unikátnych unikátnym
+72	4472	zistený	zistená zistené zistených
+73	4473	výdavok	výdavkami výdavkoch výdavkom výdavkov výdavky
+74	4474	zaťaženie	zaťaženia zaťažením
+75	4475	kritizovať	kritizoval kritizovala kritizovali kritizovanie kritizovaná kritizovaný kritizuje kritizujem kritizujete kritizuješ kritizujú skritizoval skritizovať
+76	4476	apoštol	apoštola apoštoli apoštolmi apoštolom apoštolov
+77	4477	posratý	posratej posratom posratou posratá posraté posratého posratému posratí posratú posratých posratým posratými
+78	4478	invázia	invázie invázii inváziou inváziu
+79	4479	pretiahnuť	pretiahla pretiahli pretiahlo pretiahne pretiahnem pretiahneme pretiahneš pretiahni pretiahnite pretiahnu pretiahol
+80	4480	kiež	
+81	4481	zamestnávateľ	zamestnávatelia zamestnávateľa zamestnávateľmi zamestnávateľom zamestnávateľov zamestnávateľovi
+82	4482	obor	obra obrami obri obroch obrom obrov obrovi
+83	4483	zbytok	zbytkami zbytkom zbytkov zbytku zbytky
+84	4484	vila	vilou vilu vily
+85	4485	súrodenec	súrodenca súrodencami súrodenci súrodencom súrodencov súrodenecké
+86	4486	fascinujúci	fascinujúca fascinujúce fascinujúcej fascinujúcich fascinujúcu
+87	4487	skúmanie	skúmania skúmaniu skúmaní skúmaním
+88	4488	tajiť	taj taja tajil tajila tajili tajov tají tajím tajíme tajíte tajíš
+89	4489	post	poste postoch postov postu posty
+90	4490	inštinkt	inštinkte inštinktmi inštinktoch inštinktom inštinktov inštinktu inštinkty
+91	4491	ľubovoľný	ľubovoľnej ľubovoľnom ľubovoľná ľubovoľné ľubovoľného ľubovoľnú ľubovoľných ľubovoľným
+92	4492	ruda	rude rudu rudy rúd
+93	4493	provincia	provincie provincii provinciou provinciu provincií
+94	4494	kiežby	
+95	4495	ranený	ranená ranené raneného ranení ranenú ranených raneným ranenými
+96	4496	vzbura	vzbure vzburou vzburu vzbury vzbúr
+97	4497	dvojka	dvojke dvojkou dvojku dvojky dvojok
+98	4498	civilista	civilistami civilisti civilistoch civilistom civilistov civilistovi civilistu
+99	4499	tehotenstvo	tehotenstva tehotenstve tehotenstvom tehotenstvu tehotenstvá
+100	4500	kvetina	kvetinami kvetine kvetinka kvetinkami kvetinku kvetinky kvetinou kvetinové kvetinový kvetinu kvetiny kvetinách kvetinám kvetín

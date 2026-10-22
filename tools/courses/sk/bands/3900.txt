@@ -1,0 +1,100 @@
+1	3801	náprava	náprav náprave nápravou nápravu nápravy
+2	3802	detektívka	detektívke detektívkou detektívku detektívky detektívok
+3	3803	sladkosť	sladkosti sladkostiach sladkostí sladkosťami
+4	3804	fasáda	fasád fasáde fasádou fasádu fasády
+5	3805	odhodiť	odhodia odhodil odhodila odhodili odhodilo odhodí odhodím odhodíme odhodíte odhodíš odhoď odhoďte
+6	3806	federácia	federácie federácii federáciou federáciu
+7	3807	odev	odeve odevmi odevoch odevom odevov odevu odevy
+8	3808	mieriť	mieria mieril mierila mierili mierilo mierim mierime mierite mieriš mierte
+9	3809	pohodlie	pohodlia pohodliu pohodlí
+10	3810	najavo	
+11	3811	prípadný	prípadnej prípadnom prípadná prípadné prípadného prípadnému prípadnú prípadných prípadným
+12	3812	jarný	jarnej jarnom jarná jarné jarného jarnú jarných jarným
+13	3813	dopustiť	dopustil dopustila dopustili dopustí dopustím dopustíme dopustíte dopustíš
+14	3814	schovať	schoval schovala schovali
+15	3815	zradca	zradcami zradcom zradcov zradcovi zradcovia zradcovské zradcu zradkyňa zradkyňou zradkyňu
+16	3816	mamin	mamina mamine maminej maminho mamino maminom maminou maminu maminých maminým maminými
+17	3817	vítať	vítaj vítajte vítajú vítal vítala vítali vítam vítame vítate vítaš
+18	3818	neger	negra negrami negri negroch negrom negrov negrovi
+19	3819	register	registra registre registri registroch registrom registrov registru
+20	3820	priťahovať	priťahoval priťahovala priťahovali priťahovalo priťahuje priťahujem priťahujeme priťahujete priťahuješ priťahujú
+21	3821	šatník	šatníka šatníkom šatníku šatníky
+22	3822	ohlásiť	ohlás ohlási ohlásia ohlásil ohlásila ohlásili ohlásilo ohlásim ohlásime ohlásite ohlásiš ohláste
+23	3823	displej	displeja displeje displeji displejom displejov
+24	3824	gravitácia	gravitačnej gravitačnom gravitačná gravitačné gravitačného gravitačnú gravitačný gravitačných gravitačným gravitačnými gravitácie gravitácii gravitáciou gravitáciu gravitácií
+25	3825	dočasne	
+26	3826	es	esa ese esom esu
+27	3827	závažný	najzávažnejší závažnej závažnou závažná závažné závažného závažnému závažnú závažných závažným závažnými
+28	3828	omša	omše omši omšou omšu omší
+29	3829	stred	stredom
+30	3830	nestarať	nestaraj nestarajte nestarajú nestaral nestarala nestarali nestará nestarám nestaráme nestaráte nestaráš
+31	3831	preskočiť	preskakovať preskakuje preskoč preskočenie preskočil preskočila preskočili preskočilo preskočme preskočte preskočí preskočím preskočíme preskočíš
+32	3832	básnik	básnici básnickej básnický básnika básnikom básnikov básnikovi básnička básničky
+33	3833	zverejnený	zverejnená zverejnené zverejnení zverejnených
+34	3834	kazeta	kazetami kazete kazetou kazetu kazety kazetách kaziet
+35	3835	testovať	testoval testovala testovali testovalo testuje testujem testujeme testujete testuješ testujú
+36	3836	motýľ	motýle motýlie motýlieho motýlik motýlika motýlikom motýlikov motýliky motýlí motýlích motýľa motýľmi motýľoch motýľom motýľov motýľovi
+37	3837	roztomilý	najroztomilejšia najroztomilejší roztomilej roztomilejšia roztomilejší roztomilo roztomilou roztomilá roztomilé roztomilého roztomilí roztomilú roztomilých
+38	3838	posila	posilami posilou posilu posily posilám posíl
+39	3839	nevziať	nevezmem nevezmeme nevezmete nevezmeš nevezmi nevezmú nevzal nevzala nevzali nevzalo
+40	3840	dosiahnutý	dosiahnutá dosiahnuté dosiahnutého dosiahnutí dosiahnutých
+41	3841	znášať	znáša znášajú znášal znášala znášali znášam znášame znášate znášaš
+42	3842	súprava	súprav súprave súpravou súpravu súpravy
+43	3843	obísť	obchádza obchádzať obišiel obišla obišli obišlo obíde obídem obídeme obídenie obídete obídeš obídu obíď obíďte
+44	3844	naplánovaný	naplánovaná naplánované naplánovaného naplánovanú naplánovaných
+45	3845	susedný	susednej susednom susedné susedného susednú susedných susedným susednými
+46	3846	trojica	trojice trojici trojicou trojicu
+47	3847	pneumatika	pneumatikami pneumatike pneumatikou pneumatiku pneumatiky pneumatikách pneumatík
+48	3848	uznávaný	najuznávanejší najuznávanejších uznávanej uznávanou uznávaná uznávané uznávaného uznávaní uznávanú uznávaných uznávaným
+49	3849	hrúbka	hrúbke hrúbkou hrúbku hrúbky
+50	3850	včela	včelami včelia včelie včelieho včelou včelu včely včelách včelám včelí včelích včelím včiel včielka včielkou včielku včielky
+51	3851	ničiť	ničia ničiac ničil ničila ničili ničilo ničíme ničíte ničíš
+52	3852	magazín	magazíne magazínov magazínu magazíny
+53	3853	kompozícia	kompozície kompozícii kompozíciou kompozíciu kompozícií
+54	3854	silno	
+55	3855	zabezpečený	zabezpečenej zabezpečenom zabezpečená zabezpečené zabezpečeného zabezpečení zabezpečenú zabezpečených zabezpečeným
+56	3856	chutiť	chutia chutil chutila chutili chutilo chutím chutíš
+57	3857	ukrývať	ukrýva ukrývajú ukrýval ukrývala ukrývali ukrývam ukrývame ukrývate ukrývaš
+58	3858	psí	psej psia psie psieho psiu psom psou psích psím psími
+59	3859	naplánovať	naplánoval naplánovala naplánovali naplánuj naplánuje naplánujem naplánujeme naplánuješ naplánujte
+60	3860	graf	grafe grafmi grafoch grafov grafu grafy
+61	3861	nezabúdať	nezabúda nezabúdaj nezabúdajme nezabúdajte nezabúdajú nezabúdam nezabúdame nezabúdate nezabúdaš
+62	3862	núdzový	núdzovej núdzovom núdzová núdzové núdzového núdzovému núdzovú núdzových núdzovým
+63	3863	pohovor	pohovore pohovormi pohovoroch pohovorom pohovorov pohovoru pohovory
+64	3864	alfa	alfe alfou alfu alfy
+65	3865	diagnóza	diagnóz diagnóze diagnózou diagnózu diagnózy
+66	3866	maľovať	maľoval maľovala maľovali maľuj maľuje maľujem maľujeme maľujete maľuješ maľujte maľujú
+67	3867	trpaslík	trpaslíci trpaslíka trpaslíkmi trpaslíkoch trpaslíkom trpaslíkov trpaslíkovi
+68	3868	zhoršiť	zhoršia zhoršil zhoršila zhoršili zhoršilo zhorší zhorším zhoršíte zhoršíš
+69	3869	padák	padáka padákoch padákom padákov padáku padáky
+70	3870	mimozemšťan	mimozemšťana mimozemšťania mimozemšťanmi mimozemšťanoch mimozemšťanom mimozemšťanov mimozemšťanovi
+71	3871	stredovek	stredovekom stredoveku stredoveký stredovekých
+72	3872	činiť	učinil učiniť činenia činia činil činila činili činí činíme čiň
+73	3873	hit	hitmi hitom hitov hitu hity
+74	3874	bordel	bordeli bordeloch bordelom bordelov bordelu bordely
+75	3875	odstránený	odstránená odstránené odstránení
+76	3876	neodpovedať	neodpovedaj neodpovedajte neodpovedajú neodpovedala neodpovedali neodpovedá neodpovedám neodpovedáte neodpovedáš neodpovie neodpoviem neodpovieme neodpoviete neodpovieš
+77	3877	vítaný	vítanou vítaná vítané vítaní vítaným
+78	3878	privádzať	privádza privádzajú privádzal privádzala privádzali privádzalo privádzam privádzame privádzate privádzaš
+79	3879	platňa	platne platni platniach platňami platňou platňu
+80	3880	zjaviť	zjavia zjavil zjavila zjavili zjavilo zjavte zjaví zjavím zjavíš
+81	3881	bystrý	bystrejšia bystrejšie bystrejší bystro bystrá bystré bystrého bystrí bystrú bystrých bystrým najbystrejšia najbystrejší najbystrejších
+82	3882	tvorivý	tvorivej tvorivom tvorivá tvorivé tvorivého tvorivú tvorivých tvorivým
+83	3883	plochý	plochej plochom plochá ploché plochého plochí plochú plochých plochým plochými
+84	3884	kongres	kongrese kongresom kongresov kongresové kongresu kongresy
+85	3885	kresťanstvo	kresťanstva kresťanstve kresťanstvom kresťanstvu
+86	3886	násilný	násilnej násilnom násilnou násilná násilné násilného násilnému násilní násilnú násilných násilným násilnými
+87	3887	pavúk	pavúka pavúkmi pavúkoch pavúkom pavúkov pavúkovi pavúky
+88	3888	múdrosť	múdrosti múdrostí múdrosťou
+89	3889	ukryť	ukry ukryje ukryjem ukryjeme ukryjete ukryješ ukryjú ukryl ukryla ukryli ukryme ukryte
+90	3890	komponent	komponentov komponentu komponenty
+91	3891	kabína	kabín kabíne kabínou kabínu kabíny
+92	3892	fotiť	fotia fotil fotila fotili fotilo fotí fotím fotíme fotíte fotíš foť foťte
+93	3893	nežiť	neži nežije nežijem nežijeme nežijete nežiješ nežijú nežil nežila nežili
+94	3894	učebnica	učebnice učebnici učebniciach učebnicu učebníc
+95	3895	vyslať	vyslal vyslala vyslali vyslalo vyšle vyšlem vyšleme vyšlete vyšleš vyšlite vyšlú
+96	3896	osláviť	oslávi oslávil oslávila oslávili oslávim oslávime oslávite osláviš oslávme oslávte
+97	3897	krúžok	krúžkom krúžkov krúžku krúžky
+98	3898	drôt	drôte drôtené drôtený drôtik drôtiky drôtmi drôtoch drôtom drôtov drôtu drôty
+99	3899	originál	originále origináli originálom originálov originálu originály
+100	3900	automobilka	automobiliek automobilke automobilku automobilky automobilkám

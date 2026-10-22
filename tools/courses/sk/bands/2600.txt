@@ -1,0 +1,100 @@
+1	2501	nákladný	nákladnej nákladnom nákladnou nákladná nákladné nákladného nákladnú nákladných nákladným nákladnými
+2	2502	vystaviť	vystav vystavenia vystavenie vystaveniu vystavené vystavený vystavia vystavil vystavila vystavili vystavilo vystavovať vystavte vystavuje vystaví vystavím vystavíme vystavíte vystavíš
+3	2503	vyrovnať	vyrovnaj vyrovnajte vyrovnajú vyrovnal vyrovnala vyrovnali vyrovnalo vyrovná vyrovnám vyrovnáme vyrovnáte vyrovnáš
+4	2504	lámať	lám lámal lámala lámali lámalo lámanie lámaní láme lámem lámeme lámete lámeš lámu zlomil zlomiť
+5	2505	pozadie	pozadia pozadí pozadím
+6	2506	opitý	opitej opito opitom opitou opitá opité opitého opitému opití opitú opitých opitým opitými
+7	2507	inštitút	inštitúte inštitútom inštitútu inštitúty
+8	2508	rytier	rytiera rytieri rytiermi rytieroch rytierom rytierov rytierovi rytierske rytiersky rytierskych
+9	2509	vchod	vchode vchodoch vchodom vchodov vchodu vchody
+10	2510	rokovanie	rokovania rokovaniach rokovaniam rokovaniu rokovaní rokovaním
+11	2511	spoznávať	spoznáva spoznávajú spoznával spoznávali spoznávam spoznávame spoznávate spoznávaš
+12	2512	jedinec	jedinca jedincami jedince jedinci jedincom jedincov jedincovi
+13	2513	jak	jaka jako jakom jakov jakovi jaky
+14	2514	nahnevaný	nahnevanej nahnevanejší nahnevaná nahnevané nahnevaného nahnevaní nahnevanú nahnevaných nahnevaným nahnevanými
+15	2515	sedadlo	sedadiel sedadla sedadlami sedadle sedadlom sedadlu sedadlá sedadlách
+16	2516	najať	najal najala najali najalo najme najmem najmeme najmete najmeš najmi najmime najmite najmú
+17	2517	tok	tokoch tokom tokov toku toky
+18	2518	slza	slzami slzičky slzou slzu slzy slzách slzám sĺz
+19	2519	sprcha	sprchami sprche sprchou sprchové sprchový sprchu sprchy sprchách sprchám spŕch
+20	2520	nárok	nárokmi nárokom nárokov nároku nároky
+21	2521	medaila	medailami medaile medailou medailu medaily medailí
+22	2522	vlastníctvo	vlastníctva vlastníctve vlastníctvom vlastníctvu
+23	2523	zapísať	zapísal zapísala zapísali zapísalo zapíš zapíše zapíšem zapíšeme zapíšete zapíšeš zapíšte zapíšu
+24	2524	piesok	pieskoch pieskom pieskov pieskovej piesková pieskové pieskový pieskových piesku piesky piesočku piesočná piesočný
+25	2525	oslavovať	oslavoval oslavovala oslavovali oslavovalo oslavuj oslavuje oslavujem oslavujeme oslavujete oslavuješ oslavujme oslavujte oslavujú
+26	2526	záchranný	záchrannej záchrannom záchrannou záchranná záchranné záchranného záchrannému záchrannú záchranných záchranným
+27	2527	pedagóg	pedagogickej pedagogický pedagogika pedagogiku pedagogiky pedagogička pedagóga pedagógom pedagógov pedagógovia
+28	2528	podvod	podvode podvodmi podvodné podvodný podvodoch podvodom podvodov podvodu podvody
+29	2529	obvinenie	obvinenia obvineniach obvineniam obvineniami obvineniu obvinením
+30	2530	cigareta	cigaretami cigarete cigaretku cigaretou cigaretové cigaretového cigaretovú cigaretový cigaretu cigarety cigaretách cigaretám cigariet
+31	2531	pizza	pizze pizzi pizzou pizzu pizzy pízz
+32	2532	zločinec	zločinca zločincami zločinci zločincoch zločincom zločincov zločincovi zločineckej zločineckom zločinecká zločinecké zločineckého zločineckú zločinecký zločineckých zločineckým
+33	2533	záchod	záchoda záchode záchodmi záchodoch záchodom záchodov záchodu záchody
+34	2534	chod	chode chodmi chodoch chodom chodov chodu chody
+35	2535	pohovoriť	pohovoria pohovoril pohovorila pohovorili pohovorme pohovorte pohovorí pohovorím pohovoríme pohovoríte pohovoríš
+36	2536	rešpektovať	rešpektoval rešpektovala rešpektovali rešpektuj rešpektuje rešpektujem rešpektujeme rešpektujete rešpektuješ rešpektujte rešpektujú
+37	2537	prekrásny	prekrásna prekrásne prekrásneho prekrásnej prekrásni prekrásnom prekrásnou prekrásnu prekrásnych prekrásnym prekrásnymi
+38	2538	značný	značnej značnom značnou značná značné značného značnému značnú značným
+39	2539	obvinený	obvinenej obvinená obvinené obvineného obvinení obvinenú obvinených obvineným obvinenými
+40	2540	radiť	radia radil radila radili radí radím radíme radíte radíš
+41	2541	lož	lžami lži lžiach lžiam lžou lží
+42	2542	dej	deja deji dejom dejov dejovo dejová dejové deju
+43	2543	emócia	emóciami emócie emócii emóciou emóciu emóciách emóciám emócií
+44	2544	postupovať	postupoval postupovala postupovali postupovalo postupuj postupuje postupujem postupujeme postupujete postupuješ postupujme postupujte postupujú
+45	2545	spevák	speváci speváka spevákmi spevákom spevákov spevákovi
+46	2546	telesný	telesnej telesnom telesnou telesná telesné telesného telesnú telesných telesným telesnými
+47	2547	ignorovať	ignoroval ignorovala ignorovali ignoruj ignoruje ignorujem ignorujeme ignorujete ignoruješ ignorujme ignorujte ignorujú ignorujúc
+48	2548	osada	osade osadou osadu osady osadách osád
+49	2549	turistika	turistické turistický turistike turistiku turistiky
+50	2550	chovať	chovaj chovajme chovajte chovajú choval chovala chovali chová chováme chováte chováš
+51	2551	zámer	zámere zámeroch zámerom zámerov zámeru zámery
+52	2552	hladký	hladkej hladko hladkou hladká hladké hladkého hladkú hladkých hladkým hladšie najhladšie
+53	2553	podávať	podáva podávaj podávajte podávajú podával podávala podávali podávalo podávam podávame podávate podávaš
+54	2554	utrpenie	utrpenia utrpeniu utrpení utrpením
+55	2555	rasa	rasami rase rasou rasu rasy rasách rasám rás
+56	2556	raj	raja raje raji rajom raju
+57	2557	skrytý	skrytej skrytom skrytou skrytá skryté skrytého skrytí skrytú skrytých skrytým skrytými
+58	2558	vajíčko	vajíčka vajíčkach vajíčkam vajíčkami vajíčkom vajíčku vajíčok
+59	2559	rešpekt	rešpekte rešpektom rešpektu
+60	2560	flotila	flotile flotilou flotilu flotily
+61	2561	kľudne	kľudnejšie
+62	2562	stanovený	stanovenej stanovenom stanovená stanovené stanoveného stanovení stanovenú stanovených
+63	2563	preveriť	prever preveria preveril preverila preverili preverilo preverme preverte preverí preverím preveríme preveríte preveríš
+64	2564	oddiel	oddiele oddieli oddielmi oddieloch oddielom oddielov oddielu oddiely
+65	2565	zľava	zľavami zľave zľavou zľavu zľavy
+66	2566	tón	tóne tónmi tónoch tónom tónov tónu tóny
+67	2567	nesúhlasiť	nesúhlasia nesúhlasil nesúhlasila nesúhlasili nesúhlasilo nesúhlasí nesúhlasím nesúhlasíme nesúhlasíte nesúhlasíš
+68	2568	ohrozený	ohrozená ohrozené ohrození ohrozenú ohrozených ohrozeným ohrozenými
+69	2569	stres	strese stresom stresov stresu stresy
+70	2570	údajne	
+71	2571	rozvod	rozvode rozvodoch rozvodom rozvodov rozvodu rozvody
+72	2572	účinnosť	účinnosti účinnosťou
+73	2573	liečiť	lieč lieči liečia liečil liečila liečili liečim liečime liečite liečiš liečte
+74	2574	pohon	pohone pohonom pohonu pohony
+75	2575	lovec	lovca lovcami lovci lovcoch lovcom lovcov lovcovi
+76	2576	zbožňovať	zbožňoval zbožňovala zbožňovali zbožňuje zbožňujem zbožňujeme zbožňujete zbožňuješ zbožňujú
+77	2577	populácia	populácie populácii populáciou populáciu populácií
+78	2578	vyspať	vyspal vyspala vyspali vyspi vyspia vyspime vyspite vyspí vyspím vyspíme vyspíte vyspíš
+79	2579	originálny	originálna originálne originálneho originálnej originálnejšie originálnom originálnou originálnu originálnych originálnym originálnymi
+80	2580	protokol	protokole protokolmi protokoloch protokolom protokolov protokolu protokoly
+81	2581	relatívne	
+82	2582	organizátor	organizátora organizátori organizátormi organizátorom organizátorov
+83	2583	uznať	uznaj uznajte uznajú uznal uznala uznali uznalo uzná uznám uznáme uznáte uznáš
+84	2584	žiarenie	žiarenia žiareniu žiarení žiarením
+85	2585	zvukový	zvukovej zvukovom zvukovou zvuková zvukové zvukového zvukovú zvukových zvukovým zvukovými
+86	2586	opačný	opačnej opačnom opačnou opačná opačné opačného opačnú opačných opačným
+87	2587	pas	pase pasmi pasoch pasom pasov pasová pasu pasy
+88	2588	nehrať	nehraj nehrajme nehrajte nehrajú nehral nehrala nehrali nehralo nehrá nehrám nehráme nehráte nehráš
+89	2589	nástup	nástupe nástupom nástupu
+90	2590	netrápiť	netráp netrápi netrápia netrápil netrápila netrápili netrápilo netrápim netrápiš netrápme netrápte
+91	2591	magnet	magnetickej magnetickom magnetickou magnetická magnetické magnetického magnetickú magnetický magnetických magnetickým magnetmi magnetom magnetov magnetu magnety
+92	2592	realizácia	realizácie realizácii realizáciou realizáciu realizácií
+93	2593	stratégia	stratégie stratégii stratégiou stratégiu stratégiách stratégií
+94	2594	publikácia	publikácie publikácii publikáciou publikáciu publikáciách publikácií
+95	2595	kresťan	kresťana kresťania kresťanmi kresťanom kresťanov
+96	2596	zákaz	zákaze zákazom zákazu zákazy
+97	2597	minca	mincami mince minci minciach mincou mincu mincí
+98	2598	nesprávne	
+99	2599	behať	behaj behajte behajú behajúci behal behala behali behalo behania behanie behaniu behaní behaním behá behám beháme beháte beháš
+100	2600	vydavateľstvo	vydavateľstiev vydavateľstva vydavateľstve vydavateľstvom vydavateľstvu vydavateľstvá vydavateľstvách

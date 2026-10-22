@@ -1,0 +1,100 @@
+1	9401	menštruácia	menštruačné menštruačný menštruácie menštruácii menštruáciou menštruáciu
+2	9402	svetlomet	svetlometov svetlomety
+3	9403	rozpis	rozpise rozpisom rozpisu rozpisy
+4	9404	odpútať	odpúta odpútaj odpútajte odpútal odpútala odpútali odpútam
+5	9405	ohavný	najohavnejší ohavnej ohavnom ohavná ohavné ohavného ohavní ohavnú ohavných ohavným ohavnými
+6	9406	členenie	členenia
+7	9407	vozovka	vozovke vozovkou vozovky
+8	9408	eucharistia	eucharistie eucharistiu
+9	9409	tik	tikov tiku tiky
+10	9410	starnutie	starnutia starnutiu starnutí starnutím
+11	9411	presvedčivo	presvedčivejšie
+12	9412	alarm	alarmami alarme alarmom alarmov alarmu alarmy
+13	9413	zajatie	zajatia zajatiu
+14	9414	detektívny	detektívna detektívne detektívneho detektívnej detektívnom detektívnou detektívnu detektívnych
+15	9415	prednosta	prednostu
+16	9416	svetoznámy	svetoznáma svetoznáme svetoznámeho svetoznámou
+17	9417	nenastať	nenastal nenastala nenastali nenastalo nenastane nenastanú
+18	9418	pružnosť	pružnosti
+19	9419	strihať	strihaj strihajte strihajú strihal strihala strihali strihá strihám striháš
+20	9420	ustanovovať	ustanovuje ustanovujú
+21	9421	útlak	útlakom útlaku
+22	9422	uplatňovanie	uplatňovania uplatňovaní
+23	9423	pipka	pipiek pipkami pipke pipkou pipku pipky
+24	9424	neskočiť	neskoč neskočia neskočil neskočila neskočili neskočí neskočím neskočíme neskočíte neskočíš
+25	9425	chutne	chutnejšie najchutnejšie
+26	9426	vecný	vecné vecného vecných
+27	9427	novorodenec	novorodenca novorodenci novorodencom novorodencov
+28	9428	lavína	lavíne lavínou lavínu lavíny
+29	9429	kráter	krátera kráteri kráterov kráteru krátery
+30	9430	stranícky	stranícke straníckej stranícku straníckych
+31	9431	rozmnožovať	rozmnožuje rozmnožujú
+32	9432	zaparkovaný	zaparkovanom zaparkovaná zaparkované zaparkovaného zaparkovanú zaparkovaných
+33	9433	priveľký	priveľká priveľké priveľkú
+34	9434	lama	lame lamia lamiu lamou lamu lamy lám
+35	9435	románik	románikom románikov romániku romániky
+36	9436	demonštrovať	demonštroval demonštrovali demonštrovalo demonštruje demonštrujú
+37	9437	migréna	migrén migrénami migrénou migrénu migrény
+38	9438	editor	editora editore editori editormi editorom editorov editorovi
+39	9439	poučenie	poučenia poučení poučením
+40	9440	štekať	štekaj štekajú štekajúci štekal štekali štekanie šteká štekám štekáte štekáš
+41	9441	sekt	sekte sektu sekty
+42	9442	tematicky	
+43	9443	ľudovo	
+44	9444	nalákať	naláka nalákaj nalákajú nalákal nalákala nalákali nalákam nalákame
+45	9445	výboj	výboja výboje výbojmi výbojoch výbojom výbojov
+46	9446	elegantne	elegantnejšie
+47	9447	ochotne	ochotnejšie
+48	9448	stonka	stonke stonku stonky
+49	9449	okienko	okienka okienkom okienku
+50	9450	narkoman	narkomana narkomani narkomanka narkomankou narkomanky narkomanmi narkomanom narkomanov narkomanovi
+51	9451	nezobudiť	nezobudia nezobudil nezobudila nezobudili nezobudí nezobudím nezobudíme nezobudíte nezobudíš nezobuď
+52	9452	výdrž	výdrže výdrži výdržou
+53	9453	súhrnný	súhrnná súhrnné
+54	9454	neúplný	neúplná neúplné
+55	9455	jedlý	jedlom jedlá jedlé jedlého jedlú
+56	9456	panelový	panelovej panelové panelového panelových
+57	9457	talizman	talizmanmi talizmanom talizmanov talizmanu talizmany
+58	9458	búrlivý	búrlivej búrlivou búrlivá búrlivé búrlivého búrlivú búrlivých búrlivým
+59	9459	espresso	espressom
+60	9460	nezdvíhať	nezdvíha nezdvíhaj nezdvíhajte nezdvíhajú nezdvíhal nezdvíhala nezdvíhali nezdvíham nezdvíhate nezdvíhaš
+61	9461	blázniť	bláznia bláznil bláznila bláznili bláznim bláznime bláznite blázniš
+62	9462	sentimentálny	sentimentálna sentimentálne sentimentálneho sentimentálni sentimentálnu sentimentálnych sentimentálnym sentimentálnymi
+63	9463	udržateľný	udržateľnej udržateľná udržateľné udržateľného udržateľnú udržateľných
+64	9464	aleluja	
+65	9465	živnostník	živnostníkov
+66	9466	výpomoc	výpomoci
+67	9467	svalstvo	svalstva
+68	9468	zásnuby	zásnub zásnubami zásnubách zásnubám
+69	9469	čarodejníctvo	čarodejníctva čarodejníctve čarodejníctvom čarodejníctvu
+70	9470	akútne	
+71	9471	štúdiový	štúdiové štúdiových
+72	9472	metodický	metodické metodických
+73	9473	subjektívne	
+74	9474	sprostredkovateľ	sprostredkovatelia sprostredkovateľa sprostredkovateľom sprostredkovateľov
+75	9475	nadnárodný	nadnárodnej nadnárodná nadnárodné nadnárodných
+76	9476	prihrávka	prihrávku prihrávky prihrávok
+77	9477	múmia	múmiami múmie múmii múmiou múmiu múmií
+78	9478	nedýchať	nedýcha nedýchaj nedýchajte nedýchajú nedýchal nedýchala nedýcham nedýchaš
+79	9479	pričiniť	pričinením pričinil pričinili
+80	9480	povala	povale povalu povaly
+81	9481	prepravný	prepravnej prepravná prepravnú prepravných
+82	9482	neporušený	neporušená neporušené neporušenú neporušeným
+83	9483	matrika	matrike matriku matriky
+84	9484	komik	komici komikom komikov komikovi
+85	9485	ruženec	ruženca
+86	9486	nezhodovať	nezhodovala nezhodovali nezhoduje nezhodujeme nezhodujú
+87	9487	viacúčelový	viacúčelová viacúčelové
+88	9488	komfort	komforte komfortu
+89	9489	zbohatnúť	zbohatla zbohatli zbohatne zbohatnem zbohatneme zbohatnete zbohatneš zbohatni zbohatnú zbohatol
+90	9490	očista	očiste očistou očistu očisty
+91	9491	kognitívny	kognitívne kognitívneho kognitívnej kognitívnych
+92	9492	štrba	štrbe
+93	9493	variabilný	variabilná variabilné
+94	9494	autonómia	autonómie autonómiu
+95	9495	song	songom songov songu songy
+96	9496	jahňa	jahniat jahniatka jahniatko jahňacia jahňacie jahňací jahňatá
+97	9497	vykurovanie	vykurovania
+98	9498	nepatrný	nepatrnej nepatrná nepatrné nepatrnú nepatrných nepatrným
+99	9499	spokojnosť	spokojnosti spokojnosťou
+100	9500	pokročiť	pokročil pokročila pokročili pokročilo pokročí

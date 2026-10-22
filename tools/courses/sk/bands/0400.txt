@@ -1,0 +1,100 @@
+1	301	skôr	
+2	302	dôvod	dôvode dôvodmi dôvodoch dôvodom dôvodov dôvodu dôvody
+3	303	kráľ	králi králik králika králikmi králikoch králikom králikov králikovi králiky králičej králiček králičí kráľa kráľmi kráľom kráľov kráľova kráľove kráľovho kráľovi kráľovia kráľovien kráľovmu kráľovnami kráľovnej kráľovnou kráľovná kráľovné kráľovnú kráľovo kráľovom kráľovskej kráľovský kráľovu kráľu
+4	304	zmeniť	zmenenie zmenené zmenený zmenia zmenil zmenila zmenili zmenilo zmení zmením zmeníme zmeníte zmeníš zmeň zmeňme zmeňte
+5	305	napríklad	
+6	306	mladý	mladej mlado mladom mladou mladá mladé mladého mladému mladí mladú mladých mladým mladými mladšej mladšia mladšie mladšieho mladšiemu mladšiu mladšom mladšou mladší mladších mladším mladšími najmladšej najmladšia najmladšieho najmladšiu najmladšou najmladší najmladších najmladším
+7	307	vytvoriť	vytvor vytvorenia vytvorenie vytvoreniu vytvorené vytvorením vytvorený vytvoria vytvoriac vytvoril vytvorila vytvorili vytvorilo vytvorme vytvorte vytvorí vytvorím vytvoríme vytvoríte vytvoríš vytvára vytvárať
+8	308	ostatný	ostatnej ostatnom ostatná ostatné ostatného ostatnému ostatní ostatnú ostatných ostatným ostatnými
+9	309	loď	lode lodi lodiach lodiam lodí loďami loďou
+10	310	okolo	
+11	311	neskôr	
+12	312	zem	zeme zemi zemiach zemou zemí
+13	313	film	filmami filme filmoch filmom filmov filmu filmy
+14	314	známy	najznámejšej najznámejšia najznámejšie najznámejšieho najznámejšou najznámejší najznámejších najznámejším najznámejšími známa známe známeho známej známejšie známejší známemu známi známom známou známu známych známym známymi
+15	315	vojna	vojen vojnami vojne vojnou vojnovej vojnovom vojnovou vojnová vojnové vojnového vojnovému vojnoví vojnovú vojnový vojnových vojnovým vojnovými vojnu vojny vojnách vojnám
+16	316	skoro	najskôr skoršie
+17	317	sila	silami sile silou silu sily silách silám síl
+18	318	zavolať	zavolaj zavolajme zavolajte zavolajú zavolal zavolala zavolali zavolalo zavolá zavolám zavoláme zavoláte zavoláš
+19	319	počúvať	nepočúval počúva počúvaj počúvajme počúvajte počúvajú počúvajúc počúvajúci počúval počúvala počúvali počúvalo počúvam počúvame počúvania počúvanie počúvaní počúvaním počúvate počúvaš počúvla počúvli počúvnem počúvneme počúvneš počúvnite počúvnu počúvnuť počúvol
+20	320	blízky	bližšej bližšia bližšie bližšieho bližšiu bližšom bližší bližších bližším blízka blízke blízkeho blízkej blízkemu blízki blízko blízkom blízkou blízku blízkych blízkym blízkymi blízo najbližšej najbližšia najbližšie najbližšieho najbližšiemu najbližšiu najbližšom najbližšou najbližší najbližších najbližším najbližšími
+21	321	oba	obaja obe oboch obom oboma obomi
+22	322	príliš	
+23	323	srdce	srdca srdcami srdci srdcia srdciach srdciam srdciami srdcom srdcu srdiečka srdiečkami srdiečko srdiečkom srdiečku sŕdc
+24	324	báť	bojte bojí bojím bojíme bojíte bojíš bála báli bálo neboj neboja nebojte nebojí nebojím nebojíme nebojíte nebojíš nebál nebála nebáli nebáť
+25	325	používať	používa používaj používajte používajú používajúc používal používala používali používalo používam používame používate používaš
+26	326	niekoľko	niekoľkí
+27	327	právo	práv práva právach právami právom právu
+28	328	ráno	rán rána ráne ránom ránu
+29	329	von	
+30	330	osoba	osobami osobe osobou osobu osoby osobách osobám osôb osôbka osôbku
+31	331	pokračovať	pokračoval pokračovala pokračovali pokračovalo pokračovania pokračovanie pokračovaní pokračovaním pokračuj pokračuje pokračujem pokračujeme pokračujete pokračuješ pokračujme pokračujte pokračujú pokračujúci
+32	332	začiatok	začiatkami začiatkoch začiatkom začiatkov začiatku začiatky začiatočné začiatočný
+33	333	existovať	existoval existovala existovali existovalo existuje existujem existujeme existujete existuješ existujú neexistoval neexistovala neexistovali neexistovalo neexistuje neexistujem neexistujeme neexistujete neexistuješ neexistujú
+34	334	manžel	manžela manželia manželiek manželka manželkami manželke manželkou manželku manželky manželkách manželkám manželmi manželoch manželom manželov manželovi manželskej manželskom manželskou manželská manželské manželského manželskému manželskú manželský manželských manželským manželskými
+35	335	hora	horami hore horou horu hory horách horám hôr
+36	336	typ	typmi typoch typom typov typu typy
+37	337	láska	láskach láskami láske láskou lásku lásky lások
+38	338	mŕtvy	mŕtva mŕtve mŕtveho mŕtvej mŕtvejšia mŕtvejší mŕtvemu mŕtvi mŕtvom mŕtvou mŕtvu mŕtvych mŕtvym mŕtvymi
+39	339	čítať	prečíta prečítaj prečítajme prečítajte prečítajú prečítal prečítala prečítali prečítam prečítame prečítate prečítaš prečítať vyčíta vyčítal vyčítala vyčítali vyčítam vyčítaš vyčítať číta čítaj čítajte čítajú čítajúc čítal čítala čítali čítalo čítam čítame čítania čítanie čítaniu čítané čítaní čítaním čítate čítaš
+40	340	obdobie	obdobia obdobiach obdobiami obdobiu období obdobím
+41	341	pýtať	pýta pýtaj pýtajte pýtajú pýtajúc pýtal pýtala pýtali pýtalo pýtam pýtame pýtanie pýtate pýtaš spýta spýtaj spýtajme spýtajte spýtajú spýtal spýtala spýtali spýtam spýtame spýtate spýtaš spýtať
+42	342	zbraň	zbrane zbrani zbraniach zbraniam zbraní zbraňami zbraňou
+43	343	pripravený	pripravenej pripravenejší pripravenom pripravenou pripravená pripravené pripraveného pripravení pripravenú pripravených pripraveným pripravenými
+44	344	základný	najzákladnejšia najzákladnejšie najzákladnejšiu najzákladnejší najzákladnejších základnej základnom základnou základná základné základného základnému základní základnú základných základným základnými
+45	345	dlhý	dlhej dlhom dlhou dlhá dlhé dlhého dlhému dlhú dlhých dlhým dlhými dlhšej dlhšia dlhšieho dlhšiu dlhšom dlhšou dlhší dlhších dlhším dlhšími najdlhšej najdlhšia najdlhšiu najdlhšou najdlhší najdlhších najdlhším
+46	346	pocit	pocite pocitmi pocitoch pocitom pocitov pocitu pocity
+47	347	správne	najsprávnejšie správnejšie
+48	348	takýto	takejto takomto takouto takáto takéhoto takémuto takéto takíto takúto takýchto takýmito takýmto
+49	349	dvere	dverami dvermi dverové dverách dverám dverí dvier dvierka dvierkam dvierkami dvierok
+50	350	dúfať	dúfa dúfaj dúfajme dúfajte dúfajú dúfajúc dúfal dúfala dúfali dúfam dúfame dúfate dúfaš
+51	351	plán	pláne plánmi plánoch plánom plánov plánu plány
+52	352	tím	tímami tíme tímoch tímom tímov tímu tímy
+53	353	chápať	cháp chápal chápala chápali chápe chápem chápeme chápete chápeš chápte chápu necháp nechápal nechápala nechápali nechápe nechápem nechápeme nechápete nechápeš nechápte nechápu
+54	354	poslať	poslal poslala poslali poslalo pošle pošlem pošleme pošlete pošleš pošlime pošlite pošlú
+55	355	súčasť	súčasti súčastí súčasťami súčasťou
+56	356	druh	druha druhmi druhoch druhov druhovia druhu druhy
+57	357	zobrať	zober zoberie zoberiem zoberieme zoberiete zoberieš zoberme zoberte zoberú zobral zobrala zobrali zobralo
+58	358	postaviť	postav postavenej postavenia postavenie postaveniu postavenom postavená postavené postaveného postavení postavením postavenú postavený postavených postaveným postavenými postavia postavil postavila postavili postavilo postavme postavte postaví postavím postavíme postavíte postavíš
+59	359	dcéra	dcér dcérach dcéram dcérami dcére dcérenka dcérenku dcérka dcérou dcérska dcérske dcérskej dcérskou dcérsku dcérskych dcéru dcéruška dcéry
+60	360	člen	člena členmi členoch členom členov členovi členovia členy
+61	361	predtým	
+62	362	počet	početné počte počtoch počtom počtov počtu počty
+63	363	izba	izbami izbe izbička izbičku izbičky izbou izbovej izbový izbu izby izbách izieb
+64	364	plný	plne plnej plno plnom plnou plná plné plného plnému plní plnú plných plným plnými plnšie
+65	365	zabudnúť	nezabudnite nezabudnúť zabudla zabudli zabudlo zabudne zabudnem zabudneme zabudnete zabudneš zabudni zabudnime zabudnite zabudnutia zabudnutie zabudnuté zabudnutý zabudnú zabudol zabúda zabúdajú zabúdajúc zabúdal zabúdala zabúdali zabúdam zabúdame zabúdate zabúdaš zabúdať
+66	366	cieľ	ciele cieli cieľa cieľmi cieľoch cieľom cieľov cieľovej cieľovou cieľová cieľové cieľového cieľovú cieľový cieľových cieľovým cieľu
+67	367	polícia	policajne policajnej policajnom policajnou policajná policajné policajného policajnému policajní policajnú policajný policajných policajným policajnými polície polícii políciou políciu polícií
+68	368	hudba	hudbe hudbou hudbu hudby hudieb hudobne hudobnej hudobnom hudobnou hudobná hudobné hudobného hudobnému hudobní hudobnú hudobný hudobných hudobným hudobnými
+69	369	koľko	koľké koľkí
+70	370	doktor	doktora doktori doktorka doktorke doktorko doktorkou doktorku doktorky doktormi doktoroch doktorom doktorov doktorova doktorove doktorovej doktorovho doktorovi doktorovo doktorovom doktorovu doktorových doktorovým doktorskej doktorská doktorské doktorskú doktorský
+71	371	kúpiť	kupovať kúp kúpenie kúpená kúpeného kúpení kúpenú kúpený kúpených kúpi kúpia kúpil kúpila kúpili kúpilo kúpim kúpime kúpite kúpiš kúpme kúpte
+72	372	príbeh	príbehmi príbehoch príbehom príbehov príbehu príbehy
+73	373	európsky	európska európske európskeho európskej európskemu európski európskom európskou európsku európskych európskym európskymi
+74	374	inak	inakšie ináč
+75	375	rovnaký	rovnakej rovnakom rovnakou rovnaká rovnaké rovnakého rovnakému rovnakí rovnakú rovnakých rovnakým rovnakými
+76	376	rozumieť	nerozumiem porozumejú porozumel porozumela porozumeli porozumie porozumiem porozumieme porozumiete porozumieš porozumieť rozumej rozumejte rozumejú rozumel rozumela rozumeli rozumie rozumiem rozumieme rozumiete rozumieš
+77	377	kam	
+78	378	výsledok	výsledkami výsledkoch výsledkom výsledkov výsledku výsledky
+79	379	sledovať	sledoval sledovala sledovali sledovalo sledovania sledovanie sledovaniu sledovaní sledovaním sledovaný sleduj sleduje sledujem sledujeme sledujete sleduješ sledujme sledujte sledujú sledujúc sledujúci
+80	380	doma	
+81	381	list	listami liste listoch listom listov listová listový listu listy lístka lístkami lístkoch lístkom lístkov lístku lístky lístok lístoček lístočku lístočky
+82	382	zastaviť	zastav zastavenia zastavenie zastaveniu zastavení zastavením zastavený zastavia zastavil zastavila zastavili zastavilo zastavme zastavovať zastavte zastavuje zastaví zastavím zastavíme zastavíte zastavíš
+83	383	celkom	
+84	384	zákon	zákona zákone zákonmi zákonoch zákonom zákonov zákonu zákony
+85	385	fakt	faktami fakte faktoch faktom faktov faktu fakty
+86	386	priniesť	prines prinesenie prinesený prinesie prinesiem prinesieme prinesiete prinesieš prinesme prineste prinesú priniesla priniesli prinieslo priniesol prináša prinášať
+87	387	program	programami programe programoch programom programov programu programy
+88	388	možný	možné
+89	389	pokiaľ	
+90	390	informácia	informatívny informačné informačný informáciami informácie informácii informáciou informáciu informáciách informáciám informácií
+91	391	história	historickej historickom historickou historicky historická historické historického historickému historickú historický historických historickým historickými histórie histórii históriou históriu histórií
+92	392	názov	názvami názve názvoch názvom názvov názvu názvy
+93	393	preč	
+94	394	použiť	použi použije použijem použijeme použijete použiješ použijú použijúc použil použila použili použilo použime použite
+95	395	predstaviť	predstav predstavenia predstaveniach predstaveniami predstavenie predstaveniu predstavení predstavením predstavený predstavia predstavil predstavila predstavili predstavilo predstavme predstavte predstaví predstavím predstavíme predstavíte predstavíš
+96	396	štyri	štyria štyrmi štyroch štyrom
+97	397	republika	republike republikou republiku republiky republík
+98	398	tvár	tvárach tváram tvárami tváre tvári tvárou tvárí
+99	399	krásny	krajší krásna krásne krásneho krásnej krásnejšia krásnejšie krásnejší krásnemu krásni krásnom krásnou krásnu krásnych krásnym krásnymi najkrajší najkrásnejšia najkrásnejšie najkrásnejšiu najkrásnejší
+100	400	napísať	napísal napísala napísali napísalo napísanie napísaniu napísané napísaním napísaný napíš napíše napíšem napíšeme napíšete napíšeš napíšme napíšte napíšu

@@ -1,0 +1,100 @@
+1	1301	snaha	snahe snahou snahu snahy snahách snahám snáh
+2	1302	strážiť	stráž stráže stráženia stráženie strážené strážení strážením strážený stráži strážia strážiaci strážil strážila strážili strážim strážime strážite strážiš strážte
+3	1303	prípadne	
+4	1304	ospravedlniť	ospravedlnia ospravedlnil ospravedlnila ospravedlnili ospravedlní ospravedlním ospravedlníme ospravedlníte ospravedlníš ospravedlň ospravedlňte
+5	1305	umrieť	umiera umierať umrel umrela umreli umrelo umretie umri umrie umriem umrieme umriete umrieš umrite umrú
+6	1306	tábor	tábora tábore táboroch táborom táborov táborové táborový táborových táboru tábory
+7	1307	ponúkať	ponúka ponúkajú ponúkajúc ponúkal ponúkala ponúkali ponúkam ponúkame ponúkate ponúkaš
+8	1308	rásť	rastie rastiem rastieme rastiete rastieš rastú rastúce rastúci rástla rástli rástlo rástol
+9	1309	užiť	uži užije užijem užijeme užijete užiješ užijú užil užila užili užime užite
+10	1310	február	februára februári
+11	1311	nazývať	nazýva nazývaj nazývajme nazývajte nazývajú nazýval nazývala nazývali nazývalo nazývam nazývame nazývate nazývaš
+12	1312	základňa	základne základni základniach základňou základňu
+13	1313	sladký	najsladšia najsladšie najsladší sladkej sladko sladkom sladkou sladká sladké sladkého sladkému sladkí sladkú sladkých sladkým sladkými sladšia sladšie sladší
+14	1314	zdravý	najzdravšie najzdravší najzdravších zdravej zdravo zdravom zdravou zdravá zdravé zdravého zdravému zdraví zdravú zdravých zdravým zdravými zdravšia zdravšie zdravší
+15	1315	charakter	charaktere charakterom charakterov charakterové charakteru charaktery
+16	1316	dolu	
+17	1317	oblečenie	oblečenia oblečeniu oblečení oblečením
+18	1318	decko	deciek decka deckami deckom decku decká deckách deckám
+19	1319	princíp	princípe princípmi princípoch princípom princípov princípu princípy
+20	1320	diera	dier dierach dieram dierami diere dierka dierky dierou dieru diery
+21	1321	hľadisko	hľadiska hľadisku hľadiská hľadísk
+22	1322	zábavný	najzábavnejšia najzábavnejší najzábavnejších zábavnej zábavnejšia zábavnejší zábavnejším zábavnom zábavnou zábavná zábavné zábavného zábavní zábavnú zábavných zábavným zábavnými
+23	1323	bitka	bitiek bitkami bitke bitkou bitku bitky bitkách bitkám
+24	1324	partner	partnera partneri partnermi partneroch partnerom partnerov partnerovi
+25	1325	dospelý	dospelej dospelejšia dospelejšie dospelejší dospelo dospelom dospelou dospelá dospelé dospelého dospelému dospelí dospelú dospelých dospelým dospelými
+26	1326	rozkaz	rozkaze rozkazmi rozkazoch rozkazom rozkazov rozkazu rozkazy
+27	1327	zbor	zbore zboroch zborom zborov zborový zboru zbory
+28	1328	ľavý	ľavej ľavom ľavou ľavá ľavé ľavého ľavému ľavú ľavých ľavým
+29	1329	výrazný	najvýraznejšou najvýraznejší najvýraznejších najvýraznejším výraznej výraznejšia výraznejšiu výraznejší výraznom výraznou výrazná výrazné výrazného výraznému výraznú výrazných výrazným výraznými
+30	1330	počítať	počíta počítaj počítajme počítajte počítajú počítal počítala počítali počítalo počítam počítame počítanie počítate počítaš spočíta spočítaj spočítajme spočítajte spočítal spočítala spočítali spočítam spočítame spočítate spočítaš spočítať vypočíta vypočítaj vypočítajte vypočítal vypočítala vypočítali vypočítam vypočítame vypočítať započítal započítali započítam započítať
+31	1331	skočiť	skoč skočia skočil skočila skočili skočilo skočme skočte skočí skočím skočíme skočíte skočíš skákal skákali skákalo skákať skáč skáče skáčem skáčeme skáčete skáčeš skáčte skáču
+32	1332	normálny	normálna normálneho normálnej normálnejší normálnemu normálni normálnom normálnou normálnu normálnych normálnym normálnymi
+33	1333	nôž	noža nože noži nožmi nožoch nožom nožov nožu nožík nožíkom nožíky
+34	1334	kopec	kopca kopcami kopce kopci kopcoch kopcom kopcov kopcu kopček
+35	1335	zarobiť	zarob zarobenie zarobené zarobia zarobil zarobila zarobili zarobilo zarobí zarobím zarobíme zarobíte zarobíš zarába zarábaj zarábajú zarábal zarábala zarábali zarábam zarábame zarábate zarábaš zarábať
+36	1336	prejav	prejave prejavmi prejavoch prejavom prejavov prejavu prejavy
+37	1337	vznikať	vznikajú vznikal vznikala vznikali vznikalo vzniká
+38	1338	pripomínať	pripomína pripomínaj pripomínajú pripomínajúc pripomínal pripomínala pripomínali pripomínalo pripomínam pripomíname pripomínate pripomínaš
+39	1339	uvádzať	uvádza uvádzajú uvádzal uvádzala uvádzali uvádzalo uvádzam uvádzame uvádzate uvádzaš
+40	1340	seriál	seriáli seriáloch seriálom seriálov seriálové seriálu seriály
+41	1341	ovládať	ovláda ovládaj ovládajte ovládajú ovládal ovládala ovládali ovládalo ovládam ovládame ovládate ovládaš
+42	1342	bok	boka bokmi bokoch bokom bokov boku boky
+43	1343	ucho	ucha uchom uchová uchu ušami uši ušiach ušiam uška uško ušká ušné ušný uší
+44	1344	pero	pera perami pere perom perou peru pery perá perách perám perí pier
+45	1345	produkt	produktami produkte produktmi produktoch produktom produktov produktu produkty
+46	1346	povolenie	povolenia povoleniu povolení povolením
+47	1347	používaný	najpoužívanejšie najpoužívanejší najpoužívanejších najpoužívanejším používanej používanou používaná používané používaného používaní používanú používaných používaným používanými
+48	1348	naopak	
+49	1349	porucha	poruchami poruche poruchou poruchu poruchy poruchách poruchám porúch
+50	1350	otočiť	otoč otočia otočil otočila otočili otočilo otočme otočte otočí otočím otočíme otočíte otočíš
+51	1351	pozvať	pozval pozvala pozvali pozvalo pozve pozvem pozveme pozvete pozveš pozvi pozvime pozvite pozvú
+52	1352	mimochodom	
+53	1353	zamestnanec	zamestnanca zamestnancami zamestnanci zamestnancoch zamestnancom zamestnancov zamestnancovi zamestnanecké zamestnanecký zamestnankyne zamestnankyňa zamestnankyňou zamestnankyňu zamestnankýň
+54	1354	ospravedlňovať	ospravedlňoval ospravedlňovala ospravedlňovali ospravedlňuje ospravedlňujem ospravedlňujeme ospravedlňujete ospravedlňuješ ospravedlňujú
+55	1355	podporovať	podporoval podporovala podporovali podporuj podporuje podporujem podporujeme podporujete podporuješ podporujte podporujú
+56	1356	kopa	kope kopou kopu kopy kopách kopám kôp kôpka kôpku
+57	1357	správať	správaj správajme správajte správajú správal správala správali správame správate správaš
+58	1358	cm	
+59	1359	stredisko	strediska strediskami strediskom stredisku strediská strediskách stredísk
+60	1360	kilometer	kilometra kilometrami kilometre kilometri kilometroch kilometrom kilometrov kilometrovej kilometrovú kilometrový
+61	1361	vodca	vodcami vodcom vodcov vodcovi vodcovia vodcovské vodcovský vodcu vodkyne vodkyňa vodkyňou vodkyňu
+62	1362	kolega	kolegami kolegoch kolegom kolegov kolegovi kolegovia kolegu kolegyne kolegyni kolegyňa kolegyňami kolegyňou kolegyňu
+63	1363	vlna	vlnami vlne vlnky vlnou vlnu vlny vlnách vlnám vĺn
+64	1364	oproti	
+65	1365	zodpovedný	zodpovednej zodpovednejšia zodpovednejší zodpovednou zodpovedná zodpovedné zodpovedného zodpovednému zodpovední zodpovednú zodpovedných zodpovedným zodpovednými
+66	1366	guľa	gule guli guliach guliam gulička gulí guľami guľka guľky guľou guľové guľový guľu guľôčky gúľ
+67	1367	vietor	veterné veterný vetra vetrami vetre vetroch vetrom vetrov vetru vetry vetrík
+68	1368	zbierka	zbierkach zbierke zbierkou zbierkových zbierku zbierky zbierok
+69	1369	zločin	zločine zločinmi zločinoch zločinom zločinov zločinu zločiny
+70	1370	pamiatka	pamiatkach pamiatkam pamiatkami pamiatke pamiatkou pamiatku pamiatky pamiatok
+71	1371	všeobecný	všeobecnej všeobecnom všeobecnou všeobecná všeobecné všeobecného všeobecnému všeobecnú všeobecných všeobecným všeobecnými
+72	1372	prázdny	prázdna prázdne prázdneho prázdnej prázdni prázdno prázdnom prázdnou prázdnu prázdnych prázdnym prázdnymi
+73	1373	dariť	darilo darí
+74	1374	neustály	neustála neustále neustáleho neustálej neustálemu neustálom neustálou neustálu neustálych neustálym neustálymi
+75	1375	družstvo	družstiev družstva družstvami družstve družstvom družstvu družstvá družstvách družstvám
+76	1376	výlet	výlete výletmi výletoch výletom výletov výletu výlety
+77	1377	symbol	symbole symbolmi symboloch symbolom symbolov symbolu symboly
+78	1378	dvakrát	
+79	1379	automobil	automobile automobilmi automobiloch automobilom automobilov automobilovej automobilovom automobilová automobilové automobilového automobilovú automobilový automobilových automobilu automobily
+80	1380	fáza	fáz fázach fázami fáze fázou fázu fázy
+81	1381	jazero	jazera jazere jazerného jazerný jazerom jazeru jazerá jazerách jazerám jazier jazierka jazierkach jazierko jazierku jazierok
+82	1382	starostiť	starosti
+83	1383	kňaz	kňaza kňazi kňazmi kňazoch kňazom kňazov kňazovi kňazskej kňazské kňazského kňazský kňažka kňažkou kňažky
+84	1384	pôvod	pôvode pôvodom pôvodu pôvody
+85	1385	trest	trestami treste trestoch trestom trestov trestu tresty
+86	1386	aktívny	aktívna aktívneho aktívnej aktívnejší aktívni aktívnom aktívnou aktívnu aktívnych aktívnym aktívnymi najaktívnejších
+87	1387	prisahať	prisahaj prisahajte prisahajú prisahal prisahala prisahali prisahá prisahám prisaháme prisaháte prisaháš
+88	1388	liečba	liečbe liečbou liečbu liečby
+89	1389	idiot	idiota idioti idiotka idiotmi idiotom idiotov idiotovi idiotskom idiotsky idiotská idiotské idiotského idiotskí idiotskú idiotský idiotských
+90	1390	výbor	výbore výboroch výborom výborov výboru výbory
+91	1391	navždy	
+92	1392	náklad	náklade nákladmi nákladoch nákladom nákladov nákladu náklady
+93	1393	nazvať	nazval nazvala nazvali nazvalo nazve nazvem nazveme nazvete nazveš nazvi nazvime nazvite nazvú
+94	1394	médium	média médiami médiom médiu médiá médiách médiám médií
+95	1395	um	ume umu umy
+96	1396	rana	ranami rane ranou ranu rany ranách ranám
+97	1397	zrušiť	zruš zrušia zrušil zrušila zrušili zrušilo zrušme zrušte zruší zruším zrušíme zrušíte zrušíš
+98	1398	prekvapenie	prekvapenia prekvapeniach prekvapeniu prekvapením
+99	1399	zničený	zničenej zničenom zničená zničené zničeného zničení zničenú zničených zničeným zničenými
+100	1400	anjel	anjela anjeli anjelici anjelik anjelika anjelikov anjelikovi anjelmi anjeloch anjelom anjelov anjelovi anjelskej anjelskom anjelskou anjelsky anjelská anjelské anjelského anjelskú anjelský anjelských anjelskými

@@ -1,0 +1,100 @@
+1	4301	vyhľadať	vyhľadaj vyhľadajte vyhľadajú vyhľadal vyhľadala vyhľadali vyhľadá vyhľadám vyhľadáme vyhľadáte vyhľadáš
+2	4302	pirát	piráta piráti pirátmi pirátoch pirátom pirátov pirátovi
+3	4303	bas	basov basu basy
+4	4304	prinajmenšom	
+5	4305	tunajší	tunajšej tunajšia tunajšie tunajšieho tunajšiu tunajšom tunajšou tunajších tunajším tunajšími
+6	4306	kardinál	kardinála kardináli kardinálmi kardinálom kardinálov kardinálovi
+7	4307	popísať	popísal popísala popísali popíš popíše popíšem popíšete popíšte
+8	4308	kontrolný	kontrolnej kontrolnom kontrolná kontrolné kontrolného kontrolnému kontrolnú kontrolných kontrolným
+9	4309	nekonečno	nekonečna nekonečne nekonečnom nekonečnu nekonečná
+10	4310	solárny	solárna solárne solárneho solárnej solárnom solárnou solárnu solárnych solárnymi
+11	4311	interakcia	interakcie interakcii interakciu interakcií interaktívne interaktívny
+12	4312	dátový	dátovej dátovom dátová dátové dátového dátovú dátových
+13	4313	svedčať	svedčí svedčím svedčíte
+14	4314	kapitál	kapitálom kapitálu
+15	4315	pochyba	pochyby pochybách pochýb
+16	4316	porazený	porazenej porazená porazené porazeného porazenému porazení porazených porazeným porazenými
+17	4317	uskutočňovať	uskutočňovali uskutočňuje uskutočňujem uskutočňujeme uskutočňujú
+18	4318	previezť	prevez prevezie preveziem prevezieme prevezieš prevezme prevezte prevezú previezla previezli previezol
+19	4319	chudoba	chudobe chudobou chudobu chudoby
+20	4320	štatistický	štatistickej štatistická štatistické štatistického štatistickú štatistických
+21	4321	odletieť	odletel odletela odleteli odletelo odletia odletí odletím odletíme odletíte odletíš odleť odleťte
+22	4322	folklórny	folklórna folklórne folklórneho folklórnej folklórnom folklórnych
+23	4323	korisť	koristí korisťou
+24	4324	pec	pece peci peciach pecou pecí piecky
+25	4325	zemetrasenie	zemetrasenia zemetraseniach zemetraseniu zemetrasení zemetrasením
+26	4326	neprežiť	neprežije neprežijem neprežijeme neprežijete neprežiješ neprežijú neprežil neprežila neprežili neprežilo
+27	4327	ohromný	ohromnej ohromnom ohromnou ohromná ohromné ohromného ohromní ohromnú ohromných ohromným ohromnými
+28	4328	naokolo	
+29	4329	mail	maili mailoch mailom mailov mailu maily
+30	4330	symptóm	symptómami symptómoch symptómom symptómov symptómy
+31	4331	ktovie	
+32	4332	dedo	deda dedom dedov dedovi dedovia deduška deduško
+33	4333	vychovávať	vychováva vychovávajú vychovával vychovávala vychovávali vychovávam vychovávame vychovávate vychovávaš
+34	4334	spávať	spáva spávajú spával spávala spávali spávam spávame spávate spávaš
+35	4335	morálka	morálke morálkou morálku morálky
+36	4336	sonda	sond sonde sondou sondu sondy
+37	4337	holý	holej holom holou holá holé holého holí holú holých holým holými
+38	4338	ustanovenie	ustanovenia ustanovení ustanovením
+39	4339	kúpa	kúp kúpe kúpnej kúpou kúpu kúpy
+40	4340	trojka	trojke trojkou trojku trojky trojok
+41	4341	zavedený	zavedená zavedené zavedení zavedenú zavedených
+42	4342	účinkovať	účinkoval účinkovala účinkovali účinkovalo účinkuje účinkujem účinkujú
+43	4343	záverečný	záverečnom záverečného záverečných záverečným
+44	4344	drogový	drogovej drogovom drogovou drogová drogové drogového drogovému drogoví drogovú drogových drogovým drogovými
+45	4345	podstúpiť	podstúpi podstúpia podstúpil podstúpila podstúpili podstúpim podstúpime podstúpite podstúpiš
+46	4346	zakryť	zakry zakryje zakryjem zakryjeme zakryješ zakryjú zakryl zakryla zakryli zakrylo zakryme zakryte
+47	4347	cesto	cestami ceste cestom cestu cestách cestám cestíčko cestíčku ciest
+48	4348	nemilovať	nemiloval nemilovala nemilovali nemiluj nemiluje nemilujem nemilujeme nemilujete nemiluješ nemilujú
+49	4349	dôkladný	dôkladne dôkladnej dôkladnejšie dôkladnejší dôkladnom dôkladnou dôkladná dôkladné dôkladného dôkladní dôkladnú dôkladným
+50	4350	pomenovať	pomenoval pomenovala pomenovali pomenuj pomenuje pomenujem pomenujeme pomenujete pomenuješ pomenujme pomenujte pomenujú
+51	4351	pohodlne	najpohodlnejšie pohodlnejšie
+52	4352	šampanské	šampanskom šampanského šampanskému šampanským
+53	4353	opätovný	opätovnej opätovnom opätovné opätovného opätovnému opätovných opätovným
+54	4354	žiarliť	žiarli žiarlia žiarlil žiarlila žiarlili žiarlim žiarlite žiarliš
+55	4355	mediálny	mediálna mediálne mediálneho mediálnej mediálnom mediálnou mediálnu mediálnych mediálnym
+56	4356	vysporiadať	vysporiada vysporiadaj vysporiadajte vysporiadajú vysporiadal vysporiadala vysporiadali vysporiadam vysporiadame vysporiadaš
+57	4357	zveriť	zveria zveril zverila zverili zverte zverím zveríme zveríte zveríš
+58	4358	vyžiadať	vyžiada vyžiadaj vyžiadajte vyžiadajú vyžiadal vyžiadala vyžiadali vyžiadalo vyžiadam vyžiadame
+59	4359	nezaslúžiť	nezaslúži nezaslúžia nezaslúžil nezaslúžila nezaslúžili nezaslúžim nezaslúžime nezaslúžite nezaslúžiš
+60	4360	služobný	služobnej služobnom služobnou služobná služobné služobného služobnému služobnú služobných služobným
+61	4361	let	letmi letoch letov lety
+62	4362	mexický	mexickej mexickom mexickou mexicky mexická mexické mexického mexickému mexickí mexickú mexických mexickým mexickými
+63	4363	vyskytnúť	vyskytla vyskytli vyskytlo vyskytne vyskytnú vyskytol
+64	4364	vytlačiť	vytlač vytlačia vytlačil vytlačila vytlačili vytlačilo vytlačte vytlačí vytlačím vytlačíme vytlačíte vytlačíš
+65	4365	súčiastka	súčiastkami súčiastku súčiastky súčiastok
+66	4366	večierka	večierkami večierke večierkou večierku večierky
+67	4367	pocta	poctami pocte poctou poctu pocty pôct
+68	4368	zázračný	zázračnej zázračnom zázračnou zázračná zázračné zázračného zázračnému zázrační zázračnú zázračných zázračným zázračnými
+69	4369	interpretácia	interpretácie interpretácii interpretáciou interpretáciu interpretácií
+70	4370	pozvánka	pozvánkach pozvánkami pozvánke pozvánkou pozvánku pozvánky pozvánok
+71	4371	zaobchádzať	zaobchádza zaobchádzaj zaobchádzajte zaobchádzajú zaobchádzal zaobchádzala zaobchádzali zaobchádzalo zaobchádzam zaobchádzame zaobchádzate zaobchádzaš
+72	4372	sukňa	sukne sukni sukniach suknička sukničku sukní sukňami sukňou sukňu
+73	4373	pozývať	pozýva pozývajú pozýval pozývala pozývali pozývam pozývame pozývate pozývaš
+74	4374	zriadenie	zriadenia zriadeniu zriadením
+75	4375	pyramída	pyramíd pyramídach pyramídami pyramíde pyramídou pyramídu pyramídy
+76	4376	absurdný	absurdnej absurdné absurdní absurdnú absurdných absurdným najabsurdnejšia
+77	4377	snímač	snímača snímače snímačmi snímačom snímačov
+78	4378	nariadiť	nariadi nariadil nariadila nariadili nariadilo nariadim nariaďte
+79	4379	náznak	náznakmi náznakoch náznakom náznakov náznaku náznaky
+80	4380	farmár	farmára farmári farmármi farmárom farmárov farmárovi
+81	4381	partnerka	partneriek partnerke partnerkou partnerku partnerky
+82	4382	makať	makaj makajte makajú makal makala makali maká makám makáme makáte makáš
+83	4383	rozmyslieť	rozmyslel rozmyslela rozmysleli rozmysli rozmyslia rozmyslite rozmyslí rozmyslím rozmyslíme rozmyslíte rozmyslíš
+84	4384	spomenutý	spomenutej spomenutá spomenuté spomenutého spomenutí spomenutých
+85	4385	charakterizovať	charakterizoval charakterizovali charakterizované charakterizovaný charakterizuje charakterizujú
+86	4386	pasažier	pasažiera pasažieri pasažiermi pasažierom pasažierov pasažierovi
+87	4387	remeslo	remesiel remesla remesle remeslom remeslu remeslá
+88	4388	kohút	kohúta kohúti kohútie kohútik kohútika kohútikom kohútikov kohútiku kohútiky kohútoch kohútom kohútov kohútovi kohúty kohútí
+89	4389	prášok	práškami práškoch práškom práškov prášku prášky
+90	4390	registrovaný	registrovanej registrovanou registrovaná registrované registrovaného registrovaní registrovanú registrovaných registrovaným
+91	4391	portrét	portréte portrétom portrétov portrétu portréty
+92	4392	spoľahlivý	najspoľahlivejší spoľahlivej spoľahlivejší spoľahlivá spoľahlivé spoľahlivého spoľahliví spoľahlivú spoľahlivých spoľahlivým
+93	4393	zastúpený	zastúpená zastúpené zastúpení zastúpených
+94	4394	centimeter	centimetra centimetre centimetroch centimetrov
+95	4395	spojka	spojkami spojke spojkou spojku spojky spojok
+96	4396	blahoželať	blahoželania blahoželanie blahoželaní blahoželá blahoželám blahoželáme
+97	4397	údržba	údržbe údržbou údržbu údržby
+98	4398	kováč	kováča kováči kováčik kováčom kováčov kováčovi kováčová kováčska kováčskej
+99	4399	otestovať	otestoval otestovala otestovali otestuj otestuje otestujem otestujeme otestujete otestujme otestujte otestujú
+100	4400	porovnať	porovnaj porovnajme porovnajte porovnajú porovnal porovnala porovnali porovná porovnám porovnáme porovnáte porovnáš

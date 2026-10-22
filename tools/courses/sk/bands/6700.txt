@@ -1,0 +1,100 @@
+1	6601	ubehnúť	ubehla ubehli ubehlo ubehne ubehnú ubehol
+2	6602	tiahnuť	tiahla tiahli tiahlo tiahne tiahni tiahnu tiahol
+3	6603	ústredie	ústredia ústrediu ústredí ústredím
+4	6604	adopcia	adopcie adopcii adopciou adopciu adopcií
+5	6605	postreh	postrehov postrehy
+6	6606	polostrov	poloostrov poloostrova polostrova polostrove
+7	6607	múka	múk múke múkou múku múky múčka
+8	6608	pochopiteľne	
+9	6609	znásilňovať	znásilnil znásilniť znásilňoval znásilňovali znásilňovanie znásilňuje znásilňujú
+10	6610	dusiť	dusia dusil dusila dusili dusilo dusí dusím dusíme dusíte dusíš
+11	6611	navrhovaný	navrhovanej navrhovaná navrhované navrhovaní navrhovaných
+12	6612	joga	joge jogu jogy
+13	6613	patent	patentom patentov patentu patenty
+14	6614	zlomok	zlomkom zlomku zlomky
+15	6615	východoslovenský	východoslovenskej východoslovenskom východoslovenská východoslovenské východoslovenského východoslovenských
+16	6616	motto	motta mottom
+17	6617	financovať	financoval financovala financovali financuje financujem financujeme financujete financujú
+18	6618	orchester	orchestri orchestrom orchestru
+19	6619	beloch	belosi
+20	6620	nestabilný	nestabilnej nestabilnou nestabilná nestabilné nestabilného nestabilní nestabilnú nestabilných nestabilným
+21	6621	materiálno	materiálna materiálne materiálnu
+22	6622	prísada	prísad prísadami prísadou prísadu prísady
+23	6623	podozrievať	podozrieva podozrievajú podozrieval podozrievala podozrievali podozrievam podozrievame podozrievate podozrievaš
+24	6624	skaza	skaze skazou skazu skazy
+25	6625	spoveď	spovede spovedi
+26	6626	chvála	chvále chválou chválu chvály
+27	6627	vďačnosť	vďačnosti vďačnosťou
+28	6628	prezentovaný	prezentovaná prezentované
+29	6629	kontrast	kontraste kontrastom kontrastu
+30	6630	rozkladať	rozkladajú rozkladá rozkladám
+31	6631	nežiaduci	nežiaduca nežiaduce nežiaducich nežiaducim
+32	6632	prepísať	prepísal prepísala prepísali prepíš prepíše prepíšem prepíšeme prepíšeš prepíšte prepíšu
+33	6633	problematický	problematická problematické problematických
+34	6634	odjakživa	
+35	6635	nasadnúť	nasadla nasadli nasadne nasadnem nasadneme nasadnete nasadneš nasadni nasadnite nasadnú nasadol
+36	6636	odpísať	odpisoval odpisovať odpisuje odpísal odpísala odpísali odpísaný odpíš odpíše odpíšem odpíšeme odpíšeš odpíšu
+37	6637	vyjebaný	vyjebanej vyjebanom vyjebanou vyjebaná vyjebané vyjebaného vyjebaní vyjebanú vyjebaných vyjebaným
+38	6638	prokuratúra	prokuratúre prokuratúrou prokuratúru prokuratúry
+39	6639	jednoznačný	jednoznačná jednoznačné jednoznačnú jednoznačným
+40	6640	austrálsky	austrálska austrálske austrálskeho austrálskej austrálskom austrálsku austrálskych austrálskym
+41	6641	deklarácia	deklarácie deklarácii deklaráciou deklaráciu
+42	6642	zásadne	
+43	6643	odporúčaný	odporúčaná odporúčané odporúčaní odporúčanú
+44	6644	sčítanie	sčítania sčítaní
+45	6645	mriežka	mriežke mriežkou mriežku mriežky
+46	6646	samostatnosť	samostatnosti
+47	6647	termálny	termálna termálne termálnej termálnu termálnych
+48	6648	mutácia	mutácie mutácii mutáciou mutáciu mutácií
+49	6649	skener	skenera skeneri skenermi skeneroch skenerom skenerov skeneru skenery
+50	6650	výstroj	výstroja výstroje výstroji výstrojom
+51	6651	známosť	známosti známostiach známostí známosťami známosťou
+52	6652	barón	baróna baróni barónmi barónom barónov barónovi
+53	6653	vizuálne	
+54	6654	derivát	derivátov deriváty
+55	6655	márnica	márnice márnici márniciach márnicou márnicu
+56	6656	nedvíhať	nedvíha nedvíhaj nedvíhajte nedvíhajú nedvíhal nedvíhala nedvíhali nedvíham nedvíhate nedvíhaš
+57	6657	puding	pudingom pudingu pudingy
+58	6658	šéfkuchár	šéfkuchára šéfkuchári šéfkuchárom šéfkuchárov šéfkuchárovi
+59	6659	nápadný	nápadne nápadnom nápadná nápadné nápadní nápadnú
+60	6660	zrod	zrode zrodom zrodu
+61	6661	návod	návode návodom návodu návody
+62	6662	bilancia	bilancie bilancii bilanciou bilanciu
+63	6663	bradavka	bradaviek bradavkami bradavke bradavkou bradavkový bradavku bradavky bradavkách bradavkám
+64	6664	tekvica	tekvicami tekvice tekvici tekvicová tekvicové tekvicovú tekvicový tekvicovým tekvicu tekvička tekvíc
+65	6665	triumf	triumfom triumfu triumfy
+66	6666	mólo	mól móla móle mólom mólu
+67	6667	naschvál	
+68	6668	prepad	prepade prepadoch prepadom prepadov prepadu prepady
+69	6669	potlesk	potleskom potlesku
+70	6670	otroctvo	otroctva otroctve otroctvom
+71	6671	odvrátiť	odvráti odvrátia odvrátil odvrátila odvrátili odvrátilo odvrátim odvrátite odvrátiš odvráť odvráťte
+72	6672	zasmiať	zasmej zasmeje zasmejem zasmejeme zasmejete zasmeješ zasmejú zasmial zasmiala zasmiali
+73	6673	zaklopať	zaklop zaklopal zaklopala zaklopali zaklope zaklopem zaklopeme zaklopeš zaklopme zaklopte zaklopú
+74	6674	časovanie	časovania časovaní časovaním
+75	6675	napájanie	napájania napájaniu napájaním
+76	6676	parádny	parádna parádneho parádnej parádnu parádnych parádnym parádnymi
+77	6677	šnúra	šnúr šnúre šnúrou šnúru šnúry
+78	6678	geniálne	
+79	6679	prehľadávať	prehľadáva prehľadávajú prehľadával prehľadávala prehľadávali prehľadávam prehľadávame prehľadávate prehľadávaš
+80	6680	pešiak	pešiaci pešiaka pešiakmi pešiakom pešiakov pešiakovi
+81	6681	vysadiť	vysadia vysadil vysadila vysadili vysadí vysadím vysadíme vysadíš vysaď vysaďte
+82	6682	sfarbenie	sfarbenia sfarbením
+83	6683	záľuba	záľub záľube záľubou záľubu záľuby záľubám
+84	6684	zapáčiť	zapáči zapáčia zapáčil zapáčila zapáčili zapáčilo zapáčim zapáčiš
+85	6685	marketingový	marketingovej marketingová marketingové marketingového marketingovému marketingovú marketingových marketingovým
+86	6686	zachcieť	zachce zachcelo
+87	6687	odveta	odvete odvetu odvety
+88	6688	predavač	predavača predavači predavačmi predavačom
+89	6689	kemp	kempe kempom kempu kempy
+90	6690	bavlna	bavlnené bavlnený bavlnke bavlnu bavlny
+91	6691	dozrieť	dozreje dozrel dozrela dozreli dozri dozrie dozriem dozriete dozrieš dozrite dozrú
+92	6692	klenot	klenotmi klenotom klenotov klenotu klenoty
+93	6693	upadnúť	upadla upadli upadlo upadne upadnem upadneš upadnú upadol
+94	6694	spísať	spísal spísala spísali spíše spíšem spíšeme spíšete spíšeš spíšme spíšte
+95	6695	triezvy	triezva triezve triezveho triezvi triezvo triezvu triezvym
+96	6696	nepriamy	nepriama nepriame nepriamych nepriamym
+97	6697	ponoriť	ponoria ponoril ponorila ponorili ponorte ponorí ponorím ponoríme ponoríte ponoríš
+98	6698	ubezpečiť	ubezpeč ubezpečil ubezpečila ubezpečili ubezpečilo ubezpečte ubezpečím
+99	6699	koordinácia	koordinácie koordinácii koordináciu
+100	6700	únikový	únikovej únikovom únikovou úniková únikové únikového únikovú únikových únikovým

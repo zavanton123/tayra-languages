@@ -1,0 +1,100 @@
+1	3701	vylúčený	vylúčená vylúčené vylúčení vylúčených
+2	3702	dlhoročný	dlhoročnej dlhoročnou dlhoročná dlhoročné dlhoročného dlhoroční dlhoročnú dlhoročných dlhoročným dlhoročnými
+3	3703	námorný	námornej námornom námornou námorná námorné námorného námorní námornú námorných námorným námornými
+4	3704	potkan	potkana potkanej potkani potkania potkanie potkanieho potkaniu potkanmi potkanoch potkanom potkanov potkanovi potkany potkaní potkaních
+5	3705	recenzia	recenzie recenzii recenziu recenzií
+6	3706	vstupovať	vstupoval vstupovala vstupovali vstupuje vstupujem vstupujeme vstupujete vstupuješ vstupujú
+7	3707	lúpež	lúpežami lúpeže lúpeži lúpežiach lúpežiam lúpežou lúpeží
+8	3708	pochovať	pochoval pochovala pochovali pochovalo
+9	3709	nijaký	nijakej nijakom nijakou nijaká nijaké nijakého nijakému nijakí nijakú nijakých nijakým
+10	3710	svedčiť	svedči svedčia svedčil svedčila svedčili svedčilo
+11	3711	prednosť	prednosti predností prednosťami prednosťou
+12	3712	vitamín	vitamínmi vitamínoch vitamínom vitamínov vitamínu vitamíny
+13	3713	ochranka	ochranke ochrankou ochranku ochranky
+14	3714	diaľka	diaľke diaľku diaľky diaľok
+15	3715	neprejsť	neprejde neprejdem neprejdeme neprejdete neprejdeš neprejdú neprešiel neprešla neprešli neprešlo
+16	3716	intenzita	intenzite intenzitou intenzitu intenzity
+17	3717	poškodená	poškodenej poškodenou poškodené poškodenú
+18	3718	priznanie	priznania priznaniami priznaniu priznaní priznaním
+19	3719	výklad	výklade výkladom výkladov výkladu výklady
+20	3720	starec	starca starcami starci starcom starcov starcovi starecké starecký starík starček starčeka starčekovi
+21	3721	pyšný	najpyšnejší pyšnej pyšnejší pyšnou pyšná pyšné pyšní pyšnú pyšných pyšným
+22	3722	odvolať	odvolaj odvolajte odvolajú odvolal odvolala odvolali odvolá odvolám odvoláme odvoláte odvoláš
+23	3723	výnos	výnosné výnosný výnosom výnosov výnosu výnosy
+24	3724	nováčik	nováčika nováčikmi nováčikom nováčikov nováčikovi nováčikovia nováčikovská
+25	3725	špička	špičiek špičkami špičke špičkou špičku špičky špičkách
+26	3726	bronz	bronze bronzovej bronzová bronzové bronzového bronzovú bronzový bronzových bronzu
+27	3727	rozbehnúť	rozbehla rozbehli rozbehlo rozbehne rozbehnem rozbehneme rozbehnete rozbehneš rozbehni rozbehnime rozbehnite rozbehnú rozbehol
+28	3728	nevravieť	nevrav nevravel nevravela nevraveli nevravia nevraviac nevravme nevravte nevraví nevravím nevravíme nevravíte nevravíš
+29	3729	zánik	zánikom zániku
+30	3730	hádka	hádkach hádkam hádkami hádke hádkou hádku hádky hádok
+31	3731	mzda	miezd mzde mzdou mzdové mzdu mzdy
+32	3732	sťažnosť	sťažnosti sťažnostiach sťažností sťažnosťami sťažnosťou
+33	3733	vyvolávať	vyvoláva vyvolávajú vyvolával vyvolávala vyvolávali vyvolávam vyvolávame vyvolávate vyvolávaš
+34	3734	záverečná	záverečnej záverečnou záverečné záverečnú
+35	3735	terasa	terasami terase terasou terasu terasy terasách terás
+36	3736	batožina	batožine batožinou batožinu batožiny batožín
+37	3737	panebože	
+38	3738	hrozno	hrozienka hrozienkami hrozienko hrozienok hrozna hrozne hroznejšie hroznom hroznu hrozná najhroznejšie
+39	3739	nudiť	nudia nudil nudila nudili nudilo nudí nudím nudíme nudíte nudíš
+40	3740	triasť	potras potrasie potrasiem potrasieme potrasiete potrasieš potrasme potraste potrasú potriasla potriasli potriasol potriasť tras trasenie trasie trasiem trasieme trasiete trasieš traste trasú trasúc trasúci triasla triasli triaslo triasol
+41	3741	mor	mory
+42	3742	výbava	výbave výbavou výbavu výbavy
+43	3743	trezor	trezora trezore trezoroch trezorom trezorov trezoru trezory
+44	3744	presun	presune presunom presunov presunu presuny
+45	3745	oceňovať	oceňoval oceňuje oceňujem oceňujeme oceňuješ oceňujú
+46	3746	intenzívne	intenzívnejšie
+47	3747	rozlúčka	rozlúčke rozlúčku rozlúčky
+48	3748	hormón	hormonálna hormonálne hormonálnej hormonálnu hormonálny hormónmi hormónom hormónov hormónu hormóny
+49	3749	oltár	oltára oltáre oltári oltárnej oltárom oltáru
+50	3750	nespať	nespal nespala nespali nespalo nespia nespí nespím nespíme nespíte nespíš
+51	3751	vyučovanie	vyučovania vyučovaní vyučovaním
+52	3752	menšina	menšinami menšine menšinou menšinových menšinu menšiny menšinám menšín
+53	3753	odstránenie	odstránenia odstráneniu odstránením
+54	3754	večnosť	večnosti večnosťou
+55	3755	jama	jame jamiek jamka jamkami jamke jamkou jamku jamky jamou jamu jamy jamách jám
+56	3756	syndróm	syndróme syndrómom syndrómu
+57	3757	vzácne	najvzácnejšie vzácnejšie
+58	3758	rodiť	rodenie rodená rodení rodený rodia rodil rodila rodili rodí rodím rodíme rodíte rodíš
+59	3759	neukázať	neukázal neukázala neukázali neukázalo neukáž neukáže neukážem neukážeme neukážete neukážeš neukážte neukážu
+60	3760	nezávislosť	nezávislosti nezávislosťou
+61	3761	integrovaný	integrovanej integrovanou integrovaná integrované integrovaného integrovaných integrovaným
+62	3762	kura	kurati kuratá kuraťa kuraťom kuraťu kurencami kurence kureniec kuriat kuriatka kuriatkami kuriatko kuriatok kuru kury
+63	3763	dotyk	dotykoch dotykom dotykov dotyku dotyky
+64	3764	negatívne	
+65	3765	prezentácia	prezentácie prezentácii prezentáciou prezentáciu prezentáciách prezentácií
+66	3766	skutok	skutkami skutkoch skutkom skutkov skutku skutky
+67	3767	špecializovaný	špecializovanej špecializovaná špecializované špecializovaného špecializovanú špecializovaných špecializovanými
+68	3768	podstatne	najpodstatnejšie podstatnejšie
+69	3769	podvádzať	podvádza podvádzajú podvádzal podvádzala podvádzali podvádzam podvádzame podvádzate podvádzaš
+70	3770	slovník	slovníka slovníkom slovníkov slovníku slovníky
+71	3771	zdržať	zdrž zdržal zdržala zdržali zdržalo zdržia zdržte zdrží zdržím zdržíme zdržíte zdržíš
+72	3772	chov	chove chovom chovu
+73	3773	pôsobivý	najpôsobivejšia najpôsobivejších pôsobivejší pôsobivá pôsobivé pôsobivého pôsobiví pôsobivú pôsobivých pôsobivým
+74	3774	poézia	poézie poézii poéziou poéziu
+75	3775	kuchár	kuchára kuchári kuchárka kuchárke kuchárkou kuchárku kuchárky kuchármi kuchárom kuchárov kuchárovi kuchárska kuchárske kuchárskej kuchársku kuchársky kuchárskych
+76	3776	veliteľstvo	veliteľstva veliteľstve veliteľstvom veliteľstvu
+77	3777	dobrovoľne	
+78	3778	individuálny	individuálna individuálneho individuálnej individuálnu individuálnych individuálnym
+79	3779	intenzívny	intenzívna intenzívneho intenzívnej intenzívnemu intenzívnom intenzívnou intenzívnu intenzívnych intenzívnym najintenzívnejšie najintenzívnejší
+80	3780	nestihnúť	nestihla nestihli nestihne nestihnem nestihneme nestihnete nestihneš nestihnú nestihol
+81	3781	trvalá	trvalej trvalou trvalé trvalú
+82	3782	valec	valca valcami valce valci valcom valcov
+83	3783	nazdar	
+84	3784	predĺženie	predĺženia predĺženiu predĺžení predĺžením
+85	3785	sídlisko	sídlisk sídliska sídlisku sídliská sídliskách
+86	3786	vyhláška	vyhláške vyhláškou vyhlášku vyhlášky
+87	3787	kolónia	kolónie kolónii kolóniou kolóniu kolóniách kolóniám kolónií
+88	3788	legendárny	legendárna legendárne legendárneho legendárnej legendárnemu legendárni legendárnom legendárnou legendárnu legendárnych legendárnym
+89	3789	pravdaže	
+90	3790	sivý	sivej sivo sivom sivá sivé sivého siví sivú sivých sivým sivými
+91	3791	zapojený	zapojená zapojené zapojení zapojenú zapojených
+92	3792	inžinier	inžiniera inžinieri inžiniermi inžinierom inžinierov inžinierovi
+93	3793	desivý	desivej desivejšia desivejší desivom desivou desivá desivé desivého desiví desivú desivých desivým desivými najdesivejšia najdesivejší najdesivejších
+94	3794	kolektívum	kolektív kolektíve kolektívnej kolektívny kolektívom kolektívov kolektívu kolektívy
+95	3795	vydavateľ	vydavatelia vydavateľa vydavateľmi vydavateľom vydavateľov vydavateľovi
+96	3796	odpáliť	odpáli odpália odpálil odpálila odpálili odpálilo odpálim odpálime odpálite odpáliš odpáľ odpáľme odpáľte
+97	3797	nebaviť	nebav nebavia nebavil nebavila nebavili nebavilo nebavme nebavte nebaví nebavím nebavíme nebavíte nebavíš
+98	3798	charita	charitami charitatívne charitatívny charite charitou charitu charity charitách charitám charít
+99	3799	stanovisko	stanoviska stanoviskom stanovisku stanoviská stanoviskách stanovísk
+100	3800	olympiáda	olympiád olympiádach olympiáde olympiádou olympiádu olympiády

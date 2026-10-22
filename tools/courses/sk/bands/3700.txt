@@ -1,0 +1,100 @@
+1	3601	legálny	legálna legálne legálneho legálnej legálnemu legálnom legálnou legálnu legálnych legálnym legálnymi
+2	3602	zväzok	zväzkoch zväzkom zväzkov zväzku zväzky
+3	3603	piecť	peč pečenia pečenie pečením pečenú pečený pečie pečiem pečieme pečiete pečieš pečú piekla piekli piekol upeč upečie upečiem upečieme upečieš upečte upečú upiecť upiekla upiekli upiekol
+4	3604	ohľadne	
+5	3605	babylon	babylone babylonom babylonu
+6	3606	pozvanie	pozvania pozvaniu pozvaním
+7	3607	pohlavie	pohlavia pohlaviami pohlaviu pohlaví pohlavím
+8	3608	zničenie	zničenia zničeniu zničením
+9	3609	nabiť	nabi nabije nabijem nabijeme nabiješ nabil nabila nabili nabite nabitie nabité nabitý nabíja nabíjať
+10	3610	postupný	postupnej postupnom postupnou postupná postupné postupného postupnému postupnú postupným
+11	3611	zúfalý	zúfalej zúfalejší zúfalom zúfalou zúfalá zúfalé zúfalého zúfalí zúfalú zúfalých zúfalým
+12	3612	určenie	určenia určeniu určením
+13	3613	večierok	večierkoch večierkom večierkov
+14	3614	zradiť	zradený zradia zradil zradila zradili zradilo zradí zradím zradíme zradíte zradíš zrádza zrádzať
+15	3615	smola	smole smolou smolu smoly
+16	3616	fínsky	fínska fínske fínskeho fínskej fínski fínskom fínsku fínskych fínskym
+17	3617	zrútiť	zrúti zrútia zrútil zrútila zrútili zrútilo zrútim zrútime zrútiš
+18	3618	odvetvie	odvetvia odvetviach odvetví odvetvím
+19	3619	surovina	surovinami surovinou surovinu suroviny surovín
+20	3620	posadnutý	posadnutá posadnuté posadnutého posadnutí posadnutú posadnutých posadnutým
+21	3621	pop	popa pope popom popov popová popový popu
+22	3622	priečka	priečkach priečke priečkou priečku priečky priečok
+23	3623	zasahovať	zasahoval zasahovala zasahovali zasahovalo zasahuje zasahujete zasahuješ zasahujú
+24	3624	štetka	štetiek štetkami štetke štetkou štetku štetky štetkách štetkám
+25	3625	babička	babičke babičkou babičku babičky
+26	3626	doľava	
+27	3627	zachovanie	zachovania zachovaniu zachovaním
+28	3628	zvyšný	zvyšnej zvyšná zvyšné zvyšného zvyšní zvyšnú zvyšných zvyšným zvyšnými
+29	3629	komunikovať	komunikoval komunikovala komunikovali komunikovalo komunikuj komunikuje komunikujem komunikujeme komunikujete komunikuješ komunikujte komunikujú
+30	3630	skrz	skrze
+31	3631	žiaľ	žiale žiali žiaľom žiaľu
+32	3632	experiment	experimente experimentmi experimentoch experimentom experimentov experimentu experimenty
+33	3633	šampionát	šampionáte šampionátoch šampionátom šampionátov šampionátu
+34	3634	reálne	reálnejšie
+35	3635	mladosť	mladosti mladosťou
+36	3636	slon	slona slonej sloni slonia slonica slonicu slonie slonieho sloniu slonmi slonoch slonom slonov slonovi slony sloní sloních sloník
+37	3637	tesný	najtesnejších tesnej tesnom tesná tesné tesnú tesných
+38	3638	primátor	primátora primátori primátorom
+39	3639	zúčastňovať	zúčastňoval zúčastňovala zúčastňovali zúčastňuje zúčastňujem zúčastňujeme zúčastňujete zúčastňuješ zúčastňujú
+40	3640	technik	technici technikmi technikom technikov technikovi
+41	3641	pochod	pochode pochodoch pochodom pochodov pochodu pochody
+42	3642	hotelový	hotelovej hotelovom hotelovou hotelová hotelové hotelového hotelovému hotelovú hotelových hotelovým
+43	3643	vyplniť	vyplnia vyplnil vyplnila vyplnili vyplnilo vyplní vyplním vyplníme vyplníte vyplníš vyplň vyplňte
+44	3644	okamžitý	okamžitej okamžitom okamžitou okamžitá okamžité okamžitého okamžitému okamžitú okamžitým
+45	3645	výstrel	výstrele výstrelmi výstreloch výstrelom výstrelov výstrelu výstrely
+46	3646	znenie	znenia znení
+47	3647	výlučne	
+48	3648	záloh	zálohu zálohy
+49	3649	ml	
+50	3650	lampa	lampami lampe lampou lampu lampy lampách lámp
+51	3651	rukojemník	rukojemníci rukojemníka rukojemníkmi rukojemníkoch rukojemníkom rukojemníkov rukojemníčka rukojemníčku
+52	3652	synovec	synovca synovci synovcom synovcov synovcovi
+53	3653	lokálny	lokálna lokálneho lokálnej lokálni lokálnom lokálnou lokálnu lokálnych lokálnym lokálnymi
+54	3654	nevydržať	nevydržal nevydržala nevydržali nevydržalo nevydržia nevydrží nevydržím nevydržíme nevydržíte nevydržíš
+55	3655	orientovaný	orientovanej orientovaná orientované orientovaného orientovaní orientovanú orientovaných
+56	3656	reforma	reforiem reforme reformou reformu reformy reformám
+57	3657	zrejmý	zrejmá zrejmé zrejmého zrejmú zrejmých zrejmým
+58	3658	nezomrieť	nezomrel nezomrela nezomreli nezomrelo nezomri nezomrie nezomriem nezomrieme nezomriete nezomrieš nezomrú
+59	3659	prasa	prasatami prasati prasatá prasatám prasaťa prasaťom prasaťu prascami prasce prasiat
+60	3660	dovolenie	dovolenia dovolením
+61	3661	nediať	nedeje nedejú nedialo
+62	3662	kasíno	kasín kasína kasínach kasíne kasínom kasínu
+63	3663	jen	jenom jenov jenu
+64	3664	úvodný	úvodnej úvodnom úvodná úvodné úvodného úvodnú úvodných úvodným
+65	3665	štáb	štábe štábny štábom štábov štábu štáby
+66	3666	škvrna	škvrnami škvrne škvrnka škvrnky škvrnou škvrnu škvrny škvrnách škvrnám škvŕn
+67	3667	ideálny	ideálna ideálneho ideálnej ideálni ideálnom ideálnou ideálnu ideálnych ideálnym ideálnymi
+68	3668	toľký	toľkej toľkom toľkou toľká toľkého toľkému toľkú toľkých toľkým toľkými
+69	3669	modelka	modeliek modelkami modelke modelkou modelku modelky modelkách modelkám
+70	3670	katedra	katedre katedrou katedru katedry
+71	3671	oblak	oblakmi oblakoch oblakom oblakov oblaku oblaky obláčik obláčiku
+72	3672	obývačka	obývačiek obývačke obývačkou obývačku obývačky obývačkách
+73	3673	módny	módna módne módneho módnej módni módnom módnou módnu módnych módnym módnymi
+74	3674	obviňovať	obviňoval obviňovala obviňovali obviňuj obviňuje obviňujem obviňujeme obviňujete obviňuješ obviňujte obviňujú obviňujúc
+75	3675	počiatok	počiatkoch počiatkom počiatkov počiatku počiatky
+76	3676	prevádzkovať	prevádzkoval prevádzkovala prevádzkuje prevádzkujem prevádzkujeme prevádzkujete prevádzkuješ prevádzkujú
+77	3677	nezavolať	nezavolajú nezavolal nezavolala nezavolali nezavolá nezavolám nezavoláme nezavoláte nezavoláš
+78	3678	komisár	komisára komisári komisárom komisárov komisárovi
+79	3679	chrobák	chrobáci chrobáka chrobákmi chrobákoch chrobákom chrobákov chrobákovi chrobáky chrobáčik chrobáčika chrobáčiky
+80	3680	potrubie	potrubia potrubiach potrubiu potrubí potrubím
+81	3681	všeobecnosť	všeobecnosti
+82	3682	tridsať	tridsiatich tridsiatimi
+83	3683	sféra	sfér sférach sfére sférou sféru sféry
+84	3684	námorník	námorníci námorníka námorníkmi námorníkom námorníkov námorníkovi
+85	3685	pridávať	pridáva pridávajú pridával pridávali pridávam pridávame pridávate pridávaš
+86	3686	jemne	jemnejšie najjemnejšie
+87	3687	vystopovať	vystopoval vystopovala vystopovali vystopuj vystopuje vystopujem vystopujeme vystopujete vystopuješ vystopujte vystopujú
+88	3688	nevýhoda	nevýhod nevýhode nevýhodou nevýhodu nevýhody
+89	3689	napiť	napi napije napijem napijeme napijete napiješ napijú napil napila napili napime napite
+90	3690	šofér	šoféra šoféri šoférka šoférku šoférom šoférov šoférovi šoférske
+91	3691	neskutočný	neskutočnej neskutočnou neskutočná neskutočné neskutočného neskutoční neskutočnú neskutočných neskutočným
+92	3692	väznica	väznicami väznice väznici väzniciach väznicou väznicu väzníc
+93	3693	obťažovať	obťažoval obťažovala obťažovali obťažovalo obťažuje obťažujem obťažujeme obťažujete obťažuješ obťažujte obťažujú
+94	3694	vpredu	
+95	3695	tanečník	tanečnica tanečnice tanečnicou tanečnicu tanečníc tanečníci tanečníka tanečníkmi tanečníkom tanečníkov
+96	3696	páchateľ	páchatelia páchateľa páchateľka páchateľmi páchateľoch páchateľom páchateľov páchateľovi
+97	3697	klan	klane klanmi klanom klanov klanu klany
+98	3698	udiať	udeje udejú udial udiala udiali udialo
+99	3699	žaloba	žalobami žalobe žalobou žalobu žaloby žalobách žalobám žalôb
+100	3700	previesť	prevedie prevediem prevedieme prevediete prevedieš prevedú preveď preveďte previedla previedli previedol

@@ -1,0 +1,740 @@
+# Forms the Slovak frequency list misses; check_course.py counts them as forms of the word.
+# headword<TAB>forms
+# Generated from the English Wiktionary Slovak dictionary (dictionaries/sk-en.sqlite), wordfreq and simplemma:
+# a form is added only when wordfreq has it, the list has it nowhere, it is not a dictionary word of its own, and the
+# dictionary gives it for that word alone (or for no word, in the generated sections).
+# Inflections the dictionary gives for a list headword and the list misses.
+možný	možných možná možným možného možnom možnými možnému
+parlament	parlamentu
+miera	miere miery
+# Inflections of a word the list files under a headword (lepšia under dobrý), same rules.
+byť	bytí
+čína	číňania číňanov
+# Negated verb forms: Slovak writes ne- joined to any verb form (nepije, nechodila); made from the forms above.
+môcť	nemôžte
+robiť	nerobia nerobil nerobím nerobili nerobte nerobila nerobíme nerobilo nerobíte
+vziať	nevezme
+rozhodnúť	nerozhodne nerozhoduje
+prejsť	neprechádza
+vytvoriť	nevytvára
+zabudnúť	nezabudol nezabudli nezabudnem nezabudla nezabudni nezabudne nezabudnete nezabudneme nezabudnime nezabudnú
+tvoriť	netvoria netvorí
+riadiť	neriadi
+pôsobiť	nepôsobí nepôsobia
+smieť	nesmelo
+slúžiť	neslúži
+využívať	nevyužíva
+vyrobiť	nevyrába
+pochádzať	nepochádza
+uskutočniť	neuskutočnil
+účasť	neúčasti
+prebiehať	neprebieha
+poskytovať	neposkytuje neposkytujú
+rásť	nerastie nerastú
+vznikať	nevzniká nevznikajú
+pripomínať	nepripomína
+podporovať	nepodporuje
+nastúpiť	nenastúpil
+vydávať	nevydáva
+spôsobovať	nespôsobuje
+vyjadriť	nevyjadril
+zanechať	nezanechal
+doraziť	nedorazil
+zachovať	nezachovali
+premeniť	nepremenil
+dosahovať	nedosahuje nedosahujú
+vyhnúť	nevyhli nevyhol nevyhla
+závisieť	nezávisí
+obmedziť	neobmedzuje
+dočkať	nedočkal
+zlepšiť	nezlepší
+prejavovať	neprejavuje
+uznať	neuznal
+oženiť	neoženil
+zaznamenať	nezaznamenal
+prihlásiť	neprihlásil
+líšiť	nelíši nelíšia
+potešiť	nepoteší
+ovplyvniť	neovplyvní
+vyhýbať	nevyhýba
+vyplývať	nevyplýva
+porušiť	neporušil
+znalosť	neznalosti
+voňať	nevonia
+svietiť	nesvieti
+postúpiť	nepostúpil nepostúpili
+presadiť	nepresadil
+zasahovať	nezasahuje
+presnosť	nepresnosti
+dodržať	nedodržal
+vzťahovať	nevzťahuje
+oplatiť	neoplatí
+uznávať	neuznáva neuznávajú
+uplatňovať	neuplatňuje
+disponovať	nedisponuje
+odolať	neodolá
+vykazovať	nevykazuje
+vyznať	nevyznám
+spĺňať	nespĺňa nespĺňajú
+dovoľovať	nedovoľuje
+popierať	nepopieram
+podliehať	nepodlieha
+zapadať	nezapadá
+dostaviť	nedostavil
+vylučovať	nevylučuje
+presahovať	nepresahuje
+diviť	nedivím
+jasnosť	nejasnosti
+zmestiť	nezmestí
+pozdávať	nepozdáva
+ustanovovať	neustanovuje
+dráždiť	nedráždi
+# Past forms in every gender and number, made from the masculine -l form (robila from robil), and their negations.
+organizovať	zorganizovali zorganizovala
+vyrásť	vyrastala vyrastali
+lámať	zlomila zlomilo zlomili
+donucovať	donútili donútila donútilo
+# Comparative and superlative forms in every ending, from those the list or the dictionary gives (najťažšiemu).
+starý	najstaršie
+dôležitý	dôležitejšie
+mladý	najmladšie
+drahý	drahšie najdrahšie
+nebezpečný	najnebezpečnejšie
+vzdialený	vzdialenejšie
+náročný	náročnejšie
+výkonný	výkonnejšie
+komplexný	komplexnejšie
+stabilný	stabilnejšie
+výhodný	výhodnejšie
+# Plural imperatives made from the singular (dajte, kupujme).
+# Forms of verbs the list files under their aspect partner or lacks (začínajú, prinášal, pomáhame), filed under the
+# headword or its aspect partner, and other forms wordfreq has and the dictionary does not, as simplemma lemmatizes them.
+vidieť	uvidíte uvidím uvidí uvidel uvidia uvidela uvidíš uvideli
+prísť	prichádzajú prichádzali prichádzame prichádzam prichádzate prichádzal prichádzalo prichádzala
+dostať	dostávajú dostávame dostávali dostávam dostával dostávala dostávate dostávalo
+nájsť	nachádzajú nachádzame nachádzali nachádzal nachádzala nachádzalo nachádzate nachádzam nachádzaš
+začať	začínajú začíname začínam začínal začínala začínali začínate začínalo začínajúc
+rád	rado
+pomôcť	pomáhal pomáhajú pomáhali pomáhala pomáhame pomáham pomáhate pomáhalo
+vysoký	vyššia
+sám	samo
+dokázať	dokazujú
+zostať	zostávajú zostávali zostávalo zostávame zostávam zostával zostávala
+odísť	odchádzajú odchádzal odchádzam odchádzali odchádzala odchádzame odchádzate
+zomrieť	zomierajú zomierali
+ukázať	ukazujú ukazoval ukazovali ukazovala ukazujem
+rozhodnúť	rozhodoval rozhodujú rozhodovali rozhodovalo rozhodujem rozhodovala rozhodujeme rozhodujete
+získať	získavajú získavali získaval získavala získavame
+otvoriť	otvárajú otvárame otváral otváram otvárali otvárala
+prestať	prestávajú
+stretnúť	stretávajú stretávame stretávam stretávali stretával stretávate stretávala
+prejsť	prechádzajú prechádzal prechádzame prechádzali prechádzala prechádzam prechádzate prechádzalo
+vytvoriť	vytvárajú vytvárali vytváral vytvárala vytvárame vytváram vytváralo nevytvárajú vytvárate
+kúpiť	kupuje kupujú kupujem kupoval kupovali kupovala kupujete kupujeme
+zastaviť	zastavujú zastavujeme
+priniesť	prinášajú prinášam prinášame prinášali prinášal prinášala
+možný	možnej možnú možnou
+nízky	nižšia
+vyjsť	vychádzajú vychádzali vychádzal vychádzala vychádzalo vychádzajúc vychádzame vychádzam
+vyhrať	vyhrávajú vyhrával
+ostať	ostávajú ostávam ostávame
+opustiť	opúšťajú opúšťame
+dôjsť	dochádzalo dochádzajú
+zvládnuť	zvládam
+niesť	nenesie
+sľúbiť	sľubuje sľuboval sľubujeme sľubujú
+chytať	chytil chytila
+zvýšiť	zvyšujú zvyšoval zvyšovali zvyšovala
+vyrobiť	vyrábajú vyrábali vyrábala vyrábal vyrábame vyrábam vyrábalo
+zatvoriť	zatvárajú
+samý	samou
+ticho	tichá tichom
+rozdeliť	rozdeľujú rozdeľujeme
+podpísať	podpisoval
+bod	bodov bodu bodom bodoch
+umrieť	umierajú
+vojsť	vchádzame
+vymeniť	vymieňali
+nastúpiť	nastupoval nastupujú
+vyrásť	vyrastá vyrastajú
+ozvať	ozývajú
+opísať	opisujú opisoval
+francúzsky	francúzska francúzsku francúzskom
+zísť	schádzali schádzajú
+premeniť	premieňajú
+obmedziť	obmedzujú
+vystaviť	vystavoval vystavovali
+lámať	zlomí
+bratislavský	bratislavského bratislavskom bratislavská bratislavské bratislavských bratislavským bratislavskú
+závod	závodu závodov závodoch závodom
+vítať	víta
+zastať	zastával zastávajú zastávali
+donucovať	donúti
+španielsky	španielska španielsku španielskom
+predísť	predchádzalo predchádzali predchádzala predchádzal
+švajčiarsky	švajčiarsku švajčiarska švajčiarskom
+kút	kúty kútov kútoch
+rada	radami
+vyskočiť	vyskočil vyskočila
+surový	surová
+bar	baru bary
+židovský	židovského židovských židovská židovské židovskú židovským židovskom židovskí
+tatra	tatier tatry tatrách tatrami
+dostaviť	dostavia
+beloch	belochov
+tis	tisa tisu
+uhorský	uhorskej uhorských uhorská uhorskom uhorské uhorským
+turecký	tureckom turecké tureckých turecká tureckého tureckým tureckú
+port	porte
+indický	indického indické indických indickom indická indickým
+belgický	belgickom
+sir	sirom
+chorvátsky	chorvátsku chorvátska chorvátskom
+fialový	fialová
+arabský	arabské arabskej arabského arabskom arabská
+tank	tankov tanku tankom
+vyletieť	vyletel vyletela
+írsky	írska írsku írskom
+bodový	bodová
+kórejský	kórejská kórejského kórejské kórejskom
+zvolenský	zvolenská zvolenského
+# Verb forms simplemma lemmatizes but does not list, kept to verb endings.
+predávať	predávaná
+vyhľadávať	vyhľadávaná
+# Forms of the negated verbs the list keeps as entries of their own (nešiel, nešla of neísť 1615), filed under the verb
+# as well, so they count from its rank; never teach the negated entry.
+ísť	nešlo nešiel nešla nešli neísť neide neidem neideme neidete neideš neidú neišiel neišla neišli neišlo nepoďme
+vidieť	neuvidíte neuvidí neuvidím neuvidíme neuvidel neuvidela neuvideli neuvidia neuvidieť neuvidíš
+pozrieť	nepozrel nepozrela nepozreli nepozri nepozrie nepozriem nepozrieme nepozriete nepozrieš nepozrieť nepozrú
+prísť	neprichádza neprichádzajú neprichádzal neprichádzala neprichádzalo neprichádzam neprichádzame neprichádzaš neprichádzať
+dostať	nedostáva nedostávajú nedostával nedostávali nedostávalo nedostávam nedostávame nedostávate nedostávaš nedostávať
+nájsť	nenachádza nenachádzajú nenachádzam nenachádzal nenachádzať
+urobiť	neurobí neurobili neurobila neurobíte neurobia neurobím neurobiť neurobilo neurob neurobme neurobte neurobíme neurobíš
+stať	nestane nestal nestali nestala nestanem nestaneme nestanete nestaneš nestanú nestaň nestať
+začať	nezačne nezačal nezačali nezačala nezačalo nezačnú nezačať nezačnem nezačneme nezačnete nezačneš nezačni nezačnime nezačnite nezačína nezačínaj nezačínajme nezačínajte nezačínajú nezačínal nezačínala nezačínali nezačínam nezačínaš nezačínať
+pomôcť	nepomôže nepomohlo nepomáha nepomôžu nepomohol nepomohli nepomohla nepomáhajú nepomáhaj nepomáhajte nepomáhal nepomáhala nepomáhali nepomáhalo nepomáham nepomáhame nepomáhate nepomáhaš nepomáhať nepomôcť nepomôžem nepomôžeme nepomôžete nepomôžeš
+vrátiť	nevrátil nevráti nevrátili nevrátila nevrátia nevrátilo nevrátim nevrátime nevrátite nevrátiš nevrátiť nevráť
+zabiť	nezabije nezabiješ nezabi nezabijem nezabijeme nezabijete nezabijú nezabil nezabila nezabili nezabilo nezabite nezabiť nezabíja nezabíjaj nezabíjajte nezabíjajú nezabíjal nezabíjali nezabíjam nezabíjame nezabíjate nezabíjaš nezabíjať
+viesť	nevedie nevedú neviedli nepovedie nevediem nevedieme nevediete nevedieš neveď neviedla neviedlo neviedol neviesť
+vyzerať	nevyzerá nevyzeralo nevyzerajú nevyzeral nevyzerala nevyzeraj nevyzerali nevyzerať nevyzerám nevyzeráme nevyzeráte nevyzeráš
+žiť	nežije nežijú nežijeme nežili nežil neži nežijem nežijete nežiješ nežila nežiť
+pracovať	nepracuje nepracujú nepracoval nepracovali nepracovala nepracovať nepracuj nepracujem nepracujeme nepracujete nepracuješ nepracujte
+snažiť	nesnažte nesnaží nesnažil nesnažia nesnažím nesnaž nesnažila nesnažili nesnažiť nesnažíme nesnažíte nesnažíš
+volať	nevolaj nevolajme nevolajte nevolajú nevolal nevolala nevolali nevolalo nevolať nevolá nevolám nevoláme nevoláte nevoláš
+počkať	nepočkajú nepočkal nepočkala nepočkali nepočkalo nepočkať nepočká nepočkám nepočkáme nepočkáte nepočkáš
+spraviť	nespravil nespraví nespravila nespravili nesprav nespravia nespravilo nespraviť nespravte nespravím nespravíme nespravíte nespravíš
+čakať	nečakala nečaká nečakali nečakajte nečakajú nečakaj nečakajme nečakať nečakám nečakáme nečakáte nečakáš
+zostať	nezostáva nezostane nezostalo nezostal nezostali nezostala nezostanem nezostaneme nezostanete nezostaneš nezostanú nezostaň nezostať nezostávaj nezostávajte nezostávajú nezostávalo nezostávam nezostávame nezostávaš nezostávať
+stáť	nestojí nestoja nestál nestálo nestoj nestojme nestojte nestojím nestojíme nestojíte nestojíš nestáť
+vziať	nevzal nevezmem nevezmeme nevezmete nevezmeš nevezmi nevezmú nevzala nevzali nevzalo nevziať
+hľadať	nehľadá nehľadajú nehľadajte nehľadaj nehľadal nehľadala nehľadali nehľadať nehľadám nehľadáme nehľadáte nehľadáš
+odísť	neodišiel neodchádza neodchádzaj neodchádzajte neodchádzajú neodchádzal neodchádzala neodchádzam neodchádzame neodchádzate neodchádzaš neodchádzať neodišla neodišli neodišlo neodíde neodídem neodídeme neodídete neodídeš neodídu neodísť neodíď neodíďte
+zomrieť	nezomrel nezomrela nezomreli nezomrelo nezomri nezomrie nezomriem nezomrieme nezomriete nezomrieš nezomrieť nezomrú
+milovať	nemiluje nemiloval nemilovala nemilovali nemilovať nemiluj nemilujem nemilujeme nemilujete nemiluješ nemilujú
+hrať	nehrá nehral nehrajú nehrala nehrali nehraj nehrajme nehrajte nehralo nehrať nehrám nehráme nehráte nehráš
+ukázať	neukázal neukazuje neukáže neukazoval neukazovala neukazovali neukazovať neukazuj neukazujem neukazujeme neukazuješ neukazujte neukazujú neukázala neukázali neukázalo neukázať neukáž neukážem neukážeme neukážete neukážeš neukážte neukážu
+patriť	nepatrí nepatria nepatril nepatrím nepatrila nepatríte nepatrili nepatri nepatrilo nepatriť nepatríme nepatríš
+rozhodnúť	nerozhodol nerozhodla nerozhodli nerozhodlo nerozhodnem nerozhodneme nerozhodnete nerozhodneš nerozhodnú nerozhodnúť
+získať	nezískal nezískali nezíska nezískala nezískajú nezískam nezískame nezískate nezískaš nezískať
+otvoriť	neotvorí neotvor neotvoria neotvoril neotvorila neotvorili neotvoriť neotvorím neotvoríme neotvoríte neotvoríš neotvára neotváraj neotvárajte neotvárajú neotváral neotvárala neotvárali neotváram neotvárame neotvárate neotváraš neotvárať
+zistiť	nezistili nezistil nezistí nezistila nezistia nezistilo nezistiť nezistím nezistíme nezistíte nezistíš
+prestať	neprestane neprestáva neprestal neprestala neprestali neprestalo neprestanem neprestaneme neprestanete neprestaneš neprestanú neprestaň neprestaňte neprestať neprestávaj neprestávajme neprestávajte neprestávajú neprestával neprestávala neprestávali neprestávam neprestávame neprestávate neprestávaš neprestávať
+držať	nedrží nedrž nedržal nedržala nedržali nedržalo nedržať nedržia nedržte nedržím nedržíme nedržíte nedržíš
+skončiť	neskončí neskončil neskončila neskončili neskončilo neskonči neskončia neskončiť neskončím neskončíme neskončíte neskončíš
+stretnúť	nestretol nestretli nestretla nestretlo nestretne nestretnem nestretneme nestretnete nestretneš nestretni nestretnú nestretnúť
+diať	nedeje nedialo nedejú nediať
+dávať	nedáva nedávajú nedávajte nedával nedávam nedávali nedávala nedávaj nedávalo nedávame nedávate nedávaš nedávať
+prejsť	neprešiel neprejde neprešli neprešla neprešlo neprejdem neprejdeme neprejdete neprejdeš neprejdú neprejsť
+zmeniť	nezmení nezmenilo nezmenil nezmenila nezmenili nezmenia nezmeniť nezmením nezmeníme nezmeníte nezmeníš nezmeň
+zavolať	nezavolajú nezavolal nezavolala nezavolali nezavolať nezavolá nezavolám nezavoláme nezavoláte nezavoláš
+počúvať	nepočúva nepočúvaj nepočúvajte nepočúvajú nepočúvala nepočúvali nepočúvam nepočúvame nepočúvate nepočúvaš nepočúvať
+používať	nepoužíva nepoužívajú nepoužívajte nepoužívam nepoužívame nepoužívali nepoužíval nepoužívať nepoužívaj nepoužívala nepoužívate nepoužívaš
+čítať	nečítal nečítala nečíta nečítali nečítam nečítaj nečítajte nečítajú nečítame nečítate nečítaš nečítať
+pýtať	nepýta nepýtal nepýtajte nepýtaj nepýtajú nepýtala nepýtali nepýtam nepýtame nepýtate nepýtaš nepýtať nespýta nespýtajú nespýtal nespýtala nespýtali nespýtam nespýtame nespýtate nespýtaš nespýtať
+poslať	neposlal neposlala neposlali neposlalo neposlať nepošle nepošlem nepošleme nepošlete nepošleš nepošlú
+zobrať	nezober nezoberie nezoberiem nezoberieme nezoberiete nezoberieš nezoberú nezobral nezobrala nezobrali nezobrať
+postaviť	nepostavia nepostavil nepostavila nepostavili nepostaviť nepostaví nepostavím nepostavíme nepostavíte nepostavíš
+zabudnúť	nezabúdajte nezabúda nezabúdajme nezabúdaj nezabúdajú nezabúdam nezabúdame nezabúdate nezabúdaš nezabúdať
+kúpiť	nekúpila nekúpil nekúpim nekúpite nekúpili nekúpi nekúpia nekúpime nekúpiš nekúpiť
+rozumieť	nerozumie nerozumejú nerozumel nerozumela nerozumiete nerozumeli nerozumieme nerozumieš nerozumieť
+sledovať	nesledujem nesleduje nesledoval nesledovala nesledovali nesledovať nesleduj nesledujeme nesledujete nesleduješ nesledujte nesledujú
+zastaviť	nezastaví nezastavil nezastavia nezastavila nezastavili nezastavilo nezastaviť nezastavoval nezastavovali nezastavovať nezastavuj nezastavuje nezastavujem nezastavujeme nezastavuješ nezastavujme nezastavujte nezastavujú nezastavím nezastavíme nezastavíte nezastavíš
+priniesť	nepriniesol neprinesie nepriniesli nepriniesla neprinieslo neprinesiem neprinesieme neprinesiete neprinesieš neprinesú nepriniesť
+použiť	nepoužil nepoužila nepoužili nepouži nepoužije nepoužijem nepoužijeme nepoužijete nepoužiješ nepoužijú nepoužite nepoužiť
+napísať	nenapísal nenapísala nenapísali nenapísať nenapíše nenapíšem nenapíšeme nenapíšete nenapíšeš nenapíšu
+zdať	nezdá nezdalo nezdajú nezdal nezdala nezdali nezdať nezdám nezdáte nezdáš
+vravieť	nevravím nevrav nevravel nevravela nevraveli nevravia nevraviac nevravieť nevravme nevravte nevraví nevravíme nevravíte nevravíš
+brať	neberie neberte neberiem neberú nebral nebrali nebrala neber neberieme nebrať neberiete neberieš neberme nebralo
+rozprávať	nerozpráva nerozprávaj nerozprávajme nerozprávajte nerozprávajú nerozprával nerozprávala nerozprávali nerozprávam nerozprávame nerozprávate nerozprávaš nerozprávať
+písať	nepíše nepísal nepíšem nepísala nepísali nepísalo nepísať nepíš nepíšeme nepíšete nepíšeš nepíšte nepíšu
+pozerať	nepozerá nepozerám nepozeraj nepozerajme nepozerajte nepozerajú nepozeral nepozerala nepozerali nepozerať nepozeráme nepozeráte nepozeráš
+stačiť	nestačí nestačilo nestačil nestačila nestačili nestačia nestačiť nestačím nestačíme nestačíte nestačíš
+stratiť	nestratili nestratil nestratí nestratila nestratiť nestratia nestratilo nestratím nestratíme nestratíte nestratíš nestrať nestraťme nestraťte
+vybrať	nevybrali nevyberie nevybral nevyberiem nevyberieme nevyberiete nevyberieš nevyberú nevybrala nevybrať
+jesť	nejedla neje nejedol nejem nejedli nejedzte nejedia nejedz nejeme nejesť nejete neješ nezje nezjedia nezjedla nezjedli nezjedol nezjedz nezjedzte nezjem nezjeme nezjesť nezjete nezješ
+pamätať	nepamätám nepamätá nepamätajú nepamätal nepamätala nepamätali nepamätať nepamätáme nepamätáte nepamätáš
+trvať	netrvá netrvala netrvaj netrvajú netrval netrvali netrvať netrvám
+skúsiť	neskús neskúsi neskúsia neskúsil neskúsila neskúsili neskúsim neskúsime neskúsite neskúsiš neskúsiť neskúste
+fungovať	nefunguje nefungujú nefungovalo nefungoval nefungovala nefungovali nefungovať
+vyjsť	nevyšlo nevyšiel nevyjde nevychádza nevyšla nevyšli nevychádzajú nevychádzaj nevychádzajte nevychádzal nevychádzala nevychádzali nevychádzalo nevychádzam nevychádzame nevychádzate nevychádzaš nevychádzať nevyjdem nevyjdeme nevyjdete nevyjdeš nevyjdú nevyjsť
+vyhrať	nevyhral nevyhrali nevyhrala nevyhrajú nevyhralo nevyhrať nevyhrá nevyhrám nevyhráme nevyhráte nevyhráš
+sedieť	nesedí nesedia nesedel nesedelo nesedeli nesedela nesedieť nesedím nesedíme nesedíte nesedíš neseď neseďte
+chýbať	nechýba nechýbalo nechýbajú nechýbal nechýbala nechýbali nechýbam nechýbaš nechýbať
+obsahovať	neobsahuje neobsahujú neobsahoval neobsahovať
+spať	nespí nespal nespala nespali nespalo nespať nespia nespím nespíme nespíte nespíš
+ostať	neostane neostáva neostalo neostal neostali neostala neostanem neostaneme neostanete neostaneš neostanú neostať neostávaj neostávajte neostávajú neostávalo neostávam neostávaš neostávať
+bojovať	nebojoval nebojovala nebojovali nebojovať nebojuj nebojuje nebojujem nebojujeme nebojujete nebojuješ nebojujte nebojujú
+zachrániť	nezachráni nezachránia nezachránil nezachránila nezachránili nezachránilo nezachránim nezachránime nezachránite nezachrániš nezachrániť
+naučiť	nenaučia nenaučil nenaučila nenaučili nenaučiť nenaučí nenaučím nenaučíme nenaučíte nenaučíš
+platiť	neplatí neplatia neplatili neplatil neplatila neplatilo neplatiť neplatím neplatíme neplatíte neplatíš neplať neplaťte
+učiť	neuč neučia neučil neučila neučili neučiť neučte neučí neučím neučíme neučíte neučíš
+pustiť	nepustí nepustili nepustia nepustil nepustila nepusti nepustite nepustiť nepustím nepustíme nepustíte nepustíš nepusť
+opustiť	neopustí neopustil neopúšťa neopusti neopustia neopustila neopustili neopustilo neopustite neopustiť neopustím neopustíme neopustíte neopustíš neopusť neopúšťaj neopúšťajte neopúšťajú neopúšťal neopúšťala neopúšťali neopúšťam neopúšťame neopúšťate neopúšťaš neopúšťať
+podariť	nepodarilo nepodarí nepodaril nepodarila nepodariť
+dovoliť	nedovolí nedovolili nedovolil nedovolia nedovoľte nedovolila nedovolím nedovolilo nedovoliť nedovolíme nedovolíte nedovolíš nedovoľ nedovoľme
+predať	nepredajú nepredal nepredala nepredali nepredať nepredá nepredám nepredáme nepredáte nepredáš
+dôjsť	nedošlo nedochádza nedôjde nedochádzalo nedochádzať nedošiel nedošla nedošli nedôjdeme nedôjdeš nedôjdu nedôjsť
+záležať	nezáležalo nezáležať nezáležiac
+utiecť	neutekaj neutekajte neutekajú neutekal neutekala neutekali neutekať neuteká neutekám neutekáme neutekáš neuteč neutečie neutečiem neutečieme neutečiete neutečieš neutečte neutečú neutiecť neutiekla neutiekli neutiekol
+bývať	nebýva nebývajú nebýval nebývala nebývali nebývalo nebývam nebývame nebývate nebývaš nebývať
+znieť	neznie neznejú neznel neznela nezneli neznelo nezniem nezniete neznieš neznieť
+objaviť	neobjavil neobjaví neobjavila neobjavili neobjavia neobjavilo neobjaviť neobjavím neobjavíme neobjavíš
+zvládnuť	nezvládol nezvládla nezvládli nezvládne nezvláda nezvládajú nezvládal nezvládala nezvládam nezvládame nezvládate nezvládaš nezvládať nezvládlo nezvládnem nezvládneme nezvládnete nezvládneš nezvládnu nezvládnuť
+zaplatiť	nezaplatí nezaplatil nezaplatia nezaplatila nezaplatili nezaplatiť nezaplatím nezaplatíme nezaplatíte nezaplatíš
+predstavovať	nepredstavuje nepredstavoval nepredstavovala nepredstavovali nepredstavovať nepredstavuj nepredstavujem nepredstavujeme nepredstavuješ nepredstavujú
+pochopiť	nepochopil nepochopili nepochopí nepochopila nepochopím nepochop nepochopia nepochopiť nepochopte nepochopíme nepochopíte nepochopíš
+zaujímať	nezaujíma nezaujímajú nezaujímalo nezaujímali nezaujímal nezaujímala nezaujímaj nezaujímam nezaujímame nezaujímate nezaujímaš nezaujímať
+vzniknúť	nevznikla nevznikli nevznikol nevzniklo nevznikne nevzniknú nevzniknúť
+zničiť	neznič nezničia nezničil nezničila nezničili nezničilo nezničiť nezničte nezničí nezničím nezničíme nezničíte nezničíš
+piť	nepijem nepije nepi nepijeme nepijete nepiješ nepijú nepil nepila nepili nepite nepiť
+požiadať	nepožiada nepožiadal nepožiadala nepožiadali nepožiadam nepožiadame nepožiadate nepožiadaš nepožiadať
+prežiť	neprežil neprežili neprežije neprežila neprežijem neprežijeme neprežijete neprežiješ neprežijú neprežilo neprežiť
+dosiahnuť	nedosiahol nedosiahli nedosiahne nedosiahla nedosiahlo nedosiahnem nedosiahneme nedosiahnete nedosiahneš nedosiahnu nedosiahnuť
+pridať	nepridajú nepridal nepridala nepridali nepridalo nepridať nepridá nepridám nepridáme nepridáte nepridáš
+chytať	nechytaj nechytajte nechytajú nechytal nechytala nechytali nechytať nechytia nechytil nechytila nechytili nechytilo nechytiť nechytá nechytám nechytáš nechytí nechytím nechytíme nechytíte nechytíš
+nosiť	nenosí nenosím nenosia nenos nenosil nenosila nenosili nenosiť nenoste nenosíme nenosíte nenosíš
+zmiznúť	nezmizne nezmizla nezmizli nezmizlo nezmiznem nezmizneme nezmiznete nezmizneš nezmizni nezmiznú nezmiznúť nezmizol
+považovať	nepovažuje nepovažujú nepovažoval nepovažujem nepovažovala nepovažovali nepovažovať nepovažuj nepovažujeme nepovažujete nepovažuješ nepovažujte
+konať	nekoná nekonal nekonali nekonalo nekonaj nekonajú nekonala nekonať nekonám
+klamať	neklame neklam neklamal neklamala neklamali neklamať neklamem neklameme neklamete neklameš neklamme neklamte neklamú
+vydať	nevydala nevydá nevydal nevydaj nevydajú nevydali nevydalo nevydať nevydám nevydáme nevydáte nevydáš
+súhlasiť	nesúhlasil nesúhlasím nesúhlasí nesúhlasila nesúhlasili nesúhlasiť nesúhlasíte nesúhlasia nesúhlasilo nesúhlasíme nesúhlasíš
+pokúsiť	nepokúsi nepokúsia nepokúsil nepokúsila nepokúsili nepokúsim nepokúsime nepokúsite nepokúsiš nepokúsiť
+prijať	neprijal neprijali neprijme neprijala neprijať neprijmem neprijmeme neprijmete neprijmeš neprijmi neprijmú nepríjme nepríjmem nepríjmu
+venovať	nevenoval nevenuje nevenovala nevenovali nevenovať nevenuj nevenujem nevenujeme nevenuješ nevenujte nevenujú
+tešiť	neteší neteš netešil netešila netešilo netešiť netešte neteším netešíte netešíš
+žiadať	nežiada nežiadaj nežiadajte nežiadajú nežiadal nežiadala nežiadali nežiadam nežiadame nežiadate nežiadaš nežiadať
+hodiť	nehodí nehodia nehodil nehodila nehodili nehodilo nehodiť nehodím nehodíme nehodíte nehodíš
+spomínať	nespomína nespomínam nespomínaj nespomínajte nespomínajú nespomínajúc nespomínal nespomínala nespomínali nespomíname nespomínate nespomínaš nespomínať
+ukradnúť	neukradla neukradli neukradne neukradnem neukradneme neukradnete neukradneš neukradnúť neukradol
+vydržať	nevydrží nevydržal nevydržala nevydržia nevydržali nevydržalo nevydržať nevydržím nevydržíme nevydržíte nevydržíš
+dozvedieť	nedozvieme nedozvedel nedozvie nedozvedeli nedozviete nedozvedela nedozvedia nedozvedieť nedozviem nedozvieš
+odpovedať	neodpovedá neodpovie neodpovedala neodpovedaj neodpovedajte neodpovedajú neodpovedali neodpovedať neodpovedám neodpovedáte neodpovedáš neodpoviem neodpovieme neodpoviete neodpovieš
+spoznať	nespoznajú nespoznal nespoznala nespoznali nespoznať nespozná nespoznám nespoznáme nespoznáte nespoznáš
+predpokladať	nepredpokladám nepredpokladal nepredpokladaj nepredpokladajte nepredpokladala nepredpokladali nepredpokladalo nepredpokladať nepredpokladá nepredpokladáme nepredpokladáš
+hádať	neháda nehádaj nehádajme nehádajte nehádajú nehádal nehádala nehádali nehádam nehádame nehádate nehádaš nehádať
+sadnúť	nesadla nesadli nesadlo nesadne nesadnem nesadneme nesadnete nesadneš nesadnú nesadnúť nesadol
+očakávať	neočakával neočakáva neočakávaj neočakávajte neočakávajú neočakávala neočakávali neočakávam neočakávame neočakávate neočakávaš neočakávať
+baviť	nebaví nebavilo nebavia nebav nebavil nebavila nebavili nebaviť nebavme nebavte nebavím nebavíme nebavíte nebavíš
+meniť	nemení nemenia nemenil nemenila nemenili nemeniť nemením nemeníme nemeníte nemeníš nemeň nemeňte
+opýtať	neopýta neopýtal neopýtala neopýtali neopýtam neopýtame neopýtate neopýtaš neopýtať
+napadnúť	nenapadlo nenapadne nenapadla nenapadli nenapadnú nenapadnúť nenapadol
+spomenúť	nespomenul nespomenie nespomeniem nespomenieme nespomeniete nespomenieš nespomenula nespomenuli nespomenú nespomenúť nespomeň
+udržať	neudržal neudržala neudržali neudržať neudržia neudrží neudržím neudržíme neudržíte neudržíš
+zbaviť	nezbavia nezbavil nezbavila nezbavili nezbaviť nezbaví nezbavím nezbavíme nezbavíte nezbavíš
+chystať	nechystá nechystám nechystaj nechystajú nechystal nechystala nechystali nechystať nechystáme nechystáte nechystáš
+strieľať	nestrieľa nestrieľaj nestrieľajte nestrieľajú nestrieľal nestrieľala nestrieľali nestrieľalo nestrieľam nestrieľame nestrieľate nestrieľaš nestrieľať
+starať	nestará nestaral nestaraj nestarajte nestarajú nestarala nestarali nestarať nestarám nestaráme nestaráte nestaráš
+uveriť	neuveríte neuveria neuveril neuverila neuverili neuveriť neuverí neuverím neuveríme neuveríš
+vyriešiť	nevyrieši nevyriešia nevyriešil nevyriešila nevyriešili nevyriešilo nevyriešim nevyriešime nevyriešite nevyriešiš nevyriešiť
+narodiť	nenarodia nenarodil nenarodila nenarodili nenarodilo nenarodiť nenarodí nenarodím nenarodíš
+využiť	nevyužil nevyužije nevyužijem nevyužijeme nevyužijete nevyužiješ nevyužijú nevyužila nevyužili nevyužiť
+vracať	nevracia nevracaj nevracajme nevracajte nevracajú nevracal nevracala nevracali nevracať nevraciam nevraciame nevraciaš
+zaslúžiť	nezaslúži nezaslúžia nezaslúžil nezaslúžila nezaslúžili nezaslúžim nezaslúžime nezaslúžite nezaslúžiš nezaslúžiť
+uvedomiť	neuvedomil neuvedomila neuvedomia neuvedomili neuvedomiť neuvedomí neuvedomíme neuvedomíte neuvedomíš
+podpísať	nepodpísal nepodpísala nepodpísali nepodpísalo nepodpísať nepodpíše nepodpíšem nepodpíšeme nepodpíšete nepodpíšeš nepodpíšu
+obávať	neobáva neobávaj neobávajte neobávajú neobával neobávala neobávali neobávam neobávate neobávaš neobávať
+končiť	nekončí nekončia nekonči nekončiť nekončím nekončíme nekončíš
+vzdať	nevzdal nevzdala nevzdá nevzdaj nevzdajú nevzdali nevzdať nevzdám nevzdáme nevzdáte nevzdáš
+týkať	netýka netýkajú netýkali netýkalo netýkať
+spôsobiť	nespôsobil nespôsobí nespôsobia nespôsobila nespôsobili nespôsobilo nespôsobiť nespôsobím nespôsobíš
+predávať	nepredáva nepredávajú nepredávaj nepredávajte nepredával nepredávala nepredávali nepredávam nepredávame nepredávate nepredávaš nepredávať
+dokončiť	nedokončil nedokončila nedokonči nedokončia nedokončili nedokončiť nedokončí nedokončím nedokončíme nedokončíte nedokončíš
+umožňovať	neumožňuje neumožňujú neumožňovať
+priznať	nepriznajú nepriznal nepriznala nepriznali nepriznať neprizná nepriznám nepriznáme nepriznáte nepriznáš
+dohodnúť	nedohodli nedohodla nedohodne nedohodneme nedohodnete nedohodneš nedohodnúť nedohodol
+zúčastniť	nezúčastnil nezúčastnili nezúčastnia nezúčastnila nezúčastniť nezúčastní nezúčastním nezúčastníte nezúčastníš
+premýšľať	nepremýšľa nepremýšľaj nepremýšľajte nepremýšľajú nepremýšľal nepremýšľala nepremýšľali nepremýšľam nepremýšľate nepremýšľaš nepremýšľať
+nastať	nenastane nenastal nenastala nenastali nenastalo nenastanú nenastať
+potvrdiť	nepotvrdil nepotvrdili nepotvrdia nepotvrdila nepotvrdilo nepotvrdiť nepotvrdí nepotvrdím nepotvrdíme
+vyhodiť	nevyhodia nevyhodil nevyhodila nevyhodili nevyhodiť nevyhodí nevyhodím nevyhodíme nevyhodíte nevyhodíš nevyhoď nevyhoďte
+všimnúť	nevšimol nevšimla nevšimli nevšimne nevšimnúť nevšimnem nevšimneme nevšimnete nevšimneš nevšimnú
+skúšať	neskúšal neskúšala neskúšajte neskúša neskúšaj neskúšajú neskúšali neskúšam neskúšate neskúšaš neskúšať
+rozmýšľať	nerozmýšľa nerozmýšľaj nerozmýšľajte nerozmýšľajú nerozmýšľal nerozmýšľala nerozmýšľali nerozmýšľam nerozmýšľame nerozmýšľate nerozmýšľaš nerozmýšľať
+dýchať	nedýcha nedýchaj nedýchajte nedýchajú nedýchal nedýchala nedýcham nedýchaš nedýchať
+tvrdiť	netvrdím netvrdil netvrdila netvrdiť netvrdí netvrdíme netvrď
+bolieť	nebolí nebolela neboleli nebolelo nebolia nebolieť
+pokúšať	nepokúšajte nepokúša nepokúšaj nepokúšajú nepokúšal nepokúšala nepokúšali nepokúšalo nepokúšam nepokúšame nepokúšate nepokúšaš nepokúšať
+ujsť	neujde neušlo neušiel neujdem neujdeme neujdete neujdeš neujdú neujsť neušla neušli
+plánovať	neplánujem neplánuje neplánoval neplánovala neplánovali neplánovať neplánuj neplánujeme neplánujete neplánuješ neplánujú
+padnúť	nepadlo nepadne nepadol nepadla nepadli nepadnem nepadneme nepadni nepadnite nepadnú nepadnúť
+zvyknúť	nezvyknem nezvykla nezvykli nezvykne nezvykneme nezvyknete nezvykneš nezvyknú nezvyknúť nezvykol
+plakať	neplakal neplakala neplakali neplakať neplač neplače neplačem neplačeš neplačte neplačú
+umrieť	neumrel neumrela neumreli neumri neumrie neumriem neumrieme neumriete neumrieš neumrieť neumrú
+počítať	nepočíta nepočítam nepočítal nepočítaj nepočítajte nepočítajú nepočítajúc nepočítala nepočítali nepočítalo nepočítame nepočítate nepočítaš nepočítať
+skočiť	neskoč neskočia neskočil neskočila neskočili neskočiť neskočí neskočím neskočíme neskočíte neskočíš
+uvádzať	neuvádza neuvádzajú neuvádzať
+ovládať	neovláda neovládajú neovládal neovládala neovládali neovládam neovládame neovládate neovládaš neovládať
+pozvať	nepozval nepozvala nepozvali nepozvať nepozve nepozvem nepozveme nepozvete nepozveš nepozvú
+ospravedlňovať	neospravedlňuje neospravedlňoval neospravedlňovať neospravedlňuj neospravedlňujem neospravedlňuješ neospravedlňujte
+správať	nespráva nesprávaj nesprávajte nesprávajú nesprával nesprávala nesprávali nesprávam nesprávame nesprávate nesprávaš nesprávať
+dariť	nedarilo nedarí nedariť
+nazvať	nenazval nenazvala nenazvali nenazvať nenazve nenazvem nenazveme nenazveš nenazvi
+vymyslieť	nevymyslel nevymyslela nevymysleli nevymyslia nevymyslieť nevymyslí nevymyslím nevymyslíme nevymyslíte nevymyslíš
+zahŕňať	nezahŕňa nezahŕňajú nezahŕňať
+ublížiť	neublíži neublížil neublíž neublížia neublížila neublížili neublížilo neublížim neublížime neublížite neublížiš neublížiť neublížte
+zobudiť	nezobudia nezobudil nezobudila nezobudili nezobudiť nezobudí nezobudím nezobudíme nezobudíte nezobudíš nezobuď
+spustiť	nespusti nespustia nespustil nespustila nespustili nespustite nespustiť nespustí nespustím nespustíme nespustíte nespustíš nespusť
+skrývať	neskrýva neskrývaj neskrývajte neskrývajú neskrýval neskrývala neskrývali neskrývam neskrývame neskrývate neskrývaš neskrývať
+mýliť	nemýlim nemýlil nemýli nemýlia nemýlila nemýlili nemýlime nemýlite nemýliš nemýliť nemýľ nemýľte
+prítomnosť	neprítomnosti neprítomnosť neprítomnosťou
+posielať	neposielajte neposiela neposielaj neposielajú neposielal neposielala neposielali neposielam neposielame neposielate neposielaš neposielať
+brániť	nebráni nebránilo nebránia nebránil nebránila nebránili nebránim nebránime nebrániť nebráň nebráňte
+zažiť	nezažil nezažila nezažili nezažije nezažijem nezažijeme nezažijete nezažiješ nezažijú nezažilo nezažiť
+zastreliť	nezastrelia nezastrelil nezastrelila nezastrelili nezastreliť nezastrelí nezastrelím nezastrelíme nezastrelíte nezastrelíš nezastreľ nezastreľte
+trápiť	netrápi netrápte netrápilo netráp netrápia netrápil netrápila netrápili netrápim netrápiš netrápiť netrápme
+zdvihnúť	nezdvihla nezdvihli nezdvihne nezdvihnem nezdvihneme nezdvihnete nezdvihneš nezdvihnú nezdvihnúť nezdvihol
+spadnúť	nespadol nespadla nespadli nespadlo nespadne nespadnem nespadneme nespadneš nespadni nespadnite nespadnú nespadnúť
+želať	neželaj neželajte neželajú neželal neželala neželali neželať neželá neželám neželáme neželáte neželáš
+kričať	nekrič nekričal nekričala nekričali nekričať nekričia nekričte nekričí nekričím nekričíš
+dopadnúť	nedopadlo nedopadne nedopadla nedopadli nedopadneš nedopadnú nedopadnúť nedopadol
+smiať	nesmej nesmeje nesmejem nesmejeme nesmejete nesmeješ nesmejte nesmejú nesmial nesmiala nesmiali nesmiať
+prehrať	neprehral neprehraj neprehrajú neprehrala neprehrali neprehrať neprehrá neprehrám neprehráme neprehráš
+jednať	nejedná nejednaj nejednajú nejednal nejednali nejednalo nejednať nejednám nejednáš
+zabrániť	nezabráni nezabránia nezabránil nezabránila nezabránili nezabránilo nezabránim nezabránime nezabránite nezabrániš nezabrániť
+strácať	nestrácajte nestráca nestrácaj nestrácajme nestrácajú nestrácal nestrácala nestrácali nestrácam nestrácame nestrácate nestrácaš nestrácať
+riešiť	nerieši nerieš neriešia neriešil neriešila neriešili neriešim neriešime neriešite neriešiš neriešiť neriešme neriešte
+splniť	nesplnil nesplnila nesplnia nesplnili nesplnilo nesplniť nesplní nesplním nesplníme nesplníte nesplníš
+zodpovedať	nezodpovedá nezodpovedajú nezodpovedal nezodpovedali nezodpovedalo nezodpovedať nezodpovedám nezodpovedáte
+hnúť	nehýbe nehýb nehýbal nehýbala nehýbali nehýbalo nehýbať nehýbem nehýbeme nehýbete nehýbeš nehýbte nehýbu
+udrieť	neudrel neudrela neudreli neudri neudrie neudriem neudriete neudrieš neudrieť
+ozvať	neozval neozvala neozvali neozvalo neozvať neozve neozvem neozveme neozvete neozveš neozvú
+dotknúť	nedotkne nedotkla nedotkli nedotklo nedotknem nedotkneme nedotknete nedotkneš nedotkni nedotknite nedotknú nedotknúť nedotkol
+snívať	nesnívalo nesníva nesnívaj nesnívajú nesníval nesnívala nesnívali nesnívam nesnívame nesnívate nesnívaš nesnívať
+odpustiť	neodpustil neodpusti neodpustia neodpustila neodpustili neodpustiť neodpustí neodpustím neodpustíme neodpustíte neodpustíš
+vyžadovať	nevyžaduje nevyžadujú nevyžadovať nevyžadujem
+ľutovať	neľutujem neľutoval neľutovala neľutovali neľutovať neľutuj neľutuje neľutujete neľutuješ neľutujte
+reagovať	nereaguje nereagujú nereagoval nereagovala nereagovali nereagovať nereaguj nereagujem nereaguješ nereagujte
+pokaziť	nepokazí nepokaz nepokazia nepokazil nepokazila nepokazili nepokazilo nepokaziť nepokazme nepokazte nepokazím nepokazíme nepokazíte nepokazíš
+pohnúť	nepohne nepohol nepohla nepohli nepohlo nepohnem nepohneme nepohnete nepohneš nepohnú nepohnúť
+zabrať	nezaberie nezaberú nezabral nezabrala nezabrali nezabralo nezabrať
+uvažovať	neuvažoval neuvažovala neuvažovali neuvažovať neuvažuj neuvažuje neuvažujem neuvažujeme neuvažujete neuvažuješ neuvažujte neuvažujú
+tlačiť	netlač netlačia netlačil netlačila netlačili netlačiť netlačte netlačí netlačím netlačíš
+ponáhľať	neponáhľa neponáhľaj neponáhľajme neponáhľajte neponáhľal neponáhľala neponáhľali neponáhľam neponáhľame neponáhľate neponáhľaš neponáhľať
+uvedomovať	neuvedomuje neuvedomujú neuvedomoval neuvedomovala neuvedomovali neuvedomovať neuvedomujem neuvedomujeme neuvedomujete neuvedomuješ neuvedomujúc
+stihnúť	nestihol nestihla nestihli nestihne nestihnem nestihneme nestihnete nestihneš nestihnú nestihnúť
+prosiť	nepros neprosil neprosila neprosili neprosiť neproste neprosí neprosím neprosíme neprosíš
+pomyslieť	nepomyslel nepomyslela nepomysleli nepomysli nepomyslieť nepomyslite nepomyslí nepomyslím nepomyslíš
+prekvapiť	neprekvapilo neprekvapí neprekvapil neprekvapila neprekvapiť neprekvapíte neprekvapíš
+fajčiť	nefajči nefajčia nefajčil nefajčila nefajčili nefajčite nefajčiť nefajčí nefajčím nefajčíme nefajčíte nefajčíš
+prezradiť	neprezradím neprezradil neprezradia neprezradila neprezradili neprezradiť neprezradí neprezradíme neprezradíte neprezradíš neprezraď neprezraďte
+nechávať	nenechávajte nenecháva nenechávaj nenechávajú nenechával nenechávala nenechávali nenechávam nenechávame nenechávate nenechávaš nenechávať
+pochybovať	nepochybujem nepochyboval nepochybovala nepochybovali nepochybovať nepochybuj nepochybuje nepochybujeme nepochybuješ nepochybujte
+vyskytovať	nevyskytuje nevyskytujú nevyskytovať
+žartovať	nežartoval nežartovala nežartovali nežartovať nežartuj nežartuje nežartujem nežartujeme nežartujete nežartuješ nežartujte nežartujú
+pripadať	nepripadá nepripadajú nepripadal nepripadala nepripadali nepripadalo nepripadať nepripadám nepripadáte nepripadáš
+nútiť	nenúti nenútia nenútil nenútila nenútili nenútim nenútime nenútiť nenúť nenúťte
+zaspať	nezaspal nezaspala nezaspali nezaspať nezaspi nezaspia nezaspite nezaspí nezaspím nezaspíme nezaspíte nezaspíš
+srať	neser neserie neseriem neserieš neserte neserú nesral nesrať
+prijímať	neprijíma neprijímajte neprijímajú neprijímam neprijímame neprijímate neprijímaš neprijímať
+súvisieť	nesúvisí nesúvisia nesúvisela nesúviselo nesúvisieť
+minúť	neminie neminiem neminieme neminiete neminieš neminul neminula neminuli neminú neminúť nemiň nemiňte
+vyrovnať	nevyrovná nevyrovnajú nevyrovnal nevyrovnala nevyrovnali nevyrovnať nevyrovnám nevyrovnáme nevyrovnáš
+lámať	nezlom nezlomia nezlomil nezlomila nezlomili nezlomilo nezlomiť nezlomte nezlomí nezlomím nezlomíte nezlomíš
+spoznávať	nespoznáva nespoznával nespoznávala nespoznávam nespoznávate nespoznávaš nespoznávať
+rešpektovať	nerešpektuje nerešpektoval nerešpektovala nerešpektovali nerešpektovať nerešpektujem nerešpektujete nerešpektuješ nerešpektujú
+uniknúť	neunikne neunikla neunikli neuniklo neuniknem neuniknete neunikneš neuniknú neuniknúť neunikol
+dôverovať	nedôveroval nedôverovala nedôverovali nedôverovať nedôveruj nedôveruje nedôverujem nedôverujeme nedôverujete nedôveruješ nedôverujte nedôverujú
+trafiť	netrafil netraf netrafia netrafila netrafili netrafiť netrafí netrafím netrafíme netrafíte netrafíš
+sťažovať	nesťažujem nesťažoval nesťažovala nesťažovali nesťažovať nesťažuj nesťažuje nesťažujeme nesťažuješ nesťažujte nesťažujú
+zraniť	nezranil nezrania nezranila nezranili nezraniť nezraní nezraním nezraníš nezraň nezraňte
+hanbiť	nehanbi nehanbia nehanbil nehanbila nehanbite nehanbiť nehanbí nehanbím nehanbíme nehanbíte nehanbíš
+rušiť	neruš nerušia nerušil nerušili nerušiť nerušte neruší neruším nerušíme nerušíte nerušíš
+podobať	nepodobá nepodobajú nepodobal nepodobali nepodobalo nepodobať nepodobám nepodobáme nepodobáte nepodobáš
+odporúčať	neodporúča neodporúčam neodporúčajú neodporúčal neodporúčame neodporúčať
+prehovoriť	neprehovor neprehovoria neprehovoril neprehovorila neprehovorili neprehovoriť neprehovorí neprehovorím neprehovoríme neprehovoríte neprehovoríš
+sklamať	nesklame nesklamal nesklam nesklamala nesklamali nesklamať nesklamem nesklameme nesklamete nesklameš nesklamte nesklamú
+vedomosť	nevedomosť nevedomosti nevedomosťou
+tváriť	netvár netvári netváril netvárim netváriš netváriť netvárme netvárte
+hnevať	nehnevaj nehnevajte nehneval nehnevala nehnevať nehnevá nehnevám nehneváme nehneváte nehneváš
+vyhovovať	nevyhovuje nevyhovoval nevyhovovala nevyhovovalo nevyhovovať nevyhovujú
+hroziť	nehrozí nehrozilo nehroziť
+obviňovať	neobviňoval neobviňovala neobviňovať neobviňuj neobviňuje neobviňujem neobviňujeme neobviňujte
+obťažovať	neobťažoval neobťažovala neobťažovali neobťažovalo neobťažovať neobťažuj neobťažuje neobťažujem neobťažujeme neobťažujete neobťažuješ neobťažujte neobťažujú
+dopustiť	nedopusti nedopustia nedopustil nedopustila nedopustili nedopustite nedopustiť nedopustí nedopustím nedopustíme nedopustíte nedopustíš nedopusť
+pliesť	nepletie nepletiem nepletieme nepletieš nepletú nepleť nepleťme nepleťte nepliesť neplietla neplietli neplietol
+hľadieť	nehľadiac nehľadel nehľadieť nehľadí nehľadíš nehľaď
+bodnúť	nebodaj nebodať
+uspieť	neuspel neuspeli neuspela neuspeje neuspejem neuspejeme neuspejete neuspeješ neuspejú neuspieť
+vzdávať	nevzdáva nevzdávajte nevzdávaj nevzdávajme nevzdávajú nevzdával nevzdávala nevzdávali nevzdávam nevzdávame nevzdávate nevzdávaš nevzdávať
+čudovať	nečudujem nečudoval nečudovala nečudovať nečuduj nečudujte
+rátať	neráta nerátaj nerátajte nerátajú nerátajúc nerátal nerátala nerátali nerátam nerátame nerátate nerátaš nerátať
+približovať	nepribližoval nepribližovala nepribližovali nepribližovať nepribližuj nepribližuje nepribližujem nepribližujete nepribližujte nepribližujú
+zhodovať	nezhoduje nezhodujú nezhodovala nezhodovali nezhodovať nezhodujeme
+zaberať	nezaberá nezaberajú nezaberalo nezaberať
+miešať	nemieša nemiešaj nemiešajte nemiešajú nemiešal nemiešala nemiešali nemiešam nemiešame nemiešať
+zahrávať	nezahráva nezahrávaj nezahrávajte nezahrával nezahrávala nezahrávam nezahrávať
+púšťať	nepúšťa nepúšťaj nepúšťajte nepúšťajú nepúšťal nepúšťala nepúšťali nepúšťam nepúšťame nepúšťať
+preháňať	nepreháňajte nepreháňa nepreháňaj nepreháňajme nepreháňal nepreháňam nepreháňate nepreháňaš nepreháňať
+ubližovať	neubližoval neubližovali neubližovať neubližuj neubližuje neubližujem neubližujeme neubližuješ neubližujte neubližujú
+zniesť	neznesie neznesiem neznesieme neznesiete neznesieš neznesú nezniesla nezniesli nezniesol nezniesť
+kecať	nekecaj nekecajte nekecal nekecať nekecá nekecám nekecáš
+dvíhať	nedvíha nedvíhaj nedvíhajte nedvíhajú nedvíhal nedvíhala nedvíhali nedvíham nedvíhate nedvíhaš nedvíhať
+prekážať	neprekáža neprekážalo neprekážaj neprekážajú neprekážal neprekážali neprekážam neprekážať
+jestvovať	nejestvuje nejestvoval nejestvovala nejestvovať nejestvujú
+prekvapovať	neprekvapuje neprekvapovať
+napadať	nenapadá nenapadajú nenapadať
+odvážiť	neodvážil neodváži neodvážia neodvážila neodvážili neodvážim neodvážite neodvážiš neodvážiť
+stíhať	nestíham nestíha nestíhajú nestíhal nestíhali nestíhame nestíhate nestíhaš nestíhať
+zdvíhať	nezdvíha nezdvíhaj nezdvíhajte nezdvíhajú nezdvíhal nezdvíhala nezdvíhali nezdvíham nezdvíhate nezdvíhaš nezdvíhať
+podceňovať	nepodceňujte nepodceňoval nepodceňovať nepodceňuj nepodceňujem
+uškodiť	neuškodí neuškodia neuškodil neuškodila neuškodilo neuškodiť
+# Other forms of a word the list files under a headword (prírodných of prírodný, filed under príroda), as simplemma lemmatizes them.
+ísť	idúce idúceho
+myslieť	myslení myslením mysleniu
+dať	daného dané danom daná danú daných daným danou danému
+vidieť	videné videniu videním
+nájsť	nájdená nájdených nájdení
+urobiť	urobená
+mesto	mestečku mestečká mestečkom mestečiek
+svet	svetské svetskej
+boh	božieho božej božiu božích božím božské božom božská božskej božou božskú
+cesta	cestných cestná cestné cestnú cestného cestnom cestičky cestnou
+meno	menového menových menová
+viesť	vedené vedená vedených vedeného vedenej vedenom vedeným
+dokázať	dokázaná
+škola	školského školské školskej školských školská školskú školským školskou
+hodina	hodiniek hodinkách hodinkami
+žiť	žijúce žijúca žijúceho žijúcim žijúcej žijúcimi
+pracovať	pracujúce pracujúca pracujúceho pracujúcim pracujúcej
+ruka	ručných ručná ručnej ručným ručnú
+peniaze	peňažných peňažnej peňažná peňažnú peňažného
+koniec	koncových koncového koncovej koncovým koncová
+domov	domovská domovského domovskú domovskom
+cena	cenová
+večer	večerných večernú večernej večerná
+slovo	slovnej slovná slovných slovnú slovného
+hrať	hrané hraných
+kniha	knižných knižné knižky knižná knižného knižke knižnú knižnom knižiek
+patriť	patriacich patriacej patriaca patriaceho
+rozhodnúť	rozhodnutá
+získať	získaných získaní získaná získanej získaného získanú získanými
+chvíľa	chvíľky
+oko	očnej očných očná očného
+minúta	minútku
+otvoriť	otvorená otvorených otvorenej otvorení otvoreným otvoreného otvorenom otvorenú otvorenou otvorenými
+kráľ	kráľovská kráľovského kráľovské kráľovských kráľovskú kráľovej kráľovskom kráľovským kráľovskou
+zmeniť	zmenená
+vytvoriť	vytvorená vytvorení vytvorených vytvorenej vytvoreného vytvorenú vytvoreným vytvorenými vytvorenom
+dcéra	dcérku
+izba	izbová
+zabudnúť	zabudnutá zabudnutých zabudnutí
+kúpiť	kúpené
+sledovať	sledované sledovaných sledovaná
+list	listovej listové
+zastaviť	zastavené zastavená
+informácia	informačných informačnej informačná informačného informačnú informačným informačnými informačnom
+predstaviť	predstavených predstaveného predstaveným
+napísať	napísaná napísaných
+písať	písaní písaná písaných písaného
+priestor	priestorových priestorového priestorovej priestorovú priestorovým priestorová
+ulica	uličke uličkou uličkách uličkami
+telefón	telefónnych telefónna telefónnej telefónneho telefónnu telefónnom
+jazyk	jazykovej jazykových jazyková jazykového jazykovú jazykovým jazykovom jazykovou
+trvať	trvajúcej trvajúca trvajúcu trvajúceho
+hráč	hráčok
+organizácia	organizačná organizačnej organizačných organizačnú organizačného organizačnou organizačným
+boj	bojových bojovej bojového bojová bojovú bojovom bojovým bojovými
+spať	spiaca
+tvoriť	tvorená tvoriace tvorení tvoreného
+príroda	prírodných prírodnej prírodná prírodného prírodnú prírodnou prírodným prírodnými prírodnom
+opustiť	opustená opustených opustení opustenej opustenom opusteného
+predať	predané predaná
+riadiť	riadení riadená riadených riadenej riadeného riadeným riadenú
+stavba	stavebných stavebnej stavebného stavebná stavebným stavebnú stavebnými stavebnou stavebnom
+hviezda	hviezdnej hviezdnu hviezdnych hviezdičky hviezdneho hviezdičkou
+nemocnica	nemocničné nemocničného
+vzduch	vzdušné vzdušného vzdušnej vzdušnou vzdušná vzduchová vzduchových vzdušnom vzdušnú vzdušným
+duša	duševného duševnej duševných duševná duševnú duševnou
+hranica	hraničná hraničné hraničnej hraničného hraničnom
+akcia	akciovej akciovú akciové
+stop	stopách stopami stopou
+politika	politické politickej politického politická politickú politickým politickom politickými politickou politickí politickému
+rýchlosť	rýchlostných rýchlostné rýchlostná rýchlostnú
+kraj	krajské krajskej krajských krajská krajskom krajským krajskú
+les	lesných lesné lesná lesnej lesného lesnom lesným lesnou lesnú lesnými
+výber	výberového výberová výberovom výberových
+zvýšiť	zvýšenej zvýšené zvýšenú zvýšeným zvýšenou zvýšení zvýšeného zvýšenému zvýšenom
+kostol	kostolné
+bezpečnosť	bezpečnostných bezpečnostnej bezpečnostná bezpečnostnú bezpečnostného bezpečnostným bezpečnostnými bezpečnostnou
+výskum	výskumných výskumnej výskumného výskumná výskumnú výskumnom výskumným
+študent	študentských študentskej študentská študentského študentskom
+kôň	konské konská konskej konského koníka
+vyrobiť	vyrobená vyrobených vyrobenej vyrobeného vyrobeným
+zatvoriť	zatvorená zatvorenými zatvorení
+pole	políčok
+ostrov	ostrovčeky
+tlak	tlakové tlakovej tlakových tlakovým
+stavať	stavaná
+trh	trhovej trhová trhových trhového trhovú
+okres	okresné okresných okresnej okresným okresnom okresná
+voliť	volení zvolenom
+hrad	hrádku
+mier	mierové mierových mierová mierového mierovom mierovú
+vybudovať	vybudovaná vybudovaní vybudovaných vybudovanú vybudovanej
+chrbát	chrbtová
+rozdeliť	rozdelená rozdelených
+podnik	podnikových podnikovej podnikového
+kód	kódovým
+strieľať	strelených
+zub	zubná zubné zubného zubnej zubných
+podpísať	podpísané podpísaní podpísanú podpísanej
+dedina	dedinky
+televízia	televízne televíznej televízneho televízna televíznom televíznu televíznym televíznou
+bunka	bunkových bunkové bunkovú bunková bunkového
+vedec	vedeckej vedecké vedeckého vedecká vedeckú vedeckým vedeckými vedeckom vedeckou
+vlak	vlakové vlaková vlakových
+autobus	autobusovej autobusové autobusových autobusovú autobusovou
+kuchyňa	kuchynská
+záhrada	záhradné záhradnej záhradného
+obliecť	oblečená oblečenú
+vypnúť	vypnutá vypnutí
+ľud	ľudových ľudové ľudová ľudového ľudovú ľudovom ľudovou ľudovým ľudovými
+teória	teoretickej teoretických teoretická teoretickú teoretického
+organizovať	organizovaní organizovaná organizovanej organizovaných organizovaného organizovanú organizovaným organizovanom
+koža	kožných kožná
+plyn	plynové plynová plynovej plynového
+variť	varené
+knižnica	knižničného
+strecha	strešné strešnej strešných
+zámok	zámockej
+kvet	kvietky
+baňa	banská banských banské banského banskú banskou banským
+strážiť	stráží strážou
+rásť	rastúca rastúcej rastúcim rastúcich rastúcou rastúceho rastúcu
+diera	dierku
+vietor	veterných veterná veternej
+výstava	výstavná výstavných výstavnej
+vymeniť	vymenená
+koláč	koláčikov
+rádio	rádiových rádiového rádiovej
+ľad	ľadová ľadové ľadového ľadových ľadovom ľadovú ľadovou ľadovým
+suchý	suchu
+tabuľa	tabuľke tabuliek tabuľku tabuľkách
+literatúra	literárnych literárneho literárna literárnu literárnom literárnym
+fľaša	fľaštičky
+elektrina	elektrické elektrická elektrického elektrických elektrickú elektrickým elektrickou elektrickými elektrickom elektrickému
+kríž	krížová krížovú krížové krížovou
+jazda	jazdných
+smerovať	smerujúcich smerujúcej smerujúcu smerujúca
+lietať	lietajúcich lietajúceho lietajúca
+kanál	kanálikov
+doska	doštičky
+kryť	krytá
+manažér	manažérskych
+lopta	loptičku
+obsadiť	obsadení obsadená obsadených
+novinár	novinárska
+splniť	splnená splnené
+požiar	požiarna požiarne
+oslobodiť	oslobodené oslobodená
+nastaviť	nastavení nastavená
+koruna	korunku
+plávať	plávajúcich plávajúca
+pošta	poštové poštová poštovej poštového poštovú
+brucho	bruška brušku
+tlačiť	tlačených tlačenej tlačená
+deliť	delená
+rozbiť	rozbitá
+vládnuť	vládnuca
+premeniť	premenená
+softvér	softvérových softvérová softvérového
+laboratórium	laboratórnych
+ruža	ružová ružovú ružového ružových ružovom ružovou
+obmedziť	obmedzená obmedzeným obmedzenú obmedzenej obmedzenom obmedzenou obmedzených obmedzenými
+chémia	chemických chemickej chemického chemická chemickým chemickými chemickú chemickom chemickou
+železnica	železničná železničných železničné železničnú železničného železničnou železničnom železničným
+prenasledovať	prenasledovaných prenasledovaná
+plniť	plnené
+socha	sošku
+filozofia	filozofické filozofická filozofických filozofického filozofickú
+žalúdok	žalúdočných
+jazdec	jazdeckých jazdeckej jazdeckého jazdecká
+čokoláda	čokoládová čokoládovú
+diaľnica	diaľničného diaľničná diaľničné diaľničnú diaľničných
+kalendár	kalendárnom
+kôš	košíka košíku
+horieť	horiaceho
+železo	železná železného železné železných železnú železnou železným
+nula	nulové nulovej nulovú nulovým nulovou
+vystaviť	vystavená vystavení vystavených
+piesok	piesočné
+pedagóg	pedagogické pedagogických pedagogického pedagogickú pedagogická pedagogickým
+krava	kravské
+kvalifikácia	kvalifikačných kvalifikačnej kvalifikačného kvalifikačnom
+matematika	matematických matematickej matematická matematického
+atrakcia	atraktívnym atraktívnych
+zrak	zrakové
+baktéria	bakteriálnych bakteriálnej bakteriálna
+akceptovať	akceptovaná
+orech	orieškov
+živočích	živočíšnej živočíšneho
+administratíva	administratívnych administratívnej administratívna administratívneho administratívnu administratívnym
+biológia	biologických biologickej biologického biologická biologickú biologickým biologickými
+pretekár	pretekárskych pretekárskej pretekárskeho
+pôrod	pôrodné
+dub	dubčeka
+golf	golfovom
+piecť	pečené
+nabiť	nabitá nabitých
+pop	popovej
+kolektívum	kolektívnych kolektívneho kolektívna kolektívnu kolektívnym
+charita	charitatívnej charitatívnych charitatívnu charitatívna
+básnik	básnická básnické básnických
+stredovek	stredoveké stredovekého stredovekej stredoveká
+lyžiar	lyžiarskych lyžiarskeho lyžiarska lyžiarskej lyžiarskom lyžiarskym
+plast	plastových plastickej plastických plastická
+lavica	lavičku lavičky
+basketbal	basketbalové basketbalová basketbalového
+betón	betónových betónová betónovej
+interakcia	interaktívna
+charakterizovať	charakterizovaná
+močiť	moči močom
+ideológia	ideologických ideologickej
+rybár	rybárske rybárskej rybárskych
+rekreácia	rekreačná rekreačných rekreačnej rekreačného rekreačnú rekreačným
+cieva	cievnych cievnej cievneho cievna
+bábka	bábkového
+logik	logická logických logického logickej logickým logickú
+baník	baníckeho banícke banícka baníckych
+citrón	citrónovej
+geometria	geometrických geometrickým geometrického
+lyžica	lyžičky
+lopata	lopatiek
+archeológia	archeologických archeologického archeologickom
+pravica	pravicové pravicovej pravicová
+šľachtic	šľachtických šľachtické šľachtickej
+ľavica	ľavicové
+ekológ	ekologických ekologická ekologickej ekologického ekologickú ekologickým
+mikroskop	mikroskopických
+svieca	sviečky sviečku sviečok sviečkach
+patológ	patologických
+fyziológia	fyziologických
+geológ	geologického geologické geologickej
+farmácia	farmaceutickej farmaceutické farmaceutických
+menštruácia	menštruačného
+# Added by hand: the future of ísť negated (the list files it under its noise entry nepôjsť), the pronoun on joined to a
+# preposition (naň, preňho), and the greeting ahoj to several people.
+on	naň naňho preňho zaň doňho oňho zaňho cezeň poňho
+ísť	nepôjde nepôjdem nepôjdu nepôjdeme nepôjdete nepôjdeš
+ahoj	ahojte

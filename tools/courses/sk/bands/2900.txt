@@ -1,0 +1,100 @@
+1	2801	voz	voza voze vozmi vozoch vozom vozov vozu vozy
+2	2802	mechanický	mechanickej mechanickom mechanickou mechanická mechanické mechanického mechanickú mechanických mechanickým mechanickými
+3	2803	upraviť	uprav upravia upravil upravila upravili upravte upraví upravím upravíme upravíte upravíš
+4	2804	ovplyvniť	ovplyvni ovplyvnia ovplyvnil ovplyvnila ovplyvnili ovplyvnilo ovplyvní ovplyvníme ovplyvníš
+5	2805	určovať	určoval určovali určuje určujem určujeme určujete určuješ určujú
+6	2806	jed	jede jedmi jedoch jedom jedov jedu jedy
+7	2807	jednotlivec	jednotlivca jednotlivcami jednotlivci jednotlivcom jednotlivcov jednotlivcovi
+8	2808	nápis	nápise nápismi nápisom nápisov nápisu nápisy
+9	2809	vyhýbať	vyhýba vyhýbaj vyhýbajte vyhýbajú vyhýbajúc vyhýbal vyhýbala vyhýbali vyhýbam vyhýbame vyhýbate vyhýbaš
+10	2810	prirodzene	prirodzenejšie
+11	2811	zápal	zápale zápalom zápalov zápalové zápalu zápaly
+12	2812	zaradiť	zaradia zaradil zaradila zaradili zaradilo zaradí zaradím zaradíme zaradíš zaraď zaraďte
+13	2813	vyvíjať	vyvíja vyvíjajú vyvíjal vyvíjala vyvíjali vyvíjalo vyvíjam vyvíjame vyvíjate vyvíjaš
+14	2814	neublížiť	neublíž neublíži neublížia neublížil neublížila neublížili neublížilo neublížim neublížime neublížite neublížiš neublížte
+15	2815	bál	bále bálu bály
+16	2816	nádoba	nádob nádobe nádobka nádobky nádobou nádobu nádoby nádobách
+17	2817	desiatka	desiatkach desiatkami desiatke desiatkou desiatku desiatky
+18	2818	poradca	poradcami poradcom poradcov poradcovi poradcovia poradcu
+19	2819	zážitok	zážitkami zážitkoch zážitkom zážitkov zážitku zážitky
+20	2820	súlad	súlade súladu
+21	2821	dohľad	dohľade dohľadom dohľadu
+22	2822	zabezpečenie	zabezpečenia zabezpečeniu zabezpečením
+23	2823	tvrdenie	tvrdenia tvrdeniach tvrdeniam tvrdeniami tvrdeniu tvrdení tvrdením
+24	2824	vyplývať	vyplýva vyplývajú vyplývalo
+25	2825	automatický	automatickej automatickom automatickou automatická automatické automatického automatickú automatických automatickým automatickými
+26	2826	škótsky	škótska škótske škótskeho škótskej škótskom škótskou škótsku škótskych škótskym
+27	2827	prepustiť	prepusti prepustia prepustil prepustila prepustili prepustime prepustite prepustí prepustím prepustíme prepustíte prepustíš prepusť prepusťte
+28	2828	voľne	voľnejšie
+29	2829	skúmať	skúma skúmajú skúmajúc skúmal skúmala skúmali skúmam skúmame skúmate skúmaš
+30	2830	zobrazovať	zobrazoval zobrazovali zobrazuje zobrazujú
+31	2831	energetický	energetickej energetickom energetickou energetická energetické energetického energetickú energetických energetickým energetickými
+32	2832	medzitým	
+33	2833	platforma	platforiem platforme platformou platformu platformy platformách
+34	2834	spev	speve spevom spevov spevu spevy
+35	2835	spolok	spolkom spolkov spolku spolky
+36	2836	rebríček	rebríčka rebríčkoch rebríčkov rebríčku rebríčky
+37	2837	speváčka	speváčke speváčkou speváčku speváčky speváčok
+38	2838	upratať	uprac uprace upracem upraceme upracete upraceš upracme upracte upracú upratal upratala upratali upratanie uprataný upratoval upratovala upratovali upratovať upratuje upratujem upratujeme upratujete upratuješ upratujú
+39	2839	obrazovka	obrazoviek obrazovke obrazovkou obrazovku obrazovky obrazovkách
+40	2840	výborný	výbornom výborného výbornému výborní výborných výborným výbornými
+41	2841	prekážka	prekážkam prekážkami prekážke prekážkou prekážkovú prekážkový prekážku prekážky prekážok
+42	2842	užívateľ	užívatelia užívateľa užívateľmi užívateľom užívateľov užívateľovi užívateľské užívateľských
+43	2843	mních	mnícha mníchmi mníchom mníchov mníchovi mnísi mníška mníšky mníšskeho mníšsky
+44	2844	stvorenie	stvorenia stvoreniach stvoreniam stvoreniami stvoreniu stvorení stvorením
+45	2845	suma	sume sumou sumu sumy
+46	2846	kritika	kritike kritikou kritiku kritiky kritík
+47	2847	hanba	hanbe hanbou hanbu hanby
+48	2848	overiť	overia overil overila overili overme overte overí overím overíme overíte overíš
+49	2849	štúdio	štúdiom štúdiá
+50	2850	prijatie	prijatia prijatiu prijatím
+51	2851	palica	palicami palice palici paliciach palicou palicu paličiek palička paličkami paličke paličkou paličkové paličku paličky palíc
+52	2852	atrakcia	atrakcie atrakcii atrakciou atrakciu atrakcií atraktívna atraktívny
+53	2853	genetický	genetickej genetickom genetickou geneticky genetická genetické genetického genetickú genetických genetickým genetickými
+54	2854	útvar	útvare útvarmi útvaroch útvarom útvarov útvaru útvary
+55	2855	porušiť	poruš porušia porušil porušila porušili porušilo poruší poruším porušíme porušíte porušíš
+56	2856	krádež	krádežami krádeže krádeži krádežiach krádežiam krádežou krádeží
+57	2857	hanbiť	hanbi hanbia hanbil hanbila hanbili hanbite hanbí hanbím hanbíme hanbíte hanbíš
+58	2858	rušiť	rušia rušil rušila rušili rušilo rušte ruší ruším rušíme rušíte rušíš
+59	2859	vidiek	vidiecka vidiecke vidieckeho vidieckej vidieckom vidiecky vidieckych vidieckym vidieka vidiekom vidieku
+60	2860	katastrofa	katastrof katastrofami katastrofe katastrofou katastrofu katastrofy katastrofách katastrofám
+61	2861	nepoužívať	nepoužíva nepoužívaj nepoužívajte nepoužívajú nepoužíval nepoužívala nepoužívali nepoužívam nepoužívame nepoužívate nepoužívaš
+62	2862	domnievať	domnieva domnievajú domnieval domnievala domnievali domnievam domnievame domnievate domnievaš
+63	2863	nasledovný	nasledovnej nasledovnom nasledovná nasledovné nasledovného nasledovnú nasledovných nasledovným nasledovnými
+64	2864	prekročiť	prekroč prekročia prekročil prekročila prekročili prekročilo prekročte prekročí prekročím prekročíme prekročíte prekročíš
+65	2865	zaradený	zaradená zaradené zaradení zaradenú zaradených
+66	2866	stávka	stávkach stávkami stávke stávkou stávkové stávku stávky stávok
+67	2867	dielňa	dielne dielni dielní dielňach dielňu
+68	2868	úžasne	najúžasnejšie úžasnejšie
+69	2869	jadrový	jadrovej jadrovom jadrovou jadrová jadrové jadrového jadrovému jadrovú jadrových jadrovým jadrovými
+70	2870	kaštieľ	kaštiele kaštieli kaštieľa kaštieľom kaštieľov
+71	2871	takzvaný	takzvanej takzvanom takzvanou takzvaná takzvané takzvaného takzvanému takzvaní takzvanú takzvaných takzvaným takzvanými
+72	2872	spravidla	
+73	2873	košeľa	košele košeli košeliach košeľami košeľou košeľu košieľ košieľka košieľku
+74	2874	mávať	máva mávaj mávajte mávajú mávajúc mával mávala mávali mávalo mávam mávame mávate mávaš
+75	2875	liter	litra litrami litre litroch litrom litrov litrový litrovým
+76	2876	globálny	globálna globálne globálneho globálnej globálnemu globálnom globálnu globálnych globálnym
+77	2877	krutý	krutej krutejší krutom krutou krutá kruté krutého krutému krutí krutú krutých krutým krutými najkrutejšia najkrutejšieho najkrutejšiu najkrutejších
+78	2878	nepýtať	nepýta nepýtaj nepýtajte nepýtajú nepýtal nepýtala nepýtali nepýtam nepýtame nepýtate nepýtaš
+79	2879	slovenčina	slovenčine slovenčinou slovenčinu slovenčiny
+80	2880	dobrodružstvo	dobrodružstiev dobrodružstva dobrodružstvami dobrodružstve dobrodružstvom dobrodružstvu dobrodružstvá dobrodružstvách dobrodružstvám
+81	2881	komunizmus	komunistickej komunistickom komunistickou komunistická komunistické komunistického komunistickú komunistický komunistických komunistickým komunizme komunizmom komunizmu
+82	2882	fyzika	fyzike fyzikou fyziku fyziky fyzikálna fyzikálneho fyzikálnej fyzikálnu fyzikálny fyzikálnych fyzikálnym fyzikálnymi
+83	2883	nasadiť	nasadia nasadil nasadila nasadili nasadilo nasadí nasadím nasadíme nasadíte nasadíš nasaď nasaďme nasaďte
+84	2884	koberec	koberca kobercami koberce koberci kobercoch kobercom kobercov kobercové kobercu koberček koberčeku koberčeky
+85	2885	prežitie	prežitia prežitiu prežití prežitím
+86	2886	komerčný	komerčne komerčnej komerčnom komerčnou komerčná komerčné komerčného komerčnú komerčných komerčným komerčnými
+87	2887	archív	archíve archívoch archívom archívov archívu archívy
+88	2888	vypadať	vypadajú vypadal vypadala vypadali vypadalo vypadá vypadám vypadáme vypadáte vypadáš
+89	2889	venovaný	venovanej venovaná venované venovanú venovaných
+90	2890	nudný	najnudnejšia najnudnejší nudnej nudnom nudnou nudná nudné nudného nudní nudnú nudných nudným nudnými
+91	2891	obviniť	obvinia obvinil obvinila obvinili obvinilo obviní obviním obviníme obviníte obviníš obviň obviňte
+92	2892	ovca	ovcami ovce ovci ovciach ovciam ovcou ovcu ovečka ovečky oviec ovčej ovčia ovčie ovčieho ovčiu ovčom ovčí ovčích
+93	2893	nevesta	neveste nevestou nevestu nevesty neviest
+94	2894	prepojený	prepojená prepojené prepojení prepojených
+95	2895	senátor	senátora senátori senátormi senátorom senátorov senátorovi
+96	2896	zapáliť	zapaľovať zapaľuje zapálenie zapálené zapálený zapáli zapália zapálil zapálila zapálili zapálilo zapálim zapálime zapálite zapáliš zapáľ zapáľme zapáľte
+97	2897	preprava	preprave prepravou prepravu prepravy
+98	2898	rukavica	rukavicami rukavice rukavici rukaviciach rukavicou rukavicu rukavíc
+99	2899	torta	toriet torte tortou tortu torty
+100	2900	rozlíšenie	rozlíšenia rozlíšení rozlíšením

@@ -1,0 +1,100 @@
+1	7501	potešený	potešená potešené potešení
+2	7502	hlasný	hlasnej hlasnejšia hlasnejší hlasná hlasné hlasní hlasnú hlasným najhlasnejší
+3	7503	hladovať	hladoval hladovala hladovali hladuje hladujem hladujeme hladujete hladuješ hladujú
+4	7504	nesmiať	nesmej nesmeje nesmejem nesmejeme nesmejete nesmeješ nesmejte nesmejú nesmial nesmiala nesmiali
+5	7505	dravec	dravca dravcami dravce dravcom dravcov dravcovi
+6	7506	zať	zaťa zaťko zaťom zaťovi
+7	7507	elitný	elitnej elitná elitné elitného elitní elitnú elitných
+8	7508	saudský	saudskej saudskou saudská saudského saudskú saudských
+9	7509	štartovací	štartovacej štartovacia štartovacie štartovaciu štartovacích
+10	7510	zmluvný	zmluvnej zmluvná zmluvné zmluvného zmluvnú zmluvných
+11	7511	smelý	najsmelší smelo smelá smelé smelí smelým
+12	7512	rozvinutý	rozvinutá rozvinuté rozvinutého rozvinutých rozvinutým
+13	7513	belgický	belgickej belgická belgické belgického belgickú belgických
+14	7514	oznam	oznamoch oznamov oznamu oznamy
+15	7515	prirodzenosť	prirodzenosti prirodzenosťou
+16	7516	cvičený	cvičená cvičené cvičení cvičenú
+17	7517	neistota	neistote neistotou neistotu neistoty
+18	7518	súmrak	súmrakom súmraku
+19	7519	činný	činná činné činní činných
+20	7520	systematicky	
+21	7521	pálka	pálkami pálke pálkou pálku pálky
+22	7522	traktor	traktora traktore traktormi traktorom traktorov traktory
+23	7523	šnúrka	šnúrkami šnúrke šnúrku šnúrky šnúrok
+24	7524	nerozhodnúť	nerozhodla nerozhodli nerozhodlo nerozhodnem nerozhodneme nerozhodnete nerozhodneš nerozhodnú nerozhodol
+25	7525	regulovať	reguloval reguluje regulujú
+26	7526	zaviezť	zavez zavezie zaveziem zavezieme zaveziete zavezieš zavezte zavezú zaviezla zaviezli zaviezol
+27	7527	úpätie	úpätiu úpätí
+28	7528	astma	astmatické astmatický astme astmou astmu astmy
+29	7529	báječný	báječná báječné báječného báječnú
+30	7530	uhádnuť	uhádla uhádli uhádne uhádnem uhádnete uhádneš uhádni uhádnite uhádol
+31	7531	kúrenie	kúrenia kúrením
+32	7532	pratať	prac prace practe pracú
+33	7533	panoráma	panoramatické panoramatický panorámu panorámy
+34	7534	ženiť	ženia ženil ženili žení žením ženíš
+35	7535	komunitný	komunitnej komunitnom komunitná komunitné komunitného komunitnú komunitných
+36	7536	evidovaný	evidovaná evidované evidovaných
+37	7537	lupič	lupiča lupiči lupičmi lupičom lupičov lupičovi
+38	7538	účinne	najúčinnejšie účinnejšie
+39	7539	kabinet	kabinete kabinetu
+40	7540	kapsula	kapsule kapsuli kapsulou kapsulu kapsuly kapsúl
+41	7541	mikroorganizmus	mikroorganizmami mikroorganizmov mikroorganizmy
+42	7542	prebojovať	prebojoval prebojovala prebojovali prebojujeme
+43	7543	výskumník	výskumníci výskumníkmi výskumníkom výskumníkov
+44	7544	podhradie	podhradia podhradí
+45	7545	chotár	chotára chotári
+46	7546	pripevnený	pripevnená pripevnené pripevnenú
+47	7547	argumentovať	argumentoval argumentovali argumentuje argumentujú
+48	7548	larva	lariev larvu larvy
+49	7549	odbočka	odbočke odbočkou odbočku odbočky
+50	7550	sirotinec	sirotinca sirotince sirotinci sirotincom sirotincu
+51	7551	každoročný	každoročnej každoročnom každoročná každoročné každoročného každoročnú každoročných
+52	7552	kandidatúra	kandidatúre kandidatúru kandidatúry
+53	7553	fosfor	fosforom fosforu
+54	7554	nutne	najnutnejšie
+55	7555	furt	
+56	7556	koncovka	koncovkou koncovku koncovky
+57	7557	zohriať	zohrej zohreje zohrejem zohrejeme zohreješ zohrejte zohrejú zohrial zohriala zohriali zohrialo
+58	7558	fiktívny	fiktívna fiktívne fiktívneho fiktívnej fiktívnom fiktívnu fiktívnych fiktívnym
+59	7559	zmierniť	zmierni zmiernia zmiernil zmiernila zmiernili zmiernilo zmiernim zmiernite
+60	7560	nezmiznúť	nezmizla nezmizli nezmizlo nezmizne nezmiznem nezmizneme nezmiznete nezmizneš nezmizni nezmiznú nezmizol
+61	7561	jasnosť	jasnosti jasnosťou
+62	7562	tichosť	tichosti
+63	7563	chlór	chlórom chlóru
+64	7564	vylúčenie	vylúčenia vylúčeniu vylúčením
+65	7565	dynastia	dynastie dynastii dynastiou dynastiu
+66	7566	kultový	kultovej kultová kultové kultového kultových
+67	7567	nebrániť	nebráni nebránia nebránil nebránila nebránili nebránilo nebránim nebránime nebráň nebráňte
+68	7568	nečudovať	nečudoval nečudovala nečuduj nečudujem nečudujte
+69	7569	obzerať	obzerajú obzeral obzerala obzerali obzerá obzerám obzeráme obzeráte obzeráš
+70	7570	bulharský	bulharskej bulharskom bulharská bulharské bulharského bulharských
+71	7571	popracovať	popracoval popracovala popracovali popracuj popracujem popracujeme popracujete popracujte
+72	7572	sporný	spornej sporná sporné sporných
+73	7573	erotický	erotickej erotickom erotická erotické erotického erotickú erotických
+74	7574	pestovaný	pestovaná pestované pestovaní pestovaných
+75	7575	sir	sira sirovi
+76	7576	nepodstatný	nepodstatná nepodstatné nepodstatnú nepodstatných nepodstatným
+77	7577	paradajka	paradajkami paradajkovej paradajkovou paradajková paradajkové paradajkovú paradajkový paradajku paradajky paradajok
+78	7578	očividný	očividná očividné očividného očividnú očividných očividným
+79	7579	odsek	odsekov odseku odseky
+80	7580	zdieľanie	zdieľania zdieľaním
+81	7581	neudržať	neudržal neudržala neudržali neudržia neudrží neudržím neudržíme neudržíte neudržíš
+82	7582	rev	reve revom revu revy
+83	7583	koncern	koncernu
+84	7584	pleseň	plesne plesni plesní plesňami plesňou
+85	7585	neprijateľný	neprijateľná neprijateľné
+86	7586	zápasník	zápasníci zápasníka zápasníkmi zápasníkom zápasníkov zápasníkovi
+87	7587	inšpekcia	inšpekcie inšpekcii inšpekciou inšpekciu
+88	7588	podvedomie	podvedomia podvedomiu podvedomím
+89	7589	vyslúžiť	vyslúžil vyslúžila vyslúžili
+90	7590	papagáj	papagája papagáje papagájom papagájov papagájovi
+91	7591	spojenectvo	spojenectva spojenectve spojenectvom spojenectvu spojenectvá
+92	7592	drobec	drobca drobci drobcov drobček drobčeka
+93	7593	reflex	reflexom reflexov reflexy
+94	7594	nadvláda	nadvláde nadvládou nadvládu nadvlády
+95	7595	schytať	schytajú schytal schytala schytali schytalo schytá schytám schytáme schytáte schytáš
+96	7596	nepozvať	nepozval nepozvala nepozvali nepozve nepozvem nepozveme nepozvete nepozveš nepozvú
+97	7597	vypátrať	vypátra vypátral vypátrala vypátrali vypátram vypátrame
+98	7598	nesmrteľnosť	nesmrteľnosti nesmrteľnosťou
+99	7599	prenesený	prenesenom prenesená prenesené prenesených
+100	7600	mladistvý	mladistvej mladistvom mladistvá mladistvé mladistvého mladiství mladistvých mladistvým

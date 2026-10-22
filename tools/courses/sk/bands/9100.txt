@@ -1,0 +1,100 @@
+1	9001	nepoužiteľný	nepoužiteľná nepoužiteľné nepoužiteľní nepoužiteľných
+2	9002	nepostaviť	nepostavia nepostavil nepostavila nepostavili nepostaví nepostavím nepostavíme nepostavíte nepostavíš
+3	9003	zneužitie	zneužitia zneužitiu zneužití
+4	9004	uškodiť	uškodil uškodila uškodili uškodilo uškodí
+5	9005	veľtrh	veľtrhu veľtrhy
+6	9006	nejestvovať	nejestvoval nejestvovala nejestvuje nejestvujú
+7	9007	tkanina	tkaniny tkanín
+8	9008	horúčava	horúčav horúčave horúčavou horúčavu horúčavy horúčavách
+9	9009	racionálny	racionálneho racionálnej racionálnemu racionálni racionálnym
+10	9010	zbavovať	zbavoval zbavovali zbavuje zbavujem zbavujeme zbavujete zbavuješ zbavujú
+11	9011	rozpúšťať	rozpúšťa rozpúšťaj rozpúšťajú rozpúšťam
+12	9012	úzadie	úzadia úzadí
+13	9013	steak	steakom steakov steaku steaky
+14	9014	kobra	kobier kobrami kobre kobrou kobru kobry
+15	9015	audiovizuálny	audiovizuálne audiovizuálneho audiovizuálnej audiovizuálnych
+16	9016	počatie	počatia počatiu počatí počatím
+17	9017	mig	migy
+18	9018	prenášaný	prenášaná prenášané prenášaných
+19	9019	otlačok	otlačkami otlačkom otlačkov otlačky
+20	9020	osamelosť	osamelosti osamelosťou
+21	9021	žobrák	žobráci žobráka žobrákmi žobrákom žobrákov žobrákovi žobráčka
+22	9022	obvodný	obvodné obvodného
+23	9023	kupón	kupónmi kupónov kupóny
+24	9024	spoločensky	
+25	9025	vymenovanie	vymenovania vymenovaním
+26	9026	zhovárať	zhovára zhovárajú zhováral zhovárala zhovárali zhováram zhovárame zhovárate zhováraš
+27	9027	hnací	hnacia hnacie hnacieho hnacou hnacím
+28	9028	podložka	podložiek podložke podložku podložky
+29	9029	zriaďovateľ	zriaďovateľa zriaďovateľom
+30	9030	zablúdiť	zablúdi zablúdil zablúdila zablúdili zablúdiš
+31	9031	naliehať	nalieha naliehajú naliehal naliehala naliehali nalieham naliehame naliehate naliehaš
+32	9032	pomedzi	
+33	9033	cítenie	cítenia cítení cítením
+34	9034	švihnúť	švihli švihlo švihne švihnem švihneš švihni švihnime švihnite švihol
+35	9035	zabehnúť	zabehla zabehli zabehlo zabehne zabehnem zabehneš zabehni zabehol
+36	9036	dotknutý	dotknutá dotknuté dotknutých
+37	9037	poklop	poklope poklopom poklopu poklopy
+38	9038	vypúšťať	vypúšťa vypúšťajú vypúšťal vypúšťali vypúšťam vypúšťame vypúšťaš
+39	9039	vykročiť	vykroč vykročil vykročila vykročili vykročte vykročí vykročím vykročíme vykročíš
+40	9040	improvizovať	improvizoval improvizovala improvizovali improvizuj improvizuje improvizujem improvizujeme improvizujete improvizujte improvizujú
+41	9041	bunker	bunkra bunkre bunkri bunkroch bunkrov bunkru
+42	9042	nezahrávať	nezahráva nezahrávaj nezahrávajte nezahrával nezahrávala nezahrávam
+43	9043	diplomat	diplomata diplomati diplomatmi diplomatom diplomatov
+44	9044	ostatok	ostatkami ostatkom ostatkov ostatky
+45	9045	logo	loga logom logá
+46	9046	pokora	pokore pokorou pokoru pokory
+47	9047	utajenie	utajenia utajeniu utajením
+48	9048	prísun	prísunu
+49	9049	výslovnosť	výslovnosti výslovnosťou
+50	9050	vzniesť	vznesie vznesiem vznesieme vznesú vzniesla vzniesli vzniesol
+51	9051	polymér	polymérov polyméru polyméry
+52	9052	sporák	sporáka sporákom sporáku
+53	9053	nábojnica	nábojnicami nábojnice nábojnici nábojniciach nábojnicu nábojníc
+54	9054	sebadôvera	sebadôvere sebadôverou sebadôveru sebadôvery
+55	9055	poslíček	poslíčka poslíčkom poslíčkov poslíčkovi poslíčkovia
+56	9056	rozkazovať	rozkazoval rozkazovala rozkazuje rozkazujem rozkazujeme rozkazuješ rozkazujte rozkazujú
+57	9057	roztočiť	roztočil roztočila roztočili roztočme roztočte roztočí roztočím roztočíme
+58	9058	skorumpovaný	skorumpovanej skorumpovaná skorumpované skorumpovaného skorumpovaní skorumpovanú skorumpovaných skorumpovaným
+59	9059	poklesnúť	poklesla poklesli poklesne poklesol
+60	9060	ubytovací	ubytovacej ubytovacie ubytovacích
+61	9061	slota	slotov slotu sloty
+62	9062	impozantný	impozantnej impozantná impozantné impozantnú impozantných
+63	9063	hlbina	hlbine hlbiny hlbinách hlbín
+64	9064	charta	chartu charty
+65	9065	západne	
+66	9066	bonus	bonusom bonusov bonusy
+67	9067	extáza	extáze extázou extázu extázy
+68	9068	školné	školnom školného školnému školným
+69	9069	zameniť	zamenil zamenila zamenili zamením zameníme zameň zamieňať
+70	9070	upadať	upadajú upadal upadala upadali upadá upadám
+71	9071	konzul	konzula konzulom konzulovi
+72	9072	neopýtať	neopýta neopýtal neopýtala neopýtali neopýtam neopýtame neopýtate neopýtaš
+73	9073	mrknúť	mrkla mrkne mrknem mrkneme mrkneš mrkni mrknime mrknite mrkol
+74	9074	posilňovať	posilňoval posilňovala posilňovali posilňuje posilňujem posilňujeme posilňuješ posilňujú
+75	9075	bankomat	bankomate bankomatom bankomatov bankomatu bankomaty
+76	9076	slezina	slezine slezinu sleziny
+77	9077	rezervovaný	rezervovaná rezervované rezervovanú
+78	9078	malinký	malinkej malinká malinké malinkého malinkú malinkých malinkým
+79	9079	hosťovská	hosťovskej hosťovskou hosťovské hosťovskú
+80	9080	nevyrovnať	nevyrovnajú nevyrovnal nevyrovnala nevyrovnali nevyrovná nevyrovnám nevyrovnáme nevyrovnáš
+81	9081	vedome	
+82	9082	uspať	uspal uspala uspali uspalo uspi uspia uspite uspí uspím uspíme uspíš
+83	9083	fantóm	fantómami fantómoch fantómom fantómov fantómový fantómy
+84	9084	živnosť	živnosti
+85	9085	nevyhnutnosť	nevyhnutnosti nevyhnutnosťou
+86	9086	schvaľovať	schvaľoval schvaľovala schvaľuje schvaľujem schvaľujete schvaľuješ schvaľujú
+87	9087	neprosiť	nepros neprosil neprosila neprosili neproste neprosí neprosím neprosíme neprosíš
+88	9088	kvalitne	kvalitnejšie najkvalitnejšie
+89	9089	rozbaliť	rozbalenie rozbalil rozbalila rozbalili rozbalí rozbalím rozbalíme rozbaľ rozbaľme rozbaľovať rozbaľte
+90	9090	rozmiestnenie	rozmiestnenia
+91	9091	porušovanie	porušovania porušovaní porušovaním
+92	9092	zmier	zmieri zmieru
+93	9093	prevážať	preváža prevážajú prevážal prevážala prevážali prevážam prevážame prevážate
+94	9094	sloh	slohu slohy
+95	9095	podozrivo	podozrivejšie
+96	9096	vráska	vráskam vráskami vrásku vrásky vrások
+97	9097	genocída	genocíde genocídou genocídu genocídy
+98	9098	zrúcanina	zrúcaninu zrúcaniny
+99	9099	približný	približná približné približnú
+100	9100	rezance	rezancami rezancov

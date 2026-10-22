@@ -1,0 +1,100 @@
+1	5501	zápasiť	zápasia zápasil zápasila zápasili zápasí zápasím zápasíme zápasíš
+2	5502	predajca	predajcami predajcom predajcov predajcovi predajcovia predajcu
+3	5503	prenosný	prenosnej prenosná prenosné prenosnú prenosných prenosným
+4	5504	aktivista	aktivistami aktivisti aktivistom aktivistov aktivistu
+5	5505	vzbudiť	vzbudil vzbudila vzbudili vzbudilo vzbudzovať vzbudzuje vzbudí vzbudím vzbudíš vzbuď
+6	5506	mafia	mafie mafii mafiou mafiu
+7	5507	diplom	diplomom diplomov diplomu diplomy
+8	5508	nebudiť	nebudil nebudili nebudím nebuďme nebuďte
+9	5509	odozva	odozve odozvou odozvu odozvy
+10	5510	namierený	namierenou namierená namierené namierenú namierených
+11	5511	celoštátny	celoštátna celoštátne celoštátneho celoštátnej celoštátnom celoštátnou celoštátnu celoštátnych
+12	5512	okradnúť	okradla okradli okradlo okradne okradnem okradneme okradnete okradneš okradni okradnú okradol
+13	5513	letectvo	letectva letectve letectvom letectvu
+14	5514	korporácia	korporáciami korporácie korporácii korporáciou korporáciu korporáciách korporáciám korporácií
+15	5515	sprisahanie	sprisahania sprisahaniach sprisahaniami sprisahaniu sprisahaní sprisahaním
+16	5516	nepísať	nepísal nepísala nepísali nepísalo nepíš nepíše nepíšem nepíšeme nepíšete nepíšeš nepíšte nepíšu
+17	5517	smrad	smrada smrade smradi smradom smradov smradu
+18	5518	programový	programovej programová programové programového programových programovým
+19	5519	procedúra	procedúr procedúrach procedúrami procedúre procedúrou procedúru procedúry
+20	5520	strelný	strelnej strelnom strelnou strelná strelné strelného strelnú strelných strelným strelnými
+21	5521	pozdravovať	pozdravuj pozdravuje pozdravujem pozdravujeme pozdravuješ pozdravujte pozdravujú
+22	5522	psík	psíka psíkom psíkov psíkovi psíky
+23	5523	potiahnuť	potiahla potiahli potiahlo potiahne potiahnem potiahneme potiahnete potiahneš potiahni potiahnite potiahnu potiahol
+24	5524	teritórium	teritoriálne teritoriálny teritória teritóriom teritóriu teritóriá teritórií
+25	5525	zosnulý	zosnulom zosnulého zosnulému zosnulí zosnulých zosnulým zosnulými
+26	5526	zviesť	zvedie zvediem zvedieš zveď zviedla zviedli zviedol
+27	5527	kupec	kupca kupcami kupci kupcom kupcov kupcovi
+28	5528	pomaranč	pomaranča pomaranče pomarančoch pomarančom pomarančov pomarančovej pomarančovou pomarančová pomarančové pomarančového pomarančovú pomarančový pomarančových pomarančovým
+29	5529	upozornenie	upozornenia upozornení upozornením
+30	5530	šupieť	šup
+31	5531	bojisko	bojiska bojiskom bojisku bojiská bojiskách bojísk
+32	5532	vývin	vývine vývinom vývinu
+33	5533	naproti	
+34	5534	odpadnúť	odpadla odpadli odpadlo odpadne odpadnem odpadneš odpadnú odpadol
+35	5535	reputácia	reputácie reputácii reputáciou reputáciu reputácií
+36	5536	zatknutie	zatknutia zatknutiach zatknutiu zatknutím
+37	5537	dvíhať	dvíha dvíhaj dvíhajte dvíhajú dvíhal dvíhala dvíhali dvíham dvíhame dvíhate dvíhaš
+38	5538	dračí	dračej dračia dračie dračieho dračiu dračom dračou dračích dračím
+39	5539	výjazd	výjazde výjazdom výjazdov výjazdu výjazdy
+40	5540	nedosiahnuť	nedosiahla nedosiahli nedosiahlo nedosiahne nedosiahnem nedosiahneme nedosiahnete nedosiahneš nedosiahnu nedosiahol
+41	5541	pouličný	pouličnej pouličnom pouličná pouličné pouličného pouliční pouličnú pouličných pouličným pouličnými
+42	5542	zvierací	zvieracej zvieracia zvieracie zvieracieho zvieraciu zvieracom zvieracou zvieracích zvieracím zvieracími
+43	5543	potrat	potrate potratmi potratoch potratom potratov potratu potraty
+44	5544	kult	kulte kultoch kultom kultov kultu kulty
+45	5545	zvyšovanie	zvyšovania zvyšovaniu zvyšovaní zvyšovaním
+46	5546	záliv	zálive zálivom zálivu
+47	5547	znásilnenie	znásilnenia znásilneniach znásilneniu znásilnení znásilnením
+48	5548	rozdať	rozdaj rozdajme rozdajte rozdajú rozdal rozdala rozdali rozdá rozdám rozdáme rozdáte rozdáš
+49	5549	dospelosť	dospelosti
+50	5550	nadol	
+51	5551	ležiaci	ležiaca ležiace ležiaceho ležiacej ležiacich ležiacu
+52	5552	predvádzať	predvádza predvádzajú predvádzal predvádzala predvádzali predvádzam predvádzate predvádzaš
+53	5553	šiška	šišiek šiškami šiške šiškou šišku šišky šiškách šiškám
+54	5554	čerpadlo	čerpadiel čerpadla čerpadlom čerpadlá
+55	5555	komunálny	komunálna komunálne komunálneho komunálnej komunálnych
+56	5556	priletieť	priletel priletela prileteli priletelo priletia priletí priletím priletíme priletíte priletíš prileť
+57	5557	dáky	dáka dáke dákeho dákej dákemu dákom dákou dáku dákych dákym
+58	5558	zajatec	zajatca zajatcami zajatci zajatcoch zajatcom zajatcov zajatcovi
+59	5559	vyjadrený	vyjadrená vyjadrené vyjadrení
+60	5560	samica	samicami samice samici samiciam samicou samicu samíc
+61	5561	alergia	alergie alergii alergiou alergiu alergií
+62	5562	kladný	kladná kladné kladného kladnú kladných kladným
+63	5563	rozvrh	rozvrhom rozvrhu rozvrhy
+64	5564	audi	
+65	5565	počesť	
+66	5566	limit	limite limitom limitov limitu limity
+67	5567	vyhľadávať	vyhľadáva vyhľadávajú vyhľadával vyhľadávala vyhľadávali vyhľadávam vyhľadávame vyhľadávate vyhľadávaš
+68	5568	lyžica	lyžice lyžici lyžicou lyžicu lyžička lyžičku lyžíc
+69	5569	plavidlo	plavidiel plavidla plavidle plavidlom plavidlá plavidlách
+70	5570	sekundárny	sekundárna sekundárne sekundárneho sekundárnej sekundárnu sekundárnych sekundárnym
+71	5571	vizitka	vizitiek vizitke vizitkou vizitku vizitky
+72	5572	funkcionár	funkcionára funkcionári funkcionármi funkcionárom funkcionárov
+73	5573	naprieč	
+74	5574	zobák	zobáka zobákom zobáku zobáky zobáčik
+75	5575	nadávať	nadáva nadávaj nadávajte nadávajú nadával nadávala nadávali nadávam nadávate nadávaš
+76	5576	vyučovať	vyučoval vyučovala vyučovali vyučuje vyučujem vyučujete vyučuješ vyučujú
+77	5577	bar	barmi baroch barom barov
+78	5578	asistencia	asistencie asistenciu asistencií
+79	5579	zdržiavať	zdržiava zdržiavaj zdržiavajte zdržiavajú zdržiaval zdržiavala zdržiavali zdržiavam zdržiavame zdržiavate zdržiavaš
+80	5580	vražedný	vražednej vražednom vražednou vražedná vražedné vražedného vražední vražednú vražedných vražedným vražednými
+81	5581	maratón	maratóne maratónom maratónu maratóny
+82	5582	inflácia	inflácie inflácii infláciou infláciu
+83	5583	nedokončiť	nedokonči nedokončia nedokončil nedokončila nedokončili nedokončí nedokončím nedokončíme nedokončíte nedokončíš
+84	5584	ilegálny	ilegálna ilegálne ilegálneho ilegálnej ilegálni ilegálnom ilegálnu ilegálnych ilegálnym ilegálnymi
+85	5585	povstať	povstal povstala povstali povstalo povstane povstanem povstaneme povstanete povstanú povstaň povstaňte povstáva
+86	5586	prihodiť	prihodia prihodil prihodila prihodili prihodilo prihodí prihodím prihodíme prihodíš prihoď prihoďte
+87	5587	elita	elitou elitu elity elít
+88	5588	ovocný	ovocnej ovocnom ovocnou ovocná ovocné ovocného ovocnú ovocných ovocným
+89	5589	prevaha	prevahe prevahou prevahu
+90	5590	ranč	ranča ranče ranči rančoch rančom rančov ranču
+91	5591	protilátka	protilátkami protilátke protilátkou protilátku protilátky protilátok
+92	5592	poprieť	poprel poprela popreli poprie popriem poprieme popriete poprieš poprú
+93	5593	sprevádzaný	sprevádzaná sprevádzané sprevádzaní
+94	5594	predmestie	predmestia predmestiach predmestská predmestský predmestí
+95	5595	esej	eseje eseji esejou esejí
+96	5596	vydávanie	vydávania vydávaní vydávaním
+97	5597	zväčšiť	zväčši zväčšia zväčšil zväčšila zväčšili zväčšilo zväčšite zväčší zväčším zväčšíme zväčšíš
+98	5598	priam	
+99	5599	nateraz	
+100	5600	obzrieť	obzrel obzrela obzreli obzri obzrie obzriem obzrieme obzriete obzrieš obzrite obzrú

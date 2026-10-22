@@ -1,0 +1,100 @@
+1	5601	tisícročie	tisícročia tisícročiach tisícročiami tisícročí
+2	5602	terminál	termináli terminálom terminálov terminálu terminály
+3	5603	segment	segmente segmentov segmentu segmenty
+4	5604	malta	malte maltu malty
+5	5605	bezprostredný	bezprostrednej bezprostrednom bezprostredná bezprostredné bezprostredného bezprostrednú
+6	5606	animovaný	animovanej animovaná animované animovaného animovanú animovaných animovaným
+7	5607	etika	etike etikou etiku etiky
+8	5608	zrodiť	zrodia zrodil zrodila zrodili zrodilo zrodí
+9	5609	vzdelaný	vzdelaná vzdelané vzdelaného vzdelaní vzdelanú vzdelaných vzdelaným
+10	5610	mravec	mravca mravcami mravce mravcoch mravcom mravcov mravčie mravčiu
+11	5611	obsiahnutý	obsiahnutá obsiahnuté obsiahnutých
+12	5612	prosba	prosbe prosbou prosbu prosby prosbám
+13	5613	schudnúť	chudnutie chudnutí chudnúť chudol schudla schudli schudnem schudneš schudni schudnutie schudol
+14	5614	zamieriť	zamier zamieri zamieria zamieril zamierila zamierili zamierilo zamierim zamierime zamierite zamieriš zamierte
+15	5615	útulok	útulkoch útulkom útulkov útulku útulky
+16	5616	sklenený	sklenenej sklenenom sklenenou sklenená sklenené skleneného sklenenú sklenených skleneným sklenenými
+17	5617	židovský	židovskej
+18	5618	úľava	úľavou úľavu úľavy
+19	5619	katastrálny	katastrálne katastrálneho katastrálnom katastrálnych
+20	5620	začínajúci	začínajúca začínajúce začínajúceho začínajúcej začínajúcich začínajúcim začínajúcou začínajúcu
+21	5621	islam	islame islamom islamu
+22	5622	ľudskosť	ľudskosti ľudskosťou
+23	5623	potravinársky	potravinárska potravinárske potravinárskeho potravinárskej potravinárskom potravinárskych
+24	5624	zliatina	zliatin zliatinu zliatiny
+25	5625	spaľovanie	spaľovania spaľovaní spaľovaním
+26	5626	aids	aidsom aidsu
+27	5627	farský	farskej farskom farská farské farského
+28	5628	vydesiť	vydesia vydesil vydesila vydesili vydesilo vydesí vydesím vydesíme vydesíte vydesíš
+29	5629	obsluha	obsluhe obsluhou obsluhu obsluhy
+30	5630	nahnevať	nahnevajú nahneval nahnevala nahnevali nahnevalo nahnevá nahnevám nahneváte nahneváš
+31	5631	odpúšťať	odpúšťa odpúšťajú odpúšťam odpúšťame odpúšťaš
+32	5632	popierať	popiera popierajú popierajúc popieral popierala popierali popieram popierate popieraš
+33	5633	díler	dílera díleri dílermi díleroch dílerom dílerov dílerovi
+34	5634	nevyhrať	nevyhrajú nevyhral nevyhrala nevyhrali nevyhralo nevyhrá nevyhrám nevyhráme nevyhráte nevyhráš
+35	5635	neprijať	neprijal neprijala neprijali neprijme neprijmem neprijmeme neprijmete neprijmeš neprijmi neprijmú nepríjme nepríjmem nepríjmu
+36	5636	strašiť	strašia strašil strašila strašili strašilo straší straším strašíme strašíte strašíš
+37	5637	fu	
+38	5638	redukcia	redukcie redukcii redukciou redukciu
+39	5639	podporný	podpornej podporná podporné podporného podpornú podporných
+40	5640	fotografovať	fotografoval fotografovala fotografovali fotografovania fotografovanie fotografovaniu fotografovaní fotografuje fotografujem fotografuješ fotografujú
+41	5641	blato	blata blate blatom
+42	5642	kyslý	kyslej kyslou kyslá kyslé kyslého kyslú kyslých kyslým
+43	5643	cestovateľ	cestovatelia cestovateľa cestovateľka cestovateľmi cestovateľom cestovateľov cestovateľovi cestovateľské cestovateľskú cestovateľský
+44	5644	ničenie	ničenia ničeniu ničení ničením
+45	5645	singel	singla singli singlom singlov singlu
+46	5646	šteniatko	šteniatka šteniatkami šteniatkom šteniatok
+47	5647	zaraďovať	zaraďuje zaraďujeme zaraďujú
+48	5648	uzdraviť	uzdrav uzdravia uzdravil uzdravila uzdravili uzdravilo uzdravte uzdraví uzdravím uzdravíte uzdravíš
+49	5649	čelný	čelnej čelnom čelná čelné čelného čelných čelným
+50	5650	srbský	srbskej srbskom srbskou srbsky srbská srbské srbského srbskí srbskú srbských
+51	5651	trápenie	trápenia trápeniami trápeniu trápení trápením
+52	5652	kombinovať	kombinuje kombinujú
+53	5653	pevnina	pevnine pevninou pevninu pevniny
+54	5654	zúčastnený	zúčastnená zúčastnené zúčastnení zúčastnených zúčastneným
+55	5655	podzemie	podzemia podzemí podzemím
+56	5656	spása	spáse spásou spásu spásy
+57	5657	chlad	chlade chladom chladu
+58	5658	pritiahnuť	pritiahla pritiahli pritiahlo pritiahne pritiahnem pritiahneme pritiahnete pritiahneš pritiahni pritiahnite pritiahnu pritiahol
+59	5659	celosvetovo	
+60	5660	pripravovaný	pripravovanej pripravovanom pripravovaná pripravované pripravovaného pripravovaní pripravovaných
+61	5661	porada	porade poradou poradu porady poradách porád
+62	5662	služobník	služobníci služobníka služobníkmi služobníkom služobníkov služobníkovi
+63	5663	prápor	prápore práporom práporu prápory
+64	5664	neskúšať	neskúša neskúšaj neskúšajte neskúšajú neskúšal neskúšala neskúšali neskúšam neskúšate neskúšaš
+65	5665	zasnúbený	zasnúbená zasnúbené zasnúbení zasnúbených
+66	5666	podivný	najpodivnejšia najpodivnejší najpodivnejších podivnej podivnom podivnou podivná podivné podivného podivní podivnú podivných podivným
+67	5667	podkrovie	podkrovia podkroví podkrovím
+68	5668	uprednostňovať	uprednostňoval uprednostňovala uprednostňovali uprednostňuje uprednostňujem uprednostňujeme uprednostňujete uprednostňuješ uprednostňujú
+69	5669	ľadovec	ľadovca ľadovcami ľadovce ľadovci ľadovcom ľadovcov ľadovcové ľadovcový ľadovcu
+70	5670	obdržať	obdržal obdržala obdržali obdržia obdrží obdržím obdržíme obdržíte obdržíš
+71	5671	zúfalstvo	zúfalstva zúfalstve zúfalstvom zúfalstvu
+72	5672	nájazd	nájazde nájazdmi nájazdoch nájazdom nájazdov nájazdu nájazdy
+73	5673	podliehať	podlieha podliehajú podliehame podliehate
+74	5674	pasívum	pasív pasíva pasívna pasívneho pasívnej pasívni pasívnu pasívny pasívnych pasívnym
+75	5675	rukáv	rukáva rukáve rukávmi rukávoch rukávom rukávov rukávu rukávy
+76	5676	priepasť	priepasti priepasťou
+77	5677	nedostatočná	nedostatočnej nedostatočnou nedostatočné nedostatočnú
+78	5678	pazúr	pazúra pazúre pazúrik pazúriky pazúrmi pazúroch pazúrom pazúrov pazúry
+79	5679	istiť	isti istím isť
+80	5680	nazad	
+81	5681	úžitkový	úžitkovej úžitková úžitkové úžitkového úžitkových
+82	5682	hnať	hnal hnala hnali hnalo hnaní hnaný ženie ženiem ženieme ženiete ženieš ženú ženúci
+83	5683	stiahnutý	stiahnutá stiahnuté stiahnutí stiahnutú stiahnutým stiahnutými
+84	5684	dôverný	dôvernom dôverná dôverné dôverného dôverní dôvernú dôverných dôverným
+85	5685	vďakyvzdanie	vďakyvzdania vďakyvzdaniu vďakyvzdaní vďakyvzdaním
+86	5686	pohľadať	pohľadaj pohľadajme pohľadajte pohľadal pohľadala pohľadali pohľadá pohľadám pohľadáme pohľadáš
+87	5687	odtieň	odtiene odtieni odtieňa odtieňmi odtieňoch odtieňom odtieňov odtieňu
+88	5688	potrestaný	potrestaná potrestané potrestaní
+89	5689	lis	lise lisu lisy
+90	5690	podniknúť	podnikla podnikli podnikne podniknem podnikneme podniknete podnikneš podniknú podnikol
+91	5691	centrálne	
+92	5692	nepriamo	
+93	5693	izolovaný	izolovanej izolovanom izolovaná izolované izolovaného izolovaní izolovaných izolovaným
+94	5694	zapadať	zapadajú zapadal zapadali zapadalo zapadá zapadám zapadáme zapadáš
+95	5695	chápanie	chápania chápaniu chápaní chápaním
+96	5696	vzrásť	vzrastie vzrastú vzrástla vzrástli vzrástlo vzrástol
+97	5697	záloha	zálohe zálohou
+98	5698	veľvyslanectvo	veľvyslanectva veľvyslanectve veľvyslanectvom
+99	5699	neprestávať	neprestáva neprestávaj neprestávajme neprestávajte neprestávajú neprestával neprestávala neprestávali neprestávam neprestávame neprestávate neprestávaš
+100	5700	poznávať	poznáva poznávam poznávame poznávate poznávaš

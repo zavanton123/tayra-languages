@@ -1,0 +1,100 @@
+1	7701	posudok	posudkom posudku posudky
+2	7702	sirup	sirupe sirupom sirupu
+3	7703	dôsledný	dôsledne dôsledná dôsledné dôslední
+4	7704	krútiaci	krútiaceho
+5	7705	zlyhávať	zlyháva zlyhávajú zlyhával zlyhávala zlyhávali zlyhávam zlyhávame
+6	7706	primeraný	primeranej primeranom primeranou primeraná primerané primeraného primeranú primeraným
+7	7707	neplatný	neplatná neplatné neplatnú neplatným
+8	7708	rozprávkový	rozprávkovej rozprávkovom rozprávková rozprávkové rozprávkového rozprávkovú rozprávkových rozprávkovými
+9	7709	lovecký	loveckej loveckou lovecká lovecké loveckého loveckú loveckých loveckým
+10	7710	nerovnosť	nerovnosti nerovností
+11	7711	herectvo	herectva herectve herectvom herectvu
+12	7712	odomknúť	odomkla odomkli odomkne odomknem odomkneme odomkneš odomkni odomknite odomknutie odomknutý odomknú odomkol odomyká
+13	7713	krajčír	krajčíra krajčíri krajčírka krajčírku krajčírky krajčírom krajčírov krajčírovi krajčírske krajčírskej krajčírsky
+14	7714	foto	
+15	7715	zjednotenie	zjednotenia zjednoteniu
+16	7716	ofenzíva	ofenzíve ofenzívou ofenzívu ofenzívy
+17	7717	prednedávnom	
+18	7718	rozplakať	rozplakal rozplakala rozplakali rozplakalo rozplače rozplačem rozplačeš rozplačú
+19	7719	paprika	paprike paprikou papriku papriky papričky
+20	7720	polčas	polčase polčasu
+21	7721	zohrať	zohral zohrala zohrali zohralo zohrá
+22	7722	nepripadať	nepripadajú nepripadal nepripadala nepripadali nepripadalo nepripadá nepripadám nepripadáte nepripadáš
+23	7723	záujemca	záujemcom záujemcov záujemcovia záujemcu
+24	7724	synonymum	synonymom synonymá
+25	7725	netrvať	netrvaj netrvajú netrval netrvala netrvali netrvá netrvám
+26	7726	bydlisko	bydliska bydliskom bydlisku bydliská
+27	7727	republikán	republikána republikáni republikánmi republikánom republikánov
+28	7728	bubeník	bubeníci bubeníka bubeníkom bubeníkov
+29	7729	plytký	plytkej plytkom plytká plytké plytkého plytkých
+30	7730	obdiv	obdive obdivom obdivu
+31	7731	ľudkovia	ľudkov
+32	7732	dodávaný	dodávaná dodávané
+33	7733	čiastkový	čiastkové čiastkových
+34	7734	peľ	pele peľom peľu
+35	7735	fialový	fialovom fialovou fialové fialového fialoví fialovú fialových fialovým fialovými
+36	7736	smrteľne	
+37	7737	chemoterapia	chemoterapie chemoterapii chemoterapiou chemoterapiu chemoterapií
+38	7738	imigrant	imigranta imigranti imigrantoch imigrantom imigrantov
+39	7739	platobný	platobnej platobná platobné platobnú platobných
+40	7740	umlčať	umlč umlčal umlčala umlčali umlčalo umlčia umlčte umlčí umlčím umlčíš
+41	7741	nutkanie	nutkania nutkaniu nutkaním
+42	7742	párok	párka párkami párkom párkov párku párky
+43	7743	zablokovaný	zablokovaná zablokované zablokovanú
+44	7744	boháč	boháča boháči boháčka boháčmi boháčom boháčov boháčovi
+45	7745	pripadnúť	pripadla pripadlo pripadne pripadnú pripadol
+46	7746	inzerát	inzeráte inzerátov inzerátu inzeráty
+47	7747	vrcholný	vrcholnej vrcholnom vrcholná vrcholné vrcholného vrcholnú vrcholných vrcholným
+48	7748	fras	frasa
+49	7749	nekričať	nekrič nekričal nekričala nekričali nekričia nekričte nekričí nekričím nekričíš
+50	7750	natrieť	natrel natrela natreli natri natrie natriem natrieme natriete natrieš natrite natrú
+51	7751	zverený	zverenej zverenou zverená zverené zverení zverenú
+52	7752	pohovka	pohovke pohovkou pohovku pohovky
+53	7753	ustupovať	ustupoval ustupovali ustupuje ustupujem ustupujeme ustupujete ustupujte ustupujú
+54	7754	lákavý	lákavá lákavé lákavú
+55	7755	supermarket	supermarkete supermarketoch supermarketom supermarketov supermarketu supermarkety
+56	7756	srdečný	srdečnej srdečná srdečné srdečného srdeční srdečnú srdečných srdečným
+57	7757	dobrodružný	dobrodružnej dobrodružná dobrodružné dobrodružného dobrodružnú dobrodružných
+58	7758	krstná	krstnej krstnou krstné krstnú
+59	7759	polhodina	polhodine polhodinou polhodinu polhodiny
+60	7760	chodidlo	chodidiel chodidla chodidlami chodidle chodidlom chodidlá chodidlách
+61	7761	skrýša	skrýš skrýšach skrýše skrýši skrýšou skrýšu
+62	7762	akumulátor	akumulátora akumulátorov akumulátory
+63	7763	grófka	grófke grófkou grófku grófky
+64	7764	odber	odbere odberu odbery
+65	7765	kalória	kalóriami kalórie kalórii kalóriách kalórií
+66	7766	patrón	patróni patrónom patrónov patrónovi patróny
+67	7767	logicky	logickejšie najlogickejšie
+68	7768	rozlíšiť	
+69	7769	účinkovanie	účinkovania účinkovaní
+70	7770	pichnúť	pichla pichli pichlo pichne pichnem pichneme pichnete pichneš pichni pichnite pichnú pichol
+71	7771	pilotný	pilotnej pilotnom pilotná pilotné pilotného pilotnú
+72	7772	stabilizovať	stabilizoval stabilizovala stabilizovali stabilizovalo stabilizuj stabilizuje stabilizujeme stabilizujte stabilizujú
+73	7773	samozrejmosť	samozrejmosti samozrejmosťou
+74	7774	zebra	zebier zebre zebrou zebru zebry
+75	7775	štvorica	štvorice štvorici štvoricu
+76	7776	znepokojujúci	znepokojujúca znepokojujúce znepokojujúcejšie znepokojujúcich znepokojujúcu
+77	7777	zakladanie	zakladania zakladaní
+78	7778	stredoeurópsky	stredoeurópskeho stredoeurópskej stredoeurópskom stredoeurópskych
+79	7779	vyšetrený	vyšetrená vyšetrené vyšetrení
+80	7780	šelma	šeliem šelme šelmou šelmu šelmy
+81	7781	dozvedať	dozvedá dozvedám dozvedáme dozvedáš
+82	7782	omdlieť	omdlel omdlela omdleli omdli omdlie omdliem omdliete omdlieš
+83	7783	povzbudzovať	povzbudzoval povzbudzovala povzbudzovali povzbudzovalo povzbudzuj povzbudzuje povzbudzujem povzbudzujeme povzbudzujete povzbudzuješ povzbudzujte povzbudzujú
+84	7784	nainštalovať	nainštaloval nainštalovala nainštalovali nainštaluje nainštalujem nainštalujeme nainštalujte nainštalujú
+85	7785	zvykať	zvykaj zvykajte zvykajú zvykal zvykala zvyká zvykám zvykáme zvykáte zvykáš
+86	7786	zahriať	zahrej zahreje zahrejem zahrejeme zahreješ zahrejte zahrejú zahrial zahriala zahriali zahrialo
+87	7787	cyklotrasa	cyklotrasy cyklotrás
+88	7788	napomáhať	napomáha napomáhajú napomáhal napomáhala
+89	7789	udeľovanie	udeľovania udeľovaní
+90	7790	nestávať	nestáva nestávajú nestávali nestávalo nestávaš
+91	7791	obkľúčiť	obkľúči obkľúčia obkľúčil obkľúčila obkľúčili obkľúčime obkľúčte
+92	7792	sprostosť	sprostosti sprostostiam sprostostí sprostosťami
+93	7793	premenná	premennej premenné premennú
+94	7794	náročnosť	náročnosti
+95	7795	odtiahnuť	odtiahla odtiahli odtiahlo odtiahne odtiahnem odtiahneme odtiahneš odtiahni odtiahnite odtiahnu odtiahol
+96	7796	žoldnier	žoldniera žoldnieri žoldniermi žoldnierom žoldnierov
+97	7797	biedny	biedna biedne biedneho biednej biednemu biedni biednom biednu biednych biednym
+98	7798	úžitok	úžitku
+99	7799	sebaobrana	sebaobrane sebaobranou sebaobranu sebaobrany
+100	7800	striptérka	striptérkam striptérkami striptérke striptérkou striptérku striptérky striptérok

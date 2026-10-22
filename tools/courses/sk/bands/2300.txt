@@ -1,0 +1,100 @@
+1	2201	raketa	raketami rakete raketou raketu rakety raketách raketám rakiet
+2	2202	úcta	úcte úctou úctu úcty
+3	2203	plniť	plnenia plnenie plneniu plnení plnením plnený plnia plniac plniace plniaci plnil plnila plnili plní plním plníme plníte plníš plň
+4	2204	scenár	scenára scenáre scenári scenármi scenároch scenárom scenárov scenáru
+5	2205	konečná	konečnej konečnou konečné konečnú konečných konečným
+6	2206	každopádne	
+7	2207	vedomý	vedomej vedomá vedomé vedomého vedomí vedomú vedomých
+8	2208	písmeno	písmen písmena písmenami písmene písmenom písmená písmenách
+9	2209	mechanizmus	mechanizmami mechanizme mechanizmom mechanizmov mechanizmu mechanizmy
+10	2210	prebudiť	prebudenia prebudenie prebudená prebudené prebudení prebudením prebudený prebudia prebudil prebudila prebudili prebudilo prebudí prebudím prebudíme prebudíte prebudíš prebuď prebuďte prebúdza prebúdzať
+11	2211	pohniť	pohni pohnime pohnite
+12	2212	znížiť	zníž zníži znížia znížil znížila znížili znížilo znížim znížime znížite znížiš znížte
+13	2213	dvadsať	dvadsiatich dvadsiatim dvadsiatimi
+14	2214	prosiť	prosia prosiac prosil prosila prosili prosme prosí prosíme prosíte prosíš
+15	2215	užitočný	najužitočnejší najužitočnejším užitočnej užitočnejšia užitočnejší užitočnou užitočná užitočné užitočného užitoční užitočnú užitočných užitočným užitočnými
+16	2216	pomyslieť	pomyslel pomyslela pomysleli pomysli pomyslia pomyslite pomyslí pomyslím pomyslíme pomyslíte pomyslíš
+17	2217	používanie	používania používaniu používaním
+18	2218	krabica	krabicami krabice krabici krabiciach krabicou krabicu krabíc
+19	2219	používateľ	používatelia používateľa používateľmi používateľom používateľov používateľovi používateľské používateľského
+20	2220	dočkať	dočkajú dočkal dočkala dočkali dočká dočkám dočkáme dočkáte dočkáš
+21	2221	akýsi	akejsi akomsi akousi akási akéhosi akémusi akési akísi akúsi akýchsi akýmsi
+22	2222	náhoda	náhod náhode náhodu náhody náhodách
+23	2223	náboženstvo	náboženstiev náboženstva náboženstvami náboženstve náboženstvom náboženstvu náboženstvá náboženstvách náboženstvám
+24	2224	prekvapiť	prekvap prekvapia prekvapil prekvapila prekvapili prekvapilo prekvapte prekvapí prekvapím prekvapíme prekvapíte prekvapíš
+25	2225	dizajn	dizajne dizajnom dizajnový dizajnu dizajny
+26	2226	náhly	náhla náhle náhleho náhlej náhlemu náhli náhlom náhlou náhlu náhlym
+27	2227	príslušný	príslušnej príslušnom príslušnou príslušná príslušné príslušného príslušnému príslušnú príslušných príslušným príslušnými
+28	2228	odpad	odpade odpadom odpadov odpadu odpady
+29	2229	koza	cap capa capovi kozami koze kozej kozia kozie kozieho koziu kozička kozičky kozom kozou kozu kozy kozách kozí kozích kozím kôz
+30	2230	architektúra	architektúre architektúrou architektúru architektúry
+31	2231	podpis	podpise podpismi podpisom podpisov podpisovom podpisové podpisový podpisu podpisy
+32	2232	socha	sochami soche sochou sochu sochy sochách soška sošky sôch
+33	2233	databáza	databáz databázach databázami databáze databázou databázu databázy
+34	2234	heslo	hesiel hesla heslami heslom heslu heslá heslách
+35	2235	ozaj	
+36	2236	blbý	blbej blbom blbou blbá blbé blbého blbému blbí blbú blbých blbým blbými blbší najblbšia najblbší
+37	2237	napraviť	naprav napravia napravil napravila napravili napravilo napravme napravte napraví napravím napravíme napravíte napravíš
+38	2238	romantický	najromantickejšia najromantickejšie najromantickejšiu najromantickejší romantickej romantickejší romantickom romantickou romantická romantické romantického romantickému romantickí romantickú romantických romantickým
+39	2239	predstierať	predstiera predstieraj predstierajme predstierajte predstierajú predstierajúc predstieral predstierala predstierali predstieralo predstieram predstierame predstierate predstieraš
+40	2240	filozofia	filozofickej filozofický filozofie filozofii filozofiou filozofiu filozofií
+41	2241	zložený	zloženej zložená zložené zloženého zložení zloženú zložených zloženými
+42	2242	výťah	výťahmi výťahoch výťahom výťahov výťahovej výťahovou výťahová výťahové výťahovú výťahový výťahových výťahu výťahy
+43	2243	schody	schodmi schodoch schodom schodov
+44	2244	mágia	mágie mágii mágiou mágiu mágií
+45	2245	fajčiť	fajčenia fajčenie fajčeniu fajčení fajčením fajči fajčia fajčiaci fajčil fajčila fajčili fajčite fajčí fajčím fajčíme fajčíte fajčíš
+46	2246	pobozkať	pobozkaj pobozkajme pobozkajte pobozkajú pobozkal pobozkala pobozkali pobozká pobozkám pobozkáme pobozkáte pobozkáš
+47	2247	žalúdok	žalúdka žalúdkami žalúdkoch žalúdkom žalúdkov žalúdku žalúdky žalúdočné žalúdočný
+48	2248	prezradiť	prezradia prezradil prezradila prezradili prezradilo prezradí prezradím prezradíme prezradíte prezradíš prezraď prezraďte
+49	2249	obchodník	obchodníci obchodníka obchodníkmi obchodníkom obchodníkov obchodníkovi
+50	2250	fantastický	fantastickej fantastickou fantastická fantastické fantastického fantastickí fantastickú fantastických fantastickým najfantastickejší
+51	2251	frekvencia	frekvencie frekvencii frekvenciou frekvenciu frekvenciách frekvencií frekvenčné frekvenčný
+52	2252	pesnička	pesničiek pesničkami pesničke pesničkou pesničku pesničky pesničkách
+53	2253	obyvateľstvo	obyvateľstva obyvateľstvom obyvateľstvu
+54	2254	označený	označenej označenom označená označené označeného označení označenú označených označeným označenými
+55	2255	palác	paláca paláce paláci palácoch palácom palácov palácovej palácový palácu
+56	2256	obal	obale obalmi obaloch obalom obalov obalu obaly
+57	2257	vložiť	vlož vložia vložil vložila vložili vložilo vložte vloží vložím vložíme vložíte vložíš
+58	2258	odviezť	odvez odvezie odveziem odvezieme odveziete odvezieš odvezme odvezte odvezú odviezla odviezli odviezlo odviezol
+59	2259	spálňa	spálne spálni spální spálňach spálňami spálňou spálňový spálňu
+60	2260	odmietať	odmieta odmietajú odmietal odmietala odmietali odmietam odmietame odmietate odmietaš
+61	2261	nechávať	necháva nechávaj nechávajte nechávajú nechávajúc nechával nechávala nechávali nechávam nechávame nechávate nechávaš
+62	2262	spoliehať	spolieha spoliehaj spoliehajú spoliehajúc spoliehal spoliehala spoliehali spolieham spoliehame spoliehate spoliehaš spoľahli spoľahnem spoľahni spoľahnite spoľahnúť spoľahol
+63	2263	nariadenie	nariadenia nariadeniam nariadeniami nariadeniu nariadení nariadením
+64	2264	kráčať	kráča kráčaj kráčajme kráčajte kráčajú kráčajúc kráčajúci kráčal kráčala kráčali kráčalo kráčam kráčame kráčanie kráčate kráčaš
+65	2265	náročný	najnáročnejšia najnáročnejší najnáročnejších náročnej náročnejšia náročnejší náročnom náročnou náročná náročné náročného nároční náročnú náročných náročným
+66	2266	výcvik	výcvikom výcvikovej výcvikovom výcvikové výcvikového výcvikový výcvikovým výcviku
+67	2267	dlhodobý	dlhodobej dlhodobom dlhodobou dlhodobá dlhodobé dlhodobého dlhodobému dlhodobú dlhodobých dlhodobým
+68	2268	hlásiť	hlás hlási hlásia hlásil hlásila hlásili hlásilo hlásim hlásime hlásite hlásiš hláste
+69	2269	zvyk	zvykmi zvykoch zvykom zvykov zvyku zvyky
+70	2270	tréning	tréningoch tréningom tréningov tréningu tréningy
+71	2271	tvrdo	najtvrdšie tvrdšie
+72	2272	kúzlo	kúzel kúziel kúzla kúzlach kúzlam kúzlami kúzle kúzlom kúzlu
+73	2273	vypiť	vypi vypije vypijem vypijeme vypijete vypiješ vypijú vypil vypila vypili vypilo vypime vypite
+74	2274	hajzel	hajzla hajzlami hajzle hajzli hajzloch hajzlom hajzlov hajzlovi hajzlu
+75	2275	vysielanie	vysielania vysielaniu vysielaní vysielaním
+76	2276	nezmysel	nezmyselnej nezmyselnom nezmyselnou nezmyselná nezmyselné nezmyselného nezmyselnému nezmyselnú nezmyselný nezmyselných nezmyselným nezmyselnými nezmyslami nezmysle nezmysloch nezmyslom nezmyslov nezmyslu nezmysly
+77	2277	prebehnúť	prebehla prebehli prebehlo prebehne prebehnem prebehneme prebehneš prebehni prebehnime prebehnite prebehnú prebehol
+78	2278	prsia	prsiach prsiam prsiami pŕs
+79	2279	domáce	
+80	2280	úbohý	najúbohejšia najúbohejší úbohej úbohom úbohou úbohá úbohé úbohého úbohému úbohí úbohú úbohých úbohým úbohými
+81	2281	zhruba	
+82	2282	výhľad	výhľade výhľadom výhľadu výhľady
+83	2283	liptovský	liptovskej liptovskom liptovská liptovské liptovského liptovských
+84	2284	zamknúť	zamkla zamkli zamkne zamknem zamkneme zamknete zamkneš zamkni zamknite zamknutej zamknutie zamknutom zamknutá zamknuté zamknutého zamknutí zamknutú zamknutý zamknutých zamknutými zamknú zamkol zamkýnam zamykaj zamykajú zamykal zamykala zamykali zamykať zamyká zamykám zamykáme zamykáte zamykáš
+85	2285	šiesty	šiesta šieste šiesteho šiestej šiesti šiestom šiestou šiestu šiestym
+86	2286	pľúca	pľúc pľúcach pľúcam pľúcami pľúcna pľúcne pľúcneho pľúcnej pľúcnom pľúcnu pľúcny pľúcnych pľúcu
+87	2287	federálny	federálna federálne federálneho federálnej federálnemu federálni federálnom federálnou federálnu federálnych federálnym federálnymi
+88	2288	divadelný	divadelnej divadelnom divadelná divadelné divadelného divadelnú divadelných divadelným
+89	2289	cisár	cisára cisári cisárom cisárov cisárova cisárove cisárovej cisárovi cisárovnej cisárovnou cisárovná cisárovnú cisárových cisárovým cisárska cisárske cisárskeho cisárskej cisárskemu cisárski cisárskom cisársku cisársky cisárskych cisárskym
+90	2290	krvácať	krváca krvácaj krvácajú krvácajúci krvácal krvácala krvácali krvácalo krvácam krvácame krvácania krvácanie krvácaniu krvácaní krvácaním krvácate krvácaš
+91	2291	nerv	nervami nervoch nervom nervov nervu nervy
+92	2292	farma	fariem farmami farme farmou farmu farmy farmách farmám
+93	2293	oprava	opravami oprave opravou opravu opravy opravách opravám opráv
+94	2294	nerád	nerada neradi
+95	2295	pokojný	pokojnej pokojnejšia pokojnejší pokojnejším pokojnom pokojnou pokojná pokojné pokojného pokojnému pokojní pokojnú pokojných pokojným pokojnými
+96	2296	stolička	stoličiek stoličkami stoličke stoličkou stoličku stoličky stoličkách stoličkám
+97	2297	hnev	hneve hnevom hnevu
+98	2298	hnutie	hnutia hnutiu hnutí hnutím
+99	2299	preniesť	prenes prenesie prenesiem prenesieme prenesiete prenesieš prenesme preneste prenesú preniesla preniesli prenieslo preniesol
+100	2300	absolvovať	absolvoval absolvovala absolvovali absolvovalo absolvuje absolvujem absolvujeme absolvujete absolvuješ absolvujú

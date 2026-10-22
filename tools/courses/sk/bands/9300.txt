@@ -1,0 +1,100 @@
+1	9201	doktorát	doktorátom doktorátu doktoráty
+2	9202	naskytnúť	naskytla naskytlo naskytne naskytol
+3	9203	režírovať	režíroval režírovala režíruje režírujem
+4	9204	ohromne	
+5	9205	grál	grálom grálu
+6	9206	motať	motajú motal motala motali motá motám motáme motáte motáš
+7	9207	hlupaňa	hlupane hlupaňou hlupaňu
+8	9208	nonstop	
+9	9209	rasový	rasovej rasová rasové rasového rasovú rasových
+10	9210	kladne	
+11	9211	zaťažovať	zaťažoval zaťažuje zaťažujem zaťažuješ
+12	9212	komorník	komorníka komorníkom komorníkovi
+13	9213	zásnubný	zásnubnej zásnubnom zásnubná zásnubné zásnubného zásnubnú zásnubných
+14	9214	everest	evereste everestu
+15	9215	hlupáčik	hlupáčika hlupáčikov hlupáčikovia
+16	9216	vyplávať	vypláva vyplávajú vyplával vyplávala vyplávali vyplávalo vyplávame vyplávate
+17	9217	rozrušiť	rozrušil rozrušila rozrušili rozrušilo rozruší
+18	9218	jašterica	jašterice jaštericu jašteričia jašterička jašteričky jašteričí jašteríc
+19	9219	uvažovanie	uvažovania uvažovaní uvažovaním
+20	9220	zhrnutie	zhrnutia zhrnutím
+21	9221	rock	rockom rocku
+22	9222	zákop	zákope zákopoch zákopov zákopu zákopy
+23	9223	vyčlenený	vyčlenená vyčlenené vyčlenených
+24	9224	schladiť	schladia schladil schladila schladili schladilo schladí schladím schlaď schlaďte
+25	9225	prijímaný	prijímané prijímaní
+26	9226	pridlho	
+27	9227	páchnuť	páchla páchlo páchne páchnem páchnete páchneš páchnu páchol
+28	9228	oľutovať	oľutoval oľutovala oľutovali oľutuje oľutujem oľutujete oľutuješ oľutujú
+29	9229	pikantný	pikantnej pikantnou pikantná pikantné pikantného pikantnú pikantných
+30	9230	zimomriavky	
+31	9231	zakončenie	zakončenia zakončením
+32	9232	nevina	nevine nevinu neviny
+33	9233	kaňon	kaňone kaňonom kaňonu kaňony
+34	9234	závit	závitov závitu závity
+35	9235	provízia	provízie provízii províziu
+36	9236	odpratať	odprac odprace odpracem odpraceme odpraceš odpracte odpratal odpratala odpratali
+37	9237	jackpot	
+38	9238	očkovanie	očkovania očkovaniu očkovaní očkovaním
+39	9239	ešteže	
+40	9240	zverejnenie	zverejnenia zverejnením
+41	9241	obilnina	obilniny obilnín
+42	9242	námestník	námestníka námestníkom námestníkovi
+43	9243	stuha	stuhami stuhou stuhu stuhy
+44	9244	hlinka	hlinku
+45	9245	odcestovať	odcestoval odcestovala odcestovali odcestuje odcestujem
+46	9246	zvrhnúť	zvrhla zvrhli zvrhne zvrhneme zvrhnú zvrhol
+47	9247	zamiešať	zamieša zamiešaj zamiešajú zamiešal zamiešala zamiešali zamiešalo zamiešam zamiešame zamiešaš
+48	9248	vymedzovať	vymedzuje vymedzujú
+49	9249	röntgen	röntgene röntgenové röntgenový röntgenovým röntgenu röntgeny
+50	9250	zmerať	zmeraj zmerajte zmeral zmerala zmerali zmeria zmeriam zmeriame
+51	9251	hnus	hnusom hnusu hnusy
+52	9252	odkúpiť	odkúpi odkúpil odkúpila odkúpili odkúpim odkúpime
+53	9253	prekvapujúco	
+54	9254	triedenie	triedenia triedením
+55	9255	kolobeh	kolobehu
+56	9256	prehlasovať	prehlasovali prehlasuje prehlasujem prehlasujeme prehlasujú
+57	9257	masť	masti masťou
+58	9258	ľahostajný	ľahostajne ľahostajná ľahostajné ľahostajného ľahostajní
+59	9259	úľ	úle úli úľa úľov
+60	9260	rútiť	rúti rútia rútil rútila rútili rútilo rútim rútime rútiš
+61	9261	motivovať	motivoval motivovala motivovalo motivuje
+62	9262	vyvážený	vyvážená vyvážené vyváženého vyváženú
+63	9263	zámorie	zámoria zámorí
+64	9264	jojo	joja jojom
+65	9265	povzdychnúť	povzdychne
+66	9266	drina	drine drinu driny
+67	9267	diskrétne	diskrétnejšie
+68	9268	letopočet	letopočtom letopočtu
+69	9269	dorastať	dorastajú dorastá
+70	9270	činidlo	činidlá
+71	9271	hvezdáreň	hvezdárne hvezdárni
+72	9272	severovýchod	severovýchode severovýchodu
+73	9273	rodokmeň	rodokmene rodokmeni rodokmeňa rodokmeňom rodokmeňu
+74	9274	zachytenie	zachytenia
+75	9275	nezbaviť	nezbavia nezbavil nezbavila nezbavili nezbaví nezbavím nezbavíme nezbavíte nezbavíš
+76	9276	zázračne	
+77	9277	obhliadka	obhliadke obhliadkou obhliadku obhliadky
+78	9278	vyrozprávať	vyrozpráva vyrozprávaj vyrozprávajú vyrozprával vyrozprávala vyrozprávali vyrozprávam vyrozprávate vyrozprávaš
+79	9279	nepotrebný	nepotrebnej nepotrebná nepotrebné nepotrebného nepotrební nepotrebnú nepotrebných nepotrebným
+80	9280	šesťdesiaty	šesťdesiate šesťdesiatych
+81	9281	pohrebný	pohrebnej pohrebná pohrebnú pohrebných
+82	9282	diagnostický	diagnosticky diagnostická diagnostické diagnostického diagnostickú diagnostických
+83	9283	promenáda	promenáde promenádu promenády
+84	9284	padajúci	padajúca padajúce padajúceho padajúcej padajúcich padajúcim padajúcimi padajúcou padajúcu
+85	9285	pseudonym	pseudonymom pseudonymov
+86	9286	návrhár	návrhára návrhári návrhármi návrhárom návrhárov
+87	9287	čuch	čuchom čuchové čuchový čuchových čuchu
+88	9288	stolový	stolovej stolová stolové stolovú
+89	9289	družička	družičiek družičkou družičku družičky
+90	9290	osviežiť	osviež osvieži osviežil osviežila osviežim osviežime osviežte
+91	9291	vyčerpať	vyčerpajú vyčerpal vyčerpala vyčerpali vyčerpalo vyčerpá vyčerpáš
+92	9292	domyslieť	domyslel domyslela domysleli domysli domyslia domyslite domyslí domyslíte domyslíš
+93	9293	nejednať	nejednaj nejednajú nejednal nejednali nejednalo nejedná nejednám nejednáš
+94	9294	zrazenina	zrazeninou zrazeninu zrazeniny zrazeninám zrazenín
+95	9295	filmovať	filmoval filmovali filmovanie filmuje filmujem filmujeme filmujete filmuješ filmujú
+96	9296	labyrint	labyrinte labyrintom labyrintu
+97	9297	drahocenný	drahocennej drahocenná drahocenné drahocenného drahocennú drahocenných drahocenným
+98	9298	napádať	napáda napádajú napádal napádala napádali napádaš
+99	9299	ústranie	ústrania ústraní
+100	9300	medúza	medúz medúzami medúzu medúzy

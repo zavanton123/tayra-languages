@@ -1,0 +1,100 @@
+1	9301	koncentrovaný	koncentrovanej koncentrovaná koncentrované koncentrovanú
+2	9302	cech	cechov cechu
+3	9303	debna	debien debne debnička debničku debnou debnu debny debnách
+4	9304	skladačka	skladačku skladačky
+5	9305	primitívny	najprimitívnejšia primitívna primitívneho primitívnej primitívni primitívnou primitívnu primitívnych primitívnym primitívnymi
+6	9306	poštár	poštára poštári poštárom poštárov poštárovi
+7	9307	vykúpiť	vykúpi vykúpil vykúpila vykúpili vykúpime
+8	9308	bestseller	bestsellermi bestsellerom bestsellerov bestselleru
+9	9309	svetielko	svetielka svetielkami
+10	9310	mikrovlnka	mikrovlnke mikrovlnkou mikrovlnku mikrovlnky
+11	9311	roztiahnuť	roztiahla roztiahli roztiahne roztiahnem roztiahneme roztiahneš roztiahni roztiahnite roztiahnu roztiahol
+12	9312	kaplán	kaplána kapláni kaplánom kaplánov kaplánovi
+13	9313	podraziť	podrazia podrazil podrazila podrazili podrazí podrazíte podrazíš
+14	9314	prepájať	prepája prepájajú prepájam prepájame
+15	9315	mizerne	
+16	9316	roklina	rokline roklinou roklinu rokliny
+17	9317	ostreľovač	ostreľovača ostreľovači ostreľovačmi ostreľovačom ostreľovačov ostreľovačovi
+18	9318	rukoväť	rukoväti rukoväťou
+19	9319	neposielať	neposiela neposielaj neposielajte neposielajú neposielal neposielala neposielali neposielam neposielame neposielate neposielaš
+20	9320	hybridný	hybridné hybridného hybridných
+21	9321	formalita	formalitami formalite formalitou formalitu formality formalitám formalít
+22	9322	mraznička	mrazničke mrazničku mrazničky
+23	9323	výfukový	výfukové výfukového výfukových
+24	9324	vyľakať	vyľakal vyľakala vyľakali vyľakalo vyľaká vyľakáte vyľakáš
+25	9325	vyrušiť	vyrušia vyrušil vyrušila vyrušili vyrušilo vyruší vyruším vyrušíme vyrušíte
+26	9326	katalyzátor	katalyzátora katalyzátorom katalyzátory
+27	9327	nevinne	
+28	9328	rozmazaný	rozmazaná rozmazané rozmazanú
+29	9329	blcha	blchami blche blchu blchy blchám blšie blšky blšom blší bĺch
+30	9330	pomyslenie	pomyslenia pomyslení pomyslením
+31	9331	povrchný	povrchná povrchné povrchného povrchní povrchnú povrchných povrchným
+32	9332	orchidea	orchidei orchideou orchideu orchidey orchideí
+33	9333	prevyšovať	prevyšuje prevyšujú
+34	9334	transportný	transportnej transportnom transportná transportné transportného transportnú transportných transportným
+35	9335	severovýchodný	severovýchodnej severovýchodnom severovýchodná severovýchodného
+36	9336	psychika	psychike psychiku psychiky
+37	9337	milionár	milionára milionári milionármi milionárom milionárov milionárovi
+38	9338	nesrať	neser neserie neseriem neserieš neserte neserú nesral
+39	9339	seržantka	seržantke seržantkou seržantku seržantky
+40	9340	divoch	divocha divochmi divochom divochov divosi
+41	9341	unavovať	unavovali unavovalo unavuje unavuješ unavujú
+42	9342	nástupište	nástupišti nástupištia nástupišťa
+43	9343	strelivo	streliva strelive strelivom
+44	9344	odsúdenie	odsúdenia odsúdeniu odsúdením
+45	9345	internátny	internátna internátne internátnej internátnou internátnu internátnych
+46	9346	kriminálka	kriminálke kriminálku kriminálky
+47	9347	expres	exprese expresom expresu
+48	9348	umývanie	umývania umývaniu umývaní umývaním
+49	9349	lodenica	lodenice lodenici lodeniciach lodenicu lodeníc
+50	9350	vzdialiť	vzdiali vzdialil vzdialila vzdialili vzdialim vzdialime vzdialite vzdiaľ vzdiaľte
+51	9351	majiteľka	majiteliek majiteľke majiteľkou majiteľku majiteľky
+52	9352	bublinka	bubliniek bublinkami bublinku bublinky bublinkách
+53	9353	nezúčastniť	nezúčastnia nezúčastnil nezúčastnila nezúčastnili nezúčastní nezúčastním nezúčastníte nezúčastníš
+54	9354	ocot	octe octom octu
+55	9355	omietka	omietkou omietku omietky
+56	9356	obojstranný	obojstrannej obojstranná obojstranné obojstranného obojstrannú
+57	9357	spoľahlivo	spoľahlivejšie
+58	9358	koncipovaný	koncipovaná koncipované
+59	9359	ozvena	ozvenou ozvenu ozveny
+60	9360	prenosový	prenosovej prenosová prenosové
+61	9361	publicista	publicistu
+62	9362	rozrásť	rozrastie rozrástla rozrástli rozrástlo rozrástol
+63	9363	fľak	fliačik fľakmi fľakom fľakov fľaky
+64	9364	požiarnik	požiarnici požiarnika požiarnikmi požiarnikom požiarnikov
+65	9365	rôznorodosť	rôznorodosti
+66	9366	blbnúť	blbli blbne blbnem blbneme blbneš blbnú blbol
+67	9367	šesťdesiat	šesťdesiatich
+68	9368	umývadlo	umývadiel umývadla umývadle umývadlom umývadlu umývadlá
+69	9369	hrozivý	hrozivej hrozivom hrozivá hrozivé hrozivého hrozivú hrozivých hrozivým
+70	9370	čiernobiely	čiernobiele čiernobielom čiernobielych
+71	9371	chúďa	chúdence chúďatá
+72	9372	vynoriť	vynoria vynoril vynorila vynorili vynorilo vynorí vynoríme vynoríš
+73	9373	uzatvorenie	uzatvorenia uzatvoreniu uzatvorením
+74	9374	pochvala	pochvalu pochvaly pochvál
+75	9375	nerešpektovať	nerešpektoval nerešpektovala nerešpektovali nerešpektuje nerešpektujem nerešpektujete nerešpektuješ nerešpektujú
+76	9376	frustrácia	frustrácie frustrácii frustráciou frustráciu frustrácií
+77	9377	očitý	očité očitého očití očitú očitých očitým
+78	9378	špekulovať	špekuloval špekulovali špekulovalo špekuluje špekulujem špekuluješ špekulujú
+79	9379	diviak	diviaka diviakov diviakovi diviaky
+80	9380	vysvetlený	vysvetlená vysvetlené vysvetlení
+81	9381	blahobyt	blahobyte blahobytu
+82	9382	šimpanz	šimpanza šimpanzmi šimpanzoch šimpanzom šimpanzov šimpanzy
+83	9383	prispôsobenie	prispôsobenia prispôsobením
+84	9384	číkoľvek	čímkoľvek
+85	9385	dopoludnie	dopoludnia
+86	9386	zahrnúť	zahrnie zahrniem zahrnieme zahrnul zahrnula zahrnuli zahrň
+87	9387	hluchá	hluchej hluchou hluché
+88	9388	náplasť	náplasti náplastí náplasťou
+89	9389	pichať	pichaj pichajú pichal pichala pichali pichanie pichá pichám picháte picháš
+90	9390	nerušiť	neruš nerušia nerušil nerušili nerušte neruší neruším nerušíme nerušíte nerušíš
+91	9391	stručne	
+92	9392	vinohradnícky	vinohradnícka vinohradnícke vinohradníckej vinohradníckych
+93	9393	prezídium	prezídia
+94	9394	neostávať	neostáva neostávaj neostávajte neostávajú neostávalo neostávam neostávaš
+95	9395	váhanie	váhania váhaní
+96	9396	valiť	valia valil valila valili valí valím valíme valíš
+97	9397	samozrejmý	samozrejmá samozrejmé samozrejmú
+98	9398	skladanie	skladania skladaním
+99	9399	tofu	
+100	9400	nachystať	nachystaj nachystajte nachystal nachystala nachystali nachystá nachystám nachystáme

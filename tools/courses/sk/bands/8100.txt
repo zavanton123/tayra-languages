@@ -1,0 +1,100 @@
+1	8001	obuť	obuj obuje obujem obuješ obujte obul obula obuli obuté obutý obúva obúvať
+2	8002	lákať	láka lákajú lákal lákala lákali lákalo
+3	8003	maklér	makléra makléri maklérka maklérom maklérov maklérovi maklérskej maklérsky
+4	8004	pančucha	pančuchami pančuche pančuchu pančuchy pančuchách pančúch
+5	8005	plynule	
+6	8006	príťažlivosť	príťažlivosti príťažlivosťou
+7	8007	prevrátiť	prevráti prevrátia prevrátil prevrátila prevrátili prevrátilo prevrátim prevrátime prevrátiš prevráť prevráťte
+8	8008	hygiena	hygienou hygienu hygieny
+9	8009	toaletný	toaletnej toaletnom toaletná toaletné toaletného toaletných toaletným
+10	8010	unikátne	
+11	8011	zaregistrovaný	zaregistrovaná zaregistrované zaregistrovaní zaregistrovanú zaregistrovaných
+12	8012	váhať	váhajú váhal váhala váhali váhame váhate váhaš
+13	8013	vír	víre vírom vírov víru víry
+14	8014	úmrtnosť	úmrtnosti
+15	8015	nepredpokladať	nepredpokladaj nepredpokladajte nepredpokladal nepredpokladala nepredpokladali nepredpokladalo nepredpokladá nepredpokladám nepredpokladáme nepredpokladáš
+16	8016	sodný	sodného sodným
+17	8017	postrážiť	postráž postráži postrážil postrážila postrážili postrážim postrážime postrážite postrážiš postrážte
+18	8018	zľutovanie	zľutovania zľutovaním
+19	8019	nebojovať	nebojoval nebojovala nebojovali nebojuj nebojuje nebojujem nebojujeme nebojujete nebojuješ nebojujte nebojujú
+20	8020	nadanie	nadania nadaním
+21	8021	havarovať	havaroval havarovala havarovali havarovalo havaruje havarujem havarujeme
+22	8022	írsky	írske írskeho írskej írski írskou írskych írskym
+23	8023	rozložený	rozložená rozložené rozložení
+24	8024	ovládací	ovládacej ovládacia ovládacie ovládacieho ovládacom ovládacích ovládacím
+25	8025	pôvabný	pôvabnej pôvabnou pôvabná pôvabné pôvabného pôvabní pôvabnú pôvabných pôvabným
+26	8026	kolégium	kolégia kolégiu
+27	8027	cudzina	cudzine cudziny
+28	8028	príšerne	
+29	8029	šéfredaktor	šéfredaktora šéfredaktori šéfredaktorom šéfredaktorovi
+30	8030	neukradnúť	neukradla neukradli neukradne neukradnem neukradneme neukradnete neukradneš neukradol
+31	8031	absorbovať	absorboval absorbovala absorbovali absorbovanie absorbovaný absorbuje absorbujú
+32	8032	postupnosť	postupnosti
+33	8033	nevenovať	nevenoval nevenovala nevenovali nevenuj nevenuje nevenujem nevenujeme nevenuješ nevenujte nevenujú
+34	8034	grilovať	griloval grilovali grilovanie grilované grilovaný griluje grilujem griluješ grilujú
+35	8035	psychicky	
+36	8036	polovička	polovičkami polovičke polovičkou polovičku polovičky
+37	8037	neformálne	
+38	8038	planina	planine planinu planiny planinách planín
+39	8039	zástupkyňa	zástupkyne zástupkyňou zástupkyňu
+40	8040	marketing	marketingom marketingu
+41	8041	zúžiť	zúži zúžil zúžila zúžili zúžilo zúžim zúžime zúžte
+42	8042	využívajúci	využívajúca využívajúce využívajúcich
+43	8043	vrak	vrakom vrakov vraku vraky
+44	8044	možnože	
+45	8045	prestúpiť	prestúp prestúpil prestúpila prestúpim prestúpte
+46	8046	rezort	rezorte rezortov rezortu rezorty
+47	8047	ustanoviť	ustanovil ustanovili ustanoví
+48	8048	prospešný	prospešná prospešné prospešní prospešnú prospešných
+49	8049	projekcia	projekcie projekcii projekciu
+50	8050	prať	periem perieme perieš pral prala prali
+51	8051	starostlivý	starostlivej starostlivom starostlivá starostlivé starostlivého starostliví starostlivú starostlivých starostlivým
+52	8052	šľachta	šľachte šľachtou šľachtu šľachty
+53	8053	vystupovanie	vystupovania vystupovaní vystupovaním
+54	8054	zvrat	zvrate zvratmi zvratom zvratov zvratu zvraty
+55	8055	dopis	dopise dopisoch dopisom dopisov dopisu dopisy
+56	8056	džem	džeme džemom džemu džemy
+57	8057	porcelán	porceláne porcelánom porcelánovej porcelánová porcelánové porcelánového porcelánovú porcelánový porcelánu
+58	8058	poslúchnuť	poslúchla poslúchli poslúchne poslúchnem poslúchneme poslúchnete poslúchneš poslúchni poslúchnite poslúchnu poslúchol
+59	8059	porušený	porušená porušené porušení
+60	8060	hrýzť	hryz hryzenie hryzie hryziem hryziete hryzieš hryzú hrýzla hrýzli hrýzol
+61	8061	paradoxne	
+62	8062	presviedčať	presviedča presviedčajú presviedčal presviedčala presviedčali presviedčam presviedčaš
+63	8063	sušený	sušená sušené sušeného sušenú sušených sušeným
+64	8064	archívny	archívne archívnej archívnom archívnych
+65	8065	bandita	banditi banditmi banditom banditov banditovi banditu
+66	8066	donáška	donáške donáškou donášku donášky donášok
+67	8067	laser	lasera laserom laserov laseru lasery
+68	8068	poddaný	poddaného poddaní poddaných poddaným poddanými
+69	8069	broskyňa	broskyne broskynka broskyňovej broskyňové broskyňovú broskyňový broskyňu broskýň
+70	8070	nastražiť	nastraž nastražil nastražila nastražili nastražte nastraží nastražím nastražíme
+71	8071	štatutárny	štatutárneho štatutárnym
+72	8072	pribúdať	pribúda pribúdajú pribúdali pribúdalo
+73	8073	úlovok	úlovkom úlovkov úlovku úlovky
+74	8074	vybavovať	vybavoval vybavovala vybavovali vybavuje vybavujem vybavujeme vybavujete vybavuješ vybavujú
+75	8075	šrot	šrote šrotom šrotu šroty
+76	8076	korčuľovať	korčuľoval korčuľovali korčuľovania korčuľovanie korčuľovaní korčuľuj korčuľuje korčuľujem korčuľujte korčuľujú
+77	8077	tresk	treskom tresku tresky
+78	8078	rádioaktívny	rádioaktívna rádioaktívneho rádioaktívnej rádioaktívnych rádioaktívnym
+79	8079	zízať	zíza zízajú zízal zízala zízali zízam zízate zízaš
+80	8080	zaistenie	zaistenia zaistení
+81	8081	premyslený	premyslenej premyslená premyslené premyslenú premysleným
+82	8082	stolný	stolnom stolné stolnú stolných stolným
+83	8083	znovuzrodenie	znovuzrodenia znovuzrodeniu znovuzrodením
+84	8084	súhvezdie	súhvezdia súhvezdí
+85	8085	zostup	zostupe zostupu
+86	8086	tribúna	tribúnach tribúnami tribúne tribúnou tribúnu tribúny
+87	8087	vyučovací	vyučovacieho vyučovaciu vyučovacích vyučovacím
+88	8088	ubytovňa	ubytovne ubytovni ubytovniach ubytovní ubytovňu
+89	8089	navrch	
+90	8090	obojok	obojkom obojku obojky
+91	8091	terminológia	terminológie terminológii terminológiu
+92	8092	poddôstojník	poddôstojníci poddôstojníka poddôstojníkom poddôstojníkov poddôstojníkovi
+93	8093	vypytovať	vypytoval vypytovala vypytovali vypytuje vypytujem vypytujete vypytuješ vypytujú
+94	8094	premietanie	premietania premietaní
+95	8095	uloviť	ulov ulovia ulovil ulovila ulovili uloví ulovím ulovíme ulovíš
+96	8096	kliknúť	klikla klikne kliknem kliknete klikneš klikni kliknite klikol
+97	8097	zaniesť	zanes zanesie zanesiem zanesieme zanesieš zaneste zanesú zaniesla zaniesli zaniesol
+98	8098	trilógia	trilógie trilógiu
+99	8099	rozptýlenie	rozptýlenia rozptýlení rozptýlením
+100	8100	rušný	najrušnejšia najrušnejších rušnej rušnom rušná rušné rušnú rušných

@@ -1,0 +1,100 @@
+1	4101	účes	účese účesmi účesom účesov účesu účesy
+2	4102	presnosť	presnosti presnosťou
+3	4103	lavica	lavice lavici laviciach lavicou lavicu lavička lavičke lavíc
+4	4104	kvapalina	kvapalinou kvapalinu kvapaliny kvapalín
+5	4105	prorok	proroci proroka prorokmi prorokoch prorokom prorokov prorokovi
+6	4106	zbabelec	zbabelca zbabelcami zbabelci zbabelcom zbabelcov
+7	4107	smiešny	najsmiešnejšia smiešna smiešneho smiešnej smiešnemu smiešni smiešnom smiešnou smiešnu smiešnych smiešnym smiešnymi
+8	4108	dialóg	dialógov dialógu dialógy
+9	4109	žľaza	žliaz žľazami žľaze žľazou žľazu žľazy žľazách
+10	4110	dočerta	
+11	4111	volič	voliča voliči voličmi voličom voličov
+12	4112	réžia	réžie réžii réžiu
+13	4113	hovädo	hoväda hovädom hovädzej hovädzia hovädzie hovädzieho hovädziu hovädzom hovädzí hovädzích hovädzím hovädá
+14	4114	neskutočne	
+15	4115	masáž	masážach masážami masáže masáži masážou
+16	4116	regulácia	regulácie regulácii reguláciou reguláciu
+17	4117	logika	logike logikou logiku logiky
+18	4118	ukrytý	ukrytej ukrytom ukrytou ukrytá ukryté ukrytého ukrytí ukrytú ukrytých ukrytým
+19	4119	spôsobilo	
+20	4120	celosvetový	celosvetovej celosvetovom celosvetovou celosvetová celosvetové celosvetového celosvetovú celosvetových celosvetovým
+21	4121	zásadný	zásadnej zásadnou zásadná zásadné zásadnú zásadných zásadným
+22	4122	prevodovka	prevodovke prevodovkou prevodovku prevodovky
+23	4123	mikrofón	mikrofóne mikrofónmi mikrofónom mikrofónov mikrofónu mikrofóny
+24	4124	masívny	masívna masívneho masívnej masívnemu masívnom masívnou masívnu masívnych masívnym masívnymi
+25	4125	čip	čipe čipmi čipoch čipom čipov čipu čipy
+26	4126	povstanie	povstania povstaniu povstaní povstaním
+27	4127	neporiadok	neporiadkom neporiadku
+28	4128	zver	zvera zveri zvermi zverom zverou zverov zvery zverí
+29	4129	ložisko	ložiska ložisku ložiská ložiskách ložísk
+30	4130	náramok	náramkami náramkom náramkov náramku náramky
+31	4131	zisťovať	zisťoval zisťovala zisťovali zisťuje zisťujem zisťujeme zisťujete zisťuješ zisťujú
+32	4132	donucovať	donútil donútiť
+33	4133	spolupracovník	spolupracovníci spolupracovníka spolupracovníkmi spolupracovníkom spolupracovníkov
+34	4134	počiatočný	počiatočnej počiatočnom počiatočná počiatočné počiatočného počiatočnú počiatočných počiatočným
+35	4135	čašník	čašníci čašníka čašníkmi čašníkom čašníkov čašníkovi čašníčka čašníčkam čašníčkami čašníčke čašníčkou čašníčku čašníčky čašníčok
+36	4136	úzko	užšie
+37	4137	výsledný	výslednej výslednom výsledná výsledné výsledného výslednú výsledným
+38	4138	podpredseda	podpredsedom podpredsedov podpredsedu
+39	4139	likvidácia	likvidácie likvidácii likvidáciou likvidáciu
+40	4140	desiť	desia desil desila desili desilo desí desím desíte desíš
+41	4141	odrážať	odráža odrážaj odrážajú odrážal odrážala odrážali odrážalo odrážam odrážaš
+42	4142	mlyn	mlyna mlyne mlynmi mlynom mlynov mlynské mlynu mlyny mlynček mlynčeka mlynčekom
+43	4143	kandidátov	kandidátovi
+44	4144	podľahnúť	podľahla podľahli podľahlo podľahne podľahneš podľahnú podľahol
+45	4145	podrobnosť	podrobnosti podrobnostiach podrobnostiam podrobností podrobnosťami
+46	4146	uspieť	uspeje uspejem uspejeme uspejete uspeješ uspejú uspel uspela uspeli uspelo
+47	4147	explózia	explózie explózii explóziou explóziu explóziách explózií
+48	4148	kompletne	
+49	4149	pomstiť	pomsti pomstia pomstil pomstila pomstili pomstite pomstí pomstím pomstíme pomstíš
+50	4150	vzdávať	vzdáva vzdávajú vzdával vzdávala vzdávali vzdávam vzdávame vzdávate vzdávaš
+51	4151	špecifikácia	špecifikácie špecifikáciu špecifikácií
+52	4152	odfotiť	odfotia odfotil odfotila odfotili odfotí odfotím odfotíme odfotíte odfotíš odfoť odfoťme odfoťte
+53	4153	kôra	kôre kôrka kôrkou kôrku kôrky kôrou kôru kôry
+54	4154	vesta	vestami veste vestou vestu vesty vestách viest
+55	4155	bum	
+56	4156	zručnosť	zručnosti zručnostiach zručnostiam zručností zručnosťami zručnosťou
+57	4157	generátor	generátora generátore generátormi generátorom generátorov generátoru generátory
+58	4158	oxid	oxidom oxidov oxidu oxidy
+59	4159	ikona	ikon ikonami ikonou ikonu ikony
+60	4160	súradnica	súradnicami súradnice súradniciach súradniciam súradníc
+61	4161	považský	považskej považská považské považského
+62	4162	svetlý	svetlej svetlejšej svetlejšia svetlejšiu svetlejší svetlou svetlé svetlého svetlú svetlých svetlým svetlými
+63	4163	končatina	končatinami končatine končatinu končatiny končatinách končatín
+64	4164	reprezentant	reprezentanta reprezentanti reprezentantom reprezentantov
+65	4165	doplniť	doplnia doplnil doplnila doplnili doplní doplním doplníme doplň doplňte
+66	4166	vlasť	vlasti vlasťou
+67	4167	dlhovať	dlhoval dlhovala dlhovali dlhuje dlhujem dlhujeme dlhujete dlhuješ dlhujú
+68	4168	záruka	záruk záruke zárukou záruku záruky
+69	4169	gang	gangmi gangoch gangom gangov gangu gangy
+70	4170	riad	riadmi riadom riadov riadu riady
+71	4171	bozkávať	bozkáva bozkávaj bozkávajte bozkávajú bozkával bozkávala bozkávali bozkávam bozkávame bozkávate bozkávaš
+72	4172	éra	ére érou éru éry
+73	4173	dodržať	dodrž dodržal dodržala dodržali dodržia dodržte dodrží dodržím dodržíme dodržíte dodržíš
+74	4174	bielkovina	bielkoviny bielkovín
+75	4175	prísny	najprísnejší prísna prísneho prísnej prísnejšia prísnejší prísni prísnom prísnou prísnu prísnych prísnym prísnymi
+76	4176	isteže	
+77	4177	kurt	kurte kurtom kurtu kurty
+78	4178	dlhodobo	dlhodobejšie
+79	4179	komplikácia	komplikáciami komplikácie komplikácii komplikáciou komplikáciu komplikáciám komplikácií
+80	4180	situovaný	situovaná situované situovaných
+81	4181	zavretý	zavretej zavretá zavreté zavretého zavretí zavretú zavretých zavretými
+82	4182	zasadnutie	zasadnutia zasadnutiach zasadnutí zasadnutím
+83	4183	oranžový	oranžovej oranžovom oranžovou oranžová oranžové oranžového oranžoví oranžovú oranžových oranžovým oranžovými
+84	4184	necelý	necelou necelá necelé necelú necelých necelým necelými
+85	4185	raketoplán	raketopláne raketoplánoch raketoplánom raketoplánov raketoplánu raketoplány
+86	4186	ker	kroch krom krov kru kry krík kríka kríkmi kríkoch kríkom kríkov kríku kríky
+87	4187	posun	posune posunom posunu posuny
+88	4188	široko	najširšie širšie
+89	4189	pokožka	pokožke pokožkou pokožku pokožky
+90	4190	zápach	zápachom zápachu
+91	4191	pochopenie	pochopenia pochopeniu pochopení pochopením
+92	4192	evanjelium	evanjelia evanjeliom evanjeliu evanjeliá evanjeliách evanjelií
+93	4193	kĺb	kĺbe kĺbmi kĺboch kĺbom kĺbov kĺbu kĺby
+94	4194	basketbal	basketbale basketbalom basketbalovej basketbalový basketbalu
+95	4195	srsť	srsti srsťou
+96	4196	ryža	ryže ryži ryžou ryžu
+97	4197	radnica	radnice radnici radnicou radnicu
+98	4198	zaznamenaný	zaznamenanej zaznamenaná zaznamenané zaznamenaní zaznamenaných
+99	4199	spomedzi	
+100	4200	krém	krémami kréme krémom krémov krému krémy

@@ -1,0 +1,100 @@
+1	8601	koliba	kolibe koliby
+2	8602	semienko	semienka semienkami semienkom semienok
+3	8603	podporovateľ	podporovatelia podporovateľom podporovateľov
+4	8604	osveta	osvetu osvety
+5	8605	guľatý	guľatou guľatá guľaté guľatú
+6	8606	botanika	botanickej botanická botanickú botanických botanike botaniku botaniky
+7	8607	marka	mariek marku marky
+8	8608	portfólia	portfóliu
+9	8609	obohatiť	obohatil obohatila obohatili obohatí
+10	8610	šikmý	šikmej šikmá šikmé šikmú
+11	8611	ceremoniál	ceremoniáli ceremoniálu
+12	8612	nezvládať	nezvláda nezvládajú nezvládal nezvládala nezvládam nezvládame nezvládate nezvládaš
+13	8613	kreativita	kreativite kreativitou kreativitu kreativity
+14	8614	dedičný	dedičná dedičné dedičného dedičných dedičným
+15	8615	hnoj	hnoja hnoji hnojom
+16	8616	blahoslavený	blahoslavenou blahoslavená blahoslavené blahoslaveného blahoslavení
+17	8617	koristiť	koristi
+18	8618	vychovaný	vychovaná vychované vychovaného vychovaní
+19	8619	špagety	špagetami špagetách špagiet
+20	8620	pociťovať	pociťoval pociťovala pociťovali pociťuje pociťujem pociťujeme pociťujete pociťuješ pociťujú
+21	8621	diskrétny	diskrétna diskrétneho diskrétnejší diskrétni diskrétnom diskrétnu
+22	8622	stabilizovaný	stabilizovaná stabilizované
+23	8623	poctivo	
+24	8624	prostredník	prostredníci prostredníka prostredníkom prostredníkov prostredníkovi
+25	8625	konvoj	konvoja konvoje konvoji konvojom konvojov konvoju
+26	8626	kolíska	kolíske kolískou kolísku kolísky
+27	8627	triedny	triedneho triedni triednom triednych triednym
+28	8628	nefunkčný	nefunkčnej nefunkčná nefunkčné nefunkčnú nefunkčných nefunkčným
+29	8629	meteorit	meteorite meteoritický meteoritmi meteoritom meteoritov meteoritu meteority
+30	8630	krutosť	krutosti krutosťou
+31	8631	ultrazvuk	ultrazvukom ultrazvuku
+32	8632	fáma	fám fámam fámou fámu fámy
+33	8633	závrat	závrate závratov závraty
+34	8634	amfiteáter	amfiteátra amfiteátri
+35	8635	ctiť	ctia ctil ctila ctím ctíme ctíš
+36	8636	odstreliť	odstrelia odstrelil odstrelila odstrelili odstrelí odstrelím odstrelíme odstrelíš odstreľ odstreľte
+37	8637	zvaliť	zvalia zvalil zvalila zvalili zvalilo zvalí zvalím zvalíš zvaľ
+38	8638	výchovné	výchovného
+39	8639	bulvár	bulváre bulvári bulvárom bulváru
+40	8640	exemplár	exempláre exemplárov
+41	8641	spodky	spodkami spodkoch spodkom spodkov
+42	8642	intímne	intímnejšie najintímnejšie
+43	8643	mieniť	mieni mienil mienili mienim mienime mienite mieniš
+44	8644	prestavať	prestaval prestavali prestavaný prestavovať prestavujem
+45	8645	pružina	pružinami pružinu pružiny
+46	8646	slivka	sliviek slivkové slivkový slivku slivky slivkách slivôčka
+47	8647	radový	radovej radové radového radoví radových
+48	8648	stáž	stáže stáži
+49	8649	iniciovať	inicioval iniciovala iniciovali iniciuje
+50	8650	odtok	odtoku odtoky
+51	8651	neutrálne	
+52	8652	teleskop	teleskope teleskopom teleskopu teleskopy
+53	8653	modelovanie	modelovania
+54	8654	brazílsky	brazílska brazílske brazílskeho brazílskej brazílsku brazílskych
+55	8655	neodvážiť	neodváži neodvážia neodvážil neodvážila neodvážili neodvážim neodvážite neodvážiš
+56	8656	bezohľadný	bezohľadnej bezohľadnou bezohľadná bezohľadné bezohľadného bezohľadnému bezohľadní bezohľadnú bezohľadným
+57	8657	orientačný	orientačné
+58	8658	severský	severskej severské severských
+59	8659	lístie	lístia lístí lístím
+60	8660	zahrňovať	zahrňovala zahrňovali zahrňovalo zahrňuje zahrňujú zahrňujúc
+61	8661	rušeň	najrušnejšie rušne rušni rušňa rušňov
+62	8662	vážnosť	vážnosti vážnosťou
+63	8663	viacnásobný	viacnásobnej viacnásobná viacnásobné viacnásobného viacnásobnú viacnásobných viacnásobným viacnásobnými
+64	8664	nitka	nitiek nitkami nitke nitku nitky
+65	8665	lojálny	lojálna lojálne lojálneho lojálnej lojálni lojálnych lojálnym lojálnymi
+66	8666	oslabiť	oslabia oslabil oslabila oslabili oslabilo oslabí oslabíme
+67	8667	prikázanie	prikázania prikázaniami prikázaní
+68	8668	mizina	mizine mizinu
+69	8669	krásavec	krásavca krásavci krásavcom krásavcov
+70	8670	životne	
+71	8671	nezáležať	nezáležalo nezáležiac
+72	8672	výdaj	výdaje výdaji výdajoch výdajov
+73	8673	preslávený	preslávenom preslávená preslávené presláveného preslávení preslávenú
+74	8674	vykúpenie	vykúpenia vykúpeniu vykúpení vykúpením
+75	8675	à	
+76	8676	priradiť	priradil priradila priradili priradí priradím
+77	8677	otváranie	otvárania otváraní otváraním
+78	8678	lízať	lízal lízala lízali líž líže lížem lížeš lížte lížu
+79	8679	hlásať	hlása hlásajú hlásal hlásali hlásaš
+80	8680	kreveta	krevetami krevetu krevety kreviet
+81	8681	letka	letiek letke letku letky
+82	8682	spolužitie	spolužitia spolužití
+83	8683	vypĺňať	vypĺňa vypĺňajú vypĺňala vypĺňali vypĺňam
+84	8684	prehrávanie	prehrávania prehrávaní
+85	8685	papuľa	papule papuli papuľou papuľu
+86	8686	zrýchliť	zrýchli zrýchlia zrýchlil zrýchlili zrýchlilo zrýchlime zrýchlite
+87	8687	dôchodkový	dôchodkovom dôchodkové dôchodkového
+88	8688	slečinka	slečiniek slečinke slečinkou slečinku slečinky
+89	8689	zbehnúť	zbehla zbehli zbehne zbehnem zbehneme zbehneš zbehni zbehnime zbehnite zbehnú zbehol
+90	8690	turizmus	turizmu
+91	8691	sprístupniť	sprístupni sprístupnil sprístupnila sprístupnili sprístupní sprístupním sprístupníme sprístupníte
+92	8692	špeciál	špeciáli špeciálom špeciálu špeciály
+93	8693	bombardér	bombardéra bombardéri bombardérom bombardérov bombardéry
+94	8694	prekvapivý	prekvapivá prekvapivé prekvapivému prekvapivú prekvapivých prekvapivým
+95	8695	domino	domina dominu
+96	8696	hornina	horniny horninách hornín
+97	8697	protiútok	protiútokov protiútoku protiútoky
+98	8698	partnerský	partnerská partnerské partnerskú partnerských
+99	8699	diktátor	diktátora diktátori diktátormi diktátorom diktátorov diktátorovi
+100	8700	neprehovoriť	neprehovor neprehovoria neprehovoril neprehovorila neprehovorili neprehovorí neprehovorím neprehovoríme neprehovoríte neprehovoríš

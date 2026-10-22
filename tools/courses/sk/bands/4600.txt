@@ -1,0 +1,100 @@
+1	4501	prispievať	prispieva prispievajú prispieval prispievali prispievam prispievame prispievate prispievaš
+2	4502	podaný	podanej podaná podané podaní podaných
+3	4503	deka	deke dekou deku deky diek
+4	4504	naložiť	nalož naložia naložil naložila naložili naložilo naložme naložte naloží naložím naložíme naložíte naložíš
+5	4505	geografia	geografickej geograficky geografická geografické geografického geografický geografických geografie geografii geografiu
+6	4506	evanjelický	evanjelickej evanjelickom evanjelická evanjelické evanjelického evanjelických
+7	4507	munícia	muničné muničný munície munícii muníciou muníciu
+8	4508	ventil	ventilmi ventilom ventilov ventilu ventily
+9	4509	televízor	televízora televízore televízorom televízorov televízoru televízory
+10	4510	holandský	holandskej holandskom holandskou holandská holandské holandského holandskí holandskú holandských holandským
+11	4511	porodiť	porodia porodil porodila porodili porodilo porodí porodím porodíš
+12	4512	samec	samca samcami samce samci samcom samcov samcovi
+13	4513	zhoršovať	zhoršoval zhoršovala zhoršovali zhoršovalo zhoršuje zhoršujem zhoršujete zhoršuješ zhoršujú
+14	4514	predložiť	predlož predložia predložil predložila predložili predložte predloží predložím predložíme predložíte
+15	4515	formácia	formácie formácii formáciu formáciách formácií
+16	4516	impulz	impulzmi impulzom impulzov impulzu impulzy
+17	4517	položený	položenej položená položené položení položenú položených
+18	4518	protivník	protivníci protivníka protivníkmi protivníkoch protivníkom protivníkov protivníkovi
+19	4519	diva	dive divou divu divy
+20	4520	mimozemský	mimozemskej mimozemskom mimozemskou mimozemská mimozemské mimozemského mimozemskí mimozemskú mimozemských mimozemským mimozemskými
+21	4521	povoliť	povolia povolil povolila povolili povolilo povolí povolím povolíme povolíte povolíš povoľ povoľte
+22	4522	zaberať	zaberaj zaberajú zaberal zaberala zaberali zaberalo zaberá zaberám
+23	4523	upravovať	upravoval upravovala upravovali upravuje upravujem upravujeme upravuješ upravujú
+24	4524	zhorieť	zhor zhorel zhorela zhoreli zhorelo zhorený zhoria zhorte zhorí zhorím zhoríme zhoríte zhoríš
+25	4525	zástava	zástav zástavami zástave zástavka zástavky zástavou zástavu zástavy
+26	4526	zapletený	zapletená zapletené zapletení zapletených
+27	4527	príručka	príručiek príručke príručkou príručku príručky príručkách
+28	4528	miešať	mieša miešaj miešajte miešajú miešal miešala miešali miešam miešame miešate miešaš
+29	4529	predísť	predchádza predchádzať predišiel predišla predišli predišlo predídeme
+30	4530	močiť	moč močenie močia močil močila močili moču močí močím močíte močíš vymočil vymočiť
+31	4531	putovať	putoval putovala putovali putovania putovanie putovaní putovaním putuje putujem putujeme putujú putujúci
+32	4532	konzola	konzol konzole konzolou konzolu konzoly
+33	4533	dohovor	dohovore dohovorom dohovorov dohovoru
+34	4534	element	elementmi elementom elementov elementu elementy
+35	4535	majstrovský	majstrovskej majstrovskom majstrovská majstrovské majstrovského majstrovskému majstrovských majstrovským
+36	4536	dokončenie	dokončenia dokončeniu dokončením
+37	4537	kresliť	kresli kreslia kreslil kreslila kreslili kreslite kreslí kreslím kreslíš
+38	4538	inštalácia	inštalačný inštalácie inštalácii inštaláciou inštaláciu inštalácií
+39	4539	telefonovať	telefonoval telefonovala telefonovali telefonovanie telefonovaní telefonovaním telefonuje telefonujem telefonujeme telefonujete telefonuješ telefonujú
+40	4540	usmiať	usmej usmeje usmejem usmejete usmeješ usmejte usmejú usmial usmiala usmiali usmialo
+41	4541	porast	poraste porastoch porastom porastov porastu porasty
+42	4542	uzol	uzla uzlami uzle uzloch uzlom uzlov uzlu uzly
+43	4543	pozemský	pozemskej pozemskom pozemskou pozemská pozemské pozemského pozemskí pozemskú pozemských pozemským pozemskými
+44	4544	fenomén	fenoméne fenoménom fenoménov fenoménu fenomény
+45	4545	viceprezident	viceprezidenta viceprezidentom viceprezidentovi
+46	4546	predstavivosť	predstavivosti predstavivosťou
+47	4547	vypracovať	vypracoval vypracovala vypracovali vypracuj vypracuje vypracujem vypracujeme vypracuješ vypracujte
+48	4548	čepeľ	čepele čepeli čepelí čepeľami čepeľou
+49	4549	oddeliť	oddelia oddelil oddelila oddelili oddelilo oddelí oddelím oddelíme oddelíte oddelíš oddeľ oddeľme oddeľte
+50	4550	pochádzajúci	pochádzajúca pochádzajúce pochádzajúceho pochádzajúcej pochádzajúcich
+51	4551	idea	ideami idei ideou ideu idey ideám ideí
+52	4552	odštartovať	odštartoval odštartovala odštartovali odštartovalo odštartuj odštartuje odštartujeme odštartujme odštartujte odštartujú
+53	4553	stolica	stolice stolici stolicou stolicu
+54	4554	mercedes	mercedese mercedesom mercedesov mercedesu mercedesy
+55	4555	extrémny	extrémna extrémneho extrémnej extrémnom extrémnou extrémnu extrémnych extrémnym extrémnymi
+56	4556	náplň	náplne náplni náplní náplňou
+57	4557	mentálny	mentálna mentálne mentálneho mentálnej mentálnom mentálnou mentálnu mentálnych mentálnym
+58	4558	pusa	puse pusinka pusou pusu pusy
+59	4559	trvalý	trvalejšieho trvalejší trvalom trvalého trvalému trvalých trvalým
+60	4560	ústup	ústupe ústupom ústupu
+61	4561	otravný	najotravnejší otravnej otravnou otravná otravné otravného otravní otravnú otravných otravným otravnými
+62	4562	vysielač	vysielača vysielače vysielači vysielačom vysielačov vysielaču
+63	4563	výplata	výplat výplatami výplate výplatou výplatu výplaty
+64	4564	plagát	plagáte plagátmi plagátoch plagátom plagátov plagátu plagáty
+65	4565	masový	masovej masovom masová masové masového masovému masoví masovú masových masovým
+66	4566	zapadnúť	zapadla zapadli zapadlo zapadne zapadnem zapadneme zapadnete zapadneš zapadni zapadnú zapadol
+67	4567	drevina	drevinami dreviny drevín
+68	4568	skladateľ	skladatelia skladateľa skladateľom skladateľov skladateľovi
+69	4569	zmätok	zmätkom zmätkov zmätku zmätky zmätočné zmätočný
+70	4570	tucet	tucta tuctami tucte tuctoch tuctom tuctov tuctu tucty
+71	4571	vyčerpaný	vyčerpaná vyčerpané vyčerpaní
+72	4572	kryštál	kryštáli kryštálmi kryštáloch kryštálom kryštálov kryštálu kryštály
+73	4573	podrobný	podrobnejší podrobnom podrobnou podrobná podrobné podrobnú podrobných
+74	4574	psychológ	psychologička psychologičkou psychológa psychológom psychológov psychológovi psychológovia
+75	4575	práčka	práčke práčkou práčku práčky
+76	4576	pomôcka	pomôckami pomôckou pomôcku pomôcky pomôcok
+77	4577	zhromaždiť	zhromaždi zhromaždia zhromaždil zhromaždila zhromaždili zhromaždilo zhromaždime zhromaždite zhromaždí zhromaždím zhromaždíme zhromaždíte
+78	4578	zvon	zvona zvone zvonmi zvonom zvonov zvonu zvony
+79	4579	susedstvo	susedstva susedstve susedstvá susedstvách
+80	4580	kryt	krytoch krytom krytov krytu kryty
+81	4581	cent	centa cente centoch centom centov centu centy
+82	4582	nahor	
+83	4583	telocvičňa	telocvične telocvični telocvičňou telocvičňu
+84	4584	medzera	medzere medzerou medzeru medzery medzerám medzier
+85	4585	nadviazať	nadviazal nadviazala nadviazali nadviaž nadviaže nadviažem nadviažeme nadviažeš
+86	4586	ovládač	ovládača ovládače ovládači ovládačom ovládačov ovládaču
+87	4587	trhlina	trhlinami trhline trhlinou trhlinu trhliny trhlinách trhlín
+88	4588	požadovaný	požadovanej požadovaná požadované požadovaného požadovanú požadovaných
+89	4589	zožrať	zožer zožerie zožeriem zožerieme zožerieš zožerte zožerú zožral zožrala zožrali zožralo
+90	4590	krik	krikom kriku kriky
+91	4591	vernosť	vernosti vernosťou
+92	4592	narodený	narodená narodené narodeného narodených narodeným
+93	4593	dopyt	dopytom dopytu
+94	4594	dýchací	dýchacej dýchacia dýchacie dýchacieho dýchaciu dýchacích dýchacím dýchacími
+95	4595	historka	historiek historkami historke historkou historku historky historkách historkám
+96	4596	trávnik	trávnika trávnikom trávnikov trávniku trávniky
+97	4597	fungovanie	fungovania fungovaní
+98	4598	škála	škále škálou škálu škály
+99	4599	oravský	oravskej oravskom oravská oravské oravského oravských
+100	4600	dofrasa	

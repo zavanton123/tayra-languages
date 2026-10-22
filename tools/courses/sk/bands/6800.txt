@@ -1,0 +1,100 @@
+1	6701	národnostný	národnostnej národnostné národnostných
+2	6702	povedomý	povedomá povedomé povedomí
+3	6703	neprekážať	neprekáža neprekážaj neprekážajú neprekážal neprekážali neprekážalo neprekážam
+4	6704	vídať	vída vídal vídala vídali vídam vídame vídate vídaš
+5	6705	šajn	šajnu šajny
+6	6706	nespokojnosť	nespokojnosti nespokojnosťou
+7	6707	laserový	laserovej laserovou laserová laserové laserového laserovú laserových laserovým laserovými
+8	6708	reverend	reverendom reverendovi
+9	6709	kníhkupectvo	kníhkupectiev kníhkupectva kníhkupectve kníhkupectvom kníhkupectvách
+10	6710	relatívny	relatívna relatívnej relatívnom relatívnu
+11	6711	vyradený	vyradená vyradené vyradení vyradených
+12	6712	veniec	venca vencami vence vencom vencov
+13	6713	nástenný	nástenná nástenné nástennú nástenných
+14	6714	rozmanitosť	rozmanitosti rozmanitosťou
+15	6715	bankár	bankára bankári bankármi bankárom bankárov bankárovi
+16	6716	syntéza	syntéze syntézu syntézy
+17	6717	uverejnený	uverejnená uverejnené uverejnených
+18	6718	nadprirodzený	nadprirodzenej nadprirodzenom nadprirodzenou nadprirodzená nadprirodzené nadprirodzeného nadprirodzenú nadprirodzených nadprirodzeným nadprirodzenými
+19	6719	nebolieť	nebolela neboleli nebolelo nebolia nebolí
+20	6720	tis	
+21	6721	týždenník	týždenníka týždenníku
+22	6722	nakúpiť	nakúp nakúpi nakúpil nakúpila nakúpili nakúpim nakúpime nakúpiš
+23	6723	lakeť	lakte lakti lakťa lakťami lakťoch lakťom lakťov lakťová
+24	6724	nacistický	nacistickej nacistickom nacistická nacistické nacistického nacistickému nacistickí nacistickú nacistických nacistickým
+25	6725	zamestnaný	zamestnaná zamestnané zamestnanú zamestnaných
+26	6726	zasvätiť	zasvätil zasvätila zasvätili zasvätí zasvätím zasvätíme zasvätíte zasvätíš zasväť zasväťte
+27	6727	uhorka	uhoriek uhorkami uhorkou uhorkové uhorku uhorky uhry
+28	6728	poručíčka	poručíčke poručíčkou poručíčku poručíčky
+29	6729	tolerovať	toleroval tolerovala tolerovali toleruje tolerujem tolerujeme toleruješ tolerujú
+30	6730	rozvojový	rozvojovej rozvojová rozvojové rozvojových
+31	6731	pozhovárať	pozhovára pozhováraj pozhovárajme pozhovárajte pozhováral pozhovárala pozhovárali pozhováram pozhovárame
+32	6732	pribrať	priber priberie priberiem priberiete priberieš priberú pribral pribrala pribrali
+33	6733	úchvatný	úchvatnej úchvatná úchvatné úchvatného úchvatnú úchvatným
+34	6734	konkurenčný	konkurenčnej konkurenčnom konkurenčná konkurenčné konkurenčného konkurenčnú konkurenčných konkurenčným
+35	6735	ujasniť	ujasni ujasnil ujasnila ujasnili ujasnime ujasnite ujasní ujasním ujasníme
+36	6736	hurikán	hurikáne hurikánom hurikánov hurikánu hurikány
+37	6737	monitorovať	monitoroval monitorovala monitorovali monitoruj monitoruje monitorujem monitorujeme monitorujete monitorujte monitorujú
+38	6738	manna	mannu manny
+39	6739	apokalypsa	apokalypse apokalypsou apokalypsu apokalypsy apokalyptické apokalyptický
+40	6740	aktualizácia	aktualizácie aktualizácii aktualizáciu
+41	6741	vydieranie	vydierania vydieraniu vydieraní vydieraním
+42	6742	juhovýchodný	juhovýchodnej juhovýchodnom juhovýchodná juhovýchodné juhovýchodného juhovýchodnú
+43	6743	sada	sadou sadám sád
+44	6744	ekonómia	ekonómie ekonómii ekonómiu
+45	6745	povýšiť	povýši povýšia povýšil povýšila povýšili povýšim povýšime
+46	6746	dotácia	dotácie dotáciu dotáciách dotácií
+47	6747	odporca	odporcami odporcom odporcov odporcovia odporcu
+48	6748	senior	seniora seniori seniorom seniorov
+49	6749	škodlivý	škodlivá škodlivé škodlivého škodlivú škodlivých škodlivým škodlivými
+50	6750	gram	gramami gramoch gramov gramu gramy
+51	6751	poludnie	poludnia poludní poludním
+52	6752	kronika	kronike kroniku kroniky kronikách
+53	6753	zákazka	zákaziek zákazku zákazky zákazkách
+54	6754	štvorhra	štvorhre štvorhru štvorhry
+55	6755	protestovať	protestoval protestovala protestovali protestovalo protestuje protestujem protestujeme protestujete protestuješ protestujú
+56	6756	pobehovať	pobehoval pobehovala pobehovali pobehuje pobehujem pobehujete pobehuješ pobehujte pobehujú
+57	6757	šatka	šatiek šatkami šatke šatkou šatku šatky šatôčky
+58	6758	milosrdenstvo	milosrdenstva milosrdenstve milosrdenstvom milosrdenstvu
+59	6759	pokraj	pokraji
+60	6760	vytváraný	vytvárané vytváraní
+61	6761	uverejniť	uverejnia uverejnil uverejnila uverejnili uverejní uverejním
+62	6762	pôst	pôste pôstne pôstom pôstu
+63	6763	podrobiť	podrobia podrobil podrobila podrobili podrobte podrobí podrobím podrobíme podrobíte podrobíš
+64	6764	delo	dela delami delom delu delách
+65	6765	hovorievať	hovorieva hovorievajú hovorieval hovorievala hovorievali hovorievam hovorievame hovorievaš
+66	6766	kontaktný	kontaktnej kontaktnou kontaktná kontaktné kontaktnú kontaktných kontaktnými
+67	6767	uchádzač	uchádzača uchádzači uchádzačmi uchádzačom uchádzačov
+68	6768	palubný	palubnej palubnom palubná palubné palubného palubnú
+69	6769	žuvačka	žuvačiek žuvačke žuvačkou žuvačku žuvačky
+70	6770	upútať	upúta upútal upútala upútali upútalo
+71	6771	bledý	bledej bledo bledou bledá bledé bledého bledí bledú bledým bledými bledšia bledšie bledší
+72	6772	bezvýznamný	bezvýznamnej bezvýznamnom bezvýznamná bezvýznamné bezvýznamného bezvýznamní bezvýznamnú bezvýznamných bezvýznamným bezvýznamnými
+73	6773	vyfajčiť	vyfajč vyfajči vyfajčil vyfajčila vyfajčili vyfajčite vyfajčí vyfajčím vyfajčíte vyfajčíš
+74	6774	povýšený	povýšená povýšení
+75	6775	opakovanie	opakovania opakovaním
+76	6776	torpédo	torpéd torpéda torpédami torpédom
+77	6777	škorpión	škorpióna škorpiónmi škorpiónom škorpiónov škorpiónovi škorpióny
+78	6778	rozvinúť	rozvinie rozvinul rozvinula rozvinuli rozvinulo rozviňte
+79	6779	päťka	päťke päťkou päťku päťky
+80	6780	úlomok	úlomkami úlomkom úlomkov úlomku úlomky
+81	6781	rovnomenný	rovnomennej rovnomennom rovnomenného rovnomenným
+82	6782	španielčina	španielčine španielčinou španielčinu španielčiny
+83	6783	tvrdosť	tvrdosti tvrdosťou
+84	6784	nepríjemnosť	nepríjemnosti nepríjemnostiam nepríjemností nepríjemnosťami
+85	6785	uhorský	uhorského
+86	6786	podsvetie	podsvetia podsvetiu podsvetí podsvetím
+87	6787	príves	prívese prívesný prívesom prívesov prívesu prívesy
+88	6788	pochopiteľný	pochopiteľná pochopiteľné pochopiteľných
+89	6789	karate	
+90	6790	súhrn	súhrnom
+91	6791	energetika	energetike energetiku energetiky
+92	6792	bazilika	bazilike baziliku baziliky
+93	6793	prekvapujúci	prekvapujúca prekvapujúce prekvapujúceho prekvapujúcim prekvapujúcou prekvapujúcu
+94	6794	trápny	najtrápnejšia najtrápnejší najtrápnejších trápna trápneho trápnej trápnemu trápni trápnom trápnou trápnu trápnych trápnym trápnymi
+95	6795	zdobiť	zdobia zdobil zdobili zdobí
+96	6796	explodovať	explodoval explodovala explodovali explodovalo exploduj exploduje explodujem exploduješ explodujú
+97	6797	stredový	stredovej stredová stredové stredového stredovú stredovým
+98	6798	hluchý	hluchého hluchému hluchí hluchých hluchým
+99	6799	dlžný	dlžná dlžní
+100	6800	praktika	praktikami praktiky praktikách praktík

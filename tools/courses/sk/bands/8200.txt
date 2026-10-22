@@ -1,0 +1,100 @@
+1	8101	kakao	kakaa kakaom
+2	8102	funkčnosť	funkčnosti
+3	8103	kofeín	kofeíne kofeínom kofeínu
+4	8104	bezcenný	bezcennej bezcenná bezcenné bezcenného bezcenní bezcennú bezcenných
+5	8105	vystáť	vystál
+6	8106	neutekať	neutekaj neutekajte neutekajú neutekal neutekala neutekali neuteká neutekám neutekáme neutekáš
+7	8107	nepremýšľať	nepremýšľa nepremýšľaj nepremýšľajte nepremýšľajú nepremýšľal nepremýšľala nepremýšľali nepremýšľam nepremýšľate nepremýšľaš
+8	8108	ozdobný	ozdobná ozdobné ozdobných
+9	8109	sochár	sochára sochárom sochárov
+10	8110	milosrdný	milosrdnej milosrdná milosrdné milosrdného milosrdní milosrdnú milosrdných najmilosrdnejší
+11	8111	metalový	metalovej metalová metalové metalových
+12	8112	podávanie	podávania podávaní podávaním
+13	8113	sob	soba sobia sobie sobieho sobmi soboch sobom sobov soby sobí sobích
+14	8114	lojalita	lojalite lojalitou lojalitu lojality
+15	8115	poverenie	poverenia poverením
+16	8116	medza	medze medziach medzu medzí
+17	8117	pevnieť	pevnej
+18	8118	modifikácia	modifikácie modifikáciou modifikáciu modifikácií
+19	8119	prijateľný	prijateľnou prijateľná prijateľné prijateľnú prijateľných prijateľným
+20	8120	hosťovanie	hosťovania hosťovaní
+21	8121	naklonený	naklonená naklonené naklonení
+22	8122	náter	náterom náteru nátery
+23	8123	nepredávať	nepredáva nepredávaj nepredávajte nepredávajú nepredával nepredávala nepredávali nepredávam nepredávame nepredávate nepredávaš
+24	8124	hektár	hektára hektáre hektároch hektárov
+25	8125	hľadač	hľadača hľadači hľadačom hľadačov hľadačovi
+26	8126	poondiaty	poondiata poondiate poondiateho poondiatej poondiatemu poondiati poondiatom poondiatu poondiatych poondiatym
+27	8127	dutý	dutej dutou dutá duté dutého dutú dutých dutými
+28	8128	priekopník	priekopníci priekopníka priekopníkmi priekopníkom priekopníkov
+29	8129	rúrka	rúrkach rúrkami rúrke rúrkou rúrku rúrky rúrok
+30	8130	dvojiť	dvoj
+31	8131	podráždený	podráždená podráždené podráždení podráždených
+32	8132	vagón	vagóna vagóne vagónmi vagónoch vagónom vagónov vagónu vagóny
+33	8133	telekomunikačný	telekomunikačnej telekomunikačná telekomunikačné telekomunikačných
+34	8134	priehľadný	priehľadná priehľadné priehľadnú
+35	8135	strkať	strkajú strkal strkala strkali strká strkám strkáme strkáte strkáš
+36	8136	brandy	
+37	8137	overený	overená overené overeného overení overených
+38	8138	poznávanie	poznávania poznávaní
+39	8139	tragické	tragickom tragického tragickému
+40	8140	ambasáda	ambasáde ambasádou ambasádu ambasády
+41	8141	kajuta	kajute kajutu kajuty kajutách kajút
+42	8142	piano	piana piane pianom
+43	8143	poslušný	poslušná poslušné poslušného poslušní poslušnú poslušných poslušným poslušnými
+44	8144	penzia	penzie penzii penziou penziu
+45	8145	predajný	predajnej predajná predajné predajného predajnú predajných
+46	8146	donekonečna	
+47	8147	obľúbiť	obľúbi obľúbia obľúbil obľúbila obľúbili obľúbite obľúbiš
+48	8148	sadať	sadaj sadajte sadal sadali sadá sadáme sadáte sadáš
+49	8149	spolkový	spolkovej spolková spolkového
+50	8150	paleta	palete paletou paletu palety paliet
+51	8151	kotva	kotvou kotvu kotvy
+52	8152	kartička	kartičiek kartičkami kartičke kartičkou kartičku kartičky kartičkách
+53	8153	mrieť	mri mrú
+54	8154	chovateľ	chovatelia chovateľa chovateľom chovateľov
+55	8155	prívlastok	prívlastkom
+56	8156	schválne	
+57	8157	obklad	obkladom obklady
+58	8158	pohrať	pohraj pohrajte pohrajú pohral pohrala pohrali pohrá pohrám pohráme pohráš
+59	8159	rôzniť	rôzni rôznia
+60	8160	zadržiavať	zadržiava zadržiavajú zadržiaval zadržiavala zadržiavali zadržiavam zadržiavame zadržiavate zadržiavaš
+61	8161	obchvat	obchvate obchvatu
+62	8162	prísľub	prísľubom prísľubov prísľubu prísľuby
+63	8163	ušľachtilý	ušľachtilej ušľachtilejšia ušľachtilá ušľachtilé ušľachtilého ušľachtilí ušľachtilú ušľachtilých ušľachtilým
+64	8164	konzumovať	konzumovali konzumuje konzumujete konzumujú
+65	8165	konzultácia	konzultácie konzultácii konzultáciu konzultácií
+66	8166	maľovanie	maľovania maľovaniu maľovaním
+67	8167	striedavo	
+68	8168	karavan	karavane karavanoch karavanom karavanov karavanu karavany
+69	8169	pánsky	pánska pánske pánskeho pánskej pánskom pánsku pánskych
+70	8170	pochybný	pochybnej pochybnom pochybnou pochybná pochybné pochybného pochybnú pochybných pochybným pochybnými
+71	8171	úverový	úverovej úverová úverové úverového
+72	8172	zakrývať	zakrýva zakrývajú zakrýval zakrývala zakrývali zakrývam zakrývate zakrývaš
+73	8173	napovedať	napovedajú napovedal napovedalo napovedz napovedá napovie napoviem
+74	8174	pechota	pechote pechotou pechotu pechoty
+75	8175	slalom	slalome slalomu
+76	8176	nota	notami notu noty
+77	8177	zásobovať	zásoboval zásobovali zásobuje zásobujem zásobujete zásobujú
+78	8178	vnútornosti	vnútornostiach vnútorností vnútornosťami
+79	8179	liečiteľ	liečitelia liečiteľa liečiteľmi liečiteľom liečiteľov liečiteľovi
+80	8180	drvivý	drvivej drvivá drvivú
+81	8181	rizikový	riziková rizikové rizikového rizikovú rizikových rizikovým
+82	8182	kreslený	kreslenej kreslená kreslené kresleného kreslení kreslenú kreslených kresleným
+83	8183	zemepis	zemepisnej zemepisná zemepisné zemepisnú zemepisný zemepisných zemepisu
+84	8184	okrasný	okrasná okrasné okrasných
+85	8185	horolezec	horolezca horolezci horolezcov
+86	8186	uzamknúť	uzamkla uzamkli uzamklo uzamkne uzamkni uzamknite uzamknutie uzamknuté uzamknutý uzamknú uzamkol
+87	8187	telegram	telegrame telegramom telegramu telegramy
+88	8188	revolver	revolvera revolveri revolverom revolverov revolveru revolvery
+89	8189	žľab	žľabom žľabu žľaby
+90	8190	nedôvera	nedôvere nedôverou nedôveru nedôvery
+91	8191	obežný	obežnej obežnou obežné obežnú
+92	8192	záhuba	záhube záhubou záhubu záhuby
+93	8193	pavilón	pavilóne pavilónu
+94	8194	konferenčný	konferenčnej konferenčnom konferenčná konferenčné konferenčného konferenčnú
+95	8195	vlek	vlekov vleku vleky
+96	8196	nespravodlivosť	nespravodlivosti nespravodlivosťou
+97	8197	lub	lubom lubov
+98	8198	porezať	porezal porezala porezali porež poreže porežem porežete porežeš
+99	8199	striekačka	striekačiek striekačkami striekačke striekačkou striekačku striekačky
+100	8200	vrt	vrte vrtoch vrtochy vrtom vrtov vrtu vrty

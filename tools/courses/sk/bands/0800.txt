@@ -1,0 +1,100 @@
+1	701	niesť	dones donesie donesiem donesieme donesiete donesieš donesme doneste donesú doniesla doniesli donieslo doniesol doniesť nes nesený nesie nesiem nesieme nesiete nesieš nesme neste nesú nesúc nesúce nesúci niesla niesli nieslo niesol ponesie ponesiem ponesieme ponesiete ponesieš ponesú
+2	702	dolár	dolára doláre dolári dolármi dolároch dolárom dolárov doláru
+3	703	motor	motora motore motormi motoroch motorom motorov motoru motory
+4	704	tvorba	tvorbe tvorbou tvorbu tvorby
+5	705	dohoda	dohodami dohode dohodou dohodu dohody dohodách dohodám dohôd
+6	706	kontrola	kontrol kontrolami kontrole kontrolou kontrolu kontroly kontrolách kontrolám
+7	707	myseľ	mysle mysli mysliach myslí mysľami mysľou
+8	708	uvedený	uvedenej uvedenom uvedená uvedené uvedeného uvedenému uvedení uvedenú uvedených uvedeným uvedenými
+9	709	kraj	kraja kraje kraji krajoch krajom krajov krajského krajský kraju
+10	710	obyvateľ	obyvatelia obyvateľa obyvateľka obyvateľmi obyvateľoch obyvateľom obyvateľov
+11	711	krok	krokmi krokoch krokom krokov krokový kroku kroky krôčik krôčiku krôčiky
+12	712	stroj	stroja stroje stroji strojmi strojné strojný strojoch strojom strojov strojovo strojová strojové strojového strojový stroju strojček strojčeka strojčekom
+13	713	svadba	svadbami svadbe svadbou svadbu svadby svadbách svadieb svadobnej svadobnom svadobnou svadobná svadobné svadobného svadobnú svadobný svadobných svadobným svadobnými
+14	714	les	lesa lese lesmi lesný lesoch lesom lesov lesu lesy lesík lesíku
+15	715	celkový	celkovej celkovom celkovou celková celkové celkového celkovému celkovú celkových celkovým
+16	716	myšlienka	myšlienkach myšlienkam myšlienkami myšlienke myšlienkou myšlienkovom myšlienková myšlienkové myšlienkový myšlienkových myšlienku myšlienky myšlienok
+17	717	dosiahnuť	dosiahla dosiahli dosiahlo dosiahne dosiahnem dosiahneme dosiahnete dosiahneš dosiahni dosiahnite dosiahnu dosiahol
+18	718	dôkaz	dôkaze dôkazmi dôkazoch dôkazom dôkazov dôkazu dôkazy
+19	719	sľúbiť	sľubovať sľubujem sľúb sľúbené sľúbený sľúbi sľúbia sľúbil sľúbila sľúbili sľúbilo sľúbim sľúbime sľúbite sľúbiš sľúbme sľúbte
+20	720	nádherný	najnádhernejšia nádhernej nádhernom nádhernou nádherná nádherné nádherného nádhernému nádherní nádhernú nádherných nádherným nádhernými
+21	721	samotný	samotnej samotnom samotnou samotná samotné samotného samotnému samotní samotnú samotných samotným samotnými
+22	722	pridať	pridaj pridajme pridajte pridajú pridal pridala pridali pridalo pridá pridám pridáme pridáte pridáš
+23	723	mozog	mozgami mozgoch mozgom mozgov mozgovej mozgovom mozgovou mozgová mozgové mozgového mozgovú mozgový mozgových mozgovým mozgovými mozgu mozgy mozoček mozočku mozočky
+24	724	chytať	chytaj chytajte chytajú chytajúci chytal chytala chytali chytanie chytia chytili chytilo chytiť chytá chytám chytáme chytáte chytáš chytí chytím chytíme chytíte chytíš chyť chyťme chyťte
+25	725	nosiť	nosenia nosenie noseniu nosení nosením nosený nosia nosiac nosiaci nosil nosila nosili nosilo noste nosí nosím nosíme nosíte nosíš
+26	726	banka	bankami banke bankou bankovej bankovom banková bankové bankového bankovému bankoví bankovú bankový bankových bankovým bankovými banku banky bankách bankám bánk
+27	727	riaditeľ	riaditelia riaditeľa riaditeľka riaditeľke riaditeľkou riaditeľku riaditeľky riaditeľmi riaditeľom riaditeľov riaditeľovi riaditeľský
+28	728	výber	výbere výberom výberov výberové výberový výberu výbery
+29	729	zvýšiť	zvyšovať zvyšuje zvýš zvýšenia zvýšenie zvýšeniu zvýšená zvýšením zvýšený zvýši zvýšia zvýšil zvýšila zvýšili zvýšilo zvýšim zvýšime zvýšite zvýšiš zvýšme zvýšte
+30	730	pohľad	pohľade pohľadmi pohľadoch pohľadom pohľadov pohľadu pohľady
+31	731	tisíc	tisíca tisícami tisíce tisíci tisícich tisícimi tisícmi tisícoch tisícom tisícov tisícové tisícu
+32	732	pôsobiť	pôsobia pôsobil pôsobila pôsobili pôsobilo pôsobí pôsobím pôsobíme pôsobíte pôsobíš
+33	733	postava	postavami postave postavička postavičky postavou postavu postavy postavách postavám postáv
+34	734	kamoš	kamoša kamoši kamošiek kamoška kamoškami kamoške kamoško kamoškou kamošku kamošky kamoškám kamošmi kamošoch kamošom kamošov kamošovi
+35	735	učiteľ	učitelia učiteliek učiteľa učiteľka učiteľke učiteľkou učiteľku učiteľky učiteľmi učiteľoch učiteľom učiteľov učiteľovi učiteľskej učiteľská učiteľské učiteľského učiteľskú učiteľský
+36	736	nasledujúci	nasledujúca nasledujúce nasledujúceho nasledujúcej nasledujúcich nasledujúcim nasledujúcimi nasledujúcom nasledujúcou nasledujúcu
+37	737	choroba	chorobami chorobe chorobne chorobná chorobné chorobnú chorobný chorobou chorobu choroby chorobách chorobám chorôb
+38	738	určený	určenej určenom určenou určená určené určeného určení určenú určených určeným určenými
+39	739	teplý	najteplejšia najteplejšie tepla teple teplej teplejšia teplejšie teplejšiu teplejší teplejších teplo teplom teplou teplu teplá teplé teplého teplému teplí teplú teplých teplým teplými
+40	740	podpora	podporou podporu podpory
+41	741	iste	istejšie najistejšie
+42	742	pozícia	pozíciami pozície pozícii pozíciou pozíciu pozíciách pozíciám pozícií
+43	743	kúsok	kúska kúskami kúskoch kúskom kúskov kúsku kúsky
+44	744	živý	živej živo živom živou živá živé živého živému živí živú živých živým živými živšia živšie živší
+45	745	udalosť	udalosti udalostiach udalostiam udalostí udalosťami udalosťou
+46	746	najviac	
+47	747	zmiznúť	zmizla zmizli zmizlo zmizne zmiznem zmizneme zmiznete zmizneš zmizni zmiznime zmiznite zmiznú zmizol
+48	748	smieť	nesmel nesmela nesmeli nesmie nesmiem nesmieme nesmiete nesmieš nesmú smel smela smeli smelo smie smiem smieme smiete smieš smú
+49	749	priebeh	priebehom priebehu
+50	750	strom	stromami strome stromoch stromom stromov stromovej stromovom stromová stromové stromový stromových stromu stromy stromček stromčeka stromčekom stromčekov stromčeku stromčeky
+51	751	kamarát	kamaráta kamaráti kamarátmi kamarátoch kamarátom kamarátov kamarátovi
+52	752	zvláštny	najzvláštnejšia najzvláštnejšie najzvláštnejší najzvláštnejších zvláštna zvláštne zvláštneho zvláštnej zvláštnejšia zvláštnejšie zvláštnemu zvláštni zvláštnom zvláštnou zvláštnu zvláštnych zvláštnym zvláštnymi
+53	753	považovať	považoval považovala považovali považovalo považuj považuje považujem považujeme považujete považuješ považujme považujte považujú
+54	754	kostol	kostola kostole kostolnej kostolný kostoloch kostolom kostolov kostolu kostoly kostolík kostolíka
+55	755	univerzita	univerzitami univerzite univerzitnej univerzitnom univerzitná univerzitné univerzitného univerzitní univerzitnú univerzitný univerzitných univerzitným univerzitou univerzitu univerzity univerzitách univerzít
+56	756	klásť	kladenia kladenie kladené kladením kladený kladie kladiem kladieme kladiete kladieš kladú klaď klaďte kládla kládli kládol polož položia položil položila položili položilo položiť položme položte položí položím položíme položíte položíš
+57	757	následne	
+58	758	kultúra	kultúr kultúrach kultúram kultúrami kultúre kultúrou kultúru kultúry
+59	759	nemecký	nemeckej nemeckom nemeckou nemecky nemecká nemecké nemeckého nemeckému nemeckí nemeckú nemeckých nemeckým nemeckými
+60	760	mnoho	
+61	761	určitý	určitej určitom určitou určitá určité určitého určitému určití určitú určitých určitým určitými
+62	762	konať	konaj konajme konajte konajú konal konala konali konalo koná konám konáme konáte konáš
+63	763	klamať	klam klamal klamala klamali klamalo klamanie klamaný klame klamem klameme klamete klameš klamom klamte klamu klamú
+64	764	vydať	vydajme vydajte vydajú vydal vydala vydali vydalo vydá vydám vydáme vydáte vydáš
+65	765	slúžiť	slúž slúži slúžia slúžil slúžila slúžili slúžilo slúžim slúžime slúžite slúžiš slúžte
+66	766	moderný	moderne modernej modernejšie modernejší modernom modernou moderná moderné moderného modernému moderní modernú moderných moderným modernými najmodernejšia najmodernejšie najmodernejšiu najmodernejší najmodernejších
+67	767	vozidlo	vozidiel vozidla vozidlami vozidle vozidlom vozidlu vozidlá vozidlách vozidlám
+68	768	súčasnosť	súčasnosti súčasnosťou
+69	769	pokoj	pokoja pokoji pokojom pokojová pokojovú pokoju
+70	770	vývoj	vývoja vývoji vývojom vývoju
+71	771	súhlasiť	súhlasia súhlasil súhlasila súhlasili súhlasilo súhlasí súhlasím súhlasíme súhlasíte súhlasíš
+72	772	úspech	úspechmi úspechoch úspechom úspechov úspechu úspechy
+73	773	vzhľad	vzhľade vzhľadom vzhľadu
+74	774	postupne	
+75	775	teplota	teplotami teplote teplotou teplotu teploty teplotách teplotám teplôt
+76	776	technický	technickej technickom technickou technická technické technického technickému technickí technickú technických technickým technickými
+77	777	plocha	plochami ploche plochou plochu plochy plochách plôch
+78	778	bohatý	bohatej bohato bohatom bohatou bohatá bohaté bohatého bohatému bohatí bohatú bohatých bohatým bohatými bohatšia bohatšie bohatší bohatších bohatším bohatšími najbohatšej najbohatšia najbohatšie najbohatšieho najbohatšiu najbohatšou najbohatší najbohatších najbohatším
+79	779	rastlina	rastlinami rastline rastlinka rastlinky rastlinnej rastlinná rastlinné rastlinného rastlinnú rastlinný rastlinných rastlinným rastlinnými rastlinou rastlinu rastliny rastlinách rastlinám rastlín
+80	780	kamera	kamerami kamere kamerou kamerová kamerové kamerového kamerový kamerových kamerovým kameru kamery kamerách kamerám kamier
+81	781	dielo	diela dielach dielam dielami diele dielom dielu
+82	782	vnútorný	vnútornej vnútornom vnútornou vnútorná vnútorné vnútorného vnútornému vnútornú vnútorných vnútorným vnútornými
+83	783	doprava	doprave dopravou dopravu dopravy
+84	784	bezpečnosť	bezpečnosti bezpečnostné bezpečnostný bezpečnosťou
+85	785	výskum	výskume výskumné výskumný výskumoch výskumom výskumov výskumu výskumy
+86	786	západ	západe západnej západnom západnou západná západné západného západnému západní západnú západný západných západným západnými západom západov západu západy
+87	787	rýchly	najrýchlejšia najrýchlejšieho najrýchlejšiu najrýchlejšou najrýchlejší najrýchlejších najrýchlejším rýchla rýchle rýchleho rýchlej rýchlejšia rýchlejšieho rýchlejšiu rýchlejšom rýchlejší rýchlejších rýchlejším rýchlejšími rýchlemu rýchli rýchlom rýchlou rýchlu rýchlych rýchlym rýchlymi
+88	788	bývalý	bývalej bývalom bývalou bývalá bývalé bývalého bývalému bývalí bývalú bývalých bývalým bývalými
+89	789	pokúsiť	pokús pokúsi pokúsia pokúsil pokúsila pokúsili pokúsilo pokúsim pokúsime pokúsite pokúsiš pokúsme pokúste
+90	790	vadiť	nevadia nevadil nevadila nevadili nevadilo nevadí nevadím nevadíš vadia vadil vadila vadili vadilo vadí vadím
+91	791	policajt	policajta policajtami policajti policajtmi policajtoch policajtom policajtov policajtovi policajtská policajtské
+92	792	prijať	prijal prijala prijali prijalo prijme prijmem prijmeme prijmete prijmeš prijmi prijmime prijmite prijmú príjmem príjmeme príjmete príjmeš príjmi príjmite
+93	793	potrebný	potrebnej potrebnou potrebná potrebné potrebného potrební potrebnú potrebných potrebným potrebnými
+94	794	venovať	venoval venovala venovali venovalo venuj venuje venujem venujeme venujete venuješ venujme venujte venujú
+95	795	využívať	využíva využívaj využívajú využívajúc využíval využívala využívali využívalo využívam využívame využívate využívaš
+96	796	leto	leta lete letom letu letá liet
+97	797	študent	študenta študentami študenti študentiek študentka študentkami študentke študentkou študentku študentky študentmi študentoch študentom študentov študentovi študentské študentský
+98	798	stráviť	strávi strávia strávil strávila strávili strávilo strávim strávime strávite stráviš strávme strávte
+99	799	podobne	
+100	800	dátum	dát dáta dátach dátam dátami dáte dátumami dátume dátumom dátumov dátumu dátumy

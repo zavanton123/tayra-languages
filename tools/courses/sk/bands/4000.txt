@@ -1,0 +1,100 @@
+1	3901	dostatočná	dostatočnej dostatočnou dostatočné dostatočnú
+2	3902	nahrávať	nahráva nahrávaj nahrávajú nahrával nahrávala nahrávali nahrávalo nahrávam nahrávame nahrávate nahrávaš
+3	3903	pliesť	pletenie pletené pletený pleti pletie pletiem pletieme pletiete pletieš pletú pleť pleťou plietla plietli plietol upliesť uplietla
+4	3904	urážka	urážkam urážkami urážke urážkou urážku urážky urážok
+5	3905	zakladať	zakladajú zakladal zakladala zakladali zakladá zakladám zakladáme zakladáte zakladáš
+6	3906	gén	géne génmi génoch génom génov génu gény
+7	3907	rozpor	rozpore rozporov rozporu rozpory
+8	3908	pokyn	pokynmi pokynoch pokynom pokynov pokyny
+9	3909	hrobka	hrobiek hrobke hrobkou hrobku hrobky hrobkách
+10	3910	aliancia	aliancie aliancii alianciou alianciu
+11	3911	výrok	výrokmi výrokom výrokov výroku výroky
+12	3912	incident	incidente incidentoch incidentom incidentov incidentu incidenty
+13	3913	infraštruktúra	infraštruktúre infraštruktúrou infraštruktúru infraštruktúry
+14	3914	dutina	dutine dutinu dutiny dutinách dutín
+15	3915	vzájomne	
+16	3916	vylúčiť	vylúč vylúči vylúčia vylúčil vylúčila vylúčili vylúčilo vylúčim vylúčime vylúčite vylúčiš
+17	3917	tajomný	tajomnej tajomnom tajomnou tajomná tajomné tajomného tajomnému tajomní tajomnú tajomných tajomným tajomnými
+18	3918	životopis	životopise životopisom životopisov životopisu životopisy
+19	3919	nešťastie	nešťastia nešťastiu nešťastí nešťastím
+20	3920	inšpirovaný	inšpirovaná inšpirované inšpirovaní inšpirovaných
+21	3921	dodatočný	dodatočne dodatočnej dodatočná dodatočné dodatočného dodatočnú dodatočných dodatočným
+22	3922	nakopať	nakop nakopal nakopala nakopali nakopalo nakope nakopem nakopeme nakopete nakopeš nakopme nakopte nakopú
+23	3923	úradník	úradníci úradníka úradníkmi úradníkom
+24	3924	zvaný	zvanej zvanom zvanou zvaná zvané zvaného zvanému zvanú zvaných zvaným
+25	3925	stĺp	stĺpa stĺpe stĺpik stĺpiky stĺpmi stĺpoch stĺpom stĺpov stĺpu stĺpy
+26	3926	studňa	studne studni studnička studničky studní studňou studňu
+27	3927	prianie	priania prianiam prianiu prianí prianím
+28	3928	priznávať	priznáva priznávajú priznával priznávam priznávame priznávate priznávaš
+29	3929	zobrazený	zobrazená zobrazené zobrazení zobrazených
+30	3930	sendvič	sendviča sendviče sendviči sendvičmi sendvičoch sendvičom sendvičov sendvičový sendviču
+31	3931	pokladať	pokladaj pokladajte pokladajú pokladal pokladala pokladali pokladá pokladám pokladáme pokladáte pokladáš
+32	3932	vlhký	vlhka vlhkej vlhkejšie vlhko vlhkom vlhkou vlhku vlhká vlhké vlhkého vlhkú vlhkých vlhkým
+33	3933	ťažba	ťažbe ťažbou ťažbu ťažby
+34	3934	špecialista	špecialisti špecialistom špecialistov špecialistovi špecialistu
+35	3935	vdova	vdov vdovami vdove vdovou vdovu vdovy vdovách vdovám
+36	3936	zato	
+37	3937	lyžiar	lyžiari lyžiarka lyžiarom lyžiarov lyžiarske lyžiarsky
+38	3938	zastať	zastal zastala zastali zastalo zastane zastanem zastaneme zastaneš zastanú zastaň zastaňte zastáva zastávať
+39	3939	psychologický	psychologickej psychologickom psychologickou psychologická psychologické psychologického psychologickú psychologických psychologickým psychologickými
+40	3940	pracovňa	pracovne pracovni pracovňou pracovňu
+41	3941	samospráva	samospráv samospráve samosprávou samosprávu samosprávy
+42	3942	zvnútra	znútra
+43	3943	vytváranie	vytvárania vytváraniu vytváraním
+44	3944	podvodník	podvodníci podvodníka podvodníkmi podvodníkom podvodníkov podvodníkovi
+45	3945	osobitne	
+46	3946	tajomník	tajomníka tajomníkom tajomníkovi
+47	3947	profesionál	profesionála profesionáli profesionálmi profesionálom profesionálov
+48	3948	pruh	pruhmi pruhom pruhov pruhu pruhy
+49	3949	dominovať	dominoval dominovala dominovali dominuje dominujú dominujúci
+50	3950	baterka	bateriek baterkami baterkou baterku baterky
+51	3951	edícia	edície edícii edíciu edícií
+52	3952	val	vale valom valu valy
+53	3953	obhajoba	obhajobe obhajobou obhajobu obhajoby
+54	3954	súťažiť	súťažia súťažil súťažila súťažili súťažilo súťažím súťažíme súťažíte súťažíš
+55	3955	udeliť	udelia udelil udelila udelili udelilo udelí udelím udelíme udeľ
+56	3956	okrsok	okrskoch okrskom okrskov okrsku okrsky
+57	3957	kliatba	kliatbe kliatbou kliatbu kliatby
+58	3958	opätovne	
+59	3959	zoo	
+60	3960	kupola	kupole kupolou kupolu kupoly
+61	3961	námietka	námietkam námietku námietky námietok
+62	3962	prehľadať	prehľadaj prehľadajme prehľadajte prehľadajú prehľadal prehľadala prehľadali prehľadá prehľadám prehľadáme prehľadáte prehľadáš
+63	3963	rozchod	rozchode rozchodoch rozchodom rozchodov rozchodu rozchody
+64	3964	čiapka	čiapke čiapkou čiapku čiapky čiapok čiapočka čiapočkou čiapočku čiapočky
+65	3965	zhodiť	zhodia zhodil zhodila zhodili zhodilo zhodí zhodím zhodíme zhodíte zhodíš zhoď zhoďte
+66	3966	diaľkový	diaľkovej diaľkovom diaľková diaľkové diaľkového diaľkovému diaľkovú diaľkových diaľkovým diaľkovými
+67	3967	oznámenie	oznámenia oznámeniu oznámení oznámením
+68	3968	odpočinok	odpočinkom odpočinku
+69	3969	herný	hernej hernom herná herné herného herní hernú herných herným
+70	3970	plavba	plavbe plavbou plavbu plavby plavbách plavieb
+71	3971	porážka	porážke porážkou porážku porážky porážok
+72	3972	nasadenie	nasadenia nasadeniu nasadením
+73	3973	odpustenie	odpustenia odpusteniu odpustení odpustením
+74	3974	prenášať	prenáša prenášajú prenášal prenášala prenášali prenášam prenášame prenášate prenášaš
+75	3975	porušenie	porušenia porušeniu porušením
+76	3976	nadobudnúť	nadobudla nadobudli nadobudlo nadobudne nadobudnú nadobudol
+77	3977	obranca	obrancom obrancov obrancovia obrancu
+78	3978	konverzácia	konverzačné konverzácie konverzácii konverzáciou konverzáciu konverzáciách konverzácií
+79	3979	výzdoba	výzdobe výzdobou výzdobu výzdoby
+80	3980	ktorýkoľvek	ktorejkoľvek ktoromkoľvek ktoroukoľvek ktorákoľvek ktoréhokoľvek ktorékoľvek ktorémukoľvek ktorúkoľvek ktorýmkoľvek
+81	3981	usporiadať	usporiada usporiadajme usporiadajte usporiadajú usporiadal usporiadala usporiadali usporiadalo usporiadam usporiadame usporiadate
+82	3982	ďalekohľad	ďalekohľadmi ďalekohľadom ďalekohľadov ďalekohľadu ďalekohľady
+83	3983	pohorie	pohoria pohorí pohorím
+84	3984	popol	popola popole popolom popolu
+85	3985	dno	dnom
+86	3986	pokuta	pokutami pokute pokutou pokutového pokutový pokutu pokuty pokút
+87	3987	hľadieť	hľadel hľadela hľadeli hľadia hľadiac hľadí hľadím hľadíme hľadíte hľadíš hľaď hľaďte
+88	3988	núdza	núdze núdzi núdzu
+89	3989	potichu	potichšie
+90	3990	ochorieť	ochorejú ochorel ochorela ochoreli ochorelo ochorie ochoriem ochorieme ochoriete ochorieš
+91	3991	udelený	udelenej udelená udelené udelení udelených
+92	3992	kokot	kkt kokota kokote kokoti kokotko kokotoch kokotom kokotov kokotovi kokoty
+93	3993	uhm	
+94	3994	pristúpiť	pristúp pristúpi pristúpia pristúpil pristúpila pristúpili pristúpilo pristúpim pristúpime pristúpite pristúpiš pristúpme pristúpte
+95	3995	nevlastný	nevlastnej nevlastnom nevlastnou nevlastná nevlastné nevlastného nevlastnému nevlastní nevlastnú nevlastných nevlastným
+96	3996	ohrozenie	ohrozenia ohrozeniu ohrozením
+97	3997	hrací	hracej hracia hracie hracieho hraciu hracom hracích
+98	3998	partizán	partizána partizáni partizánmi partizánom partizánov partizánska partizánske partizánskeho partizánskej partizánskom partizánsky partizánskym
+99	3999	vidno	
+100	4000	päsť	päste pästi pästiach pästí päsťami päsťou

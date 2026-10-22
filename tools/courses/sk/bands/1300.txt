@@ -1,0 +1,100 @@
+1	1201	hosť	host hosti hostia hostiu hostí hosťa hosťami hosťoch hosťom hosťov hosťovi
+2	1202	rozmýšľať	rozmýšľa rozmýšľaj rozmýšľajme rozmýšľajte rozmýšľajú rozmýšľajúc rozmýšľal rozmýšľala rozmýšľali rozmýšľam rozmýšľame rozmýšľate rozmýšľaš
+3	1203	oddelenie	oddelenia oddeleniach oddeleniam oddeleniami oddeleniu oddelením
+4	1204	osud	osude osudmi osudoch osudom osudov osudu osudy
+5	1205	profesionálny	profesionálna profesionálne profesionálneho profesionálnej profesionálni profesionálnom profesionálnou profesionálnu profesionálnych profesionálnym profesionálnymi
+6	1206	dýchať	dýcha dýchaj dýchajte dýchajú dýchajúci dýchal dýchala dýchali dýchalo dýcham dýchame dýchania dýchanie dýchaniu dýchaní dýchaním dýchate dýchaš dýchni
+7	1207	úprava	úprav úpravami úprave úpravou úpravu úpravy úpravách úpravám
+8	1208	perfektný	perfektnej perfektnom perfektnou perfektná perfektné perfektného perfektnému perfektní perfektnú perfektných perfektným perfektnými
+9	1209	manželstvo	manželstiev manželstva manželstve manželstvom manželstvu manželstvá manželstvách manželstvám
+10	1210	nenávidieť	nenávidel nenávidela nenávideli nenávidia nenávidí nenávidím nenávidíme nenávidíte nenávidíš nenáviď nenáviďte
+11	1211	tvrdiť	tvrdia tvrdiac tvrdil tvrdila tvrdili tvrdilo tvrdím tvrdíme tvrdíte tvrdíš
+12	1212	teória	teoretické teoretický teóriami teórie teórii teóriou teóriu teóriách teóriám teórií
+13	1213	streda	stredajšie strede stredu stredy
+14	1214	ústa	úst ústach ústam ústami
+15	1215	občas	
+16	1216	bolieť	bolel bolela boleli bolelo bolenie bolia bolí
+17	1217	kapela	kapelami kapele kapelou kapelu kapely kapelách kapelám kapiel
+18	1218	trocha	troche trochou trochy
+19	1219	podať	podaj podajme podajte podajú podal podala podali podalo podá podám podáme podáte podáš
+20	1220	pokúšať	pokúša pokúšaj pokúšajte pokúšajú pokúšajúc pokúšal pokúšala pokúšali pokúšalo pokúšam pokúšame pokúšate pokúšaš
+21	1221	ekonomický	ekonomickej ekonomickom ekonomickou ekonomická ekonomické ekonomického ekonomickému ekonomickí ekonomickú ekonomických ekonomickým ekonomickými
+22	1222	výrazne	najvýraznejšie výraznejšie
+23	1223	víťaz	víťaza víťazi víťazka víťazkou víťazku víťazky víťazmi víťazom víťazov víťazovi
+24	1224	ujsť	uchádza uchádzal uchádzala uchádzali uchádzam uchádzame uchádzate uchádzaš uchádzať ujde ujdem ujdeme ujdete ujdeš ujdi ujdime ujdú ušiel ušla ušli ušlo
+25	1225	záležitosť	záležitosti záležitostiach záležitostiam záležitostí záležitosťami záležitosťou
+26	1226	organizovať	organizoval organizovala organizovali organizovalo organizovania organizovanie organizované organizovaním organizovaný organizuje organizujem organizujeme organizujete organizuješ organizujú zorganizoval zorganizovať
+27	1227	signál	signáli signálmi signáloch signálom signálov signálu signály
+28	1228	bystrica	bystrice bystrici bystricou bystricu
+29	1229	komisia	komisie komisii komisiou komisiu komisiách komisií
+30	1230	osem	ôsmi ôsmich ôsmim ôsmimi
+31	1231	koža	kožami kože koži kožka kožky kožné kožný kožou kožu koží
+32	1232	plyn	plyne plynmi plynné plynný plynoch plynom plynov plynový plynových plynu plyny
+33	1233	víťazstvo	víťazstiev víťazstva víťazstvami víťazstve víťazstvom víťazstvu víťazstvá víťazstvách víťazstvám
+34	1234	kedysi	
+35	1235	poschodie	poschodia poschodiach poschodiami poschodiu poschodovej poschodová poschodové poschodovú poschodový poschodí poschodím
+36	1236	aha	ahá
+37	1237	pôda	pôd pôdach pôde pôdne pôdou pôdu pôdy
+38	1238	kosť	kosti kostiach kostiam kostička kostičku kostičky kostnej kostný kostí kosťami kosťou kôstka kôstku kôstky
+39	1239	komunikácia	komunikácie komunikácii komunikáciou komunikáciu komunikáciách komunikácií
+40	1240	brána	bráne bránou bránu
+41	1241	variť	uvar uvaria uvaril uvarila uvarili uvariť uvarme uvarte uvarí uvarím uvaríme uvaríte uvaríš var vare varenia varenie vareniu varení varením varený varia varil varila varili varilo varoch varu vary varí varím varíme varíte varíš
+42	1242	priemer	priemere priemerom priemerov priemeru priemery
+43	1243	letisko	letiska letiskom letiskovej letiskový letisku letiská letiskách letísk
+44	1244	knižnica	knižnice knižnici knižniciach knižnicou knižnicu knižničný knižničných knižníc
+45	1245	povinnosť	povinnosti povinnostiach povinnostiam povinností povinnosťami povinnosťou
+46	1246	henry	henryho henrym henrymu
+47	1247	účastník	účastníci účastníka účastníkmi účastníkom účastníkov účastníkovi
+48	1248	vstúpiť	vstúp vstúpi vstúpia vstúpil vstúpila vstúpili vstúpilo vstúpim vstúpime vstúpite vstúpiš vstúpte
+49	1249	daň	dane dani daniach daniam daní daňami daňou daňovej daňovom daňovou daňová daňové daňového daňoví daňovú daňový daňových daňovým daňovými
+50	1250	dostupný	dostupnej dostupnejšie dostupnou dostupná dostupné dostupného dostupní dostupnú dostupných dostupným dostupnými
+51	1251	spomienka	spomienkach spomienkam spomienkami spomienke spomienkou spomienkové spomienkový spomienku spomienky spomienok
+52	1252	normálne	normálnejšie
+53	1253	pacient	pacienta pacientami pacienti pacientmi pacientoch pacientom
+54	1254	termín	termíne termínmi termínoch termínom termínov termínu termíny
+55	1255	čiže	
+56	1256	prebiehať	prebieha prebiehajú prebiehal prebiehala prebiehali prebiehalo
+57	1257	neurobiť	neurob neurobia neurobila neurobili neurobilo neurobme neurobte neurobí neurobím neurobíme neurobíte neurobíš
+58	1258	skúsenosť	skúsenosti skúsenostiach skúsenostiam skúseností skúsenosťami skúsenosťou
+59	1259	blázon	blázna bláznami blázni bláznoch bláznom bláznov bláznova bláznovi blázonko
+60	1260	vytiahnuť	vytiahla vytiahli vytiahlo vytiahne vytiahnem vytiahneme vytiahnete vytiahneš vytiahni vytiahnime vytiahnite vytiahnu vytiahnutie vytiahnutý vytiahol
+61	1261	blízkosť	blízkosti blízkosťou
+62	1262	dôstojník	dôstojníci dôstojníckej dôstojnícky dôstojníka dôstojníkmi dôstojníkoch dôstojníkom dôstojníkov dôstojníkovi dôstojníčka dôstojníčke dôstojníčkou dôstojníčku dôstojníčky
+63	1263	prirodzený	najprirodzenejšia prirodzenej prirodzenom prirodzenou prirodzená prirodzené prirodzeného prirodzenému prirodzení prirodzenú prirodzených prirodzeným prirodzenými
+64	1264	plánovať	plánoval plánovala plánovali plánovalo plánuje plánujem plánujeme plánujete plánuješ plánujú
+65	1265	pomer	pomere pomermi pomeroch pomerom pomerov pomeru pomery
+66	1266	pamäť	pamäte pamäti pamätiach pamätí pamäťou
+67	1267	padnúť	padla padli padlo padne padnem padneme padnete padneš padni padnite padnú padol
+68	1268	spojiť	spojil spojila spojili spojilo spojme spojte spojí spojím spojíme spojíte spojíš
+69	1269	daniel	daniela daniele danielom danielov danielovi danko
+70	1270	madam	
+71	1271	síce	
+72	1272	maximálny	maximálna maximálne maximálneho maximálnej maximálnom maximálnou maximálnu maximálnych maximálnym
+73	1273	poskytovať	poskytoval poskytovala poskytovali poskytovalo poskytuje poskytujem poskytujeme poskytujete poskytuješ poskytujú
+74	1274	vrece	vreca vrecami vreci vrecia vreciach vreciek vrecka vreckami vrecko vreckom vrecku vrecká vreckách vrecom vrecu vrecák vrecúška vrecúško vrecúšku vrecúšok vriec
+75	1275	severný	najsevernejšej severne severnej severnejšie severnom severnou severná severné severného severnému severní severnú severných severným severnými
+76	1276	smutný	najsmutnejšia najsmutnejšiu najsmutnejší najsmutnejších smutnej smutnejšia smutnejší smutno smutnom smutnou smutná smutné smutného smutnému smutní smutnú smutných smutným smutnými
+77	1277	ihneď	
+78	1278	strecha	strechami streche strechou strechu strechy strechách strešná strešný striech strieškou
+79	1279	zvyknúť	zvykla zvykli zvyklo zvykne zvyknem zvykneme zvyknete zvykneš zvykni zvyknite zvyknú zvykol
+80	1280	zámok	zámkami zámkoch zámkom zámkov zámku zámky zámockého zámocký
+81	1281	bezpečie	bezpečia bezpečiu bezpečí
+82	1282	plakať	plakal plakala plakali plakalo plakanie plač plače plačem plačeme plačete plačeš plači plačom plačte plaču plačú plačúc plačúca plačúce plačúceho plačúci plačúcich plačúcim plačúcu
+83	1283	preteky	pretekmi pretekoch pretekom pretekov
+84	1284	kvet	kvete kvetmi kvetná kvetoch kvetom kvetov kvetu kvety kvietok
+85	1285	ústav	ústave ústavného ústavný ústavoch ústavom ústavov ústavu ústavy
+86	1286	riadny	riadna riadne riadneho riadnej riadni riadnom riadnou riadnu riadnych riadnym riadnymi
+87	1287	tlač	tlače tlači tlačou tlačovej tlačová tlačové tlačového tlačovú tlačový tlačových tlačovým tlačí
+88	1288	obrana	obrane obranou obranu obrany
+89	1289	časopis	časopise časopismi časopisoch časopisom časopisov časopisu časopisy
+90	1290	kariéra	kariérami kariére kariérou kariéru kariéry
+91	1291	dar	dare darmi daroch darom darov daru dary
+92	1292	tradícia	tradíciami tradície tradícii tradíciou tradíciu tradíciách tradíciám tradícií
+93	1293	čau	
+94	1294	znak	znakmi znakoch znakom znakov znaku znaky
+95	1295	štvrtý	štvrtej štvrtom štvrtou štvrtá štvrté štvrtého štvrtí štvrtú štvrtým
+96	1296	gól	góle gólmi góloch gólom gólov gólový gólu góly
+97	1297	baňa	bane bani baniach banskej banský baní baňou baňu
+98	1298	oznámiť	oznám oznámi oznámia oznámil oznámila oznámili oznámilo oznámim oznámime oznámite oznámiš oznámte
+99	1299	presvedčiť	presvedč presvedčia presvedčil presvedčila presvedčili presvedčilo presvedčme presvedčte presvedčí presvedčím presvedčíme presvedčíte presvedčíš
+100	1300	spolupracovať	spolupracoval spolupracovala spolupracovali spolupracovalo spolupracuj spolupracuje spolupracujem spolupracujeme spolupracujete spolupracuješ spolupracujme spolupracujte spolupracujú
