@@ -17,4 +17,4 @@ split_sentences: ".!?。"
 word_chars: "\\uAC00-\\uD7A3\\u1100-\\u11FF\\u3130-\\u318F"
 right_to_left: false
 show_romanization: true
-parser_type: spacedel
+parser_type: korean
