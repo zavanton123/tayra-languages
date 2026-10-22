@@ -1,0 +1,206 @@
+{
+  "id": "ca-mini-2400",
+  "rankUpTo": 2400,
+  "level": "B2",
+  "title": "Ciència i tecnologia",
+  "description": "Ten short stories about science and technology in everyday life: a beach-cleaning robot, a school time capsule, a chess program, flood sensors on a stream, GPS collars on a herd, kitchen chemistry, a rock band's echo, a driverless taxi, an astronomy museum and drones over fruit farms.",
+  "topic": "Science and technology",
+  "names": [
+    "Arlet",
+    "Sergi",
+    "Universitat de Girona",
+    "Palamós",
+    "Barcelona",
+    "Mònica",
+    "Joel",
+    "Banyoles",
+    "Ramon",
+    "Jana",
+    "Solsona",
+    "Gualba",
+    "Montseny",
+    "Ferran",
+    "Lídia",
+    "Amadeu",
+    "Gisela",
+    "Andorra",
+    "Engolasters",
+    "Àlex",
+    "Natàlia",
+    "Castelló",
+    "Hèctor",
+    "Rita",
+    "Alcoi",
+    "Ferrús",
+    "Moussa",
+    "Senegal",
+    "Agnès",
+    "Casa de les Estrelles",
+    "Dénia",
+    "Mariona",
+    "Xile",
+    "Universitat d'Alacant",
+    "Enric",
+    "Ivet",
+    "Via Làctia",
+    "Eloi",
+    "Berta",
+    "Alpicat",
+    "Lleida"
+  ],
+  "lessons": [
+    {
+      "title": "El robot de la platja",
+      "summary": "Two engineering students from Girona build a robot that cleans plastic from the sand of Palamós beach and win first prize in a contest.",
+      "newWords": [
+        "enginyer",
+        "plàstic",
+        "sorra",
+        "netejar",
+        "innovador",
+        "competir",
+        "premiar",
+        "triomf",
+        "conjuntament"
+      ],
+      "text": "L'Arlet i en Sergi estudien a la Universitat de Girona. Tots dos volen ser enginyers. Cada estiu passen uns dies a Palamós, i cada estiu veuen el mateix problema: la platja és plena de plàstic. No són objectes grans, que la gent veu i recull, sinó trossos petits de plàstic amagats a la sorra.\n\nUn dia de setembre, mentre passegen per la platja, l'Arlet té una idea.\n\n«I si féssim un robot que netegés la sorra?», diu. «Un robot que separés el plàstic de la sorra sense fer mal a la platja.»\n\nEn Sergi pensa que és una idea molt bona. A més, la universitat organitza un concurs per a joves enginyers: els projectes més innovadors competiran a Barcelona al mes de maig. Decideixen fer el projecte conjuntament i presentar-lo al concurs.\n\nDurant l'hivern hi treballen moltes hores. L'Arlet dissenya la part mecànica: el robot agafa la sorra, la mou ben fort i la torna a deixar a terra, neta. En Sergi escriu el programa: amb una càmera, el robot reconeix els trossos de plàstic i els posa en una caixa. Segons els seus càlculs, en una hora podria netejar una platja petita.\n\nLa primera prova no va bé. El robot recull el plàstic, però també les pedres petites. En Sergi millora el programa, i a la segona prova el robot ja només recull el plàstic.\n\nAl maig, viatgen a Barcelona per competir. Hi ha vint equips, i alguns projectes són molt innovadors: un aparell que planta arbres, una aplicació que mesura la qualitat de l'aire... L'Arlet està preocupada. «Si ho haguéssim sabut, hauríem portat més fotos de la platja», diu.\n\nQuan els toca, expliquen el projecte conjuntament i fan una prova davant del jurat: el robot neteja una caixa de sorra plena de plàstic en dos minuts.\n\nA la tarda, el jurat anuncia els premis. El primer premi és per al robot de la platja! El jurat explica que ha volgut premiar un projecte innovador i útil alhora. A més, l'ajuntament de Palamós els demana que el robot netegi la platja aquest estiu.\n\nPer a l'Arlet i en Sergi, és un triomf. Però saben que el triomf no és només seu: sense l'ajuda dels seus professors, no ho haurien aconseguit.\n\n«El triomf de veritat», diu en Sergi, «serà una platja sense plàstic.»\n\nPreguntes:\nQuè volen ser l'Arlet i en Sergi?\nVolen ser enginyers.\nQuin problema veuen a la platja de Palamós?\nVeuen trossos petits de plàstic amagats a la sorra.\nQuè fa el robot?\nAgafa la sorra, en treu el plàstic i la torna a deixar a terra, neta.\nPer què la primera prova no va bé?\nPerquè el robot també recull les pedres petites.\nOn van a competir?\nVan a competir a Barcelona, al mes de maig.\nPer què el jurat vol premiar el seu projecte?\nPerquè és un projecte innovador i útil alhora."
+    },
+    {
+      "title": "La càpsula del temps",
+      "summary": "A sixth-grade class in Banyoles makes a time capsule with letters and a photo album and hides it underground beneath the old fig tree in the playground, to be opened in fifteen years.",
+      "newWords": [
+        "ocórrer",
+        "figuera",
+        "full",
+        "documentar",
+        "àlbum",
+        "fotogràfic",
+        "quinze"
+      ],
+      "text": "La Mònica és mestra de sisè en una escola de Banyoles. Aquest curs, els seus alumnes estudien com ha canviat la tecnologia en els últims cinquanta anys. Un dia, en Joel explica que el seu avi encara té a casa un telèfon amb fil i una càmera de fotos antiga.\n\n«I com sabran els nens del futur com vivim nosaltres?», pregunta la Mònica.\n\nLlavors a en Joel se li ocorre una idea. «Podríem fer una càpsula del temps!», diu. Ha vist en un reportatge que algunes escoles amaguen sota terra una caixa amb objectes i cartes, i l'obren molts anys després.\n\nA la Mònica li agrada molt. «Quina bona idea, Joel! Com se t'ha ocorregut?»\n\n«No ho sé», respon en Joel. «Se m'ha ocorregut mentre parlàvem del meu avi.»\n\nDecideixen amagar la càpsula al pati, sota la figuera. La figuera és l'arbre més vell de l'escola, i tothom l'estima: a l'estiu fa una ombra molt agradable.\n\nPrimer, cada alumne escriu una carta en un full de paper. Hi explica com és un dia de la seva vida: quin mòbil fa servir, quines aplicacions li agraden, quins vídeos mira. Un full per alumne, ni més ni menys. Després, la Mònica posa tots els fulls dins d'un sobre.\n\nTambé volen documentar l'escola tal com és avui. La Mònica proposa fer un àlbum fotogràfic. Durant una setmana, els alumnes fan fotos de les classes, del pati, dels ordinadors i, és clar, de la figuera. Després escullen les millors i les posen a l'àlbum, amb una frase al costat de cada foto. «Un àlbum fotogràfic és una bona manera de documentar el present», diu la Mònica.\n\nQuan obriran la càpsula? Decideixen que d'aquí a quinze anys. Llavors els alumnes en tindran vint-i-sis o vint-i-set.\n\n«D'aquí a quinze anys, potser ja no hi haurà mòbils», diu en Joel. «Potser els nostres fills riuran quan vegin les fotos!»\n\nL'últim dia de curs, tota l'escola surt al pati. Posen el sobre, l'àlbum i un mòbil vell en una caixa de metall ben tancada. Fan un forat sota la figuera i hi amaguen la caixa. Al costat, la Mònica hi posa una placa amb una frase: «No obrir fins al juny de 2041».\n\nPreguntes:\nQuè estudien aquest curs els alumnes de la Mònica?\nEstudien com ha canviat la tecnologia en els últims cinquanta anys.\nA qui se li ocorre la idea de la càpsula del temps?\nSe li ocorre a en Joel, mentre parlen del seu avi.\nOn amaguen la càpsula?\nL'amaguen al pati, sota la figuera.\nQuè escriu cada alumne en un full de paper?\nEscriu com és un dia de la seva vida.\nPer què fan un àlbum fotogràfic?\nPerquè volen documentar l'escola tal com és avui.\nQuan obriran la càpsula?\nL'obriran d'aquí a quinze anys, el juny de 2041."
+    },
+    {
+      "title": "L'avi i la màquina",
+      "summary": "Ramon, a chess player from Solsona, keeps losing to the computer program his granddaughter installs, until he trains with it every morning and wins the club championship.",
+      "newWords": [
+        "derrotar",
+        "odiar",
+        "mèrit",
+        "màgia",
+        "atribuir",
+        "afrontar",
+        "entrenar",
+        "cansat",
+        "descansar"
+      ],
+      "text": "En Ramon té setanta-dos anys i viu a Solsona. Fa cinquanta anys que juga als escacs, i al club de Solsona gairebé ningú no el pot derrotar. Cada dijous hi va a jugar amb els seus amics.\n\nUn diumenge, la seva néta, la Jana, li instal·la un programa d'escacs a l'ordinador.\n\n«Avi, aquest programa juga molt bé», li diu. «No crec que el puguis derrotar.»\n\nEn Ramon riu. «Una màquina no sap jugar de veritat», respon.\n\nJuga la primera partida, i al cap de mitja hora l'ordinador el derrota. En Ramon no s'ho creu. Juga una altra partida, i una altra, i les perd totes. Ell odia perdre; ho ha odiat tota la vida.\n\n«Aquesta màquina no té cap mèrit», diu, enfadat. «Només calcula. El mèrit és de les persones que l'han programada.»\n\nLa Jana li explica que el programa ha après jugant milions de partides contra ell mateix. «No és màgia, avi», diu. «Són matemàtiques.» Però per a en Ramon, una màquina que juga tan bé sembla cosa de màgia.\n\nDurant uns dies, en Ramon atribueix les partides perdudes a la mala sort, i ni tan sols vol mirar l'ordinador.\n\nAl final, decideix afrontar el problema. «Si no el puc derrotar, almenys n'aprendré», pensa. Cada matí s'entrena una hora amb el programa. Aviat descobreix que l'ordinador és també un bon professor: després de cada partida, li mostra els errors i li explica quina jugada hauria estat millor.\n\nEn Ramon s'adona d'una altra cosa: quan està cansat, s'equivoca molt més. Abans atribuïa els errors a la sort, però ara veu que no és així. Per això decideix entrenar-se només al matí, després d'haver descansat bé, i descansar sempre una estona entre partida i partida. Ja no juga mai cansat.\n\nDos mesos després, el club organitza el campionat de primavera. En Ramon afronta la final contra el campió de l'any passat, un noi jove molt bo. És una partida llarga, però al final en Ramon guanya.\n\n«Com t'has entrenat?», li pregunten els companys.\n\n«Amb un professor que no es cansa mai», respon.\n\nLa Jana està orgullosa del seu avi. «M'alegro que hagis après de la màquina», li diu.\n\nPreguntes:\nQuants anys fa que en Ramon juga als escacs?\nFa cinquanta anys que hi juga.\nQuè passa quan juga contra l'ordinador?\nL'ordinador el derrota a totes les partides.\nA què atribueix en Ramon les partides perdudes?\nLes atribueix a la mala sort.\nCom s'entrena en Ramon?\nS'entrena una hora cada matí amb el programa.\nPer què decideix jugar només al matí?\nPerquè quan està cansat s'equivoca més, i al matí ha descansat bé.\nQui guanya la final del campionat?\nLa guanya en Ramon."
+    },
+    {
+      "title": "Els sensors de la riera",
+      "summary": "In Gualba, at the foot of the Montseny, an engineer from an outside company puts water sensors along the stream, and a simple alert protocol warns the neighbours before the next storm.",
+      "newWords": [
+        "riera",
+        "torrent",
+        "extern",
+        "avall",
+        "localització",
+        "observació",
+        "dipòsit",
+        "protocol"
+      ],
+      "text": "Gualba és un poble petit als peus del Montseny. Pel mig del poble passa una riera. La major part de l'any, la riera porta molt poca aigua, i els nens hi juguen. Però quan plou molt, a la tardor, la riera es converteix en un torrent: l'aigua baixa de la muntanya amb molta força i s'emporta pedres i branques.\n\nFa tres anys, després d'una tempesta, l'aigua va sortir de la riera i va entrar a les cases més baixes. Des de llavors, l'ajuntament vol saber amb temps quan la riera creixerà.\n\nEn Ferran, el tècnic de l'ajuntament, ha contractat una empresa externa, especialista en aquests problemes. L'enginyera de l'empresa, la Lídia, arriba un matí de setembre amb una furgoneta plena d'aparells.\n\nPrimer, la Lídia i en Ferran pugen riera amunt fins a la font. Després baixen riera avall fins a l'última casa del poble. La Lídia busca els millors llocs per posar els sensors. Cada sensor mesura el nivell de l'aigua i envia les dades a un ordinador de l'ajuntament. Al mapa de l'ordinador, es veu la localització de cada sensor amb un punt vermell. Si un aparell deixa de funcionar, gràcies a la localització el tècnic el troba de seguida.\n\nLa Lídia també vol conèixer les observacions dels veïns. Una veïna gran li explica que, quan la riera es converteix en torrent, el primer senyal és el soroll: l'aigua sona com un tren. «Les observacions dels veïns són molt útils», diu la Lídia, i les apunta totes.\n\nL'últim aparell el posen al dipòsit d'aigua del poble, que és a dalt d'un turó. Si el dipòsit s'omple massa de pressa, vol dir que plou molt a la muntanya.\n\nDesprés preparen un protocol: si l'aigua arriba a un cert nivell, l'ajuntament envia un missatge a tots els mòbils del poble; si puja encara més, tanca el carrer que va riera avall. El protocol és senzill, i tothom el pot entendre.\n\nAl novembre arriba la primera tempesta forta. La riera torna a ser un torrent, però aquesta vegada els veïns reben el missatge una hora abans. Tenen temps de treure els cotxes del carrer de baix, i ningú no pateix cap problema.\n\n«Sense l'empresa externa no ho hauríem aconseguit», diu en Ferran. «Però sense les observacions dels veïns, tampoc.»\n\nPreguntes:\nCom és la riera de Gualba la major part de l'any?\nPorta molt poca aigua, i els nens hi juguen.\nQuè passa quan plou molt?\nLa riera es converteix en un torrent.\nQui és la Lídia?\nÉs l'enginyera d'una empresa externa.\nQuè mesura cada sensor?\nMesura el nivell de l'aigua i envia les dades a l'ajuntament.\nOn posen l'últim aparell?\nEl posen al dipòsit d'aigua del poble.\nQuè diu el protocol?\nQue si l'aigua arriba a un cert nivell, l'ajuntament envia un missatge a tots els mòbils del poble."
+    },
+    {
+      "title": "El ramat del llac",
+      "summary": "Amadeu, a goatherd in Andorra, works with a young biologist who puts GPS collars on his goats to learn which spots they graze, for a forest conservation project.",
+      "newWords": [
+        "pastor",
+        "llac",
+        "conservació",
+        "col·laborar",
+        "indret",
+        "batre",
+        "sostenir",
+        "pèl",
+        "aportació"
+      ],
+      "text": "L'Amadeu és pastor a Andorra. Té dues-centes cabres, i cada estiu les porta als boscos que envolten el llac d'Engolasters. Els animals mengen l'herba i les branques baixes, i així el bosc queda més net. A l'estiu, quan fa calor, un bosc net crema molt menys.\n\nUn dia de juny, una científica jove, la Gisela, puja a veure'l. Treballa en un projecte de conservació dels boscos i vol col·laborar amb ell.\n\n«Volem saber exactament per on van els animals», li explica. «Quins indrets prefereixen, quant de temps hi passen, què hi mengen.»\n\nL'Amadeu accepta col·laborar, però amb una condició: els animals no han de patir.\n\nLa Gisela porta deu collars, cadascun amb un aparell petit. L'aparell envia la posició de l'animal cada mitja hora. A més, compta quantes vegades bat el cor. Si el cor bat massa de pressa, vol dir que l'animal està nerviós o malalt.\n\nPosar els collars no és fàcil. L'Amadeu sosté cada animal entre els braços, i la Gisela li posa el collar al coll. Aquests animals tenen molt de pèl, i l'aparell ha de quedar per sota del pèl, ben a prop de la pell.\n\nDurant tot l'estiu, la Gisela rep les dades a l'ordinador. Descobreix que els animals prefereixen alguns indrets molt concrets: els llocs amb ombra a prop del llac i les zones on el bosc és més tancat. Són precisament els indrets on el risc de foc és més alt.\n\nA la tardor, la Gisela torna a pujar per explicar-li els resultats. L'Amadeu no se sorprèn gaire. «Ja t'ho hauria pogut dir jo», riu. Però li fa una pregunta: «I tot això, per a què servirà?»\n\nLa Gisela li explica que, gràcies a les dades, el servei de conservació podrà decidir on calen més animals i on menys. «La teva aportació ha estat molt important», li diu. «Sense pastors com tu, aquest projecte no hauria estat possible.» La Gisela sosté que, per a la conservació del bosc, els pastors són tan importants com els científics.\n\nL'Amadeu està content. Mai no havia pensat que la seva feina pogués ser una aportació a la ciència.\n\nPreguntes:\nQui és l'Amadeu?\nÉs un pastor d'Andorra que té dues-centes cabres.\nOn porta les cabres a l'estiu?\nLes porta als boscos que envolten el llac d'Engolasters.\nPer què la Gisela vol col·laborar amb l'Amadeu?\nPerquè treballa en un projecte de conservació dels boscos i vol saber per on van els animals.\nQuè compta l'aparell del collar?\nCompta quantes vegades bat el cor de l'animal.\nQuins indrets prefereixen els animals?\nPrefereixen els llocs amb ombra a prop del llac i les zones on el bosc és més tancat.\nQuè sosté la Gisela?\nSosté que els pastors són tan importants com els científics per a la conservació del bosc."
+    },
+    {
+      "title": "Química a la cuina",
+      "summary": "The night before his chemistry exam, Àlex does simple experiments in the kitchen with his mother, a science teacher, with a candle, a balloon on a bottle and a cake.",
+      "newWords": [
+        "examen",
+        "flama",
+        "apagar",
+        "compondre",
+        "ampolla",
+        "calent",
+        "explotar",
+        "noble",
+        "pastís"
+      ],
+      "text": "L'Àlex té dotze anys i viu a Castelló amb la seva mare, la Natàlia. Demà té un examen de ciències i està preocupat: no entén el tema de l'aire i el foc.\n\n«Has llegit el llibre?», li pregunta la Natàlia.\n\n«Sí, però no l'entenc», respon ell. «Odio aquest tema.»\n\nLa Natàlia és professora de química. «Tanca el llibre», diu. «Anem a la cuina. Prepararem l'examen d'una altra manera.»\n\nPrimer, encén una espelma i la posa sobre la taula. «Mira la flama», diu. «Per què creus que crema?» L'Àlex no ho sap. La Natàlia li explica que el foc necessita oxigen. Després la cobreix amb un got de vidre. Al cap d'uns segons, la flama es fa petita i s'apaga.\n\n«S'ha apagat perquè dins del got ja no queda oxigen», diu la Natàlia. «L'aire es compon sobretot de dos gasos, el nitrogen i l'oxigen, i el foc només fa servir l'oxigen.»\n\nDesprés agafa una ampolla buida i li posa un globus a la boca. Posa l'ampolla en aigua calenta. A poc a poc, el globus es fa més gran tot sol.\n\n«Per què passa?», pregunta l'Àlex.\n\n«Perquè l'aire calent ocupa més espai que l'aire fred», respon la Natàlia. «L'aire de dins de l'ampolla ha de sortir per algun lloc.»\n\nL'Àlex agafa un altre globus, l'omple d'aire i l'acosta a la flama. De cop, el globus explota. Tots dos fan un salt i després riuen.\n\n«Ha explotat per la calor de la flama», diu la Natàlia. «Els globus de les festes de vegades porten heli, que és un gas noble. Els gasos nobles gairebé no reaccionen amb res, i per això no cremen.»\n\nPer acabar, la Natàlia treu un pastís del forn. «Saps per què puja un pastís?», pregunta. «Dins de la massa hi ha petites bosses d'aire i de gas. Amb la calor es fan més grans, com el globus de l'ampolla, i el pastís puja.» Després es mengen el pastís, encara calent.\n\nL'endemà, l'examen va molt bé. A la sortida de l'escola, l'Àlex truca a la seva mare. «Hi havia una pregunta sobre la flama!», li diu. «Si no haguéssim fet les proves a la cuina, no l'hauria sabut contestar.»\n\nPreguntes:\nPer què està preocupat l'Àlex?\nPerquè demà té un examen i no entén el tema de l'aire i el foc.\nPer què s'apaga la flama?\nS'apaga perquè dins del got ja no queda oxigen.\nDe què es compon sobretot l'aire?\nL'aire es compon sobretot de dos gasos.\nPer què el globus de l'ampolla es fa més gran?\nPerquè l'aire calent ocupa més espai que l'aire fred.\nPer què els gasos nobles no cremen?\nPerquè gairebé no reaccionen amb res.\nCom va l'examen de l'Àlex?\nVa molt bé, gràcies a les proves de la cuina."
+    },
+    {
+      "title": "El ressò del local",
+      "summary": "Rita and Hèctor's rock band in Alcoi plays in a ground-floor room full of echo; what Rita learns in her sound class helps them fix both the echo and the noise that bothers the neighbour.",
+      "newWords": [
+        "rock",
+        "coral",
+        "cant",
+        "ressò",
+        "molestar",
+        "audiovisual",
+        "freqüència",
+        "còmode",
+        "solucionar"
+      ],
+      "text": "L'Hèctor i la Rita tenen un grup de rock a Alcoi amb dos amics més. L'Hèctor toca la guitarra i la Rita canta. Ella també canta en una coral des que era petita, i encara fa classes de cant cada dimarts. Diu que el cant de la coral i el rock són molt diferents: a la coral, totes les veus han de sonar juntes, com si fossin una sola veu; en un grup de rock, ella ha de cantar fort.\n\nEl grup toca en un local als baixos de la casa de l'Hèctor. El local és gran, però té un problema: hi ha molt de ressò. Quan toquen, el so torna de les parets i tot sona malament. A més, el soroll molesta els veïns. La senyora Ferrús, que viu a la casa del costat, ja els ha dit dues vegades que la música la molesta a l'hora de sopar.\n\nLa Rita estudia comunicació audiovisual a la universitat, i aquest curs fa classes sobre el so. Un dia en parla amb el seu professor.\n\n«El so es compon de moltes freqüències», li explica ell. «Les freqüències baixes, com les de la bateria, travessen les parets molt fàcilment; les altes, no tant. Per això la vostra veïna sent sobretot la bateria.»\n\n«I el ressò?», pregunta la Rita.\n\n«El ressò ve de les parets dures. Si les cobriu amb roba vella o amb matalassos, aquests materials absorbeixen el so en lloc de tornar-lo.»\n\nAquell cap de setmana, el grup decideix solucionar els dos problemes. Cobreixen les parets amb matalassos vells i roba que ningú no fa servir. L'Hèctor porta un sofà vell de casa dels seus avis. És molt còmode, i a més també absorbeix part del so.\n\nDesprés van a parlar amb la senyora Ferrús. Li proposen tocar només de cinc a vuit del vespre, mai a l'hora de sopar. Ella hi està d'acord.\n\nEl dissabte següent, el local sona d'una altra manera. El ressò ha desaparegut, i per primer cop senten bé cada instrument. Entre cançó i cançó, s'asseuen al sofà, que és el lloc més còmode del local.\n\nUns dies després, la senyora Ferrús els diu que amb prou feines els sent. «M'alegro que ho hàgiu solucionat», diu. «Potser vindré a un dels vostres concerts.»\n\nLa Rita fa un vídeo del grup amb els aparells del seu curs de comunicació audiovisual. El so és tan clar que el professor el posa com a exemple a classe.\n\nPreguntes:\nQuè fa la Rita al grup de rock?\nCanta.\nOn canta també la Rita des que era petita?\nCanta en una coral.\nQuins problemes té el local?\nTé molt de ressò, i el soroll molesta els veïns.\nPer què la veïna sent sobretot la bateria?\nPerquè les freqüències baixes travessen les parets molt fàcilment.\nCom solucionen el problema del ressò?\nCobreixen les parets amb matalassos vells i roba.\nQuè fa la Rita amb els aparells del seu curs?\nFa un vídeo del grup."
+    },
+    {
+      "title": "Un taxi sense conductor",
+      "summary": "Moussa, a Barcelona taxi driver who came from Senegal twenty years ago, sits in a driverless taxi during a test and tells the company what the car still does not understand.",
+      "newWords": [
+        "immigrant",
+        "taxi",
+        "involucrar",
+        "confondre",
+        "apartar",
+        "corredor",
+        "absolutament",
+        "relatiu"
+      ],
+      "text": "En Moussa va arribar a Barcelona des del Senegal fa vint anys. Com molts altres immigrants, al principi va fer feines molt diferents, fins que va treure la llicència de taxi. Ara fa quinze anys que condueix un taxi per la ciutat, i la coneix carrer per carrer.\n\nAquest any, una empresa de tecnologia prova a Barcelona un taxi sense conductor. L'empresa vol involucrar taxistes amb experiència en el projecte, i en Moussa n'és un. La seva feina és seure al seient del conductor sense tocar res, i agafar el volant només si hi ha un problema.\n\n«Per què us interessen els taxistes?», pregunta en Moussa el primer dia.\n\nL'Agnès, la responsable del projecte, li respon: «Perquè coneixeu la ciutat millor que ningú. Si no involucrem persones com vostè, el projecte no funcionarà.»\n\nEl primer viatge és pel centre. El taxi va a poc a poc i respecta tots els senyals. Al principi en Moussa està nerviós, però a poc a poc es relaxa.\n\nDe sobte, el cotxe frena fort. Al mig del carrer hi ha una bossa de plàstic que el vent mou d'un costat a l'altre. El cotxe confon la bossa amb una pedra i no vol avançar. En Moussa riu: «Un taxista no confondria mai una bossa amb una pedra!» Al final ha d'agafar el volant i apartar el cotxe una mica per poder passar.\n\nMés tard, un corredor creua el carrer sense mirar, amb els auriculars posats. Abans que en Moussa pugui fer res, el taxi ja s'ha aturat. El corredor ni tan sols se n'adona i continua corrent. «Això ho ha fet millor que jo», reconeix en Moussa.\n\nUna mica després, se sent una sirena. Una ambulància s'acosta per darrere. El taxi s'aparta cap a la dreta per deixar-la passar, sense cap dubte. En Moussa està absolutament sorprès.\n\nAl final del dia, l'Agnès li demana la seva opinió. En Moussa s'ho pensa una estona.\n\n«Tot és relatiu», diu. «El cotxe veu més coses que jo, i és absolutament prudent. Però no entén la ciutat. No sap que una bossa no fa mal, ni que aquell corredor passa per aquí cada matí i sempre creua sense mirar.»\n\nL'Agnès ho apunta tot. Abans de començar, l'empresa li havia dit que el cotxe ho veuria tot i que no necessitaria ningú. Ara ella reconeix que no era veritat. «Aquestes observacions són exactament el que necessitem», diu.\n\nPreguntes:\nD'on va venir en Moussa?\nVa venir del Senegal fa vint anys, com molts altres immigrants.\nPer què l'empresa vol involucrar taxistes en el projecte?\nPerquè els taxistes coneixen la ciutat millor que ningú.\nPer què el cotxe frena al mig del carrer?\nPerquè confon una bossa de plàstic amb una pedra.\nQuè fa el taxi quan s'acosta l'ambulància?\nS'aparta cap a la dreta per deixar-la passar.\nQuè vol dir en Moussa quan diu que tot és relatiu?\nVol dir que el cotxe veu més coses que ell, però no entén la ciutat."
+    },
+    {
+      "title": "L'ambaixadora de les estrelles",
+      "summary": "At the opening of a small astronomy museum in Dénia, the astronomer Mariona, its new ambassador, answers a nine-year-old's questions, and her father buys her a book on the guest's recommendation.",
+      "newWords": [
+        "inauguració",
+        "anteriorment",
+        "ambaixador",
+        "apreciar",
+        "atractiu",
+        "llibreria",
+        "recomanació",
+        "regalar"
+      ],
+      "text": "Dissabte és la inauguració de la Casa de les Estrelles, un petit museu d'astronomia a Dénia. El museu té una sala amb una gran pantalla rodona al sostre, on es veu el cel de nit, i una terrassa amb telescopis.\n\nPer a la inauguració, el museu ha convidat la Mariona, una astrònoma de Dénia. Anteriorment havia treballat deu anys en un observatori de Xile, enmig del desert, on el cel és dels més clars del món. Ara treballa a la Universitat d'Alacant, i el museu l'ha nomenada ambaixadora seva: durant tot l'any visitarà escoles i farà xerrades sobre el cel.\n\nEn Enric hi va amb la seva filla, l'Ivet, que té nou anys i vol ser astronauta. La sala és plena. La Mariona parla de les estrelles amb paraules senzilles, i fins i tot els nens l'entenen.\n\n«Per què a Dénia veiem tan poques estrelles?», pregunta l'Ivet.\n\n«Per la llum de la ciutat», respon la Mariona. «Si volem apreciar el cel de veritat, hem d'anar lluny dels carrers. Al desert de Xile, cada nit podia apreciar milers d'estrelles. Anteriorment, la gent les veia des de qualsevol poble; avui, molts nens no han vist mai la Via Làctia.»\n\nLa Mariona explica que el museu vol que la ciència sigui atractiva per als nens. «No hi ha res més atractiu que una pregunta sense resposta», diu.\n\nDesprés de la xerrada, en Enric i l'Ivet entren a la llibreria del museu. L'Ivet ho vol tot: llibres, mapes, postals. En Enric veu la Mariona a la llibreria i li demana una recomanació.\n\n«La meva recomanació és aquest llibre», diu ella. És un llibre amb mapes del cel per a nens. «I una altra recomanació: hi ha una aplicació gratuïta que et diu el nom de cada estrella quan apuntes el mòbil al cel.»\n\nEn Enric regala el llibre a l'Ivet, i la Mariona el signa: «Per a l'Ivet, futura astronauta».\n\nAquella nit, la terrassa s'obre al públic. L'Ivet mira per un telescopi i veu la Lluna tan a prop que sembla que la pot tocar. «No m'ho hauria cregut si no ho hagués vist!», diu.\n\n«Al desert, la Mariona veia un cel com aquest cada nit», li diu en Enric. «Com a ambaixadora del museu, vindrà a la teva escola al març. Li podràs fer totes les preguntes que vulguis.»\n\nPreguntes:\nQuè se celebra dissabte a Dénia?\nLa inauguració de la Casa de les Estrelles, un petit museu d'astronomia.\nOn havia treballat anteriorment la Mariona?\nHavia treballat deu anys en un observatori de Xile.\nQuè farà la Mariona com a ambaixadora del museu?\nVisitarà escoles i farà xerrades sobre el cel.\nPer què a Dénia es veuen tan poques estrelles?\nPer la llum de la ciutat.\nQuina recomanació li fa la Mariona a en Enric?\nLi recomana un llibre amb mapes del cel per a nens.\nQuè li regala en Enric a l'Ivet?\nLi regala el llibre que li ha recomanat la Mariona."
+    },
+    {
+      "title": "Una aliança a Alpicat",
+      "summary": "Eloi, whose young company uses drones to watch fruit trees, negotiates with Berta, the coordinator of a fruit cooperative near Lleida, and after a free summer trial they sign a five-year alliance.",
+      "newWords": [
+        "explotació",
+        "coordinador",
+        "negociar",
+        "aliança",
+        "aliat",
+        "essencial",
+        "imprescindible"
+      ],
+      "text": "L'Eloi va créixer en una explotació de fruita a Alpicat, a prop de Lleida. De petit ajudava els seus pares als camps cada estiu. Ara té trenta anys i és el fundador d'una empresa jove que fa servir drons amb càmeres per vigilar els camps. Les càmeres veuen les malalties dels arbres abans que el pagès les vegi.\n\nLa tecnologia funciona, però l'Eloi té un problema: li falten clients. Els pagesos no el coneixen i no creuen gaire en les novetats.\n\nUn dia truca a la Berta, la coordinadora d'una cooperativa d'Alpicat. La cooperativa té cent vint socis, i cada soci té la seva explotació. Si la cooperativa acceptés el projecte, l'Eloi tindria cent vint clients alhora.\n\nLa Berta l'escolta amb interès. Com a coordinadora, coneix bé els problemes dels socis: cada any perden fruita per culpa de les malalties, i sovint se n'adonen massa tard. Però també sap que molts socis no podrien pagar un servei car.\n\nComencen a negociar. L'Eloi vol que cada explotació pagui una quantitat cada mes. La Berta vol un preu més baix i una prova gratuïta abans de decidir res. Negocien durant tres setmanes. Al final, arriben a un acord: l'empresa farà una prova gratuïta en deu explotacions durant un estiu; si funciona, tots els socis tindran el servei, a un preu especial.\n\nAquell estiu, els aparells volen per sobre dels camps cada setmana. Els resultats són bons: en dues explotacions descobreixen una malaltia a temps, i els pagesos salven els arbres.\n\nA la tardor, la cooperativa i l'empresa de l'Eloi signen una aliança per a cinc anys. Per a l'Eloi, la cooperativa és un aliat essencial, perquè li dona la confiança dels pagesos. Per a la Berta, l'empresa també és un aliat, perquè li dona una tecnologia que els socis sols no podrien pagar.\n\n«Els aparells són útils», diu la Berta el dia que signen l'aliança, «però el que és imprescindible és la confiança. Sense negociar amb paciència, no hi hauríem arribat.»\n\nL'Eloi hi està d'acord. «Per a una empresa petita, una aliança com aquesta és essencial. La tecnologia és imprescindible, però amb la tecnologia sola no n'hi ha prou.»\n\nPreguntes:\nOn va créixer l'Eloi?\nVa créixer en una explotació de fruita a Alpicat.\nQuin problema té l'empresa de l'Eloi?\nLi falten clients, perquè els pagesos no el coneixen.\nQui és la Berta?\nÉs la coordinadora d'una cooperativa d'Alpicat.\nQuè vol la Berta quan comencen a negociar?\nVol un preu més baix i una prova gratuïta.\nQuè passa durant la prova?\nEn dues explotacions descobreixen una malaltia a temps.\nPer què la cooperativa és un aliat essencial per a l'Eloi?\nPerquè li dona la confiança dels pagesos."
+    }
+  ]
+}
