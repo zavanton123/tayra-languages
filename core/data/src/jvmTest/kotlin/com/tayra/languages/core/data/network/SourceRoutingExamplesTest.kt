@@ -11,6 +11,7 @@ import com.tayra.languages.core.domain.service.ExampleSourceFeatures
 import kotlinx.coroutines.test.runTest
 import kotlin.test.Test
 import kotlin.test.assertEquals
+import kotlin.test.assertTrue
 
 class SourceRoutingExamplesTest {
 
@@ -48,5 +49,17 @@ class SourceRoutingExamplesTest {
         assertEquals(listOf(ExampleSource.TATOEBA), router.sources(language).map { it.source })
         assertEquals(ExampleSearchResult.EMPTY, router.search(ExampleSearchQuery("casa", language, "en", source = ExampleSource.LEIPZIG)))
         assertEquals(ExampleSearchResult.EMPTY, router.nextPage("${LEIPZIG_PAGE_PREFIX}{}", "en"))
+    }
+
+    @Test
+    fun aSourceThatThrowsGivesAFailure() = runTest {
+        val broken = object : ExampleSentencesProvider {
+            override suspend fun search(query: ExampleSearchQuery): ExampleSearchResult = error("broken")
+            override suspend fun nextPage(nextPage: String, targetLanguage: String): ExampleSearchResult = error("broken")
+        }
+        val router = SourceRoutingExamples(Named("tatoeba", listOf(ExampleSourceFeatures.TATOEBA)), broken, broken)
+        assertTrue(router.search(ExampleSearchQuery("casa", language, "en", source = ExampleSource.LEIPZIG)).failed)
+        assertTrue(router.nextPage("${COURSES_PAGE_PREFIX}4", "en").failed)
+        assertEquals("tatoeba", router.search(ExampleSearchQuery("casa", language, "en")).sentences.single().text)
     }
 }

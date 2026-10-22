@@ -15,6 +15,8 @@ import com.tayra.languages.core.domain.service.ExampleSort
 import com.tayra.languages.core.domain.service.ExampleSource
 import com.tayra.languages.core.domain.service.ExampleSourceFeatures
 import com.tayra.languages.core.domain.service.LexiconService
+import com.tayra.languages.core.domain.service.failedOnError
+import kotlin.coroutines.cancellation.CancellationException
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
 import kotlin.random.Random
@@ -64,10 +66,20 @@ class CourseExamplesProvider(
 
     override suspend fun sources(language: Language): List<ExampleSourceFeatures> {
         val code = LanguageCodes.codeFor(language.name) ?: return emptyList()
-        return if (runCatching { courses.courseIds(code) }.getOrDefault(emptySet()).isNotEmpty()) listOf(FEATURES) else emptyList()
+        val ids = try {
+            courses.courseIds(code)
+        } catch (e: CancellationException) {
+            throw e
+        } catch (e: Exception) {
+            emptySet()
+        }
+        return if (ids.isNotEmpty()) listOf(FEATURES) else emptyList()
     }
 
-    override suspend fun search(query: ExampleSearchQuery): ExampleSearchResult {
+    // A course that cannot be read fails the search rather than finding nothing.
+    override suspend fun search(query: ExampleSearchQuery): ExampleSearchResult = failedOnError { find(query) }
+
+    private suspend fun find(query: ExampleSearchQuery): ExampleSearchResult {
         val language = query.language
         val text = query.text.replace(ZWS_STRING, "").trim()
         if (text.isEmpty()) return ExampleSearchResult.EMPTY
@@ -77,8 +89,9 @@ class CourseExamplesProvider(
         return page(Search(language.id, needles, query.sort, query.minWords, query.maxWords, query.limit, seeds()))
     }
 
-    override suspend fun nextPage(nextPage: String, targetLanguage: String): ExampleSearchResult =
+    override suspend fun nextPage(nextPage: String, targetLanguage: String): ExampleSearchResult = failedOnError {
         lock.withLock { searches[nextPage] }?.let { page(it) } ?: ExampleSearchResult.EMPTY
+    }
 
     private suspend fun page(search: Search): ExampleSearchResult {
         val language = lock.withLock { languages[search.languageId] } ?: return ExampleSearchResult.EMPTY
@@ -111,7 +124,7 @@ class CourseExamplesProvider(
     /** The language's sentences, made on first use and again after a pack was installed or removed. */
     private suspend fun index(language: Language): Index? {
         val code = LanguageCodes.codeFor(language.name) ?: return null
-        val ids = runCatching { courses.courseIds(code) }.getOrDefault(emptySet())
+        val ids = courses.courseIds(code)
         if (ids.isEmpty()) return null
         lock.withLock {
             languages[language.id] = language
@@ -119,7 +132,7 @@ class CourseExamplesProvider(
         }
         lexicons?.prepare(language)
         val sentences = buildList {
-            for (course in runCatching { courses.courses(code) }.getOrDefault(emptyList())) {
+            for (course in courses.courses(code)) {
                 for (lesson in course.lessons) {
                     val ref = ExampleLesson(course.id, lesson.id, course.title, lesson.title)
                     language.parseTokens(lesson.text).groupBy { it.sentenceNumber }.values.forEach { tokens ->
@@ -142,12 +155,16 @@ class CourseExamplesProvider(
     /** The forms saved for the term, and for the term it is a form of, as the reader links them. */
     private suspend fun forms(text: String, language: Language): List<String> {
         val repository = terms ?: return emptyList()
-        return runCatching {
+        return try {
             val term = repository.findByTextLc(language.id, language.lowercase(text)) ?: return emptyList()
             val parents = repository.parents(term.id)
             (repository.children(term.id) + parents + parents.flatMap { repository.children(it.id) })
                 .map { it.text.replace(ZWS_STRING, "") }
-        }.getOrDefault(emptyList())
+        } catch (e: CancellationException) {
+            throw e
+        } catch (e: Exception) {
+            emptyList()
+        }
     }
 
     private fun matches(words: List<String>, needle: List<String>, language: Language): Boolean {

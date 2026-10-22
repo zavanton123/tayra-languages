@@ -21,6 +21,7 @@ import kotlinx.serialization.json.putJsonObject
 import kotlin.random.Random
 import kotlin.test.Test
 import kotlin.test.assertEquals
+import kotlin.test.assertFalse
 import kotlin.test.assertNull
 import kotlin.test.assertTrue
 
@@ -33,6 +34,8 @@ class LeipzigExamplesProviderTest {
     /** A corpus whose words have the given sentences, served as the service does: 404 for an unknown word or past the end. */
     private class FakeService(private val sentences: Map<String, List<String>>, private val corpora: String) {
         val requests = mutableListOf<HttpRequestData>()
+        /** Whether sentences are answered with a server error. */
+        var down = false
 
         val paths: List<String> get() = requests.map { it.url.encodedPath }
 
@@ -40,6 +43,7 @@ class LeipzigExamplesProviderTest {
             requests += request
             val path = request.url.encodedPath
             if (path.endsWith("/corpora")) return scope.json(corpora)
+            if (down) return scope.respond("", HttpStatusCode.ServiceUnavailable)
             val word = request.url.segments.last()
             val all = sentences[word] ?: return scope.respond("", HttpStatusCode.NotFound)
             val offset = request.url.parameters["offset"]?.toInt() ?: 0
@@ -171,6 +175,23 @@ class LeipzigExamplesProviderTest {
         }
         assertEquals(sentences.filter { LeipzigExamplesProvider.wordCount(it) <= 2 }.toSet(), seen.toSet())
         assertEquals(seen.size, seen.toSet().size)
+    }
+
+    @Test
+    fun aServiceThatFailsIsAFailureNotAnEmptyPage() = runTest {
+        val service = FakeService(mapOf("casa" to (0 until 30).map { "Frase $it com casa." }), resource("corpora.json"))
+        val provider = provider(service)
+        service.down = true
+        assertTrue(provider.search(query("casa")).failed)
+        service.down = false
+        val first = provider.search(query("casa", limit = 10))
+        val random = provider.search(query("casa", sort = ExampleSort.RANDOM, limit = 5))
+        assertFalse(first.failed)
+        service.down = true
+        assertTrue(provider.nextPage(first.nextPage!!, "en").failed)
+        assertTrue(provider.nextPage(random.nextPage!!, "en").failed)
+        service.down = false
+        assertEquals(10, provider.nextPage(first.nextPage!!, "en").sentences.size, "the same page comes once the service is back")
     }
 
     @Test

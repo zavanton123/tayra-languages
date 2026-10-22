@@ -142,4 +142,16 @@ class CourseExamplesTest {
         assertEquals(emptyList(), provider.search(query("casa", portuguese)).sentences)
         assertEquals(emptyList(), provider.sources(portuguese))
     }
+
+    @Test
+    fun coursesThatCannotBeReadFailTheSearch() = runTest {
+        val portuguese = language("Portuguese")
+        val broken = object : SampleCourseSource {
+            override suspend fun courses(languageCode: String): List<Course> = error("unreadable pack")
+            override suspend fun courseIds(languageCode: String) = setOf("a")
+        }
+        val provider = CourseExamplesProvider(broken, terms)
+        assertTrue(provider.search(query("casa", portuguese)).failed)
+        assertEquals(listOf(ExampleSource.COURSES), provider.sources(portuguese).map { it.source })
+    }
 }

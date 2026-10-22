@@ -128,6 +128,12 @@ class ChineseScriptTest {
         assertEquals(listOf("我的頭髮很長。" to "My hair is long."), first.sentences.map { it.text to it.translation })
         assertEquals(listOf("頭髮"), examples.nextPage("page-2", "en").sentences.map { it.text }, "the next page too")
         assertEquals(listOf("我的头发很长。"), examples.search(ExampleSearchQuery("头发", mandarin, "en")).sentences.map { it.text }, "as written without a script")
+
+        val down = object : ExampleSentencesProvider {
+            override suspend fun search(query: ExampleSearchQuery) = ExampleSearchResult.FAILED
+            override suspend fun nextPage(nextPage: String, targetLanguage: String) = ExampleSearchResult.FAILED
+        }
+        assertEquals(ExampleSearchResult.FAILED, ChineseScriptExamples(down).search(ExampleSearchQuery("頭髮", mandarin.copy(chineseScript = ChineseScript.TRADITIONAL), "en")), "a failure stays one")
     }
 
     @Test

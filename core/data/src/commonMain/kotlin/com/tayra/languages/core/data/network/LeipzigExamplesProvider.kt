@@ -71,9 +71,10 @@ class LeipzigExamplesProvider(
     override suspend fun search(query: ExampleSearchQuery): ExampleSearchResult {
         val word = query.text.replace(ZWS_STRING, "").trim()
         if (word.isEmpty() || word.any { it.isWhitespace() }) return ExampleSearchResult.EMPTY
-        val corpus = corpusFor(query.language) ?: return ExampleSearchResult.EMPTY
+        val code = LanguageCodes.tatoebaCodeFor(query.language.name) ?: return ExampleSearchResult.EMPTY
+        val corpus = chooseCorpus(corpora() ?: return ExampleSearchResult.FAILED, code) ?: return ExampleSearchResult.EMPTY
         val chunk = chunkSize(query.limit, query.minWords, query.maxWords)
-        val first = sentences(corpus, word, 0, chunk) ?: return ExampleSearchResult.EMPTY
+        val first = sentences(corpus, word, 0, chunk) ?: return ExampleSearchResult.FAILED
         val prefetched = mutableMapOf(word to first)
         // The service matches case exactly: a word that starts sentences (or a German noun typed in lower case) is also looked up in its other case.
         val other = otherCase(word)
@@ -233,7 +234,10 @@ class LeipzigExamplesProvider(
         while (formIndex < cursor.forms.size && kept.size < cursor.limit && rounds < MAX_ROUNDS) {
             val form = cursor.forms[formIndex]
             val fetched = prefetched[form.word]?.takeIf { offset == 0 } ?: sentences(cursor.corpus, form.word, offset, cursor.chunk).also { rounds++ }
-            if (fetched == null) break
+            if (fetched == null) {
+                if (kept.isEmpty()) return ExampleSearchResult.FAILED
+                break
+            }
             var consumed = fetched.sentences.size
             for ((i, sentence) in fetched.sentences.withIndex()) {
                 if (!cursor.accepts(sentence)) continue
@@ -264,6 +268,7 @@ class LeipzigExamplesProvider(
                 async { prefetched[form.word]?.takeIf { offset == 0 } ?: sentences(cursor.corpus, form.word, offset, cursor.chunk) }
             }.awaitAll()
         }
+        if (fetched.all { it == null }) return ExampleSearchResult.FAILED
         val sentences = fetched.filterNotNull().flatMap { it.sentences }.filter(cursor::accepts).distinctBy { it.text }.shuffled(random).take(cursor.limit)
         val used = cursor.usedSlots + picked
         val next = if (used.size < slots.size) cursor.copy(usedSlots = used).token() else null
