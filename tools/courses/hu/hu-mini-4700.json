@@ -1,0 +1,199 @@
+{
+  "id": "hu-mini-4700",
+  "rankUpTo": 4700,
+  "level": "C1",
+  "title": "Két ország között",
+  "description": "Ten standalone texts (stories, a letter, a diary, an interview, a portrait and a column) about working, studying, raising a family and speaking two languages between Hungary and other countries.",
+  "topic": "Living between countries",
+  "names": [
+    "Dublin",
+    "Balaton",
+    "Brendan",
+    "Aoife",
+    "Sárdi",
+    "Inez",
+    "Bécs",
+    "Budapest",
+    "Szeged",
+    "Leiden",
+    "Hollandia",
+    "Pieter",
+    "Dániel",
+    "Tom",
+    "Kati",
+    "Péter",
+    "Pécs",
+    "Nikó",
+    "Andrea",
+    "Hamburg",
+    "Kecskemét",
+    "Pados",
+    "Hubert",
+    "Győr",
+    "München",
+    "Dóri",
+    "Zürich",
+    "Lotte",
+    "Magyarország",
+    "Lázár",
+    "Linz",
+    "Duna",
+    "Ilosvai",
+    "Ferdinánd",
+    "Tatabánya",
+    "Németország",
+    "Skócia",
+    "Viola",
+    "Sopron"
+  ],
+  "lessons": [
+    {
+      "title": "Pogácsa péntekre",
+      "summary": "A Hungarian woman working in Dublin bakes her grandmother's pogácsa and brings bread with butter for her colleagues' Friday food day, despite a spoiled pot of sour cream.",
+      "newWords": [
+        "vaj",
+        "hozzávaló",
+        "mérleg",
+        "piaci",
+        "bűzlik",
+        "romlott",
+        "bő",
+        "szel",
+        "ízlik"
+      ],
+      "text": "Hat éve élek Dublinban, és egy kis cégnél dolgozom. Az irodában van egy szokás, amelyet nagyon szeretek: pénteken mindig valaki más hoz be valamit, amit a saját hazájában esznek. Volt már lengyel leves, spanyol krumplis étel és indiai rizs. A múlt héten rám került a sor.\n\nSokáig gondolkodtam, mit vigyek. Végül a nagymamám pogácsája mellett döntöttem. Mellé kenyeret akartam vinni vajjal és hagymával, ahogy nyáron a Balatonnál ettük.\n\nAnyám üzenetben küldte el a receptet. A hozzávalók egyszerűek voltak: liszt, vaj, tejföl, egy kis cukor és só. A hozzávalókat azonban grammra pontosan kellett kimérni, nekem pedig nem volt mérlegem. Eddig mindent szemre főztem, de anyám szerint ehhez a süteményhez pontos mérleg kell. Szombaton egy piaci standon vettem egy olcsó konyhai mérleget.\n\nA tejföllel nehezebb volt a dolog. Itt a boltokban nem lehet kapni, csak egy lengyel eladónál a piacon. Nála minden drágább, mint a többi piaci standon, de nem volt más választásom. A piaci árakon most nem akartam gondolkodni.\n\nCsütörtök este kinyitottam a hűtőt, és azonnal éreztem, hogy valami bűzlik. A doboz volt az, amelyet a piacon vettem. Kiderült, hogy a tartalma már romlott volt, amikor megvettem. A romlott dobozt kidobtam, de a hűtő még órákig bűzlött. Helyette végül görög joghurtot tettem a tésztába. Anyám azt írta, hogy ez nem nagy baj.\n\nAz ír vaj sárgább és sósabb, mint az otthoni, ezért kevesebb sót tettem a tésztába. Egy bő órát dolgoztam rajta, aztán a sütemény egy bő fél óráig sült. Éjfélre az egész lakásban friss sütemény illata volt.\n\nPéntek reggel friss kenyeret vettem, és az irodában vékony szeleteket szeltem belőle. Mindegyikre vastagon kentem vajat, a tetejére pedig hagymát és egy kis paprikát tettem.\n\nBrendan, aki mellettem ül, elsőként vett egy pogácsát.\n\n– Ízlik? – kérdeztem.\n\n– Nagyon ízlik – felelte. – Mi van benne?\n\n– Főleg vaj – nevettem. – Ír vaj, magyar recept szerint.\n\nAoife kért még egy szeletet a kenyérből, és megkérdezte, szelhet-e magának egy vastagabbat. Persze hogy szelhetett. Délre a tányérok üresek voltak. Mindenkinek ízlett, még annak is, aki a hagymát nem szereti.\n\nSzombaton szóltam az eladónak a romlott dobozról. Bocsánatot kért, és adott helyette egy frisset ingyen. A mérleget azóta is használom.\n\nKérdések:\nMilyen szokás van a szerző irodájában?\nPénteken mindig valaki más hoz be valamit, amit a saját hazájában esznek.\nMiért kellett mérleget vennie?\nMert a hozzávalókat grammra pontosan kellett kimérni, neki pedig nem volt mérlege.\nMi volt a baj a dobozzal, amelyet a piacon vett?\nA tartalma romlott volt, és a hűtő még órákig bűzlött tőle.\nMiben más az ír vaj, mint az otthoni?\nSárgább és sósabb, ezért kevesebb sót tett a tésztába.\nMeddig sült a sütemény?\nEgy bő fél óráig sült.\nÍzlett az étel a kollégáknak?\nIgen, mindenkinek ízlett, és délre a tányérok üresek voltak."
+    },
+    {
+      "title": "Két nyelven a színpadon",
+      "summary": "An interview with Inez Sárdi, a professional musical singer in Vienna, about discipline, her working day and a coming tour that ends in a Budapest arena.",
+      "newWords": [
+        "hivatásos",
+        "musical",
+        "kitartás",
+        "rendszerint",
+        "fizikailag",
+        "turné",
+        "aréna",
+        "roham",
+        "gála",
+        "szenvedélyes"
+      ],
+      "text": "Sárdi Inez tizenkét éve él Bécsben. Hivatásos énekes, a város egyik legnagyobb színházában musicalekben lép fel. Ősszel turnéra indul, és a turné utolsó állomása Budapest lesz. A próbák között beszélgettünk vele.\n\n– Hogyan lett hivatásos énekes?\n\n– Szegeden nőttem fel, gyerekként kórusban énekeltem. Tizenhat évesen láttam életem első musicalét, és attól a naptól fogva tudtam, mit akarok. Bécsben tanultam tovább, mert ott volt az a képzés, amelyet kerestem.\n\n– Mi a különbség az amatőr és a hivatásos énekes között?\n\n– A kitartás. Tehetség sok embernek van, de a hivatásos énekes akkor is gyakorol, amikor nincs kedve. Kitartás nélkül ebben a szakmában senki sem marad meg sokáig.\n\n– Milyen egy átlagos napja?\n\n– Rendszerint kilenckor kelek, és délelőtt edzésre megyek. Sokan nem tudják, hogy ez a munka fizikailag is nagyon kemény. Egy musicalben két és fél órán át énekelünk és táncolunk, és ezt hetente nyolcszor. Aki fizikailag nem bírja, az hamar elfárad. Délután rendszerint pihenek, este hétkor kezdődik az előadás, és tizenegy előtt ritkán érek haza.\n\n– Ősszel turnéra mennek.\n\n– Igen, a társulattal tizenegy várost járunk be hat hét alatt. Egy turné egészen más világ: minden este másik színpad, másik szálloda, másik közönség. A turné végén Budapesten lépünk fel, egy arénában, ahol tízezer ember fér el. Arénában még sosem énekeltem. A színházban látom az emberek arcát, az arénában csak a fényeket fogom látni.\n\n– Úgy hallottam, a jegyekért óriási roham volt.\n\n– Ez igaz. Az első napon olyan roham indult a jegyekért, hogy a honlap egy órára leállt. Két nap alatt az aréna minden jegye elfogyott.\n\n– A turné előtt egy gálán is fellép.\n\n– Szeptemberben a színház nagy őszi gáláján énekelek. A gálán két dalt adok elő: egyet németül és egyet magyarul. A gála szervezői kérték, hogy a magyar dalt is én válasszam ki.\n\n– Melyik nyelven könnyebb énekelni?\n\n– A szenvedélyes dalokat magyarul könnyebb. Szenvedélyes ember vagyok, és magyarul jobban érzem, mit mondok. Németül viszont pontosabban dolgozom, mert jobban figyelek minden szóra.\n\n– Mit vár a budapesti estétől?\n\n– A szüleim az első sorban fognak ülni. Ez lesz az első alkalom, hogy egy teljes musicalt látnak tőlem.\n\nKérdések:\nMi Sárdi Inez szakmája?\nHivatásos énekes, Bécsben musicalekben lép fel.\nSzerinte mi a különbség az amatőr és a hivatásos énekes között?\nA kitartás: a hivatásos énekes akkor is gyakorol, amikor nincs kedve.\nMit csinál rendszerint délelőtt, és miért?\nRendszerint edzésre megy, mert a munkája fizikailag is nagyon kemény.\nHol lép fel a társulat a turné végén?\nBudapesten, egy arénában, ahol tízezer ember fér el.\nMelyik nyelven könnyebb neki a szenvedélyes dalokat énekelni?\nMagyarul, mert magyarul jobban érzi, mit mond."
+    },
+    {
+      "title": "Levél Leidenből",
+      "summary": "In a letter to his former professor in Szeged, a young researcher describes his first months as a doctoral student in the Netherlands and sends an author's copy of their joint article.",
+      "newWords": [
+        "tudományegyetem",
+        "kezdeti",
+        "komplex",
+        "kidolgozott",
+        "határidő",
+        "folyóirat",
+        "szerzői"
+      ],
+      "text": "Kedves Tanár Úr!\n\nRég írtam, ezért először is elnézést kérek. Szeptember óta Leidenben élek, és az egyetemen doktori munkán dolgozom. Gyakran eszembe jut a szegedi tudományegyetem, ahol öt évig tanultam, és ahol Ön először megmutatta nekem, mi a kutatás.\n\nA kezdeti nehézségekről sokat mesélhetnék. Az első hetekben lakást kerestem, ami Hollandiában igazi kaland. Közben a holland nyelvvel is küzdöttem, pedig az egyetemen mindenki angolul beszél. Az időjárás is szokatlan volt: szinte minden nap esik, és erős szél fúj a tenger felől. A kezdeti időszak után azonban lassan minden a helyére került. Ma már biciklivel járok be, mint mindenki más, a szél sem zavar, és a boltban hollandul is el tudom mondani, mit kérek.\n\nA kutatásom komplex, sokkal komplexebb, mint gondoltam. A víz és a föld kapcsolatát vizsgáljuk a tenger melletti területeken, és minden kérdés újabb kérdéseket hoz. Egy ilyen komplex témában nincsenek egyszerű válaszok. A témavezetőm, Pieter, nagyon pontos ember. Az első megbeszélésünkön azt mondta, hogy tőlem nem ötleteket vár, hanem kidolgozott tervet. Két hónapig dolgoztam a terven. Amikor végül odaadtam neki, azt mondta, hogy ez az első igazán kidolgozott terv, amelyet idén kapott. Nagyon büszke voltam.\n\nItt minden munkának szigorú határideje van. Itt senki sem kéri, hogy eltolják a határidőket, mert ez nem szokás. Eleinte ez nehéz volt nekem, de most már a naptáramban minden határidő pirossal szerepel.\n\nMost pedig a jó hír. Megjelent a közös cikkünk, amelyet még Szegeden kezdtünk el írni! A folyóirat a novemberi számában közölte. A folyóirat szerkesztője két szerzői példányt küldött nekem. Az egyik szerzői példányt ezzel a levéllel együtt postán küldöm el Önnek, hiszen a cikk legalább annyira az Öné, mint az enyém.\n\nDecemberben nem jutok haza, de januárban három hetet Szegeden leszek, és szívesen bemennék a tudományegyetemre is. Ha lesz ideje, szívesen beszélgetnék Önnel egy kávé mellett a kutatásról és a terveimről.\n\nTisztelettel üdvözli volt diákja:\nDániel\n\nKérdések:\nHol tanult Dániel, mielőtt Leidenbe ment?\nÖt évig a szegedi tudományegyetemen tanult.\nMilyen kezdeti nehézségei voltak?\nLakást kellett keresnie, küzdött a holland nyelvvel, és az időjárás is szokatlan volt.\nMit várt tőle a témavezetője?\nNem ötleteket várt tőle, hanem kidolgozott tervet.\nMiért pirosak a határidők a naptárában?\nMert ott minden munkának szigorú határideje van, és a határidőket nem szokás eltolni.\nMit küld Dániel a levéllel együtt?\nA folyóirat egyik szerzői példányát, amelyben megjelent a közös cikkük."
+    },
+    {
+      "title": "Rossz hangsúllyal",
+      "summary": "A Hungarian woman in Scotland describes how her Scottish husband learns Hungarian: his grammar is flawless, but he stresses the wrong syllable and is afraid to speak to her mother.",
+      "newWords": [
+        "párbeszéd",
+        "hibátlan",
+        "hangsúly",
+        "naiv",
+        "ezerszer",
+        "merészel",
+        "ostobaság"
+      ],
+      "text": "Tíz éve élünk Skóciában. A férjem, Tom, skót, és két éve tanul magyarul. Minden este a konyhában ül a tankönyvével, és hangosan olvassa a párbeszédeket. A párbeszédekben mindig ugyanazok az emberek beszélgetnek: Kati jegyet vesz a vonatra, Péter szobát foglal egy szállodában. Tom ezeket a párbeszédeket szinte kívülről tudja.\n\nA nyelvtana hibátlan. A szabályokat jobban ismeri, mint én, és ha kérdezek tőle valamit, hibátlan táblázatot rajzol egy papírra. A gond a hangsúllyal van. A magyarban a hangsúly mindig a szó elején van, az angolban viszont bárhol lehet. Tom ezért úgy mondja, hogy „köszönöm”, mintha a szó vége lenne a legfontosabb. A rossz hangsúly miatt néha még én sem értem, mit akar mondani.\n\nAz elején naiv volt. Azt hitte, hogy csak a szabályokat kell megtanulni, a hangok pedig maguktól jönnek. Én is naiv voltam, mert azt hittem, ezt nem kell külön gyakorolni. Ma már tudjuk, hogy a helyes hangsúly legalább annyi munka, mint a szabályok.\n\nTom egy-egy mondatot ezerszer is elmond. Ezerszer elmondta már azt is, hogy „Jó napot kívánok, hogy tetszik lenni?”, mert ezzel akarja köszönteni anyámat, amikor nyáron Pécsre utazunk.\n\nAnyámmal eddig csak angolul beszélt, pontosabban én fordítottam kettejük között. Tom nem merészelt magyarul megszólalni előtte. Azt mondta, fél, hogy anyám nevetni fog rajta. Egyszer megkérdeztem tőle, miért nem merészeli megpróbálni.\n\n– Mert anyád tanár – felelte. – Minden hibát észre fog venni.\n\nMúlt vasárnap videón beszéltünk anyámmal. Tom egyszer csak megszólalt magyarul. Lassan beszélt, rossz hangsúllyal, de hibátlan mondatokban. Aztán zavarában bocsánatot kért a hibáiért.\n\n– Ostobaság! – mondta anyám, és nevetett. – Ne kérj bocsánatot. Az a fontos, hogy beszélsz. A hangsúlyt majd nyáron gyakoroljuk együtt.\n\nTom aznap este nem a tankönyvből tanult. Leült mellém, és megkérdezte, mit jelent az, hogy „ostobaság”. Elmagyaráztam neki. Azóta, ha valami nem sikerül neki, mosolyogva mondja: „Ostobaság!” Persze rossz hangsúllyal.\n\nKérdések:\nMit olvas Tom minden este hangosan?\nA tankönyv párbeszédeit olvassa hangosan.\nMilyen Tom nyelvtana?\nHibátlan, a szabályokat jobban ismeri, mint a felesége.\nMit hitt Tom az elején?\nNaiv volt: azt hitte, hogy csak a szabályokat kell megtanulni.\nMi a gond Tom beszédével?\nRossz helyre teszi a hangsúlyt, pedig a magyarban a hangsúly mindig a szó elején van.\nMiért nem merészelt Tom magyarul beszélni a szerző anyjával?\nMert az anyja tanár, és Tom attól félt, hogy minden hibát észrevesz.\nMit mondott a szerző anyja, amikor Tom bocsánatot kért?\nAzt mondta, hogy ostobaság, és hogy az a fontos, hogy beszél."
+    },
+    {
+      "title": "Mese a képernyőn",
+      "summary": "Every evening a grandmother in Kecskemét reads a fairy tale to her granddaughter in Hamburg over a video call; one night the connection breaks at the best part.",
+      "newWords": [
+        "tündér",
+        "róka",
+        "szarvas",
+        "ösvény",
+        "csodaszép",
+        "megszakad",
+        "gyengéd",
+        "megnyugtat"
+      ],
+      "text": "Nikó hatéves, és a szüleivel Hamburgban él. Az édesanyja, Andrea, egy kórházban dolgozik, az apja egy hajózási cégnél. Nikó az óvodában németül beszél, otthon magyarul. A nagymamája Kecskeméten lakik, és minden este hétkor videón mesét olvas neki.\n\nEzen a héten a nagyi egy régi könyvből olvasott. A mese egy rókáról és egy szarvasról szólt, akik együtt indulnak el az erdőbe, hogy megkeressék a tündért. A tündér egy csodaszép tó partján lakik, és aki megtalálja, annak teljesül egy kívánsága. A róka okos, de türelmetlen, a szarvas lassú, de mindig tudja, merre kell menni.\n\nA róka és a szarvas egy keskeny ösvényen haladnak. Az ösvény először egy réten megy át, aztán a hegyre visz fel. Egy helyen az ösvény kettéválik. A róka jobbra akar menni, a szarvas balra.\n\n– És melyik ösvényen mennek tovább? – kérdezte Nikó izgatottan.\n\nA nagyi éppen válaszolt volna, de akkor a kép megállt. A hang is megszakadt. A képernyőn csak egy kis kör forgott. Nikó várt egy percig, aztán sírni kezdett.\n\n– Eltűnt a nagyi! – kiabálta. – Most sosem tudom meg, mi lesz a rókával!\n\nAndrea leült mellé az ágyra. Gyengéden megsimogatta a haját, és nyugodt hangon beszélt hozzá.\n\n– Nem tűnt el, csak megszakadt a kapcsolat – mondta. – Ez néha megtörténik, ha messze lakunk egymástól. A nagyi biztosan mindjárt visszahív.\n\nEz egy kicsit megnyugtatta Nikót, de még mindig szipogott. Andrea ezért gyengéd hangon elkezdett egy dalt énekelni, amelyet ő is a nagyitól tanult. A dal teljesen megnyugtatta a kislányt.\n\nKét perc múlva megszólalt a telefon. A nagyi volt az.\n\n– Bocsánat, kicsim, nálunk megszakadt az internet – mondta. – Hol tartottunk?\n\n– Az ösvénynél! – felelte Nikó.\n\nA nagyi folytatta a mesét. A szarvas meggyőzte a rókát, hogy balra menjenek. Estére meg is találták a tündért a csodaszép tó partján. A róka azt kívánta, hogy a szarvas mindig a barátja maradjon. A tündér teljesítette a kívánságát.\n\nNikó még a mese vége előtt elaludt.\n\nKérdések:\nHol lakik Nikó, és hol lakik a nagymamája?\nNikó Hamburgban lakik, a nagymamája Kecskeméten.\nKit akart megtalálni a róka és a szarvas?\nA tündért, aki egy csodaszép tó partján lakik.\nMi történt, amikor az ösvény kettévált?\nMegszakadt a kapcsolat, és a kép megállt.\nHogyan próbálta megnyugtatni Andrea a lányát?\nGyengéden megsimogatta a haját, beszélt hozzá, aztán énekelt neki.\nMit kívánt a róka a tündértől?\nAzt, hogy a szarvas mindig a barátja maradjon."
+    },
+    {
+      "title": "Egy jelentéktelen alkatrész",
+      "summary": "An engineer at the Győr plant of a company based in Munich finds that a tiny worn part is behind a leaking tank, and his report changes how the company buys its parts.",
+      "newWords": [
+        "székhelye",
+        "bér",
+        "befolyás",
+        "tartály",
+        "elvár",
+        "jelentéktelen",
+        "tönkremegy",
+        "gyári",
+        "megjavít"
+      ],
+      "text": "Pados Hubert mérnök. Egy német cég győri gyárában dolgozik, amely autókhoz gyárt alkatrészeket. A cég székhelye Münchenben van, ezért Hubert havonta egy hetet ott tölt. A két város között vonattal utazik, így útközben is tud dolgozni.\n\nHubert gyakran gondolkodik azon, milyen két ország között dolgozni. A müncheni kollégái magasabb bért kapnak, mint a győriek, pedig ugyanazt a munkát végzik. A bérek közötti különbség az elmúlt években kisebb lett, de még mindig nagy. A győri gyárnak ráadásul kevés befolyása van arra, mi történik a cég székhelyén. A fontos döntéseket Münchenben hozzák meg.\n\nTavaly tavasszal a győri gyárban baj történt. Az egyik nagy tartály, amelyben a gépek hűtésére használt vizet tárolják, folyni kezdett. A tartály alatt minden reggel víz volt a padlón. A cég székhelyéről azt írták, hogy gyors megoldást várnak. Azt is elvárták, hogy közben ne álljon le a munka. Münchenben mindenki elvárja, hogy a győri gyár hiba nélkül működjön.\n\nHubert két napig vizsgálta a tartályt. Végül egy jelentéktelennek látszó alkatrészt talált: egy kis gumigyűrűt, amely tönkrement. Az alkatrész valóban jelentéktelen volt, néhány euróba került, de miatta folyt ki a víz. Ha nem veszik észre, a tartály mellett álló gép is hamar tönkremegy.\n\nKiderült, hogy a gumigyűrű nem gyári alkatrész volt. Egy olcsóbb cégtől vették, mert a gyári drágább. Hubert kicserélte, és egy délelőtt alatt megjavította a tartályt. A kollégái szerint bárki megjavíthatta volna, de senki sem kereste a hibát ilyen alaposan.\n\nHubert részletes jelentést írt Münchenbe. Leírta, hogy a gyár három másik tartályában is ugyanilyen alkatrészek vannak, és azokat is gyárira kell cserélni. A jelentésnek ezúttal befolyása lett: a cég székhelyén úgy döntöttek, hogy ezentúl minden gyárban csak gyári alkatrészt használnak.\n\nHubert nem kapott magasabb bért. A főnöke azonban azt mondta neki, hogy a következő megbeszéléseken a győri gyár véleményét is meghallgatják. Hubert ezt többre tartotta, mint a pénzt. Úgy érezte, hogy a győri gyárnak végre egy kis befolyása lett.\n\nKérdések:\nHol van a cég székhelye?\nA cég székhelye Münchenben van.\nMi a különbség a müncheni és a győri kollégák között?\nA müncheni kollégák magasabb bért kapnak, pedig ugyanazt a munkát végzik.\nMit vártak el Münchenből, amikor a tartály folyni kezdett?\nGyors megoldást vártak, és elvárták, hogy közben ne álljon le a munka.\nMennyi idő alatt sikerült Hubertnek megjavítania a tartályt?\nEgy délelőtt alatt megjavította.\nMiért folyt a tartály?\nMert egy jelentéktelennek látszó gumigyűrű tönkrement, és az nem gyári alkatrész volt.\nMi lett a jelentés eredménye?\nA cég székhelyén úgy döntöttek, hogy ezentúl minden gyárban csak gyári alkatrészt használnak."
+    },
+    {
+      "title": "Dóri naplója",
+      "summary": "In her diary, a fifteen-year-old Hungarian girl who has moved to Zurich describes feeling out of place at school until a classmate talks to her at a football match and invites her riding.",
+      "newWords": [
+        "tinédzser",
+        "földönkívüli",
+        "lusta",
+        "félidő",
+        "lovagol",
+        "tép"
+      ],
+      "text": "Kedd este\n\nHárom hete lakunk Zürichben. Apa itt kapott munkát egy banknál, ezért költöztünk ide. Az iskolában még mindig úgy érzem magam, mint egy földönkívüli. A többiek svájci németül beszélnek, amit alig értek, pedig otthon négy évig tanultam németet. Ha megszólalok, mindenki rám néz, mintha egy földönkívüli szólalt volna meg.\n\nAnya azt mondja, hogy tipikus tinédzser vagyok, mert egész délután a szobámban ülök, és a régi barátaimnak írok üzeneteket. Szerinte a tinédzserek mind ilyenek. Szerintem nem erről van szó. Egyszerűen nincs kivel beszélnem.\n\nSzerda este\n\nMa reggel nem akartam felkelni. Anya azt mondta, hogy lusta vagyok. Nem vagyok lusta, csak fáradt vagyok attól, hogy egész nap figyelnem kell minden szóra. Ezt nem értik meg a felnőttek. Este kitéptem egy lapot a naplómból, mert azt írtam rá, hogy utálok itt lenni. Nem akartam, hogy valaki elolvassa.\n\nSzombat este\n\nMa délelőtt az iskolai focicsapat meccse volt, és az osztályfőnök azt kérte, hogy mindenki menjen ki szurkolni. Egyedül álltam a pálya szélén. A félidőben egy lány odajött hozzám. Lotte a neve, ő is a mi osztályunkba jár. Lassan és tisztán beszélt, hogy megértsem.\n\nMegkérdezte, honnan jöttem. Amikor elmondtam, hogy Magyarországról, azt mondta, hogy a nagymamája is magyar, és ő is tud néhány magyar szót. Az egész félidőt végigbeszélgettük. A második félidőből már nem is sokat láttam.\n\nLotte elmesélte, hogy hetente kétszer lovagol egy lovardában a város szélén. Megkérdezte, szoktam-e lovagolni. Mondtam, hogy csak egyszer ültem lovon, a Balatonnál, nyolcévesen. Erre meghívott, hogy jövő szombaton menjek vele. A lovardában kezdőket is tanítanak lovagolni.\n\nEste elmondtam anyának. Örült, és azt mondta, hogy majd ő visz el kocsival. Aztán elővettem a naplót, és megnéztem azt a helyet, ahonnan a lapot kitéptem. Most már nem tépnék ki semmit. Ma este azt írom bele, hogy talán mégsem leszek itt mindig földönkívüli.\n\nKérdések:\nMiért költözött Dóri családja Zürichbe?\nMert Dóri apja ott kapott munkát egy banknál.\nMit mond Dóri anyja a lányáról?\nAzt mondja, hogy tipikus tinédzser, szerdán pedig azt mondta, hogy lusta.\nMiért érzi magát Dóri földönkívülinek?\nMert a többiek svájci németül beszélnek, amit alig ért, és nincs kivel beszélnie.\nMiért tépett ki Dóri egy lapot a naplójából?\nMert azt írta rá, hogy utál ott lenni, és nem akarta, hogy valaki elolvassa.\nMikor beszélt vele először Lotte?\nA meccs félidejében jött oda hozzá.\nHova hívta meg Lotte Dórit?\nEgy lovardába, ahol ő hetente kétszer lovagol, és ahol kezdőket is tanítanak."
+    },
+    {
+      "title": "Papírok dzsungelében",
+      "summary": "A Hungarian couple who have just moved to Linz for work spend their first week finding their way through confusing paperwork, with help from a patient clerk.",
+      "newWords": [
+        "pályaudvar",
+        "dzsungel",
+        "tájékoztató",
+        "zavaros",
+        "türelmes",
+        "visszavon",
+        "részleges"
+      ],
+      "text": "Andrea és Lázár egy vasárnap este érkeztek meg a linzi pályaudvarra két nagy bőrönddel. Lázár egy linzi gyárban kapott munkát, Andrea pedig otthonról dolgozik: egy budapesti cégnek fordít. A pályaudvaron Lázár első dolga volt, hogy internetet rendeljen az új lakásba. A pályaudvar egyik üzletében gyorsan aláírt egy szerződést, mert az eladó azt mondta, hogy ez a legjobb ajánlat.\n\nHétfőn reggel elkezdődött a hét, amelyet később csak úgy emlegettek: a papírok dzsungele. Először a városházán kellett bejelenteniük, hol laknak. Utána számlát kellett nyitniuk egy bankban, aztán orvost kellett választaniuk, és Lázár munkahelye is kért tőlük néhány papírt. Minden irodában mást kértek, és mindegyikhez egy másik papír kellett. Úgy érezték magukat, mint két ember, aki térkép nélkül jár egy dzsungelben.\n\nA városházán kaptak egy tájékoztatót. A tájékoztató négy oldal volt, apró betűkkel. Andrea jól beszél németül, de még ő is zavarosnak találta. A mondatok hosszúak és zavarosak voltak, és sok olyan szó szerepelt bennük, amelyet csak az irodákban használnak.\n\nSzerencsére a pult mögött ülő asszony nagyon türelmes volt. Türelmesen elmagyarázta, mit jelentenek a tájékoztató egyes részei, és egy papírra leírta, milyen sorrendben menjenek az irodákba. Amikor Andrea bocsánatot kért, hogy ennyi kérdése van, az asszony azt mondta, hogy ez a munkája, és az új lakókkal mindig türelmes.\n\nSzerdán kiderült, hogy a pályaudvaron kötött szerződés kétszer annyiba kerül, mint egy másik cégnél. Az üzletben elmondták, hogy a megrendelést két héten belül vissza lehet vonni. Lázár még aznap visszavonta. Az előre kifizetett pénznek azonban csak egy részét kapta vissza, mert a szerelő már járt a lakásban. A cég szabályai szerint ilyenkor csak részleges visszafizetés jár. Lázár mégis örült, mert a részleges visszafizetés is több volt, mint amire számított.\n\nPéntek este Andrea és Lázár a Duna-parton ültek. Minden papír rendben volt. Lázár azt mondta, hogy a következő szerződést nem a pályaudvaron fogja aláírni.\n\n– És a következő tájékoztatót is először én olvasom el – nevetett Andrea.\n\nKérdések:\nHova érkeztek meg Andrea és Lázár vasárnap este?\nA linzi pályaudvarra érkeztek meg.\nMiért nevezték a hetet a papírok dzsungelének?\nMert minden irodában mást kértek, és mindegyikhez egy másik papír kellett.\nMilyen volt a tájékoztató, amelyet a városházán kaptak?\nZavaros volt: hosszú mondatokból állt, és olyan szavakból, amelyeket csak az irodákban használnak.\nHogyan segített nekik a pult mögött ülő asszony?\nTürelmesen elmagyarázta a tájékoztatót, és leírta, milyen sorrendben menjenek az irodákba.\nMit csinált Lázár a pályaudvaron kötött szerződéssel?\nVisszavonta a megrendelést, és részleges visszafizetést kapott."
+    },
+    {
+      "title": "A bányász fényképei",
+      "summary": "A portrait of an eighty-one-year-old former miner who photographed his workmates in a German mine in the 1970s; his granddaughter has turned the pictures into a book and an exhibition.",
+      "newWords": [
+        "nyír",
+        "bánya",
+        "tűr",
+        "fényképez",
+        "örökség",
+        "napvilág",
+        "jótékony"
+      ],
+      "text": "Ilosvai Ferdinánd 81 éves. Tatabányán él egy kis házban, és ha jó idő van, minden szombat délelőtt maga nyírja a füvet a kertjében. A szomszédok többször felajánlották, hogy majd ők nyírják le helyette, de ő ezt nem engedi. Azt mondja, a kerti munka az ő tornája.\n\nFerdinánd fiatal korában nyolc évig dolgozott egy bányában Németországban. 1971-ben ment ki, 22 évesen, mert ott jobban fizettek. A bánya mélyén meleg volt és sötét, a levegőben fekete por szállt. A műszak nyolc óráig tartott. A nehéz munkát Ferdinánd jól tűrte, azt viszont nehezebben, hogy egyedül van. A családja otthon maradt, és csak nyáron és télen utazhatott haza.\n\nAz első fizetéséből vett egy fényképezőgépet. Szabad napjain fényképezett: lefényképezte a társait a műszak után, a szállást, ahol laktak, a közös ebédeket és a vasárnapi meccseket. A bánya felett álló tornyokat is sokszor lefényképezte. Hat országból jöttek oda emberek dolgozni, és ő mindenkit lefényképezett, aki engedte.\n\n– Nem művésznek készültem – mondja. – Csak azt akartam, hogy otthon is lássák, hogyan élünk.\n\nA képek ötven évig egy dobozban voltak a szekrény tetején. Tavaly az unokája, Viola, aki fotózást tanul, megtalálta a dobozt. Napokig nézte a képeket. Rögtön tudta, hogy ezek nemcsak a család öröksége, hanem egy egész korszaké.\n\nViola a képeket egyenként újra lefényképezte, hogy a számítógépen is meglegyenek, és a nagyapjával együtt mindegyikhez rövid szöveget írtak. Idén tavasszal a képek napvilágot láttak: megjelent belőlük egy könyv, és kiállítás is nyílt a tatabányai múzeumban. A könyv bevételét jótékony célra fordítják: egy alapítványt támogatnak, amely a bányában dolgozó családok gyerekeinek ad ösztöndíjat. Ferdinánd szerint jobb, ha a pénz egy jótékony ügyet segít, mint ha nála maradna.\n\nA kiállítás első napján Ferdinánd beszédet is mondott. Elmondta, hogy annak idején azt tűrte a legnehezebben, hogy messze volt az otthonától.\n\n– Ezek a képek most napvilágra kerültek – mondta. – Ez az én örökségem. Nem pénz, hanem emlék.\n\nMásnap reggel, mint minden szombaton, kiment a kertbe, és lenyírta a füvet.\n\nKérdések:\nMit csinál Ferdinánd minden szombat délelőtt?\nHa jó idő van, maga nyírja a füvet a kertjében.\nHol dolgozott fiatal korában?\nNyolc évig egy bányában dolgozott Németországban.\nMit tűrt a legnehezebben?\nAzt, hogy messze volt az otthonától, és egyedül volt.\nKi találta meg a képeket, és mi lett belőlük?\nAz unokája, Viola találta meg őket; a képek napvilágot láttak egy könyvben és egy kiállításon.\nMit mondott Ferdinánd a képekről a kiállításon?\nAzt, hogy ezek a képek az ő öröksége: nem pénz, hanem emlék.\nMire fordítják a könyv bevételét?\nJótékony célra: egy alapítványt támogatnak, amely a bányában dolgozó családok gyerekeinek ad ösztöndíjat."
+    },
+    {
+      "title": "Két élet egyszerre",
+      "summary": "A reflective column weighs what people gain and what they lose when they live between two countries for work, study or family.",
+      "newWords": [
+        "párhuzamosan",
+        "igencsak",
+        "bővül",
+        "körű",
+        "egyesít",
+        "benyomás",
+        "igazságtalan",
+        "végzet"
+      ],
+      "text": "Aki két ország között él, az valójában két életet él párhuzamosan. Az egyikben dolgozik, a másikban a szülei várják. Az egyikben a gyerekei iskolába járnak, a másikban a gyerekkori barátai élnek. A két élet párhuzamosan halad, és ritkán találkozik. Sokan, akik így élnek, igencsak nehezen tudják megmondani, hol vannak otthon.\n\nKezdjük azzal, amit ez az élet ad. Aki egy másik országban dolgozik vagy tanul, annak a világa bővül. Bővül a nyelvtudása, bővül a baráti köre, és bővül az is, amit a világról gondol. Az ilyen ember rendszerint széles körű tapasztalatot szerez: másképp intézi az ügyeit, másképp főz, és másképp ünnepli a születésnapokat, mint ahogy otthon tanulta. A munkahelyeken is gyakran keresnek olyan embereket, akiknek széles körű ismereteik vannak más országokról. A két nyelv és a két kultúra pedig nem mindig áll szemben egymással. Sok családban éppen a gyerekek egyesítik a kettőt: magyarul számolnak, németül álmodnak, és nem érzik, hogy ez ellentmondás.\n\nMost nézzük, mi az ára. Az első benyomás sokszor az, hogy az ilyen ember sehová sem tartozik igazán. Otthon már túl külföldinek tartják, külföldön még túl magyarnak. Ez a benyomás nem mindig igaz, de igencsak fájdalmas tud lenni. A családi ebédekről, a barátok esküvőiről és az idős szülők születésnapjairól gyakran éppen az marad le, aki messze lakik.\n\nGyakran hallani, hogy aki elment, annak választania kell: vagy itt, vagy ott. Szerintem ez igazságtalan elvárás. Igazságtalan, mert egy embernek lehet két otthona, ahogy két nyelve is lehet. Egy tanár, aki Bécsben tanít, de minden hétvégén Sopronban van, nem fél ember, hanem egész.\n\nVannak, akik végzetnek tekintik ezt az életet, mintha valami külső erő vitte volna őket idegen földre. Én nem hiszek ebben. Ez nem végzet, hanem döntések sora: egy jó állás, egy ösztöndíj, egy szerelem. A döntéseken pedig lehet változtatni.\n\nA kérdés tehát nem az, hol vagyunk otthon. A kérdés az, hogy a két életet sikerül-e egyesíteni egyetlen egésszé. Aki erre képes, annak a világa nem lesz kisebb, hanem bővül.\n\nKérdések:\nMit jelent a szerző szerint két ország között élni?\nAzt, hogy az ember két életet él párhuzamosan.\nMi bővül annak, aki külföldön dolgozik vagy tanul?\nBővül a nyelvtudása, a baráti köre és az is, amit a világról gondol.\nMilyen benyomást kelt sokszor az, aki két ország között él?\nAz első benyomás az, hogy sehová sem tartozik igazán, és ez igencsak fájdalmas tud lenni.\nHogyan egyesítik a gyerekek a két kultúrát?\nMagyarul számolnak, németül álmodnak, és ezt nem érzik ellentmondásnak.\nMiért tartja a szerző igazságtalannak, hogy választani kell?\nMert egy embernek lehet két otthona, ahogy két nyelve is lehet.\nVégzetnek tartja-e a szerző ezt az életet?\nNem, szerinte nem végzet, hanem döntések sora."
+    }
+  ]
+}
