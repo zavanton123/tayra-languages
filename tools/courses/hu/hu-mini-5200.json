@@ -1,0 +1,181 @@
+{
+  "id": "hu-mini-5200",
+  "rankUpTo": 5200,
+  "level": "C1",
+  "title": "Tudomány a konyhában",
+  "description": "Stories that explain the science behind everyday cooking: hot peppers, sourdough, frying, eggs, fish soup, baking soda, light meals before a performance, kitchen chemistry at school, food waste and pizza dough.",
+  "topic": "The science of cooking",
+  "names": [
+    "Adrián",
+    "Kalocsa",
+    "Viktória",
+    "Jonatán",
+    "Mia",
+    "Alex",
+    "Paulina",
+    "Pepe",
+    "Kiskunfélegyháza",
+    "Veszprém",
+    "Damján",
+    "Teó",
+    "Koós",
+    "Szolnok",
+    "Bakonyi",
+    "Szilamér",
+    "Győr",
+    "Larina",
+    "Leander",
+    "Henriett",
+    "Budapest",
+    "Héder",
+    "Anasztázia",
+    "Márió",
+    "Magyarország",
+    "Szécsi",
+    "Lea",
+    "Szombathely"
+  ],
+  "lessons": [
+    {
+      "title": "Miért csíp a paprika?",
+      "summary": "Adrián, a paprika grower near Kalocsa, explains what makes a pepper hot, tests four drinks against the burn and learns why milk works better than water; he also explains why onions sting the eyes.",
+      "newWords": [
+        "csíp",
+        "késztet",
+        "ellenkezője",
+        "gyanít",
+        "mértékű",
+        "kétségtelenül",
+        "négyszer"
+      ],
+      "text": "Adrián Kalocsa mellett termel paprikát. A háza mögött hosszú sorokban nő a paprika, ősszel pedig az udvaron szárad a sok piros paprika. Nyáron sok vendég jön hozzá, és szinte mindenki ugyanazt kérdezi tőle: miért csíp az egyik paprika, és miért nem csíp a másik?\n\n– Az erős ízért egyetlen anyag felel, a kapszaicin – magyarázza ilyenkor Adrián. – Ez nem a paprika piros részében van, hanem főleg belül, a magok körüli fehér részben. Aki ezt a részt kiveszi, annak a paprikája sokkal kevésbé csíp.\n\nEz az anyag valójában nem íz. A nyelvünkön olyan sejtek vannak, amelyek a hőt jelzik az agynak. Az anyag ezeket a sejteket kapcsolja be, ezért az agyunk azt hiszi, hogy valami égeti a szánkat, pedig a hőmérséklet nem változik. A test ilyenkor hűteni próbálja magát: az erős étel izzadásra késztet minket, és sokszor a szemünkből is könnyek jönnek. Ugyanez az érzés késztet arra is, hogy gyorsan valami ital után nyúljunk.\n\nAdrián évekig azt gyanította, hogy a hideg víz a legjobb megoldás. Egy nyári délután azonban kipróbálta. Négyszer evett egy-egy szelet erős paprikát, és négyszer mást ivott utána: vizet, teát, tejet és még egyszer tejet, de most melegen. A víz és a tea után a csípés alig lett kisebb, sőt mintha az egész szájában szétterjedt volna. A tej után viszont gyorsan elmúlt, akár hideg volt, akár meleg. Azóta tudja, hogy épp az ellenkezője igaz annak, amit régen hitt. Ez az anyag ugyanis nem keveredik a vízzel, a zsírral viszont igen, és a tej fehérjéi is magukhoz kötik. Így a tej elviszi a nyelvről.\n\n– Ha egy gyereknek már a kis mértékű csípés is sok, adjunk neki tejet, és ne vizet – mondja Adrián. – A víz csak tovább viszi az anyagot a szájban.\n\nA hagyma másképp csíp. Amikor elvágjuk, a sérült sejtekből egy anyag szabadul fel, amely a levegőbe száll, és a szemünket csípi. Adrián a hagymát mindig jó, éles késsel vágja, mert gyanítja, hogy egy rossz, régi kés több sejtet nyom szét, így több anyag jut a levegőbe. Még jobb, ha a hagyma előtte fél órát a hűtőben van: a hideg hagyma kétségtelenül kevésbé csípi a szemet, mert hidegben az anyag lassabban száll fel.\n\nAdrián szerint az erős paprikától nem kell félni. Kétségtelenül vannak, akik egyáltalán nem bírják, de a legtöbb ember megszokja, ha kis mértékű csípéssel kezdi, és lassan eszik egyre erősebb paprikát. Ennek az ellenkezője is igaz: aki hónapokig nem eszik erős ételt, annak eleinte újra minden nagyon erősnek tűnik.\n\nKérdések:\nMiért csíp a paprika?\nMert kapszaicin van benne, amely a nyelvünkön a hőt jelző sejteket kapcsolja be.\nMire késztet minket az erős étel?\nIzzadásra késztet minket, és sokszor könnyek is jönnek a szemünkből.\nMit gyanított Adrián évekig?\nAzt gyanította, hogy a hideg víz a legjobb megoldás.\nMit csinált Adrián egy nyári délután?\nNégyszer evett erős paprikát, és négyszer mást ivott utána.\nMiért segít a tej?\nMert ez az anyag a zsírral keveredik, nem a vízzel, és a tej fehérjéi magukhoz kötik.\nMiért vágja Adrián a hagymát éles késsel?\nMert gyanítja, hogy egy rossz kés több sejtet nyom szét, és így több anyag jut a levegőbe."
+    },
+    {
+      "title": "Teremtmények az üvegben",
+      "summary": "Viktória keeps a sourdough starter in the pantry of her ground-floor flat and learns how the yeasts and bacteria in it work, why warmth speeds them up and why salt matters.",
+      "newWords": [
+        "teremtmény",
+        "kamra",
+        "fedett",
+        "földszint",
+        "egyenként",
+        "lényegtelen",
+        "mily"
+      ],
+      "text": "Viktória két éve saját kenyeret süt, élesztő nélkül, kovásszal. A kovászt egy nagy üvegben tartja a kamrában, mert a földszinti lakásban az a leghűvösebb hely. Amikor a barátai meglátják az üveget, általában megkérdezik, mi az a szürke, sűrű anyag benne.\n\n– Ez a kovászom – feleli Viktória. – Él, és minden nap enni kér.\n\nKívülről a kovász csak liszt és víz. Valójában azonban apró teremtmények milliói élnek benne: nagyon kicsi gombák és baktériumok. Ezek az apró teremtmények a lisztben és a levegőben is ott vannak, a kovászban pedig ideális helyet találnak. Megeszik a liszt cukrait, közben pedig gázt és savakat termelnek. A gáz emeli meg a tésztát, a savak adják a kenyér enyhén savanyú ízét, és ezektől marad a kenyér sokáig friss.\n\nViktória minden este eteti a kovászát: kivesz belőle egy kanállal, a maradékhoz pedig lisztet és meleg vizet kever. Utána az üveget letakarja egy tiszta ruhával. A fedett üvegben a kovász nem lesz száraz, por sem kerül bele, mégis kap levegőt.\n\nEleinte Viktória nem értette, miért viselkedik ugyanaz a kovász hol így, hol úgy. Télen, amikor a földszinten hűvös van, lassan dolgozik, és egy egész napig tart, mire a duplájára nő. Nyáron ugyanez néhány óra alatt megtörténik. Aztán rájött, hogy a hőmérséklet egyáltalán nem lényegtelen. A meleg gyorsabbá, a hideg lassabbá teszi az apró teremtmények munkáját. Azóta télen, mielőtt kenyeret süt, a kamra helyett a konyhában, a sütő mellett tartja az üveget.\n\nA só sem lényegtelen. Egyszer Viktória elfelejtett sót tenni a tésztába, és a tészta szétfolyt a kezében. A só ugyanis erősebbé teszi azt a hálót, amely a liszt fehérjéiből alakul ki a tésztában, és amely bent tartja a gázt.\n\nReggel Viktória a tésztát négy részre vágja, és a kenyereket egyenként alakítja ki. Nem siet: mindegyiket egyenként hajtja össze, és közben figyeli, mennyire puha. Aztán a kenyereket kosarakba teszi, és fedett helyen pihenteti őket, hogy a tészta ne legyen száraz. Délután egyenként teszi be őket a forró sütőbe.\n\nEste, amikor a kenyerek már nem melegek, Viktória mindig levág magának egy szeletet. Ilyenkor arra gondol: mily egyszerű dolog ez! Liszt, víz, só és néhány millió kis teremtmény, amelyet senki sem lát. És mily sok türelem kell hozzá!\n\nKérdések:\nHol tartja Viktória a kovászt?\nA kamrában, mert a földszinti lakásban az a leghűvösebb hely.\nKik élnek a kovászban?\nApró teremtmények: nagyon kicsi gombák és baktériumok.\nMiért takarja le Viktória az üveget?\nHogy a kovász ne legyen száraz, és por se kerüljön bele.\nMiért dolgozik télen lassan a kovász?\nMert a földszinten hűvös van, és a hideg lassabbá teszi a teremtmények munkáját.\nMiért nem lényegtelen a só?\nMert erősebbé teszi a tésztában azt a hálót, amely bent tartja a gázt.\nHogyan alakítja ki Viktória a kenyereket?\nEgyenként alakítja ki őket, és fedett helyen pihenteti őket."
+    },
+    {
+      "title": "A kalapács és a bunda",
+      "summary": "Jonatán fries breaded pork with his daughter Mia and explains why the meat is pounded, why the oil must be hot enough and why the meat should not be pierced.",
+      "newWords": [
+        "kalapács",
+        "lé",
+        "leég",
+        "sértő",
+        "koszos",
+        "praktikus",
+        "hozzáállás"
+      ],
+      "text": "Jonatán vasárnaponként rántott húst süt a családnak. Ezen a vasárnapon a lánya, a tizenöt éves Mia is segít neki. Mia sok videót néz a főzésről, és mindenre tudni akarja a magyarázatot.\n\nJonatán kiteszi a húst az asztalra, és kiveszi a fiókból a konyhai kalapácsot.\n\n– Miért kell a húst kalapáccsal ütni? – kérdezi Mia. – Úgyis megsül.\n\n– A kalapács két dolgot csinál – feleli Jonatán. – Egyrészt elszakítja a hús kemény rostjainak egy részét, ettől a hús puhább lesz. Másrészt minden szelet egyforma vékony lesz tőle. A vékony szelet néhány perc alatt átsül. Ha vastag maradna, a belseje még nyers lenne, amikor a bundája már leég.\n\nMielőtt ütni kezdené, Jonatán a húst két fólia közé teszi.\n\n– Ez praktikus megoldás – magyarázza. – A fólia alatt a hús nem szakad szét, és nem repülnek szét a kis darabok a konyhában. Régen fólia nélkül csináltam, és utána a kalapács, az asztal és a fél konyha koszos volt. Így a kalapács is tiszta marad.\n\nAztán jön a bunda: a szeleteket lisztbe, tojásba, végül morzsába forgatják. Mia nem tud várni, és az első szeletet rögtön beleteszi az olajba, pedig az olaj még alig meleg.\n\n– Várj! – szól rá az apja. – Ha az olaj nem elég forró, a bunda megszívja magát olajjal, és a hús nehéz lesz. Ha viszont túl forró, a bunda kívül leég, a hús pedig belül nyers marad. Körülbelül 170 fok kell.\n\nJonatán azt is elmagyarázza, mi történik az edényben. A megfelelő hőmérsékleten a bundában lévő víz azonnal gőzzé válik. A gőz kifelé száll, és nem engedi be az olajat, a hús felülete pedig szép barna lesz.\n\n– Bocs, nem akarok sértő lenni – mondja Mia –, de honnan tudod, hogy most 170 fok van? Nem is méred.\n\n– Nem sértő a kérdés – nevet Jonatán. – Egy kis darab kenyeret dobok bele. Ha körülötte azonnal mozogni kezd az olaj, jó a hőmérséklet. Persze ha mérném, kétségtelenül pontosabb lenne, mint az én szemem.\n\nAmíg a hús sül, Mia villával meg akarja szúrni, hogy megnézze, kész-e.\n\n– Ne szúrd meg! – mondja Jonatán. – Ha megszúrod, kifolyik a leve. A hús száraz lesz, a forró olajba kerülő lé pedig ugrál, és olajat szór szét. Inkább a szélénél fogva fordítsd meg.\n\nA kész szeleteket egy rácsra teszik, hogy az alsó oldaluk ne legyen nedves. Ebédnél Mia megállapítja, hogy a hús puha, és benne maradt a leve.\n\n– Tetszik a hozzáállásod – mondja Jonatán ebéd után. – Mindent megkérdezel, és semmit nem fogadsz el magyarázat nélkül. Ez jó hozzáállás a konyhában is.\n\nMia erre csak annyit felel, hogy ilyen jó hozzáállásért cserébe a koszos edényeket ma az apja mossa el. Jonatán szerint ez praktikus megállapodás.\n\nKérdések:\nMiért üti Jonatán kalapáccsal a húst?\nMert a kalapács elszakítja a kemény rostok egy részét, és minden szelet egyforma vékony lesz tőle.\nMiért teszi a húst két fólia közé?\nMert ez praktikus: a hús nem szakad szét, és a kalapács meg a konyha sem lesz koszos.\nMi történik, ha az olaj túl forró?\nA bunda kívül leég, a hús belül pedig nyers marad.\nHogyan tudja Jonatán, hogy jó az olaj hőmérséklete?\nEgy kis darab kenyeret dob bele, és figyeli, hogy azonnal mozogni kezd-e körülötte az olaj.\nMiért nem szabad megszúrni a húst?\nMert kifolyik a leve, a hús száraz lesz, és a lé a forró olajban ugrál.\nMilyen hozzáállása van Miának?\nMindent megkérdez, és semmit nem fogad el magyarázat nélkül."
+    },
+    {
+      "title": "Tizenegy tojás",
+      "summary": "Alex spends his autumn break at his grandmother's farmstead near Kiskunfélegyháza, collects eggs from the nests, and learns why the yolks are so yellow, why egg white sets and why fresh eggs are hard to peel.",
+      "newWords": [
+        "fészek",
+        "kötelék",
+        "tizenegy",
+        "terel",
+        "szamár",
+        "bevet"
+      ],
+      "text": "Alex az őszi szünetet a nagymamájánál tölti. Paulina néni egy tanyán él, nem messze Kiskunfélegyházától. Van húsz tyúkja, néhány kacsája és egy öreg szamara, Pepe.\n\nAlex dolga minden reggel az, hogy összeszedje a tojásokat. A tyúkok a kis házukban, száraz fűvel teli fészkekben rakják le a tojásaikat. Alex egyenként benyúl minden fészekbe, és óvatosan kosárba teszi a tojásokat. Az első reggelen tizenegy tojást talál. A szamár közben a kerítésnél áll, és figyeli.\n\n– Csak tizenegy? – kérdezi Paulina néni. – Akkor az egyik tyúk megint máshova rakja a tojását. Valahol van egy titkos fészke.\n\nA titkos fészket délután találják meg, a szamár háza mögött, a száraz fűben.\n\nA tojások sárgája sokkal sárgább, mint a boltiaké. Paulina néni elmondja, hogy ez a kukorica miatt van. Tavasszal kukoricával bevetette a tanya mögött fekvő földet, és a tyúkok azt kapják. A kukoricában sárga anyagok vannak, és ezek a tojás sárgájában is megjelennek. A bevetett földről nemrég szedték le a kukoricát. Jövőre a szomszéd földet is beveti, mert a szamárnak is kell a kukorica.\n\nReggelire Alex tojást akar főzni, és a legfrissebbeket venné ki a kosárból.\n\n– Ne azokat! – szól rá a nagymamája. – A friss tojásról nehéz leszedni a héját. Olyan kell, amelyik már egy hete a kosárban van.\n\nAlex utánanéz a telefonján, és kiderül, hogy a nagymamájának igaza van. A friss tojás fehérjéje kissé savas, és erősen hozzáragad a héj belső oldalához. Néhány nap alatt a tojásból gáz megy ki a héj apró lyukain át, a fehérje kevésbé savas lesz, és már nem ragad annyira.\n\nFőzés közben Alex azt is megtudja, miért lesz a tojás fehérjéje kemény. A fehérjék hosszú láncok, amelyek a nyers tojásban kis golyókká vannak összehajtva. A hő hatására kinyílnak, és egymáshoz kapcsolódnak. Sűrű háló jön létre, amely fehér és kemény. Ha a tojás túl sokáig fő, a sárgája körül zöld gyűrű jelenik meg. Ezért Paulina néni pontosan tíz percig főzi.\n\nEste Alex segít terelni az állatokat. A tyúkokat a házukba tereli, a kacsákat a kert végéből hajtja haza, a szamarat pedig Paulina néni tereli be a helyére. Amikor kész vannak, leülnek a ház előtti padra. Nagy madarak repülnek el a tanya fölött, szép kötelékben.\n\n– Miért repülnek így? – kérdezi Alex.\n\n– Mert kötelékben könnyebb – feleli Paulina néni. – Mindegyik madár a másik mögött repül, a levegő segíti, és kevesebb erő kell neki.\n\nHazafelé Alex arra gondol, hogy ez a hét közelebb hozta őt a nagymamájához. Erős kötelék lett köztük, és megígéri, hogy tavasszal visszajön, amikor Paulina néni a szomszéd földet beveti.\n\nKérdések:\nHány tojást talál Alex az első reggelen?\nTizenegy tojást talál a fészkekben.\nHol van a titkos fészek?\nA szamár háza mögött, a száraz fűben.\nMiért olyan sárga a tojások sárgája?\nMert a tyúkok kukoricát kapnak, és a kukoricában sárga anyagok vannak.\nMivel vetette be Paulina néni a földet?\nKukoricával vetette be a tanya mögött fekvő földet.\nMiért nehéz leszedni a héjat a friss tojásról?\nMert a friss fehérje kissé savas, és erősen hozzáragad a héj belső oldalához.\nMiért repülnek kötelékben a madarak?\nMert kötelékben könnyebb, és kevesebb erő kell nekik."
+    },
+    {
+      "title": "Halászlé a havas parton",
+      "summary": "In January Damján and his son Teó visit an old fisherman on the snowy bank of the Tisza, learn about winter bait and why fish do not freeze, and cook fish soup over a fire.",
+      "newWords": [
+        "havas",
+        "csodálkozik",
+        "cowboy",
+        "csali",
+        "int"
+      ],
+      "text": "Januárban Damján és 10 éves fia, Teó egy hétvégére lemegy a Tiszához, Szolnok mellé. Damján régi ismerőse, Koós bácsi ott lakik egy kis házban a folyó partján, és megígérte, hogy megtanítja őket halászlét főzni.\n\nMire odaérnek, mindent hó borít. A havas parton csak Koós bácsi csónakja látszik. Az öreg a háza előtt áll, és int nekik. Teó visszaint, aztán futni kezd a havas úton.\n\nKoós bácsi aznap reggel már fogott három halat. Megmutatja Teónak a dobozt is, amelyben a csalit tartja.\n\n– Télen a hal lassú, és keveset eszik – magyarázza. – Ilyenkor apró csali kell: egy-két szem kukorica vagy egy kis kukac. A nagy csali ilyenkor nem érdekli.\n\nTeó csodálkozik, hogy a halak egyáltalán élnek ebben a hideg vízben.\n\n– Nem fagynak meg? – kérdezi.\n\n– Nem – feleli Koós bácsi. – A víz négy foknál a legnehezebb, ezért télen ez a víz lent marad, a folyó alján. Felül lehet jég, de lent mindig van négy fok körüli víz. A halak ott várják meg a tavaszt. A testük olyan hideg, mint a víz, ezért nem kell nekik sok étel.\n\nDélben tüzet raknak a havas parton, és egy nagy edényt tesznek a tűz fölé.\n\n– Olyanok vagyunk, mint a cowboyok a filmekben! – kiáltja Teó.\n\n– A cowboyok inkább babot főztek a tűz fölött, nem halat – nevet Damján.\n\nA víz nagyon lassan lesz forró. Teó ezen is csodálkozik, hiszen a tűz nagy. Koós bácsi elmagyarázza, hogy a hideg szél folyamatosan viszi el a hőt az edény oldaláról. Ezért fából falat rak a szél ellen, az edényre pedig fedőt tesz, mert a gőz is rengeteg hőt visz magával.\n\nElőször a halak fejét és csontjait főzik meg hagymával, egy óráig. Ebből lesz a leves alapja. A hal húsát viszont csak a végén teszik bele, és mindössze tíz-tizenöt percig főzik. Teó csodálkozik, hogy ilyen rövid idő elég.\n\n– A hal húsa nem olyan, mint a marháé – mondja Koós bácsi. – Rövidek benne a szálak, és kevés köztük a kemény rész. Hamar megfő, és ha tovább főzöd, darabokra esik.\n\nA paprikát Koós bácsi csak akkor szórja bele, amikor egy percre leveszi az edényt a tűzről. Ha a forró tűz fölött tenné bele, a paprika leégne, és a leves keserű lenne.\n\nEbéd után Teó azt mondja, hogy egész nap igazi cowboynak érezte magát. Amikor indulnak, Koós bácsi újra a víz mellett áll, és int nekik, amíg el nem tűnnek a havas fák között.\n\nKérdések:\nHova mennek Damján és Teó januárban?\nA Tiszához, Szolnok mellé, Koós bácsihoz.\nMilyen csali kell télen?\nApró csali: egy-két szem kukorica vagy egy kis kukac.\nMin csodálkozik Teó?\nAzon, hogy a halak élnek a hideg vízben, és hogy a víz olyan lassan lesz forró.\nMiért nem fagynak meg a halak?\nMert a folyó alján mindig van négy fok körüli víz, és ott várják meg a tavaszt.\nMiért rak Koós bácsi falat a tűz mellé?\nMert a hideg szél elviszi a hőt az edény oldaláról.\nMiért nem teszi bele a paprikát a tűz fölött?\nMert a paprika leégne, és a leves keserű lenne."
+    },
+    {
+      "title": "A gép receptje",
+      "summary": "Retired engineer Szilamér asks an artificial intelligence program what to bake from his leftovers, notices that the recipe contradicts itself about the oven temperature, and checks why in his printed cookbook and his own notes.",
+      "newWords": [
+        "intelligencia",
+        "letölt",
+        "monitor",
+        "nyomtatott",
+        "jegyzet",
+        "kombináció",
+        "korlát",
+        "ellentmond"
+      ],
+      "text": "Bakonyi Szilamér nyugdíjas mérnök Győrben. Egész életében gépekkel és számokkal dolgozott, a konyhában viszont csak az utóbbi években kezdte otthon érezni magát. Amikor az unokája, Larina legutóbb meglátogatta, letöltött a számítógépére egy programot, amely mesterséges intelligencia segítségével ad recepteket.\n\n– Írd be, mi van otthon, és megmondja, mit süss belőle – mondta Larina, amikor letöltötte.\n\nEgy szombat délelőtt Szilamér úr kipróbálta. Talált a hűtőben három tojást és egy kis vajat, a kamrában lisztet, cukrot és két almát. Beírta a programba ezt a kombinációt, és várt. A monitoron néhány másodperc múlva megjelent egy recept: sütemény almával.\n\nElső látásra minden rendben volt. Szilamér úr azonban mérnök volt, és mindent kétszer elolvasott. A hozzávalók között két tojás szerepelt, a harmadik lépésben viszont már négy. A recept tehát ellentmondott önmagának. Ráadásul a negyedik lépés szerint a süteményt 180 fokon kell sütni, a hatodik szerint viszont 250 fokon. Megkérdezte a programot, melyik a helyes. A válasz kedves volt, de ellentmondott az előzőnek: most azt írta, hogy mindegy.\n\nSzilamér úr ezt nem hitte el. Levette a polcról a régi, nyomtatott szakácskönyvét, és elővette a saját jegyzeteit is, amelyeket évek óta egy kis könyvbe írt. A nyomtatott könyv és a jegyzetek ugyanazt mondták: egyáltalán nem mindegy.\n\nA hő ugyanis lassan jut el a tészta belsejébe. Ha a sütő túl forró, a sütemény teteje és széle hamar barna lesz, a cukor a felületén leég, a belseje viszont még nyers marad. 180 fokon több idő jut arra, hogy a hő a közepéig eljusson. A tojás fehérjéi ilyenkor egyenletesen keményednek meg, és összetartják a tésztát.\n\nSzilamér úr ezt is beírta a jegyzetei közé. Aztán két tojással, 180 fokon megsütötte a süteményt. Negyven perc után szép barna lett, és a közepe is megsült. Lefényképezte, és a monitor előtt ülve elküldte a képet Larinának.\n\nDélután beszéltek telefonon.\n\n– A programod ötletnek jó – mondta Szilamér úr. – Olyan kombinációt talált, amire én nem gondoltam volna. De látni kell a korlátait. Ez az intelligencia nem érti, amit ír, csak egymás mellé rakja, ami valószínű. Ezért írhat egymásnak ellentmondó mondatokat.\n\n– Minden eszköznek vannak korlátai, nagyapa – felelte Larina. – A nyomtatott könyveknek is.\n\n– Igaz – nevetett Szilamér úr. – Ezért tartom meg a jegyzeteimet is. Azok az én korlátaimat is mutatják.\n\nKérdések:\nMit töltött le Larina a nagyapja számítógépére?\nEgy programot, amely mesterséges intelligencia segítségével ad recepteket.\nMilyen kombinációt írt be Szilamér úr?\nTojást, vajat, lisztet, cukrot és két almát.\nMiben mondott ellent a recept önmagának?\nEgyszer két tojás szerepelt benne, egyszer négy, és egyszer 180 fok, egyszer 250 fok.\nHol nézett utána Szilamér úr?\nA nyomtatott szakácskönyvében és a saját jegyzeteiben.\nMi történik, ha a sütő túl forró?\nA sütemény teteje hamar barna lesz, a cukor leég, a belseje viszont nyers marad.\nMit mondott Szilamér úr a program korlátairól?\nAzt, hogy a program nem érti, amit ír, csak egymás mellé rakja, ami valószínű."
+    },
+    {
+      "title": "A társulat szakácsa",
+      "summary": "Leander cooks for a touring theatre troupe; before the premiere of a comic horror play he notices that the lead actress Henriett is too upset to eat, talks to her in private and reveals why he always cooks light food before a performance.",
+      "newWords": [
+        "társulat",
+        "befogad",
+        "szinkron",
+        "diszkrét",
+        "négyszemközt",
+        "felfed",
+        "horror",
+        "zaklatott"
+      ],
+      "text": "Leander tizenöt évig dolgozott pécsi éttermekben, aztán három éve egészen más munkát vállalt: egy utazó színházi társulat szakácsa lett. A társulat tavasztól őszig járja az országot, kis városokban és falvakban lép fel. Leander mindenhova viszi magával a konyháját: két főzőt, egy nagy hűtőt és rengeteg edényt.\n\nEleinte félt, hogy a színészek nem fogadják be. Ők régóta ismerték egymást, ő pedig csak a szakács volt. A társulat azonban hamar befogadta. Néhány hét múlva már ő is ott ült este a nagy asztalnál, és együtt nevetett a többiekkel. Azóta úgy érzi, hogy a társulat befogadta, mint egy családtagot.\n\nEzen a nyáron a társulat egy vidám horrort próbált. A darab egy régi kastélyban történik, és a nézők egyszerre félnek és nevetnek rajta. A fő szerepet egy fiatal színésznő, Henriett kapta. Henriett télen Budapesten szinkronban dolgozik: külföldi filmekben ő a magyar hangja több színésznőnek. A szinkron után ez volt az első nagy szerepe színpadon, és ez volt az első horror is, amelyben játszott.\n\nA bemutató előtti napon Leander észrevette, hogy Henriett alig eszik. Zaklatott volt és ideges, egész délután a szövegét ismételte. Vacsorára egy nagy tányér pörköltet szedett magának, aztán két falat után eltolta.\n\nLeander nem akart a többiek előtt szólni. Diszkrét ember volt, és tudta, hogy egy zaklatott színésznőnek nem az kell, hogy mindenki őt figyelje. Vacsora után négyszemközt beszélt vele a konyhában.\n\n– Nem vagy éhes, ugye? – kérdezte.\n\n– Nem bírok enni – mondta Henriett. – Mindig ez van, ha izgulok.\n\nLeander ekkor felfedte neki a titkát. Elmagyarázta, hogy izgalom közben a test úgy viselkedik, mintha futnia kellene: a vér nagyobb része az izmokba megy, a gyomor pedig lassabban dolgozik. Ezért ilyenkor a nehéz étel sokáig a gyomorban marad, és rossz érzést okoz. Bemutató előtt ezért mindig könnyű ételt főz: rizst, főtt zöldséget, egy kis csirkét, egy tál meleg levest. Ezek lassan adnak energiát, és nem nehezítik meg a gyomor munkáját. Azt is felfedte, hogy minden bemutató napján ilyen ebédet főz, bár a színészek azt hiszik, hogy ez csak véletlen.\n\nMásnap Henriett egy tál zöldséges levest evett, és egy kis rizst. Este nagyon jól játszott, a nézők pedig sokat nevettek a horror legijesztőbb jelenetein is. Az előadás után Henriett négyszemközt köszönte meg Leandernek a segítséget.\n\n– Köszönöm, hogy ilyen diszkrét voltál – mondta. – Senki nem vette észre, mennyire zaklatott voltam.\n\nKérdések:\nMi Leander munkája?\nEgy utazó színházi társulat szakácsa.\nHogyan fogadták a színészek Leandert?\nA társulat hamar befogadta, mint egy családtagot.\nMit csinál Henriett télen?\nBudapesten szinkronban dolgozik, külföldi filmekben ő a magyar hangja több színésznőnek.\nMiért beszélt Leander négyszemközt a színésznővel?\nMert diszkrét ember volt, és nem akarta, hogy mindenki a zaklatott színésznőt figyelje.\nMit fedett fel Leander?\nLeander felfedte, hogy bemutató előtt mindig könnyű ételt főz, mert izgalom közben lassabban dolgozik a gyomor."
+    },
+    {
+      "title": "Kémia a konyhában",
+      "summary": "A chemistry teacher in Veszprém gets her headmaster's approval to teach the tenth year in the renovated school kitchen; after the new safety rule takes effect, her pupils test acids and bases with red cabbage juice.",
+      "newWords": [
+        "tanári",
+        "évfolyam",
+        "tanulmányi",
+        "felsőoktatási",
+        "megtilt",
+        "hatály",
+        "jóváhagy",
+        "munkálat"
+      ],
+      "text": "Héder Anasztázia Veszprémben tanít kémiát egy gimnáziumban. Tavaly júniusban a tanáriban egy ötlettel állt elő: a következő tanévben a 10. évfolyamnak néhány kémiaórát az iskola konyhájában szeretne tartani. A konyhán éppen azon a nyáron kezdődtek el a nagy munkálatok.\n\nA kollégák a tanáriban eleinte nevettek.\n\n– Mi köze a főzésnek a kémiához? – kérdezte valaki.\n\n– Minden – felelte Héder tanárnő.\n\nAz igazgató jóváhagyta a tervet, de két feltételt szabott. Az első az volt, hogy az órák csak a munkálatok után lehetnek. A munkálatok szeptember végéig tartottak: a konyha új gépeket, új asztalokat és új világítást kapott. A második feltétel egy új szabály volt. Az iskola szabályai ettől kezdve megtiltják, hogy a diákok tanár nélkül bemenjenek a konyhába, vagy bekapcsolják a gázt. A szabály október 1-jén lépett hatályba.\n\nAmint a szabály hatályba lépett, Héder tanárnő megtartotta az első órát. A 10. évfolyam egyik osztálya lila káposztát vágott fel és főzött meg. A káposzta levét poharakba öntötték. A lé sötét lila volt. Az egyik pohárba egy kis ecetet öntöttek, és a lé pirosra változott. A másikba szappanos vizet tettek, és a lé zöld lett. A harmadik pohár lila maradt.\n\n– A káposzta színe jelzi, hogy egy anyag savas vagy lúgos – magyarázta a tanárnő. – Az ecet savas, a szappan lúgos, a tiszta víz egyik sem. Ezért marad piros a főtt lila káposzta, ha almát vagy ecetet főzünk hozzá.\n\nA tanárnő azt is megtiltotta, hogy bárki megigya, ami a poharakban van. A diákok így is nagyon élvezték az órát. A jóváhagyott tervből végül egész éves program lett: a 10. évfolyam minden osztálya havonta egyszer a konyhában tanult.\n\nAz egyik diák, Márió, annyira szerette ezeket az órákat, hogy tavasszal elindult a megyei tanulmányi versenyen kémiából, és harmadik lett. A tanulmányi eredményei is sokat javultak. Most azt tervezi, hogy érettségi után egy felsőoktatási intézményben az ételek kémiáját tanulja. Egy felsőoktatási nyílt napon már meg is nézte, hol folyik ez a képzés.\n\nA tanáriban azóta senki sem nevet Héder tanárnő ötletén. A többi évfolyam tanárai is kérdezik, mikor mehetnek az ő diákjaik a konyhába.\n\nKérdések:\nMilyen ötlettel állt elő Héder tanárnő a tanáriban?\nAzzal, hogy a 10. évfolyamnak néhány kémiaórát az iskola konyhájában tart.\nMilyen feltételeket szabott az igazgató, amikor jóváhagyta a tervet?\nAz órák csak a munkálatok után lehetnek, és egy új szabály megtiltja, hogy a diákok tanár nélkül bemenjenek a konyhába.\nMikor lépett hatályba az új szabály?\nOktóber 1-jén lépett hatályba.\nMilyen színű lett a káposzta leve az ecettől?\nPirosra változott.\nMit ért el Márió a tanulmányi versenyen?\nHarmadik lett a megyei tanulmányi versenyen.\nMit tervez Márió érettségi után?\nEgy felsőoktatási intézményben az ételek kémiáját akarja tanulni."
+    },
+    {
+      "title": "Ami a kukába kerül",
+      "summary": "A columnist hears a radio programme about food waste, learns how far our food travels and how to store bread and fruit, and takes the expert's appeal to plan her shopping to heart.",
+      "newWords": [
+        "pazarol",
+        "kuka",
+        "felhívás",
+        "közéleti",
+        "százezer",
+        "kamion",
+        "kontinens"
+      ],
+      "text": "Múlt héten reggel a rádióban egy közéleti műsort hallgattam. Általában csak fél füllel figyelek, de ezúttal felkaptam a fejem: a téma az élelmiszerek pazarlása volt. A közéleti műsorok ritkán szólnak a konyháról, most viszont egy kutató egy órán át erről beszélt.\n\nElmondta, hogy Magyarországon egy ember évente nagyjából 60–70 kiló ételt dob ki. Ha ezt összeadjuk, az ország családjai évente több százezer tonna élelmiszert pazarolnak el. Ennek nagy része még jó lenne, amikor a kukába kerül. Leginkább kenyeret, zöldséget, gyümölcsöt és maradék főtt ételt dobunk ki.\n\nA kutató arra kérte a hallgatókat, hogy gondoljanak bele, milyen utat tesz meg egy banán. Egy másik kontinensen termett, hetekig hajón utazott, aztán egy kamion hozta el a raktárból a boltig. A kamion hűtött, hogy a gyümölcs ne érjen meg túl korán. Ha a banán a kukában végzi, akkor nemcsak az ételt pazaroltuk el, hanem a vizet, a munkát, a hajó és a kamion üzemanyagát is.\n\nA műsorban egyszerű tanácsok is elhangzottak. A banán érés közben egy gázt ad ki, amelytől a mellette lévő gyümölcsök is gyorsabban érnek meg. Ezért érdemes a banánt külön tartani az almától. A kenyeret nem jó a hűtőbe tenni: hidegben gyorsabban lesz száraz és kemény, mert a benne lévő anyagok hidegben hamarabb változnak meg. Ha nem tudjuk megenni, inkább tegyük szeletenként a mélyhűtőbe.\n\nA kutató azt is elmagyarázta, hogy a „minőségét megőrzi” dátum nem ugyanaz, mint a „fogyasztható”. Az első után az étel gyakran még jó, csak meg kell nézni, és meg kell érezni a szagát.\n\nA műsor végén a kutató felhívással fordult a hallgatókhoz. A felhívás egyszerű volt: tervezzük meg előre a heti ételeket, írjunk listát a vásárláshoz, és vásárlás előtt mindig nézzünk bele a hűtőbe. Ha csak százezer család dobna ki hetente egy kenyérrel kevesebbet, az is rengeteg lenne.\n\nKomolyan vettem a felhívást. Két hete minden vasárnap leírom, mit főzök a héten, és csak azt veszem meg, ami kell. A kenyér felét szeletenként a mélyhűtőbe teszem, a banánt külön tálba. Nem lettem tökéletes: tegnap is kidobtam egy fél doboz tejfölt. De a kukánk most fele annyira telik meg, mint régen, és a pénzemen is érzem a különbséget.\n\nKérdések:\nMilyen műsort hallgatott a szerző a rádióban?\nEgy közéleti műsort hallgatott, amely az élelmiszerek pazarlásáról szólt.\nMennyi élelmiszert pazarolnak el a magyar családok évente?\nTöbb százezer tonna élelmiszert pazarolnak el.\nMilyen utat tesz meg egy banán?\nEgy másik kontinensen terem, hajón utazik, aztán kamion hozza el a boltig.\nMiért nem jó a kenyeret a hűtőbe tenni?\nMert hidegben gyorsabban lesz száraz és kemény.\nMi volt a kutató felhívása?\nHogy tervezzük meg előre a heti ételeket, írjunk listát a vásárláshoz, és vásárlás előtt nézzünk bele a hűtőbe.\nMi változott a szerző kukájában?\nFele annyira telik meg, mint régen."
+    },
+    {
+      "title": "Selejtező Szombathelyen",
+      "summary": "Nineteen-year-old pizza maker Lea enters the qualifying round of a national competition for young cooks, uses her grandfather's chess advice to keep a calm pace, and goes through to the final.",
+      "newWords": [
+        "selejtező",
+        "szurkoló",
+        "tempó",
+        "dobás",
+        "sakk",
+        "továbblép",
+        "töltés",
+        "utánpótlás"
+      ],
+      "text": "Lea 19 éves, és két éve dolgozik egy szombathelyi étteremben, ahol pizzát sütnek. Idén jelentkezett egy országos versenyre, amelyet a fiatal szakácsoknak, a szakma utánpótlásának rendeznek. A döntő Budapesten lesz, de előtte minden régióban selejtezőt tartanak. A nyugati régió selejtezője Szombathelyen volt, egy nagy étterem konyhájában.\n\n– A szakmának szüksége van utánpótlásra – mondta Lea főnöke, Szécsi úr, amikor jelentkezett. – Örülök, hogy tőlünk éppen te indulsz.\n\nA selejtezőn minden versenyzőnek negyven perce volt két pizzára: egy egyszerű pizzára paradicsommal és sajttal, és egy töltött pizzára, amelynek a tésztáját félbe hajtják. A zsűri a tésztát, a töltést, az ízeket és a munka tempóját is értékelte.\n\nLea hetekig gyakorolta a tészta dobását. A dobás nem csak szép látvány. Amikor a tészta forog a levegőben, a közepétől kifelé egyformán nyúlik, és közben a széléből nem megy ki a gáz. Ezért lesz a pizza széle könnyű. A dobás csak akkor sikerül, ha a tészta előtte eleget pihent. A lisztből készült háló a tésztában pihenés közben puhább lesz, és a tészta nem húzódik vissza.\n\nA töltéssel is sokat próbálkozott. A gomba sok vizet tartalmaz, és ha nyersen kerül a pizzába, a sütőben kiengedi. A nedves töltéstől a tészta is nedves lesz, és kiszakad. Ezért Lea a gombát előre kisütötte, a sajtból pedig kinyomta a vizet. A jó töltés finom, de száraz.\n\nA selejtező előtti este Lea a nagyapjával beszélt. A nagyapa egész életében sakkot játszott, és most is a sakkal jött elő.\n\n– A sakkban sem az nyer, aki a leggyorsabban lép, hanem aki előre gondolkodik – mondta. – Ne hagyd, hogy a többiek tempója sürgessen. A saját tempódban dolgozz.\n\nA selejtezőn a szurkolók a terem végében állhattak. Lea szurkolói között ott volt a családja, néhány kollégája és Szécsi úr is. A szomszéd asztalnál egy fiú nagyon gyors tempóban dolgozott, és a töltött pizzája kiszakadt. Lea nem nézett oda. Úgy dolgozott, mint a nagyapja a sakk mellett: mindig egy lépéssel előre gondolkodott. Az utolsó dobásnál a szurkolók tapsolni kezdtek.\n\nA verseny végén kiderült, hogy a selejtezőből az első három versenyző léphet tovább. Lea a második lett, így továbblépett a döntőbe. A szurkolók ünnepelték, a nagyapja pedig csak annyit mondott, hogy a következő lépést is jól kell végiggondolni.\n\nKérdések:\nHol tartották a nyugati régió selejtezőjét?\nSzombathelyen, egy nagy étterem konyhájában.\nMit értékelt a zsűri?\nA tésztát, a töltést, az ízeket és a munka tempóját.\nMiért lesz könnyű a pizza széle a dobás után?\nMert a tészta egyformán nyúlik, és a széléből nem megy ki a gáz.\nMiért sütötte ki Lea előre a gombát?\nMert a nyers gomba kiengedi a vizét, és a nedves töltéstől a tészta is nedves lesz.\nMit mondott a nagyapa a sakkról?\nAzt, hogy a sakkban sem az nyer, aki gyorsan lép, hanem aki előre gondolkodik.\nTovábblépett Lea a döntőbe?\nIgen, második lett, így továbblépett a döntőbe."
+    }
+  ]
+}
