@@ -1,0 +1,190 @@
+{
+  "id": "hu-mini-4600",
+  "rankUpTo": 4600,
+  "level": "C1",
+  "title": "Kutatás és felfedezés",
+  "description": "Ten stories, interviews, portraits and essays about research and discovery: drought-proof maize, counting cyclists, optical illusions, a choir of grandparents and children, a teacher's collection of sayings, a lab freezer in a storm, sugar-free chocolate, a first conference, bird ringing and a failed trial.",
+  "topic": "Research and discovery",
+  "names": [
+    "Balogh",
+    "Georgina",
+    "Szeged",
+    "Alföld",
+    "Győr",
+    "Duna",
+    "Hubert",
+    "Budapest",
+    "Radó",
+    "Izabella",
+    "Somlai",
+    "Karolina",
+    "Pécs",
+    "Fenyvesi",
+    "Alpár",
+    "Bakony",
+    "Zsolna",
+    "Natasa",
+    "Debrecen",
+    "Otmár",
+    "Malvin",
+    "Kecskemét",
+    "Jolanda",
+    "Tihany",
+    "Zoárd",
+    "Xénia",
+    "Annabella",
+    "Sopron",
+    "Fertő",
+    "Balaton",
+    "Kadosa",
+    "Svédország",
+    "Afrika"
+  ],
+  "lessons": [
+    {
+      "title": "Szomjas kukorica",
+      "summary": "A plant biologist at the university in Szeged explains how her team studies which kinds of maize survive a dry summer.",
+      "newWords": [
+        "kukorica",
+        "tanszék",
+        "növényi",
+        "szövet",
+        "túlélés",
+        "kimutat",
+        "szomjas",
+        "évszak",
+        "élelem"
+      ],
+      "text": "Balogh Georgina tizenöt éve dolgozik Szegeden, az egyetem egyik biológiai tanszékén. A tanszék épülete a város szélén áll, mögötte egy nagy kísérleti kert van, ahol minden tavasszal kukoricát vetnek. Georgina azt kutatja, hogyan éli túl a kukorica a száraz nyarat. Megkérdeztük, miért éppen ezzel foglalkozik.\n\n– A kukorica a világ egyik legfontosabb növénye – mondja. – Az emberek és az állatok élelmének jelentős része ebből származik. Ha egy évszak száraz, egész vidékeken kevesebb lesz az élelem. Az Alföldön az utóbbi években egyre gyakoribb, hogy egész nyáron alig esik. A növények szomjasak, és sok közülük nem éli meg az őszt.\n\nA kísérleti kertet két részre osztják. Az egyik rész rendesen kap vizet, a másik csak nagyon keveset. Ez utóbbiak a „szomjas” növények. Georgina és a diákjai azt figyelik, melyik fajta bírja jobban a hiányt.\n\n– A túlélés nem csak szerencse kérdése – magyarázza. – Vannak fajták, amelyek a forró napokon összehúzzák a leveleiket, és így kevesebb vizet veszítenek. Mások mélyebbre engedik a gyökereiket. Mi azt akarjuk megérteni, mi történik ilyenkor a növény belsejében, és mi kell a túléléshez.\n\nEhhez mintákat vesznek a levelekből. A növényi szövetet a laborban vékony szeletekre vágják, és mikroszkóp alatt vizsgálják. Egy darab szövet alig nagyobb egy gombostű fejénél, mégis sok mindent elárul. Georgina csapatának sikerült kimutatnia, hogy a szárazságot jól bíró kukoricában bizonyos növényi anyagokból sokkal több van, mint a többiben.\n\n– Amikor először mutattuk ki ezt a különbséget, nem hittünk a szemünknek – mondja nevetve. – Háromszor megismételtük a mérést, mielőtt bárkinek szóltunk volna. Csak azután mertük megmutatni az adatokat a többieknek is.\n\nA kutatás lassú munka, hiszen egy évben csak egyszer lehet kukoricát termeszteni. Ha egy kísérlet nem sikerül, egy egész évet kell várni a következőre. Georgina szerint ezért a türelem a legfontosabb.\n\n– A kertész is tudja, hogy minden évszaknak megvan a maga dolga. Tavasszal vetünk, nyáron figyelünk, ősszel szedjük le a termést, télen pedig a laborban dolgozzuk fel a mintákat. A tél a legcsendesebb évszak, de nekünk akkor van a legtöbb munkánk.\n\nArra a kérdésre, hogy mikor lesz a kutatásból új fajta, óvatosan válaszol.\n\n– Talán tíz év múlva. A mi dolgunk az, hogy kimutassuk, mitől erősebb az egyik növény a másiknál. De ha egyszer a szomjas kukorica is jól viseli az Alföld nyarát, az sok családnak biztosabb élelmet jelent.\n\nKérdések:\nMit kutat Balogh Georgina?\nAzt kutatja, hogyan éli túl a kukorica a száraz nyarat.\nMiért fontos növény a kukorica?\nMert az emberek és az állatok élelmének jelentős része ebből származik.\nMit csinálnak a növényi szövettel a laborban?\nVékony szeletekre vágják, és mikroszkóp alatt vizsgálják.\nMit sikerült kimutatnia Georgina csapatának?\nAzt, hogy a szárazságot jól bíró kukoricában bizonyos növényi anyagokból sokkal több van.\nMiért lassú ez a kutatás?\nMert egy évben csak egyszer lehet kukoricát termeszteni, és ha egy kísérlet nem sikerül, egy egész évet kell várni."
+    },
+    {
+      "title": "Kerékpárosok a hídon",
+      "summary": "In Győr a retired engineer counts cyclists on a bridge with a phone app, and the university turns the residents' data into the city's plan for new cycle paths.",
+      "newWords": [
+        "kerékpáros",
+        "letölthető",
+        "statisztikai",
+        "feldolgozás",
+        "százalékos",
+        "információs",
+        "délutáni"
+      ],
+      "text": "Győrben tavaly ősszel különös kutatás kezdődött. A város és az egyetem közösen arra kérte a lakókat, hogy segítsenek megszámolni a kerékpárosokat. A város új kerékpárutakat akart építeni, de előbb tudni akarta, hol és mikor járnak a legtöbben.\n\nHubert nyugdíjas mérnök, és szinte minden nap sétál a Duna partján. Amikor a helyi újságban olvasott a kutatásról, rögtön jelentkezett. A résztvevők egy ingyen letölthető alkalmazást kaptak. A letölthető programot bárki feltelepítheti a telefonjára, és nagyon egyszerű használni: minden kerékpárosnál, aki elhalad, meg kell nyomni egy gombot.\n\nHubertnek a lakásához legközelebbi híd jutott. Hetente kétszer, kedden és csütörtökön, a délutáni órákban állt egy órát a híd lábánál. A délutáni csúcsforgalomban percenként öt-hat kerékpáros is elhaladt mellette. Hubert eleinte nem hitte, hogy ennyien járnak biciklivel dolgozni.\n\n– Régen azt gondoltam, hogy a kerékpárosok mind fiatalok – mesélte. – Aztán láttam, hogy sok idős ember is biciklivel megy a piacra, és nem egy anyuka a gyerekét is viszi hátul.\n\nAz alkalmazás az adatokat azonnal továbbküldte az egyetemre. Ott fiatal kutatók egy csoportja végezte a feldolgozást. A feldolgozás nem egyszerű munka: ki kell szűrni a hibákat, például ha valaki véletlenül kétszer nyomta meg a gombot. A statisztikai elemzés végül megmutatta, hogy a hidakon reggel és a délutáni órákban a legnagyobb a forgalom, hétvégén pedig a Duna partja a legnépszerűbb.\n\nTavasszal a csoport információs estet tartott a városi könyvtárban. Hubert is elment. A terem falán nagy táblák lógtak, rajtuk százalékos adatokkal. Az egyik szerint a kerékpárosok negyven százaléka munkába jár, harminc százaléka iskolába. A százalékos adatok mellett térképek is mutatták, mely utcákon a legforgalmasabb a kerékpáros közlekedés.\n\n– Ezek a statisztikai adatok önök nélkül nem jöttek volna létre – mondta az információs est végén a csoport vezetője. – Több mint kétszáz lakó segített nekünk.\n\nHubert büszkén hallgatta. Az est után az egyik kutató megmutatta neki azt a térképet, amelyen az ő hídja is szerepelt.\n\n– Itt van az ön munkája – mondta. – Ennek a hídnak az adataival dolgoztunk a legtöbbet a feldolgozásnál, mert itt jár a legtöbb kerékpáros.\n\nA város azóta elfogadta a tervet: két év alatt három új kerékpárút épül. Hubert most is minden kedden kimegy a hídhoz, bár a kutatás már véget ért. Azt mondja, megszokta, és kíváncsi, hány kerékpáros jár majd ott, ha elkészülnek az új utak.\n\nKérdések:\nMiért számolták a kerékpárosokat Győrben?\nMert a város új kerékpárutakat akart építeni, és tudni akarta, hol és mikor járnak a legtöbben.\nMilyen alkalmazást kaptak a résztvevők?\nEgy ingyen letölthető alkalmazást, amelyben minden kerékpárosnál meg kell nyomni egy gombot.\nMikor állt Hubert a hídnál?\nKedden és csütörtökön, a délutáni órákban.\nMit kellett csinálni a feldolgozás során?\nKi kellett szűrni a hibákat, például ha valaki kétszer nyomta meg a gombot.\nMit láttak a lakók az információs esten?\nNagy táblákat százalékos adatokkal, és térképeket a kerékpáros közlekedésről."
+    },
+    {
+      "title": "Amikor a szem becsap",
+      "summary": "A father and his six-year-old son visit an exhibition on optical illusions in Budapest, where a psychology student explains how the brain tricks us.",
+      "newWords": [
+        "becsap",
+        "látszólag",
+        "bizarr",
+        "centi",
+        "előtér",
+        "kisgyerek",
+        "kivált"
+      ],
+      "text": "A múlt hónapban Budapesten új kiállítás nyílt a látásról. A címe egyszerű: „A szem becsap”. Szombaton a hatéves fiammal, Radóval mentünk el, és bevallom, én legalább annyira élveztem, mint ő.\n\nAz első teremben két asztal állt egymás mellett. Látszólag az egyik hosszabb és keskenyebb volt, a másik rövidebb és szélesebb. A falon lévő tábla szerint azonban a két asztal lapja pontosan egyforma. Nem hittem el, ezért kértem egy mérőszalagot a teremőrtől. Megmértem: mindkettő száznyolcvan centi hosszú és hetven centi széles volt. Egyetlen centi különbség sem volt köztük.\n\n– Az agyunk becsap minket – magyarázta a teremőr, Izabella, aki pszichológiát tanul az egyetemen. – Az agy nemcsak azt nézi, ami a szemünk előtt van, hanem azt is, hogyan áll a tárgy a térben. Ebből kiszámolja, milyen hosszú lehet, és ez a számítás most téved.\n\nA második terem volt a legbizarrabb. Egy szobába léptünk, amelynek az egyik sarkában Radó óriásnak látszott, a másikban pedig egészen kicsinek. A kisgyerekek imádták ezt a szobát: egyik sarokból a másikba futottak, és nevettek, ahogy nőttek, majd összementek. Egy kisgyerek a falnál azt kiabálta, hogy most ő a legnagyobb a családban. Bizarr érzés volt látni, hogy a saját fiam látszólag kétszer akkora, mint én.\n\n– Ennek a szobának nincs derékszögű sarka – mondta Izabella. – A fala ferde, a padlója lejt, de innen nézve mindez nem látszik.\n\nA harmadik teremben képeket néztünk. Az egyik képen az előtérben egy kis ház állt, mögötte egy hatalmas hegy. Ha azonban az ember egy lépést tett jobbra, kiderült, hogy a „hegy” egy kő az előtérben, a ház pedig messze van. Izabella szerint a festők régóta tudják, hogyan lehet a szemet becsapni: amit az előtérbe festenek, azt közelebbinek és fontosabbnak látjuk.\n\nAz utolsó teremben egy fekete-fehér kép forgott a falon. Amikor fél percig néztük, majd a fehér falra pillantottunk, színes foltok jelentek meg előttünk.\n\n– Az erős minta kiváltja a szem fáradtságát – mondta Izabella –, és a kiváltott fáradtság okozza a színeket. A kiállítás célja az, hogy kiváltsa a látogatók kíváncsiságát.\n\nRadónál ez sikerült. Hazafelé egész úton kérdezett. Azt akarta tudni, miért csap be minket a szemünk, ha a szemünk a miénk. Nem tudtam pontosan felelni. Annyit mondtam, hogy az agy legtöbbször jól dolgozik, csak néha túl gyorsan dönt. Radó erre azt felelte, hogy akkor ő is ilyen, és ebben igaza volt.\n\nKérdések:\nMi a kiállítás címe?\nA kiállítás címe: „A szem becsap”.\nMilyen hosszú volt a két asztal?\nMindkettő száznyolcvan centi hosszú volt, egyetlen centi különbség sem volt köztük.\nMiért imádták a kisgyerekek a második termet?\nMert az egyik sarokban óriásnak, a másikban egészen kicsinek látszottak.\nMit látunk közelebbinek egy képen?\nAzt, amit a festő az előtérbe fest.\nMi váltja ki a színes foltokat?\nA szem fáradtsága, amelyet az erős fekete-fehér minta vált ki."
+    },
+    {
+      "title": "Unoka és nagymama egy kórusban",
+      "summary": "An interview with a music psychologist who studies a choir in Pécs where eight-year-olds and pensioners in their eighties sing together.",
+      "newWords": [
+        "kórus",
+        "zongora",
+        "hangszer",
+        "lágy",
+        "élvezet",
+        "generációs",
+        "tudatos"
+      ],
+      "text": "Somlai Karolina pszichológus, és azt kutatja, milyen hatással van a zene az emberre. Pécsen egy különleges kórussal dolgozik: a tagjai között 8 éves gyerekek és 80 éves nyugdíjasok is vannak. Arról kérdeztük, mit tanulhat a tudomány egy ilyen kórustól.\n\n– Honnan jött az ötlet, hogy idősek és gyerekek együtt énekeljenek?\n\n– A korábbi kutatásaim azt mutatták, hogy ha valaki énekel, az bármilyen korban jót tesz az agynak. Az idősebbek emlékezete javul, a gyerekek figyelme fejlődik. Arra voltam kíváncsi, mi történik, ha az idősek és a gyerekek egy kórusban találkoznak. Az ilyen generációs találkozások ritkák a mindennapokban: a nagymamák és a nagypapák gyakran messze laknak, a gyerekeknek pedig sok a dolguk.\n\n– Milyen egy próba?\n\n– Hetente egyszer, szerda délután találkozunk egy iskola nagytermében. A teremben áll egy régi zongora, egy nyugdíjas tanár azon kíséri a dalokat. A zongora mellett más hangszerek is vannak: dobok, egy gitár, egy furulya. Akinek nehéz énekelni, az hangszeren játszhat. A gyerekek inkább a hangszereket szeretik, az idősek inkább énekelnek.\n\n– Mit mér a próbák alatt?\n\n– Egyszerű kérdéseket teszünk fel a tagoknak, és rövid feladatokkal vizsgáljuk az emlékezetüket. Azt is figyeljük, mennyire figyelnek egymásra. Az első hónapokban az idősek és a gyerekek külön ültek. Ma már vegyesen ülnek, és a szünetben beszélgetnek. Ezt a generációs változást tartom az egyik legszebb eredménynek. Egy kislány azóta a kórus egyik idős tagjától tanul zongorán játszani.\n\n– Fontos, hogy jól énekeljenek?\n\n– Egyáltalán nem. A legfontosabb az élvezet. Ha valaki örömmel jön, a hatás is erősebb. Ez az élvezet ráadásul terjed: ha a nagymama nevet, a gyerek is nevet, és fordítva.\n\n– Melyik dalokat szeretik a legjobban?\n\n– A gyerekek a gyors dalokat, az idősek a lassú, lágy dalokat. Van egy lágy dal, amelyet az egyik nagymama tanított meg a kórusnak. Amikor azt éneklik, a teremben mindenki csendben figyel, még a legkisebbek is.\n\n– Mit javasol azoknak, akik nem énekelnek kórusban?\n\n– Hogy tudatosan keressenek alkalmat arra, hogy énekeljenek. Nem kell hozzá tehetség. Már az is sokat számít, ha valaki tudatos figyelemmel lélegzik és hallgatja a saját hangját. Aki pedig gyerekkorában valamilyen hangszeren tanult, vegye elő újra. A zene nem felejt el minket, ha mi sem felejtjük el őt.\n\nKérdések:\nKik énekelnek Karolina kórusában?\n8 éves gyerekek és 80 éves nyugdíjasok.\nMilyen hangszerek vannak a teremben?\nEgy régi zongora, dobok, egy gitár és egy furulya.\nMit tart Karolina az egyik legszebb eredménynek?\nA generációs változást: ma már az idősek és a gyerekek vegyesen ülnek, és beszélgetnek.\nMi a legfontosabb Karolina szerint?\nAz élvezet, mert ha valaki örömmel jön, a hatás is erősebb.\nMit javasol Karolina azoknak, akik nem énekelnek kórusban?\nHogy tudatosan keressenek alkalmat arra, hogy énekeljenek."
+    },
+    {
+      "title": "A tanító fiókja",
+      "summary": "A retired village teacher in the Bakony finds forty years of collected local sayings in his desk drawer, and they become a university collection.",
+      "newWords": [
+        "tanító",
+        "visszavonul",
+        "mondás",
+        "ismeret",
+        "fiók",
+        "kitüntetés",
+        "matek",
+        "költészet"
+      ],
+      "text": "Fenyvesi Alpár negyven évig volt tanító egy kis faluban a Bakonyban. Matekot, magyart és rajzot tanított, ahogy a falusi tanítók szokták. A gyerekek szerették, mert még a matekot is érdekes történetekkel tanította. Tavaly nyáron, 65 évesen visszavonult.\n\nMielőtt visszavonult, rendet kellett tennie az asztalában az iskolában. Az asztalnak három fiókja volt. A felső fiókban tollak voltak, a középsőben régi papírok. Az alsó fiókot évek óta nem nyitotta ki senki. Ebben a fiókban harminc vékony füzet feküdt, tele kézzel írt mondásokkal.\n\nAlpár bácsi fiatal tanító korában kezdte gyűjteni őket. A faluban az idősek sok régi mondást használtak, amelyeket a városban már senki sem ismert. Minden mondás mellé odaírta, ki mondta, mikor és mit jelent. Az idős emberek azonban nemcsak mondásokat tudtak. Rengeteg ismeretük volt az időjárásról, a növényekről és a régi munkákról. Alpár bácsi ezeket az ismereteket is leírta: miből lehet tudni, hogy esni fog, mikor kell vetni a kertben, melyik fű segít, ha fáj valakinek a hasa.\n\nAz unokája, Zsolna, az egyetemen a magyar nyelvet tanulja. Amikor meglátta a füzeteket, megkérdezte, megmutathatja-e őket a tanárának. A professzor egy hét múlva maga jött el a faluba. Órákig olvasott Alpár bácsi konyhájában, aztán azt mondta, hogy ilyen gyűjteményt ritkán lát.\n\n– Ezek a mondások egy egész falu ismereteit őrzik – mondta. – És sok közülük igazi költészet. Hallgassa csak, milyen szépen szólnak!\n\nAlpár bácsi meglepődött. Ő sosem gondolt arra, hogy a mondásoknak köze lehet a költészethez. A tanszék diákjai a következő hónapokban minden oldalt bevittek a számítógépbe, és a mondásokat egy nagy gyűjteménybe rendezték. Tavasszal egy tudományos egyesület kitüntetést adott Alpár bácsinak a munkájáért.\n\nA kitüntetést egy kis ünnepségen kapta meg a falu iskolájában. A régi diákjai közül sokan eljöttek. Alpár bácsi rövid beszédet mondott.\n\n– Én csak leírtam, amit mások mondtak – kezdte. – A kitüntetés azoké, akik negyven évvel ezelőtt leültek velem beszélgetni. A mondásaik a falu költészete voltak, csak akkor még senki sem nevezte így.\n\nAz ünnepség után hazament, és a kitüntetést ugyanabba a fiókba tette, ahol a gyűjtemény negyven évig várt. A fiók most sem üres: Alpár bácsi újra gyűjteni kezdett. Visszavonult tanítóként van ideje arra, hogy a mai fiatalok mondásait is összegyűjtse.\n\nKérdések:\nMit tanított Alpár bácsi?\nMatekot, magyart és rajzot tanított.\nMit talált az alsó fiókban?\nHarminc vékony füzetet, tele kézzel írt mondásokkal.\nMilyen ismereteket írt le az idősektől?\nAz időjárásról, a növényekről és a régi munkákról szóló ismereteket.\nMit mondott a professzor a mondásokról?\nAzt, hogy egy egész falu ismereteit őrzik, és sok közülük igazi költészet.\nHova tette Alpár bácsi a kitüntetést?\nUgyanabba a fiókba, ahol a gyűjtemény negyven évig várt."
+    },
+    {
+      "title": "Hétvégi ügyelet",
+      "summary": "On her weekend duty at a university lab in Debrecen, a PhD student finds the power off during a storm and follows the lab's protocol to keep the frozen samples safe.",
+      "newWords": [
+        "hétvégi",
+        "benéz",
+        "szakad",
+        "villany",
+        "kényes",
+        "elromlik",
+        "protokoll",
+        "előírás",
+        "kimerül"
+      ],
+      "text": "Natasa harmadik éve doktori hallgató Debrecenben, az egyetem egyik biológiai laborjában. Szombaton nem kellene bemennie, de ezen a hétvégén ő vigyáz a laborra. A hétvégi feladat nem nehéz: naponta egyszer benéz a laborba, ellenőrzi a gépeket, és egy lapon aláírja, hogy minden rendben van.\n\nDélután kettőkor indul el otthonról. Szakad az eső, az utcákon áll a víz. Mire a laborhoz ér, csupa víz a kabátja. Benéz a bejárat melletti kis szobába, köszön a portásnak, aztán felmegy a harmadik emeletre.\n\nA folyosón sötét van. Natasa felkapcsolja a villanyt, de nem történik semmi. Az egész emeleten nincs villany. Először a nagy hűtőre gondol. A labor legfontosabb mintái mínusz 80 fokon állnak ebben a hűtőben. Ezek a minták nagyon kényesek: ha nem tartják őket elég hidegen, évek munkája vész kárba. A legkényesebbek legfelül vannak.\n\nA hűtő kis képernyője sötét. Natasa tudja, hogy a gép áram nélkül is tart még néhány óráig hideget, ha nem nyitják ki az ajtaját. De mikor jön vissza a villany? És mi van, ha közben maga a gép is elromlik?\n\nIlyen esetre a labornak protokollja van. A protokoll egy lap az ajtón, amely lépésről lépésre leírja, mit kell tenni, ha elromlik egy hűtő, vagy elmegy az áram. Natasa elolvassa. Az első előírás: ne nyisd ki a hűtő ajtaját. A második előírás: hívd fel az egyetem műszaki szolgálatát. A harmadik: értesítsd a labor vezetőjét.\n\nNatasa felhívja a műszaki szolgálatot. Egy nyugodt hang közli vele, hogy a vihar miatt a környéken több utcában nincs áram, de fél órán belül elindítják az épület saját generátorát. A generátor üzemanyaga hat óra alatt kimerül, de addigra az áram is biztosan visszajön. Aztán Natasa felhívja a vezetőjét, Otmárt is. Otmár arra kéri, hogy maradjon ott, amíg visszajön a villany.\n\nNatasa leül egy székre a folyosón. A telefonja lámpáját használja, ezért az akkumulátor gyorsan fogy. Tíz százaléknál kikapcsolja a lámpát, és a sötétben vár. Kicsit fél, de a protokoll segít neki: mindent megtett, amit az előírások kérnek.\n\nNegyven perc múlva egyszerre világos lesz, a lámpák újra égnek. A hűtő képernyője is világít: mínusz 76 fok. A minták épek, a gép is jól működik.\n\nEste Otmár is benéz a laborba. Megnézi a hűtőt, aztán Natasához fordul.\n\n– Pontosan a protokoll szerint jártál el – mondja. – Ha kinyitod az ajtót, hogy megnézd a mintákat, most nagy baj lenne.\n\nNatasa fáradtan mosolyog. Úgy érzi, teljesen kimerült, pedig alig csinált valamit. Hazafelé még mindig szakad az eső, de ő már nem bánja.\n\nKérdések:\nMi Natasa hétvégi feladata?\nNaponta egyszer benéz a laborba, ellenőrzi a gépeket, és aláírja, hogy minden rendben van.\nMiért aggódik Natasa, amikor nincs villany?\nMert a hűtőben nagyon kényes minták vannak, és ha nem tartják őket elég hidegen, évek munkája vész kárba.\nMi a protokoll első előírása?\nNe nyissa ki a hűtő ajtaját.\nMennyi idő alatt merül ki a generátor üzemanyaga?\nHat óra alatt kimerül, de addigra az áram is visszajön.\nMit mond Otmár este?\nAzt, hogy Natasa pontosan a protokoll szerint járt el."
+    },
+    {
+      "title": "Csokoládé cukor nélkül",
+      "summary": "A food engineer in Kecskemét spends a year developing a chocolate without added sugar, testing it at occasional tastings until it becomes the shop's best seller.",
+      "newWords": [
+        "csokoládé",
+        "mentes",
+        "gyártása",
+        "alkalmi",
+        "zacskó",
+        "szakadt",
+        "népszerűség"
+      ],
+      "text": "Malvin hat éve dolgozik Kecskeméten egy kis üzemben, ahol kézzel készítenek csokoládét. Az üzemhez egy bolt is tartozik, és a vevők gyakran kérdezték, van-e olyan csokoládé, amely mentes a cukortól. Sokan nem ehetnek cukrot, mások csak kevesebbet szeretnének enni. Két éve a tulajdonos azt kérte Malvintól, hogy fejlesszen ki egy ilyen terméket, és tervezze meg a gyártását is.\n\nA feladat nehezebb volt, mint gondolta. A cukor ugyanis nemcsak édes, hanem a csokoládé szerkezetét is adja. Ha kihagyják, a csokoládé keserű lesz, és könnyen törik. Malvin hónapokig próbálkozott. Mindent pontosan leírt: mennyi tejet tett bele, milyen édes anyagot, mennyi ideig keverte, és mi lett az eredmény. A legtöbb próba rosszul sikerült.\n\nA gyártása is gondot okozott. A cukor nélküli csokoládé máshogy viselkedett a gépekben, mint a hagyományos: gyorsabban kemény lett, és nehezen jött ki a formákból. Malvinnak a gépeken a hőmérsékletet is újra be kellett állítania.\n\nHogy megtudja, mit gondolnak a vevők, alkalmi bemutatókat tartott, ahol bárki ingyen kipróbálhatta az új csokoládét. Egy-egy ilyen alkalmi bemutatót a piacon, egy könyvtárban vagy egy iskolai rendezvényen tartott. A vendégek értékelték a mintákat, és leírták, mi tetszett nekik és mi nem.\n\nAz egyik bemutató előtt kis baj történt. Malvin a mintákat papírból készült zacskókba csomagolta, és az autó hátsó ülésére tette. Amikor megérkezett, észrevette, hogy az egyik zacskó szakadt: az alján egy lyuk volt, és a csokoládé darabjai kiestek az ülésre. A szakadt zacskóban alig maradt valami. Malvin a megmaradt darabokat gyorsan új zacskóba tette, és azóta mindig erősebb zacskót használ.\n\nA 10. recept végül mindenkinek tetszett. A bemutatókon a vendégek alig hitték el, hogy nincs benne cukor. Az új csokoládé fél év alatt a bolt legnépszerűbb terméke lett. A népszerűsége az üzem tulajdonosát is meglepte. A népszerűségnek ára is van: Malvinnak most kétszer annyit kell gyártania, mint tervezte.\n\nMalvin szerint a siker titka a türelem volt.\n\n– Kilenc rossz recept kellett ahhoz, hogy megszülessen egy jó – mondja. – Ha a harmadiknál feladom, ma nem lenne mit árulnunk.\n\nMost egy olyan csokoládén dolgozik, amely a tejtől is mentes.\n\nKérdések:\nMit kérdeztek a vevők a boltban?\nAzt, hogy van-e olyan csokoládé, amely mentes a cukortól.\nMiért volt nehéz a feladat?\nMert a cukor a csokoládé szerkezetét is adja, és nélküle a csokoládé keserű lesz, és könnyen törik.\nHol tartott Malvin alkalmi bemutatókat?\nA piacon, egy könyvtárban és egy iskolai rendezvényen.\nMi történt az egyik bemutató előtt?\nAz egyik zacskó szakadt volt, és a csokoládé darabjai kiestek az ülésre.\nMin dolgozik most Malvin?\nEgy olyan csokoládén, amely a tejtől is mentes."
+    },
+    {
+      "title": "Előadás az öbölben",
+      "summary": "In an e-mail to her sister, a young researcher describes her first conference on Lake Balaton: her nerves before her talk, the organisation and the society's general assembly.",
+      "newWords": [
+        "öböl",
+        "izgul",
+        "fárasztó",
+        "szervezése",
+        "előad",
+        "tervezés",
+        "közgyűlés"
+      ],
+      "text": "Kedves Jolanda!\n\nHárom nap után végre itthon vagyok, és elmesélem, milyen volt életem első konferenciája Tihanyban. Tudod, mennyire izgultam előtte. Egész héten alig aludtam.\n\nA konferenciát egy kutatóintézetben tartották, egy kis öböl partján. Az öböl vize reggelente teljesen nyugodt volt, és az ebédlő ablakából láttuk a vitorlásokat. Az intézetben évtizedek óta kutatják a tó halait és a vízben élő apró állatokat, és ebben az öbölben veszik a mintáik nagy részét.\n\nAz első nap fárasztó volt. Reggel kilenctől este hatig előadásokat hallgattunk, közben csak egy rövid ebédszünet volt. Este a szervezők levittek minket a partra sétálni, és a fárasztó nap után nagyon jólesett a friss levegő. A konferencia szervezése egyébként kiváló volt: mindenki tudta, hova kell mennie, és minden pontosan kezdődött. A szervezését egy fiatal kutató, Zoárd végezte, aki tavaly maga is itt adott elő először.\n\nMásnap délelőtt rám került a sor. Tizenöt percem volt arra, hogy előadjam a kutatásom eredményeit. Reggel annyira izgultam, hogy reggelizni sem tudtam. Zoárd azt mondta, hogy tavaly ő is nagyon izgult, és ez természetes. Szerinte aki egyáltalán nem izgul, az nem is veszi komolyan a dolgot.\n\nTudod, hogy a kutatásom a tó partján élő nádról szól, pontosabban arról, hogyan kellene figyelembe venni a nádat, amikor új strandot terveznek. A tervezésnél ugyanis gyakran elfelejtik, hogy a nádban sok madár és hal él. Amikor kiálltam, és elkezdtem előadni, a félelmem elmúlt. A végén négyen is kérdeztek, és egy idős professzor azt mondta, hogy jövőre szívesen meghallgatna egy hosszabb előadást is tőlem.\n\nA harmadik napon a társaság éves közgyűlését tartották. A közgyűlésen a tagok megbeszélték, hol legyen a jövő évi konferencia, és ki legyen az új titkár. Én még nem vagyok tag, de meghívtak, hogy hallgassam meg. Bevallom, a közgyűlés egy kicsit hosszú volt, de érdekes látni, hogyan dönt egy ilyen közösség.\n\nDélután még egyszer lementem az öbölhöz, és sokáig néztem a vizet. Fárasztó, de nagyon szép három nap volt. Jövőre megint megyek, és ha újra előadok, talán már kevésbé fogok izgulni.\n\nÖlel:\nXénia\n\nKérdések:\nHol tartották a konferenciát?\nTihanyban, egy kutatóintézetben, egy kis öböl partján.\nMilyen volt az első nap?\nFárasztó, mert reggel kilenctől este hatig előadásokat hallgattak.\nKi végezte a konferencia szervezését?\nEgy fiatal kutató, Zoárd, aki tavaly maga is itt adott elő először.\nMiről szól Xénia kutatása?\nArról, hogy a tervezésnél figyelembe kellene venni a nádat, amikor új strandot terveznek.\nMit beszéltek meg a tagok a közgyűlésen?\nAzt, hol legyen a jövő évi konferencia, és ki legyen az új titkár."
+    },
+    {
+      "title": "Gyűrű a madár lábán",
+      "summary": "A fourteen-year-old girl about to start secondary school spends a week at a bird ringing camp by Lake Fertő, overcomes her fear of holding birds and helps record a warbler ringed in Sweden.",
+      "newWords": [
+        "kilencedik",
+        "felvételi",
+        "aláírás",
+        "feláldoz",
+        "jelölés",
+        "meghatározása",
+        "szembenéz"
+      ],
+      "text": "Annabella tizennégy éves, és szeptemberben kezdi a kilencedik osztályt Sopronban. Tavasszal felvételit tett egy gimnáziumba, ahol sok biológiaórájuk lesz. A felvételi nehéz volt, de jól sikerült, és Annabella egész nyáron azon gondolkodott, mivel készülhetne fel a kilencedik évre.\n\nAz osztályfőnöke egy nyári tábort ajánlott neki a Fertő partján, ahol a madarak jelölésével foglalkoznak. A jelölés azt jelenti, hogy a kutatók egy kis fémgyűrűt tesznek a madár lábára. A gyűrűn egy szám van, így ha a madarat máshol újra megfogják, tudni lehet, honnan jött.\n\nA táborba csak a szülők aláírásával lehetett jelentkezni. Annabella édesanyja először nem akarta aláírni a lapot, mert a tábor ugyanarra a hétre esett, amikor a család a Balatonra készült. Annabellának választania kellett. Végül úgy döntött, hogy feláldozza a Balatonon tervezett hetet. Az édesanyja látta, mennyire fontos ez neki, és az aláírás is rákerült a lapra.\n\nA tábort Kadosa bácsi vezette, aki harminc éve foglalkozik a madarak jelölésével. Hajnalban kimentek a nádasba, ahol finom hálókat feszítettek ki. A hálóba repült madarakat óvatosan kiszedték, és a táborba vitték.\n\nAnnabellának az első napon a saját félelmével kellett szembenéznie. Mindig is félt attól, hogy egy élő állatot a kezébe vegyen. Kadosa bácsi megmutatta neki, hogyan kell tartani a madarat, hogy ne fájjon neki. Annabella keze remegett, de szembenézett a félelmével, és a harmadik napon már ő tartotta a madarakat, amíg a gyűrű a lábukra került.\n\nA legnehezebb a fajok meghatározása volt. Sok kis barna madár szinte egyforma, és sokszor csak a szárny hosszán vagy egy apró folton múlik, melyik fajhoz tartozik. Kadosa bácsi egy vastag könyvet adott neki, és Annabella esténként abból tanult.\n\nAz utolsó előtti napon egy kis nádiposzáta került a hálóba. A lábán már volt egy gyűrű, de nem magyar: Svédországban tették fel rá két évvel korábban. A kis madár azóta legalább kétszer repült el Afrikába és vissza. Annabella végezte a faj meghatározását, ő mérte meg a szárnyát, és az ő keze írása került a füzetbe.\n\nA tábor végén Kadosa bácsi azt mondta neki, hogy jövőre is szívesen látja. Annabella megígérte, hogy jön, akkor is, ha megint a Balatont kell feláldoznia érte.\n\nKérdések:\nMilyen osztályt kezd Annabella szeptemberben?\nA kilencedik osztályt kezdi egy gimnáziumban Sopronban.\nMit jelent a madarak jelölése?\nAzt, hogy a kutatók egy kis fémgyűrűt tesznek a madár lábára.\nMiért nem akarta az édesanyja először aláírni a lapot?\nMert a tábor ugyanarra a hétre esett, amikor a család a Balatonra készült.\nMivel kellett Annabellának az első napon szembenéznie?\nA saját félelmével, mert félt attól, hogy egy élő állatot a kezébe vegyen.\nMi volt a legnehezebb a táborban?\nA fajok meghatározása, mert sok kis barna madár szinte egyforma."
+    },
+    {
+      "title": "Amikor semmi sem történik",
+      "summary": "In a short essay, a researcher weighs why a failed trial of a hair-growth cream was still worth publishing, and why science needs its negative results.",
+      "newWords": [
+        "kopasz",
+        "elmaradt",
+        "nyilvánít",
+        "hajlamos",
+        "ugyanígy",
+        "gyógyít",
+        "amolyan"
+      ],
+      "text": "Kutatóként gyakran kérdezik tőlem, mit érez az ember, ha egy kísérlet nem sikerül. Erről szeretnék most írni, mert úgy gondolom, hogy a tudományban egy kudarc néha legalább annyit ér, mint egy siker.\n\nNéhány éve egy kis csapattal egy krémet vizsgáltunk, amelytől egy cég azt remélte, hogy a kopasz férfiak fején újra kinő a haj. Hatvan önkéntes jelentkezett, mindannyian kopaszok vagy majdnem kopaszok. A felük az igazi krémet kapta, a másik felük egy ugyanolyan illatú, de hatás nélküli krémet. Fél évig minden hónapban lefényképeztük a fejüket.\n\nAz eredmény egyértelmű volt: a várt hatás elmaradt. A kopasz fejeken mindkét csoportban ugyanannyi haj nőtt, vagyis szinte semmi. A cég sikertelennek nyilvánította a kísérletet, és leállította a fejlesztést. Én azonban úgy éreztem, hogy a sikertelen kísérletről is be kell számolnunk.\n\nEz nem magától értetődő. A kutatók hajlamosak csak a sikeres kísérleteikről írni, és ez érthető. Egy elmaradt hatásról nehéz izgalmas cikket írni, a folyóiratok pedig szívesebben közlik a sikereket. Aki pályázatot ír, az is hajlamos a jó híreket előre tenni. A kudarcot sokan amolyan magánügynek tekintik, amelyről jobb hallgatni.\n\nVan azonban egy másik oldal is. Ha egy kudarc rejtve marad, egy másik csapat évekkel később ugyanígy elvégzi ugyanazt a kísérletet, ugyanígy elkölti rá a pénzét, és ugyanígy csalódik. Egy közölt negatív eredmény amolyan térkép: megmutatja, merre nem érdemes menni.\n\nAz orvoslásban ez még fontosabb. Az orvos célja az, hogy gyógyítson, de ehhez azt is tudnia kell, mi nem gyógyít. Ha egy gyógyszerről csak a jó eredményeket ismerjük, többet várunk tőle, mint amit tud. Egy szer, amelyről csak úgy tűnik, hogy gyógyít, valójában időt vesz el a betegtől.\n\nVégül megírtuk a cikket. Két folyóirat visszautasította, a harmadik azonban közlésre alkalmasnak nyilvánította. Azóta több kolléga írt nekem, hogy a cikkünk miatt nem kezdtek bele egy hasonló kísérletbe.\n\nNem állítom, hogy minden kudarcról cikket kell írni. A kutató ideje drága, és a folyóiratok sem közölhetnek mindent. Azt viszont igen, hogy egy jól elvégzett kísérlet akkor is értékes, ha az eredménye nem az, amit vártunk. A kopasz önkénteseink haja nem nőtt ki, de a munkájuk nem volt hiába.\n\nKérdések:\nMit vizsgált a csapat néhány éve?\nEgy krémet, amelytől a kopasz férfiak fején újra ki kellett volna nőnie a hajnak.\nMi lett a kísérlet eredménye?\nA várt hatás elmaradt: mindkét csoportban szinte semmi haj nem nőtt.\nMit tett a cég az eredmény után?\nSikertelennek nyilvánította a kísérletet, és leállította a fejlesztést.\nMiért hajlamosak a kutatók csak a sikerekről írni?\nMert egy elmaradt hatásról nehéz izgalmas cikket írni, és a folyóiratok szívesebben közlik a sikereket.\nMiért hasznos egy közölt negatív eredmény?\nMert amolyan térkép: megmutatja, merre nem érdemes menni."
+    }
+  ]
+}
