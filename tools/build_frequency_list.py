@@ -105,6 +105,9 @@ JOIN_UNKNOWN = {"th", "lo", "km"}
 # Korean is counted from whole space-separated words, cut into a word and its particles as the reader
 # cuts them (korean_pieces); wordfreq's Korean is counted in morpheme pieces, which no reader shows.
 SOURCE_ORDER = {"ko": ["frequencywords", "leipzig"]}
+# Romanian is counted from web text and subtitles alone, as its list was first: Wikipedia's adds the words of its
+# own pages ("licențiere", "demografie") to the first thousand.
+SOURCE_ORDER["ro"] = ["wordfreq", "frequencywords"]
 # Languages whose sources are all blended, however many forms the first has.
 BLEND = {"ko"}
 
@@ -1244,6 +1247,31 @@ def build_arabic(found, size):
     return text, label
 
 
+# The kinds of word (noun, verb...) each Romanian word of the dictionary is with senses of its own, not only as another
+# word's form ("am", first-person form of avea; "fu", simple perfect of fi).
+ROMANIAN_KINDS = {}
+ROMANIAN_FORM_GLOSS = re.compile(r"\bof ([^\W\d_]+)")
+# A noun or verb the other kind's form is spelled as (fiu "son" and să fiu; cost and the verb costa) keeps its count when
+# text has its own forms (fiul, costul) at least this share of it.
+ROMANIAN_OWN_FORMS = 0.05
+# A verb spelled as a noun's articled form (urma, the trace and to follow; lupta) gives the noun this share of it.
+ROMANIAN_ARTICLED_SHARE = 0.8
+
+
+def romanian_kinds(db, lemmas):
+    """Each Romanian word's kinds whose senses are not all glossed as a form of a word its forms rows name."""
+    senses = defaultdict(list)
+    for word, p, text in db.execute("SELECT word_lc, pos, senses FROM entries"):
+        if p in WORD_POS:
+            senses[word, p] += [" ".join(s.get("glosses", [])) for s in json.loads(text)]
+    kinds = defaultdict(set)
+    for (word, p), glosses in senses.items():
+        kinds.setdefault(word, set())
+        if not all(set(ROMANIAN_FORM_GLOSS.findall(g)) & set(lemmas.get(word, ())) for g in glosses):
+            kinds[word].add(p)
+    return kinds
+
+
 def is_wordlike(text):
     """Letters, hyphens and apostrophes; and the vowel signs and other marks of the scripts that write them apart."""
     return all(c.isalpha() or unicodedata.category(c)[0] == "M" or c in "-'ʻ\u200c" for c in text)
@@ -1558,6 +1586,8 @@ def load_dictionary(language):
             if len(set(of)) > 1:
                 best = max(weight(lemma) for lemma in of)
                 lemmas[form_lc] = [lemma for lemma in of if weight(lemma) == best]
+    if language == "ro":
+        ROMANIAN_KINDS.update(romanian_kinds(db, lemmas))
     if language == "ar" and ARABIC_FORMS:
         lemmas = defaultdict(list, {form: list(of) for form, of in ARABIC_FORMS.items()})
         for word in ARABIC_LEXEMES - pos.keys():
@@ -1817,6 +1847,12 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
         total = sum(counts.values())
         for w, c in counts.items():
             freq[normalise(language, w)] += c / total / len(found)
+    if language == "ro":
+        # The reader cuts Romanian at hyphens (s-a is s + a, dintr-o is dintr + o), and so is each count.
+        for w in [w for w in freq if "-" in w]:
+            share = freq.pop(w)
+            for piece in filter(None, w.split("-")):
+                freq[piece] += share
     label = " + ".join(f"{label} ({SOURCE_LICENCES[name]})" for name, _, label in found)
     pos, lemmas, common, outdated = load_dictionary(language)
     overrides = OVERRIDES.get(language, {})
@@ -2133,6 +2169,12 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
             # so there a word keeps its count, and the few that are a verb's form are overrides (해 of 하다).
             if language == "ko" and not pos[form] & {"verb", "adj"}:
                 return {form: 1.0}
+            # A Romanian noun spelled as a commoner verb's form keeps its count and forms (fiu "son", not fi's; stea
+            # "star", not sta's), and a verb spelled as a noun's form shares it (urma, lupta).
+            if language == "ro":
+                shares = romanian_shares(form, others)
+                if shares:
+                    return shares
             # Without its vowels, an Arabic word is often spelled as another's verb form too (أنت as a form of أن "to
             # moan"): it keeps its count.
             if language == "ar":
@@ -2175,6 +2217,55 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
             weights = {l: weight(l) or 1e-12 for l in others}
         whole = sum(weights.values())
         return {l: w / whole for l, w in weights.items()}
+
+    romanian_forms = defaultdict(set)
+
+    def romanian_own(word):
+        """How common a Romanian word's forms are that are no other word's nor a noun themselves (fiul of fiu)."""
+        if not romanian_forms:
+            for form, of in lemmas.items():
+                if len(set(of)) == 1 and "noun" not in ROMANIAN_KINDS.get(form, set()):
+                    romanian_forms[of[0]].add(form)
+        return sum(count(f) for f in romanian_forms.get(word, ()))
+
+    def romanian_shares(form, others):
+        """
+        The words a Romanian word goes to by its kind, or None for the general rule. A word the dictionary has only as
+        another's form is that word's (uită of uita). A noun spelled as a verb's form keeps its count when text has its
+        own forms (fiul of fiu), or its articled form is the verb (cină and cina), but not the verb's participle (dus of
+        duce). A verb spelled as a noun's or adjective's form shares that spelling with it (lupta with luptă), or gives
+        it to it when text has few forms of the verb (griji, worries, not "to take care").
+        """
+        kinds = ROMANIAN_KINDS.get(form, set())
+        if form in ROMANIAN_KINDS and not kinds and others:
+            weights = {l: weight(l) or 1e-12 for l in others}
+            return {l: w / sum(weights.values()) for l, w in weights.items()}
+        nominal = lambda word: bool(ROMANIAN_KINDS.get(word, set()) & {"noun", "adj"})  # noqa: E731
+        verbal = lambda word: "verb" in ROMANIAN_KINDS.get(word, set()) <= {"verb", "intj"}  # noqa: E731
+        common_forms = lambda word: romanian_own(word) >= ROMANIAN_OWN_FORMS * count(word)  # noqa: E731
+        if verbal(form):
+            nouns = [l for l in others if nominal(l)]
+            if not nouns:
+                return None
+            if not common_forms(form):
+                return {l: 1.0 / len(nouns) for l in nouns}
+            # The articled noun is the commoner reading; an adjective takes its article seldom (continua, to continue).
+            articled = [l for l in nouns if "noun" in ROMANIAN_KINDS[l] and form in (l[:-1] + "a", l + "a")]
+            if articled:
+                return {form: 1.0 - ROMANIAN_ARTICLED_SHARE, **{l: ROMANIAN_ARTICLED_SHARE / len(articled) for l in articled}}
+            # A noun's plural (munci, works and to work) is shared alike; an adjective's form (prezenta) by how common
+            # each word's own forms are.
+            weights = {l: romanian_own(form) if "noun" in ROMANIAN_KINDS[l] else romanian_own(l) for l in nouns}
+            weights[form] = romanian_own(form)
+            whole = sum(weights.values())
+            return {l: w / whole for l, w in weights.items()} if whole else None
+        if kinds & {"noun", "adj"} and "verb" not in kinds:
+            verbs = [l for l in others if verbal(l)]
+            articled = any(l in (form[:-1] + "a", form + "a") and form in lemmas.get(l, ()) for l in verbs)
+            participle = any(form in (l[:-1] + "at", l[:-2] + "ut", l + "t") or l.endswith("e") and form[-1] in "ts" and form[0] == l[0] for l in verbs)
+            if verbs and (articled or common_forms(form) and not participle):
+                return {form: 1.0}
+        return None
 
     merged = defaultdict(list)
     merged_verbs = set()

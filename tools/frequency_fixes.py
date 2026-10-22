@@ -538,7 +538,7 @@ _OVERRIDES_B = {
         "om": ["om"], "oameni": ["om"], "oamenii": ["om"],
         "da": ["da"], "dat": ["da"], "dau": ["da"], "dai": ["da"], "dă": ["da"], "dată": ["dată"], "data": ["dată"], "date": ["dată"],
         "am": ["avea"], "au": ["avea"], "ai": ["avea", "al"], "e": ["fi"], "fost": ["fi"], "pot": ["putea"],
-        "ia": ["lua"], "iau": ["lua"], "iei": ["lua"], "pare": ["părea"], "pari": ["părea"], "pară": ["părea"],
+        "ia": ["lua"], "iau": ["lua"], "iei": ["lua"], "pare": ["părea"], "pari": ["părea"], "pară": ["pară", "părea"],
         "spus": ["spune"], "văzut": ["vedea"], "luat": ["lua"], "găsit": ["găsi"], "ajuns": ["ajunge"], "auzit": ["auzi"],
         "pierdut": ["pierde"], "folosit": ["folosi"], "plecat": ["pleca"], "adus": ["aduce"], "terminat": ["termina"],
         "gândit": ["gândi"], "lăsat": ["lăsa"], "realizat": ["realiza"], "vorbit": ["vorbi"], "uitat": ["uita"],
@@ -547,9 +547,9 @@ _OVERRIDES_B = {
         "si": ["și"], "in": ["în"], "într": ["în"], "ntr": ["în"], "oare": ["oare"], "oh": ["oh"], "stele": ["stea"],
         "casă": ["casă"], "echipă": ["echipă"], "mână": ["mână"], "bază": ["bază"], "cauză": ["cauză"], "armă": ["armă"],
         "lumină": ["lumină"], "listă": ["listă"], "clasă": ["clasă"], "linie": ["linie"], "republică": ["republică"], "comandă": ["comandă"],
-        "casa": ["casă"], "echipa": ["echipă"], "mâna": ["mână"], "baza": ["bază"], "cauza": ["cauză"], "arma": ["armă"],
-        "seara": ["seară"], "lumina": ["lumină"], "zona": ["zonă"], "lista": ["listă"], "clasa": ["clasă"], "linia": ["linie"],
-        "republica": ["republică"], "comanda": ["comandă"], "prima": ["prim"], "primă": ["prim"],
+        "casa": ["casă"], "echipa": ["echipă"], "mâna": ["mână"], "cauza": ["cauză"], "arma": ["armă"],
+        "seara": ["seară"], "zona": ["zonă"], "lista": ["listă"], "clasa": ["clasă"], "linia": ["linie"],
+        "republica": ["republică"], "prima": ["prim"], "primă": ["prim"],
         "moarte": ["moarte"], "moartea": ["moarte"], "necunoscut": ["necunoscut"], "necunoscută": ["necunoscut"], "necunoscute": ["necunoscut"],
         "românii": ["român"], "români": ["român"], "românesc": ["românesc"], "românești": ["românesc"], "românească": ["românesc"], "românește": ["românesc"],
         "plăcile": ["placă"], "plăcilor": ["placă"],
@@ -1430,6 +1430,17 @@ OVERRIDES["de"].update({
 for _articled in ("mașina", "pagina", "oferta", "suma", "grupa", "litera", "structura", "cifra", "masca", "taxa", "factura", "norma", "gara", "sămânța", "cota", "axa", "flota", "ancheta"):
     OVERRIDES["ro"][_articled] = [_articled[:-1] + "ă"]
     OVERRIDES["ro"].setdefault(_articled[:-1] + "ă", [_articled[:-1] + "ă"])
+
+# Romanian: the reader cuts words at hyphens, so the clitics a hyphen joins (s-a, n-am, l-am, dintr-o) are the words
+# they stand for, and "o" (an article, "her" and the "o să" future) is a word. Nouns spelled as a commoner verb's form
+# keep their count by rule; these spellings are mostly the other word in text (să fiu, mie "to me"), so they share it,
+# and "mii" is mie's "thousands", not mi's.
+OVERRIDES["ro"].update({
+    "o": ["o"], "s": ["se"], "n": ["nu"], "l": ["el"], "m": ["mă"], "i": ["îi"], "v": ["vă"], "d": ["de"], "c": ["că"],
+    "ș": ["și"], "dintr": ["din"], "printr": ["prin"], "intr": ["în"], "ti": ["tu"],
+    "fiu": ["fiu", "fi"], "mie": ["mie", "eu"], "cui": ["cui", "cine"], "ceară": ["ceară", "cere"], "moară": ["moară", "muri"],
+    "placă": ["placă", "plăcea"], "mii": ["mie"], "așteptat": ["aștepta"],
+})
 
 # "vir" is also a form of "ver" ("quando eu vir"), which took it and every form of "vir" with it.
 OVERRIDES["pt"].update({"vir": ["vir"], "veio": ["vir"], "vinha": ["vir"], "vindo": ["vir"], "vinham": ["vir"]})
