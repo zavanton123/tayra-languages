@@ -96,6 +96,9 @@ def fold(code, word):
     # The Ukrainian list writes the apostrophe straight (м'ясо); texts may use the curly one or the modifier letter (м’ясо, мʼясо).
     if code == "uk":
         return word.replace("’", "'").replace("ʼ", "'")
+    # Arabic words are matched without their vowel signs, as the reader matches them.
+    if code == "ar":
+        return re.sub("[\u064b-\u065f\u0670\u0640]", "", word)
     # Turkish texts may write â, î, û (hâlâ, dükkân, millî) where the list mostly has a, i, u; and a
     # capital İ lowercased by Python keeps a combining dot.
     if code == "tr":
@@ -343,6 +346,8 @@ def tokens(text, code=None, ranks=None, names=frozenset(), verbs=None, heads=Non
         return turkish_tokens(text)
     if code == "ko":
         return korean_tokens(text, ranks, names, heads)
+    if code == "ar":
+        return arabic_tokens(text, ranks, names)
     out = []
     for match in WORD.finditer(text):
         out.extend(part for part in re.split(r"-", match.group(0)) if part)
@@ -988,6 +993,55 @@ def korean_tokens(text, ranks, names, heads):
     return out
 
 
+# Arabic: words cut as the reader cuts them (ArabicParser, ported as build_frequency_list.arabic_pieces) by the ranks
+# of the list the app ships, not the courses' pinned one, and the ar-en pack's words: والكتاب is و + ال + كتاب.
+_arabic = {}
+
+
+def arabic_reader():
+    """The bundled list's words and ranks, as LexiconService gives them to the reader, and the ar-en pack's words."""
+    if not _arabic:
+        import sqlite3
+        import build_frequency_list as fl
+        words, bundled = fl.list_ranks(open(os.path.join(LISTS, "ar.tsv"), encoding="utf-8").read())
+        path = os.path.join(ROOT, "dictionaries", "ar-en.sqlite")
+        if not os.path.exists(path):
+            sys.exit(f"Arabic courses need the ar-en pack at {path}")
+        db = sqlite3.connect(path)
+        pack = {w for (w,) in db.execute("SELECT word_lc FROM entries UNION SELECT form_lc FROM forms") if w and " " not in w}
+        _arabic.update(fl=fl, known=lambda w: w in words or w in pack, rank=bundled.get)
+    return _arabic
+
+
+def arabic_tokens(text, ranks, names=frozenset()):
+    """
+    Arabic words as the reader cuts them: the letters written onto a word's front (و, ف, ب, ك, ل, ال, لل, س) and the
+    word, each a word of its own; the letters in front are known little words. A word the list lacks with a pronoun
+    after it is counted as the list's word it is on (كتابهم as كتاب). A name, with the letters in front of it (وسارة),
+    is [KNOWN]. Vowel signs are left out, as the reader leaves them out of the words it matches.
+    """
+    a = arabic_reader()
+    fl = a["fl"]
+    out = []
+    for match in WORD.finditer(fl.ARABIC_MARKS.sub("", text)):
+        run = match.group(0)
+        if run in names:
+            out.append(KNOWN)
+            continue
+        named = next((clitics for clitics, stem in fl.arabic_analyses(run) if stem in names), None)
+        if named is not None:
+            out.extend(named + [KNOWN])
+            continue
+        for piece in fl.arabic_pieces(run, a["known"], a["rank"]):
+            if piece in ranks:
+                out.append(piece)
+            elif piece in fl.ARABIC_CLITICS:
+                out.append(KNOWN)
+            else:
+                out.append(next((b for b in fl.arabic_bases(piece) if b in ranks), piece))
+    return out
+
+
 def check(path, brief=False):
     course = json.load(open(path, encoding="utf-8"))
     code = course["id"].split("-")[0]
@@ -1002,7 +1056,7 @@ def check(path, brief=False):
     names = {fold(code, n.lower()) for n in course.get("names", [])}
     # In Spanish a name of several words or joined by a hyphen (San José, al-Ándalus) counts as one known word wherever it
     # is written whole; the earlier languages count such names word by word, as they were written to.
-    long_names = sorted((n for n in course.get("names", []) if " " in n or "-" in n or (code == "it" and "'" in n)), key=len, reverse=True) if code in ("es", "it", "sr", "nl", "da", "no", "sv", "el") else []
+    long_names = sorted((n for n in course.get("names", []) if " " in n or "-" in n or (code == "it" and "'" in n)), key=len, reverse=True) if code in ("es", "it", "sr", "nl", "da", "no", "sv", "el", "ar") else []
     # Chinese writes no spaces, so every name is matched whole, the longest first.
     if code in ("zh", "ja"):
         long_names = sorted(course.get("names", []), key=len, reverse=True)
@@ -1079,6 +1133,8 @@ def check(path, brief=False):
             text = re.sub(r"(?m)^Запитання:", "", text)
         if code == "ko":
             text = re.sub(r"(?m)^질문:", "", text)
+        if code == "ar":
+            text = re.sub(r"(?m)^أسئلة:", "", text)
         toks = tokens(text, code, ranks, names, verbs, set(words) if code in ("it", "ko") else None)
         # A century or a king's number in capital Roman numerals (siglo XVI, Carlos V) is a number.
         if code in ("es", "ru", "it", "sr", "uk"):
