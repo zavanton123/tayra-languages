@@ -1,6 +1,7 @@
 package com.tayra.languages.core.domain.service
 
 import com.tayra.languages.core.domain.model.Language
+import kotlin.coroutines.cancellation.CancellationException
 
 /**
  * An example sentence using a term, with a translation and a recording when available; a sentence
@@ -91,10 +92,22 @@ data class ExampleSearchResult(
     val total: Int?,
     /** Opaque link to the next page, or null on the last page. */
     val nextPage: String?,
+    /** The source could not be asked (offline, too slow, a server error), so its having no examples is not known. */
+    val failed: Boolean = false,
 ) {
     companion object {
         val EMPTY = ExampleSearchResult(emptyList(), null, null)
+        val FAILED = ExampleSearchResult(emptyList(), null, null, failed = true)
     }
+}
+
+/** What [block] finds, or a failed result when it throws anything but a cancellation. */
+inline fun failedOnError(block: () -> ExampleSearchResult): ExampleSearchResult = try {
+    block()
+} catch (e: CancellationException) {
+    throw e
+} catch (e: Exception) {
+    ExampleSearchResult.FAILED
 }
 
 /** Finds example sentences for a term, e.g. from a sentence corpus. */
@@ -106,6 +119,7 @@ interface ExampleSentencesProvider {
     suspend fun examples(text: String, language: Language, targetLanguage: String, limit: Int = 10): List<ExampleSentence> =
         search(ExampleSearchQuery(text, language, targetLanguage, minWords = 1, maxWords = 15, sort = ExampleSort.RANDOM, limit = limit)).sentences
 
+    /** Never throws but for cancellation; a source that could not be asked gives a [ExampleSearchResult.failed] result. */
     suspend fun search(query: ExampleSearchQuery): ExampleSearchResult
 
     suspend fun nextPage(nextPage: String, targetLanguage: String): ExampleSearchResult

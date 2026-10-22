@@ -8,10 +8,14 @@ import com.tayra.languages.core.domain.service.ExampleSearchResult
 import com.tayra.languages.core.domain.service.ExampleSentence
 import com.tayra.languages.core.domain.service.ExampleSentencesProvider
 import io.ktor.client.HttpClient
+import io.ktor.client.plugins.timeout
+import io.ktor.client.request.HttpRequestBuilder
 import io.ktor.client.request.get
 import io.ktor.client.request.parameter
+import io.ktor.client.statement.HttpResponse
 import io.ktor.client.statement.bodyAsText
 import io.ktor.http.HttpStatusCode
+import kotlinx.coroutines.CancellationException
 import kotlinx.serialization.json.Json
 import kotlinx.serialization.json.JsonArray
 import kotlinx.serialization.json.JsonObject
@@ -38,8 +42,9 @@ class TatoebaExamplesProvider(
         val source = LanguageCodes.tatoebaCodeFor(query.language.name) ?: return ExampleSearchResult.EMPTY
         val target = LanguageCodes.tatoebaCode(query.targetLanguage) ?: "eng"
         if (text.isEmpty() || source == target) return ExampleSearchResult.EMPTY
-        val body = fetch(text) {
+        return fetch(text, target) {
             client.get(baseUrl) {
+                slow()
                 parameter("lang", source)
                 parameter("q", text)
                 parameter("trans:lang", target)
@@ -61,22 +66,30 @@ class TatoebaExamplesProvider(
                 query.transIsUnapproved?.let { parameter("trans:is_unapproved", it.apiValue) }
                 query.transIsOrphan?.let { parameter("trans:is_orphan", it.apiValue) }
             }
-        } ?: return ExampleSearchResult.EMPTY
-        return parse(body, target)
+        }
     }
 
     override suspend fun nextPage(nextPage: String, targetLanguage: String): ExampleSearchResult {
         val target = LanguageCodes.tatoebaCode(targetLanguage) ?: "eng"
-        val body = fetch(nextPage) { client.get(nextPage) } ?: return ExampleSearchResult.EMPTY
-        return parse(body, target)
+        return fetch(nextPage, target) { client.get(nextPage) { slow() } }
     }
 
-    private suspend fun fetch(what: String, request: suspend () -> io.ktor.client.statement.HttpResponse): String? = try {
+    // Tatoeba can take half a minute to answer, longer than the shared client waits.
+    private fun HttpRequestBuilder.slow() = timeout { requestTimeoutMillis = TIMEOUT; socketTimeoutMillis = TIMEOUT }
+
+    /** The page [request] gives; a timeout, a network error or a server error is a failure, not a page without examples. */
+    private suspend fun fetch(what: String, target: String, request: suspend () -> HttpResponse): ExampleSearchResult = try {
         val response = request()
-        if (response.status == HttpStatusCode.OK) response.bodyAsText() else null
+        when {
+            response.status == HttpStatusCode.OK -> parse(response.bodyAsText(), target)
+            response.status.value >= 500 -> ExampleSearchResult.FAILED.also { Logger.w { "Tatoeba answered ${response.status} for $what" } }
+            else -> ExampleSearchResult.EMPTY
+        }
+    } catch (e: CancellationException) {
+        throw e
     } catch (e: Exception) {
         Logger.w(e) { "Tatoeba lookup failed for $what" }
-        null
+        ExampleSearchResult.FAILED
     }
 
     private fun parse(body: String, target: String): ExampleSearchResult = runCatching { extract(body, target) }
@@ -123,5 +136,6 @@ class TatoebaExamplesProvider(
 
     private companion object {
         const val AUDIO_FILE_URL = "https://api.tatoeba.org/v1/audios"
+        const val TIMEOUT = 45_000L
     }
 }

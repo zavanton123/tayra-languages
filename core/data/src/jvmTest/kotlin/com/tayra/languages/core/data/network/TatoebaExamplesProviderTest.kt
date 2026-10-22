@@ -9,13 +9,28 @@ import com.tayra.languages.core.domain.service.YesNo
 import io.ktor.client.HttpClient
 import io.ktor.client.engine.mock.MockEngine
 import io.ktor.client.engine.mock.respond
+import io.ktor.client.plugins.HttpTimeout
+import io.ktor.client.plugins.HttpTimeoutCapability
 import io.ktor.http.HttpStatusCode
 import io.ktor.http.headersOf
+import kotlinx.coroutines.CompletableDeferred
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.awaitCancellation
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.runBlocking
 import kotlinx.coroutines.test.runTest
+import java.net.SocketTimeoutException
 import kotlin.test.Test
 import kotlin.test.assertEquals
+import kotlin.test.assertFalse
+import kotlin.test.assertNull
+import kotlin.test.assertTrue
 
 class TatoebaExamplesProviderTest {
+
+    private fun client(engine: MockEngine) = HttpClient(engine) { install(HttpTimeout) }
+
+    private val query = ExampleSearchQuery("immer", Language(name = "German"), "en")
 
     private val body = """
         {"data": [
@@ -36,7 +51,7 @@ class TatoebaExamplesProviderTest {
             url = request.url.toString()
             respond(body, HttpStatusCode.OK, headersOf("Content-Type", "application/json"))
         }
-        val provider = TatoebaExamplesProvider(HttpClient(engine), baseUrl = "https://example.test/sentences")
+        val provider = TatoebaExamplesProvider(client(engine), baseUrl = "https://example.test/sentences")
         val examples = provider.examples("immer", Language(name = "German"), targetLanguage = "en")
         assertEquals(
             listOf(ExampleSentence("Ich vertraute ihr immer.", "I've always trusted her.", "https://api.tatoeba.org/v1/audios/9/file"), ExampleSentence("Immer noch?", null)),
@@ -72,7 +87,7 @@ class TatoebaExamplesProviderTest {
             urls.add(request.url.toString())
             respond(body, HttpStatusCode.OK, headersOf("Content-Type", "application/json"))
         }
-        val provider = TatoebaExamplesProvider(HttpClient(engine), baseUrl = "https://example.test/sentences")
+        val provider = TatoebaExamplesProvider(client(engine), baseUrl = "https://example.test/sentences")
         val query = ExampleSearchQuery(
             text = "immer", language = Language(name = "German"), targetLanguage = "en",
             minWords = 4, maxWords = null, sort = ExampleSort.SHORTEST, isNative = YesNo.YES, hasAudio = null,
@@ -99,5 +114,49 @@ class TatoebaExamplesProviderTest {
         assertEquals(emptyList(), provider.examples("x", Language(name = "Klingon"), "en"))
         assertEquals("cmn", LanguageCodes.tatoebaCodeFor("Classical Chinese"))
         assertEquals("rus", LanguageCodes.tatoebaCode("ru"))
+    }
+
+    @Test
+    fun requestsWaitLongerThanTheSharedClient() = runTest {
+        val waits = mutableListOf<Long?>()
+        val engine = MockEngine { request ->
+            waits += request.getCapabilityOrNull(HttpTimeoutCapability)?.requestTimeoutMillis
+            waits += request.getCapabilityOrNull(HttpTimeoutCapability)?.socketTimeoutMillis
+            respond(body, HttpStatusCode.OK, headersOf("Content-Type", "application/json"))
+        }
+        val provider = TatoebaExamplesProvider(client(engine), baseUrl = "https://example.test/sentences")
+        provider.nextPage(provider.search(query).nextPage!!, "en")
+        assertEquals(List<Long?>(4) { 45_000L }, waits)
+    }
+
+    @Test
+    fun aTimeoutIsAFailureNotAnEmptyResult() = runTest {
+        val provider = TatoebaExamplesProvider(client(MockEngine { throw SocketTimeoutException("timeout") }), baseUrl = "https://example.test/sentences")
+        assertTrue(provider.search(query).failed)
+        assertTrue(provider.nextPage("https://example.test/sentences?after=1", "en").failed)
+        assertEquals(emptyList(), provider.examples("immer", Language(name = "German"), "en"), "the short list stays quietly empty")
+    }
+
+    @Test
+    fun aServerErrorIsAFailureButARefusedQueryFindsNothing() = runTest {
+        val unavailable = TatoebaExamplesProvider(client(MockEngine { respond("", HttpStatusCode.ServiceUnavailable) }), baseUrl = "https://example.test/sentences")
+        assertTrue(unavailable.search(query).failed)
+        val refused = TatoebaExamplesProvider(client(MockEngine { respond("", HttpStatusCode.BadRequest) }), baseUrl = "https://example.test/sentences")
+        val result = refused.search(query)
+        assertFalse(result.failed)
+        assertEquals(emptyList(), result.sentences)
+    }
+
+    @Test
+    fun aCancelledLookupIsNotTurnedIntoAResult() = runBlocking {
+        val asked = CompletableDeferred<Unit>()
+        val provider = TatoebaExamplesProvider(client(MockEngine { asked.complete(Unit); awaitCancellation() }), baseUrl = "https://example.test/sentences")
+        var result: Any? = null
+        val job = launch(Dispatchers.Default) { result = provider.search(query) }
+        asked.await()
+        job.cancel()
+        job.join()
+        assertTrue(job.isCancelled)
+        assertNull(result)
     }
 }
