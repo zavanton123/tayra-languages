@@ -1,5 +1,9 @@
 package com.tayra.languages.core.data.di
 
+import com.tayra.languages.core.data.repository.PlaylistRepositoryImpl
+import com.tayra.languages.core.domain.playlists.ListeningTime
+import com.tayra.languages.core.domain.playlists.PlaylistRepository
+import com.tayra.languages.core.domain.playlists.PlaylistService
 import com.tayra.languages.core.domain.service.ChineseScriptExamples
 import com.russhwolf.settings.Settings
 import com.tayra.languages.core.data.backup.BackupRepositoryImpl
@@ -220,6 +224,9 @@ val dataModule: Module = module {
     single<SampleCourseSource> { InstalledCoursePacks(get()) }
     single { CourseService(get(), get(), get(), get(), get()) }
     single { CoursePackService(get(), get()) }
+    single<PlaylistRepository> { PlaylistRepositoryImpl(get()) }
+    single { ListeningTime(get()) }
+    single { PlaylistService(get(), get(), get(), get()) }
     single<BookPackStore> { BookPackRepository(get()) }
     single { BookPackService(get(), get(), get(), get()) }
     single { BookDiscoveryService(listOfNotNull(GutenbergCatalog(get()), WikisourceCatalog(get()), GdlCatalog(get()), StorybooksCatalog(get()), StoryWeaverCatalog(get()).takeIf { pdfSupported }, WolneLekturyCatalog(get()), AozoraCatalog(get()), LitteraturbankenCatalog(get()), BenYehudaCatalog(get()), AdlCatalog(get()), GanjoorCatalog(get()), AdamastorCatalog(get()), ElgCatalog(get()), TextGridCatalog(get()), LiberLiberCatalog(get()), ElejandriaCatalog(get())), get(), get(), get()) }
