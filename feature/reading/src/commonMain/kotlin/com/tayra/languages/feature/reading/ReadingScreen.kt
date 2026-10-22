@@ -733,14 +733,17 @@ private fun ReadingBody(
     EdgeScrollbar(scrollState)
     if (!compact && !focus) {
         val settingsDescription = tr("Reader settings")
-        AppTooltip(settingsDescription, Modifier.align(Alignment.BottomStart).padding(AppSpacing.xxl)) {
-            Box(
-                Modifier.size(PLAY_CONTROL_SIZE)
-                    .shadow(AppElevation.raised, AppShapes.circle).clip(AppShapes.circle).background(MaterialTheme.colorScheme.primary)
-                    .clickable(onClick = onMenu)
-                    .semantics { contentDescription = settingsDescription },
-                contentAlignment = Alignment.Center,
-            ) { Icon(Icons.Default.Settings, contentDescription = null, tint = MaterialTheme.colorScheme.onPrimary, modifier = Modifier.size(AppSizes.iconLarge)) }
+        // The tooltip does not pass the alignment on to the screen's box, so a box of its own takes the corner.
+        Box(Modifier.align(Alignment.BottomStart).padding(AppSpacing.xxl)) {
+            AppTooltip(settingsDescription) {
+                Box(
+                    Modifier.size(PLAY_CONTROL_SIZE)
+                        .shadow(AppElevation.raised, AppShapes.circle).clip(AppShapes.circle).background(MaterialTheme.colorScheme.primary)
+                        .clickable(onClick = onMenu)
+                        .semantics { contentDescription = settingsDescription },
+                    contentAlignment = Alignment.Center,
+                ) { Icon(Icons.Default.Settings, contentDescription = null, tint = MaterialTheme.colorScheme.onPrimary, modifier = Modifier.size(AppSizes.iconLarge)) }
+            }
         }
     }
     if (state.settings.showSentencePlay && pageSentences.isNotEmpty()) {
