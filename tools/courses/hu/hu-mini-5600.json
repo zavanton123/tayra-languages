@@ -1,0 +1,186 @@
+{
+  "id": "hu-mini-5600",
+  "rankUpTo": 5600,
+  "level": "C1",
+  "title": "Újságírás és média",
+  "description": "Ten stories and texts from the world of journalism and media: a live TV broadcast from the puszta, a newspaper column, a local report, a photographer's portrait, a travel column, a science interview, a journalist's essay, a letter to the editor, a cycling report and a magazine photo shoot.",
+  "topic": "Journalism and media",
+  "names": [
+    "Csordás",
+    "Adrianna",
+    "Ágost",
+    "Koltai",
+    "Artúr",
+    "Balaton",
+    "Pálos",
+    "Ilda",
+    "Tapolca",
+    "Dévai",
+    "Leonóra",
+    "Gyarmati",
+    "Jolánka",
+    "Kaposvár",
+    "Alinka",
+    "Debrecen",
+    "Lisszabon",
+    "Garai",
+    "Sztella",
+    "Vértes",
+    "Odília",
+    "Kapuvár",
+    "Budapest",
+    "Hollósi",
+    "Jozefa",
+    "Nyitrai",
+    "Szvetlána",
+    "Mátra",
+    "Mátraháza",
+    "Szalóki",
+    "Zelka",
+    "Enci",
+    "Nadja",
+    "Berlin"
+  ],
+  "lessons": [
+    {
+      "title": "Élő adás a pusztáról",
+      "summary": "A local TV reporter prepares and presents a live broadcast with a horse herder on the puszta at Bugac in a heatwave.",
+      "newWords": [
+        "közvetítés",
+        "sugároz",
+        "televíziós",
+        "pásztor",
+        "nőstény",
+        "rúd",
+        "extrém"
+      ],
+      "text": "Csordás Adrianna tíz éve riporter egy kis alföldi televíziós csatornánál. A csatorna a környék életéről sugároz műsorokat: piacokról, iskolákról, falusi ünnepekről. Júliusban Adrianna különleges feladatot kapott. Egy szombati napon élő közvetítést kellett készítenie a bugaci pusztáról, ahol a pásztorok a régi hagyományokat mutatják be a látogatóknak.\n\nEgy élő közvetítés mindig nehezebb, mint egy felvett riport. Ha valaki hibázik, azt utólag nem lehet kivágni, mert a csatorna azonnal sugározza a képet és a hangot. Adrianna ezért két nappal korábban kiment a pusztára, hogy mindent előre megbeszéljen.\n\nOtt ismerkedett meg Ágost bácsival. Ágost bácsi negyven éve pásztor, és lovakra vigyáz. Megmutatta Adriannának a karámot, amelyet hosszú fa rudakból épített.\n\n– A lovak többsége nőstény – magyarázta. – A nőstények egész évben együtt maradnak a kicsikkel. A fiatal hímeket külön tartjuk.\n\n– És honnan tudja, melyik ló nőstény? – kérdezte Adrianna.\n\n– Negyven év után az ember már messziről látja – nevetett a pásztor.\n\nÁgost bácsi még sosem állt televíziós kamera előtt, ezért kicsit izgult. Adrianna megnyugtatta: egy televíziós riportban csak mesélnie kell, ahogy most is.\n\nAz előrejelzés szombatra extrém hőséget ígért, 38 fokot. Adrianna aggódott a kollégái miatt.\n\n– Nekünk ez nem extrém – mondta Ágost bácsi. – A pásztor minden időben kint van a lovakkal. De hozzanak sok vizet, és álljanak az árnyékba, amikor csak lehet.\n\nSzombaton reggel hétkor érkezett meg a csapat. Egy kolléga a kamerát kezelte, egy másik pedig egy hosszú rúdon tartotta a mikrofont, hogy a pásztor hangja is tisztán szóljon. Pontban tízkor kezdődött a közvetítés. Adrianna a karám előtt állt, és bemutatta Ágost bácsit. A pásztor elmondta, hogy a nőstények és a kicsik egész nap együtt vannak kint a pusztán. Aztán a pásztorok lóra ültek, és megmutatták, hogyan terelik a lovakat. A kolléga a rúddal mindig követte azt, aki beszélt, de a mikrofon egyszer sem került a képbe.\n\nDélre valóban extrém meleg lett. A közvetítés után mindenki a fák árnyékába ült, és vizet ivott. Este Adrianna telefont kapott a csatorna vezetőjétől. A nézők sok kedves üzenetet küldtek, és többen azt kérdezték, mikor sugároznak újra közvetítést a pusztáról.\n\nKérdések:\nMit sugároz a csatorna, ahol Adrianna dolgozik?\nA környék életéről sugároz műsorokat: piacokról, iskolákról, falusi ünnepekről.\nMiért nehezebb egy élő közvetítés, mint egy felvett riport?\nMert ha valaki hibázik, azt nem lehet kivágni: a csatorna azonnal sugározza a képet és a hangot.\nMire vigyáz Ágost bácsi?\nLovakra vigyáz. A lovak többsége nőstény.\nMit mondott a pásztor az extrém hőségről?\nAzt, hogy nekik ez nem extrém, mert a pásztor minden időben kint van.\nMire kellett a hosszú rúd?\nEgy kolléga azon tartotta a mikrofont, hogy a pásztor hangja tisztán szóljon."
+    },
+    {
+      "title": "A tárca",
+      "summary": "A retired philosophy teacher who writes a weekly newspaper column finds his topic on an evening walk through his quiet small town.",
+      "newWords": [
+        "tárca",
+        "kisváros",
+        "olyankor",
+        "ironikus",
+        "filozófia",
+        "inspirál",
+        "kong"
+      ],
+      "text": "Koltai Artúr egy kisvárosban él, nem messze a Balatontól. Harminc évig filozófiát tanított a helyi gimnáziumban, most nyugdíjas. Hét éve minden héten tárcát ír a megyei lapnak. A tárca rövid, személyes hangú írás a hétköznapokról: egy beszélgetésről a piacon, egy esős délutánról, egy szomszéd kertjéről. Artúr tárcái kicsit ironikusak, de sosem bántók. Az olvasók inkább mosolyognak rajtuk, mint nevetnek.\n\nEgy héten Artúrnak semmi sem jutott eszébe. Hétfőn leült az íróasztalához, és sokáig nézte az üres lapot. Kedden ugyanígy telt el a délelőtt. Olyankor, amikor nem jön az ötlet, Artúr sétálni indul. Most is így tett.\n\nSzerda este volt. A kisváros utcái üresek voltak, a boltok már bezártak. A piac csarnoka ilyenkor üresen kong. Artúr hallotta, hogy a lépései is kongnak a régi köveken. Egy nyitott ablakból zongora hangja szólt, a pékség előtt egy macska ült. Artúr leült egy padra, és hallgatta a csendet.\n\nHazafelé arra gondolt, hogy a filozófia sem nagy szavakkal kezdődik. A filozófia azzal kezdődik, hogy az ember megáll, és figyel. Otthon leült, és egy óra alatt megírta a tárcát. Arról szólt, hogy egy kisvárosban olyankor is történik valami, amikor látszólag semmi sem történik: kong a csarnok, szól a zongora, ül a macska.\n\nA következő héten több levél érkezett a laphoz, mint bármikor korábban. Egy fiatal anya azt írta, hogy a tárca inspirálta: azóta esténként ő is sétál egyet a gyerekével. Egy diák megkérdezte, milyen könyvet ajánlana neki, ha filozófiát akar tanulni. Egy idős úr pedig azt írta, hogy ötven éve lakik a kisvárosban, de még sosem figyelt fel arra, hogy kong a csarnok.\n\nArtúr kicsit ironikusnak találta, hogy éppen arról az írásáról kapta a legtöbb levelet, amelyben semmi sem történik. Mégis örült. Úgy gondolta, egy jó tárca nem tanít, hanem inspirál: megmutat valamit, amit mindenki lát, de kevesen vesznek észre.\n\nKérdések:\nMit csinált Koltai Artúr harminc évig?\nFilozófiát tanított a helyi gimnáziumban.\nMilyen írás a tárca?\nRövid, személyes hangú írás a hétköznapokról.\nMit csinál Artúr olyankor, amikor nem jön az ötlet?\nSétálni indul.\nMit hallott Artúr szerda este a piacnál?\nHallotta, hogy a csarnok üresen kong, és hogy a lépései is kongnak a köveken.\nHogyan inspirálta a tárca a fiatal anyát?\nAzóta esténként ő is sétál egyet a gyerekével.\nMit talált Artúr ironikusnak?\nAzt, hogy éppen arról az írásáról kapta a legtöbb levelet, amelyben semmi sem történik."
+    },
+    {
+      "title": "Új élet a régi toronyban",
+      "summary": "A local reporter writes about an abandoned water tower that has been restored as a lookout and café, and attends its opening.",
+      "newWords": [
+        "elhagyatott",
+        "építmény",
+        "kihalt",
+        "avat",
+        "mérnöki",
+        "fenntartása",
+        "bérleti"
+      ],
+      "text": "Pálos Ilda egy helyi internetes újságnak ír Tapolcán. A vasútállomás mögött áll a város régi víztornya. Száz éve épült, és sokáig ez volt a város legmagasabb építménye. Az utóbbi húsz évben azonban senki sem használta. Az ablakai betörtek, a falain fű nőtt. Az elhagyatott torony körül az állomás környéke is kihalt lett: este alig járt arra valaki.\n\nTavaly a város úgy döntött, hogy felújítja az elhagyatott tornyot. A tetejére kilátó került, az aljába egy kis kávézó. Ilda azt a feladatot kapta, hogy írjon cikket a munkáról, mielőtt szombaton avatják az épületet.\n\nPénteken találkozott Dévai Leonórával, a mérnökkel, aki a munkát vezette. Leonóra mérnöki irodája harminc éve foglalkozik régi épületekkel. Körbevezette Ildát a toronyban.\n\n– Egy ilyen régi építmény felújítása komoly mérnöki feladat – mondta. – A falak erősek voltak, de a lépcsőt teljesen újra kellett építeni. Egy évig dolgoztunk rajta.\n\nIlda megkérdezte, mennyibe kerül majd a torony fenntartása.\n\n– Ez volt a legnagyobb kérdés – felelte Leonóra. – Egy ilyen épület fenntartása sokba kerül, ezért a földszintet bérbe adták egy kávézónak. A bérleti díjból fizetik a költségek nagy részét.\n\nA kávézót egy fiatal pár nyitotta meg. A bérleti szerződésük tíz évre szól, és már most sok programot terveznek: koncerteket, felolvasásokat, kiállításokat.\n\nSzombaton délelőtt avatták fel a tornyot. Sokan eljöttek: idősek, akik még emlékeztek a működő víztoronyra, és gyerekek, akik most látták először belülről. A polgármester átvágta a szalagot, aztán mindenki felment a kilátóba. Fentről az egész várost látni lehetett, a távolban pedig a Balatont is. Leonóra elmondta, hogy a lépcső most már száz évig kibírja.\n\nIlda még aznap este megírta a cikket. Azzal fejezte be, hogy a régi, elhagyatott épületből újra a város egyik legszebb építménye lett. Az állomás környéke sem kihalt már: este is égnek a lámpák a kávézóban, és az emberek szívesen ülnek le a torony alatt.\n\nKérdések:\nMi volt sokáig a város legmagasabb építménye?\nA régi víztorony a vasútállomás mögött.\nMilyen volt az állomás környéke, amíg a torony elhagyatott volt?\nKihalt volt: este alig járt arra valaki.\nMi volt a legnehezebb mérnöki feladat?\nA lépcsőt teljesen újra kellett építeni.\nMiből fizetik a torony fenntartását?\nA kávézó bérleti díjából fizetik a költségek nagy részét.\nMikor avatták a tornyot?\nSzombaton délelőtt avatták fel."
+    },
+    {
+      "title": "Egy város emlékeinek őrzője",
+      "summary": "A newspaper portrait of an 84-year-old press photographer whose archive has gone to the town museum, where a young curator arranges an exhibition.",
+      "newWords": [
+        "portré",
+        "közismert",
+        "munkássága",
+        "antik",
+        "birtokol",
+        "állomány",
+        "rendezése",
+        "őrző"
+      ],
+      "text": "Gyarmati Jolánka közismert alak Kaposváron. Negyven évig volt fotós a megyei újságnál. Szinte minden fontos eseményt ő fényképezett: új hidak és iskolák átadását, koncerteket, sportversenyeket. Leginkább azonban portrékat készített: piaci árusokról, buszvezetőkről, tanárokról, gyerekekről. Jolánka most nyolcvannégy éves. A városi múzeum ezen a héten kiállítást nyit a munkásságából. Ebből az alkalomból mi is portrét írunk róla.\n\nJolánka egy régi házban lakik a belvárosban. A nappaliban egy antik szekrény áll, amely még a nagyanyjáé volt. Ebben tartotta évtizedekig a negatívjait, kis dobozokban, évek szerint. A szekrény tetején egy antik fényképezőgép áll: az első gépe.\n\n– Közismert volt, hogy senki sem birtokolt annyi képet a városról, mint én – mondja nevetve. – Harmincezer negatívom volt. De egy ilyen gyűjteményt nem lehet egy szekrényben tartani.\n\nTavaly ezért minden negatívját a múzeumnak adta. Ma már nem ő birtokolja a képeket: a múzeum állományba vette a negatívokat. A múzeum munkatársai egy évig dolgoztak azon, hogy az állomány minden darabját rendbe tegyék, és számítógépre vigyék.\n\nA kiállítás rendezése egy fiatal munkatárs, Alinka feladata volt. Alinka száz képet választott ki a harmincezerből.\n\n– A kiállítás rendezése nem volt könnyű – meséli Alinka. – Jolánka néni munkássága negyven évet ölel fel. Végül úgy döntöttem, hogy a portrék lesznek a kiállítás közepén.\n\nJolánka szerint a fotós nemcsak képeket készít, hanem a város emlékeinek őrzője is. Ő maga azonban már nem akar őrző lenni.\n\n– Most a múzeum lett az őrző – mondja. – Én csak azt szeretném, hogy az unokák is lássák, milyen volt a város régen.\n\nMegkérdezzük, melyik a kedvenc képe. Elővesz egy fényképet 1975-ből. A piacon készült, egy idős asszony áll rajta a virágai között, és nevet. Ez a portré a kiállítás plakátjára is rákerült.\n\nA kiállítás szombaton nyílik a városi múzeumban. Aki szeretné megismerni Gyarmati Jolánka munkásságát, és látni, milyen volt Kaposvár ötven évvel ezelőtt, annak érdemes elmennie.\n\nKérdések:\nKi Gyarmati Jolánka?\nKözismert fotós, aki negyven évig dolgozott a megyei újságnál.\nMi áll Jolánka nappalijában?\nEgy antik szekrény, és a tetején egy antik fényképezőgép.\nMit csinált a múzeum Jolánka negatívjaival?\nÁllományba vette őket, és egy évig dolgozott azon, hogy minden darabot rendbe tegyen.\nKi végezte a kiállítás rendezését?\nAlinka, a múzeum egyik fiatal munkatársa.\nKi birtokolja ma a képeket?\nMár nem Jolánka, hanem a múzeum, amely állományba vette a negatívokat.\nMit mond Jolánka arról, ki most az emlékek őrzője?\nAzt mondja, hogy most a múzeum lett az őrző."
+    },
+    {
+      "title": "Az első járat",
+      "summary": "A travel journalist describes, honestly, an airline's first flight on a new route to which she was invited.",
+      "newWords": [
+        "légitársaság",
+        "elérkezik",
+        "kísérő",
+        "igazolvány",
+        "prémium",
+        "üdítő",
+        "kilométeres"
+      ],
+      "text": "Egy hónapja egy légitársaság meghívott néhány újságírót egy új járat első útjára. A gép Debrecenből repül Lisszabonba. Ilyenkor a légitársaság fizeti az utat, és azt várja, hogy írjunk róla. Én, Garai Sztella, elfogadtam a meghívást, de azzal a feltétellel, hogy őszintén fogok írni. Ezt a lap olvasóinak is tudniuk kell.\n\nVégül elérkezett az indulás napja. Hajnali négykor keltem, és hatkor már a repülőtéren voltam. A csoport kísérője, a légitársaság egyik fiatal munkatársa, ott várt minket. Ő osztotta ki a jegyeket, és elmagyarázta a napi programot. Az ellenőrzésnél a személyi igazolványomat kérték. Egy kollégám otthon felejtette az igazolványát, de szerencsére az útlevelét magával hozta.\n\nA gépen nekünk, újságíróknak, prémium helyeket adtak, elöl, ahol több hely van a lábnak. Egy prémium jegy majdnem kétszer annyiba kerül, mint egy normál jegy. Én a gép hátsó részére is kíváncsi voltam, ezért megkértem a kísérőnket, hogy hadd üljek egy órát hátul. Nem bánta.\n\nHátul is kényelmesek voltak az ülések, csak kevesebb volt a hely. A légiutas-kísérők kedvesek voltak, de nagyon siettek. Elöl ingyen adtak üdítőt és egy meleg ételt. Hátul az üdítőért is fizetni kellett: egy kis üveg három euróba került.\n\nA 2700 kilométeres út kicsit több mint négy óráig tartott. Lisszabonban busz várt minket. A repülőtértől a szállodáig csak egy 7 kilométeres út vezetett, mégis majdnem egy óráig tartott, mert nagy volt a forgalom. Délután a kísérőnk megmutatta a várost. Este elérkezett a nap legfontosabb pillanata: a légitársaság vezetői bemutatták az új járatot, és elmondták, hogy a gép hetente háromszor fog repülni Lisszabonba.\n\nMit írjak tehát a légitársaságról? A gép pontosan indult, és pontosan érkezett. A személyzet udvarias volt. A prémium helyekért szerintem nem érdemes fizetni egy négyórás úton: a normál jegy olcsó, és azzal is kényelmesen el lehet jutni Lisszabonba. Az üdítőt viszont érdemes otthonról hozni.\n\nKérdések:\nMilyen feltétellel fogadta el Sztella a meghívást?\nAzzal a feltétellel, hogy őszintén fog írni.\nMit kértek az ellenőrzésnél?\nA személyi igazolványt kérték.\nHol ültek az újságírók a gépen?\nElöl, a prémium helyeken.\nMennyibe került hátul egy üdítő?\nHárom euróba.\nMennyi ideig tartott a 2700 kilométeres út?\nKicsit több mint négy óráig.\nMit gondol Sztella a prémium helyekről?\nAzt, hogy egy négyórás úton nem érdemes fizetni értük."
+    },
+    {
+      "title": "Miért látunk arcokat a felhőkben?",
+      "summary": "A science magazine interviews a brain researcher about why people see faces in clouds, houses and stars.",
+      "newWords": [
+        "agyi",
+        "megkülönböztet",
+        "feltehető",
+        "sugall",
+        "előállít",
+        "misztikus",
+        "világegyetem"
+      ],
+      "text": "Vértes Odília az agy kutatásával foglalkozik egy szegedi laborban. Azt vizsgálja, hogyan dolgozza fel az agyunk azt, amit látunk. Arról kérdeztük, miért látunk arcokat ott is, ahol nincsenek.\n\n– Sokan látnak arcot egy felhőben, egy ház elején vagy egy kenyér héján. Miért?\n\n– Az agyunk nagyon gyorsan ismeri fel az arcokat. Ez a képesség feltehetően nagyon régi. Az embernek mindig fontos volt, hogy már messziről megkülönböztesse a barátot az idegentől. Ezért az agy inkább lát arcot ott is, ahol nincs, mint hogy egy valódit ne vegyen észre.\n\n– Mi történik ilyenkor az agyban?\n\n– Vannak agyi területek, amelyek kifejezetten az arcokra figyelnek. Ezek az agyi területek akkor is működni kezdenek, ha csak két pontot és alattuk egy vonalat látunk. A kép tehát csak sugallja az arcot, a többit az agy teszi hozzá.\n\n– Hogyan lehet ezt vizsgálni?\n\n– A laborban számítógéppel előállított képeket használunk. Előállítunk például olyan képeket, amelyeken csak foltok vannak, és olyanokat, amelyeken a foltok egy arcot sugallnak. Közben mérjük az agyi működést. Egy-egy ilyen képet néhány perc alatt előállít a számítógép. A résztvevők a második fajta képet sokkal gyorsabban veszik észre, pedig azon sincs igazi arc.\n\n– Régen sokan misztikus jelnek tartották, ha arcot láttak egy kövön vagy a Holdon.\n\n– Érthető, hogy misztikusnak tartották, hiszen nem tudták, hogyan működik az agy. Ma már tudjuk, hogy ebben nincs semmi misztikus. Ez egy egészen hétköznapi folyamat, ami mindenkinél megtörténik.\n\n– Az égen, a csillagok között is formákat látunk.\n\n– Igen, ez is ugyanígy működik. A világegyetem tele van csillagokkal, amelyek véletlenül helyezkednek el. Az agyunk mégis vonalakat és alakokat lát közöttük. A világegyetem nem rajzol nekünk képeket, mi rajzoljuk bele őket.\n\n– A gyerekek is látnak arcokat a felhőkben?\n\n– Feltehetően még gyakrabban, mint a felnőttek. A kisbabák már néhány hónaposan megkülönböztetik az ismerős arcokat az ismeretlenektől. Ez az egyik első dolog, amit megtanulnak.\n\nKérdések:\nMivel foglalkozik Vértes Odília?\nAz agy kutatásával foglalkozik egy szegedi laborban.\nMiért ismeri fel olyan gyorsan az agy az arcokat?\nMert az embernek mindig fontos volt, hogy messziről megkülönböztesse a barátot az idegentől.\nMit csinálnak az agyi területek, ha két pontot és egy vonalat látunk?\nMűködni kezdenek, mert a kép egy arcot sugall.\nMilyen képeket állítanak elő a laborban?\nOlyanokat, amelyeken csak foltok vannak, és olyanokat, amelyeken a foltok egy arcot sugallnak.\nMiért tartották régen misztikusnak az ilyen arcokat?\nMert nem tudták, hogyan működik az agy.\nMit mond Odília a világegyetemről?\nAzt, hogy a világegyetem nem rajzol nekünk képeket, mi rajzoljuk bele őket."
+    },
+    {
+      "title": "Felmondtam",
+      "summary": "A journalist explains in the first person why he left a big news site to start a small local online paper in his home town.",
+      "newWords": [
+        "felmond",
+        "munkahelyi",
+        "teljesül",
+        "alkalmazkodik",
+        "hozzáfér",
+        "üzletel",
+        "megszervez"
+      ],
+      "text": "Tavaly ősszel felmondtam. Tizenkét évig dolgoztam újságíróként egy nagy budapesti internetes újságnál. Jól kerestem, és szerettem a kollégáimat. A munkahelyi légkör is jó volt. Mégis egyre fáradtabb lettem. Naponta öt-hat rövid hírt kellett írnom, és szinte soha nem volt időm arra, hogy valamit alaposan megértsek.\n\nSokáig nem mertem felmondani. Egy munkahelyi ebéden egy idősebb kolléganőm megkérdezte, mit csinálnék, ha nem kellene a pénzre gondolnom. Gondolkodás nélkül azt feleltem: hazamennék Kapuvárra, és helyi újságot írnék. Ő csak annyit mondott: „Akkor miért nem csinálod?” Egy hét múlva felmondtam.\n\nKapuváron egy kis internetes újságot indítottam. A szerkesztőség a régi gyerekszobám az anyámék házában. Írok a város életéről, az iskolákról, a piacról, a sportról. Minden cikkhez mindenki ingyen hozzáfér, mert szerintem a helyi híreknek mindenkihez el kell jutniuk. Aki szeretne, havonta kis összeggel támogathatja az újságot, de enélkül is hozzáférhet mindenhez.\n\nAz elején nehezen alkalmazkodtam. Budapesten egy egész csapat dolgozott körülöttem, itt minden munkát egyedül végzek: írok, fényképezek, és én figyelek a pénzre is. A hirdetésekkel volt a legtöbb bajom. Sosem szerettem üzletelni, és most hirtelen nekem kellett a helyi vállalkozókkal tárgyalnom. Egy pék segített. Azt mondta: „Ne üzletelj, csak beszélgess velük!” Igaza volt. Ma hat helyi bolt hirdet nálam.\n\nTavasszal megszerveztem az első olvasói találkozót a városi könyvtárban. Nem tudtam, jön-e majd valaki. Negyvenen jöttek el. Elmondták, miről szeretnének olvasni, és két idős úr felajánlotta, hogy régi fényképeket hoz a városról. Azóta havonta egyszer megszervezem a találkozót.\n\nLassan az új életemhez is alkalmazkodtam. Kevesebbet keresek, mint Budapesten, de többet alszom, és jobban értem, amiről írok. Gyerekkoromban azt álmodtam, hogy egyszer a saját városomról fogok írni. Ez az álom most teljesült. Nem minden terv teljesül, de ez igen, és nem bántam meg, hogy felmondtam.\n\nKérdések:\nMiért mondott fel a szerző?\nMert egyre fáradtabb lett, és soha nem volt ideje arra, hogy valamit alaposan megértsen.\nMi történt a munkahelyi ebéden?\nEgy kolléganője megkérdezte, mit csinálna, ha nem kellene a pénzre gondolnia.\nKi férhet hozzá a cikkekhez?\nMindenki ingyen hozzáfér minden cikkhez.\nMit tanácsolt a pék?\nAzt, hogy ne üzleteljen, csak beszélgessen a vállalkozókkal.\nMit szervezett meg a szerző tavasszal?\nAz első olvasói találkozót a városi könyvtárban.\nMilyen álma teljesült?\nAz, hogy egyszer a saját városáról fog írni."
+    },
+    {
+      "title": "Olvasói levél",
+      "summary": "A retired teacher writes to the local paper about the unheated library reading room on Saturdays, and the paper reports what happened two weeks later.",
+      "newWords": [
+        "fűt",
+        "felügyel",
+        "megesik",
+        "radikális",
+        "ellenkező",
+        "üdvözlet",
+        "eltelte"
+      ],
+      "text": "Tisztelt Szerkesztőség!\n\nNyugdíjas tanár vagyok, és szombatonként a városi könyvtár olvasótermében töltöm a délelőttöt. Rajtam kívül általában tíz-tizenöt diák is ott tanul, mert otthon nincs csendes helyük. Az olvasóteremben egy könyvtáros felügyel. Ő segít, ha valaki nem talál egy könyvet, és ő felügyeli azt is, hogy mindenki csendben legyen.\n\nNovembertől azonban a könyvtárat szombaton nem fűtik. Hétköznap rendesen fűtenek, de hétvégén a fűtés ki van kapcsolva, mert a város így akar pénzt megtakarítani. Megesik, hogy a teremben csak 15 fok van. A múlt szombaton is megesett, hogy a diákok kabátban és sapkában ültek az asztaloknál, a könyvtáros pedig kesztyűben felügyelte a termet.\n\nNem kérek radikális változást. Nem kell az egész épületet fűteni, elég lenne az olvasótermet. Egy radikális megoldás, például az, hogy szombaton bezárják a könyvtárat, éppen az ellenkező hatást érné el: a diákoknak nem lenne hová menniük. Sokan azt gondolják, hogy ma már senki sem jár könyvtárba. Én minden szombaton az ellenkezőjét látom.\n\nKérem, írjanak erről, hátha a könyvtár vezetője is elolvassa.\n\nÜdvözlettel:\nHollósi Jozefa\n\n*\n\nA szerkesztőség megjegyzése: Hollósi Jozefa levelét novemberben közöltük. Két hét elteltével felhívtuk a könyvtár vezetőjét. Elmondta, hogy eddig ellenkező tapasztalataik voltak: azt hitték, hogy szombaton alig jár valaki az olvasóterembe. A levél után azonban ő is megnézte az olvasótermet egy szombati napon, és meglepte, hány diák ül ott. Ezért úgy döntöttek, hogy decembertől szombaton is fűtik az olvasótermet, a többi termet viszont nem. A könyvtár vezetője üdvözletét küldi Jozefa néninek, és megköszöni a levelét.\n\nEgy hónap elteltével mi is elmentünk a könyvtárba. A teremben 21 fok volt, a diákok pulóverben tanultak, a könyvtáros pedig kesztyű nélkül felügyelt. Jozefa néni a szokásos helyén ült az ablak mellett.\n\nKérdések:\nMit csinál a könyvtáros az olvasóteremben?\nŐ felügyel: segít, ha valaki nem talál egy könyvet, és figyel arra, hogy mindenki csendben legyen.\nMiért nem fűtik szombaton a könyvtárat?\nMert a város így akar pénzt megtakarítani.\nMit kér Hollósi Jozefa?\nNem kér radikális változást, csak azt, hogy szombaton fűtsék az olvasótermet.\nMiért érne el egy radikális megoldás ellenkező hatást?\nMert ha bezárnák a könyvtárat, a diákoknak nem lenne hová menniük.\nMi történt két hét elteltével?\nA szerkesztőség felhívta a könyvtár vezetőjét, és megtudta, hogy decembertől szombaton is fűtik az olvasótermet."
+    },
+    {
+      "title": "Kerékpárral a Mátrában",
+      "summary": "A reporter tests a new mountain-bike route in the Mátra on a rented bike and writes about the helmet, the ravine and the animals he meets.",
+      "newWords": [
+        "kölcsönöz",
+        "sisak",
+        "koordináta",
+        "szakadék",
+        "vadállat",
+        "mókus"
+      ],
+      "text": "Nyitrai Szvetlána egy szabadidős magazinnak ír. Júniusban egy új kerékpárútról kellett cikket írnia a Mátrában. Az út Mátraházáról indul, és huszonöt kilométer hosszú.\n\nSzvetlánának nincs hegyi kerékpárja, ezért Mátraházán kölcsönzött egyet. A kölcsönzőben egy fiatal nő dolgozott. Megkérdezte, van-e Szvetlánának sisakja.\n\n– Nincs – felelte Szvetlána. – Otthon felejtettem.\n\n– Akkor sisakot is kölcsönzünk – mondta a nő. – Sisak nélkül nem engedünk el senkit.\n\nSzvetlána kapott egy piros sisakot és egy térképet. A kerékpár egy napra hatezer forintba került, a sisakért nem kellett külön fizetni. A térkép hátoldalán az út legfontosabb pontjainak koordinátái álltak: a kilátóé, a forrásé és a pihenőhelyé. A nő elmagyarázta, hogy a koordinátákat be lehet írni a telefonba, és akkor a telefon mutatja az utat.\n\nAz első kilométerek könnyűek voltak. Az út az erdőben vezetett, és mindenhol madarak énekeltek. Egy fa tövében egy mókus ült. Amikor Szvetlána közelebb ért, a mókus felszaladt a fára, és onnan nézett le rá. Szvetlána megállt, és lefényképezte. Később ez lett a cikk egyik legjobb képe.\n\nA kilátó előtt az út egy mély szakadék szélén vezetett. A szakadék fölött erős korlát állt, ezért Szvetlána nem félt, csak lassabban ment. A korláttól lenézett a szakadékba: a mélyben egy patak folyt.\n\nA pihenőhelyen egy erdész ült egy padon. Szvetlána leült mellé, és megkérdezte, milyen vadállatok élnek a környéken.\n\n– Sok vadállat él itt: szarvasok, rókák, vaddisznók – felelte az erdész. – De nappal ritkán jönnek az út közelébe. Ha mégis látnak egy vadállatot, maradjanak csendben, és ne menjenek közel hozzá. A mókusoktól nem kell félni, ők csak a dióra kíváncsiak.\n\nDélután háromkor Szvetlána visszaért Mátraházára, és visszavitte a kölcsönzött kerékpárt és a sisakot. Este megírta a cikket. A végére odaírta a kilátó és a forrás koordinátáit, és azt is, hogy a szakadéknál érdemes leszállni a kerékpárról, mert onnan a legszebb a kilátás.\n\nKérdések:\nHonnan volt kerékpárja Szvetlánának?\nMátraházán kölcsönzött egyet.\nMiért kellett sisakot is kölcsönöznie?\nMert otthon felejtette a sisakját, és sisak nélkül nem engednek el senkit.\nMi állt a térkép hátoldalán?\nAz út legfontosabb pontjainak koordinátái.\nMit látott Szvetlána a szakadék mélyén?\nEgy patakot.\nMit mondott az erdész a vadállatokról?\nAzt, hogy nappal ritkán jönnek az út közelébe, és ha valaki lát egyet, maradjon csendben.\nMit csinált a mókus, amikor Szvetlána közelebb ért?\nFelszaladt a fára, és onnan nézett le rá."
+    },
+    {
+      "title": "Fotózás hajnalban",
+      "summary": "A magazine stylist organises an early-morning fashion shoot in a shopping mall with a model and her small dog.",
+      "newWords": [
+        "pláza",
+        "szoknya",
+        "lepedő",
+        "kutyus",
+        "folyékony",
+        "telhető",
+        "bírság"
+      ],
+      "text": "Szalóki Zelka egy női magazin stylistja. A tavaszi számba szoknyákról készítettek képeket, és a fotózást egy budai plázában szervezték meg. A pláza tízkor nyit, ezért a csapat már hajnali hatkor ott volt, amikor még egy vásárló sem járt a folyosókon.\n\nZelka hozott tizenkét szoknyát: rövideket és hosszúakat, egyszínűeket és virágosakat. A szoknyák mellé cipőket és táskákat is választott. A fotós, Enci, két rudat állított fel a szökőkút mellett, és egy nagy fehér lepedőt erősített rájuk. A lepedő adta a képek hátterét. Enci szerint egy egyszerű fehér lepedő jobb, mint bármilyen drága háttér.\n\nA modell Nadja volt. Nadja Berlinben nőtt fel, de folyékonyan beszél magyarul, mert az anyja magyar. Folyékony német és angol nyelvtudása miatt sokat dolgozik külföldön is. Ezen a reggelen magával hozta a kutyusát, egy kis fehér kutyát, mert nem volt kire hagynia.\n\nAz első képeknél a kutyus csendben ült a sarokban. Aztán meglátta a fehér lepedőt, és odaszaladt. Enci nevetett, és azt javasolta, hogy a kutyus is legyen rajta néhány képen. Nadja a kék szoknyában leült a lepedő elé, a kutyus pedig az ölébe ugrott. Ez lett a sorozat legszebb képe.\n\nKilenckor a pláza dolgozói már nyitásra készültek, ezért sietni kellett. Zelka megtett minden tőle telhetőt, hogy minden szoknya sorra kerüljön. Fél tízkor elkészült az utolsó kép is. Zelka összehajtotta a lepedőt, Enci elpakolta a rudakat, Nadja pedig sétálni vitte a kutyusát.\n\nAmikor Zelka kiment az autójához, egy cetli volt az ablakon. Parkolási bírság volt: az autó nem a kijelölt helyen állt. A bírság tízezer forint volt. Zelka sóhajtott, de nem bosszankodott sokáig. A főszerkesztő este felhívta, hogy megnézte a képeket, és a kutyusos kép lesz a magazin címlapja. Zelka úgy érezte, a tőle telhetőt megtette, és ennyi bírságot megért a nap.\n\nKérdések:\nMiért kezdték hajnali hatkor a fotózást?\nMert a pláza tízkor nyit, és akkor még egy vásárló sem járt a folyosókon.\nMi adta a képek hátterét?\nEgy nagy fehér lepedő, amelyet két rúdra erősítettek.\nMiért beszél Nadja folyékonyan magyarul?\nMert az anyja magyar.\nMiért hozta magával Nadja a kutyusát?\nMert nem volt kire hagynia.\nMit tett Zelka, amikor sietni kellett?\nMegtett minden tőle telhetőt, hogy minden szoknya sorra kerüljön.\nMiért kapott Zelka bírságot?\nMert az autója nem a kijelölt helyen állt."
+    }
+  ]
+}
