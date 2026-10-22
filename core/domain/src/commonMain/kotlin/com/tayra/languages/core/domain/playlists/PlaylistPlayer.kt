@@ -397,6 +397,8 @@ class PlaylistPlayer(
 
     private suspend fun unload() {
         halt()
+        // The place reached is kept, unless the playlist was heard to the end or is gone.
+        if (_state.value.status != PlayerStatus.COMPLETE && _state.value.status != PlayerStatus.IDLE) savePosition()
         watch?.cancel()
         watch = null
         systemVoice = false
