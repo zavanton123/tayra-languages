@@ -97,6 +97,7 @@ import com.tayra.languages.core.domain.service.BookStatsService
 import com.tayra.languages.core.domain.service.CachedSentenceTranslator
 import com.tayra.languages.core.domain.service.ChineseScriptService
 import com.tayra.languages.core.domain.service.CutWordsMigration
+import com.tayra.languages.core.domain.service.EmptyExceptionsMigration
 import com.tayra.languages.core.domain.service.ClearDataService
 import com.tayra.languages.core.domain.service.DemoDataService
 import com.tayra.languages.core.domain.service.DictionaryService
@@ -209,6 +210,7 @@ val dataModule: Module = module {
         // The installed packs' words are the lexicon's too, which decide what a word is cut into.
         CutWordsMigration(get(), get(), get()) { language -> dictionaries.refresh(); lexicons.prepare(language) }
     }
+    single { EmptyExceptionsMigration(get(), get()) }
     single { WordReadings(get(), get()) }
     single { ReadingService(get(), get(), get(), get(), get(), get<LexiconService>()) }
     single { TermPopupBuilder(get(), get(), get()) }

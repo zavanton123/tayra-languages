@@ -92,6 +92,9 @@ def write(defs, out, object_name, origin):
                     lines.append(f"            {kname} = {qstr(str(v))},")
         opt("character_substitutions", "characterSubstitutions")
         opt("split_sentences", "regexpSplitSentences")
+        if d.get("split_sentence_exceptions") is not None:
+            # An empty choice ("a.|b.|") would match before any word.
+            d["split_sentence_exceptions"] = "|".join(e for e in str(d["split_sentence_exceptions"]).split("|") if e.strip())
         opt("split_sentence_exceptions", "exceptionsSplitSentences")
         opt("word_chars", "wordCharacters")
         opt("right_to_left", "rightToLeft")

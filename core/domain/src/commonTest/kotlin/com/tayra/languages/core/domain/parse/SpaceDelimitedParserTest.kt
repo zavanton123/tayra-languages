@@ -45,6 +45,12 @@ class SpaceDelimitedParserTest {
     }
 
     @Test
+    fun aTrailingBarInTheExceptionsKeepsTheWords() {
+        val dutch = TestLanguages.spanish.copy(exceptionsSplitSentences = "mr.|nr.|")
+        assertEquals("[Ik] [woon] [in] [Amsterdam], [nr.] 5.", tokensAsString("Ik woon in Amsterdam, nr. 5.", dutch))
+    }
+
+    @Test
     fun quickChecks() {
         val english = TestLanguages.english
         assertEquals("[test]", tokensAsString("test", english))

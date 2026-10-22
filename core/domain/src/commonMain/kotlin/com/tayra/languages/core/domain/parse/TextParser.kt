@@ -21,6 +21,12 @@ interface TextParser {
     fun lowercase(text: String): String = text.lowercase()
 }
 
+/**
+ * The language's `a.|b.` sentence-split exceptions without empty or blank choices: a list ending in "|", as several
+ * predefined languages' did, would add one that matches before any word.
+ */
+fun withoutEmptyExceptions(exceptions: String): String = exceptions.split('|').filter { it.isNotBlank() }.joinToString("|")
+
 /** Applies the language's `from=to|from=to` character substitutions. */
 internal fun applyCharacterSubstitutions(text: String, substitutions: String): String {
     var result = text

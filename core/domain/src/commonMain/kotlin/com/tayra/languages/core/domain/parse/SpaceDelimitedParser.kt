@@ -45,7 +45,7 @@ open class SpaceDelimitedParser : TextParser {
 
     private fun parseParagraph(text: String, language: Language, tokens: MutableList<ParsedToken>) {
         val termChars = normalizeRegexEscapes(language.wordCharacters.trim()).ifEmpty { DEFAULT_WORD_CHARACTERS }
-        val splitExceptions = language.exceptionsSplitSentences.replace(".", "\\.")
+        val splitExceptions = withoutEmptyExceptions(language.exceptionsSplitSentences).replace(".", "\\.")
         val pattern = if (splitExceptions.isBlank()) "([$termChars]*)" else "($splitExceptions|[$termChars]*)"
         val wordRegex = Regex(pattern, RegexOption.IGNORE_CASE)
 

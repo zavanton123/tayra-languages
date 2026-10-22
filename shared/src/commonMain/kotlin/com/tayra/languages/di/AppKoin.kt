@@ -23,7 +23,7 @@ import org.koin.dsl.module
 
 private val appModule = module {
     single<ChineseScriptTables> { ResourceChineseScriptTables() }
-    viewModel { AppBootstrapViewModel(get(), get(), get(), get(), get(), get(), get(), get(), get(), getOrNull(), getOrNull()) }
+    viewModel { AppBootstrapViewModel(get(), get(), get(), get(), get(), get(), get(), get(), get(), getOrNull(), getOrNull(), getOrNull()) }
 }
 
 /** Feature modules wired into the app. */

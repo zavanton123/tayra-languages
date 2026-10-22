@@ -8,6 +8,7 @@ import com.tayra.languages.core.domain.service.CutWordsMigration
 import com.tayra.languages.core.domain.service.BookStatsService
 import com.tayra.languages.core.domain.service.DemoDataService
 import com.tayra.languages.core.domain.service.DictionaryService
+import com.tayra.languages.core.domain.service.EmptyExceptionsMigration
 import com.tayra.languages.core.domain.service.TranslationLanguageKeeper
 import com.tayra.languages.core.domain.service.LearningTranslations
 import com.tayra.languages.core.domain.service.LearningLanguageService
@@ -44,6 +45,8 @@ class AppBootstrapViewModel(
     private val chineseScripts: ChineseScriptService? = null,
     /** Turns the terms saved as words a parser now cuts (Arabic's والكتاب) into the words it cuts them into. */
     private val cutWords: CutWordsMigration? = null,
+    /** Mends the languages saved with an empty sentence-split exception, under which no word was found. */
+    private val emptyExceptions: EmptyExceptionsMigration? = null,
 ) : ViewModel() {
 
     private val _state = MutableStateFlow<BootstrapState>(BootstrapState.Loading)
@@ -59,6 +62,7 @@ class AppBootstrapViewModel(
                 learningLanguage.ensure()
                 chineseScripts?.prepareIfUsed()
                 cutWords?.migrate()
+                emptyExceptions?.migrate()
                 _state.value = BootstrapState.Ready
                 bookStats.refreshAll()
                 dictionaries.refresh()
