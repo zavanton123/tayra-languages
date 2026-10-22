@@ -1,100 +1,100 @@
-1	1901	vírus	víruse vírusmi vírusoch vírusom vírusov vírusu vírusy
-2	1902	koruna	korune korunka korunky korunnej korunná korunného korunnému korunnú korunný korunným korunou korunu koruny korunách korún
-3	1903	vyraziť	vyraz vyrazia vyrazil vyrazila vyrazili vyrazilo vyrazme vyrazte vyrazí vyrazím vyrazíme vyrazíte vyrazíš
-4	1904	nepamätať	nepamätajú nepamätal nepamätala nepamätali nepamätá nepamätám nepamätáme nepamätáte nepamätáš
-5	1905	dôvera	dôvere dôverou dôveru dôvery
-6	1906	výborná	výbornej výbornou výborné výbornú
-7	1907	uložený	uloženej uložená uložené uloženého uložení uloženú uložených uloženým uloženými
-8	1908	dopravný	dopravnej dopravnou dopravná dopravnú dopravných dopravným dopravnými
-9	1909	maďarský	maďarskej maďarskom maďarskou maďarská maďarské maďarského maďarskí maďarskú maďarských maďarským maďarskými
-10	1910	prekliaty	prekliata prekliate prekliateho prekliatej prekliatemu prekliati prekliatom prekliatou prekliatu prekliatych prekliatym prekliatymi
-11	1911	kúpeľ	kúpele kúpeli kúpeľa kúpeľmi kúpeľoch kúpeľom kúpeľov kúpeľu
+1	1901	špecifický	špecifickej špecifickom špecifickou špecifická špecifické špecifického špecifickú špecifických špecifickým špecifickými
+2	1902	úspešne	najúspešnejšie úspešnejšie
+3	1903	titulok	titulkami titulkoch titulkom titulkov titulku titulky
+4	1904	navrhnúť	navrhla navrhli navrhlo navrhne navrhnem navrhneme navrhnete navrhneš navrhni navrhnite navrhnú navrhol nenavrhla nenavrhnem nenavrhneš nenavrhol
+5	1905	mládež	mládeže mládeži mládežou
+6	1906	teta	tetami tete tetou tetu tety tetám tiet
+7	1907	dôvera	dôvere dôverou dôveru dôvery
+8	1908	výborná	výbornej výbornou výborné výbornú
+9	1909	koruna	korune korunka korunky korunnej korunná korunného korunnému korunnú korunný korunným korunou korunu koruny korunách korún
+10	1910	meč	meča meče meči mečmi mečom mečov meču
+11	1911	ponáhľať	neponáhľa neponáhľaj neponáhľajme neponáhľajte neponáhľal neponáhľala neponáhľali neponáhľam neponáhľame neponáhľate neponáhľaš ponáhľa ponáhľaj ponáhľajme ponáhľajte ponáhľajú ponáhľal ponáhľala ponáhľali ponáhľam ponáhľame ponáhľate ponáhľaš
 12	1912	netreba	
-13	1913	nestačiť	nestačia nestačil nestačila nestačili nestačilo nestačí nestačím nestačíme nestačíte nestačíš
-14	1914	ľutovať	ľutoval ľutovala ľutovali ľutuj ľutuje ľutujem ľutujeme ľutujete ľutuješ ľutujte ľutujú
-15	1915	revolúcia	revolučnej revolučnou revolučná revolučné revolučného revolučnú revolučný revolučných revolučným revolučnými revolúcie revolúcii revolúciou revolúciu revolúcií
+13	1913	potešenie	potešenia potešeniu potešením
+14	1914	zbohom	
+15	1915	šírka	šírkach šírke šírkou šírku šírky šírok
 16	1916	tričko	tričiek trička tričkami tričkom tričku tričká tričkách
-17	1917	meč	meča meče meči mečmi mečom mečov meču
-18	1918	titulok	titulkami titulkoch titulkom titulkov titulku titulky
-19	1919	vodič	vodiča vodiče vodiči vodičoch vodičom vodičov vodičovi vodičskom vodičské vodičského vodičský vodičským
-20	1920	častý	najčastejšia najčastejšou najčastejší najčastejších najčastejším najčastejšími častej častejšia častejší častou častá časté častého častých častým častými
-21	1921	kópia	kópiami kópie kópii kópiou kópiu kópiách kópií
-22	1922	potešenie	potešenia potešeniu potešením
-23	1923	metro	metra metrami metre metrom metru
-24	1924	teta	tetami tete tetou tetu tety tetám tiet
-25	1925	okruh	okruhoch okruhom okruhov okruhu okruhy
-26	1926	maska	masiek maskami maske maskou masku masky maskách
-27	1927	navrhnúť	navrhla navrhli navrhlo navrhne navrhnem navrhneme navrhnete navrhneš navrhni navrhnite navrhnú navrhol
-28	1928	hračka	hračiek hračkami hračke hračkou hračku hračky hračkách hračkám
-29	1929	prekvapený	prekvapená prekvapené prekvapení prekvapenú
-30	1930	chodník	chodníka chodníkmi chodníkoch chodníkom chodníkov chodníku chodníky chodníček chodníčky
-31	1931	operačný	operačnej operačnom operačná operačné operačného operačnú operačných operačným operačnými
-32	1932	túžba	túžbach túžbam túžbami túžbe túžbou túžbu túžby túžob
-33	1933	prieskum	prieskume prieskumoch prieskumom prieskumov prieskumu prieskumy
-34	1934	upravený	upravenej upravenom upravenou upravená upravené upraveného upravení upravenú upravených upraveným upravenými
-35	1935	posadiť	posadia posadil posadila posadili posadí posadím posadíme posadíte posadíš posaď posaďme posaďte
-36	1936	sústava	sústav sústave sústavou sústavu sústavy
-37	1937	mierne	miernejšie
-38	1938	zbohom	
-39	1939	závislosť	závislosti závislostiach závislostí závislosťou
-40	1940	plávať	pláva plávaj plávajte plávajú plávajúc plávajúce plávajúci plával plávala plávali plávalo plávam plávame plávania plávanie plávaní plávaním plávate plávaš
-41	1941	faktor	faktora faktormi faktorom faktorov faktoru faktory
-42	1942	nezmeniť	nezmenia nezmenil nezmenila nezmenili nezmenilo nezmení nezmením nezmeníme nezmeníte nezmeníš nezmeň
-43	1943	kresťanský	kresťanskej kresťanskom kresťanskou kresťanská kresťanské kresťanského kresťanskému kresťanskí kresťanskú kresťanských kresťanským kresťanskými
-44	1944	oceán	oceána oceáne oceánmi oceánoch oceánom oceánov oceánske oceánsky oceánu oceány
-45	1945	objavovať	objavoval objavovala objavovali objavovalo objavuje objavujem objavujeme objavujete objavuješ objavujú
-46	1946	žiadosť	žiadosti žiadostiach žiadostí žiadosťami žiadosťou
-47	1947	ukončený	ukončená ukončené ukončení ukončenú ukončených
-48	1948	pošta	pošte poštou poštový poštových poštu pošty pôšt
-49	1949	presunúť	presunie presuniem presunieme presuniete presunieš presunul presunula presunuli presunulo presunú presuň presuňme presuňte
-50	1950	zvedavý	zvedavá zvedavé zvedavého zvedaví zvedavých zvedavým zvedavými
-51	1951	neďaleko	
-52	1952	zaútočiť	zaútoč zaútočia zaútočil zaútočila zaútočili zaútočilo zaútočme zaútočte zaútočí zaútočím zaútočíme zaútočíte zaútočíš
-53	1953	doraziť	dorazia dorazil dorazila dorazili dorazilo dorazme dorazte dorazí dorazím dorazíme dorazíte dorazíš
-54	1954	reagovať	reagoval reagovala reagovali reagovalo reaguj reaguje reagujem reagujeme reagujete reaguješ reagujte reagujú
-55	1955	záber	zábere zábermi záberoch záberom záberov záberu zábery
+17	1917	zaútočiť	nezaútočia nezaútočil nezaútočila nezaútočili nezaútočí nezaútočíme zaútoč zaútočia zaútočil zaútočila zaútočili zaútočilo zaútočme zaútočte zaútočí zaútočím zaútočíme zaútočíte zaútočíš
+18	1918	prekvapený	prekvapená prekvapené prekvapení prekvapenú
+19	1919	kúpeľ	kúpele kúpeli kúpeľa kúpeľmi kúpeľoch kúpeľom kúpeľov kúpeľu
+20	1920	kópia	kópiami kópie kópii kópiou kópiu kópiách kópií
+21	1921	uložený	uloženej uložená uložené uloženého uložení uloženú uložených uloženým uloženými
+22	1922	maska	masiek maskami maske maskou masku masky maskách
+23	1923	plávať	nepláva neplávaj neplávajú neplávala neplávam pláva plávaj plávajte plávajú plávajúc plávajúce plávajúci plával plávala plávali plávalo plávam plávame plávania plávanie plávaní plávaním plávate plávaš
+24	1924	dopravný	dopravnej dopravnou dopravná dopravnú dopravných dopravným dopravnými
+25	1925	ťahať	neťahaj neťahajte neťahal neťahala neťahali neťahá neťahám ťahaj ťahajme ťahajte ťahajú ťahajúc ťahal ťahala ťahali ťahalo ťahá ťahám ťaháme ťaháte ťaháš
+26	1926	pochybovať	nepochyboval nepochybovala nepochybovali nepochybuj nepochybuje nepochybujem nepochybujeme nepochybuješ nepochybujte pochyboval pochybovala pochybovali pochybovalo pochybuje pochybujem pochybujeme pochybujete pochybuješ pochybujú
+27	1927	vodič	vodiča vodiče vodiči vodičoch vodičom vodičov vodičovi vodičskom vodičské vodičského vodičský vodičským
+28	1928	revolúcia	revolučnej revolučnou revolučná revolučné revolučného revolučnú revolučný revolučných revolučným revolučnými revolúcie revolúcii revolúciou revolúciu revolúcií
+29	1929	metro	metra metrami metre metrom metru
+30	1930	hračka	hračiek hračkami hračke hračkou hračku hračky hračkách hračkám
+31	1931	maďarský	maďarskej maďarskom maďarskou maďarská maďarské maďarského maďarskí maďarskú maďarských maďarským maďarskými
+32	1932	nútiť	nenúti nenútia nenútil nenútila nenútili nenútim nenútime nenútiť nenúť nenúťte núti nútia nútiac nútil nútila nútili nútilo nútim nútime nútite nútiš
+33	1933	túžba	túžbach túžbam túžbami túžbe túžbou túžbu túžby túžob
+34	1934	okruh	okruhoch okruhom okruhov okruhu okruhy
+35	1935	častý	najčastejšia najčastejšou najčastejší najčastejších najčastejším najčastejšími častej častejšia častejší častou častá časté častého častých častým častými
+36	1936	prieskum	prieskume prieskumoch prieskumom prieskumov prieskumu prieskumy
+37	1937	chodník	chodníka chodníkmi chodníkoch chodníkom chodníkov chodníku chodníky chodníček chodníčky
+38	1938	operačný	operačnej operačnom operačná operačné operačného operačnú operačných operačným operačnými
+39	1939	upravený	upravenej upravenom upravenou upravená upravené upraveného upravení upravenú upravených upraveným upravenými
+40	1940	sústava	sústav sústave sústavou sústavu sústavy
+41	1941	mierne	miernejšie
+42	1942	zatknúť	nezatkla nezatkli nezatkne nezatknem nezatkneme nezatknete nezatkneš nezatknú nezatkol zatkla zatkli zatklo zatkne zatknem zatkneme zatknete zatkneš zatkni zatknime zatknite zatknú zatkol
+43	1943	presunúť	nepresunieme nepresunul nepresunula nepresunú presunie presuniem presunieme presuniete presunieš presunul presunula presunuli presunulo presunú presuň presuňme presuňte
+44	1944	závislosť	závislosti závislostiach závislostí závislosťou
+45	1945	ustúpiť	neustúpi neustúpia neustúpil neustúpila neustúpili neustúpim neustúpime neustúpite neustúpiš ustúp ustúpi ustúpia ustúpil ustúpila ustúpili ustúpilo ustúpim ustúpime ustúpite ustúpiš ustúpme ustúpte
+46	1946	oceán	oceána oceáne oceánmi oceánoch oceánom oceánov oceánske oceánsky oceánu oceány
+47	1947	požehnať	požehnaj požehnajte požehnajú požehnal požehnala požehnali požehnanej požehnania požehnanie požehnanou požehnaná požehnané požehnaného požehnaní požehnaním požehnanú požehnaný požehnaných požehná požehnám požehnáte žehnaj žehnajme žehnajte žehnajú žehnať žehná žehnám žehnáme
+48	1948	zvedavý	zvedavá zvedavé zvedavého zvedaví zvedavých zvedavým zvedavými
+49	1949	faktor	faktora faktormi faktorom faktorov faktoru faktory
+50	1950	žiadosť	žiadosti žiadostiach žiadostí žiadosťami žiadosťou
+51	1951	pomyslieť	nepomyslel nepomyslela nepomysleli nepomysli nepomyslite nepomyslí nepomyslím nepomyslíš pomyslel pomyslela pomysleli pomysli pomyslia pomyslite pomyslí pomyslím pomyslíme pomyslíte pomyslíš
+52	1952	objavovať	neobjavuje neobjavujú objavoval objavovala objavovali objavovalo objavuje objavujem objavujeme objavujete objavuješ objavujú
+53	1953	kresťanský	kresťanskej kresťanskom kresťanskou kresťanská kresťanské kresťanského kresťanskému kresťanskí kresťanskú kresťanských kresťanským kresťanskými
+54	1954	hlasovať	hlasoval hlasovala hlasovali hlasovalo hlasovania hlasovanie hlasovaniu hlasovaní hlasovaním hlasuj hlasuje hlasujem hlasujeme hlasujete hlasujme hlasujte hlasujú nehlasoval nehlasovala nehlasovali nehlasujem nehlasujeme
+55	1955	pošta	pošte poštou poštový poštových poštu pošty pôšt
 56	1956	tunel	tunela tuneli tunelmi tuneloch tunelom tunelov tunelu tunely
-57	1957	vzdelanie	vzdelania vzdelaniu vzdelaním
-58	1958	jadro	jadier jadra jadre jadrom jadru jadrá
-59	1959	požehnať	požehnaj požehnajte požehnajú požehnal požehnala požehnali požehnanej požehnania požehnanie požehnanou požehnaná požehnané požehnaného požehnaní požehnaním požehnanú požehnaný požehnaných požehná požehnám požehnáte žehnaj žehnajme žehnajte žehnajú žehnať žehná žehnám žehnáme
-60	1960	kampaň	kampane kampani kampaniach kampaní kampaňou
-61	1961	skala	skalami skale skalka skalke skalky skalou skalu skaly skalách skalám skál
-62	1962	samovražda	samovraždami samovražde samovraždou samovraždu samovraždy samovraždách samovražedné samovražedný samovrážd
-63	1963	bohužiaľ	
-64	1964	vzorka	vzoriek vzorkami vzorke vzorkou vzorku vzorky vzorkách vzorkám
-65	1965	rozšíriť	rozšír rozšíri rozšíria rozšíril rozšírila rozšírili rozšírilo rozšírim rozšírime rozšírite rozšíriš rozšírte
-66	1966	hlasovať	hlasoval hlasovala hlasovali hlasovalo hlasovania hlasovanie hlasovaniu hlasovaní hlasovaním hlasuj hlasuje hlasujem hlasujeme hlasujete hlasujme hlasujte hlasujú
-67	1967	spánok	spánkom spánkov spánku spánky
-68	1968	pokaziť	pokaz pokazia pokazil pokazila pokazili pokazilo pokazí pokazím pokazíme pokazíte pokazíš
-69	1969	brucho	brucha bruchom bruchu bruchá bruško brušnej brušná brušné brušného brušnú brušný brušných
-70	1970	vedomie	vedomia vedomiu vedomím
-71	1971	vajce	vajca vajcami vajci vajcia vajciach vajciam vajcom vajcu vajec
-72	1972	konflikt	konflikte konfliktoch konfliktom konfliktov konfliktu konflikty
-73	1973	ozbrojený	ozbrojenej ozbrojenom ozbrojenou ozbrojená ozbrojené ozbrojeného ozbrojenému ozbrojení ozbrojenú ozbrojených ozbrojeným ozbrojenými
+57	1957	záber	zábere zábermi záberoch záberom záberov záberu zábery
+58	1958	samovražda	samovraždami samovražde samovraždou samovraždu samovraždy samovraždách samovražedné samovražedný samovrážd
+59	1959	neďaleko	
+60	1960	ukončený	ukončená ukončené ukončení ukončenú ukončených
+61	1961	bohužiaľ	
+62	1962	vzorka	vzoriek vzorkami vzorke vzorkou vzorku vzorky vzorkách vzorkám
+63	1963	pristáť	nepristáli nepristálo nepristávajú pristane pristanem pristaneme pristanete pristaneš pristanú pristaň pristaňte pristál pristála pristáli pristálo pristáva pristávajú pristával pristávali pristávam pristávame pristávať
+64	1964	rozšíriť	nerozšíri nerozšíril rozšír rozšíri rozšíria rozšíril rozšírila rozšírili rozšírilo rozšírim rozšírime rozšírite rozšíriš rozšírte
+65	1965	skala	skalami skale skalka skalke skalky skalou skalu skaly skalách skalám skál
+66	1966	kampaň	kampane kampani kampaniach kampaní kampaňou
+67	1967	vajce	vajca vajcami vajci vajcia vajciach vajciam vajcom vajcu vajec
+68	1968	jadro	jadier jadra jadre jadrom jadru jadrá
+69	1969	túžiť	netúži netúžia netúžil netúžila netúžim netúžime netúžite netúžiš netúžiť túži túžia túžiac túžiaci túžil túžila túžili túžilo túžim túžime túžite túžiš
+70	1970	spánok	spánkom spánkov spánku spánky
+71	1971	vzdelanie	vzdelania vzdelaniu vzdelaním
+72	1972	brucho	brucha bruchom bruchu bruchá bruško brušnej brušná brušné brušného brušnú brušný brušných
+73	1973	lano	lana lanami lane lanom lanu laná lanách lanám lán
 74	1974	znamenie	znamenia znameniach znameniam znameniami znamení znamením
-75	1975	lano	lana lanami lane lanom lanu laná lanách lanám lán
-76	1976	pristáť	pristane pristanem pristaneme pristanete pristaneš pristanú pristaň pristaňte pristál pristála pristáli pristálo pristáva pristávajú pristával pristávali pristávam pristávame pristávať
-77	1977	nezabiť	nezabi nezabije nezabijem nezabijeme nezabijete nezabiješ nezabijú nezabil nezabila nezabili nezabilo nezabite
-78	1978	krvný	krvnej krvnom krvnou krvná krvné krvného krvnému krvnú krvných krvným krvnými
-79	1979	pohnúť	pohla pohli pohlo pohne pohnem pohneme pohnete pohneš pohnú pohol
-80	1980	ostrý	najostrejšia najostrejšie najostrejší ostrej ostrejšia ostrejšie ostrejší ostro ostrom ostrou ostrá ostré ostrého ostrí ostrú ostrých ostrým ostrými
-81	1981	vnútro	vnútra vnútre vnútrom
-82	1982	zabrať	zaber zaberie zaberiem zaberieme zaberieš zaberte zaberú zabral zabrala zabrali zabralo
-83	1983	nespraviť	nesprav nespravia nespravil nespravila nespravili nespravilo nespravte nespraví nespravím nespravíme nespravíte nespravíš
-84	1984	meškať	meškajú meškal meškala meškali meškalo mešká meškám meškáme meškáte meškáš
-85	1985	dych	dychom dychovej dychová dychové dychovú dychový dychových dychu
-86	1986	nepríjemný	najnepríjemnejšia nepríjemnej nepríjemnom nepríjemnou nepríjemná nepríjemné nepríjemného nepríjemnému nepríjemní nepríjemnú nepríjemných nepríjemným
-87	1987	chrám	chráme chrámoch chrámom chrámov chrámu chrámy
-88	1988	neskorý	neskorej neskorom neskorá neskoré neskorého neskorému neskorú neskorých neskorým neskoršej neskoršia neskoršieho neskoršiu neskoršom neskorší neskorších neskorším
-89	1989	uvažovať	uvažoval uvažovala uvažovali uvažovalo uvažuj uvažuje uvažujem uvažujeme uvažujete uvažuješ uvažujme uvažujte uvažujú uvažujúc
-90	1990	dodnes	
-91	1991	postoj	postoja postoje postoji postojmi postojoch postojom postojov postoju
-92	1992	ťahať	ťahaj ťahajme ťahajte ťahajú ťahajúc ťahal ťahala ťahali ťahalo ťahá ťahám ťaháme ťaháte ťaháš
-93	1993	rast	raste rastom rastu
-94	1994	dolina	doline dolinou dolinu doliny dolinách dolín
-95	1995	štvrť	štvrte štvrti štvrtiach štvrtí štvrťou
-96	1996	galéria	galérie galérii galériou galériu galériách galérií
-97	1997	pritom	
-98	1998	chodba	chodbami chodbe chodbou chodbu chodby chodbách chodieb
-99	1999	morský	morskej morskom morskou morská morské morského morskí morskú morských morským morskými
-100	2000	pápež	pápeža pápeži pápežom pápežov pápežovej pápežovho pápežovi pápežovo pápežskej pápežská pápežské pápežského pápežskú pápežský pápežských
+75	1975	vedomie	vedomia vedomiu vedomím
+76	1976	ozbrojený	ozbrojenej ozbrojenom ozbrojenou ozbrojená ozbrojené ozbrojeného ozbrojenému ozbrojení ozbrojenú ozbrojených ozbrojeným ozbrojenými
+77	1977	krvný	krvnej krvnom krvnou krvná krvné krvného krvnému krvnú krvných krvným krvnými
+78	1978	dotýkať	dotýka dotýkaj dotýkajte dotýkajú dotýkal dotýkala dotýkali dotýkam dotýkame dotýkate dotýkaš nedotýka nedotýkaj nedotýkajte nedotýkajú nedotýkal nedotýkala nedotýkali nedotýkam nedotýkame nedotýkaš nedotýkať
+79	1979	konflikt	konflikte konfliktoch konfliktom konfliktov konfliktu konflikty
+80	1980	zoznámiť	nezoznámil nezoznámila nezoznámili nezoznámiš zoznám zoznámi zoznámia zoznámil zoznámila zoznámili zoznámim zoznámime zoznámite zoznámiš zoznámte
+81	1981	ostrý	najostrejšia najostrejšie najostrejší ostrej ostrejšia ostrejšie ostrejší ostro ostrom ostrou ostrá ostré ostrého ostrí ostrú ostrých ostrým ostrými
+82	1982	vnútro	vnútra vnútre vnútrom
+83	1983	dych	dychom dychovej dychová dychové dychovú dychový dychových dychu
+84	1984	nepríjemný	najnepríjemnejšia nepríjemnej nepríjemnom nepríjemnou nepríjemná nepríjemné nepríjemného nepríjemnému nepríjemní nepríjemnú nepríjemných nepríjemným
+85	1985	diabol	diabla diabli diablik diabloch diablom diablov diablovi diabolskej diabolskom diabolskou diabolská diabolské diabolského diabolskému diabolskí diabolskú diabolský diabolských diabolským diabolskými
+86	1986	chrám	chráme chrámoch chrámom chrámov chrámu chrámy
+87	1987	vyhnúť	nevyhla nevyhli nevyhne nevyhnem nevyhneme nevyhnete nevyhneš nevyhol vyhla vyhli vyhlo vyhnem vyhneme vyhnete vyhneš vyhnime vyhnite vyhnú vyhol
+88	1988	prezradiť	neprezradia neprezradil neprezradila neprezradili neprezradiť neprezradí neprezradím neprezradíme neprezradíte neprezradíš neprezraď neprezraďte prezradia prezradil prezradila prezradili prezradilo prezradí prezradím prezradíme prezradíte prezradíš prezraď prezraďte
+89	1989	postoj	postoja postoje postoji postojmi postojoch postojom postojov postoju
+90	1990	fajčiť	fajčenia fajčenie fajčeniu fajčení fajčením fajči fajčia fajčiaci fajčil fajčila fajčili fajčite fajčí fajčím fajčíme fajčíte fajčíš nefajči nefajčia nefajčil nefajčila nefajčili nefajčite nefajčiť nefajčí nefajčím nefajčíme nefajčíte nefajčíš
+91	1991	chodba	chodbami chodbe chodbou chodbu chodby chodbách chodieb
+92	1992	štvrť	štvrte štvrti štvrtiach štvrtí štvrťou
+93	1993	neskorý	neskorej neskorom neskorá neskoré neskorého neskorému neskorú neskorých neskorým neskoršej neskoršia neskoršieho neskoršiu neskoršom neskorší neskorších neskorším
+94	1994	dodnes	
+95	1995	pritom	
+96	1996	morský	morskej morskom morskou morská morské morského morskí morskú morských morským morskými
+97	1997	zaviesť	nezavedie nezavediete zavedie zavediem zavedieme zavediete zavedieš zavedú zaveď zaveďme zaveďte zaviedla zaviedli zaviedlo zaviedol
+98	1998	pozorovať	nepozoroval nepozorovali nepozorujeme pozoroval pozorovala pozorovali pozorovalo pozoruj pozoruje pozorujem pozorujeme pozorujete pozoruješ pozorujte pozorujú pozorujúc
+99	1999	rast	raste rastom rastu
+100	2000	galéria	galérie galérii galériou galériu galériách galérií

@@ -1,100 +1,100 @@
-1	3401	klietka	klietkach klietke klietkou klietku klietky klietok
-2	3402	prikázať	prikázal prikázala prikázali prikázalo prikáž prikáže prikážem prikážeme prikážete prikážeš prikážte prikážu
-3	3403	zásluha	zásluh zásluhou zásluhu zásluhy zásluhách
-4	3404	objav	objave objavoch objavom objavov objavu objavy
-5	3405	šach	šacha šachom šachovej šachovom šachová šachové šachového šachovú šachový šachových šachu šachy
-6	3406	cestovné	cestovnom cestovného
-7	3407	závod	závode závody
-8	3408	poplatok	poplatkami poplatkoch poplatkom poplatkov poplatku poplatky
-9	3409	nahlásiť	nahlás nahlási nahlásia nahlásil nahlásila nahlásili nahlásilo nahlásim nahlásime nahlásite nahlásiš nahláste
-10	3410	maliar	maliara maliari maliarka maliarmi maliarom maliarov maliarovi maliarska maliarske maliarskej maliarsky maliarskych
-11	3411	inšpirovať	inšpiroval inšpirovala inšpirovali inšpirovalo inšpiruje inšpirujem inšpirujeme inšpirujete inšpiruješ inšpirujú
-12	3412	sedlo	sediel sedla sedle sedlom sedlá
-13	3413	častica	časticami častice časticový časticu častíc
-14	3414	necht	nechta nechtami nechte nechtoch nechtom nechtov nechtu nechty
-15	3415	potenciál	potenciáli potenciálom potenciálu
-16	3416	visieť	visel visela viseli viselo visia visiac visí visím visíme visíte visíš
-17	3417	únik	únikoch únikom únikov úniku úniky
-18	3418	pribudnúť	pribudla pribudli pribudlo pribudne pribudnú pribudol
-19	3419	tuším	
-20	3420	zostaviť	zostavenie zostavená zostavené zostavení zostavený zostavil zostavila zostavili zostavovať zostavte zostavuje zostaví zostavím zostavíme
-21	3421	trápne	najtrápnejšie trápnejšie
-22	3422	atóm	atómami atómoch atómom atómov atómovej atómovou atómová atómové atómového atómovú atómový atómových atómovým atómu atómy
-23	3423	ukážka	ukážkami ukážke ukážkou ukážku ukážky ukážok
-24	3424	produkovať	produkoval produkovala produkovali produkuje produkujem produkujeme produkujete produkuješ produkujú
-25	3425	semeno	semena semenami semene semenom semená semenách semenám semien
-26	3426	náhradný	náhradnej náhradnom náhradnou náhradná náhradné náhradného náhradní náhradnú náhradných náhradným náhradnými
-27	3427	inšpirácia	inšpirácie inšpirácii inšpiráciou inšpiráciu
-28	3428	presadiť	presadil presadila presadili presadí presadíme presaď
-29	3429	vyhovovať	vyhovoval vyhovovala vyhovovali vyhovovalo vyhovuje vyhovujú
-30	3430	láskavý	láskavejšia láskavejšie láskavejší láskavo láskavá láskavé láskavého láskavému láskaví láskavú láskavým láskavými najláskavejšie najláskavejší
-31	3431	kontinent	kontinente kontinentoch kontinentom kontinentov kontinentu kontinenty kontinentálne kontinentálneho kontinentálnej kontinentálny
-32	3432	spravodlivý	spravodlivej spravodlivom spravodlivá spravodlivé spravodlivého spravodliví spravodlivú spravodlivých spravodlivým
-33	3433	podzemný	podzemnej podzemnom podzemnou podzemná podzemné podzemného podzemnú podzemných podzemným
-34	3434	neplatiť	neplatia neplatil neplatila neplatili neplatilo neplatí neplatím neplatíme neplatíte neplatíš neplať neplaťte
-35	3435	nepustiť	nepusti nepustia nepustil nepustila nepustili nepustite nepustí nepustím nepustíme nepustíte nepustíš nepusť
-36	3436	ctihodnosť	ctihodnosti
-37	3437	drsný	drsnejšia drsnejší drsnom drsná drsné drsného drsnému drsní drsnú drsných drsným drsnými najdrsnejší najdrsnejších
-38	3438	rozkošný	najrozkošnejšia najrozkošnejší rozkošnej rozkošnejší rozkošnom rozkošnou rozkošná rozkošné rozkošného rozkošnému rozkošní rozkošnú rozkošných rozkošným rozkošnými
-39	3439	hniezdo	hniezd hniezda hniezdach hniezde hniezdom hniezdočka hniezdočko hniezdočku hniezdu
-40	3440	účinný	najúčinnejšia najúčinnejší účinnej účinnejšia účinnejší účinnou účinná účinné účinnú účinných účinným
-41	3441	žralok	žraloci žraloka žralokmi žralokoch žralokom žralokov žralokovi žraloky žraločia žraločí
-42	3442	slabosť	slabosti slabostiach slabostiam slabostí slabosťami slabosťou
-43	3443	uznanie	uznania uznaniu uznaním
-44	3444	nezvestný	nezvestnej nezvestnom nezvestnou nezvestná nezvestné nezvestného nezvestní nezvestnú nezvestných nezvestným nezvestnými
-45	3445	funkčné	funkčnom funkčného
-46	3446	mláďa	mláďat mláďatami mláďatko mláďatká mláďatá mláďatám mláďaťa mláďaťom mláďaťu
-47	3447	uhnúť	uhne uhnem uhnete uhneš uhni uhnite
-48	3448	srdcový	srdcovej srdcovom srdcovou srdcová srdcové srdcového srdcovú srdcových srdcovým srdcovými
-49	3449	ochraňovať	ochraňoval ochraňovala ochraňovali ochraňuj ochraňuje ochraňujem ochraňujeme ochraňujete ochraňuješ ochraňujte ochraňujú
-50	3450	investícia	investíciami investície investícii investíciou investíciu investíciách investícií
-51	3451	dotýkať	dotýka dotýkaj dotýkajte dotýkajú dotýkal dotýkala dotýkali dotýkam dotýkame dotýkate dotýkaš
-52	3452	zvyknutý	zvyknutá zvyknuté zvyknutí
-53	3453	dodávať	dodáva dodávajú dodával dodávala dodávali dodávam dodávame dodávate dodávaš
-54	3454	schválený	schválenej schválená schválené schváleného schválení schválenú schválených
-55	3455	obyčajne	
-56	3456	ponožka	ponožiek ponožkami ponožke ponožkou ponožku ponožky ponožkách ponožkám
-57	3457	definovať	definoval definovala definovali definovalo definuj definuje definujem definujeme definujete definuješ definujte definujú
-58	3458	živočích	živočícha živočíchmi živočíchoch živočíchom živočíchov živočíchy živočíšny živočíšnych
-59	3459	povrchový	povrchovej povrchovou povrchová povrchové povrchového povrchovú povrchových
-60	3460	vysloviť	vyslov vyslovia vyslovil vyslovila vyslovili vyslovte vysloví vyslovím vyslovíme vyslovíte vyslovíš
-61	3461	usmievať	usmieva usmievaj usmievajte usmievajú usmieval usmievala usmievali usmievam usmievate usmievaš
-62	3462	ústava	ústave ústavného ústavný ústavou ústavu ústavy
-63	3463	vyšetrovať	vyšetroval vyšetrovala vyšetrovali vyšetrovalo vyšetruj vyšetruje vyšetrujem vyšetrujeme vyšetrujete vyšetruješ vyšetrujú
-64	3464	nesedieť	nesedel nesedela nesedeli nesedelo nesedia nesedí nesedím nesedíme nesedíte nesedíš neseď neseďte
-65	3465	podnikanie	podnikania podnikaniu podnikaní podnikaním
-66	3466	nedôjsť	nedošiel nedošla nedošli nedošlo nedôjde nedôjdeme nedôjdeš nedôjdu
-67	3467	zajac	zajaca zajace zajacmi zajacoch zajacom zajacov zajacovi zajačej zajačie zajačik zajačika zajačikmi zajačikom zajačikov zajačikovi zajačiky zajačiu zajačí zajačích
-68	3468	omáčka	omáčkach omáčke omáčkou omáčku omáčky omáčok
-69	3469	vankúš	vankúša vankúše vankúši vankúšik vankúšiky vankúšmi vankúšoch vankúšom vankúšov vankúšová vankúšovú vankúšový
-70	3470	nejesť	neje nejedia nejedla nejedli nejedol nejedz nejedzte nejem nejeme nejete neješ
-71	3471	zrážka	zrážkach zrážkam zrážkami zrážke zrážkou zrážku zrážky zrážok
-72	3472	strop	strope stropom stropov stropu stropy
-73	3473	administratíva	administratíve administratívne administratívny administratívou administratívu administratívy
-74	3474	hodný	hodnej hodnou hodná hodné hodného hodní hodnú hodných hodným
-75	3475	brigáda	brigád brigáde brigádneho brigádny brigádou brigádu brigády
-76	3476	definitívne	
-77	3477	nesmierny	nesmierna nesmierne nesmierneho nesmiernej nesmiernou nesmiernu nesmiernych nesmiernym
-78	3478	opis	opise opisom opisov opisu opisy
-79	3479	povolený	povolenej povolenou povolená povolené povolenú povolených
-80	3480	grafika	grafike grafikou grafiku grafiky
-81	3481	hák	hákoch hákom hákov háku háky háčik háčika háčikmi háčikom háčikov háčiku háčiky
-82	3482	poľnohospodárstvo	poľnohospodárstva poľnohospodárstve poľnohospodárstvom poľnohospodárstvu
-83	3483	nestratiť	nestratia nestratil nestratila nestratili nestratilo nestratí nestratím nestratíme nestratíte nestratíš nestrať nestraťme nestraťte
-84	3484	román	románe románoch románom románov románu romány
-85	3485	dym	dyme dymom dymové dymový dymu
-86	3486	dedko	dedka dedkom dedkov dedkovi deduška deduško
-87	3487	prezývka	prezývkami prezývke prezývkou prezývku prezývky prezývok
-88	3488	obytný	obytnej obytnom obytnou obytná obytné obytného obytnú obytných
-89	3489	dnešok	dneška dneškom dnešku
-90	3490	dráma	drám drámach dráme drámou drámu drámy
-91	3491	útočiť	útoč útočia útočil útočila útočili útočilo útočte útočí útočím útočíme útočíte útočíš
-92	3492	distribúcia	distribúcie distribúcii distribúciou distribúciu
-93	3493	zmiešaný	zmiešanej zmiešaná zmiešané zmiešaného zmiešaní zmiešanú zmiešaných zmiešaným zmiešanými
-94	3494	nórsky	nórska nórske nórskeho nórskej nórskom nórsku nórskych nórskym
-95	3495	hnusný	hnusnej hnusnejší hnusnom hnusnou hnusná hnusné hnusného hnusní hnusnú hnusných hnusným hnusnými najhnusnejšia
-96	3496	biológia	biologické biologický biológie biológii biológiou biológiu
-97	3497	plameň	plamene plameni plameňa plameňmi plameňoch plameňom plameňov plameňu plamienok
-98	3498	sviňa	svine svini sviniach sviniam sviňami sviňou sviňu svíň
-99	3499	kocka	kociek kockami kocke kockou kocku kocky kockách
-100	3500	prepojenie	prepojenia prepojeniu prepojením
+1	3401	spravodlivý	spravodlivej spravodlivom spravodlivá spravodlivé spravodlivého spravodliví spravodlivú spravodlivých spravodlivým
+2	3402	semeno	semena semenami semene semenom semená semenách semenám semien
+3	3403	ukážka	ukážkami ukážke ukážkou ukážku ukážky ukážok
+4	3404	zostaviť	zostavenie zostavená zostavené zostavení zostavený zostavil zostavila zostavili zostavovať zostavte zostavuje zostaví zostavím zostavíme
+5	3405	žralok	žraloci žraloka žralokmi žralokoch žralokom žralokov žralokovi žraloky žraločia žraločí
+6	3406	inšpirácia	inšpirácie inšpirácii inšpiráciou inšpiráciu
+7	3407	slabosť	slabosti slabostiach slabostiam slabostí slabosťami slabosťou
+8	3408	hniezdo	hniezd hniezda hniezdach hniezde hniezdom hniezdočka hniezdočko hniezdočku hniezdu
+9	3409	mláďa	mláďat mláďatami mláďatko mláďatká mláďatá mláďatám mláďaťa mláďaťom mláďaťu
+10	3410	pribudnúť	pribudla pribudli pribudlo pribudne pribudnú pribudol
+11	3411	podzemný	podzemnej podzemnom podzemnou podzemná podzemné podzemného podzemnú podzemných podzemným
+12	3412	ovládnuť	neovládla neovládli neovládne neovládnem neovládneš neovládnu neovládol ovládla ovládli ovládlo ovládne ovládnem ovládneme ovládnete ovládneš ovládni ovládnu ovládol
+13	3413	kontinent	kontinente kontinentoch kontinentom kontinentov kontinentu kontinenty kontinentálne kontinentálneho kontinentálnej kontinentálny
+14	3414	zvyknutý	zvyknutá zvyknuté zvyknutí
+15	3415	čudovať	nečudoval nečudovala nečuduj nečudujem nečudujte čudoval čudovala čudovali čuduj čuduje čudujem čudujeme čudujete čuduješ čudujú
+16	3416	ponožka	ponožiek ponožkami ponožke ponožkou ponožku ponožky ponožkách ponožkám
+17	3417	účinný	najúčinnejšia najúčinnejší účinnej účinnejšia účinnejší účinnou účinná účinné účinnú účinných účinným
+18	3418	pršať	nepršalo neprší pršal pršali pršalo pršia prší
+19	3419	uznanie	uznania uznaniu uznaním
+20	3420	srdcový	srdcovej srdcovom srdcovou srdcová srdcové srdcového srdcovú srdcových srdcovým srdcovými
+21	3421	investícia	investíciami investície investícii investíciou investíciu investíciách investícií
+22	3422	zavesiť	nezaves nezavesil nezaveste nezavesíš zaves zavesia zavesil zavesila zavesili zavesme zaveste zavesí zavesím zavesíme zavesíte zavesíš
+23	3423	obyčajne	
+24	3424	funkčné	funkčnom funkčného
+25	3425	zajac	zajaca zajace zajacmi zajacoch zajacom zajacov zajacovi zajačej zajačie zajačik zajačika zajačikmi zajačikom zajačikov zajačikovi zajačiky zajačiu zajačí zajačích
+26	3426	dodávať	dodáva dodávajú dodával dodávala dodávali dodávam dodávame dodávate dodávaš
+27	3427	omáčka	omáčkach omáčke omáčkou omáčku omáčky omáčok
+28	3428	definovať	definoval definovala definovali definovalo definuj definuje definujem definujeme definujete definuješ definujte definujú
+29	3429	schválený	schválenej schválená schválené schváleného schválení schválenú schválených
+30	3430	dedko	dedka dedkom dedkov dedkovi deduška deduško
+31	3431	vankúš	vankúša vankúše vankúši vankúšik vankúšiky vankúšmi vankúšoch vankúšom vankúšov vankúšová vankúšovú vankúšový
+32	3432	hodný	hodnej hodnou hodná hodné hodného hodní hodnú hodných hodným
+33	3433	živočích	živočícha živočíchmi živočíchoch živočíchom živočíchov živočíchy živočíšny živočíšnych
+34	3434	podnikanie	podnikania podnikaniu podnikaní podnikaním
+35	3435	dnešok	dneška dneškom dnešku
+36	3436	hák	hákoch hákom hákov háku háky háčik háčika háčikmi háčikom háčikov háčiku háčiky
+37	3437	hnusný	hnusnej hnusnejší hnusnom hnusnou hnusná hnusné hnusného hnusní hnusnú hnusných hnusným hnusnými najhnusnejšia
+38	3438	povrchový	povrchovej povrchovou povrchová povrchové povrchového povrchovú povrchových
+39	3439	zraziť	nezraz nezrazil nezrazila nezrazili nezrazilo nezrazí zrazia zrazil zrazila zrazili zrazilo zrazte zrazí zrazím zrazíme zrazíte zrazíš
+40	3440	ústava	ústave ústavného ústavný ústavou ústavu ústavy
+41	3441	strop	strope stropom stropov stropu stropy
+42	3442	klesnúť	klesla klesli kleslo klesne klesnem klesneme klesneš klesni klesnite klesnú klesol neklesla neklesne neklesol
+43	3443	sviňa	svine svini sviniach sviniam sviňami sviňou sviňu svíň
+44	3444	dym	dyme dymom dymové dymový dymu
+45	3445	strašidelný	najstrašidelnejšia najstrašidelnejšie najstrašidelnejší strašidelnej strašidelnejší strašidelnom strašidelnou strašidelná strašidelné strašidelného strašidelní strašidelnú strašidelných strašidelným strašidelnými
+46	3446	diskutovať	diskutoval diskutovala diskutovali diskutovalo diskutuje diskutujem diskutujeme diskutujete diskutuješ diskutujme diskutujte diskutujú nediskutovali nediskutuj nediskutuje nediskutujem nediskutujeme
+47	3447	povolený	povolenej povolenou povolená povolené povolenú povolených
+48	3448	nesmierny	nesmierna nesmierne nesmierneho nesmiernej nesmiernou nesmiernu nesmiernych nesmiernym
+49	3449	zrážka	zrážkach zrážkam zrážkami zrážke zrážkou zrážku zrážky zrážok
+50	3450	upozorniť	neupozornil neupozornila neupozornili neupozorní upozorni upozornia upozornil upozornila upozornili upozornilo upozornite upozorní upozorním upozorníme upozorníte upozorníš
+51	3451	prezývka	prezývkami prezývke prezývkou prezývku prezývky prezývok
+52	3452	administratíva	administratíve administratívne administratívny administratívou administratívu administratívy
+53	3453	definitívne	
+54	3454	strážnik	strážnika strážnikmi strážnikom strážnikov strážnikovi
+55	3455	plameň	plamene plameni plameňa plameňmi plameňoch plameňom plameňov plameňu plamienok
+56	3456	monštrum	monštier monštra monštrami monštre monštrom monštru monštrá monštrám
+57	3457	dráma	drám drámach dráme drámou drámu drámy
+58	3458	brigáda	brigád brigáde brigádneho brigádny brigádou brigádu brigády
+59	3459	pardon	
+60	3460	román	románe románoch románom románov románu romány
+61	3461	opis	opise opisom opisov opisu opisy
+62	3462	kocka	kociek kockami kocke kockou kocku kocky kockách
+63	3463	poľnohospodárstvo	poľnohospodárstva poľnohospodárstve poľnohospodárstvom poľnohospodárstvu
+64	3464	posvätný	najposvätnejšia najposvätnejších posvätnej posvätnom posvätnou posvätná posvätné posvätného posvätnému posvätnú posvätných posvätným posvätnými
+65	3465	biológia	biologické biologický biológie biológii biológiou biológiu
+66	3466	grafika	grafike grafikou grafiku grafiky
+67	3467	obytný	obytnej obytnom obytnou obytná obytné obytného obytnú obytných
+68	3468	nahlas	
+69	3469	ovládanie	ovládania ovládaniu ovládaním
+70	3470	zmiešaný	zmiešanej zmiešaná zmiešané zmiešaného zmiešaní zmiešanú zmiešaných zmiešaným zmiešanými
+71	3471	nórsky	nórska nórske nórskeho nórskej nórskom nórsku nórskych nórskym
+72	3472	prepojenie	prepojenia prepojeniu prepojením
+73	3473	kretén	kreténa kreténi kreténmi kreténom kreténov kreténovi
+74	3474	distribúcia	distribúcie distribúcii distribúciou distribúciu
+75	3475	sieň	siene sieni siení sieňach sieňou sní sňou
+76	3476	striebro	striebra striebre striebrom striebru
+77	3477	amen	
+78	3478	deviaty	deviata deviate deviateho deviatej deviati deviatom deviatou deviatu deviatym
+79	3479	obeh	obehom obehu
+80	3480	panel	panela paneli panelmi paneloch panelom panelov panelu panely
+81	3481	zrútiť	nezrúti nezrútil nezrútila nezrútim zrúti zrútia zrútil zrútila zrútili zrútilo zrútim zrútime zrútiš
+82	3482	pôžička	pôžičiek pôžičkami pôžičke pôžičkou pôžičku pôžičky pôžičkách
+83	3483	tanečná	tanečnej tanečnou tanečné tanečnú
+84	3484	dobytok	dobytka dobytkom dobytku
+85	3485	kresba	kresbami kresbe kresbou kresbu kresby kresbách kresieb
+86	3486	orol	orla orlami orlie orlieho orliemu orlom orlov orlovi orly orlí
+87	3487	únos	únose únosmi únosoch únosom únosov únosu únosy
+88	3488	báza	báze bázou bázu bázy
+89	3489	prísne	najprísnejšie prísnejšie
+90	3490	pretekár	pretekára pretekári pretekárom pretekárov pretekárske pretekársky
+91	3491	líder	líderka líderskej lídra lídrami lídri lídrom lídrov
+92	3492	neviditeľný	neviditeľnej neviditeľnom neviditeľnou neviditeľná neviditeľné neviditeľného neviditeľní neviditeľnú neviditeľných neviditeľným neviditeľnými
+93	3493	luk	luka lukmi lukom lukov lukovej lukovi lukovom luku luky
+94	3494	vkus	vkuse vkusom vkusu
+95	3495	zelenina	zelenine zeleninou zeleninu zeleniny
+96	3496	ropa	ropou ropu ropy
+97	3497	šek	šekmi šekoch šekom šekov šeku šeky
+98	3498	tvrdé	tvrdom tvrdého tvrdému
+99	3499	zniesť	neznesie neznesiem neznesieme neznesiete neznesieš neznesú nezniesla nezniesli nezniesol znes znesie znesiem znesieme znesiete znesieš znesú zniesla zniesli zniesol
+100	3500	poňatie	poňatia poňatí

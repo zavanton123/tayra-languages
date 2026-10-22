@@ -1,100 +1,100 @@
-1	9901	nezabrániť	nezabráni nezabránia nezabránil nezabránila nezabránili nezabránilo nezabránim nezabránime nezabránite nezabrániš
-2	9902	úradujúci	úradujúca úradujúceho úradujúcim
-3	9903	zruinovať	zruinoval zruinovala zruinovali zruinovalo zruinuje zruinujem zruinujete zruinuješ zruinujú
-4	9904	nasilu	
-5	9905	primerane	
-6	9906	vyčleniť	vyčlenil vyčlenila vyčlenili
-7	9907	pokrstený	pokrstená pokrstené pokrstení
-8	9908	tíško	
-9	9909	nečistota	nečistotu nečistoty nečistôt
-10	9910	pasienok	pasienkoch pasienkov pasienky
-11	9911	prenajímať	prenajíma prenajímajú prenajímal prenajímala prenajímali prenajímam prenajímame prenajímate prenajímaš
-12	9912	tupec	tupca tupci tupcom tupcov tupcovi
-13	9913	lektor	lektora lektorom
-14	9914	zorný	zornom zorné zorného
-15	9915	sklený	sklenej sklené sklenú sklených
-16	9916	mramorový	mramorová mramorové mramorového mramorovú mramorových
-17	9917	nezriedka	
-18	9918	turisticky	
-19	9919	kolmo	
-20	9920	kára	kár káre károu káru káry
-21	9921	nehľadieť	nehľadel nehľadiac nehľadí nehľadíš nehľaď
-22	9922	ušiť	ušije ušijem ušil ušila ušili
-23	9923	uchopiť	uchop uchopil uchopila uchopte uchopí uchopím uchopíte uchopíš
-24	9924	transportér	transportéra transportéri transportérom transportérov transportéru transportéry
-25	9925	spochybniť	spochybnil spochybnila spochybnili spochybní
-26	9926	poraniť	poranil poranila poranili poraní
-27	9927	licenčný	licenčnej licenčná licenčné licenčných
-28	9928	nenazvať	nenazval nenazvala nenazvali nenazve nenazvem nenazveme nenazveš nenazvi
-29	9929	dosvedčiť	dosvedčia dosvedčil dosvedčila dosvedčili dosvedčí dosvedčím dosvedčíte dosvedčíš
-30	9930	krásavica	krásavice krásavicu krásavíc
-31	9931	kunda	kunde kundou kundu kundy kúnd
-32	9932	detičky	detičiek detičkami detičkách detičkám
-33	9933	stavenisko	staveniska stavenisku
-34	9934	posunutý	posunutá posunuté posunutí posunutú
-35	9935	vpadnúť	vpadla vpadli vpadne vpadnem vpadnete vpadneš vpadnite vpadnú vpadol
-36	9936	rúcať	rúca rúcajú rúcal rúcali rúcalo rúcam
-37	9937	figúra	figúr figúru figúry
-38	9938	vada	vade vadou vadu vady vád
-39	9939	urážlivý	urážlivá urážlivé urážlivým
-40	9940	prepravovať	prepravoval prepravovali prepravuje prepravujeme prepravujú
-41	9941	vata	vate vatou vatu vaty
-42	9942	astronaut	astronauta astronauti astronautmi astronautoch astronautom
-43	9943	biotop	biotopov biotopy
-44	9944	nenarodiť	nenarodia nenarodil nenarodila nenarodili nenarodilo nenarodí nenarodím nenarodíš
-45	9945	postávať	postáva postávajú postával postávala postávali postávam postávame postávate postávaš
-46	9946	chatrč	chatrče chatrči chatrčiach chatrčou chatrčí
-47	9947	poskok	poskoka poskokmi poskokom poskokov poskokovia
-48	9948	vyzuť	vyzuj vyzuje vyzujem vyzujte vyzul vyzula vyzuli vyzúvam
-49	9949	risknúť	riskla riskli riskne risknem riskneme riskni riskol
-50	9950	nepotvrdiť	nepotvrdia nepotvrdil nepotvrdila nepotvrdili nepotvrdilo nepotvrdí nepotvrdím nepotvrdíme
-51	9951	aker	akra akre akroch akrov
-52	9952	neovládať	neovláda neovládajú neovládal neovládala neovládali neovládam neovládame neovládate neovládaš
-53	9953	regulovaný	regulovaná regulované
-54	9954	sultán	sultána sultánom sultánov sultánovi
-55	9955	ná	
-56	9956	čoby	
-57	9957	nacionalizmus	nacionalizmu
-58	9958	zvonica	zvonice zvonici zvonicu
-59	9959	čiastočka	čiastočiek čiastočkami čiastočke čiastočky
-60	9960	neprijímať	neprijíma neprijímajte neprijímajú neprijímam neprijímame neprijímate neprijímaš
-61	9961	mejkap	mejkape mejkapom mejkapu
-62	9962	koňak	koňakom koňaku
-63	9963	signalizácia	signalizácie signalizáciu
-64	9964	hystéria	hysterická hysterický hystérie hystérii hystériou hystériu
-65	9965	divoko	divokejšie najdivokejšie
-66	9966	dlhotrvajúci	dlhotrvajúca dlhotrvajúce dlhotrvajúceho dlhotrvajúcej dlhotrvajúcu
-67	9967	fauna	faunou faunu fauny
-68	9968	starostka	starostkou starostku starostky
-69	9969	agregát	agregátov agregáty
-70	9970	baníctvo	baníctva
-71	9971	kasta	kaste kastou kastu kasty kást
-72	9972	obslúžiť	obslúž obslúži obslúžia obslúžil obslúžila obslúžili obslúžim obslúžime obslúžte
-73	9973	uplynutie	uplynutí uplynutím
-74	9974	kurátor	kurátora kurátorom kurátorov kurátorovi
-75	9975	družica	družice družicu družíc
-76	9976	vydaj	vydaja vydajom vydaju
-77	9977	roľník	roľníci roľníka roľníkmi roľníkom
-78	9978	vnem	vnemov vnemy
-79	9979	vyhorieť	vyhorel vyhorela vyhoreli vyhorelo vyhoria vyhorí
-80	9980	intriga	intrigami intrigy intrigách intríg
-81	9981	pôvab	pôvabom pôvabu pôvaby
-82	9982	vychádzanie	vychádzania vychádzaní
-83	9983	blbo	blbšie
-84	9984	prielom	prielomu prielomy
-85	9985	predvečer	
-86	9986	ópium	ópia ópiom ópiových ópiu
-87	9987	nácvik	nácvikom nácviku
-88	9988	násobný	násobné násobným
-89	9989	bádateľ	bádatelia bádateľom bádateľov
-90	9990	navrchu	
-91	9991	hojnosť	hojnosti hojnosťou
-92	9992	multifunkčný	multifunkčná multifunkčné
-93	9993	katastrofálny	katastrofálna katastrofálne katastrofálnej katastrofálnom katastrofálnymi
-94	9994	zaplaviť	zaplavia zaplavil zaplavila zaplavili zaplavilo zaplavte zaplaví zaplavíme
-95	9995	zadoček	zadočkom zadočku zadočky
-96	9996	trénovanie	trénovania trénovaní trénovaním
-97	9997	letec	letca letci letcom letcov
-98	9998	pätica	pätice päticu
-99	9999	chalupa	chalupe chalupu chalupy chalúpka chalúpke
-100	10000	zrekonštruovať	zrekonštruoval zrekonštruovali
+1	9901	vystačiť	nevystačí vystačia vystačil vystačila vystačili vystačilo vystačí vystačím vystačíme vystačíš
+2	9902	škorica	škorice škoricou škoricová škoricové škoricový škoricu
+3	9903	ohľaduplný	ohľaduplnejší ohľaduplná ohľaduplné ohľaduplní
+4	9904	vyprať	nevyperie vyper vyperie vyperiem vyperiete vyperú vypral vyprala vyprali
+5	9905	ústredňa	ústredne ústredni ústredňu
+6	9906	sľubne	sľubnejšie
+7	9907	spád	spádom
+8	9908	mamut	mamuta mamutov mamuty
+9	9909	vzdialene	najvzdialenejšie vzdialenejšie
+10	9910	seniorský	seniorskej seniorskom seniorské seniorskú seniorských
+11	9911	rajčina	rajčinami rajčinovú rajčinový rajčinu rajčiny rajčín
+12	9912	rehoľa	rehole
+13	9913	hydina	hydinu hydiny
+14	9914	lepkavý	lepkavej lepkavou lepkavá lepkavé lepkavého lepkavú lepkavých lepkavým lepkavými
+15	9915	inštalovať	inštaloval inštalovali inštaluje inštalujem inštalujú
+16	9916	zreteľný	zreteľná zreteľné zreteľnú
+17	9917	spot	spoty
+18	9918	vstrekovanie	vstrekovania vstrekovaním
+19	9919	pricestovať	pricestoval pricestovala pricestovali pricestuje
+20	9920	farebne	
+21	9921	zastrešovať	zastrešuje
+22	9922	grant	grante grantom grantov grantu granty
+23	9923	doložený	doložená doložené
+24	9924	prijímací	prijímacej prijímacia prijímacie prijímacieho prijímaciu prijímacom prijímacích
+25	9925	truhlica	truhlice truhlici truhlicou truhlicu
+26	9926	kozmetický	kozmetickej kozmetickom kozmetická kozmetické kozmetickú kozmetických
+27	9927	retardovaný	retardovaná retardované retardovaného retardovaní retardovaných retardovaným
+28	9928	šichta	šichte šichtu šichty
+29	9929	plaváreň	plavárne plavárni
+30	9930	zhromažďovanie	zhromažďovania zhromažďovaním
+31	9931	víťaziť	víťazia víťazí víťazíme
+32	9932	usporiadateľ	usporiadatelia usporiadateľa usporiadateľom usporiadateľov
+33	9933	sed	sede
+34	9934	zafarbenie	zafarbenia
+35	9935	prospievať	neprospieva neprospievajú prospieva prospievajú
+36	9936	pupok	pupka pupkom pupku pupky
+37	9937	alkoholizmus	alkoholizmom alkoholizmu
+38	9938	obnoviteľný	obnoviteľnej obnoviteľné obnoviteľných
+39	9939	prúžok	prúžkami prúžky
+40	9940	nečistý	nečistej nečistá nečisté nečistého nečistí nečistú nečistých nečistým nečistými
+41	9941	diktatúra	diktatúre diktatúrou diktatúru diktatúry
+42	9942	susedka	susediek susedke susedkou susedku susedky
+43	9943	polepšiť	nepolepší polepšil polepšila polepšili polepšilo polepší polepším
+44	9944	žrádlo	žrádla žrádlom
+45	9945	opýtanie	opýtania
+46	9946	fagan	fagana fagani faganom faganov
+47	9947	herpes	herpesom herpesu
+48	9948	hygienický	hygienické hygienických
+49	9949	vyhnanstvo	vyhnanstva vyhnanstve
+50	9950	doručenie	doručenia doručeniu
+51	9951	osadník	osadníci osadníkmi osadníkom osadníkov
+52	9952	arogancia	arogancie arogancii aroganciou aroganciu
+53	9953	ananás	ananásom ananásový ananásu ananásy
+54	9954	kosa	kose kosou kosu
+55	9955	akcent	akcentom akcentu
+56	9956	červenať	nečervenám červenajú červenal červenala červenali červenám červenáte červenáš
+57	9957	blud	bludmi bludom bludov bludy
+58	9958	skanzen	skanzenu
+59	9959	boxovať	boxoval boxovali boxovanie boxuj boxuje boxujem boxuješ boxujúci neboxoval
+60	9960	kurník	kurníka kurníku
+61	9961	vzdych	vzdychov vzdychy
+62	9962	predvolať	predvolajme predvolajte predvolajú predvolal predvolala predvolali predvolá predvolám predvoláme predvoláte
+63	9963	plaziť	plazia plaziac plazil plazila plazili plazte plazí plazím plazíme plazíš
+64	9964	výhodne	najvýhodnejšie výhodnejšie
+65	9965	zamedziť	zamedzil zamedzili zamedzilo
+66	9966	belieť	belej
+67	9967	prevádzať	prevádza prevádzal prevádzali prevádzam
+68	9968	vžiť	vži vžil vžila vžite
+69	9969	múza	múz múze múzou múzu múzy
+70	9970	veterinárny	veterinárna veterinárne veterinárneho veterinárnej veterinárnu
+71	9971	sedemdesiat	sedemdesiatich
+72	9972	chápaný	chápaná chápané
+73	9973	rozvíjanie	rozvíjaní
+74	9974	masakra	masakre masakru masakry
+75	9975	sústo	sústa súste sústom
+76	9976	srandovný	srandovná srandovné srandovného srandovní srandovných
+77	9977	upáliť	upáli upália upálil upálila upálili upálim upálime upáľte
+78	9978	reflexia	reflexie reflexiu
+79	9979	spontánny	spontánna spontánnej spontánni spontánnu
+80	9980	radikál	radikáli radikálom radikálov
+81	9981	spáchanie	spáchania spáchaniu spáchaním
+82	9982	umývačka	umývačke umývačkou umývačku umývačky
+83	9983	dabing	dabingu
+84	9984	zraz	zraze zrazy
+85	9985	popoluška	popoluške popoluškou popolušku popolušky
+86	9986	pozastaviť	nepozastavil pozastav pozastavia pozastavil pozastavila pozastavili pozastaví pozastavím
+87	9987	synchronizácia	synchronizácie synchronizácii synchronizáciou synchronizáciu
+88	9988	nechutne	nechutnejšie
+89	9989	logistika	logistike logistiku logistiky
+90	9990	štiavnický	štiavnické štiavnických
+91	9991	služobníctvo	služobníctva služobníctvom služobníctvu
+92	9992	momentík	
+93	9993	šľak	šľaka
+94	9994	zahryznúť	zahryzla zahryzli zahryzne zahryznem zahryzneš zahryzni zahryznite zahryzol
+95	9995	elektromotor	elektromotorom elektromotory
+96	9996	platnička	platničiek platničku platničky
+97	9997	dôverne	dôvernejšie
+98	9998	remeň	remene remeni remeňa remeňom
+99	9999	pesticíd	pesticídmi pesticídoch pesticídov pesticídy
+100	10000	zdar	zdaru

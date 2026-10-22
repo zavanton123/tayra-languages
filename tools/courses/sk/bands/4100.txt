@@ -1,100 +1,100 @@
-1	4001	tlačiareň	tlačiarne tlačiarni tlačiarní tlačiarňach tlačiarňou
-2	4002	zahodiť	zahodia zahodil zahodila zahodili zahodí zahodím zahodíme zahodíte zahodíš zahoď zahoďme zahoďte
-3	4003	pozdĺž	
-4	4004	znížený	zníženej zníženou znížená znížené znížení zníženú zníženým
-5	4005	asistentka	asistentiek asistentkami asistentke asistentkou asistentku asistentky
-6	4006	vyšetrovateľ	vyšetrovatelia vyšetrovateľa vyšetrovateľmi vyšetrovateľom vyšetrovateľov vyšetrovateľovi
-7	4007	korytnačka	korytnačia korytnačiek korytnačiu korytnačkami korytnačke korytnačkou korytnačku korytnačky korytnačkách korytnačí
-8	4008	doručiť	doruč doručia doručil doručila doručili doručte doručí doručím doručíme doručíte doručíš
-9	4009	plánovanie	plánovania plánovaniu plánovaním
-10	4010	rozviesť	rozvedie rozvediem rozvedieme rozvediete rozvedieš rozvedú rozveď rozveďme rozviedla rozviedli rozviedol
-11	4011	dynamický	dynamickej dynamická dynamické dynamického dynamickú dynamických dynamickým
-12	4012	jazva	jaziev jazvami jazve jazvou jazvu jazvy jazvách jazvám
-13	4013	fotoaparát	fotoaparáte fotoaparátmi fotoaparátom fotoaparátov fotoaparátu fotoaparáty
-14	4014	pôjsť	pošiel pošla pošli pošlo pôjde pôjdem pôjdeme pôjdete pôjdeš pôjdu
-15	4015	mliečny	mliečna mliečne mliečneho mliečnej mliečnou mliečnu mliečnych mliečnym mliečnymi
-16	4016	odznak	odznakmi odznakom odznakov odznaku odznaky
-17	4017	vládca	vládcami vládcom vládcov vládcovi vládcovia vládcu vládkyňa vládkyňou
-18	4018	agresívny	agresívna agresívne agresívneho agresívnej agresívnejšie agresívnejší agresívnemu agresívni agresívnou agresívnu agresívnych agresívnym
-19	4019	koalícia	koaličnej koalície koalícii koalíciou koalíciu
-20	4020	bodnúť	bodaj bodať bodla bodli bodlo bodne bodnem bodnete bodneš bodni bodnite bodnutie bodnutý bodnú bodol
-21	4021	úver	úvere úvermi úveroch úverom úverov úveru úvery
-22	4022	posilniť	posilni posilnia posilnil posilnila posilnili posilnilo posilnite posilní posilním posilníme
-23	4023	pohlavný	pohlavnej pohlavnom pohlavnou pohlavná pohlavné pohlavného pohlavnú pohlavných pohlavným
-24	4024	pamätník	pamätníka pamätníkom pamätníkov pamätníku pamätníky
-25	4025	sídliť	sídli sídlia sídlil sídlila sídlili sídlime sídlite
-26	4026	šéfka	šéfke šéfkou šéfku šéfky
-27	4027	zastúpenie	zastúpenia zastúpením
-28	4028	pokrytý	pokrytej pokrytou pokrytá pokryté pokrytí pokrytú pokrytých
-29	4029	presvedčenie	presvedčenia presvedčeniu presvedčením
-30	4030	kaša	kaše kaši kašička kašičku kašičky kašou kašu
-31	4031	utrpieť	utrpel utrpela utrpeli utrpelo utrpí utrpím utrpíme utrpíš
-32	4032	operátor	operátora operátori operátormi operátorom operátorov operátorovi
-33	4033	nelegálny	nelegálna nelegálne nelegálneho nelegálnej nelegálni nelegálnom nelegálnu nelegálnych nelegálnym nelegálnymi
-34	4034	sanitka	sanitiek sanitke sanitkou sanitku sanitky
-35	4035	pointa	pointe pointou pointu pointy
-36	4036	plece	pleca plecami pleci plecia pleciach plecom pliec
-37	4037	farár	farára farári farárom farárov farárovi
-38	4038	admirál	admirála admirálom admirálov admirálovi
-39	4039	holub	holuba holubica holubice holubicou holubicu holubie holubmi holubom holubov holubovi holuby holubí holubíc holúbka holúbkov holúbkovia holúbok
-40	4040	alternatíva	alternatív alternatíve alternatívou alternatívu alternatívy
-41	4041	osvetlenie	osvetlenia osvetleniu osvetlení osvetlením
-42	4042	konkurencia	konkurencie konkurencii konkurenciou konkurenciu
-43	4043	kázať	kázal kázala kázali kázania kázaniach kázanie kázaní kázaním káž káže kážem kážeme kážete kážeš kážu
-44	4044	slušne	najslušnejšie slušnejšie
-45	4045	ukrajinský	ukrajinskej ukrajinskom ukrajinská ukrajinské ukrajinského ukrajinskú ukrajinských ukrajinským
-46	4046	uhlie	uhlia uhlí uhlím uhoľnej uhoľný
-47	4047	potenciálny	potenciálna potenciálne potenciálneho potenciálnej potenciálnemu potenciálni potenciálnom potenciálnou potenciálnu potenciálnych potenciálnym potenciálnymi
-48	4048	čiastočný	čiastočnej čiastočnom čiastočnou čiastočná čiastočné čiastočného čiastočnú čiastočných čiastočným
-49	4049	viazaný	viazaná viazané viazaní viazaných
-50	4050	hasič	hasiča hasiči hasičmi hasičom hasičov hasičovi
-51	4051	hrôza	hrôz hrôzach hrôzam hrôzami hrôze hrôzou hrôzu hrôzy
-52	4052	vyplatiť	vyplatia vyplatil vyplatila vyplatili vyplatilo vyplatí vyplatím vyplatíme vyplatíte vyplatíš vyplať vyplaťte
-53	4053	mel	
-54	4054	staroveký	starovekej starovekou staroveká staroveké starovekého starovekí starovekú starovekých starovekým starovekými
-55	4055	nemeniť	nemenia nemenil nemenila nemenili nemení nemením nemeníme nemeníte nemeníš nemeň nemeňte
-56	4056	impérium	impéria impériom impériu impériá
-57	4057	priviezť	privez privezie priveziem privezieme priveziete privezieš privezte privezú priviezla priviezli priviezlo priviezol
-58	4058	morálny	morálna morálneho morálnej morálnemu morálni morálnom morálnou morálnu morálnych morálnym morálnymi
-59	4059	spätný	spätnej spätnom spätnou spätná spätné spätného spätnú spätným
-60	4060	senát	senáte senátom senátu
-61	4061	pestovať	pestoval pestovala pestovali pestuje pestujem pestujeme pestujete pestuješ pestujú
-62	4062	minerálny	minerálna minerálne minerálneho minerálnej minerálnu minerálnych
-63	4063	nositeľ	nositelia nositeľa nositeľmi nositeľom nositeľov nositeľovi
-64	4064	včerajší	včerajšej včerajšia včerajšie včerajšieho včerajšiemu včerajšiu včerajšom včerajšou včerajších včerajším včerajšími
-65	4065	výhradne	
-66	4066	dánsky	dánska dánske dánskeho dánskej dánski dánskom dánsku dánskych dánskym
-67	4067	každodenný	každodennej každodennom každodennou každodenná každodenné každodenného každodennému každodennú každodenných každodenným každodennými
-68	4068	panika	panike panikou paniku paniky
-69	4069	bolestivý	bolestivej bolestivou bolestivá bolestivé bolestivého bolestivú bolestivých bolestivým najbolestivejšia
-70	4070	vopred	
-71	4071	vyzliecť	vyzleč vyzlečie vyzlečiem vyzlečieme vyzlečiete vyzlečieš vyzlečme vyzlečte vyzlečú vyzliekla vyzliekli vyzliekol
-72	4072	mýtus	mýtoch mýtov mýty
-73	4073	izolácia	izolácie izolácii izoláciou izoláciu
-74	4074	konkurz	konkurze konkurzoch konkurzom konkurzov konkurzu konkurzy
-75	4075	tajne	najtajnejšie
-76	4076	plachta	plachiet plachtami plachte plachtou plachtu plachty plachtách
-77	4077	potvrdenie	potvrdenia potvrdeniu potvrdením
-78	4078	komédia	komédie komédii komédiou komédiu komédií
-79	4079	zakázať	zakázal zakázala zakázali zakázalo zakáž zakáže zakážem zakážeme zakážeš zakážte zakážu
-80	4080	opozícia	opozície opozícii opozíciou opozíciu
-81	4081	doména	domén doméne doménou doménu domény
-82	4082	testovanie	testovania testovaniu testovaním
-83	4083	nedávny	nedávna nedávne nedávneho nedávnej nedávnemu nedávnom nedávnou nedávnu nedávnych nedávnym
-84	4084	pozemný	pozemnej pozemná pozemné pozemného pozemnú pozemných pozemným
-85	4085	uterák	uteráka uterákmi uterákoch uterákom uterákov uteráku uteráky
-86	4086	pridaný	pridanej pridaná pridané pridaní pridaných
-87	4087	šetriť	šetri šetria šetril šetrila šetrili šetrite šetrí šetrím šetríme šetríte šetríš
-88	4088	skúšobný	skúšobnej skúšobnom skúšobná skúšobné skúšobného skúšobnú skúšobných
-89	4089	rúra	rúr rúrach rúrami rúre rúrou rúru rúry
-90	4090	nohavičky	nohavičiek nohavičkami nohavičkách nohavičkám
-91	4091	premyslieť	premyslel premyslela premysleli premysli premyslime premyslite premyslí premyslím premyslíme premyslíte premyslíš
-92	4092	opera	opere operou operu opery opier
-93	4093	poprava	popravami poprave popravou popravu popravy popravách popráv
-94	4094	vychovať	vychovajte vychovajú vychoval vychovala vychovali vychová vychovám vychováme vychováš
-95	4095	batoh	batoha batohmi batohom batohov batohu batohy
-96	4096	nedozvedieť	nedozvedel nedozvedela nedozvedeli nedozvedia nedozvie nedozviem nedozvieme nedozviete nedozvieš
-97	4097	pozoruhodný	najpozoruhodnejšia najpozoruhodnejšie najpozoruhodnejší najpozoruhodnejších pozoruhodnej pozoruhodnou pozoruhodná pozoruhodné pozoruhodného pozoruhodnú pozoruhodných pozoruhodným
-98	4098	pešo	
-99	4099	plast	plastické plastický plastom plastov plastové plastový plastu plasty
-100	4100	statočný	najstatočnejšia najstatočnejší najstatočnejších statočnej statočnejšia statočnejší statočnou statočná statočné statočného statočnému statoční statočnú statočných statočným
+1	4001	sídliť	sídli sídlia sídlil sídlila sídlili sídlime sídlite
+2	4002	operátor	operátora operátori operátormi operátorom operátorov operátorovi
+3	4003	farár	farára farári farárom farárov farárovi
+4	4004	zastúpenie	zastúpenia zastúpením
+5	4005	potenciálny	potenciálna potenciálne potenciálneho potenciálnej potenciálnemu potenciálni potenciálnom potenciálnou potenciálnu potenciálnych potenciálnym potenciálnymi
+6	4006	alternatíva	alternatív alternatíve alternatívou alternatívu alternatívy
+7	4007	panika	panike panikou paniku paniky
+8	4008	uhlie	uhlia uhlí uhlím uhoľnej uhoľný
+9	4009	staroveký	starovekej starovekou staroveká staroveké starovekého starovekí starovekú starovekých starovekým starovekými
+10	4010	impérium	impéria impériom impériu impériá
+11	4011	osvetlenie	osvetlenia osvetleniu osvetlení osvetlením
+12	4012	čiastočný	čiastočnej čiastočnom čiastočnou čiastočná čiastočné čiastočného čiastočnú čiastočných čiastočným
+13	4013	senát	senáte senátom senátu
+14	4014	morálny	morálna morálneho morálnej morálnemu morálni morálnom morálnou morálnu morálnych morálnym morálnymi
+15	4015	bolestivý	bolestivej bolestivou bolestivá bolestivé bolestivého bolestivú bolestivých bolestivým najbolestivejšia
+16	4016	viazaný	viazaná viazané viazaní viazaných
+17	4017	spávať	nespáva nespával nespávala nespávam nespávame nespávate nespávaš spáva spávajú spával spávala spávali spávam spávame spávate spávaš
+18	4018	zbabelec	zbabelca zbabelcami zbabelci zbabelcom zbabelcov
+19	4019	statočný	najstatočnejšia najstatočnejší najstatočnejších statočnej statočnejšia statočnejší statočnou statočná statočné statočného statočnému statoční statočnú statočných statočným
+20	4020	konkurz	konkurze konkurzoch konkurzom konkurzov konkurzu konkurzy
+21	4021	dočerta	
+22	4022	ukrajinský	ukrajinskej ukrajinskom ukrajinská ukrajinské ukrajinského ukrajinskú ukrajinských ukrajinským
+23	4023	spätný	spätnej spätnom spätnou spätná spätné spätného spätnú spätným
+24	4024	každodenný	každodennej každodennom každodennou každodenná každodenné každodenného každodennému každodennú každodenných každodenným každodennými
+25	4025	pestovať	pestoval pestovala pestovali pestuje pestujem pestujeme pestujete pestuješ pestujú
+26	4026	tajne	najtajnejšie
+27	4027	vopred	
+28	4028	potvrdenie	potvrdenia potvrdeniu potvrdením
+29	4029	dánsky	dánska dánske dánskeho dánskej dánski dánskom dánsku dánskych dánskym
+30	4030	uterák	uteráka uterákmi uterákoch uterákom uterákov uteráku uteráky
+31	4031	smiešny	najsmiešnejšia smiešna smiešneho smiešnej smiešnemu smiešni smiešnom smiešnou smiešnu smiešnych smiešnym smiešnymi
+32	4032	plachta	plachiet plachtami plachte plachtou plachtu plachty plachtách
+33	4033	mýtus	mýtoch mýtov mýty
+34	4034	prekážať	neprekáža neprekážaj neprekážajú neprekážal neprekážali neprekážalo neprekážam prekáža prekážajú prekážal prekážala prekážali prekážalo prekážam prekážate prekážaš
+35	4035	nedávny	nedávna nedávne nedávneho nedávnej nedávnemu nedávnom nedávnou nedávnu nedávnych nedávnym
+36	4036	nositeľ	nositelia nositeľa nositeľmi nositeľom nositeľov nositeľovi
+37	4037	výhradne	
+38	4038	podľahnúť	nepodľahli nepodľahnem nepodľahni nepodľahnúť nepodľahol podľahla podľahli podľahlo podľahne podľahneš podľahnú podľahol
+39	4039	nohavičky	nohavičiek nohavičkami nohavičkách nohavičkám
+40	4040	rúra	rúr rúrach rúrami rúre rúrou rúru rúry
+41	4041	minerálny	minerálna minerálne minerálneho minerálnej minerálnu minerálnych
+42	4042	izolácia	izolácie izolácii izoláciou izoláciu
+43	4043	komédia	komédie komédii komédiou komédiu komédií
+44	4044	poprava	popravami poprave popravou popravu popravy popravách popráv
+45	4045	batoh	batoha batohmi batohom batohov batohu batohy
+46	4046	testovanie	testovania testovaniu testovaním
+47	4047	účes	účese účesmi účesom účesov účesu účesy
+48	4048	pešo	
+49	4049	pozemný	pozemnej pozemná pozemné pozemného pozemnú pozemných pozemným
+50	4050	opera	opere operou operu opery opier
+51	4051	pozoruhodný	najpozoruhodnejšia najpozoruhodnejšie najpozoruhodnejší najpozoruhodnejších pozoruhodnej pozoruhodnou pozoruhodná pozoruhodné pozoruhodného pozoruhodnú pozoruhodných pozoruhodným
+52	4052	skúšobný	skúšobnej skúšobnom skúšobná skúšobné skúšobného skúšobnú skúšobných
+53	4053	pomstiť	nepomstil nepomstím pomsti pomstia pomstil pomstila pomstili pomstite pomstí pomstím pomstíme pomstíš
+54	4054	opozícia	opozície opozícii opozíciou opozíciu
+55	4055	pridaný	pridanej pridaná pridané pridaní pridaných
+56	4056	neskutočne	
+57	4057	doména	domén doméne doménou doménu domény
+58	4058	hovädo	hoväda hovädom hovädzej hovädzia hovädzie hovädzieho hovädziu hovädzom hovädzí hovädzích hovädzím hovädá
+59	4059	lavica	lavice lavici laviciach lavicou lavicu lavička lavičke lavíc
+60	4060	plast	plastické plastický plastom plastov plastové plastový plastu plasty
+61	4061	prorok	proroci proroka prorokmi prorokoch prorokom prorokov prorokovi
+62	4062	neporiadok	neporiadkom neporiadku
+63	4063	masáž	masážach masážami masáže masáži masážou
+64	4064	čašník	čašníci čašníka čašníkmi čašníkom čašníkov čašníkovi čašníčka čašníčkam čašníčkami čašníčke čašníčkou čašníčku čašníčky čašníčok
+65	4065	spôsobilo	
+66	4066	ukrytý	ukrytej ukrytom ukrytou ukrytá ukryté ukrytého ukrytí ukrytú ukrytých ukrytým
+67	4067	odrážať	neodráža odráža odrážaj odrážajú odrážal odrážala odrážali odrážalo odrážam odrážaš
+68	4068	kvapalina	kvapalinou kvapalinu kvapaliny kvapalín
+69	4069	mikrofón	mikrofóne mikrofónmi mikrofónom mikrofónov mikrofónu mikrofóny
+70	4070	vypovedať	nevypovedal nevypovedala nevypovedať nevypovedá vypovedajú vypovedal vypovedala vypovedali vypovedalo vypovedá vypovedám vypovie
+71	4071	réžia	réžie réžii réžiu
+72	4072	logika	logike logikou logiku logiky
+73	4073	bum	
+74	4074	volič	voliča voliči voličmi voličom voličov
+75	4075	dialóg	dialógov dialógu dialógy
+76	4076	čip	čipe čipmi čipoch čipom čipov čipu čipy
+77	4077	žľaza	žliaz žľazami žľaze žľazou žľazu žľazy žľazách
+78	4078	zver	zvera zveri zvermi zverom zverou zverov zvery zverí
+79	4079	náramok	náramkami náramkom náramkov náramku náramky
+80	4080	zisťovať	zisťoval zisťovala zisťovali zisťuje zisťujem zisťujeme zisťujete zisťuješ zisťujú
+81	4081	masívny	masívna masívneho masívnej masívnemu masívnom masívnou masívnu masívnych masívnym masívnymi
+82	4082	obchodovať	neobchodoval neobchoduje neobchodujem neobchodujeme obchodoval obchodovala obchodovali obchodovalo obchoduje obchodujem obchodujeme obchodujete obchoduješ obchodujú
+83	4083	celosvetový	celosvetovej celosvetovom celosvetovou celosvetová celosvetové celosvetového celosvetovú celosvetových celosvetovým
+84	4084	odfotiť	odfotia odfotil odfotila odfotili odfotí odfotím odfotíme odfotíte odfotíš odfoť odfoťme odfoťte
+85	4085	poškodiť	nepoškodil nepoškodila nepoškodili nepoškodilo nepoškodiť nepoškodí nepoškodíš nepoškoď poškodia poškodil poškodila poškodili poškodilo poškodí poškodím poškodíte poškodíš
+86	4086	spolupracovník	spolupracovníci spolupracovníka spolupracovníkmi spolupracovníkom spolupracovníkov
+87	4087	regulácia	regulácie regulácii reguláciou reguláciu
+88	4088	zásadný	zásadnej zásadnou zásadná zásadné zásadnú zásadných zásadným
+89	4089	povstanie	povstania povstaniu povstaní povstaním
+90	4090	explózia	explózie explózii explóziou explóziu explóziách explózií
+91	4091	prevodovka	prevodovke prevodovkou prevodovku prevodovky
+92	4092	podrobnosť	podrobnosti podrobnostiach podrobnostiam podrobností podrobnosťami
+93	4093	vesta	vestami veste vestou vestu vesty vestách viest
+94	4094	isteže	
+95	4095	počiatočný	počiatočnej počiatočnom počiatočná počiatočné počiatočného počiatočnú počiatočných počiatočným
+96	4096	ložisko	ložiska ložisku ložiská ložiskách ložísk
+97	4097	kompletne	
+98	4098	mlyn	mlyna mlyne mlynmi mlynom mlynov mlynské mlynu mlyny mlynček mlynčeka mlynčekom
+99	4099	gang	gangmi gangoch gangom gangov gangu gangy
+100	4100	generátor	generátora generátore generátormi generátorom generátorov generátoru generátory

@@ -1,4 +1,4 @@
-1	701	niesť	dones donesie donesiem donesieme donesiete donesieš donesme doneste donesú doniesla doniesli donieslo doniesol doniesť nes nesený nesie nesiem nesieme nesiete nesieš nesme neste nesú nesúc nesúce nesúci niesla niesli nieslo niesol ponesie ponesiem ponesieme ponesiete ponesieš ponesú
+1	701	niesť	dones donesie donesiem donesieme donesiete donesieš doneste donesú doniesla doniesli donieslo doniesol doniesť nedonesieš nedoniesli nedoniesol nenesie nenesiem neniesol nes nesený nesie nesiem nesieme nesiete nesieš nesú nesúc nesúce nesúci niesla niesli nieslo niesol ponesie ponesiem ponesiete ponesieš ponesú
 2	702	dolár	dolára doláre dolári dolármi dolároch dolárom dolárov doláru
 3	703	motor	motora motore motormi motoroch motorom motorov motoru motory
 4	704	tvorba	tvorbe tvorbou tvorbu tvorby
@@ -14,22 +14,22 @@
 14	714	les	lesa lese lesmi lesný lesoch lesom lesov lesu lesy lesík lesíku
 15	715	celkový	celkovej celkovom celkovou celková celkové celkového celkovému celkovú celkových celkovým
 16	716	myšlienka	myšlienkach myšlienkam myšlienkami myšlienke myšlienkou myšlienkovom myšlienková myšlienkové myšlienkový myšlienkových myšlienku myšlienky myšlienok
-17	717	dosiahnuť	dosiahla dosiahli dosiahlo dosiahne dosiahnem dosiahneme dosiahnete dosiahneš dosiahni dosiahnite dosiahnu dosiahol
+17	717	dosiahnuť	dosiahla dosiahli dosiahlo dosiahne dosiahnem dosiahneme dosiahnete dosiahneš dosiahni dosiahnite dosiahnu dosiahol nedosiahla nedosiahli nedosiahlo nedosiahne nedosiahnem nedosiahneme nedosiahnete nedosiahneš nedosiahnu nedosiahol
 18	718	dôkaz	dôkaze dôkazmi dôkazoch dôkazom dôkazov dôkazu dôkazy
-19	719	sľúbiť	sľubovať sľubujem sľúb sľúbené sľúbený sľúbi sľúbia sľúbil sľúbila sľúbili sľúbilo sľúbim sľúbime sľúbite sľúbiš sľúbme sľúbte
+19	719	sľúbiť	nesľuboval nesľubuj nesľubuje nesľubujem nesľubujte nesľúbil nesľúbila nesľúbili nesľúbim nesľúbiš sľubovať sľubujem sľúb sľúbené sľúbený sľúbi sľúbia sľúbil sľúbila sľúbili sľúbilo sľúbim sľúbime sľúbite sľúbiš sľúbme sľúbte
 20	720	nádherný	najnádhernejšia nádhernej nádhernom nádhernou nádherná nádherné nádherného nádhernému nádherní nádhernú nádherných nádherným nádhernými
 21	721	samotný	samotnej samotnom samotnou samotná samotné samotného samotnému samotní samotnú samotných samotným samotnými
-22	722	pridať	pridaj pridajme pridajte pridajú pridal pridala pridali pridalo pridá pridám pridáme pridáte pridáš
+22	722	pridať	nepridajú nepridal nepridala nepridali nepridalo nepridá nepridám nepridáme nepridáte nepridáš pridaj pridajme pridajte pridajú pridal pridala pridali pridalo pridá pridám pridáme pridáte pridáš
 23	723	mozog	mozgami mozgoch mozgom mozgov mozgovej mozgovom mozgovou mozgová mozgové mozgového mozgovú mozgový mozgových mozgovým mozgovými mozgu mozgy mozoček mozočku mozočky
-24	724	chytať	chytaj chytajte chytajú chytajúci chytal chytala chytali chytanie chytia chytili chytilo chytiť chytá chytám chytáme chytáte chytáš chytí chytím chytíme chytíte chytíš chyť chyťme chyťte
-25	725	nosiť	nosenia nosenie noseniu nosení nosením nosený nosia nosiac nosiaci nosil nosila nosili nosilo noste nosí nosím nosíme nosíte nosíš
+24	724	chytať	chytaj chytajte chytajú chytal chytala chytali chytanie chytia chytili chytilo chytiť chytá chytám chytáme chytáte chytáš chytí chytím chytíme chytíte chytíš chyť chyťme chyťte nechytaj nechytajte nechytal nechytať nechytia nechytil nechytila nechytili nechytá nechytám nechytí nechytím nechytíme nechytíte nechytíš
+25	725	nosiť	nenos nenosia nenosil nenosila nenosili nenosiť nenoste nenosí nenosím nenosíme nenosíte nenosíš nosenia nosenie noseniu nosení nosením nosený nosia nosiac nosiaci nosil nosila nosili nosilo noste nosí nosím nosíme nosíte nosíš
 26	726	banka	bankami banke bankou bankovej bankovom banková bankové bankového bankovému bankoví bankovú bankový bankových bankovým bankovými banku banky bankách bankám bánk
 27	727	riaditeľ	riaditelia riaditeľa riaditeľka riaditeľke riaditeľkou riaditeľku riaditeľky riaditeľmi riaditeľom riaditeľov riaditeľovi riaditeľský
 28	728	výber	výbere výberom výberov výberové výberový výberu výbery
-29	729	zvýšiť	zvyšovať zvyšuje zvýš zvýšenia zvýšenie zvýšeniu zvýšená zvýšením zvýšený zvýši zvýšia zvýšil zvýšila zvýšili zvýšilo zvýšim zvýšime zvýšite zvýšiš zvýšme zvýšte
+29	729	zvýšiť	nezvyšuj nezvyšuje nezvyšujem nezvyšujte nezvýši nezvýšia nezvýšil nezvýšili nezvýšiš zvyšovať zvyšuje zvýš zvýšenia zvýšenie zvýšeniu zvýšená zvýšením zvýšený zvýši zvýšia zvýšil zvýšila zvýšili zvýšilo zvýšim zvýšime zvýšite zvýšiš zvýšme zvýšte
 30	730	pohľad	pohľade pohľadmi pohľadoch pohľadom pohľadov pohľadu pohľady
 31	731	tisíc	tisíca tisícami tisíce tisíci tisícich tisícimi tisícmi tisícoch tisícom tisícov tisícové tisícu
-32	732	pôsobiť	pôsobia pôsobil pôsobila pôsobili pôsobilo pôsobí pôsobím pôsobíme pôsobíte pôsobíš
+32	732	pôsobiť	nepôsobia nepôsobil nepôsobili nepôsobí nepôsobím nepôsobíš pôsobia pôsobil pôsobila pôsobili pôsobilo pôsobí pôsobím pôsobíme pôsobíte pôsobíš
 33	733	postava	postavami postave postavička postavičky postavou postavu postavy postavách postavám postáv
 34	734	kamoš	kamoša kamoši kamošiek kamoška kamoškami kamoške kamoško kamoškou kamošku kamošky kamoškám kamošmi kamošoch kamošom kamošov kamošovi
 35	735	učiteľ	učitelia učiteliek učiteľa učiteľka učiteľke učiteľkou učiteľku učiteľky učiteľmi učiteľoch učiteľom učiteľov učiteľovi učiteľskej učiteľská učiteľské učiteľského učiteľskú učiteľský
@@ -44,31 +44,31 @@
 44	744	živý	živej živo živom živou živá živé živého živému živí živú živých živým živými živšia živšie živší
 45	745	udalosť	udalosti udalostiach udalostiam udalostí udalosťami udalosťou
 46	746	najviac	
-47	747	zmiznúť	zmizla zmizli zmizlo zmizne zmiznem zmizneme zmiznete zmizneš zmizni zmiznime zmiznite zmiznú zmizol
+47	747	zmiznúť	nezmizla nezmizli nezmizlo nezmizne nezmiznem nezmizneme nezmiznete nezmizneš nezmizni nezmiznú nezmizol zmizla zmizli zmizlo zmizne zmiznem zmizneme zmiznete zmizneš zmizni zmiznime zmiznite zmiznú zmizol
 48	748	smieť	nesmel nesmela nesmeli nesmie nesmiem nesmieme nesmiete nesmieš nesmú smel smela smeli smelo smie smiem smieme smiete smieš smú
 49	749	priebeh	priebehom priebehu
 50	750	strom	stromami strome stromoch stromom stromov stromovej stromovom stromová stromové stromový stromových stromu stromy stromček stromčeka stromčekom stromčekov stromčeku stromčeky
 51	751	kamarát	kamaráta kamaráti kamarátmi kamarátoch kamarátom kamarátov kamarátovi
 52	752	zvláštny	najzvláštnejšia najzvláštnejšie najzvláštnejší najzvláštnejších zvláštna zvláštne zvláštneho zvláštnej zvláštnejšia zvláštnejšie zvláštnemu zvláštni zvláštnom zvláštnou zvláštnu zvláštnych zvláštnym zvláštnymi
-53	753	považovať	považoval považovala považovali považovalo považuj považuje považujem považujeme považujete považuješ považujme považujte považujú
+53	753	považovať	nepovažoval nepovažovala nepovažovali nepovažuj nepovažuje nepovažujem nepovažujeme nepovažujete nepovažuješ nepovažujte nepovažujú považoval považovala považovali považovalo považuj považuje považujem považujeme považujete považuješ považujme považujte považujú
 54	754	kostol	kostola kostole kostolnej kostolný kostoloch kostolom kostolov kostolu kostoly kostolík kostolíka
 55	755	univerzita	univerzitami univerzite univerzitnej univerzitnom univerzitná univerzitné univerzitného univerzitní univerzitnú univerzitný univerzitných univerzitným univerzitou univerzitu univerzity univerzitách univerzít
-56	756	klásť	kladenia kladenie kladené kladením kladený kladie kladiem kladieme kladiete kladieš kladú klaď klaďte kládla kládli kládol polož položia položil položila položili položilo položiť položme položte položí položím položíme položíte položíš
+56	756	klásť	kladenia kladenie kladené kladený kladie kladiem kladieme kladiete kladieš kladú kládla kládli kládol nekladie nekladiem nekladú neklaď neklaďte nepolož nepoložil nepoložila nepoloží nepoložím nepoložíte nepoložíš polož položia položil položila položili položilo položiť položme položte položí položím položíme položíte položíš
 57	757	následne	
 58	758	kultúra	kultúr kultúrach kultúram kultúrami kultúre kultúrou kultúru kultúry
 59	759	nemecký	nemeckej nemeckom nemeckou nemecky nemecká nemecké nemeckého nemeckému nemeckí nemeckú nemeckých nemeckým nemeckými
 60	760	mnoho	
 61	761	určitý	určitej určitom určitou určitá určité určitého určitému určití určitú určitých určitým určitými
-62	762	konať	konaj konajme konajte konajú konal konala konali konalo koná konám konáme konáte konáš
-63	763	klamať	klam klamal klamala klamali klamalo klamanie klamaný klame klamem klameme klamete klameš klamom klamte klamu klamú
-64	764	vydať	vydajme vydajte vydajú vydal vydala vydali vydalo vydá vydám vydáme vydáte vydáš
-65	765	slúžiť	slúž slúži slúžia slúžil slúžila slúžili slúžilo slúžim slúžime slúžite slúžiš slúžte
+62	762	konať	konaj konajme konajte konajú konal konala konali konalo koná konám konáme konáte konáš nekonaj nekonajú nekonal nekonala nekonali nekonalo nekoná nekonám
+63	763	klamať	klam klamal klamala klamali klamalo klamanie klamaný klame klamem klameme klamete klameš klamom klamte klamu klamú neklam neklamal neklamala neklamali neklamať neklame neklamem neklameme neklamete neklameš neklamme neklamte neklamú
+64	764	vydať	nevydaj nevydajú nevydal nevydala nevydali nevydalo nevydať nevydá nevydám nevydáme nevydáte nevydáš vydajme vydajte vydajú vydal vydala vydali vydalo vydá vydám vydáme vydáte vydáš
+65	765	slúžiť	neslúži neslúžia neslúžil neslúžila neslúžim slúž slúži slúžia slúžil slúžila slúžili slúžilo slúžim slúžime slúžite slúžiš slúžte
 66	766	moderný	moderne modernej modernejšie modernejší modernom modernou moderná moderné moderného modernému moderní modernú moderných moderným modernými najmodernejšia najmodernejšie najmodernejšiu najmodernejší najmodernejších
 67	767	vozidlo	vozidiel vozidla vozidlami vozidle vozidlom vozidlu vozidlá vozidlách vozidlám
 68	768	súčasnosť	súčasnosti súčasnosťou
 69	769	pokoj	pokoja pokoji pokojom pokojová pokojovú pokoju
 70	770	vývoj	vývoja vývoji vývojom vývoju
-71	771	súhlasiť	súhlasia súhlasil súhlasila súhlasili súhlasilo súhlasí súhlasím súhlasíme súhlasíte súhlasíš
+71	771	súhlasiť	nesúhlasia nesúhlasil nesúhlasila nesúhlasili nesúhlasilo nesúhlasiť nesúhlasí nesúhlasím nesúhlasíme nesúhlasíte nesúhlasíš súhlasia súhlasil súhlasila súhlasili súhlasilo súhlasí súhlasím súhlasíme súhlasíte súhlasíš
 72	772	úspech	úspechmi úspechoch úspechom úspechov úspechu úspechy
 73	773	vzhľad	vzhľade vzhľadom vzhľadu
 74	774	postupne	
@@ -86,15 +86,15 @@
 86	786	západ	západe západnej západnom západnou západná západné západného západnému západní západnú západný západných západným západnými západom západov západu západy
 87	787	rýchly	najrýchlejšia najrýchlejšieho najrýchlejšiu najrýchlejšou najrýchlejší najrýchlejších najrýchlejším rýchla rýchle rýchleho rýchlej rýchlejšia rýchlejšieho rýchlejšiu rýchlejšom rýchlejší rýchlejších rýchlejším rýchlejšími rýchlemu rýchli rýchlom rýchlou rýchlu rýchlych rýchlym rýchlymi
 88	788	bývalý	bývalej bývalom bývalou bývalá bývalé bývalého bývalému bývalí bývalú bývalých bývalým bývalými
-89	789	pokúsiť	pokús pokúsi pokúsia pokúsil pokúsila pokúsili pokúsilo pokúsim pokúsime pokúsite pokúsiš pokúsme pokúste
+89	789	pokúsiť	nepokúsi nepokúsia nepokúsil nepokúsila nepokúsili nepokúsim nepokúsime nepokúsite nepokúsiš nepokúsiť pokús pokúsi pokúsia pokúsil pokúsila pokúsili pokúsilo pokúsim pokúsime pokúsite pokúsiš pokúsme pokúste
 90	790	vadiť	nevadia nevadil nevadila nevadili nevadilo nevadí nevadím nevadíš vadia vadil vadila vadili vadilo vadí vadím
 91	791	policajt	policajta policajtami policajti policajtmi policajtoch policajtom policajtov policajtovi policajtská policajtské
-92	792	prijať	prijal prijala prijali prijalo prijme prijmem prijmeme prijmete prijmeš prijmi prijmime prijmite prijmú príjmem príjmeme príjmete príjmeš príjmi príjmite
+92	792	prijať	neprijal neprijala neprijali neprijať neprijme neprijmem neprijmeme neprijmete neprijmeš neprijmi neprijmú nepríjme nepríjmem nepríjmu prijal prijala prijali prijalo prijme prijmem prijmeme prijmete prijmeš prijmi prijmime prijmite prijmú príjmem príjmeme príjmete príjmeš príjmi príjmite
 93	793	potrebný	potrebnej potrebnou potrebná potrebné potrebného potrební potrebnú potrebných potrebným potrebnými
-94	794	venovať	venoval venovala venovali venovalo venuj venuje venujem venujeme venujete venuješ venujme venujte venujú
-95	795	využívať	využíva využívaj využívajú využívajúc využíval využívala využívali využívalo využívam využívame využívate využívaš
+94	794	venovať	nevenoval nevenovala nevenovali nevenovať nevenuj nevenuje nevenujem nevenujeme nevenuješ nevenujte nevenujú venoval venovala venovali venovalo venuj venuje venujem venujeme venujete venuješ venujme venujte venujú
+95	795	využívať	nevyužíva nevyužívaj nevyužívajú nevyužíval nevyužívala nevyužívam nevyužívame nevyužívate nevyužívaš využíva využívaj využívajú využívajúc využíval využívala využívali využívalo využívam využívame využívate využívaš
 96	796	leto	leta lete letom letu letá liet
 97	797	študent	študenta študentami študenti študentiek študentka študentkami študentke študentkou študentku študentky študentmi študentoch študentom študentov študentovi študentské študentský
-98	798	stráviť	strávi strávia strávil strávila strávili strávilo strávim strávime strávite stráviš strávme strávte
+98	798	stráviť	nestrávi nestrávil nestrávila nestrávili nestrávim nestrávime nestrávite nestráviš strávi strávia strávil strávila strávili strávilo strávim strávime strávite stráviš strávme strávte
 99	799	podobne	
 100	800	dátum	dát dáta dátach dátam dátami dáte dátumami dátume dátumom dátumov dátumu dátumy

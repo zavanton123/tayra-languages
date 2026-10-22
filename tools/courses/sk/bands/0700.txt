@@ -1,11 +1,11 @@
-1	601	zvládnuť	zvláda zvládať zvládla zvládli zvládlo zvládne zvládnem zvládneme zvládnete zvládneš zvládni zvládnite zvládnu zvládnutie zvládnuté zvládnutí zvládol
+1	601	zvládnuť	nezvláda nezvládajú nezvládal nezvládala nezvládam nezvládame nezvládate nezvládaš nezvládla nezvládli nezvládlo nezvládne nezvládnem nezvládneme nezvládnete nezvládneš nezvládnu nezvládol zvláda zvládať zvládla zvládli zvládlo zvládne zvládnem zvládneme zvládnete zvládneš zvládni zvládnite zvládnu zvládnutie zvládnuté zvládnutí zvládol
 2	602	taktiež	
 3	603	viacerí	viaceré viacerých viacerým viacerými
 4	604	osobný	osobnej osobnom osobnou osobná osobné osobného osobnému osobní osobnú osobných osobným osobnými
 5	605	názor	názore názormi názoroch názorom názorov názorové názoru názory
-6	606	zaplatiť	zaplatia zaplatil zaplatila zaplatili zaplatilo zaplatí zaplatím zaplatíme zaplatíte zaplatíš zaplať zaplaťme zaplaťte
+6	606	zaplatiť	nezaplatia nezaplatil nezaplatila nezaplatili nezaplatiť nezaplatí nezaplatím nezaplatíme nezaplatíte nezaplatíš zaplatia zaplatil zaplatila zaplatili zaplatilo zaplatí zaplatím zaplatíme zaplatíte zaplatíš zaplať zaplaťme zaplaťte
 7	607	schopný	najschopnejšia najschopnejšieho najschopnejší najschopnejších schopne schopnej schopnejšieho schopnejší schopnou schopná schopné schopného schopní schopnú schopných schopným
-8	608	vypadnúť	vypadla vypadli vypadlo vypadne vypadnem vypadneme vypadnete vypadneš vypadni vypadnime vypadnite vypadnú vypadol
+8	608	vypadnúť	nevypadla nevypadli nevypadlo nevypadne nevypadnem nevypadneme nevypadnete nevypadneš nevypadnú nevypadol vypadla vypadli vypadlo vypadne vypadnem vypadneme vypadnete vypadneš vypadni vypadnime vypadnite vypadnú vypadol
 9	609	hviezda	hviezd hviezdach hviezdam hviezdami hviezde hviezdičiek hviezdička hviezdna hviezdny hviezdou hviezdu hviezdy
 10	610	menej	
 11	611	záujem	záujmami záujme záujmoch záujmom záujmov záujmovej záujmové záujmových záujmu záujmy
@@ -23,14 +23,14 @@
 23	623	kategória	kategóriami kategórie kategórii kategóriou kategóriu kategóriách kategórií
 24	624	more	mora morami mori moria moriach moriam morom morou moru morách morám morí môr
 25	625	bolesť	bolesti bolestiach bolestiam bolestí bolesťami bolesťou
-26	626	predstavovať	predstavoval predstavovala predstavovali predstavovalo predstavovanie predstavovaním predstavuj predstavuje predstavujem predstavujeme predstavujete predstavuješ predstavujte predstavujú predstavujúce predstavujúci
+26	626	predstavovať	nepredstavoval nepredstavovala nepredstavovali nepredstavovať nepredstavuj nepredstavuje nepredstavujem nepredstavujeme nepredstavuješ nepredstavujú predstavoval predstavovala predstavovali predstavovalo predstavovanie predstavovaním predstavuj predstavuje predstavujem predstavujeme predstavujete predstavuješ predstavujte predstavujú predstavujúce predstavujúci
 27	627	východ	východe východmi východnej východnom východnou východná východné východného východnému východní východnú východný východných východným východoch východom východov východu východy
 28	628	štúdia	štúdiami štúdie štúdii štúdiou štúdiu štúdiách štúdií
 29	629	málo	mál mála mále málom málu najmenej
 30	630	zaujímavý	najzaujímavejšia najzaujímavejšiu najzaujímavejší najzaujímavejších najzaujímavejším zaujímavej zaujímavejšia zaujímavejšou zaujímavejší zaujímavejším zaujímavom zaujímavou zaujímavá zaujímavé zaujímavého zaujímavému zaujímaví zaujímavú zaujímavých zaujímavým zaujímavými
 31	631	drahý	drahej drahom drahou drahá drahé drahého drahému drahí drahú drahých drahým drahými drahšia drahší najdrahšej najdrahšia najdrahšieho najdrahšiu najdrahší najdrahších najdrahším
 32	632	občan	občana občania občanmi občanoch občanom občanov občanovi občianka občiankou občianku občianky občianska občianske občianskeho občianskej občianskom občianskou občiansku občiansky občianskych občianskym občianskymi
-33	633	pochopiť	pochopia pochopil pochopila pochopili pochopilo pochopte pochopí pochopím pochopíme pochopíte pochopíš
+33	633	pochopiť	nepochop nepochopia nepochopil nepochopila nepochopili nepochopiť nepochopte nepochopí nepochopím nepochopíme nepochopíte nepochopíš pochopia pochopil pochopila pochopili pochopilo pochopte pochopí pochopím pochopíme pochopíte pochopíš
 34	634	vonku	
 35	635	liek	liekmi liekoch liekom liekov lieku lieky
 36	636	slečna	slečien slečnami slečne slečnou slečnu slečny slečnám
@@ -44,7 +44,7 @@
 44	644	miestnosť	miestnosti miestnostiach miestností miestnosťami miestnosťou
 45	645	najprv	
 46	646	minulosť	minulosti minulosťou
-47	647	zaujímať	zaujíma zaujímaj zaujímajte zaujímajú zaujímal zaujímala zaujímali zaujímalo zaujímam zaujímame zaujímate zaujímaš
+47	647	zaujímať	nezaujíma nezaujímaj nezaujímajú nezaujímal nezaujímala nezaujímali nezaujímalo nezaujímam nezaujímame nezaujímate nezaujímaš zaujíma zaujímaj zaujímajte zaujímajú zaujímal zaujímala zaujímali zaujímalo zaujímam zaujímame zaujímate zaujímaš
 48	648	šesť	šiesti šiestich šiestim šiestimi
 49	649	kancelária	kanceláriami kancelárie kancelárii kanceláriou kanceláriu kanceláriách kanceláriám kancelárií
 50	650	včera	
@@ -53,23 +53,23 @@
 53	653	verzia	verziami verzie verzii verziou verziu verziách verzií
 54	654	obrovský	obrovskej obrovskom obrovskou obrovská obrovské obrovského obrovskému obrovskí obrovskú obrovských obrovským obrovskými
 55	655	predovšetkým	
-56	656	postarať	postaraj postarajme postarajte postarajú postaral postarala postarali postaralo postará postarám postaráme postaráte postaráš
+56	656	postarať	nepostaral nepostarala nepostarali nepostará nepostarám nepostaráme nepostaráte nepostaráš postaraj postarajme postarajte postarajú postaral postarala postarali postaralo postará postarám postaráme postaráte postaráš
 57	657	útok	útokmi útokoch útokom útokov útoku útoky
 58	658	šéf	šéfa šéfe šéfmi šéfom šéfov šéfovi šéfovia
 59	659	ha	
 60	660	prostredie	prostredia prostrediach prostrediu prostredí prostredím
-61	661	vzniknúť	vznikla vznikli vzniklo vznikne vzniknú vznikol
+61	661	vzniknúť	nevznikla nevznikli nevzniklo nevznikne nevzniknú nevznikol vznikla vznikli vzniklo vznikne vzniknú vznikol
 62	662	armáda	armád armádam armádami armáde armádou armádu armády
 63	663	vražda	vraždami vražde vraždou vraždu vraždy vraždách vraždám vrážd
 64	664	strach	strachom strachov strachu strachy
-65	665	zničiť	znič zničia zničil zničila zničili zničilo zničme zničte zničí zničím zničíme zničíte zničíš
+65	665	zničiť	neznič nezničia nezničil nezničila nezničili nezničilo nezničiť nezničte nezničí nezničím nezničíme nezničíte nezničíš znič zničia zničil zničila zničili zničilo zničme zničte zničí zničím zničíme zničíte zničíš
 66	666	duša	dušami duše duševné duševný duši dušiach dušiam dušička dušičku dušičky dušou dušu duší
-67	667	piť	pi pije pijem pijeme pijete piješ pijú pijúc pijúci pil pila pili pilo pime pite pitia pitie pitiu pití pitím
+67	667	piť	nepi nepije nepijem nepijeme nepijete nepiješ nepijú nepil nepila nepili nepite nepiť pi pije pijem pijeme pijete piješ pijú pijúc pijúci pil pila pili pilo pime pite pitia pitie pitiu pití pitím
 68	668	odtiaľto	
 69	669	stôl	stola stole stolmi stoloch stolom stolov stolu stoly
 70	670	čože	
 71	671	hranica	hranicami hranice hranici hraniciach hraniciam hranicou hranicu hraničný hraničných hraníc
-72	672	požiadať	požiada požiadaj požiadajme požiadajte požiadajú požiadal požiadala požiadali požiadalo požiadam požiadame požiadate požiadaš
+72	672	požiadať	nepožiada nepožiadal nepožiadala nepožiadali nepožiadam nepožiadame nepožiadate nepožiadaš požiada požiadaj požiadajme požiadajte požiadajú požiadal požiadala požiadali požiadalo požiadam požiadame požiadate požiadaš
 73	673	záznam	záznamami zázname záznamoch záznamom záznamov záznamu záznamy
 74	674	rozhodnutie	rozhodnutia rozhodnutiach rozhodnutiam rozhodnutiami rozhodnutiu rozhodnutí rozhodnutím vysvedčenia vysvedčenie vysvedčení
 75	675	súčasný	súčasnej súčasnom súčasnou súčasná súčasné súčasného súčasnému súčasní súčasnú súčasných súčasným súčasnými
@@ -77,7 +77,7 @@
 77	677	sezóna	sezón sezónach sezóne sezónou sezónu sezóny
 78	678	hoci	hoc
 79	679	akcia	akciami akcie akcii akciou akciová akciový akciu akciách akciám akcií akčnej akčnejšie akčnom akčná akčné akčného akčnú akčný akčných
-80	680	prežiť	preži prežije prežijem prežijeme prežijete prežiješ prežijú prežil prežila prežili prežilo prežime prežite
+80	680	prežiť	neprežije neprežijem neprežijeme neprežijete neprežiješ neprežijú neprežil neprežila neprežili neprežilo preži prežije prežijem prežijeme prežijete prežiješ prežijú prežil prežila prežili prežilo prežime prežite
 81	681	stop	stopa stope stopom stopu stopy stôp
 82	682	duch	ducha duchmi duchoch duchom duchov duchovi duchovia duchu
 83	683	stena	stenami stene stenou stenová stenu steny stenách stenám stien
@@ -91,7 +91,7 @@
 91	691	politika	politický politických politike politikou politiku politiky politík
 92	692	rýchlosť	rýchlosti rýchlostiach rýchlostnej rýchlostný rýchlostí rýchlosťami rýchlosťou
 93	693	štýl	štýle štýlmi štýloch štýlom štýlov štýlu štýly
-94	694	bežať	bež bežal bežala bežali bežalo bežia bežiac bežiaca bežiace bežiaceho bežiaci bežiacom bežme bežte beží bežím bežíme bežíte bežíš pobežia pobeží pobežím pobežíme pobežíš
+94	694	bežať	bež bežal bežala bežali bežalo bežia bežiac bežiaca bežiace bežiaceho bežiaci bežiacom bežme bežte beží bežím bežíme bežíte bežíš nebež nebežal nebežala nebežia nebežte nebeží nebežím nebežíš nepobeží nepobežím pobežia pobeží pobežím pobežíme pobežíš
 95	695	tvar	tvare tvarmi tvaroch tvarom tvarov tvaru tvary
 96	696	schopnosť	schopnosti schopnostiach schopnostiam schopností schopnosťami schopnosťou
 97	697	sieť	siete sieti sietí sieťach sieťam sieťami sieťou

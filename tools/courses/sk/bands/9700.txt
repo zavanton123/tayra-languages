@@ -1,100 +1,100 @@
-1	9601	kroj	kroje krojov
-2	9602	kompatibilita	kompatibilitu kompatibility
-3	9603	nemožnosť	nemožnosti
-4	9604	šprint	šprinte šprintom šprinty
-5	9605	frustrovaný	frustrovaná frustrované frustrovaní frustrovaných
-6	9606	prepracovať	prepracoval prepracovala prepracovali prepracujeme
-7	9607	orientálny	orientálna orientálnej orientálnu orientálnych
-8	9608	úryvok	úryvky
-9	9609	hazardný	hazardná hazardné hazardných hazardným hazardnými
-10	9610	plastik	plastiku plastiky
-11	9611	krátiť	kráti krátia krátil krátiš kráť
-12	9612	znervózňovať	znervózňovala znervózňuje znervózňujem znervózňujete znervózňuješ znervózňujú
-13	9613	prístrojový	prístrojovej prístrojová prístrojové prístrojového prístrojovú
-14	9614	zachovalý	zachovalá zachovalé
-15	9615	doporučovať	doporučoval doporučuje doporučujem doporučujeme doporučujete
-16	9616	naplnenie	naplnenia naplneniu naplnením
-17	9617	nestíhať	nestíha nestíhajú nestíhal nestíhali nestíham nestíhame nestíhate nestíhaš
-18	9618	kožušina	kožušinami kožušinou kožušinové kožušinový kožušinu kožušiny kožušín
-19	9619	clo	cla clom clá
-20	9620	flauta	flaute flautu flauty
-21	9621	titan	titana titani titanmi titanom titanov
-22	9622	uberať	uberajú uberal uberá uberám uberáme uberáš
-23	9623	pot	pote potu
-24	9624	nevera	nevere neverou neveru nevery
-25	9625	strelnica	strelnice strelnici strelnicu
-26	9626	neobávať	neobáva neobávaj neobávajte neobávajú neobával neobávala neobávali neobávam neobávate neobávaš
-27	9627	tenista	tenisti tenistov
-28	9628	smetisko	smetiska smetisku
-29	9629	rozkvet	rozkvete rozkvetu
-30	9630	integrita	integrite integritou integritu
-31	9631	predohra	predohre predohrou predohru predohry
-32	9632	priaznivo	priaznivejšie
-33	9633	liberál	liberáli liberálov
-34	9634	povzniesť	povznes povznesie povznesiem povznesieme povznesieš povzneste povznesú povzniesla povzniesli povzniesol
-35	9635	borec	borca borci borcom borcov
-36	9636	obetný	obetná obetné obetného obetní obetných obetným
-37	9637	protivný	protivne protivná protivné protivného protivní protivnú protivných
-38	9638	rozviazať	rozviazal rozviazala rozviazali rozviaž rozviaže rozviažem rozviažeme rozviažeš rozviažte
-39	9639	šéfovať	šéfoval šéfovala šéfuje šéfujem šéfujeme šéfujete šéfuješ
-40	9640	dráždiť	dráždi dráždia dráždil dráždili dráždim dráždite dráždiš
-41	9641	historikov	
-42	9642	rozmýšľanie	rozmýšľania rozmýšľaním
-43	9643	radostný	radostnej radostná radostné radostného radostnú radostným
-44	9644	nezdravý	nezdravej nezdravom nezdravá nezdravé nezdravého nezdraví nezdravú nezdravých nezdravým
-45	9645	čistič	čističa čističi čističom čističov
-46	9646	erupcia	erupcie erupcii erupciou erupciu erupcií
-47	9647	pečiatka	pečiatkou pečiatku pečiatky pečiatok
-48	9648	javor	javora javorového javorovú javorový javorovým javory
-49	9649	odplávať	odpláva odplávaj odplávajú odplával odplávala odplávali odplávalo odplávam odplávame
-50	9650	naspamäť	
-51	9651	kinematografia	kinematografie kinematografii
-52	9652	vyznávať	vyznáva vyznávajú vyznával vyznávam vyznávame vyznávate vyznávaš
-53	9653	vrieskať	vrieska vrieskajú vrieskal vrieskala vrieskali vrieskam vrieskate vrieskaš
-54	9654	červí	červej červia červie červiu
-55	9655	všelijaký	všelijaké všelijakí všelijakých všelijakými
-56	9656	celoročne	
-57	9657	bylinka	byliniek bylinkami bylinky bylinkách
-58	9658	podpätok	podpätkami podpätkoch podpätkom podpätkov podpätku podpätky
-59	9659	stvárniť	stvárnil stvárnila
-60	9660	kondícia	kondície kondícii kondíciu kondícií
-61	9661	definitívny	definitívna definitívnu
-62	9662	gej	geja gejmi gejoch gejom gejov gejovia
-63	9663	nepridať	nepridajú nepridal nepridala nepridali nepridalo nepridá nepridám nepridáme nepridáte nepridáš
-64	9664	dvihnúť	dvihla dvihli dvihlo dvihne dvihnem dvihneme dvihnete dvihneš dvihni dvihnite dvihnú dvihol
-65	9665	regulátor	regulátora regulátorom regulátorov
-66	9666	vrieť	vrela vrelo vri vrie
-67	9667	pružný	pružnejšie pružná pružné
-68	9668	písací	písacie písacieho písaciu písacom písacích písacím
-69	9669	kruto	krutejšie najkrutejšie
-70	9670	zmiešať	zmieša zmiešaj zmiešajte zmiešajú zmiešal zmiešala zmiešali zmiešam zmiešame zmiešate zmiešaš
-71	9671	džbán	džbáne džbánom džbánov džbánu džbány
-72	9672	vyčerpanie	vyčerpania vyčerpaniu vyčerpaním
-73	9673	prípravok	prípravkom prípravkov
-74	9674	nezodpovedať	nezodpovedajú nezodpovedal nezodpovedali nezodpovedalo nezodpovedá nezodpovedám nezodpovedáte
-75	9675	niva	nivy
-76	9676	neuvažovať	neuvažoval neuvažovala neuvažovali neuvažuj neuvažuje neuvažujem neuvažujeme neuvažujete neuvažuješ neuvažujte neuvažujú
-77	9677	priepustka	priepustke priepustkou priepustku priepustky
-78	9678	bezbranný	bezbrannej bezbranná bezbranné bezbranného bezbranní bezbrannú bezbranných bezbranným bezbrannými
-79	9679	vyťažiť	vyťaž vyťažil vyťažila vyťažili vyťaží vyťažíme
-80	9680	sedmička	sedmičke sedmičkou sedmičku sedmičky
-81	9681	sociológia	sociologického sociologický sociológie sociológiu
-82	9682	magisterský	magisterské magisterského
-83	9683	neprehrať	neprehraj neprehrajú neprehral neprehrala neprehrali neprehrá neprehrám neprehráme neprehráš
-84	9684	nevzniknúť	nevznikla nevznikli nevzniklo nevznikne nevzniknú nevznikol
-85	9685	špirála	špirále špirálou špirálu špirály
-86	9686	debut	debute debutom debutu
-87	9687	kukla	kukiel kukle kuklu kukly kuklách
-88	9688	dočítať	dočíta dočítaj dočítal dočítala dočítali dočítam dočítate dočítaš
-89	9689	obezita	obezite obezitou obezitu obezity
-90	9690	povzbudenie	povzbudenia povzbudením
-91	9691	diár	diára diáre diári
-92	9692	vyhrabať	vyhrab vyhrabal vyhrabala vyhrabali vyhrabe vyhrabem vyhrabeme vyhrabeš vyhrabte vyhrabú
-93	9693	dôveryhodnosť	dôveryhodnosti
-94	9694	šortky	šortiek šortkami šortkách
-95	9695	vyjadrovanie	vyjadrovania vyjadrovaní
-96	9696	rezervný	rezervnej rezervná rezervné rezervného rezervnú rezervných
-97	9697	kosiť	kos kosenie kosia kosil koste kosí kosím
-98	9698	náchylný	náchylnejšie náchylnejší náchylná náchylné náchylní
-99	9699	kompenzácia	kompenzácie kompenzáciou kompenzáciu
-100	9700	prežívanie	prežívania prežívaní prežívaním
+1	9601	tíško	
+2	9602	zhotoviť	zhotovil zhotovili
+3	9603	chatrč	chatrče chatrči chatrčiach chatrčou chatrčí
+4	9604	poskok	poskoka poskokmi poskokom poskokov poskokovia
+5	9605	risknúť	riskla riskli riskne risknem riskneme riskni riskol
+6	9606	priepustnosť	priepustnosti
+7	9607	naftový	naftové naftových naftovým
+8	9608	kára	kár káre károu káru káry
+9	9609	uchopiť	uchop uchopil uchopila uchopte uchopí uchopím uchopíte uchopíš
+10	9610	pokrývka	pokrývkou pokrývku pokrývky
+11	9611	nasilu	
+12	9612	primerane	
+13	9613	mimovládny	mimovládna mimovládne mimovládnych
+14	9614	búchať	búcha búchaj búchajú búchal búchala búchali búcham búchaš nebúchaj nebúchajte nebúchal
+15	9615	hystéria	hysterická hysterický hystérie hystérii hystériou hystériu
+16	9616	zotrvať	zotrvajú zotrval zotrvala zotrvali zotrvá
+17	9617	volejbalový	volejbalovej volejbalové
+18	9618	rúcať	rúca rúcajú rúcal rúcali rúcalo rúcam
+19	9619	transportér	transportéra transportéri transportérom transportérov transportéru transportéry
+20	9620	ušiť	ušije ušijem ušil ušila ušili
+21	9621	pokrstený	pokrstená pokrstené pokrstení
+22	9622	urážlivý	urážlivá urážlivé urážlivým
+23	9623	aker	akra akre akroch akrov
+24	9624	vada	vade vadou vadu vady vád
+25	9625	spochybniť	spochybnil spochybnila spochybnili spochybní
+26	9626	jedinečnosť	jedinečnosti
+27	9627	astronaut	astronauta astronauti astronautmi astronautoch astronautom
+28	9628	stavenisko	staveniska stavenisku
+29	9629	vata	vate vatou vatu vaty
+30	9630	koňak	koňakom koňaku
+31	9631	detičky	detičiek detičkami detičkách detičkám
+32	9632	úradujúci	úradujúca úradujúceho úradujúcim
+33	9633	nazdať	nazdal nazdala nazdali nazdám nazdáme nazdáte nazdáš nenazdal nenazdala nenazdali nenazdám nenazdáme nenazdáte nenazdáš
+34	9634	prisadnúť	neprisadneš prisadla prisadli prisadnem prisadneš prisadni prisadnite prisadol
+35	9635	fandiť	fandia fandil fandila fandí fandím fandíme fandíte fandíš nefandi nefandí nefandím
+36	9636	nečistota	nečistotu nečistoty nečistôt
+37	9637	vydaj	vydaja vydajom vydaju
+38	9638	ná	
+39	9639	čoby	
+40	9640	mramorový	mramorová mramorové mramorového mramorovú mramorových
+41	9641	kurátor	kurátora kurátorom kurátorov kurátorovi
+42	9642	vyčleniť	vyčlenil vyčlenila vyčlenili
+43	9643	sklený	sklenej sklené sklenú sklených
+44	9644	zriecť	nezriekla nezriekol zriekla zriekli zriekol
+45	9645	pasienok	pasienkoch pasienkov pasienky
+46	9646	mejkap	mejkape mejkapom mejkapu
+47	9647	zaplaviť	zaplavia zaplavil zaplavila zaplavili zaplavilo zaplavte zaplaví zaplavíme
+48	9648	lektor	lektora lektorom
+49	9649	sultán	sultána sultánom sultánov sultánovi
+50	9650	prepravovať	prepravoval prepravovali prepravuje prepravujeme prepravujú
+51	9651	divoko	divokejšie najdivokejšie
+52	9652	vystihnúť	nevystihol vystihla vystihli vystihlo vystihol
+53	9653	zorný	zornom zorné zorného
+54	9654	blbo	blbšie
+55	9655	kolmo	
+56	9656	kasta	kaste kastou kastu kasty kást
+57	9657	pôvab	pôvabom pôvabu pôvaby
+58	9658	figúra	figúr figúru figúry
+59	9659	posunutý	posunutá posunuté posunutí posunutú
+60	9660	starostka	starostkou starostku starostky
+61	9661	licenčný	licenčnej licenčná licenčné licenčných
+62	9662	vychádzanie	vychádzania vychádzaní
+63	9663	nezriedka	
+64	9664	turisticky	
+65	9665	čiastočka	čiastočiek čiastočkami čiastočke čiastočky
+66	9666	navrchu	
+67	9667	ópium	ópia ópiom ópiových ópiu
+68	9668	trénovanie	trénovania trénovaní trénovaním
+69	9669	zadoček	zadočkom zadočku zadočky
+70	9670	intriga	intrigami intrigy intrigách intríg
+71	9671	dlhotrvajúci	dlhotrvajúca dlhotrvajúce dlhotrvajúceho dlhotrvajúcej dlhotrvajúcu
+72	9672	nácvik	nácvikom nácviku
+73	9673	prielom	prielomu prielomy
+74	9674	posvätiť	posvätil posvätí posväť
+75	9675	rozkázať	nerozkážeš rozkázal rozkázala rozkázali rozkáž rozkáže rozkážem rozkážete rozkážeš rozkážte
+76	9676	zvonica	zvonice zvonici zvonicu
+77	9677	roľník	roľníci roľníka roľníkmi roľníkom
+78	9678	katastrofálny	katastrofálna katastrofálne katastrofálnej katastrofálnom katastrofálnymi
+79	9679	regulovaný	regulovaná regulované
+80	9680	úžas	úžase úžasom úžasu
+81	9681	letec	letca letci letcom letcov
+82	9682	intímny	intímna intímneho intímnej intímnom intímnu intímnych intímnym najintímnejších
+83	9683	hojnosť	hojnosti hojnosťou
+84	9684	hojdačka	hojdačke hojdačku hojdačky hojdačkách
+85	9685	pancier	panciera panciere pancieri pancierom pancieru
+86	9686	šmuha	šmuhe šmuhou šmuhu šmuhy
+87	9687	nacionalizmus	nacionalizmu
+88	9688	chobotnica	chobotnice chobotnici chobotnicu chobotnička chobotníc
+89	9689	biotop	biotopov biotopy
+90	9690	chalupa	chalupe chalupu chalupy chalúpka chalúpke
+91	9691	zasadačka	zasadačke zasadačku zasadačky
+92	9692	miestečko	miestečku
+93	9693	trúba	trúb trúbe trúbu trúby
+94	9694	bádateľ	bádatelia bádateľom bádateľov
+95	9695	vnem	vnemov vnemy
+96	9696	nariekať	narieka nariekajú nariekal nariekala nariekali nariekam nariekate nariekaš nenariekaj
+97	9697	unaviť	neunav neunavia neunavil neunavte neunaví unav unavia unavil unavila unavili unavilo unaví unavím unavíte unavíš
+98	9698	signalizácia	signalizácie signalizáciu
+99	9699	predvečer	
+100	9700	uplynutie	uplynutí uplynutím

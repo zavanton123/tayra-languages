@@ -1,100 +1,100 @@
-1	3301	problematika	problematike problematikou problematiku problematiky
-2	3302	vlajka	vlajkami vlajke vlajkou vlajku vlajky vlajkách vlajok vlajočky
-3	3303	polnoc	polnoci polnocou
-4	3304	vrtuľník	vrtuľníka vrtuľníkmi vrtuľníkoch vrtuľníkom vrtuľníkov vrtuľníku vrtuľníky
-5	3305	futbalista	futbalistami futbalisti futbalistom futbalistov futbalistovi futbalistu
-6	3306	usadiť	usadia usadil usadila usadili usadilo usadí usadím usadíme usadíte usadíš usaď usaďte
-7	3307	hrdlo	hrdiel hrdla hrdlami hrdle hrdlom hrdlu hrdlá
-8	3308	šalát	šaláte šalátmi šalátom šalátov šalátovom šalátové šalátový šalátu šaláty
-9	3309	spojenec	spojenca spojencami spojenci spojencom spojencov
-10	3310	ocitnúť	ocitla ocitli ocitlo ocitne ocitnem ocitneme ocitnete ocitneš ocitnú ocitol
-11	3311	strih	strihom strihov strihu
-12	3312	znižovať	znižoval znižovali znižuje znižujem znižujeme znižuješ znižujú
-13	3313	príšera	príšer príšerami príšere príšerou príšeru príšery príšerách príšerám
-14	3314	dôraz	dôrazom dôrazu
-15	3315	autorita	autoritami autorite autoritou autoritu autority autoritám autorít
-16	3316	prežívať	prežíva prežívajú prežíval prežívala prežívali prežívalo prežívam prežívame prežívate prežívaš
-17	3317	náhodný	náhodnej náhodnom náhodnou náhodná náhodné náhodného náhodnému náhodní náhodnú náhodných náhodným náhodnými
-18	3318	hokejový	hokejovej hokejovom hokejová hokejové hokejového hokejovú hokejových
-19	3319	inteligencia	inteligencie inteligencii inteligenciou inteligenciu
-20	3320	kaplnka	kaplniek kaplnke kaplnkou kaplnku kaplnky
-21	3321	námorníctvo	námorníctva námorníctve námorníctvom námorníctvu
-22	3322	blesk	bleskami bleskom bleskov blesku blesky
-23	3323	troska	trosiek troskami troskou trosku trosky troskách troskám
-24	3324	úmrtie	úmrtia úmrtiach úmrtiam úmrtiami úmrtiu úmrtí úmrtím
-25	3325	rod	rodom rodov rodu rody
-26	3326	reťaz	reťazami reťaze reťazi reťaziach reťazou reťazí
-27	3327	apartmán	apartmáne apartmánoch apartmánom apartmánov apartmánu apartmány
-28	3328	postúpiť	postúpi postúpia postúpil postúpila postúpili postúpilo postúpim postúpime postúpiš postúpte
-29	3329	robotník	robotníci robotníckej robotnícky robotníka robotníkmi robotníkoch robotníkom robotníkov robotníkovi robotníčka robotníčkou
-30	3330	právomoc	právomocami právomoci právomocou právomocí
-31	3331	identita	identitami identite identitou identitu identít
-32	3332	poliš	poliša poliši polišmi polišoch polišom polišov polišovi
-33	3333	pomocný	pomocnej pomocnou pomocná pomocné pomocného pomocní pomocnú pomocných pomocným pomocnými
-34	3334	veľvyslanec	veľvyslanca veľvyslancami veľvyslanci veľvyslancom veľvyslancov veľvyslancovi
-35	3335	križovatka	križovatiek križovatke križovatkou križovatkový križovatku križovatky križovatkách
-36	3336	plemeno	plemena plemená plemien
-37	3337	nábytok	nábytkom nábytku
-38	3338	privítať	privíta privítaj privítajme privítajte privítajú privítal privítala privítali privítam privítame privítaš
-39	3339	využívaný	využívaná využívané využívaní využívaných
-40	3340	smrteľný	najsmrteľnejšia najsmrteľnejší najsmrteľnejších smrteľnej smrteľnejšie smrteľnejší smrteľnom smrteľnou smrteľná smrteľné smrteľného smrteľnému smrteľní smrteľnú smrteľných smrteľným smrteľnými
-41	3341	poškodený	poškodeného poškodení poškodených poškodeným poškodenými
-42	3342	hruď	hrude hrudi hruďou
-43	3343	varovanie	varovania varovaniach varovaniam varovaní varovaním
-44	3344	zrušenie	zrušenia zrušeniu zrušením
-45	3345	proteín	proteínmi proteínoch proteínov proteínu proteíny
-46	3346	nález	náleze nálezmi nálezoch nálezom nálezov nálezu nálezy
-47	3347	akt	akte aktoch aktom aktov aktu akty
-48	3348	pracovisko	pracoviska pracoviskom pracovisku pracoviská pracoviskách pracovísk
-49	3349	paľba	paľbe paľbou paľbu paľby
-50	3350	striedať	strieda striedajte striedajú striedajúci striedal striedala striedali striedame striedania striedanie striedaní striedaním striedaš
-51	3351	šampión	šampióna šampióni šampiónka šampiónkou šampiónku šampiónky šampiónmi šampiónom šampiónov šampiónovi
-52	3352	šperk	šperkami šperkmi šperkoch šperkom šperkov šperku šperky
-53	3353	natočiť	natoč natočia natočil natočila natočili natočilo natočme natočte natočí natočím natočíme natočíte natočíš
-54	3354	sklon	sklone sklonmi sklonoch sklonom sklonov sklonu sklony
-55	3355	aktivovať	aktivoval aktivovala aktivovali aktivovalo aktivovanie aktivovaný aktivuj aktivuje aktivujem aktivujeme aktivujete aktivuješ aktivujte aktivujú
-56	3356	nepochopiť	nepochop nepochopia nepochopil nepochopila nepochopili nepochopte nepochopí nepochopím nepochopíme nepochopíte nepochopíš
-57	3357	hrávať	hráva hrávajú hrával hrávala hrávali hrávam hrávame hrávate hrávaš
-58	3358	sklamaný	sklamaná sklamané sklamaní sklamaných
-59	3359	technicky	
-60	3360	zastupiteľstvo	zastupiteľstiev zastupiteľstva zastupiteľstve zastupiteľstvom
-61	3361	hrana	hranami hrane hranou hranu hrany hranách hrán
-62	3362	samostatne	
-63	3363	spektrum	spektra spektre spektrom
-64	3364	strážca	strážcami strážcoch strážcom strážcov strážcovi strážcovia strážcu
-65	3365	šírenie	šírenia šíreniu šírení šírením
-66	3366	puška	pušiek puškami puške puškou pušku pušky
-67	3367	zlúčenina	zlúčenine zlúčeninou zlúčeninu zlúčeniny zlúčenín
-68	3368	vaňa	vane vani vaničke vaňou vaňu
-69	3369	kritérium	kritéria kritériami kritériom kritériá kritériám kritérií
-70	3370	skvieť	skvela skvelo
-71	3371	rick	
-72	3372	vstupný	vstupnej vstupnou vstupná vstupnú vstupných vstupným vstupnými
-73	3373	gauč	gauča gauče gauči gaučoch gaučom gaučov gauču
-74	3374	prínos	prínosom prínosov prínosu prínosy
-75	3375	skorý	najskorší skorej skorom skorá skoré skorého skorú skorých skorým skoršej skoršia skoršieho skoršiu skoršom skorší skorších skorším
-76	3376	potomok	potomka potomkami potomkom potomkov potomkovi potomkovia
-77	3377	zbytočne	
-78	3378	fantázia	fantáziami fantázie fantázii fantáziou fantáziu fantáziách fantázií
-79	3379	výsosť	výsosti výsosťou
-80	3380	web	webe webom webov webu weby
-81	3381	prezentovať	prezentoval prezentovala prezentovali prezentuje prezentujem prezentujeme prezentujete prezentujú
-82	3382	zastupovať	zastupoval zastupovala zastupovali zastupuje zastupujem zastupujeme zastupujete zastupuješ zastupujú
-83	3383	nakupovať	nakupoval nakupovala nakupovali nakupuj nakupuje nakupujem nakupujeme nakupujete nakupuješ nakupujte nakupujú
-84	3384	posrať	poser poserie poseriem poseriete poserieš poserte poserú posral posrala posrali posralo
-85	3385	ks	
-86	3386	objednávka	objednávkami objednávke objednávkou objednávku objednávky objednávok
-87	3387	mucha	muchami muche muchou muchu muchy muchám mušie mušiek muška muške muškou mušku mušky muším múch
-88	3388	vzorec	vzorca vzorcami vzorce vzorci vzorcoch vzorcom vzorcov vzorcu
-89	3389	sériový	sériovej sériovom sériová sériové sériového sériovému sérioví sériovú sériových sériovým sériovými
-90	3390	mokrý	mokra mokre mokrej mokro mokrom mokrou mokrá mokré mokrého mokrí mokrú mokrých mokrým mokrými
-91	3391	vydatá	vydatej vydatou vydaté vydatí vydatú vydatý vydatých vydatými
-92	3392	nevhodný	najnevhodnejšiu najnevhodnejšom najnevhodnejší nevhodnej nevhodnom nevhodná nevhodné nevhodného nevhodní nevhodnú nevhodných nevhodným nevhodnými
-93	3393	zmienka	zmienke zmienku zmienky
-94	3394	obranný	obrannej obrannom obrannou obranná obranné obranného obrannú obranných obranným obrannými
-95	3395	zavedenie	zavedenia zavedeniu zavedením
-96	3396	zlepšenie	zlepšenia zlepšeniu zlepšení zlepšením
-97	3397	jebať	jeb jebal jebala jebali jebanie jebe jebem jebeme jebete jebeš jebte jebú
-98	3398	komentár	komentára komentáre komentármi komentárom komentárov komentáru
-99	3399	potvrdzovať	potvrdzoval potvrdzovali potvrdzovalo potvrdzuje potvrdzujem potvrdzujeme potvrdzujete potvrdzuješ potvrdzujú
-100	3400	mamka	mamke mamkou mamku mamky
+1	3301	hruď	hrude hrudi hruďou
+2	3302	rod	rodom rodov rodu rody
+3	3303	veľvyslanec	veľvyslanca veľvyslancami veľvyslanci veľvyslancom veľvyslancov veľvyslancovi
+4	3304	právomoc	právomocami právomoci právomocou právomocí
+5	3305	usmievať	neusmieva neusmievaj neusmievajú neusmieval neusmievala neusmievam neusmievate neusmievaš neusmievať usmieva usmievaj usmievajte usmievajú usmieval usmievala usmievali usmievam usmievate usmievaš
+6	3306	kaplnka	kaplniek kaplnke kaplnkou kaplnku kaplnky
+7	3307	hokejový	hokejovej hokejovom hokejová hokejové hokejového hokejovú hokejových
+8	3308	aktivovať	aktivoval aktivovala aktivovali aktivovalo aktivovanie aktivovaný aktivuj aktivuje aktivujem aktivujeme aktivujete aktivuješ aktivujte aktivujú neaktivovali
+9	3309	nábytok	nábytkom nábytku
+10	3310	šampión	šampióna šampióni šampiónka šampiónkou šampiónku šampiónky šampiónmi šampiónom šampiónov šampiónovi
+11	3311	paľba	paľbe paľbou paľbu paľby
+12	3312	pomocný	pomocnej pomocnou pomocná pomocné pomocného pomocní pomocnú pomocných pomocným pomocnými
+13	3313	poškodený	poškodeného poškodení poškodených poškodeným poškodenými
+14	3314	križovatka	križovatiek križovatke križovatkou križovatkový križovatku križovatky križovatkách
+15	3315	sklamaný	sklamaná sklamané sklamaní sklamaných
+16	3316	šperk	šperkami šperkmi šperkoch šperkom šperkov šperku šperky
+17	3317	strážca	strážcami strážcoch strážcom strážcov strážcovi strážcovia strážcu
+18	3318	akt	akte aktoch aktom aktov aktu akty
+19	3319	proteín	proteínmi proteínoch proteínov proteínu proteíny
+20	3320	výsosť	výsosti výsosťou
+21	3321	technicky	
+22	3322	prikázať	neprikázal neprikázala neprikážem prikázal prikázala prikázali prikázalo prikáž prikáže prikážem prikážeme prikážete prikážeš prikážte prikážu
+23	3323	plemeno	plemena plemená plemien
+24	3324	nález	náleze nálezmi nálezoch nálezom nálezov nálezu nálezy
+25	3325	puška	pušiek puškami puške puškou pušku pušky
+26	3326	využívaný	využívaná využívané využívaní využívaných
+27	3327	gauč	gauča gauče gauči gaučoch gaučom gaučov gauču
+28	3328	zrušenie	zrušenia zrušeniu zrušením
+29	3329	sklon	sklone sklonmi sklonoch sklonom sklonov sklonu sklony
+30	3330	útočiť	neútoč neútočia neútočili neútočte neútočí neútočíme neútočíte neútočíš útoč útočia útočil útočila útočili útočilo útočte útočí útočím útočíme útočíte útočíš
+31	3331	pracovisko	pracoviska pracoviskom pracovisku pracoviská pracoviskách pracovísk
+32	3332	striedať	strieda striedajte striedajú striedajúci striedal striedala striedali striedame striedania striedanie striedaní striedaním striedaš
+33	3333	skvieť	skvela skvelo
+34	3334	vaňa	vane vani vaničke vaňou vaňu
+35	3335	nakupovať	nakupoval nakupovala nakupovali nakupuj nakupuje nakupujem nakupujeme nakupujete nakupuješ nakupujte nakupujú nenakupuje nenakupujem
+36	3336	vyhrážať	nevyhráža nevyhrážaj nevyhrážajte nevyhrážal nevyhrážala nevyhrážali nevyhrážam vyhráža vyhrážajú vyhrážal vyhrážala vyhrážali vyhrážam vyhrážate vyhrážaš
+37	3337	hrana	hranami hrane hranou hranu hrany hranách hrán
+38	3338	presadiť	nepresadil presadil presadila presadili presadí presadíme presaď
+39	3339	spektrum	spektra spektre spektrom
+40	3340	zastupovať	nezastupujem zastupoval zastupovala zastupovali zastupuje zastupujem zastupujeme zastupujete zastupuješ zastupujú
+41	3341	šírenie	šírenia šíreniu šírení šírením
+42	3342	zastupiteľstvo	zastupiteľstiev zastupiteľstva zastupiteľstve zastupiteľstvom
+43	3343	samostatne	
+44	3344	skorý	najskorší skorej skorom skorá skoré skorého skorú skorých skorým skoršej skoršia skoršieho skoršiu skoršom skorší skorších skorším
+45	3345	vydatá	vydatej vydatou vydaté vydatí vydatú vydatý vydatých vydatými
+46	3346	fantázia	fantáziami fantázie fantázii fantáziou fantáziu fantáziách fantázií
+47	3347	uhnúť	neuhla neuhnem neuhneš neuhol uhne uhnem uhnete uhneš uhni uhnite
+48	3348	mucha	muchami muche muchou muchu muchy muchám mušie mušiek muška muške muškou mušku mušky muším múch
+49	3349	zbytočne	
+50	3350	visieť	nevisel nevisia nevisí visel visela viseli viselo visia visiac visí visím visíme visíte visíš
+51	3351	vstupný	vstupnej vstupnou vstupná vstupnú vstupných vstupným vstupnými
+52	3352	vysloviť	nevyslov nevyslovil nevyslovila nevysloví nevyslovím nevyslovíš vyslov vyslovia vyslovil vyslovila vyslovili vyslovte vysloví vyslovím vyslovíme vyslovíte vyslovíš
+53	3353	potomok	potomka potomkami potomkom potomkov potomkovi potomkovia
+54	3354	kritérium	kritéria kritériami kritériom kritériá kritériám kritérií
+55	3355	potvrdzovať	nepotvrdzuje nepotvrdzujem potvrdzoval potvrdzovali potvrdzovalo potvrdzuje potvrdzujem potvrdzujeme potvrdzujete potvrdzuješ potvrdzujú
+56	3356	mamka	mamke mamkou mamku mamky
+57	3357	zlúčenina	zlúčenine zlúčeninou zlúčeninu zlúčeniny zlúčenín
+58	3358	mokrý	mokra mokre mokrej mokro mokrom mokrou mokrá mokré mokrého mokrí mokrú mokrých mokrým mokrými
+59	3359	prínos	prínosom prínosov prínosu prínosy
+60	3360	objednávka	objednávkami objednávke objednávkou objednávku objednávky objednávok
+61	3361	sériový	sériovej sériovom sériová sériové sériového sériovému sérioví sériovú sériových sériovým sériovými
+62	3362	klietka	klietkach klietke klietkou klietku klietky klietok
+63	3363	nevhodný	najnevhodnejšiu najnevhodnejšom najnevhodnejší nevhodnej nevhodnom nevhodná nevhodné nevhodného nevhodní nevhodnú nevhodných nevhodným nevhodnými
+64	3364	vzorec	vzorca vzorcami vzorce vzorci vzorcoch vzorcom vzorcov vzorcu
+65	3365	web	webe webom webov webu weby
+66	3366	prezentovať	prezentoval prezentovala prezentovali prezentuje prezentujem prezentujeme prezentujete prezentujú
+67	3367	vyšetrovať	nevyšetroval nevyšetrovala nevyšetrovali nevyšetruje nevyšetrujeme vyšetroval vyšetrovala vyšetrovali vyšetrovalo vyšetruj vyšetruje vyšetrujem vyšetrujeme vyšetrujete vyšetruješ vyšetrujú
+68	3368	zasahovať	nezasahoval nezasahovala nezasahovali nezasahovať nezasahuj nezasahuje nezasahujem nezasahujte zasahoval zasahovala zasahovali zasahovalo zasahuje zasahujete zasahuješ zasahujú
+69	3369	obranný	obrannej obrannom obrannou obranná obranné obranného obrannú obranných obranným obrannými
+70	3370	trápne	najtrápnejšie trápnejšie
+71	3371	komentár	komentára komentáre komentármi komentárom komentárov komentáru
+72	3372	ctihodnosť	ctihodnosti
+73	3373	objav	objave objavoch objavom objavov objavu objavy
+74	3374	ks	
+75	3375	zmienka	zmienke zmienku zmienky
+76	3376	šach	šacha šachom šachovej šachovom šachová šachové šachového šachovú šachový šachových šachu šachy
+77	3377	tuším	
+78	3378	necht	nechta nechtami nechte nechtoch nechtom nechtov nechtu nechty
+79	3379	zásluha	zásluh zásluhou zásluhu zásluhy zásluhách
+80	3380	zavedenie	zavedenia zavedeniu zavedením
+81	3381	závod	závode závody
+82	3382	zlepšenie	zlepšenia zlepšeniu zlepšení zlepšením
+83	3383	ochraňovať	neochraňuj neochraňujem ochraňoval ochraňovala ochraňovali ochraňuj ochraňuje ochraňujem ochraňujeme ochraňujete ochraňuješ ochraňujte ochraňujú
+84	3384	poplatok	poplatkami poplatkoch poplatkom poplatkov poplatku poplatky
+85	3385	rozkošný	najrozkošnejšia najrozkošnejší rozkošnej rozkošnejší rozkošnom rozkošnou rozkošná rozkošné rozkošného rozkošnému rozkošní rozkošnú rozkošných rozkošným rozkošnými
+86	3386	produkovať	neprodukuje neprodukujú produkoval produkovala produkovali produkuje produkujem produkujeme produkujete produkuješ produkujú
+87	3387	láskavý	láskavejšia láskavejšie láskavejší láskavo láskavá láskavé láskavého láskavému láskaví láskavú láskavým láskavými najláskavejšie najláskavejší
+88	3388	únik	únikoch únikom únikov úniku úniky
+89	3389	zdraviť	nepozdravil nepozdravila nepozdravili nepozdraviť nepozdraví nepozdravíte nepozdravíš pozdravia pozdravil pozdravila pozdravili pozdraviť pozdravme pozdravte pozdraví pozdravím pozdravíme pozdravíte pozdravíš zdravil zdravila zdravili zdravíme
+90	3390	inšpirovať	inšpiroval inšpirovala inšpirovali inšpirovalo inšpiruje inšpirujem inšpirujeme inšpirujete inšpiruješ inšpirujú
+91	3391	maliar	maliara maliari maliarka maliarmi maliarom maliarov maliarovi maliarska maliarske maliarskej maliarsky maliarskych
+92	3392	nezvestný	nezvestnej nezvestnom nezvestnou nezvestná nezvestné nezvestného nezvestní nezvestnú nezvestných nezvestným nezvestnými
+93	3393	podvádzať	nepodvádza nepodvádzaj nepodvádzal nepodvádzala nepodvádzali nepodvádzam nepodvádzaš nepodvádzať podvádza podvádzajú podvádzal podvádzala podvádzali podvádzam podvádzame podvádzate podvádzaš
+94	3394	potenciál	potenciáli potenciálom potenciálu
+95	3395	častica	časticami častice časticový časticu častíc
+96	3396	cestovné	cestovnom cestovného
+97	3397	drsný	drsnejšia drsnejší drsnom drsná drsné drsného drsnému drsní drsnú drsných drsným drsnými najdrsnejší najdrsnejších
+98	3398	náhradný	náhradnej náhradnom náhradnou náhradná náhradné náhradného náhradní náhradnú náhradných náhradným náhradnými
+99	3399	sedlo	sediel sedla sedle sedlom sedlá
+100	3400	atóm	atómami atómoch atómom atómov atómovej atómovou atómová atómové atómového atómovú atómový atómových atómovým atómu atómy

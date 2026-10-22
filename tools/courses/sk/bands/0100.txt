@@ -27,7 +27,7 @@
 27	27	ona	jej ju nej ňou ňu
 28	28	chcieť	chce chcel chcela chceli chcelo chcem chceme chcenie chcení chcený chcete chceš chci chcú nechce nechcel nechcela nechceli nechcelo nechcem nechceme nechcete nechceš nechci nechcieť nechcite nechcú nechtiac
 29	29	vy	vami vám vás
-30	30	ísť	ide idem ideme idete ideš idú idúc idúci idúcich iď iďte išiel išla išli išlo nejde nejdem nejdeme nejdete nejdeš nejdú nejsť poď poďme poďte pôjde pôjdem pôjdeme pôjdete pôjdeš pôjdu šiel šla šli šlo
+30	30	ísť	ide idem ideme idete ideš idú idúci idúcich išiel išla išli išlo neide neidem neideš nejde nejdem nejdeme nejdete nejdeš nejdú neísť nešiel nešla nešli nešlo poď poďme poďte pôjde pôjdem pôjdeme pôjdete pôjdeš pôjdu šiel šla šli šlo
 31	31	oni	ich im nich
 32	32	všetok	všetci všetka všetkej všetko všetkom všetkou všetku všetky všetkého všetkému všetkých všetkým všetkými
 33	33	už	
@@ -54,28 +54,28 @@
 54	54	jeden	jedna jednej jedni jedno jednom jednou jednu jedny jedného jednému jedných jedným jednými
 55	55	dať	daj dajme dajte dajú dal dala dali dalo danej daný dá dám dáme dáte dáš nedaj nedajme nedajte nedajú nedal nedala nedali nedalo nedať nedá nedám nedáme nedáte nedáš
 56	56	dobrý	dobrej dobrom dobrou dobrá dobré dobrého dobrému dobrí dobrú dobrých dobrým dobrými lepšej lepšia lepšie lepšieho lepšiemu lepšiu lepšom lepšou lepší lepších lepším lepšími najlepšej najlepšia najlepšieho najlepšiemu najlepšiu najlepšom najlepšou najlepší najlepších najlepším najlepšími
-57	57	vidieť	nevidel nevidela nevideli nevidelo nevidia nevidieť nevidí nevidím nevidíme nevidíte nevidíš uvidieť uvidíme videl videla videli videlo videnia videnie videní videný vidia vidiac vidiaci vidí vidím vidíme vidíte vidíš viď
+57	57	vidieť	neuvidel neuvidela neuvideli neuvidia neuvidí neuvidím neuvidíme neuvidíte neuvidíš nevidel nevidela nevideli nevidelo nevidia nevidieť nevidí nevidím nevidíme nevidíte nevidíš uvidieť uvidíme videl videla videli videlo videnia videnie videní videný vidia vidiac vidiaci vidí vidím vidíme vidíte vidíš viď
 58	58	náš	naša naše našej naši našich našim našimi našom našou našu naším nášho nášmu
 59	59	kto	koho kom komu kým
 60	60	niečo	niečoho niečom niečomu niečím
 61	61	no	
 62	62	váš	vaša vaše vašej vaši vašich vašim vašimi vašom vašou vašu vaším vášho vášmu
 63	63	tam	
-64	64	robiť	nerob nerobiť nerobí rob roba robenie robené robený robi robia robiac robiaci robil robila robili robilo robme robom robovi robte robí robím robíme robíte robíš
+64	64	robiť	nerob nerobia nerobil nerobila nerobili nerobilo nerobiť nerobme nerobte nerobí nerobím nerobíme nerobíte nerobíš rob roba robenie robené robený robi robia robiac robiaci robil robila robili robilo robme robom robovi robte robí robím robíme robíte robíš
 65	65	veľmi	najväčšmi väčšmi
 66	66	veľký	najväčšej najväčšia najväčšie najväčšieho najväčšiemu najväčšiu najväčšom najväčšou najväčší najväčších najväčším najväčšími veľkej veľkom veľkou veľká veľké veľkého veľkému veľkí veľkú veľkých veľkým veľkými väčšej väčšia väčšie väčšieho väčšiemu väčšiu väčšom väčšou väčší väčších väčším väčšími
 67	67	pri	
 68	68	hovoriť	hovor hovore hovorenie hovorené hovoria hovoriac hovoriaca hovoriace hovoriaceho hovoriaci hovoriacich hovoril hovorila hovorili hovorilo hovorme hovorov hovorte hovoru hovory hovorí hovorím hovoríme hovoríte hovoríš nehovor nehovoria nehovoriac nehovoril nehovorila nehovorili nehovoriť nehovorme nehovorte nehovorí nehovorím nehovoríme nehovoríte nehovoríš
 69	69	ešte	
 70	70	kde	
-71	71	pozrieť	pozrel pozrela pozreli pozrelo pozri pozrie pozriem pozrieme pozriete pozrieš pozrime pozrite pozrú
+71	71	pozrieť	nepozrel nepozrela nepozreli nepozri nepozrie nepozriem nepozrieme nepozriete nepozrieš nepozrieť nepozrú pozrel pozrela pozreli pozrelo pozri pozrie pozriem pozrieme pozriete pozrieš pozrime pozrite pozrú
 72	72	teraz	
 73	73	prečo	
 74	74	deň	dne dni dní dňa dňami dňoch dňom dňu
 75	75	tvoj	tvoja tvoje tvojej tvojho tvoji tvojich tvojim tvojimi tvojmu tvojom tvojou tvoju tvojím
-76	76	prísť	neprišiel neprišla neprišli neprišlo nepríde neprídem neprídeme neprídete neprídeš neprídu neprísť nepríď nepríďte prichádza prichádzať prišiel prišla prišli prišlo príde prídem prídeme prídete prídeš prídu príď príďte
-77	77	dostať	dostal dostala dostali dostalo dostane dostanem dostaneme dostanete dostaneš dostanie dostanú dostaň dostaňme dostaňte dostáva dostávať nedostal nedostala nedostali nedostalo nedostane nedostanem nedostaneme nedostanete nedostaneš nedostanú nedostaň nedostaňte nedostať
-78	78	nájsť	nachádza nachádzať našiel našla našli našlo nenašiel nenašla nenašli nenašlo nenájde nenájdem nenájdeme nenájdete nenájdeš nenájdu nenájsť nájde nájdem nájdeme nájdenia nájdenie nájdeniu nájdené nájdením nájdený nájdete nájdeš nájdi nájdime nájdite nájdu
+76	76	prísť	neprichádza neprichádzajú neprichádzal neprichádzala neprichádzalo neprichádzam neprichádzame neprichádzaš neprišiel neprišla neprišli neprišlo nepríde neprídem neprídeme neprídete neprídeš neprídu neprísť nepríď nepríďte prichádza prichádzať prišiel prišla prišli prišlo príde prídem prídeme prídete prídeš prídu príď príďte
+77	77	dostať	dostal dostala dostali dostalo dostane dostanem dostaneme dostanete dostaneš dostanie dostanú dostaň dostaňme dostaňte dostáva dostávať nedostal nedostala nedostali nedostalo nedostane nedostanem nedostaneme nedostanete nedostaneš nedostanú nedostaň nedostaňte nedostať nedostáva nedostávajú nedostával nedostávali nedostávalo nedostávam nedostávame nedostávate nedostávaš
+78	78	nájsť	nachádza nachádzať našiel našla našli našlo nenachádza nenachádzajú nenachádzal nenachádzam nenašiel nenašla nenašli nenašlo nenájde nenájdem nenájdeme nenájdete nenájdeš nenájdu nenájsť nájde nájdem nájdeme nájdenia nájdenie nájdeniu nájdené nájdením nájdený nájdete nájdeš nájdi nájdime nájdite nájdu
 79	79	čas	čase časmi časoch časom časov času časy čias
 80	80	ani	
 81	81	iný	inej inom inou iná iné iného inému iní inú iných iným inými
@@ -86,7 +86,7 @@
 86	86	nový	najnovšej najnovšia najnovšie najnovšieho najnovšiu najnovšom najnovšou najnovší najnovších najnovším najnovšími novej novo novom novou nová nové nového novému noví novú nových novým novými novšej novšia novšie novší novších novším
 87	87	takže	
 88	88	celý	celej celom celou celá celé celého celému celí celú celých celým celými
-89	89	urobiť	neurobil urob urobenie urobené urobený urobia urobil urobila urobili urobilo urobme urobte urobí urobím urobíme urobíte urobíš
+89	89	urobiť	neurob neurobia neurobil neurobila neurobili neurobilo neurobiť neurobme neurobte neurobí neurobím neurobíme neurobíte neurobíš urob urobenie urobené urobený urobia urobil urobila urobili urobilo urobme urobte urobí urobím urobíme urobíte urobíš
 90	90	viac	
 91	91	pán	pane pána páni pánmi pánoch pánom pánov pánovi pánovia pánu
 92	92	každý	každej každom každou každá každé každého každému každí každú každých každým každými

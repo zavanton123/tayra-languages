@@ -1,100 +1,100 @@
-1	6201	sokol	sokola sokolom sokolov sokoly
-2	6202	dozorca	dozorcami dozorcom dozorcov dozorcovi dozorcovia dozorcu
-3	6203	politicky	
-4	6204	dohliadnuť	dohliadla dohliadli dohliadne dohliadnem dohliadneme dohliadnete dohliadneš dohliadni dohliadnite dohliadnu dohliadol
-5	6205	škriatok	škriatka škriatkami škriatkoch škriatkom škriatkov škriatkovi škriatkovia
-6	6206	zľahka	
-7	6207	spotrebiteľ	spotrebitelia spotrebiteľa spotrebiteľmi spotrebiteľom spotrebiteľov spotrebiteľovi spotrebiteľské spotrebiteľských
-8	6208	rozvedený	rozvedenej rozvedenou rozvedená rozvedené rozvedeného rozvedení rozvedenú rozvedených
-9	6209	záväzný	záväzná záväzné záväzného záväznú záväzných
-10	6210	bon	bonom
-11	6211	bezmocný	bezmocne bezmocná bezmocné bezmocného bezmocní bezmocnú bezmocných bezmocným
-12	6212	panovník	panovníci panovníka panovníkom panovníkov panovníkovi
-13	6213	rozoberať	rozoberajú rozoberal rozoberala rozoberali rozoberá rozoberám rozoberáme rozoberáte rozoberáš
-14	6214	vyvolený	vyvoleného vyvolenému vyvolení vyvolených vyvoleným vyvolenými
-15	6215	kláves	klávesa klávesoch klávesov klávesu klávesy
-16	6216	vnímaný	vnímaná vnímané vnímaní
-17	6217	nechytiť	nechytia nechytil nechytila nechytili nechytilo nechytí nechytím nechytíme nechytíte nechytíš
-18	6218	priaznivec	priaznivcami priaznivci priaznivcom priaznivcov
-19	6219	pobrežný	pobrežnej pobrežnou pobrežná pobrežné pobrežného pobrežnú pobrežných
-20	6220	oprávnenie	oprávnenia oprávnením
-21	6221	nekončiť	nekonči nekončia nekončí nekončím nekončíme nekončíš
-22	6222	miznúť	mizla mizli mizne miznem mizneme mizneš miznú mizol
-23	6223	lyža	lyžami lyže lyžiach lyží
-24	6224	záblesk	zábleskami zábleskoch zábleskom zábleskov záblesku záblesky
-25	6225	neprichádzať	neprichádza neprichádzajú neprichádzal neprichádzala neprichádzalo neprichádzam neprichádzame neprichádzaš
-26	6226	stodola	stodole stodolou stodolu stodoly
-27	6227	facka	faciek fackou facku facky
-28	6228	prasknúť	praskla praskli prasklo praskne prasknem praskni prasknú praskol
-29	6229	popísaný	popísaná popísané popísaných
-30	6230	župa	župe župy žúp
-31	6231	stredoškolský	stredoškolskej stredoškolskom stredoškolskou stredoškolská stredoškolské stredoškolského stredoškolskú stredoškolských stredoškolským
-32	6232	uloženie	uloženia uložením
-33	6233	výstupný	výstupnej výstupná výstupné výstupného výstupnú výstupných výstupným
-34	6234	napravo	
-35	6235	rozlišovať	rozlišuje rozlišujeme rozlišujú
-36	6236	normál	normále normálom normálu
-37	6237	oplátka	oplátku oplátky
-38	6238	kontrolovaný	kontrolovanej kontrolovanom kontrolovaná kontrolované kontrolovaného kontrolovaní kontrolovanú kontrolovaných kontrolovaným
-39	6239	doplnkový	doplnková doplnkové doplnkového doplnkových
-40	6240	matrac	matraca matrace matraci matracmi matracoch matracom matracov matracu
-41	6241	naj	
-42	6242	siahnuť	siahla siahli siahne siahnem siahnete siahneš siahni siahnite siahnu siahol
-43	6243	ministerka	ministerke ministerkou ministerku ministerky
-44	6244	aktívum	aktív aktíva aktívach
-45	6245	kapusta	kapuste kapustná kapustou kapustové kapustového kapustový kapustovým kapustu kapusty
-46	6246	udávať	udáva udávajú
-47	6247	poobzerať	poobzeraj poobzerajme poobzerajte poobzeral poobzerala poobzerali poobzerá poobzerám poobzeráme poobzeráte poobzeráš
-48	6248	nespoznať	nespoznajú nespoznal nespoznala nespoznali nespozná nespoznám nespoznáme nespoznáte nespoznáš
-49	6249	zmlátiť	zmláti zmlátia zmlátil zmlátila zmlátili zmlátilo zmlátim zmlátime zmlátiš zmláť zmláťte
-50	6250	malina	malinovej malinovi malinová malinové malinovú malinový malinu maliny malín
-51	6251	neváhať	neváha neváhaj neváhajte neváhal neváhala neváhali neváham neváhaš
-52	6252	doviezť	dovez dovezie doveziem dovezieme doveziete dovezieš dovezte dovezú doviezla doviezli doviezol
-53	6253	výčitka	výčitiek výčitkami výčitky výčitkám
-54	6254	vtáčí	vtáčej vtáčia vtáčie vtáčieho vtáčiu vtáčom vtáčích vtáčím
-55	6255	nepokúšať	nepokúša nepokúšaj nepokúšajte nepokúšajú nepokúšal nepokúšala nepokúšali nepokúšalo nepokúšam nepokúšame nepokúšate nepokúšaš
-56	6256	sérum	séra sére sérom
-57	6257	vyznamenanie	vyznamenania vyznamenaniami vyznamenaní vyznamenaním
-58	6258	zblízka	
-59	6259	štíhly	štíhla štíhle štíhleho štíhlejší štíhli štíhlu štíhlych štíhlym
-60	6260	príhovor	príhovore príhovoroch príhovorom príhovorov príhovoru príhovory
-61	6261	zakazovať	zakazoval zakazovali zakazuje zakazujem zakazujeme zakazuješ zakazujú
-62	6262	vložený	vložená vložené vložení vložených
-63	6263	pilulka	piluliek pilulkami pilulke pilulku pilulky pilulkách
-64	6264	nehroziť	nehrozilo nehrozí
-65	6265	čudne	najčudnejšie čudnejšie
-66	6266	systematický	systematickej systematická systematické systematického systematickú systematickým
-67	6267	zamýšľať	zamýšľa zamýšľajú zamýšľal zamýšľala zamýšľali zamýšľam zamýšľame zamýšľate zamýšľaš
-68	6268	zasvätený	zasvätená zasvätené zasväteného zasvätení zasvätených
-69	6269	cestovina	cestovinami cestovinou cestovinu cestoviny cestovinách cestovín
-70	6270	extraliga	extralige extraligu extraligy
-71	6271	syntetický	syntetickej syntetická syntetické syntetického syntetickú syntetických
-72	6272	ujo	uja ujko ujom ujov ujovi ujovia
-73	6273	radikálne	radikálnejšie
-74	6274	index	indexe indexom indexov indexu indexy
-75	6275	mína	mín mínam mínami míne mínu míny
-76	6276	filter	filtra filtre filtri filtroch filtrom filtrov filtru
-77	6277	lono	lona lone
-78	6278	komár	komára komáre komármi komárom komárov
-79	6279	kancelár	kancelára kancelári kancelárom kancelárov kancelárovi
-80	6280	vykonanie	vykonania vykonaniu vykonaním
-81	6281	spojovací	spojovacej spojovacia spojovacie spojovacieho spojovacích spojovacím
-82	6282	vypuknúť	vypukla vypukli vypukne vypuknú vypukol
-83	6283	dýka	dýk dýkami dýke dýkou dýku dýky
-84	6284	zakúpiť	zakúpil zakúpila zakúpili
-85	6285	kilogram	kilogramov kilogramu kilogramy
-86	6286	šibať	šibalo šibe
-87	6287	porovnateľný	porovnateľná porovnateľné porovnateľnú porovnateľných
-88	6288	pasovať	pasoval pasovala pasovali pasovalo pasuje pasujem pasujeme pasujete pasuješ pasujú
-89	6289	prijímanie	prijímania prijímaním
-90	6290	evidentne	
-91	6291	nahovoriť	nahovoria nahovoril nahovorila nahovorili nahovorí nahovorím nahovoríš
-92	6292	šunka	šunke šunkou šunku šunky
-93	6293	archeológia	archeologické archeologický archeológie archeológii archeológiu
-94	6294	obklopovať	obklopovala obklopovali obklopovalo obklopuje obklopuješ obklopujú
-95	6295	jill	
-96	6296	tuhé	tuhého
-97	6297	cesnak	cesnakom cesnakové cesnakového cesnakový cesnaku
-98	6298	mastný	mastná mastné mastného mastnú mastných mastnými
-99	6299	opravený	opravená opravené opravenú
-100	6300	kšeft	kšefte kšeftoch kšeftom kšeftov kšeftu kšefty
+1	6201	znásilňovať	neznásilnil neznásilnili znásilnil znásilniť znásilňoval znásilňovali znásilňovanie znásilňuje znásilňujú
+2	6202	náušnica	náušnicami náušnice náušnici náušniciach náušnicou náušnicu náušníc
+3	6203	tolerancia	tolerancie tolerancii toleranciou toleranciu
+4	6204	nebezpečne	nebezpečnejšie
+5	6205	strachovať	nestrachoval nestrachovala nestrachovať nestrachuj nestrachuje nestrachujem nestrachujte strachoval strachovala strachovali strachuj strachuje strachujem strachujeme strachujete strachuješ strachujú
+6	6206	zabudovaný	zabudovaná zabudované zabudovanú zabudovaným
+7	6207	delegácia	delegácie delegácii delegáciou delegáciu
+8	6208	chodec	chodca chodci chodcom chodcov
+9	6209	čižma	čižiem čižmami čižme čižmičky čižmou čižmu čižmy čižmách
+10	6210	melón	melóna melónmi melónom melónov melónu melóny
+11	6211	štrajk	štrajkom štrajkov štrajku štrajky
+12	6212	výtvor	výtvorom výtvorov výtvoru výtvory
+13	6213	cicavec	cicavca cicavcami cicavce cicavcom cicavcov
+14	6214	vinník	vinníci vinníka vinníkom vinníkov vinníkovi
+15	6215	rôznorodý	rôznorodá rôznorodé rôznorodých rôznorodými
+16	6216	vodík	vodíka vodíkom vodíku
+17	6217	riskantný	riskantnej riskantnom riskantná riskantné riskantnú riskantných
+18	6218	zahájiť	zaháj zaháji zahájil zahájila zahájili zahájim zahájime zahájite zahájte
+19	6219	pobaviť	pobav pobavia pobavil pobavila pobavili pobavilo pobavme pobavte pobaví pobavím pobavíme pobavíte pobavíš
+20	6220	indián	indiána indiánmi indiánom indiánovi
+21	6221	milovník	milovníci milovníka milovníkmi milovníkom milovníkov
+22	6222	hranolka	hranoliek hranolkami hranolku hranolky hranolkám
+23	6223	posilnenie	posilnenia posilneniu
+24	6224	skontaktovať	skontaktoval skontaktovala skontaktovali skontaktuj skontaktuje skontaktujem skontaktujeme skontaktuješ skontaktujte
+25	6225	zviazať	zviazal zviazala zviazali zviaž zviaže zviažem zviažeme zviažete zviažeš zviažme zviažte zviažu
+26	6226	modrina	modrinami modrine modrinou modrinu modriny modrinám modrín
+27	6227	priemerne	
+28	6228	príchuť	príchute príchuti príchutí príchuťou
+29	6229	obočie	obočia obočiu obočí obočím
+30	6230	inštruktor	inštruktora inštruktori inštruktorka inštruktorkou inštruktorku inštruktorom inštruktorov
+31	6231	vízum	víz víza vízach vízami
+32	6232	vibrácia	vibráciami vibrácie vibrácii vibráciu vibráciách vibráciám vibrácií
+33	6233	zapisovať	nezapisuj nezapisujte zapisoval zapisovala zapisovali zapisuj zapisuje zapisujem zapisujete zapisuješ zapisujte zapisujú
+34	6234	odhodlaný	odhodlane odhodlaná odhodlané odhodlaní odhodlanú odhodlaných
+35	6235	moriak	moriaka moriakom moriakov moriakovi moriaky moriačik moriek morka morku morky
+36	6236	pach	pachom pachov pachu pachy
+37	6237	adaptácia	adaptácie adaptácii adaptáciou adaptáciu
+38	6238	tolerovať	netoleruje netolerujem netolerujeme netolerujú toleroval tolerovala tolerovali toleruje tolerujem tolerujeme toleruješ tolerujú
+39	6239	sezónny	sezónna sezónne sezónnu sezónnych
+40	6240	stíhať	nestíha nestíhajú nestíhal nestíhali nestíham nestíhame nestíhate nestíhaš stíha stíhajú stíhal stíhala stíhali stíham stíhame stíhate stíhaš
+41	6241	rutina	rutine rutinou rutinu rutiny
+42	6242	zákruta	zákrut zákrute zákrutou zákrutu zákruty zákrutách
+43	6243	prsník	prsníka prsníkmi prsníkov prsníku prsníky
+44	6244	aktivácia	aktivačné aktivačný aktivácie aktivácii aktiváciou aktiváciu
+45	6245	nemý	nemo nemom nemé nemého nemému nemí nemú nemých nemým
+46	6246	elixír	elixírom elixírov elixíru elixíry
+47	6247	skupinka	skupinke skupinkou skupinku skupinky skupinkách
+48	6248	statický	statickej statickou statická statické statického statickú statických
+49	6249	blond	
+50	6250	brzdiť	brzdenia brzdenie brzdení brzdi brzdia brzdil brzdila brzdite brzdí brzdíte brzdíš nebrzdí
+51	6251	pravica	pravice pravici pravicou pravicový pravicových pravicu
+52	6252	ženích	ženícha ženíchom ženíchov ženíchova ženíchovej ženíchovi
+53	6253	kaďa	kade kadičky kadí
+54	6254	zlúčenie	zlúčenia zlúčení zlúčením
+55	6255	rozloženie	rozloženia rozloženiu rozložením
+56	6256	žiariť	nežiari žiaria žiaril žiarila žiarili žiarilo žiarim žiarite žiariš žiarte
+57	6257	beštia	beštiami beštie beštii beštiou beštiu beštiách beštií
+58	6258	zmestiť	nezmestia nezmestil nezmestila nezmestilo nezmestí nezmestím nezmestíme nezmestíte nezmestíš zmestia zmestil zmestila zmestili zmestilo zmestí zmestím zmestíme zmestíš
+59	6259	spodok	spodku
+60	6260	vymedzený	vymedzenom vymedzená vymedzené vymedzení vymedzených
+61	6261	hradba	hradbami hradbe hradbou hradbu hradby hradbách hradbám hradieb
+62	6262	variácia	variácie variácii variáciu variáciách variácií
+63	6263	vyrážka	vyrážke vyrážkou vyrážku vyrážky vyrážok
+64	6264	internát	internáte internátoch internátom internátov internátu internáty
+65	6265	vyšný	vyšnej vyšnom vyšná vyšné vyšných
+66	6266	dopočuť	dopočuje dopočujem dopočujete dopočuješ dopočujú dopočul dopočula dopočuli nedopočul
+67	6267	zabalený	zabalená zabalené zabaleného zabalení zabalenú zabalených
+68	6268	vyhradený	vyhradenej vyhradenom vyhradená vyhradené vyhradenú vyhradených
+69	6269	informátor	informátora informátori informátormi informátoroch informátorom informátorov informátorovi
+70	6270	písomne	
+71	6271	zostreliť	nezostrelia nezostrelili nezostrelíme zostrelia zostrelil zostrelila zostrelili zostrelí zostrelím zostrelíme zostrelíte zostreľ zostreľte
+72	6272	rys	rysa rysmi rysom rysov rysy
+73	6273	archa	arche archou archu archy
+74	6274	znepokojený	znepokojená znepokojené znepokojení znepokojených
+75	6275	rušenie	rušenia rušeniu rušení rušením
+76	6276	spamätať	nespamätal nespamätala nespamätali nespamätá nespamätám spamätaj spamätajte spamätajú spamätal spamätala spamätali spamätá spamätám spamätáte spamätáš
+77	6277	kalifornium	kalifornia kaliforniu
+78	6278	všeličo	všeličoho všeličom všeličím
+79	6279	vstupenka	vstupeniek vstupenkou vstupenku vstupenky
+80	6280	radikálny	radikálna radikálneho radikálnej radikálni radikálnou radikálnu radikálnych radikálnym
+81	6281	zamiesť	zametie zametiem zametieme zametú zamietla zamietli zamietlo zamietol
+82	6282	desiatnik	desiatnika desiatnikom desiatnikovi
+83	6283	zdvíhať	nezdvíha nezdvíhaj nezdvíhajte nezdvíhajú nezdvíhal nezdvíhala nezdvíhali nezdvíham nezdvíhate nezdvíhaš zdvíha zdvíhaj zdvíhajte zdvíhajú zdvíhal zdvíhali zdvíham zdvíhame zdvíhaš
+84	6284	romantika	romantike romantikou romantiku romantiky
+85	6285	vedro	vedier vedierka vedierko vedra vedre vedrom vedru vedrá
+86	6286	výročný	výročnej výročnom výročná výročné výročného výročnú výročných
+87	6287	aparát	aparáte aparátom aparátu aparáty
+88	6288	výmera	výmere výmerou výmeru výmery
+89	6289	autonómny	autonómna autonómne autonómneho autonómnej autonómnu autonómnych
+90	6290	chovanie	chovania chovaniu chovaní chovaním
+91	6291	typicky	
+92	6292	gangster	gangstera gangsteri gangstermi gangsterom gangsterov gangsterovi gangstra gangstrami gangstri gangstroch gangstrom gangstrov gangstrovi
+93	6293	nejasný	nejasná nejasné nejasného nejasnú nejasných nejasným nejasnými
+94	6294	lotéria	lotérie lotérii lotériou lotériu lotérií
+95	6295	struna	strunami strune strunou strunu struny strunách strún
+96	6296	brnenie	brnenia brneniu brnení brnením
+97	6297	fajka	fajke fajkou fajku fajky fajok
+98	6298	zneužívať	nezneužíva nezneužíval nezneužívaš zneužíva zneužívajú zneužíval zneužívala zneužívali zneužívam zneužívame zneužívate zneužívaš
+99	6299	štvorka	štvorke štvorkou štvorku štvorky
+100	6300	major	majora majorom majorov majorovi

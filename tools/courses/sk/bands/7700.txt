@@ -1,100 +1,100 @@
-1	7601	stvárať	stvára stvárajú stváral stvárala stvárali stváram stvárame stvárate stváraš
-2	7602	poskytnutý	poskytnutá poskytnuté poskytnutí poskytnutých
-3	7603	pôvodca	pôvodcom pôvodcu
-4	7604	oneskorenie	oneskorenia oneskorením
-5	7605	veliaci	veliaca veliace veliaceho veliacej veliacemu veliacim veliacom veliacu
-6	7606	dóm	dóme dómu
-7	7607	neobviňovať	neobviňoval neobviňovala neobviňuj neobviňuje neobviňujem neobviňujeme neobviňujte
-8	7608	vznikajúci	vznikajúce vznikajúceho vznikajúcich
-9	7609	experimentovať	experimentoval experimentovala experimentovali experimentovalo experimentovanie experimentuje experimentujem experimentujeme experimentujete experimentujú
-10	7610	zneužiť	zneužije zneužiješ zneužijú zneužil zneužila zneužili
-11	7611	budiť	budenie budia budil budila budili budilo budí budím budíme budíš buďme buďte
-12	7612	fúzia	fúzie fúzii fúziou fúziu fúzií
-13	7613	koľajnica	koľajnice koľajnici koľajniciach koľajniciam koľajníc
-14	7614	zábrana	zábran zábranu zábrany
-15	7615	namieriť	namier namieri namieria namieril namierila namierili namierim namierime namierite namieriš namierte
-16	7616	utvoriť	utvoril utvorila utvorili utvorte utvorí utvára utvárať
-17	7617	zaznieť	zaznejú zaznel zaznela zazneli zaznelo zaznie
-18	7618	poslankyňa	poslankyne
-19	7619	privítanie	privítania privítaní privítaním
-20	7620	čistiareň	čistiarne čistiarni čistiarní
-21	7621	terénny	terénne terénnych
-22	7622	tŕň	tŕne tŕni tŕňa tŕňmi tŕňom tŕňov tŕňová
-23	7623	povzbudiť	povzbudil povzbudila povzbudili povzbudilo povzbudí povzbudíme povzbuď povzbuďte
-24	7624	poslušnosť	poslušnosti poslušnosťou
-25	7625	próza	prozaické próze prózu prózy
-26	7626	pretrvávať	pretrváva pretrvávajú
-27	7627	domnienka	domnienkach domnienkami domnienke domnienku domnienky domnienok
-28	7628	narastať	narastajú narastal narastala narastali narastá
-29	7629	titulný	titulnej titulná titulné titulnú titulných
-30	7630	mechúr	mechúra mechúre mechúrom mechúru
-31	7631	potvora	potvor potvorami potvorka potvorky potvorou potvoru potvory
-32	7632	sympatia	sympatiami sympatie sympatiu sympatií
-33	7633	zmestiť	zmestia zmestil zmestila zmestili zmestilo zmestí zmestím zmestíme zmestíš
-34	7634	dekorácia	dekoráciami dekorácie dekorácii dekoráciou dekoráciu dekorácií
-35	7635	zložite	najzložitejšie zložitejšie
-36	7636	oprieť	oprel oprela opreli opri oprie opriem oprieš oprite
-37	7637	infekčný	infekčná infekčné infekčnú infekčných
-38	7638	neprekvapovať	neprekvapuje
-39	7639	verdikt	verdikte verdiktom verdiktu verdikty
-40	7640	sprava	sprave spravu spravy
-41	7641	chorvátsky	chorvátske chorvátskeho chorvátskej chorvátskych
-42	7642	nepodobať	nepodobajú nepodobal nepodobali nepodobalo nepodobá nepodobám nepodobáme nepodobáte nepodobáš
-43	7643	cukrovka	cukrovke cukrovkou cukrovku cukrovky
-44	7644	dvojhra	dvojhre dvojhry
-45	7645	koks	kokse koksom koksu
-46	7646	uzda	uzde uzdu uzdy
-47	7647	namietať	namieta namietajú namietal namietala namietali namietam namietame namietate
-48	7648	príbuzná	príbuznou príbuzné príbuznú
-49	7649	spontánne	
-50	7650	podplukovník	podplukovníka podplukovníkom podplukovníkovi
-51	7651	lux	luxe luxu
-52	7652	projektový	projektovej projektová projektové projektového
-53	7653	odlietať	odlieta odlietajú odlietal odlietali odlietam odlietame odlietate odlietaš
-54	7654	kotúč	kotúča kotúče kotúči kotúčom
-55	7655	racionálne	
-56	7656	vidlička	vidličiek vidličkami vidličke vidličkou vidličkový vidličku vidličky
-57	7657	zmiasť	zmiatla zmiatli zmiatlo zmiatol zmätie
-58	7658	dvojnásobok	
-59	7659	posudzovať	posudzoval posudzovala posudzovali posudzuje posudzujem posudzujeme posudzuješ posudzujú
-60	7660	elektróda	elektród elektródami elektródy
-61	7661	vysielaný	vysielaná vysielané vysielaných
-62	7662	kľučka	kľučke kľučkou kľučku kľučky
-63	7663	čiarka	čiarkou čiarku čiarky čiarok
-64	7664	nakrúcať	nakrúca nakrúcajú nakrúcal nakrúcala nakrúcali nakrúcam nakrúcame nakrúcate nakrúcaš
-65	7665	prihlásený	prihlásená prihlásené prihlásení prihlásených
-66	7666	cievka	cievku cievky cievok
-67	7667	zľaknúť	zľakla zľakli zľakne zľaknem zľakneš zľaknú zľakol
-68	7668	nedopadnúť	nedopadla nedopadli nedopadlo nedopadne nedopadneš nedopadnú nedopadol
-69	7669	príležitostne	
-70	7670	reportérka	reportérke reportérkou reportérku reportérky
-71	7671	policajtka	policajtke policajtkou policajtku policajtky
-72	7672	samička	samičiek samičke samičku samičky
-73	7673	oblastný	oblastnej oblastná oblastné oblastného oblastnú oblastných
-74	7674	zmazať	zmazal zmazala zmazali zmaž zmaže zmažem zmažeš zmažte
-75	7675	príležitostný	príležitostná príležitostné príležitostnú príležitostných
-76	7676	slúchadlo	slúchadiel slúchadla slúchadlami slúchadlá slúchadlách
-77	7677	podporujúci	podporujúca podporujúce podporujúcej podporujúcich podporujúcu
-78	7678	bič	biča biče bičom bičík bičíkom bičíky
-79	7679	vypýtať	vypýta vypýtaj vypýtajte vypýtajú vypýtal vypýtala vypýtali vypýtam vypýtame vypýtaš
-80	7680	rubrika	rubrike rubriku rubriky rubrikách rubrík
-81	7681	maximum	maxima maxime maximom maximu maximá
-82	7682	ústie	ústia ústiu ústí
-83	7683	spomaľovať	spomaľoval spomaľovala spomaľuje spomaľujem spomaľujeme spomaľuješ spomaľujú
-84	7684	strachovať	strachoval strachovala strachovali strachuj strachuje strachujem strachujeme strachujete strachuješ strachujú
-85	7685	priskoro	
-86	7686	hliníkový	hliníkovej hliníkové hliníkového hliníkovú hliníkových
-87	7687	priekopa	priekope priekopu priekopy
-88	7688	vývoz	vývozom vývozu
-89	7689	pripútať	pripúta pripútaj pripútajte pripútajú pripútal pripútala pripútali pripútam pripútame pripútaš
-90	7690	hnačka	hnačke hnačkou hnačku hnačky
-91	7691	príliv	prílive prílivom prílivov prílivu prílivy
-92	7692	pochváliť	pochváli pochválil pochválila pochválili pochválim pochváliš pochváľ
-93	7693	poistený	poistená poistené poistení
-94	7694	zvrátený	zvrátenej zvrátenom zvrátenou zvrátená zvrátené zvráteného zvrátení zvrátenú zvrátených zvráteným
-95	7695	stajňa	stajne stajni stajniach stajní stajňou stajňu
-96	7696	konzumácia	konzumácie konzumácii konzumáciou konzumáciu
-97	7697	práčovňa	práčovne práčovni práčovňou práčovňu
-98	7698	zárodok	zárodkov zárodku zárodky
-99	7699	zápisník	zápisníka zápisníkom zápisníku zápisníky
-100	7700	bezchybný	bezchybne bezchybnom bezchybnou bezchybná bezchybné bezchybnú bezchybných bezchybným
+1	7601	vrcholný	vrcholnej vrcholnom vrcholná vrcholné vrcholného vrcholnú vrcholných vrcholným
+2	7602	sebaobrana	sebaobrane sebaobranou sebaobranu sebaobrany
+3	7603	dobrodružný	dobrodružnej dobrodružná dobrodružné dobrodružného dobrodružnú dobrodružných
+4	7604	samozrejmosť	samozrejmosti samozrejmosťou
+5	7605	logicky	logickejšie najlogickejšie
+6	7606	biedny	biedna biedne biedneho biednej biednemu biedni biednom biednu biednych biednym
+7	7607	šelma	šeliem šelme šelmou šelmu šelmy
+8	7608	dobiť	dobije dobijem dobijeme dobiješ dobijú dobil dobila dobili dobite dobitie dobitý dobíja dobíjam dobíjať nedobije nedobili
+9	7609	prizerať	prizerajú prizeral prizerala prizerali prizerá prizeráš
+10	7610	mrhať	mrhajú mrhal mrhala mrhali mrhá mrhám mrháme mrháte mrháš nemrhaj nemrhajme nemrhajte nemrhal nemrhá nemrhám
+11	7611	nainštalovať	nainštaloval nainštalovala nainštalovali nainštaluje nainštalujem nainštalujeme nainštalujte nainštalujú
+12	7612	posadnutosť	posadnutosti posadnutosťou
+13	7613	obkľúčiť	obkľúči obkľúčia obkľúčil obkľúčila obkľúčili obkľúčime obkľúčte
+14	7614	odber	odbere odberu odbery
+15	7615	rozlíšiť	
+16	7616	pilotný	pilotnej pilotnom pilotná pilotné pilotného pilotnú
+17	7617	vyšetrený	vyšetrená vyšetrené vyšetrení
+18	7618	akumulátor	akumulátora akumulátorov akumulátory
+19	7619	žoldnier	žoldniera žoldnieri žoldniermi žoldnierom žoldnierov
+20	7620	účinkovanie	účinkovania účinkovaní
+21	7621	dozerať	dozeraj dozerajú dozeral dozerala dozerali dozerá dozerám dozeráš
+22	7622	štvorica	štvorice štvorici štvoricu
+23	7623	sejf	sejfe sejfom sejfov sejfu sejfy
+24	7624	panikáriť	nepanikár nepanikári nepanikárili nepanikárim nepanikáriť nepanikárme nepanikárte panikária panikáril panikárila panikárili panikárim panikáriš
+25	7625	dozvedať	dozvedá dozvedám dozvedáme dozvedáš
+26	7626	úžitok	úžitku
+27	7627	ohnivý	ohnivej ohnivou ohnivé ohnivého ohnivému ohnivú ohnivých ohnivým ohnivými
+28	7628	zakladanie	zakladania zakladaní
+29	7629	učeň	učni učňa učňami učňom učňov
+30	7630	zaskočiť	nezaskočí zaskoč zaskočil zaskočila zaskočili zaskočilo zaskočí zaskočím zaskočíme zaskočíš
+31	7631	úbožiak	úbožiaci úbožiaka úbožiakmi úbožiakom úbožiakov úbožiakovi
+32	7632	túlať	netúlaj netúlal túla túlajú túlajúc túlal túlala túlali túlam túlame túlaš
+33	7633	stredoeurópsky	stredoeurópskeho stredoeurópskej stredoeurópskom stredoeurópskych
+34	7634	vyslobodiť	vyslobodia vyslobodil vyslobodila vyslobodili vyslobodí vyslobodím vyslobodíme vyslobodíš vysloboď vysloboďte
+35	7635	vyrezať	vyrezal vyrezala vyrezali vyrež vyreže vyrežem vyrežeme vyrežte vyrežú
+36	7636	napomáhať	napomáha napomáhajú napomáhal napomáhala
+37	7637	brokovnica	brokovnicami brokovnice brokovnici brokovnicou brokovnicu
+38	7638	oboznámiť	oboznám oboznámi oboznámil oboznámila oboznámili oboznámim oboznámime oboznámite oboznámte
+39	7639	poznávací	poznávacej poznávacia poznávacie poznávaciu poznávacou poznávacích poznávacím
+40	7640	rozobrať	rozober rozoberie rozoberiem rozoberieme rozoberieš rozoberme rozoberte rozoberú rozobral rozobrala rozobrali
+41	7641	vyhliadka	vyhliadkami vyhliadke vyhliadkou vyhliadku vyhliadky vyhliadok
+42	7642	tréningový	tréningovej tréningovom tréningová tréningové tréningového tréningovú tréningových tréningovým
+43	7643	dedinčan	dedinčana dedinčania dedinčanmi dedinčanom dedinčanov
+44	7644	premenná	premennej premenné premennú
+45	7645	skúter	skútra skútre skútri skútroch skútrom skútrov skútru
+46	7646	udeľovanie	udeľovania udeľovaní
+47	7647	cyklotrasa	cyklotrasy cyklotrás
+48	7648	búda	búd búde búdu búdy
+49	7649	hniť	hnije hniješ hnijú hnil hnila hnili nehni nehnite
+50	7650	potápač	potápača potápači potápačmi potápačov
+51	7651	stíhanie	stíhania stíhaniu stíhaním
+52	7652	astronóm	astronomické astronomický astronóma astronómka astronómom astronómov astronómovia
+53	7653	arabský	arabských
+54	7654	méta	mét métach méte métou métu méty
+55	7655	náročnosť	náročnosti
+56	7656	zvracať	nezvracal nezvraciam zvracajú zvracal zvracala zvracali zvracia zvraciam zvraciaš
+57	7657	cvok	cvoci cvoka cvokmi cvokom cvokov
+58	7658	vypytovať	nevypytoval nevypytuj vypytoval vypytovala vypytovali vypytuje vypytujem vypytujete vypytuješ vypytujú
+59	7659	krb	krbe krbom krbu krby
+60	7660	receptor	receptorov receptory
+61	7661	angažovať	angažoval angažovala angažovali angažuje angažuješ neangažoval
+62	7662	infračervený	infračervenom infračervená infračervené infračerveného infračerveným infračervenými
+63	7663	stret	strete stretoch stretov stretu strety
+64	7664	priečny	priečna priečneho priečnej priečnom priečnych priečnym
+65	7665	číselný	číselnej číselná číselné číselného číselnú číselných číselným
+66	7666	tank	tanky
+67	7667	gong	gongu
+68	7668	výslovne	
+69	7669	prvotriedny	prvotriedna prvotriedneho prvotriednej prvotriedni prvotriednom prvotriednu prvotriednych prvotriednym
+70	7670	napojenie	napojenia napojením
+71	7671	jazzový	jazzovej jazzovom jazzová jazzové jazzovú jazzových
+72	7672	vyvrcholiť	vyvrcholil vyvrcholila vyvrcholili vyvrcholilo vyvrcholí
+73	7673	dúbrava	dúbravka dúbravke dúbravky
+74	7674	sedan	sedane sedanu sedany
+75	7675	pako	paka pakom pakov pakovi pakovia
+76	7676	zaplniť	nezaplnil zaplnia zaplnil zaplnila zaplnili zaplnilo zaplní zaplním zaplníš zaplňte
+77	7677	všemohúci	všemohúceho všemohúcemu všemohúcim všemohúcom
+78	7678	zvonenie	zvonenia zvoneniu zvonení zvonením
+79	7679	dvanásty	dvanásta dvanáste dvanásteho dvanástej dvanásti dvanástom dvanástou dvanástu
+80	7680	vyšplhať	nevyšplhám vyšplhaj vyšplhajú vyšplhal vyšplhala vyšplhali vyšplhá vyšplhám vyšplháte
+81	7681	osobitý	osobitá osobité osobitým
+82	7682	fara	farou faru fary
+83	7683	obdivuhodný	obdivuhodná obdivuhodné obdivuhodnú obdivuhodných
+84	7684	umelkyňa	umelkyne umelkyňou umelkyňu umelkýň
+85	7685	prepis	prepise prepisom prepisov prepisu prepisy
+86	7686	atlét	atléta atléti atlétom atlétov
+87	7687	vplyvný	najvplyvnejší najvplyvnejších vplyvnou vplyvná vplyvné vplyvného vplyvní vplyvných vplyvným vplyvnými
+88	7688	odpadový	odpadovej odpadová odpadové odpadového odpadovú odpadových
+89	7689	zvitok	zvitkoch zvitkom zvitkov zvitku zvitky
+90	7690	notár	notára notárom notárovi
+91	7691	panovať	panoval panovala panuj panuje panujú
+92	7692	rak	raka rakom rakov rakovi raky račej ráčik
+93	7693	vlkolak	vlkolaci vlkolaka vlkolakmi vlkolakoch vlkolakom vlkolakov
+94	7694	bombardovanie	bombardovania bombardovaniu bombardovaní bombardovaním
+95	7695	úbytok	úbytku
+96	7696	zostrojiť	nezostrojil zostrojil zostrojila zostrojili zostrojí zostrojím zostrojíme
+97	7697	inžinierstvo	inžinierstva inžinierstve inžinierstvom
+98	7698	sympatický	sympatickej sympatická sympatické sympatického sympatickí sympatickú sympatických sympatickým
+99	7699	piest	piesta piestom piestu piesty
+100	7700	fragment	fragmentov fragmenty

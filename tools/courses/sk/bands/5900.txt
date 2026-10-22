@@ -1,100 +1,100 @@
-1	5801	kozmický	kozmickej kozmickom kozmickou kozmická kozmické kozmického kozmickú kozmických kozmickým
-2	5802	silnieť	silnej silnejú silnel silneli silnie
-3	5803	tepna	tepien tepnami tepne tepnou tepnu tepny tepnách
-4	5804	kancelársky	kancelárska kancelárske kancelárskeho kancelárskej kancelárski kancelársku kancelárskych
-5	5805	kriminálnik	kriminálnici kriminálnika kriminálnikmi kriminálnikoch kriminálnikom kriminálnikov kriminálnikovi
-6	5806	pumpa	pumpe pumpičku pumpou pumpu pumpy pumpách púmp
-7	5807	formula	formule formulu formuly
-8	5808	zaseknúť	zasekla zasekli zaseklo zasekne zaseknem zasekneš zaseknú zasekol
-9	5809	obžaloba	obžalobe obžalobou obžalobu obžaloby
-10	5810	úkor	
-11	5811	montáž	montáže montáži montážou
-12	5812	krátkodobý	krátkodobej krátkodobou krátkodobá krátkodobé krátkodobého krátkodobú krátkodobých krátkodobým
-13	5813	nadmerný	nadmernej nadmernou nadmerná nadmerné nadmerného nadmernému nadmernú nadmerným
-14	5814	otrasný	otrasnej otrasnom otrasnou otrasná otrasné otrasného otrasní otrasnú otrasných otrasným otrasnými
-15	5815	neutrálny	neutrálna neutrálneho neutrálnej neutrálni neutrálnom neutrálnou neutrálnu neutrálnych neutrálnym
-16	5816	vzápätí	
-17	5817	perie	peria perím
-18	5818	barok	baroka barokovej barokovom baroková barokové barokového barokový barokových
-19	5819	evidencia	evidencie evidencii evidenciu evidenčné
-20	5820	vymenovať	vymenoval vymenovala vymenovali vymenuj vymenuje vymenujem vymenujte
-21	5821	neobjaviť	neobjavia neobjavil neobjavila neobjavili neobjavilo neobjaví neobjavím neobjavíme neobjavíš
-22	5822	dvojnásobný	dvojnásobnej dvojnásobnom dvojnásobnou dvojnásobná dvojnásobné dvojnásobného dvojnásobnú dvojnásobným
-23	5823	metabolizmus	metabolizme metabolizmom metabolizmu
-24	5824	priveľmi	
-25	5825	detailný	detailne detailnejšie detailnejšiu detailnejší detailná detailné detailnú detailných
-26	5826	sekvencia	sekvencie sekvencii sekvenciou sekvenciu sekvencií
-27	5827	bezpochyby	
-28	5828	zmiznutie	zmiznutia zmiznutiu zmiznutí zmiznutím
-29	5829	chladiaci	chladiaca chladiace chladiaceho chladiacej chladiacich chladiacom chladiacu
-30	5830	hypotéka	hypoték hypotékach hypotékami hypotéke hypotékou hypotéku hypotéky
-31	5831	kompaktný	kompaktnej kompaktná kompaktné kompaktného kompaktných
-32	5832	komín	komína komíne komínmi komínom komínov komíny
-33	5833	ceruzka	ceruziek ceruzkou ceruzku ceruzky
-34	5834	poranenie	poranenia poraneniam poraneniami poraneniu poranení poranením
-35	5835	stavebníctvo	stavebníctva stavebníctve
-36	5836	prevedenie	prevedenia prevedeniach prevedením
-37	5837	dovi	
-38	5838	pamäťový	pamäťovej pamäťová pamäťové pamäťového pamäťovú pamäťových
-39	5839	nenachádzať	nenachádza nenachádzajú nenachádzal nenachádzam
-40	5840	odhadnúť	odhadla odhadli odhadne odhadnem odhadni odhadol
-41	5841	neškodný	neškodná neškodné neškodného neškodní neškodnú neškodných neškodným
-42	5842	vyťahovať	vyťahoval vyťahovala vyťahovali vyťahuj vyťahuje vyťahujem vyťahujeme vyťahujete vyťahuješ vyťahujú
-43	5843	únosca	únoscami únoscoch únoscom únoscov únoscovi únoscovia únoscu
-44	5844	mýto	mýta mýte mýtna mýtom mýtu
-45	5845	kompliment	komplimentmi komplimentom komplimentov komplimenty
-46	5846	nenapísať	nenapísal nenapísala nenapísali nenapíše nenapíšem nenapíšeme nenapíšete nenapíšeš nenapíšu
-47	5847	nátlak	nátlakom nátlaku
-48	5848	výškový	výškovej výškové výškového výškových výškovým
-49	5849	pozbierať	pozbiera pozbieraj pozbierajme pozbierajte pozbierajú pozbieral pozbierala pozbierali pozbieram pozbierame pozbieraš
-50	5850	rakva	rakiev rakve rakvou rakvu rakvy rakvách
-51	5851	kysucký	kysuckej kysuckom kysucká kysucké kysuckého kysuckých
-52	5852	maja	maji maju
-53	5853	predpoveď	predpovede predpovedi predpovediach predpovediam predpovedí predpoveďou
-54	5854	prestup	prestupe prestupom prestupov prestupu prestupy
-55	5855	predsieň	predsiene predsieni predsiení
-56	5856	prepínať	prepína prepínajú prepínal prepínam prepíname
-57	5857	zaoberajúci	zaoberajúca zaoberajúce zaoberajúcej zaoberajúcich zaoberajúcu
-58	5858	zvieratko	zvieratiek zvieratka zvieratkami zvieratkom zvieratku zvieratká zvieratkám
-59	5859	symbolický	symbolickej symbolická symbolické symbolického symbolickú symbolických symbolickým
-60	5860	žiarovka	žiaroviek žiarovkami žiarovkou žiarovku žiarovky
-61	5861	aplikovať	aplikoval aplikovali aplikuje aplikujem aplikujeme aplikuješ aplikujte aplikujú
-62	5862	šľapka	šľapiek šľapkami šľapke šľapkou šľapku šľapky šľapkách šľapkám
-63	5863	prehnaný	prehnanej prehnaná prehnané prehnanú prehnaným prehnanými
-64	5864	neziskový	neziskovej nezisková neziskové neziskovú neziskových
-65	5865	niekdajší	niekdajšej niekdajšia niekdajšie niekdajšieho niekdajšiu niekdajších niekdajším
-66	5866	znepokojovať	znepokojoval znepokojovala znepokojovali znepokojovalo znepokojuje znepokojujem znepokojuješ znepokojujú
-67	5867	vývojový	vývojovej vývojovom vývojové vývojového vývojových
-68	5868	legislatíva	legislatíve legislatívou legislatívu legislatívy
-69	5869	zapríčiniť	zapríčinia zapríčinil zapríčinila zapríčinili zapríčinilo zapríčiní
-70	5870	masaker	masakri masakrom masakrov
-71	5871	porozumenie	porozumenia porozumeniu porozumení porozumením
-72	5872	maličká	maličkej maličkou maličkú
-73	5873	adrenalín	adrenalíne adrenalínom adrenalínové adrenalínový adrenalínu
-74	5874	kopnúť	kopla kopli koplo kopne kopnem kopnete kopneš kopni kopnime kopnite kopnú kopol
-75	5875	úprimnosť	úprimnosti úprimnosťou
-76	5876	vyjasniť	vyjasni vyjasnia vyjasnil vyjasnila vyjasnili vyjasnilo vyjasnime vyjasní vyjasním vyjasníme
-77	5877	prelomiť	prelomia prelomil prelomila prelomili prelomilo prelomte prelomí prelomím prelomíme prelomíte prelomíš
-78	5878	podprsenka	podprseniek podprsenke podprsenkou podprsenku podprsenky podprsenkách
-79	5879	inovácia	inovácie inováciou inováciu inovácií
-80	5880	dynamika	dynamike dynamikou dynamiku dynamiky
-81	5881	zdôrazňovať	zdôrazňoval zdôrazňuje zdôrazňujem zdôrazňujú
-82	5882	koncertný	koncertnej koncertná koncertné koncertného koncertnú koncertných
-83	5883	prehlásenie	prehlásenia prehláseniu prehlásení prehlásením
-84	5884	registrácia	registrácie registrácii registráciou registráciu
-85	5885	otehotnieť	otehotnela otehotneli otehotnie otehotniem otehotnieš
-86	5886	hriadeľ	hriadele hriadeli hriadeľa hriadeľom
-87	5887	foťák	foťáka foťákmi foťákom foťáku foťáky
-88	5888	háj	hája háje háji
-89	5889	vykopať	vykop vykopal vykopala vykopali vykope vykopem vykopeme vykopete vykopeš vykopte vykopú
-90	5890	izraelský	izraelskej izraelskom izraelskou izraelská izraelské izraelského izraelskí izraelskú izraelských izraelským
-91	5891	tabak	tabakom tabakové tabakový tabaku
-92	5892	nu	
-93	5893	alkoholik	alkoholici alkoholickej alkoholická alkoholické alkoholického alkoholický alkoholických alkoholickým alkoholickými alkoholika alkoholikmi alkoholikom alkoholikov alkoholička alkoholičku
-94	5894	spálený	spálenej spálenom spálená spálené spáleného spálení spálenú spálených
-95	5895	slúžiaci	slúžiaca slúžiace slúžiacich slúžiacim
-96	5896	lekárstvo	lekárstva lekárstve
-97	5897	ideálne	najideálnejšie
-98	5898	terapeut	terapeuta terapeuti terapeutom terapeutov terapeutovi
-99	5899	vyložiť	vylož vyložia vyložil vyložila vyložili vyložme vyložte vyloží vyložím vyložíme vyložíte vyložíš
-100	5900	záchranár	záchranára záchranári záchranármi záchranárom záchranárov
+1	5801	zdôrazňovať	zdôrazňoval zdôrazňuje zdôrazňujem zdôrazňujú
+2	5802	chybný	chybná chybné chybného chybnú chybných chybným
+3	5803	dynamika	dynamike dynamikou dynamiku dynamiky
+4	5804	postihnúť	nepostihlo postihla postihli postihlo postihne postihol
+5	5805	inovácia	inovácie inováciou inováciu inovácií
+6	5806	nevyhnutne	
+7	5807	koncertný	koncertnej koncertná koncertné koncertného koncertnú koncertných
+8	5808	hriadeľ	hriadele hriadeli hriadeľa hriadeľom
+9	5809	kódex	kódexe kódexom kódexu
+10	5810	náhodne	
+11	5811	halucinácia	halucináciami halucinácie halucinácii halucináciou halucináciu halucináciách halucináciám halucinácií
+12	5812	ropný	ropnej ropnom ropná ropné ropného ropnú ropných ropným ropnými
+13	5813	zajatý	zajatá zajaté zajatí zajatých
+14	5814	parkovací	parkovacej parkovacia parkovacie parkovacieho parkovaciu parkovacom parkovacou parkovacích parkovacím parkovacími
+15	5815	načasovanie	načasovania načasovaniu načasovaním
+16	5816	vyzývať	vyzýva vyzývajú vyzýval vyzývali vyzývam vyzývame vyzývate vyzývaš
+17	5817	slúžiaci	slúžiaca slúžiace slúžiacich slúžiacim
+18	5818	obracať	neobracaj neobracajte neobraciame obracajú obracal obracala obracali obracia obraciam obraciame obraciate obraciaš
+19	5819	lekárstvo	lekárstva lekárstve
+20	5820	irónia	irónie irónii iróniou iróniu
+21	5821	posolstvo	posolstva posolstvom posolstvá
+22	5822	vášnivý	najvášnivejší vášnivej vášnivejšia vášnivou vášnivá vášnivé vášnivého vášniví vášnivú vášnivých vášnivým
+23	5823	poukázať	poukázal poukázala poukázali poukáže poukážem
+24	5824	vypariť	nevyparia nevyparila nevyparí vypar vyparia vyparil vyparila vyparili vyparilo vyparme vyparte vyparí vyparím vyparíme vyparíš
+25	5825	švagor	švagra švagrinej švagrinou švagriná švagriné švagrinú švagrom švagrovi švagrovia
+26	5826	spermia	spermiami spermie spermii spermiu spermiách spermií
+27	5827	partnerstvo	partnerstva partnerstve partnerstvom partnerstvá
+28	5828	nahrádzať	nahrádza nahrádzajú nahrádzam nahrádzaš
+29	5829	zažívať	zažíva zažívajú zažíval zažívala zažívali zažívam zažívame zažívate zažívaš
+30	5830	slučka	slučiek slučke slučkou slučku slučky
+31	5831	diviť	divia divil divila divili divím divíme divíte divíš nediv nedivil nedivila nedivte nedivím
+32	5832	kompatibilný	kompatibilná kompatibilné kompatibilní kompatibilných
+33	5833	reaktor	reaktora reaktore reaktorom reaktorov reaktoru reaktory
+34	5834	sova	sov sovou sovu sovy
+35	5835	vzrušený	vzrušená vzrušené vzrušeného vzrušení
+36	5836	čistenie	čistenia čisteniu čistení čistením
+37	5837	barbie	
+38	5838	prehrávač	prehrávača prehrávače prehrávači prehrávačom prehrávačov
+39	5839	prevzatý	prevzatá prevzaté prevzatí
+40	5840	prekladateľ	prekladatelia prekladateľa prekladateľom prekladateľov
+41	5841	chirurgia	chirurgie chirurgii chirurgiou chirurgiu
+42	5842	demonštrácia	demonštráciami demonštrácie demonštrácii demonštráciou demonštráciu demonštrácií
+43	5843	odvážiť	neodváži neodvážia neodvážil neodvážila neodvážili neodvážim neodvážite neodvážiš odváž odváži odvážia odvážil odvážila odvážili odvážim odvážime odvážite odvážiš
+44	5844	doslovný	doslovne doslovná doslovné
+45	5845	pripájať	pripája pripájajú pripájal pripájam pripájame
+46	5846	zázemie	zázemia zázemí zázemím
+47	5847	morálne	
+48	5848	navigácia	navigácie navigácii navigáciou navigáciu
+49	5849	kredit	kreditom kreditov kreditu kredity
+50	5850	vychádzajúci	vychádzajúca vychádzajúce vychádzajúceho vychádzajúcej vychádzajúcemu vychádzajúcich vychádzajúcou vychádzajúcu
+51	5851	tuhý	tuhej tuhá tuhí tuhú tuhých
+52	5852	informatika	informatiku informatiky
+53	5853	kotlina	kotline kotlinu kotliny
+54	5854	konzervatívny	konzervatívna konzervatívne konzervatívneho konzervatívnej konzervatívnemu konzervatívni konzervatívnu konzervatívnych konzervatívnym
+55	5855	sekretárka	sekretárke sekretárkou sekretárku sekretárky sekretárok
+56	5856	chemikália	chemikáliami chemikálie chemikálii chemikáliou chemikáliu chemikáliách chemikáliám chemikálií
+57	5857	predčasne	
+58	5858	kaliber	kalibre kalibrom kalibru
+59	5859	uvádzaný	uvádzaná uvádzané uvádzaní uvádzaných
+60	5860	svinstvo	svinstiev svinstva svinstve svinstvom svinstvu svinstvá svinstvách
+61	5861	menovať	menoval menovala menovali menovalo menuj menuje menujem menuješ menujte nemenoval
+62	5862	zachytený	zachytená zachytené zachytení zachytených
+63	5863	dobový	dobovej dobová dobové dobového dobových
+64	5864	svit	svite svitom svitu
+65	5865	tato	tatom tatovi
+66	5866	absolvovaný	absolvovaní
+67	5867	roztrhať	neroztrhal neroztrhali neroztrhá roztrhaj roztrhajte roztrhajú roztrhal roztrhala roztrhali roztrhalo roztrhá roztrhám roztrháme roztrháte roztrháš
+68	5868	personálny	personálna personálne personálneho personálnej personálnom personálnych personálnym
+69	5869	kožený	koženej koženom kožená kožené koženého kožení koženú kožených koženým koženými
+70	5870	presláviť	preslávi preslávil preslávila preslávili preslávilo
+71	5871	fešák	fešáci fešáka fešákom fešákov fešákovi
+72	5872	stúpnuť	nestúpne stúpla stúpli stúplo stúpne stúpneš stúpni stúpnu stúpol
+73	5873	odchýlka	odchýlkou odchýlku odchýlky odchýlok
+74	5874	kompetencia	kompetencie kompetencii kompetenciou kompetenciu kompetencií
+75	5875	brutálne	brutálnejšie
+76	5876	darebák	darebáci darebácky darebáka darebákmi darebákom darebákov darebákovi darebáčka
+77	5877	maják	majáka majákom majákov majákový majáku majáky
+78	5878	prasknúť	nepraskla neprasklo nepraskne neprasknú nepraskol praskla praskli prasklo praskne prasknem praskni prasknú praskol
+79	5879	toxický	toxickej toxickou toxická toxické toxického toxickú toxických toxickým
+80	5880	dopriať	dopraj dopraje doprajem doprajeme dopraješ doprajme doprajte doprial dopriala dopriali nedopraj nedopraje nedoprajem nedoprajete nedopraješ nedoprial nedopriať
+81	5881	tematika	tematike tematikou tematiku tematiky
+82	5882	radiácia	radiácie radiácii radiáciou radiáciu radiácií
+83	5883	fabrika	fabrike fabrikou fabriku fabriky fabrikách fabrík
+84	5884	baran	barana baranie baranov baraní baránka baránok
+85	5885	knieža	kniežatá kniežaťa kniežaťom kniežaťu
+86	5886	mesačne	
+87	5887	dlžník	dlžníci dlžníka dlžníkmi dlžníkom dlžníkov dlžníkovi
+88	5888	preplnený	preplnenej preplnenom preplnená preplnené preplneného preplnení preplnenú preplnených preplneným
+89	5889	kurča	kurčatami kurčatá kurčatám kurčaťa kurčaťom kurčaťu kurčiat
+90	5890	prikrývka	prikrývkami prikrývke prikrývkou prikrývku prikrývky prikrývok
+91	5891	predstavenstvo	predstavenstva predstavenstve predstavenstvom predstavenstvu
+92	5892	šarm	šarme šarmom šarmu
+93	5893	občerstvenie	občerstvenia občerstveniu občerstvením
+94	5894	líce	líc líca lícach lícami líci lícne lícom líčka líčko
+95	5895	zhasnúť	nezhasne nezhasnú zhasla zhasli zhaslo zhasne zhasnem zhasneme zhasneš zhasni zhasnite zhasnú zhasol
+96	5896	narušenie	narušenia narušeniu narušení narušením
+97	5897	sluch	sluchom sluchové sluchový sluchu
+98	5898	firemný	firemnej firemnom firemnou firemná firemné firemného firemní firemnú firemných firemným firemnými
+99	5899	zriedkavý	zriedkavou zriedkavá zriedkavé zriedkavú zriedkavých
+100	5900	homosexualita	homosexualite homosexualitou homosexualitu homosexuálna homosexuálne homosexuálneho homosexuálnej homosexuálni homosexuálnu homosexuálny homosexuálnych homosexuálnym homosexuálnymi

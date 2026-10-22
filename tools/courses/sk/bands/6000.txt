@@ -1,100 +1,100 @@
-1	5901	postaraný	postarané
-2	5902	uľaviť	uľav uľavil uľavili uľavilo uľaví uľavím
-3	5903	nezažiť	nezažije nezažijem nezažijeme nezažijete nezažiješ nezažijú nezažil nezažila nezažili nezažilo
-4	5904	proroctvo	proroctiev proroctva proroctve proroctvom proroctvu proroctvá
-5	5905	nielenže	
-6	5906	vyšetriť	vyšetri vyšetria vyšetril vyšetrila vyšetrili vyšetrilo vyšetrite vyšetrí vyšetrím vyšetríme
-7	5907	vyjednávanie	vyjednávania vyjednávaniach vyjednávaniu vyjednávaní vyjednávaním
-8	5908	chybný	chybná chybné chybného chybnú chybných chybným
-9	5909	aféra	afér aférach afére aférou aféru aféry
-10	5910	kompatibilný	kompatibilná kompatibilné kompatibilní kompatibilných
-11	5911	rúž	rúže rúžom rúžové rúžový rúžu
-12	5912	nevyhnutne	
-13	5913	nahrádzať	nahrádza nahrádzajú nahrádzam nahrádzaš
-14	5914	presvedčivý	presvedčivejšia presvedčivejší presvedčivá presvedčivé presvedčiví presvedčivú presvedčivých presvedčivým
-15	5915	kódex	kódexe kódexom kódexu
-16	5916	smena	smenami smene smenou smenu smeny smenách smien
-17	5917	náhodne	
-18	5918	postihnúť	postihla postihli postihlo postihne postihol
-19	5919	pitva	pitiev pitve pitvou pitvu pitvy
-20	5920	ropný	ropnej ropnom ropná ropné ropného ropnú ropných ropným ropnými
-21	5921	parkovací	parkovacej parkovacia parkovacie parkovacieho parkovaciu parkovacom parkovacou parkovacích parkovacím parkovacími
-22	5922	prevzatý	prevzatá prevzaté prevzatí
-23	5923	poukázať	poukázal poukázala poukázali poukáže poukážem
-24	5924	zajatý	zajatá zajaté zajatí zajatých
-25	5925	partnerstvo	partnerstva partnerstve partnerstvom partnerstvá
-26	5926	prekladateľ	prekladatelia prekladateľa prekladateľom prekladateľov
-27	5927	kotlina	kotline kotlinu kotliny
-28	5928	posolstvo	posolstva posolstvom posolstvá
-29	5929	informatika	informatiku informatiky
-30	5930	opravovať	opravoval opravovala opravovali opravuje opravujem opravujeme opravujete opravuješ opravujú
-31	5931	vyzývať	vyzýva vyzývajú vyzýval vyzývali vyzývam vyzývame vyzývate vyzývaš
-32	5932	pripájať	pripája pripájajú pripájal pripájam pripájame
-33	5933	zázemie	zázemia zázemí zázemím
-34	5934	zažívať	zažíva zažívajú zažíval zažívala zažívali zažívam zažívame zažívate zažívaš
-35	5935	rezať	rezal rezala rezali rezanie rezaný rež reže režem režeme režeš režte režú
-36	5936	zviazaný	zviazaná zviazané zviazaného zviazaní zviazanú zviazaných zviazanými
-37	5937	vášnivý	najvášnivejší vášnivej vášnivejšia vášnivou vášnivá vášnivé vášnivého vášniví vášnivú vášnivých vášnivým
-38	5938	uvádzaný	uvádzaná uvádzané uvádzaní uvádzaných
-39	5939	prehrávač	prehrávača prehrávače prehrávači prehrávačom prehrávačov
-40	5940	ockov	ockova ockove ockovej ockovho ockovi ockovo ockovom ockovu ockových ockovým ockovými
-41	5941	dobový	dobovej dobová dobové dobového dobových
-42	5942	absolvovaný	absolvovaní
-43	5943	reaktor	reaktora reaktore reaktorom reaktorov reaktoru reaktory
-44	5944	sova	sov sovou sovu sovy
-45	5945	chirurgia	chirurgie chirurgii chirurgiou chirurgiu
-46	5946	čistenie	čistenia čisteniu čistení čistením
-47	5947	slučka	slučiek slučke slučkou slučku slučky
-48	5948	demonštrácia	demonštráciami demonštrácie demonštrácii demonštráciou demonštráciu demonštrácií
-49	5949	navigácia	navigácie navigácii navigáciou navigáciu
-50	5950	konzervatívny	konzervatívna konzervatívne konzervatívneho konzervatívnej konzervatívnemu konzervatívni konzervatívnu konzervatívnych konzervatívnym
-51	5951	vychádzajúci	vychádzajúca vychádzajúce vychádzajúceho vychádzajúcej vychádzajúcemu vychádzajúcich vychádzajúcou vychádzajúcu
-52	5952	tuhý	tuhej tuhá tuhí tuhú tuhých
-53	5953	spermia	spermiami spermie spermii spermiu spermiách spermií
-54	5954	irónia	irónie irónii iróniou iróniu
-55	5955	neočakávať	neočakáva neočakávaj neočakávajte neočakávajú neočakával neočakávala neočakávali neočakávam neočakávame neočakávate neočakávaš
-56	5956	predčasne	
-57	5957	tematika	tematike tematikou tematiku tematiky
-58	5958	morálne	
-59	5959	odchýlka	odchýlkou odchýlku odchýlky odchýlok
-60	5960	presláviť	preslávi preslávil preslávila preslávili preslávilo
-61	5961	kompetencia	kompetencie kompetencii kompetenciou kompetenciu kompetencií
-62	5962	halucinácia	halucináciami halucinácie halucinácii halucináciou halucináciu halucináciách halucináciám halucinácií
-63	5963	načasovanie	načasovania načasovaniu načasovaním
-64	5964	personálny	personálna personálne personálneho personálnej personálnom personálnych personálnym
-65	5965	švagor	švagra švagrinej švagrinou švagriná švagriné švagrinú švagrom švagrovi švagrovia
-66	5966	zachytený	zachytená zachytené zachytení zachytených
-67	5967	doslovný	doslovne doslovná doslovné
-68	5968	kredit	kreditom kreditov kreditu kredity
-69	5969	svit	svite svitom svitu
-70	5970	barbie	
-71	5971	neuvedomovať	neuvedomoval neuvedomovala neuvedomovali neuvedomuje neuvedomujem neuvedomujeme neuvedomujete neuvedomuješ neuvedomujú neuvedomujúc
-72	5972	kaliber	kalibre kalibrom kalibru
-73	5973	dokonalosť	dokonalosti dokonalosťou
-74	5974	chemikália	chemikáliami chemikálie chemikálii chemikáliou chemikáliu chemikáliách chemikáliám chemikálií
-75	5975	predstavenstvo	predstavenstva predstavenstve predstavenstvom predstavenstvu
-76	5976	knieža	kniežatá kniežaťa kniežaťom kniežaťu
-77	5977	kožený	koženej koženom kožená kožené koženého kožení koženú kožených koženým koženými
-78	5978	toxický	toxickej toxickou toxická toxické toxického toxickú toxických toxickým
-79	5979	čumieť	čum čumel čumela čumeli čumia čumte čumí čumím čumíme čumíte čumíš
-80	5980	vymknúť	vymkla vymkli vymklo vymkne vymkneš vymknutý vymknú vymkol vymykať vymyká
-81	5981	fúkať	fúka fúkaj fúkajte fúkal fúkala fúkam fúkanie fúkni fúknuť
-82	5982	brutálne	brutálnejšie
-83	5983	fabrika	fabrike fabrikou fabriku fabriky fabrikách fabrík
-84	5984	mesačne	
-85	5985	baran	barana baranie baranov baraní baránka baránok
-86	5986	cyklistický	cyklistickej cyklistická cyklistické cyklistického cyklistických
-87	5987	vzrušený	vzrušená vzrušené vzrušeného vzrušení
-88	5988	rozpätie	rozpätia rozpätí rozpätím
-89	5989	rozklad	rozklade rozkladom rozkladu
-90	5990	tato	tatom tatovi
-91	5991	preplnený	preplnenej preplnenom preplnená preplnené preplneného preplnení preplnenú preplnených preplneným
-92	5992	dlžník	dlžníci dlžníka dlžníkmi dlžníkom dlžníkov dlžníkovi
-93	5993	občerstvenie	občerstvenia občerstveniu občerstvením
-94	5994	zaznamenávať	zaznamenáva zaznamenávajú zaznamenával zaznamenávala zaznamenávali zaznamenávam zaznamenávame zaznamenávaš
-95	5995	zachovávať	zachováva zachovávajú zachovával zachovávam zachovávame
-96	5996	maják	majáka majákom majákov majákový majáku majáky
-97	5997	umelo	
-98	5998	neopúšťať	neopúšťa neopúšťaj neopúšťajte neopúšťajú neopúšťal neopúšťala neopúšťali neopúšťam neopúšťame neopúšťate neopúšťaš
-99	5999	homosexualita	homosexualite homosexualitou homosexualitu homosexuálna homosexuálne homosexuálneho homosexuálnej homosexuálni homosexuálnu homosexuálny homosexuálnych homosexuálnym homosexuálnymi
-100	6000	zriedka	
+1	5901	lesk	leskom lesku
+2	5902	rozklad	rozklade rozkladom rozkladu
+3	5903	pokladňa	pokladne pokladni pokladní pokladňou pokladňu
+4	5904	orgazmus	orgazme orgazmom orgazmov orgazmu orgazmy
+5	5905	dačo	
+6	5906	zriedka	
+7	5907	francúzština	francúzštine francúzštinou francúzštinu francúzštiny
+8	5908	stehno	stehien stehna stehnami stehne stehnom stehná stehnách
+9	5909	sústredený	sústredenej sústredená sústredené sústredeného sústredení sústredenú
+10	5910	zachovávať	zachováva zachovávajú zachovával zachovávam zachovávame
+11	5911	pyžamo	pyžama pyžame pyžamom pyžamu pyžamá pyžamách pyžám
+12	5912	uvoľňovať	uvoľňoval uvoľňuje uvoľňujem uvoľňujú
+13	5913	podnikať	nepodnikajte nepodnikali podnikajú podnikal podnikala podnikali podniká podnikám podnikáme podnikáte podnikáš
+14	5914	rozpätie	rozpätia rozpätí rozpätím
+15	5915	cyklistický	cyklistickej cyklistická cyklistické cyklistického cyklistických
+16	5916	lodný	lodnej lodnom lodná lodné lodného lodnú lodných lodným lodnými
+17	5917	vysrať	nevyserieš nevysral vyser vyserie vyseriem vyserieme vyserieš vyserme vyserte vyserú vysral vysrala vysrali
+18	5918	umelo	
+19	5919	špecialita	špecialite špecialitou špecialitu špeciality špecialitách špecialít
+20	5920	uzáver	uzávere uzáverom uzáverov uzáveru uzávery
+21	5921	zadržaný	zadržaná zadržané zadržaného zadržaní zadržaných zadržaným zadržanými
+22	5922	pokopať	pokope
+23	5923	záštita	záštitou záštitu
+24	5924	fúz	fúzami fúzik fúzmi fúzoch fúzov fúzy
+25	5925	zákonný	zákonnej zákonnom zákonnou zákonná zákonné zákonného zákonnú zákonných zákonným zákonnými
+26	5926	keramický	keramickej keramická keramické keramického keramickú keramických
+27	5927	vídať	nevída nevídal nevídali nevídam nevídame nevídate nevídaš nevídať vída vídal vídala vídali vídam vídame vídate vídaš
+28	5928	alias	aliasov aliasy
+29	5929	riaditeľstvo	riaditeľstva riaditeľstve
+30	5930	vagína	vagín vagínach vagíne vagínou vagínu vagíny
+31	5931	predloha	predlohou predlohu predlohy predlôh
+32	5932	jednanie	jednania jednaniach jednaniu jednaní jednaním
+33	5933	artefakt	artefakte artefaktmi artefaktoch artefaktom artefaktov artefaktu artefakty
+34	5934	opora	oporou oporu opory
+35	5935	predniesť	prednesie prednesiem prednesieš predneste predniesla predniesli predniesol
+36	5936	popraviť	nepopravia popravia popravil popravila popravili popravte popraví popravím popravíme popravíte popravíš
+37	5937	amatér	amatéra amatéri amatérmi amatérom amatérov
+38	5938	kašľať	kašle kašlem kašleme kašlete kašleš kašli kašlime kašlite kašľal kašľala kašľanie
+39	5939	kefa	kefe kefka kefku kefou kefu kefy
+40	5940	hostina	hostine hostinou hostinu hostiny
+41	5941	vypáliť	vypáli vypália vypálil vypálila vypálili vypálilo vypálim vypálime vypálite vypáliš vypáľ vypáľte
+42	5942	zazvoniť	nezazvonil nezazvoní zazvonia zazvonil zazvonila zazvonili zazvonilo zazvoní zazvoním zazvoníš zazvoň zazvoňte
+43	5943	oznamovať	oznamoval oznamovala oznamuje oznamujem oznamujeme oznamujete oznamuješ oznamujú
+44	5944	spolubývajúci	spolubývajúceho spolubývajúcemu spolubývajúcich spolubývajúcim spolubývajúcimi spolubývajúcom
+45	5945	konfigurácia	konfigurácie konfigurácii konfiguráciu
+46	5946	plodina	plodiny plodín
+47	5947	opatrovať	opatroval opatrovala opatrovali opatruj opatruje opatrujem opatrujeme opatruješ opatrujte opatrujú
+48	5948	snúbenec	snúbenca snúbenci snúbencom snúbencovi
+49	5949	pobiť	nepobil nepobili pobije pobijem pobijeme pobijete pobiješ pobijú pobil pobila pobili pobite
+50	5950	mrkva	mrkiev mrkve mrkvička mrkvičky mrkvou mrkvová mrkvový mrkvu mrkvy
+51	5951	dosiaľ	
+52	5952	zjazd	zjazde zjazdom zjazdov zjazdu
+53	5953	hrot	hrote hrotmi hrotom hrotov hrotu hroty
+54	5954	sať	saj saje sajem sajú sal sala satie
+55	5955	zhromažďovať	zhromažďoval zhromažďovala zhromažďovali zhromažďuje zhromažďujem zhromažďujeme zhromažďujú
+56	5956	rampa	rampe rampou rampu rampy
+57	5957	úpadok	úpadkom úpadku
+58	5958	nádvorie	nádvoria nádvorí
+59	5959	otras	otrase otrasmi otrasoch otrasom otrasov otrasu otrasy
+60	5960	zvonku	
+61	5961	bublina	bubline bublinou bublinu bubliny bublín
+62	5962	uctievať	uctieva uctievajte uctievajú uctieval uctievala uctievali uctievam uctievame uctievate uctievaš
+63	5963	oliva	olivami olive olivu olivy olív
+64	5964	znalec	znalca znalci znalcom znalcov
+65	5965	vyznanie	vyznania vyznaniu vyznaní vyznaním
+66	5966	spasiteľ	spasitelia spasiteľa spasiteľom spasiteľov spasiteľovi
+67	5967	zneužívanie	zneužívania zneužívaniu zneužívaní zneužívaním
+68	5968	kaucia	kaucie kaucii kauciou kauciu kaucií
+69	5969	egyptský	egyptskej egyptskom egyptskou egyptská egyptské egyptského egyptskí egyptskú egyptských egyptským egyptskými
+70	5970	identický	identická identické identickí identickú identických
+71	5971	dvadsiaty	dvadsiata dvadsiate dvadsiateho dvadsiatej dvadsiatom dvadsiatych
+72	5972	pohltiť	nepohltí pohltia pohltil pohltila pohltili pohltilo pohltí pohltím
+73	5973	niť	nite niti nití niťami niťou
+74	5974	vďačiť	vďačia vďačí vďačím vďačíme vďačíte vďačíš
+75	5975	rozoberať	nerozoberaj nerozoberajme nerozoberal nerozoberali rozoberajú rozoberal rozoberala rozoberali rozoberá rozoberám rozoberáme rozoberáte rozoberáš
+76	5976	zmlátiť	nezmláti nezmlátil nezmlátili zmláti zmlátia zmlátil zmlátila zmlátili zmlátilo zmlátim zmlátime zmlátiš zmláť zmláťte
+77	5977	trepať	netrep netrepte trepal trepala trepali trepe trepem trepeme trepete trepeš trepú
+78	5978	vklad	vklade vkladom vkladov vkladu vklady
+79	5979	stiahnutie	stiahnutia stiahnutiu stiahnutím
+80	5980	ohlas	ohlasom ohlasy
+81	5981	útecha	úteche útechou útechu útechy
+82	5982	búdka	búdkach búdke búdkou búdku búdky
+83	5983	limitovaný	limitovanej limitovaná limitované limitovanú
+84	5984	symbolizovať	symbolizoval symbolizovalo symbolizuje symbolizujú
+85	5985	vypočúvať	nevypočúvali vypočúva vypočúvajú vypočúval vypočúvala vypočúvali vypočúvam vypočúvame vypočúvate vypočúvaš
+86	5986	pozostávajúci	pozostávajúca pozostávajúce pozostávajúceho pozostávajúcej
+87	5987	slimák	slimačím slimáci slimáka slimákmi slimákom slimákov slimákovi slimáky slimáčik
+88	5988	napojený	napojená napojené napojení napojenú
+89	5989	ráz	rázu
+90	5990	prostý	prostej prostá prosté prostého prostí prostú prostých prostým prostými
+91	5991	zaľúbený	zaľúbená zaľúbené zaľúbení zaľúbených
+92	5992	úkon	úkonov úkonu úkony
+93	5993	obľuba	obľube obľubou obľubu
+94	5994	rasizmus	rasistické rasistický rasizme rasizmom rasizmu
+95	5995	tupý	tupej tupo tupou tupá tupé tupého tupí tupú tupých tupým tupými
+96	5996	remíza	remíze remízou remízu remízy
+97	5997	zlikvidovať	zlikvidoval zlikvidovala zlikvidovali zlikviduj zlikviduje zlikvidujem zlikvidujeme zlikvidujte zlikvidujú
+98	5998	káčer	kačica kačicami kačice kačici kačicou kačicu kačíc káčera káčerom
+99	5999	skrátiť	neskrátiš skráti skrátia skrátil skrátila skrátili skrátilo skrátim skrátime skráť skráťme skráťte
+100	6000	pekelný	pekelnej pekelnom pekelná pekelné pekelného pekelní pekelnú pekelných pekelným pekelnými

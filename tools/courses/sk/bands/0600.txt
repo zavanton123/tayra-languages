@@ -6,11 +6,11 @@
 6	506	zajtra	
 7	507	boj	boja boje boji bojmi bojoch bojom bojov bojové bojový boju
 8	508	pravdepodobne	
-9	509	spať	spal spala spali spalo spania spanie spaní spaním spi spia spiac spiace spiaci spite spí spím spíme spíte spíš
-10	510	tvoriť	tvor tvora tvorenia tvorenie tvorené tvorením tvorený tvoria tvoriac tvoriaci tvoriacich tvoril tvorila tvorili tvorilo tvormi tvoroch tvorom tvorov tvorovi tvorovia tvory tvorí tvorím tvoríme tvoríte tvoríš
-11	511	ostať	ostal ostala ostali ostalo ostane ostanem ostaneme ostanete ostaneš ostanú ostaň ostaňme ostaňte ostáva ostávať
-12	512	bojovať	bojoval bojovala bojovali bojovalo bojovanie bojuj bojuje bojujem bojujeme bojujete bojuješ bojujme bojujte bojujú bojujúc bojujúci bojujúcich
-13	513	zachrániť	zachráni zachránia zachránil zachránila zachránili zachránilo zachránim zachránime zachránite zachrániš zachráň zachráňme zachráňte
+9	509	spať	nespal nespala nespali nespalo nespať nespia nespí nespím nespíme nespíte nespíš spal spala spali spalo spania spanie spaní spaním spi spia spiac spiace spiaci spite spí spím spíme spíte spíš
+10	510	tvoriť	netvoria netvorí netvorím tvor tvora tvorenia tvorenie tvorené tvorením tvorený tvoria tvoriac tvoriaci tvoriacich tvoril tvorila tvorili tvorilo tvormi tvoroch tvorom tvorov tvorovi tvorovia tvory tvorí tvorím tvoríme tvoríte tvoríš
+11	511	ostať	neostal neostala neostali neostalo neostane neostanem neostaneme neostanete neostaneš neostanú neostať neostáva neostávaj neostávajte neostávajú neostávalo neostávam neostávaš ostal ostala ostali ostalo ostane ostanem ostaneme ostanete ostaneš ostanú ostaň ostaňme ostaňte ostáva ostávať
+12	512	bojovať	bojoval bojovala bojovali bojovalo bojovanie bojuj bojuje bojujem bojujeme bojujete bojuješ bojujme bojujte bojujú bojujúc bojujúci bojujúcich nebojoval nebojovala nebojovali nebojovať nebojuj nebojuje nebojujem nebojujeme nebojujete nebojuješ nebojujte nebojujú
+13	513	zachrániť	nezachráni nezachránia nezachránil nezachránila nezachránili nezachránilo nezachránim nezachránime nezachránite nezachrániš zachráni zachránia zachránil zachránila zachránili zachránilo zachránim zachránime zachránite zachrániš zachráň zachráňme zachráňte
 14	514	pravý	pravej pravom pravou pravá pravé pravého pravému praví pravú pravých pravým pravými
 15	515	pohoda	pohode pohodu pohody
 16	516	zdravie	zdravia zdraviu zdraví zdravím zdravíčko
@@ -18,7 +18,7 @@
 18	518	nápad	nápade nápadmi nápadoch nápadom nápadov nápadu nápady
 19	519	sex	sexe sexom sexu sexuálna sexuálneho sexuálnej sexuálnemu sexuálni sexuálnom sexuálnou sexuálnu sexuálny sexuálnych sexuálnym sexuálnymi sexy
 20	520	mnohý	mnohí mnohých mnohým mnohými
-21	521	naučiť	nauč naučia naučil naučila naučili naučilo naučme naučte naučí naučím naučíme naučíte naučíš
+21	521	naučiť	nauč naučia naučil naučila naučili naučilo naučme naučte naučí naučím naučíme naučíte naučíš nenaučia nenaučil nenaučila nenaučili nenaučiť nenaučí nenaučím nenaučíme nenaučíte nenaučíš
 22	522	slnko	slnečnej slnečnom slnečnou slnečná slnečné slnečného slnečnému slnečnú slnečný slnečných slnečným slnečnými slniečka slniečko slniečku slnka slnkom slnku slnká sĺnk
 23	523	voľba	volebnej volebnom volebnou volebná volebné volebného volebnú volebný volebných volebným volebnými volieb voľbami voľbe voľbou voľbu voľby voľbách voľbám
 24	524	situácia	situáciami situácie situácii situáciou situáciu situáciách situáciám situácií
@@ -31,20 +31,20 @@
 31	531	rovnako	
 32	532	červený	červenej červeno červenom červenou červená červené červeného červenému červení červenú červených červeným červenými
 33	533	firma	firiem firmami firme firmou firmu firmy firmách firmám
-34	534	platiť	platenej platenia platenie platenom platenou platená platené plateného platení platenú platený platených plateným platia platiaci platiacich platil platila platili platilo platí platím platíme platíte platíš plať plaťte
+34	534	platiť	neplatia neplatil neplatila neplatili neplatilo neplatiť neplatí neplatím neplatíme neplatíte neplatíš neplať neplaťte platenej platenia platenie platenou platená platené plateného platení platenú platený platených plateným platia platiaci platiacich platil platila platili platilo platí platím platíme platíte platíš plať plaťte
 35	535	zlato	zlata zlate zlatom zlatu zlatá
 36	536	úrad	úrade úradmi úradnej úradnom úradná úradné úradného úradnú úradný úradných úradným úradoch úradom úradov úradu úrady
-37	537	učiť	uč učenia učenie učeniu učení učením učený učia učil učila učili učilo učte učí učím učíme učíte učíš
+37	537	učiť	neuč neučia neučil neučila neučili neučte neučí neučím neučíme neučíte neučíš uč učenia učenie učeniu učení učením učený učia učil učila učili učilo učte učí učím učíme učíte učíš
 38	538	zároveň	
 39	539	pričom	
-40	540	pustiť	pustenie pustený pusti pustia pustil pustila pustili pustilo pustime pustite pustí pustím pustíme pustíte pustíš pusť pusťme pusťte
+40	540	pustiť	nepusti nepustia nepustil nepustila nepustili nepustite nepustiť nepustí nepustím nepustíme nepustíte nepustíš nepusť pustenie pustený pusti pustia pustil pustila pustili pustilo pustime pustite pustí pustím pustíme pustíte pustíš pusť pusťme pusťte
 41	541	jednotka	jednotiek jednotkami jednotke jednotkou jednotku jednotky jednotkách jednotkám
-42	542	opustiť	opustenia opustenie opusteniu opustené opustením opustený opusti opustia opustil opustila opustili opustilo opustime opustite opustí opustím opustíme opustíte opustíš opusť opusťte opúšťa opúšťať
+42	542	opustiť	neopusti neopustia neopustil neopustila neopustili neopustilo neopustí neopustím neopustíme neopustíte neopustíš neopusť neopúšťa neopúšťaj neopúšťajte neopúšťam neopúšťame opustenia opustenie opustené opustením opustený opusti opustia opustil opustila opustili opustilo opustime opustite opustí opustím opustíme opustíte opustíš opusť opusťte opúšťa opúšťať
 43	543	skutočnosť	skutočnosti skutočnostiach skutočnostiam skutočností skutočnosťou
-44	544	pripraviť	priprav pripravia pripravil pripravila pripravili pripravilo pripravme pripravte pripraví pripravím pripravíme pripravíte pripravíš
+44	544	pripraviť	nepripravia nepripravil nepripravila nepripravili nepripravilo nepripraví nepripravím nepripravíme nepripravíš priprav pripravia pripravil pripravila pripravili pripravilo pripravme pripravte pripraví pripravím pripravíme pripravíte pripravíš
 45	545	rámec	rámca rámci
-46	546	podariť	podaril podarila podarili podarilo podarí
-47	547	dovoliť	dovolia dovolil dovolila dovolili dovolilo dovolí dovolím dovolíme dovolíte dovolíš dovoľ dovoľme dovoľte
+46	546	podariť	nepodaril nepodarila nepodarilo nepodarí podaril podarila podarili podarilo podarí
+47	547	dovoliť	dovolia dovolil dovolila dovolili dovolilo dovolí dovolím dovolíme dovolíte dovolíš dovoľ dovoľme dovoľte nedovolia nedovolil nedovolila nedovolili nedovolilo nedovoliť nedovolí nedovolím nedovolíme nedovolíte nedovolíš nedovoľ nedovoľme nedovoľte
 48	548	proces	procese procesmi procesoch procesom procesov procesu procesy
 49	549	nakoniec	
 50	550	hodnota	hodnotami hodnote hodnotou hodnotu hodnoty hodnotách hodnotám hodnôt
@@ -52,13 +52,13 @@
 52	552	výroba	výrobe výrobou výrobu výroby
 53	553	územie	územia územiach územiami územiu území územím
 54	554	český	českej českom českou česky česká české českého českému českí českú českých českým českými
-55	555	predať	predaj predaja predaje predaji predajme predajom predajov predajte predaju predajú predal predala predali predalo predanie predaný predaných predá predám predáme predáte predáš
+55	555	predať	nepredajú nepredal nepredala nepredali nepredať nepredá nepredám nepredáme nepredáte nepredáš predaj predaja predaje predaji predajme predajom predajov predajte predaju predajú predal predala predali predalo predanie predaný predaných predá predám predáme predáte predáš
 56	556	zariadenie	zariadenia zariadeniach zariadeniam zariadeniami zariadeniu zariadení zariadením
-57	557	dôjsť	dochádza dochádzať došiel došla došli došlo dôjde dôjdem dôjdeme dôjdete dôjdeš dôjdi dôjdite dôjdu
+57	557	dôjsť	dochádza dochádzať došiel došla došli došlo dôjde dôjdem dôjdeme dôjdete dôjdeš dôjdi dôjdite dôjdu nedochádza nedochádzalo nedošiel nedošla nedošli nedošlo nedôjde nedôjdeme nedôjdeš nedôjdu
 58	558	keďže	kedže
 59	559	treba	
 60	560	miestny	miestna miestne miestneho miestnej miestnemu miestni miestnom miestnou miestnu miestnych miestnym miestnymi
-61	561	riadiť	riadenia riadenie riadeniu riadené riadením riadený riadi riadia riadiac riadiaca riadiace riadiaceho riadiacej riadiacemu riadiaci riadiacich riadiacim riadiacimi riadiacom riadiacou riadiacu riadil riadila riadili riadilo riadim riadime riadite riadiš riaď riaďte
+61	561	riadiť	neriadi neriadia neriadil neriadila neriadili neriadim neriadime neriadite neriadiš riadenia riadenie riadeniu riadené riadením riadený riadi riadia riadiaca riadiace riadiaceho riadiacej riadiacemu riadiaci riadiacich riadiacim riadiacimi riadiacom riadiacou riadiacu riadil riadila riadili riadilo riadim riadime riadite riadiš riaď riaďte
 62	562	správny	najsprávnejšia správna správneho správnej správnemu správni správnom správnou správnu správnych správnym správnymi
 63	563	pohyb	pohybe pohybmi pohyboch pohybom pohybov pohybu pohyby
 64	564	stavba	stavbami stavbe stavbou stavbu stavby stavbách stavbám stavebné stavebný stavieb
@@ -76,25 +76,25 @@
 76	576	znovu	
 77	577	podobný	podobnej podobnejší podobnom podobnou podobná podobné podobného podobnému podobní podobnú podobných podobným podobnými
 78	578	fotka	fotiek fotkami fotke fotkou fotku fotky fotkách fotkám
-79	579	záležať	nezáleží záležalo záleží
+79	579	záležať	nezáležalo nezáležiac nezáleží záležalo záleží
 80	580	peklo	pekiel pekla pekle peklom peklu peklá
 81	581	posteľ	postele posteli posteliach postelí posteľami posteľou
 82	582	rozdiel	rozdielmi rozdieloch rozdielom rozdielov rozdielu rozdiely
-83	583	utiecť	utekaj utekajme utekajte utekajú utekajúc utekal utekala utekali utekalo utekať uteká utekám utekáme utekáte utekáš uteč utečie utečiem utečieme utečiete utečieš utečme utečte utečú utiekla utiekli utieklo utiekol
+83	583	utiecť	neutekaj neutekajte neutekajú neutekal neuteká neutekám neutečie neutečiem neutečieme neutečieš neutiekla neutiekli neutiekol utekaj utekajme utekajte utekajú utekal utekala utekali utekať uteká utekám utekáme utekáte utekáš uteč utečie utečiem utečieme utečiete utečieš utečme utečte utečú utiekla utiekli utieklo utiekol
 84	584	veľkosť	veľkosti veľkostiach veľkostí veľkosťou
 85	585	vrátane	
 86	586	minulý	minulej minulou minulá minulé minulého minulému minulí minulú minulých minulým minulými
-87	587	bývať	býva bývaj bývajú býval bývala bývali bývalo bývam bývame bývania bývanie bývaniu bývaní bývaním bývate bývaš
-88	588	znieť	znej znejú znel znela zneli znelo znie zniem znieme zniete znieš
+87	587	bývať	býva bývaj bývajú býval bývala bývali bývalo bývam bývame bývania bývanie bývaniu bývaní bývaním bývate bývaš nebýva nebývajú nebýval nebývala nebývali nebývalo nebývam nebývame nebývate nebývaš
+88	588	znieť	neznejú neznel neznela nezneli neznelo neznie nezniem nezniete neznieš znej znejú znel znela zneli znelo znie zniem znieme zniete znieš
 89	589	sen	sna snami sne snoch snom snov snová snového snový snu sny sníček sníčky
-90	590	objaviť	objavia objavil objavila objavili objavilo objavte objaví objavím objavíme objavíte objavíš
+90	590	objaviť	neobjavia neobjavil neobjavila neobjavili neobjavilo neobjaví neobjavím neobjavíme neobjavíš objavia objavil objavila objavili objavilo objavte objaví objavím objavíme objavíte objavíš
 91	591	okej	
 92	592	dnešný	dnešnej dnešnom dnešnou dnešná dnešné dnešného dnešnému dnešní dnešnú dnešných dnešným dnešnými
 93	593	energia	energiami energie energii energiou energiu energiách energií
 94	594	vlas	vlasmi vlasoch vlasom vlasov vlasová vlasové vlasovú vlasový vlasových vlasu vlasy vlásku vlásky vlások
 95	595	počítač	počítača počítače počítači počítačmi počítačoch počítačom počítačov počítačovej počítačovom počítačovou počítačová počítačové počítačového počítačovému počítačoví počítačovú počítačový počítačových počítačovým počítačovými počítaču
 96	596	lietadlo	lietadiel lietadla lietadlami lietadle lietadlom lietadlu lietadlá lietadlách lietadlám
-97	597	porozprávať	porozpráva porozprávaj porozprávajme porozprávajte porozprávajú porozprával porozprávala porozprávali porozprávam porozprávame porozprávate porozprávaš
+97	597	porozprávať	neporozpráva neporozprával neporozprávala neporozprávali neporozprávam neporozprávame neporozprávate neporozprávaš porozpráva porozprávaj porozprávajme porozprávajte porozprávajú porozprával porozprávala porozprávali porozprávam porozprávame porozprávate porozprávaš
 98	598	podmienka	podmienkach podmienkam podmienkami podmienke podmienkou podmienku podmienky podmienok
 99	599	stanica	stanicami stanice stanici staniciach staniciam stanicou stanicu staníc
 100	600	akoby	

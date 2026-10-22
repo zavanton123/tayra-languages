@@ -1,100 +1,100 @@
-1	2701	peňaženka	peňaženiek peňaženkami peňaženke peňaženkou peňaženku peňaženky peňaženkách
-2	2702	citlivý	citlivej citlivejšia citlivejší citlivom citlivou citlivá citlivé citlivého citliví citlivú citlivých citlivým citlivými najcitlivejší
-3	2703	pozitívum	pozitív pozitíva pozitívna pozitívneho pozitívnej pozitívnemu pozitívni pozitívnom pozitívnou pozitívnu pozitívny pozitívnych pozitívnym pozitívnymi pozitívom
-4	2704	nakoľko	
-5	2705	stlačiť	stlač stlačia stlačil stlačila stlačili stlačte stlačí stlačím stlačíme stlačíte stlačíš
-6	2706	objať	objal objala objali objatia objatiami objatie objatiu objatí objatím objím objíma objímať objíme objímem objímeme objímeš objímte objímu
-7	2707	libra	libier librami libru libry librách
-8	2708	nenávisť	nenávisti nenávisťou
-9	2709	ovocie	ovocia ovociu ovocí ovocím vysvedčenia vysvedčenie vysvedčení
-10	2710	nepozerať	nepozeraj nepozerajme nepozerajte nepozerajú nepozeral nepozerala nepozerali nepozerá nepozerám nepozeráme nepozeráte nepozeráš
-11	2711	minerál	minerálmi minerálov minerálu minerály
-12	2712	obetovať	obetoval obetovala obetovali obetovalo obetuj obetuje obetujem obetujeme obetujete obetuješ obetujte obetujú
-13	2713	sektor	sektora sektore sektoroch sektorom sektorov sektoru sektory
-14	2714	sprevádzať	sprevádza sprevádzaj sprevádzajú sprevádzal sprevádzala sprevádzali sprevádzalo sprevádzam sprevádzate sprevádzaš
-15	2715	vlastník	vlastníci vlastníka vlastníkmi vlastníkom vlastníkov vlastníkovi
-16	2716	utorok	utorka utorkom utorková utorkové utorkový utorku utorky
-17	2717	veriaci	veriaca veriaceho veriacich veriacim veriacimi
-18	2718	vlákno	vláken vlákien vlákna vláknach vláknami vlákne vláknom
-19	2719	autorov	autorovej autorovi
-20	2720	švédsky	švédska švédske švédskeho švédskej švédski švédskom švédskou švédsku švédskych švédskym
-21	2721	naplniť	naplnia naplnil naplnila naplnili naplnilo naplní naplním naplníme naplníte naplníš naplň naplňme naplňte
-22	2722	športovec	športovca športovcami športovci športovcom športovcov
-23	2723	komplikovaný	komplikovanej komplikovanejšia komplikovanejší komplikovaná komplikované komplikovaného komplikovaní komplikovanú komplikovaných komplikovaným komplikovanými
-24	2724	zaneprázdnený	zaneprázdnená zaneprázdnené zaneprázdneného zaneprázdnení zaneprázdnenú zaneprázdnených
-25	2725	dívať	díva dívaj dívajte dívajú dívajúc díval dívala dívali dívalo dívam dívame dívate dívaš
-26	2726	efektívny	efektívna efektívne efektívneho efektívnej efektívnejšia efektívnejšie efektívnejší efektívnejším efektívni efektívnou efektívnu efektívnych efektívnym najefektívnejšia najefektívnejšie najefektívnejší najefektívnejším
-27	2727	prihlásiť	prihlás prihlási prihlásia prihlásil prihlásila prihlásili prihlásilo prihlásim prihlásime prihlásite prihlásiš prihlásme prihláste
-28	2728	pečeň	pečene pečeni pečení pečeňou
-29	2729	nápoj	nápoja nápoje nápoji nápojmi nápojoch nápojom nápojov nápoju
-30	2730	tkanivo	tkaniva tkanivami tkanive tkanivom tkanivá tkanivách tkanív
-31	2731	prispieť	prispej prispeje prispejem prispejeme prispejete prispeješ prispejte prispejú prispel prispela prispeli prispelo
-32	2732	vôňa	vône vôni vôní vôňami vôňou vôňu
-33	2733	komplexný	komplexnej komplexnejší komplexnom komplexnou komplexná komplexné komplexného komplexnú komplexných komplexným
-34	2734	skok	skokmi skokoch skokom skokov skoku skoky
-35	2735	hocičo	hocičoho hocičom hocičomu hocičím
-36	2736	podozrenie	podozrenia podozreniam podozreniami podozreniu podozrení podozrením
-37	2737	hlásenie	hlásenia hláseniach hláseniami hláseniu hlásení hlásením
-38	2738	štvrtok	štvrtka štvrtku štvrtky
-39	2739	pilot	pilota piloti pilotmi pilotoch pilotom pilotov pilotovi
+1	2701	sektor	sektora sektore sektoroch sektorom sektorov sektoru sektory
+2	2702	komplikovaný	komplikovanej komplikovanejšia komplikovanejší komplikovaná komplikované komplikovaného komplikovaní komplikovanú komplikovaných komplikovaným komplikovanými
+3	2703	minerál	minerálmi minerálov minerálu minerály
+4	2704	sprevádzať	sprevádza sprevádzaj sprevádzajú sprevádzal sprevádzala sprevádzali sprevádzalo sprevádzam sprevádzate sprevádzaš
+5	2705	vypadať	nevypadajú nevypadal nevypadala nevypadalo nevypadá nevypadám nevypadáte nevypadáš vypadajú vypadal vypadala vypadali vypadalo vypadá vypadám vypadáme vypadáte vypadáš
+6	2706	vyhýbať	nevyhýba nevyhýbaj nevyhýbajte nevyhýbal nevyhýbala nevyhýbam nevyhýbaš vyhýba vyhýbaj vyhýbajte vyhýbajú vyhýbajúc vyhýbal vyhýbala vyhýbali vyhýbam vyhýbame vyhýbate vyhýbaš
+7	2707	vlastník	vlastníci vlastníka vlastníkmi vlastníkom vlastníkov vlastníkovi
+8	2708	páliť	nepáli nepália nepáľte pálenia pálenie pálení pálením páli pália páliaci pálil pálila pálili pálilo pálim pálime pálite páliš páľ páľte
+9	2709	hocičo	hocičoho hocičom hocičomu hocičím
+10	2710	veriaci	veriaca veriaceho veriacich veriacim veriacimi
+11	2711	švédsky	švédska švédske švédskeho švédskej švédski švédskom švédskou švédsku švédskych švédskym
+12	2712	vlákno	vláken vlákien vlákna vláknach vláknami vlákne vláknom
+13	2713	autorov	autorovej autorovi
+14	2714	dovidenia	
+15	2715	efektívny	efektívna efektívne efektívneho efektívnej efektívnejšia efektívnejšie efektívnejší efektívnejším efektívni efektívnou efektívnu efektívnych efektívnym najefektívnejšia najefektívnejšie najefektívnejší najefektívnejším
+16	2716	športovec	športovca športovcami športovci športovcom športovcov
+17	2717	hlásenie	hlásenia hláseniach hláseniami hláseniu hlásení hlásením
+18	2718	nápoj	nápoja nápoje nápoji nápojmi nápojoch nápojom nápojov nápoju
+19	2719	pečeň	pečene pečeni pečení pečeňou
+20	2720	odporúčať	neodporúča neodporúčajú neodporúčal neodporúčam neodporúčame odporúča odporúčajú odporúčal odporúčala odporúčali odporúčam odporúčame odporúčate odporúčaš
+21	2721	skok	skokmi skokoch skokom skokov skoku skoky
+22	2722	prispieť	neprispel prispej prispeje prispejem prispejeme prispejete prispeješ prispejte prispejú prispel prispela prispeli prispelo
+23	2723	vôňa	vône vôni vôní vôňami vôňou vôňu
+24	2724	podozrenie	podozrenia podozreniam podozreniami podozreniu podozrení podozrením
+25	2725	štvrtok	štvrtka štvrtku štvrtky
+26	2726	tkanivo	tkaniva tkanivami tkanive tkanivom tkanivá tkanivách tkanív
+27	2727	prehovoriť	neprehovor neprehovoria neprehovoril neprehovorila neprehovorili neprehovorí neprehovorím neprehovoríme neprehovoríte neprehovoríš prehovoria prehovoril prehovorila prehovorili prehovorilo prehovorte prehovorí prehovorím prehovoríme prehovoríte prehovoríš
+28	2728	pilot	pilota piloti pilotmi pilotoch pilotom pilotov pilotovi
+29	2729	šok	šokmi šokom šokov šoku šoky
+30	2730	večný	večnej večnom večnou večná večné večného večnému veční večnú večných večným večnými
+31	2731	komplexný	komplexnej komplexnejší komplexnom komplexnou komplexná komplexné komplexného komplexnú komplexných komplexným
+32	2732	sťahovať	nesťahovali nesťahuj nesťahuje nesťahujem nesťahujeme nesťahuješ sťahoval sťahovala sťahovali sťahuje sťahujem sťahujeme sťahujete sťahuješ sťahujú
+33	2733	guvernér	guvernéra guvernérka guvernérom guvernérov guvernérovi
+34	2734	stabilný	stabilnej stabilnejší stabilnom stabilnou stabilná stabilné stabilného stabilní stabilnú stabilných stabilným
+35	2735	nahý	nahej naho nahom nahou nahá nahé nahého nahému nahí nahú nahých nahým nahými
+36	2736	tenký	najtenšia najtenší tenkej tenko tenkom tenkou tenká tenké tenkého tenkú tenkých tenkým tenkými tenšie tenší
+37	2737	blbosť	blbosti blbostiach blbostiam blbostí blbosťami blbosťou
+38	2738	náboj	náboja náboje náboji nábojmi nábojoch nábojom nábojov
+39	2739	odsúdený	odsúdenej odsúdenom odsúdená odsúdené odsúdeného odsúdenému odsúdení odsúdených odsúdeným odsúdenými
 40	2740	kultúrne	
-41	2741	stabilný	stabilnej stabilnejší stabilnom stabilnou stabilná stabilné stabilného stabilní stabilnú stabilných stabilným
-42	2742	večný	večnej večnom večnou večná večné večného večnému veční večnú večných večným večnými
-43	2743	tenký	najtenšia najtenší tenkej tenko tenkom tenkou tenká tenké tenkého tenkú tenkých tenkým tenkými tenšie tenší
-44	2744	dovidenia	
-45	2745	šok	šokmi šokom šokov šoku šoky
-46	2746	spotreba	spotrebe spotrebou spotrebu spotreby
-47	2747	hospodárstvo	hospodárstva hospodárstve
-48	2748	guvernér	guvernéra guvernérka guvernérom guvernérov guvernérovi
-49	2749	odsúdený	odsúdenej odsúdenom odsúdená odsúdené odsúdeného odsúdenému odsúdení odsúdených odsúdeným odsúdenými
-50	2750	sťažovať	sťažoval sťažovala sťažovali sťažovalo sťažuj sťažuje sťažujem sťažujete sťažuješ sťažujte sťažujú
-51	2751	rola	rolou rolu roly rolách
-52	2752	vyvinutý	vyvinutejší vyvinutá vyvinuté vyvinutého vyvinutí vyvinutú vyvinutých vyvinutým vyvinutými
-53	2753	rozpočet	rozpočte rozpočtom rozpočtov rozpočtovej rozpočtová rozpočtové rozpočtový rozpočtu rozpočty
-54	2754	náboj	náboja náboje náboji nábojmi nábojoch nábojom nábojov
-55	2755	priateľský	najpriateľskejšia najpriateľskejší priateľskej priateľskejší priateľskom priateľskou priateľská priateľské priateľského priateľskému priateľskí priateľskú priateľských priateľským priateľskými
-56	2756	súdiť	súdenie súdená súdené súdení súdený súdi súdia súdiac súdil súdila súdili súdim súdime súdite súdiš súď súďte
-57	2757	parlament	parlamente parlamentom parlamentov
-58	2758	obmedzenie	obmedzenia obmedzeniach obmedzeniam obmedzeniami obmedzeniu obmedzení obmedzením
-59	2759	páliť	pálenia pálenie pálení pálením páli pália páliaci pálil pálila pálili pálilo pálim pálime pálite páliš páľ páľte
-60	2760	vpred	
+41	2741	rola	rolou rolu roly rolách
+42	2742	mávať	máva mávaj mávajte mávajú mávajúc mával mávala mávali mávalo mávam mávame mávate mávaš nemáva nemávajú nemával nemávala nemávali nemávam nemávame nemávate nemávaš
+43	2743	priateľský	najpriateľskejšia najpriateľskejší priateľskej priateľskejší priateľskom priateľskou priateľská priateľské priateľského priateľskému priateľskí priateľskú priateľských priateľským priateľskými
+44	2744	mamička	mamičiek mamičke mamičkou mamičku mamičky mamičkám
+45	2745	vpred	
+46	2746	chutný	chutnej chutnejšia chutnejší chutnom chutnou chutná chutné chutného chutní chutnú chutných chutným najchutnejší
+47	2747	rozpočet	rozpočte rozpočtom rozpočtov rozpočtovej rozpočtová rozpočtové rozpočtový rozpočtu rozpočty
+48	2748	prepustiť	neprepustia neprepustil neprepustili neprepustí neprepustím neprepustíme neprepustíte prepusti prepustia prepustil prepustila prepustili prepustime prepustite prepustí prepustím prepustíme prepustíte prepustíš prepusť prepusťte
+49	2749	spotreba	spotrebe spotrebou spotrebu spotreby
+50	2750	kostým	kostýmami kostýme kostýmoch kostýmom kostýmov kostýmu kostýmy
+51	2751	hospodárstvo	hospodárstva hospodárstve
+52	2752	garáž	garážach garáže garáži garážou garáží
+53	2753	vyvinutý	vyvinutejší vyvinutá vyvinuté vyvinutého vyvinutí vyvinutú vyvinutých vyvinutým vyvinutými
+54	2754	prekročiť	neprekroč neprekročia neprekročil neprekročila neprekročili neprekročte neprekročí neprekročím neprekročíte neprekročíš prekroč prekročia prekročil prekročila prekročili prekročilo prekročte prekročí prekročím prekročíme prekročíte prekročíš
+55	2755	zaistiť	nezaistí zaisti zaistia zaistil zaistila zaistili zaistilo zaistime zaistite zaistí zaistím zaistíme zaistíte zaistíš
+56	2756	drobný	drobnej drobnou drobná drobného drobní drobnú drobných drobným drobnými
+57	2757	obmedzenie	obmedzenia obmedzeniach obmedzeniam obmedzeniami obmedzeniu obmedzení obmedzením
+58	2758	odraz	odraze odrazom odrazov odrazu odrazy
+59	2759	parlament	parlamente parlamentom parlamentov
+60	2760	nešťastný	najnešťastnejší nešťastnej nešťastnejší nešťastnom nešťastnou nešťastná nešťastné nešťastného nešťastnému nešťastní nešťastnú nešťastných nešťastným nešťastnými
 61	2761	platný	platnej platnom platná platné platného platní platnú platných platným platnými
-62	2762	chutný	chutnej chutnejšia chutnejší chutnom chutnou chutná chutné chutného chutní chutnú chutných chutným najchutnejší
-63	2763	nahý	nahej naho nahom nahou nahá nahé nahého nahému nahí nahú nahých nahým nahými
-64	2764	mamička	mamičiek mamičke mamičkou mamičku mamičky mamičkám
-65	2765	drobný	drobnej drobnou drobná drobného drobní drobnú drobných drobným drobnými
-66	2766	zraniť	zrania zranil zranila zranili zranilo zraní zraním zraníme zraníte zraníš zraň
-67	2767	líšiť	líši líšia líšil líšili líšim líšime líšite líšiš
-68	2768	blbosť	blbosti blbostiach blbostiam blbostí blbosťami blbosťou
-69	2769	hodnotenie	hodnotenia hodnoteniu hodnotením
-70	2770	garáž	garážach garáže garáži garážou garáží
-71	2771	kritický	kritickej kritickom kritickou kritická kritické kritického kritickému kritickí kritickú kritických kritickým
-72	2772	kostým	kostýmami kostýme kostýmoch kostýmom kostýmov kostýmu kostýmy
-73	2773	pripojený	pripojená pripojené pripojeného pripojení pripojenú pripojených pripojeným pripojenými
-74	2774	potešiť	poteš potešia potešil potešila potešili potešilo potešte poteší poteším potešíte potešíš
-75	2775	odraz	odraze odrazom odrazov odrazu odrazy
-76	2776	parameter	parametra parametrami parametre parametroch parametrom parametrov
-77	2777	epizóda	epizód epizódach epizóde epizódou epizódu epizódy
-78	2778	točiť	točia točil točila točili točilo točte točí točím točíme točíte točíš
-79	2779	úsilie	úsilia úsiliu úsilí úsilím
-80	2780	zaistiť	zaisti zaistia zaistil zaistila zaistili zaistilo zaistime zaistite zaistí zaistím zaistíme zaistíte zaistíš
-81	2781	spočívať	spočíva spočívajú spočíval spočívala spočívalo
-82	2782	predok	predka predkami predkoch predkom predkov predkovi predkovia predku
-83	2783	dvanásť	dvanásti dvanástich dvanástim dvanástimi
-84	2784	nešťastný	najnešťastnejší nešťastnej nešťastnejší nešťastnom nešťastnou nešťastná nešťastné nešťastného nešťastnému nešťastní nešťastnú nešťastných nešťastným nešťastnými
-85	2785	potok	potoka potokom potokov potoku potoky potôčik potôčiku
-86	2786	milosť	milosti milosťou
-87	2787	terapia	terapie terapii terapiou terapiu terapiách terapiám terapií
-88	2788	lúka	lúk lúkach lúkami lúke lúku lúky lúčka lúčky lúčny lúčnych
-89	2789	púšť	púšte púšti púští púšťach púšťou
-90	2790	vízia	víziami vízie vízii víziou víziu víziách vízií
-91	2791	prokurátor	prokurátora prokurátori prokurátorom prokurátorov prokurátorovi
-92	2792	terorista	teroristami teroristi teroristický teroristických teroristka teroristku teroristoch teroristom teroristov teroristovi teroristu
-93	2793	svetelný	svetelnej svetelná svetelné svetelného svetelnú svetelných svetelným svetelnými
-94	2794	domácnosť	domácnosti domácnostiach domácností
-95	2795	nečakať	nečakaj nečakajme nečakajte nečakajú nečakala nečakali nečaká nečakám nečakáme nečakáte nečakáš
-96	2796	pomsta	pomste pomstou pomstu pomsty
-97	2797	stály	stáleho stálej stálom stálou stálu stálych stálym stálymi
-98	2798	sťahovať	sťahoval sťahovala sťahovali sťahuje sťahujem sťahujeme sťahujete sťahuješ sťahujú
-99	2799	klamstvo	klamstiev klamstva klamstvami klamstve klamstvom klamstvu klamstvá klamstvách klamstvám
-100	2800	chladnička	chladničiek chladničke chladničkou chladničku chladničky
+62	2762	epizóda	epizód epizódach epizóde epizódou epizódu epizódy
+63	2763	kritický	kritickej kritickom kritickou kritická kritické kritického kritickému kritickí kritickú kritických kritickým
+64	2764	hodnotenie	hodnotenia hodnoteniu hodnotením
+65	2765	upratať	neupracem neupraceš neupratal neupratala neupratoval neupratovala neupratuje neupratujem neupratuješ uprac uprace upracem upraceme upracete upraceš upracme upracte upracú upratal upratala upratali upratanie uprataný upratoval upratovala upratovali upratovať upratuje upratujem upratujeme upratujete upratuješ upratujú
+66	2766	terapia	terapie terapii terapiou terapiu terapiách terapiám terapií
+67	2767	milosť	milosti milosťou
+68	2768	spočívať	nespočíva spočíva spočívajú spočíval spočívala spočívalo
+69	2769	pripojený	pripojená pripojené pripojeného pripojení pripojenú pripojených pripojeným pripojenými
+70	2770	predok	predka predkami predkoch predkom predkov predkovi predkovia predku
+71	2771	terorista	teroristami teroristi teroristický teroristických teroristka teroristku teroristoch teroristom teroristov teroristovi teroristu
+72	2772	púšť	púšte púšti púští púšťach púšťou
+73	2773	úsilie	úsilia úsiliu úsilí úsilím
+74	2774	dvanásť	dvanásti dvanástich dvanástim dvanástimi
+75	2775	hroziť	hrozia hrozil hrozila hrozili hrozilo hrozí hrozím hrozíte nehrozilo nehrozí
+76	2776	vízia	víziami vízie vízii víziou víziu víziách vízií
+77	2777	pomsta	pomste pomstou pomstu pomsty
+78	2778	parameter	parametra parametrami parametre parametroch parametrom parametrov
+79	2779	prokurátor	prokurátora prokurátori prokurátorom prokurátorov prokurátorovi
+80	2780	klamstvo	klamstiev klamstva klamstvami klamstve klamstvom klamstvu klamstvá klamstvách klamstvám
+81	2781	obviniť	neobvinia neobvinil neobvinila neobvinili neobviní neobviním neobviníme neobviníte obvinia obvinil obvinila obvinili obvinilo obviní obviním obviníme obviníte obviníš obviň obviňte
+82	2782	potok	potoka potokom potokov potoku potoky potôčik potôčiku
+83	2783	lúka	lúk lúkach lúkami lúke lúku lúky lúčka lúčky lúčny lúčnych
+84	2784	jed	jede jedmi jedoch jedom jedov jedu jedy
+85	2785	vyvíjať	nevyvíja nevyvíjajú nevyvíjali vyvíja vyvíjajú vyvíjal vyvíjala vyvíjali vyvíjalo vyvíjam vyvíjame vyvíjate vyvíjaš
+86	2786	vedomosť	nevedomosti nevedomosť nevedomosťou vedomosti vedomostiach vedomostiam vedomostí vedomosťami vedomosťou
+87	2787	domácnosť	domácnosti domácnostiach domácností
+88	2788	bál	bále bálu bály
+89	2789	svetelný	svetelnej svetelná svetelné svetelného svetelnú svetelných svetelným svetelnými
+90	2790	vyplývať	nevyplýva vyplýva vyplývajú vyplývalo
+91	2791	voz	voza voze vozmi vozoch vozom vozov vozu vozy
+92	2792	chladnička	chladničiek chladničke chladničkou chladničku chladničky
+93	2793	upraviť	uprav upravia upravil upravila upravili upravte upraví upravím upravíme upravíte upravíš
+94	2794	určovať	neurčuje neurčujem určoval určovali určuje určujem určujeme určujete určuješ určujú
+95	2795	prirodzene	prirodzenejšie
+96	2796	stály	stáleho stálej stálom stálou stálu stálych stálym stálymi
+97	2797	nápis	nápise nápismi nápisom nápisov nápisu nápisy
+98	2798	overiť	neoveril neoverila neoverili neoverím neoveríme overia overil overila overili overme overte overí overím overíme overíte overíš
+99	2799	mechanický	mechanickej mechanickom mechanickou mechanická mechanické mechanického mechanickú mechanických mechanickým mechanickými
+100	2800	zaradiť	nezaradil zaradia zaradil zaradila zaradili zaradilo zaradí zaradím zaradíme zaradíš zaraď zaraďte

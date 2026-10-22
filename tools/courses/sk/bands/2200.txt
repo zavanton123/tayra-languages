@@ -1,100 +1,100 @@
 1	2101	vyhlásenie	vyhlásenia vyhláseniami vyhláseniu vyhlásením
-2	2102	kapitola	kapitol kapitole kapitolou kapitolu kapitoly kapitolách
-3	2103	jeseň	jesene jeseni
+2	2102	démon	démona démoni démonmi démonoch démonom démonov démonovi
+3	2103	trénovať	netrénoval netrénovali netrénuje netrénujem netrénuješ trénoval trénovala trénovali trénuj trénuje trénujem trénujeme trénujete trénuješ trénujte trénujú
 4	2104	správca	správcami správcom správcov správcovi správcovia správcovská správcu správkyne správkyni správkyňa správkyňou správkyňu
-5	2105	seržant	seržanta seržanti seržantom seržantov seržantovi
-6	2106	ihrisko	ihriska ihriskom ihrisku ihriská ihriskách ihrísk
-7	2107	náboženský	náboženskej náboženskom náboženskou náboženská náboženské náboženského náboženskému náboženskí náboženskú náboženských náboženským náboženskými
+5	2105	ihrisko	ihriska ihriskom ihrisku ihriská ihriskách ihrísk
+6	2106	kapitola	kapitol kapitole kapitolou kapitolu kapitoly kapitolách
+7	2107	jedine	
 8	2108	podlaha	podlahe podlahou podlahu podlahy podláh
-9	2109	jedine	
-10	2110	prekonať	prekonaj prekonajme prekonajte prekonajú prekonal prekonala prekonali prekonalo prekoná prekonám prekonáme prekonáte prekonáš
-11	2111	profil	profilom profilov profilu profily
-12	2112	démon	démona démoni démonmi démonoch démonom démonov démonovi
-13	2113	výhra	výherné výherný výhier výhre výhrou výhru výhry
-14	2114	páska	páskach páskam páskami páske páskou pásku pásky pások
-15	2115	pondelok	pondelka pondelkové pondelkový pondelku pondelky pondelňajšia pondelňajší
-16	2116	spis	spise spismi spisoch spisom spisov spisu spisy
-17	2117	ruža	ružami ruže ruži ružiach ružiam ružička ružičkový ružou ružové ružový ružu ruží
-18	2118	štandard	štandarde štandardmi štandardom štandardov štandardu štandardy
-19	2119	meranie	merania meraniu meraní meraním
-20	2120	denne	
+9	2109	varovať	nevaroval nevarovala nevarovali nevaruje varoval varovala varovali varovalo varuj varuje varujem varujeme varuješ varujte varujú
+10	2110	jeseň	jesene jeseni
+11	2111	zariadiť	nezariadi nezariadil nezariadim zariadi zariadia zariadil zariadila zariadili zariadilo zariadim zariadime zariadite zariadiš zariaď zariaďme zariaďte
+12	2112	páska	páskach páskam páskami páske páskou pásku pásky pások
+13	2113	náboženský	náboženskej náboženskom náboženskou náboženská náboženské náboženského náboženskému náboženskí náboženskú náboženských náboženským náboženskými
+14	2114	pondelok	pondelka pondelkové pondelkový pondelku pondelky pondelňajšia pondelňajší
+15	2115	spis	spise spismi spisoch spisom spisov spisu spisy
+16	2116	pripadať	nepripadajú nepripadal nepripadala nepripadali nepripadalo nepripadá nepripadám nepripadáte nepripadáš pripadajú pripadal pripadala pripadali pripadalo pripadá pripadám pripadáte pripadáš
+17	2117	profil	profilom profilov profilu profily
+18	2118	pobozkať	nepobozkal nepobozkala nepobozkali nepobozká nepobozkám nepobozkáš pobozkaj pobozkajme pobozkajte pobozkajú pobozkal pobozkala pobozkali pobozká pobozkám pobozkáme pobozkáte pobozkáš
+19	2119	ruža	ružami ruže ruži ružiach ružiam ružička ružičkový ružou ružové ružový ružu ruží
+20	2120	míľa	míle míli míľ míľach míľami míľou míľu
 21	2121	vďačný	vďačnejší vďačná vďačné vďačného vďační vďačným
-22	2122	kmeň	kmene kmeni kmeňa kmeňmi kmeňoch kmeňom kmeňov kmeňovej kmeňová kmeňové kmeňového kmeňovú kmeňový kmeňových kmeňovým kmeňovými kmeňu
-23	2123	pripomenúť	pripomenie pripomeniem pripomenieme pripomenieš pripomenul pripomenula pripomenuli pripomenulo pripomenú pripomeň pripomeňme pripomeňte
+22	2122	pripomenúť	nepripomenula pripomenie pripomeniem pripomenieme pripomenieš pripomenul pripomenula pripomenuli pripomenulo pripomenú pripomeň pripomeňme pripomeňte
+23	2123	výhra	výherné výherný výhier výhre výhrou výhru výhry
 24	2124	vlk	vlci vlka vlkmi vlkoch vlkom vlkov vlkovi vlku vlky
-25	2125	vybraný	vybranej vybraná vybrané vybraného vybraní vybranú vybraných vybraným vybranými
-26	2126	oddelený	oddelenej oddelenom oddelená oddelené oddelení oddelenú oddelených oddeleným oddelenými
-27	2127	trénovať	trénoval trénovala trénovali trénuj trénuje trénujem trénujeme trénujete trénuješ trénujte trénujú
+25	2125	denne	
+26	2126	obmedziť	neobmedzuj neobmedzuje neobmedzujú obmedz obmedzené obmedzený obmedzia obmedzil obmedzila obmedzili obmedzovať obmedzte obmedzuje obmedzí obmedzím obmedzíme obmedzíte
+27	2127	útek	útekom útekov úteku úteky
 28	2128	dostatočne	
-29	2129	kúpeľňa	kúpeľne kúpeľni kúpeľňami kúpeľňou kúpeľňu
-30	2130	zariadiť	zariadi zariadia zariadil zariadila zariadili zariadilo zariadim zariadime zariadite zariadiš zariaď zariaďme zariaďte
-31	2131	pozostávať	pozostáva pozostávajú pozostával pozostávala pozostávalo
-32	2132	útek	útekom útekov úteku úteky
-33	2133	sklo	skiel skla sklami skle sklom sklu sklá
-34	2134	rovný	rovnej rovnom rovnou rovná rovné rovného rovní rovnú rovných rovným rovnými
-35	2135	míľa	míle míli míľ míľach míľami míľou míľu
-36	2136	pevnosť	pevnosti pevností pevnosťou
-37	2137	predpis	predpismi predpisoch predpisom predpisov predpisu predpisy
-38	2138	dávka	dávkach dávkami dávke dávkou dávku dávky dávok
-39	2139	vedľajší	vedľajšej vedľajšia vedľajšie vedľajšieho vedľajšiu vedľajšom vedľajšou vedľajších vedľajším vedľajšími
-40	2140	variant	variante variantoch variantom variantov variantu varianty
-41	2141	koreň	korene koreni koreňa koreňmi koreňoch koreňom koreňov koreňovej koreňová koreňové koreňového koreňový koreňu korienkov korienky korienok
-42	2142	zabezpečovať	zabezpečoval zabezpečovala zabezpečovali zabezpečuje zabezpečujem zabezpečujeme zabezpečujú
-43	2143	riskovať	riskoval riskovala riskovali riskuj riskuje riskujem riskujeme riskujete riskuješ riskujú riskujúc
-44	2144	popis	popise popisom popisov popisu popisy
-45	2145	považovaný	považovaná považované považovaní
+29	2129	kmeň	kmene kmeni kmeňa kmeňmi kmeňoch kmeňom kmeňov kmeňovej kmeňová kmeňové kmeňového kmeňovú kmeňový kmeňových kmeňovým kmeňovými kmeňu
+30	2130	kúpeľňa	kúpeľne kúpeľni kúpeľňami kúpeľňou kúpeľňu
+31	2131	štandard	štandarde štandardmi štandardom štandardov štandardu štandardy
+32	2132	oddelený	oddelenej oddelenom oddelená oddelené oddelení oddelenú oddelených oddeleným oddelenými
+33	2133	meranie	merania meraniu meraní meraním
+34	2134	sklo	skiel skla sklami skle sklom sklu sklá
+35	2135	vybraný	vybranej vybraná vybrané vybraného vybraní vybranú vybraných vybraným vybranými
+36	2136	prenasledovať	neprenasledoval neprenasledovala neprenasledovali neprenasleduj neprenasleduje neprenasledujem neprenasledujte neprenasledujú prenasledoval prenasledovala prenasledovali prenasledovalo prenasledovania prenasledovanie prenasledovaniu prenasledovaní prenasledovaním prenasledovaný prenasleduj prenasleduje prenasledujem prenasledujeme prenasledujete prenasleduješ prenasledujte prenasledujú prenasledujúci
+37	2137	dávka	dávkach dávkami dávke dávkou dávku dávky dávok
+38	2138	rovný	rovnej rovnom rovnou rovná rovné rovného rovní rovnú rovných rovným rovnými
+39	2139	trik	trikmi trikoch trikov triku triky
+40	2140	vedľajší	vedľajšej vedľajšia vedľajšie vedľajšieho vedľajšiu vedľajšom vedľajšou vedľajších vedľajším vedľajšími
+41	2141	pevnosť	pevnosti pevností pevnosťou
+42	2142	dočkať	dočkajú dočkal dočkala dočkali dočká dočkám dočkáme dočkáte dočkáš nedočkal nedočkala nedočkali nedočká nedočkáme nedočkáte nedočkáš
+43	2143	predpis	predpismi predpisoch predpisom predpisov predpisu predpisy
+44	2144	cela	celami cele celu cely celách celám ciel
+45	2145	pozostávať	pozostáva pozostávajú pozostával pozostávala pozostávalo
 46	2146	vybavenie	vybavenia vybaveniu vybavením
-47	2147	konkrétny	konkrétna konkrétneho konkrétnej konkrétnejšia konkrétnejší konkrétnemu konkrétni konkrétnom konkrétnou konkrétnu konkrétnych konkrétnym konkrétnymi
-48	2148	webový	webovej webovom webová webové webového webovú webových
-49	2149	režisér	režiséra režiséri režisérka režisérkou režisérku režisérky režisérmi režisérom režisérov režisérovi režisérsky
-50	2150	čiastočne	
-51	2151	čestný	najčestnejšia najčestnejší čestnej čestnejší čestnom čestnou čestná čestné čestného čestnému čestní čestnú čestných čestným čestnými
-52	2152	odborník	odborníci odborníka odborníkmi odborníkom odborníkov odborníkovi
-53	2153	naraz	
-54	2154	trik	trikmi trikoch trikov triku triky
-55	2155	závisieť	závisel závisela záviseli záviselo závisia závisí závisíme
-56	2156	komplex	komplexe komplexom komplexov komplexu komplexy
-57	2157	cenný	cennejšia cennejšie cennejší cennom cennou cenná cenné cenného cenní cennú cenných cenným cennými najcennejšia najcennejšie najcennejšieho najcennejšiu najcennejšou najcennejší najcennejších najcennejším
-58	2158	prijatý	prijatej prijatá prijaté prijatí prijatých
-59	2159	obmedziť	obmedz obmedzené obmedzený obmedzia obmedzil obmedzila obmedzili obmedzovať obmedzte obmedzuje obmedzí obmedzím obmedzíme obmedzíte
-60	2160	hĺbka	hĺbkach hĺbke hĺbkou hĺbku hĺbky hĺbok
-61	2161	aktívne	aktívnejšie
-62	2162	kov	kove kovmi kovom kovov kovu kovy
-63	2163	cela	celami cele celu cely celách celám ciel
-64	2164	chlieb	chleba chlebe chlebom chlebové chlebu chleby chlebík chlebíček chlebíčky
-65	2165	sľub	sľube sľubmi sľuboch sľubom sľubov sľubu sľuby
-66	2166	záhada	najzáhadnejšia najzáhadnejších záhad záhadami záhade záhadnej záhadnom záhadnou záhadná záhadné záhadného záhadnému záhadní záhadnú záhadný záhadných záhadným záhadnými záhadou záhadu záhady záhadách
-67	2167	tehotný	tehotnej tehotnou tehotná tehotné tehotní tehotnú tehotných tehotným tehotnými
-68	2168	uvedomovať	uvedomoval uvedomovala uvedomovali uvedomuje uvedomujem uvedomujeme uvedomujete uvedomuješ uvedomujú uvedomujúc
-69	2169	bazén	bazéna bazéne bazénoch bazénom bazénov bazénu bazény
-70	2170	pacientov	pacientova pacientove pacientovej pacientovho pacientovi pacientovo pacientovou pacientovu pacientových
-71	2171	rozprávka	rozprávkach rozprávkam rozprávkami rozprávke rozprávkou rozprávku rozprávky rozprávok
-72	2172	výbuch	výbuchmi výbuchoch výbuchom výbuchov výbuchu výbuchy
-73	2173	snímka	snímkach snímkami snímke snímkou snímku snímky snímok
+47	2147	koreň	korene koreni koreňa koreňmi koreňoch koreňom koreňov koreňovej koreňová koreňové koreňového koreňový koreňu korienkov korienky korienok
+48	2148	naraz	
+49	2149	konkrétny	konkrétna konkrétneho konkrétnej konkrétnejšia konkrétnejší konkrétnemu konkrétni konkrétnom konkrétnou konkrétnu konkrétnych konkrétnym konkrétnymi
+50	2150	čestný	najčestnejšia najčestnejší čestnej čestnejší čestnom čestnou čestná čestné čestného čestnému čestní čestnú čestných čestným čestnými
+51	2151	tehotný	tehotnej tehotnou tehotná tehotné tehotní tehotnú tehotných tehotným tehotnými
+52	2152	režisér	režiséra režiséri režisérka režisérkou režisérku režisérky režisérmi režisérom režisérov režisérovi režisérsky
+53	2153	popis	popise popisom popisov popisu popisy
+54	2154	sľub	sľube sľubmi sľuboch sľubom sľubov sľubu sľuby
+55	2155	cenný	cennejšia cennejšie cennejší cennom cennou cenná cenné cenného cenní cennú cenných cenným cennými najcennejšia najcennejšie najcennejšieho najcennejšiu najcennejšou najcennejší najcennejších najcennejším
+56	2156	považovaný	považovaná považované považovaní
+57	2157	variant	variante variantoch variantom variantov variantu varianty
+58	2158	zabezpečovať	zabezpečoval zabezpečovala zabezpečovali zabezpečuje zabezpečujem zabezpečujeme zabezpečujú
+59	2159	záhada	najzáhadnejšia najzáhadnejších záhad záhadami záhade záhadnej záhadnom záhadnou záhadná záhadné záhadného záhadnému záhadní záhadnú záhadný záhadných záhadným záhadnými záhadou záhadu záhady záhadách
+60	2160	chlieb	chleba chlebe chlebom chlebové chlebu chleby chlebík chlebíček chlebíčky
+61	2161	webový	webovej webovom webová webové webového webovú webových
+62	2162	odborník	odborníci odborníka odborníkmi odborníkom odborníkov odborníkovi
+63	2163	prebudiť	neprebudil neprebudila neprebudí neprebudím neprebudíme neprebudíš neprebuď prebudenia prebudenie prebudená prebudené prebudení prebudením prebudený prebudia prebudil prebudila prebudili prebudilo prebudí prebudím prebudíme prebudíte prebudíš prebuď prebuďte prebúdza prebúdzať
+64	2164	čiastočne	
+65	2165	hĺbka	hĺbkach hĺbke hĺbkou hĺbku hĺbky hĺbok
+66	2166	výbuch	výbuchmi výbuchoch výbuchom výbuchov výbuchu výbuchy
+67	2167	bazén	bazéna bazéne bazénoch bazénom bazénov bazénu bazény
+68	2168	prijatý	prijatej prijatá prijaté prijatí prijatých
+69	2169	kov	kove kovmi kovom kovov kovu kovy
+70	2170	komplex	komplexe komplexom komplexov komplexu komplexy
+71	2171	pacientov	pacientova pacientove pacientovej pacientovho pacientovi pacientovo pacientovou pacientovu pacientových
+72	2172	aktívne	aktívnejšie
+73	2173	rozprávka	rozprávkach rozprávkam rozprávkami rozprávke rozprávkou rozprávku rozprávky rozprávok
 74	2174	nutný	nutná nutné nutnú nutných
-75	2175	následný	následnej následnom následnou následná následné následného následnému následnú následných následným
-76	2176	stihnúť	stihla stihli stihlo stihne stihnem stihneme stihnete stihneš stihnú stihol
-77	2177	silne	najsilnejšie silnejšie
-78	2178	angličtina	angličtine angličtinou angličtinu angličtiny
-79	2179	chémia	chemické chemický chémie chémii chémiou chémiu
-80	2180	chudobný	chudobne chudobnej chudobnejší chudobnejších chudobnom chudobná chudobné chudobného chudobnému chudobní chudobnú chudobných chudobným chudobnými najchudobnejší najchudobnejších
-81	2181	reálny	reálna reálneho reálnej reálnejšia reálnejší reálnemu reálni reálnom reálnou reálnu reálnych reálnym reálnymi
-82	2182	železnica	železnice železnici železnicou železnicu železničnej železničný železníc
-83	2183	varovať	varoval varovala varovali varovalo varuj varuje varujem varujeme varuješ varujte varujú
-84	2184	záchrana	záchrane záchranou záchranu záchrany
-85	2185	japonský	japonskej japonskom japonskou japonsky japonská japonské japonského japonskému japonskí japonskú japonských japonským japonskými
-86	2186	priezvisko	priezviska priezviskom priezvisku priezviská
-87	2187	ženatý	ženatej ženatá ženatého ženatému ženatí ženatých ženatým ženatými
-88	2188	príbuzný	príbuznom príbuzného príbuznému príbuzní príbuzných príbuzným príbuznými
-89	2189	prenasledovať	prenasledoval prenasledovala prenasledovali prenasledovalo prenasledovania prenasledovanie prenasledovaniu prenasledovaní prenasledovaním prenasledovaný prenasleduj prenasleduje prenasledujem prenasledujeme prenasledujete prenasleduješ prenasledujte prenasledujú prenasledujúci
-90	2190	bratranec	bratranca bratrancami bratranci bratrancom bratrancov bratrancovi bratranček sesternica sesternice sesternici sesternicou sesternicu sesterníc
-91	2191	čosi	čohosi čomsi čomusi čímsi
-92	2192	syr	syra syre syrmi syrom syrov syrovej syrovom syrovou syrová syrové syrového syrovú syrový syrových syrovým syru syry
-93	2193	nádrž	nádržami nádrže nádrži nádržiach nádržky nádržou nádrží
-94	2194	organizmus	organizmami organizme organizmom organizmov organizmu organizmy
-95	2195	omnoho	
-96	2196	dojem	dojme dojmom dojmov dojmu dojmy
-97	2197	nadšený	nadšene nadšená nadšené nadšeného nadšení nadšených nadšeným
-98	2198	prdieť	prdel prdele prdeli prdelou prdelí prdenie prdia prdiaci prdnúť prdol prdí prdím prdíš
-99	2199	modul	modulmi modulom modulov modulu moduly
-100	2200	úzky	užšej užšia užšieho užšiu užšom užší úzka úzke úzkeho úzkej úzkom úzkou úzku úzkych úzkym úzkymi
+75	2175	bratranec	bratranca bratrancami bratranci bratrancom bratrancov bratrancovi bratranček sesternica sesternice sesternici sesternicou sesternicu sesterníc
+76	2176	napraviť	naprav napravia napravil napravila napravili napravilo napravme napravte napraví napravím napravíme napravíte napravíš nenapravil nenapraví nenapravím nenapravíme nenapravíš
+77	2177	prdieť	neprdol prdel prdele prdeli prdelou prdelí prdenie prdia prdiaci prdnúť prdol prdí prdím prdíš
+78	2178	snímka	snímkach snímkami snímke snímkou snímku snímky snímok
+79	2179	ženatý	ženatej ženatá ženatého ženatému ženatí ženatých ženatým ženatými
+80	2180	silne	najsilnejšie silnejšie
+81	2181	záchrana	záchrane záchranou záchranu záchrany
+82	2182	chudobný	chudobne chudobnej chudobnejší chudobnejších chudobnom chudobná chudobné chudobného chudobnému chudobní chudobnú chudobných chudobným chudobnými najchudobnejší najchudobnejších
+83	2183	angličtina	angličtine angličtinou angličtinu angličtiny
+84	2184	príbuzný	príbuznom príbuzného príbuznému príbuzní príbuzných príbuzným príbuznými
+85	2185	syr	syra syre syrmi syrom syrov syrovej syrovom syrovou syrová syrové syrového syrovú syrový syrových syrovým syru syry
+86	2186	reálny	reálna reálneho reálnej reálnejšia reálnejší reálnemu reálni reálnom reálnou reálnu reálnych reálnym reálnymi
+87	2187	následný	následnej následnom následnou následná následné následného následnému následnú následných následným
+88	2188	súvisieť	nesúvisela nesúviselo nesúvisia nesúvisí súvisela súviseli súviselo súvisia súvisí
+89	2189	chémia	chemické chemický chémie chémii chémiou chémiu
+90	2190	čosi	čohosi čomsi čomusi čímsi
+91	2191	japonský	japonskej japonskom japonskou japonsky japonská japonské japonského japonskému japonskí japonskú japonských japonským japonskými
+92	2192	plniť	neplnia neplnil neplní neplním neplníš plnenia plnenie plneniu plnení plnením plnený plnia plniac plniace plniaci plnil plnila plnili plním plníme plníte plníš plň
+93	2193	priezvisko	priezviska priezviskom priezvisku priezviská
+94	2194	nadšený	nadšene nadšená nadšené nadšeného nadšení nadšených nadšeným
+95	2195	železnica	železnice železnici železnicou železnicu železničnej železničný železníc
+96	2196	omnoho	
+97	2197	znížiť	nezníži neznížil neznížila neznížilo neznížim zníž zníži znížia znížil znížila znížili znížilo znížim znížime znížite znížiš znížte
+98	2198	vypiť	nevypi nevypije nevypijem nevypijeme nevypiješ nevypil nevypila nevypili vypi vypije vypijem vypijeme vypijete vypiješ vypijú vypil vypila vypili vypilo vypime vypite
+99	2199	dojem	dojme dojmom dojmov dojmu dojmy
+100	2200	nádrž	nádržami nádrže nádrži nádržiach nádržky nádržou nádrží

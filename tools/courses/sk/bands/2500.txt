@@ -1,100 +1,100 @@
-1	2401	milenec	milenca milencami milenci milencoch milencom milencov milencovi milenecká milenecké mileneckú milenecký mileniek milenka milenkami milenke milenkou milenku milenky
-2	2402	zadržať	zadrž zadržal zadržala zadržali zadržalo zadržia zadržte zadrží zadržím zadržíme zadržíte zadržíš
-3	2403	grafický	grafickej grafickom grafickou grafická grafické grafického grafickú grafických grafickým
-4	2404	zlepšiť	zlepši zlepšia zlepšil zlepšila zlepšili zlepšilo zlepší zlepším zlepšíme zlepšíš
-5	2405	prospech	prospechom prospechu
-6	2406	poškodenie	poškodenia poškodeniu poškodením
-7	2407	porota	porote porotou porotu poroty
-8	2408	identifikovať	identifikoval identifikovala identifikovali identifikovalo identifikuj identifikuje identifikujem identifikujeme identifikujete identifikuješ identifikujte identifikujú
-9	2409	jedinečný	jedinečnej jedinečnom jedinečnou jedinečná jedinečné jedinečného jedinečnému jedineční jedinečnú jedinečných jedinečným jedinečnými
-10	2410	vzácny	najvzácnejšia najvzácnejšiu najvzácnejší najvzácnejších najvzácnejším vzácna vzácneho vzácnej vzácnejšia vzácnejší vzácnemu vzácni vzácnom vzácnou vzácnu vzácnych vzácnym vzácnymi
-11	2411	disciplína	disciplín disciplínach disciplíne disciplínou disciplínu disciplíny
-12	2412	návštevník	návštevníci návštevníka návštevníkmi návštevníkom návštevníkov návštevníkovi
-13	2413	zaspať	zaspal zaspala zaspali zaspalo zaspatý zaspi zaspia zaspávam zaspávať zaspí zaspím zaspíme zaspíte zaspíš
-14	2414	med	mede medom medová medové medový medových medovým medu medík
-15	2415	breh	brehmi brehoch brehom brehov brehu brehy
-16	2416	čiara	čiar čiarach čiarami čiare čiarou čiaru čiary
-17	2417	vlastniť	vlastni vlastnia vlastnil vlastnila vlastnili vlastnilo vlastnite vlastním vlastníme vlastníte vlastníš
-18	2418	cintorín	cintorína cintoríne cintorínoch cintorínom cintorínov cintorínu cintoríny
-19	2419	zásada	zásad zásadami zásade zásadou zásadu zásady zásadách zásadám
-20	2420	školstvo	školstva školstve
-21	2421	opica	opicami opice opici opiciach opiciam opicou opicu opičie opička opičkou opičku opičky opičí opíc
-22	2422	amy	
-23	2423	vyvinúť	vyvinie vyvinieme vyvinul vyvinula vyvinuli vyvinulo vyvinú
-24	2424	hotovosť	hotovosti hotovosťou
-25	2425	vysvetlenie	vysvetlenia vysvetleniu vysvetlením
-26	2426	subjekt	subjektami subjekte subjektmi subjektoch subjektom subjektov subjektu subjekty
-27	2427	naznačovať	naznačoval naznačovala naznačovali naznačovalo naznačuje naznačujem naznačujete naznačuješ naznačujú
-28	2428	poklad	poklade pokladmi pokladoch pokladom pokladov pokladu poklady
-29	2429	srať	ser serie seriem serieme seriete serieš serme serte serú sral srala srali sralo sranie
-30	2430	upír	upíra upíri upírmi upíroch upírom upírov upírovi upíry
-31	2431	tentoraz	
-32	2432	súper	súpera súperi súperka súperku súpermi súperom súperov súperovej súperovi
-33	2433	prijímať	prijíma prijímajte prijímajú prijímajúc prijímal prijímala prijímali prijímam prijímame prijímate prijímaš
-34	2434	vyčistiť	vyčisti vyčistia vyčistil vyčistila vyčistili vyčistilo vyčistime vyčistite vyčistí vyčistím vyčistíme vyčistíte vyčistíš
-35	2435	viditeľný	viditeľnej viditeľnom viditeľnou viditeľná viditeľné viditeľného viditeľní viditeľnú viditeľných viditeľným viditeľnými
-36	2436	umiestniť	umiestni umiestnia umiestnil umiestnila umiestnili umiestnilo umiestnim umiestnime umiestnite umiestniš
-37	2437	horieť	hor horel horela horeli horelo horenie horia horiac horiace horiaci horí horím horíme horíš
-38	2438	prítomný	prítomnej prítomnom prítomnou prítomná prítomné prítomného prítomní prítomnú prítomných prítomným
-39	2439	kontaktovať	kontaktoval kontaktovala kontaktovali kontaktovalo kontaktuj kontaktuje kontaktujem kontaktujeme kontaktujete kontaktuješ kontaktujte kontaktujú
-40	2440	závislý	závislej závislou závislá závislé závislého závislí závislú závislých závislým závislými
-41	2441	súvisieť	súvisela súviseli súviselo súvisia súvisí
-42	2442	železo	železa železe železnej železný železom železu želiez želiezka želiezko
-43	2443	povaha	povahe povahou povahu povahy
-44	2444	gitara	gitare gitarou gitarové gitarový gitaru gitary gitarách gitár
-45	2445	debil	debila debili debilmi debilom debilov debilovi
-46	2446	smiech	smiechom smiechov smiechu smiešok
-47	2447	koncept	koncepte konceptom konceptov konceptu koncepty
-48	2448	strela	strelami strele strelou strelu strely strelách striel
-49	2449	etapa	etape etapou etapu etapy etapách etáp
-50	2450	výskyt	výskyte výskytom výskytov výskytu
-51	2451	zavraždený	zavraždenej zavraždená zavraždené zavraždeného zavraždení zavraždenú zavraždených
-52	2452	spomínaný	spomínanej spomínanom spomínaná spomínané spomínaného spomínaní spomínanú spomínaných spomínaným
-53	2453	mocný	mocnejšia mocnejšieho mocnejšiu mocnejšou mocnejší mocnejších mocnejším mocnejšími mocnom mocnou mocná mocné mocného mocnému mocní mocnú mocných mocným mocnými najmocnejšej najmocnejšia najmocnejšieho najmocnejšiu najmocnejšou najmocnejší najmocnejších najmocnejším
-54	2454	zvíťaziť	zvíťaz zvíťazia zvíťazil zvíťazila zvíťazili zvíťazilo zvíťazí zvíťazím zvíťazíme zvíťazíte zvíťazíš
-55	2455	kovový	kovovej kovovom kovovou kovová kovové kovového kovovú kovových kovovým kovovými
-56	2456	súhlas	súhlase súhlasom súhlasu súhlasy
-57	2457	alternatívny	alternatívna alternatívne alternatívneho alternatívnej alternatívnom alternatívnou alternatívnu alternatívnych alternatívnym
-58	2458	hlad	hlade hladom hladu
-59	2459	vyhlásený	vyhlásenej vyhlásená vyhlásené vyhlásení vyhlásených
-60	2460	praktický	praktickej praktickejšia praktickom praktickou praktická praktické praktického praktickí praktickú praktických praktickým praktickými
-61	2461	poľnohospodársky	poľnohospodárska poľnohospodárske poľnohospodárskeho poľnohospodárskej poľnohospodárskom poľnohospodárskou poľnohospodársku poľnohospodárskych
-62	2462	terén	teréne terénom terénu terény
-63	2463	norma	noriem normami norme normou normu normy normách normám
-64	2464	bláznivý	bláznivej bláznivejšia bláznivejší bláznivom bláznivou bláznivá bláznivé bláznivého bláznivému blázniví bláznivú bláznivých bláznivým bláznivými najbláznivejšia najbláznivejšiu najbláznivejší najbláznivejších
-65	2465	plat	plate platmi platom platov platovej platové platovú platový platu platy
-66	2466	minúť	minie miniem minieme miniete minieš minul minuli minú miň
-67	2467	dedičstvo	dedičstva dedičstve dedičstvom dedičstvu dedičstvá
-68	2468	zapojiť	zapoj zapoja zapojil zapojila zapojili zapojilo zapojme zapojte zapojí zapojím zapojíme zapojíte zapojíš
-69	2469	dohodnutý	dohodnutej dohodnutom dohodnutá dohodnuté dohodnutého dohodnutí dohodnutú dohodnutých dohodnutým
-70	2470	kŕmiť	kŕmenia kŕmenie kŕmeniu kŕmení kŕmením kŕmený kŕmi kŕmia kŕmiaci kŕmil kŕmila kŕmili kŕmilo kŕmim kŕmime kŕmite kŕmiš nakŕm nakŕmi nakŕmia nakŕmil nakŕmila nakŕmili nakŕmim nakŕmime nakŕmite nakŕmiš nakŕmiť nakŕmte
-71	2471	rozšírenie	rozšírenia rozšíreniu rozšírením
+1	2401	vyčistiť	nevyčistia nevyčistil nevyčistila nevyčistí nevyčistíme nevyčistíš vyčisti vyčistia vyčistil vyčistila vyčistili vyčistilo vyčistime vyčistite vyčistí vyčistím vyčistíme vyčistíte vyčistíš
+2	2402	vyspať	nevyspal nevyspala nevyspali nevyspať nevyspi nevyspí nevyspím nevyspíme nevyspíte nevyspíš vyspal vyspala vyspali vyspi vyspia vyspime vyspite vyspí vyspím vyspíme vyspíte vyspíš
+3	2403	opica	opicami opice opici opiciach opiciam opicou opicu opičie opička opičkou opičku opičky opičí opíc
+4	2404	identifikovať	identifikoval identifikovala identifikovali identifikovalo identifikuj identifikuje identifikujem identifikujeme identifikujete identifikuješ identifikujte identifikujú
+5	2405	porota	porote porotou porotu poroty
+6	2406	dočasný	dočasnej dočasnom dočasnou dočasná dočasné dočasného dočasnú dočasných dočasným
+7	2407	amy	
+8	2408	jedinečný	jedinečnej jedinečnom jedinečnou jedinečná jedinečné jedinečného jedinečnému jedineční jedinečnú jedinečných jedinečným jedinečnými
+9	2409	poškodenie	poškodenia poškodeniu poškodením
+10	2410	med	mede medom medová medové medový medových medovým medu medík
+11	2411	upír	upíra upíri upírmi upíroch upírom upírov upírovi upíry
+12	2412	prospech	prospechom prospechu
+13	2413	vzácny	najvzácnejšia najvzácnejšiu najvzácnejší najvzácnejších najvzácnejším vzácna vzácneho vzácnej vzácnejšia vzácnejší vzácnemu vzácni vzácnom vzácnou vzácnu vzácnych vzácnym vzácnymi
+14	2414	dôverovať	dôveroval dôverovala dôverovali dôveruj dôveruje dôverujem dôverujeme dôverujete dôveruješ dôverujte dôverujú dôverujúci nedôveroval nedôverovala nedôverovali nedôverovať nedôveruj nedôveruje nedôverujem nedôverujeme nedôverujete nedôveruješ nedôverujte nedôverujú
+15	2415	čiara	čiar čiarach čiarami čiare čiarou čiaru čiary
+16	2416	grafický	grafickej grafickom grafickou grafická grafické grafického grafickú grafických grafickým
+17	2417	breh	brehmi brehoch brehom brehov brehu brehy
+18	2418	debil	debila debili debilmi debilom debilov debilovi
+19	2419	najať	najal najala najali najalo najme najmem najmeme najmete najmeš najmi najmime najmite najmú nenajal nenajala nenajali nenajme nenajmeš nenajmú
+20	2420	cintorín	cintorína cintoríne cintorínoch cintorínom cintorínov cintorínu cintoríny
+21	2421	hotovosť	hotovosti hotovosťou
+22	2422	návštevník	návštevníci návštevníka návštevníkmi návštevníkom návštevníkov návštevníkovi
+23	2423	vysvetlenie	vysvetlenia vysvetleniu vysvetlením
+24	2424	disciplína	disciplín disciplínach disciplíne disciplínou disciplínu disciplíny
+25	2425	poklad	poklade pokladmi pokladoch pokladom pokladov pokladu poklady
+26	2426	zásada	zásad zásadami zásade zásadou zásadu zásady zásadách zásadám
+27	2427	chovať	chovaj chovajme chovajte chovajú choval chovala chovali chová chováme chováte chováš nechovaj nechovajú nechoval nechovala nechovali nechová nechovám nechováme nechováte nechováš
+28	2428	hnevať	hnevaj hnevajú hneval hnevala hnevali hnevalo hnevá hnevám hneváme hneváte hneváš nehnevaj nehnevajte nehneval nehnevala nehnevá nehnevám nehneváme nehneváte nehneváš
+29	2429	zapojiť	nezapoja nezapojil nezapojila nezapojili nezapojí nezapojím nezapojíme zapoj zapoja zapojil zapojila zapojili zapojilo zapojme zapojte zapojí zapojím zapojíme zapojíte zapojíš
+30	2430	tentoraz	
+31	2431	subjekt	subjektami subjekte subjektmi subjektoch subjektom subjektov subjektu subjekty
+32	2432	školstvo	školstva školstve
+33	2433	sklapnúť	nesklapne nesklapneš sklapla sklapli sklapne sklapnem sklapnete sklapneš sklapni sklapnite sklapnú sklapol
+34	2434	umiestniť	neumiestnili umiestni umiestnia umiestnil umiestnila umiestnili umiestnilo umiestnim umiestnime umiestnite umiestniš
+35	2435	mocný	mocnejšia mocnejšieho mocnejšiu mocnejšou mocnejší mocnejších mocnejším mocnejšími mocnom mocnou mocná mocné mocného mocnému mocní mocnú mocných mocným mocnými najmocnejšej najmocnejšia najmocnejšieho najmocnejšiu najmocnejšou najmocnejší najmocnejších najmocnejším
+36	2436	zavraždený	zavraždenej zavraždená zavraždené zavraždeného zavraždení zavraždenú zavraždených
+37	2437	smiech	smiechom smiechov smiechu smiešok
+38	2438	zvíťaziť	nezvíťazí nezvíťazíme nezvíťazíš zvíťaz zvíťazia zvíťazil zvíťazila zvíťazili zvíťazilo zvíťazí zvíťazím zvíťazíme zvíťazíte zvíťazíš
+39	2439	závislý	závislej závislou závislá závislé závislého závislí závislú závislých závislým závislými
+40	2440	bláznivý	bláznivej bláznivejšia bláznivejší bláznivom bláznivou bláznivá bláznivé bláznivého bláznivému blázniví bláznivú bláznivých bláznivým bláznivými najbláznivejšia najbláznivejšiu najbláznivejší najbláznivejších
+41	2441	súper	súpera súperi súperka súperku súpermi súperom súperov súperovej súperovi
+42	2442	povaha	povahe povahou povahu povahy
+43	2443	gitara	gitare gitarou gitarové gitarový gitaru gitary gitarách gitár
+44	2444	strela	strelami strele strelou strelu strely strelách striel
+45	2445	prejaviť	neprejavia neprejavil neprejavila neprejavili neprejaví neprejavíš prejavia prejavil prejavila prejavili prejavilo prejavte prejaví prejavím prejavíte prejavíš
+46	2446	prejavovať	neprejavoval neprejavovala neprejavuje neprejavujú prejavoval prejavovala prejavovali prejavuje prejavujem prejavuješ prejavujú
+47	2447	hlad	hlade hladom hladu
+48	2448	prítomný	prítomnej prítomnom prítomnou prítomná prítomné prítomného prítomní prítomnú prítomných prítomným
+49	2449	viditeľný	viditeľnej viditeľnom viditeľnou viditeľná viditeľné viditeľného viditeľní viditeľnú viditeľných viditeľným viditeľnými
+50	2450	železo	železa železe železnej železný železom železu želiez želiezka želiezko
+51	2451	súhlas	súhlase súhlasom súhlasu súhlasy
+52	2452	koncept	koncepte konceptom konceptov konceptu koncepty
+53	2453	kovový	kovovej kovovom kovovou kovová kovové kovového kovovú kovových kovovým kovovými
+54	2454	zaujať	nezaujal nezaujala nezaujali nezaujalo zaujal zaujala zaujali zaujalo zaujme zaujmem zaujmeme zaujmete zaujmeš zaujmi zaujmite zaujmú
+55	2455	výskyt	výskyte výskytom výskytov výskytu
+56	2456	etapa	etape etapou etapu etapy etapách etáp
+57	2457	terén	teréne terénom terénu terény
+58	2458	spomínaný	spomínanej spomínanom spomínaná spomínané spomínaného spomínaní spomínanú spomínaných spomínaným
+59	2459	dohodnutý	dohodnutej dohodnutom dohodnutá dohodnuté dohodnutého dohodnutí dohodnutú dohodnutých dohodnutým
+60	2460	oženiť	neoženil neoženili neožení neožením neoženíš neožeň oženia oženil oženili ožení ožením oženíte oženíš ožeň
+61	2461	plat	plate platmi platom platov platovej platové platovú platový platu platy
+62	2462	praktický	praktickej praktickejšia praktickom praktickou praktická praktické praktického praktickí praktickú praktických praktickým praktickými
+63	2463	odniesť	neodnesie neodnesiem neodnesieš neodniesli neodniesol odnes odnesie odnesiem odnesieme odnesiete odnesieš odnesme odneste odnesú odniesla odniesli odnieslo odniesol
+64	2464	alternatívny	alternatívna alternatívne alternatívneho alternatívnej alternatívnom alternatívnou alternatívnu alternatívnych alternatívnym
+65	2465	vyhlásený	vyhlásenej vyhlásená vyhlásené vyhlásení vyhlásených
+66	2466	otráviť	neotravoval neotravovala neotravovali neotravuj neotravuje neotravujem neotravujte neotravujú neotrávil neotrávila otravoval otravovala otravovali otravovalo otravovať otravuje otravujem otravujeme otravujete otravuješ otravujú otrávenej otrávenie otrávenou otrávená otrávené otráveného otrávení otrávenú otrávený otrávených otráveným otrávi otrávia otrávil otrávila otrávili otrávilo otráviš
+67	2467	norma	noriem normami norme normou normu normy normách normám
+68	2468	poľnohospodársky	poľnohospodárska poľnohospodárske poľnohospodárskeho poľnohospodárskej poľnohospodárskom poľnohospodárskou poľnohospodársku poľnohospodárskych
+69	2469	dedičstvo	dedičstva dedičstve dedičstvom dedičstvu dedičstvá
+70	2470	úder	údere údermi úderné úderný úderoch úderom úderov úderu údery
+71	2471	vrchný	vrchnej vrchnom vrchnou vrchná vrchné vrchného vrchnému vrchnú vrchných vrchným vrchnými
 72	2472	potrava	potrave potravou potravu potravy
-73	2473	vrchný	vrchnej vrchnom vrchnou vrchná vrchné vrchného vrchnému vrchnú vrchných vrchným vrchnými
-74	2474	prameň	pramene prameni prameňa prameňmi prameňoch prameňom prameňov prameňu pramienky pramienok
-75	2475	primárny	primárna primárne primárneho primárnej primárnemu primárnou primárnu primárnych primárnym
-76	2476	písmo	písiem písma písmach písme písmom
-77	2477	automaticky	
-78	2478	sklapnúť	sklapla sklapli sklapne sklapnem sklapnete sklapneš sklapni sklapnite sklapnú sklapol
-79	2479	továreň	továrne továrni tovární továrňach továrňou
-80	2480	úder	údere údermi úderné úderný úderoch úderom úderov úderu údery
-81	2481	múr	múra múre múrmi múroch múrom múrov múru múry
-82	2482	streľba	streľbe streľbou streľbu streľby streľbách
-83	2483	sekcia	sekcie sekcii sekciou sekciu sekciách sekcií
-84	2484	obnova	obnove obnovou obnovu obnovy
-85	2485	zaujať	zaujal zaujala zaujali zaujalo zaujme zaujmem zaujmeme zaujmete zaujmeš zaujmi zaujmite zaujmú
-86	2486	nevšimnúť	nevšimla nevšimli nevšimne nevšimnem nevšimneme nevšimnete nevšimneš nevšimnú nevšimol
-87	2487	prejaviť	prejavia prejavil prejavila prejavili prejavilo prejavte prejaví prejavím prejavíte prejavíš
-88	2488	kompletný	kompletnej kompletnom kompletnou kompletná kompletné kompletného kompletní kompletnú kompletných kompletným kompletnými
-89	2489	denný	dennej dennom dennou denná denné denného dennému dennú denných denným dennými
-90	2490	listina	listine listinou listinu listiny listinách listín
-91	2491	velenie	velenia veleniu velení velením
-92	2492	zopakovať	zopakoval zopakovala zopakovali zopakovalo zopakuj zopakuje zopakujem zopakujeme zopakujete zopakuješ zopakujme zopakujte zopakujú
-93	2493	nula	nulami nule nulou nulová nulový nulu nuly núl
-94	2494	obecný	obecnej obecnom obecná obecné obecného obecnú obecných obecným
-95	2495	rozumný	najrozumnejšia najrozumnejšie najrozumnejší rozumne rozumnej rozumnejšia rozumnejšie rozumnejší rozumnom rozumnou rozumná rozumné rozumného rozumní rozumnú rozumných rozumným
-96	2496	prejavovať	prejavoval prejavovala prejavovali prejavuje prejavujem prejavuješ prejavujú
-97	2497	odniesť	odnes odnesie odnesiem odnesieme odnesiete odnesieš odnesme odneste odnesú odniesla odniesli odnieslo odniesol
-98	2498	výrobný	výrobnej výrobnom výrobná výrobné výrobného výrobnú výrobných výrobným výrobnými
-99	2499	realita	realitami realite realitou realitu realitách realít
-100	2500	prehľad	prehľade prehľadom prehľadu
+73	2473	továreň	továrne továrni tovární továrňach továrňou
+74	2474	zapísať	nezapísal nezapísala nezapísali nezapíšem nezapíšete nezapíšeš zapísal zapísala zapísali zapísalo zapíš zapíše zapíšem zapíšeme zapíšete zapíšeš zapíšte zapíšu
+75	2475	oslavovať	neoslavoval neoslavovala neoslavovali neoslavuje neoslavujem neoslavujeme neoslavujete neoslavuješ neoslavujú oslavoval oslavovala oslavovali oslavovalo oslavuj oslavuje oslavujem oslavujeme oslavujete oslavuješ oslavujme oslavujte oslavujú
+76	2476	streľba	streľbe streľbou streľbu streľby streľbách
+77	2477	vystaviť	nevystavil nevystavili nevystavovať nevystavuj nevystavím vystav vystavenia vystavenie vystaveniu vystavené vystavený vystavia vystavil vystavila vystavili vystavilo vystavovať vystavte vystavuje vystaví vystavím vystavíme vystavíte vystavíš
+78	2478	prameň	pramene prameni prameňa prameňmi prameňoch prameňom prameňov prameňu pramienky pramienok
+79	2479	rozšírenie	rozšírenia rozšíreniu rozšírením
+80	2480	múr	múra múre múrmi múroch múrom múrov múru múry
+81	2481	písmo	písiem písma písmach písme písmom
+82	2482	primárny	primárna primárne primárneho primárnej primárnemu primárnou primárnu primárnych primárnym
+83	2483	opitý	opitej opito opitom opitou opitá opité opitého opitému opití opitú opitých opitým opitými
+84	2484	automaticky	
+85	2485	pohovoriť	nepohovorím nepohovoríme nepohovoríš pohovoria pohovoril pohovorila pohovorili pohovorme pohovorte pohovorí pohovorím pohovoríme pohovoríte pohovoríš
+86	2486	sťažovať	nesťažoval nesťažovala nesťažovali nesťažuj nesťažuje nesťažujem nesťažujeme nesťažuješ nesťažujte nesťažujú sťažoval sťažovala sťažovali sťažovalo sťažuj sťažuje sťažujem sťažujete sťažuješ sťažujte sťažujú
+87	2487	sekcia	sekcie sekcii sekciou sekciu sekciách sekcií
+88	2488	rozumný	najrozumnejšia najrozumnejšie najrozumnejší rozumne rozumnej rozumnejšia rozumnejšie rozumnejší rozumnom rozumnou rozumná rozumné rozumného rozumní rozumnú rozumných rozumným
+89	2489	velenie	velenia veleniu velení velením
+90	2490	nula	nulami nule nulou nulová nulový nulu nuly núl
+91	2491	sklamať	nesklam nesklamal nesklamala nesklamali nesklamať nesklame nesklamem nesklameme nesklamete nesklameš nesklamte nesklamú sklam sklamal sklamala sklamali sklamalo sklame sklamem sklameme sklamete sklameš sklamú
+92	2492	kompletný	kompletnej kompletnom kompletnou kompletná kompletné kompletného kompletní kompletnú kompletných kompletným kompletnými
+93	2493	denný	dennej dennom dennou denná denné denného dennému dennú denných denným dennými
+94	2494	spáchať	nespácha nespáchal nespáchala nespáchali spácha spáchajú spáchal spáchala spáchali spáchalo spácham spáchame spáchate spáchaš
+95	2495	realita	realitami realite realitou realitu realitách realít
+96	2496	nahnevaný	nahnevanej nahnevanejší nahnevaná nahnevané nahnevaného nahnevaní nahnevanú nahnevaných nahnevaným nahnevanými
+97	2497	obnova	obnove obnovou obnovu obnovy
+98	2498	podávať	nepodáva nepodávaj nepodávajte nepodávajú nepodávam nepodávame nepodávate podáva podávaj podávajte podávajú podával podávala podávali podávalo podávam podávame podávate podávaš
+99	2499	listina	listine listinou listinu listiny listinách listín
+100	2500	hanbiť	hanbi hanbia hanbil hanbila hanbili hanbite hanbí hanbím hanbíme hanbíte hanbíš nehanbi nehanbia nehanbil nehanbila nehanbite nehanbí nehanbím nehanbíme nehanbíte nehanbíš

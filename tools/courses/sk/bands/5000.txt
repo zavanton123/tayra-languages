@@ -1,100 +1,100 @@
-1	4901	kontajner	kontajnera kontajneri kontajnermi kontajneroch kontajnerom kontajnerov kontajneru kontajnery
-2	4902	nepokoj	nepokoja nepokoje nepokoji nepokojmi nepokojoch nepokojom nepokojov
-3	4903	dvojča	dvojčatami dvojčatá dvojčatách dvojčaťa dvojčaťom dvojčiat
-4	4904	horizont	horizonte horizontom horizontu horizonty
-5	4905	žaba	žabacie žabami žabe žabie žabka žabou žabu žaby žabí žabích žiab
-6	4906	ubližovať	ubližoval ubližovala ubližovali ubližuje ubližujem ubližujeme ubližujete ubližuješ ubližujú
-7	4907	whisky	
-8	4908	vetva	vetiev vetvami vetve vetvička vetvičky vetvou vetvu vetvy vetvách
-9	4909	narušiť	naruš narušia narušil narušila narušili narušilo naruší narušíme narušíte narušíš
-10	4910	rovnosť	rovnosti rovnosťou
-11	4911	čurák	čuráci čuráka čurákmi čurákom čurákov čurákovi
-12	4912	lokálne	
-13	4913	odpadky	odpadkami odpadkoch odpadkom odpadkov
-14	4914	granát	granátmi granátom granátov granátu granáty
-15	4915	oddať	najoddanejší najoddanejších oddaj oddal oddala oddali oddanej oddanou oddaná oddané oddaného oddaní oddanú oddaný oddaných oddaným oddanými oddá oddám oddáva oddávajú oddával oddávam oddávate oddávať
-16	4916	riasa	rias riasami riasy
-17	4917	pýcha	pýche pýchou pýchu pýchy
-18	4918	prudko	
-19	4919	spracovať	spracoval spracovala spracovali spracuj spracuje spracujem spracujeme spracujete spracuješ spracujú
-20	4920	nežiadať	nežiada nežiadaj nežiadajte nežiadajú nežiadal nežiadala nežiadali nežiadam nežiadame nežiadate nežiadaš
-21	4921	zmrd	zmrda zmrdi zmrdmi zmrdom zmrdov zmrdovi
-22	4922	zaniknúť	zanikla zanikli zaniklo zanikne zaniknú zanikol
-23	4923	ubytovanie	ubytovania ubytovaním
-24	4924	kolekcia	kolekcie kolekcii kolekciou kolekciu
-25	4925	uznesenie	uznesenia uznesení uznesením
-26	4926	zastrelený	zastrelená zastrelené zastreleného zastrelení zastrelenú zastrelených
-27	4927	mráz	mraze mrazom mrazov mrazu mrazy mrazík mráza
-28	4928	slovanský	slovanskej slovanskom slovanská slovanské slovanského slovanských slovanským
-29	4929	bankovka	bankoviek bankovkami bankovke bankovkou bankovku bankovky bankovkách
-30	4930	neznieť	neznejú neznel neznela nezneli neznelo neznie nezniem nezniete neznieš
-31	4931	uznaný	uznaná uznané uznaní uznaných
-32	4932	ničí	ničej ničiu
-33	4933	front	fronte frontoch frontom frontu fronty
-34	4934	súcit	súcite súcitom súcitu
-35	4935	oprávnený	oprávnenej oprávnenou oprávnená oprávnené oprávneného oprávnení oprávnenú oprávnených oprávneným
-36	4936	vyviesť	vyvedie vyvediem vyvedieme vyvediete vyvedieš vyvedú vyveď vyveďte vyviedla vyviedli vyviedlo vyviedol
-37	4937	katolík	katolíci katolíka katolíkmi katolíkom katolíkov
-38	4938	priechod	priechode priechodom priechodov priechodu priechody
-39	4939	hodváb	hodvábe hodvábna hodvábne hodvábnej hodvábnou hodvábnu hodvábny hodvábnych hodvábom hodvábu
-40	4940	umývať	umýva umývaj umývajú umýval umývala umývali umývam umývame umývate umývaš
-41	4941	schodisko	schodiska schodiskom schodisku schodiská
-42	4942	uraziť	uraz urazia urazil urazila urazili urazilo urazí urazím urazíte urazíš
-43	4943	liečebný	liečebnej liečebnom liečebná liečebné liečebného liečebnú liečebných
-44	4944	balón	balóna balóne balónik balóniky balónmi balónoch balónom balónov balónové balónový balónu balóny
-45	4945	mydlo	mydla mydle mydlom mydlá
-46	4946	fontána	fontán fontáne fontánou fontánu fontány
-47	4947	zabíjanie	zabíjania zabíjaniu zabíjaním
-48	4948	investičný	investičnej investičnom investičnou investičná investičné investičného investiční investičnú investičných investičným investičnými
-49	4949	satelitný	satelitnej satelitnom satelitná satelitné satelitného satelitnú satelitných satelitným
-50	4950	návnada	návnad návnadami návnade návnadou návnadu návnady
-51	4951	odplata	odplate odplatou odplatu odplaty
-52	4952	kriminálny	kriminálna kriminálne kriminálneho kriminálnej kriminálni kriminálnom kriminálnou kriminálnu kriminálnych kriminálnym kriminálnymi
-53	4953	hromada	hromade hromadou hromadu hromady
-54	4954	nehodiť	nehodia nehodil nehodila nehodili nehodilo nehodí nehodím nehodíme nehodíte nehodíš
-55	4955	kúpeľný	kúpeľnej kúpeľnom kúpeľná kúpeľné kúpeľného kúpeľní kúpeľnú kúpeľných kúpeľným
-56	4956	vyniesť	vynes vynesie vynesiem vynesieme vynesiete vynesieš vyneste vynesú vyniesla vyniesli vynieslo vyniesol
-57	4957	divý	divej divo divom divou divá divé divého diví divú divých divým divými
-58	4958	odhadovať	odhadoval odhadovala odhaduje odhadujem odhadujeme odhadujete odhaduješ odhadujú
-59	4959	nemčina	nemčine nemčinu nemčiny
-60	4960	alibi	
-61	4961	vstupné	vstupnom vstupného vstupnému
-62	4962	kašeľ	kašle kašli kašľa kašľom kašľu
-63	4963	očakávanie	očakávania očakávaniam očakávaniami očakávaním
-64	4964	vysielačka	vysielačiek vysielačkami vysielačke vysielačkou vysielačku vysielačky vysielačkách
-65	4965	fráza	fráz frázami fráze frázou frázu frázy
-66	4966	teoreticky	
-67	4967	premávka	premávke premávkou premávku premávky
-68	4968	rebrík	rebríka rebríkoch rebríkom rebríku rebríky
-69	4969	motel	motela moteli moteloch motelom motelov motelu motely
-70	4970	poslaný	poslaná poslané poslaných
-71	4971	rybár	rybára rybári rybármi rybárom rybárov rybárovi rybárska rybársky
-72	4972	nanič	
-73	4973	banán	banána banáne banánmi banánoch banánom banánov banánu banány
-74	4974	neplakať	neplakal neplakala neplakali neplač neplače neplačem neplačeš neplačte neplačú
-75	4975	vari	
-76	4976	nepochybne	
-77	4977	robot	roboti robotmi robotoch robotom robotov robotovi
-78	4978	mladík	mladíci mladíka mladíkom mladíkov mladíkovi
-79	4979	analyzovať	analyzoval analyzovala analyzovali analyzovanie analyzované analyzovaním analyzovaný analyzuj analyzuje analyzujem analyzujeme analyzujete analyzuješ analyzujte analyzujú
-80	4980	molekula	molekulami molekule molekulou molekulu molekuly molekúl
-81	4981	interný	internej interná interné interného internú interných interným
-82	4982	kráska	kráske kráskou krásku krásky krások
-83	4983	terč	terča terčami terče terčmi terčom terčov
-84	4984	odolať	odolaj odolal odolala odolali odolalo odolá odoláš
-85	4985	účtovný	účtovnej účtovná účtovné účtovného účtovnú účtovných
-86	4986	burza	burze burzou burzu burzy
-87	4987	mládežnícky	mládežnícka mládežnícke mládežníckeho mládežníckej mládežníckych
-88	4988	prevedený	prevedená prevedené prevedení prevedených
-89	4989	osloviť	oslovia oslovil oslovila oslovili oslovilo oslovte osloví oslovím oslovíme oslovíte oslovíš
-90	4990	začuť	začuje začujem začujeme začujete začuješ začujú začul začula začuli
-91	4991	nedorozumenie	nedorozumenia nedorozumeniam nedorozumeniu nedorozumení nedorozumením
-92	4992	prezliecť	prezleč prezlečie prezlečiem prezlečieme prezlečiete prezlečieš prezlečte prezlečú prezliekla prezliekli prezliekol
-93	4993	zlepšovať	zlepšoval zlepšovala zlepšovali zlepšuje zlepšujem zlepšujeme zlepšujete zlepšuješ zlepšujú
-94	4994	naznačiť	naznač naznačil naznačila naznačili naznačilo naznačte naznačí naznačím naznačíš
-95	4995	rekreácia	rekreačné rekreačný rekreácie rekreácii rekreáciu rekreácií
-96	4996	pestrý	pestrej pestrejšie pestro pestrou pestrá pestré pestrú pestrých
-97	4997	spravodajstvo	spravodajstva spravodajstve spravodajstvom spravodajstvu
-98	4998	zamestnať	zamestnaj zamestnajte zamestnajú zamestnal zamestnala zamestnali zamestnalo zamestná zamestnám zamestnáme zamestnáš
-99	4999	pokazený	pokazenej pokazenom pokazenou pokazená pokazené pokazeného pokazenému pokazenú pokazených pokazeným
-100	5000	ponorka	ponoriek ponorkami ponorke ponorkou ponorku ponorky ponorkách ponorkám
+1	4901	divý	divej divo divom divou divá divé divého diví divú divých divým divými
+2	4902	rebrík	rebríka rebríkoch rebríkom rebríku rebríky
+3	4903	investičný	investičnej investičnom investičnou investičná investičné investičného investiční investičnú investičných investičným investičnými
+4	4904	očakávanie	očakávania očakávaniam očakávaniami očakávaním
+5	4905	fráza	fráz frázami fráze frázou frázu frázy
+6	4906	analyzovať	analyzoval analyzovala analyzovali analyzovanie analyzované analyzovaním analyzovaný analyzuj analyzuje analyzujem analyzujeme analyzujete analyzuješ analyzujte analyzujú neanalyzuj
+7	4907	nedorozumenie	nedorozumenia nedorozumeniam nedorozumeniu nedorozumení nedorozumením
+8	4908	odhadovať	odhadoval odhadovala odhaduje odhadujem odhadujeme odhadujete odhaduješ odhadujú
+9	4909	liečebný	liečebnej liečebnom liečebná liečebné liečebného liečebnú liečebných
+10	4910	vari	
+11	4911	poslaný	poslaná poslané poslaných
+12	4912	ksicht	ksichtami ksichte ksichtom ksichtov ksichtu ksichty ksichtík ksichtíky
+13	4913	banán	banána banáne banánmi banánoch banánom banánov banánu banány
+14	4914	kráska	kráske kráskou krásku krásky krások
+15	4915	teoreticky	
+16	4916	premávka	premávke premávkou premávku premávky
+17	4917	vstupné	vstupnom vstupného vstupnému
+18	4918	robot	roboti robotmi robotoch robotom robotov robotovi
+19	4919	rybár	rybára rybári rybármi rybárom rybárov rybárovi rybárska rybársky
+20	4920	nepochybne	
+21	4921	pokazený	pokazenej pokazenom pokazenou pokazená pokazené pokazeného pokazenému pokazenú pokazených pokazeným
+22	4922	kúpeľný	kúpeľnej kúpeľnom kúpeľná kúpeľné kúpeľného kúpeľní kúpeľnú kúpeľných kúpeľným
+23	4923	naliať	nalej naleje nalejem nalejeme nalejete naleješ nalejme nalejte nalejú nalial naliala naliali nenaleješ nenalial
+24	4924	terč	terča terčami terče terčmi terčom terčov
+25	4925	mladík	mladíci mladíka mladíkom mladíkov mladíkovi
+26	4926	nemčina	nemčine nemčinu nemčiny
+27	4927	tvrdohlavý	najtvrdohlavejšia najtvrdohlavejší tvrdohlavej tvrdohlavejší tvrdohlavá tvrdohlavé tvrdohlavého tvrdohlaví tvrdohlavú tvrdohlavých tvrdohlavým
+28	4928	červ	červa červami červoch červom červov červovi červy
+29	4929	vynájsť	nevynašiel nevynašli vynašiel vynašla vynašli vynájde vynájdeme vynájdi vynájdu
+30	4930	molekula	molekulami molekule molekulou molekulu molekuly molekúl
+31	4931	kóma	kóme kómou kómu kómy
+32	4932	sušienka	sušienkach sušienkam sušienkami sušienkou sušienku sušienky sušienok
+33	4933	ponorka	ponoriek ponorkami ponorke ponorkou ponorku ponorky ponorkách ponorkám
+34	4934	zatlačiť	zatlač zatlačia zatlačil zatlačila zatlačili zatlačte zatlačí zatlačím zatlačíme zatlačíte zatlačíš
+35	4935	účtovný	účtovnej účtovná účtovné účtovného účtovnú účtovných
+36	4936	interný	internej interná interné interného internú interných interným
+37	4937	siahať	nesiaha nesiahaj nesiahajte nesiahajú nesiaham nesiahaš siahajú siahal siahala siahali siahalo siahaš
+38	4938	skromný	skromnej skromnejší skromnom skromná skromné skromného skromní skromnú skromných skromným skromnými
+39	4939	unikať	neunikajú neuniká unikajú unikal unikala unikali unikalo uniká unikáš
+40	4940	týždenne	
+41	4941	burza	burze burzou burzu burzy
+42	4942	zaručiť	zaručia zaručil zaručila zaručili zaručilo
+43	4943	prevedený	prevedená prevedené prevedení prevedených
+44	4944	spravodajstvo	spravodajstva spravodajstve spravodajstvom spravodajstvu
+45	4945	plynúť	plynie plynul plynuli plynulo plynú
+46	4946	porovnávať	neporovnávaj neporovnávajte neporovnával porovnáva porovnávajú porovnával porovnávali porovnávam porovnávame porovnávate porovnávaš
+47	4947	zatiahnuť	nezatiahla nezatiahli nezatiahne nezatiahnem nezatiahneme nezatiahol zatiahla zatiahli zatiahne zatiahnem zatiahneme zatiahnete zatiahneš zatiahni zatiahnite zatiahol
+48	4948	lekáreň	lekárne lekárni lekární lekárňach lekárňou
+49	4949	mládežnícky	mládežnícka mládežnícke mládežníckeho mládežníckej mládežníckych
+50	4950	muzikál	muzikáli muzikáloch muzikálom muzikálov muzikálu muzikály
+51	4951	polovičný	polovičnej polovičnom polovičnou polovičná polovičné polovičného polovičnú polovičných polovičným polovičnými
+52	4952	pestrý	pestrej pestrejšie pestro pestrou pestrá pestré pestrú pestrých
+53	4953	rekreácia	rekreačné rekreačný rekreácie rekreácii rekreáciu rekreácií
+54	4954	zemský	zemskej zemskom zemskou zemská zemské zemského zemskú zemských zemským
+55	4955	rozrušený	rozrušená rozrušené rozrušeného rozrušení rozrušenú
+56	4956	výučba	výučbe výučbu výučby
+57	4957	diagnostika	diagnostike diagnostikou diagnostiku diagnostiky
+58	4958	odhalenie	odhalenia odhaleniach odhaleniu odhalením
+59	4959	prehliadnuť	neprehliadli neprehliadnete neprehliadol prehliadla prehliadli prehliadne prehliadnem prehliadneme prehliadneš prehliadni prehliadnite prehliadnu prehliadol
+60	4960	prevádzkový	prevádzkovej prevádzková prevádzkové prevádzkového prevádzkových
+61	4961	siaha	siah siaham
+62	4962	rozoznať	nerozoznajú nerozoznal nerozoznali nerozozná nerozoznám nerozoznáte nerozoznáš rozoznajú rozoznal rozoznala rozoznali rozozná rozoznám rozoznáme rozoznáte rozoznáš
+63	4963	odvolanie	odvolania odvolaniu odvolaním
+64	4964	azda	
+65	4965	odolný	odolnejšie odolnejší odolná odolné odolného odolní odolnú odolných odolným
+66	4966	rub	rube ruby
+67	4967	premiestniť	nepremiestnili premiestni premiestnia premiestnil premiestnila premiestnili premiestnilo premiestnime premiestnite
+68	4968	tajnosť	tajnosti tajností tajnosťami
+69	4969	zahrnutý	zahrnutá zahrnuté zahrnutí zahrnutých
+70	4970	narodeninový	narodeninovej narodeninovom narodeninovou narodeninová narodeninové narodeninového narodeninovú narodeninových
+71	4971	netvor	netvora netvori netvormi netvorom netvorov netvorovi netvory
+72	4972	otvorene	otvorenejšie
+73	4973	míňať	míňa míňajú míňal míňala míňali míňam míňame míňate míňaš nemíňa nemíňaj nemíňal
+74	4974	uzatvorený	uzatvorenej uzatvorenom uzatvorená uzatvorené uzatvorení uzatvorenú
+75	4975	zatancovať	nezatancujeme nezatancujete nezatancuješ zatancoval zatancovala zatancovali zatancuj zatancuje zatancujem zatancujeme zatancujete zatancuješ zatancujme zatancujte zatancujú
+76	4976	helikoptéra	helikoptér helikoptérach helikoptérami helikoptére helikoptérou helikoptéru helikoptéry
+77	4977	koľaj	koľajach koľajami koľaje koľaji koľají
+78	4978	očakávaný	očakávanom očakávaná očakávané očakávaného očakávaní očakávanú očakávaných očakávaným
+79	4979	poučiť	nepoučia nepoučil nepoučila nepoučili nepoučí nepoučím nepoučíte nepoučíš pouč poučia poučil poučila poučili poučte poučí poučím poučíme poučíte poučíš
+80	4980	bariéra	bariér bariéram bariérami bariére bariérou bariéru bariéry
+81	4981	trojuholník	trojuholníka trojuholníkov trojuholníku trojuholníky
+82	4982	rozpadnúť	nerozpadla nerozpadne rozpadla rozpadli rozpadlo rozpadne rozpadneme rozpadnú rozpadol
+83	4983	nazvaný	nazvanej nazvanom nazvaná nazvané nazvaného nazvanú nazvaným
+84	4984	korenie	korenia korení korením
+85	4985	kút	kúta kúte
+86	4986	cieva	ciev cievach cievne cievny cievu cievy
+87	4987	misa	mise misou misu misy mís
+88	4988	tamojší	tamojšej tamojšia tamojšie tamojšieho tamojšiu tamojšom tamojších tamojším tamojšími
+89	4989	chýbajúci	chýbajúca chýbajúce chýbajúceho chýbajúcej chýbajúcemu chýbajúcich chýbajúcim chýbajúcimi chýbajúcom chýbajúcu
+90	4990	kurací	kuracej kuracia kuracie kuracieho kuraciu kuracom kuracou kuracích kuracím kuracími
+91	4991	perla	periel perlami perle perlička perličku perlou perlové perlový perlu perly perlách perál
+92	4992	prístupový	prístupovej prístupová prístupové prístupového prístupovú prístupových prístupovým
+93	4993	stádo	stád stáda stádach stáde stádom stádu
+94	4994	škôlka	škôlke škôlku škôlky
+95	4995	ideál	ideálmi ideáloch ideálom ideálov ideálu ideály
+96	4996	zmieniť	nezmienil nezmienila nezmienili nezmienim nezmieniš zmieni zmienia zmienil zmienila zmienili zmienim zmieniš
+97	4997	vlhkosť	vlhkosti vlhkosťou
+98	4998	rodák	rodáci rodáka rodákom rodákov
+99	4999	zákonník	zákonníka zákonníku
+100	5000	odprevadiť	neodprevadíš odprevadia odprevadil odprevadila odprevadili odprevadí odprevadím odprevadíme odprevadíte odprevadíš odprevaď odprevaďte

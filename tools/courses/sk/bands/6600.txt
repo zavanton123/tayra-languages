@@ -1,100 +1,100 @@
-1	6501	liturgia	liturgie liturgii liturgiu
-2	6502	nevybrať	nevyberie nevyberiem nevyberieme nevyberiete nevyberieš nevyberú nevybral nevybrala nevybrali
-3	6503	novodobý	novodobej novodobá novodobé novodobého novodobých
-4	6504	priazeň	priazne priazni priazňou
-5	6505	nereagovať	nereagoval nereagovala nereagovali nereaguj nereaguje nereagujem nereaguješ nereagujte nereagujú
-6	6506	pluk	plukom pluku pluky
-7	6507	výkrik	výkrikmi výkrikom výkrikov výkriky
-8	6508	obdĺžnik	obdĺžnika obdĺžniková obdĺžnikové obdĺžnikového obdĺžnikový
-9	6509	sústrasť	sústrasti
-10	6510	úraz	úraze úrazom úrazov úrazu úrazy
-11	6511	dôchodca	dôchodcom dôchodcov dôchodcovia
-12	6512	servis	servise servisom servisu
-13	6513	neuspieť	neuspeje neuspejem neuspejeme neuspejete neuspeješ neuspejú neuspel neuspela neuspeli
-14	6514	profesorka	profesorke profesorkou profesorku profesorky
-15	6515	ohromujúci	ohromujúca ohromujúce ohromujúceho ohromujúcej ohromujúcich ohromujúcim ohromujúcimi ohromujúcou ohromujúcu
-16	6516	predátor	predátora predátori predátormi predátoroch predátorom predátorov predátorovi
-17	6517	smäd	smädu
-18	6518	kapitánka	kapitánke kapitánkou kapitánku kapitánky
-19	6519	snúbenica	snúbenice snúbenici snúbenicou snúbenicu
-20	6520	väz	väzmi väzov väzu väzy
-21	6521	zajtrajšok	zajtrajška zajtrajškom zajtrajšku zajtrajšky
-22	6522	snem	sneme snemu
-23	6523	podmienený	podmienená podmienené
-24	6524	smädný	smädná smädné smädní smädných
-25	6525	poháňaný	poháňaná poháňané poháňaní poháňaných
-26	6526	orbita	orbite orbitou orbitu orbity
-27	6527	rokovať	rokoval rokovala rokovali rokuje rokujem rokujeme rokujete rokujú
-28	6528	ufo	ufe ufom ufá úf
-29	6529	dusík	dusíka dusíkom dusíku
-30	6530	fízel	fízla fízlami fízli fízlom fízlov fízlovi
-31	6531	gorila	gorilami gorile gorilou gorilu gorily gorilách gorilám goríl
-32	6532	textilný	textilnej textilnom textilná textilné textilného textilných
-33	6533	rezidencia	rezidencie rezidencii rezidenciu rezidencií
-34	6534	legislatívny	legislatívna legislatívne legislatívneho legislatívnej legislatívnu legislatívnych
-35	6535	osemnásť	osemnástich osemnástimi
-36	6536	hodnotný	hodnotná hodnotné hodnotnú hodnotných hodnotným
-37	6537	zneužívať	zneužíva zneužívajú zneužíval zneužívala zneužívali zneužívam zneužívame zneužívate zneužívaš
-38	6538	hádanka	hádaniek hádankami hádanke hádankou hádanku hádanky hádankách
-39	6539	rodový	rodovej rodová rodové rodovú rodových
-40	6540	nechystať	nechystaj nechystajú nechystal nechystala nechystali nechystá nechystám nechystáme nechystáte nechystáš
-41	6541	vyrážať	vyráža vyrážajú vyrážal vyrážali vyrážam vyrážame vyrážate vyrážaš
-42	6542	spln	splne splnom splnu
-43	6543	zareagovať	zareagoval zareagovala zareagovali zareaguje zareagujem zareagujeme zareagujete zareaguješ zareagujú
-44	6544	farbivo	farbiva farbivom farbivá farbív
-45	6545	tatko	tatka tatkom tatkov tatkovi tatkovia
-46	6546	manéver	manévre manévri manévroch manévrov manévru
-47	6547	zdrhnúť	zdrhla zdrhli zdrhne zdrhnem zdrhneme zdrhneš zdrhni zdrhnime zdrhnú zdrhol
-48	6548	vcelku	
-49	6549	prieskumný	prieskumnej prieskumná prieskumné prieskumného prieskumnú prieskumných prieskumným
-50	6550	trestať	tresce tresceš trestajú trestal trestala trestali trestá trestám trestáte trestáš
-51	6551	vyhodený	vyhodená vyhodené vyhodení vyhodenú vyhodených
-52	6552	zborník	zborníka zborníkoch zborníku
-53	6553	nevydať	nevydaj nevydajú nevydal nevydala nevydali nevydalo nevydá nevydám nevydáme nevydáte nevydáš
-54	6554	autonehoda	autonehode autonehodou autonehodu autonehody autonehodách autonehôd
-55	6555	spoza	
-56	6556	hamburger	hamburgera hamburgeri hamburgermi hamburgeroch hamburgerom hamburgerov hamburgeru hamburgery
-57	6557	reproduktor	reproduktora reproduktore reproduktoroch reproduktorov reproduktoru reproduktory
-58	6558	luna	lune lunou lunu luny lunárneho lunárny
-59	6559	nevychádzať	nevychádza nevychádzaj nevychádzajte nevychádzajú nevychádzal nevychádzala nevychádzali nevychádzalo nevychádzam nevychádzame nevychádzate nevychádzaš
-60	6560	nechytať	nechytaj nechytajte nechytajú nechytal nechytala nechytali nechytá nechytám nechytáš
-61	6561	dominanta	dominantou dominantu dominanty
-62	6562	cha	
-63	6563	zahnať	zahnal zahnala zahnali zaženie zaženiem zaženieme zaženiete zaženieš zaženú zažeň zažeňte
-64	6564	dúha	dúhe dúhou dúhovej dúhová dúhové dúhového dúhový dúhových dúhu dúhy
-65	6565	valný	valnom valné valného valným
-66	6566	vynikať	vynikajú vynikal vyniká vynikám vynikáte
-67	6567	nepríjemne	nepríjemnejšie
-68	6568	použiteľný	použiteľnej použiteľná použiteľné použiteľného použiteľnú použiteľných
-69	6569	šokujúci	šokujúca šokujúce šokujúceho šokujúcej šokujúcich šokujúcim šokujúcimi šokujúcu
-70	6570	dobývať	dobyje dobyjeme dobyješ dobyl dobyla dobyli dobyť dobývanie
-71	6571	záchranka	záchranke záchranku záchranky
-72	6572	prierez	priereze prierezom prierezu
-73	6573	zaiste	
-74	6574	atribút	atribútmi atribútom atribútov atribúty
-75	6575	odmietnutie	odmietnutia odmietnutiu odmietnutím
-76	6576	atrament	atramente atramentom atramentové atramentu
-77	6577	nesledovať	nesledoval nesledovala nesledovali nesleduj nesleduje nesledujem nesledujeme nesledujete nesleduješ nesledujte nesledujú
-78	6578	odmeniť	odmenená odmenené odmenení odmenený odmenia odmenil odmenili odmení odmením odmeníme odmeň odmeňovať odmeňte odmeňuje odmeňujem odmeňujeme
-79	6579	klimatizácia	klimatizácie klimatizácii klimatizáciou klimatizáciu
-80	6580	hľa	
-81	6581	prerobiť	prerob prerobenie prerobený prerobil prerobila prerobili prerobte prerobí prerobím prerobíme prerába prerábajú prerábal prerábali prerábam prerábame prerábať
-82	6582	obydlie	obydlia obydlí
-83	6583	referendum	referenda referende referendom
-84	6584	limuzína	limuzín limuzínach limuzíne limuzínou limuzínu limuzíny
-85	6585	prúdiť	prúdi prúdia prúdil prúdila prúdili prúdilo
-86	6586	finálny	finálna finálne finálneho finálnej finálnemu finálnom finálnu finálnych finálnym
-87	6587	neobťažovať	neobťažoval neobťažovala neobťažovali neobťažovalo neobťažuj neobťažuje neobťažujem neobťažujeme neobťažujete neobťažuješ neobťažujte neobťažujú
-88	6588	opierať	opiera opierajú opierajúc opieral opierala opieram opieraš
-89	6589	vývojár	vývojári vývojárom vývojárov
-90	6590	káder	kádra kádre kádri
-91	6591	schválenie	schválenia schváleniu schválením
-92	6592	šľachtic	šľachtica šľachtici šľachtického šľachtický šľachticom šľachticov šľachtičná
-93	6593	presahovať	presahovali presahuje presahujú
-94	6594	bufet	bufete bufetom bufetu bufety
-95	6595	kapitalizmus	kapitalistickej kapitalistická kapitalistické kapitalistického kapitalistický kapitalizme kapitalizmom kapitalizmu
-96	6596	vytočiť	vytoč vytočia vytočil vytočila vytočili vytočilo vytočte vytočí vytočím vytočíme vytočíš
-97	6597	spracovávať	spracováva spracovávajú spracovával spracovávala spracovávali spracovávam spracovávame spracovávaš
-98	6598	fotenie	fotenia foteniu fotení fotením
-99	6599	udelenie	udelenia udelením
-100	6600	medený	medenej medená medené medeného medenú medených
+1	6501	prehľadávať	prehľadáva prehľadávajú prehľadával prehľadávala prehľadávali prehľadávam prehľadávame prehľadávate prehľadávaš
+2	6502	zapáčiť	nezapáči zapáči zapáčia zapáčil zapáčila zapáčili zapáčilo zapáčim zapáčiš
+3	6503	vykašlať	nevykašlal nevykašle nevykašlem nevykašleme nevykašleš nevykašli vykašlal vykašlala vykašlali vykašle vykašlem vykašleme vykašlete vykašleš vykašli vykašlime vykašlite vykašlú
+4	6504	patent	patentom patentov patentu patenty
+5	6505	šéfkuchár	šéfkuchára šéfkuchári šéfkuchárom šéfkuchárov šéfkuchárovi
+6	6506	potlesk	potleskom potlesku
+7	6507	zachcieť	zachce zachcelo
+8	6508	pobehovať	nepobehuje nepobehujú pobehoval pobehovala pobehovali pobehuje pobehujem pobehujete pobehuješ pobehujte pobehujú
+9	6509	mutácia	mutácie mutácii mutáciou mutáciu mutácií
+10	6510	zdržovať	nezdržuj nezdržujem nezdržujme nezdržujte nezdržujú zdržoval zdržovala zdržovali zdržuj zdržuje zdržujem zdržujeme zdržujete zdržuješ zdržujte zdržujú
+11	6511	výstroj	výstroja výstroje výstroji výstrojom
+12	6512	navrhovaný	navrhovanej navrhovaná navrhované navrhovaní navrhovaných
+13	6513	tekvica	tekvicami tekvice tekvici tekvicová tekvicové tekvicovú tekvicový tekvicovým tekvicu tekvička tekvíc
+14	6514	vysadiť	vysadia vysadil vysadila vysadili vysadí vysadím vysadíme vysadíš vysaď vysaďte
+15	6515	prokuratúra	prokuratúre prokuratúrou prokuratúru prokuratúry
+16	6516	problematický	problematická problematické problematických
+17	6517	materiálno	materiálna materiálne materiálnu
+18	6518	východoslovenský	východoslovenskej východoslovenskom východoslovenská východoslovenské východoslovenského východoslovenských
+19	6519	mólo	mól móla móle mólom mólu
+20	6520	rozkladať	rozkladajú rozkladá rozkladám
+21	6521	geniálne	
+22	6522	pozhovárať	nepozhovárame pozhovára pozhováraj pozhovárajme pozhovárajte pozhováral pozhovárala pozhovárali pozhováram pozhovárame
+23	6523	prepad	prepade prepadoch prepadom prepadov prepadu prepady
+24	6524	triezvy	triezva triezve triezveho triezvi triezvo triezvu triezvym
+25	6525	kontrast	kontraste kontrastom kontrastu
+26	6526	návod	návode návodom návodu návody
+27	6527	povedomý	povedomá povedomé povedomí
+28	6528	nabúrať	nabúra nabúrajú nabúral nabúrala nabúrali nabúralo nabúram nabúrame nabúraš nenabúraj nenabúral
+29	6529	prezentovaný	prezentovaná prezentované
+30	6530	vizuálne	
+31	6531	austrálsky	austrálska austrálske austrálskeho austrálskej austrálskom austrálsku austrálskych austrálskym
+32	6532	zásadne	
+33	6533	deklarácia	deklarácie deklarácii deklaráciou deklaráciu
+34	6534	nežiaduci	nežiaduca nežiaduce nežiaducich nežiaducim
+35	6535	jednoznačný	jednoznačná jednoznačné jednoznačnú jednoznačným
+36	6536	šajn	šajnu šajny
+37	6537	pešiak	pešiaci pešiaka pešiakmi pešiakom pešiakov pešiakovi
+38	6538	otroctvo	otroctva otroctve otroctvom
+39	6539	nápadný	nápadne nápadnom nápadná nápadné nápadní nápadnú
+40	6540	parádny	parádna parádneho parádnej parádnu parádnych parádnym parádnymi
+41	6541	predavač	predavača predavači predavačmi predavačom
+42	6542	mriežka	mriežke mriežkou mriežku mriežky
+43	6543	sčítanie	sčítania sčítaní
+44	6544	reverend	reverendom reverendovi
+45	6545	šnúra	šnúr šnúre šnúrou šnúru šnúry
+46	6546	odporúčaný	odporúčaná odporúčané odporúčaní odporúčanú
+47	6547	únikový	únikovej únikovom únikovou úniková únikové únikového únikovú únikových únikovým
+48	6548	termálny	termálna termálne termálnej termálnu termálnych
+49	6549	ubezpečiť	ubezpeč ubezpečil ubezpečila ubezpečili ubezpečilo ubezpečte ubezpečím
+50	6550	hrabať	hrabal hrabala hrabali hrabem hrabeme hrabete hrabeš hrabte hrabú nehrab nehrabal
+51	6551	samostatnosť	samostatnosti
+52	6552	vzísť	nevzišlo nevzíde vzišiel vzišla vzišli vzišlo vzíde
+53	6553	spísať	spísal spísala spísali spíše spíšem spíšeme spíšete spíšeš spíšme spíšte
+54	6554	ponoriť	ponoria ponoril ponorila ponorili ponorte ponorí ponorím ponoríme ponoríte ponoríš
+55	6555	zrod	zrode zrodom zrodu
+56	6556	kemp	kempe kempom kempu kempy
+57	6557	poručíčka	poručíčke poručíčkou poručíčku poručíčky
+58	6558	udať	neudal neudala neudali neudá neudám neudáš udaj udajte udajú udal udala udali udá udám udáš
+59	6559	odsudzovať	neodsudzoval neodsudzovala neodsudzuj neodsudzuje neodsudzujem neodsudzujeme neodsudzujte odsudzoval odsudzovala odsudzuje odsudzujem odsudzujeme odsudzujete odsudzuješ odsudzujú
+60	6560	slušnosť	neslušnosti neslušnosť slušnosti slušnosťou
+61	6561	záľuba	záľub záľube záľubou záľubu záľuby záľubám
+62	6562	napájanie	napájania napájaniu napájaním
+63	6563	triumf	triumfom triumfu triumfy
+64	6564	klenot	klenotmi klenotom klenotov klenotu klenoty
+65	6565	odveta	odvete odvetu odvety
+66	6566	derivát	derivátov deriváty
+67	6567	bavlna	bavlnené bavlnený bavlnke bavlnu bavlny
+68	6568	bilancia	bilancie bilancii bilanciou bilanciu
+69	6569	manna	mannu manny
+70	6570	marketingový	marketingovej marketingová marketingové marketingového marketingovému marketingovú marketingových marketingovým
+71	6571	nadprirodzený	nadprirodzenej nadprirodzenom nadprirodzenou nadprirodzená nadprirodzené nadprirodzeného nadprirodzenú nadprirodzených nadprirodzeným nadprirodzenými
+72	6572	ujasniť	ujasni ujasnil ujasnila ujasnili ujasnime ujasnite ujasní ujasním ujasníme
+73	6573	sfarbenie	sfarbenia sfarbením
+74	6574	kníhkupectvo	kníhkupectiev kníhkupectva kníhkupectve kníhkupectvom kníhkupectvách
+75	6575	bankár	bankára bankári bankármi bankárom bankárov bankárovi
+76	6576	nepriamy	nepriama nepriame nepriamych nepriamym
+77	6577	zasvätiť	zasvätil zasvätila zasvätili zasvätí zasvätím zasvätíme zasvätíte zasvätíš zasväť zasväťte
+78	6578	laserový	laserovej laserovou laserová laserové laserového laserovú laserových laserovým laserovými
+79	6579	lakeť	lakte lakti lakťa lakťami lakťoch lakťom lakťov lakťová
+80	6580	vyradený	vyradená vyradené vyradení vyradených
+81	6581	vydieranie	vydierania vydieraniu vydieraní vydieraním
+82	6582	nakúpiť	nakúp nakúpi nakúpil nakúpila nakúpili nakúpim nakúpime nakúpiš
+83	6583	apokalypsa	apokalypse apokalypsou apokalypsu apokalypsy apokalyptické apokalyptický
+84	6584	uhorka	uhoriek uhorkami uhorkou uhorkové uhorku uhorky uhry
+85	6585	koordinácia	koordinácie koordinácii koordináciu
+86	6586	hovorievať	hovorieva hovorievajú hovorieval hovorievala hovorievali hovorievam hovorievame hovorievaš
+87	6587	úchvatný	úchvatnej úchvatná úchvatné úchvatného úchvatnú úchvatným
+88	6588	porušovať	neporušuj neporušuje neporušujem neporušujeme neporušujte neporušujú porušoval porušovala porušovali porušuje porušujem porušujeme porušujete porušuješ porušujú
+89	6589	monitorovať	monitoroval monitorovala monitorovali monitoruj monitoruje monitorujem monitorujeme monitorujete monitorujte monitorujú
+90	6590	explodovať	explodoval explodovala explodovali explodovalo exploduj exploduje explodujem exploduješ explodujú neexploduje
+91	6591	bezvýznamný	bezvýznamnej bezvýznamnom bezvýznamná bezvýznamné bezvýznamného bezvýznamní bezvýznamnú bezvýznamných bezvýznamným bezvýznamnými
+92	6592	hurikán	hurikáne hurikánom hurikánov hurikánu hurikány
+93	6593	poludnie	poludnia poludní poludním
+94	6594	veniec	venca vencami vence vencom vencov
+95	6595	zamestnaný	zamestnaná zamestnané zamestnanú zamestnaných
+96	6596	uplynúť	neuplynie neuplynul neuplynulo uplynie uplynul uplynula uplynuli uplynulo uplynú
+97	6597	žuvačka	žuvačiek žuvačke žuvačkou žuvačku žuvačky
+98	6598	upútať	neupútal upúta upútal upútala upútali upútalo
+99	6599	nacistický	nacistickej nacistickom nacistická nacistické nacistického nacistickému nacistickí nacistickú nacistických nacistickým
+100	6600	podrobiť	nepodrobí podrobia podrobil podrobila podrobili podrobte podrobí podrobím podrobíme podrobíte podrobíš

@@ -1,100 +1,100 @@
-1	2601	prechádzka	prechádzkach prechádzke prechádzkou prechádzku prechádzky prechádzok
-2	2602	vyvolať	vyvolaj vyvolajte vyvolajú vyvolal vyvolala vyvolali vyvolalo vyvolá vyvolám vyvoláme vyvoláte vyvoláš
-3	2603	zjavne	
-4	2604	balík	balíka balíkoch balíkom balíkov balíku balíky
-5	2605	génius	geniálna geniálneho geniálnemu geniálni geniálnu geniálny geniálnych geniálnym geniálnymi génia géniami géniom géniov géniovi géniovia najgeniálnejší
-6	2606	lenže	
-7	2607	priateľstvo	priateľstiev priateľstva priateľstve priateľstvom priateľstvu priateľstvá
-8	2608	schránka	schránkach schránkam schránke schránkou schránku schránky schránok
-9	2609	hlúposť	hlúposti hlúpostiach hlúpostiam hlúpostí hlúposťami hlúposťou
-10	2610	zostava	zostave zostavou zostavu zostavy zostáv
-11	2611	kláštor	kláštora kláštore kláštornej kláštoroch kláštorom kláštorov kláštoru kláštory
-12	2612	tabletka	tabletiek tabletkami tabletke tabletkou tabletku tabletky tabletkách tabletkám
-13	2613	uniknúť	unikla unikli uniklo unikne uniknem unikneme uniknete unikneš uniknú unikol
-14	2614	rovina	rovine rovinou rovinu roviny rovinách rovín
-15	2615	odvážny	najodvážnejšia najodvážnejšie najodvážnejší najodvážnejších odvážna odvážne odvážneho odvážnej odvážnejšia odvážnejšie odvážnejší odvážnemu odvážni odvážnom odvážnou odvážnu odvážnych odvážnym odvážnymi
-16	2616	sotva	
-17	2617	zakladateľ	zakladatelia zakladateľa zakladateľmi zakladateľom zakladateľov zakladateľovi
-18	2618	oženiť	oženia oženil oženili ožení ožením oženíte oženíš ožeň
-19	2619	krava	kravami krave kravička kravičky kravou kravského kravský kravu kravy kravách kravám kráv
-20	2620	nestáť	nestoj nestoja nestojme nestojte nestojí nestojím nestojíme nestojíte nestojíš nestál nestálo
-21	2621	príspevok	príspevkami príspevkoch príspevkom príspevkov príspevku príspevky
-22	2622	zavraždiť	zavraždia zavraždil zavraždila zavraždili zavraždilo zavraždí zavraždím zavraždíme zavraždíte zavraždíš
-23	2623	dosah	dosahom dosahu
-24	2624	zápis	zápise zápisom zápisov zápisu zápisy
-25	2625	asistent	asistenta asistenti asistentmi asistentom asistentov asistentovi
-26	2626	cirkevný	cirkevnej cirkevnom cirkevnou cirkevná cirkevné cirkevného cirkevnému cirkevní cirkevnú cirkevných cirkevným cirkevnými
-27	2627	čarodejnica	čarodejnicami čarodejnice čarodejnici čarodejniciach čarodejniciam čarodejnicou čarodejnicu čarodejníc
+1	2601	zaznamenať	nezaznamenal nezaznamenala nezaznamenali zaznamenaj zaznamenajte zaznamenajú zaznamenal zaznamenala zaznamenali zaznamenalo zaznamená zaznamenám zaznamenáme zaznamenáte
+2	2602	tabletka	tabletiek tabletkami tabletke tabletkou tabletku tabletky tabletkách tabletkám
+3	2603	krava	kravami krave kravička kravičky kravou kravského kravský kravu kravy kravách kravám kráv
+4	2604	spomaliť	nespomalil nespomalilo nespomalí spomalia spomalil spomalila spomalili spomalilo spomalí spomalím spomalíme spomalíte spomalíš spomaľ spomaľme spomaľte
+5	2605	kresťan	kresťana kresťania kresťanmi kresťanom kresťanov
+6	2606	odvážny	najodvážnejšia najodvážnejšie najodvážnejší najodvážnejších odvážna odvážne odvážneho odvážnej odvážnejšia odvážnejšie odvážnejší odvážnemu odvážni odvážnom odvážnou odvážnu odvážnych odvážnym odvážnymi
+7	2607	publikácia	publikácie publikácii publikáciou publikáciu publikáciách publikácií
+8	2608	realizácia	realizácie realizácii realizáciou realizáciu realizácií
+9	2609	vydavateľstvo	vydavateľstiev vydavateľstva vydavateľstve vydavateľstvom vydavateľstvu vydavateľstvá vydavateľstvách
+10	2610	zlyhať	nezlyhaj nezlyhal nezlyhala nezlyhali nezlyhá nezlyhám nezlyháme nezlyháš zlyhaj zlyhajú zlyhal zlyhala zlyhali zlyhalo zlyhá zlyhám zlyháme zlyháte zlyháš
+11	2611	čarodejnica	čarodejnicami čarodejnice čarodejnici čarodejniciach čarodejniciam čarodejnicou čarodejnicu čarodejníc
+12	2612	podobať	nepodobajú nepodobal nepodobali nepodobalo nepodobá nepodobám nepodobáme nepodobáte nepodobáš podobajú podobal podobala podobali podobalo podobá podobáme podobáte podobáš
+13	2613	kláštor	kláštora kláštore kláštornej kláštoroch kláštorom kláštorov kláštoru kláštory
+14	2614	telefonát	telefonáte telefonátmi telefonátoch telefonátom telefonátov telefonátu telefonáty
+15	2615	darovať	daroval darovala darovali darovalo darovania darovanie darované darovaní darovaním darovaný daruj daruje darujem darujeme darujete daruješ darujte darujú nedaroval nedaruje nedarujem
+16	2616	odpočívať	neodpočiniem neodpočiniete neodpočinieš neodpočíva neodpočívaš odpočinie odpočiniem odpočinieme odpočiniete odpočinieš odpočinul odpočinula odpočinuli odpočinú odpočinúť odpočiň odpočiňme odpočiňte odpočíva odpočívaj odpočívajte odpočívajú odpočíval odpočívala odpočívali odpočívam odpočívame odpočívanie odpočívate odpočívaš
+17	2617	zostava	zostave zostavou zostavu zostavy zostáv
+18	2618	rovina	rovine rovinou rovinu roviny rovinách rovín
+19	2619	dosah	dosahom dosahu
+20	2620	asistent	asistenta asistenti asistentmi asistentom asistentov asistentovi
+21	2621	potešiť	nepotešil nepotešila nepotešili nepotešilo nepoteší nepoteším poteš potešia potešil potešila potešili potešilo potešte poteší poteším potešíte potešíš
+22	2622	dodať	dodaj dodajte dodajú dodal dodala dodali dodalo dodá dodám dodáme dodáte dodáš nedodal nedodá nedodáš
+23	2623	skrinka	skriniek skrinkami skrinke skrinkou skrinku skrinky skrinkách
+24	2624	odteraz	
+25	2625	klobúk	klobúka klobúkmi klobúkoch klobúkom klobúkov klobúku klobúky klobúčik klobúčiku klobúčiky
+26	2626	rušiť	neruš nerušia nerušil nerušili nerušiť nerušte neruší neruším nerušíme nerušíte nerušíš rušia rušil rušila rušili rušilo rušte ruší ruším rušíme rušíte rušíš
+27	2627	zakladateľ	zakladatelia zakladateľa zakladateľmi zakladateľom zakladateľov zakladateľovi
 28	2628	pokrok	pokrokoch pokrokom pokrokov pokrokovej pokroková pokrokové pokrokový pokrokových pokroku pokroky
-29	2629	pásmo	pásiem pásma pásmach pásme pásmom
-30	2630	povinný	povinnej povinná povinné povinného povinní povinnú povinných povinným
-31	2631	kvalifikácia	kvalifikačné kvalifikačný kvalifikácie kvalifikácii kvalifikáciou kvalifikáciu kvalifikácií
-32	2632	neuvidieť	neuvidel neuvidela neuvideli neuvidia neuvidí neuvidím neuvidíme neuvidíte neuvidíš
-33	2633	dostatok	dostatkom dostatku
-34	2634	skrinka	skriniek skrinkami skrinke skrinkou skrinku skrinky skrinkách
-35	2635	sovietsky	sovietska sovietske sovietskeho sovietskej sovietskemu sovietski sovietskom sovietskou sovietsku sovietskych sovietskym
-36	2636	doklad	dokladmi dokladoch dokladom dokladov dokladu doklady
-37	2637	spáchať	spácha spáchajú spáchal spáchala spáchali spáchalo spácham spáchame spáchate spáchaš
-38	2638	diskusia	diskusie diskusii diskusiou diskusiu diskusiách diskusií
-39	2639	ríša	ríš ríšach ríšami ríše ríši ríšou ríšu
-40	2640	osobitný	osobitnej osobitnom osobitnou osobitná osobitné osobitného osobitnú osobitných osobitným osobitnými
-41	2641	klobúk	klobúka klobúkmi klobúkoch klobúkom klobúkov klobúku klobúky klobúčik klobúčiku klobúčiky
-42	2642	telefonát	telefonáte telefonátmi telefonátoch telefonátom telefonátov telefonátu telefonáty
-43	2643	eú	
-44	2644	dodať	dodaj dodajte dodajú dodal dodala dodali dodalo dodá dodám dodáme dodáte dodáš
-45	2645	otráviť	otravoval otravovala otravovali otravovalo otravovať otravuj otravuje otravujem otravujeme otravujete otravuješ otravujte otravujú otrávenej otrávenie otrávenou otrávená otrávené otráveného otrávení otrávenú otrávený otrávených otráveným otrávenými otrávi otrávia otrávil otrávila otrávili otrávilo otrávim otrávime otráviš
-46	2646	odteraz	
-47	2647	spomaliť	spomalia spomalil spomalila spomalili spomalilo spomalí spomalím spomalíme spomalíte spomalíš spomaľ spomaľme spomaľte
-48	2648	rozloha	rozlohe rozlohou rozlohu rozlohy
-49	2649	dôverovať	dôveroval dôverovala dôverovali dôveruj dôveruje dôverujem dôverujeme dôverujete dôveruješ dôverujte dôverujú dôverujúci
-50	2650	šoférovať	šoféroval šoférovala šoférovali šoférovania šoférovanie šoférovaniu šoférovaní šoférovaním šoféruj šoféruje šoférujem šoférujete šoféruješ šoférujte šoférujú
-51	2651	box	boxe boxoch boxom boxov boxu boxy
-52	2652	písomný	písomnej písomnom písomnou písomná písomné písomného písomnú písomných písomným
-53	2653	zvlášť	
-54	2654	diamant	diamante diamantmi diamantoch diamantom diamantov diamantovej diamantovou diamantová diamantové diamantového diamantovú diamantový diamantových diamantovým diamantu diamanty
-55	2655	trafiť	traf trafia trafil trafila trafili trafilo trafte trafí trafím trafíme trafíte trafíš
-56	2656	gymnázium	gymnázia gymnáziu gymnáziá gymnáziách gymnázií
-57	2657	plod	plodmi plodoch plodom plodov plodu plody
-58	2658	nevyjsť	nevyjde nevyjdem nevyjdeme nevyjdete nevyjdeš nevyjdú nevyšiel nevyšla nevyšli nevyšlo
-59	2659	pátrať	pátra pátraj pátrajte pátrajú pátral pátrala pátrali pátram pátrame pátrania pátranie pátraniu pátraní pátraním pátrate pátraš
-60	2660	biblia	biblie biblii bibliou bibliu biblií
-61	2661	darovať	daroval darovala darovali darovalo darovania darovanie darované darovaní darovaním darovaný daruj daruje darujem darujeme darujete daruješ darujte darujú
-62	2662	zrušený	zrušená zrušené zrušeného zrušení zrušenú zrušených
-63	2663	sprostý	najsprostejšia najsprostejší sprostej sprostejšia sprostejšie sprostejší sprosto sprostom sprostou sprostá sprosté sprostého sprostému sprostí sprostú sprostých sprostým sprostými
-64	2664	stvoriť	stvorená stvorené stvorený stvorených stvoril stvorila stvorili stvorilo stvorí stvorím stvoríme
-65	2665	mat	mate matu maty
-66	2666	zabaviť	zabav zabavia zabavil zabavila zabavili zabavme zabavte zabaví zabavím zabavíme zabavíte zabavíš
-67	2667	odpočívať	odpočinie odpočiniem odpočinieme odpočiniete odpočinieš odpočinul odpočinula odpočinuli odpočinú odpočinúť odpočiň odpočiňme odpočiňte odpočíva odpočívaj odpočívajte odpočívajú odpočíval odpočívala odpočívali odpočívam odpočívame odpočívanie odpočívate odpočívaš
-68	2668	vyjadrovať	vyjadroval vyjadrovala vyjadrovali vyjadruj vyjadruje vyjadrujem vyjadrujeme vyjadrujete vyjadruješ vyjadrujú
-69	2669	matematika	matematické matematický matematike matematikou matematiku matematiky
-70	2670	jav	jave javmi javoch javom javov javu javy
-71	2671	nestretnúť	nestretla nestretli nestretlo nestretne nestretnem nestretneme nestretnete nestretneš nestretni nestretnú nestretol
-72	2672	teleso	telesa telesami telese telesom telesá telies
-73	2673	drak	draci draka drakmi drakoch drakom drakov drakovcov drakovi draky dráčik
-74	2674	mariť	maria marí maríte
-75	2675	polievka	polievke polievkou polievkové polievkovú polievkový polievku polievky polievok polievočka polievočku
-76	2676	pevne	najpevnejšie pevnejšie
-77	2677	vedúca	vedúce vedúcej vedúcou vedúcu
+29	2629	dostatok	dostatkom dostatku
+30	2630	príspevok	príspevkami príspevkoch príspevkom príspevkov príspevku príspevky
+31	2631	stvoriť	nestvoril stvorená stvorené stvorený stvorených stvoril stvorila stvorili stvorilo stvorí stvorím stvoríme
+32	2632	pátrať	nepátrajú nepátral nepátrala pátra pátraj pátrajte pátrajú pátral pátrala pátrali pátram pátrame pátrania pátranie pátraniu pátraní pátraním pátrate pátraš
+33	2633	sprostý	najsprostejšia najsprostejší sprostej sprostejšia sprostejšie sprostejší sprosto sprostom sprostou sprostá sprosté sprostého sprostému sprostí sprostú sprostých sprostým sprostými
+34	2634	zabaviť	nezabavil nezabavila nezabavili nezabavíme zabav zabavia zabavil zabavila zabavili zabavme zabavte zabaví zabavím zabavíme zabavíte zabavíš
+35	2635	zápis	zápise zápisom zápisov zápisu zápisy
+36	2636	podeliť	nepodelil nepodelili nepodeliť nepodelím nepodelíš podelia podelil podelila podelili podelí podelím podelíme podelíte podelíš podeľ podeľme podeľte
+37	2637	doklad	dokladmi dokladoch dokladom dokladov dokladu doklady
+38	2638	povinný	povinnej povinná povinné povinného povinní povinnú povinných povinným
+39	2639	diamant	diamante diamantmi diamantoch diamantom diamantov diamantovej diamantovou diamantová diamantové diamantového diamantovú diamantový diamantových diamantovým diamantu diamanty
+40	2640	cirkevný	cirkevnej cirkevnom cirkevnou cirkevná cirkevné cirkevného cirkevnému cirkevní cirkevnú cirkevných cirkevným cirkevnými
+41	2641	diskusia	diskusie diskusii diskusiou diskusiu diskusiách diskusií
+42	2642	kvalifikácia	kvalifikačné kvalifikačný kvalifikácie kvalifikácii kvalifikáciou kvalifikáciu kvalifikácií
+43	2643	sovietsky	sovietska sovietske sovietskeho sovietskej sovietskemu sovietski sovietskom sovietskou sovietsku sovietskych sovietskym
+44	2644	pásmo	pásiem pásma pásmach pásme pásmom
+45	2645	ríša	ríš ríšach ríšami ríše ríši ríšou ríšu
+46	2646	box	boxe boxoch boxom boxov boxu boxy
+47	2647	stlačiť	nestlačil nestlačila nestlačili nestlačí nestlačíš stlač stlačia stlačil stlačila stlačili stlačte stlačí stlačím stlačíme stlačíte stlačíš
+48	2648	zvlášť	
+49	2649	objať	neobjal neobjala neobjímaj neobjímala neobjíme neobjímem neobjímeš objal objala objali objatia objatiami objatie objatiu objatí objatím objím objíma objímať objíme objímem objímeme objímeš objímte objímu
+50	2650	biblia	biblie biblii bibliou bibliu biblií
+51	2651	osobitný	osobitnej osobitnom osobitnou osobitná osobitné osobitného osobitnú osobitných osobitným osobitnými
+52	2652	mat	mate matu maty
+53	2653	vyjadrovať	nevyjadruje nevyjadrujem nevyjadrujú vyjadroval vyjadrovala vyjadrovali vyjadruj vyjadruje vyjadrujem vyjadrujeme vyjadrujete vyjadruješ vyjadrujú
+54	2654	rozloha	rozlohe rozlohou rozlohu rozlohy
+55	2655	eú	
+56	2656	plod	plodmi plodoch plodom plodov plodu plody
+57	2657	písomný	písomnej písomnom písomnou písomná písomné písomného písomnú písomných písomným
+58	2658	zrušený	zrušená zrušené zrušeného zrušení zrušenú zrušených
+59	2659	šerif	šerifa šerifom šerifovia
+60	2660	obetovať	neobetoval neobetovala neobetovali neobetujem obetoval obetovala obetovali obetovalo obetuj obetuje obetujem obetujeme obetujete obetuješ obetujte obetujú
+61	2661	gymnázium	gymnázia gymnáziu gymnáziá gymnáziách gymnázií
+62	2662	drak	draci draka drakmi drakoch drakom drakov drakovcov drakovi draky dráčik
+63	2663	polievka	polievke polievkou polievkové polievkovú polievkový polievku polievky polievok polievočka polievočku
+64	2664	mariť	maria marí maríte
+65	2665	prezrieť	neprezrel neprezreli neprezrie neprezrieme prezrel prezrela prezreli prezri prezrie prezriem prezrieme prezriete prezrieš prezrime prezrite prezrú
+66	2666	ovplyvniť	neovplyvnila neovplyvnili neovplyvnilo neovplyvní neovplyvním neovplyvníš ovplyvni ovplyvnia ovplyvnil ovplyvnila ovplyvnili ovplyvnilo ovplyvní ovplyvníme ovplyvníš
+67	2667	naplniť	naplnia naplnil naplnila naplnili naplnilo naplní naplním naplníme naplníte naplníš naplň naplňme naplňte nenaplnia nenaplnil nenaplnila nenaplnili nenaplnilo nenaplní nenaplníš
+68	2668	matematika	matematické matematický matematike matematikou matematiku matematiky
+69	2669	pevne	najpevnejšie pevnejšie
+70	2670	vážený	najváženejších váženej váženou vážená vážené váženého váženému vážení váženú vážených váženým
+71	2671	batéria	batériami batérie batérii batériou batériu batériách batérií
+72	2672	jav	jave javmi javoch javom javov javu javy
+73	2673	vesmírny	vesmírna vesmírne vesmírneho vesmírnej vesmírni vesmírnom vesmírnou vesmírnu vesmírnych vesmírnym vesmírnymi
+74	2674	označiť	neoznačil označ označia označil označila označili označilo označme označte označí označím označíme označíte označíš
+75	2675	teleso	telesa telesami telese telesom telesá telies
+76	2676	vedúca	vedúce vedúcej vedúcou vedúcu
+77	2677	rodný	rodnej rodnom rodnou rodná rodné rodného rodnému rodnú rodných rodným
 78	2678	rozsiahly	rozsiahla rozsiahleho rozsiahlej rozsiahlemu rozsiahlom rozsiahlou rozsiahlu rozsiahlych rozsiahlym rozsiahlymi
-79	2679	batéria	batériami batérie batérii batériou batériu batériách batérií
-80	2680	priblížiť	priblíž priblíži priblížia priblížil priblížila priblížili priblížilo priblížim priblížime priblížite priblížiš priblížme priblížte
-81	2681	vážený	najváženejších váženej váženou vážená vážené váženého váženému vážení váženú vážených váženým
-82	2682	rodný	rodnej rodnom rodnou rodná rodné rodného rodnému rodnú rodných rodným
-83	2683	zaznamenať	zaznamenaj zaznamenajte zaznamenajú zaznamenal zaznamenala zaznamenali zaznamenalo zaznamená zaznamenám zaznamenáme zaznamenáte
-84	2684	podeliť	podelia podelil podelila podelili podelí podelím podelíme podelíte podelíš podeľ podeľme podeľte
-85	2685	vesmírny	vesmírna vesmírne vesmírneho vesmírnej vesmírni vesmírnom vesmírnou vesmírnu vesmírnych vesmírnym vesmírnymi
-86	2686	ves	vsi
-87	2687	označovať	označoval označovali označuje označujem označujeme označuješ označujú
-88	2688	označiť	označ označia označil označila označili označilo označme označte označí označím označíme označíte označíš
-89	2689	tretina	tretine tretinu tretiny tretín
-90	2690	šerif	šerifa šerifom šerifovia
-91	2691	prednáška	prednáškach prednáškam prednáškami prednáške prednáškou prednáškovej prednášku prednášky prednášok
-92	2692	relácia	relácie relácii reláciou reláciu reláciách relácií
-93	2693	včas	
+79	2679	včas	
+80	2680	prednáška	prednáškach prednáškam prednáškami prednáške prednáškou prednáškovej prednášku prednášky prednášok
+81	2681	svedomie	svedomia svedomiu svedomí svedomím
+82	2682	peňaženka	peňaženiek peňaženkami peňaženke peňaženkou peňaženku peňaženky peňaženkách
+83	2683	označovať	označoval označovali označuje označujem označujeme označuješ označujú
+84	2684	citlivý	citlivej citlivejšia citlivejší citlivom citlivou citlivá citlivé citlivého citliví citlivú citlivých citlivým citlivými najcitlivejší
+85	2685	libra	libier librami libru libry librách
+86	2686	tretina	tretine tretinu tretiny tretín
+87	2687	ves	vsi
+88	2688	relácia	relácie relácii reláciou reláciu reláciách relácií
+89	2689	nenávisť	nenávisti nenávisťou
+90	2690	vojsko	vojsk vojska vojskami vojskom vojsku vojská vojskám
+91	2691	ovocie	ovocia ovociu ovocí ovocím
+92	2692	sad	sade sadoch sadom sadov sadu sady
+93	2693	pozitívum	pozitív pozitíva pozitívna pozitívneho pozitívnej pozitívnemu pozitívni pozitívnom pozitívnou pozitívnu pozitívny pozitívnych pozitívnym pozitívnymi pozitívom
 94	2694	tvorca	tvorcami tvorcom tvorcov tvorcovi tvorcovia tvorcu
-95	2695	asociácia	asociácie asociácii asociáciou asociáciu asociácií
-96	2696	vojsko	vojsk vojska vojskami vojskom vojsku vojská vojskám
-97	2697	svedomie	svedomia svedomiu svedomí svedomím
-98	2698	prezrieť	prezrel prezrela prezreli prezri prezrie prezriem prezrieme prezriete prezrieš prezrime prezrite prezrú
-99	2699	sad	sade sadoch sadom sadov sadu sady
-100	2700	zlyhať	zlyhaj zlyhajú zlyhal zlyhala zlyhali zlyhalo zlyhá zlyhám zlyháme zlyháte zlyháš
+95	2695	točiť	netoč netočia netočil netočili netočte netočí netočíme netočíš točia točil točila točili točilo točte točí točím točíme točíte točíš
+96	2696	porušiť	neporušil neporušila neporušili neporušiť neporuší neporuším neporušíme poruš porušia porušil porušila porušili porušilo poruší poruším porušíme porušíte porušíš
+97	2697	zaneprázdnený	zaneprázdnená zaneprázdnené zaneprázdneného zaneprázdnení zaneprázdnenú zaneprázdnených
+98	2698	asociácia	asociácie asociácii asociáciou asociáciu asociácií
+99	2699	nakoľko	
+100	2700	utorok	utorka utorkom utorková utorkové utorkový utorku utorky

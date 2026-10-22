@@ -1,100 +1,100 @@
-1	6101	oliva	olivami olive olivu olivy olív
-2	6102	roztrhať	roztrhaj roztrhajte roztrhajú roztrhal roztrhala roztrhali roztrhalo roztrhá roztrhám roztrháme roztrháte roztrháš
-3	6103	opatrovať	opatroval opatrovala opatrovali opatruj opatruje opatrujem opatrujeme opatruješ opatrujte opatrujú
-4	6104	volejbal	volejbale volejbalu
-5	6105	slimák	slimačím slimáci slimáka slimákmi slimákom slimákov slimákovi slimáky slimáčik
-6	6106	nevracať	nevracaj nevracajme nevracajte nevracajú nevracal nevracala nevracali nevracia nevraciam nevraciame nevraciaš
-7	6107	podnikať	podnikajú podnikal podnikala podnikali podniká podnikám podnikáme podnikáte podnikáš
-8	6108	kaucia	kaucie kaucii kauciou kauciu kaucií
-9	6109	prostý	prostej prostá prosté prostého prostí prostú prostých prostým prostými
-10	6110	rasizmus	rasistické rasistický rasizme rasizmom rasizmu
-11	6111	metropola	metropol metropole metropolou metropolu metropoly
-12	6112	zlikvidovať	zlikvidoval zlikvidovala zlikvidovali zlikviduj zlikviduje zlikvidujem zlikvidujeme zlikvidujte zlikvidujú
-13	6113	útecha	úteche útechou útechu útechy
-14	6114	zhasnúť	zhasla zhasli zhaslo zhasne zhasnem zhasneme zhasneš zhasni zhasnite zhasnú zhasol
-15	6115	vysrať	vyser vyserie vyseriem vyserieme vyserieš vyserme vyserte vyserú vysral vysrala vysrali
-16	6116	zastihnúť	zastihla zastihli zastihlo zastihne zastihnem zastihneme zastihnete zastihneš zastihnú zastihol
-17	6117	horký	horka horkej horko horkom horku horká horké horkého horkú
-18	6118	poskytovanie	poskytovania poskytovaním
-19	6119	prevádzkovateľ	prevádzkovatelia prevádzkovateľa prevádzkovateľom prevádzkovateľov
-20	6120	monitor	monitora monitore monitoroch monitorom monitorov monitoru monitory
-21	6121	zapojenie	zapojenia zapojením
-22	6122	káčer	kačica kačicami kačice kačici kačicou kačicu kačíc káčera káčerom
-23	6123	pivovar	pivovare pivovarom pivovarov pivovaru pivovary
-24	6124	transakcia	transakcie transakcii transakciu transakciách transakcií
-25	6125	čerešňa	čerešne čerešnička čerešničkou čerešničku čerešničky čerešní čerešňami čerešňovej čerešňová čerešňové čerešňového čerešňovú čerešňový čerešňových čerešňu
-26	6126	destinácia	destinácie destinácii destináciou destináciu destinácií
-27	6127	klávesnica	klávesnice klávesnici klávesnicou klávesnicu
-28	6128	fašizmus	fašistickej fašistická fašistické fašistickí fašistickú fašistický fašistických fašistickým fašizmom fašizmu
-29	6129	búdka	búdkach búdke búdkou búdku búdky
-30	6130	prípravný	prípravnej prípravnom prípravná prípravné prípravného prípravnú prípravných
-31	6131	tupý	tupej tupo tupou tupá tupé tupého tupí tupú tupých tupým tupými
-32	6132	obuv	obuvi obuvou
-33	6133	žiarivý	najžiarivejších žiarivej žiarivom žiarivou žiarivá žiarivé žiarivého žiarivú žiarivých žiarivým žiarivými
-34	6134	zástanca	zástancami zástancom zástancov zástancovia zástancu
-35	6135	postihnutie	postihnutia postihnutiu postihnutím
-36	6136	pohltiť	pohltia pohltil pohltila pohltili pohltilo pohltí pohltím
-37	6137	čeľusť	čeľuste čeľusti čeľustí čeľusťami čeľusťou
-38	6138	zaľúbený	zaľúbená zaľúbené zaľúbení zaľúbených
-39	6139	dokumentárny	dokumentárneho dokumentárnej dokumentárnych
-40	6140	figúrka	figúrkami figúrke figúrkou figúrku figúrky figúrok
-41	6141	nákaza	nákaz nákaze nákazou nákazu nákazy
-42	6142	teniska	tenisiek teniskami teniske tenisku tenisky teniskách teniskám
-43	6143	kľudný	kľudnejšia kľudnejší kľudnom kľudná kľudné kľudného kľudní kľudnú kľudných kľudným
-44	6144	ojedinelý	ojedinelá ojedinelé ojedinelú ojedinelých ojedinelým
-45	6145	lopata	lopatami lopate lopatka lopatky lopatou lopatu lopaty
-46	6146	strmý	strmo strmom strmá strmé strmých strmým strmšie
-47	6147	rebel	rebela rebeli rebelmi rebeloch rebelom rebelov rebelovi
-48	6148	nepretržite	
-49	6149	ekonomicky	
-50	6150	predĺžiť	predĺž predĺži predĺžia predĺžil predĺžila predĺžili predĺžilo predĺžim predĺžime
-51	6151	emocionálny	emocionálna emocionálneho emocionálnej emocionálnom emocionálnou emocionálnu emocionálnych emocionálnym emocionálnymi
-52	6152	pekelný	pekelnej pekelnom pekelná pekelné pekelného pekelní pekelnú pekelných pekelným pekelnými
-53	6153	prezerať	prezerajú prezeral prezerala prezerali prezerá prezerám prezeráme prezeráte prezeráš
-54	6154	skrátiť	skráti skrátia skrátil skrátila skrátili skrátilo skrátim skrátime skráť skráťme skráťte
-55	6155	klobása	klobás klobásami klobáse klobáska klobásky klobásou klobásový klobásu klobásy
-56	6156	ľútosť	ľútosťou
-57	6157	férový	férovej férovom férová férové férového féroví férovú
-58	6158	popredie	popredia popredí
-59	6159	napadať	napadajú napadal napadali napadalo napadá
-60	6160	neplánovať	neplánoval neplánovala neplánovali neplánuj neplánuje neplánujem neplánujeme neplánujete neplánuješ neplánujú
-61	6161	hlučný	hlučne hlučnej hlučnejšie hlučnejší hlučno hlučná hlučné hlučného hluční hlučnú hlučných hlučným hlučnými
-62	6162	laň	lane lani lanie lanka lanke lanku lanky
-63	6163	príťažlivý	príťažlivou príťažlivá príťažlivé príťažlivého príťažliví príťažlivú príťažlivým
-64	6164	helma	helmami helme helmou helmu helmy helmách
-65	6165	poctivý	najpoctivejší poctivej poctivou poctivá poctivé poctivého poctiví poctivú poctivých poctivým poctivými
-66	6166	združený	združené združení združených
-67	6167	rum	rume rumom rumu rumy
-68	6168	sčasti	
-69	6169	inštalovaný	inštalovaná inštalované inštalovaných inštalovaným
-70	6170	oddychovať	oddychoval oddychovala oddychovali oddychuj oddychuje oddychujem oddychujeme oddychujete oddychuješ oddychujte oddychujú
-71	6171	jesenný	jesennej jesennom jesenná jesenné jesenného jesennú jesenných
-72	6172	pobiť	pobije pobijem pobijeme pobijete pobiješ pobijú pobil pobila pobili pobite
-73	6173	gitarista	gitaristi gitaristom gitaristov gitaristovi gitaristu
-74	6174	dostupnosť	dostupnosti
-75	6175	viedenský	viedenskej viedenskom viedenská viedenské viedenského viedenskú viedenských
-76	6176	meradlo	meradiel meradle meradlom
-77	6177	oddanosť	oddanosti oddanosťou
-78	6178	vynikajúco	
-79	6179	islamský	islamskej islamská islamské islamského islamskú islamských islamským
-80	6180	vypočúvať	vypočúva vypočúvajú vypočúval vypočúvala vypočúvali vypočúvam vypočúvame vypočúvate vypočúvaš
-81	6181	špecializovať	špecializoval špecializovala špecializovali špecializuje špecializujem špecializujeme špecializujete špecializuješ špecializujú
-82	6182	zazvoniť	zazvonia zazvonil zazvonila zazvonili zazvonilo zazvoní zazvoním zazvoníš zazvoň zazvoňte
-83	6183	guma	gume gumou gumu gumy gúm
-84	6184	zajtrajší	zajtrajšej zajtrajšia zajtrajšie zajtrajšieho zajtrajšiemu zajtrajšiu zajtrajšom zajtrajšou zajtrajších zajtrajším
-85	6185	rovnica	rovnicami rovnice rovnici rovniciach rovnicou rovnicu rovníc
-86	6186	sviatosť	sviatosti sviatostí
-87	6187	bicí	bicie bicom bicích bicími
-88	6188	kŕč	kŕča kŕče kŕči kŕčmi kŕčoch kŕčom kŕčov kŕčové
-89	6189	videoklip	videoklipe videoklipov videoklipu videoklipy
-90	6190	narušený	narušenej narušená narušené narušeného narušenú narušených
-91	6191	nemieniť	nemieni nemienia nemienil nemienila nemienim nemienime nemienite nemieniš
-92	6192	aplikovaný	aplikovanej aplikovaná aplikované aplikovanú aplikovaných
-93	6193	chudý	chudej chudo chudá chudé chudého chudí chudú chudých chudým chudými chudšia chudší najchudší
-94	6194	rozruch	rozruchom rozruchu
-95	6195	štyridsať	štyridsiatich štyridsiatimi
-96	6196	sprístupnený	sprístupnená sprístupnené
-97	6197	zámienka	zámienkami zámienkou zámienku zámienky
-98	6198	súrne	
-99	6199	lesbička	lesbickej lesbickom lesbickou lesbická lesbické lesbického lesbickú lesbický lesbických lesbičiek lesbičkami lesbičkou lesbičku lesbičky lesbičkám
-100	6200	nezostávať	nezostáva nezostávaj nezostávajte nezostávajú nezostávalo nezostávam nezostávame nezostávaš
+1	6101	aplikovaný	aplikovanej aplikovaná aplikované aplikovanú aplikovaných
+2	6102	pobrežný	pobrežnej pobrežnou pobrežná pobrežné pobrežného pobrežnú pobrežných
+3	6103	napravo	
+4	6104	oprávnenie	oprávnenia oprávnením
+5	6105	sprístupnený	sprístupnená sprístupnené
+6	6106	matrac	matraca matrace matraci matracmi matracoch matracom matracov matracu
+7	6107	spotrebiteľ	spotrebitelia spotrebiteľa spotrebiteľmi spotrebiteľom spotrebiteľov spotrebiteľovi spotrebiteľské spotrebiteľských
+8	6108	panovník	panovníci panovníka panovníkom panovníkov panovníkovi
+9	6109	záväzný	záväzná záväzné záväzného záväznú záväzných
+10	6110	garantovať	garantovali garantované garantovaný garantuje garantujem garantujeme garantujete negarantuje negarantujem
+11	6111	kláves	klávesa klávesoch klávesov klávesu klávesy
+12	6112	čudne	najčudnejšie čudnejšie
+13	6113	naj	
+14	6114	lyža	lyžami lyže lyžiach lyží
+15	6115	stredoškolský	stredoškolskej stredoškolskom stredoškolskou stredoškolská stredoškolské stredoškolského stredoškolskú stredoškolských stredoškolským
+16	6116	vnímaný	vnímaná vnímané vnímaní
+17	6117	podozrievať	nepodozrieva nepodozrievajú nepodozrieval nepodozrievala nepodozrievali nepodozrievam podozrieva podozrievajú podozrieval podozrievala podozrievali podozrievam podozrievame podozrievate podozrievaš
+18	6118	zapôsobiť	nezapôsobil nezapôsobí zapôsob zapôsobia zapôsobil zapôsobila zapôsobili zapôsobilo zapôsobí zapôsobím zapôsobíš
+19	6119	ministerka	ministerke ministerkou ministerku ministerky
+20	6120	kontrolovaný	kontrolovanej kontrolovanom kontrolovaná kontrolované kontrolovaného kontrolovaní kontrolovanú kontrolovaných kontrolovaným
+21	6121	priaznivec	priaznivcami priaznivci priaznivcom priaznivcov
+22	6122	kapusta	kapuste kapustná kapustou kapustové kapustového kapustový kapustovým kapustu kapusty
+23	6123	výčitka	výčitiek výčitkami výčitky výčitkám
+24	6124	malina	malinovej malinovi malinová malinové malinovú malinový malinu maliny malín
+25	6125	naskočiť	naskoč naskočia naskočil naskočila naskočili naskočilo naskočte naskočí naskočím naskočíme naskočíte naskočíš nenaskočí
+26	6126	ujo	uja ujko ujom ujov ujovi ujovia
+27	6127	popísaný	popísaná popísané popísaných
+28	6128	pilulka	piluliek pilulkami pilulke pilulku pilulky pilulkách
+29	6129	vtáčí	vtáčej vtáčia vtáčie vtáčieho vtáčiu vtáčom vtáčích vtáčím
+30	6130	vypuknúť	nevypukla vypukla vypukli vypukne vypuknú vypukol
+31	6131	odkladať	neodkladaj neodkladajte neodkladal neodkladať neodkladám odkladajú odkladal odkladala odkladali odkladá odkladám odkladáme odkladáte odkladáš
+32	6132	zblízka	
+33	6133	uloženie	uloženia uložením
+34	6134	dýka	dýk dýkami dýke dýkou dýku dýky
+35	6135	aktívum	aktív aktíva aktívach
+36	6136	sérum	séra sére sérom
+37	6137	udávať	udáva udávajú
+38	6138	výstupný	výstupnej výstupná výstupné výstupného výstupnú výstupných výstupným
+39	6139	príhovor	príhovore príhovoroch príhovorom príhovorov príhovoru príhovory
+40	6140	župa	župe župy žúp
+41	6141	vyznamenanie	vyznamenania vyznamenaniami vyznamenaní vyznamenaním
+42	6142	zodvihnúť	nezodvihne nezodvihneš nezodvihol zodvihla zodvihli zodvihlo zodvihne zodvihnem zodvihneme zodvihnete zodvihneš zodvihni zodvihnite zodvihnú zodvihol
+43	6143	doplnkový	doplnková doplnkové doplnkového doplnkových
+44	6144	cestovina	cestovinami cestovinou cestovinu cestoviny cestovinách cestovín
+45	6145	štíhly	štíhla štíhle štíhleho štíhlejší štíhli štíhlu štíhlych štíhlym
+46	6146	lono	lona lone
+47	6147	mína	mín mínam mínami míne mínu míny
+48	6148	postačiť	nepostačí postačia postačil postačili postačilo postačí
+49	6149	kancelár	kancelára kancelári kancelárom kancelárov kancelárovi
+50	6150	kšeft	kšefte kšeftoch kšeftom kšeftov kšeftu kšefty
+51	6151	jill	
+52	6152	vraždiť	nevraždia nevraždil nevraždí vraždia vraždil vraždila vraždili vraždilo vraždí vraždím vraždíme vraždíte vraždíš
+53	6153	naťahovať	naťahoval naťahovala naťahovali naťahovalo naťahuje naťahujem naťahujeme naťahujete naťahuješ naťahujú nenaťahuj nenaťahujte
+54	6154	spochybňovať	nespochybňoval nespochybňovali nespochybňuj nespochybňuje nespochybňujem nespochybňuješ nespochybňujte spochybňoval spochybňovala spochybňovali spochybňuje spochybňujem spochybňujeme spochybňujete spochybňuješ spochybňujú
+55	6155	vkladať	nevkladaj nevkladajte nevkladám vkladajú vkladal vkladala vkladali vkladá vkladám vkladáme vkladáte vkladáš
+56	6156	vložený	vložená vložené vložení vložených
+57	6157	magor	magora magori magormi magorom magorov magorovi
+58	6158	šunka	šunke šunkou šunku šunky
+59	6159	komár	komára komáre komármi komárom komárov
+60	6160	zasvätený	zasvätená zasvätené zasväteného zasvätení zasvätených
+61	6161	evidentne	
+62	6162	syntetický	syntetickej syntetická syntetické syntetického syntetickú syntetických
+63	6163	trestať	netrestaj netrestajte netrestá netrestám tresce tresceš trestajú trestal trestala trestali trestá trestám trestáte trestáš
+64	6164	filter	filtra filtre filtri filtroch filtrom filtrov filtru
+65	6165	systematický	systematickej systematická systematické systematického systematickú systematickým
+66	6166	divočina	divočine divočinou divočinu divočiny
+67	6167	vykonanie	vykonania vykonaniu vykonaním
+68	6168	radikálne	radikálnejšie
+69	6169	extraliga	extralige extraligu extraligy
+70	6170	väzenský	väzenskej väzenskom väzenskou väzenská väzenské väzenského väzenskému väzenskú väzenských väzenským väzenskými
+71	6171	opravený	opravená opravené opravenú
+72	6172	prepojiť	prepoj prepoja prepojil prepojila prepojili prepojte prepojí prepojím prepojíme
+73	6173	úväzok	úväzku
+74	6174	kilogram	kilogramov kilogramu kilogramy
+75	6175	komentovať	komentoval komentovala komentovali komentuje komentuješ komentujú nekomentoval nekomentuj nekomentujem
+76	6176	prijímanie	prijímania prijímaním
+77	6177	cesnak	cesnakom cesnakové cesnakového cesnakový cesnaku
+78	6178	index	indexe indexom indexov indexu indexy
+79	6179	spojovací	spojovacej spojovacia spojovacie spojovacieho spojovacích spojovacím
+80	6180	infikovaný	infikovanej infikovaná infikované infikovaného infikovaní infikovanú infikovaných infikovaným infikovanými
+81	6181	povstalec	povstalcami povstalci povstalcom povstalcov
+82	6182	zakúpiť	zakúpil zakúpila zakúpili
+83	6183	starký	starkom starkého starkému starkí starkých starkým
+84	6184	podceňovať	nepodceňoval nepodceňovať nepodceňuj nepodceňujem nepodceňujte podceňoval podceňovali podceňuje podceňujem podceňujete podceňuješ podceňujú
+85	6185	obklopovať	obklopovala obklopovali obklopovalo obklopuje obklopuješ obklopujú
+86	6186	mastný	mastná mastné mastného mastnú mastných mastnými
+87	6187	zjavný	zjavnej zjavnom zjavná zjavné zjavného zjavnému zjavnú zjavných zjavným
+88	6188	sóda	sóde sódou sódu sódy
+89	6189	porovnateľný	porovnateľná porovnateľné porovnateľnú porovnateľných
+90	6190	trebárs	
+91	6191	slabina	slabine slabinou slabinu slabiny slabinách slabinám slabín
+92	6192	archeológia	archeologické archeologický archeológie archeológii archeológiu
+93	6193	tuhé	tuhého
+94	6194	parádne	
+95	6195	maršal	maršala maršali maršalom maršalov maršalovi
+96	6196	muzika	muzike muzikou muziku muziky
+97	6197	tyran	tyrana tyrani tyranmi tyranom
+98	6198	túra	túr túre túru túry
+99	6199	obzor	obzore obzorom obzoru obzory
+100	6200	vtrhnúť	nevtrhli vtrhla vtrhli vtrhne vtrhnem vtrhneme vtrhnete vtrhneš vtrhnú vtrhol

@@ -4,21 +4,21 @@
 4	804	desať	desiati desiatich desiatim desiatimi
 5	805	návrh	návrhmi návrhoch návrhom návrhov návrhu návrhy
 6	806	futbal	fotbal futbale futbalom futbalovej futbalovom futbalovou futbalová futbalové futbalového futbalovému futbaloví futbalovú futbalový futbalových futbalovým futbalovými futbalu
-7	807	tešiť	teš tešia tešil tešila tešili tešilo tešte teší teším tešíme tešíte tešíš uteš utešil utešila utešili utešilo utešiť uteší
+7	807	tešiť	neteš netešil netešila netešilo netešte neteší neteším netešíte netešíš neuteší teš tešia tešil tešila tešili tešilo tešte teší teším tešíme tešíte tešíš uteš utešil utešila utešili utešilo utešiť uteší
 8	808	kus	kusa kuse kusisko kusmi kusoch kusom kusov kusu kusy kúsoček kúsočku kúsočky kúštik
 9	809	látka	látkach látkam látkami látke látkou látkovej látku látky látok
 10	810	predmet	predmete predmetmi predmetoch predmetom predmetov predmetu predmety
 11	811	káva	káv káve kávička kávičku kávou kávové kávový kávu kávy
-12	812	vyrobiť	vyrob vyrobenie vyrobené vyrobený vyrobia vyrobil vyrobila vyrobili vyrobilo vyrobte vyrobí vyrobím vyrobíme vyrobíte vyrobíš vyrába vyrábať
+12	812	vyrobiť	nevyrobil nevyrobila nevyrobili nevyrába nevyrábajú nevyrábali nevyrábam nevyrábame vyrob vyrobenie vyrobené vyrobený vyrobia vyrobil vyrobila vyrobili vyrobilo vyrobte vyrobí vyrobím vyrobíme vyrobíte vyrobíš vyrába vyrábať
 13	813	bežný	bežne bežnej bežnejšie bežnom bežnou bežná bežné bežného bežnému bežní bežnú bežných bežným bežnými najbežnejšie najbežnejší najbežnejších najbežnejším
-14	814	zatvoriť	zatvor zatvorenie zatvorené zatvorením zatvorený zatvoria zatvoril zatvorila zatvorili zatvorilo zatvorme zatvorte zatvorí zatvorím zatvoríme zatvoríte zatvoríš zatvára zatvárať zavierame zavierať zavrel zavrela zavreli zavrelo zavri zavrie zavriem zavrieme zavriete zavrieš zavrieť zavrime zavrite zavrú
-15	815	žiadať	žiada žiadaj žiadajte žiadajú žiadajúc žiadal žiadala žiadali žiadalo žiadam žiadame žiadate žiadaš
+14	814	zatvoriť	nezatváraj nezatvárajte nezavrel nezavreli nezavrie nezavriem nezavriete nezavrieš nezavrú zatvor zatvorenie zatvorené zatvorený zatvoria zatvoril zatvorila zatvorili zatvorme zatvorte zatvorí zatvorím zatvoríme zatvoríš zatvára zatvárať zavrel zavrela zavreli zavrelo zavri zavrie zavriem zavrieme zavriete zavrieš zavrieť zavrime zavrite zavrú
+15	815	žiadať	nežiada nežiadaj nežiadajte nežiadajú nežiadal nežiadala nežiadali nežiadam nežiadame nežiadate nežiadaš žiada žiadaj žiadajte žiadajú žiadajúc žiadal žiadala žiadali žiadalo žiadam žiadame žiadate žiadaš
 16	816	pole	poli polia poliach poliam poliami polí políčka políčko poľa poľami poľnej poľnou poľná poľné poľného poľnému poľnú poľný poľných poľným poľom poľu
 17	817	stupeň	stupne stupni stupňa stupňami stupňoch stupňom stupňov stupňu
 18	818	umenie	umenia umeniach umeniam umeniu umení umením
-19	819	hodiť	hodia hodil hodila hodili hodilo hodí hodím hodíme hodíte hodíš hoď hoďme hoďte
+19	819	hodiť	hodia hodil hodila hodili hodilo hodí hodím hodíme hodíte hodíš hoď hoďme hoďte nehodia nehodil nehodila nehodili nehodilo nehodí nehodím nehodíme nehodíte nehodíš
 20	820	príležitosť	príležitosti príležitostiach príležitostí príležitosťami príležitosťou
-21	821	vysvetliť	vysvetli vysvetlia vysvetlil vysvetlila vysvetlili vysvetlilo vysvetlime vysvetlite vysvetlí vysvetlím vysvetlíme vysvetlíte vysvetlíš
+21	821	vysvetliť	nevysvetlia nevysvetlil nevysvetlila nevysvetlili nevysvetlí nevysvetlím nevysvetlíte nevysvetlíš vysvetli vysvetlia vysvetlil vysvetlila vysvetlili vysvetlilo vysvetlime vysvetlite vysvetlí vysvetlím vysvetlíme vysvetlíte vysvetlíš
 22	822	haló	
 23	823	hlboký	hlbokej hlboko hlbokom hlbokou hlboká hlboké hlbokého hlbokému hlbokú hlbokých hlbokým hlbokými hlbšej hlbšia hlbšie hlbšieho hlbšiemu hlbšiu hlbšom hlbší hlbších hlbším najhlbšej najhlbšia najhlbšie najhlbšieho najhlbšiu najhlbšom najhlbšou najhlbší najhlbších najhlbším
 24	824	všade	
@@ -31,13 +31,13 @@
 31	831	šaty	šatami šatách šatám šiat
 32	832	okamžite	
 33	833	čína	číne čínou čínska čínske čínskeho čínskej čínskemu čínski čínskom čínskou čínsku čínsky čínskych čínskym čínskymi čínu číny číňan číňanka
-34	834	spomínať	spomína spomínaj spomínajte spomínajú spomínal spomínala spomínali spomínalo spomínam spomíname spomínate spomínaš
+34	834	spomínať	nespomína nespomínaj nespomínajte nespomínajú nespomínajúc nespomínal nespomínala nespomínali nespomínam nespomíname nespomínate nespomínaš nespomínať spomína spomínaj spomínajte spomínajú spomínal spomínala spomínali spomínalo spomínam spomíname spomínate spomínaš
 35	835	obľúbený	najobľúbenejšej najobľúbenejšia najobľúbenejšie najobľúbenejšieho najobľúbenejšiu najobľúbenejšou najobľúbenejší najobľúbenejších najobľúbenejším obľúbenej obľúbenom obľúbenou obľúbená obľúbené obľúbeného obľúbenému obľúbení obľúbenú obľúbených obľúbeným obľúbenými
-36	836	ukradnúť	kradla kradli kradlo kradne kradnem kradneme kradnete kradneš kradni kradnutie kradnutý kradnú kradnúci kradnúť kradol ukradla ukradli ukradlo ukradne ukradnem ukradneme ukradnete ukradneš ukradni ukradnime ukradnite ukradnutie ukradnuté ukradnutý ukradnú ukradol
+36	836	ukradnúť	kradla kradli kradne kradnem kradneme kradnete kradneš kradnutie kradnutý kradnú kradnúť kradol nekradla nekradne nekradnem nekradneme nekradni nekradnú nekradol neukradla neukradli neukradne neukradnem neukradneš neukradol ukradla ukradli ukradlo ukradne ukradnem ukradneme ukradnete ukradneš ukradni ukradnutie ukradnuté ukradnutý ukradnú ukradol
 37	837	planéta	planét planétach planétami planéte planétou planétu planéty
 38	838	preklad	preklade prekladoch prekladom prekladov prekladu preklady
 39	839	ohľad	ohľade ohľadoch ohľadom ohľadov ohľadu ohľady
-40	840	vydržať	vydrž vydržal vydržala vydržali vydržalo vydržia vydržte vydrží vydržím vydržíme vydržíte vydržíš
+40	840	vydržať	nevydržal nevydržala nevydržali nevydržalo nevydržia nevydrží nevydržím nevydržíme nevydržíte nevydržíš vydrž vydržal vydržala vydržali vydržalo vydržia vydržte vydrží vydržím vydržíme vydržíte vydržíš
 41	841	pieseň	piesne piesni piesní piesňach piesňam piesňami piesňou
 42	842	veliteľ	velitelia veliteľa veliteľka veliteľke veliteľkou veliteľku veliteľky veliteľmi veliteľom veliteľov veliteľovi veliteľské veliteľský
 43	843	značka	značiek značkami značke značkou značku značky značkách
@@ -55,7 +55,7 @@
 55	855	nepriateľ	nepriatelia nepriateľa nepriateľka nepriateľkou nepriateľmi nepriateľoch nepriateľom nepriateľov nepriateľovi nepriateľskej nepriateľskom nepriateľskou nepriateľsky nepriateľská nepriateľské nepriateľského nepriateľskému nepriateľskí nepriateľskú nepriateľský nepriateľských nepriateľským nepriateľskými
 56	856	video	videa videami videom videu videá videách videí
 57	857	ostrov	ostrova ostrove ostrovmi ostrovnej ostrovná ostrovné ostrovného ostrovný ostrovoch ostrovom ostrovov ostrovu ostrovy ostrovček ostrovčekov
-58	858	cestovať	cestoval cestovala cestovali cestovalo cestovania cestovanie cestovaniu cestovaní cestovaním cestuj cestuje cestujem cestujeme cestujete cestuješ cestujme cestujte cestujú cestujúca cestujúceho cestujúcemu cestujúci cestujúcich cestujúcim cestujúcimi cestujúcu pocestuje pocestujem pocestujeme pocestujete pocestuješ pocestujú
+58	858	cestovať	cestoval cestovala cestovali cestovalo cestovania cestovanie cestovaniu cestovaní cestovaním cestuj cestuje cestujem cestujeme cestujete cestuješ cestujme cestujte cestujú cestujúca cestujúceho cestujúcemu cestujúci cestujúcich cestujúcim cestujúcimi cestujúcu necestoval necestovala necestuje necestujem necestujeme necestujete pocestuje pocestujem pocestujeme pocestujete pocestuješ pocestujú
 59	859	nástroj	nástroja nástroje nástroji nástrojmi nástrojoch nástrojom nástrojov nástroju
 60	860	pohár	pohára poháre pohári pohárik pohárika pohárikoch pohárikom pohárikov poháriku poháriky pohármi pohároch pohárom pohárov pohárových poháru
 61	861	široký	najširšiu najširšom širokej širokom širokou široká široké širokého širokému širokú širokých širokým širokými širšej širšia širšieho širšiemu širšiu širšom širší širších širším
@@ -66,9 +66,9 @@
 66	866	čoskoro	
 67	867	ticho	najtichšie ticha tichu tichšie tích
 68	868	troška	troške troškou trošku trošky
-69	869	dozvedieť	dozvedel dozvedela dozvedeli dozvedelo dozvedia dozvie dozviem dozvieme dozviete dozvieš
-70	870	priviesť	privedie privediem privedieme privediete privedieš privedú priveď priveďme priveďte priviedla priviedli priviedlo priviedol
-71	871	odpovedať	neodpovedal odpovedaj odpovedajte odpovedajú odpovedal odpovedala odpovedali odpovedalo odpovedia odpovedz odpovedzte odpovedá odpovedám odpovedáme odpovedáte odpovedáš odpovie odpoviem odpovieme odpoviete odpovieš
+69	869	dozvedieť	dozvedel dozvedela dozvedeli dozvedelo dozvedia dozvie dozviem dozvieme dozviete dozvieš nedozvedel nedozvedela nedozvedeli nedozvedia nedozvie nedozviem nedozvieme nedozviete nedozvieš
+70	870	priviesť	neprivedie neprivediem neprivedieme neprivediete neprivedieš neprivedú nepriveď nepriviedla nepriviedli nepriviedlo nepriviedol privedie privediem privedieme privediete privedieš privedú priveď priveďme priveďte priviedla priviedli priviedlo priviedol
+71	871	odpovedať	neodpovedaj neodpovedajte neodpovedajú neodpovedal neodpovedala neodpovedali neodpovedať neodpovedá neodpovedám neodpovedáte neodpovedáš neodpovie neodpoviem neodpovieme neodpoviete neodpovieš odpovedaj odpovedajte odpovedajú odpovedal odpovedala odpovedali odpovedalo odpovedia odpovedz odpovedzte odpovedá odpovedám odpovedáme odpovedáte odpovedáš odpovie odpoviem odpovieme odpoviete odpovieš
 72	872	hrdina	hrdinami hrdinka hrdinke hrdinkou hrdinku hrdinky hrdinoch hrdinom hrdinov hrdinovi hrdinovia hrdinskej hrdinskom hrdinskou hrdinsky hrdinská hrdinské hrdinského hrdinskú hrdinský hrdinských hrdinským hrdinu
 73	873	cirkev	cirkvami cirkvi cirkvou cirkvách cirkvám cirkví
 74	874	niekoľký	niekoľkých niekoľkým niekoľkými
@@ -84,8 +84,8 @@
 84	884	hrozný	hrozne hroznej hroznejšie hroznejší hroznom hroznou hrozná hrozné hrozného hroznému hrozní hroznú hrozných hrozným hroznými najhroznejšia najhroznejšie najhroznejší najhroznejších
 85	885	tlak	tlakom tlakov tlaková tlakový tlaku tlaky
 86	886	zvyšok	zvyškami zvyškoch zvyškom zvyškov zvyšková zvyškové zvyškový zvyšku zvyšky
-87	887	spoznať	spoznaj spoznajme spoznajte spoznajú spoznal spoznala spoznali spoznalo spozná spoznám spoznáme spoznáte spoznáš
-88	888	predpokladať	predpokladaj predpokladajme predpokladajte predpokladajú predpokladajúc predpokladal predpokladala predpokladali predpokladalo predpokladá predpokladám predpokladáme predpokladáte predpokladáš
+87	887	spoznať	nespoznajú nespoznal nespoznala nespoznali nespozná nespoznám nespoznáme nespoznáte nespoznáš spoznaj spoznajme spoznajte spoznajú spoznal spoznala spoznali spoznalo spozná spoznám spoznáme spoznáte spoznáš
+88	888	predpokladať	nepredpokladaj nepredpokladajte nepredpokladal nepredpokladala nepredpokladali nepredpokladalo nepredpokladať nepredpokladá nepredpokladám nepredpokladáme nepredpokladáš predpokladaj predpokladajme predpokladajte predpokladajú predpokladajúc predpokladal predpokladala predpokladali predpokladalo predpokladá predpokladám predpokladáme predpokladáte predpokladáš
 89	889	hm	hmm
 90	890	orgán	orgáne orgánmi orgánoch orgánom orgánov orgánu orgány
 91	891	september	septembra septembri septembrom septembru
@@ -94,7 +94,7 @@
 94	894	spolupráca	spolupráce spolupráci spoluprácou spoluprácu
 95	895	vznik	vznikom vzniku
 96	896	rozvoj	rozvoja rozvoji rozvojom rozvoju
-97	897	hádať	háda hádaj hádajte hádajú hádal hádala hádali hádam hádame hádanie hádate hádaš
-98	898	stavať	stavaj stavajte stavajú staval stavala stavali stavalo stavania stavanie stavané stavaním stavaný stavia staviam staviame staviate staviaš stavil stavila stavili staviť stavme stavte staví stavím stavíme stavíte stavíš
+97	897	hádať	háda hádaj hádajte hádajú hádal hádala hádali hádam hádame hádanie hádate hádaš neháda nehádaj nehádajme nehádajte nehádajú nehádal nehádala nehádali nehádam nehádame nehádate nehádaš nehádať
+98	898	stavať	nestavaj nestavajte nestavajú nestaval nestavia nestaviam nestavil nestavila nestavili nestavím nestavíme nestavíš stavaj stavajú staval stavala stavali stavalo stavania stavanie stavané stavaním stavaný stavia staviam staviame staviate staviaš stavil stavila stavili staviť stavme stavte staví stavím stavíme stavíte stavíš
 99	899	technológia	technologickej technologickom technologickou technologická technologické technologického technologickú technologický technologických technologickým technologickými technológiami technológie technológii technológiou technológiu technológiách technológiám technológií
 100	900	odkaz	odkaze odkazmi odkazoch odkazom odkazov odkazu odkazy

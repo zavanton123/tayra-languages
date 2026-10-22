@@ -1,100 +1,100 @@
-1	5701	úsudok	úsudkom úsudku úsudky
-2	5702	nepovažovať	nepovažoval nepovažovala nepovažovali nepovažuj nepovažuje nepovažujem nepovažujeme nepovažujete nepovažuješ nepovažujte nepovažujú
-3	5703	prerušený	prerušená prerušené prerušení
-4	5704	pohybový	pohybovej pohybová pohybové pohybového pohybovú pohybových pohybovým
-5	5705	kúzelník	kúzelníci kúzelníka kúzelníkmi kúzelníkom kúzelníkov kúzelníkovi
-6	5706	fuj	
-7	5707	progresívny	progresívna progresívne progresívneho progresívnej progresívnych progresívnym
-8	5708	štipendium	štipendia štipendiom štipendiu štipendiá štipendií
-9	5709	pasáž	pasáže pasáži pasáží
-10	5710	celoživotný	celoživotnej celoživotná celoživotné celoživotného celoživotnú celoživotných celoživotným
-11	5711	akustický	akustickej akustická akustické akustického akustickú akustických
-12	5712	nákladiak	nákladiaka nákladiakmi nákladiakoch nákladiakom nákladiakov nákladiaku nákladiaky
-13	5713	zväčšenie	zväčšenia zväčšeniu zväčšení zväčšením
-14	5714	príhoda	príhod príhode príhodu príhody príhodách
-15	5715	prepracovaný	prepracovaná prepracované prepracovaného prepracovaní prepracovanú prepracovaných
-16	5716	algoritmus	algoritmoch algoritmom algoritmov algoritmu algoritmy
-17	5717	dokola	
-18	5718	štrnásť	štrnástich štrnástimi
-19	5719	eso	esami esá
-20	5720	uisťovať	uisťoval uisťovala uisťovali uisťuje uisťujem uisťujeme uisťujete uisťuješ uisťujú
-21	5721	liečivý	liečivé liečivú liečivých liečivými
-22	5722	tragický	najtragickejší tragickej tragickou tragická tragickú tragických tragickým
-23	5723	environmentálny	environmentálna environmentálne environmentálneho environmentálnej environmentálnom environmentálnou environmentálnych
-24	5724	neschopný	neschopne neschopnou neschopná neschopné neschopného neschopní neschopnú neschopných neschopným neschopnými
-25	5725	prispôsobený	prispôsobená prispôsobené prispôsobení
-26	5726	emocionálne	
-27	5727	klip	klipe klipov klipu klipy
-28	5728	garda	garde gardou gardu gardy
-29	5729	trinásť	trinástich trinástimi
-30	5730	sláviť	slávi slávia slávil slávili slávime
-31	5731	prúdenie	prúdenia prúdeniu prúdení prúdením
-32	5732	nahradený	nahradená nahradené nahradení
-33	5733	ukazovateľ	ukazovatele ukazovateľa ukazovateľom ukazovateľov
-34	5734	členské	členského
-35	5735	testovaný	testovaná testované testovaní testovaných testovaným
-36	5736	dodaný	dodaná dodané dodaných
-37	5737	neodchádzať	neodchádza neodchádzaj neodchádzajte neodchádzajú neodchádzal neodchádzala neodchádzam neodchádzame neodchádzate neodchádzaš
-38	5738	fíha	
-39	5739	sirota	sirotami sirote sirotou sirotu siroty sirotám sirôt sirôtka sirôtky
-40	5740	citát	citátom citátov citátu citáty
-41	5741	nepočítať	nepočíta nepočítaj nepočítajte nepočítajú nepočítajúc nepočítal nepočítala nepočítali nepočítalo nepočítam nepočítame nepočítate nepočítaš
-42	5742	husle	husliach huslí husľami
-43	5743	úmyselne	
-44	5744	evakuácia	evakuácie evakuácii evakuáciou evakuáciu
-45	5745	povolaný	povolaná povolané povolaní povolaných
-46	5746	stĺpec	stĺpca stĺpce stĺpci stĺpcoch stĺpcov
-47	5747	odovzdávať	odovzdáva odovzdávajú odovzdával odovzdávali odovzdávam odovzdávame
-48	5748	gotický	gotickej gotickom gotická gotické gotického gotických
-49	5749	mrak	mrakmi mrakoch mrakom mrakov mraku mraky
-50	5750	znečistenie	znečistenia znečisteniu znečistení znečistením
-51	5751	palacinka	palaciniek palacinkami palacinková palacinkové palacinkového palacinkový palacinku palacinky palacinkách
-52	5752	prekážať	prekáža prekážajú prekážal prekážala prekážali prekážalo prekážam prekážate prekážaš
-53	5753	uzavretie	uzavretia uzavretiu uzavretím
-54	5754	puzdro	puzdra puzdre puzdrá
-55	5755	prespať	prespal prespala prespali prespi prespia prespí prespím prespíme prespíte prespíš
-56	5756	ponad	
-57	5757	dodatok	dodatkom dodatkov dodatku dodatky
-58	5758	kotol	kotla kotle kotli kotlom kotlov kotly kotlík kotlíka kotlíku
-59	5759	nesklamať	nesklam nesklamal nesklamala nesklamali nesklame nesklamem nesklameme nesklamete nesklameš nesklamte nesklamú
-60	5760	získavanie	získavania získavaním
-61	5761	úzkosť	úzkosti úzkostiach úzkosťami úzkosťou
-62	5762	prímerie	prímeria prímeriu prímerí prímerím
-63	5763	úspora	úspor úsporami úsporu úspory úsporách
-64	5764	zubár	zubára zubári zubárka zubárkou zubármi zubárom zubárov zubárovi zubárske zubársky
-65	5765	nenápadný	nenápadne nenápadnejšie nenápadnejší nenápadná nenápadné nenápadného nenápadní nenápadnú nenápadným
-66	5766	homosexuál	homosexuála homosexuáli homosexuálmi homosexuálom homosexuálov homosexuálovi
-67	5767	vozeň	vozne vozni vozňa vozňov
-68	5768	plavky	plaviek plavkami plavkách
-69	5769	madame	
-70	5770	právnička	právničke právničkou právničku právničky
-71	5771	bingo	binga bingom bingu
-72	5772	bubon	bubna bubnami bubnoch bubnom bubnov bubnové bubny
-73	5773	pena	pene penou penové penový penu peny
-74	5774	profesia	profesie profesii profesiou profesiu profesiách profesií
-75	5775	pomýliť	pomýli pomýlia pomýlil pomýlila pomýlili pomýlilo pomýlim pomýlime pomýlite pomýliš
-76	5776	formálny	formálna formálneho formálnej formálnom formálnu formálnych formálnym
-77	5777	chladenie	chladenia chladením
-78	5778	stanovište	stanovišti stanovištia stanovištiach stanovišťa stanovíšť
-79	5779	citlivosť	citlivosti citlivosťou
-80	5780	tatra	
-81	5781	predbežný	predbežnej predbežnom predbežná predbežné predbežného predbežnú predbežných
-82	5782	čata	čate čatou čatu čaty čiat
-83	5783	monsieur	monsieura
-84	5784	nápomocný	nápomocná nápomocné nápomocní
-85	5785	preložený	preložená preložené preložení
-86	5786	vypršať	vypršal vypršala vypršali vypršalo vypršia vyprší
-87	5787	nacista	nacistami nacisti nacistka nacistky nacistoch nacistom nacistov nacistu
-88	5788	stolík	stolíka stolíkom stolíku stolíky
-89	5789	neposlať	neposlal neposlala neposlali neposlalo nepošle nepošlem nepošleme nepošlete nepošleš nepošlú
-90	5790	súdne	
-91	5791	dopravca	dopravcom dopravcov dopravcovia dopravcu
-92	5792	parazit	parazita paraziti parazitmi parazitoch parazitom parazitov parazitovi parazity
-93	5793	nevšímať	nevšíma nevšímaj nevšímajte nevšímajú nevšímal nevšímala nevšímali nevšímam nevšímame nevšímate nevšímaš
-94	5794	turčiansky	turčianska turčianske turčianskeho turčianskej turčianskom turčianskych
-95	5795	jestvovať	jestvoval jestvovala jestvovali jestvovalo jestvuje jestvujem jestvujú jestvujúce
-96	5796	otáčať	otáča otáčaj otáčajú otáčal otáčala otáčali otáčam otáčame otáčate otáčaš
-97	5797	vyjednávať	vyjednáva vyjednávajú vyjednával vyjednávala vyjednávali vyjednávam vyjednávame vyjednávate vyjednávaš
-98	5798	krycí	krycej krycia krycie krycieho kryciu krycou krycích krycím
-99	5799	obesiť	obes obesia obesil obesila obesili obesme obeste obesí obesím obesíme obesíte obesíš
-100	5800	zhlboka	
+1	5701	silnieť	silnej silnejú silnel silneli silnie
+2	5702	kompliment	komplimentmi komplimentom komplimentov komplimenty
+3	5703	kancelársky	kancelárska kancelárske kancelárskeho kancelárskej kancelárski kancelársku kancelárskych
+4	5704	únosca	únoscami únoscoch únoscom únoscov únoscovi únoscovia únoscu
+5	5705	dopravca	dopravcom dopravcov dopravcovia dopravcu
+6	5706	perie	peria perím
+7	5707	turčiansky	turčianska turčianske turčianskeho turčianskej turčianskom turčianskych
+8	5708	rakva	rakiev rakve rakvou rakvu rakvy rakvách
+9	5709	šľapka	šľapiek šľapkami šľapke šľapkou šľapku šľapky šľapkách šľapkám
+10	5710	priveľmi	
+11	5711	rezať	nerež nerežte rezal rezala rezali rezanie rezaný rež reže režem režeme režeš režte režú
+12	5712	vymenovať	vymenoval vymenovala vymenovali vymenuj vymenuje vymenujem vymenujte
+13	5713	neškodný	neškodná neškodné neškodného neškodní neškodnú neškodných neškodným
+14	5714	bezpochyby	
+15	5715	ceruzka	ceruziek ceruzkou ceruzku ceruzky
+16	5716	hypotéka	hypoték hypotékach hypotékami hypotéke hypotékou hypotéku hypotéky
+17	5717	formula	formule formulu formuly
+18	5718	nahovoriť	nahovoria nahovoril nahovorila nahovorili nahovorí nahovorím nahovoríš nenahovoril nenahovorila nenahovorili nenahovorí nenahovoríte nenahovoríš
+19	5719	nadmerný	nadmernej nadmernou nadmerná nadmerné nadmerného nadmernému nadmernú nadmerným
+20	5720	spúšťať	nespúšťa nespúšťaj nespúšťajte nespúšťal nespúšťala spúšťa spúšťaj spúšťajte spúšťajú spúšťal spúšťali spúšťam spúšťame spúšťate spúšťaš
+21	5721	sekvencia	sekvencie sekvencii sekvenciou sekvenciu sekvencií
+22	5722	neutrálny	neutrálna neutrálneho neutrálnej neutrálni neutrálnom neutrálnou neutrálnu neutrálnych neutrálnym
+23	5723	krátkodobý	krátkodobej krátkodobou krátkodobá krátkodobé krátkodobého krátkodobú krátkodobých krátkodobým
+24	5724	poranenie	poranenia poraneniam poraneniami poraneniu poranení poranením
+25	5725	dvojnásobný	dvojnásobnej dvojnásobnom dvojnásobnou dvojnásobná dvojnásobné dvojnásobného dvojnásobnú dvojnásobným
+26	5726	vykopať	nevykope vykop vykopal vykopala vykopali vykope vykopem vykopeme vykopete vykopeš vykopte vykopú
+27	5727	úkor	
+28	5728	maja	maji maju
+29	5729	detailný	detailne detailnejšie detailnejšiu detailnejší detailná detailné detailnú detailných
+30	5730	evidencia	evidencie evidencii evidenciu evidenčné
+31	5731	montáž	montáže montáži montážou
+32	5732	maličká	maličkej maličkou maličkú
+33	5733	komín	komína komíne komínmi komínom komínov komíny
+34	5734	uľaviť	neuľavilo uľav uľavil uľavili uľavilo uľaví uľavím
+35	5735	chladiaci	chladiaca chladiace chladiaceho chladiacej chladiacich chladiacom chladiacu
+36	5736	dokonalosť	dokonalosti dokonalosťou nedokonalosti nedokonalosť
+37	5737	nátlak	nátlakom nátlaku
+38	5738	metabolizmus	metabolizme metabolizmom metabolizmu
+39	5739	vzápätí	
+40	5740	prehnaný	prehnanej prehnaná prehnané prehnanú prehnaným prehnanými
+41	5741	pamäťový	pamäťovej pamäťová pamäťové pamäťového pamäťovú pamäťových
+42	5742	predpoveď	predpovede predpovedi predpovediach predpovediam predpovedí predpoveďou
+43	5743	zvieratko	zvieratiek zvieratka zvieratkami zvieratkom zvieratku zvieratká zvieratkám
+44	5744	barok	baroka barokovej barokovom baroková barokové barokového barokový barokových
+45	5745	zamýšľať	nezamýšľaj nezamýšľal nezamýšľala nezamýšľali nezamýšľam zamýšľa zamýšľajú zamýšľal zamýšľala zamýšľali zamýšľam zamýšľame zamýšľate zamýšľaš
+46	5746	žiarovka	žiaroviek žiarovkami žiarovkou žiarovku žiarovky
+47	5747	opravovať	neopravuj opravoval opravovala opravovali opravuje opravujem opravujeme opravujete opravuješ opravujú
+48	5748	úprimnosť	úprimnosti úprimnosťou
+49	5749	vyšetriť	nevyšetrí vyšetri vyšetria vyšetril vyšetrila vyšetrili vyšetrilo vyšetrite vyšetrí vyšetrím vyšetríme
+50	5750	presahovať	nepresahuje presahovali presahuje presahujú
+51	5751	kompaktný	kompaktnej kompaktná kompaktné kompaktného kompaktných
+52	5752	masaker	masakri masakrom masakrov
+53	5753	dostaviť	dostav dostavil dostavila dostavili dostavte dostaví nedostavil nedostavila nedostaví
+54	5754	adrenalín	adrenalíne adrenalínom adrenalínové adrenalínový adrenalínu
+55	5755	alkoholik	alkoholici alkoholickej alkoholická alkoholické alkoholického alkoholický alkoholických alkoholickým alkoholickými alkoholika alkoholikmi alkoholikom alkoholikov alkoholička alkoholičku
+56	5756	prevedenie	prevedenia prevedeniach prevedením
+57	5757	podprsenka	podprseniek podprsenke podprsenkou podprsenku podprsenky podprsenkách
+58	5758	mýto	mýta mýte mýtna mýtom mýtu
+59	5759	stavebníctvo	stavebníctva stavebníctve
+60	5760	zapríčiniť	zapríčinia zapríčinil zapríčinila zapríčinili zapríčinilo zapríčiní
+61	5761	prehrávať	neprehráva neprehrávam prehráva prehrávajú prehrával prehrávala prehrávali prehrávam prehrávame prehrávate prehrávaš
+62	5762	vyložiť	vylož vyložia vyložil vyložila vyložili vyložme vyložte vyloží vyložím vyložíme vyložíte vyložíš
+63	5763	terapeut	terapeuta terapeuti terapeutom terapeutov terapeutovi
+64	5764	foťák	foťáka foťákmi foťákom foťáku foťáky
+65	5765	porozumenie	porozumenia porozumeniu porozumení porozumením
+66	5766	prehlásenie	prehlásenia prehláseniu prehlásení prehlásením
+67	5767	výškový	výškovej výškové výškového výškových výškovým
+68	5768	zastihnúť	nezastihla nezastihli nezastihne nezastihnem nezastihol zastihla zastihli zastihlo zastihne zastihnem zastihneme zastihnete zastihneš zastihnú zastihol
+69	5769	spálený	spálenej spálenom spálená spálené spáleného spálení spálenú spálených
+70	5770	aplikovať	aplikoval aplikovali aplikuje aplikujem aplikujeme aplikuješ aplikujte aplikujú
+71	5771	predsieň	predsiene predsieni predsiení
+72	5772	prestup	prestupe prestupom prestupov prestupu prestupy
+73	5773	proroctvo	proroctiev proroctva proroctve proroctvom proroctvu proroctvá
+74	5774	symbolický	symbolickej symbolická symbolické symbolického symbolickú symbolických symbolickým
+75	5775	zaoberajúci	zaoberajúca zaoberajúce zaoberajúcej zaoberajúcich zaoberajúcu
+76	5776	legislatíva	legislatíve legislatívou legislatívu legislatívy
+77	5777	vymknúť	nevymkli nevymkne vymkla vymkli vymklo vymkne vymkneš vymknutý vymknú vymkol vymykať vymyká
+78	5778	pitva	pitiev pitve pitvou pitvu pitvy
+79	5779	ockov	ockova ockove ockovej ockovho ockovi ockovo ockovom ockovu ockových ockovým ockovými
+80	5780	kysucký	kysuckej kysuckom kysucká kysucké kysuckého kysuckých
+81	5781	presvedčivý	presvedčivejšia presvedčivejší presvedčivá presvedčivé presvedčiví presvedčivú presvedčivých presvedčivým
+82	5782	háj	hája háje háji
+83	5783	niekdajší	niekdajšej niekdajšia niekdajšie niekdajšieho niekdajšiu niekdajších niekdajším
+84	5784	nu	
+85	5785	záchranár	záchranára záchranári záchranármi záchranárom záchranárov
+86	5786	tabak	tabakom tabakové tabakový tabaku
+87	5787	neziskový	neziskovej nezisková neziskové neziskovú neziskových
+88	5788	vývojový	vývojovej vývojovom vývojové vývojového vývojových
+89	5789	smena	smenami smene smenou smenu smeny smenách smien
+90	5790	ideálne	najideálnejšie
+91	5791	zaznamenávať	nezaznamenáva nezaznamenávam zaznamenáva zaznamenávajú zaznamenával zaznamenávala zaznamenávali zaznamenávam zaznamenávame zaznamenávaš
+92	5792	aféra	afér aférach afére aférou aféru aféry
+93	5793	vyjednávanie	vyjednávania vyjednávaniach vyjednávaniu vyjednávaní vyjednávaním
+94	5794	izraelský	izraelskej izraelskom izraelskou izraelská izraelské izraelského izraelskí izraelskú izraelských izraelským
+95	5795	postaraný	postarané
+96	5796	registrácia	registrácie registrácii registráciou registráciu
+97	5797	fúkať	fúka fúkaj fúkajte fúkal fúkala fúkam fúkanie fúkni fúknuť nefúka
+98	5798	nielenže	
+99	5799	zviazaný	zviazaná zviazané zviazaného zviazaní zviazanú zviazaných zviazanými
+100	5800	rúž	rúže rúžom rúžové rúžový rúžu

@@ -1,100 +1,100 @@
-1	9001	nepoužiteľný	nepoužiteľná nepoužiteľné nepoužiteľní nepoužiteľných
-2	9002	nepostaviť	nepostavia nepostavil nepostavila nepostavili nepostaví nepostavím nepostavíme nepostavíte nepostavíš
-3	9003	zneužitie	zneužitia zneužitiu zneužití
-4	9004	uškodiť	uškodil uškodila uškodili uškodilo uškodí
-5	9005	veľtrh	veľtrhu veľtrhy
-6	9006	nejestvovať	nejestvoval nejestvovala nejestvuje nejestvujú
-7	9007	tkanina	tkaniny tkanín
-8	9008	horúčava	horúčav horúčave horúčavou horúčavu horúčavy horúčavách
-9	9009	racionálny	racionálneho racionálnej racionálnemu racionálni racionálnym
-10	9010	zbavovať	zbavoval zbavovali zbavuje zbavujem zbavujeme zbavujete zbavuješ zbavujú
-11	9011	rozpúšťať	rozpúšťa rozpúšťaj rozpúšťajú rozpúšťam
-12	9012	úzadie	úzadia úzadí
-13	9013	steak	steakom steakov steaku steaky
-14	9014	kobra	kobier kobrami kobre kobrou kobru kobry
-15	9015	audiovizuálny	audiovizuálne audiovizuálneho audiovizuálnej audiovizuálnych
-16	9016	počatie	počatia počatiu počatí počatím
-17	9017	mig	migy
-18	9018	prenášaný	prenášaná prenášané prenášaných
-19	9019	otlačok	otlačkami otlačkom otlačkov otlačky
-20	9020	osamelosť	osamelosti osamelosťou
-21	9021	žobrák	žobráci žobráka žobrákmi žobrákom žobrákov žobrákovi žobráčka
-22	9022	obvodný	obvodné obvodného
-23	9023	kupón	kupónmi kupónov kupóny
-24	9024	spoločensky	
-25	9025	vymenovanie	vymenovania vymenovaním
-26	9026	zhovárať	zhovára zhovárajú zhováral zhovárala zhovárali zhováram zhovárame zhovárate zhováraš
-27	9027	hnací	hnacia hnacie hnacieho hnacou hnacím
-28	9028	podložka	podložiek podložke podložku podložky
-29	9029	zriaďovateľ	zriaďovateľa zriaďovateľom
-30	9030	zablúdiť	zablúdi zablúdil zablúdila zablúdili zablúdiš
-31	9031	naliehať	nalieha naliehajú naliehal naliehala naliehali nalieham naliehame naliehate naliehaš
-32	9032	pomedzi	
-33	9033	cítenie	cítenia cítení cítením
-34	9034	švihnúť	švihli švihlo švihne švihnem švihneš švihni švihnime švihnite švihol
-35	9035	zabehnúť	zabehla zabehli zabehlo zabehne zabehnem zabehneš zabehni zabehol
-36	9036	dotknutý	dotknutá dotknuté dotknutých
-37	9037	poklop	poklope poklopom poklopu poklopy
-38	9038	vypúšťať	vypúšťa vypúšťajú vypúšťal vypúšťali vypúšťam vypúšťame vypúšťaš
-39	9039	vykročiť	vykroč vykročil vykročila vykročili vykročte vykročí vykročím vykročíme vykročíš
-40	9040	improvizovať	improvizoval improvizovala improvizovali improvizuj improvizuje improvizujem improvizujeme improvizujete improvizujte improvizujú
-41	9041	bunker	bunkra bunkre bunkri bunkroch bunkrov bunkru
-42	9042	nezahrávať	nezahráva nezahrávaj nezahrávajte nezahrával nezahrávala nezahrávam
-43	9043	diplomat	diplomata diplomati diplomatmi diplomatom diplomatov
-44	9044	ostatok	ostatkami ostatkom ostatkov ostatky
-45	9045	logo	loga logom logá
-46	9046	pokora	pokore pokorou pokoru pokory
-47	9047	utajenie	utajenia utajeniu utajením
-48	9048	prísun	prísunu
-49	9049	výslovnosť	výslovnosti výslovnosťou
-50	9050	vzniesť	vznesie vznesiem vznesieme vznesú vzniesla vzniesli vzniesol
-51	9051	polymér	polymérov polyméru polyméry
-52	9052	sporák	sporáka sporákom sporáku
-53	9053	nábojnica	nábojnicami nábojnice nábojnici nábojniciach nábojnicu nábojníc
-54	9054	sebadôvera	sebadôvere sebadôverou sebadôveru sebadôvery
-55	9055	poslíček	poslíčka poslíčkom poslíčkov poslíčkovi poslíčkovia
-56	9056	rozkazovať	rozkazoval rozkazovala rozkazuje rozkazujem rozkazujeme rozkazuješ rozkazujte rozkazujú
-57	9057	roztočiť	roztočil roztočila roztočili roztočme roztočte roztočí roztočím roztočíme
-58	9058	skorumpovaný	skorumpovanej skorumpovaná skorumpované skorumpovaného skorumpovaní skorumpovanú skorumpovaných skorumpovaným
-59	9059	poklesnúť	poklesla poklesli poklesne poklesol
-60	9060	ubytovací	ubytovacej ubytovacie ubytovacích
-61	9061	slota	slotov slotu sloty
-62	9062	impozantný	impozantnej impozantná impozantné impozantnú impozantných
-63	9063	hlbina	hlbine hlbiny hlbinách hlbín
-64	9064	charta	chartu charty
-65	9065	západne	
-66	9066	bonus	bonusom bonusov bonusy
-67	9067	extáza	extáze extázou extázu extázy
-68	9068	školné	školnom školného školnému školným
-69	9069	zameniť	zamenil zamenila zamenili zamením zameníme zameň zamieňať
-70	9070	upadať	upadajú upadal upadala upadali upadá upadám
-71	9071	konzul	konzula konzulom konzulovi
-72	9072	neopýtať	neopýta neopýtal neopýtala neopýtali neopýtam neopýtame neopýtate neopýtaš
-73	9073	mrknúť	mrkla mrkne mrknem mrkneme mrkneš mrkni mrknime mrknite mrkol
-74	9074	posilňovať	posilňoval posilňovala posilňovali posilňuje posilňujem posilňujeme posilňuješ posilňujú
-75	9075	bankomat	bankomate bankomatom bankomatov bankomatu bankomaty
-76	9076	slezina	slezine slezinu sleziny
-77	9077	rezervovaný	rezervovaná rezervované rezervovanú
-78	9078	malinký	malinkej malinká malinké malinkého malinkú malinkých malinkým
-79	9079	hosťovská	hosťovskej hosťovskou hosťovské hosťovskú
-80	9080	nevyrovnať	nevyrovnajú nevyrovnal nevyrovnala nevyrovnali nevyrovná nevyrovnám nevyrovnáme nevyrovnáš
-81	9081	vedome	
-82	9082	uspať	uspal uspala uspali uspalo uspi uspia uspite uspí uspím uspíme uspíš
-83	9083	fantóm	fantómami fantómoch fantómom fantómov fantómový fantómy
-84	9084	živnosť	živnosti
-85	9085	nevyhnutnosť	nevyhnutnosti nevyhnutnosťou
-86	9086	schvaľovať	schvaľoval schvaľovala schvaľuje schvaľujem schvaľujete schvaľuješ schvaľujú
-87	9087	neprosiť	nepros neprosil neprosila neprosili neproste neprosí neprosím neprosíme neprosíš
-88	9088	kvalitne	kvalitnejšie najkvalitnejšie
-89	9089	rozbaliť	rozbalenie rozbalil rozbalila rozbalili rozbalí rozbalím rozbalíme rozbaľ rozbaľme rozbaľovať rozbaľte
-90	9090	rozmiestnenie	rozmiestnenia
-91	9091	porušovanie	porušovania porušovaní porušovaním
-92	9092	zmier	zmieri zmieru
-93	9093	prevážať	preváža prevážajú prevážal prevážala prevážali prevážam prevážame prevážate
-94	9094	sloh	slohu slohy
-95	9095	podozrivo	podozrivejšie
-96	9096	vráska	vráskam vráskami vrásku vrásky vrások
-97	9097	genocída	genocíde genocídou genocídu genocídy
-98	9098	zrúcanina	zrúcaninu zrúcaniny
-99	9099	približný	približná približné približnú
-100	9100	rezance	rezancami rezancov
+1	9001	zámorie	zámoria zámorí
+2	9002	rodokmeň	rodokmene rodokmeni rodokmeňa rodokmeňom rodokmeňu
+3	9003	osviežiť	osviež osvieži osviežil osviežila osviežim osviežime osviežte
+4	9004	zrazenina	zrazeninou zrazeninu zrazeniny zrazeninám zrazenín
+5	9005	prekvapujúco	
+6	9006	drina	drine drinu driny
+7	9007	kolobeh	kolobehu
+8	9008	drahocenný	drahocennej drahocenná drahocenné drahocenného drahocennú drahocenných drahocenným
+9	9009	obhliadka	obhliadke obhliadkou obhliadku obhliadky
+10	9010	poštár	poštára poštári poštárom poštárov poštárovi
+11	9011	diskrétne	diskrétnejšie
+12	9012	doporučovať	doporučoval doporučuje doporučujem doporučujeme doporučujete nedoporučoval nedoporučujem
+13	9013	pohrebný	pohrebnej pohrebná pohrebnú pohrebných
+14	9014	obilnina	obilniny obilnín
+15	9015	závit	závitov závitu závity
+16	9016	čuch	čuchom čuchové čuchový čuchových čuchu
+17	9017	nepotrebný	nepotrebnej nepotrebná nepotrebné nepotrebného nepotrební nepotrebnú nepotrebných nepotrebným
+18	9018	roztiahnuť	roztiahla roztiahli roztiahne roztiahnem roztiahneme roztiahneš roztiahni roztiahnite roztiahnu roztiahol
+19	9019	zázračne	
+20	9020	mizerne	
+21	9021	triedenie	triedenia triedením
+22	9022	hlinka	hlinku
+23	9023	vyvážený	vyvážená vyvážené vyváženého vyváženú
+24	9024	vymedzovať	vymedzuje vymedzujú
+25	9025	prerušovať	neprerušuj neprerušujte prerušuje prerušujem prerušujeme prerušujete prerušuješ prerušujú
+26	9026	skladačka	skladačku skladačky
+27	9027	primitívny	najprimitívnejšia primitívna primitívneho primitívnej primitívni primitívnou primitívnu primitívnych primitívnym primitívnymi
+28	9028	ostreľovač	ostreľovača ostreľovači ostreľovačmi ostreľovačom ostreľovačov ostreľovačovi
+29	9029	napádať	napáda napádajú napádal napádala napádali napádaš
+30	9030	labyrint	labyrinte labyrintom labyrintu
+31	9031	severovýchod	severovýchode severovýchodu
+32	9032	formalita	formalitami formalite formalitou formalitu formality formalitám formalít
+33	9033	medúza	medúz medúzami medúzu medúzy
+34	9034	mikrovlnka	mikrovlnke mikrovlnkou mikrovlnku mikrovlnky
+35	9035	vykúpiť	vykúpi vykúpil vykúpila vykúpili vykúpime
+36	9036	seržantka	seržantke seržantkou seržantku seržantky
+37	9037	divoch	divocha divochmi divochom divochov divosi
+38	9038	ústranie	ústrania ústraní
+39	9039	návrhár	návrhára návrhári návrhármi návrhárom návrhárov
+40	9040	zachytenie	zachytenia
+41	9041	pseudonym	pseudonymom pseudonymov
+42	9042	diagnostický	diagnosticky diagnostická diagnostické diagnostického diagnostickú diagnostických
+43	9043	rozmazaný	rozmazaná rozmazané rozmazanú
+44	9044	letopočet	letopočtom letopočtu
+45	9045	promenáda	promenáde promenádu promenády
+46	9046	pomyslenie	pomyslenia pomyslení pomyslením
+47	9047	povrchný	povrchná povrchné povrchného povrchní povrchnú povrchných povrchným
+48	9048	kaplán	kaplána kapláni kaplánom kaplánov kaplánovi
+49	9049	šesťdesiaty	šesťdesiate šesťdesiatych
+50	9050	blcha	blchami blche blchu blchy blchám blšie blšky blšom blší bĺch
+51	9051	hvezdáreň	hvezdárne hvezdárni
+52	9052	svetielko	svetielka svetielkami
+53	9053	zahrnúť	nezahrnula zahrnie zahrniem zahrnieme zahrnul zahrnula zahrnuli zahrň
+54	9054	činidlo	činidlá
+55	9055	stolový	stolovej stolová stolové stolovú
+56	9056	dorastať	dorastajú dorastá
+57	9057	bestseller	bestsellermi bestsellerom bestsellerov bestselleru
+58	9058	milionár	milionára milionári milionármi milionárom milionárov milionárovi
+59	9059	stresovať	nestresuj nestresujte stresovala stresuje stresujem stresuješ stresujú
+60	9060	roklina	rokline roklinou roklinu rokliny
+61	9061	nevinne	
+62	9062	mraznička	mrazničke mrazničku mrazničky
+63	9063	koncentrovaný	koncentrovanej koncentrovaná koncentrované koncentrovanú
+64	9064	škodiť	neškodilo neškodí škodia škodila škodí škodíte škodíš
+65	9065	zastrašiť	nezastrašia nezastraší nezastrašíte zastrašil zastrašila zastrašili zastrašilo zastraší
+66	9066	internátny	internátna internátne internátnej internátnou internátnu internátnych
+67	9067	prepájať	prepája prepájajú prepájam prepájame
+68	9068	postávať	nepostávaj nepostávajte postáva postávajú postával postávala postávali postávam postávame postávate postávaš
+69	9069	očitý	očité očitého očití očitú očitých očitým
+70	9070	nástupište	nástupišti nástupištia nástupišťa
+71	9071	orchidea	orchidei orchideou orchideu orchidey orchideí
+72	9072	cech	cechov cechu
+73	9073	rukoväť	rukoväti rukoväťou
+74	9074	požiarnik	požiarnici požiarnika požiarnikmi požiarnikom požiarnikov
+75	9075	chúďa	chúdence chúďatá
+76	9076	lodenica	lodenice lodenici lodeniciach lodenicu lodeníc
+77	9077	vzdialiť	vzdiali vzdialil vzdialila vzdialili vzdialim vzdialime vzdialite vzdiaľ vzdiaľte
+78	9078	kriminálka	kriminálke kriminálku kriminálky
+79	9079	hrozivý	hrozivej hrozivom hrozivá hrozivé hrozivého hrozivú hrozivých hrozivým
+80	9080	hybridný	hybridné hybridného hybridných
+81	9081	dohadovať	dohadoval dohadovala dohadovali dohaduje dohadujem dohadujeme dohadujete dohaduješ dohadujú nedohadujem nedohadujeme
+82	9082	dočítať	dočíta dočítaj dočítal dočítala dočítali dočítam dočítate dočítaš nedočítal nedočítala
+83	9083	dvihnúť	dvihla dvihli dvihlo dvihne dvihnem dvihneme dvihnete dvihneš dvihni dvihnite dvihnú dvihol nedvihla nedvihneš nedvihol
+84	9084	umývanie	umývania umývaniu umývaní umývaním
+85	9085	vynoriť	vynoria vynoril vynorila vynorili vynorilo vynorí vynoríme vynoríš
+86	9086	bublinka	bubliniek bublinkami bublinku bublinky bublinkách
+87	9087	katalyzátor	katalyzátora katalyzátorom katalyzátory
+88	9088	transportný	transportnej transportnom transportná transportné transportného transportnú transportných transportným
+89	9089	výfukový	výfukové výfukového výfukových
+90	9090	psychika	psychike psychiku psychiky
+91	9091	ocot	octe octom octu
+92	9092	ozvena	ozvenou ozvenu ozveny
+93	9093	znervózňovať	neznervózňuj znervózňovala znervózňuje znervózňujem znervózňujete znervózňuješ znervózňujú
+94	9094	ohavný	najohavnejší ohavnej ohavnom ohavná ohavné ohavného ohavní ohavnú ohavných ohavným ohavnými
+95	9095	strelivo	streliva strelive strelivom
+96	9096	fľak	fliačik fľakmi fľakom fľakov fľaky
+97	9097	umývadlo	umývadiel umývadla umývadle umývadlom umývadlu umývadlá
+98	9098	majiteľka	majiteliek majiteľke majiteľkou majiteľku majiteľky
+99	9099	šimpanz	šimpanza šimpanzmi šimpanzoch šimpanzom šimpanzov šimpanzy
+100	9100	odsúdenie	odsúdenia odsúdeniu odsúdením

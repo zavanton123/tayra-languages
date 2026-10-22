@@ -1,100 +1,100 @@
-1	9401	menštruácia	menštruačné menštruačný menštruácie menštruácii menštruáciou menštruáciu
-2	9402	svetlomet	svetlometov svetlomety
-3	9403	rozpis	rozpise rozpisom rozpisu rozpisy
-4	9404	odpútať	odpúta odpútaj odpútajte odpútal odpútala odpútali odpútam
-5	9405	ohavný	najohavnejší ohavnej ohavnom ohavná ohavné ohavného ohavní ohavnú ohavných ohavným ohavnými
-6	9406	členenie	členenia
-7	9407	vozovka	vozovke vozovkou vozovky
-8	9408	eucharistia	eucharistie eucharistiu
-9	9409	tik	tikov tiku tiky
-10	9410	starnutie	starnutia starnutiu starnutí starnutím
-11	9411	presvedčivo	presvedčivejšie
-12	9412	alarm	alarmami alarme alarmom alarmov alarmu alarmy
-13	9413	zajatie	zajatia zajatiu
-14	9414	detektívny	detektívna detektívne detektívneho detektívnej detektívnom detektívnou detektívnu detektívnych
-15	9415	prednosta	prednostu
-16	9416	svetoznámy	svetoznáma svetoznáme svetoznámeho svetoznámou
-17	9417	nenastať	nenastal nenastala nenastali nenastalo nenastane nenastanú
-18	9418	pružnosť	pružnosti
-19	9419	strihať	strihaj strihajte strihajú strihal strihala strihali strihá strihám striháš
-20	9420	ustanovovať	ustanovuje ustanovujú
-21	9421	útlak	útlakom útlaku
-22	9422	uplatňovanie	uplatňovania uplatňovaní
-23	9423	pipka	pipiek pipkami pipke pipkou pipku pipky
-24	9424	neskočiť	neskoč neskočia neskočil neskočila neskočili neskočí neskočím neskočíme neskočíte neskočíš
-25	9425	chutne	chutnejšie najchutnejšie
-26	9426	vecný	vecné vecného vecných
-27	9427	novorodenec	novorodenca novorodenci novorodencom novorodencov
-28	9428	lavína	lavíne lavínou lavínu lavíny
-29	9429	kráter	krátera kráteri kráterov kráteru krátery
-30	9430	stranícky	stranícke straníckej stranícku straníckych
-31	9431	rozmnožovať	rozmnožuje rozmnožujú
-32	9432	zaparkovaný	zaparkovanom zaparkovaná zaparkované zaparkovaného zaparkovanú zaparkovaných
-33	9433	priveľký	priveľká priveľké priveľkú
-34	9434	lama	lame lamia lamiu lamou lamu lamy lám
-35	9435	románik	románikom románikov romániku romániky
-36	9436	demonštrovať	demonštroval demonštrovali demonštrovalo demonštruje demonštrujú
-37	9437	migréna	migrén migrénami migrénou migrénu migrény
-38	9438	editor	editora editore editori editormi editorom editorov editorovi
-39	9439	poučenie	poučenia poučení poučením
-40	9440	štekať	štekaj štekajú štekajúci štekal štekali štekanie šteká štekám štekáte štekáš
-41	9441	sekt	sekte sektu sekty
-42	9442	tematicky	
-43	9443	ľudovo	
-44	9444	nalákať	naláka nalákaj nalákajú nalákal nalákala nalákali nalákam nalákame
-45	9445	výboj	výboja výboje výbojmi výbojoch výbojom výbojov
-46	9446	elegantne	elegantnejšie
-47	9447	ochotne	ochotnejšie
-48	9448	stonka	stonke stonku stonky
-49	9449	okienko	okienka okienkom okienku
-50	9450	narkoman	narkomana narkomani narkomanka narkomankou narkomanky narkomanmi narkomanom narkomanov narkomanovi
-51	9451	nezobudiť	nezobudia nezobudil nezobudila nezobudili nezobudí nezobudím nezobudíme nezobudíte nezobudíš nezobuď
-52	9452	výdrž	výdrže výdrži výdržou
-53	9453	súhrnný	súhrnná súhrnné
-54	9454	neúplný	neúplná neúplné
-55	9455	jedlý	jedlom jedlá jedlé jedlého jedlú
-56	9456	panelový	panelovej panelové panelového panelových
-57	9457	talizman	talizmanmi talizmanom talizmanov talizmanu talizmany
-58	9458	búrlivý	búrlivej búrlivou búrlivá búrlivé búrlivého búrlivú búrlivých búrlivým
-59	9459	espresso	espressom
-60	9460	nezdvíhať	nezdvíha nezdvíhaj nezdvíhajte nezdvíhajú nezdvíhal nezdvíhala nezdvíhali nezdvíham nezdvíhate nezdvíhaš
-61	9461	blázniť	bláznia bláznil bláznila bláznili bláznim bláznime bláznite blázniš
-62	9462	sentimentálny	sentimentálna sentimentálne sentimentálneho sentimentálni sentimentálnu sentimentálnych sentimentálnym sentimentálnymi
-63	9463	udržateľný	udržateľnej udržateľná udržateľné udržateľného udržateľnú udržateľných
-64	9464	aleluja	
-65	9465	živnostník	živnostníkov
-66	9466	výpomoc	výpomoci
-67	9467	svalstvo	svalstva
-68	9468	zásnuby	zásnub zásnubami zásnubách zásnubám
-69	9469	čarodejníctvo	čarodejníctva čarodejníctve čarodejníctvom čarodejníctvu
-70	9470	akútne	
-71	9471	štúdiový	štúdiové štúdiových
-72	9472	metodický	metodické metodických
-73	9473	subjektívne	
-74	9474	sprostredkovateľ	sprostredkovatelia sprostredkovateľa sprostredkovateľom sprostredkovateľov
-75	9475	nadnárodný	nadnárodnej nadnárodná nadnárodné nadnárodných
-76	9476	prihrávka	prihrávku prihrávky prihrávok
-77	9477	múmia	múmiami múmie múmii múmiou múmiu múmií
-78	9478	nedýchať	nedýcha nedýchaj nedýchajte nedýchajú nedýchal nedýchala nedýcham nedýchaš
-79	9479	pričiniť	pričinením pričinil pričinili
-80	9480	povala	povale povalu povaly
-81	9481	prepravný	prepravnej prepravná prepravnú prepravných
-82	9482	neporušený	neporušená neporušené neporušenú neporušeným
-83	9483	matrika	matrike matriku matriky
-84	9484	komik	komici komikom komikov komikovi
-85	9485	ruženec	ruženca
-86	9486	nezhodovať	nezhodovala nezhodovali nezhoduje nezhodujeme nezhodujú
-87	9487	viacúčelový	viacúčelová viacúčelové
-88	9488	komfort	komforte komfortu
-89	9489	zbohatnúť	zbohatla zbohatli zbohatne zbohatnem zbohatneme zbohatnete zbohatneš zbohatni zbohatnú zbohatol
-90	9490	očista	očiste očistou očistu očisty
-91	9491	kognitívny	kognitívne kognitívneho kognitívnej kognitívnych
-92	9492	štrba	štrbe
-93	9493	variabilný	variabilná variabilné
-94	9494	autonómia	autonómie autonómiu
-95	9495	song	songom songov songu songy
-96	9496	jahňa	jahniat jahniatka jahniatko jahňacia jahňacie jahňací jahňatá
-97	9497	vykurovanie	vykurovania
-98	9498	nepatrný	nepatrnej nepatrná nepatrné nepatrnú nepatrných nepatrným
-99	9499	spokojnosť	spokojnosti spokojnosťou
-100	9500	pokročiť	pokročil pokročila pokročili pokročilo pokročí
+1	9401	vyčerpanie	vyčerpania vyčerpaniu vyčerpaním
+2	9402	povzbudenie	povzbudenia povzbudením
+3	9403	osamotený	osamotená osamotené osamoteného osamotení osamotenú osamotených
+4	9404	samuraj	samuraja samurajmi samurajom samurajov samurajovi samurajovia samurajské samurajský samurajským
+5	9405	škaredo	
+6	9406	celoročne	
+7	9407	kukla	kukiel kukle kuklu kukly kuklách
+8	9408	vyzuť	nevyzuješ nevyzúvaj vyzuj vyzuje vyzujem vyzujte vyzul vyzula vyzuli vyzúvam
+9	9409	staromódny	staromódna staromódneho staromódnej staromódni staromódnu staromódnych staromódnym
+10	9410	nenormálne	
+11	9411	presila	presile presilou presilu
+12	9412	špirála	špirále špirálou špirálu špirály
+13	9413	cop	cope copom copy
+14	9414	prípravok	prípravkom prípravkov
+15	9415	stvárniť	stvárnil stvárnila
+16	9416	kosiť	kos kosenie kosia kosil koste kosí kosím
+17	9417	osmička	osmičke osmičkou osmičku osmičky
+18	9418	kompenzácia	kompenzácie kompenzáciou kompenzáciu
+19	9419	panenský	panenskej panenská panenské panenského panenskú panenských
+20	9420	náchylný	náchylnejšie náchylnejší náchylná náchylné náchylní
+21	9421	zmyť	nezmyje nezmyješ nezmyla zmy zmyje zmyjem zmyjú zmyl zmyla zmyli zmyte
+22	9422	sociológia	sociologického sociologický sociológie sociológiu
+23	9423	čušať	čuš čušal čušte
+24	9424	zašpiniť	nezašpinil nezašpinila nezašpinili nezašpiní nezašpiním nezašpiň zašpinil zašpinila zašpinili zašpiní zašpiním zašpiníme zašpiníte zašpiníš zašpiň
+25	9425	napichnúť	napichla napichli napichne napichnem napichneme napichni napichnite napichnú napichol nenapichol
+26	9426	obezita	obezite obezitou obezitu obezity
+27	9427	rezervný	rezervnej rezervná rezervné rezervného rezervnú rezervných
+28	9428	vyjadrovanie	vyjadrovania vyjadrovaní
+29	9429	pchať	nepchaj nepchám pchajú pchal pchala pchali pchá pchám pcháte pcháš
+30	9430	magisterský	magisterské magisterského
+31	9431	trúbka	trúbkach trúbke trúbku trúbky
+32	9432	stelesnenie	stelesnením
+33	9433	punč	punči punčom punču
+34	9434	zoom	zoomom
+35	9435	predvídateľný	predvídateľná predvídateľné predvídateľní predvídateľným
+36	9436	debut	debute debutom debutu
+37	9437	záznamník	záznamníka záznamníkom záznamníku záznamníky
+38	9438	niva	nivy
+39	9439	plešatý	plešatá plešaté plešatého plešatí plešatú plešatých plešatým
+40	9440	vravievať	vravieva vravieval vravievala vravievali vravievam vravievaš
+41	9441	zamietať	zamieta zamietam
+42	9442	osvedčiť	neosvedčil osvedčil osvedčila osvedčili osvedčilo osvedčí
+43	9443	prežívanie	prežívania prežívaní prežívaním
+44	9444	prestíž	prestíže
+45	9445	moderovať	moderoval moderovala moderuje moderujem
+46	9446	schod	schodami schode schodmi schodoch schodom schodov schodík schodíkoch
+47	9447	prelomový	prelomovej prelomová prelomové prelomového prelomových prelomovým
+48	9448	miliardár	miliardára miliardári miliardárom miliardárov miliardárovi
+49	9449	severozápad	severozápade severozápadu
+50	9450	komando	komanda komande komandom komandu
+51	9451	žezlo	žezla žezlom žezlá
+52	9452	čauko	
+53	9453	ponaučenie	ponaučenia ponaučením
+54	9454	zaoblený	zaoblená zaoblené zaoblenými
+55	9455	skenovať	skenoval skenovala skenovali skenuj skenuje skenujem skenujeme skenujete skenujte skenujú
+56	9456	urýchlene	
+57	9457	odlúčenie	odlúčenia odlúčeniu odlúčením
+58	9458	zmýšľanie	zmýšľania zmýšľaní zmýšľaním
+59	9459	skalnatý	skalnatej skalnatom skalnaté skalnatých
+60	9460	zajazdiť	zajazdi zajazdil zajazdím zajazdíme
+61	9461	zbabelý	zbabelá zbabelé zbabelého zbabelí zbabelých zbabelým
+62	9462	narafičiť	narafičil narafičila narafičili narafičí nenarafičil
+63	9463	vzchopiť	vzchop vzchopil vzchopila vzchopte vzchopí vzchopíš
+64	9464	uzlina	uzlinu uzliny uzlín
+65	9465	dejisko	dejiskom
+66	9466	kontinuita	kontinuitu kontinuity
+67	9467	zasnúbenie	zasnúbenia zasnúbeniu zasnúbením
+68	9468	povojnový	povojnovej povojnovom povojnová povojnové povojnového povojnových
+69	9469	upokojovať	neupokojuje upokojoval upokojovala upokojuje upokojujem upokojuješ upokojujú
+70	9470	zákonitosť	zákonitosti zákonitostí
+71	9471	oporný	oporné oporných
+72	9472	abstraktný	abstraktné abstraktného abstraktných
+73	9473	nedostatočne	
+74	9474	nepoškvrnený	nepoškvrnenej nepoškvrnenom nepoškvrnená nepoškvrnené nepoškvrneného nepoškvrnení nepoškvrnenú nepoškvrnených
+75	9475	kolízia	kolízie kolízii kolíziu
+76	9476	fakultný	fakultnej fakultná
+77	9477	pohyblivosť	pohyblivosti pohyblivosťou
+78	9478	stojan	stojana stojane stojanom stojanu stojany
+79	9479	nadávka	nadávkam nadávkami nadávku nadávky nadávok
+80	9480	štrk	štrková štrku
+81	9481	poetický	poetickej poetická poetické poetickú
+82	9482	družina	družine družinou družinu družiny
+83	9483	časovač	časovača časovače časovačom
+84	9484	takpovediac	
+85	9485	štedrosť	štedrosti štedrosťou
+86	9486	uzávierka	uzávierke uzávierkou uzávierku uzávierky
+87	9487	oponent	oponenta oponenti oponentom oponentov oponentovi
+88	9488	zúrivý	zúrivej zúrivá zúrivé zúrivého zúriví zúrivú zúrivých zúrivým zúrivými
+89	9489	pochodovať	pochodoval pochodovala pochodovali pochodovanie pochoduj pochoduje pochodujem pochodujeme pochodujme pochodujte pochodujú pochodujúci
+90	9490	vrh	vrhu
+91	9491	znemožniť	znemožnia znemožnil znemožnila znemožnili znemožnilo znemožní
+92	9492	zadržanie	zadržania zadržaním
+93	9493	odoberať	odoberajú odoberali odoberá odoberám
+94	9494	napospas	
+95	9495	usporadúvať	usporadúva usporadúvajú usporadúval usporadúvam usporadúvame usporadúvaš
+96	9496	vyprážaný	vyprážaná vyprážané vyprážaného vyprážanú
+97	9497	dostavba	dostavbe dostavbu dostavby
+98	9498	depresívne	
+99	9499	obohatený	obohatená obohatené obohateného
+100	9500	podtitul	podtitulom

@@ -1,100 +1,100 @@
-1	5301	preletieť	preletel preletela preleteli preletelo preletia preletí preletím preletíme preletíte preletíš
-2	5302	zasiahnutý	zasiahnutej zasiahnutá zasiahnuté zasiahnutého zasiahnutí zasiahnutých
-3	5303	svätyňa	svätyne svätyni svätyňou svätyňu
-4	5304	zdediť	zdedia zdedil zdedila zdedili zdedí zdedím zdedíme zdedíte zdedíš
-5	5305	tekutý	tekutej tekutom tekutá tekuté tekutého tekutú tekutých tekutým
-6	5306	mínus	mínuse mínusu mínusy
-7	5307	mienka	mienke mienku mienky
-8	5308	set	sete setoch setov setu sety
-9	5309	úrok	úrokmi úrokoch úrokom úrokov úroku úroky
-10	5310	porozmýšľať	porozmýšľa porozmýšľaj porozmýšľajme porozmýšľajte porozmýšľal porozmýšľala porozmýšľali porozmýšľam porozmýšľame porozmýšľaš
-11	5311	tímový	tímovej tímovou tímová tímové tímového tímoví tímovú tímových tímovým
-12	5312	prototyp	prototypom prototypov prototypu prototypy
-13	5313	arcibiskup	arcibiskupa arcibiskupom arcibiskupovi
-14	5314	krivka	kriviek krivkami krivke krivkou krivku krivky
-15	5315	nepriniesť	neprinesie neprinesiem neprinesieme neprinesiete neprinesieš neprinesú nepriniesla nepriniesli neprinieslo nepriniesol
-16	5316	indium	india indiu
-17	5317	votrelec	votrelca votrelcami votrelci votrelcoch votrelcom votrelcov votrelcovi
-18	5318	systémový	systémovej systémová systémové systémového systémovú systémových systémovým
-19	5319	slaný	slanej slanou slaná slané slaného slanú slaných
-20	5320	junior	juniora juniori juniorom juniorov juniorovi
-21	5321	keramika	keramike keramikou keramiku keramiky
-22	5322	krysa	krysami kryse krysou krysu krysy krysám krýs
-23	5323	ponechať	ponechaj ponechajme ponechajte ponechajú ponechal ponechala ponechali ponechá ponechám ponecháme ponecháte ponecháš
-24	5324	spojitosť	spojitosti spojitostí
-25	5325	strážny	strážna strážne strážneho strážnej strážni strážnom strážnou strážnu strážnych strážnym
-26	5326	anonymný	anonymnej anonymnom anonymná anonymné anonymného anonymní anonymnú anonymných anonymným anonymnými
-27	5327	odovzdaný	odovzdaná odovzdané odovzdaní odovzdaných
-28	5328	klasifikácia	klasifikácie klasifikácii klasifikáciu
-29	5329	závidieť	závidel závidela závideli závidia závidí závidím závidíme závidíte závidíš
-30	5330	priehrada	priehrad priehrade priehradou priehradu priehrady
-31	5331	poslúchať	poslúcha poslúchaj poslúchajte poslúchajú poslúchal poslúchala poslúchali poslúcham poslúchame poslúchate poslúchaš
-32	5332	neschopnosť	neschopnosti neschopnosťou
-33	5333	balkón	balkóna balkóne balkónom balkónov balkónu balkóny
-34	5334	logik	logické logický
-35	5335	hodnosť	hodnosti hodností hodnosťami hodnosťou
-36	5336	epidémia	epidémie epidémii epidémiou epidémiu epidémií
-37	5337	zvoniť	zvonia zvonil zvonila zvonili zvonilo zvoní zvoním zvoníš zvoň zvoňte
-38	5338	šachta	šachtami šachte šachtou šachtu šachty šachtách šácht
-39	5339	tučniak	tučniaci tučniaka tučniakmi tučniakoch tučniakom tučniakov tučniakovi tučniaky tučniačí
-40	5340	dohliadať	dohliada dohliadaj dohliadajte dohliadajú dohliadal dohliadala dohliadali dohliadam dohliadame dohliadate dohliadaš
-41	5341	ošetriť	ošetrenia ošetrenie ošetrení ošetrený ošetri ošetria ošetril ošetrila ošetrili ošetrite ošetroval ošetrovať ošetrí ošetrím ošetríme ošetríte
-42	5342	opiť	opi opije opijem opijeme opijete opiješ opijú opil opila opili opíja opíjal opíjala opíjali opíjam opíjaš opíjať
-43	5343	rybník	rybníka rybníkom rybníkov rybníku rybníky rybníček rybníčku
-44	5344	stručný	stručná stručné
-45	5345	etický	etickej etická etické etického etickú etických
-46	5346	vyskočiť	vyskočia vyskočili vyskočilo vyskočte vyskočí vyskočím vyskočíme vyskočíte vyskočíš
-47	5347	neviesť	nepovedie nevedie nevediem nevedieme nevediete nevedieš nevedú neveď neviedla neviedli neviedlo neviedol
-48	5348	filozof	filozofa filozofi filozofom filozofov
-49	5349	dobrota	dobrotami dobrote dobrotou dobrotu dobroty dobrôt
-50	5350	páka	pák páke pákou páku páky
-51	5351	značiť	značia značil značila značilo značí značím
-52	5352	klebeta	klebetami klebete klebetou klebetu klebety klebetách klebetám klebiet
-53	5353	obchodovanie	obchodovania obchodovaniu obchodovaní obchodovaním
-54	5354	uväzniť	uväzni uväznia uväznil uväznila uväznili uväznilo uväznite uväzní uväzním uväzníme uväzníš
-55	5355	odraziť	odrazia odrazil odrazila odrazili odrazilo odrazí odrazím odrazíme odrazíte odrazíš
-56	5356	vylepšiť	vylepši vylepšia vylepšil vylepšila vylepšili vylepšilo vylepší vylepším vylepšíme vylepšíš
-57	5357	akútny	akútna akútneho akútnej akútnom akútnou akútnu akútnych
-58	5358	zraniteľný	najzraniteľnejší zraniteľnejší zraniteľnom zraniteľnou zraniteľná zraniteľné zraniteľného zraniteľní zraniteľnú zraniteľných zraniteľným zraniteľnými
-59	5359	splatiť	splatia splatil splatila splatili splatí splatím splatíme splatíte splatíš splať
-60	5360	masív	masívu
-61	5361	zemný	zemné zemného zemných
-62	5362	manuálny	manuálna manuálne manuálneho manuálnej manuálnou manuálnu
-63	5363	zoskupenie	zoskupenia zoskupením
-64	5364	odporúčanie	odporúčania odporúčaniam odporúčaniami odporúčaniu odporúčaním
-65	5365	odobrať	odober odoberie odoberiem odoberieme odoberiete odoberieš odoberte odoberú odobral odobrala odobrali odobralo
-66	5366	spúšť	spúšte spúšti spúšťou
-67	5367	tyčinka	tyčiniek tyčinke tyčinkou tyčinku tyčinky
-68	5368	oddych	oddychom oddychu
-69	5369	úroda	úrode úrodou úrodu úrody
-70	5370	absencia	absencie absencii absenciou absenciu
-71	5371	prízvuk	prízvukmi prízvukom prízvuku prízvuky
-72	5372	záves	závese závesmi závesom závesov závesu závesy
-73	5373	nadšenie	nadšenia nadšeniu nadšením
-74	5374	uľahčiť	uľahči uľahčia uľahčil uľahčila uľahčili uľahčilo uľahčí uľahčím uľahčíme uľahčíte uľahčíš
-75	5375	migrácia	migrácie migrácii migráciou migráciu
-76	5376	chlp	chlpmi chlpoch chlpov chlpy chĺpky chĺpok
-77	5377	alergický	alergickej alergická alergické alergickí alergickú alergických
-78	5378	vyradiť	vyradia vyradil vyradila vyradili vyradilo vyradí vyradím vyradíme vyraď vyraďte
-79	5379	trup	trupe trupom trupu
-80	5380	konto	kont konta konte kontu kontá kontách
-81	5381	údajný	údajnej údajnom údajnou údajná údajné údajného údajnému údajnú údajných údajným údajnými
-82	5382	vakcína	vakcín vakcínach vakcínami vakcíne vakcínou vakcínu vakcíny
-83	5383	zháňať	zháňa zháňajú zháňal zháňala zháňali zháňam zháňame zháňate zháňaš
-84	5384	pripísať	pripísal pripísala pripísali pripíš pripíše pripíšem pripíšeme pripíšte pripíšu
-85	5385	posraný	posranej posranom posranou posraná posrané posraného posranému posraní posranú posraných posraným posranými
-86	5386	pacientka	pacientkami pacientke pacientkou pacientku pacientky pacientok
-87	5387	zápcha	zápchach zápcham zápchami zápche zápchou zápchu zápchy
-88	5388	vymyslený	vymyslenej vymyslenom vymyslenou vymyslená vymyslené vymysleného vymyslení vymyslenú vymyslených vymysleným vymyslenými
-89	5389	ambícia	ambíciami ambície ambícii ambíciou ambíciu ambíciách ambíciám ambícií
-90	5390	baník	baníci baníckej banícky baníka baníkoch baníkom baníkov
-91	5391	električka	električiek električke električkou električkovej električku električky
-92	5392	prd	prde prdmi prdov prdy
-93	5393	činiteľ	činitele činitelia činiteľa činiteľmi činiteľom činiteľov
-94	5394	prenájom	prenájme prenájmom prenájmu prenájmy
-95	5395	podriadený	podriadenej podriadenou podriadená podriadené podriadeného podriadení podriadených podriadeným podriadenými
-96	5396	čistiť	čisti čistia čistil čistila čistili čistite čistím čistíme čistíte čistíš
-97	5397	vlámať	vlámal vlámala vlámali vláme vlámem vlámeme vlámete vlámeš vlámu
-98	5398	rozhlasový	rozhlasovej rozhlasová rozhlasové rozhlasového rozhlasovú rozhlasových
-99	5399	kukurica	kukurice kukurici kukuricou kukuricu
-100	5400	sobáš	sobáša sobáše sobáši sobášny sobášom sobášov sobášu
+1	5301	zoskupenie	zoskupenia zoskupením
+2	5302	zápcha	zápchach zápcham zápchami zápche zápchou zápchu zápchy
+3	5303	zemný	zemné zemného zemných
+4	5304	vsadiť	nevsadil vsadil vsadila vsadili vsadí vsadím vsadíme vsadíte vsadíš vsaď vsaďte
+5	5305	konto	kont konta konte kontu kontá kontách
+6	5306	absencia	absencie absencii absenciou absenciu
+7	5307	poznávať	nepoznávam nepoznávate nepoznávaš poznáva poznávam poznávame poznávate poznávaš
+8	5308	ambícia	ambíciami ambície ambícii ambíciou ambíciu ambíciách ambíciám ambícií
+9	5309	okradnúť	neokradli neokradol okradla okradli okradlo okradne okradnem okradneme okradnete okradneš okradni okradnú okradol
+10	5310	masív	masívu
+11	5311	náruč	náruče náruči náručou náručí
+12	5312	údajný	údajnej údajnom údajnou údajná údajné údajného údajnému údajnú údajných údajným údajnými
+13	5313	predbehnúť	nepredbehne nepredbehol predbehla predbehli predbehlo predbehne predbehnem predbehneme predbehni predbehnite predbehnú predbehol
+14	5314	kandidovať	kandidoval kandidovala kandidovali kandiduje kandidujem kandidujete kandiduješ nekandidovať nekandidujem nekandiduješ
+15	5315	pripísať	pripísal pripísala pripísali pripíš pripíše pripíšem pripíšeme pripíšte pripíšu
+16	5316	preraziť	neprerazil neprerazili neprerazí preraz prerazia prerazil prerazila prerazili prerazilo prerazí prerazím prerazíme prerazíš
+17	5317	kukurica	kukurice kukurici kukuricou kukuricu
+18	5318	hus	husi husia husiu husou husí
+19	5319	migrácia	migrácie migrácii migráciou migráciu
+20	5320	napadnutý	napadnutá napadnuté
+21	5321	prenájom	prenájme prenájmom prenájmu prenájmy
+22	5322	heroín	heroíne heroínom heroínu
+23	5323	sobáš	sobáša sobáše sobáši sobášny sobášom sobášov sobášu
+24	5324	baník	baníci baníckej banícky baníka baníkoch baníkom baníkov
+25	5325	prales	pralesa pralese pralesoch pralesom pralesov pralesu pralesy
+26	5326	podriadený	podriadenej podriadenou podriadená podriadené podriadeného podriadení podriadených podriadeným podriadenými
+27	5327	električka	električiek električke električkou električkovej električku električky
+28	5328	vzbudiť	nevzbudil nevzbudila nevzbudili nevzbudzuje vzbudil vzbudila vzbudili vzbudilo vzbudzovať vzbudzuje vzbudí vzbudím vzbudíš vzbuď
+29	5329	púť	púte púti
+30	5330	činiteľ	činitele činitelia činiteľa činiteľmi činiteľom činiteľov
+31	5331	objasniť	neobjasnil objasni objasnil objasnila objasnili objasnilo objasnime objasnite objasní objasním objasníme objasníte objasníš
+32	5332	spadať	nespadajú nespadá spadajú spadá spadáme spadáte
+33	5333	pól	póle pólov pólu póly
+34	5334	slanina	slanine slaninka slaninku slaninou slaninové slaninový slaninu slaniny
+35	5335	lôžko	lôžka lôžkami lôžkom lôžku lôžok
+36	5336	poponáhľať	nepoponáhľame poponáhľa poponáhľaj poponáhľajme poponáhľajte poponáhľal poponáhľala poponáhľali poponáhľam poponáhľame poponáhľaš
+37	5337	imunita	imunite imunitou imunitu imunity
+38	5338	rozhlasový	rozhlasovej rozhlasová rozhlasové rozhlasového rozhlasovú rozhlasových
+39	5339	latinský	latinskej latinská latinské latinského latinskú latinských latinským
+40	5340	dimenzia	dimenziami dimenzie dimenzii dimenziu dimenziách dimenzií
+41	5341	kondóm	kondómami kondómoch kondómom kondómov kondómu kondómy
+42	5342	potlačiť	potlačil potlačila potlačili potlačme potlačte potlačím potlačíme potlačíš
+43	5343	krabička	krabičiek krabičke krabičkou krabičku krabičky
+44	5344	potiahnuť	nepotiahla nepotiahnem nepotiahol potiahla potiahli potiahlo potiahne potiahnem potiahneme potiahnete potiahneš potiahni potiahnite potiahnu potiahol
+45	5345	motivácia	motivácie motivácii motiváciou motiváciu
+46	5346	poprieť	nepoprel nepoprela nepopriem nepoprieš poprel poprela popreli poprie popriem poprieme popriete poprieš poprú
+47	5347	manipulovať	manipuloval manipulovala manipulovali manipuluje manipulujem manipulujeme manipulujete manipuluješ manipulujú nemanipuloval nemanipuluj
+48	5348	ázijský	ázijskej ázijskom ázijská ázijské ázijského ázijskí ázijskú ázijských ázijským ázijskými
+49	5349	motocykel	motocykla motocykle motocykli motocyklom motocyklov motocyklovej motocyklová motocyklový motocyklových
+50	5350	sólo	sóla sóle sólom
+51	5351	odvádzať	odvádza odvádzajú odvádzal odvádzala odvádzali odvádzam odvádzame odvádzate odvádzaš
+52	5352	nadýchnuť	nadýchla nadýchli nadýchne nadýchnem nadýchneme nadýchnete nadýchneš nadýchni nadýchnime nadýchnite nadýchnu nadýchol
+53	5353	rozpad	rozpade rozpadom rozpadu
+54	5354	citrón	citróna citróne citrónom citrónov citrónová citrónový citrónu citróny
+55	5355	pohľadnica	pohľadnicami pohľadnice pohľadnici pohľadniciach pohľadnicu pohľadníc
+56	5356	urážať	neuráža neurážaj neurážajte neurážam uráža urážaj urážajú urážal urážala urážali urážalo urážam urážate urážaš
+57	5357	pokušenie	pokušenia pokušeniam pokušeniami pokušeniu pokušení pokušením
+58	5358	prepustenie	prepustenia prepusteniu prepustením
+59	5359	turbo	
+60	5360	aukcia	aukcie aukcii aukciou aukciu aukciách aukcií
+61	5361	lyžovanie	lyžovania lyžovaní
+62	5362	antický	antickej antickom antickou antická antické antického antickému antickí antickú antických antickým antickými
+63	5363	trend	trendoch trendom trendov trendu trendy
+64	5364	štatút	štatútom štatútu
+65	5365	cibuľa	cibule cibuľka cibuľou cibuľová cibuľové cibuľový cibuľu
+66	5366	zdržiavať	nezdržiavaj nezdržiavajte nezdržiaval nezdržiavali nezdržiavam zdržiava zdržiavaj zdržiavajte zdržiavajú zdržiaval zdržiavala zdržiavali zdržiavam zdržiavame zdržiavate zdržiavaš
+67	5367	meď	medi meďou
+68	5368	otáčka	otáčkach otáčkami otáčky otáčok
+69	5369	bacha	
+70	5370	hrniec	hrnca hrncami hrnce hrnci hrncom hrncov
+71	5371	zberateľ	zberatelia zberateľa zberateľmi zberateľom zberateľov zberateľovi
+72	5372	odpúšťať	neodpúšťa neodpúšťajú neodpúšťam odpúšťa odpúšťajú odpúšťam odpúšťame odpúšťaš
+73	5373	strhnúť	strhla strhli strhlo strhne strhnem strhneme strhnete strhneš strhni strhnite strhnú strhol
+74	5374	geometria	geometrické geometrický geometrie geometrii geometriou geometriu
+75	5375	obzrieť	neobzrel neobzrela neobzriem obzrel obzrela obzreli obzri obzrie obzriem obzrieme obzriete obzrieš obzrite obzrú
+76	5376	jahoda	jahodami jahodovej jahodovou jahodová jahodové jahodového jahodovú jahodový jahodovým jahodu jahody jahôd jahôdka
+77	5377	odstaviť	odstav odstavenia odstavenie odstavené odstavení odstavením odstavený odstavia odstavil odstavila odstavili odstavilo odstavte odstaví odstavím odstavíme odstavíš
+78	5378	voziť	vozenie vozia vozil vozila vozili vozí vozím vozíme vozíte vozíš
+79	5379	pomenovaný	pomenovaná pomenované pomenovaní pomenovaných
+80	5380	päťdesiat	päťdesiatich päťdesiatimi
+81	5381	drzý	drzej drzá drzé drzého drzí drzú drzých drzým drzými
+82	5382	zápasiť	nezápasil zápasia zápasil zápasila zápasili zápasí zápasím zápasíme zápasíš
+83	5383	kreditný	kreditnej kreditnou kreditná kreditné kreditnú kreditných kreditnými
+84	5384	horizontálny	horizontálna horizontálne horizontálneho horizontálnej horizontálnych
+85	5385	vyťahovať	nevyťahoval nevyťahuj nevyťahuje nevyťahujte vyťahoval vyťahovala vyťahovali vyťahuj vyťahuje vyťahujem vyťahujeme vyťahujete vyťahuješ vyťahujú
+86	5386	kvalifikovaný	kvalifikovanejší kvalifikovaná kvalifikované kvalifikovaného kvalifikovaní kvalifikovaných kvalifikovaným
+87	5387	architektonický	architektonickej architektonická architektonické architektonickú architektonickým
+88	5388	klinec	klinca klincami klince klincoch klincom klincov klinček klinčeky
+89	5389	podniknúť	nepodnikli nepodnikne nepodniknem nepodnikneme nepodniknete nepodnikol podnikla podnikli podnikne podniknem podnikneme podniknete podnikneš podniknú podnikol
+90	5390	predvádzať	nepredvádzaj nepredvádzal nepredvádzam predvádza predvádzajú predvádzal predvádzala predvádzali predvádzam predvádzate predvádzaš
+91	5391	upozorňovať	upozorňoval upozorňovala upozorňovali upozorňuje upozorňujem upozorňujeme upozorňujú
+92	5392	ilustrácia	ilustráciami ilustrácie ilustráciu ilustrácií
+93	5393	súčet	súčte súčtom súčtu
+94	5394	črta	črtami črtou črtu črty čŕt
+95	5395	namierený	namierenou namierená namierené namierenú namierených
+96	5396	preferovať	preferoval preferovala preferovali preferuje preferujem preferujeme preferujete preferuješ preferujú
+97	5397	vyhľadávať	nevyhľadával nevyhľadávala nevyhľadávam vyhľadáva vyhľadávajú vyhľadával vyhľadávala vyhľadávali vyhľadávam vyhľadávame vyhľadávate vyhľadávaš
+98	5398	plavecký	plaveckej plaveckom plavecké plaveckého plaveckých
+99	5399	zviesť	nezviedol zvedie zvediem zvedieš zveď zviedla zviedli zviedol
+100	5400	smrad	smrada smrade smradi smradom smradov smradu

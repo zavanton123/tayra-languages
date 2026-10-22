@@ -1,100 +1,100 @@
-1	7201	plaviť	plav plavia plavil plavila plavili plavte plavím plavíme plavíte plavíš
-2	7202	raketový	raketovej raketovom raketová raketové raketového raketovú raketových raketovým
-3	7203	konzultant	konzultanta konzultanti konzultantom konzultantov
-4	7204	starostlivo	
-5	7205	dreň	drene dreni dreňou dreňová
-6	7206	otáčanie	otáčania otáčaním
-7	7207	favorit	favorita favoriti favoritmi favoritom favoritov
-8	7208	špecializácia	špecializácie špecializácii špecializáciou špecializáciu
-9	7209	nefajčiť	nefajči nefajčia nefajčil nefajčila nefajčili nefajčite nefajčí nefajčím nefajčíme nefajčíte nefajčíš
-10	7210	vyvolaný	vyvolanej vyvolaná vyvolané vyvolaní vyvolaných
-11	7211	lahodný	lahodnou lahodná lahodné lahodného lahodnú lahodných
-12	7212	zástavba	zástavbe zástavbou zástavbu zástavby
-13	7213	vyhodnotiť	vyhodnocuje vyhodnotenia vyhodnotenie vyhodnotená vyhodnotením vyhodnotil vyhodnotili vyhodnotí vyhodnotím vyhodnoť
-14	7214	zriedkavo	zriedkavejšie
-15	7215	nezamestnaný	nezamestnaná nezamestnaní nezamestnaných nezamestnaným nezamestnanými
-16	7216	odvolaný	odvolaná odvolané odvolaní
-17	7217	maličké	maličkom maličkého maličkému
-18	7218	vybavenosť	vybavenosti
-19	7219	zvislý	zvislej zvislé zvislých
-20	7220	schovaný	schovaná schované schovaného schovaní schovanú schovaných
-21	7221	hypotéza	hypotéz hypotéze hypotézu hypotézy
-22	7222	karanténa	karanténe karanténou karanténu karantény
-23	7223	krútiť	krúti krútia krútil krútila krútili krútim krútime krútiš krúť
-24	7224	napätý	napätej napätá napäté
-25	7225	pestúnka	pestúnke pestúnkou pestúnku pestúnky pestúnok
-26	7226	klapka	klapiek klapkami klapku klapky
-27	7227	klientka	klientkami klientke klientkou klientku klientky
-28	7228	maľovaný	maľovanom maľovanou maľovaná maľované maľovaní maľovaných
-29	7229	abeceda	abecede abecednom abecedou abecedu abecedy
-30	7230	mozaika	mozaike mozaikou mozaiku mozaiky
-31	7231	prilákať	priláka prilákajú prilákal prilákala prilákali prilákalo prilákam prilákame prilákaš
-32	7232	protiklad	protiklade protikladom protikladov protikladu protiklady
-33	7233	zasadiť	zasadia zasadil zasadila zasadili zasadí zasadím zasadíme zasadíš zasaď
-34	7234	kontroverzný	kontroverznej kontroverznom kontroverzná kontroverzné kontroverzného kontroverznú kontroverzných kontroverzným kontroverznými
-35	7235	prevzatie	prevzatia prevzatiu prevzatím
-36	7236	nakrúcanie	nakrúcania nakrúcaní nakrúcaním
-37	7237	statok	statkoch statkov statku statky
-38	7238	akcionár	akcionára akcionári akcionármi akcionárom akcionárov
-39	7239	dožiť	dožije dožijem dožijeme dožijete dožiješ dožijú dožil dožila dožili
-40	7240	vred	vredmi vredom vredov vredu vredy
-41	7241	vinohrad	vinohrade vinohradoch vinohradov vinohradu vinohrady
-42	7242	stopka	stopiek stopkami stopke stopkou stopku stopky stopkách
-43	7243	certifikát	certifikátom certifikátu certifikáty
-44	7244	dejepis	dejepise dejepisom dejepisu
-45	7245	paralelný	paralelnej paralelnom paralelná paralelné paralelného paralelnú paralelných paralelnými
-46	7246	tepať	tep tepeš tepom tepu
-47	7247	mešita	mešite mešitu mešity mešitách
-48	7248	tip	tipe tipmi tipom tipov tipu tipy
-49	7249	štipka	štipkou štipku štipky
-50	7250	záporný	zápornej záporná záporné zápornú záporných
-51	7251	puk	pukom puku puky púčik púčika púčiky
-52	7252	fiat	
-53	7253	vedecky	
-54	7254	odvolávať	odvoláva odvolávajú odvolával odvolávam odvolávame odvolávate odvolávaš
-55	7255	rekordný	rekordnom rekordné rekordnú rekordných rekordným
-56	7256	maniak	maniaci maniaka maniakmi maniakom maniakov maniakovi
-57	7257	sedatívum	sedatív sedatíva sedatívach sedatívam sedatívami sedatívom
-58	7258	veterinár	veterinára veterinári veterinárom veterinárov veterinárovi
-59	7259	staviteľ	stavitelia staviteľa staviteľom staviteľov
-60	7260	vegetácia	vegetácie vegetáciou vegetáciu
-61	7261	zneškodniť	zneškodni zneškodnil zneškodnila zneškodnili zneškodnite zneškodní zneškodním zneškodníme zneškodníš
-62	7262	šál	šále šálmi šálom šálu šály
-63	7263	formovanie	formovania formovaniu
-64	7264	ošetrovňa	ošetrovne ošetrovni ošetrovňou ošetrovňu
-65	7265	spätý	spätá späté spätú
-66	7266	začiatočník	začiatočníci začiatočníka začiatočníkom začiatočníkov
-67	7267	glukóza	glukózu glukózy
-68	7268	privilégium	privilégia privilégiami privilégiom privilégiá privilégií
-69	7269	spotrebný	spotrebnej spotrebná spotrebné spotrebného spotrebných
-70	7270	nezákonný	nezákonnej nezákonná nezákonné nezákonného nezákonnému nezákonnú nezákonných nezákonným nezákonnými
-71	7271	parížsky	parížska parížske parížskeho parížskej parížskom parížsku parížskych
-72	7272	nebezpečie	nebezpečia nebezpečiu nebezpečí nebezpečím
-73	7273	dovoz	dovoze dovozom dovozu
-74	7274	interpret	interpreta interpreti interpretom interpretov
-75	7275	vypínač	vypínača vypínače vypínačom vypínačov
-76	7276	zaviazaný	zaviazaná zaviazané zaviazaní zaviazanými
-77	7277	vyplnený	vyplnená vyplnené vyplnenú
-78	7278	hospodárenie	hospodárenia hospodárení
-79	7279	nukleárny	nukleárna nukleárne nukleárneho nukleárnej nukleárnom nukleárnou nukleárnu nukleárnych nukleárnym nukleárnymi
-80	7280	ekológia	ekológie ekológii ekológiu
-81	7281	zazrieť	zazrel zazrela zazreli zazrie zazriem zazrieme zazriete zazrieš
-82	7282	dvojročný	dvojročnej dvojročná dvojročné dvojročného dvojročnú
-83	7283	odskočiť	odskoč odskočil odskočila odskočili odskočí odskočím odskočíme
-84	7284	jas	jasom jasu
-85	7285	nábrežie	nábrežia nábreží
-86	7286	pospať	pospal pospala pospali pospi pospime pospite pospí pospím pospíme pospíš
-87	7287	nezničiť	neznič nezničia nezničil nezničila nezničili nezničilo nezničte nezničí nezničím nezničíme nezničíte nezničíš
-88	7288	večerať	večerajú večeral večerala večerali večeriame večeriate večeriaš
-89	7289	hangár	hangára hangáre hangári hangároch hangárov hangáru
-90	7290	luxus	luxuse luxusom luxusu
-91	7291	skoncovať	skoncoval skoncovala skoncovali skoncuj skoncuje skoncujem skoncujeme skoncuješ skoncujme skoncujte skoncujú
-92	7292	prevádzkovaný	prevádzkovaná prevádzkované prevádzkovaných
-93	7293	nepokaziť	nepokaz nepokazia nepokazil nepokazila nepokazili nepokazilo nepokazme nepokazte nepokazí nepokazím nepokazíme nepokazíte nepokazíš
-94	7294	pripomínajúci	pripomínajúca pripomínajúce pripomínajúcich
-95	7295	ohňostroj	ohňostroja ohňostroje ohňostroji ohňostrojom ohňostrojov
-96	7296	zhrnúť	zhrniem zhrnieme zhrnul zhrnula zhrnuli zhrň zhrňme zhrňte
-97	7297	imidž	imidži imidžom imidžu
-98	7298	ekosystém	ekosystéme ekosystémov ekosystému ekosystémy
-99	7299	nesúhlas	nesúhlasom nesúhlasu
-100	7300	vyhovieť	vyhovej vyhovejú vyhovel vyhovela vyhoveli vyhovie vyhoviem vyhovieme vyhoviete vyhovieš
+1	7201	úradníkov	úradníkovi
+2	7202	vyústiť	vyústi vyústil vyústila vyústili vyústilo
+3	7203	spôsobilosť	spôsobilosti
+4	7204	nestály	nestála nestále nestáli
+5	7205	deformácia	deformácie deformácii deformáciu
+6	7206	mikroskop	mikroskope mikroskopické mikroskopický mikroskopom mikroskopu mikroskopy
+7	7207	znázorňovať	znázorňuje znázorňujú
+8	7208	plodnosť	plodnosti plodnosťou
+9	7209	nižný	nižnej nižnom nižná
+10	7210	net	nete netu
+11	7211	zápalka	zápaliek zápalkami zápalkou zápalku zápalky
+12	7212	stý	stou sté stého stých stým stými
+13	7213	opozičný	opozičnej opozičná opozičné opozičného opozičných
+14	7214	združovať	združuje združujú
+15	7215	karpatský	karpatskej karpatská karpatské karpatského karpatských
+16	7216	výtlačok	výtlačkov výtlačku výtlačky
+17	7217	rozpustiť	nerozpustí rozpusti rozpustia rozpustil rozpustila rozpustili rozpustilo rozpustite rozpustí rozpustím rozpustíme rozpustíš rozpusť
+18	7218	ceremónia	ceremónie ceremónii ceremóniou ceremóniu ceremónií
+19	7219	zloduch	zloducha zloduchmi zloduchom zloduchov zloduchovi zloduchovia
+20	7220	ventilátor	ventilátora ventilátore ventilátorom ventilátoru ventilátory
+21	7221	maminka	maminke maminkou maminku maminky
+22	7222	návštevnosť	návštevnosti
+23	7223	smrtiaci	smrtiaca smrtiace smrtiaceho smrtiacej smrtiacich smrtiacim smrtiacimi smrtiacom smrtiacou smrtiacu
+24	7224	ekológ	ekologické ekologický ekológovia
+25	7225	čaro	čara čarami čarom čaru
+26	7226	palma	paliem palmami palmou palmu palmy palmách
+27	7227	aktualizovaný	aktualizovaná aktualizované aktualizovaní
+28	7228	zatykač	zatykača zatykače zatykači zatykačom zatykačov
+29	7229	povel	povely
+30	7230	nainštalovaný	nainštalovaná nainštalované
+31	7231	polička	poličiek poličke poličku poličky poličkách
+32	7232	prekliatie	prekliatia prekliatiu prekliatí prekliatím
+33	7233	excelencia	excelencie excelencii excelenciu
+34	7234	odovzdávanie	odovzdávania odovzdávaní
+35	7235	indiánsky	indiánska indiánske indiánskeho indiánskej indiánski indiánskom indiánskou indiánsku indiánskych indiánskym indiánskymi
+36	7236	nijak	
+37	7237	petícia	petície petícii petíciou petíciu
+38	7238	pripiť	pripi pripijem pripijeme pripil pripila pripili pripime pripite
+39	7239	skafander	skafandra skafandre skafandri skafandroch skafandrov skafandru
+40	7240	nálož	nálože náloží
+41	7241	skládka	skládkach skládke skládku skládky skládok
+42	7242	kuriér	kuriéra kuriéri kuriérom kuriérov kuriérovi
+43	7243	zneužiť	nezneužijem nezneužijete nezneužil zneužije zneužiješ zneužijú zneužil zneužila zneužili
+44	7244	vždycky	
+45	7245	rozplakať	nerozplakal nerozplač nerozplačem nerozplačeš rozplakal rozplakala rozplakali rozplakalo rozplače rozplačem rozplačeš rozplačú
+46	7246	sáčok	sáčkoch sáčkov sáčky
+47	7247	odstúpenie	odstúpeniu odstúpení odstúpením
+48	7248	nedostupný	nedostupná nedostupné nedostupného nedostupnú nedostupných
+49	7249	vyrovnávať	nevyrovnáva vyrovnáva vyrovnávajú vyrovnával vyrovnávali vyrovnávam vyrovnávame vyrovnávate vyrovnávaš
+50	7250	olovo	olova olove olovom
+51	7251	nadčas	nadčasmi nadčasoch nadčasom nadčasov nadčasy
+52	7252	spomaľovať	nespomaľuj nespomaľuje nespomaľujte spomaľoval spomaľovala spomaľuje spomaľujem spomaľujeme spomaľuješ spomaľujú
+53	7253	oddeľovať	oddeľoval oddeľovali oddeľuje oddeľujem oddeľujeme oddeľujú
+54	7254	scenárista	scenáristi scenáristka scenáristom scenáristov scenáristu
+55	7255	analytický	analytickej analytická analytické analytických
+56	7256	priložiť	prilož priložil priložila priložili priložte priloží priložím priložíme priložíš
+57	7257	šašo	šaša šaškov šašom šašov šašovi šašovia
+58	7258	živobytie	živobytia živobytiu živobytím
+59	7259	osprchovať	osprchoval osprchovala osprchuj osprchuje osprchujem osprchuješ osprchujte
+60	7260	rektor	rektora rektorom rektorovi
+61	7261	pohov	
+62	7262	čudák	čudáci čudáka čudákmi čudákom čudákov čudákovi
+63	7263	datovať	datovanie datovaná datované datovaný datuje datujú
+64	7264	archeológ	archeologička archeologičku archeológa archeológom archeológov archeológovia
+65	7265	materiálny	materiálneho materiálnej materiálnych materiálnym
+66	7266	pekáreň	pekárne pekárni pekárňou
+67	7267	zábradlie	zábradlia zábradliu zábradlí zábradlím
+68	7268	sadlo	sadla
+69	7269	odporovať	neodporoval neodporovala neodporovali neodporuj neodporujem neodporujte odporoval odporovala odporovali odporuje odporujete odporuješ odporujú
+70	7270	zvrátiť	nezvráti zvráti zvrátil zvrátila zvrátili zvrátilo zvrátim
+71	7271	šípka	šípkach šípkami šípkou šípku šípky šípok
+72	7272	rovnomerne	
+73	7273	kliešť	kliešte klieští kliešťa kliešťami kliešťov
+74	7274	schytať	neschytal neschytá schytajú schytal schytala schytali schytalo schytá schytám schytáme schytáte schytáš
+75	7275	hydraulický	hydraulickej hydraulické hydraulického hydraulických
+76	7276	splátka	splátkach splátkami splátkou splátku splátky splátok
+77	7277	zvonka	
+78	7278	kriminalita	kriminalite kriminalitou kriminalitu kriminality
+79	7279	neznesiteľný	neznesiteľnej neznesiteľnou neznesiteľná neznesiteľné neznesiteľného neznesiteľní neznesiteľnú neznesiteľných neznesiteľným neznesiteľnými
+80	7280	raný	ranej ranom rané raného raní raných
+81	7281	konfrontácia	konfrontácie konfrontácii konfrontáciu
+82	7282	nespokojný	nespokojná nespokojné nespokojného nespokojní nespokojných nespokojným
+83	7283	komplikovať	komplikovalo komplikuje komplikujem komplikujete komplikuješ komplikujú nekomplikuj nekomplikujme nekomplikujte
+84	7284	stabilizácia	stabilizácie stabilizácii stabilizáciu
+85	7285	manuál	manuáli manuálom manuálu manuály
+86	7286	fakticky	
+87	7287	nanajvýš	
+88	7288	diskriminácia	diskriminácie diskriminácii diskrimináciu
+89	7289	krížnik	krížnika krížnikmi krížnikom krížnikov krížniku krížniky
+90	7290	kúzelný	kúzelnej kúzelnom kúzelnou kúzelná kúzelné kúzelného kúzelnému kúzelnú kúzelných kúzelným kúzelnými
+91	7291	vynahradiť	vynahradia vynahradil vynahradila vynahradí vynahradím vynahradíme vynahradíš
+92	7292	nespravodlivý	nespravodlivá nespravodlivé nespravodlivému nespravodlivú nespravodlivých nespravodlivým
+93	7293	doplnenie	doplnením
+94	7294	zostarnúť	nezostarla nezostarli nezostarne nezostarnem nezostarneš nezostarnú nezostarnúť nezostarol zostarla zostarli zostarne zostarnem zostarneme zostarnete zostarneš zostarnú zostarol
+95	7295	hymna	hymnou hymnu hymny
+96	7296	detekcia	detekcie detekcii detekciu
+97	7297	sprej	spreja spreje spreji sprejom spreju
+98	7298	revízia	revízie revízii revíziu
+99	7299	pasta	paste pastou pastu pasty pást
+100	7300	gay	gaya gaymi gayoch gayom gayov gayovia

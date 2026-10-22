@@ -1,100 +1,100 @@
-1	4801	prevencia	prevencie prevencii prevenciou prevenciu
-2	4802	vrana	vranami vrane vranou vranov vranu vrany vranách vranám vrán
-3	4803	spravodajský	spravodajskej spravodajskom spravodajskou spravodajská spravodajské spravodajského spravodajskú spravodajských spravodajským spravodajskými
-4	4804	luxusný	luxusnej luxusnom luxusná luxusné luxusného luxusnú luxusných luxusným luxusnými
-5	4805	kauza	kauze kauzu kauzy káuz
-6	4806	pražský	pražskej pražskom pražská pražské pražského pražských
-7	4807	príjemne	najpríjemnejšie príjemnejšie
-8	4808	recepcia	recepcie recepcii recepciou recepciu recepcií
-9	4809	nákupný	nákupnej nákupnom nákupná nákupné nákupného nákupnú nákupných nákupným
-10	4810	hasičský	hasičskej hasičskom hasičskou hasičská hasičské hasičského hasičskú hasičských hasičským
-11	4811	stabilita	stabilite stabilitou stabilitu
-12	4812	otrava	otrave otravou otravu otravy
-13	4813	zhodnúť	zhodla zhodli zhodneme zhodnete zhodnú zhodol
-14	4814	reportáž	reportáže reportáži reportážou reportáží
-15	4815	diéta	diétami diéte diétnu diétny diétou diétu diéty
-16	4816	totožnosť	totožnosti totožností totožnosťou
-17	4817	para	parou paru pary
-18	4818	evolúcia	evolučnej evolučný evolúcie evolúcii evolúciou evolúciu
-19	4819	podrobne	podrobnejšie
-20	4820	bielizeň	bielizne bielizni bielizňou
-21	4821	ideológia	ideologické ideologický ideológie ideológii ideológiou ideológiu
-22	4822	odroda	odrodu odrody odrôd
-23	4823	líška	líške líškou líšku líšky líšok líštička líščej líščí
-24	4824	naliehavý	naliehavej naliehavejšiu naliehavou naliehavá naliehavé naliehavého naliehavú naliehavých naliehavým naliehavými
-25	4825	inscenácia	inscenácie inscenácii inscenáciu inscenáciách inscenácií
-26	4826	odhalený	odhalená odhalené odhalení odhalených
-27	4827	výbušnina	výbušninami výbušnine výbušninou výbušninu výbušniny výbušninách výbušnín
-28	4828	protest	protestami proteste protestmi protestoch protestom protestov protestu protesty
-29	4829	dunajský	dunajskej dunajská dunajské
-30	4830	emisia	emisiami emisie emisií
-31	4831	útočný	útočnej útočnom útočnou útočná útočné útočného útočnú útočných
-32	4832	odtrhnúť	odtrhla odtrhli odtrhlo odtrhne odtrhnem odtrhneme odtrhnete odtrhneš odtrhni odtrhnite odtrhnú odtrhol
-33	4833	prehliadač	prehliadača prehliadače prehliadači prehliadačom prehliadačov
-34	4834	stíhačka	stíhačiek stíhačkami stíhačke stíhačkou stíhačku stíhačky stíhačkách stíhačkám
-35	4835	nástupca	nástupcom nástupcov nástupcovi nástupcu
-36	4836	hrudník	hrudníka hrudníkom hrudníku
-37	4837	spustený	spustená spustené spustení spustenými
-38	4838	jedenásť	jedenástich jedenástimi
-39	4839	ovplyvnený	ovplyvnená ovplyvnené ovplyvnení ovplyvnených
-40	4840	kravata	kravatami kravate kravatou kravatu kravaty kravatách kravát
-41	4841	obhajca	obhajcami obhajcom obhajcov obhajcovi obhajcovia obhajcu
-42	4842	harmónia	harmónie harmónii harmóniu harmónií
-43	4843	ochranca	ochrancami ochrancom ochrancov ochrancovia ochrancu
-44	4844	päta	pätami päte pätiek pätou pätu päty pätách
-45	4845	anketa	ankete anketu ankety
-46	4846	katedrála	katedrále katedrálou katedrálu katedrály
-47	4847	výhodný	najvýhodnejší výhodnej výhodná výhodné výhodného výhodnú výhodných
-48	4848	zablokovať	zablokoval zablokovala zablokovali zablokovalo zablokuj zablokuje zablokujem zablokujeme zablokujete zablokuješ zablokujte zablokujú
-49	4849	zodpovedajúci	zodpovedajúca zodpovedajúce zodpovedajúceho zodpovedajúcej zodpovedajúcich zodpovedajúcim zodpovedajúcu
-50	4850	ovládaný	ovládanej ovládaná ovládané ovládaného ovládaní ovládanú ovládaných
-51	4851	pomenovanie	pomenovania pomenovaniu pomenovaním
-52	4852	sliepka	slepačia slepačí sliepkach sliepkam sliepkami sliepke sliepkou sliepku sliepky sliepok sliepočka sliepočku sliepočky
-53	4853	klimatický	klimatickej klimatická klimatické klimatickú klimatických klimatickým klimatickými
-54	4854	amatérsky	amatérska amatérske amatérskeho amatérskej amatérski amatérskom amatérsku amatérskych
-55	4855	kométa	komét kométe kométou kométu kométy
-56	4856	vybojovať	vybojoval vybojovala vybojovali vybojuje vybojujem vybojujeme vybojujú
-57	4857	neostať	neostal neostala neostali neostalo neostane neostanem neostaneme neostanete neostaneš neostanú
-58	4858	operovať	operoval operovala operovali operuje operujem operujeme operujete operuješ operujú
-59	4859	dobehnúť	dobehla dobehli dobehne dobehnem dobehneme dobehnete dobehneš dobehni dobehnú dobehol
-60	4860	psychiater	psychiatra psychiatrami psychiatri psychiatrom
-61	4861	vodka	vodiek vodke vodkou vodku vodky
-62	4862	vyhľadávanie	vyhľadávania vyhľadávaniu vyhľadávaní vyhľadávaním
-63	4863	prechodný	prechodnom prechodná prechodné prechodného prechodnú prechodných prechodným
-64	4864	citovať	citoval citovala citovali cituje citujem citujete cituješ citujú
-65	4865	formulár	formulára formuláre formulári formulároch formulárom formulárov formuláru
-66	4866	odporučiť	odporuč odporučil odporučila odporučili odporučte odporučí odporučím odporučíš
-67	4867	beta	bete betu bety
-68	4868	súťažný	súťažnej súťažná súťažné súťažného súťažnú súťažných
-69	4869	skalný	skalnej skalnom skalnou skalná skalné skalného skalných skalným skalnými
-70	4870	satan	satana satanom satanov satanovi satanské satanskú satanský satanských
-71	4871	pečať	pečate pečati pečatí pečaťou
-72	4872	hlina	hline hlinou hlinu hliny
-73	4873	anténa	antén anténe anténou anténu antény
-74	4874	zdobený	zdobená zdobené
-75	4875	schôdza	schôdzach schôdze schôdzi schôdzu
-76	4876	svorka	svoriek svorkami svorke svorkou svorku svorky svorkách
-77	4877	rozdielne	
-78	4878	klavír	klavíra klavíri klavírne klavírny klavírom klavíru klavíry
-79	4879	volant	volante volantom volantu
-80	4880	cyklista	cyklisti cyklistov cyklistu
-81	4881	integrácia	integrácie integrácii integráciou integráciu
-82	4882	krehký	krehkej krehkejšia krehkom krehkou krehká krehké krehkého krehkí krehkú krehkých krehkým
-83	4883	vskutku	
-84	4884	blokovať	blokoval blokovala blokovali blokovalo blokovanie blokovaný blokuj blokuje blokujem blokujeme blokujete blokuješ blokujte blokujú
-85	4885	membrána	membrán membráne membránou membránu membrány
-86	4886	potopiť	potop potopia potopil potopila potopili potopilo potopte potopí potopím potopíme potopíte potopíš
-87	4887	vizuálny	vizuálna vizuálneho vizuálnej vizuálnom vizuálnu vizuálnych vizuálnym
-88	4888	viezť	povezie poveziem povezieš vez vezenie vezie veziem vezieme veziete vezieš vezme vezú viezla viezli viezlo viezol
-89	4889	spolužiak	spolužiaci spolužiaka spolužiakmi spolužiakom spolužiakov spolužiakovi spolužiačka spolužiačkami spolužiačkou spolužiačku spolužiačky spolužiačok
-90	4890	prerušenie	prerušenia prerušeniu prerušením
-91	4891	plienka	plienkach plienkami plienke plienkou plienku plienky plienok
-92	4892	bezdomovec	bezdomovca bezdomovcami bezdomovci bezdomovcoch bezdomovcom bezdomovcov bezdomovcovi
-93	4893	liečenie	liečenia liečeniu liečení liečením
-94	4894	pocítiť	pocíti pocítia pocítil pocítila pocítili pocítim pocítime pocítite pocítiš pocíť
-95	4895	terorizmus	teroristický teroristických terorizme terorizmom terorizmu
-96	4896	pojebaný	pojebanej pojebanom pojebanou pojebaná pojebané pojebaného pojebaní pojebanú pojebaných pojebaným pojebanými
-97	4897	čistota	čistote čistotou čistotu čistoty
-98	4898	zápästie	zápästia zápästiach zápästiu zápästný zápästí zápästím
-99	4899	dodržiavať	dodržiava dodržiavaj dodržiavajte dodržiavajú dodržiaval dodržiavala dodržiavali dodržiavam dodržiavame dodržiavate dodržiavaš
-100	4900	darca	darcami darcom darcov darcovi darcovia darcu
+1	4801	prehliadač	prehliadača prehliadače prehliadači prehliadačom prehliadačov
+2	4802	zodpovedajúci	zodpovedajúca zodpovedajúce zodpovedajúceho zodpovedajúcej zodpovedajúcich zodpovedajúcim zodpovedajúcu
+3	4803	kométa	komét kométe kométou kométu kométy
+4	4804	satan	satana satanom satanov satanovi satanské satanskú satanský satanských
+5	4805	pomenovanie	pomenovania pomenovaniu pomenovaním
+6	4806	anketa	ankete anketu ankety
+7	4807	amatérsky	amatérska amatérske amatérskeho amatérskej amatérski amatérskom amatérsku amatérskych
+8	4808	svorka	svoriek svorkami svorke svorkou svorku svorky svorkách
+9	4809	beta	bete betu bety
+10	4810	vyhľadávanie	vyhľadávania vyhľadávaniu vyhľadávaní vyhľadávaním
+11	4811	klimatický	klimatickej klimatická klimatické klimatickú klimatických klimatickým klimatickými
+12	4812	pečať	pečate pečati pečatí pečaťou
+13	4813	vybojovať	vybojoval vybojovala vybojovali vybojuje vybojujem vybojujeme vybojujú
+14	4814	čurák	čuráci čuráka čurákmi čurákom čurákov čurákovi
+15	4815	vskutku	
+16	4816	krehký	krehkej krehkejšia krehkom krehkou krehká krehké krehkého krehkí krehkú krehkých krehkým
+17	4817	volant	volante volantom volantu
+18	4818	klavír	klavíra klavíri klavírne klavírny klavírom klavíru klavíry
+19	4819	hlina	hline hlinou hlinu hliny
+20	4820	prechodný	prechodnom prechodná prechodné prechodného prechodnú prechodných prechodným
+21	4821	zmrd	zmrda zmrdi zmrdmi zmrdom zmrdov zmrdovi
+22	4822	bezdomovec	bezdomovca bezdomovcami bezdomovci bezdomovcoch bezdomovcom bezdomovcov bezdomovcovi
+23	4823	rozdielne	
+24	4824	schôdza	schôdzach schôdze schôdzi schôdzu
+25	4825	plienka	plienkach plienkami plienke plienkou plienku plienky plienok
+26	4826	anténa	antén anténe anténou anténu antény
+27	4827	whisky	
+28	4828	prezliecť	neprezlečieš neprezliekla neprezliekol prezleč prezlečie prezlečiem prezlečieme prezlečiete prezlečieš prezlečte prezlečú prezliekla prezliekli prezliekol
+29	4829	skalný	skalnej skalnom skalnou skalná skalné skalného skalných skalným skalnými
+30	4830	spolužiak	spolužiaci spolužiaka spolužiakmi spolužiakom spolužiakov spolužiakovi spolužiačka spolužiačkami spolužiačkou spolužiačku spolužiačky spolužiačok
+31	4831	zamestnať	nezamestnajú nezamestnal nezamestná zamestnaj zamestnajte zamestnajú zamestnal zamestnala zamestnali zamestnalo zamestná zamestnám zamestnáme zamestnáš
+32	4832	liečenie	liečenia liečeniu liečení liečením
+33	4833	oddať	najoddanejší najoddanejších oddaj oddal oddala oddali oddanej oddanou oddaná oddané oddaného oddaní oddanú oddaný oddaných oddaným oddanými oddá oddám oddáva oddávajú oddával oddávam oddávate oddávať
+34	4834	zápästie	zápästia zápästiach zápästiu zápästný zápästí zápästím
+35	4835	súťažný	súťažnej súťažná súťažné súťažného súťažnú súťažných
+36	4836	darca	darcami darcom darcov darcovi darcovia darcu
+37	4837	žaba	žabacie žabami žabe žabie žabka žabou žabu žaby žabí žabích žiab
+38	4838	terorizmus	teroristický teroristických terorizme terorizmom terorizmu
+39	4839	dvojča	dvojčatami dvojčatá dvojčatách dvojčaťa dvojčaťom dvojčiat
+40	4840	poslúchať	neposlúcha neposlúchaj neposlúchajú neposlúchal neposlúchala neposlúchali neposlúcham neposlúchate neposlúchaš neposlúchať poslúcha poslúchaj poslúchajte poslúchajú poslúchal poslúchala poslúchali poslúcham poslúchame poslúchate poslúchaš
+41	4841	pripustiť	nepripusti nepripustia nepripustil nepripustila nepripustili nepripustí nepripustím nepripustíme nepripustíte nepripustíš pripusti pripustil pripustila pripustili pripustime pripustite pripustí pripustím pripustíme pripustíš pripusť pripusťme
+42	4842	kontajner	kontajnera kontajneri kontajnermi kontajneroch kontajnerom kontajnerov kontajneru kontajnery
+43	4843	zdobený	zdobená zdobené
+44	4844	nepokoj	nepokoja nepokoje nepokoji nepokojmi nepokojoch nepokojom nepokojov
+45	4845	odpadky	odpadkami odpadkoch odpadkom odpadkov
+46	4846	vizuálny	vizuálna vizuálneho vizuálnej vizuálnom vizuálnu vizuálnych vizuálnym
+47	4847	prerušenie	prerušenia prerušeniu prerušením
+48	4848	žrať	nežer nežerie nežeriem nežerú nežrali žerie žeriem žerieme žeriete žerieš žerte žerú žral žrala žrali žralo
+49	4849	zastrelený	zastrelená zastrelené zastreleného zastrelení zastrelenú zastrelených
+50	4850	čistota	čistote čistotou čistotu čistoty
+51	4851	spracovať	nespracoval spracoval spracovala spracovali spracuj spracuje spracujem spracujeme spracujete spracuješ spracujú
+52	4852	cyklista	cyklisti cyklistov cyklistu
+53	4853	zaniknúť	nezanikne zanikla zanikli zaniklo zanikne zaniknú zanikol
+54	4854	membrána	membrán membráne membránou membránu membrány
+55	4855	granát	granátmi granátom granátov granátu granáty
+56	4856	integrácia	integrácie integrácii integráciou integráciu
+57	4857	osloviť	neoslovil neoslovila neoslovili oslovia oslovil oslovila oslovili oslovilo oslovte osloví oslovím oslovíme oslovíte oslovíš
+58	4858	pýcha	pýche pýchou pýchu pýchy
+59	4859	horizont	horizonte horizontom horizontu horizonty
+60	4860	súcit	súcite súcitom súcitu
+61	4861	naznačiť	naznač naznačil naznačila naznačili naznačilo naznačte naznačí naznačím naznačíš nenaznačil nenaznačila
+62	4862	ničí	ničej ničiu
+63	4863	vetva	vetiev vetvami vetve vetvička vetvičky vetvou vetvu vetvy vetvách
+64	4864	zabíjanie	zabíjania zabíjaniu zabíjaním
+65	4865	návnada	návnad návnadami návnade návnadou návnadu návnady
+66	4866	prehnať	neprehnal neprehnala neprehnali nepreženie neprežeň neprežeňte prehnal prehnala prehnali prehnalo preženie preženiem preženieme preženieš preženú
+67	4867	vyniesť	nevyniesli vynes vynesie vynesiem vynesieme vynesiete vynesieš vyneste vynesú vyniesla vyniesli vynieslo vyniesol
+68	4868	alibi	
+69	4869	balón	balóna balóne balónik balóniky balónmi balónoch balónom balónov balónové balónový balónu balóny
+70	4870	kaziť	kazia kazil kazila kazili kazí kazím kazíme kazíte kazíš nekaz nekazme nekazte nekazí nekazím
+71	4871	rovnosť	rovnosti rovnosťou
+72	4872	bankovka	bankoviek bankovkami bankovke bankovkou bankovku bankovky bankovkách
+73	4873	hromada	hromade hromadou hromadu hromady
+74	4874	kolekcia	kolekcie kolekcii kolekciou kolekciu
+75	4875	vysielačka	vysielačiek vysielačkami vysielačke vysielačkou vysielačku vysielačky vysielačkách
+76	4876	prudko	
+77	4877	mráz	mraze mrazom mrazov mrazu mrazy mrazík mráza
+78	4878	odplata	odplate odplatou odplatu odplaty
+79	4879	riasa	rias riasami riasy
+80	4880	motel	motela moteli moteloch motelom motelov motelu motely
+81	4881	ubytovanie	ubytovania ubytovaním
+82	4882	nasrať	naser naserie naseriem naseriete naserieš naserte naserú nasral nasrala nasrali nasralo nenaser nenasral
+83	4883	oprávnený	oprávnenej oprávnenou oprávnená oprávnené oprávneného oprávnení oprávnenú oprávnených oprávneným
+84	4884	hodváb	hodvábe hodvábna hodvábne hodvábnej hodvábnou hodvábnu hodvábny hodvábnych hodvábom hodvábu
+85	4885	front	fronte frontoch frontom frontu fronty
+86	4886	mydlo	mydla mydle mydlom mydlá
+87	4887	dovolať	dovolal dovolala dovolali dovolám dovoláš nedovolal nedovolala nedovoláš
+88	4888	katolík	katolíci katolíka katolíkmi katolíkom katolíkov
+89	4889	nanič	
+90	4890	schodisko	schodiska schodiskom schodisku schodiská
+91	4891	lokálne	
+92	4892	priechod	priechode priechodom priechodov priechodu priechody
+93	4893	kriminálny	kriminálna kriminálne kriminálneho kriminálnej kriminálni kriminálnom kriminálnou kriminálnu kriminálnych kriminálnym kriminálnymi
+94	4894	uznaný	uznaná uznané uznaní uznaných
+95	4895	satelitný	satelitnej satelitnom satelitná satelitné satelitného satelitnú satelitných satelitným
+96	4896	fontána	fontán fontáne fontánou fontánu fontány
+97	4897	uznesenie	uznesenia uznesení uznesením
+98	4898	slovanský	slovanskej slovanskom slovanská slovanské slovanského slovanských slovanským
+99	4899	kašeľ	kašle kašli kašľa kašľom kašľu
+100	4900	uviaznuť	neuviazol uviazla uviazli uviazlo uviazne uviaznem uviazneme uviaznete uviazneš uviaznu uviazol

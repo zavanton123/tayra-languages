@@ -1,100 +1,100 @@
-1	2001	poľský	poľskej poľskom poľskou poľsky poľská poľské poľského poľskí poľskú poľských poľským poľskými
-2	2002	diabol	diabla diabli diablik diabloch diablom diablov diablovi diabolskej diabolskom diabolskou diabolská diabolské diabolského diabolskému diabolskí diabolskú diabolský diabolských diabolským diabolskými
-3	2003	mužstvo	mužstiev mužstva mužstvami mužstve mužstvom mužstvu mužstvá
-4	2004	populárny	najpopulárnejšia najpopulárnejšou najpopulárnejší najpopulárnejších najpopulárnejším populárna populárneho populárnej populárnejšia populárnejší populárni populárnou populárnu populárnych populárnym populárnymi
-5	2005	zoznámiť	zoznám zoznámi zoznámia zoznámil zoznámila zoznámili zoznámim zoznámime zoznámite zoznámiš zoznámte
-6	2006	juh	juhom juhu
-7	2007	zaviesť	zavedie zavediem zavedieme zavediete zavedieš zavedú zaveď zaveďme zaveďte zaviedla zaviedli zaviedlo zaviedol
-8	2008	formát	formáte formátoch formátom formátov formátu formáty
-9	2009	okuliare	okuliarmi okuliaroch okuliarom okuliarov
-10	2010	pozorovať	pozoroval pozorovala pozorovali pozorovalo pozoruj pozoruje pozorujem pozorujeme pozorujete pozoruješ pozorujte pozorujú pozorujúc
-11	2011	ťah	ťahmi ťahoch ťahom ťahov ťahu ťahy
-12	2012	tlačiť	tlačenia tlačenie tlačené tlačením tlačený tlačia tlačiac tlačiaci tlačil tlačila tlačili tlačilo tlačte tlačí tlačím tlačíme tlačíte tlačíš
-13	2013	ustúpiť	ustúp ustúpi ustúpia ustúpil ustúpila ustúpili ustúpilo ustúpim ustúpime ustúpite ustúpiš ustúpme ustúpte
-14	2014	temný	najtemnejšej najtemnejšia najtemnejšie najtemnejšieho najtemnejšiu najtemnejšom najtemnejší najtemnejších najtemnejším temna temne temnej temnejšia temnejší temno temnom temnou temná temné temného temnému temní temnú temných temným temnými
-15	2015	tesne	tesnejšie
-16	2016	minister	ministra ministrami ministri ministrom ministrov ministrovi
-17	2017	nerozumieť	nerozumejú nerozumel nerozumela nerozumeli nerozumie nerozumieme nerozumiete nerozumieš
-18	2018	totálny	totálna totálne totálneho totálnej totálnemu totálni totálnom totálnou totálnu totálnych totálnym
-19	2019	finále	
-20	2020	zatknúť	zatkla zatkli zatklo zatkne zatknem zatkneme zatknete zatkneš zatkni zatknime zatknite zatknú zatkol
-21	2021	násilie	násilia násiliu násilí násilím
-22	2022	akadémia	akadémie akadémii akadémiou akadémiu akadémiách akadémií
-23	2023	vzadu	
-24	2024	strieborný	striebornej striebornom striebornou strieborná strieborné strieborného striebornú strieborných strieborným striebornými
-25	2025	vzdelávanie	vzdelávania vzdelávaniu vzdelávaní vzdelávaním
-26	2026	starosta	starostom starostovia starostu
-27	2027	výchova	výchove výchovou výchovu výchovy
-28	2028	strelec	strelca strelcami strelci strelcoch strelcom strelcov strelcovi streleckej strelecká strelecké streleckého strelecký streleckých strelkyňa
-29	2029	posúvať	posunie posuniem posunieme posuniete posunieš posunul posunula posunuli posunulo posunú posunúť posuň posuňme posuňte posúva posúvaj posúvajte posúvajú posúval posúvala posúvali posúvam posúvame posúvanie posúvaním posúvate posúvaš
-30	2030	okamih	okamihmi okamihoch okamihom okamihov okamihu okamihy
-31	2031	zachovať	zachovaj zachovajme zachovajte zachovajú zachoval zachovala zachovali zachovalo zachová zachovám zachováme zachováte zachováš
-32	2032	odviesť	odvedie odvediem odvedieme odvediete odvedieš odvedú odveď odveďme odveďte odviedla odviedli odviedlo odviedol
-33	2033	štandardný	štandardnej štandardnom štandardnou štandardná štandardné štandardného štandardnú štandardných štandardným štandardnými
-34	2034	gratulovať	gratuloval gratuluje gratulujem gratulujeme gratulujte gratulujú
-35	2035	hrozba	hrozbami hrozbe hrozbou hrozbu hrozby hrozbách hrozbám hrozieb
-36	2036	zlodej	zlodeja zlodeji zlodejka zlodejkou zlodejky zlodejmi zlodejoch zlodejom zlodejov zlodejovi zlodejská zlodejské zlodejského zlodejskí zlodejskú zlodejský zlodejským
-37	2037	farebný	farebnej farebnom farebnou farebná farebné farebného farební farebnú farebných farebným farebnými
-38	2038	ľudstvo	ľudstva ľudstve ľudstvom ľudstvu
-39	2039	deliť	delenia delenie delené delení delením delený delia deliace delil delila delili delilo delí delím delíme delíte delíš
-40	2040	dlh	dlhmi dlhoch dlhom dlhov dlhu dlhy
-41	2041	špinavý	najšpinavšie špinavej špinavom špinavou špinavá špinavé špinavého špinaví špinavú špinavých špinavým špinavými špinavšia špinavšie špinavší
-42	2042	lev	leva levej levia levica levice leviciach levie levieho leviu levmi levoch levom levov levovej levovi levy leví levíc levím
-43	2043	politik	politici politikmi politikoch politikom politikov politikovi politička političkou
-44	2044	kino	kina kine kinom kiná kinách kín
-45	2045	zrkadlo	zrkadiel zrkadla zrkadlami zrkadle zrkadlom zrkadlu zrkadlá zrkadlách
+1	2001	dolina	doline dolinou dolinu doliny dolinách dolín
+2	2002	juh	juhom juhu
+3	2003	pápež	pápeža pápeži pápežom pápežov pápežovej pápežovho pápežovi pápežovo pápežskej pápežská pápežské pápežského pápežskú pápežský pápežských
+4	2004	temný	najtemnejšej najtemnejšia najtemnejšie najtemnejšieho najtemnejšiu najtemnejšom najtemnejší najtemnejších najtemnejším temna temne temnej temnejšia temnejší temno temnom temnou temná temné temného temnému temní temnú temných temným temnými
+5	2005	okuliare	okuliarmi okuliaroch okuliarom okuliarov
+6	2006	zachovať	nezachoval nezachovali zachovaj zachovajme zachovajte zachovajú zachoval zachovala zachovali zachovalo zachová zachovám zachováme zachováte zachováš
+7	2007	ťah	ťahmi ťahoch ťahom ťahov ťahu ťahy
+8	2008	populárny	najpopulárnejšia najpopulárnejšou najpopulárnejší najpopulárnejších najpopulárnejším populárna populárneho populárnej populárnejšia populárnejší populárni populárnou populárnu populárnych populárnym populárnymi
+9	2009	poľský	poľskej poľskom poľskou poľsky poľská poľské poľského poľskí poľskú poľských poľským poľskými
+10	2010	rozbiť	nerozbi nerozbije nerozbijem nerozbiješ nerozbil nerozbila nerozbili nerozbilo nerozbite nerozbiť rozbi rozbije rozbijem rozbijeme rozbijete rozbiješ rozbijú rozbil rozbila rozbili rozbilo rozbite rozbitia rozbitie rozbitiu rozbité rozbitím rozbitý rozbíja rozbíjajú rozbíjal rozbíjali rozbíjam rozbíjaš rozbíjať
+11	2011	odviesť	neodvedie neodvediem neodvedieš neodviedli neodviedol odvedie odvediem odvedieme odvediete odvedieš odvedú odveď odveďme odveďte odviedla odviedli odviedlo odviedol
+12	2012	totálny	totálna totálne totálneho totálnej totálnemu totálni totálnom totálnou totálnu totálnych totálnym
+13	2013	mužstvo	mužstiev mužstva mužstvami mužstve mužstvom mužstvu mužstvá
+14	2014	tesne	tesnejšie
+15	2015	vzadu	
+16	2016	posúvať	neposunie neposuniem neposunieme neposunieš neposunula neposunuli posunie posuniem posunieme posuniete posunieš posunul posunula posunuli posunulo posunú posunúť posuň posuňme posuňte posúva posúvaj posúvajte posúvajú posúval posúvala posúvali posúvam posúvame posúvanie posúvaním posúvate posúvaš
+17	2017	žartovať	nežartoval nežartovala nežartovali nežartuj nežartuje nežartujem nežartujeme nežartujete nežartuješ nežartujte nežartujú žartoval žartovala žartovali žartuj žartuje žartujem žartujeme žartujete žartuješ žartujú
+18	2018	formát	formáte formátoch formátom formátov formátu formáty
+19	2019	násilie	násilia násiliu násilí násilím
+20	2020	minister	ministra ministrami ministri ministrom ministrov ministrovi
+21	2021	gratulovať	gratuloval gratuluje gratulujem gratulujeme gratulujte gratulujú
+22	2022	zlodej	zlodeja zlodeji zlodejka zlodejkou zlodejky zlodejmi zlodejoch zlodejom zlodejov zlodejovi zlodejská zlodejské zlodejského zlodejskí zlodejskú zlodejský zlodejským
+23	2023	starosta	starostom starostovia starostu
+24	2024	akadémia	akadémie akadémii akadémiou akadémiu akadémiách akadémií
+25	2025	finále	
+26	2026	strelec	strelca strelcami strelci strelcoch strelcom strelcov strelcovi streleckej strelecká strelecké streleckého strelecký streleckých strelkyňa
+27	2027	deliť	delenia delenie delené delení delením delený delia deliace delil delila delili delilo delí delím delíme delíte delíš nedelia nedelil nedelí nedelím nedelíme nedeľ
+28	2028	dosahovať	dosahoval dosahovala dosahovali dosahuje dosahujem dosahujeme dosahuješ dosahujú nedosahuje nedosahujú
+29	2029	strieborný	striebornej striebornom striebornou strieborná strieborné strieborného striebornú strieborných strieborným striebornými
+30	2030	špinavý	najšpinavšie špinavej špinavom špinavou špinavá špinavé špinavého špinaví špinavú špinavých špinavým špinavými špinavšia špinavšie špinavší
+31	2031	hrozba	hrozbami hrozbe hrozbou hrozbu hrozby hrozbách hrozbám hrozieb
+32	2032	okamih	okamihmi okamihoch okamihom okamihov okamihu okamihy
+33	2033	premeniť	nepremenil nepremenila nepremenili nepremení nepremením nepremeníš premenenie premenené premenený premenia premenil premenila premenili premenilo premení premením premeníme premeníte premeníš premeň premieňa premieňať
+34	2034	výchova	výchove výchovou výchovu výchovy
+35	2035	vzdelávanie	vzdelávania vzdelávaniu vzdelávaní vzdelávaním
+36	2036	dlh	dlhmi dlhoch dlhov dlhu dlhy
+37	2037	ľudstvo	ľudstva ľudstve ľudstvom ľudstvu
+38	2038	riskovať	neriskoval neriskovala neriskovali neriskovať neriskuj neriskuje neriskujem neriskujete neriskuješ neriskujte neriskujú riskoval riskovala riskovali riskuj riskuje riskujem riskujeme riskujete riskuješ riskujú riskujúc
+39	2039	štandardný	štandardnej štandardnom štandardnou štandardná štandardné štandardného štandardnú štandardných štandardným štandardnými
+40	2040	lev	leva levej levia levica levice leviciach levie levieho leviu levmi levoch levom levov levovej levovi levy leví levíc levím
+41	2041	prekvapiť	neprekvapil neprekvapila neprekvapilo neprekvapí neprekvapíte neprekvapíš prekvap prekvapia prekvapil prekvapila prekvapili prekvapilo prekvapte prekvapí prekvapím prekvapíme prekvapíte prekvapíš
+42	2042	búrka	búrkach búrkam búrkami búrke búrkou búrková búrkové búrkového búrkový búrkových búrku búrky búrok
+43	2043	láskavosť	láskavosti láskavostí láskavosťami láskavosťou
+44	2044	farebný	farebnej farebnom farebnou farebná farebné farebného farební farebnú farebných farebným farebnými
+45	2045	čeliť	nečelil nečelila nečelili čelia čeliac čelil čelila čelili čelilo čelí čelím čelíme čelíte čelíš čeľ čeľme čeľte
 46	2046	bezpečne	bezpečnejšie najbezpečnejšie
-47	2047	búrka	búrkach búrkam búrkami búrke búrkou búrková búrkové búrkového búrkový búrkových búrku búrky búrok
-48	2048	hala	hale halou halu haly halách hál
-49	2049	medicína	medicíne medicínou medicínu medicíny
-50	2050	spôsobený	spôsobenej spôsobenou spôsobená spôsobené spôsobeného spôsobenému spôsobenú spôsobených spôsobeným
-51	2051	chladný	chladne chladnej chladnejšia chladnejšie chladnejší chladnejších chladno chladnom chladnou chladná chladné chladného chladnému chladní chladnú chladných chladným chladnými najchladnejšia najchladnejších
-52	2052	zhromaždenie	zhromaždenia zhromaždeniach zhromaždeniu zhromaždení zhromaždením
-53	2053	výrobok	výrobkami výrobkoch výrobkom výrobkov výrobku výrobky
-54	2054	reklama	reklamami reklame reklamou reklamu reklamy reklamách reklamám reklám
-55	2055	túžiť	túži túžia túžiac túžiaci túžil túžila túžili túžilo túžim túžime túžite túžiš
-56	2056	palivo	paliva palivami palive palivom palivá palivách palív
-57	2057	čeliť	čelia čeliac čelil čelila čelili čelilo čelí čelím čelíme čelíte čelíš čeľ čeľme čeľte
-58	2058	hodinky	
-59	2059	grécky	grécka grécke gréckeho gréckej grécki gréckom gréckou grécku gréckych gréckym gréckymi
-60	2060	láskavosť	láskavosti láskavostí láskavosťami láskavosťou
-61	2061	opatrenie	opatrenia opatreniach opatreniam opatreniami opatrení opatrením
-62	2062	okolitý	okolitej okolitom okolitou okolitá okolité okolitého okolitému okolitú okolitých okolitým okolitými
-63	2063	bicykel	bicykla bicyklami bicykle bicykli bicykloch bicyklom bicyklov bicyklu
-64	2064	odohrať	odohrajú odohral odohrala odohrali odohralo odohrá
-65	2065	dvojica	dvojice dvojici dvojiciach dvojicou dvojicu dvojíc
-66	2066	cyklus	cyklami cykle cykloch cyklom cyklov cyklu cykly
-67	2067	nesprávny	nesprávna nesprávneho nesprávnej nesprávnemu nesprávni nesprávnom nesprávnou nesprávnu nesprávnych nesprávnym nesprávnymi
-68	2068	nahradiť	nahradia nahradil nahradila nahradili nahradilo nahradí nahradím nahradíme nahradíte nahradíš nahraď nahraďte
-69	2069	rozbiť	rozbi rozbije rozbijem rozbijeme rozbijete rozbiješ rozbijú rozbil rozbila rozbili rozbilo rozbite rozbitia rozbitie rozbitiu rozbité rozbitím rozbitý rozbíja rozbíjajú rozbíjal rozbíjali rozbíjam rozbíjaš rozbíjať
-70	2070	tráva	tráv tráve trávička trávou trávové trávu trávy
-71	2071	pravidelne	
-72	2072	vládnuť	vládla vládli vládlo vládne vládnem vládneme vládnete vládneš vládni vládnite vládnu vládnucej vládnuci vládnutia vládnutie vládol
-73	2073	ocenenie	ocenenia oceneniach ocenením
-74	2074	premeniť	premenenie premenené premenený premenia premenil premenila premenili premenilo premení premením premeníme premeníte premeníš premeň premieňa premieňať
-75	2075	ponáhľať	ponáhľa ponáhľaj ponáhľajme ponáhľajte ponáhľajú ponáhľal ponáhľala ponáhľali ponáhľam ponáhľame ponáhľate ponáhľaš
-76	2076	au	
-77	2077	pobrežie	pobrežia pobrežiach pobrežiu pobreží pobrežím
-78	2078	presvedčený	presvedčená presvedčené presvedčení presvedčených
-79	2079	sval	svale svalmi svaloch svalom svalov svalovej svalovou svalová svalové svalového svalovú svalový svalových svalu svaly
-80	2080	katolícky	katolícka katolícke katolíckeho katolíckej katolícki katolíckom katolíckou katolícku katolíckych katolíckym
-81	2081	softvér	softvéri softvérom softvérové softvérový softvéru
-82	2082	detstvo	detstva detstve detstvom
-83	2083	umožniť	umožni umožnia umožnil umožnila umožnili umožnilo umožnite umožní umožním umožníme umožníte umožníš
-84	2084	zbytočný	zbytočnej zbytočnom zbytočnou zbytočná zbytočné zbytočného zbytočnému zbytoční zbytočnú zbytočných zbytočným zbytočnými
-85	2085	rozšírený	najrozšírenejšie najrozšírenejší najrozšírenejších najrozšírenejším rozšírenej rozšírenou rozšírená rozšírené rozšíreného rozšírení rozšírenú rozšírených rozšíreným
-86	2086	skladať	skladaj skladajú skladal skladala skladali skladá skladám skladáme skladáte skladáš
-87	2087	istota	istote istotou istotu istoty
-88	2088	laboratórium	laboratória laboratóriami laboratóriom laboratóriu laboratóriá laboratóriách laboratóriám laboratórií laboratórne laboratórny
-89	2089	štúdium	štúdiám
-90	2090	zmes	zmesi zmesou zmesí
-91	2091	efekt	efekte efektom efektov efektu efekty
-92	2092	presťahovať	presťahoval presťahovala presťahovali presťahovalo presťahuj presťahuje presťahujem presťahujeme presťahujete presťahuješ presťahujme presťahujte presťahujú
-93	2093	slušný	najslušnejšia slušnej slušnejší slušnom slušnou slušná slušné slušného slušnému slušní slušnú slušných slušným slušnými
-94	2094	nervózny	nervózna nervózne nervózneho nervóznejšia nervóznejší nervózni nervóznou nervóznu nervóznych nervóznym nervóznymi
-95	2095	odložiť	odlož odložia odložil odložila odložili odložme odložte odloží odložím odložíme odložíte odložíš
-96	2096	dosahovať	dosahoval dosahovala dosahovali dosahuje dosahujem dosahujeme dosahuješ dosahujú
-97	2097	určiť	urči určia určil určila určili určilo určime určte určí určím určíme určíte určíš
-98	2098	obloha	oblohe oblohou oblohu oblohy
-99	2099	vyhnúť	vyhla vyhli vyhlo vyhnem vyhneme vyhnete vyhneš vyhnime vyhnite vyhnú vyhol
-100	2100	zranenie	zranenia zraneniach zraneniam zraneniami zraneniu zranením
+47	2047	zrkadlo	zrkadiel zrkadla zrkadlami zrkadle zrkadlom zrkadlu zrkadlá zrkadlách
+48	2048	kino	kina kine kinom kiná kinách kín
+49	2049	politik	politici politikmi politikoch politikom politikov politikovi politička političkou
+50	2050	skladať	neskladaj neskladajte neskladal neskladá neskladám skladaj skladajú skladal skladala skladali skladá skladám skladáme skladáte skladáš
+51	2051	prosiť	nepros neprosil neprosila neprosili neproste neprosí neprosím neprosíme neprosíš prosia prosiac prosil prosila prosili prosme prosí prosíme prosíte prosíš
+52	2052	chladný	chladne chladnej chladnejšia chladnejšie chladnejší chladnejších chladno chladnom chladnou chladná chladné chladného chladnému chladní chladnú chladných chladným chladnými najchladnejšia najchladnejších
+53	2053	presťahovať	nepresťahoval nepresťahovala nepresťahovali nepresťahuje nepresťahujem nepresťahujeme nepresťahuješ presťahoval presťahovala presťahovali presťahovalo presťahuj presťahuje presťahujem presťahujeme presťahujete presťahuješ presťahujme presťahujte presťahujú
+54	2054	odložiť	neodložil neodložila neodloží neodložím neodložíme neodložíš odlož odložia odložil odložila odložili odložme odložte odloží odložím odložíme odložíte odložíš
+55	2055	hala	hale halou halu haly halách hál
+56	2056	medicína	medicíne medicínou medicínu medicíny
+57	2057	nahradiť	nahradia nahradil nahradila nahradili nahradilo nahradí nahradím nahradíme nahradíte nahradíš nahraď nahraďte nenahradia nenahradí nenahradím
+58	2058	reklama	reklamami reklame reklamou reklamu reklamy reklamách reklamám reklám
+59	2059	spôsobený	spôsobenej spôsobenou spôsobená spôsobené spôsobeného spôsobenému spôsobenú spôsobených spôsobeným
+60	2060	hodinky	
+61	2061	zhromaždenie	zhromaždenia zhromaždeniach zhromaždeniu zhromaždení zhromaždením
+62	2062	palivo	paliva palivami palive palivom palivá palivách palív
+63	2063	výrobok	výrobkami výrobkoch výrobkom výrobkov výrobku výrobky
+64	2064	pohniť	nepohni nepohnite pohni pohnime pohnite
+65	2065	bicykel	bicykla bicyklami bicykle bicykli bicykloch bicyklom bicyklov bicyklu
+66	2066	nesprávny	nesprávna nesprávneho nesprávnej nesprávnemu nesprávni nesprávnom nesprávnou nesprávnu nesprávnych nesprávnym nesprávnymi
+67	2067	grécky	grécka grécke gréckeho gréckej grécki gréckom gréckou grécku gréckych gréckym gréckymi
+68	2068	opatrenie	opatrenia opatreniach opatreniam opatreniami opatrení opatrením
+69	2069	tráva	tráv tráve trávička trávou trávové trávu trávy
+70	2070	umožniť	neumožnia neumožnil neumožnila neumožnili neumožní umožni umožnia umožnil umožnila umožnili umožnilo umožnite umožní umožním umožníme umožníte umožníš
+71	2071	odohrať	neodohral neodohralo odohrajú odohral odohrala odohrali odohralo odohrá
+72	2072	nervózny	nervózna nervózne nervózneho nervóznejšia nervóznejší nervózni nervóznou nervóznu nervóznych nervóznym nervóznymi
+73	2073	vládnuť	nevládnu vládla vládli vládlo vládnem vládneme vládnete vládneš vládnite vládnucej vládnuci vládnutia vládnutie vládol
+74	2074	au	
+75	2075	okolitý	okolitej okolitom okolitou okolitá okolité okolitého okolitému okolitú okolitých okolitým okolitými
+76	2076	presvedčený	presvedčená presvedčené presvedčení presvedčených
+77	2077	závisieť	nezávisel nezávisí závisel závisela záviseli záviselo závisia závisí závisíme
+78	2078	prekonať	neprekonal neprekoná neprekonám neprekonáš prekonaj prekonajme prekonajte prekonajú prekonal prekonala prekonali prekonalo prekoná prekonám prekonáme prekonáte prekonáš
+79	2079	pobrežie	pobrežia pobrežiach pobrežiu pobreží pobrežím
+80	2080	cyklus	cyklami cykle cykloch cyklom cyklov cyklu cykly
+81	2081	zbytočný	zbytočnej zbytočnom zbytočnou zbytočná zbytočné zbytočného zbytočnému zbytoční zbytočnú zbytočných zbytočným zbytočnými
+82	2082	dvojica	dvojice dvojici dvojiciach dvojicou dvojicu dvojíc
+83	2083	istota	istote istotou istotu istoty
+84	2084	pravidelne	
+85	2085	laboratórium	laboratória laboratóriami laboratóriom laboratóriu laboratóriá laboratóriách laboratóriám laboratórií laboratórne laboratórny
+86	2086	sval	svale svalmi svaloch svalom svalov svalovej svalovou svalová svalové svalového svalovú svalový svalových svalu svaly
+87	2087	slušný	najslušnejšia slušnej slušnejší slušnom slušnou slušná slušné slušného slušnému slušní slušnú slušných slušným slušnými
+88	2088	detstvo	detstva detstve detstvom
+89	2089	ocenenie	ocenenia oceneniach ocenením
+90	2090	seržant	seržanta seržanti seržantom seržantov seržantovi
+91	2091	určiť	neurčil neurčili neurčí urči určia určil určila určili určilo určime určte určí určím určíme určíte určíš
+92	2092	katolícky	katolícka katolícke katolíckeho katolíckej katolícki katolíckom katolíckou katolícku katolíckych katolíckym
+93	2093	softvér	softvéri softvérom softvérové softvérový softvéru
+94	2094	obloha	oblohe oblohou oblohu oblohy
+95	2095	efekt	efekte efektom efektov efektu efekty
+96	2096	zmes	zmesi zmesou zmesí
+97	2097	rozšírený	najrozšírenejšie najrozšírenejší najrozšírenejších najrozšírenejším rozšírenej rozšírenou rozšírená rozšírené rozšíreného rozšírení rozšírenú rozšírených rozšíreným
+98	2098	štúdium	štúdiám
+99	2099	zranenie	zranenia zraneniach zraneniam zraneniami zraneniu zranením
+100	2100	predstierať	nepredstiera nepredstieraj nepredstierajte nepredstierajú nepredstieral nepredstierala nepredstierali nepredstieram nepredstieraš nepredstierať predstiera predstieraj predstierajme predstierajte predstierajú predstierajúc predstieral predstierala predstierali predstieralo predstieram predstierame predstierate predstieraš

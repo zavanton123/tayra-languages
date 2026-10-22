@@ -1,100 +1,100 @@
-1	6401	kalifornium	kalifornia kaliforniu
-2	6402	komentovať	komentoval komentovala komentovali komentuje komentuješ komentujú
-3	6403	vyrušovať	vyrušoval vyrušovala vyrušovali vyrušuje vyrušujem vyrušujeme vyrušujete vyrušuješ vyrušujú
-4	6404	vstupenka	vstupeniek vstupenkou vstupenku vstupenky
-5	6405	archa	arche archou archu archy
-6	6406	vylučovať	vylučuje vylučujem vylučujeme vylučujú
-7	6407	struna	strunami strune strunou strunu struny strunách strún
-8	6408	všeličo	všeličoho všeličom všeličím
-9	6409	prenikať	prenikajú prenikalo preniká
-10	6410	pitný	pitnej pitnou pitná pitnú
-11	6411	spúšťať	spúšťa spúšťaj spúšťajte spúšťajú spúšťal spúšťali spúšťam spúšťame spúšťate spúšťaš
-12	6412	moriak	moriaka moriakom moriakov moriakovi moriaky moriačik moriek morka morku morky
-13	6413	brzdiť	brzdenia brzdenie brzdení brzdi brzdia brzdil brzdila brzdite brzdí brzdíte brzdíš
-14	6414	romantika	romantike romantikou romantiku romantiky
-15	6415	neľutovať	neľutoval neľutovala neľutovali neľutuj neľutuje neľutujem neľutujete neľutuješ neľutujte
-16	6416	zamiesť	zametie zametiem zametieme zametú zamietla zamietli zamietlo zamietol
-17	6417	cyklistika	cyklistike cyklistiku cyklistiky
-18	6418	zapisovať	zapisoval zapisovala zapisovali zapisuj zapisuje zapisujem zapisujete zapisuješ zapisujte zapisujú
-19	6419	predstavená	predstavenej predstavenou predstavené predstavenú
-20	6420	padlý	padlom padlé padlého padlí padlých padlým padlými
-21	6421	nejasný	nejasná nejasné nejasného nejasnú nejasných nejasným nejasnými
-22	6422	chovanie	chovania chovaniu chovaní chovaním
-23	6423	pohonný	pohonnej pohonná pohonné pohonnú pohonných
-24	6424	beštia	beštiami beštie beštii beštiou beštiu beštiách beštií
-25	6425	znepokojený	znepokojená znepokojené znepokojení znepokojených
-26	6426	ovzdušie	ovzdušia ovzduší
-27	6427	náučný	náučná náučné náučného náučných
-28	6428	brnenie	brnenia brneniu brnení brnením
-29	6429	major	majora majorom majorov majorovi
-30	6430	vedro	vedier vedierka vedierko vedra vedre vedrom vedru vedrá
-31	6431	podobnosť	podobnosti podobností podobnosťou
-32	6432	štvorka	štvorke štvorkou štvorku štvorky
-33	6433	zdanlivo	
-34	6434	zásobovanie	zásobovania zásobovaní
-35	6435	informátor	informátora informátori informátormi informátoroch informátorom informátorov informátorovi
-36	6436	smotana	smotanou smotanovou smotanová smotanovú smotanový smotanu smotany smotánka smotánky
-37	6437	vraždiť	vraždia vraždil vraždila vraždili vraždilo vraždí vraždím vraždíme vraždíte vraždíš
-38	6438	fajka	fajke fajkou fajku fajky fajok
-39	6439	psychiatrický	psychiatrickej psychiatrickom psychiatrickou psychiatrická psychiatrické psychiatrického psychiatrickú psychiatrických psychiatrickým
-40	6440	lotéria	lotérie lotérii lotériou lotériu lotérií
-41	6441	zbavený	zbavená zbavené zbavení
-42	6442	optika	optike optikou optiku optiky
-43	6443	bahno	bahna bahne bahnom
-44	6444	slávne	najslávnejšie
-45	6445	vzostup	vzostupe vzostupom vzostupu vzostupy
-46	6446	žiariť	žiaria žiaril žiarila žiarili žiarilo žiarim žiarite žiariš žiarte
-47	6447	desiatnik	desiatnika desiatnikom desiatnikovi
-48	6448	neotvoriť	neotvor neotvoria neotvoril neotvorila neotvorili neotvorí neotvorím neotvoríme neotvoríte neotvoríš
-49	6449	simulácia	simulácie simulácii simuláciu simuláciách simulácií
-50	6450	neobyčajný	neobyčajnej neobyčajnom neobyčajná neobyčajné neobyčajného neobyčajní neobyčajnú neobyčajných neobyčajnými
-51	6451	povodeň	povodne povodni povodniach povodní povodňami
-52	6452	žalobca	žalobcom žalobcov žalobcovi žalobcovia žalobcu
-53	6453	neobmedzený	neobmedzenej neobmedzenou neobmedzená neobmedzené neobmedzeného neobmedzenú neobmedzených neobmedzeným neobmedzenými
-54	6454	konektor	konektora konektorom konektorov konektory
-55	6455	skrátený	skrátenej skrátená skrátené skrátení skrátenú
-56	6456	všímať	všíma všímaj všímajte všímajú všímal všímala všímali všímam všímame všímate všímaš
-57	6457	odkladať	odkladajú odkladal odkladala odkladali odkladá odkladám odkladáme odkladáte odkladáš
-58	6458	gangster	gangstera gangsteri gangstermi gangsterom gangsterov gangsterovi gangstra gangstrami gangstri gangstroch gangstrom gangstrov gangstrovi
-59	6459	prasiatko	prasiatka prasiatkach prasiatkom prasiatku prasiatok
-60	6460	dopočuť	dopočuje dopočujem dopočujete dopočuješ dopočujú dopočul dopočula dopočuli
-61	6461	svätec	svätca svätci svätcom svätcov svätcovi
-62	6462	vznešený	najvznešenejší vznešenej vznešenou vznešená vznešené vznešeného vznešenému vznešení vznešenú vznešených vznešeným vznešenými
-63	6463	ligový	ligovej ligovom ligové ligového ligových
-64	6464	pristávací	pristávacej pristávacia pristávacie pristávacieho pristávaciu pristávacou pristávacích pristávacím
-65	6465	bylina	byliny bylín
-66	6466	nesmrteľný	nesmrteľnej nesmrteľnou nesmrteľná nesmrteľné nesmrteľného nesmrteľní nesmrteľnú nesmrteľných nesmrteľným nesmrteľnými
-67	6467	pokladnica	pokladnice pokladnici pokladnicou pokladnicu
-68	6468	sústreďovať	sústreďuje sústreďujem sústreďujeme sústreďujete sústreďuješ sústreďujú
-69	6469	prevládať	prevláda prevládajú
-70	6470	zhotovený	zhotovená zhotovené
-71	6471	priestupok	priestupkom priestupkov priestupku priestupky
-72	6472	prijímač	prijímača prijímače prijímačom prijímačov
-73	6473	teror	terore terorom teroru
-74	6474	ekonóm	ekonóma ekonómov ekonómovia
-75	6475	vlani	
-76	6476	nominovaný	nominovaná nominované nominovaní nominovaných
-77	6477	ring	ringom ringu
-78	6478	kovboj	kovboja kovboji kovbojmi kovbojoch kovbojom kovbojov kovbojovi
-79	6479	neistý	neistej neistá neisté neistí neistú neistých
-80	6480	sadzba	sadzbou sadzbu sadzby sadzbách sadzieb
-81	6481	nadobúdať	nadobúda nadobúdajú nadobúdam
-82	6482	naťahovať	naťahoval naťahovala naťahovali naťahovalo naťahuje naťahujem naťahujeme naťahujete naťahuješ naťahujú
-83	6483	pšenica	pšenice pšenici pšenicou pšenicu pšeničná pšeničné pšeničný pšeničných
-84	6484	odlet	odlete odletom odletov odletu odlety
-85	6485	kolaps	kolapse kolapsom kolapsu kolapsy
-86	6486	prípitok	prípitkom prípitku prípitky
-87	6487	fyzik	fyzici fyzikom fyzikov fyzikálna fyzikálneho fyzikálnej fyzikálnu fyzikálny fyzikálnych fyzikálnym fyzikálnymi fyzička fyzičke
-88	6488	zostreliť	zostrelia zostrelil zostrelila zostrelili zostrelí zostrelím zostrelíme zostrelíte zostreľ zostreľte
-89	6489	prednášať	prednáša prednášal prednášala prednášali prednášam prednášaš
-90	6490	nadstavba	nadstavbe nadstavbou nadstavbovej nadstavbu nadstavby
-91	6491	odoslať	odoslal odoslala odoslali odošle odošlem odošleme odošlete odošli odošlite
-92	6492	spoluhráč	spoluhráča spoluhráči spoluhráčmi spoluhráčom spoluhráčov spoluhráčovi
-93	6493	ukladanie	ukladania ukladaní ukladaním
-94	6494	nečakane	
-95	6495	nezabíjať	nezabíja nezabíjaj nezabíjajte nezabíjajú nezabíjal nezabíjali nezabíjam nezabíjame nezabíjate nezabíjaš
-96	6496	šokovaný	šokovaná šokované šokovaní
-97	6497	predurčený	predurčenej predurčená predurčené predurčení predurčenú
-98	6498	stupnica	stupnice stupnici stupnicu
-99	6499	nálepka	nálepiek nálepkami nálepke nálepkou nálepku nálepky
-100	6500	pult	pulte pultoch pultom pultu pulty
+1	6401	liturgia	liturgie liturgii liturgiu
+2	6402	ufo	ufe ufom ufá úf
+3	6403	pribrať	nepriberiem nepriberieš nepribral nepribrala priber priberie priberiem priberiete priberieš priberú pribral pribrala pribrali
+4	6404	obdĺžnik	obdĺžnika obdĺžniková obdĺžnikové obdĺžnikového obdĺžnikový
+5	6405	spln	splne splnom splnu
+6	6406	vyhodený	vyhodená vyhodené vyhodení vyhodenú vyhodených
+7	6407	cha	
+8	6408	dobývať	dobyje dobyjeme dobyješ dobyl dobyla dobyli dobyť dobývanie nedobyl
+9	6409	rezidencia	rezidencie rezidencii rezidenciu rezidencií
+10	6410	dusiť	dusia dusil dusila dusili dusilo dusí dusím dusíme dusíte dusíš nedus
+11	6411	osemnásť	osemnástich osemnástimi
+12	6412	obzerať	neobzeraj neobzerajte neobzeral neobzerala neobzerať obzerajú obzeral obzerala obzerali obzerá obzerám obzeráme obzeráte obzeráš
+13	6413	rokovať	rokoval rokovala rokovali rokuje rokujem rokujeme rokujete rokujú
+14	6414	poháňaný	poháňaná poháňané poháňaní poháňaných
+15	6415	vcelku	
+16	6416	manéver	manévre manévri manévroch manévrov manévru
+17	6417	dúha	dúhe dúhou dúhovej dúhová dúhové dúhového dúhový dúhových dúhu dúhy
+18	6418	dusík	dusíka dusíkom dusíku
+19	6419	spoza	
+20	6420	hodnotný	hodnotná hodnotné hodnotnú hodnotných hodnotným
+21	6421	šokujúci	šokujúca šokujúce šokujúceho šokujúcej šokujúcich šokujúcim šokujúcimi šokujúcu
+22	6422	prieskumný	prieskumnej prieskumná prieskumné prieskumného prieskumnú prieskumných prieskumným
+23	6423	luna	lune lunou lunu luny lunárneho lunárny
+24	6424	vynikať	nevynikám vynikajú vynikal vyniká vynikám vynikáte
+25	6425	nepríjemne	nepríjemnejšie
+26	6426	podmienený	podmienená podmienené
+27	6427	limuzína	limuzín limuzínach limuzíne limuzínou limuzínu limuzíny
+28	6428	snem	sneme snemu
+29	6429	odmeniť	odmenená odmenené odmenení odmenený odmenia odmenil odmenili odmení odmením odmeníme odmeň odmeňovať odmeňte odmeňuje odmeňujem odmeňujeme
+30	6430	reproduktor	reproduktora reproduktore reproduktoroch reproduktorov reproduktoru reproduktory
+31	6431	vyfajčiť	nevyfajčil nevyfajčila nevyfajčí nevyfajčíš vyfajč vyfajči vyfajčil vyfajčila vyfajčili vyfajčite vyfajčí vyfajčím vyfajčíte vyfajčíš
+32	6432	opierať	neopieraj opiera opierajú opierajúc opieral opierala opieram opieraš
+33	6433	rodový	rodovej rodová rodové rodovú rodových
+34	6434	zaiste	
+35	6435	textilný	textilnej textilnom textilná textilné textilného textilných
+36	6436	farbivo	farbiva farbivom farbivá farbív
+37	6437	legislatívny	legislatívna legislatívne legislatívneho legislatívnej legislatívnu legislatívnych
+38	6438	prerobiť	prerob prerobenie prerobený prerobil prerobila prerobili prerobte prerobí prerobím prerobíme prerába prerábajú prerábal prerábali prerábam prerábame prerábať
+39	6439	odmietnutie	odmietnutia odmietnutiu odmietnutím
+40	6440	atrament	atramente atramentom atramentové atramentu
+41	6441	protestovať	neprotestoval neprotestuje neprotestujem protestoval protestovala protestovali protestovalo protestuje protestujem protestujeme protestujete protestuješ protestujú
+42	6442	použiteľný	použiteľnej použiteľná použiteľné použiteľného použiteľnú použiteľných
+43	6443	špehovať	nešpehoval nešpehuj nešpehujem špehoval špehovala špehovali špehuje špehujem špehujeme špehujete špehuješ špehujú
+44	6444	zborník	zborníka zborníkoch zborníku
+45	6445	klimatizácia	klimatizácie klimatizácii klimatizáciou klimatizáciu
+46	6446	odvrátiť	neodvráti neodvrátil odvráti odvrátia odvrátil odvrátila odvrátili odvrátilo odvrátim odvrátite odvrátiš odvráť odvráťte
+47	6447	hľa	
+48	6448	dominanta	dominantou dominantu dominanty
+49	6449	beloch	belosi
+50	6450	valný	valnom valné valného valným
+51	6451	postreh	postrehov postrehy
+52	6452	fotenie	fotenia foteniu fotení fotením
+53	6453	nasadnúť	nasadla nasadli nasadne nasadnem nasadneme nasadnete nasadneš nasadni nasadnite nasadnú nasadol
+54	6454	adopcia	adopcie adopcii adopciou adopciu adopcií
+55	6455	bufet	bufete bufetom bufetu bufety
+56	6456	šľachtic	šľachtica šľachtici šľachtického šľachtický šľachticom šľachticov šľachtičná
+57	6457	prierez	priereze prierezom prierezu
+58	6458	atribút	atribútmi atribútom atribútov atribúty
+59	6459	márnica	márnice márnici márniciach márnicou márnicu
+60	6460	ubehnúť	ubehla ubehli ubehlo ubehne ubehnú ubehol
+61	6461	finálny	finálna finálne finálneho finálnej finálnemu finálnom finálnu finálnych finálnym
+62	6462	vyjebaný	vyjebanej vyjebanom vyjebanou vyjebaná vyjebané vyjebaného vyjebaní vyjebanú vyjebaných vyjebaným
+63	6463	obydlie	obydlia obydlí
+64	6464	skaza	skaze skazou skazu skazy
+65	6465	spracovávať	spracováva spracovávajú spracovával spracovávala spracovávali spracovávam spracovávame spracovávaš
+66	6466	schválenie	schválenia schváleniu schválením
+67	6467	pochopiteľne	
+68	6468	kapitalizmus	kapitalistickej kapitalistická kapitalistické kapitalistického kapitalistický kapitalizme kapitalizmom kapitalizmu
+69	6469	dozrieť	dozreje dozrel dozrela dozreli dozri dozrie dozriem dozriete dozrieš dozrite dozrú nedozrel
+70	6470	tiahnuť	tiahla tiahli tiahlo tiahne tiahni tiahnu tiahol
+71	6471	múka	múk múke múkou múku múky múčka
+72	6472	nestabilný	nestabilnej nestabilnou nestabilná nestabilné nestabilného nestabilní nestabilnú nestabilných nestabilným
+73	6473	prepísať	prepísal prepísala prepísali prepíš prepíše prepíšem prepíšeme prepíšeš prepíšte prepíšu
+74	6474	referendum	referenda referende referendom
+75	6475	financovať	financoval financovala financovali financuje financujem financujeme financujete financujú
+76	6476	ústredie	ústredia ústrediu ústredí ústredím
+77	6477	chvála	chvále chválou chválu chvály
+78	6478	uškodiť	neuškodia neuškodil neuškodila neuškodilo neuškodí uškodil uškodila uškodili uškodilo uškodí
+79	6479	povýšiť	nepovýšia nepovýšili povýši povýšia povýšil povýšila povýšili povýšim povýšime
+80	6480	motto	motta mottom
+81	6481	spoveď	spovede spovedi
+82	6482	joga	joge jogu jogy
+83	6483	medený	medenej medená medené medeného medenú medených
+84	6484	skener	skenera skeneri skenermi skeneroch skenerom skenerov skeneru skenery
+85	6485	zlomok	zlomkom zlomku zlomky
+86	6486	vďačnosť	vďačnosti vďačnosťou
+87	6487	prísada	prísad prísadami prísadou prísadu prísady
+88	6488	káder	kádra kádre kádri
+89	6489	udelenie	udelenia udelením
+90	6490	vývojár	vývojári vývojárom vývojárov
+91	6491	puding	pudingom pudingu pudingy
+92	6492	polostrov	poloostrov poloostrova polostrova polostrove
+93	6493	časovanie	časovania časovaní časovaním
+94	6494	upadnúť	neupadli upadla upadli upadlo upadne upadnem upadneš upadnú upadol
+95	6495	známosť	známosti známostiach známostí známosťami známosťou
+96	6496	naschvál	
+97	6497	orchester	orchestri orchestrom orchestru
+98	6498	odjakživa	
+99	6499	barón	baróna baróni barónmi barónom barónov barónovi
+100	6500	bradavka	bradaviek bradavkami bradavke bradavkou bradavkový bradavku bradavky bradavkách bradavkám

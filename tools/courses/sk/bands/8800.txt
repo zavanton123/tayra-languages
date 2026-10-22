@@ -1,100 +1,100 @@
-1	8701	dojesť	doje dojedla dojedli dojedol dojedz dojedzte dojeme dojete doješ
-2	8702	koryto	koryta koryte korytá
-3	8703	výplň	výplne výplňou
-4	8704	vodiť	vodia vodiaci vodil vodila vodili vodilo vodí vodím vodíte vodíš
-5	8705	kormidlo	kormidla kormidle kormidlom kormidlu kormidlá
-6	8706	dirigent	dirigenta dirigentom
-7	8707	sviniar	sviniara sviniari sviniarom sviniarov sviniarovi
-8	8708	rozpúšťadlo	rozpúšťadiel rozpúšťadla rozpúšťadlá
-9	8709	diplomacia	diplomacie diplomacii diplomaciou diplomaciu
-10	8710	poľana	poľane poľany
-11	8711	označovanie	označovania
-12	8712	nahrávací	nahrávacej nahrávacia nahrávacie nahrávacieho nahrávaciu nahrávacom nahrávacou nahrávacích nahrávacím
-13	8713	okúpať	okúp okúpal okúpala okúpali okúpe okúpem okúpeme okúpeš
-14	8714	kolotoč	kolotoča kolotoče kolotoči kolotočoch kolotočom kolotočov kolotoču
-15	8715	zmierenie	zmierenia zmiereniu zmierením
-16	8716	koktail	koktailov koktaily
-17	8717	pochop	
-18	8718	prefíkaný	prefíkanejší prefíkaná prefíkané prefíkaného prefíkaní prefíkanú prefíkanými
-19	8719	vinou	
-20	8720	zotmenie	zotmenia zotmení zotmením
-21	8721	prekračovať	prekračovali prekračuje prekračujem prekračujeme prekračujete prekračuješ prekračujú
-22	8722	provokovať	provokoval provokovala provokovali provokuje provokujete provokuješ provokujú
-23	8723	smrteľník	smrteľníci smrteľníka smrteľníkmi smrteľníkom smrteľníkov smrteľníkovi
-24	8724	sólový	sólovej sólová sólové sólového sólovú
-25	8725	výdych	výdychom výdychu výdychy
-26	8726	solidarita	solidarite solidaritu
-27	8727	patetický	patetickej patetická patetické patetického patetickí patetickú patetických patetickým
-28	8728	panva	panve panvou panvu panvy
-29	8729	ubytovaný	ubytovaná ubytované ubytovaní ubytovaných
-30	8730	dospievanie	dospievania dospievaní dospievaním
-31	8731	arašidový	arašidové arašidového arašidovým
-32	8732	rezignovať	rezignoval rezignovala rezignovali rezignuje rezignujem rezignujete rezignuješ
-33	8733	ordinácia	ordinácie ordinácii ordináciu ordinácií
-34	8734	zakončiť	zakončil zakončila zakončili zakončíme
-35	8735	hrom	hromom hromov hromový hromu hromy
-36	8736	vzdorovať	vzdoroval vzdorovala vzdorovali vzdoruj vzdoruje vzdorujeme vzdoruješ vzdorujú
-37	8737	taxikár	taxikára taxikári taxikárom taxikárov taxikárovi
-38	8738	zmenka	zmeniek zmenku zmenky
-39	8739	nadovšetko	
-40	8740	renovácia	renovácie renovácii renováciou renováciu
-41	8741	vypredaný	vypredaná vypredané vypredaní
-42	8742	nerátať	neráta nerátaj nerátajte nerátajú nerátajúc nerátal nerátala nerátali nerátam nerátame nerátate nerátaš
-43	8743	stvárnenie	stvárnenia stvárnením
-44	8744	duel	dueli duelov duelu duely
-45	8745	umiestňovať	umiestňovali umiestňuje umiestňujem umiestňujú
-46	8746	klik	klikov kliky
-47	8747	pixel	pixelov pixely
-48	8748	nevládať	nevládala nevládali nevládze nevládzem nevládzeš nevládzu
-49	8749	zakopať	zakop zakopal zakopala zakopali zakope zakopem zakopeme zakopete zakopeš zakopme zakopte
-50	8750	redukovať	redukuje redukujte
-51	8751	slepo	
-52	8752	mašina	mašinami mašine mašiniek mašinka mašinkou mašinku mašinky mašinou mašinu mašiny mašín
-53	8753	nepreháňať	nepreháňa nepreháňaj nepreháňajme nepreháňajte nepreháňal nepreháňam nepreháňate nepreháňaš
-54	8754	regenerácia	regeneračné regeneračný regenerácie regenerácii regeneráciou regeneráciu
-55	8755	hostiť	hostil hostila hostili
-56	8756	havran	havrana havranie havranov havranovi havrany
-57	8757	prognóza	prognózu prognózy
-58	8758	nepokúsiť	nepokúsi nepokúsia nepokúsil nepokúsila nepokúsili nepokúsim nepokúsime nepokúsite nepokúsiš
-59	8759	vrátnik	vrátnika vrátnikom vrátnikov vrátnikovi
-60	8760	regulačný	regulačné regulačných
-61	8761	radovať	radovala radovali raduj raduje radujem radujeme radujme radujte radujú
-62	8762	fór	fóre fóry
-63	8763	alchýmia	alchýmie alchýmii alchýmiou alchýmiu
-64	8764	tuleň	tulene tulenie tulení tuleňa tuleňmi tuleňom tuleňov tuleňovi
-65	8765	apoštolský	apoštolskej apoštolská apoštolského
-66	8766	trojročný	trojročnej trojročné trojročného trojročnú trojročným
-67	8767	okrádať	okráda okrádajú okrádal okrádala okrádali okrádam okrádame okrádate okrádaš
-68	8768	misionár	misionára misionári misionármi misionárom misionárov
-69	8769	veriteľ	veritelia veriteľa veriteľmi veriteľom veriteľov
-70	8770	blúza	blúzka blúzku blúzu
-71	8771	ambiciózny	ambiciózna ambiciózneho ambiciózni ambicióznych najambicióznejší
-72	8772	potomstvo	potomstva potomstvom
-73	8773	strašidlo	strašidiel strašidla strašidlami strašidlom strašidlá strašidlám
-74	8774	násilník	násilníci násilníka násilníkmi násilníkom násilníkov násilníkovi
-75	8775	mrzutý	mrzutá mrzuté mrzutého mrzutí mrzutých mrzutým
-76	8776	mlieť	melie meliem meliete melieš melú mlel mlela mleli
-77	8777	prútik	prútika prútikmi prútikom prútiky
-78	8778	mušľa	mušieľ mušle mušli mušlí mušľami mušľu
-79	8779	nezvyknúť	nezvykla nezvykli nezvykne nezvyknem nezvykneme nezvyknete nezvykneš nezvyknú nezvykol
-80	8780	vnútorne	najvnútornejšie
-81	8781	prenajatý	prenajatej prenajatom prenajatá prenajaté prenajatého prenajatú
-82	8782	neskrývať	neskrýva neskrývaj neskrývajte neskrývajú neskrýval neskrývala neskrývali neskrývam neskrývame neskrývate neskrývaš
-83	8783	sekretár	sekretára sekretárom
-84	8784	email	emailoch emailom emailov emailu emaily
-85	8785	zošit	zošita zošite zošitov zošitu zošity
-86	8786	svietivosť	svietivosti svietivosťou
-87	8787	krištáľový	krištáľovej krištáľová krištáľové krištáľového krištáľovú
-88	8788	šaľo	šaľa šaľom
-89	8789	predpísať	predpísal predpísala predpísali predpíše predpíšem
-90	8790	vyhotovenie	vyhotovenia vyhotovení
-91	8791	neuniknúť	neunikla neunikli neuniklo neunikne neuniknem neuniknete neunikneš neuniknú neunikol
-92	8792	ryžový	ryžová ryžové ryžového ryžovú ryžových ryžovým
-93	8793	ľúbostný	ľúbostnej ľúbostnom ľúbostná ľúbostné ľúbostného ľúbostnú ľúbostných ľúbostným
-94	8794	zdvíhať	zdvíha zdvíhaj zdvíhajte zdvíhajú zdvíhal zdvíhali zdvíham zdvíhame zdvíhaš
-95	8795	zaželať	zaželaj zaželajte zaželal zaželala zaželá zaželám zaželáte zaželáš
-96	8796	preťaženie	preťaženia preťaženiu preťažením
-97	8797	vzrušovať	vzrušovala vzrušovali vzrušovalo vzrušuje vzrušujem vzrušujete vzrušuješ vzrušujú
-98	8798	pankreas	pankrease pankreasu
-99	8799	propagačný	propagačná propagačné propagačného propagačnú propagačných
-100	8800	skrutkovač	skrutkovača skrutkovače skrutkovačom
+1	8701	nadporučík	nadporučíka nadporučíkom nadporučíkovi
+2	8702	nárazník	nárazníka nárazníkoch nárazníkom nárazníku nárazníky
+3	8703	konkurovať	konkuruje konkurujú
+4	8704	polly	
+5	8705	sauna	saune saunou saunu sauny
+6	8706	kapota	kapote kapotou kapotu kapoty
+7	8707	východiskový	východiskové východiskovým
+8	8708	upokojujúci	upokojujúca upokojujúce
+9	8709	preventívny	preventívna preventívne preventívnej preventívnu preventívnych
+10	8710	tlmič	tlmiča tlmiče tlmičmi tlmičom tlmičov
+11	8711	chľast	chľaste chľastom chľastu
+12	8712	streh	strehu
+13	8713	postihovať	postihuje postihujú
+14	8714	súdnictvo	súdnictva súdnictve
+15	8715	previerka	previerke previerkou previerku previerky
+16	8716	živel	živlami živle živlom živlov živlu živly
+17	8717	buk	buka
+18	8718	konfrontovať	konfrontoval konfrontovala konfrontovali konfrontuje konfrontujem
+19	8719	motať	motajú motal motala motali motá motám motáme motáte motáš nemotaj nemotal
+20	8720	unavovať	neunavuje unavovali unavovalo unavuje unavuješ unavujú
+21	8721	uspokojenie	uspokojenia uspokojeniu uspokojením
+22	8722	povodie	povodia povodí povodím
+23	8723	guráž	guráže guráži gurážou
+24	8724	spínač	spínača spínače spínači spínačom spínačov
+25	8725	štýlový	najštýlovejšia štýlovej štýlová štýlové štýlového štýloví
+26	8726	otlačok	otlačkami otlačkom otlačkov otlačky
+27	8727	rozrušiť	nerozrušilo nerozruší rozrušil rozrušila rozrušili rozrušilo rozruší
+28	8728	naberať	naberajú naberal naberala naberali naberá naberám naberáme
+29	8729	zabehnúť	nezabehneš zabehla zabehli zabehlo zabehne zabehnem zabehneš zabehni zabehol
+30	8730	striktne	
+31	8731	konvenčný	konvenčnej konvenčná konvenčné konvenčného konvenčných konvenčným konvenčnými
+32	8732	mechanicky	
+33	8733	neposledný	neposlednej neposlednom
+34	8734	teológ	teologickej teológov teológovia
+35	8735	závažnosť	závažnosti
+36	8736	navariť	navar navaril navarila navarili navarí navarím navaríš
+37	8737	vyrušiť	nevyrušil nevyruší vyrušia vyrušil vyrušila vyrušili vyrušilo vyruší vyruším vyrušíme vyrušíte
+38	8738	flór	flóru flóry
+39	8739	exkluzívne	
+40	8740	citácia	citácie citáciu citácií
+41	8741	naslepo	
+42	8742	doživotný	doživotná doživotné doživotného doživotnú doživotným
+43	8743	ponúkaný	ponúkaná ponúkané ponúkaných
+44	8744	popriať	popraj poprajem poprajte poprial popriala
+45	8745	éter	éteri éterom éteru
+46	8746	ponúknutý	ponúknutá ponúknuté
+47	8747	prvoradý	prvoradou prvoradá prvoradé prvoradí prvoradým
+48	8748	švihnúť	švihli švihlo švihne švihnem švihneš švihni švihnime švihnite švihol
+49	8749	tristo	
+50	8750	steak	steakom steakov steaku steaky
+51	8751	motivovaný	motivovaná motivované motivovaného motivovaní motivovaných
+52	8752	žobrák	žobráci žobráka žobrákmi žobrákom žobrákov žobrákovi žobráčka
+53	8753	rozbaliť	nerozbalil rozbalenie rozbalil rozbalila rozbalili rozbalí rozbalím rozbalíme rozbaľ rozbaľme rozbaľovať rozbaľte
+54	8754	horúčava	horúčav horúčave horúčavou horúčavu horúčavy horúčavách
+55	8755	osvetový	osvetovej osvetové osvetového osvetových
+56	8756	vysadený	vysadené vysadení vysadených
+57	8757	kobra	kobier kobrami kobre kobrou kobru kobry
+58	8758	vynálezca	vynálezcom vynálezcov vynálezcovia vynálezcu
+59	8759	nepoužiteľný	nepoužiteľná nepoužiteľné nepoužiteľní nepoužiteľných
+60	8760	kras	krase krasu krasy
+61	8761	zneužitie	zneužitia zneužitiu zneužití
+62	8762	tuberkulóza	tbc tuberkulóze tuberkulózou tuberkulózu tuberkulózy
+63	8763	veličina	veličiny veličín
+64	8764	poslíček	poslíčka poslíčkom poslíčkov poslíčkovi poslíčkovia
+65	8765	roztočiť	roztočil roztočila roztočili roztočme roztočte roztočí roztočím roztočíme
+66	8766	skorumpovaný	skorumpovanej skorumpovaná skorumpované skorumpovaného skorumpovaní skorumpovanú skorumpovaných skorumpovaným
+67	8767	korčuľa	korčule korčuliach
+68	8768	bunker	bunkra bunkre bunkri bunkroch bunkrov bunkru
+69	8769	osamelosť	osamelosti osamelosťou
+70	8770	vtáctvo	vtáctva
+71	8771	lymfatický	lymfatickej lymfatická lymfatické lymfatického lymfatických
+72	8772	improvizovať	improvizoval improvizovala improvizovali improvizuj improvizuje improvizujem improvizujeme improvizujete improvizujte improvizujú
+73	8773	úzadie	úzadia úzadí
+74	8774	distribučný	distribučnej distribučná distribučné distribučného distribučnú distribučných
+75	8775	poklop	poklope poklopom poklopu poklopy
+76	8776	kupón	kupónmi kupónov kupóny
+77	8777	efektívnosť	efektívnosti
+78	8778	racionálny	racionálneho racionálnej racionálnemu racionálni racionálnym
+79	8779	veľtrh	veľtrhu veľtrhy
+80	8780	podložka	podložiek podložke podložku podložky
+81	8781	textil	textilom textilu
+82	8782	nedostatočný	nedostatočného nedostatočným
+83	8783	rozpúšťať	rozpúšťa rozpúšťaj rozpúšťajú rozpúšťam
+84	8784	vykročiť	vykroč vykročil vykročila vykročili vykročte vykročí vykročím vykročíme vykročíš
+85	8785	počatie	počatia počatiu počatí počatím
+86	8786	nábojnica	nábojnicami nábojnice nábojnici nábojniciach nábojnicu nábojníc
+87	8787	páchnuť	nepáchne nepáchneš páchla páchlo páchne páchnem páchnete páchneš páchnu páchol
+88	8788	tkanina	tkaniny tkanín
+89	8789	sporiteľňa	sporiteľne
+90	8790	pomedzi	
+91	8791	vypúšťať	vypúšťa vypúšťajú vypúšťal vypúšťali vypúšťam vypúšťame vypúšťaš
+92	8792	utajenie	utajenia utajeniu utajením
+93	8793	extáza	extáze extázou extázu extázy
+94	8794	pokora	pokore pokorou pokoru pokory
+95	8795	spoločensky	
+96	8796	ostatok	ostatkami ostatkom ostatkov ostatky
+97	8797	prenášaný	prenášaná prenášané prenášaných
+98	8798	uspať	uspal uspala uspali uspalo uspi uspia uspite uspí uspím uspíme uspíš
+99	8799	mig	migy
+100	8800	sebadôvera	sebadôvere sebadôverou sebadôveru sebadôvery

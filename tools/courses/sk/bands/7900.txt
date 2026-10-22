@@ -1,100 +1,100 @@
-1	7801	receptor	receptorov receptory
-2	7802	priečny	priečna priečneho priečnej priečnom priečnych priečnym
-3	7803	posadnutosť	posadnutosti posadnutosťou
-4	7804	dúbrava	dúbravka dúbravke dúbravky
-5	7805	vyžarovať	vyžarovala vyžarovalo vyžaruje vyžaruješ vyžarujú
-6	7806	astronóm	astronomické astronomický astronóma astronómka astronómom astronómov astronómovia
-7	7807	prizerať	prizerajú prizeral prizerala prizerali prizerá prizeráš
-8	7808	arabský	arabských
-9	7809	stíhanie	stíhania stíhaniu stíhaním
-10	7810	napojenie	napojenia napojením
-11	7811	vyhliadka	vyhliadkami vyhliadke vyhliadkou vyhliadku vyhliadky vyhliadok
-12	7812	zblížiť	zblíž zblíži zblížia zblížil zblížila zblížili zblížilo zblížim zblížime zblížiš
-13	7813	vyvrcholiť	vyvrcholil vyvrcholila vyvrcholili vyvrcholilo vyvrcholí
-14	7814	číselný	číselnej číselná číselné číselného číselnú číselných číselným
-15	7815	tréningový	tréningovej tréningovom tréningová tréningové tréningového tréningovú tréningových tréningovým
-16	7816	poznávací	poznávacej poznávacia poznávacie poznávaciu poznávacou poznávacích poznávacím
-17	7817	infračervený	infračervenom infračervená infračervené infračerveného infračerveným infračervenými
-18	7818	ohnivý	ohnivej ohnivou ohnivé ohnivého ohnivému ohnivú ohnivých ohnivým ohnivými
-19	7819	stret	strete stretoch stretov stretu strety
-20	7820	dozerať	dozeraj dozerajú dozeral dozerala dozerali dozerá dozerám dozeráš
-21	7821	oboznámiť	oboznám oboznámi oboznámil oboznámila oboznámili oboznámim oboznámime oboznámite oboznámte
-22	7822	výslovne	
-23	7823	jazzový	jazzovej jazzovom jazzová jazzové jazzovú jazzových
-24	7824	rozobrať	rozober rozoberie rozoberiem rozoberieme rozoberieš rozoberme rozoberte rozoberú rozobral rozobrala rozobrali
-25	7825	neukazovať	neukazoval neukazovala neukazovali neukazuj neukazuje neukazujem neukazujeme neukazuješ neukazujte neukazujú
-26	7826	potápač	potápača potápači potápačmi potápačov
-27	7827	učeň	učni učňa učňami učňom učňov
-28	7828	osobitý	osobitá osobité osobitým
-29	7829	fara	farou faru fary
-30	7830	dedinčan	dedinčana dedinčania dedinčanmi dedinčanom dedinčanov
-31	7831	vyslobodiť	vyslobodia vyslobodil vyslobodila vyslobodili vyslobodí vyslobodím vyslobodíme vyslobodíš vysloboď vysloboďte
-32	7832	skúter	skútra skútre skútri skútroch skútrom skútrov skútru
-33	7833	sedan	sedane sedanu sedany
-34	7834	tank	tanky
-35	7835	búda	búd búde búdu búdy
-36	7836	krb	krbe krbom krbu krby
-37	7837	úbytok	úbytku
-38	7838	nepliesť	nepletie nepletiem nepletieme nepletieš nepletú nepleť nepleťme nepleťte neplietla neplietli neplietol
-39	7839	vyrezať	vyrezal vyrezala vyrezali vyrež vyreže vyrežem vyrežeme vyrežte vyrežú
-40	7840	piest	piesta piestom piestu piesty
-41	7841	notár	notára notárom notárovi
-42	7842	pravoslávny	pravoslávna pravoslávnej pravoslávnu pravoslávnych
-43	7843	odpadový	odpadovej odpadová odpadové odpadového odpadovú odpadových
-44	7844	sejf	sejfe sejfom sejfov sejfu sejfy
-45	7845	brokovnica	brokovnicami brokovnice brokovnici brokovnicou brokovnicu
-46	7846	substrát	substráte substrátu
-47	7847	panovať	panoval panovala panuj panuje panujú
-48	7848	méta	mét métach méte métou métu méty
-49	7849	angažovať	angažoval angažovala angažovali angažuje angažuješ
-50	7850	murivo	muriva
-51	7851	prvotriedny	prvotriedna prvotriedneho prvotriednej prvotriedni prvotriednom prvotriednu prvotriednych prvotriednym
-52	7852	prepis	prepise prepisom prepisov prepisu prepisy
-53	7853	úbožiak	úbožiaci úbožiaka úbožiakmi úbožiakom úbožiakov úbožiakovi
-54	7854	monarchia	monarchie monarchii monarchiu
-55	7855	atlét	atléta atléti atlétom atlétov
-56	7856	dvanásty	dvanásta dvanáste dvanásteho dvanástej dvanásti dvanástom dvanástou dvanástu
-57	7857	fragment	fragmentov fragmenty
-58	7858	vyletieť	vyleteli vyletelo vyletia vyletí vyletím vyletíme vyletíte vyletíš vyleť
-59	7859	inžinierstvo	inžinierstva inžinierstve inžinierstvom
-60	7860	umelkyňa	umelkyne umelkyňou umelkyňu umelkýň
-61	7861	vplyvný	najvplyvnejší najvplyvnejších vplyvnou vplyvná vplyvné vplyvného vplyvní vplyvných vplyvným vplyvnými
-62	7862	viditeľnosť	viditeľnosti viditeľnosťou
-63	7863	odstraňovanie	odstraňovania odstraňovaní odstraňovaním
-64	7864	obdivuhodný	obdivuhodná obdivuhodné obdivuhodnú obdivuhodných
-65	7865	gong	gongu
-66	7866	všemohúci	všemohúceho všemohúcemu všemohúcim všemohúcom
-67	7867	nesúvisieť	nesúvisela nesúviselo nesúvisia nesúvisí
-68	7868	neospravedlňovať	neospravedlňoval neospravedlňuj neospravedlňuje neospravedlňujem neospravedlňuješ neospravedlňujte
-69	7869	rak	raka rakom rakov rakovi raky račej ráčik
-70	7870	vírusový	vírusovej vírusová vírusové vírusového vírusovú vírusových
-71	7871	bombardovanie	bombardovania bombardovaniu bombardovaní bombardovaním
-72	7872	objavenie	objavenia objaveniu objavením
-73	7873	mučeník	mučeníci mučeníka mučeníkmi mučeníkom mučeníkov mučeníkovi
-74	7874	staroba	starobe starobou starobu staroby
-75	7875	vybiť	vybi vybije vybijem vybiješ vybijú vybil vybila vybili vybilo vybite vybitie vybitá vybitý vybíja vybíjať
-76	7876	zvonenie	zvonenia zvoneniu zvonení zvonením
-77	7877	analytik	analytici analytika analytikom analytikov
-78	7878	kasáreň	kasárne kasárni kasární kasárňach
-79	7879	cvok	cvoci cvoka cvokmi cvokom cvokov
-80	7880	sympatický	sympatickej sympatická sympatické sympatického sympatickí sympatickú sympatických sympatickým
-81	7881	zvitok	zvitkoch zvitkom zvitkov zvitku zvitky
-82	7882	dobiť	dobije dobijem dobijeme dobiješ dobijú dobil dobila dobili dobite dobitie dobitý dobíja dobíjam dobíjať
-83	7883	vánok	vánkom vánku
-84	7884	pako	paka pakom pakov pakovi pakovia
-85	7885	teplotný	teplotná teplotné teplotných
-86	7886	zaskočiť	zaskoč zaskočil zaskočila zaskočili zaskočilo zaskočí zaskočím zaskočíme zaskočíš
-87	7887	zákusok	zákuskami zákuskoch zákuskom zákuskov zákusku zákusky
-88	7888	vyliať	vylej vyleje vylejem vylejeme vylejete vylejte vylejú vylial vyliala vyliali vylialo
-89	7889	závisť	závisti závisťou
-90	7890	sito	sita site
-91	7891	vyšplhať	vyšplhaj vyšplhajú vyšplhal vyšplhala vyšplhali vyšplhá vyšplhám vyšplháte
-92	7892	doručený	doručenej doručená doručené doručení doručených
-93	7893	jednosmerný	jednosmernej jednosmerná jednosmerné jednosmerného jednosmernú jednosmerným
-94	7894	krajný	krajnej krajnom krajnou krajná krajné krajných
-95	7895	kytica	kytice kytici kyticou kyticu kytíc
-96	7896	komplikovať	komplikovalo komplikuje komplikujem komplikujete komplikuješ komplikujú
-97	7897	meditácia	meditácie meditácii meditáciou meditáciu
-98	7898	div	divov
-99	7899	počin	počinom počiny
-100	7900	nedostávať	nedostáva nedostávajú nedostával nedostávali nedostávalo nedostávam nedostávame nedostávate nedostávaš
+1	7801	porezať	neporezal neporež neporežeš porezal porezala porezali porež poreže porežem porežete porežeš
+2	7802	kvantový	kvantovej kvantovom kvantovou kvantová kvantové kvantového kvantovú kvantových kvantovým
+3	7803	usilovne	usilovnejšie
+4	7804	zaručovať	nezaručuje nezaručujem zaručuje zaručujem zaručujeme zaručujú
+5	7805	prepadnutie	prepadnutia prepadnutiu prepadnutím
+6	7806	kázeň	kázne kázni kázní kázňach
+7	7807	kolóna	kolóne kolónou kolónu kolóny
+8	7808	maklér	makléra makléri maklérka maklérom maklérov maklérovi maklérskej maklérsky
+9	7809	svieca	sviece sviecou sviecu sviečka
+10	7810	zdrojový	zdrojovej zdrojovom zdrojová zdrojové zdrojového zdrojových
+11	7811	gréckokatolícky	gréckokatolícka gréckokatolíckej
+12	7812	svieži	svieža svieže sviežeho sviežich sviežu
+13	7813	pančucha	pančuchami pančuche pančuchu pančuchy pančuchách pančúch
+14	7814	božstvo	božstiev božstva božstve božstvom božstvu božstvá
+15	7815	ohraničený	ohraničenom ohraničená ohraničené
+16	7816	upevniť	upevni upevnil upevnila upevnili upevnilo upevnite upevní upevním
+17	7817	toaletný	toaletnej toaletnom toaletná toaletné toaletného toaletných toaletným
+18	7818	pokánie	pokánia pokániu pokání pokáním
+19	7819	zmýliť	nezmýlil nezmýlila zmýlil zmýlila zmýlili zmýlim zmýliš
+20	7820	príšerne	
+21	7821	vír	víre vírom vírov víru víry
+22	7822	príťažlivosť	príťažlivosti príťažlivosťou
+23	7823	pôvabný	pôvabnej pôvabnou pôvabná pôvabné pôvabného pôvabní pôvabnú pôvabných pôvabným
+24	7824	odlišnosť	odlišnosti odlišností
+25	7825	hygiena	hygienou hygienu hygieny
+26	7826	ťažisko	ťažiska ťažiskom
+27	7827	plynule	
+28	7828	nadanie	nadania nadaním
+29	7829	možnože	
+30	7830	írsky	írske írskeho írskej írski írskou írskych írskym
+31	7831	grilovať	griloval grilovali grilovanie grilované grilovaný griluje grilujem griluješ grilujú
+32	7832	ovládací	ovládacej ovládacia ovládacie ovládacieho ovládacom ovládacích ovládacím
+33	7833	dopis	dopise dopisoch dopisom dopisov dopisu dopisy
+34	7834	zúžiť	zúži zúžil zúžila zúžili zúžilo zúžim zúžime zúžte
+35	7835	podunajský	podunajskej podunajská podunajské podunajských
+36	7836	unikátne	
+37	7837	zaregistrovaný	zaregistrovaná zaregistrované zaregistrovaní zaregistrovanú zaregistrovaných
+38	7838	polovička	polovičkami polovičke polovičkou polovičku polovičky
+39	7839	úmrtnosť	úmrtnosti
+40	7840	psychicky	
+41	7841	absorbovať	absorboval absorbovala absorbovali absorbovanie absorbovaný absorbuje absorbujú
+42	7842	rozložený	rozložená rozložené rozložení
+43	7843	starostlivý	starostlivej starostlivom starostlivá starostlivé starostlivého starostliví starostlivú starostlivých starostlivým
+44	7844	sodný	sodného sodným
+45	7845	zástupkyňa	zástupkyne zástupkyňou zástupkyňu
+46	7846	vrak	vrakom vrakov vraku vraky
+47	7847	bandita	banditi banditmi banditom banditov banditovi banditu
+48	7848	vydýchnuť	nevydýchnem vydýchla vydýchli vydýchne vydýchnem vydýchnete vydýchneš vydýchni vydýchnite vydýchol
+49	7849	šéfredaktor	šéfredaktora šéfredaktori šéfredaktorom šéfredaktorovi
+50	7850	prospešný	prospešná prospešné prospešní prospešnú prospešných
+51	7851	poddôstojník	poddôstojníci poddôstojníka poddôstojníkom poddôstojníkov poddôstojníkovi
+52	7852	vykašľať	nevykašľal vykašľal vykašľala vykašľali vykašľú
+53	7853	zvrat	zvrate zvratmi zvratom zvratov zvratu zvraty
+54	7854	úlovok	úlovkom úlovkov úlovku úlovky
+55	7855	cudzina	cudzine cudziny
+56	7856	donáška	donáške donáškou donášku donášky donášok
+57	7857	šrot	šrote šrotom šrotu šroty
+58	7858	presviedčať	presviedča presviedčajú presviedčal presviedčala presviedčali presviedčam presviedčaš
+59	7859	postupnosť	postupnosti
+60	7860	džem	džeme džemom džemu džemy
+61	7861	zažalovať	nezažalovala nezažaluje nezažalujem zažaloval zažalovala zažalovali zažaluj zažaluje zažalujem zažalujeme zažalujete zažaluješ zažalujte zažalujú
+62	7862	broskyňa	broskyne broskynka broskyňovej broskyňové broskyňovú broskyňový broskyňu broskýň
+63	7863	planina	planine planinu planiny planinách planín
+64	7864	kolégium	kolégia kolégiu
+65	7865	neformálne	
+66	7866	prestúpiť	prestúp prestúpil prestúpila prestúpim prestúpte
+67	7867	marketing	marketingom marketingu
+68	7868	zaniesť	zanes zanesie zanesiem zanesieme zanesieš zaneste zanesú zaniesla zaniesli zaniesol
+69	7869	projekcia	projekcie projekcii projekciu
+70	7870	porcelán	porceláne porcelánom porcelánovej porcelánová porcelánové porcelánového porcelánovú porcelánový porcelánu
+71	7871	sušený	sušená sušené sušeného sušenú sušených sušeným
+72	7872	zakrývať	nezakrýva nezakrývaj zakrýva zakrývajú zakrýval zakrývala zakrývali zakrývam zakrývate zakrývaš
+73	7873	laser	lasera laserom laserov laseru lasery
+74	7874	porušený	porušená porušené porušení
+75	7875	vystáť	vystál
+76	7876	rezort	rezorte rezortov rezortu rezorty
+77	7877	vystupovanie	vystupovania vystupovaní vystupovaním
+78	7878	poddaný	poddaného poddaní poddaných poddaným poddanými
+79	7879	šľachta	šľachte šľachtou šľachtu šľachty
+80	7880	bezcenný	bezcennej bezcenná bezcenné bezcenného bezcenní bezcennú bezcenných
+81	7881	rozptýlenie	rozptýlenia rozptýlení rozptýlením
+82	7882	premyslený	premyslenej premyslená premyslené premyslenú premysleným
+83	7883	tresk	treskom tresku tresky
+84	7884	ustanoviť	ustanovil ustanovili ustanoví
+85	7885	uloviť	ulov ulovia ulovil ulovila ulovili uloví ulovím ulovíme ulovíš
+86	7886	korčuľovať	korčuľoval korčuľovali korčuľovania korčuľovanie korčuľovaní korčuľuj korčuľuje korčuľujem korčuľujte korčuľujú
+87	7887	sob	soba sobia sobie sobieho sobmi soboch sobom sobov soby sobí sobích
+88	7888	znovuzrodenie	znovuzrodenia znovuzrodeniu znovuzrodením
+89	7889	využívajúci	využívajúca využívajúce využívajúcich
+90	7890	hľadač	hľadača hľadači hľadačom hľadačov hľadačovi
+91	7891	poondiaty	poondiata poondiate poondiateho poondiatej poondiatemu poondiati poondiatom poondiatu poondiatych poondiatym
+92	7892	obojok	obojkom obojku obojky
+93	7893	rádioaktívny	rádioaktívna rádioaktívneho rádioaktívnej rádioaktívnych rádioaktívnym
+94	7894	lojalita	lojalite lojalitou lojalitu lojality
+95	7895	rušný	najrušnejšia najrušnejších rušnej rušnom rušná rušné rušnú rušných
+96	7896	ubytovňa	ubytovne ubytovni ubytovniach ubytovní ubytovňu
+97	7897	navrch	
+98	7898	pribúdať	pribúda pribúdajú pribúdali pribúdalo
+99	7899	paradoxne	
+100	7900	archívny	archívne archívnej archívnom archívnych

@@ -1,100 +1,100 @@
-1	6801	slušnosť	slušnosti slušnosťou
-2	6802	masívne	
-3	6803	tango	tanga tangom tangu tangá tangách
-4	6804	náuka	náuk náuke náuku náuky
-5	6805	légia	légie légii légiou légiu légií
-6	6806	story	
-7	6807	vrodený	vrodenej vrodenou vrodená vrodené vrodenú vrodených vrodeným
-8	6808	vekový	vekovej veková vekové vekovú vekových vekovým
-9	6809	zdravotník	zdravotníci zdravotníka zdravotníkmi zdravotníkom zdravotníkov
-10	6810	dohnať	dohnal dohnala dohnali dohnalo doženie doženiem doženieme doženiete doženieš doženú dožeň dožeňte
-11	6811	joj	jój
-12	6812	obhájiť	obháji obhájil obhájila obhájili obhájim obhájite
-13	6813	toxín	toxíne toxínom toxínov toxínu toxíny
-14	6814	intelektuálny	intelektuálna intelektuálne intelektuálneho intelektuálnej intelektuálnou intelektuálnu intelektuálnych intelektuálnym
-15	6815	nedochádzať	nedochádza nedochádzalo
-16	6816	trakt	trakte traktu
-17	6817	piknik	piknikom pikniku pikniky
-18	6818	okupácia	okupačné okupácie okupácii okupáciou okupáciu
-19	6819	prihláška	prihláškach prihláškami prihláške prihláškou prihlášku prihlášky prihlášok
-20	6820	nabúrať	nabúra nabúrajú nabúral nabúrala nabúrali nabúralo nabúram nabúrame nabúraš
-21	6821	bosorka	bosoriek bosorke bosorkou bosorku bosorky bosorkách bosorácky bosorák bosoráka
-22	6822	vypracovaný	vypracovaná vypracované vypracovaní vypracovanú
-23	6823	demokrat	demokrata demokrati demokratmi demokratom demokratov
-24	6824	neujsť	neujde neujdem neujdeme neujdete neujdeš neujdú neušiel neušla neušli neušlo
-25	6825	odboj	odboja odboji odbojom odboju
-26	6826	škrabanec	škrabanca škrabancami škrabance škrabanci škrabancom škrabancov
-27	6827	marihuana	marihuane marihuanou marihuanu marihuany
-28	6828	hrabať	hrabal hrabala hrabali hrabem hrabeme hrabete hrabeš hrabte hrabú
-29	6829	spamätať	spamätaj spamätajte spamätajú spamätal spamätala spamätali spamätá spamätám spamätáte spamätáš
-30	6830	spochybňovať	spochybňoval spochybňovala spochybňovali spochybňuje spochybňujem spochybňujeme spochybňujete spochybňuješ spochybňujú
-31	6831	nadísť	nadchádza nadišiel nadišla nadíde
-32	6832	rybolov	rybolove rybolovu
-33	6833	borovica	borovicami borovice borovici boroviciach borovicou borovicu borovíc
-34	6834	oznámený	oznámená oznámené
-35	6835	rehabilitácia	rehabilitácie rehabilitácii rehabilitáciou rehabilitáciu
-36	6836	povolať	povolaj povolajte povolajú povolal povolala povolali povolá povolám povoláme
-37	6837	svokra	svokor svokre svokrom svokrou svokrovi svokru svokry
-38	6838	kar	kare karu kary
-39	6839	uplynúť	uplynie uplynul uplynula uplynuli uplynulo uplynú
-40	6840	turecký	tureckej
-41	6841	financovaný	financovaná financované financovaní
-42	6842	ruina	ruinami ruinu ruiny ruinách ruinám ruín
-43	6843	udržiavanie	udržiavania udržiavaní udržiavaním
-44	6844	drviť	drv drvenie drvený drvia drvil drví drvím drvíš rozdrv rozdrvia rozdrvil rozdrvila rozdrvili rozdrvilo rozdrviť rozdrvte rozdrví rozdrvím rozdrvíme rozdrvíte rozdrvíš zdrvilo
-45	6845	klišé	
-46	6846	napoly	
-47	6847	výtvarník	výtvarníci výtvarníka výtvarníkom výtvarníkov
-48	6848	relaxovať	relaxoval relaxovali relaxuj relaxuje relaxujem relaxujeme relaxuješ relaxujte
-49	6849	konkurent	konkurenta konkurenti konkurentmi konkurentom konkurentov konkurentovi
-50	6850	elektromagnetický	elektromagnetickej elektromagnetickom elektromagnetická elektromagnetické elektromagnetického elektromagnetickú elektromagnetických elektromagnetickým
-51	6851	nezhoda	nezhode nezhodu nezhody nezhodách nezhodám nezhôd
-52	6852	stanovovať	stanovuje stanovujem stanovujú
-53	6853	kopírovať	kopíroval kopírovala kopírovali kopíruje kopírujem kopírujeme kopíruješ kopírujú
-54	6854	vyprázdniť	vyprázdni vyprázdnia vyprázdnil vyprázdnila vyprázdnili vyprázdnim vyprázdnime vyprázdnite vyprázdniš
-55	6855	chris	chrisa chrisom chrisovi
-56	6856	šteňa	štence šteniat šteňati šteňatá šteňaťa šteňaťom
-57	6857	vlámanie	vlámania vlámaniach vlámaniu vlámaní vlámaním
-58	6858	šepkať	zašepkal zašepkať šepkaj šepkajú šepkajúc šepkajúci šepkal šepkala šepkali šepkalo šepkanie šepká šepkám šepkáme šepkáte šepkáš
-59	6859	prehltnúť	prehltla prehltne prehltnem prehltneš prehltni prehltnite prehltol
-60	6860	tlstý	tlstej tlstejší tlstou tlstá tlsté tlstého tlstí tlstú tlstých tlstým tlstými
-61	6861	značenie	značenia značením
-62	6862	monografia	monografie monografii monografiu monografií
-63	6863	prideliť	pridelia pridelil pridelila pridelili pridelí pridelím pridelíme
-64	6864	navonok	
-65	6865	narážať	naráža narážajú narážal narážala narážali narážam narážame narážate narážaš
-66	6866	vymenovaný	vymenovaná vymenované vymenovaní vymenovaných
-67	6867	hovorca	hovorcom hovorcov hovorcovia hovorcu
-68	6868	čiastka	čiastke čiastkou čiastku čiastky
-69	6869	navigačný	navigačnom navigačné navigačného navigačnú navigačných
-70	6870	účtovník	účtovníci účtovníka účtovníkmi účtovníkom účtovníkov účtovníkovi
-71	6871	flirtovať	flirtoval flirtovala flirtovali flirtovanie flirtuj flirtuje flirtujem flirtujeme flirtujete flirtuješ flirtujú
-72	6872	chlpatý	chlpatejší chlpatom chlpatou chlpatá chlpaté chlpatého chlpatí chlpatú chlpatých chlpatým chlpatými
-73	6873	obilie	obilia obilí obilím
-74	6874	nespýtať	nespýta nespýtajú nespýtal nespýtala nespýtali nespýtam nespýtame nespýtate nespýtaš
-75	6875	bezplatný	bezplatnej bezplatná bezplatné bezplatného bezplatnú bezplatných
-76	6876	cigara	cigarami cigare cigarou cigarového cigaru cigary cigár
-77	6877	čeština	češtine češtiny
-78	6878	vápnik	vápnika
-79	6879	exotický	exotickej exotickom exotickou exotická exotické exotického exotickú exotických exotickým exotickými
-80	6880	ľavica	ľavice ľavici ľavicou ľavicový ľavicových ľavicu
-81	6881	etnický	etnickej etnická etnické etnického etnickú etnických
-82	6882	zrýchlenie	zrýchlenia zrýchlením
-83	6883	bohoslužba	bohoslužbe bohoslužbu bohoslužby bohoslužbách bohoslužieb
-84	6884	nedržať	nedrž nedržal nedržala nedržali nedržalo nedržia nedržte nedrží nedržím nedržíme nedržíte nedržíš
-85	6885	propaganda	propagande propagandou propagandu propagandy
-86	6886	lekárnik	lekárnika lekárnikom lekárnička lekárničke lekárničku lekárničky
-87	6887	špehovať	špehoval špehovala špehovali špehuje špehujem špehujeme špehujete špehuješ špehujú
-88	6888	rímskokatolícky	rímskokatolícka rímskokatolíckeho rímskokatolíckej
-89	6889	úplatok	úplatkoch úplatkom úplatkov úplatku úplatky
-90	6890	nepravdepodobný	nepravdepodobnejšie nepravdepodobnom nepravdepodobná nepravdepodobné nepravdepodobných
-91	6891	nepomyslieť	nepomyslel nepomyslela nepomysleli nepomysli nepomyslite nepomyslí nepomyslím nepomyslíš
-92	6892	úspešnosť	úspešnosti úspešnosťou
-93	6893	zeleň	zelene zeleni zeleňou
-94	6894	kamelot	kamelote kamelotom kamelotu
-95	6895	programátor	programátora programátori programátorom programátorov
-96	6896	gramatika	gramatické gramatike gramatiku gramatiky
-97	6897	zväčšovať	zväčšovali zväčšuje zväčšujem zväčšujeme zväčšujú
-98	6898	trepať	trepal trepala trepali trepe trepem trepeme trepete trepeš trepú
-99	6899	siréna	sirén sirénach sirénami siréne sirénou sirénu sirény
-100	6900	maturita	maturite maturitou maturitu
+1	6801	hrádza	hrádze hrádzi hrádzou hrádzu
+2	6802	pripúšťať	nepripúšťa nepripúšťaj nepripúšťajú nepripúšťal nepripúšťala nepripúšťam nepripúšťate nepripúšťaš pripúšťa pripúšťajú pripúšťam pripúšťame pripúšťate pripúšťaš
+3	6803	kompresor	kompresora kompresorom kompresorov kompresory
+4	6804	lipa	lipe lipka lipová lipový lipu lipy líp
+5	6805	zlosť	zlostí zlosťou
+6	6806	odmietnutý	odmietnutá odmietnuté odmietnutí odmietnutých
+7	6807	občianstvo	občianstva
+8	6808	vŕtať	nevŕtaj vŕta vŕtaj vŕtajte vŕtajú vŕtal vŕtala vŕtali vŕtalo vŕtam vŕtate vŕtaš
+9	6809	jednoduchosť	jednoduchosti jednoduchosťou
+10	6810	totožný	totožná totožné
+11	6811	rozprestierať	rozprestiera rozprestierajú
+12	6812	brilantný	brilantnou brilantná brilantné brilantného brilantní brilantnú brilantných brilantným
+13	6813	špičkový	špičkovej špičkovom špičkovou špičková špičkové špičkového špičkoví špičkovú špičkových špičkovým
+14	6814	elektrika	elektrike elektrikou elektriku elektriky
+15	6815	mačiatko	mačiatka mačiatkami mačiatkom mačiatok
+16	6816	doživotie	doživotia doživotím
+17	6817	ozdoba	ozdobami ozdobou ozdobu ozdoby ozdôb
+18	6818	stvoriteľ	stvoritelia stvoriteľa stvoriteľom stvoriteľov stvoriteľovi
+19	6819	prospieť	neprospeje neprospeli neprospelo prospeje prospel prospela prospeli prospelo
+20	6820	poháňať	nepoháňa poháňa poháňajú poháňal poháňala poháňali poháňalo
+21	6821	harmonický	harmonickej harmonická harmonické harmonického harmonických
+22	6822	kdeže	
+23	6823	topiť	netopí netopíš topia topil topila topili topí topím topíme topíte topíš
+24	6824	alchymista	alchymisti alchymistom alchymistov alchymistu
+25	6825	šestnásť	šestnástich šestnástimi
+26	6826	rota	rotu roty
+27	6827	trieť	trela trenia trenie trení trením trie trieš trú
+28	6828	pôdorys	pôdoryse pôdorysom pôdorysu pôdorysy
+29	6829	mandát	mandátom mandátov mandátu
+30	6830	časovo	
+31	6831	pomník	pomníka pomníkom pomníku pomníky
+32	6832	starostov	starostova starostove starostovej starostovho starostovi starostovu starostových
+33	6833	duševne	
+34	6834	tínedžer	tínedžera tínedžeri tínedžermi tínedžeroch tínedžerom tínedžerov
+35	6835	príslovie	príslovia prísloví
+36	6836	kartel	karteli kartelmi kartelom kartelov kartelu kartely
+37	6837	vznášať	nevznášam vznáša vznášajú vznášajúc vznášal vznášala vznášali vznášalo vznášam vznášame vznášaš
+38	6838	nájomný	nájomnej nájomná nájomní nájomnú nájomných nájomným nájomnými
+39	6839	poslušnosť	neposlušnosti neposlušnosť poslušnosti poslušnosťou
+40	6840	živina	živiny živín
+41	6841	porcia	porcie porcii porciou porciu porcií
+42	6842	odňatie	odňatia odňatím
+43	6843	štvrťfinále	
+44	6844	koncil	koncile koncilom koncilu
+45	6845	odbočiť	odboč odbočil odbočila odbočili odbočte odbočí odbočím odbočíme odbočíte odbočíš
+46	6846	zabraňovať	nezabraňuje zabraňuje zabraňujem zabraňujeme zabraňujú
+47	6847	smutne	najsmutnejšie smutnejšie
+48	6848	výkonnosť	výkonnosti
+49	6849	vypočúvanie	vypočúvania vypočúvaniach vypočúvaniu vypočúvaní vypočúvaním
+50	6850	zostávajúci	zostávajúca zostávajúce zostávajúceho zostávajúcich zostávajúcim zostávajúcimi zostávajúcu
+51	6851	krízový	krízovej krízovom krízová krízové krízového krízovú krízových
+52	6852	zátoka	zátoke zátokou zátoku zátoky
+53	6853	únava	únave únavou únavu únavy
+54	6854	deštrukcia	deštrukcie deštrukcii deštrukciou deštrukciu deštruktívna deštruktívne deštruktívnu deštruktívny deštruktívnych deštrukčný
+55	6855	mág	mága mágom mágov mágovi mágovia
+56	6856	priľahlý	priľahlej priľahlom priľahlé priľahlého priľahlých
+57	6857	rezervovať	nerezervoval rezervoval rezervovala rezervovali rezervuj rezervuje rezervujem rezervujeme rezervujte
+58	6858	mechanik	mechanici mechanikom mechanikov mechanikovi
+59	6859	newton	newtona newtone newtonov
+60	6860	trubica	trubice trubici trubicou trubicu trubíc
+61	6861	komnata	komnate komnatu komnaty komnatách komnát
+62	6862	popremýšľať	popremýšľaj popremýšľajme popremýšľajte popremýšľal popremýšľala popremýšľali popremýšľam popremýšľame popremýšľate popremýšľaš
+63	6863	nazbierať	nazbiera nazbieraj nazbierajú nazbieral nazbierala nazbierali nazbieralo nazbieram nazbierate
+64	6864	spájaný	spájaná spájané spájaní
+65	6865	anomália	anomálie anomálii anomáliou anomáliu anomálií
+66	6866	tulák	tuláci tuláka tulákmi tulákom tulákov tulákovi
+67	6867	indický	indickej
+68	6868	palivový	palivovej palivová palivové palivového palivovú palivových palivovými
+69	6869	pečivo	pečiva pečivom
+70	6870	prienik	prienikom prieniku prieniky
+71	6871	prevrat	prevrate prevratom prevratov prevratu
+72	6872	zdvojnásobiť	zdvojnásob zdvojnásobia zdvojnásobil zdvojnásobila zdvojnásobili zdvojnásobilo zdvojnásobte zdvojnásobí zdvojnásobím zdvojnásobíme zdvojnásobíš
+73	6873	hrýzť	hryz hryzenie hryzie hryziem hryziete hryzieš hryzú hrýzla hrýzli hrýzol nehryz nehryzie nehryziem nehryzieme nehryzú nehrýzť
+74	6874	pozdávať	nepozdáva nepozdávajú nepozdával nepozdávala nepozdávalo pozdáva pozdávajú pozdával pozdávalo pozdávaš
+75	6875	rozpaky	rozpakoch rozpakov
+76	6876	transplantácia	transplantácie transplantácii transplantáciou transplantáciu transplantácií
+77	6877	rozmanitý	rozmanitá rozmanité rozmanitých
+78	6878	zjednotiť	zjednotia zjednotil zjednotila zjednotili zjednotí zjednotím zjednotíme
+79	6879	zavádzať	zavádza zavádzajú zavádzal zavádzala zavádzali zavádzam zavádzame zavádzaš
+80	6880	podnebie	podnebia podnebiu podnebí podnebím
+81	6881	tárať	netáraj netárajte netáral netáram tára tárajú táral tárala tárali táram tárate táraš
+82	6882	výzbroj	výzbroje výzbroji výzbrojou
+83	6883	hostinec	hostinca hostinci
+84	6884	bravčové	
+85	6885	premôcť	nepremôže premohla premohli premohlo premohol premôž premôže premôžem premôžeme premôžeš premôžu
+86	6886	zákulisie	zákulisia zákulisí
+87	6887	prekladať	neprekladá prekladaj prekladajte prekladajú prekladal prekladala prekladali prekladá prekladám prekladáš
+88	6888	prevažný	prevažnej prevažná prevažnú
+89	6889	uzatvoriť	uzatvoria uzatvoril uzatvorila uzatvorili uzatvorte uzatvorí uzatvorím uzatvoríme
+90	6890	oboznámený	oboznámená oboznámení
+91	6891	ruksak	ruksakmi ruksakom ruksaku ruksaky
+92	6892	prvenstvo	prvenstva
+93	6893	mäsiar	mäsiara mäsiari mäsiarka mäsiarky mäsiarom mäsiarov mäsiarovi mäsiarskeho mäsiarsky mäsiarskym
+94	6894	zoradený	zoradené zoradení zoradených
+95	6895	skórovať	neskóroval skóroval skórovala skórovali skóruj skóruje skórujem skóruješ skórujú
+96	6896	namietať	namieta namietajú namietal namietala namietali namietam namietame namietate nenamieta nenamietal nenamietala nenamietali nenamietam nenamietate nenamietaš
+97	6897	šum	šume šumu šumy
+98	6898	prevoz	prevoze prevozom prevozu
+99	6899	opatera	opatere opaterou opateru opatery
+100	6900	dáždnik	dáždnika dáždnikom dáždnikov dáždniku dáždniky dáždniček

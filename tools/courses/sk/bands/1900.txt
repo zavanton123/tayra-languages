@@ -1,100 +1,100 @@
-1	1801	odmiesť	odmietla odmietli odmietlo odmietol
-2	1802	zväz	zväze zväzom zväzov zväzu zväzy
-3	1803	hladina	hladine hladinou hladinu hladiny hladinách hladín
-4	1804	pojem	pojmami pojmoch pojmom pojmov pojmu pojmy
-5	1805	komunita	komunitami komunite komunitou komunitu komunity komunitách komunít
-6	1806	sklad	sklade skladmi skladoch skladom skladov skladu sklady
-7	1807	kufor	kufra kuframi kufre kufri kufroch kufrom kufrov kufru kufrík kufríka kufríkom kufríkov kufríku kufríky
+1	1801	hmota	hmote hmotou hmotu hmoty hmôt
+2	1802	kufor	kufra kuframi kufre kufri kufroch kufrom kufrov kufru kufrík kufríka kufríkom kufríkov kufríku kufríky
+3	1803	prsteň	prstene prsteni prsteňa prsteňmi prsteňoch prsteňom prsteňov prsteňu prstienky prstienok
+4	1804	panna	panic panica panici panické panického panický panicom panicov panien pannami panne pannou pannu panny pannách pannám
+5	1805	uhol	uhla uhle uhloch uhlom uhlov uhlová uhlové uhlu uhly uhlík uhlíka uhlíkoch uhlíkom uhlíkov uhlíkovej uhlíková uhlíkové uhlíkového uhlíkovú uhlíkový uhlíkových uhlíku uhlíky uholnej
+6	1806	regionálny	regionálna regionálne regionálneho regionálnej regionálnom regionálnou regionálnu regionálnych regionálnym regionálnymi
+7	1807	dokopy	
 8	1808	biznis	biznise biznisom biznisu
-9	1809	zásah	zásahmi zásahoch zásahom zásahov zásahu zásahy
-10	1810	prsteň	prstene prsteni prsteňa prsteňmi prsteňoch prsteňom prsteňov prsteňu prstienky prstienok
-11	1811	veta	vetami vete vetou vetu vety vetách viet
-12	1812	rezervácia	rezerváciami rezervácie rezervácii rezerváciou rezerváciu rezerváciách rezervácií
-13	1813	fond	fonde fondoch fondom fondov fondu fondy
-14	1814	dokopy	
-15	1815	nevinný	nevinnej nevinnom nevinnou nevinná nevinné nevinného nevinnému nevinní nevinnú nevinných nevinným nevinnými
-16	1816	tovar	tovare tovarom tovarov tovaru tovary
-17	1817	úsmev	úsmeve úsmevmi úsmevom úsmevov úsmevu úsmevy
-18	1818	zájsť	zachádza zachádzajú zachádzal zachádzali zachádzam zachádzame zachádzate zachádzaš zachádzať zašiel zašla zašli zašlo zájde zájdem zájdeme zájdete zájdeš zájdi zájdime zájdite zájdu
-19	1819	charakteristika	charakteristickou charakteristická charakteristické charakteristickú charakteristický charakteristických charakteristickým charakteristickými charakteristikami charakteristike charakteristikou charakteristiku charakteristiky charakteristík
-20	1820	zameraný	zameranej zameraná zamerané zameraného zameraní zameranú zameraných zameraným
-21	1821	bytosť	bytosti bytostiach bytostiam bytostí bytosťami bytosťou
-22	1822	prechod	prechode prechodom prechodov prechodu prechody
-23	1823	vtip	vtipe vtipmi vtipoch vtipom vtipov vtipu vtipy
-24	1824	zasiahnuť	zasiahla zasiahli zasiahlo zasiahne zasiahnem zasiahneme zasiahnete zasiahneš zasiahni zasiahnite zasiahnu zasiahol
-25	1825	rosa	rose rosou rosovi rosu rosy
-26	1826	zadarmo	
-27	1827	nebezpečenstvo	nebezpečenstiev nebezpečenstva nebezpečenstvami nebezpečenstve nebezpečenstvom nebezpečenstvu nebezpečenstvá nebezpečenstvách nebezpečenstvám
+9	1809	sklad	sklade skladmi skladoch skladom skladov skladu sklady
+10	1810	komunita	komunitami komunite komunitou komunitu komunity komunitách komunít
+11	1811	vtip	vtipe vtipmi vtipoch vtipom vtipov vtipu vtipy
+12	1812	napätie	napätia napätiu napätí napätím
+13	1813	hladina	hladine hladinou hladinu hladiny hladinách hladín
+14	1814	zásah	zásahmi zásahoch zásahom zásahov zásahu zásahy
+15	1815	úsmev	úsmeve úsmevmi úsmevom úsmevov úsmevu úsmevy
+16	1816	pojem	pojmami pojmoch pojmom pojmov pojmu pojmy
+17	1817	veta	vetami vete vetou vetu vety vetách viet
+18	1818	zväz	zväze zväzom zväzov zväzu zväzy
+19	1819	rosa	rose rosou rosovi rosu rosy
+20	1820	tovar	tovare tovarom tovarov tovaru tovary
+21	1821	rezervácia	rezerváciami rezervácie rezervácii rezerváciou rezerváciu rezerváciách rezervácií
+22	1822	zblázniť	nezblázni nezbláznil nezbláznila nezbláznili nezbláznim nezbláznime nezblázniš nezblázniť zblázni zbláznia zbláznil zbláznila zbláznili zbláznilo zbláznim zbláznime zbláznite zblázniš
+23	1823	fond	fonde fondoch fondom fondov fondu fondy
+24	1824	bytosť	bytosti bytostiach bytostiam bytostí bytosťami bytosťou
+25	1825	vyzdvihnúť	nevyzdvihla nevyzdvihli nevyzdvihne nevyzdvihneš nevyzdvihol vyzdvihla vyzdvihli vyzdvihlo vyzdvihne vyzdvihnem vyzdvihneme vyzdvihnete vyzdvihneš vyzdvihni vyzdvihnite vyzdvihnú vyzdvihol
+26	1826	nebezpečenstvo	nebezpečenstiev nebezpečenstva nebezpečenstvami nebezpečenstve nebezpečenstvom nebezpečenstvu nebezpečenstvá nebezpečenstvách nebezpečenstvám
+27	1827	zadarmo	
 28	1828	dážď	dažde daždi dažďa dažďami dažďoch dažďom dažďov dažďovej dažďovom dažďová dažďové dažďového dažďovú dažďový dažďových dažďovým dažďu dáždik
-29	1829	príslušník	príslušníci príslušníka príslušníkmi príslušníkom príslušníkov
-30	1830	centrálny	centrálna centrálneho centrálnej centrálnemu centrálnom centrálnou centrálnu centrálnych centrálnym
-31	1831	pobyt	pobyte pobytom pobytov pobytu pobyty
-32	1832	vyžadovať	vyžadoval vyžadovala vyžadovali vyžadovalo vyžaduje vyžadujem vyžadujeme vyžadujete vyžaduješ vyžadujú
-33	1833	objednať	objednaj objednajme objednajte objednajú objednal objednala objednali objednalo objedná objednám objednáme objednáte objednáš
-34	1834	pád	páde pádoch pádom pádov pádu pády
+29	1829	charakteristika	charakteristickou charakteristická charakteristické charakteristickú charakteristický charakteristických charakteristickým charakteristickými charakteristikami charakteristike charakteristikou charakteristiku charakteristiky charakteristík
+30	1830	vysvetľovať	nevysvetľoval nevysvetľovalo nevysvetľuj nevysvetľuje nevysvetľujte nevysvetľujú vysvetľoval vysvetľovala vysvetľovali vysvetľovalo vysvetľuj vysvetľuje vysvetľujem vysvetľujete vysvetľuješ vysvetľujú
+31	1831	pád	páde pádoch pádom pádov pádu pády
+32	1832	zameraný	zameranej zameraná zamerané zameraného zameraní zameranú zameraných zameraným
+33	1833	prechod	prechode prechodom prechodov prechodu prechody
+34	1834	pobyt	pobyte pobytom pobytov pobytu pobyty
 35	1835	body	
-36	1836	čelo	čela čele čelom čelá
-37	1837	naraziť	narazia narazil narazila narazili narazilo narazí narazím narazíme narazíte narazíš
-38	1838	štít	štíte štítkom štítkov štítku štítky štítmi štítoch štítok štítom štítov štítu štíty
-39	1839	prehliadka	prehliadkach prehliadkami prehliadke prehliadkou prehliadku prehliadky prehliadok
-40	1840	väzba	väzbami väzbe väzbou väzbu väzby väzbám väzieb
-41	1841	aktuálny	aktuálna aktuálne aktuálneho aktuálnej aktuálnom aktuálnou aktuálnu aktuálnych aktuálnym aktuálnymi najaktuálnejšie
-42	1842	predstaviteľ	predstavitelia predstaviteľa predstaviteľmi predstaviteľom predstaviteľov
-43	1843	umelý	umelej umelom umelou umelá umelé umelého umelú umelých umelým umelými
-44	1844	priemyselný	priemyselnej priemyselnom priemyselnou priemyselná priemyselné priemyselného priemyselnú priemyselných priemyselným priemyselnými
-45	1845	hrob	hrobe hroboch hrobom hrobov hrobové hrobu hroby
-46	1846	francúzsky	francúzske francúzskeho francúzskej francúzskemu francúzski francúzskou francúzskych francúzskym francúzskymi
-47	1847	pravidelný	pravidelnej pravidelnom pravidelnou pravidelná pravidelné pravidelného pravidelní pravidelnú pravidelných pravidelným pravidelnými
-48	1848	spisovateľ	spisovatelia spisovateľa spisovateľka spisovateľkou spisovateľku spisovateľky spisovateľmi spisovateľoch spisovateľom spisovateľov spisovateľovi spisovateľskej spisovateľského spisovateľský
-49	1849	majstrovstvá	majstrovstiev majstrovstvami majstrovstvách
-50	1850	väzeň	väzenkyne väzenkyňa väzenkyňu väzni väzňa väzňami väzňoch väzňom väzňov väzňovi
-51	1851	vyzdvihnúť	vyzdvihla vyzdvihli vyzdvihlo vyzdvihne vyzdvihnem vyzdvihneme vyzdvihnete vyzdvihneš vyzdvihni vyzdvihnite vyzdvihnú vyzdvihol
-52	1852	oslobodiť	oslobodenia oslobodenie oslobodeniu oslobodení oslobodením oslobodený oslobodia oslobodil oslobodila oslobodili oslobodilo oslobodzovať oslobodzuje oslobodí oslobodím oslobodíme oslobodíte oslobodíš osloboď osloboďme osloboďte
-53	1853	vzájomný	vzájomnej vzájomnom vzájomnou vzájomná vzájomné vzájomného vzájomnému vzájomnú vzájomných vzájomným vzájomnými
-54	1854	letecký	leteckej leteckom leteckou letecká letecké leteckého leteckému leteckú leteckých leteckým leteckými
-55	1855	blížiť	blíž blíži blížia blížil blížila blížili blížilo blížim blížime blížite blížiš
-56	1856	výročie	výročia výročiu výročí výročím
-57	1857	opatrne	opatrnejšie
-58	1858	pripojiť	pripoj pripoja pripojil pripojila pripojili pripojilo pripojme pripojte pripojí pripojím pripojíme pripojíte pripojíš
-59	1859	obrátiť	obráti obrátia obrátil obrátila obrátili obrátilo obrátim obrátime obrátite obrátiš obráť obráťme obráťte
-60	1860	turista	turistami turisti turistické turistický turistka turistku turistky turistom turistov turistovi turistu
-61	1861	nezávislý	nezávislej nezávislou nezávislá nezávislé nezávislého nezávislí nezávislú nezávislých nezávislým nezávislými
-62	1862	opatrný	opatrnej opatrnejšia opatrnejší opatrná opatrné opatrní opatrných opatrným
-63	1863	kríza	kríz krízach krízami kríze krízou krízu krízy
-64	1864	vážny	najvážnejší najvážnejších vážna vážneho vážnej vážnejšia vážnejšieho vážnejší vážnejších vážnejším vážnemu vážni vážnom vážnou vážnu vážnych vážnym vážnymi
-65	1865	zísť	schádza schádzať zišiel zišla zišli zišlo zíde zídem zídeme zídete zídeš zídu zíď zíďte
-66	1866	hotový	hotovou hotová hotoví hotovú hotových hotovým
-67	1867	nebrať	neber neberie neberiem neberieme neberiete neberieš neberme neberte neberú nebral nebrala nebrali nebralo
-68	1868	zásoba	zásob zásobami zásobe zásobou zásobu zásoby zásobách zásobám
-69	1869	odovzdať	odovzdaj odovzdajme odovzdajte odovzdajú odovzdal odovzdala odovzdali odovzdalo odovzdá odovzdám odovzdáme odovzdáte odovzdáš
-70	1870	krátko	kratšie najkratšie
-71	1871	očividne	
-72	1872	konkrétne	konkrétnejšie
-73	1873	nepomôcť	nepomohla nepomohli nepomohlo nepomohol nepomôže nepomôžem nepomôžeme nepomôžete nepomôžeš nepomôžu
-74	1874	album	albumami albume albumoch albumom albumov albumu albumy
-75	1875	bastard	bastarda bastardami bastardi bastardmi bastardom bastardov bastardovi
-76	1876	obvod	obvode obvodmi obvodoch obvodom obvodov obvodu obvody
-77	1877	zblázniť	zblázni zbláznia zbláznil zbláznila zbláznili zbláznilo zbláznim zbláznime zbláznite zblázniš
-78	1878	nastaviť	nastav nastavenia nastaveniach nastavenie nastavené nastavením nastavený nastavia nastavil nastavila nastavili nastavme nastavovať nastavte nastavuje nastaví nastavím nastavíme nastavíte nastavíš
-79	1879	zanechať	zanechaj zanechajte zanechajú zanechajúc zanechal zanechala zanechali zanechalo zanechá zanechám zanecháme zanecháte zanecháš
-80	1880	smiešne	najsmiešnejšie smiešnejšie
-81	1881	legenda	legendami legende legendou legendu legendy legendách legendám legiend
-82	1882	miliarda	miliardami miliarde miliardou miliardovej miliardová miliardové miliardového miliardovú miliardový miliardu miliardy miliardách miliardám miliárd
-83	1883	sneh	snehom snehovej snehovom snehovou snehová snehové snehovú snehový snehových snehovým snehovými snehu snežnej snežnom snežná snežné snežného snežnú snežný snežných sniežik
-84	1884	zisk	ziskami ziskoch ziskom ziskov zisku zisky
-85	1885	nepodariť	nepodaril nepodarila nepodarilo nepodarí
-86	1886	prenos	prenose prenosom prenosov prenosu prenosy
-87	1887	vzor	vzore vzormi vzorom vzorov vzoru vzory
-88	1888	ekonomika	ekonomike ekonomikou ekonomiku ekonomiky ekonomík
-89	1889	podnikateľ	podnikatelia podnikateľa podnikateľka podnikateľky podnikateľmi podnikateľom podnikateľov podnikateľovi podnikateľskej podnikateľské podnikateľského podnikateľský podnikateľských
-90	1890	špecifický	špecifickej špecifickom špecifickou špecifická špecifické špecifického špecifickú špecifických špecifickým špecifickými
-91	1891	úspešne	najúspešnejšie úspešnejšie
-92	1892	rozum	rozume rozumom rozumov rozumovo rozumu rozumy
-93	1893	tmavý	najtmavšej najtmavšia najtmavšie tmavej tmavo tmavom tmavou tmavá tmavé tmavého tmaví tmavú tmavých tmavým tmavými tmavšia tmavšie tmavší
-94	1894	ochranný	ochrannej ochrannom ochrannou ochranná ochranné ochranného ochrannú ochranných ochranným ochrannými
-95	1895	zapnúť	zapla zapli zaplo zapne zapnem zapneme zapnete zapneš zapni zapnime zapnite zapnutie zapnutý zapnú zapol zapína zapínajú zapínali zapínam zapínanie zapínaš zapínať
-96	1896	mládež	mládeže mládeži mládežou
-97	1897	detail	detaile detailmi detailoch detailom detailov detailu detaily
-98	1898	uvoľniť	uvoľni uvoľnia uvoľnil uvoľnila uvoľnili uvoľnilo uvoľnime uvoľnite uvoľní uvoľním uvoľníme uvoľníte uvoľníš
-99	1899	vysvetľovať	vysvetľoval vysvetľovala vysvetľovali vysvetľovalo vysvetľuj vysvetľuje vysvetľujem vysvetľujete vysvetľuješ vysvetľujú
-100	1900	šírka	šírkach šírke šírkou šírku šírky šírok
+36	1836	pripojiť	nepripojil nepripojí nepripojím nepripojíme nepripojíte nepripojíš pripoj pripoja pripojil pripojila pripojili pripojilo pripojme pripojte pripojí pripojím pripojíme pripojíte pripojíš
+37	1837	centrálny	centrálna centrálneho centrálnej centrálnemu centrálnom centrálnou centrálnu centrálnych centrálnym
+38	1838	prehliadka	prehliadkach prehliadkami prehliadke prehliadkou prehliadku prehliadky prehliadok
+39	1839	príslušník	príslušníci príslušníka príslušníkmi príslušníkom príslušníkov
+40	1840	štít	štíte štítkom štítkov štítku štítky štítmi štítoch štítok štítom štítov štítu štíty
+41	1841	čelo	čela čele čelom čelá
+42	1842	zísť	nezišiel nezišla nezišlo nezíde nezídem nezídeme nezídete nezídeš schádza schádzať zišiel zišla zišli zišlo zíde zídem zídeme zídete zídeš zídu zíď zíďte
+43	1843	obrátiť	neobráti neobrátia neobrátil neobrátila neobrátili neobrátim neobrátiš obráti obrátia obrátil obrátila obrátili obrátilo obrátim obrátime obrátite obrátiš obráť obráťme obráťte
+44	1844	hrob	hrobe hroboch hrobom hrobov hrobové hrobu hroby
+45	1845	oslobodiť	neoslobodil neoslobodí neoslobodíme neoslobodíš oslobodenia oslobodenie oslobodeniu oslobodení oslobodením oslobodený oslobodia oslobodil oslobodila oslobodili oslobodilo oslobodzovať oslobodzuje oslobodí oslobodím oslobodíme oslobodíte oslobodíš osloboď osloboďme osloboďte
+46	1846	väzba	väzbami väzbe väzbou väzbu väzby väzbám väzieb
+47	1847	väzeň	väzenkyne väzenkyňa väzenkyňu väzni väzňa väzňami väzňoch väzňom väzňov väzňovi
+48	1848	blížiť	blíž blíži blížia blížil blížila blížili blížilo blížim blížime blížite blížiš neblíži neblížime
+49	1849	aktuálny	aktuálna aktuálne aktuálneho aktuálnej aktuálnom aktuálnou aktuálnu aktuálnych aktuálnym aktuálnymi najaktuálnejšie
+50	1850	opatrne	opatrnejšie
+51	1851	spisovateľ	spisovatelia spisovateľa spisovateľka spisovateľkou spisovateľku spisovateľky spisovateľmi spisovateľoch spisovateľom spisovateľov spisovateľovi spisovateľskej spisovateľského spisovateľský
+52	1852	odovzdať	neodovzdal neodovzdala neodovzdali neodovzdá neodovzdám neodovzdáš odovzdaj odovzdajme odovzdajte odovzdajú odovzdal odovzdala odovzdali odovzdalo odovzdá odovzdám odovzdáme odovzdáte odovzdáš
+53	1853	umelý	umelej umelom umelou umelá umelé umelého umelú umelých umelým umelými
+54	1854	priemyselný	priemyselnej priemyselnom priemyselnou priemyselná priemyselné priemyselného priemyselnú priemyselných priemyselným priemyselnými
+55	1855	francúzsky	francúzske francúzskeho francúzskej francúzskemu francúzski francúzskou francúzskych francúzskym francúzskymi
+56	1856	predstaviteľ	predstavitelia predstaviteľa predstaviteľmi predstaviteľom predstaviteľov
+57	1857	opatrný	opatrnej opatrnejšia opatrnejší opatrná opatrné opatrní opatrných opatrným
+58	1858	pravidelný	pravidelnej pravidelnom pravidelnou pravidelná pravidelné pravidelného pravidelní pravidelnú pravidelných pravidelným pravidelnými
+59	1859	majstrovstvá	majstrovstiev majstrovstvami majstrovstvách
+60	1860	letecký	leteckej leteckom leteckou letecká letecké leteckého leteckému leteckú leteckých leteckým leteckými
+61	1861	očividne	
+62	1862	vzájomný	vzájomnej vzájomnom vzájomnou vzájomná vzájomné vzájomného vzájomnému vzájomnú vzájomných vzájomným vzájomnými
+63	1863	výročie	výročia výročiu výročí výročím
+64	1864	bastard	bastarda bastardami bastardi bastardmi bastardom bastardov bastardovi
+65	1865	hotový	hotovou hotová hotoví hotovú hotových hotovým
+66	1866	zapnúť	nezapla nezapne nezapnem nezapneme nezapneš nezapol nezapína nezapínaj nezapínajte zapla zapli zaplo zapne zapnem zapneme zapnete zapneš zapni zapnime zapnite zapnutie zapnutý zapnú zapol zapína zapínajú zapínali zapínam zapínanie zapínaš zapínať
+67	1867	tlačiť	netlač netlačia netlačil netlačila netlačili netlačiť netlačte netlačí netlačím netlačíš tlačenia tlačenie tlačené tlačením tlačený tlačia tlačiac tlačiaci tlačil tlačila tlačili tlačilo tlačte tlačí tlačím tlačíme tlačíte tlačíš
+68	1868	uvedomovať	neuvedomoval neuvedomovala neuvedomovali neuvedomuje neuvedomujem neuvedomujeme neuvedomujete neuvedomuješ neuvedomujú neuvedomujúc uvedomoval uvedomovala uvedomovali uvedomuje uvedomujem uvedomujeme uvedomujete uvedomuješ uvedomujú uvedomujúc
+69	1869	vážny	najvážnejší najvážnejších vážna vážneho vážnej vážnejšia vážnejšieho vážnejší vážnejších vážnejším vážnemu vážni vážnom vážnou vážnu vážnych vážnym vážnymi
+70	1870	turista	turistami turisti turistické turistický turistka turistku turistky turistom turistov turistovi turistu
+71	1871	zásoba	zásob zásobami zásobe zásobou zásobu zásoby zásobách zásobám
+72	1872	doraziť	dorazia dorazil dorazila dorazili dorazilo dorazme dorazte dorazí dorazím dorazíme dorazíte dorazíš nedorazia nedorazil nedorazila nedorazili nedorazilo nedorazí nedorazíme nedorazíš
+73	1873	nezávislý	nezávislej nezávislou nezávislá nezávislé nezávislého nezávislí nezávislú nezávislých nezávislým nezávislými
+74	1874	kríza	kríz krízach krízami kríze krízou krízu krízy
+75	1875	smiešne	najsmiešnejšie smiešnejšie
+76	1876	nastaviť	nastav nastavenia nastaveniach nastavenie nastavené nastavením nastavený nastavia nastavil nastavila nastavili nastavme nastavovať nastavte nastavuje nastaví nastavím nastavíme nastavíte nastavíš nenastavil nenastavili nenastavíš
+77	1877	uvoľniť	neuvoľnil neuvoľnili neuvoľní neuvoľním neuvoľníme neuvoľníte neuvoľníš uvoľni uvoľnia uvoľnil uvoľnila uvoľnili uvoľnilo uvoľnime uvoľnite uvoľní uvoľním uvoľníme uvoľníte uvoľníš
+78	1878	krátko	kratšie najkratšie
+79	1879	konkrétne	konkrétnejšie
+80	1880	uvažovať	neuvažoval neuvažovala neuvažovali neuvažuj neuvažuje neuvažujem neuvažujeme neuvažujete neuvažuješ neuvažujte neuvažujú uvažoval uvažovala uvažovali uvažovalo uvažuj uvažuje uvažujem uvažujeme uvažujete uvažuješ uvažujme uvažujte uvažujú uvažujúc
+81	1881	nechávať	necháva nechávaj nechávajte nechávajú nechávajúc nechával nechávala nechávali nechávam nechávame nechávate nechávaš nenecháva nenechávaj nenechávajte nenechávajú nenechával nenechávala nenechávali nenechávam nenechávame nenechávate nenechávaš nenechávať
+82	1882	vyraziť	nevyrazil nevyrazila nevyrazili nevyrazím nevyrazíme nevyrazíš vyraz vyrazia vyrazil vyrazila vyrazili vyrazilo vyrazme vyrazte vyrazí vyrazím vyrazíme vyrazíte vyrazíš
+83	1883	posadiť	neposadil neposadíme neposadíte neposadíš posadia posadil posadila posadili posadí posadím posadíme posadíte posadíš posaď posaďme posaďte
+84	1884	album	albumami albume albumoch albumom albumov albumu albumy
+85	1885	obvod	obvode obvodmi obvodoch obvodom obvodov obvodu obvody
+86	1886	meškať	meškajú meškal meškala meškali meškalo mešká meškám meškáme meškáte meškáš nemeškaj nemeškajte nemeškajú nemeškal nemeškala nemeškali nemešká nemeškám nemeškáme nemeškáte nemeškáš
+87	1887	miliarda	miliardami miliarde miliardou miliardovej miliardová miliardové miliardového miliardovú miliardový miliardu miliardy miliardách miliardám miliárd
+88	1888	legenda	legendami legende legendou legendu legendy legendách legendám legiend
+89	1889	sneh	snehom snehovej snehovom snehovou snehová snehové snehovú snehový snehových snehovým snehovými snehu snežnej snežnom snežná snežné snežného snežnú snežný snežných sniežik
+90	1890	rozum	rozume rozumom rozumov rozumovo rozumu rozumy
+91	1891	zisk	ziskami ziskoch ziskom ziskov zisku zisky
+92	1892	prekliaty	prekliata prekliate prekliateho prekliatej prekliatemu prekliati prekliatom prekliatou prekliatu prekliatych prekliatym prekliatymi
+93	1893	detail	detaile detailmi detailoch detailom detailov detailu detaily
+94	1894	prenos	prenose prenosom prenosov prenosu prenosy
+95	1895	tmavý	najtmavšej najtmavšia najtmavšie tmavej tmavo tmavom tmavou tmavá tmavé tmavého tmaví tmavú tmavých tmavým tmavými tmavšia tmavšie tmavší
+96	1896	vzor	vzore vzormi vzorom vzorov vzoru vzory
+97	1897	ekonomika	ekonomike ekonomikou ekonomiku ekonomiky ekonomík
+98	1898	vírus	víruse vírusmi vírusoch vírusom vírusov vírusu vírusy
+99	1899	podnikateľ	podnikatelia podnikateľa podnikateľka podnikateľky podnikateľmi podnikateľom podnikateľov podnikateľovi podnikateľskej podnikateľské podnikateľského podnikateľský podnikateľských
+100	1900	ochranný	ochrannej ochrannom ochrannou ochranná ochranné ochranného ochrannú ochranných ochranným ochrannými

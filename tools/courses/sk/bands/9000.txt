@@ -1,100 +1,100 @@
-1	8901	zdriemnuť	zdriemla zdriemli zdriemne zdriemnem zdriemneme zdriemneš zdriemni zdriemnite zdriemol
-2	8902	zašiť	zaši zašije zašijem zašijeme zašiješ zašijú zašil zašila zašili zašite
-3	8903	potulovať	potuloval potulovala potulovali potuluje potulujem potuluješ potulujú
-4	8904	krokodíl	krokodíla krokodílie krokodílmi krokodílom krokodílov krokodílovi krokodíly krokodílí
-5	8905	vynášať	vynáša vynášajú vynášal vynášala vynášali vynášam vynášame
-6	8906	sedemdesiaty	sedemdesiate sedemdesiatom sedemdesiatych
-7	8907	východiskový	východiskové východiskovým
-8	8908	postihovať	postihuje postihujú
-9	8909	nábor	nábore náborovom náborová náborové náborového náborový náborových náboru
-10	8910	popíjať	popíja popíjajú popíjajúc popíjal popíjala popíjali popíjam popíjame popíjate popíjaš
-11	8911	buk	buka
-12	8912	šťavnatý	šťavnatom šťavnatá šťavnaté šťavnatého šťavnatú šťavnatých
-13	8913	otepľovanie	otepľovania otepľovaniu otepľovaní otepľovaním
-14	8914	brožúra	brožúr brožúre brožúrka brožúrky brožúru brožúry
-15	8915	ironický	ironická ironické ironického ironickým ironickými
-16	8916	konkurovať	konkuruje konkurujú
-17	8917	menič	meniča meniči meničoch meničom meničov
-18	8918	tlmočník	tlmočníka tlmočníkom tlmočníčka
-19	8919	spriateliť	spriatelil spriatelila spriatelili spriatelí spriatelíme spriatelíte spriatelíš
-20	8920	vycítiť	vycíti vycítia vycítil vycítila vycítili vycítim vycítime vycítiš
-21	8921	súdnictvo	súdnictva súdnictve
-22	8922	povodie	povodia povodí povodím
-23	8923	preventívny	preventívna preventívne preventívnej preventívnu preventívnych
-24	8924	pasák	pasáci pasáka pasákmi pasákom pasákov pasákovi
-25	8925	vycúvať	vycúva vycúvaj vycúval vycúvala vycúvali vycúvam vycúvame vycúvaš
-26	8926	rozrezať	rozrezal rozrezala rozrezali rozrež rozreže rozrežem rozrežeme rozrežete rozrežeš rozrežte rozrežú
-27	8927	vkročiť	vkroč vkročia vkročil vkročila vkročili vkročí vkročím vkročíme vkročíte vkročíš
-28	8928	semester	semestra semestre semestri semestrom semestrov
-29	8929	mechanicky	
-30	8930	teológ	teologickej teológov teológovia
-31	8931	nevyhovovať	nevyhovoval nevyhovovala nevyhovovalo nevyhovuje nevyhovujú
-32	8932	rozčuľovať	rozčuľoval rozčuľovala rozčuľovalo rozčuľuje rozčuľujem rozčuľujete rozčuľuješ rozčuľujú
-33	8933	nárazník	nárazníka nárazníkoch nárazníkom nárazníku nárazníky
-34	8934	pozdávať	pozdáva pozdávajú pozdával pozdávalo pozdávaš
-35	8935	pohrýzť	pohryz pohryzie pohrýzla pohrýzli pohrýzlo pohrýzol
-36	8936	uťahovať	uťahoval uťahovali uťahuj uťahuje uťahujem uťahujete uťahuješ uťahujú
-37	8937	flór	flóru flóry
-38	8938	nespôsobiť	nespôsobia nespôsobil nespôsobila nespôsobili nespôsobilo nespôsobí nespôsobím nespôsobíš
-39	8939	živel	živlami živle živlom živlov živlu živly
-40	8940	zozbierať	zozbiera zozbieraj zozbierajte zozbierajú zozbieral zozbierala zozbierali zozbieram zozbierame
-41	8941	vytáčať	vytáča vytáčaj vytáčajú vytáčal vytáčali vytáčalo vytáčam vytáčate vytáčaš
-42	8942	neposledný	neposlednej neposlednom
-43	8943	sauna	saune saunou saunu sauny
-44	8944	zlostiť	zlosti
-45	8945	závažnosť	závažnosti
-46	8946	skladisko	skladiska skladiskom skladisku skladiská skladísk
-47	8947	yard	yardoch yardov yardu yardy
-48	8948	tlmič	tlmiča tlmiče tlmičmi tlmičom tlmičov
-49	8949	upokojujúci	upokojujúca upokojujúce
-50	8950	odradiť	odradil odradila odradili odradilo odradí
-51	8951	kapota	kapote kapotou kapotu kapoty
-52	8952	nezjesť	nezje nezjedia nezjedla nezjedli nezjedol nezjedz nezjedzte nezjem nezjeme nezjete nezješ
-53	8953	konvenčný	konvenčnej konvenčná konvenčné konvenčného konvenčných konvenčným konvenčnými
-54	8954	nadporučík	nadporučíka nadporučíkom nadporučíkovi
-55	8955	nevymyslieť	nevymyslel nevymyslela nevymysleli nevymyslia nevymyslí nevymyslím nevymyslíme nevymyslíte nevymyslíš
-56	8956	citácia	citácie citáciu citácií
-57	8957	ponúkaný	ponúkaná ponúkané ponúkaných
-58	8958	striktne	
-59	8959	polly	
-60	8960	osvetový	osvetovej osvetové osvetového osvetových
-61	8961	uspokojenie	uspokojenia uspokojeniu uspokojením
-62	8962	uhasiť	uhas uhasil uhasila uhasili uhasilo uhaste uhasí uhasím uhasíme uhasíš
-63	8963	blázinec	blázinca blázinci blázincom
-64	8964	páchať	pácha páchajú páchal páchali pácham páchate páchaš
-65	8965	vysadený	vysadené vysadení vysadených
-66	8966	ponúknutý	ponúknutá ponúknuté
-67	8967	streh	strehu
-68	8968	neodporúčať	neodporúča neodporúčajú neodporúčal neodporúčam neodporúčame
-69	8969	spínač	spínača spínače spínači spínačom spínačov
-70	8970	previerka	previerke previerkou previerku previerky
-71	8971	veličina	veličiny veličín
-72	8972	naberať	naberajú naberal naberala naberali naberá naberám naberáme
-73	8973	štýlový	najštýlovejšia štýlovej štýlová štýlové štýlového štýloví
-74	8974	konfrontovať	konfrontoval konfrontovala konfrontovali konfrontuje konfrontujem
-75	8975	doživotný	doživotná doživotné doživotného doživotnú doživotným
-76	8976	kras	krase krasu krasy
-77	8977	exkluzívne	
-78	8978	netešiť	neteš netešil netešila netešilo netešte neteší neteším netešíte netešíš
-79	8979	éter	éteri éterom éteru
-80	8980	vtáctvo	vtáctva
-81	8981	autogram	autogramom autogramov autogramy
-82	8982	tristo	
-83	8983	efektívnosť	efektívnosti
-84	8984	prvoradý	prvoradou prvoradá prvoradé prvoradí prvoradým
-85	8985	distribučný	distribučnej distribučná distribučné distribučného distribučnú distribučných
-86	8986	motivovaný	motivovaná motivované motivovaného motivovaní motivovaných
-87	8987	lymfatický	lymfatickej lymfatická lymfatické lymfatického lymfatických
-88	8988	guráž	guráže guráži gurážou
-89	8989	nedostatočný	nedostatočného nedostatočným
-90	8990	chľast	chľaste chľastom chľastu
-91	8991	neumrieť	neumrel neumrela neumreli neumri neumrie neumriem neumrieme neumriete neumrieš neumrú
-92	8992	sporiteľňa	sporiteľne
-93	8993	textil	textilom textilu
-94	8994	popriať	popraj poprajem poprajte poprial popriala
-95	8995	navariť	navar navaril navarila navarili navarí navarím navaríš
-96	8996	tuberkulóza	tbc tuberkulóze tuberkulózou tuberkulózu tuberkulózy
-97	8997	neriešiť	nerieš nerieši neriešia neriešil neriešila neriešili neriešim neriešime neriešite neriešiš neriešme neriešte
-98	8998	vynálezca	vynálezcom vynálezcov vynálezcovia vynálezcu
-99	8999	korčuľa	korčule korčuliach
-100	9000	naslepo	
+1	8901	poníženie	poníženia poníženiu ponížením
+2	8902	dochádzka	dochádzke dochádzku dochádzky
+3	8903	bizarný	bizarnej bizarnom bizarná bizarné bizarného bizarnú bizarných bizarným najbizarnejších
+4	8904	zvrhnúť	nezvrhne zvrhla zvrhli zvrhne zvrhneme zvrhnú zvrhol
+5	8905	rezignácia	rezignácie rezignácii rezignáciou rezignáciu
+6	8906	presadzovanie	presadzovania presadzovaní presadzovaním
+7	8907	moderátorka	moderátorky
+8	8908	pohanský	pohanskej pohanská pohanské pohanského pohanskí pohanskú pohanských
+9	8909	prekvapene	
+10	8910	skolabovať	skolaboval skolabovala skolabovali skolabovalo skolabuje skolabujú
+11	8911	hlupáčik	hlupáčika hlupáčikov hlupáčikovia
+12	8912	choreografia	choreografie choreografii choreografiou choreografiu
+13	8913	symbolicky	
+14	8914	kiahne	kiahní kiahňam kiahňami
+15	8915	prejazd	prejazde prejazdu
+16	8916	tvorivosť	tvorivosti
+17	8917	veľmoc	veľmoci veľmocou veľmocí
+18	8918	blížiaci	blížiaca blížiace blížiaceho blížiacej blížiacich blížiacim blížiacimi blížiacom blížiacou blížiacu
+19	8919	ohromne	
+20	8920	taliančina	taliančine taliančinu taliančiny
+21	8921	breza	brezovej brezy
+22	8922	vyčerpať	nevyčerpali vyčerpajú vyčerpal vyčerpala vyčerpali vyčerpalo vyčerpá vyčerpáš
+23	8923	prebytok	prebytkom prebytku
+24	8924	vlastnícky	vlastnícke vlastníckeho vlastníckych
+25	8925	vegetarián	vegetariáni vegetariánom vegetariánov
+26	8926	odpratať	odprac odprace odpracem odpraceme odpraceš odpracte odpratal odpratala odpratali
+27	8927	vyľakať	nevyľakal vyľakal vyľakala vyľakali vyľakalo vyľaká vyľakáte vyľakáš
+28	8928	dilema	dileme dilemou dilemu dilemy
+29	8929	grál	grálom grálu
+30	8930	dramaticky	dramatickejšie
+31	8931	zásnubný	zásnubnej zásnubnom zásnubná zásnubné zásnubného zásnubnú zásnubných
+32	8932	huta	hute huty
+33	8933	láva	láve lávou lávová lávové lávovú lávový lávu lávy
+34	8934	vzrast	vzrastom vzrastu
+35	8935	kúpanie	kúpania kúpaní kúpaním
+36	8936	overenie	overenia overeniu
+37	8937	režírovať	režíroval režírovala režíruje režírujem
+38	8938	maloletý	maloletej maloletá maloleté maloletého maloletú maloletých maloletým
+39	8939	dekoratívny	dekoratívna dekoratívnych dekoratívnym
+40	8940	doktorát	doktorátom doktorátu doktoráty
+41	8941	pridlho	
+42	8942	nevina	nevine nevinu neviny
+43	8943	anémia	anemická anemický anémie anémii anémiou anémiu
+44	8944	ktosi	kohosi kýmsi
+45	8945	motivovať	motivoval motivovala motivovalo motivuje nemotivuje
+46	8946	prisľúbiť	prisľúbil prisľúbila prisľúbili
+47	8947	rapídne	
+48	8948	plytvať	neplytvaj neplytvajme neplytvajte neplytval plytvajú plytval plytvala plytvali plytvá plytvám plytváme plytváte plytváš
+49	8949	schladiť	schladia schladil schladila schladili schladilo schladí schladím schlaď schlaďte
+50	8950	rasový	rasovej rasová rasové rasového rasovú rasových
+51	8951	zrealizovať	zrealizoval zrealizovala
+52	8952	zákop	zákope zákopoch zákopov zákopu zákopy
+53	8953	posuvný	posuvná posuvné posuvných posuvnými
+54	8954	fotogaléria	
+55	8955	everest	evereste everestu
+56	8956	nonstop	
+57	8957	optimalizácia	optimalizácie optimalizáciu
+58	8958	oválny	oválna oválne oválnej oválnu
+59	8959	jašterica	jašterice jaštericu jašteričia jašterička jašteričky jašteričí jašteríc
+60	8960	povzdychnúť	povzdychne
+61	8961	vysmievať	nevysmievaj nevysmievajte vysmieva vysmievaj vysmievajte vysmievajú vysmieval vysmievala vysmievali vysmievam vysmievate vysmievaš
+62	8962	pikantný	pikantnej pikantnou pikantná pikantné pikantného pikantnú pikantných
+63	8963	komorník	komorníka komorníkom komorníkovi
+64	8964	figurovať	figuroval figuruje figurujú
+65	8965	zamiešať	zamieša zamiešaj zamiešajú zamiešal zamiešala zamiešali zamiešalo zamiešam zamiešame zamiešaš
+66	8966	röntgen	röntgene röntgenové röntgenový röntgenovým röntgenu röntgeny
+67	8967	hnus	hnusom hnusu hnusy
+68	8968	jackpot	
+69	8969	poveternostný	poveternostné poveternostných poveternostným
+70	8970	zmerať	zmeraj zmerajte zmeral zmerala zmerali zmeria zmeriam zmeriame
+71	8971	odcestovať	odcestoval odcestovala odcestovali odcestuje odcestujem
+72	8972	prehlasovať	prehlasovali prehlasuje prehlasujem prehlasujeme prehlasujú
+73	8973	zimomriavky	
+74	8974	rock	rockom rocku
+75	8975	farebnosť	farebnosti farebnosťou
+76	8976	uvažovanie	uvažovania uvažovaní uvažovaním
+77	8977	kaňon	kaňone kaňonom kaňonu kaňony
+78	8978	pichať	nepichal pichaj pichajú pichal pichala pichali pichanie pichá pichám picháte picháš
+79	8979	provízia	provízie provízii províziu
+80	8980	strihať	nestrihaj nestrihal strihaj strihajte strihajú strihal strihala strihali strihá strihám striháš
+81	8981	rútiť	rúti rútia rútil rútila rútili rútilo rútim rútime rútiš
+82	8982	zhrnutie	zhrnutia zhrnutím
+83	8983	stuha	stuhami stuhou stuhu stuhy
+84	8984	námestník	námestníka námestníkom námestníkovi
+85	8985	očkovanie	očkovania očkovaniu očkovaní očkovaním
+86	8986	ešteže	
+87	8987	ľahostajný	ľahostajne ľahostajná ľahostajné ľahostajného ľahostajní
+88	8988	masť	masti masťou
+89	8989	zakončenie	zakončenia zakončením
+90	8990	debna	debien debne debnička debničku debnou debnu debny debnách
+91	8991	kladne	
+92	8992	družička	družičiek družičkou družičku družičky
+93	8993	prijímaný	prijímané prijímaní
+94	8994	jojo	joja jojom
+95	8995	zverejnenie	zverejnenia zverejnením
+96	8996	odkúpiť	odkúpi odkúpil odkúpila odkúpili odkúpim odkúpime
+97	8997	úľ	úle úli úľa úľov
+98	8998	vyrozprávať	vyrozpráva vyrozprávaj vyrozprávajú vyrozprával vyrozprávala vyrozprávali vyrozprávam vyrozprávate vyrozprávaš
+99	8999	padajúci	padajúca padajúce padajúceho padajúcej padajúcich padajúcim padajúcimi padajúcou padajúcu
+100	9000	vyčlenený	vyčlenená vyčlenené vyčlenených

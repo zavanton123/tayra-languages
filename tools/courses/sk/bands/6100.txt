@@ -1,100 +1,100 @@
-1	6001	prikrývka	prikrývkami prikrývke prikrývkou prikrývku prikrývky prikrývok
-2	6002	záštita	záštitou záštitu
-3	6003	šarm	šarme šarmom šarmu
-4	6004	lesk	leskom lesku
-5	6005	uvoľňovať	uvoľňoval uvoľňuje uvoľňujem uvoľňujú
-6	6006	narušenie	narušenia narušeniu narušení narušením
-7	6007	zriedkavý	zriedkavou zriedkavá zriedkavé zriedkavú zriedkavých
-8	6008	líce	líc líca lícach lícami líci lícne lícom líčka líčko
-9	6009	menovať	menoval menovala menovali menovalo menuj menuje menujem menuješ menujte
-10	6010	francúzština	francúzštine francúzštinou francúzštinu francúzštiny
-11	6011	sluch	sluchom sluchové sluchový sluchu
-12	6012	radiácia	radiácie radiácii radiáciou radiáciu radiácií
-13	6013	prekvapovať	prekvapovalo prekvapuje prekvapujem prekvapujete prekvapuješ prekvapujú
-14	6014	sekretárka	sekretárke sekretárkou sekretárku sekretárky sekretárok
-15	6015	svinstvo	svinstiev svinstva svinstve svinstvom svinstvu svinstvá svinstvách
-16	6016	keramický	keramickej keramická keramické keramického keramickú keramických
-17	6017	pokladňa	pokladne pokladni pokladní pokladňou pokladňu
-18	6018	sústredený	sústredenej sústredená sústredené sústredeného sústredení sústredenú
-19	6019	stúpnuť	stúpla stúpli stúplo stúpne stúpneš stúpni stúpnu stúpol
-20	6020	firemný	firemnej firemnom firemnou firemná firemné firemného firemní firemnú firemných firemným firemnými
-21	6021	nezniesť	neznesie neznesiem neznesieme neznesiete neznesieš neznesú nezniesla nezniesli nezniesol
-22	6022	predloha	predlohou predlohu predlohy predlôh
-23	6023	fešák	fešáci fešáka fešákom fešákov fešákovi
-24	6024	riaditeľstvo	riaditeľstva riaditeľstve
-25	6025	kurča	kurčatami kurčatá kurčatám kurčaťa kurčaťom kurčaťu kurčiat
-26	6026	uzáver	uzávere uzáverom uzáverov uzáveru uzávery
-27	6027	zákonný	zákonnej zákonnom zákonnou zákonná zákonné zákonného zákonnú zákonných zákonným zákonnými
-28	6028	stehno	stehien stehna stehnami stehne stehnom stehná stehnách
-29	6029	pyžamo	pyžama pyžame pyžamom pyžamu pyžamá pyžamách pyžám
-30	6030	orgazmus	orgazme orgazmom orgazmov orgazmu orgazmy
-31	6031	dačo	
-32	6032	konfigurácia	konfigurácie konfigurácii konfiguráciu
-33	6033	lodný	lodnej lodnom lodná lodné lodného lodnú lodných lodným lodnými
-34	6034	darebák	darebáci darebácky darebáka darebákmi darebákom darebákov darebákovi darebáčka
-35	6035	dosiaľ	
-36	6036	opora	oporou oporu opory
-37	6037	vyhadzovať	vyhadzoval vyhadzovala vyhadzovali vyhadzuje vyhadzujem vyhadzujeme vyhadzujete vyhadzuješ vyhadzujú
-38	6038	plodina	plodiny plodín
-39	6039	zjazd	zjazde zjazdom zjazdov zjazdu
-40	6040	alias	aliasov aliasy
-41	6041	prehrávať	prehráva prehrávajú prehrával prehrávala prehrávali prehrávam prehrávame prehrávate prehrávaš
-42	6042	zadržaný	zadržaná zadržané zadržaného zadržaní zadržaných zadržaným zadržanými
-43	6043	jednanie	jednania jednaniach jednaniu jednaní jednaním
-44	6044	pokopať	pokope
-45	6045	špecialita	špecialite špecialitou špecialitu špeciality špecialitách špecialít
-46	6046	šukať	šukaj šukajú šukal šukala šukali šukanie šuká šukám šukáme šukáte šukáš
-47	6047	nádvorie	nádvoria nádvorí
-48	6048	artefakt	artefakte artefaktmi artefaktoch artefaktom artefaktov artefaktu artefakty
-49	6049	hrot	hrote hrotmi hrotom hrotov hrotu hroty
-50	6050	úpadok	úpadkom úpadku
-51	6051	kefa	kefe kefka kefku kefou kefu kefy
-52	6052	predniesť	prednesie prednesiem prednesieš predneste predniesla predniesli predniesol
-53	6053	amatér	amatéra amatéri amatérmi amatérom amatérov
-54	6054	hostina	hostine hostinou hostinu hostiny
-55	6055	oznamovať	oznamoval oznamovala oznamuje oznamujem oznamujeme oznamujete oznamuješ oznamujú
-56	6056	fúz	fúzami fúzik fúzmi fúzoch fúzov fúzy
-57	6057	mrkva	mrkiev mrkve mrkvička mrkvičky mrkvou mrkvová mrkvový mrkvu mrkvy
-58	6058	nepozrieť	nepozrel nepozrela nepozreli nepozri nepozrie nepozriem nepozrieme nepozriete nepozrieš nepozrú
-59	6059	znalec	znalca znalci znalcom znalcov
-60	6060	vyznanie	vyznania vyznaniu vyznaní vyznaním
-61	6061	urážať	uráža urážaj urážajú urážal urážala urážali urážalo urážam urážate urážaš
-62	6062	rampa	rampe rampou rampu rampy
-63	6063	vagína	vagín vagínach vagíne vagínou vagínu vagíny
-64	6064	zhromažďovať	zhromažďoval zhromažďovala zhromažďovali zhromažďuje zhromažďujem zhromažďujeme zhromažďujú
-65	6065	dvadsiaty	dvadsiata dvadsiate dvadsiateho dvadsiatej dvadsiatom dvadsiatych
-66	6066	ohlas	ohlasom ohlasy
-67	6067	pozostávajúci	pozostávajúca pozostávajúce pozostávajúceho pozostávajúcej
-68	6068	vypariť	vypar vyparia vyparil vyparila vyparili vyparilo vyparme vyparte vyparí vyparím vyparíme vyparíš
-69	6069	zvonku	
-70	6070	vypáliť	vypáli vypália vypálil vypálila vypálili vypálilo vypálim vypálime vypálite vypáliš vypáľ vypáľte
-71	6071	egyptský	egyptskej egyptskom egyptskou egyptská egyptské egyptského egyptskí egyptskú egyptských egyptským egyptskými
-72	6072	bublina	bubline bublinou bublinu bubliny bublín
-73	6073	identický	identická identické identickí identickú identických
-74	6074	stiahnutie	stiahnutia stiahnutiu stiahnutím
-75	6075	úkon	úkonov úkonu úkony
-76	6076	limitovaný	limitovanej limitovaná limitované limitovanú
-77	6077	spasiteľ	spasitelia spasiteľa spasiteľom spasiteľov spasiteľovi
-78	6078	symbolizovať	symbolizoval symbolizovalo symbolizuje symbolizujú
-79	6079	ráz	rázu
-80	6080	zneužívanie	zneužívania zneužívaniu zneužívaní zneužívaním
-81	6081	zmieniť	zmieni zmienia zmienil zmienila zmienili zmienim zmieniš
-82	6082	niť	nite niti nití niťami niťou
-83	6083	popraviť	popravia popravil popravila popravili popravte popraví popravím popravíme popravíte popravíš
-84	6084	neozvať	neozval neozvala neozvali neozvalo neozve neozvem neozveme neozvete neozveš neozvú
-85	6085	obľuba	obľube obľubou obľubu
-86	6086	uctievať	uctieva uctievajte uctievajú uctieval uctievala uctievali uctievam uctievame uctievate uctievaš
-87	6087	vklad	vklade vkladom vkladov vkladu vklady
-88	6088	sať	saj saje sajem sajú sal sala satie
-89	6089	otras	otrase otrasmi otrasoch otrasom otrasov otrasu otrasy
-90	6090	kašľať	kašle kašlem kašleme kašlete kašleš kašli kašlime kašlite kašľal kašľala kašľanie
-91	6091	učebný	učebné učební učebných
-92	6092	obracať	obracajú obracal obracala obracali obracia obraciam obraciame obraciate obraciaš
-93	6093	spolubývajúci	spolubývajúceho spolubývajúcemu spolubývajúcich spolubývajúcim spolubývajúcimi spolubývajúcom
-94	6094	vďačiť	vďačia vďačí vďačím vďačíme vďačíte vďačíš
-95	6095	napojený	napojená napojené napojení napojenú
-96	6096	remíza	remíze remízou remízu remízy
-97	6097	snúbenec	snúbenca snúbenci snúbencom snúbencovi
-98	6098	folklór	folklórom folklóru
-99	6099	osadený	osadená osadené
-100	6100	pamiatkový	pamiatkovej pamiatková pamiatkového pamiatkovú pamiatkových
+1	6001	učebný	učebné učební učebných
+2	6002	siahnuť	nesiahne nesiahneš nesiahol siahla siahli siahne siahnem siahnete siahneš siahni siahnite siahnu siahol
+3	6003	čerešňa	čerešne čerešnička čerešničkou čerešničku čerešničky čerešní čerešňami čerešňovej čerešňová čerešňové čerešňového čerešňovú čerešňový čerešňových čerešňu
+4	6004	horký	horka horkej horko horkom horku horká horké horkého horkú
+5	6005	kľudný	kľudnejšia kľudnejší kľudnom kľudná kľudné kľudného kľudní kľudnú kľudných kľudným
+6	6006	odpísať	neodpisuj neodpisuje neodpisujem neodpísal neodpísala neodpíšem odpisoval odpisovať odpisuje odpísal odpísala odpísali odpísaný odpíš odpíše odpíšem odpíšeme odpíšeš odpíšu
+7	6007	monitor	monitora monitore monitoroch monitorom monitorov monitoru monitory
+8	6008	oddychovať	neoddychuje oddychoval oddychovala oddychovali oddychuj oddychuje oddychujem oddychujeme oddychujete oddychuješ oddychujte oddychujú
+9	6009	žiarivý	najžiarivejších žiarivej žiarivom žiarivou žiarivá žiarivé žiarivého žiarivú žiarivých žiarivým žiarivými
+10	6010	volejbal	volejbale volejbalu
+11	6011	transakcia	transakcie transakcii transakciu transakciách transakcií
+12	6012	folklór	folklórom folklóru
+13	6013	zakazovať	nezakazuje nezakazujú zakazoval zakazovali zakazuje zakazujem zakazujeme zakazuješ zakazujú
+14	6014	nákaza	nákaz nákaze nákazou nákazu nákazy
+15	6015	férový	férovej férovom férová férové férového féroví férovú
+16	6016	pamiatkový	pamiatkovej pamiatková pamiatkového pamiatkovú pamiatkových
+17	6017	osadený	osadená osadené
+18	6018	teniska	tenisiek teniskami teniske tenisku tenisky teniskách teniskám
+19	6019	šibať	nešibe šibalo šibe
+20	6020	rebel	rebela rebeli rebelmi rebeloch rebelom rebelov rebelovi
+21	6021	hlučný	hlučne hlučnej hlučnejšie hlučnejší hlučno hlučná hlučné hlučného hluční hlučnú hlučných hlučným hlučnými
+22	6022	čeľusť	čeľuste čeľusti čeľustí čeľusťami čeľusťou
+23	6023	prezerať	prezerajú prezeral prezerala prezerali prezerá prezerám prezeráme prezeráte prezeráš
+24	6024	figúrka	figúrkami figúrke figúrkou figúrku figúrky figúrok
+25	6025	predĺžiť	nepredĺži predĺž predĺži predĺžia predĺžil predĺžila predĺžili predĺžilo predĺžim predĺžime
+26	6026	klobása	klobás klobásami klobáse klobáska klobásky klobásou klobásový klobásu klobásy
+27	6027	lopata	lopatami lopate lopatka lopatky lopatou lopatu lopaty
+28	6028	metropola	metropol metropole metropolou metropolu metropoly
+29	6029	fašizmus	fašistickej fašistická fašistické fašistickí fašistickú fašistický fašistických fašistickým fašizmom fašizmu
+30	6030	ľútosť	ľútosťou
+31	6031	emocionálny	emocionálna emocionálneho emocionálnej emocionálnom emocionálnou emocionálnu emocionálnych emocionálnym emocionálnymi
+32	6032	klávesnica	klávesnice klávesnici klávesnicou klávesnicu
+33	6033	helma	helmami helme helmou helmu helmy helmách
+34	6034	zapojenie	zapojenia zapojením
+35	6035	pivovar	pivovare pivovarom pivovarov pivovaru pivovary
+36	6036	obuv	obuvi obuvou
+37	6037	poskytovanie	poskytovania poskytovaním
+38	6038	prípravný	prípravnej prípravnom prípravná prípravné prípravného prípravnú prípravných
+39	6039	zajtrajší	zajtrajšej zajtrajšia zajtrajšie zajtrajšieho zajtrajšiemu zajtrajšiu zajtrajšom zajtrajšou zajtrajších zajtrajším
+40	6040	laň	lane lani lanie lanka lanke lanku lanky
+41	6041	destinácia	destinácie destinácii destináciou destináciu destinácií
+42	6042	prevádzkovateľ	prevádzkovatelia prevádzkovateľa prevádzkovateľom prevádzkovateľov
+43	6043	zástanca	zástancami zástancom zástancov zástancovia zástancu
+44	6044	rozlišovať	nerozlišuje nerozlišujú rozlišuje rozlišujeme rozlišujú
+45	6045	miznúť	mizla mizli mizne miznem mizneme mizneš miznú mizol nemiznú
+46	6046	poctivý	najpoctivejší poctivej poctivou poctivá poctivé poctivého poctiví poctivú poctivých poctivým poctivými
+47	6047	postihnutie	postihnutia postihnutiu postihnutím
+48	6048	príťažlivý	príťažlivou príťažlivá príťažlivé príťažlivého príťažliví príťažlivú príťažlivým
+49	6049	prichytiť	neprichytia neprichytil neprichytila neprichytili prichytia prichytil prichytila prichytili prichytilo prichytí prichytím prichytíme prichytíte prichytíš prichyť
+50	6050	dohliadnuť	dohliadla dohliadli dohliadne dohliadnem dohliadneme dohliadnete dohliadneš dohliadni dohliadnite dohliadnu dohliadol
+51	6051	dokumentárny	dokumentárneho dokumentárnej dokumentárnych
+52	6052	oddanosť	oddanosti oddanosťou
+53	6053	strmý	strmo strmom strmá strmé strmých strmým strmšie
+54	6054	ojedinelý	ojedinelá ojedinelé ojedinelú ojedinelých ojedinelým
+55	6055	rum	rume rumom rumu rumy
+56	6056	nepretržite	
+57	6057	sčasti	
+58	6058	popredie	popredia popredí
+59	6059	rozruch	rozruchom rozruchu
+60	6060	vynikajúco	
+61	6061	rozvedený	rozvedenej rozvedenou rozvedená rozvedené rozvedeného rozvedení rozvedenú rozvedených
+62	6062	ekonomicky	
+63	6063	chudý	chudej chudo chudá chudé chudého chudí chudú chudých chudým chudými chudšia chudší najchudší
+64	6064	guma	gume gumou gumu gumy gúm
+65	6065	lesbička	lesbickej lesbickom lesbickou lesbická lesbické lesbického lesbickú lesbický lesbických lesbičiek lesbičkami lesbičkou lesbičku lesbičky lesbičkám
+66	6066	kŕč	kŕča kŕče kŕči kŕčmi kŕčoch kŕčom kŕčov kŕčové
+67	6067	špecializovať	špecializoval špecializovala špecializovali špecializuje špecializujem špecializujeme špecializujete špecializuješ špecializujú
+68	6068	dozorca	dozorcami dozorcom dozorcov dozorcovi dozorcovia dozorcu
+69	6069	jesenný	jesennej jesennom jesenná jesenné jesenného jesennú jesenných
+70	6070	tipovať	netipoval netipovala tipoval tipovala tipovali tipuje tipujem tipujeme tipujete tipuješ
+71	6071	rovnica	rovnicami rovnice rovnici rovniciach rovnicou rovnicu rovníc
+72	6072	bezmocný	bezmocne bezmocná bezmocné bezmocného bezmocní bezmocnú bezmocných bezmocným
+73	6073	súrne	
+74	6074	škriatok	škriatka škriatkami škriatkoch škriatkom škriatkov škriatkovi škriatkovia
+75	6075	narušený	narušenej narušená narušené narušeného narušenú narušených
+76	6076	združený	združené združení združených
+77	6077	gitarista	gitaristi gitaristom gitaristov gitaristovi gitaristu
+78	6078	zámienka	zámienkami zámienkou zámienku zámienky
+79	6079	meradlo	meradiel meradle meradlom
+80	6080	inštalovaný	inštalovaná inštalované inštalovaných inštalovaným
+81	6081	islamský	islamskej islamská islamské islamského islamskú islamských islamským
+82	6082	vyvolený	vyvoleného vyvolenému vyvolení vyvolených vyvoleným vyvolenými
+83	6083	štyridsať	štyridsiatich štyridsiatimi
+84	6084	facka	faciek fackou facku facky
+85	6085	viedenský	viedenskej viedenskom viedenská viedenské viedenského viedenskú viedenských
+86	6086	stodola	stodole stodolou stodolu stodoly
+87	6087	dostupnosť	dostupnosti
+88	6088	bicí	bicie bicom bicích bicími
+89	6089	záblesk	zábleskami zábleskoch zábleskom zábleskov záblesku záblesky
+90	6090	doviezť	dovez dovezie doveziem dovezieme doveziete dovezieš dovezte dovezú doviezla doviezli doviezol nedoviezol
+91	6091	zľahka	
+92	6092	zošalieť	nezošalel nezošaliem nezošalieš zošalejú zošalel zošalela zošaleli zošalie zošaliem zošalieš
+93	6093	oplátka	oplátku oplátky
+94	6094	normál	normále normálom normálu
+95	6095	bon	bonom
+96	6096	poobzerať	poobzeraj poobzerajme poobzerajte poobzeral poobzerala poobzerali poobzerá poobzerám poobzeráme poobzeráte poobzeráš
+97	6097	sviatosť	sviatosti sviatostí
+98	6098	sokol	sokola sokolom sokolov sokoly
+99	6099	politicky	
+100	6100	videoklip	videoklipe videoklipov videoklipu videoklipy

@@ -1,100 +1,100 @@
-1	8201	delať	delá delám
-2	8202	metrový	metrovej metrovom metrovou metrová metrové metrového metrovú metrových metrovým
-3	8203	reflektor	reflektora reflektormi reflektoroch reflektorom reflektorov reflektory
-4	8204	matika	matike matikou matiku matiky
-5	8205	zdvorilý	zdvorilej zdvorilejší zdvorilá zdvorilé zdvorilí zdvorilým
-6	8206	poznačiť	poznač poznačil poznačila poznačili poznačilo poznačte poznačí poznačím
-7	8207	kandidátka	kandidátke kandidátkou kandidátku kandidátky
-8	8208	mňam	
-9	8209	vyhladiť	vyhladia vyhladil vyhladila vyhladili vyhladí vyhladím vyhladíme vyhlaďte
-10	8210	rozkoš	rozkoše rozkoši rozkošou rozkoší
-11	8211	privatizácia	privatizácie privatizácii privatizáciu
-12	8212	komplikovane	komplikovanejšie
-13	8213	povraz	povraze povrazmi povrazoch povrazom povrazov povrazu povrazy povrázku povrázok
-14	8214	ruština	ruštine ruštinu ruštiny
-15	8215	chlast	chlaste chlastom chlastu
-16	8216	netlačiť	netlač netlačia netlačil netlačila netlačili netlačte netlačí netlačím netlačíš
-17	8217	metla	metle metlou metlu metly metál metále
-18	8218	cár	cára cárom cárov cárovi cárovnej cárovná cárska
-19	8219	vyvrátiť	vyvráti vyvrátia vyvrátil vyvrátila vyvrátili vyvrátilo vyvrátim vyvráť vyvráťte
-20	8220	vákuum	vákua vákuom vákuová vákuový vákuu
-21	8221	mytológia	mytologická mytologické mytologický mytológie mytológii mytológiou mytológiu
-22	8222	profík	profíci profíka profíkmi profíkom profíkov profíčka
-23	8223	pravdivosť	pravdivosti
-24	8224	nížina	nížin nížine nížiny nížinách
-25	8225	smrek	smreka smrekové smreku
-26	8226	rozosmiať	rozosmej rozosmeje rozosmejem rozosmeješ rozosmejú rozosmial rozosmiala rozosmiali rozosmialo
-27	8227	poskytovateľ	poskytovatelia poskytovateľa poskytovateľom poskytovateľov
-28	8228	team	teame teamoch teamom teamov teamu teamy
-29	8229	somarina	somarinami somarine somarinu somariny somarinách somarín
-30	8230	prispôsobovať	prispôsoboval prispôsobovali prispôsobuje prispôsobujem prispôsobujeme prispôsobuješ prispôsobujú
-31	8231	vydýchnuť	vydýchla vydýchli vydýchne vydýchnem vydýchnete vydýchneš vydýchni vydýchnite vydýchol
-32	8232	bodový	bodové bodového bodovým
-33	8233	pohľadávka	pohľadávku pohľadávky pohľadávok
-34	8234	metodika	metodiku metodiky
-35	8235	celoslovenský	celoslovenskej celoslovenská celoslovenské celoslovenského
-36	8236	potlačenie	potlačeniu potlačení
-37	8237	kriticky	
-38	8238	organ	organa organe organov organu organy
-39	8239	ateista	ateisti ateistom ateistov ateistu
-40	8240	konzerva	konzerv konzervami konzerve konzervu konzervy konzervách
-41	8241	aromatický	aromatická aromatické aromatických
-42	8242	matkin	matkina matkine matkinej matkinho matkino matkinom matkinou matkinu matkiných matkiným
-43	8243	kongresman	kongresmana kongresmani kongresmanmi kongresmanom kongresmanov kongresmanovi
-44	8244	otvárací	otváracej otváracia otváracie otváracieho otváraciu otváracom otváracích
-45	8245	závoj	závoja závoje závoji závojom
-46	8246	zaručovať	zaručuje zaručujem zaručujeme zaručujú
-47	8247	drzosť	drzosti drzosťou
-48	8248	nezaberať	nezaberajú nezaberalo nezaberá
-49	8249	sústredenie	sústredenia sústredeniu sústredením
-50	8250	súvislý	súvislej súvislá súvislé súvislú
-51	8251	obývaný	obývanej obývaná obývané obývanú obývaných
-52	8252	tárať	tára tárajú táral tárala tárali táram tárate táraš
-53	8253	multimediálny	multimediálne multimediálnych
-54	8254	exponát	exponátov exponátu exponáty
-55	8255	zisťovanie	zisťovania zisťovaní zisťovaním
-56	8256	rozviedka	rozviedke rozviedkou rozviedku rozviedky
-57	8257	fyzikálne	
-58	8258	spájanie	spájania
-59	8259	sniť	snil snila sním sníme
-60	8260	fungujúci	fungujúca fungujúce fungujúceho fungujúcej fungujúcich fungujúcim fungujúcu
-61	8261	naviesť	navedie navediem naveď naveďte naviedla naviedli naviedlo naviedol
-62	8262	rodisko	rodiska rodiskom rodisku
-63	8263	zažalovať	zažaloval zažalovala zažalovali zažaluj zažaluje zažalujem zažalujeme zažalujete zažaluješ zažalujte zažalujú
-64	8264	vykašľať	vykašľal vykašľala vykašľali vykašľú
-65	8265	dejstvo	dejstva dejstve dejstvá
-66	8266	steh	stehmi stehov stehu stehy
-67	8267	popod	
-68	8268	nedohodnúť	nedohodla nedohodli nedohodne nedohodneme nedohodnete nedohodneš nedohodol
-69	8269	zámena	zámene zámenu zámeny
-70	8270	prameniť	pramenia pramení
-71	8271	šiť	ši šijem šijeme šijete šiješ šijú šil šila šili šime
-72	8272	starožitnosť	starožitnosti starožitnostiach starožitností starožitnosťami
-73	8273	plaz	plazom plazov plazy
-74	8274	korešpondencia	korešpondencie korešpondenciu
-75	8275	chuj	chuja chuji chujom chujov chujovi chuju
-76	8276	zelenáč	zelenáča zelenáči zelenáčom zelenáčov zelenáčovi
-77	8277	nepredať	nepredajú nepredal nepredala nepredali nepredá nepredám nepredáme nepredáte nepredáš
-78	8278	zostarnúť	zostarla zostarli zostarne zostarnem zostarneme zostarnete zostarneš zostarnú zostarol
-79	8279	skapať	skap skapal skapala skapali skapalo skape skapem skapeme skapete skapeš skapte skapú
-80	8280	utratiť	utratia utratil utratila utratili utratí utratím utratíme utratíte utratíš
-81	8281	zostúpiť	zostúp zostúpi zostúpia zostúpil zostúpila zostúpili zostúpilo zostúpim zostúpime zostúpte
-82	8282	vniknúť	vnikla vnikli vniklo vnikne vniknem vnikneme vniknete vnikneš vniknú vnikol
-83	8283	vhod	
-84	8284	jastrab	jastraba jastrabie jastrabov jastraby
-85	8285	nepadnúť	nepadla nepadli nepadlo nepadne nepadnem nepadneme nepadni nepadnite nepadnú nepadol
-86	8286	dynamit	dynamite dynamitom dynamitu
-87	8287	zmýliť	zmýlil zmýlila zmýlili zmýlim zmýliš
-88	8288	rozpustený	rozpustená rozpustené rozpustení rozpustených rozpusteným
-89	8289	textúra	textúr textúru textúry
-90	8290	truhla	truhiel truhle truhlou truhlu truhly truhlách
-91	8291	ekvivalent	ekvivalentom ekvivalenty
-92	8292	kolektívne	
-93	8293	priebežne	
-94	8294	žiarlivý	žiarlivej žiarlivá žiarlivé žiarlivého žiarliví žiarlivým
-95	8295	opevnenie	opevnenia opevnení
-96	8296	útulný	útulnej útulnom útulná útulné útulného útulnú
-97	8297	vysvitnúť	vysvitlo vysvitne
-98	8298	nesťažovať	nesťažoval nesťažovala nesťažovali nesťažuj nesťažuje nesťažujem nesťažujeme nesťažuješ nesťažujte nesťažujú
-99	8299	kobyla	kobyle kobyliek kobylka kobylku kobylky kobylu kobyly kobýl
-100	8300	patológ	patologické patologický patologička patológa patológom patológov patológovi patológovia
+1	8201	súpis	súpise súpisu
+2	8202	mŕtvica	mŕtvic mŕtvice mŕtvici mŕtvicu
+3	8203	propagovať	propagoval propagovali propaguje propagujem propagujete propagujú
+4	8204	vyvrcholenie	vyvrcholením
+5	8205	roj	roja roje roji rojom roju
+6	8206	verne	
+7	8207	veverica	veverice vevericu veveričie veverička veveričky
+8	8208	nájomník	nájomníci nájomníka nájomníkmi nájomníkom nájomníkov nájomníkovi
+9	8209	encyklopédia	encyklopedické encyklopédie encyklopédii encyklopédiu encyklopédií
+10	8210	dráždiť	dráždi dráždia dráždil dráždili dráždim dráždite dráždiš nedráždi nedráždite
+11	8211	vtiahnuť	vtiahla vtiahli vtiahlo vtiahne vtiahneš vtiahni vtiahnite vtiahnu vtiahol
+12	8212	drevenieť	drevenej
+13	8213	fučať	fuč fučí fučíš
+14	8214	členený	členená členené členení
+15	8215	odborne	
+16	8216	turbína	turbín turbíne turbínu turbíny
+17	8217	prisťahovať	prisťahoval prisťahovala prisťahovali prisťahuje
+18	8218	barbar	barbari barbarmi barbarom barbarov
+19	8219	astronómia	astronomické astronomický astronómie astronómii astronómiu
+20	8220	hosťujúci	hosťujúca hosťujúce hosťujúceho hosťujúcich hosťujúcim
+21	8221	zvláštnosť	zvláštnosti zvláštností zvláštnosťou
+22	8222	zacítiť	zacíti zacítia zacítil zacítila zacítili zacítim zacítime zacítite zacítiš
+23	8223	reliéf	reliéfom reliéfu reliéfy
+24	8224	deväťdesiaty	deväťdesiate deväťdesiatych
+25	8225	zakladajúci	zakladajúce zakladajúcich zakladajúcim
+26	8226	rozložiť	rozlož rozložia rozložil rozložila rozložili rozložte rozloží rozložím rozložíme
+27	8227	predpísaný	predpísanej predpísaná predpísané predpísaných
+28	8228	spozorovať	nespozoroval nespozorovala nespozorovali spozoroval spozorovala spozorovali spozorujete spozorujú
+29	8229	merací	meracie meracích
+30	8230	finalista	finalistami finalisti finalistom finalistov
+31	8231	odborový	odborovej odborová odborové odborového odborových
+32	8232	poistný	poistnej poistná poistnú poistných poistným
+33	8233	nechuť	nechuti nechutí
+34	8234	opilec	opilca opilcami opilci opilcom opilcov opilcovi opilecký
+35	8235	zips	zipsom zipsu zipsy
+36	8236	neveriaci	neveriaca neveriaceho neveriacich neveriacim neveriacimi
+37	8237	vychutnávať	vychutnáva vychutnávaj vychutnávajte vychutnávajú vychutnával vychutnávala vychutnávali vychutnávam vychutnávame vychutnávate vychutnávaš
+38	8238	lem	lemom lemy
+39	8239	hriešnik	hriešnika hriešnikmi hriešnikoch hriešnikom hriešnikov hriešnikovi
+40	8240	šokovať	nešokovalo nešokuje šokoval šokovala šokovali šokovalo šokuje šokuješ
+41	8241	pierko	pierka pierkami pierkom pierok
+42	8242	dlážka	dlážke dlážkou dlážku dlážky
+43	8243	konzervatórium	konzervatória konzervatóriu
+44	8244	bistro	bistra bistre
+45	8245	nafta	nafte naftou naftu nafty
+46	8246	normalizácia	normalizácie normalizáciu
+47	8247	plantáž	plantážach plantáže plantáži plantáží
+48	8248	umierajúci	umierajúca umierajúce umierajúceho umierajúcej umierajúcemu umierajúcich umierajúcim umierajúcimi umierajúcom umierajúcou umierajúcu
+49	8249	rozkazovať	nerozkazuj nerozkazuje nerozkazujete nerozkazuješ nerozkazujte rozkazoval rozkazovala rozkazuje rozkazujem rozkazujeme rozkazuješ rozkazujte rozkazujú
+50	8250	relikvia	relikvie relikviu relikvií
+51	8251	ucelený	ucelená ucelené ucelenú
+52	8252	efektivita	efektivitou efektivitu efektivity
+53	8253	lom	lome lomu
+54	8254	mocnosť	mocnosti mocností mocnosťami mocnosťou
+55	8255	jachta	jachte jachtou jachtu jachty jácht
+56	8256	črevný	črevnej črevná črevné črevnú črevných
+57	8257	výbušný	výbušnej výbušná výbušné výbušného výbušnú výbušných výbušným výbušnými
+58	8258	kaderník	kaderníka kaderníkom kaderníkov kaderníkovi kaderníčka kaderníčke kaderníčkou kaderníčku kaderníčky
+59	8259	hojne	
+60	8260	guľomet	guľometné guľometom guľometov guľometu guľomety
+61	8261	slina	slinami slinu sliny slinách slín
+62	8262	zbúrať	zbúra zbúraj zbúrajte zbúrajú zbúral zbúrala zbúrali zbúram zbúrame
+63	8263	tematický	tematické tematických
+64	8264	vlčí	vlčej vlčia vlčie vlčieho vlčiu vlčom vlčou vlčích vlčím vlčími
+65	8265	prekonanie	prekonania prekonaniu prekonaní
+66	8266	prívrženec	prívržencami prívrženci prívržencom prívržencov
+67	8267	usadlosť	usadlosti usadlostí
+68	8268	vestibul	vestibule vestibulu
+69	8269	poník	poníka poníkoch poníkom poníkov poníkovi poníky
+70	8270	slama	slame slamou slamu slamy
+71	8271	míting	mítingoch mítingom mítingov mítingu mítingy
+72	8272	vyprovokovať	vyprovokoval vyprovokovala vyprovokovali vyprovokovalo vyprovokuje vyprovokujeme
+73	8273	vymedzenie	vymedzenia
+74	8274	odolávať	odoláva odolávajú odolával odolávala odolávali odolávame odolávaš
+75	8275	vyriešenie	vyriešenia vyriešeniu vyriešením
+76	8276	oslabenie	oslabenia oslabeniu
+77	8277	opuch	opuchom opuchu opuchy
+78	8278	rozmiestnený	rozmiestnené rozmiestnení rozmiestnených
+79	8279	pozdvihnúť	pozdvihla pozdvihli pozdvihlo pozdvihne pozdvihnem pozdvihneme pozdvihni pozdvihnime pozdvihnite pozdvihol
+80	8280	plavec	plavca plavcami plavci plavcom plavcov
+81	8281	uťahovať	neuťahuj neuťahujem neuťahujte uťahoval uťahovali uťahuj uťahuje uťahujem uťahujete uťahuješ uťahujú
+82	8282	hybrid	hybridmi hybridoch hybridom hybridov hybridy
+83	8283	špionáž	špionáže špionáži špionážou
+84	8284	zinok	zinku
+85	8285	chamtivosť	chamtivosti chamtivosťou
+86	8286	dlhopis	dlhopismi dlhopisoch dlhopisov dlhopisy
+87	8287	amnestia	amnestie amnestii amnestiu amnestií
+88	8288	rúcho	rúcha rúchom rúchu
+89	8289	štandardne	
+90	8290	prekračovať	neprekračuj neprekračujte prekračovali prekračuje prekračujem prekračujeme prekračujete prekračuješ prekračujú
+91	8291	zbehnúť	nezbehneme nezbehneš zbehla zbehli zbehne zbehnem zbehneme zbehneš zbehni zbehnime zbehnite zbehnú zbehol
+92	8292	napodobňovať	napodobňoval napodobňovala napodobňovali napodobňuje napodobňujem napodobňuješ napodobňujú
+93	8293	zosilňovač	zosilňovača zosilňovače zosilňovačov
+94	8294	narážka	narážkam narážkami narážku narážky narážok
+95	8295	stlačenie	stlačení stlačením
+96	8296	prostitúcia	prostitúcie prostitúcii prostitúciou prostitúciu
+97	8297	okrádať	neokráda neokrádam okráda okrádajú okrádal okrádala okrádali okrádam okrádame okrádate okrádaš
+98	8298	trvale	trvalejšie
+99	8299	násobok	násobku
+100	8300	zahrňovať	nezahrňuje zahrňovala zahrňovali zahrňovalo zahrňuje zahrňujú zahrňujúc

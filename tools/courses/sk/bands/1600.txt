@@ -1,100 +1,100 @@
-1	1501	informovať	informoval informovala informovali informovalo informovania informovanie informovaná informované informovaní informovaný informovaných informuj informuje informujem informujeme informujete informuješ informujte informujú
-2	1502	elektronický	elektronickej elektronickom elektronickou elektronická elektronické elektronického elektronickú elektronických elektronickým elektronickými
-3	1503	preložiť	prelož preložia preložil preložila preložili preložme preložte preloží preložím preložíme preložíte preložíš
-4	1504	okraj	okraja okraje okraji okrajmi okrajoch okrajom okrajov okrajovej okrajovo okrajová okrajové okrajových okraju
-5	1505	zimný	zimnej zimnom zimnou zimná zimné zimného zimnú zimných zimným
-6	1506	fľaša	fliaš fľašami fľaše fľaši fľašiach fľašiek fľaška fľaškami fľaške fľaškou fľašková fľašku fľašky fľaškách fľašou fľaštička fľaštičku fľašu
-7	1507	pláž	plážach plážami pláže pláži plážou plážovej plážovom plážová plážové plážového plážovú plážový plážových pláží
-8	1508	vypočuť	vypočuj vypočuje vypočujem vypočujeme vypočujete vypočuješ vypočujme vypočujte vypočujú vypočul vypočula vypočuli
-9	1509	vybavený	vybavená vybavené vybaveného vybavení vybavenú vybavených vybaveným
-10	1510	raňajky	raňajkami raňajkách raňajkám raňajok
-11	1511	sústrediť	sústredia sústredil sústredila sústredili sústredilo sústredí sústredím sústredíme sústredíte sústredíš sústreď sústreďme sústreďte
-12	1512	pôsobenie	pôsobenia pôsobeniu pôsobení pôsobením
-13	1513	drevo	dreva dreve drevom drevu drevá
-14	1514	skladba	skladbami skladbe skladbou skladbu skladby skladbách skladbám skladieb
-15	1515	doteraz	
-16	1516	viacero	
-17	1517	brániť	bránenie bráni bránia bránil bránila bránili bránilo bránim bránime bránite brániš bráň bráňte
-18	1518	kyselina	kyselinami kyseline kyselinou kyselinové kyselinový kyselinu kyseliny kyselín
-19	1519	výmena	výmen výmene výmennej výmennom výmenná výmenné výmenného výmennú výmenný výmenných výmenným výmenou výmenu výmeny
-20	1520	ktokoľvek	kohokoľvek komkoľvek komukoľvek kýmkoľvek
-21	1521	žltý	žltej žlto žltom žltou žltá žlté žltého žltému žltí žltú žltých žltým žltými
-22	1522	zažiť	zažije zažijem zažijeme zažijete zažiješ zažijú zažil zažila zažili zažilo zažite
-23	1523	rameno	ramena ramenami ramene ramenom ramenu ramená ramenách ramenám ramien
-24	1524	zastreliť	zastrelia zastrelil zastrelila zastrelili zastrelilo zastrelí zastrelím zastrelíme zastrelíte zastrelíš zastreľ zastreľte
-25	1525	elektrina	elektrickej elektrický elektrine elektrinou elektrinu elektriny
+1	1501	umelec	umelca umelcami umelci umelcoch umelcom umelcov umelcovi
+2	1502	informovať	informoval informovala informovali informovalo informovania informovanie informovaná informované informovaní informovaný informovaných informuj informuje informujem informujeme informujete informuješ informujte informujú neinformoval neinformovala neinformovali neinformovať neinformujú
+3	1503	návrat	návrate návratoch návratom návratov návratu návraty
+4	1504	minimálny	minimálna minimálne minimálneho minimálnej minimálnom minimálnou minimálnu minimálnych minimálnym minimálnymi
+5	1505	výnimka	výnimiek výnimkami výnimkou výnimku výnimky
+6	1506	don	dona donom donovi
+7	1507	námestie	námestia námestiu námestí námestím
+8	1508	sústrediť	nesústredia nesústredil nesústredila nesústredím nesústredíme nesústredíš nesústreď sústredia sústredil sústredila sústredili sústredilo sústredí sústredím sústredíme sústredíte sústredíš sústreď sústreďme sústreďte
+9	1509	neuveriteľný	najneuveriteľnejšia najneuveriteľnejšie najneuveriteľnejší neuveriteľnej neuveriteľnom neuveriteľnou neuveriteľná neuveriteľné neuveriteľného neuveriteľnému neuveriteľní neuveriteľnú neuveriteľných neuveriteľným neuveriteľnými
+10	1510	preložiť	nepreložil nepreložím prelož preložia preložil preložila preložili preložme preložte preloží preložím preložíme preložíte preložíš
+11	1511	presný	najpresnejší presnej presnejšia presnejší presnom presnou presná presné presného presnému presní presnú presných presným presnými
+12	1512	veža	vežami veže veži vežiach vežička vežičky vežou vežu veží
+13	1513	konferencia	konferencie konferencii konferenciou konferenciu konferenciách konferencií
+14	1514	želať	neželaj neželajte neželajú neželal neželala neželali neželá neželám neželáme neželáte neželáš želaj želajte želajú želajúc želal želala želali želá želám želáme želáte želáš
+15	1515	ozvať	neozval neozvala neozvali neozvalo neozve neozvem neozveme neozvete neozveš neozvú neozýva neozývaj neozývajú neozýval neozývala neozývaš ozval ozvala ozvali ozvalo ozve ozvem ozveme ozvete ozveš ozvi ozvite ozvú ozýva ozývať
+16	1516	fľaša	fliaš fľašami fľaše fľaši fľašiach fľašiek fľaška fľaškami fľaške fľaškou fľašková fľašku fľašky fľaškách fľašou fľaštička fľaštičku fľašu
+17	1517	prúd	prúde prúdmi prúdoch prúdom prúdov prúdu prúdy
+18	1518	vykonávať	nevykonáva vykonáva vykonávajú vykonával vykonávala vykonávali vykonávam vykonávame vykonávate vykonávaš
+19	1519	trať	trate trati tratiach tratí traťou
+20	1520	pláž	plážach plážami pláže pláži plážou plážovej plážovom plážová plážové plážového plážovú plážový plážových pláží
+21	1521	literatúra	literatúre literatúrou literatúru literatúry literárnej literárny
+22	1522	súvislosť	súvislosti súvislostiach súvislostí
+23	1523	raňajky	raňajkami raňajkách raňajkám raňajok
+24	1524	ktokoľvek	kohokoľvek komkoľvek komukoľvek kýmkoľvek
+25	1525	okraj	okraja okraje okraji okrajmi okrajoch okrajom okrajov okrajovej okrajovo okrajová okrajové okrajových okraju
 26	1526	detektív	detektíva detektívi detektívmi detektívom detektívov detektívovi
-27	1527	využitie	využitia využitiu využitím
-28	1528	múdry	múdra múdre múdreho múdrej múdrejšia múdrejšie múdrejšieho múdrejšou múdrejší múdrejších múdrejším múdrejšími múdremu múdri múdro múdrou múdru múdrych múdrym múdrymi najmúdrejšia najmúdrejšie najmúdrejšieho najmúdrejší najmúdrejších najmúdrejším
-29	1529	kríž	kríža kríže kríži krížik krížikom krížiku krížoch krížom krížov krížovej krížový krížu
-30	1530	vrch	vrchmi vrchoch vrchom vrchov vrchu vrchy vršku vršok vŕšku vŕšok
-31	1531	dejiny	dejinami dejinách dejinám dejín
-32	1532	letieť	letel letela leteli letelo letia letiaci letí letím letíme letíte letíš leť leťme leťte poletia poletí poletím poletíme poletíte poletíš
-33	1533	príkaz	príkaze príkazmi príkazoch príkazom príkazov príkazu príkazy
-34	1534	kg	
-35	1535	trápiť	tráp trápi trápia trápil trápila trápili trápilo trápim trápime trápite trápiš
-36	1536	pevný	pevnejšia pevnejšiu pevnejší pevnom pevnou pevná pevné pevného pevnému pevnú pevných pevným pevnými
-37	1537	kvalita	kvalitami kvalite kvalitou kvalitu kvality kvalitách kvalít
-38	1538	biť	bi bije bijem bijeme bijete biješ bijú bil bila bili bilo bite bitie bitý prebi prebije prebijem prebijeme prebil prebila prebili prebiť prebíja prebíjať zbi zbije zbijem zbijeme zbiješ zbijú zbil zbila zbili zbite zbitá zbité zbití zbitý zbiť
-39	1539	poraziť	poraz porazia porazil porazila porazili porazilo porazte porazí porazím porazíme porazíte porazíš
-40	1540	čerstvý	najčerstvejšie čerstvej čerstvejšie čerstvo čerstvom čerstvou čerstvá čerstvé čerstvého čerstvému čerství čerstvú čerstvých čerstvým čerstvými
-41	1541	jazda	jazde jazdné jazdný jazdou jazdu jazdy jazdách jázd
-42	1542	zdvihnúť	zdvihla zdvihli zdvihlo zdvihne zdvihnem zdvihneme zdvihnete zdvihneš zdvihni zdvihnime zdvihnite zdvihnú zdvihol
-43	1543	navzájom	
-44	1544	blok	blokmi blokoch blokom blokov bloku bloky
-45	1545	vôľa	vôle vôli vôlí vôľou vôľu
-46	1546	oficiálny	oficiálna oficiálneho oficiálnej oficiálnemu oficiálnom oficiálnou oficiálnu oficiálnych oficiálnym oficiálnymi
-47	1547	všeobecne	
-48	1548	dolný	dolnej dolnom dolnou dolná dolné dolného dolní dolnú dolných dolným
-49	1549	smerovať	nasmeroval nasmerovala nasmerovali nasmerovať nasmeruj nasmeruje nasmerujem nasmerujeme nasmeruješ nasmerujte nasmerujú smeroval smerovala smerovali smerovalo smerovania smerovanie smerované smerovaní smerovaný smeruj smeruje smerujem smerujeme smerujete smeruješ smerujte smerujú smerujúc smerujúce smerujúci
-50	1550	podiel	podiele podielom podielov podielu podiely
-51	1551	neznámy	neznáma neznáme neznámeho neznámej neznámemu neznámi neznámom neznámou neznámu neznámych neznámym neznámymi
-52	1552	komora	komorami komore komorou komoru komory komorách komôr
-53	1553	duchovný	duchovnej duchovnom duchovnou duchovná duchovné duchovného duchovnému duchovní duchovnú duchovných duchovným duchovnými
-54	1554	naďalej	
-55	1555	alkohol	alkohole alkoholickej alkoholická alkoholické alkoholického alkoholický alkoholických alkoholickým alkoholickými alkoholom alkoholovom alkoholové alkoholový alkoholu
-56	1556	prístroj	prístroja prístroje prístroji prístrojmi prístrojoch prístrojom prístrojov prístroju
-57	1557	špeciálne	špeciálnejšie
-58	1558	totiž	
-59	1559	kruh	kruhmi kruhoch kruhom kruhov kruhu kruhy
-60	1560	tanec	tanca tancami tance tanci tancoch tancom tancov tancu tanček
-61	1561	hospodársky	hospodárska hospodárske hospodárskeho hospodárskej hospodárskemu hospodárskom hospodárskou hospodársku hospodárskych hospodárskym hospodárskymi
-62	1562	strašný	najstrašnejšia najstrašnejší najstrašnejších strašnej strašnejší strašnom strašnou strašná strašné strašného strašnému strašní strašnú strašných strašným strašnými
-63	1563	zlo	ziel zla zlom zlomom zlomu zlomy zlu zlá
-64	1564	príchod	príchode príchodom príchodov príchodu príchody
-65	1565	filmový	filmovej filmovom filmovou filmová filmové filmového filmovému filmoví filmovú filmových filmovým filmovými
-66	1566	nedovoliť	nedovolia nedovolil nedovolila nedovolili nedovolilo nedovolí nedovolím nedovolíme nedovolíte nedovolíš nedovoľ nedovoľme nedovoľte
-67	1567	podozrivý	podozrivej podozrivom podozrivou podozrivá podozrivé podozrivého podozrivému podozriví podozrivú podozrivých podozrivým podozrivými
-68	1568	čert	čerta čerti čertoch čertom čertov čertovi čertu
-69	1569	spadnúť	spadla spadli spadlo spadne spadnem spadneme spadnete spadneš spadni spadnite spadnú spadol
-70	1570	sused	suseda susede susedia susedko susedmi susedoch susedom susedou susedov susedovi susedskej susedská susedské susedskú susedský susedských susedu susedy
-71	1571	lietať	lieta lietaj lietajte lietajú lietajúce lietajúci lietal lietala lietali lietalo lietam lietame lietania lietanie lietaniu lietaní lietaním lietate lietaš
-72	1572	vydaný	vydanej vydanom vydaná vydané vydaného vydaní vydanú vydaných vydaným
-73	1573	atmosféra	atmosfére atmosférické atmosférický atmosférických atmosférou atmosféru atmosféry
-74	1574	interiér	interiéri interiéroch interiérom interiérov interiéru interiéry
-75	1575	agentúra	agentúr agentúrach agentúram agentúrami agentúre agentúrou agentúru agentúry
-76	1576	kanál	kanála kanále kanáli kanálik kanáliky kanálmi kanáloch kanálom kanálov kanálová kanálové kanáloví kanálový kanálu kanály
-77	1577	aplikácia	aplikačné aplikačný aplikáciami aplikácie aplikácii aplikáciou aplikáciu aplikáciách aplikáciám aplikácií
-78	1578	oficiálne	
-79	1579	kombinácia	kombinácie kombinácii kombináciou kombináciu kombináciách kombinácií
-80	1580	bojovník	bojovníci bojovnícka bojovníka bojovníkmi bojovníkoch bojovníkom bojovníkov bojovníkovi bojovníčka bojovníčkou bojovníčku bojovníčky
-81	1581	výnimočný	najvýnimočnejší výnimočnej výnimočnom výnimočnou výnimočná výnimočné výnimočného výnimočnému výnimoční výnimočnú výnimočných výnimočným výnimočnými
-82	1582	poznámka	poznámkach poznámkam poznámkami poznámke poznámkou poznámku poznámky poznámok
-83	1583	vynikajúci	vynikajúca vynikajúce vynikajúceho vynikajúcej vynikajúcich vynikajúcim vynikajúcimi vynikajúcom vynikajúcou vynikajúcu
-84	1584	hrdý	hrdej hrdo hrdou hrdá hrdé hrdého hrdí hrdú hrdých hrdým hrdými
-85	1585	dodávka	dodávkach dodávkam dodávkami dodávke dodávkou dodávku dodávky dodávok
-86	1586	mimoriadny	mimoriadna mimoriadne mimoriadneho mimoriadnej mimoriadnom mimoriadnou mimoriadnu mimoriadnych mimoriadnym mimoriadnymi
-87	1587	váha	váh váhach váham váhe váhou váhu váhy
-88	1588	hrubý	hrubej hrubo hrubom hrubou hrubá hrubé hrubého hrubému hrubí hrubú hrubých hrubým hrubými hrubšia hrubšie hrubšiu hrubší
-89	1589	založiť	založ založia založil založila založili založilo založme založte založí založím založíme založíte založíš
-90	1590	želať	želaj želajte želajú želajúc želal želala želali želá želám želáme želáte želáš
-91	1591	dav	dave davmi davom davov davovej davu davy
-92	1592	pás	pása páse pásmi pásoch pásom pásov pásu pásy
-93	1593	výhoda	výhod výhodami výhode výhodou výhodu výhody výhodách výhodám
-94	1594	označenie	označenia označeniu označením
-95	1595	tráviť	tráv trávenia trávenie tráveniu trávení trávením trávený trávi trávia tráviaca tráviace tráviaceho tráviacej tráviaci tráviacich tráviacom trávil trávila trávili trávim trávime trávite tráviš
-96	1596	pracovník	pracovníci pracovníka pracovníkmi pracovníkoch pracovníkom pracovníkov pracovníkovi
-97	1597	kričať	krič kričal kričala kričali kričalo kričanie kričia kričiac kričiaci kričme kričte kričí kričím kričíme kričíte kričíš zakričal zakričať
+27	1527	elektronický	elektronickej elektronickom elektronickou elektronická elektronické elektronického elektronickú elektronických elektronickým elektronickými
+28	1528	zimný	zimnej zimnom zimnou zimná zimné zimného zimnú zimných zimným
+29	1529	doteraz	
+30	1530	vybavený	vybavená vybavené vybaveného vybavení vybavenú vybavených vybaveným
+31	1531	drevo	dreva dreve drevom drevu drevá
+32	1532	múdry	múdra múdre múdreho múdrej múdrejšia múdrejšie múdrejšieho múdrejšou múdrejší múdrejších múdrejším múdrejšími múdremu múdri múdro múdrou múdru múdrych múdrym múdrymi najmúdrejšia najmúdrejšie najmúdrejšieho najmúdrejší najmúdrejších najmúdrejším
+33	1533	pôsobenie	pôsobenia pôsobeniu pôsobení pôsobením
+34	1534	výmena	výmen výmene výmennej výmennom výmenná výmenné výmenného výmennú výmenný výmenných výmenným výmenou výmenu výmeny
+35	1535	skladba	skladbami skladbe skladbou skladbu skladby skladbách skladbám skladieb
+36	1536	viacero	
+37	1537	rameno	ramena ramenami ramene ramenom ramenu ramená ramenách ramenám ramien
+38	1538	kyselina	kyselinami kyseline kyselinou kyselinové kyselinový kyselinu kyseliny kyselín
+39	1539	žltý	žltej žlto žltom žltou žltá žlté žltého žltému žltí žltú žltých žltým žltými
+40	1540	lietať	lieta lietaj lietajte lietajú lietajúce lietajúci lietal lietala lietali lietalo lietam lietame lietania lietanie lietaniu lietaní lietaním lietate lietaš nelieta nelietaj nelietajú nelietal nelietam nelietame nelietate nelietaš
+41	1541	elektrina	elektrickej elektrický elektrine elektrinou elektrinu elektriny
+42	1542	príkaz	príkaze príkazmi príkazoch príkazom príkazov príkazu príkazy
+43	1543	čerstvý	najčerstvejšie čerstvej čerstvejšie čerstvo čerstvom čerstvou čerstvá čerstvé čerstvého čerstvému čerství čerstvú čerstvých čerstvým čerstvými
+44	1544	kríž	kríža kríže kríži krížik krížikom krížiku krížoch krížom krížov krížovej krížový krížu
+45	1545	vrch	vrchmi vrchoch vrchom vrchov vrchu vrchy vršku vršok vŕšku vŕšok
+46	1546	dejiny	dejinami dejinách dejinám dejín
+47	1547	navzájom	
+48	1548	jazda	jazde jazdné jazdný jazdou jazdu jazdy jazdách jázd
+49	1549	pevný	pevnejšia pevnejšiu pevnejší pevnom pevnou pevná pevné pevného pevnému pevnú pevných pevným pevnými
+50	1550	využitie	využitia využitiu využitím
+51	1551	vôľa	vôle vôli vôlí vôľou vôľu
+52	1552	kg	
+53	1553	blok	blokmi blokoch blokom blokov bloku bloky
+54	1554	kvalita	kvalitami kvalite kvalitou kvalitu kvality kvalitách kvalít
+55	1555	tancovať	netancoval netancovala netancovali netancuje netancujem netancujeme netancujete netancuješ netancujú tancoval tancovala tancovali tancovalo tancuj tancuje tancujem tancujeme tancujete tancuješ tancujme tancujte tancujú tancujúc
+56	1556	smerovať	nasmeroval nasmerovala nasmerovali nasmerovať nasmeruj nasmeruje nasmerujem nasmerujeme nasmeruješ nasmerujte nasmerujú nesmeroval nesmeruje smeroval smerovala smerovali smerovalo smerovania smerovanie smerované smerovaní smerovaný smeruj smeruje smerujem smerujeme smerujete smeruješ smerujte smerujú smerujúc smerujúce smerujúci
+57	1557	strašný	najstrašnejšia najstrašnejší najstrašnejších strašnej strašnejší strašnom strašnou strašná strašné strašného strašnému strašní strašnú strašných strašným strašnými
+58	1558	čert	čerta čerti čertoch čertom čertov čertovi čertu
+59	1559	strácať	nestráca nestrácaj nestrácajme nestrácajte nestrácajú nestrácal nestrácala nestrácali nestrácam nestrácame nestrácate nestrácaš nestrácať stráca strácajú strácajúc strácal strácala strácali strácalo strácam strácame strácate strácaš
+60	1560	podozrivý	podozrivej podozrivom podozrivou podozrivá podozrivé podozrivého podozrivému podozriví podozrivú podozrivých podozrivým podozrivými
+61	1561	neznámy	neznáma neznáme neznámeho neznámej neznámemu neznámi neznámom neznámou neznámu neznámych neznámym neznámymi
+62	1562	alkohol	alkohole alkoholickej alkoholická alkoholické alkoholického alkoholický alkoholických alkoholickým alkoholickými alkoholom alkoholovom alkoholové alkoholový alkoholu
+63	1563	oficiálny	oficiálna oficiálneho oficiálnej oficiálnemu oficiálnom oficiálnou oficiálnu oficiálnych oficiálnym oficiálnymi
+64	1564	podiel	podiele podielom podielov podielu podiely
+65	1565	všeobecne	
+66	1566	tanec	tanca tancami tance tanci tancoch tancom tancov tancu tanček
+67	1567	dolný	dolnej dolnom dolnou dolná dolné dolného dolní dolnú dolných dolným
+68	1568	špeciálne	špeciálnejšie
+69	1569	komora	komorami komore komorou komoru komory komorách komôr
+70	1570	naďalej	
+71	1571	ochrániť	neochráni neochránia neochránil neochránila neochránili neochránim neochránime neochrániš ochráni ochránia ochránil ochránila ochránili ochránilo ochránim ochránime ochránite ochrániš ochráň ochráňte
+72	1572	prístroj	prístroja prístroje prístroji prístrojmi prístrojoch prístrojom prístrojov prístroju
+73	1573	zlo	ziel zla zlu
+74	1574	sused	suseda susede susedia susedko susedmi susedoch susedom susedou susedov susedovi susedskej susedská susedské susedskú susedský susedských susedu susedy
+75	1575	odpustiť	neodpusti neodpustia neodpustil neodpustila neodpustili neodpustí neodpustím neodpustíme neodpustíte neodpustíš odpusti odpustia odpustil odpustila odpustili odpustite odpustí odpustím odpustíme odpustíte odpustíš odpusť odpusťte
+76	1576	kontrolovať	kontroloval kontrolovala kontrolovali kontrolovalo kontroluj kontroluje kontrolujem kontrolujeme kontrolujete kontroluješ kontrolujte kontrolujú nekontroloval nekontrolovala nekontrolovali nekontroluje nekontrolujem nekontrolujete nekontroluješ nekontrolujú
+77	1577	kruh	kruhmi kruhoch kruhom kruhov kruhu kruhy
+78	1578	tráviť	netrávi netrávil netrávila netrávili netrávim netrávime netráviš tráv trávenia trávenie tráveniu trávení trávením trávený trávi trávia tráviaca tráviace tráviaceho tráviacej tráviaci tráviacich tráviacom trávil trávila trávili trávim trávime trávite tráviš
+79	1579	duchovný	duchovnej duchovnom duchovnou duchovná duchovné duchovného duchovnému duchovní duchovnú duchovných duchovným duchovnými
+80	1580	totiž	
+81	1581	príchod	príchode príchodom príchodov príchodu príchody
+82	1582	hrdý	hrdej hrdo hrdou hrdá hrdé hrdého hrdí hrdú hrdých hrdým hrdými
+83	1583	bojovník	bojovníci bojovnícka bojovníka bojovníkmi bojovníkoch bojovníkom bojovníkov bojovníkovi bojovníčka bojovníčkou bojovníčku bojovníčky
+84	1584	poskytnúť	neposkytla neposkytli neposkytne neposkytnem neposkytnú neposkytol poskytla poskytli poskytlo poskytne poskytnem poskytneme poskytnete poskytneš poskytni poskytnite poskytnú poskytol
+85	1585	filmový	filmovej filmovom filmovou filmová filmové filmového filmovému filmoví filmovú filmových filmovým filmovými
+86	1586	oficiálne	
+87	1587	výnimočný	najvýnimočnejší výnimočnej výnimočnom výnimočnou výnimočná výnimočné výnimočného výnimočnému výnimoční výnimočnú výnimočných výnimočným výnimočnými
+88	1588	agentúra	agentúr agentúrach agentúram agentúrami agentúre agentúrou agentúru agentúry
+89	1589	založiť	nezaložil nezaložila nezaložili založ založia založil založila založili založilo založme založte založí založím založíme založíte založíš
+90	1590	hospodársky	hospodárska hospodárske hospodárskeho hospodárskej hospodárskemu hospodárskom hospodárskou hospodársku hospodárskych hospodárskym hospodárskymi
+91	1591	kanál	kanála kanále kanáli kanálik kanáliky kanálmi kanáloch kanálom kanálov kanálová kanálové kanáloví kanálový kanálu kanály
+92	1592	atmosféra	atmosfére atmosférické atmosférický atmosférických atmosférou atmosféru atmosféry
+93	1593	liezť	lez lezenie lezie leziem lezieme leziete lezieš lezte lezú liezla liezli liezlo liezol nelez nelezie nelezte neliezol nevleziem nevylezie nevylezieš nevyliezol vlez vliezť vylez vylezie vyleziem vylezieme vyleziete vylezieš vylezme vylezte vylezú vyliezla vyliezli vyliezlo vyliezol vyliezť zlez zliezť
+94	1594	dodávka	dodávkach dodávkam dodávkami dodávke dodávkou dodávku dodávky dodávok
+95	1595	vynikajúci	vynikajúca vynikajúce vynikajúceho vynikajúcej vynikajúcich vynikajúcim vynikajúcimi vynikajúcom vynikajúcou vynikajúcu
+96	1596	vydaný	vydanej vydanom vydaná vydané vydaného vydaní vydanú vydaných vydaným
+97	1597	dav	dave davmi davom davov davovej davu davy
 98	1598	vtipný	najvtipnejšia najvtipnejší vtipnej vtipnejšia vtipnejší vtipná vtipné vtipného vtipní vtipnú vtipných vtipným vtipnými
-99	1599	dopadnúť	dopadla dopadli dopadlo dopadne dopadnem dopadneme dopadnete dopadneš dopadnú dopadol
-100	1600	nezaujímať	nezaujíma nezaujímaj nezaujímajú nezaujímal nezaujímala nezaujímali nezaujímalo nezaujímam nezaujímame nezaujímate nezaujímaš
+99	1599	poznámka	poznámkach poznámkam poznámkami poznámke poznámkou poznámku poznámky poznámok
+100	1600	aplikácia	aplikačné aplikačný aplikáciami aplikácie aplikácii aplikáciou aplikáciu aplikáciách aplikáciám aplikácií

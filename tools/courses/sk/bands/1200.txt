@@ -9,7 +9,7 @@
 9	1109	naposledy	
 10	1110	klient	klienta klientami klienti klientmi klientoch klientom klientov klientovi
 11	1111	obed	obeda obede obednú obedný obedoch obedom obedov obedové obedovú obedový obedu obedy obedík
-12	1112	spôsobiť	spôsobia spôsobil spôsobila spôsobili spôsobí spôsobím spôsobíme spôsobíte spôsobíš
+12	1112	spôsobiť	nespôsobia nespôsobil nespôsobila nespôsobili nespôsobilo nespôsobí nespôsobím nespôsobíš spôsobia spôsobil spôsobila spôsobili spôsobí spôsobím spôsobíme spôsobíte spôsobíš
 13	1113	zvyčajný	zvyčajne zvyčajnej zvyčajnom zvyčajnou zvyčajná zvyčajné zvyčajného zvyčajní zvyčajnú zvyčajných zvyčajným
 14	1114	naspäť	
 15	1115	vlak	vlakmi vlakoch vlakom vlakov vlakovej vlakový vlaku vlaky vláčik vláčikmi vláčikom vláčiku vláčiky
@@ -33,33 +33,33 @@
 33	1133	slobodný	slobodne slobodnej slobodnejšie slobodnejší slobodnom slobodnou slobodná slobodné slobodného slobodnému slobodní slobodnú slobodných slobodným slobodnými
 34	1134	slabý	najslabšia najslabšie najslabšieho najslabšiu najslabšom najslabší najslabších najslabším slabej slabo slabom slabou slabá slabé slabého slabému slabí slabú slabých slabým slabými slabšej slabšia slabšie slabšieho slabšiu slabšou slabší slabších slabším slabšími
 35	1135	liga	lige ligou ligu ligy líg
-36	1136	predávať	predáva predávaj predávajte predávajú predávajúc predávajúca predávajúceho predávajúci predávajúcim predával predávala predávali predávalo predávam predávame predávanie predávaný predávate predávaš
+36	1136	predávať	nepredáva nepredávaj nepredávajte nepredávajú nepredával nepredávala nepredávali nepredávam nepredávame nepredávate nepredávaš nepredávať predáva predávaj predávajte predávajú predávajúc predávajúca predávajúceho predávajúci predávajúcim predával predávala predávali predávalo predávam predávame predávanie predávaný predávate predávaš
 37	1137	priamy	najpriamejšia priama priame priameho priamej priamejšie priamejší priamemu priami priamom priamou priamu priamych priamym priamymi
 38	1138	víkend	víkende víkendoch víkendom víkendov víkendu víkendy
 39	1139	kuchyňa	kuchyne kuchyni kuchyniach kuchynka kuchynke kuchynské kuchynský kuchyňou kuchyňu kuchýň
-40	1140	dokončiť	dokonč dokonči dokončia dokončil dokončila dokončili dokončilo dokončime dokončite dokončí dokončím dokončíme dokončíte dokončíš
+40	1140	dokončiť	dokonč dokonči dokončia dokončil dokončila dokončili dokončilo dokončime dokončite dokončí dokončím dokončíme dokončíte dokončíš nedokonči nedokončia nedokončil nedokončila nedokončili nedokončiť nedokončí nedokončím nedokončíme nedokončíte nedokončíš
 41	1141	obyčajný	obyčajnej obyčajnom obyčajnou obyčajná obyčajné obyčajného obyčajnému obyčajní obyčajnú obyčajných obyčajným obyčajnými
 42	1142	právny	právna právne právneho právnej právnemu právni právnom právnou právnu právnych právnym právnymi
 43	1143	reč	rečami reči rečiach rečiam rečou rečí
 44	1144	bomba	bombami bombe bombou bombovej bombovom bombová bombové bombového bombovú bombový bombových bombovým bombovými bombu bomby bombách bombám bômb
 45	1145	verejnosť	verejnosti verejnosťou
 46	1146	droga	drog drogami droge drogou drogu drogy drogách drogám
-47	1147	umožňovať	umožňoval umožňovala umožňovali umožňovalo umožňuje umožňujú umožňujúc
-48	1148	priznať	priznaj priznajme priznajte priznajú priznal priznala priznali priznalo prizná priznám priznáme priznáte priznáš
-49	1149	dohodnúť	dohodla dohodli dohodlo dohodne dohodnem dohodneme dohodnete dohodneš dohodni dohodnime dohodnite dohodnú dohodol
+47	1147	umožňovať	neumožňuje neumožňujú umožňoval umožňovala umožňovali umožňovalo umožňuje umožňujú umožňujúc
+48	1148	priznať	nepriznajú nepriznal nepriznala nepriznali nepriznať neprizná nepriznám nepriznáme nepriznáte nepriznáš priznaj priznajme priznajte priznajú priznal priznala priznali priznalo prizná priznám priznáme priznáte priznáš
+49	1149	dohodnúť	dohodla dohodli dohodlo dohodne dohodnem dohodneme dohodnete dohodneš dohodni dohodnime dohodnite dohodnú dohodol nedohodla nedohodli nedohodne nedohodneme nedohodnete nedohodneš nedohodol
 50	1150	výstavba	výstavbe výstavbou výstavbu výstavby
 51	1151	nehoda	nehodami nehode nehodou nehodu nehody nehodách nehodám nehôd
 52	1152	tajný	najtajnejších tajnej tajnom tajnou tajná tajné tajného tajnému tajní tajnú tajných tajným tajnými
 53	1153	cca	
 54	1154	vitaj	vitajte
-55	1155	zúčastniť	zúčastni zúčastnia zúčastnil zúčastnila zúčastnili zúčastnilo zúčastnite zúčastní zúčastním zúčastníme zúčastníte zúčastníš
-56	1156	premýšľať	premýšľa premýšľaj premýšľajme premýšľajte premýšľajú premýšľajúc premýšľal premýšľala premýšľali premýšľam premýšľame premýšľate premýšľaš
+55	1155	zúčastniť	nezúčastnia nezúčastnil nezúčastnila nezúčastnili nezúčastniť nezúčastní nezúčastním nezúčastníte nezúčastníš zúčastni zúčastnia zúčastnil zúčastnila zúčastnili zúčastnilo zúčastnite zúčastní zúčastním zúčastníme zúčastníte zúčastníš
+56	1156	premýšľať	nepremýšľa nepremýšľaj nepremýšľajte nepremýšľajú nepremýšľal nepremýšľala nepremýšľali nepremýšľam nepremýšľate nepremýšľaš nepremýšľať premýšľa premýšľaj premýšľajme premýšľajte premýšľajú premýšľajúc premýšľal premýšľala premýšľali premýšľam premýšľame premýšľate premýšľaš
 57	1157	scéna	scén scénach scénami scéne scénou scénu scény
 58	1158	navyše	
 59	1159	festival	festivale festivaloch festivalom festivalov festivalu festivaly
 60	1160	záhrada	záhrad záhradami záhrade záhradka záhradke záhradná záhradný záhradou záhradu záhrady záhradách
 61	1161	príčina	príčin príčinami príčine príčinou príčinu príčiny príčinách
-62	1162	zohnať	zohnal zohnala zohnali zoženie zoženiem zoženieme zoženiete zoženieš zoženú zožeň zožeňme zožeňte
+62	1162	zohnať	nezohnal nezohnala nezohnali nezoženie nezoženiem nezoženieme nezoženiete nezoženieš nezoženú zohnal zohnala zohnali zoženie zoženiem zoženieme zoženiete zoženieš zoženú zožeň zožeňme zožeňte
 63	1163	bod	bode bodmi
 64	1164	umelecký	umeleckej umeleckom umeleckou umelecká umelecké umeleckého umeleckému umeleckí umeleckú umeleckých umeleckým umeleckými
 65	1165	krk	krkmi krkoch krkom krkov krku krky krčka krčnej krčný
@@ -72,29 +72,29 @@
 72	1172	vstup	vstupe vstupmi vstupoch vstupom vstupov vstupu vstupy
 73	1173	predstava	predstavami predstave predstavou predstavu predstavy predstavách predstavám predstáv
 74	1174	šialený	najšialenejšia najšialenejší najšialenejších šialenej šialenejšia šialenejší šialenom šialenou šialená šialené šialeného šialenému šialení šialenú šialených šialeným šialenými
-75	1175	obliecť	obleč oblečené oblečený oblečie oblečiem oblečieme oblečiete oblečieš oblečme oblečte oblečú oblieka obliekaj obliekajte obliekajú obliekal obliekala obliekali obliekam obliekame obliekate obliekaš obliekať obliekla obliekli obliekol
-76	1176	uskutočniť	uskutočnia uskutočnil uskutočnila uskutočnili uskutočnilo uskutočnite uskutoční uskutočním uskutočníme uskutočníš
-77	1177	nastať	nastal nastala nastali nastalo nastane nastanú nastáva
+75	1175	obliecť	neobleč neoblečie neoblečiem neoblečieš neoblieka neobliekaj neobliekajú neobliekala neobliekam neobliekaš neobliekla neobliekol obleč oblečené oblečený oblečie oblečiem oblečieme oblečiete oblečieš oblečme oblečte oblečú oblieka obliekaj obliekajte obliekajú obliekal obliekala obliekali obliekam obliekame obliekate obliekaš obliekať obliekla obliekli obliekol
+76	1176	uskutočniť	neuskutočnil neuskutočnila neuskutočnili neuskutočnilo neuskutoční uskutočnia uskutočnil uskutočnila uskutočnili uskutočnilo uskutočnite uskutoční uskutočním uskutočníme uskutočníš
+77	1177	nastať	nastal nastala nastali nastalo nastane nastanú nastáva nenastal nenastala nenastali nenastalo nenastane nenastanú
 78	1178	vina	vine vinu viny
 79	1179	svedok	svedka svedkami svedkoch svedkom svedkov svedkovi svedkovia
 80	1180	osobnosť	osobnosti osobnostiach osobnostiam osobností osobnosťami osobnosťou
 81	1181	vonkajší	vonkajšej vonkajšia vonkajšie vonkajšieho vonkajšiemu vonkajšiu vonkajšom vonkajšou vonkajších vonkajším vonkajšími
-82	1182	potvrdiť	potvrdia potvrdil potvrdila potvrdili potvrdilo potvrdí potvrdím potvrdíme potvrdíte potvrdíš potvrď potvrďte
+82	1182	potvrdiť	nepotvrdia nepotvrdil nepotvrdila nepotvrdili nepotvrdilo nepotvrdí nepotvrdím nepotvrdíme potvrdia potvrdil potvrdila potvrdili potvrdilo potvrdí potvrdím potvrdíme potvrdíte potvrdíš potvrď potvrďte
 83	1183	vraj	
 84	1184	letný	letnej letnom letnou letná letné letného letnému letnú letných letným letnými
 85	1185	zelený	zelenej zeleno zelenom zelenou zelené zeleného zelenému zelení zelenú zelených zeleným zelenými zelenšia zelenšie
 86	1186	štruktúra	štruktúr štruktúrach štruktúrami štruktúre štruktúrou štruktúru štruktúry
-87	1187	vypnúť	vypla vypli vyplo vypne vypnem vypneme vypnete vypneš vypni vypnime vypnite vypnutia vypnutie vypnuté vypnutím vypnutý vypnú vypol vypína vypínajú vypínali vypínam vypíname vypínanie vypínaš vypínať
-88	1188	vyhodiť	vyhodia vyhodil vyhodila vyhodili vyhodilo vyhodí vyhodím vyhodíme vyhodíte vyhodíš vyhoď vyhoďme vyhoďte
-89	1189	všimnúť	všimla všimli všimlo všimne všimnem všimneme všimnete všimneš všimni všimnite všimnú všimol
+87	1187	vypnúť	nevypla nevypli nevypnem nevypneme nevypnete nevypneš nevypnú nevypol nevypína nevypínaj nevypínajte vypla vypli vyplo vypne vypnem vypneme vypnete vypneš vypni vypnime vypnite vypnutia vypnutie vypnuté vypnutím vypnutý vypnú vypol vypína vypínajú vypínali vypínam vypíname vypínanie vypínaš vypínať
+88	1188	vyhodiť	nevyhodia nevyhodil nevyhodila nevyhodili nevyhodiť nevyhodí nevyhodím nevyhodíme nevyhodíte nevyhodíš nevyhoď nevyhoďte vyhodia vyhodil vyhodila vyhodili vyhodilo vyhodí vyhodím vyhodíme vyhodíte vyhodíš vyhoď vyhoďme vyhoďte
+89	1189	všimnúť	nevšimla nevšimli nevšimne nevšimnem nevšimneme nevšimnete nevšimneš nevšimnú nevšimnúť nevšimol všimla všimli všimlo všimne všimnem všimneme všimnete všimneš všimni všimnite všimnú všimol
 90	1190	zložka	zložiek zložkami zložke zložkou zložku zložky zložkách zložkám
 91	1191	prostredníctvom	
-92	1192	skúšať	skúša skúšaj skúšajte skúšajú skúšajúc skúšal skúšala skúšali skúšalo skúšam skúšame skúšate skúšaš
+92	1192	skúšať	neskúša neskúšaj neskúšajte neskúšajú neskúšal neskúšala neskúšali neskúšam neskúšate neskúšaš skúša skúšaj skúšajte skúšajú skúšajúc skúšal skúšala skúšali skúšalo skúšam skúšame skúšate skúšaš
 93	1193	test	testami teste testoch testom testov testu testy
 94	1194	reštaurácia	reštauračné reštauračný reštaurácie reštaurácii reštauráciou reštauráciu reštauráciách reštaurácií
 95	1195	umiestnený	umiestnenej umiestnenou umiestnená umiestnené umiestneného umiestnení umiestnenú umiestnených umiestneným umiestnenými
 96	1196	tona	ton tonami tone tonou tonové tonovú tonový tonu tony tonách
 97	1197	ľud	ľudmi ľudoch ľudom ľudovej ľudový ľudu
 98	1198	predný	prednej prednejšia prednejšie prednejší prednom prednou predná predné predného prednému prednú predných predným prednými
-99	1199	účasť	účasti účastí účasťou
+99	1199	účasť	neúčasti neúčasť účasti účastí účasťou
 100	1200	reakcia	reakciami reakcie reakcii reakciou reakciu reakciách reakciám reakcií

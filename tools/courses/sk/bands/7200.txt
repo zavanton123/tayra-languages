@@ -1,100 +1,100 @@
-1	7101	pohroma	pohrome pohromou pohromu pohromy pohrôm
-2	7102	zaobstarať	zaobstaraj zaobstarajte zaobstaral zaobstarala zaobstarali zaobstará zaobstarám zaobstaráme zaobstaráš
-3	7103	úrokový	úrokovej úroková úrokové úrokovú úrokových
-4	7104	oslabený	oslabená oslabené oslabení
-5	7105	premôcť	premohla premohli premohlo premohol premôž premôže premôžem premôžeme premôžeš premôžu
-6	7106	zobrazovanie	zobrazovania zobrazovaní
-7	7107	neslušný	neslušná neslušné neslušní neslušnú neslušných neslušným
-8	7108	lokomotíva	lokomotív lokomotíve lokomotívou lokomotívu lokomotívy
-9	7109	zrelý	zrelej zrelo zrelá zrelé zrelého zrelí zrelú zrelých
-10	7110	rodičovský	rodičovskej rodičovskom rodičovská rodičovské rodičovského rodičovskú rodičovských rodičovským
-11	7111	prestrelka	prestreliek prestrelke prestrelkou prestrelku prestrelky prestrelkách
-12	7112	stanovenie	stanovenia
-13	7113	lepidlo	lepidla lepidle lepidlom
-14	7114	drobnosť	drobnosti drobnostiach drobností drobnosťami
-15	7115	suvenír	suvenírmi suvenírom suvenírov suveníry
-16	7116	rozpadať	rozpadajú rozpadal rozpadalo rozpadá rozpadám rozpadáme
-17	7117	vyšetrovací	vyšetrovacej vyšetrovacia vyšetrovacie vyšetrovacieho vyšetrovaciu vyšetrovacom vyšetrovacou vyšetrovacích
-18	7118	colný	colnej colnom colnou colná colné colného colnú colných colným
-19	7119	znižovanie	znižovania znižovaniu znižovaní znižovaním
-20	7120	kanalizácia	kanalizačné kanalizačný kanalizácie kanalizácii kanalizáciou kanalizáciu kanalizácií
-21	7121	teológia	teologickej teológie teológiou teológiu
-22	7122	zasadanie	zasadania zasadaní zasadaním
-23	7123	neraziť	neraz
-24	7124	vrcholový	vrcholovej vrcholové vrcholového vrcholových
-25	7125	azyl	azyle azylové azylového azylový azylu
-26	7126	štrbský	štrbskom štrbské štrbského
-27	7127	skrutka	skrutiek skrutkami skrutke skrutkou skrutku skrutky
-28	7128	koncentračný	koncentračnom koncentračné koncentračného koncentračných
-29	7129	náklonnosť	náklonnosti náklonnosťou
-30	7130	atentát	atentáte atentátoch atentátom atentátov atentátu atentáty
-31	7131	síra	sírou síru síry
-32	7132	poveriť	pover poveria poveril poverila poverili poverí poverím poveríme
-33	7133	atlant	atlante atlantu atlanty
-34	7134	zúriť	zúri zúria zúril zúrila zúrili zúrim zúriš
-35	7135	nerozmýšľať	nerozmýšľa nerozmýšľaj nerozmýšľajte nerozmýšľajú nerozmýšľal nerozmýšľala nerozmýšľali nerozmýšľam nerozmýšľame nerozmýšľate nerozmýšľaš
-36	7136	nadaný	nadaná nadané nadaného nadaní nadanú nadaných nadaným
-37	7137	zreteľne	zreteľnejšie
-38	7138	poďakovanie	poďakovania poďakovaní poďakovaním
-39	7139	kačka	kačiek kačkami kačke kačkou kačku kačky
-40	7140	nosnosť	nosnosti nosnosťou
-41	7141	prázdnota	prázdnote prázdnotou prázdnotu prázdnoty
-42	7142	kanón	kanóna kanóne kanónmi kanónom kanónov kanónu kanóny
-43	7143	usúdiť	usúdi usúdil usúdila usúdili usúdim
-44	7144	párik	párikom páriku páriky
-45	7145	domorodec	domorodca domorodcami domorodci domorodcom domorodcov domorodý domorodých
-46	7146	dok	dokoch dokom dokov doku doky
-47	7147	lesklý	lesklej lesklom lesklá lesklé lesklého lesklú lesklých lesklými
-48	7148	plošný	plošná plošné plošného plošných
-49	7149	močový	močovej močovom močové močového močovú močových močovým
-50	7150	mládenec	mládenca mládenci mládencom mládencov mládencovi
-51	7151	výstraha	výstrahou výstrahu výstrahy
-52	7152	debilný	debilnej debilnom debilná debilné debilného debilnému debilní debilnú debilných debilným debilnými
-53	7153	meškanie	meškania meškaní meškaním
-54	7154	mach	macha machom machu machy
-55	7155	znamienko	znamienka znamienkom znamienku znamienok
-56	7156	privolať	privolaj privolajte privolajú privolal privolala privolali privolá privolám privoláme privoláte privoláš
-57	7157	zdržovať	zdržoval zdržovala zdržovali zdržuj zdržuje zdržujem zdržujeme zdržujete zdržuješ zdržujte zdržujú
-58	7158	vyrovnanie	vyrovnania vyrovnaniu vyrovnaním
-59	7159	handra	handier handrami handre handrou handru handry handrách
-60	7160	štítny	štítna štítnej štítnou štítnu
-61	7161	vyslovovať	vyslovoval vyslovovali vyslovuje vyslovujem vyslovujeme vyslovujete vyslovuješ vyslovujú
-62	7162	džentlmen	džentlmena džentlmeni džentlmenmi džentlmenom džentlmenov džentlmenovi
-63	7163	zaregistrovať	zaregistroval zaregistrovala zaregistrovali zaregistruj zaregistrujem zaregistrujeme zaregistrujete zaregistrujte zaregistrujú
-64	7164	cyprus	cypre cypru cyprusu
-65	7165	výpredaj	výpredaja výpredaje výpredaji výpredajoch výpredajom výpredajov výpredaju
-66	7166	smartfón	smartfónov smartfóny
-67	7167	kúpalisko	kúpaliska kúpalisku kúpaliská
-68	7168	neskúsiť	neskús neskúsi neskúsia neskúsil neskúsila neskúsili neskúsim neskúsime neskúsite neskúsiš neskúste
-69	7169	delegát	delegáta delegáti delegátmi delegátom delegátov
-70	7170	anatómia	anatomicky anatomické anatomických anatómie anatómii anatómiu
-71	7171	brutálny	brutálna brutálneho brutálnej brutálni brutálnom brutálnou brutálnu brutálnych brutálnym najbrutálnejšiu najbrutálnejší najbrutálnejších
-72	7172	prehodnotiť	prehodnotia prehodnotil prehodnotila prehodnotili prehodnotí prehodnotím prehodnotíme prehodnotíte
-73	7173	závet	závete závetom závetu závety
-74	7174	renesančný	renesančnej renesančnom renesančná renesančné renesančného renesančných
-75	7175	prívesok	príveskami príveskoch príveskom príveskov prívesku prívesky
-76	7176	močiar	močiara močiare močiari močiarmi močiarny močiarnych močiaroch močiarom močiarov močiaru
-77	7177	tornádo	tornád tornáda tornádach tornádami tornáde tornádom tornádu
-78	7178	rotácia	rotácie rotácii rotáciou rotáciu
-79	7179	osídlenie	osídlenia osídlení
-80	7180	zamestnávať	zamestnáva zamestnávajú zamestnával zamestnávala zamestnávali zamestnávam zamestnávame zamestnávate zamestnávaš
-81	7181	dodržiavanie	dodržiavania dodržiavaní dodržiavaním
-82	7182	zohrávať	zohráva zohrávajú
-83	7183	vytratiť	vytratia vytratil vytratila vytratili vytratilo vytratí vytratím vytratíme vytratíš
-84	7184	inzulín	inzulínom inzulínový inzulínu
-85	7185	objektívny	objektívna objektívneho objektívnej objektívni objektívnu objektívnych objektívnym
-86	7186	zaobchádzanie	zaobchádzania zaobchádzaniu zaobchádzaní
-87	7187	opona	oponou oponu opony
-88	7188	dekáda	dekád dekádach dekáde dekádou dekádu dekády
-89	7189	radar	radare radarmi radarom radarov radaru radary
-90	7190	hoľa	hole holi holí hoľu
-91	7191	rozpoznať	rozpoznajú rozpoznal rozpoznala rozpoznali rozpozná rozpoznám rozpoznáš
-92	7192	inžiniersky	inžinierska inžinierske inžinierskeho inžinierskej inžinierskych
-93	7193	predsudok	predsudkami predsudkoch predsudkom predsudkov predsudku predsudky
-94	7194	kvitnúť	kvitla kvitli kvitne kvitnú
-95	7195	vyslaný	vyslaná vyslané vyslaní vyslaných
-96	7196	popálenina	popáleninami popálenine popáleninu popáleniny popáleninách popáleninám popálenín
-97	7197	remeselník	remeselníci remeselníka remeselníkom remeselníkov
-98	7198	jogurt	jogurte jogurtom jogurtov jogurtovú jogurtový jogurtu jogurty
-99	7199	dvesto	
-100	7200	pozorný	pozornejší pozorná pozorné pozorní pozorným
+1	7101	zástavba	zástavbe zástavbou zástavbu zástavby
+2	7102	šál	šále šálmi šálom šálu šály
+3	7103	paralelný	paralelnej paralelnom paralelná paralelné paralelného paralelnú paralelných paralelnými
+4	7104	šalieť	nešaliem šalejú šalel šalela šaleli šalie šaliem šalieme šaliete šalieš
+5	7105	mozaika	mozaike mozaikou mozaiku mozaiky
+6	7106	zvislý	zvislej zvislé zvislých
+7	7107	odskočiť	odskoč odskočil odskočila odskočili odskočí odskočím odskočíme
+8	7108	vybavenosť	vybavenosti
+9	7109	mešita	mešite mešitu mešity mešitách
+10	7110	certifikát	certifikátom certifikátu certifikáty
+11	7111	prevzatie	prevzatia prevzatiu prevzatím
+12	7112	statok	statkoch statkov statku statky
+13	7113	kontroverzný	kontroverznej kontroverznom kontroverzná kontroverzné kontroverzného kontroverznú kontroverzných kontroverzným kontroverznými
+14	7114	maľovaný	maľovanom maľovanou maľovaná maľované maľovaní maľovaných
+15	7115	nukleárny	nukleárna nukleárne nukleárneho nukleárnej nukleárnom nukleárnou nukleárnu nukleárnych nukleárnym nukleárnymi
+16	7116	vypínač	vypínača vypínače vypínačom vypínačov
+17	7117	včerajšok	včerajška včerajškom včerajšku včerajšky
+18	7118	nakrúcanie	nakrúcania nakrúcaní nakrúcaním
+19	7119	vedecky	
+20	7120	začiatočník	začiatočníci začiatočníka začiatočníkom začiatočníkov
+21	7121	odvolávať	odvoláva odvolávajú odvolával odvolávam odvolávame odvolávate odvolávaš
+22	7122	privilégium	privilégia privilégiami privilégiom privilégiá privilégií
+23	7123	staviteľ	stavitelia staviteľa staviteľom staviteľov
+24	7124	hangár	hangára hangáre hangári hangároch hangárov hangáru
+25	7125	vládať	nevládal nevládala nevládali nevládze nevládzem nevládzeš nevládzu vládal vládala vládze vládzem vládzete vládzeš vládzu
+26	7126	vinohrad	vinohrade vinohradoch vinohradov vinohradu vinohrady
+27	7127	spolubývajúca	spolubývajúce spolubývajúcej spolubývajúcou spolubývajúcu
+28	7128	záporný	zápornej záporná záporné zápornú záporných
+29	7129	rekordný	rekordnom rekordné rekordnú rekordných rekordným
+30	7130	oslovovať	neoslovuj neoslovujte oslovoval oslovovala oslovovali oslovuj oslovuje oslovujem oslovujeme oslovujete oslovuješ oslovujte oslovujú
+31	7131	vegetácia	vegetácie vegetáciou vegetáciu
+32	7132	dovoz	dovoze dovozom dovozu
+33	7133	fiat	
+34	7134	ohňostroj	ohňostroja ohňostroje ohňostroji ohňostrojom ohňostrojov
+35	7135	parížsky	parížska parížske parížskeho parížskej parížskom parížsku parížskych
+36	7136	spätý	spätá späté spätú
+37	7137	veľkorysý	veľkorysej veľkorysá veľkorysé veľkorysého veľkorysí veľkorysú veľkorysým
+38	7138	glukóza	glukózu glukózy
+39	7139	formovanie	formovania formovaniu
+40	7140	vyplnený	vyplnená vyplnené vyplnenú
+41	7141	luxus	luxuse luxusom luxusu
+42	7142	vydrieť	nevydieral vydiera vydierajú vydieral vydierala vydierali vydierate vydieraš vydierať
+43	7143	spotrebný	spotrebnej spotrebná spotrebné spotrebného spotrebných
+44	7144	jas	jasom jasu
+45	7145	nedotknutý	nedotknutej nedotknutou nedotknutá nedotknuté nedotknutí nedotknutú
+46	7146	smeť	smeti smetiach smetiam smetí smeťami smietka smietke
+47	7147	imidž	imidži imidžom imidžu
+48	7148	zhrnúť	zhrniem zhrnieme zhrnul zhrnula zhrnuli zhrň zhrňme zhrňte
+49	7149	interpret	interpreta interpreti interpretom interpretov
+50	7150	dôveryhodný	dôveryhodnejší dôveryhodná dôveryhodné dôveryhodného dôveryhodnému dôveryhodní dôveryhodnú dôveryhodných dôveryhodným dôveryhodnými najdôveryhodnejší najdôveryhodnejších
+51	7151	hospodárenie	hospodárenia hospodárení
+52	7152	dvojročný	dvojročnej dvojročná dvojročné dvojročného dvojročnú
+53	7153	seriózne	serióznejšie
+54	7154	ekológia	ekológie ekológii ekológiu
+55	7155	zapracovať	zapracoval zapracovala zapracovali zapracuj zapracuje zapracujem zapracujeme zapracuješ zapracujme zapracujte
+56	7156	nábrežie	nábrežia nábreží
+57	7157	zvykať	nezvykaj nezvykajte zvykaj zvykajte zvykajú zvykal zvykala zvyká zvykám zvykáme zvykáte zvykáš
+58	7158	delfín	delfína delfínmi delfínoch delfínom delfínov delfíny
+59	7159	mudrc	mudrca mudrci mudrcom mudrcov mudrcovi
+60	7160	frakcia	frakciami frakcie frakcii frakciou frakciu frakcií
+61	7161	nesúhlas	nesúhlasom nesúhlasu
+62	7162	vreckovka	vreckoviek vreckovkami vreckovke vreckovkou vreckovku vreckovky vreckovkách
+63	7163	trauma	traume traumou traumu traumy
+64	7164	ekosystém	ekosystéme ekosystémov ekosystému ekosystémy
+65	7165	zahojiť	hoj hoja hojenie hojiť hojí hojíš nehojí nezahoja nezahojila nezahojili nezahojilo nezahojí zahoja zahojenie zahojil zahojila zahojili zahojilo zahojí
+66	7166	hierarchia	hierarchie hierarchii hierarchiou hierarchiu
+67	7167	podrezať	podrezal podrezala podrezali podrež podreže podrežem podrežeme podrežeš podrežú
+68	7168	opačne	
+69	7169	prenechať	neprenechám prenechaj prenechajme prenechajte prenechal prenechala prenechali prenechá prenechám prenecháme prenecháte prenecháš
+70	7170	expanzia	expanzie expanzii expanziou expanziu
+71	7171	prírastok	prírastkom prírastku prírastky
+72	7172	prevádzkovaný	prevádzkovaná prevádzkované prevádzkovaných
+73	7173	zavesený	zavesená zavesené zaveseného zavesení zavesenú
+74	7174	prípravka	prípravke prípravku prípravky
+75	7175	odložený	odložená odložené odloženého odložení odloženú odložených
+76	7176	preferencia	preferencie preferenciách preferencií
+77	7177	roztrhnúť	neroztrhne roztrhla roztrhli roztrhlo roztrhne roztrhnem roztrhneš roztrhni roztrhnú roztrhol
+78	7178	citový	citovej citovom citová citové citového citovú citových citovým citovými
+79	7179	pripomínajúci	pripomínajúca pripomínajúce pripomínajúcich
+80	7180	zdôrazniť	zdôrazni zdôraznil zdôraznila zdôraznite zdôrazní zdôrazním
+81	7181	náhľad	náhľadu náhľady
+82	7182	blondínka	blondínke blondínkou blondínku blondínky blondínok
+83	7183	synagóga	synagóge synagógu synagógy
+84	7184	draslík	draslíka draslíkom
+85	7185	pristupovať	pristupoval pristupovala pristupuje pristupujem pristupujeme pristupujete pristupuješ pristupujú
+86	7186	ostrihať	neostrihal ostrihaj ostrihajte ostrihajú ostrihal ostrihala ostrihali ostrihá ostrihám ostriháme ostriháš
+87	7187	starovek	starovekom staroveku
+88	7188	rozptýliť	rozptýli rozptýlia rozptýlil rozptýlila rozptýlili rozptýlilo rozptýlim rozptýlime rozptýliš rozptýľ rozptýľme rozptýľte
+89	7189	prediskutovať	neprediskutujeme prediskutoval prediskutovala prediskutovali prediskutuje prediskutujem prediskutujeme prediskutujme
+90	7190	diecéza	diecéze diecézu diecézy
+91	7191	príslušenstvo	príslušenstva príslušenstvom
+92	7192	starobylý	starobylej starobylom starobylá starobylé starobylého starobylú starobylých
+93	7193	oholiť	neoholil neoholím oholil oholila oholili oholí oholím oholíme oholíš ohoľ
+94	7194	vosk	voskom vosku
+95	7195	erb	erbom erbu
+96	7196	špekulácia	špekulácie špekulácii špekuláciu špekuláciách špekuláciám špekulácií
+97	7197	odstraňovať	neodstraňujte odstraňoval odstraňovala odstraňovali odstraňuje odstraňujem odstraňujeme odstraňujú
+98	7198	liturgický	liturgickej liturgické liturgického liturgických
+99	7199	podstavec	podstavca podstavci podstavcom
+100	7200	sýrsky	sýrska sýrske sýrskeho sýrskej sýrskemu sýrskych

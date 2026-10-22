@@ -1,6 +1,6 @@
 1	901	trh	trhmi trhoch trhom trhov trhové trhový trhu trhy
 2	902	internet	internete internetom internetovej internetovom internetovou internetová internetové internetového internetovú internetový internetových internetovým internetovými internetu
-3	903	sadnúť	sadli sadne sadnem sadneme sadnete sadneš sadni sadnime sadnite sadnú sadol
+3	903	sadnúť	nesadla nesadli nesadlo nesadne nesadnem nesadneme nesadnete nesadneš nesadnú nesadol sadli sadne sadnem sadneme sadnete sadneš sadni sadnime sadnite sadnú sadol
 4	904	máj	mája máji májom májová májové májový májových máju
 5	905	údaj	údaja údaje údajmi údajoch údajom údajov
 6	906	vnútri	
@@ -11,25 +11,25 @@
 11	911	predseda	predsedníčka predsedníčkou predsedníčku predsedníčky predsedom predsedov predsedovi predsedovia predsedu
 12	912	ročník	ročníka ročníkoch ročníkom ročníkov ročníku ročníky
 13	913	ryba	rybacie rybací rybami rybe rybia rybie rybieho rybiek rybiu rybička rybičky rybka rybkami rybkou rybku rybky rybkách rybom rybou rybu ryby rybách rybám rybí rybích rybím rybími rýb
-14	914	voliť	volený volených volia volil volila volili volilo volí volím volíme volíte volíš voľ voľte zvolenej zvolenia zvolenie zvoleniu zvolená zvolené zvoleného zvolení zvolením zvolený zvolených zvoleným zvolia zvolil zvolila zvolili zvolilo zvoliť zvolí zvolím zvolíme zvolíte zvolíš zvoľ zvoľte
+14	914	voliť	nevolil nevoľte volený volených volia volil volila volili volilo volí volím volíme volíš voľ voľte zvolenej zvolenia zvolenie zvolená zvolené zvoleného zvolení zvolením zvolený zvolených zvoleným zvolia zvolil zvolila zvolili zvolilo zvoliť zvolí zvolím zvolíme zvolíte zvolíš zvoľ zvoľte
 15	915	voľný	voľnej voľnejší voľnou voľné voľného voľnému voľní voľnú voľných voľným voľnými
 16	916	nebo	neba nebesami nebesia nebesiach nebesiam nebeskej nebeskom nebeskou nebeská nebeské nebeského nebeskému nebeskí nebeskú nebeský nebeských nebeským nebesá nebesách nebesám nebi nebies nebom nebu nebíčka nebíčko
 17	917	profesor	profesora profesori profesormi profesorom profesorov profesorovi
 18	918	vojenský	vojenskej vojenskom vojenskou vojenská vojenské vojenského vojenskému vojenskí vojenskú vojenských vojenským vojenskými
 19	919	herec	herca hercami herci hercoch hercom hercov hercovi hereckej hereckom hereckou herecká herecké hereckého hereckú herecký hereckých hereckým hereckými herečiek herečka herečkami herečke herečkou herečku herečky
-20	920	očakávať	očakáva očakávaj očakávajte očakávajú očakávajúc očakával očakávala očakávali očakávalo očakávam očakávame očakávate očakávaš
+20	920	očakávať	neočakáva neočakávaj neočakávajte neočakávajú neočakával neočakávala neočakávali neočakávam neočakávame neočakávate neočakávaš neočakávať očakáva očakávaj očakávajte očakávajú očakávajúc očakával očakávala očakávali očakávalo očakávam očakávame očakávate očakávaš
 21	921	meter	metri metroch metrov
 22	922	poriadne	poriadnejšie
 23	923	založený	založenej založenom založenou založená založené založeného založení založenú založených založeným založenými
-24	924	baviť	bav bavia bavil bavila bavili bavilo bavme bavte baví bavím bavíme bavíte bavíš
+24	924	baviť	bav bavia bavil bavila bavili bavilo bavme bavte baví bavím bavíme bavíte bavíš nebav nebavia nebavil nebavila nebavili nebavilo nebaviť nebavme nebavte nebaví nebavím nebavíme nebavíte nebavíš
 25	925	hlúpy	hlúpa hlúpe hlúpeho hlúpej hlúpejšia hlúpejšie hlúpejší hlúpemu hlúpi hlúpo hlúpom hlúpou hlúpu hlúpych hlúpym hlúpymi najhlúpejšia najhlúpejšie najhlúpejšiu najhlúpejší najhlúpejších
 26	926	dôsledok	dôsledkami dôsledkoch dôsledkom dôsledkov dôsledku dôsledky
-27	927	meniť	menenie menia meniac meniaci menil menila menili menilo mení mením meníme meníte meníš meň meňte
+27	927	meniť	menenie menia meniac meniaci menil menila menili menilo mení mením meníme meníte meníš meň meňte nemenia nemenil nemenila nemenili nemeniť nemení nemením nemeníme nemeníte nemeníš nemeň nemeňte
 28	928	jún	júna júni júnom júnová júnové júnový júnu júny
 29	929	avšak	
 30	930	použitý	použitej použitom použitá použité použitého použití použitú použitých použitým použitými
 31	931	chuť	chute chuti chutí chuťou
-32	932	opýtať	opýta opýtaj opýtajme opýtajte opýtajú opýtal opýtala opýtali opýtam opýtame opýtate opýtaš
+32	932	opýtať	neopýta neopýtal neopýtala neopýtali neopýtam neopýtame neopýtate neopýtaš neopýtať opýta opýtaj opýtajme opýtajte opýtajú opýtal opýtala opýtali opýtam opýtame opýtate opýtaš
 33	933	vodný	vodnej vodnom vodnou vodná vodné vodného vodnú vodných vodným vodnými
 34	934	podstata	podstate podstatou podstatu podstaty
 35	935	anglický	anglickej anglickom anglickou anglicky anglická anglické anglického anglickému anglickí anglickú anglických anglickým anglickými
@@ -38,25 +38,25 @@
 38	938	akýkoľvek	akejkoľvek akomkoľvek akoukoľvek akákoľvek akéhokoľvek akékoľvek akémukoľvek akúkoľvek akýchkoľvek akýmikoľvek akýmkoľvek
 39	939	chlapík	chlapíci chlapíka chlapíkmi chlapíkoch chlapíkom chlapíkov chlapíkovi
 40	940	dokonalý	dokonale dokonalej dokonalejšia dokonalejšie dokonalejší dokonalom dokonalou dokonalá dokonalé dokonalého dokonalému dokonalí dokonalú dokonalých dokonalým dokonalými najdokonalejšia najdokonalejšie najdokonalejší najdokonalejších
-41	941	napadnúť	napadla napadli napadlo napadne napadnem napadneme napadnete napadneš napadni napadnite napadnú napadol
+41	941	napadnúť	napadla napadli napadlo napadne napadnem napadneme napadnete napadneš napadni napadnite napadnú napadol nenapadla nenapadli nenapadlo nenapadne nenapadnú nenapadol
 42	942	hrad	hrade hradnej hradnom hradná hradné hradného hradný hradných hradoch hradom hradov hradu hrady hrádok
 43	943	jasne	jasnejšie najjasnejšie
 44	944	veko	vekom veku
 45	945	zvuk	zvukmi zvukoch zvukom zvukov zvuku zvuky
-46	946	spomenúť	spomenie spomeniem spomenieme spomeniete spomenieš spomenul spomenula spomenuli spomenulo spomenú spomeň spomeňme spomeňte
+46	946	spomenúť	nespomenie nespomeniem nespomenieme nespomeniete nespomenieš nespomenul nespomenula nespomenuli nespomenú nespomenúť nespomeň spomenie spomeniem spomenieme spomeniete spomenieš spomenul spomenula spomenuli spomenulo spomenú spomeň spomeňme spomeňte
 47	947	mier	mieri mierom mierovej mierový mieru
 48	948	majetok	majetkami majetkom majetkov majetku majetky
 49	949	ministerstvo	ministerstiev ministerstva ministerstve ministerstvom ministerstvu ministerstvá
 50	950	postup	postupe postupmi postupoch postupom postupov postupu postupy
 51	951	životný	životnej životnom životnou životná životné životného životnému životnú životných životným životnými
 52	952	november	novembra novembri novembrom
-53	953	udržať	udrž udržal udržala udržali udržalo udržia udržme udržte udrží udržím udržíme udržíte udržíš
+53	953	udržať	neudržal neudržala neudržali neudržia neudrží neudržím neudržíme neudržíte neudržíš udrž udržal udržala udržali udržalo udržia udržme udržte udrží udržím udržíme udržíte udržíš
 54	954	vhodný	najvhodnejšia najvhodnejší najvhodnejším vhodnej vhodnejšia vhodnejšieho vhodnejšiu vhodnejšom vhodnejší vhodnejších vhodnejším vhodnom vhodnou vhodná vhodné vhodného vhodní vhodnú vhodných vhodným vhodnými
 55	955	pracovný	pracovnej pracovnom pracovnou pracovná pracovné pracovného pracovnému pracovní pracovnú pracovných pracovným pracovnými
 56	956	adresa	adresami adrese adresou adresu adresy adries
 57	957	vybudovať	budoval budovala budovali budovania budovanie budovaniu budovaní budovaním budovať buduje budujem budujeme budujete buduješ budujme budujú budujúci vybudoval vybudovala vybudovali vybudovalo vybudovania vybudovanie vybudovaniu vybudované vybudovaním vybudovaný vybuduj vybuduje vybudujem vybudujeme vybudujete vybuduješ vybudujú
 58	958	tvrdý	najtvrdšia najtvrdšieho najtvrdší najtvrdších tvrdej tvrdou tvrdá tvrdí tvrdú tvrdých tvrdým tvrdými tvrdšia tvrdšieho tvrdšiu tvrdší tvrdším
-59	959	spievať	spieva spievaj spievajme spievajte spievajú spievajúc spievajúca spievajúce spievajúceho spievajúci spievajúcich spievajúcu spieval spievala spievali spievalo spievam spievame spievanie spievate spievaš zaspieva zaspievaj zaspievajme zaspievajte zaspievajú zaspieval zaspievala zaspievali zaspievam zaspievame zaspievate zaspievaš zaspievať
+59	959	spievať	nespieva nespievaj nespievajú nespieval nespievala nespievam nespievaš nezaspievaš spieva spievaj spievajme spievajte spievajú spievajúc spievajúca spievajúce spievajúci spievajúcich spieval spievala spievali spievam spievame spievanie spievate spievaš zaspieva zaspievaj zaspievajme zaspievajte zaspievajú zaspieval zaspievala zaspievali zaspievam zaspievame zaspievate zaspievaš zaspievať
 60	960	chalan	chalana chalani chalanisko chalanmi chalanoch chalanom chalanov chalanovi
 61	961	väzenie	väzenia väzeniach väzeniu väzení väzením
 62	962	metóda	metód metódach metódam metódami metóde metódou metódu metódy
@@ -71,10 +71,10 @@
 71	971	diel	diele dielik dielmi dieloch dielom dielov dielu diely
 72	972	finančný	finančnej finančnom finančnou finančná finančné finančného finančnému finanční finančnú finančných finančným finančnými
 73	973	zahraničný	zahraničnej zahraničnom zahraničnou zahraničná zahraničné zahraničného zahraniční zahraničnú zahraničných zahraničným zahraničnými
-74	974	zbaviť	zbav zbavia zbavil zbavila zbavili zbavilo zbavme zbavte zbaví zbavím zbavíme zbavíte zbavíš
-75	975	navštíviť	navštív navštívi navštívia navštívil navštívila navštívili navštívilo navštívim navštívime navštívite navštíviš navštívte
+74	974	zbaviť	nezbavia nezbavil nezbavila nezbavili nezbaví nezbavím nezbavíme nezbavíte nezbavíš zbav zbavia zbavil zbavila zbavili zbavilo zbavme zbavte zbaví zbavím zbavíme zbavíte zbavíš
+75	975	navštíviť	navštív navštívi navštívia navštívil navštívila navštívili navštívilo navštívim navštívime navštívite navštíviš navštívte nenavštívi nenavštívil nenavštívila nenavštívili nenavštívim nenavštíviš
 76	976	špeciálny	špeciálna špeciálneho špeciálnej špeciálnemu špeciálni špeciálnom špeciálnou špeciálnu špeciálnych špeciálnym špeciálnymi
-77	977	rozdeliť	rozdelenia rozdelenie rozdeleniu rozdelené rozdelení rozdelením rozdelený rozdelia rozdelil rozdelila rozdelili rozdelilo rozdelí rozdelím rozdelíme rozdelíte rozdelíš rozdeľ rozdeľme rozdeľovať rozdeľte rozdeľuje
+77	977	rozdeliť	nerozdelia nerozdelili nerozdelí nerozdelíme nerozdelíš nerozdeľujte rozdelenia rozdelenie rozdeleniu rozdelené rozdelení rozdelením rozdelený rozdelia rozdelil rozdelila rozdelili rozdelilo rozdelí rozdelím rozdelíme rozdelíte rozdelíš rozdeľ rozdeľme rozdeľovať rozdeľte rozdeľuje
 78	978	generál	generála generáli generálmi generálom generálov generálovi
 79	979	divný	divne divnej divnejšia divnejšie divnejší divno divnom divnou divná divné divného divnému divní divnú divných divným divnými najdivnejšia najdivnejšie najdivnejšiu najdivnejší najdivnejších
 80	980	ruský	ruskej ruskom ruskou rusky ruská ruské ruského ruskému ruskí ruskú ruských ruským ruskými
@@ -88,9 +88,9 @@
 88	988	samostatný	samostatnej samostatnom samostatnou samostatná samostatné samostatného samostatní samostatnú samostatných samostatným samostatnými
 89	989	kód	kóde kódmi kódoch kódom kódov kódové kódový kódu kódy
 90	990	aktivita	aktivitami aktivite aktivitou aktivitu aktivity aktivitách aktivitám aktivít
-91	991	chrániť	chráni chránia chránil chránila chránili chránilo chránim chránime chránite chrániš chráň chráňte
+91	991	chrániť	chráni chránia chránil chránila chránili chránilo chránim chránime chránite chrániš chráň chráňte nechráni nechránia nechránil nechránili nechránim nechrániš nechráň
 92	992	viera	vier viere vierou vieru viery
-93	993	chystať	chystaj chystajú chystal chystala chystali chystalo chystá chystám chystáme chystáte chystáš
+93	993	chystať	chystaj chystajú chystal chystala chystali chystalo chystá chystám chystáme chystáte chystáš nechystaj nechystajú nechystal nechystala nechystali nechystá nechystám nechystáme nechystáte nechystáš
 94	994	darček	darčeka darčekmi darčekoch darčekom darčekov darčekovej darčekovom darčeková darčekové darčekového darčekovú darčekový darčekových darčekovým darčeku darčeky
 95	995	sedem	siedmi siedmich siedmim siedmimi
 96	996	misia	misiami misie misii misiou misiu misiách misií

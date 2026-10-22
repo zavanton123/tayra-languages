@@ -1,100 +1,100 @@
-1	6901	labuť	labute labuti labutia labutie labutí labuťou
-2	6902	krvinka	krviniek krvinkami krvinky
-3	6903	oddelene	
-4	6904	milostný	milostnej milostnom milostná milostné milostného milostnému milostnú milostných milostným
-5	6905	seno	sena sene senom sien
-6	6906	identifikovaný	identifikovaná identifikované identifikovaní identifikovaných
-7	6907	ubytovať	ubytoval ubytovala ubytovali ubytuj ubytuje ubytujem ubytujeme ubytujete ubytujte ubytujú
-8	6908	márny	márna márne márni
-9	6909	murovaný	murovaná murované murovaných
-10	6910	metafora	metafor metaforami metafore metaforou metaforu metafory metaforách
-11	6911	muzikant	muzikanta muzikanti muzikantom muzikantov
-12	6912	prikazovať	prikazoval prikazuj prikazuje prikazujem prikazujeme prikazuješ prikazujú
-13	6913	vinica	vinice vinici viniciach vinicu viníc
-14	6914	premávať	premáva premávajú premávala premávate premávaš
-15	6915	port	portov portu porty
-16	6916	štvorec	štvorca štvorce štvorci štvorcov štvorcu
-17	6917	preverovať	preveroval preverovala preverovali preveruj preveruje preverujem preverujeme preverujete preveruješ preverujú
-18	6918	upratovanie	upratovania upratovaní upratovaním
-19	6919	evakuovať	evakuoval evakuovali evakuuje evakuujeme evakuujte evakuujú
-20	6920	ambulancia	ambulancie ambulancii ambulanciu
-21	6921	lipa	lipe lipka lipová lipový lipu lipy líp
-22	6922	kompresor	kompresora kompresorom kompresorov kompresory
-23	6923	klenba	klenbami klenbe klenbou klenbu klenby
-24	6924	hrádza	hrádze hrádzi hrádzou hrádzu
-25	6925	strávený	strávenej strávenom strávená strávené stráveného strávenú strávených
-26	6926	posúdiť	posúdi posúdia posúdil posúdila posúdili posúdim posúdime posúď posúďte
-27	6927	arogantný	arogantnej arogantná arogantné arogantného arogantní arogantnú arogantných arogantným
-28	6928	žalovať	žaloval žalovala žalovali žaluj žaluje žalujem žalujeme žalujete žaluješ žalujte žalujú
-29	6929	občianstvo	občianstva
-30	6930	rozprestierať	rozprestiera rozprestierajú
-31	6931	totožný	totožná totožné
-32	6932	uchovávať	uchováva uchovávajte uchovávajú uchovával uchovávala uchovávali uchovávam uchovávame uchovávate uchovávaš
-33	6933	rabín	rabína rabíni rabínom rabínov rabínovi
-34	6934	jednoduchosť	jednoduchosti jednoduchosťou
-35	6935	prehodiť	prehodia prehodil prehodila prehodili prehodí prehodím prehodíme prehodíte prehodíš prehoď prehoďte
-36	6936	bábo	báb
-37	6937	lori	
-38	6938	harmonický	harmonickej harmonická harmonické harmonického harmonických
-39	6939	meg	
-40	6940	nasledovník	nasledovníci nasledovníka nasledovníkmi nasledovníkom nasledovníkov
-41	6941	štvrťfinále	
-42	6942	pôdorys	pôdoryse pôdorysom pôdorysu pôdorysy
-43	6943	vnúča	vnúčat vnúčatami vnúčatá vnúčatám vnúčaťa vnúčence
-44	6944	kameraman	kameramana kameramani kameramanom kameramanov kameramanovi
-45	6945	odmietnutý	odmietnutá odmietnuté odmietnutí odmietnutých
-46	6946	mandát	mandátom mandátov mandátu
-47	6947	výpis	výpise výpisom výpisov výpisu výpisy
-48	6948	predvídať	predvída predvídal predvídala predvídali predvídam
-49	6949	časovo	
-50	6950	nenaučiť	nenaučia nenaučil nenaučila nenaučili nenaučí nenaučím nenaučíme nenaučíte nenaučíš
-51	6951	namočiť	namoč namočia namočil namočila namočili namočte namočí namočím namočíme namočíte namočíš
-52	6952	pomník	pomníka pomníkom pomníku pomníky
-53	6953	odňatie	odňatia odňatím
-54	6954	mrznúť	mrzla mrzli mrzlo mrzne mrznem mrzneme mrzneš mrznú mrzol zamrznúť zamrzol
-55	6955	vzísť	vzišiel vzišla vzišli vzišlo vzíde
-56	6956	trieť	trela trenia trenie trení trením trie trieš trú
-57	6957	rota	rotu roty
-58	6958	netrafiť	netraf netrafia netrafil netrafila netrafili netrafí netrafím netrafíme netrafíte netrafíš
-59	6959	živina	živiny živín
-60	6960	výkonnosť	výkonnosti
-61	6961	hlasne	hlasnejšie najhlasnejšie
-62	6962	ozdoba	ozdobami ozdobou ozdobu ozdoby ozdôb
-63	6963	zlosť	zlostí zlosťou
-64	6964	šestnásť	šestnástich šestnástimi
-65	6965	mačiatko	mačiatka mačiatkami mačiatkom mačiatok
-66	6966	výkupné	výkupnom výkupného výkupnému
-67	6967	elektrika	elektrike elektrikou elektriku elektriky
-68	6968	špičkový	špičkovej špičkovom špičkovou špičková špičkové špičkového špičkoví špičkovú špičkových špičkovým
-69	6969	priľahlý	priľahlej priľahlom priľahlé priľahlého priľahlých
-70	6970	koncil	koncile koncilom koncilu
-71	6971	stvoriteľ	stvoritelia stvoriteľa stvoriteľom stvoriteľov stvoriteľovi
-72	6972	doživotie	doživotia doživotím
-73	6973	starostov	starostova starostove starostovej starostovho starostovi starostovu starostových
-74	6974	alchymista	alchymisti alchymistom alchymistov alchymistu
-75	6975	príslovie	príslovia prísloví
-76	6976	porcia	porcie porcii porciou porciu porcií
-77	6977	brilantný	brilantnou brilantná brilantné brilantného brilantní brilantnú brilantných brilantným
-78	6978	krízový	krízovej krízovom krízová krízové krízového krízovú krízových
-79	6979	duševne	
-80	6980	spájaný	spájaná spájané spájaní
-81	6981	trubica	trubice trubici trubicou trubicu trubíc
-82	6982	zostávajúci	zostávajúca zostávajúce zostávajúceho zostávajúcich zostávajúcim zostávajúcimi zostávajúcu
-83	6983	únava	únave únavou únavu únavy
-84	6984	tínedžer	tínedžera tínedžeri tínedžermi tínedžeroch tínedžerom tínedžerov
-85	6985	zátoka	zátoke zátokou zátoku zátoky
-86	6986	nájomný	nájomnej nájomná nájomní nájomnú nájomných nájomným nájomnými
-87	6987	vykradnúť	vykradla vykradli vykradne vykradnem vykradneme vykradneš vykradnú vykradol
-88	6988	smutne	najsmutnejšie smutnejšie
-89	6989	indický	indickej
-90	6990	mág	mága mágom mágov mágovi mágovia
-91	6991	rozmanitý	rozmanitá rozmanité rozmanitých
-92	6992	deštrukcia	deštrukcie deštrukcii deštrukciou deštrukciu deštruktívna deštruktívne deštruktívnu deštruktívny deštruktívnych deštrukčný
-93	6993	zabraňovať	zabraňuje zabraňujem zabraňujeme zabraňujú
-94	6994	lepiť	lep lepenie lepia lepiacu lepil lepila lepili lepí lepím lepíme lepíš
-95	6995	poháňať	poháňa poháňajú poháňal poháňala poháňali poháňalo
-96	6996	prienik	prienikom prieniku prieniky
-97	6997	vykašlať	vykašlal vykašlala vykašlali vykašle vykašlem vykašleme vykašlete vykašleš vykašli vykašlime vykašlite vykašlú
-98	6998	kdeže	
-99	6999	newton	newtona newtone newtonov
-100	7000	nazbierať	nazbiera nazbieraj nazbierajú nazbieral nazbierala nazbierali nazbieralo nazbieram nazbierate
+1	6901	zaobstarať	nezaobstaráš zaobstaraj zaobstarajte zaobstaral zaobstarala zaobstarali zaobstará zaobstarám zaobstaráme zaobstaráš
+2	6902	sliznica	sliznice sliznici sliznicu slizníc
+3	6903	zmocniť	zmocni zmocnia zmocnil zmocnila zmocnili zmocnilo zmocní zmocníme
+4	6904	spätne	
+5	6905	oživenie	oživenia oživeniu oživením
+6	6906	polárny	polárna polárne polárneho polárnej polárnom polárnu polárnych polárnym polárnymi
+7	6907	vnučka	vnučke vnučkou vnučku vnučky
+8	6908	pozdĺžny	pozdĺžne pozdĺžnej pozdĺžnych
+9	6909	kreatívny	kreatívna kreatívneho kreatívnej kreatívnejší kreatívni kreatívnou kreatívnu kreatívnych kreatívnym kreatívnymi
+10	6910	žiarlivosť	žiarlivosti žiarlivosťou
+11	6911	orientovať	orientuje orientujem orientujú
+12	6912	výmysel	výmyslami výmysloch výmyslom výmyslov výmyslu výmysly
+13	6913	losos	lososa lososom lososov lososová lososovú lososový lososy
+14	6914	spoľahlivosť	nespoľahlivosť spoľahlivosti spoľahlivosťou
+15	6915	kopačka	kopačku kopačky
+16	6916	rotačný	rotačnej rotačná rotačné rotačného rotačnú rotačných
+17	6917	neslušný	neslušná neslušné neslušní neslušnú neslušných neslušným
+18	6918	brod	brode brodu brody
+19	6919	replika	replike replikou repliku repliky replík
+20	6920	horor	horore hororoch hororov hororu horory
+21	6921	odhodlanie	odhodlania odhodlaním
+22	6922	odhaľovať	odhaľoval odhaľuje odhaľujem odhaľujeme odhaľujete odhaľujú
+23	6923	nepravidelný	nepravidelná nepravidelné nepravidelného nepravidelných
+24	6924	poveriť	nepoveril pover poveria poveril poverila poverili poverí poverím poveríme
+25	6925	zaisťovať	zaisťuje zaisťujem zaisťujeme zaisťujú
+26	6926	vytlačený	vytlačená vytlačené vytlačení vytlačených
+27	6927	jedenásty	jedenásta jedenáste jedenásteho jedenástej jedenástom jedenástou jedenástu
+28	6928	prestrelka	prestreliek prestrelke prestrelkou prestrelku prestrelky prestrelkách
+29	6929	číslica	číslic číslicami číslice
+30	6930	sebavedomie	sebavedomia sebavedomím
+31	6931	repertoár	repertoára repertoári repertoáru
+32	6932	svätosť	svätosti svätosťou
+33	6933	pohroma	pohrome pohromou pohromu pohromy pohrôm
+34	6934	zhodný	zhodná zhodné
+35	6935	pokrytie	pokrytia
+36	6936	kaňa	kane
+37	6937	devínsky	devínska devínskej
+38	6938	rozpoznať	nerozpoznal nerozpoznám rozpoznajú rozpoznal rozpoznala rozpoznali rozpozná rozpoznám rozpoznáš
+39	6939	fantasticky	
+40	6940	robievať	nerobieva nerobievam nerobievame robieva robievajú robieval robievala robievali robievam robievame robievate robievaš
+41	6941	skaut	skauta skauti skautom skautov
+42	6942	konár	konára konáre konári konárik konáriky konármi konároch konárom konárov
+43	6943	rodičovský	rodičovskej rodičovskom rodičovská rodičovské rodičovského rodičovskú rodičovských rodičovským
+44	6944	vyplývajúci	vyplývajúca vyplývajúce vyplývajúcich
+45	6945	rozpadať	rozpadajú rozpadal rozpadalo rozpadá rozpadám rozpadáme
+46	6946	prekvapivo	
+47	6947	suvenír	suvenírmi suvenírom suvenírov suveníry
+48	6948	zúriť	zúri zúria zúril zúrila zúrili zúrim zúriš
+49	6949	konštatovať	konštatoval konštatuje konštatujem
+50	6950	lepidlo	lepidla lepidle lepidlom
+51	6951	kačka	kačiek kačkami kačke kačkou kačku kačky
+52	6952	erekcia	erekcie erekcii erekciou erekciu
+53	6953	vyhovieť	nevyhovel nevyhovie nevyhoviete nevyhovieš vyhovej vyhovejú vyhovel vyhovela vyhoveli vyhovie vyhoviem vyhovieme vyhoviete vyhovieš
+54	6954	rozbor	rozbore rozborom rozboru rozbory
+55	6955	zrelý	zrelej zrelo zrelá zrelé zrelého zrelí zrelú zrelých
+56	6956	debilný	debilnej debilnom debilná debilné debilného debilnému debilní debilnú debilných debilným debilnými
+57	6957	vychladnúť	nevychladla nevychladlo nevychladne nevychladnú vychladla vychladli vychladlo vychladne vychladni vychladnite vychladnú vychladol
+58	6958	drobnosť	drobnosti drobnostiach drobností drobnosťami
+59	6959	vyšetrovací	vyšetrovacej vyšetrovacia vyšetrovacie vyšetrovacieho vyšetrovaciu vyšetrovacom vyšetrovacou vyšetrovacích
+60	6960	holokaust	holokauste holokaustu
+61	6961	strkať	nestrkaj nestrkajte nestrkal nestrkať strkajú strkal strkala strkali strká strkám strkáme strkáte strkáš
+62	6962	olivový	olivovej olivovom olivovou olivová olivové olivového olivovú olivovým
+63	6963	náklonnosť	náklonnosti náklonnosťou
+64	6964	kanalizácia	kanalizačné kanalizačný kanalizácie kanalizácii kanalizáciou kanalizáciu kanalizácií
+65	6965	prekonávať	prekonáva prekonávajú prekonával prekonávam prekonávaš
+66	6966	oslabený	oslabená oslabené oslabení
+67	6967	poľovnícky	poľovnícka poľovnícke poľovníckeho poľovníckej poľovnícku
+68	6968	džentlmen	džentlmena džentlmeni džentlmenmi džentlmenom džentlmenov džentlmenovi
+69	6969	umožnený	umožnená umožnené
+70	6970	dok	dokoch dokom dokov doku doky
+71	6971	atentát	atentáte atentátoch atentátom atentátov atentátu atentáty
+72	6972	párik	párikom páriku páriky
+73	6973	rozmnožovanie	rozmnožovania rozmnožovaniu rozmnožovaní
+74	6974	hardvér	hardvérom hardvéru
+75	6975	prázdnota	prázdnote prázdnotou prázdnotu prázdnoty
+76	6976	skrutka	skrutiek skrutkami skrutke skrutkou skrutku skrutky
+77	6977	krútiť	krúti krútia krútil krútila krútili krútim krútime krútiš krúť nekrúti nekrúť
+78	6978	poďakovanie	poďakovania poďakovaní poďakovaním
+79	6979	smrteľnosť	nesmrteľnosti nesmrteľnosť nesmrteľnosťou smrteľnosti smrteľnosťou
+80	6980	atlant	atlante atlantu atlanty
+81	6981	zazrieť	nezazrel nezazreli zazrel zazrela zazreli zazrie zazriem zazrieme zazriete zazrieš
+82	6982	lokomotíva	lokomotív lokomotíve lokomotívou lokomotívu lokomotívy
+83	6983	nadaný	nadaná nadané nadaného nadaní nadanú nadaných nadaným
+84	6984	reprodukcia	reprodukcie reprodukcii reprodukciou reprodukciu
+85	6985	handra	handier handrami handre handrou handru handry handrách
+86	6986	úrokový	úrokovej úroková úrokové úrokovú úrokových
+87	6987	privolať	privolaj privolajte privolajú privolal privolala privolali privolá privolám privoláme privoláte privoláš
+88	6988	colný	colnej colnom colnou colná colné colného colnú colných colným
+89	6989	azyl	azyle azylové azylového azylový azylu
+90	6990	zasadanie	zasadania zasadaní zasadaním
+91	6991	kanón	kanóna kanóne kanónmi kanónom kanónov kanónu kanóny
+92	6992	síra	sírou síru síry
+93	6993	mládenec	mládenca mládenci mládencom mládencov mládencovi
+94	6994	stanovenie	stanovenia
+95	6995	zobrazovanie	zobrazovania zobrazovaní
+96	6996	zreteľne	zreteľnejšie
+97	6997	usúdiť	usúdi usúdil usúdila usúdili usúdim
+98	6998	domorodec	domorodca domorodcami domorodci domorodcom domorodcov domorodý domorodých
+99	6999	znižovanie	znižovania znižovaniu znižovaní znižovaním
+100	7000	teológia	teologickej teológie teológiou teológiu

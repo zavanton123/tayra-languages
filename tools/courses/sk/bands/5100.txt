@@ -1,100 +1,100 @@
-1	5001	prevádzkový	prevádzkovej prevádzková prevádzkové prevádzkového prevádzkových
-2	5002	uviaznuť	uviazla uviazli uviazlo uviazne uviaznem uviazneme uviaznete uviazneš uviaznu uviazol
-3	5003	ksicht	ksichtami ksichte ksichtom ksichtov ksichtu ksichty ksichtík ksichtíky
-4	5004	výučba	výučbe výučbu výučby
-5	5005	zaručiť	zaručia zaručil zaručila zaručili zaručilo
-6	5006	plynúť	plynie plynul plynuli plynulo plynú
-7	5007	sušienka	sušienkach sušienkam sušienkami sušienkou sušienku sušienky sušienok
-8	5008	diagnostika	diagnostike diagnostikou diagnostiku diagnostiky
-9	5009	skromný	skromnej skromnejší skromnom skromná skromné skromného skromní skromnú skromných skromným skromnými
-10	5010	červ	červa červami červoch červom červov červovi červy
-11	5011	nasrať	naser naserie naseriem naseriete naserieš naserte naserú nasral nasrala nasrali nasralo
-12	5012	týždenne	
-13	5013	lekáreň	lekárne lekárni lekární lekárňach lekárňou
-14	5014	siaha	siah siaham
-15	5015	muzikál	muzikáli muzikáloch muzikálom muzikálov muzikálu muzikály
-16	5016	kóma	kóme kómou kómu kómy
-17	5017	zahrnutý	zahrnutá zahrnuté zahrnutí zahrnutých
-18	5018	polovičný	polovičnej polovičnom polovičnou polovičná polovičné polovičného polovičnú polovičných polovičným polovičnými
-19	5019	tvrdohlavý	najtvrdohlavejšia najtvrdohlavejší tvrdohlavej tvrdohlavejší tvrdohlavá tvrdohlavé tvrdohlavého tvrdohlaví tvrdohlavú tvrdohlavých tvrdohlavým
-20	5020	odolný	odolnejšie odolnejší odolná odolné odolného odolní odolnú odolných odolným
-21	5021	zatlačiť	zatlač zatlačia zatlačil zatlačila zatlačili zatlačte zatlačí zatlačím zatlačíme zatlačíte zatlačíš
-22	5022	zemský	zemskej zemskom zemskou zemská zemské zemského zemskú zemských zemským
-23	5023	odhalenie	odhalenia odhaleniach odhaleniu odhalením
-24	5024	uzatvorený	uzatvorenej uzatvorenom uzatvorená uzatvorené uzatvorení uzatvorenú
-25	5025	nekúpiť	nekúpi nekúpia nekúpil nekúpila nekúpili nekúpim nekúpime nekúpite nekúpiš
-26	5026	odvolanie	odvolania odvolaniu odvolaním
-27	5027	neuvedomiť	neuvedomia neuvedomil neuvedomila neuvedomili neuvedomí neuvedomíme neuvedomíte neuvedomíš
-28	5028	naliať	nalej naleje nalejem nalejeme nalejete naleješ nalejme nalejte nalejú nalial naliala naliali
-29	5029	azda	
-30	5030	otvorene	otvorenejšie
-31	5031	utopiť	utop utopil utopila utopili utopilo utopte utopí utopím utopíme utopíte utopíš
-32	5032	očakávaný	očakávanom očakávaná očakávané očakávaného očakávaní očakávanú očakávaných očakávaným
-33	5033	rodák	rodáci rodáka rodákom rodákov
-34	5034	zniesť	znes znesie znesiem znesieme znesiete znesieš znesú zniesla zniesli zniesol
-35	5035	nazvaný	nazvanej nazvanom nazvaná nazvané nazvaného nazvanú nazvaným
-36	5036	tamojší	tamojšej tamojšia tamojšie tamojšieho tamojšiu tamojšom tamojších tamojším tamojšími
-37	5037	trojuholník	trojuholníka trojuholníkov trojuholníku trojuholníky
-38	5038	cieva	ciev cievach cievne cievny cievu cievy
-39	5039	bariéra	bariér bariéram bariérami bariére bariérou bariéru bariéry
-40	5040	koľaj	koľajach koľajami koľaje koľaji koľají
-41	5041	zákonník	zákonníka zákonníku
-42	5042	vlhkosť	vlhkosti vlhkosťou
-43	5043	rub	rube ruby
-44	5044	ideál	ideálmi ideáloch ideálom ideálov ideálu ideály
-45	5045	premiestniť	premiestni premiestnia premiestnil premiestnila premiestnili premiestnilo premiestnime premiestnite
-46	5046	unikať	unikajú unikal unikala unikali unikalo uniká unikáš
-47	5047	korenie	korenia korení korením
-48	5048	dovolať	dovolal dovolala dovolali dovolám dovoláš
-49	5049	kút	kúta kúte
-50	5050	prístupový	prístupovej prístupová prístupové prístupového prístupovú prístupových prístupovým
-51	5051	narodeninový	narodeninovej narodeninovom narodeninovou narodeninová narodeninové narodeninového narodeninovú narodeninových
-52	5052	formovať	formoval formovala formovali formuje formujem formujú
-53	5053	tajnosť	tajnosti tajností tajnosťami
-54	5054	maternica	maternice maternici maternicou maternicu
-55	5055	rozrušený	rozrušená rozrušené rozrušeného rozrušení rozrušenú
-56	5056	parlamentný	parlamentnej parlamentná parlamentné parlamentného parlamentných parlamentnými
-57	5057	misa	mise misou misu misy mís
-58	5058	helikoptéra	helikoptér helikoptérach helikoptérami helikoptére helikoptérou helikoptéru helikoptéry
-59	5059	perla	periel perlami perle perlička perličku perlou perlové perlový perlu perly perlách perál
-60	5060	škôlka	škôlke škôlku škôlky
-61	5061	zriadiť	zriadi zriadia zriadil zriadila zriadili zriadilo zriadime zriadite
-62	5062	chýbajúci	chýbajúca chýbajúce chýbajúceho chýbajúcej chýbajúcemu chýbajúcich chýbajúcim chýbajúcimi chýbajúcom chýbajúcu
-63	5063	dôležitosť	dôležitosti dôležitosťou
-64	5064	zákrok	zákrokom zákrokov zákroku zákroky
-65	5065	prietok	prietokom prietoku
-66	5066	kurací	kuracej kuracia kuracie kuracieho kuraciu kuracom kuracou kuracích kuracím kuracími
-67	5067	netvor	netvora netvori netvormi netvorom netvorov netvorovi netvory
-68	5068	nehnevať	nehnevaj nehnevajte nehneval nehnevala nehnevá nehnevám nehneváme nehneváte nehneváš
-69	5069	moderátor	moderátora moderátori moderátorom moderátorov
-70	5070	objektív	objektívom objektívov objektívu objektívy
-71	5071	stádo	stád stáda stádach stáde stádom stádu
-72	5072	naplnený	naplnenej naplnená naplnené naplneného naplnení naplnenú naplnených
-73	5073	vykazovať	vykazoval vykazovali vykazovalo vykazuje vykazuješ vykazujú
-74	5074	východisko	východiska východiskom východiská východísk
-75	5075	naozajstný	naozajstnej naozajstnom naozajstnou naozajstná naozajstné naozajstného naozajstnému naozajstní naozajstnú naozajstných naozajstným naozajstnými
-76	5076	opatrovateľka	opatrovateliek opatrovateľke opatrovateľkou opatrovateľku opatrovateľky opatrovateľkách
-77	5077	prichádzajúci	prichádzajúca prichádzajúce prichádzajúceho prichádzajúcej prichádzajúcich prichádzajúcim prichádzajúcimi prichádzajúcom prichádzajúcou prichádzajúcu
-78	5078	kontrakt	kontrakte kontraktom kontraktov kontraktu kontrakty
-79	5079	podviesť	podvedie podvediem podvediete podvedieš podvedú podviedla podviedli podviedlo podviedol
-80	5080	zombi	zombia zombiami zombie
-81	5081	vynájsť	vynašiel vynašla vynašli vynájde vynájdeme vynájdi vynájdu
-82	5082	propagácia	propagácie propagácii propagáciou propagáciu
-83	5083	dedič	dediča dediči dedičia dedičmi dedičom dedičov dedičovi
-84	5084	obvyklý	obvyklej obvyklom obvyklá obvyklé obvyklého obvyklú obvyklých obvyklým obvyklými
-85	5085	drink	drinkami drinkoch drinkom drinkov drinku drinky
-86	5086	rozpadnúť	rozpadla rozpadli rozpadlo rozpadne rozpadneme rozpadnú rozpadol
-87	5087	pretekať	pretekajú pretekal pretekala pretekali pretekanie preteká pretekám pretekáte pretekáš
-88	5088	čí	čej čia čie čieho čiu čom čou čím
-89	5089	opovažovať	opovažuje opovažujem opovažujete opovažuješ opovažujú
-90	5090	vyspelý	vyspelej vyspelejšie vyspelejší vyspelo vyspelom vyspelá vyspelé vyspelého vyspelí vyspelú vyspelých vyspelým
-91	5091	životnosť	životnosti životnosťou
-92	5092	mreža	mrežami mreže mrežiam mrežu mreží
-93	5093	objavený	objavenej objavená objavené objaveného objavení objavených
-94	5094	ručne	
-95	5095	prestavba	prestavbe prestavbou prestavbu prestavby
-96	5096	príslušnosť	príslušnosti
-97	5097	menovaný	menovaná menované menovaného menovaní menovaných
-98	5098	výzor	výzore výzorom výzoru výzory
-99	5099	ateliér	ateliéri ateliérov ateliéru ateliéry
-100	5100	dobrovoľný	dobrovoľnej dobrovoľná dobrovoľné dobrovoľného dobrovoľnú dobrovoľných dobrovoľným
+1	5001	opatrovateľka	opatrovateliek opatrovateľke opatrovateľkou opatrovateľku opatrovateľky opatrovateľkách
+2	5002	zákrok	zákrokom zákrokov zákroku zákroky
+3	5003	čí	čej čia čie čieho čiu čou
+4	5004	naozajstný	naozajstnej naozajstnom naozajstnou naozajstná naozajstné naozajstného naozajstnému naozajstní naozajstnú naozajstných naozajstným naozajstnými
+5	5005	pretekať	nepretekal nepreteká pretekajú pretekal pretekala pretekali pretekanie preteká pretekám pretekáte pretekáš
+6	5006	maternica	maternice maternici maternicou maternicu
+7	5007	formovať	formoval formovala formovali formuje formujem formujú
+8	5008	drink	drinkami drinkoch drinkom drinkov drinku drinky
+9	5009	zombi	zombia zombiami zombie
+10	5010	klopať	klop klopal klopala klopali klope klopem klopeme klopete klopeš klopú neklop neklopal neklope neklopeš
+11	5011	zriadiť	zriadi zriadia zriadil zriadila zriadili zriadilo zriadime zriadite
+12	5012	naplnený	naplnenej naplnená naplnené naplneného naplnení naplnenú naplnených
+13	5013	moderátor	moderátora moderátori moderátorom moderátorov
+14	5014	dôležitosť	dôležitosti dôležitosťou
+15	5015	prichádzajúci	prichádzajúca prichádzajúce prichádzajúceho prichádzajúcej prichádzajúcich prichádzajúcim prichádzajúcimi prichádzajúcom prichádzajúcou prichádzajúcu
+16	5016	zapadať	nezapadajú nezapadal nezapadá nezapadám nezapadáme nezapadáte nezapadáš zapadajú zapadal zapadali zapadalo zapadá zapadám zapadáme zapadáš
+17	5017	parlamentný	parlamentnej parlamentná parlamentné parlamentného parlamentných parlamentnými
+18	5018	kontrakt	kontrakte kontraktom kontraktov kontraktu kontrakty
+19	5019	fuk	fuka
+20	5020	kašlať	kašlal kašlanie kašle kašlem kašleme kašlete kašleš kašli kašlime kašlite kašlú nekašli
+21	5021	mreža	mrežami mreže mrežiam mrežu mreží
+22	5022	objektív	objektívom objektívov objektívu objektívy
+23	5023	chváliť	chváli chvália chválil chválila chválili chválim chválime chválite chváliš chváľ chváľme chváľte nechváli nechválil nechválim nechváľ
+24	5024	prietok	prietokom prietoku
+25	5025	mizerný	mizernej mizernom mizernou mizerná mizerné mizerného mizernému mizerní mizernú mizerných mizerným mizernými
+26	5026	uspokojiť	neuspokojil neuspokojilo neuspokojí uspokoj uspokoja uspokojil uspokojila uspokojili uspokojilo uspokojí uspokojím uspokojíme uspokojíš
+27	5027	dedič	dediča dediči dedičia dedičmi dedičom dedičov dedičovi
+28	5028	východisko	východiska východiskom východiská východísk
+29	5029	obvyklý	obvyklej obvyklom obvyklá obvyklé obvyklého obvyklú obvyklých obvyklým obvyklými
+30	5030	mrcha	mrchami mrche mrchou mrchu mrchy mŕch
+31	5031	wendy	
+32	5032	bezvedomie	bezvedomia bezvedomí
+33	5033	vykopnúť	nevykopla nevykopli nevykopnú nevykopol vykopla vykopli vykopne vykopnem vykopneme vykopnete vykopneš vykopni vykopnite vykopnú vykopol
+34	5034	výzor	výzore výzorom výzoru výzory
+35	5035	pohádať	nepohádal nepohádali poháda pohádajú pohádal pohádala pohádali pohádame pohádate
+36	5036	vytrhnúť	nevytrhne vytrhla vytrhli vytrhlo vytrhne vytrhnem vytrhneme vytrhnete vytrhneš vytrhni vytrhnite vytrhnú vytrhol
+37	5037	bratstvo	bratstiev bratstva bratstve bratstvom bratstvu bratstvá
+38	5038	vyspelý	vyspelej vyspelejšie vyspelejší vyspelo vyspelom vyspelá vyspelé vyspelého vyspelí vyspelú vyspelých vyspelým
+39	5039	namaľovať	namaľoval namaľovala namaľovali namaľuj namaľuje namaľujem namaľujeme namaľujete namaľuješ namaľujte nenamaľoval
+40	5040	ručne	
+41	5041	objavený	objavenej objavená objavené objaveného objavení objavených
+42	5042	iskra	iskier iskierka iskierku iskrami iskre iskrička iskričku iskričky iskrou iskru iskry
+43	5043	propagácia	propagácie propagácii propagáciou propagáciu
+44	5044	letový	letovej letovom letová letové letového letovú letových letovým
+45	5045	odpojiť	neodpojili odpoj odpoja odpojil odpojila odpojili odpojilo odpojte odpojí odpojím odpojíme odpojíte
+46	5046	obhajovať	neobhajuj neobhajujem obhajoval obhajovala obhajovali obhajuj obhajuje obhajujem obhajujeme obhajujete obhajuješ obhajujte obhajujú
+47	5047	zapliesť	nezapletiem nezapletieš nezapleť nezapleťte nezapliesť nezaplietla nezaplietli nezaplietol zapletie zapletiem zapletiete zapletieš zapletú zaplietla zaplietli zaplietlo zaplietol
+48	5048	vzrušenie	vzrušenia vzrušeniu vzrušením
+49	5049	zvolať	nezvolal zvolaj zvolajte zvolajú zvolal zvolala zvolali zvolá zvolám zvoláme zvoláš
+50	5050	štvať	neštvalo neštve neštvi neštvite štval štvala štvali štvalo štve štvem štvete štveš štvú
+51	5051	panstvo	panstva panstve panstvu
+52	5052	vyšetrovaný	vyšetrovaná vyšetrované vyšetrovaní
+53	5053	psychopat	psychopata psychopati psychopatickej psychopatická psychopatické psychopatického psychopatický psychopatických psychopatickým psychopatickými psychopatka psychopatkou psychopatku psychopatky psychopatmi psychopatoch psychopatom psychopatov psychopatovi
+54	5054	životnosť	životnosti životnosťou
+55	5055	ateliér	ateliéri ateliérov ateliéru ateliéry
+56	5056	menovaný	menovaná menované menovaného menovaní menovaných
+57	5057	prestavba	prestavbe prestavbou prestavbu prestavby
+58	5058	dobrovoľný	dobrovoľnej dobrovoľná dobrovoľné dobrovoľného dobrovoľnú dobrovoľných dobrovoľným
+59	5059	čerpať	čerpajú čerpal čerpala čerpali čerpá čerpám čerpáme čerpáte čerpáš
+60	5060	sponzor	sponzora sponzori sponzormi sponzoroch sponzorom sponzorov sponzorovi
+61	5061	dostatočný	dostatočnom dostatočného dostatočných dostatočným
+62	5062	lord	lorda lordi lordom lordov lordovi
+63	5063	adoptovať	adoptoval adoptovala adoptovali adoptovanie adoptovaná adoptované adoptovaní adoptovaný adoptovaných adoptuje adoptujem adoptujeme adoptujete adoptuješ
+64	5064	naivný	naivná naivné naivného naivnému naivní naivnú naivných naivným
+65	5065	tropický	tropickej tropickom tropická tropické tropického tropickú tropických tropickým
+66	5066	chôdza	chôdze chôdzi chôdzou chôdzu
+67	5067	zaviazať	zaviazal zaviazala zaviazali zaviaž zaviažem zaviažeme zaviažeš zaviažte zaviažu
+68	5068	plošina	plošine plošinou plošinu plošiny plošinách plošín
+69	5069	nezávisle	
+70	5070	okrúhly	okrúhla okrúhle okrúhleho okrúhlej okrúhlu okrúhlych okrúhlym okrúhlymi
+71	5071	sopka	sopečného sopečný sopiek sopke sopkou sopku sopky
+72	5072	príslušnosť	príslušnosti
+73	5073	jeleň	jelene jelenej jelenie jelenieho jeleniu jelení jelením jeleňa jeleňom jeleňov jeleňovi
+74	5074	šialenec	šialenca šialencami šialenci šialencom šialencov šialencovi
+75	5075	leták	letákoch letákom letákov letáku letáky letáčik letáčiky
+76	5076	rozhodovanie	rozhodovania rozhodovaní rozhodovaním
+77	5077	elegantný	elegantnej elegantnejší elegantnom elegantnou elegantná elegantné elegantného elegantní elegantnú elegantných elegantným najelegantnejší
+78	5078	dlaň	dlane dlani dlaniach dlaní dlaňami dlaňou
+79	5079	melódia	melódie melódii melódiou melódiu melódií
+80	5080	zúfalo	
+81	5081	zvoniť	nezvonil nezvoní nezvoň zvonia zvonil zvonila zvonili zvonilo zvoní zvoním zvoníš zvoň zvoňte
+82	5082	zvažovať	nezvažoval nezvažovala nezvažovali nezvažuješ zvažoval zvažovala zvažovali zvažuje zvažujem zvažujeme zvažujete zvažuješ zvažujú zvažujúc
+83	5083	nájomné	nájomnom nájomného nájomnému
+84	5084	závidieť	nezávidel nezávidí nezávidím nezáviď závidel závidela závideli závidia závidí závidím závidíme závidíte závidíš
+85	5085	neter	netere neteri neterou neterí
+86	5086	nečakaný	nečakanej nečakanom nečakanou nečakaná nečakané nečakaného nečakanému nečakanú nečakaných nečakaným
+87	5087	vojvoda	vojvodkyne vojvodkyni vojvodkyňa vojvodkyňu vojvodom vojvodov vojvodova vojvodovi vojvodu
+88	5088	šedý	šedej šedou šedá šedé šedého šedí šedú šedých šedým
+89	5089	zaujímavo	najzaujímavejšie zaujímavejšie
+90	5090	uplatniť	uplatnil uplatnila uplatnili uplatní uplatním
+91	5091	šošovka	šošoviek šošovkami šošovke šošovkou šošovku šošovky
+92	5092	zber	zbere zberom zberu
+93	5093	dievčina	dievčine dievčinka dievčinou dievčinu dievčiny
+94	5094	vykonávaný	vykonávanej vykonávaná vykonávané vykonávaní vykonávaných
+95	5095	náskok	náskokom
+96	5096	nožnice	nožnicami nožníc
+97	5097	taktický	taktickej taktická taktické taktického taktickú taktických taktickým
+98	5098	somár	somára somáre somári somárik somárika somármi somárom somárov somárovi
+99	5099	ukladať	neukladám ukladajú ukladal ukladala ukladali ukladá ukladám ukladáme ukladáte ukladáš
+100	5100	chronický	chronickej chronickou chronicky chronická chronické chronického chronickú chronických chronickým chronickými

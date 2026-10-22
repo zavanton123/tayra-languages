@@ -1,100 +1,100 @@
-1	9701	cop	cope copom copy
-2	9702	poleva	poleve polevou polevu polevy
-3	9703	zaoblený	zaoblená zaoblené zaoblenými
-4	9704	neuškodiť	neuškodia neuškodil neuškodila neuškodilo neuškodí
-5	9705	nenormálne	
-6	9706	presila	presile presilou presilu
-7	9707	moderovať	moderoval moderovala moderuje moderujem
-8	9708	panenský	panenskej panenská panenské panenského panenskú panenských
-9	9709	rozhliadnuť	rozhliadla rozhliadne rozhliadnem rozhliadneme rozhliadnete rozhliadni rozhliadnite rozhliadol
-10	9710	nezaspať	nezaspal nezaspala nezaspali nezaspi nezaspia nezaspite nezaspí nezaspím nezaspíme nezaspíte nezaspíš
-11	9711	stelesnenie	stelesnením
-12	9712	prestíž	prestíže
-13	9713	prelomový	prelomovej prelomová prelomové prelomového prelomových prelomovým
-14	9714	škaredo	
-15	9715	osmička	osmičke osmičkou osmičku osmičky
-16	9716	osamotený	osamotená osamotené osamoteného osamotení osamotenú osamotených
-17	9717	skalnatý	skalnatej skalnatom skalnaté skalnatých
-18	9718	zoom	zoomom
-19	9719	urýchlene	
-20	9720	dejisko	dejiskom
-21	9721	roztlieskavačka	roztlieskavačiek roztlieskavačke roztlieskavačkou roztlieskavačku roztlieskavačky
-22	9722	limonáda	limonádou limonádu limonády
-23	9723	kontinuita	kontinuitu kontinuity
-24	9724	severozápad	severozápade severozápadu
-25	9725	samuraj	samuraja samurajmi samurajom samurajov samurajovi samurajovia samurajské samurajský samurajským
-26	9726	trúbka	trúbkach trúbke trúbku trúbky
-27	9727	zákonitosť	zákonitosti zákonitostí
-28	9728	povojnový	povojnovej povojnovom povojnová povojnové povojnového povojnových
-29	9729	punč	punči punčom punču
-30	9730	bláznivo	bláznivejšie najbláznivejšie
-31	9731	obedovať	obedoval obedovala obedovali obeduje obedujem obedujeme obedujete obeduješ obedujú
-32	9732	predvídateľný	predvídateľná predvídateľné predvídateľní predvídateľným
-33	9733	oporný	oporné oporných
-34	9734	žezlo	žezla žezlom žezlá
-35	9735	nevyužiť	nevyužije nevyužijem nevyužijeme nevyužijete nevyužiješ nevyužijú nevyužil nevyužila nevyužili
-36	9736	nedostatočne	
-37	9737	zmýšľanie	zmýšľania zmýšľaní zmýšľaním
-38	9738	uzlina	uzlinu uzliny uzlín
-39	9739	fakultný	fakultnej fakultná
-40	9740	pohyblivosť	pohyblivosti pohyblivosťou
-41	9741	abstraktný	abstraktné abstraktného abstraktných
-42	9742	odlúčenie	odlúčenia odlúčeniu odlúčením
-43	9743	staromódny	staromódna staromódneho staromódnej staromódni staromódnu staromódnych staromódnym
-44	9744	podtitul	podtitulom
-45	9745	dostavba	dostavbe dostavbu dostavby
-46	9746	ponaučenie	ponaučenia ponaučením
-47	9747	prezrádzať	prezrádza prezrádzajú prezrádzal prezrádzam prezrádzaš
-48	9748	štrk	štrková štrku
-49	9749	vrh	vrhu
-50	9750	záznamník	záznamníka záznamníkom záznamníku záznamníky
-51	9751	svrbieť	svrbel svrbelo svrbia svrbí
-52	9752	obohatený	obohatená obohatené obohateného
-53	9753	kolízia	kolízie kolízii kolíziu
-54	9754	družina	družine družinou družinu družiny
-55	9755	komando	komanda komande komandom komandu
-56	9756	prevýšenie	prevýšením
-57	9757	dorast	dorastu
-58	9758	zajazdiť	zajazdi zajazdil zajazdím zajazdíme
-59	9759	priečne	
-60	9760	čušať	čuš čušal čušte
-61	9761	opovážiť	opováž opováži opovážil opovážila opovážili opovážim opovážite opovážiš opovážte
-62	9762	téza	téz téze tézu tézy
-63	9763	miliardár	miliardára miliardári miliardárom miliardárov miliardárovi
-64	9764	odoberať	odoberajú odoberali odoberá odoberám
-65	9765	gemerský	gemerskej gemerská gemerské gemerského
-66	9766	skenovať	skenoval skenovala skenovali skenuj skenuje skenujem skenujeme skenujete skenujte skenujú
-67	9767	poetický	poetickej poetická poetické poetickú
-68	9768	usporadúvať	usporadúva usporadúvajú usporadúval usporadúvam usporadúvame usporadúvaš
-69	9769	oponent	oponenta oponenti oponentom oponentov oponentovi
-70	9770	pravopis	pravopise pravopisu
-71	9771	časovač	časovača časovače časovačom
-72	9772	plešatý	plešatá plešaté plešatého plešatí plešatú plešatých plešatým
-73	9773	vravievať	vravieva vravieval vravievala vravievali vravievam vravievaš
-74	9774	vbehnúť	vbehla vbehli vbehlo vbehne vbehnem vbehneme vbehneš vbehnite vbehnú vbehol
-75	9775	zamietať	zamieta zamietam
-76	9776	nezdvihnúť	nezdvihla nezdvihli nezdvihne nezdvihnem nezdvihneme nezdvihnete nezdvihneš nezdvihnú nezdvihol
-77	9777	lemovaný	lemovanej lemovaná lemované
-78	9778	takpovediac	
-79	9779	nepoškvrnený	nepoškvrnenej nepoškvrnenom nepoškvrnená nepoškvrnené nepoškvrneného nepoškvrnení nepoškvrnenú nepoškvrnených
-80	9780	znemožniť	znemožnia znemožnil znemožnila znemožnili znemožnilo znemožní
-81	9781	zadržanie	zadržania zadržaním
-82	9782	osvedčiť	osvedčil osvedčila osvedčili osvedčilo osvedčí
-83	9783	uzávierka	uzávierke uzávierkou uzávierku uzávierky
-84	9784	zasnúbenie	zasnúbenia zasnúbeniu zasnúbením
-85	9785	štedrosť	štedrosti štedrosťou
-86	9786	nadávka	nadávkam nadávkami nadávku nadávky nadávok
-87	9787	stojan	stojana stojane stojanom stojanu stojany
-88	9788	elán	elánom elánu
-89	9789	nespustiť	nespusti nespustia nespustil nespustila nespustili nespustite nespustí nespustím nespustíme nespustíte nespustíš nespusť
-90	9790	čauko	
-91	9791	premenovať	premenoval premenovala premenovali
-92	9792	predkladať	predkladajú predkladá predkladám predkladáme
-93	9793	depresívne	
-94	9794	schod	schodami schode schodmi schodoch schodom schodov schodík schodíkoch
-95	9795	utierka	utierku utierky utierok
-96	9796	vyprážaný	vyprážaná vyprážané vyprážaného vyprážanú
-97	9797	blokáda	blokáde blokádou blokádu blokády
-98	9798	napospas	
-99	9799	vtom	
-100	9800	výkyv	výkyvom výkyvov výkyvy
+1	9701	agregát	agregátov agregáty
+2	9702	družica	družice družicu družíc
+3	9703	fascinovať	fascinoval fascinovala fascinovali fascinovalo fascinuje fascinujú
+4	9704	fauna	faunou faunu fauny
+5	9705	boby	boboch bobom bobov
+6	9706	ponechaný	ponechaná ponechané ponechaní
+7	9707	baníctvo	baníctva
+8	9708	zrekonštruovať	zrekonštruoval zrekonštruovali
+9	9709	domovina	domovine domovinu domoviny
+10	9710	odpočúvať	neodpočúvajú odpočúva odpočúvajú odpočúval odpočúvala odpočúvali odpočúvame odpočúvate odpočúvaš
+11	9711	podlý	najpodlejší podlej podlejší podlá podlé podlého podlí podlú podlých podlým podlými
+12	9712	napodobniť	napodobni napodobnil napodobnili napodobní
+13	9713	mrakodrap	mrakodrape mrakodrapov mrakodrapu mrakodrapy
+14	9714	strašiak	strašiaci strašiaka strašiakom strašiakov strašiakovi
+15	9715	polica	polici policiach policou policu políc
+16	9716	nepekný	nepeknou nepekná nepekné nepeknú nepekných nepekným
+17	9717	vzbúriť	vzbúri vzbúria vzbúril vzbúrila vzbúrili vzbúrilo
+18	9718	násobný	násobné násobným
+19	9719	oštep	oštepmi oštepom oštepov oštepu oštepy
+20	9720	fašista	fašistami fašisti fašistka fašistom fašistov fašistu
+21	9721	ošípaná	ošípané ošípaných
+22	9722	pätica	pätice päticu
+23	9723	primitívne	
+24	9724	otvorenosť	otvorenosti
+25	9725	vrhať	nevrhá vrhajú vrhal vrhali vrhá vrhám vrháš
+26	9726	multifunkčný	multifunkčná multifunkčné
+27	9727	hrdinstvo	hrdinstva hrdinstve hrdinstvom hrdinstvu hrdinstvá
+28	9728	dôstojný	dôstojná dôstojné dôstojného dôstojní dôstojnú dôstojným
+29	9729	vybaliť	nevybalila vybalil vybalila vybalili vybalím vybalíme vybalíš vybaľ vybaľte
+30	9730	revať	nerev nerevem reval revala revali revalo revem revete reveš revú
+31	9731	vtipkovať	nevtipkuj nevtipkujem nevtipkujte vtipkoval vtipkovala vtipkovali vtipkuj vtipkuje vtipkujem vtipkujete vtipkuješ vtipkujú
+32	9732	zadusiť	nezadus nezadusil nezadusí zadus zadusia zadusil zadusila zadusili zaduste zadusí zadusím zadusíme zadusíte zadusíš
+33	9733	silueta	siluetu siluety
+34	9734	biliard	biliarde biliardom biliardu
+35	9735	palcový	palcová palcové palcovú
+36	9736	molekulárny	molekulárna molekulárne molekulárneho molekulárnej molekulárnu molekulárnych
+37	9737	prastarý	prastarej prastará prastaré prastarého prastarí prastarú prastarých
+38	9738	pochúťka	pochúťku pochúťky pochúťok
+39	9739	tlkot	tlkote tlkotom tlkotu
+40	9740	uprednostniť	uprednostnil uprednostnila uprednostnili uprednostní uprednostním uprednostníš
+41	9741	vystihovať	nevystihuje vystihuje vystihujú
+42	9742	krt	krta krtka krtko krtkom krtkovia krtov
+43	9743	povrávať	povráva povrávalo
+44	9744	vlajkový	vlajkovej vlajkovou vlajková vlajkovú
+45	9745	náklaďák	náklaďákom náklaďáku náklaďáky
+46	9746	jebnutý	jebnutej jebnutom jebnutá jebnuté jebnutého jebnutí jebnutú jebnutých
+47	9747	severozápadný	severozápadnej severozápadnom severozápadná
+48	9748	krstiť	krstil krstím pokrstil pokrstili pokrstiť pokrstíme
+49	9749	odôvodnenie	odôvodnením
+50	9750	zrýchlený	zrýchlenej zrýchlenom zrýchlená zrýchlené zrýchleného zrýchlenú
+51	9751	zakrytý	zakrytá zakryté zakrytú
+52	9752	týranie	týrania týraniu týraním
+53	9753	jednotlivo	
+54	9754	množiť	množia množili množte množí množíte
+55	9755	krajan	krajana krajania krajanmi krajanov
+56	9756	amoniak	amoniaku
+57	9757	zemina	zemine zeminou zeminu zeminy zemín
+58	9758	kalvária	kalvárie kalvárii
+59	9759	tlieskať	netlieskajte tlieska tlieskaj tlieskajte tlieskajú tlieskal tlieskala tlieskali tlieskam tlieskame tlieskate
+60	9760	rozptyľovať	nerozptyľoval nerozptyľuj nerozptyľuje rozptyľoval rozptyľovala rozptyľovali rozptyľovalo rozptyľuj rozptyľuje rozptyľuješ rozptyľujú
+61	9761	odvod	odvody
+62	9762	panička	paničiek paničke paničkou paničku paničky
+63	9763	nadšenkyňa	nadšencov nadšenec
+64	9764	kútik	kútika kútikom kútiku kútiky
+65	9765	ľalia	ľaliami ľalie ľalií
+66	9766	štvorročný	štvorročná štvorročné štvorročného štvorročnú
+67	9767	siemens	
+68	9768	muka	mukami muky mukách múk
+69	9769	nakladať	nakladaj nakladajte nakladajú nakladal nakladali nakladá nakladáme nakladáte nakladáš nenakladajte
+70	9770	publicita	publicite publicitou publicitu
+71	9771	neprípustný	neprípustná neprípustné
+72	9772	hviezdne	
+73	9773	chamtivý	chamtivá chamtivé chamtiví chamtivú chamtivých chamtivým
+74	9774	inštalatér	inštalatéra inštalatéri inštalatérom inštalatérov inštalatérovi
+75	9775	skloniť	neskloní neskloním sklonia sklonil sklonili skloní skloním skloníš skloň skloňme skloňte
+76	9776	popliesť	popletie popletiem popletieš popletú poplietla poplietli poplietlo poplietol
+77	9777	páter	pátrom
+78	9778	telekomunikácia	telekomunikácie telekomunikácií
+79	9779	chróm	chrómu
+80	9780	skomplikovať	skomplikoval skomplikovala skomplikovali skomplikovalo skomplikuje skomplikujú
+81	9781	určovanie	určovania
+82	9782	pekelne	
+83	9783	upevnenie	
+84	9784	vysnívaný	vysnívanej vysnívanom vysnívanou vysnívaná vysnívané vysnívaného vysnívanú
+85	9785	končina	končiny končinách končín
+86	9786	číhať	číha číhajú číhal číhalo číhaš
+87	9787	poklona	poklonu poklony
+88	9788	skrotiť	neskrotí skrotil skrotila skrotili skrotím skrotíš skroť
+89	9789	šľachetný	najšľachetnejšia šľachetná šľachetné šľachetného šľachetní šľachetným
+90	9790	pobaliť	pobalil pobalila pobalili pobalím pobalíme pobaľ pobaľte
+91	9791	vyhubiť	vyhubia vyhubil vyhubila vyhubili vyhubte vyhubí vyhubím vyhubíme
+92	9792	odviazať	odviazal odviazala odviazali odviaž odviaže odviažem odviažeš odviažte
+93	9793	vešať	nevešaj nevešajte vešajú vešal vešala vešali vešia vešiam vešiaš
+94	9794	dekoratívne	
+95	9795	uverejňovať	uverejňuje uverejňujú
+96	9796	vínny	vínna vínne vínneho vínnej vínnom vínnu vínnych
+97	9797	vierovyznanie	vierovyznania vierovyznaní
+98	9798	zbroj	zbroji
+99	9799	prebodnúť	prebodla prebodli prebodlo prebodne prebodnem prebodni prebodnú prebodol
+100	9800	stupňový	stupňovej stupňovom stupňovou stupňová stupňové stupňovým

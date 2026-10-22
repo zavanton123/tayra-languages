@@ -1,100 +1,100 @@
-1	5101	nezávisle	
-2	5102	čerpať	čerpajú čerpal čerpala čerpali čerpá čerpám čerpáme čerpáte čerpáš
-3	5103	panstvo	panstva panstve panstvu
-4	5104	bratstvo	bratstiev bratstva bratstve bratstvom bratstvu bratstvá
-5	5105	tropický	tropickej tropickom tropická tropické tropického tropickú tropických tropickým
-6	5106	letový	letovej letovom letová letové letového letovú letových letovým
-7	5107	iskra	iskier iskierka iskierku iskrami iskre iskrička iskričku iskričky iskrou iskru iskry
-8	5108	dostatočný	dostatočnom dostatočného dostatočných dostatočným
-9	5109	neprítomnosť	neprítomnosti neprítomnosťou
-10	5110	fuk	fuka
-11	5111	odprevadiť	odprevadia odprevadil odprevadila odprevadili odprevadí odprevadím odprevadíme odprevadíte odprevadíš odprevaď odprevaďte
-12	5112	okrúhly	okrúhla okrúhle okrúhleho okrúhlej okrúhlu okrúhlych okrúhlym okrúhlymi
-13	5113	rozhodovanie	rozhodovania rozhodovaní rozhodovaním
-14	5114	plošina	plošine plošinou plošinu plošiny plošinách plošín
-15	5115	bezvedomie	bezvedomia bezvedomí
-16	5116	vzrušenie	vzrušenia vzrušeniu vzrušením
-17	5117	porovnávať	porovnáva porovnávajú porovnával porovnávali porovnávam porovnávame porovnávate porovnávaš
-18	5118	sponzor	sponzora sponzori sponzormi sponzoroch sponzorom sponzorov sponzorovi
-19	5119	chôdza	chôdze chôdzi chôdzou chôdzu
-20	5120	wendy	
-21	5121	zaviazať	zaviazal zaviazala zaviazali zaviaž zaviažem zaviažeme zaviažeš zaviažte zaviažu
-22	5122	uplatniť	uplatnil uplatnila uplatnili uplatní uplatním
-23	5123	mrcha	mrchami mrche mrchou mrchu mrchy mŕch
-24	5124	mizerný	mizernej mizernom mizernou mizerná mizerné mizerného mizernému mizerní mizernú mizerných mizerným mizernými
-25	5125	míňať	míňa míňajú míňal míňala míňali míňam míňame míňate míňaš
-26	5126	melódia	melódie melódii melódiou melódiu melódií
-27	5127	sopka	sopečného sopečný sopiek sopke sopkou sopku sopky
-28	5128	vykonávaný	vykonávanej vykonávaná vykonávané vykonávaní vykonávaných
-29	5129	nenútiť	nenúti nenútia nenútil nenútila nenútili nenútim nenútime nenúť nenúťte
-30	5130	lord	lorda lordi lordom lordov lordovi
-31	5131	vyšetrovaný	vyšetrovaná vyšetrované vyšetrovaní
-32	5132	leták	letákoch letákom letákov letáku letáky letáčik letáčiky
-33	5133	dlaň	dlane dlani dlaniach dlaní dlaňami dlaňou
-34	5134	zber	zbere zberom zberu
-35	5135	naivný	naivná naivné naivného naivnému naivní naivnú naivných naivným
-36	5136	šošovka	šošoviek šošovkami šošovke šošovkou šošovku šošovky
-37	5137	zatancovať	zatancoval zatancovala zatancovali zatancuj zatancuje zatancujem zatancujeme zatancujete zatancuješ zatancujme zatancujte zatancujú
-38	5138	jeleň	jelene jelenej jelenie jelenieho jeleniu jelení jelením jeleňa jeleňom jeleňov jeleňovi
-39	5139	elegantný	elegantnej elegantnejší elegantnom elegantnou elegantná elegantné elegantného elegantní elegantnú elegantných elegantným najelegantnejší
-40	5140	nájomné	nájomnom nájomného nájomnému
-41	5141	odpojiť	odpoj odpoja odpojil odpojila odpojili odpojilo odpojte odpojí odpojím odpojíme odpojíte
-42	5142	prehnať	prehnal prehnala prehnali prehnalo preženie preženiem preženieme preženieš preženú
-43	5143	namaľovať	namaľoval namaľovala namaľovali namaľuj namaľuje namaľujem namaľujeme namaľujete namaľuješ namaľujte
-44	5144	adoptovať	adoptoval adoptovala adoptovali adoptovanie adoptovaná adoptované adoptovaní adoptovaný adoptovaných adoptuje adoptujem adoptujeme adoptujete adoptuješ
-45	5145	prehliadnuť	prehliadla prehliadli prehliadne prehliadnem prehliadneme prehliadneš prehliadni prehliadnite prehliadnu prehliadol
-46	5146	chronický	chronickej chronickou chronicky chronická chronické chronického chronickú chronických chronickým chronickými
-47	5147	psychopat	psychopata psychopati psychopatickej psychopatická psychopatické psychopatického psychopatický psychopatických psychopatickým psychopatickými psychopatka psychopatkou psychopatku psychopatky psychopatmi psychopatoch psychopatom psychopatov psychopatovi
-48	5148	zaujímavo	najzaujímavejšie zaujímavejšie
-49	5149	zvolať	zvolaj zvolajte zvolajú zvolal zvolala zvolali zvolá zvolám zvoláme zvoláš
-50	5150	nehľadať	nehľadaj nehľadajte nehľadajú nehľadal nehľadala nehľadali nehľadá nehľadám nehľadáme nehľadáte nehľadáš
-51	5151	šedý	šedej šedou šedá šedé šedého šedí šedú šedých šedým
-52	5152	nečakaný	nečakanej nečakanom nečakanou nečakaná nečakané nečakaného nečakanému nečakanú nečakaných nečakaným
-53	5153	kašlať	kašlal kašlanie kašle kašlem kašleme kašlete kašleš kašli kašlime kašlite kašlú
-54	5154	vytrhnúť	vytrhla vytrhli vytrhlo vytrhne vytrhnem vytrhneme vytrhnete vytrhneš vytrhni vytrhnite vytrhnú vytrhol
-55	5155	vystriedať	vystrieda vystriedaj vystriedajte vystriedal vystriedala vystriedali vystriedalo vystriedam
-56	5156	vojvoda	vojvodkyne vojvodkyni vojvodkyňa vojvodkyňu vojvodom vojvodov vojvodova vojvodovi vojvodu
-57	5157	zúfalo	
-58	5158	náskok	náskokom
-59	5159	taktický	taktickej taktická taktické taktického taktickú taktických taktickým
-60	5160	liečivo	liečiv liečiva liečivami liečivá
-61	5161	dievčina	dievčine dievčinka dievčinou dievčinu dievčiny
-62	5162	nožnice	nožnicami nožníc
-63	5163	formálne	
-64	5164	nebývať	nebýva nebývajú nebýval nebývala nebývali nebývalo nebývam nebývame nebývate nebývaš
-65	5165	spred	
-66	5166	univerzálny	univerzálna univerzálneho univerzálnej univerzálnu univerzálnych univerzálnym
-67	5167	neter	netere neteri neterou neterí
-68	5168	výživa	výžive výživou výživu výživy
-69	5169	ukladať	ukladajú ukladal ukladala ukladali ukladá ukladám ukladáme ukladáte ukladáš
-70	5170	testovací	testovacej testovacia testovacie testovacieho testovaciu testovacích testovacím
-71	5171	šialenec	šialenca šialencami šialenci šialencom šialencov šialencovi
-72	5172	pútnik	pútnici pútnické pútnický pútnika pútnikmi pútnikom pútnikov pútnikovi pútnička
-73	5173	reprezentačný	reprezentačnej reprezentačnom reprezentačné reprezentačného reprezentačných reprezentačným
-74	5174	papierový	papierovej papierovom papierová papierové papierového papierovú papierových papierovým papierovými
-75	5175	vyštudovať	vyštudoval vyštudovala vyštudovali
-76	5176	súťažiaci	súťažiaceho súťažiacich súťažiacim súťažiacimi
-77	5177	finálový	finálovej finálovom finálová finálové finálového finálovú finálových
-78	5178	dôstojnosť	dôstojnosti dôstojnosťou
-79	5179	zobraziť	zobraz zobrazia zobrazil zobrazili zobrazte zobrazí
-80	5180	posol	posla poslami posli poslom poslov poslovi poslovia
-81	5181	ustanovený	ustanovená ustanovené ustanovených
-82	5182	nepohnúť	nepohla nepohli nepohlo nepohne nepohnem nepohneme nepohnete nepohneš nepohnú nepohol
-83	5183	záťaž	záťaže záťaži záťažou
-84	5184	nutnosť	nutnosti nutnosťou
-85	5185	zatiahnuť	zatiahla zatiahli zatiahne zatiahnem zatiahneme zatiahnete zatiahneš zatiahni zatiahnite zatiahol
-86	5186	obhajovať	obhajoval obhajovala obhajovali obhajuj obhajuje obhajujem obhajujeme obhajujete obhajuješ obhajujte obhajujú
-87	5187	uplatnenie	uplatnenia uplatnením
-88	5188	karoséria	karosérie karosérii karosériou karosériu
-89	5189	nezískať	nezíska nezískajú nezískal nezískala nezískali nezískam nezískame nezískate nezískaš
-90	5190	argument	argumentmi argumentom argumentov argumentu argumenty
-91	5191	priaznivý	priaznivom priaznivá priaznivé priaznivého priaznivú priaznivých priaznivým
-92	5192	vylepšenie	vylepšenia vylepšeniami vylepšeniu vylepšení vylepšením
-93	5193	odkazovať	odkazoval odkazuje odkazujem odkazujú
-94	5194	rada	radou radách radám
-95	5195	bremeno	bremena bremenom bremená bremien bremä
-96	5196	očarujúci	očarujúca očarujúce očarujúceho očarujúcej očarujúcich očarujúcim očarujúcimi očarujúcou očarujúcu
-97	5197	trpezlivý	najtrpezlivejší trpezlivejší trpezlivá trpezlivé trpezlivého trpezliví trpezlivým
-98	5198	nemýliť	nemýli nemýlia nemýlil nemýlila nemýlili nemýlim nemýlime nemýlite nemýliš nemýľ nemýľte
-99	5199	exteriér	exteriéri exteriérom exteriéru exteriéry
-100	5200	chváliť	chváli chvália chválil chválila chválili chválim chválime chválite chváliš chváľ chváľme chváľte
+1	5101	formálne	
+2	5102	spred	
+3	5103	posol	posla poslami posli poslom poslov poslovi poslovia
+4	5104	trpezlivý	najtrpezlivejší trpezlivejší trpezlivá trpezlivé trpezlivého trpezliví trpezlivým
+5	5105	ujať	neujal neujme ujal ujala ujali ujalo ujmem ujmete ujmeš ujmi ujmite ujmú
+6	5106	kokaín	kokaíne kokaínom kokaínu
+7	5107	dôstojnosť	dôstojnosti dôstojnosťou
+8	5108	zdediť	nezdedia nezdedil nezdedila nezdedí nezdedím zdedia zdedil zdedila zdedili zdedí zdedím zdedíme zdedíte zdedíš
+9	5109	vystriedať	vystrieda vystriedaj vystriedajte vystriedal vystriedala vystriedali vystriedalo vystriedam
+10	5110	papierový	papierovej papierovom papierová papierové papierového papierovú papierových papierovým papierovými
+11	5111	splatiť	nesplatil nesplatí nesplatím nesplatíte nesplatíš splatia splatil splatila splatili splatí splatím splatíme splatíte splatíš splať
+12	5112	pútnik	pútnici pútnické pútnický pútnika pútnikmi pútnikom pútnikov pútnikovi pútnička
+13	5113	otáčať	neotáča neotáčaj neotáčajte neotáčame otáča otáčaj otáčajú otáčal otáčala otáčali otáčam otáčame otáčate otáčaš
+14	5114	očarujúci	očarujúca očarujúce očarujúceho očarujúcej očarujúcich očarujúcim očarujúcimi očarujúcou očarujúcu
+15	5115	bremeno	bremena bremenom bremená bremien bremä
+16	5116	testovací	testovacej testovacia testovacie testovacieho testovaciu testovacích testovacím
+17	5117	pokryť	nepokryje nepokryjú pokry pokryje pokryjem pokryjeme pokryjú pokryl pokryla pokryli pokrylo pokryte
+18	5118	liečivo	liečiv liečiva liečivami liečivá
+19	5119	univerzálny	univerzálna univerzálneho univerzálnej univerzálnu univerzálnych univerzálnym
+20	5120	slúžka	slúžkami slúžke slúžkou slúžku slúžky slúžok
+21	5121	výživa	výžive výživou výživu výživy
+22	5122	kamión	kamióna kamióne kamiónmi kamiónoch kamiónom kamiónov kamiónu kamióny
+23	5123	súťažiaci	súťažiaceho súťažiacich súťažiacim súťažiacimi
+24	5124	lenivý	lenivej lenivo lenivá lenivé lenivého leniví lenivú lenivých lenivým lenivými
+25	5125	potucha	potuchu potuchy potúch
+26	5126	záťaž	záťaže záťaži záťažou
+27	5127	argument	argumentmi argumentom argumentov argumentu argumenty
+28	5128	vyštudovať	vyštudoval vyštudovala vyštudovali
+29	5129	odkazovať	odkazoval odkazuje odkazujem odkazujú
+30	5130	plot	plota plote plotmi plotom plotov plotu ploty
+31	5131	zobraziť	zobraz zobrazia zobrazil zobrazili zobrazte zobrazí
+32	5132	vylepšenie	vylepšenia vylepšeniami vylepšeniu vylepšení vylepšením
+33	5133	hocijaký	hocijakej hocijakom hocijakou hocijaká hocijaké hocijakého hocijakému hocijakú hocijakých hocijakým hocijakými
+34	5134	zadať	nezadal zadaj zadajte zadal zadala zadali zadá zadám zadáme zadáte zadáš
+35	5135	finálový	finálovej finálovom finálová finálové finálového finálovú finálových
+36	5136	voľnosť	nevoľnosti nevoľnosť nevoľnosťou voľnosti
+37	5137	dezert	dezerte dezertom dezertov dezertu dezerty
+38	5138	nutnosť	nutnosti nutnosťou
+39	5139	reprezentačný	reprezentačnej reprezentačnom reprezentačné reprezentačného reprezentačných reprezentačným
+40	5140	rada	radou radách radám
+41	5141	pozorovateľ	pozorovatelia pozorovateľa pozorovateľmi pozorovateľom pozorovateľov pozorovateľovi
+42	5142	reklamný	reklamnej reklamnom reklamnou reklamná reklamné reklamného reklamní reklamnú reklamných reklamným reklamnými
+43	5143	býk	býci býka býkmi býkoch býkom býkov býkovi býky
+44	5144	ustanovený	ustanovená ustanovené ustanovených
+45	5145	priaznivý	priaznivom priaznivá priaznivé priaznivého priaznivú priaznivých priaznivým
+46	5146	komiks	komikse komiksoch komiksom komiksov komiksu komiksy
+47	5147	diplomatický	diplomatickej diplomatickou diplomaticky diplomatická diplomatické diplomatického diplomatickú diplomatických
+48	5148	urýchliť	neurýchlime neurýchliš urýchli urýchlia urýchlil urýchlila urýchlili urýchlilo urýchlim urýchlime urýchlite
+49	5149	zásuvka	zásuviek zásuvkami zásuvke zásuvku zásuvky zásuvkách
+50	5150	uplatnenie	uplatnenia uplatnením
+51	5151	chirurgický	chirurgickej chirurgickom chirurgickou chirurgická chirurgické chirurgického chirurgickú chirurgických chirurgickým
+52	5152	karoséria	karosérie karosérii karosériou karosériu
+53	5153	exteriér	exteriéri exteriérom exteriéru exteriéry
+54	5154	maličký	maličkí maličkých maličkým maličkými
+55	5155	vyskočiť	nevyskočil nevyskočili nevyskočilo nevyskočí vyskočia vyskočili vyskočilo vyskočte vyskočí vyskočím vyskočíme vyskočíte vyskočíš
+56	5156	klaun	klauna klaunami klauni klaunmi klaunoch klaunom klaunov klaunovi
+57	5157	opiť	neopi neopijem neopil opi opije opijem opijeme opijete opiješ opijú opil opila opili opíja opíjal opíjala opíjali opíjam opíjaš opíjať
+58	5158	plechovka	plechoviek plechovkami plechovke plechovkou plechovku plechovky plechovkách
+59	5159	transformácia	transformácie transformácii transformáciou transformáciu
+60	5160	sieťový	sieťovej sieťová sieťové sieťového sieťovú sieťových
+61	5161	zozadu	
+62	5162	lacno	lacnejšie najlacnejšie
+63	5163	semifinále	
+64	5164	pohyblivý	pohyblivom pohyblivá pohyblivé pohyblivého pohyblivú pohyblivých pohyblivým pohyblivými
+65	5165	veronika	veronike veronikou veroniku veroniky
+66	5166	záložný	záložnej záložnom záložná záložné záložného záložnému záložnú záložných záložným
+67	5167	perspektíva	perspektív perspektíve perspektívny perspektívou perspektívu perspektívy
+68	5168	šialene	najšialenejšie šialenejšie
+69	5169	neúspech	neúspechom neúspechov neúspechu neúspechy
+70	5170	hlavica	hlavicami hlavice hlavici hlavicou hlavicu hlavíc
+71	5171	uzatvárať	neuzatvára uzatvára uzatvárajú uzatváral uzatvárali uzatváram uzatvárame uzatvárate uzatváraš
+72	5172	rozširovanie	rozširovania rozširovaniu rozširovaní rozširovaním
+73	5173	prilba	prilbami prilbe prilbou prilbu prilby prilbách prilieb
+74	5174	dneska	
+75	5175	imunitný	imunitnej imunitné imunitného imunitnému imunitnú imunitných imunitným
+76	5176	vlámať	nevlámal nevlámala nevlámali vlámal vlámala vlámali vláme vlámem vlámeme vlámete vlámeš vlámu
+77	5177	smernica	smernicami smernice smernici smerniciach smernicou smernicu smerníc
+78	5178	investor	investora investori investormi investorom investorov investorovi
+79	5179	uvoľnenie	uvoľnenia uvoľneniu uvoľnením
+80	5180	biblický	biblickej biblickom biblická biblické biblického biblickú biblických
+81	5181	kombinovaný	kombinovanej kombinovaná kombinované kombinovaným
+82	5182	dvojička	dvojičiek dvojičkami dvojičke dvojičku dvojičky dvojičkách dvojičkám
+83	5183	pokročilý	pokročilej pokročilejšie pokročilejší pokročilom pokročilou pokročilá pokročilé pokročilého pokročilí pokročilú pokročilých pokročilým pokročilými
+84	5184	predpokladaný	predpokladanej predpokladanom predpokladaná predpokladané predpokladaného predpokladaných predpokladaným
+85	5185	nadávať	nadáva nadávaj nadávajte nadávajú nadával nadávala nadávali nadávam nadávate nadávaš nenadáva nenadávaj nenadávajte nenadával nenadávala nenadávam nenadávaš
+86	5186	kravina	kravinami kravine kravinou kravinu kraviny kravinách kravinám
+87	5187	podpor	podpore
+88	5188	finančne	
+89	5189	úsvit	úsvite úsvitom úsvitu
+90	5190	nepriaznivý	nepriaznivej nepriaznivom nepriaznivé nepriaznivého nepriaznivému nepriaznivých nepriaznivým
+91	5191	zvedavosť	zvedavosti zvedavosťou
+92	5192	londýnsky	londýnska londýnske londýnskeho londýnskej londýnski londýnskom londýnskou londýnsku londýnskych londýnskym
+93	5193	žiara	žiari žiarou
+94	5194	textový	textovej textovom textová textové textového textovú textových
+95	5195	nahnevať	nahnevajú nahneval nahnevala nahnevali nahnevalo nahnevá nahnevám nahneváte nahneváš nenahnevaj nenahneval nenahnevala nenahnevá nenahnevám nenahneváte nenahneváš
+96	5196	mučenie	mučenia mučeniu mučení mučením
+97	5197	uľahčiť	neuľahčil neuľahčí neuľahčím neuľahčíš uľahči uľahčia uľahčil uľahčila uľahčili uľahčilo uľahčí uľahčím uľahčíme uľahčíte uľahčíš
+98	5198	vhodne	najvhodnejšie vhodnejšie
+99	5199	zdolať	nezdolal zdolaj zdolal zdolala zdolali zdolá zdolám zdoláme
+100	5200	jedovatý	jedovatej jedovatou jedovatá jedovaté jedovatého jedovatú jedovatých jedovatým jedovatými

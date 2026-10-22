@@ -1,100 +1,100 @@
-1	8401	antikoncepcia	antikoncepcie antikoncepcii antikoncepciou antikoncepciu
-2	8402	verne	
-3	8403	merací	meracie meracích
-4	8404	astronómia	astronomické astronomický astronómie astronómii astronómiu
-5	8405	zapaľovač	zapaľovača zapaľovače zapaľovači zapaľovačom
-6	8406	roj	roja roje roji rojom roju
-7	8407	psychiatria	psychiatrie psychiatrii psychiatriu psychiatrií
-8	8408	zaplávať	zaplávaj zaplával zaplávali zaplávam zaplávame zaplávaš
-9	8409	papuča	papučami papuče papučiach papučou papuču papúč
-10	8410	šibnutý	šibnutej šibnutou šibnutá šibnuté šibnutého šibnutí šibnutú šibnutých
-11	8411	beznádejný	beznádejnej beznádejná beznádejné beznádejného beznádejní beznádejnú beznádejných
-12	8412	hodne	
-13	8413	zvláštnosť	zvláštnosti zvláštností zvláštnosťou
-14	8414	finalista	finalistami finalisti finalistom finalistov
-15	8415	turbína	turbín turbíne turbínu turbíny
-16	8416	obsluhovať	obsluhoval obsluhovala obsluhovali obsluhuj obsluhuje obsluhujem obsluhuješ obsluhujú
-17	8417	napĺňať	napĺňa napĺňajú napĺňal napĺňala napĺňali napĺňalo napĺňam napĺňaš
-18	8418	predpísaný	predpísanej predpísaná predpísané predpísaných
-19	8419	nespadnúť	nespadla nespadli nespadlo nespadne nespadnem nespadneme nespadneš nespadni nespadnite nespadnú nespadol
-20	8420	odborový	odborovej odborová odborové odborového odborových
-21	8421	poistný	poistnej poistná poistnú poistných poistným
-22	8422	natrafiť	natrafil natrafila natrafili natrafí natrafím natrafíme natrafíte natrafíš
-23	8423	vyhrážka	vyhrážkach vyhrážkam vyhrážkami vyhrážkou vyhrážku vyhrážky vyhrážok
-24	8424	normalizácia	normalizácie normalizáciu
-25	8425	zasran	zasrana zasrani zasranmi zasranom zasranov zasranovi
-26	8426	komplic	komplica komplici komplicmi komplicom komplicov komplicovi
-27	8427	mŕtvica	mŕtvic mŕtvice mŕtvici mŕtvicu
-28	8428	lokalizovať	lokalizoval lokalizovala lokalizovali lokalizuj lokalizuje lokalizujem lokalizujeme lokalizujte
-29	8429	konzervatórium	konzervatória konzervatóriu
-30	8430	barbar	barbari barbarmi barbarom barbarov
-31	8431	ucelený	ucelená ucelené ucelenú
-32	8432	nájomník	nájomníci nájomníka nájomníkmi nájomníkom nájomníkov nájomníkovi
-33	8433	krpec	krpca krpcami krpci krpcom krpcov krpcovi
-34	8434	nevyhodiť	nevyhodia nevyhodil nevyhodila nevyhodili nevyhodí nevyhodím nevyhodíme nevyhodíte nevyhodíš nevyhoď nevyhoďte
-35	8435	hojne	
-36	8436	prisťahovať	prisťahoval prisťahovala prisťahovali prisťahuje
-37	8437	vtiahnuť	vtiahla vtiahli vtiahlo vtiahne vtiahneš vtiahni vtiahnite vtiahnu vtiahol
-38	8438	efektivita	efektivitou efektivitu efektivity
-39	8439	vymedzenie	vymedzenia
-40	8440	tematický	tematické tematických
-41	8441	črevný	črevnej črevná črevné črevnú črevných
-42	8442	prekonanie	prekonania prekonaniu prekonaní
-43	8443	mocnosť	mocnosti mocností mocnosťami mocnosťou
-44	8444	rozložiť	rozlož rozložia rozložil rozložila rozložili rozložte rozloží rozložím rozložíme
-45	8445	lem	lemom lemy
-46	8446	účtovať	účtoval účtovala účtovali účtuje účtujem účtujeme účtujete účtuješ účtujú
-47	8447	lom	lome lomu
-48	8448	odvážiť	odváž odváži odvážia odvážil odvážila odvážili odvážim odvážime odvážite odvážiš
-49	8449	nechuť	nechuti nechutí
-50	8450	fučať	fuč fučí fučíš
-51	8451	zips	zipsom zipsu zipsy
-52	8452	veverica	veverice vevericu veveričie veverička veveričky
-53	8453	vzlietnuť	vzlietla vzlietli vzlietlo vzlietne vzlietnem vzlietneme vzlietneš vzlietni vzlietnite vzlietnu vzlietol
-54	8454	usadlosť	usadlosti usadlostí
-55	8455	neveriaci	neveriaca neveriaceho neveriacich neveriacim neveriacimi
-56	8456	relikvia	relikvie relikviu relikvií
-57	8457	oslabenie	oslabenia oslabeniu
-58	8458	pierko	pierka pierkami pierkom pierok
-59	8459	skurvenec	skurvenca skurvencami skurvenci skurvencom skurvencov
-60	8460	obrať	oberie oberiem oberieme oberú obral obrala obrali
-61	8461	nafta	nafte naftou naftu nafty
-62	8462	vychutnávať	vychutnáva vychutnávaj vychutnávajte vychutnávajú vychutnával vychutnávala vychutnávali vychutnávam vychutnávame vychutnávate vychutnávaš
-63	8463	zacítiť	zacíti zacítia zacítil zacítila zacítili zacítim zacítime zacítite zacítiš
-64	8464	slama	slame slamou slamu slamy
-65	8465	hriešnik	hriešnika hriešnikmi hriešnikoch hriešnikom hriešnikov hriešnikovi
-66	8466	plantáž	plantážach plantáže plantáži plantáží
-67	8467	rozmiestnený	rozmiestnené rozmiestnení rozmiestnených
-68	8468	zinok	zinku
-69	8469	guľomet	guľometné guľometom guľometov guľometu guľomety
-70	8470	nesprávať	nespráva nesprávaj nesprávajte nesprávajú nesprával nesprávala nesprávali nesprávam nesprávame nesprávate nesprávaš
-71	8471	dlážka	dlážke dlážkou dlážku dlážky
-72	8472	nevedomosť	nevedomosti nevedomosťou
-73	8473	prívrženec	prívržencami prívrženci prívržencom prívržencov
-74	8474	zbúrať	zbúra zbúraj zbúrajte zbúrajú zbúral zbúrala zbúrali zbúram zbúrame
-75	8475	štandardne	
-76	8476	vlčí	vlčej vlčia vlčie vlčieho vlčiu vlčom vlčou vlčích vlčím vlčími
-77	8477	kaderník	kaderníka kaderníkom kaderníkov kaderníkovi kaderníčka kaderníčke kaderníčkou kaderníčku kaderníčky
-78	8478	odolávať	odoláva odolávajú odolával odolávala odolávali odolávame odolávaš
-79	8479	míting	mítingoch mítingom mítingov mítingu mítingy
-80	8480	rozlúštiť	rozlúšti rozlúštil rozlúštila rozlúštili rozlúštim rozlúštime rozlúštite rozlúštiš
-81	8481	umierajúci	umierajúca umierajúce umierajúceho umierajúcej umierajúcemu umierajúcich umierajúcim umierajúcimi umierajúcom umierajúcou umierajúcu
-82	8482	zosilňovač	zosilňovača zosilňovače zosilňovačov
-83	8483	bistro	bistra bistre
-84	8484	amnestia	amnestie amnestii amnestiu amnestií
-85	8485	výbušný	výbušnej výbušná výbušné výbušného výbušnú výbušných výbušným výbušnými
-86	8486	plavec	plavca plavcami plavci plavcom plavcov
-87	8487	slina	slinami slinu sliny slinách slín
-88	8488	vestibul	vestibule vestibulu
-89	8489	vyriešenie	vyriešenia vyriešeniu vyriešením
-90	8490	opuch	opuchom opuchu opuchy
-91	8491	násobok	násobku
-92	8492	trvale	trvalejšie
-93	8493	dbať	dbaj dbajte dbajú dbal dbala dbá dbám dbáme dbáte dbáš
-94	8494	nesadnúť	nesadla nesadli nesadlo nesadne nesadnem nesadneme nesadnete nesadneš nesadnú nesadol
-95	8495	opilec	opilca opilcami opilci opilcom opilcov opilcovi opilecký
-96	8496	rúcho	rúcha rúchom rúchu
-97	8497	publikovanie	publikovania publikovaním
-98	8498	stlačenie	stlačení stlačením
-99	8499	nepodpísať	nepodpísal nepodpísala nepodpísali nepodpísalo nepodpíše nepodpíšem nepodpíšeme nepodpíšete nepodpíšeš nepodpíšu
-100	8500	vyprovokovať	vyprovokoval vyprovokovala vyprovokovali vyprovokovalo vyprovokuje vyprovokujeme
+1	8401	krásavec	krásavca krásavci krásavcom krásavcov
+2	8402	nezmenený	nezmenenej nezmenená nezmenené
+3	8403	ión	iónov iónové iónový ióny
+4	8404	ladený	ladená ladené ladených
+5	8405	kórejský	kórejskej
+6	8406	koristiť	koristi
+7	8407	medzičas	medzičasom
+8	8408	fáma	fám fámam fámou fámu fámy
+9	8409	kolíska	kolíske kolískou kolísku kolísky
+10	8410	kreativita	kreativite kreativitou kreativitu kreativity
+11	8411	krutosť	krutosti krutosťou
+12	8412	adresovať	adresoval adresované adresovaný adresujte
+13	8413	vzniesť	nevznesie nevznesú nevzniesla nevzniesli nevzniesol vznesie vznesiem vznesieme vznesú vzniesla vzniesli vzniesol
+14	8414	slečinka	slečiniek slečinke slečinkou slečinku slečinky
+15	8415	lojálny	lojálna lojálne lojálneho lojálnej lojálni lojálnych lojálnym lojálnymi
+16	8416	poctivo	
+17	8417	správnosť	správnosti
+18	8418	ultrazvuk	ultrazvukom ultrazvuku
+19	8419	nefunkčný	nefunkčnej nefunkčná nefunkčné nefunkčnú nefunkčných nefunkčným
+20	8420	botanika	botanickej botanická botanickú botanických botanike botaniku botaniky
+21	8421	dedičný	dedičná dedičné dedičného dedičných dedičným
+22	8422	blahoslavený	blahoslavenou blahoslavená blahoslavené blahoslaveného blahoslavení
+23	8423	hádzaná	hádzanej hádzanú
+24	8424	podporovateľ	podporovatelia podporovateľom podporovateľov
+25	8425	triedny	triedneho triedni triednom triednych triednym
+26	8426	intímne	intímnejšie najintímnejšie
+27	8427	ceremoniál	ceremoniáli ceremoniálu
+28	8428	vytáčať	nevytáča nevytáčaj vytáča vytáčaj vytáčajú vytáčal vytáčali vytáčalo vytáčam vytáčate vytáčaš
+29	8429	nitka	nitiek nitkami nitke nitku nitky
+30	8430	bulvár	bulváre bulvári bulvárom bulváru
+31	8431	kreveta	krevetami krevetu krevety kreviet
+32	8432	vykúpenie	vykúpenia vykúpeniu vykúpení vykúpením
+33	8433	sviniar	sviniara sviniari sviniarom sviniarov sviniarovi
+34	8434	šikmý	šikmej šikmá šikmé šikmú
+35	8435	koliba	kolibe koliby
+36	8436	obohatiť	obohatil obohatila obohatili obohatí
+37	8437	osveta	osvetu osvety
+38	8438	portfólia	portfóliu
+39	8439	stáž	stáže stáži
+40	8440	teleskop	teleskope teleskopom teleskopu teleskopy
+41	8441	papuľa	papule papuli papuľou papuľu
+42	8442	pochop	
+43	8443	prefíkaný	prefíkanejší prefíkaná prefíkané prefíkaného prefíkaní prefíkanú prefíkanými
+44	8444	slivka	sliviek slivkové slivkový slivku slivky slivkách slivôčka
+45	8445	viacnásobný	viacnásobnej viacnásobná viacnásobné viacnásobného viacnásobnú viacnásobných viacnásobným viacnásobnými
+46	8446	exemplár	exempláre exemplárov
+47	8447	odtok	odtoku odtoky
+48	8448	vážnosť	vážnosti vážnosťou
+49	8449	lístie	lístia lístí lístím
+50	8450	zrýchliť	zrýchli zrýchlia zrýchlil zrýchlili zrýchlilo zrýchlime zrýchlite
+51	8451	podplatiť	nepodplatil podplatil podplatila podplatili podplatí podplatím podplatíme
+52	8452	patetický	patetickej patetická patetické patetického patetickí patetickú patetických patetickým
+53	8453	pružina	pružinami pružinu pružiny
+54	8454	životne	
+55	8455	amfiteáter	amfiteátra amfiteátri
+56	8456	letka	letiek letke letku letky
+57	8457	kormidlo	kormidla kormidle kormidlom kormidlu kormidlá
+58	8458	prikázanie	prikázania prikázaniami prikázaní
+59	8459	výdaj	výdaje výdaji výdajoch výdajov
+60	8460	brazílsky	brazílska brazílske brazílskeho brazílskej brazílsku brazílskych
+61	8461	výchovné	výchovného
+62	8462	otváranie	otvárania otváraní otváraním
+63	8463	severský	severskej severské severských
+64	8464	radovať	neradujte radovala radovali raduj raduje radujem radujeme radujme radujte radujú
+65	8465	diktátor	diktátora diktátori diktátormi diktátorom diktátorov diktátorovi
+66	8466	prekvapivý	prekvapivá prekvapivé prekvapivému prekvapivú prekvapivých prekvapivým
+67	8467	priradiť	priradil priradila priradili priradí priradím
+68	8468	okúpať	okúp okúpal okúpala okúpali okúpe okúpem okúpeme okúpeš
+69	8469	neutrálne	
+70	8470	nahrávací	nahrávacej nahrávacia nahrávacie nahrávacieho nahrávaciu nahrávacom nahrávacou nahrávacích nahrávacím
+71	8471	domino	domina dominu
+72	8472	bombardér	bombardéra bombardéri bombardérom bombardérov bombardéry
+73	8473	nasvedčovať	nasvedčovalo nasvedčuje nasvedčujú nenasvedčuje
+74	8474	iniciovať	inicioval iniciovala iniciovali iniciuje
+75	8475	radový	radovej radové radového radoví radových
+76	8476	zaželať	nezaželáš zaželaj zaželajte zaželal zaželala zaželá zaželám zaželáte zaželáš
+77	8477	zakopať	zakop zakopal zakopala zakopali zakope zakopem zakopeme zakopete zakopeš zakopme zakopte
+78	8478	rušeň	najrušnejšie rušne rušni rušňa rušňov
+79	8479	preslávený	preslávenom preslávená preslávené presláveného preslávení preslávenú
+80	8480	zotmenie	zotmenia zotmení zotmením
+81	8481	orientačný	orientačné
+82	8482	špeciál	špeciáli špeciálom špeciálu špeciály
+83	8483	smrteľník	smrteľníci smrteľníka smrteľníkmi smrteľníkom smrteľníkov smrteľníkovi
+84	8484	sprístupniť	sprístupni sprístupnil sprístupnila sprístupnili sprístupní sprístupním sprístupníme sprístupníte
+85	8485	modelovanie	modelovania
+86	8486	vypĺňať	vypĺňa vypĺňajú vypĺňala vypĺňali vypĺňam
+87	8487	spolužitie	spolužitia spolužití
+88	8488	dôchodkový	dôchodkovom dôchodkové dôchodkového
+89	8489	prehrávanie	prehrávania prehrávaní
+90	8490	pozabíjať	nepozabíjali pozabíja pozabíjajú pozabíjal pozabíjali pozabíjam pozabíjame pozabíjate pozabíjaš
+91	8491	mrknúť	mrkla mrkne mrknem mrkneme mrkneš mrkni mrknime mrknite mrkol nemrkne nemrknem nemrkol
+92	8492	hlásať	hlása hlásajú hlásal hlásali hlásaš
+93	8493	výdych	výdychom výdychu výdychy
+94	8494	koktail	koktailov koktaily
+95	8495	arašidový	arašidové arašidového arašidovým
+96	8496	kolotoč	kolotoča kolotoče kolotoči kolotočoch kolotočom kolotočov kolotoču
+97	8497	taxikár	taxikára taxikári taxikárom taxikárov taxikárovi
+98	8498	mašina	mašinami mašine mašiniek mašinka mašinkou mašinku mašinky mašinou mašinu mašiny mašín
+99	8499	à	
+100	8500	protiútok	protiútokov protiútoku protiútoky

@@ -1,100 +1,100 @@
-1	4701	dovolený	dovolená dovolené
-2	4702	starká	starkej starkou starkú starkých starkým
-3	4703	banskobystrický	banskobystrickej banskobystrickom banskobystrická banskobystrického
-4	4704	hostiteľ	hostitelia hostiteľa hostiteľmi hostiteľom hostiteľov hostiteľovi
-5	4705	neuveriť	neuveria neuveril neuverila neuverili neuverí neuverím neuveríme neuveríte neuveríš
-6	4706	predčasný	predčasnej predčasnom predčasnou predčasná predčasné predčasného predčasnému predčasnú predčasných predčasným
-7	4707	štvrtina	štvrtine štvrtinu štvrtiny štvrtinách štvrtín
-8	4708	odlišovať	odlišoval odlišovalo odlišuje odlišujeme odlišujú
-9	4709	talentovaný	najtalentovanejší najtalentovanejších talentovanej talentovanejšia talentovaná talentované talentovaného talentovaní talentovanú talentovaných talentovaným talentovanými
-10	4710	vrhnúť	vrhla vrhli vrhlo vrhne vrhnem vrhneme vrhneš vrhni vrhnime vrhnite vrhnú vrhol
-11	4711	účtovníctvo	účtovníctva účtovníctve účtovníctvom účtovníctvu
-12	4712	pat	pate patom
-13	4713	župan	župana župane županoch županom županu župany
-14	4714	aréna	aréne arénu arény
-15	4715	podanie	podania podaním
-16	4716	čarodejník	čarodejníci čarodejníka čarodejníkmi čarodejníkom čarodejníkov čarodejníkovi
-17	4717	mohutný	mohutnou mohutná mohutné mohutného mohutnú mohutných mohutným mohutnými
-18	4718	referencia	referencie referencií referenčnej referenčná referenčné referenčného referenčný
-19	4719	nájom	nájme nájmom nájmov nájmu nájmy
-20	4720	netýkať	netýka netýkajú netýkali netýkalo
-21	4721	rómsky	rómska rómske rómskeho rómskej rómsku rómskych
-22	4722	suterén	suteréne suterénoch suterénu suterény
-23	4723	poverený	poverenej poverená poverené povereného poverení
-24	4724	enzým	enzýme enzýmom enzýmov enzýmu enzýmy
-25	4725	javiť	javia javil javila javili javilo javí
-26	4726	rozdielny	rozdielna rozdielnej rozdielni rozdielnou rozdielnu rozdielnych rozdielnym rozdielnymi
-27	4727	špión	špióna špióni špiónmi špiónoch špiónom špiónov špiónovi
-28	4728	poplach	poplachom poplachov poplachu poplachy
-29	4729	popularita	popularite popularitou popularitu
-30	4730	dozor	dozore dozorom dozoru
-31	4731	konštrukčný	konštrukčnej konštrukčná konštrukčné konštrukčného konštrukčných konštrukčným
-32	4732	klubový	klubovej klubová klubové klubového klubovú klubových
-33	4733	tadiaľ	
-34	4734	napadnutie	napadnutia napadnutiu napadnutí napadnutím vysvedčenia vysvedčenie vysvedčení
-35	4735	kel	keli kelom kelu klami kli kly
-36	4736	skupinový	skupinovej skupinovom skupinovou skupinová skupinové skupinového skupinovú skupinových skupinovým
-37	4737	švajčiarsky	švajčiarske švajčiarskeho švajčiarskej švajčiarski švajčiarskych švajčiarskym
-38	4738	klinický	klinickej klinická klinické klinického klinickú klinických klinickými
-39	4739	krčma	krčiem krčme krčmou krčmová krčmu krčmy krčmách
-40	4740	obžalovaný	obžalovaného obžalovanému obžalovaní obžalovaných obžalovaným
-41	4741	obrat	obrate obratom obratu obraty
-42	4742	kruhový	kruhovej kruhovom kruhová kruhové kruhového kruhových kruhovým
-43	4743	moslim	moslima moslimami moslimoch moslimom moslimov moslimovia
-44	4744	hokejista	hokejisti hokejistom hokejistov hokejistu
-45	4745	prídavný	prídavnom prídavná prídavné prídavného prídavnú prídavných prídavným prídavnými
-46	4746	presadzovať	presadzoval presadzovali presadzuje presadzujem presadzujú
-47	4747	financovanie	financovania financovaniu financovaním
-48	4748	cirkus	cirkuse cirkusoch cirkusom cirkusov cirkusu cirkusy
-49	4749	zďaleka	
-50	4750	uvoľnený	uvoľnenej uvoľnenejšia uvoľnenejší uvoľnená uvoľnené uvoľnení uvoľnenú uvoľnených
-51	4751	útočisko	útočiska útočiskom útočisku
-52	4752	kritik	kritici kritikmi kritikom kritikov
-53	4753	terajší	terajšej terajšia terajšie terajšieho terajšiu terajšom terajšou terajších terajším
-54	4754	pokrývať	pokrýva pokrývajú pokrývala pokrývali pokrývam pokrývame
-55	4755	nov	nove novom novu novy
-56	4756	vybehnúť	vybehla vybehli vybehlo vybehne vybehnem vybehneme vybehnete vybehneš vybehni vybehnite vybehnú vybehol
-57	4757	príšerný	príšernej príšernom príšernou príšerná príšerné príšerného príšerní príšernú príšerných príšerným príšernými
-58	4758	sťahovanie	sťahovania sťahovaniu sťahovaní sťahovaním
-59	4759	prízemie	prízemia prízemí
-60	4760	presúvať	presúva presúvajú presúval presúvala presúvali presúvam presúvame presúvate presúvaš
-61	4761	vychutnať	vychutnaj vychutnajme vychutnajte vychutnajú vychutnal vychutnala vychutnali vychutná vychutnám vychutnáme vychutnáte vychutnáš
-62	4762	koľký	koľkej koľkom koľká koľkého koľkú koľkých koľkým koľkými
-63	4763	sebecký	najsebeckejšia sebeckej sebeckou sebecky sebecká sebecké sebeckého sebeckí sebeckú sebeckých sebeckým sebeckými
-64	4764	dinosaurus	dinosaura dinosaurami dinosauroch dinosaurom dinosaurov dinosaurovi dinosaury
-65	4765	poznamenať	poznamenajte poznamenal poznamenala poznamenali poznamenám
-66	4766	džungľa	džungle džungli džungliach džungľou džungľu
-67	4767	hodnotiť	hodnotia hodnotil hodnotila hodnotili hodnotí hodnotím hodnotíte hodnotíš
-68	4768	gesto	gest gesta gestami gestom gestá gestách gestám
-69	4769	rozmedzie	rozmedzí
-70	4770	oblúk	oblúka oblúkmi oblúkom oblúkov oblúku oblúky
-71	4771	útes	útese útesmi útesoch útesom útesov útesu útesy
-72	4772	trčať	trčal trčala trčali trčalo trčia trčí trčím trčíme trčíte trčíš
-73	4773	dopĺňať	dopĺňa dopĺňajú dopĺňal dopĺňali dopĺňam dopĺňame dopĺňaš
-74	4774	tehla	tehiel tehlami tehle tehličky tehlou tehlu tehly tehlách tehál
-75	4775	chirurg	chirurga chirurgom chirurgov chirurgovi chirurgovia
-76	4776	vraziť	vraz vrazia vrazil vrazila vrazili vrazilo vrazte vrazí vrazím vrazíme vrazíte vrazíš
-77	4777	hmotný	hmotnej hmotnom hmotná hmotné hmotného hmotných
-78	4778	trofej	trofejami trofeje trofeji trofejou trofejí
-79	4779	estetický	estetickej estetická estetické estetického estetickú estetických estetickým
-80	4780	respektíve	
-81	4781	víla	víl vílach vílami víle vílou vílu víly
-82	4782	púšťať	púšťa púšťaj púšťajú púšťal púšťala púšťali púšťam púšťame púšťate púšťaš
-83	4783	žiar	žiare žiarom žiaru žiary
-84	4784	nepomáhať	nepomáha nepomáhaj nepomáhajte nepomáhajú nepomáhal nepomáhala nepomáhali nepomáhalo nepomáham nepomáhame nepomáhate nepomáhaš
-85	4785	neďaleký	neďalekej neďalekom neďaleká neďaleké neďalekého neďalekých
-86	4786	vymýšľať	vymýšľa vymýšľajú vymýšľal vymýšľala vymýšľali vymýšľam vymýšľame vymýšľate vymýšľaš
-87	4787	lucifer	lucifera luciferom luciferov luciferovi
-88	4788	preháňať	preháňa preháňajú preháňal preháňala preháňali preháňalo preháňam preháňame preháňate preháňaš
-89	4789	vertikálny	vertikálna vertikálne vertikálneho vertikálnej vertikálnom vertikálnu vertikálnych vertikálnym
-90	4790	využitý	využitá využité využití
-91	4791	výnimočne	najvýnimočnejšie výnimočnejšie
-92	4792	ústny	ústna ústne ústneho ústnej ústnu ústnych ústnym
-93	4793	usilovať	usiloval usilovala usilovali usiluje usilujem usilujeme usilujete usiluješ usilujú
-94	4794	šíry	širší šíre šíreho šíri šírom šírych šírym
-95	4795	blog	blogoch blogom blogov blogu blogy
-96	4796	verš	verša veršami verše verši veršoch veršom veršov veršu
-97	4797	dominantný	dominantnej dominantnou dominantná dominantné dominantného dominantnú dominantných dominantným dominantnými
-98	4798	popisovať	popisoval popisovala popisovali popisuje popisujete popisuješ popisujú
-99	4799	detektor	detektora detektore detektormi detektorom detektorov detektoru detektory
-100	4800	náraz	náraze nárazmi nárazoch nárazom nárazov nárazu nárazy
+1	4701	terajší	terajšej terajšia terajšie terajšieho terajšiu terajšom terajšou terajších terajším
+2	4702	gesto	gest gesta gestami gestom gestá gestách gestám
+3	4703	prídavný	prídavnom prídavná prídavné prídavného prídavnú prídavných prídavným prídavnými
+4	4704	víla	víl vílach vílami víle vílou vílu víly
+5	4705	prízemie	prízemia prízemí
+6	4706	financovanie	financovania financovaniu financovaním
+7	4707	presadzovať	presadzoval presadzovali presadzuje presadzujem presadzujú
+8	4708	kruhový	kruhovej kruhovom kruhová kruhové kruhového kruhových kruhovým
+9	4709	hokejista	hokejisti hokejistom hokejistov hokejistu
+10	4710	tehla	tehiel tehlami tehle tehličky tehlou tehlu tehly tehlách tehál
+11	4711	trofej	trofejami trofeje trofeji trofejou trofejí
+12	4712	operovať	neoperoval neoperovali neoperuje operoval operovala operovali operuje operujem operujeme operujete operuješ operujú
+13	4713	hodnotiť	hodnotia hodnotil hodnotila hodnotili hodnotí hodnotím hodnotíte hodnotíš
+14	4714	potopiť	nepotopil nepotopí nepotopím nepotopíš potop potopia potopil potopila potopili potopilo potopte potopí potopím potopíme potopíte potopíš
+15	4715	oblúk	oblúka oblúkmi oblúkom oblúkov oblúku oblúky
+16	4716	poznamenať	poznamenajte poznamenal poznamenala poznamenali poznamenám
+17	4717	žiar	žiare žiarom žiaru žiary
+18	4718	dopĺňať	dopĺňa dopĺňajú dopĺňal dopĺňali dopĺňam dopĺňame dopĺňaš
+19	4719	dodržiavať	dodržiava dodržiavaj dodržiavajte dodržiavajú dodržiaval dodržiavala dodržiavali dodržiavam dodržiavame dodržiavate dodržiavaš nedodržiava nedodržiavajú nedodržiaval nedodržiavate nedodržiavaš
+20	4720	napadať	napadajú napadal napadali napadalo napadá nenapadajú nenapadá
+21	4721	rozmedzie	rozmedzí
+22	4722	dobehnúť	dobehla dobehli dobehne dobehnem dobehneme dobehnete dobehneš dobehni dobehnú dobehol nedobehne nedobehnem nedobehol
+23	4723	blog	blogoch blogom blogov blogu blogy
+24	4724	šíry	šíre šíreho šíri šírom šírych šírym
+25	4725	hmotný	hmotnej hmotnom hmotná hmotné hmotného hmotných
+26	4726	otrava	otrave otravou otravu otravy
+27	4727	naliehavý	naliehavej naliehavejšiu naliehavou naliehavá naliehavé naliehavého naliehavú naliehavých naliehavým naliehavými
+28	4728	náraz	náraze nárazmi nárazoch nárazom nárazov nárazu nárazy
+29	4729	verš	verša veršami verše verši veršoch veršom veršov veršu
+30	4730	estetický	estetickej estetická estetické estetického estetickú estetických estetickým
+31	4731	respektíve	
+32	4732	luxusný	luxusnej luxusnom luxusná luxusné luxusného luxusnú luxusných luxusným luxusnými
+33	4733	príjemne	najpríjemnejšie príjemnejšie
+34	4734	detektor	detektora detektore detektormi detektorom detektorov detektoru detektory
+35	4735	recepcia	recepcie recepcii recepciou recepciu recepcií
+36	4736	usilovať	usiloval usilovala usilovali usiluje usilujem usilujeme usilujete usiluješ usilujú
+37	4737	citovať	citoval citovala citovali cituje citujem citujete cituješ citujú necituj necitujte
+38	4738	začuť	nezačuje nezačujem nezačujete nezačuješ nezačul nezačula začuje začujem začujeme začujete začuješ začujú začul začula začuli
+39	4739	neďaleký	neďalekej neďalekom neďaleká neďaleké neďalekého neďalekých
+40	4740	spravodajský	spravodajskej spravodajskom spravodajskou spravodajská spravodajské spravodajského spravodajskú spravodajských spravodajským spravodajskými
+41	4741	diéta	diétami diéte diétnu diétny diétou diétu diéty
+42	4742	výnimočne	najvýnimočnejšie výnimočnejšie
+43	4743	ústny	ústna ústne ústneho ústnej ústnu ústnych ústnym
+44	4744	kravata	kravatami kravate kravatou kravatu kravaty kravatách kravát
+45	4745	využitý	využitá využité využití
+46	4746	vertikálny	vertikálna vertikálne vertikálneho vertikálnej vertikálnom vertikálnu vertikálnych vertikálnym
+47	4747	nákupný	nákupnej nákupnom nákupná nákupné nákupného nákupnú nákupných nákupným
+48	4748	totožnosť	totožnosti totožností totožnosťou
+49	4749	reportáž	reportáže reportáži reportážou reportáží
+50	4750	vrana	vranami vrane vranou vranov vranu vrany vranách vranám vrán
+51	4751	zablokovať	nezablokoval zablokoval zablokovala zablokovali zablokovalo zablokuj zablokuje zablokujem zablokujeme zablokujete zablokuješ zablokujte zablokujú
+52	4752	bielizeň	bielizne bielizni bielizňou
+53	4753	popisovať	popisoval popisovala popisovali popisuje popisujete popisuješ popisujú
+54	4754	líška	líške líškou líšku líšky líšok líštička líščej líščí
+55	4755	dominantný	dominantnej dominantnou dominantná dominantné dominantného dominantnú dominantných dominantným dominantnými
+56	4756	výbušnina	výbušninami výbušnine výbušninou výbušninu výbušniny výbušninách výbušnín
+57	4757	evolúcia	evolučnej evolučný evolúcie evolúcii evolúciou evolúciu
+58	4758	hasičský	hasičskej hasičskom hasičskou hasičská hasičské hasičského hasičskú hasičských hasičským
+59	4759	mieniť	mieni mienil mienili mienim mienime mienite mieniš nemieni nemienia nemienil nemienila nemienim nemienime nemienite nemieniš nemieniť
+60	4760	prevencia	prevencie prevencii prevenciou prevenciu
+61	4761	stabilita	stabilite stabilitou stabilitu
+62	4762	odhalený	odhalená odhalené odhalení odhalených
+63	4763	sliepka	slepačia slepačí sliepkach sliepkam sliepkami sliepke sliepkou sliepku sliepky sliepok sliepočka sliepočku sliepočky
+64	4764	para	parou paru pary
+65	4765	kauza	kauze kauzu kauzy káuz
+66	4766	päta	pätami päte pätiek pätou pätu päty pätách
+67	4767	stíhačka	stíhačiek stíhačkami stíhačke stíhačkou stíhačku stíhačky stíhačkách stíhačkám
+68	4768	vyviesť	nevyvedie nevyvedieš nevyviedla nevyviedol vyvedie vyvediem vyvedieme vyvediete vyvedieš vyvedú vyveď vyveďte vyviedla vyviedli vyviedlo vyviedol
+69	4769	pražský	pražskej pražskom pražská pražské pražského pražských
+70	4770	obhajca	obhajcami obhajcom obhajcov obhajcovi obhajcovia obhajcu
+71	4771	vykazovať	nevykazoval nevykazuje nevykazujú vykazoval vykazovali vykazovalo vykazuje vykazuješ vykazujú
+72	4772	blokovať	blokoval blokovala blokovali blokovalo blokovanie blokovaný blokuj blokuje blokujem blokujeme blokujete blokuješ blokujte blokujú neblokoval neblokuj neblokujte
+73	4773	hrudník	hrudníka hrudníkom hrudníku
+74	4774	podrobne	podrobnejšie
+75	4775	vodka	vodiek vodke vodkou vodku vodky
+76	4776	útočný	útočnej útočnom útočnou útočná útočné útočného útočnú útočných
+77	4777	popierať	nepopiera nepopieraj nepopierajte nepopieram nepopierate nepopieraš popiera popierajú popierajúc popieral popierala popierali popieram popierate popieraš
+78	4778	odporučiť	neodporučil odporuč odporučil odporučila odporučili odporučte odporučí odporučím odporučíš
+79	4779	jedenásť	jedenástich jedenástimi
+80	4780	ochranca	ochrancami ochrancom ochrancov ochrancovia ochrancu
+81	4781	narušiť	naruš narušia narušil narušila narušili narušilo naruší narušíme narušíte narušíš nenarušil nenarušili nenaruší
+82	4782	zlepšovať	nezlepšuje nezlepšuješ nezlepšujú zlepšoval zlepšovala zlepšovali zlepšuje zlepšujem zlepšujeme zlepšujete zlepšuješ zlepšujú
+83	4783	viniť	nevinil nevinila neviní neviním neviníš neviň neviňte vinia vinil vinila vinili viní viním viníte viníš viň viňte
+84	4784	ideológia	ideologické ideologický ideológie ideológii ideológiou ideológiu
+85	4785	protest	protestami proteste protestmi protestoch protestom protestov protestu protesty
+86	4786	spustený	spustená spustené spustení spustenými
+87	4787	utopiť	neutopil neutopila neutopili neutopí utop utopil utopila utopili utopilo utopte utopí utopím utopíme utopíte utopíš
+88	4788	psychiater	psychiatra psychiatrami psychiatri psychiatrom
+89	4789	odroda	odrodu odrody odrôd
+90	4790	harmónia	harmónie harmónii harmóniu harmónií
+91	4791	nástupca	nástupcom nástupcov nástupcovi nástupcu
+92	4792	ovplyvnený	ovplyvnená ovplyvnené ovplyvnení ovplyvnených
+93	4793	výhodný	najvýhodnejší výhodnej výhodná výhodné výhodného výhodnú výhodných
+94	4794	emisia	emisiami emisie emisií
+95	4795	inscenácia	inscenácie inscenácii inscenáciu inscenáciách inscenácií
+96	4796	katedrála	katedrále katedrálou katedrálu katedrály
+97	4797	pojebaný	pojebanej pojebanom pojebanou pojebaná pojebané pojebaného pojebaní pojebanú pojebaných pojebaným pojebanými
+98	4798	ovládaný	ovládanej ovládaná ovládané ovládaného ovládaní ovládanú ovládaných
+99	4799	dunajský	dunajskej dunajská dunajské
+100	4800	formulár	formulára formuláre formulári formulároch formulárom formulárov formuláru

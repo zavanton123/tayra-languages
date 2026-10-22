@@ -1,11 +1,11 @@
 1	101	dieťa	deti detskej detskom detskou detsky detská detské detského detskému detskí detskú detský detských detským detskými detí deťmi deťoch deťom dieťati dieťatka dieťatko dieťatkom dieťatku dieťatká dieťaťa dieťaťom dieťaťu
-2	102	stať	nestalo stal stala stali stalo stane stanem staneme stanete staneš stanú state staň staňme staňte stáva stávať
+2	102	stať	nestal nestala nestali nestalo nestane nestanem nestaneme nestanete nestaneš nestanú nestaň nestať nestáva nestávajú nestávali nestávalo nestávaš stal stala stali stalo stane stanem staneme stanete staneš stanú state staň staňme staňte stáva stávať
 3	103	potrebovať	nepotreboval nepotrebovala nepotrebovali nepotrebovať nepotrebuje nepotrebujem nepotrebujeme nepotrebujete nepotrebuješ nepotrebujú potreboval potrebovala potrebovali potrebovalo potrebuje potrebujem potrebujeme potrebujete potrebuješ potrebujme potrebujú
 4	104	možno	
 5	105	ďalší	ďalšej ďalšia ďalšie ďalšieho ďalšiemu ďalšiu ďalšom ďalšou ďalších ďalším ďalšími
 6	106	aký	akej akom akou aká aké akého akému akí akú akých akým akými
 7	107	však	šak
-8	108	začať	začal začala začali začalo začatia začatie začatí začatím začatý začne začnem začneme začnete začneš začni začnime začnite začnú začína začínať
+8	108	začať	nezačal nezačala nezačali nezačalo nezačať nezačne nezačnem nezačneme nezačnete nezačneš nezačni nezačnite nezačnú nezačína nezačínaj nezačínajme nezačínajte nezačínal nezačínam začal začala začali začalo začatia začatie začatí začatím začatý začne začnem začneme začnete začneš začni začnime začnite začnú začína začínať
 9	109	mesto	mesta mestami meste mestečka mestečko mestom mestskej mestskom mestskou mestská mestské mestského mestskému mestskí mestskú mestský mestských mestským mestskými mestu mestá mestách mestám miest
 10	110	nejaký	nejakej nejakom nejakou nejaká nejaké nejakého nejakému nejakí nejakú nejakých nejakým nejakými
 11	111	práca	prác prácach prácam prácami práce práci prácička prácičku prácou prácu
@@ -37,10 +37,10 @@
 37	137	cesta	cestami ceste cestička cestičku cestnej cestný cestou cestu cesty cestách cestám ciest
 38	138	slovenský	slovenskej slovenskom slovenskou slovensky slovenská slovenské slovenského slovenskému slovenskí slovenskú slovenských slovenským slovenskými
 39	139	iba	
-40	140	pomôcť	pomohla pomohli pomohlo pomohol pomáha pomáhať pomôž pomôže pomôžem pomôžeme pomôžete pomôžeš pomôžme pomôžte pomôžu
+40	140	pomôcť	nepomohla nepomohli nepomohlo nepomohol nepomáha nepomáhaj nepomáhajte nepomáhajú nepomáhal nepomáhala nepomáhali nepomáhalo nepomáham nepomáhame nepomáhate nepomáhaš nepomáhať nepomôcť nepomôže nepomôžem nepomôžeme nepomôžete nepomôžeš nepomôžu pomohla pomohli pomohlo pomohol pomáha pomáhať pomôž pomôže pomôžem pomôžeme pomôžete pomôžeš pomôžme pomôžte pomôžu
 41	141	prosím	
 42	142	časť	časti častiach častiam častí časťami časťou
-43	143	ďakovať	ďakoval ďakovala ďakovali ďakovanie ďakuj ďakuje ďakujem ďakujeme ďakujete ďakuješ ďakujme ďakujte ďakujú
+43	143	ďakovať	neďakuj neďakujem neďakujte ďakoval ďakovala ďakovali ďakovanie ďakuj ďakuje ďakujem ďakujeme ďakujete ďakuješ ďakujme ďakujte ďakujú
 44	144	veľa	viacej
 45	145	vždy	
 46	146	vysoký	najvyššej najvyššia najvyššie najvyššieho najvyššiemu najvyššiu najvyššom najvyššou najvyšší najvyšších najvyšším najvyššími vysokej vysoko vysokom vysokou vysoká vysoké vysokého vysokému vysokí vysokú vysokých vysokým vysokými vyššej vyššie vyššieho vyššiemu vyššiu vyššom vyššou vyšší vyšších vyšším vyššími
@@ -51,7 +51,7 @@
 51	151	starý	najstaršej najstaršia najstaršieho najstaršiemu najstaršiu najstaršou najstarší najstarších najstarším najstaršími starej staro starom starou stará staré starého starému starí starú starých starým starými staršej staršia staršie staršieho staršiemu staršiu staršom staršou starší starších starším staršími
 52	152	vďaka	vďak vďake vďakou vďaku vďaky
 53	153	chodiť	chodenie chodia chodiac chodiaci chodil chodila chodili chodilo chodí chodím chodíme chodíte chodíš choď choďme choďte nechodia nechodil nechodila nechodili nechodiť nechodí nechodím nechodíme nechodíte nechodíš nechoď nechoďme nechoďte
-54	154	vrátiť	vrátenia vrátenie vrátená vrátené vrátení vrátením vrátený vráti vrátia vrátil vrátila vrátili vrátilo vrátim vrátime vrátite vrátiš vráť vráťme vráťte
+54	154	vrátiť	nevráti nevrátia nevrátil nevrátila nevrátili nevrátilo nevrátim nevrátime nevrátite nevrátiš nevrátiť nevráť vrátenia vrátenie vrátená vrátené vrátení vrátením vrátený vráti vrátia vrátil vrátila vrátili vrátilo vrátim vrátime vrátite vrátiš vráť vráťme vráťte
 55	155	teda	
 56	156	dom	domami dome domoch domom domu domy domček domčeka domčekoch domčekom domčekov domčeku domčeky
 57	157	strana	stranami strane stranou stranovú stranový stranu strany stranách stranám strán
@@ -59,14 +59,14 @@
 59	159	počuť	nepočuje nepočujem nepočujeme nepočujete nepočuješ nepočujú nepočul nepočula nepočuli nepočulo nepočuť počuj počuje počujem počujeme počujete počuješ počujte počujú počul počula počuli počulo počutia počutie
 60	160	sám	sama sami samu samy
 61	161	meno	mena menami mene menom menou menovej menový menu meny mená menách menám mien
-62	162	zabiť	zabi zabije zabijem zabijeme zabijete zabiješ zabijú zabil zabila zabili zabilo zabime zabite zabitia zabitie zabitiu zabitá zabité zabitého zabití zabitím zabitú zabitý zabitých zabitým zabíja zabíjaj zabíjajte zabíjajú zabíjajúc zabíjal zabíjala zabíjali zabíjalo zabíjam zabíjame zabíjate zabíjaš zabíjať
+62	162	zabiť	nezabije nezabijem nezabiješ nezabijú nezabil nezabila nezabili nezabilo nezabíjaj nezabíjajte zabi zabije zabijem zabijeme zabijete zabiješ zabijú zabil zabila zabili zabilo zabite zabitia zabitie zabitá zabité zabití zabitím zabitý zabitých zabíja zabíjajú zabíjal zabíjala zabíjali zabíjam zabíjate zabíjaš zabíjať
 63	163	tri	traja troch trom troma tromi
 64	164	pravda	pravde pravdou pravdu pravdy právd
-65	165	viesť	povedie povediem povedieme povediete povedieš povedú vedenia vedenie vedeniu vedení vedením vedený vedie vediem vedieme vediete vedieš vedú vedúc vedúceho vedúcemu vedúci vedúcich vedúcim vedúcimi vedúcom veď veďte viedla viedli viedlo viedol
+65	165	viesť	nepovedie nevedie nevediem nevedú neviedla neviedli neviedlo neviedol povedie povediem povedieme povediete povedieš povedú vedenia vedenie vedeniu vedení vedením vedený vedie vediem vedieme vediete vedieš vedú vedúceho vedúcemu vedúci vedúcich vedúcim vedúcimi vedúcom veď veďte viedla viedli viedlo viedol
 66	166	poznať	nepoznajú nepoznal nepoznala nepoznali nepoznalo nepoznať nepozná nepoznám nepoznáme nepoznáte nepoznáš poznaj poznajte poznajú poznajúc poznal poznala poznali poznalo poznania poznanie poznaniu poznaní poznaním pozná poznám poznáme poznáte poznáš
 67	167	rodina	rodinami rodine rodinka rodinke rodinkou rodinku rodinky rodinne rodinnej rodinnom rodinnou rodinná rodinné rodinného rodinnému rodinní rodinnú rodinný rodinných rodinným rodinnými rodinou rodinu rodiny rodinách rodinám rodín
-68	168	dokázať	dokazovať dokazuje dokázal dokázala dokázali dokázalo dokázanie dokázané dokázaním dokázaný dokáž dokáže dokážem dokážeme dokážete dokážeš dokážme dokážte dokážu nedokázal nedokázala nedokázali nedokázalo nedokáže nedokážem nedokážeme nedokážete nedokážeš nedokážu
-69	169	vyzerať	vyzeraj vyzerajte vyzerajú vyzerajúc vyzerajúca vyzerajúce vyzerajúceho vyzerajúci vyzerajúcich vyzerajúcim vyzerajúcimi vyzerajúcu vyzeral vyzerala vyzerali vyzeralo vyzerá vyzerám vyzeráme vyzeráte vyzeráš
+68	168	dokázať	dokazovať dokazuje dokázal dokázala dokázali dokázalo dokázanie dokázané dokázaním dokázaný dokáž dokáže dokážem dokážeme dokážete dokážeš dokážme dokážte dokážu nedokazuje nedokazujú nedokázal nedokázala nedokázali nedokázalo nedokáže nedokážem nedokážeme nedokážete nedokážeš nedokážu
+69	169	vyzerať	nevyzeraj nevyzerajú nevyzeral nevyzerala nevyzerali nevyzeralo nevyzerať nevyzerá nevyzerám nevyzeráme nevyzeráte nevyzeráš vyzeraj vyzerajte vyzerajú vyzerajúc vyzerajúca vyzerajúce vyzerajúceho vyzerajúci vyzerajúcich vyzerajúcim vyzerajúcimi vyzerajúcu vyzeral vyzerala vyzerali vyzeralo vyzerá vyzerám vyzeráme vyzeráte vyzeráš
 70	170	nikto	nik nikoho nikom nikomu nikým
 71	171	posledný	poslednej poslednom poslednou posledná posledné posledného poslednému poslední poslednú posledných posledným poslednými
 72	172	počas	
@@ -74,10 +74,10 @@
 74	174	lebo	
 75	175	hodina	hodinami hodine hodinka hodinku hodinou hodinovej hodinovom hodinovou hodinová hodinové hodinového hodinovú hodinový hodinových hodinovým hodinu hodiny hodinách hodinám hodín
 76	176	priateľ	priatelia priateliek priateľa priateľka priateľkami priateľke priateľkou priateľku priateľky priateľkách priateľkám priateľmi priateľoch priateľom priateľov priateľovi priateľu
-77	177	žiť	ži žije žijem žijeme žijete žiješ žijú žijúc žijúci žijúcich žil žila žilami žile žili žilo žilou žilu žily žilách žime žite žitia žitie žíl
-78	178	pracovať	pracoval pracovala pracovali pracovalo pracovanie pracuj pracuje pracujem pracujeme pracujete pracuješ pracujme pracujte pracujú pracujúc pracujúci pracujúcich
+77	177	žiť	neži nežije nežijem nežijeme nežijete nežiješ nežijú nežil nežila nežili nežiť ži žije žijem žijeme žijete žiješ žijú žijúc žijúci žijúcich žil žila žilami žile žili žilo žilou žilu žily žilách žime žite žitia žitie žíl
+78	178	pracovať	nepracoval nepracovala nepracovali nepracovať nepracuj nepracuje nepracujem nepracujeme nepracujete nepracuješ nepracujte nepracujú pracoval pracovala pracovali pracovalo pracovanie pracuj pracuje pracujem pracujeme pracujete pracuješ pracujme pracujte pracujú pracujúc pracujúci pracujúcich
 79	179	veriť	neveria neveril neverila neverili neveriť neverte neverí neverím neveríme neveríte neveríš ver veria veriac veril verila verili verilo verme verte verí verím veríme veríte veríš
-80	180	prepáčiť	prepáč prepáčenie prepáči prepáčia prepáčil prepáčila prepáčili prepáčim prepáčite prepáčiš prepáčte
+80	180	prepáčiť	neprepáčim prepáč prepáčenie prepáči prepáčia prepáčil prepáčila prepáčili prepáčim prepáčite prepáčiš prepáčte
 81	181	u	
 82	182	ruka	rukami ruke rukou ruku ruky rukách rukám ručičiek ručička ručičkami ručičku ručičky ručné ručný rúk rúčka rúčke rúčkou rúčku rúčky
 83	183	spolu	
@@ -90,11 +90,11 @@
 90	190	keby	
 91	191	sem	
 92	192	ahoj	
-93	193	snažiť	snaž snažia snažiac snažil snažila snažili snažilo snažme snažte snaží snažím snažíme snažíte snažíš
+93	193	snažiť	nesnaž nesnažia nesnažil nesnažila nesnažili nesnažiť nesnažte nesnaží nesnažím nesnažíme nesnažíte nesnažíš snaž snažia snažiac snažil snažila snažili snažilo snažme snažte snaží snažím snažíme snažíte snažíš
 94	194	trochu	
 95	195	systém	systémami systéme systémoch systémom systémov systému systémy
 96	196	niektorý	niektorej niektorom niektorou niektorá niektoré niektorého niektorému niektorí niektorú niektorých niektorým niektorými
 97	197	noc	nocami noci nociach nociam nocou nocí
-98	198	volať	volaj volajme volajte volajú volajúc volajúceho volajúci volal volala volali volalo volania volanie volaniu volaní volaním volaný volá volám voláme voláte voláš
+98	198	volať	nevolaj nevolajme nevolajte nevolajú nevolal nevolala nevolali nevolalo nevolať nevolá nevolám nevoláme nevoláte nevoláš volaj volajme volajte volajú volajúc volajúceho volajúci volal volala volali volalo volania volanie volaniu volaní volaním volaný volá volám voláme voláte voláš
 99	199	znamenať	neznamenajú neznamenal neznamenala neznamenali neznamenalo neznamená neznamenám neznamenáme neznamenáte neznamenáš znamenajú znamenajúci znamenal znamenala znamenali znamenalo znamená znamenám znamenáme znamenáte znamenáš
 100	200	zlý	horšej horšia horšie horšieho horšiemu horšiu horšom horšou horší horších horším horšími najhoršej najhoršia najhoršieho najhoršiemu najhoršiu najhoršom najhoršou najhorší najhorších najhorším najhoršími zlej zlom zlomom zlomu zlomy zlou zlá zlé zlého zlému zlí zlú zlých zlým zlými

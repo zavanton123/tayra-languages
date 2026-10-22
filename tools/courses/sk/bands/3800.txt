@@ -1,100 +1,100 @@
-1	3701	vylúčený	vylúčená vylúčené vylúčení vylúčených
-2	3702	dlhoročný	dlhoročnej dlhoročnou dlhoročná dlhoročné dlhoročného dlhoroční dlhoročnú dlhoročných dlhoročným dlhoročnými
-3	3703	námorný	námornej námornom námornou námorná námorné námorného námorní námornú námorných námorným námornými
-4	3704	potkan	potkana potkanej potkani potkania potkanie potkanieho potkaniu potkanmi potkanoch potkanom potkanov potkanovi potkany potkaní potkaních
-5	3705	recenzia	recenzie recenzii recenziu recenzií
-6	3706	vstupovať	vstupoval vstupovala vstupovali vstupuje vstupujem vstupujeme vstupujete vstupuješ vstupujú
-7	3707	lúpež	lúpežami lúpeže lúpeži lúpežiach lúpežiam lúpežou lúpeží
-8	3708	pochovať	pochoval pochovala pochovali pochovalo
-9	3709	nijaký	nijakej nijakom nijakou nijaká nijaké nijakého nijakému nijakí nijakú nijakých nijakým
-10	3710	svedčiť	svedči svedčia svedčil svedčila svedčili svedčilo
-11	3711	prednosť	prednosti predností prednosťami prednosťou
-12	3712	vitamín	vitamínmi vitamínoch vitamínom vitamínov vitamínu vitamíny
-13	3713	ochranka	ochranke ochrankou ochranku ochranky
-14	3714	diaľka	diaľke diaľku diaľky diaľok
-15	3715	neprejsť	neprejde neprejdem neprejdeme neprejdete neprejdeš neprejdú neprešiel neprešla neprešli neprešlo
-16	3716	intenzita	intenzite intenzitou intenzitu intenzity
-17	3717	poškodená	poškodenej poškodenou poškodené poškodenú
-18	3718	priznanie	priznania priznaniami priznaniu priznaní priznaním
-19	3719	výklad	výklade výkladom výkladov výkladu výklady
-20	3720	starec	starca starcami starci starcom starcov starcovi starecké starecký starík starček starčeka starčekovi
-21	3721	pyšný	najpyšnejší pyšnej pyšnejší pyšnou pyšná pyšné pyšní pyšnú pyšných pyšným
-22	3722	odvolať	odvolaj odvolajte odvolajú odvolal odvolala odvolali odvolá odvolám odvoláme odvoláte odvoláš
-23	3723	výnos	výnosné výnosný výnosom výnosov výnosu výnosy
-24	3724	nováčik	nováčika nováčikmi nováčikom nováčikov nováčikovi nováčikovia nováčikovská
-25	3725	špička	špičiek špičkami špičke špičkou špičku špičky špičkách
-26	3726	bronz	bronze bronzovej bronzová bronzové bronzového bronzovú bronzový bronzových bronzu
-27	3727	rozbehnúť	rozbehla rozbehli rozbehlo rozbehne rozbehnem rozbehneme rozbehnete rozbehneš rozbehni rozbehnime rozbehnite rozbehnú rozbehol
-28	3728	nevravieť	nevrav nevravel nevravela nevraveli nevravia nevraviac nevravme nevravte nevraví nevravím nevravíme nevravíte nevravíš
-29	3729	zánik	zánikom zániku
-30	3730	hádka	hádkach hádkam hádkami hádke hádkou hádku hádky hádok
-31	3731	mzda	miezd mzde mzdou mzdové mzdu mzdy
-32	3732	sťažnosť	sťažnosti sťažnostiach sťažností sťažnosťami sťažnosťou
-33	3733	vyvolávať	vyvoláva vyvolávajú vyvolával vyvolávala vyvolávali vyvolávam vyvolávame vyvolávate vyvolávaš
-34	3734	záverečná	záverečnej záverečnou záverečné záverečnú
-35	3735	terasa	terasami terase terasou terasu terasy terasách terás
-36	3736	batožina	batožine batožinou batožinu batožiny batožín
-37	3737	panebože	
-38	3738	hrozno	hrozienka hrozienkami hrozienko hrozienok hrozna hrozne hroznejšie hroznom hroznu hrozná najhroznejšie
-39	3739	nudiť	nudia nudil nudila nudili nudilo nudí nudím nudíme nudíte nudíš
-40	3740	triasť	potras potrasie potrasiem potrasieme potrasiete potrasieš potrasme potraste potrasú potriasla potriasli potriasol potriasť tras trasenie trasie trasiem trasieme trasiete trasieš traste trasú trasúc trasúci triasla triasli triaslo triasol
-41	3741	mor	mory
-42	3742	výbava	výbave výbavou výbavu výbavy
-43	3743	trezor	trezora trezore trezoroch trezorom trezorov trezoru trezory
-44	3744	presun	presune presunom presunov presunu presuny
-45	3745	oceňovať	oceňoval oceňuje oceňujem oceňujeme oceňuješ oceňujú
-46	3746	intenzívne	intenzívnejšie
-47	3747	rozlúčka	rozlúčke rozlúčku rozlúčky
-48	3748	hormón	hormonálna hormonálne hormonálnej hormonálnu hormonálny hormónmi hormónom hormónov hormónu hormóny
-49	3749	oltár	oltára oltáre oltári oltárnej oltárom oltáru
-50	3750	nespať	nespal nespala nespali nespalo nespia nespí nespím nespíme nespíte nespíš
-51	3751	vyučovanie	vyučovania vyučovaní vyučovaním
-52	3752	menšina	menšinami menšine menšinou menšinových menšinu menšiny menšinám menšín
-53	3753	odstránenie	odstránenia odstráneniu odstránením
-54	3754	večnosť	večnosti večnosťou
-55	3755	jama	jame jamiek jamka jamkami jamke jamkou jamku jamky jamou jamu jamy jamách jám
-56	3756	syndróm	syndróme syndrómom syndrómu
-57	3757	vzácne	najvzácnejšie vzácnejšie
-58	3758	rodiť	rodenie rodená rodení rodený rodia rodil rodila rodili rodí rodím rodíme rodíte rodíš
-59	3759	neukázať	neukázal neukázala neukázali neukázalo neukáž neukáže neukážem neukážeme neukážete neukážeš neukážte neukážu
-60	3760	nezávislosť	nezávislosti nezávislosťou
-61	3761	integrovaný	integrovanej integrovanou integrovaná integrované integrovaného integrovaných integrovaným
-62	3762	kura	kurati kuratá kuraťa kuraťom kuraťu kurencami kurence kureniec kuriat kuriatka kuriatkami kuriatko kuriatok kuru kury
-63	3763	dotyk	dotykoch dotykom dotykov dotyku dotyky
-64	3764	negatívne	
-65	3765	prezentácia	prezentácie prezentácii prezentáciou prezentáciu prezentáciách prezentácií
-66	3766	skutok	skutkami skutkoch skutkom skutkov skutku skutky
-67	3767	špecializovaný	špecializovanej špecializovaná špecializované špecializovaného špecializovanú špecializovaných špecializovanými
-68	3768	podstatne	najpodstatnejšie podstatnejšie
-69	3769	podvádzať	podvádza podvádzajú podvádzal podvádzala podvádzali podvádzam podvádzame podvádzate podvádzaš
-70	3770	slovník	slovníka slovníkom slovníkov slovníku slovníky
-71	3771	zdržať	zdrž zdržal zdržala zdržali zdržalo zdržia zdržte zdrží zdržím zdržíme zdržíte zdržíš
-72	3772	chov	chove chovom chovu
-73	3773	pôsobivý	najpôsobivejšia najpôsobivejších pôsobivejší pôsobivá pôsobivé pôsobivého pôsobiví pôsobivú pôsobivých pôsobivým
-74	3774	poézia	poézie poézii poéziou poéziu
-75	3775	kuchár	kuchára kuchári kuchárka kuchárke kuchárkou kuchárku kuchárky kuchármi kuchárom kuchárov kuchárovi kuchárska kuchárske kuchárskej kuchársku kuchársky kuchárskych
-76	3776	veliteľstvo	veliteľstva veliteľstve veliteľstvom veliteľstvu
-77	3777	dobrovoľne	
-78	3778	individuálny	individuálna individuálneho individuálnej individuálnu individuálnych individuálnym
-79	3779	intenzívny	intenzívna intenzívneho intenzívnej intenzívnemu intenzívnom intenzívnou intenzívnu intenzívnych intenzívnym najintenzívnejšie najintenzívnejší
-80	3780	nestihnúť	nestihla nestihli nestihne nestihnem nestihneme nestihnete nestihneš nestihnú nestihol
-81	3781	trvalá	trvalej trvalou trvalé trvalú
-82	3782	valec	valca valcami valce valci valcom valcov
-83	3783	nazdar	
-84	3784	predĺženie	predĺženia predĺženiu predĺžení predĺžením
-85	3785	sídlisko	sídlisk sídliska sídlisku sídliská sídliskách
-86	3786	vyhláška	vyhláške vyhláškou vyhlášku vyhlášky
-87	3787	kolónia	kolónie kolónii kolóniou kolóniu kolóniách kolóniám kolónií
-88	3788	legendárny	legendárna legendárne legendárneho legendárnej legendárnemu legendárni legendárnom legendárnou legendárnu legendárnych legendárnym
-89	3789	pravdaže	
-90	3790	sivý	sivej sivo sivom sivá sivé sivého siví sivú sivých sivým sivými
-91	3791	zapojený	zapojená zapojené zapojení zapojenú zapojených
-92	3792	inžinier	inžiniera inžinieri inžiniermi inžinierom inžinierov inžinierovi
-93	3793	desivý	desivej desivejšia desivejší desivom desivou desivá desivé desivého desiví desivú desivých desivým desivými najdesivejšia najdesivejší najdesivejších
-94	3794	kolektívum	kolektív kolektíve kolektívnej kolektívny kolektívom kolektívov kolektívu kolektívy
-95	3795	vydavateľ	vydavatelia vydavateľa vydavateľmi vydavateľom vydavateľov vydavateľovi
-96	3796	odpáliť	odpáli odpália odpálil odpálila odpálili odpálilo odpálim odpálime odpálite odpáliš odpáľ odpáľme odpáľte
-97	3797	nebaviť	nebav nebavia nebavil nebavila nebavili nebavilo nebavme nebavte nebaví nebavím nebavíme nebavíte nebavíš
-98	3798	charita	charitami charitatívne charitatívny charite charitou charitu charity charitách charitám charít
-99	3799	stanovisko	stanoviska stanoviskom stanovisku stanoviská stanoviskách stanovísk
-100	3800	olympiáda	olympiád olympiádach olympiáde olympiádou olympiádu olympiády
+1	3701	terasa	terasami terase terasou terasu terasy terasách terás
+2	3702	jama	jame jamiek jamka jamkami jamke jamkou jamku jamky jamou jamu jamy jamách jám
+3	3703	presun	presune presunom presunov presunu presuny
+4	3704	hormón	hormonálna hormonálne hormonálnej hormonálnu hormonálny hormónmi hormónom hormónov hormónu hormóny
+5	3705	výbava	výbave výbavou výbavu výbavy
+6	3706	intenzívne	intenzívnejšie
+7	3707	nazdar	
+8	3708	odhodiť	neodhodil neodhodím neodhodíš odhodia odhodil odhodila odhodili odhodilo odhodí odhodím odhodíme odhodíte odhodíš odhoď odhoďte
+9	3709	pôsobivý	najpôsobivejšia najpôsobivejších pôsobivejší pôsobivá pôsobivé pôsobivého pôsobiví pôsobivú pôsobivých pôsobivým
+10	3710	vyučovanie	vyučovania vyučovaní vyučovaním
+11	3711	oltár	oltára oltáre oltári oltárnej oltárom oltáru
+12	3712	syndróm	syndróme syndrómom syndrómu
+13	3713	dotyk	dotykoch dotykom dotykov dotyku dotyky
+14	3714	vzácne	najvzácnejšie vzácnejšie
+15	3715	nezávislosť	nezávislosti nezávislosťou
+16	3716	skutok	skutkami skutkoch skutkom skutkov skutku skutky
+17	3717	zaberať	nezaberajú nezaberalo nezaberá zaberaj zaberajú zaberal zaberala zaberali zaberalo zaberá zaberám
+18	3718	kuchár	kuchára kuchári kuchárka kuchárke kuchárkou kuchárku kuchárky kuchármi kuchárom kuchárov kuchárovi kuchárska kuchárske kuchárskej kuchársku kuchársky kuchárskych
+19	3719	odstránenie	odstránenia odstráneniu odstránením
+20	3720	menšina	menšinami menšine menšinou menšinových menšinu menšiny menšinám menšín
+21	3721	negatívne	
+22	3722	prezentácia	prezentácie prezentácii prezentáciou prezentáciu prezentáciách prezentácií
+23	3723	pravdaže	
+24	3724	poézia	poézie poézii poéziou poéziu
+25	3725	podstatne	najpodstatnejšie podstatnejšie
+26	3726	integrovaný	integrovanej integrovanou integrovaná integrované integrovaného integrovaných integrovaným
+27	3727	slovník	slovníka slovníkom slovníkov slovníku slovníky
+28	3728	desivý	desivej desivejšia desivejší desivom desivou desivá desivé desivého desiví desivú desivých desivým desivými najdesivejšia najdesivejší najdesivejších
+29	3729	veliteľstvo	veliteľstva veliteľstve veliteľstvom veliteľstvu
+30	3730	dobrovoľne	
+31	3731	špecializovaný	špecializovanej špecializovaná špecializované špecializovaného špecializovanú špecializovaných špecializovanými
+32	3732	detektívka	detektívke detektívkou detektívku detektívky detektívok
+33	3733	schovať	neschoval schoval schovala schovali
+34	3734	kolónia	kolónie kolónii kolóniou kolóniu kolóniách kolóniám kolónií
+35	3735	chov	chove chovom chovu
+36	3736	testovať	netestoval netestovali netestujú testoval testovala testovali testovalo testuje testujem testujeme testujete testuješ testujú
+37	3737	zapojený	zapojená zapojené zapojení zapojenú zapojených
+38	3738	charita	charitami charitatívne charitatívny charite charitou charitu charity charitách charitám charít
+39	3739	trvalá	trvalej trvalou trvalé trvalú
+40	3740	intenzívny	intenzívna intenzívneho intenzívnej intenzívnemu intenzívnom intenzívnou intenzívnu intenzívnych intenzívnym najintenzívnejšie najintenzívnejší
+41	3741	predĺženie	predĺženia predĺženiu predĺžení predĺžením
+42	3742	vítať	nevíta nevítajú vítaj vítajte vítajú vítal vítala vítali vítam vítame vítate vítaš
+43	3743	inžinier	inžiniera inžinieri inžiniermi inžinierom inžinierov inžinierovi
+44	3744	legendárny	legendárna legendárne legendárneho legendárnej legendárnemu legendárni legendárnom legendárnou legendárnu legendárnych legendárnym
+45	3745	individuálny	individuálna individuálneho individuálnej individuálnu individuálnych individuálnym
+46	3746	neger	negra negrami negri negroch negrom negrov negrovi
+47	3747	valec	valca valcami valce valci valcom valcov
+48	3748	sivý	sivej sivo sivom sivá sivé sivého siví sivú sivých sivým sivými
+49	3749	sídlisko	sídlisk sídliska sídlisku sídliská sídliskách
+50	3750	zradca	zradcami zradcom zradcov zradcovi zradcovia zradcovské zradcu zradkyňa zradkyňou zradkyňu
+51	3751	sladkosť	sladkosti sladkostiach sladkostí sladkosťami
+52	3752	vyhláška	vyhláške vyhláškou vyhlášku vyhlášky
+53	3753	vydavateľ	vydavatelia vydavateľa vydavateľmi vydavateľom vydavateľov vydavateľovi
+54	3754	naplánovať	naplánoval naplánovala naplánovali naplánuj naplánuje naplánujem naplánujeme naplánuješ naplánujte nenaplánoval nenaplánovala nenaplánovali
+55	3755	zjaviť	nezjavil nezjavila nezjaví zjavia zjavil zjavila zjavili zjavilo zjavte zjaví zjavím zjavíš
+56	3756	stanovisko	stanoviska stanoviskom stanovisku stanoviská stanoviskách stanovísk
+57	3757	kolektívum	kolektív kolektíve kolektívnej kolektívny kolektívom kolektívov kolektívu kolektívy
+58	3758	zhoršiť	nezhoršil nezhoršilo nezhorší zhoršia zhoršil zhoršila zhoršili zhoršilo zhorší zhorším zhoršíte zhoršíš
+59	3759	mamin	mamina mamine maminej maminho mamino maminom maminou maminu maminých maminým maminými
+60	3760	olympiáda	olympiád olympiádach olympiáde olympiádou olympiádu olympiády
+61	3761	zastať	nezastal nezastali nezastane nezastanem nezastaneme nezastaneš nezastávaj nezastávam zastal zastala zastali zastalo zastane zastanem zastaneme zastaneš zastanú zastaň zastaňte zastáva zastávať
+62	3762	pohodlie	pohodlia pohodliu pohodlí
+63	3763	najavo	
+64	3764	náprava	náprav náprave nápravou nápravu nápravy
+65	3765	nahrávať	nahráva nahrávaj nahrávajú nahrával nahrávala nahrávali nahrávalo nahrávam nahrávame nahrávate nahrávaš nenahráva nenahrávaj nenahrávajte nenahrával nenahrávali
+66	3766	maľovať	maľoval maľovala maľovali maľuj maľuje maľujem maľujeme maľujete maľuješ maľujte maľujú nemaľoval nemaľuje nemaľujem nemaľuješ
+67	3767	obísť	neobíde neobídeš obchádza obchádzať obišiel obišla obišli obišlo obíde obídem obídeme obídenie obídete obídeš obídu obíď obíďte
+68	3768	dodržať	dodrž dodržal dodržala dodržali dodržia dodržte dodrží dodržím dodržíme dodržíte dodržíš nedodržal nedodržala nedodržali nedodržia nedodrží nedodržím nedodržíte nedodržíš
+69	3769	posila	posilami posilou posilu posily posilám posíl
+70	3770	gravitácia	gravitačnej gravitačnom gravitačná gravitačné gravitačného gravitačnú gravitačný gravitačných gravitačným gravitačnými gravitácie gravitácii gravitáciou gravitáciu gravitácií
+71	3771	šatník	šatníka šatníkom šatníku šatníky
+72	3772	federácia	federácie federácii federáciou federáciu
+73	3773	jarný	jarnej jarnom jarná jarné jarného jarnú jarných jarným
+74	3774	fasáda	fasád fasáde fasádou fasádu fasády
+75	3775	odev	odeve odevmi odevoch odevom odevov odevu odevy
+76	3776	roztomilý	najroztomilejšia najroztomilejší roztomilej roztomilejšia roztomilejší roztomilo roztomilou roztomilá roztomilé roztomilého roztomilí roztomilú roztomilých
+77	3777	kazeta	kazetami kazete kazetou kazetu kazety kazetách kaziet
+78	3778	prípadný	prípadnej prípadnom prípadná prípadné prípadného prípadnému prípadnú prípadných prípadným
+79	3779	miešať	mieša miešaj miešajte miešajú miešal miešala miešali miešam miešame miešate miešaš nemieša nemiešaj nemiešajte nemiešajú nemiešal nemiešala nemiešali nemiešam nemiešame nemiešať
+80	3780	zhodovať	nezhodovala nezhodovali nezhoduje nezhodujeme nezhodujú zhodoval zhodovala zhodovali zhodovalo zhoduje zhodujeme zhodujú
+81	3781	fotiť	fotia fotil fotila fotili fotilo fotí fotím fotíme fotíte fotíš foť foťte nefotil nefotili nefotiť nefoť nefoťte
+82	3782	motýľ	motýle motýlie motýlieho motýlik motýlika motýlikom motýlikov motýliky motýlí motýlích motýľa motýľmi motýľoch motýľom motýľov motýľovi
+83	3783	dočasne	
+84	3784	register	registra registre registri registroch registrom registrov registru
+85	3785	závažný	najzávažnejší závažnej závažnou závažná závažné závažného závažnému závažnú závažných závažným závažnými
+86	3786	nakopať	nakop nakopal nakopala nakopali nakopalo nakope nakopem nakopeme nakopete nakopeš nakopme nakopte nakopú nenakopal nenakopem nenakopeš
+87	3787	es	esa ese esom esu
+88	3788	básnik	básnici básnickej básnický básnika básnikom básnikov básnikovi básnička básničky
+89	3789	ukrývať	neukrýva ukrýva ukrývajú ukrýval ukrývala ukrývali ukrývam ukrývame ukrývate ukrývaš
+90	3790	znášať	znáša znášajú znášal znášala znášali znášam znášame znášate znášaš
+91	3791	mimozemšťan	mimozemšťana mimozemšťania mimozemšťanmi mimozemšťanoch mimozemšťanom mimozemšťanov mimozemšťanovi
+92	3792	stred	stredom
+93	3793	omša	omše omši omšou omšu omší
+94	3794	pneumatika	pneumatikami pneumatike pneumatikou pneumatiku pneumatiky pneumatikách pneumatík
+95	3795	displej	displeja displeje displeji displejom displejov
+96	3796	naplánovaný	naplánovaná naplánované naplánovaného naplánovanú naplánovaných
+97	3797	včela	včelami včelia včelie včelieho včelou včelu včely včelách včelám včelí včelích včelím včiel včielka včielkou včielku včielky
+98	3798	núdzový	núdzovej núdzovom núdzová núdzové núdzového núdzovému núdzovú núdzových núdzovým
+99	3799	bordel	bordeli bordeloch bordelom bordelov bordelu bordely
+100	3800	ukryť	neukryje neukryješ ukry ukryje ukryjem ukryjeme ukryjete ukryješ ukryjú ukryl ukryla ukryli ukryme ukryte

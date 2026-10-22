@@ -1,100 +1,100 @@
-1	8801	niečí	niečej niečia niečie niečieho niečiu niečom niečou niečích niečím
-2	8802	uhryznúť	uhryzla uhryzli uhryzlo uhryzne uhryznem uhryzni uhryznú uhryzol
-3	8803	vodorovný	vodorovnej vodorovné vodorovných
-4	8804	naložený	naložená naložené naloženého naložení naloženým
-5	8805	pohotovostný	pohotovostnej pohotovostnom pohotovostná pohotovostné pohotovostného pohotovostnú pohotovostných
-6	8806	osviežujúci	osviežujúca osviežujúce osviežujúcu
-7	8807	nesplniť	nesplnia nesplnil nesplnila nesplnili nesplnilo nesplní nesplním nesplníme nesplníte nesplníš
-8	8808	nevidno	
-9	8809	spozorovať	spozoroval spozorovala spozorovali spozorujete spozorujú
-10	8810	počínať	počína počínajúc počínal počínala počínali počínate počínaš
-11	8811	nakloniť	naklonia naklonil naklonila naklonili nakloní nakloním nakloníme nakloníš nakloň nakloňte
-12	8812	osnova	osnov osnovu osnovy osnovách
-13	8813	filmár	filmára filmári filmárom filmárov
-14	8814	nevyžadovať	nevyžaduje nevyžadujem nevyžadujú
-15	8815	neočakávaný	najneočakávanejších neočakávanom neočakávaná neočakávané neočakávaného neočakávanú neočakávaných neočakávaným
-16	8816	netradičný	netradičná netradičné netradičných netradičným
-17	8817	usudzovať	usudzoval usudzuje usudzujem usudzujeme usudzujete usudzuješ usudzujúc
-18	8818	koncentrovať	koncentroval koncentrovali koncentruj koncentruje koncentrujem koncentruješ koncentrujte koncentrujú
-19	8819	presmerovať	presmeroval presmerovala presmerovali presmeruj presmeruje presmerujem presmerujeme presmerujte
-20	8820	porovnávanie	porovnávania porovnávaní porovnávaním
-21	8821	očistec	očistca očistci
-22	8822	drahokam	drahokamami drahokamom drahokamov drahokamu drahokamy
-23	8823	zaujatý	zaujatá zaujaté zaujatí zaujatým
-24	8824	obluda	obludami oblude obludou obludu obludy oblúd
-25	8825	škrečok	škrečka škrečkom škrečkov škrečkovi škrečky
-26	8826	pozabíjať	pozabíja pozabíjajú pozabíjal pozabíjali pozabíjam pozabíjame pozabíjate pozabíjaš
-27	8827	intervencia	intervencie intervencii intervenciu
-28	8828	občasný	občasná občasné občasnú občasným občasnými
-29	8829	sloveso	slovesa slovesá slovies
-30	8830	zaručene	
-31	8831	nespočetný	nespočetné nespočetného nespočetných nespočetným nespočetnými
-32	8832	blondína	blondíne blondínou blondínu blondíny
-33	8833	zvracanie	zvracania zvracaniu zvracaním
-34	8834	eurozóna	eurozóne eurozóny
-35	8835	vplývať	vplýva vplývajú vplýval vplývalo
-36	8836	zbrojnica	zbrojnice zbrojnici zbrojnicou zbrojnicu
-37	8837	hrsť	hrste hrsti
-38	8838	podplatiť	podplatil podplatila podplatili podplatí podplatím podplatíme
-39	8839	ružovieť	ružovej
-40	8840	hromadiť	hromadia hromadil hromadili hromadí
-41	8841	koordinovať	koordinoval koordinovali koordinuje koordinujem koordinujeme koordinujú
-42	8842	silový	silová silové silového silových silovým
-43	8843	aspirín	aspirínom aspirínov aspirínu aspiríny
-44	8844	priďaleko	
-45	8845	spevnený	spevnená spevnené spevnených
-46	8846	tragicky	tragickejšie
-47	8847	poistné	poistnom poistného
-48	8848	osa	ose osie osieho osou osu osy osí
-49	8849	chvalabohu	
-50	8850	modelový	modelovej modelové modelového
-51	8851	podceňovať	podceňoval podceňovali podceňuje podceňujem podceňujete podceňuješ podceňujú
-52	8852	interpretovať	interpretoval interpretuje interpretujete
-53	8853	agresia	agresie agresii agresiou agresiu
-54	8854	faraón	faraóna faraóni faraónom faraónov faraónovi
-55	8855	nekecať	nekecaj nekecajte nekecal nekecá nekecám nekecáš
-56	8856	nepriznať	nepriznajú nepriznal nepriznala nepriznali neprizná nepriznám nepriznáme nepriznáte nepriznáš
-57	8857	priviazať	priviazal priviazala priviazali priviaž priviaže priviažem priviažeme priviažeš priviažte priviažu
-58	8858	produktivita	produktivitu produktivity
-59	8859	kokteil	kokteilom kokteilov kokteilu kokteily
-60	8860	poskladať	poskladaj poskladajú poskladal poskladala poskladali poskladá poskladám poskladáme poskladáš
-61	8861	preskúmanie	preskúmania preskúmaniu preskúmaní preskúmaním
-62	8862	zhoršenie	zhoršenia zhoršeniu
-63	8863	zaužívaný	zaužívané zaužívaných
-64	8864	uzdravenie	uzdravenia uzdraveniu uzdravení
-65	8865	neobyčajne	
-66	8866	rozprávač	rozprávača rozprávači rozprávačov
-67	8867	nemiešať	nemieša nemiešaj nemiešajte nemiešajú nemiešal nemiešala nemiešali nemiešam nemiešame
-68	8868	veranda	verande verandou verandu verandy verandách
-69	8869	napchať	napchaj napchajte napchajú napchal napchala napchali napchá napchám napcháme napcháte napcháš
-70	8870	maturitný	maturitnej maturitnom maturitná maturitné maturitného maturitnú maturitných
-71	8871	plátok	plátkom plátkov plátku plátky
-72	8872	náhradník	náhradníci náhradníka náhradníkom náhradníkov
-73	8873	znázornený	znázornená znázornené
-74	8874	statočne	statočnejšie
-75	8875	zdvih	zdvihov zdvihu zdvihy
-76	8876	magistrát	magistrátu
-77	8877	nedôverovať	nedôveroval nedôverovala nedôverovali nedôveruj nedôveruje nedôverujem nedôverujeme nedôverujete nedôveruješ nedôverujte nedôverujú
-78	8878	diagnostikovať	diagnostikoval diagnostikovala diagnostikovali diagnostikuje diagnostikujú
-79	8879	konštruktér	konštruktéri konštruktérov
-80	8880	čakáreň	čakárne čakárni čakárňach
-81	8881	osvojiť	osvoja osvojil osvojila osvojili
-82	8882	špecificky	
-83	8883	promócia	promócie promócii promóciou promóciu promóciách promóciám promócií
-84	8884	kúria	kúrie
-85	8885	palebný	palebnej palebnou palebná palebné palebného palebnú
-86	8886	bankovníctvo	bankovníctva bankovníctve
-87	8887	hráčsky	hráčske hráčskej hráčskom hráčsku
-88	8888	zjednodušene	
-89	8889	nepočkať	nepočkajú nepočkal nepočkala nepočkali nepočkalo nepočká nepočkám nepočkáme nepočkáte nepočkáš
-90	8890	potápať	potápa potápajú potápal potápala potápali potápam potápame potápate potápaš
-91	8891	transport	transporte transportom transportov transportu transporty
-92	8892	nepohodlný	nepohodlná nepohodlné nepohodlného nepohodlných nepohodlným
-93	8893	defekt	defektov defekty
-94	8894	ohovárať	ohovára ohovárajú ohováral ohovárala ohovárali ohováranie ohovárate ohováraš
-95	8895	chaotický	chaoticky chaotická chaotické chaotického chaotickú chaotických
-96	8896	povera	poverami povere poveru povery poverách poverám povier
-97	8897	archanjel	archanjela archanjeli archanjelov archanjelovi
-98	8898	záclona	záclon záclonami záclonou záclonu záclony
-99	8899	mesiáš	mesiáša mesiášom
-100	8900	obrnený	obrnenej obrnenom obrnená obrnené obrneného obrnených obrneným
+1	8801	hnací	hnacia hnacie hnacieho hnacou hnacím
+2	8802	impozantný	impozantnej impozantná impozantné impozantnú impozantných
+3	8803	obvodný	obvodné obvodného
+4	8804	sporák	sporáka sporákom sporáku
+5	8805	svitanie	svitania svitaní svitaním
+6	8806	rozveseliť	rozveselia rozveselil rozveselila rozveselili rozveselilo rozveselí rozveselím rozveselíme rozveselíš rozveseľ rozveseľte
+7	8807	diplomat	diplomata diplomati diplomatmi diplomatom diplomatov
+8	8808	cítenie	cítenia cítení cítením
+9	8809	vymenovanie	vymenovania vymenovaním
+10	8810	audiovizuálny	audiovizuálne audiovizuálneho audiovizuálnej audiovizuálnych
+11	8811	dotknutý	dotknutá dotknuté dotknutých
+12	8812	fantóm	fantómami fantómoch fantómom fantómov fantómový fantómy
+13	8813	prevážať	preváža prevážajú prevážal prevážala prevážali prevážam prevážame prevážate
+14	8814	hosťovská	hosťovskej hosťovskou hosťovské hosťovskú
+15	8815	bankomat	bankomate bankomatom bankomatov bankomatu bankomaty
+16	8816	malinký	malinkej malinká malinké malinkého malinkú malinkých malinkým
+17	8817	hlbina	hlbine hlbiny hlbinách hlbín
+18	8818	školné	školnom školného školnému školným
+19	8819	vykladať	nevykladaj vykladajú vykladal vykladala vykladali vykladá vykladám vykladáme vykladáte vykladáš
+20	8820	stopovať	stopoval stopovala stopovali stopuje stopujem stopujeme stopujete stopuješ stopujte stopujú
+21	8821	konzul	konzula konzulom konzulovi
+22	8822	rezervovaný	rezervovaná rezervované rezervovanú
+23	8823	zameniť	zamenil zamenila zamenili zamením zameníme zameň zamieňať
+24	8824	západne	
+25	8825	zmier	zmieri zmieru
+26	8826	posilňovať	posilňoval posilňovala posilňovali posilňuje posilňujem posilňujeme posilňuješ posilňujú
+27	8827	upratovačka	upratovačiek upratovačke upratovačkou upratovačku upratovačky
+28	8828	slezina	slezine slezinu sleziny
+29	8829	zriaďovateľ	zriaďovateľa zriaďovateľom
+30	8830	upadať	upadajú upadal upadala upadali upadá upadám
+31	8831	prísun	prísunu
+32	8832	vyplávať	nevyplával vypláva vyplávajú vyplával vyplávala vyplávali vyplávalo vyplávame vyplávate
+33	8833	podozrivo	podozrivejšie
+34	8834	vráska	vráskam vráskami vrásku vrásky vrások
+35	8835	výslovnosť	výslovnosti výslovnosťou
+36	8836	vedome	
+37	8837	logo	loga logom logá
+38	8838	nákazlivý	nákazlivej nákazlivou nákazlivá nákazlivé nákazlivú nákazlivých nákazlivým
+39	8839	rezance	rezancami rezancov
+40	8840	poklesnúť	poklesla poklesli poklesne poklesol
+41	8841	bonus	bonusom bonusov bonusy
+42	8842	charta	chartu charty
+43	8843	cica	cice cici ciciek cicka cicku cicky cicu cicuška
+44	8844	kolík	kolíkmi kolíkom kolíkov kolíku kolíky
+45	8845	polymér	polymérov polyméru polyméry
+46	8846	bilión	bilióna biliónmi biliónov bilióny
+47	8847	kokos	kokosom kokosov kokosu kokosy
+48	8848	genocída	genocíde genocídou genocídu genocídy
+49	8849	džínsy	džínsach džínsoch džínsov
+50	8850	kopija	kopijami kopije kopiji kopijou kopiju kopijí
+51	8851	nevyhnutnosť	nevyhnutnosti nevyhnutnosťou
+52	8852	návyk	návykmi návykoch návykom návykov návyku návyky
+53	8853	zmôcť	nezmohli nezmohol nezmôže nezmôžem nezmôžeme nezmôžete nezmôžeš nezmôžu zmohla zmohli zmohlo zmohol zmôže zmôžem zmôžeme zmôžete zmôžeš zmôžu
+54	8854	schmatnúť	schmatla schmatli schmatlo schmatne schmatnem schmatneš schmatni schmatnite schmatnú schmatol
+55	8855	odseknúť	odsekla odsekli odseklo odsekne odseknem odsekneme odseknete odsekneš odsekni odseknite odseknú odsekol
+56	8856	pokročiť	nepokročil nepokročila nepokročili pokročil pokročila pokročili pokročilo pokročí
+57	8857	slota	slotov slotu sloty
+58	8858	vytrvalosť	vytrvalosti vytrvalosťou
+59	8859	ubytovací	ubytovacej ubytovacie ubytovacích
+60	8860	naskytnúť	naskytla naskytlo naskytne naskytol nenaskytne
+61	8861	požičovňa	požičovne požičovni požičovní požičovňu
+62	8862	porušovanie	porušovania porušovaní porušovaním
+63	8863	burina	burinou burinu buriny burín
+64	8864	pud	pudmi pudom pudov pudu pudy
+65	8865	kečup	kečupe kečupom kečupu
+66	8866	kvalitne	kvalitnejšie najkvalitnejšie
+67	8867	jednorožec	jednorožca jednorožce jednorožci jednorožcom jednorožcov
+68	8868	miešaný	miešaná miešané miešaní miešaných miešanými
+69	8869	približný	približná približné približnú
+70	8870	rozmiestnenie	rozmiestnenia
+71	8871	živnosť	živnosti
+72	8872	humanitárny	humanitárna humanitárne humanitárnej humanitárnu humanitárnych
+73	8873	stúpenec	stúpenca stúpencami stúpenci stúpencom stúpencov
+74	8874	sloh	slohu slohy
+75	8875	tuniak	tuniaka tuniakom tuniakov tuniaky
+76	8876	zrúcanina	zrúcaninu zrúcaniny
+77	8877	podieť	podel podela podeli podelo
+78	8878	juhozápad	juhozápade juhozápadu
+79	8879	exkluzívny	exkluzívna exkluzívneho exkluzívnej exkluzívnom exkluzívnou exkluzívnu exkluzívnych exkluzívnym
+80	8880	číry	číra číre číreho čírej čírom čírou číru
+81	8881	surfovať	surfoval surfovala surfovali surfuje surfujem surfujete surfuješ surfujú
+82	8882	žurnalistika	žurnalistike žurnalistiku žurnalistiky
+83	8883	zúrivosť	zúrivosti zúrivosťou
+84	8884	splácať	spláca splácal splácali splácam splácate splácaš
+85	8885	pakt	pakte paktu
+86	8886	štekať	neštekaj neštekali neštekne nešteká štekaj štekajú štekajúci štekal štekali štekanie šteká štekám štekáte štekáš
+87	8887	vylučovanie	vylučovania vylučovaním
+88	8888	parfum	parfumom parfumov parfumu parfumy
+89	8889	legitímny	legitímna legitímne legitímneho legitímnej legitímnou legitímnu legitímnych legitímnym
+90	8890	filmovať	filmoval filmovali filmovanie filmuje filmujem filmujeme filmujete filmuješ filmujú nefilmuj
+91	8891	liečebňa	liečebne liečebni liečebňu
+92	8892	plutva	plutiev plutvami plutvou plutvu plutvy
+93	8893	presiahnuť	presiahla presiahli presiahne presiahnete presiahol
+94	8894	pstruh	pstruha pstruhov pstruhy
+95	8895	miešanie	miešania miešaním
+96	8896	bránka	bránke bránkou bránku bránky
+97	8897	hacker	hackera hackeri hackermi hackerom hackerov hackerovi
+98	8898	univerzálne	
+99	8899	neúspešne	
+100	8900	hlupaňa	hlupane hlupaňou hlupaňu

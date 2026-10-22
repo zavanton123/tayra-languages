@@ -1,19 +1,19 @@
 1	401	super	
 2	402	centrum	centier centra centrami centre centrom centru centrá centrách centrám
-3	403	zdať	zdajú zdal zdala zdali zdalo zdá zdám zdáte zdáš
+3	403	zdať	nezdajú nezdal nezdala nezdali nezdalo nezdá nezdám nezdáte nezdáš zdajú zdal zdala zdali zdalo zdá zdám zdáte zdáš
 4	404	základ	základe základmi základoch základom základov základu základy
-5	405	vravieť	vrav vravel vravela vraveli vravelo vravia vraviac vravte vraví vravím vravíme vravíte vravíš
-6	406	brať	ber berie beriem berieme beriete berieš berme berte berú berúc berúci bral brala brale brali bralo brania branie braním braný
+5	405	vravieť	nevrav nevravel nevravela nevraveli nevravia nevraviac nevravme nevravte nevraví nevravím nevravíme nevravíte nevravíš vrav vravel vravela vraveli vravelo vravia vraviac vravte vraví vravím vravíme vravíte vravíš
+6	406	brať	ber berie beriem berieme beriete berieš berme berte berú berúc berúci bral brala brale brali bralo brania branie braním braný neber neberie neberiem neberieme neberiete neberieš neberme neberte neberú nebral nebrala nebrali nebralo nebrať
 7	407	vtedy	
 8	408	moc	moci mocou mocí
-9	409	rozprávať	rozpráva rozprávaj rozprávajme rozprávajte rozprávajú rozprávajúc rozprával rozprávala rozprávali rozprávalo rozprávam rozprávame rozprávate rozprávaš
+9	409	rozprávať	nerozpráva nerozprávaj nerozprávajme nerozprávajte nerozprávajú nerozprával nerozprávala nerozprávali nerozprávam nerozprávame nerozprávate nerozprávaš nerozprávať rozpráva rozprávaj rozprávajme rozprávajte rozprávajú rozprávajúc rozprával rozprávala rozprávali rozprávalo rozprávam rozprávame rozprávate rozprávaš
 10	410	zatiaľ	
-11	411	písať	písal písala písali písalo písania písanie písaniu písané písaním písaný píš píše píšem píšeme píšete píšeš píšte píšu píšuci
+11	411	písať	nepísal nepísala nepísali nepísalo nepísať nepíš nepíše nepíšem nepíšeme nepíšete nepíšeš nepíšte nepíšu písal písala písali písalo písania písanie písaniu písané písaním písaný píš píše píšem píšeme píšete píšeš píšte píšu píšuci
 12	412	rodič	rodiča rodičia rodičmi rodičoch rodičom rodičov rodičovi
 13	413	zmena	zmenami zmene zmenou zmenu zmeny zmenách zmenám zmien
 14	414	pani	panej panie paniu paní paňou
 15	415	sestra	sesterské sesterský sestier sestrami sestre sestričiek sestrička sestričkami sestričke sestričkou sestričku sestričky sestričkách sestričkám sestrou sestru sestry sestrách sestrám
-16	416	pozerať	pozeraj pozerajme pozerajte pozerajú pozerajúc pozerajúci pozeral pozerala pozerali pozeralo pozerania pozeranie pozeraniu pozeraní pozeraním pozerá pozerám pozeráme pozeráte pozeráš
+16	416	pozerať	nepozeraj nepozerajme nepozerajte nepozerajú nepozeral nepozerala nepozerali nepozerať nepozerá nepozerám nepozeráme nepozeráte nepozeráš pozeraj pozerajme pozerajte pozerajú pozerajúc pozerajúci pozeral pozerala pozerali pozeralo pozerania pozeranie pozeraniu pozeraní pozeraním pozerá pozerám pozeráme pozeráte pozeráš
 17	417	ľahký	najľahšia najľahšie najľahšiu najľahšou najľahší najľahších najľahším ľahkej ľahko ľahkom ľahkou ľahká ľahké ľahkého ľahkú ľahkých ľahkým ľahkými ľahšia ľahšie ľahšieho ľahšiu ľahšou ľahší ľahších ľahším ľahšími
 18	418	národný	národnej národnom národnou národná národné národného národnému národní národnú národných národným národnými
 19	419	priestor	priestore priestormi priestoroch priestorom priestorov priestorové priestorový priestoru priestory
@@ -21,7 +21,7 @@
 21	421	vláda	vlád vládam vládami vláde vládna vládne vládneho vládnej vládnemu vládni vládnom vládnou vládnu vládny vládnych vládnym vládnymi vládou vládu vlády
 22	422	služba	službami službe službou službu služby službách službám služieb
 23	423	projekt	projektami projekte projektmi projektoch projektom projektov projektu projekty
-24	424	stačiť	stačia stačil stačila stačili stačilo stačí stačím stačíte stačíš
+24	424	stačiť	nestačia nestačil nestačila nestačili nestačilo nestačí nestačím nestačíme nestačíte nestačíš stačia stačil stačila stačili stačilo stačí stačím stačíte stačíš
 25	425	zmysel	zmyslami zmysle zmysloch zmyslom zmyslov zmyslu zmysly
 26	426	úloha	úloh úlohami úlohe úlohou úlohu úlohy úlohách úlohám
 27	427	biely	belší biela biele bieleho bielej bielemu bieli bielo bielom bielou bielu bielych bielym bielymi
@@ -37,10 +37,10 @@
 37	437	kurva	kuriev kurvami kurve kurvou kurvu kurvy kurvách kurvám
 38	438	skutočný	najskutočnejší skutočnej skutočnejší skutočnom skutočnou skutočná skutočné skutočného skutočnému skutoční skutočnú skutočných skutočným skutočnými
 39	439	pes	psa psami psi psoch psom psov psovi psy
-40	440	stratiť	stratia stratil stratila stratili stratilo stratí stratím stratíme stratíte stratíš strať straťte
-41	441	vybrať	vyber vyberie vyberiem vyberieme vyberiete vyberieš vyberme vyberte vyberú vybral vybrala vybrali vybralo
+40	440	stratiť	nestratia nestratil nestratila nestratili nestratilo nestratiť nestratí nestratím nestratíme nestratíte nestratíš nestrať nestraťme nestraťte stratia stratil stratila stratili stratilo stratí stratím stratíme stratíte stratíš strať straťte
+41	441	vybrať	nevyberie nevyberiem nevyberieme nevyberiete nevyberieš nevyberú nevybral nevybrala nevybrali nevybrať vyber vyberie vyberiem vyberieme vyberiete vyberieš vyberme vyberte vyberú vybral vybrala vybrali vybralo
 42	442	zas	zase
-43	443	jesť	jedenia jedenie jedeniu jedení jedením jedia jediaci jedla jedli jedol jedz jedzme jedzte jem jeme jete ješ zje zjedia zjedla zjedli zjedlo zjedol zjedz zjedzme zjedzte zjem zjeme zjesť zjete zješ
+43	443	jesť	jedenia jedenie jedení jedením jedia jedla jedli jedol jedz jedzte jem jeme jete ješ neje nejedia nejedla nejedli nejedol nejedz nejedzte nejem neješ nezjedla nezjedol nezjem nezješ zje zjedia zjedla zjedli zjedol zjedz zjedzte zjem zjeme zjesť zjete zješ
 44	444	smer	smere smermi smeroch smerom smerov smerové smerový smeru smery
 45	445	funkcia	funkciami funkcie funkcii funkciou funkciu funkciách funkciám funkcií
 46	446	zápas	zápase zápasmi zápasoch zápasom zápasov zápasu zápasy
@@ -58,18 +58,18 @@
 58	458	šťastný	najšťastnejšia najšťastnejšie najšťastnejšieho najšťastnejšiu najšťastnejšou najšťastnejší najšťastnejších najšťastnejším šťastne šťastnej šťastnejšia šťastnejšie šťastnejšieho šťastnejšiu šťastnejšou šťastnejší šťastnejších šťastnejším šťastnom šťastnou šťastná šťastné šťastného šťastnému šťastní šťastnú šťastných šťastným šťastnými
 59	459	telefón	telefonické telefonický telefóne telefónmi telefónne telefónny telefónoch telefónom telefónov telefónu telefóny
 60	460	proste	
-61	461	pamätať	pamätaj pamätajme pamätajte pamätajú pamätajúc pamätal pamätala pamätali pamätalo pamätanie pamätá pamätám pamätáme pamätáte pamätáš
+61	461	pamätať	nepamätajú nepamätal nepamätala nepamätali nepamätať nepamätá nepamätám nepamätáme nepamätáte nepamätáš pamätaj pamätajme pamätajte pamätajú pamätajúc pamätal pamätala pamätali pamätalo pamätanie pamätá pamätám pamätáme pamätáte pamätáš
 62	462	stav	stave stavmi stavoch stavom stavov stavovských stavu stavy
 63	463	jazyk	jazyka jazykmi jazykoch jazykom jazykov jazykové jazykový jazyku jazyky jazýček jazýčkom
 64	464	šanca	šancami šance šanci šanciach šancou šancu šancí
-65	465	trvať	netrvalo trvaj trvajte trvajú trvajúce trvajúci trval trvala trvali trvalo trvania trvanie trvaní trvaním trvá trvám trváme trváte trváš
+65	465	trvať	netrvaj netrvajú netrval netrvala netrvali netrvalo netrvá netrvám trvaj trvajte trvajú trvajúce trvajúci trval trvala trvali trvalo trvania trvanie trvaní trvaním trvá trvám trváme trváte trváš
 66	466	zdroj	zdroja zdroje zdroji zdrojmi zdrojoch zdrojom zdrojov zdroju
-67	467	skúsiť	skús skúsi skúsia skúsil skúsila skúsili skúsilo skúsim skúsime skúsite skúsiš skúsme skúste
-68	468	fungovať	fungoval fungovala fungovali fungovalo funguj funguje fungujem fungujeme funguješ fungujú
+67	467	skúsiť	neskús neskúsi neskúsia neskúsil neskúsila neskúsili neskúsim neskúsime neskúsite neskúsiš neskúsiť neskúste skús skúsi skúsia skúsil skúsila skúsili skúsilo skúsim skúsime skúsite skúsiš skúsme skúste
+68	468	fungovať	fungoval fungovala fungovali fungovalo funguj funguje fungujem fungujeme funguješ fungujú nefungoval nefungovala nefungovali nefungovalo nefungovať nefunguje nefungujú
 69	469	úžasný	najúžasnejšej najúžasnejšia najúžasnejšieho najúžasnejšiu najúžasnejšom najúžasnejšou najúžasnejší najúžasnejších najúžasnejším úžasnej úžasnejšia úžasnejší úžasnom úžasnou úžasná úžasné úžasného úžasnému úžasní úžasnú úžasných úžasným úžasnými
 70	470	nízky	najnižšej najnižšia najnižšie najnižšieho najnižšiu najnižšom najnižšou najnižší najnižších najnižším nižšej nižšie nižšieho nižšiu nižšom nižšou nižší nižších nižším nižšími nízka nízke nízkeho nízkej nízkemu nízki nízko nízkom nízkou nízku nízkych nízkym nízkymi
 71	471	budova	budov budovami budove budovou budovu budovy budovách budovám
-72	472	vyjsť	vychodil vychádza vychádzať vyjde vyjdem vyjdeme vyjdete vyjdeš vyjdi vyjdime vyjdite vyjdú vyšiel vyšla vyšli vyšlo
+72	472	vyjsť	nevychádza nevychádzaj nevychádzajte nevychádzajú nevychádzal nevychádzala nevychádzali nevychádzalo nevychádzam nevychádzame nevychádzate nevychádzaš nevychádzať nevyjde nevyjdem nevyjdeme nevyjdete nevyjdeš nevyjdú nevyšiel nevyšla nevyšli nevyšlo vychodil vychádza vychádzať vyjde vyjdem vyjdeme vyjdete vyjdeš vyjdi vyjdime vyjdite vyjdú vyšiel vyšla vyšli vyšlo
 73	473	stretnutie	stretnutia stretnutiach stretnutiam stretnutiami stretnutiu stretnutí stretnutím
 74	474	činnosť	činnosti činnostiach činnostiam činností činnosťami činnosťou
 75	475	krv	krvi krvou
@@ -85,16 +85,16 @@
 85	485	spoločný	spoločnej spoločnom spoločnou spoločná spoločné spoločného spoločnému spoloční spoločnú spoločných spoločným spoločnými
 86	486	pozor	pozore pozoru
 87	487	predsa	
-88	488	vyhrať	vyhraj vyhrajme vyhrajte vyhrajú vyhral vyhrala vyhrali vyhralo vyhraté vyhratý vyhrá vyhrám vyhráme vyhráte vyhráva vyhrávať vyhráš
+88	488	vyhrať	nevyhrajú nevyhral nevyhrala nevyhrali nevyhralo nevyhrá nevyhrám nevyhráme nevyhráte nevyhráva nevyhrávajú nevyhrávame nevyhráš vyhraj vyhrajme vyhrajte vyhrajú vyhral vyhrala vyhrali vyhralo vyhraté vyhratý vyhrá vyhrám vyhráme vyhráte vyhráva vyhrávať vyhráš
 89	489	opäť	
-90	490	sedieť	sedel sedela sedeli sedelo sedenia sedeniach sedeniami sedenie sedeniu sedení sedením sedia sediac sediaca sediace sediaceho sediacej sediaci sediacich sediacim sediacu sedí sedím sedíme sedíte sedíš seď seďte
+90	490	sedieť	nesedel nesedela nesedeli nesedelo nesedia nesedí nesedím nesedíme nesedíte nesedíš neseď neseďte sedel sedela sedeli sedelo sedenia sedeniach sedeniami sedenie sedeniu sedení sedením sedia sediac sediaca sediace sediaceho sediaci sediacich sediacim sediacu sedí sedím sedíme sedíte sedíš seď seďte
 91	491	článok	článkami článkoch článkom článkov článku články
 92	492	jedlo	jedla jedlami jedle jedlom jedlu jedlá jedlách jedlám jedál
-93	493	chýbať	chýba chýbajú chýbal chýbala chýbali chýbalo chýbam chýbame chýbate chýbaš
+93	493	chýbať	chýba chýbajú chýbal chýbala chýbali chýbalo chýbam chýbame chýbate chýbaš nechýba nechýbajú nechýbal nechýbala nechýbali nechýbalo nechýbam nechýbaš
 94	494	forma	foriem formami forme formou formu formy formách formám
 95	495	znova	
 96	496	pekne	krajšie najkrajšie
 97	497	hráč	hráča hráči hráčka hráčky hráčmi hráčoch hráčom hráčov hráčovi
 98	498	dole	
 99	499	napriek	
-100	500	obsahovať	obsahoval obsahovala obsahovali obsahovalo obsahuje obsahujú
+100	500	obsahovať	neobsahoval neobsahuje neobsahujú obsahoval obsahovala obsahovali obsahovalo obsahuje obsahujú

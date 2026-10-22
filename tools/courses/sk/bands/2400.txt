@@ -1,100 +1,100 @@
-1	2301	vyberať	vyberaj vyberajte vyberajú vyberal vyberala vyberali vyberalo vyberá vyberám vyberáme vyberáte vyberáš
-2	2302	pohreb	pohrebe pohreboch pohrebom pohrebov pohrebu pohreby
-3	2303	bočný	bočnej bočnom bočnou bočná bočné bočného bočnému bočnú bočných bočným bočnými
-4	2304	potravina	potravinami potraviny potravinách potravinám potravín
-5	2305	siedmy	siedma siedme siedmeho siedmej siedmemu siedmi siedmom siedmou siedmu siedmych siedmym siedmymi
-6	2306	brány	brán bránach bránam bránami
-7	2307	zakázaný	zakázanej zakázanom zakázaná zakázané zakázaného zakázaní zakázanú zakázaných zakázaným
-8	2308	hlupák	hlupáci hlupáka hlupákmi hlupákoch hlupákom hlupákov hlupákovi
-9	2309	kandidát	kandidáta kandidáti kandidátmi kandidátom
-10	2310	jazdec	jazdca jazdcami jazdci jazdcom jazdcov jazdcovi jazdecké jazdecký jazdkyňa
-11	2311	prístav	prístave prístavné prístavný prístavoch prístavom prístavov prístavu prístavy
-12	2312	otrok	otroci otrockej otrocká otrocké otrockú otrocký otrockých otroka otrokmi otrokoch otrokom otrokov otrokovi otrokyne otrokyňa otrokyňou otrokyňu otrokýň
-13	2313	dovnútra	
-14	2314	palec	palca palcami palce palci palcoch palcom palcov palček palčeka
-15	2315	spracovanie	spracovania spracovaniu spracovaním
-16	2316	rozísť	rozchodil rozchodiť rozchodí rozchodím rozchodíš rozchoď rozchádzajú rozchádzať rozišiel rozišla rozišli rozíde rozídem rozídeme rozídete rozídeš rozídu rozíď rozíďme rozíďte
-17	2317	tepelný	tepelnej tepelnom tepelnou tepelná tepelné tepelného tepelnú tepelných tepelným
-18	2318	čokoláda	čokolád čokoláde čokoládky čokoládou čokoládové čokoládový čokoládu čokolády
-19	2319	úmysel	úmyslami úmysle úmysloch úmyslom úmyslov úmyslu úmysly
-20	2320	súkromie	súkromia súkromiu súkromí súkromím
-21	2321	diaľnica	diaľnic diaľnice diaľnici diaľniciach diaľnicou diaľnicu diaľničnej diaľničný
-22	2322	zelená	zelenej
-23	2323	poprosiť	popros poprosia poprosil poprosila poprosili poproste poprosí poprosím poprosíme poprosíte poprosíš
+1	2301	dovnútra	
+2	2302	ušetriť	neušetria neušetril neušetrili neušetrí neušetrím neušetríte neušetríš ušetri ušetria ušetril ušetrila ušetrili ušetrilo ušetrime ušetrite ušetrí ušetrím ušetríme ušetríte ušetríš
+3	2303	lámať	lám lámal lámala lámali lámalo lámanie lámaní láme lámem lámeme lámete lámeš lámu neláme nelámem nelámte nezlom nezlomia nezlomil nezlomila nezlomili nezlomilo nezlomte nezlomí nezlomím nezlomíte nezlomíš zlomil zlomiť
+4	2304	poradiť	neporadia neporadil neporadila neporadili neporadí neporadím neporadíme neporadíte neporadíš poradil poradila poradili poradilo poradíme poradíte poradíš poraď poraďte
+5	2305	absolvovať	absolvoval absolvovala absolvovali absolvovalo absolvuje absolvujem absolvujeme absolvujete absolvuješ absolvujú neabsolvoval
+6	2306	hnutie	hnutia hnutiu hnutí hnutím
+7	2307	siedmy	siedma siedme siedmeho siedmej siedmemu siedmom siedmou siedmu siedmych siedmym siedmymi
+8	2308	potravina	potravinami potraviny potravinách potravinám potravín
+9	2309	otrok	otroci otrockej otrocká otrocké otrockú otrocký otrockých otroka otrokmi otrokoch otrokom otrokov otrokovi otrokyne otrokyňa otrokyňou otrokyňu otrokýň
+10	2310	zakázaný	zakázanej zakázanom zakázaná zakázané zakázaného zakázaní zakázanú zakázaných zakázaným
+11	2311	poprosiť	nepoprosil nepoprosíš popros poprosia poprosil poprosila poprosili poproste poprosí poprosím poprosíme poprosíte poprosíš
+12	2312	brány	brán bránach bránam bránami
+13	2313	pasca	pascami pasce pasci pascou pascu pascí
+14	2314	spoznávať	nespoznáva nespoznával nespoznávala nespoznávam nespoznávate nespoznávaš spoznáva spoznávajú spoznával spoznávali spoznávam spoznávame spoznávate spoznávaš
+15	2315	úmysel	úmyslami úmysle úmysloch úmyslom úmyslov úmyslu úmysly
+16	2316	palec	palca palcami palce palci palcoch palcom palcov palček palčeka
+17	2317	bočný	bočnej bočnom bočnou bočná bočné bočného bočnému bočnú bočných bočným bočnými
+18	2318	prístav	prístave prístavné prístavný prístavoch prístavom prístavov prístavu prístavy
+19	2319	čokoláda	čokolád čokoláde čokoládky čokoládou čokoládové čokoládový čokoládu čokolády
+20	2320	jazdec	jazdca jazdcami jazdci jazdcom jazdcov jazdcovi jazdecké jazdecký jazdkyňa
+21	2321	dozadu	
+22	2322	kandidát	kandidáta kandidáti kandidátmi kandidátom
+23	2323	súkromie	súkromia súkromiu súkromí súkromím
 24	2324	omyl	omyle omylom omylov omylu omyly
-25	2325	financie	financiami financiách financiám financií
-26	2326	soľ	soli solí soľnej soľná soľné soľného soľný soľných soľným soľou
-27	2327	veru	
-28	2328	spor	spore spormi sporoch sporom sporov sporu spory
-29	2329	dôchodok	dôchodkom dôchodkov dôchodku dôchodky
-30	2330	pasca	pascami pasce pasci pascou pascu pascí
-31	2331	mobilný	mobilnej mobilnom mobilnou mobilná mobilné mobilného mobilní mobilnú mobilných mobilným mobilnými
+25	2325	oblek	oblekmi oblekoch oblekom oblekov obleku obleky
+26	2326	podporiť	nepodporia nepodporil nepodporila nepodporili nepodporí nepodporím nepodporíš podporia podporil podporila podporili podporilo podporme podporte podporí podporím podporíme podporíte podporíš
+27	2327	popoludnie	popoludnia popoludní
+28	2328	veru	
+29	2329	slepý	slepej slepom slepou slepá slepé slepého slepému slepí slepú slepých slepým slepými
+30	2330	dôchodok	dôchodkom dôchodkov dôchodku dôchodky
+31	2331	cudzinec	cudzinca cudzincami cudzinci cudzincoch cudzincom cudzincov cudzincovi cudzineckej cudzinecká cudzinecký cudzinka cudzinku cudzinky
 32	2332	modlitba	modlitbami modlitbe modlitbou modlitbu modlitby modlitbách modlitbám modlitieb
-33	2333	súboj	súboja súboje súboji súbojoch súbojom súbojov súboju
-34	2334	dozadu	
-35	2335	popoludnie	popoludnia popoludní
-36	2336	pochybovať	pochyboval pochybovala pochybovali pochybovalo pochybuje pochybujem pochybujeme pochybujete pochybuješ pochybujú
-37	2337	podieľať	podieľa podieľajú podieľal podieľala podieľali podieľalo podieľam podieľate
-38	2338	nevyhnutný	nevyhnutnej nevyhnutnou nevyhnutná nevyhnutné nevyhnutného nevyhnutnému nevyhnutní nevyhnutnú nevyhnutných nevyhnutným nevyhnutnými
-39	2339	oblek	oblekmi oblekoch oblekom oblekov obleku obleky
-40	2340	cudzinec	cudzinca cudzincami cudzinci cudzincoch cudzincom cudzincov cudzincovi cudzineckej cudzinecká cudzinecký cudzinka cudzinku cudzinky
-41	2341	slepý	slepej slepom slepou slepá slepé slepého slepému slepí slepú slepých slepým slepými
-42	2342	ušetriť	ušetri ušetria ušetril ušetrila ušetrili ušetrilo ušetrime ušetrite ušetrí ušetrím ušetríme ušetríte ušetríš
-43	2343	predpoklad	predpoklade predpokladoch predpokladom predpokladov predpokladu predpoklady
-44	2344	nahrávka	nahrávkach nahrávkam nahrávkami nahrávke nahrávkou nahrávku nahrávky nahrávok
-45	2345	odpor	odpore odporom odporu
-46	2346	akonáhle	
-47	2347	nepatriť	nepatri nepatria nepatril nepatrila nepatrili nepatrilo nepatrí nepatrím nepatríme nepatríte nepatríš
-48	2348	zamerať	zameraj zamerajme zamerajte zamerajú zameral zamerala zamerali zameralo zameria zameriam zameriame zameriate zameriaš
-49	2349	prestávka	prestávkami prestávke prestávkou prestávku prestávky prestávok
+33	2333	spracovanie	spracovania spracovaniu spracovaním
+34	2334	soľ	soli solí soľnej soľná soľné soľného soľný soľných soľným soľou
+35	2335	diaľnica	diaľnic diaľnice diaľnici diaľniciach diaľnicou diaľnicu diaľničnej diaľničný
+36	2336	súboj	súboja súboje súboji súbojoch súbojom súbojov súboju
+37	2337	zelená	
+38	2338	tepelný	tepelnej tepelnom tepelnou tepelná tepelné tepelného tepelnú tepelných tepelným
+39	2339	nevyhnutný	nevyhnutnej nevyhnutnou nevyhnutná nevyhnutné nevyhnutného nevyhnutnému nevyhnutní nevyhnutnú nevyhnutných nevyhnutným nevyhnutnými
+40	2340	financie	financiami financiách financiám financií
+41	2341	naznačovať	naznačoval naznačovala naznačovali naznačovalo naznačuje naznačujem naznačujete naznačuješ naznačujú nenaznačoval nenaznačovala nenaznačovalo nenaznačuje nenaznačujem nenaznačujete nenaznačuješ nenaznačujú
+42	2342	mobilný	mobilnej mobilnom mobilnou mobilná mobilné mobilného mobilní mobilnú mobilných mobilným mobilnými
+43	2343	spor	spore spormi sporoch sporom sporov sporu spory
+44	2344	akonáhle	
+45	2345	nahrávka	nahrávkach nahrávkam nahrávkami nahrávke nahrávkou nahrávku nahrávky nahrávok
+46	2346	podieľať	nepodieľal podieľa podieľajú podieľal podieľala podieľali podieľalo podieľam podieľate
+47	2347	vlastniť	nevlastnia nevlastnil nevlastnila nevlastnili nevlastním nevlastníme nevlastníte nevlastníš vlastni vlastnia vlastnil vlastnila vlastnili vlastnilo vlastnite vlastním vlastníme vlastníte vlastníš
+48	2348	rešpektovať	nerešpektoval nerešpektovala nerešpektovali nerešpektovať nerešpektuje nerešpektujem nerešpektujete nerešpektuješ nerešpektujú rešpektoval rešpektovala rešpektovali rešpektuj rešpektuje rešpektujem rešpektujeme rešpektujete rešpektuješ rešpektujte rešpektujú
+49	2349	zamerať	nezameriame nezameriaš zameraj zamerajme zamerajte zamerajú zameral zamerala zamerali zameralo zameria zameriam zameriame zameriate zameriaš
 50	2350	šou	
-51	2351	príznak	príznakmi príznakoch príznakom príznakov príznaku príznaky
-52	2352	prevažne	
-53	2353	výzva	výziev výzvach výzvam výzvami výzve výzvou výzvu výzvy
-54	2354	právnický	právnickej právnickom právnickou právnická právnické právnického právnickú právnických právnickým právnickými
-55	2355	zachytiť	zachytia zachytil zachytila zachytili zachytilo zachytí zachytím zachytíme zachytíte zachytíš zachyť zachyťte
-56	2356	úvaha	úvah úvahami úvahe úvahu úvahy úvahách
+51	2351	zadržať	nezadržal nezadržali nezadržia nezadrží nezadržím nezadržíme nezadržíte zadrž zadržal zadržala zadržali zadržalo zadržia zadržte zadrží zadržím zadržíme zadržíte zadržíš
+52	2352	predpoklad	predpoklade predpokladoch predpokladom predpokladov predpokladu predpoklady
+53	2353	babka	babiek babke babkou babku babky babkám
+54	2354	odpor	odpore odporom odporu
+55	2355	odtlačok	odtlačkami odtlačkoch odtlačkom odtlačkov odtlačku odtlačky
+56	2356	prestávka	prestávkami prestávke prestávkou prestávku prestávky prestávok
 57	2357	zatknutý	zatknutá zatknuté zatknutého zatknutí zatknutých
-58	2358	kyslík	kyslíka kyslíkom kyslíku
-59	2359	skončenie	skončenia skončení skončením
-60	2360	podporiť	podporia podporil podporila podporili podporilo podporme podporte podporí podporím podporíme podporíte podporíš
-61	2361	babka	babiek babke babkou babku babky babkám
-62	2362	výtvarný	výtvarnej výtvarnom výtvarná výtvarné výtvarného výtvarnú výtvarných výtvarným výtvarnými
-63	2363	divoký	divokej divokom divokou divoká divoké divokého divokí divokú divokých divokým divokými najdivokejší najdivokejších
-64	2364	odtlačok	odtlačkami odtlačkoch odtlačkom odtlačkov odtlačku odtlačky
-65	2365	vyskytovať	vyskytovali vyskytuje vyskytujú
-66	2366	minulo	minula minule minulom minulu
-67	2367	nehýbať	nehýb nehýbal nehýbala nehýbali nehýbalo nehýbe nehýbem nehýbeme nehýbete nehýbeš nehýbte nehýbu
-68	2368	poriadny	poriadna poriadneho poriadnej poriadnemu poriadni poriadnom poriadnou poriadnu poriadnych poriadnym poriadnymi
-69	2369	infekcia	infekciami infekcie infekcii infekciou infekciu infekciách infekciám infekcií
-70	2370	stan	stanmi stanoch stanom stanov stanoví stanu stany
-71	2371	žartovať	žartoval žartovala žartovali žartuj žartuje žartujem žartujeme žartujete žartuješ žartujú
-72	2372	kalendár	kalendára kalendáre kalendári kalendárneho kalendárny kalendárom kalendárov kalendáru
-73	2373	jemný	jemnejšia jemnejšiu jemnejší jemnom jemnou jemná jemné jemného jemní jemnú jemných jemným jemnými najjemnejšieho najjemnejší najjemnejších
-74	2374	zamilovať	zamiloval zamilovala zamilovali zamilovalo zamiluj zamiluje zamilujem zamilujeme zamilujete zamiluješ zamilujú
-75	2375	lacný	lacnejšia lacnejšiu lacnejší lacnejších lacnejšími lacnom lacnou lacná lacné lacného lacnému lacní lacnú lacných lacným lacnými najlacnejšia najlacnejšieho najlacnejší najlacnejších
-76	2376	navrhnutý	navrhnutej navrhnutá navrhnuté navrhnutú navrhnutých
-77	2377	poradiť	poradil poradila poradili poradilo poradíme poradíte poradíš poraď poraďte
-78	2378	pripadať	pripadajú pripadal pripadala pripadali pripadalo pripadá pripadám pripadáte pripadáš
-79	2379	dvojitý	dvojitej dvojitom dvojitou dvojitá dvojité dvojitého dvojitému dvojití dvojitú dvojitých dvojitým dvojitými
-80	2380	podstatný	podstatnej podstatnou podstatná podstatné podstatného podstatnú podstatných podstatným
-81	2381	spišský	spišskej spišskom spišská spišské spišského spišskú spišských
-82	2382	obvykle	
-83	2383	neskončiť	neskonči neskončia neskončil neskončila neskončili neskončilo neskončí neskončím neskončíme neskončíte neskončíš
-84	2384	výkonný	najvýkonnejší výkonnej výkonnejší výkonnom výkonnou výkonná výkonné výkonného výkonnému výkonní výkonnú výkonných výkonným výkonnými
-85	2385	šikovný	najšikovnejší najšikovnejších šikovne šikovnej šikovnejšia šikovnejšie šikovnejší šikovná šikovné šikovného šikovní šikovnú šikovných šikovným šikovnými
-86	2386	našťastie	
-87	2387	mam	
-88	2388	štadión	štadióna štadióne štadiónoch štadiónom štadiónov štadiónu štadióny
-89	2389	vianočný	vianočne vianočnej vianočnom vianočnou vianočná vianočné vianočného vianočnú vianočných vianočným vianočnými
-90	2390	kôš	koša koše koši košoch košom košov košu košík košíček košíčky
-91	2391	plánovaný	plánovanej plánovanom plánovanou plánovaná plánované plánovaného plánovanému plánovaní plánovanú plánovaných plánovaným
-92	2392	nútiť	núti nútia nútiac nútil nútila nútili nútilo nútim nútime nútite nútiš
-93	2393	zastávka	zastávkach zastávkami zastávke zastávkou zastávku zastávky zastávok
-94	2394	kreslo	kresiel kresla kresle kreslom kreslu kreslá kreslách
-95	2395	hnedý	hnedej hnedo hnedom hnedou hnedá hnedé hnedého hnedí hnedú hnedých hnedým hnedými
-96	2396	navrhovať	navrhoval navrhovala navrhovali navrhuje navrhujem navrhujeme navrhujete navrhuješ navrhujú
-97	2397	vystupovať	vystupoval vystupovala vystupovali vystupuj vystupuje vystupujem vystupujeme vystupujete vystupuješ vystupujte vystupujú
-98	2398	výpoveď	výpovede výpovedi výpovediach výpovediam výpovedí výpoveďami výpoveďou
-99	2399	dočasný	dočasnej dočasnom dočasnou dočasná dočasné dočasného dočasnú dočasných dočasným
-100	2400	čudný	najčudnejšia najčudnejší najčudnejších čudnej čudnejšia čudnejší čudnom čudnou čudná čudné čudného čudnému čudní čudnú čudných čudným čudnými
+58	2358	minulo	minula minule minulom minulu
+59	2359	výzva	výziev výzvach výzvam výzvami výzve výzvou výzvu výzvy
+60	2360	divoký	divokej divokom divokou divoká divoké divokého divokí divokú divokých divokým divokými najdivokejší najdivokejších
+61	2361	navrhovať	navrhoval navrhovala navrhovali navrhuje navrhujem navrhujeme navrhujete navrhuješ navrhujú nenavrhoval nenavrhujem nenavrhujete nenavrhuješ
+62	2362	úvaha	úvah úvahami úvahe úvahu úvahy úvahách
+63	2363	poriadny	poriadna poriadneho poriadnej poriadnemu poriadni poriadnom poriadnou poriadnu poriadnych poriadnym poriadnymi
+64	2364	príznak	príznakmi príznakoch príznakom príznakov príznaku príznaky
+65	2365	vystupovať	nevystupoval nevystupovali nevystupuj nevystupuje nevystupujem nevystupujete nevystupujte vystupoval vystupovala vystupovali vystupuj vystupuje vystupujem vystupujeme vystupujete vystupuješ vystupujte vystupujú
+66	2366	kyslík	kyslíka kyslíkom kyslíku
+67	2367	stan	stanmi stanoch stanom stanov stanoví stanu stany
+68	2368	právnický	právnickej právnickom právnickou právnická právnické právnického právnickú právnických právnickým právnickými
+69	2369	kontaktovať	kontaktoval kontaktovala kontaktovali kontaktovalo kontaktuj kontaktuje kontaktujem kontaktujeme kontaktujete kontaktuješ kontaktujte kontaktujú nekontaktoval nekontaktovala nekontaktovali nekontaktovať nekontaktuj nekontaktuje nekontaktujte
+70	2370	infekcia	infekciami infekcie infekcii infekciou infekciu infekciách infekciám infekcií
+71	2371	jemný	jemnejšia jemnejšiu jemnejší jemnom jemnou jemná jemné jemného jemní jemnú jemných jemným jemnými najjemnejšieho najjemnejší najjemnejších
+72	2372	prevažne	
+73	2373	lacný	lacnejšia lacnejšiu lacnejší lacnejších lacnejšími lacnom lacnou lacná lacné lacného lacnému lacní lacnú lacných lacným lacnými najlacnejšia najlacnejšieho najlacnejší najlacnejších
+74	2374	mam	
+75	2375	dvojitý	dvojitej dvojitom dvojitou dvojitá dvojité dvojitého dvojitému dvojití dvojitú dvojitých dvojitým dvojitými
+76	2376	skončenie	skončenia skončení skončením
+77	2377	šikovný	najšikovnejší najšikovnejších šikovne šikovnej šikovnejšia šikovnejšie šikovnejší šikovná šikovné šikovného šikovní šikovnú šikovných šikovným šikovnými
+78	2378	výtvarný	výtvarnej výtvarnom výtvarná výtvarné výtvarného výtvarnú výtvarných výtvarným výtvarnými
+79	2379	čudný	najčudnejšia najčudnejší najčudnejších čudnej čudnejšia čudnejší čudnom čudnou čudná čudné čudného čudnému čudní čudnú čudných čudným čudnými
+80	2380	našťastie	
+81	2381	kalendár	kalendára kalendáre kalendári kalendárneho kalendárny kalendárom kalendárov kalendáru
+82	2382	zopakovať	nezopakovalo nezopakuj nezopakuje nezopakujem nezopakujeme nezopakuješ zopakoval zopakovala zopakovali zopakovalo zopakuj zopakuje zopakujem zopakujeme zopakujete zopakuješ zopakujme zopakujte zopakujú
+83	2383	podstatný	podstatnej podstatnou podstatná podstatné podstatného podstatnú podstatných podstatným
+84	2384	vianočný	vianočne vianočnej vianočnom vianočnou vianočná vianočné vianočného vianočnú vianočných vianočným vianočnými
+85	2385	obvykle	
+86	2386	kôš	koša koše koši košoch košom košov košu košík košíček košíčky
+87	2387	navrhnutý	navrhnutej navrhnutá navrhnuté navrhnutú navrhnutých
+88	2388	kreslo	kresiel kresla kresle kreslom kreslu kreslá kreslách
+89	2389	uniknúť	neunikla neunikli neuniklo neunikne neuniknem neuniknete neunikneš neuniknú neunikol unikla unikli uniklo unikne uniknem unikneme uniknete unikneš uniknú unikol
+90	2390	výpoveď	výpovede výpovedi výpovediach výpovediam výpovedí výpoveďami výpoveďou
+91	2391	výkonný	najvýkonnejší výkonnej výkonnejší výkonnom výkonnou výkonná výkonné výkonného výkonnému výkonní výkonnú výkonných výkonným výkonnými
+92	2392	kŕmiť	kŕmenia kŕmenie kŕmeniu kŕmení kŕmením kŕmený kŕmi kŕmia kŕmiaci kŕmil kŕmila kŕmili kŕmilo kŕmim kŕmime kŕmite kŕmiš nakŕm nakŕmi nakŕmia nakŕmil nakŕmila nakŕmili nakŕmim nakŕmime nakŕmite nakŕmiš nakŕmiť nakŕmte nekŕm nekŕmia nekŕmil nekŕmili nekŕmiš nekŕmte nenakŕmi nenakŕmil nenakŕmila nenakŕmiš
+93	2393	milenec	milenca milencami milenci milencoch milencom milencov milencovi milenecká milenecké mileneckú milenecký mileniek milenka milenkami milenke milenkou milenku milenky
+94	2394	zastávka	zastávkach zastávkami zastávke zastávkou zastávku zastávky zastávok
+95	2395	spišský	spišskej spišskom spišská spišské spišského spišskú spišských
+96	2396	hnedý	hnedej hnedo hnedom hnedou hnedá hnedé hnedého hnedí hnedú hnedých hnedým hnedými
+97	2397	horieť	hor horel horela horeli horelo horenie horia horiac horiace horiaci horí horím horíme horíš nehorelo nehorí
+98	2398	štadión	štadióna štadióne štadiónoch štadiónom štadiónov štadiónu štadióny
+99	2399	plánovaný	plánovanej plánovanom plánovanou plánovaná plánované plánovaného plánovanému plánovaní plánovanú plánovaných plánovaným
+100	2400	vyvinúť	nevyvinul nevyvinuli nevyvinulo nevyvinú vyvinie vyvinieme vyvinul vyvinula vyvinuli vyvinulo vyvinú

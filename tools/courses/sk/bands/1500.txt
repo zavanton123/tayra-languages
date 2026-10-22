@@ -1,100 +1,100 @@
-1	1401	strýko	strýka strýkom strýkov strýkovi strýkovia
-2	1402	ukončiť	ukonči ukončia ukončil ukončila ukončili ukončilo ukončime ukončite ukončme ukončí ukončím ukončíme ukončíte ukončíš
-3	1403	vojsť	vchádza vchádzať vojde vojdem vojdeme vojdete vojdeš vojdi vojdite vojdú vošiel vošla vošli vošlo
-4	1404	výstava	výstav výstave výstavné výstavný výstavou výstavu výstavy výstavách
-5	1405	zahrať	zahraj zahrajme zahrajte zahrajú zahral zahrala zahrali zahrá zahrám zahráme zahráte zahráš
-6	1406	vymeniť	vymenenie vymenené vymenený vymenia vymenil vymenila vymenili vymenilo vymení vymením vymeníme vymeníte vymeníš vymeň vymeňme vymeňte vymieňajú vymieňať
-7	1407	správanie	správania správaniu správaní správaním
-8	1408	vyše	
-9	1409	nos	nosa nose nosmi nosom nosov nosovej nosové nosový nosových nosu nosy noštek
-10	1410	vrchol	vrchole vrcholmi vrcholoch vrcholom vrcholov vrcholu vrcholy
-11	1411	koláč	koláča koláče koláči koláčik koláčiky koláčmi koláčoch koláčom koláčov koláčová koláčové koláčovú koláčový koláču
-12	1412	následok	následkami následkoch následkom následkov následku následky
-13	1413	dna	dnami dne dnou dny
-14	1414	spájať	spája spájajú spájal spájala spájali spájalo spájam spájame spájate spájaš
-15	1415	vymyslieť	vymyslel vymyslela vymysleli vymysli vymyslia vymyslime vymyslite vymyslí vymyslím vymyslíme vymyslíte vymyslíš
-16	1416	režim	režime režimoch režimom režimov režimu režimy
-17	1417	oslava	oslavami oslave oslavou oslavu oslavy oslavách oslavám osláv
-18	1418	mnohé	mnohom mnohého mnohému
-19	1419	ľúbiť	ľúb ľúbi ľúbia ľúbil ľúbila ľúbili ľúbim ľúbime ľúbite ľúbiš
-20	1420	zahŕňať	zahŕňa zahŕňajú zahŕňajúc zahŕňal zahŕňala zahŕňali zahŕňalo
-21	1421	chránený	chránenej chránenom chránenou chránená chránené chráneného chránení chránenú chránených chráneným
-22	1422	takisto	
-23	1423	drevený	drevenom drevenou drevená drevené dreveného drevenému drevenú drevených dreveným drevenými
-24	1424	vek	vekmi vekoch vekom vekov veky
-25	1425	trasa	trasami trase trasou trasu trasy trasách trás
-26	1426	rádio	rádia rádiom rádiové rádiový rádiu rádiá rádiách rádií
-27	1427	sobota	sobote sobotnej sobotnom sobotná sobotné sobotného sobotnú sobotný sobotných sobotu soboty sobotňajšej sobotňajšia sobotňajšie sobotňajšiu sobotňajší sobotňajších sobotňajším
-28	1428	príjemný	najpríjemnejšia najpríjemnejší príjemnej príjemnejšej príjemnejšia príjemnejší príjemnejším príjemnom príjemnou príjemná príjemné príjemného príjemní príjemnú príjemných príjemným
-29	1429	sudca	sudcami sudcom sudcov sudcovi sudcovia sudcovskej sudcu sudkyne sudkyni sudkyňa sudkyňou sudkyňu
-30	1430	obava	obavami obave obavou obavu obavy obavách obavám obáv
-31	1431	nedostatok	nedostatkami nedostatkoch nedostatkom nedostatkov nedostatku nedostatky
-32	1432	baliť	balenia balenie balené balení balením balia baliaci balil balila balili balí balím balíme balíte balíš zabalia zabalil zabalila zabalili zabaliť zabalí zabalím zabalíme zabalíš zabaľ zabaľme zabaľte zbalia zbalil zbalila zbalili zbaliť zbalí zbalím zbalíme zbalíš zbaľ zbaľme zbaľte
-33	1433	majiteľ	majitelia majiteľa majiteľmi majiteľom majiteľov majiteľovi
-34	1434	roh	rohami rohmi rohoch rohom rohov rohová rohový rohu rohy rožku rožky rožok
-35	1435	ublížiť	ublíž ublíži ublížia ublížil ublížila ublížili ublížilo ublížim ublížime ublížite ublížiš ublížte
-36	1436	odchod	odchode odchodom odchodov odchodu odchody
-37	1437	fanúšik	fanúšika fanúšikmi fanúšikoch fanúšikom fanúšikov fanúšikovi fanúšikovia
-38	1438	zobudiť	zobudia zobudil zobudila zobudili zobudilo zobudí zobudím zobudíme zobudíte zobudíš zobuď zobuďme zobuďte
-39	1439	pohybovať	pohyboval pohybovala pohybovali pohybovalo pohybuj pohybuje pohybujem pohybujeme pohybujete pohybuješ pohybujte pohybujú pohybujúc
-40	1440	upokojiť	upokoj upokoja upokojil upokojila upokojili upokojilo upokojme upokojte upokojí upokojím upokojíme upokojíte upokojíš
-41	1441	spustiť	spusti spustia spustil spustila spustili spustilo spustime spustite spustí spustím spustíme spustíte spustíš spusť spusťte
-42	1442	ľad	ľade ľadom ľadov ľadovej ľadový ľadu ľady
-43	1443	typický	typickej typickom typickou typická typické typického typickí typickú typických typickým typickými
-44	1444	vydanie	vydania vydaniach vydaniu vydaním
-45	1445	paluba	palube palubou palubu paluby palubách palubám palúb
-46	1446	suchý	najsuchších sucha suchej sucho suchom suchou suchá suché suchého suchí suchú suchých suchým suchými
-47	1447	súčasne	
-48	1448	rakúsky	rakúska rakúske rakúskeho rakúskej rakúski rakúskom rakúskou rakúsku rakúskych rakúskym
-49	1449	lov	love lovná lovom lovov lovu lovy
-50	1450	požiadavka	požiadaviek požiadavkami požiadavke požiadavkou požiadavku požiadavky požiadavkách požiadavkám
-51	1451	trpieť	trpel trpela trpeli trpelo trpia trpte trpí trpím trpíme trpíte trpíš
-52	1452	vyskúšať	vyskúša vyskúšaj vyskúšajme vyskúšajte vyskúšajú vyskúšal vyskúšala vyskúšali vyskúšam vyskúšame vyskúšate vyskúšaš
-53	1453	nastúpiť	nastupovať nastupuje nastúp nastúpený nastúpi nastúpia nastúpil nastúpila nastúpili nastúpilo nastúpim nastúpime nastúpite nastúpiš nastúpme nastúpte
-54	1454	celkovo	
-55	1455	priemysel	priemysle priemyslom priemyslu
-56	1456	stiahnuť	stiahla stiahli stiahlo stiahne stiahnem stiahneme stiahnete stiahneš stiahni stiahnime stiahnite stiahnu stiahol
-57	1457	tabuľa	tabule tabuli tabuľami tabuľka tabuľky tabuľou tabuľu tabúľ
-58	1458	horúci	horúca horúce horúceho horúcej horúcejšia horúcejšie horúcemu horúcich horúcim horúcimi horúcom horúcou horúcu najhorúcejšej najhorúcejšia najhorúcejšie najhorúcejší
-59	1459	napokon	
-60	1460	skrývať	skrýva skrývaj skrývajú skrývajúc skrýval skrývala skrývali skrývalo skrývam skrývame skrývate skrývaš
-61	1461	zóna	zón zónach zónami zóne zónou zónu zóny
-62	1462	poďakovať	poďakoval poďakovala poďakovali poďakuj poďakuje poďakujem poďakujeme poďakujete poďakuješ poďakujme poďakujte poďakujú
-63	1463	narodeniny	narodeninami narodeninách narodeninám narodenín
-64	1464	mýliť	mýli mýlia mýlil mýlila mýlili mýlilo mýlim mýlime mýlite mýliš
-65	1465	uviesť	uvedie uvediem uvedieme uvediete uvedieš uvedú uveď uveďte uviedla uviedli uviedlo uviedol
-66	1466	prítomnosť	prítomnosti prítomnosťou
-67	1467	kapacita	kapacite kapacitou kapacitu kapacity kapacít
-68	1468	študovať	študoval študovala študovali študuj študuje študujem študujeme študujete študuješ študujte študujú
-69	1469	žiak	žiaci žiacke žiaka žiakmi žiakom žiakov žiakovi žiačka žiačke žiačkou žiačku žiačok
-70	1470	unavený	unavenej unavená unavené unaveného unavení unavenú unavených
-71	1471	opakovať	opakoval opakovala opakovali opakovalo opakuj opakuje opakujem opakujeme opakujete opakuješ opakujte opakujú opakujúc
-72	1472	dvor	dvora dvore dvornej dvornou dvorná dvorné dvorného dvornú dvorný dvorných dvorným dvoroch dvorom dvorov dvoru dvory dvorček dvorčeku
-73	1473	poradie	poradia poradí poradím
-74	1474	stovka	stoviek stovkami stovke stovkou stovku stovky stovkách stovkám stovák
-75	1475	premiér	premiéra premiére premiérka premiérky premiérom premiérou premiérov premiérovej premiérovi premiérovo premiérovom premiérové premiérový premiéru premiéry
-76	1476	účinok	účinkami účinkoch účinkom účinkov účinku účinky
-77	1477	zaoberať	zaoberaj zaoberajme zaoberajte zaoberajú zaoberajúc zaoberal zaoberala zaoberali zaoberalo zaoberá zaoberám zaoberáme zaoberáte zaoberáš
-78	1478	zdravotný	zdravotnej zdravotnom zdravotnou zdravotná zdravotné zdravotného zdravotnému zdravotnú zdravotných zdravotným zdravotnými
-79	1479	umelec	umelca umelcami umelci umelcoch umelcom umelcov umelcovi
-80	1480	dobro	dobra dobrom dobru dobrá
-81	1481	minimálny	minimálna minimálne minimálneho minimálnej minimálnom minimálnou minimálnu minimálnych minimálnym minimálnymi
-82	1482	zodpovednosť	zodpovednosti zodpovedností zodpovednosťami zodpovednosťou
-83	1483	výnimka	výnimiek výnimkami výnimkou výnimku výnimky
-84	1484	neznášať	neznáša neznášajú neznášal neznášala neznášali neznášam neznášame neznášate neznášaš
-85	1485	návrat	návrate návratoch návratom návratov návratu návraty
-86	1486	námestie	námestia námestiu námestí námestím
-87	1487	jazdiť	jazdi jazdia jazdil jazdila jazdili jazdilo jazdime jazdite jazdí jazdím jazdíme jazdíte jazdíš
-88	1488	konferencia	konferencie konferencii konferenciou konferenciu konferenciách konferencií
-89	1489	vyrásť	vyrastal vyrastať vyrastie vyrastiem vyrastieme vyrastiete vyrastieš vyrastú vyrástla vyrástli vyrástlo vyrástol
-90	1490	presný	najpresnejší presnej presnejšia presnejší presnom presnou presná presné presného presnému presní presnú presných presným presnými
-91	1491	tamten	tamtej tamtie tamto tamtoho tamtom tamtomu tamtou tamtá tamtí tamtú tamtých tamtým tamtými
-92	1492	veža	vežami veže veži vežiach vežička vežičky vežou vežu veží
-93	1493	don	dona donom donovi
-94	1494	posielať	posiela posielaj posielajte posielajú posielal posielala posielali posielalo posielam posielame posielate posielaš
-95	1495	trať	trate trati tratiach tratí traťou
-96	1496	literatúra	literatúre literatúrou literatúru literatúry literárnej literárny
-97	1497	vykonávať	vykonáva vykonávajú vykonával vykonávala vykonávali vykonávam vykonávame vykonávate vykonávaš
-98	1498	súvislosť	súvislosti súvislostiach súvislostí
-99	1499	neuveriteľný	najneuveriteľnejšia najneuveriteľnejšie najneuveriteľnejší neuveriteľnej neuveriteľnom neuveriteľnou neuveriteľná neuveriteľné neuveriteľného neuveriteľnému neuveriteľní neuveriteľnú neuveriteľných neuveriteľným neuveriteľnými
-100	1500	prúd	prúde prúdmi prúdoch prúdom prúdov prúdu prúdy
+1	1401	trest	trestami treste trestoch trestom trestov trestu tresty
+2	1402	jazero	jazera jazere jazerného jazerný jazerom jazeru jazerá jazerách jazerám jazier jazierka jazierkach jazierko jazierku jazierok
+3	1403	symbol	symbole symbolmi symboloch symbolom symbolov symbolu symboly
+4	1404	skrývať	neskrýva neskrývaj neskrývajte neskrývajú neskrýval neskrývala neskrývali neskrývam neskrývame neskrývate neskrývaš skrýva skrývaj skrývajú skrývajúc skrýval skrývala skrývali skrývalo skrývam skrývame skrývate skrývaš
+5	1405	strýko	strýka strýkom strýkov strýkovi strýkovia
+6	1406	liečba	liečbe liečbou liečbu liečby
+7	1407	fáza	fáz fázach fázami fáze fázou fázu fázy
+8	1408	rana	ranami rane ranou ranu rany ranách ranám
+9	1409	automobil	automobile automobilmi automobiloch automobilom automobilov automobilovej automobilovom automobilová automobilové automobilového automobilovú automobilový automobilových automobilu automobily
+10	1410	pôvod	pôvode pôvodom pôvodu pôvody
+11	1411	prekvapenie	prekvapenia prekvapeniach prekvapeniu prekvapením
+12	1412	aktívny	aktívna aktívneho aktívnej aktívnejší aktívni aktívnom aktívnou aktívnu aktívnych aktívnym aktívnymi najaktívnejších
+13	1413	anjel	anjela anjeli anjelici anjelik anjelika anjelikov anjelikovi anjelmi anjeloch anjelom anjelov anjelovi anjelskej anjelskom anjelskou anjelsky anjelská anjelské anjelského anjelskú anjelský anjelských anjelskými
+14	1414	výbor	výbore výboroch výborom výborov výboru výbory
+15	1415	náklad	náklade nákladmi nákladoch nákladom nákladov nákladu náklady
+16	1416	zničený	zničenej zničenom zničená zničené zničeného zničení zničenú zničených zničeným zničenými
+17	1417	médium	média médiami médiom médiu médiá médiách médiám médií
+18	1418	koláč	koláča koláče koláči koláčik koláčiky koláčmi koláčoch koláčom koláčov koláčová koláčové koláčovú koláčový koláču
+19	1419	nos	nosa nose nosmi nosom nosov nosovej nosové nosový nosových nosu nosy noštek
+20	1420	baliť	balenia balenie balené balení balením balia baliaci balil balila balili balí balím balíme balíte balíš nebalil zabalia zabalil zabalila zabalili zabaliť zabalí zabalím zabalíme zabalíš zabaľ zabaľme zabaľte zbalil zbalila zbalili zbaliť zbalí zbalím zbalíme zbalíš zbaľ zbaľme zbaľte
+21	1421	správanie	správania správaniu správaní správaním
+22	1422	spájať	nespája nespájaj nespájali nespájalo spája spájajú spájal spájala spájali spájalo spájam spájame spájate spájaš
+23	1423	dna	dnami dnou dny
+24	1424	vrchol	vrchole vrcholmi vrcholoch vrcholom vrcholov vrcholu vrcholy
+25	1425	výstava	výstav výstave výstavné výstavný výstavou výstavu výstavy výstavách
+26	1426	vyše	
+27	1427	trpieť	netrpel netrpela netrpeli netrpia netrpí netrpím netrpíte netrpíš trpel trpela trpeli trpelo trpia trpte trpí trpím trpíme trpíte trpíš
+28	1428	oslava	oslavami oslave oslavou oslavu oslavy oslavách oslavám osláv
+29	1429	následok	následkami následkoch následkom následkov následku následky
+30	1430	nastúpiť	nastupovať nastupuje nastúp nastúpený nastúpi nastúpia nastúpil nastúpila nastúpili nastúpilo nastúpim nastúpime nastúpite nastúpiš nastúpme nastúpte nenastupuj nenastupujte nenastúpi nenastúpil nenastúpila nenastúpili nenastúpim nenastúpite nenastúpiš
+31	1431	upokojiť	neupokoja neupokojilo neupokojí neupokojím neupokojíte neupokojíš upokoj upokoja upokojil upokojila upokojili upokojilo upokojme upokojte upokojí upokojím upokojíme upokojíte upokojíš
+32	1432	brániť	bránenie bráni bránia bránil bránila bránili bránilo bránim bránime bránite brániš bráň bráňte nebráni nebránia nebránil nebránila nebránili nebránilo nebránim nebránime nebrániť nebráň nebráňte
+33	1433	režim	režime režimoch režimom režimov režimu režimy
+34	1434	zastreliť	nezastrelia nezastrelil nezastrelila nezastrelili nezastreliť nezastrelí nezastrelím nezastrelíme nezastrelíte nezastrelíš nezastreľ nezastreľte zastrelia zastrelil zastrelila zastrelili zastrelilo zastrelí zastrelím zastrelíme zastrelíte zastrelíš zastreľ zastreľte
+35	1435	mnohé	mnohom mnohého mnohému
+36	1436	rádio	rádia rádiom rádiové rádiový rádiu rádiá rádiách rádií
+37	1437	vyskúšať	nevyskúšal nevyskúšala nevyskúšali nevyskúšam nevyskúšame nevyskúšate nevyskúšaš vyskúša vyskúšaj vyskúšajme vyskúšajte vyskúšajú vyskúšal vyskúšala vyskúšali vyskúšam vyskúšame vyskúšate vyskúšaš
+38	1438	vek	vekmi vekoch vekov veky
+39	1439	príjemný	najpríjemnejšia najpríjemnejší príjemnej príjemnejšej príjemnejšia príjemnejší príjemnejším príjemnom príjemnou príjemná príjemné príjemného príjemní príjemnú príjemných príjemným
+40	1440	takisto	
+41	1441	sudca	sudcami sudcom sudcov sudcovi sudcovia sudcovskej sudcu sudkyne sudkyni sudkyňa sudkyňou sudkyňu
+42	1442	obava	obavami obave obavou obavu obavy obavách obavám obáv
+43	1443	sobota	sobote sobotnej sobotnom sobotná sobotné sobotného sobotnú sobotný sobotných sobotu soboty sobotňajšej sobotňajšia sobotňajšie sobotňajšiu sobotňajší sobotňajších sobotňajším
+44	1444	chránený	chránenej chránenom chránenou chránená chránené chráneného chránení chránenú chránených chráneným
+45	1445	drevený	drevenom drevenou drevená drevené dreveného drevenému drevenú drevených dreveným drevenými
+46	1446	roh	rohami rohmi rohoch rohom rohov rohová rohový rohu rohy rožku rožky rožok
+47	1447	trasa	trasami trase trasou trasu trasy trasách trás
+48	1448	nedostatok	nedostatkami nedostatkoch nedostatkom nedostatkov nedostatku nedostatky
+49	1449	posielať	neposiela neposielaj neposielajte neposielajú neposielal neposielala neposielali neposielam neposielame neposielate neposielaš posiela posielaj posielajte posielajú posielal posielala posielali posielalo posielam posielame posielate posielaš
+50	1450	majiteľ	majitelia majiteľa majiteľmi majiteľom majiteľov majiteľovi
+51	1451	pohybovať	nepohyboval nepohybuje nepohybujem nepohybujte nepohybujú pohyboval pohybovala pohybovali pohybovalo pohybuj pohybuje pohybujem pohybujeme pohybujete pohybuješ pohybujte pohybujú pohybujúc
+52	1452	odchod	odchode odchodom odchodov odchodu odchody
+53	1453	fanúšik	fanúšika fanúšikmi fanúšikoch fanúšikom fanúšikov fanúšikovi fanúšikovia
+54	1454	stiahnuť	nestiahli nestiahne nestiahnem nestiahneme nestiahnete nestiahneš nestiahnu nestiahol stiahla stiahli stiahlo stiahne stiahnem stiahneme stiahnete stiahneš stiahni stiahnime stiahnite stiahnu stiahol
+55	1455	ľad	ľade ľadom ľadov ľadovej ľadový ľadu ľady
+56	1456	paluba	palube palubou palubu paluby palubách palubám palúb
+57	1457	poďakovať	nepoďakoval nepoďakovala nepoďakuje nepoďakujem nepoďakujete nepoďakuješ poďakoval poďakovala poďakovali poďakuj poďakuje poďakujem poďakujeme poďakujete poďakuješ poďakujme poďakujte poďakujú
+58	1458	lov	love lovná lovom lovov lovu lovy
+59	1459	opakovať	neopakoval neopakovala neopakovali neopakovalo neopakuj neopakuje neopakujem neopakujte neopakujú opakoval opakovala opakovali opakovalo opakuj opakuje opakujem opakujeme opakujete opakuješ opakujte opakujú opakujúc
+60	1460	typický	typickej typickom typickou typická typické typického typickí typickú typických typickým typickými
+61	1461	suchý	najsuchších sucha suchej sucho suchom suchou suchá suché suchého suchí suchú suchých suchým suchými
+62	1462	dotknúť	dotkla dotkli dotklo dotkne dotknem dotkneme dotknete dotkneš dotkni dotknite dotknú dotkol nedotkla nedotkli nedotklo nedotkne nedotknem nedotkneme nedotknete nedotkneš nedotkni nedotknite nedotknú nedotknúť nedotkol
+63	1463	vydanie	vydania vydaniach vydaniu vydaním
+64	1464	súčasne	
+65	1465	uviesť	neuveď neuviedla neuviedli neuviedol uvedie uvediem uvedieme uvediete uvedieš uvedú uveď uveďte uviedla uviedli uviedlo uviedol
+66	1466	požiadavka	požiadaviek požiadavkami požiadavke požiadavkou požiadavku požiadavky požiadavkách požiadavkám
+67	1467	rakúsky	rakúska rakúske rakúskeho rakúskej rakúski rakúskom rakúskou rakúsku rakúskych rakúskym
+68	1468	jazdiť	jazdi jazdia jazdil jazdila jazdili jazdilo jazdime jazdite jazdí jazdím jazdíme jazdíte jazdíš nejazdi nejazdia nejazdil nejazdila nejazdili nejazdite nejazdí nejazdím nejazdíš
+69	1469	zaoberať	nezaoberaj nezaoberajú nezaoberal nezaoberala nezaoberali nezaoberať nezaoberá nezaoberám nezaoberáme zaoberaj zaoberajme zaoberajte zaoberajú zaoberajúc zaoberal zaoberala zaoberali zaoberalo zaoberá zaoberám zaoberáme zaoberáte zaoberáš
+70	1470	biť	bi bije bijem bijeme bijete biješ bijú bil bila bili bilo bite bitie bitý nebije nebijem nebijeme nebijú nebil nebili nebite nezbil nezbili prebije prebil prebiť prebíja prebíjať zbi zbije zbijem zbijú zbil zbila zbili zbite zbitá zbitý zbiť
+71	1471	horúci	horúca horúce horúceho horúcej horúcejšia horúcejšie horúcemu horúcich horúcim horúcimi horúcom horúcou horúcu najhorúcejšej najhorúcejšia najhorúcejšie najhorúcejší
+72	1472	narodeniny	narodeninami narodeninách narodeninám narodenín
+73	1473	študovať	neštudoval neštudovala neštudovali neštuduje neštuduješ študoval študovala študovali študuj študuje študujem študujeme študujete študuješ študujte študujú
+74	1474	celkovo	
+75	1475	priemysel	priemysle priemyslom priemyslu
+76	1476	kričať	krič kričal kričala kričali kričalo kričanie kričia kričiac kričiaci kričme kričte kričí kričím kričíme kričíte kričíš nekrič nekričal nekričala nekričali nekričať nekričia nekričte nekričí nekričím nekričíš zakričal zakričať
+77	1477	vyrásť	nevyrastal nevyrastala nevyrastali nevyrastie nevyrastieš nevyrastú nevyrástla nevyrástli nevyrástol vyrastal vyrastať vyrastie vyrastiem vyrastieme vyrastiete vyrastieš vyrastú vyrástla vyrástli vyrástlo vyrástol
+78	1478	spadnúť	nespadla nespadli nespadlo nespadne nespadnem nespadneme nespadneš nespadni nespadnite nespadnú nespadnúť nespadol spadla spadli spadlo spadne spadnem spadneme spadnete spadneš spadni spadnite spadnú spadol
+79	1479	unavený	unavenej unavená unavené unaveného unavení unavenú unavených
+80	1480	zóna	zón zónach zónami zóne zónou zónu zóny
+81	1481	tabuľa	tabule tabuli tabuľami tabuľka tabuľky tabuľou tabuľu tabúľ
+82	1482	napokon	
+83	1483	zdvihnúť	nezdvihla nezdvihli nezdvihne nezdvihnem nezdvihneme nezdvihnete nezdvihneš nezdvihnú nezdvihol zdvihla zdvihli zdvihlo zdvihne zdvihnem zdvihneme zdvihnete zdvihneš zdvihni zdvihnime zdvihnite zdvihnú zdvihol
+84	1484	smiať	nesmej nesmeje nesmejem nesmejeme nesmejete nesmeješ nesmejte nesmejú nesmial nesmiala nesmiali nesmiať smej smeje smejem smejeme smejete smeješ smejte smejú smejúc smial smiala smiali smialo
+85	1485	dopadnúť	dopadla dopadli dopadlo dopadne dopadnem dopadneme dopadnete dopadneš dopadnú dopadol nedopadla nedopadli nedopadlo nedopadne nedopadneš nedopadnú nedopadol
+86	1486	neznášať	neznáša neznášajú neznášal neznášala neznášali neznášam neznášame neznášate neznášaš
+87	1487	stovka	stoviek stovkami stovke stovkou stovku stovky stovkách stovkám stovák
+88	1488	zodpovednosť	nezodpovednosti nezodpovednosť zodpovednosti zodpovedností zodpovednosťami zodpovednosťou
+89	1489	dobro	dobra dobru
+90	1490	dvor	dvora dvore dvornej dvornou dvorná dvorné dvorného dvornú dvorný dvorných dvorným dvoroch dvorom dvorov dvoru dvory dvorček dvorčeku
+91	1491	letieť	letel letela leteli letelo letia letiaci letí letím letíme letíte letíš leť leťme leťte neletel neletela neleteli neletia neletí neletím neletíme neletíte neletíš neleť nepoletí nepoletím nepoletíme nepoletíš poletia poletí poletím poletíme poletíte poletíš
+92	1492	poraziť	neporazia neporazil neporazila neporazili neporazí neporazím neporazíme neporazíte neporazíš poraz porazia porazil porazila porazili porazilo porazte porazí porazím porazíme porazíte porazíš
+93	1493	kapacita	kapacite kapacitou kapacitu kapacity kapacít
+94	1494	zdravotný	zdravotnej zdravotnom zdravotnou zdravotná zdravotné zdravotného zdravotnému zdravotnú zdravotných zdravotným zdravotnými
+95	1495	tamten	tamtej tamtie tamto tamtoho tamtom tamtomu tamtou tamtá tamtí tamtú tamtých tamtým tamtými
+96	1496	žiak	žiaci žiacke žiaka žiakmi žiakom žiakov žiakovi žiačka žiačke žiačkou žiačku žiačok
+97	1497	poradie	poradia poradí poradím
+98	1498	vypočuť	nevypočuje nevypočujeme nevypočujete nevypočuješ nevypočul nevypočula nevypočuli vypočuj vypočuje vypočujem vypočujeme vypočujete vypočuješ vypočujme vypočujte vypočujú vypočul vypočula vypočuli
+99	1499	účinok	účinkami účinkoch účinkom účinkov účinku účinky
+100	1500	premiér	premiéra premiére premiérka premiérky premiérom premiérou premiérov premiérovej premiérovi premiérovo premiérovom premiérové premiérový premiéru premiéry

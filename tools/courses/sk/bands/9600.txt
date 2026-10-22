@@ -1,100 +1,100 @@
-1	9501	plachý	plachá plaché plachého plachí
-2	9502	rázcestie	rázcestia rázcestí
-3	9503	blana	blanami blane blanka blanu blany blán
-4	9504	kľaknúť	kľakla kľakne kľaknem kľakneš kľakni kľaknite kľakol
-5	9505	sklonok	sklonku
-6	9506	stimulovať	stimulovala stimuluje stimulujem stimulujú
-7	9507	množina	množinu množiny
-8	9508	ľútostiť	ľútosti
-9	9509	fanatik	fanatici fanaticky fanatická fanatickí fanatický fanatika fanatikmi fanatikov fanatička
-10	9510	prostata	prostate prostatou prostatu prostaty
-11	9511	vlastnoručne	
-12	9512	vlnový	vlnovej vlnovou vlnová vlnové vlnovú vlnových
-13	9513	nezrovnalosť	nezrovnalosti nezrovnalostí nezrovnalosťami
-14	9514	sľubný	sľubnej sľubnou sľubná sľubné sľubného sľubní sľubnú sľubných
-15	9515	zadanie	zadania zadaní zadaním
-16	9516	konšpiračný	konšpiračná konšpiračné konšpirační konšpiračnú konšpiračných konšpiračným
-17	9517	vysávač	vysávača vysávače vysávači vysávačom vysávačov
-18	9518	dohadovať	dohadoval dohadovala dohadovali dohaduje dohadujem dohadujeme dohadujete dohaduješ dohadujú
-19	9519	albánsky	albánska albánske albánskeho albánskej albánskom albánsku
-20	9520	čipka	čipkou čipku čipky
-21	9521	intelektuál	intelektuála intelektuáli intelektuálov
-22	9522	popcorn	popcornom popcornu popkorn
-23	9523	voš	vši vší
-24	9524	doraz	
-25	9525	autosalón	autosalóne
-26	9526	rozkrok	rozkrokom rozkroku
-27	9527	ozdobený	ozdobená ozdobené
-28	9528	zoskupený	zoskupené zoskupení
-29	9529	žatva	žatve žatvou žatvu žatvy
-30	9530	šifra	šifier šiframi šifre šifrou šifru šifry šifrách
-31	9531	vypuknutie	vypuknutia vypuknutiu vypuknutí vypuknutím
-32	9532	mrazený	mrazená mrazené mrazeného mrazenú mrazených mrazeným mrazenými
-33	9533	odstrihnúť	odstrihla odstrihli odstrihne odstrihnem odstrihneš odstrihni odstrihnite odstrihnú odstrihol
-34	9534	vidina	vidinami vidine vidinou vidinu vidiny
-35	9535	stíšiť	stíš stíši stíšil stíšila stíšili stíšim stíšime stíšte
-36	9536	jednorazový	jednorazová jednorazové jednorazového jednorazovú
-37	9537	trojitý	trojitej trojitom trojitou trojitá trojité trojitého trojitú trojitých trojitým
-38	9538	obrúsok	obrúskami obrúskom obrúskov obrúsku obrúsky
-39	9539	ochota	ochote ochotou ochotu ochoty
-40	9540	cvik	cvikov cviku cviky
-41	9541	prekaziť	prekazil prekazila prekazili prekazilo prekazí prekazím prekazíme
-42	9542	sankcia	sankciami sankcie sankciu sankciám sankcií
-43	9543	neuvádzať	neuvádza neuvádzajú
-44	9544	eliminácia	eliminácie eliminácii elimináciou elimináciu
-45	9545	podnos	podnose podnosom podnosov podnosy
-46	9546	koleda	koledu koledy kolied
-47	9547	zvrtnúť	zvrtla zvrtli zvrtlo zvrtne zvrtnú zvrtol
-48	9548	flákať	fláka flákajú flákal flákala flákali flákam flákame flákate flákaš
-49	9549	vysmievať	vysmieva vysmievaj vysmievajte vysmievajú vysmieval vysmievala vysmievali vysmievam vysmievate vysmievaš
-50	9550	tohtoročný	tohtoročnej tohtoročnom tohtoročná tohtoročné tohtoročného tohtoročnú tohtoročných tohtoročným
-51	9551	hrôzostrašný	hrôzostrašnej hrôzostrašnom hrôzostrašnou hrôzostrašná hrôzostrašné hrôzostrašného hrôzostrašní hrôzostrašnú hrôzostrašných hrôzostrašným
-52	9552	juhozápadný	juhozápadnej juhozápadnom juhozápadná juhozápadné juhozápadného
-53	9553	učebňa	učebne učebni
-54	9554	pôdohospodárstvo	pôdohospodárstva
-55	9555	puberta	puberte pubertou pubertu
-56	9556	zvyklosť	zvyklosti zvyklostiam zvyklostí
-57	9557	zbieranie	zbierania zbieraní zbieraním
-58	9558	deaktivovať	deaktivoval deaktivovala deaktivovali deaktivovaný deaktivuj deaktivuje deaktivujem deaktivujeme deaktivujte
-59	9559	obecenstvo	obecenstva obecenstve obecenstvom obecenstvu
-60	9560	komorná	komornej komornou komorné komornú
-61	9561	nameraný	nameraná namerané nameraných
-62	9562	previnilo	
-63	9563	márniť	márnia márnil márnila márnili márnim márnime márnite márniš
-64	9564	pohostinnosť	pohostinnosti pohostinnosťou
-65	9565	sledovanosť	sledovanosti sledovanosťou
-66	9566	exkurzia	exkurzie exkurzii exkurziu
-67	9567	trysk	tryskom trysku trysky
-68	9568	zastrašiť	zastrašil zastrašila zastrašili zastrašilo zastraší
-69	9569	neželať	neželaj neželajte neželajú neželal neželala neželali neželá neželám neželáme neželáte neželáš
-70	9570	nespoznávať	nespoznáva nespoznával nespoznávala nespoznávam nespoznávate nespoznávaš
-71	9571	škodiť	škodia škodila škodí škodíte škodíš
-72	9572	biomasa	biomasy
-73	9573	nosorožec	nosorožca nosorožce nosorožcom nosorožcov
-74	9574	diskrétnosť	diskrétnosti diskrétnosťou
-75	9575	rival	rivala rivali rivalmi rivalom rivalov
-76	9576	zmraziť	zmraz zmrazia zmrazil zmrazila zmrazili zmrazte zmrazí zmrazím zmrazíme zmrazíš
-77	9577	dozorný	dozornej dozorná
-78	9578	prihovoriť	prihovor prihovoril prihovorila prihovorili prihovorí prihovorím prihovoríme prihovoríte prihovoríš
-79	9579	nepokojný	nepokojnej nepokojná nepokojné nepokojní nepokojných nepokojnými
-80	9580	debutovať	debutoval debutovala
-81	9581	bezcitný	bezcitnej bezcitná bezcitné bezcitného bezcitní bezcitných bezcitným
-82	9582	jedávať	jedáva jedávajú jedával jedávala jedávali jedávam jedávame jedávate jedávaš
-83	9583	prepašovať	prepašoval prepašovala prepašovali prepašuje prepašujem prepašujeme prepašuješ
-84	9584	štafeta	štafete štafetu štafety
-85	9585	gramotnosť	gramotnosti
-86	9586	kompresia	kompresie kompresiu
-87	9587	nakrútiť	nakrútil nakrútili nakrútime
-88	9588	vnútrozemie	vnútrozemia vnútrozemí
-89	9589	mariánsky	mariánska mariánske mariánskeho mariánskej
-90	9590	zápletka	zápletiek zápletkou zápletku zápletky
-91	9591	intelekt	intelekte intelektom intelektu
-92	9592	asistovať	asistoval asistovala asistovali asistuje asistujem
-93	9593	ohlásený	ohlásená ohlásené ohlásených
-94	9594	onen	onej onoho onom oného
-95	9595	symbolika	symboliku symboliky
-96	9596	minimum	minima minime minimom
-97	9597	metal	metalom metalu
-98	9598	spoluzakladateľ	spoluzakladateľom
-99	9599	inšpirujúci	inšpirujúca inšpirujúce inšpirujúcu
-100	9600	sacharid	sacharidov sacharidy
+1	9501	menovka	menovkami menovke menovkou menovku menovky
+2	9502	chytrák	chytráci chytráka chytrákom chytrákov
+3	9503	rozčúlený	rozčúlená rozčúlené rozčúleného rozčúlení
+4	9504	téza	téz téze tézu tézy
+5	9505	pravopis	pravopise pravopisu
+6	9506	blokáda	blokáde blokádou blokádu blokády
+7	9507	slamka	slamiek slamkami slamkou slamku slamky
+8	9508	dorast	dorastu
+9	9509	roztrhaný	roztrhaná roztrhané roztrhaného roztrhaní roztrhanú roztrhaných roztrhaným
+10	9510	utierka	utierku utierky utierok
+11	9511	namyslený	namyslenou namyslená namyslené namysleného namyslení namyslenú namyslených namysleným
+12	9512	neurologický	neurologická neurologické neurologického neurologickú neurologických neurologickými
+13	9513	priečne	
+14	9514	viečko	viečka viečkach viečkami viečkom viečok
+15	9515	prevýšenie	prevýšením
+16	9516	otočka	otočke otočkou otočku otočky
+17	9517	gemerský	gemerskej gemerská gemerské gemerského
+18	9518	napredovať	napredoval napreduj napreduje napredujem napredujeme napreduješ
+19	9519	vtom	
+20	9520	výkyv	výkyvom výkyvov výkyvy
+21	9521	predkladať	predkladajú predkladá predkladám predkladáme
+22	9522	porobiť	porobil porobila porobili porobilo porobím porába porábal porábala porábate porábaš
+23	9523	pretočiť	pretoč pretočil pretočila pretočili pretočte pretočí pretočím pretočíme pretočíš
+24	9524	džin	džina džinoch džinom džinov džinovi džinovia džinu
+25	9525	elán	elánom elánu
+26	9526	lemovaný	lemovanej lemovaná lemované
+27	9527	poraniť	neporanil poranil poranila poranili poraní
+28	9528	záhadne	záhadnejšie
+29	9529	obdivovateľ	obdivovatelia obdivovateľa obdivovateľom obdivovateľov
+30	9530	semenník	semenníkoch semenníkom semenníkov semenníky
+31	9531	navzdory	
+32	9532	premenovať	premenoval premenovala premenovali
+33	9533	fólia	fólie fólii fóliou fóliu
+34	9534	nehorázne	
+35	9535	adresár	adresára adresáre adresári
+36	9536	byrokracia	byrokracie byrokracii byrokraciou byrokraciu byrokratická byrokratické byrokratický byrokratických
+37	9537	hríb	hríbami hríbik hríbiky hríboch hríbov hríby
+38	9538	kontrakcia	kontrakcie kontrakcii kontrakciou kontrakciu
+39	9539	nepredstaviteľný	nepredstaviteľnej nepredstaviteľná nepredstaviteľné nepredstaviteľného nepredstaviteľnú nepredstaviteľných nepredstaviteľným
+40	9540	štrukturálny	štrukturálna štrukturálne štrukturálnych
+41	9541	bakalársky	bakalárske bakalárskeho
+42	9542	prílišný	prílišnej prílišná prílišné prílišného prílišnému prílišnú prílišným
+43	9543	nadlho	
+44	9544	posedieť	posedel posedeli posedí posedím posedíme posedíte posedíš poseď
+45	9545	dojemný	dojemne dojemná dojemné dojemnú
+46	9546	preklínať	preklína preklínaj preklínajú preklínal preklínala preklínam preklíname preklínaš
+47	9547	tlačovka	tlačovke tlačovku tlačovky
+48	9548	vpadnúť	nevpadnú vpadla vpadli vpadne vpadnem vpadnete vpadneš vpadnite vpadnú vpadol
+49	9549	prekročenie	prekročením
+50	9550	hŕstka	hŕstke hŕstkou hŕstku hŕstky
+51	9551	čochvíľa	
+52	9552	osebe	
+53	9553	vysťahovať	vysťahoval vysťahovala vysťahovali vysťahuje vysťahujú
+54	9554	rokfort	rokforte rokfortu
+55	9555	nápor	náporom náporu
+56	9556	zatočiť	zatoč zatočil zatočila zatočili zatočte zatočí zatočím zatočíme zatočíš
+57	9557	zruinovať	zruinoval zruinovala zruinovali zruinovalo zruinuje zruinujem zruinujete zruinuješ zruinujú
+58	9558	zvolenský	zvolenskej
+59	9559	účinkujúci	účinkujúcich účinkujúcimi
+60	9560	arašid	arašidmi arašidoch arašidov arašidu arašidy
+61	9561	zjednodušený	zjednodušená zjednodušené
+62	9562	prízrak	prízrakom prízrakov prízraku prízraky
+63	9563	prelínať	prelína prelínajú
+64	9564	posedenie	posedenia posedení
+65	9565	plytvanie	plytvania plytvaním
+66	9566	odzadu	
+67	9567	sprostredkovať	sprostredkoval sprostredkovala sprostredkuje
+68	9568	obslúžiť	neobslúžim obslúž obslúži obslúžia obslúžil obslúžila obslúžili obslúžim obslúžime obslúžte
+69	9569	ký	kej kieho kou ká ké kú kými
+70	9570	pristať	nepristal nepristali nepristane nepristaneme nepristanú nepristávajú pristal pristala pristali pristalo pristane pristanem pristaneme pristanete pristaneš pristanú pristaň pristaňte pristáva pristávajú pristával pristávali pristávam pristávame pristávať
+71	9571	tur	tura turej
+72	9572	substancia	substancie substanciu substancií
+73	9573	tupec	tupca tupci tupcom tupcov tupcovi
+74	9574	absorpcia	absorpcie absorpciu absorpčné
+75	9575	prirovnať	prirovnal prirovnala prirovnali
+76	9576	amulet	amuletmi amuletov amuletu amulety
+77	9577	elektronicky	
+78	9578	lyžovať	lyžoval lyžovali lyžuje lyžujem lyžujete lyžuješ lyžujú
+79	9579	kalifornský	kalifornskej kalifornskom kalifornská kalifornské kalifornského kalifornskú kalifornských
+80	9580	uctievanie	uctievania uctievaní uctievaním
+81	9581	šaman	šamana šamani šamanmi šamanom šamanov šamanovi
+82	9582	predložený	predložená predložené
+83	9583	úradne	
+84	9584	retiazka	retiazke retiazkou retiazku retiazky
+85	9585	stredoslovenský	stredoslovenskej stredoslovenská stredoslovenského
+86	9586	renesancia	renesancie renesancii renesanciu
+87	9587	depo	depa depe diep
+88	9588	vyhorieť	nevyhorel vyhorel vyhorela vyhoreli vyhorelo vyhoria vyhorí
+89	9589	dosvedčiť	dosvedčia dosvedčil dosvedčila dosvedčili dosvedčí dosvedčím dosvedčíte dosvedčíš
+90	9590	krásavica	krásavice krásavicu krásavíc
+91	9591	kunda	kunde kundou kundu kundy kúnd
+92	9592	trinásty	trinásta trináste trinásteho trinástej trinástom trinástu trinástym
+93	9593	elektrón	elektrónov elektróny
+94	9594	učenec	učenca učencami učenci učencom učencov
+95	9595	vypracovanie	vypracovaním
+96	9596	prenajímať	prenajíma prenajímajú prenajímal prenajímala prenajímali prenajímam prenajímame prenajímate prenajímaš
+97	9597	medailón	medailóne medailónom medailónu
+98	9598	juhovýchod	juhovýchode juhovýchodu
+99	9599	odhadovaný	odhadovanej odhadovaná odhadované
+100	9600	margo	

@@ -1,100 +1,100 @@
-1	3501	strašidelný	najstrašidelnejšia najstrašidelnejšie najstrašidelnejší strašidelnej strašidelnejší strašidelnom strašidelnou strašidelná strašidelné strašidelného strašidelní strašidelnú strašidelných strašidelným strašidelnými
-2	3502	ovládanie	ovládania ovládaniu ovládaním
-3	3503	zmeškať	zmeškajú zmeškal zmeškala zmeškali zmešká zmeškám zmeškáme zmeškáte zmeškáš
-4	3504	striebro	striebra striebre striebrom striebru
-5	3505	posvätný	najposvätnejšia najposvätnejších posvätnej posvätnom posvätnou posvätná posvätné posvätného posvätnému posvätnú posvätných posvätným posvätnými
-6	3506	báza	báze bázou bázu bázy
-7	3507	obeh	obehom obehu
-8	3508	panel	panela paneli panelmi paneloch panelom panelov panelu panely
-9	3509	tanečná	tanečnej tanečnou tanečné tanečnú
-10	3510	monštrum	monštier monštra monštrami monštre monštrom monštru monštrá monštrám
-11	3511	sieň	siene sieni siení sieňach sieňou sne sní sňou
-12	3512	pretekár	pretekára pretekári pretekárom pretekárov pretekárske pretekársky
-13	3513	kresba	kresbami kresbe kresbou kresbu kresby kresbách kresieb
-14	3514	nahlas	
-15	3515	líder	líderka líderskej lídra lídrami lídri lídrom lídrov
-16	3516	strážnik	strážnika strážnikmi strážnikom strážnikov strážnikovi
-17	3517	zavesiť	zaves zavesia zavesil zavesila zavesili zavesme zaveste zavesí zavesím zavesíme zavesíte zavesíš
-18	3518	pardon	
-19	3519	deviaty	deviata deviate deviateho deviatej deviati deviatom deviatou deviatu deviatym
-20	3520	pôžička	pôžičiek pôžičkami pôžičke pôžičkou pôžičku pôžičky pôžičkách
-21	3521	klesnúť	klesla klesli kleslo klesne klesnem klesneme klesneš klesni klesnite klesnú klesol
-22	3522	orol	orla orlami orlie orlieho orliemu orlom orlov orlovi orly orlí
-23	3523	dobytok	dobytka dobytkom dobytku
-24	3524	cestovný	cestovnej cestovnou cestovná cestovnú cestovných cestovným
-25	3525	ropa	ropou ropu ropy
-26	3526	prísne	najprísnejšie prísnejšie
-27	3527	psychický	psychickej psychickom psychickou psychická psychické psychického psychickú psychických psychickým psychickými
-28	3528	neopustiť	neopusti neopustia neopustil neopustila neopustili neopustilo neopustite neopustí neopustím neopustíme neopustíte neopustíš neopusť
-29	3529	zelenina	zelenine zeleninou zeleninu zeleniny
-30	3530	diskutovať	diskutoval diskutovala diskutovali diskutovalo diskutuje diskutujem diskutujeme diskutujete diskutuješ diskutujme diskutujte diskutujú
-31	3531	zdravotníctvo	zdravotníctva zdravotníctve
-32	3532	luk	luka lukmi lukom lukov lukovej lukovi lukovom luku luky
-33	3533	tvrdé	tvrdom tvrdého tvrdému
-34	3534	amen	
-35	3535	orať	or oral zorali zorať
-36	3536	poukazovať	poukazoval poukazovala poukazovali poukazovalo poukazuj poukazuje poukazujem poukazujete poukazuješ poukazujú
-37	3537	zdraviť	pozdravia pozdravil pozdravila pozdravili pozdraviť pozdravme pozdravte pozdraví pozdravím pozdravíme pozdravíte pozdravíš zdravia zdravil zdravila zdravili zdraví zdravím zdravíme
-38	3538	neviditeľný	neviditeľnej neviditeľnom neviditeľnou neviditeľná neviditeľné neviditeľného neviditeľní neviditeľnú neviditeľných neviditeľným neviditeľnými
-39	3539	vkus	vkuse vkusom vkusu
-40	3540	oklamať	oklam oklamal oklamala oklamali oklamalo oklame oklamem oklameme oklamete oklameš oklamú
-41	3541	únos	únose únosmi únosoch únosom únosov únosu únosy
-42	3542	upozorniť	upozorni upozornia upozornil upozornila upozornili upozornilo upozornite upozorní upozorním upozorníme upozorníte upozorníš
-43	3543	krst	krste krstnom krstného krstnému krstní krstný krstných krstným krstnými krstom krstu krsty
-44	3544	ruch	ruchom ruchu
-45	3545	mäkký	mäkkej mäkkom mäkkou mäkká mäkké mäkkého mäkkí mäkkú mäkkých mäkkým mäkšia mäkší
-46	3546	hroziť	hrozia hrozil hrozila hrozili hrozilo hrozí hrozím hrozíte
-47	3547	kretén	kreténa kreténi kreténmi kreténom kreténov kreténovi
-48	3548	civilný	civilnej civilnom civilnou civilná civilné civilného civilnému civilní civilnú civilných civilným civilnými
-49	3549	utečenec	utečenca utečencami utečenci utečencoch utečencom utečencov utečencovi utečeneckom utečenecký
-50	3550	pršať	pršal pršali pršalo pršia prší
-51	3551	rozširovať	rozširoval rozširovala rozširovali rozširovalo rozširuje rozširujem rozširujeme rozširujete rozširuješ rozširujú
-52	3552	brzda	brzdami brzde brzdné brzdou brzdové brzdový brzdu brzdy brzdách bŕzd
-53	3553	funkčný	funkčnej funkčnou funkčná funkčnú funkčných funkčným funkčnými
-54	3554	záchvat	záchvate záchvatmi záchvatoch záchvatom záchvatov záchvatu záchvaty
-55	3555	vyhrážať	vyhráža vyhrážajú vyhrážal vyhrážala vyhrážali vyhrážam vyhrážate vyhrážaš
-56	3556	sprievod	sprievode sprievodom sprievodov sprievodu sprievody
-57	3557	poňatie	poňatia poňatí
-58	3558	identifikácia	identifikačné identifikačný identifikácie identifikácii identifikáciou identifikáciu identifikácií
-59	3559	kontext	kontexte kontextoch kontextu
-60	3560	ovládnuť	ovládla ovládli ovládlo ovládne ovládnem ovládneme ovládnete ovládneš ovládni ovládnu ovládol
-61	3561	šek	šekmi šekoch šekom šekov šeku šeky
-62	3562	definícia	definície definícii definíciou definíciu definícií
-63	3563	nádherne	najnádhernejšie
-64	3564	preskúmať	preskúma preskúmaj preskúmajme preskúmajte preskúmajú preskúmal preskúmala preskúmali preskúmam preskúmame preskúmate
-65	3565	čitateľ	čitatelia čitateľa čitateľmi čitateľom čitateľov čitateľovi
-66	3566	server	servera serveri serveroch serverom serverov serveru servery
-67	3567	korekcia	korekcie korekciu
-68	3568	obálka	obálkach obálke obálkou obálku obálky obálok
-69	3569	pôrod	pôrode pôrodná pôrodný pôrodoch pôrodom pôrodov pôrodu pôrody
-70	3570	tempo	tempa tempe tempom tempu
-71	3571	šialenstvo	šialenstva šialenstve šialenstvom šialenstvu šialenstvá
-72	3572	senzor	senzora senzormi senzoroch senzorom senzorov senzoru senzory
-73	3573	udržovať	udržoval udržovala udržovali udržuj udržuje udržujem udržujeme udržujete udržuješ udržujme udržujte udržujú
-74	3574	lehota	lehote lehotou lehotu lehoty
-75	3575	podklad	podklade podkladom podkladov podkladu podklady
-76	3576	dub	duba dube dubom dubov dubovej dubovom dubová dubové dubového dubovú dubový dubových dubu duby dubček
-77	3577	rituál	rituáli rituálmi rituálne rituálny rituáloch rituálom rituálov rituálu rituály
-78	3578	golf	golfe golfom golfové golfový golfskom golfského golfský golfu
-79	3579	jedáleň	jedálne jedálni jedálňou
-80	3580	členský	členskej členskou členská členskú členských členským členskými
-81	3581	roztok	roztokom roztokov roztoku roztoky
-82	3582	hocikto	hocikoho hocikom hocikomu hocikým
-83	3583	zraziť	zrazia zrazil zrazila zrazili zrazilo zrazte zrazí zrazím zrazíme zrazíte zrazíš
-84	3584	ihla	ihiel ihlami ihle ihlou ihlu ihly ihlách
-85	3585	rozprávanie	rozprávania rozprávaniu rozprávaní rozprávaním
-86	3586	prádlo	prádla prádle prádlom
-87	3587	hromadný	hromadnej hromadnom hromadnou hromadná hromadné hromadného hromadnú hromadných hromadným
-88	3588	merať	meraj merajú meral merala merali meralo meria meriam meriame meriate meriaš
-89	3589	naživo	
-90	3590	dosiahnutie	dosiahnutia dosiahnutiu dosiahnutím
-91	3591	divízia	divízie divízii divíziou divíziu divíziám divízií
-92	3592	rytmus	rytmami rytme rytmom rytmov rytmu rytmy
-93	3593	špina	špine špinka špinku špinou špinu špiny
-94	3594	požadovať	požadoval požadovala požadovali požaduje požadujem požadujeme požadujete požaduješ požadujte požadujú
-95	3595	pozdrav	pozdrave pozdravom pozdravov pozdravu pozdravy
-96	3596	nepracovať	nepracoval nepracovala nepracovali nepracuj nepracuje nepracujem nepracujeme nepracujete nepracuješ nepracujte nepracujú
-97	3597	nachádzajúci	nachádzajúca nachádzajúce nachádzajúceho nachádzajúcej nachádzajúcich nachádzajúcu
-98	3598	riadok	riadkami riadkoch riadkom riadkov riadku riadky
-99	3599	svedectvo	svedectiev svedectva svedectve svedectvom svedectvu svedectvá svedectvách
-100	3600	usporiadanie	usporiadania usporiadaniu usporiadaním
+1	3501	poukazovať	nepoukazuje poukazoval poukazovala poukazovali poukazovalo poukazuj poukazuje poukazujem poukazujete poukazuješ poukazujú
+2	3502	vstupovať	nevstupovať nevstupuj nevstupuje nevstupujte nevstupujú vstupoval vstupovala vstupovali vstupuje vstupujem vstupujeme vstupujete vstupuješ vstupujú
+3	3503	psychický	psychickej psychickom psychickou psychická psychické psychického psychickú psychických psychickým psychickými
+4	3504	záchvat	záchvate záchvatmi záchvatoch záchvatom záchvatov záchvatu záchvaty
+5	3505	cestovný	cestovnej cestovnou cestovná cestovnú cestovných cestovným
+6	3506	utečenec	utečenca utečencami utečenci utečencoch utečencom utečencov utečencovi utečeneckom utečenecký
+7	3507	šialenstvo	šialenstva šialenstve šialenstvom šialenstvu šialenstvá
+8	3508	mäkký	mäkkej mäkkom mäkkou mäkká mäkké mäkkého mäkkí mäkkú mäkkých mäkkým mäkšia mäkší
+9	3509	orať	or oral zorali zorať
+10	3510	korekcia	korekcie korekciu
+11	3511	krst	krste krstnom krstného krstnému krstní krstný krstných krstným krstnými krstom krstu krsty
+12	3512	civilný	civilnej civilnom civilnou civilná civilné civilného civilnému civilní civilnú civilných civilným civilnými
+13	3513	rozširovať	nerozširujte rozširoval rozširovala rozširovali rozširovalo rozširuje rozširujem rozširujeme rozširujete rozširuješ rozširujú
+14	3514	zdravotníctvo	zdravotníctva zdravotníctve
+15	3515	preskúmať	nepreskúmali preskúma preskúmaj preskúmajme preskúmajte preskúmajú preskúmal preskúmala preskúmali preskúmam preskúmame preskúmate
+16	3516	komunikovať	komunikoval komunikovala komunikovali komunikovalo komunikuj komunikuje komunikujem komunikujeme komunikujete komunikuješ komunikujte komunikujú nekomunikoval nekomunikovali nekomunikuje nekomunikujeme nekomunikujú
+17	3517	brzda	brzdami brzde brzdné brzdou brzdové brzdový brzdu brzdy brzdách bŕzd
+18	3518	zdržať	nezdržal nezdržali nezdrží nezdržím nezdržíme nezdržíš zdrž zdržal zdržala zdržali zdržalo zdržia zdržte zdrží zdržím zdržíme zdržíte zdržíš
+19	3519	nádherne	najnádhernejšie
+20	3520	nudiť	nenudil nenudila nenudili nenudí nenudím nenudíme nenudíte nenudíš nudia nudil nudila nudili nudilo nudí nudím nudíme nudíte nudíš
+21	3521	hocikto	hocikoho hocikom hocikomu hocikým
+22	3522	merať	meraj merajú meral merala merali meralo meria meriam meriame meriate meriaš nemeral nemerali nemeria
+23	3523	ruch	ruchom ruchu
+24	3524	identifikácia	identifikačné identifikačný identifikácie identifikácii identifikáciou identifikáciu identifikácií
+25	3525	obálka	obálkach obálke obálkou obálku obálky obálok
+26	3526	sprievod	sprievode sprievodom sprievodov sprievodu sprievody
+27	3527	funkčný	funkčnej funkčnou funkčná funkčnú funkčných funkčným funkčnými
+28	3528	udržovať	udržoval udržovala udržovali udržuj udržuje udržujem udržujeme udržujete udržuješ udržujme udržujte udržujú
+29	3529	požadovať	nepožadoval nepožaduje nepožadujeme požadoval požadovala požadovali požaduje požadujem požadujeme požadujete požaduješ požadujte požadujú
+30	3530	pôrod	pôrode pôrodná pôrodný pôrodoch pôrodom pôrodov pôrodu pôrody
+31	3531	senzor	senzora senzormi senzoroch senzorom senzorov senzoru senzory
+32	3532	tempo	tempa tempe tempom tempu
+33	3533	rituál	rituáli rituálmi rituálne rituálny rituáloch rituálom rituálov rituálu rituály
+34	3534	hľadieť	hľadel hľadela hľadeli hľadia hľadiac hľadí hľadím hľadíme hľadíte hľadíš hľaď hľaďte nehľadel nehľadiac nehľadieť nehľadí nehľadíš nehľaď
+35	3535	definícia	definície definícii definíciou definíciu definícií
+36	3536	golf	golfe golfom golfové golfový golfskom golfského golfský golfu
+37	3537	kontext	kontexte kontextoch kontextu
+38	3538	ihla	ihiel ihlami ihle ihlou ihlu ihly ihlách
+39	3539	server	servera serveri serveroch serverom serverov serveru servery
+40	3540	jedáleň	jedálne jedálni jedálňou
+41	3541	čitateľ	čitatelia čitateľa čitateľmi čitateľom čitateľov čitateľovi
+42	3542	prádlo	prádla prádle prádlom
+43	3543	piecť	nepiekla nepiekol peč pečenia pečenie pečením pečenú pečený pečie pečiem pečieme pečiete pečieš pečú piekla piekli piekol upeč upečie upečiem upečieme upečieš upečte upečú upiecť upiekla upiekli upiekol
+44	3544	pozdrav	pozdrave pozdravom pozdravov pozdravu pozdravy
+45	3545	rozprávanie	rozprávania rozprávaniu rozprávaní rozprávaním
+46	3546	dub	duba dube dubom dubov dubovej dubovom dubová dubové dubového dubovú dubový dubových dubu duby dubček
+47	3547	špina	špine špinka špinku špinou špinu špiny
+48	3548	lehota	lehote lehotou lehotu lehoty
+49	3549	naživo	
+50	3550	legálny	legálna legálne legálneho legálnej legálnemu legálnom legálnou legálnu legálnych legálnym legálnymi
+51	3551	podklad	podklade podkladom podkladov podkladu podklady
+52	3552	štetka	štetiek štetkami štetke štetkou štetku štetky štetkách štetkám
+53	3553	večierok	večierkoch večierkom večierkov
+54	3554	babylon	babylone babylonom babylonu
+55	3555	rytmus	rytmami rytme rytmom rytmov rytmu rytmy
+56	3556	nabiť	nabi nabije nabijem nabijeme nabiješ nabil nabila nabili nabite nabitie nabité nabitý nabíja nabíjať nenabil
+57	3557	zúfalý	zúfalej zúfalejší zúfalom zúfalou zúfalá zúfalé zúfalého zúfalí zúfalú zúfalých zúfalým
+58	3558	posadnutý	posadnutá posadnuté posadnutého posadnutí posadnutú posadnutých posadnutým
+59	3559	vyplniť	nevyplnil nevyplnila nevyplnili vyplnia vyplnil vyplnila vyplnili vyplnilo vyplní vyplním vyplníme vyplníte vyplníš vyplň vyplňte
+60	3560	členský	členskej členskou členská členskú členských členským členskými
+61	3561	divízia	divízie divízii divíziou divíziu divíziám divízií
+62	3562	svedectvo	svedectiev svedectva svedectve svedectvom svedectvu svedectvá svedectvách
+63	3563	roztok	roztokom roztokov roztoku roztoky
+64	3564	hromadný	hromadnej hromadnom hromadnou hromadná hromadné hromadného hromadnú hromadných hromadným
+65	3565	smola	smole smolou smolu smoly
+66	3566	pozvanie	pozvania pozvaniu pozvaním
+67	3567	ohľadne	
+68	3568	riadok	riadkami riadkoch riadkom riadkov riadku riadky
+69	3569	dosiahnutie	dosiahnutia dosiahnutiu dosiahnutím
+70	3570	zväzok	zväzkoch zväzkom zväzkov zväzku zväzky
+71	3571	zničenie	zničenia zničeniu zničením
+72	3572	doľava	
+73	3573	babička	babičke babičkou babičku babičky
+74	3574	pohlavie	pohlavia pohlaviami pohlaviu pohlaví pohlavím
+75	3575	usporiadanie	usporiadania usporiadaniu usporiadaním
+76	3576	vystopovať	nevystopoval nevystopovali nevystopujeme nevystopujú vystopoval vystopovala vystopovali vystopuj vystopuje vystopujem vystopujeme vystopujete vystopuješ vystopujte vystopujú
+77	3577	nachádzajúci	nachádzajúca nachádzajúce nachádzajúceho nachádzajúcej nachádzajúcich nachádzajúcu
+78	3578	skrz	skrze
+79	3579	triasť	nepotrasiem nepotriasol netras netrasie netrasiem netraste netrasú potras potrasie potrasiem potrasieme potrasiete potrasieš potrasme potraste potrasú potriasla potriasli potriasol potriasť tras trasenie trasie trasiem trasieme trasiete trasieš traste trasú trasúc trasúci triasla triasli triaslo triasol
+80	3580	pop	popa pope popom popov popová popový popu
+81	3581	mieriť	mieria mieril mierila mierili mierilo mierim mierime mierite mieriš mierte nemier nemieri nemieria nemieril nemierila nemierili nemierim nemieriš nemierte
+82	3582	slon	slona slonej sloni slonia slonica slonicu slonie slonieho sloniu slonmi slonoch slonom slonov slonovi slony sloní sloních sloník
+83	3583	výstrel	výstrele výstrelmi výstreloch výstrelom výstrelov výstrelu výstrely
+84	3584	napiť	napi napije napijem napijeme napijete napiješ napijú napil napila napili napime napite nenapijete nenapiješ nenapil
+85	3585	rukojemník	rukojemníci rukojemníka rukojemníkmi rukojemníkoch rukojemníkom rukojemníkov rukojemníčka rukojemníčku
+86	3586	žiaľ	žiale žiali žiaľom žiaľu
+87	3587	postupný	postupnej postupnom postupnou postupná postupné postupného postupnému postupnú postupným
+88	3588	fínsky	fínska fínske fínskeho fínskej fínski fínskom fínsku fínskych fínskym
+89	3589	experiment	experimente experimentmi experimentoch experimentom experimentov experimentu experimenty
+90	3590	udiať	neudeje neudiala neudialo udeje udejú udial udiala udiali udialo
+91	3591	prasa	prasatami prasati prasatá prasatám prasaťa prasaťom prasaťu prascami prasce prasiat
+92	3592	určenie	určenia určeniu určením
+93	3593	odvetvie	odvetvia odvetviach odvetví odvetvím
+94	3594	reálne	reálnejšie
+95	3595	zvyšný	zvyšnej zvyšná zvyšné zvyšného zvyšní zvyšnú zvyšných zvyšným zvyšnými
+96	3596	surovina	surovinami surovinou surovinu suroviny surovín
+97	3597	tesný	najtesnejších tesnej tesnom tesná tesné tesnú tesných
+98	3598	zúčastňovať	nezúčastňuje nezúčastňujem zúčastňoval zúčastňovala zúčastňovali zúčastňuje zúčastňujem zúčastňujeme zúčastňujete zúčastňuješ zúčastňujú
+99	3599	hotelový	hotelovej hotelovom hotelovou hotelová hotelové hotelového hotelovému hotelovú hotelových hotelovým
+100	3600	technik	technici technikmi technikom technikov technikovi

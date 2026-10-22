@@ -1,7 +1,7 @@
 1	201	dosť	
 2	202	prípad	prípade prípadmi prípadoch prípadom prípadov prípadu prípady
-3	203	počkať	počkaj počkajme počkajte počkajú počkal počkala počkali počkalo počká počkám počkáme počkáte počkáš
-4	204	spraviť	sprav spravený spravia spravil spravila spravili spravilo spravme spravte spraví spravím spravíme spravíte spravíš
+3	203	počkať	nepočkajú nepočkal nepočkala nepočkali nepočkalo nepočkať nepočká nepočkám nepočkáme nepočkáte nepočkáš počkaj počkajme počkajte počkajú počkal počkala počkali počkalo počká počkám počkáme počkáte počkáš
+4	204	spraviť	nesprav nespravia nespravil nespravila nespravili nespravilo nespraviť nespravte nespraví nespravím nespravíme nespravíte nespravíš sprav spravený spravia spravil spravila spravili spravilo spravme spravte spraví spravím spravíme spravíte spravíš
 5	205	peniaze	peniazmi peniazoch peniazom peňazí peňažné peňažný
 6	206	nad	nado
 7	207	presne	najpresnejšie presnejšie
@@ -19,32 +19,32 @@
 19	219	krajina	krajinami krajine krajinky krajinnej krajinou krajinu krajiny krajinách krajinám krajín
 20	220	vlastný	vlastnej vlastnom vlastnou vlastná vlastné vlastného vlastnému vlastní vlastnú vlastných vlastným vlastnými
 21	221	samozrejme	
-22	222	čakať	nečakal čakaj čakajme čakajte čakajú čakajúc čakajúca čakajúce čakajúceho čakajúcej čakajúci čakajúcich čakajúcu čakal čakala čakali čakalo čakania čakanie čakaniu čakaní čakaním čaká čakám čakáme čakáte čakáš
+22	222	čakať	nečakaj nečakajme nečakajte nečakajú nečakal nečakala nečakali nečakať nečaká nečakám nečakáme nečakáte nečakáš čakaj čakajme čakajte čakajú čakajúc čakajúca čakajúce čakajúceho čakajúcej čakajúci čakajúcich čakajúcu čakal čakala čakali čakalo čakania čakanie čakaniu čakaní čakaním čaká čakám čakáme čakáte čakáš
 23	223	syn	syna synmi synoch synom synov synovi synovia synovská synu synáčik synáčika synček synčeka synčekom synčekovi
-24	224	zostať	zostal zostala zostali zostalo zostane zostanem zostaneme zostanete zostaneš zostanú zostaň zostaňme zostaňte zostáva zostávať
+24	224	zostať	nezostal nezostala nezostali nezostalo nezostane nezostanem nezostaneme nezostanete nezostaneš nezostanú nezostaň nezostať nezostáva nezostávaj nezostávajte nezostávajú nezostávalo nezostávam nezostávame nezostávaš zostal zostala zostali zostalo zostane zostanem zostaneme zostanete zostaneš zostanú zostaň zostaňme zostaňte zostáva zostávať
 25	225	pomoc	pomoci pomocou
 26	226	než	
-27	227	stáť	stoj stoja stojac stojaca stojace stojaceho stojacej stojaci stojacich stojacim stojacu stoje stoji stojte stojí stojím stojíme stojíte stojíš stál stála stáli stálo státie stáva stávať
-28	228	vziať	vezme vezmem vezmeme vezmete vezmeš vezmi vezmime vezmite vezmú vzal vzala vzali vzalo vzial
+27	227	stáť	nestoj nestoja nestojme nestojte nestojí nestojím nestojíme nestojíte nestojíš nestál nestálo nestáva nestávajú stoj stoja stojac stojaca stojace stojaceho stojacej stojaci stojacich stojacim stojacu stoje stoji stojte stojí stojím stojíme stojíte stojíš stál stála stáli stálo státie stáva stávať
+28	228	vziať	nevezmem nevezmeme nevezmete nevezmeš nevezmi nevezmú nevzal nevzala nevzali nevzalo nevziať vezme vezmem vezmeme vezmete vezmeš vezmi vezmime vezmite vezmú vzal vzala vzali vzalo vzial
 29	229	týždeň	týždennej týždennom týždenná týždenné týždennú týždenný týždenným týždne týždni týždňa týždňami týždňoch týždňom týždňov týždňové týždňový týždňu
-30	230	hľadať	hľadaj hľadajme hľadajte hľadajú hľadajúc hľadajúci hľadal hľadala hľadali hľadalo hľadania hľadanie hľadaniu hľadaní hľadaním hľadaný hľadá hľadám hľadáme hľadáte hľadáš
+30	230	hľadať	hľadaj hľadajme hľadajte hľadajú hľadajúc hľadajúci hľadal hľadala hľadali hľadalo hľadania hľadanie hľadaniu hľadaní hľadaním hľadaný hľadá hľadám hľadáme hľadáte hľadáš nehľadaj nehľadajte nehľadajú nehľadal nehľadala nehľadali nehľadať nehľadá nehľadám nehľadáme nehľadáte nehľadáš
 31	231	dievča	dievčat dievčatami dievčati dievčatiek dievčatka dievčatkami dievčatko dievčatkom dievčatku dievčatká dievčatkám dievčatá dievčatách dievčatám dievčaťa dievčaťom dievčaťu dievčence dievčenskej dievčenskom dievčenskou dievčensky dievčenská dievčenské dievčenského dievčenskú dievčenský dievčenských dievčenským dievčenskými
 32	232	cena	cenami cene cenou cenovej cenový cenu ceny cenách cenám cien
-33	233	odísť	odchádza odchádzať odišiel odišla odišli odišlo odíde odídem odídeme odídete odídeš odídu odíď odíďme odíďte
+33	233	odísť	neodchádza neodchádzaj neodchádzajte neodchádzajú neodchádzal neodchádzala neodchádzam neodchádzame neodchádzate neodchádzaš neodchádzať neodišiel neodišla neodišli neodišlo neodíde neodídem neodídeme neodídete neodídeš neodídu neodísť neodíď neodíďte odchádza odchádzať odišiel odišla odišli odišlo odíde odídem odídeme odídete odídeš odídu odíď odíďme odíďte
 34	234	kvôli	
 35	235	jediný	jedinej jedinom jedinou jediná jediné jediného jedinému jediní jedinú jediných jediným jedinými
 36	236	večer	večera večere večeri večeriach večeriam večerné večerný večeroch večerom večerou večerov večeru večery večerí
 37	237	slovo	slov slova slovami slove slovko slovkom slovné slovný slovom slovu slová slovách slovám slovíčka slovíčkami slovíčko slovíčku slovíčok
 38	238	hlavný	hlavnej hlavnom hlavnou hlavná hlavné hlavného hlavnému hlavní hlavnú hlavných hlavným hlavnými
-39	239	zomrieť	zomiera zomierať zomrel zomrela zomreli zomrelo zomretie zomri zomrie zomriem zomrieme zomriete zomrieš zomrime zomrite zomrú
+39	239	zomrieť	nezomiera nezomieraj nezomierajte nezomierajú nezomieral nezomieram nezomierate nezomieraš nezomrel nezomrela nezomreli nezomrelo nezomri nezomrie nezomriem nezomrieme nezomriete nezomrieš nezomrieť nezomrú zomiera zomierať zomrel zomrela zomreli zomrelo zomretie zomri zomrie zomriem zomrieme zomriete zomrieš zomrime zomrite zomrú
 40	240	jasný	jasnejšia jasnejšiu jasnejší jasnou jasné jasného jasní jasnú jasných jasným jasnými najjasnejšia najjasnejšiu najjasnejší najjasnejších najjasnejším
 41	241	chlapec	chlapca chlapcami chlapci chlapcoch chlapcom chlapcov chlapcova chlapcove chlapcovej chlapcovho chlapcovi chlapcovo chlapcovom chlapcovu chlapcovým chlapče chlapček chlapčeka chlapčekom chlapčekov chlapčekovi chlapčekovia chlapčenskej chlapčenskom chlapčenská chlapčenské chlapčenského chlapčenskú chlapčenský chlapčenských chlapčisko
 42	242	hneď	hnede
 43	243	hlava	hlavami hlave hlavou hlavu hlavy hlavách hlavám hláv
-44	244	milovať	miloval milovala milovali milovalo milovanej milovania milovanie milovaniu milovanom milovanou milovaná milované milovaného milovanému milovaní milovanú milovaný milovaných milovaným milovanými miluj miluje milujem milujeme milujete miluješ milujme milujte milujú milujúca milujúce milujúceho milujúcej milujúci milujúcich milujúcim milujúcom milujúcou milujúcu
+44	244	milovať	miloval milovala milovali milovanej milovania milovanie milovanou milovaná milované milovaného milovanému milovaní milovanú milovaný milovaných milovaným milovanými miluj miluje milujem milujeme milujete miluješ milujte milujú milujúca milujúce milujúceho milujúcej milujúci milujúcu nemiloval nemilovala nemilovali nemiluje nemilujem nemilujete nemiluješ nemilujú
 45	245	páčiť	nepáči nepáčia nepáčil nepáčila nepáčili nepáčilo nepáčim nepáčime nepáčite nepáčiš nepáčiť páči páčia páčil páčila páčili páčilo páčim páčime páčite páčiš
 46	246	voda	vodami vode vodou vodové vodu vody vodách vodám vôd
-47	247	hrať	hraj hraje hrajem hrajeme hrajete hraješ hrajme hrajte hrajú hrajúc hrajúca hrajúce hrajúceho hrajúcej hrajúci hrajúcich hrajúcu hral hrala hrali hralo hrania hranie hraniu hraní hraním hraný hrá hrám hráme hráte hráš
+47	247	hrať	hraj hraje hrajem hrajeme hraješ hrajme hrajte hrajú hrajúca hrajúce hrajúci hrajúcich hral hrala hrali hralo hrania hranie hraniu hraní hraním hraný hrá hrám hráme hráte hráš nehraj nehrajte nehrajú nehral nehrala nehrali nehrať nehrá nehrám nehráme nehráte nehráš
 48	248	kniha	knihami knihe knihou knihu knihy knihách knihám knižka knižku knižnej knižný knižočky kníh
 49	249	rýchlo	najrýchlejšie rýchlejšie
 50	250	raz	razoch razom razov razu razy
@@ -53,10 +53,10 @@
 53	253	ťažký	najťažšej najťažšia najťažšie najťažšiu najťažšou najťažší najťažších najťažším ťažkej ťažko ťažkom ťažkou ťažká ťažké ťažkého ťažkému ťažkí ťažkú ťažkých ťažkým ťažkými ťažšia ťažšie ťažšiu ťažšou ťažší ťažších ťažším
 54	254	dlho	dlhšie najdlhšie
 55	255	jednoduchý	jednoduchej jednoducho jednoduchom jednoduchou jednoduchá jednoduché jednoduchého jednoduchému jednoduchí jednoduchú jednoduchých jednoduchým jednoduchými jednoduchšia jednoduchšie jednoduchšiu jednoduchšou jednoduchší jednoduchších jednoduchším jednoduchšími najjednoduchšia najjednoduchšie najjednoduchšiu najjednoduchšou najjednoduchší najjednoduchších najjednoduchším
-56	256	ukázať	ukazovať ukazuje ukázal ukázala ukázali ukázalo ukázanie ukáž ukáže ukážem ukážeme ukážete ukážeš ukážme ukážte ukážu
-57	257	patriť	patri patria patriace patriaci patril patrila patrili patrilo patrime patrite patrí patrím patríme patríte patríš
-58	258	rozhodnúť	rozhodla rozhodli rozhodlo rozhodne rozhodnem rozhodneme rozhodnete rozhodneš rozhodni rozhodnime rozhodnite rozhodnuté rozhodnutý rozhodnú rozhodol rozhodovať rozhoduje
-59	259	získať	získa získaj získajme získajte získajú získal získala získali získalo získam získame získania získanie získaniu získané získaním získaný získate získava získavať získaš
+56	256	ukázať	neukazoval neukazovala neukazovať neukazuj neukazuje neukazujem neukazujeme neukazuješ neukazujte neukazujú neukázal neukázala neukázali neukázalo neukázať neukáž neukáže neukážem neukážeme neukážete neukážeš neukážte neukážu ukazovať ukazuje ukázal ukázala ukázali ukázalo ukázanie ukáž ukáže ukážem ukážeme ukážete ukážeš ukážme ukážte ukážu
+57	257	patriť	nepatri nepatria nepatril nepatrila nepatrili nepatrilo nepatrí nepatrím nepatríme nepatríte nepatríš patri patria patriace patriaci patril patrila patrili patrilo patrime patrite patrí patrím patríme patríte patríš
+58	258	rozhodnúť	nerozhodla nerozhodli nerozhodlo nerozhodnem nerozhodneme nerozhodnete nerozhodneš nerozhodnú nerozhodol nerozhodoval nerozhoduj nerozhoduje nerozhodujem nerozhodujeme nerozhodujete nerozhoduješ nerozhodujú rozhodla rozhodli rozhodlo rozhodne rozhodnem rozhodneme rozhodnete rozhodneš rozhodni rozhodnime rozhodnite rozhodnuté rozhodnutý rozhodnú rozhodol rozhodovať rozhoduje
+59	259	získať	nezíska nezískajú nezískal nezískala nezískali nezískam nezískame nezískate nezískava nezískaš získa získaj získajme získajte získajú získal získala získali získalo získam získame získania získanie získaniu získané získaním získaný získate získava získavať získaš
 60	260	chvíľa	chvíle chvíli chvíľ chvíľach chvíľam chvíľami chvíľka chvíľku chvíľou chvíľočka chvíľočku chvíľu
 61	261	skupina	skupinami skupine skupinou skupinu skupiny skupinách skupinám skupín
 62	262	otázka	otázkach otázkam otázkami otázke otázkou otázku otázky otázok otázočka otázočku
@@ -69,32 +69,32 @@
 69	269	okrem	
 70	270	ďalej	
 71	271	minúta	minút minútach minútam minútami minúte minútka minútky minútou minútovej minútová minútové minútovú minútový minútových minútovým minútu minúty
-72	272	otvoriť	otvor otvore otvorenia otvorenie otvoreniu otvorené otvorením otvorený otvoria otvoril otvorila otvorili otvorilo otvorme otvormi otvoroch otvorom otvorov otvorte otvoru otvory otvorí otvorím otvoríme otvoríte otvoríš otvára otvárať
+72	272	otvoriť	neotvoria neotvoril neotvorila neotvorili neotvorí neotvorím neotvoríme neotvoríte neotvoríš neotváraj neotvárajte neotváral otvor otvore otvorenia otvorenie otvoreniu otvorené otvorením otvorený otvoria otvoril otvorila otvorili otvorilo otvorme otvormi otvorom otvorov otvorte otvoru otvory otvorí otvorím otvoríme otvoríte otvoríš otvára otvárať
 73	273	späť	
 74	274	skvelý	najskvelejšia najskvelejší skvelej skvelom skvelou skvelá skvelé skvelého skvelému skvelí skvelú skvelých skvelým skvelými
-75	275	zistiť	zisti zistia zistil zistila zistili zistilo zistime zistite zistí zistím zistíme zistíte zistíš
+75	275	zistiť	nezistia nezistil nezistila nezistili nezistilo nezistí nezistím nezistíme nezistíte nezistíš zisti zistia zistil zistila zistili zistilo zistime zistite zistí zistím zistíme zistíte zistíš
 76	276	pekný	krajšej krajšia krajšieho krajšiu krajšom krajšou krajší krajších krajším krajšími najkrajšej najkrajšia najkrajšieho najkrajšiu najkrajšom najkrajšou najkrajší najkrajších najkrajším najkrajšími peknej peknom peknou pekná pekné pekného peknému pekní peknú pekných pekným peknými
 77	277	niekedy	
-78	278	prestať	prestal prestala prestali prestalo prestane prestanem prestaneme prestanete prestaneš prestania prestanú prestaň prestaňme prestaňte prestáva prestávať
+78	278	prestať	neprestal neprestala neprestali neprestalo neprestane neprestanem neprestaneme neprestanete neprestaneš neprestanú neprestaň neprestaňte neprestať neprestáva neprestávaj neprestávajme neprestávajte neprestávajú neprestával neprestávala neprestávali neprestávam neprestávaš prestal prestala prestali prestalo prestane prestanem prestaneme prestanete prestaneš prestania prestanú prestaň prestaňme prestaňte prestáva prestávať
 79	279	nech	
 80	280	rad	rade radmi radoch radom radov radu rady
-81	281	držať	drž držal držala držali držalo držania držanie držaniu držaná držané držaní držaním držaný držia držiac držiaci držme držte drží držím držíme držíte držíš
+81	281	držať	drž držal držala držali držalo držania držanie držaniu držaná držané držaní držaním držaný držia držiac držiaci držme držte drží držím držíme držíte držíš nedrž nedržal nedržala nedržali nedržalo nedržia nedržte nedrží nedržím nedržíme nedržíte nedržíš
 82	282	chlap	chlapa chlape chlapi chlapmi chlapoch chlapom chlapov chlapovi
 83	283	vážne	najvážnejšie vážnejšie
-84	284	skončiť	skonč skonči skončia skončil skončila skončili skončilo skončime skončite skončí skončím skončíme skončíte skončíš
+84	284	skončiť	neskonči neskončia neskončil neskončila neskončili neskončilo neskončiť neskončí neskončím neskončíme neskončíte neskončíš skonč skonči skončia skončil skončila skončili skončilo skončime skončite skončí skončím skončíme skončíte skončíš
 85	285	doba	dobe dobou dobu doby dobách dôb
 86	286	smrť	smrti smrtí smrťami smrťou
 87	287	často	najčastejšie častejšie
 88	288	brat	brata brate bratia bratku bratmi bratoch bratom bratov bratova bratove bratovej bratovho bratovi bratovmu bratovom bratovou bratovu bratskej bratskom bratsky bratská bratské bratského bratskú bratský bratu braček bračeka bračekom bračekovi bračekovia
-89	289	stretnúť	stretla stretli stretlo stretne stretnem stretneme stretnete stretneš stretni stretnime stretnite stretnú stretol stretáva stretávať
-90	290	diať	deje dejte dejú diala dialo
+89	289	stretnúť	nestretla nestretli nestretlo nestretne nestretnem nestretneme nestretnete nestretneš nestretni nestretnú nestretnúť nestretol nestretáva nestretávaj nestretávajte nestretávajú nestretával nestretávala nestretávali nestretávam nestretávame nestretávate nestretávaš nestretávať stretla stretli stretlo stretne stretnem stretneme stretnete stretneš stretni stretnime stretnite stretnú stretol stretáva stretávať
+90	290	diať	deje dejte dejú diala dialo nedeje nedejú nedialo
 91	291	matka	matiek matkami matke matkou matku matky matkách matkám
 92	292	obec	obcami obce obci obciach obciam obcou obcí
 93	293	obchod	obchode obchodmi obchodnej obchodnom obchodnou obchodná obchodné obchodného obchodnému obchodní obchodnú obchodný obchodných obchodným obchodnými obchodoch obchodom obchodov obchodu obchody obchodík obchodíku obchodíky
 94	294	rôzny	najrôznejšie najrôznejších rôzna rôzne rôzneho rôznej rôznom rôznou rôznu rôznych rôznym rôznymi
 95	295	najmä	
-96	296	dávať	dáva dávaj dávajme dávajte dávajú dávajúc dával dávala dávali dávalo dávam dávame dávanie dávate dávaš
+96	296	dávať	dáva dávaj dávajme dávajte dávajú dávajúc dával dávala dávali dávalo dávam dávame dávanie dávate dávaš nedáva nedávaj nedávajte nedávajú nedával nedávala nedávali nedávalo nedávam nedávame nedávate nedávaš nedávať
 97	297	vlastne	
-98	298	prejsť	prechádza prechádzať prejde prejdem prejdeme prejdenie prejdený prejdete prejdeš prejdi prejdime prejdite prejdú prešiel prešla prešli prešlo
+98	298	prejsť	neprechádza neprechádzaj neprechádzajú neprechádzal neprechádzali neprejde neprejdem neprejdeme neprejdete neprejdeš neprejdú neprejsť neprešiel neprešla neprešli neprešlo prechádza prechádzať prejde prejdem prejdeme prejdenie prejdený prejdete prejdeš prejdi prejdime prejdite prejdú prešiel prešla prešli prešlo
 99	299	väčšina	väčšine väčšinou väčšinový väčšinovým väčšinu väčšiny
 100	300	aspoň	

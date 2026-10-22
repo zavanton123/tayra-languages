@@ -1,100 +1,100 @@
-1	7001	vŕtať	vŕta vŕtaj vŕtajte vŕtajú vŕtal vŕtala vŕtali vŕtalo vŕtam vŕtate vŕtaš
-2	7002	palivový	palivovej palivová palivové palivového palivovú palivových palivovými
-3	7003	dohovoriť	dohovoril dohovorila dohovorili dohovorte dohovorí dohovorím dohovoríme
-4	7004	mechanik	mechanici mechanikom mechanikov mechanikovi
-5	7005	prevažný	prevažnej prevažná prevažnú
-6	7006	prevrat	prevrate prevratom prevratov prevratu
-7	7007	podnebie	podnebia podnebiu podnebí podnebím
-8	7008	prvenstvo	prvenstva
-9	7009	pečivo	pečiva pečivom
-10	7010	výzbroj	výzbroje výzbroji výzbrojou
-11	7011	odbočiť	odboč odbočil odbočila odbočili odbočte odbočí odbočím odbočíme odbočíte odbočíš
-12	7012	komnata	komnate komnatu komnaty komnatách komnát
-13	7013	anomália	anomálie anomálii anomáliou anomáliu anomálií
-14	7014	zavádzať	zavádza zavádzajú zavádzal zavádzala zavádzali zavádzam zavádzame zavádzaš
-15	7015	kartel	karteli kartelmi kartelom kartelov kartelu kartely
-16	7016	sliznica	sliznice sliznici sliznicu slizníc
-17	7017	zoradený	zoradené zoradení zoradených
-18	7018	zjednotiť	zjednotia zjednotil zjednotila zjednotili zjednotí zjednotím zjednotíme
-19	7019	neubližovať	neubližoval neubližovali neubližuj neubližuje neubližujem neubližujeme neubližuješ neubližujte neubližujú
-20	7020	tulák	tuláci tuláka tulákmi tulákom tulákov tulákovi
-21	7021	pomodliť	pomodli pomodlil pomodlila pomodlili pomodlime pomodlite pomodlí pomodlím pomodlíme pomodlíte pomodlíš
-22	7022	vypočúvanie	vypočúvania vypočúvaniach vypočúvaniu vypočúvaní vypočúvaním
-23	7023	pozdĺžny	pozdĺžne pozdĺžnej pozdĺžnych
-24	7024	transplantácia	transplantácie transplantácii transplantáciou transplantáciu transplantácií
-25	7025	hostinec	hostinca hostinci
-26	7026	uzatvoriť	uzatvoria uzatvoril uzatvorila uzatvorili uzatvorte uzatvorí uzatvorím uzatvoríme
-27	7027	podpáliť	podpáli podpália podpálil podpálila podpálili podpálim podpálime podpálite podpáliš podpáľ podpáľte
-28	7028	šum	šume šumu šumy
-29	7029	vznášať	vznáša vznášajú vznášajúc vznášal vznášala vznášali vznášalo vznášam vznášame vznášaš
-30	7030	orientovať	orientuje orientujem orientujú
-31	7031	bravčové	
-32	7032	popremýšľať	popremýšľaj popremýšľajme popremýšľajte popremýšľal popremýšľala popremýšľali popremýšľam popremýšľame popremýšľate popremýšľaš
-33	7033	utíšiť	utíš utíši utíšia utíšil utíšila utíšili utíšilo utíšim utíšime utíšiš utíšte
-34	7034	zákulisie	zákulisia zákulisí
-35	7035	rotačný	rotačnej rotačná rotačné rotačného rotačnú rotačných
-36	7036	oživenie	oživenia oživeniu oživením
-37	7037	zdvojnásobiť	zdvojnásob zdvojnásobia zdvojnásobil zdvojnásobila zdvojnásobili zdvojnásobilo zdvojnásobte zdvojnásobí zdvojnásobím zdvojnásobíme zdvojnásobíš
-38	7038	ruksak	ruksakmi ruksakom ruksaku ruksaky
-39	7039	nakaziť	nakazia nakazil nakazila nakazili nakazilo nakazí nakazím nakazíte nakazíš
-40	7040	vyvádzať	vyvádza vyvádzajú vyvádzal vyvádzala vyvádzali vyvádzam vyvádzate vyvádzaš
-41	7041	oboznámený	oboznámená oboznámení
-42	7042	rozpaky	rozpakoch rozpakov
-43	7043	spätne	
-44	7044	prevoz	prevoze prevozom prevozu
-45	7045	porušovať	porušoval porušovala porušovali porušuje porušujem porušujeme porušujete porušuješ porušujú
-46	7046	repertoár	repertoára repertoári repertoáru
-47	7047	devínsky	devínska devínskej
-48	7048	nepravidelný	nepravidelná nepravidelné nepravidelného nepravidelných
-49	7049	potiť	potia potil potila potili potí potím potíme potíte potíš poť
-50	7050	zaisťovať	zaisťuje zaisťujem zaisťujeme zaisťujú
-51	7051	rezervovať	rezervoval rezervovala rezervovali rezervuj rezervuje rezervujem rezervujeme rezervujte
-52	7052	opatera	opatere opaterou opateru opatery
-53	7053	zmocniť	zmocni zmocnia zmocnil zmocnila zmocnili zmocnilo zmocní zmocníme
-54	7054	polárny	polárna polárne polárneho polárnej polárnom polárnu polárnych polárnym polárnymi
-55	7055	číslica	číslic číslicami číslice
-56	7056	topiť	topia topil topila topili topí topím topíme topíte topíš
-57	7057	nezabrať	nezaberie nezaberú nezabral nezabrala nezabrali nezabralo
-58	7058	dáždnik	dáždnika dáždnikom dáždnikov dáždniku dáždniky dáždniček
-59	7059	vyplývajúci	vyplývajúca vyplývajúce vyplývajúcich
-60	7060	neprezradiť	neprezradia neprezradil neprezradila neprezradili neprezradí neprezradím neprezradíme neprezradíte neprezradíš neprezraď neprezraďte
-61	7061	mäsiar	mäsiara mäsiari mäsiarka mäsiarky mäsiarom mäsiarov mäsiarovi mäsiarskeho mäsiarsky mäsiarskym
-62	7062	vytlačený	vytlačená vytlačené vytlačení vytlačených
-63	7063	udať	udaj udajte udajú udal udala udali udá udám udáš
-64	7064	zhodný	zhodná zhodné
-65	7065	trhať	trhaj trhajú trhal trhala trhali trhalo trhá trhám trháš
-66	7066	kreatívny	kreatívna kreatívneho kreatívnej kreatívnejší kreatívni kreatívnou kreatívnu kreatívnych kreatívnym kreatívnymi
-67	7067	spoľahlivosť	spoľahlivosti spoľahlivosťou
-68	7068	odhaľovať	odhaľoval odhaľuje odhaľujem odhaľujeme odhaľujete odhaľujú
-69	7069	žiarlivosť	žiarlivosti žiarlivosťou
-70	7070	konštatovať	konštatoval konštatuje konštatujem
-71	7071	prekladať	prekladaj prekladajte prekladajú prekladal prekladala prekladali prekladá prekladám prekladáš
-72	7072	pokrytie	pokrytia
-73	7073	odhodlanie	odhodlania odhodlaním
-74	7074	replika	replike replikou repliku repliky replík
-75	7075	horor	horore hororoch hororov hororu horory
-76	7076	losos	lososa lososom lososov lososová lososovú lososový lososy
-77	7077	mlátiť	mláti mlátia mlátil mlátila mlátili mlátim mlátite mlátiš
-78	7078	skórovať	skóroval skórovala skórovali skóruj skóruje skórujem skóruješ skórujú
-79	7079	výmysel	výmyslami výmysloch výmyslom výmyslov výmyslu výmysly
-80	7080	sebavedomie	sebavedomia sebavedomím
-81	7081	vnučka	vnučke vnučkou vnučku vnučky
-82	7082	holokaust	holokauste holokaustu
-83	7083	kaňa	kane
-84	7084	svätosť	svätosti svätosťou
-85	7085	umožnený	umožnená umožnené
-86	7086	kopačka	kopačku kopačky
-87	7087	poľovnícky	poľovnícka poľovnícke poľovníckeho poľovníckej poľovnícku
-88	7088	hardvér	hardvérom hardvéru
-89	7089	prekvapivo	
-90	7090	brod	brode brodu brody
-91	7091	jedenásty	jedenásta jedenáste jedenásteho jedenástej jedenástom jedenástou jedenástu
-92	7092	rozmnožovanie	rozmnožovania rozmnožovaniu rozmnožovaní
-93	7093	prekonávať	prekonáva prekonávajú prekonával prekonávam prekonávaš
-94	7094	konár	konára konáre konári konárik konáriky konármi konároch konárom konárov
-95	7095	rozbor	rozbore rozborom rozboru rozbory
-96	7096	skaut	skauta skauti skautom skautov
-97	7097	olivový	olivovej olivovom olivovou olivová olivové olivového olivovú olivovým
-98	7098	fantasticky	
-99	7099	erekcia	erekcie erekcii erekciou erekciu
-100	7100	reprodukcia	reprodukcie reprodukcii reprodukciou reprodukciu
+1	7001	meškanie	meškania meškaní meškaním
+2	7002	zamestnávať	nezamestnáva zamestnáva zamestnávajú zamestnával zamestnávala zamestnávali zamestnávam zamestnávame zamestnávate zamestnávaš
+3	7003	koncentračný	koncentračnom koncentračné koncentračného koncentračných
+4	7004	lesklý	lesklej lesklom lesklá lesklé lesklého lesklú lesklých lesklými
+5	7005	vrcholový	vrcholovej vrcholové vrcholového vrcholových
+6	7006	štrbský	štrbskom štrbské štrbského
+7	7007	večerať	nevečeral večerajú večeral večerala večerali večeriame večeriate večeriaš
+8	7008	výstraha	výstrahou výstrahu výstrahy
+9	7009	znamienko	znamienka znamienkom znamienku znamienok
+10	7010	brutálny	brutálna brutálneho brutálnej brutálni brutálnom brutálnou brutálnu brutálnych brutálnym najbrutálnejšiu najbrutálnejší najbrutálnejších
+11	7011	závet	závete závetom závetu závety
+12	7012	výpredaj	výpredaja výpredaje výpredaji výpredajoch výpredajom výpredajov výpredaju
+13	7013	vyrovnanie	vyrovnania vyrovnaniu vyrovnaním
+14	7014	mach	macha machom machu machy
+15	7015	prehodnotiť	prehodnotia prehodnotil prehodnotila prehodnotili prehodnotí prehodnotím prehodnotíme prehodnotíte
+16	7016	tornádo	tornád tornáda tornádach tornádami tornáde tornádom tornádu
+17	7017	močiar	močiara močiare močiari močiarmi močiarny močiarnych močiaroch močiarom močiarov močiaru
+18	7018	nosnosť	nosnosti nosnosťou
+19	7019	močový	močovej močovom močové močového močovú močových močovým
+20	7020	prívesok	príveskami príveskoch príveskom príveskov prívesku prívesky
+21	7021	ženiť	neženil nežením nežeň nežeňte ženia ženil ženili žení žením ženíš
+22	7022	plošný	plošná plošné plošného plošných
+23	7023	karanténa	karanténe karanténou karanténu karantény
+24	7024	vytratiť	vytratia vytratil vytratila vytratili vytratilo vytratí vytratím vytratíme vytratíš
+25	7025	radar	radare radarmi radarom radarov radaru radary
+26	7026	anatómia	anatomicky anatomické anatomických anatómie anatómii anatómiu
+27	7027	štítny	štítna štítnej štítnou štítnu
+28	7028	plaviť	plav plavia plavil plavila plavili plavte plavím plavíme plavíte plavíš
+29	7029	popálenina	popáleninami popálenine popáleninu popáleniny popáleninách popáleninám popálenín
+30	7030	pozorný	pozornejší pozorná pozorné pozorní pozorným
+31	7031	jogurt	jogurte jogurtom jogurtov jogurtovú jogurtový jogurtu jogurty
+32	7032	delegát	delegáta delegáti delegátmi delegátom delegátov
+33	7033	predsudok	predsudkami predsudkoch predsudkom predsudkov predsudku predsudky
+34	7034	opona	oponou oponu opony
+35	7035	pestúnka	pestúnke pestúnkou pestúnku pestúnky pestúnok
+36	7036	cyprus	cypre cypru cyprusu
+37	7037	zaobchádzanie	zaobchádzania zaobchádzaniu zaobchádzaní
+38	7038	kúpalisko	kúpaliska kúpalisku kúpaliská
+39	7039	dreň	drene dreni dreňou dreňová
+40	7040	smartfón	smartfónov smartfóny
+41	7041	konzultant	konzultanta konzultanti konzultantom konzultantov
+42	7042	renesančný	renesančnej renesančnom renesančná renesančné renesančného renesančných
+43	7043	inzulín	inzulínom inzulínový inzulínu
+44	7044	objektívny	objektívna objektívneho objektívnej objektívni objektívnu objektívnych objektívnym
+45	7045	snežiť	nesnežilo nesneží sneženie sneženiu snežilo sneží
+46	7046	dvesto	
+47	7047	raketový	raketovej raketovom raketová raketové raketového raketovú raketových raketovým
+48	7048	rotácia	rotácie rotácii rotáciou rotáciu
+49	7049	blázniť	bláznia bláznil bláznila bláznili bláznim bláznime bláznite blázniš neblázni nebláznite
+50	7050	vyslaný	vyslaná vyslané vyslaní vyslaných
+51	7051	dekáda	dekád dekádach dekáde dekádou dekádu dekády
+52	7052	starostlivo	
+53	7053	klientka	klientkami klientke klientkou klientku klientky
+54	7054	schovaný	schovaná schované schovaného schovaní schovanú schovaných
+55	7055	nezamestnaný	nezamestnaná nezamestnaní nezamestnaných nezamestnaným nezamestnanými
+56	7056	napätý	napätej napätá napäté
+57	7057	sedatívum	sedatív sedatíva sedatívach sedatívam sedatívami sedatívom
+58	7058	kúpať	kúpajúc kúpal kúpala kúpali kúpem kúpeme kúpete kúpeš nekúp nekúpal nekúpala
+59	7059	osídlenie	osídlenia osídlení
+60	7060	dodržiavanie	dodržiavania dodržiavaní dodržiavaním
+61	7061	kvitnúť	kvitla kvitli kvitne kvitnú
+62	7062	hoľa	hole holi holí hoľu
+63	7063	pospať	nepospíš pospal pospala pospali pospi pospime pospite pospí pospím pospíme pospíš
+64	7064	lahodný	lahodnou lahodná lahodné lahodného lahodnú lahodných
+65	7065	maličké	maličkom maličkého maličkému
+66	7066	ošetrovňa	ošetrovne ošetrovni ošetrovňou ošetrovňu
+67	7067	zohrávať	zohráva zohrávajú
+68	7068	maniak	maniaci maniaka maniakmi maniakom maniakov maniakovi
+69	7069	favorit	favorita favoriti favoritmi favoritom favoritov
+70	7070	remeselník	remeselníci remeselníka remeselníkom remeselníkov
+71	7071	inžiniersky	inžinierska inžinierske inžinierskeho inžinierskej inžinierskych
+72	7072	pominúť	nepominie nepominula nepominú pominie pominiem pominieme pominul pominula pominuli pominulo pominú pomiň
+73	7073	odvolaný	odvolaná odvolané odvolaní
+74	7074	špecializácia	špecializácie špecializácii špecializáciou špecializáciu
+75	7075	prilákať	priláka prilákajú prilákal prilákala prilákali prilákalo prilákam prilákame prilákaš
+76	7076	abeceda	abecede abecednom abecedou abecedu abecedy
+77	7077	zasadiť	zasadia zasadil zasadila zasadili zasadí zasadím zasadíme zasadíš zasaď
+78	7078	klapka	klapiek klapkami klapku klapky
+79	7079	otáčanie	otáčania otáčaním
+80	7080	vyhodnotiť	vyhodnocuje vyhodnotenia vyhodnotenie vyhodnotená vyhodnotením vyhodnotil vyhodnotili vyhodnotí vyhodnotím vyhodnoť
+81	7081	vyvolaný	vyvolanej vyvolaná vyvolané vyvolaní vyvolaných
+82	7082	skoncovať	neskoncujeme skoncoval skoncovala skoncovali skoncuj skoncuje skoncujem skoncujeme skoncuješ skoncujme skoncujte skoncujú
+83	7083	zviezť	nezviezol zvez zvezie zveziem zvezieme zveziete zvezieš zviezla zviezli zviezol
+84	7084	tepať	tep tepeš tepom tepu
+85	7085	nebezpečie	nebezpečia nebezpečiu nebezpečí nebezpečím
+86	7086	stopka	stopiek stopkami stopke stopkou stopku stopky stopkách
+87	7087	hypotéza	hypotéz hypotéze hypotézu hypotézy
+88	7088	zriedkavo	zriedkavejšie
+89	7089	zneškodniť	zneškodni zneškodnil zneškodnila zneškodnili zneškodnite zneškodní zneškodním zneškodníme zneškodníš
+90	7090	zľaknúť	nezľakla nezľakne nezľaknem nezľakni nezľaknite nezľakol zľakla zľakli zľakne zľaknem zľakneš zľaknú zľakol
+91	7091	protiklad	protiklade protikladom protikladov protikladu protiklady
+92	7092	tip	tipe tipmi tipom tipov tipu tipy
+93	7093	zaviazaný	zaviazaná zaviazané zaviazaní zaviazanými
+94	7094	akcionár	akcionára akcionári akcionármi akcionárom akcionárov
+95	7095	vred	vredmi vredom vredov vredu vredy
+96	7096	dejepis	dejepise dejepisom dejepisu
+97	7097	puk	pukom puku puky púčik púčika púčiky
+98	7098	štipka	štipkou štipku štipky
+99	7099	veterinár	veterinára veterinári veterinárom veterinárov veterinárovi
+100	7100	nezákonný	nezákonnej nezákonná nezákonné nezákonného nezákonnému nezákonnú nezákonných nezákonným nezákonnými
