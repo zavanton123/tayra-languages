@@ -6,6 +6,7 @@ import com.tayra.languages.core.domain.service.LocalSpeech
 import com.tayra.languages.core.domain.service.LocalSpeechEngine
 import com.tayra.languages.core.domain.service.ReadingService
 import com.tayra.languages.core.domain.service.SentenceAudio
+import com.tayra.languages.core.domain.service.SpeechEngine
 import com.tayra.languages.core.domain.service.SpokenNumbers
 import com.tayra.languages.core.domain.settings.SettingsRepository
 import kotlinx.coroutines.CancellationException
@@ -150,9 +151,6 @@ class PlaylistPlayer(
 
     /** Set when the sound is held by the output, so play goes on from there instead of from the sentence's start. */
     private var heldInOutput = false
-
-    /** Set by "Use system voice" until the player stops: the local engine is passed over. */
-    private var systemVoice = false
 
     /** The lengths of the current text's pages, for the place within it and seeking. */
     private var pageLengths: List<Int> = emptyList()
@@ -309,9 +307,12 @@ class PlaylistPlayer(
         if (next == null) complete() else jump(next)
     }
 
-    /** Speaks with the system's voice until the player stops, as the text has no voice of the engine chosen. */
+    /**
+     * Speaks with the system's voice, as the text has no voice of the engine chosen: it becomes the
+     * speech engine of the settings, for the reader too, until another is chosen there.
+     */
     fun useSystemVoice() = command {
-        systemVoice = true
+        settings.update { it.copy(speechEngine = SpeechEngine.SYSTEM) }
         val s = _state.value
         _state.update { it.copy(problem = null) }
         s.itemId?.let { if (load(it, s.page, s.sentence)) startLoop() }
@@ -401,7 +402,6 @@ class PlaylistPlayer(
         if (_state.value.status != PlayerStatus.COMPLETE && _state.value.status != PlayerStatus.IDLE) savePosition()
         watch?.cancel()
         watch = null
-        systemVoice = false
         pageLengths = emptyList()
         _state.value = PlayerState(shuffle = _state.value.shuffle, repeat = _state.value.repeat)
     }
@@ -445,7 +445,7 @@ class PlaylistPlayer(
         return PlaybackProblem.NoVoice(engine.displayName, languageId, languages.getById(languageId)?.name.orEmpty())
     }
 
-    private fun engineInUse(): LocalSpeechEngine? = if (systemVoice) null else local.find(settings.current.speechEngine)
+    private fun engineInUse(): LocalSpeechEngine? = local.find(settings.current.speechEngine)
 
     /** The page's sentences that are read aloud: those with a letter, as the reader's play buttons have. */
     private suspend fun sentencesOf(bookId: Long, page: Int): List<String> =

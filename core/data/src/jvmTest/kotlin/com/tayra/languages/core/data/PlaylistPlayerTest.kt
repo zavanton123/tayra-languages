@@ -313,14 +313,16 @@ class PlaylistPlayerTest {
         player.useSystemVoice()
         hear("Quatro cinco.")
         assertTrue(piper.made.isEmpty())
+        assertEquals(SpeechEngine.SYSTEM, settings.current.speechEngine, "the system voice is the settings' engine from now on")
 
-        // Once the voice is there again, a fresh start uses it, from where listening got to.
+        // It stays so after the player stops, even once the local voice is there again.
         until("the second sentence") { player.state.value.sentence == 1 }
         player.stop()
         until("the stop") { player.state.value.status == PlayerStatus.IDLE }
         piper.installed = true
         player.play(setup.playlist)
-        until("the voice") { output.heard.lastOrNull() == "wav:Cinco seis." }
+        until("the system voice again") { output.heard.lastOrNull() == "Cinco seis." }
+        assertTrue(piper.made.isEmpty())
     }
 
     @Test
