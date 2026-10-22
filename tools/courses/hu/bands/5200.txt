@@ -1,0 +1,100 @@
+1	5101	here	herék heréket herékkel herét
+2	5102	csíp	csípd csíped csípek csípem csípett csípi csípik csípj csípje csípjen csípjük csíplek csípnek csípnem csípni csípsz csípte csípted csíptek csíptem csípték csíptük csípve
+3	5103	szurkoló	szurkolók szurkolókat szurkolóknak
+4	5104	igazságügyi	
+5	5105	tanári	tanáriba tanáriban
+6	5106	elmélete	elméletében elméletének elméletéről elméletét elméletével
+7	5107	közéleti	
+8	5108	leég	leéget leégett leégette leégetted leégettem leégették leégettél leégjen leégne leégni leégsz leégtek leégtem leégtél leégtünk leégve leégés
+9	5109	zaklatott	zaklatottak zaklatottnak
+10	5110	nyomtatott	
+11	5111	jellemzői	jellemzőit
+12	5112	késztet	késztetett késztethet készteti késztetik késztetnek késztetni késztette késztették késztetés késztetést
+13	5113	teremtmény	teremtménnyel teremtmények teremtményeket teremtményekkel teremtményeknek teremtménynek teremtményre teremtményt
+14	5114	kötelék	kötelékben kötelékek kötelékeket köteléket kötelékkel köteléknek kötelékről
+15	5115	fedett	
+16	5116	koszos	koszosabb koszosak koszosnak
+17	5117	szamár	szamarak szamarakat szamarat szamárnak szamáron szamárra szamárral
+18	5118	halloween	halloweenra halloweenre halloweent
+19	5119	társulat	társulata társulatba társulatban társulatnak társulatnál társulatot társulattal
+20	5120	pazarol	pazarlás pazarló pazarolhatjuk pazarolhatom pazarolja pazaroljam pazaroljuk pazaroljunk pazarolják pazaroljátok pazarolnak pazarolni pazarolná pazarolnád pazarolnám pazarolnánk pazarolod pazarolok pazarolom pazarolsz pazarolt pazarolta pazaroltad pazaroltam pazaroltuk pazaroltunk pazaroltál pazarolunk
+21	5121	kamion	kamionba kamionban kamionból kamionnal kamionok kamionokat kamionon kamionra kamionról kamiont
+22	5122	javítása	javítására javítását javításával
+23	5123	kontinens	kontinensek kontinensen kontinensre kontinensről kontinenst
+24	5124	százezer	százezrei százezrek százezreket százezren százezret
+25	5125	praktikus	praktikusabb praktikusak
+26	5126	gyomrom	gyomromat gyomromba gyomromban gyomrommal gyomromnak
+27	5127	kivégez	kivégezlek kivégeznek kivégezni kivégezte kivégeztek kivégeztem kivégezték kivégeztük kivégezze kivégezzenek kivégezzék kivégezzük kivégzem kivégzett kivégzi kivégzik kivégzünk kivégző
+28	5128	koporsó	koporsóba koporsóban koporsóból koporsóhoz koporsójában koporsók koporsókat koporsóra koporsót koporsóval
+29	5129	sértő	sértőek sértőnek sértőt
+30	5130	árnyéka	árnyékába árnyékában árnyékából árnyékának árnyékát árnyékától
+31	5131	bevet	beveted bevetek bevetem bevetett bevetette bevetetted bevetettek bevetettem bevetették bevetettük bevethető beveti bevetik bevetjük bevetnek bevetnem bevetni bevetnünk bevetés bevetünk
+32	5132	kolostor	kolostorba kolostorban kolostorból kolostort
+33	5133	világunk	világunkat világunkba világunkban világunkból világunknak világunkon világunkra
+34	5134	tünde	tündék tündére
+35	5135	sakk	sakkban sakkot
+36	5136	jegyzet	jegyzetek jegyzeteket jegyzetet
+37	5137	mari	marik marin marit
+38	5138	kutyám	kutyámat kutyámmal kutyámnak kutyámra kutyámról
+39	5139	lőszer	lőszerből lőszerek lőszereket lőszerre lőszerrel lőszert
+40	5140	négyszer	
+41	5141	évfolyam	évfolyamban évfolyamból évfolyamon évfolyamot évfolyamra
+42	5142	dobás	dobáshoz dobásnak dobásnál dobásra dobással dobást
+43	5143	kuka	kukába kukában kukából kukához kukák kukákat kukákban kukát
+44	5144	mértékű	
+45	5145	szerencsejáték	szerencsejátékban szerencsejátékkal szerencsejátéknak szerencsejátékok szerencsejátékokat szerencsejátékon szerencsejátékot szerencsejátékra szerencsejátékról
+46	5146	hozzáállás	hozzáállása hozzáállásra hozzáállással hozzáállást
+47	5147	felhívás	felhívást
+48	5148	monitor	monitorok monitorokat monitorokon monitoron monitorra monitorral monitort
+49	5149	földszint	földszinten földszintet földszintre földszintről
+50	5150	megtilt	megtiltani megtiltja megtiltják megtiltod megtiltom megtiltott megtiltotta megtiltottad megtiltottam megtiltották megtiltva
+51	5151	töltés	töltésen töltésre töltéssel töltést
+52	5152	egyenként	
+53	5153	utánpótlás	utánpótlásra utánpótlást utánpótlásért
+54	5154	területei	területein területeinek területeire területeit
+55	5155	ellenkezője	ellenkezőjére ellenkezőjéről ellenkezőjét
+56	5156	tibeti	tibetiek
+57	5157	felsőoktatási	
+58	5158	fészek	fészekbe fészekben fészekből fészekhez fészeknek fészkek fészket
+59	5159	munkálat	munkálatai munkálatok munkálatokat
+60	5160	tempó	tempóban tempóból tempón tempót tempóval
+61	5161	gyanít	gyanítanak gyanítani gyanítja gyanítjuk gyanítják gyanítod gyanítok gyanítom gyanított gyanította gyanítottad gyanítottam gyanítottuk gyanították
+62	5162	lé	levet levetem levetett levetettem leveti levetni levettek lében lék léket lére lével
+63	5163	hatály	hatállyal hatályba hatályban hatályon
+64	5164	kalapács	kalapáccsal kalapácsok kalapácsot kalapácsra
+65	5165	négyszemközt	
+66	5166	jóváhagy	jóváhagyja jóváhagyják jóváhagyni jóváhagyná jóváhagyod jóváhagyom jóváhagyott jóváhagyta jóváhagytam jóváhagyták jóváhagyva jóváhagyó
+67	5167	fordulója	fordulójában fordulóján fordulójának
+68	5168	borzasztóan	
+69	5169	felfed	felfeded felfedek felfedem felfedett felfedheti felfedi felfedik felfedje felfedjem felfedjék felfedjük felfedni felfedné felfedte felfedted felfedtem felfedték felfedtük
+70	5170	oldalam	oldalamat oldalamon oldalamra oldalamról
+71	5171	tizenegy	tizenegyen tizenegyet tizenegyre
+72	5172	szakszervezet	szakszervezetbe szakszervezetben szakszervezete szakszervezetek szakszervezeteket szakszervezetet szakszervezethez szakszervezetnek szakszervezettel szakszervezettől szakszervezetének
+73	5173	befogad	befogadja befogadjon befogadjuk befogadják befogadna befogadnak befogadni befogadod befogadom befogadott befogadsz befogadta befogadtad befogadtak befogadtalak befogadtam befogadtatok befogadtuk befogadtunk befogadták befogadtál befogadunk
+74	5174	horror	horrort
+75	5175	korlát	korlátba korláthoz korlátnak korlátnál korlátok korlátokat korláton korlátot korlátra
+76	5176	csali	csalik csalikat csaliként csalinak csalira csalit csalival
+77	5177	kamra	kamrába kamrában kamrából kamrák kamrákat kamrán kamrát
+78	5178	próféta	próféták prófétákat prófétának prófétát
+79	5179	intelligencia	intelligenciájuk intelligenciának intelligenciára intelligenciát intelligenciával
+80	5180	keresése	keresésében kereséséhez keresésének keresésére kereséséről keresését keresésével
+81	5181	csodálkozik	csodálkozna csodálkoznak csodálkozni csodálkoznál csodálkoznék csodálkozok csodálkozol csodálkozott csodálkoztam csodálkoztok csodálkoztunk csodálkoztál csodálkozunk csodálkozva csodálkozó
+82	5182	házad	házadat házadba házadban házadból házaddal házadhoz házadnak házadnál házadra
+83	5183	havas	
+84	5184	gengszter	gengszterek gengsztereket gengszterekkel gengsztereknek gengszternek gengszterrel gengsztert
+85	5185	kétségtelenül	
+86	5186	int	intek intenek inteni intesz intett intettek intettem inthet inthetek inthetsz inthetünk ints intsen intünk intő intőt
+87	5187	diszkrét	diszkrétebb diszkrétebben diszkrétek diszkréten diszkrétnek
+88	5188	lényegtelen	lényegtelenek lényegtelennek
+89	5189	igazságszolgáltatás	igazságszolgáltatásban igazságszolgáltatásnak igazságszolgáltatásra igazságszolgáltatásról igazságszolgáltatással igazságszolgáltatást
+90	5190	cowboy	cowboynak cowboyok cowboyokat cowboyt kovboj
+91	5191	terel	tereled terelem terelheti tereli terelik terelje tereljem tereljen tereljék tereljétek tereljük terelned terelnek terelnem terelni terelnie terelné terelnünk terelsz terelt terelte terelted tereltek tereltem terelték terelés terelő
+92	5192	mily	milyet
+93	5193	ellentmond	ellentmondana ellentmondanak ellentmondani ellentmondasz ellentmondott ellentmondás ellentmondásba ellentmondások ellentmondásokat ellentmondásokkal ellentmondást ellentmondó
+94	5194	keresztes	keresztesek
+95	5195	szinkron	szinkronba szinkronban szinkronnal szinkront
+96	5196	továbblép	továbblépek továbblépett továbbléphessünk továbbléphet továbbléphetek továbbléphetnénk továbbléphetsz továbbléphetünk továbblépjek továbblépjen továbblépjünk továbblépned továbblépnek továbblépnem továbblépni továbblépnénk továbblépsz továbbléptek továbbléptem továbbléptél továbbléptünk továbblépés továbblépünk
+97	5197	letölt	letöltendő letölteni letöltenie letölti letöltik letöltjük letöltse letöltve letöltöm letöltött letöltötte letöltötted letöltöttem letöltötték
+98	5198	selejtező	
+99	5199	tanulmányi	
+100	5200	kombináció	kombinációja kombinációk kombinációra kombinációt kombinációval

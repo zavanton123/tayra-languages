@@ -1,0 +1,100 @@
+1	5301	apropó	
+2	5302	fék	fékbe fékek fékeket féken féket fékkel fékre fékről
+3	5303	gyógymód	gyógymódot
+4	5304	látszat	látszata látszatnak látszatot látszatra látszatát
+5	5305	pszichiáter	pszichiáterek pszichiáterhez pszichiáterként pszichiáternek pszichiáternél pszichiáterre pszichiáterrel pszichiátert
+6	5306	farok	farkak farkakat farkat farkukat farokkal faroknak farokra
+7	5307	függőleges	függőlegesen
+8	5308	hím	hímek hímeket hímeknek hímet hímnek
+9	5309	tapasztalatom	tapasztalatomat tapasztalatommal
+10	5310	bibliai	
+11	5311	beosztás	beosztása beosztásba beosztásban beosztásokat beosztásra beosztással beosztást
+12	5312	érdeklődése	érdeklődésének érdeklődését
+13	5313	bicikli	biciklijét biciklik bicikliket biciklin biciklire bicikliről biciklit biciklivel
+14	5314	összességében	
+15	5315	zsíros	zsírosat
+16	5316	kanyar	kanyarba kanyarban kanyarból kanyarhoz kanyarnál kanyarok kanyarokat kanyarokban kanyaron kanyart
+17	5317	ördögi	legördögibb ördögiek ördögien
+18	5318	megszakít	megszakítani megszakítja megszakítjuk megszakítják megszakítod megszakítom megszakított megszakította megszakítottad megszakítottam megszakítottuk megszakították megszakítva megszakítás megszakító
+19	5319	gondjai	gondjaiba gondjainak gondjaira gondjairól gondjait gondjaival
+20	5320	cimbora	cimborái cimborák cimborám cimborámnak cimborát
+21	5321	bab	babbal babban babból babok babokat babot babra babért
+22	5322	valahonnan	valahonnét
+23	5323	eszerint	
+24	5324	nélkülözhetetlen	nélkülözhetetlenek nélkülözhetetlenné
+25	5325	köp	köpd köpet köpi köpj köpje köpjek köpjön köplek köpne köpnek köpni köpsz köpte köpted köptek köptelek köptem köptél köpés köpöd köpök köpöm köpött
+26	5326	geci	gecibe gecik geciket gecire gecit
+27	5327	pipa	pipája pipák pipát pipával
+28	5328	generátor	generátorhoz generátornak generátorok generátorokat generátorra generátorral generátort
+29	5329	báró	bárók bárónak bárót báróval
+30	5330	ruhái	ruháiba ruháiban ruháin ruháinak ruháira ruháit ruháival ruháiért
+31	5331	magány	magánnyal magánya magányba magányban magánynak magányra magányról magányt magánytól magányában magányát
+32	5332	borító	borítón borítóra borítót borítóval
+33	5333	idejük	idejüket
+34	5334	szappan	szappanból szappannal szappanok szappanokat szappanra szappant szappanért
+35	5335	megbetegszik	megbetegedett megbetegednek megbetegedni megbetegedtek megbetegedtem megbetegedtél megbetegedés megbetegedések megbetegszel megbetegszenek megbetegít
+36	5336	aláírása	aláírására aláírását aláírásával
+37	5337	meghoz	meghozott meghozta meghozták meghozza
+38	5338	dugó	dugóba dugóban dugók dugókat dugót
+39	5339	anime	animét
+40	5340	röhög	röhögjetek röhögjön röhögne röhögnek röhögni röhögnöm röhögsz röhögtek röhögtem röhögtél röhögtök röhögtünk röhögve röhögés röhögök röhögöm röhögött röhögünk
+41	5341	államfő	államfők
+42	5342	ölelés	ölelésben ölelések öleléseket öleléshez ölelésnek ölelésre öleléssel ölelést ölelésért
+43	5343	dinamikus	
+44	5344	azonosító	azonosítók azonosítókat azonosítót azonosítóval
+45	5345	riasztás	riasztásra riasztást
+46	5346	méz	mézben mézet mézre mézzel
+47	5347	szabadít	szabadítanak szabadítani szabadítanod szabadítanom szabadítanunk szabadítasz szabadítja szabadítjuk szabadítják szabadítod szabadítom szabadított szabadította szabadítottad szabadítottak szabadítottam szabadítottuk szabadították szabadítottál szabadítsa szabadítsalak szabadítsam szabadítsanak szabadítsatok szabadítson szabadítsuk szabadítsák szabadítsátok szabadító
+48	5348	párhuzamos	
+49	5349	tengerparti	
+50	5350	mellkas	mellkasa mellkasba mellkasban mellkason mellkasra mellkassal mellkast mellkasára
+51	5351	igazolás	igazolást
+52	5352	önkormányzata	önkormányzatának
+53	5353	áldoz	áldozna áldozni áldoznia áldoznod áldoznom áldoznunk áldozná áldozod áldozol áldozom áldozott áldozta áldoztad áldoztak áldoztam áldoztunk áldozták áldoztál áldozunk áldozza áldozzam áldozzuk áldozzunk áldozzák áldozás
+54	5354	vezérel	vezérelje vezéreljen vezérelnek vezérelni vezérelt vezérelte vezéreltek vezérelték vezérelve vezérlés
+55	5355	szolgáltató	szolgáltatók szolgáltatót szolgáltatótól
+56	5356	nó	nóra
+57	5357	befejeződik	befejeződjön befejeződnek befejeződtek befejeződött
+58	5358	félreért	félreérted félreértem félreértenek félreérteni félreértené félreértesz félreértett félreértette félreértetted félreértettek félreértettelek félreértettem félreértették félreértettél félreértettük félreérthetik félreérti félreértik félreértitek félreértse
+59	5359	sorozatgyilkos	sorozatgyilkosnak sorozatgyilkosok sorozatgyilkosokat sorozatgyilkosoknak sorozatgyilkosokról sorozatgyilkosra sorozatgyilkosról sorozatgyilkossal sorozatgyilkost
+60	5360	összehoz	összehozni összehozott összehozzák
+61	5361	kérelem	kérelemmel kérelmek kérelmeket kérelmet
+62	5362	technológiai	
+63	5363	gyöngy	gyönggyel gyöngyök gyöngyöket gyöngyökkel gyöngyöt
+64	5364	korrupt	korruptak korrupttá legkorruptabb
+65	5365	mértéke	mértékéből mértékéről mértékét
+66	5366	régészeti	
+67	5367	végzés	végzésre végzésről végzéssel végzést
+68	5368	biztosítás	biztosításhoz biztosításnak biztosítások biztosításokat biztosításra biztosításról biztosítással biztosítást
+69	5369	egyetemes	egyetemesek
+70	5370	kapus	kapust
+71	5371	efféle	effélék efféléket effélét
+72	5372	dó	dóra
+73	5373	védekezik	védekezel védekezett védekezhet védekezhetünk védekezned védekeznek védekeznem védekezni védekeznie védekeznünk védekeztek védekeztem védekeztetek védekeztél védekeztünk védekezzen védekezzenek védekezzetek védekezzünk védekezünk
+74	5374	töm	tömi tömik tömj tömje tömjék tömjétek tömjük tömnek tömni tömnünk tömte tömted tömtek tömtem tömték tömve tömöd tömöm tömött
+75	5375	dolgozat	dolgozatban dolgozatok dolgozatokat dolgozatot dolgozatra dolgozatát
+76	5376	istennő	istennők istennőnek istennőt istennővel
+77	5377	lángol	lángoljon lángolna lángolnak lángolni lángolok lángolsz lángolt lángoló
+78	5378	fordító	fordítók fordítót
+79	5379	alelnöke	alelnökének alelnökét
+80	5380	kormányfő	
+81	5381	cipel	cipeled cipelek cipelem cipeli cipelik cipelje cipeljem cipeljük cipellek cipelned cipelnek cipelnem cipelni cipelnie cipelnünk cipelsz cipelt cipelte cipelted cipeltek cipeltem cipelték cipeltél cipelve cipelünk
+82	5382	mindkettőtök	mindkettőtökből mindkettőtöket mindkettőtökkel mindkettőtöknek mindkettőtökre mindkettőtökről mindkettőtöktől mindkettőtökért
+83	5383	várakozás	várakozásba várakozásban várakozásból várakozásnak várakozások várakozásokat várakozáson várakozásra várakozással várakozást várakozástól várakozásért
+84	5384	messziről	messzebbről
+85	5385	szerszám	szerszámait szerszámmal szerszámok szerszámokat szerszámokkal szerszámot
+86	5386	boldogtalan	boldogtalanabb boldogtalannak boldogtalanná boldogtalanok boldogtalanul
+87	5387	kétszáz	kétszázat kétszázra kétszázzal
+88	5388	ütötte	
+89	5389	ügyei	ügyeibe ügyeiben ügyeinek ügyeiről ügyeit ügyeivel
+90	5390	lövedék	lövedékek lövedékeket lövedékekkel lövedéken lövedéket lövedékkel
+91	5391	kihallgatás	kihallgatáshoz kihallgatásnak kihallgatásnál kihallgatások kihallgatásokat kihallgatáson kihallgatásra kihallgatásról kihallgatással kihallgatást
+92	5392	kifejleszt	kifejleszteni kifejlesztett kifejlesztette kifejlesztettek kifejlesztettem kifejlesztették kifejlesztettünk kifejlesztve
+93	5393	fánk	fánkkal fánkok fánkokat fánkot fánkra fánkért
+94	5394	kirak	kirakja kirakjuk kirakják kiraklak kiraknak kirakni kirakod kirakok kirakom kirakott kirakta kiraktad kiraktak kiraktam kiraktuk kirakták kirakunk kirakó
+95	5395	javasolta	
+96	5396	szósz	szósszal szószba szószban szószból szószokat szószra szószt
+97	5397	etnikai	
+98	5398	polgármesteri	
+99	5399	terhel	terhelem terheli terhelik terhelje terheljük terhellek terhelni terhelt terhelte terhelve terhelő
+100	5400	öregember	öregemberek öregemberhez öregembernek öregemberre öregemberrel öregembert öregembertől

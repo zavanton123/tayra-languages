@@ -1,0 +1,100 @@
+1	5801	módosítás	módosítások módosításokat módosításokkal módosításra módosítással módosítást
+2	5802	szopás	szopásra szopásról szopással szopást
+3	5803	kisebbségi	
+4	5804	vándorol	vándorló vándorolnak vándorolni vándorolsz vándorolt vándoroltak vándoroltam
+5	5805	csi	csibe csibék csibét csin
+6	5806	átmenetileg	
+7	5807	kór	kórban kórnak kórra kórral kórt
+8	5808	mór	mórok
+9	5809	megvalósít	megvalósítani megvalósíthatatlan megvalósítja megvalósítjuk megvalósítod megvalósítom megvalósított megvalósította megvalósítottam megvalósítsa megvalósítsam megvalósítsuk megvalósítás
+10	5810	védekezés	védekezésben védekezésből védekezésnek védekezésre védekezésről védekezéssel védekezést
+11	5811	kérdéses	
+12	5812	kötelezettség	kötelezettségei kötelezettségeit kötelezettségek kötelezettségeket kötelezettségekkel kötelezettséget kötelezettséggel
+13	5813	megtelik	megtelnek megtelni megteltek megtölt megtölteni megtölti megtöltik megtöltjük megtöltse megtöltsem megtöltsük megtöltve megtöltöd megtöltöm megtöltött megtöltötte megtöltötted megtöltöttem megtöltötték
+14	5814	falai	falain falait
+15	5815	könyvelő	könyvelők könyvelőként könyvelőnek könyvelőt könyvelővel
+16	5816	általi	
+17	5817	kezelő	kezelőbe kezelőben kezelők kezelőt
+18	5818	munkanélküli	munkanélküliek munkanélkülinek munkanélkülivé
+19	5819	réz	rezet rézből
+20	5820	sebezhető	legsebezhetőbb sebezhetőbb sebezhetőek sebezhetők sebezhetőnek sebezhetővé
+21	5821	órányi	órányira órányit
+22	5822	tehetetlen	tehetetlenek tehetetlennek tehetetlenné tehetetlenül
+23	5823	bagoly	baglyok baglyokat baglyot bagolynak
+24	5824	kiterjed	kiterjesztem kiterjeszteni kiterjesztett kiterjesztette kiterjesztettem kiterjesztették kiterjesztettük kiterjeszti kiterjesztjük
+25	5825	landol	landoljon landolnak landolni landolok landolsz landolt landoltak landoltam landoltunk landoltál landolunk landoló
+26	5826	szabályzat	szabályzatban szabályzatnak szabályzatot szabályzattal
+27	5827	hangulatos	
+28	5828	helység	helységbe helységben helységek helységet
+29	5829	sitt	sitten sittet sittre sittről
+30	5830	eltelik	eltelhet eltelni eltelnie eltelve eltölt eltöltött
+31	5831	álca	álcaként álcában álcák álcákat álcákkal álcáknak álcának álcára álcát álcával
+32	5832	egyetemista	egyetemistaként egyetemisták egyetemistákat egyetemistának egyetemistát egyetemistával
+33	5833	fázik	fázna fáznak fázni fáznál fázok fázol fáztam fáztok fáztál fázunk fázva fázz fázzon
+34	5834	plébánia	plébánián plébániára plébániát
+35	5835	komplett	
+36	5836	búcsúzik	búcsúzhattam búcsúznak búcsúzni búcsúznod búcsúznom búcsúznunk búcsúzol búcsúztam búcsúztunk búcsúztál búcsúzunk búcsúzz búcsúzzanak búcsúzzatok búcsúzzon búcsúzzunk
+37	5837	bandita	banditák banditákat banditákkal banditáknak banditáktól banditának banditát banditával
+38	5838	nátrium	nátriumot
+39	5839	tanúja	tanújaként tanújának tanúját
+40	5840	kurzus	kurzusok kurzusokat kurzuson kurzusra kurzust
+41	5841	terror	terrorban terrornak terrorral terrort
+42	5842	udvara	udvarába udvarában udvarából udvarán udvarának udvarára udvarát
+43	5843	tüzel	tüzelek tüzelhet tüzeli tüzeljen tüzeljenek tüzeljetek tüzeljünk tüzelnek tüzelni tüzelsz tüzeltek tüzeltem tüzelve tüzelés tüzelünk tüzelő
+44	5844	gyalogos	gyalogosok gyalogosokat gyalogost
+45	5845	minősége	minőségében minőségének minőségét
+46	5846	vízszintes	vízszintesen
+47	5847	meccse	meccsén meccsére meccsét
+48	5848	kellet	kelletek kelleti kellettek kellettem kellettél kellettünk
+49	5849	némelyik	némelyiket némelyiknek némelyikük némelyikünk
+50	5850	átlátszó	átlátszóak
+51	5851	bőröm	bőrömbe bőrömben bőrömből bőrömet bőrömhöz bőrömnek bőrömre bőrömön
+52	5852	esztendő	esztendeig esztendeje esztendőben esztendőt
+53	5853	potenciális	
+54	5854	tanítása	tanításának tanítását
+55	5855	estéje	estéjén estéjére estéjéről estéjét
+56	5856	vászon	vásznat vásznon vászonra
+57	5857	tükröz	tükrözi tükrözik tükröznek tükrözni tükröznie tükrözte tükrözze tükrözött
+58	5858	fincsi	fincsinek
+59	5859	iraki	irakiak
+60	5860	parancsnokság	parancsnoksága parancsnokságnak parancsnokságtól
+61	5861	értékelése	értékelését
+62	5862	továbbít	továbbítani továbbítja továbbítjuk továbbítják továbbítom továbbított továbbította továbbítottam továbbítottuk továbbították továbbítsa továbbítsam továbbítsák továbbítás továbbító
+63	5863	átverés	átverésben átverések átverésnek átverésre átverésről átveréssel átverést
+64	5864	megalázó	legmegalázóbb megalázóbb megalázónak
+65	5865	háromszög	háromszögbe háromszögben háromszögek háromszöget
+66	5866	jelvény	jelvénnyel jelvénye jelvények jelvényeket jelvényre jelvényt
+67	5867	távú	
+68	5868	összeáll	összeállt
+69	5869	megközelítés	megközelítésben megközelítésből megközelítésre megközelítéssel megközelítést
+70	5870	rongy	ronggyal ronggyá rongyba rongyok rongyokat rongyokban rongyot rongyra rongyért
+71	5871	bazmeg	
+72	5872	dobogó	dobogón dobogóra
+73	5873	tartása	tartásához tartására tartását tartásával
+74	5874	látnivaló	látnivalók látnivalókat látnivalót
+75	5875	felakaszt	felakassza felakasszanak felakasszák felakasztanak felakasztani felakasztja felakasztjuk felakasztják felakasztod felakasztom felakasztott felakasztotta felakasztottak felakasztottam felakasztották felakasztva
+76	5876	rangú	rangúak
+77	5877	tizedik	tizedikben tizediken tizediket
+78	5878	percenként	
+79	5879	műholdas	
+80	5880	vérem	vérembe véremben véremből véremet véremmel véremre
+81	5881	gömb	gömbbe gömbbel gömbben gömbre gömbök gömböket gömböt
+82	5882	hasonlóság	hasonlóságok hasonlóságokat hasonlóságot
+83	5883	önvédelem	önvédelemből önvédelemnek önvédelemre önvédelemről önvédelmet
+84	5884	gépem	gépembe gépemen gépemet gépemhez gépemmel gépemre gépemről
+85	5885	segítőkész	segítőkészebb segítőkészek segítőkésznek
+86	5886	összejött	összejöttünk
+87	5887	mezei	
+88	5888	hangya	hangyák hangyákat hangyákkal hangyáknak hangyának hangyát
+89	5889	szöveges	
+90	5890	közszolgálati	
+91	5891	szalonna	szalonnába szalonnát szalonnával
+92	5892	szembeni	
+93	5893	fix	fixen
+94	5894	tevékenykedik	tevékenykedett tevékenykednek tevékenykedni tevékenykedtek tevékenykedő
+95	5895	szenátus	szenátusba szenátusban szenátusnak szenátust
+96	5896	ugrál	ugráljak ugráljatok ugráljon ugrálna ugrálnak ugrálni ugrálok ugrálsz ugrált ugráltak ugráltam ugráltat ugráltunk ugráltál ugrálunk ugrálva ugrálás ugráló
+97	5897	romantika	romantikához romantikának romantikára romantikáról romantikát romantikával
+98	5898	korrupció	korrupciónak korrupcióra korrupcióról korrupciót korrupcióval
+99	5899	ellenőrző	
+100	5900	esküdtszék	esküdtszékbe esküdtszékben esküdtszéket esküdtszékkel esküdtszéknek

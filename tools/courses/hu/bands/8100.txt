@@ -1,0 +1,100 @@
+1	8001	mobilod	mobilodat mobiloddal mobilodon mobilodra mobilodról
+2	8002	megvásárolható	megvásárolhatóak
+3	8003	gasztronómiai	
+4	8004	kontakt	
+5	8005	feszes	feszesebb feszesek feszesen feszesre
+6	8006	megjelenésű	
+7	8007	humorista	humoristák
+8	8008	mozifilm	mozifilmek mozifilmet
+9	8009	eltalált	eltaláltad
+10	8010	erény	erények erénynek erényt
+11	8011	szolidaritás	szolidaritásból szolidaritást
+12	8012	ötvenes	ötvenest
+13	8013	brutálisan	
+14	8014	következetes	következetesek következetesen következetesnek
+15	8015	nyelvtani	
+16	8016	krémes	krémest
+17	8017	gél	gélt
+18	8018	félelme	félelmében félelmének félelmét félelmével
+19	8019	hozható	hozhatók
+20	8020	tudatosság	
+21	8021	fáradtság	fáradtságot fáradtságtól
+22	8022	lotyó	lotyók lotyókat lotyónak lotyót lotyóval
+23	8023	kezdeményezése	kezdeményezésére
+24	8024	bevándorlás	bevándorlást
+25	8025	fiatalság	fiatalsága fiatalságnak fiatalságot
+26	8026	kártérítés	kártérítésre kártérítést
+27	8027	szövetkezet	szövetkezetek szövetkezett
+28	8028	érzelmes	érzelmesebb érzelmesek érzelmesen
+29	8029	orgazmus	orgazmushoz orgazmusok orgazmusra orgazmusról orgazmussal orgazmust
+30	8030	formái	formáit
+31	8031	lófasz	lófaszt
+32	8032	lándzsa	lándzsák lándzsákat lándzsára lándzsát lándzsával
+33	8033	elhelyezése	elhelyezésére elhelyezéséről elhelyezését elhelyezésével
+34	8034	könyvtári	
+35	8035	korong	korongokat korongot
+36	8036	szivacs	szivaccsal szivacsok szivacsot
+37	8037	oldalsó	
+38	8038	karcsú	karcsúbb
+39	8039	aluli	alulinak
+40	8040	drasztikus	drasztikusabb drasztikusat
+41	8041	elhelyezkedés	elhelyezkedése
+42	8042	szorongás	szorongásra szorongással szorongást
+43	8043	iktat	iktassa iktassam iktassuk iktassák iktatja iktatjuk iktatni iktatnom iktatnunk iktatom iktatott iktatta iktattam iktatták iktatva
+44	8044	száműz	száműzi száműzik száműzlek száműznek száműzni száműzte száműztek száműztem száműzték száműzve száműzzük száműzöm
+45	8045	írója	írójának íróját írójával
+46	8046	veronika	veronikát
+47	8047	csóró	csórók csórónak
+48	8048	atyánk	atyánkat atyánkkal atyánknak
+49	8049	mulatságos	mulatságosabb
+50	8050	felhasználás	felhasználásra
+51	8051	együttérzés	együttérzésből együttérzésre együttérzéssel együttérzést
+52	8052	ovális	
+53	8053	nyolcvan	
+54	8054	beküld	beküldeni beküldené beküldi beküldik beküldjük beküldte beküldted beküldtem beküldök beküldöm beküldött beküldünk
+55	8055	kapitányság	kapitányságnak kapitányságon kapitányságot kapitányságra kapitányságról
+56	8056	zsarnok	zsarnokkal zsarnoknak zsarnokok zsarnokokat zsarnokot
+57	8057	nonprofit	
+58	8058	szaftos	szaftosat zaftos
+59	8059	közössége	közösségében közösségének közösségét
+60	8060	minősít	minősíteni minősítette minősítették minősíti minősítik minősítő
+61	8061	ijed	ijedek ijedj ijedjen ijedjenek ijedjetek ijednek ijednem ijedni ijedsz ijedtem ijedtél ijedünk
+62	8062	szédül	szédülni szédülsz szédült szédültem szédülök
+63	8063	maláj	
+64	8064	szimbolizál	szimbolizálja szimbolizálják
+65	8065	kereslet	keresletet
+66	8066	réti	
+67	8067	decembere	decemberében
+68	8068	fejedelem	fejedelmek
+69	8069	százas	százasok százasokban százassal százast százasért
+70	8070	kétes	
+71	8071	kedvez	kedvezett kedveznek kedvezni
+72	8072	invázió	inváziónak invázióra invázióról inváziót
+73	8073	billentyűzet	billentyűzeten billentyűzetet
+74	8074	olvasói	
+75	8075	nettó	
+76	8076	alkotmánybíróság	
+77	8077	rúzs	rúzst rúzzsal
+78	8078	focista	focisták focistákkal focistának focistát focistával
+79	8079	feldühít	feldühíted feldühítenek feldühíteni feldühítesz feldühített feldühítette feldühítetted feldühítettelek feldühítettem feldühítették feldühítettél feldühítettük feldühíti
+80	8080	rezsim	rezsimet rezsimmel
+81	8081	megfigyelhető	
+82	8082	alábecsül	alábecsüli alábecsülik alábecsülnek alábecsülni alábecsülsz alábecsült alábecsülte alábecsülted alábecsültek alábecsültelek alábecsültem alábecsülték alábecsültél alábecsültük alábecsülöd
+83	8083	összeköttetés	összeköttetésben összeköttetései összeköttetést
+84	8084	tanácsadás	tanácsadáson tanácsadásra tanácsadással tanácsadást tanácsadásért
+85	8085	autód	autódat autódba autódban autóddal autódhoz autódra
+86	8086	fontoló	fontolóra
+87	8087	közgazdász	közgazdászok
+88	8088	anyakönyvi	
+89	8089	túloz	túloznak túlozni túloztam túloztál túlozva túlozz túlozzon túlozzunk túlzok túlzol túlzó
+90	8090	monarchia	monarchiának monarchiát
+91	8091	vakcina	vakcinák vakcinákat vakcinát vakcinával
+92	8092	négyéves	
+93	8093	meggyőződés	meggyőződésből meggyőződése meggyőződéssel meggyőződését meggyőződésük
+94	8094	szakállas	
+95	8095	ortodox	
+96	8096	tudatlan	tudatlannak tudatlanok tudatlant tudatlanul
+97	8097	komor	komoran komornak
+98	8098	genetikailag	
+99	8099	semmisít	semmisítened semmisítenem semmisíteni semmisítenie semmisítenünk semmisített semmisítette semmisítettek semmisíti semmisítjük semmisítse semmisítsem semmisítsék semmisítsétek semmisítsük
+100	8100	visszaélés	visszaélések visszaéléseket visszaéléssel visszaélést visszaélésért

@@ -1,0 +1,100 @@
+1	6101	stáb	stábbal stábból stábjának stábnak stábot
+2	6102	csupasz	csupaszon
+3	6103	denevér	denevérek denevéreket denevérnek denevérré denevért
+4	6104	belföldi	
+5	6105	nevelő	nevelői nevelők
+6	6106	építés	építést
+7	6107	harmadszor	
+8	6108	blues	bluest
+9	6109	köpeny	köpennyel köpenyben köpenyek köpenyeket köpenyt
+10	6110	rendelete	rendeletét
+11	6111	hőse	hősének hősét hősévé
+12	6112	tömege	tömegének tömegét tömegével
+13	6113	álmos	álmosak álmosnak
+14	6114	kisebbség	kisebbségben kisebbségek kisebbséget kisebbségnek
+15	6115	ablaka	ablakába ablakában ablakából ablakán ablakánál ablakára ablakát
+16	6116	bevétele	bevételéből bevételének bevételét
+17	6117	sért	sérted sértek sértelek sértem sértenek sérteni sértené sértesz sértette sértetted sértettem sértették sértettél sértheti sérti sértik sértse sértsem sértsen sértve
+18	6118	cukorka	cukorkából cukorkák cukorkákat cukorkákkal cukorkára cukorkát cukorkával cukorkáért
+19	6119	megdöbbentő	megdöbbentően
+20	6120	megválasztott	megválasztottak
+21	6121	tervezése	tervezésében tervezésére tervezését tervezésével
+22	6122	világítás	világítása világítással világítást
+23	6123	elavult	elavultak elavultnak elavulttá
+24	6124	éber	éberebb éberek ébereknek éberen ébernek
+25	6125	alkotta	
+26	6126	felkér	felkérem felkérhetem felkérhetlek felkéri felkérik felkérjem felkérjük felkérnek felkérni felkérném felkért felkérte felkértek felkértem felkérték felkértél
+27	6127	ismételt	ismételten
+28	6128	skandináv	
+29	6129	bizonyított	bizonyítottak bizonyítottam
+30	6130	mindene	mindenét
+31	6131	szerkezeti	
+32	6132	evangélikus	
+33	6133	egyenletes	egyenletesen
+34	6134	injekció	injekciók injekciókat injekcióra injekciót injekciótól injekcióval
+35	6135	trópusi	
+36	6136	honvédség	
+37	6137	néhai	
+38	6138	hírhedt	hírhedtek hírhedten hírhedtté leghírhedtebb
+39	6139	pelenka	pelenkában pelenkák pelenkákat pelenkára pelenkát pelenkával
+40	6140	kifejt	kifejtem kifejteni kifejtené kifejtenéd kifejtett kifejtetted kifejtettem kifejti kifejtsem
+41	6141	kísérete	kíséretében kíséretét kíséretével
+42	6142	pofon	pofonnal pofonok pofonokat pofont pofonért
+43	6143	kubai	kubaiak kubait
+44	6144	postás	postásnak postások postással postást
+45	6145	csodásan	
+46	6146	engedélyezett	engedélyezettek
+47	6147	súg	súgja súgják súgnak súgott súgtak súgtam súgták
+48	6148	reform	reformja reformok reformokat reformot
+49	6149	hitelkártya	hitelkártyák hitelkártyákat hitelkártyákkal hitelkártyára hitelkártyát hitelkártyával
+50	6150	olló	ollók ollókat ollót ollóval
+51	6151	hopp	hoppon
+52	6152	megkönnyít	megkönnyíted megkönnyítem megkönnyíteni megkönnyítené megkönnyítette megkönnyítetted megkönnyítettem megkönnyíthetem megkönnyítheti megkönnyíti megkönnyítik megkönnyítjük megkönnyítse megkönnyítsem megkönnyítsük
+53	6153	szabályos	szabályosak
+54	6154	fonál	fonal fonalak fonalat
+55	6155	kerestelek	
+56	6156	kereszténység	kereszténységben kereszténységet
+57	6157	elmebeteg	elmebetegek elmebeteget elmebeteggel elmebetegnek
+58	6158	fejlemény	fejlemények fejleményeket fejleményekkel fejleményekről fejleményről
+59	6159	felejthetetlen	
+60	6160	háztartási	
+61	6161	kettejük	kettejüket kettejükkel kettejüknek kettejükre kettejükről kettőjük
+62	6162	himnusz	himnuszt
+63	6163	mészárlás	mészárlásba mészárlásban mészárláshoz mészárlásnak mészárlások mészárlásra mészárlásról mészárlással mészárlást mészárlásért
+64	6164	megjelöl	megjelöli megjelölik megjelöljük megjelölni megjelölt megjelölte megjelölted megjelöltek megjelöltem megjelölték megjelöltük megjelölve megjelölöm
+65	6165	előbb-utóbb	
+66	6166	sző	szövi szövik szövök szövünk szőnek szőni szőre szőrén szőrét szőrével szőt szőtt szőtte szőttek szőttem szőtték
+67	6167	büntető	büntetőt
+68	6168	telefonos	
+69	6169	ugyanott	
+70	6170	évforduló	évfordulókat évfordulón évfordulóra évfordulót
+71	6171	lehetőséged	
+72	6172	megnyitó	megnyitója megnyitón megnyitóra megnyitót
+73	6173	felháborító	felháborítónak
+74	6174	jégkrém	jégkrémet jégkrémmel jégkrémre jégkrémért
+75	6175	írói	
+76	6176	címke	címkék címkéket címkén címkét címkével
+77	6177	passzív	
+78	6178	fejes	fejesek fejeseket fejesekkel fejeseknek fejessel fejest
+79	6179	nagysága	nagyságának nagyságáról nagyságát őnagysága
+80	6180	rémisztő	legrémisztőbb rémisztőbb rémisztőek rémisztőnek
+81	6181	ismerőse	ismerősen ismerősének ismerősét ismerősével
+82	6182	reális	reálisabb reálisak reálisan reálisnak
+83	6183	drót	drótok drótokat drótokkal dróton drótot drótra dróttal
+84	6184	holott	
+85	6185	értékei	értékeinek értékeit
+86	6186	eltitkol	eltitkolja eltitkoljuk eltitkolják eltitkolnak eltitkolni eltitkolnod eltitkolnom eltitkolod eltitkolom eltitkolsz eltitkolt eltitkolta eltitkoltad eltitkoltam eltitkolták eltitkoltál
+87	6187	titkárnő	titkárnője titkárnőjével titkárnők titkárnőként titkárnőnek titkárnőre titkárnőt titkárnővel
+88	6188	szélhámos	szélhámosnak szélhámosok szélhámosokat szélhámosoknak szélhámossal szélhámost
+89	6189	fantázia	fantáziák fantáziának fantáziát fantáziával
+90	6190	pulzus	pulzust
+91	6191	kifut	kifutnak kifutni kifutok kifutott kifutottam kifutottunk kifutottál kifutsz kifutunk
+92	6192	mindenható	mindenhatónak mindenhatót
+93	6193	megközelít	megközelíted megközelítem megközelíteni megközelítenünk megközelítette megközelítettük megközelíti megközelítik megközelítjük
+94	6194	testőr	testőrként testőrnek testőrre testőrrel testőrt testőrök testőröket testőrökkel
+95	6195	történetes	történetesen
+96	6196	épség	épségben
+97	6197	becslés	becslése becslések becslést
+98	6198	összecsapás	összecsapása összecsapásban összecsapások összecsapásra összecsapást
+99	6199	kétezer	kétezren kétezret
+100	6200	szabvány	szabványok szabványt

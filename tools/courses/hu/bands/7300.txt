@@ -1,0 +1,100 @@
+1	7201	rap	rapet rappel
+2	7202	krónikus	
+3	7203	mindened	mindenedet
+4	7204	hatékonyan	hatékonyabban leghatékonyabban
+5	7205	gyártási	
+6	7206	feltétlen	föltétlen
+7	7207	véred	véredbe véredben véredből véreddel véredet véredre
+8	7208	eljár	eljárnak eljárni eljárt
+9	7209	illatos	illatosak
+10	7210	kielégít	kielégítem kielégíteni kielégített kielégítette kielégítettem kielégíthetetlen kielégíti kielégítik kielégítse kielégítsem kielégítsék kielégítsük
+11	7211	nőies	nőiesebb nőiesek nőiesen nőiesnek
+12	7212	kan	kanon kant
+13	7213	átmérő	átmérője
+14	7214	fedezet	fedezetet fedezetként fedezett
+15	7215	filozófiai	
+16	7216	szerdai	
+17	7217	menete	menetén menetét
+18	7218	értékesít	értékesíteni értékesített értékesíti értékesítik értékesítő
+19	7219	hiányos	hiányosak hiányosnak
+20	7220	fegyelem	fegyelemmel fegyelemre fegyelmet
+21	7221	navigációs	
+22	7222	szivar	szivarok szivarokat szivarra szivarral szivart
+23	7223	követelés	követelése követeléseinek követeléseinket követelések követeléseket követelésekkel követeléssel követelést követelését
+24	7224	mieink	mieinket mieinkhez mieinkkel mieinknek mieinkre
+25	7225	puding	pudinggal pudingot pudingra
+26	7226	csomópont	csomópontnál csomópontok csomópontot
+27	7227	fokú	
+28	7228	műveleti	
+29	7229	küszöb	küszöbre küszöbön küszöböt
+30	7230	bejelentkezik	bejelentkezek bejelentkezel bejelentkezett bejelentkeznek bejelentkezni bejelentkeztek bejelentkeztem bejelentkeztél bejelentkeztünk bejelentkezve bejelentkezünk
+31	7231	keddi	
+32	7232	intézkedik	intézkedek intézkedett intézkedjenek intézkedne intézkednek intézkednem intézkedni intézkednünk intézkedsz intézkedtek intézkedtem intézkedtél intézkedtünk intézkedünk intézkedő
+33	7233	árverés	árverésen árverésre árverést
+34	7234	feltehetőleg	
+35	7235	lelkesedés	lelkesedéssel lelkesedést
+36	7236	párkapcsolat	párkapcsolatban párkapcsolatok párkapcsolatot párkapcsolatra
+37	7237	számuk	számukat számukra
+38	7238	segély	segélyből segélyek segélyeket segélyen segélyre segélyt segélyért
+39	7239	dunai	
+40	7240	sztrájk	sztrájkba sztrájkkal sztrájknak sztrájkok sztrájkot sztrájkra sztrájkról
+41	7241	krízis	krízisben krízisen krízisnek krízisre krízissel krízist
+42	7242	atomerőmű	atomerőműben atomerőművek atomerőművet
+43	7243	elkerülése	elkerülésének elkerülésére
+44	7244	veszélyeztetett	veszélyeztetettek
+45	7245	kosz	kosszal koszban koszt kosztot
+46	7246	gabona	gabonát gabonával
+47	7247	gyötör	gyötri gyötrik gyötröd gyötrő gyötörje gyötörjön gyötörnek gyötörni gyötörsz gyötört gyötörte gyötörtek gyötörték
+48	7248	koncentrációs	
+49	7249	tendencia	tendenciák tendenciát
+50	7250	bűne	bűnébe bűnében bűnét bűnével bűnéért
+51	7251	mintája	mintájára mintáját mintájával
+52	7252	szóbeszéd	szóbeszédek szóbeszédeket szóbeszédet szóbeszédnek szóbeszédre
+53	7253	ajka	ajkán ajkára ajkát
+54	7254	érzéketlen	érzéketlenek érzéketlennek érzéketlenné érzéketlenül
+55	7255	okosan	okosabban
+56	7256	újfajta	
+57	7257	visszatart	visszatartanak visszatartani visszatartott visszatartotta visszatartották
+58	7258	skorpió	skorpiók skorpiónak skorpiót
+59	7259	előjön	előjött
+60	7260	tűzijáték	tűzijátékkal tűzijátékok tűzijátékot tűzijátékra
+61	7261	mulatság	mulatságban mulatságból mulatságnak mulatságon mulatságot mulatságra
+62	7262	mechanizmus	mechanizmusok mechanizmust mechanizmusát
+63	7263	megszűnése	megszűnését megszűnésével
+64	7264	testvériség	testvériségben testvériséget testvériséggel testvériséghez testvériségnek testvériségről
+65	7265	színlel	színleled színlelek színlelem színleli színlelik színleljük színlelned színlelnek színlelnem színlelni színlelsz színlelt színlelte színlelted színleltem színleltél színlelve színlelünk
+66	7266	leszokik	leszokni leszokok leszokott leszoksz leszoktam leszoktatni leszoktál leszokás
+67	7267	felelőssége	felelősségére felelősségét
+68	7268	behúz	behúzni behúznék behúzod behúzok behúzol behúzom behúzott behúzta behúztak behúztam behúzták behúztál behúzva behúzza behúzzak behúzzuk
+69	7269	harmincas	
+70	7270	túlvilág	túlvilágba túlvilágban túlvilággal túlvilágon túlvilágot túlvilágra túlvilágról
+71	7271	kétéves	
+72	7272	merevlemez	merevlemezek merevlemezeket merevlemezen merevlemezre merevlemezről merevlemezt
+73	7273	gamma	
+74	7274	mechanikai	
+75	7275	dobos	dobosok dobossal dobost
+76	7276	pá	
+77	7277	motívum	motívumok motívumokat motívumokkal
+78	7278	detektív	detektívek detektívet detektívnek
+79	7279	ketté	
+80	7280	helyénvaló	helyénvalóbb helyénvalónak
+81	7281	öten	
+82	7282	szentelt	szenteltek
+83	7283	érsek	érseket érsekkel érseknek
+84	7284	jaja	
+85	7285	hívei	híveinek híveit
+86	7286	arrogáns	arrogánsak arrogánsnak
+87	7287	tanítványa	tanítványának tanítványát tanítványával
+88	7288	rivális	riválisok
+89	7289	értelmezhető	
+90	7290	kliens	kliensek klienseket kliensekkel kliensnek klienssel klienst
+91	7291	percünk	
+92	7292	ordít	ordítanak ordítani ordítasz ordítja ordítok ordított ordította ordítottak ordítottam ordítottál ordítson ordítva ordító
+93	7293	szárít	szárítani szárítja szárítom szárított szárítottam szárítás
+94	7294	megcsókol	megcsókolni megcsókolta
+95	7295	lakbér	lakbérre lakbérrel lakbért lakbérért
+96	7296	árfolyam	árfolyama árfolyamok árfolyamon árfolyamot
+97	7297	kiépítése	kiépítésére kiépítését
+98	7298	csodája	csodájának csodájára csodáját
+99	7299	egészségünk	egészségünkre
+100	7300	hivatalnok	hivatalnoka hivatalnokkal hivatalnoknak hivatalnokok hivatalnokokat hivatalnokoknak hivatalnokot

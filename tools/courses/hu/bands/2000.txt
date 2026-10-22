@@ -1,0 +1,100 @@
+1	1901	meglátogat	meglátogassa meglátogassalak meglátogassam meglátogasson meglátogassuk meglátogathat meglátogathatja meglátogathatjuk meglátogathatlak meglátogathatnánk meglátogathatod meglátogathatom meglátogathatsz meglátogatja meglátogatjuk meglátogatják meglátogatlak meglátogatna meglátogatnak meglátogatni meglátogatnom meglátogatná meglátogatnád meglátogatnám meglátogatnánk meglátogatod meglátogatok meglátogatom meglátogatott meglátogatsz meglátogatta meglátogattad meglátogattak meglátogattalak meglátogattam meglátogattuk meglátogatták meglátogattál meglátogatunk
+2	1902	megfelelően	
+3	1903	királynő	királynőhöz királynők királynőket királynőknek királynőként királynőnek királynőnél királynőre királynőről királynőt királynőtől királynővel királynővé királynőé királynőért
+4	1904	elhunyt	elhunytak elhunytat elhunytnak elhunytról elhunyttal
+5	1905	szegedi	
+6	1906	feltesz	feltegye feltegyek feltegyem felteheted feltehetek feltehetem felteheti feltehetik feltehetjük feltehetnék feltehetnénk feltehetünk feltenned feltennem feltenni feltennie feltenné feltennéd feltennék feltenném feltennénk feltennünk feltesszük felteszed felteszek felteszel felteszem felteszi felteszik feltesznek felteszünk feltett feltetted feltettek feltettem feltették feltettél feltettük feltettünk
+7	1907	perce	percében percére percét
+8	1908	szexi	legszexibb szexibb szexik szexin szexinek szexit szexivé
+9	1909	elveszett	elveszettek elveszetten elveszettnek
+10	1910	másképp	
+11	1911	olyasmi	olyasmibe olyasmiben olyasmihez olyasmik olyasmiket olyasmikkel olyasmikre olyasmikről olyasmin olyasminek olyasmire olyasmiről olyasmit olyasmivel olyasmiért
+12	1912	helyzete	helyzetébe helyzetében helyzetéből helyzetéhez helyzetén helyzetének helyzetére helyzetéről helyzetét helyzetével
+13	1913	képtelen	képtelenek képtelennek képtelenné képtelenül legképtelenebb
+14	1914	kilométer	kilométerek kilométereken kilométereket kilométerekre kilométerekről kilométeren kilométerenként kilométernél kilométerre kilométerrel kilométerről kilométert
+15	1915	azelőtt	
+16	1916	politikus	politikusa politikusként politikusnak politikusok politikusokat politikusokkal politikusoknak politikusokra politikusokról politikusoktól politikussal politikust
+17	1917	egyenlő	egyenlőek egyenlően egyenlők egyenlőként egyenlőnek egyenlőre egyenlővé
+18	1918	nyomozás	nyomozásba nyomozásban nyomozásból nyomozáshoz nyomozásnak nyomozásnál nyomozások nyomozásokat nyomozáson nyomozásra nyomozásról nyomozással nyomozást nyomozástól
+19	1919	nemzet	nemzetben nemzete nemzetek nemzeteket nemzetekkel nemzeteknek nemzeten nemzetet nemzethez nemzetként nemzetnek nemzetre nemzett nemzettel nemzetté nemzetért nemzetünket
+20	1920	utcai	
+21	1921	papa	papához papám papának papára papát papától papával
+22	1922	óvatos	óvatosabb óvatosak óvatosnak
+23	1923	megfelel	megfelelek megfeleljek megfeleljen megfeleljenek megfelelne megfelelnek megfelelni megfelelnie megfelelsz megfelelt megfeleltek megfeleltem megfelelés
+24	1924	bosszú	bosszúban bosszúból bosszúhoz bosszún bosszúnak bosszúra bosszúról bosszút bosszútól bosszúval bosszúért
+25	1925	matt	mattot
+26	1926	húsz	hússzal húszat húszból húszig húsznál húszra húszért
+27	1927	irodalom	irodalma irodalmat irodalomban irodalomból irodalomnak irodalomra irodalomról
+28	1928	városa	városába városában városából városán városának városára városáról városát városától
+29	1929	recept	receptek recepteket recepten receptet receptje receptjei receptre recepttel receptért
+30	1930	pénze	pénzébe pénzéből pénzéhez pénzén pénzének pénzére pénzéről pénzét pénzétől pénzével pénzéért
+31	1931	harcos	harcosainak harcoshoz harcosként harcosnak harcosok harcosokat harcosokból harcosokkal harcosoknak harcosokra harcosokról harcosra harcosról harcossal harcossá harcost
+32	1932	együttes	együttesben együttesből együttesek együtteseket együttesen együttesnek együttessel együttest
+33	1933	rendszeresen	
+34	1934	felkészül	felkészít felkészítelek felkészítem felkészíteni felkészített felkészítette felkészítettek felkészítettem felkészítették felkészíti felkészítik felkészítjük felkészítse felkészítselek felkészítsem felkészítsük felkészítve felkészítés felkészítést felkészítő felkészülhetünk felkészüljek felkészüljenek felkészüljön felkészüljünk felkészülnek felkészülni felkészülnöm felkészülnünk felkészülsz felkészültem felkészültetek felkészültél felkészültök felkészülve felkészülés felkészülésben felkészülök felkészülünk
+35	1935	hit	hitbe hitben hitből hiten hitet hitetek hiteti hithez hitnek hitre hitről hittel hitért hitük hitüket
+36	1936	előfordul	előforduljon előfordulna előfordulnak előfordulni előfordult előfordultak előforduló
+37	1937	hasonlóan	
+38	1938	görög	görögnek görögök görögöket görögöknek görögöknél görögöt görögül
+39	1939	hogyha	
+40	1940	szája	szájába szájában szájából szájához száján szájának szájánál szájára szájáról száját szájával
+41	1941	sérült	sérültek sérülteket sérültekkel sérülteknek sérültet sérültnek
+42	1942	elképzel	elképzeled elképzelek elképzelem elképzelheted elképzelheti elképzeli elképzelik elképzeljük elképzellek elképzelnem elképzelni elképzelsz elképzelt elképzelte elképzelted elképzeltelek elképzeltem elképzelték elképzeltél elképzeltük
+43	1943	otthona	otthonába otthonában otthonából otthonához otthonának otthonára otthonáról otthonát otthonától
+44	1944	süti	sütibe sütiben sütiből sütihez sütik sütikből sütiket sütikkel sütikre sütikről sütinek sütire sütiről sütit sütivel sütiért
+45	1945	odaad	odaadhassam odaadhatja odaadhatjuk odaadhatnád odaadhatnám odaadhatnánk odaadhatod odaadhatom odaadja odaadjam odaadjuk odaadják odaadjátok odaadni odaadnia odaadnod odaadnom odaadná odaadnád odaadnák odaadnám odaadnánk odaadnék odaadod odaadok odaadom odaadott odaadsz odaadta odaadtad odaadtam odaadtuk odaadták odaadtál odaadó
+46	1946	kialakul	kialakulhat kialakuljon kialakulnak kialakulni kialakult kialakultak kialakítani kialakított kialakítottam kialakítottunk kialakítva
+47	1947	próba	próbához próbák próbákat próbákon próbákra próbán próbának próbára próbáról próbát próbával
+48	1948	szobája	szobájába szobájában szobájából szobájához szobáján szobájának szobájánál szobájára szobáját szobájával
+49	1949	boldogság	boldogságba boldogságban boldogsággal boldogsághoz boldogságnak boldogságot boldogságra boldogságról boldogságtól boldogságért
+50	1950	doki	dokihoz dokik dokinak dokinál dokira dokiról dokit dokitól dokival
+51	1951	dug	dugd dughatod dughatsz dugj dugja dugjak dugjam dugjon dugjuk dugjunk dugják dugjál dugjátok duglak dugnak dugni dugnod dugnom dugnunk dugnál dugnám dugnék dugod dugok dugom dugott dugsz dugta dugtad dugtak dugtam dugtatok dugtok dugtunk dugták dugtál dugunk dugva dugás
+52	1952	intézmény	intézménybe intézményben intézményből intézmények intézményekben intézményeket intézményekkel intézménynek intézményt intézményének
+53	1953	karácsonyi	
+54	1954	nyugodt	legnyugodtabb nyugodtabb nyugodtabbnak nyugodtak nyugodtnak
+55	1955	ken	kend kendig kendra kene kened kenek kenem kenet kenetet kenheted keni kenik kenj kenje kenjem kenjék kenjük kenned kennek kennem kenni kensz kent kentben kente kented kentek kentem kenték kentél kenve
+56	1956	szíved	szívedbe szívedben szívedből szíveddel szíveden szívedet szívedhez szívednek szívedre szívedről
+57	1957	alkalmazás	alkalmazásban alkalmazások alkalmazásokat alkalmazásra alkalmazással alkalmazást
+58	1958	ezüst	ezüstben ezüstből ezüstre ezüsttel ezüstért ezüstöt
+59	1959	képez	képezi képezik képeznek képezni képezte képeztek képeztem képezték képeztük képeztünk képezve képezze képezzen képezzük képező képző
+60	1960	százalék	százalékban százalékig százalékkal százaléknál százalékon százalékot százalékra százalékuk százalékért
+61	1961	véleménye	véleményéhez véleményén véleményének véleményére véleményét véleményével
+62	1962	okozta	
+63	1963	csapda	csapdába csapdában csapdából csapdák csapdákat csapdákkal csapdának csapdára csapdáról csapdát csapdával
+64	1964	közösen	
+65	1965	rendkívüli	rendkívüliek rendkívülinek rendkívülit
+66	1966	változat	változatai változatait változatban változatok változatokat változatot változattal
+67	1967	fúj	fú fújd fújhatja fújhatjuk fújhatod fújhatom fújj fújja fújjad fújjam fújjon fújjuk fújjunk fújják fújjátok fújna fújnak fújni fújnia fújnod fújnom fújnunk fújod fújok fújom fújsz fújt fújta fújtad fújtak fújtam fújták fújtál fújunk fújva fújás fújó
+68	1968	per	perbe perben perből perek perekben pereket perekkel peren perhez pernek perre perrel perről pert pertől
+69	1969	liga	ligába ligában ligából ligához ligájában ligájának ligának ligát ligával
+70	1970	pozitív	pozitívabb pozitívak pozitívat pozitívnak
+71	1971	néni	nénihez nénik néninek néninél nénire néniről nénit nénitől nénivel
+72	1972	megszűnik	megszüntesse megszüntessem megszüntessék megszüntessük megszüntetem megszünteti megszüntetik megszüntetjük megszüntetni megszüntetné megszüntette megszüntettem megszüntették megszüntettük megszüntetve megszűnjön megszűnne megszűnnek megszűnni megszűnsz megszűnt megszűntek megszűntem megszűnök megszűnünk
+73	1973	seb	sebbe sebbel sebben sebből sebek sebekben sebekből sebeket sebekkel sebeknek sebekre sebekről seben sebet sebhez sebnek sebnél sebre sebről
+74	1974	kínos	kínosabb kínosak kínosan kínosat kínosnak kínossá legkínosabb
+75	1975	gyárt	gyártanak gyártani gyártasz gyártja gyártjuk gyártják gyártok gyártott gyártotta gyártottak gyártottam gyártottunk gyártották gyártsanak gyártson gyártsunk gyártunk gyártva gyártás gyártásban gyártást
+76	1976	megjön	megjönnek megjött megjöttek
+77	1977	bűnöző	bűnözőhöz bűnözők bűnözőket bűnözőkhöz bűnözőkkel bűnözőknek bűnözőkre bűnözőkről bűnözőktől bűnözőként bűnözőnek bűnözőre bűnözőről bűnözőt bűnözőtől bűnözővel bűnözővé
+78	1978	lezárul	lezár lezárhassuk lezárhatja lezárhatjuk lezárhatnánk lezárja lezárjam lezárjuk lezárják lezárni lezárnunk lezárnánk lezárod lezárom lezárta lezártad lezártam lezártuk lezártunk lezárták lezárult lezárunk lezárva lezáró
+79	1979	idei	
+80	1980	bizonyára	
+81	1981	valószínű	legvalószínűbb valószínűbb valószínűnek
+82	1982	fi	fiaimnak fiaink fiak fiakat fiat fin finek fire fit
+83	1983	színes	színesben színesebb színesek színeseket színeset
+84	1984	ipari	
+85	1985	mögötte	mögötted mögöttem mögöttetek mögöttük mögöttünk
+86	1986	kimond	kimondani kimondania kimondanod kimondanom kimondaná kimondanád kimondanám kimondasz kimondhatja kimondhatjuk kimondhatod kimondhatom kimondja kimondjam kimondjuk kimondják kimondod kimondok kimondom kimondta kimondtad kimondtam kimondtuk kimondták kimondva
+87	1987	méltó	méltóak méltóbb méltók méltón méltónak méltót méltóvá
+88	1988	táska	táskába táskában táskából táskához táskák táskákat táskákban táskákkal táskán táskának táskára táskáról táskát táskával táskáért
+89	1989	gomb	gombbal gombhoz gombjait gombok gombokat gombokkal gombon gombot gombra gombról
+90	1990	szerző	szerzők szerzőnek szerzőt
+91	1991	ribanc	ribanccal ribancként ribancnak ribancok ribancokat ribancokkal ribancoknak ribancot ribancra ribancról ribanctól ribancért
+92	1992	politika	politikába politikában politikából politikához politikájuk politikán politikának politikára politikáról politikát politikától politikával
+93	1993	felügyelő	felügyelőhöz felügyelője felügyelők felügyelőket felügyelőknek felügyelőnek felügyelőre felügyelőt felügyelőtől felügyelővel
+94	1994	jele	jeleként jelének jelére jelét jelével jeléül
+95	1995	konferencia	konferenciáján konferenciák konferenciákon konferenciákra konferencián konferenciának konferenciára konferenciáról konferenciát
+96	1996	azonosít	azonosítanak azonosítani azonosítania azonosítaniuk azonosítanod azonosítanom azonosítanunk azonosítaná azonosíthassuk azonosíthat azonosíthatja azonosíthatjuk azonosíthatnánk azonosítható azonosítja azonosítjuk azonosítják azonosítod azonosítom azonosított azonosítottad azonosítottak azonosítottam azonosítottuk azonosítottunk azonosították azonosítottátok azonosítsa azonosítsam azonosítsuk azonosítsák azonosítsátok azonosítva azonosítás azonosítást azonosításában azonosításához
+97	1997	íme	
+98	1998	község	községben községek községekkel községet
+99	1999	akadémia	akadémián akadémiának akadémiára akadémiáról akadémiát
+100	2000	egyértelmű	egyértelműbb egyértelműek egyértelműnek egyértelművé

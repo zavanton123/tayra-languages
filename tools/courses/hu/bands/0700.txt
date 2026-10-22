@@ -1,0 +1,100 @@
+1	601	szükségem	
+2	602	tíz	tízbe tízben tízből tízen tízet tízhez tízig tízkor tíznél tízre tíztől tízzel tízért
+3	603	lakik	lakat lakatot lakattal lakhat lakhatna lakhatnak lakhatnál lakhatnánk lakhatnék lakhatok lakhatsz lakhatunk lakja lakjak lakjanak lakjon lakjunk lakják lakna laknak lakni laknia laknod laknom laknunk laknánk laknék lakok lakom lakott laksz lakta laktak laktam laktatok laktok laktunk laktál lakunk
+4	604	budapesti	pesti
+5	605	főnök	főnökhöz főnökkel főnökké főnökként főnöknek főnöknél főnökre főnökről főnöktől főnöké főnökének főnökét főnökével főnökök főnököket főnökökkel főnököknek főnököt
+6	606	hivatalos	hivatalosabb hivatalosak hivatalosat hivatalosnak hivatalossá
+7	607	szinte	
+8	608	megváltozik	megváltozhatnak megváltozna megváltoznak megváltozni megváltozol megváltozott megváltoztak megváltoztam megváltoztassa megváltoztassam megváltoztassuk megváltoztassák megváltoztat megváltoztathatja megváltoztathatjuk megváltoztathatod megváltoztathatom megváltoztatja megváltoztatjuk megváltoztatják megváltoztatna megváltoztatnak megváltoztatni megváltoztatná megváltoztatod megváltoztatom megváltoztatott megváltoztatta megváltoztattad megváltoztattak megváltoztattam megváltoztattuk megváltoztatták megváltoztattál megváltoztató megváltoztunk megváltoztál megváltozzanak megváltozzon
+9	609	oldala	oldalába oldalában oldalához oldalán oldalának oldalánál oldalára oldaláról oldalát oldalával
+10	610	tűz	tüzek tüzeket tüzet tűzbe tűzben tűzből tűzd tűzhöz tűzi tűzik tűznek tűzni tűznél tűzre tűzről tűzte tűztek tűztem tűzték tűztük tűztől tűzz tűzze tűzzel tűzzük tűzzünk tűzért tűzök tűzöm tűzön tűzött tűzünk tűző
+11	611	béke	békében békéhez békéje békén békének békére békéről békét békével békéért
+12	612	vág	vágd vághatod vágj vágja vágjak vágjalak vágjam vágjanak vágjatok vágjon vágjuk vágjunk vágják vágjátok váglak vágna vágnak vágni vágnia vágnod vágnom vágnunk vágná vágnám vágod vágok vágom vágott vágsz vágtad vágtak vágtam vágtok vágtuk vágtunk vágtál vágunk vágva vágó
+13	613	lassan	lassabban
+14	614	gyors	gyorsabb gyorsabbnak gyorsak gyorsat gyorsnak gyorsra leggyorsabb
+15	615	beszélget	beszélgessek beszélgessen beszélgessenek beszélgessetek beszélgetek beszélgetett beszélgethessünk beszélgethet beszélgethetek beszélgethetnek beszélgethetnék beszélgethetnénk beszélgethetsz beszélgethettek beszélgethetünk beszélgetne beszélgetned beszélgetnek beszélgetnem beszélgetnetek beszélgetni beszélgetnie beszélgetnék beszélgetnél beszélgetnének beszélgetnénk beszélgetnünk beszélgetsz beszélgettek beszélgettem beszélgettetek beszélgettél beszélgettünk beszélgetve beszélgetünk beszélgető
+16	616	gondolkodik	gondolkodjak gondolkodjam gondolkodjanak gondolkodjatok gondolkodjon gondolkodjunk gondolkodna gondolkodnak gondolkodni gondolkodnia gondolkodnod gondolkodnom gondolkodnunk gondolkodnál gondolkodnék gondolkodom gondolkodott gondolkodsz gondolkodtak gondolkodtam gondolkodtok gondolkodtunk gondolkodtál gondolkodunk gondolkodva gondolkodás gondolkodásra gondolkodást gondolkodását gondolkodó gondolkodók gondolkozik gondolkoznak gondolkozok gondolkozott gondolkoztunk gondolkoztál gondolkozunk gondolkozzanak
+17	617	szokik	szokd szokj szokja szokjak szokjanak szokjatok szokjon szoknak szokni szoknia szokniuk szoknod szoknom szoknunk szokom szoksz szokta szoktad szoktak szoktalak szoktam szoktatni szoktatok szoktatott szoktuk szoktunk szokták szoktál szoktátok szokva
+18	618	gyermek	gyermekből gyermekedet gyermekeiket gyermekek gyermekeket gyermekekkel gyermekeknek gyermekekre gyermekekről gyermekekért gyermekem gyermeket gyermekhez gyermekkel gyermekként gyermeknek gyermekre gyermekről gyermektől gyermeké gyermekért gyermekük
+19	619	amúgy	am
+20	620	gyilkos	gyilkosa gyilkoshoz gyilkosként gyilkosnak gyilkosnál gyilkosok gyilkosokat gyilkosokkal gyilkosokká gyilkosoknak gyilkosokra gyilkosokról gyilkosoktól gyilkoson gyilkosra gyilkosról gyilkossal gyilkossá gyilkost gyilkostól gyilkosé
+21	621	hangzik	hangozni hangoztatta hangozzon hangozzék hangzana hangzanak hangzani hangzol hangzott hangzottak hangzó
+22	622	emberi	emberibb emberiek emberinek emberit emberivé
+23	623	korai	korainak korábbi korábbiak korábbiakat korábbiaknál korábbiakért korábbinál korábbit korábbiért legkorábbi
+24	624	mindegy	
+25	625	ész	eszek eszet ésszel észbe észben észen észhez észnek észnél észre észt észtek
+26	626	anyja	anyjaként anyjába anyjában anyjából anyjához anyján anyjának anyjánál anyjára anyjáról anyját anyjától anyjával anyjáé anyjáért
+27	627	látta	láttán láttára
+28	628	francia	franciából franciák franciákat franciákkal franciáknak franciáknál franciákra franciáktól franciának franciára franciát franciául franciával
+29	629	március	márciusban márciusig márciustól
+30	630	cél	célba célban célból célhoz célig céllal célnak célnál célok célokat célokból célokkal célokra célokért célon célra célról célt céltól célul célért
+31	631	évi	
+32	632	végig	
+33	633	régen	legrégebben régebben
+34	634	visel	viseled viselek viselem viselhet viselheted viselhetem viselheti viselhetsz viseli viselik viselje viseljek viseljem viseljen viseljék viseljük viselne viselned viselnek viselnem viselni viselnie viselniük viselné viselnéd viselnék viselném viselnünk viselsz viselt viselte viselted viseltek viseltem viselték viseltél viselve viselünk viselő
+35	635	hiba	hibába hibából hibák hibákat hibákból hibákkal hibáknak hibákra hibákról hibáktól hibákért hibán hibának hibára hibáról hibát hibától hibával hibáért
+36	636	sötét	legsötétebb sötétbe sötétben sötétből sötétebb sötétek sötéten sötétet sötétje sötétnek sötétre sötéttől
+37	637	sokan	legtöbben többen
+38	638	megfelelő	legmegfelelőbb megfelelőbb megfelelőek megfelelőnek megfelelőt
+39	639	szívem	szívembe szívemben szívemből szívemen szívemet szívemhez szívemig szívemmel szívemnek szívemre szívemről
+40	640	elveszt	elvesszen elveszted elvesztek elvesztelek elvesztem elvesztenek elvesztenem elveszteni elvesztené elvesztenéd elvesztenék elveszteném elvesztenénk elvesztesz elvesztett elvesztette elvesztetted elvesztettek elvesztettelek elvesztettem elvesztettetek elvesztették elvesztettél elvesztettétek elvesztettük elvesztettünk elvesztheted elveszthetem elveszthetjük elveszthette elveszthettem elveszti elvesztik elvesztitek elvesztjük elvesztél elvesztünk elveszít elveszíti
+41	641	rendőr	rendőrei rendőrhöz rendőrként rendőrnek rendőrnél rendőrre rendőrrel rendőrről rendőrt rendőrtől rendőrért rendőrök rendőrökben rendőröket rendőrökhöz rendőrökkel rendőröknek rendőröknél rendőrökre rendőrökről rendőröktől
+42	642	lakás	lakása lakásba lakásban lakásból lakáshoz lakásnak lakásnál lakások lakásokat lakásokba lakásokban lakásomról lakáson lakásra lakásról lakással lakást lakástól lakásukat lakásukban lakásunkra lakásába lakásában lakását lakásért
+43	643	szüksége	szükségét
+44	644	közé	közéd közéjük közém közénk közétek
+45	645	képzel	képzeld képzeled képzelek képzelem képzelheted képzelheti képzelhetik képzelhetitek képzeli képzelik képzelitek képzelj képzelje képzeljem képzeljen képzeljenek képzeljetek képzeljék képzeljétek képzeljük képzeljünk képzellek képzelned képzelnek képzelni képzelné képzelnéd képzelném képzelsz képzelt képzelte képzelted képzeltek képzeltem képzeltetek képzelték képzeltél képzeltük képzeltünk
+46	646	levél	levelei levelek levelekben levelekből leveleken leveleket levelekkel leveleknek levelekre levelekről levelekért levelet levélbe levélben levélből levélen levélhez levéllel levélnek levélre levélről levélért
+47	647	online	
+48	648	fal	falak falakat falakba falakban falakkal falaknak falakon falakra falakról falat falatok falatokat falatot falba falban falból fald falhoz falig falj falja falják fallal falnak falni falnál falon falra falról falt falta faltól falunk falunkat falunkba falunkban falunkból falva faló
+49	649	április	áprilisban áprilistól
+50	650	park	parkba parkban parkból parkhoz parkig parkkal parknak parknál parkok parkokat parkokban parkon parkot parkra parkról parktól
+51	651	veszélyes	legveszélyesebb veszélyesebb veszélyesek veszélyesen veszélyeset veszélyesnek veszélyessé
+52	652	rendes	legrendesebb rendesebb rendesek rendesen rendeset rendesnek
+53	653	áldozat	áldozatai áldozataikat áldozatba áldozatban áldozatból áldozathoz áldozatként áldozatnak áldozatnál áldozatok áldozatokat áldozatokban áldozatokból áldozatokhoz áldozatokkal áldozatoknak áldozatoknál áldozatokon áldozatokra áldozatokról áldozatoktól áldozatoké áldozatokért áldozaton áldozatot áldozatra áldozatról áldozattal áldozattá áldozattól áldozatul áldozaté áldozatért
+54	654	helyett	
+55	655	jelenleg	
+56	656	felhív	felhívhatja felhívhatjuk felhívhatlak felhívhatnád felhívhatnám felhívhatnánk felhívhatod felhívhatom felhívhatsz felhívhattál felhívja felhívjalak felhívjam felhívjon felhívjuk felhívják felhívlak felhívna felhívnak felhívni felhívnod felhívnom felhívná felhívnád felhívnál felhívnám felhívod felhívok felhívom felhívott felhívsz felhívta felhívtad felhívtak felhívtalak felhívtam felhívtuk felhívták felhívtál
+57	657	dönt	döntene döntened döntenek döntenem dönteni döntenie döntenék döntenél döntenünk döntesz dönthet dönthetek döntheti dönthetsz dönti döntik döntjük dönts döntsd döntse döntsek döntsem döntsenek döntsék döntsétek döntsön döntsük döntve döntöd döntök döntöm döntötte döntötted döntöttetek döntötték döntöttél döntöttük döntöttünk döntünk
+58	658	eljön	eljönni eljött eljöttek eljöttem
+59	659	mély	legmélyebb legmélyebben mélybe mélyben mélyből mélyebb mélyebben mélyebbre mélyebbről mélyek mélyeket mélyen mélyet mélynek mélyre mélyről
+60	660	vajon	
+61	661	ajándék	ajándékba ajándékkal ajándékként ajándéknak ajándékok ajándékokat ajándékokkal ajándékokra ajándékokról ajándékokért ajándékot ajándékra ajándékról ajándékul ajándékért
+62	662	halála	halálába halálában halálából halálához haláláig halálán halálának halálánál halálára haláláról halálát halálától halálával haláláért
+63	663	katona	katonaként katonából katonához katonái katonáinak katonáit katonák katonákat katonákból katonákhoz katonákkal katonáknak katonáknál katonákon katonákra katonákról katonáktól katonának katonánál katonára katonáról katonát katonától katonával katonává katonáért
+64	664	esete	esetében esetéhez esetén esetének esetére esetéről esetét esetével
+65	665	szemben	
+66	666	augusztus	augusztusban
+67	667	elhagy	elhagyhatja elhagyhatjuk elhagyhatod elhagyhatom elhagyja elhagyjalak elhagyjam elhagyjon elhagyjuk elhagyják elhagyjátok elhagylak elhagyna elhagynak elhagyni elhagynia elhagynod elhagynom elhagynunk elhagyná elhagynád elhagynál elhagynám elhagyod elhagyom elhagyott elhagysz elhagyta elhagytad elhagytak elhagytalak elhagytam elhagytuk elhagytunk elhagyták elhagytál elhagytátok elhagyva elhagyó
+68	668	fekszik	fekhet fekhetek fekhetsz fekszek fekszel fekszem fekszenek fekszetek fekszünk fektet fektetett fekvő fekvőt feküdhetek feküdhetsz feküdj feküdjek feküdjenek feküdjetek feküdjön feküdjünk feküdne feküdni feküdnie feküdnék feküdnél feküdnénk feküdnöd feküdnöm feküdnünk feküdt feküdtek feküdtem feküdtetek feküdtél feküdtünk
+69	669	osztály	osztállyal osztálya osztályba osztályban osztályból osztályhoz osztályig osztálynak osztálynál osztályok osztályokat osztályokba osztályokban osztályokon osztályom osztályon osztályra osztályról osztályt osztálytól osztályán osztályának osztályát
+70	670	szív	szívat szívbe szívben szívből szívek szíveket szíven szívet szívhez szívj szívja szívjon szívjuk szívjunk szívják szívjátok szívnak szívnek szívni szívnom szívod szívok szívom szívott szívre szívről szívsz szívta szívtad szívtak szívtam szívtunk szívták szívtál szívunk szívvel szívás szívó szívót
+71	671	sziget	szigetek szigeteken szigeteket szigetekre szigetekről szigeten szigetet szigethez szigetnek szigetnél szigetre szigetről szigettel szigettől
+72	672	sokáig	legtovább
+73	673	fent	feljebb fenn fentebb följebb fönn fönt legfelül
+74	674	főleg	
+75	675	bal	ballal balon balra balról balt balul
+76	676	megment	megmented megmentelek megmentem megmentened megmentenek megmentenem megmenteni megmentenie megmentenünk megmentesz megmentett megmentette megmentetted megmentettek megmentettelek megmentettem megmentették megmentettél megmentettétek megmentettük megmentettünk megmenthetem megmentheti megmenthetjük megmenthettem megmenti megmentik megmentjük megmentse megmentselek megmentsem megmentsen megmentsenek megmentsék megmentsük megmentsünk megmentve megmentünk megmentő
+77	677	szed	szedd szeded szedek szedem szedett szedi szedik szedj szedje szedjek szedjem szedjen szedjenek szedjetek szedjék szedjél szedjétek szedjük szedjünk szedlek szedned szednek szednem szedni szednie szednünk szedsz szedte szedted szedtek szedtem szedték szedtél szedtétek szedtük szedtünk szedve szedünk szedő
+78	678	börtön	börtönbe börtönben börtönből börtönhöz börtönnek börtönnel börtönné börtönnél börtönre börtönről börtönt börtöntől börtönök börtönökbe börtönökben börtönökből börtönöket börtönön
+79	679	köz	közbe közre közt közzé közért közértbe közértben közöd közük közünk
+80	680	megáll	megállhatnánk megállhatunk megállja megálljon megállna megállnak megállni megállnál megállok megállsz megállt megálltak megálltam megálltunk megálltál megállunk megállít megállítani megállíthatja megállíthatjuk megállítja megállítjuk megállítják megállítom megállított megállította megállítottak megállítottam megállítottuk megállították megállítsa megállítsam megállítson megállítsuk megállítsák megálló megállóban megállónál megállót
+81	681	országos	országoson országosra országost
+82	682	felvesz	felvegye felvegyem felvegyen felvegyenek felvegyék felvegyük felveheted felvehetem felveheti felvenne felvenned felvennem felvenni felvennie felvenné felvennéd felvenném felvennünk felvesszük felveszed felveszek felveszel felveszem felveszi felveszik felveszlek felvesznek felveszünk felvett felvette felvetted felvettek felvettelek felvettem felvették felvettél felvettük felvettünk felvevő
+83	683	szegény	legszegényebb szegénnyel szegényebb szegények szegényeken szegényeket szegényekkel szegényeknek szegényektől szegényekért szegényen szegénynek szegényt
+84	684	levegő	levegőbe levegőben levegőből levegőhöz levegője levegőket levegőn levegőnek levegőnél levegőre levegőt levegőtől levegővel levegőért
+85	685	üzlet	üzletbe üzletben üzletből üzlete üzletei üzletek üzletekbe üzletekben üzleteket üzletekkel üzletekről üzleten üzletet üzlethez üzletnek üzletnél üzletre üzletről üzlettel üzletté üzlettől üzletért üzletét
+86	686	okos	legokosabb okosabb okosabbak okosabbnak okosak okosakat okosat okosnak okossá
+87	687	kedvel	kedveled kedvelek kedvelem kedvelhet kedveli kedvelik kedvelitek kedveljelek kedveljem kedveljen kedveljenek kedveljük kedvellek kedvelne kedvelned kedvelnek kedvelnem kedvelni kedvelnie kedvelné kedvelnéd kedvelnék kedvelnél kedvelnélek kedvelném kedvelnének kedvelsz kedvelt kedvelte kedvelted kedveltek kedveltelek kedveltem kedvelték kedveltél kedveltük kedvelünk kedvelő legkedveltebb
+88	688	értelme	értelmében értelmének értelmére értelméről értelmét
+89	689	szem	szemből szemek szemekbe szemekben szemeken szemeket szemekkel szemeknek szemekre szemekről szemen szemet szemmel szemnek szemre szemtől szemért
+90	690	biztonsági	biztonságiak biztonságiakat biztonságiakhoz biztonságiakkal biztonságiaknak biztonságiaknál biztonságiakon biztonságiakra biztonságiaktól biztonságit
+91	691	csaj	csajba csajban csajból csajhoz csajjal csajnak csajnál csajok csajokat csajokhoz csajokkal csajoknak csajoknál csajokra csajokról csajoktól csajokért csajon csajra csajról csajt csajtól csajért
+92	692	anyag	anyagba anyagban anyagból anyaggal anyaggá anyaghoz anyagként anyagnak anyagok anyagokat anyagokban anyagokból anyagokhoz anyagokkal anyagoknak anyagokra anyagokról anyagoktól anyagon anyagot anyagra anyagról anyagtól anyaguk anyagért
+93	693	friss	frissebb frissek frissen frisset frissnek legfrissebb
+94	694	üzenet	üzenetben üzenetből üzenetek üzenetekben üzeneteket üzenetekkel üzenetekre üzenetekről üzenetem üzeneten üzenetet üzenethez üzenetnek üzenetre üzenetről üzenettel üzenetért
+95	695	hiszen	
+96	696	eltűnt	eltűntek eltűnteket eltűntet eltűntként eltűntnek
+97	697	családi	
+98	698	mióta	
+99	699	hang	hangban hangból hanggal hanghoz hangjai hangnak hangok hangokat hangokból hangokkal hangoknak hangokra hangokról hangoktól hangomat hangon hangot hangotok hangra hangról hangtól
+100	700	miatta	miattad miattam miattatok miattuk miattunk temiattad énmiattam őmiatta

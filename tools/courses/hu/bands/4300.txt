@@ -1,0 +1,100 @@
+1	4201	elvált	elváltak
+2	4202	szerelő	szerelőhöz szerelők szerelőket szerelőként szerelőnek szerelőnél szerelőre szerelőt szerelővel
+3	4203	királyné	királynéhoz királynénak királynéra királynét királynéval
+4	4204	vív	vívja vívjon vívjuk vívjunk vívják vívnak vívni vívnom vívnunk vívom vívott vívsz vívta vívtak vívtam vívtuk vívtunk vívták vívunk
+5	4205	labdarúgás	
+6	4206	táblázat	táblázatban táblázatok táblázatokat táblázatot
+7	4207	kérdései	kérdéseik kérdéseire kérdéseiről kérdéseit kérdéseivel
+8	4208	páratlan	páratlanok páratlanra páratlanul
+9	4209	szállítás	szállításban szállításhoz szállításnál szállításra szállításról szállítással szállítást szállításért
+10	4210	cent	centbe centet centig centre centtel centért
+11	4211	bérel	bérelek bérelem bérelhetnénk bérelhetünk béreljek béreljen béreljük béreljünk bérelne bérelnek bérelnem bérelni bérelnünk bérelsz bérelte bérelted béreltelek béreltem bérelték béreltél béreltük béreltünk bérelve bérelünk bérlik bérlés
+12	4212	érett	érettebb érettek éretten érettnek éretté
+13	4213	merész	legmerészebb merészebb merészek merészen merészet merésznek
+14	4214	oszlop	oszlopai oszlopba oszlopban oszlophoz oszlopnak oszlopok oszlopokat oszlopon oszlopot oszlopra oszlopról
+15	4215	felőle	felőled felőlem felőletek felőlük felőlünk
+16	4216	családtag	családtaggal családtagjaikat családtagként családtagnak családtagok családtagokat családtagokkal családtagoknak családtagot családtagra
+17	4217	nyaklánc	nyaklánccal nyakláncok nyakláncokat nyakláncot nyakláncra nyakláncról nyakláncért
+18	4218	szőlő	szőlőből szőlők szőlőt szőlővel
+19	4219	jellegzetes	jellegzetesen
+20	4220	rács	rácshoz rácsok rácsokat rácsokon rácson rácsot rácsra
+21	4221	karom	karmok karmokat karmokkal karmot karomat karomba karomban karomból karommal karomon karomra karomról
+22	4222	előkészít	előkészíted előkészítek előkészítem előkészíteni előkészítené előkészített előkészítette előkészítetted előkészítettek előkészítettem előkészítették előkészítettél előkészítettük előkészítettünk előkészíti előkészítik előkészítjük előkészítse előkészítsem előkészítsük előkészítve előkészítés előkészítést előkészítünk
+23	4223	fokos	
+24	4224	meggyőző	legmeggyőzőbb meggyőzőbb meggyőzőek meggyőzően meggyőzőnek
+25	4225	megfigyel	megfigyeled megfigyelek megfigyelem megfigyelhetem megfigyelhetjük megfigyeli megfigyelik megfigyelje megfigyeljem megfigyeljék megfigyeljük megfigyelnek megfigyelni megfigyelsz megfigyelt megfigyelte megfigyelted megfigyeltek megfigyeltem megfigyelték megfigyeltük megfigyeltünk megfigyelve megfigyelünk
+26	4226	meghívás	meghívásnak meghívások meghívásokat meghívásra meghívással meghívást meghívásért
+27	4227	összeállít	összeállítani összeállítjuk összeállítok összeállítom összeállított összeállította összeállítottam összeállítottunk összeállítunk összeállítva
+28	4228	sí	sín sínbe sínek síneken síneket sínekhez síneknél sínekre sínekről sínen sínre sínről sínt
+29	4229	baloldali	
+30	4230	javul	javulhat javuljon javulna javulnak javulni javulok javulsz javult javultak javultál
+31	4231	változatlan	változatlanok változatlanul
+32	4232	figyelmes	figyelmesebb figyelmesebben figyelmesek figyelmesen figyelmesnek legfigyelmesebb
+33	4233	díszít	díszíteni díszített díszítette díszítettem díszítették díszíti díszítik díszítve díszítő
+34	4234	tárol	tárolja tároljuk tárolják tárolnak tárolni tárolod tárolom tárolt tárolta tároltak tároltam tárolták tárolunk tárolva
+35	4235	országgyűlési	
+36	4236	nevelés	nevelésben nevelésből nevelése nevelésről nevelést nevelésében
+37	4237	pók	pókkal póknak pókok pókokat pókokkal pókoknak pókoktól pókot
+38	4238	kesztyű	kesztyűbe kesztyűben kesztyűk kesztyűket kesztyűn kesztyűre kesztyűt kesztyűvel
+39	4239	megszólal	megszólaljon megszólalna megszólalnak megszólalni megszólalnál megszólalok megszólalsz megszólalt megszólaltak megszólaltam megszólaltál
+40	4240	cigaretta	cigarettája cigarettáját cigaretták cigarettákat cigarettára cigarettát cigarettától cigarettával cigarettáért
+41	4241	haszon	hasznon hasznot hasznuk hasznukat haszonból haszonnal haszonra haszonért
+42	4242	osztag	osztagba osztagban osztagból osztaggal osztaghoz osztagnak osztagnál osztagok osztagokat osztagot osztagra osztagtól
+43	4243	vagyona	vagyonából vagyonának vagyonára vagyonáról vagyonát vagyonával
+44	4244	vádlott	vádlottak
+45	4245	sehogy	sehogyan
+46	4246	egyén	egyének egyéneket egyénekkel egyéneknek egyénenként egyénként egyénnek egyénnel egyénre egyént egyéntől
+47	4247	csomagol	csomagolja csomagoljak csomagoljam csomagoljanak csomagoljatok csomagoljon csomagoljuk csomagoljunk csomagolják csomagoljátok csomagolnak csomagolni csomagolnod csomagolnom csomagolnunk csomagolok csomagolom csomagolsz csomagolt csomagolta csomagoltad csomagoltam csomagolták csomagoltál csomagolunk csomagolva csomagoló
+48	4248	sértés	sértésből sértések sértéseket sértésként sértésnek sértésre sértéssel sértést sértésért
+49	4249	baktérium	baktériummal baktériumnak baktériumok baktériumokat baktériumokkal baktériumoktól baktériumot
+50	4250	emlékei	emlékeibe emlékeiben emlékeiből emlékeihez emlékeik emlékeinek emlékeit emlékeivel
+51	4251	varázslatos	legvarázslatosabb varázslatosak varázslatosnak
+52	4252	hulladék	hulladékból hulladékkal hulladéknak hulladékok hulladékot
+53	4253	torka	torkába torkában torkából torkához torkán torkának torkánál torkára torkát
+54	4254	egyezmény	egyezménnyel egyezményben egyezmények egyezménynek egyezményről egyezményt
+55	4255	biztosítása	biztosításának biztosítására biztosításáról biztosítását biztosításával
+56	4256	vágta	vágtában vágták
+57	4257	igazgatóság	igazgatósága igazgatósággal igazgatóságnak igazgatóságot igazgatóságának
+58	4258	funkció	funkciók funkciókat funkciót funkcióval
+59	4259	időszaka	időszakában időszakának időszakát
+60	4260	elvág	elvágja elvágjam elvágjuk elvágják elvágni elvágná elvágnám elvágod elvágom elvágott elvágta elvágtad elvágtak elvágtam elvágtuk elvágták elvágva
+61	4261	ugrás	ugráshoz ugrásig ugrásnál ugrások ugrásokat ugrásra ugrással ugrást
+62	4262	krém	krémek krémeket krémet krémmel
+63	4263	összefüggő	
+64	4264	sapka	sapkában sapkák sapkákat sapkára sapkát sapkával
+65	4265	értékelés	értékelések értékeléseket értékelésen értékelésre értékelést
+66	4266	tanév	tanévben tanévet tanévre tanévtől
+67	4267	pisil	pisilek pisilhetek pisilhetsz pisiljek pisiljen pisilned pisilnek pisilnem pisilni pisilnie pisilsz pisilt pisiltem pisiltél pisilés pisilő
+68	4268	rés	résbe résben rések réseken réseket résen résre rést
+69	4269	kén	ként
+70	4270	korlátozott	korlátozottak
+71	4271	költői	költőinek
+72	4272	halkan	halkabban
+73	4273	sas	sasnak sasok sasokat sasoknak sassal sast
+74	4274	kirabol	kirabolja kiraboljanak kiraboljon kiraboljuk kirabolják kirabolnak kirabolni kirabolod kirabolok kirabolom kirabolsz kirabolt kirabolta kiraboltad kiraboltak kiraboltam kiraboltuk kiraboltunk kirabolták kiraboltál kirabolunk
+75	4275	gondolatai	gondolataiba gondolataiban gondolataiból gondolatainak gondolatait gondolataival
+76	4276	érme	érmék érméket érmékkel érmén érmének érmét érmével
+77	4277	átlagosan	
+78	4278	elnevezés	elnevezése elnevezéssel elnevezést
+79	4279	mágneses	
+80	4280	debütál	debütálni debütált debütálás debütáló
+81	4281	vész	vessz vesszek vesszen vesszenek vesszünk veszendőbe veszhet veszik veszne veszni vesztél veszve vészt
+82	4282	anno	
+83	4283	dől	dőlhet dőlj dőljek dőljenek dőljetek dőljön dőljünk dőlne dőlnek dőlni dőlnie dőlnöd dőlnöm dőlsz dőltem dőltél dőlve dőlés dőlök dőlünk
+84	4284	fiai	fiaik fiainak fiaira fiait fiaival
+85	4285	fellépés	fellépése fellépések fellépéseket fellépésen fellépésre fellépésről fellépéssel fellépést
+86	4286	kiút	kiutat
+87	4287	fázis	fázisba fázisban fázishoz fázisnak fázison fázisra fázissal fázist fázisát
+88	4288	légkör	légkörbe légkörben légkörből légköre légkörrel légkört légkörébe légkörében légkörét légkörön
+89	4289	meghalad	meghaladja meghaladják meghaladta meghaladó
+90	4290	vigyázzatok	
+91	4291	írása	írásában írását írásával
+92	4292	penge	penget pengéje pengék pengéket pengékkel pengén pengének pengére pengét pengével
+93	4293	önmagad	önmagadat önmagadba önmagadban önmagadból önmagaddal önmagadhoz önmagadnak önmagadon önmagadra önmagadról önmagadtól önmagadért
+94	4294	híresség	híressége hírességek hírességeket hírességekkel hírességeknek hírességet hírességgel hírességnek
+95	4295	vízi	
+96	4296	idejön	idejönnek idejönni
+97	4297	hazajön	hazajönni hazajöttek hazajöttem hazajöttél
+98	4298	kijut	kijussanak kijutni kijutott kijutottak
+99	4299	folytatás	folytatásban folytatáshoz folytatásra folytatást
+100	4300	nyilvánosan	

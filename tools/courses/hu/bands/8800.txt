@@ -1,0 +1,100 @@
+1	8701	hóhér	hóhérnak hóhérok hóhért
+2	8702	ecet	ecetet ecettel
+3	8703	analízis	analízisre analízist
+4	8704	számtalanszor	
+5	8705	rátesz	rátegye rátegyem rátegyék rátenni rátenné rátenném rátesszük ráteszed ráteszek ráteszem ráteszi ráteszik rátett rátette rátetted rátettem rátették
+6	8706	üresség	ürességbe ürességben ürességet ürességtől
+7	8707	délkeleti	
+8	8708	hozzájárulása	hozzájárulását hozzájárulásával
+9	8709	keselyű	keselyűk keselyűket keselyűknek keselyűnek keselyűt
+10	8710	nemzetközileg	
+11	8711	félmillió	félmilliót
+12	8712	adófizető	adófizetők adófizetőknek
+13	8713	mindkettejük	mindkettejüket
+14	8714	lelkük	lelkükben lelküket
+15	8715	sokoldalú	
+16	8716	terepjáró	terepjáróba terepjáróban terepjárók terepjárót terepjáróval
+17	8717	úttörő	úttörők
+18	8718	csipke	csipkét
+19	8719	csontos	
+20	8720	kiszolgáló	
+21	8721	dolgozói	dolgozóinak dolgozóit
+22	8722	darázs	darazsak darazsakat darazsat
+23	8723	vipera	viperák viperát
+24	8724	daca	dacára
+25	8725	kiterjedő	
+26	8726	voltaképpen	
+27	8727	elkerülhető	
+28	8728	neheze	nehezén nehezére nehezét
+29	8729	kidolgoz	kidolgozok kidolgozom kidolgozta kidolgoztad kidolgoztam kidolgoztuk kidolgoztunk kidolgozunk kidolgozza kidolgozzuk kidolgozzák
+30	8730	kereskedik	kereskedek kereskedett kereskednek kereskedni kereskedsz kereskedtek kereskedtem kereskedünk
+31	8731	mosoda	mosodába mosodában mosodából mosodát
+32	8732	üzemi	
+33	8733	megalakul	megalakult
+34	8734	absztrakt	
+35	8735	matróz	matróznak matrózok matrózt matrózzal
+36	8736	lélegzetelállító	
+37	8737	rántotta	rántottát
+38	8738	keringési	
+39	8739	gombóc	gombócok gombócokat gombócot
+40	8740	operaház	operaházat operaházban
+41	8741	csipet	
+42	8742	évtizede	
+43	8743	tulajdonosai	tulajdonosainak tulajdonosait
+44	8744	márkás	
+45	8745	kísérte	
+46	8746	kiindulási	
+47	8747	megteremtése	megteremtésére megteremtését
+48	8748	bővítése	bővítésére bővítését
+49	8749	fennmaradó	
+50	8750	írónő	
+51	8751	fűrész	fűrésszel fűrészt
+52	8752	csel	csellel cselt
+53	8753	hess	
+54	8754	kiürül	kiürült kiürültek
+55	8755	igazgatóhelyettes	igazgatóhelyettesnek igazgatóhelyettessel igazgatóhelyettest
+56	8756	tizenkettő	tizenkettőt
+57	8757	bejelentkezés	bejelentkezést
+58	8758	járható	
+59	8759	fája	fájának fájáról fáját fájától
+60	8760	heg	hegek hegeket hegekkel heget
+61	8761	hangerő	hangerőből hangerőn hangerőt hangerővel
+62	8762	vám	vámnál vámon vámot
+63	8763	kegyelme	kegyelmébe kegyelmében kegyelméből kegyelmére kegyelmét kegyelmével kegyelméért
+64	8764	gépészmérnök	
+65	8765	forgalmaz	forgalmazott forgalmazza
+66	8766	addigi	
+67	8767	fütyül	fütyülnek fütyülni fütyülsz fütyült fütyültek fütyültem fütyülés fütyülök fütyülünk fütyülő
+68	8768	műalkotás	műalkotások műalkotásokat műalkotást
+69	8769	másmilyen	másmilyenek másmilyennek
+70	8770	befizet	befizetek befizetem befizetett befizetni befizette befizetted befizettem
+71	8771	nyelvem	nyelvemen nyelvemet nyelvemmel nyelvemre
+72	8772	nyomda	nyomdába nyomdában nyomdából nyomdát
+73	8773	ismertető	ismertetőt
+74	8774	jogtalan	jogtalanul
+75	8775	lovaglás	lovagláshoz lovaglásra lovaglást
+76	8776	akusztikus	
+77	8777	napszemüveg	napszemüvegben napszemüveget
+78	8778	dereka	derekán derekára derekát
+79	8779	eltávolítás	eltávolítása eltávolításra eltávolítást
+80	8780	úgymond	
+81	8781	népes	legnépesebb
+82	8782	terhelés	terhelést
+83	8783	részeges	részegesek részegesnek
+84	8784	hapsi	hapsik hapsikat hapsinak hapsit hapsival
+85	8785	csótány	csótánnyal csótányok csótányokat csótányokkal csótányt
+86	8786	bárka	bárkán bárkára bárkáról bárkát
+87	8787	koncentrált	koncentráltak
+88	8788	északkeleti	
+89	8789	homlokzat	homlokzata homlokzatán
+90	8790	székesfehérvári	
+91	8791	távolléte	távollétében távollétét
+92	8792	kibővít	kibővítem kibővíteni kibővített kibővítettem kibővítjük
+93	8793	blogger	bloggerek
+94	8794	ugat	ugasson ugatnak ugatni ugatok ugatott ugatsz ugatás ugatást ugató
+95	8795	visszavág	visszavágjak visszavágjon visszavágjunk visszavágnak visszavágni visszavágok visszavágott visszavágsz visszavágtam visszavágunk
+96	8796	holdfény	holdfényben holdfénynél holdfényt
+97	8797	számai	számait számaival
+98	8798	hátulja	hátuljából hátulján
+99	8799	látogatható	
+100	8800	íj	íjakat íjat íjjal

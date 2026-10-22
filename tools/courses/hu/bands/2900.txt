@@ -1,0 +1,100 @@
+1	2801	külföldön	
+2	2802	láng	lángba lángban lánggal lángja lángok lángokat lángokba lángokban lángokkal lángokon lángon lángot lángra
+3	2803	elkésik	elkések elkésel elkésett elkésnek elkésni elkéssünk elkéstek elkéstem elkéstetek elkéstél elkéstünk elkésünk
+4	2804	rakás	rakáson rakással rakást
+5	2805	megkezd	megkezdem megkezdeni megkezdett megkezdheti megkezdhetik megkezdhetjük megkezdi megkezdik megkezdjék megkezdjük megkezdte megkezdtem megkezdték megkezdtük megkezdve
+6	2806	jelenléte	jelenlétében jelenlétének jelenlétére jelenlétéről jelenlétét jelenlététől jelenlétével
+7	2807	rejtett	rejtettek
+8	2808	dráma	drámába drámában drámából drámához drámák drámákat drámának drámára drámáról drámát drámával
+9	2809	szorul	szorulna szorulnak szorulni szorulok szorulsz szorult szorultak szorultam szorultunk szorultál szorulunk szorulva szoruló
+10	2810	takarít	takarítanak takarítani takarítania takarítanod takarítanom takarítanunk takarítasz takaríthat takaríthatok takarítja takarítjuk takarítják takarítod takarítok takarítom takarított takarította takarítottad takarítottak takarítottam takarítottunk takarították takarítottál takarítsa takarítsak takarítsam takarítsanak takarítsatok takarítson takarítsuk takarítsunk takarítsák takarítsátok takarítunk takarítva takarítás
+11	2811	kerek	kerekek kerekeken kerekeket kerekekkel kerekekre kereken kereket
+12	2812	műve	művében művéből művének művét
+13	2813	íze	ízében ízére ízét ízével
+14	2814	mindenütt	
+15	2815	igényel	igényelne igényelnek igényelni igényelt igényelte igényeltem igényli igénylik igénylő
+16	2816	művelet	műveletbe műveletben műveletek műveleteket műveletekhez műveleten műveletet művelethez műveletnek műveletre műveletről művelettel
+17	2817	határozat	határozatban határozatok határozatot határozattal
+18	2818	tünet	tünete tüneteit tünetek tüneteket tünetekkel tünetekre tünetet
+19	2819	esküvői	
+20	2820	lecke	leckében leckéből leckéjét leckék leckéket leckékre leckének leckére leckét leckével
+21	2821	tanulás	tanulásba tanulásban tanulásból tanuláshoz tanulásnak tanulásra tanulásról tanulással tanulást
+22	2822	királyság	királyságba királyságban királyságból királysággal királysághoz királyságnak királyságok királyságot királyságra királyságért
+23	2823	talaj	talajba talajban talajból talajhoz talajjal talajnak talajok talajon talajra talajt
+24	2824	csaknem	
+25	2825	nyilatkozik	nyilatkozhatok nyilatkozna nyilatkoznak nyilatkozni nyilatkoznia nyilatkozol nyilatkozom nyilatkozott nyilatkozta nyilatkoztak nyilatkoztam nyilatkozunk nyilatkozzon
+26	2826	alakja	alakjában alakjának alakjára alakját alakjával
+27	2827	szigorú	legszigorúbb szigorúak szigorúbb szigorúnak
+28	2828	kritika	kritikák kritikákat kritikán kritikának kritikára kritikát kritikával
+29	2829	szavazás	szavazáshoz szavazásig szavazásnak szavazásnál szavazáson szavazásra szavazásról szavazással szavazást
+30	2830	poszt	posztban posztjára posztok posztokat poszton posztot posztra posztról posztért
+31	2831	alku	alkuba alkuban alkuból alkuhoz alkuk alkukat alkun alkunak alkura alkuról alkut alkuval
+32	2832	puha	legpuhább puhább puhák puhán puhának puhára puhát
+33	2833	elegáns	elegánsabb elegánsak elegánsat elegánsnak legelegánsabb
+34	2834	bármely	
+35	2835	felmegy	felmegyek felmegyünk felmehet felmehetek felmehetnék felmehetnénk felmehetsz felmehetünk felmenjek felmenjen felmenjünk felmenne felmenned felmennek felmennem felmenni felmennék felmennél felmennénk felmennünk felment felmentek felmentem felmentette felmentél felmentünk felmész fölment
+36	2836	helyed	helyedbe helyedben helyeden helyedet helyedre helyedről
+37	2837	óriás	óriásnak óriások óriásokat óriásokkal óriásoknak óriással óriássá óriást
+38	2838	barátaid	barátaidat barátaidban barátaiddal barátaidhoz barátaidnak barátaidon barátaidra barátaidról barátaidtól barátaidért
+39	2839	uniós	
+40	2840	mennyiség	mennyiségben mennyiségek mennyiséget mennyiséggel mennyiségre mennyiségről
+41	2841	jé	jén jének jét jétől jével jéé
+42	2842	metró	metróba metróban metróból metróhoz metróig metrón metrónál metróra metróról metrót metróval
+43	2843	szörnyeteg	szörnyetegek szörnyetegeket szörnyetegekkel szörnyetegeknek szörnyeteget szörnyeteggel szörnyeteggé szörnyeteghez szörnyetegként szörnyetegnek szörnyetegre szörnyetegről szörnyetegtől
+44	2844	merül	merülhet merüljön merüljünk merülne merülnek merülni merülsz merült merültek merültem merültél merültünk merülve merülés merülök merülünk merülő
+45	2845	említette	
+46	2846	terep	terepen terepet terepre terepről
+47	2847	megvizsgál	megvizsgálhassam megvizsgálhassuk megvizsgálhatjuk megvizsgálhatnám megvizsgálhatnánk megvizsgálhatom megvizsgálja megvizsgáljam megvizsgáljanak megvizsgáljon megvizsgáljuk megvizsgálják megvizsgállak megvizsgálna megvizsgálnak megvizsgálni megvizsgálnom megvizsgálnunk megvizsgálná megvizsgálnád megvizsgálnám megvizsgálnánk megvizsgálod megvizsgálom megvizsgált megvizsgálta megvizsgáltad megvizsgáltak megvizsgáltam megvizsgáltuk megvizsgáltunk megvizsgálták megvizsgálunk megvizsgálva
+48	2848	törzs	törzsbe törzsben törzsből törzse törzsek törzseket törzsekkel törzset törzshöz törzsnek törzsnél törzsre törzsről törzstől törzsön törzzsel
+49	2849	józan	józanabb józannak józanok józanon józanul legjózanabb
+50	2850	túlzás	túlzásba túlzásnak túlzások túlzásokba
+51	2851	iránti	
+52	2852	alagút	alagutak alagutakat alagutakba alagutakban alagutakon alagutakról alagutat alagútba alagútban alagútból alagúthoz alagútnak alagútnál alagúton alagútról alagúttal
+53	2853	azonnali	
+54	2854	zseni	zsenik zseniket zseniknek zseninek zsenit zsenivel
+55	2855	gondja	gondját
+56	2856	menny	mennybe mennyben mennyből mennyek mennyekbe mennyekben mennyekből mennyeket mennyekig mennyeknek mennyen mennyet mennynek mennyre mennyről mennyé
+57	2857	ellenőrzés	ellenőrzések ellenőrzéseket ellenőrzésen ellenőrzéshez ellenőrzésnek ellenőrzésnél ellenőrzésre ellenőrzésről ellenőrzéssel ellenőrzést ellenőrzéstől
+58	2858	szilárd	szilárdabb szilárdak szilárdan szilárdat szilárdnak
+59	2859	heves	hevesebb hevesebben hevesek hevesen hevesnek leghevesebb
+60	2860	nadrág	nadrágba nadrágban nadrágból nadrággal nadrágját nadrágok nadrágokat nadrágom nadrágon nadrágot nadrágra
+61	2861	százados	századoshoz századosnak századosra századosról századossal századost
+62	2862	kocsim	kocsimat kocsimba kocsimban kocsimból kocsimhoz kocsimig kocsimmal kocsimnak kocsimnál kocsimon kocsimra kocsimról kocsimtól kocsimért
+63	2863	télen	
+64	2864	ellenfél	ellenfelei ellenfelek ellenfeleket ellenfelekkel ellenfelet ellenféllel ellenfélnek ellenfélre
+65	2865	euró	euróba euróban eurót euróval euróért
+66	2866	készlet	készletben készletből készletek készleteket készleten készletet készlettel készletét
+67	2867	hónapos	hónaposak
+68	2868	szerezte	
+69	2869	hárman	
+70	2870	nevezet	nevezett
+71	2871	világszerte	
+72	2872	nyúlik	nyúlhat nyúlhatnak nyúlhatok nyúlhatunk nyúlj nyúlja nyúljak nyúljanak nyúljatok nyúljon nyúljunk nyúlni nyúlnia nyúlnom nyúlnunk nyúlnék nyúlok nyúlsz nyúlt nyúltak nyúltok nyúltunk nyúlunk nyúló
+73	2873	húg	húga húgodnak húgának húgára húgát húgával
+74	2874	felbukkan	felbukkanhat felbukkanjon felbukkanna felbukkannak felbukkanni felbukkanok felbukkansz felbukkant felbukkantak felbukkantam felbukkantál felbukkanunk felbukkanó
+75	2875	megállapít	megállapítani megállapíthatjuk megállapíthatom megállapítható megállapítja megállapítjuk megállapítják megállapítom megállapított megállapította megállapítottam megállapítottuk megállapították megállapítsa megállapítsam megállapítsuk megállapítsák megállapítás megállapításra megállapítást
+76	2876	tartalom	tartalmak tartalmakat tartalmat tartalommal
+77	2877	kifejezetten	
+78	2878	szakember	szakembere szakemberek szakembereket szakemberhez szakembernek szakemberre szakemberrel szakembert
+79	2879	vitamin	vitaminnal vitaminok vitaminokat vitaminokkal vitamint
+80	2880	támadó	támadók támadókat támadókkal támadónak támadóra támadóról támadót támadótól támadóval
+81	2881	konkrét	konkrétabb konkrétat
+82	2882	térd	térdből térddel térde térdei térdek térdeket térdem térden térdet térdig térdre térdén térdére térdét
+83	2883	felrobbant	felrobbantak felrobbantanak felrobbantani felrobbantaná felrobbantasz felrobbanthatja felrobbanthatjuk felrobbantja felrobbantjuk felrobbantják felrobbantod felrobbantok felrobbantom felrobbantott felrobbantotta felrobbantottad felrobbantottak felrobbantottam felrobbantottuk felrobbantották felrobbantottál felrobbantsa felrobbantsam felrobbantson felrobbantsuk felrobbantsák felrobbantunk
+84	2884	leírás	leírásban leírásnak leírások leírásokat leírásra leírással leírást
+85	2885	meggyilkol	meggyilkolja meggyilkolják meggyilkolnak meggyilkolni meggyilkolt meggyilkolta meggyilkoltad meggyilkoltak meggyilkoltam meggyilkolták meggyilkoltál meggyilkolva
+86	2886	kiment	kimentek kimentelek kimentem kimenteni kimentett kimentette kimentetted kimentettek kimentettelek kimentettem kimentették kimentettél kimentettük kimenti kimentjük kimentse kimentsen kimentsük kimentél kimentünk
+87	2887	lemegy	lemegyek lemegyünk lemehet lemehetek lemehetnénk lemehetsz lemehetünk lemenjek lemenjen lemenjünk lemenne lemennek lemennem lemenni lemennék lemennél lemennénk lemennünk lement lementek lementem lementél lementünk lemenő lemész
+88	2888	székely	székelyek
+89	2889	póló	pólóban pólók pólókat pólókkal pólón pólóra pólót pólóval
+90	2890	repülőtér	repülőterek repülőtereken repülőtereket repülőteret repülőtéren repülőtérig repülőtérre repülőtérről repülőtértől
+91	2891	szovjet	szovjetek szovjeteket szovjetekkel szovjeteknek
+92	2892	díja	díjának díjára díját
+93	2893	irodalmi	
+94	2894	só	sóban sóból sók sóra sót sóval
+95	2895	szörnyen	
+96	2896	helikopter	helikopterbe helikopterben helikopterből helikoptere helikopterek helikoptereket helikopterekkel helikopteren helikopterhez helikopternek helikopterre helikopterrel helikopterről helikoptert
+97	2897	nyelve	nyelvén nyelvének nyelvére nyelvét nyelvével
+98	2898	egyedülálló	egyedülállóak egyedülállók egyedülállónak
+99	2899	lemarad	lemaradjak lemaradjon lemaradnak lemaradni lemaradok lemaradsz lemaradt lemaradtak lemaradtam lemaradtatok lemaradtok lemaradtunk lemaradtál lemaradunk lemaradva
+100	2900	pezsgő	pezsgőbe pezsgőben pezsgőből pezsgőhöz pezsgőre pezsgőt pezsgőtől pezsgővel pezsgőért

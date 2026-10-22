@@ -1,0 +1,100 @@
+1	5501	nőstény	nősténnyel nőstények nőstényeket nősténynek nőstényt
+2	5502	sugall	sugallja sugallják sugallnak sugallni sugallná sugallt sugallta sugalltam sugallták
+3	5503	rokona	rokonának rokonát rokonával
+4	5504	fűt	fűteni fűthető fűti fűtve fűtés fűtéssel fűtést fűtött fűtő
+5	5505	bajor	bajornak bajoron bajorra bajorról bajort
+6	5506	pásztor	pásztornak pásztorok pásztort
+7	5507	közvetítés	közvetítése közvetítést közvetítését közvetítésével
+8	5508	megesik	megesett
+9	5509	diplomáciai	
+10	5510	felmond	felmondani felmondasz felmondja felmondjak felmondok felmondom felmondott felmondta felmondtak felmondtam felmondták felmondtál felmondó
+11	5511	tárca	tárcában tárcája tárcák tárcákat tárcát
+12	5512	filozófia	filozófiából filozófiáról filozófiát filozófiával
+13	5513	telhető	telhetőt
+14	5514	tiszteletem	tiszteletemet tiszteletemre
+15	5515	felügyel	felügyeled felügyelek felügyeli felügyelik felügyeljek felügyeljen felügyeljük felügyelned felügyelnek felügyelnem felügyelni felügyelnie felügyelsz felügyelt felügyeltem
+16	5516	bűnözés	bűnözésben bűnözéshez bűnözésnek bűnözésre bűnözésről bűnözéssel bűnözést bűnözéstől
+17	5517	világegyetem	világegyetemben világegyetemet világegyetemnek világegyetemről
+18	5518	bírság	bírsággal bírságok bírságokat bírságot
+19	5519	levente	
+20	5520	rendezése	rendezésében rendezésére rendezését
+21	5521	gyülekezet	gyülekezetbe gyülekezetben gyülekezetből gyülekezetek gyülekezetet gyülekezethez gyülekezetnek
+22	5522	elérkezik	elérkezett elérkeztem elérkeztünk elérkezünk
+23	5523	munkahelyi	
+24	5524	inspirál	inspirálja inspirálnak inspirálni inspirálsz inspirált inspiráltak inspiráltam inspirálták inspiráltál inspiráló
+25	5525	teljesül	teljesülhet teljesüljön teljesülne teljesülnek teljesülni teljesült teljesültek
+26	5526	háborúja	háborújában háborújához háborújának háborúját
+27	5527	folyékony	folyékonnyá
+28	5528	elhagyatott	elhagyatottak elhagyatottnak
+29	5529	sugároz	sugároznak sugározni sugároznunk sugározta sugároztak sugározták sugározva sugározza sugározzanak sugározzon sugározzuk sugározzák sugárzol
+30	5530	babám	babámat babámmal babámnak
+31	5531	légitársaság	légitársasággal légitársaságnak légitársaságnál légitársaságok légitársaságot légitársaságtól
+32	5532	birtokol	birtokló birtokolja birtokoljuk birtokolják birtokolnak birtokolni birtokolsz birtokolt birtokolta
+33	5533	bejutott	bejutottam bejutottunk
+34	5534	kölcsönöz	kölcsönzök kölcsönzött kölcsönzünk kölcsönző kölcsönzőbe kölcsönzőből kölcsönöznek kölcsönözni kölcsönözte kölcsönöztek kölcsönöztem
+35	5535	koordináta	koordináták koordinátákat koordinátákhoz koordinátákkal koordinátákon koordinátákra koordinátát
+36	5536	előállít	előállítani előállított előállítva előállító
+37	5537	hozzáfér	hozzáférek hozzáférhessen hozzáférhet hozzáférhetek hozzáférhetett hozzáférhetnek hozzáférhetsz hozzáférhettek hozzáférhetünk hozzáférjek hozzáférjen hozzáférjenek hozzáférjünk hozzáférnek hozzáférnem hozzáférni hozzáférnünk hozzáférsz hozzáfért hozzáfértek hozzáfértem hozzáférünk
+38	5538	építmény	építmények építményeket építményt
+39	5539	kilométeres	km-es
+40	5540	teremtés	teremtések teremtésnek teremtéssel teremtést
+41	5541	tüntetés	tüntetések tüntetéseket tüntetésen tüntetésre tüntetésről tüntetést
+42	5542	kivan	kilétét kivagy kivagyok kivannak kivolt kivoltam
+43	5543	őrs	őrsnek őrsre őrsről őrsön őrsöt
+44	5544	radikális	radikálisabb radikálisok
+45	5545	misztikus	
+46	5546	televíziós	
+47	5547	agyi	
+48	5548	állomány	állományba állományban állományok állományt
+49	5549	közismert	közismerten
+50	5550	prémium	prémiumot
+51	5551	szökött	
+52	5552	bukott	
+53	5553	munkássága	munkásságának munkásságáról munkásságát
+54	5554	szabadsága	szabadságának szabadságára szabadságáról szabadságát szabadságától szabadságáért
+55	5555	kisváros	kisvárosba kisvárosban kisvárosból kisvárosok kisvárosokban kisvárost
+56	5556	kutyus	kutyusnak kutyusok kutyusokat kutyussal kutyust
+57	5557	antik	
+58	5558	jobboldali	
+59	5559	megbízása	megbízásából megbízását
+60	5560	igazolvány	igazolvánnyal igazolványa igazolványok igazolványokat igazolványra igazolványt igazolványát
+61	5561	fenntartása	fenntartásában fenntartásához fenntartásának fenntartására fenntartását fenntartásáért
+62	5562	gazdája	gazdájához gazdájának gazdáját gazdájával
+63	5563	üdítő	üdítők üdítőket üdítőnek üdítőre üdítőt üdítővel üdítőért
+64	5564	bérleti	
+65	5565	üdvözöllek	
+66	5566	portré	portrék portrékat portrét
+67	5567	kong	konga kongnak kongok kongó kongóba kongóban
+68	5568	álmai	álmaiba álmaiban álmainak álmaira álmairól álmait álmaival
+69	5569	ironikus	ironikusnak
+70	5570	vadállat	vadállatnak vadállatok vadállatokat vadállatokkal vadállatoknak vadállatot vadállattal vadállattá
+71	5571	megszervez	megszervezed megszervezek megszervezem megszervezett megszervezi megszervezni megszervezte megszervezted megszerveztem megszervezték megszerveztük megszerveztünk megszervezve megszervezze megszervezzem megszervezzük
+72	5572	kihalt	kihaltak kihaltnak
+73	5573	avat	avassa avassalak avasson avassuk avatja avatjuk avatják avatnak avatni avatnunk avatott avatsz avatta avattak avattalak avattam avatták avattál avatunk avatás
+74	5574	kísérő	kísérők kísérőket kísérőként kísérőnek kísérőre kísérőt kísérővel
+75	5575	otthonod	otthonodat otthonodba otthonodban otthonodból otthonodhoz otthonodnak otthonodra otthonodtól
+76	5576	olyankor	
+77	5577	üdvözlet	üdvözletet üdvözlettel
+78	5578	szoknya	szoknyában szoknyáját szoknyák szoknyákat szoknyát szoknyával
+79	5579	eltelte	elteltével
+80	5580	mókus	mókusnak mókusok mókusokat mókusokkal mókusra mókussal mókust
+81	5581	lepedő	lepedőbe lepedők lepedőket lepedőkkel lepedőn lepedőre lepedőről lepedőt lepedővel lepedőért
+82	5582	karma	karmában karmának karmáról karmát karmával
+83	5583	szakadék	szakadékba szakadékban szakadékból szakadékhoz szakadéknál szakadékon szakadékot
+84	5584	támogatta	
+85	5585	kérdésed	kérdésedet kérdésedre
+86	5586	pláza	plázába plázában plázából plázák plázákban plázánál plázát
+87	5587	autóm	autómat autómba autómban autómból autómhoz autómmal autómnak autómra
+88	5588	önállóan	
+89	5589	úrnő	úrnőhöz úrnőnek úrnőt úrnőtől úrnővel
+90	5590	üzletel	üzletelek üzletelhetünk üzleteljek üzleteljen üzleteljünk üzletelnek üzletelnem üzletelni üzletelnék üzletelsz üzleteltem üzleteltél üzleteltünk üzletelünk
+91	5591	sisak	sisakban sisakkal sisakok sisakokat sisakot
+92	5592	feltehető	feltehetően
+93	5593	rúd	rudak rudakat rudakkal rudat rúddal rúdhoz rúdon rúdra
+94	5594	mérnöki	
+95	5595	alkalmazkodik	alkalmazkodjon alkalmazkodnak alkalmazkodni alkalmazkodnia alkalmazkodniuk alkalmazkodnod alkalmazkodnom alkalmazkodnunk alkalmazkodott alkalmazkodsz alkalmazkodtak alkalmazkodtam alkalmazkodunk alkalmazkodó
+96	5596	felajánlotta	
+97	5597	megkülönböztet	megkülönböztetett megkülönbözteti megkülönböztetni megkülönböztető
+98	5598	ellenkező	
+99	5599	extrém	extrémebb extrémen legextrémebb
+100	5600	őrző	őrzőbe őrzőben őrzői őrzők őrzőket őrzőnek őrzőt

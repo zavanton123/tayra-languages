@@ -1,0 +1,100 @@
+1	501	díj	díjak díjakat díjakkal díjat díjban díjból díjhoz díjjal díjnak díjra díjról díjért
+2	502	ár	árak árakat árakkal árakon árat árban árból árnak áron árral árról árt ártana ártanak ártani ártanál ártanának ártanék ártasz árthat árthatna árthatnak árthatok árthatott árthatsz ártok ártott ártottak ártottam ártottunk ártottál árts ártsak ártsanak ártsd ártson ártunk ártó árért
+3	503	női	nőit
+4	504	elkezd	elkezded elkezdek elkezdem elkezdene elkezdened elkezdenek elkezdeni elkezdené elkezdenéd elkezdenék elkezdenél elkezdeném elkezdenénk elkezdenünk elkezdesz elkezdett elkezdheted elkezdhetem elkezdheti elkezdhetjük elkezdhetnénk elkezdhetsz elkezdhetünk elkezdi elkezdik elkezdje elkezdjem elkezdjen elkezdjük elkezdte elkezdted elkezdtek elkezdtem elkezdtetek elkezdték elkezdtél elkezdtük elkezdtünk elkezdünk
+5	505	meglát	meglássa meglássam meglássanak meglásson meglássuk meglássák megláthatjuk megláthatnak megláthatod meglátja meglátjuk meglátják meglátjátok meglátlak meglátna meglátnak meglátni meglátná meglátnád meglátnák meglátnám meglátnának meglátnánk meglátod meglátok meglátom meglátott meglátsz meglátta megláttad megláttak megláttalak megláttam megláttuk megláttunk meglátták megláttál meglátunk meglátás
+6	506	mindjárt	
+7	507	kutya	kutyaként kutyába kutyában kutyából kutyához kutyák kutyákat kutyákhoz kutyákkal kutyáknak kutyáknál kutyákon kutyákra kutyákról kutyáktól kutyákért kutyán kutyának kutyánál kutyára kutyáról kutyát kutyától kutyául kutyával kutyává kutyáé kutyáért
+8	508	enyém	enyémbe enyémben enyémből enyémek enyémeket enyémekkel enyémeknek enyémekre enyémen enyémet enyémhez enyémmel enyémnek enyémnél enyémre enyémről enyémtől enyémért
+9	509	harmadik	harmadikat harmadikba harmadikban harmadikhoz harmadikkal harmadikként harmadiknak harmadiknál harmadikok harmadikon harmadikra harmadikról
+10	510	állam	államat államba államban államból államhoz állammal államnak államok államokat államokba államokban államokból államokhoz államokkal államoknak államokon államokra államon államot államra államról államtól államé
+11	511	figyelem	figyelembe figyelemmel figyelemre figyelemért figyelmen figyelmet
+12	512	kiderül	kiderít kideríted kiderítek kiderítem kiderítened kiderítenem kideríteni kiderítenie kiderítené kiderítenéd kiderítenünk kiderített kiderítette kiderítetted kiderítettek kiderítettem kiderítettél kiderítettük kiderítettünk kiderítheted kideríthetem kiderítheti kideríthetjük kideríthetnénk kideríti kiderítik kiderítjük kiderítse kiderítsem kiderítsék kiderítsük kiderítünk kiderülhet kiderüljön kiderülne kiderülnek kiderülni kiderült kiderültek
+13	513	szerepel	szerepelek szerepelhetek szerepeljek szerepeljen szerepeljenek szerepelne szerepelned szerepelnek szerepelnem szerepelni szerepelnie szerepelnék szerepelnél szerepelsz szerepelt szerepeltek szerepeltem szerepeltél szerepeltünk szerepelünk szereplő szereplők szereplőket szereplőkkel szereplőknek szereplőnek szereplőt szereplővel
+14	514	sorozat	sorozatba sorozatban sorozatból sorozathoz sorozatnak sorozatok sorozatokat sorozatokban sorozaton sorozatot sorozatra sorozatról sorozattal
+15	515	tanul	tanuld tanulhat tanulhatna tanulhatnál tanulhatnánk tanulhatnék tanulhatok tanulhatsz tanulhatunk tanulj tanulja tanuljak tanuljanak tanuljatok tanuljon tanuljuk tanuljunk tanulják tanuljátok tanulna tanulnak tanulni tanulnál tanulnék tanulod tanulok tanulom tanulsz tanulta tanultad tanultak tanultam tanultatok tanultok tanultuk tanultunk tanulták tanultál tanulunk
+16	516	kettő	kettőbe kettőben kettőből kettőhöz kettőig kettőn kettőnek kettőnél kettőre kettőről kettőt kettőtől kettővel kettőért
+17	517	helló	
+18	518	hamarosan	
+19	519	cég	cégbe cégben cégből cégek cégeket cégekhez cégekkel cégeknek cégeknél cégekről cégektől cégen céget céggel céghez cégnek cégnél cégre cégről cégtől cégé cégért
+20	520	éjjel	éjjelek éjjeleken éjjelen éjjelig éjjelre éjjelről éjjelt
+21	521	dal	dalba dalban dalból dalhoz dallal dalnak dalnál dalok dalokat dalokban dalokkal daloknak dalokra dalon dalra dalról dalt daltól dalért
+22	522	kör	körbe körben körből körhöz körig körnek körnél körre körrel körről kört körök körökbe körökben körökből köröket körökkel körön
+23	523	dob	dobban dobd dobhatjuk dobhatod dobhatom dobhatsz dobj dobja dobjak dobjam dobjanak dobjatok dobjon dobjuk dobjunk dobják dobjátok dobna dobnak dobni dobod dobok dobokat dobom dobot dobott dobra dobsz dobta dobtad dobtak dobtam dobtuk dobtunk dobták dobtál dobunk dobva dobó
+24	524	elnök	elnökhöz elnökkel elnökké elnökként elnöknek elnöknél elnökre elnökről elnöktől elnöké elnökért elnökök elnököket elnökön elnököt elnökünk
+25	525	sajnos	
+26	526	zavar	zavara zavarba zavarban zavarhat zavarhatja zavarhatom zavarj zavarja zavarjam zavarjanak zavarjatok zavarjon zavarjuk zavarják zavarjátok zavarna zavarnak zavarni zavarnom zavarná zavarnám zavarod zavarok zavarokat zavarom zavarral zavarsz zavart zavarta zavartak zavartam zavartan zavartnak zavartuk zavarták zavartál zavarunk zavarás zavaró
+27	527	bárki	bárkibe bárkiben bárkiből bárkihez bárkik bárkin bárkinek bárkinél bárkire bárkiről bárkit bárkitől bárkivel bárkivé bárkié bárkiért
+28	528	visszatér	visszatérek visszatérhessek visszatérhessen visszatérhessünk visszatérhetek visszatérhetett visszatérhetne visszatérhetnék visszatérhetnél visszatérhetnénk visszatérhetsz visszatérhettek visszatérhetünk visszatérjek visszatérjen visszatérjenek visszatérjünk visszatérne visszatérned visszatérnek visszatérnem visszatérni visszatérnie visszatérniük visszatérnék visszatérnél visszatérnének visszatérnénk visszatérnünk visszatérsz visszatért visszatértek visszatértem visszatértetek visszatértél visszatértünk visszatérve visszatérünk visszatérő
+29	529	különböző	különbözőek különbözők különbözőnek legkülönbözőbb
+30	530	elmúlt	elmúltak
+31	531	megkap	megkaphassa megkaphatja megkaphatjuk megkaphatják megkaphatná megkaphatnám megkaphatnánk megkaphatod megkaphatok megkaphatsz megkaphatta megkapja megkapjam megkapjon megkapjuk megkapják megkapjátok megkapnak megkapni megkapnia megkapnom megkapná megkapnád megkapnám megkapod megkapok megkapom megkapott megkapsz megkapta megkaptad megkaptam megkaptuk megkaptunk megkapták megkaptál megkaptátok megkapunk megkapó
+32	532	meleg	legmelegebb melegbe melegben melegebb melegek melegeket melegekkel melegeknek melegekről melegen meleget meleggel meleggé melegként melegnek melegre melegtől
+33	533	módon	
+34	534	program	programba programban programból programhoz programmal programnak programok programokat programokban programokkal programokra programon programot programra programról programtól programért
+35	535	vagyis	
+36	536	sír	sírba sírban sírból sírhatsz sírig sírj sírja sírjak sírjatok sírjon sírjában sírjából sírjához sírjál sírjánál sírjára sírját sírna sírnak sírni sírnod sírnom sírnál sírnék sírok sírokat sírom síron sírsz sírt sírtak sírtam sírtunk sírtál sírunk sírva sírás sírást síró
+37	537	kösz	
+38	538	cím	címben címek címeket címekkel címekre címemet címen címet címhez címmel címnek címre címről címtől címért
+39	539	hazudik	hazudhat hazudhatnak hazudhatnék hazudhatok hazudhatott hazudhatsz hazudhattál hazudhatunk hazudj hazudja hazudjak hazudjanak hazudjatok hazudjon hazudjunk hazudna hazudnak hazudni hazudnia hazudniuk hazudnod hazudnom hazudnunk hazudnál hazudnának hazudnánk hazudok hazudom hazudott hazudsz hazudta hazudtad hazudtak hazudtam hazudtatok hazudtok hazudtunk hazudtál hazudunk
+40	540	húz	húzatva húzd húzhat húzhatja húzhatjuk húzhatod húzhatom húzna húznak húzni húzná húznám húzod húzok húzol húzom húztad húztak húztam húztok húztuk húztunk húzták húztál húzunk húzva húzz húzza húzzak húzzam húzzanak húzzatok húzzon húzzuk húzzunk húzzák húzzátok húzás húzó
+41	541	látszik	látszana látszanak látszani látszania látszanod látszanom látszok látszol látszom látszotok látszott látszottak látszottam látszottál látszunk látszó látszódik
+42	542	épület	épületbe épületben épületből épületeinek épületek épületekbe épületekben épületekből épületeken épületeket épületekkel épületeknek épületekre épületekről épületen épületet épülethez épületnek épületnél épületre épületről épülettel épülettől
+43	543	rengeteg	rengetegbe rengetegben rengetegen rengeteget rengeteggel
+44	544	terv	tervbe tervben tervek tervekben terveken terveket tervekhez tervekkel terveknek tervekre tervekről terven tervet tervhez tervnek tervnél tervre tervről tervtől tervvel
+45	545	esetleg	
+46	546	bocsánat	bocsánatot bocsánattal bocsánatért
+47	547	törvény	törvénnyel törvénybe törvényben törvényből törvényei törvényeiket törvényeit törvények törvényeket törvényekhez törvényekkel törvényeknek törvényekre törvényekről törvényen törvényhez törvénynek törvényre törvényről törvényt törvénytől törvényünk
+48	548	hasonló	hasonlóak hasonlóakat hasonlóban hasonlók hasonlókat hasonlókkal hasonlóknak hasonlókon hasonlókra hasonlókról hasonlóktól hasonlón hasonlónak hasonlóra hasonlóról hasonlót hasonlóval hasonlóvá
+49	549	információ	információhoz információink információk információkat információkból információkhoz információkkal információknak információkra információkról információkért információnak információnk információra információról információt információval információért
+50	550	furcsa	furcsább furcsábban furcsák furcsákat furcsán furcsának furcsára furcsát furcsává legfurcsább
+51	551	található	találhatóak találhatók
+52	552	orosz	orosszal orosznak oroszok oroszokat oroszokhoz oroszokkal oroszoknak oroszoknál oroszokra oroszokról oroszoktól oroszt oroszul
+53	553	személy	személlyel személlyé személybe személyben személyből személyek személyeket személyekhez személyekkel személyeknek személyeknél személyekre személyekről személyektől személyen személyhez személyként személynek személynél személyre személyről személyt személytől személyé személyért
+54	554	jaj	
+55	555	előtte	előtted előttem előttetek előttük előttünk őelőtte
+56	556	vicc	viccből viccek viccekből vicceken vicceket viccekkel viccekre viccel viccelek vicceljen vicceljetek viccelnek viccelni viccelnék viccelsz viccelt vicceltek vicceltem vicceltél vicceltünk viccelünk viccen viccet viccként viccnek viccre
+57	557	utál	utálhat utálhatja utálhatod utálhatsz utálja utáljalak utáljam utáljanak utáljatok utáljon utáljuk utálják utáljátok utálna utálnak utálni utálnod utálnom utálná utálnád utálnál utálnálak utálnám utálnék utálod utálok utálom utálsz utált utálta utáltad utáltak utáltalak utáltam utáltok utáltuk utálták utáltál utálunk
+58	558	ruha	ruhába ruhában ruhából ruhához ruhák ruhákat ruhákba ruhákban ruhákból ruhákhoz ruhákkal ruháknak ruhákon ruhákra ruhákról ruháktól ruhákért ruhán ruhának ruhára ruháról ruhát ruhától ruhával ruháért
+59	559	nevez	nevezed nevezek nevezel nevezem nevezheted nevezhetem nevezheti nevezhetjük nevezhetnénk nevezhetsz nevezi nevezik nevezitek nevezlek neveznek nevezni nevezné neveznéd neveznék nevezném nevezte nevezted neveztek neveztelek neveztem nevezték neveztél neveztük nevezve nevezz nevezze nevezzem nevezzen nevezzenek nevezzék nevezzük nevezünk nevező nevezőre
+60	560	dollár	dollárba dollárban dollárból dollárhoz dollárig dollárjuk dollárjába dollárnak dollárnál dollárok dollárokat dolláron dollárra dollárral dollárról dollárt dollártól dollárért
+61	561	kíván	kívánd kívánhat kívánhatna kívánhatnék kívánhatok kívánhatsz kívánj kívánja kívánjak kívánjanak kívánjatok kívánjon kívánjuk kívánjunk kívánják kívánjátok kívánlak kívánna kívánnak kívánni kívánnod kívánná kívánnál kívánnám kívánnék kívánod kívánok kívánom kívánsz kívánt kívánta kívántad kívántak kívántam kívánták kívántál kívánunk kívánva kívánó
+62	562	kezdődik	kezdődhetett kezdődjenek kezdődjék kezdődjön kezdődne kezdődnek kezdődni kezdődnie kezdődtek kezdődött kezdődő kezdődően
+63	563	érzés	érzésben érzésből érzései érzéseiben érzéseidet érzéseik érzésein érzések érzéseket érzésekkel érzéseknek érzésekre érzésekről érzésektől érzésen érzéshez érzésnek érzésre érzésről érzéssel érzést érzéstől érzésért érzésük érzésünk
+64	564	zene	zenébe zenében zenéből zenéhez zenék zenéket zenén zenének zenére zenéről zenét zenétől zenével zenéért
+65	565	valójában	
+66	566	csoport	csoportba csoportban csoportból csoporthoz csoportjai csoportként csoportnak csoportnál csoportok csoportokat csoportokba csoportokban csoportokhoz csoportokkal csoportoknak csoportokra csoportokról csoportomat csoporton csoportot csoportra csoportról csoporttal csoporttól csoporté
+67	567	lehetséges	lehetségesek lehetségesnek lehetségessé lehetségest
+68	568	egyébként	
+69	569	erő	erei ereit erejük erejüket erőbe erőben erőből erőhöz erői erőit erők erőkben erőket erőkhöz erőkkel erőknek erőknél erőkre erőkről erőktől erőmet erőn erőnek erőnél erőre erőről erőt erőtől erővel erővé erőért
+70	570	ezelőtt	
+71	571	igazából	
+72	572	szükség	szükségben szükségből szükséget szükségük
+73	573	csodálatos	csodálatosabb csodálatosak csodálatosat csodálatosnak csodálatossá legcsodálatosabb
+74	574	eredmény	eredménnyel eredmények eredményekben eredményeket eredményekhez eredményekkel eredményekre eredményekről eredményeképp eredményeképpen eredményekért eredményhez eredménynek eredményre eredményről eredményt eredménytől eredményért
+75	575	nyit	nyisd nyiss nyissa nyissak nyissam nyissanak nyissatok nyisson nyissuk nyissunk nyissák nyissátok nyithat nyithatja nyithatom nyitható nyitja nyitjuk nyitják nyitnak nyitni nyitnia nyitnod nyitnom nyitnunk nyitod nyitok nyitom nyitotta nyitottad nyitottak nyitottam nyitottuk nyitottunk nyitották nyitottál nyitsz nyitunk nyitó
+76	576	általában	
+77	577	fa	fába fában fából fához fák fákat fákban fákból fákhoz fákkal fáknak fáknál fákon fákra fákról fáktól fán fának fánál fára fáról fát fától fával fává fáért
+78	578	megmond	megmondalak megmondani megmondania megmondanod megmondanom megmondaná megmondanád megmondanák megmondanám megmondanátok megmondhatja megmondhatjuk megmondhatják megmondhatnád megmondhatnám megmondhatok megmondhatom megmondhatta megmondhattad megmondhattam megmondja megmondjam megmondjuk megmondják megmondjátok megmondod megmondok megmondom megmondta megmondtad megmondtam megmondtuk megmondták megmondva
+79	579	kórház	kórházak kórházakat kórházakba kórházakban kórházakból kórházakkal kórházaknak kórházaktól kórházat kórházba kórházban kórházból kórházhoz kórházig kórháznak kórháznál kórházon kórházra kórházról kórháztól kórházzal kórházát
+80	580	száll	szállhat szállhatnak szállhatok szállhatott szállhatsz szállhatunk szállj szálljak szálljanak szálljatok szálljon szálljunk szállna szállnak szállni szállnia szállniuk szállnod szállnom szállnunk szállnál szállnék szállok szállsz szállt szálltak szálltam szálltatok szálltok szálltunk szálltál szállunk szállva szálló szállóba szállóban szállón szállóra szállót
+81	581	helyi	helyiek helyieket helyiekkel helyieknek helyiektől helyinek helyit
+82	582	körül	
+83	583	állat	állatból állathoz állatként állatnak állatnál állatok állatokat állatokban állatokból állatokhoz állatokkal állatokká állatokként állatoknak állatoknál állatokon állatokra állatokról állatoktól állatokért állaton állatot állatra állatról állattal állattá állattól állaté
+84	584	elfelejt	elfelejted elfelejtek elfelejtem elfelejtened elfelejtenek elfelejtenem elfelejteni elfelejtené elfelejtenéd elfelejtenék elfelejteném elfelejtenénk elfelejtenünk elfelejtesz elfelejtett elfelejtette elfelejtetted elfelejtettek elfelejtettelek elfelejtettem elfelejtették elfelejtettétek elfelejtettük elfelejtettünk elfelejtheted elfelejthetem elfelejtheti elfelejthetjük elfelejthetnénk elfelejti elfelejtik elfelejtitek elfelejtjük elfelejtse elfelejtsem elfelejtsék elfelejtsük elfelejtve elfelejtünk
+85	585	öreg	legöregebb öregebb öregebbek öregebbnek öregek öregeket öregekkel öregeknek öregekre öregen öreget öreggel öregnek öregre öregről öregtől
+86	586	fáj	fájhat fájhatott fájjon fájna fájnak fájni fájnia fájt fájtak fájó fájón legfájóbb
+87	587	amint	
+88	588	valaha	
+89	589	magunk	magunkat magunkba magunkban magunkból magunkhoz magunkkal magunknak magunknál magunkon magunkra magunkról magunktól magunkért
+90	590	gyakran	gyakrabban leggyakrabban
+91	591	ám	
+92	592	kapitány	kapitánnyal kapitánnyá kapitánya kapitányban kapitányhoz kapitányként kapitánynak kapitánynál kapitányok kapitányon kapitányra kapitányról kapitányt kapitánytól kapitányé kapitányért
+93	593	hány	hánnyal hányat hányd hányj hányja hányjak hányjon hánykor hánynak hányni hánynia hánynod hánynom hánynál hánynék hányok hányom hányra hánysz hányt hányta hánytam hánytál hányunk hányva hányó
+94	594	közös	közösbe közösek közöset
+95	595	alap	alapba alapban alapból alaphoz alapja alapjan alapjába alapjában alapjának alapját alapjául alapnak alapnál alapok alapokat alapokhoz alapokig alapokkal alapoknál alapokon alapokra alapoktól alapon alapot alappal alapra alapszik alapul alapulnak alapult alapulva alapuló
+96	596	aha	
+97	597	édes	legédesebb édesebb édesek édesen édeset édesnek édesre
+98	598	megtud	megtudhatja megtudhatjuk megtudhatnám megtudhatnánk megtudhatod megtudhatom megtudhatunk megtudja megtudjak megtudjam megtudjuk megtudjunk megtudják megtudjátok megtudnak megtudni megtudnia megtudniuk megtudnod megtudnom megtudnunk megtudná megtudnád megtudnák megtudnám megtudnánk megtudod megtudok megtudom megtudott megtudsz megtudta megtudtad megtudtam megtudtuk megtudtunk megtudták megtudtál megtudunk
+99	599	személyes	legszemélyesebb személyesebb személyesek személyesen személyeset személyesnek személyesre személyessé
+100	600	vezető	vezetőhöz vezetőink vezetőjüket vezetők vezetőket vezetőkkel vezetőknek vezetőkre vezetőként vezetőnek vezetőre vezetőről vezetőt vezetőtől vezetővel vezetővé

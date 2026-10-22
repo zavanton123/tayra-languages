@@ -1,0 +1,100 @@
+1	8101	mélységes	mélységesen
+2	8102	felelősségteljes	felelősségteljesebb felelősségteljesek felelősségteljesen felelősségteljesnek
+3	8103	jellemzője	
+4	8104	logó	logót logóval
+5	8105	felismerés	felismerésre felismerést
+6	8106	elhallgat	elhallgasson elhallgatnak elhallgatni elhallgatnál elhallgatok elhallgatott elhallgatsz elhallgatta elhallgattad elhallgattak elhallgattam elhallgattatta elhallgattál
+7	8107	páratartalom	páratartalmat
+8	8108	kendő	kendők kendőket kendőt kendővel
+9	8109	jóslat	jóslata jóslatai jóslatban jóslatok jóslatot
+10	8110	sirály	sirályok sirályokat sirályt
+11	8111	szomszédsága	szomszédságában
+12	8112	rábeszél	rábeszélem rábeszéli rábeszéljen rábeszélni rábeszélt rábeszélte rábeszélted rábeszéltek rábeszéltem rábeszéltél rábeszélés rábeszélő
+13	8113	sugárzik	sugárzok sugárzott sugárzunk
+14	8114	szívük	szívükbe szívükben szívüket szívükkel szívükre
+15	8115	érvel	érvelek érvelnek érvelni érvelsz érvelt érveltek érveltem érveltél érvelünk
+16	8116	kontroll	kontrollra kontrollt
+17	8117	pina	pinák pinát
+18	8118	western	westernt
+19	8119	forgalma	forgalmának forgalmát
+20	8120	hányinger	hányingert
+21	8121	félsziget	félszigeten félszigetet
+22	8122	jövedelme	jövedelmét
+23	8123	tartozék	tartozéka
+24	8124	precíz	precízebb precízek precízen precíznek
+25	8125	alakította	
+26	8126	homloka	homlokába homlokán homlokára homlokát
+27	8127	másfelől	
+28	8128	lidérc	lidércek lidérceket lidércekkel lidércet
+29	8129	lenéz	lenézed lenézek lenézel lenézem lenézett lenézi lenézik lenéznek lenézni lenézte lenéztek lenéztem lenéztél lenéző
+30	8130	hadjárat	hadjáratban hadjáratok hadjáratot hadjáratra
+31	8131	szeszélyes	szeszélyesek szeszélyesen
+32	8132	bajai	bajait
+33	8133	konvoj	konvojban konvojjal konvojok konvojt
+34	8134	matrac	matraccal matracok matracokat matracon matracot matracra
+35	8135	karcol	karcolja karcolt karcolta karcoltam karcolva karcolás
+36	8136	csapatmunka	csapatmunkának csapatmunkára csapatmunkáról csapatmunkát
+37	8137	úgyszintén	
+38	8138	részesedés	részesedéssel részesedést részesedésért
+39	8139	bűvös	
+40	8140	rendőrkapitányság	rendőrkapitányságon rendőrkapitányságot rendőrkapitányságra rendőrkapitányságról
+41	8141	kitűnően	
+42	8142	fogalmunk	
+43	8143	hangú	
+44	8144	időszakos	
+45	8145	sürget	sürgesse sürgetem sürgetett sürgeti sürgetik sürgetlek sürgetnek sürgetni sürgette sürgetés sürgető
+46	8146	ápolás	ápolása ápolásra ápolást
+47	8147	társkereső	társkeresőn
+48	8148	közlöny	közlönyben
+49	8149	búj	bújni bújnom
+50	8150	hentes	hentesek henteshez hentesnek hentesnél hentessel hentest hentestől
+51	8151	átível	átívelő
+52	8152	hallgatás	hallgatása hallgatáshoz hallgatásra hallgatással hallgatást hallgatását hallgatásért
+53	8153	bankkártya	bankkártyák bankkártyát bankkártyával
+54	8154	szolgáltatása	szolgáltatását
+55	8155	elmegyógyintézet	elmegyógyintézetbe elmegyógyintézetben elmegyógyintézetből elmegyógyintézetet
+56	8156	kértelek	
+57	8157	vénember	vénemberek vénembernek vénemberrel vénembert
+58	8158	bora	borából borán borára borát
+59	8159	tiszteleg	tisztelegjek tisztelegjen tisztelegjünk tisztelegnek tisztelegni tisztelegsz tisztelegve tisztelgek tisztelgett tisztelgés tisztelgünk
+60	8160	indítvány	indítványt
+61	8161	tűzoltóság	tűzoltóságnál tűzoltóságon tűzoltóságot tűzoltóságra tűzoltóságtól
+62	8162	akut	
+63	8163	pulcsi	pulcsiban pulcsik pulcsikat pulcsit
+64	8164	szigony	szigonnyal szigonyt
+65	8165	nagyanyám	nagyanyámat nagyanyámmal nagyanyámnak nagyanyámtól nagyanyámé
+66	8166	hazavisz	hazaviszem hazaviszik hazavitték
+67	8167	agyunk	agyunkat agyunkba agyunkban agyunkra
+68	8168	hindu	hinduk
+69	8169	képződik	képződnek képződött képződő
+70	8170	átalakítása	átalakítását átalakításával
+71	8171	erkölcs	erkölcsről erkölcsök erkölcsöt
+72	8172	fotói	fotóit fotóival
+73	8173	kedvesség	kedvességből kedvességet kedvességgel kedvességnek kedvességre
+74	8174	litván	
+75	8175	sugárút	sugárútra
+76	8176	gyökeres	gyökeresen gyökerestől
+77	8177	rubin	rubinok rubint
+78	8178	párduc	párducok párducokat párducoknak párducot
+79	8179	csípő	csípőből csípője csípőjét csípőn csípőre csípőt csípővel
+80	8180	félbeszakít	félbeszakítalak félbeszakítanak félbeszakítani félbeszakítasz félbeszakíthatom félbeszakítja félbeszakítjuk félbeszakítom félbeszakított félbeszakította félbeszakítottad félbeszakítottak félbeszakítottalak félbeszakítottam félbeszakították félbeszakítottál
+81	8181	rejtvény	rejtvények rejtvényekben rejtvényeket rejtvényt
+82	8182	megrázó	
+83	8183	juh	juhok juhokat juhé
+84	8184	random	
+85	8185	szorgalmas	szorgalmasak
+86	8186	nászút	nászutat nászútnak nászúton nászútra nászútról
+87	8187	felszabadul	felszabadult
+88	8188	kérésem	kérésemet kérésemre
+89	8189	póni	póniban pónik pónikat pónin pónira pónit pónival
+90	8190	merénylő	merénylők merénylőket merénylőnek merénylőt
+91	8191	ürít	ürítem ürítenem üríteni ürítenie ürítenünk ürített ürítette ürítettem ürítették üríti ürítik ürítse ürítsék ürítsétek ürítsük
+92	8192	kockás	
+93	8193	kijavít	kijavítani kijavítja kijavítjuk kijavítják kijavítod kijavítom kijavított kijavította kijavítottad kijavítottam kijavítottuk kijavították kijavítsa kijavítsam kijavítsuk kijavítva
+94	8194	jelű	
+95	8195	üldözés	üldözésbe üldözésben üldözésre üldözéssel üldözést
+96	8196	pokolian	
+97	8197	mentálisan	
+98	8198	kutatói	
+99	8199	ránc	ráncba ráncok ráncokat ráncot
+100	8200	háromnegyed	

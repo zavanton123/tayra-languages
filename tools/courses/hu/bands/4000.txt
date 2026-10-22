@@ -1,0 +1,100 @@
+1	3901	muszlim	muszlimnak muszlimok muszlimokat muszlimokkal muszlimoknak muszlimot
+2	3902	addigra	
+3	3903	nyak	nyakat nyakba nyakban nyakig nyakkal nyaknál nyakon nyakra nyaktól
+4	3904	összefoglal	összefoglalja összefoglalni összefoglalom összefoglalta összefoglalás összefoglaló
+5	3905	felfüggeszt	felfüggesztelek felfüggesztem felfüggesztenek felfüggeszteni felfüggesztett felfüggesztette felfüggesztettek felfüggesztettem felfüggesztették felfüggesztettük felfüggeszti felfüggesztik felfüggesztjük felfüggesztve felfüggesztés felfüggesztését felfüggesztő
+6	3906	jeles	jelesre
+7	3907	közönséges	közönségesek közönségesen közönségesnek
+8	3908	drámai	drámaibb drámainak legdrámaibb
+9	3909	belegondol	belegondolnak belegondolni belegondolok belegondolsz belegondolt belegondoltam belegondoltok belegondoltál belegondolunk belegondolva
+10	3910	dán	dánok dánokat dánul
+11	3911	menyasszony	menyasszonnyal menyasszonyként menyasszonynak menyasszonyok menyasszonyra menyasszonyról menyasszonyt
+12	3912	létesítmény	létesítménybe létesítményben létesítményből létesítmények létesítményeket létesítménynek létesítményt
+13	3913	tizenöt	tizenötöt
+14	3914	útmutató	útmutatót
+15	3915	hűvös	hűvösebb hűvösek hűvösnek hűvösre hűvösön
+16	3916	filmes	filmesek
+17	3917	csábít	csábítanak csábítani csábítasz csábítja csábítják csábítom csábított csábította csábítottad csábítottam csábítottál csábítsa csábítson csábítás csábításnak csábítást csábító
+18	3918	baseball	baseballban baseballhoz baseballra baseballról baseballt
+19	3919	les	lesben lesből lesd lesed lesek lesel lesem lesett lesheted lesheti lesi lesik lesnek lesni less lessétek lessük lest leste lestek lestem lestél lesve
+20	3920	haladu	haladunk
+21	3921	bánja	bánjak bánjanak
+22	3922	állampolgár	állampolgárként állampolgárnak állampolgárok állampolgárokat állampolgároknak állampolgárt
+23	3923	sátán	sátánhoz sátánnak sátánnal sátánra sátánt sátántól
+24	3924	biztosító	biztosítója biztosítók biztosítónak biztosítónál biztosítót biztosítótól biztosítóval
+25	3925	nagyszerűen	
+26	3926	szén	szenet szénből szénnel szénné
+27	3927	súlya	súlyából súlyának súlyára súlyát súlyától súlyával
+28	3928	kamu	kamuból kamunak kamut
+29	3929	klinikai	
+30	3930	rejlik	rejlenek rejlett rejlő
+31	3931	jobbik	
+32	3932	sodor	sodorhat sodorhatja sodorja sodorjon sodorjuk sodorják sodorlak sodorna sodornak sodorni sodorná sodornám sodorsz sodort sodorta sodortad sodortak sodortalak sodortam sodorták sodortál sodrod sodrok sodrom sodrás
+33	3933	rejteget	rejtegeted rejtegetek rejtegetem rejtegetett rejtegeti rejtegetik rejtegetitek rejtegetjük rejtegetne rejtegetned rejtegetnek rejtegetnem rejtegetni rejtegetnie rejtegetnünk rejtegetsz rejtegette rejtegetted rejtegettek rejtegettem rejtegették rejtegettél rejtegetünk
+34	3934	bohóc	bohóccal bohócként bohócnak bohócok bohócokat bohócokkal bohócoknak bohócoktól bohócot bohócra bohócról
+35	3935	paraszt	parasztnak parasztok parasztokat parasztokkal parasztoknak parasztot paraszttal
+36	3936	hossza	hosszában hosszáig hosszát hosszával
+37	3937	akármilyen	akármilyet
+38	3938	növekedés	növekedésben növekedéshez növekedésnek növekedésre növekedéssel növekedést
+39	3939	kiadása	kiadásában kiadásának kiadására kiadásáról kiadását kiadásával
+40	3940	passzol	passzolja passzoljon passzoljuk passzolna passzolnak passzolni passzolnia passzolnom passzolnám passzolnék passzolod passzolok passzolom passzolsz passzolt passzolta passzoltad passzoltak passzoltam passzoltok passzolunk passzoló
+41	3941	rendezte	
+42	3942	ily	ilyet
+43	3943	veszteget	vesztegesse vesztegessem vesztegessék vesztegessétek vesztegessük vesztegessünk vesztegeted vesztegetek vesztegetem vesztegetett vesztegethetem vesztegethetjük vesztegethetünk vesztegeti vesztegetik vesztegetitek vesztegetjük vesztegetnem vesztegetni vesztegetné vesztegetném vesztegetnénk vesztegetsz vesztegette vesztegetted vesztegettem vesztegették vesztegettük vesztegettünk vesztegetés vesztegetünk
+44	3944	menedék	menedékbe menedékben menedéken menedéket menedékként menedéknek menedékre menedékért
+45	3945	lead	leadja leadjam leadjuk leadják leadni leadnod leadnom leadod leadok leadom leadott leadta leadtad leadtak leadtam leadtuk leadták leadtál
+46	3946	takaró	takaróba takarók takarókat takarón takaróra takarót takaróval
+47	3947	szállító	szállítói szállítók szállítókat szállítóknak szállítónak szállítót szállítóval
+48	3948	negyven	negyvenen negyvenet
+49	3949	megoldása	megoldásában megoldásához megoldásán megoldásának megoldására megoldását megoldásával
+50	3950	rejtőzik	rejtőzhet rejtőzhetnek rejtőzhetsz rejtőzne rejtőznek rejtőzni rejtőznie rejtőznöd rejtőznöm rejtőznünk rejtőztek rejtőztem rejtőztél rejtőztünk rejtőzz rejtőzzenek rejtőzzetek rejtőzzünk rejtőzöl rejtőzött rejtőzünk rejtőző
+51	3951	kutyája	kutyájának kutyájára kutyájáról kutyáját kutyájával
+52	3952	környezetvédelmi	
+53	3953	pláne	
+54	3954	emberünk	emberünket emberünkkel emberünknek emberünkre emberünkről
+55	3955	lebeg	lebegek lebegett lebegjen lebegne lebegnek lebegni lebegnék lebegsz lebegtek lebegtem lebegve lebegés lebegünk lebegő
+56	3956	gyakorlati	
+57	3957	hallatszik	hallatszanak hallatszott hallották
+58	3958	netán	netalán
+59	3959	hitel	hitelbe hitelből hitelek hiteleket hitellel hitelre hitelt
+60	3960	köszönhető	
+61	3961	alkatrész	alkatrészei alkatrészek alkatrészekből alkatrészeket alkatrészekkel alkatrészekre alkatrésznek alkatrészre alkatrészt
+62	3962	növekvő	
+63	3963	hetente	
+64	3964	tartós	tartósabb tartósak tartósan
+65	3965	automata	automatába automatában automatából automatához automaták automatákat automatán automatánál automatára automatát automatával
+66	3966	bizonnyal	
+67	3967	mégpedig	
+68	3968	elterjedt	elterjedtebb elterjedtek legelterjedtebb
+69	3969	hagyma	hagymát hagymával
+70	3970	megbán	megbánhat megbánhatsz megbánja megbánjam megbánjuk megbánják megbánjátok megbánna megbánni megbánnom megbánná megbánnád megbánnál megbánnám megbánnék megbánod megbánok megbánom megbánsz megbántad megbántam megbánunk
+71	3971	kereskedelem	kereskedelemben kereskedelemből kereskedelemmel kereskedelemnek kereskedelemre kereskedelemről kereskedelemért kereskedelmet
+72	3972	harap	harapja harapjak harapjanak harapjon harapjunk harapják harapna harapnak harapni harapnék harapod harapok harapott harapsz harapta haraptak haraptam harapták haraptál harapunk harapás harapások harapásra harapással harapást harapástól
+73	3973	mágikus	
+74	3974	párszor	
+75	3975	puszi	puszikat puszit puszival
+76	3976	visszatérés	visszatérése visszatéréshez visszatérésnek visszatérésre visszatérésről visszatérést visszatérésének visszatéréséről visszatérését
+77	3977	tank	tankba tankban tankból tankkal tanknak tankok tankokat tankokkal tankot tankra
+78	3978	feldolgoz	feldolgozni feldolgoznia feldolgoznom feldolgozom feldolgozott feldolgozta feldolgoztam feldolgozták feldolgozza feldolgozzam feldolgozzuk feldolgozzák
+79	3979	derült	derültek
+80	3980	megsemmisít	megsemmisíted megsemmisítem megsemmisítenek megsemmisíteni megsemmisítené megsemmisített megsemmisítette megsemmisítetted megsemmisítettek megsemmisítettem megsemmisítettük megsemmisítheti megsemmisíthetjük megsemmisíti megsemmisítik megsemmisítjük megsemmisítse megsemmisítsem megsemmisítsék megsemmisítsük megsemmisítve megsemmisítünk megsemmisítő
+81	3981	hűség	hűségben hűségből hűsége hűséget hűséggel hűségnek hűségre hűségről
+82	3982	szerves	szervesen
+83	3983	tégla	téglából téglák téglákat téglának téglára tégláról téglát téglával
+84	3984	illető	illetőnek illetőt illetővel
+85	3985	cica	cicák cicákat cicának cicát cicával
+86	3986	félreértés	félreértésből félreértések félreértéseket félreértésnek félreértésről félreértést félreértésért
+87	3987	hajdú	
+88	3988	máj	májat májba májban májjal májnak májon májra
+89	3989	házunk	házunkat házunkba házunkban házunkból házunkhoz házunkkal házunknak házunknál házunkon házunkra házunkról házunktól
+90	3990	szemétláda	szemétládák szemétládákat szemétládának szemétládát szemétládával
+91	3991	farka	farkába farkából farkához farkán farkának farkánál farkára farkáról farkát farkával
+92	3992	közúti	
+93	3993	felszáll	felszállhat felszállhatnak felszállhatunk felszállj felszálljak felszálljon felszállnak felszállni felszállok felszállsz felszállt felszálltak felszálltam felszálltok felszálltunk felszálltál felszállunk felszálló
+94	3994	bead	beadandó beadja beadjam beadjuk beadják beadni beadnom beadnád beadod beadok beadom beadott beadsz beadta beadtad beadtak beadtam beadtuk beadtunk beadták beadtál beadunk beadva beadás
+95	3995	java	javában javából javát javáért
+96	3996	munkatársa	munkatársának munkatársát munkatársával
+97	3997	nesze	
+98	3998	szabadtéri	
+99	3999	műfaj	műfajban műfajok műfajt
+100	4000	sajnálatos	sajnálatosan

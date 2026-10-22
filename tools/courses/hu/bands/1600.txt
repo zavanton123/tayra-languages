@@ -1,0 +1,100 @@
+1	1501	könyve	könyvébe könyvében könyvéből könyvéhez könyvén könyvének könyvére könyvéről könyvét könyvével
+2	1502	nyelvű	
+3	1503	oly	olyat
+4	1504	művészet	művészetben művészetből művészete művészetek művészetekben művészeteket művészetet művészethez művészetnek művészetre művészetről művészettel művészetté művészetért művészetéről
+5	1505	nagyjából	
+6	1506	műszaki	műszakiak
+7	1507	eredménye	eredményeként eredményének eredményére eredményéről eredményét eredményével
+8	1508	kert	kertbe kertben kertből kertek kertekben kerteket kerten kertet kerthez kertnek kertre kertről kerttel
+9	1509	követő	követői követők követőket követőt követővel
+10	1510	szolgálat	szolgálataikat szolgálatba szolgálatban szolgálatból szolgálathoz szolgálatnak szolgálatnál szolgálatok szolgálaton szolgálatot szolgálatra szolgálatról szolgálattal szolgálattól szolgálatuk szolgálatért
+11	1511	kód	kódba kódban kóddal kódhoz kódnak kódok kódokat kódokban kódokhoz kódokkal kódokra kódon kódot kódra kódról
+12	1512	végső	legvégső végsőkig
+13	1513	tudomány	tudománnyal tudománya tudományba tudományban tudományhoz tudománynak tudományok tudományokat tudományokban tudományra tudományról tudományt tudományért
+14	1514	részeg	részegebb részegek részegeket részegekkel részegen részeget részeggel részegnek részegre
+15	1515	színpad	színpadhoz színpadnál színpadon színpadot színpadra színpadról színpadtól
+16	1516	igyekszik	igyekezett igyekeztek igyekezzetek igyekezzünk igyekszel igyekszem igyekszenek igyekszünk igyekvő
+17	1517	elpusztul	elpusztuljon elpusztulna elpusztulnak elpusztulni elpusztulsz elpusztult elpusztultak elpusztultok elpusztulunk elpusztít elpusztítalak elpusztítanak elpusztítani elpusztítanunk elpusztítaná elpusztítasz elpusztíthatjuk elpusztíthatom elpusztítja elpusztítjuk elpusztítják elpusztítod elpusztítok elpusztítom elpusztított elpusztította elpusztítottad elpusztítottak elpusztítottam elpusztítottuk elpusztították elpusztítsa elpusztítsam elpusztítsanak elpusztítson elpusztítsuk elpusztítsák elpusztítunk elpusztítva
+18	1518	bátor	bátornak bátorrá bátrabb bátrabbnak bátrak bátraknak bátraké legbátrabb
+19	1519	egykori	
+20	1520	ügye	ügyébe ügyében ügyéből ügyéhez ügyén ügyének ügyénél ügyére ügyéről ügyét ügyével ügyéért
+21	1521	egyetemi	
+22	1522	csata	csatába csatában csatából csatához csaták csatákat csatákban csatákra csatákról csatán csatának csatára csatáról csatát csatától csatával
+23	1523	kim	kimet kimmel kimnek kimre kimről kimért
+24	1524	lóg	lóghat lóghatnak lóghatnánk lóghatnék lóghatok lóghatsz lóghatunk lógj lógjak lógjanak lógjatok lógjon lógjunk lógna lógnak lógni lógnia lógnod lógnom lógnunk lógnál lógnánk lógnék lógok lógott lógsz lógtak lógtam lógtatok lógtok lógtunk lógtál lógunk lógva lógó
+25	1525	intézet	intézetbe intézetben intézetből intézetek intézetet intézethez intézeti intézetnek intézetnél intézettel intézettől intézetében
+26	1526	megér	megéred megérem megérhet megéri megérje megérjük megérne megérnek megérni megérné megérsz megérte megértelek megértük
+27	1527	mindenképpen	mindenféleképp mindenféleképpen mindenképp
+28	1528	szórakozik	szórakozhatnánk szórakozhatok szórakozhatsz szórakozhatunk szórakozna szórakoznak szórakozni szórakoznia szórakoznod szórakoznom szórakoznunk szórakoznál szórakoznánk szórakoznék szórakozok szórakozol szórakozott szórakoztak szórakoztam szórakoztat szórakoztatja szórakoztatjuk szórakoztatják szórakoztatod szórakoztatok szórakoztatott szórakoztok szórakoztunk szórakoztál szórakozunk szórakozzanak szórakozzatok szórakozzunk szórakozzál szórakozó
+29	1529	főz	főzd főzet főzetet főzhet főzhetek főzhetnék főzhetsz főzi főzik főzne főznek főzni főznék főznél főzte főzted főztek főztem főzték főztél főztünk főzve főzz főzze főzzek főzzön főzzük főzzünk főzés főzésre főzést főzöd főzök főzöl főzöm főzött főzünk főző főzők
+30	1530	erőszak	erőszakba erőszakban erőszakból erőszakhoz erőszakkal erőszaknak erőszaknál erőszakon erőszakot erőszakra erőszakról erőszaktól erőszakért
+31	1531	miniszter	minisztere miniszterek minisztereket miniszterekkel miniszterhez miniszterként miniszternek miniszterre miniszterrel minisztert minisztertől
+32	1532	mintegy	
+33	1533	kinyit	kinyissa kinyissam kinyissuk kinyissák kinyithatja kinyithatjuk kinyithatnánk kinyithatod kinyithatom kinyitható kinyitja kinyitjuk kinyitják kinyitjátok kinyitnak kinyitni kinyitnia kinyitnod kinyitnom kinyitnunk kinyitná kinyitnád kinyitnák kinyitnám kinyitnánk kinyitod kinyitok kinyitom kinyitott kinyitotta kinyitottad kinyitottak kinyitottam kinyitottuk kinyitottunk kinyitották kinyitsz kinyitunk kinyitva
+34	1534	hivatalosan	
+35	1535	ítél	ítéled ítélek ítélem ítélheted ítélheti ítélhetjük ítélhetnek ítélhetsz ítéli ítélik ítélje ítéljem ítéljen ítéljenek ítéljetek ítéljék ítéljük ítéljünk ítéllek ítélne ítélnek ítélni ítélné ítélnék ítélsz ítélt ítélte ítélted ítéltek ítéltelek ítéltem ítéltetett ítéltetik ítélték ítéltél ítéltük ítélve ítélünk ítélő
+36	1536	alul	alább alól legalul
+37	1537	tárgyalás	tárgyalása tárgyalásba tárgyalásban tárgyaláshoz tárgyalásig tárgyalásnak tárgyalások tárgyalásokat tárgyalásokba tárgyalásokkal tárgyalásokon tárgyalásokra tárgyaláson tárgyalásra tárgyalásról tárgyalással tárgyalást tárgyalástól tárgyalásának
+38	1538	megsérül	megsért megsértette megsérülhet megsérülhetett megsérülhetnek megsérülhetsz megsérülhettél megsérüljenek megsérüljön megsérülne megsérülnek megsérülni megsérülnie megsérülnél megsérülsz megsérült megsérültek megsérültem megsérültetek megsérültél megsérültünk megsérülök
+39	1539	példa	példaként példában példák példákat példának példát példával
+40	1540	teteje	tetejébe tetejében tetejéhez tetejéig tetején tetejénél tetejére tetejéről tetejét tetejétől
+41	1541	nemsokára	
+42	1542	kereskedelmi	
+43	1543	ugyanakkor	
+44	1544	vád	vádak vádakat vádakban vádakhoz vádakkal vádaknak vádakra vádakról vádat vádban váddal vádhoz vádja vádjait vádját vádnak vádra vádról
+45	1545	kilenc	kilencből kilenccel kilencek kilencen kilencet kilencig kilenckor kilencre kilenctől
+46	1546	megvesz	megvegye megvegyem megvegyék megvegyük megvehessem megvehet megveheted megvehetem megveheti megvehetjük megvehetném megvehetnénk megvehetsz megvenned megvennem megvenni megvennie megvenné megvennéd megvennék megvenném megvennénk megvesszük megveszed megveszek megveszel megveszem megveszett megveszi megveszik megvesznek megvett megvette megvetted megvettek megvettem megvették megvettél megvettük
+47	1547	alak	alakba alakban alakhoz alakkal alaknak alakok alakokat alakokkal alakoknak alakoktól alakot alakra alakról alaktól
+48	1548	érdeklődik	érdeklődj érdeklődjek érdeklődjön érdeklődne érdeklődnek érdeklődni érdeklődnék érdeklődnénk érdeklődnöm érdeklődsz érdeklődtek érdeklődtem érdeklődtél érdeklődtünk érdeklődve érdeklődés érdeklődésre érdeklődéssel érdeklődést érdeklődésüket érdeklődöm érdeklődött érdeklődünk érdeklődő érdeklődők érdeklődőket érdeklődőt
+49	1549	kijön	kigyere kijöhet kijöhetek kijöhetnek kijöhetsz kijöhettek kijöjjek kijöjjenek kijöjjön kijönne kijönnek kijönni kijönnie kijönnél kijönnének kijönnénk kijönnétek kijönnöd kijönnöm kijönnünk kijössz kijött kijöttek kijöttem kijöttetek kijöttél kijöttök kijöttünk kijövök kijövünk kijövő
+50	1550	szerzett	
+51	1551	keleti	keletiek
+52	1552	nővér	nővérek nővéreket nővérekkel nővéreknek nővérekre nővérektől nővérhez nővérként nővérnek nővérnél nővérre nővérrel nővérről nővért nővértől
+53	1553	olimpiai	
+54	1554	hivatal	hivatalba hivatalban hivatalból hivatalhoz hivatallal hivatalnak hivatalnál hivatalok hivatalon hivatalra hivatalt hivataltól hivatalért
+55	1555	bácsi	bácsihoz bácsik bácsinak bácsinál bácsira bácsiról bácsit bácsitól bácsival bácsié
+56	1556	kovács	kovácsnak kovácsok kovácsot
+57	1557	telt	teltebb teltek
+58	1558	kötött	kötöttek kötöttem
+59	1559	csúnya	csúnyább csúnyábban csúnyák csúnyákat csúnyán csúnyának csúnyára csúnyát legcsúnyább
+60	1560	remény	reménnyel reménybe reményben reményei reményeik reményeink reményeit remények reményeket reményekkel reménynek reményre reményről reményt reménytől reményért
+61	1561	késik	késd késed késedet kések késel késelte késelték késelés késelő késem késemet késemmel késett késhet késhetek késhetsz késhetünk késne késnek késni késnék késs késsen késsenek késsetek késsük késsünk késted késtek késtem késtetek késtél késtünk késve késünk
+62	1562	hamis	hamisak hamisat hamisnak
+63	1563	indulás	indulása indulásakor induláshoz indulásig indulásra indulással indulást
+64	1564	érint	érinted érintem érintene érintened érintenek érintenem érinteni érintenie érintené érintesz érintette érintetted érintettem érintettél érinthet érintheted érinthetem érintheti érinthetlek érinthetsz érinti érintik érintjük érintse érintselek érintsem érintsen érintsék érintsétek érintve érintés érintése érintések érintést érintésére érintését érintésétől érintésével
+65	1565	üzleti	
+66	1566	megoszt	megossza megosszam megosszuk megosszák megosztana megosztanak megosztani megosztanod megosztanom megosztaná megosztanád megosztanál megosztanám megosztanánk megoszthatja megoszthatjuk megoszthatnánk megoszthatod megoszthatok megoszthatom megosztja megosztjuk megosztják megosztjátok megosztod megosztok megosztom megosztott megosztotta megosztottad megosztottak megosztottam megosztottuk megosztottunk megosztották megosztunk megosztva megosztás megosztása
+67	1567	macska	macskához macskák macskákat macskákkal macskáknak macskákra macskákról macskáktól macskának macskára macskáról macskát macskától macskával macskáé
+68	1568	labda	labdába labdához labdák labdákat labdákkal labdán labdának labdára labdáról labdát labdától labdával labdáért
+69	1569	magyaráz	magyarázhatja magyarázhatnám magyarázhatom magyarázni magyaráznia magyaráznod magyaráznom magyaráznunk magyarázná magyaráznád magyaráznám magyarázod magyarázok magyarázol magyarázom magyarázott magyarázta magyaráztad magyaráztam magyarázták magyarázza magyarázzak magyarázzam magyarázzon magyarázzuk magyarázzák magyarázzátok magyarázó
+70	1570	emlék	emlékbe emlékben emlékeink emlékek emlékekben emlékekből emlékeket emlékekhez emlékekkel emlékeknek emlékekre emlékekről emlékektől emléket emlékkel emlékké emlékként emléknek emlékre emléktől emlékül
+71	1571	hadnagy	hadnaggyal hadnagyhoz hadnagyként hadnagynak hadnagynál hadnagyok hadnagyot hadnagyra hadnagyról hadnagytól hadnagyé
+72	1572	visszajön	visszajött visszajöttem visszajövünk
+73	1573	gyakorol	gyakorlott gyakorolhat gyakorolhatja gyakorolhatnánk gyakorolhatok gyakorolhatsz gyakorolhatunk gyakorolja gyakoroljak gyakoroljam gyakoroljanak gyakoroljatok gyakoroljon gyakoroljuk gyakoroljunk gyakorolják gyakoroljátok gyakorolna gyakorolnak gyakorolni gyakorolnia gyakorolnod gyakorolnom gyakorolnunk gyakorolok gyakorolom gyakorolsz gyakorolt gyakorolta gyakoroltad gyakoroltak gyakoroltam gyakoroltok gyakoroltuk gyakoroltunk gyakorolták gyakoroltál gyakorolunk gyakorolva
+74	1574	gyakorlat	gyakorlatba gyakorlatban gyakorlatból gyakorlathoz gyakorlatnak gyakorlatok gyakorlatokat gyakorlatokkal gyakorlatokra gyakorlaton gyakorlatot gyakorlatra gyakorlatról gyakorlattal
+75	1575	megnyer	megnyered megnyerek megnyerem megnyerheted megnyerhetem megnyerhetetlen megnyerheti megnyerhetjük megnyeri megnyerik megnyeritek megnyerje megnyerjem megnyerjen megnyerjék megnyerjük megnyerned megnyernem megnyerni megnyernie megnyerné megnyerném megnyernénk megnyernünk megnyersz megnyert megnyerte megnyerted megnyertek megnyertem megnyerték megnyertél megnyertétek megnyertük megnyertünk megnyerünk megnyerő
+76	1576	állapota	állapotába állapotában állapotából állapotához állapotán állapotának állapotára állapotáról állapotát állapotától állapotával állapotáért
+77	1577	hercegnő	hercegnőhöz hercegnők hercegnőket hercegnőként hercegnőnek hercegnőre hercegnőről hercegnőt hercegnőtől hercegnővel hercegnővé hercegnőé hercegnőért
+78	1578	süt	süss süsse süssek süssem süssetek süssék süssön süssük süssünk süthetek sütik sütjük sütne sütnek sütni sütnék sütnöm sütsz sütve sütöd sütök sütöm sütött sütötte sütötted sütöttek sütöttem sütötték sütöttél sütöttünk sütünk sütő sütőbe sütőben sütőből sütőt sütővel
+79	1579	önmaga	önmagába önmagában önmagából önmagához önmagán önmagának önmagára önmagáról önmagát önmagától önmagával önmagáért
+80	1580	kötelező	kötelezőnek kötelezővé
+81	1581	legyőz	legyőzheted legyőzhetem legyőzheti legyőzhetjük legyőzhetsz legyőzi legyőzik legyőzlek legyőznek legyőzni legyőznie legyőzné legyőznöd legyőznöm legyőznünk legyőzte legyőzted legyőztek legyőztelek legyőztem legyőzték legyőztél legyőztétek legyőztük legyőztünk legyőzve legyőzze legyőzzelek legyőzzem legyőzzenek legyőzzék legyőzzön legyőzzük legyőzöd legyőzök legyőzöl legyőzöm legyőzött legyőzünk
+82	1582	hagyományos	hagyományosabb
+83	1583	jelenik	jelenek jelenhet jelenhetsz jeleni jelenjek jelenjenek jelenne jelenned jelennek jelennem jelenni jelennie jelensz jelentek jelentem jelentet jelentették jelentünk jelenés jelenünk
+84	1584	seggfej	seggfejek seggfejeket seggfejekkel seggfejeknek seggfejet seggfejhez seggfejjel seggfejjé seggfejként seggfejnek seggfejre seggfejt seggfejtől
+85	1585	kerete	keretébe keretében keretén keretét
+86	1586	zárva	
+87	1587	szokott	szokottnál
+88	1588	edző	edzőhöz edzője edzők edzőként edzőm edzőnek edzőre edzőről edzőt edzőtől edzővel
+89	1589	rock	rockba rockban rockból rocknak rocknál rockot
+90	1590	belép	belépek belépett beléphessen beléphet beléphetek beléphetnek beléphetsz beléphetünk belépjek belépjen belépjenek belépjünk belépne belépned belépnek belépnem belépni belépnie belépnék belépnél belépsz beléptek beléptem beléptetek beléptél beléptünk belépve belépünk belépő belépők belépőket belépőre belépőt belépővel
+91	1591	bőven	bővebben
+92	1592	javasol	javaslom javasolhatnám javasolhatnék javasolhatok javasolhatom javasolja javasoljak javasoljam javasoljon javasoljuk javasolják javasolna javasolnak javasolni javasolnom javasolná javasolnál javasolnám javasolnék javasolok javasolom javasolsz javasoltad javasoltam javasolták javasoltál
+93	1593	bonyolult	bonyolultabb bonyolultak bonyolultat bonyolultnak bonyolulttá legbonyolultabb
+94	1594	bezár	bezárhatja bezárhatjuk bezárhatják bezárhatnánk bezárhatom bezárja bezárjam bezárjanak bezárjon bezárjuk bezárják bezárjátok bezárlak bezárna bezárnak bezárni bezárná bezárnád bezárnák bezárnám bezárnának bezárnánk bezárod bezárok bezárom bezársz bezárt bezárta bezártad bezártak bezártalak bezártam bezártuk bezártunk bezárták bezártál bezártátok bezárunk bezárva
+95	1595	civil	civilben civilek civileket civilekkel civileknek civilekre civilként civillel civilnek civilt
+96	1596	lemond	lemondana lemondanak lemondani lemondania lemondanod lemondanom lemondanál lemondanám lemondanék lemondasz lemondhat lemondhatom lemondhatsz lemondhatunk lemondja lemondjak lemondjam lemondjon lemondjuk lemondják lemondod lemondok lemondom lemondott lemondta lemondtad lemondtak lemondtam lemondtuk lemondtunk lemondták lemondtál lemondunk lemondva lemondás lemondásra lemondást lemondását lemondó
+97	1597	akad	akadhat akadhatnak akadjon akadjunk akadna akadnak akadni akadok akadsz akadt akadtak akadtam akadtunk akadtál akadunk akadva
+98	1598	történelmi	
+99	1599	ajánlat	ajánlatnak ajánlatok ajánlatokat ajánlatokkal ajánlaton ajánlatot ajánlatra ajánlatról ajánlattal ajánlatért
+100	1600	küldetés	küldetésbe küldetésben küldetésből küldetése küldetések küldetéseken küldetéseket küldetésekre küldetésemnek küldetésen küldetéshez küldetésnek küldetésnél küldetésre küldetésről küldetéssel küldetést küldetésért küldetését

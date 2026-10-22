@@ -1,0 +1,100 @@
+1	1	az	a abba abban abból addig ahhoz akként annak annál arra arrább arrébb arról attól avval azok azokat azokba azokban azokból azokhoz azokkal azokká azoknak azoknál azokon azokra azokról azoktól azoké azokért azon azt azzal azzá azé azért azét
+2	2	van	legyek legyen legyenek legyél legyünk lehet lenne lenned lennem lenni lennie lennék lennél lennének lennénk lesz leszek leszel lesznek leszünk lett lettek lettem lettél levő légy létre lévő vagyok vagytok vagyunk vannak volna volt voltak voltam voltatok voltunk voltál
+3	3	nem	nem-et nemből nemek nemet nemhez nemmel nemn nemnek nemre nemről nemt nemtől
+4	4	és	
+5	5	hogy	
+6	6	ez	ebbe ebben ebből eddig ehhez ekként ennek ennél erre erről ettől ezek ezekbe ezekben ezekből ezeken ezeket ezekhez ezekkel ezeknek ezeknél ezekre ezekről ezektől ezekért ezen ezt ezzel ezzé ezé ezért
+7	7	egy	eggyel eggyé egybe egyben egyből egyek egyen egyenek egyet egyhez egyig egyként egynek egynél egyre egyről egytől egyé egyék egyért
+8	8	mi	belénk belőlünk bennünk hozzánk mennél mi-t mibe miben miből mihez mik miken miket mikkel mikre miként min minek mink minket minél mira mire miről mit mitől mivel mivé mié miért mért nekünk nálunk rajtunk ránk rólunk tőlünk velünk értünk
+9	9	is	
+10	10	én	belém belőlem bennem engem hozzám nekem nálam rajtam rám rólam tőlem velem ének éneke énekek énekeket éneket énekkel énekét ént értem
+11	11	de	
+12	12	meg	
+13	13	tud	tudat tudatában tudd tudhatod tudj tudja tudjak tudjam tudjon tudjuk tudjunk tudják tudjátok tudna tudnak tudni tudná tudnád tudnák tudnál tudnám tudnának tudnánk tudnék tudod tudok tudom tudott tudsz tudta tudtad tudtak tudtam tudtok tudtuk tudtunk tudták tudtál tudunk
+14	14	csak	
+15	15	ha	
+16	16	kell	kelle kellek kellene kellenek kelleni kellenék kellenél kellenének kellenénk kellesz kelletek kellett kellettek kellettem kellettél kellettünk kellhet kellhetett kellj kelljen kellünk kellő kéne köll
+17	17	te	beléd belőled benned hozzád neked nálad rajtad rád rólad téged tőled veled érted
+18	18	ő	belőle benne minekünk minálunk neki nála néki róla tebenned teneked teveled tőle vele véle énbennem énnekem énvelem ő-t őbenne őneki őróla őt ővele
+19	19	vagy	
+20	20	jó	javak javakat jobb jobba jobbak jobbakat jobbal jobbat jobbnak jobbnál jobbon jobbra jobbról jobbá jóba jóban jóból jóhoz jók jókat jókkal jóknak jón jónak jónál jóra jóról jót jótól jóval jóvá jóért legjobb legjobbaknak legjobbjai legjobbjait legjobbra legjobbtól
+21	21	már	mán
+22	22	még	
+23	23	ki	kiba kibe kiben kiből kihez kihoz kihozni kihoztunk kihozták kihozzák kijjebb kik kiken kiket kikhez kikkel kiknek kikre kikről kiktől kikért kin kinek kinél kira kire kiről kit kitől kivel kivé kiért
+24	24	el	
+25	25	mond	mondana mondanak mondani mondania mondanod mondanunk mondaná mondanám mondanék mondasz mondat mondatot mondd mondhat mondhatjuk mondhatod mondhatsz mondható mondj mondja mondjad mondjak mondjam mondjon mondjuk mondják mondjátok mondod mondok mondom mondott mondta mondtad mondtak mondtam mondtuk mondták mondtál mondunk
+26	26	ami	amibe amiben amiből amihez amik amikbe amikben amikből amiken amiket amikhez amikkel amiknek amikre amikről amiktől amikért amin aminek amink aminél amire amiről amit amitől amivel amivé amiért
+27	27	most	mostan mostanra mostantól mostanáig
+28	28	sok	legtöbb legtöbbet legtöbbjük sokak sokakat sokakkal sokaknak sokat sokba sokban sokból sokkal sokként soknak soknál sokon sokra sokról sokukat sokuknak sokért több többe többek többeket többeknek többel többen többet többnek többre többről többé többért
+29	29	itt	
+30	30	akar	akard akarhat akarhatod akarj akarja akarjon akarjuk akarják akarjátok akarna akarnak akarni akarná akarnád akarnák akarnál akarnám akarnának akarnánk akarnék akarod akarok akarom akarsz akart akarta akartad akartak akartam akartatok akartok akartuk akartunk akarták akartál akartátok akarunk akarás akaró
+31	31	igen	igen-t igennek igennel igenre igent
+32	32	minden	mindenbe mindenben mindenből mindenek mindenen mindenhez mindennek mindennel mindennél mindenre mindenről mindent mindentől mindenért mindenük mindenünket
+33	33	jön	gyere gyertek gyerünk jöhet jöhetek jöhetett jöhetne jöhetnek jöhetsz jöhettek jöjjek jöjjenek jöjjön jönne jönnek jönni jönnék jönnél jössz jött jöttek jöttem jöttetek jöttél jöttök jöttünk jövendő jövök jövünk jövő jövőbe jövőben jövőből jövőd jövőnk jövőre jövőről jövőt jő
+34	34	megy	megyek megyünk mehet mehetek mehetett mehetnek mehetnénk mehetsz mehettek mehetünk menj menjek menjen menjenek menjetek menjünk menne mennek menni mennék mennél mennénk ment mentek mentem menteni mentett mentette menti ments mentsd mentse mentél mentünk mentő mentőket mentőt menő mész
+35	35	akkor	akkortól
+36	36	ne	
+37	37	fog	fogai fogaim fogait fogak fogakat fogakkal fogat fogd foggal fogj fogja fogjam fogjon fogjuk fogjunk fogják fogjátok foglak fognak fogni fognunk fogod fogok fogom fogott fogsz fogta fogtad fogtak fogtam fogtok fogtuk fogtunk fogták fogtál fogunk fogva fogó fogót
+38	38	mint	
+39	39	sem	se
+40	40	aki	akibe akiben akiből akihez akik akikbe akikben akikből akiken akiket akikhez akikkel akiknek akiknél akikre akikről akiktől akikért akin akinek akinél akira akire akiről akit akitől akivel akivé akié akiért
+41	41	úgy	
+42	42	maga	magamét maganak magat maguk magukat magukba magukban magukból magukhoz magukkal maguknak maguknál magukon magukra magukról maguktól magukért magába magában magából magához magán magának magánál magára magáról magát magától magával magáért
+43	43	nagyon	
+44	44	amikor	mikor mikorra mikortól
+45	45	mert	
+46	46	olyan	olyanba olyanban olyanból olyanhoz olyannak olyannal olyanná olyanok olyanokat olyanokban olyanokból olyanokhoz olyanokkal olyanokká olyanoknak olyanoknál olyanokon olyanokra olyanokról olyanoktól olyanokért olyanon olyanra olyanról olyant olyantól olyané olyanért olyat
+47	47	jól	jobban legjobban
+48	48	tesz	tedd tegye tegyek tegyem tegyen tegyék tegyél tegyétek tegyük tegyünk tehet tenne tenni tenné tennék tennél tenném tesszük teszed teszek teszel teszem teszi teszik tesznek teszünk tett tette tetted tettek tettem tették tettél tettük tettünk tégy tét tétel téve
+49	49	ember	emberbe emberben emberből emberek emberekbe emberekben emberekből embereken embereket emberekhez emberekkel emberekké emberekként embereknek embereknél emberekre emberekről emberektől emberekért emberen emberfia emberhez emberig emberként embernek embernél emberre emberrel emberré emberről embert embertől emberé emberért
+50	50	így	
+51	51	lát	lásd láss lássa lássam lássanak lásson lássuk lássunk lássák láthat láthatjuk láthatják láthatnám láthattam láthatunk látja látjuk látják látjátok látnak látni látná látnám látod látok látom látott látsz láttad láttak láttam láttuk láttunk látták láttál láttátok látunk látva látó
+52	52	nincs	nincsen nincsenek
+53	53	nagy	legnagyobb legnagyobbak naggyal naggyá nagyba nagyban nagynak nagyobb nagyobbnak nagyobbról nagyok nagyokat nagyokkal nagyoknak nagyot nagyra nagyról
+54	54	valami	valamibe valamiben valamiből valamid valamihez valamik valamiket valamiképp valamiképpen valamin valaminek valamire valamiről valamit valamitől valamivel valamivé valamiért
+55	55	szeret	szeresd szeress szeressen szereted szeretek szeretem szeretet szeretetből szeretetet szeretetre szeretett szeretettel szerethető szereti szeretik szeretitek szeretjük szeretnek szeretni szeretné szeretnéd szeretnék szeretnél szeretném szeretnének szeretnénk szeretnétek szeretsz szerette szeretted szerettek szerettem szerették szerettél szerettük szerettünk szeretünk szerető szeretők
+56	56	új	legújabb újabb újabbak újabbat újabbra újak újakat újakkal újaknak újakra újat újba újban újból újjal újjá újnak újra
+57	57	néz	nézd nézed nézek nézel nézem nézet nézett nézheted nézhető nézi nézik nézne néznek nézni néznék nézte nézted néztek néztem nézték néztél néztük néztünk nézve nézz nézze nézzek nézzem nézzen nézzenek nézzetek nézzék nézzétek nézzük nézzünk nézünk néző nézők nézőt
+58	58	ők	beléjük belőlük bennük hozzájuk nekik náluk rajtuk rájuk róluk tőlük velük értük övéké őket
+59	59	hisz	hidd higgy higgye higgyek higgyem higgyen higgyenek higgyék higgyétek hinne hinni hinné hinnéd hinnék hinném hisszük hiszed hiszek hiszel hiszem hiszi hiszik hiszitek hisznek hisztek hiszünk hitet hitt hitte hitted hittek hittem hitték hittél hittétek hittük híve hívő hívők
+60	60	szerint	szerinte szerinted szerintem szerintetek szerintük szerintünk
+61	61	be	beljebb bé
+62	62	fel	feljebb föl följebb legfeljebb legföljebb
+63	63	majd	majdan
+64	64	év	évbe évben évből éve évek évekbe években évekből éveken éveket évekhez évekig évekkel éveknek évekre évekről évektől évekért éven évet évhez évig évnek évnél évre évről évtől évvel évébe évében évéből évének évére évért évét évünk
+65	65	csinál	csináld csinálhatjuk csinálhatnánk csinálhatsz csinálj csinálja csináljak csináljam csináljanak csináljatok csináljon csináljuk csináljunk csinálják csináljátok csinálna csinálnak csinálni csinálnia csinálnod csinálnom csinálnunk csinálnál csinálnék csinálod csinálok csinálom csinálsz csinált csinálta csináltad csináltak csináltam csináltok csináltuk csináltunk csinálták csináltál csinálunk
+66	66	semmi	semmibe semmiben semmiből semmihez semmije semmijük semmik semmin semminek semminél semmire semmiről semmit semmitől semmivel semmivé semmiért
+67	67	nap	napba napban napból naphoz napig napja napjukat napjában napjáig napján napjának napjára napjáról napját napjától napjával napnak napnál napok napokat napokba napokban napokból napokig napokkal napoknak napokon napokra napokról napon napot nappal nappallá nappalok nappalt napra napról naptól napért
+68	68	vesz	vedd vegye vegyek vegyem vegyen vegyenek vegyék vegyél vegyétek vegyük vegyünk vehet veheti venni venné vennék venném vesszük veszed veszek veszel veszem veszi veszik vesznek vesztek veszünk vett vette vetted vettek vettem vették vettél vettük vettünk vevő vétel véve
+69	69	kér	kérd kérded kérdem kérdi kérdőre kéred kérek kérem kérhet kérhetek kérhetem kérhetnék kérhetném kéri kérik kérj kérje kérjek kérjen kérjük kérjünk kérlek kérnek kérni kérnék kérném kérsz kért kérte kérted kértek kértem kérték kértél kértük kértünk kérés kérést kérünk
+70	70	ad	adat adatok adatokat adatot add adhat adhatok adj adja adjak adjam adjanak adjatok adjon adjuk adjunk adják adjátok adna adnak adni adnál adnék adod adok adom adsz adta adtad adtak adtam adtunk adták adtál adunk adva adó adók adót
+71	71	le	lejjebb
+72	72	áll	állandó állhat állhatnak állhatom állhatott állhatsz állhatunk állj állja álljak álljanak álljatok álljon álljunk állna állnak állni állnék állok állom állott állsz állt állta álltak álltam álltok álltunk álltál állunk állva állás állásban állások állásokat állásra állást álló állók
+73	73	mindig	mindég mindíg
+74	74	kis	kisebb kisebbek kisebbre kissé legkisebb
+75	75	idő	ideig ideje idejébe idejében idejéből idejéig idején idejének idejére idejéről idejét idejével időbe időben időből időhöz idők időkbe időkben időkből időket időkhöz időkig időkkel időknek időkre időkről időktől időként időkön időn időnek időnél időre időről időt időtől idővel időért
+76	76	gondol	gondolhattam gondolja gondoljak gondoljam gondoljanak gondoljatok gondoljon gondoljuk gondoljunk gondolják gondoljátok gondolna gondolnak gondolni gondolnia gondolnod gondolnom gondolnunk gondolná gondolnád gondolnám gondolnánk gondolod gondolok gondolom gondolsz gondolt gondolta gondoltad gondoltak gondoltam gondoltatok gondoltok gondoltuk gondoltunk gondolták gondoltál gondolunk gondolva
+77	77	ilyen	ilyenbe ilyenben ilyenből ilyenek ilyenekbe ilyenekben ilyenekből ilyeneken ilyeneket ilyenekhez ilyenekkel ilyeneknek ilyenekre ilyenekről ilyenektől ilyenekért ilyenen ilyenhez ilyennek ilyennel ilyenné ilyenre ilyenről ilyent ilyentől ilyenért ilyet
+78	78	magyar	magyarban magyarként magyarnak magyarok magyarokat magyarokkal magyaroknak magyarra magyart magyarul
+79	79	ott	ottan
+80	80	beszél	beszélek beszélem beszélhessek beszélhet beszélhetnek beszélhetnék beszélhetnél beszélhetnénk beszélhetsz beszélhetünk beszéli beszélik beszélj beszélje beszéljek beszéljen beszéljenek beszéljetek beszéljük beszéljünk beszélne beszélnek beszélni beszélnék beszélnél beszélnénk beszélsz beszélt beszélte beszéltek beszéltem beszéltetek beszélték beszéltél beszéltük beszéltünk beszélve beszélünk beszélő
+81	81	vár	várat várba várban várd várhat várhatok várhatunk várj várja várjak várjanak várjatok várjon várjuk várjunk várják várjátok várna várnak várni várnál várod várok várom vársz várt várta vártad vártak vártam vártnál vártok vártuk vártunk várták vártál várunk várva váró
+82	82	más	másabb másak másba másban másból máshoz másként másnak másnál mások másokat másokban másokból másokhoz másokkal másoknak másoknál másokon másokra másokról másoktól másokért másokét máson másra másról mással mássá mást mástól másé másért
+83	83	hát	hátam hátat hátba hátnak háton hátra hátrább hátrébb háttal hátuk hátukon hátunkba hátunkra
+84	84	két	
+85	85	egész	egésszel egésszé egészbe egészben egészből egészen egészet egészhez egésznek egészre egészről egésztől egészért
+86	86	kap	kapd kaphat kaphatja kaphatnak kaphatnánk kaphatnék kaphatok kaphatott kaphatsz kaphatunk kapj kapja kapjak kapjanak kapjon kapjuk kapjunk kapják kapjátok kapna kapnak kapni kapnál kapnék kapod kapok kapom kapott kapsz kapta kaptad kaptak kaptam kaptok kaptuk kaptunk kapták kaptál kapunk
+87	87	élet	életbe életben életből élete életek életeket életem életembe életemben életemből életemen életemet életemhez életemmel életemnek életemre életemről életemért életen életet élethez életnek életre életről élettel élettől életébe életében életéből életéhez életén életének életére életért életéről életét életével életéért élte
+88	88	dolog	dolgok dolgokat dolgokba dolgokban dolgokból dolgokhoz dolgokkal dolgoknak dolgoknál dolgokon dolgokra dolgokról dolgoktól dolgokért dolgon dolgot dologba dologban dologból dologgal dologgá dologhoz dologként dolognak dolognál dologra dologról dologtól dologért
+89	89	tart	tartana tartanak tartani tartaná tartasz tarthat tarthatja tarthatjuk tarthatnak tarthatunk tartható tartja tartjuk tartják tartod tartok tartom tartott tartotta tartottad tartottak tartottam tartottuk tartottunk tartották tartottál tarts tartsa tartsam tartsanak tartsatok tartsd tartson tartsuk tartsunk tartsák tartsátok tartunk tartva
+90	90	köszön	köszönd köszönhet köszönheted köszönhetem köszönheti köszönhetik köszönhetitek köszönhetjük köszönhetném köszönhetsz köszönhettem köszöni köszönik köszönj köszönje köszönjek köszönjem köszönjenek köszönjetek köszönjék köszönjétek köszönjön köszönjük köszönjünk köszönnek köszönni köszönnie köszönnöd köszönnöm köszönnünk köszönsz köszönted köszöntek köszöntem köszönöd köszönök köszönöm köszönünk köszönő
+91	91	pedig	
+92	92	valaki	valakibe valakiben valakiből valakihez valakik valakiket valakikkel valakiknek valakin valakinek valakinél valakire valakiről valakit valakitől valakivel valakivé valakié valakiért
+93	93	ma	mak mara mában mához máig mák mákot máma mán mának mára máról mát mától
+94	94	első	elsőbe elsőben elsőhöz elsők elsőként elsőn elsőnek elsőnél elsőre elsőről elsőt elsőtől elsővel legelső legeslegelső
+95	95	elég	elegek elegen eleget elégek elégesse elégessék eléget elégeted elégetem elégetett elégeti elégetik elégetjük elégetnek elégetni elégett elégette elégetted elégettek elégettem elégették elégettük eléggé elégnek elégni elégsz elégtek elégé elégünk
+96	96	után	
+97	97	milyen	milyenben milyenek milyeneket milyennek milyenné milyenre milyet
+98	98	történik	történek történhet történhetett történhetne történhetnek történhettek történi történjen történjenek történne történnek történni történnie történnének történt történtek történtekben történtekből történteken történteket történtekhez történtekkel történteknek történtekre történtekről történtektől történtekért történtté történő
+99	99	rendben	
+100	100	talál	találhat találhatjuk találhatsz találhatunk találja találjak találjam találjanak találjon találjuk találjunk találják találjátok talállak találna találnak találni találnia találniuk találnod találnom találnunk találod találok találom találsz talált találta találtad találtak találtam találtatok találtok találtuk találtunk találták találtál találunk találó

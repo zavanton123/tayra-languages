@@ -1,0 +1,100 @@
+1	201	soha	
+2	202	által	
+3	203	szám	száma számat számba számban számból számhoz számmal számnak számnál számok számokat számokban számokból számokhoz számokkal számoknak számokon számokra számokról számon számot számra számról számtól számában számából számához számán számának számáról számát számától számával számért
+4	204	jut	juss jussak jussanak jusson jussunk juthat juthatnak juthatok juthatott juthatsz juthattak juthatunk jutna jutnak jutni jutnánk jutok jutott jutottak jutottam jutottatok jutottunk jutottál jutsz juttassa juttat juttatja juttatják juttatnak juttatni juttatnunk juttatott juttatta juttattak juttatták juttok jutunk jutva jutó
+5	205	nélkül	
+6	206	számára	számodra számomra számotokra számukra számunkra
+7	207	annyira	
+8	208	magad	magadat magadba magadban magadból magaddal magadhoz magadnak magadnál magadon magadra magadról magadtól magadért
+9	209	mind	mindben mindből minddel mindet mindhez mindnek mindnél mindre mindről mindtől
+10	210	pont	pontba pontban pontból ponthoz pontig pontjait pontként pontnak pontnál pontok pontokat pontokkal pontokon pontokra pontokért ponton pontot pontra pontról ponttal ponttól pontért
+11	211	visz	vidd vigye vigyek vigyem vigyen vigyenek vigyetek vigyék vigyél vigyétek vigyük vigyünk vihet viheted vihetem viheti vihetik vihetjük vinni vinné vinnék vinném visszük viszed viszek viszel viszem viszi viszik visznek viszünk vitt vitte vitted vittek vittem vitték vittél vittük
+12	212	használ	használhat használhatja használhatjuk használhatnak használhatnám használhatnánk használhatod használhatom használhatunk használja használjam használjanak használjon használjuk használjunk használják használjátok használnak használni használnia használnod használnom használnunk használná használnám használod használok használom használsz használta használtad használtam használtuk használtunk használták használtál használunk használva használó
+13	213	város	városba városban városból városhoz városig városnak városnál városok városokat városokba városokban városokból városokkal városoknak városokról városomban városon városra városról várossal várossá várost várostól városuk városunk városé városért
+14	214	mintha	
+15	215	teljesen	legteljesebben
+16	216	késő	később későig későn későre legkésőbb
+17	217	éves	évesek éveseket évesekkel éveseknek évesen éveshez évesként évesnek évesnél évesre évessel évest évestől évesé
+18	218	tovább	
+19	219	ház	házak házakat házakba házakban házakból házakhoz házakkal házaknak házaknál házakra házakról házat házba házban házból házhoz házig háznak háznál házon házra házról háztól házzal házé házért
+20	220	egymás	egymásba egymásban egymásból egymáshoz egymásnak egymásnál egymáson egymásra egymásról egymással egymást egymástól egymásé egymáséi egymásért
+21	221	meghal	meghalhat meghalhatnak meghalhatok meghalhatott meghalhatsz meghalhattak meghalhattam meghalhattok meghalhattunk meghalhattál meghalhatunk meghaljak meghaljanak meghaljatok meghaljon meghaljunk meghalna meghalnak meghalni meghalnia meghalniuk meghalnod meghalnom meghalnunk meghalnál meghalnának meghalnánk meghalnátok meghalnék meghalok meghalsz meghalt meghaltak meghaltam meghaltatok meghaltok meghaltunk meghaltál meghalunk
+22	222	reggel	reggelek reggeleken reggeleket reggelen reggelhez reggelig reggelre reggelről reggelt reggeltől
+23	223	hozzá	mihozzánk tehozzád énhozzám őhozzá
+24	224	hanem	
+25	225	oda	odébb
+26	226	ja	
+27	227	megvan	meglegyen meglegyenek meglehet meglenni meglesz megleszek megleszel meglesznek meglesztek megleszünk meglett meglettek meglevő meglévő megvagy megvagyok megvagytok megvagyunk megvannak megvolna megvolnánk megvolt megvoltak megvoltam megvoltatok megvoltunk megvoltál
+28	228	játszik	játssz játssza játsszak játsszon játsszuk játsszunk játsszák játsza játszana játszanak játszani játszania játszanod játszanom játszanunk játszanék játszd játszhat játszhatnak játszhatnánk játszhatok játszhatott játszhatsz játszhatunk játszod játszol játszom játszotok játszott játszotta játszottad játszottak játszottam játszottunk játszották játszottál játszunk játszva játszó
+29	229	igazán	
+30	230	képes	képesek képesnek képessé képest
+31	231	kép	képbe képben képből képek képekben képekből képeken képeket képekhez képekkel képeknek képekre képekről képektől képekért képen képet képhez képnek képpel képpé képre képről képtől képért
+32	232	indul	indulhatnak indulhatunk induljanak induljatok induljon induljunk indulnak indulni indulnod indulnom indulnunk indulok indulsz indult indultak indultam indultok indultunk indultál indulunk indulva induló indít indítanak indítani indítható indítja indítjuk indítják indítok indított indította indítottak indítottam indították indítsa indítson indítunk indító
+33	233	közel	közelbe közelben közelből közelebb közelre közelről közelükben legközelebb legközelebbre
+34	234	utolsó	legutolsó legutolsót utolsóban utolsóig utolsók utolsókat utolsókból utolsóként utolsón utolsónak utolsónál utolsóra utolsót utolsóval
+35	235	ellen	ellenben ellennek ellennel ellent
+36	236	emlékszik	emlékezek emlékezel emlékezhetek emlékezhetnek emlékezhetnék emlékezhetünk emlékezik emlékezne emlékezned emlékeznek emlékeznem emlékezni emlékeznie emlékezniük emlékeznék emlékeznél emlékeznének emlékeznénk emlékeznünk emlékeztek emlékeztem emlékeztél emlékeztünk emlékezve emlékezzem emlékezzenek emlékezzetek emlékezzünk emlékezünk emlékező emlékszel emlékszem emlékszünk
+37	237	mellett	
+38	238	film	filmbe filmben filmből filmek filmekbe filmekben filmekből filmeken filmeket filmekhez filmekkel filmeknek filmeknél filmekre filmekről filmekért filmen filmet filmhez filmmel filmnek filmnél filmre filmről filmtől filmért
+39	239	kapcsolat	kapcsolatba kapcsolatban kapcsolatból kapcsolathoz kapcsolatnak kapcsolatnál kapcsolatok kapcsolatokat kapcsolatokba kapcsolatokban kapcsolatokhoz kapcsolatokkal kapcsolatoknak kapcsolatokon kapcsolatokra kapcsolatokról kapcsolatoktól kapcsolaton kapcsolatot kapcsolatotok kapcsolatra kapcsolatról kapcsolattal kapcsolattól kapcsolatukat kapcsolatért
+40	240	készül	készülhetnek készülhetsz készülhetünk készüljek készüljenek készüljetek készüljön készüljünk készülne készülnek készülni készülnie készülniük készülnék készülnél készülnének készülnénk készülnöd készülnöm készülnötök készülnünk készülsz készült készültek készültem készültetek készültél készültök készültünk készülve készülök készülünk készülő készülőben
+41	241	először	
+42	242	egyetlen	egyetlenek egyetlent
+43	243	esik	ejt ejtem ejtenek ejteni ejtett ejtetted ejtettek ejtettem ejti ejtik ejtjük ejtsd ejtse ejtsük ejtve ejtő esek esel esem esett eshet eshetett esne esnek esni ess essel essen essünk estek estem estél estünk esve esés esünk eső esőben esőt
+44	244	remél	reméled remélek remélem remélhet remélheted remélhetek remélhetem remélheti remélhetjük remélhettem remélhetünk reméli remélik remélje reméljük remélnek remélni remélsz remélt remélte remélted reméltek reméltem remélték reméltél reméltük reméltünk remélve remélünk
+45	245	tetszik	tetsszen tetszel tetszem tetszene tetszenek tetszeni tetszenék tetszenél tetszenének tetszett tetszettek tetszettem tetszettél tetszettünk tetszhet tetszünk tetsző
+46	246	amíg	
+47	247	elmond	elmondani elmondania elmondanod elmondanom elmondanunk elmondaná elmondanád elmondanám elmondasz elmondhassam elmondhatja elmondhatjuk elmondhatná elmondhatnád elmondhatnám elmondhatod elmondhatok elmondhatsz elmondhatta elmondhattad elmondhattam elmondható elmondja elmondjak elmondjam elmondjuk elmondják elmondjátok elmondod elmondok elmondom elmondott elmondta elmondtad elmondtam elmondtuk elmondták elmondtál elmondunk
+48	248	kész	készek készen késznek készre
+49	249	bár	bárba bárban bárból bárhoz bárnak bárnál bárok bárokat bárokba bárokban báron bárra bárral bárról bárt bártól
+50	250	rajta	rajt rajthoz rajtnál rajtot rajtra őrajta
+51	251	felé	fele felébe felében feléből feléd feléhez feléig feléje feléjük felém felén felének felénk felénél felére feléről felét felétek felétől felével feléért mifelénk
+52	252	család	családba családban családból családdal családdá családhoz családként családnak családnál családok családokat családokban családokból családokhoz családokkal családoknak családoknál családokra családokról családoktól családom családommal családomnak családon családot családra családról családtól családunk családunkhoz családé családért
+53	253	elő	előbbre előre előrébb előről legelőre
+54	254	annyi	annyiba annyiban annyiból annyinak annyit annyival annyiért
+55	255	barát	barátaikkal barátainkat baráthoz barátként barátnak barátnál barátok barátokat barátokból barátokhoz barátokkal barátokká barátokként barátoknak barátoknál barátokra barátokról barátoktól barátokért barátom barátomat barátomhoz barátomként barátommal barátomnak barátomnál barátomon barátomra barátomról barátomtól barátomé barátomért baráton barátot barátra barátról baráttal baráttól barátért
+56	256	össze	összébb
+57	257	megöl	megölheti megölhette megöli megölik megölje megöljelek megöljem megöljenek megöljék megöljön megöljük megöllek megölne megölnek megölni megölnie megölné megölnék megölném megölnének megölnöd megölnöm megölsz megölt megölte megölted megöltek megöltelek megöltem megölték megöltél megöltétek megöltük megöltünk megölve megölöd megölök megölöm megölünk
+58	258	számít	számítana számítanak számítani számítanunk számítanék számítasz számíthat számíthatnak számíthatok számíthatott számíthatsz számíthattam számíthattok számíthattál számíthatunk számítható számítjuk számítok számított számítottak számítottam számítottunk számítottál számíts számítsak számítsanak számítsatok számítson számítsunk számítunk számítva számítás számítása számításai számításba számítások számításokat számítást számító
+59	259	mégis	
+60	260	szabad	szabadabb szabadabban szabadba szabadban szabaddá szabadjon szabadjára szabadna szabadnak szabadok szabadon szabadot szabadott
+61	261	következő	következőbe következőben következőhöz következőig következők következőkben következőket következőkre következőn következőnek következőnél következőre következőt következővel
+62	262	nehéz	legnehezebb nehezebb nehezebbet nehezek nehezeket nehezet nehéznek nehézre nehézzé
+63	263	ül	ülhet ülhetek ülhetsz ülhetünk ülj üljek üljenek üljetek üljön üljünk ülne ülnek ülni ülnék ülnél ülnénk ülsz ült ültek ültem ültet ültetek ültetett ültette ültél ültök ültünk ülve ülés ülések üléseket ülésen ülésre ülésről ülést ülök ülünk ülő ülők
+64	264	holnap	holnapban holnaphoz holnapig holnapnak holnapot holnappal holnapra holnapról holnaptól holnapért
+65	265	tehát	
+66	266	kérdés	kérdésben kérdésből kérdések kérdésekben kérdésekből kérdéseken kérdéseket kérdésekhez kérdésekkel kérdéseknek kérdéseknél kérdésekre kérdésekről kérdésektől kérdésen kérdéshez kérdésként kérdésnek kérdésnél kérdésre kérdésről kérdéssel kérdést kérdéstől kérdésért kérdésük kérdésünkre
+67	267	érdekel	érdekelhet érdekelheti érdekelhetne érdekelhetné érdekeli érdekelje érdekeljen érdekeljük érdekelne érdekelnek érdekelni érdekelnie érdekelné érdekelnéd érdekelnék érdekelnél érdekelnélek érdekelném érdekelnének érdekelsz érdekelt érdekelte érdekelted érdekeltek érdekeltelek érdekeltem érdekelték érdekeltél érdekli érdeklik érdeklő
+68	268	örül	örülhetek örülhetne örülhetnek örülhetnék örülhetnél örülhetsz örülhettek örülhetünk örüljek örüljenek örüljetek örüljön örüljünk örülne örülnek örülni örülnie örülnék örülnél örülnének örülnénk örülnétek örülnöd örülnöm örülnünk örülsz örült örültek örültem örültél örültök örültünk örülök örülünk
+69	269	srác	srácba srácban srácból sráccal sráchoz srácnak srácnál srácok srácokat srácokban srácokból srácokhoz srácokkal srácoknak srácoknál srácokon srácokra srácokról srácoktól srácokért srácon srácot srácra srácról sráctól srácé srácért
+70	270	követ	kövesd kövesse kövessem kövessen kövessenek kövessetek kövessék kövessétek kövessük követe követed követek követem követendő követett követhetjük követi követik követjük követlek követne követned követnek követnem követni követnie követnünk követsz követte követted követtek követtelek követtem követték követtél követtük követtünk követve követünk
+71	271	sikerül	sikerülhet sikerülhetett sikerülhetne sikerüljön sikerülne sikerülnek sikerülni sikerült sikerültek
+72	272	választ	válassz válassza válasszanak válasszon válasszuk válasszunk válasszák válaszd választanak választani választania választanod választanom választanunk választanám választasz választhat választhatnak választhatsz választhatunk választja választjuk választják választod választok választom választott választotta választottad választottak választottam választottuk választottunk választották választottál választunk választva választó választók
+73	273	mutat	mutassa mutassak mutassalak mutassam mutassatok mutasson mutassuk mutassunk mutassák mutassátok mutathatok mutatható mutatja mutatjuk mutatják mutatna mutatnak mutatni mutatnia mutatnod mutatnom mutatnunk mutatnék mutatod mutatok mutatom mutatott mutatsz mutatta mutattad mutattak mutattam mutatták mutattál mutatunk mutatva mutató mutatója mutatók
+74	274	ország	országba országban országból országgal országgá országhoz országnak országok országokat országokba országokban országokból országokkal országoknak országokra országon országot országra országról országtól országuk országunk országé országért
+75	275	helyzet	helyzetbe helyzetben helyzetből helyzetek helyzetekbe helyzetekben helyzetekből helyzeteket helyzetekhez helyzetekkel helyzetekre helyzetem helyzeten helyzetet helyzethez helyzetnek helyzetre helyzetről helyzettel helyzettől helyzetért helyzetük helyzetüket
+76	276	legalább	
+77	277	teljes	legteljesebb teljesebb teljesek teljesnek teljessé
+78	278	többi	többiben többiből többiek többiekben többieken többieket többiekhez többiekkel többieknek többieknél többiekre többiekről többiektől többieké többiekért többihez többin többinek többinél többire többiről többit többitől többivel többiért
+79	279	eszik	edd egye egyem egyenek egyetek egyél egyétek együk együnk ehet ehetek ehetnénk ehetünk enne enni ennék ennénk esszük eszed eszedbe eszedet eszek eszel eszi esznek esztek eszünk eszünkbe etet eteti ette etted ettek ettem ettetek ettél ettünk evett evő
+80	280	gyorsan	gyorsabban leggyorsabban
+81	281	komolyan	komolyabban legkomolyabban
+82	282	enged	engedd engeded engedek engedem engedett engedheted engedhetek engedhetem engedhetjük engedhetlek engedhettem engedi engedik engedj engedje engedjem engedjen engedjenek engedjetek engedjék engedjétek engedjük engedlek engedned engednek engednem engedni engednie engedné engedném engednünk engedsz engedte engedted engedtek engedtem engedték engedve engedünk
+83	283	fej	fejbe fejben fejből feje fejed fejedbe fejedben fejedből fejeddel fejeden fejedet fejedhez fejedre fejek fejeket fejen fejet fejjel fejnek fejre fejt fejteni fejtett fejtette fejti fejtsd fejébe fejében fejéből fejéhez fején fejének fejére fejét fejével fejünk fejünkben fejünket fejünkre
+84	284	kedves	kedvese kedvesebb kedvesebben kedvesek kedvesen kedveset kedvesnek kedvest kedvesének legkedvesebb
+85	285	megint	
+86	286	megtalál	megtalálhatjuk megtalálhatod megtalálhatom megtalálja megtaláljalak megtaláljam megtaláljanak megtaláljon megtaláljuk megtaláljunk megtalálják megtaláljátok megtalállak megtalálnak megtalálni megtalálnia megtalálnod megtalálnom megtalálnunk megtalálná megtalálnád megtalálnák megtalálnám megtalálnánk megtalálod megtalálom megtalálsz megtalált megtalálta megtaláltad megtaláltak megtaláltalak megtaláltam megtaláltuk megtaláltunk megtalálták megtaláltál megtaláltátok megtalálunk
+87	287	nyer	nyered nyerek nyerem nyerhet nyerhetek nyerhetnek nyerhetsz nyerhettek nyerhetünk nyerhető nyeri nyerik nyerj nyerjek nyerjen nyerjenek nyerjük nyerjünk nyerne nyerned nyernek nyernem nyerni nyernie nyernék nyernünk nyersz nyert nyerte nyerted nyertek nyertem nyertetek nyerték nyertél nyertük nyertünk nyerünk nyerő
+88	288	második	másodikak másodikat másodikba másodikban másodikhoz másodikkal másodikként másodiknak másodiknál másodikok másodikon másodikra másodikról
+89	289	víz	vizei vizek vizekbe vizekben vizeken vizeket vizekhez vizekre vizet vízbe vízben vízből vízen vízhez vízig víznek víznél vízre vízről víztől vízzel vízzé vízért
+90	290	játék	játékba játékban játékból játékhoz játékkal játékként játéknak játéknál játékok játékokat játékokba játékokban játékokból játékokhoz játékokkal játékoknak játékokon játékokra játékokról játékon játékot játékra játékról játéktól játékért
+91	291	igazi	igaziak igaziakat igaziban igazibb igaziból igazihoz igazinak igazira igazit igazival igazivá
+92	292	föld	földbe földben földből földdel földek földeken földeket földekre földekről földet földhöz földig földjük földjükön földnek földnél földre földről földtől földé földért földön földünket földünkre
+93	293	hosszú	hosszabb hosszabbnak hosszabbra hosszúak hosszúnak hosszúra hosszút leghosszabb
+94	294	vezet	vezesse vezessek vezessem vezessen vezessenek vezessetek vezessék vezessük vezeted vezetek vezetem vezetett vezethet vezethetek vezethetem vezetheti vezethetnek vezethetsz vezeti vezetik vezetjük vezetlek vezetne vezetned vezetnek vezetnem vezetni vezetnie vezetné vezetsz vezette vezetted vezettek vezettem vezették vezettél vezettünk vezetve vezetünk
+95	295	hal	halak halakat halakkal halandó halandók halat halhat halhatnak halhatok halhatott halhatsz halhattam halhattál halj haljak haljanak haljon haljunk hallal halna halnak halni halniuk halnod halnom halnál halnék halok halra halsz halt haltak haltam haltok haltunk haltál halunk halva haló
+96	296	régi	legrégebbi legrégibb régebbi régibe régiben régiek régieket régiekkel régihez réginek régire régit régivel
+97	297	összes	
+98	298	csapat	csapataik csapataikat csapatait csapatba csapatban csapatból csapathoz csapatként csapatnak csapatnál csapatok csapatokat csapatokba csapatokban csapatokhoz csapatokkal csapatoknak csapatokra csapaton csapatot csapatra csapatról csapattal csapattá csapattól csapatuk csapaté csapatért
+99	299	kéz	keze kezek kezekbe kezekben kezeket kezekkel kezeknek kezekre kezet kezébe kezében kezéből kezéhez kezén kezének kezénél kezére kezéről kezét kezétől kezével kezéért kézbe kézben kézből kézen kézhez kéznek kéznél kézre kézről kéztől
+100	300	végez	végezhet végezhető végezne végezned végeznek végeznem végezni végeznie végezné végeznék végeznünk végezte végezted végeztek végeztem végeztetek végezték végeztél végeztével végeztük végeztünk végezve végezze végezzek végezzem végezzen végezzenek végezzetek végezzék végezzük végezzünk végzed végzek végzel végzem végzi végzik végzünk végző

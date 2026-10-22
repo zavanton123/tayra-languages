@@ -1,0 +1,100 @@
+1	2001	reagál	reagálja reagáljak reagáljanak reagáljon reagáljuk reagáljunk reagálna reagálnak reagálni reagálnia reagálnod reagálnom reagálnunk reagálnál reagálnának reagálnék reagálod reagálok reagálsz reagált reagáltak reagáltam reagáltok reagáltunk reagáltál reagálunk reagálva reagálás reagáló
+2	2002	fénykép	fényképei fényképek fényképeken fényképeket fényképekkel fényképekre fényképekről fényképen fényképet fényképhez fényképpel fényképre fényképről fényképét
+3	2003	hatékony	hatékonyabb hatékonyak hatékonynak leghatékonyabb
+4	2004	erősít	erősíted erősítem erősítened erősítenem erősíteni erősítenie erősítené erősítenünk erősített erősítette erősítettek erősítettem erősíti erősítik erősítjük erősítse erősítsem erősítsen erősítsék erősítsétek erősítsük erősítve erősítés erősítést erősítésért
+5	2005	szád	szádat szádba szádban szádból száddal szádhoz szádnak szádon szádra szádról szájad
+6	2006	csendben	csöndben
+7	2007	feladata	feladatában feladatához feladatának feladatára feladatát feladatával
+8	2008	büntetés	büntetésben büntetésből büntetések büntetéseket büntetésként büntetésnek büntetésre büntetésről büntetéssel büntetést büntetéstől büntetésért büntetésüket büntetésül
+9	2009	ragaszkodik	ragaszkodjunk ragaszkodna ragaszkodnak ragaszkodni ragaszkodnia ragaszkodnod ragaszkodnom ragaszkodnunk ragaszkodnék ragaszkodok ragaszkodom ragaszkodott ragaszkodsz ragaszkodtak ragaszkodtam ragaszkodtok ragaszkodtunk ragaszkodtál ragaszkodunk ragaszkodás ragaszkodó
+10	2010	ötödik	ötödikbe ötödikben ötödiken ötödiket ötödikre
+11	2011	mögé	mögéd mögéje mögéjük mögém mögénk
+12	2012	ellentét	ellentétbe ellentétben ellentéte ellentétek ellentéteket ellentétet ellentétét
+13	2013	meló	melóba melóban melóból melóhoz melók melókat melón melónak melónál melóra melóról melót melótól melóval melóért
+14	2014	sereg	seregbe seregben seregből serege seregei seregek seregeket sereget sereggel sereghez seregnek seregnél seregre seregről seregtől
+15	2015	állítólag	
+16	2016	vírus	vírusból vírushoz vírusként vírusnak vírusok vírusokat vírusokkal vírusra vírusról vírussal vírust vírustól
+17	2017	világa	világába világában világából világához világán világának világára világáról világát világától világával
+18	2018	távolság	távolságba távolságban távolságból távolsággal távolságok távolságokat távolságokra távolságon távolságot távolságra távolságról
+19	2019	vak	vakká vaknak vakok vakokat vakoknak vakon vakot vakulni vakult
+20	2020	világbajnokság	vb világbajnokságon világbajnokságot világbajnokságra
+21	2021	haja	hajába hajában hajából hajához haján hajának hajánál hajára hajáról haját hajával
+22	2022	varga	
+23	2023	közeledik	közeledek közeledett közeledjen közeledne közelednek közeledni közeledsz közeledtek közeledtem közeledtél közeledtünk közeledve közeledünk közeledő
+24	2024	szépség	szépségben szépsége szépségek szépségeket szépséget szépséggel szépséghez szépségnek szépségre szépségről szépségtől szépségének szépségért szépségét
+25	2025	szüleim	szüleimet szüleimhez szüleimmel szüleimnek szüleimnél szüleimre szüleimről szüleimtől szüleimé
+26	2026	együttműködik	együttműködjek együttműködjön együttműködjünk együttműködne együttműködnek együttműködni együttműködnünk együttműködsz együttműködtek együttműködtem együttműködtél együttműködtök együttműködtünk együttműködve együttműködés együttműködésnek együttműködésre együttműködésért együttműködök együttműködött együttműködünk együttműködő együttműködőbb együttműködőek
+27	2027	magyarázat	magyarázatnak magyarázatok magyarázatokat magyarázatot magyarázatra magyarázattal
+28	2028	őriz	őrizlek őrizned őriznek őriznem őrizni őriznünk őrizted őriztek őriztem őrizték őriztük őrizz őrizze őrizzem őrizzen őrizzék őrizzétek őrizzük őrzi őrzik őrzöd őrzök őrzött
+29	2029	felesleges	feleslegesek feleslegesen feleslegesnek feleslegessé
+30	2030	ügyfél	ügyfele ügyfelek ügyfeleket ügyfelekkel ügyfeleknek ügyfelekre ügyfelekről ügyfelektől ügyfelet ügyfelével ügyfélhez ügyfélként ügyféllel ügyfélnek ügyfélnél ügyfélre ügyfélről ügyféltől
+31	2031	haj	hajakat hajat hajba hajban hajból hajjal hajnak hajon hajra hajról
+32	2032	megállapodik	megállapodhatunk megállapodni megállapodnunk megállapodok megállapodott megállapodsz megállapodtak megállapodtam megállapodtunk megállapodtál megállapodunk megállapodás megállapodása megállapodásban megállapodáshoz megállapodásnak megállapodások megállapodásra megállapodásról megállapodással megállapodást
+33	2033	sült	sültek sültet
+34	2034	ijesztő	ijesztőbb ijesztőek ijesztően ijesztőnek ijesztőt ijesztővé legijesztőbb
+35	2035	értéke	értékéből értékének értékére értékéről értékét értékével
+36	2036	minisztérium	minisztériuma minisztériumba minisztériumban minisztériumból minisztériumhoz minisztériummal minisztériumnak minisztériumnál minisztériumok minisztériumot minisztériumtól
+37	2037	közönség	közönségben közönségből közönsége közönséget közönséggel közönséghez közönségnek közönségre közönségtől
+38	2038	pályázat	pályázatok pályázaton pályázatot pályázatra
+39	2039	randizik	randizhat randizhatnak randizhatnál randizhatnánk randizhatnék randizhatok randizhatsz randizhatunk randizna randiznak randizni randiznia randiznod randiznom randiznunk randiznál randiznánk randiznék randizok randizol randizott randiztak randiztam randiztatok randiztok randiztunk randiztál randizunk randizzanak randizzon randizzunk randizó
+40	2040	évente	
+41	2041	elolvas	elolvashassam elolvashatja elolvashatnád elolvashatod elolvashatom elolvasni elolvasnia elolvasnod elolvasnom elolvasná elolvasnád elolvasnám elolvasod elolvasok elolvasom elolvasott elolvassa elolvassam elolvassuk elolvassák elolvasta elolvastad elolvastam elolvastuk elolvasták elolvastál elolvastátok
+42	2042	révén	
+43	2043	testvére	testvéreként testvéréhez testvérén testvérének testvérénél testvérére testvéréről testvérét testvérétől testvérével testvéréért
+44	2044	sarok	sarkak sarkok sarkokat sarkokban sarkokon sarkon sarkot sarokba sarokban sarokból sarokhoz sarokig sarokkal saroknál sarokra sarokról saroktól
+45	2045	igény	igénybe igények igényeket igényekkel igényeknek igényt
+46	2046	sebesség	sebességbe sebességben sebességből sebességen sebességet sebességgel sebességnél sebességre sebességről
+47	2047	kettes	kettesbe kettesben kettesek kettesen kettesnek kettesre kettessel kettest
+48	2048	képvisel	képviseled képviselek képviselem képviselhetem képviselheti képviseli képviselik képviselitek képviselje képviseljem képviseljen képviseljék képviseljük képvisellek képviselne képviselnek képviselni képviselnie képviselné képviselsz képviselt képviselte képviseltek képviseltem képviselték képviselve képviselünk
+49	2049	hőmérséklet	hőmérsékleten hőmérsékletet hőmérsékletnek hőmérsékletre hőmérséklettel
+50	2050	teli	telibe telinek
+51	2051	szörny	szörnnyel szörnnyé szörnyben szörnyek szörnyekben szörnyeket szörnyekkel szörnyekké szörnyeknek szörnyekre szörnyekről szörnyektől szörnyet szörnyhöz szörnyként szörnynek szörnyre szörnyről szörnytől szörnyé
+52	2052	hangulat	hangulatba hangulatban hangulathoz hangulatnak hangulatot hangulatra hangulattal
+53	2053	alakít	alakítanak alakítani alakítania alakítanom alakítanunk alakítasz alakíthatja alakíthatjuk alakítja alakítjuk alakítják alakítod alakítok alakítom alakított alakítottad alakítottak alakítottam alakítottuk alakítottunk alakították alakítottál alakítsa alakítsam alakítsanak alakítson alakítsuk alakítsunk alakítsák alakítunk alakítva alakító
+54	2054	holland	hollandnak hollandok hollandot hollandul
+55	2055	labdarúgó	
+56	2056	magatok	magatokat magatokba magatokban magatokból magatokhoz magatokkal magatoknak magatokon magatokra magatokról magatoktól magatokért
+57	2057	környezet	környezetbe környezetben környezetből környezetet környezethez környezetnek környezetre környezetről környezettel környezetért
+58	2058	manapság	
+59	2059	szabadul	szabadulhatnánk szabadulhatok szabadulhatsz szabadulhatunk szabaduljak szabaduljanak szabaduljatok szabaduljon szabaduljunk szabadulna szabadulnak szabadulni szabadulnia szabadulniuk szabadulnod szabadulnom szabadulnunk szabadulok szabadulsz szabadult szabadultak szabadultam szabadultok szabadultunk szabadultál szabadulunk szabaduló
+60	2060	csirke	csirkéből csirkéhez csirkék csirkéket csirkékkel csirkéknek csirkének csirkére csirkéről csirkét csirkével csirkéért
+61	2061	oktatás	oktatásban oktatásnak oktatáson oktatásra oktatásról oktatással oktatást oktatásért
+62	2062	izé	izébe izében izéből izéhez izék izéket izékkel izén izének izére izéről izét izétől izével
+63	2063	tanulmány	tanulmányban tanulmányhoz tanulmányok tanulmányokat tanulmányra tanulmányról tanulmányt
+64	2064	megmarad	megmaradhat megmaradjanak megmaradjon megmaradna megmaradnak megmaradni megmaradok megmaradsz megmaradt megmaradtak megmaradunk megmaradó
+65	2065	kisfiú	kisfia kisfiát kisfiúk kisfiúkat kisfiúkkal kisfiúknak kisfiúként kisfiúnak kisfiúra kisfiúról kisfiút kisfiúval kisfiúért
+66	2066	sima	legsimább simább simák simának simára simát
+67	2067	vidék	vidékeken vidéken vidéket vidéknek vidékre vidékről
+68	2068	olaj	olajat olajba olajban olajból olajhoz olajjal olajnak olajok olajra olajról olajt olajtól olajért
+69	2069	kivesz	kivegye kivegyem kivegyék kivegyük kiveheted kivehetem kiveheti kivehetjük kivehetném kivehetnénk kivehető kivenned kivennem kivenni kivenné kivennéd kivennék kivennél kivenném kivennénk kivesszük kiveszed kiveszek kiveszel kiveszem kiveszi kiveszik kiveszlek kivesznek kiveszünk kivett kivette kivetted kivettek kivettem kivették kivettél kivettük kivettünk
+70	2070	villamos	villamosok villamoson villamosra villamossal villamost
+71	2071	szórakozás	szórakozása szórakozásban szórakozásból szórakozáshoz szórakozásnak szórakozásra szórakozásról szórakozással szórakozást szórakozásért
+72	2072	terve	tervébe tervében tervéhez tervén tervének tervére tervéről tervét tervével
+73	2073	hatóság	hatósággal hatósághoz hatóságnak hatóságnál hatóságok hatóságokat hatóságokhoz hatóságokkal hatóságoknak hatóságoknál hatóságokra hatóságoktól hatóságot hatóságtól
+74	2074	feltétel	feltételek feltételekben feltételeket feltételekhez feltételekkel feltételeknek feltételekről feltételhez feltétellel feltételnek feltételt
+75	2075	pasas	pasasban pasashoz pasasnak pasasnál pasasok pasasokat pasasokkal pasason pasasra pasasról pasassal pasast pasastól pasasé
+76	2076	ahonnan	ahonnét
+77	2077	éjszakai	
+78	2078	színe	színében színéből színéhez színén színére színéről színét színével
+79	2079	digitális	
+80	2080	élmény	élménnyel élményben élmények élményeket élményekkel élményekre élményekről élményem élményen élménynek élményre élményről élményt
+81	2081	elégedett	elégedettebb elégedettek elégedetten elégedettnek elégedetté
+82	2082	kipróbál	kipróbálhassam kipróbálhatja kipróbálhatjuk kipróbálhatná kipróbálhatnád kipróbálhatnám kipróbálhatnánk kipróbálhatod kipróbálhatok kipróbálhatom kipróbálhatunk kipróbálja kipróbáljam kipróbáljuk kipróbálják kipróbáljátok kipróbálni kipróbálnod kipróbálnom kipróbálnunk kipróbálná kipróbálnád kipróbálnám kipróbálnánk kipróbálnék kipróbálod kipróbálok kipróbálom kipróbálsz kipróbált kipróbálta kipróbáltad kipróbáltak kipróbáltam kipróbáltuk kipróbáltunk kipróbálták kipróbáltál kipróbálunk
+83	2083	szolgáltatás	szolgáltatások szolgáltatásokat szolgáltatásokkal szolgáltatásokért szolgáltatásra szolgáltatással szolgáltatást szolgáltatásért
+84	2084	főiskola	főiskolába főiskolában főiskolához főiskoláig főiskolák főiskolán főiskolának főiskolára főiskoláról főiskolát főiskolával
+85	2085	házas	házasként házasnak házasok házasokat házasoknak
+86	2086	speciális	
+87	2087	órás	
+88	2088	tönk	tönkre
+89	2089	látlak	
+90	2090	lámpa	lámpába lámpában lámpához lámpáját lámpák lámpákat lámpákkal lámpán lámpának lámpánál lámpára lámpáról lámpát lámpával
+91	2091	nyilvánvaló	legnyilvánvalóbb nyilvánvalóak nyilvánvalóbb nyilvánvalón nyilvánvalónak nyilvánvalót nyilvánvalóvá
+92	2092	elfoglalt	elfoglaltabb elfoglaltak elfoglaltnak
+93	2093	ragad	ragadhat ragadhatunk ragadja ragadjak ragadjam ragadjanak ragadjatok ragadjon ragadjuk ragadjunk ragadják ragadjátok ragadna ragadnak ragadni ragadnia ragadnod ragadnom ragadnunk ragadnék ragadod ragadok ragadom ragadott ragadsz ragadt ragadta ragadtak ragadtam ragadtatok ragadtunk ragadták ragadtál ragadunk ragadva ragadó
+94	2094	technika	technikában technikához technikák technikákat technikákkal technikának technikára technikáról technikát technikával
+95	2095	bánik	bánhat bánhatnak bánhatunk bánj bánjatok bánjunk bánják bánjátok bánna bánni bánnia bánnunk bánnának bánnánk bánnátok bánnék bánsz bántak bántok bántunk bánták
+96	2096	rohadék	rohadékkal rohadéknak rohadékok rohadékokat rohadékoknak rohadékot rohadékra
+97	2097	pozíció	pozícióba pozícióban pozícióból pozícióhoz pozíciók pozíciókat pozíciókba pozíciókban pozícióra pozícióról pozíciót pozícióval pozícióért
+98	2098	randi	randiba randihoz randiig randik randikat randikon randikra randin randinak randira randiról randit randival randiért
+99	2099	benneteket	
+100	2100	másfél	másfele másfelet

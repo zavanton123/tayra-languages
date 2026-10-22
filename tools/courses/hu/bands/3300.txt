@@ -1,0 +1,100 @@
+1	3201	kém	kémek kémeket kémekkel kémeknek kémekre kémekről kémet kémje kémként kémmel kémnek kémre kémről
+2	3202	televízió	televízióban televíziók televíziónak televíziót
+3	3203	rajzol	rajzolhatok rajzolhatsz rajzolja rajzoljak rajzoljam rajzoljon rajzoljuk rajzoljunk rajzolják rajzolna rajzolnak rajzolni rajzolnod rajzolnom rajzolnál rajzolod rajzolok rajzolom rajzolsz rajzolt rajzoltad rajzoltak rajzoltam rajzoltunk rajzolták rajzoltál rajzolunk rajzolva rajzolás rajzoló rajzolót rajzolóval
+4	3204	megfordul	megfordulhat megfordulhatsz megforduljak megforduljon megfordulna megfordulnak megfordulni megfordulnál megfordulok megfordulsz megfordult megfordultak megfordultam megfordultunk megfordultál megfordulunk
+5	3205	tragédia	tragédiába tragédiában tragédiából tragédiához tragédiák tragédiákat tragédiának tragédiára tragédiáról tragédiát tragédiával tragédiáért
+6	3206	hétköznapi	hétköznapiak hétköznapibb hétköznapinak leghétköznapibb
+7	3207	toll	tollak tollakat tollakkal tollal tollat tollba tollra
+8	3208	homok	homokba homokban homokból homokkal homoknak homokon homokot homokra homoktól
+9	3209	érintett	érintettek érintettnek
+10	3210	fém	fémből fémek fémeket fémekkel fémen fémet fémmel fémnek fémre
+11	3211	vonatkozik	vonatkozna vonatkoznak vonatkozott
+12	3212	túlélő	túlélők túlélőket túlélőkkel túlélőknek túlélőkről túlélőnek túlélőt túlélővel
+13	3213	magasság	magasságba magasságban magasságból magassággal magasságig magasságokba magasságokban magasságon magasságot magasságra magasságtól magasságában
+14	3214	pince	pincébe pincében pincéből pincéje pincéjében pincékben pincén pincére pincét pincétől
+15	3215	hazafelé	
+16	3216	megkezdődik	megkezdődnek megkezdődtek megkezdődött
+17	3217	filmje	filmjébe filmjében filmjéből filmjéhez filmjének filmjére filmjéről filmjét filmjével
+18	3218	szervezete	szervezetébe szervezetében szervezetéből szervezetének szervezetét
+19	3219	barátunk	barátunkat barátunkhoz barátunkkal barátunknak barátunkra barátunkról barátunktól barátunkért
+20	3220	ütközik	ütközne ütköznek ütközni ütköztek ütköztem ütköztél ütköztünk ütközzön ütközök ütközöl ütközött ütközünk ütköző ütközőt
+21	3221	felhasználó	felhasználók felhasználókat felhasználóknak felhasználónak felhasználót
+22	3222	elfoglal	elfoglalhatja elfoglalhatod elfoglalja elfoglaljam elfoglaljuk elfoglalják elfoglaljátok elfoglalnak elfoglalni elfoglalná elfoglalod elfoglalom elfoglaltad elfoglaltam elfoglaltuk elfoglalták elfoglalva
+23	3223	kifogás	kifogása kifogásként kifogásnak kifogások kifogásokat kifogásokból kifogásokkal kifogásra kifogással kifogást
+24	3224	közeleg	közelegnek közelg közelgett közelgő
+25	3225	ünnepség	ünnepségek ünnepségeket ünnepségen ünnepséget ünnepséggel ünnepséghez ünnepségnek ünnepségre ünnepségről
+26	3226	errefelé	errefele
+27	3227	adódik	adódhat adódhatnak adódna adódott adódtak adódó adódóan
+28	3228	kedvencem	kedvencemet
+29	3229	alapítója	alapítójának alapítóját
+30	3230	rekord	rekordok rekordokat rekordot
+31	3231	tűzoltó	tűzoltók tűzoltókat tűzoltókkal tűzoltóknak tűzoltókra tűzoltónak tűzoltót tűzoltóval
+32	3232	tévedés	tévedésbe tévedésben tévedésből tévedések tévedéseket tévedésnek tévedésről tévedést
+33	3233	haldoklik	haldoklanak haldoklasz haldoklott haldoklunk haldokló haldoklók haldoklókat haldoklónak haldoklót haldokolnak haldokolnék haldokoltak
+34	3234	lila	lilában lilák lilának lilára lilát lilával
+35	3235	törvényes	törvényesek törvényesen törvényesnek törvényessé
+36	3236	részleg	részlegbe részlegben részlegből részlege részlegek részlegeket részlegen részleget részleggel részleghez részlegnek részlegnél részlegre részlegről részlegtől részlegében részlegének
+37	3237	akarata	akaratából akaratán akaratának akaratát akaratával
+38	3238	szelleme	szellemében szelleméhez szellemének szellemére szelleméről szellemét szellemétől szellemével
+39	3239	fedélzet	fedélzeten fedélzetet fedélzetre fedélzetről
+40	3240	növekedik	növekedett növekedhet növekedjen növekedne növekednek növekedni növekedtek növekedő növekszik növeszt növeszteni
+41	3241	forrása	forrásához forrásának forrásánál forrására forrását forrásával
+42	3242	csatlakoz	csatlakozott
+43	3243	felhő	felhőbe felhőben felhőből felhői felhők felhőkbe felhőkben felhőkből felhőket felhőkkel felhőkre felhőkön felhőn felhőnek felhőről felhőt
+44	3244	összefüggés	összefüggésbe összefüggésben összefüggések összefüggéseket összefüggést
+45	3245	utasít	utasítalak utasítana utasítanak utasítani utasítania utasítanod utasítanom utasítanunk utasítaná utasítanám utasítasz utasíthatja utasíthatjuk utasíthatnám utasíthatod utasíthatok utasíthatom utasíthatsz utasíthattam utasítja utasítjuk utasítják utasítod utasítok utasítom utasított utasította utasítottad utasítottak utasítottalak utasítottam utasítottuk utasították utasítottál utasítsa utasítsam utasítson utasítsák utasítva
+46	3246	brazil	brazilok
+47	3247	őrültség	őrültsége őrültséget
+48	3248	szempontja	szempontjából
+49	3249	rabszolga	rabszolgaként rabszolgája rabszolgák rabszolgákat rabszolgákkal rabszolgákká rabszolgáknak rabszolgákra rabszolgának rabszolgát rabszolgával rabszolgává
+50	3250	ígéret	ígéretek ígéreteket ígéretekkel ígéretet ígéretnek ígéretre ígérettel
+51	3251	másrészt	
+52	3252	megver	megvered megverem megveri megverik megverje megverjelek megverjem megverjen megverjenek megverjék megverjük megverlek megvernek megverni megversz megvert megverte megverted megvertek megvertelek megvertem megverték megvertél megvertük megverve
+53	3253	különbözik	különbözne különböznek különbözni különböztek különböztet különböztök különböztünk különbözök különbözöl különbözött különbözünk
+54	3254	ipar	iparba iparban iparnak ipart
+55	3255	eb	ebbe ebben ebből ebek eben ebet ebül
+56	3256	holt	holtak holtakat holtakkal holtaknak holtat holtig holtnak holtra holttal holttá
+57	3257	hűséges	hűségesebb hűségesek hűségesen hűségesnek leghűségesebb
+58	3258	készpénz	készpénzben készpénzhez készpénznek készpénzre készpénzt készpénzzel készpénzért
+59	3259	egyezik	egyezek egyezel egyezhet egyezhetek egyezne egyezned egyeznem egyeznie egyezniük egyeznék egyeznének egyeznünk egyeztem egyeztetek egyeztél egyezzen egyezzenek egyezzünk egyezünk egyező
+60	3260	uralkodik	uralkodhat uralkodhatsz uralkodj uralkodjak uralkodjanak uralkodjon uralkodjunk uralkodjék uralkodna uralkodnak uralkodni uralkodnia uralkodnod uralkodnom uralkodok uralkodott uralkodsz uralkodtak uralkodtam uralkodunk
+61	3261	tested	testedbe testedben testedből testeddel testeden testedet testedhez testednek testedre testedről
+62	3262	semmiség	semmiségek semmiségeket semmiségen semmiséget semmiségnek semmiségért
+63	3263	dér	derek dereket derekkel dereknek derekről
+64	3264	bizonyul	bizonyulna bizonyulnak bizonyulni bizonyult bizonyultak bizonyultam bizonyultál
+65	3265	buzi	buzik buzikat buzikkal buziknak buzinak buzit buzival
+66	3266	haszna	hasznára hasznát
+67	3267	nukleáris	
+68	3268	kanapé	kanapéba kanapéban kanapéhoz kanapék kanapén kanapénak kanapéra kanapéról kanapét kanapétól kanapéval
+69	3269	szakma	szakmába szakmában szakmából szakmához szakmák szakmám szakmának szakmára szakmáról szakmát szakmával
+70	3270	helytelen	helytelenek helytelennek helytelent helytelenül
+71	3271	akta	aktába aktában aktából aktához akták aktákat aktákba aktákban aktákból aktákhoz aktákkal aktákra aktákról aktán aktának aktára aktáról aktát aktával
+72	3272	beleegyezik	beleegyezek beleegyezel beleegyezem beleegyezett beleegyezne beleegyeznek beleegyeznem beleegyeznél beleegyeztek beleegyeztem beleegyeztél beleegyeztünk beleegyezzen beleegyezünk beleegyező
+73	3273	hátralévő	hátralevő
+74	3274	alatta	alattad alattam alattatok alattuk alattunk
+75	3275	kereskedő	kereskedőhöz kereskedői kereskedők kereskedőket kereskedőkkel kereskedőknek kereskedőktől kereskedőnek kereskedőnél kereskedőt kereskedőtől kereskedővel
+76	3276	szoftver	szoftverek szoftvereket szoftverrel szoftvert
+77	3277	készülék	készüléke készülékek készülékeket készüléken készüléket készülékkel készüléknek készülékre készülékről készülékét
+78	3278	ütés	ütésbe ütésből ütése ütéseit ütések ütéseket ütésekkel ütéshez ütésnek ütésnél ütésre ütéssel ütést ütéstől
+79	3279	pompás	legpompásabb pompásak pompásan
+80	3280	négyes	négyesbe négyesben négyesek négyesen négyesnek négyesnél négyesre négyessel négyest
+81	3281	teherautó	teherautóba teherautóban teherautóból teherautóhoz teherautók teherautókat teherautókkal teherautókon teherautókra teherautón teherautónak teherautóra teherautóról teherautót teherautóval
+82	3282	leírása	leírásában leírásának leírására leírását leírásával
+83	3283	intenzív	intenzívebb intenzíven intenzívet intenzívre intenzívről legintenzívebb
+84	3284	legénység	legénységben legénységből legénysége legénységet legénységgel legénységhez legénységnek legénységre legénységről
+85	3285	egri	
+86	3286	forintos	
+87	3287	zsír	zsírban zsírból zsírral zsírt
+88	3288	bizonytalan	bizonytalanabb bizonytalannak bizonytalanná bizonytalanok bizonytalanul
+89	3289	tudomás	tudomásomra tudomást tudomásul
+90	3290	ázsiai	ázsiaiak ázsiaiakat ázsiainak ázsiait
+91	3291	református	reformátusok
+92	3292	összeszed	összeszeded összeszedek összeszedem összeszedett összeszedi összeszedik összeszedje összeszedjek összeszedjem összeszedjék összeszedjük összeszedned összeszednek összeszednem összeszedni összeszednie összeszedné összeszednéd összeszednünk összeszedsz összeszedte összeszedted összeszedtek összeszedtem összeszedték összeszedtél összeszedtük összeszedtünk összeszedve összeszedünk
+93	3293	számtalan	
+94	3294	ölt	öltenek ölteni ölthet ölti öltsd öltsön öltve öltök öltött öltötte öltöttek öltöttem öltünk
+95	3295	design	dizájn dizájnt
+96	3296	lep	lepd lepett lepi lepik lepj lepje lepjen lepjük lepne lepnek lepni lepte lepték leptél lepve
+97	3297	index	indexek indexet
+98	3298	iker	ikrek ikreket ikrekkel ikreknek ikreknél ikrekre ikrekről
+99	3299	műhely	műhelybe műhelyben műhelyből műhelyek műhelynél műhelyt
+100	3300	szag	szaggal szagok szagokat szagot szagra szagról szagtól

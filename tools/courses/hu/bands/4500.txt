@@ -1,0 +1,100 @@
+1	4401	egyfolytában	
+2	4402	magabiztos	magabiztosabb magabiztosak magabiztosnak magabiztossá
+3	4403	sürgősen	
+4	4404	kaszinó	kaszinóba kaszinóban kaszinóból kaszinóhoz kaszinók kaszinókat kaszinókban kaszinón kaszinónak kaszinónál kaszinóra kaszinóról kaszinót kaszinótól kaszinóval
+5	4405	képregény	képregényben képregényből képregények képregényekben képregényeket képregényt
+6	4406	középiskolai	
+7	4407	útközben	
+8	4408	menedzser	menedzserek menedzserként menedzsernek menedzserre menedzserrel menedzsert
+9	4409	kiadvány	kiadványban kiadványok kiadványokat kiadványt
+10	4410	vize	vizen vizébe vizében vizéből vizén vizének vizét vizével
+11	4411	desszert	desszertek desszerteket desszertet desszerthez desszertként desszertnek desszertnél desszertre desszerttel desszertért
+12	4412	naptár	naptárak naptárakat naptárat naptárba naptárban naptáron naptárra naptárt
+13	4413	aggaszt	aggasszon aggasztana aggasztanak aggasztani aggasztja aggasztják aggasztott aggasztotta aggasztó
+14	4414	boksz	bokszban bokszot bokszról box
+15	4415	elvesztése	elvesztéséhez elvesztésén elvesztésének elvesztésére elvesztéséről elvesztését elvesztésétől elvesztésével elvesztéséért
+16	4416	ismerkedik	ismerkedek ismerkedett ismerkedjenek ismerkedjetek ismerkedjünk ismerkedned ismerkednek ismerkednem ismerkedni ismerkednünk ismerkedsz ismerkedtek ismerkedtem ismerkedtetek ismerkedtél ismerkedtünk ismerkedés ismerkedünk ismerkedő
+17	4417	csalódik	csalódjon csalódna csalódnak csalódni csalódnia csalódnod csalódnom csalódnék csalódok csalódsz csalódtak csalódtam csalódtunk csalódtál
+18	4418	elit	elitje
+19	4419	hozzájárul	hozzájárulhat hozzájárulnak hozzájárulni hozzájárulok hozzájárulsz hozzájárult hozzájárultak hozzájárultam hozzájárultál hozzájárulunk
+20	4420	hálószoba	hálószobába hálószobában hálószobából hálószobája hálószobák hálószobákat hálószobára hálószobát hálószobával
+21	4421	egyiptomi	egyiptomiak egyiptomit
+22	4422	haladás	haladásnak haladásra haladást
+23	4423	erőltet	erőltesse erőltessétek erőltessük erőlteted erőltetek erőltetem erőltetett erőltetheted erőltethetem erőlteti erőltetik erőltetjük erőltetned erőltetnem erőltetni erőltetném erőltetnünk erőltette erőltetted erőltettem erőltették erőltettük
+24	4424	felügyelet	felügyeletet felügyelethez felügyeletnek felügyeletnél felügyeletre felügyeletről felügyelettel felügyelettől felügyeletért
+25	4425	ülése	ülésén ülésére üléséről ülését
+26	4426	ottani	ottaniak
+27	4427	fülem	fülembe fülemben fülemből fülemen fülemet fülemhez fülemmel fülemnek fülemre
+28	4428	tömeges	tömegesen
+29	4429	reménytelen	reménytelenek reménytelennek reménytelenül
+30	4430	csecsemő	csecsemők csecsemőket csecsemőkkel csecsemőknek csecsemőként csecsemőnek csecsemőre csecsemőt csecsemővel
+31	4431	kiált	kiáltanak kiáltani kiáltasz kiáltja kiáltjuk kiáltják kiáltod kiáltok kiáltom kiáltott kiáltotta kiáltottad kiáltottak kiáltottam kiáltották kiáltottál kiáltsa kiáltsanak kiáltsatok kiáltson kiáltsátok kiáltunk kiáltva
+32	4432	kié	kiére kiét
+33	4433	felület	felületek felületen felületet felületre felülettel
+34	4434	alelnök	alelnökkel alelnökké alelnökként alelnöknek alelnökre alelnököt
+35	4435	nyomai	nyomaira nyomait nyomaival
+36	4436	alföldi	
+37	4437	kecske	kecskék kecskéket kecskékkel kecskének kecskére kecskét kecskével
+38	4438	javasolt	javasoltak
+39	4439	kijárat	kijárathoz kijáratig kijáratnak kijáratnál kijáratok kijáratokat kijáratokhoz kijáraton kijáratot kijáratát
+40	4440	kívülről	
+41	4441	végi	
+42	4442	történeti	
+43	4443	gramm	grammal grammot
+44	4444	hajú	hajúak hajút
+45	4445	mezőny	mezőnyben mezőnyt mezőnyében
+46	4446	munkájuk	munkájukat munkájukban munkájukhoz munkájukkal munkájuknak munkájukra munkájukról munkájukért
+47	4447	eredményez	eredményezett eredményezi eredményezne eredményeznek eredményezni eredményezte eredményező
+48	4448	feldolgozása	feldolgozásában feldolgozására feldolgozását feldolgozásával
+49	4449	egyezség	egyezségbe egyezségben egyezségek egyezséget egyezséggel egyezséghez egyezségnek egyezségre egyezségről
+50	4450	kézműves	kézművesek
+51	4451	patak	patakba patakban patakból patakhoz pataknál patakok patakokban patakon patakot
+52	4452	ruhám	ruhámat ruhámba ruhámban ruhámból ruhámhoz ruhámmal ruhámon ruhámra ruhámról ruhámért
+53	4453	körülvesz	körülvenni körülvesznek körülvett körülvette körülvettek körülvették körülvettük körülvevő körülvéve
+54	4454	eh	
+55	4455	amellett	
+56	4456	hamburger	hamburgerek hamburgereket hamburgerhez hamburgerre hamburgerrel hamburgert hamburgerért
+57	4457	védelmez	védelmezed védelmezel védelmezem védelmezett védelmezi védelmezik védelmezned védelmeznek védelmezni védelmeznie védelmeznünk védelmezte védelmeztem védelmezték védelmezve védelmezze védelmezzem védelmezzen védelmezzük védelmező védelmezője
+58	4458	látás	látásból látásra látással látást látástól
+59	4459	ágya	ágyába ágyában ágyából ágyához ágyán ágyánál ágyára ágyát
+60	4460	exkluzív	legexkluzívabb
+61	4461	aggodalom	aggodalmak aggodalmakat aggodalmam aggodalmat aggodalmát aggodalommal aggodalomra aggodalomtól
+62	4462	szomszédos	
+63	4463	széf	széfbe széfben széfből széfek széfeket széfen széfet széffel széfhez széfről
+64	4464	létszám	létszáma létszámban létszámmal létszámot létszámuk létszámát
+65	4465	gyógyul	gyógyuljon gyógyulnak gyógyulni gyógyulnia gyógyulnod gyógyulnom gyógyulok gyógyulsz gyógyult gyógyultak gyógyultam gyógyultál gyógyuló gyógyulóban
+66	4466	gyanú	gyanúba gyanúm gyanúra gyanút gyanúval
+67	4467	kiemel	kiemelem kiemelendő kiemeli kiemelik kiemelje kiemeljük kiemelni kiemelte kiemeltem kiemelték kiemelve kiemelés
+68	4468	humor	humornak humorra humorral humort
+69	4469	sütemény	süteménnyel sütemények süteményeket süteményre süteményt
+70	4470	fokozat	fokozatba fokozatban fokozatok fokozaton fokozatot fokozatra fokozattal fokozatát
+71	4471	szervusz	
+72	4472	fejlesztő	fejlesztők
+73	4473	párja	párjának párját párjával
+74	4474	kaliforniai	kaliforniaiak
+75	4475	csík	csíkkal csíkok csíkokat csíkokkal csíkokra csíkot
+76	4476	kosár	kosarak kosarakat kosarat kosárba kosárban kosárból kosárra kosárral
+77	4477	módszere	módszerének módszerét módszerével
+78	4478	ajánlata	ajánlatán ajánlatára ajánlatáról ajánlatát ajánlatával
+79	4479	aljas	aljasabb aljasak aljasnak aljasok legaljasabb
+80	4480	bejut	bejutni
+81	4481	élőlény	élőlénnyel élőlények élőlényeket élőlényekkel élőlényeknek élőlénynek élőlényre élőlényt
+82	4482	tengerész	tengerésszel tengerészek tengerészeket tengerészekkel tengerészeknek tengerésznek tengerészt
+83	4483	kínoz	kínozhat kínozlak kínoznak kínozni kínozta kínoztad kínoztak kínoztam kínozták kínoztál kínozva kínozza kínozzam kínozzanak kínozzon kínozzuk kínozzák kínozzátok kínzott
+84	4484	legális	legálisak legálisan legálisnak legálissá
+85	4485	bővít	bővíteni bővített bővítette bővítették bővíthető bővíti bővítik bővítjük bővítsük
+86	4486	végignéz	végignézed végignézek végignézem végignézheted végignézhetem végignézheti végignézi végignézik végignézned végignéznem végignézni végignéznie végignézte végignézted végignéztem végignézték végignéztük végignézze végignézzem végignézzük
+87	4487	fagyi	fagyihoz fagyira fagyit fagyival fagyiért
+88	4488	aligha	
+89	4489	szolnoki	
+90	4490	próbálkozás	próbálkozásba próbálkozásnak próbálkozások próbálkozásra próbálkozással próbálkozást próbálkozásért
+91	4491	megszerzése	megszerzésében megszerzéséhez megszerzésének megszerzésére megszerzéséről megszerzését megszerzésével megszerzéséért
+92	4492	cirkusz	cirkusszal cirkusszá cirkuszba cirkuszban cirkuszból cirkuszhoz cirkusznak cirkusznál cirkuszra cirkuszt
+93	4493	szándéka	szándékában szándékáról szándékát szándékával
+94	4494	koponya	koponyába koponyában koponyából koponyák koponyákat koponyán koponyának koponyára koponyáról koponyát koponyával
+95	4495	bika	bikák bikákat bikákkal bikán bikának bikára bikát bikával
+96	4496	szal	
+97	4497	nagyszabású	
+98	4498	jogász	jogászként jogásznak jogászok jogászt
+99	4499	főszereplő	főszereplők főszereplőnek főszereplőt
+100	4500	memória	memóriában memóriát memóriával

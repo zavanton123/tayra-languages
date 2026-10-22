@@ -1,0 +1,100 @@
+1	9401	belföld	belföldön
+2	9402	határol	határolja határolni határolt határoló
+3	9403	dízel	dízelt
+4	9404	élettani	
+5	9405	albérlet	albérletbe albérletben albérletet albérletre
+6	9406	megelőzése	megelőzésére
+7	9407	szomorúan	
+8	9408	rózsás	
+9	9409	sokfelé	többfelé
+10	9410	banya	banyák banyának banyát banyával
+11	9411	gyorsaság	gyorsasággal gyorsaságot gyorsaságra
+12	9412	gyónik	gyónni gyónnom gyónt gyóntam gyóntál gyónás
+13	9413	nyaraló	nyaralóba nyaralóban nyaralók nyaralót
+14	9414	fajul	fajulhat fajuljon fajulna fajulnak fajulni fajult fajultak
+15	9415	operátor	operátort
+16	9416	zeng	zengenek zengeni zengett zengi zengik zengjen zengő
+17	9417	szponzor	szponzora szponzorok szponzorokat szponzort
+18	9418	dzseki	dzsekiben dzsekit
+19	9419	időzítő	időzítőt időzítővel
+20	9420	ihlette	
+21	9421	tegnapelőtt	
+22	9422	újfent	
+23	9423	kúr	kúrj kúrja kúrják kúrnak kúrni kúrod kúrok kúrom kúrsz kúrt kúrta kúrtad kúrtam kúrtál kúrva kúrás
+24	9424	zenekara	zenekarában zenekarát
+25	9425	nyugtalanító	nyugtalanítónak
+26	9426	bármennyi	bármennyibe bármennyit
+27	9427	remete	remeteként
+28	9428	kiinduló	
+29	9429	percnyi	percnyire
+30	9430	jórészt	
+31	9431	hamisan	
+32	9432	ízületi	
+33	9433	30-as	ast
+34	9434	deviza	
+35	9435	ismertetés	ismertetése
+36	9436	kistérség	
+37	9437	termékcsalád	
+38	9438	tárhely	
+39	9439	tárlat	
+40	9440	vidékfejlesztési	
+41	9441	rúgás	rúgások rúgással rúgást
+42	9442	választható	
+43	9443	eltöröl	eltörlik eltörlő eltörölje eltöröljem eltöröljék eltöröljük eltörölni eltörölte eltöröltem eltörölték
+44	9444	rágcsáló	rágcsálók rágcsálókat rágcsálót
+45	9445	rendezője	
+46	9446	tornaterem	tornaterembe tornateremben tornatermet
+47	9447	tömegközlekedés	tömegközlekedéssel tömegközlekedést
+48	9448	sertés	sertések sertést
+49	9449	egyazon	
+50	9450	vízum	vízummal vízumokat vízumot
+51	9451	móló	mólóhoz mólón mólónál mólóra mólóról mólót
+52	9452	ruháid	ruháidat ruháiddal
+53	9453	szakosodik	szakosodott szakosodtak szakosodtam
+54	9454	bevételi	
+55	9455	jóindulatú	jóindulatúak
+56	9456	gyógyír	gyógyírt
+57	9457	must	
+58	9458	levadászik	levadássza levadásszuk levadásszák levadászlak levadásznak levadászni levadászom levadászott levadászta levadásztam levadászták
+59	9459	meghajtó	meghajtók meghajtókat meghajtón meghajtóra meghajtót
+60	9460	segítése	segítésére
+61	9461	bizonyosság	bizonyossággal bizonyosságot bizonyosságra
+62	9462	fölény	fölénnyel fölénybe fölényben fölényt
+63	9463	kukac	kukacok kukacokat kukacokkal kukacot
+64	9464	vezetékes	vezetékest
+65	9465	javulás	javulásra javulást
+66	9466	tárgyalj	tárgyalja tárgyaljon tárgyaljuk
+67	9467	irányelv	irányelvek irányelveket irányelvet
+68	9468	elkötelezettség	elkötelezettsége
+69	9469	magánszemély	magánszemélyek magánszemélyeknek
+70	9470	borz	borznak borzok borzot
+71	9471	mutáció	mutációk mutációkat mutációt
+72	9472	elektronika	elektronikát
+73	9473	evakuál	evakuáljanak evakuáljuk evakuálják evakuálnak evakuálni evakuálnunk evakuáltak evakuáltuk evakuálták evakuálunk evakuálás
+74	9474	májusi	
+75	9475	karjaim	karjaimat karjaimba karjaimban karjaimmal
+76	9476	karton	kartonból kartonnal kartonok kartonokat kartonon kartont
+77	9477	ártalmas	ártalmasak
+78	9478	szigeti	
+79	9479	mártás	mártásban mártással mártást
+80	9480	ellik	elle ellesz
+81	9481	huszonnégy	
+82	9482	elkényeztetett	
+83	9483	jezsuita	jezsuiták
+84	9484	vadul	vadulni
+85	9485	konzerv	konzervben konzervből konzervek konzerveket konzervet
+86	9486	maguké	magukénak magukét magukévá
+87	9487	fenyegetőzik	fenyegetőznek fenyegetőzni fenyegetőztem fenyegetőztél fenyegetőzés fenyegetőzöl
+88	9488	konkurencia	konkurenciának konkurenciát konkurenciától konkurenciával
+89	9489	sivár	sivárnak sivárt
+90	9490	kupi	kupiba kupiban kupit kupiért
+91	9491	játékvezető	játékvezetők
+92	9492	zongorista	zongoristát
+93	9493	cukorbeteg	cukorbetegek
+94	9494	stádium	stádiumban
+95	9495	viselkedési	
+96	9496	kétmillió	kétmilliót
+97	9497	szívtelen	szívtelenek szívtelennek szívtelenül
+98	9498	légzési	
+99	9499	szélesség	szélességben
+100	9500	mászkál	mászkálnak

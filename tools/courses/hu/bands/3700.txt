@@ -1,0 +1,100 @@
+1	3601	profil	profilba profilban profilból profilhoz profillal profilok profilokat profilt
+2	3602	elkövető	elkövetőhöz elkövetők elkövetőket elkövetőkkel elkövetőknek elkövetőnek elkövetőre elkövetőről elkövetőt elkövetővel
+3	3603	ima	imába imában imához imák imákat imákra imának imára imát imával
+4	3604	feltölt	feltölteni feltölti feltöltik feltöltjük feltöltse feltöltsem feltöltsük feltöltve feltöltöd feltöltöm feltöltött feltöltötte feltöltötted feltöltöttek feltöltöttem feltöltötték feltöltöttük feltöltő
+5	3605	engedélye	engedélyére engedélyét engedélyével
+6	3606	többség	többségben többséget többséggel többséghez többségnek többségük többségüket
+7	3607	liter	literre literrel litert
+8	3608	nyolcadik	nyolcadikat nyolcadikban nyolcadikon
+9	3609	megbánt	megbánta megbántalak megbántanak megbántani megbántanálak megbántanám megbántasz megbántja megbántjuk megbántják megbántod megbántok megbántom megbántott megbántotta megbántottad megbántottak megbántottalak megbántottam megbántottuk megbántottunk megbántották megbántottál megbántsalak megbántsanak megbántson megbántunk megbántva megbánták megbántál
+10	3610	otthagy	otthagyja otthagyni otthagyott otthagyta otthagytuk otthagyták
+11	3611	erőteljes	erőteljesebb erőteljesebben erőteljesek erőteljesen legerőteljesebb
+12	3612	ex	exek exeket
+13	3613	matematika	matematikában matematikából matematikát matematikával
+14	3614	jelszó	jelszavak jelszavakat jelszavam jelszóra jelszót jelszóval
+15	3615	tartomány	tartományba tartományban tartományból tartományok tartományon tartományt
+16	3616	értelmetlen	értelmetlenek értelmetlennek értelmetlenné értelmetlenül
+17	3617	odalenn	odalent
+18	3618	megtanultam	
+19	3619	jegye	jegyében jegyét
+20	3620	pia	piába piából piához piák piákat piának piára piáról piát piától piával piáért
+21	3621	oktató	oktatók oktatónak oktatót oktatóval
+22	3622	meghatároz	meghatározhatatlan meghatározhatja meghatározhatjuk meghatározni meghatározom meghatároztam meghatároztuk meghatározták meghatározva meghatározza meghatározzam meghatározzuk meghatározzák
+23	3623	türelem	türelemmel türelemre türelemről türelmet türelmük türelmüket
+24	3624	kollégium	kollégiuma kollégiumba kollégiumban kollégiumból kollégiumot
+25	3625	tű	tűbe tűben tűje tűk tűket tűkkel tűktől tűkön tűn tűnek tűre tűt tűtől tűvel tűvé
+26	3626	bejegyzés	bejegyzések bejegyzéseket bejegyzést
+27	3627	kábel	kábelek kábeleket kábelekkel kábelen kábellel kábelre kábelt
+28	3628	beszáll	beszállhat beszállhatnál beszállhatnék beszállhatok beszállhatsz beszállhatunk beszálljak beszálljon beszállna beszállnak beszállni beszállnom beszállnál beszállnék beszállok beszállsz beszállt beszálltak beszálltam beszálltok beszálltunk beszálltál beszállunk beszálló
+29	3629	helyük	helyükbe helyükben helyüket helyükre helyükről helyükön
+30	3630	maximális	
+31	3631	tigris	tigrisek tigriseket tigrisnek tigrisre tigrissel tigrist
+32	3632	fagy	fagyasztani fagyasztott fagyasztva fagyasztás fagyban fagyj fagyjon fagynak fagyni fagyok fagyot fagyott fagysz fagytak fagytam fagyunk fagyva fagyás
+33	3633	összetett	legösszetettebb összetettben összetettebb összetettek
+34	3634	névtelen	névtelenek névtelennek névtelenül
+35	3635	örökös	örököse örökösei örökösen örökösnek örökösre örökössel örököst örökösét örökösök
+36	3636	édesapja	édesapjának édesapjára édesapjáról édesapját édesapjától édesapjával
+37	3637	fürdőszoba	fürdőszobába fürdőszobában fürdőszobából fürdőszobája fürdőszobák fürdőszobán fürdőszobára fürdőszobát fürdőszobával
+38	3638	jenő	
+39	3639	vizes	vizesek vizesen
+40	3640	elképzelés	elképzelése elképzelések elképzeléseket elképzelésetek elképzeléssel elképzelést
+41	3641	következmény	következménnyel következmények következményekbe következményeket következményekkel következményekre következményekről következményektől következményekért következményt
+42	3642	csúszik	csússz csússzunk csúszhat csúszna csúsznak csúszni csúszok csúszol csúszott csúsztak csúsztam csúsztat csúsztatott csúsztatta csúsztunk csúsztál csúszunk csúszva csúszás csúszó
+43	3643	egyházi	
+44	3644	fed	fedd feded fedem fedhetem fedhetetlen fedheti fedhetjük fedi fedik fedje fedjem fedjék fedjétek fedjük fedni fedte fedtem fedték fedve fedő fedőt
+45	3645	köré	köréd köréjük körém körénk
+46	3646	gyilkossági	gyilkosságiak gyilkosságiakat gyilkosságiakhoz gyilkosságiakkal gyilkosságiaknak gyilkosságiaknál gyilkosságiaktól gyilkosságin
+47	3647	ág	ágait ágak ágakat ágakon ágat ágban ággal ágon ágra ágról
+48	3648	szemüveg	szemüvegben szemüvege szemüvegek szemüvegeket szemüvegen szemüveget szemüveggel szemüvegre szemüvegét
+49	3649	idegesítő	idegesítőbb idegesítőek idegesítőnek legidegesítőbb
+50	3650	lapos	laposabb laposak laposnak laposra
+51	3651	magyarság	
+52	3652	terápia	terápiában terápiához terápiák terápián terápiának terápiára terápiáról terápiát terápiával
+53	3653	bevált	beváltak beváltani beváltja beváltod beváltom beváltotta beváltottam
+54	3654	semmiképpen	semmiféleképpen semmiképp
+55	3655	noha	
+56	3656	eleinte	
+57	3657	ősszel	
+58	3658	havonta	
+59	3659	genetikai	
+60	3660	bizottsága	bizottságában bizottságának bizottságát
+61	3661	domb	dombnak dombnál dombok dombokat dombokon dombon dombot dombra dombról
+62	3662	stílusa	stílusában stílusához stílusának stílusát stílusával
+63	3663	önző	legönzőbb önzőbb önzőek önzők önzőnek
+64	3664	társai	társaihoz társainak társainál társaira társairól társait társaitól társaival
+65	3665	füle	fülébe fülében füléből füléhez fülén fülének fülénél fülére fülét fülével
+66	3666	állása	állásába állásából állásának állására állásáról állását állásával
+67	3667	ábra	ábrák ábrákat ábrán ábrát
+68	3668	bevétel	bevételből bevételei bevételeit bevételek bevételeket bevétellel bevételre bevételt bevételük
+69	3669	szett	szettben szettet
+70	3670	élénk	legélénkebb élénkebb élénkebben élénkek élénken élénknek
+71	3671	nyers	nyersek nyersen nyersnek
+72	3672	kitesz	kitegye kitegyem kitehet kitenned kitennem kitenni kitennie kitenné kitennéd kitenném kitesszük kiteszed kiteszek kiteszel kiteszem kiteszi kiteszik kiteszlek kitesznek kiteszünk kitett kitette kitetted kitettek kitettelek kitettem kitették kitettél kitettük kitettünk
+73	3673	túra	túrához túrák túrákat túrán túrának túrára túráról túrát
+74	3674	embereim	embereimben embereimet embereimhez embereimmel embereimnek embereimre embereimről embereimtől embereimért
+75	3675	bekapcsol	bekapcsolhatom bekapcsolja bekapcsoljam bekapcsoljuk bekapcsolják bekapcsolnak bekapcsolni bekapcsolná bekapcsolnád bekapcsolod bekapcsolom bekapcsolt bekapcsolta bekapcsoltad bekapcsoltak bekapcsoltam bekapcsoltuk bekapcsolták bekapcsolva bekapcsoló
+76	3676	íz	ízben ízek ízeket ízekre ízig ízre ízt ízzel ízé ízük
+77	3677	stratégia	stratégiáját stratégiák stratégiákat stratégián stratégiának stratégiára stratégiáról stratégiát stratégiával
+78	3678	jegyez	jegyezd jegyezned jegyeznem jegyezni jegyeznie jegyeznünk jegyezted jegyeztek jegyeztem jegyezték jegyeztük jegyezve jegyezze jegyezzem jegyezzen jegyezzék jegyezzétek jegyezzük jegyzed jegyzem jegyzi jegyzik
+79	3679	kerék	kerekei kerekek kerekeken kerekeket kerekekkel kerekekre kereket kerékbe kerékben keréken kerékhez kerékkel keréknek kerékre
+80	3680	felvétele	felvételéhez felvételén felvételének felvételére felvételéről felvételét felvételével
+81	3681	zombi	zombik zombikat zombikkal zombiknak zombikról zombiktól zombiként zombinak zombit zombival zombivá
+82	3682	módosít	módosítani módosítanom módosítanunk módosítható módosítja módosítjuk módosítják módosítok módosítom módosított módosította módosítottak módosítottam módosítottuk módosították módosítsa módosítsák módosítva
+83	3683	újdonság	újdonsággal újdonságnak újdonságok újdonságokat újdonságot
+84	3684	szimbólum	szimbóluma szimbólummal szimbólumnak szimbólumok szimbólumokat szimbólumokkal szimbólumot szimbólumról
+85	3685	biztonsága	biztonságába biztonságában biztonságának biztonságára biztonságáról biztonságát biztonságával biztonságáért
+86	3686	légi	
+87	3687	esz	egye ehet eheted ehetem ehetett ehetne ehetnél ehetsz ehettem ehettél esszé esszéje esszék esszéket esszét esszük eszek eszi eszitek esznek eszt esztek etet eteti etted ettek ettem ettetek ették ettél ettük ettünk evett őm
+88	3688	forgalmi	forgalmit
+89	3689	rémes	legrémesebb rémesebb rémesek rémesen
+90	3690	kiállítása	kiállításán kiállításának kiállítására kiállítását
+91	3691	fogadott	
+92	3692	üzletember	üzletemberek üzletembereket üzletemberekkel üzletembereknek üzletemberként üzletembernek üzletemberrel üzletembert
+93	3693	varázsló	varázslóhoz varázslója varázslók varázslókat varázslónak varázslóra varázslóról varázslót varázslótól varázslóval
+94	3694	megérint	megérinted megérintek megérintelek megérintem megérintenek megérinteni megérinteném megérintesz megérintett megérintette megérintetted megérintettek megérintettelek megérintettem megérintették megérintettél megérintheted megérinthetem megérintheti megérinthetlek megérinthetsz megérinti megérintik megérintjük megérintse megérintselek megérintsem megérintsen megérintsenek
+95	3695	véleményed	véleményedet véleményedre
+96	3696	egyrészt	
+97	3697	középső	középsőt
+98	3698	féreg	féreggel féregnek férgek férgeket férgekkel férgeknek férgektől férget
+99	3699	többféle	
+100	3700	puska	puskából puskához puskák puskákat puskákkal puskának puskára puskát puskával

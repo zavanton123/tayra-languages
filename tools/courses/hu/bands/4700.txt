@@ -1,0 +1,100 @@
+1	4601	megjavít	megjavítani megjavítania megjavítanom megjavítaná megjavíthatom megjavítható megjavítja megjavítjuk megjavítják megjavítod megjavítok megjavítom megjavított megjavította megjavítottad megjavítottam megjavítottuk megjavították megjavítsa megjavítsam megjavítsuk megjavítsák megjavítva
+2	4602	csapatunk	csapatunkat csapatunkba csapatunkban csapatunkból csapatunkhoz csapatunkkal csapatunknak
+3	4603	ágyú	ágyúból ágyúhoz ágyúk ágyúkat ágyúkhoz ágyúkkal ágyút ágyúval
+4	4604	határidő	határidőig határidők határidőket határidőn határidőre határidőt határidővel
+5	4605	bánya	bányába bányában bányából bányához bányák bányákat bányákba bányákban bányának bányánál bányáról bányát
+6	4606	illat	illatok illatokat illatot illatra illattal
+7	4607	befolyás	befolyása befolyásra befolyással befolyást
+8	4608	fényképez	fényképezek fényképezel fényképezett fényképezi fényképezik fényképeznek fényképeznem fényképezni fényképezte fényképezted fényképeztek fényképeztem fényképezték fényképeztél fényképezze fényképezzen fényképezzenek fényképezzük fényképezés fényképezést fényképező
+9	4609	gyári	
+10	4610	hivatásos	
+11	4611	tép	tépd téped tépek tépem tépett tépi tépik tépj tépje tépjem tépjen tépjék tépjétek tépjük tépjünk téplek tépned tépnek tépnem tépni tépné tépném tépsz tépted téptek téptem tépték téptél tépve tépünk tépő
+12	4612	polgármestere	polgármesterének polgármesterét
+13	4613	ezerszer	
+14	4614	papi	papinak papit papival
+15	4615	visszavon	visszavonja visszavonjam visszavonjuk visszavonják visszavonni visszavonná visszavonod visszavonok visszavonom visszavont visszavonta visszavontam visszavontuk visszavonták visszavonva
+16	4616	köztársasági	köztársaságiak
+17	4617	tájékoztató	tájékoztatón tájékoztatóra tájékoztatót
+18	4618	merészel	merészeled merészelem merészeli merészelik merészelitek merészelje merészeljen merészelnek merészelsz merészelt merészelte merészelted merészeltek merészeltem merészeltél
+19	4619	tűr	tűrd tűrheti tűrhetjük tűri tűrik tűrj tűrje tűrjem tűrjük tűrnek tűrni tűrnie tűrné tűrném tűrnöd tűrnöm tűrnünk tűrt tűrte tűrtem tűröd tűrök tűröm tűrünk tűrő
+20	4620	szerzői	
+21	4621	párbeszéd	párbeszédek párbeszédeket párbeszédet párbeszédre
+22	4622	turné	turnéhoz turnék turnén turnénak turnéra turnéról turnét turnéval
+23	4623	keretei	keretein kereteit
+24	4624	végzet	végzetben végzeten végzetet végzetnek végzetre végzetről végzettel végzetét
+25	4625	megszakad	megszakadt
+26	4626	dehát	
+27	4627	lapja	lapjában lapján lapjára lapját
+28	4628	benyomás	benyomása benyomások benyomással benyomást benyomását
+29	4629	elvár	elvárja elvárjuk elvárják elvárnak elvárni elvárná elvárnád elvárnám elvárnék elvárod elvárok elvárom elvárt elvárta elvártak elvártam elvárták elvárunk
+30	4630	romlott	romlottak romlottnak
+31	4631	rabló	rablók rablókat rablókkal rablóknak rablónak rablót rablóval
+32	4632	szel	szeld szelek szeli szelik szelni szelte
+33	4633	hozzávaló	hozzávalók hozzávalókat hozzávalót
+34	4634	bér	bérbe bérek béreket bérrel bért bérért
+35	4635	önmagam	önmagamat önmagamban önmagamból önmagamhoz önmagammal önmagamnak önmagamra önmagamról önmagamtól önmagamért
+36	4636	tartály	tartállyal tartályba tartályban tartályból tartályok tartályokat tartályokban tartályokkal tartályon tartályra tartályt
+37	4637	ostobaság	ostobaságból ostobasággal ostobaságnak ostobaságok ostobaságokat ostobaságokkal ostobaságokra ostobaságot ostobaságra
+38	4638	gála	gálán gálára gálát
+39	4639	tudományegyetem	tudományegyetemen
+40	4640	ösvény	ösvények ösvényeken ösvényeket ösvényen ösvénynek ösvénynél ösvényre ösvényről ösvényt
+41	4641	piaci	
+42	4642	középen	
+43	4643	gyengéd	gyengédebb gyengédebben gyengédek gyengéden gyengédnek gyöngéden leggyengédebb
+44	4644	kezdeti	
+45	4645	musical	musicalben musicalből musicalek musicaleket musicalre musicalt
+46	4646	bírónő	bírónőnek bírónőt bírónővel
+47	4647	zavaros	zavarosabb zavarosak zavarosban zavarosnak zavarossá
+48	4648	félidő	félidőben félidőt
+49	4649	kitartás	kitartásra kitartásról kitartással kitartást
+50	4650	aréna	arénába arénában arénából arénát
+51	4651	bő	bővebb
+52	4652	ízlik	ízlene ízlenek ízleni ízlett
+53	4653	részleges	részlegesen
+54	4654	egyesít	egyesítem egyesíteni egyesítenünk egyesített egyesítette egyesítették egyesítettük egyesíti egyesítik egyesítjük egyesítse egyesítsék egyesítsük egyesítve egyesítés egyesítést egyesítő
+55	4655	földönkívüli	földönkívüliek földönkívülieket földönkívüliekkel földönkívülieknek földönkívüliekről földönkívülinek földönkívülit földönkívülivel
+56	4656	tündér	tündérek tündérekben tündéreket tündérekkel tündérnek tündérrel tündért
+57	4657	nyakam	nyakamat nyakamba nyakamban nyakamból nyakamhoz nyakamnál nyakamon nyakamra nyakamról
+58	4658	nyír	nyírj nyírja nyírjalak nyírjam nyírjon nyírjuk nyírják nyírjátok nyírlak nyírnak nyírni nyírnod nyírnom nyírnunk nyírod nyírom nyírsz nyírt nyírta nyírtad nyírtam nyírtuk nyírták nyírtál nyírva
+59	4659	fiuk	fiukat fiukkal fiuknak
+60	4660	lovagol	lovagló lovagolhat lovagolhatsz lovagolja lovagoljak lovagoljon lovagoljuk lovagoljunk lovagolnak lovagolni lovagolok lovagolsz lovagolt lovagoltak lovagoltam lovagoltunk lovagoltál lovagolunk lovagolva
+61	4661	roham	rohamai rohammal rohamnak rohamok rohamokat rohamot rohamra
+62	4662	dzsungel	dzsungelban dzsungelbe dzsungelben dzsungelből dzsungelen dzsungelt
+63	4663	folyóirat	folyóiratban folyóiratok folyóiratokban folyóiratot
+64	4664	kidolgozott	
+65	4665	óránként	
+66	4666	tinédzser	tinédzserek tinédzsereket tinédzserekkel tinédzsereknek tinédzserként tinédzsernek tinédzserrel tinédzsert
+67	4667	hibátlan	hibátlannak hibátlanok hibátlanul
+68	4668	mérleg	mérlege mérlegen mérleget mérlegre mérlegét
+69	4669	elkészítése	elkészítésében elkészítéséhez elkészítésének elkészítésére elkészítését elkészítésével
+70	4670	örökség	örökségből örökséget örökséggel örökségnek örökségre örökségről örökségül
+71	4671	tönkremegy	tönkrement
+72	4672	fizikailag	
+73	4673	körű	
+74	4674	igencsak	
+75	4675	türelmes	türelmesebb türelmesek türelmesen türelmesnek
+76	4676	lusta	leglustább lusták lustának
+77	4677	hangsúly	hangsúllyal hangsúlyt
+78	4678	jótékony	
+79	4679	bővül	bővült bővülő
+80	4680	szenvedélyes	szenvedélyesebb szenvedélyesek szenvedélyesen szenvedélyesnek
+81	4681	republikánus	republikánusok republikánusokat republikánusokkal republikánusoknak republikánusokra republikánust
+82	4682	megnyugtat	megnyugtassa megnyugtassalak megnyugtassam megnyugtasson megnyugtassuk megnyugtathatom megnyugtatja megnyugtatlak megnyugtatna megnyugtatnak megnyugtatni megnyugtatná megnyugtatom megnyugtatott megnyugtatta megnyugtattam megnyugtattál
+83	4683	balatoni	
+84	4684	kolozsvári	
+85	4685	bűzlik	bűzlenek bűzleni bűzlesz bűzlök bűzlött bűzlötök bűzlő
+86	4686	naiv	naivak naivnak naív
+87	4687	csodaszép	
+88	4688	rendszerint	
+89	4689	igazságtalan	igazságtalannak igazságtalanok igazságtalanul
+90	4690	pályaudvar	pályaudvarnál pályaudvaron pályaudvarra pályaudvarról pályaudvart
+91	4691	róka	rókák rókákat rókának rókára rókát rókával
+92	4692	párhuzamosan	
+93	4693	jelentéktelen	jelentéktelenebb jelentéktelenek jelentéktelennek jelentéktelenné legjelentéktelenebb
+94	4694	székhelye	székhelyén székhelyét
+95	4695	vaj	vajat vajba vajban vajból vajjal vajra
+96	4696	bemutatása	bemutatásának bemutatására bemutatását bemutatásával
+97	4697	komplex	
+98	4698	részletei	részleteibe részleteiben részleteire részleteiről részleteit részleteivel
+99	4699	szarvas	szarvasnak szarvasok szarvasokat szarvasra szarvassal szarvast
+100	4700	napvilág	napvilágot napvilágra

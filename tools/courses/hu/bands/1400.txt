@@ -1,0 +1,100 @@
+1	1301	repül	repít repülhessek repülhet repülhetek repülhetett repülhetnek repülhetsz repülhetünk repülj repüljek repüljenek repüljetek repüljön repüljünk repülne repülnek repülni repülnie repülniük repülnék repülnél repülnénk repülnöd repülnöm repülnünk repülsz repült repültek repültem repültetek repültél repültök repültünk repülve repülök repülünk röpül
+2	1302	meddig	
+3	1303	ezúttal	
+4	1304	jelez	jelezhet jeleznek jelezni jeleznie jelezné jelezném jeleznünk jelezte jelezted jeleztek jeleztem jelezték jeleztél jelezve jelezze jelezzen jelezzenek jelezzetek jelezzék jelezzük jelzek jelzel jelzem jelzett jelzi jelzik jelzünk jelző jelzők jelzőket jelzőt jelzővel
+5	1305	tuti	legtutibb tutiba tutira tutit
+6	1306	lába	lábába lábában lábából lábához lábán lábának lábánál lábára lábáról lábát lábától lábával
+7	1307	vágyik	vágyhat vágyjon vágyna vágynak vágyni vágynál vágynék vágyom vágyott vágysz vágytak vágytam vágytok vágytunk vágytál vágyunk vágyva vágyó
+8	1308	széles	legszélesebb szélesebb szélesek szélesen szélesre
+9	1309	kulturális	kulturálisan
+10	1310	beszélgetés	beszélgetésbe beszélgetésben beszélgetésből beszélgetések beszélgetésekben beszélgetésekből beszélgetéseket beszélgetéseknek beszélgetésekre beszélgetésekről beszélgetésen beszélgetéshez beszélgetésnek beszélgetésnél beszélgetésre beszélgetésről beszélgetéssel beszélgetést beszélgetéstől beszélgetésért beszélgetését beszélgetésük beszélgetésünk
+11	1311	mindegyik	mindegyikbe mindegyikben mindegyikből mindegyike mindegyiken mindegyiket mindegyikhez mindegyikkel mindegyiknek mindegyiknél mindegyikre mindegyikről mindegyiktől mindegyikért mindegyikét
+12	1312	közöl	közli közlik közlöd közlök közlöm közlünk közölhetek közölhetem közölheti közölje közöljek közöljem közöljék közöljétek közöljük közölnek közölni közölnie közölné közölnéd közölném közölnöd közölnöm közölnünk közölt közölte közölted közöltek közöltem közölték közöltük közölünk
+13	1313	henry	henryhez henryk henrynek henryre henryről henryt henrytől henryvel henryért
+14	1314	sziasztok	
+15	1315	konyha	konyhába konyhában konyhából konyhához konyhájában konyhán konyhának konyhánál konyhára konyháról konyhát konyhával
+16	1316	környék	környékeken környéken környéket környékkel környéknek környékre környékről
+17	1317	esküvő	esküvőbe esküvőben esküvőhöz esküvőig esküvők esküvőket esküvőkre esküvőkön esküvőn esküvőnek esküvőre esküvőről esküvőt esküvőtől esküvővel
+18	1318	javít	javítana javítanak javítani javítania javítanod javítanom javítanunk javítasz javíthat javíthatatlan javíthatunk javítható javítja javítjuk javítják javítod javítok javítom javított javította javítottad javítottam javították javítsa javítsak javítsam javítsanak javítson javítsuk javítsunk javítsák javítsátok javítunk javítva javítás javításokat javításra javítást javításért
+19	1319	teszt	tesztben tesztek tesztekben teszteken teszteket tesztekhez tesztekkel teszteknek tesztekre tesztekről teszten tesztet teszthez tesztnek tesztnél tesztre tesztről teszttel
+20	1320	plusz	pluszba pluszban pluszt
+21	1321	kelet	keleten keletet keletnek keletre keletről kelett kelettől
+22	1322	üdvözöl	üdvözli üdvözlik üdvözlöd üdvözlök üdvözlöm üdvözlünk üdvözölhetem üdvözölhetjük üdvözölhetünk üdvözölje üdvözöljelek üdvözöljem üdvözöljék üdvözöljétek üdvözöljön üdvözöljük üdvözölnek üdvözölni üdvözölnöm üdvözölnünk üdvözölsz üdvözölt üdvözölte üdvözöltek üdvözöltem üdvözölték üdvözöltük üdvözölve
+23	1323	költözik	költözhet költözhetek költözhetnék költözhetnél költözhetnénk költözhetsz költözhetünk költözne költöznek költözni költöznie költözniük költöznék költöznél költöznénk költöznöd költöznöm költöznötök költöznünk költöztek költöztem költöztetek költöztetni költöztél költöztök költöztünk költözz költözzem költözzenek költözzetek költözzön költözzünk költözés költözök költözöl költözöm költözött költözünk költöző
+24	1324	mama	mamához mamák mamának mamánál mamára mamáról mamát mamától mamával mamáé
+25	1325	történelem	történelembe történelemben történelemből történelemhez történelemmel történelemnek történelemre történelemről történelmen történelmet
+26	1326	engedély	engedéllyel engedélyek engedélyeket engedélyekkel engedélyhez engedélyre engedélyről engedélyt engedélyért
+27	1327	csatorna	csatornába csatornában csatornából csatornához csatornák csatornákat csatornákba csatornákban csatornákon csatornán csatornának csatornánál csatornára csatornáról csatornát csatornától csatornával
+28	1328	anélkül	
+29	1329	szervez	szervezed szervezek szervezel szervezem szervezhetnénk szervezi szervezik szervezned szerveznek szerveznem szervezni szerveznék szerveznünk szervezte szervezted szerveztek szerveztem szervezték szerveztél szerveztük szerveztünk szervezve szervezz szervezze szervezzek szervezzem szervezzen szervezzenek szervezzük szervezzünk szervezés szervezésben szervezéssel szervezést szervezünk szervező szervezője szervezők szervezőt
+30	1330	megbeszél	megbeszéled megbeszélek megbeszélem megbeszélhessük megbeszélheted megbeszélheti megbeszélhetjük megbeszélhetnénk megbeszélhettük megbeszélhetünk megbeszéli megbeszélik megbeszélitek megbeszéljem megbeszéljék megbeszéljétek megbeszéljük megbeszéljünk megbeszélned megbeszélnem megbeszélnetek megbeszélni megbeszélnie megbeszélniük megbeszélnéd megbeszélnék megbeszélném megbeszélnénk megbeszélnünk megbeszélt megbeszélte megbeszélted megbeszéltek megbeszéltem megbeszélték megbeszéltétek megbeszéltük megbeszéltünk megbeszélve megbeszélünk
+31	1331	ördög	ördögbe ördögben ördögből ördöggel ördöghöz ördögnek ördögre ördögről ördögtől ördögé ördögért ördögök ördögöket ördögöknek ördögöt
+32	1332	parti	partiba partiban partihoz partik partikat partikon partikra partikról partin partinak partira partiról partit partival
+33	1333	parancsnok	parancsnoka parancsnokhoz parancsnokkal parancsnokként parancsnoknak parancsnoknál parancsnokok parancsnokot parancsnokra parancsnokról parancsnoktól
+34	1334	csomag	csomagba csomagban csomagból csomaggal csomagnak csomagok csomagokat csomagokban csomagokkal csomagokért csomagon csomagot csomagra csomagról csomagért
+35	1335	zenekar	zenekarba zenekarban zenekarból zenekarhoz zenekarnak zenekarok zenekarokat zenekarra zenekarral zenekarról zenekart
+36	1336	lélek	lelkek lelkeket lelkekkel lelkeknek lelkekre lelkekről lelkekért lelket lélekben lélekből lélekhez lélekkel léleknek lélekre lélekről lélektől lélekért
+37	1337	ismeretlen	ismeretlenbe ismeretlenben ismeretlenek ismeretlenekkel ismeretlenen ismeretlennek ismeretlennel ismeretlenre ismeretlent ismeretlentől ismeretlenül
+38	1338	egészséges	egészségesebb egészségesebbek egészségesebben egészségesek egészségesen egészségeset egészségesnek egészségessé legegészségesebb
+39	1339	alkalmas	alkalmasabb alkalmasak alkalmasnak alkalmassá legalkalmasabb
+40	1340	csinos	csinosabb csinosak csinosat csinosnak legcsinosabb
+41	1341	hajlandó	hajlandóak hajlandók hajlandónak
+42	1342	hátha	
+43	1343	tábor	táborba táborban táborból táborhoz táborig tábornak tábornál táborok táborokat táborokba táborokban táboron táborra táborral táborról tábort tábortól
+44	1344	állandóan	
+45	1345	óvatosan	óvatosabban
+46	1346	szükséged	
+47	1347	hátsó	hátsók hátsón hátsót hátsóval hátulsó leghátsó
+48	1348	nyugalom	nyugalma nyugalmat nyugalmát nyugalmáért nyugalomba nyugalomban nyugalommal nyugalomra nyugalomért
+49	1349	véletlen	véletlenben véletlenek véletlenekben véletleneket véletlennek véletlenre véletlent
+50	1350	független	függetlenek függetlenként függetlennek függetlenné függetlenül
+51	1351	döntő	döntőbe döntőben döntőig döntőjében döntők döntőn döntőre döntőt
+52	1352	elküld	elküldelek elküldene elküldened elküldenek elküldenem elküldeni elküldené elküldenéd elküldeném elküldenénk elküldesz elküldheted elküldhetem elküldheti elküldhetjük elküldhetném elküldhetnénk elküldi elküldik elküldje elküldjem elküldjék elküldjön elküldjük elküldte elküldted elküldtek elküldtelek elküldtem elküldték elküldtél elküldtük elküldtünk elküldve elküldöd elküldök elküldöm elküldött elküldünk
+53	1353	rendkívül	
+54	1354	folyamat	folyamatba folyamatban folyamathoz folyamatnak folyamatok folyamatokat folyamatokban folyamaton folyamatot folyamatra folyamatról folyamattal
+55	1355	hős	hőshöz hősként hősnek hősre hősről hőssel hőssé hőst hősök hősöket hősökkel hősökké hősöknek hősökre hősökről
+56	1356	mekkora	mekkorák mekkorára mekkorát
+57	1357	fáradt	fáradtabb fáradtak fáradtan fáradtnak
+58	1358	megismer	megismered megismerek megismerem megismerhessem megismerheted megismerheti megismerhetjük megismerhettelek megismerhettem megismeri megismerik megismeritek megismerje megismerjelek megismerjem megismerjen megismerjenek megismerjék megismerjétek megismerjük megismerlek megismernek megismernem megismerni megismerné megismernéd megismernék megismernél megismerném megismernénk megismernétek megismersz megismert megismerte megismerted megismertem megismertél megismertük megismertünk
+59	1359	megtart	megtartalak megtartani megtartania megtartanod megtartanom megtartanunk megtartaná megtartanád megtartanám megtartasz megtarthassa megtarthassam megtarthatja megtarthatjuk megtarthatják megtarthatjátok megtarthatnánk megtarthatod megtarthatom megtartja megtartjuk megtartják megtartjátok megtartod megtartok megtartom megtartott megtartotta megtartottad megtartottam megtartottuk megtartották megtartottál megtartsa megtartsam megtartsuk megtartsák megtartunk megtartva
+60	1360	gondoskodik	gondoskodhassak gondoskodhat gondoskodhatnék gondoskodhatok gondoskodhatunk gondoskodjak gondoskodjam gondoskodjanak gondoskodjatok gondoskodjon gondoskodjunk gondoskodna gondoskodnak gondoskodni gondoskodnia gondoskodniuk gondoskodnod gondoskodnom gondoskodnunk gondoskodnál gondoskodnék gondoskodok gondoskodott gondoskodsz gondoskodtak gondoskodtam gondoskodtatok gondoskodtok gondoskodtunk gondoskodtál gondoskodunk gondoskodva gondoskodó
+61	1361	erősen	erősebben legerősebben
+62	1362	hülyeség	hülyeségbe hülyeségben hülyeségből hülyeségek hülyeségeken hülyeségeket hülyeségekkel hülyeségekre hülyeségekről hülyeségen hülyeséget hülyeséggel hülyeségnek hülyeségre hülyeségről hülyeségért
+63	1363	észrevesz	észrevegye észrevegyem észrevegyen észrevegyenek észrevegyék észrevegyük észrevehetetlen észreveheti észrevehetted észrevehették észrevenne észrevennem észrevenni észrevenné észrevennéd észrevennék észrevenném észrevennének észrevennénk észrevesszük észreveszed észreveszek észreveszel észreveszem észreveszi észreveszik észrevesznek észrevett észrevette észrevetted észrevettek észrevettelek észrevettem észrevették észrevettél észrevettétek észrevettük észrevettünk
+64	1364	tekint	tekinted tekintek tekintelek tekintem tekintendő tekintene tekintened tekintenek tekintenem tekinteni tekintenie tekintenék tekintenél tekinteném tekintenünk tekintesz tekintetek tekintette tekintettelek tekintettem tekintettél tekinthet tekinthetjük tekinthetünk tekinti tekintik tekintjük tekintse tekintsek tekintsem tekintsen tekintsenek tekintsetek tekintsék tekintsétek tekintsük tekintsünk tekintünk tekintő
+65	1365	szülő	szüleikkel szüleiknek szüleiktől szülők szülőket szülőkhöz szülőkkel szülőknek szülőknél szülőkre szülőkről szülőktől szülőként szülőnek szülőre szülőt szülőtől szülővel szülővé
+66	1366	titok	titkok titkokat titkokban titkokból titkokkal titkoknak titkokra titkokról titkon titkot titkukat titokba titokkal titokként titoknak titokra titokról
+67	1367	egyenesen	egyenesebben
+68	1368	nehogy	
+69	1369	nélküle	nélküled nélkülem nélkületek nélkülük nélkülünk
+70	1370	piac	piaccal piachoz piacnak piacnál piacok piacokat piacokon piacokra piacon piacot piacra piacról
+71	1371	intéz	intézed intézek intézel intézem intézett intézhetem intézhetjük intézhetnénk intézi intézik intézitek intézlek intézned intéznek intéznem intézni intéznie intézné intéznéd intézném intéznünk intézte intézted intéztek intéztem intézték intéztél intéztük intéztünk intézve intézze intézzek intézzem intézzen intézzék intézzétek intézzük intézünk intéző
+72	1372	kultúra	kultúrába kultúrában kultúrából kultúrához kultúrák kultúrákat kultúrákban kultúrának kultúránk kultúrára kultúráról kultúrát kultúrával kultúráért
+73	1373	motor	motorba motorban motorból motorhoz motornak motorok motorokat motorokhoz motorokkal motorokról motoron motorra motorral motorról motort
+74	1374	utazás	utazásba utazásban utazáshoz utazásnak utazások utazásokat utazásokra utazáson utazásra utazásról utazással utazást utazástól utazásuk utazásért
+75	1375	dolgom	dolgomat dolgomba dolgomban dolgommal dolgomra
+76	1376	kifelé	kifele
+77	1377	projekt	projektbe projektben projektből projektek projekteket projekten projektet projekthez projektnek projektnél projektre projektről projekttel projektért
+78	1378	közösség	közösségbe közösségben közösségből közösségek közösségekben közösségeket közösségen közösséget közösséggel közösséghez közösségnek közösségre közösségről közösségtől közösségért
+79	1379	madár	madarak madarakat madarakhoz madarakkal madaraknak madarakra madarakról madaraktól madarat madarunk madárként madárnak madárra madárral madárrá madárról madártól
+80	1380	múlik	mulandó mulasztott mulasztottam múlandó múlhat múlja múljon múlna múlnak múlni múlnia múlott múltam múltatok múltunk múló
+81	1381	átad	átadhassam átadhatja átadhatjuk átadhatod átadhatok átadja átadjak átadjam átadjon átadjuk átadják átadjátok átadlak átadna átadnak átadni átadnia átadnod átadnom átadná átadnád átadnál átadnám átadnánk átadod átadok átadom átadott átadsz átadta átadtad átadtak átadtam átadtuk átadtunk átadták átadunk átadva átadó
+82	1382	hiába	
+83	1383	kaja	kajába kajában kajából kajához kaják kajákat kajákkal kaján kajának kajára kajáról kaját kajától kajával kajáért
+84	1384	értékel	értékeled értékelek értékelem értékelendő értékelhető értékeli értékelik értékelitek értékelje értékeljem értékeljék értékeljük értékellek értékelne értékelned értékelnek értékelnem értékelni értékelnie értékelné értékelnéd értékelnék értékelném értékelnénk értékelnünk értékelsz értékelt értékelte értékelted értékeltek értékeltem értékelték értékeltük értékelve értékelünk értékelő
+85	1385	illet	illetek illetett illeti illetik illetne illetnek illetni illetné illette illettek illettem illették illettünk
+86	1386	egyetért	egyetértek egyetértene egyetértenek egyetértenem egyetérteni egyetértenék egyetértenének egyetértesz egyetértetek egyetértett egyetértettek egyetértettem egyetértettél egyetértettünk egyetérthetünk egyetértsek egyetértsen egyetértünk
+87	1387	hete	hetében hetén hetére hetét
+88	1388	úristen	
+89	1389	török	törökkel töröknek törökök törököket törökökkel törököknek törököt törökül
+90	1390	menekül	menekülhetek menekülhetnek menekülhetsz menekülhettek menekülj meneküljek meneküljenek meneküljetek meneküljön meneküljünk menekülne menekülnek menekülni menekülnie menekülniük menekülnék menekülnél menekülnének menekülnöd menekülnöm menekülnötök menekülnünk menekülsz menekültek menekültetek menekültél menekültök menekültünk menekülve menekülök menekülünk menekülő
+91	1391	egyelőre	
+92	1392	továbbá	
+93	1393	szer	szerből szerek szereket szerekkel szeren szerk szernek szerre szerrel szerről szert szertől
+94	1394	szövetség	szövetségbe szövetségben szövetségből szövetségek szövetségeket szövetségen szövetséget szövetséggel szövetséghez szövetségnek szövetségnél szövetségre szövetségről szövetségtől
+95	1395	barátaim	barátaimat barátaimhoz barátaimmal barátaimnak barátaimnál barátaimra barátaimról barátaimtól barátaimért
+96	1396	központi	
+97	1397	tisztelet	tiszteletbe tiszteletben tiszteletből tiszteleten tiszteletet tiszteletnek tiszteletre tiszteletről tisztelettel
+98	1398	dolga	dolgába dolgában dolgához dolgának dolgára dolgáról dolgát dolgával
+99	1399	tojás	tojásban tojásból tojáshoz tojásnak tojások tojásokat tojásokkal tojásokon tojásokra tojásokról tojáson tojásra tojásról tojással tojást tojásért
+100	1400	használata	használatában használatához használatának használatára használatáról használatát használatától használatával használatáért

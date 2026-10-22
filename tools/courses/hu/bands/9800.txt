@@ -1,0 +1,100 @@
+1	9701	köhög	köhögj köhögjön köhögni köhögsz köhögtem köhögök köhögött
+2	9702	könyves	
+3	9703	nehezít	nehezíted nehezíteni nehezítette nehezíti nehezítse nehezítsük
+4	9704	tisztség	tisztséget tisztségre
+5	9705	szállodai	
+6	9706	szóvivője	
+7	9707	sznob	sznobnak sznobok
+8	9708	érdekessége	
+9	9709	önéletrajz	önéletrajzokat önéletrajzot
+10	9710	ideológiai	
+11	9711	továbbfejleszt	továbbfejlesztett
+12	9712	nyelvük	nyelvüket nyelvükön
+13	9713	szórólap	szórólapok szórólapokat szórólapokkal szórólapon szórólapot
+14	9714	agglegény	agglegények agglegényként agglegénynek
+15	9715	hipnózis	hipnózisban hipnózissal hipnózist
+16	9716	kaméleon	kaméleonok kaméleont
+17	9717	kombinált	
+18	9718	rekesz	rekesszel rekeszbe rekeszben rekeszek rekeszeket rekeszt
+19	9719	ágazat	ágazatok
+20	9720	megállíthatatlan	megállíthatatlanok megállíthatatlanul
+21	9721	maximálisan	
+22	9722	melegít	melegítek melegítem melegítened melegítenem melegíteni melegítenünk melegített melegítettem melegíti melegítik melegítjük melegítse melegítsem melegítsen melegítsetek melegítsük melegítsünk
+23	9723	kívánságod	kívánságodat
+24	9724	vártalak	
+25	9725	aszpirin	aszpirinnel aszpirint
+26	9726	csuklója	csuklóján csuklójára csuklóját csuklójával
+27	9727	meggyújt	meggyújtani meggyújtanád meggyújtja meggyújtjuk meggyújtják meggyújtod meggyújtok meggyújtom meggyújtott meggyújtotta meggyújtottam meggyújtottuk meggyújtották
+28	9728	infúzió	infúzióban infúzión infúzióra infúziót infúzióval
+29	9729	szexualitás	szexualitásról szexualitással szexualitást
+30	9730	meghibásodás	meghibásodása
+31	9731	megjelenési	
+32	9732	uszoda	uszodába uszodában uszodát
+33	9733	illusztráció	illusztrációk
+34	9734	variáció	variációk variációt
+35	9735	égvilág	égvilágon
+36	9736	gúnyos	gúnyosan
+37	9737	ejtőernyős	ejtőernyősök
+38	9738	gang	
+39	9739	szatyor	szatyorba szatyorban szatyorral szatyrok szatyrokat szatyrot
+40	9740	integet	integessen integessetek integetek integetett integetnek integetni integetsz integettek integettem integettél integetünk
+41	9741	kérvény	kérvényeket kérvényt
+42	9742	időtartam	időtartamot időtartamra
+43	9743	kártyázik	kártyáznak kártyázni kártyázol kártyázom kártyázott kártyáztak kártyáztam kártyáztunk kártyázunk kártyázzunk kártyázás
+44	9744	céltalan	céltalanul
+45	9745	lobogó	lobogót
+46	9746	füstös	
+47	9747	apránként	
+48	9748	csomagolás	csomagolásban csomagoláson csomagolásra csomagolással csomagolást
+49	9749	protein	proteinek proteint
+50	9750	farsang	
+51	9751	növényzet	növényzetet
+52	9752	frakció	frakciók
+53	9753	balkezes	
+54	9754	megvilágosodás	megvilágosodáshoz megvilágosodást
+55	9755	vétele	vételét vételével
+56	9756	pszichés	pszichésen
+57	9757	gátló	gátlót
+58	9758	csorba	csorbát
+59	9759	kárpótol	kárpótolja kárpótoljalak kárpótoljam kárpótoljuk kárpótollak kárpótolni kárpótolom
+60	9760	definiál	definiálja definiálni definiált
+61	9761	számítástechnikai	
+62	9762	őrjárat	őrjáratok
+63	9763	tarka	
+64	9764	szélső	
+65	9765	villámcsapás	villámcsapásként villámcsapást
+66	9766	szétválaszt	szétválasszon szétválasztanak szétválasztani szétválasztja szétválasztjuk szétválasztom szétválasztott szétválasztotta szétválasztottak szétválasztották szétválasztva szétválasztás
+67	9767	megújuló	
+68	9768	realista	realisták
+69	9769	rokonom	rokonomat
+70	9770	ró	rovom ródd rója rójuk róják róna róni rótt rótta róttam
+71	9771	beépít	beépíteni beépítette beépítettem beépítették beépítve
+72	9772	cicus	cicusnak cicusok cicust
+73	9773	szúrás	szúrások szúrással szúrást
+74	9774	jócskán	
+75	9775	főoldal	
+76	9776	honlapunk	honlapunkon
+77	9777	igazgatási	
+78	9778	magyaros	
+79	9779	energiaforrás	energiaforrások energiaforrásra energiaforrást
+80	9780	poros	
+81	9781	sunyi	sunyiba sunyiban sunyin
+82	9782	komornyik	komornyiknak komornyikok komornyikot
+83	9783	tárcsáz	tárcsázni tárcsázok tárcsázom tárcsázott tárcsázta tárcsáztam tárcsázza tárcsázzon tárcsázzuk tárcsázzák tárcsázás tárcsázó
+84	9784	jósol	jóslás jósolja jósoljak jósolnak jósolni jósolok jósolsz jósolt jósolta jósoltak jósoltam jósolták
+85	9785	rögzítő	rögzítőn rögzítőre rögzítőt
+86	9786	gyúr	gyúrni gyúrok gyúrsz gyúrt gyúrtak gyúrtam gyúrtál gyúrva gyúrás
+87	9787	limit	limitet
+88	9788	hívjalak	
+89	9789	vöröskereszt	
+90	9790	testvéri	
+91	9791	ideológia	ideológiák ideológiát
+92	9792	engedelmes	engedelmesek engedelmesen
+93	9793	úgymint	
+94	9794	reklámoz	reklámoznak reklámozni reklámozom reklámozott reklámozta reklámozták reklámozza reklámozzam reklámozzuk reklámozzák
+95	9795	kilövés	kilövéshez kilövésig kilövésre kilövést
+96	9796	hányadik	hanyadik hányadikon hányadikra
+97	9797	prostitúció	prostitúcióra prostitúciót prostitúcióval prostitúcióért
+98	9798	sógornő	sógornőm sógornőnek sógornőt
+99	9799	mosómedve	mosómedvék mosómedvéket mosómedvét
+100	9800	magnézium	magnéziumot

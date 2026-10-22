@@ -1,0 +1,100 @@
+1	4301	mocsok	mocskok mocskokat mocskokkal mocskoknak mocskot mocsokba mocsokban mocsokból mocsokkal mocsoknak mocsokra mocsoktól
+2	4302	beleszeret	beleszeressek beleszeressen beleszeretek beleszeretett beleszeretnek beleszeretni beleszeretsz beleszerettem beleszerettél beleszerettünk
+3	4303	nyuszi	nyuszik nyuszikat nyuszinak nyuszit nyuszival
+4	4304	feszült	feszültebb feszültek feszültnek feszültté
+5	4305	ragyog	ragyogja ragyogjanak ragyogjon ragyogna ragyognak ragyogni ragyognia ragyogok ragyogott ragyogsz ragyogtak ragyogtál ragyogunk ragyogva
+6	4306	párna	párnába párnák párnákat párnákkal párnákon párnán párnának párnára párnát párnával
+7	4307	kiver	kivered kiverem kiveri kiverik kiverje kiverjem kiverjék kiverjük kiverni kiverné kiverném kivert kiverte kiverted kivertem kiverték kivertük
+8	4308	elszúr	elszúrja elszúrjuk elszúrják elszúrjátok elszúrni elszúrod elszúrok elszúrom elszúrsz elszúrt elszúrta elszúrtad elszúrtam elszúrtuk elszúrták elszúrtál elszúrtátok
+9	4309	vérnyomás	vérnyomásra vérnyomással vérnyomást
+10	4310	regisztrált	regisztráltak
+11	4311	szimpla	szimplán
+12	4312	függöny	függönnyel függönyhöz függönyt függönyök függönyöket függönyökkel függönyön
+13	4313	sorol	sorolhatnám sorolja soroljam soroljuk sorolják sorolni sorolom sorolt sorolta sorolták sorolva
+14	4314	világosan	világosabban
+15	4315	pornó	pornóban pornóhoz pornónak pornóra pornóról pornót pornóval
+16	4316	ős	ősei őseik ősök ősöket ősökkel ősöknek ősöktől
+17	4317	tanya	tanyáján tanyájára tanyák tanyán tanyának tanyára tanyáról tanyát tanyával
+18	4318	édesség	édességek édességeket édességet édességgel édességre édességért
+19	4319	narancs	naranccsal narancsok narancsot
+20	4320	gondom	gondomat
+21	4321	szökik	szökhetett szökhetnek szökhetsz szökhetünk szökjek szökjenek szökjön szökjünk szökne szöknek szökni szöknie szöknöd szöknöm szöknünk szöksz szöktek szöktem szöktetek szöktél szöktünk szökök szökünk
+22	4322	közvélemény	közvéleménynek közvéleményre közvéleményt
+23	4323	vodka	vodkára vodkát vodkától vodkával
+24	4324	vásár	vásárba vásárban vásárokon vásáron vásárra vásárról vásárt
+25	4325	vacak	vacakkal vacaknak vacakok vacakot vacakul vackok vackokat vackot
+26	4326	erőforrás	erőforrások erőforrásokat erőforrásokkal erőforrásra erőforrással erőforrást
+27	4327	alapjai	alapjaiban alapjainak alapjaira alapjait
+28	4328	mentális	
+29	4329	termelés	termelése termelést termelését
+30	4330	diploma	diplomára diplomát diplomával
+31	4331	kényelmetlen	kényelmetlenebb kényelmetlenek kényelmetlennek kényelmetlenné kényelmetlenül
+32	4332	vérzés	vérzések vérzésnek vérzésre vérzéssel vérzést
+33	4333	ügyvédi	
+34	4334	megfigyelő	megfigyelőben megfigyelők megfigyelőket megfigyelőként megfigyelőnek megfigyelőt
+35	4335	szalad	szaladj szaladjak szaladjatok szaladjon szaladjunk szaladnak szaladni szaladnia szaladnom szaladok szaladsz szaladt szaladtak szaladtam szaladtok szaladtunk szaladtál szaladunk
+36	4336	veszélyeztet	veszélyeztesse veszélyezteted veszélyeztetem veszélyeztethetjük veszélyezteti veszélyeztetik veszélyeztetjük veszélyeztetni veszélyeztetné veszélyeztetném veszélyeztette veszélyeztetted veszélyeztettem veszélyeztették veszélyeztetve veszélyeztetés veszélyeztető
+37	4337	kápolna	kápolnába kápolnában kápolnához kápolnát
+38	4338	kádár	
+39	4339	bármennyire	
+40	4340	párizsi	párizsiak
+41	4341	keverék	keveréke keverékek keveréket keverékkel
+42	4342	napfény	napfénnyel napfényben napfénynek napfénynél napfényre napfényt napfénytől
+43	4343	évei	éveiben éveinek éveire éveit
+44	4344	elítél	elítélt elítélte elítélteket elítélték
+45	4345	édesanyád	édesanyádat édesanyáddal édesanyádhoz édesanyádnak édesanyádra édesanyádról édesanyádtól édesanyádé édesanyádért
+46	4346	óv	óva óvd óvj óvja óvjam óvjon óvjuk óvják óvjátok óvlak óvni óvnia óvnom óvnunk óvod óvom óvott óvta óvtalak óvtam óvó
+47	4347	következménye	következményeként következményét
+48	4348	elefánt	elefántnak elefántok elefántokat elefántokkal elefántoknak elefánton elefántot elefántra elefántról elefánttal
+49	4349	rendőri	
+50	4350	márka	márkák márkákat márkát márkával márkáért
+51	4351	előkerül	előkerült
+52	4352	belvárosi	
+53	4353	születési	
+54	4354	lök	lökd löki lökik lökj lökje lökjed lökjem lökjetek lökjétek lökjön lökjük löklek löknek lökni löksz lökte lökted löktek löktelek löktem lökték löktél lököd lököm lökött
+55	4355	nyíltan	
+56	4356	házassági	
+57	4357	áldott	áldottak áldottnak
+58	4358	időzítés	időzítésen időzítésnek időzítésről időzítéssel időzítést
+59	4359	részesül	részesülhet részesüljenek részesüljön részesülnek részesülni részesülsz részesült részesültek részesültem részesültünk részesülök részesülünk
+60	4360	festék	festékbe festékben festékek festéket festékkel festékre festékről
+61	4361	fala	falába falában falához falán falának falára faláról falát
+62	4362	ige	igék igéket igét
+63	4363	elkísér	elkíséred elkísérem elkísérhetem elkísérhetlek elkíséri elkísérik elkísérje elkísérjelek elkísérjem elkísérjen elkísérjük elkísérlek elkísérne elkísérned elkísérnek elkísérni elkísérné elkísérnéd elkísérnél elkísérnélek elkísérném elkísérsz elkísért elkísérte elkísértek elkísértem elkísértél elkísérünk
+64	4364	sík	síkban síkon síkra
+65	4365	származású	származásúak
+66	4366	skót	skótok skótot
+67	4367	asszisztens	asszisztensek asszisztensként asszisztensnek asszisztensre asszisztenssel asszisztenst asszisztensének
+68	4368	szocialista	szocialisták
+69	4369	visszafelé	
+70	4370	tulajdon	tulajdonba tulajdonban tulajdonképp tulajdonnak tulajdonnal tulajdont
+71	4371	államtitkár	államtitkárt
+72	4372	sikertelen	sikertelenek sikertelenül
+73	4373	kommunikál	kommunikálhatunk kommunikáljanak kommunikáljon kommunikáljunk kommunikálnak kommunikálni kommunikálnunk kommunikálok kommunikálsz kommunikált kommunikáltak kommunikáltunk kommunikálunk
+74	4374	befektető	befektetők befektetőket befektetőkkel befektetőknek befektetőnek befektetőt befektetővel
+75	4375	öcs	öccse
+76	4376	formula	formulát
+77	4377	makacs	legmakacsabb makacsabb makacsak makacsnak makacsok makacsul
+78	4378	whisky	whiskynek whiskyre whiskyt whiskytől whiskyvel
+79	4379	felrobban	felrobbanhat felrobbanjon felrobbanna felrobbannak felrobbanni felrobbanok felrobbansz felrobbantam felrobbanunk felrobbanó
+80	4380	megrendez	megrendezett
+81	4381	butaság	butasággal butaságnak butaságokat butaságot butaságra
+82	4382	bejárati	
+83	4383	megtör	megtörik megtörni megtört megtörtük
+84	4384	lábai	lábaiban lábain lábainál lábaira lábait lábaival
+85	4385	mennyei	
+86	4386	felkészült	felkészültebb felkészültek felkészülten felkészültnek felkészültünk
+87	4387	űrhajó	űrhajóba űrhajóban űrhajóból űrhajók űrhajókat űrhajón űrhajónak űrhajóra űrhajóról űrhajót űrhajóval
+88	4388	öltöny	öltönnyel öltönybe öltönyben öltönyhöz öltönyre öltönyt öltönyök öltönyöket
+89	4389	faszom	
+90	4390	edény	edénnyel edénybe edényben edényből edények edényeket edényekkel edényt
+91	4391	sokféle	sokféleképpen sokfélék sokfélét
+92	4392	esetleges	esetlegesen
+93	4393	kongresszus	kongresszusba kongresszusban kongresszusnak kongresszuson kongresszusra kongresszussal kongresszust kongresszustól kongresszusán
+94	4394	szerencséje	szerencséjének szerencséjére szerencséjét
+95	4395	terved	tervedbe tervedben terveddel tervedet tervedhez tervednek tervedről
+96	4396	opera	operába operában operából operának operát
+97	4397	kacsa	kacsák kacsákat kacsákkal kacsáknak kacsákra kacsának kacsára kacsát kacsával
+98	4398	értelmez	értelmezed értelmezem értelmezett értelmezi értelmezik értelmezni értelmezte értelmezted értelmeztem értelmezték értelmezze értelmezzem értelmezzük
+99	4399	válla	vállába vállában vállából vállán vállánál vállára válláról vállát vállával
+100	4400	mindvégig	

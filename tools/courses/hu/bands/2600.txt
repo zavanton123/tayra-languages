@@ -1,0 +1,100 @@
+1	2501	féltékeny	féltékennyé féltékenyek féltékenyen féltékenynek
+2	2502	édesanyja	édesanyjához édesanyjának édesanyjánál édesanyjára édesanyjáról édesanyját édesanyjától édesanyjával édesanyjáé
+3	2503	szánalmas	legszánalmasabb szánalmasabb szánalmasak szánalmasnak szánalmassá
+4	2504	ítélet	ítéletben ítéletek ítéleteket ítéletet ítélethez ítéletnek ítéletre ítéletről ítélettel ítéletét
+5	2505	tudás	tudásban tudáshoz tudásnak tudásom tudásra tudásról tudással tudást tudásunk tudásunkat tudásért
+6	2506	győri	
+7	2507	arab	arabbal arabnak arabok arabokat arabokkal araboknak arabot arabul
+8	2508	igazam	igazamat
+9	2509	medve	medvében medvéhez medvék medvéket medvékkel medvéknek medvékre medvékről medvéktől medvének medvére medvéről medvét medvétől medvével
+10	2510	jelentősen	
+11	2511	link	linkek linken linket linkre
+12	2512	osztrák	osztrákok
+13	2513	alkohol	alkoholba alkoholban alkoholhoz alkohollal alkoholnak alkoholra alkoholról alkoholt alkoholtól
+14	2514	alapvető	legalapvetőbb
+15	2515	szervezett	szervezettek szervezettel szervezetten szervezettől
+16	2516	hangosan	hangosabban leghangosabban
+17	2517	buta	butább buták bután butának legbutább
+18	2518	levesz	levegye levegyem levegyék levegyük levehessem leveheted levehetem leveheti levehetik levehetjük levehetnéd levehetném levehető levenned levennem levenni levennie levenné levennéd levennék levenném levennénk levesszük leveszek leveszel leveszi leveszlek levesznek leveszünk levetette levett levette levetted levettem levették levettél levettük levők levőnek
+19	2519	vonul	vonulhat vonulhatok vonulhatsz vonulhatunk vonuljak vonuljanak vonuljatok vonuljon vonuljunk vonulnak vonulni vonulnia vonulniuk vonulnod vonulnom vonulnunk vonulnék vonulok vonulsz vonult vonultak vonultam vonultunk vonultál vonulunk vonulás vonuló
+20	2520	kedved	kedvedben kedvedet kedvedre kedvedért
+21	2521	csupa	
+22	2522	bűncselekmény	bűncselekménnyel bűncselekménybe bűncselekményben bűncselekmények bűncselekményekben bűncselekményeket bűncselekményekkel bűncselekményekről bűncselekményekért bűncselekményhez bűncselekménynek bűncselekményre bűncselekményről bűncselekményt bűncselekményért
+23	2523	nagyi	nagyihoz nagyik nagyinak nagyinál nagyira nagyiról nagyit nagyitól nagyival nagyié
+24	2524	szíves	szívesek
+25	2525	személyi	személyik személyiket személyit személyivel
+26	2526	többnyire	
+27	2527	enyhe	enyhébb enyhén legenyhébb
+28	2528	megbízható	legmegbízhatóbb megbízhatóak megbízhatóbb megbízhatók megbízhatónak
+29	2529	viszonylag	
+30	2530	társ	társaim társaink társak társakat társakkal társaknak társakra társat társként társnak társra társsal társul társulni társulok társult társultam társulunk
+31	2531	időjárás	időjárásban időjáráshoz időjárásnak időjárásra időjárásról időjárással időjárást időjárástól
+32	2532	szerinti	
+33	2533	tartózkodik	tartózkodhat tartózkodhatnak tartózkodjanak tartózkodjon tartózkodnak tartózkodni tartózkodnia tartózkodott tartózkodsz tartózkodtak tartózkodtam tartózkodunk tartózkodás tartózkodást tartózkodó tartózkodók
+34	2534	mosdó	mosdóba mosdóban mosdóból mosdóhoz mosdók mosdókat mosdón mosdónál mosdóra mosdót
+35	2535	olvasható	olvashatóak olvashatók
+36	2536	őrnagy	őrnaggyal őrnagyhoz őrnagynak őrnagyot őrnagyra őrnagyról őrnagytól
+37	2537	vegyes	vegyesek vegyesen
+38	2538	megenged	megengeded megengedem megengedi megengedik megengeditek megengedjem megengedjük megengednek megengednem megengedni megengedné megengednéd megengednék megengedném megengedsz megengedted megengedtem megengedték megengedtük megengedve
+39	2539	körülötte	körülötted körülöttem körülöttetek körülöttük körülöttünk
+40	2540	munkahely	munkahelye munkahelyedre munkahelyek munkahelyeket munkahelyen munkahelyet munkahelyre munkahelyről munkahelyén munkahelyére
+41	2541	pete	petet peték petéket petét
+42	2542	növel	növeled növelem növelheti növelhetjük növelhetnénk növelhető növeli növelik növelje növeljem növeljék növeljük növelnem növelni növelné növelnünk növelt növelte növeltem növelték növeltük növelve növelő
+43	2543	végleges	véglegesek véglegesen véglegesnek véglegessé
+44	2544	tárgyal	tárgyalhat tárgyalhatnánk tárgyalhatok tárgyalhatunk tárgyaljak tárgyaljanak tárgyaljunk tárgyalják tárgyalnak tárgyalni tárgyalnia tárgyalnod tárgyalnom tárgyalnunk tárgyalnánk tárgyalok tárgyalsz tárgyalt tárgyalta tárgyaltak tárgyaltam tárgyaltuk tárgyaltunk tárgyalták tárgyaltál tárgyalunk tárgyalva tárgyaló tárgyalóba tárgyalóban tárgyalót
+45	2545	fegyveres	fegyveresek fegyvereseket fegyveresekkel fegyveresen fegyveresnek fegyveressel fegyverest
+46	2546	megköszön	megköszönheted megköszönhetem megköszönheti megköszönhetnéd megköszöni megköszönik megköszönitek megköszönje megköszönjem megköszönjük megköszönni megköszönnie megköszönné megköszönnéd megköszönném megköszönnénk megköszönnöd megköszönnöm megköszönte megköszönted megköszöntem megköszönték megköszönöd megköszönöm
+47	2547	arcom	arcomat arcomba arcomban arcomból arcomhoz arcommal arcomnak arcomon arcomra arcomról arcomtól
+48	2548	útvonal	útvonala útvonalak útvonalakat útvonalakon útvonalat útvonalon útvonalra útvonalról
+49	2549	elfogy	elfogyasztani elfogyasztja elfogyasztják elfogyasztott elfogyasztottam elfogyjon elfogyna elfogynak elfogyni elfogyott elfogytak
+50	2550	ura	urában urából urához urán urának uránt urára urát urával urává
+51	2551	szexel	szexelek szexelhet szexelhetek szexelhetnénk szexelhetsz szexelhetünk szexeljek szexeljen szexeljenek szexeljetek szexeljünk szexelne szexelned szexelnek szexelnem szexelni szexelnie szexelnék szexelnél szexelnénk szexelnünk szexelsz szexelt szexeltek szexeltem szexeltetek szexeltél szexeltünk szexelés szexelünk szexelő
+52	2552	valós	valósak valósnak valóssá
+53	2553	kreatív	kreatívabb kreatívak kreatívnak
+54	2554	undorító	legundorítóbb undorítóak undorítóan undorítóbb undorítónak undorítót
+55	2555	disznó	disznóból disznók disznókat disznókkal disznóknak disznókra disznónak disznóra disznót disznóval
+56	2556	szürke	szürkében szürkék szürkének szürkét
+57	2557	autója	autójába autójában autójából autójához autóján autójának autójára autójáról autóját autójával
+58	2558	szintű	szintűek
+59	2559	house	house-ba house-ban house-nak house-t house-tól house-zal housenak
+60	2560	változata	változatában változatának változatát változatával
+61	2561	felszín	felszínen felszínhez felszínre felszínről felszínt felszíntől
+62	2562	havi	
+63	2563	áram	árammal áramot áramra
+64	2564	vizsga	vizsgához vizsgáig vizsgák vizsgákat vizsgáknak vizsgákon vizsgákra vizsgán vizsgának vizsgára vizsgáról vizsgát vizsgával
+65	2565	keveredik	keveredek keveredett keveredhet keveredhetek keveredhetett keveredhetsz keveredhetünk keveredjek keveredjen keveredjenek keveredjetek keveredjünk keveredne keverednek keveredni keverednék keverednél keveredsz keveredtek keveredtem keveredtetek keveredtél keveredtünk keveredve keveredés keveredünk
+66	2566	nyaka	nyakába nyakában nyakából nyakához nyakáig nyakán nyakának nyakánál nyakára nyakáról nyakát nyakával
+67	2567	hatalma	hatalmába hatalmában hatalmának hatalmánál hatalmára hatalmáról hatalmát hatalmától hatalmával
+68	2568	meghallgat	meghallgassa meghallgassalak meghallgassam meghallgassanak meghallgasson meghallgassuk meghallgassák meghallgathatnánk meghallgathatom meghallgatja meghallgatjuk meghallgatják meghallgatlak meghallgatna meghallgatnak meghallgatni meghallgatnia meghallgatnom meghallgatnunk meghallgatná meghallgatnád meghallgatnál meghallgatnám meghallgatnának meghallgatnánk meghallgatod meghallgatok meghallgatom meghallgatott meghallgatsz meghallgatta meghallgattad meghallgattak meghallgattalak meghallgattam meghallgattuk meghallgatták meghallgattál meghallgatunk
+69	2569	említett	említettek
+70	2570	alma	almába almában almából almák almákat almákkal almának almára almát almával almáért
+71	2571	autópálya	autópályához autópályák autópályákat autópályákon autópályán autópályánál autópályára autópályáról autópályát autópályától
+72	2572	gyár	gyárak gyárakat gyárakban gyárat gyárba gyárban gyárból gyárhoz gyárnak gyárnál gyárral gyárról gyártól
+73	2573	kézilabda	kézi
+74	2574	forgat	forgassa forgasson forgassuk forgassunk forgassák forgassátok forgathatunk forgatható forgatja forgatjuk forgatják forgatnak forgatni forgatnom forgatnunk forgatnánk forgatod forgatok forgatom forgatott forgatsz forgatta forgattad forgattak forgattam forgattok forgattuk forgattunk forgatták forgattál forgatunk forgatva forgató
+75	2575	álmom	álmomat álmomba álmomban álmomból álmomnak álmomra álmomról
+76	2576	vidám	legvidámabb vidámabb vidámak vidámat vidámmá vidámnak
+77	2577	kiemelt	kiemelten
+78	2578	patkány	patkánnyal patkánnyá patkányként patkánynak patkányok patkányokat patkányokkal patkányoknak patkányokon patkányokra patkányokról patkányoktól patkányra patkányt patkánytól
+79	2579	arcod	arcodat arcodba arcodban arcodból arcoddal arcodhoz arcodnak arcodon arcodra arcodról
+80	2580	felül	felülhet felülhetek felülni felülsz felült felültem felültet felültünk felülés felülök felülünk fölül
+81	2581	teljesítmény	teljesítménnyel teljesítmények teljesítményen teljesítményre teljesítményt teljesítményért teljesítményük
+82	2582	mosoly	mosollyal mosolya mosolynak mosolyok mosolyokat mosolyra mosolyt mosolyával mosolyért
+83	2583	univerzum	univerzumba univerzumban univerzumból univerzumhoz univerzummal univerzumnak univerzumok univerzumon univerzumot univerzumra univerzumról
+84	2584	mag	magba magban magból maggal maghoz magnak magok magokat magokkal magot magra magvak magvakat magért
+85	2585	véleményem	véleményemet véleményemmel véleményemre
+86	2586	szégyen	szégyenbe szégyenben szégyennek szégyennel szégyenről szégyent szégyentől
+87	2587	kockáztat	kockáztassa kockáztassak kockáztassam kockáztasson kockáztassuk kockáztassunk kockáztathatja kockáztathatjuk kockáztathatok kockáztathatom kockáztathattam kockáztatja kockáztatjuk kockáztatják kockáztatna kockáztatnak kockáztatni kockáztatnia kockáztatnod kockáztatnom kockáztatnunk kockáztatná kockáztatnád kockáztatnám kockáztatnánk kockáztatnék kockáztatod kockáztatok kockáztatom kockáztatott kockáztatsz kockáztatta kockáztattad kockáztattam kockáztattuk kockáztatták kockáztattál kockáztatunk kockáztatva
+88	2588	látogató	látogatóba látogatóban látogatók látogatókat látogatókkal látogatóknak látogatókra látogatókról látogatónak látogatóra látogatót
+89	2589	ereszt	eressz eressze eresszek eresszem eresszen eresszenek eresszetek eresszék eresszétek eresszük ereszd ereszted eresztek eresztelek eresztem eresztened eresztenek eresztenem ereszteni eresztesz eresztett eresztette eresztettek eresztettem eresztettél ereszti eresztik eresztjük eresztve eresztés eresztünk
+90	2590	vágy	vággyal vágyai vágyaink vágyait vágyak vágyakat vágyakkal vágyat vágyban vágynak vágynál vágyra vágyról vágytól
+91	2591	sötétség	sötétségbe sötétségben sötétségből sötétségen sötétséget sötétséggel sötétséghez sötétségnek sötétségre sötétségről sötétségtől
+92	2592	rózsa	rózsák rózsákat rózsákkal rózsának rózsát rózsával
+93	2593	táj	tájak tájakat tájakon tájat tájban tájon tájra tájról táján tájáról
+94	2594	időd	idődbe idődben idődből idődet
+95	2595	bölcs	bölcsebb bölcsek bölcset bölcsnek legbölcsebb
+96	2596	beáll	beállhat beállhatok beállhatsz beálljak beálljon beállnak beállni beállnál beállok beállsz beállt beálltak beálltam beálltunk beálltál beállunk beállás beállít beállítanak beállítani beállítasz beállíthatjuk beállítja beállítjuk beállítják beállítod beállítok beállítom beállított beállította beállítottad beállítottak beállítottam beállítottuk beállították beállítottál beállítunk beállítva beálló
+97	2597	véres	legvéresebb véresebb véresek véresen véreset véresre
+98	2598	felette	feletted felettem felettetek felettébb felettük felettünk fölötte fölötted fölöttem fölöttébb fölöttük fölöttünk
+99	2599	távoli	legtávolabbi távolabbi távoliak távolinak
+100	2600	kormányzó	kormányzóhoz kormányzók kormányzóként kormányzónak kormányzónál kormányzóra kormányzóról kormányzót kormányzótól kormányzóval

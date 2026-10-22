@@ -1,0 +1,100 @@
+1	1701	őr	őrként őrnek őrnél őrre őrrel őrről őrt őrtől őrök őröket őrökkel őröknek őröknél őrökre őrökről őröktől őrökön őrön őrül őrüljön őrüljünk őrülnek őrülni őrülsz őrültem őrültél őrültünk őrülve őrülök
+2	1702	házi	háziban házit házival
+3	1703	hó	havat havon hóba hóban hóból hónak hóra hóról hót hótól hóval
+4	1704	eldől	eldönt eldöntened eldöntenem eldönteni eldöntenie eldönteniük eldöntenéd eldöntenünk eldöntheted eldönthetem eldöntheti eldönthetik eldönthetjük eldönti eldöntik eldöntitek eldöntjük eldöntse eldöntsem eldöntsék eldöntsük eldöntve eldöntöd eldöntöm eldöntött eldöntötte eldöntötted eldöntöttem eldöntötték eldöntöttétek eldöntöttük eldöntő eldőlni eldőlt
+5	1705	gyula	gyulán gyulát
+6	1706	egyedi	egyediek egyedinek egyedit egyedivé
+7	1707	joga	jogában jogán jogának jogáról jogát jogától jogával jogáért
+8	1708	teremt	teremtek teremtene teremtened teremtenek teremtenem teremteni teremtenünk teremtesz teremtett teremtette teremtetted teremtettek teremtettelek teremtettem teremtették teremtettél teremtettük teremtettünk teremthetünk teremti teremtik teremtjük teremts teremtsek teremtsen teremtsenek teremtsünk teremtve teremté teremtünk teremtő teremtője teremtőnek teremtőt teremtővel
+9	1709	csütörtök	csütörtökhöz csütörtökig csütörtökre csütörtökön csütörtököt
+10	1710	felkel	felkelek felkelhet felkelhetsz felkeljek felkeljen felkelne felkelned felkelnek felkelnem felkelni felkelnie felkelnél felkelsz felkelt felkelted felkeltek felkeltelek felkeltem felkelteni felkeltené felkeltett felkeltette felkeltetted felkeltettelek felkeltettem felkeltették felkeltettük felkelti felkeltik felkeltjük felkeltse felkeltsem felkeltsük felkeltél felkeltünk felkelünk felkelő felkelők felkelőket
+11	1711	nyúl	nyulak nyulakat nyulakkal nyulakra nyulat nyúld nyúlhat nyúlhatsz nyúlj nyúlként nyúllal nyúlna nyúlnak nyúlnod nyúlnál nyúlra nyúlról nyúlsz nyúlt nyúltam nyúltál nyúlunk nyúló
+12	1712	felad	feladhatja feladhatod feladja feladjam feladjuk feladják feladjátok feladlak feladna feladni feladnia feladnod feladnom feladnunk feladná feladnád feladnál feladnám feladnánk feladnék feladod feladok feladom feladott feladsz feladtad feladtak feladtam feladtuk feladtunk feladták feladtál feladtátok feladva feladás
+13	1713	védelem	védelembe védelemben védelemhez védelemmel védelemnek védelemre védelemről védelemtől védelemért védelmem védelmemre védelmen védelmet védelmükre
+14	1714	ugyanúgy	
+15	1715	felfedez	felfedezed felfedezek felfedezem felfedezett felfedezhetjük felfedezhető felfedezi felfedezik felfedeznek felfedezni felfedeznék felfedezte felfedezted felfedeztek felfedeztem felfedezték felfedeztél felfedeztük felfedeztünk felfedezve felfedezze felfedezzem felfedezzenek felfedezzék felfedezzük felfedezés felfedezése felfedezünk
+16	1716	kedd	kedden keddet keddig keddre keddtől
+17	1717	vers	versbe versben versből verseimet versek verseket versekkel verset versnek versre verssel
+18	1718	barátnőm	barátnőmet barátnőmhöz barátnőmmel barátnőmnek barátnőmnél barátnőmre barátnőmről barátnőmtől barátnőmé
+19	1719	hű	hűek hűnek hűt hűteni hűti hűtsd hűtse hűtsük hűtve hűtés hűtött leghűbb
+20	1720	kés	kések késeket késekkel késen késhez késnek késnél késre késről késsel kést késtől késért
+21	1721	időpont	időpontban időpontig időpontok időpontokat időpontokban időpontot időpontra időpontról időponttal időpontért
+22	1722	művészeti	
+23	1723	amennyi	amennyibe amennyinek amennyiről amennyit amennyivel amennyiért
+24	1724	egyház	egyháza egyházak egyházat egyházba egyházban egyházból egyházhoz egyháznak egyháznál egyházon egyházra egyházról egyháztól egyházzal egyházé
+25	1725	szerelme	szerelmében szerelméhez szerelmének szerelmére szerelméről szerelmét szerelmétől szerelmével szerelméért
+26	1726	emelet	emeletek emeleteket emeleten emeletet emeletig emeletre emeletről emelett emelettel emeletén
+27	1727	könyörög	könyörgés könyörgök könyörgöm könyörgött könyörgünk könyörgő könyöröghetsz könyörögjek könyörögjön könyörögjünk könyörögne könyörögnek könyörögni könyörögnie könyörögnék könyörögnél könyörögnöd könyörögnöm könyörögsz könyörögtek könyörögtem könyörögtél könyörögtünk könyörögve
+28	1728	stílus	stílusban stílushoz stílusnak stílusok stílusra stílusról stílussal stílust
+29	1729	kft	
+30	1730	felébred	felébredek felébredhet felébredjek felébredjen felébredne felébredned felébrednek felébredni felébrednék felébrednél felébredsz felébredt felébredtek felébredtem felébredtél felébredtünk felébredve felébredünk felébressze felébresszem felébresszük felébreszt felébreszted felébresztelek felébresztem felébreszteni felébresztesz felébresztett felébresztette felébresztetted felébresztettek felébresztettelek felébresztettem felébresztettél felébresztettük felébresztettünk felébreszti felébresztik felébresztjük
+31	1731	fedez	fedezd fedezed fedezek fedezel fedezem fedezi fedezik fedezlek fedezne fedezned fedeznek fedeznem fedezni fedeznie fedezné fedeznél fedeznünk fedezte fedezted fedeztek fedeztelek fedeztem fedezték fedeztél fedeztük fedeztünk fedezve fedezze fedezzelek fedezzem fedezzen fedezzenek fedezzetek fedezzék fedezzétek fedezzük fedezék fedezünk fedező
+32	1732	golyó	golyóban golyóból golyók golyókat golyókkal golyóknak golyókra golyókról golyóktól golyón golyónak golyónál golyóra golyóról golyót golyótól golyóval
+33	1733	szerencsére	
+34	1734	emlékeztet	emlékezteted emlékeztetek emlékeztetem emlékeztetett emlékezteti emlékeztetik emlékeztetjük emlékeztetnek emlékeztetni emlékeztette emlékeztettek emlékeztetve emlékeztető emlékeztetők emlékeztetőket emlékeztetőként emlékeztetőnek emlékeztetőre emlékeztetőt emlékeztetőül
+35	1735	örökre	
+36	1736	bajod	bajodat
+37	1737	hazamegy	hazamegyek hazamegyünk hazamehessek hazamehessen hazamehetek hazamehetnek hazamehetnénk hazamehetsz hazamehettek hazamehetünk hazamenjek hazamenjen hazamenjenek hazamenjünk hazamenne hazamenned hazamennek hazamennem hazamenni hazamennie hazamennék hazamennél hazamennénk hazamennünk hazament hazamentek hazamentem hazamentél hazamentünk hazamész
+38	1738	alkalma	alkalmából alkalmával
+39	1739	holttest	holttestben holttestből holttestek holttesteken holttesteket holttestekkel holttestekre holttestekről holttestektől holttesten holttestet holttesthez holttestnek holttestnél holttestre holttestről holttesttel holttesttől holttestért holttestét
+40	1740	szokásos	szokásosak szokásosat szokásosnál szokásost szokásostól
+41	1741	csap	csapból csapd csaphat csapj csapja csapjanak csapjatok csapjon csapjuk csapjunk csapják csapjátok csaplak csapna csapnak csapni csapnod csapnom csapnunk csapod csapok csapokat csapom csapot csapott csapra csapsz csapta csaptad csaptak csaptalak csaptam csaptok csaptunk csapták csaptál csapunk csapva csapó
+42	1742	típus	típusai típusba típusnak típusok típusokat típusra típussal típust
+43	1743	angyal	angyalhoz angyalként angyallal angyallá angyalnak angyalok angyalokat angyalokban angyalokkal angyaloknak angyalokra angyalokról angyalra angyalról angyalt angyalé
+44	1744	említ	említed említek említem említened említenek említenem említeni említenie említené említenéd említeném említesz említetted említettem említették említettél említettük említhetted említi említik említjük említse említsek említsem említsék említsétek említsük említve említés említésére
+45	1745	drog	drogban drogból droggal droghoz drognak drogok drogokat drogokból drogokhoz drogokkal drogoknak drogokra drogokról drogoktól drogokért drogon drogot drogra drogról drogtól drogért
+46	1746	tánc	táncba táncban táncból tánccal tánchoz táncnak táncnál táncok táncokat táncon táncot táncra táncról tánctól táncért
+47	1747	ünnepel	ünnepelek ünnepelhet ünnepelhetjük ünnepelhetnénk ünnepelhetünk ünnepelje ünnepeljek ünnepeljen ünnepeljenek ünnepeljetek ünnepeljék ünnepeljük ünnepeljünk ünnepelned ünnepelnek ünnepelnem ünnepelni ünnepelnék ünnepelnénk ünnepelnünk ünnepelsz ünnepelt ünnepelte ünnepeltek ünnepeltem ünnepelték ünnepeltük ünnepeltünk ünnepelve ünnepelünk ünnepli ünneplik
+48	1748	gyűrű	gyűrűbe gyűrűben gyűrűhöz gyűrűk gyűrűket gyűrűkkel gyűrűn gyűrűnek gyűrűre gyűrűről gyűrűt gyűrűvel gyűrűért
+49	1749	körülbelül	
+50	1750	szállít	szállítanak szállítani szállítania szállítanod szállítanom szállítanunk szállítasz szállítható szállítja szállítjuk szállítják szállítod szállítok szállítom szállított szállította szállítottak szállítottam szállítottuk szállítottunk szállították szállítottál szállítsa szállítsak szállítsam szállítsanak szállítson szállítsuk szállítsák szállítsátok szállítunk szállítva
+51	1751	szakmai	
+52	1752	alkalmazott	alkalmazottak alkalmazottakat alkalmazottakkal alkalmazottaknak alkalmazottakra alkalmazottakról alkalmazottal alkalmazottat alkalmazottja alkalmazottként alkalmazottnak alkalmazottra alkalmazottról
+53	1753	értékes	legértékesebb értékesebb értékesek értékeset értékesnek értékessé
+54	1754	pápa	pápához pápák pápán pápának pápát pápától pápával
+55	1755	valamelyik	valamelyikben valamelyiken valamelyiket valamelyikkel valamelyiknek valamelyikre valamelyikén
+56	1756	öltözik	öltözhetsz öltözne öltöznek öltözni öltöznie öltöznék öltöznél öltöznöd öltöznöm öltöznünk öltöztek öltöztem öltöztet öltöztetek öltözteti öltöztél öltöztök öltöztünk öltözve öltözz öltözzenek öltözzetek öltözzön öltözzünk öltözök öltözöl öltözött öltözünk öltöző öltözőbe öltözőben öltözőből öltözők öltözőt
+57	1757	hölgyem	hölgyemnek
+58	1758	eddigi	eddigiek eddigieket eddiginél
+59	1759	gyakori	gyakoriak gyakoribb leggyakoribb
+60	1760	bébi	bébik bébiket bébinek bébire bébit bébivel
+61	1761	ahogyan	
+62	1762	létrehoz	létrehozhat létrehozhatunk létrehoznak létrehozni létrehoznunk létrehozok létrehozom létrehozott létrehozta létrehoztak létrehoztam létrehoztuk létrehoztunk létrehozták létrehoztál létrehozunk létrehozva létrehozza létrehozzak létrehozzam létrehozzanak létrehozzon létrehozzuk létrehozzunk létrehozzák létrehozó
+63	1763	pilóta	pilótaként pilótához pilóták pilótákat pilótákkal pilótáknak pilótának pilótára pilótáról pilótát pilótával
+64	1764	háttér	hátteret háttérbe háttérben háttérből háttérrel
+65	1765	kezelés	kezelésbe kezelésben kezelések kezeléseket kezelésekkel kezelésekre kezelésen kezeléshez kezelésnek kezelésre kezelésről kezeléssel kezelést kezeléstől kezelésért
+66	1766	kút	kutak kutakat kutassa kutassak kutassam kutassanak kutassatok kutasson kutassuk kutassunk kutassák kutassátok kutat kutatja kutatjuk kutatják kutatnak kutatni kutatnom kutatnunk kutatod kutatok kutatom kutatott kutatsz kutatta kutattak kutattam kutattuk kutattunk kutatták kutattál kutatunk kutatva kútba kútban kútból kúthoz kútnál
+67	1767	show	show-ba show-ban show-ból show-hoz show-k show-n show-nak show-ra show-ról show-t show-val showba showban showból shownak showra showról showt
+68	1768	szövetségi	szövetségiek szövetségieket szövetségiekhez szövetségiekkel szövetségieknek szövetségieknél szövetségiektől szövetségit
+69	1769	szempont	szempontból szempontok szempontokat szempontot
+70	1770	tartalma	tartalmából tartalmának tartalmára tartalmáról tartalmát tartalmával
+71	1771	gyűlöl	gyűlölhetsz gyűlöli gyűlölik gyűlölitek gyűlölje gyűlöljem gyűlöljenek gyűlöljön gyűlöljük gyűlöllek gyűlölne gyűlölnek gyűlölni gyűlölné gyűlölném gyűlölnöd gyűlölnöm gyűlölsz gyűlölt gyűlölte gyűlölted gyűlöltek gyűlöltelek gyűlöltem gyűlölték gyűlöltél gyűlölöd gyűlölök gyűlölöm gyűlölünk gyűlölő
+72	1772	értelem	értelembe értelemben értelemmel értelmet értelmük
+73	1773	technológia	technológiában technológiához technológiák technológiákat technológiákkal technológián technológiának technológiára technológiáról technológiát technológiától technológiával
+74	1774	alsó	alsóban alsóbb alsót legalsó
+75	1775	tekintet	tekintetbe tekintetben tekintetek tekinteteket tekintetet tekintett tekintettek tekintettel tekintették tekintetük
+76	1776	felismer	felismered felismerek felismerem felismerheti felismeri felismerik felismeritek felismerje felismerjem felismerjen felismerjenek felismerjék felismerjük felismerlek felismerne felismernek felismerni felismerné felismernéd felismernék felismerném felismernének felismersz felismert felismerte felismerted felismertek felismertelek felismertem felismerték felismertél felismertük felismerve felismerő
+77	1777	bejelent	bejelented bejelentem bejelentenem bejelenteni bejelentenék bejelentett bejelentette bejelentetted bejelentettek bejelentettem bejelentették bejelentettük bejelenthetem bejelenthetjük bejelenti bejelentik bejelentjük bejelentse bejelentsem bejelentsék bejelentsük bejelentve bejelentő
+78	1778	aznap	
+79	1779	kapcsolódó	
+80	1780	akkora	akkorák akkorának akkorára akkorát
+81	1781	tulajdonképpen	
+82	1782	cserébe	
+83	1783	átlagos	átlagosak átlagosnak átlagosnál
+84	1784	habár	
+85	1785	lemez	lemezek lemezeken lemezeket lemezekkel lemezen lemeznek lemezre lemezről lemezt lemezzel lemezért
+86	1786	támogatása	támogatásában támogatásának támogatására támogatásáról támogatását támogatásával támogatásáért
+87	1787	unalmas	legunalmasabb unalmasabb unalmasak unalmasat unalmasnak unalmassá unalmast
+88	1788	mindkettő	mindkettőbe mindkettőben mindkettőből mindkettőhöz mindkettőn mindkettőnek mindkettőnél mindkettőre mindkettőről mindkettőt mindkettőtől mindkettővel mindkettőért
+89	1789	leír	leírhatatlan leírhatja leírhatom leírható leírja leírjam leírjuk leírják leírnak leírni leírnia leírnod leírnom leírná leírnád leírnám leírod leírok leírom leírsz leírt leírta leírtad leírtak leírtam leírtuk leírtunk leírták leírtál leírva
+90	1790	barna	barnaba barnább barnák barnákat barnának barnára barnát barnával
+91	1791	egyike	egyikébe egyikében egyikén egyikének egyikére egyikét egyikével
+92	1792	atya	atyában atyához atyák atyának atyánál atyára atyáról atyát atyától atyával
+93	1793	sehova	sehová
+94	1794	magányos	legmagányosabb magányosabb magányosak magányosan magányosnak magányossá
+95	1795	pénzügyi	
+96	1796	szakértő	szakértőhöz szakértője szakértőjét szakértők szakértőket szakértőkkel szakértőknek szakértőkre szakértőként szakértőnek szakértőre szakértőt szakértőtől szakértővel szakértővé
+97	1797	alapítvány	alapítvánnyal alapítványba alapítványhoz alapítványnak alapítványnál alapítványok alapítványról alapítványt alapítványtól alapítványának
+98	1798	barátnője	barátnőjébe barátnőjéhez barátnőjének barátnőjénél barátnőjére barátnőjéről barátnőjét barátnőjétől barátnőjével barátnőjéé
+99	1799	tudós	tudósa tudósai tudósként tudósnak tudósok tudósokat tudósokból tudósokkal tudósoknak tudósra tudósról tudóssal tudóst tudóstól
+100	1800	ingatlan	ingatlanba ingatlanban ingatlannal ingatlanok ingatlanokat ingatlanokkal ingatlanon ingatlanra ingatlanról ingatlant ingatlanát

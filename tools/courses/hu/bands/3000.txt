@@ -1,0 +1,100 @@
+1	2901	védett	védettek védetté
+2	2902	tanfolyam	tanfolyamok tanfolyamokat tanfolyamon tanfolyamot tanfolyamra tanfolyamról
+3	2903	csuk	csukd csukhatnak csukja csukjam csukjanak csukjuk csukják csukjátok csuknak csukni csuknod csuknom csuknunk csukod csukom csukott csukta csuktad csuktak csuktam csukták csukva csukád
+4	2904	miskolci	
+5	2905	méreg	méregbe méregből méreggel méregnek méregre méregről méregtől mérgek mérgeket mérgekkel mérget
+6	2906	tulajdona	tulajdonába tulajdonában tulajdonának tulajdonát tulajdonával
+7	2907	kormányzati	
+8	2908	felszerelés	felszerelésben felszerelése felszerelések felszereléseket felszerelésekkel felszereléshez felszerelésnek felszerelésre felszerelésről felszereléssel felszerelést felszerelésért
+9	2909	elválik	elválasszanak elválasszon elválasszuk elválaszt elválasztanak elválasztani elválasztja elválasztjuk elválasztják elválasztom elválasztott elválasztotta elválasztottak elválasztották elválasztva elválasztó elváljak elváljanak elváljon elváljunk elválnak elválni elválnunk elválnánk elválok elválsz elváltam elváltatok elváltok elváltunk elváltál elválunk elválás
+10	2910	zászló	zászlaja zászlók zászlókat zászlókkal zászlón zászlónak zászlóra zászlót zászlóval
+11	2911	programja	programjába programjában programján programjának programjára programjáról programját programjával
+12	2912	had	hadak hadat hadba hadban
+13	2913	átnéz	átnézed átnézek átnézel átnézem átnézett átnézhetem átnézheti átnézhetjük átnézhetnénk átnézi átnézik átnéznek átnéznem átnézni átnézné átnéznéd átnézném átnéznénk átnéznünk átnézte átnézted átnéztek átnéztem átnézték átnéztük átnéztünk átnézve átnézze átnézzem átnézzék átnézzük átnézünk
+14	2914	kommunikációs	
+15	2915	nemi	
+16	2916	kötél	kötelek köteleket kötelekkel kötelektől kötelet kötélbe kötélből kötélen kötélhez kötéllel kötélnek kötélre kötélről kötéltől
+17	2917	hazaér	hazaérek hazaérhet hazaérjek hazaérjen hazaérjünk hazaérne hazaérnek hazaérni hazaérsz hazaért hazaértek hazaértem hazaértetek hazaértél hazaértünk hazaérünk
+18	2918	fejlődése	fejlődésében fejlődéséhez fejlődésének fejlődésére fejlődéséről fejlődését fejlődésével
+19	2919	átmeneti	
+20	2920	nyomoz	nyomozhat nyomozna nyomoznak nyomozni nyomoznia nyomoznod nyomoznom nyomoznunk nyomozok nyomozol nyomozom nyomozott nyomozta nyomoztak nyomoztam nyomoztok nyomoztunk nyomoztál nyomozunk nyomozza nyomozzak nyomozzanak nyomozzon nyomozzuk nyomozzunk nyomozzák nyomozzátok
+21	2921	hajam	hajamat hajamba hajamban hajamból hajamhoz hajammal hajamnak hajamnál hajamon hajamra hajamról
+22	2922	szerelmi	
+23	2923	borzasztó	borzasztóak borzasztóbb borzasztót legborzasztóbb
+24	2924	áru	áruba áruból áruja áruk árukat árukkal áruknak árunak árura áruról árut áruval áruért árú árút
+25	2925	légyszi	lécci
+26	2926	visszaad	visszaadhatja visszaadhatod visszaadhatom visszaadja visszaadjam visszaadjuk visszaadják visszaadjátok visszaadni visszaadnod visszaadnom visszaadná visszaadnád visszaadnám visszaadod visszaadok visszaadom visszaadott visszaadta visszaadtad visszaadtam visszaadtuk visszaadták
+27	2927	tájékoztat	tájékoztassa tájékoztassalak tájékoztassam tájékoztassanak tájékoztassatok tájékoztasson tájékoztassuk tájékoztassák tájékoztatja tájékoztatjuk tájékoztatják tájékoztatlak tájékoztatna tájékoztatnak tájékoztatni tájékoztatnia tájékoztatnom tájékoztatnunk tájékoztatom tájékoztatott tájékoztatsz tájékoztatta tájékoztattak tájékoztattam tájékoztattuk tájékoztatták tájékoztattál tájékoztatunk tájékoztatva
+28	2928	dekagramm	dkg
+29	2929	fegyvere	fegyveréből fegyveréhez fegyverén fegyverének fegyverére fegyveréről fegyverét fegyverével fegyveréért
+30	2930	autóbusz	autóbusszal autóbuszok
+31	2931	divat	divatba divatban divatból divathoz divatnak divatot divatról divattal
+32	2932	itteni	itteniek
+33	2933	méghozzá	
+34	2934	maradék	maradékból maradékkal maradékok maradékokat maradékot maradékért
+35	2935	sorrend	sorrendbe sorrendben sorrendet sorrendje
+36	2936	junior	juniornak juniorral juniort
+37	2937	kiemelkedő	legkiemelkedőbb
+38	2938	feszültség	feszültsége feszültségek feszültséget feszültséggel feszültségnek feszültségre feszültségtől
+39	2939	ötös	ötösbe ötösben ötösnek ötösre ötössel ötöst ötösért ötösök ötösöket ötösön
+40	2940	területi	területin területire
+41	2941	társasága	társaságába társaságában társaságának társaságára társaságát társaságától társaságával
+42	2942	szerv	szerveik szerveiket szervek szerveket szervekkel szerveknek szerveknél szervekre szervet szervnek szervre szervvel
+43	2943	gyémánt	gyémántban gyémántból gyémántnak gyémántok gyémántokat gyémántokban gyémántokból gyémántokkal gyémántokra gyémántokról gyémántokért gyémántot gyémántra gyémántról gyémánttal gyémántért
+44	2944	miszerint	
+45	2945	máshogy	
+46	2946	műanyag	műanyagba műanyagból műanyaggal műanyagok műanyagot
+47	2947	fiatalember	fiatalemberek fiatalembereket fiatalembereknek fiatalembernek fiatalemberre fiatalemberrel fiatalemberről fiatalembert fiatalembertől
+48	2948	fejleszt	fejlessze fejlesszem fejlesszék fejlesszük fejleszted fejlesztem fejlesztenek fejlesztenem fejleszteni fejlesztenünk fejlesztett fejlesztetted fejlesztettek fejlesztettem fejlesztették fejlesztettük fejlesztettünk fejleszti fejlesztik fejlesztjük fejlesztünk
+49	2949	mindennapi	
+50	2950	példány	példányban példánynak példányok példányokat példányra példányt
+51	2951	boldogan	boldogabban
+52	2952	végeredmény	végeredményben végeredményt
+53	2953	évszázad	évszázadba évszázadban évszázaddal évszázadig évszázadok évszázadokat évszázadokig évszázadokkal évszázadokon évszázadokra évszázadon évszázadot évszázadra
+54	2954	vérzik	vérezhet vérezne véreznek vérezni véreztek véreztem véreztél vérezve vérezzen vérzek vérzel vérzett vérzünk vérző
+55	2955	nulla	nullához nullák nullákat nullán nullára nulláról nullát nullával
+56	2956	álma	álmába álmában álmából álmának álmáról álmát
+57	2957	foglalt	foglaltak foglaltat foglaltatott
+58	2958	karja	karjába karjában karjából karjához karján karjának karjára karjáról karját karjával
+59	2959	kitör	kitöri kitörik kitörjön kitörjük kitörne kitörnek kitörni kitört kitörte kitörtek kitörtem kitörték kitörés kitörése kitörések kitöréseket kitörésre kitörést kitöröd kitörök kitöröm kitörünk kitörő
+60	2960	gyáva	gyávaként gyávák gyávákat gyáváknak gyáván gyávának gyávát
+61	2961	érvényes	érvényesek érvényesnek
+62	2962	félelmetes	félelmetesebb félelmetesek félelmetesen félelmetesnek legfélelmetesebb
+63	2963	ügyész	ügyésszel ügyészek ügyészeket ügyészeknek ügyészhez ügyészként ügyésznek ügyésznél ügyészre ügyészt ügyésztől
+64	2964	elegendő	elegendőek elegendőnek elegendőt
+65	2965	bejelentés	bejelentések bejelentéseket bejelentésnek bejelentésre bejelentéssel bejelentést
+66	2966	rajz	rajzai rajzok rajzokat rajzokkal rajzokon rajzon rajzot rajzra rajzról rajzzal
+67	2967	kara	karak karan karán karának karára karát karával
+68	2968	lényeges	leglényegesebb lényegesebb lényegesek lényegesen lényegeset lényegesnek
+69	2969	szellemi	
+70	2970	szolgáló	szolgálója szolgálóját szolgálók szolgálókat szolgálónak szolgálót
+71	2971	minőség	minőségben minőséget minőséggel minőségre
+72	2972	len	lenk lennek lennel lennél lent
+73	2973	kincs	kinccsel kincsből kincsek kincseket kincsekkel kincsekre kincset kincshez kincsként kincsnek kincsre kincsről kincsért kincséért
+74	2974	rablás	rablásba rablásban rablásból rabláshoz rablásnak rablásnál rablások rablásokat rablásokról rabláson rablásra rablásról rablással rablást rablásért
+75	2975	megüt	megüsse megüsselek megüssem megüssön megüthet megütheted megüthetem megütheti megüthetsz megüti megütik megütjük megütlek megütne megütnek megütni megütnie megütnél megütném megütnöd megütnöm megütsz megütöd megütöm megütött megütötte megütötted megütöttek megütöttelek megütöttem megütötték megütöttél megütöttük
+76	2976	stabil	legstabilabb stabilabb stabilak stabilnak
+77	2977	fájl	fájlba fájlban fájlhoz fájlok fájlokat fájlokban fájlokhoz fájlokkal fájlt
+78	2978	ragyogó	legragyogóbb ragyogóak ragyogóan ragyogóbb ragyogóvá
+79	2979	kilátás	kilátásba kilátásban kilátások kilátásra kilátással kilátást
+80	2980	helyem	helyembe helyemben helyemen helyemet helyemre helyemről
+81	2981	áruló	árulók árulókat árulókkal árulóknak árulóként árulónak árulóra árulót árulóval árulóvá
+82	2982	élelmiszer	élelmiszerek élelmiszereket élelmiszerre élelmiszerrel élelmiszert
+83	2983	kedvező	kedvezőbb kedvezőek legkedvezőbb
+84	2984	mérete	méretében méretéből méretéhez méretének méretére méretéről méretét méretétől méretével
+85	2985	rendőrségi	
+86	2986	felépül	felépíted felépítem felépíteni felépített felépítette felépítettek felépítettem felépítették felépítettél felépítettük felépítettünk felépíti felépítik felépítjük felépítse felépítsem felépítsék felépítsük felépítve felépítünk felépülhet felépüljön felépülnek felépülni felépülsz felépült felépültek felépültem felépültél felépülés felépülök felépülő
+87	2987	bebizonyít	bebizonyítani bebizonyítania bebizonyítanom bebizonyítaná bebizonyíthassam bebizonyíthatja bebizonyíthatjuk bebizonyíthatod bebizonyíthatom bebizonyítja bebizonyítjuk bebizonyítják bebizonyítod bebizonyítom bebizonyította bebizonyítottad bebizonyítottam bebizonyítottuk bebizonyították bebizonyítottátok bebizonyítsa bebizonyítsam bebizonyítsuk bebizonyítsák bebizonyítva
+88	2988	alapít	alapítanak alapítani alapítanunk alapítasz alapíthatnánk alapítok alapított alapítottak alapítottam alapítottuk alapítottunk alapították alapítottál alapítsak alapítson alapítsunk alapítunk alapítva
+89	2989	kiszáll	kiszállhat kiszállhatok kiszállhatsz kiszálljak kiszálljon kiszállna kiszállnak kiszállni kiszállnod kiszállnom kiszállnál kiszállnék kiszállok kiszállsz kiszállt kiszálltak kiszálltam kiszálltunk kiszálltál kiszállunk
+90	2990	festmény	festménnyel festményben festmények festményeken festményeket festményekkel festményekre festményekről festményen festményhez festménynek festményre festményről festményt festményért
+91	2991	ezáltal	
+92	2992	naná	
+93	2993	kikötő	kikötőbe kikötőben kikötőből kikötőhöz kikötőig kikötők kikötőkben kikötőket kikötőn kikötőnél kikötőre kikötőt kikötőtől kikötővel
+94	2994	cigány	cigánnyal cigánynak cigányok cigányokat cigányokkal cigányt
+95	2995	érettségi	érettségiig érettségije érettségin érettségire érettségit
+96	2996	szorít	szorítanak szorítani szorítanod szorítanom szorítanunk szorítasz szorítja szorítjuk szorítják szorítod szorítok szorítom szorított szorította szorítottad szorítottak szorítottam szorítottuk szorították szorítottál szorítsa szorítsam szorítsanak szorítsatok szorítson szorítsuk szorítsunk szorítsák szorítsátok szorítunk szorítva szorítás szorító szorítóba szorítóban szorítót
+97	2997	bon	bont bontanak bontani bontanunk bontható bontja bontjuk bontják bontod bontok bontom bontott bontotta bontottad bontottam bontották bonts bontsa bontsd bontsuk bontsunk bontsák bontsátok bontunk bontva bontó
+98	2998	tényleges	ténylegesen
+99	2999	megjegyez	megjegyezhetem megjegyeznem megjegyezni megjegyezném megjegyezte megjegyezted megjegyeztem megjegyeztük megjegyezve megjegyezzem megjegyezzük megjegyzed megjegyzem megjegyzendő megjegyzett megjegyzi megjegyzik
+100	3000	iránta	irántad irántam irántatok irántuk irántunk

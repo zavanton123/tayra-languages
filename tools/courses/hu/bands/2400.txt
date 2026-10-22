@@ -1,0 +1,100 @@
+1	2301	fű	füvek füveket füvet füvön fűbe fűben fűből fűnek fűre fűről fűtől fűvel fűért
+2	2302	mérföld	mérfölddel mérföldek mérföldeken mérföldeket mérföldekkel mérföldekre mérföldekről mérföldet mérföldig mérföldnél mérföldre mérföldről mérföldön
+3	2303	újságíró	újságírói újságírók újságírókat újságírókkal újságíróknak újságíróként újságírónak újságírót újságíróval
+4	2304	védelmi	
+5	2305	negyed	negyedbe negyedben negyedből negyeddel negyede negyedet negyednek negyedre negyedében negyedét
+6	2306	érzelem	érzelemmel érzelmei érzelmeiket érzelmeinket érzelmeire érzelmek érzelmeken érzelmeket érzelmekkel érzelmeknek érzelmekre érzelmekről érzelmektől érzelmet
+7	2307	font	fontba fontban fontnál fontot fontra fontról fonttal fontért
+8	2308	reklám	reklámba reklámban reklámból reklámhoz reklámmal reklámnak reklámok reklámokat reklámokban reklámokból reklámokkal reklámokra reklámon reklámot reklámra reklámról reklámért
+9	2309	hogyhogy	
+10	2310	befolyásol	befolyásolhatja befolyásolhatjuk befolyásolhatom befolyásolhatta befolyásolható befolyásolja befolyásoljam befolyásoljanak befolyásoljon befolyásoljuk befolyásolják befolyásolnak befolyásolni befolyásolná befolyásolt befolyásolta befolyásolták befolyásolva befolyásoló
+11	2311	tekintve	
+12	2312	cső	csövek csövekbe csövekben csövekből csöveken csöveket csövekhez csövekkel csövekre csövet csövön csőbe csőben csőből csőhöz csőre csőrét csőrével csőről csővel
+13	2313	verzió	verzióban verzióhoz verziók verziót verzióval
+14	2314	kettős	
+15	2315	forradalom	forradalmak forradalmat forradalomban forradalomhoz forradalommal forradalomnak forradalomra forradalomról forradalomért
+16	2316	tehetséges	legtehetségesebb tehetségesebb tehetségesek tehetségesen tehetségesnek
+17	2317	mobil	mobillal mobilnak mobilok mobilokat mobilokkal mobilon mobilra mobilról mobilt
+18	2318	vékony	legvékonyabb vékonyabb vékonyak vékonynak vékonyra
+19	2319	ni	
+20	2320	ötlete	ötletének ötletére ötletéről ötletét ötletével
+21	2321	óh	
+22	2322	öngyilkos	öngyilkosnak öngyilkosok
+23	2323	követel	követeled követelek követelem követelhet követelheti követeli követelik követelje követeljen követeljük követelnek követelni követelné követelsz követelt követelte követelted követeltek követeltem követelték követelünk követelő
+24	2324	elismer	elismered elismerek elismerem elismeri elismerik elismerje elismerjem elismerjék elismerjük elismernek elismerni elismerné elismernéd elismerte elismerted elismertem elismerték elismerve
+25	2325	liszt	lisztből lisztet liszttel
+26	2326	csakis	
+27	2327	hányszor	
+28	2328	összeg	összegbe összegben összegből összegek összegeket összeget összeggel összeghez összegnek összegre összegről összegért
+29	2329	totál	
+30	2330	polgári	
+31	2331	későbbi	későbbiek későbbiekben
+32	2332	kever	kevered keverek keverem keverhet keverheted keverhetem keveri keverik keverje keverjek keverjem keverjen keverjetek keverjék keverjétek keverjük keverjünk keverlek keverne keverned kevernek keverni keverné keverném keversz kevert keverte keverted kevertek kevertelek kevertem keverték kevertél kevertük keverve keverés keverünk keverő
+33	2333	folytatódik	folytatódhat folytatódjon folytatódna folytatódnak folytatódni folytatódnia folytatódott folytatódtak
+34	2334	ahelyett	
+35	2335	kapcsolata	kapcsolatában kapcsolatán kapcsolatának kapcsolatára kapcsolatáról kapcsolatát kapcsolatával
+36	2336	labor	laborba laborban laborból laborhoz labornak labornál laborok laborokat laborokban laboron laborra laborral laborról labort labortól
+37	2337	vonatkozó	
+38	2338	láttalak	
+39	2339	lefelé	
+40	2340	határozottan	határozottabban leghatározottabban
+41	2341	körzet	körzetbe körzetben körzetből körzete körzetek körzetekben körzeten körzetet körzetnek körzetre körzettől körzetében
+42	2342	örvend	örvendek örvendett örvendj örvendjetek örvendtem örvendünk örvendő
+43	2343	valamennyi	valamennyire valamennyit valamennyivel
+44	2344	kilép	kilépek kilépett kiléphet kiléphetek kiléphetsz kilépjek kilépjen kilépne kilépned kilépnek kilépnem kilépni kilépnék kilépnél kilépsz kiléptek kiléptem kiléptél kiléptünk kilépve kilépés kilépünk kilépő
+45	2345	kocsija	kocsijába kocsijában kocsijából kocsijához kocsijáig kocsiján kocsijának kocsijánál kocsijára kocsijáról kocsiját kocsijától kocsijával kocsijáért
+46	2346	különféle	legkülönfélébb
+47	2347	rávesz	rávegye rávegyelek rávegyem rávegyen rávegyék rávegyél rávegyük ráveheted rávehetem ráveheti rávehetjük rávehetném rávehetnénk rávenned rávennem rávenni rávennie rávenné rávennéd rávenném rávennünk rávesszük ráveszed ráveszel ráveszem ráveszi ráveszik ráveszlek rávesznek rávett rávette rávetted rávettek rávettelek rávettem rávették rávettél rávettük
+48	2348	ajánlott	ajánlottak
+49	2349	hajnal	hajnalban hajnalig hajnalok hajnalon hajnalra hajnalt hajnaltól hajnalán
+50	2350	bázis	bázishoz bázisig bázisnak bázisnál bázisok bázisokat bázisokon bázison bázisra bázisról bázissal bázist bázistól bázisuk bázisára bázisát
+51	2351	nahát	
+52	2352	elfog	elfogja elfogjam elfogjanak elfogjon elfogjuk elfogják elfoglak elfognak elfogni elfognunk elfognák elfogod elfogok elfogom elfogott elfogsz elfogta elfogtad elfogtak elfogtam elfogtuk elfogtunk elfogták elfogtátok elfogunk elfogva elfogó
+53	2353	utas	utasa utasai utasnak utasok utasokat utasokkal utasoknak utasokról utasra utassal utast
+54	2354	elalszik	elalhatsz elalszanak elalszol elalszom elalszunk elaltat elaltatják elaludjak elaludjon elaludna elaludni elaludnom elaludnál elaludnék elaludt elaludtak elaludtam elaludtunk elaludtál elalvás
+55	2355	mezőgazdasági	
+56	2356	trükk	trükkel trükkhöz trükknek trükkre trükkök trükkökből trükköket trükkökhöz trükkökkel trükkökre trükköt
+57	2357	kitűnő	kitűnőek kitűnőre legkitűnőbb
+58	2358	feletti	felettiek fölötti
+59	2359	nyilvánvalóan	
+60	2360	technikai	
+61	2361	fejlődik	fejlődhet fejlődjön fejlődnek fejlődni fejlődnie fejlődnöd fejlődnöm fejlődnünk fejlődsz fejlődtek fejlődtem fejlődtetek fejlődtél fejlődtünk fejlődök fejlődött fejlődünk fejlődő
+62	2362	koreai	koreaiak koreait koreaiul
+63	2363	érzékeny	legérzékenyebb érzékennyé érzékenyebb érzékenyek érzékenyen érzékenynek
+64	2364	költ	költene költened költenek költenem költeni költenie költenék költeném költenénk költenünk költesz költhetek költhetem költhetsz költhetünk költi költik költjük költs költse költsek költsem költsék költsön költsük költsünk költöd költök költöm költött költötte költötted költöttek költöttem költötték költöttél költöttük költöttünk költünk
+65	2365	házam	házamat házamba házamban házamból házamhoz házammal házamnak házamnál házamon házamra házamról házamtól
+66	2366	megakadályoz	megakadályozhatja megakadályozhatjuk megakadályozhatná megakadályozhatod megakadályozhatom megakadályozhatta megakadályozhattam megakadályozni megakadályoznom megakadályoznunk megakadályozná megakadályozod megakadályozom megakadályozott megakadályozta megakadályoztad megakadályoztam megakadályoztuk megakadályozták megakadályozva megakadályozza megakadályozzam megakadályozzon megakadályozzuk megakadályozzunk megakadályozzák
+67	2367	mindannyiunk	mindannyiunkat mindannyiunkban mindannyiunkból mindannyiunkhoz mindannyiunkkal mindannyiunknak mindannyiunknál mindannyiunkon mindannyiunkra mindannyiunkról mindannyiunktól mindannyiunké mindannyiunkért
+68	2368	folyamatos	
+69	2369	úgysem	úgyse
+70	2370	dokumentum	dokumentumai dokumentumban dokumentummal dokumentumok dokumentumokat dokumentumokban dokumentumokhoz dokumentumokkal dokumentumokra dokumentumokról dokumentumon dokumentumot dokumentumra dokumentumról
+71	2371	sűrű	legsűrűbb sűrűbb sűrűbben sűrűjébe sűrűn
+72	2372	alaposan	alaposabban
+73	2373	keletkezik	keletkezett keletkezhet keletkezhetett keletkeznek keletkeztek keletkezzen keletkező
+74	2374	szárny	szárnnyal szárnya szárnyai szárnyain szárnyait szárnyak szárnyakat szárnyakkal szárnyakon szárnyakra szárnyat szárnyba szárnyban szárnyból szárnyon szárnyra szárnyának szárnyát
+75	2375	méret	méretben méretei méretek méretekben méreteket méretet méretre mérettel méretünk
+76	2376	páros	párosban párosnak párosra párost
+77	2377	vezetése	vezetésében vezetéséhez vezetésének vezetésére vezetéséről vezetését vezetésével
+78	2378	költő	költője költők költőket költőnek költőt költővel
+79	2379	gyereke	gyerekekként gyerekekért gyerekének gyerekére gyerekéről gyerekét gyerekétől gyerekével gyerekéért
+80	2380	meztelen	meztelenek meztelennek meztelenre meztelenül
+81	2381	meggyőz	meggyőzhetem meggyőzheti meggyőzhetjük meggyőzhetném meggyőzhető meggyőzi meggyőzik meggyőzlek meggyőzne meggyőzni meggyőznie meggyőzné meggyőznöd meggyőznöm meggyőznünk meggyőzte meggyőzted meggyőztek meggyőztelek meggyőztem meggyőztetek meggyőzték meggyőztél meggyőztük meggyőzve meggyőzze meggyőzzelek meggyőzzem meggyőzzék meggyőzzön meggyőzzük meggyőzés meggyőzöd meggyőzöl meggyőzöm meggyőzött
+82	2382	béna	bénább bénák bénákat bénáknak bénán bénának bénát legbénább
+83	2383	versenyző	versenyzője versenyzők versenyzőket versenyzőknek versenyzőnek versenyzőt versenyzővel
+84	2384	figyelme	figyelmébe figyelmének figyelmére figyelmét figyelmével figyelméért
+85	2385	folyosó	folyosóin folyosóján folyosók folyosókat folyosókon folyosón folyosónak folyosóra folyosóról folyosót
+86	2386	olimpia	olimpián olimpiára olimpiáról olimpiát
+87	2387	pisztoly	pisztollyal pisztolyban pisztolyból pisztolyhoz pisztolynak pisztolyok pisztolyokat pisztolyokkal pisztolyon pisztolyra pisztolyról pisztolyt pisztolytól pisztolyért
+88	2388	kénytelen	kénytelenek
+89	2389	lelki	
+90	2390	molnár	
+91	2391	lenn	lejjebb lent lentebb
+92	2392	kegyetlen	kegyetlenebb kegyetlenek kegyetlennek kegyetlenné kegyetlenül legkegyetlenebb
+93	2393	megír	megírhatja megírhatod megírhatom megírja megírjam megírjuk megírják megírni megírnia megírnod megírnom megírná megírnád megírnám megírod megírok megírom megírt megírta megírtad megírtak megírtam megírtuk megírták megírva
+94	2394	előny	előnnyel előnybe előnyben előnyhöz előnynek előnyre előnyt előnyök előnyöket előnyökkel
+95	2395	ideiglenes	ideiglenesen
+96	2396	megszabadul	megszabadulhatnánk megszabadulhatnék megszabadulhatok megszabadulhatunk megszabaduljak megszabaduljanak megszabaduljon megszabaduljunk megszabadulna megszabadulnak megszabadulni megszabadulnia megszabadulnod megszabadulnom megszabadulnunk megszabadulnál megszabadulnánk megszabadulnék megszabadulok megszabadulsz megszabadult megszabadultak megszabadultam megszabadultok megszabadultunk megszabadultál megszabadulunk megszabadulás megszabadít megszabadította
+97	2397	tere	terében terén terét
+98	2398	reakció	reakcióba reakciója reakciók reakciókat reakciónak reakcióra reakciót
+99	2399	forog	forgandó forgok forgott forgunk forgó forogjon forogna forognak forogni forogsz forogtak forogtam
+100	2400	úgynevezett	

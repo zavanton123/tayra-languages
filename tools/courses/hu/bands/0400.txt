@@ -1,0 +1,100 @@
+1	301	bármi	bármibe bármiben bármiből bármihez bármik bármin bárminek bárminél bármire bármiről bármit bármitől bármivel bármivé bármiért
+2	302	egyedül	
+3	303	hova	hová
+4	304	működik	működhessen működhetne működhetnek működjek működjenek működjön működjünk működne működnek működni működnie működniük működnének működnöd működnünk működsz működtek működtem működtet működtetett működtünk működök működött működünk működő
+5	305	boldog	boldogabb boldogabbak boldogabbnak boldogak boldogat boldoggá boldognak boldogok legboldogabb
+6	306	remek	legremekebb remekek remeknek remekül
+7	307	valamint	
+8	308	innen	innét
+9	309	alszik	alhat alhatok alhatsz alhatunk alszanak alszol alszom alszotok alszunk aludhatnék aludhatok aludhatsz aludj aludjak aludjanak aludjatok aludjon aludjunk aludjál aludna aludni aludnia aludnod aludnom aludnunk aludnál aludnánk aludnék aludt aludtam aludtatok aludtál alva alvás alváshoz alvásra alvással alvást alvó
+10	310	kérdez	kérdezd kérdezed kérdezek kérdezel kérdezem kérdezhetek kérdezhetnék kérdezhetném kérdezhetsz kérdezi kérdezik kérdezlek kérdezned kérdeznek kérdeznem kérdezni kérdeznie kérdezné kérdeznék kérdezném kérdeznünk kérdezte kérdezted kérdeztek kérdeztelek kérdeztem kérdezték kérdeztél kérdeztük kérdezz kérdezze kérdezzek kérdezzem kérdezzen kérdezzenek kérdezzék kérdezzétek kérdezzük kérdezünk
+11	311	király	királlyal királlyá királyabb királyak királyban királyból királyhoz királyként királynak királynál királyok királyokat királyokkal királyoknak királyon királyra királyról királyt királytól királyé királyért legkirályabb
+12	312	óta	
+13	313	olvas	olvasd olvashatjuk olvashatod olvashatsz olvasnak olvasni olvasnia olvasnod olvasnom olvasnál olvasod olvasok olvasol olvasom olvasott olvass olvassa olvassak olvassam olvasson olvassuk olvassák olvassátok olvasta olvastad olvastak olvastam olvastuk olvastunk olvasták olvastál olvastátok olvasunk olvasva olvasás olvasást olvasó olvasók olvasót
+14	314	istenem	istenemet istenemre
+15	315	megtesz	megtedd megtegye megtegyem megteheted megtehetek megtehetem megtehetik megtehetném megtehetsz megtehettem megtenne megtenned megtennem megtenni megtennie megtenné megtennéd megtennék megtennél megtenném megtennünk megtesszük megteszed megteszek megteszel megteszem megteszi megteszik megtesznek megteszünk megtett megtette megtetted megtettek megtettem megtették megtettél megtettük megtettünk
+16	316	iskola	iskolába iskolában iskolából iskoládat iskolához iskoláig iskolája iskoláját iskolák iskolákat iskolákba iskolákban iskolákból iskolákkal iskoláknak iskolákra iskolákról iskolán iskolának iskolánál iskolára iskoláról iskolát iskolától iskolával iskoláért
+17	317	bele	belé belén belét
+18	318	pillanat	pillanataiban pillanatba pillanatban pillanatból pillanathoz pillanatig pillanatnak pillanatnál pillanatok pillanatokat pillanatokban pillanatokkal pillanatoknak pillanatokon pillanatokra pillanatokról pillanatokért pillanaton pillanatot pillanatra pillanatról pillanattal pillanattól pillanatért
+19	319	míg	
+20	320	mennyi	mennyibe mennyiben mennyiből mennyien mennyinek mennyinél mennyiről mennyit mennyivel mennyiért
+21	321	pontosan	pontosabban
+22	322	hónap	hónapba hónapban hónapból hónapig hónapnak hónapnál hónapok hónapokat hónapokba hónapokban hónapokig hónapokkal hónapokon hónapokra hónapon hónapot hónappal hónapra hónapról hónaptól hónapért
+23	323	oldal	oldalak oldalakat oldalakon oldalakra oldalakról oldalba oldalhoz oldalig oldallal oldalnak oldalnál oldalon oldalra oldalról oldalt oldaltól
+24	324	végre	
+25	325	viszont	
+26	326	fizet	fizesse fizessek fizessem fizessen fizessenek fizeted fizetek fizetem fizetendő fizetett fizethet fizeti fizetik fizetjük fizetlek fizetne fizetned fizetnek fizetnem fizetni fizetnie fizetniük fizetnék fizetnének fizetnünk fizetsz fizette fizetted fizettek fizettem fizették fizettél fizettünk fizetve fizetés fizetéssel fizetést fizetünk fizető
+27	327	ügy	üggyel üggyé ügybe ügyben ügyből ügyek ügyekbe ügyekben ügyekből ügyeken ügyeket ügyekhez ügyekkel ügyeknek ügyeknél ügyekre ügyekről ügyektől ügyekért ügyet ügyhöz ügyként ügynek ügynél ügyre ügyről ügytől ügyért ügyön
+28	328	azonban	
+29	329	ok	okból okkal oknak oknál okok okokat okokból okokkal okokra okokról okom okot okra okról okt okuk
+30	330	magas	legmagasabb legmagasabbra magasabb magasabban magasabbnak magasabbról magasak magasan magasat magasba magasban magasból magasnak magasra magasról magos
+31	331	sincs	sincsen sincsenek
+32	332	aggódik	aggódhat aggódhatok aggódhatsz aggódhatunk aggódj aggódja aggódjak aggódjam aggódjanak aggódjatok aggódjon aggódjunk aggódna aggódnak aggódni aggódnia aggódniuk aggódnod aggódnom aggódnotok aggódnunk aggódnál aggódnának aggódnánk aggódnék aggódok aggódom aggódott aggódsz aggódtak aggódtam aggódtatok aggódtok aggódtunk aggódtál aggódunk aggódva aggódó aggódónak
+33	333	forint	forintból forintot forintra forinttal forintért ft
+34	334	ég	egek egekbe egekben egekig egen eget égbe égben égből égek égen éget égeted égeti égetik égetjük égetni égett égette égettek égetve égig égj égjen égjenek égne égnek égni égre égről égsz égtek égtem égve égünk égő égők égőket égőt
+35	335	tiszta	legtisztább tisztába tisztában tisztább tisztábban tiszták tisztán tisztának tisztára tisztát tisztává
+36	336	tessék	
+37	337	haza	hazahoz hazahozott hazahozza hazáig hazának hazát hazáért
+38	338	tér	terek tereket teret térbe térben térek téren térhet térhetek térhetnénk térhetsz térhetünk téri térj térjek térjen térjenek térjetek térjünk térne térnek térni térnék térnél térre térrel térről térsz tért tértek tértem tértél tértünk tértől téríteni térítette téríti térünk térő
+39	339	kevés	kevesebb kevesebbe kevesebben kevesebbet kevesebbért kevesek keveseknek kevesen keveset kevésbe kevésből kevésen kevésnek kevésre kevéssel kevéssé legkevesebb legkevesebbet legkevésbé
+40	340	néha	
+41	341	mielőtt	
+42	342	utána	utánad utánam utánatok utánna utánuk utánunk
+43	343	fiatal	fiatalabb fiatalabbak fiatalabbnak fiatalként fiatallal fiatallá fiatalnak fiatalok fiatalokat fiatalokból fiatalokkal fiataloknak fiatalokra fiatalokról fiataloktól fiatalon fiatalt legfiatalabb
+44	344	illetve	
+45	345	erős	erősebb erősebbek erősebbnek erősek erőseket erőset erősnek erősre erőssé legerősebb
+46	346	tartozik	tartozhatok tartozhatsz tartozna tartoznak tartozni tartoznál tartoznának tartoznánk tartoznék tartozok tartozol tartozom tartozott tartoztak tartoztam tartoztok tartoztunk tartoztál tartozunk tartozz tartozzon tartozó tartozók
+47	347	amerikai	amerikaiak amerikaiakat amerikaiakhoz amerikaiakkal amerikaiaknak amerikaiakra amerikaiakról amerikaiaktól amerikaihoz amerikaik amerikaiként amerikainak amerikaira amerikairól amerikait amerikaitól amerikaival
+48	348	fekete	feketeként feketébb feketébe feketében feketéhez feketék feketéket feketékkel feketéknek feketékre feketékről feketéktől feketén feketének feketénél feketére feketét feketétől feketével feketévé legfeketébb
+49	349	tökéletes	legtökéletesebb tökéletesebb tökéletesek tökéletesen tökéleteset tökéletesnek tökéletesre tökéletessé tökéletest
+50	350	című	
+51	351	tegnap	tegnapig tegnapot tegnapra tegnapról tegnaptól tegnapért
+52	352	fő	főbb főbe főből főjön főként főnek főni főnökhöz főnökkel főnökké főnökként főnöknek főnöknél főnökre főnökről főnöktől főre főt főtt fővel legfőbb
+53	353	utca	utcába utcában utcából utcához utcáig utcáin utcájában utcák utcákat utcákban utcákon utcákra utcákról utcán utcának utcánál utcára utcáról utcát utcától utcával
+54	354	állít	állítanak állítani állítania állítanod állítanom állítanunk állítasz állíthat állíthatja állíthatjuk állíthatom állítja állítjuk állítják állítod állítok állítom állított állítottad állítottak állítottam állították állítottál állítsa állítsam állítsanak állítsd állítson állítsuk állítsák állítsátok állítunk állítva állítás állításait állítások állításokat állítást állító
+55	355	darab	darabba darabbal darabban darabból darabhoz darabig darabjai darabjaira darabjait darabnak darabok darabokat darabokban darabokból darabokkal darabokra darabon darabot darabra darabról darabért db
+56	356	lép	lépek lépem lépet lépett léphet léphetek léphetett léphetnek léphetnénk léphetsz léphettek léphetünk lépi lépj lépjek lépjen lépjenek lépjetek lépjünk lépne lépned lépnek lépnem lépni lépnék lépnél lépnénk lépnünk lépre lépsz léptek léptem léptetek léptetni léptél léptünk lépve lépünk lépő
+57	357	öl	ölbe öld ölhet ölheted ölheti ölhetsz ölhette öli ölik ölj ölje öljek öljem öljenek öljetek öljék öljétek öljön öljük öljünk ölne ölnek ölni ölné ölnék ölném ölsz ölte ölted öltek öltem ölték öltél öltük ölés ölöd ölök ölöm ölünk
+58	358	oh	
+59	359	öt	ötbe ötben ötből öthöz ötig ötkor ötnek ötnél ötre ötről öttel öttől ötért ötök ötöt
+60	360	négy	néggyel négybe négyben négyből négyek négyen négyet négyhez négyig négynek négynél négyre négyről négytől
+61	361	akár	
+62	362	gyerek	gyerekből gyerekei gyerekeik gyerekeiket gyerekeikkel gyerekeink gyerekeit gyerekeivel gyerekekből gyerekeken gyerekekhez gyerekeknél gyerekekre gyerekekről gyerekektől gyerekem gyereken gyerekhez gyereknél gyerekre gyerekről gyerektől gyereké gyerekért
+63	363	könyv	könyvbe könyvben könyvből könyvei könyveimet könyveit könyveivel könyvek könyvekbe könyvekben könyvekből könyveken könyveket könyvekhez könyvekkel könyveknek könyvekre könyvekről könyvektől könyvekért könyvet könyvhöz könyvnek könyvre könyvről könyvtől könyvvel könyvért könyvön könyvünket
+64	364	során	
+65	365	például	
+66	366	változik	változhat változhatnak változna változnak változni változol változom változott változtak változtam változtassa változtasson változtassunk változtat változtathat változtathatok változtathatsz változtathatunk változtatja változtatják változtatna változtatnak változtatni változtatnod változtatnom változtatnunk változtatok változtatom változtatott változtatta változtattad változtattak változtattam változtatták változtatunk változtál változzon változó változók
+67	367	küld	küldd küldelek küldene küldenek küldeni küldenék küldesz küldhet küldhetek küldhetem küldhetsz küldhette küldhetünk küldi küldik küldj küldje küldjek küldjem küldjenek küldjetek küldjék küldjétek küldjön küldjük küldjünk küldted küldtek küldtelek küldték küldtél küldtük küldtünk küldve küldöd küldök küldöm küldünk küldő
+68	368	közben	közbe
+69	369	mai	maihoz maik mait maiért
+70	370	ugyan	
+71	371	micsoda	micsodák micsodán micsodának micsodára micsodát micsodával
+72	372	otthon	otthonba otthonban otthonból otthonhoz otthonnak otthonnal otthonná otthonok otthonokat otthonokba otthonokban otthonra otthonról otthont otthontól otthonuk otthonukba otthonukban
+73	373	azonnal	
+74	374	német	németből németek németeket németekhez németekkel németeknek németeknél németekre németekről németektől németet németnek németre némettel németül
+75	375	érte	teérted énértem érted értem értetek értük értünk őérte
+76	376	iszik	idd igya igyak igyanak igyatok igyon igyuk igyunk igyál ihat ihatnánk ihatok ihatsz ihatunk inna inni innál innánk innék issza isszuk isszák isznak iszod iszol iszom isztok iszunk itatni itta ittad ittak ittam ittatok ittunk ittál ivott ivás ivó
+77	377	megpróbál	megpróbálhatja megpróbálhatjuk megpróbálhatnád megpróbálhatnánk megpróbálhatod megpróbálhatok megpróbálhatom megpróbálja megpróbáljak megpróbáljam megpróbáljon megpróbáljuk megpróbálják megpróbállak megpróbálna megpróbálnak megpróbálni megpróbálná megpróbálnád megpróbálnál megpróbálnám megpróbálnánk megpróbálnék megpróbálod megpróbálok megpróbálom megpróbálsz megpróbált megpróbálta megpróbáltad megpróbáltak megpróbáltalak megpróbáltam megpróbáltok megpróbáltuk megpróbáltunk megpróbálták megpróbáltál megpróbálunk
+78	378	belül	beljebb legbelül
+79	379	elnézés	elnézést
+80	380	alapján	
+81	381	fehér	fehérbe fehérben fehérebb fehérek fehéreket fehérekkel fehéreknek fehérekre fehérektől fehéreké fehéren fehéret fehérnek fehérre fehérrel fehérré legfehérebb
+82	382	feleség	felesége feleségek feleségeket feleségekkel feleségeknek feleségekről feleségeként feleséget feleséggel feleséggé feleséghez feleségként feleségnek feleségre feleségről feleségtől feleségébe feleségében feleségéhez feleségén feleségének feleségénél feleségére feleségéről feleségét feleségétől feleségével feleségéé feleségéért feleségük feleségül feleségünk
+83	383	élő	élőben élők élőket élőkhöz élőkkel élőknek élőkre élőkért élőnek élőt élővel élővé
+84	384	fene	fenekek fenekeket feneket fenébe fenében fenéből fenéhez fenék fenékbe fenéken fenéket fenékig fenékkel fenékre fenén fenének fenére fenéről fenét fenétől fenével fenéért
+85	385	gond	gondba gondban gonddal gondnak gondok gondokat gondokkal gondokra gondokról gondoktól gondot gondra gondról gondtól
+86	386	egyes	egyesbe egyesben egyesek egyesekben egyeseket egyesekkel egyeseknek egyeseknél egyesen egyesnek egyesre egyessel egyest egyesével
+87	387	hír	hírbe hírben hírből híreink hírek hírekbe hírekben hírekből híreket hírekhez hírekkel híreknek híreknél hírekre hírekről hírektől hírekért hírem híremet hírhez hírnek hírre hírrel hírről hírt hírtől hírül
+88	388	folyik	folyhat folyjon folyna folynak folyni folynia folyok folyt folytak folytatok folyás folyó folyóba folyóban folyóból folyóhoz folyóig folyók folyókat folyókban folyókon folyón folyónak folyónál folyóra folyóról folyót folyótól folyóval
+89	389	rendszer	rendszerbe rendszerben rendszerből rendszerei rendszerek rendszerekben rendszereken rendszereket rendszerekhez rendszerekkel rendszerekre rendszeren rendszerhez rendszernek rendszerre rendszerrel rendszerről rendszert rendszertől rendszerünknek
+90	390	honnan	honnét
+91	391	hallgat	hallgasd hallgassa hallgassak hallgassam hallgassanak hallgassatok hallgasson hallgassuk hallgassunk hallgassák hallgassátok hallgatja hallgatjuk hallgatják hallgatlak hallgatna hallgatnak hallgatni hallgatnia hallgatnod hallgatnom hallgatnunk hallgatod hallgatok hallgatom hallgatott hallgatsz hallgatta hallgattak hallgattam hallgatták hallgattál hallgatunk hallgatva hallgató hallgatók hallgatókat hallgatóknak hallgatót
+92	392	miután	
+93	393	kicsi	kicsiben kicsihez kicsik kicsiket kicsikkel kicsiknek kicsikre kicsim kicsin kicsinek kicsinál kicsire kicsiről kicsivel kicsiért kisebb legkisebb
+94	394	hat	hass hassanak hasson hatból hathat hatig hatkor hatna hatnak hatni hatnál hatok hatot hatott hatotta hatottak hatottál hatra hatsz hattal hattól hatunk hatva ható
+95	395	ajtó	ajtaja ajtaján ajtaját ajtóba ajtóban ajtóból ajtóhoz ajtóig ajtók ajtókat ajtókhoz ajtókkal ajtóknál ajtókon ajtókra ajtón ajtónak ajtónál ajtóra ajtóról ajtót ajtótól ajtóval
+96	396	probléma	problémaként problémába problémában problémához problémáikat problémáink problémák problémákat problémákba problémákhoz problémákkal problémáknak problémákon problémákra problémákról problémáktól problémán problémának problémánál problémára problémáról problémát problémától problémával problémává problémáért
+97	397	éjszaka	éjszakába éjszakában éjszakából éjszakához éjszakáig éjszakák éjszakákat éjszakákon éjszakákra éjszakán éjszakának éjszakánként éjszakánál éjszakára éjszakáról éjszakát éjszakától éjszakával éjszakáért
+98	398	hülye	hülyébb hülyék hülyéket hülyékkel hülyéknek hülyén hülyének hülyére hülyét hülyével hülyévé leghülyébb
+99	399	érkezik	érkezek érkezel érkezett érkezne érkeznek érkezni érkeznie érkezniük érkeztek érkeztem érkeztetek érkeztél érkeztünk érkezve érkezz érkezzen érkezzenek érkezzünk érkezünk érkező
+100	400	megnéz	megnézd megnézed megnézek megnézem megnézett megnézheted megnézhetem megnézheti megnézhetik megnézhetjük megnézhetné megnézhetnéd megnézhetném megnézhetnénk megnézi megnézik megnézitek megnézned megnéznem megnézni megnézné megnéznéd megnéznék megnézném megnéznénk megnéznünk megnézte megnézted megnéztem megnézték megnéztétek megnéztük megnéztünk megnézve megnézze megnézzem megnézzék megnézzük megnézünk

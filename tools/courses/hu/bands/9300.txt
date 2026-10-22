@@ -1,0 +1,100 @@
+1	9201	szike	szikét szikével
+2	9202	jordán	
+3	9203	irónia	iróniát iróniával
+4	9204	felidegesít	felidegesíted felidegesítenek felidegesíteni felidegesítesz felidegesített felidegesítette felidegesítetted felidegesítettelek felidegesítettem felidegesítettél felidegesíti felidegesítsen
+5	9205	válogatós	válogatósak
+6	9206	meta	metán metánt
+7	9207	operáció	operációra operációt operációval
+8	9208	ellátmány	ellátmánnyal ellátmányra ellátmányt ellátmányért
+9	9209	zsidóság	
+10	9210	beállítás	beállítások beállításokat beállítást
+11	9211	porcelán	porcelánból porcelánt
+12	9212	nomád	nomádok
+13	9213	demográfiai	
+14	9214	agresszió	agressziónak agresszióra agressziót agresszióval
+15	9215	kiegyezés	
+16	9216	kormánypárti	
+17	9217	kozma	
+18	9218	multimédia	
+19	9219	készség	készségek készségeket készséget készséggel
+20	9220	megfázás	megfázásra megfázást
+21	9221	szerkesztette	
+22	9222	keresztelő	keresztelőn keresztelőre keresztelőt
+23	9223	tervük	tervüket
+24	9224	átáll	átállnak átállni átállok átállsz átállt átálltak átálltam átálltál átállunk
+25	9225	szegényes	
+26	9226	árnyalat	árnyalatot árnyalattal
+27	9227	terveid	terveiddel terveidet terveidről
+28	9228	itthoni	
+29	9229	szkeptikus	szkeptikusak szkeptikusok
+30	9230	jobbára	
+31	9231	fizetség	fizetséget fizetségként fizetségért fizetségül
+32	9232	létszámú	
+33	9233	frizura	frizurák frizurát frizurával
+34	9234	nevezetű	
+35	9235	derűs	derűsebb
+36	9236	osztályos	osztályosok
+37	9237	vincseszter	winchester
+38	9238	plafon	plafonba plafonig plafonon plafonra plafonról plafont
+39	9239	közalkalmazott	közalkalmazottak
+40	9240	veréb	verebek verebet verébnek
+41	9241	cseresznye	cseresznyét cseresznyével
+42	9242	cetli	cetlik cetliket cetlin cetlire cetlit cetlivel
+43	9243	ingadozik	ingadoznak ingadozás ingadozó
+44	9244	feliratos	
+45	9245	helyettesítő	helyettesítőt
+46	9246	nagynéni	nagynénik nagynéninek nagynénit nagynénivel
+47	9247	pardon	
+48	9248	rektor	rektora
+49	9249	közhasznú	
+50	9250	szadista	szadisták
+51	9251	kíméletlen	kíméletlenül
+52	9252	páncélos	páncélosok
+53	9253	halk	halkabb halkabbra
+54	9254	hetven	
+55	9255	hátrahagy	hátrahagyott
+56	9256	eszes	eszesebb eszesek eszesnek
+57	9257	nehezedik	nehezedett
+58	9258	kapszula	kapszulába kapszulában kapszulák kapszulákat kapszulát
+59	9259	egyensúlyi	
+60	9260	kapacitása	kapacitását
+61	9261	kifoszt	kifosztanak kifosztani kifosztja kifosztják kifosztom kifosztott kifosztotta kifosztottak kifosztottam kifosztották kifosztottál kifosztva
+62	9262	kapkod	kapkodd kapkodj kapkodja kapkodjon kapkodjuk kapkodjunk kapkodják kapkodnak kapkodni kapkodod kapkodok kapkodom kapkodott kapkodsz kapkodta kapkodtad kapkodtam kapkodás kapkodó
+63	9263	hah	
+64	9264	szabadnap	szabadnapon szabadnapot szabadnapra
+65	9265	alaptalan	alaptalanok alaptalanul
+66	9266	festőművész	
+67	9267	biciklizik	biciklizel biciklizett biciklizni bicikliztem biciklizés
+68	9268	mamája	mamájának mamáját mamájával
+69	9269	satöbbi	
+70	9270	pettyes	pöttyös
+71	9271	sziklás	
+72	9272	sorozatos	
+73	9273	megóv	megóvják megóvni
+74	9274	megkövetel	megkövetelem megköveteli megkövetelik megkövetelt megkövetelte
+75	9275	inspiráció	inspirációt
+76	9276	ügyel	ügyelni ügyelnie ügyelt ügyeltek
+77	9277	kinézetű	
+78	9278	köhögés	köhögésre köhögéssel köhögést
+79	9279	vitás	
+80	9280	meggy	
+81	9281	életű	életűek
+82	9282	élettelen	
+83	9283	áttekintés	áttekintést
+84	9284	bemutatkozó	
+85	9285	rajzolta	
+86	9286	export	
+87	9287	mongol	mongolok
+88	9288	ásvány	ásványok ásványokat
+89	9289	ui	
+90	9290	akármelyik	akármelyiket
+91	9291	étkező	étkezőbe étkezőben étkezőt
+92	9292	megalapít	megalapította megalapítottam megalapítottuk megalapították
+93	9293	odavész	odaveszett odavesznek odavesztek odaveszünk
+94	9294	óceáni	
+95	9295	beleesik	beleesett
+96	9296	harmonikus	
+97	9297	étkezési	
+98	9298	elhajt	elhajtott
+99	9299	heten	
+100	9300	kutyád	kutyádat kutyáddal kutyádnak kutyádra

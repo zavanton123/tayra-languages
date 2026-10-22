@@ -1,0 +1,100 @@
+1	401	további	továbbiak továbbiakat továbbiakban továbbiakról
+2	402	millió	egymillió egymilliót millióba millióban millióból millióhoz milliói millióit milliók milliókat milliókba milliókkal millióknak milliókra milliókról milliókért milliónak milliónál millióra millióról milliószor milliót millióval millióért
+3	403	egyáltalán	
+4	404	ugyanaz	ugyanabba ugyanabban ugyanabból ugyanahhoz ugyanannak ugyanannál ugyanarra ugyanarról ugyanattól ugyanazok ugyanazokat ugyanazokban ugyanazokból ugyanazokkal ugyanazoknak ugyanazokon ugyanazokra ugyanazon ugyanazt ugyanazzal ugyanazért
+5	405	fut	fuss fussak fussanak fussatok fusson fussunk futhat futhatok futhatsz futhatunk futja futna futnak futni futnia futnod futnom futnunk futnék futok futott futotta futottak futottam futottunk futottál futsz futtat futtatja futtatni futtatok futtató futunk futva futás futásra futást futó futók
+6	406	vált	váltana váltanak váltani váltanánk váltanék váltasz válthat válthatnánk válthatnék válthatunk váltja váltjuk váltják váltod váltok váltom váltott váltotta váltottad váltottak váltottam váltottunk váltották váltottál válts váltsa váltsak váltsam váltsanak váltsatok váltsd váltson váltsuk váltsunk váltunk váltva váltó váltót váltóval
+7	407	autó	autóba autóban autóból autóhoz autóig autók autókat autókba autókban autókból autókhoz autókkal autóknak autókon autókra autókról autóktól autón autónak autónál autóra autóról autót autótól autóval autóért
+8	408	angol	angolban angolból angollal angolnak angolok angolokat angolokkal angoloknak angoloktól angolon angolra angolról angolt angolul
+9	409	majdnem	
+10	410	eset	esetbe esetben esetből esetek esetekben eseteket esetekhez esetekkel eseteknek eseteknél esetekre esetekről eseten esetet esethez esetnek esetnél esetre esetről esettel esettől esetért
+11	411	végül	
+12	412	szerez	szerezd szerezhetek szerezhetnénk szerezhetsz szerezhetünk szerezhető szerezne szerezned szereznek szereznem szerezni szereznie szereznünk szerezted szereztek szereztem szerezték szereztél szereztétek szereztük szereztünk szerezve szerezz szerezze szerezzek szerezzem szerezzen szerezzenek szerezzetek szerezzétek szerezzük szerezzünk szerzed szerzek szerzel szerzem szerzi szerzik szerzünk
+13	413	fogad	fogadhat fogadhatok fogadhatom fogadj fogadja fogadjam fogadjon fogadjuk fogadjunk fogadják fogadjátok fogadlak fogadna fogadnak fogadni fogadnia fogadnod fogadnom fogadnunk fogadná fogadnék fogadod fogadok fogadom fogadsz fogadta fogadtad fogadtak fogadtam fogadtuk fogadtunk fogadták fogadtál fogadunk fogadás fogadásokat fogadáson fogadásra fogadást
+14	414	készít	készíted készítek készítem készítene készítened készítenek készítenem készíteni készítenék készítenél készítenünk készítesz készített készítetted készítettek készítették készítettük készítettünk készíthetek készíthetünk készíthető készíti készítik készítjük készíts készítse készítsek készítsen készítsenek készítsetek készítsék készítsétek készítsük készítsünk készíttetett készítve készítünk készítő készítők
+15	415	korábban	korábbra korábbról
+16	416	szeretlek	
+17	417	gyönyörű	gyönyörűbb gyönyörűek gyönyörűnek gyönyörűt gyönyörűvé leggyönyörűbb
+18	418	egyszerű	egyszerűbb egyszerűbbé egyszerűek egyszerűn egyszerűnek egyszerűt egyszerűvel egyszerűvé legegyszerűbb
+19	419	nemzeti	
+20	420	sor	sora soran sorba sorban sorból sorhoz sornak sornál sorok sorokat sorokba sorokban soron sorra sorral sorról sort sortban sortot sorába sorában sorából sorának sorára sorát sorával
+21	421	szeptember	szeptemberben szeptemberig szeptemberre szeptembertől szeptemberében szeptemberétől
+22	422	fegyver	fegyverbe fegyverben fegyverből fegyvereiket fegyvereit fegyverek fegyverekben fegyverekből fegyvereken fegyvereket fegyverekhez fegyverekkel fegyvereknek fegyvereknél fegyverekre fegyverekről fegyverektől fegyverekért fegyveren fegyverhez fegyverként fegyvernek fegyverre fegyverrel fegyverré fegyverről fegyvert fegyvertől fegyverért fegyverük
+23	423	beteg	betegben betegebb betegei betegeid betegek betegeken betegeket betegekhez betegekkel betegeknek betegeknél betegekre betegekről betegektől betegen beteget beteggel beteggé beteghez betegként betegnek betegnél betegre betegről betegtől betegé betegért betegét legbetegebb
+24	424	segítség	segítséget segítséggel segítséghez segítségnek segítségre segítségről segítségért segítségükkel segítségükre segítségül
+25	425	válik	válhat válhatna válhatnak válhatok válhatott válhatsz válhatunk válj váljak váljanak váljatok váljon váljunk válna válnak válni válnál válnának válnánk válnék válok válsz váltak váltam váltatok váltok váltunk váltál válunk válva válás válásba válásban váláshoz válásnak válásra válásról válást váló
+26	426	halál	halálba halálban halálból halálhoz halálig halállal halálnak halálnál halálodig halálok halálon halálra halálról halált haláltól haláluk halálukat halálukig halálé halálért
+27	427	biztosan	biztosabban
+28	428	tölt	töltened töltenek töltenem tölteni töltenie tölteném töltenünk töltesz töltheted tölthetek tölthetem töltheti tölthetik tölthetnénk tölthető tölti töltik töltjük tölts töltsd töltse töltsek töltsem töltsék töltsétek töltsön töltsük töltsünk töltve töltöd töltök töltöm töltötte töltötted töltöttem töltötték töltöttél töltünk töltő
+29	429	könnyű	könnyebb könnyebbé könnyűek könnyűnek könnyűt könnyűvel könnyűvé legkönnyebb
+30	430	megért	megérted megértek megértem megértened megértenek megértenem megérteni megértenie megértené megértenéd megértenék megérteném megértesz megértetni megértett megértette megértetted megértettem megértették megértettél megértettétek megértettük megértheted megértheti megérti megértik megértitek megértjük megértse megértsem megértsen megértsék megértsétek megértsük megértés megértésre megértést megértünk megértő
+31	431	ismét	
+32	432	adott	adottak
+33	433	egyszerűen	egyszerűbben legegyszerűbben
+34	434	közül	
+35	435	hajó	hajóba hajóban hajóból hajóhoz hajóig hajók hajókat hajókhoz hajókkal hajóknak hajókon hajókra hajókról hajóktól hajón hajónak hajónál hajóra hajóról hajót hajótól hajóval hajóért
+36	436	európai	európaiak
+37	437	múlva	
+38	438	imád	imádat imádd imádja imádjanak imádjuk imádják imádjátok imádlak imádna imádnak imádni imádná imádnád imádnák imádnám imádnának imádnék imádod imádok imádom imádott imádsz imádta imádtad imádtak imádtalak imádtam imádtok imádtuk imádtunk imádták imádtál imádunk imádó imádók
+39	439	kemény	keménnyé keményebb keményebben kemények keményen keményet keménynek keményre legkeményebb legkeményebben
+40	440	mennyire	
+41	441	hadd	
+42	442	felejt	feled feledd feledje feledjék feledjétek feledjük feledni felejted felejtek felejtelek felejtem felejtened felejtenek felejtenem felejteni felejtesz felejtett felejtette felejtetted felejtettem felejtették felejtettél felejthetném felejthetted felejthettem felejti felejtik felejtjük felejts felejtsd felejtse felejtsem felejtsen felejtsetek felejtsék felejtsétek felejtsük felejtve felejtünk
+43	443	terület	területek területeken területeket területekkel területekre területekről területen területet területhez területnek területre területről területtel területté területtől területért
+44	444	ezer	ezerbe ezerből ezerhez ezerig ezernek ezernél ezerre ezerrel ezerről ezert ezerért ezreinek ezrek ezreket ezren ezret ezrével
+45	445	fickó	fickóba fickóban fickóból fickóhoz fickók fickókat fickókkal fickóknak fickókra fickókról fickóktól fickón fickónak fickónál fickóra fickóról fickót fickótól fickóval fickóé fickóért
+46	446	halott	halottabb halottak halottakat halottakból halottakkal halottaknak halottakon halottakra halottakról halottaktól halottakért halottal halottat halotthoz halottként halottnak halottra halottról halottá halottért halottól
+47	447	bír	bírd bírhat bírj bírja bírjam bírjon bírjuk bírják bírjátok bírlak bírna bírnak bírni bírnia bírnod bírnom bírnunk bírná bírnád bírnál bírnám bírnánk bírnék bírod bírok bírom bírsz bírt bírta bírtad bírtak bírtalak bírtam bírtok bírtuk bírtunk bírták bírtál bírunk
+48	448	érdekes	legérdekesebb érdekesebb érdekesek érdekesen érdekeset érdekesnek érdekessé
+49	449	okoz	okozhat okozhatja okozhatna okozhatnak okozhatok okozhatott okozhatsz okozhatta okozhatták okozhatunk okozna okoznak okozni okoznom okoznál okoznánk okoznék okozok okozol okozott okoztad okoztak okoztam okoztatok okoztok okoztuk okoztunk okozták okoztál okozunk okozva okozza okozzak okozzanak okozzon okozzunk okozzák okozó okozója
+50	450	komoly	komollyá komolyabb komolyabbnak komolyabbra komolyak komolyat komolynak komolyra legkomolyabb
+51	451	fordul	fordulhat fordulhatnak fordulhatnék fordulhatok fordulhatott fordulhatsz fordulhattam fordulhatunk fordulj forduljak forduljanak forduljatok forduljon forduljunk fordulna fordulnak fordulni fordulnia fordulniuk fordulnod fordulnom fordulnunk fordulnának fordulnék fordulok fordulsz fordult fordultak fordultam fordultunk fordultál fordulunk fordulva fordulás forduló fordulóba fordulóban fordulók fordulót
+52	452	kocsi	kocsiba kocsiban kocsiból kocsihoz kocsiig kocsik kocsikat kocsikba kocsikban kocsikból kocsikhoz kocsikkal kocsiknak kocsiknál kocsikon kocsikra kocsikról kocsin kocsinak kocsinál kocsira kocsiról kocsit kocsitól kocsival kocsiért
+53	453	keresztül	
+54	454	helyes	helyesebb helyesebben helyesek helyesen helyeset helyesnek leghelyesebb
+55	455	valószínűleg	
+56	456	rövid	legrövidebb röviddel rövidebb rövidebben rövidek rövideket röviden rövidet rövidnek rövidre
+57	457	alkalom	alkalmak alkalmakat alkalmakkor alkalmakra alkalmam alkalmat alkalmon alkalomból alkalomhoz alkalomig alkalommal alkalomnak alkalomnál alkalomra alkalomról alkalomért
+58	458	múlt	múltak múltat múltba múltban múltból múlthoz múltnak múlton múltra múltról múlttal múlttól múltunkat múlté
+59	459	orvos	orvosai orvoshoz orvosként orvosnak orvosnál orvosok orvosokat orvosokban orvosokból orvosokhoz orvosokkal orvosoknak orvosoknál orvosokra orvosokról orvosoktól orvosra orvosról orvossal orvossá orvost orvostól orvosé orvosért
+60	460	szar	legszarabb szarabb szarba szarban szarból szard szarhoz szarjál szarna szarnak szarni szarnod szarnom szarnál szarok szarokat szarokkal szaron szarra szarral szarrá szarról szart szarta szartad szartam szartál szartól szarás szarért
+61	461	kívül	kijjebb
+62	462	hatalmas	hatalmasabb hatalmasak hatalmasat hatalmasnak hatalmasok hatalmasra hatalmassá leghatalmasabb
+63	463	kurva	kurvaként kurvához kurvák kurvákat kurvákhoz kurvákkal kurváknak kurvákra kurvákról kurvának kurvára kurváról kurvát kurvától kurvával
+64	464	rendőrség	rendőrségben rendőrségen rendőrséget rendőrséggel rendőrséghez rendőrségnek rendőrségnél rendőrségre rendőrségről rendőrségtől rendőrségé
+65	465	szent	legszentebb szentebb szentek szenteket szenteknek szentekre szentet szentként szentnek szentre szentté szentül
+66	466	szerelem	szerelembe szerelemben szerelemből szerelemhez szerelemmel szerelemmé szerelemnek szerelemnél szerelemre szerelemről szerelemtől szerelemé szerelemért szerelmek szerelmem szerelmen szerelmet szerelmünk
+67	467	haver	havernak haverok haverokat haverokkal haveroknak haverral havert havertól
+68	468	hiányzik	hiányozhat hiányozhatok hiányozhatsz hiányozna hiányoznak hiányoznál hiányoznának hiányoznék hiányoztak hiányoztam hiányoztatok hiányoztok hiányoztunk hiányoztál hiányozzon hiányzanak hiányzok hiányzol hiányzott hiányzunk hiányzás hiányzó
+69	469	lehetőség	lehetőségben lehetőségből lehetőségeiket lehetőségeink lehetőségeinket lehetőségek lehetőségekből lehetőségeken lehetőségeket lehetőségekhez lehetőségekkel lehetőségeknek lehetőségekre lehetőségekről lehetőségen lehetőséget lehetőséggel lehetőséghez lehetőségként lehetőségnek lehetőségnél lehetőségre lehetőségről lehetőségtől lehetőségért
+70	470	melyik	melyikbe melyikben melyikből melyikek melyikeket melyiken melyiket melyikhez melyikkel melyiknek melyiknél melyikre melyikről melyiktől melyiké melyikük melyikünk
+71	471	vicces	legviccesebb viccesebb viccesek viccesen vicceset viccesnek viccesre viccessé
+72	472	foglalkozik	foglalkozhatok foglalkozhatsz foglalkozna foglalkoznak foglalkozni foglalkoznia foglalkoznod foglalkoznom foglalkoznunk foglalkoznál foglalkoznánk foglalkoznék foglalkozok foglalkozol foglalkozom foglalkozott foglalkoztak foglalkoztam foglalkoztat foglalkoztatja foglalkoztatott foglalkoztatottak foglalkoztatta foglalkoztató foglalkoztok foglalkoztunk foglalkoztál foglalkozunk foglalkozz foglalkozzam foglalkozzanak foglalkozzatok foglalkozzon foglalkozzunk foglalkozás foglalkozások foglalkozáson foglalkozást foglalkozó
+73	473	alá	alát
+74	474	kormány	kormánnyal kormánya kormányai kormányba kormányban kormányból kormányhoz kormánynak kormánynál kormányok kormányokat kormányoknak kormányon kormányra kormányról kormányt kormánytól kormányában kormányával kormányé
+75	475	történet	történetbe történetben történetből történetei történetek történetekben történetekből történeteket történetekkel történeteknek történetekre történetekről történeten történetet történethez történetnek történetre történetről történettel történetük
+76	476	alig	
+77	477	franc	francba francban francból franccal francnak francok francokat francot francra francról francért
+78	478	gép	gépbe gépben gépből gépek gépekbe gépekben gépekből gépeken gépeket gépekhez gépekkel gépeknek gépeknél gépekre gépekről gépektől gépen gépet géphez gépnek gépnél géppel gépre gépről géptől gépért gépük
+79	479	szívesen	legszívesebben szívesebben
+80	480	nagyszerű	legnagyszerűbb nagyszerűbb nagyszerűek nagyszerűnek nagyszerűt nagyszerűvé
+81	481	köszi	
+82	482	külön	különben
+83	483	ötlet	ötletek ötletekből ötleteket ötletekkel ötletekre ötletekről ötleten ötletet ötlethez ötletnek ötletre ötletről ötlettel ötlettől ötletért
+84	484	nemzetközi	
+85	485	különleges	különlegesebb különlegesek különlegesen különlegeset különlegesnek különlegesre különlegessel különlegessé különlegest legkülönlegesebb
+86	486	szoba	szobába szobában szobából szobád szobához szobák szobákat szobákba szobákban szobákkal szobán szobának szobánk szobánál szobára szobáról szobát szobától szobával szobáért
+87	487	lő	lövi lövik lövöd lövök lövöm lövünk lövő lődd lőhet lőhetsz lőj lője lőjek lőjem lőjenek lőjetek lőjék lőjétek lőjön lőjük lőjünk lőlek lőne lőnek lőni lőnie lőnöd lőnöm lőnünk lősz lőtt lőtte lőtted lőttek lőttem lőtték lőttél lőttünk lőve
+88	488	telefon	telefonba telefonban telefonból telefonhoz telefonig telefonnak telefonnal telefonnál telefonodon telefonok telefonokat telefonokhoz telefonokkal telefonokra telefonokról telefonon telefonra telefonról telefont telefontól telefonért
+89	489	verseny	versennyel versenybe versenyben versenyből versenyek versenyeken versenyeket versenyekre versenyen versenyhez versenyig versenynek versenyre versenyről versenyt versenytől versenyért
+90	490	ismert	ismertebb ismertek ismertem ismertesse ismertessem ismertetek ismertetem ismertetett ismerteti ismertetni ismertette ismertettem ismertették ismertté ismerté ismertünk legismertebb
+91	491	háború	háborúba háborúban háborúból háborúhoz háborúig háborúk háborúkat háborúkban háborúkkal háborúknak háborúkról háborún háborúnak háborúra háborúról háborút háborútól háborúval háborúvá háborúért
+92	492	előbb	
+93	493	úgyhogy	
+94	494	rájön	rájöhetek rájöhetett rájöhetnek rájöhetnénk rájöhetsz rájöhettem rájöhettél rájöhetünk rájöjjek rájöjjenek rájöjjön rájönne rájönnek rájönni rájönnie rájönniük rájönnék rájönnél rájönnének rájönnénk rájönnöd rájönnöm rájönnünk rájössz rájött rájöttek rájöttem rájöttetek rájöttél rájöttök rájöttünk rájövök rájövünk
+95	495	igazság	igazságba igazságban igazságból igazsággal igazsághoz igazságnak igazságnál igazságok igazságokat igazságon igazságot igazságra igazságról igazságtól igazságát igazságért
+96	496	egyetem	egyetemben egyetemek egyetemeken egyetemeket egyetemekre egyetemen egyetemet egyetemhez egyetemig egyetemmel egyetemnek egyetemnél egyetemre egyetemről egyetemtől
+97	497	létezik	létezek létezel létezem létezett létezhetne létezhetnek létezne léteznek létezni léteznie létezniük léteznék léteznél léteznének léteznénk léteztek léteztem léteztél léteztünk létezzen létezés létezésből létezést létezésük létezünk létező
+98	498	nyom	nyomban nyomd nyomj nyomja nyomjam nyomjon nyomjuk nyomjunk nyomják nyomjátok nyomnak nyomni nyomod nyomodban nyomok nyomokat nyomokban nyomokkal nyomom nyomomban nyomon nyomot nyomott nyomra nyomsz nyomta nyomtad nyomtak nyomtam nyomtatni nyomtattam nyomtatták nyomtatva nyomtuk nyomták nyomtál nyomunk nyomunkban nyomva
+99	499	elér	eléred elérek elérem elérhet elérheted elérhetem elérheti elérhetik elérhetsz elérhetünk eléri elérik eléritek elérje elérjem elérjen elérjék elérjük elérned elérnek elérnem elérni elérnie elérné elérnünk elérsz elért elérte elérted elértek elértelek elértem elérték elértél elértük elértünk elérve elérünk elérő
+100	500	természetesen	természetesebben

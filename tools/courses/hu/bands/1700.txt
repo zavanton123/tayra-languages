@@ -1,0 +1,100 @@
+1	1601	szexuális	szexuálisan
+2	1602	társadalmi	
+3	1603	ezredes	ezredesek ezredeshez ezredesnek ezredesnél ezredesre ezredesről ezredessel ezredest ezredestől ezredesé
+4	1604	sárga	sárgában sárgák sárgákat sárgán sárgának sárgára sárgát sárgával
+5	1605	polgármester	polgármesterek polgármesterhez polgármesterként polgármesternek polgármesternél polgármesterre polgármesterrel polgármesterré polgármesterről polgármestert polgármestertől
+6	1606	ébred	ébredek ébredj ébredjek ébredjen ébredjenek ébredjetek ébredne ébredned ébrednek ébrednem ébredni ébrednie ébrednék ébrednél ébredsz ébredt ébredtek ébredtem ébredtél ébredtünk ébredünk ébredő
+7	1607	minta	mintába mintában mintából mintához mintái minták mintákat mintákban mintákkal mintákra mintákról mintán mintának mintára mintáról mintát mintával
+8	1608	neved	nevedben neveddel neveden nevedet nevedhez nevednek nevedre
+9	1609	megkeres	megkeresed megkeresek megkeresel megkeresem megkeresett megkeresheted megkereshetem megkereshetjük megkereshetnénk megkeresi megkeresik megkeresitek megkereslek megkeresned megkeresnek megkeresnem megkeresni megkeresnie megkeresné megkeresnéd megkeresném megkeresnénk megkeresnünk megkeresse megkeresselek megkeressem megkeressen megkeressék megkeressük megkereste megkerested megkerestek megkerestelek megkerestem megkeresték megkerestél megkerestük megkeresünk
+10	1610	hálás	hálásabb hálásak hálásnak
+11	1611	állomás	állomáshoz állomásig állomásnak állomásnál állomások állomásokat állomásokon állomáson állomásra állomásról állomással állomást állomástól
+12	1612	hold	holdak holdanként holdat holdba holdban holddal holdhoz holdig holdnak holdon holdra holdról holdtól
+13	1613	pohár	pohara poharak poharakat poharakkal poharat poharába poharát pohárba pohárban pohárból pohárhoz poháron pohárra pohárral pohárról
+14	1614	igenis	
+15	1615	magazin	magazinba magazinban magazinból magazinhoz magazinnak magazinnal magazinnál magazinok magazinokat magazinokban magazinokból magazinokkal magazinoknak magazinra magazinról magazint magazintól
+16	1616	átvesz	átvegye átvegyem átvegyék átvegyük átvehesse átveheted átvehetem átveheti átvehetik átvehetjük átvehetné átvehetnéd átvehetném átvehetnénk átvenned átvennem átvenni átvennie átvenné átvennéd átvennék átvenném átvennénk átvennünk átvesszük átveszed átveszek átveszem átveszi átveszik átvett átvette átvetted átvettem átvették átvettük
+17	1617	aktív	aktívabb aktívak aktívnak legaktívabb
+18	1618	formája	formájába formájában formájából formájának formájára formáját formájával
+19	1619	bűnös	bűnösebb bűnösek bűnösként bűnösnek bűnösre bűnössé bűnöst bűnösök bűnösöket bűnösöknek bűnösökért
+20	1620	fizikai	
+21	1621	felel	felelek felelem felelhetek feleli feleljek feleljen feleljenek feleljetek felelne felelned felelnek felelnem felelni felelnie felelniük felelnék felelnél felelnünk felelsz felelt felelte felelted feleltek feleltem felelték feleltél felelünk
+22	1622	mozdul	mozdulhatok mozdulhatunk mozdulj mozduljak mozduljanak mozduljatok mozduljon mozduljunk mozdulna mozdulnak mozdulni mozdulnia mozdulnod mozdulnom mozdulnunk mozdulnék mozdulok mozdulsz mozdult mozdultak mozdultam mozdultok mozdultunk mozdultál mozdulunk
+23	1623	főváros	fővárosa fővárosba fővárosban fővárosból fővárost fővárostól fővárosának
+24	1624	kupa	kupában kupán kupára kupát kupával kupáért
+25	1625	bemutató	bemutatóhoz bemutatóig bemutatók bemutatókat bemutatón bemutatónak bemutatóra bemutatóról bemutatót bemutatóval
+26	1626	nyugszik	nyughassatok nyugodhat nyugodhatnék nyugodhatok nyugodhatsz nyugodjanak nyugodjatok nyugodjon nyugodjunk nyugodjál nyugodjék nyugodnia nyugodnod nyugodnunk nyugodnék nyugodott nyugodsz nyugodtam nyugszanak nyugszol nyugszom nyugszunk nyugtassa nyugtassam nyugtasson nyugtassuk nyugtat nyugtatja nyugtatni nyugtatnod nyugtatnom nyugtatnunk nyugtatott nyugtattam nyugtató nyugtatókat nyugvó
+27	1627	megeszik	megegye megegyem megegyenek megegyék megegyük megeheted megehetem megeheti megehetjük megehetnénk megehetsz megenned megennem megenni megennie megenné megennéd megennék megenném megesszük megeszed megeszel megeszem megeszi megeszitek megeszlek megesznek megeszünk megetet megeteti megette megetted megettek megettem megették megettél megettétek megettük megevett
+28	1628	meghív	meghívhatjuk meghívhatnád meghívhatnám meghívhatnánk meghívhatom meghívhatsz meghívja meghívjalak meghívjam meghívjon meghívjuk meghívják meghívlak meghívna meghívnak meghívni meghívnod meghívnom meghívnál meghívnálak meghívnám meghívnánk meghívod meghívok meghívom meghívott meghívsz meghívta meghívtad meghívtak meghívtalak meghívtam meghívtatok meghívtok meghívtuk meghívtunk meghívták meghívtál meghívunk
+29	1629	színű	színűek színűre színűt
+30	1630	sérülés	sérülésből sérülések sérüléseket sérülésekkel sérüléseknek sérülésekre sérülésekről sérülésektől sérülésem sérüléshez sérülésnek sérülésnél sérülésre sérülésről sérüléssel sérülést sérüléstől
+31	1631	negatív	negatívak negatívan negatívat negatívnak negatívok negatívokat negatívot
+32	1632	megérdemel	megérdemeljük megérdemelne megérdemelnek megérdemelné megérdemelnéd megérdemelnék megérdemelnél megérdemelném megérdemelnénk megérdemelsz megérdemelt megérdemelte megérdemelted megérdemeltek megérdemeltem megérdemelték megérdemeltél megérdemeltétek megérdemeltük megérdemled megérdemlek megérdemlem megérdemli megérdemlik megérdemlitek megérdemlünk
+33	1633	öröm	örömben örömből örömet örömnek örömre örömről örömtől örömért örömök örömöket örömöt
+34	1634	számla	számlához számláit számlák számlákat számlákhoz számlákkal számlákon számlákra számlákról számlán számlának számlára számláról számlát számlával
+35	1635	általa	általad általam általatok általuk általunk
+36	1636	szünet	szünetben szünetek szünetekben szüneteket szüneten szünetet szünethez szünetig szünetnek szünetre szünetről
+37	1637	negyedik	negyedikbe negyedikben negyedikek negyediken negyediket negyediknek negyedikre negyedikről
+38	1638	rúg	rúghat rúghatja rúghatnak rúghatod rúghatom rúghatsz rúgj rúgja rúgjalak rúgjam rúgjanak rúgjon rúgjuk rúgjunk rúgják rúgjátok rúglak rúgnak rúgni rúgnia rúgnod rúgnom rúgnunk rúgnám rúgod rúgok rúgom rúgott rúgsz rúgta rúgtad rúgtak rúgtalak rúgtam rúgták rúgtál rúgunk rúgva rúgó
+39	1639	lenyűgöző	leglenyűgözőbb lenyűgözőbb lenyűgözőek lenyűgözően lenyűgözőnek lenyűgözőt
+40	1640	alkalmaz	alkalmazandó alkalmazhatjuk alkalmazhatunk alkalmazlak alkalmazna alkalmaznak alkalmazni alkalmaznia alkalmaznod alkalmaznom alkalmaznunk alkalmazná alkalmaznának alkalmaznánk alkalmaznék alkalmazod alkalmazok alkalmazol alkalmazom alkalmazta alkalmaztad alkalmaztak alkalmaztalak alkalmaztam alkalmaztuk alkalmaztunk alkalmazták alkalmaztál alkalmazunk alkalmazva alkalmazza alkalmazzak alkalmazzam alkalmazzanak alkalmazzon alkalmazzuk alkalmazzunk alkalmazzák alkalmazó
+41	1641	művész	művésszel művésszé művészei művészek művészeket művészekkel művészeknek művészként művésznek művészre művészről művészt művésztől
+42	1642	kihagy	kihagyhatatlan kihagyhatjuk kihagyhatnád kihagyhatnánk kihagyhatod kihagyhatom kihagyja kihagyjam kihagyjuk kihagyják kihagyjátok kihagylak kihagynak kihagyni kihagynod kihagyná kihagynád kihagynám kihagynánk kihagynék kihagyod kihagyok kihagyom kihagyott kihagysz kihagyta kihagytad kihagytak kihagytam kihagytatok kihagytok kihagytuk kihagytunk kihagyták kihagytál kihagytátok kihagyunk kihagyva kihagyás
+43	1643	kiad	kiadhatja kiadhatjuk kiadhatnánk kiadhatom kiadja kiadjam kiadjuk kiadják kiadnak kiadni kiadnia kiadnod kiadnom kiadnunk kiadná kiadnám kiadnánk kiadod kiadok kiadom kiadott kiadsz kiadta kiadtad kiadtak kiadtam kiadtuk kiadtunk kiadták kiadtál kiadunk kiadva
+44	1644	szemed	szemedbe szemedben szemedből szemeddel szemeden szemedet szemedhez szemednek szemedre szemedről szemedtől
+45	1645	szavaz	szavazhat szavazhatnak szavazhatok szavazhatsz szavazhatunk szavazna szavaznak szavazni szavaznia szavaznom szavaznunk szavaznál szavaznának szavaznánk szavaznék szavazok szavazol szavazott szavaztak szavaztam szavaztatok szavaztok szavaztunk szavazták szavaztál szavazunk szavazz szavazzak szavazzanak szavazzatok szavazzon szavazzuk szavazzunk szavazzák szavazó szavazók szavazókat szavazóknak szavazót
+46	1646	megtámad	megtámadhatatlan megtámadhatja megtámadhatjuk megtámadhatják megtámadhatnak megtámadja megtámadjanak megtámadjon megtámadjuk megtámadják megtámadjátok megtámadna megtámadnak megtámadni megtámadnunk megtámadná megtámadnának megtámadod megtámadom megtámadott megtámadsz megtámadt megtámadta megtámadtad megtámadtak megtámadtam megtámadtuk megtámadták megtámadtál megtámadó
+47	1647	letartóztat	letartóztassa letartóztassam letartóztassanak letartóztasson letartóztassuk letartóztassák letartóztathat letartóztathatja letartóztathatjuk letartóztathatják letartóztathatnak letartóztathatnám letartóztathatom letartóztatja letartóztatjuk letartóztatják letartóztatlak letartóztatnak letartóztatni letartóztatnom letartóztatnunk letartóztatnák letartóztatnának letartóztatod letartóztatok letartóztatom letartóztatott letartóztatsz letartóztatta letartóztattad letartóztattak letartóztattam letartóztattuk letartóztattunk letartóztatták letartóztattál letartóztatunk letartóztatva letartóztató
+48	1648	miniszterelnök	miniszterelnöke miniszterelnökhöz miniszterelnökkel miniszterelnökként miniszterelnöknek miniszterelnöktől miniszterelnököt
+49	1649	álmodik	álmodhat álmodhatok álmodhatsz álmodhattam álmodja álmodjak álmodjatok álmodjon álmodjuk álmodjunk álmodna álmodni álmodnék álmodod álmodok álmodom álmodott álmodsz álmodta álmodtad álmodtak álmodtam álmodtatok álmodtuk álmodtunk álmodtál álmodunk álmodva álmodás álmodó
+50	1650	zenei	
+51	1651	lényege	lényegében lényegére lényegét
+52	1652	megőrül	megőrjít megőrüljek megőrüljön megőrülne megőrülnek megőrülni megőrülnék megőrülsz megőrült megőrültek megőrültem megőrültetek megőrültél megőrültünk megőrülök megőrülünk
+53	1653	vizsgál	vizsgálja vizsgáljak vizsgáljalak vizsgáljam vizsgáljanak vizsgáljon vizsgáljuk vizsgáljunk vizsgálják vizsgáljátok vizsgálnak vizsgálni vizsgálnia vizsgálniuk vizsgálnod vizsgálnom vizsgálnunk vizsgálod vizsgálok vizsgálom vizsgált vizsgálta vizsgáltad vizsgáltak vizsgáltam vizsgáltuk vizsgáltunk vizsgálták vizsgálunk vizsgálva
+54	1654	előtti	előttiek
+55	1655	kísérlet	kísérletbe kísérletben kísérletből kísérletek kísérletekben kísérleteket kísérletekhez kísérletekkel kísérleteknek kísérletekre kísérletekről kísérleten kísérletet kísérlethez kísérletként kísérletnek kísérletre kísérletről kísérlettel kísérletért kísérletét
+56	1656	természet	természetbe természetben természetből természeten természetet természethez természetnek természetre természetről természettel természettől
+57	1657	terhes	terhesek terhesen terhesnek
+58	1658	számítógép	számító számítógépbe számítógépben számítógépből számítógépek számítógépekben számítógépeken számítógépeket számítógépekhez számítógépekkel számítógépekre számítógépekről számítógépen számítógépet számítógéphez számítógépnek számítógépnél számítógéppel számítógépre számítógépről számítógéptől számítógépén
+59	1659	feltételez	feltételezed feltételezek feltételezel feltételezem feltételezett feltételezhetem feltételezhetjük feltételezi feltételezik feltételeznek feltételeznem feltételezni feltételezné feltételezném feltételeznünk feltételezte feltételezted feltételeztem feltételezték feltételeztük feltételezve feltételezze feltételezzük feltételezünk
+60	1660	féle	félék
+61	1661	örökké	
+62	1662	repülő	repülőbe repülőben repülőből repülőhöz repülők repülőket repülőkkel repülőkre repülőkről repülőkön repülőn repülőnek repülőre repülőről repülőt repülővel
+63	1663	hacsak	
+64	1664	szokás	szokása szokásaikat szokásnak szokások szokásokat szokásokhoz szokásokkal szokásoknak szokásokra szokásokról szokásoktól szokásom szokással szokássá szokást szokásuk szokásához szokásává
+65	1665	típusú	típusúak
+66	1666	galéria	galériába galériában galériából galériák galérián galériának galériára galériát
+67	1667	pénzem	pénzembe pénzemből pénzemen pénzemet pénzemhez pénzemmel pénzemre pénzemről pénzemért
+68	1668	jellemző	jellemzőek jellemzők jellemzőket jellemzőkkel legjellemzőbb
+69	1669	alkot	alkoss alkossak alkossanak alkossatok alkosson alkossunk alkothat alkothatunk alkotja alkotjuk alkotják alkotnak alkotni alkotnunk alkotnánk alkotok alkotott alkotsz alkottad alkottak alkottalak alkottam alkottok alkottuk alkottunk alkották alkottál alkotunk alkotva
+70	1670	miféle	mifélék miféléket mifélét
+71	1671	bármelyik	bármelyikben bármelyiket bármelyikkel bármelyiknek bármelyikre
+72	1672	tömeg	tömegbe tömegben tömegből tömegei tömegek tömegeket tömegeknek tömegen tömeget tömeggel tömeghez tömegnek tömegre tömegtől
+73	1673	mozi	moziba moziban moziból mozihoz mozik mozikat mozikba mozikban mozinak mozinál mozira moziról mozit mozival
+74	1674	sejt	sejtbe sejtből sejted sejtek sejtekben sejtekből sejteket sejtekkel sejteknek sejtem sejtenek sejteni sejtené sejtesz sejtet sejteti sejtett sejtette sejtetted sejtettem sejtették sejtettük sejtheted sejthettem sejthető sejti sejtik sejtjük sejtnek sejtről sejttel sejtve sejtő
+75	1675	sztori	sztoriba sztoriban sztoriból sztorihoz sztorik sztorikat sztorikkal sztorikra sztorin sztorinak sztorira sztoriról sztorit sztorival sztoriért
+76	1676	időnk	időnkbe időnkben időnkből időnket
+77	1677	telik	telek telekkel telekre telekről telkek telkeket telken telket tellett tellik telne telnek telni telnie telve telünk
+78	1678	kisasszony	kisasszonnyal kisasszonyhoz kisasszonynak kisasszonyok kisasszonyra kisasszonyról kisasszonyt kisasszonytól kisasszonyé
+79	1679	basszus	basszust
+80	1680	katolikus	katolikusként katolikusnak katolikusok katolikusokat katolikusoknak katolikust
+81	1681	mindössze	
+82	1682	pap	paphoz papjai papként papnak papok papokat papokkal papoknak papokra papot pappal pappá papra papról paptól
+83	1683	köre	körébe körében köréből körén körének körét
+84	1684	jármű	járműbe járműben járműből járműhöz járműnek járműre járműről járműtől járműve járművek járműveket járművekkel járművel járművet járművön
+85	1685	simán	simábban
+86	1686	lengyel	lengyelek lengyeleket lengyeleknek lengyelül
+87	1687	közvetlenül	
+88	1688	hibázik	hibázhat hibázhatsz hibázhatunk hibáznak hibázok hibázol hibázott hibáztak hibáztam hibáztassa hibáztasson hibáztat hibáztathat hibáztathatja hibáztathatjuk hibáztathatod hibáztathatom hibáztathatsz hibáztatható hibáztatja hibáztatják hibáztatlak hibáztatna hibáztatnak hibáztatni hibáztatná hibáztatnám hibáztatod hibáztatok hibáztatom hibáztatott hibáztatsz hibáztatta hibáztattalak hibáztattam hibáztunk hibáztál hibázunk hibázzon
+89	1689	ismerős	ismerősek ismerősnek ismerőssel ismerőst ismerősök ismerősöket ismerősökkel
+90	1690	nevetséges	legnevetségesebb nevetségesebb nevetségesek nevetségesen nevetségesnek nevetségessé
+91	1691	medence	medencébe medencében medencéből medencéhez medencéjét medencék medencéket medencén medencének medencénél medencére medencét medencétől medencével
+92	1692	gyakorlatilag	
+93	1693	túlságosan	
+94	1694	banda	bandába bandában bandából bandához bandái bandák bandákat bandákban bandákhoz bandákkal bandáknak bandákról bandáktól bandán bandának bandára bandáról bandát bandától bandával bandáért
+95	1695	szakasz	szakasszal szakaszba szakaszban szakaszból szakaszhoz szakasznak szakaszok szakaszokat szakaszokon szakaszon szakaszra szakaszt szakasztott
+96	1696	hogyne	
+97	1697	közösségi	
+98	1698	római	rómaiak rómaiakat rómaiakhoz rómaiakkal rómaiaknak rómainak rómait
+99	1699	megerősít	megerősíted megerősítem megerősíteni megerősítené megerősített megerősítette megerősítetted megerősítettem megerősítettük megerősíthetem megerősítheti megerősíthetjük megerősíti megerősítik megerősítjük megerősítse megerősítsem megerősítsék megerősítsük megerősítve megerősítés megerősítést megerősítő
+100	1700	un	und unja unjuk unják unjátok unni unnám unod unok unom unott unsz unt unta untad untam untat untatja untatlak untatnak untatni untatod untatom untatott untatsz untál

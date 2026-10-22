@@ -1,0 +1,100 @@
+1	6601	pozsonyi	
+2	6602	kezdés	kezdéshez kezdést
+3	6603	halottkém	halottkémek halottkémet halottkémhez halottkémmel halottkémnek halottkémnél halottkémtől
+4	6604	megengedte	
+5	6605	csörög	csörgök csörgött csörgő csörögjön csörögnek csörögni csörögsz
+6	6606	megiszik	megigya meginni megissza megitta megivott
+7	6607	szörnyűség	szörnyűségek szörnyűségeket szörnyűségekre szörnyűségen szörnyűséget szörnyűséggel szörnyűségnek szörnyűségre
+8	6608	harmad	harmada harmadban harmadában harmadát
+9	6609	azáltal	
+10	6610	nyereg	nyeregbe nyeregben nyeregből nyergek nyerget
+11	6611	sápadt	sápadtabb sápadtak sápadtan sápadtnak
+12	6612	betörő	betörők betörőket betörőnek betörőt
+13	6613	vietnámi	vietnami vietnámiak
+14	6614	tulajdonsága	tulajdonságát
+15	6615	pillanatnyilag	
+16	6616	tinta	tintát tintával
+17	6617	engedhet	engedheti engedhetik engedhette engedhetünk
+18	6618	lövész	lövészek lövészeket lövésznek lövészt
+19	6619	csíkos	csíkosat
+20	6620	opció	opciók opciókat opciót
+21	6621	gyász	gyásszal gyászba gyászban gyásznak gyászra gyászról gyászt gyásztól
+22	6622	összekever	összekevered összekeverem összekeveri összekeverik összekeverjük összekevernek összekeverni összekeversz összekevert összekeverte összekeverted összekevertek összekevertelek összekevertem összekeverték összekevertél összekevertük összekeverve
+23	6623	szarik	szard szarj szarja szarjak szarjon szarjuk szarjunk szarják szarjátok szarnia szarok szarsz szart szartak szarunk szaró
+24	6624	döglik	döglött
+25	6625	fogalmuk	
+26	6626	tétlenül	
+27	6627	nindzsa	nindzsák nindzsákat nindzsának nindzsát
+28	6628	szomorúság	szomorúságban szomorúsággal szomorúságot szomorúságtól
+29	6629	szintetikus	szintetikust
+30	6630	sérül	sérülhet sérülhetett sérülhetnek sérüljenek sérüljön sérülne sérülnek sérülni sérülsz sérültem sérültél sérültünk sérülve sérülök
+31	6631	megváltás	megváltásban megváltáshoz megváltásra megváltásról megváltást megváltásért
+32	6632	ügyem	ügyembe ügyemben ügyemen ügyemet ügyemhez ügyemmel ügyemnek ügyemről
+33	6633	ujjai	ujjain ujjait ujjaival
+34	6634	boncolás	boncolásból boncoláshoz boncolásnál boncoláson boncolásra boncolásról boncolással boncolást
+35	6635	almás	
+36	6636	mocsár	mocsarak mocsarakat mocsarakban mocsarat mocsárba mocsárban mocsárból mocsárhoz mocsárnál mocsáron
+37	6637	idead	ideadja ideadják ideadni ideadná ideadnád ideadod ideadta ideadtad ideadták
+38	6638	összezavar	összezavarhatja összezavarja összezavarjon összezavarjuk összezavarják összezavarnak összezavarni összezavarná összezavarod összezavarom összezavarsz összezavart összezavarta összezavartad összezavartak összezavartalak összezavartam összezavarták összezavartál összezavaró
+39	6639	ahányszor	
+40	6640	véletlenszerű	véletlenszerűek véletlenszerűnek
+41	6641	félút	félúton
+42	6642	megfejt	megfejted megfejtem megfejtenem megfejteni megfejtenünk megfejtett megfejtette megfejtetted megfejtettem megfejtették megfejtettük megfejthetetlen megfejti megfejtjük megfejtse megfejtsem megfejtsük
+43	6643	várhatóan	
+44	6644	lézer	lézerek lézereket lézerrel lézert
+45	6645	embereink	embereinket embereinkkel embereinknek embereinkre
+46	6646	fennmarad	fennmaradjon fennmaradnak fennmaradni fennmaradok fennmaradt fennmaradtak fennmaradtam fennmaradtunk
+47	6647	katalógus	katalógusban katalógusból katalógusok katalógusokat katalógust
+48	6648	fáraó	fáraók fáraónak fáraót
+49	6649	allergia	allergiát
+50	6650	udvari	
+51	6651	szemű	szeműek szeműt
+52	6652	sorsom	sorsomat sorsomban sorsommal sorsomra sorsomról
+53	6653	felszíni	
+54	6654	alkalmazható	alkalmazhatók
+55	6655	megnyugszik	megnyugodhat megnyugodhatnak megnyugodhatok megnyugodhatsz megnyugodhatunk megnyugodjak megnyugodjanak megnyugodjon megnyugodna megnyugodnál megnyugodott megnyugodtak megnyugodtál megnyugszanak megnyugszol megnyugszom megnyugvás
+56	6656	rendszerváltás	rendszerváltást
+57	6657	császári	
+58	6658	megtekintése	megtekintéséhez
+59	6659	gödöllői	
+60	6660	optimista	optimistább optimisták optimistán optimistának
+61	6661	kényszer	kényszerből kényszere kényszernek kényszerrel kényszert
+62	6662	igényes	igényesebb
+63	6663	szemszöge	szemszögéből
+64	6664	hálózati	
+65	6665	szerettelek	
+66	6666	struktúra	struktúrája struktúráját struktúrák struktúrát
+67	6667	szikra	szikrák szikrákat szikrára szikrát
+68	6668	lak	lakban laknak laknál lakok
+69	6669	minősül	minősülne minősülnek minősült minősülő
+70	6670	szimfonikus	
+71	6671	szituáció	szituációba szituációban szituációból szituációk szituációkat szituációkban szituációra szituációt
+72	6672	kivág	kivágja kivágni kivágott kivágták
+73	6673	néhányszor	
+74	6674	emlékmű	emlékműnél emlékművek emlékműveket emlékművet
+75	6675	vezérigazgató	vezérigazgatói vezérigazgatók vezérigazgatónak vezérigazgatót vezérigazgatóval
+76	6676	befogadó	
+77	6677	titkosszolgálat	titkosszolgálathoz titkosszolgálatnak titkosszolgálatnál titkosszolgálatok titkosszolgálatot titkosszolgálattal titkosszolgálattól
+78	6678	kellék	kellékei kellékek kellékeket kellékekkel kelléket
+79	6679	irányú	
+80	6680	ügyfeleink	ügyfeleinket ügyfeleinkkel ügyfeleinknek
+81	6681	kolónia	kolóniában kolóniához kolóniák kolóniákat kolónián kolóniának kolóniára kolóniáról kolóniát kolóniával
+82	6682	nemigen	
+83	6683	dalszöveg	dalszövegek dalszövegeket dalszöveget
+84	6684	megerősítet	megerősítették
+85	6685	hajszál	hajszálak hajszálakat hajszálat hajszállal hajszálon hajszálra
+86	6686	létesít	létesítek létesítenek létesíteni létesített létesítettek létesítettem létesítsen
+87	6687	politikája	politikájának politikájáról politikáját politikájával
+88	6688	kerekes	
+89	6689	közzétesz	közzétenni közzétesszük közzéteszem közzéteszi közzétett közzétette közzétették
+90	6690	épphogy	
+91	6691	gravitációs	
+92	6692	távozás	távozása távozáshoz távozásra távozást távozásával
+93	6693	kóbor	
+94	6694	birka	birkák birkákat birkákkal birkát birkával
+95	6695	szereplője	
+96	6696	kori	
+97	6697	maraton	maratonon maratonra maratont
+98	6698	borbély	borbélyhoz borbélynak borbélynál borbélyt
+99	6699	születés	születések születést születéstől születésüktől
+100	6700	ejtette	

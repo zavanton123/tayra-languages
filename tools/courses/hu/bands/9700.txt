@@ -1,0 +1,100 @@
+1	9601	eredménytelen	eredménytelenül
+2	9602	akaratlan	akaratlanul
+3	9603	vitorlás	vitorláson vitorlással vitorlást
+4	9604	ej	
+5	9605	egyhangú	
+6	9606	tárgyai	tárgyait
+7	9607	beszállás	beszállásra beszállást
+8	9608	megszeret	megszereted megszeretem megszeretett megszereti megszeretni megszeretné megszeretnéd megszeretnék megszeretném megszeretsz megszerette megszeretted megszerettelek megszerettem megszerettük
+9	9609	felkavaró	
+10	9610	íróasztal	íróasztala íróasztalnál íróasztalon íróasztalt íróasztalán íróasztalánál
+11	9611	markáns	
+12	9612	tiltakozó	tiltakozók
+13	9613	bíbor	
+14	9614	ovi	oviba oviban oviból
+15	9615	tematikus	
+16	9616	specializálódik	specializálódott specializálódtak specializálódtam
+17	9617	hazudnék	
+18	9618	hidraulikus	
+19	9619	groteszk	
+20	9620	minősített	
+21	9621	zakó	zakóban zakót
+22	9622	marhahús	marhahússal marhahúst
+23	9623	zsiráf	zsiráfok zsiráfot
+24	9624	hüvely	hüvelybe hüvelyben hüvelyek hüvelyeket hüvelyt
+25	9625	vitathatatlan	vitathatatlanul
+26	9626	nőszemély	
+27	9627	elszomorít	elszomorítani elszomorítasz elszomorítja elszomorított elszomorította elszomorító
+28	9628	fahéjas	
+29	9629	albán	albánok
+30	9630	rost	rostok rostokat roston rostot
+31	9631	hétszer	
+32	9632	alkimista	alkimisták alkimistát
+33	9633	átérez	átérezni átéreztem átérezzük átérzed átérzem átérzi
+34	9634	akciófilm	akciófilmeket
+35	9635	lábunk	lábunkat lábunkra
+36	9636	sújtotta	
+37	9637	lóerő	lóerőt lóerővel
+38	9638	fokozatos	
+39	9639	ecset	ecsetek ecsetet ecsettel
+40	9640	jutalék	jutalékot jutalékért
+41	9641	belenéz	belenézek belenézett belenézni
+42	9642	kincses	
+43	9643	aukció	aukción aukcióra aukciót
+44	9644	fotel	fotelban fotelben fotelt
+45	9645	megkaphat	megkaphatom
+46	9646	belügyminisztérium	
+47	9647	haladéktalanul	
+48	9648	monoton	
+49	9649	gyógyászati	
+50	9650	smaragd	smaragdok smaragdokat smaragdot
+51	9651	főbejárat	főbejárathoz főbejáratnál főbejáraton főbejáratot
+52	9652	kapacitás	kapacitáson kapacitással kapacitást
+53	9653	drágakő	drágakövek drágaköveket drágakövekkel drágakövet
+54	9654	kezdhet	kezdheti
+55	9655	megparancsol	megparancsolja megparancsolta
+56	9656	jótékonyság	jótékonyságból jótékonyságot jótékonyságra jótékonyságról
+57	9657	célzás	célzást
+58	9658	vezényel	vezényelje vezényeljen vezényelnek vezényelni vezényelt vezényelte vezényeltek vezényelték vezényli
+59	9659	dokk	dokkba dokkban dokkból dokkhoz dokknál dokkok dokkokhoz dokkoknál dokkon dokkot
+60	9660	földműves	földművesek
+61	9661	síp	sípok sípot
+62	9662	kóborol	kóborlok kóborló kóborolnak kóborolni kóborolsz kóborolt kóboroltam
+63	9663	inged	ingeddel ingeden ingedet
+64	9664	megmos	megmoshatom megmosni megmosod megmosom megmossa megmossam megmossuk megmosta megmostad megmostam
+65	9665	artéria	artériába artériák artériákat artérián artériát
+66	9666	tökéletesség	tökéletességet tökéletességre tökéletességről
+67	9667	elégedik	elégedve elégszik
+68	9668	rohamosan	
+69	9669	temetési	
+70	9670	féktelen	féktelenül
+71	9671	nyilvántartása	nyilvántartásában nyilvántartását
+72	9672	elzár	elzárja elzárta
+73	9673	felmutat	felmutatni
+74	9674	sikló	siklók siklót siklóval
+75	9675	főtér	főtéren főtérre
+76	9676	kirendel	kirendelt
+77	9677	hosszúság	hosszúságban
+78	9678	elzárt	elzártak
+79	9679	vetítés	vetítésen vetítésre vetítést
+80	9680	brexit	
+81	9681	kisvasút	
+82	9682	darabka	darabkája darabkák
+83	9683	tar	tarok taron
+84	9684	januári	
+85	9685	kanos	kanosabb kanosak
+86	9686	korlátolt	korlátoltak
+87	9687	pascal	pascalt
+88	9688	tarkó	tarkóján tarkón tarkóra
+89	9689	pizsama	pizsamába pizsamában pizsamák pizsamát
+90	9690	kiőrlésű	
+91	9691	végtelenség	végtelenségig
+92	9692	nélkülöz	nélkülözhető nélkülözi nélkülözni nélkülöznie nélkülöző
+93	9693	ara	arát
+94	9694	üdvözlő	
+95	9695	ajkai	ajkain ajkait ajkaival
+96	9696	elvárásai	elvárásaik elvárásainak elvárásait
+97	9697	kelta	kelták
+98	9698	kidől	kidőlt
+99	9699	bankszámla	bankszámlák bankszámlákat bankszámlán bankszámlára bankszámláról bankszámlát bankszámlával
+100	9700	hasonlítható	

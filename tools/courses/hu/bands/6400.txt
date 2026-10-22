@@ -1,0 +1,100 @@
+1	6301	kiegészít	kiegészítem kiegészíteni kiegészítesz kiegészített kiegészítette kiegészítettem kiegészíti kiegészítik kiegészítjük kiegészítve
+2	6302	vitat	vitassuk vitassák vitatható vitatja vitatjuk vitatják vitatni vitatnom vitatnunk vitatnám vitatom vitatta vitattuk vitatták
+3	6303	csökkentése	csökkentésére csökkentését csökkentésével
+4	6304	megaláz	megaláznak megalázni megalázod megalázol megalázom megalázott megalázottnak megalázta megaláztad megaláztak megaláztam megalázták megaláztál megalázva megalázza megalázzanak megalázzon megalázzák
+5	6305	jegyző	jegyzője
+6	6306	kétségkívül	
+7	6307	apjuk	apjukat apjukkal apjuknak apjukra apjukról apjuktól
+8	6308	vezérlő	vezérlőbe vezérlőben vezérlőből vezérlők vezérlőnek vezérlőt
+9	6309	kielégítő	kielégítőbb kielégítőek kielégítően kielégítőnek
+10	6310	átkel	átkelek átkelhetünk átkelnek átkelni átkelnünk átkelsz átkelt átkeltek átkeltem átkeltünk átkelés átkelünk átkelő
+11	6311	motorja	motorján motorjának motorjára motorját motorjával
+12	6312	megengedett	megengedettek megengedettnél
+13	6313	uralma	uralmának uralmát
+14	6314	kiugrik	kiugrott kiugrottak
+15	6315	vára	várába várában várának várát
+16	6316	szajha	szajhák szajhákat szajhákkal szajhának szajhát szajhával
+17	6317	kellős	
+18	6318	szervezeti	
+19	6319	öröksége	örökségéből örökségének örökségére örökségét örökségével
+20	6320	dinoszaurusz	dinoszaurusznak dinoszauruszok dinoszauruszokat dinoszauruszokkal dinoszauruszoknak dinoszauruszt
+21	6321	járkál	járkálhat járkálhatok járkálhatsz járkáljon járkálna járkálnak járkálni járkálnod járkálnom járkálok járkálsz járkált járkáltak járkáltam járkáltál járkálunk járkálás járkáló
+22	6322	színpadi	
+23	6323	kényelem	kényelembe kényelemben kényelemmel kényelemre kényelemről kényelmet
+24	6324	könyörtelen	könyörtelenül
+25	6325	eszme	eszméje eszmék eszméket eszmékkel eszmét
+26	6326	görbe	görbék görbén görbét
+27	6327	panoráma	
+28	6328	felemel	felemeli felemelné felemelt felemelte
+29	6329	nyel	nyeld nyeled nyelek nyelem nyelhette nyeli nyelik nyelj nyelje nyeljen nyelned nyelnem nyelni nyelnie nyelsz nyelt nyelte nyeltem nyeltél
+30	6330	követelmény	követelmények követelményeket követelményeknek követelménynek
+31	6331	mítosz	mítoszban mítosznak mítoszok mítoszokat mítoszokban mítoszt
+32	6332	indulhat	indulhatott
+33	6333	bronzérem	bronzérmet
+34	6334	washingtoni	washingtoniak
+35	6335	érintetlen	érintetlenek érintetlennek érintetlenül
+36	6336	nyal	nyald nyalj nyalja nyaljad nyaljam nyaljon nyaljuk nyalják nyaljátok nyalni nyalnod nyalnom nyalod nyalok nyalom nyalsz nyalt nyalta nyaltad nyaltam nyaltál nyalás
+37	6337	közvetítő	közvetítők közvetítőként közvetítőn közvetítőnek közvetítőre közvetítőt közvetítővel
+38	6338	hallak	
+39	6339	környezetbarát	
+40	6340	elmarad	elmaradnak elmaradtunk elmaradva
+41	6341	amerre	
+42	6342	jogosítvány	jogosítvánnyal jogosítványt
+43	6343	teker	tekered tekerek tekerem tekeri tekerje tekerjem tekerjen tekerjék tekerjétek tekerjük tekerjünk tekerni tekersz tekert tekerte tekertem tekerték tekerve tekerés tekerünk
+44	6344	állatorvos	állatorvoshoz állatorvosnak állatorvosnál állatorvosok állatorvossal állatorvost
+45	6345	gesztus	gesztusként gesztusnak gesztusok gesztusokat gesztusra gesztussal gesztust
+46	6346	szabálytalan	szabálytalanul
+47	6347	bezzeg	
+48	6348	héber	hébert héberül
+49	6349	vegyület	vegyületek vegyületeket vegyületet vegyülettel
+50	6350	dioxid	dioxidot
+51	6351	algoritmus	algoritmusok algoritmusokat algoritmussal algoritmust
+52	6352	brüsszeli	
+53	6353	répa	répák répákat répát répával
+54	6354	célpontja	célpontját célpontjává
+55	6355	tőke	tőkéhez tőkére tőkét tőkével
+56	6356	érthetően	érthetőbben
+57	6357	uborka	uborkák uborkát uborkával
+58	6358	szociáldemokrata	szociáldemokraták
+59	6359	csomagtartó	csomagtartóba csomagtartóban csomagtartóból csomagtartót
+60	6360	közérdekű	
+61	6361	olvad	olvadjon olvadnak olvadni olvadok olvadt olvadó
+62	6362	ék	éket
+63	6363	izzad	izzadjon izzadnak izzadni izzadok izzadsz izzadtam izzadtál izzadunk izzadva izzadás izzadó
+64	6364	eszközei	eszközeik eszközeinek eszközeit eszközeivel
+65	6365	levéltár	levéltárba levéltárban
+66	6366	paksi	
+67	6367	nemzedék	nemzedékek nemzedékeken nemzedéken nemzedéket nemzedékkel nemzedéknek nemzedékre nemzedékről nemzedékének
+68	6368	romlik	romlana romlanak romlandó romlani romló romolhat
+69	6369	szavad	szavadat szavadba szavadban szavaddal szavadnak szavadon szavadra
+70	6370	odafigyel	odafigyelek odafigyelhetnél odafigyeljen odafigyeljenek odafigyelne odafigyelned odafigyelnek odafigyelnem odafigyelni odafigyelnél odafigyelsz odafigyelt odafigyeltek odafigyeltem odafigyeltél odafigyelés odafigyelünk
+71	6371	felír	felírhatok felírja felírjam felírjuk felírják felírlak felírni felírod felírok felírom felírt felírta felírtad felírtak felírtam felírták felírva
+72	6372	megtervez	megtervezem megtervezett megtervezi megtervezik megtervezni megtervezte megtervezted megterveztek megterveztem megtervezték megterveztük megtervezve megtervezze megtervezzük
+73	6373	növekedési	
+74	6374	lova	lován lovának lovára lováról lovát lovával
+75	6375	egyez	egyezett egyeznek
+76	6376	összehasonlít	összehasonlítani összehasonlíthatatlan összehasonlítja összehasonlítjuk összehasonlítod összehasonlítom összehasonlította összehasonlítottam összehasonlítottuk összehasonlították összehasonlítsuk összehasonlítva
+77	6377	mínusz	mínuszban
+78	6378	kancellár	kancellárnak kancellárral kancellárt
+79	6379	domináns	
+80	6380	kenu	kenuban kenut kenuval
+81	6381	hatol	hatoljanak hatoljon hatolnak hatolni hatolnunk hatolok hatolt hatoltak hatolunk hatoló
+82	6382	befejezés	befejezéshez befejezésre befejezéssel befejezést befejezésül
+83	6383	régimódi	régimódiak régimódinak
+84	6384	fiunk	fiunkat fiunkkal fiunknak fiunkra fiunkról fiunkért
+85	6385	eper	eperre eperrel eprek epret
+86	6386	berúg	berúgja berúgjak berúgnak berúgni berúgok berúgom berúgott berúgsz berúgta berúgtak berúgtam berúgtunk berúgták berúgtál berúgunk berúgva
+87	6387	fogyasztás	fogyasztásra fogyasztást
+88	6388	kapcsoló	kapcsolók kapcsolókat kapcsolót kapcsolóval
+89	6389	fokozott	
+90	6390	gyengeség	gyengeségből gyengeségek gyengeségeket gyengeséget gyengeséggel gyengeségnek gyengeségre
+91	6391	valahányszor	
+92	6392	anyjuk	anyjukat anyjukhoz anyjukkal anyjuknak anyjukra anyjuktól
+93	6393	szárad	száradjon száradna száradnak száradni száradt száradva száradó
+94	6394	gravitáció	gravitációban gravitációnak gravitációt gravitációval
+95	6395	céljuk	céljukat
+96	6396	hálózata	hálózatába hálózatában hálózatához hálózatán hálózatának hálózatára hálózatát
+97	6397	lázas	lázasan lázasnak
+98	6398	birodalmi	birodalmiak
+99	6399	fokoz	fokozni fokozta fokozták fokozva fokozza fokozzuk fokozzák fokozó
+100	6400	észrevétlenül	észrevétlen észrevétlenek

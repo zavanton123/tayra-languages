@@ -1,0 +1,100 @@
+1	4101	becsületes	becsületesebb becsületesek becsületesen becsületesnek legbecsületesebb
+2	4102	cikke	cikkében cikkét
+3	4103	kegyelem	kegyelemben kegyelemből kegyelemmel kegyelemre kegyelemért kegyelmet
+4	4104	civilizáció	civilizációba civilizációban civilizációhoz civilizációk civilizációkat civilizációnak civilizációról civilizációt civilizációtól civilizációval
+5	4105	néma	némák némán némának némát
+6	4106	mostanság	
+7	4107	ing	ingben ingek ingeket ingen inget inggel ingott ingre
+8	4108	utánanéz	utánanézek utánanézel utánanézett utánanézhet utánanézhetek utánanézhetnél utánanézne utánanéznek utánanézni utánanéznék utánanéznél utánanéztek utánanéztem utánanéztél utánanéztünk utánanézzek utánanézzen utánanézzünk utánanézünk
+9	4109	kosárlabda	kosárlabdában kosárlabdára kosárlabdáról kosárlabdát kosárlabdával
+10	4110	budai	
+11	4111	automatikusan	
+12	4112	megbízik	megbízhatnak megbízhatok megbízhattok megbízhatunk megbíznak megbíznia megbíznunk megbíznék megbízok megbízom megbíztak megbíztok megbíztunk megbízták megbízunk megbízva megbízzanak megbízzunk megbízó
+13	4113	munkatárs	munkatársak munkatársakat munkatársakkal munkatársaknak munkatársat munkatársnak munkatárssal
+14	4114	bosszant	bosszantalak bosszantanak bosszantani bosszantasz bosszantja bosszantod bosszantott bosszantotta bosszants bosszantsa bosszantsalak bosszantsam bosszantsd bosszantson bosszantsuk bosszantó
+15	4115	gimi	gimibe gimiben gimiből giminek gimit
+16	4116	statisztika	statisztikák statisztikákat statisztikákkal statisztikát
+17	4117	kedvence	kedvencének kedvencét
+18	4118	telep	telepek telepeket telepen telepet telepre telepről telepén
+19	4119	közlemény	közleményben közlemények közleményeket közleményt
+20	4120	bírósági	
+21	4121	kivisz	kivigye kivigyelek kivigyem kivigyen kivigyék kivigyél kivigyük kivihetem kivinnem kivinni kivinné kivinnéd kivinnél kivisszük kiviszed kiviszel kiviszem kiviszi kiviszik kiviszlek kivisznek kiviszünk kivitt kivitte kivitted kivittek kivittem kivitték kivittük
+22	4122	kisbaba	kisbabaként kisbabák kisbabákat kisbabákkal kisbabáknak kisbabának kisbabára kisbabáról kisbabát kisbabával
+23	4123	meghívó	meghívók meghívókat meghívón meghívóra meghívót meghívóval
+24	4124	elfogadott	
+25	4125	özvegy	özveggyel özveggyé özvegyek özvegyeket özvegyeknek özvegyet özvegyként özvegynek özvegyének
+26	4126	fogás	fogása fogásból fogásnak fogások fogásokat fogásra fogással fogást
+27	4127	emelkedett	
+28	4128	boldogul	boldoguljak boldoguljanak boldoguljon boldoguljunk boldogulna boldogulnak boldogulni boldogulnia boldogulnod boldogulnom boldogulnunk boldogulnál boldogulnánk boldogulnék boldogulok boldogulsz boldogult boldogultak boldogultam boldogultok boldogultunk boldogultál boldogulunk
+29	4129	éjszakája	éjszakáján éjszakájának éjszakájára éjszakájáról éjszakáját
+30	4130	igazolt	
+31	4131	sorozata	sorozatában sorozatának sorozatát
+32	4132	akárhogy	akárhogyan
+33	4133	érintő	
+34	4134	garantál	garantálhatja garantálhatjuk garantálhatok garantálhatom garantálja garantáljuk garantálják garantálni garantálná garantálod garantálok garantálom garantáltam garantálva
+35	4135	kijelöl	kijelöli kijelöljük kijelölnek kijelölni kijelölt kijelölte kijelöltek kijelöltem kijelölték kijelölve kijelölöm
+36	4136	vasútállomás	vasútállomáson vasútállomásra vasútállomást
+37	4137	vasút	vasutak vasutat vasúthoz vasútnak vasútnál vasúton vasútról vasúttal
+38	4138	elérése	elérésében eléréséhez elérésének elérésére elérését eléréséért
+39	4139	folytatása	folytatásaként folytatásában folytatásához folytatásának folytatására folytatását
+40	4140	elemzés	elemzések elemzéseket elemzéshez elemzésre elemzéssel elemzést
+41	4141	belüli	
+42	4142	pszichológiai	
+43	4143	gyűlölet	gyűlöletben gyűlöletből gyűlölete gyűlöletet gyűlöletnek gyűlöletre gyűlöletről gyűlölettel gyűlöletté gyűlölettől gyűlöletét
+44	4144	veszett	veszettek veszettül
+45	4145	tizenkét	
+46	4146	áldás	áldásban áldásként áldásnak áldásra áldással áldást áldását áldásért
+47	4147	gépe	gépébe gépében gépéhez gépén gépének gépére gépéről gépét gépével
+48	4148	szabályoz	szabályozni szabályozott szabályozva szabályozza szabályozzuk szabályozzák szabályozás szabályozások szabályozást
+49	4149	orrom	orromat orromba orromban orromból orromig orrommal orromnál orromon orromra
+50	4150	pszichológus	pszichológushoz pszichológusként pszichológusnak pszichológusnál pszichológusok pszichológusra pszichológussal pszichológust
+51	4151	kémia	kémiában kémiából kémián kémiára kémiáról kémiát
+52	4152	mozdulat	mozdulata mozdulatai mozdulatok mozdulatokat mozdulatokkal mozdulatot mozdulatra mozdulattal mozdulatát
+53	4153	fertőzött	fertőzöttek fertőzötteket
+54	4154	luxus	luxusban luxusnak luxust
+55	4155	rákos	rákosak
+56	4156	sokk	sokkba sokkban sokkon sokkot sokkra sokktól sokként
+57	4157	énekesnő	énekesnőt
+58	4158	szerver	szerverek szervereken szervereket szerveren szerverhez szerverre szerverről szervert
+59	4159	szab	szabhat szabj szabja szabjuk szabják szabnak szabni szabod szabok szabom szabott szabta szabtak szabtam szabták szabunk szabva szabás
+60	4160	világbajnok	világbajnokok
+61	4161	helyiség	helyiségbe helyiségben helyiségből helyiségek helyiségeket helyiséget
+62	4162	turizmus	turizmust
+63	4163	producer	producerek producereket producerekkel producereknek producerként producernek producerrel producert
+64	4164	bárány	báránnyal báránynak bárányok bárányokat bárányra bárányt
+65	4165	táv	távon távot távra
+66	4166	átgondol	átgondolhatnád átgondolhatnánk átgondolhatom átgondolja átgondoljam átgondoljuk átgondolják átgondolni átgondolnod átgondolnom átgondolná átgondolnád átgondolnám átgondolod átgondolom átgondolt átgondolta átgondoltad átgondoltam átgondoltuk átgondolva
+67	4167	dolgai	dolgaiba dolgaiban dolgaiból dolgaihoz dolgain dolgainak dolgaira dolgairól dolgait dolgaival dolgaiért
+68	4168	műszak	műszakba műszakban műszakból műszakkal műszaknak műszakok műszakokat műszakokban műszakon műszakot műszakra
+69	4169	süllyed	süllyedek süllyedhet süllyedhetsz süllyedjek süllyedjen süllyedne süllyednek süllyedni süllyednék süllyedsz süllyedt süllyedtek süllyedtem süllyedtél süllyedtünk süllyedés süllyedünk süllyedő süllyeszteni süllyesztette
+70	4170	következményei	következményeire következményeiről következményeit következményeitől következményeivel
+71	4171	gyűjtemény	gyűjteménybe gyűjteményben gyűjteményből gyűjtemények gyűjteményt
+72	4172	elvtárs	elvtársak elvtársam elvtársat elvtársnak elvtárssal
+73	4173	ural	uralhatja uralhatjuk uralja uraljuk uralják uralnak uralni uralnod uralod uralt uraltam uralták uraló
+74	4174	édesanyám	édesanyámat édesanyámmal édesanyámnak édesanyámra édesanyámról édesanyámtól édesanyámé
+75	4175	hagylak	
+76	4176	konkrétan	konkrétabban
+77	4177	találat	találatok találatokat találatot
+78	4178	autós	autósok
+79	4179	liberális	liberálisok
+80	4180	kapuja	kapujába kapujában kapujához kapujáig kapuján kapujának kapujánál kapuját
+81	4181	kertész	kertésszel kertészek kertésznek kertészt
+82	4182	megemlít	megemlíted megemlítem megemlítened megemlítenem megemlíteni megemlíteném megemlített megemlítette megemlítetted megemlítettem megemlítették megemlíti megemlítik megemlítjük megemlítsem megemlítve
+83	4183	forgatás	forgatása forgatáshoz forgatásnak forgatások forgatáson forgatásra forgatásról forgatással forgatást
+84	4184	megtagad	megtagadja megtagadjam megtagadjuk megtagadják megtagadni megtagadod megtagadom megtagadott megtagadsz megtagadta megtagadtad megtagadtak megtagadtam megtagadtuk megtagadták megtagadtál megtagadása
+85	4185	csőd	csődbe csődben csődtől csődöt
+86	4186	demokrata	demokraták demokratákat demokratáknak demokratát
+87	4187	öröme	örömében örömének örömére örömét öröméért
+88	4188	kinn	kijjebb
+89	4189	kiszabadul	kiszabadulhat kiszabaduljak kiszabaduljon kiszabadulnak kiszabadulni kiszabadulnom kiszabadulok kiszabadulsz kiszabadult kiszabadultak kiszabadultam kiszabadultunk kiszabadultál kiszabadulunk kiszabadít kiszabadítani
+90	4190	irányító	irányítóját irányítók irányítónak irányítót irányítóval
+91	4191	idézet	idézete idézetek idézeteket idézetet idézettel
+92	4192	cápa	cápák cápákat cápákkal cápáknak cápáktól cápának cápára cápát cápával
+93	4193	elődöntő	elődöntőbe elődöntőben
+94	4194	világít	világítanak világítani világítasz világítja világítják világított világítottak világítsa világítsanak világítsatok világítson világítva világító
+95	4195	verekedik	verekedett verekednek verekedni verekedsz verekedés verekedő verekszik
+96	4196	betesz	betegye betegyem beteheted betehetem betehetjük betehetnénk betenni betenné betennéd betenném betesszük beteszed beteszek beteszel beteszem beteszi beteszik beteszlek betesznek beteszünk betett betette betetted betettek betettem betették betettél betettük betevő betétet
+97	4197	stop	stoppal
+98	4198	ügyészség	ügyészségen ügyészséget ügyészséggel ügyészségnek ügyészségnél ügyészségre ügyészségről ügyészségtől
+99	4199	kifejez	kifejezem kifejezhetem kifejezi kifejezik kifejeznem kifejezni kifejezte kifejezted kifejeztem kifejezték kifejezve kifejezze kifejezzem kifejezzék kifejezzük
+100	4200	építész	építésszel építészek építésznek építészt

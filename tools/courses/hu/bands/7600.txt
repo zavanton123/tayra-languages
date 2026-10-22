@@ -1,0 +1,100 @@
+1	7501	szokásai	szokásaihoz szokásaik szokásainak szokásairól szokásait szokásaival
+2	7502	modellje	modelljét
+3	7503	fejlesztésű	
+4	7504	egyszemélyes	
+5	7505	eseménye	eseményén eseményére eseményét
+6	7506	dicső	legdicsőbb
+7	7507	trilógia	trilógiát
+8	7508	megsemmisítés	megsemmisítése megsemmisítésre megsemmisítésére megsemmisítését
+9	7509	kiindul	kiindulhatunk kiindulni kiindulnunk kiindulva
+10	7510	sikít	sikítanak sikítani sikítasz sikítok sikított sikítottam sikítottál sikítsatok sikítson sikítva sikítás sikító
+11	7511	nevei	neveik neveire neveit neveivel
+12	7512	testű	
+13	7513	eszük	eszükbe eszükben eszüket eszükön
+14	7514	zsebem	zsebembe zsebemben zsebemből zsebemet
+15	7515	suttog	suttogja suttogják suttognak suttogni suttognod suttogod suttogok suttogom suttogott suttogsz suttogta suttogtak suttogtam suttogtok suttogták suttogtál suttogunk suttogva
+16	7516	panel	panelek panelen panelt
+17	7517	árvaház	árvaházat árvaházba árvaházban árvaházból árvaháznak
+18	7518	messzi	messzinek
+19	7519	tizenhét	tizenhetet
+20	7520	ijedt	ijedtek ijedten ijedtnek
+21	7521	humán	
+22	7522	szerencsétlenség	szerencsétlenségben szerencsétlenségek szerencsétlenséget szerencsétlenségnek
+23	7523	szobra	szobrát
+24	7524	szemetes	szemetesbe szemetesben szemetesből szemetesek szemeteseket szemetest
+25	7525	várandós	
+26	7526	sportos	
+27	7527	szabadidő	szabadidőt szabadidővel
+28	7528	esélyes	esélyesebb esélyesek legesélyesebb
+29	7529	bejegyez	bejegyezve bejegyzett
+30	7530	ragasztó	ragasztóra ragasztót ragasztóval
+31	7531	ál	álnak ált
+32	7532	táplálkozás	
+33	7533	orvosság	orvossága orvosságok orvosságokat orvosságot orvosságra
+34	7534	bizottsági	
+35	7535	bevett	bevettek
+36	7536	nyomasztó	nyomasztóak nyomasztónak
+37	7537	múzeumi	
+38	7538	sorsod	sorsodat sorsoddal sorsodon sorsodra sorsodról
+39	7539	kizárólagos	
+40	7540	felmászik	felmásznak felmászni felmászok felmászol felmászott felmásztak felmásztam felmásztunk felmásztál felmászunk
+41	7541	kamat	kamata kamatok kamatokat kamatokkal kamatot kamatra kamattal
+42	7542	ezred	ezredben ezredből ezreddel ezredet ezredhez ezrednek ezrednél
+43	7543	abortusz	abortuszon abortuszra abortuszról abortuszt
+44	7544	szerelés	szerelésben szerelést
+45	7545	amazon	amazonok amazonon
+46	7546	soul	soult
+47	7547	finanszíroz	finanszírozni finanszírozom finanszírozott finanszíroztam finanszírozták finanszírozza finanszírozzuk finanszírozzák
+48	7548	magatartás	magatartással magatartást
+49	7549	dolgaim	dolgaimat dolgaimba dolgaimhoz dolgaimmal dolgaimra dolgaimról dolgaimért
+50	7550	megfertőz	megfertőzheti megfertőzi megfertőzik megfertőznek megfertőzni megfertőzte megfertőzted megfertőztek megfertőztem megfertőzték megfertőztél megfertőzve megfertőzze megfertőzzön megfertőzött
+51	7551	piszkál	piszkálja piszkáljon piszkáljuk piszkálják piszkáljátok piszkállak piszkálnak piszkálni piszkálod piszkálom piszkálsz piszkált piszkálta piszkáltad piszkáltak piszkáltam piszkálták
+52	7552	katasztrofális	katasztrofálisak
+53	7553	feljön	feljött feljöttek
+54	7554	szellő	szellőben szellőt
+55	7555	szemügy	szemügyre
+56	7556	instabil	instabilak instabillá instabilnak
+57	7557	hozzátartozik	hozzátartoznak hozzátartozó hozzátartozói hozzátartozók hozzátartozókat hozzátartozóknak hozzátartozót
+58	7558	fokozottan	
+59	7559	sorsolás	sorsolást
+60	7560	bélyeg	bélyegek bélyegeket bélyeget bélyeggel bélyegre
+61	7561	irt	irta irtani irtanunk irtja irtják irtotta irtották irtsuk
+62	7562	cinikus	cinikusnak
+63	7563	karib	
+64	7564	feltűnés	feltűnést
+65	7565	hívogat	hívogasson hívogatja hívogatják hívogatlak hívogatnak hívogatni hívogatod hívogatom hívogatott hívogatsz hívogatta hívogattak hívogattalak hívogattam hívogató
+66	7566	megannyi	
+67	7567	stabilitás	stabilitása stabilitásra stabilitást stabilitását
+68	7568	fennállása	fennállásának
+69	7569	különlegesség	különlegessége különlegességek különlegességet különlegességgel
+70	7570	munkavégzés	
+71	7571	kávézik	kávéznak kávézni kávézok kávézol kávézott kávéztam kávéztunk kávézunk kávézzunk
+72	7572	mindannyiuk	mindannyiukat mindannyiukkal mindannyiuknak mindannyiukra mindannyiuktól
+73	7573	tágas	tágasabb
+74	7574	finanszírozás	finanszírozást finanszírozásának finanszírozására finanszírozását
+75	7575	valószínűtlen	legvalószínűtlenebb valószínűtlennek
+76	7576	érvénytelen	érvénytelenek érvénytelennek
+77	7577	befejezetlen	befejezetlenül
+78	7578	tanúi	
+79	7579	sorai	soraiba soraiban soraiból sorait
+80	7580	térerő	térerőt
+81	7581	far	farba farbával farokkal faroknak farokra
+82	7582	népszabadság	
+83	7583	fagyos	
+84	7584	esetem	esetemben
+85	7585	lábnyom	lábnyomok lábnyomokat lábnyomot
+86	7586	szabadlábra	
+87	7587	karantén	karanténba karanténban karanténból karanténon karantént
+88	7588	távcső	távcsövek távcsövet távcsövön távcsőbe távcsővel
+89	7589	átvág	átvágja átvágjuk átvágják átvágnak átvágni átvágod átvágok átvágom átvágott átvágsz átvágta átvágtak átvágtam átvágták átvágtál átvágunk átvágás
+90	7590	pályázati	
+91	7591	kultúrája	kultúrájában kultúrájának kultúráját
+92	7592	utol	utolért utól
+93	7593	fényképész	fényképészek fényképésznek fényképészt
+94	7594	köröz	körözi körözik köröznek körözni köröztek körözték körözzük körözök körözöl körözünk
+95	7595	belement	belementem belementünk
+96	7596	csipsz	chips csipszet
+97	7597	tömb	tömbbel tömbben tömbre tömbök tömböket tömbön tömböt
+98	7598	háromszoros	háromszorosa
+99	7599	fűszer	fűszerek fűszereket fűszerekkel fűszerrel fűszert
+100	7600	hallható	

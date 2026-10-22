@@ -1,0 +1,100 @@
+1	6801	figyelmük	figyelmükbe figyelmüket
+2	6802	mérhető	
+3	6803	szakítás	szakítások szakítást
+4	6804	angliai	
+5	6805	örömteli	örömtelibb
+6	6806	íjász	íjásszal íjászok íjászokat íjászt
+7	6807	terveim	terveimbe terveimben terveimet terveimről
+8	6808	palesztin	palesztinok palesztinokat palesztinoknak
+9	6809	páncél	páncélba páncélban páncéllal páncélok páncélon páncélt
+10	6810	dekoráció	dekorációk dekorációt dekorációval
+11	6811	beton	betonba betonban betonból betonnal betonon betonra betont
+12	6812	magyarázata	magyarázatát
+13	6813	pucér	pucérak pucéron pucérra
+14	6814	erejű	
+15	6815	embereid	embereiddel embereidet embereidnek embereidre
+16	6816	megtetszik	megtetszett megtetszettél
+17	6817	büfé	büfébe büfében büféből büfénél büfét
+18	6818	megrendel	megrendelem megrendeli megrendeljük megrendelni megrendelt megrendelte megrendelted megrendeltem megrendelték megrendeltük megrendelés megrendelések megrendelésre
+19	6819	értékesítési	
+20	6820	erősödik	erősödjön erősödnek erősödni erősödnöd erősödő
+21	6821	ennivaló	ennivalója ennivalóra ennivalót ennivalóval ennivalóért
+22	6822	tiltakozás	tiltakozása tiltakozásnak tiltakozások tiltakozást tiltakozásul
+23	6823	üldögél	üldögélek üldögélhetek üldögélhetsz üldögélhetünk üldögéljek üldögéljen üldögéljünk üldögélnek üldögélni üldögélnék üldögélsz üldögélt üldögéltek üldögéltem üldögéltél üldögéltünk üldögélve üldögélünk
+24	6824	fennáll	fennállnak fennállt
+25	6825	selyem	selyemben selyemből selyemmel selymet
+26	6826	haditengerészet	haditengerészetet haditengerészethez haditengerészetnek haditengerészetnél haditengerészettel haditengerészettől
+27	6827	szükségtelen	szükségtelennek szükségtelenné szükségtelenül
+28	6828	titkár	titkárnak titkárok titkárral titkárt
+29	6829	vetít	vetíted vetítenek vetíteni vetített vetítettek vetítették vetíti vetítik vetítő
+30	6830	paranoiás	paranoiásabb paranoiásak paranoiásnak paranoiássá
+31	6831	lencse	lencsébe lencsék lencséket lencsén lencsét lencsével
+32	6832	kitérő	kitérőt
+33	6833	kezelhető	kezelhetőek
+34	6834	bátorsága	bátorságának bátorságáról bátorságát bátorságával bátorságáért
+35	6835	külseje	külsején külsejére külsejét külsejével
+36	6836	fájdalomcsillapító	fájdalomcsillapítók fájdalomcsillapítókat fájdalomcsillapítókkal fájdalomcsillapítókra fájdalomcsillapítóra fájdalomcsillapítót fájdalomcsillapítóval
+37	6837	parazita	paraziták parazitákat parazitákkal parazitát
+38	6838	weboldala	weboldalán weboldalára weboldalát
+39	6839	elkel	elkelne elkelnek elkelt elkeltek
+40	6840	értekezlet	értekezlete értekezletek értekezleteken értekezleten értekezletet értekezletre értekezletről
+41	6841	nézőpont	nézőpontból nézőpontjából nézőpontot
+42	6842	kiég	kiégett kiégette kiégették kiégnek kiégtek kiégtem kiégtél
+43	6843	benzinkút	benzinkutak benzinkutat benzinkúthoz benzinkútig benzinkútnál benzinkúton benzinkútra benzinkútról benzinkúttól
+44	6844	felgyorsul	felgyorsulnak felgyorsulni felgyorsult felgyorsultak felgyorsítani felgyorsítja felgyorsítjuk felgyorsítják felgyorsítom felgyorsított felgyorsította felgyorsítottam felgyorsítsuk
+45	6845	jópofa	jópofák jópofának
+46	6846	jégkorong	jégkorongot
+47	6847	esetenként	
+48	6848	melle	mellébe mellében melléhez mellén mellére melléről mellét
+49	6849	grafikus	
+50	6850	szakos	
+51	6851	blokkol	blokkolja blokkoljuk blokkolják blokkolni blokkolom blokkolt blokkolta blokkoltam blokkolták blokkolva blokkolás blokkoló
+52	6852	mellékes	mellékesen mellékest
+53	6853	ízlése	ízlésének ízlését
+54	6854	írásbeli	
+55	6855	búza	búzát
+56	6856	tanítvány	tanítványnak tanítványok tanítványokat tanítványt
+57	6857	okol	okolhatja okolhatjuk okolhatod okolhatom okolhatsz okolható okolja okoljon okoljuk okolják okollak okolnak okolni okolod okolom okolsz okolt okolta okoltalak okoltam okolták
+58	6858	dilis	dilisek dilisnek dilist
+59	6859	ügyünk	ügyünkben ügyünket ügyünkhöz ügyünkkel ügyünknek ügyünkre ügyünkért
+60	6860	sorakozik	sorakoznak sorakozni sorakozott sorakoztak sorakozzanak sorakozzatok sorakozzon sorakozó
+61	6861	meghitt	meghittebb meghitten meghittnek
+62	6862	vezérigazgatója	vezérigazgatójának vezérigazgatóját vezérigazgatójával
+63	6863	kínzás	kínzásnak kínzások kínzásokat kínzásra kínzásról kínzással kínzást kínzását
+64	6864	gurul	guruljon guruljunk gurulnak gurulni gurulok gurulsz gurult gurultak gurultam gurulunk gurulás guruló
+65	6865	csempész	csempésszen csempészek csempészeket csempészel csempészi csempészik csempésznek csempészni csempészt csempészte csempésztek csempésztem csempészték csempésztél csempészünk
+66	6866	alátámaszt	alátámassza alátámasztani alátámasztaná alátámaszthatja alátámasztja alátámasztják alátámasztott alátámasztotta
+67	6867	előz	előzi előzni előznünk előzte előzz előzze előzzük előzés előzött
+68	6868	halálom	halálomig
+69	6869	védtelen	védtelenek védtelennek védtelenné védtelenül
+70	6870	málna	málnát
+71	6871	leveszik	leveszed leveszem
+72	6872	akárhol	
+73	6873	lenyel	lenyeled lenyelem lenyeli lenyelik lenyelje lenyeljük lenyelni lenyelt lenyelte lenyelted lenyeltem lenyeltél
+74	6874	tantárgy	tantárgyak tantárgyat tantárgyból
+75	6875	igazuk	
+76	6876	telihold	teliholdat teliholdig teliholdnál
+77	6877	tétele	tételére tételét
+78	6878	alulról	
+79	6879	zsákutca	zsákutcába zsákutcában zsákutcának zsákutcát
+80	6880	alkotása	alkotását
+81	6881	világháborús	
+82	6882	zsoldos	zsoldosként zsoldosok zsoldosokat zsoldosokkal zsoldost
+83	6883	pendrive	pendrive-on pendrive-ot pendrive-ra
+84	6884	előír	előírja előírják előírt előírta
+85	6885	bit	
+86	6886	mosógép	mosógépbe mosógépben mosógépet
+87	6887	korlátozás	korlátozása korlátozások korlátozásokat korlátozást
+88	6888	sing	singben
+89	6889	egyed	egyedek egyedeket egyedet
+90	6890	időközi	
+91	6891	érzése	érzését érzésével
+92	6892	ártatlanság	ártatlansága ártatlanságod ártatlanságot ártatlanságukat ártatlanságában ártatlanságát
+93	6893	munkaügyi	
+94	6894	szonda	szondák szondákat szondát szondával
+95	6895	ismerete	ismeretében ismeretét
+96	6896	sark	sarkait sarkig sarkok sarkokat sarkokban sarkokon sarkon sarkot sarkra sarkról
+97	6897	felelőtlen	felelőtlenek felelőtlennek felelőtlenül legfelelőtlenebb
+98	6898	idejű	
+99	6899	munkaidő	munkaideje munkaidőben munkaidőn munkaidőnek munkaidőt
+100	6900	polc	polcok polcokat polcokon polcokra polcokról polcon polcot polcra polcról

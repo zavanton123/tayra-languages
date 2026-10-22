@@ -1,0 +1,100 @@
+1	3101	képessége	képességében képességének képességére képességéről képességét képességével
+2	3102	hozzáférés	hozzáféréshez hozzáférésre hozzáféréssel hozzáférést
+3	3103	fórum	fórumok fórumokon fórumon fórumot fórumra
+4	3104	motoros	motorosok motorosokat motorosokkal motorosoknak motorossal motorost
+5	3105	javaslat	javaslatnak javaslatok javaslatokat javaslatokra javaslatot javaslatra javaslatról javaslattal javaslatuk
+6	3106	méteres	m-es méteresek méteresre
+7	3107	középiskola	középiskolába középiskolában középiskolából középiskolák középiskolának középiskolát
+8	3108	alapú	
+9	3109	századi	
+10	3110	vesztes	vesztesek veszteseket vesztesekkel veszteseknek vesztesekre vesztesként vesztesnek vesztessel vesztest
+11	3111	elektronikus	
+12	3112	határa	határában határához határáig határán határánál határára határát határától
+13	3113	posta	postában postához postán postánál postára postáról postát postával
+14	3114	birtoka	birtokába birtokában birtokán birtokának birtokára birtokáról birtokát
+15	3115	megelőző	megelőzően
+16	3116	fejlett	fejlettebb fejlettek legfejlettebb
+17	3117	egyikünk	egyikünket egyikünkkel egyikünknek egyikünknél egyikünkre egyikünké egyikőnk
+18	3118	semmiféle	
+19	3119	akartalak	
+20	3120	viselkedés	viselkedésben viselkedésből viselkedéshez viselkedésnek viselkedésre viselkedésről viselkedéssel viselkedést viselkedésért
+21	3121	lábad	lábadat lábadba lábadban lábaddal lábadhoz lábadnak lábadnál lábadon lábadra lábadról lábadt
+22	3122	ideális	ideálisak legideálisabb
+23	3123	szándék	szándékai szándékaik szándékairól szándékait szándékból szándékkal szándéknak szándékok szándékot szándékról szándékukat
+24	3124	hegyi	hegyire
+25	3125	megjegyzés	megjegyzése megjegyzései megjegyzéseit megjegyzések megjegyzéseket megjegyzésekkel megjegyzéssel megjegyzést megjegyzésért megjegyzését
+26	3126	válság	válságba válságban válságból válsággal válsághoz válságnak válságon válságot válságra válságról
+27	3127	gitár	gitárok gitárokat gitáron gitárra gitárral gitárt
+28	3128	jövője	jövőjébe jövőjében jövőjének jövőjére jövőjéről jövőjét jövőjével jövőjéért
+29	3129	zóna	zónába zónában zónából zónához zónák zónákat zónákban zónán zónának zónára zónát zónától
+30	3130	birtok	birtokba birtokkal birtoknak birtokodban birtokok birtokokat birtokomban birtokon birtokot birtokra birtokról birtokukban
+31	3131	csapás	csapásnak csapások csapásokat csapáson csapásra csapással csapást csapástól
+32	3132	ront	rontana rontanak rontani rontaná rontanál rontanám rontasz ronthat ronthatja ronthatsz ronthatunk rontja rontjuk rontják rontod rontok rontom rontott rontotta rontottad rontottak rontottam rontottuk rontottunk rontották rontottál ronts rontsa rontsam rontsd rontson rontsuk rontsunk rontsátok rontunk rontva rontás rontást rontó
+33	3133	előle	előled előlem előletek előlük előlünk
+34	3134	csoportos	csoportosan
+35	3135	cser	cserben
+36	3136	gordon	gordonnak gordonnal gordont
+37	3137	varázslat	varázslatban varázslathoz varázslatnak varázslatok varázslatokat varázslatokkal varázslatot varázslatra varázslatról varázslattal varázslattól
+38	3138	lakos	lakosa lakosai lakosainak lakosnak lakosok lakosokat lakosoknak lakossal lakost
+39	3139	szavai	szavaiban szavaiból szavain szavainak szavaira szavait szavaival szavaiért
+40	3140	kanadai	kanadaiak kanadaiakat kanadaiaknak kanadait
+41	3141	fizika	fizikában fizikából fizikához fizikára fizikáról fizikát fizikával
+42	3142	támogató	támogatója támogatók támogatókat támogatókkal támogatóra támogatót
+43	3143	nedves	nedvesebb nedvesek nedvesen nedvesnek
+44	3144	tegnapi	tegnapiak tegnapiról tegnapit tegnapiért
+45	3145	ellenállás	ellenállása ellenállásba ellenállásban ellenálláshoz ellenállásnak ellenállásra ellenállásról ellenállással ellenállást ellenállástól
+46	3146	mindkettőnk	mindkettőnkben mindkettőnkből mindkettőnket mindkettőnkkel mindkettőnknek mindkettőnknél mindkettőnkre mindkettőnktől mindkettőnké mindkettőnkért mindkettőnkön
+47	3147	paradicsom	paradicsomba paradicsomban paradicsomból paradicsommal paradicsommá paradicsomnak paradicsomok paradicsomokat paradicsomot paradicsomra paradicsomról
+48	3148	születése	születéséig születésének születésénél születésére születéséről születését születésétől
+49	3149	kiegészítő	kiegészítők kiegészítőket kiegészítőt
+50	3150	népe	népéből népéhez népének népére népéről népét népétől népével népéért
+51	3151	csekk	csekkek csekkeket csekkekkel csekkel csekken csekket csekkre csekkről csekkért
+52	3152	egységes	egységesek egységesen egységesnek
+53	3153	gazember	gazemberek gazembereket gazemberekkel gazembereknek gazembernek gazemberrel gazembert
+54	3154	alapvetően	
+55	3155	száj	szájak szájakat szájat szájba szájban szájból szájjal szájnak szájon szájra szájról
+56	3156	használat	használatakor használatba használatban használaton használatot használatra használatuk
+57	3157	akadályoz	akadályozhat akadályozhatja akadályozhatjuk akadályozhatják akadályozhatod akadályozhatom akadályozlak akadályozna akadályoznak akadályozni akadályoznia akadályoznod akadályoznom akadályoznunk akadályozná akadályozod akadályozol akadályozom akadályozott akadályozta akadályoztad akadályoztam akadályozták akadályozva akadályozza akadályozzam akadályozzon akadályozzuk akadályozzák akadályozzátok akadályozó
+58	3158	jelentősége	jelentőségének jelentőségét
+59	3159	sara	saranak sarának saráról sarát sarával
+60	3160	utóbb	
+61	3161	lázadó	lázadók lázadókat lázadókhoz lázadókkal lázadóknak lázadókra lázadókról lázadóktól lázadónak lázadót lázadóval
+62	3162	ellenséges	ellenségesek ellenségesen ellenségesnek ellenségessé
+63	3163	fájdalmas	fájdalmasabb fájdalmasak fájdalmasnak fájdalmassá legfájdalmasabb
+64	3164	téves	tévesek tévesen
+65	3165	derít	deríted derítem derítened derítenem deríteni derítenie derítenünk derített derítette derítetted derítettek derítettem derítették derítettél derítettük derítettünk deríthet deríthetjük deríti derítik derítjük derítse derítsek derítsem derítsen derítsék derítsétek derítsük derítsünk derítünk
+66	3166	villa	villába villában villából villához villák villákat villának villára villáról villát villával
+67	3167	sikere	sikerében sikeréhez sikerének sikerére sikerét sikeréért
+68	3168	dala	dalának dalára dalát dalával
+69	3169	biológiai	
+70	3170	szalag	szalaggal szalagok szalagokat szalagokkal szalagokon szalagon szalagot szalagra szalagról
+71	3171	mennyiségű	
+72	3172	kihúz	kihúzhatja kihúzhatjuk kihúzhatod kihúzhatom kihúzható kihúzlak kihúznak kihúzni kihúznom kihúznunk kihúzná kihúznád kihúznám kihúzod kihúzok kihúzol kihúzom kihúzott kihúzta kihúztad kihúztak kihúztalak kihúztam kihúztuk kihúztunk kihúzták kihúztál kihúzunk kihúzva kihúzza kihúzzalak kihúzzam kihúzzon kihúzzuk kihúzzák
+73	3173	krumpli	krumpliból krumplihoz krumplik krumplikat krumplin krumplinak krumplira krumplit krumplival krumpliért
+74	3174	megfigyelés	megfigyelése megfigyelések megfigyeléseket megfigyelésen megfigyeléshez megfigyelésnek megfigyelésre megfigyelésről megfigyeléssel megfigyelést megfigyelésére
+75	3175	orra	orrába orrában orrából orrához orrán orránál orrára orrát orrával
+76	3176	egykor	
+77	3177	elenged	elengedik elengedni elengedte elengedtek elengedték
+78	3178	felajánl	felajánlanak felajánlani felajánlanom felajánlaná felajánlanám felajánlanék felajánlasz felajánlhatok felajánlhatom felajánlja felajánljak felajánljam felajánljuk felajánlják felajánlod felajánlok felajánlom felajánlott felajánlottad felajánlottak felajánlottam felajánlottuk felajánlották felajánlottál felajánlunk felajánlva
+79	3179	műsora	műsorába műsorában műsorából műsorán műsorának műsorára műsorát műsorával
+80	3180	elesik	elesek elesel elesett elesettek elesnek elesni elessen elestek elestem elestél elestünk elesünk
+81	3181	dolcsi	dolcsiba dolcsiban dolcsiból dolcsihoz dolcsinál dolcsira dolcsiról dolcsit dolcsival dolcsiért
+82	3182	meghatározott	
+83	3183	kerületi	
+84	3184	nyugdíj	nyugdíjat nyugdíjba nyugdíjban nyugdíjból nyugdíjig nyugdíjjal nyugdíjra
+85	3185	felfelé	felfele fölfele
+86	3186	táncos	táncosa táncosnak táncosok táncosokat táncosokkal táncosoknak táncossal táncost
+87	3187	zenész	zenésszel zenészek zenészeket zenészekkel zenészeknek zenészként zenésznek zenészt
+88	3188	átlag	átlagban átlaggal átlagnál átlagod átlagon átlagot
+89	3189	korona	koronába koronához koronának koronára koronát koronával koronáért
+90	3190	parkoló	parkolóba parkolóban parkolóból parkolóhoz parkolójában parkolók parkolókban parkolón parkolónál parkolóra parkolót
+91	3191	lift	liftbe liftben liftből liftek liftekben lifteket lifteknél liften liftet lifthez liftig liftnek liftnél liftre lifttel
+92	3192	maszk	maszkban maszkkal maszkok maszkokat maszkon maszkot maszkra
+93	3193	összetör	összetöri összetörik összetörjük összetört összetörte összetörtnek összetörték
+94	3194	bál	bálba bálban bálhoz bálig bállal bálnak bálok bálokat bálokon bálon bálra bálról bált
+95	3195	hányan	
+96	3196	futam	futamban futamok futamon futamot futamra
+97	3197	repülőgép	repülőgépből repülőgépek repülőgépeket repülőgépekkel repülőgépen repülőgépet repülőgépnek repülőgéppel repülőgépre repülőgépről
+98	3198	láthatatlan	láthatatlannak láthatatlanná láthatatlanok láthatatlant láthatatlanul
+99	3199	búcsú	búcsúban búcsúra búcsút
+100	3200	perverz	legperverzebb perverzek perverzeket perverzekkel perverzeknek perverzet perverznek perverzzel

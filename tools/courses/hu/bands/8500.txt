@@ -1,0 +1,100 @@
+1	8401	leplez	leplezed leplezem leplezett leplezi leplezik leplezni lepleznünk leplezte lepleztem leplezze leplezzem leplezzék leplezzük
+2	8402	testnevelés	
+3	8403	sikeredik	sikeredett sikerednek
+4	8404	ibolya	ibolyák ibolyát
+5	8405	száguld	száguldanak száguldani száguldj száguldok száguldott száguldunk száguldás száguldó
+6	8406	érintkezik	érintkezett érintkeznek érintkezni érintkeztek érintkeztünk érintkezünk érintkező
+7	8407	dinasztia	dinasztiából dinasztiának dinasztiát
+8	8408	irtó	irtóra
+9	8409	aranyérmes	
+10	8410	mentség	mentségeket mentséget mentségként mentségül
+11	8411	szerződik	szerződni szerződtek szerződtem szerződtünk szerződött
+12	8412	sok-sok	
+13	8413	végtag	végtagok végtagokat végtagokkal végtagokon végtagot
+14	8414	deszka	deszkáját deszkák deszkákat deszkán deszkára deszkát deszkával
+15	8415	házkutatási	házkutatásit
+16	8416	augusztusi	
+17	8417	torpedó	torpedók torpedókat torpedókkal torpedót torpedóval
+18	8418	strici	stricik striciket stricikkel stricinek stricit stricivel
+19	8419	nagyközönség	nagyközönségnek
+20	8420	tüske	tüskék tüskéket tüskékkel tüskét
+21	8421	novembere	novemberében
+22	8422	bajusz	bajusszal bajuszt
+23	8423	ügyeletes	
+24	8424	töpreng	töprengek töprengenek töprengeni töprengett töprengsz töprengtem töprengtünk töprengünk
+25	8425	körözött	körözöttek
+26	8426	mérése	mérésére
+27	8427	cseveg	csevegek csevegett cseveghetnénk cseveghetünk csevegj csevegjünk csevegnek csevegni csevegnék csevegnünk csevegsz csevegtek csevegtem csevegtünk csevegünk csevegő
+28	8428	cigizik	cigizek cigizel cigizett cigizhetek cigizhetsz cigizned cigiznek cigizni cigiztek cigiztem cigiztél cigiztünk cigizés
+29	8429	palotája	palotájába palotájában palotájából palotájának palotáját
+30	8430	főigazgató	főigazgatója
+31	8431	lekvár	lekvárban lekvárral lekvárt
+32	8432	időjárási	
+33	8433	funkcionális	
+34	8434	óvodás	óvodások
+35	8435	hangnem	hangnemben hangnemet
+36	8436	finálé	fináléban fináléra finálét
+37	8437	csillagászati	
+38	8438	márvány	márványból márványt
+39	8439	generál	generálja generálnak generálni generált
+40	8440	napsugár	napsugarak napsugarakat napsugarat
+41	8441	koncentráció	koncentrációban koncentrációt
+42	8442	befektet	befektetek befektetem befektetett befekteti befektetni befektetsz befektette befektettek befektettem
+43	8443	zongorázik	zongorázni zongorázol zongorázom zongorázott zongoráztam zongorázás
+44	8444	autentikus	
+45	8445	jólét	jólétben jólétet jóléttel
+46	8446	hajdani	
+47	8447	öregasszony	öregasszonnyal öregasszonynak öregasszonyok öregasszonyt
+48	8448	életveszélyes	életveszélyesek életveszélyesen
+49	8449	ellátogat	ellátogatnak ellátogatni ellátogatok ellátogatott ellátogattak ellátogattam ellátogattunk ellátogatunk
+50	8450	lelkünk	lelkünkbe lelkünkben lelkünket lelkünkön
+51	8451	trendi	
+52	8452	bankjegy	bankjegyek bankjegyekben bankjegyeket bankjegyekkel bankjegyen bankjegyet
+53	8453	kérdőív	kérdőíveket kérdőívet
+54	8454	jelenlét	jelenlétet jelenlétre jelenlétükkel
+55	8455	gettó	gettóba gettóban gettóból gettót
+56	8456	préda	prédája prédák prédának prédára prédát
+57	8457	szennyezett	szennyezettek
+58	8458	fürge	fürgébb fürgék fürgén
+59	8459	támogatói	támogatóinak támogatóit
+60	8460	harckocsi	harckocsik
+61	8461	afelől	
+62	8462	hallatán	
+63	8463	ismétlődő	
+64	8464	kölcsönvesz	kölcsönveheted kölcsönvehetem kölcsönvehetném kölcsönvenni kölcsönvenném kölcsönvesszük kölcsönveszek kölcsönveszem kölcsönvett kölcsönvette kölcsönvetted kölcsönvettem kölcsönvettük
+65	8465	kávéház	kávéházat kávéházba kávéházban
+66	8466	hév	hévvel
+67	8467	harisnya	harisnyában harisnyák harisnyákat harisnyát harisnyával
+68	8468	elás	elásni elásod elásom elásott elássa elássuk elássák elásta elástad elástam elástuk elásták elásva
+69	8469	szabványos	
+70	8470	mágnes	mágnesek mágneseket mágnesként mágnessel mágnest
+71	8471	átvizsgál	átvizsgálja átvizsgáljuk átvizsgálják átvizsgálnak átvizsgálni átvizsgálom átvizsgált átvizsgálta átvizsgáltak átvizsgáltam átvizsgáltuk átvizsgáltunk átvizsgálták átvizsgálunk átvizsgálás
+72	8472	szélvédő	szélvédőn szélvédőre szélvédőt
+73	8473	jóllehet	
+74	8474	ütközet	ütközetbe ütközetben ütközetet ütközetre
+75	8475	jogosan	
+76	8476	évekbeli	
+77	8477	járulékos	
+78	8478	ennyien	
+79	8479	szűrő	szűrők szűrőket szűrőn szűrőt szűrővel
+80	8480	beszédes	beszédesebb beszédesek
+81	8481	dühöng	dühöngj dühöngjön dühöngsz dühöngés dühöngök dühöngött dühöngő
+82	8482	bőrű	bőrűek
+83	8483	laboratóriumi	
+84	8484	visszalép	visszalépek visszalépett visszalépni visszalépsz visszaléptek visszaléptem visszalépés visszalépünk
+85	8485	makulátlan	makulátlanok makulátlanul
+86	8486	hódító	hódítók
+87	8487	átka	átkának átkát átkától
+88	8488	optimális	
+89	8489	bomlik	bomlanak bomlani bomlott bomlás bomló
+90	8490	fejeződik	fejeződött
+91	8491	magánnyomozó	magánnyomozók magánnyomozóként magánnyomozónak magánnyomozót magánnyomozóval
+92	8492	kalapja	kalapjában kalapján kalapját
+93	8493	malom	malmot malomba malomban malomhoz malomnál
+94	8494	hasztalan	hasztalanul
+95	8495	sorsunk	sorsunkat sorsunkról
+96	8496	botrányos	
+97	8497	labirintus	labirintusba labirintusban labirintusból labirintuson labirintust labirintusában
+98	8498	íródik	íródott íródtak
+99	8499	levelező	
+100	8500	szarka	szarkák

@@ -1,0 +1,100 @@
+1	7101	járul	járuljon járulnak járulni járulok járult járultak járultam járulunk
+2	7102	szóbeli	
+3	7103	meditáció	meditációra meditációt meditációval
+4	7104	szépséges	
+5	7105	kétségtelen	
+6	7106	gyűrűje	gyűrűjében gyűrűjén gyűrűjének gyűrűjére gyűrűjét gyűrűjével
+7	7107	megnősül	megnősüljek megnősüljön megnősülni megnősülsz megnősült megnősültem megnősültél megnősülök
+8	7108	gólya	gólyaként gólyák gólyákat gólyának gólyát
+9	7109	összefogás	
+10	7110	boltja	boltjába boltjában boltjából boltját
+11	7111	racionális	racionálisak
+12	7112	apánk	apánkat apánkkal apánknak apánkról apánktól
+13	7113	építészet	építészetet építészetről
+14	7114	alvilág	alvilágba alvilágban alvilágból alvilággal alvilágnak alvilágot
+15	7115	milliomos	milliomosnak milliomosok milliomossal milliomossá milliomost
+16	7116	evőkanál	
+17	7117	tizennégy	
+18	7118	okunk	
+19	7119	akadémiai	
+20	7120	dalai	dalait
+21	7121	lottó	lottón lottót
+22	7122	működhet	működhetett
+23	7123	felnéz	felnézek felnézel felnézett felnézhet felnézhetnek felnéznek felnézni felnéztek felnéztem felnéztél felnéztünk felnézünk
+24	7124	elfogadása	elfogadására elfogadásáról elfogadását elfogadásával
+25	7125	plüss	
+26	7126	szuka	szukák szukának szukát szukával
+27	7127	építésű	
+28	7128	közvetett	közvetetten
+29	7129	fenség	fönség
+30	7130	párom	páromat párommal
+31	7131	rehabilitációs	
+32	7132	nyereség	nyereségből nyeresége nyereséget nyereséggel nyereségre
+33	7133	infrastruktúra	infrastruktúrát
+34	7134	gyerekük	gyereküket gyerekükkel gyereküknek
+35	7135	fan	fanok
+36	7136	értelmezése	értelmezésében értelmezését
+37	7137	kismama	kismamák kismamáknak
+38	7138	bányász	bányásznak bányászok bányászokat bányászoknak bányászt
+39	7139	kirándul	kirándulni kirándult kirándultam kirándultunk kirándulunk
+40	7140	előrejelzés	előrejelzése előrejelzések előrejelzéseket előrejelzést
+41	7141	lejátszik	lejátssza lejátsszuk lejátsszák lejátszani lejátszaná lejátszanád lejátszod lejátszom lejátszott lejátszotta lejátszottam lejátszottuk lejátszották lejátszva lejátszás
+42	7142	zúg	zúgjon zúgnak zúgni zúgok zúgott zúgtak zúgtam zúgtál zúgva zúgó
+43	7143	perel	perelek perelem perelhet pereli perelik perelj perelje pereljen pereljenek pereljük perelnek perelnem perelni perelnünk perelsz perelt perelte pereltek perelték perelünk
+44	7144	ezernyi	
+45	7145	utód	utóda utódok utódokat utódot
+46	7146	hírlevél	hírlevelet
+47	7147	elege	
+48	7148	válogat	válogassa válogasson válogathatok válogathatsz válogathatunk válogatja válogatják válogatnak válogatni válogatnod válogatnom válogatok válogatom válogatsz válogatta válogattak válogattam válogatunk válogató
+49	7149	hegyes	hegyesek
+50	7150	megmenekül	megmeneküljön megmenekülnek megmenekülni megmenekülsz megmenekült
+51	7151	figyelmed	figyelmedbe figyelmedet figyelmedre
+52	7152	irányul	irányulnak irányult irányultak
+53	7153	lélegzet	lélegzete lélegzetet lélegzethez lélegzett lélegzettel lélegzetét
+54	7154	atyja	atyjának atyját
+55	7155	tizenhárom	tizenhármat
+56	7156	megzavar	megzavarja megzavarni megzavarták
+57	7157	egyeztet	egyeztessen egyeztessenek egyeztessük egyeztessünk egyeztetek egyeztetett egyeztetjük egyeztetnek egyeztetnem egyeztetni egyeztetnie egyeztetnünk egyeztettem egyeztettél egyeztettük egyeztettünk egyeztetve egyeztetünk egyeztető
+58	7158	költsége	költségén költségére költségét
+59	7159	nagybácsi	nagybácsik nagybácsinak nagybácsit nagybácsival
+60	7160	törülköző	törölköző törülközők törülközőket törülközőt törülközővel
+61	7161	megun	megunhatatlan megunja megunják megunni megunod megunom megunt megunta meguntad meguntam megunták
+62	7162	habozik	habozna haboznak habozni haboznék habozok habozol haboztam haboztál habozz habozzanak habozzatok habozzon habozás
+63	7163	eurós	
+64	7164	ürge	ürgék ürgének ürgére ürgét ürgével
+65	7165	alapfokú	
+66	7166	bronzérmes	
+67	7167	videóklip	videoklip
+68	7168	dicséret	dicséretben dicséretet dicséretnek dicséretre dicsérettel
+69	7169	járda	járdán járdára járdáról járdát
+70	7170	alakzat	alakzatba alakzatban alakzatok alakzatokat alakzatot
+71	7171	szelíd	szelídebb szelídek szelíden szelídnek
+72	7172	egyenlet	egyenletbe egyenletben egyenletből egyenletek egyenleteket egyenletet egyenletnek egyenlettel
+73	7173	virágzó	
+74	7174	elhoz	elhozni elhozott elhozzam
+75	7175	hektár	hektáron hektárt
+76	7176	terapeuta	terapeutaként terapeutához terapeuták terapeutának terapeutára terapeutát terapeutával
+77	7177	nyeremény	nyereménnyel nyereményből nyeremények nyereményeket nyereményt nyereményért
+78	7178	összeállítás	összeállítása összeállításban összeállítást
+79	7179	hullaház	hullaházat hullaházba hullaházban hullaházból
+80	7180	hosszas	
+81	7181	halálbüntetés	halálbüntetésre halálbüntetésről halálbüntetéssel halálbüntetést
+82	7182	fogam	fogamat fogammal fogamon fogamra
+83	7183	fattyú	fattyak fattyúk fattyúnak fattyút fattyúval
+84	7184	gyülekezik	gyülekeznek gyülekeztek gyülekezzenek gyülekezzetek gyülekezés gyülekezünk gyülekező
+85	7185	szabadságharc	
+86	7186	számod	számodat számodra
+87	7187	stílusos	
+88	7188	vitéz	vitézek vitézül
+89	7189	útjuk	útjukat útjukba útjukban útjukon útjukra
+90	7190	viszonoz	viszonozhatnám viszonozhatom viszonozni viszonoznod viszonoznom viszonoznám viszonozta viszonoztad viszonoztam viszonozták viszonozza viszonozzam viszonozzuk viszonozzák viszonzod viszonzom viszonzott
+91	7191	lehangol	lehangolt lehangoló
+92	7192	kinti	kintiek
+93	7193	humoros	humorosnak
+94	7194	alkotmányos	
+95	7195	vonzódik	vonzódna vonzódnak vonzódni vonzódnék vonzódok vonzódott vonzódsz vonzódtak vonzódtam vonzódtál vonzódunk
+96	7196	kavar	kavarja kavarjon kavarok kavart kavartak kavarunk
+97	7197	szakáll	szakálla szakállal szakállt
+98	7198	szokványos	
+99	7199	előrelépés	előrelépést
+100	7200	honvédelmi	

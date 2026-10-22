@@ -1,0 +1,100 @@
+1	4501	eleme	elemében elemének elemét
+2	4502	bizarr	bizarrabb bizarrnak bizarrul legbizarrabb
+3	4503	elromlik	elromlanak elromlani elromlott elromlottak elromolhat elromolhatott
+4	4504	kényes	kényesebb kényesek legkényesebb
+5	4505	centi	centikre centinél centire centiről centit centivel
+6	4506	kopasz	kopasznak kopaszok kopaszon kopaszra kopaszt kopasztani
+7	4507	szomjas	szomjasak szomjasnak
+8	4508	közgyűlés	közgyűlése közgyűlésen közgyűlést közgyűlésének
+9	4509	matek	matekban matekból matekhoz matekkal matekon matekot matekra matekról
+10	4510	ujja	ujjába ujján ujjára ujjáról ujját ujjával
+11	4511	spirituális	
+12	4512	kisgyerek	kisgyerekek kisgyerekeket kisgyerekekkel kisgyerekeknek kisgyereket kisgyerekkel kisgyerekként kisgyereknek kisgyermek kisgyermekek kisgyermeket
+13	4513	ismeret	ismereteit ismeretek ismereteket ismeretekkel ismeretet
+14	4514	feláldoz	feláldozható feláldoznak feláldozni feláldoznia feláldoznom feláldozná feláldoznád feláldoznám feláldozod feláldozok feláldozol feláldozom feláldozott feláldozta feláldoztad feláldoztak feláldoztam feláldoztuk feláldoztunk feláldozták feláldoztál feláldozunk feláldozva feláldozza feláldozzam feláldozzuk feláldozás
+15	4515	zongora	zongorában zongorához zongorán zongorának zongoránál zongorára zongorát zongorával
+16	4516	hajlamos	hajlamosabb hajlamosak
+17	4517	jelölés	jelölése jelölések jelöléseket jelöléssel jelölést jelölését
+18	4518	statisztikai	
+19	4519	költészet	költészetet költészetről költészettel
+20	4520	villany	villannyal villanyokat villanyt
+21	4521	alkalmi	
+22	4522	öböl	öblön öblöt öbölbe öbölben öbölből öbölhöz öbölnél öbölre
+23	4523	élvezet	élvezetben élvezetből élvezetek élvezeteket élvezeteknek élvezetet élvezeti élvezetnek élvezetre élvezett élvezettel élvezetért
+24	4524	csokoládé	csokoládéból csokoládék csokoládét csokoládéval
+25	4525	tanító	tanítója tanítók tanítóm tanítónak tanítót
+26	4526	kerékpáros	kerékpárosok
+27	4527	kivált	kiváltani kiválthat kiválthatja kiválthatta kiváltja kiváltom kiváltott kiváltotta kiváltottam kiváltó
+28	4528	előad	előadható előadja előadjuk előadják előadnak előadni előadnom előadod előadok előadom előadott előadsz előadta előadtad előadtam előadtuk előadták előadtál előadunk előadva
+29	4529	fárasztó	fárasztóak fárasztóbb fárasztónak
+30	4530	szakad	szakadhat szakadjon szakadna szakadnak szakadni szakadnom szakadunk szakadva szakadó
+31	4531	gyártása	gyártásában gyártásához gyártásának gyártására gyártását gyártásával
+32	4532	generációs	
+33	4533	szervezése	szervezésében szervezésére szervezését szervezésével
+34	4534	izgul	izguljak izguljanak izguljatok izguljon izgulnak izgulni izgulnod izgulnom izgulok izgulsz izgult izgultam izgultok izgultunk izgultál izgulunk
+35	4535	rajongói	rajongóik rajongóinak rajongóit
+36	4536	demokrácia	demokráciában demokráciának demokráciára demokráciáról demokráciát demokráciáért
+37	4537	bevándorló	bevándorlók bevándorlókat bevándorlókkal bevándorlóknak bevándorlónak bevándorlót
+38	4538	évszak	évszakban évszakhoz évszaknak évszakok évszakot évszakra
+39	4539	tervezés	tervezésben tervezésnek tervezésre tervezésről tervezéssel tervezést
+40	4540	tanszék	tanszéken tanszéket tanszékre tanszékről
+41	4541	felvételi	felvételin felvételire felvételit
+42	4542	felszíne	felszínén felszínének felszínére felszínéről felszínét
+43	4543	ugyanígy	
+44	4544	kábítószer	kábítószerek kábítószereket kábítószerre kábítószerrel kábítószerről kábítószert
+45	4545	visszavonul	visszavonult visszavonultak
+46	4546	problémám	problémámat problémámmal problémámra problémámról
+47	4547	szakadt	szakadtak
+48	4548	lágy	lágya lágyabb lágyak
+49	4549	meghatározása	meghatározásában meghatározásához meghatározására meghatározásáról meghatározását
+50	4550	aránya	arányában arányát
+51	4551	szíriai	szíriaiak
+52	4552	mentes	mentesek mentesen
+53	4553	egészséged	egészségeddel egészségedet egészségednek egészségedre egészségedért
+54	4554	hívtalak	
+55	4555	hangszer	hangszerek hangszereken hangszereket hangszeren hangszert
+56	4556	kezük	kezükbe kezükben kezükből kezüket kezükkel kezükre kezükön
+57	4557	elmehet	elmehessek elmehetne elmehetünk
+58	4558	hétvégi	
+59	4559	százalékos	
+60	4560	túlélés	túlélésben túléléshez túlélésnek túlélésre túlélésről túléléssel túlélést túlélésért túléléséért
+61	4561	buddha	buddhához buddhának buddhát
+62	4562	aláírás	aláírások aláírásokat aláírásra aláírással aláírást
+63	4563	délutáni	
+64	4564	gyógyít	gyógyítanak gyógyítani gyógyítanom gyógyítasz gyógyíthat gyógyíthatja gyógyítja gyógyítjuk gyógyítják gyógyítod gyógyítok gyógyítom gyógyított gyógyította gyógyítottam gyógyítsa gyógyítsam gyógyítson gyógyítsuk gyógyítsák gyógyítunk
+65	4565	tudatos	tudatosan
+66	4566	információs	
+67	4567	fiók	fiókba fiókban fiókból fiókhoz fiókja fiókjából fiókját fiókok fiókokat fiókokban fiókot
+68	4568	kilencedik	kilencedikben kilencediken
+69	4569	öné	önében önéhez önére önét önével
+70	4570	szövet	szövetben szövetből szövete szövetek szövetekben szöveteket szöveten szövetet szövetnek szövettel
+71	4571	protokoll	protokollal protokollnak protokollok protokollokat protokollról protokollt
+72	4572	élelem	élelemből élelemhez élelemmel élelemre élelemért élelmet élelmük
+73	4573	kimerül	kimerülnek kimerülni kimerült kimerültek kimerültem kimerültél kimerültünk
+74	4574	verziója	verziójában verzióját verziójával
+75	4575	nyilvánít	nyilvánítalak nyilvánítanak nyilvánítani nyilvánítja nyilvánítjuk nyilvánítják nyilvánítom nyilvánított nyilvánította nyilvánítottak nyilvánítottam nyilvánították nyilvánítsa nyilvánítsák nyilvánítva
+76	4576	brutális	brutálisabb brutálisak legbrutálisabb
+77	4577	természete	természetében természetéből természetének természeténél természetére természetéről természetét természetével
+78	4578	benéz	benézek benézel benézett benézhetek benézhetnék benézhetnél benézhetnénk benézhetünk benéznek benézni benéznék benéznél benéztek benéztem benéztetek benéztél benéztünk benézzek benézünk
+79	4579	kukorica	kukoricából kukoricát kukoricával
+80	4580	kórus	kórusba kórusban kórusból kórushoz kórusnak kórussal kórust
+81	4581	utunk	utunkat utunkba utunkban utunkból utunkon utunkra utunkról
+82	4582	növényi	
+83	4583	mondás	mondást
+84	4584	szembenéz	szembenézek szembenézel szembenézett szembenézned szembenéznek szembenéznem szembenézni szembenéznie szembenézniük szembenéznünk szembenéztek szembenéztem szembenéztél szembenéztünk szembenézve szembenézzek szembenézzen szembenézzenek szembenézzünk szembenézünk
+85	4585	amolyan	
+86	4586	elmaradt	elmaradtak elmaradtam
+87	4587	feldolgozás	feldolgozásokat feldolgozásra feldolgozást
+88	4588	kimutat	kimutassa kimutassam kimutassuk kimutathatatlan kimutatja kimutatjuk kimutatják kimutatni kimutatod kimutatom kimutatott kimutatta kimutattad kimutattam kimutatták
+89	4589	népszerűség	népszerűsége népszerűséget népszerűségnek népszerűségre népszerűségét
+90	4590	előírás	előírása előírásnak előírások előírásokat előírásokkal előírásoknak előírást
+91	4591	kitüntetés	kitüntetésben kitüntetések kitüntetéseket kitüntetésekkel kitüntetésre kitüntetéssel kitüntetést
+92	4592	zacskó	zacskóba zacskóban zacskóból zacskók zacskókat zacskóra zacskót zacskóval
+93	4593	látszólag	
+94	4594	elemei	elemeinek elemeire elemeit
+95	4595	letölthető	
+96	4596	előtér	előteret előterében előtérbe előtérben
+97	4597	mennyország	mennyországba mennyországban mennyországból mennyországnak mennyországot mennyországra
+98	4598	koktél	koktéllal koktélok koktélokat koktélokkal koktélra koktélt
+99	4599	megtehet	megteheti megtehetjük megtehették
+100	4600	becsap	becsaphat becsaphatod becsaphatsz becsapja becsapjanak becsapjon becsapjuk becsapják becsapnak becsapni becsapod becsapom becsapott becsapsz becsapta becsaptad becsaptak becsaptalak becsaptam becsaptatok becsaptuk becsapták becsaptál becsapva becsapás

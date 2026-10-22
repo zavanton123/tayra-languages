@@ -1,0 +1,100 @@
+1	3001	jellemez	jellemezhető jellemezni jellemezné jellemeznéd jellemezném jellemezte jellemezték jellemzett jellemzi jellemzik
+2	3002	szándékosan	
+3	3003	évfordulója	évfordulóján évfordulójának évfordulójára évfordulóját
+4	3004	kívüli	kívüliek
+5	3005	kedvezmény	kedvezménnyel kedvezmények kedvezményeket kedvezményt
+6	3006	keret	keretbe keretben keretből keretek kereteken kereteket keretet kerettel
+7	3007	hűha	
+8	3008	meghatározó	legmeghatározóbb
+9	3009	csalódás	csalódások csalódásra csalódással csalódást csalódástól
+10	3010	ősz	őszig őszre őszt ősztől őszén
+11	3011	piszkos	piszkosabb piszkosak piszkosnak piszkosul
+12	3012	vásárlás	vásárlása vásárlásban vásárlásból vásárláshoz vásárlások vásárlásra vásárlásról vásárlással vásárlást vásárlására
+13	3013	kampány	kampánnyal kampányba kampányban kampányból kampányhoz kampánynak kampányok kampányon kampányra kampányról kampányt kampányát
+14	3014	szabályai	szabályaik szabályainak szabályaira szabályairól szabályait szabályaival
+15	3015	megnyit	megnyissa megnyissam megnyissuk megnyissák megnyitja megnyitjuk megnyitják megnyitni megnyitod megnyitom megnyitott megnyitotta megnyitottad megnyitottak megnyitottam megnyitottuk megnyitottunk megnyitották megnyitunk megnyitva
+16	3016	fölé	fölébe föléd föléjük fölém fölénk fölét
+17	3017	otthoni	otthoniak otthoniaknak
+18	3018	megijed	megijedek megijedjen megijedne megijedned megijednek megijedni megijednék megijedsz megijedt megijedtek megijedtem megijedtetek megijedtél megijedtünk megijedve megijedünk megijeszt megijesztette
+19	3019	csalás	csalásba csalásban csaláshoz csalásnak csalások csalásokat csaláson csalásra csalásról csalással csalást csalásért
+20	3020	oroszlán	oroszlánban oroszlánként oroszlánnak oroszlánnal oroszlánok oroszlánokat oroszlánokkal oroszlánoknak oroszlánra oroszlánt oroszláné
+21	3021	mozgalom	mozgalmak mozgalmat mozgalomba mozgalomban mozgalomhoz mozgalommal mozgalomnak mozgalomról
+22	3022	hangos	hangosabb hangosak hangosat hangosnak hangosra leghangosabb
+23	3023	jóképű	jóképűbb jóképűek jóképűnek legjóképűbb
+24	3024	problémája	problémáján problémájának problémájára problémájáról problémáját problémájával
+25	3025	tavasz	tavaszig tavasznak tavaszon tavaszra tavaszt tavasztól
+26	3026	nehézség	nehézségbe nehézsége nehézségei nehézségeim nehézségeink nehézségek nehézségekbe nehézségeken nehézségeket nehézségekkel nehézségen nehézséget nehézséggel
+27	3027	egyforma	egyformák egyformán egyformának
+28	3028	ameddig	
+29	3029	ünnepi	
+30	3030	feltűnik	feltűnt
+31	3031	háborús	
+32	3032	úti	
+33	3033	hetes	hetesek hetesen hetesnek hetesre hetest
+34	3034	tisza	tiszán
+35	3035	fordított	fordítottak fordítottam
+36	3036	vizsgálata	vizsgálatához vizsgálatának vizsgálatára vizsgálatáról vizsgálatát vizsgálatával
+37	3037	hivatkozik	hivatkozhat hivatkozhatunk hivatkoznak hivatkozni hivatkozol hivatkozott hivatkoztak hivatkoztam hivatkozunk hivatkozva hivatkozzon
+38	3038	őrizet	őrizetbe őrizetben őrizetből őrizetet
+39	3039	fejlesztési	
+40	3040	vereség	vereségbe veresége vereséget vereséggel vereségre vereségről vereségtől vereségét
+41	3041	köszönt	köszönte köszöntelek köszöntenek köszönteni köszönthetem köszönthetjük köszönthetünk köszönti köszöntik köszöntjük köszöntse köszöntsem köszöntsék köszöntsétek köszöntsük köszöntél köszöntök köszöntöm köszöntött köszöntötte köszöntünk köszöntő
+42	3042	űr	űrbe űrben űrből űrnek űrről űrt űrön
+43	3043	hatodik	hatodikat hatodikban hatodikon hatodikra
+44	3044	robbant	robbantak robbantanak robbantani robbantanom robbantanunk robbantasz robbanthat robbantja robbantjuk robbantják robbantod robbantok robbantom robbantott robbantotta robbantottad robbantottak robbantottam robbantottuk robbantották robbantottál robbantsa robbantsam robbantson robbantsuk robbantsunk robbantsák robbantsátok robbantunk robbantó
+45	3045	harag	haragban haragból haraggal haragja haragjuk haragjának haragját haragjától haragnak haragot haragra haragtól
+46	3046	elkészít	elkészíted elkészítek elkészítem elkészítenem elkészíteni elkészített elkészítette elkészítetted elkészítettem elkészítették elkészítettük elkészíthetem elkészíthető elkészíti elkészítik elkészítjük elkészítse elkészítsem elkészítsék elkészítve
+47	3047	seriff	seriffel seriffet seriffhez seriffnek seriffnél seriffre serifftől
+48	3048	csókol	csókolhatlak csókolj csókolja csókoljalak csókoljam csókoljon csókoljuk csókolják csókoljátok csókollak csókolnak csókolni csókolnia csókolnod csókolnom csókolnám csókolod csókolok csókolom csókolsz csókolt csókolta csókoltad csókoltak csókoltalak csókoltam csókoltál
+49	3049	harci	
+50	3050	rabol	rabolhatta rabolhatták rabolja raboljam raboljanak raboljon raboljuk raboljunk rabolják raboljátok rabolna rabolnak rabolni rabolnom rabolnunk rabolná rabolnám rabolnék rabolod rabolok rabolom rabolsz rabolt rabolta raboltad raboltak raboltam raboltatok raboltuk raboltunk rabolták raboltál raboltátok rabolunk rabolva
+51	3051	kalap	kalapba kalapban kalapból kalapok kalapokat kalapot kalappal kalapra
+52	3052	tipikus	
+53	3053	irányítása	irányításában irányításához irányításának irányítására irányításáról irányítását irányításával irányításáért
+54	3054	közepes	közepesen
+55	3055	sarka	sarkába sarkában sarkából sarkához sarkán sarkánál sarkára sarkáról sarkát
+56	3056	mészáros	mészárosnak mészárosok mészárost
+57	3057	regionális	
+58	3058	tészta	tésztába tésztában tésztából tésztához tészták tésztára tésztát tésztával
+59	3059	bizalom	bizalmat bizalmon bizalommal bizalomnak bizalomra bizalomról
+60	3060	eltér	eltérnek eltérni eltérsz eltért eltértek eltértem eltértél eltértünk eltérés eltérések eltéréseket eltéréssel eltérést eltérít eltéríteni eltérünk
+61	3061	végleg	
+62	3062	fogy	fogyhatott fogyj fogyjon fogyna fogynak fogyni fogynia fogynod fogynom fogyok fogyott fogysz fogytak fogytam fogytunk fogytál fogyunk fogyó fogyóban
+63	3063	öngyilkosság	öngyilkosságba öngyilkosságban öngyilkossággal öngyilkossághoz öngyilkosságként öngyilkosságnak öngyilkosságnál öngyilkosságok öngyilkosságon öngyilkosságot öngyilkosságra öngyilkosságról öngyilkosságáról
+64	3064	kortárs	kortársak
+65	3065	fellép	fellépek fellépett felléphet felléphetek fellépjen fellépnek fellépni fellépnünk fellépsz felléptek felléptem felléptél felléptünk fellépünk fellépő
+66	3066	ráz	rázd ráznak rázni ráznia ráznod ráznom ráznunk ráznék rázod rázok rázol rázom rázott rázta ráztad ráztak ráztam ráztuk ráztunk rázták ráztál rázunk rázva rázz rázza rázzad rázzak rázzam rázzanak rázzatok rázzon rázzuk rázzunk rázzák rázzátok
+67	3067	hűtő	hűtőbe hűtőben hűtőből hűtőhöz hűtőn hűtőnek hűtőre hűtőt hűtővel
+68	3068	kísér	kíséred kísérem kísérhetem kíséri kísérik kísérje kísérjem kísérjen kísérjenek kísérjék kísérjétek kísérjük kísérlek kísérne kísérned kísérnek kísérnem kísérni kísérnie kísérnünk kísérsz kísértetek kísértük kísérve
+69	3069	országa	országába országában országából országának országára országát országával országáért
+70	3070	időnként	
+71	3071	ebédel	ebédelek ebédelhetek ebédelhetnénk ebédelhetünk ebédeljek ebédeljen ebédeljünk ebédelne ebédelnek ebédelnem ebédelni ebédelnél ebédelnénk ebédelnünk ebédelsz ebédelt ebédeltek ebédeltem ebédeltetek ebédeltél ebédeltünk ebédelünk
+72	3072	latin	latinból latinok latint latinul
+73	3073	lovas	lovasnak lovasok lovasokat lovassal lovast
+74	3074	munkád	munkádat munkádba munkádban munkádból munkáddal munkádhoz munkádnak munkádra munkádról munkádtól munkádért
+75	3075	készítettem	
+76	3076	szigorúan	legszigorúbban szigorúbban
+77	3077	kommunikáció	kommunikációban kommunikációhoz kommunikációnak kommunikációra kommunikációról kommunikációt kommunikációval
+78	3078	szintje	szintjén szintjének szintjére szintjéről szintjét
+79	3079	legendás	legendásak
+80	3080	fertőzés	fertőzésben fertőzések fertőzéseket fertőzésekkel fertőzésnek fertőzésre fertőzésről fertőzéssel fertőzést fertőzéstől
+81	3081	állította	
+82	3082	kattint	kattints kattintson kattintva
+83	3083	délelőtt	délelőttre délelőttöt
+84	3084	azta	aszta
+85	3085	szendvics	szendviccsel szendvicsbe szendvicsben szendvicsből szendvicsek szendvicseket szendvicsekkel szendvicsen szendvicset szendvicshez szendvicsnek szendvicsre szendvicsről szendvicsért
+86	3086	énekes	énekesek énekeseket énekesként énekesnek énekesre énekessel énekest
+87	3087	megjelenés	megjelenések megjelenésre megjelenéssel megjelenést megjelenésük
+88	3088	kudarc	kudarcba kudarccal kudarcként kudarcnak kudarcok kudarcot kudarcra kudarcról kudarctól
+89	3089	náci	nácik nácikat nácikkal náciknak nácikról náciktól nácinak nácit
+90	3090	napod	napodat napodon napodra napodról
+91	3091	sürgős	legsürgősebb sürgősebb sürgősnek
+92	3092	rettenetes	rettenetesek rettenetesen retteneteset
+93	3093	lelkem	lelkembe lelkemben lelkemből lelkemen lelkemet lelkemmel lelkemnek lelkemre lelkemért
+94	3094	mesterséges	mesterségesen
+95	3095	szakasza	szakaszába szakaszában szakaszából szakaszához szakaszán szakaszának szakaszára szakaszát
+96	3096	köztársaság	köztársaságba köztársaságban köztársaságból köztársasággal köztársaságnak köztársaságot köztársaságra köztársaságért
+97	3097	anyaga	anyagába anyagában anyagából anyagához anyagának anyagát anyagával
+98	3098	gróf	gróffal grófhoz grófnak grófot gróftól
+99	3099	hetedik	hetedikben hetediken hetediket
+100	3100	bekerül	bekerülhessen bekerülhet bekerülhetek bekerülhetsz bekerüljek bekerüljenek bekerüljön bekerüljünk bekerülne bekerülnek bekerülni bekerülsz bekerült bekerültek bekerültem bekerültél bekerültünk bekerülök bekerülünk

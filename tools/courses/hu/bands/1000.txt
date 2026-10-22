@@ -1,0 +1,100 @@
+1	901	befejez	befejezed befejezek befejezem befejezhesse befejezhessem befejezhessük befejezheted befejezhetem befejezheti befejezhetjük befejezhetnéd befejezhetném befejezhetnénk befejezhette befejezi befejezik befejezitek befejezned befejeznem befejezni befejeznie befejezné befejeznéd befejeznék befejezném befejeznénk befejeznétek befejeznünk befejezte befejezted befejeztem befejezték befejeztétek befejeztük befejezve befejezze befejezzem befejezzék befejezzük befejező
+2	902	ketten	
+3	903	bejön	begyere bejöhessen bejöhet bejöhetek bejöhetett bejöhetne bejöhetnek bejöhetnék bejöhetnél bejöhetnénk bejöhettek bejöhetünk bejöjjek bejöjjenek bejöjjön bejönne bejönnek bejönni bejönnie bejönnék bejönnél bejönnének bejönnétek bejönnöd bejönnöm bejössz bejött bejöttek bejöttem bejöttetek bejöttél bejöttök bejöttünk bejövök bejövünk bejövő
+4	904	február	februárban
+5	905	iroda	irodába irodában irodából irodához irodák irodákat irodákba irodákban irodán irodának irodánál irodára irodáról irodát irodától irodával irodáért
+6	906	hazai	hazaiak
+7	907	onnan	onnét
+8	908	kint	kijjebb
+9	909	társaság	társaságba társaságban társaságból társasággal társasághoz társaságnak társaságnál társaságok társaságokat társaságoknak társaságot társaságra társaságról társaságtól társaságért
+10	910	kedvenc	kedvencek kedvenceket kedvenceknek kedvencet kedvencnek legkedvencebb
+11	911	sőt	
+12	912	mell	mellbe mellben mellek melleket mellekkel mellekre mellekről mellel mellen mellet mellre melly mellé
+13	913	szex	szexbe szexben szexből szexen szexet szexhez szexnek szexnél szexre szexről szexszel szextől szexért
+14	914	véd	védd véded védek védem védened védenek védenem védeni védenie védeniük védené védenünk védesz védhet védheted védhetem védheti védhetjük védi védik véditek védj védje védjem védjen védjenek védjék védjétek védjük védte védted védtek védtem védték védtél védtük védve védés védünk
+15	915	május	májusban májustól
+16	916	azaz	
+17	917	forma	forman formába formában formából formájuk formájukat formák formákat formákban formán formának formára formát formával
+18	918	kölyök	kölykök kölykökből kölyköket kölykökhöz kölykökkel kölyköknek kölykökre kölykökről kölyköktől kölyköm kölykön kölyköt kölyökbe kölyökben kölyökből kölyökhöz kölyökkel kölyökként kölyöknek kölyöknél kölyökre kölyökről kölyöktől kölyöké kölyökért kölök
+19	919	bízik	bízhat bízhatnak bízhatnánk bízhatnék bízhatok bízhattok bízhatunk bíznak bíznia bízniuk bíznotok bíznunk bíznának bíznánk bíznék bízok bízott bíztak bíztatok bíztok bíztunk bízták bízunk bízva bízz bízzanak bízzatok bízzunk bízzák
+20	920	használt	használtak használtat
+21	921	elnöke	elnökeként elnökéhez elnökének elnökére elnökéről elnökét elnökétől elnökével elnökévé
+22	922	rohadt	rohadtak
+23	923	továbbra	
+24	924	fest	fesd fess fesse fessek fessem fessen fessük fested festek festem festene festenek festeni festenék festesz festetek festett festette festetted festettek festettem festették festettél festettük festettünk festi festik festjük festve festés festésre festéssel festést festünk festő festők festőnek festőt festővel
+25	925	súlyos	legsúlyosabb súlyosabb súlyosak súlyosan súlyosat súlyosnak
+26	926	mer	merd mered meredt merek merem meri merik meritek merj merje merjek merjem merjen merjenek merjetek merjétek merjük merne mernek merni merné mernéd mernék mernél merném mernének mersz merte merted mertek mertem mertetek merték mertél mertük mertünk merünk merő merőben
+27	927	bánt	bántalak bántana bántanak bántani bántaná bántanálak bántanám bántasz bánthat bánthatja bánthatnak bánthatsz bántja bántjuk bántják bántod bántok bántom bántott bántotta bántottad bántottak bántottalak bántottam bántották bántottál bánts bántsa bántsalak bántsam bántsanak bántsatok bántsd bántson bántsák bántsátok bántunk bántál bántó
+28	928	asszony	asszonnyal asszonnyá asszonya asszonyai asszonyhoz asszonyként asszonynak asszonynál asszonyok asszonyokat asszonyokkal asszonyoknak asszonyra asszonyról asszonyt asszonytól asszonyé asszonyért
+29	929	nyomozó	nyomozóhoz nyomozók nyomozókat nyomozókkal nyomozóknak nyomozóként nyomozónak nyomozónál nyomozóra nyomozóról nyomozót nyomozótól nyomozóval nyomozóvá nyomozóé
+30	930	szuper	legszuperebb szuperek szupernek szupert szuperül
+31	931	meccs	meccsbe meccsben meccsből meccsek meccseken meccseket meccsekre meccsel meccsen meccset meccshez meccsig meccsnek meccsre meccsről meccstől meccsért
+32	932	lop	lophatta lopj lopja lopjak lopjanak lopjon lopjuk lopjunk lopják lopna lopnak lopni lopnod lopnom lopnunk lopná lopod lopok lopom lopott lopsz lopta loptad loptak loptam loptuk loptunk lopták loptál lopunk lopva lopás lopásnak lopások lopásra lopásról lopással lopást lopásért
+33	933	csoda	csodába csodában csodához csodák csodákat csodákban csodákkal csodákra csodákról csodának csodára csodáról csodát csodával csodáért csuda csudát
+34	934	kibaszott	
+35	935	központ	központba központban központból központhoz központnak központnál központok központokat központokban központon központot központra központról központtal központtá központtól
+36	936	felnőtt	felnőttebb felnőttek felnőtteket felnőttekkel felnőtteknek felnőtteknél felnőttekre felnőttel felnőttet felnőttként felnőttnek felnőttre felnőtté
+37	937	méter	méteren méterig méternél méterre méterrel méterről métert
+38	938	bank	bankba bankban bankból bankhoz bankkal banknak banknál bankok bankokat bankokba bankokban bankokkal bankoknak bankoktól bankon bankot bankra bankról banktól banké
+39	939	kíváncsi	kíváncsiak kíváncsibb kíváncsinak kíváncsivá
+40	940	bíróság	bíróságba bírósággal bírósághoz bíróságig bíróságnak bíróságnál bíróságok bíróságokon bíróságon bíróságot bíróságra bíróságról bíróságtól
+41	941	idióta	idiótaként idiótához idióták idiótákat idiótákkal idiótáknak idiótákra idiótáktól idiótán idiótának idiótára idiótát idiótától idiótával idiótává
+42	942	zsidó	zsidóhoz zsidók zsidókat zsidókkal zsidóknak zsidóknál zsidókra zsidókról zsidóktól zsidóként zsidónak zsidót zsidótól zsidóval
+43	943	lehetetlen	lehetetlenek lehetetlennek lehetetlennel lehetetlenné lehetetlenre lehetetlent lehetetlenül
+44	944	megkérdez	megkérdezed megkérdezek megkérdezel megkérdezem megkérdezheted megkérdezhetem megkérdezheti megkérdezhetik megkérdezhetjük megkérdezhetné megkérdezhetnéd megkérdezhetném megkérdezhetnénk megkérdezi megkérdezik megkérdezlek megkérdezned megkérdeznek megkérdeznem megkérdezni megkérdeznie megkérdezné megkérdeznéd megkérdeznék megkérdeznél megkérdezném megkérdeznénk megkérdeznünk megkérdezte megkérdezted megkérdeztek megkérdeztelek megkérdeztem megkérdezték megkérdeztél megkérdeztük megkérdezze megkérdezzem megkérdezzük
+45	945	gazdasági	
+46	946	szél	szelek szeleket szelet szeletek szeleteket szeletekre szeletet szelettel szélbe szélben széleit szélek széleken széleket szélen szélhez széllel szélnek szélre szélről széltől
+47	947	szörnyű	legszörnyűbb szörnyűbb szörnyűek szörnyűnek szörnyűt
+48	948	pokol	poklok poklon poklot pokolba pokolban pokolból pokolhoz pokolig pokollal pokollá pokolnak pokolnál pokolra pokolról pokolt pokoltól pokolért
+49	949	napi	
+50	950	politikai	
+51	951	frank	frankkal franknak frankot franké frankért
+52	952	győz	győzd győzhet győzheted győzhetek győzheti győzhetjük győzhetnek győzhetsz győzhetünk győzi győzne győznek győzni győznie győznöd győznöm győznünk győzte győzted győztek győztem győztetek győzték győztél győztük győztünk győzz győzze győzzem győzzön győzzük győzzünk győzöd győzök győzöl győzöm győzött győzünk győző
+53	953	mindketten	
+54	954	mozgás	mozgásba mozgásban mozgáshoz mozgásnak mozgások mozgásokat mozgásra mozgással mozgást mozgásuk
+55	955	gonosz	gonosszal gonosszá gonoszabb gonoszak gonoszat gonoszban gonosznak gonoszok gonoszokat gonoszoknak gonoszra gonoszról gonoszt gonosztól gonoszul leggonoszabb
+56	956	híres	híresebb híresek híresen híresnek híressé leghíresebb
+57	957	asztal	asztalba asztalban asztalhoz asztallal asztalnak asztalnál asztalok asztalokat asztalokhoz asztalokkal asztaloknál asztalokon asztalokra asztalon asztalra asztalról asztalt asztaltól asztalért
+58	958	fájdalom	fájdalma fájdalmai fájdalmak fájdalmakat fájdalmakkal fájdalmakra fájdalmaktól fájdalmat fájdalmon fájdalomba fájdalomban fájdalomból fájdalomhoz fájdalommal fájdalomnak fájdalomra fájdalomról fájdalomtól fájdalomért
+59	959	falu	faluba faluban faluból faluhoz faluig faluk falukat falun falunak falunál falura faluról falut falutól faluval faluért falvak falvakat falvakba falvakban falvakból
+60	960	választás	választásban választáshoz választásig választáskor választásnak választások választásokat választásokig választásokkal választásokon választásokra választásokról választáson választásra választásról választással választást választásuk
+61	961	szín	színben színből színek színekbe színekben színeket színekkel színekre színekről színen színnek színnel színre színről színt színük
+62	962	közeli	közelebbi közelebbit közeliek közelinek közelit legközelebbi
+63	963	állapot	állapotba állapotban állapotból állapothoz állapotnak állapotok állapotokat állapotot állapotra állapotról állapottal állapotuk
+64	964	alábbi	alábbiak alábbiakat alábbiakban
+65	965	kellemes	kellemesebb kellemesebben kellemesek kellemesen kellemeset kellemesnek kellemessé legkellemesebb
+66	966	szemét	legszemetebb szemete szemetek szemetekbe szemetekben szemeteket szemetekkel szemeteknek szemetet szemétbe szemétben szemétből szeméthez szemétként szemétnek szemétre szemétről szeméttel szeméttől szemétért
+67	967	nyugodtan	nyugodtabban
+68	968	betegség	betegségbe betegségben betegségből betegségek betegségekben betegségeket betegségekkel betegségeknek betegségekre betegségekről betegségektől betegségen betegséget betegséggel betegséghez betegségnek betegségnél betegségre betegségről betegségtől
+69	969	tény	ténnyel tényből tények tényekben tényekből tényeken tényeket tényekhez tényekkel tényeknek tényeknél tényekre tényekről tényen tényhez tényként ténynek tényre tényről tényt ténytől
+70	970	eszköz	eszközeink eszközhöz eszközként eszköznek eszközre eszközről eszközt eszközzel eszközök eszközökben eszközöket eszközökhöz eszközökkel eszközöknek eszközökre eszközökről eszközön
+71	971	megold	megoldana megoldandó megoldani megoldania megoldaniuk megoldanod megoldanom megoldanotok megoldanunk megoldaná megoldanám megoldanánk megoldasz megoldhatja megoldhatjuk megoldhatná megoldhatnánk megoldhatom megoldja megoldjam megoldjon megoldjuk megoldják megoldjátok megoldod megoldok megoldom megoldott megoldotta megoldottad megoldottam megoldottuk megoldottunk megoldották megoldottál megoldottátok megoldunk megoldva megoldó
+72	972	délután	délutánig délutánján délutánok délutánokat délutánon délutánonként délutánra délutánról délutánt délutántól
+73	973	újság	újságba újságban újságból újsággal újsághoz újságnak újságnál újságok újságokat újságokba újságokban újságokból újságokhoz újságokkal újságoknak újságon újságot újságra újságról újságtól újságért
+74	974	amilyen	amilyenbe amilyenben amilyenek amilyeneket amilyenekkel amilyennek amilyennel amilyenné amilyenre amilyenről amilyent amilyet
+75	975	ügyvéd	ügyvéddel ügyvéddé ügyvédei ügyvédek ügyvédeket ügyvédekkel ügyvédeknek ügyvédekre ügyvédekről ügyvédektől ügyvédet ügyvédhez ügyvédje ügyvédként ügyvédnek ügyvédnél ügyvédre ügyvédről ügyvédtől
+76	976	gyenge	gyengébb gyengébben gyengéit gyengék gyengéket gyengékkel gyengéknek gyengén gyengének gyengét gyengévé gyönge gyöngéd leggyengébb
+77	977	élvez	élvezed élvezek élvezel élvezem élvezheted élvezhetem élvezheti élvezhetik élvezhetjük élvezhetnénk élvezhető élvezi élvezik élvezitek élvezned élveznek élveznem élvezni élveznie élvezné élveznéd élveznék élvezném élveznénk élveznünk élvezted élveztem élvezték élveztél élveztétek élveztük élvezve élvezze élvezzem élvezzék élvezzétek élvezzük élvezünk élvező
+78	978	zsaru	zsaruba zsaruban zsaruhoz zsaruk zsarukat zsarukban zsarukhoz zsarukkal zsaruknak zsaruknál zsarukra zsarukról zsaruktól zsaruként zsarunak zsarunál zsarura zsaruról zsarut zsarutól zsaruval
+79	979	mégsem	mégse
+80	980	tanít	tanítana tanítanak tanítani tanítanál tanítanék tanítasz taníthat taníthatna taníthatnál taníthatnék taníthatok taníthatsz tanítja tanítjuk tanítják tanítod tanítok tanítom tanított tanította tanítottad tanítottak tanítottam tanítottuk tanítottunk tanították tanítottál taníts tanítsa tanítsak tanítsam tanítsd tanítson tanítsuk tanítsák tanítsátok taníttatni tanítunk tanítva
+81	981	veszély	veszéllyel veszélybe veszélyben veszélyből veszélyek veszélyeket veszélyekkel veszélyekre veszélyekről veszélyektől veszélyen veszélynek veszélyre veszélyről veszélyt veszélytől
+82	982	csodás	csodásabb csodásak csodásat csodásnak legcsodásabb
+83	983	felett	
+84	984	mostanában	
+85	985	éj	éjbe éjben éjen éjnek éjre éjt
+86	986	foglal	foglalja foglaljak foglaljam foglaljanak foglaljatok foglaljon foglaljuk foglaljunk foglalják foglaljátok foglalna foglalnak foglalni foglalnia foglalnod foglalnom foglalnunk foglalná foglalod foglalok foglalom foglalsz foglalta foglaltad foglaltak foglaltam foglaltuk foglaltunk foglalták foglaltál foglalunk foglalva foglalás foglalása foglalások foglalásokat foglalást foglaló foglalót
+87	987	ellene	ellened ellenem ellenetek ellenük ellenünk
+88	988	műsor	műsorba műsorban műsorból műsorhoz műsornak műsorok műsorokat műsorokban műsorom műsoron műsorra műsorral műsorról műsort műsorért
+89	989	al	alba alok alt alton
+90	990	anyu	anyuhoz anyunak anyunál anyura anyuról anyut anyutól anyuval anyué anyuért
+91	991	célja	céljából céljához céljának céljára céljáról célját céljától céljával
+92	992	vállal	vállalhatjuk vállalhatok vállalhatom vállalhatunk vállaljak vállaljam vállaljuk vállaljunk vállalják vállaljátok vállalna vállalnak vállalni vállalnia vállalniuk vállalnod vállalnom vállalnunk vállalná vállalnád vállalnál vállalnám vállalnék vállalod vállalok vállalom vállalsz vállalt vállalta vállaltad vállaltak vállaltam vállaltuk vállaltunk vállalták vállaltál vállalunk vállalva vállaló
+93	993	szerelmes	szerelmesek szerelmeseket szerelmeseknek szerelmesen szerelmesnek szerelmest
+94	994	szeme	szemébe szemében szeméből szeméhez szemén szemének szeménél szemére szeméről szemétől szemével
+95	995	hotel	hotelba hotelban hotelbe hotelben hotelból hotelből hotelek hotelekbe hotelekben hoteleket hotelen hotelhez hotelig hotellel hotelnek hotelnél hotelre hotelről hotelt hoteltől
+96	996	folyamatosan	
+97	997	rádió	rádióba rádióban rádióból rádióhoz rádiók rádiókat rádión rádiónak rádiónál rádióra rádióról rádiót rádiótól rádióval rádióért
+98	998	lel	leled lelek lelem lelhető leli leljen lelnek lelni lelsz lelt lelte leltek leltem leltél lelövi lelövik lelövöd lelövök lelövöm lelünk lelő lelője lelőjem lelőjenek lelőjék lelőjön lelőjük lelőlek lelőnek lelőni lelőném lelősz lelőtt lelőtte lelőtted lelőttek lelőttem lelőtték lelőttél
+99	999	utal	utalhat utalhatnak utalja utaljon utalják utalna utalnak utalni utalnom utalok utalom utalsz utalt utalta utaltak utaltam utalták utaltál utalunk utalva utalás utalások utalásokat utalásokkal utalást utaló
+100	1000	emel	emeled emelek emelem emelhet emelhetnek emelhetünk emeli emelik emelje emeljek emeljem emeljen emeljenek emeljék emeljétek emeljük emeljünk emelne emelned emelnek emelnem emelni emelnie emelné emelnék emelnünk emelsz emelt emelted emeltek emeltem emelték emeltél emeltük emeltünk emelve emelünk emelő emelőt

@@ -1,0 +1,100 @@
+1	801	háza	házába házában házából házához házáig házán házának házánál házára házáról házát házától házával
+2	802	zöld	zöldbe zöldben zölddel zölddé zöldebb zöldek zöldeket zöldet zöldnek zöldre
+3	803	buli	buliba buliban buliból bulihoz bulik bulikat bulikba bulikban bulikon bulikra bulikról bulin bulinak bulira buliról bulit bulitól bulival buliért
+4	804	üdv	
+5	805	mellette	melletted mellettem mellettetek mellettük mellettünk
+6	806	látható	láthatóak láthatók láthatóvá
+7	807	férje	férjeként férjében férjéhez férjén férjének férjénél férjére férjéről férjét férjétől férjével férjéé férjéért
+8	808	olasz	olasszal olasznak olaszok olaszokat olaszokkal olaszoknak olaszt olaszul
+9	809	vet	vesd vess vesse vessek vessen vessenek vessetek vessék vessétek vessük vessünk veted vetek vetem vetett vetette vetetted vetettek vetettem vetették vetettél vethet vethetek vethetnék vethetsz vethetünk veti vetik vetjük vetne vetnek vetni vetnék vetnél vetsz vettek vetve vetünk vető
+10	810	tanács	tanáccsal tanácsba tanácsban tanácsból tanácshoz tanácsnak tanácsnál tanácsok tanácsokat tanácsokkal tanácsokra tanácson tanácsot tanácsra tanácsról tanácstól tanácsért
+11	811	területe	területéhez területén területének területére területéről területét területével
+12	812	válasz	válasszal válaszban válaszhoz válaszként válasznak válaszok válaszokat válaszokhoz válaszokkal válaszokra válaszokért válaszon válaszra választól válaszul válaszért
+13	813	old	oldana oldanak oldani oldania oldanod oldanom oldanotok oldanunk oldaná oldanánk oldasz oldd oldhatja oldhatjuk oldhatnánk oldj oldja oldjak oldjam oldjon oldjuk oldjunk oldják oldjátok oldod oldok oldom oldott oldotta oldottad oldottak oldottam oldottuk oldottunk oldották oldottál oldunk oldva
+14	814	ajánl	ajánlana ajánlanak ajánlani ajánlanom ajánlaná ajánlanál ajánlanám ajánlanék ajánlasz ajánld ajánlhat ajánlhatnék ajánlhatok ajánlhatom ajánlhatunk ajánlj ajánlja ajánljak ajánljam ajánljon ajánljuk ajánljunk ajánlják ajánlod ajánlok ajánlom ajánlottad ajánlottalak ajánlottam ajánlottunk ajánlották ajánlottál ajánlunk ajánlva ajánlás ajánlások ajánlásokat ajánlást ajánló
+15	815	étel	ételbe ételben ételből ételek ételekben ételekből ételeket ételekhez ételekkel ételekre ételekről ételen ételhez étellel ételnek ételre ételről ételt ételtől ételébe ételért
+16	816	japán	japánba japánban japánból japánnak japánnal japánok japánokat japánokkal japánoknak japánra japánt japánul
+17	817	belső	belsőt legbelső legbelsőbb
+18	818	sikeres	legsikeresebb sikeresebb sikeresek sikeresen sikeresnek sikeressé
+19	819	jel	jelek jelekben jelekből jeleket jelekkel jeleknek jelekre jelekről jelet jelhez jelként jellel jelnek jelnél jelre jelről jelt
+20	820	idegen	idegenbe idegenben idegenek idegenekben idegeneket idegenekhez idegenekkel idegeneknek idegenekre idegenekről idegenektől idegenhez idegenként idegennek idegennel idegenné idegenre idegenről idegent idegentől idegené idegenért
+21	821	esemény	eseménnyel eseményben események eseményekben eseményekből eseményeken eseményeket eseményekhez eseményekkel eseményeknek eseményekre eseményekről eseményektől eseményekért eseményen eseményhez eseménynek eseménynél eseményre eseményről eseményt
+22	822	érdemes	érdemesebb érdemesek érdemesnek
+23	823	utóbbi	utóbbiak utóbbiakat utóbbiban utóbbinak utóbbinál utóbbira utóbbit utóbbival
+24	824	támadás	támadása támadásai támadásba támadásban támadásból támadáshoz támadásig támadásként támadásnak támadásnál támadások támadásokat támadásokban támadásokhoz támadásokkal támadásoknak támadásokra támadásokról támadásoktól támadásokért támadásra támadásról támadással támadást támadástól támadásért
+25	825	természetes	legtermészetesebb természetesebb természetesek természetesnek
+26	826	elvész	elvegye elvegyem elvegyen elvegyék elveheted elvehetem elveheti elvehetik elvenned elvennem elvenni elvenné elvennéd elvennék elvenném elvesszük elvesz elveszed elveszek elveszel elveszem elveszi elveszik elveszlek elveszne elvesznek elveszni elvesznék elveszve elveszünk elvett elvette elvetted elvettek elvettem elvették elvettél elvettétek elvettük
+27	827	jelentkezik	jelentkezek jelentkezel jelentkezem jelentkezett jelentkezhetek jelentkezhetnek jelentkezhetsz jelentkezne jelentkezned jelentkeznek jelentkeznem jelentkezni jelentkeznie jelentkezniük jelentkeznék jelentkeznél jelentkeznünk jelentkeztek jelentkeztem jelentkeztetek jelentkeztél jelentkeztünk jelentkezve jelentkezzem jelentkezzenek jelentkezzetek jelentkezzünk jelentkezünk jelentkező jelentkezők jelentkezőket jelentkezőre jelentkezőt
+28	828	itthon	
+29	829	megjelent	megjelentek megjelentem megjelentetek megjelentetett megjelentethető megjelenteti megjelentetni megjelentette megjelentél
+30	830	állami	államiak államiakat államiba államira államit
+31	831	bizony	bezony bizom
+32	832	elfogad	elfogadhatod elfogadja elfogadjam elfogadjanak elfogadjon elfogadjuk elfogadják elfogadjátok elfogadlak elfogadna elfogadnak elfogadni elfogadnod elfogadnom elfogadnunk elfogadná elfogadnád elfogadnák elfogadnál elfogadnám elfogadnának elfogadnék elfogadod elfogadok elfogadom elfogadsz elfogadta elfogadtad elfogadtak elfogadtam elfogadtatni elfogadtok elfogadtuk elfogadták elfogadtál elfogadtátok elfogadunk elfogadva elfogadó
+33	833	vacsora	vacsorába vacsorában vacsorából vacsorához vacsoráig vacsorák vacsorákat vacsorákon vacsorákra vacsorán vacsorának vacsoránál vacsorára vacsoráról vacsorát vacsorától vacsorával vacsoráért
+34	834	gazdag	gazdagabb gazdagabban gazdaggá gazdagnak gazdagok gazdagokat gazdagokkal gazdagoknak gazdagoktól gazdagon gazdagot leggazdagabb
+35	835	fejem	fejembe fejemben fejemből fejemen fejemet fejemhez fejemmel fejemnek fejemre fejemről
+36	836	bizonyíték	bizonyítékaik bizonyítékhoz bizonyítékkal bizonyítékként bizonyítéknak bizonyítékok bizonyítékokat bizonyítékokból bizonyítékokhoz bizonyítékokkal bizonyítékoknak bizonyítékokon bizonyítékokra bizonyítékokról bizonyítékoktól bizonyítékokért bizonyítékom bizonyítékon bizonyítékot bizonyítékra bizonyítékról bizonyítéktól bizonyítékul bizonyítékért
+37	837	messze	legmesszebb messzebb
+38	838	üt	üsd üss üsse üssek üssem üssenek üssetek üssék üssétek üssön üssük üssünk üthet üthetsz üti ütik ütjük ütne ütnek ütni ütsz ütve ütöd ütök ütöm ütött ütötted ütöttek ütöttem ütötték ütöttél ütöttük ütöttünk ütünk ütő ütők ütőket ütőt ütővel
+39	839	életed	életedbe életedben életedből életeddel életeden életedet életedhez életednek életednél életedre életedről életedtől életedért
+40	840	harc	harcba harcban harcból harccal harchoz harcnak harcok harcokat harcokban harcoknak harcokról harcon harcot harcra harcról harctól harcunk harcért
+41	841	téma	témába témában témából témához témák témákat témákban témákkal témákra témákról témán témának témánál témára témáról témát témától témával
+42	842	elhisz	elhiggye elhiggyem elhiggyék elhiggyük elhiheted elhiheti elhihetik elhihetitek elhinned elhinnem elhinni elhinnie elhinné elhinnéd elhinnék elhinném elhisszük elhiszed elhiszek elhiszel elhiszem elhiszi elhiszik elhiszitek elhisznek elhiteted elhiteti elhitetik elhitetjük elhitetni elhitette elhitetted elhitettem elhitették elhitte elhitted elhittem elhitték elhittük
+43	843	büszke	büszkébb büszkék büszkén büszkének büszkévé legbüszkébb
+44	844	nevem	nevemben nevemen nevemet nevemhez nevemmel nevemnek nevemre nevemről
+45	845	igazad	igazadat igazadért
+46	846	viszlát	
+47	847	szervezet	szervezetbe szervezetben szervezetből szervezetek szervezetekben szervezeteket szervezetekhez szervezetekkel szervezeteknek szervezeten szervezetet szervezethez szervezetként szervezetnek szervezetnél szervezetre szervezetről szervezettel szervezettől
+48	848	irányít	irányítanak irányítani irányítania irányítanod irányítanom irányítaná irányítasz irányíthat irányíthatatlan irányíthatja irányíthatjuk irányíthatod irányíthatom irányíthatsz irányítja irányítjuk irányítják irányítod irányítok irányítom irányított irányította irányítottad irányítottak irányítottam irányították irányíts irányítsa irányítsam irányítsanak irányítson irányítsuk irányítsák irányítunk irányítva irányítás irányításnak irányításra irányításról
+49	849	cikk	cikkbe cikkben cikkből cikkedet cikkei cikkek cikkeket cikkekkel cikkel cikkemben cikken cikket cikkhez cikknek cikkre cikkről cikkért
+50	850	szerencse	szerencsében szerencséből szerencséhez szerencséjük szerencsén szerencsének szerencsénk szerencséről szerencsét szerencsével szerencséért
+51	851	támogat	támogassa támogassalak támogassam támogassanak támogasson támogassuk támogassák támogassátok támogathatom támogatja támogatjuk támogatják támogatjátok támogatlak támogatna támogatnak támogatni támogatnia támogatnod támogatnom támogatnunk támogatná támogatnák támogatnál támogatnám támogatod támogatok támogatom támogatott támogatsz támogattad támogattak támogattalak támogattam támogattuk támogatták támogattál támogatunk támogatva
+52	852	szenved	szenvedek szenvedett szenvedhet szenvedhetett szenvedhetsz szenvedi szenvedjek szenvedjen szenvedjenek szenvedjünk szenvedne szenvedned szenvednek szenvednem szenvedni szenvednie szenvedniük szenvednék szenvednél szenvednének szenvednünk szenvedsz szenvedtek szenvedtem szenvedtetek szenvedtél szenvedtünk szenvedve szenvedünk szenvedő szenvedők szenvedőket szenvedőknek
+53	853	rég	legrégebben régebben
+54	854	egység	egységbe egységben egységből egységei egységek egységeket egységekkel egységeknek egységekre egységen egységet egységgel egységhez egységként egységnek egységnél egységre egységről egységtől
+55	855	biztonság	biztonságba biztonságban biztonságból biztonsággal biztonsághoz biztonságnak biztonságon biztonságot biztonságra biztonságról biztonságért
+56	856	nyári	
+57	857	halad	haladat haladhat haladhatnánk haladhatunk haladj haladja haladjak haladjanak haladjatok haladjon haladjunk haladjál haladna haladnak haladni haladnia haladniuk haladnod haladnom haladnunk haladnánk haladnék haladok haladsz haladt haladta haladtak haladtam haladtatok haladtok haladtunk haladtál haladva haladó haladóknak
+58	858	támad	támadhat támadhatatlan támadhatnak támadhatsz támadhatunk támadja támadjanak támadjatok támadjon támadjuk támadjunk támadják támadjátok támadna támadnak támadni támadnia támadnod támadnom támadnunk támadná támadnának támadod támadok támadom támadott támadsz támadt támadta támadtad támadtak támadtam támadtatok támadtok támadtuk támadtunk támadták támadtál támadunk
+59	859	lap	lapba lapban lapból laphoz lapjaikat lapjain lapnak lapnál lapok lapokat lapokba lapokban lapokból lapokkal lapoknak lapokon lapokra lapon lapot lappal lapra lapról laptól
+60	860	családja	családjába családjában családjából családjához családján családjának családjánál családjára családjáról családját családjától családjával családjáé családjáért
+61	861	mármint	
+62	862	bocsát	bocsájt bocsásd bocsáss bocsássa bocsássak bocsássam bocsássanak bocsássatok bocsásson bocsássuk bocsássunk bocsássák bocsássátok bocsátana bocsátanak bocsátani bocsátaná bocsátanám bocsátanék bocsátasz bocsáthat bocsátja bocsátjuk bocsátják bocsátod bocsátok bocsátom bocsátott bocsátotta bocsátottak bocsátottam bocsátották bocsátottál bocsátunk bocsátva
+63	863	könnyen	könnyebben legkönnyebben
+64	864	jog	jogaimat jogban jogból joggal joghoz jognak jogok jogokat jogokkal jogokra jogokról jogokért jogon jogot jogra jogról jogért
+65	865	kék	kékbe kékben kékebb kékek kéken kéket kékkel kékké kéknek kékre
+66	866	általános	legáltalánosabb általánosabb általánosba általánosban általánosból általánossá általánost
+67	867	szöveg	szövegbe szövegben szövegből szövegek szövegekben szövegeket szövegekkel szövegemet szövegen szöveget szöveggel szöveghez szövegnek szövegre szövegtől
+68	868	bent	beljebb bentebb
+69	869	megoldás	megoldásban megoldáshoz megoldásként megoldásnak megoldások megoldásokat megoldásokkal megoldáson megoldásra megoldásról megoldással megoldást
+70	870	nevű	nevűt
+71	871	utazik	utazhat utazhatnak utazhatnánk utazhatok utazhatott utazhatsz utazhatunk utazna utaznak utazni utaznia utazniuk utaznod utaznom utaznunk utaznál utaznánk utaznék utazol utazom utazott utaztak utaztam utaztatok utaztok utaztunk utaztál utazunk utazva utazz utazzanak utazzatok utazzon utazzunk utazó utazók utazókat utazóknak utazót
+72	872	emiatt	
+73	873	megye	megyébe megyében megyéből megyék megyékben megyén megyének megyére megyét megyétől megyével
+74	874	idén	
+75	875	bíró	bírák bírákat bíráknak bíróhoz bírók bírókat bírókkal bíróknak bíróként bírón bírónak bírónál bíróra bíróról bírót bírótól bíróval
+76	876	idős	idősebb idősek időseket idősekkel időseknek idősnek legidősebb
+77	877	feladat	feladataikat feladatban feladathoz feladatnak feladatnál feladatok feladatokat feladatokban feladatokkal feladatokra feladatokról feladaton feladatot feladatra feladatról feladattal feladattól feladatukat
+78	878	mű	műben műnek műt műtenek műteni műtenünk műti műtik műtjük műtök műtött műtötte műtöttek műtöttem műtötték művek műveket műveknek műveknél művektől művel műveled művelek művelem művelhet műveli művelik művelnek művelni művelsz művelte műveltem műveltetek művelték műveltél műveltünk művelés művelünk művet
+79	879	alakul	alakulhat alakulhatnak alakulhatott alakulhattak alakuljanak alakuljon alakulna alakulnak alakulni alakulnia alakulnának alakult alakultak alakuló alakulóban
+80	880	rögtön	
+81	881	ablak	ablakba ablakban ablakból ablakhoz ablakkal ablaknak ablaknál ablakok ablakokat ablakokhoz ablakokkal ablakokon ablakokra ablakokról ablakoktól ablakon ablakot ablakra ablakról ablaktól
+82	882	története	történetébe történetében történetéből történetéhez történetén történetének történetére történetéről történetét történetével
+83	883	lista	listába listában listából listához listák listákat listákon listán listának listára listáról listát listával
+84	884	csupán	
+85	885	határ	határhoz határig határnak határnál határok határokat határokkal határokon határokra határokról határon határra határról határt határtól
+86	886	fasz	fasszal faszba faszban faszból faszhoz fasznak faszok faszokat faszoknak faszra faszról faszt fasztól faszért
+87	887	normális	legnormálisabb normálisabb normálisak normálisat normálisnak normálisnál normálisra normálissá normálist normálistól
+88	888	érdeke	érdekében érdekét
+89	889	felvétel	felvételbe felvételben felvételből felvételeit felvételek felvételekből felvételeken felvételeket felvételekhez felvételekkel felvételekre felvételekről felvételen felvételhez felvétellel felvételnek felvételnél felvételre felvételről felvételt felvételért
+90	890	különösen	különösebben
+91	891	anyád	anyádat anyádba anyádban anyádból anyáddal anyádhoz anyádként anyádnak anyádnál anyádon anyádra anyádról anyádtól anyádé anyádért
+92	892	származik	származhat származhatnak származhatott származna származnak származni származnia származok származol származott származtak származtok származunk származzon származó
+93	893	bemutat	bemutassa bemutassak bemutassalak bemutassam bemutassuk bemutassák bemutathatlak bemutathatom bemutatja bemutatjuk bemutatják bemutatlak bemutatna bemutatnak bemutatni bemutatnod bemutatnom bemutatná bemutatnád bemutatnál bemutatnálak bemutatnám bemutatod bemutatok bemutatom bemutatott bemutatsz bemutatta bemutattad bemutattak bemutattalak bemutattam bemutattuk bemutatták bemutattál bemutatunk bemutatva bemutatás bemutatást
+94	894	dél	delet délben délen délig délnek délre délről délt déltől
+95	895	ritka	legritkább ritkább ritkábban ritkák ritkán
+96	896	gyilkosság	gyilkosságba gyilkosságban gyilkosságból gyilkossággal gyilkossághoz gyilkosságig gyilkosságként gyilkosságnak gyilkosságnál gyilkosságok gyilkosságokat gyilkosságokban gyilkosságokhoz gyilkosságokkal gyilkosságoknak gyilkosságoknál gyilkosságokon gyilkosságokra gyilkosságokról gyilkosságokért gyilkosságon gyilkosságot gyilkosságra gyilkosságról gyilkosságtól gyilkosságért
+97	897	jelentős	jelentősebb jelentősek jelentőset jelentősnek legjelentősebb
+98	898	követően	
+99	899	valódi	valódiak valódinak valódit valódivá
+100	900	kezel	kezeled kezelek kezelem kezelheted kezelhetem kezelheti kezelhetjük kezeli kezelik kezelitek kezelje kezeljem kezeljen kezeljenek kezeljék kezeljétek kezeljük kezellek kezelned kezelnek kezelnem kezelni kezelnie kezelné kezelnék kezelném kezelnünk kezelsz kezelt kezelte kezelted kezeltek kezeltelek kezeltem kezelték kezeltél kezeltük kezelve kezelünk

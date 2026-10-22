@@ -1,0 +1,100 @@
+1	3501	szakács	szakáccsal szakácsként szakácsnak szakácsok szakácsokat szakácsot szakácsra
+2	3502	globális	
+3	3503	tesztel	teszteled tesztelek tesztelem tesztelhetjük teszteli tesztelik tesztelje teszteljem teszteljen teszteljék teszteljük tesztelnek tesztelnem tesztelni tesztelnünk tesztelsz tesztelt tesztelte tesztelted teszteltek teszteltelek teszteltem tesztelték teszteltél teszteltük teszteltünk tesztelve tesztelünk tesztelő
+4	3504	árnyék	árnyékba árnyékban árnyékból árnyékkal árnyékként árnyéknak árnyékok árnyékokat árnyékokban árnyékot árnyékra
+5	3505	falusi	falusiak falusiakat falusiakkal falusiaknak falusit
+6	3506	gyermekei	gyermekeik gyermekeinek gyermekeire gyermekeit gyermekeivel gyermekeiért
+7	3507	olykor	
+8	3508	úriember	úriemberek úriembereket úriemberekkel úriembereknek úriemberhez úriemberként úriembernek úriemberre úriemberrel úriemberről úriembert úriembertől
+9	3509	belga	belgák
+10	3510	nagymama	nagymamához nagymamák nagymamának nagymamánál nagymamára nagymamát nagymamától nagymamával
+11	3511	klinika	klinikák klinikákat klinikán klinikának klinikánál klinikára klinikáról klinikát klinikával
+12	3512	helyezett	helyezettek helyezettje
+13	3513	holtan	
+14	3514	eltávolít	eltávolítanak eltávolítani eltávolítanunk eltávolíthatjuk eltávolítja eltávolítjuk eltávolítják eltávolítod eltávolítom eltávolított eltávolította eltávolítottak eltávolítottam eltávolítottuk eltávolítottunk eltávolították eltávolítsa eltávolítsam eltávolítsuk eltávolítsák eltávolítva eltávolító
+15	3515	bárhova	bárhová
+16	3516	saláta	salátába salátában salátához saláták salátán salátának salátára salátát salátával
+17	3517	lakó	lakók lakókat lakókkal lakóknak lakónak lakót lakóval
+18	3518	fogalmad	
+19	3519	izgat	izgassa izgasson izgatja izgatják izgatna izgatnak izgatni izgatná izgatod izgatom izgatsz izgatta izgatás izgató izgatóak izgatóbb izgatónak legizgatóbb
+20	3520	front	frontnak fronton frontot frontra frontról
+21	3521	vezeték	vezetékben vezetékek vezetékeken vezetékeket vezetékekkel vezetéken vezetéket vezetékhez vezetékkel vezetékre
+22	3522	nappali	nappaliba nappaliban nappaliból nappalin nappalit
+23	3523	ámen	áment
+24	3524	vasárnapi	
+25	3525	tulajdonság	tulajdonsággal tulajdonságok tulajdonságokat tulajdonságokkal tulajdonságot
+26	3526	elvileg	
+27	3527	odaér	odaérek odaérhet odaérhetünk odaérjek odaérjen odaérjünk odaérne odaérnek odaérnem odaérni odaérnénk odaérnünk odaérsz odaért odaértek odaértem odaértetek odaértél odaérünk
+28	3528	kérése	kérésének kérésére kérését kérésével
+29	3529	kizár	kizárhassuk kizárhatjuk kizárhatunk kizárja kizárjam kizárjanak kizárjuk kizárják kizárlak kizárnak kizárni kizárod kizárom kizársz kizárta kizártad kizártalak kizártam kizártuk kizártunk kizárták kizártál kizárunk kizárva
+30	3530	éle	élén élére éléről élét
+31	3531	eleve	
+32	3532	baráti	
+33	3533	határozott	határozottabb határozottak határozottnak
+34	3534	kerítés	kerítésbe kerítések kerítéseket kerítésen kerítéshez kerítésnek kerítésnél kerítésre kerítésről kerítéssel kerítést kerítéstől kerítésén
+35	3535	szak	szakok szakon szakot szakra szakról szaké szakét szakéval
+36	3536	figura	figurák figurákat figurákkal figurának figurát figurával
+37	3537	valóságos	valóságosabb valóságosak valóságosan valóságosnak valóságossá
+38	3538	benzin	benzinbe benzinből benzinnel benzinre benzint benzinért
+39	3539	maradvány	maradványa maradványai maradványait maradványok maradványokat maradványokból maradványokkal maradványokon maradványokra maradványt
+40	3540	alfa	alfák alfának alfát alfával
+41	3541	keresés	keresésbe keresésben kereséshez keresésnek keresésre keresésről kereséssel keresést
+42	3542	bátorság	bátorsággal bátorsággá bátorságnak bátorságot bátorságra bátorságról bátorságért
+43	3543	tavalyi	
+44	3544	megszokott	megszokottak megszokottnál megszokottá megszokottól
+45	3545	híre	hírében hírének hírére hírét hírével
+46	3546	szektor	szektorba szektorban szektorból szektornak szektorok szektoron szektorra szektort
+47	3547	pápai	
+48	3548	felmérés	felmérések felméréseket felmérésen felmérést
+49	3549	privát	privátban
+50	3550	foci	fociban focihoz focinak focira fociról focit focival fociért
+51	3551	bútor	bútorok bútorokat bútorokkal bútorokon bútorokra bútorra bútorral bútort
+52	3552	réteg	rétegben rétegből rétegei rétegek rétegeket réteget réteggel
+53	3553	költség	költségeinket költségek költségekbe költségeken költségeket költségekkel költségekre költségekről költségen költséget költséggel költségként
+54	3554	ugyancsak	
+55	3555	elismerés	elismerésben elismerések elismerésnek elismerésre elismeréssel elismerést elismerésért
+56	3556	gyermekkor	gyerekkor gyerekkorom gyerekkoromban gyermekkora gyermekkorban gyermekkorom gyermekkorunkban gyermekkorában gyermekkorát
+57	3557	kocsma	kocsmába kocsmában kocsmából kocsmájába kocsmák kocsmákat kocsmákban kocsmánál kocsmára kocsmát
+58	3558	levele	levelében leveléből levelének levelére leveléről levelét levelével
+59	3559	riporter	riportere riporterek riportereket riporterekkel riportereknek riporterként riporternek riporterrel riportert riportertől
+60	3560	minthogy	
+61	3561	tényező	tényezők tényezőket tényezőnek tényezőt
+62	3562	vonz	vonza vonzana vonzanak vonzani vonzaná vonzod vonzom vonzott vonzotta vonzottak vonzották vonzza vonzzuk vonzzák
+63	3563	csésze	csészébe csészében csészéből csészék csészéket csészére csészét csészével
+64	3564	nyugdíjas	nyugdíjasok nyugdíjasoknak
+65	3565	végrehajt	végrehajtandó végrehajtani végrehajtania végrehajtanom végrehajtanunk végrehajtható végrehajtja végrehajtjuk végrehajtják végrehajtod végrehajtom végrehajtott végrehajtotta végrehajtottam végrehajtottuk végrehajtották végrehajtsa végrehajtsam végrehajtsuk végrehajtsák végrehajtva
+66	3566	szövege	szövegében szövegének szövegére szövegét szövegével
+67	3567	hali	
+68	3568	összegyűlik	összegyűjt összegyűjteni összegyűjti összegyűjtik összegyűjtjük összegyűjtse összegyűjtsem összegyűjtve összegyűjtöd összegyűjtök összegyűjtöm összegyűjtött összegyűjtötte összegyűjtötted összegyűjtöttek összegyűjtöttem összegyűjtötték összegyűjtöttük összegyűjtöttünk összegyűjtünk összegyűlnek összegyűlni összegyűltek összegyűltünk összegyűlünk
+69	3569	akadály	akadállyal akadályba akadálynak akadálynál akadályok akadályokat akadályokba akadályokkal akadályokon akadályon akadályról akadályt
+70	3570	képességei	képességeiben képességeihez képességeik képességeinek képességeire képességeiről képességeit képességeivel
+71	3571	hull	hullana hullani hullat hullik hulljanak hulljon hullnak hullok hullott hullottak hullt hulltak hullunk hullva hullánk hulló
+72	3572	üzemanyag	üzemanyagból üzemanyaggal üzemanyagok üzemanyagot üzemanyagra üzemanyagért
+73	3573	tanácsa	tanácsában tanácsának tanácsára tanácsát tanácsával
+74	3574	bőre	bőrébe bőrében bőréből bőréhez bőrén bőrének bőrére bőrét bőrével
+75	3575	szemtanú	szemtanúk szemtanúkat szemtanúkkal szemtanúként szemtanúnak szemtanúra szemtanút szemtanútól szemtanúval
+76	3576	nyilatkozat	nyilatkozatban nyilatkozatok nyilatkozatokat nyilatkozatot nyilatkozatra nyilatkozattal
+77	3577	csere	csereként cserében cseréhez cserék cserének cserénél cserére cseréről cserét cserével
+78	3578	térség	térségbe térségben térségből térségek térséget
+79	3579	vezér	vezérek vezérnek vezérre vezérrel vezért
+80	3580	mélye	mélyébe mélyében mélyéből mélyéig mélyén mélyére mélyéről mélyét mélyétől
+81	3581	becsül	becsülendő becsüli becsülik becsülje becsüljék becsüljétek becsüljön becsüljük becsüllek becsülnek becsülni becsülném becsülnöd becsülnünk becsülsz becsült becsülte becsültelek becsültem becsülték becsülöd becsülök becsülöm
+82	3582	képzett	képzettebb képzettek képzettnek legképzettebb
+83	3583	premier	premieren premierje premierre premiert
+84	3584	szertartás	szertartásban szertartáshoz szertartásnak szertartások szertartásokat szertartásokon szertartáson szertartásra szertartásról szertartással szertartást
+85	3585	sugárzás	sugárzása sugárzásnak sugárzásra sugárzásról sugárzással sugárzást sugárzástól
+86	3586	lakói	lakóinak lakóira lakóit lakóival
+87	3587	ausztrál	ausztrálok
+88	3588	afrikai	afrikaiak
+89	3589	cigi	cigiket cigire cigiről cigit cigitől cigivel cigiért
+90	3590	konfliktus	konfliktusa konfliktusba konfliktusban konfliktusnak konfliktusok konfliktusokat konfliktust
+91	3591	lánc	láncba láncban lánccal láncnak láncok láncokat láncokban láncokkal láncon láncot láncra
+92	3592	kialakítása	kialakításában kialakításához kialakításának kialakítására kialakítását kialakításával
+93	3593	partja	partjához partján partjánál partjára partjáról partját
+94	3594	értelmes	legértelmesebb értelmesebb értelmesek értelmesen értelmeset értelmesnek
+95	3595	elnöki	
+96	3596	másolat	másolatok másolatokat másolatot másolatra másolattal
+97	3597	felnő	felnövök felnövünk felnövő felnőjek felnőjön felnőnek felnőni felnőnie felnőnöd felnőnöm felnősz felnőttem felnőttetek felnőttél felnőttök felnőttünk
+98	3598	stimmel	stimmelne stimmelnek stimmelt
+99	3599	borít	borítanak borítani borítja borítjuk borítják borítom borított borítottak borítottam borították borítsa borítsuk borítsunk borítunk borítva
+100	3600	mini	minit

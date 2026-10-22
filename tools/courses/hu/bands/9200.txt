@@ -1,0 +1,100 @@
+1	9101	sugárzó	
+2	9102	fáklya	fáklyák fáklyákat fáklyákkal fáklyát fáklyával
+3	9103	golyóálló	
+4	9104	feltűnően	
+5	9105	mohó	mohók mohón mohónak
+6	9106	függetlenségi	
+7	9107	hazafias	
+8	9108	főnyeremény	főnyereményt
+9	9109	kiállítási	
+10	9110	költséges	
+11	9111	átesik	átesett átesnie átestek
+12	9112	elhibáz	elhibázni elhibázod elhibázom elhibázott elhibázta elhibáztad elhibáztam elhibáztuk elhibázták elhibázza elhibázzuk
+13	9113	napirend	napirenden napirendet napirendjét napirendre napirendről
+14	9114	vetkőzik	vetkőznek vetkőzni vetkőznie vetkőznöd vetkőznöm vetkőztem vetkőzzenek vetkőzzetek vetkőzzön vetkőzzünk vetkőzés vetkőzök vetkőzöl vetkőzött vetkőzünk vetkőző
+15	9115	korcs	korcsnak korcsok korcsokat korcsot
+16	9116	megmagyarázhatatlan	megmagyarázhatatlanul
+17	9117	hegeszt	hegeszteni hegesztett hegesztő
+18	9118	világítótorony	világítótornyot világítótoronyba világítótoronyban világítótoronyhoz világítótoronynál
+19	9119	figyelemreméltó	
+20	9120	júniusa	júniusában
+21	9121	mosás	mosásba mosásban mosáshoz mosásra mosással mosást
+22	9122	operál	operálhatatlan operálja operáljon operáljuk operálják operálnak operálni operálnom operálnunk operálok operált operálta operáltak operáltam operálták operálunk
+23	9123	kabinet	kabinetben kabinetet
+24	9124	számláló	számlálót
+25	9125	tündérmese	tündérmesébe tündérmesében tündérmesék tündérmesékben tündérmeséket tündérmesének tündérmesét
+26	9126	februárja	februárjában
+27	9127	feltöltés	feltöltést
+28	9128	reformáció	
+29	9129	diktátor	diktátornak diktátorok diktátort
+30	9130	elkövetkezik	elkövetkezendő
+31	9131	sztem	
+32	9132	esernyő	esernyők esernyőt esernyővel
+33	9133	áramlás	áramlást
+34	9134	kiábrándító	kiábrándítóak
+35	9135	felszabadít	felszabadítalak felszabadítani felszabadítja felszabadítjuk felszabadítom felszabadította felszabadítottam felszabadítottuk felszabadították felszabadítottál felszabadítsa felszabadítsuk felszabadítás felszabadítása
+36	9136	visszafogott	visszafogottabb visszafogottak visszafogottan
+37	9137	beletesz	beletenni beletesszük beleteszed beleteszek beleteszem beleteszi beleteszik beletett beletette beletetted beletettek beletettem beletették beletettük
+38	9138	valamerre	
+39	9139	sebe	sebében sebéből sebére sebét
+40	9140	kórokozó	kórokozók kórokozókat kórokozót
+41	9141	születésű	
+42	9142	polip	polipnak polipok polipot polippal
+43	9143	hivatás	hivatást
+44	9144	cenzúra	
+45	9145	borzalmasan	
+46	9146	dobozos	
+47	9147	cipzár	cipzárját cipzárral cipzárt zipzár
+48	9148	lemos	lemosható lemosni lemosod lemosom lemosott lemossa lemossam lemossuk lemossák lemosta lemostad lemostam lemosták
+49	9149	értelmezés	értelmezést
+50	9150	kétnapos	
+51	9151	kiemelkedik	kiemelkedett kiemelkedni
+52	9152	gázol	gázolnak gázolni gázolok gázolsz gázolt gázolta gázoltak gázoltam gázolták gázoltál gázolunk gázolás gázoló
+53	9153	vállalkozik	vállalkoznak vállalkozol vállalkozott vállalkoztak vállalkoztam vállalkoztunk vállalkoztál vállalkozunk
+54	9154	karó	karóba karóhoz karók karókat karón karót karóval
+55	9155	kormányzás	kormányzást
+56	9156	átkoz	átkozni átkozom átkozta átkoztam átkozva átkozza átkozzák
+57	9157	máshonnan	
+58	9158	organikus	
+59	9159	videójáték	videojáték videojátékban videójátékok videójátékokat videójátékokkal videójátékot
+60	9160	héja	héjában héják héját
+61	9161	aszerint	
+62	9162	műtéti	
+63	9163	botlik	botlanak botlani botlasz botlok botlott botlottak botlottam botlottunk botlottál botlunk
+64	9164	szabadalmi	
+65	9165	stabilizál	stabilizálja stabilizáljuk stabilizálják stabilizálni stabilizálnunk stabilizálta stabilizáltam stabilizáltuk stabilizálták stabilizálva stabilizáló
+66	9166	parádé	parádén parádéra parádét
+67	9167	másodpercenként	
+68	9168	nekimegy	nekimegyek nekimegyünk nekimennek nekimenni nekiment nekimentek nekimentem nekimentél nekimentünk nekimész
+69	9169	aprólékos	aprólékosan
+70	9170	ketyeg	ketyegett ketyegni ketyegő
+71	9171	elszív	elszívja elszívjuk elszívják elszívni elszívod elszívok elszívom elszívott elszívta elszívtad elszívtam elszívunk elszívó
+72	9172	dinamit	dinamitot dinamittal
+73	9173	sajtótájékoztatója	sajtótájékoztatóján sajtótájékoztatóját
+74	9174	felszínes	felszínesek felszínesen felszínesnek
+75	9175	szétszór	szétszórt szétszórta
+76	9176	élesztő	élesztőt
+77	9177	gyapjú	gyapjúból gyapjút
+78	9178	terveink	terveinket terveinkről
+79	9179	közbejön	közbejött
+80	9180	megfenyeget	megfenyegetett megfenyegetik
+81	9181	mazsola	mazsolák mazsolát mazsolával
+82	9182	birkózó	birkózók birkózót
+83	9183	cseléd	cseléddel cselédek cselédeket cselédet cselédje cselédnek
+84	9184	érvényesül	érvényesült
+85	9185	tenyészt	tenyésztek tenyésztenek tenyészteni tenyésztett tenyésztettek tenyésztették tenyésztik tenyésztés tenyésztő tenyésztők
+86	9186	rendetlenség	rendetlenséget rendetlenségért
+87	9187	kategóriája	kategóriájába kategóriájában
+88	9188	pörkölt	pörköltet
+89	9189	tanulmányozása	tanulmányozására tanulmányozását tanulmányozásával
+90	9190	végrehajtás	végrehajtásra végrehajtást
+91	9191	jutalma	jutalmát
+92	9192	hallucináció	hallucinációk hallucinációkat hallucinációt
+93	9193	docens	
+94	9194	megijesztett	megijesztettem
+95	9195	kisméretű	
+96	9196	korrupciós	
+97	9197	kréta	krétán krétát krétával
+98	9198	közkedvelt	
+99	9199	poszter	poszterek posztereket poszterekkel poszteren poszterrel posztert
+100	9200	recepció	recepcióhoz recepción recepciónál recepcióra recepcióról recepciót

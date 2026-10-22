@@ -1,0 +1,100 @@
+1	701	oka	okaként okat okán okának okára okáról okát okával okáért
+2	702	pálya	pályához pályája pályájának pályák pályákat pályákon pályám pályán pályának pályánál pályára pályáról pályát pályától pályával
+3	703	vér	vérbe vérben vérből véren vérhez vérig vérnek vérre vérrel vérré vérről vért vértől vérért
+4	704	bizonyos	bizonyosak bizonyossá
+5	705	lánya	lányaként lányába lányából lányához lányán lányának lányánál lányára lányáról lányát lányától lányával lányáé lányáért
+6	706	klub	klubba klubbal klubban klubból klubhoz klubja klubjának klubnak klubnál klubok klubokat klubokba klubokban klubon klubot klubra klubról klubtól klubért
+7	707	lépés	lépésben lépésből lépései lépéseit lépések lépésekben lépéseket lépésekkel lépésekre lépésen lépéshez lépésként lépésnek lépésnél lépésre lépésről lépéssel lépést
+8	708	október	októberben októbere októberig októberre októbertől októberében
+9	709	egyéb	egyebek egyebeket egyebet egyébbel egyébre egyébről
+10	710	baba	babaként babába babában babához babák babákat babákhoz babákkal babáknak babáknál babákra babákról babán babának babánál babára babáról babát babától babával babáé babáért
+11	711	siet	siess siessek siessen siessenek siessetek siessél siessünk sieted sietek sietett siethetnénk sieti sietjük sietne sietned sietnek sietnem sietnetek sietni sietnie sietniük sietnék sietnél sietnének sietnénk sietnünk sietsz siettek siettem siettél siettünk sietve sietünk
+12	712	született	születettek
+13	713	videó	videóba videóban videóból videóhoz videók videókat videókban videókkal videókon videón videónak videóra videóról videót videóval
+14	714	valahol	
+15	715	kor	korba korban korból korhoz korig kornak korok koron korra korral korról kort kortól
+16	716	hirtelen	
+17	717	szint	szintben szintek szinteken szinteket szintekre szinten szintet szinthez szintig szintnek szintnél szintre szintről szinttel
+18	718	szolgál	szolgálhat szolgálhatunk szolgálja szolgáljak szolgáljam szolgáljanak szolgáljon szolgáljuk szolgálják szolgáljátok szolgállak szolgálna szolgálnak szolgálni szolgálnia szolgálnom szolgálná szolgálod szolgálok szolgálom szolgálsz szolgált szolgálta szolgáltad szolgáltak szolgáltam szolgáltat szolgáltatja szolgáltatnak szolgáltatni szolgáltatok szolgáltatott szolgáltatta szolgáltatunk szolgáltatva szolgáltunk szolgálták szolgáltál szolgálunk
+19	719	hihetetlen	hihetetlenebb hihetetlenek hihetetlennek hihetetlent hihetetlenül leghihetetlenebb
+20	720	épít	építed építek építem építene építened építenek építenem építeni építenie építenék építenénk építenünk építesz épített építette építetted építettek építettem építettél építettük építettünk építhetnénk építhetsz építhetünk építi építik építjük építse építsek építsen építsenek építsetek építsék építsük építsünk építve építünk építő építők
+21	721	kár	kárba károk károkat károkról károkért kárról kárt kárért
+22	722	valahogy	
+23	723	kislány	kislánnyal kislánya kislányból kislányhoz kislányként kislánynak kislányok kislányokat kislányokkal kislányoknak kislányom kislányon kislányra kislányról kislányt kislánytól kislányé kislányért
+24	724	folytat	folytassa folytatja folytatjuk folytatják folytatjátok folytatnak folytatni folytatná folytatod folytatok folytatta folytattak folytatták folytatunk folytatva folytató
+25	725	azóta	
+26	726	eszem	eszembe eszemben eszemen eszemet eszemmel eszemnél eszemre
+27	727	tervez	tervezed tervezek tervezel tervezem tervezhet tervezi tervezik tervezitek tervezne tervezned terveznek terveznem tervezni terveznie terveznék terveznél terveznünk tervezted terveztek terveztem terveztetek tervezték terveztél terveztétek terveztük terveztünk tervezve tervezz tervezze tervezzek tervezzen tervezzük tervezzünk tervezünk tervező tervezői tervezők tervezőnek tervezőt
+28	728	számos	
+29	729	ilyesmi	ilyesmibe ilyesmiben ilyesmiből ilyesmihez ilyesmik ilyesmikben ilyesmiken ilyesmiket ilyesmikhez ilyesmikkel ilyesmikre ilyesmikről ilyesmikért ilyesmin ilyesminek ilyesmire ilyesmiről ilyesmit ilyesmitől ilyesmivel ilyesmiért
+30	730	arany	arannyal arannyá aranyat aranyba aranyban aranyból aranyhoz aranynak aranynál aranyon aranyra aranyról aranytól aranyért
+31	731	máris	
+32	732	lényeg	lényegen lényeget lényeggel lényeghez lényegre lényegről
+33	733	eleje	elejébe elejében elejéhez elejéig elején elejénél elejére elejéről elejét elejétől
+34	734	őrült	legőrültebb őrültbe őrültebb őrültek őrülteket őrültekkel őrülteknek őrültektől őrültet őrültként őrültnek őrültre őrültről őrülttel őrültté őrülttől
+35	735	hideg	hidegbe hidegben hidegebb hidegek hidegen hideget hideggel hideggé hidegnek hidegre hidegről hidegtől leghidegebb
+36	736	szintén	
+37	737	tele	telén
+38	738	tanár	tanárhoz tanárként tanárnak tanárnál tanárok tanárokat tanárokkal tanároknak tanárokra tanárokról tanároktól tanárom tanárra tanárral tanárrá tanárról tanárt tanártól
+39	739	mögött	
+40	740	rendelkezik	rendelkezek rendelkezel rendelkezett rendelkezne rendelkeznek rendelkezni rendelkeznie rendelkezniük rendelkeztek rendelkeztem rendelkezünk rendelkező rendelkezők
+41	741	nyelv	nyelvben nyelvből nyelvek nyelveken nyelveket nyelven nyelvet nyelvnek nyelvre nyelvről nyelvvel
+42	742	muszáj	muszájból muszály
+43	743	előző	előzőek előzőekben előzőhöz előzőnél előzőre előzőt előzővel
+44	744	veszít	vesztenek veszteni vesztesz vesztett vesztette vesztetted vesztettek vesztettem vesztettél vesztettük vesztettünk veszti vesztik veszítek veszítem veszítenek veszíteni veszítesz veszített veszítette veszítetted veszítettek veszítettem veszítettél veszítettük veszítettünk veszíthet veszíthetek veszíthetem veszíthetjük veszíthetlek veszíthetsz veszíthetünk veszíti veszítjük veszítse veszítsen veszítsük veszítünk
+45	745	finom	finomabb finomak finomakat finomat finomnak finomra legfinomabb
+46	746	test	testbe testben testből testek testekben testekből testeken testeket testekkel testekre testekről testektől testen testet testhez testnek testnél testre testről testtel testté testtől testért
+47	747	drága	drágább drágábban drágák drágán drágának drágát legdrágább
+48	748	kávé	kávéba kávéban kávéból kávéhoz kávéja kávéját kávék kávékat kávén kávénak kávénál kávéra kávéról kávét kávétól kávéval kávéért
+49	749	eredeti	eredetibb eredetiben eredetiek eredetieket eredetihez eredetik eredetinek eredetire eredetit eredetivel legeredetibb
+50	750	vigyázz	vigyázzba vigyázzon
+51	751	ellenére	ellenedre ellenemre ellenükre
+52	752	apád	apádat apádban apádból apáddal apádhoz apádként apádnak apádnál apádon apádra apádról apádtól apádé apádért
+53	753	hamar	hamarabb hamarább leghamarabb
+54	754	válaszol	válaszolhat válaszolhatna válaszolhatnál válaszolhatnék válaszolhatok válaszolhatsz válaszolja válaszoljak válaszoljanak válaszoljatok válaszoljon válaszoljunk válaszolják válaszolna válaszolnak válaszolni válaszolnia válaszolnod válaszolnom válaszolnunk válaszolnál válaszolnának válaszolnék válaszolod válaszolok válaszolom válaszolsz válaszolt válaszolta válaszoltad válaszoltak válaszoltam válaszoltatok válaszoltok válaszoltunk válaszolták válaszoltál válaszolunk válaszolva
+55	755	tv	tv-be tv-ben tv-ből tv-hez tv-k tv-n tv-nek tv-nél tv-re tv-ről tv-t tv-től tv-vel
+56	756	barátja	barátjaként barátjához barátján barátjának barátjánál barátjára barátjáról barátját barátjától barátjával barátjává barátjáé barátjáért
+57	757	szükséges	legszükségesebb szükségesek szükségeset szükségesnek szükségesnél szükségessé
+58	758	hölgy	hölggyel hölggyé hölgyek hölgyeket hölgyekhez hölgyekkel hölgyeknek hölgyeknél hölgyekre hölgyekről hölgyektől hölgyeké hölgyet hölgyhöz hölgyként hölgynek hölgynél hölgyre hölgyről hölgytől hölgyé hölgyért hölgyön
+59	759	szeretne	
+60	760	mesél	meséled mesélek mesélem mesélhet mesélhetek mesélhetne mesélhetnék mesélhetnél mesélhetsz meséli mesélik mesélje meséljek meséljem meséljen meséljenek meséljetek meséljétek meséljük meséljünk mesélne mesélned mesélnek mesélnem mesélni mesélnie mesélnék mesélnél mesélsz mesélt mesélte mesélted meséltek meséltem mesélték meséltél meséltünk mesélünk mesélő
+61	761	munkája	munkájába munkájában munkájából munkájához munkáján munkájának munkájára munkájáról munkáját munkájától munkájával munkájáért
+62	762	drágám	drágámat drágámnak
+63	763	tiéd	tied tiedért tiédbe tiédben tiédből tiéddel tiéden tiédet tiédhez tiédnek tiédnél tiédre tiédről tiédtől tiédért
+64	764	döntés	döntésbe döntésben döntések döntésekben döntéseket döntésekhez döntésekkel döntésekre döntésekről döntésen döntéshez döntésnek döntésnél döntésre döntésről döntéssel döntést döntésért döntésük döntésüket döntésünk döntésünket
+65	765	kínai	kínaiak kínaiakat kínaiakkal kínaiaknak kínaiaknál kínaiaktól kínaiba kínaiban kínaihoz kínainak kínaira kínait kínaiul kínaival
+66	766	döntött	döntöttek döntöttem
+67	767	esély	eséllyel esélyben esélyei esélyeit esélyek esélyeket esélyekkel esélyekről esélynek esélyre esélyről esélyt esélyért
+68	768	megcsinál	megcsinálhatja megcsinálhatjuk megcsinálhatnád megcsinálhatnám megcsinálhatnánk megcsinálhatod megcsinálhatom megcsinálhatta megcsinálja megcsináljam megcsináljuk megcsinálják megcsináljátok megcsinálnak megcsinálni megcsinálnia megcsinálnod megcsinálnom megcsinálnunk megcsinálná megcsinálnád megcsinálnám megcsinálnánk megcsinálod megcsinálok megcsinálom megcsinálsz megcsinált megcsinálta megcsináltad megcsináltak megcsináltam megcsináltuk megcsináltunk megcsinálták megcsináltál megcsináltátok megcsinálunk megcsinálva
+69	769	segítsége	segítségének segítségére segítségét segítségével segítségéért
+70	770	elé	elébe eléd eléje eléjük elém elénk elétek
+71	771	tartalmaz	tartalmazhat tartalmazhatnak tartalmaznak tartalmazni tartalmazott tartalmazta tartalmaztak tartalmazza tartalmazzák tartalmazó
+72	772	igaza	igazan igazában igazát igazáért
+73	773	köt	kösd köss kösse kössek kössenek kössék kössétek kössön kössük kössünk köthet köthetnénk köthetünk köthető köti kötik kötjük kötne kötnek kötni kötnie kötné kötnénk kötnöd kötnöm kötnünk kötsz köttetett kötve kötöd kötök kötöm kötötte kötötted kötötték kötöttél kötöttünk kötünk kötő
+74	774	tagja	tagjaként tagjához tagjának tagjára tagjáról tagját tagjától tagjával tagjává
+75	775	siker	sikerben sikerek sikereket sikerhez sikernek sikerre sikerrel sikerről sikert sikertől sikerért
+76	776	elleni	
+77	777	bíz	bízd bízhatja bízhatjuk bízhatna bízhatnál bízhatod bízhatom bízhatott bízhatsz bízhattam bízhattál bízhatunk bízlak bízna bízni bíznod bíznom bízná bíznád bíznál bíznám bízod bízol bízom bízott bízta bíztad bíztalak bíztam bíztuk bíztál bízva bízza bízzak bízzam bízzon bízzuk bízzál bízzátok
+78	778	zár	zárak zárakat zárat zárba zárban zárd zárhatjuk zárhatod zárhatsz zárhatunk zárj zárja zárjam zárjanak zárjatok zárjon zárjuk zárjunk zárják zárjátok zárnak zárni zárnám zárod zárok zárom zárral zársz zárta zártad zártak zártam zártuk zártunk zárták zártál zárunk záró záróra
+79	779	biztosít	biztosítalak biztosítana biztosítanak biztosítani biztosítania biztosítanod biztosítanom biztosítanunk biztosítaná biztosíthatja biztosíthatjuk biztosíthatlak biztosíthatok biztosítja biztosítjuk biztosítják biztosítod biztosítok biztosítom biztosított biztosította biztosítottad biztosítottak biztosítottam biztosítottuk biztosítottunk biztosították biztosítottál biztosítsa biztosítsak biztosítsam biztosítsanak biztosítson biztosítsuk biztosítsunk biztosítsák biztosítsátok biztosítunk biztosítva
+80	780	bocs	bocsok
+81	781	fény	fénnyel fénybe fényben fényből fényei fényeit fények fényeket fényekkel fényekre fényekről fényen fényhez fénynek fénynél fényre fényről fényt fénytől
+82	782	miközben	
+83	783	szabály	szabállyal szabálya szabályhoz szabálynak szabályok szabályokat szabályokban szabályokhoz szabályokkal szabályoknak szabályokon szabályokra szabályokról szabályoktól szabályra szabályról szabályt szabályát
+84	784	mindez	mindebbe mindebben mindebből mindeddig mindehhez mindennek mindennél minderre minderről mindettől mindezek mindezeken mindezeket mindezekkel mindezeknek mindezekre mindezekről mindezekért mindezen mindezt mindezzel mindezért
+85	785	irány	irányba irányban irányból irányok irányokba irányon irányra irányt iránytól
+86	786	baleset	balesetbe balesetben balesetből balesetek balesetekben baleseteket balesetet balesethez balesetként balesetnek balesetnél balesetre balesetről balesettel balesettől balesetért
+87	787	ágy	ággyal ágyad ágyak ágyakat ágyakkal ágyat ágyba ágyban ágyból ágyhoz ágyig ágynak ágynál ágyon ágyra ágyról ágytól ágyért
+88	788	rend	rendbe rendből renddel rendek renden rendet rendhez rendnek rendre rendről rendért
+89	789	távol	legtávolabb távolabb távolabbról távolba távolban távolból távolra távolról távolt
+90	790	fura	furább furák furákat furán furának furát furává legfurább
+91	791	doktor	doktorhoz doktorként doktornak doktornál doktorok doktorokat doktorra doktorral doktorról doktort doktortól doktoré doktorért
+92	792	részlet	részletbe részletben részletek részletekbe részletekben részleteken részleteket részletekhez részletekig részletekkel részletekre részletekről részletektől részletekért részletet részletig részletnek részletre részletről részlettel
+93	793	templom	templomba templomban templomból templomhoz templomig templommal templomnak templomnál templomok templomokat templomokban templomon templomot templomra templomról templomtól templomában templomának templomát
+94	794	harcol	harcolhassak harcolhasson harcolhat harcolhatnak harcolhatnánk harcolhatok harcolhatsz harcolhatunk harcolj harcoljak harcoljanak harcoljatok harcoljon harcoljunk harcolna harcolnak harcolni harcolnia harcolniuk harcolnod harcolnom harcolnotok harcolnunk harcolnál harcolnának harcolnánk harcolnék harcolok harcolsz harcolt harcoltak harcoltam harcoltatok harcoltok harcoltunk harcoltál harcolunk harcolva harcoló
+95	795	közte	közted köztem köztetek köztük köztünk közötte énköztem
+96	796	játékos	játékosa játékosait játékosként játékosnak játékosok játékosokat játékosokkal játékosoknak játékosokra játékosokról játékosra játékosról játékossal játékossá játékost játékostól játékosának
+97	797	ügynök	ügynöke ügynökeinek ügynökeivel ügynökhöz ügynökkel ügynökké ügynökként ügynöknek ügynöknél ügynökre ügynökről ügynöktől ügynöké ügynökök ügynököket ügynökökkel ügynököknek ügynökökre ügynökökről ügynököt
+98	798	megmutat	megmutassa megmutassam megmutassuk megmutassák megmutathassa megmutathassam megmutathatja megmutathatjuk megmutathatnád megmutathatnám megmutathatod megmutathatok megmutathatom megmutatja megmutatjuk megmutatják megmutatjátok megmutatni megmutatnia megmutatnod megmutatnom megmutatnunk megmutatná megmutatnád megmutatnák megmutatnám megmutatnánk megmutatnék megmutatod megmutatok megmutatom megmutatott megmutatta megmutattad megmutattam megmutattuk megmutatták megmutattátok megmutatva
+99	799	vörös	veres veress vörösbe vörösben vörösebb vörösek vöröseket vöröset vörösnek vörösre vörössel vörössé vöröst vörösök vörösöket
+100	800	közepe	közepébe közepében közepéből közepéhez közepéig közepén közepénél közepére közepéről közepét közepétől

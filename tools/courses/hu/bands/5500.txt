@@ -1,0 +1,100 @@
+1	5401	ciki	cikinek
+2	5402	kiskorú	kiskorúak kiskorúakat kiskorúakkal kiskorúaknak kiskorúként kiskorúnak kiskorút kiskorúval
+3	5403	becsület	becsületben becsületből becsületemre becsületet becsületnek becsületre becsületről becsülettel becsületért
+4	5404	frekvencia	frekvenciák frekvenciákat frekvencián frekvenciára frekvenciát frekvenciával
+5	5405	kivégzés	kivégzése kivégzések kivégzéseket kivégzésen kivégzésnek kivégzésre kivégzéssel kivégzést kivégzéstől kivégzését
+6	5406	dallam	dallammal dallamok dallamokat dallamot dallamra
+7	5407	példája	példáját
+8	5408	idény	idényben idényt
+9	5409	munkái	munkáiból munkáinak munkáiról munkáit
+10	5410	gerinc	gerinccel gerince gerincen gerincet gerincre
+11	5411	aktája	aktájába aktájában aktájából aktájához aktáján aktájának aktájára aktáját aktájával
+12	5412	pusztító	legpusztítóbb pusztítóak pusztítóbb pusztítók pusztítót
+13	5413	fölösleges	fölöslegesek fölöslegesen fölöslegesnek
+14	5414	szökés	szökésben szökésen szökéshez szökésnek szökésre szökésről szökéssel szökést szökésért
+15	5415	béta	béták bétát
+16	5416	komp	kompba kompban komphoz kompnak kompnál kompok kompon kompot komppal kompra kompról
+17	5417	prosti	prostihoz prostik prostikat prostikkal prostiknak prostikra prostinak prostit prostival
+18	5418	ellenében	
+19	5419	ketrec	ketrecbe ketrecben ketrecből ketrecek ketrecekbe ketrecekben ketreceket ketrecen ketrecet ketrechez
+20	5420	milliárdos	milliárdosok milliárdossal milliárdost
+21	5421	foga	fogára fogát fogával
+22	5422	tanácsol	tanácsolhatom tanácsolja tanácsoljuk tanácsolják tanácsolna tanácsolni tanácsolnám tanácsolod tanácsolok tanácsolom tanácsolsz tanácsolt tanácsolta tanácsoltad tanácsoltam tanácsolták
+23	5423	doktornő	doktornőnek doktornőt doktornővel
+24	5424	visszaküld	visszaküldelek visszaküldenek visszaküldeni visszaküldesz visszaküldhetjük visszaküldi visszaküldik visszaküldjem visszaküldjék visszaküldjük visszaküldte visszaküldted visszaküldtek visszaküldtem visszaküldték visszaküldtük visszaküldöd visszaküldöm visszaküldött visszaküldünk
+25	5425	udvarias	udvariasabb udvariasak udvariasnak
+26	5426	félénk	félénkek félénken félénknek
+27	5427	utódja	utódjának utódját utódjával
+28	5428	interaktív	
+29	5429	szemük	szemükbe szemükben szemüket szemükkel szemüknek szemükön
+30	5430	operációs	
+31	5431	híradó	híradóba híradóban híradóból híradók híradót
+32	5432	semleges	semlegesek semlegesnek
+33	5433	támaszt	támassza támasztani támasztja támasztják támasztott támasztotta támasztva
+34	5434	fogyatékos	fogyatékosnak fogyatékosok fogyatékosokat fogyatékost
+35	5435	hivatali	
+36	5436	anyai	
+37	5437	sovány	soványabb soványak soványnak
+38	5438	admirális	admirálisnak admirálissal admirálist admirálistól
+39	5439	faszfej	faszfejek faszfejeket faszfejet faszfejnek faszfejt
+40	5440	tanulmányai	tanulmányaira tanulmányait tanulmányaival
+41	5441	bilincs	bilinccsel bilincsbe bilincsben bilincsből bilincsek bilincseket bilincset bilincshez bilincsre
+42	5442	elemző	elemzői elemzők elemzőt
+43	5443	ötször	
+44	5444	megsemmisül	megsemmisüljön megsemmisülne megsemmisülnek megsemmisült megsemmisültek megsemmisülés
+45	5445	matematikai	
+46	5446	kitűnik	kitüntet kitüntetett kitüntetik kitüntetnek kitüntetni kitüntette kitüntettek kitüntették kitüntetve kitüntető kitűnni kitűnt
+47	5447	aj	ajak ajkak ajkakat ajkakkal ajkakra ajkat
+48	5448	nagyméretű	
+49	5449	feltéve	
+50	5450	halász	halásznak halászok halászokat halászoknak halászt
+51	5451	álcáz	álcázni álcáznunk álcázod álcázom álcázott álcázta álcáztam álcázták álcázva álcázza álcázzuk álcázzák álcázó
+52	5452	világhírű	
+53	5453	elbújik	elbújhat elbújhatnak elbújhatok elbújhatott elbújhatsz elbújhatunk elbújjak elbújjon elbújnak elbújni elbújnod elbújnék elbújok elbújsz elbújt elbújtak elbújtam elbújtunk elbújtál elbújunk elbújva
+54	5454	állítása	állítását állításával
+55	5455	számlája	számlájához számláján számlájára számlájáról számláját
+56	5456	részvétele	részvételéről részvételét részvételével
+57	5457	többszörös	
+58	5458	tompa	tompák
+59	5459	matrica	matricák matricákat matricán matricát matricával
+60	5460	írásos	
+61	5461	egészségügy	egészségügyben egészségügyet egészségügyre
+62	5462	nagyrészt	
+63	5463	táplálék	táplálékhoz táplálékot táplálékra táplálékul táplálékért
+64	5464	atléta	atléták atlétát
+65	5465	szegénység	szegénységben szegénységből szegénységet szegénységgel szegénységtől
+66	5466	apáca	apácák apácákat apácákkal apácáknak apácának apácát apácával
+67	5467	odamegy	odamenni odamennie odament
+68	5468	taktikai	
+69	5469	támaszkodik	támaszkodhatnánk támaszkodhatok támaszkodhatsz támaszkodhatunk támaszkodjon támaszkodnak támaszkodni támaszkodnia támaszkodnod támaszkodnom támaszkodnunk támaszkodott támaszkodsz támaszkodtam támaszkodunk támaszkodva támaszkodó
+70	5470	ugyanitt	
+71	5471	problémád	problémádat problémáddal problémádon problémádra problémádról
+72	5472	fordítása	fordításában fordítását
+73	5473	depressziós	depressziósak depressziósnak depressziósok depresszióssá
+74	5474	hőség	hőségben hőséget hőségtől
+75	5475	környezeti	
+76	5476	lakossága	lakosságának lakosságát
+77	5477	játszódik	játszódnak játszódott játszódó
+78	5478	beszámol	beszámoljak beszámoljon beszámolnak beszámolni beszámolnom beszámolok beszámolsz beszámolt beszámoltak beszámoltam beszámolunk
+79	5479	ünnepélyes	ünnepélyesen
+80	5480	jellege	jellegének jellegét
+81	5481	sláger	slágerek slágereket slágert
+82	5482	középkor	középkorba középkorban középkorból
+83	5483	takács	
+84	5484	rakott	
+85	5485	szőrös	szőrösebb szőrösek
+86	5486	elmesél	elmeséli elmesélik elmesélte
+87	5487	olimpikon	olimpikonok
+88	5488	megnövekedik	megnövekedett megnövekszik
+89	5489	légierő	légierőhöz légierőnek légierőnél légierőt légierőtől légierővel
+90	5490	innovációs	
+91	5491	pillangó	pillangók pillangókat pillangókkal pillangónak pillangót pillangóvá
+92	5492	övék	övéket övékkel
+93	5493	szeretete	szeretetében szeretetének szeretetére szeretetéről szeretetét szeretetétől szeretetével szeretetéért
+94	5494	fogság	fogságba fogságban fogságból fogságot
+95	5495	iskolás	iskolások iskolásoknak
+96	5496	befolyásos	befolyásosabb befolyásosak legbefolyásosabb
+97	5497	spórol	spórolhatnánk spórolhatunk spóroljak spóroljanak spóroljatok spóroljon spóroljunk spórolnak spórolni spórolnom spórolnunk spórolnánk spórolok spórolsz spórolt spóroltak spóroltam spóroltunk spóroltál spórolunk
+98	5498	sajnálat	sajnálatból sajnálatot sajnálatra sajnálattal sajnálatát
+99	5499	barbár	barbárnak barbárok barbárokat barbárokkal barbároknak barbárt
+100	5500	tenisz	teniszben teniszt

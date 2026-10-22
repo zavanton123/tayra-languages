@@ -1,0 +1,100 @@
+1	9301	hallottalak	
+2	9302	szupersztár	
+3	9303	laktanya	laktanyába laktanyában laktanyából laktanyát
+4	9304	logisztikai	
+5	9305	torkod	torkodat torkodba torkodban torkodnak torkodon
+6	9306	címzett	
+7	9307	tevékenységük	tevékenységüket
+8	9308	építőipari	
+9	9309	példátlan	példátlanul
+10	9310	hadtest	hadtestnél
+11	9311	görcs	görcsbe görcsben görcsök görcsöket görcsöt
+12	9312	klikk	klikkek klikkre
+13	9313	dedikál	dedikált
+14	9314	zöldfülű	zöldfülűek zöldfülűnek zöldfülűt
+15	9315	szemlélet	szemléletet
+16	9316	etika	etikáról etikát etikával
+17	9317	zavarodott	zavarodottan
+18	9318	kivonat	kivonatok kivonatokat kivonaton kivonatot
+19	9319	hidegháború	hidegháborúban hidegháborúnak hidegháborút
+20	9320	torok	torkon torkot torokban torokból torokkal torokra
+21	9321	líra	lírát líráért
+22	9322	sebességű	
+23	9323	reá	reád reám reánk reátok
+24	9324	megtel	megtelt
+25	9325	lenyomat	lenyomatok lenyomatokat lenyomatot
+26	9326	színfal	színfalak
+27	9327	időbeli	
+28	9328	kifejezett	
+29	9329	rekedt	rekedtünk
+30	9330	fékez	fékezek fékezett fékeznem fékezni fékeznünk fékeztem fékezze fékezzen fékezzük fékezés fékező
+31	9331	identitás	identitást
+32	9332	koronavírus	
+33	9333	miniszterelnökség	
+34	9334	nyelvvizsga	
+35	9335	ebédidő	ebédidőben ebédidőnek ebédidőre
+36	9336	levon	levonja levonjuk levonják levonni levonok levonom levontam levonva
+37	9337	borjú	borjak borjút
+38	9338	undok	undoknak undokok
+39	9339	napfelkelte	napfelkeltéig napfelkeltére napfelkeltét
+40	9340	autista	
+41	9341	tieid	tieiddel tieidet tieidnek
+42	9342	lat	latba latban
+43	9343	udvariasan	udvariasabban
+44	9344	komponens	komponensek
+45	9345	itala	italába italát
+46	9346	tisztes	
+47	9347	paradox	paradoxon paradoxont
+48	9348	intellektuális	
+49	9349	szerkesztőség	szerkesztőségbe szerkesztőségben szerkesztősége szerkesztőséget
+50	9350	visszafordul	visszafordulni visszafordult visszafordultak
+51	9351	terít	terítek terítem terítenek teríteni terítesz terített terítette terítettem teríti terítik terítse terítsen terítsétek terítsük terítve terítés terítő terítők terítőt
+52	9352	ananász	ananásszal ananászt
+53	9353	fejsze	fejszét fejszével
+54	9354	regisztrál	regisztrálni regisztrálok regisztrálta regisztráltam regisztrálták regisztrálva
+55	9355	duda	dudák dudákat dudákkal dudát
+56	9356	egyvalami	egyvalamiben egyvalamire egyvalamit
+57	9357	megközelítőleg	
+58	9358	tizenéves	tizenévesek tizenévesen
+59	9359	gondoskodás	
+60	9360	ökör	ökrök ökröket ökröt ökörnek ökörrel
+61	9361	pác	pácba pácban pácból
+62	9362	mostoha	
+63	9363	augusztusa	augusztusában
+64	9364	történetünk	történetünkben történetünket
+65	9365	öntelt	önteltek öntelten önteltnek
+66	9366	ereszkedik	ereszkedett ereszkedjenek ereszkedjünk ereszkednek ereszkedni ereszkedsz ereszkedtem ereszkedés ereszkedünk
+67	9367	ránézésre	elsőre
+68	9368	elnökség	elnökséget elnökségért
+69	9369	mustár	mustárral mustárt
+70	9370	különb	különbek különbnek
+71	9371	bizonyítás	bizonyításhoz bizonyításra bizonyítást
+72	9372	tudósító	tudósítója tudósítók tudósítónk
+73	9373	valamelyest	
+74	9374	megszállta	
+75	9375	máltai	
+76	9376	hajónk	hajónkat hajónkkal hajónkon hajónkra hajónkról
+77	9377	dús	
+78	9378	marsall	marsallnak marsallok marsallt
+79	9379	szubjektív	
+80	9380	képmutató	képmutatók képmutatónak
+81	9381	díszítés	díszítéssel díszítést
+82	9382	távirat	táviratban táviratok táviratokat táviratot
+83	9383	keresgél	keresgélek keresgéljen keresgéljünk keresgélnek keresgélni keresgélnünk keresgélsz keresgélt keresgéltem keresgéltünk keresgélés keresgélünk
+84	9384	humanitárius	
+85	9385	száműzetés	száműzetésbe száműzetésben száműzetésből száműzetést
+86	9386	né	
+87	9387	lecsap	lecsapnak
+88	9388	percem	percembe percemet
+89	9389	fejlesztette	
+90	9390	meghívása	meghívására meghívását
+91	9391	enyhül	enyhít enyhíteni enyhülni enyhült
+92	9392	fekvés	fekvése
+93	9393	hüllő	hüllők hüllőket hüllőt
+94	9394	szempillantás	
+95	9395	faszkalap	faszkalapok faszkalapot
+96	9396	konzol	konzolok konzolon konzolt
+97	9397	ráadás	ráadásként ráadásnak ráadást
+98	9398	merthogy	
+99	9399	munkanélküliség	munkanélküliséget
+100	9400	kimeneti	

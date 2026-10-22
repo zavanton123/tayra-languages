@@ -1,0 +1,100 @@
+1	7901	pamut	pamutból pamutot
+2	7902	szeminárium	szemináriumban szemináriumon szemináriumot szemináriumra szemináriumról
+3	7903	meghirdet	meghirdetett
+4	7904	megismertelek	
+5	7905	tisztesség	tisztességben tisztességet tisztességgel tisztességre tisztességről
+6	7906	alapanyag	alapanyagból alapanyagok alapanyagokat alapanyagokból alapanyagot
+7	7907	hetvenes	
+8	7908	faragott	
+9	7909	ökológiai	
+10	7910	átmenet	átmenetet
+11	7911	sötétedik	sötétedett sötétedni sötétedés
+12	7912	rosszkor	legrosszabbkor rosszabbkor
+13	7913	gonoszság	gonoszságból gonoszsággal gonoszságnak gonoszságot gonoszságra
+14	7914	tudtom	tudtommal tudtomon tudtomra
+15	7915	romboló	rombolók rombolót
+16	7916	szilva	szilvát
+17	7917	jóváhagyása	jóváhagyására jóváhagyásáról jóváhagyását jóváhagyásával
+18	7918	többségi	
+19	7919	bizonyítvány	bizonyítványok bizonyítványt
+20	7920	elkeseredik	elkeseredett
+21	7921	húr	húrok húrokat húron húrt
+22	7922	kiszállítás	kiszállítással kiszállítást
+23	7923	erdészeti	
+24	7924	ultrahang	ultrahanggal ultrahangon ultrahangot ultrahangra
+25	7925	előkészítése	előkészítésében előkészítésére előkészítését
+26	7926	akadálya	akadályát
+27	7927	lökés	lökéssel lökést
+28	7928	beír	beírja beírjuk beírják beírni beírod beírom beírt beírta beírtad beírtam beírva
+29	7929	boros	
+30	7930	rettegett	legrettegettebb
+31	7931	elektromosság	elektromossággal elektromosságot elektromosságról
+32	7932	egy-egy	egyet-egyet
+33	7933	vizelet	vizeletben vizeletet vizelettel
+34	7934	fegyvertelen	fegyvertelenek fegyvertelenül
+35	7935	lejtő	lejtőkön lejtőn
+36	7936	tölgy	tölgyből tölgyek tölgyet
+37	7937	komédia	komédiában komédiának komédiát
+38	7938	megnyitás	megnyitása megnyitást megnyitását
+39	7939	m.	mig
+40	7940	eljegyez	eljegyeznek eljegyezni eljegyezte eljegyezted eljegyeztek eljegyeztem eljegyezték eljegyeztétek eljegyeztük eljegyzett eljegyzi eljegyzik
+41	7941	sebészet	sebészeten sebészetet sebészetre sebészetről
+42	7942	vármegye	vármegyében
+43	7943	elbánik	elbánnak elbánni elbánnunk elbánok elbánsz elbánt elbántak elbántam elbántunk elbántál elbánunk elbánás
+44	7944	mártír	mártírként mártírnak mártírok mártírrá mártírt
+45	7945	feledés	feledésbe
+46	7946	elvi	elviekben elvin elvira elvire
+47	7947	hátránya	hátrányát
+48	7948	balek	baleknak balekok balekokat balekoknak balekot
+49	7949	újít	újítani újítanom újítják újította újítottam újították újítsuk újító
+50	7950	túró	túróba túrót
+51	7951	másutt	
+52	7952	told	toldd
+53	7953	alezredes	alezredesnek alezredest
+54	7954	nézés	nézésre nézéssel nézést
+55	7955	hasad	hasadat hasadba hasadban hasadon hasadra hasadt hasadás
+56	7956	szakszerű	szakszerűen
+57	7957	kicsike	kicsikét
+58	7958	túrós	
+59	7959	esztendős	
+60	7960	hálátlan	hálátlannak hálátlanok
+61	7961	morcos	morcosak morcosnak
+62	7962	elhalaszt	elhalasszuk elhalasztani elhalasztanánk elhalaszthatjuk elhalaszthatnánk elhalasztja elhalasztjuk elhalasztják elhalasztom elhalasztott elhalasztotta elhalasztottam elhalasztottuk elhalasztották elhalasztva
+63	7963	égés	égések égéseket égésre égést
+64	7964	kínálat	kínálatot
+65	7965	karóra	karórát
+66	7966	hidrogén	hidrogénnel hidrogént
+67	7967	megtorlás	megtorlásként megtorlásra megtorlással megtorlást megtorlástól
+68	7968	közeg	közegbe közegben közeget
+69	7969	badarság	badarsággal badarságokat badarságot
+70	7970	sokára	
+71	7971	sál	sálak sálakat sálat sálját sállal
+72	7972	kódolt	kódoltak
+73	7973	odajön	odajött
+74	7974	hihető	hihetőbb hihetőnek hihetővé
+75	7975	fazekas	
+76	7976	fontosságú	
+77	7977	rohangál	rohangáljon rohangálnak rohangálni rohangálok rohangálsz rohangált rohangáltak rohangáltam rohangáltunk rohangáltál rohangálunk rohangálás rohangáló
+78	7978	véletlenszerűen	
+79	7979	összevissza	
+80	7980	szűnik	szűnjön szűnnek szűnni szűnnie szűnt szűntek szűnő
+81	7981	kognitív	
+82	7982	erkölcstelen	erkölcstelenek erkölcstelennek
+83	7983	bennszülött	bennszülöttek bennszülötteket bennszülöttekkel
+84	7984	ránt	rántalak rántanak rántani rántasz rántja rántod rántok rántom rántottam rántottál ránts rántsa rántsd rántson rántás
+85	7985	országút	országutat országúton országútra
+86	7986	térsége	térségében
+87	7987	húsa	húsába húsából húsának húsát húsával
+88	7988	néprajzi	
+89	7989	workshop	
+90	7990	működőképes	működőképesek működőképessé
+91	7991	bűvész	bűvészek bűvésznek bűvészt
+92	7992	professzionális	
+93	7993	chat	chaten
+94	7994	blöfföl	blöffölnek blöffölni blöffölsz blöffölt blöfföltem blöfföltél blöffölök blöffölünk
+95	7995	ügyetlen	ügyetlenek ügyetlenül
+96	7996	szakszervezeti	
+97	7997	pénzes	pénzesek
+98	7998	kimagasló	
+99	7999	rozsdás	
+100	8000	omlik	omlanak omlani omlott omlás

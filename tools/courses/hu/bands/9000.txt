@@ -1,0 +1,100 @@
+1	8901	mérgez	mérgezed mérgezi mérgezik mérgezni mérgezte mérgezted mérgeztek mérgeztem mérgezték mérgezve
+2	8902	papagáj	papagájjal papagájnak papagájok papagájt
+3	8903	ügyed	ügyedben ügyeddel ügyeden ügyedet ügyedhez ügyedről
+4	8904	kamilla	
+5	8905	szökőkút	szökőkutak szökőkutat szökőkútba szökőkútban szökőkúthoz szökőkútnál
+6	8906	emlős	emlősök
+7	8907	felszólít	felszólítalak felszólítja felszólítom felszólította felszólítottam felszólító
+8	8908	ígérkezik	ígérkezett ígérkező
+9	8909	kellően	
+10	8910	pletykál	pletykáljanak pletykálják pletykálnak pletykálni pletykált pletykáltak pletykálták
+11	8911	hanyag	hanyagok hanyagul
+12	8912	adottság	adottsággal adottságok adottságokkal adottságot
+13	8913	fogadása	fogadásán fogadására fogadását
+14	8914	segéd	segédek segédet segédnek segédre
+15	8915	öltözék	öltözékben öltözéket
+16	8916	jóság	jósággal jóságot
+17	8917	jövőbeni	
+18	8918	nagyobbik	
+19	8919	alattomos	alattomosak
+20	8920	osztályvezető	
+21	8921	buszmegálló	buszmegállóba buszmegállóban buszmegállóhoz buszmegállóig buszmegállónál buszmegállót
+22	8922	elvarázsol	elvarázsolt elvarázsolta elvarázsoltál
+23	8923	bonyolít	bonyolítani bonyolítaná bonyolítja bonyolítjuk bonyolítják bonyolítod bonyolítom bonyolított bonyolította bonyolítsa bonyolítsuk
+24	8924	neurológiai	
+25	8925	kifutó	kifutón kifutóra kifutót
+26	8926	áprilisa	áprilisában
+27	8927	túlerő	túlerőben túlerővel
+28	8928	jövedelmező	jövedelmezőbb legjövedelmezőbb
+29	8929	különösképpen	különösképp
+30	8930	szerepük	szerepüket
+31	8931	megdöglik	megdöglenek megdögleni megdöglesz megdöglök megdöglött megdöglöttek megdöglötök megdöglünk
+32	8932	mérce	mércéje mércét mércével
+33	8933	szakirodalom	szakirodalmat szakirodalomban
+34	8934	rövidfilm	
+35	8935	anomália	anomáliák anomáliákat anomálián anomáliát
+36	8936	puma	pumák pumát
+37	8937	huncut	
+38	8938	megélhetés	megélhetéshez megélhetésre megélhetést megélhetésért
+39	8939	múlta	múltán múltával
+40	8940	társulás	társulások társulást
+41	8941	progresszív	
+42	8942	beleszól	beleszólhatok beleszóljak beleszóljon beleszólnak beleszólni beleszólnom beleszólok beleszólsz beleszólt beleszóltam beleszólást
+43	8943	egyetértés	egyetértésben egyetértésre egyetértést
+44	8944	taxis	taxisnak taxisok taxissal taxist
+45	8945	kavics	kaviccsal kavicsok kavicsokat kavicsot
+46	8946	fehérvár	
+47	8947	komló	
+48	8948	formáció	formációban formációt
+49	8949	tanulság	tanulságot
+50	8950	jobboldal	jobboldalon jobboldalt
+51	8951	poliészter	
+52	8952	huszár	huszárok
+53	8953	szükséglet	szükségleteit szükségletek szükségletet
+54	8954	ellenállhatatlan	ellenállhatatlannak ellenállhatatlanná ellenállhatatlanul
+55	8955	elfojt	elfojtani elfojtja elfojtod elfojtom elfojtott elfojtotta elfojtottam elfojtsa elfojtás
+56	8956	viadal	viadalon viadalra viadalt
+57	8957	elutazik	elutaztak
+58	8958	szabályozó	szabályzó
+59	8959	jószág	jószágok jószágokat jószágot
+60	8960	jéghideg	
+61	8961	újítás	újítások újítást
+62	8962	távközlési	
+63	8963	kivezet	kivezeti kivezetni kivezető
+64	8964	bunda	bundában bundát bundával
+65	8965	háziállat	háziállatként háziállatnak háziállatok háziállatokat háziállatot
+66	8966	belépési	
+67	8967	gyógyszerész	gyógyszerészek gyógyszerésznek gyógyszerészt
+68	8968	sekély	sekélyebb
+69	8969	borzalom	borzalmak borzalmakat borzalmat borzalommal
+70	8970	sorolható	sorolhatók
+71	8971	szabadkőműves	szabadkőművesek
+72	8972	oldat	oldatot
+73	8973	előirányzat	előirányzatok
+74	8974	múmia	múmiák múmiákat múmiát
+75	8975	törvényjavaslat	törvényjavaslatot
+76	8976	képi	
+77	8977	felséges	
+78	8978	megcsúszik	megcsúszott megcsúsztam megcsúsztál
+79	8979	sértett	sértettek sértettet
+80	8980	kivizsgál	kivizsgálja kivizsgáljuk kivizsgálják kivizsgálni kivizsgálom kivizsgálta kivizsgáltuk kivizsgálták kivizsgálás kivizsgáló
+81	8981	feldolgozó	
+82	8982	felszabadító	felszabadítók
+83	8983	tárcám	tárcámat tárcámba tárcámban tárcámból
+84	8984	románc	románcnak románcok románcot románcra románcról
+85	8985	babája	babájának babájáról babáját babájával
+86	8986	kitér	kitérek kitérni kitért
+87	8987	emészt	eméssze emészd emészted emésztem emésztenem emészteni emésztett emésztette emészthető emészti emésztés emésztő
+88	8988	kimerítő	
+89	8989	mosogató	mosogatóba mosogatóban mosogatónál mosogatót
+90	8990	mellem	mellemben mellemen mellemet mellemre
+91	8991	véleményük	véleményüket
+92	8992	gluténmentes	
+93	8993	többszöri	
+94	8994	belead	beleadja beleadnak beleadni beleadok beleadom beleadott beleadsz beleadta beleadtam beleadtunk beleadtál beleadunk
+95	8995	szemüveges	
+96	8996	indítás	indításhoz indításig indításra indítást
+97	8997	kereset	keresete keresetek keresetet
+98	8998	príma	prímán
+99	8999	tájékoztatása	
+100	9000	arányú	

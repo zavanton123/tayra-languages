@@ -1,0 +1,100 @@
+1	7801	mellkasi	
+2	7802	rúpia	rúpiába rúpiára rúpiát rúpiával rúpiáért
+3	7803	izzó	izzók izzókat izzót
+4	7804	cici	cicik ciciket cicikkel cicit
+5	7805	erősöd	erősödött
+6	7806	függőség	függőségben függőséget függőséggel függőségre függőségről
+7	7807	hagyományai	hagyományainak hagyományait
+8	7808	felirata	feliratát
+9	7809	döbbenetes	
+10	7810	kín	kínban kínja kínjai kínnal kínok kínokat kínoktól kínt kíntól
+11	7811	gyufa	gyufája gyufák gyufára gyufát gyufával
+12	7812	magánélet	magánéletben magánéletemmel magánéletet magánélethez magánéletre magánélettel magánéletét
+13	7813	legyőzhetetlen	legyőzhetetlenek legyőzhetetlennek legyőzhetetlenné
+14	7814	kaszás	kaszásnak kaszások kaszást
+15	7815	ugyebár	
+16	7816	nyakunk	nyakunkat nyakunkba nyakunkban nyakunkon nyakunkra
+17	7817	elektronikai	
+18	7818	rendezés	
+19	7819	közélet	közéletben
+20	7820	felhatalmaz	felhatalmazom felhatalmazott felhatalmazta felhatalmaztak felhatalmazva felhatalmazza felhatalmazás felhatalmazást
+21	7821	hátizsák	hátizsákba hátizsákban hátizsákkal hátizsákokat hátizsákot
+22	7822	pajta	pajtába pajtában pajtából pajtánál pajtát
+23	7823	guru	gurut
+24	7824	toboroz	toboroznak toborozni toboroznunk toborozta toboroztak toboroztam toborozzon toborzok toborzott toborzunk toborzás toborzó
+25	7825	konténer	konténerbe konténerben konténerből konténerek konténerekben konténereket konténert
+26	7826	elvei	elveihez elveit elveivel
+27	7827	nyaki	
+28	7828	tárolás	tárolásra
+29	7829	vulkáni	vulkániak
+30	7830	bébiszitter	bébiszitterek bébiszitternek bébiszitterre bébiszitterrel bébiszittert
+31	7831	gyulladás	gyulladásra gyulladást
+32	7832	rovat	rovatba rovatban rovatot
+33	7833	szauna	szaunába szaunában szaunát
+34	7834	szelep	szelepek szelepeket szelepet
+35	7835	lemerül	lemerülnek lemerülni lemerült lemerültek lemerültem lemerülök lemerülünk
+36	7836	áprilisi	
+37	7837	felöltözik	felöltözhet felöltözhetsz felöltözni felöltöznél felöltöznöd felöltöztem felöltöztél felöltözve felöltözök felöltözöl felöltözött felöltözünk
+38	7838	nyomtatvány	nyomtatványok nyomtatványokat nyomtatványon nyomtatványt
+39	7839	folytonos	
+40	7840	előszeretet	előszeretettel
+41	7841	ólom	ólmot ólomból ólommal
+42	7842	tornádó	tornádók tornádót
+43	7843	szerviz	szervizbe szervizben szervizt szervíz
+44	7844	vendéglő	vendéglőbe vendéglőben vendéglőből vendéglőt
+45	7845	hordozható	
+46	7846	látványosan	
+47	7847	kőbánya	kőbányába kőbányában
+48	7848	porszívó	porszívót porszívóval
+49	7849	kezdődhet	
+50	7850	esedékes	
+51	7851	kapocs	kapcsok kapcsokat kapcsot
+52	7852	jólesik	jólesett
+53	7853	terme	termébe termében termét
+54	7854	értelmiségi	értelmiségiek
+55	7855	stroke	stroke-ot sztrók
+56	7856	egyéniség	egyénisége egyéniségek egyéniséget egyéniségét
+57	7857	uralta	
+58	7858	tapsol	tapsoljanak tapsoljatok tapsoljon tapsoljuk tapsoljunk tapsolják tapsoljátok tapsolnak tapsolni tapsolok tapsolsz tapsolt tapsoltak tapsolunk tapsolás tapsoló
+59	7859	fagylalt	fagylaltot fagylalttal
+60	7860	atombomba	atombombák atombombákat atombombát atombombával
+61	7861	tanulságos	
+62	7862	visszahoz	visszahozott visszahozta visszahoztak visszahozták visszahozzon visszahozzák
+63	7863	felfigyel	felfigyeljen felfigyeljenek felfigyelnek felfigyelni felfigyelt felfigyeltek felfigyeltem felfigyeltünk
+64	7864	termékeny	legtermékenyebb termékennyé termékenyek
+65	7865	focizik	fociznak focizni focizok focizol focizott fociztam fociztunk fociztál focizunk focizzunk focizás
+66	7866	társas	
+67	7867	összevet	összevetem összevetette összevetettem összevetettük összeveti összevetjük összevetni összevetve
+68	7868	higgadt	higgadtabb higgadtak higgadtan higgadtnak
+69	7869	kiegészítés	kiegészítésben kiegészítésre kiegészítéssel kiegészítést
+70	7870	keresztapa	keresztapja keresztapában keresztapának keresztapát
+71	7871	horog	horgokat horgon horgot horoggal horogra horogról
+72	7872	kihűl	kihűlt
+73	7873	ököl	öklei öklök öklöt ökölbe ököllel
+74	7874	kakaó	kakaóra kakaót kakaóval
+75	7875	bükk	bükkben
+76	7876	ruhás	ruhástól
+77	7877	henger	hengerben hengerek hengert
+78	7878	nagymértékben	
+79	7879	paróka	parókában parókák parókákat parókát parókával
+80	7880	felvág	felvágja felvágjuk felvágják felvágnak felvágni felvágnád felvágod felvágom felvágott felvágsz felvágta felvágtad felvágtam felvágták felvágás
+81	7881	keresési	
+82	7882	széke	székébe székében székéből székén székére székét székéért
+83	7883	teológiai	
+84	7884	orvostudomány	orvostudományban orvostudománynak orvostudományt
+85	7885	függvény	függvények függvényt
+86	7886	négyzet	négyzeten négyzetet négyzetre
+87	7887	krokodil	krokodillal krokodilok krokodilokat krokodilokkal krokodilt
+88	7888	ahány	ahányat
+89	7889	plazma	plazmára plazmát plazmával
+90	7890	önzetlen	legönzetlenebb önzetlenek önzetlenül
+91	7891	szobatárs	szobatársak szobatársam szobatársat szobatárssal szobatársának
+92	7892	istentisztelet	istentiszteleten istentiszteletet istentiszteletre
+93	7893	eldug	eldugja eldugjuk eldugni eldugom eldugott eldugta eldugtad eldugtam eldugták eldugva
+94	7894	oldalai	oldalain oldalait
+95	7895	autonómia	autonómiát
+96	7896	bunyó	bunyóba bunyóban bunyóhoz bunyók bunyókat bunyóra bunyóról bunyót
+97	7897	balfasz	balfasznak balfaszok balfaszt
+98	7898	fiatalkorú	fiatalkorúak
+99	7899	nagybáty	nagybátyám
+100	7900	megfontolt	megfontoltabb megfontoltak megfontoltan megfontoltnak

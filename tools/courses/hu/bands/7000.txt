@@ -1,0 +1,100 @@
+1	6901	elhelyezkedik	elhelyezkedett elhelyezkedni elhelyezkedtek elhelyezkedő
+2	6902	korrekt	korrektek korrektnek korrektül
+3	6903	áfa	
+4	6904	másodperces	
+5	6905	kilencvenes	
+6	6906	uncsi	uncsik
+7	6907	változatosság	változatosságot változatosságra
+8	6908	kapui	kapuin kapuit
+9	6909	szakközépiskola	szakközépiskolában
+10	6910	visszaút	visszautat
+11	6911	világi	világit
+12	6912	meteor	meteorok meteort
+13	6913	naplemente	naplementébe naplementében naplementéig naplementék naplementére naplementét
+14	6914	betűs	
+15	6915	temetkezési	
+16	6916	pillanatnyi	
+17	6917	padlás	padlásig padláson padlásra padlásról padlást
+18	6918	átjáró	átjáróba átjáróban átjárók
+19	6919	zsinór	zsinórban zsinórok zsinórokat zsinóron zsinórral zsinórt
+20	6920	pontszám	pontszámmal pontszámok pontszámokat pontszámot
+21	6921	gyógyszertár	gyógyszertárat gyógyszertárba gyógyszertárban gyógyszertárból gyógyszertárnál
+22	6922	végrehajtó	végrehajtók végrehajtót
+23	6923	szemle	szemlére szemlét
+24	6924	érzéki	
+25	6925	agyag	agyagból agyaggal agyagot
+26	6926	kegyes	kegyesek kegyesen
+27	6927	lapát	lapátok lapátokat lapátot lapátra lapáttal
+28	6928	tokaji	
+29	6929	összhangban	
+30	6930	relatív	
+31	6931	célszerű	célszerűbb
+32	6932	képeslap	képeslapok képeslapokat képeslapon képeslapot képeslapra
+33	6933	kialakuló	kialakulóban
+34	6934	szállítása	szállításához szállítására szállítását szállításáért
+35	6935	mobiltelefon	mobiltelefonját mobiltelefonnal mobiltelefonok mobiltelefonokat mobiltelefont
+36	6936	leleplez	leleplezed leleplezem leleplezett leleplezheti leleplezhetjük leleplezi leleplezik lelepleznek leleplezni leleplezte leleplezted lelepleztek lelepleztem leleplezték lelepleztél lelepleztük leleplezze leleplezzem leleplezzük leleplező
+37	6937	hősies	hősiesen hősiesnek
+38	6938	ügyfelei	ügyfeleik ügyfeleinek ügyfeleiről ügyfeleit ügyfeleivel
+39	6939	torkom	torkomat torkomba torkomban torkomhoz torkomnak torkomon torkomra
+40	6940	képzelet	képzeletben képzelete képzeletet képzeletnek képzeletében képzeletét
+41	6941	fenyő	fenyők fenyőt
+42	6942	kellemetlenség	kellemetlenségek kellemetlenségeket kellemetlenségekért kellemetlenséget kellemetlenséggel kellemetlenségtől kellemetlenségért
+43	6943	alumínium	alumíniumból alumíniumot
+44	6944	megdönt	megdönteni megdönthetetlen megdönti megdöntjük megdöntse megdöntsék megdöntöd megdöntöm megdöntött megdöntötte megdöntötted megdöntöttem megdöntötték
+45	6945	jelképez	jelképezi jelképezik jelképeznek jelképezte jelképező
+46	6946	limitál	limitált
+47	6947	felülmúl	felülmúlhatatlan felülmúlja felülmúlják felülmúlni felülmúlt felülmúlta felülmúltad felülmúlták felülmúló
+48	6948	üstökös	üstököst üstökösök üstökösöket
+49	6949	munkanap	munkanapokon munkanapon munkanapot
+50	6950	volta	voltaképp voltan voltát
+51	6951	pótol	pótolhatja pótolja pótoljam pótoljuk pótolják pótolni pótolnom pótolnunk pótolom pótolta
+52	6952	hozzáad	hozzáadhatjuk hozzáadja hozzáadjuk hozzáadni hozzáadod hozzáadok hozzáadom hozzáadott hozzáadsz hozzáadta hozzáadtak hozzáadtam hozzáadunk hozzáadva
+53	6953	telefonhívás	telefonhívások telefonhívásokat telefonhívásokkal telefonhívásra telefonhívásról telefonhívással telefonhívást
+54	6954	eladási	
+55	6955	báb	bábbal bábból bábként bábok bábokat bábokkal bábot
+56	6956	leráz	lerázni leráznom lerázod lerázol lerázom lerázott lerázta leráztad leráztak leráztam leráztuk leráztál lerázza lerázzam lerázzon lerázzuk
+57	6957	tehető	
+58	6958	funkciója	funkcióját
+59	6959	önmaguk	önmagukat önmagukban önmagukkal önmaguknak önmagukra önmagukról önmaguktól önmagukért
+60	6960	gondnok	gondnokkal gondnokként gondnoknak gondnokok gondnokot
+61	6961	beválik	beválhat beválna beválnak beválni
+62	6962	szocializmus	szocializmust
+63	6963	körülményei	körülményeiről körülményeit
+64	6964	nyomtatás	nyomtatásba nyomtatásban nyomtatásra nyomtatást
+65	6965	csavargó	csavargók csavargókat csavargóknak csavargónak csavargót csavargóval
+66	6966	tároló	tárolóba tárolóban tárolóból tárolók tárolókat tárolót
+67	6967	arcuk	arcukat arcukba arcukon arcukra arcukról
+68	6968	gatya	gatyába gatyában gatyák gatyákat gatyát gatyával
+69	6969	éneklés	éneklésben énekléshez éneklésre éneklésről énekléssel éneklést
+70	6970	produkál	produkálja produkálni produkált produkálta
+71	6971	mindennapos	mindennaposak
+72	6972	gyakorlata	gyakorlatában gyakorlatát
+73	6973	életetek	életetekbe életetekben életetekből életeteket életetekkel életeteknek életetekre életetekért
+74	6974	ellenőrzött	
+75	6975	drón	drónnal drónok drónokat drónokkal drónt
+76	6976	visszhang	visszhangja visszhangok visszhangot
+77	6977	feltart	feltartalak feltartani feltartasz feltartja feltartjuk feltartják feltartod feltartom feltartott feltartotta feltartottak feltartottalak feltartottam feltartották
+78	6978	türelmetlen	türelmetlenebb türelmetlenek türelmetlennek türelmetlenné türelmetlenül
+79	6979	váltságdíj	váltságdíjat váltságdíjjal váltságdíjra váltságdíjról váltságdíjért
+80	6980	elejt	elejted elejtem elejteni elejtett elejtette elejtetted elejtettem elejtették elejtettél elejti elejtik
+81	6981	megállapítása	megállapításához megállapítására megállapításáról
+82	6982	hazajött	hazajöttünk
+83	6983	multi	multik
+84	6984	világom	világomat világomba világomban
+85	6985	összejön	összejöjjenek
+86	6986	munkáltató	munkáltatók
+87	6987	kísérletezik	kísérletezek kísérletezel kísérletezett kísérleteznek kísérleteztek kísérleteztem kísérleteztél kísérleteztünk kísérletezzen kísérletezzenek kísérletezés kísérletezünk
+88	6988	jókor	jobbkor legjobbkor
+89	6989	őszinteség	őszinteségen őszinteséget őszinteséggel őszinteségre őszinteségről
+90	6990	tradicionális	
+91	6991	mihelyt	mihelyst
+92	6992	kölcsönad	kölcsönadhatom kölcsönadja kölcsönadjam kölcsönadni kölcsönadná kölcsönadnád kölcsönadnál kölcsönadod kölcsönadok kölcsönadom kölcsönadott kölcsönadsz kölcsönadta kölcsönadtad kölcsönadtam kölcsönadtál
+93	6993	innovatív	
+94	6994	alakulása	alakulását
+95	6995	marihuána	marihuánát marihuánától marihuánával
+96	6996	áthelyez	áthelyezem áthelyezett áthelyezi áthelyezik áthelyeznek áthelyezni áthelyezte áthelyeztek áthelyeztem áthelyezték áthelyeztük áthelyezzenek áthelyezzük
+97	6997	szír	szírek
+98	6998	viszket	viszketek viszketett viszketnek viszketni viszkető
+99	6999	ét	étek étket
+100	7000	megjátszik	megjátssza megjátsszuk megjátsszák megjátsza megjátszani megjátszania megjátszanod megjátszanom megjátszod megjátszom megjátszott megjátszotta megjátszottad megjátszottam megjátszottuk megjátszották megjátszás

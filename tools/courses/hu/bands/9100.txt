@@ -1,0 +1,100 @@
+1	9001	nevelte	
+2	9002	szaglászik	szaglásszanak szaglásszon szaglásznak szaglászni szaglászol szaglászom szaglászott szaglásztam szaglásztál szaglászunk szaglászó
+3	9003	néhányuk	
+4	9004	léc	léceket lécet
+5	9005	ismétlés	ismétlése ismétléseket ismétlést
+6	9006	ügyfélszolgálati	
+7	9007	rituális	
+8	9008	barátjuk	barátjukat barátjukkal barátjuknak
+9	9009	szűkös	szűkösek
+10	9010	gótikus	
+11	9011	mitológia	mitológiában mitológiából mitológiáról mitológiát
+12	9012	nevezhető	
+13	9013	zabál	zabálja zabálják zabálnak zabálni zabálok zabálsz zabált zabálta zabáltam zabálás zabáló
+14	9014	gyorsul	gyorsulni gyorsult gyorsulunk gyorsuló
+15	9015	iparág	iparágak iparágat iparágban
+16	9016	emelés	emelésre emelést
+17	9017	igazságtalanság	igazságtalansággal igazságtalanságnak igazságtalanságok igazságtalanságot
+18	9018	éjféli	
+19	9019	csatatér	csatateret csatatéren csatatérre csatatérré csatatérről
+20	9020	átlát	átlátja átlátnak átlátni átlátod átlátok átlátom átlátott átlátsz átláttam átláttál átlátunk
+21	9021	többes	
+22	9022	ízelítő	ízelítőt
+23	9023	elbocsát	elbocsátanak elbocsátani elbocsátjuk elbocsátják elbocsátom elbocsátott elbocsátotta elbocsátottak elbocsátottam elbocsátották elbocsátva elbocsátó
+24	9024	kémkedés	kémkedésben kémkedésnek kémkedésre kémkedésről kémkedéssel kémkedést kémkedésért
+25	9025	vonzalom	vonzalmat
+26	9026	rejtekhely	rejtekhelyed rejtekhelyek rejtekhelyen rejtekhelyet rejtekhelynek rejtekhelyre rejtekhelyről rejtekhelyén rejtekhelyük
+27	9027	összetétel	összetételt
+28	9028	köntös	köntösbe köntösben köntöst
+29	9029	tolmács	tolmácsnak tolmácsot tolmácsra
+30	9030	vitorlázás	
+31	9031	dolgaid	dolgaidat dolgaidba dolgaiddal dolgaidra dolgaidról
+32	9032	meggyőződik	meggyőződjünk meggyőződni meggyőződtem meggyőződtünk meggyőződve meggyőződök meggyőződött meggyőződünk
+33	9033	hagyománya	hagyományát
+34	9034	távirányító	távirányítót távirányítóval
+35	9035	billentyű	billentyűk billentyűket billentyűt
+36	9036	tejföl	tejfel tejföllel
+37	9037	baljós	
+38	9038	nehézkes	nehézkesen
+39	9039	macskája	macskájának macskáját macskájával
+40	9040	tulajdonít	tulajdonítanak tulajdonítani tulajdonított
+41	9041	kérelme	kérelmének kérelmére kérelmét
+42	9042	összekapcsol	összekapcsolható összekapcsolja összekapcsoljuk összekapcsolják összekapcsolni összekapcsolt összekapcsolta összekapcsoltam összekapcsolták összekapcsolva
+43	9043	eszmélet	eszméletét
+44	9044	arborétum	
+45	9045	módszertani	
+46	9046	kölcsönzés	
+47	9047	elvállal	elvállalni elvállalná elvállalok elvállalta elvállaltuk
+48	9048	rögzítette	
+49	9049	kezelési	
+50	9050	tűzhely	tűzhelyen tűzhelyet tűzhelyhez tűzhelynél tűzhelyre
+51	9051	tengerészet	tengerészetet tengerészethez tengerészetnek tengerészetnél tengerészettől
+52	9052	véges	végesek
+53	9053	görény	görénnyel görények görénynek görényt
+54	9054	reszel	reszelt reszeltek
+55	9055	tetovál	tetovált tetoválva tetováló
+56	9056	kereskedés	kereskedésbe kereskedésben kereskedéssel kereskedést kereskedésért
+57	9057	holmija	holmijához holmiját holmijával holmijáért
+58	9058	megengedhet	megengedheted megengedhetek megengedhetem megengedhetetlen megengedheti megengedhetik megengedhetjük megengedhetné megengedhetném megengedhetnénk megengedhetsz megengedhetünk megengedhető
+59	9059	tárolása	tárolására
+60	9060	képzési	
+61	9061	országai	országaiban országainak
+62	9062	rangsor	rangsorban rangsort
+63	9063	kontrollál	kontrollálhatatlan kontrollálja kontrolláljuk kontrollálják kontrollálni kontrollálom kontrollált
+64	9064	bekezdés	bekezdésben bekezdést
+65	9065	terhe	terhét terhétől
+66	9066	napnyugta	napnyugtáig napnyugtára napnyugtát
+67	9067	statikus	
+68	9068	gyakorlása	gyakorlására gyakorlását
+69	9069	felemelkedik	felemelkedett felemelkedni
+70	9070	gipsz	gipszben gipszet
+71	9071	önmagunk	önmagunkat önmagunkban önmagunkhoz önmagunkkal önmagunknak önmagunktól
+72	9072	sampon	samponnal sampont
+73	9073	ámde	
+74	9074	közelség	közelségbe közelségben közelsége közelséget
+75	9075	udvariatlan	udvariatlannak udvariatlanok udvariatlanul
+76	9076	kapcsolható	
+77	9077	viszály	viszálynak viszályok viszályt
+78	9078	vigasztal	vigasztalhatatlan vigasztalja vigasztaljon vigasztalnak vigasztalni vigasztalom vigasztalt vigasztalta vigasztaltam vigasztaló
+79	9079	döf	döfd döfi döfj döfnek döfni döfsz döfte döftek döftem döfték döftél döfök döföm döfött
+80	9080	újdonsül	újdonsült
+81	9081	tízéves	tízévesen
+82	9082	buzgó	buzgón
+83	9083	gépjármű	gépjárműből gépjárművek gépjárművet
+84	9084	szárnyal	szárnyaljon szárnyalnak szárnyalni szárnyalok szárnyalsz szárnyalt szárnyalás szárnyaló
+85	9085	könyvelés	könyvelésben könyvelésen könyvelésre könyvelésről könyveléssel könyvelést
+86	9086	mennyezet	mennyezeten mennyezetet mennyezetre mennyezetről
+87	9087	szavaid	szavaidat szavaidban szavaidból szavaiddal szavaidnak szavaidra
+88	9088	értelmi	
+89	9089	lakótelep	lakótelepen lakótelepet
+90	9090	térdel	térdelek térdeljek térdeljen térdeljenek térdeljetek térdelnek térdelni térdelsz térdelt térdeltem térdeltél térdelve
+91	9091	inzulin	inzulinra inzulint
+92	9092	időutazás	időutazásban időutazásra időutazásról időutazással időutazást
+93	9093	betekintés	betekintést
+94	9094	veje	vejének vejét
+95	9095	bitcoin	bitcoint
+96	9096	elfogadás	elfogadásra elfogadást
+97	9097	aszfalt	aszfaltra
+98	9098	ambiciózus	
+99	9099	zeller	zellert
+100	9100	hátrafelé	

@@ -1,0 +1,100 @@
+1	8501	bali	balin balira
+2	8502	zászlóalj	zászlóaljat zászlóaljban
+3	8503	sétány	sétányon sétányra
+4	8504	érintkezés	érintkezésbe érintkezéssel érintkezést
+5	8505	bátorít	bátorítani bátorítasz bátorítja bátorítjuk bátorítják bátorítod bátorítom bátorított bátorította bátorítottad bátorítottak bátorítottalak bátorítottam bátorítottál bátorítsa bátorítsuk bátorító
+6	8506	centrum	centrumban
+7	8507	vitázik	vitáznak vitázni vitázol vitázott vitáztak vitáztatok vitáztok vitáztunk vitázunk vitázzon vitázzunk
+8	8508	szabadlábon	
+9	8509	ügyintéző	
+10	8510	gyengül	gyengülnek gyengülni gyengülsz gyengült gyengülve gyengülök gyengülő
+11	8511	dia	diákat diákkal diákként diáknak diákra diákról diáktól diát
+12	8512	újságírás	újságírásban újságírást
+13	8513	elvérzik	elvérezhet elvérezni elvérezzen elvérzek elvérzel elvérzett elvérzés
+14	8514	nevelési	
+15	8515	fejlesztői	
+16	8516	vízálló	
+17	8517	kandalló	kandallóba kandallóban kandallóhoz kandallón kandallónál kandallóra kandallót
+18	8518	köve	kövéhez kövén kövének kövére kövéről kövét kövével
+19	8519	rokonság	rokonságba rokonságban rokonságot
+20	8520	ajándékod	ajándékodat
+21	8521	portás	portásnak portások portással portást
+22	8522	fókuszál	fókuszáljon fókuszáljunk fókuszálnak fókuszálni fókuszálnom fókuszálnunk fókuszálok fókuszálsz fókuszált fókuszáltam fókuszálunk fókuszálva
+23	8523	hossz	hosszal hosszat hosszt
+24	8524	forgalmas	legforgalmasabb
+25	8525	elnökválasztás	elnökválasztáson
+26	8526	bestia	bestiák bestiának bestiát bestiával
+27	8527	korsó	korsót korsóval
+28	8528	szár	szára szárat szárba szárát
+29	8529	bemutatkozás	bemutatkozásra bemutatkozással bemutatkozást
+30	8530	kölcsönkér	kölcsönkérek kölcsönkérem kölcsönkérhetek kölcsönkérhetem kölcsönkérhetnék kölcsönkérhetném kölcsönkérni kölcsönkérném kölcsönkért kölcsönkérte kölcsönkértem kölcsönkértél
+31	8531	kisember	kisemberek kisembereket kisembernek kisembert
+32	8532	társasház	társasházban
+33	8533	csomagja	csomagját csomagjával
+34	8534	embertelen	embertelenek emberteleneket embertelenül
+35	8535	zarándok	zarándokok zarándokot
+36	8536	téveszt	tévessz tévessze tévesszen tévesszék téveszted tévesztelek tévesztem téveszteni tévesztett tévesztette tévesztettek tévesztettem tévesztettél tévesztettük tévesztheted tévesztheti téveszti tévesztjük
+37	8537	februári	
+38	8538	kombi	kombinálja kombináljuk kombinálni kombinálva kombit
+39	8539	küszöbe	küszöbén küszöbére küszöbét
+40	8540	lépcsőház	lépcsőházat lépcsőházba lépcsőházban lépcsőházból
+41	8541	főorvos	főorvosnak főorvost
+42	8542	komplikált	komplikáltabb komplikáltak komplikálttá
+43	8543	vidéke	vidékén vidékét
+44	8544	büszkesége	büszkeségét
+45	8545	programozó	programozók
+46	8546	iránytű	iránytűt iránytűvel
+47	8547	lepel	leplet
+48	8548	specifikus	
+49	8549	dalom	dalomat dalommal
+50	8550	hej	
+51	8551	lelassul	lelassulnak lelassulni lelassult lelassultak lelassít lelassította
+52	8552	szimuláció	szimulációban szimulációk szimulációkat szimulációt
+53	8553	ragaszt	ragassza ragasztani ragasztanom ragasztja ragasztott ragasztotta ragasztottad ragasztottak ragasztottam ragasztották ragasztva
+54	8554	hatan	
+55	8555	adatlap	adatlapot
+56	8556	muzulmán	muzulmánok
+57	8557	annyian	
+58	8558	mása	mását
+59	8559	zöldséges	zöldségeshez zöldségesnél
+60	8560	boldogsága	boldogságának boldogságára boldogságát boldogságáért
+61	8561	inge	ingén ingére ingét
+62	8562	illetékes	illetékesek illetékeseket
+63	8563	szeles	
+64	8564	átlép	átlépte
+65	8565	állampolgárság	állampolgársággal állampolgárságot
+66	8566	elszigetel	elszigetelt
+67	8567	kompatibilis	kompatibilisek
+68	8568	kertészeti	
+69	8569	rendű	
+70	8570	terméke	termékét
+71	8571	antiszemita	
+72	8572	könnyít	könnyíted könnyítek könnyítem könnyítene könnyíteni könnyített könnyítette könnyítettem könnyíti könnyítse könnyítsek könnyítsem könnyítsen könnyítsük könnyítsünk
+73	8573	jókora	jókorát
+74	8574	megteremt	megteremteni megteremtett megteremtette megteremtettem megteremti megteremtjük megteremtve
+75	8575	öle	ölébe ölében ölén
+76	8576	tisztességtelen	tisztességtelennek tisztességtelenül
+77	8577	küldöttség	küldöttséget küldöttséggel
+78	8578	fogadtatás	fogadtatásban fogadtatásra fogadtatást fogadtatásért
+79	8579	székhelyű	
+80	8580	elgondolkodtató	
+81	8581	vezethető	
+82	8582	elfeledett	
+83	8583	ködös	ködösek
+84	8584	képzése	képzésére képzését
+85	8585	kiskereskedelmi	
+86	8586	szerve	szervét
+87	8587	aloé	aloe
+88	8588	áramlat	áramlatok áramlatokat áramlatot áramlattal
+89	8589	birkózik	birkóznak birkózni birkóznia birkóznod birkóznom birkóznunk birkózol birkózott birkóztam birkóztunk birkóztál birkózunk birkózzunk
+90	8590	kisegítő	kisegítők kisegítőt
+91	8591	hosszabbít	hosszabbítani hosszabbítás
+92	8592	burkolat	burkolaton burkolatot
+93	8593	feltalál	feltalálja feltalálják feltalálni feltalálom feltalált feltalálta feltaláltak feltaláltam feltaláltuk feltalálták
+94	8594	összetesz	összetevő
+95	8595	csillog	csillogjon csillognak csillogni csillogott
+96	8596	láma	lámák lámát lámával
+97	8597	lakója	lakójának lakóját lakójával
+98	8598	idegenforgalmi	
+99	8599	kibocsát	kibocsátani kibocsátott
+100	8600	garanciális	

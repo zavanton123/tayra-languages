@@ -1,0 +1,100 @@
+1	6201	tetves	tetvesek
+2	6202	megfojt	megfojtalak megfojtanak megfojtani megfojtanám megfojtasz megfojtja megfojtják megfojtod megfojtom megfojtott megfojtotta megfojtottad megfojtottak megfojtottam megfojtották megfojtsa megfojtson megfojtva
+3	6203	antibiotikum	antibiotikummal antibiotikumok antibiotikumokat antibiotikumokkal antibiotikumokra antibiotikumot antibiotikumra
+4	6204	esztergomi	
+5	6205	márpedig	
+6	6206	tartozás	tartozása tartozásait tartozások tartozásokat tartozást tartozását
+7	6207	liba	libák libákat libának libát libával
+8	6208	jogszabály	jogszabályban jogszabályok jogszabályokat jogszabályt
+9	6209	nyílás	nyílásba nyílások nyílásokat nyíláson nyílást
+10	6210	tervünk	tervünkben tervünket tervünkhöz tervünkkel tervünknek tervünkre tervünkről
+11	6211	afféle	
+12	6212	gyógyulás	gyógyulásban gyógyuláshoz gyógyulásnak gyógyulásra gyógyulást
+13	6213	lezajlik	lezajlott
+14	6214	lezárt	lezártak lezártnak
+15	6215	szétesik	szétesek szétesel szétesett szétesne szétesnek szétesni szétessen szétestek szétestem széteső
+16	6216	ré	rét rétek réten rétre
+17	6217	léte	létének létére létét
+18	6218	kilyukad	kilyukadni kilyukadt
+19	6219	hülyéskedik	hülyéskedek hülyéskedett hülyéskedjen hülyéskedjetek hülyéskednek hülyéskedni hülyéskedsz hülyéskedtek hülyéskedtem hülyéskedtünk hülyéskedés hülyéskedünk
+20	6220	zenél	zenélek zenéljen zenéljünk zenélnek zenélni zenélsz zenélt zenéltek zenéltem zenéltünk zenélünk zenélő
+21	6221	melltartó	melltartóban melltartók melltartókat melltartóra melltartót melltartóval
+22	6222	annyiszor	
+23	6223	mágus	mágusnak mágusok mágussal mágust
+24	6224	sikátor	sikátorba sikátorban sikátorból sikátorok sikátorokban sikátoron sikátorra sikátort
+25	6225	célú	
+26	6226	tálca	tálcák tálcákat tálcán tálcára tálcáról tálcát tálcával
+27	6227	meteorológiai	
+28	6228	lehetőleg	
+29	6229	bugyi	bugyiban bugyik bugyikat bugyit bugyival
+30	6230	virágzik	virágoznak virágozzon virágzott
+31	6231	megbüntet	megbüntesse megbüntesselek megbüntessem megbüntessen megbüntessenek megbüntessék megbüntessük megbünteted megbüntetem megbüntetett megbünteti megbüntetik megbüntetjük megbüntetlek megbüntetnek megbüntetni megbüntetsz megbüntette megbüntettek megbüntettem megbüntették megbüntetve
+32	6232	thai	
+33	6233	borravaló	borravalónak borravalóra borravalót borravalóval borravalóért
+34	6234	tartózkodási	
+35	6235	tájékoztatás	tájékoztatást tájékoztatásul
+36	6236	tagozat	tagozaton
+37	6237	tagság	tagsága tagságot tagságát
+38	6238	barack	barackban barackok barackot
+39	6239	asztalom	asztalomat asztalomban asztalomhoz asztalomnál asztalomon asztalomra asztalomról asztalomtól
+40	6240	ötéves	ötévesen
+41	6241	érdek	érdekből érdekeiket érdekeink érdekek érdekeket érdekük érdekükben érdekünkben
+42	6242	érdemi	
+43	6243	mátrix	mátrixba mátrixban mátrixot
+44	6244	évtizedes	
+45	6245	visszajelzés	visszajelzések visszajelzéseket visszajelzést
+46	6246	ruházat	ruházatot
+47	6247	zűrzavar	zűrzavarba zűrzavarban zűrzavarból zűrzavarnak zűrzavarral zűrzavart zűrzavarért
+48	6248	összejövetel	összejövetelek összejöveteleken összejöveteleket összejövetelekre összejövetelen összejövetelnek összejövetelre összejövetelről összejövetelt
+49	6249	totális	
+50	6250	pingvin	pingvinek pingvineket pingvineknek pingvinnek pingvinnel pingvint
+51	6251	megfeledkezik	megfeledkezel megfeledkezett megfeledkeznek megfeledkezni megfeledkeznünk megfeledkeztek megfeledkeztem megfeledkeztetek megfeledkeztél megfeledkeztünk megfeledkezünk
+52	6252	rendszám	rendszámmal rendszámnak rendszámok rendszámokat rendszámot rendszámra
+53	6253	célunk	célunkat célunkhoz
+54	6254	vakáció	vakáción vakációnak vakációra vakációról vakációt
+55	6255	roncs	ronccsal ronccsá roncsban roncsból roncshoz roncsnak roncsok roncsokat roncsot
+56	6256	fogorvos	fogorvoshoz fogorvosnak fogorvosnál fogorvosok fogorvossal fogorvost fogorvostól
+57	6257	sugár	sugarai sugarak sugarakat sugarat sugárban sugárral
+58	6258	távolít	távolítani távolítanom távolítanunk távolítja távolítjuk távolítják távolítom távolított távolította távolítottak távolítottam távolították távolítsa távolítsam távolítsuk távolítsák távolítsátok
+59	6259	termés	termést termését
+60	6260	éppenséggel	
+61	6261	másfajta	
+62	6262	gyönyörűen	
+63	6263	tizenhat	tizenhatot
+64	6264	gondod	gondodat
+65	6265	átfogó	átfogóbb
+66	6266	ízű	ízűek ízűt
+67	6267	tombol	tombolnak tombolni tombolt tomboltak tombolás tomboló
+68	6268	erőmű	erőműbe erőműben erőműből erőműhöz erőműnél erőművek erőműveket erőművet
+69	6269	ezüstérem	ezüstérmet
+70	6270	polgárháború	polgárháborúba polgárháborúban polgárháborúnak polgárháborúról polgárháborút
+71	6271	berak	berakhatom berakja berakjuk berakják beraklak beraknak berakni beraknád berakod berakok berakom berakott beraksz berakta beraktad beraktak beraktam beraktuk berakták berakunk
+72	6272	látomás	látomásban látomások látomásokat látomásokkal látomást
+73	6273	legény	legények legénynek legényt
+74	6274	kötete	kötetében kötetének kötetét
+75	6275	állítólagos	
+76	6276	hányás	hányással hányást hányástól
+77	6277	kari	karin
+78	6278	rettent	rettenthetetlen rettentő
+79	6279	filmfesztivál	filmfesztiválon filmfesztiválra
+80	6280	vágya	vágyának vágyát vágyával
+81	6281	szakértői	
+82	6282	összege	összegét
+83	6283	tág	tágabb tágak tágra
+84	6284	elismerése	elismeréseként elismerésére elismerését
+85	6285	apuka	apukának
+86	6286	bazilika	bazilikában
+87	6287	mérsékelt	mérsékeltek mérsékelten
+88	6288	visszaszerez	visszaszerezni visszaszerezze
+89	6289	telefonszám	telefonszámmal telefonszámok telefonszámokat telefonszámot telefonszámra
+90	6290	fideszes	
+91	6291	mögötti	
+92	6292	levág	levágja levágod levágott levágtuk
+93	6293	érkezés	érkezésig érkezésük
+94	6294	menedzsment	
+95	6295	platform	platformon platformot platformra
+96	6296	sáros	sárosak
+97	6297	főképp	főképpen legfőképp
+98	6298	hormon	hormonnal hormonok hormonokat hormonokkal hormonoktól hormont
+99	6299	hamu	hamuban hamuból hamuhoz hamunak hamut hamuval hamuvá hamvak
+100	6300	karod	karodat karodba karodban karoddal karodon karodra

@@ -1,0 +1,100 @@
+1	4901	ezelőtti	
+2	4902	szövetséges	szövetségesek szövetségeseket szövetségesekkel szövetségeseknek szövetségesekre szövetségesként szövetségesnek szövetségesre szövetségest szövetségesük
+3	4903	bizonyítéka	bizonyítékaként bizonyítékát
+4	4904	feltételei	feltételeinek feltételeiről feltételeit
+5	4905	pad	padba padban padhoz padnál padok padokat padon padot padra padról
+6	4906	raj	rajban rajhoz rajjal rajnak rajra rajt rajthoz rajtnál rajtot rajtra
+7	4907	lelet	leletek leleteket leletekkel leletet
+8	4908	kering	keringenek keringeni keringett keringtek keringünk keringő keringőre keringőt
+9	4909	spontán	spontánnak
+10	4910	elvégzése	elvégzésében elvégzéséhez elvégzésére elvégzését
+11	4911	gusztustalan	gusztustalanabb gusztustalannak gusztustalanok gusztustalanul leggusztustalanabb
+12	4912	nyaral	nyaralnak nyaralni nyaralok nyaralsz nyaralt nyaraltam nyaraltunk nyaralunk
+13	4913	riasztó	riasztók riasztókat riasztónak riasztót riasztóval
+14	4914	ellenkezőleg	
+15	4915	bánod	
+16	4916	jellemzően	
+17	4917	űz	űzd űzi űzik űznek űzni űznünk űzte űztek űztem űzték űztél űztök űzz űzze űzzön űzzük űzöd űzök űzöl űzöm űzött űzünk
+18	4918	szór	szórd szórj szórja szórjon szórjuk szórják szórjátok szórnak szórni szórod szórok szórom szórsz szórt szórta szórtad szórtak szórtam szórták szórtál szórunk szórva
+19	4919	zuhany	zuhannyal zuhanyba zuhanyban zuhanyra zuhanyt
+20	4920	robban	robbanhat robbanjanak robbanjon robbanna robbannak robbanni robbannia robbanok robbansz robbanva robbanó
+21	4921	megnyugtató	megnyugtatóan megnyugtatóbb megnyugtatónak
+22	4922	ruhád	ruhádat ruhádba ruhádban ruháddal ruhádhoz ruhádon ruhádra ruhádról
+23	4923	főiskolai	
+24	4924	kezünk	kezünkbe kezünkben kezünkből kezünket kezünkhöz kezünkkel kezünkre
+25	4925	keskeny	keskenyebb keskenyek
+26	4926	vásárló	vásárlók vásárlókat vásárlókkal vásárlóknak vásárlónak vásárlót vásárlóval
+27	4927	előkelő	előkelőbb előkelőek előkelően előkelőnek legelőkelőbb
+28	4928	adósság	adóssága adósságait adósságba adósságban adósságból adóssággal adósságok adósságokat adósságot adósságát
+29	4929	bolgár	bolgárok
+30	4930	esküdt	esküdtek esküdteket esküdtekkel esküdteknek esküdtekre esküdtet esküdtnek esküdttel
+31	4931	lazít	lazítanak lazítani lazítania lazítanod lazítanom lazítanunk lazítanál lazítasz lazíthat lazíthatnál lazíthatnánk lazíthatok lazíthatsz lazíthatunk lazítok lazítottam lazítsa lazítsak lazítsanak lazítsatok lazítson lazítsunk lazítsál lazítunk lazító
+32	4932	egysége	egységébe egységében egységéből egységéhez egységének egységénél egységét egységétől egységével
+33	4933	kokain	kokainhoz kokainnak kokainnal kokainra kokainról kokaint
+34	4934	kicserél	kicseréled kicserélem kicserélhetem kicserélhetjük kicseréli kicserélik kicserélje kicseréljem kicseréljék kicseréljük kicserélni kicserélné kicserélnéd kicserélt kicserélte kicserélted kicseréltek kicseréltem kicserélték kicseréltük
+35	4935	elhúz	elhúzhassak elhúzhassunk elhúzhatnánk elhúzhatsz elhúzhatunk elhúzna elhúznak elhúzni elhúznál elhúznánk elhúznék elhúzod elhúzok elhúzol elhúzom elhúzott elhúzta elhúztak elhúztam elhúztok elhúztunk elhúzták elhúztál elhúzunk elhúzza elhúzzak elhúzzon elhúzzuk elhúzzunk elhúzzák
+36	4936	leszed	leszeded leszedek leszedem leszedett leszedhetjük leszedi leszedik leszedje leszedjem leszedjék leszedjük leszedlek leszednek leszednem leszedni leszedné leszednéd leszedte leszedted leszedtek leszedtem leszedték leszedtük leszedünk
+37	4937	korszerű	korszerűbb legkorszerűbb
+38	4938	szívroham	szívrohamban szívrohamhoz szívrohammal szívrohamnak szívrohamot
+39	4939	vizuális	
+40	4940	utállak	
+41	4941	páran	
+42	4942	láthatóan	
+43	4943	bölcsesség	bölcsessége bölcsességet bölcsességgel bölcsességnek bölcsességre bölcsességét
+44	4944	boy	boyt
+45	4945	részvény	részvényei részvényeik részvényeinek részvényeit részvények részvényekbe részvényekben részvényeket részvényekkel részvényekről részvényt
+46	4946	játszma	játszmába játszmában játszmából játszmák játszmákat játszmán játszmának játszmára játszmát
+47	4947	tál	tálak tálakat tálat tálba tálban tálból tállal tálon tálra
+48	4948	tulaj	tulajjal tulajnak tulajok tulajt
+49	4949	aktivál	aktiválhatja aktiválja aktiváljuk aktiválják aktiválni aktiválod aktiválom aktivált aktiválta aktiváltad aktiváltak aktiváltam aktiváltuk aktiválták aktiválva aktiváló
+50	4950	hátborzongató	hátborzongatóak hátborzongatóbb hátborzongatónak leghátborzongatóbb
+51	4951	gyanakodik	gyanakodjanak gyanakodjon gyanakodna gyanakodnak gyanakodni gyanakodnának gyanakodnék gyanakodott gyanakodsz gyanakodtak gyanakodtam gyanakodtunk gyanakodtál gyanakodva gyanakszanak gyanakszik gyanakszol gyanakszom gyanakszunk
+52	4952	szállítási	
+53	4953	soproni	
+54	4954	váci	
+55	4955	nyilvántartás	nyilvántartásba nyilvántartásban nyilvántartásból nyilvántartások nyilvántartásokat nyilvántartással nyilvántartást
+56	4956	merev	merevek mereven merevnek
+57	4957	verte	
+58	4958	boríték	borítékba borítékban borítékkal borítékok borítékokat borítékon borítékot borítékra borítékról
+59	4959	mid	miden midet midig
+60	4960	figyelmem	figyelmemet
+61	4961	szülői	
+62	4962	húsvét	húsvétig húsvétot húsvétra
+63	4963	ragadozó	ragadozók ragadozókat ragadozókkal ragadozóknak ragadozóktól ragadozónak ragadozót
+64	4964	kiír	kiírja kiírják kiírni kiírom kiírt kiírta kiírtam kiírták kiírva
+65	4965	vigyázat	
+66	4966	kölcsönös	
+67	4967	gyakornok	gyakornokkal gyakornokként gyakornoknak gyakornokok gyakornokokat gyakornokokkal gyakornokoknak gyakornokot
+68	4968	halhatatlan	halhatatlannak halhatatlanná halhatatlanok
+69	4969	lakatos	lakatost
+70	4970	gyűjteménye	gyűjteményébe gyűjteményében gyűjteményéből gyűjteményének gyűjteményét
+71	4971	széria	szériában szériát
+72	4972	dagadt	dagadtak dagadtat dagadtnak
+73	4973	érvény	érvénybe érvényben érvényre érvényt
+74	4974	imént	
+75	4975	részük	részüket részükről
+76	4976	arrafelé	arrafele
+77	4977	remeg	remegek remegett remegjen remegne remegnek remegni remegsz remegtek remegtem remegve remegő
+78	4978	állapít	állapítani állapítanunk állapítható állapítja állapítjuk állapítom állapított állapította állapítottak állapítottam állapítottuk állapították állapítsa
+79	4979	jen	jennek jennel jent
+80	4980	ezalatt	
+81	4981	kétszeres	kétszerese kétszeresen kétszeresére
+82	4982	bírói	
+83	4983	golf	golfban golffal golfhoz golfot golfra golfról
+84	4984	szólal	szólaljatok szólaljon szólalnak szólalni szólalok szólalsz szólalt szólaltam szólaltál
+85	4985	köteles	kötelesek
+86	4986	törés	törések töréseket törésnek törésre töréssel törést
+87	4987	jelei	jeleit
+88	4988	beugrik	beugrott beugrottak
+89	4989	ápoló	ápolók ápolókat ápolóként ápolónak ápolóra ápolót ápolóval
+90	4990	megismerkedik	megismerkedek megismerkedett megismerkedhetsz megismerkedhetünk megismerkedjünk megismerkedne megismerkednek megismerkedni megismerkednék megismerkednél megismerkedsz megismerkedtek megismerkedtem megismerkedtetek megismerkedtél megismerkedtünk megismerkedünk
+91	4991	ring	ringat ringatod ringatta ringbe ringben ringből ringen ringet ringó
+92	4992	lebukik	lebukhatunk lebukjunk lebuknak lebukni lebukok lebukott lebuksz lebuktak lebuktam lebuktat lebuktatja lebuktatjuk lebuktatni lebuktatok lebuktatott lebuktatsz lebuktatta lebuktattam lebuktattál lebuktunk lebuktál lebukunk lebukás
+93	4993	retteg	rettegek rettegjetek rettegnek rettegni rettegsz rettegtek rettegtem rettegtél rettegtünk rettegve rettegünk rettegő
+94	4994	partnere	partnerének partnerét partnerével
+95	4995	felújítás	felújítások felújításra felújítást
+96	4996	szándékos	
+97	4997	halom	halmokban halmot halomba halomban halomra
+98	4998	céges	
+99	4999	menekülés	menekülésbe menekülésben menekülésből meneküléshez menekülésnek menekülésre menekülésről meneküléssel menekülést
+100	5000	gulyás	gulyást

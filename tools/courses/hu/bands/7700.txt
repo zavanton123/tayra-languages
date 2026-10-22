@@ -1,0 +1,100 @@
+1	7601	szekció	szekcióba szekcióban szekcióból szekciónak szekciót
+2	7602	gaz	gazt
+3	7603	csütörtöki	
+4	7604	közleménye	közleményét
+5	7605	grófnő	grófnőnek grófnőt grófnővel
+6	7606	huszonöt	huszonötöt
+7	7607	diplomata	diplomaták diplomatáknak diplomatának diplomatát
+8	7608	centiméter	centiméterre centiméterrel centimétert
+9	7609	hátrányos	
+10	7610	megáld	megáldalak megáldani megáldja megáldjon megáldom megáldott megáldotta megáldottak megáldva
+11	7611	kettőtök	kettőtöket kettőtökkel kettőtöknek kettőtökre kettőtökről
+12	7612	tao	
+13	7613	lezárás	lezárásnak lezárásra lezárást
+14	7614	poloska	poloskák poloskákat poloskát poloskával
+15	7615	gondozása	gondozásában gondozására gondozását
+16	7616	becsülete	becsületén becsületének becsületére becsületéről becsületét becsületéért
+17	7617	megráz	megrázni megrázod megrázom megrázott megrázta megráztam megrázták megrázza megrázzuk
+18	7618	gépezet	gépezetbe gépezetben gépezetek gépezetet gépezetnek
+19	7619	ajándékom	ajándékomat
+20	7620	alföld	alföldön
+21	7621	pulóver	pulóverben pulóverek pulóvereket pulóvert
+22	7622	egyezés	egyezést
+23	7623	rugó	rugók rugóra rugót rugóval rugóért
+24	7624	meggondolatlan	meggondolatlanok meggondolatlant meggondolatlanul
+25	7625	apokalipszis	apokalipszisben apokalipszist
+26	7626	bánásmód	bánásmódban bánásmódot
+27	7627	zúz	zúznak zúzni zúznunk zúzod zúzok zúzom zúzott zúzta zúztam zúzták zúzunk zúzva zúzza zúzzuk zúzzunk zúzzák zúzzátok zúzás zúzó
+28	7628	örmény	örmények örményeket
+29	7629	továbbjut	továbbjutott továbbjutó
+30	7630	testünk	testünkbe testünkben testünket testünkkel testünknek testünkön
+31	7631	szteroid	szteroiddal szteroidok szteroidokat szteroidokkal szteroidokra szteroidot
+32	7632	morális	
+33	7633	körzeti	
+34	7634	bérlő	bérlői bérlője bérlők bérlőket bérlőknek bérlőnek bérlőt bérlővel
+35	7635	azonosította	
+36	7636	gazdagság	gazdagságban gazdagsággal gazdagságot gazdagságra gazdagságról
+37	7637	piszok	piszkok piszkot
+38	7638	titkolózik	titkolózhatsz titkolóznak titkolózni titkolóznod titkolóznom titkolóznunk titkolózol titkolózott titkolóztam titkolóztok titkolóztál titkolózunk titkolózz titkolózzunk titkolózás titkolózó
+39	7639	szilveszter	szilveszterre szilvesztert
+40	7640	újrakezd	újrakezded újrakezdem újrakezdeni újrakezdeném újrakezdenénk újrakezdheted újrakezdhetem újrakezdheti újrakezdhetjük újrakezdhetném újrakezdhetnénk újrakezdi újrakezdje újrakezdjem újrakezdjük újrakezdte újrakezdtem újrakezdték újrakezdünk
+41	7641	megközelíthető	
+42	7642	éhség	éhséget éhséggel éhségtől éhségét
+43	7643	évezred	évezredben évezredek évezredeken évezredekig évezredekkel
+44	7644	reprezentatív	
+45	7645	mérföldes	
+46	7646	köröm	körmeit körmök körmöket körmökkel körmöt körömben körömet körömmel
+47	7647	reszket	reszkessetek reszketek reszketett reszketnek reszketni reszketsz reszkettem reszketve reszkető
+48	7648	tolla	tollan tollából tolláról tollát tollával
+49	7649	analóg	
+50	7650	felváltva	
+51	7651	nemesi	
+52	7652	szabályozása	szabályozására szabályozásáról szabályozását
+53	7653	általánosan	
+54	7654	szemtanúja	szemtanúját
+55	7655	alkotói	
+56	7656	tizennyolc	tizennyolcat
+57	7657	borsos	
+58	7658	koldus	koldusként koldusnak koldusok koldusokat koldusoknak koldust
+59	7659	papucs	papuccsal papucsban papucsok papucsokat papucsot
+60	7660	kockázata	kockázatát
+61	7661	átöltözik	átöltözhet átöltözhetek átöltözhetsz átöltözni átöltöznöd átöltöznöm átöltöztem átöltöztél átöltözés átöltözök átöltözöl átöltözött átöltözünk
+62	7662	ezúton	
+63	7663	aktivista	
+64	7664	bognár	
+65	7665	januárja	januárjában januárjától
+66	7666	hegedűs	hegedűst
+67	7667	vigasz	vigaszra vigaszt
+68	7668	összefügg	összefüggenek összefügghet összefüggnek
+69	7669	írásai	írásaiban írásait
+70	7670	beér	beéred beérek beérem beéri beérik beérjük beérned beérnek beérnem beérni beérnie beérném beérnünk beérsz beért beérte beértek beértem beértél beértünk beérünk
+71	7671	pakisztáni	pakisztániak
+72	7672	energetikai	
+73	7673	vizsgáló	vizsgálóba vizsgálóban vizsgálót
+74	7674	pajzsmirigy	
+75	7675	elakad	elakadjon elakadsz elakadt elakadtak elakadtam elakadtunk elakadtál
+76	7676	elnöksége	elnökségének elnökségét
+77	7677	mindnyájunk	mindnyájunkat mindnyájunkban mindnyájunkkal mindnyájunknak mindnyájunkra mindnyájunkért
+78	7678	formális	formálisan
+79	7679	rajtaütés	rajtaütésben rajtaütések rajtaütésen rajtaütéshez rajtaütésnél rajtaütésre rajtaütésről rajtaütéssel rajtaütést
+80	7680	vakmerő	vakmerőek vakmerőnek
+81	7681	indokol	indokolja indokolni indokolná indokolt
+82	7682	függvénye	függvényében
+83	7683	húszas	húszassal húszast húszasért
+84	7684	troll	trollnak trollok trollokat trollt
+85	7685	szerkesztője	szerkesztőjének szerkesztőjét szerkesztőjével
+86	7686	díszes	
+87	7687	visszakerül	visszakerülnek visszakerülni visszakerült
+88	7688	vidáman	vidámabban
+89	7689	verseng	versengenek versengeni versengett versengtek versengés versengünk versengő
+90	7690	állomása	állomásán állomását
+91	7691	önbizalom	önbizalmat önbizalmát önbizalommal önbizalomra
+92	7692	álláspont	álláspontjukat állásponton álláspontot álláspontra
+93	7693	var	
+94	7694	ejtet	ejtették
+95	7695	felfedező	felfedezők
+96	7696	kán	kánnak kánok kánon kánt
+97	7697	fejvadász	fejvadásszal fejvadásznak fejvadászok fejvadászokat fejvadászt
+98	7698	rögzítet	rögzítették
+99	7699	olvasmány	olvasmányok olvasmányt
+100	7700	pirítós	pirítóson pirítósra pirítóssal pirítóst

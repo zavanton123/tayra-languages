@@ -1,0 +1,100 @@
+1	3301	befelé	
+2	3302	irat	iratait iratok iratokat iratokban iratokkal iratokra iratokról iratot iratra
+3	3303	engedélyez	engedélyezed engedélyezek engedélyezem engedélyezhetem engedélyezheti engedélyezi engedélyezik engedélyeznek engedélyezni engedélyeznie engedélyezné engedélyeznék engedélyezte engedélyezted engedélyeztek engedélyeztem engedélyezték engedélyezve engedélyezze engedélyezzem engedélyezzék engedélyezzük engedélyező
+4	3304	természeti	
+5	3305	gyilkol	gyilkolhat gyilkolja gyilkoljak gyilkoljanak gyilkoljon gyilkoljuk gyilkolják gyilkolna gyilkolnak gyilkolni gyilkolok gyilkolsz gyilkolt gyilkolta gyilkoltad gyilkoltak gyilkoltam gyilkoltunk gyilkolták gyilkoltál gyilkolunk gyilkolva gyilkolás gyilkoló
+6	3306	lelkes	leglelkesebb lelkesebb lelkesebben lelkesek lelkesen lelkesnek
+7	3307	állati	állatira
+8	3308	művelt	művelted műveltek
+9	3309	adatbázis	adatbázisba adatbázisban adatbázisból adatbázishoz adatbázisok adatbázisokat adatbázisokban adatbázison adatbázissal adatbázist
+10	3310	rendje	rendjébe rendjében rendjén rendjének rendjéről rendjét
+11	3311	képviselője	képviselőjeként képviselőjének képviselőjét képviselőjével
+12	3312	tisztelete	tiszteletére tiszteletét
+13	3313	életmód	életmódhoz életmódja életmódot életmódra
+14	3314	figyelmeztetés	figyelmeztetésben figyelmeztetése figyelmeztetések figyelmeztetéseket figyelmeztetésként figyelmeztetésnek figyelmeztetésre figyelmeztetéssel figyelmeztetést figyelmeztetésül
+15	3315	alja	aljába aljában aljához aljáig alján aljánál aljára aljáról alját aljától
+16	3316	dohányzik	dohányozhat dohányozhatsz dohányoznak dohányozni dohányoznia dohányoznod dohányoztam dohányoztál dohányozz dohányozzanak dohányozzon dohányzok dohányzol dohányzott dohányzunk dohányzás dohányzásra dohányzásról dohányzást dohányzó
+17	3317	tehén	tehenek teheneket tehenekkel teheneknek tehenet tehénből tehénnek tehénnel tehénre
+18	3318	harminc	harmincan harmincat harminccal harminckor harmincon
+19	3319	séta	sétához séták sétákat sétákra sétán sétának sétára sétáról sétát sétával
+20	3320	sivatag	sivatagba sivatagban sivatagból sivataggá sivatagnak sivatagok sivatagon sivatagot
+21	3321	csávó	csávók csávókat csávókkal csávónak csávóra csávóról csávót csávótól csávóval
+22	3322	rom	romba rommá romok romokat romokba romokban romokból romokhoz romoknál romot
+23	3323	melletti	
+24	3324	megfizet	megfizessek megfizessen megfizessenek megfizeted megfizetek megfizetem megfizetett megfizethető megfizeti megfizetik megfizetjük megfizetlek megfizetned megfizetnek megfizetnem megfizetni megfizetnie megfizetném megfizetsz megfizette megfizettek megfizettem megfizették megfizettél megfizettük megfizettünk megfizetünk
+25	3325	vallási	
+26	3326	képei	képeik képein képeinek képeire képeit képeivel
+27	3327	kb.	
+28	3328	szégyell	szégyelld szégyelled szégyellek szégyellem szégyellheted szégyellheti szégyellhetné szégyellhetnéd szégyellhetnék szégyelli szégyellik szégyellitek szégyellje szégyelljem szégyelljék szégyelljétek szégyelljük szégyellned szégyellnem szégyellni szégyellnie szégyellné szégyellném szégyellsz szégyellt szégyellte szégyellted szégyelltem
+29	3329	átok	átkok átkokat átkokban átkot átokban átokkal átoknak átokra átokról átoktól
+30	3330	tengerpart	tengerparton tengerpartot tengerpartra tengerpartról
+31	3331	részes	részese
+32	3332	erdei	erdeiben
+33	3333	zöldség	zöldségek zöldségeket zöldségekkel zöldséget zöldséggel zöldségre
+34	3334	lovag	lovaggal lovaggá lovagként lovagnak lovagok lovagokat lovagokkal lovagoknak lovagot lovagra
+35	3335	izraeli	izraeliek
+36	3336	szőnyeg	szőnyegbe szőnyegben szőnyegből szőnyegek szőnyegeket szőnyegen szőnyeget szőnyeggel szőnyeghez szőnyegre szőnyegről
+37	3337	pihenés	pihenésnek pihenésre pihenéssel pihenést
+38	3338	panaszkodik	panaszkodhat panaszkodhatok panaszkodhatsz panaszkodhatunk panaszkodjon panaszkodna panaszkodnak panaszkodni panaszkodnom panaszkodnék panaszkodok panaszkodott panaszkodsz panaszkodtak panaszkodtam panaszkodtok panaszkodtál panaszkodunk panaszkodó
+39	3339	észlel	észlelek észlelem észleli észlelik észlelje észleljük észlelnek észlelni észlelsz észlelt észlelte észleltek észleltem észlelték észleltük észleltünk észlelve észlelés észlelést észlelünk észlelő
+40	3340	viszonya	viszonyának viszonyáról viszonyát
+41	3341	kísért	kísérted kísértek kísértem kísértene kísértenek kísérteni kísértesz kísértet kísértete kísértetek kísértetekben kísérteteket kísértetet kísértett kísértette kísértettel kísérti kísértik kísértse kísértsen kísértsük kísérték kísértél kísértő
+42	3342	folt	foltok foltokat foltokban foltokkal foltot foltra folttal
+43	3343	szánt	szántani szántunk szántál szántó
+44	3344	elront	elrontanak elrontani elrontanod elrontaná elrontanád elrontanám elrontasz elronthat elronthatja elrontja elrontjuk elrontják elrontjátok elrontod elrontok elrontom elrontott elrontotta elrontottad elrontottak elrontottam elrontottuk elrontottunk elrontották elrontottál elrontottátok elrontsa elrontsam elrontsák elrontva
+45	3345	farm	farmhoz farmmal farmnak farmnál farmok farmokat farmokon farmokról farmon farmot farmra farmról
+46	3346	gyertya	gyertyák gyertyákat gyertyákkal gyertyára gyertyát gyertyával
+47	3347	döntetlen	döntetlenben döntetlennel döntetlenre döntetlent
+48	3348	fordítva	
+49	3349	szállás	szállások szálláson szállásra szállásról szállással szállást szállásért
+50	3350	átver	átvered átverem átverhet átverheted átverhetsz átveri átverik átverje átverjen átverjenek átverjük átverned átvernek átverni átvernie átversz átvert átverte átverted átvertek átvertelek átvertem átvertetek átverték átvertél átvertük átvertünk átverve
+51	3351	árva	árvaként árvák árvákat árvákkal árváknak árván árvának árvát árvává
+52	3352	megnyílik	megnyíljon megnyílna megnyílnak megnyílni megnyílok megnyílsz megnyílt megnyíltak megnyíltam megnyíltál
+53	3353	kabát	kabátban kabátok kabátokat kabáton kabátot kabátra kabáttal kabátért
+54	3354	meghallgatás	meghallgatáshoz meghallgatásig meghallgatásnak meghallgatások meghallgatásokat meghallgatásokon meghallgatásokra meghallgatáson meghallgatásra meghallgatásról meghallgatással meghallgatást
+55	3355	játéka	játékába játékában játékán játékának játékára játékáról játékát játékával
+56	3356	zseb	zsebbe zsebbel zsebben zsebből zsebek zsebeket zsebekkel zsebet zsebre zsebébe zsebében zsebéből zsebét zsebük zsebünkben
+57	3357	intelligens	intelligensebb intelligensnek
+58	3358	vállalkozó	vállalkozói vállalkozók vállalkozókat vállalkozóknak vállalkozóként vállalkozónak vállalkozót vállalkozóval
+59	3359	csoportja	csoportjába csoportjában csoportjából csoportjához csoportjának csoportját csoportjától csoportjával
+60	3360	demokratikus	
+61	3361	érzelmi	
+62	3362	szán	szánd szánj szánja szánjanak szánjon szánjuk szánjunk szánják szánlak szánna szánnak szánnal szánni szánnod szánnál szánod szánok szánom szánon szánsz szántad szántak szántam szántuk szántunk szánunk szánva
+63	3363	finoman	finomabban
+64	3364	rejtélyes	legrejtélyesebb rejtélyesebb rejtélyesek rejtélyesen rejtélyesnek
+65	3365	rendelkezés	rendelkezések rendelkezéseket rendelkezésre rendelkezést
+66	3366	web	weben
+67	3367	népi	
+68	3368	direkt	
+69	3369	infó	infóhoz infók infókat infókkal infókért infóra infót infóval infóért
+70	3370	tervei	terveibe terveiben terveihez terveinek terveire terveiről terveit terveivel
+71	3371	segg	seggbe seggben seggből seggek seggeket seggel seggen segget seggnek seggre
+72	3372	talp	talpak talpat talpig talpon talppal talpra
+73	3373	szülinap	szülinapok szülinapokat szülinapot szülinapra
+74	3374	pop	
+75	3375	bukik	bukhat bukhatok bukhatsz bukhatunk bukj bukjak bukjanak bukjatok bukjon bukjunk bukna buknak bukni buknia bukok bukom buksz bukta buktad buktak buktam buktatni buktatott buktatta buktuk buktunk buktál bukunk bukva bukó
+76	3376	megtiszteltetés	megtiszteltetésben megtiszteltetésnek megtiszteltetésre megtiszteltetést
+77	3377	tervem	tervembe tervemben tervemet tervemhez tervemmel tervemnek tervemről
+78	3378	bekövetkezik	bekövetkezett bekövetkezhet bekövetkezne bekövetkeznek bekövetkezni bekövetkezzen bekövetkező
+79	3379	fős	
+80	3380	szolgálata	szolgálatába szolgálatában szolgálatának szolgálatára szolgálatát szolgálatával szolgálatáért
+81	3381	létrehozása	létrehozásában létrehozásához létrehozásának létrehozására létrehozásáról létrehozását létrehozásával
+82	3382	remélhetőleg	
+83	3383	hatásos	hatásosabb hatásosak hatásosnak leghatásosabb
+84	3384	virtuális	
+85	3385	győzelme	győzelmében győzelméhez győzelmének győzelmére győzelmét győzelmével győzelméért
+86	3386	mókás	legmókásabb mókásabb mókásak mókásat mókásnak
+87	3387	építése	építésében építéséhez építésének építésénél építésére építéséről építését építésével
+88	3388	ujjlenyomat	ujjlenyomatok ujjlenyomatokat ujjlenyomatokkal ujjlenyomatokra ujjlenyomatokról ujjlenyomatot ujjlenyomatra ujjlenyomattal
+89	3389	kialakulása	kialakulásában kialakulásához kialakulásának kialakulására kialakulását kialakulásával
+90	3390	kétell	kétlek kétlem kétli
+91	3391	számítógépes	
+92	3392	hirdetés	hirdetésben hirdetése hirdetések hirdetéseket hirdetésre hirdetéssel hirdetést
+93	3393	közti	
+94	3394	eszméletlen	eszméletlenek eszméletlenné eszméletlenre eszméletlenül
+95	3395	edz	eddz eddzen edzek edzel edzem edzened edzenek edzenem edzeni edzenie edzenünk edzetek edzett edzettek edzettem edzettél edzettünk edzhetek edzi edzünk
+96	3396	hívlak	
+97	3397	kivétele	kivételével
+98	3398	uralkodó	uralkodóhoz uralkodók uralkodókat uralkodónak uralkodót uralkodóval uralkodóvá
+99	3399	előnye	előnyére előnyét
+100	3400	belseje	belsejébe belsejében belsejéből belsején belsejének belsejéről belsejét

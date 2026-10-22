@@ -334,7 +334,7 @@ def tokens(text, code=None, ranks=None, names=frozenset(), verbs=None, heads=Non
         return french_tokens(text, ranks)
     if code == "es":
         return spanish_tokens(text, ranks, names, verbs)
-    if code in ("ru", "uk"):
+    if code in ("ru", "uk", "hu"):
         return russian_tokens(text)
     if code == "it":
         return italian_tokens(text, ranks, names, verbs, heads)
@@ -426,7 +426,10 @@ def french_tokens(text, ranks):
 ROMAN = re.compile(r"(?=[IVXLC])M{0,3}(C[MD]|D?C{0,3})(X[CL]|L?X{0,3})(I[XV]|V?I{0,3})")
 
 def russian_tokens(text):
-    """Russian words, split at hyphens; the ending of an ordinal glued to its digits (5-го, 20-м) is not a word."""
+    """
+    Russian words, split at hyphens; the ending of an ordinal glued to its digits (5-го, 20-м) is not a word. So for
+    Hungarian, whose endings follow digits after a hyphen (7-kor, 2010-ben).
+    """
     out = []
     for match in WORD.finditer(text):
         start = match.start()
@@ -806,6 +809,162 @@ def _turkish_stem(word, ranks):
     return next((stem for stem in stems if len(stem) > 3 and stem in ranks), None)
 
 
+# Hungarian: the reader cuts words at spaces, hyphens and punctuation, so a verbal prefix written apart (nem nézi
+# meg) is a word of its own (meg), and one written on (megnézi) is part of the verb. The list keeps at most 40 forms
+# of a word, and extra_forms.tsv adds the dictionary's; hungarian_base reads the regular endings on top of them.
+# Verbal prefixes: a prefixed verb the list lacks counts as its verb (visszajövök as jön, megfőzte as főz).
+HU_PREFIXES = ("vissza", "össze", "hozzá", "végig", "tovább", "félre", "körül", "hátra", "haza", "szét", "bele", "neki",
+               "elő", "meg", "fel", "föl", "oda", "ide", "át", "ki", "be", "le", "el", "rá")
+# A noun's case endings, and -é, -ék, -éi (Annáé, Annáék).
+HU_CASES = ("nként", "ként", "ért", "ig", "kor", "nak", "nek", "ban", "ben", "ba", "be", "ból", "ből", "ról", "ről",
+            "ra", "re", "nál", "nél", "hoz", "hez", "höz", "tól", "től", "val", "vel", "vá", "vé", "ul", "ül", "on",
+            "en", "ön", "n", "at", "et", "ot", "öt", "t", "é", "ék", "éi")
+# A noun's plural and possessive endings, which come before the case (táskámban, kulcsomat, barátaival).
+HU_POSSESSIVES = ("jaitok", "jeitek", "aitok", "eitek", "itok", "itek", "jaink", "jeink", "aink", "eink", "ink",
+                  "jaim", "jeim", "aim", "eim", "im", "jaid", "jeid", "aid", "eid", "id", "jaik", "jeik", "aik", "eik",
+                  "ik", "jai", "jei", "ai", "ei", "i", "atok", "etek", "otok", "ötök", "tok", "tek", "tök", "unk",
+                  "ünk", "nk", "juk", "jük", "uk", "ük", "ja", "je", "am", "em", "om", "öm", "m", "ad", "ed", "od",
+                  "öd", "d", "a", "e", "ak", "ek", "ok", "ök", "k")
+# A verb's personal endings: present, past, conditional and imperative, indefinite and definite, -lak/-lek, the
+# participles and the infinitive. The stem before them is the list's verb (olvas, dolgoz+ik), a potential stem
+# in -hat/-het (olvashat, tehet, lehet) or, for the personal infinitive (mennem, tudnunk), the infinitive.
+HU_VERB_ENDINGS = tuple(sorted({
+    "ok", "ek", "ök", "sz", "ol", "el", "öl", "unk", "ünk", "tok", "tek", "tök", "otok", "etek", "ötök", "nak", "nek",
+    "anak", "enek", "om", "em", "öm", "od", "ed", "öd", "ja", "i", "juk", "jük", "játok", "itek", "ják", "ik",
+    "a", "uk", "ük", "átok", "étek", "ák", "ék", "e", "on", "en", "ön", "ak", "atok", "unk", "ünk", "anak", "enek",
+    "lak", "lek", "talak", "telek", "alak", "elek", "nálak", "nélek",
+    "tam", "tem", "tál", "tél", "t", "tunk", "tünk", "tatok", "tetek", "tak", "ta", "te", "tad", "ted", "tuk",
+    "tük", "tátok", "tétek", "ták", "ték", "ott", "ett", "ött", "ottam", "ettem", "öttem", "ottál", "ettél",
+    "öttél", "ottunk", "ettünk", "öttünk", "ottatok", "ettetek", "öttetek", "ottak", "ettek", "öttek", "otta",
+    "ette", "ötte", "ottad", "etted", "ötted", "ottuk", "ettük", "öttük", "ottátok", "ettétek", "öttétek", "ották",
+    "ették", "ötték",
+    "nék", "nál", "nél", "na", "ne", "nánk", "nénk", "nátok", "nétek", "nának", "nének", "nám", "ném", "nád", "néd",
+    "ná", "né", "anék", "enék", "anál", "enél", "ana", "ene", "anánk", "enénk", "anátok", "enétek", "anának",
+    "enének", "anám", "eném", "anád", "enéd", "aná", "ené",
+    "j", "jon", "jen", "jön", "jak", "jek", "jam", "jem", "jad", "jed", "je", "junk", "jünk", "jatok", "jetek",
+    "janak", "jenek", "jék", "jétek", "d", "s", "son", "sen", "sön", "sak", "sek", "sunk", "sünk", "satok",
+    "setek", "sanak", "senek", "sam", "sem", "sa", "se", "suk", "sük", "sátok", "sétek", "sák", "sék",
+    "ó", "ő", "va", "ve", "ás", "és", "ni", "ani", "eni", "andó", "endő",
+}, key=len, reverse=True))
+HU_PERSONAL_INFINITIVE = ("niuk", "niük", "notok", "netek", "nötök", "nunk", "nünk", "nom", "nem", "nöm", "nod",
+                          "ned", "nöd", "nia", "nie")
+
+
+def _hu_shortened(stem):
+    """[stem] and the word it may be, as the list writes it, with its last vowel short: almá- is alma, kefé- kefe."""
+    out = [stem]
+    if stem[-1:] == "á":
+        out.append(stem[:-1] + "a")
+    if stem[-1:] == "é":
+        out.append(stem[:-1] + "e")
+    return out
+
+
+def _hu_assimilated(stem):
+    """The stem before an assimilated -val/-vel or -vá/-vé: kerttel is kert, lánnyal is lány, kosszal is kosz."""
+    for doubled, single in (("ssz", "sz"), ("zzs", "zs"), ("ccs", "cs"), ("ggy", "gy"), ("lly", "ly"), ("nny", "ny"),
+                            ("tty", "ty")):
+        if stem.endswith(doubled):
+            return stem[:-len(doubled)] + single
+    if len(stem) > 2 and stem[-1] == stem[-2] and stem[-1] not in "aáeéiíoóöőuúüű":
+        return stem[:-1]
+    return None
+
+
+def hungarian_nominal(word, known):
+    """The list word (or name, as [known] has it) a noun form is: its case, plural and possessive endings off."""
+    found = []
+    stems = []
+    for case in ("",) + HU_CASES:
+        if word.endswith(case) and len(word) - len(case) >= 2:
+            stems += [(case, stem) for stem in _hu_shortened(word[:len(word) - len(case)])]
+    # After a consonant the v of -val/-vel and -vá/-vé becomes the consonant before it (kerttel, Péterrel, lánnyá).
+    for case in ("al", "el", "á", "é"):
+        single = _hu_assimilated(word[:-len(case)]) if word.endswith(case) else None
+        if single and len(single) >= 2:
+            stems.append((case, single))
+    for case, stem in stems:
+        if case and stem in known:
+            found.append(stem)
+        for ending in HU_POSSESSIVES:
+            # A base of two letters only takes a case (tót, sót, fán): fája is a form the list has.
+            if stem.endswith(ending) and len(stem) - len(ending) >= 3:
+                found += [base for base in _hu_shortened(stem[:-len(ending)]) if base in known]
+    return max(found, key=len) if found else None
+
+
+def hungarian_verbs(words):
+    """The list's verbs: the words with an infinitive in -ni among their forms (tudni, menni, dolgozni)."""
+    return {key for key, (_, _, forms) in words.items()
+            if key in ("van", "eszik", "iszik") or any(f.endswith("ni") and len(f) > 3 and f[:2] == key[:2] for f in forms)}
+
+
+def _hu_verb_stems(stem):
+    """[stem] and what it may stand for before an ending: olvass- and nézz- are olvas, néz (olvassa, nézzük); láss-
+    and fuss- are lát, fut, tarts- and segíts- are tart, segít (the imperative)."""
+    out = [stem]
+    for doubled, single in (("ssz", "sz"), ("zzs", "zs"), ("ss", "s"), ("zz", "z")):
+        if stem.endswith(doubled):
+            out.append(stem[:-len(doubled)] + single)
+            break
+    if stem.endswith("ss"):
+        out.append(stem[:-2] + "t")
+    if stem.endswith("ts"):
+        out.append(stem[:-1])
+    return out
+
+
+def hungarian_verb(word, ranks, verbs):
+    """The list's verb a regular verb form is (olvastunk, dolgozom, segítenék, olvashatunk), or the form of it the
+    list has (mennem is menni, lehetnék is lehet)."""
+    found = []
+    for ending in HU_PERSONAL_INFINITIVE:
+        if word.endswith(ending) and word[:-len(ending)] + "ni" in ranks:
+            found.append(word[:-len(ending)] + "ni")
+    for ending in ("",) + HU_VERB_ENDINGS:
+        if not word.endswith(ending) or len(word) - len(ending) < 2:
+            continue
+        for stem in _hu_verb_stems(word[:len(word) - len(ending)]):
+            if stem in verbs:
+                found.append(stem)
+            elif stem + "ik" in verbs:
+                found.append(stem + "ik")
+            elif stem.endswith(("hat", "het")) and len(stem) > 4:
+                # The potential: tehet and lehet are forms the list has, olvashat is olvas + hat.
+                inner = stem[:-3]
+                if stem in ranks:
+                    found.append(stem)
+                elif inner in verbs or inner + "ik" in verbs:
+                    found.append(inner if inner in verbs else inner + "ik")
+    return max(found, key=len) if found else None
+
+
+_hu_heads = {}
+
+
+def hungarian_base(word, ranks, verbs, words):
+    """The list word a regularly inflected Hungarian word is a form of, or None: a noun with its case, plural and
+    possessive endings (táskámban, barátaival), a verb with its personal endings (olvastunk, mennem), and a prefixed
+    verb the list lacks, as its verb (megfőzte as főz, visszajövök as jön)."""
+    found = [base for base in (hungarian_nominal(word, ranks), hungarian_verb(word, ranks, verbs)) if base]
+    if found:
+        return min(found, key=lambda base: (ranks[base], -len(base)))
+    if not _hu_heads:
+        for key, (_, _, forms) in words.items():
+            for form in [key] + forms:
+                _hu_heads.setdefault(form, set()).add(key)
+    for prefix in HU_PREFIXES:
+        rest = word[len(prefix):]
+        if not word.startswith(prefix) or len(rest) < 2:
+            continue
+        if rest in ranks and _hu_heads.get(rest, set()) & verbs:
+            return rest
+        verb = hungarian_verb(rest, ranks, verbs)
+        if verb:
+            return verb
+    return None
+
+
 # Korean: runs of Hangul are the words, each cut as the reader cuts it (KoreanParser, ported as
 # build_frequency_list.korean_pieces) by the ranks of the list the app ships, not the courses' pinned one.
 KOREAN_RUN = re.compile("[가-힣ᄀ-ᇿ㄰-㆏]+")
@@ -1075,6 +1234,10 @@ def check(path, brief=False):
     if code == "tr":
         names = {fold(code, turkish_lower(n)) for n in course.get("names", [])}
         long_names = sorted((n for n in course.get("names", []) if " " in n or "-" in n), key=len, reverse=True)
+    # Hungarian names take their endings unmarked (Annának, Budapestre): each part of a name counts, with its endings.
+    if code == "hu":
+        names = names | {fold(code, part.lower()) for n in course.get("names", []) for part in n.split()}
+        hu_verbs = hungarian_verbs(words)
     seen_new = set()
     ok = True
     report = []
@@ -1135,6 +1298,8 @@ def check(path, brief=False):
             text = re.sub(r"(?m)^질문:", "", text)
         if code == "ar":
             text = re.sub(r"(?m)^أسئلة:", "", text)
+        if code == "hu":
+            text = re.sub(r"(?m)^Kérdések:", "", text)
         toks = tokens(text, code, ranks, names, verbs, set(words) if code in ("it", "ko") else None)
         # A century or a king's number in capital Roman numerals (siglo XVI, Carlos V) is a number.
         if code in ("es", "ru", "it", "sr", "uk"):
@@ -1159,6 +1324,9 @@ def check(path, brief=False):
         if code == "uk":
             swap = {"у": "в", "в": "у", "і": "й", "й": "і"}
             lowered = [w if w in ranks or w in names or w[:1] not in swap or swap[w[0]] + w[1:] not in ranks else swap[w[0]] + w[1:] for w in lowered]
+        if code == "hu":
+            lowered = [w if w in ranks or w in names else hungarian_nominal(w, names) or hungarian_base(w, ranks, hu_verbs, words) or w
+                       for w in lowered]
         names_here = names | {"\u0000name"}
         outside = {}
         known = 0

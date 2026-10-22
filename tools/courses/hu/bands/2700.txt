@@ -1,0 +1,100 @@
+1	2601	korom	kormot koromat koromba koromban koromból koromhoz koromig korommal koromra koromról koromtól
+2	2602	nevel	neveld neveled nevelek nevelem neveli nevelik nevelje neveljek neveljem neveljen neveljék neveljük neveljünk nevelned nevelnek nevelnem nevelni nevelsz nevelt nevelted neveltek nevelték neveltél neveltük neveltünk nevelve nevelünk
+3	2603	megjelenése	megjelenésében megjelenésének megjelenésére megjelenését megjelenésével
+4	2604	éjfél	éjfélig éjfélkor éjfélre éjfélt éjféltől
+5	2605	kiáll	kiállhatatlan kiállja kiálljak kiálljanak kiálljon kiálljunk kiállna kiállnak kiállni kiállnia kiállnod kiállnom kiállnál kiállnék kiállok kiállsz kiállt kiállta kiálltad kiálltak kiálltam kiálltok kiálltunk kiálltál kiállunk kiállás kiállít kiállítani kiállítja kiállítjuk kiállítják kiállítok kiállítom kiállított kiállította kiállították kiállítva kiálló
+6	2606	hiánya	hiányában hiányából hiányának hiányára hiányáról hiányát hiányától hiányával
+7	2607	találkozás	találkozása találkozáshoz találkozásig találkozásnak találkozásnál találkozások találkozásokat találkozásra találkozásról találkozást találkozástól találkozásuk találkozásánál
+8	2608	felhasználása	felhasználásának felhasználására felhasználásáról felhasználását felhasználásával
+9	2609	illata	illatára illatát illatától illatával
+10	2610	dolgod	dolgodat dolgodba dolgodban dolgoddal dolgodra
+11	2611	katasztrófa	katasztrófába katasztrófában katasztrófához katasztrófák katasztrófákat katasztrófának katasztrófára katasztrófáról katasztrófát katasztrófától katasztrófával
+12	2612	ujj	ujjaimat ujjak ujjakat ujjakkal ujjakra ujjal ujjam ujjamat ujjat ujjon ujjra ujjá
+13	2613	marha	marhából marhák marhákat marhákkal marháknak marhának marhára marhát marhával
+14	2614	elme	elmében elméd elméi elméje elméjében elméjét elmék elméket elméknek elmének elmére elmét elmével
+15	2615	cseh	csehek csehül
+16	2616	rögzít	rögzíted rögzítek rögzítem rögzítenek rögzítenem rögzíteni rögzítenünk rögzített rögzítetted rögzítettek rögzítettem rögzítettük rögzítettünk rögzíti rögzítik rögzítjük rögzítse rögzítsem rögzítsék rögzítsétek rögzítsük rögzítve rögzítünk
+17	2617	küzdelem	küzdelembe küzdelemben küzdelemből küzdelemhez küzdelemmel küzdelemnek küzdelemre küzdelemről küzdelmek küzdelmet
+18	2618	tapasztalat	tapasztalatból tapasztalatnak tapasztalatok tapasztalatokat tapasztalatokkal tapasztalatokra tapasztalatot tapasztalatra tapasztalattal tapasztalatuk
+19	2619	leves	levesbe levesben levesből levese levesek leveseket leveshez levesnek levesre levessel levest levesért levesét
+20	2620	veszteség	vesztesége veszteségei veszteségeit veszteségek veszteségeket veszteségekkel veszteségekről veszteséget veszteséggel veszteségként veszteségnek veszteségre veszteségről veszteségért veszteségét
+21	2621	kétség	kétségbe kétségek kétségeket kétségekkel kétséget
+22	2622	előadása	előadásában előadásán előadásának előadására előadásáról előadását előadásával
+23	2623	kezelése	kezelésében kezeléséhez kezelésének kezelésére kezeléséről kezelését kezelésével
+24	2624	vállalkozás	vállalkozása vállalkozásba vállalkozásban vállalkozásból vállalkozáshoz vállalkozásnak vállalkozások vállalkozásokat vállalkozásra vállalkozásról vállalkozással vállalkozást vállalkozásunk vállalkozásának
+25	2625	kapcsa	kapcsán
+26	2626	szúr	szúrd szúrhatjuk szúrhatom szúrj szúrja szúrjam szúrjanak szúrjon szúrjuk szúrjunk szúrják szúrjátok szúrlak szúrna szúrnak szúrni szúrnod szúrnom szúrnunk szúrnám szúrod szúrok szúrom szúrsz szúrt szúrta szúrtad szúrtak szúrtalak szúrtam szúrtuk szúrtunk szúrták szúrtál szúrunk szúrva szúró
+27	2627	mászik	mássz mássza másszak másszanak másszatok másszon másszunk másszál mászhat mászhatok mászhatsz mászna másznak mászni másznia másznod másznom másznunk másznék mászok mászol mászom mászott másztak másztam másztok másztunk másztál mászunk mászva mászás mászó
+28	2628	kutatási	
+29	2629	ellenáll	ellenálljak ellenálljanak ellenálljon ellenálljunk ellenállna ellenállnak ellenállni ellenállok ellenállsz ellenállt ellenálltak ellenálltam ellenálltál ellenállunk ellenálló
+30	2630	szikla	sziklába sziklában sziklából sziklához sziklák sziklákat sziklákhoz sziklákkal szikláknak szikláknál sziklákon sziklákra sziklákról sziklán sziklának sziklánál sziklára szikláról sziklát sziklával
+31	2631	elmagyaráz	elmagyarázhatná elmagyarázhatnád elmagyarázhatnám elmagyarázhatom elmagyarázni elmagyaráznia elmagyaráznod elmagyaráznom elmagyarázná elmagyaráznád elmagyaráznám elmagyarázod elmagyarázok elmagyarázom elmagyarázott elmagyarázta elmagyaráztad elmagyaráztam elmagyaráztuk elmagyarázták elmagyarázunk elmagyarázza elmagyarázzam elmagyarázzuk elmagyarázzák
+32	2632	érzésem	
+33	2633	temetés	temetésben temetések temetéseken temetéseket temetésekre temetésen temetéshez temetésig temetésnek temetésre temetésről temetéssel temetést temetésén temetésének temetésére
+34	2634	bajnoki	bajnokin
+35	2635	elöl	elölről elül elült előbbre előrébb legelöl
+36	2636	elutasít	elutasítanak elutasítani elutasítasz elutasítja elutasítjuk elutasítják elutasítod elutasítom elutasított elutasította elutasítottad elutasítottak elutasítottam elutasítottuk elutasították elutasítottál elutasítsa elutasítsam elutasítva
+37	2637	fogyaszt	fogyassza fogyasszanak fogyasszon fogyasszunk fogyasszák fogyasztanak fogyasztani fogyasztasz fogyasztható fogyasztja fogyasztjuk fogyasztják fogyasztod fogyasztok fogyasztom fogyasztott fogyasztotta fogyasztottak fogyasztottam fogyasztunk fogyasztó fogyasztók fogyasztókat fogyasztóknak
+38	2638	mérnök	mérnökkel mérnökként mérnöknek mérnökök mérnököket mérnököknek mérnököt
+39	2639	letesz	letegye letegyem leteheted letehetem leteheti letennem letenni letenné letennéd letenném letesszük leteszed leteszek leteszel leteszem leteszi leteszik leteszitek leteszlek letett letette letetted letettek letettem letettél letettük letétet
+40	2640	stressz	stresszben stresszel stresszelek stresszelni stresszelsz stressznek stresszre stresszről stresszt stressztől
+41	2641	arány	aránnyal arányban arányok arányokat arányt
+42	2642	titka	titkának titkára titkárának titkárát titkárával titkáról titkát
+43	2643	izgatott	izgatottabb izgatottak izgatottan izgatottnak izgatottá
+44	2644	menekült	menekültek menekülteket menekültekkel menekülteknek menekültem menekültet menekültként menekültnek
+45	2645	kiabál	kiabálhat kiabálhatsz kiabálja kiabáljak kiabáljanak kiabáljatok kiabáljon kiabáljuk kiabáljunk kiabálják kiabálna kiabálnak kiabálni kiabálnia kiabálnod kiabálnom kiabálnék kiabálod kiabálok kiabálom kiabálsz kiabált kiabálta kiabáltad kiabáltak kiabáltam kiabáltok kiabáltunk kiabálták kiabáltál kiabálunk kiabálva kiabáló
+46	2646	tulajdonosa	tulajdonosához tulajdonosának tulajdonosáról tulajdonosát tulajdonosától tulajdonosával
+47	2647	alakú	alakúak alakúra alakút
+48	2648	születésnapja	születésnapján születésnapjának születésnapjára születésnapjáról születésnapját
+49	2649	vezetői	vezetőik vezetőinek vezetőit vezetőivel
+50	2650	üzen	üzenek üzenem üzeni üzenik üzenjek üzenjen üzenjenek üzenjük üzenjünk üzenne üzennek üzennem üzenni üzennék üzensz üzent üzente üzented üzentek üzentem üzenték üzentél üzentünk üzenünk üzenő
+51	2651	fejlesztése	fejlesztésében fejlesztéséhez fejlesztésének fejlesztésére fejlesztéséről fejlesztését fejlesztésével fejlesztéséért
+52	2652	leesik	leesek leesel leesett leeshet leeshetett leesne leesnek leesni leessen leestek leestem leestél leesés leesünk
+53	2653	indián	indiánnak indiánnal indiánok indiánokat indiánokkal indiánoknak indiánokról indiánoktól indiánt
+54	2654	torna	tornán tornára tornáról tornát tornával
+55	2655	temető	temetőbe temetőben temetőből temetőhöz temetők temetőkben temetőket temetőn temetőnél temetőre temetőt temetőtől
+56	2656	mar	marj marja marják markot marni marok maron mart marta martok marton marának marás maró
+57	2657	parlamenti	
+58	2658	önkéntes	önkéntesek önkénteseket önkéntesekkel önkénteseknek önkéntesekre önkéntesen önkéntesként önkéntesnek önkéntesre önkéntest
+59	2659	erdélyi	
+60	2660	feleséged	feleségeddel feleségedet feleségedhez feleségedként feleségednek feleségedre feleségedről feleségedtől feleségedért feleségedül
+61	2661	világháború	világháborúba világháborúban világháborúból világháborúnak világháborúról világháborút
+62	2662	előadó	előadóba előadóban előadók előadókat előadóként előadónak előadót előadóval
+63	2663	szava	szavat szavába szavában szaván szavának szavára szavát szavával
+64	2664	gimnázium	gimnáziumba gimnáziumban gimnáziumból gimnáziumot
+65	2665	bevesz	bevegye bevegyem bevegyék bevegyük bevehetetlen bevenned bevennem bevenni bevennie bevenné bevennék bevenném bevennénk bevesszük beveszed beveszek beveszel beveszem beveszi beveszik beveszitek beveszlek bevesznek bevesztek beveszünk bevette bevetted bevettelek bevettem bevették bevettél bevettétek bevettük bevettünk
+66	2666	rózsaszín	rózsaszínben rózsaszínek rózsaszínre rózsaszínt rózsaszínű rózsaszínűt
+67	2667	tagad	tagadd tagadhat tagadhatja tagadhatjuk tagadhatják tagadhatnám tagadhatod tagadhatom tagadja tagadjam tagadjon tagadjuk tagadják tagadjátok tagadnak tagadni tagadnia tagadnod tagadnom tagadná tagadnám tagadod tagadok tagadom tagadott tagadsz tagadta tagadtad tagadtam tagadták tagadva tagadó
+68	2668	hál	hálnak hálni hálok hálsz hált háltam háltál hálánk háló hálóba hálóban hálóból hálóhoz hálóját hálók hálókat hálón hálónak hálóra hálót hálóval
+69	2669	szerb	szerbek
+70	2670	dolgunk	dolgunkat dolgunkba dolgunkkal dolgunkra
+71	2671	megbeszélés	megbeszélése megbeszélések megbeszéléseken megbeszéléseket megbeszélésekre megbeszélésen megbeszéléshez megbeszélésnek megbeszélésre megbeszélésről megbeszéléssel megbeszélést
+72	2672	közlekedik	közlekedett közlekednek közlekedni közlekedsz közlekedő
+73	2673	szekrény	szekrénnyel szekrénybe szekrényben szekrényből szekrények szekrényekben szekrényeket szekrényen szekrényhez szekrénynek szekrényre szekrényről szekrényt szekrényébe
+74	2674	tol	tolj tolja toljad toljam toljatok toljon toljuk toljunk tolják toljátok tolna tolnak tolni tolnod tolnom tolnunk tolod tolok tolom tolsz tolt tolta toltad toltak toltam toltuk tolták toltál tolunk tolva toló
+75	2675	múltkor	
+76	2676	eredetileg	
+77	2677	sajt	sajtba sajtból sajthoz sajtnak sajtok sajtokat sajtot sajtra sajtról sajttal sajttól sajtért
+78	2678	finn	finnek finnel finnre finnt finnül
+79	2679	fővárosi	
+80	2680	részem	részemből részemet részemmel részemmé részemre részemről
+81	2681	részei	részeiben részeiből részein részeinek részeire részeiről részeit
+82	2682	agya	agyába agyában agyából agyához agyáig agyán agyának agyára agyáról agyát agyával
+83	2683	áldozata	áldozataként áldozatához áldozatán áldozatának áldozatára áldozatáról áldozatát áldozatától áldozatául áldozatával áldozatává
+84	2684	szenátor	szenátorhoz szenátornak szenátorok szenátorokat szenátorra szenátorral szenátorról szenátort szenátortól
+85	2685	zseniális	legzseniálisabb zseniálisak
+86	2686	önkormányzati	
+87	2687	szül	szülhet szülhetek szülhetsz szüli szülj szüljek szüljön szülne szülnek szülni szülnie szülnék szülnöd szülnöm szülsz szült szülte szülted szültek szültelek szültem szültél szülök szülöm
+88	2688	szűk	legszűkebb szűkebb szűkek szűken szűknek szűkre
+89	2689	ellát	ellássa ellássam ellássuk ellássák ellátja ellátjuk ellátják ellátlak ellátnak ellátni ellátnia ellátnom ellátod ellátok ellátom ellátsz ellátta elláttad elláttak elláttam elláttuk ellátták ellátunk ellátva ellátó
+90	2690	raktár	raktárak raktárakat raktárakban raktárat raktárba raktárban raktárból raktárhoz raktárnak raktárnál raktáron raktárra raktárral raktárról raktárt raktártól raktárában
+91	2691	reptér	repterek reptereken reptereket repteret reptéren reptérhez reptérig reptérnél reptérre reptérről reptértől
+92	2692	kaland	kalandba kalandban kalandból kalanddal kalandhoz kalandnak kalandok kalandokat kalandokba kalandokban kalandokkal kalandokra kalandokról kalandon kalandot kalandra kalandról kalandért
+93	2693	testem	testembe testemben testemből testemen testemet testemhez testemmel testemnek testemre testemről
+94	2694	mostani	mostaniak mostaninál mostanit mostanival
+95	2695	átalakul	átalakulnak átalakulni átalakulok átalakulsz átalakult átalakultak átalakultam átalakultál átalakulás átalakulása átalakuláson átalakulásra átalakulást átalakít átalakítani átalakítható átalakítja átalakítjuk átalakítják átalakítod átalakítom átalakított átalakította átalakítottad átalakítottak átalakítottam átalakítottuk átalakították átalakítsa átalakítva átalakítás átalakításra átalakító
+96	2696	amatőr	amatőrnek amatőrrel amatőrt amatőrök amatőröket amatőrökkel amatőröknek
+97	2697	erőszakos	erőszakosabb erőszakosak erőszakosnak erőszakossá legerőszakosabb
+98	2698	betű	betűből betűi betűig betűk betűkből betűket betűkkel betűnél betűre betűt betűvel
+99	2699	barlang	barlangba barlangban barlangból barlanghoz barlangja barlangnak barlangnál barlangok barlangokat barlangokba barlangokban barlangokhoz barlangomba barlangon barlangot barlangra barlangról
+100	2700	szög	szeg szegd szegek szegeket szegem szeget szegett szegheted szeghetem szegheti szegi szegik szegje szegjem szegjük szegnem szegni szegné szegsz szegte szegted szegtek szegtem szegték szegtél szegtünk szegül szegünk szögbe szögben szögből szöge szögek szögekből szögeket szögekkel szöget szöggel szögre

@@ -1,0 +1,100 @@
+1	5601	kincsem	kincsemet
+2	5602	koncepció	koncepciója koncepcióját koncepciót
+3	5603	bokor	bokorba bokorban bokorból bokrok bokrokat bokrokban bokron bokrot
+4	5604	fertőző	fertőzőek
+5	5605	gén	gének génekben géneket génekkel génnel gént
+6	5606	hadművelet	hadműveletben hadműveletek hadműveleteket hadműveletet hadművelethez hadműveletnek hadműveletre hadműveletről hadművelettel
+7	5607	történész	történészek
+8	5608	bérgyilkos	bérgyilkosnak bérgyilkosok bérgyilkosokat bérgyilkosra bérgyilkosról bérgyilkossal bérgyilkost
+9	5609	szeretkezik	szeretkezek szeretkezel szeretkezett szeretkezhetnénk szeretkezhetünk szeretkeznek szeretkezni szeretkeznék szeretkeznénk szeretkeznünk szeretkeztek szeretkeztem szeretkeztetek szeretkeztél szeretkeztünk szeretkezzen szeretkezzünk szeretkezünk
+10	5610	vállalj	vállalja vállaljon
+11	5611	vasas	
+12	5612	savanyú	savanyút
+13	5613	megfullad	megfulladhat megfulladjon megfulladna megfulladnak megfulladni megfulladnék megfulladok megfulladsz megfulladt megfulladtak megfulladtam megfulladtál megfulladunk
+14	5614	ijeszt	ijessz ijessze ijesszen ijesszenek ijesszük ijesszünk ijesztenek ijeszteni ijesztesz ijesztett ijesztette ijesztetted ijesztettek ijesztettelek ijesztettem ijesztettél ijeszti ijesztünk
+15	5615	egyesülete	egyesületének
+16	5616	túlzottan	
+17	5617	válasza	válaszára válaszát
+18	5618	korlátoz	korlátozni korlátozta korlátozták korlátozva korlátozza korlátozzuk korlátozzák
+19	5619	szívünk	szívünkbe szívünkben szívünkből szívünket szívünkkel szívünknek szívünkre
+20	5620	elméletileg	
+21	5621	tréfa	tréfából tréfák tréfákat tréfának tréfát tréfával
+22	5622	futár	futárnak futárok futárokat futárral futárt
+23	5623	kiképzés	kiképzése kiképzést
+24	5624	tőr	tőrbe tőrrel tőrt tőrök tőröket
+25	5625	gyanúsít	gyanúsítanak gyanúsítani gyanúsítasz gyanúsítható gyanúsítja gyanúsítjuk gyanúsítják gyanúsítod gyanúsítom gyanúsította gyanúsítottad gyanúsítottak gyanúsítottam gyanúsítottuk gyanúsítottunk gyanúsították gyanúsítunk
+26	5626	harca	harcában harcának harcáról harcát
+27	5627	törekedik	törekedett törekedjünk törekednek törekedni törekednünk törekedtek törekedtem törekedtünk törekszik
+28	5628	érzék	érzéke érzékei érzékek érzékeket érzékem érzéket érzékkel érzékük
+29	5629	cipőm	cipőmbe cipőmben cipőmet cipőmmel cipőmre cipőmön
+30	5630	fürdik	fürdened fürdenek fürdenem fürdeni fürdesz fürdeti fürdök fürdöm fürdött fürdünk fürödhetek fürödj fürödjek fürödjön fürödjünk fürödnöm fürödtek fürödtem fürödtél fürödtünk fürödve
+31	5631	tizedes	tizedesnek tizedessel tizedest
+32	5632	kutatása	kutatásában kutatásához kutatásának kutatására kutatásáról kutatását kutatásával
+33	5633	gyerekes	gyerekesek gyerekesen gyerekesnek
+34	5634	befejezése	befejezéséhez befejezéséig befejezésének befejezésére befejezését
+35	5635	űrhajós	űrhajósnak űrhajósok űrhajósokat űrhajósokkal űrhajósoknak űrhajóssal űrhajóst
+36	5636	pusztítás	pusztítása pusztításhoz pusztításnak pusztításra pusztításról pusztítással pusztítást
+37	5637	gyászol	gyászolja gyászoljon gyászoljuk gyászolják gyászolnak gyászolni gyászolnia gyászolnunk gyászolod gyászolok gyászolom gyászolsz gyászolt gyászolta gyászoltam gyászolunk gyászoló
+38	5638	típusa	típusát
+39	5639	kefél	keféled kefélek kefélem kefélhetsz keféli keféljen keféljünk kefélnek kefélni kefélsz kefélt kefélte kefélted keféltek keféltem keféltetek keféltél keféltünk kefélés kefélünk kefélő
+40	5640	orrod	orrodat orrodba orrodban orrodból orroddal orrodnál orrodon orrodra
+41	5641	készenlét	készenlétbe készenlétben
+42	5642	dong	dongó
+43	5643	kihallgat	kihallgassa kihallgassam kihallgassuk kihallgassák kihallgatja kihallgatjuk kihallgatják kihallgatnak kihallgatni kihallgatod kihallgatom kihallgatott kihallgatta kihallgattad kihallgattak kihallgattam kihallgattuk kihallgattunk kihallgatták kihallgattál kihallgatunk kihallgató
+44	5644	valamely	
+45	5645	világbajnoki	
+46	5646	sav	savak savat savba savban savval
+47	5647	sebessége	sebességét sebességével
+48	5648	szeretnélek	
+49	5649	napjaink	napjainkat napjainkig napjainkon napjainkra
+50	5650	bruttó	
+51	5651	banki	
+52	5652	közreműködik	közreműködni közreműködött közreműködő közreműködők
+53	5653	balett	balettben balettet balettot balettra balettre
+54	5654	vőlegény	vőlegénnyel vőlegények vőlegénynek vőlegényre vőlegényt
+55	5655	csizma	csizmában csizmája csizmák csizmákat csizmára csizmát csizmával
+56	5656	kitölt	kitöltened kitöltenem kitölteni kitöltenie kitöltené kitölti kitöltik kitöltjük kitöltse kitöltsem kitöltsük kitöltve kitöltöd kitöltök kitöltöm kitöltött kitöltötte kitöltötted kitöltöttem kitöltötték kitöltő
+57	5657	meredek	meredekebb meredeken
+58	5658	ízletes	legízletesebb ízletesebb ízletesek ízletesnek
+59	5659	perced	
+60	5660	jelkép	jelképe jelképek jelképet
+61	5661	manó	manóba manók manókat manónak manót
+62	5662	használhatatlan	használhatatlanná használhatatlanok
+63	5663	max.	
+64	5664	biztosíthat	biztosíthatom
+65	5665	helyszíni	
+66	5666	tyúk	tik tyúkkal tyúknak tyúkok tyúkokat tyúkokkal tyúkot
+67	5667	hivatala	hivatalába hivatalában hivatalából hivatalának hivatalát hivatalától hivatalával
+68	5668	homokos	homokosok homokosokat
+69	5669	ritmus	ritmusban ritmusból ritmusok ritmusra ritmussal ritmust
+70	5670	szembeszáll	szembeszálljak szembeszálljanak szembeszálljon szembeszálljunk szembeszállnak szembeszállni szembeszállnod szembeszállnunk szembeszállok szembeszállsz szembeszállt szembeszálltak szembeszálltam szembeszálltunk szembeszálltál szembeszállunk szembeszállás
+71	5671	elszakad	elszakadni elszakadt elszakadtak elszakadunk
+72	5672	királynője	királynőjének királynőjét királynőjével királynőjévé
+73	5673	tanára	tanárának tanárát tanárával
+74	5674	kihív	kihívja kihívjam kihívjuk kihívják kihívlak kihívni kihívná kihívod kihívom kihívott kihívsz kihívta kihívtad kihívtak kihívtam kihívtuk kihívták kihívtál kihívó
+75	5675	eleven	elevenebb elevenek elevenen elevennek
+76	5676	emberrablás	emberrablásban emberrabláshoz emberrablásnak emberrablások emberrablásra emberrablásról emberrablással emberrablást emberrablásért
+77	5677	folyamata	folyamatában folyamatának folyamatát
+78	5678	kinevez	kinevezem kinevezett kinevezi kinevezik kinevezlek kineveznek kinevezni kinevezte kineveztek kineveztem kinevezték kinevezve kinevezzük
+79	5679	bevon	bevonja bevonjuk bevonják bevonni bevonnunk bevonod bevonom bevont bevonta bevontad bevontak bevontam bevontuk bevonták bevonva
+80	5680	illeszkedik	illeszkedett illeszkednek illeszkedni illeszkednie illeszkedő
+81	5681	együttese	együttesét
+82	5682	rajong	rajonganak rajongani rajongok rajongott rajongsz rajongtak rajongtam rajongtál rajongunk rajongva
+83	5683	biztosíték	biztosítékként biztosítéknak biztosítékok biztosítékokat biztosítékot biztosítékra
+84	5684	veszprémi	
+85	5685	gondoz	gondozni gondozod gondozom gondozta gondoztam gondozták gondozza gondozzák gondozás gondozásba gondozásban gondozásra gondozást gondozó gondozója
+86	5686	tehetsége	tehetségének tehetségét tehetségével
+87	5687	hangsúlyoz	hangsúlyozni hangsúlyoznom hangsúlyozom hangsúlyozta hangsúlyoztam hangsúlyozták hangsúlyozva hangsúlyozza hangsúlyozzam hangsúlyozzuk hangsúlyozzák
+88	5688	másodlagos	
+89	5689	ajánlotta	
+90	5690	bemutatkozik	bemutatkozna bemutatkozni bemutatkoznom bemutatkoznék bemutatkozott bemutatkoztam bemutatkoztunk bemutatkoztál bemutatkozunk bemutatkozzam
+91	5691	adományoz	adományoznak adományozni adományozok adományozom adományozott adományozta adományoztak adományoztam adományozták adományozunk adományozza adományozzon adományozzuk adományozó
+92	5692	házigazda	házigazdák házigazdának házigazdát
+93	5693	tudnivaló	tudnivalók tudnivalókat
+94	5694	tanítási	
+95	5695	rasszista	rasszisták rasszistának
+96	5696	törvénytelen	törvénytelenek törvénytelennek törvénytelent törvénytelenül
+97	5697	harang	harangja harangjai harangok harangokat harangot
+98	5698	kozmikus	
+99	5699	bizalma	bizalmába bizalmának bizalmára bizalmát bizalmával
+100	5700	dió	diók dióra diót dióval

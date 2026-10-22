@@ -1,0 +1,100 @@
+1	8201	gagyi	gagyik
+2	8202	plébános	
+3	8203	expressz	expresszel expresszen expresszre expresszt
+4	8204	nyolcvanas	
+5	8205	kápé	kp kápéban kápét kápéval
+6	8206	masszív	
+7	8207	légkondi	légkondit légkondival
+8	8208	pirula	pirulák pirulákat pirulákkal pirulát
+9	8209	vegyész	vegyészt
+10	8210	jegyzett	
+11	8211	búcsúz	búcsúzott
+12	8212	vegyszer	vegyszerek vegyszereket vegyszerekkel vegyszerrel vegyszert
+13	8213	kreativitás	kreativitást
+14	8214	felidéz	felidézem felidézett felidézi felidézni felidéztem felidézzük
+15	8215	túlnyomó	
+16	8216	angyali	
+17	8217	kozák	kozákok
+18	8218	megerősítése	megerősítésére megerősítését
+19	8219	eltemet	eltemetett eltemették
+20	8220	bírál	bírálja bírálják bírálni bírálta bíráló
+21	8221	pára	párák párát
+22	8222	étlap	étlapon étlapot étlapra étlapról
+23	8223	karbantartási	
+24	8224	főnix	főnixet
+25	8225	szarva	szarvánál szarvát
+26	8226	elhúzódik	elhúzódhat elhúzódott elhúzódó
+27	8227	kapzsi	kapzsik kapzsinak kapzsivá
+28	8228	infravörös	
+29	8229	gyógyszeres	
+30	8230	kamasz	kamaszként kamaszok kamaszt
+31	8231	adminisztratív	
+32	8232	sokkol	sokkolja sokkoljuk sokkolni sokkolt sokkolta sokkoltak sokkolták sokkolva sokkolás
+33	8233	telepes	telepesek telepeseket telepeseknek telepest
+34	8234	elhízás	
+35	8235	ünneplő	
+36	8236	májusa	májusában
+37	8237	szavaim	szavaimat szavaimban szavaimmal szavaimnak szavaimra
+38	8238	lazac	lazaccal lazacok lazacot
+39	8239	útjai	utai útjain útjairól útjait
+40	8240	törvényhozás	törvényhozásban
+41	8241	fokozódik	fokozódott fokozódó
+42	8242	feszít	feszítenek feszíteni feszítesz feszített feszítette feszítettek feszítették feszíti feszítik feszítse feszítsétek feszítve feszítő
+43	8243	hallás	hallásra
+44	8244	fergeteges	
+45	8245	lakk	lakkot
+46	8246	nóta	nótákat nótát
+47	8247	pattan	pattanjatok pattanjon pattanjunk pattannak pattanni pattanok pattansz pattant
+48	8248	ocsmány	legocsmányabb ocsmányak ocsmányul
+49	8249	elköszön	elköszönjek elköszönjön elköszönni elköszönsz elköszönt elköszöntem elköszöntél elköszöntünk elköszönés elköszönök elköszönünk
+50	8250	világosság	világosságban világosságot világosságra
+51	8251	háziasszony	háziasszonynak háziasszonyok háziasszonyoknak háziasszonyt
+52	8252	tor	torkig torokban torokból torokkal torokra tort
+53	8253	neme	nemében nemét
+54	8254	végrehajtási	
+55	8255	létezhet	létezhetett
+56	8256	forgatókönyvíró	
+57	8257	fényképezőgép	fényképezőgépek fényképezőgépet fényképezőgéppel
+58	8258	kiütés	kiütések kiütéseket kiütésekkel kiütésre kiütéssel kiütést
+59	8259	politikailag	
+60	8260	naprendszer	naprendszerbe naprendszerben naprendszerből naprendszeren naprendszert
+61	8261	uraság	uraságnak
+62	8262	lufi	lufik lufikat lufikkal lufit lufival
+63	8263	közigazgatás	közigazgatásban
+64	8264	részesít	részesítelek részesítem részesíteni részesített részesítettem részesíti részesítik részesítjük
+65	8265	hasonlóképpen	
+66	8266	ereklye	ereklyék ereklyéket ereklyét
+67	8267	elfoglalta	
+68	8268	nyitás	
+69	8269	virsli	virslit virslivel
+70	8270	színdarab	színdarabban színdarabok színdarabokat színdarabot színdarabra
+71	8271	ruháim	ruháimat ruháimban ruháimmal
+72	8272	brigád	brigádba brigádban brigáddal brigádnak brigádok brigádot
+73	8273	hozzáadása	hozzáadásával
+74	8274	hegedű	hegedűk hegedűn hegedűt hegedűvel
+75	8275	hosszútávú	
+76	8276	fúr	fúrj fúrja fúrjon fúrjunk fúrnak fúrni fúrok fúrt fúrta fúrtak fúrtam fúrunk fúrás
+77	8277	terminál	terminálban terminálhoz terminálnál terminálon terminálra terminált
+78	8278	kinézete	kinézetéből kinézetét kinézetével
+79	8279	kvázi	
+80	8280	gondolataid	gondolataidat gondolataidban gondolataiddal
+81	8281	semmirekellő	semmirekellők semmirekellőnek semmirekellőt
+82	8282	szérum	szérummal szérumot
+83	8283	bajotok	
+84	8284	tanulmánya	tanulmányában tanulmányát
+85	8285	pimasz	pimaszul
+86	8286	fenevad	fenevadak fenevadat fenevaddal fenevadnak
+87	8287	gyönyör	gyönyörben gyönyöre gyönyörrel gyönyört gyönyörtől gyönyörök
+88	8288	programoz	programozható programozni programozott programozta programoztak programoztam programozták programozza
+89	8289	zöm	zöme zömében zömök
+90	8290	inas	inasa inasnak inasok inassal inast
+91	8291	törvénykönyv	törvénykönyvet törvénykönyvről
+92	8292	irgalmas	
+93	8293	szexis	legszexisebb szexisebb szexisek szexisen szexiset szexisnek
+94	8294	visszataszító	legvisszataszítóbb visszataszítóak visszataszítónak
+95	8295	javarész	javarészt
+96	8296	huszadik	
+97	8297	falka	falkába falkában falkához falkának falkát falkával
+98	8298	hazafi	hazafiak hazafiakat hazafinak hazafit
+99	8299	sütés	sütéshez sütésre sütést
+100	8300	sérteget	sértegesse sértegessen sértegessenek sértegeted sértegetem sértegetett sértegeti sértegetik sértegetnek sértegetni sértegetsz sértegette sértegetted sértegettek sértegettem sértegetés

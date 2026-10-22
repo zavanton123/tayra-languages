@@ -1,0 +1,100 @@
+1	101	talán	
+2	102	marad	maradandó maradhasson maradhat maradhatna maradhatnak maradhatnánk maradhatnék maradhatok maradhatott maradhatsz maradhattok maradhatunk maradj maradjak maradjanak maradjatok maradjon maradjunk maradna maradnak maradni maradnia maradnod maradnom maradnunk maradnál maradnánk maradnék maradok maradsz maradt maradtak maradtam maradtok maradtunk maradtál maradunk maradva maradó
+3	103	hely	hellyel hellyé helybe helyben helyből helye helyeit helyek helyekből helyeken helyeket helyekhez helyekkel helyeknek helyekre helyekről helyektől helyekért helyen helyet helyhez helynek helynél helyre helyről helytől helyébe helyében helyéből helyéhez helyén helyének helyére helyért helyéről helyét helyétől helyével helyéért
+4	104	oké	okéé
+5	105	rész	résszel részbe részben részből része részedre részek részekben részekből részeken részeket részekkel részeknél részekre részeként részen részhez részig résznek résznél részre részről részt résztől részébe részében részéből részéhez részéig részén részének részénél részére részéről részét részétől részével részévé részéért
+6	106	mindenki	mindenkibe mindenkiben mindenkiből mindenkihez mindenkin mindenkinek mindenkinél mindenkire mindenkiről mindenkit mindenkitől mindenkivel mindenkié mindenkiért
+7	107	hagy	hagyd hagyhatja hagyhatjuk hagyhatod hagyhatom hagyhatsz hagyhatta hagyhattam hagyj hagyja hagyjam hagyjanak hagyjatok hagyjon hagyjuk hagyjunk hagyják hagyjátok hagyna hagynak hagyni hagyná hagynád hagynál hagynám hagyod hagyok hagyom hagyott hagysz hagytad hagytak hagytam hagytuk hagytunk hagyták hagytál hagyunk hagyva
+8	108	segít	segítek segítene segítened segítenek segítenem segíteni segítenie segítenék segítenél segítenének segítenünk segítesz segített segítette segítettek segítettem segítették segítettél segíthet segíthetek segíthetne segíthetnek segíthetnék segíthetnél segíthetsz segíthettem segíthetünk segíti segítik segíts segítse segítsek segítsen segítsenek segítsetek segítsünk segítve segítünk segítő
+9	109	rá	miránk rája terád énrám őrá őrája
+10	110	rossz	legeslegrosszabb legrosszabb legrosszabbat legrosszabbnak legrosszabbra legrosszabbtól legrosszabbul rosszabb rosszabbak rosszabbat rosszabbnak rosszabbra rosszabbul rosszak rosszakat rosszal rosszat rosszba rosszban rosszból rossznak rosszon rosszra rosszról rossztól rosszul rosszá rosszért
+11	111	úr	urai uraik urak urakat urakkal uraknak uram uramat urammal uramnak urat úrba úrban úrhoz úrnak úrnál úron úrra úrral úrrá úrról úrtól úré úrért
+12	112	tényleg	
+13	113	hol	hun hunok hunt
+14	114	szép	legszebb legszebbek legszebben szebb szebben szebbet szépek szépeket szépen szépet szépnek széppé szépre
+15	115	egyik	egyikbe egyikben egyikből egyiken egyiket egyikhez egyikkel egyiknek egyiknél egyikre egyikről egyiktől egyikért
+16	116	hoz	hozd hozhat hozhatsz hozna hoznak hozni hoznia hoznod hoznom hoznunk hozná hoznál hozod hozok hozol hozom hozott hozta hoztad hoztak hoztalak hoztam hoztuk hoztunk hozták hoztál hozunk hozva hozz hozza hozzak hozzam hozzanak hozzatok hozzon hozzuk hozzunk hozzák hozó
+17	117	szóval	
+18	118	biztos	biztosabb biztosak biztosat biztosnak biztosok biztosra biztossal biztossá biztost legbiztosabb
+19	119	érez	érezd érezhet érezheted érezheti érezne érezned éreznek éreznem érezni éreznie érezné éreznéd éreznék éreznél érezném érezte érezted éreztek éreztem érezték éreztél éreztétek éreztük érezz érezze érezzek érezzem érezzék érezzétek érezzük érzed érzek érzel érzem érzi érzik érzitek érzünk érző
+20	120	vég	végbe vége végek végen véget véggel véghez végképp végnek végről végébe végében végéből végéhez végéig végén végének végénél végére végéről végét végétől végével
+21	121	miatt	
+22	122	igaz	igazabb igazak igazat igaznak igazzá legigazabb
+23	123	nő	növő nőbe nőben nőhet nőhöz nőj nője nőjét nőjön nők nőket nőkhöz nőkkel nőknek nőknél nőkre nőkről nőktől nőként nőn nőnek nőni nőnél nőre nőről nősz nőt nőtt nőtte nőttek nőttem nőttél nőttünk nőtől nővel nővé nőé nőért nőül
+24	124	keres	keresd keresed keresek keresel keresem keresett kereshetsz keresi keresik keresne keresned keresnek keresnem keresni keresnie keresnünk keress keresse keressek keressem keressen keressenek keressetek keressék keressétek keressük keressünk kereste kerested kerestek kerestem keresték kerestél kerestük kerestünk keresve keresünk kereső legkeresettebb
+25	125	kicsit	kevésbbé kevésbé legkevésbé
+26	126	ön	önbe önben önből önhöz önként önnek önnel önnél önre önről önt önteni öntet öntetet öntettel önts öntsd öntse öntsünk öntök öntött öntötte öntöttek öntöttem öntötték öntől önért önök önökben önöket önökhöz önökkel önöknek önöknél önökre önökről önöktől önökért önön
+27	127	fiú	fia fiaként fiam fiamat fiamhoz fiamként fiammal fiamnak fiamra fiamról fiamtól fiamért fiához fiának fiára fiáról fiát fiától fiával fiáért fiúba fiúban fiúhoz fiúk fiúkat fiúkhoz fiúkkal fiúknak fiúkra fiúkról fiúként fiún fiúnak fiúra fiúról fiút fiútól fiúval fiúért
+28	128	amely	amellyel amelybe amelyben amelyből amelyek amelyekben amelyekből amelyeken amelyeket amelyekhez amelyekkel amelyeknek amelyeknél amelyekre amelyekről amelyektől amelyekért amelyen amelyet amelyhez amelynek amelynél amelyre amelyről amelytől amelyért
+29	129	vissza	visszább
+30	130	él	éld éled élek élem élen élhessen élhet élhetek élhetnek élhetsz élhetünk éli élik élj élje éljek éljen éljenek éljetek éljük éljünk élne élnek élni élnék élnél élnénk élre élsz élt élte éltek éltem éltessen élték éltél éltünk élve élünk
+31	131	név	neve nevek neveket nevekkel nevekre nevessek nevessen nevessenek nevessetek nevet nevetek neveteket nevetett nevetne nevetnek nevetni nevetsz nevettek nevettem nevettél nevettünk nevetve nevetünk nevető nevében nevéből nevéhez nevén nevének nevére nevéről nevét nevével néven névhez névnek névre névről névvel
+32	132	jár	járat járatban járatok járaton járatot járatra járattal járhat járhatott járj járja járjak járjanak járjon járjuk járjunk járják járna járnak járni járnia járnom járnál járok járom jársz járt járta jártak jártam jártatok jártok jártunk jártál járunk járva járás járást járó
+33	133	kezd	kezdd kezded kezdek kezdem kezdene kezdenek kezdenem kezdeni kezdenék kezdenünk kezdesz kezdett kezdheted kezdhetjük kezdhetnénk kezdi kezdik kezdj kezdje kezdjek kezdjem kezdjen kezdjenek kezdjék kezdjétek kezdjük kezdjünk kezdte kezdted kezdtek kezdtem kezdték kezdtél kezdtük kezdtünk kezdve kezdünk kezdő kezdők
+34	134	szól	szólhat szólhatna szólhatnál szólhatok szólhatott szólhatsz szólhattam szólhattál szólj szóljak szóljanak szóljatok szóljon szóljunk szólna szólnak szólni szólnia szólnod szólnom szólnunk szólnál szólnának szólnátok szólnék szólok szólsz szólt szóltak szóltam szóltatok szóltok szóltunk szóltál szólunk szólva szóló szólóban szólót
+35	135	aztán	
+36	136	hív	hivatott hívd hívek híven hívhat hívhatom hívhatsz hívj hívja hívjak hívjam hívjanak hívjatok hívjon hívjuk hívjunk hívják hívjátok hívnak hívni hívnod hívnom hívnunk hívnám hívod hívok hívom hívott hívsz hívta hívtad hívtak hívtam hívtuk hívtunk hívták hívtál hívunk hívó
+37	137	apa	apaként apja apjaként apjához apjának apjánál apjára apjáról apját apjától apjával apjáé apához apák apám apámat apámhoz apámmal apámnak apámnál apámra apámról apámtól apámé apámért apán apának apánál apára apáról apát apátok apátokat apátokkal apátoknak apától apával apáé apáért
+38	138	túl	
+39	139	persze	
+40	140	ide	
+41	141	alatt	
+42	142	s	s-ből s-hez s-nél s-től
+43	143	ahogy	
+44	144	ír	írd írek írható írj írjak írjam írjatok írjon írjuk írjunk írják írnak írni írod írok írom írott írsz írt írtad írtak írtam írtuk írtunk írták írtál írunk írva írás írásba írásban írások írásokat írással írást író írók írónak írót
+45	145	át	
+46	146	este	esteban estig estébe estében estéből estéhez estéig esték estéken estéket estékre estén estének estére estéről estét estétől estével estéért
+47	147	óra	órakor órába órában órából órához óráig órájuk órák órákat órákba órákban órákig órákkal óráknak órákon órákra órákról órákért órán órának óránk óránál órára óráról órát órától órával óráért
+48	148	jelent	jelented jelentek jelentem jelentene jelentened jelentenek jelentenem jelenteni jelentenie jelentené jelentenék jelentenünk jelentesz jelentett jelentette jelentetted jelentettek jelentettem jelentettél jelentettük jelenthet jelenthetem jelentheti jelenthetnek jelenti jelentik jelentjük jelents jelentse jelentsek jelentsem jelentsen jelentsenek jelentsék jelentsük jelentve jelentél jelentünk jelentő
+49	149	hall	hallal hallana hallanak hallani hallania hallanod hallanom hallaná hallanád hallanám hallanék hallasz hallba hallban halld hallhatjuk hallhatta hallja halljak halljam halljon halljuk hallják halljátok hallod hallok hallotok hallott hallotta hallottad hallottak hallottam hallottatok hallottuk hallottunk hallottál hallottátok hallunk hallva
+50	150	na	
+51	151	senki	senkibe senkiben senkiből senkihez senkijük senkik senkin senkinek senkinél senkire senkiről senkit senkitől senkivel senkié senkiért
+52	152	szó	szavak szavakat szavakba szavakban szavakból szavakhoz szavakkal szavaknak szavaknál szavakon szavakra szavakról szavaktól szavakért szol szolnál szolok szolt szóba szóban szóból szóhoz szóig szón szónak szónál szóra szóról szót szótól szóvá szóért
+53	153	fél	felek felet félbe félek félig félj féljek féljen féljenek féljetek féljünk félne félned félnek félnem félnetek félni félnie félniük félnék félnél félnünk félre félsz félt félted féltek féltelek féltem félteni féltette féltettem félti féltve féltél féltünk félve félünk félő
+54	154	magam	magamat magamba magamban magamból magamhoz magammal magamnak magamnál magamon magamra magamról magamtól magamért
+55	155	dolgozik	dolgozhassunk dolgozhat dolgozhatnak dolgozhatnánk dolgozhatnék dolgozhatok dolgozhatott dolgozhatunk dolgoznak dolgozni dolgoznia dolgozniuk dolgoznotok dolgoznunk dolgoznának dolgoznánk dolgoznék dolgozol dolgozom dolgozott dolgoztak dolgoztatok dolgoztok dolgoztunk dolgozták dolgozunk dolgozva dolgozz dolgozzanak dolgozzatok dolgozzuk dolgozzunk dolgozzák dolgozó dolgozója dolgozók dolgozókat dolgozóknak dolgozót
+56	156	lány	leány leánya leányai leánynak leányok leányt leányát lánnyal lánnyá lányaink lányba lányban lányból lányhoz lányként lánynak lánynál lányok lányokat lányokban lányokból lányokhoz lányokkal lányoknak lányoknál lányokon lányokra lányokról lányoktól lányoké lányokért lányon lányra lányról lányt lánytól lányunkért lányé lányért
+57	157	ti	belétek belőletek bennetek hozzátok nektek nálatok rajtatok rátok rólatok tik tin tit titeket tőletek veletek értetek
+58	158	világ	világba világban világból világgal világgá világhoz világnak világok világokat világokba világokban világokból világokon világokra világon világot világra világról világtól világé világért
+59	159	kerül	kerülhessen kerülhet kerülhetek kerülhetett kerülhetnek kerülhetsz kerülhettek kerülhetünk kerüli kerülik kerülj kerülje kerüljek kerüljenek kerüljék kerüljön kerüljük kerüljünk kerülne kerülnek kerülni kerülnie kerülnöm kerülnünk kerülsz került kerülte kerültek kerültem kerültetek kerültél kerültök kerültünk kerülve kerülöd kerülök kerülöm kerülünk kerülő
+60	160	e	
+61	161	között	
+62	162	tűnik	tüntet tüntetett tünteti tüntetik tüntetnek tüntetni tüntetnünk tüntette tüntettek tüntették tüntetve tűnhet tűnhetett tűnhetsz tűnj tűnjek tűnjenek tűnjetek tűnjön tűnjünk tűnne tűnnek tűnni tűnnie tűnnék tűnnöd tűnnöm tűnnünk tűnsz tűnt tűntek tűntem tűntetek tűntél tűntök tűnés tűnök tűnünk tűnő
+63	163	másik	másikat másikba másikban másikból másikhoz másikig másikkal másiknak másiknál másikon másikra másikról másiktól másikuk másiké másikért másikét
+64	164	ért	érted értek értem értendő értene értenek érteni értené értenéd értenék érteném értesz értetek értett értette értetted értettek értettem értették értettél értettétek értettük értettünk értheted értheti érti értik értitek értjük érts értsd értse értsem értsen értsék értsétek értve értünk értő
+65	165	ismer	ismered ismerek ismerem ismerheti ismerhetjük ismerhette ismeri ismerik ismeritek ismerje ismerjem ismerjék ismerjétek ismerjük ismerne ismerned ismernek ismernem ismerni ismernie ismerné ismernéd ismernék ismernél ismernélek ismerném ismernénk ismernünk ismersz ismerte ismerted ismertek ismertette ismerték ismertél ismertük ismerve ismerünk ismerő
+66	166	együtt	
+67	167	szia	
+68	168	pár	párat párba párban párhoz párként párnak párnál párok párokat párokba párokban párokkal pároknak párokra párokról párra párral párról pártól párért
+69	169	hé	héé
+70	170	baj	bajba bajban bajból bajjal bajnak bajok bajokat bajoktól bajon bajra bajról bajt bajtól
+71	171	ahol	
+72	172	éppen	épp
+73	173	anya	anyaként anyában anyából anyához anyáink anyák anyákat anyákkal anyáknak anyákra anyákról anyám anyámat anyámba anyámban anyámból anyámhoz anyámmal anyámnak anyámnál anyámon anyámra anyámról anyámtól anyámé anyámért anyán anyának anyánál anyára anyáról anyát anyától anyával anyává anyáé anyáért
+74	174	sajnál	sajnálhatja sajnálhatod sajnálj sajnálja sajnáljalak sajnáljam sajnáljanak sajnáljon sajnáljuk sajnálják sajnáljátok sajnállak sajnálnak sajnálni sajnálnia sajnálnod sajnálnom sajnálná sajnálnád sajnálnám sajnálod sajnálok sajnálom sajnálsz sajnált sajnálta sajnáltad sajnáltalak sajnáltam sajnáltuk sajnálták sajnálunk
+75	175	sohasem	sohase sose sosem
+76	176	hogyan	hogyant
+77	177	próbál	próbáld próbálj próbálja próbáljak próbáljam próbáljanak próbáljatok próbáljon próbáljuk próbáljunk próbálják próbáljátok próbállak próbálna próbálnak próbálni próbálnia próbálnod próbálnom próbálnunk próbálnám próbálnék próbálod próbálok próbálom próbálsz próbált próbálta próbáltad próbáltak próbáltalak próbáltam próbáltok próbáltuk próbáltunk próbálták próbáltál próbálunk próbáló
+78	178	férfi	férfiak férfiakat férfiakban férfiakból férfiakhoz férfiakkal férfiaknak férfiaknál férfiakon férfiakra férfiakról férfiaktól férfiaké férfiba férfiban férfiból férfiből férfihez férfihoz férfiként férfin férfinak férfinek férfinál férfinél férfira férfire férfiról férfiről férfit férfitól férfitől férfival férfivel férfivá férfivé férfié férfiért férfiú
+79	179	perc	percbe percben perccel percek percekben perceken perceket percekig percekkel percekre percen percet perchez percig perckor percnek percnél percre percről perctől percért
+80	180	út	utak utakat utakkal utakon utakra utakról utat útba útban útból úthoz útig útnak útnál úton útra útról úttal úttól útért
+81	181	mely	melly mellyel melybe melyben melyből melyek melyekben melyekből melyeken melyeket melyekhez melyekkel melyeknek melyeknél melyekre melyekről melyektől melyen melyet melyhez melynek melynél melyre melyről melytől melyért
+82	182	figyel	figyeld figyeled figyelek figyelhető figyeli figyelik figyelj figyelje figyeljek figyeljen figyeljenek figyeljetek figyeljék figyeljétek figyeljük figyeljünk figyellek figyelne figyelned figyelnek figyelnem figyelni figyelnie figyelnél figyelnünk figyelsz figyelt figyelte figyelted figyeltek figyeltelek figyeltem figyelték figyeltél figyeltük figyeltünk figyelve figyelünk figyelő
+83	183	három	hármak hármat hármon háromba háromban háromból háromhoz háromig hárommal háromnak háromnál háromra háromról háromtól háromért
+84	184	saját	sajátjai sajátjának sajátod sajátot
+85	185	előtt	
+86	186	való	valóban valója valók valókat valónak valóra valót valóval valóvá
+87	187	inkább	
+88	188	találkozik	találkozhassak találkozhasson találkozhassunk találkozhat találkozhatnék találkozhatok találkozhatsz találkozhattam találkozhattok találkozhattunk találkozhatunk találkozna találkoznak találkozni találkoznia találkozniuk találkoznod találkoznom találkoznotok találkoznunk találkoznál találkoznának találkoznánk találkoznék találkozok találkozol találkozott találkoztak találkoztam találkoztatok találkoztok találkoztunk találkoztál találkozunk találkozzam találkozzanak találkozzatok találkozzon találkozzunk
+89	189	nos	
+90	190	fontos	fontosabb fontosabbnak fontosak fontosat fontosnak fontosra fontosról fontossá legfontosabb legfontosabbat legfontosabbnak
+91	191	néhány	néhánnyal néhányat néhányban néhánynak néhányon néhányra néhányról
+92	192	ennyi	ennyibe ennyiben ennyiből ennyin ennyinek ennyira ennyire ennyiről ennyit ennyitől ennyivel ennyiért
+93	193	munka	munkaként munkat munkába munkában munkából munkához munkák munkákat munkákban munkákból munkákhoz munkákkal munkákra munkán munkának munkánál munkára munkáról munkát munkától munkával munkáért
+94	194	elmegy	elmegyek elmegyünk elmehessen elmehessünk elmehetek elmehetett elmehetnek elmehetnék elmehetnél elmehetnénk elmehetsz elmehettek elmehettem elmehettél elmehettünk elmenjek elmenjen elmenjenek elmenjetek elmenjünk elmenne elmenned elmennek elmennem elmenni elmennie elmennék elmennél elmennének elmennénk elmennétek elmennünk elment elmentek elmentem elmentetek elmentél elmentünk elmész
+95	195	isten	istenbe istenben istenek istenekben isteneket istenekhez istenekkel isteneknek istenekre istenekről istenektől istenen istenhez istenként istennek istennel istenné istennél istenre istenről istent istentől istené istenért
+96	196	hét	hetek hetekbe hetekben heteken heteket hetekig hetekkel hetekre hetet hétbe hétben hétből héten héthez hétig hétnek hétnél hétre hétről héttel héttől hétért
+97	197	ér	erek érd ére éred érek érem érhet érheti érhetnek érhetünk érhető éri érik érj érje érjen érjenek érjük érjünk érmet érne érnek érni érné érsz érted értek értem érték értékben értékek értékeket értéket értékkel értél értük érve érünk érő
+98	198	ugye	
+99	199	egyszer	
+100	200	pénz	pénzbe pénzben pénzből pénzek pénzeket pénzekkel pénzekről pénzen pénzetek pénzhez pénznek pénznél pénzre pénzről pénzt pénztől pénzzel pénzzé pénzért pénzük pénzüket pénzünkből pénzünket pénzünkért

@@ -1,0 +1,100 @@
+1	4701	letöltés	letöltést
+2	4702	fárad	fáradjanak fáradjatok fáradjon fáradna fáradnak fáradni fáradnia fáradnod fáradok fáradsz fáradtam fáradtál fáradva fárassza fárasszon fáraszt fárasztani fárasztasz fárasztja fárasztom
+3	4703	elkerülhetetlen	elkerülhetetlenek elkerülhetetlennek elkerülhetetlenné elkerülhetetlent elkerülhetetlenül
+4	4704	elbűvölő	elbűvölőbb elbűvölőek elbűvölőnek legelbűvölőbb
+5	4705	kocsis	kocsisnak kocsist
+6	4706	pokoli	
+7	4707	lépése	lépésének lépésénél lépésére lépéséről lépését
+8	4708	állatkert	állatkertbe állatkertben állatkertből állatkertek állatkertet állatkertnek
+9	4709	ellenőrzése	ellenőrzésének ellenőrzésére ellenőrzéséről ellenőrzését ellenőrzésével
+10	4710	körút	körutat körúton körútra
+11	4711	lám	
+12	4712	hiteles	hitelesebb hitelesek hitelesen hitelesnek hitelessé leghitelesebb
+13	4713	kései	késői
+14	4714	nyugt	nyugton nyugtot
+15	4715	bánat	bánatba bánatban bánatnak bánatot bánatra bánatról bánattal bánattól bánatért
+16	4716	korlátlan	korlátlanul
+17	4717	mesés	mesésen
+18	4718	indok	indokból indokkal indoknak indokok indokokat indokot indokra
+19	4719	törékeny	törékennyé törékenyebb törékenyek törékenynek
+20	4720	szolga	szolgaként szolgáik szolgák szolgákat szolgákkal szolgáknak szolgának szolgát szolgával
+21	4721	tízezer	tízezerrel tízezrek tízezreket tízezren tízezret
+22	4722	nős	
+23	4723	hangulata	hangulatában hangulatát
+24	4724	lejön	lejöhet lejöhetsz lejöjjön lejönne lejönnek lejönni lejönnél lejönnöd lejössz lejött lejöttek lejöttem lejöttél lejöttünk lejövök lejövünk
+25	4725	pártja	pártján pártjának pártjára pártját
+26	4726	tervezte	
+27	4727	munkatársai	munkatársainak munkatársait munkatársaival
+28	4728	sátor	sátorba sátorban sátorból sátorhoz sátornál sátorra sátorral sátort sátrak sátrakat sátrakban sátrat
+29	4729	bevezetése	bevezetésének bevezetésére bevezetéséről bevezetését bevezetésével
+30	4730	kötés	kötésben kötések kötéseket kötéssel kötést
+31	4731	érzékel	érzékeled érzékelek érzékelem érzékeli érzékelik érzékeljük érzékelnek érzékelni érzékelsz érzékelt érzékelte érzékeltek érzékeltem érzékelteti érzékelték érzékeltünk érzékelve érzékelünk
+32	4732	határai	határain határainak határait
+33	4733	törvénye	törvényének törvényét törvényével
+34	4734	maffia	maffiában maffiához maffiának maffiára maffiáról maffiát maffiától maffiával
+35	4735	ünnepe	ünnepén ünnepének ünnepére ünnepét
+36	4736	ráér	ráérek ráérne ráérnek ráérni ráérnél ráért ráértem ráérünk
+37	4737	divatos	divatosabb divatosak legdivatosabb
+38	4738	fotós	fotósnak fotósok fotósokat fotóssal fotóst
+39	4739	ajándéka	ajándékának ajándékára ajándékát ajándékával ajándékáért
+40	4740	menetrend	menetrendet menetrendhez
+41	4741	ellenzék	ellenzéket ellenzékkel ellenzéknek
+42	4742	hasa	hasába hasában hasából hasán hasára hasáról hasát hasával
+43	4743	kifinomult	kifinomultabb kifinomultak legkifinomultabb
+44	4744	lehetőségünk	lehetőségünket
+45	4745	közvetít	közvetítek közvetítem közvetítenek közvetíteni közvetített közvetítette közvetítettem közvetítették közvetíti közvetítik közvetítjük közvetítse közvetítsem közvetítsen közvetítünk
+46	4746	mindhárom	mindhármat mindhármukat
+47	4747	vállalati	
+48	4748	elfogadható	elfogadhatóak elfogadhatóbb elfogadhatónak elfogadhatóvá
+49	4749	takar	takard takarj takarja takarjuk takarják takarjátok takarnak takarni takarnunk takarod takart takarta takartam takarták takarva
+50	4750	égi	égiek égieket égieknek égiektől
+51	4751	áruház	áruházak áruházakban áruházat áruházba áruházban áruházból áruháznak áruháznál
+52	4752	terhesség	terhességek terhességet terhességgel terhességnek terhességre terhességről
+53	4753	műhold	műholdak műholdakat műholdakkal műholdat műholddal műholdhoz műholdnak műholdon műholdra műholdról
+54	4754	mestere	mesterének mesterét mesterével mesterévé
+55	4755	megőriz	megőrizni megőrizte megőrizted megőriztem megőrizték megőriztük megőrizze megőrizzem megőrizzék megőrizzük megőrzés
+56	4756	klán	klánba klánban klánból klánhoz klánnak klánnal klánok klánokat klánt klántól
+57	4757	megél	megéled megélek megélem megéli megéljek megéljen megéljük megéljünk megélnek megélnem megélni megélsz megélt megélte megéltek megéltem megéltünk megélünk
+58	4758	blokk	blokkal blokkba blokkban blokkból blokkok blokkokat blokkon blokkot blokkra
+59	4759	idegesít	idegesíted idegesítelek idegesítem idegesítene idegesítenek idegesíteni idegesítesz idegesített idegesítette idegesíti idegesítse idegesítsem idegesítsen
+60	4760	fajtája	fajtájából fajtájának fajtájára fajtáját fajtájától fajtájával
+61	4761	korunk	korunkban korunkig
+62	4762	ciklus	ciklusban ciklusok cikluson ciklusra ciklussal ciklust
+63	4763	rendelés	rendelések rendeléseket rendelésre rendeléssel rendelést
+64	4764	nyara	nyarán nyarát
+65	4765	béka	békák békákat békának békára békát békával békává
+66	4766	ébreszt	ébressz ébressze ébresszelek ébresszem ébresszen ébresszenek ébresszetek ébresszék ébresszétek ébresszük ébreszd ébreszted ébresztem ébresztened ébresztenek ébresztenem ébreszteni ébresztenünk ébresztesz ébresztett ébresztette ébresztettek ébresztettelek ébresztettem ébresztettél ébreszti ébresztjük ébresztés
+67	4767	konzervatív	konzervatívabb konzervatívak konzervatívok
+68	4768	lenyűgöz	lenyűgözi lenyűgöznek lenyűgözni lenyűgöznöd lenyűgözte lenyűgözted lenyűgöztek lenyűgöztelek lenyűgöztem lenyűgözték lenyűgöztél lenyűgözve lenyűgözze lenyűgözzelek lenyűgözzem lenyűgözzön lenyűgözzük lenyűgözöd lenyűgözöl lenyűgözöm lenyűgözött
+69	4769	csajszi	csajszik csajszinak csajszit csajszival
+70	4770	fodor	fodrok
+71	4771	logika	logikája logikának logikára logikát logikával
+72	4772	kibír	kibírja kibírjam kibírjuk kibírják kibírjátok kibírna kibírnak kibírni kibírnia kibírnod kibírnom kibírnunk kibírná kibírnád kibírnám kibírnék kibírod kibírok kibírom kibírsz kibírt kibírta kibírtad kibírtam kibírtuk kibírunk
+73	4773	velencei	
+74	4774	jeges	
+75	4775	megszáll	megszállhat megszállhatunk megszállja megszálljon megszálljuk megszállják megszállnak megszállni megszállottad megszállottam megszállt megszálltak megszálltam megszálltunk megszállták megszállunk megszálló
+76	4776	reggelizik	reggelizek reggelizel reggelizem reggelizett reggelizhetnénk reggelizned reggeliznek reggelizni reggeliztek reggeliztem reggeliztél reggeliztünk reggelizz reggelizzen reggelizzünk reggelizünk reggeliző
+77	4777	várakozik	várakozhat várakozna várakoznak várakozni várakoznia várakoznunk várakozok várakozol várakozott várakoztak várakoztam várakoztat várakoztunk várakozunk várakozva várakozzanak várakozzunk várakozó
+78	4778	kamara	kamarába kamarából kamarának kamaránál kamarát kamarától
+79	4779	belépés	belépése belépéshez belépésre belépést
+80	4780	unatkozik	unatkozna unatkoznak unatkozni unatkoznál unatkoznék unatkozok unatkozol unatkozott unatkoztak unatkoztam unatkoztok unatkoztunk unatkoztál unatkozunk unatkozzon unatkozó
+81	4781	portugál	portugálok portugálul
+82	4782	fotózás	fotózáshoz fotózáson fotózásra fotózásról fotózással fotózást
+83	4783	behatol	behatoljon behatolnak behatolni behatolok behatolt behatoltak behatoltam behatoltunk behatolunk behatoló
+84	4784	rovar	rovarok rovarokat rovarokkal rovaroknak rovarokra rovart
+85	4785	megnő	megnövök megnőnek megnőni megnősz megnőtt megnőttek megnőttem megnőttetek megnőttél
+86	4786	csekély	csekélyebb csekélyek legcsekélyebb
+87	4787	utazási	
+88	4788	minimális	minimálisak minimálisra
+89	4789	tapasztal	tapasztalható tapasztalja tapasztaljuk tapasztalják tapasztalnak tapasztalni tapasztalod tapasztalok tapasztalom tapasztalsz tapasztalta tapasztaltad tapasztaltak tapasztaltam tapasztaltuk tapasztaltunk tapasztalták tapasztaltál tapasztalunk
+90	4790	mindnyájan	
+91	4791	fejfájás	fejfájások fejfájásra fejfájással fejfájást fejfájástól
+92	4792	oldalunk	oldalunkat oldalunkon oldalunkra oldalunkról
+93	4793	megújul	megújult
+94	4794	műszer	műszerek műszereket műszerekkel műszerrel műszert
+95	4795	történelme	történelmébe történelmében történelmének történelméről történelmét
+96	4796	borul	boruljak boruljatok boruljon borulna borulnak borulni borulok borulsz borult borultak borultam borultál borulunk borulva
+97	4797	csillagos	
+98	4798	egészében	
+99	4799	pedagógiai	
+100	4800	létezése	létezésében létezésének létezésére létezéséről létezését

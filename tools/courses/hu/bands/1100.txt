@@ -1,0 +1,100 @@
+1	1001	elad	eladhatjuk eladhatnánk eladhatod eladhatom eladható eladja eladjam eladjuk eladják eladjátok eladnak eladni eladnia eladnod eladnom eladnunk eladná eladnád eladnák eladnám eladnánk eladod eladok eladom eladott eladsz eladta eladtad eladtak eladtam eladtuk eladtunk eladták eladtál eladtátok eladunk eladva eladás eladásra
+2	1002	arca	arcába arcában arcából arcához arcán arcának arcára arcáról arcát arcától arcával
+3	1003	hatás	hatásnak hatások hatásokat hatásokkal hatásra hatással hatást hatásukat
+4	1004	megtörténik	megtörténhet megtörténhetett megtörténhetne megtörténhetnek megtörténjenek megtörténne megtörténnek megtörténni megtörténnie megtörténnének megtörtént megtörténtek
+5	1005	hétvége	hétvégéhez hétvégéig hétvégék hétvégéken hétvégéket hétvégékre hétvégén hétvégének hétvégére hétvégéről hétvégét hétvégével
+6	1006	november	novemberben novemberig novembertől
+7	1007	másodperc	mp másodpercbe másodpercben másodperccel másodpercek másodperceken másodperceket másodpercekkel másodpercekre másodpercen másodpercet másodpercig másodpercnél másodpercre
+8	1008	bizottság	bizottságba bizottságban bizottságból bizottsággal bizottsághoz bizottságnak bizottságnál bizottságok bizottságon bizottságot bizottságra bizottságról bizottságtól
+9	1009	orvosi	orvosiba orvosiban orvosin orvosira orvosiról orvosit
+10	1010	kivéve	
+11	1011	többször	legtöbbször
+12	1012	feleségem	feleségembe feleségemben feleségemen feleségemet feleségemhez feleségemként feleségemmel feleségemmé feleségemnek feleségemnél feleségemre feleségemről feleségemtől feleségemé feleségemért feleségemül
+13	1013	rak	rakd rakhatnánk rakhatod rakhatom rakhatsz rakj rakja rakjak rakjam rakjanak rakjatok rakjon rakjuk rakjunk rakják rakjátok raklak raknak rakni raknia raknod raknom raknunk raknád raknánk rakod rakok rakom raksz rakta raktad raktak raktam raktuk raktunk rakták raktál rakunk rakva
+14	1014	helyszín	helyszínek helyszíneken helyszíneket helyszínekkel helyszínekre helyszínekről helyszínen helyszínhez helyszínnek helyszínnel helyszínre helyszínről helyszínt helyszíntől
+15	1015	álom	álmok álmokat álmokban álmokból álmokkal álmoknak álmokra álmokról álmon álmot álomba álomban álomból álomhoz álommal álomnak álomra álomról álomért
+16	1016	külső	külsőm külsőre külsőt külsővel
+17	1017	azután	
+18	1018	virág	virágai virágba virágból virággal virággá virághoz virágnak virágok virágokat virágokból virágokhoz virágokkal virágoknak virágokra virágokról virágokért virágot virágra virágról virágért
+19	1019	doboz	dobozba dobozban dobozból dobozhoz doboznak dobozok dobozokat dobozokba dobozokban dobozokból dobozokkal dobozokon dobozokra dobozokról dobozon dobozra dobozról dobozt doboztól dobozzal dobozért
+20	1020	egyszerre	
+21	1021	vigyáz	vigyázhat vigyázhatna vigyázhatnál vigyázhatnék vigyázhatok vigyázhatsz vigyázhatunk vigyázna vigyáznak vigyázni vigyáznia vigyázniuk vigyáznod vigyáznom vigyáznotok vigyáznunk vigyáznál vigyáznának vigyáznátok vigyáznék vigyázok vigyázol vigyázom vigyázott vigyáztak vigyáztam vigyáztatok vigyáztok vigyáztunk vigyáztál vigyázunk vigyázva vigyázza vigyázzak vigyázzanak vigyázzunk vigyázzák vigyázzál vigyázó
+22	1022	sokszor	legtöbbször
+23	1023	kamera	kamerába kamerában kamerából kamerához kamerái kamerák kamerákat kamerákból kamerákhoz kamerákkal kameráknak kamerákon kamerákra kamerákról kameráktól kamerán kamerának kamerára kameráról kamerát kamerától kamerával kameráért
+24	1024	fotó	fotóhoz fotók fotókat fotókból fotókkal fotókon fotókra fotókról fotókért fotón fotónak fotóra fotóról fotót fotóval
+25	1025	felső	felsőbb felsőben felsők felsőket felsőt felsővel fölső legfelső legfelsőbb
+26	1026	megérkezik	megérkezek megérkezel megérkezett megérkezhet megérkezhetnek megérkezne megérkeznek megérkezni megérkeznie megérkeztek megérkeztem megérkeztetek megérkeztél megérkeztünk megérkezzen megérkezzenek megérkezünk
+27	1027	terem	terembe teremben teremből teremhez teremnek teremni teremnél teremre teremről teremtek termek termekbe termekben termeket termel termelek termeli termelik termeljen termeljenek termelnek termelni termelt termeltek termelünk termelő termelői termelők termem termemben termen termeszt termesztett termet termett termettek termit termünk termő
+28	1028	ereje	erejében erejéből erejéhez erejéig erején erejének erejére erejéről erejét erejétől erejével
+29	1029	végzett	végzettel
+30	1030	viselkedik	viselkedek viselkedett viselkedhetnénk viselkedhetsz viselkedhetünk viselkedj viselkedjem viselkedjenek viselkedjetek viselkedjünk viselkedne viselkedned viselkednek viselkednem viselkednetek viselkedni viselkednie viselkedniük viselkednék viselkednél viselkednének viselkednénk viselkednünk viselkedsz viselkedtek viselkedtem viselkedtetek viselkedtél viselkedtünk viselkedünk viselkedő
+31	1031	gratulál	gratulálhatok gratuláljak gratuláljanak gratuláljatok gratuláljon gratuláljunk gratulálnak gratulálni gratulálnom gratulálok gratulálsz gratulált gratuláltam gratuláltál gratulálunk gratuláló
+32	1032	ekkor	
+33	1033	dolgoz	dolgozhassak dolgozhasson dolgozhatna dolgozhatnál dolgozhatom dolgozhatsz dolgozhattam dolgozna dolgoznod dolgoznom dolgoznál dolgozta dolgoztad dolgoztam dolgoztat dolgoztál dolgozza dolgozzak dolgozzam dolgozzon dolgozzál
+34	1034	módszer	módszerek módszerekben módszereket módszerekhez módszerekkel módszerekről módszeren módszerhez módszernek módszerre módszerrel módszerről módszert
+35	1035	modern	legmodernebb modernebb modernek
+36	1036	rendel	rendelek rendelem rendelhet rendelhetek rendelhetnénk rendelhetsz rendelhetünk rendelhető rendeli rendelje rendeljek rendeljen rendeljenek rendeljetek rendeljük rendeljünk rendelne rendelnek rendelnem rendelni rendelnie rendelnék rendelnél rendelnénk rendelnünk rendelsz rendelt rendelted rendeltek rendeltem rendeltetek rendelték rendeltél rendeltük rendeltünk rendelve rendelünk rendelő rendelőjét
+37	1037	évad	évadban évadból évadnak évadon évadot évadra
+38	1038	halló	
+39	1039	mindkét	
+40	1040	hatása	hatásának hatására hatásáról hatását hatásától hatásával
+41	1041	időszak	időszakban időszakból időszaknak időszakok időszakokat időszakokban időszakon időszakot időszakra időszakról
+42	1042	erdő	erdőbe erdőben erdőből erdőhöz erdőig erdők erdőkben erdőket erdőn erdőnek erdőnél erdőre erdőről erdőt erdőtől erdővel
+43	1043	megyei	megyeibe megyeiben megyeiek
+44	1044	fordította	
+45	1045	táncol	táncolhat táncolhatnánk táncolhatnék táncolhatok táncolhatsz táncolhatunk táncolja táncoljak táncoljanak táncoljatok táncoljon táncoljuk táncoljunk táncolna táncolnak táncolni táncolnia táncolnod táncolnom táncolnunk táncolnál táncolnának táncolnánk táncolnék táncolok táncolsz táncolt táncoltak táncoltam táncoltatok táncoltok táncoltunk táncoltál táncolunk táncolva táncolás táncoló
+46	1046	bemegy	bemegyek bemegyünk bemehessek bemehessen bemehetek bemehetett bemehetnek bemehetnék bemehetnénk bemehetsz bemehettek bemehetünk bemenjek bemenjen bemenjenek bemenjünk bemenne bemenned bemennek bemennem bemenni bemennie bemennék bemennél bemennénk bemennünk bement bementek bementem bementetek bementél bementünk bemenő bemész
+47	1047	forrás	forrásait forrásban forrásból forráshoz forrásként forrásnak forrásnál források forrásokat forrásokból forrásokkal forrásokra forrásra forrásról forrással forrást forrástól
+48	1048	mér	mérd méred mérek mérem méri mérik mérj mérje mérjem mérjen mérjenek mérjék mérjétek mérjük mérjünk mérnek mérni mérsz mért mérte mérted mértek mértem mérték mértékben mértéket mértékig mértékkel mértük mértünk mérve mérés méréseket mérést mérünk mérő mérőt
+49	1049	óriási	óriásiak óriásinak óriásira óriásit
+50	1050	kétszer	
+51	1051	ló	lovai lovak lovakat lovakhoz lovakkal lovaknak lovaknál lovakon lovakra lovakról lovaktól lovakért lovat lovon lóba lóban lóból lóhoz lónak lóra lóról lótól lóval lóvá lóé lóért
+52	1052	énekel	énekeld énekeled énekelek énekelem énekelhetek énekelhetsz énekelhetünk énekelje énekeljek énekeljem énekeljen énekeljenek énekeljetek énekeljétek énekeljük énekeljünk énekelne énekelned énekelnek énekelnem énekelni énekelnie énekelnék énekelnél énekelnénk énekelnünk énekelsz énekelt énekelte énekelted énekeltek énekeltem énekelték énekeltél énekeltük énekeltünk énekelve énekelünk éneklő
+53	1053	tenger	tengerbe tengerben tengerből tengerek tengerekben tengereken tengereket tengeren tengerhez tengerig tengernek tengernél tengerre tengerrel tengerről tengert tengertől
+54	1054	pasi	pasiba pasiban pasiból pasihoz pasik pasikat pasikhoz pasikkal pasiknak pasiknál pasikra pasikról pasiktól pasikért pasin pasinak pasinál pasira pasiról pasit pasitól pasival pasiért
+55	1055	ígér	ígéred ígérek ígérem ígérhet ígérhetek ígérhetem ígérhetsz ígéri ígérik ígérje ígérjek ígérjen ígérjék ígérjétek ígérjük ígérned ígérnek ígérnem ígérnetek ígérni ígérnie ígérsz ígért ígérted ígértek ígértem ígértetek ígérték ígértél ígértük ígértünk ígérve ígérünk ígérő
+56	1056	hegy	heggyel hegybe hegyben hegyből hegyek hegyekbe hegyekben hegyekből hegyeken hegyeket hegyekhez hegyekkel hegyeknek hegyekre hegyekről hegyen hegyet hegyhez hegynek hegynél hegyre hegyről hegytől
+57	1057	szomorú	legszomorúbb szomorúak szomorúbb szomorúnak szomorút szomorúvá
+58	1058	sport	sportban sportból sporthoz sportnak sportok sportokat sportokban sportot sportra sportról sporttal
+59	1059	piros	pirosak pirosat pirosba pirosban pirosnak pirosnál piroson pirosra pirossal
+60	1060	péntek	pénteken pénteket péntekhez péntekig péntekre péntekről péntektől
+61	1061	kora	korába korában korából korához koráig korának koránál korára koráról korát korától korával
+62	1062	hatalom	hatalmak hatalmamban hatalmat hatalmon hatalmuk hatalmukat hatalmukba hatalmunk hatalmunkban hatalomba hatalomban hatalomból hatalomhoz hatalommal hatalomnak hatalomnál hatalomra hatalomról hatalomtól hatalomért
+63	1063	bármilyen	bármilyenek bármilyet
+64	1064	suli	suliba suliban suliból sulihoz sulik sulin sulinak sulinál sulira suliról sulit sulitól sulival
+65	1065	tör	törd törhet törheted törhetett törheti törhetnek törhetsz törhetünk töri törik törj törje törjek törjem törjenek törjetek törjék törjétek törjön törjük törjünk törne törnek törni törné törsz törte törted törtek törtem törték törtél törtük törtünk törve töröd töröm törünk törő
+66	1066	termék	termékek termékeket termékekkel termékekre termékekről terméket termékhez termékkel terméknek termékre termékről
+67	1067	számú	számúnak számút számúval
+68	1068	pontos	legpontosabb pontosabb pontosabbak pontosak pontosat pontosnak pontost
+69	1069	sör	ser sörbe sörben sörből sörhöz sörnek sörnél sörre sörrel sörről sört sörtől sörért sörök söröket sörön
+70	1070	szét	
+71	1071	csomó	csomóban csomók csomókat csomókban csomóra csomót csomóval
+72	1072	jelen	jelenbe jelenben jelenből jelene jelenek jelenhez jelennek jelennel jelennél jelenre jelenről
+73	1073	téved	tévedek tévedett tévedhetek tévedhetett tévedhetnek tévedhetsz tévedhettem tévedhetünk tévedj tévedjek tévedjen tévedjünk tévedne tévednek tévedni tévednék tévednél tévedsz tévedt tévedtek tévedtem tévedtetek tévedtél tévedtünk tévedve tévedünk
+74	1074	nyolc	nyolcat nyolcból nyolccal nyolcig nyolcnál nyolcra nyolctól
+75	1075	szerződés	szerződésbe szerződésben szerződésből szerződések szerződésekben szerződéseket szerződésekkel szerződésekről szerződésen szerződéshez szerződésnek szerződésre szerződésről szerződéssel szerződést szerződésért szerződésük szerződésüket
+76	1076	olcsó	legolcsóbb olcsóak olcsóbb olcsóbban olcsók olcsón olcsónak olcsót
+77	1077	nyomás	nyomása nyomásnak nyomáson nyomásra nyomásról nyomással nyomást nyomástól nyomásának
+78	1078	kezem	kezembe kezemben kezemből kezemen kezemet kezemhez kezemmel kezemnek kezemre kezemről
+79	1079	bizonyít	bizonyítana bizonyítanak bizonyítandó bizonyítani bizonyítania bizonyítaniuk bizonyítanod bizonyítanom bizonyítanunk bizonyítaná bizonyítasz bizonyíthatja bizonyíthatjuk bizonyíthatják bizonyíthatná bizonyíthatnám bizonyíthatnánk bizonyíthatod bizonyíthatom bizonyítja bizonyítjuk bizonyítják bizonyítod bizonyítok bizonyítom bizonyította bizonyítottad bizonyítottuk bizonyították bizonyítottál bizonyítsa bizonyítsak bizonyítsam bizonyítson bizonyítsuk bizonyítsák bizonyítsátok bizonyítva bizonyító
+80	1080	gyógyszer	gyógyszerből gyógyszerek gyógyszerekben gyógyszerekből gyógyszereken gyógyszereket gyógyszerekhez gyógyszerekkel gyógyszereknek gyógyszerekre gyógyszerekről gyógyszerektől gyógyszerekért gyógyszeren gyógyszerhez gyógyszerként gyógyszernek gyógyszerre gyógyszerrel gyógyszerről gyógyszert gyógyszertől gyógyszerért
+81	1081	meglepetés	meglepetésben meglepetése meglepetések meglepetéseket meglepetésekkel meglepetésekre meglepetésként meglepetésnek meglepetésre meglepetésről meglepetéssel meglepetést meglepetéstől meglepetésére
+82	1082	éhes	éhesebb éhesebbek éhesek éhesen éhesnek éhessé
+83	1083	ráadásul	
+84	1084	színház	színházak színházakban színházat színházba színházban színházból színházhoz színháznak színháznál színházra színházról színházzal
+85	1085	fejez	fejezed fejezek fejezel fejezem fejezheted fejezhetem fejezhetjük fejezhetném fejezhetnénk fejezi fejezik fejezitek fejezned fejeznek fejeznem fejeznetek fejezni fejeznie fejezniük fejezné fejeznéd fejezném fejeznénk fejeznünk fejezte fejezted fejeztek fejeztem fejezték fejeztél fejeztük fejeztünk fejezve fejezze fejezzek fejezzem fejezzék fejezzétek fejezzük
+86	1086	változás	változásban változáshoz változásnak változások változásokat változásokhoz változásokkal változásoknak változásokon változásokra változásokról változáson változásra változásról változással változást változástól változásért
+87	1087	jelentés	jelentésbe jelentésben jelentésből jelentései jelentéseit jelentések jelentésekben jelentésekből jelentéseket jelentésekkel jelentésekre jelentésekről jelentésen jelentéshez jelentésnek jelentésre jelentésről jelentéssel jelentést jelentésük jelentésüket
+88	1088	útja	útjába útjában útjából útján útjának útjára útjáról útját
+89	1089	fesztivál	fesztiválján fesztivállal fesztiválnak fesztiválok fesztiválokon fesztiválon fesztiválra fesztiválról fesztivált
+90	1090	elindul	elindulhat elindulhatnánk elindulhatok elindulhatunk elinduljon elinduljunk elindulna elindulnak elindulni elindulnom elindulnunk elindulnál elindulnánk elindulnék elindulok elindulsz elindult elindultak elindultam elindultok elindultunk elindultál elindulunk elindít elindítani elindítja elindítjuk elindítják elindítod elindítok elindítom elindított elindította elindítottam elindítottuk elindítottunk elindították elindítsa elindítva
+91	1091	biztonságos	biztonságosabb biztonságosabbnak biztonságosak biztonságosnak biztonságossá legbiztonságosabb
+92	1092	nyújt	nyújtana nyújtanak nyújtandó nyújtani nyújtania nyújtanod nyújtanom nyújtanunk nyújtasz nyújthat nyújthatok nyújtja nyújtjuk nyújtják nyújtod nyújtok nyújtom nyújtott nyújtotta nyújtottad nyújtottak nyújtottam nyújtottunk nyújtották nyújtottál nyújts nyújtsa nyújtsak nyújtsanak nyújtsd nyújtson nyújtsuk nyújtsunk nyújtsák nyújtsátok nyújtunk nyújtva nyújtás nyújtó
+93	1093	titkos	legtitkosabb titkosak titkosat titkosnak
+94	1094	hála	hálából hálájukat hálára hálát hálával
+95	1095	bármikor	
+96	1096	bolt	boltba boltban boltból bolthoz boltig boltnak boltnál boltok boltokat boltokba boltokban boltokból bolton boltot boltra boltról bolttal bolttól
+97	1097	apró	apróban apróbb aprók aprókat aprónak apróra aprót apróval apróért legapróbb
+98	1098	baja	baján bajára baját
+99	1099	írta	
+100	1100	bárcsak	

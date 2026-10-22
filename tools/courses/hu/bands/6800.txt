@@ -1,0 +1,100 @@
+1	6701	rajzfilm	rajzfilmben rajzfilmek rajzfilmekben rajzfilmeket rajzfilmet
+2	6702	nagyon-nagyon	
+3	6703	elvárás	elvárásnak elvárások elvárásokat elvárásokkal elvárásoknak
+4	6704	behoz	behozott behozta behoztak behozták behozzák
+5	6705	füves	füvesek
+6	6706	elszánt	elszántabb elszántak elszántnak legelszántabb
+7	6707	káposzta	káposztát káposztával
+8	6708	rideg	ridegek ridegen ridegnek
+9	6709	elmondása	
+10	6710	modul	modulban modullal modulok modult
+11	6711	ezres	ezressel ezrest ezresért
+12	6712	informatika	
+13	6713	ápol	ápolja ápoljuk ápolják ápolnak ápolni ápolod ápolok ápolom ápolta ápoltak ápoltam ápolták ápolunk
+14	6714	egyesül	egyesüljenek egyesüljetek egyesüljön egyesüljünk egyesülnek egyesülni egyesülnünk egyesültünk egyesülve egyesülünk
+15	6715	vándor	vándorok vándort
+16	6716	tapasztalatai	tapasztalataik tapasztalatairól tapasztalatait
+17	6717	felhasználható	
+18	6718	gyík	gyíkkal gyíknak gyíkok gyíkokat gyíkot
+19	6719	kézikönyv	kézikönyvben kézikönyvek kézikönyvet
+20	6720	tiszteletbeli	
+21	6721	cserkész	cserkészek cserkészeket cserkészeknek cserkészeknél cserkésznek
+22	6722	dobál	dobálja dobáljanak dobáljuk dobáljunk dobálják dobáljátok dobálnak dobálni dobálod dobálok dobálom dobálsz dobált dobálta dobáltad dobáltak dobáltam dobáltuk dobáltunk dobálták dobáltál dobálunk dobálva dobáló
+23	6723	haldoklom	haldoklok
+24	6724	evez	evezek evezel evezett eveznek evezni eveztem eveztünk evezzen evezzetek evezzünk evezés evezünk
+25	6725	formál	formálhat formálja formáljuk formálják formálnak formálni formálom formált formáltak formáltam formálták formálva
+26	6726	tavasza	tavaszán
+27	6727	garantáltan	
+28	6728	hegye	hegyéig hegyén hegyének hegyére hegyéről hegyét hegyével
+29	6729	akkumulátor	akkumulátorok akkumulátorokat akkumulátorral akkumulátort
+30	6730	füles	füleseket fülest
+31	6731	rokonai	rokonainak rokonait rokonaival
+32	6732	holnapután	holnaputánig holnaputánra
+33	6733	ócska	legócskább ócskák
+34	6734	benyújt	benyújtani benyújtja benyújtjuk benyújtok benyújtom benyújtott benyújtotta benyújtottak benyújtottam benyújtották
+35	6735	hazatér	hazatért
+36	6736	briliáns	legbriliánsabb
+37	6737	spray	spray-t spray-vel sprayt spré
+38	6738	ellenkezik	ellenkezek ellenkezel ellenkezett ellenkezne ellenkeznek ellenkezni ellenkeznék ellenkeztem ellenkeztél ellenkezzen ellenkezés
+39	6739	hozzáférhető	hozzáférhetővé
+40	6740	könyvtáros	könyvtárosnak könyvtárosok könyvtárossal könyvtárost
+41	6741	némely	némelyek némelyeknek
+42	6742	riport	riportok riportokat riportot
+43	6743	olyannyi	olyannyira
+44	6744	nézeget	nézegesse nézegeted nézegetek nézegetem nézegetett nézegeti nézegetik nézegetni nézegetsz nézegette nézegetted nézegettem nézegettük nézegettünk
+45	6745	külügyminisztérium	külügyminisztériumban külügyminisztériumból külügyminisztériummal külügyminisztériumnak külügyminisztériumot külügyminisztériumtól
+46	6746	akvárium	akváriumba akváriumban akváriumot
+47	6747	monda	mondák
+48	6748	mediterrán	
+49	6749	tetű	tetvek tetveket tetveknek tetvet tetűnek tetűt
+50	6750	társadalombiztosítás	tb
+51	6751	elvezet	elvezetett elvezette
+52	6752	megbirkózik	megbirkóznak megbirkózni megbirkóznia megbirkóznod megbirkóznom megbirkóznunk megbirkózok megbirkózol megbirkóztam megbirkózunk
+53	6753	frissítő	frissítők frissítőket frissítőt
+54	6754	tízes	tízesek tízessel tízest tízesért
+55	6755	kóstol	kóstolja kóstoljam kóstoljon kóstoljuk kóstolják kóstoljátok kóstolni kóstolnia kóstolnod kóstolnom kóstolod kóstolom kóstolt kóstolta kóstoltad kóstoltam kóstoltál
+56	6756	zéró	
+57	6757	étkezés	étkezések étkezéseket étkezéshez étkezéskor étkezésnél étkezésre étkezéssel étkezést
+58	6758	elrepül	elrepít elrepülhetsz elrepüljön elrepülnek elrepülni elrepülnék elrepülsz elrepült elrepültek elrepültem elrepültél elrepültünk elrepülök elrepülünk
+59	6759	pörög	pörgök pörgött pörgünk pörgő pörögjön pörögjünk pörögnek pörögni pörögsz pörögtem pörögve
+60	6760	érdem	érdemben érdeme érdemet
+61	6761	előkészület	előkészületeit előkészületek előkészületekben előkészületeket előkészületet
+62	6762	nyolcas	nyolcasok nyolcasra nyolcassal nyolcast
+63	6763	utolér	utoléred utolérem utolérhetetlen utolérhetjük utoléri utolérik utolérje utolérjem utolérjen utolérjük utolérnek utolérni utolérte utolértek utolértem utolértük utolérünk
+64	6764	sebészeti	
+65	6765	fivér	fivérek fivéreket fivérekkel fivéreknek fivért
+66	6766	idegrendszer	idegrendszerre idegrendszert
+67	6767	protestáns	protestánsok
+68	6768	katonaság	katonaságban katonasággal katonasághoz katonaságnak katonaságnál katonaságot katonaságtól
+69	6769	lelkileg	
+70	6770	komputer	kompjúter komputerbe komputerben komputerek komputeren komputerrel komputert
+71	6771	gátol	gátlás gátlások gátlásokat gátolhatja gátolja gátolják gátolni gátolt gátolta
+72	6772	apostol	apostolok
+73	6773	másol	másolható másolja másolják másoljátok másolni másolt másolta másoltad másoltam másolták másolás másoló
+74	6774	mindenekelőtt	
+75	6775	előkészítő	előkészítőbe előkészítőben előkészítőn előkészítőre előkészítőt
+76	6776	zuhanyozik	zuhanyoznak zuhanyozni zuhanyoznod zuhanyoznom zuhanyozok zuhanyozol zuhanyozott zuhanyoztam zuhanyoztál zuhanyozzak zuhanyozzon zuhanyozás zuhanyozó
+77	6777	érthetetlen	érthetetlenek érthetetlenül
+78	6778	rosszindulatú	rosszindulatúak
+79	6779	beszerez	beszereznem beszerezni beszerezte beszereztem beszerezzük beszerzek beszerzem beszerzett beszerzünk beszerző
+80	6780	kiszámítható	kiszámíthatóak kiszámíthatók
+81	6781	felkelés	felkelésben felkelések felkeléshez felkelésnek felkelésre felkelést
+82	6782	borda	bordái bordák bordákat bordákon bordán bordát bordával
+83	6783	lakossági	
+84	6784	betart	betartani betartja betartjuk betartották
+85	6785	tábori	
+86	6786	felsorol	felsorolja felsoroljam felsorolni felsorolt felsoroltam felsorolva
+87	6787	erotikus	legerotikusabb
+88	6788	jövedelem	jövedelemmel jövedelmet
+89	6789	bérlet	bérleteket bérletet
+90	6790	hagyományosan	
+91	6791	áramkör	áramkört áramkörök áramköröket
+92	6792	dicsér	dicsérd dicséred dicsérem dicséri dicsérik dicsérjem dicsérjétek dicsérjük dicsérnek dicsérni dicsérsz dicsért dicsérte dicsértem dicsérték dicsérő
+93	6793	matematikus	matematikusok
+94	6794	szerkesztett	szerkesztettek
+95	6795	diétás	diétásat
+96	6796	elviselhetetlen	elviselhetetlenebb elviselhetetlenek elviselhetetlennek elviselhetetlenné elviselhetetlenül
+97	6797	jelentőség	jelentőséget jelentőséggel jelentőségük
+98	6798	ács	ácsok ácsot
+99	6799	joghurt	joghurtot joghurttal
+100	6800	tudomása	tudomására

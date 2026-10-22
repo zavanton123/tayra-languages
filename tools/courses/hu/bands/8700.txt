@@ -1,0 +1,100 @@
+1	8601	délnyugati	
+2	8602	vitatott	
+3	8603	nehezem	nehezemre
+4	8604	operatőr	operatőrrel operatőrt operatőrök
+5	8605	összesít	összesítem összesített
+6	8606	hadi	
+7	8607	limonádé	limonádét limonádéval
+8	8608	úri	
+9	8609	kiválasztása	kiválasztásában kiválasztásához kiválasztására kiválasztását kiválasztásával
+10	8610	hagytalak	
+11	8611	tálal	tálaljuk tálalják tálalni tálalok tálalom tálalt tálalta tálalva tálalás
+12	8612	túlélt	túléltem
+13	8613	tetkó	tetkók tetkókat tetkókkal tetkót tetkóval
+14	8614	afgán	afgánok
+15	8615	elsőbbség	elsőbbséget
+16	8616	gondolatom	gondolatomat
+17	8617	szüntelen	szüntelenül
+18	8618	lágyan	lágyabban
+19	8619	égetett	
+20	8620	földrajz	földrajzból földrajzot
+21	8621	elképzelései	elképzeléseik elképzeléseit
+22	8622	zárás	záráskor
+23	8623	kereke	kerekén kerekét
+24	8624	elővesz	előveszi elővett elővette elővették
+25	8625	kizáró	kizáróan
+26	8626	informatikus	informatikusok
+27	8627	látnok	látnoknak látnokok látnokot
+28	8628	elszenved	elszenvedett elszenvedni elszenvednie elszenvedte elszenvedtek elszenvedtem
+29	8629	szabadúszó	szabadúszók szabadúszóként
+30	8630	tervezet	tervezetet
+31	8631	kislemez	kislemezek
+32	8632	póz	pózba pózban pózok pózokat pózt
+33	8633	sámán	sámánnak sámánnal sámánok sámánt
+34	8634	jelzálog	jelzáloggal jelzálogot jelzálogra
+35	8635	sebes	sebesebben sebesen
+36	8636	ebédlő	ebédlőbe ebédlőben ebédlőből ebédlőt
+37	8637	birtoklás	birtoklása birtoklásáért
+38	8638	lehetőségük	
+39	8639	égető	legégetőbb égetőbb
+40	8640	bűz	bűzt bűztől bűzét
+41	8641	jártas	jártasak
+42	8642	aktái	aktáiba aktáiban aktáiból aktáihoz aktáinak aktáira aktáit
+43	8643	golfozik	golfoznak golfozni golfozok golfozol golfozott golfoztam golfozunk golfozás golfozó
+44	8644	ropogós	ropogósra
+45	8645	ücsörög	ücsörgés ücsörgök ücsörgött ücsörgünk ücsörögjek ücsörögjön ücsörögnek ücsörögni ücsörögsz ücsörögtem ücsörögtök ücsörögtünk ücsörögve
+46	8646	becsapódás	becsapódása becsapódások
+47	8647	gimnáziumi	
+48	8648	mutatvány	mutatvánnyal mutatványa mutatványok mutatványokat mutatványra mutatványt
+49	8649	karnevál	karneválon karneválra karnevált
+50	8650	modor	modora modorra modorral modort modoruk
+51	8651	cáfol	cáfolhatatlan cáfolja cáfolják cáfolni cáfolta
+52	8652	dinnye	dinnyék dinnyéket dinnyét
+53	8653	megítélése	megítélésében megítélését
+54	8654	kókusz	kókusszal kókuszt
+55	8655	délelőtti	
+56	8656	ébredés	
+57	8657	újév	újévet újévig újévre
+58	8658	lakoma	lakomán lakomára lakomát lakomával
+59	8659	mérhetetlen	mérhetetlenül
+60	8660	kiszolgál	kiszolgálja kiszolgáljuk kiszolgálják kiszolgálnak kiszolgálni kiszolgálom kiszolgált kiszolgálta kiszolgáltam kiszolgáltatott
+61	8661	részvénytársaság	
+62	8662	kapás	kapásból
+63	8663	kölcsönösen	
+64	8664	robbanóanyag	robbanóanyaggal robbanóanyagok robbanóanyagokat robbanóanyagokkal robbanóanyagot robbanóanyagra
+65	8665	piskóta	piskótát
+66	8666	kiegyensúlyozott	kiegyensúlyozottabb
+67	8667	jelenlevő	jelenlevők jelenlévő jelenlévőt
+68	8668	boglárka	
+69	8669	ismeretes	
+70	8670	viszlek	
+71	8671	színpada	színpadán
+72	8672	hasznosít	hasznosítani hasznosítható hasznosítja hasznosítják
+73	8673	cégünk	cégünket cégünknek cégünknél
+74	8674	villog	villognak villogni villogott villogás villogó
+75	8675	gépi	
+76	8676	márciusa	márciusában
+77	8677	misszió	misszióba misszióban missziónak misszióra missziót
+78	8678	álarc	álarca álarcban álarcok álarcokat álarcot
+79	8679	célod	célodat
+80	8680	térbeli	
+81	8681	indokolatlan	indokolatlanul
+82	8682	merít	merítek meríteni merített merítette merítettem meríti
+83	8683	agyvérzés	agyvérzésben agyvérzést
+84	8684	líbiai	líbiaiak
+85	8685	részünk	részünket részünkről
+86	8686	visszavágó	visszavágóra visszavágót
+87	8687	ünneplés	ünnepléshez ünneplésnek ünneplésre ünneplést
+88	8688	övez	övezi övezik övezve övező
+89	8689	javító	javítóba javítóban javítóból
+90	8690	kritikai	
+91	8691	videója	videójában videóját
+92	8692	külkereskedelmi	
+93	8693	tárgyú	
+94	8694	savas	
+95	8695	összegyűl	összegyűlt
+96	8696	egyenlőség	egyenlőséget egyenlőségről egyenlőségért
+97	8697	kötvény	kötvények kötvényekben kötvényeket kötvényekkel kötvényt
+98	8698	láza	lázát
+99	8699	műtárgy	műtárgyak műtárgyakat műtárgyat
+100	8700	szemszög	szemszögből

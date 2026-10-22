@@ -1,0 +1,100 @@
+1	9501	találka	találkák találkákat találkán találkára találkáról találkát
+2	9502	metafora	metaforák metaforákat metaforát
+3	9503	kiirt	kiirtanak kiirtani kiirtja kiirtjuk kiirtják kiirtom kiirtott kiirtotta kiirtottuk kiirtották kiirtsa kiirtsuk
+4	9504	kifejező	kifejezőbb
+5	9505	tudományosan	
+6	9506	lezárása	lezárásához lezárására lezárását
+7	9507	gazdám	gazdámat
+8	9508	beképzelt	beképzeltek beképzeltnek
+9	9509	északkelet	északkeleten északkeletre
+10	9510	módosul	módosult
+11	9511	baleseti	balesetin balesetire
+12	9512	kémény	kéménybe kéményben kéményből kémények kéményen kéményt
+13	9513	trójai	trójaiak
+14	9514	tranzakció	tranzakciók tranzakciókat tranzakciót
+15	9515	prófécia	próféciában próféciák próféciákat próféciáról próféciát
+16	9516	áramszünet	áramszünetek áramszünetet
+17	9517	megdöbben	megdöbbent megdöbbentek megdöbbentem megdöbbentette megdöbbentél megdöbbentünk
+18	9518	előítélet	előítéletek előítéleteket előítéletekkel előítéletet előítélettel
+19	9519	vaddisznó	vaddisznók vaddisznóra vaddisznót
+20	9520	egyszerűsített	
+21	9521	kérhető	
+22	9522	vöröshagyma	
+23	9523	definíció	definíciók definíciót
+24	9524	csatolt	csatoltak
+25	9525	tonhal	tonhalat tonhallal
+26	9526	előrehalad	előrehaladott előrehaladt előrehaladás
+27	9527	életmű	életművének életművét
+28	9528	pogácsa	pogácsát
+29	9529	ásványvíz	ásványvizet
+30	9530	villanyszerelő	villanyszerelők villanyszerelőt
+31	9531	érzelgős	érzelgősek érzelgősen
+32	9532	mackó	mackót
+33	9533	tudósít	tudósítanak tudósítani tudósítok tudósított tudósítottam tudósítunk
+34	9534	tapos	taposnak taposni taposok taposol taposom taposott tapossa taposson tapossuk tapossák taposta tapostak tapostam taposták taposva taposás taposó
+35	9535	érezhető	
+36	9536	repülőjegy	repülőjegyek repülőjegyeket repülőjegyet repülőjegyre
+37	9537	rendezői	
+38	9538	arcú	
+39	9539	rangja	rangját rangjától
+40	9540	sebhely	sebhellyel sebhelyek sebhelyeket sebhelyekkel sebhelyet
+41	9541	elsősegély	elsősegélyt
+42	9542	fogyasztói	
+43	9543	eljövendő	
+44	9544	atmoszféra	atmoszférába atmoszférában atmoszférája atmoszférán atmoszférát
+45	9545	meggátol	meggátolja meggátoljon meggátoljuk meggátolják meggátolni meggátolt meggátolta
+46	9546	pisztolya	pisztolyából pisztolyát pisztolyával
+47	9547	nyerés	nyerésre
+48	9548	adminisztráció	adminisztráción adminisztrációt
+49	9549	lakóház	lakóházak
+50	9550	közeledte	közeledtét közeledtével
+51	9551	összeveszik	összeveszett összevesztek
+52	9552	félrevezet	félrevezesse félrevezessen félrevezetett félrevezeti félrevezetik félrevezetni félrevezette félrevezettek félrevezettelek félrevezettem félrevezették félrevezettél
+53	9553	álszent	álszentek álszentnek
+54	9554	összehív	összehívja összehívjuk összehívni összehívok összehívom összehívott összehívta összehívtam összehívták
+55	9555	valamennyien	
+56	9556	azonosítatlan	
+57	9557	gazdálkodás	gazdálkodást
+58	9558	keresztel	keresztelni keresztelt keresztelte kereszteltek keresztelték keresztelve
+59	9559	kretén	kretének kreténnek kretént
+60	9560	dísz	díszben díszek díszeket dísznek díszt
+61	9561	szívinfarktus	infarktus infarktust szívinfarktusban szívinfarktust
+62	9562	ruház	ruházni ruházom ruházott ruházta ruháztam ruházza
+63	9563	dobog	dobogni dobogott
+64	9564	hírnök	hírnökök hírnököket hírnököt
+65	9565	horgász	horgásznak horgászok
+66	9566	valamelyikük	valamelyiküket valamelyikükkel valamelyiküknek
+67	9567	orchidea	orchideák orchideákat orchideát
+68	9568	felfegyverez	felfegyverzett
+69	9569	menta	mentát mentával
+70	9570	közömbös	közömbösek közömbösen közömbösnek
+71	9571	majonéz	majonézt majonézzel
+72	9572	zseton	zsetonnal zsetonok zsetonokat zsetont
+73	9573	ízlés	ízlések ízlésnek ízlésre ízléssel ízlést
+74	9574	egyenrangú	egyenrangúak egyenrangúként
+75	9575	csirkefogó	csirkefogók
+76	9576	megtakarítás	megtakarítások
+77	9577	bevonása	bevonását bevonásával
+78	9578	türelme	türelmét
+79	9579	partnered	partnereddel partneredet partnerednek
+80	9580	kifogástalan	kifogástalanok kifogástalanul
+81	9581	szerkezetű	
+82	9582	szerepjáték	szerepjátékot
+83	9583	figyelmünk	figyelmünket
+84	9584	puff	
+85	9585	duzzad	duzzadt duzzadtak duzzadva duzzadás duzzadó
+86	9586	legelő	legelők legelőkön legelőn legelőre legelőt
+87	9587	kazán	kazánban kazánt
+88	9588	akkorra	
+89	9589	felismerhető	
+90	9590	fingik	finganak fingani finganom fingja fingjuk fingod fingott fingottam fingottál fingtam fingtál fingunk fingás fingó
+91	9591	mandarin	mandarint
+92	9592	horgony	horgonyt
+93	9593	időgép	időgépbe időgépben időgépet időgéphez időgéppel
+94	9594	oldaluk	oldalukat oldalukon oldalukra
+95	9595	komplikáció	komplikációk komplikációkat komplikációt
+96	9596	humora	humorát
+97	9597	éjjelente	
+98	9598	gyűjtés	gyűjtést
+99	9599	iszonyat	
+100	9600	változásai	változásait

@@ -1,0 +1,100 @@
+1	3401	gumi	gumiból gumik gumikat gumikkal gumira gumit gumival
+2	3402	földje	földjén földjének földjére földjéről földjét
+3	3403	normál	normált
+4	3404	külföld	külföldre külföldről
+5	3405	képviselői	képviselőinek képviselőit képviselőivel
+6	3406	fenntart	fenntartani fenntartja fenntartjuk fenntartják fenntartod fenntartom fenntartott fenntartotta fenntartottam fenntartsa fenntartsam fenntartsuk fenntartsák fenntartva
+7	3407	huny	hunyd hunyhatok hunyhatunk hunyj hunyja hunyjak hunyjon hunynak hunyni hunyok hunysz hunyt hunytak hunytam hunyunk hunyó
+8	3408	ügynökség	ügynökségben ügynökségek ügynökségeket ügynökségekkel ügynökségen ügynökséget ügynökséggel ügynökséghez ügynökségnek ügynökségnél ügynökségre ügynökségről ügynökségtől
+9	3409	akárki	akárkihez akárkik akárkinek akárkire akárkiről akárkit akárkitől akárkivel akárkié
+10	3410	benn	beljebb
+11	3411	szorosan	szorosabban
+12	3412	napjainkban	
+13	3413	füst	füstbe füstben füstből füstje füstre füsttel füstté füsttől füstön füstöt
+14	3414	generáció	generációban generációból generációhoz generációk generációknak generációkon generációkra generáción generációnak generációra generációról generációt generációval
+15	3415	utam	utamat utamba utamban utamból utamon utamra utamról
+16	3416	eközben	
+17	3417	őfelsége	őfelségéhez őfelségének őfelségére őfelségét őfelségétől őfelségével
+18	3418	tartalék	tartalékba tartalékban tartaléknak tartalékok tartalékokat tartalékot tartalékra
+19	3419	őrség	őrségbe őrségben őrségből őrségen őrséget őrséggel őrséghez őrségnek őrségnél őrségtől
+20	3420	ronda	legrondább randa rondább rondák rondán rondának rondát
+21	3421	mizu	
+22	3422	meglepődik	meglepődne meglepődnek meglepődni meglepődnék meglepődnél meglepődnének meglepődnöm meglepődsz meglepődtek meglepődtem meglepődtetek meglepődtél meglepődtünk meglepődve meglepődök meglepődött
+23	3423	költségvetés	költségvetésbe költségvetésben költségvetésből költségvetése költségvetésről költségvetéssel költségvetést költségvetését
+24	3424	személye	személyében személyének személyére személyéről személyét személyével
+25	3425	érdekesség	érdekességek érdekességet
+26	3426	dátum	dátummal dátumok dátumokat dátumokkal dátumot dátumra
+27	3427	titokzatos	legtitokzatosabb titokzatosabb titokzatosak titokzatosnak
+28	3428	problémái	problémáik problémáin problémáinak problémáira problémáiról problémáit problémáival
+29	3429	szerencsém	szerencsémet szerencsémnek szerencsémre
+30	3430	karrier	karrierbe karrierek karrierjüket karriernek karrierre karrierrel karrierről karriert
+31	3431	káosz	káosszal káoszba káoszban káoszból káoszhoz káosznak káoszra káoszt
+32	3432	kapható	kaphatóak kaphatók kaphatót
+33	3433	csalódott	csalódottak csalódottan csalódottnak csalódottá
+34	3434	felmerül	felmerülhet felmerülne felmerülnek felmerült felmerültek felmerülő
+35	3435	köd	ködbe ködben ködből köddel köddé ködnek ködtől ködön ködöt
+36	3436	immár	immáron
+37	3437	vitatkozik	vitatkozhat vitatkozhatnánk vitatkozhatok vitatkozhatsz vitatkozhatunk vitatkozna vitatkoznak vitatkozni vitatkoznunk vitatkoznék vitatkozok vitatkozol vitatkozott vitatkoztak vitatkoztam vitatkoztatok vitatkoztok vitatkoztunk vitatkoztál vitatkozunk vitatkozzam vitatkozzanak vitatkozzatok vitatkozzunk vitatkozás
+38	3438	minőségi	
+39	3439	folyadék	folyadékba folyadékban folyadékból folyadékkal folyadéknak folyadékok folyadékokat folyadékot folyadékra
+40	3440	zaklat	zaklassa zaklassanak zaklasson zaklassuk zaklassák zaklatja zaklatjuk zaklatják zaklatlak zaklatna zaklatnak zaklatni zaklatná zaklatod zaklatom zaklatsz zaklatta zaklattad zaklattak zaklattalak zaklattam zaklatták zaklattál zaklatva zaklatás zaklató
+41	3441	csaló	csalók csalókat csalókkal csalóknak csalónak csalót csalóval
+42	3442	témája	témájában témáját
+43	3443	munkánk	munkánkat munkánkba munkánkban munkánkhoz munkánkkal munkánknak munkánkra munkánkról munkánkért
+44	3444	kulcsa	kulcsának kulcsára kulcsát kulcsával
+45	3445	ösztöndíj	ösztöndíjak ösztöndíjakat ösztöndíjat ösztöndíjhoz ösztöndíjjal ösztöndíjra ösztöndíjról
+46	3446	püspök	püspöke püspökkel püspöknek püspökök püspököt
+47	3447	gyártó	gyártók gyártónak gyártót gyártótól gyártóval
+48	3448	múltja	múltjába múltjában múltjából múltjának múltjára múltjáról múltját múltjával
+49	3449	strand	strandok strandon strandot strandra strandról
+50	3450	lefoglal	lefoglalja lefoglaljam lefoglaljuk lefoglalják lefoglalnak lefoglalni lefoglalod lefoglalok lefoglalom lefoglalt lefoglalta lefoglaltad lefoglaltak lefoglaltam lefoglaltuk lefoglaltunk lefoglalták lefoglalva lefoglalás
+51	3451	ötven	ötvenen ötvenet ötvennel
+52	3452	egér	egerek egereket egerekkel egereknek egeret egérnek egérre egérrel
+53	3453	ravasz	legravaszabb ravaszabb ravaszak ravasznak ravaszon ravaszra ravaszról ravaszt ravaszul
+54	3454	gyűlés	gyűlése gyűlések gyűléseken gyűléseket gyűlésekre gyűlésen gyűlésnek gyűlésre gyűlésről gyűlést gyűlését
+55	3455	alapító	alapítók
+56	3456	arat	arassa aratja aratnak aratni aratok aratott aratsz aratta arattak arattam arattunk arattál aratunk arató aratók
+57	3457	látványos	leglátványosabb látványosabb látványosak látványosat
+58	3458	százaléka	százalékában százalékának százalékát
+59	3459	bánom	
+60	3460	elv	elvben elvből elvek elveket elvekkel elvekről elven elvet elveted elvetem elvetett elvetette elvetetted elvetettem elvetettük elveti elvetik elvetni elvetve elvről
+61	3461	rab	rabbal rabként rabnak rabok rabokat rabokkal raboknak rabot rabról rabul
+62	3462	törött	töröttek
+63	3463	szaga	szagára szagáról szagát szagától szagával
+64	3464	szerel	szerelek szereli szerelik szerelje szereljék szereljük szerelnek szerelnem szerelni szerelnünk szerelsz szerelt szerelte szereltek szereltem szerelték szereltél szereltük szereltünk szerelve szerelünk
+65	3465	gazda	gazdák gazdákat gazdáknak gazdának gazdára gazdát gazdával
+66	3466	testi	
+67	3467	tárgya	tárgyában tárgyának tárgyát tárgyává
+68	3468	időpontja	időpontjában időpontjára időpontjáról időpontját időpontjával
+69	3469	bevisz	bevigye bevigyelek bevigyem bevigyen bevigyenek bevigyük bevihetem bevihetjük bevinnem bevinni bevinné bevinnéd bevinném bevisszük beviszed beviszek beviszel beviszem beviszi beviszik beviszlek bevisznek beviszünk bevitel bevitt bevitte bevitted bevittek bevittelek bevittem bevitték bevittél bevittük
+70	3470	kikapcsol	kikapcsolhatjuk kikapcsolhatod kikapcsolhatom kikapcsolja kikapcsoljam kikapcsoljuk kikapcsolják kikapcsolnak kikapcsolni kikapcsolná kikapcsolnád kikapcsolod kikapcsolok kikapcsolom kikapcsolt kikapcsolta kikapcsoltad kikapcsoltak kikapcsoltam kikapcsoltuk kikapcsolták kikapcsolva kikapcsoló
+71	3471	rejtély	rejtéllyel rejtélyek rejtélyeket rejtélyekkel rejtélynek rejtélyre rejtélyről rejtélyt
+72	3472	üzemel	üzemelnek üzemelni üzemelt üzemeltet üzemeltetett üzemelő
+73	3473	norvég	norvégok norvégul
+74	3474	visszautasít	visszautasítanak visszautasítani visszautasítaná visszautasítanám visszautasítasz visszautasíthatatlan visszautasítja visszautasítjuk visszautasítják visszautasítod visszautasítom visszautasított visszautasította visszautasítottad visszautasítottak visszautasítottam visszautasítottuk visszautasították visszautasítottál visszautasítva visszautasítás visszautasító
+75	3475	eldob	eldobhatod eldobható eldobja eldobjam eldobjuk eldobják eldobjátok eldobnak eldobni eldobná eldobnád eldobnám eldobod eldobok eldobom eldobott eldobsz eldobta eldobtad eldobtak eldobtam eldobták eldobtál eldobva
+76	3476	kötődik	kötődjön kötődnek kötődni kötődsz kötődtem kötődés kötődött kötődünk kötődő
+77	3477	marketing	marketinget marketinggel marketingről
+78	3478	tavasszal	
+79	3479	bogár	bogarak bogarakat bogarakkal bogaraknak bogarakra bogarakról bogaraktól bogarat bogárnak bogárral
+80	3480	vasúti	
+81	3481	tehetség	tehetségek tehetségeket tehetséget tehetséggel tehetségnek tehetségre tehetségről
+82	3482	oxigén	oxigénből oxigénen oxigénhez oxigénnel oxigénre oxigént
+83	3483	zuhan	zuhanhatott zuhanjon zuhanna zuhannak zuhanni zuhannék zuhanok zuhansz zuhant zuhantak zuhantam zuhantunk zuhantál zuhanunk zuhanva zuhanó
+84	3484	zsák	zsákba zsákban zsákból zsákjába zsákját zsákkal zsákok zsákokat zsákokba zsákokban zsákokkal zsákon zsákot zsákra
+85	3485	kettőnk	kettőnkben kettőnket kettőnkhöz kettőnkkel kettőnknek kettőnkre kettőnkről kettőnktől kettőnké kettőnkért kettőnkön
+86	3486	elhelyez	elhelyezem elhelyezett elhelyezi elhelyezik elhelyezni elhelyeznünk elhelyezte elhelyezted elhelyeztek elhelyeztem elhelyezték elhelyeztük elhelyezve elhelyezze elhelyezzük elhelyezünk
+87	3487	tiltakozik	tiltakozhat tiltakozna tiltakoznak tiltakozni tiltakoznom tiltakozol tiltakozom tiltakozott tiltakoztak tiltakoztam tiltakoztunk tiltakoztál tiltakozunk tiltakozzanak tiltakozzon
+88	3488	forgatókönyv	forgatókönyvbe forgatókönyvben forgatókönyvből forgatókönyvek forgatókönyveket forgatókönyvet forgatókönyvhöz forgatókönyvnek forgatókönyvre forgatókönyvről forgatókönyvvel forgatókönyvön
+89	3489	pillantás	pillantása pillantások pillantásokat pillantásra pillantással pillantást pillantását
+90	3490	anyuka	anyukák anyukákat anyukákkal anyukáknak anyukámat anyukának anyukára anyukát anyukával
+91	3491	késés	késésben késése késésre késéssel késést késésért
+92	3492	viselkedése	viselkedésében viselkedéséből viselkedésén viselkedésének viselkedésére viselkedéséről viselkedését viselkedésével viselkedéséért
+93	3493	rémálom	rémálmok rémálmokat rémálmokkal rémálmoktól rémálmot rémálomba rémálomban rémálomból rémálommal rémálommá rémálomnak
+94	3494	minőségű	minőségűek
+95	3495	rendszeres	rendszeressé
+96	3496	fénye	fényébe fényében fényéből fényének fényénél fényére fényét fényével
+97	3497	nyomorult	nyomorultak nyomorultakat nyomorultat nyomorultnak nyomorulttá nyomorultul
+98	3498	épülete	épületébe épületében épületéből épületéhez épületén épületének épületénél épületét
+99	3499	trón	trónhoz trónnak trónok trónon trónra trónról trónt tróntól trónért
+100	3500	szavam	szavamat szavamba szavamban szavammal szavamnak szavamon szavamra

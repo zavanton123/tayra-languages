@@ -1,0 +1,100 @@
+1	4801	kerget	kergesse kergessen kergessük kergeted kergetek kergetem kergetett kergeti kergetik kergetjük kergetlek kergetne kergetnek kergetni kergetsz kergette kergetted kergettek kergettem kergették kergettél kergettük kergetve kergetünk
+2	4802	hosszan	
+3	4803	sajtótájékoztató	sajtótájékoztatón sajtótájékoztatóra sajtótájékoztatóról sajtótájékoztatót
+4	4804	kitartó	kitartóak kitartóan kitartóbb kitartónak legkitartóbb
+5	4805	sár	sarat sárba sárban sárból sárral
+6	4806	napjai	napjaiban napjaik napjain napjainak napjaira napjairól napjait
+7	4807	bűntudat	bűntudatban bűntudatból bűntudatnak bűntudatot bűntudatra bűntudatról bűntudattal bűntudattól
+8	4808	kerít	kerítek kerítenek kerítenem keríteni kerítenünk kerítesz kerített kerítette kerítettek kerítettem kerítették keríthetünk keríti kerítik kerítjük kerítse kerítsek kerítsen kerítsenek kerítsetek kerítsék kerítsétek kerítsük kerítsünk kerítve kerítünk kerítő kerítője kerítőt
+9	4809	környezete	környezetébe környezetében környezetéből környezetéhez környezetének környezetére környezetét
+10	4810	betegsége	betegségéből betegségének betegségére betegségéről betegségét betegségével
+11	4811	feltűnő	feltűnőbb feltűnőek feltűnőt
+12	4812	ezenkívül	
+13	4813	nyaralás	nyaralásból nyaraláshoz nyaralásnak nyaralások nyaraláson nyaralásra nyaralásról nyaralást
+14	4814	kijelző	kijelzők kijelzőket kijelzőn kijelzőre kijelzőt kijelzővel
+15	4815	hatású	hatásúak
+16	4816	sül	sülhet sülhetett sülhetne süljön sülne sülnek sülni sültem
+17	4817	főút	főutat főúton főútra főútról főúttól
+18	4818	mikrofon	mikrofonba mikrofonhoz mikrofonnal mikrofonnál mikrofonok mikrofonokat mikrofonon mikrofonra mikrofont
+19	4819	megrendezés	megrendezésre
+20	4820	összeköt	összekössük összeköthető összeköti összekötik összekötjük összekötnek összekötni összekötné összekötve összekötöd összekötöm összekötött
+21	4821	érdekei	érdekeik érdekeinek érdekeire érdekeit érdekeivel
+22	4822	kaposvári	
+23	4823	szlovákiai	
+24	4824	elve	elvén elvének elvét elvéted elvétem elvéteni elvétett elvétette elvétetted elvétettem elvéti elvétve
+25	4825	időzít	időzíteni időzített időzítette időzítettem időzítettél időzítve
+26	4826	befektetés	befektetések befektetéseket befektetésekkel befektetésnek befektetésre befektetésről befektetéssel befektetést
+27	4827	mialatt	
+28	4828	ölel	öleled ölelem ölelhetlek öleli ölelje öleljelek öleljem öleljen öleljetek öleljétek öleljük ölellek ölelnek ölelni ölelsz ölelt ölelte öleltem öleltél ölelve ölelő
+29	4829	eszköze	eszközeként eszközét eszközével eszközévé
+30	4830	megúszik	megússza megússzam megússzon megússzuk megússzák megússzátok megúszhat megúszhatja megúszhatjuk megúszhatják megúszhatod megúszhatom megúszod megúszom megúszott megúsztam megúsztuk
+31	4831	automatikus	
+32	4832	ellentétes	ellentétesek ellentétesen
+33	4833	kád	kádat kádba kádban kádból káddal
+34	4834	helyettesít	helyettesíted helyettesítek helyettesítelek helyettesítem helyettesítened helyettesítenek helyettesítenem helyettesíteni helyettesítenie helyettesítenél helyettesítesz helyettesített helyettesítettem helyettesíthet helyettesítheti helyettesíthetné helyettesíthető helyettesíti helyettesítik helyettesítjük helyettesítse helyettesítsem helyettesítsen
+35	4835	hordoz	hordoznak hordozni hordozod hordozok hordozol hordozom hordozott hordozta hordoztam hordozva hordozza hordozzuk hordozzák
+36	4836	mégiscsak	
+37	4837	kazetta	kazetták kazettákat kazettákon kazettán kazettára kazettáról kazettát kazettával
+38	4838	külügyminiszter	külügyminiszternek külügyminiszterrel külügyminisztert
+39	4839	hozzászokik	hozzászokjak hozzászokjon hozzászoknak hozzászokni hozzászokok hozzászokott hozzászoksz hozzászoktak hozzászoktam hozzászoktok hozzászoktunk hozzászoktál hozzászokunk hozzászokva
+40	4840	előfordulhat	előfordulhatnak előfordulhatott
+41	4841	osztozik	osztozhat osztozhatnánk osztozhatunk osztozna osztoznak osztozni osztoznia osztozniuk osztoznod osztoznom osztoznunk osztoznánk osztozok osztozol osztozott osztoztak osztoztam osztoztok osztoztunk osztozunk osztozzanak osztozzatok osztozzon osztozzunk
+42	4842	összefut	összefussunk összefuthatnánk összefuthatunk összefutnak összefutni összefutnánk összefutnék összefutok összefutott összefutottak összefutottam összefutottatok összefutottunk összefutottál összefutsz összefutunk
+43	4843	pajtás	pajtások
+44	4844	középpontja	középpontjába középpontjában középpontját
+45	4845	berlini	
+46	4846	félév	félévben félévet félévig félévre
+47	4847	kolbász	kolbásszal kolbásznak kolbászok kolbászokat kolbászt kolbászát
+48	4848	kockázatos	kockázatosabb kockázatosak kockázatosnak legkockázatosabb
+49	4849	nagylelkű	legnagylelkűbb nagylelkűbb nagylelkűek nagylelkűnek
+50	4850	irodai	
+51	4851	sáv	sávba sávban sávok sávokat sávon sávot sávra
+52	4852	hatósági	
+53	4853	delta	
+54	4854	házaspár	házaspárként házaspárnak házaspárok házaspárral házaspárt
+55	4855	intim	intimebb legintimebb
+56	4856	rémül	rémülni rémült rémültek rémültem rémülten rémültél rémülve rémülök
+57	4857	megbízás	megbízásból megbízások megbízásokat megbízáson megbízásra megbízással megbízást
+58	4858	ellenfele	ellenfelének ellenfelét ellenfelével
+59	4859	hírnév	hírnevet hírnevének hírnevével hírnevüket hírnévnek hírnévre hírnévről hírnévvel hírnévért
+60	4860	séf	séfek séfet séffel séfnek
+61	4861	súly	súllyal súlyba súlyban súlyok súlyokat súlyokkal súlyra súlyt súlyuk
+62	4862	hatvan	hatvanat
+63	4863	tankönyv	tankönyvben tankönyvek tankönyveket tankönyvet
+64	4864	szerkezete	szerkezetében szerkezetének szerkezetét
+65	4865	futball	futballban futballnak futballról futballt
+66	4866	elhangzik	elhangzott elhangzottak elhangzottakat elhangzó
+67	4867	fejük	fejükbe fejükben fejükből fejüket fejükhöz fejükkel fejükre fejükön
+68	4868	felépítése	felépítésében felépítéséhez felépítésének felépítésére felépítéséről felépítését
+69	4869	punci	puncik puncikat puncinak puncira puncit puncival punciért
+70	4870	jóga	jógán jógára jógáról jógát
+71	4871	könnyed	könnyedebb
+72	4872	telepít	telepítenek telepíteni telepített telepítette telepítettek telepítettem telepítették telepítettünk telepítjük telepítve
+73	4873	építészeti	
+74	4874	felújítása	felújítására felújítását
+75	4875	elbasz	elbassza elbasszák elbaszni elbaszod elbaszol elbaszom elbaszott elbaszta elbasztad elbasztam elbasztuk elbaszták elbasztál elbasztátok
+76	4876	látogatása	látogatásának látogatására látogatásáról látogatását látogatásával
+77	4877	hever	heverjen heverne hevernek heverni heversz hevert hevertek hevertem heverve heverő heverőn heverőre heverőt
+78	4878	megvalósítása	megvalósításában megvalósításához megvalósításának megvalósítására megvalósítását megvalósításával
+79	4879	részvétel	részvételre részvételt részvételért
+80	4880	tisztít	tisztítani tisztítanod tisztítanom tisztítanunk tisztítja tisztítjuk tisztítják tisztítod tisztítom tisztított tisztította tisztítottad tisztítottam tisztították tisztítsa tisztítsam tisztítsuk tisztítsák tisztítsátok tisztítva tisztító
+81	4881	étvágy	étvággyal étvágyat
+82	4882	áttörés	áttöréshez áttörésre áttörést
+83	4883	piramis	piramisba piramisban piramisnak piramisok piramisokat piramist
+84	4884	adomány	adománnyal adományként adománynak adományok adományokat adományokból adományokkal adományra adományról adományt adományért
+85	4885	kötelesség	kötelességből kötelességei kötelességek kötelességet kötelességgel kötelességnek kötelességről kötelességük kötelességünk
+86	4886	izgalom	izgalma izgalmak izgalmakat izgalmat izgalomba izgalomban izgalommal izgalomra izgalomtól izgalomért
+87	4887	k.	kk kt
+88	4888	smink	sminkben sminket sminkkel sminkre
+89	4889	somogyi	
+90	4890	orr	orral orrba orrban orrok orron orrot
+91	4891	bérelt	béreltek
+92	4892	lélegez	lélegezz
+93	4893	műtő	műtőbe műtőben műtőből műtők műtőnek műtőre műtőt
+94	4894	felhúz	felhúzható felhúzlak felhúznak felhúzni felhúznod felhúzná felhúznád felhúzod felhúzok felhúzol felhúzom felhúzott felhúzta felhúztad felhúztak felhúztalak felhúztam felhúztuk felhúzták felhúztál felhúzunk felhúzza felhúzzam felhúzzon felhúzzuk felhúzzák
+95	4895	tanárnő	tanárnőnek tanárnőt tanárnővel
+96	4896	növekedése	növekedéséhez növekedésének növekedését növekedésével
+97	4897	mindenhova	mindenhová
+98	4898	műsorvezető	műsorvezetők műsorvezetőnek műsorvezetőt
+99	4899	tányér	tányérba tányérból tányérján tányérok tányérokat tányérokkal tányéron tányérra tányérral tányérról tányért
+100	4900	banán	banánnal banánok banánokat banánra banánt

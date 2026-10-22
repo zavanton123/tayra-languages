@@ -1,0 +1,100 @@
+1	2701	megvár	megvárhatja megvárhatjuk megvárhatlak megvárhatnánk megvárhatod megvárhatom megvárja megvárjalak megvárjam megvárjuk megvárják megvárjátok megvárlak megvárna megvárnak megvárni megvárnia megvárnod megvárnom megvárnunk megvárná megvárnád megvárnál megvárnám megvárnánk megvárod megvárom megvársz megvárt megvárta megvártad megvártalak megvártam megvártatok megvártuk megvárták megvártál megvárunk
+2	2702	csepp	cseppek cseppeket cseppet cseppig
+3	2703	magáé	magáéba magáéban magáéhoz magáén magáénak magáénál magáéra magáéról magáét magáéval magáévá
+4	2704	mellesleg	
+5	2705	baromság	baromságban baromságból baromsággal baromságnak baromságok baromságokat baromságokkal baromságokra baromságot baromságra baromságról
+6	2706	bukkan	bukkanhat bukkanhatsz bukkanhatunk bukkanjon bukkanjunk bukkanna bukkannak bukkanni bukkanok bukkansz bukkant bukkantak bukkantam bukkantunk bukkantál bukkanunk bukkanó
+7	2707	internetes	
+8	2708	leszáll	leszállhat leszállhatsz leszállhatunk leszálljanak leszálljon leszálljunk leszállna leszállnak leszállni leszállnia leszállnom leszállnunk leszállnál leszállok leszállsz leszállt leszálltak leszálltam leszálltok leszálltunk leszálltál leszállunk leszállás leszálláshoz leszálláskor leszállásnál leszállásra leszállást leszállítani leszálló
+9	2709	weboldal	weboldalak weboldalakat weboldalon weboldalra weboldalról weboldalt
+10	2710	kinéz	kinézek kinézel kinézem kinézet kinézetet kinézetre kinézett kinézettel kinézned kinéznek kinéznem kinézni kinéznie kinézniük kinéznünk kinézte kinéztek kinéztem kinéztél kinéztünk kinézve kinézzen kinézünk kinéző
+11	2711	császár	császárhoz császárnak császárok császárra császárral császárrá császárt császártól császáré császárért
+12	2712	kedve	kedvébe kedvében kedvére kedvét
+13	2713	mutatkozik	mutatkozhatok mutatkozhatsz mutatkozhatunk mutatkozna mutatkoznak mutatkozni mutatkoznia mutatkoznod mutatkoznom mutatkoznunk mutatkoznék mutatkozol mutatkozott mutatkoztak mutatkoztam mutatkoztunk mutatkoztál mutatkozunk mutatkozzam mutatkozzanak mutatkozzatok mutatkozzon mutatkozzunk
+14	2714	csoki	csokiba csokiból csokik csokikat csokinak csokira csokiról csokit csokival csokiért
+15	2715	központja	központjába központjában központjából központjához központjának központját központjától
+16	2716	helyettes	helyettesek helyettesként helyettesnek helyettesre helyettessel helyettest
+17	2717	alkalmazása	alkalmazásában alkalmazásának alkalmazására alkalmazásáról alkalmazását alkalmazásával
+18	2718	berendezés	berendezése berendezések berendezéseket berendezésekkel berendezéshez berendezésnek berendezésre berendezésről berendezéssel berendezést berendezését
+19	2719	kritikus	kritikusak kritikusnak kritikusok kritikusoknak kritikussá kritikust legkritikusabb
+20	2720	zaj	zajban zajból zajjal zajnak zajok zajokat zajra zajt zajtól
+21	2721	személyiség	személyisége személyiségek személyiségeket személyiségem személyiséget személyiséggel személyiségnek személyiségre személyiségről
+22	2722	gyanús	gyanúsabb gyanúsak gyanúsat gyanúsnak gyanússá leggyanúsabb
+23	2723	közlekedés	közlekedésben közlekedése közlekedésre közlekedéssel közlekedést
+24	2724	iszlám	iszlámban iszlámot iszlámra
+25	2725	felfog	felfoghat felfogható felfogja felfogjam felfogjuk felfogják felfogjátok felfogni felfognod felfogná felfognád felfogod felfogom felfogott felfogta felfogtad felfogtam felfogtuk felfogták felfogtátok
+26	2726	kínál	kínálhatok kínálja kínáljam kínáljon kínáljuk kínálják kínálnak kínálni kínálod kínálok kínálom kínálsz kínált kínálta kínáltak kínáltalak kínáltam kínálták kínáltál kínálunk kínálva kínáló
+27	2727	bejárat	bejárata bejárathoz bejáratnak bejáratnál bejáratok bejáratokat bejáraton bejáratot bejáratott bejáratra bejárattal bejárattól bejáratát
+28	2728	szerkezet	szerkezetbe szerkezetben szerkezetből szerkezetek szerkezeteket szerkezeten szerkezetet szerkezethez szerkezetnek szerkezetre szerkezetről szerkezettel
+29	2729	perces	percesek
+30	2730	valamiféle	
+31	2731	ékszer	ékszereit ékszerek ékszereket ékszerekhez ékszerekkel ékszereknél ékszerekre ékszerekről ékszerre ékszerrel ékszert
+32	2732	hajad	hajadat hajadba hajadban hajadból hajaddal hajadhoz hajadnak hajadon hajadonok hajadont hajadra hajadról
+33	2733	erőd	erődbe erődben erődből erőddel erődet erődhöz erődnek erődnél erődre erődről erődtől erődök erődöket erődön erődöt
+34	2734	mindaz	mindabból mindahhoz mindannak mindarra mindarról mindattól mindazok mindazokat mindazokkal mindazoknak mindazokra mindazokért mindazon mindazt mindazzal mindazért
+35	2735	csakhogy	
+36	2736	elrejt	elrejted elrejtem elrejtened elrejtenek elrejtenem elrejteni elrejtenie elrejtesz elrejtett elrejtette elrejtetted elrejtettek elrejtettem elrejtették elrejtettél elrejtettük elrejtettünk elrejtheted elrejtheti elrejthette elrejti elrejtik elrejtjük elrejtse elrejtsem elrejtsen elrejtsék elrejtsük elrejtve elrejtünk
+37	2737	színésznő	színésznők színésznőket színésznőkkel színésznőként színésznőnek színésznőre színésznőt színésznővel
+38	2738	kivétel	kivételek kivétellel kivételt kivételtől
+39	2739	honlapja	honlapján honlapjára honlapjáról honlapját
+40	2740	hirdet	hirdesse hirdeted hirdetek hirdetem hirdetett hirdeti hirdetik hirdetjük hirdetnek hirdetni hirdette hirdettek hirdettem hirdették hirdetve hirdetünk
+41	2741	igazol	igazolhatja igazolható igazolja igazoljam igazoljuk igazolják igazolnak igazolni igazolnia igazolnom igazolná igazolod igazolom igazolta igazoltam igazoltuk igazolták igazolva igazoló
+42	2742	polgár	polgára polgárait polgárként polgárnak polgárok polgárokat polgárokkal polgároknak polgárral polgárt polgárának
+43	2743	meggondol	meggondolhatja meggondolhatod meggondolhatom meggondolja meggondoljam meggondoljuk meggondolják meggondoljátok meggondolni meggondolnod meggondolná meggondolnád meggondolnák meggondolnám meggondolod meggondolom meggondolta meggondoltad meggondoltam meggondoltuk meggondolták
+44	2744	fogoly	foglyok foglyokat foglyokkal foglyoknak foglyot foglyul fogollyal fogolyként fogolynak fogolyra
+45	2745	völgy	völgybe völgyben völgyből völgyek völgyekben völgyeket völgyet völgynek völgyre völgyön
+46	2746	biblia	bibliában bibliából bibliákat bibliának bibliára bibliáról bibliát bibliával
+47	2747	móka	mókában mókából mókához mókának mókára mókáról mókát mókával
+48	2748	boszorkány	boszorkánnyal boszorkányhoz boszorkányként boszorkánynak boszorkányok boszorkányokat boszorkányokban boszorkányokkal boszorkányoknak boszorkányokról boszorkányoktól boszorkányra boszorkányról boszorkányt boszorkánytól
+49	2749	tartóztat	tartóztassa tartóztassalak tartóztassam tartóztassanak tartóztasson tartóztassuk tartóztassák tartóztassátok tartóztathatja tartóztathatjuk tartóztathatják tartóztathatnak tartóztathatom tartóztatja tartóztatjuk tartóztatják tartóztatlak tartóztatnak tartóztatni tartóztatnia tartóztatniuk tartóztatnod tartóztatnom tartóztatnunk tartóztatom tartóztatott tartóztatsz tartóztatta tartóztattad tartóztattak tartóztattam tartóztattuk tartóztattunk tartóztatták tartóztatunk tartóztatva
+50	2750	vallás	vallásban valláshoz vallásnak vallások vallásokat vallásra vallásról vallással vallást vallástól
+51	2751	unió	unióban unióhoz unión uniót
+52	2752	ébren	
+53	2753	megegyez	megegyeznek megegyezni megegyeznénk megegyeztek megegyeztünk
+54	2754	roma	romák
+55	2755	nagydíj	nagydíjat nagydíjon
+56	2756	partner	partnerei partnereit partnerek partnereket partnerekkel partnereknek partnerként partnernek partnerre partnerrel partnerré partnert
+57	2757	mexikói	mexikóiak mexikóiakat mexikóiakkal mexikóiaknak mexikóinak mexikóit mexikóival
+58	2758	használható	használhatóak használhatók használhatónak használhatót
+59	2759	amiatt	
+60	2760	barátság	barátságba barátságban barátságból barátsággal barátsághoz barátságnak barátságnál barátságok barátságokat barátságon barátságot barátságra barátságról barátságát barátságért
+61	2761	fejlődés	fejlődésben fejlődésen fejlődéshez fejlődésnek fejlődésre fejlődésről fejlődéssel fejlődést
+62	2762	királya	királyaként királyat királyához királyának királyára királyát királyától királyával királyává
+63	2763	barátságos	barátságosabb barátságosak barátságosnak legbarátságosabb
+64	2764	megszületik	megszületett megszülethet megszületne megszületnek megszületni megszületnie megszületsz megszülettek megszülettem megszülettetek megszülettél megszülettünk megszületünk
+65	2765	fordítás	fordításban fordítások fordítással fordítást fordításért
+66	2766	másodszor	
+67	2767	néhányan	
+68	2768	szavazat	szavazatok szavazatokat szavazatokkal szavazatokra szavazatokért szavazatot szavazatra szavazattal szavazatát
+69	2769	fiad	fiadat fiadból fiaddal fiadhoz fiadként fiadnak fiadon fiadra fiadról fiadtól fiadért
+70	2770	helyszíne	helyszínéhez helyszínén helyszínének helyszínére helyszínéről helyszínét helyszínétől helyszínéül
+71	2771	bátran	bátrabban
+72	2772	látvány	látvánnyal látványa látványban látványnak látványra látványt látványtól látványát látványától
+73	2773	tanuló	tanulók tanulókat tanulókkal tanulóknak tanulónak tanulót tanulóval
+74	2774	pletyka	pletykák pletykákat pletykákból pletykákkal pletykáknak pletykákra pletykákról pletykáktól pletykának pletykára pletykáról pletykát pletykával
+75	2775	korszak	korszaka korszakba korszakban korszakból korszaknak korszakok korszakon korszakot korszakra korszakából korszakának
+76	2776	tanult	tanultak tanultakat
+77	2777	rendezett	rendezetten
+78	2778	személyzet	személyzetben személyzetből személyzete személyzeten személyzetet személyzethez személyzetnek személyzetre személyzetről személyzettel személyzettől
+79	2779	üzem	üzembe üzemben üzemből üzemek üzemen üzemet
+80	2780	turista	turistaként turisták turistákat turistákkal turistáknak turistának turistát
+81	2781	döntése	döntésében döntéséhez döntésén döntésének döntésére döntéséről döntését döntésével
+82	2782	alkotás	alkotásai alkotásban alkotások alkotásokat alkotást
+83	2783	iránya	irányába irányában irányából irányát
+84	2784	tisztességes	legtisztességesebb tisztességesebb tisztességesek tisztességesen tisztességesnek
+85	2785	hiányoz	hiányozni
+86	2786	leáll	leállhat leállhatnál leállhatsz leállhatunk leálljak leálljon leállna leállnak leállni leállnál leállok leállsz leállt leálltak leálltam leálltunk leálltál leállunk leállás leállít
+87	2787	kígyó	kígyók kígyókat kígyókkal kígyóknak kígyókra kígyókról kígyóktól kígyónak kígyóra kígyóról kígyót kígyótól kígyóval kígyóvá
+88	2788	hazug	hazuggal hazugnak hazugok hazugokat hazugokkal hazugot
+89	2789	oktatási	
+90	2790	végződik	végződhet végződhetett végződjön végződne végződnek végződni végződnie végződtek végződött végződő
+91	2791	vén	vének véneket vénekkel véneknek vénnek
+92	2792	kommunista	kommunisták kommunistákat kommunistákkal kommunistáknak kommunistának kommunistát
+93	2793	elvisel	elviseled elviselek elviselem elviseli elviselik elviselje elviseljem elviseljük elviselned elviselnem elviselni elviselnie elviselnék elviselném elviselnünk elviselsz elviselt elviselte elviseltem
+94	2794	hajnali	
+95	2795	vonzó	legvonzóbb vonzóak vonzóbb vonzóbbnak vonzónak vonzóvá
+96	2796	segge	seggébe seggében seggéből seggéhez seggén seggének seggére seggéről seggét seggével
+97	2797	elsődleges	elsődlegesek elsődlegesen
+98	2798	tucat	tucatjait tucatot tucatszor tucattal
+99	2799	bors	borsod borsot borssal
+100	2800	szórakoztató	legszórakoztatóbb szórakoztatóak szórakoztatóbb szórakoztatónak szórakoztatót szórakoztatóvá

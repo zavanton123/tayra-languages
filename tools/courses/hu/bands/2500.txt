@@ -1,0 +1,100 @@
+1	2401	képzés	képzésben képzések képzésen képzésre képzéssel képzést
+2	2402	padló	padlóba padlóban padlóból padlóhoz padlóig padlón padlónak padlóra padlóról padlót padlótól padlóval
+3	2403	akármi	akármibe akármiben akármihez akármik akármin akárminek akármire akármiről akármit akármivel akármiért
+4	2404	kiló	kilók kilókat kilónál kilóra kilót kilóval kilóért
+5	2405	rendszere	rendszerébe rendszerében rendszeréből rendszeréhez rendszerén rendszerének rendszerére rendszeréről rendszerét rendszerével
+6	2406	jellegű	jellegűek jellegűt
+7	2407	munkás	munkása munkásként munkásnak munkások munkásokat munkásokkal munkásoknak munkásokra munkásokról munkásra munkással munkást
+8	2408	régió	régióba régióban régióból régiók régiókban régiót
+9	2409	mező	mezején mezejét mezőbe mezőben mezőből mezők mezőket mezőkre mezőkről mezőkön mezőn mezőnek mezőre mezőről mezőt mezővel
+10	2410	tipp	tippek tippeket tippel tippelek tippelem tippelhetek tippeljek tippeljen tippeljetek tippelnem tippelni tippelnék tippelsz tippelt tippeltem tippeltél tippet tippre
+11	2411	szálloda	szállodába szállodában szállodából szállodához szállodája szállodájában szállodáját szállodák szállodákat szállodákban szállodának szállodánál szállodára szállodát szállodától szállodával
+12	2412	anyukád	anyukádat anyukáddal anyukádhoz anyukádnak anyukádnál anyukádra anyukádról anyukádtól anyukádé anyukádért
+13	2413	határoz	határozható határoznak határozni határoznunk határozod határozom határozta határoztad határoztak határoztam határoztuk határoztunk határozták határoztál határozunk határozva határozza határozzon határozzuk határozzák
+14	2414	szőke	szőkék szőkéket szőkén szőkének szőkére szőkét szőkével
+15	2415	blog	blogban blogok blogokat blogon blogot blogra
+16	2416	lord	lorddal lordnak lordok lordot
+17	2417	taxi	taxiba taxiban taxiból taxihoz taxik taxikat taxin taxinak taxira taxit taxival taxiért
+18	2418	laza	lazább lazábbak lazábban lazák lazán lazának lazára lazát leglazább
+19	2419	mindenesetre	
+20	2420	amennyire	
+21	2421	kellemetlen	kellemetlenebb kellemetlenek kellemetlennek kellemetlenné kellemetlenül legkellemetlenebb
+22	2422	parancsol	parancsolhatok parancsolhatsz parancsolj parancsolja parancsoljanak parancsoljatok parancsoljon parancsolják parancsolnak parancsolni parancsolod parancsolok parancsolom parancsolsz parancsolt parancsolta parancsoltad parancsoltak parancsoltam parancsolták parancsolunk parancsoló
+23	2423	fér	fére férek férhet férhetek férhetett férhetnek férhetünk féri férjek férjen férjük férjünk férne férnek férnem férni férnie férnünk férsz fért fértek fértem férünk
+24	2424	éles	legélesebb élesben élesebb élesek élesen éleset élesnek élesre
+25	2425	kötet	kötetben kötetből kötetei kötetek kötetet
+26	2426	büdös	büdösebb büdösek büdöset
+27	2427	go	gót
+28	2428	megszökik	megszökhet megszökhetett megszökhetsz megszökhetünk megszökjenek megszökjünk megszökne megszöknek megszökni megszöknie megszökniük megszöknöd megszöknöm megszöknünk megszöksz megszöktek megszöktem megszöktetek megszöktél megszöktünk megszökök megszököm megszökött megszökünk
+29	2429	szerencsétlen	legszerencsétlenebb szerencsétlenebb szerencsétlenek szerencsétleneket szerencsétlenekkel szerencsétleneknek szerencsétlennek szerencsétlennel szerencsétlenné szerencsétlent szerencsétlenül
+30	2430	tavaszi	
+31	2431	stadion	stadionba stadionban stadionból stadionhoz stadionnál stadionok stadiont
+32	2432	sofőr	sofőrként sofőrnek sofőrre sofőrrel sofőrről sofőrt sofőrtől sofőrök sofőröket sofőrökkel sofőröknek
+33	2433	eredményei	eredményeik eredményeinek eredményeire eredményeiről eredményeit eredményeivel
+34	2434	hulla	hullaként hullanak hullához hullák hullákat hullákból hullákkal hullákon hullákra hullákról hulláktól hullán hullának hullánál hullára hulláról hullát hullától hullával
+35	2435	beszámoló	beszámolója beszámolók beszámolókat beszámolót
+36	2436	fejlesztés	fejlesztések fejlesztéseket fejlesztésre fejlesztéssel fejlesztést
+37	2437	feltétlenül	
+38	2438	vére	vérébe vérében véréből vérén vérének vérére véréről vérét vérétől vérével véréért
+39	2439	tanácsadó	tanácsadóhoz tanácsadói tanácsadója tanácsadók tanácsadókat tanácsadókkal tanácsadóként tanácsadónak tanácsadónál tanácsadóra tanácsadót tanácsadóval
+40	2440	amennyiben	
+41	2441	ered	eredek eredendő eredendően eredet eredetet eredhet eredj eredjen eredjenek eredjetek erednek eredni eredsz eredt eredtek eredtem eredünk eredő
+42	2442	vadász	vadásszal vadásszá vadászként vadásznak vadászok vadászokat vadászokkal vadászoknak vadászra vadászról vadászt
+43	2443	hu	
+44	2444	kapcsolódik	kapcsolódjon kapcsolódjunk kapcsolódna kapcsolódnak kapcsolódni kapcsolódnia kapcsolódott kapcsolódsz kapcsolódtak kapcsolódtam kapcsolódtunk kapcsolódunk kapcsolódva kapcsolódás
+45	2445	legutóbbi	legutóbbit
+46	2446	tört	törtek törtető
+47	2447	bárhol	
+48	2448	tolvaj	tolvajjal tolvajjá tolvajként tolvajnak tolvajok tolvajokat tolvajokkal tolvajoknak tolvajoktól tolvajra tolvajról tolvajt tolvajtól
+49	2449	jelenség	jelenségek jelenségeket jelenséget jelenséggel jelenségnek jelenségre jelenségről
+50	2450	emelkedik	emelkedhet emelkedjen emelkedjenek emelkedjünk emelkedne emelkednek emelkedni emelkednie emelkednünk emelkedsz emelkedtek emelkedtem emelkedés emelkedése emelkedést emelkedését emelkedünk emelkedő emelkedőn emelkedőt
+51	2451	robbanás	robbanásban robbanásból robbanáshoz robbanásig robbanáskor robbanásnak robbanásnál robbanások robbanásokat robbanásra robbanásról robbanással robbanást robbanástól
+52	2452	szlovák	szlovákok
+53	2453	megmagyaráz	megmagyarázhatja megmagyarázhatná megmagyarázhatnám megmagyarázhatom megmagyarázható megmagyarázna megmagyarázni megmagyaráznia megmagyaráznod megmagyaráznom megmagyarázná megmagyaráznád megmagyaráznám megmagyarázod megmagyarázok megmagyarázom megmagyarázott megmagyarázta megmagyaráztam megmagyarázza megmagyarázzam megmagyarázzuk megmagyarázzák
+54	2454	rohan	rohanhatsz rohanj rohanjak rohanjanak rohanjatok rohanjon rohanjuk rohanjunk rohanna rohannak rohanni rohannál rohannék rohanok rohansz rohant rohantak rohantam rohantok rohantunk rohantál rohanunk rohanva rohanás rohanó
+55	2455	elmenekül	elmenekülhessen elmenekülhet elmenekülhetett elmenekülhetsz elmenekülhetünk elmeneküljek elmeneküljenek elmeneküljön elmeneküljünk elmenekülne elmenekülnek elmenekülni elmenekülnie elmenekülniük elmenekülnék elmenekülnöd elmenekülnöm elmenekülnünk elmenekülsz elmenekült elmenekültek elmenekültem elmenekültél elmenekültünk elmenekülök elmenekülünk
+56	2456	rajongó	rajongók rajongókat rajongókkal rajongóknak rajongóktól rajongóként rajongónak rajongót rajongóval
+57	2457	jelöl	jelöli jelölik jelölje jelöljenek jelöljék jelöljétek jelöljön jelöljük jelölnek jelölni jelölnünk jelölted jelöltek jelöltem jelöltet jelöltetni jelölték jelöltél jelöltük jelölve jelölöm jelölő
+58	2458	torony	tornyok tornyokat tornyokban tornyoknál tornyon tornyot toronnyal toronyba toronyban toronyból toronyhoz toronynak toronynál toronyra toronyról toronytól
+59	2459	szál	szálak szálakat szálakkal szálat szálig szállal szálnak szálon
+60	2460	hullám	hulláma hullámai hullámat hullámban hullámmal hullámnak hullámok hullámokat hullámokban hullámokkal hullámokon hullámokra hullámon hullámot hullámra
+61	2461	stúdió	stúdióba stúdióban stúdióból stúdióhoz stúdiók stúdiónak stúdiónál stúdiót stúdiótól stúdióval stúdióé
+62	2462	tengeri	
+63	2463	meglep	megleped meglepem meglephet meglephetjük meglepi meglepje meglepjelek meglepjem meglepjen meglepjenek meglepjük megleplek meglepne meglepnek meglepni meglepné meglepsz meglepte megleptek megleptelek megleptem megleptetek meglepték megleptél megleptük meglepve
+64	2464	egészség	egészségben egészséget egészséggel egészségnek egészségre egészségről egészségtől
+65	2465	vallomás	vallomása vallomásait vallomásban vallomáshoz vallomásnak vallomások vallomásokat vallomásra vallomásról vallomással vallomást vallomásuk vallomására vallomásért
+66	2466	háromszor	
+67	2467	meglehetősen	
+68	2468	választási	
+69	2469	est	estben estek esten estet estig estre estről
+70	2470	képesség	képességek képességeket képességekkel képességekre képességekről képességem képességet képességgel képességnek képességre képességről képességüket
+71	2471	net	neten netet netre netről
+72	2472	megfog	megfoghatja megfoghatjuk megfoghatnám megfoghatod megfoghatom megfogja megfogjam megfogjuk megfogják megfogjátok megfoglak megfognak megfogni megfogná megfognád megfognám megfogod megfogok megfogom megfogott megfogsz megfogta megfogtad megfogtak megfogtalak megfogtam megfogtatok megfogtuk megfogták megfogtál megfogunk
+73	2473	társa	társához társának társánál társára társáról társát társától társával
+74	2474	bátyja	bátyjához bátyjának bátyjánál bátyjára bátyjáról bátyját bátyjától bátyjával bátyjáé bátyjáért
+75	2475	résztvevő	résztvevői résztvevője résztvevők résztvevőket résztvevőknek résztvevőnek résztvevőt résztvevővel
+76	2476	szólít	szólítalak szólítana szólítanak szólítani szólítania szólítanod szólítanom szólítanál szólítanám szólítasz szólíthat szólíthatja szólíthatlak szólíthatom szólíthatsz szólítja szólítjuk szólítják szólítod szólítom szólított szólította szólítottad szólítottak szólítottalak szólítottam szólították szólítottál szólítsa szólítsalak szólítsam szólítsanak szólítsatok szólítson szólítsuk szólítsák szólítunk
+77	2477	rakéta	rakétába rakétában rakétához rakéták rakétákat rakétákkal rakétákra rakétákról rakétán rakétának rakétára rakétáról rakétát rakétával
+78	2478	körüli	körüliek
+79	2479	csók	csókban csókhoz csókkal csóknak csóknál csókok csókokat csókokkal csókot csókra csókról csóktól csókért
+80	2480	mente	mentén
+81	2481	sárkány	sárkánnyal sárkánnyá sárkánynak sárkányok sárkányokat sárkányokkal sárkányoknak sárkányokra sárkányokról sárkányra sárkányról sárkányt sárkánytól
+82	2482	cuki	cukibb cukik cukin cukinak cukit legcukibb
+83	2483	megegyezik	megegyezett megegyezhetnénk megegyezhetünk megegyeznünk megegyeztem megegyeztetek megegyeztél megegyezzen megegyezzünk megegyezés megegyezésen megegyezésre megegyezésről megegyezéssel megegyezést megegyezünk megegyező
+84	2484	svájci	svájciak
+85	2485	tél	telek teleket telekkel telekre telekről telet telkek telkeket telken telket télben télig téllel télnek télre
+86	2486	anyagi	anyagiak anyagiakat
+87	2487	elkezdődik	elkezdődhet elkezdődhetett elkezdődjön elkezdődne elkezdődnek elkezdődni elkezdődtek elkezdődött
+88	2488	testvérem	testvéremet testvéremhez testvéremként testvéremmel testvéremnek testvéremre testvéremről testvéremtől testvéremé testvéremért
+89	2489	igazgatója	igazgatójaként igazgatójának igazgatóját igazgatójától igazgatójával
+90	2490	hazánk	hazánkat hazánkba hazánkban hazánknak hazánkra hazánkért
+91	2491	lépcső	lépcsőhöz lépcsők lépcsőket lépcsőkhöz lépcsőkkel lépcsőknél lépcsőkre lépcsőkön lépcsőn lépcsőnek lépcsőnél lépcsőre lépcsőről lépcsőt lépcsővel
+92	2492	teher	teherbe teherként tehernek teherrel teherré tehertől terhek terheket terhet
+93	2493	leül	leülhetek leülhetnek leülhetnék leülhetnél leülhetnénk leülhetsz leülhettek leülhetünk leüljek leüljön leüljünk leülne leülnek leülni leülnie leülnék leülnél leülnének leülnénk leülnétek leülnöd leülnöm leülsz leült leülte leültek leültem leültetni leültél leültök leültünk leülök leülöm leülünk
+94	2494	hú	
+95	2495	köcsög	köcsöggel köcsögnek köcsögök köcsögöket köcsögökkel köcsögöknek köcsögöt
+96	2496	vámpír	vámpírként vámpírnak vámpírok vámpírokat vámpírokban vámpírokkal vámpíroknak vámpírokra vámpírokról vámpíroktól vámpírra vámpírral vámpírrá vámpírról vámpírt vámpírtól
+97	2497	ás	ásd áshatunk ásnak ásni ásod ások ásol ásom ásott áss ássa ássak ássam ássanak ássatok ásson ássuk ássunk ássák ássátok ásta ástad ástak ástam ástuk ástunk ásták ástál ásunk ásva ásás ásó ásók ásókat ásót ásóval
+98	2498	gyümölcs	gyümölccsel gyümölcsből gyümölcsnek gyümölcsre gyümölcsét gyümölcsök gyümölcsökből gyümölcsöket gyümölcsökkel gyümölcsöt
+99	2499	árpád	
+100	2500	svéd	svédek svédet svédül

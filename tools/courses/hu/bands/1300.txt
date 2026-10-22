@@ -1,0 +1,100 @@
+1	1201	rendelet	rendeletben rendeletek rendeleteket rendeletet rendelettel
+2	1202	őszinte	legőszintébb őszintébb őszinték őszintének őszintét
+3	1203	energia	energiába energiában energiából energiához energiák energiákat energián energiának energiára energiáról energiát energiától energiával energiává
+4	1204	elintéz	elintézed elintézek elintézel elintézem elintézett elintézhetem elintézheti elintézhetjük elintézhetnénk elintézi elintézik elintézitek elintézlek elintézned elintéznek elintéznem elintézni elintéznie elintézné elintéznéd elintézném elintéznünk elintézte elintézted elintéztek elintéztem elintézték elintéztél elintéztétek elintéztük elintéztünk elintézve elintézze elintézzek elintézzem elintézzen elintézzék elintézzük elintézünk
+5	1205	vonat	vonatból vonathoz vonatnak vonatnál vonatok vonatokat vonatokkal vonatokon vonatokra vonaton vonatot vonatra vonatról vonattal
+6	1206	július	júliusban júliustól
+7	1207	megígér	megígéred megígérek megígérem megígérhetek megígérhetem megígéri megígérik megígéritek megígérjük megígérni megígérnéd megígérnél megígérsz megígért megígérte megígérted megígértek megígértem megígérték megígértél megígértétek megígértük megígértünk
+8	1208	hónapja	hónapjában hónapját
+9	1209	merre	
+10	1210	összesen	
+11	1211	küzd	küzdd küzdene küzdened küzdenek küzdenem küzdenetek küzdeni küzdenie küzdeniük küzdenék küzdenél küzdenünk küzdesz küzdhetek küzdhetsz küzdhetünk küzdi küzdj küzdjek küzdjenek küzdjetek küzdjél küzdjön küzdjünk küzdve küzdés küzdök küzdött küzdöttek küzdöttem küzdöttetek küzdöttél küzdöttünk küzdötök küzdünk küzdő
+12	1212	étterem	étterembe étteremben étteremből étteremhez étteremmel étteremnek étteremnél étteremre étteremről étteremtől éttermek éttermekbe éttermekben éttermeket éttermekről éttermen éttermet
+13	1213	bolond	bolondabb bolonddal bolonddá bolondhoz bolondként bolondnak bolondok bolondokat bolondokkal bolondoknak bolondot bolondra bolondul bolondulnak bolondulni bolondulok bolondulsz bolondult bolondultam bolondulva
+14	1214	épül	épüljek épüljön épülne épülnek épülni épülnie épülnöm épülnünk épülsz épült épültek épültem épültél épülve épülő
+15	1215	kulcs	kulccsal kulcshoz kulcsnak kulcsok kulcsokat kulcsokkal kulcsokra kulcsokról kulcsokért kulcson kulcsot kulcsra kulcsról kulcsért
+16	1216	tudományos	
+17	1217	találkozó	találkozóba találkozóhoz találkozóig találkozójuk találkozóján találkozók találkozókat találkozókon találkozókra találkozókról találkozón találkozónak találkozóra találkozóról találkozót találkozótól találkozóval
+18	1218	hallom	
+19	1219	ára	árában árából árán árának áráról árát árával áráért
+20	1220	jegy	jeggyel jegyben jegyei jegyeit jegyek jegyeket jegyekkel jegyekre jegyekről jegyekért jegyemet jegyen jegyet jegyre jegyért
+21	1221	írja	
+22	1222	gáz	gázabb gázai gázba gázban gázból gáznak gázok gázokat gázokkal gázoktól gázon gázra gázról gázt gáztól gázzal gázzá leggázabb
+23	1223	következik	következek következel következett következhet következne következnek következni következnie következtek következtem következzen következzenek következünk
+24	1224	hasonlít	hasonlítana hasonlítanak hasonlítani hasonlítanom hasonlítanám hasonlítanék hasonlítasz hasonlíthatod hasonlítja hasonlítjuk hasonlítják hasonlítod hasonlítok hasonlítom hasonlítotok hasonlított hasonlította hasonlítottad hasonlítottak hasonlítottam hasonlítottunk hasonlítottál hasonlítsa hasonlítsak hasonlítsanak hasonlítson hasonlítsuk hasonlítsák hasonlítunk hasonlítva hasonlító
+25	1225	híd	hidak hidakat hidakon hidat hídba híddal hídhoz hídig hídnak hídnál hídon hídra hídról hídtól
+26	1226	baszik	bassz bassza basszad basszam basszatok basszon basszuk basszunk basszák basszál basszátok basz basza baszhatja baszhatjuk baszhatod baszhatom baszlak basznak baszni baszná basznád baszod baszok baszol baszom baszott baszta basztad basztak basztam basztok basztunk baszták basztál baszunk baszva baszás baszó
+27	1227	modell	modellben modellek modelleket modellekkel modelleknek modellekre modellel modellen modellhez modellként modellnek modellre modellt
+28	1228	órája	órájába órájában óráján órájának órájára órájáról óráját órájával
+29	1229	korán	koránban koránból koránra koránt legkorábban
+30	1230	elsősorban	
+31	1231	szellem	szellemben szellemek szellemekben szellemeket szellemekhez szellemekkel szellemeknek szellemekre szellemekről szellemektől szellemet szellemhez szellemként szellemmel szellemmé szellemnek szellemre szellemről szellemtől szellemé
+32	1232	barátod	barátodat barátodban barátoddal barátodhoz barátodként barátodnak barátodnál barátodon barátodra barátodról barátodtól barátodé barátodért
+33	1233	oszt	ossz ossza osszak osszam osszon osszuk osszák osszátok oszd osztanak osztani osztania osztanod osztanom osztanunk osztaná osztanám osztasz oszthatok oszthatom osztja osztjuk osztják osztod osztok osztom osztott osztotta osztottad osztottak osztottam osztottuk osztottunk osztották osztottál osztunk osztva osztó osztónak
+34	1234	spanyol	spanyolba spanyolban spanyolból spanyollal spanyolnak spanyolok spanyolokat spanyolokkal spanyoloknak spanyolra spanyolt spanyolul
+35	1235	legalábbis	
+36	1236	cucc	cuccal cuccba cuccban cuccból cucchoz cuccnak cuccok cuccokat cuccokban cuccokból cuccokhoz cuccokkal cuccoknak cuccokra cuccokról cuccokért cuccon cuccot cuccra cuccról cucctól cuccért
+37	1237	eljárás	eljárása eljárásba eljárásban eljáráshoz eljárásnak eljárások eljárásokat eljárásokkal eljáráson eljárásra eljárásról eljárással eljárást eljárását
+38	1238	üveg	üvegbe üvegben üvegből üvegek üvegekbe üvegekben üvegeket üvegekkel üvegekre üvegen üveget üveggel üveghez üvegnek üvegre üvegről üvegtől üvegért
+39	1239	szerencsés	legszerencsésebb szerencsésebb szerencsések szerencséseknek szerencsésen szerencsésnek
+40	1240	törődik	törődhetsz törődj törődjek törődjenek törődjetek törődjön törődjünk törődne törődnek törődni törődnie törődniük törődnék törődnél törődnének törődnénk törődnöd törődnöm törődnünk törődsz törődtek törődtem törődtél törődtök törődtünk törődve törődés törődök törődöm törődött törődünk törődő
+41	1241	durva	durvább durvábban durvák durván durvának durvára durvát legdurvább
+42	1242	szabadság	szabadságba szabadságban szabadsággal szabadsághoz szabadságnak szabadságod szabadságon szabadságot szabadságra szabadságról szabadságtól szabadságuk szabadságukat szabadságért
+43	1243	ellop	ellophassa ellophatja ellophatják ellophatod ellophatta ellopja ellopjam ellopjon ellopjuk ellopják ellopjátok ellopnak ellopni ellopnia ellopnod ellopnom ellopnunk ellopná ellopnák ellopnám ellopod ellopok ellopom ellopott ellopsz ellopta elloptad elloptak elloptam elloptatok elloptuk elloptunk ellopták elloptál elloptátok ellopunk ellopva
+44	1244	koncert	koncertek koncerteken koncerteket koncertekre koncerten koncertet koncerthez koncertnek koncertre koncertről koncerttel
+45	1245	tó	tavak tavakat tavakban tavaknál tavat tavon tóba tóban tóból tóhoz tóig tónak tónál tóra tóról tótól tóval
+46	1246	ugyanez	ugyanebbe ugyanebben ugyanebből ugyanennek ugyanerre ugyanerről ugyanezek ugyanezeket ugyanezekkel ugyanezen ugyanezt ugyanezzel ugyanezért
+47	1247	dehogy	
+48	1248	férjem	férjemen férjemet férjemhez férjemmel férjemnek férjemnél férjemre férjemről férjemtől férjemé férjemért férjemül
+49	1249	ugyanis	
+50	1250	helyez	helyezed helyezek helyezel helyezem helyezhetem helyezheti helyezhetjük helyezi helyezik helyezlek helyezned helyeznek helyeznem helyezni helyeznie helyezné helyeznék helyezném helyeznénk helyeznünk helyezte helyezted helyeztek helyeztem helyezték helyeztél helyeztük helyeztünk helyezve helyezze helyezzelek helyezzem helyezzen helyezzenek helyezzék helyezzétek helyezzük helyezzünk helyezünk
+51	1251	számol	számolhatok számolhatsz számolhatunk számolja számoljak számoljam számoljanak számoljatok számoljon számoljuk számoljunk számolják számoljátok számolnak számolni számolnia számolniuk számolnod számolnom számolnunk számolnám számolod számolok számolom számolsz számolt számolta számoltad számoltak számoltam számoltuk számoltunk számolták számoltál számolunk számolva számolás számoló
+52	1252	láb	lábak lábakat lábakkal lábaknak lábakon lábakra lábakról lábat lábbal lábban lábhoz lábnak lábnál lábon lábra lábról
+53	1253	párt	pártba pártban pártból párthoz pártnak pártok párton pártot pártra párttal párttól
+54	1254	bajnok	bajnokkal bajnokként bajnoknak bajnokok bajnokokat bajnokot bajnokra bajnokának
+55	1255	asszonyom	asszonyomat asszonyommal asszonyomnak
+56	1256	település	települések településeken településeket településen településnek településre településről települést
+57	1257	mozog	mozgok mozgott mozgunk mozgó mozoghat mozoghatnak mozoghatok mozoghatsz mozogjak mozogjanak mozogjatok mozogjon mozogjunk mozogjál mozogna mozognak mozogni mozognia mozognod mozognom mozognunk mozognál mozogsz mozogtak mozogtam mozogtok mozogtunk mozogtál mozogva
+58	1258	csapata	csapatába csapatában csapatából csapatához csapatának csapatára csapatáról csapatát csapatától csapatával
+59	1259	ahova	ahová
+60	1260	nyitva	
+61	1261	kitalál	kitalálhatja kitalálhatjuk kitalálhatnánk kitalálhatod kitalálhatok kitalálhatom kitalálhattam kitalálhatunk kitalálja kitaláljak kitaláljam kitaláljon kitaláljuk kitaláljunk kitalálják kitaláljátok kitalálna kitalálnak kitalálni kitalálnia kitalálnod kitalálnom kitalálnunk kitalálnánk kitalálnék kitalálod kitalálok kitalálom kitalálsz kitalálta kitaláltam kitaláltok kitaláltuk kitaláltunk kitalálták kitaláltál kitaláltátok kitalálunk kitalálva
+62	1262	profi	legprofibb profibb profihoz profik profikat profikhoz profikkal profiknak profikra profiként profin profinak profira profit profitból profiton profitot profitra profitról profittal profitért profitól profival profivá
+63	1263	vall	vallana vallanak vallani vallania vallanod vallanom vallanunk vallaná vallanám vallasz vallató valld vallhat vallhatok vallj vallja valljak valljam valljanak valljon valljuk vallják valljátok vallod vallok vallom vallott vallotta vallottad vallottak vallottam vallottunk vallották vallottál vallunk valló
+64	1264	milliárd	egymilliárd milliárdból milliárddal milliárdhoz milliárdok milliárdokat milliárdot milliárdra mrd
+65	1265	visszamegy	visszamegyek visszamegyünk visszamehessek visszamehessen visszamehet visszamehetek visszamehetne visszamehetnek visszamehetnék visszamehetnél visszamehetnénk visszamehetsz visszamehettek visszamehetünk visszamenjek visszamenjen visszamenjenek visszamenjünk visszamenne visszamenned visszamennek visszamennem visszamenni visszamennie visszamennék visszamennél visszamennének visszamennénk visszamennünk visszament visszamentek visszamentem visszamentél visszamentünk visszamész
+66	1266	nyoma	nyomába nyomában nyomán nyomára nyomát
+67	1267	valóság	valóságba valóságban valóságból valósággal valósággá valósághoz valóságnak valóságnál valóságok valóságon valóságot valóságra valóságról valóságtól
+68	1268	bor	borba borban borból borhoz bornak bornál borok borokat borokhoz borokról borra borral borrá borról bort bortól borért
+69	1269	igazgató	igazgatóhoz igazgatók igazgatóként igazgatónak igazgatónál igazgatóra igazgatóról igazgatót igazgatótól igazgatóval igazgatóvá igazgatóé
+70	1270	győzelem	győzelembe győzelemben győzelemhez győzelemig győzelemmel győzelemnek győzelemre győzelemről győzelemtől győzelemért győzelmek győzelmeket győzelmet győzelmük
+71	1271	ugrik	ugorhat ugorhatnánk ugorhatok ugorhatott ugorhatsz ugorhatunk ugorj ugorjanak ugorjatok ugorjunk ugorni ugrana ugranak ugrani ugrania ugranod ugranom ugranunk ugranál ugranék ugrasz ugrat ugratjuk ugratni ugratott ugrató ugrok ugrom ugrotok ugrott ugrottak ugrottam ugrottunk ugrottál ugrunk ugró ugrók ugrót ugróval
+72	1272	vállalat	vállalata vállalatba vállalatban vállalatból vállalathoz vállalatnak vállalatnál vállalatok vállalatokat vállalatokkal vállalatoknak vállalaton vállalatot vállalatra vállalatról vállalattal vállalattól vállalaté vállalatért
+73	1273	aranyos	aranyosabb aranyosak aranyosat aranyosnak aranyost legaranyosabb
+74	1274	bolygó	bolygóból bolygóhoz bolygók bolygókat bolygókkal bolygókon bolygókra bolygókról bolygón bolygónak bolygóra bolygóról bolygót bolygótól bolygóval
+75	1275	semmilyen	semmilyenben semmilyet
+76	1276	herceg	hercegből hercegek hercegeket herceget herceggel herceggé herceghez hercegként hercegnek hercegnél hercegre hercegről hercegtől hercegé
+77	1277	vásárol	vásárolhat vásárolhatnak vásárolhatsz vásárolj vásárolja vásároljak vásároljanak vásároljatok vásároljon vásároljuk vásároljunk vásárolják vásárolna vásárolnak vásárolni vásárolnia vásárolnod vásárolnom vásárolnunk vásárolnék vásárolok vásárolsz vásárolt vásárolta vásároltad vásároltak vásároltam vásároltok vásároltuk vásároltunk vásárolták vásároltál vásárolunk
+78	1278	vasárnap	vasárnaphoz vasárnapig vasárnapok vasárnapokat vasárnapon vasárnapot vasárnapra
+79	1279	csökkent	csökkented csökkentek csökkentem csökkentenem csökkenteni csökkentenie csökkentené csökkentenénk csökkentenünk csökkentett csökkentette csökkentettem csökkentettük csökkenthetem csökkenthetjük csökkenti csökkentik csökkentjük csökkentse csökkentsem csökkentsék csökkentsük csökkentve csökkentés csökkentést csökkentő
+80	1280	nyitott	nyitottabb nyitottak nyitottan nyitottnak nyitottá
+81	1281	válogatott	válogatottal válogatottat válogatottba válogatottban válogatottnak
+82	1282	születik	szüless szülessenek születek születendő születhet születhetett születhetnek születne születned születnek születnem születni születnie születsz születtek születtem születtetek születtél születtünk születünk születő
+83	1283	kelt	kelted keltek keltem keltene keltened keltenek keltenem kelteni keltenie keltenénk keltenünk keltesz keltett keltette keltetted keltettek keltettem keltették keltettél kelthet kelthetünk kelti keltik keltjük kelts keltsd keltse keltsek keltsem keltsen keltsenek keltsetek keltsék keltsük keltsünk keltve keltél keltünk keltő
+84	1284	képviselő	képviselőhöz képviselők képviselőket képviselőkkel képviselőknek képviselőként képviselőnek képviselőre képviselőről képviselőt képviselővel
+85	1285	tárgy	tárggyal tárgyak tárgyakat tárgyakból tárgyakhoz tárgyakkal tárgyaknak tárgyakon tárgyakra tárgyakról tárgyat tárgyban tárgyból tárgyhoz tárgyként tárgynak tárgynál tárgyon tárgyra tárgyról tárgytól
+86	1286	távozik	távozhasson távozhat távozhatnak távozhatok távozhatott távozhatsz távozhattok távozhatunk távozna távoznak távozni távoznia távozniuk távoznod távoznom távoznotok távoznunk távoznál távoznának távoznék távozok távozol távozott távoztak távoztam távoztok távoztunk távoztál távozunk távozz távozzam távozzanak távozzatok távozzon távozzunk távozzék távozó
+87	1287	bajnokság	bajnokságba bajnokságban bajnokságból bajnokságig bajnokságok bajnokságon bajnokságot bajnokságra bajnokságról
+88	1288	illik	illek illene illenek illeni illenék illenél illenének illesz illetek illett illettek illünk illő illőbb illőnek illőt
+89	1289	forró	forróak forróbb forrók forrón forrónak forrót forróvá legforróbb
+90	1290	akció	akcióba akcióban akcióból akcióhoz akciója akciójukat akcióját akciók akciókat akciókban akciókra akciókról akción akciónak akciónál akcióra akcióról akciót akcióval akcióért
+91	1291	katonai	
+92	1292	apu	apuhoz apunak apunál apura apuról aput aputól apuval apué
+93	1293	szabó	szabóhoz szabók szabónál szabót
+94	1294	gól	góllal gólok gólokat gólra gólt
+95	1295	kiállítás	kiállításnak kiállítások kiállításokat kiállításokon kiállításon kiállításra kiállításról kiállítással kiállítást
+96	1296	mód	módba módban móddal módnak módok módokat módokon módot módra
+97	1297	múzeum	múzeumba múzeumban múzeumból múzeumhoz múzeummal múzeumnak múzeumnál múzeumok múzeumokat múzeumokba múzeumokban múzeumot múzeumtól
+98	1298	diák	diákkal diákként diáknak diákok diákokat diákokkal diákoknak diákokra diákokról diákoktól diákot diákra diákról diáktól
+99	1299	sétál	sétálhatnak sétálhatnánk sétálhatok sétálhatott sétálhatsz sétálhatunk sétáljak sétáljanak sétáljatok sétáljon sétáljunk sétálna sétálnak sétálni sétálnia sétálnod sétálnom sétálnunk sétálnál sétálnánk sétálnék sétálok sétálsz sétált sétáltak sétáltam sétáltat sétáltatok sétáltok sétáltunk sétáltál sétálunk sétálva sétálás sétáló
+100	1300	tagjai	tagjaiként tagjainak tagjaira tagjairól tagjait tagjaitól tagjaival

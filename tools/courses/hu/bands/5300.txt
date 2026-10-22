@@ -1,0 +1,100 @@
+1	5201	dumál	dumálhatnánk dumálhatunk dumáljatok dumáljon dumáljuk dumáljunk dumálnak dumálni dumálnunk dumálok dumálsz dumált dumáltak dumáltam dumáltatok dumáltok dumáltunk dumáltál dumálunk dumálás
+2	5202	jövőbeli	
+3	5203	bálna	bálnák bálnákat bálnákkal bálnáknak bálnának bálnára bálnát bálnával
+4	5204	értelek	
+5	5205	füzet	füzetbe füzetben füzetek füzeteket füzetet füzettel füzetét
+6	5206	színei	színeiben színeit
+7	5207	lendület	lendületbe lendületben lendületből lendületet lendülettel
+8	5208	mindaddig	
+9	5209	étrend	étrenden étrendet
+10	5210	bíboros	bíborosnak bíborosok bíborossal bíborost bíborostól
+11	5211	biztosítási	
+12	5212	emlékezetes	emlékezetessé legemlékezetesebb
+13	5213	problémás	problémásabb problémásak problémásnak
+14	5214	keserű	keserűbb keserűen keserűt
+15	5215	fakad	fakadnak fakadni fakadok fakadsz fakadt fakadtam fakadó
+16	5216	asztala	asztalában asztalához asztalán asztalánál asztalára asztaláról asztalát
+17	5217	gondolataim	gondolataimat gondolataimba gondolataimban gondolataimból gondolataimmal
+18	5218	feladatai	feladatainak feladatairól feladatait
+19	5219	tudása	tudásának tudására tudását tudásával
+20	5220	mise	misén misére miséről misét
+21	5221	homályos	homályosabb homályosak homályosan
+22	5222	irányuló	
+23	5223	kecskeméti	
+24	5224	pintér	
+25	5225	alkotmány	alkotmánnyal alkotmányban alkotmányt
+26	5226	bűntény	bűnténnyel bűntényben bűntények bűntényeket bűntényhez bűnténynek bűntényre bűntényről bűntényt bűntényért
+27	5227	csá	
+28	5228	változása	változásának változását változásával
+29	5229	árok	árkok árkokat árkokban árkon árkot árokba árokban árokból
+30	5230	szalon	szalonba szalonban szalonból szalonok szalonokban szalont
+31	5231	felülete	felületén felületének felületére felületét
+32	5232	időközben	
+33	5233	varr	varrd varrj varrja varrjam varrjon varrjuk varrják varrjál varrnak varrni varrnom varrod varrok varrom varrott varrsz varrt varrtad varrtak varrtam varrták varrtál varrva
+34	5234	abszurd	abszurdnak
+35	5235	körülnéz	körülnézek körülnézel körülnézett körülnézhetek körülnézhetnék körülnézhetnénk körülnézhetünk körülnéznek körülnézni körülnéznék körülnéznél körülnéznénk körülnéztek körülnéztem körülnéztél körülnéztünk körülnézzek körülnézzen körülnézzünk körülnézünk
+36	5236	vendége	vendégeként vendégének vendégét
+37	5237	tekercs	tekerccsel tekercsek tekercseket tekercsen tekercset tekercsre
+38	5238	alkoholista	alkoholisták alkoholistákhoz alkoholistáknál alkoholistának alkoholistát alkoholistával
+39	5239	erőfeszítés	erőfeszítésbe erőfeszítései erőfeszítések erőfeszítéseket erőfeszítésre erőfeszítéssel erőfeszítést
+40	5240	ari	arik arin arinak arit arival
+41	5241	kun	
+42	5242	nemzetbiztonsági	nemzetbiztonságiak nemzetbiztonságiakat nemzetbiztonságiaknak nemzetbiztonságiaknál
+43	5243	építet	építették
+44	5244	dolguk	dolgukat dolgukkal dolgukra
+45	5245	mennyisége	mennyiségéből mennyiségének mennyiségét
+46	5246	tata	tatán
+47	5247	bukás	bukása bukáshoz bukásnak bukásra bukással bukást bukástól bukását
+48	5248	engedelmeskedik	engedelmeskedek engedelmeskedett engedelmeskedjenek engedelmeskedjetek engedelmeskedjünk engedelmeskedned engedelmeskednek engedelmeskednem engedelmeskedni engedelmeskednie engedelmeskedniük engedelmeskednünk engedelmeskedsz engedelmeskedtek engedelmeskedtem engedelmeskedtél engedelmeskedve engedelmeskedünk
+49	5249	szombati	
+50	5250	elkövetkező	
+51	5251	bevezetés	bevezetésre bevezetést
+52	5252	tetoválás	tetoválások tetoválásokat tetoválásokkal tetoválásról tetoválással tetoválást
+53	5253	jubileumi	
+54	5254	keksz	keksszel kekszek kekszen kekszet kekszre kekszért
+55	5255	éjjeli	
+56	5256	vízilabda	
+57	5257	teknős	teknősnek teknőssel teknőst teknősök teknősöket teknősökkel
+58	5258	pult	pultba pultban pulthoz pultnál pulton pultot pultra pultról pulttól
+59	5259	romániai	
+60	5260	egzotikus	egzotikusabb egzotikusnak
+61	5261	hétköznap	hétköznapok hétköznapokat hétköznapokon
+62	5262	mogyoró	mogyorók mogyorókat mogyoróra mogyorót mogyoróval
+63	5263	feltár	feltárja feltárjam feltárjuk feltárják feltárni feltárom feltárt feltárta feltártam feltárták feltárva feltáró
+64	5264	reneszánsz	
+65	5265	tiétek	tietek tiéteket
+66	5266	szélsőséges	legszélsőségesebb szélsőségesek szélsőségesen
+67	5267	letartóztatás	letartóztatása letartóztatásba letartóztatásban letartóztatáshoz letartóztatásnak letartóztatásnál letartóztatások letartóztatásokat letartóztatásom letartóztatásra letartóztatásról letartóztatással letartóztatást letartóztatásának letartóztatásért
+68	5268	összerak	összerakja összerakjam összerakjuk összerakják összerakni összeraknom összerakod összerakok összerakom összerakott összerakta összeraktad összeraktak összeraktam összeraktuk összerakták összerakunk összerakva
+69	5269	ókori	
+70	5270	alibi	alibije alibik alibinek alibire alibit alibivel
+71	5271	reménye	reményében reményét
+72	5272	válogatás	válogatáson válogatásra válogatást
+73	5273	hite	hitében hitéből hitének hitére hitéről hitét hitével hitéért
+74	5274	álmod	álmodat álmodba álmodban álmodból álmodnak álmodnál álmodra álmodról
+75	5275	érkezése	érkezéséig érkezésének érkezésére érkezéséről érkezését érkezésével
+76	5276	evés	evésben evéshez evésnek evésre evésről evéssel evést
+77	5277	mozgása	mozgásának mozgásáról mozgását mozgásával
+78	5278	bántalmaz	bántalmaznak bántalmazni bántalmazott bántalmazta bántalmaztak bántalmaztam bántalmazták bántalmaztál bántalmazza bántalmazzák bántalmazás bántalmazó
+79	5279	szűcs	
+80	5280	hazája	hazájába hazájában hazájából hazájának hazáját hazájáért
+81	5281	elfárad	elfáradnak elfáradni elfáradok elfáradsz elfáradt elfáradtak elfáradtam elfáradtatok elfáradtunk elfáradtál
+82	5282	kertje	kertjébe kertjében kertjéből kertjének kertjét
+83	5283	klip	klipben klipet
+84	5284	képed	képedbe képeddel képeden képedet képedre képedről
+85	5285	tüdő	tüdejében tüdejét tüdőbe tüdőben tüdőből tüdődet tüdők tüdőket tüdőn tüdőnek tüdőre tüdőt tüdővel
+86	5286	pályafutása	pályafutásának pályafutását
+87	5287	bárhogy	bárhogyan
+88	5288	kétféle	kétféleképpen
+89	5289	szállítmány	szállítmánnyal szállítmányból szállítmánynak szállítmányok szállítmányokat szállítmányra szállítmányról szállítmányt szállítmányért
+90	5290	húsvéti	
+91	5291	csillogó	
+92	5292	változtatás	változtatások változtatásokat változtatásokra változtatásra változtatással változtatást
+93	5293	indíték	indítéka indítékait indítékkal indítéknak indítékok indítékot indítékra indítékról indítékunk indítékát
+94	5294	kagyló	kagylóba kagylóban kagylóból kagylók kagylókat kagylóra kagylót kagylóval
+95	5295	csípős	csípőset
+96	5296	ígéretes	legígéretesebb ígéretesek ígéretesen ígéretesnek
+97	5297	pénzügyminisztérium	pm
+98	5298	vígjáték	vígjátékban vígjátékokat vígjátékot
+99	5299	túli	
+100	5300	mondogat	mondogassa mondogatja mondogatjuk mondogatják mondogatni mondogatnod mondogatod mondogatom mondogatott mondogatta mondogattad mondogattam mondogattuk mondogatták

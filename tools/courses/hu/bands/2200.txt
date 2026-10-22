@@ -1,0 +1,100 @@
+1	2101	kard	karddal kardhoz kardjával kardnak kardnál kardok kardokat kardokkal kardon kardot kardra kardról kardért
+2	2102	elegem	
+3	2103	aláír	aláírhatja aláírhatom aláírja aláírjak aláírjam aláírjon aláírjuk aláírják aláírjátok aláírna aláírnak aláírni aláírnia aláírnod aláírnom aláírná aláírnád aláírnám aláírod aláírok aláírom aláírsz aláírt aláírta aláírtad aláírtak aláírtam aláírtuk aláírtunk aláírták aláírtál aláírtátok aláírunk aláírva
+4	2104	alatti	alattiak
+5	2105	mocskos	legmocskosabb mocskosabb mocskosak mocskosat mocskosnak
+6	2106	barom	barmok barmokat barmokkal barmoknak barmot barommal baromnak
+7	2107	bajom	bajomat
+8	2108	fogalma	fogalmának fogalmát fogalmával
+9	2109	céloz	céloznak célozni céloznod célozta céloztak céloztam céloztok célozták céloztál célozva célozza célozzak célozzanak célozzatok célozzon célozzuk célozzák célozzátok célzok célzol célzom célzott célzunk célzó
+10	2110	démon	démonhoz démonként démonnak démonnal démonná démonok démonokat démonokban démonokkal démonoknak démonokra démonokról démonoktól démonra démonról démont démontól
+11	2111	jelölt	jelöltek jelölteket jelöltekkel jelölteknek jelöltekre jelöltekről jelöltet jelöltetni jelöltként jelöltnek jelöltre jelöltről jelölttel jelöltünk
+12	2112	rendező	rendezők rendezőként rendezőnek rendezőt rendezővel
+13	2113	fordít	fordítana fordítanak fordítani fordítania fordítanod fordítanom fordítanunk fordítaná fordítasz fordíthat fordíthatja fordíthatjuk fordíthatnánk fordíthatok fordíthatom fordíthatsz fordíthatunk fordítja fordítjuk fordítják fordítod fordítok fordítom fordítottad fordítottuk fordítottunk fordították fordítottál fordíts fordítsa fordítsak fordítsam fordítsanak fordítson fordítsuk fordítsunk fordítsák fordítsátok fordítunk
+14	2114	felség	felségek felségnek
+15	2115	látogat	látogassa látogassam látogassanak látogassatok látogasson látogassuk látogassunk látogassák látogassátok látogathatja látogathatják látogathatod látogathatom látogathatsz látogatja látogatjuk látogatják látogatlak látogatnak látogatni látogatnia látogatnod látogatnom látogatnunk látogatod látogatok látogatom látogatott látogatsz látogatta látogattad látogattak látogattalak látogattam látogattuk látogattunk látogatták látogattál látogatunk
+16	2116	kézzel	
+17	2117	betör	betörhet betöri betörik betörjek betörjem betörjenek betörjön betörjük betörjünk betörne betörnek betörni betörnie betörnöm betörsz betört betörte betörted betörtek betörtem betörtetek betörték betörtél betörtök betörtük betörtünk betörés betöröd betörök betöröm betörünk
+18	2118	elkerül	elkerülendő elkerülhessük elkerülheted elkerülhetem elkerülhetjük elkerülhettük elkerüli elkerülik elkerülje elkerüljek elkerüljem elkerüljék elkerüljön elkerüljük elkerüljünk elkerülnek elkerülni elkerülnie elkerülné elkerülném elkerülnöm elkerülnünk elkerülsz elkerült elkerülte elkerülted elkerültek elkerültem elkerülték elkerültétek elkerültük elkerülve elkerülöd elkerülöm elkerülő
+19	2119	birodalom	birodalma birodalmak birodalmakat birodalmat birodalmát birodalomba birodalomban birodalomból birodalomhoz birodalommal birodalomnak birodalomra birodalomról birodalomtól birodalomért
+20	2120	menet	menetben menetből menetek meneten menetet menethez menetnek menetre menettel menetért
+21	2121	ukrán	ukránok ukránul
+22	2122	töröl	törli törlik törlő törlőt törölheted törölhetem törölheti törölhetjük törölje töröljem töröljenek töröljék töröljétek töröljön töröljük töröllek törölnek törölni törölnie törölné törölnöd törölnöm törölnünk törölsz törölt törölte törölted töröltek töröltem törölték töröltél töröltük törölve
+23	2123	bátya	bátyám bátyámra bátyánk bátyát
+24	2124	klassz	klasszabb klasszak klasszat klassznak klasszul legklasszabb
+25	2125	jelentése	jelentésébe jelentésében jelentéséből jelentéséhez jelentésén jelentésének jelentésére jelentéséről jelentését jelentésével
+26	2126	adás	adásba adásban adásból adáshoz adásig adásnak adások adásokat adásra adásról adással adást
+27	2127	rejt	rejted rejtek rejtem rejtened rejtenek rejtenem rejteni rejtenie rejtené rejteném rejtenünk rejtesz rejtette rejtetted rejtettem rejtettél rejtettétek rejtettük rejtettünk rejtheted rejthetem rejthette rejti rejtik rejtjük rejtsd rejtse rejtsem rejtsen rejtsék rejtsétek rejtsük rejtve rejtő
+28	2128	karakter	karakterben karaktere karakterek karaktereket karakterekkel karakterhez karakternek karakterrel karakterről karaktert
+29	2129	napos	naposak
+30	2130	bújik	bújhat bújhatnak bújhatok bújhatott bújhatsz bújhatunk bújj bújja bújjak bújjanak bújjatok bújjon bújjunk bújna bújnak bújnia bújniuk bújnod bújnunk bújnál bújnék bújod bújok bújsz bújt bújtak bújtam bújtat bújtatok bújtatott bújtok bújtunk bújtál bújunk bújva bújó
+31	2131	titokban	
+32	2132	célpont	célpontba célponthoz célpontig célpontként célpontnak célpontnál célpontok célpontokat célpontokkal célpontokra célpontokról célponton célpontot célpontra célpontról célponttal célponttá célponttól
+33	2133	mindenféle	mindenfélék mindenféléket mindenfélének mindenfélére mindenféléről mindenfélét mindenfélével
+34	2134	szokatlan	legszokatlanabb szokatlannak szokatlanok szokatlanra szokatlant szokatlanul
+35	2135	váratlan	legváratlanabb váratlanra váratlant váratlanul
+36	2136	nyilvános	nyilvánosak nyilvánossá
+37	2137	sors	sorsban sorsnak sorsok sorson sorsot sorsra sorsról sorssal sorstól
+38	2138	egyikük	egyikükben egyiküket egyikükhöz egyikükkel egyiküknek egyiküknél egyikükre egyikükről egyiküktől egyikükön egyikőjük
+39	2139	küldte	
+40	2140	napló	naplóba naplóban naplóból naplódba naplója naplójába naplóját naplók naplókat naplónak naplóra naplóról naplót naplóval
+41	2141	lövés	lövésből lövések lövéseket lövéshez lövésnek lövésnél lövésre lövésről lövéssel lövést lövéstől
+42	2142	abszolút	
+43	2143	parlament	parlamentbe parlamentben parlamentet parlamentnek
+44	2144	nemes	legnemesebb nemesebb nemesek nemeseket nemesekkel nemeseknek nemesen nemesnek nemessel nemest
+45	2145	ötletem	ötletemet ötletemmel
+46	2146	indiai	indiaiak indiaiakat indiaiaknak indiainak indiait
+47	2147	tisztáz	tisztázhatja tisztázhatjuk tisztázhatnánk tisztáznak tisztázni tisztáznia tisztáznod tisztáznom tisztáznunk tisztázná tisztáznánk tisztázod tisztázok tisztázom tisztázott tisztázta tisztáztad tisztáztak tisztáztam tisztáztuk tisztáztunk tisztázták tisztázunk tisztázva tisztázza tisztázzak tisztázzam tisztázzuk tisztázzunk tisztázzák tisztázzátok
+48	2148	terrorista	terroristaként terroristái terroristák terroristákat terroristákhoz terroristákkal terroristáknak terroristákra terroristákról terroristáktól terroristának terroristát terroristával
+49	2149	máshol	
+50	2150	elvégez	elvégezhetem elvégezheti elvégezhetjük elvégezned elvégeznek elvégeznem elvégezni elvégeznie elvégezné elvégeznék elvégeznünk elvégezte elvégezted elvégeztek elvégeztem elvégezték elvégeztétek elvégeztük elvégeztünk elvégezve elvégezze elvégezzek elvégezzem elvégezzen elvégezzék elvégezzük elvégzed elvégzek elvégzel elvégzem elvégzendő elvégzett elvégzi elvégzik elvégzünk
+51	2151	legenda	legendában legendák legendákat legendákban legendának legendára legendáról legendát legendával legendává
+52	2152	kölcsön	kölcsönbe kölcsönben kölcsönből kölcsönhöz kölcsönnek kölcsönnel kölcsönre kölcsönről kölcsönt kölcsönért kölcsönök kölcsönöket
+53	2153	tető	tetőhöz tetőig tetők tetőket tetőkön tetőn tetőre tetőről tetőt tetőtől tetővel
+54	2154	száraz	legszárazabb szárazabb szárazak szárazat száraznak szárazon szárazra
+55	2155	eltérő	eltérőek eltérően
+56	2156	életük	életükbe életükben életükből életüket életükhöz életükkel életüknek életükre életükről életükért életükön
+57	2157	fürdő	fürdőbe fürdőben fürdőből fürdőhöz fürdők fürdőket fürdőnek fürdőre fürdőt fürdővel
+58	2158	viszony	viszonyait viszonyba viszonyban viszonynak viszonyok viszonyokat viszonyokról viszonyra viszonyról viszonyt viszonyuk viszonyunk
+59	2159	egyaránt	
+60	2160	óceán	óceánba óceánban óceánból óceánhoz óceánig óceánnak óceánnal óceánnál óceánok óceánokat óceánokban óceánon óceánra óceánról óceánt óceántól
+61	2161	vacsorázik	vacsorázhatnánk vacsorázhatunk vacsorázna vacsoráznak vacsorázni vacsoráznia vacsoráznod vacsoráznom vacsoráznunk vacsoráznál vacsoráznánk vacsoráznék vacsorázok vacsorázol vacsorázom vacsorázott vacsoráztak vacsoráztam vacsoráztatok vacsoráztok vacsoráztunk vacsoráztál vacsorázunk vacsorázzak vacsorázzanak vacsorázzon vacsorázzunk
+62	2162	övé	övébe övében övéből övéhez övén övének övénél övére övéről övét övétől övével övéért
+63	2163	szociális	
+64	2164	tesó	tesók tesókat tesókkal tesónak tesót tesóval
+65	2165	atyám	atyámat atyámmal atyámnak
+66	2166	akárcsak	
+67	2167	rák	rákba rákban rákból rákhoz rákkal ráknak rákok rákokat rákokkal rákot rákra rákról ráktól
+68	2168	tábla	táblához táblák táblákat táblákkal táblákon táblán táblának táblánál táblára tábláról táblát táblával
+69	2169	elrabol	elrabló elrabolhatlak elrabolhatnálak elrabolhatnám elrabolhatom elrabolja elraboljanak elraboljon elraboljuk elrabolják elrabollak elrabolnak elrabolni elrabolnám elrabolod elrabolom elrabolsz elrabolt elrabolta elraboltad elraboltak elraboltalak elraboltam elraboltatok elraboltuk elraboltunk elrabolták elraboltál elraboltátok elrabolva
+70	2170	idéz	idézed idézek idézel idézem idézett idézhet idézhetem idézheti idézi idézik idézlek idézne idéznek idéznem idézni idézném idéznünk idézte idézted idéztek idéztem idézték idéztél idéztük idéztünk idézve idézz idézze idézzek idézzem idézzen idézzük idézünk idéző
+71	2171	kizárólag	
+72	2172	vádol	vádló vádolhatja vádolhatjuk vádolhatják vádolhatnak vádolhatod vádolhatsz vádolható vádolja vádoljam vádoljanak vádoljon vádoljuk vádolják vádoljátok vádollak vádolna vádolnak vádolni vádolnának vádolod vádolok vádolom vádolsz vádolt vádolta vádoltad vádoltak vádoltalak vádoltam vádoltok vádoltuk vádolták vádoltál vádolunk vádolva
+73	2173	másnap	másnapig másnapot másnapra
+74	2174	tükör	tükrök tükröket tükrökkel tükrön tükröt tükörbe tükörben tükörből tükörhöz tükörnek tükörre tükörrel tükörről
+75	2175	üldöz	üldözi üldözik üldözitek üldözlek üldözne üldöznek üldözni üldözné üldöznék üldöznének üldöznöd üldöznöm üldöznünk üldözte üldözted üldöztek üldöztelek üldöztem üldözték üldöztél üldöztök üldöztük üldöztünk üldözve üldözze üldözzem üldözzenek üldözzék üldözzön üldözzük üldözöd üldözök üldözöl üldözöm üldözött üldözünk üldöző üldözőbe
+76	2176	csont	csontba csontban csontból csonthoz csontig csontja csontjaiban csontjain csontjait csontjaival csontnak csontok csontokat csontokban csontokból csontokkal csontoknak csontokon csontokra csontokról csonton csontot csontra csontról csonttal csonttá
+77	2177	tiszt	tisztek tiszteket tisztekkel tiszteknek tisztem tisztet tiszthez tisztjének tisztként tisztnek tisztnél tisztre tisztről tiszttel tiszttől
+78	2178	imádkozik	imádkozhat imádkozhatok imádkozhatsz imádkozhatunk imádkozna imádkoznak imádkozni imádkoznia imádkoznod imádkoznom imádkoznunk imádkoznál imádkoznék imádkozok imádkozol imádkozott imádkoztak imádkoztam imádkoztok imádkoztunk imádkoztál imádkozunk imádkozva imádkozzam imádkozzanak imádkozzatok imádkozzon imádkozzunk imádkozzál imádkozás imádkozó
+79	2179	utasítás	utasításba utasításig utasításnak utasítások utasításokat utasításokkal utasításokra utasításom utasításra utasítással utasítást utasítására
+80	2180	önálló	önállóak
+81	2181	szoros	legszorosabb szorosabb szorosabbra szorosak szorosban szorosnak szoroson szorosra
+82	2182	kedvem	kedvemben kedvemet kedvemre kedvemért
+83	2183	szobor	szoborban szoborhoz szobornak szobornál szoborra szoborral szoborról szobrok szobrokat szobrokkal szobron szobrot
+84	2184	lehetősége	lehetőségének lehetőségére lehetőségéről lehetőségét lehetőségétől lehetőségével
+85	2185	érthető	érthetőbb érthetőek érthetővé
+86	2186	tisztel	tiszteled tisztelek tisztelem tisztelendő tisztelhetek tiszteli tisztelik tisztelitek tisztelje tiszteljem tiszteljen tiszteljenek tiszteljék tiszteljétek tiszteljük tisztellek tisztelne tisztelned tisztelnek tisztelnem tisztelni tisztelnie tisztelniük tisztelném tisztelnének tisztelnünk tisztelsz tisztelte tisztelted tiszteltelek tiszteltem tisztelték tiszteltél tiszteltük tisztelve tisztelünk
+87	2187	gyermeke	gyermekeként gyermekének gyermekére gyermekéről gyermekét gyermekétől gyermekével gyermekéért
+88	2188	puszta	pusztába pusztában pusztán
+89	2189	pofa	pofák pofákat pofán pofára pofát pofával
+90	2190	évtized	évtizedbe évtizedben évtizeddel évtizedek évtizedekben évtizedeken évtizedeket évtizedekig évtizedekkel évtizedekre évtizeden évtizedet évtizedig évtizedre
+91	2191	torta	tortába tortában tortából tortához torták tortákat tortán tortának tortára tortáról tortát tortával tortáért
+92	2192	adag	adagban adaggal adagok adagokat adagokban adagot adagra adagért
+93	2193	kihasznál	kihasználhatja kihasználhatjuk kihasználhatnánk kihasználhatod kihasználhatom kihasználja kihasználjam kihasználjanak kihasználjon kihasználjuk kihasználják kihasználjátok kihasznállak kihasználnak kihasználni kihasználná kihasználnám kihasználod kihasználom kihasználsz kihasznált kihasználta kihasználtad kihasználtak kihasználtalak kihasználtam kihasználtuk kihasználták kihasználtál kihasználva
+94	2194	meglepő	legmeglepőbb meglepőbb meglepőek meglepőnek meglepőt
+95	2195	kiesik	kiejted kiejteni kiejtesz kiejtett kiejtette kiejtettem kiejti kiejtve kiesek kiesel kiesett kieshet kieshetett kiesne kiesnek kiesni kiessen kiestek kiestem kiestetek kiestél kiestünk kiesés kiesése kiesést kiesünk kieső
+96	2196	közlekedési	közlekedésiek közlekedésieknél
+97	2197	messzire	legmesszebbre messzebbre
+98	2198	kastély	kastéllyal kastélyba kastélyban kastélyból kastélyhoz kastélynak kastélynál kastélyok kastélyokat kastélyon kastélyra kastélyról kastélyt
+99	2199	kocka	kockába kockában kockák kockákat kockákkal kockáknak kockákra kockán kockának kockára kockáról kockát kockával
+100	2200	valamikor	

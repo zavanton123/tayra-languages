@@ -1,0 +1,100 @@
+1	4001	agresszív	agresszívabb agresszívak agresszívebb agresszívek agresszíven agresszívnak agresszívnek agresszívvá
+2	4002	repülés	repülésben repüléshez repülésre repülésről repüléssel repülést repüléstől
+3	4003	összeesküvés	összeesküvésbe összeesküvésben összeesküvések összeesküvéseket összeesküvéshez összeesküvésnek összeesküvésre összeesküvésről összeesküvéssel összeesküvést összeesküvésért
+4	4004	eskü	esküre esküt esküvel
+5	4005	soros	
+6	4006	befog	befoghatja befoghatnád befoghatod befogja befogjam befogjuk befogják befogjátok befognak befogni befognia befogná befognád befognák befognám befognátok befogod befogok befogom befogott befogta befogtad befogtak befogtam befogtuk befogták befogva befogó
+7	4007	allergiás	allergiásak
+8	4008	mozgat	mozgassa mozgassuk mozgassák mozgassátok mozgatható mozgatja mozgatjuk mozgatják mozgatnak mozgatni mozgatnod mozgatnom mozgatnunk mozgatod mozgatom mozgatott mozgattad mozgattam mozgatták mozgató
+9	4009	fehérje	fehérjék fehérjéket fehérjére fehérjét fehérjével
+10	4010	elájul	elájuljon elájulna elájulnak elájulni elájulnék elájulok elájulsz elájult elájultak elájultam elájultál elájulva
+11	4011	titkol	titkolhatod titkolhatom titkolhattad titkolja titkoljuk titkolják titkolna titkolnak titkolni titkolnia titkolnod titkolnom titkolnunk titkolná titkolod titkolok titkolom titkolsz titkolt titkolta titkoltad titkoltam titkoltok titkolták titkoltál titkolunk
+12	4012	választása	választását választásával
+13	4013	méh	méhbe méhben méhe méhek méheket méhekkel méheknek méhekre méhekről méhen méhet méhnek
+14	4014	örököl	öröklik öröklött örökölhette örökölje örökölnek örökölni örökölsz örökölt örökölte örökölted örököltem örökölték örököltél örököltük örököltünk
+15	4015	javára	javadra javamra javukra javunkra
+16	4016	mindennap	mindennapok mindennapokat mindennapokban
+17	4017	has	hasat hasba hasban hason hasra hassal hasuk hasukat
+18	4018	kétségbeesett	kétségbeesettebb kétségbeesettek kétségbeesetten kétségbeesettnek
+19	4019	produkció	produkcióban produkciók produkciót
+20	4020	érzet	érzetet érzett
+21	4021	acél	acélból acéllal acélnál acélon acélt
+22	4022	kerti	
+23	4023	valószínűség	valószínűsége valószínűséggel
+24	4024	cselekedet	cselekedete cselekedetei cselekedeteit cselekedetek cselekedeteket cselekedetekre cselekedetet cselekedetnek cselekedetre cselekedett cselekedettel
+25	4025	laptop	laptopok laptopokat laptopon laptopot laptoppal laptopra laptopról
+26	4026	bécsi	
+27	4027	kórházi	
+28	4028	e-mail	e-mailben e-mailek e-mailekben e-maileket e-mailekkel e-mailekre e-mailen e-mailre e-mailről e-mailt
+29	4029	kivételes	kivételesek kivételesen
+30	4030	apróság	aprósággal apróságnak apróságok apróságokat apróságokkal apróságokon apróságokra apróságon apróságot apróságra apróságról apróságért
+31	4031	csavar	csavard csavarja csavarjuk csavarják csavarni csavarnom csavarod csavarok csavarokat csavarokkal csavarom csavarral csavart csavarta csavartad csavartam csavartat csavarták csavarva csavarás
+32	4032	küldtem	
+33	4033	galaxis	galaxisba galaxisban galaxisból galaxisnak galaxisok galaxisokat galaxison galaxisra galaxist
+34	4034	beszéde	beszédében beszédéből beszédéhez beszédén beszédének beszédére beszédéről beszédét beszédével
+35	4035	pakol	pakolhatunk pakolja pakoljak pakoljam pakoljanak pakoljatok pakoljon pakoljuk pakoljunk pakolják pakoljátok pakolnak pakolni pakolnia pakolnod pakolnom pakolnunk pakolod pakolok pakolom pakolsz pakolt pakolta pakoltad pakoltak pakoltam pakoltuk pakoltunk pakolták pakoltál pakolunk pakolva pakolás
+36	4036	erika	erikát
+37	4037	megragad	megragadja megragadjuk megragadják megragadnak megragadni megragadnom megragadnám megragadod megragadok megragadom megragadott megragadsz megragadta megragadtad megragadtak megragadtam megragadták megragadtál megragadva megragadó
+38	4038	beindul	beinduljon beindulna beindulnak beindulni beindulok beindulsz beindult beindultak beindultam beindultunk beindultál beindulva beindít beindított
+39	4039	beavatkozás	beavatkozása beavatkozáshoz beavatkozásnak beavatkozások beavatkozásokat beavatkozáson beavatkozásra beavatkozásról beavatkozással beavatkozást
+40	4040	mondhatni	
+41	4041	lelked	lelkedbe lelkedben lelkedből lelkeddel lelkeden lelkedet lelkednek lelkedre lelkedért
+42	4042	módosítása	módosítására módosításáról módosítását módosításával
+43	4043	fül	fülbe fülben fülek füleket fülekkel fülekre fület fülig füllel fülnek fülre fültől fülön
+44	4044	veszekedik	veszekedett veszekedjünk veszekednek veszekedni veszekedtek veszekedtünk veszekedünk veszekedő veszekszik
+45	4045	menü	menübe menüben menüből menühöz menük menün menüre menüről menüt menüvel
+46	4046	tanulmányoz	tanulmányoznak tanulmányozni tanulmányoznom tanulmányoznunk tanulmányozod tanulmányozok tanulmányozom tanulmányozott tanulmányozta tanulmányoztad tanulmányoztam tanulmányoztuk tanulmányozták tanulmányozunk tanulmányozva tanulmányozza tanulmányozzam tanulmányozzuk tanulmányozzák tanulmányozzátok
+47	4047	poén	poénból poénnak poénnal poénok poénokat poént
+48	4048	tanúskodik	tanúskodhasson tanúskodhat tanúskodhatok tanúskodjak tanúskodjanak tanúskodjon tanúskodna tanúskodnak tanúskodni tanúskodnia tanúskodnod tanúskodnom tanúskodok tanúskodott tanúskodsz tanúskodtak tanúskodtam tanúskodtál tanúskodunk tanúskodás
+49	4049	lázadás	lázadása lázadásban lázadáshoz lázadásnak lázadások lázadásokat lázadásra lázadásról lázadással lázadást lázadásért
+50	4050	fogalom	fogalmak fogalmakat fogalmat
+51	4051	eltéved	eltévedek eltévedne eltévednek eltévedni eltévednél eltévedsz eltévedt eltévedtek eltévedtem eltévedtetek eltévedtél eltévedtünk eltévedve eltévedünk
+52	4052	szerkesztő	szerkesztők szerkesztőnek szerkesztőt szerkesztővel
+53	4053	incidens	incidensben incidensek incidenseket incidenshez incidensnek incidensre incidensről incidenssel incidenst incidensért
+54	4054	vallásos	vallásosak
+55	4055	elvégre	
+56	4056	duma	dumából dumák dumákat dumának dumát dumától dumával
+57	4057	rizs	rizsa rizsből rizset rizsre rizst rizsért rizzsel
+58	4058	feljegyzés	feljegyzések feljegyzésekben feljegyzéseket feljegyzést
+59	4059	kristály	kristállyal kristályba kristályból kristályok kristályokat kristályokkal kristályra kristályt
+60	4060	eredményes	eredményesebb eredményesek eredményesen legeredményesebb
+61	4061	tulajdonságai	tulajdonságaik tulajdonságainak tulajdonságait
+62	4062	osztályú	osztályúak
+63	4063	szerzetes	szerzetesek szerzeteseket szerzetesekkel szerzeteseknek szerzetesnek szerzetessel szerzetest
+64	4064	leszbikus	leszbikusnak leszbikusok leszbikusokat leszbikusoknak leszbikussal leszbikust
+65	4065	láz	lázat lázba lázban láznak lázra láztól lázzal
+66	4066	öv	övben övek öveket övet övre övvel övért övön
+67	4067	működés	működésbe működésben működésre működést működésük
+68	4068	eme	
+69	4069	lelkész	lelkésszel lelkészek lelkésznek lelkészt
+70	4070	tonna	tonnát tonnával
+71	4071	tekinthető	tekinthetők
+72	4072	kienged	kiengeded kiengedem kiengedett kiengedi kiengedik kiengedje kiengedjem kiengedjenek kiengedjék kiengedjük kiengedlek kiengedne kiengednek kiengedni kiengednék kiengednél kiengedsz kiengedte kiengedted kiengedtek kiengedtem kiengedték kiengedtük kiengedve kiengedünk
+73	4073	járvány	járvánnyal járványnak járványok járványra járványról járványt
+74	4074	építési	
+75	4075	egyúttal	
+76	4076	szigete	szigetén szigetének szigetére szigetéről szigetét
+77	4077	bájos	bájosabb bájosak bájosnak legbájosabb
+78	4078	megbízott	megbízottak megbízottat megbízottja megbízottnak
+79	4079	elismert	elismertek legelismertebb
+80	4080	pillanata	pillanatában pillanatáig pillanatának pillanatára pillanatát pillanatától
+81	4081	masszázs	masszázson masszázsra masszázst masszázzsal
+82	4082	mérgező	mérgezőek
+83	4083	meglepett	meglepetten meglepettet meglepettnek
+84	4084	csúcsa	csúcsán csúcsára csúcsáról csúcsát
+85	4085	hatásai	hatásainak hatásairól hatásait
+86	4086	ezentúl	
+87	4087	megerőszakol	megerőszakolja megerőszakoljanak megerőszakoljon megerőszakolják megerőszakollak megerőszakolnak megerőszakolni megerőszakolom megerőszakolt megerőszakolta megerőszakoltad megerőszakoltak megerőszakoltam megerőszakolták megerőszakoltál megerőszakolva
+88	4088	melléje	mellé melléd melléjük mellém mellénk mellétek
+89	4089	fordulat	fordulatok fordulatokat fordulatokkal fordulatot fordulattal
+90	4090	megbíz	megbízhat megbízhatom megbízhatsz megbízlak megbízna megbízni megbíznod megbíznom megbíznál megbízol megbízom megbízta megbíztalak megbíztam megbíztál megbízzak megbízzon
+91	4091	elképzelhető	elképzelhetőnek
+92	4092	ellenzéki	
+93	4093	flotta	flottában flottához flottának flottánál flottára flottát flottától flottával
+94	4094	tapasztalt	legtapasztaltabb tapasztaltabb tapasztaltak
+95	4095	jelmez	jelmezbe jelmezben jelmezek jelmezekben jelmezeket jelmezekkel jelmezre jelmezt jelmezzel
+96	4096	kóma	kómába kómában kómából kómát
+97	4097	felújított	
+98	4098	kijelent	kijelented kijelentem kijelenteni kijelentette kijelentetted kijelentették kijelenti kijelentik kijelentjük
+99	4099	kezei	kezeibe kezeiben kezeiből kezein kezeire kezeit kezeitől kezeivel
+100	4100	óvoda	óvodába óvodában óvodából óvodát

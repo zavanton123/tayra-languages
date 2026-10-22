@@ -1,0 +1,100 @@
+1	1801	békés	békésebb békések békésen békésnek legbékésebb
+2	1802	kifejezés	kifejezése kifejezések kifejezéseket kifejezésekkel kifejezésnek kifejezésre kifejezéssel kifejezést kifejezésére kifejezésért kifejezését
+3	1803	ostoba	legostobább ostobább ostobák ostobákat ostobán ostobának ostobát
+4	1804	egyenes	egyenesbe egyenesben egyenesebb egyenesek egyenesnek egyenesre egyenest
+5	1805	kényszerít	kényszeríted kényszerítelek kényszerítem kényszerítene kényszerítenek kényszerítenem kényszeríteni kényszerítenünk kényszerítesz kényszerített kényszerítette kényszerítetted kényszerítettek kényszerítettelek kényszerítettem kényszerítették kényszerítettél kényszerítettük kényszeríthet kényszerítheted kényszeríthetem kényszerítheti kényszeríthetjük kényszeríthetlek kényszeríthetnek kényszeríthetsz kényszeríti kényszerítik kényszerítjük kényszerítse kényszerítsem kényszerítsen kényszerítsenek kényszerítsetek kényszerítsék kényszerítsük kényszerítve kényszerítés kényszerítő
+6	1806	túlél	túléled túlélek túlélem túlélheted túlélheti túlélhetik túlélhetjük túlélhette túléli túlélik túlélitek túlélje túléljek túléljem túléljen túléljenek túléljék túléljük túléljünk túlélned túlélnek túlélnem túlélni túlélnie túlélniük túlélné túlélném túlélnünk túlélsz túlélte túlélted túléltek túlélték túléltél túléltétek túléltük túléltünk túlélünk
+7	1807	bűn	bűnbe bűnben bűneiket bűneit bűnhöz bűnnek bűnnel bűnre bűnről bűnt bűntől bűnért bűnök bűnöket bűnökkel bűnökről bűnöktől bűnökért
+8	1808	kényelmes	kényelmesebb kényelmesebben kényelmesek kényelmesen kényelmeset kényelmesnek kényelmessé legkényelmesebb
+9	1809	fok	fokban fokig fokkal foknál fokok fokon fokot fokra fokról
+10	1810	érdemel	érdemelje érdemeljük érdemellek érdemelne érdemelned érdemelnek érdemelnem érdemelni érdemelnie érdemelné érdemelnéd érdemelnék érdemelnél érdemelném érdemelnének érdemelsz érdemelt érdemelte érdemelted érdemeltek érdemeltem érdemelték érdemeltél érdemeltük érdemled érdemlek érdemlem érdemli érdemlik érdemlitek érdemlünk érdemlő
+11	1811	vad	legvadabb vadabb vadak vadakat vadakkal vadaknak vadat vadnak vadon vadonba vadonban vadonból vadont vadra
+12	1812	album	albumba albumban albummal albumnak albumok albumokat albumon albumot albumra albumról
+13	1813	védelme	védelmébe védelmében védelméhez védelmén védelmének védelmére védelméről védelmét védelmével védelméért
+14	1814	ősi	legősibb ősibb
+15	1815	előzetes	előzetesbe előzetesben előzetesből előzetesen előzetest
+16	1816	azonos	azonosak
+17	1817	elkap	elkapja elkapni elkapnia elkapott elkapta
+18	1818	figyelmeztet	figyelmeztesse figyelmeztesselek figyelmeztessem figyelmeztessen figyelmeztessenek figyelmeztessék figyelmeztessük figyelmezteted figyelmeztetek figyelmeztetem figyelmeztetett figyelmeztethetett figyelmeztethettél figyelmezteti figyelmeztetik figyelmeztetjük figyelmeztetlek figyelmeztetned figyelmeztetnek figyelmeztetnem figyelmeztetni figyelmeztetnie figyelmeztetném figyelmeztetnünk figyelmeztetsz figyelmeztette figyelmeztetted figyelmeztettek figyelmeztettelek figyelmeztettem figyelmeztették figyelmeztettél figyelmeztettük figyelmeztettünk figyelmeztetve figyelmeztetünk
+19	1819	úszik	ússz ússza ússzanak ússzatok ússzuk ússzunk ússzák ússzál ússzátok úszhat úszhatja úszhatják úszhatod úszhatsz úszhatunk úsznak úszni úsznod úsznom úsznunk úsznék úszod úszol úszom úszott úszta úsztad úsztak úsztam úsztuk úsztunk úsztál úszunk úszva úszás úszáshoz úszásra úszással úszást
+20	1820	félelem	félelembe félelemben félelemből félelemmel félelemnek félelemre félelemről félelemtől félelmeit félelmek félelmeket félelmen félelmet
+21	1821	lyuk	lik luk lukba lukban lyukak lyukakat lyukakba lyukakban lyukakkal lyukakon lyukat lyukba lyukban lyukból lyukhoz lyukkal lyuknak lyuknál lyukon lyukra lyukról lyuktól
+22	1822	sehol	
+23	1823	esze	eszébe eszében eszén eszénél eszére eszét eszével
+24	1824	romantikus	legromantikusabb romantikusabb romantikusak romantikusat romantikusnak romantikussá
+25	1825	megbocsát	megbocsájt megbocsássak megbocsássanak megbocsássatok megbocsásson megbocsássunk megbocsátana megbocsátanak megbocsátani megbocsátania megbocsátanod megbocsátanom megbocsátanál megbocsátanának megbocsátanátok megbocsátanék megbocsátasz megbocsátja megbocsátjuk megbocsátják megbocsátod megbocsátok megbocsátom megbocsátotok megbocsátott megbocsátotta megbocsátottak megbocsátottam megbocsátottál megbocsátunk megbocsátva megbocsátó
+26	1826	embere	embereként emberéhez emberének emberére emberéről emberét emberétől emberével emberévé
+27	1827	mese	mesébe mesében meséből meséit meséjét mesék mesékben mesékből meséket mesékkel mesékre mesének mesére mesét mesével
+28	1828	mérges	mérgesebb mérgesek mérgesen mérgesnek
+29	1829	média	médiába médiában médiából médiához médián médiának médiát médiától médiával
+30	1830	emellett	
+31	1831	átmegy	átmegyek átmegyünk átmehetek átmehetnek átmehetnék átmehetnénk átmehetsz átmenjek átmenjen átmenjünk átmenne átmenned átmennek átmennem átmenni átmennie átmennék átmennél átmennénk átmennünk átment átmentek átmentem átmentetek átmentél átmentünk átmenő átmész
+32	1832	működése	működésében működéséhez működésének működésére működéséről működését működésével
+33	1833	közép	középre középről
+34	1834	tej	tejbe tejben tejből tejen tejet tejhez tejjel tejnek tejre tejről tejtől tejért
+35	1835	irodája	irodájába irodájában irodájából irodájához irodáján irodájának irodájánál irodájára irodáját irodájától irodájával
+36	1836	zárt	zártak
+37	1837	szembe	
+38	1838	elektromos	
+39	1839	por	porba porban porból porhoz porig pornak porra porral porrá port portot portól
+40	1840	szerda	szerdáig szerdán szerdára szerdát szerdától
+41	1841	hívás	hívásban híváshoz hívásnak hívásnál hívások hívásokat hívásokkal hívásokra hívásokról hívásra hívásról hívással hívást hívására hívásért
+42	1842	ifjú	ifjabb ifjak ifjakat ifjúnak ifjút legifjabb
+43	1843	tevékenység	cselekmény cselekmények cselekményeket cselekményt tevékenységben tevékenységek tevékenységekben tevékenységeket tevékenységekre tevékenységekről tevékenységet tevékenységgel tevékenységnek tevékenységre tevékenységről
+44	1844	naponta	
+45	1845	valahova	valahová
+46	1846	megtanul	megtanulhatja megtanulhatnád megtanulhatod megtanulhatok megtanulhatom megtanulhatsz megtanulja megtanuljak megtanuljam megtanuljanak megtanuljon megtanuljuk megtanuljunk megtanulják megtanuljátok megtanulnak megtanulni megtanulnia megtanulnod megtanulnom megtanulnunk megtanulná megtanulnád megtanulnám megtanulod megtanulok megtanulom megtanulsz megtanult megtanulta megtanultad megtanultak megtanultok megtanultuk megtanultunk megtanulták megtanultál megtanultátok megtanulunk
+47	1847	ekkora	ekkorák ekkorára ekkorát
+48	1848	abbahagy	abbahagyhatja abbahagyhatjuk abbahagyhatják abbahagyhatjátok abbahagyhatná abbahagyhatnád abbahagyhatnánk abbahagyhatod abbahagyhatom abbahagyja abbahagyjam abbahagyjuk abbahagyják abbahagyjátok abbahagyni abbahagynia abbahagynod abbahagynom abbahagynunk abbahagyná abbahagynád abbahagynák abbahagynám abbahagynánk abbahagynátok abbahagyod abbahagyom abbahagyott abbahagyta abbahagytad abbahagytam abbahagytuk abbahagyták abbahagytátok
+49	1849	cserél	cseréled cserélek cserélem cserélhetnénk cserélhetünk cseréli cserélik cserélje cseréljek cseréljem cseréljen cseréljenek cseréljetek cseréljék cseréljétek cseréljük cseréljünk cserélne cserélned cserélnek cserélnem cserélni cserélnie cserélnék cserélném cserélnénk cserélnünk cserélsz cserélt cserélte cserélted cseréltek cseréltem cserélték cseréltél cseréltük cseréltünk cserélve cserélünk
+50	1850	felelősség	felelősséget felelősséggel felelősségnek felelősségre felelősségről felelősségtől
+51	1851	amelyik	amelyikben amelyiken amelyikkel amelyiknek amelyikről
+52	1852	képe	képébe képében képéhez képén képének képére képéről képét képével
+53	1853	elkészül	elkészüljek elkészüljön elkészülnek elkészülni elkészülsz elkészült elkészültek elkészültem elkészültetek elkészültél elkészültünk elkészülök elkészülünk
+54	1854	közvetlen	közvetlenebb közvetlenek
+55	1855	bennünket	
+56	1856	átkozott	átkozottak átkozottat átkozottnak átkozottul
+57	1857	tévé	tévébe tévében tévéből tévéhez tévék tévéket tévén tévének tévénél tévére tévéről tévét tévétől tévével
+58	1858	közüle	közületek közülük közülünk
+59	1859	királyi	
+60	1860	nyáron	
+61	1861	telefonál	telefonálhat telefonálhatnék telefonálhatok telefonálhatott telefonálhatsz telefonálhattam telefonálhattál telefonálhatunk telefonálj telefonáljak telefonáljanak telefonáljatok telefonáljon telefonáljunk telefonálna telefonálnak telefonálni telefonálnia telefonálnod telefonálnom telefonálnunk telefonálnál telefonálnék telefonálok telefonálsz telefonált telefonáltak telefonáltam telefonáltunk telefonáltál telefonálunk telefonáló
+62	1862	lefekszik	lefekhet lefekhetek lefekhetsz lefekszek lefekszenek lefekszünk lefektet lefektetett lefekvés lefeküdhet lefeküdhetek lefeküdhetsz lefeküdjenek lefeküdjünk lefeküdne lefeküdni lefeküdnie lefeküdnék lefeküdnél lefeküdnénk lefeküdnöd lefeküdnöm lefeküdnünk lefeküdt lefeküdtek lefeküdtem lefeküdtetek lefeküdtél lefeküdtünk
+63	1863	hibám	hibámat hibámból hibámért
+64	1864	kedvéért	kedvedért kedvemért kedvetekért kedvükért kedvünkért
+65	1865	dupla	duplája duplán duplát
+66	1866	támogatás	támogatásban támogatásból támogatásként támogatásnak támogatások támogatásokat támogatásra támogatásról támogatással támogatást támogatásért
+67	1867	tervezett	tervezettnél
+68	1868	heti	
+69	1869	déli	déliek délieket legdélebbi
+70	1870	őrület	őrületbe őrületben őrületből őrületet őrületnek őrületre őrületről őrülettel őrülettől
+71	1871	vihar	viharba viharban viharból viharnak viharok viharokat viharon viharra viharral viharról vihart vihartól
+72	1872	őrmester	őrmesterek őrmesterhez őrmesternek őrmesterre őrmesterrel őrmesterré őrmesterről őrmestert őrmestertől őrmesteré
+73	1873	kezdete	kezdetéhez kezdetéig kezdetén kezdetének kezdetére kezdetéről kezdetét kezdetétől
+74	1874	jelenet	jelenetbe jelenetben jelenetből jeleneteit jelenetek jelenetekben jeleneteket jelenetekkel jeleneten jelenetet jelenethez jelenetnek jelenetnél jelenetre jelenetről jelenettel jelenetért
+75	1875	nyár	nyarak nyarakat nyarat nyárban nyárig nyárnak nyárra nyárral nyárról
+76	1876	kutató	kutatók kutatókat kutatóknak kutatóként kutatónak kutatót
+77	1877	kar	karba karban karnak karok karokat karokkal karon karra karral karról kart
+78	1878	bőr	bőrbe bőrben bőrből bőrhöz bőrig bőrnek bőrre bőrrel bőrről bőrt bőröket bőrön
+79	1879	tönkretesz	tönkretegye tönkretegyem tönkretegyen tönkretegyenek tönkretegyék tönkretegyél tönkretegyük tönkreteheted tönkretehetem tönkretehetik tönkretehette tönkretenne tönkretenned tönkretenni tönkretenné tönkretennéd tönkretennék tönkretenném tönkretesszük tönkreteszed tönkreteszek tönkreteszel tönkreteszem tönkreteszi tönkreteszik tönkreteszitek tönkreteszlek tönkretesznek tönkretesztek tönkretett tönkretette tönkretetted tönkretettek tönkretettem tönkretették tönkretettél tönkretettétek tönkretettük
+80	1880	extra	extrák extrákat extrákkal extrát extrával
+81	1881	északi	legészakibb északiak északiakat
+82	1882	esélye	esélyét
+83	1883	gazdaság	gazdasága gazdaságba gazdaságban gazdasággal gazdaságnak gazdaságok gazdaságot gazdaságra gazdaságról
+84	1884	mosolyog	mosolygok mosolygott mosolygunk mosolygó mosolyoghat mosolyoghatsz mosolyogjak mosolyogjanak mosolyogjatok mosolyogjon mosolyogjunk mosolyogna mosolyognak mosolyogni mosolyognia mosolyognod mosolyognom mosolyognál mosolyognék mosolyogsz mosolyogtak mosolyogtam mosolyogtok mosolyogtál mosolyogva
+85	1885	kimegy	kimegyek kimegyünk kimehessek kimehet kimehetek kimehetett kimehetnek kimehetnék kimehetnénk kimehetünk kimenjek kimenjen kimenjenek kimenjünk kimenne kimenned kimennek kimennem kimenni kimennie kimennék kimennél kimennének kimennénk kimennétek kimennünk kimenő kimenőn kimenőt kimész
+86	1886	sajtó	sajtóba sajtóban sajtóhoz sajtónak sajtóra sajtót sajtótól sajtóval
+87	1887	egészségügyi	egészségügyiek
+88	1888	aktuális	
+89	1889	vélemény	véleménnyel vélemények véleményeket véleményen véleményetek véleményre véleményt
+90	1890	hölgyeim	
+91	1891	forgalom	forgalmat forgalomba forgalomban forgalomból forgalommal forgalomra forgalomtól
+92	1892	emberei	embereiben embereiből embereihez emberein embereinek embereire embereiről embereit embereitől embereivel embereiért
+93	1893	bá	bába bábák bábát bán bánd bánhat bánhatja bánhatod bánhatsz bánj bánjam bánjon bánjuk bánna bánnak bánnod bánnom bánná bánnád bánnák bánnál bánnám bánok bánsz bánta bántad bántam bántok bántunk bánunk bát
+94	1894	zajlik	zajlana zajlanak zajlani zajlania zajlott zajlottak zajló
+95	1895	kirúg	kirúgat kirúghat kirúghatják kirúghatnak kirúgja kirúgjalak kirúgjam kirúgjanak kirúgjon kirúgjuk kirúgják kirúglak kirúgna kirúgnak kirúgni kirúgnod kirúgnom kirúgnák kirúgnálak kirúgnám kirúgnának kirúgod kirúgok kirúgom kirúgott kirúgsz kirúgta kirúgtad kirúgtak kirúgtalak kirúgtam kirúgtok kirúgtuk kirúgtunk kirúgták kirúgtál kirúgunk kirúgva kirúgás
+96	1896	mos	mosa mosd moshatod moshatom mosnak mosni mosod mosok mosol mosom mosott moss mossa mossak mossam mossanak mossatok mosson mossuk mossunk mossák mossátok mosta mostad mostak mostam mostuk mostunk mosták mostál mosunk mosva mosó
+97	1897	szívesség	szívességből szívességek szívességeket szívességet szívességgel szívességként szívességnek szívességre szívességért
+98	1898	műtét	műtétbe műtétben műtétből műtétek műtéteket műtéteknél műtétekre műtétekről műtéten műtétet műtéthez műtétnek műtétnél műtétre műtétről műtéttel műtéttől műtétért
+99	1899	iskolai	
+100	1900	szék	székbe székben székből székek székeken székeket székekkel székekre széken széket székhez székkel széknek székre székről székért székünk

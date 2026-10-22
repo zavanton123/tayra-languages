@@ -1,0 +1,100 @@
+1	7401	értéktelen	értéktelenek értéktelennek értéktelenné
+2	7402	határtalan	határtalanok határtalanul
+3	7403	megnyom	megnyomja megnyomjuk megnyomják megnyomni megnyomná megnyomod megnyomok megnyomom megnyomott megnyomsz megnyomta megnyomtad megnyomtam
+4	7404	col	colon colt
+5	7405	sajna	
+6	7406	meghallik	meghallanak meghalljuk meghallotta meghallották
+7	7407	tárgyi	
+8	7408	képviselete	képviseletében képviseletét
+9	7409	hordozó	hordozók hordozót
+10	7410	építkezés	építkezések építkezésen építkezést
+11	7411	nyilatkozata	nyilatkozatában nyilatkozatát
+12	7412	felszállás	felszálláshoz felszállásig felszállásra felszállást
+13	7413	oktat	oktasson oktatja oktatják oktatlak oktatnak oktatni oktatok oktatom oktatott oktatsz oktattam
+14	7414	piknik	pikniken pikniket piknikhez piknikre
+15	7415	felhagy	felhagynak felhagyni felhagynál felhagyok felhagyott felhagysz felhagytak felhagytam felhagytunk felhagytál felhagyunk
+16	7416	árvíz	árvizek árvizet
+17	7417	perem	pereme peremen peremet peremén
+18	7418	azonkívül	
+19	7419	sivatagi	
+20	7420	molekuláris	
+21	7421	szárazföldi	
+22	7422	kritizál	kritizálja kritizáljon kritizálják kritizállak kritizálnak kritizálni kritizálod kritizálom kritizálsz kritizált kritizálta kritizáltam kritizálták
+23	7423	hűtlen	hűtlenek hűtlennek
+24	7424	köves	
+25	7425	megismerése	megismeréséhez megismerésére megismerésével
+26	7426	hurok	hurkon hurkot hurokba hurokban hurokból hurokkal
+27	7427	áramlik	áramlanak áramlani áramlott áramló áramoljon
+28	7428	tekintélyes	legtekintélyesebb
+29	7429	tanítványai	tanítványainak tanítványait tanítványaival
+30	7430	regisztráció	regisztrációt
+31	7431	repedés	repedések repedéseket repedésen repedést
+32	7432	értékpapír	értékpapírok
+33	7433	bosszúálló	bosszúállók bosszúállókat bosszúállóknak
+34	7434	liget	ligetbe ligetben
+35	7435	fojt	fojtalak fojtani fojtanom fojtja fojtjuk fojtják fojtod fojtom fojtotta fojtottad fojtották fojts fojtsa fojtsam fojtsd fojtson fojtsuk fojtva fojtás fojtó
+36	7436	egyéves	
+37	7437	keresztülmegy	keresztülmegyek keresztülmegyünk keresztülmenned keresztülmennek keresztülmennem keresztülmenni keresztülmennie keresztülment keresztülmentek keresztülmentem keresztülmentél keresztülmentünk keresztülmész
+38	7438	mézes	
+39	7439	fejlődési	
+40	7440	gondolhat	gondolhatja gondolhatják gondolhatod
+41	7441	nyelved	nyelveddel nyelveden nyelvedet nyelvedre
+42	7442	búvár	búvárok búvárokat búvárt
+43	7443	fénylik	fénylenek fényleni fénylett fénylő
+44	7444	csontváz	csontvázak csontvázakat csontvázat csontvázzal
+45	7445	csapos	csaposként csaposnak csaposok csapossal csapost
+46	7446	eleji	
+47	7447	szúnyog	szúnyogok szúnyogokat szúnyogot
+48	7448	vanília	vaníliát
+49	7449	díszlet	díszletben díszletek díszletet
+50	7450	negyeddöntő	negyeddöntőben
+51	7451	szótár	szótárat szótárban szótárt
+52	7452	megrémül	megrémülnek megrémülni megrémülsz megrémült megrémültek megrémültem megrémültél megrémültünk megrémülve megrémülök
+53	7453	viharos	
+54	7454	hozzátesz	hozzátehetem hozzátennem hozzátenni hozzátenném hozzáteszem hozzáteszi hozzátett hozzátette hozzátettem
+55	7455	részlete	részletében részletére részletéről részletét
+56	7456	kiskutya	kiskutyák kiskutyákat kiskutyát kiskutyával
+57	7457	operatív	
+58	7458	ikon	ikonok ikont
+59	7459	vélhetően	
+60	7460	légzés	légzésre légzéssel légzést
+61	7461	szellemes	szellemesen szellemesnek
+62	7462	gyógyfürdő	gyógyfürdőbe gyógyfürdőben
+63	7463	feltárása	feltárására feltárását
+64	7464	témájú	
+65	7465	franciaországi	
+66	7466	papírmunka	papírmunkát
+67	7467	ellenőrizte	
+68	7468	vázlat	vázlatok vázlatokat vázlatot
+69	7469	lábuk	lábukat lábukkal lábukon lábukra lábukról
+70	7470	major	majort
+71	7471	ömlik	ömlenek ömleni ömlött ömöljön
+72	7472	animáció	animációt
+73	7473	duó	
+74	7474	miniszteri	
+75	7475	féltékenység	féltékenységből féltékenységet féltékenységgel féltékenységnek féltékenységre féltékenységtől
+76	7476	muzsika	muzsikát
+77	7477	együttműködése	együttműködésének együttműködésére együttműködését együttműködésével együttműködéséért
+78	7478	étterme	éttermébe éttermében étterméből éttermének éttermét
+79	7479	tá	tára tátott tátra tátsa tátsd tátva
+80	7480	ká	kába kára kárán kárára kárát kát
+81	7481	leszakad	leszakadt
+82	7482	perzsa	perzsák
+83	7483	általánosság	általánosságban
+84	7484	körözés	körözést
+85	7485	kitakarít	kitakarítani kitakarítja kitakarítjuk kitakarítják kitakarítod kitakarítok kitakarítom kitakarított kitakarította kitakarítottad kitakarítottak kitakarítottam kitakarítottuk kitakarítottunk kitakarították kitakarítottál kitakarítsa kitakarítsam kitakarítunk
+86	7486	feldúlt	
+87	7487	igazgatói	igazgatóiba
+88	7488	tévés	tévések
+89	7489	leg	
+90	7490	közelmúltban	
+91	7491	kifogy	kifogyott
+92	7492	elbúcsúzik	elbúcsúzhatok elbúcsúzhatsz elbúcsúzhatunk elbúcsúzni elbúcsúznom elbúcsúznunk elbúcsúznék elbúcsúzok elbúcsúzol elbúcsúztunk elbúcsúztál elbúcsúzunk elbúcsúzzam elbúcsúzzon elbúcsúzzunk
+93	7493	mez	mezben mezek mezeket mezt
+94	7494	kímél	kíméled kímélem kíméli kímélik kímélje kíméljem kíméljen kíméljenek kíméljetek kíméljék kíméljétek kíméljük kíméllek kímélnek kímélni kímélt kímélte kíméltem kímélték kímélve kímélő
+95	7495	közgazdasági	
+96	7496	helybeli	helybeliek helybéli
+97	7497	hétfői	
+98	7498	teljesítése	teljesítésében teljesítéséhez teljesítésére teljesítését
+99	7499	pusztulás	pusztulását
+100	7500	sebaj	

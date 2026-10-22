@@ -1,0 +1,100 @@
+1	3701	fair	fairnek
+2	3702	tini	tinik tiniket tinikkel tiniknek tiniként tininek tinit tinivel
+3	3703	cége	cégében cégéből cégéhez cégének cégénél cégéről cégét cégétől cégével
+4	3704	epizód	epizódban epizódból epizódok epizódot
+5	3705	kémiai	
+6	3706	animációs	
+7	3707	ellátás	ellátásban ellátáshoz ellátások ellátásra ellátásról ellátással ellátást ellátásért
+8	3708	tán	
+9	3709	jutalom	jutalmak jutalmakat jutalmat jutalmul jutalomban jutalomból jutalomként jutalommal jutalomnak jutalomra jutalomról jutalomért
+10	3710	tár	tárakat tárat tárba tárban tárd tárja tárjam tárjuk tárják tárjátok tárna tárni tárnom tárnunk tárom tárral tárt tárta tártak tártam tárták tárva
+11	3711	rokon	rokonnak rokonnal rokonok rokonokat rokonokhoz rokonokkal rokonoknak rokonoknál rokont
+12	3712	országgyűlés	országgyűlésben
+13	3713	belváros	belvárosba belvárosban belvárosból belvárost belvárostól
+14	3714	kísérleti	
+15	3715	törpe	törpék törpéket törpékkel törpéknek törpének törpére törpét törpével
+16	3716	jogos	jogosak jogosnak
+17	3717	mágia	mágiában mágiához mágiának mágiára mágiáról mágiát mágiától mágiával
+18	3718	könnyedén	
+19	3719	garázs	garázsba garázsban garázsból garázshoz garázsnál garázson garázst
+20	3720	turisztikai	
+21	3721	látogatás	látogatásakor látogatáshoz látogatásnak látogatások látogatásokat látogatáson látogatásra látogatásról látogatással látogatást látogatásunk látogatásért
+22	3722	kitart	kitartana kitartanak kitartani kitartanunk kitartasz kitarthat kitartok kitartott kitartottak kitartottam kitartottunk kitartottál kitartson kitartunk
+23	3723	gomba	gombából gombák gombákat gombának gombára gombát gombával
+24	3724	fogalmaz	fogalmazhatunk fogalmazna fogalmazni fogalmaznod fogalmaznom fogalmaznék fogalmazok fogalmazol fogalmazott fogalmaztam fogalmaztál fogalmazva fogalmazza fogalmazzak fogalmazzam fogalmazzon fogalmazzunk
+25	3725	botrány	botránnyal botrányba botrányban botránynak botrányok botrányokat botrányra botrányról botrányt botránytól
+26	3726	túsz	tússzal túszként túsznak túszok túszokat túszokkal túszoknak túszokra túszokról túszokért túszra túszt túszul
+27	3727	ismerlek	
+28	3728	gyújt	gyújtanak gyújtani gyújtanom gyújtanunk gyújtasz gyújthat gyújthatsz gyújtja gyújtjuk gyújtják gyújtod gyújtok gyújtom gyújtott gyújtotta gyújtottad gyújtottak gyújtottam gyújtottuk gyújtottunk gyújtották gyújtottál gyújts gyújtsa gyújtsak gyújtsam gyújtsanak gyújtsatok gyújtsd gyújtson gyújtsuk gyújtsunk gyújtsák gyújtsátok gyújtunk gyújtó gyújtót
+29	3729	beismer	beismered beismerem beismeri beismerik beismerje beismerjem beismerjük beismerned beismernem beismerni beismernie beismerné beismernéd beismerném beismert beismerte beismerted beismertem beismerték beismerő
+30	3730	művészi	
+31	3731	betölt	betölteni betölti betöltik betöltjük betöltse betöltve betöltöd betöltöm betöltött betöltötte betöltötted betöltöttem betöltötték betöltő
+32	3732	megelőz	megelőzhetjük megelőzhető megelőzi megelőzik megelőznek megelőzni megelőzte megelőztek megelőztelek megelőztem megelőzték megelőztél megelőztük megelőzve megelőzze megelőzzem megelőzzék megelőzzük megelőzöm megelőzött
+33	3733	közelít	közelíted közelítek közelítem közelítenek közelíteni közelítesz közelített közelítette közelítettem közelítettük közelítheti közelíthető közelíti közelítik közelítjük közelítse közelítsen közelítsenek közelítsetek közelítsék közelítsük közelítsünk közelítünk közelítő
+34	3734	változatos	legváltozatosabb változatosabb változatosak
+35	3735	emleget	emlegesse emlegetem emlegetett emlegetik emlegetnek emlegetni emlegette emlegettek emlegették
+36	3736	jogai	jogaik jogainak jogairól jogait jogaival jogaiért
+37	3737	nyertes	nyertesei nyertesek nyerteseket nyertesnek nyertest
+38	3738	pánik	pánikba pánikban pániknak pánikot pánikra
+39	3739	nagykövet	nagykövetek nagykövetet nagykövetnek nagykövettel nagykövettől
+40	3740	egészsége	egészségének egészségére egészségéről egészségét egészségével egészségéért
+41	3741	unoka	unokái unokája unokájának unokáját unokák unokákat unokákkal unokáknak unokát unokával
+42	3742	holmi	holmik holmikat holmikkal holmim holminkat holmit holmival holmiért
+43	3743	létrejön	létrejöjjön létrejött létrejövő
+44	3744	farmer	farmerban farmerben farmerek farmereket farmereknek farmerhez farmernek farmerrel farmert
+45	3745	helyezés	helyezése helyezések helyezéssel helyezést
+46	3746	sebész	sebésszel sebészek sebészeket sebészeknek sebészhez sebészként sebésznek sebészre sebészt
+47	3747	szenvedés	szenvedésben szenvedésből szenvedései szenvedéseinek szenvedések szenvedésen szenvedéshez szenvedésnek szenvedésre szenvedésről szenvedéssel szenvedést szenvedéstől szenvedésén szenvedésért
+48	3748	elmúlik	elmulasztani elmulasztja elmulasztod elmulasztom elmulasztott elmulasztotta elmulasztottad elmulasztottam elmúljon elmúlna elmúlnak elmúlni elmúltam elmúltál elmúlás
+49	3749	düh	dühbe dühből dühnek dühre dühről dühtől dühvel dühében dühét dühöt
+50	3750	tettes	tettesek tetteseket tettesnek tettesre tettesről tettessel tettest
+51	3751	bizalmas	bizalmasabb bizalmasai bizalmasak bizalmasan bizalmasat bizalmasnak legbizalmasabb
+52	3752	beépített	beépítettek beépítettként
+53	3753	juhász	
+54	3754	dicsőség	dicsőségben dicsősége dicsőséget dicsőséggel dicsőségre dicsőségről dicsőségért dicsőségét
+55	3755	tanítás	tanításai tanításban tanításnak tanítások tanításokat tanításra tanításról tanítással tanítást
+56	3756	tudlak	
+57	3757	oldali	oldalit
+58	3758	elnyer	elnyered elnyerem elnyeri elnyerik elnyerje elnyerjem elnyerjék elnyerjük elnyerni elnyert elnyerte elnyerted elnyertem elnyerték
+59	3759	kirándulás	kiránduláshoz kirándulásnak kirándulások kirándulásokat kiránduláson kirándulásra kirándulásról kirándulást
+60	3760	balhé	balhéba balhéban balhéból balhék balhékat balhéra balhéról balhét
+61	3761	kiválasztott	kiválasztottak kiválasztottat kiválasztottnak
+62	3762	tabletta	tabletták tablettákat tablettákkal tablettákra tablettákról tablettára tablettát tablettával
+63	3763	igazságos	igazságosabb igazságosak igazságosan igazságosnak
+64	3764	védő	védői védők védőket védőnek védőt
+65	3765	villám	villámmal villámnak villámok villámokat villámot villámra
+66	3766	pusztít	pusztítanak pusztítani pusztítania pusztítanod pusztítanom pusztítanunk pusztíthat pusztíthatja pusztíthatjuk pusztítja pusztítjuk pusztítják pusztítod pusztítom pusztított pusztította pusztítottad pusztítottak pusztítottam pusztították pusztítsa pusztítsam pusztítsatok pusztítson pusztítsuk pusztítsák pusztítsátok pusztítunk pusztítva
+67	3767	jelzés	jelzések jelzéseket jelzésre jelzéssel jelzést
+68	3768	ruhája	ruhájába ruhájában ruhájából ruhájához ruháján ruhájának ruhájára ruhájáról ruháját ruhájával
+69	3769	neves	legnevesebb
+70	3770	bot	botnak botok botokat botokkal boton botot botra bottal
+71	3771	kávézó	kávézóba kávézóban kávézóból kávézóhoz kávézók kávézókban kávézónak kávézónál kávézót
+72	3772	felszerel	felszerelem felszereljük felszerelni felszerelt felszerelte felszereltek felszereltem felszerelték felszereltük felszerelve
+73	3773	lélegzik	lélegezhető lélegezne lélegezned lélegeznek lélegeznem lélegezni lélegeznie lélegeztem lélegeztél lélegezze lélegezzenek lélegezzetek lélegezzük lélegezzünk lélegzek lélegzel lélegzem lélegzünk lélegző
+74	3774	pedagógus	pedagógusok
+75	3775	nyíl	nyilak nyilakat nyilakkal nyilat nyíllal nyílnak
+76	3776	logikus	leglogikusabb logikusabb logikusak logikusnak
+77	3777	innentől	
+78	3778	alternatív	
+79	3779	versenyez	versenyezhetek versenyezhetnék versenyezhetsz versenyezhetünk versenyezned versenyeznek versenyeznem versenyezni versenyeznünk versenyeztek versenyeztem versenyeztél versenyeztünk versenyezzek versenyezzen versenyezzenek versenyezzünk versenyzek versenyzel versenyzett versenyzünk
+80	3780	bunkó	bunkók bunkókat bunkón bunkónak bunkót bunkóval
+81	3781	neje	nejéhez nejének nejére nejéről nejét nejével
+82	3782	akkori	akkoriból
+83	3783	temet	temesse temessem temessenek temessetek temessék temessétek temessük temeted temetem temetett temeti temetik temetjük temetlek temetned temetnek temetnem temetni temetnének temetnünk temette temetted temettek temettem temették temettük temettünk temetve temetünk
+84	3784	teljesítménye	teljesítményének teljesítményére teljesítményét teljesítményével
+85	3785	reménykedik	reménykedek reménykedett reménykedhetek reménykedhetsz reménykedhetünk reménykedjenek reménykedjünk reménykednek reménykedni reménykednék reménykednünk reménykedsz reménykedtek reménykedtem reménykedtél reménykedtünk reménykedünk reménykedő
+86	3786	panasz	panasszal panaszok panaszokat panaszokkal panaszra panaszt
+87	3787	szülés	szülésbe szülésben szülése szülésen szüléshez szülésig szülésnél szülésre szülésről szülést
+88	3788	furgon	furgonba furgonban furgonból furgonhoz furgonjában furgonnak furgonnal furgonnál furgonok furgonokat furgonon furgonra furgonról furgont furgontól furgonért
+89	3789	vadászat	vadászatba vadászatban vadászatból vadászathoz vadászatnak vadászaton vadászatot vadászatra vadászatról vadászattal
+90	3790	áld	áldani áldd áldj áldja áldjanak áldjon áldjuk áldják áldjátok áldom áldva
+91	3791	középkori	
+92	3792	előbbi	előbbiek előbbit előbbiért
+93	3793	karrierje	karrierjébe karrierjében karrierjének karrierjére karrierjéről karrierjét karrierjével
+94	3794	elméleti	
+95	3795	zenés	
+96	3796	könny	könnybe könnyben könnyei könnyek könnyekbe könnyekben könnyeket könnyekig könnyekkel könnyekre könnyektől könnyel könnyet köny
+97	3797	erkölcsi	
+98	3798	lezuhan	lezuhanjon lezuhannak lezuhanni lezuhanok lezuhansz lezuhant lezuhantak lezuhantam lezuhantunk lezuhantál lezuhanunk lezuhanás lezuhanó
+99	3799	színházi	
+100	3800	képernyő	képernyők képernyőket képernyőkön képernyőn képernyőre képernyőről képernyőt

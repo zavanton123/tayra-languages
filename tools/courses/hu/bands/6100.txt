@@ -1,0 +1,100 @@
+1	6001	fasiszta	fasiszták fasisztákat
+2	6002	kommunizmus	kommunizmust
+3	6003	módszerei	módszereik módszereinek módszereiről módszereit módszereivel
+4	6004	frissítés	frissítéseket frissítésre frissítést
+5	6005	hiányol	hiányolja hiányoljuk hiányolják hiányollak hiányolnak hiányolni hiányolná hiányolod hiányolok hiányolom hiányolsz hiányolt hiányolta hiányoltad hiányoltak hiányoltalak hiányoltam hiányoltuk hiányoltunk hiányoltál hiányolunk
+6	6006	túllép	túlléped túllépek túllépem túllépett túlléphetnénk túlléphetünk túllépi túllépik túllépnek túllépni túllépsz túllépte túllépted túlléptek túlléptem túllépték túlléptél túlléptük túlléptünk túllépve túllépünk
+7	6007	túlzott	
+8	6008	uralom	uralmat uralomra
+9	6009	fülbevaló	fülbevalók fülbevalókat fülbevalókkal fülbevalót fülbevalóval
+10	6010	fülke	fülkébe fülkében fülkéből fülkéhez fülkék fülkéket fülkénél fülkét fülkével
+11	6011	mindkettőjük	mindkettőjüket mindkettőjükkel mindkettőjüknek mindkettőjükre mindkettőjüktől
+12	6012	hallgatói	hallgatóinak
+13	6013	mondanivaló	mondanivalód mondanivalója mondanivalójuk mondanivalóját mondanivalómat mondanivalót
+14	6014	enzim	enzimek enzimeket enzimet
+15	6015	mellékhatás	mellékhatások mellékhatásokat mellékhatásokkal mellékhatásokról mellékhatást
+16	6016	biológia	biológiából biológiára biológiát
+17	6017	előnyei	előnyeiről előnyeit
+18	6018	őrülten	
+19	6019	ráérik	ráérsz ráértek
+20	6020	egyszeri	egyszeriben
+21	6021	utad	utadat utadba utadban utadból utadon utadra utadról
+22	6022	árad	áradat áradata áradjon áradnak áradni áradt áradás áradások áradást áradó
+23	6023	szimpatikus	szimpatikusabb szimpatikusak szimpatikusnak
+24	6024	egyidejűleg	
+25	6025	aktivitás	aktivitása aktivitásnak aktivitásra aktivitást
+26	6026	volán	volánhoz volánnál volánt
+27	6027	forradalmi	
+28	6028	alkalmatlan	alkalmatlannak alkalmatlanná alkalmatlanok
+29	6029	tréning	tréningek tréningen tréninget tréningre
+30	6030	bee	
+31	6031	igénye	igényét
+32	6032	rémlik	rémlett
+33	6033	gondosan	
+34	6034	terrorizmus	terrorizmusnak terrorizmusra terrorizmusról terrorizmussal terrorizmust
+35	6035	munkavállaló	munkavállalók
+36	6036	elősegít	elősegíteni elősegítette elősegíti elősegítik elősegítse elősegítve elősegítő
+37	6037	oltár	oltárhoz oltárig oltárnál oltáron oltárra oltárt
+38	6038	megbukik	megbuknak megbukni megbukok megbukott megbuksz megbuktak megbuktam megbuktatni megbuktunk megbuktál megbukunk
+39	6039	szökevény	szökevénnyel szökevények szökevényeket szökevényekkel szökevényeknek szökevényként szökevénynek szökevényt
+40	6040	táplálkozik	táplálkoznak táplálkozni táplálkozol táplálkozott táplálkoztak táplálkozunk táplálkozzon táplálkozó
+41	6041	ártalmatlan	ártalmatlannak ártalmatlanná ártalmatlanok ártalmatlanul
+42	6042	házuk	házukat házukba házukban házukból házukhoz házuknál
+43	6043	riadó	riadóra riadót
+44	6044	sebesül	sebesült
+45	6045	némileg	
+46	6046	fogható	foghatót foghatóval
+47	6047	észszerű	legésszerűbb ésszerű
+48	6048	belehal	belehalna belehalt
+49	6049	rendellenesség	rendellenességben rendellenességek rendellenességeket rendellenességet rendellenességgel rendellenességnek
+50	6050	zárul	zárult
+51	6051	összekötő	összekötőként összekötőnek összekötőt
+52	6052	feltételes	feltételesen feltételesig feltételesre feltételest
+53	6053	előd	elődei elődje elődök
+54	6054	nyugtalan	nyugtalanabb nyugtalannak nyugtalanná nyugtalanok nyugtalanul
+55	6055	technikus	technikusnak technikusok technikusokat technikusokkal technikusoknak technikust
+56	6056	sértetlen	sértetlenek sértetlennek sértetlenül
+57	6057	középiskolás	középiskolások
+58	6058	titán	titánból titánok titánokat titánon titánra titánt
+59	6059	hegység	hegységbe hegységben
+60	6060	farag	faragja faragjak faragjon faragnak faragni faragnom faragok faragsz faragta faragtak faragtam faragták faragtál faragunk faragva faragás
+61	6061	lehetőségei	lehetőségeik lehetőségeinek lehetőségeiről lehetőségeit
+62	6062	elkötelezett	elkötelezettebb elkötelezettek elkötelezetten elkötelezettje elkötelezettnek
+63	6063	akaszt	akassz akassza akasszam akasszanak akasszuk akasszák akasszátok akasztanak akasztani akasztja akasztjuk akasztják akasztod akasztok akasztom akasztott akasztotta akasztottad akasztottak akasztottam akasztották akasztunk akasztva akasztó
+64	6064	szerelvény	szerelvények szerelvényen szerelvényt
+65	6065	ostrom	ostroma ostromot ostromra ostrománál
+66	6066	ösztönöz	ösztönzi ösztönzik ösztönzöm ösztönzött ösztönző ösztönöznek ösztönözni ösztönözte ösztönöztek ösztönöztem ösztönözve ösztönözze ösztönözzük
+67	6067	varázs	varázsa varázst
+68	6068	vadonatúj	
+69	6069	örökkévalóság	örökkévalóságba örökkévalóságban örökkévalósággal örökkévalóságig örökkévalóságnak örökkévalóságon örökkévalóságot örökkévalóságra
+70	6070	ösztön	ösztönből ösztöne ösztönei ösztönnek ösztönnel ösztönt ösztönök ösztönöket ösztönökkel
+71	6071	kiválóan	
+72	6072	rendelte	
+73	6073	következtet	következtetek következtetett következtethetünk következtetni következtetsz következtettem következtettél következtetve következtetünk
+74	6074	homoszexuális	homoszexuálisnak homoszexuálisok homoszexuálisokat
+75	6075	termékei	termékeik termékeinek termékeit
+76	6076	átadása	átadására átadásáról átadását átadásával
+77	6077	büntetése	büntetéséből büntetésének büntetését
+78	6078	pulyka	pulykából pulykák pulykákat pulykának pulykára pulykát pulykával
+79	6079	okostelefon	okostelefonok okostelefont
+80	6080	pusztul	pusztuljanak pusztuljatok pusztuljon pusztulnak pusztulni pusztulnia pusztulniuk pusztulok pusztulsz pusztult pusztultak pusztulunk pusztuló
+81	6081	nyakkendő	nyakkendőben nyakkendők nyakkendőket nyakkendőre nyakkendőt nyakkendővel
+82	6082	pali	palik palikat palin palinak palira palit palival
+83	6083	sokkoló	sokkolót sokkolóval
+84	6084	törekvés	törekvéseit törekvések törekvéseket törekvést törekvését
+85	6085	felhasználói	
+86	6086	ága	ágában ágán ágának ágáról ágát
+87	6087	németországi	
+88	6088	visszavonulás	visszavonulásra visszavonulásról visszavonulást visszavonulását
+89	6089	marín	marina
+90	6090	beköltözik	beköltözhet beköltözhetek beköltözhetsz beköltöznek beköltözni beköltöztek beköltöztem beköltöztél beköltöztünk beköltözés beköltözök beköltözöl beköltözött beköltözünk
+91	6091	méltóság	méltósággal méltóságok méltóságon méltóságot méltóságról méltóságukat méltóságának
+92	6092	hatásköre	hatáskörébe hatáskörében hatáskörén hatáskörét
+93	6093	tilalom	tilalma tilalmat
+94	6094	ász	ászok ászt
+95	6095	költségvetési	
+96	6096	rangos	legrangosabb
+97	6097	oktatása	oktatásának oktatására oktatását
+98	6098	rutin	rutinból rutinná rutint
+99	6099	szentély	szentélybe szentélyben szentélyből szentélyhez szentélynek szentélynél szentélyt
+100	6100	elnyom	elnyomja elnyomjuk elnyomják elnyomnak elnyomni elnyomod elnyomom elnyomott elnyomta elnyomtam elnyomták elnyomva

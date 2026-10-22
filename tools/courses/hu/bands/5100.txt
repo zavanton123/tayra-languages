@@ -1,0 +1,100 @@
+1	5001	szentel	szenteled szentelek szentelem szenteli szentelik szentelje szenteljük szentelnek szentelni szentelsz szentelte szentelted szenteltem szentelték szenteltük szentelve szentelünk
+2	5002	munkaerő	munkaerőnek munkaerőre munkaerőt
+3	5003	veterán	veteránnak veteránok veteránokat veteránokkal veteránoknak veteránt
+4	5004	parfüm	parfümje parfümmel parfümre parfümtől parfümök parfümöket parfümöm parfümöt
+5	5005	feladta	
+6	5006	feneke	fenekébe fenekében fenekéből fenekén fenekére fenekéről fenekét fenekével
+7	5007	komment	kommentben kommentek kommenteket kommentet
+8	5008	akarat	akaratból akaratnak akaratodat akaratodból akaratot akarattal akaratuk akaratukból
+9	5009	gólja	gólját góljával
+10	5010	jogosult	jogosultak
+11	5011	hiány	hiányban hiányt
+12	5012	ütem	ütemben ütemet ütemmel ütemre ütemére ütemét
+13	5013	urunk	urunkat urunkhoz urunkkal urunknak urunktól
+14	5014	trend	trendek trendeket trendet
+15	5015	pecsét	pecsétek pecséteket pecsétet pecsétje pecsétnek pecsétre pecsétről pecséttel
+16	5016	földrajzi	
+17	5017	álmaim	álmaimat álmaimba álmaimban álmaimból álmaimmal álmaimnak álmaimra álmaimról
+18	5018	pincér	pincérek pincéreket pincérekkel pincéreknek pincérként pincérnek pincérre pincérrel pincért
+19	5019	csip	chip
+20	5020	elrendel	elrendelek elrendelem elrendeli elrendelni elrendelt elrendelte elrendeltem elrendelték elrendelve
+21	5021	útlevél	útlevelek útleveleket útlevelekkel útlevelet útlevéllel útlevélre
+22	5022	paprika	paprikát paprikával
+23	5023	vécé	vécébe vécében vécéből vécék vécéket vécén vécére vécéről vécét vécével
+24	5024	bevezet	bevezetem bevezetett bevezeti bevezetik bevezetjük bevezetlek bevezetni bevezette bevezettem bevezették
+25	5025	jelentkezés	jelentkezéseket jelentkezéshez jelentkezést jelentkezését
+26	5026	délkelet	dk délkeleten délkeletre
+27	5027	éhezik	éhezek éhezel éhezem éhezett éheznek éhezni éheztek éheztem éheztél éheztünk éhezve éhezz éhezzen éhezzenek éhezünk éhező
+28	5028	érv	érvei érveimet érvek érveket érvekkel érvekre érvet
+29	5029	kikerül	kikerülje kikerülni kikerült
+30	5030	végzetes	végzetesek végzetesen végzetesnek
+31	5031	frissít	frissítem frissítenem frissíteni frissített frissítette frissítettem frissítették frissíti frissítik frissítjük frissítse frissítsem frissítsük frissítve
+32	5032	művei	műveiben műveiből műveinek műveit
+33	5033	fogadó	fogadóba fogadóban fogadóból fogadóhoz fogadók fogadónak fogadónál fogadót fogadóval
+34	5034	ellátása	ellátásához ellátásának ellátására ellátásáról ellátását
+35	5035	diéta	diétán diétára diétát diétával
+36	5036	gát	gátak gátakat gátat gáthoz gátnál gáton gátra gátról gáttal
+37	5037	eltűnés	eltűnése eltűnések eltűnésének eltűnését
+38	5038	felhoz	felhozni felhoznod felhoznom felhoznád felhozod felhozok felhozom felhozott felhozta felhoztad felhoztak felhoztam felhoztuk felhozták felhozza felhozzam felhozzuk felhozzák
+39	5039	kopog	kopoghatnál kopogjak kopogjatok kopogjon kopogjunk kopognak kopogni kopognod kopognom kopognál kopogok kopogott kopogsz kopogtak kopogtam kopogtatok kopogtunk kopogtál kopogás kopogásról kopogást kopogó
+40	5040	ellenez	ellenezni ellenezné ellenezném ellenezte ellenezted elleneztem ellenezték ellenezzük ellenzed ellenzem ellenzi ellenzik
+41	5041	rendelkezése	rendelkezésére
+42	5042	éhen	
+43	5043	zokni	zokniba zokniban zoknik zoknikat zoknira zoknit zoknival
+44	5044	dög	döggel dögnek dögök dögöket dögöt
+45	5045	városháza	városházához városházán városházánál városházára városházáról városházát városházával
+46	5046	alany	alannyal alanynak alanyok alanyokat alanyra alanyt
+47	5047	pszichológia	pszichológiában pszichológiából pszichológiáról pszichológiát
+48	5048	teljesség	teljességgel
+49	5049	email	emailt
+50	5050	kapcsolatai	kapcsolataik kapcsolatainak kapcsolatairól kapcsolatait kapcsolataival
+51	5051	istene	istenéhez istenének istenére istenét istenével
+52	5052	felkeres	felkeresed felkeresek felkeresem felkeresett felkeresi felkeresik felkereslek felkeresnek felkeresni felkeressem felkeressük felkereste felkerested felkerestek felkerestem felkeresték felkerestél felkerestük
+53	5053	parkol	parkolhat parkolhatnak parkolhatok parkolhatsz parkolja parkoljak parkoljanak parkoljon parkolnak parkolni parkolnia parkolnom parkolok parkolsz parkolt parkolta parkoltak parkoltam parkoltunk parkoltál parkolunk
+54	5054	ion	ionok
+55	5055	nevetés	nevetésben nevetésnek nevetésre nevetésről nevetéssel nevetést nevetéstől
+56	5056	iszonyú	iszonyúan
+57	5057	kedvezményes	kedvezményesen
+58	5058	elrendez	elrendezed elrendezek elrendezem elrendezett elrendezi elrendezik elrendeznem elrendezni elrendezte elrendezted elrendeztem elrendezték elrendeztél elrendeztük elrendeztünk elrendezve elrendezze elrendezzem elrendezzük elrendezés elrendezünk
+59	5059	vegyi	
+60	5060	ugyanilyen	ugyanilyenek ugyanilyet
+61	5061	szereplői	szereplőinek szereplőit
+62	5062	mélység	mélységbe mélységben mélységből mélysége mélységeiben mélységekbe mélységet mélységig
+63	5063	szamuráj	szamurájjal szamurájként szamurájnak szamurájok szamurájokat szamurájt
+64	5064	galamb	galambnak galambok galambokat galambokkal galambot
+65	5065	merénylet	merényletben merényletek merényleteket merényletet merénylethez merényletre merényletről merénylettel merényletért
+66	5066	jegyzőkönyv	jegyzőkönyvbe jegyzőkönyvben jegyzőkönyvből jegyzőkönyvek jegyzőkönyveket jegyzőkönyvet jegyzőkönyvét jegyzőkönyvön
+67	5067	palack	palackba palackban palackból palackja palackkal palackok palackokat palackot
+68	5068	dokumentumfilm	dokumentumfilmben dokumentumfilmek dokumentumfilmeket dokumentumfilmet
+69	5069	sólyom	sólymok sólymot sólyommal sólyomnak
+70	5070	tanácsos	tanácsosnak tanácsosok tanácsossal tanácsost
+71	5071	albuma	albumának albumát
+72	5072	beruházás	beruházások beruházást
+73	5073	gitáros	gitárossal gitárost
+74	5074	lassít	lassítana lassítanak lassítani lassítania lassítanod lassítanom lassítanunk lassítanál lassítasz lassíthatnál lassíthatnánk lassíthatunk lassítja lassítják lassítok lassított lassította lassítsa lassítsak lassítsanak lassítsatok lassítson lassítsuk lassítsunk lassítunk lassítva lassítás
+75	5075	bedob	bedobhatnánk bedobja bedobjam bedobjuk bedobják bedoblak bedobnak bedobni bedobnám bedobnánk bedobod bedobok bedobom bedobott bedobsz bedobta bedobtad bedobtak bedobtam bedobtuk bedobtunk bedobták bedobtál bedobunk bedobás
+76	5076	gondolata	gondolatára gondolatát gondolatától gondolatával
+77	5077	gőz	gőzben gőzt gőzzel gőzzé gőzért
+78	5078	előnyös	előnyösebb legelőnyösebb
+79	5079	informatikai	
+80	5080	hő	hőn hőnek hőre hőt hőtől leghőbb
+81	5081	ismétel	ismételje ismételjem ismételjék ismételjétek ismételjük ismételned ismételnem ismételni ismételnie ismételnünk ismételte ismételtem ismétled ismétli ismétlő
+82	5082	vezetőség	vezetőségben vezetőségből vezetősége vezetőséget vezetőséggel vezetőségnek vezetőségtől vezetőségének
+83	5083	puskás	
+84	5084	normálisan	
+85	5085	hatos	hatosban hatosnak hatosok hatoson hatosra hatossal hatost
+86	5086	népszavazás	népszavazáson népszavazást
+87	5087	kételkedik	kételkedek kételkedett kételkedjünk kételkedne kételkedned kételkednek kételkednem kételkedni kételkednék kételkedsz kételkedtek kételkedtem kételkedtél kételkedtünk kételkedés kételkedünk
+88	5088	alapoz	alapozni alapozod alapozom alapozott alapozta alapoztam alapozták alapozva alapozza alapozzuk alapozzák
+89	5089	kocsid	kocsidat kocsidba kocsidban kocsidból kocsiddal kocsidhoz kocsidnak kocsidon kocsidra
+90	5090	halvány	halovány halványabb leghalványabb
+91	5091	titkai	titkaiba titkaihoz titkaik titkainak titkaira titkairól titkait titkaival
+92	5092	kanál	kanalak kanalakat kanalat kanállal
+93	5093	megvásárol	megvásárolja megvásároljuk megvásárolják megvásárolni megvásárolt megvásárolta megvásároltam megvásárolták
+94	5094	büszkeség	büszkeségből büszkeségei büszkeséget büszkeséggel büszkeségnek büszkeségre büszkeségről büszkeségtől büszkeségük
+95	5095	működési	
+96	5096	rabbi	rabbik rabbinak rabbit rabbival
+97	5097	héj	héjak héjat héjjal
+98	5098	kérdezett	
+99	5099	megszüntetése	megszüntetésére megszüntetéséről megszüntetését megszüntetésével
+100	5100	járőr	járőrként járőrnek járőrrel járőrt járőrök járőröket járőrökkel járőröknek

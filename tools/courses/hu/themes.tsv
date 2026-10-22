@@ -1,0 +1,101 @@
+# id	rankUpTo	level	topic (English)	title (Hungarian)
+hu-mini-0100	100	A1	Home and family	Otthon és család
+hu-mini-0200	200	A1	Everyday life	Egy átlagos nap
+hu-mini-0300	300	A1	Food and shopping	Étel és vásárlás
+hu-mini-0400	400	A2	In the city	A városban
+hu-mini-0500	500	A2	School and work	Iskola és munka
+hu-mini-0600	600	A2	Free time and hobbies	Szabadidő és hobbi
+hu-mini-0700	700	A2	Health and the body	Egészség és test
+hu-mini-0800	800	A2	Travel and holidays	Utazás és nyaralás
+hu-mini-0900	900	A2	Nature and the seasons	Természet és évszakok
+hu-mini-1000	1000	A2	Birthdays, parties and friends	Születésnapok és barátok
+hu-mini-1100	1100	B1	Living and housing	Lakást keresünk
+hu-mini-1200	1200	B1	Memories	Emlékek
+hu-mini-1300	1300	B1	Jobs and training	Szakmák és tanulás
+hu-mini-1400	1400	B1	Getting around	Hogyan jutok oda?
+hu-mini-1500	1500	B1	Money and shopping	Pénz és vásárlás
+hu-mini-1600	1600	B1	Experiencing culture	Kulturális hétvége
+hu-mini-1700	1700	B1	Sport and exercise	Sport és mozgás
+hu-mini-1800	1800	B1	The environment in daily life	Környezetvédelem minden nap
+hu-mini-1900	1900	B1	Letters, messages and media	Levelek, üzenetek és média
+hu-mini-2000	2000	B1	Neighbourhood	A mi környékünk
+hu-mini-2100	2100	B2	Cooking and food	Konyha és ízek
+hu-mini-2200	2200	B2	Body and mind	Test és elme
+hu-mini-2300	2300	B2	The world of work	A munka világa
+hu-mini-2400	2400	B2	Science and technology	Tudomány és technika
+hu-mini-2500	2500	B2	History you can touch	Kézzelfogható történelem
+hu-mini-2600	2600	B2	Travelling in Hungary	Utazás Magyarországon
+hu-mini-2700	2700	B2	Generations	Nemzedékek
+hu-mini-2800	2800	B2	Music	Zene
+hu-mini-2900	2900	B2	Society and living together	Társadalom és együttélés
+hu-mini-3000	3000	B2	Small columns	Kis tárcák
+hu-mini-3100	3100	B2	Home and decoration	Lakberendezés
+hu-mini-3200	3200	B2	Fashion and clothes	Divat és öltözködés
+hu-mini-3300	3300	B2	The great outdoors	Kint a szabadban
+hu-mini-3400	3400	B2	Traditional crafts	Hagyományos mesterségek
+hu-mini-3500	3500	B2	Technology and society	Technológia és társadalom
+hu-mini-3600	3600	B2	Rivers and lakes	Folyók és tavak
+hu-mini-3700	3700	B2	Books and language	Könyvek és nyelv
+hu-mini-3800	3800	B2	Everyday economics	A mindennapok gazdasága
+hu-mini-3900	3900	B2	Country life	Vidéki élet
+hu-mini-4000	4000	B2	City life columns	Városi tárcák
+hu-mini-4100	4100	C1	Body and mind in daily life	Test és elme a hétköznapokban
+hu-mini-4200	4200	C1	Architecture and heritage	Építészet és örökség
+hu-mini-4300	4300	C1	Climate and energy	Éghajlat és energia
+hu-mini-4400	4400	C1	Everyday paperwork	Ügyintézés a mindennapokban
+hu-mini-4500	4500	C1	Film and television	Film és televízió
+hu-mini-4600	4600	C1	Research and discovery	Kutatás és felfedezés
+hu-mini-4700	4700	C1	Living between countries	Két ország között
+hu-mini-4800	4800	C1	The mind in daily life	A hétköznapok lélektana
+hu-mini-4900	4900	C1	Sport and society	Sport és társadalom
+hu-mini-5000	5000	C1	Short essays	Rövid esszék
+hu-mini-5100	5100	C1	Archaeology and the past	Régészet és a múlt
+hu-mini-5200	5200	C1	The science of cooking	Tudomány a konyhában
+hu-mini-5300	5300	C1	Landscapes	Tájak
+hu-mini-5400	5400	C1	Caring for others	Gondoskodás másokról
+hu-mini-5500	5500	C1	Visual arts	Képzőművészet
+hu-mini-5600	5600	C1	Journalism and media	Újságírás és média
+hu-mini-5700	5700	C1	Transport and mobility	Közlekedés és mobilitás
+hu-mini-5800	5800	C1	The Hungarian language	A magyar nyelv
+hu-mini-5900	5900	C1	Starting a business	Saját vállalkozás
+hu-mini-6000	6000	C1	Memoirs	Emlékek a régi időkből
+hu-mini-6100	6100	C1	The universe and the stars	A világegyetem és a csillagok
+hu-mini-6200	6200	C1	Mining and natural resources	Bányászat és természeti kincsek
+hu-mini-6300	6300	C1	Food and health	Táplálkozás és egészség
+hu-mini-6400	6400	C1	Theatre, circus and stage	Színház, cirkusz és színpad
+hu-mini-6500	6500	C1	Engineering	A mérnökök világa
+hu-mini-6600	6600	C1	Farm to table	A földtől az asztalig
+hu-mini-6700	6700	C1	Languages and cultures of Central Europe	Közép-Európa nyelvei és kultúrái
+hu-mini-6800	6800	C1	Hungarian literature	Magyar irodalom
+hu-mini-6900	6900	C1	Numbers and reasoning	Számok és gondolkodás
+hu-mini-7000	7000	C1	Travel columns	Úti jegyzetek
+hu-mini-7100	7100	C1	Public health	Népegészségügy
+hu-mini-7200	7200	C1	Everyday philosophy	A hétköznapok filozófiája
+hu-mini-7300	7300	C1	Folk festivals and fairs	Népünnepélyek és vásárok
+hu-mini-7400	7400	C1	Animal behaviour	Az állatok viselkedése
+hu-mini-7500	7500	C1	Work and the labour market	Munka és munkaerőpiac
+hu-mini-7600	7600	C1	Cities of the world	A világ városai
+hu-mini-7700	7700	C1	Inventions and inventors	Találmányok és feltalálók
+hu-mini-7800	7800	C1	Public services	Közszolgáltatások
+hu-mini-7900	7900	C1	Mountains and winter sport	Hegyek és téli sportok
+hu-mini-8000	8000	C1	Family columns	Családi tárcák
+hu-mini-8100	8100	C2	The human body	Az emberi test
+hu-mini-8200	8200	C2	Prevention and resilience	Megelőzés és alkalmazkodás
+hu-mini-8300	8300	C2	Design and craft	Formatervezés és kézművesség
+hu-mini-8400	8400	C2	Emotions and relationships	Érzelmek és kapcsolatok
+hu-mini-8500	8500	C2	Explorers and travellers	Felfedezők és utazók
+hu-mini-8600	8600	C2	The forest	Az erdő
+hu-mini-8700	8700	C2	Advertising and communication	Reklám és kommunikáció
+hu-mini-8800	8800	C2	Food culture in Hungary	Magyar konyha és vendéglátás
+hu-mini-8900	8900	C2	Classical music	Komolyzene
+hu-mini-9000	9000	C2	Essays on time	Esszék az időről
+hu-mini-9100	9100	C2	Chemistry and materials	Kémia és anyagok
+hu-mini-9200	9200	C2	Maps and finding the way	Térképek és tájékozódás
+hu-mini-9300	9300	C2	Tales and legends	Mesék és mondák
+hu-mini-9400	9400	C2	Rare professions	Ritka mesterségek
+hu-mini-9500	9500	C2	Urban planning	Városépítés
+hu-mini-9600	9600	C2	Everyday physics	A hétköznapok fizikája
+hu-mini-9700	9700	C2	Gardens and botany	Kertek és növénytan
+hu-mini-9800	9800	C2	Folk art and customs	Népművészet és népszokások
+hu-mini-9900	9900	C2	Ethics in daily life	Etika a mindennapokban
+hu-mini-10000	10000	C2	Learning and language	Utolsó esszék: tanulni és beszélni

@@ -1,0 +1,100 @@
+1	5901	primitív	legprimitívebb primitívebb primitívek primitívnek
+2	5902	tanúsít	tanúsítanak tanúsítani tanúsítasz tanúsíthatja tanúsíthatják tanúsíthatom tanúsítja tanúsítják tanúsítok tanúsítom tanúsított tanúsította tanúsítottak tanúsítottam tanúsítsa tanúsítson
+3	5903	jóvoltából	
+4	5904	pogány	pogányok pogányokat pogányoknak pogányt
+5	5905	mutáns	mutánsnak mutánsok mutánsokat mutánst
+6	5906	függetlenség	függetlensége függetlenséget függetlenségre függetlenségért függetlenségét
+7	5907	gyakorló	
+8	5908	kódja	kódjának kódjára kódját kódjával
+9	5909	elnevez	elnevezem elnevezett elnevezni elnevezte elnevezted elneveztek elneveztem elnevezték elneveztük elnevezve
+10	5910	illúzió	illúzióban illúziók illúziókat illúziót
+11	5911	elszökik	elszöknek elszökni elszöktek elszökött elszökünk
+12	5912	fogyasztása	fogyasztását fogyasztásával
+13	5913	alakulat	alakulatban alakulathoz alakulatnak alakulatnál alakulatok alakulatokat alakulatot
+14	5914	barátkozik	barátkozhatsz barátkozna barátkoznak barátkozni barátkoznod barátkoznom barátkoznunk barátkozol barátkozott barátkoztak barátkoztam barátkoztok barátkoztunk barátkoztál barátkozunk barátkozzanak barátkozzatok barátkozzon barátkozzunk barátkozó
+15	5915	elemi	
+16	5916	övezet	övezetbe övezetben övezetből övezetet övezett övezetté
+17	5917	fontossága	fontosságára fontosságáról fontosságát
+18	5918	tapad	tapadjatok tapadjon tapadna tapadnak tapadni tapadok tapadt tapadtak tapadva tapadás tapadó
+19	5919	pszichiátriai	
+20	5920	főszerep	főszerepben főszerepet főszerepre
+21	5921	hobbi	hobbiból hobbik hobbinak hobbira hobbit hobbitok
+22	5922	elemzése	elemzésére elemzését elemzésével
+23	5923	kajak	kajakot kajakra
+24	5924	kontra	
+25	5925	helyünk	helyünkben helyünket helyünkre helyünkön
+26	5926	találgat	találgassak találgassanak találgasson találgassunk találgathatok találgathatsz találgathatunk találgatja találgatják találgatnak találgatni találgatnom találgatok találgatott találgatsz találgattam találgatunk találgatás találgatások
+27	5927	bőröd	bőrödbe bőrödben bőrödből bőröddel bőrödet bőrödnek bőrödre bőrödön
+28	5928	szárazföld	szárazföldet szárazföldre szárazföldről szárazföldtől szárazföldön
+29	5929	céljai	céljainak céljaira céljait
+30	5930	elengedhetetlen	elengedhetetlenek
+31	5931	ügyvezető	
+32	5932	néhol	
+33	5933	fenséges	fenségesen fönséges legfenségesebb
+34	5934	nyűgöz	nyűgözni nyűgöznöm nyűgözte nyűgöztél nyűgözve nyűgözzön nyűgözött
+35	5935	objektum	objektumok objektumokat objektumot
+36	5936	tettei	tetteiben tetteinek tetteire tetteiről tetteit tetteivel tetteiért
+37	5937	káros	károsak
+38	5938	kötelez	kötelezem kötelezett kötelezi kötelezik köteleznek kötelezni kötelezte köteleztek köteleztem kötelezték kötelezve kötelezze kötelezzük
+39	5939	kezdeményez	kezdeményezek kezdeményezel kezdeményezett kezdeményezi kezdeményezni kezdeményeztek kezdeményeztem kezdeményezték kezdeményezzen
+40	5940	feltételezés	feltételezések feltételezésekbe feltételezéseket feltételezéssel feltételezést
+41	5941	istálló	istállóba istállóban istállóból istállóhoz istállók istállókat istállóknál istállónál istállót
+42	5942	megállás	megállásra
+43	5943	gyomor	gyomorba gyomorban gyomornak gyomorra gyomorral gyomron gyomrot
+44	5944	készítés	készítésben készítést
+45	5945	árny	árnyak árnyakat árnyakkal árnyat
+46	5946	vacsi	vacsihoz vacsinál vacsira vacsiról vacsit vacsival
+47	5947	bravó	
+48	5948	megoldható	
+49	5949	beszélges	beszélgessünk
+50	5950	fullad	fulladhat fulladjon fulladna fulladnak fulladni fulladok fulladsz fulladt fulladtak fulladtam fulladtál fulladunk fulladva
+51	5951	elnéz	elnézed elnézek elnézem elnézett elnézi elnézik elnézlek elnézni elnézném elnézte elnézted elnéztek elnéztem elnézték elnéztük elnéztünk elnézve elnézzük elnézünk
+52	5952	hálaadás	hálaadáson hálaadásra hálaadásról hálaadást
+53	5953	pénteki	
+54	5954	dimenzió	dimenzióba dimenzióban dimenzióból dimenziók dimenziókat dimenziót
+55	5955	optikai	
+56	5956	tan	tanba tanok tanokat tant
+57	5957	karjai	karjaiba karjaiban karjaiból karjain karjait karjaival
+58	5958	dőlt	dőltek
+59	5959	utánoz	utánoznak utánozni utánozom utánozta utánoztad utánoztam utánozták utánozva utánozza utánozzuk utánozzák utánzott utánzó
+60	5960	ideg	idegei idegeim idegek idegeket idegekkel ideget
+61	5961	célom	célomat célomhoz
+62	5962	kötelessége	kötelességének kötelességét
+63	5963	jelentőségű	
+64	5964	érzékelő	érzékelők érzékelőket érzékelőkkel érzékelőkön érzékelőt érzékelővel
+65	5965	ittas	
+66	5966	tömör	
+67	5967	meglepően	
+68	5968	szivárvány	szivárványok szivárványokat szivárványon szivárványt
+69	5969	csodálatosan	
+70	5970	gyomra	gyomrába gyomrában gyomrából gyomrán gyomrának gyomrára gyomrát gyomrával
+71	5971	manipulál	manipulálható manipulálja manipuláljon manipulálják manipulálnak manipulálni manipulálod manipulálom manipulálsz manipulált manipulálta manipuláltad manipuláltak manipuláltam manipulálták manipuláltál manipulálva manipulálás manipuláló
+72	5972	mezőgazdaság	mezőgazdaságban mezőgazdaságot
+73	5973	kollektív	
+74	5974	csakugyan	
+75	5975	néger	négerek négereket négerekkel négereknek négernek négerrel négert
+76	5976	eseményei	eseményeiből eseményeinek eseményeiről eseményeit
+77	5977	derék	derékba derékban derékig deréktól
+78	5978	szindróma	szindrómában szindrómának szindrómáról szindrómát szindrómával
+79	5979	hírszerzés	hírszerzésben hírszerzéshez hírszerzésnek hírszerzésnél hírszerzéssel hírszerzést hírszerzéstől
+80	5980	bujkál	bujkálnak bujkálni bujkálok bujkált
+81	5981	zsákmány	zsákmánnyal zsákmányból zsákmánynak zsákmányon zsákmányra zsákmányt zsákmányért
+82	5982	evolúció	evolúcióban evolúciónak evolúcióról evolúciót
+83	5983	csiga	csigák csigákat csigát csigával
+84	5984	beteges	betegesen betegesnek
+85	5985	mindenfelé	
+86	5986	ásványi	
+87	5987	objektív	objektíven objektívnek
+88	5988	aszteroida	aszteroidák aszteroidákat aszteroidán aszteroidára aszteroidát
+89	5989	pontosság	pontossággal pontosságot pontosságra
+90	5990	mindenkori	
+91	5991	várlak	
+92	5992	biztonságosan	biztonságosabban
+93	5993	előállítása	előállításához előállításának előállítására előállítását
+94	5994	húzta	
+95	5995	ismerősöm	ismerősömet ismerősömmel ismerősömnek ismerősömre
+96	5996	garantált	
+97	5997	taps	tapsot tapsra tapssal
+98	5998	egyikőtök	egyiktek egyikőtökben egyikőtöket egyikőtökkel egyikőtöknek egyikőtökre
+99	5999	gyerekkori	
+100	6000	harmónia	harmóniában harmóniát

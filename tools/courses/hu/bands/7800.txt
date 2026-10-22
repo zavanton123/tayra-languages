@@ -1,0 +1,100 @@
+1	7701	sokszínű	
+2	7702	pálinka	pálinkát
+3	7703	hajtogat	hajtogatja hajtogatják hajtogatni hajtogatod hajtogatok hajtogatom hajtogatott hajtogatsz hajtogatta hajtogattad hajtogattam hajtogatták hajtogatva
+4	7704	felbecsülhetetlen	felbecsülhetetlenek
+5	7705	diktál	diktálja diktáljon diktálják diktálnak diktálni diktálok diktálom diktálsz diktált diktálta
+6	7706	hivatkozás	hivatkozások hivatkozással hivatkozást
+7	7707	előzőleg	
+8	7708	flóra	
+9	7709	sodródik	sodródjunk sodródnak sodródni sodródott sodródsz sodródtak sodródtam sodródtunk sodródunk sodródva sodródás sodródó
+10	7710	jogilag	
+11	7711	infláció	inflációt
+12	7712	csöves	csövesek csöveseket csövesnek csövest
+13	7713	mek	
+14	7714	lovagi	
+15	7715	fűszeres	fűszeresnél fűszerest
+16	7716	halaszt	halassz halassza halasszuk halasszák halasztani halasztanod halasztanom halasztanunk halaszthatjuk halaszthatnánk halasztjuk halasztok halasztom halasztott halasztottam halasztották halasztva
+17	7717	edzőterem	edzőterembe edzőteremben edzőteremből edzőtermet
+18	7718	feltétele	feltételét
+19	7719	olajos	
+20	7720	lebeszél	lebeszélem lebeszéljelek lebeszéljem lebeszéljen lebeszélni lebeszélt lebeszélte lebeszéltem lebeszéltél
+21	7721	dada	dadák dadának dadára dadát dadával
+22	7722	sportol	sportolnak sportolni sportolok sportolsz sportolt sportoltam sportolás
+23	7723	öregedik	öregedett öregedjünk öregednek öregedni öregedtek öregedtem öregedtél öregedtünk öregedő öregszik
+24	7724	okirat	okiratban okiratok okiratot
+25	7725	mandula	mandulát mandulával
+26	7726	játszótér	játszóteret játszótéren játszótérre játszótérről
+27	7727	igazít	igazítani igazítanom igazítja igazítjuk igazítják igazítom igazította igazítottam igazítsa igazítsam igazítva igazítás
+28	7728	kivitelezés	kivitelezést
+29	7729	ismeretterjesztő	
+30	7730	díjaz	díjazni díjazná díjaznám díjazom díjazott díjazta díjazták díjazza díjazzák díjazás
+31	7731	alapelv	alapelvei alapelveit alapelvek alapelveket alapelvet
+32	7732	színészi	
+33	7733	kivon	kivonja kivonjuk kivonják kivonni kivonod kivonom kivont kivonta kivontam kivontuk kivonták kivonunk kivonva
+34	7734	gyorsít	gyorsítani gyorsítanunk gyorsítja gyorsított gyorsítsa gyorsítson gyorsítsuk gyorsítsunk gyorsítunk gyorsítás
+35	7735	mígnem	
+36	7736	varjú	varjak varjakat varjaknak varjút
+37	7737	felmérése	
+38	7738	felügyeleti	
+39	7739	lyuka	luka lukat lyukába lyukát
+40	7740	távolsági	
+41	7741	ürügy	ürüggyel ürügyet ürügyként ürügynek ürügyre
+42	7742	felfordul	felfordult felfordulás
+43	7743	belügyminiszter	belügyminiszternek belügyminiszterrel belügyminisztert
+44	7744	hirdető	hirdetők
+45	7745	besúgó	besúgók besúgókat besúgónak besúgót
+46	7746	mielőbb	
+47	7747	lefordít	lefordítani lefordítaná lefordítanád lefordítja lefordítom lefordított lefordította lefordítottam lefordították lefordítsam lefordítva
+48	7748	anyagilag	
+49	7749	törmelék	törmelékek törmeléket törmelékkel
+50	7750	reg	
+51	7751	bever	bevered beverek beverem beveri beverik beverni bevert beverte beverted bevertem beverték
+52	7752	specialista	specialistája specialisták
+53	7753	fizetős	
+54	7754	körte	körték körtét
+55	7755	föderáció	föderációhoz föderációnak föderációt föderációval
+56	7756	töredék	töredéke töredékek töredékeket töredéket töredékét
+57	7757	megváltó	megváltóm
+58	7758	személyazonosság	személyazonosságát
+59	7759	mozdulatlan	mozdulatlannak mozdulatlanná mozdulatlanok mozdulatlanul
+60	7760	túlsó	
+61	7761	bögre	bögrébe bögrében bögréből bögrék bögréket bögrét bögrével
+62	7762	hab	habbal habok habot
+63	7763	diagnosztizál	diagnosztizálni diagnosztizált diagnosztizálta diagnosztizáltak diagnosztizáltam diagnosztizálták
+64	7764	színjáték	
+65	7765	megkönnyebbülés	megkönnyebbüléssel megkönnyebbülést
+66	7766	molekula	molekulák molekulákat molekulát
+67	7767	mérgezés	mérgezésben mérgezésre mérgezést
+68	7768	hatszor	
+69	7769	kijelentés	kijelentések kijelentéseket kijelentéssel kijelentést
+70	7770	lakatlan	
+71	7771	alternatíva	alternatívája alternatívák alternatívákat alternatívát
+72	7772	kalcium	kalciumot
+73	7773	mozaik	
+74	7774	kedv	kedvet kedvre kedvvel
+75	7775	civilizált	civilizáltabb civilizáltak
+76	7776	magzat	magzatnak magzatok magzatokat magzatot
+77	7777	bizonyosan	
+78	7778	fátyol	fátylat fátyolban fátyollal fátyolt
+79	7779	fizikus	fizikusok
+80	7780	kíséret	kíséretet kíséretre kísérettel
+81	7781	éjjel-nappal	
+82	7782	zűr	zűrbe zűrben zűrből zűrt zűrök
+83	7783	hamisítvány	hamisítványok hamisítványokat hamisítványt
+84	7784	kalmár	
+85	7785	húsos	
+86	7786	fillér	fillérekért fillérig fillérre fillérrel fillért fillérért
+87	7787	elkülönít	elkülönítem elkülöníteni elkülönítette elkülönítettem elkülönítettük elkülöníthető elkülöníti elkülönítik elkülönítjük elkülönítve elkülönítés elkülönítő
+88	7788	eke	eket ekét
+89	7789	ránéz	ránézett ránézni
+90	7790	vízvezeték	vízvezetékek vízvezetéket vízvezetékkel
+91	7791	zord	zordon
+92	7792	rakomány	rakománnyal rakományt
+93	7793	nyelvtan	nyelvtant
+94	7794	kálium	káliumot
+95	7795	vízügyi	
+96	7796	feltüntet	feltüntetett feltüntetni feltüntetve
+97	7797	létrejötte	létrejöttének létrejöttét
+98	7798	versei	verseit
+99	7799	megbecsül	megbecsüli megbecsülik megbecsüljük megbecsülnek megbecsülni megbecsült megbecsülés megbecsülöd megbecsülöm
+100	7800	hatvanas	

@@ -1,0 +1,100 @@
+1	8301	vezetéknév	vezetéknevet vezetéknevét vezetéknévvel
+2	8302	veszte	veszted vesztem vesztetek vesztébe vesztét vesztünk
+3	8303	puzzle	puzzle-t
+4	8304	kalandor	kalandorok
+5	8305	szultán	szultánnak szultánt
+6	8306	filmez	filmezek filmezel filmezett filmezi filmezik filmeznek filmezni filmezte filmeztek filmeztem filmeztünk filmezzen filmezés filmezést filmezünk
+7	8307	goromba	gorombák gorombán gorombának
+8	8308	telepedik	telepedett telepedtek telepszik
+9	8309	zajos	zajosak
+10	8310	megtartása	megtartásához megtartására megtartását
+11	8311	összehasonlító	
+12	8312	mozgalmas	
+13	8313	sógor	sógora sógorok
+14	8314	köztudott	köztudottan
+15	8315	figyelmeztető	
+16	8316	könyvkiadó	
+17	8317	koponyája	koponyájába koponyájában koponyájából koponyáján koponyájának koponyáját
+18	8318	lerobban	lerobbant
+19	8319	festői	
+20	8320	izgi	izgibb
+21	8321	lámpás	lámpások lámpásokat lámpást
+22	8322	szégyenlős	szégyellős szégyenlősek szégyenlősnek
+23	8323	látása	látását látásával
+24	8324	ápolónő	ápolónők ápolónőnek ápolónőt ápolónővel
+25	8325	midőn	
+26	8326	színvonal	színvonalat színvonalon
+27	8327	kódex	kódexet
+28	8328	lássalak	
+29	8329	szakorvos	szakorvoshoz szakorvosok szakorvost
+30	8330	megbízhatatlan	megbízhatatlannak megbízhatatlanok
+31	8331	dicsőséges	dicsőségesen
+32	8332	jómagam	
+33	8333	hősi	
+34	8334	irigyel	irigyellek irigyelnek irigyelni irigyelsz irigyelt irigyelte irigyeltelek irigyeltem irigylik
+35	8335	állománya	állományának állományát
+36	8336	gyalogol	gyalogoljon gyalogolnak gyalogolni gyalogolnia gyalogolnom gyalogolnunk gyalogolok gyalogolsz gyalogolt gyalogoltak gyalogoltam gyalogoltunk gyalogoltál gyalogolunk
+37	8337	evolúciós	
+38	8338	diszkó	diszkóba diszkóban diszkók diszkót
+39	8339	tipikusan	
+40	8340	hüvelyk	hüvelykkel
+41	8341	motivál	motiválja motiválni motivált motiválta motiváltak motiváló
+42	8342	megoldatlan	megoldatlanul
+43	8343	bél	belek belekben beleket belekkel belen belet
+44	8344	pálca	pálcák pálcát pálcával
+45	8345	lineáris	
+46	8346	kíváncsian	
+47	8347	rovására	
+48	8348	univerzális	
+49	8349	kigyullad	kigyulladt
+50	8350	meggyógyul	meggyógyulni
+51	8351	tartogat	tartogatja tartogatott
+52	8352	homogén	
+53	8353	tőkés	
+54	8354	karbantartás	karbantartása karbantartásra karbantartást
+55	8355	cégem	cégemet cégemhez cégemmel cégemnek cégemnél
+56	8356	tömény	töményet
+57	8357	rombol	rombolja romboljuk rombolják romboljátok rombolnak rombolni rombolod rombolom rombolt rombolta romboltak romboltam rombolták rombolva
+58	8358	szabályosan	
+59	8359	beszerzése	
+60	8360	karbantart	karbantartani karbantartott karbantartó
+61	8361	mérgezett	mérgezettek
+62	8362	apai	
+63	8363	állítható	
+64	8364	koleszterin	
+65	8365	középkorú	középkorúak
+66	8366	könyvesbolt	könyvesboltba könyvesboltban könyvesboltból könyvesboltot
+67	8367	alighanem	
+68	8368	középpont	középpontba középpontban
+69	8369	koruk	korukat korukban korukig korukra koruktól
+70	8370	egészségetek	egészségetekre
+71	8371	asztali	
+72	8372	fogalmazta	
+73	8373	elseje	elsején
+74	8374	vigyorog	vigyorgok vigyorgott vigyorgó vigyorognak vigyorogni vigyorogsz vigyorogva
+75	8375	nyelvtudás	nyelvtudással
+76	8376	megkezdése	megkezdéséhez megkezdésére megkezdését
+77	8377	háromszáz	háromszázat
+78	8378	nitrogén	nitrogénnel nitrogént
+79	8379	eljegyzés	eljegyzésen eljegyzéshez eljegyzésnek eljegyzésre eljegyzésről eljegyzést
+80	8380	centis	
+81	8381	ellenőr	ellenőrnek ellenőrrel ellenőrt ellenőrök ellenőröket
+82	8382	daru	daruk darura darut daruval darvak
+83	8383	beavat	beavatja beavatjuk beavatlak beavatna beavatni beavatnál beavatom beavatsz beavatta beavattad beavattak beavattam beavatás beavató
+84	8384	illetőleg	
+85	8385	vajda	
+86	8386	fon	fond fonja fonni fonok fonott fonta fonva fonák fonó
+87	8387	zárkózott	zárkózottak zárkózottnak
+88	8388	tizenegyedik	
+89	8389	gondos	
+90	8390	metál	metált
+91	8391	felnyit	felnyissam felnyitja felnyitjuk felnyitják felnyitni felnyitod felnyitom felnyitott felnyitotta felnyitottad felnyitottam felnyitottuk felnyitották felnyitva
+92	8392	északnyugati	
+93	8393	boszniai	
+94	8394	egyesülés	egyesülése egyesülésig egyesülésre egyesülést
+95	8395	hegymászó	hegymászók
+96	8396	maroknyi	maréknyi
+97	8397	legjobbja	legjobbjának legjobbját
+98	8398	irányzat	irányzatok irányzatot
+99	8399	borsó	borsót borsóval
+100	8400	hatékonysága	hatékonyságának hatékonyságát

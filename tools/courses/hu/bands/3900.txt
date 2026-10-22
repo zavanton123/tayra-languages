@@ -1,0 +1,100 @@
+1	3801	fasza	faszák faszán faszára faszát legfaszább
+2	3802	kimarad	kimaradjak kimaradjon kimaradna kimaradnak kimaradni kimaradnál kimaradnék kimaradok kimaradsz kimaradt kimaradtak kimaradtam kimaradtunk kimaradtál kimaradunk kimaradás
+3	3803	úszó	úszók úszót
+4	3804	emlékezet	emlékezetből emlékezete emlékezetemben emlékezetet emlékezett emlékezetébe emlékezetében emlékezetéből emlékezetét
+5	3805	cella	cellába cellában cellából cellája cellájába cellák cellákat cellákba cellákban cellákhoz cellán cellát
+6	3806	jótékonysági	
+7	3807	darabja	darabjában darabjának darabjára darabját darabjával darabjáért
+8	3808	csónak	csónakba csónakban csónakból csónakhoz csónakkal csónaknak csónakok csónakokat csónakokkal csónakon csónakot csónakra csónakról
+9	3809	odafenn	odafent odafentről odafönn odafönt
+10	3810	kerékpár	kerékpárok kerékpáron kerékpárral kerékpárt
+11	3811	emberem	emberemet emberemmel emberemnek emberemre emberemtől
+12	3812	tilt	tiltani tiltaná tilthat tilthatja tilthatod tiltja tiltják tiltom tiltotta tiltottam tiltották tiltsa tiltsd tiltsuk tiltsák tiltva tiltó
+13	3813	intézkedés	intézkedései intézkedések intézkedéseket intézkedésekkel intézkedésekre intézkedésekről intézkedésig intézkedésre intézkedést
+14	3814	egyensúly	egyensúlya egyensúlyba egyensúlyban egyensúlyból egyensúlyra egyensúlyról egyensúlyt egyensúlyát
+15	3815	egyedüli	egyedüliek egyedüliként
+16	3816	helyezkedik	helyezkedett helyezkedjenek helyezkedjetek helyezkednek helyezkedni helyezkedtek
+17	3817	testület	testületben testületből testületek testületet testülethez testületnek testületnél testülettel testülettől testületének
+18	3818	láda	ládába ládában ládából ládák ládákat ládákba ládákban ládán ládára ládát ládával
+19	3819	ehelyett	
+20	3820	újonc	újonccal újoncként újoncnak újoncok újoncokat újoncokkal újoncoknak újoncot
+21	3821	közigazgatási	
+22	3822	horvát	horvátok
+23	3823	eredetű	eredetűek
+24	3824	pajzs	pajzsba pajzsként pajzsnak pajzsok pajzsokat pajzsokba pajzsokkal pajzsokra pajzson pajzsot pajzsra pajzzsal
+25	3825	tragikus	legtragikusabb tragikusabb
+26	3826	összeomlik	összeomlana összeomlanak összeomlani összeomlok összeomlott összeomlottak összeomlottam összeomló összeomolhat
+27	3827	fenti	fentiek fentieken
+28	3828	zsűri	zsűriben zsűrinek zsűrit
+29	3829	süket	süketek süketen süketnek
+30	3830	holnapi	
+31	3831	kitalált	kitaláltad kitaláltak
+32	3832	sajátos	sajátosan
+33	3833	tisztelt	tiszteltek
+34	3834	ébresztő	ébresztőt
+35	3835	garancia	garanciát garanciával
+36	3836	zenéje	zenéjének zenéjére zenéjéről zenéjét zenéjével
+37	3837	stratégiai	
+38	3838	kur	kurt
+39	3839	születésnap	születésnapok születésnapokat születésnapot születésnapra
+40	3840	gyökér	gyökerek gyökereket gyökerekhez gyökerekkel gyökeret gyökérnek gyökérrel
+41	3841	kalóz	kalóznak kalózok kalózokat kalózokkal kalózoknak kalózokra kalózokról kalózoktól kalózt kalózzal
+42	3842	portál	portálon portált
+43	3843	palacsinta	palacsintába palacsintában palacsintához palacsinták palacsintákat palacsintára palacsintát palacsintával palacsintává
+44	3844	izom	izmok izmokat izmokkal izmot izomba izomból
+45	3845	szenvedély	szenvedéllyel szenvedélyből szenvedélye szenvedélyek szenvedélynek szenvedélyre szenvedélyről szenvedélyt szenvedélytől
+46	3846	ábrázol	ábrázolja ábrázolják ábrázolnak ábrázolni ábrázolt ábrázolta ábrázoltak ábrázolták ábrázolva ábrázoló
+47	3847	barátnő	barátnők barátnőket barátnőnek barátnőre barátnőről barátnőt barátnővel
+48	3848	megszeg	megszeged megszegek megszegem megszegett megszegi megszegik megszegitek megszegje megszegjem megszegjék megszegjük megszegni megszegné megszegném megszegte megszegted megszegtem megszegték megszegtél megszegtétek megszegtük megszegtünk
+49	3849	akciós	akciósak
+50	3850	bűnügyi	
+51	3851	alkotó	alkotók
+52	3852	szövetsége	szövetségének szövetségét szövetségétől
+53	3853	há	hának hával
+54	3854	derül	derülhet derüljön derülne derülnek derülni derülnie
+55	3855	nyelvi	
+56	3856	büntet	büntesse büntesselek büntessem büntessen büntessenek büntessék büntessük bünteted büntetem büntetett büntethető bünteti büntetik büntetjük büntetlek büntetned büntetnek büntetnem büntetni büntetnie büntetnünk büntetsz büntette büntettek büntettem büntették büntetve büntetünk
+57	3857	vágás	vágások vágásokat vágásra vágással vágást
+58	3858	pite	pitébe pitében pitéből pitéhez piték pitéket pitének pitére pitéről pitét pitével pitéért
+59	3859	máshova	máshová
+60	3860	elhatároz	elhatározni elhatározod elhatározta elhatároztad elhatároztam elhatároztuk elhatározták elhatározza
+61	3861	sós	sósat
+62	3862	páciens	páciense páciensei pácienseim páciensek pácienseket páciensekkel pácienseknek páciensekről páciensemet pácienshez páciensként páciensnek páciensről pácienssel pácienst páciensét
+63	3863	kiválaszt	kiválassza kiválasszam kiválasszuk kiválasztanak kiválasztani kiválasztania kiválasztanom kiválasztasz kiválaszthatod kiválaszthatom kiválasztja kiválasztjuk kiválasztják kiválasztod kiválasztok kiválasztom kiválasztotta kiválasztottad kiválasztottam kiválasztottuk kiválasztottunk kiválasztották kiválasztottál kiválasztunk kiválasztva
+64	3864	sportoló	sportolók sportolókat sportolókkal sportolóknak sportolónak sportolót
+65	3865	tok	tokba tokban tokot
+66	3866	alapos	alaposabb alaposak alaposnak
+67	3867	pöcs	pöccsel pöcsben pöcsnek pöcsre pöcsök pöcsöket pöcsöt
+68	3868	következtetés	következtetéseit következtetések következtetéseket következtetésekre következtetésre következtetést
+69	3869	tekintete	tekintetében tekintetéből tekintetét tekintetétől tekintetével
+70	3870	húzódik	húzódjak húzódjanak húzódjatok húzódjon húzódjunk húzódnak húzódni húzódnia húzódnom húzódnunk húzódott húzódtak húzódva húzódás húzódó
+71	3871	készítése	készítésében készítéséhez készítésének készítésénél készítésére készítését készítésével
+72	3872	szerény	szerényebb szerények szerényen szerénynek
+73	3873	ép	épek épen épnek
+74	3874	honvéd	
+75	3875	számom	számomat számomra
+76	3876	gyógyító	gyógyítók gyógyítónak gyógyítót gyógyítóval
+77	3877	táplál	táplálja tápláljon tápláljuk táplálják táplálnak táplálni táplálod táplálok táplálom táplálsz táplált táplálta tápláltak tápláltam táplálták táplálva táplálás tápláló
+78	3878	gyalog	gyalogok gyalogot
+79	3879	hajléktalan	hajléktalannak hajléktalannal hajléktalanná hajléktalanok hajléktalanokat hajléktalanokkal hajléktalanoknak hajléktalanokon hajléktalant
+80	3880	ellátott	
+81	3881	üzenete	üzenetében üzenetének üzenetére üzenetét üzenetével
+82	3882	értékű	értékűt
+83	3883	fokozatosan	
+84	3884	újonnan	
+85	3885	háttere	hátterében hátterének hátteréről hátterét hátterével
+86	3886	eltel	eltelt
+87	3887	földrengés	földrengésben földrengések földrengéseket földrengésre földrengésről földrengést
+88	3888	megcsal	megcsalja megcsalják megcsallak megcsalna megcsalnak megcsalni megcsalnám megcsalod megcsalom megcsalsz megcsalt megcsalta megcsaltad megcsaltak megcsaltalak megcsaltam megcsalták megcsaltál megcsalás megcsaló
+89	3889	utólag	
+90	3890	gyűlik	gyűljenek gyűljetek gyűljön gyűljünk gyűlnek gyűlni gyűlt gyűltek gyűltünk gyűlünk
+91	3891	egyenruha	egyenruhába egyenruhában egyenruhához egyenruhája egyenruhájában egyenruhák egyenruhákat egyenruhának egyenruhára egyenruhát egyenruhával
+92	3892	tiltott	tiltottak
+93	3893	végrehajtása	végrehajtásában végrehajtásához végrehajtásának végrehajtására végrehajtásáról végrehajtását végrehajtásával
+94	3894	mindenem	mindenemet
+95	3895	képtelenség	képtelenségeket képtelenséget képtelenségnek
+96	3896	csodál	csodálja csodáljuk csodálják csodállak csodálnak csodálni csodálnám csodálod csodálok csodálom csodálsz csodált csodálta csodáltalak csodáltam csodáltuk csodálták csodáló
+97	3897	nevük	nevükben nevüket nevükkel nevükre nevükön
+98	3898	odáig	
+99	3899	egy-két	
+100	3900	hajója	hajójához hajóján hajójának hajójára hajójáról hajóját hajójával

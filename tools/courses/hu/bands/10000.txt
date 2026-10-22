@@ -1,0 +1,100 @@
+1	9901	hatályos	
+2	9902	tartalak	
+3	9903	ráncos	
+4	9904	ide-oda	
+5	9905	gondjaim	gondjaimat gondjaimba gondjaimmal gondjaimra gondjaimról
+6	9906	gyakoriság	gyakorisága gyakorisággal
+7	9907	kitervel	kitervelt kitervelte kiterveltem kitervelték
+8	9908	márki	márkit
+9	9909	öntudat	öntudatra öntudattal öntudatát
+10	9910	pénztárca	pénztárcák pénztárcákat pénztárcát
+11	9911	kos	kosok kost
+12	9912	elmerül	elmerülni elmerülsz elmerült elmerültem elmerültél elmerülök elmerülünk
+13	9913	mesterség	mesterségek mesterséget
+14	9914	spenót	spenótot spenóttal
+15	9915	díjnyertes	
+16	9916	hangár	hangárba hangárban hangárból hangárt
+17	9917	hároméves	
+18	9918	csatol	csatolja csatoljuk csatolják csatolni csatolom csatoltam csatolták csatolva
+19	9919	koszorú	koszorút
+20	9920	bevásárol	bevásárolni bevásárolt bevásároltam bevásároltál
+21	9921	fulladás	fulladásnak fulladásra fulladást fulladástól
+22	9922	példakép	példaképek példaképet példaképnek példaképre
+23	9923	nagyszámú	
+24	9924	lábujj	lábujjaid lábujjait lábujjak lábujjakat lábujjal lábujjat lábujját
+25	9925	egyirányú	
+26	9926	készülhet	készülhetett
+27	9927	átutal	átutalja átutaljuk átutalják átutalni átutalom átutalt átutalta átutaltam átutalták átutalás
+28	9928	beleavatkozik	beleavatkoznak beleavatkozni beleavatkoznia beleavatkoznod beleavatkoznom beleavatkoznunk beleavatkozol beleavatkozott beleavatkoztam beleavatkoztál
+29	9929	bármerre	
+30	9930	visszatérhet	visszatérhetnek
+31	9931	szegénykém	
+32	9932	áfonya	áfonyát áfonyával
+33	9933	tyű	
+34	9934	halhatatlanság	halhatatlanságot halhatatlanságra
+35	9935	szívű	szívűek
+36	9936	tudnálak	
+37	9937	kupac	kupacba kupacban kupacot
+38	9938	hírei	híreit híreivel
+39	9939	nőnemű	
+40	9940	hollandiai	
+41	9941	weboldalunk	weboldalunkon
+42	9942	bölcső	bölcsőbe bölcsőben bölcsője bölcsőt
+43	9943	kilogramm	
+44	9944	évenként	
+45	9945	fürödik	fürödni
+46	9946	készenléti	
+47	9947	durranás	durranást
+48	9948	ragadós	
+49	9949	összegű	
+50	9950	zátony	zátonynál zátonyok zátonyon zátonyra zátonyt
+51	9951	engedelmesség	engedelmességet engedelmességgel engedelmességre
+52	9952	színtelen	
+53	9953	lányos	
+54	9954	erőtlen	erőtlenek erőtlennek erőtlenül
+55	9955	borította	
+56	9956	egyházközség	
+57	9957	ellenőrzési	
+58	9958	mindenhonnan	
+59	9959	sebészi	
+60	9960	bombázás	bombázásban bombázások bombázást
+61	9961	tollas	
+62	9962	kozmetikai	
+63	9963	kommentár	kommentárt
+64	9964	anatómiai	
+65	9965	aranyozott	
+66	9966	forradalmár	forradalmárok
+67	9967	rasszizmus	rasszizmusról rasszizmussal rasszizmust
+68	9968	comb	combja combjai combok combokat combon combot
+69	9969	gyógyíthatatlan	
+70	9970	gall	gallok gallon gallonnal gallont gallért
+71	9971	sebei	sebeire sebeit
+72	9972	éghajlat	éghajlaton éghajlatot éghajlatra
+73	9973	külvárosi	
+74	9974	játékai	játékait játékaival
+75	9975	kalapos	kalaposok
+76	9976	tapasztalatlan	tapasztalatlanok
+77	9977	letel	letelt
+78	9978	nyugalmaz	nyugalmazott
+79	9979	fáradhatatlan	fáradhatatlanul
+80	9980	vérszomjas	vérszomjasak
+81	9981	napkelte	napkeltéig napkeltére napkeltét napkeltétől
+82	9982	cukros	
+83	9983	világod	világodat világodba világodban világodból
+84	9984	bombáz	bombáznak bombázni bombázott bombázta bombáztak bombázták bombázza bombázzuk bombázzák
+85	9985	érvelés	érvelése érvelést
+86	9986	panama	panamába panamában panamából
+87	9987	megítél	megítéli megítéljem megítélni
+88	9988	fogda	fogdába fogdában fogdából fogdán fogdát
+89	9989	ádáz	legádázabb ádázul
+90	9990	oldódik	oldódott
+91	9991	marsi	marsiak
+92	9992	nyomdai	
+93	9993	létesítése	létesítésére létesítését
+94	9994	lopakodik	lopakodni lopakodott lopakodsz lopakodtam lopakodás lopakodó
+95	9995	koma	komák komám
+96	9996	festészet	festészetet
+97	9997	elnyomás	elnyomása
+98	9998	petíció	petíciót
+99	9999	koffein	koffeinnel koffeinre koffeint
+100	10000	zenekari	

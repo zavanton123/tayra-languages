@@ -1,0 +1,100 @@
+1	1401	helyette	helyetted helyettem helyettetek helyettük helyettünk
+2	1402	hazugság	hazugságba hazugságban hazugságból hazugsággal hazugsággá hazugságnak hazugságok hazugságokat hazugságokba hazugságokban hazugságokból hazugságokkal hazugságoknak hazugságokon hazugságokra hazugságokról hazugságoktól hazugságon hazugságot hazugságra hazugságról hazugságtól hazugságért
+3	1403	gondolat	gondolatba gondolatban gondolathoz gondolatnak gondolatok gondolatokat gondolatokban gondolatokkal gondolatoknak gondolatokra gondolatoktól gondolatot gondolatra gondolattal gondolattól
+4	1404	izgalmas	izgalmasabb izgalmasak izgalmasat izgalmasnak izgalmassá legizgalmasabb
+5	1405	ebéd	ebédből ebéddel ebédek ebédeket ebéden ebédet ebédhez ebédig ebédjét ebédkor ebédnek ebédnél ebédre ebédről ebédért
+6	1406	szezon	szezonban szezonból szezonnak szezonon szezonra szezont
+7	1407	ellenőriz	ellenőrizheted ellenőrizhetem ellenőrizhetetlen ellenőrizheti ellenőrizhetik ellenőrizhetjük ellenőrizhetnénk ellenőrizlek ellenőrizned ellenőriznek ellenőriznem ellenőrizni ellenőriznünk ellenőrizted ellenőriztek ellenőriztem ellenőrizték ellenőriztél ellenőriztétek ellenőriztük ellenőriztünk ellenőrizze ellenőrizzek ellenőrizzem ellenőrizzen ellenőrizzenek ellenőrizzetek ellenőrizzék ellenőrizzétek ellenőrizzük ellenőrizzünk ellenőrzi
+8	1408	hétfő	hétfőhöz hétfőig hétfők hétfőket hétfőn hétfőre hétfőt hétfőtől
+9	1409	hadsereg	hadseregbe hadseregben hadseregből hadseregek hadseregen hadsereget hadsereggel hadsereghez hadseregnek hadseregnél hadseregre hadseregről hadseregtől hadseregé hadseregük
+10	1410	terjed	terjedhet terjedjen terjedne terjednek terjedni terjedt terjedtek terjedő terjessze terjesszem terjesszen terjesszék terjesszétek terjesszük terjeszt terjeszted terjesztek terjesztem terjesztenek terjeszteni terjesztenünk terjesztesz terjesztett terjesztetted terjesztettek terjesztettem terjesztették terjeszti terjesztik terjesztjük terjesztünk terjesztő
+11	1411	egyéni	egyéniben
+12	1412	faj	fajba fajban fajból fajhoz fajjal fajjá fajnak fajnál fajok fajokat fajokkal fajoknak fajokról fajra fajról fajt fajtól
+13	1413	ügyes	legügyesebb ügyesebb ügyesebben ügyesek ügyesen ügyesnek
+14	1414	megjelenik	megjelenek megjelenhetnek megjelenjek megjelenjen megjelenjenek megjelenne megjelenned megjelennek megjelennem megjelenni megjelennie megjelennének megjelensz megjelentetek megjelentetett megjelentethető megjelenteti megjelentetni megjelentette megjelentünk megjelenünk megjelenő
+15	1415	szülei	szüleihez szüleik szüleinek szüleinél szüleire szüleiről szüleit szüleitől szüleivel szüleié
+16	1416	fenyeget	fenyegesse fenyegessen fenyegeted fenyegetem fenyegetett fenyegethet fenyegetheti fenyegeti fenyegetik fenyegetjük fenyegetlek fenyegetne fenyegetnek fenyegetni fenyegetné fenyegetsz fenyegette fenyegetted fenyegettek fenyegettem fenyegették fenyegettél fenyegetve fenyegetés fenyegetések fenyegetéssel fenyegetést fenyegető fenyegetően fenyegetőnek
+17	1417	küldött	küldöttek küldötteket küldöttet
+18	1418	elárul	elárulhatná elárulhatnád elárulhatod elárulhatok elárulhatom elárulja eláruljak eláruljam eláruljon eláruljuk elárulják eláruljátok elárulna elárulnak elárulni elárulnia elárulnod elárulnom elárulná elárulnád elárulnák elárulnál elárulnám elárulnátok elárulod elárulok elárulom elárulsz elárult elárulta elárultad elárultak elárultalak elárultam elárultatok elárultuk elárulták elárultál elárulva
+19	1419	ártatlan	legártatlanabb ártatlanabb ártatlannak ártatlanok ártatlanokat ártatlanokkal ártatlanoknak ártatlanokra ártatlant ártatlanul
+20	1420	kapu	kapuba kapuban kapuból kapuhoz kapuig kapuk kapukat kapukhoz kapukkal kapuknál kapukon kapun kapunak kapunál kapura kapuról kaput kaputól kapuval
+21	1421	felirat	feliratok feliratokat feliratokért feliratot feliratra felirattal feliratért
+22	1422	bomba	bombaként bombában bombából bombához bombák bombákat bombákhoz bombákkal bombákról bombán bombának bombánál bombára bombáról bombát bombától bombával bombává bombáért
+23	1423	fajta	fajtából fajták fajtákat fajtának fajtára fajtát fajtával
+24	1424	városi	városiak
+25	1425	kezdet	kezdetben kezdetek kezdetekben kezdetekhez kezdeteknél kezdetekre kezdetektől kezdetet kezdethez kezdetként kezdetnek kezdetre kezdettől
+26	1426	leginkább	
+27	1427	tea	teába teában teából teához teájuk teák teának teánál teára teáról teát teától teával teáért
+28	1428	örök	örökbe öröktől öröké örökül
+29	1429	hagyta	
+30	1430	eladó	eladóak eladók eladóként eladónak eladót eladótól eladóval
+31	1431	beszéd	beszédbe beszédben beszédből beszéddel beszédek beszédeket beszéden beszédet beszédhez beszédnek beszédnél beszédre beszédről beszédtől beszédért
+32	1432	farkas	farkashoz farkasként farkasnak farkasok farkasokat farkasokkal farkasoknak farkasokra farkasokról farkasoktól farkasra farkasról farkassal farkassá farkast farkastól
+33	1433	eltűnik	eltüntesse eltüntessem eltüntessék eltünteted eltüntetem eltüntetett eltünteti eltüntetik eltüntetjük eltüntetni eltüntette eltüntetted eltüntettem eltüntették eltűnhet eltűnhetsz eltűnhetünk eltűnjek eltűnjenek eltűnjön eltűnjünk eltűnne eltűnnek eltűnni eltűnnie eltűnnék eltűnnél eltűnnének eltűnnünk eltűnsz eltűntem eltűntetek eltűntél eltűntök eltűntünk eltűnve eltűnök eltűnünk eltűnő
+34	1434	magyarországi	
+35	1435	klasszikus	klasszikusnak klasszikusok klasszikusokat klasszikust
+36	1436	életünk	életünkbe életünkben életünkből életünket életünkhöz életünkkel életünknek életünkre életünkről életünkért életünkön
+37	1437	kártya	kártyában kártyából kártyához kártyák kártyákat kártyákból kártyákkal kártyákon kártyákra kártyán kártyának kártyára kártyáról kártyát kártyával kártyává kártyáért
+38	1438	nyugat	nyugatnak nyugaton nyugatot nyugatra nyugatról nyugattal
+39	1439	szerepe	szerepébe szerepében szerepéből szerepéhez szerepének szerepére szerepéről szerepét szerepével szerepéért
+40	1440	kezed	kezedbe kezedben kezedből kezeddel kezeden kezedet kezedhez kezednek kezedre kezedről
+41	1441	mindenhol	
+42	1442	elképesztő	elképesztőbb elképesztőek elképesztően elképesztőnek elképesztőt legelképesztőbb
+43	1443	színész	színésszel színészek színészeket színészekkel színészeknek színészekre színészként színésznek színészre színészről színészt
+44	1444	kapcsolatos	kapcsolatosak kapcsolatosat
+45	1445	cipő	cipőbe cipőben cipőből cipőhöz cipőjét cipőjüket cipők cipőkben cipőket cipőkkel cipőknek cipőkre cipőkről cipőn cipőnek cipőre cipőről cipőt cipőtől cipővel cipőért
+46	1446	szomszéd	szomszédba szomszédban szomszédból szomszéddal szomszédhoz szomszédja szomszédjával szomszédnak szomszédnál szomszédok szomszédokat szomszédokhoz szomszédokkal szomszédoknak szomszédoknál szomszédokra szomszédokról szomszédoktól szomszédot szomszédra szomszédtól
+47	1447	ah	
+48	1448	hord	hordana hordani hordania hordanod hordanom hordanék hordasz hordd hordhat hordhatod hordhatok hordhatom hordj hordja hordjak hordjam hordjon hordjuk hordják hordjátok hordod hordok hordom hordott hordta hordtad hordtak hordtam hordták hordtál hordunk hordó hordóba hordóban hordók hordókat hordón hordót hordóval
+49	1449	jogi	
+50	1450	némi	
+51	1451	környéke	környékén környékének környékére környékéről környékét
+52	1452	ideges	idegesebb idegesek idegesen idegesnek idegessé
+53	1453	örömmel	
+54	1454	növény	növénnyel növényből növények növényekből növényeket növényekhez növényekkel növényeknek növényekre növényekről növénynek növényre növényről növényt
+55	1455	nemrég	
+56	1456	hasznos	hasznosabb hasznosak hasznosat hasznosnak hasznosra hasznossal hasznossá leghasznosabb
+57	1457	lény	lénnyel lénnyé lényben lényei lények lényeket lényekhez lényekkel lényekké lényekként lényeknek lényekre lényekről lényektől lényhez lényként lénynek lényre lényről lényt lénytől
+58	1458	vél	véled vélek vélem véli vélik vélitek véljem véljük vélnek vélni vélsz vélt vélte vélted véltek véltem vélték véltél véltük vélünk
+59	1459	téli	télire
+60	1460	dühös	dühösebb dühösek dühösen dühösnek dühössé legdühösebb
+61	1461	román	románok románul
+62	1462	nyugati	nyugatiak
+63	1463	halálos	halálosabb halálosak halálosan halálosnak leghalálosabb
+64	1464	keresztény	keresztyén kereszténnyé keresztények keresztényeket keresztényekkel keresztényeknek keresztényhez keresztényként kereszténynek keresztényt
+65	1465	adatai	adataihoz adataik adatainak adataira adatait adataival
+66	1466	térkép	térképe térképek térképeken térképeket térképekkel térképen térképet térképhez térképnek térképpel térképre térképről térképén térképért térképét
+67	1467	hús	húsba húsban húsból húshoz húsnak húsok húsokat húson húsra húsról hússal húst hústól húsért
+68	1468	gyűjt	gyűjtened gyűjtenek gyűjtenem gyűjteni gyűjtenie gyűjtenünk gyűjtesz gyűjthetünk gyűjti gyűjtik gyűjtjük gyűjts gyűjtsd gyűjtse gyűjtsek gyűjtsenek gyűjtsetek gyűjtsék gyűjtsétek gyűjtsön gyűjtsük gyűjtsünk gyűjtve gyűjtöd gyűjtök gyűjtöm gyűjtött gyűjtötte gyűjtöttek gyűjtöttem gyűjtötték gyűjtöttél gyűjtöttük gyűjtöttünk gyűjtünk gyűjtő gyűjtők gyűjtőknek gyűjtőnek
+69	1469	esti	estit
+70	1470	vita	vitába vitában vitából vitához vitájuk viták vitákat vitákban vitákra vitán vitának vitára vitáról vitát vitával
+71	1471	elem	elemből elemek elemekből elemeket elemekkel elemeknek elemekre elemet elemmel elemnek elemre
+72	1472	nemcsak	
+73	1473	eljut	eljussak eljussanak eljussatok eljusson eljussunk eljuthat eljuthatnak eljuthatok eljuthatsz eljuthatunk eljutna eljutnak eljutni eljutnia eljutniuk eljutnod eljutnom eljutnunk eljutnánk eljutok eljutott eljutottak eljutottam eljutottatok eljutottunk eljutottál eljutsz eljuttassa eljuttassuk eljuttat eljuttatja eljuttatjuk eljuttatlak eljuttatni eljuttatom eljuttatott eljuttatta eljuttok eljutunk
+74	1474	agy	aggyal agyak agyakat agyam agyamban agyat agyba agyban agyból agyhoz agynak agyon agyra agyról
+75	1475	csendes	csendesebb csendesebben csendesek csendesen csendesnek csöndes csöndesebb csöndesek csöndesen legcsendesebb
+76	1476	professzor	professzorhoz professzornak professzornál professzorok professzorra professzorral professzorról professzort professzortól professzoré
+77	1477	kő	kövek kövekben kövekből köveken köveket kövekhez kövekkel köveknek kövekre kövekről kövön kőbe kőben kőből kőhöz kőnek kőnél kőre kőről kőtől kővel kővé kőért
+78	1478	munkám	munkámat munkámba munkámban munkámból munkámhoz munkámmal munkámnak munkámon munkámra munkámról munkámtól munkámért
+79	1479	kategória	kategóriába kategóriában kategóriák kategóriákban kategóriát
+80	1480	kutatás	kutatásba kutatásban kutatásból kutatáshoz kutatásnak kutatások kutatásokat kutatásokban kutatásokkal kutatásokra kutatáson kutatásra kutatásról kutatással kutatást
+81	1481	utáni	utániak
+82	1482	egyesület	egyesületben egyesületek egyesületet egyesületnek
+83	1483	nehezen	legnehezebben nehezebben
+84	1484	hátul	hátrább hátrébb hátulról
+85	1485	szakít	szakítana szakítanak szakítani szakítania szakítanod szakítanom szakítanunk szakítanál szakítanánk szakítanék szakítasz szakíthat szakíthatok szakíthatsz szakíthatunk szakítja szakítjuk szakítok szakítom szakítotok szakított szakította szakítottak szakítottam szakítottatok szakítottunk szakították szakítottál szakítsa szakítsak szakítsalak szakítsam szakítsanak szakítsatok szakítson szakítsuk szakítsunk szakítunk szakító
+86	1486	tartó	tartóba tartóban tartók tartóra tartót
+87	1487	barátai	barátaihoz barátaik barátain barátainak barátainál barátaira barátairól barátait barátaitól barátaival barátaiért
+88	1488	interjú	interjúba interjúban interjúból interjúhoz interjújában interjúk interjúkat interjúkon interjúkra interjún interjúnak interjúra interjúról interjút interjúval interjúért
+89	1489	isteni	isteniek istenit
+90	1490	hmm	
+91	1491	könyvtár	könyvtárak könyvtárakat könyvtárat könyvtárba könyvtárban könyvtárból könyvtárhoz könyvtárnak könyvtárnál könyvtárral könyvtárról könyvtárt
+92	1492	ugyanolyan	ugyanolyannak ugyanolyanok ugyanolyat
+93	1493	körülmény	körülmények körülményeket körülményekhez körülményekkel körülményeknek körülményekre körülményekről körülményektől körülménynek körülményt
+94	1494	kicsoda	kicsodák kicsodát
+95	1495	társadalom	társadalmak társadalmakban társadalmat társadalmon társadalmunk társadalmunkban társadalomba társadalomban társadalomból társadalomhoz társadalommal társadalomnak társadalomra társadalomról társadalomtól társadalomért
+96	1496	csend	csendbe csenddel csendet csendnek csendre csendül csönd csöndbe csöndet
+97	1497	pici	picik picinek picit picivel
+98	1498	bob	bobbal bobhoz bobnak bobot bobra bobról bobtól
+99	1499	kérdése	kérdésében kérdésére kérdését kérdésével
+100	1500	teljesít	teljesíted teljesítek teljesítem teljesítened teljesítenek teljesítenem teljesíteni teljesítenie teljesíteniük teljesítenéd teljesítenünk teljesítesz teljesített teljesítette teljesítetted teljesítettek teljesítettem teljesítettél teljesítettétek teljesítettük teljesítettünk teljesíthetem teljesíthetetlen teljesítheti teljesíthető teljesíti teljesítik teljesítitek teljesítjük teljesítse teljesítsem teljesítsen teljesítsék teljesítsétek teljesítsük teljesítve teljesítünk teljesítő

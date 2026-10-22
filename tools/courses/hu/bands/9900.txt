@@ -1,0 +1,100 @@
+1	9801	nyomuk	nyomukat nyomukba nyomukban nyomukra
+2	9802	elcserél	elcseréled elcserélem elcseréli elcseréljük elcserélni elcserélném elcserélt elcserélte elcserélted elcseréltek elcseréltem elcserélték elcseréltük
+3	9803	ketchup	ketchupot ketchuppal
+4	9804	jóformán	
+5	9805	hoki	hokiban hokit
+6	9806	tulipán	tulipánok tulipánokat tulipánt
+7	9807	tagú	
+8	9808	légió	légióban légiók légiót
+9	9809	mérföldkő	mérföldkövet mérföldkőnél
+10	9810	admin	
+11	9811	szüntet	szüntesd szüntesse szüntessék szüntessük szünteti szüntetni szüntetnünk szüntette szüntették
+12	9812	felületi	
+13	9813	tetszetős	
+14	9814	elfordul	elfordult
+15	9815	jázmin	jázmint
+16	9816	eltakar	eltakarja eltakarni eltakarta
+17	9817	bokszoló	bokszolók bokszolónak bokszolót
+18	9818	katedrális	katedrálisba katedrálisban katedrálist
+19	9819	kapitalizmus	kapitalizmust
+20	9820	megalapozott	megalapozottak
+21	9821	tekintély	tekintéllyel tekintélyt
+22	9822	fürdőruha	fürdőruhában fürdőruhák fürdőruhákat fürdőruhát
+23	9823	szagú	
+24	9824	kóser	
+25	9825	földes	
+26	9826	élősködő	élősködők
+27	9827	pék	péket
+28	9828	burkolt	burkoltan
+29	9829	akárhova	akárhová
+30	9830	gyümölcslé	gyümölcslevet gyümölcslét gyümölcslével
+31	9831	felkutatás	felkutatása felkutatására
+32	9832	felületes	felületesek felületesen
+33	9833	bevásárló	
+34	9834	vitorla	vitorlák vitorlákat vitorlát
+35	9835	jelszava	jelszavát
+36	9836	ismertelek	
+37	9837	szabadságvesztés	szabadságvesztésre szabadságvesztéssel
+38	9838	sántikál	sántikálnak sántikálok sántikálsz sántikált sántikáltok
+39	9839	producere	producerével
+40	9840	átél	átélt
+41	9841	manőver	manőverrel manővert
+42	9842	csúszós	csúszósak
+43	9843	méltatlan	méltatlannak méltatlanok méltatlanul
+44	9844	kezdeményezte	
+45	9845	szakterülete	szakterületén
+46	9846	homály	homályba homályban homályból homályt
+47	9847	ítélkezik	ítélkeznek ítélkezni
+48	9848	bőg	bőgj bőgnek bőgni bőgsz bőgtem bőgtél bőgve bőgök bőgött bőgő
+49	9849	bús	búsba
+50	9850	üzemeltető	üzemeltetők
+51	9851	édesanya	édesanyjuk édesanyák édesanyát
+52	9852	dokumentál	dokumentálja dokumentáljuk dokumentálni dokumentálom dokumentált dokumentálta dokumentálták dokumentálva
+53	9853	felmentés	felmentése felmentést
+54	9854	erotika	
+55	9855	szita	szitán szitává
+56	9856	óz	ózban ózon
+57	9857	dühít	dühíteni dühített dühítette dühíti dühítő
+58	9858	életkor	életkorban életkort
+59	9859	szalma	szalmából szalmát szalmával
+60	9860	középfokú	
+61	9861	örvény	örvénybe örvényben örvények örvényt
+62	9862	programozási	
+63	9863	bontás	bontásban bontásra bontást
+64	9864	helyreáll	helyreállt
+65	9865	gyakorta	
+66	9866	macskám	macskámat macskámmal
+67	9867	jámbor	
+68	9868	zuhanás	zuhanása
+69	9869	hengeres	
+70	9870	számottevő	
+71	9871	milliméter	milliméterre milliméterrel millimétert
+72	9872	gyarapodik	gyarapodnak gyarapodni gyarapodott gyarapodó gyarapszik
+73	9873	lovasság	lovasságnál lovasságot
+74	9874	elfogult	elfogultak elfogultnak
+75	9875	következőképpen	
+76	9876	dolgotok	dolgotokat dolgotokkal dolgotokra
+77	9877	tankol	tankolni tankolnom tankolnunk tankolok tankolt tankoltam tankoltál tankolunk tankolva tankolás
+78	9878	állatorvosi	
+79	9879	színvonala	színvonalának színvonalát
+80	9880	felkapott	legfelkapottabb
+81	9881	pikk	pikkel pikkelnek pikkelsz pikkelt
+82	9882	árpa	árpát
+83	9883	forróság	forróságban
+84	9884	beleegyezés	beleegyezésre beleegyezéssel beleegyezést beleegyezését
+85	9885	nedvesség	nedvességet
+86	9886	generális	generálist
+87	9887	teológia	teológiát
+88	9888	mezítláb	
+89	9889	simogat	simogassa simogatja simogatják simogatni simogatod simogatom simogatta simogattad simogattam simogató
+90	9890	amott	
+91	9891	szereplés	szereplése
+92	9892	magyarázkodik	magyarázkodni magyarázkodnia magyarázkodnod magyarázkodnom magyarázkodsz
+93	9893	kanna	kannában kannák kannákat kannát kannával
+94	9894	szalvéta	szalvéták szalvétákat szalvétán szalvétára szalvétát szalvétával
+95	9895	székesegyház	székesegyházban
+96	9896	vágány	vágánynál vágányon vágányra vágányról vágányt
+97	9897	felfogás	
+98	9898	időtartama	időtartamát
+99	9899	megidéz	megidézem megidézett megidézi megidézik megidézlek megidézni megidézte megidéztem megidézték megidézzük megidézünk megidéző
+100	9900	külügyi	

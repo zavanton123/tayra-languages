@@ -1,0 +1,100 @@
+1	7001	gyógyítás	gyógyítása gyógyításban gyógyításhoz gyógyításra gyógyítást gyógyítására
+2	7002	halotti	
+3	7003	joguk	jogukat jogukban
+4	7004	konzultáció	konzultáción konzultációra konzultációt
+5	7005	sarki	
+6	7006	pályázik	pályáznak pályázni pályázok pályázol pályázott pályáztak pályáztam pályázunk pályázó
+7	7007	izmos	izmosabb izmosak
+8	7008	elemez	elemeznem elemezni elemeznünk elemezte elemeztem elemezték elemeztük elemezve elemezze elemezzem elemezzék elemezzük elemzik
+9	7009	mesterlövész	mesterlövészek mesterlövészeket mesterlövésznek mesterlövészt
+10	7010	szekér	szekerek szekereket szekeret szekéren szekérre szekérrel szekérről
+11	7011	ifjúság	ifjúsága ifjúságot ifjúságát
+12	7012	füled	füledbe füledben füledből füleddel füleden füledet füledhez fülednek fülednél füledre
+13	7013	természetű	természetűek
+14	7014	felsőfokú	
+15	7015	üvölt	üvöltenek üvölteni üvöltesz üvölti üvöltsetek üvöltsön üvöltve üvöltök üvöltött üvöltötte üvöltöttek üvöltöttem üvöltő
+16	7016	vizsgálati	
+17	7017	kívánatos	kívánatosabb kívánatosak kívánatosnak legkívánatosabb
+18	7018	röplabda	röplabdát
+19	7019	ferde	ferdén
+20	7020	tartás	tartással tartást
+21	7021	para	
+22	7022	megvalósul	megvalósuljon megvalósulnak megvalósulni megvalósult megvalósuló
+23	7023	mindörökké	
+24	7024	robbantás	robbantások robbantásokat robbantással robbantást
+25	7025	fejenként	
+26	7026	ácsi	
+27	7027	kunyhó	kunyhóba kunyhóban kunyhóból kunyhóhoz kunyhók kunyhókat kunyhókban kunyhónál kunyhót
+28	7028	paraméter	paramétereit paraméterek paramétereken paramétereket
+29	7029	városrész	városrészben városrészek városrészt
+30	7030	bak	bakot
+31	7031	kakas	kakasok kakasokat kakassal kakast
+32	7032	balszerencse	balszerencsében balszerencséjére balszerencsét
+33	7033	lábaim	lábaimat lábaimmal lábaimnál lábaimon
+34	7034	tervezési	
+35	7035	bajunk	
+36	7036	sportág	sportágak sportágban
+37	7037	lakókocsi	lakókocsiba lakókocsiban lakókocsiból lakókocsihoz lakókocsik lakókocsinál lakókocsit lakókocsival
+38	7038	ötszáz	ötszázat
+39	7039	buborék	buborékba buborékban buborékok buborékokat buborékot
+40	7040	kiküld	kiküldenek kiküldeni kiküldi kiküldik kiküldjük kiküldte kiküldtek kiküldtem kiküldték kiküldtük kiküldtünk kiküldök kiküldöm kiküldött kiküldünk
+41	7041	visszakap	visszakapja visszakapná visszakapta visszakapták
+42	7042	előleg	előlegbe előleget előleggel előlegként előlegnek előlegre
+43	7043	kalandos	
+44	7044	szekta	szektába szektában szektából szektához szekták szektának szektáról szektát szektával
+45	7045	teljesítményű	
+46	7046	hazám	hazámat hazámba hazámban hazámnak hazámért
+47	7047	szemtelen	szemtelenek szemtelennek szemtelenül
+48	7048	bombázó	bombázók bombázókat bombázót bombázóval
+49	7049	lenyom	lenyomja lenyomjuk lenyomják lenyomlak lenyomnak lenyomni lenyomod lenyomok lenyomom lenyomott lenyomsz lenyomta lenyomtad lenyomtak lenyomtalak lenyomtam lenyomtuk lenyomták lenyomtál lenyomunk
+50	7050	hajóm	hajómat hajómhoz hajómmal hajómon hajómra hajómról
+51	7051	jellem	jelleme jellemet jellemre jellemét
+52	7052	tükre	tükrében tükrét
+53	7053	bábu	bábuk bábukat bábukkal bábuként bábunak bábut bábuval
+54	7054	pulzusa	pulzusát
+55	7055	sonka	sonkát sonkával
+56	7056	oldalad	oldaladat oldaladon oldaladra oldaladról
+57	7057	alapította	
+58	7058	százszor	
+59	7059	lenti	lentiek
+60	7060	megbocsátás	megbocsájtás megbocsátásban megbocsátásra megbocsátásról megbocsátással megbocsátást megbocsátásért
+61	7061	mellei	melleire melleit melleivel
+62	7062	óvszer	óvszerek óvszereket óvszerre óvszerrel óvszert
+63	7063	emléktábla	emléktáblát
+64	7064	korty	kortyot
+65	7065	oltás	oltások oltásokat oltásra oltást
+66	7066	rum	rumba rummal rumot
+67	7067	bevásárlóközpont	bevásárlóközpontba bevásárlóközpontban bevásárlóközpontok bevásárlóközpontot
+68	7068	környékbeli	környékbeliek
+69	7069	krónika	krónikák
+70	7070	egészségi	
+71	7071	valahogyan	
+72	7072	lejátszó	lejátszóba lejátszóban lejátszót
+73	7073	buddhista	buddhisták
+74	7074	app	appot
+75	7075	mechanikus	
+76	7076	újbóli	
+77	7077	ígérte	
+78	7078	megbolondul	megbolondulnak megbolondulni megbolondulok megbolondult megbolondultak megbolondultam megbolondultatok megbolondultál megbolondít megbolondítja
+79	7079	elfér	elférek elférjen elférne elférnek elférni elfért elfértek elférünk
+80	7080	hátrány	hátránnyal hátrányait hátrányba hátrányban hátrányból hátrányok hátrányt
+81	7081	tengely	tengelyen tengelyt
+82	7082	összefog	összefogja összefognak összefogni összefognánk összefogott összefogtak összefogtatok összefogtunk összefogunk összefogva összefogó
+83	7083	aranyérem	aranyérmet
+84	7084	enélkül	
+85	7085	szaporodik	szaporodjanak szaporodjon szaporodnak szaporodni szaporodtak szaporodó
+86	7086	asztalos	
+87	7087	határozatlan	
+88	7088	faji	
+89	7089	nyugodik	nyugodjak nyugodni nyugodnom
+90	7090	rág	rágd rágj rágja rágjuk rágják rágnak rágni rágnom rágod rágok rágom rágott rágsz rágta rágtam rágva rágás rágó
+91	7091	nyilas	nyilasok
+92	7092	hiábavaló	hiábavalóak hiábavalónak
+93	7093	pincérnő	pincérnők pincérnőket pincérnőként pincérnőnek pincérnőt pincérnővel
+94	7094	mulat	mulassanak mulassatok mulasson mulassunk mulatnak mulatni mulatok mulatott mulatsz mulattak mulattam mulattat mulattatok mulattok mulattunk mulattál mulatunk mulató
+95	7095	dékán	dékánnak dékánnal dékánt
+96	7096	zsarolás	zsarolásban zsaroláshoz zsarolásnak zsarolásra zsarolásról zsarolással zsarolást zsarolásért
+97	7097	hibái	hibáiból hibáik hibáira hibáit hibáival hibáiért
+98	7098	lelkiismeret	lelkiismeretet lelkiismerettel
+99	7099	cselekvés	cselekvésre cselekvést
+100	7100	kétséges	

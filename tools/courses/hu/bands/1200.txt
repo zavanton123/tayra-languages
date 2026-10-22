@@ -1,0 +1,100 @@
+1	1101	folyton	
+2	1102	parancs	paranccsal parancsa parancsait parancsba parancsban parancshoz parancsig parancsnak parancsok parancsokat parancsokkal parancsoknak parancsokra parancsot parancsra parancsról parancsért
+3	1103	bocsi	
+4	1104	tag	tagból taggal taggá tagjaink tagként tagnak tagok tagokat tagokkal tagoknak tagokra tagokról tagot tagra tagról tagtól
+5	1105	ver	verd vered verek verem verembe veremben verhet verheted verheti verhetsz veri verik verj verje verjem verjen verjenek verjék verjétek verjük verjünk vermet verne vernek verni verné vernék verném versz vert verted vertek vertem verték vertél vertük verve verünk verő
+6	1106	különbség	különbségek különbségeket különbségekről különbséget különbséggel különbségre különbségről
+7	1107	la	
+8	1108	időm	időmbe időmben időmből időmet időmmel
+9	1109	közötti	közöttiek
+10	1110	ezután	
+11	1111	világos	világosabb világosak világosat világosban világosnak világossá
+12	1112	népszerű	legnépszerűbb népszerűbb népszerűek népszerűnek népszerűvé
+13	1113	arc	arcba arcban arccal archoz arcnak arcok arcokat arcokkal arcoknak arcokon arcokra arcokról arcon arcot arcra arcról arcul
+14	1114	vonal	vonalai vonalaikat vonalak vonalakat vonalakban vonalakkal vonalakon vonalat vonalba vonalban vonalból vonalhoz vonalig vonallal vonalnak vonalnál vonalon vonalra vonalról vonaltól vonalában vonalát
+15	1115	hajt	hajtana hajtanak hajtani hajtania hajtanod hajtanom hajtanunk hajtasz hajtja hajtjuk hajtják hajtod hajtok hajtom hajtott hajtotta hajtottak hajtottam hajtottunk hajtották hajtottál hajts hajtsa hajtsak hajtsam hajtsanak hajtsatok hajtsd hajtson hajtsuk hajtsunk hajtsák hajtsátok hajtunk hajtva hajtás hajtások hajtást hajtó
+16	1116	ingyen	
+17	1117	ellenség	ellensége ellenségei ellenségeinek ellenségeinket ellenségeire ellenségeit ellenségek ellenségekben ellenségeket ellenségekkel ellenségekké ellenségeknek ellenségekre ellenségen ellenséget ellenséggel ellenséggé ellenséghez ellenségként ellenségnek ellenségnél ellenségre ellenségről ellenségtől ellenségének ellenségük ellenségünk
+18	1118	megszerez	megszerezhesse megszerezheted megszerezhetem megszerezhetik megszerezhetjük megszerezhetném megszerezhetnénk megszerezhette megszerezned megszereznem megszerezni megszereznie megszerezné megszereznéd megszerezném megszereznénk megszereznünk megszerezte megszerezted megszereztek megszereztem megszerezték megszereztél megszereztétek megszereztük megszereztünk megszerezze megszerezzem megszerezzen megszerezzék megszerezzük megszerzed megszerzek megszerzem megszerzett megszerzi megszerzik megszerzitek megszerzünk
+19	1119	reggeli	reggelihez reggelin reggelinek reggelinél reggelire reggeliről reggelit reggelivel reggeliért
+20	1120	száz	egyszáz százainak százait százak százakat százat százból százhoz százig száznál százra százzal százával
+21	1121	ingyenes	ingyenesek ingyenesen
+22	1122	papír	papírba papírban papírból papírhoz papírja papírjai papírjaidat papírjaimat papírjuk papírnak papírok papírokat papírokban papírokkal papírokon papírokra papírokról papírokért papíron papírra papírral papírról papírt papírunk papírért
+23	1123	brit	britek briteket britekkel briteknek britektől britet britt
+24	1124	alacsony	alacsonyabb alacsonyabban alacsonyabbra alacsonyak alacsonynak alacsonyra legalacsonyabb
+25	1125	szerep	szerepbe szerepben szerepből szerepek szerepekben szerepeket szerepem szerepemet szerepet szerephez szerepnek szereppel szerepre szerepről szerepért
+26	1126	mindannyian	
+27	1127	jelenlegi	
+28	1128	árul	árulhat árulhatja árulhatjuk árulhatod árulhatok árulhatom árulja áruljak áruljam áruljon áruljuk árulják áruljátok árullak árulna árulnak árulni árulnia árulnod árulnom árulná árulnálak árulnám árulnék árulod árulok árulom árulsz árult árulta árultad árultak árultalak árultam árultok árultunk árulták árultál árulunk
+29	1129	ital	italba italban italból italhoz itallal italnak italnál italok italokat italokkal italokért italra italról italt italtól italért
+30	1130	szíve	szívébe szívében szívéből szívéhez szívéig szívén szívének szívére szívéről szívét szívétől szívével szívéért
+31	1131	busz	busszal buszba buszban buszból buszhoz busznak busznál buszok buszokat buszokon buszokra buszon buszra buszról buszt busztól
+32	1132	hangja	hangjában hangjából hangjához hangján hangjának hangjára hangjáról hangját hangjától hangjával
+33	1133	felelős	felelősek felelősen felelősnek felelőssé felelőst felelősök felelősöket
+34	1134	tavaly	tavaj
+35	1135	címe	címében címén címének címére címéről címét címétől címével címéért
+36	1136	kiváló	kiválóak kiválóbb kiválónak legkiválóbb
+37	1137	vendég	vendégei vendégek vendégeket vendégekhez vendégekkel vendégeknek vendégekre vendégekről vendégektől vendégeké vendégem vendéget vendéggel vendégként vendégnek vendégre vendégről vendégtől vendégül
+38	1138	vizsgálat	vizsgálatai vizsgálatba vizsgálatban vizsgálatból vizsgálathoz vizsgálatnak vizsgálatnál vizsgálatok vizsgálatokat vizsgálatokból vizsgálatokhoz vizsgálatokkal vizsgálatoknak vizsgálatokon vizsgálatokra vizsgálatokról vizsgálaton vizsgálatot vizsgálatra vizsgálatról vizsgálattal
+39	1139	fantasztikus	fantasztikusak fantasztikusat fantasztikusnak legfantasztikusabb
+40	1140	január	januárban januárig januártól
+41	1141	part	parthoz partig partjai partnak partnál partok partokat partoknál partokon partoktól parton partot partra partról parttól
+42	1142	módja	módjában módján módjának módjára módjáról módját módjával
+43	1143	rendez	rendezed rendezek rendezel rendezem rendezhetjük rendezhetnénk rendezhetünk rendezi rendezik rendezitek rendezne rendezned rendeznek rendeznem rendezni rendeznie rendezné rendeznéd rendeznék rendeznénk rendeznünk rendezted rendeztek rendeztem rendezték rendeztél rendeztük rendeztünk rendezve rendezze rendezzek rendezzem rendezzen rendezzenek rendezzék rendezzétek rendezzük rendezzünk rendezünk
+44	1144	megad	megadatik megadhatja megadhatjuk megadhatod megadhatok megadhatom megadható megadja megadjam megadjuk megadják megadjátok megadna megadnak megadni megadná megadnád megadnám megadnának megadnék megadod megadok megadom megadott megadsz megadta megadtad megadtak megadtam megadtuk megadtunk megadták megadtál megadunk megadva megadás megadásra megadásról megadást
+45	1145	észak	északnak északon északot északra északról
+46	1146	különös	különösebb különösek különöset különösnek különösre különösről legkülönösebb
+47	1147	elérhető	elérhetőek elérhetők elérhetőnek elérhetővé
+48	1148	töltött	töltöttek töltöttük töltöttünk
+49	1149	esküszik	esküdni esküdnék esküdnöd esküdtek esküdtem esküdtél esküdtünk esküdött esküsznek esküszöl esküszöm esküszünk
+50	1150	csillag	csillaga csillagban csillagból csillaggal csillaggá csillaghoz csillagként csillagnak csillagok csillagokat csillagokba csillagokban csillagokból csillagokhoz csillagokig csillagokkal csillagokká csillagoknak csillagokon csillagokra csillagokról csillagoktól csillagon csillagot csillagra csillagról csillagtól
+51	1151	közele	közelébe közelében közeléből
+52	1152	szombat	szombathoz szombatig szombaton szombatot szombatra
+53	1153	nép	népek népeket népekkel népeknek népet néphez népnek néppel népre népről néptől népé népért népünk
+54	1154	június	júniusban júniusig júniusra
+55	1155	tábornok	tábornokhoz tábornokkal tábornoknak tábornoknál tábornokok tábornokokat tábornokoknak tábornokot tábornokra tábornokról tábornoktól tábornoké
+56	1156	ilyenkor	
+57	1157	pihen	pihenek pihenhetek pihenhetnek pihenhetnél pihenhetnénk pihenhetsz pihenhetünk pihenj pihenjek pihenjen pihenjenek pihenjetek pihenjél pihenjünk pihenne pihenned pihennek pihennem pihenni pihennie pihenniük pihennék pihennél pihennünk pihensz pihent pihentek pihentem pihenteti pihentél pihentünk pihenünk pihenő pihenőbe pihenőben pihenőnek pihenőnél pihenőre pihenőt
+58	1158	szemem	szemembe szememben szememből szememen szememet szememhez szememmel szememnek szememre szememről
+59	1159	üres	üresbe üresben üresebb üresek üresen üreset üresnek üressé
+60	1160	függ	függenek függeni függhet függjön függne függnek függni függsz függtem függés függök függött függünk függő függőben függők függőket függőkkel függőknek függőnek függőt függővel függővé
+61	1161	testvér	testvérei testvérek testvéreket testvérekkel testvérekként testvéreknek testvéreknél testvérekre testvérekről testvérektől testvérhez testvérként testvérnek testvérre testvérrel testvérről testvért testvértől testvérért
+62	1162	elvisz	elvinni elviszi elviszik elvitt elvitte elvittek elvitték
+63	1163	megkér	megkéred megkérek megkérem megkérhetem megkérhetjük megkérhetlek megkérhetnéd megkérhetnélek megkérhetném megkérhetnénk megkéri megkérik megkérje megkérjelek megkérjem megkérjük megkérlek megkérne megkérned megkérnek megkérnem megkérni megkérné megkérnéd megkérnék megkérnélek megkérném megkérnénk megkérsz megkért megkérte megkérted megkértek megkértelek megkértem megkérték megkértél megkértük megkérünk
+64	1164	december	decemberben decemberig
+65	1165	teste	testébe testében testéből testéhez testén testének testére testéről testét testétől testével testéért
+66	1166	kerület	kerületbe kerületben kerületből kerülete kerületek kerületen kerületet kerületnek
+67	1167	von	vona vond vonhatja vonhatjuk vonhatod vonhatom vonható vonj vonja vonjam vonjon vonjuk vonjunk vonják vonjátok vonnak vonni vonod vonok vonom vonsz vonszolja vonszolni vonszolt vonszolta vonszolták vont vonta vontad vontak vontam vontuk vonták vonunk vonva vonás vonása vonások vonást
+68	1168	internet	interneten internetet internethez internetnek internetre internetről internettel
+69	1169	karácsony	karácsonnyal karácsonyban karácsonyhoz karácsonyig karácsonykor karácsonynak karácsonyok karácsonyon karácsonyra karácsonyról karácsonyt karácsonyért
+70	1170	nyílt	nyíltabb nyíltak
+71	1171	vezetője	vezetőjeként vezetőjéhez vezetőjének vezetőjére vezetőjéről vezetőjét vezetőjétől vezetőjével vezetőjévé
+72	1172	mester	mesterek mestereket mestereknek mesterhez mesternek mesternél mesterre mesterrel mesterré mesterről mestert mestertől
+73	1173	század	századba században századból századdal századhoz századig századnak századok századokkal századokon századot századra századtól századunk
+74	1174	lehető	lehetőt lehetővé
+75	1175	fogalmam	
+76	1176	lányom	lányomat lányomban lányomból lányomhoz lányomként lányommal lányomnak lányomnál lányomon lányomra lányomról lányomtól lányomé lányomért
+77	1177	utoljára	
+78	1178	csatlakozik	csatlakozhat csatlakozhatna csatlakozhatnak csatlakozhatnál csatlakozhatnék csatlakozhatok csatlakozhatsz csatlakozhatunk csatlakozna csatlakoznak csatlakozni csatlakoznia csatlakoznod csatlakoznom csatlakoznunk csatlakoznál csatlakoznának csatlakoznátok csatlakoznék csatlakozok csatlakozol csatlakoztak csatlakoztam csatlakoztatni csatlakoztok csatlakoztunk csatlakoztál csatlakozunk csatlakozva csatlakozzam csatlakozzanak csatlakozzatok csatlakozzon csatlakozzunk csatlakozás csatlakozásra csatlakozást csatlakozó csatlakozót
+79	1179	egyesült	egyesültek
+80	1180	férj	férjed férjek férjeket férjeknek férjen férjet férjhez férjjel férjjé férjként férjnek férjnél férjre férjről férjtől férjé férjül
+81	1181	megvéd	megvéded megvédek megvédem megvédene megvédened megvédenek megvédenem megvédeni megvédenie megvédené megvédenünk megvédesz megvédett megvédhesse megvédhessem megvédhessük megvédhetem megvédheti megvédhetjük megvédhetlek megvédi megvédik megvédje megvédjelek megvédjem megvédjen megvédjenek megvédjék megvédjük megvédjünk megvédte megvédted megvédtek megvédtelek megvédtem megvédték megvédtél megvédtük megvédünk
+82	1182	köze	közét
+83	1183	nélküli	nélküliek nélkülit
+84	1184	kiadó	kiadóhoz kiadói kiadók kiadónak kiadónál kiadót kiadótól kiadóval
+85	1185	nyilván	
+86	1186	picsa	picsába picsában picsából picsák picsákat picsán picsának picsáról picsát picsával picsáért
+87	1187	véletlenül	
+88	1188	régóta	
+89	1189	szükségünk	
+90	1190	mérkőzés	mérkőzéseit mérkőzések mérkőzéseken mérkőzéseket mérkőzésen mérkőzésnek mérkőzésre mérkőzésről mérkőzéssel mérkőzést
+91	1191	kapcsol	kapcsolhatjuk kapcsolhatod kapcsolhatok kapcsolhatom kapcsolja kapcsoljak kapcsoljam kapcsoljanak kapcsoljatok kapcsoljon kapcsoljuk kapcsoljunk kapcsolják kapcsoljátok kapcsolnak kapcsolni kapcsolnia kapcsolniuk kapcsolnod kapcsolnom kapcsolnunk kapcsolná kapcsolnád kapcsolod kapcsolok kapcsolom kapcsolsz kapcsolt kapcsolta kapcsoltad kapcsoltak kapcsoltam kapcsoltuk kapcsoltunk kapcsolták kapcsoltál kapcsolunk kapcsolva kapcsolás
+92	1192	házasság	házassága házasságba házasságban házasságból házassággal házassághoz házasságig házasságnak házasságnál házasságok házasságokat házasságom házasságomban házasságon házasságot házasságra házasságról házasságtól házasságunknak házasságából házasságának házasságért
+93	1193	külföldi	külföldiek külföldieket külföldiekkel külföldieknek külföldinek külföldit külföldivel
+94	1194	tök	tökig tökkel tökké tökre tökök tököket tökön tököt
+95	1195	uraim	
+96	1196	előadás	előadásba előadásban előadásból előadáshoz előadásig előadásnak előadások előadásokat előadásokon előadásokra előadáson előadásra előadásról előadással előadást előadásért
+97	1197	úgyis	
+98	1198	valamilyen	
+99	1199	kel	kelek kelhet kelhetek kelhetnek kelhetsz kelhetünk kelj keljek keljen keljenek keljetek keljünk kelne kelned kelnek kelnem kelni kelnie kelniük kelnék kelnünk kelsz keltek keltem keltetek keltünk kelés kelünk kelő kél
+100	1200	őszintén	őszintébben

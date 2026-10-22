@@ -1,0 +1,100 @@
+1	7301	fedélzeti	
+2	7302	rettegés	rettegésben rettegéssel rettegést
+3	7303	horda	hordanak hordanál hordák hordát
+4	7304	színvonalas	
+5	7305	elragadó	elragadóak elragadónak legelragadóbb
+6	7306	korosztály	korosztályban korosztálynak korosztályt
+7	7307	bizonytalanság	bizonytalansága bizonytalanságban bizonytalanságból bizonytalansággal bizonytalanságot
+8	7308	zsarol	zsarolja zsaroljon zsarolják zsarolnak zsarolni zsarolsz zsarolt zsarolta zsaroltak zsarolták
+9	7309	expedíció	expedícióban expedíción expedíciónak expedícióra expedícióról expedíciót
+10	7310	archívum	archívumba archívumban archívumból archívumot archívumában
+11	7311	kidolgozása	kidolgozásában kidolgozására kidolgozását
+12	7312	csóka	csókák csókának csókát csókával
+13	7313	világvége	világvégére világvégéről világvégét
+14	7314	minősítés	minősítéssel minősítést
+15	7315	szobalány	szobalánnyal szobalányként szobalánynak szobalányok szobalányokat szobalányt
+16	7316	irigy	irigyek
+17	7317	kulcsfontosságú	
+18	7318	bók	bóknak bókok bókokat bókokkal bókot
+19	7319	megőrzése	megőrzésére megőrzését megőrzéséért
+20	7320	bajuk	bajukat
+21	7321	nagyságú	nagyságúak
+22	7322	kísértés	kísértésbe kísértések kísértésnek kísértéssel kísértést kísértéstől
+23	7323	korú	korúak
+24	7324	ellenszer	ellenszeren ellenszerhez ellenszerre ellenszerrel ellenszert
+25	7325	szőr	szőrrel szőrt szőrök
+26	7326	találmány	találmányok találmányokat találmányt
+27	7327	legfőképpen	
+28	7328	közeljövő	közeljövőben
+29	7329	kézirat	kéziratban kéziratok kéziratokat kéziratot
+30	7330	elképzelhetetlen	elképzelhetetlennek elképzelhetetlent elképzelhetetlenül
+31	7331	belevág	belevághatunk belevágjak belevágjunk belevágnak belevágni belevágnunk belevágnánk belevágnék belevágok belevágom belevágott belevágsz belevágta belevágtak belevágtam belevágtunk belevágtál belevágunk
+32	7332	ötezer	ötezret
+33	7333	filozófus	filozófusok
+34	7334	foltos	
+35	7335	fegyverszünet	fegyverszünetet fegyverszünetnek
+36	7336	megvitat	megvitassam megvitassuk megvitassák megvitathatjuk megvitathatnánk megvitatjuk megvitatják megvitatni megvitatnunk megvitatom megvitatta megvitattam megvitattuk megvitattunk
+37	7337	promóciós	
+38	7338	gorilla	gorillák gorillákat gorillának gorillát gorillával
+39	7339	fiktív	
+40	7340	processzor	processzort
+41	7341	gyanúja	gyanúját gyanújával
+42	7342	márciusi	
+43	7343	fax	faxon faxot
+44	7344	ajándékoz	ajándékozni ajándékozok ajándékozom ajándékozott ajándékozta ajándékoztam ajándékoztál ajándékozunk ajándékozza ajándékozó
+45	7345	szeptemberi	
+46	7346	bejelentése	bejelentésére bejelentését
+47	7347	kezeid	kezeidben kezeiddel kezeiden kezeidet kezeidre
+48	7348	templomi	
+49	7349	felvisz	felvigyem felvinni felvinné felvinnéd felvisszük felviszed felviszem felviszi felviszik felviszlek felviszünk felvitt felvitte felvitted felvittem felvitték felvittük
+50	7350	váza	vázába vázában vázákat vázát vázával
+51	7351	szivárog	szivárgott szivárogtak
+52	7352	grafikai	
+53	7353	kérdezősködik	kérdezősködni kérdezősködtem kérdezősködött
+54	7354	csapódik	csapódott csapódtak
+55	7355	tüze	tüzébe tüzében tüzén tüzének tüzére tüzét tüzétől tüzével
+56	7356	örömöm	örömömben örömömet örömömre
+57	7357	kőkemény	kőkemények kőkeményen
+58	7358	megkönnyebbül	megkönnyebbülnék megkönnyebbülsz megkönnyebbült megkönnyebbültek megkönnyebbültem megkönnyebbülten megkönnyebbültél megkönnyebbültünk megkönnyebbülve megkönnyebbülök
+59	7359	motiváció	motivációra motivációt
+60	7360	altató	altatók altatókat altatót altatóval
+61	7361	holló	hollók hollókat hollónak hollót
+62	7362	kid	kisgyermek kisgyermekek kisgyermeket
+63	7363	csapadék	
+64	7364	csökkenése	csökkenését csökkenésével
+65	7365	hattyú	hattyúk hattyúkat hattyút
+66	7366	göndör	kondor
+67	7367	ceruza	ceruzák ceruzákat ceruzát ceruzával
+68	7368	viszonyít	viszonyított viszonyítva
+69	7369	katalán	
+70	7370	feltámadás	feltámadása feltámadásban feltámadást
+71	7371	lábaid	lábaidat lábaiddal lábaidon lábaidra
+72	7372	képlet	képletek képleteket képletet képlettel
+73	7373	oszlik	oszlanak oszlani oszlott oszlottak oszlunk oszlás oszolj oszoljanak oszoljatok oszoljunk
+74	7374	póráz	pórázon pórázra pórázt
+75	7375	károsodás	károsodást
+76	7376	tisztviselő	tisztviselői tisztviselők tisztviselőket tisztviselőnek tisztviselőt
+77	7377	hízelgő	
+78	7378	foka	fokán fokára fokát
+79	7379	gyerekjáték	gyerekjátéknak
+80	7380	helyenként	
+81	7381	szláv	
+82	7382	grafika	grafikák grafikát
+83	7383	bocsánatkérés	bocsánatkérést
+84	7384	fizetési	
+85	7385	odavan	odavagyok
+86	7386	lehel	leheljen lehelni lehelt
+87	7387	integrált	
+88	7388	panda	pandák pandákat pandának pandát
+89	7389	kerámia	
+90	7390	daganatos	
+91	7391	embered	embereddel emberedet emberednek emberedre
+92	7392	rohad	rohadjak rohadjanak rohadjatok rohadjon rohadna rohadnak rohadni rohadnál rohadok rohadsz rohadtam rohadunk rohadva rohadás rohadó
+93	7393	dúl	dúlja dúlnak dúlt dúlta dúltak dúlva dúló
+94	7394	hitvány	hitványabb hitványak hitványnak leghitványabb
+95	7395	alkalmanként	
+96	7396	kompromisszum	kompromisszumnak kompromisszumok kompromisszumokat kompromisszumot kompromisszumra
+97	7397	novella	novellák novellákat novellát
+98	7398	megfagy	megfagynak megfagyni megfagyok megfagyott megfagysz megfagytak megfagytam megfagyunk megfagyva
+99	7399	lóvé	lóvéra lóvét lóvéval lóvéért
+100	7400	alázatos	alázatosak alázatosan alázatosnak legalázatosabb

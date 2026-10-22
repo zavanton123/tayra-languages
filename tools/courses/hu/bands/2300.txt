@@ -1,0 +1,100 @@
+1	2201	fényes	fényesebb fényesek fényesen fényeset fényesnek fényesre legfényesebb
+2	2202	haragszik	haragszanak haragszol haragszom haragszotok haragszunk haragudhat haragudhatnék haragudhatok haragudhatsz haragudjak haragudjanak haragudjatok haragudjon haragudna haragudni haragudnod haragudnom haragudnál haragudnék haragudott haragudtak haragudtam haragudtál
+3	2203	készítette	
+4	2204	várható	várhatóak várhatók
+5	2205	részletes	részletesebb részletesebben részletesek részletesen
+6	2206	udvar	udvarba udvarban udvarból udvarhoz udvarnak udvarnál udvaron udvarra udvarral udvarról udvart udvartól
+7	2207	illegális	illegálisak illegálisan illegálisat illegálisnak illegálissá illegálist
+8	2208	hálózat	hálózatba hálózatban hálózatból hálózathoz hálózatnak hálózatok hálózatokat hálózaton hálózatot hálózatra hálózatról hálózattal hálózattól
+9	2209	beleért	beleértve
+10	2210	lábam	lábamat lábamba lábamban lábamból lábamhoz lábammal lábamnak lábamnál lábamon lábamra lábamról
+11	2211	kiadás	kiadásait kiadásban kiadások kiadásokat kiadásokra kiadásra kiadással kiadást
+12	2212	debreceni	
+13	2213	pécsi	
+14	2214	földi	földiek földieket földiekkel földieknek földit
+15	2215	hibája	hibájából hibájának hibájára hibáját hibájával hibájáért
+16	2216	regény	regénybe regényben regényből regénye regények regényekben regényeket regényen regénynek regényt
+17	2217	méretű	méretűek méretűre méretűt
+18	2218	koncentrál	koncentrálhassak koncentrálhat koncentrálhatnánk koncentrálhatok koncentrálhatsz koncentrálhatunk koncentrálja koncentráljak koncentráljanak koncentráljatok koncentráljon koncentráljuk koncentráljunk koncentrálják koncentrálna koncentrálnak koncentrálni koncentrálnia koncentrálnod koncentrálnom koncentrálnunk koncentrálnál koncentrálnánk koncentrálnék koncentrálok koncentrálsz koncentráltam koncentráltok koncentráltunk koncentráltál koncentrálunk koncentrálva
+19	2219	végtelen	végtelenbe végtelenek végtelennek végtelent végtelenül
+20	2220	lejár	lejárat lejáratni lejárni lejárt lejárta lejártak lejártam lejáró
+21	2221	értesít	értesíted értesítelek értesítem értesítendő értesítene értesítened értesítenek értesítenem értesíteni értesítenie értesíteniük értesítené értesítenünk értesítesz értesített értesítette értesítetted értesítettek értesítettem értesítettél értesítettük értesíthetnénk értesíti értesítik értesítjük értesítse értesítsem értesítsen értesítsenek értesítsetek értesítsék értesítsétek értesítsük értesítsünk értesítve értesítünk értesítő értesítőben értesítőt
+22	2222	vadászik	vadássza vadásszanak vadásszon vadásszuk vadásszunk vadásszák vadásza vadászhat vadászna vadásznak vadászni vadásznod vadásznom vadásznunk vadásznának vadásznék vadászok vadászol vadászom vadászott vadásztak vadásztam vadásztok vadásztunk vadászták vadásztál vadászunk vadászva vadászó
+23	2223	háta	hátába hátában hátából hátához hátán hátának hátára hátáról hátát hátával
+24	2224	lakosság	lakossággal lakosságnak lakosságot lakosságra lakosságtól
+25	2225	önkormányzat	önkormányzatnál önkormányzatok önkormányzatot önkormányzattal önkormányzattól
+26	2226	bevall	bevallani bevallania bevallanod bevallanom bevallaná bevallanád bevallanám bevallasz bevallhatod bevallhatok bevallja bevalljak bevalljam bevalljon bevalljuk bevallják bevallod bevallok bevallom bevallott bevallotta bevallottad bevallottam bevallották
+27	2227	vastag	legvastagabb vastagabb vastagok vastagon
+28	2228	csökken	csökkeni csökkenjen csökkenne csökkennek csökkenni csökkenés csökkenést csökkenő
+29	2229	ünnep	ünnepek ünnepeken ünnepeket ünnepekre ünnepen ünnepet ünnepnek ünnepre
+30	2230	egyértelműen	
+31	2231	cukor	cukorból cukornak cukorra cukorral cukortól cukorért cukrok cukrokat cukrot
+32	2232	lassú	lassabb lassúak lassúbb lassúnak lassút leglassabb
+33	2233	csúcs	csúcshoz csúcsig csúcsok csúcsokat csúcson csúcsot csúcsra csúcsról csúcstól
+34	2234	próbálkozik	próbálkozhatnak próbálkozhatnánk próbálkozhatok próbálkozhatsz próbálkozhatunk próbálkozna próbálkoznak próbálkozni próbálkoznia próbálkoznod próbálkoznom próbálkoznunk próbálkoznál próbálkoznánk próbálkoznék próbálkozok próbálkozol próbálkozott próbálkoztak próbálkoztam próbálkoztatok próbálkoztok próbálkoztunk próbálkoztál próbálkozunk próbálkozzanak próbálkozzatok próbálkozzon próbálkozzunk
+35	2235	elmélet	elméletben elméleteit elméletek elméleteket elméletekkel elméletem elméleten elméletet elmélethez elméletnek elméletre elméletről elmélettel
+36	2236	bámul	bámulhatod bámulja bámuljam bámuljanak bámuljatok bámuljon bámuljuk bámulják bámuljátok bámullak bámulna bámulnak bámulni bámulnom bámulnám bámulod bámulok bámulom bámulsz bámult bámulta bámultad bámultak bámultalak bámultam bámultok bámultuk bámulták bámultál bámulunk bámulva bámuló
+37	2237	megtalálható	megtalálhatóak megtalálhatók
+38	2238	elkövet	elkövesse elkövessen elköveted elkövetek elkövetem elkövetett elkövethette elköveti elkövetik elkövetned elkövetnek elkövetni elkövetnie elkövetsz elkövette elkövetted elkövettek elkövettem elkövették elkövettél elkövettünk elkövetve elkövetünk
+39	2239	kockázat	kockázatnak kockázatok kockázatokat kockázatokkal kockázatokról kockázatot kockázatra kockázatról kockázattal
+40	2240	honlap	honlapok honlapon honlapot honlapra honlapról
+41	2241	győztes	győztesek győzteseket győzteseknek győztesen győztesként győztesnek győztesre győztessel győztest győztesé
+42	2242	széle	szélébe széléhez széléig szélén szélénél szélére széléről szélét szélétől
+43	2243	kifizet	kifizesse kifizessem kifizessen kifizessék kifizessük kifizeted kifizetek kifizetem kifizetett kifizethessem kifizetheted kifizethetem kifizetheti kifizethetjük kifizeti kifizetik kifizetjük kifizetlek kifizetned kifizetnek kifizetnem kifizetni kifizetnie kifizetné kifizetnéd kifizetném kifizetnünk kifizetsz kifizette kifizetted kifizettek kifizettelek kifizettem kifizették kifizettél kifizettük kifizettünk kifizetve kifizetünk
+44	2244	edzés	edzésben edzések edzéseken edzéseket edzésekre edzésem edzésen edzéshez edzésnek edzésre edzésről edzéssel edzést
+45	2245	szűz	szüzek szüzeket szüzet szűzként szűznek szűzzel
+46	2246	emberiség	emberiségbe emberiségben emberiségen emberiséget emberiséggel emberiségnek emberiségre emberiségről emberiségtől emberiségért
+47	2247	listája	listájában listájához listáján listájának listájára listájáról listáját listájával
+48	2248	palota	palotába palotában palotából palotához paloták palotán palotának palotánál palotára palotát palotával
+49	2249	többsége	többségében többségének többségét
+50	2250	cselekedik	cselekedhetsz cselekedhetünk cselekedjek cselekedjen cselekedjenek cselekedjetek cselekedjünk cselekedne cselekedned cselekednek cselekednem cselekedni cselekednie cselekednék cselekednél cselekednünk cselekedsz cselekedtek cselekedtem cselekedtetek cselekedtél cselekedtünk cselekszel cselekszem cselekszenek cselekszik cselekszünk
+51	2251	vidéki	vidékiek
+52	2252	akarlak	
+53	2253	kereszt	keresztbe keresztben keresztek kereszteket kereszten keresztet kereszthez keresztnek keresztre keresztről kereszttel
+54	2254	pizza	pizzából pizzához pizzák pizzákat pizzán pizzának pizzára pizzáról pizzát pizzával pizzáért
+55	2255	feláll	felállhat felállhatok felállhatsz felálljak felálljon felállna felállnak felállni felállnod felállnom felállnál felállok felállsz felállt felálltak felálltam felálltál felállunk felállva felállás felállít felállítanak felállítani felállítanunk felállítja felállítjuk felállítják felállítok felállítom felállított felállította felállítottak felállítottam felállítottuk felállítottunk felállították felállítunk felállítva felálló
+56	2256	pontja	pontjában pontjához pontján pontjának pontjára pontjáról pontját pontjával
+57	2257	tanú	tanúhoz tanúk tanúkat tanúkkal tanúknak tanúkra tanúkról tanúként tanúnak tanúra tanúról tanút tanútól tanúval
+58	2258	nyílik	nyílhat nyílj nyíljon nyílna nyílni nyílnia nyílott nyílsz nyíló
+59	2259	lelke	lelkébe lelkében lelkéből lelkéhez lelkén lelkének lelkére lelkéről lelkét lelkével lelkéért
+60	2260	borzalmas	borzalmasabb borzalmasak borzalmasat borzalmasnak legborzalmasabb
+61	2261	őszi	
+62	2262	köszönet	köszönetet köszönetre köszönettel
+63	2263	egyfajta	
+64	2264	legutóbb	
+65	2265	tevékenysége	tevékenységében tevékenységének tevékenységére tevékenységéről tevékenységét tevékenységével tevékenységéért
+66	2266	miénk	mienk miénkbe miénkben miénken miénket miénkhez miénkkel miénknek miénknél miénkre miénkről miénktől
+67	2267	tilos	tilosban
+68	2268	robot	robotba robotként robotnak robotok robotokat robotokkal robotoknak robotokra robotokról robotot robotra robottal robottá
+69	2269	kizárt	kizártak kizártnak
+70	2270	sztár	sztárban sztárja sztárként sztárnak sztárok sztárokat sztárokkal sztároknak sztárra sztárral sztárrá sztárt
+71	2271	nagyapa	nagyapja nagyapját nagyapához nagyapám nagyapának nagyapánál nagyapára nagyapáról nagyapát nagyapától nagyapával
+72	2272	amióta	
+73	2273	kolléga	kollégái kollégáim kollégáink kollégája kollégáját kollégájával kollégák kollégákat kollégákkal kollégáknak kollégám kollégámat kollégának kollégánk kollégát kollégával
+74	2274	kihívás	kihívásban kihívásból kihívásnak kihívások kihívásokat kihívásokban kihívásokkal kihívásokon kihívásokra kihíváson kihívásra kihívásról kihívással kihívást
+75	2275	húgom	húgomat húgomhoz húgommal húgomnak húgomnál húgomra húgomról húgomtól húgomé húgomért
+76	2276	rendezvény	rendezvénnyel rendezvények rendezvényeken rendezvényeket rendezvényekre rendezvényen rendezvényre rendezvényről rendezvényt
+77	2277	vas	vasat vasból vasra vassal
+78	2278	fejezet	fejezetben fejezete fejezetek fejezeteket fejezetet fejezethez fejezetnek fejezetnél fejezetre fejezett fejezettel
+79	2279	máskor	máskorra
+80	2280	majom	majmok majmokat majmokkal majmoknak majmoknál majmokon majmokra majmokról majmoktól majmot majommal majommá majomnak majomra majomról majomtól
+81	2281	ifjúsági	
+82	2282	hibás	hibásak hibásnak
+83	2283	felhasznál	felhasználhassa felhasználhatja felhasználhatjuk felhasználhatják felhasználhatnak felhasználhatná felhasználhatnád felhasználhatnám felhasználhatnánk felhasználhatod felhasználhatok felhasználhatom felhasználhatunk felhasználja felhasználjam felhasználjuk felhasználják felhasználnak felhasználni felhasználnunk felhasználná felhasználod felhasználok felhasználom felhasznált felhasználta felhasználtad felhasználtak felhasználtam felhasználtuk felhasználták felhasználtál felhasználunk felhasználva
+84	2284	kövér	kövérebb kövérek kövéreket kövéren kövéret kövérnek legkövérebb
+85	2285	hagyomány	hagyománnyal hagyománnyá hagyományban hagyománynak hagyományok hagyományokat hagyományokhoz hagyományokkal hagyományoknak hagyományokra hagyományokról hagyományt
+86	2286	jég	jeget jégbe jégben jégből jégen jéggel jéggé jégnek jégre jégről jégért
+87	2287	hajrá	hajrában
+88	2288	nyilvánosság	nyilvánossággal nyilvánossághoz nyilvánosságnak nyilvánosságot nyilvánosságra nyilvánosságtól
+89	2289	avagy	
+90	2290	eltör	eltörhetett eltöri eltörik eltörje eltörjem eltörjön eltörjük eltörne eltörnek eltörni eltörné eltörném eltört eltörte eltörted eltörtek eltörtem eltörték eltörtél eltörve eltöröd eltöröm eltörött
+91	2291	gyanúsított	gyanúsítottak gyanúsítottakat gyanúsítottakkal gyanúsítottaknak gyanúsítottakról gyanúsítottal gyanúsítottat gyanúsítotthoz gyanúsítottként gyanúsítottnak gyanúsítottnál gyanúsítottra gyanúsítottról gyanúsítottá gyanúsítottól
+92	2292	csal	csald csalhat csalhatsz csalj csalja csaljak csaljam csaljanak csaljon csaljuk csalják csaljátok csallak csalna csalnak csalni csalnod csalnom csalnunk csalná csalnálak csalnám csalod csalok csalom csalsz csalt csalta csaltad csaltak csaltalak csaltam csaltatok csaltok csaltuk csaltunk csalták csaltál csalunk
+93	2293	kérdésem	kérdésemet kérdésemre
+94	2294	hármas	hármasba hármasban hármasból hármashoz hármasnak hármasnál hármasok hármason hármasra hármassal hármast
+95	2295	akkoriban	
+96	2296	tulajdonos	tulajdonoshoz tulajdonosnak tulajdonosok tulajdonosokat tulajdonosokkal tulajdonosoknak tulajdonossal tulajdonost tulajdonostól
+97	2297	vezetés	vezetésben vezetésből vezetésen vezetéshez vezetésnek vezetésre vezetésről vezetéssel vezetést vezetéstől vezetésért
+98	2298	sorsa	sorsába sorsában sorsán sorsának sorsára sorsáról sorsát sorsával sorsáért
+99	2299	emléke	emlékében emlékéhez emlékének emlékére emlékét emlékével emlékéért
+100	2300	kenyér	kenyeret kenyerük kenyerünk kenyérből kenyéren kenyérhez kenyérnek kenyérre kenyérrel kenyérről kenyérért

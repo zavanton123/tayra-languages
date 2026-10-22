@@ -1,0 +1,100 @@
+1	6501	nyakad	nyakadat nyakadba nyakadban nyakadból nyakaddal nyakadon nyakadra nyakadról
+2	6502	narancssárga	narancssárgát
+3	6503	szimbolikus	
+4	6504	becsuk	becsukja becsukjam becsukjuk becsukják becsukni becsukná becsuknád becsukod becsukom becsukott becsukta becsuktad becsuktam becsukták becsukva
+5	6505	szolgája	szolgájaként szolgájának szolgáját szolgájával szolgájává
+6	6506	költségei	költségeinek költségeire költségeit
+7	6507	kívánság	kívánsággal kívánságok kívánságokat kívánságokkal kívánságot kívánságra
+8	6508	külvilág	külvilágba külvilágban külvilágból külvilággal külvilágnak külvilágot külvilágra külvilágtól
+9	6509	kiterjedt	kiterjedtek
+10	6510	életforma	életformák életformákat életformákkal életformának életformát életformával
+11	6511	újszülött	újszülöttek újszülötteket újszülöttel újszülöttet újszülöttnek
+12	6512	formájú	formájúak
+13	6513	pazar	pazarul
+14	6514	püspöki	
+15	6515	okai	okait
+16	6516	emeleti	
+17	6517	kémkedik	kémkedek kémkedett kémkedjenek kémkednek kémkedni kémkedsz kémkedtek kémkedtem kémkedtél kémkedünk kémkedő
+18	6518	nyíregyházi	
+19	6519	ütközés	ütközésben ütközések ütközésig ütközésnél ütközésre ütközést ütközéstől
+20	6520	kinyílik	kinyílt
+21	6521	gránát	gránátok gránátokat gránátokkal gránátot gránátra gránáttal
+22	6522	székhely	székhellyel székhelyük
+23	6523	bűntett	bűntettek bűntetteket bűntettel bűntettet bűntetthez bűntettnek bűntettre bűntettről bűntettért
+24	6524	valósul	valósulhat valósult
+25	6525	daganat	daganatok daganatokat daganatot
+26	6526	gondunk	gondunkat
+27	6527	ív	ívben ívek íveket íven ívet
+28	6528	kikérdez	kikérdezem kikérdezett kikérdezhetjük kikérdezi kikérdezik kikérdeznek kikérdezni kikérdezte kikérdezted kikérdeztek kikérdeztem kikérdezték kikérdeztük kikérdeztünk kikérdezze kikérdezzem kikérdezzék kikérdezzük kikérdezés kikérdezünk
+29	6529	tisztaság	tisztasággal tisztaságot tisztaságra tisztaságát
+30	6530	álmaid	álmaidat álmaidba álmaidban álmaiddal álmaidra álmaidról
+31	6531	élvezte	
+32	6532	csengő	csengők csengőket csengőre csengőt csengővel
+33	6533	októberi	
+34	6534	nevezetes	nevezetesen
+35	6535	példánya	példányát
+36	6536	vés	vésd vésed vésem vésett vésni véss vésse véssék véssétek véste véstek véstem vésték vésve
+37	6537	alagsor	alagsorba alagsorban alagsorból alagsort
+38	6538	régész	régészek
+39	6539	influenza	influenzát influenzával
+40	6540	kívülálló	kívülállók kívülállókat kívülállókkal kívülállóknak kívülállóként kívülállónak kívülállót
+41	6541	töltény	tölténnyel töltények töltényeket töltényekkel töltényt
+42	6542	jogú	
+43	6543	váltás	váltásban váltásnak váltások váltásra váltást
+44	6544	klíma	klímát
+45	6545	rém	rémek rémeket rémet
+46	6546	háztartás	háztartásban háztartások háztartást
+47	6547	felvon	felvonni felvonás
+48	6548	növelése	növelésére növelését növelésével
+49	6549	ehető	ehetőek ehetőt
+50	6550	fogadalom	fogadalmak fogadalmakat fogadalmat
+51	6551	veszélye	veszélyét veszélyével
+52	6552	korod	korodat korodban korodhoz korodig korodra
+53	6553	kicsiny	kicsinyek
+54	6554	elnökségi	
+55	6555	feljelentés	feljelentést
+56	6556	citrom	citromba citrommal citromot
+57	6557	emberölés	emberölésben emberölésnek emberölésre emberölésről emberöléssel emberölést emberölésért
+58	6558	vese	vesék veséket vesén vesére vesét vesével
+59	6559	releváns	
+60	6560	burgonya	burgonyát burgonyával
+61	6561	megnevezés	megnevezése megnevezést
+62	6562	vagány	legvagányabb vagányabb vagányak vagánynak vagányok
+63	6563	túloldal	túloldalon túloldalra túloldalról túloldalt túloldalára
+64	6564	arányos	
+65	6565	kiszárad	kiszáradt
+66	6566	fodrász	fodrászhoz fodrásznak fodrásznál fodrászok fodrászt
+67	6567	kezeim	kezeimben kezeimből kezeimet kezeimmel kezeimre
+68	6568	előzmény	előzménye előzmények előzményeket
+69	6569	bogyó	bogyók bogyókat bogyókkal bogyót bogyóval
+70	6570	bemutatója	bemutatóján bemutatójára bemutatóját
+71	6571	bolti	
+72	6572	elektromágneses	
+73	6573	trófea	trófeaként trófeái trófeák trófeákat trófeának trófeát trófeával trófeáért
+74	6574	vödör	vödrök vödröket vödröt vödörbe vödörben vödörből vödörrel
+75	6575	koalíció	koalíciót
+76	6576	ági	
+77	6577	gyermekkori	
+78	6578	ausztriai	
+79	6579	hírlap	
+80	6580	bármiféle	
+81	6581	fedél	fedele fedelet fedelét
+82	6582	mindenáron	
+83	6583	texasi	texasiak
+84	6584	veszekedés	veszekedésbe veszekedésben veszekedésből veszekedések veszekedéshez veszekedésnek veszekedésre veszekedésről veszekedéssel veszekedést
+85	6585	címlap	címlapok címlapokat címlapokon címlapokra címlapon címlapot címlapra címlapról
+86	6586	terasz	teraszon teraszra teraszról teraszt
+87	6587	tüntető	tüntetők tüntetőket
+88	6588	szopik	szop szopja szopjad szopjam szopjatok szopjon szopják szopjál szopnak szopni szopod szopok szopom szopott szopsz szopta szoptad szoptak szoptam szoptat szoptatott szoptál szopó
+89	6589	igényei	igényeihez igényeik igényeinek igényeit
+90	6590	mellény	mellénnyel mellényben mellények mellényeket mellényen mellényre mellényt
+91	6591	álnév	álnevek álneveket álnevet álnéven álnévvel
+92	6592	fűz	fűzi fűzik fűznek fűzni fűznék fűzte fűztem fűzze fűzök fűzöm fűző fűzőt fűzővel
+93	6593	sújt	sújtanak sújtani sújtja sújtják sújtott sújts sújtson sújtva sújtó
+94	6594	erősítő	erősítők erősítőt
+95	6595	reggelente	
+96	6596	diagnózis	diagnózishoz diagnózisra diagnózissal diagnózist
+97	6597	rámutat	rámutassak rámutatnak rámutatni rámutatnék rámutatok rámutatott rámutatsz rámutattak rámutattam rámutattál
+98	6598	kikap	kikapott kikapta kikaptak
+99	6599	behatolás	behatoláshoz behatolásnak behatolásra behatolásról behatolást behatolásért
+100	6600	oláh	
