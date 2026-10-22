@@ -733,13 +733,15 @@ private fun ReadingBody(
     EdgeScrollbar(scrollState)
     if (!compact && !focus) {
         val settingsDescription = tr("Reader settings")
-        Box(
-            Modifier.align(Alignment.BottomStart).padding(AppSpacing.xxl).size(PLAY_CONTROL_SIZE)
-                .shadow(AppElevation.raised, AppShapes.circle).clip(AppShapes.circle).background(MaterialTheme.colorScheme.primary)
-                .clickable(onClick = onMenu)
-                .semantics { contentDescription = settingsDescription },
-            contentAlignment = Alignment.Center,
-        ) { Icon(Icons.Default.Settings, contentDescription = null, tint = MaterialTheme.colorScheme.onPrimary, modifier = Modifier.size(AppSizes.iconLarge)) }
+        AppTooltip(settingsDescription, Modifier.align(Alignment.BottomStart).padding(AppSpacing.xxl)) {
+            Box(
+                Modifier.size(PLAY_CONTROL_SIZE)
+                    .shadow(AppElevation.raised, AppShapes.circle).clip(AppShapes.circle).background(MaterialTheme.colorScheme.primary)
+                    .clickable(onClick = onMenu)
+                    .semantics { contentDescription = settingsDescription },
+                contentAlignment = Alignment.Center,
+            ) { Icon(Icons.Default.Settings, contentDescription = null, tint = MaterialTheme.colorScheme.onPrimary, modifier = Modifier.size(AppSizes.iconLarge)) }
+        }
     }
     if (state.settings.showSentencePlay && pageSentences.isNotEmpty()) {
         ContinuousControls(
@@ -869,13 +871,15 @@ private fun ContinuousControls(
     Row(modifier, verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
         if (hotkeys != null) {
             Box {
-                Box(
-                    Modifier.size(CONTROL_SIZE).shadow(AppElevation.raised, AppShapes.circle).clip(AppShapes.circle).background(colors.surface)
-                        .border(AppBorders.selected(colors.primary), AppShapes.circle)
-                        .clickable { showShortcuts = !showShortcuts }
-                        .semantics { contentDescription = shortcutsDescription },
-                    contentAlignment = Alignment.Center,
-                ) { Icon(AppIcons.Keyboard, contentDescription = null, tint = colors.primary, modifier = Modifier.size(AppSizes.iconMedium)) }
+                AppTooltip(shortcutsDescription) {
+                    Box(
+                        Modifier.size(CONTROL_SIZE).shadow(AppElevation.raised, AppShapes.circle).clip(AppShapes.circle).background(colors.surface)
+                            .border(AppBorders.selected(colors.primary), AppShapes.circle)
+                            .clickable { showShortcuts = !showShortcuts }
+                            .semantics { contentDescription = shortcutsDescription },
+                        contentAlignment = Alignment.Center,
+                    ) { Icon(AppIcons.Keyboard, contentDescription = null, tint = colors.primary, modifier = Modifier.size(AppSizes.iconMedium)) }
+                }
                 if (showShortcuts) {
                     Popup(
                         alignment = Alignment.BottomEnd,
@@ -885,13 +889,15 @@ private fun ContinuousControls(
                 }
             }
         }
-        Box(
-            Modifier.size(PLAY_CONTROL_SIZE).shadow(AppElevation.raised, AppShapes.circle).clip(AppShapes.circle).background(colors.primary)
-                .clickable(onClick = onPlay)
-                .semantics { contentDescription = playDescription },
-            contentAlignment = Alignment.Center,
-        ) {
-            Icon(if (playing) AppIcons.Pause else AppIcons.PlayArrow, contentDescription = null, tint = colors.onPrimary, modifier = Modifier.size(AppSizes.iconXLarge))
+        AppTooltip(playDescription) {
+            Box(
+                Modifier.size(PLAY_CONTROL_SIZE).shadow(AppElevation.raised, AppShapes.circle).clip(AppShapes.circle).background(colors.primary)
+                    .clickable(onClick = onPlay)
+                    .semantics { contentDescription = playDescription },
+                contentAlignment = Alignment.Center,
+            ) {
+                Icon(if (playing) AppIcons.Pause else AppIcons.PlayArrow, contentDescription = null, tint = colors.onPrimary, modifier = Modifier.size(AppSizes.iconXLarge))
+            }
         }
         AppTooltip(tr("Pause after each sentence")) {
             Box(
