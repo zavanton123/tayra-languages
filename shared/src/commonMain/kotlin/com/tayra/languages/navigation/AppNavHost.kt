@@ -38,6 +38,7 @@ import com.tayra.languages.feature.frequency.frequencyGraph
 import com.tayra.languages.feature.home.homeGraph
 import com.tayra.languages.feature.languages.languagesGraph
 import com.tayra.languages.feature.news.newsGraph
+import com.tayra.languages.feature.playlists.PlaybackNotificationsPermission
 import com.tayra.languages.feature.playlists.PlaybackProblemDialog
 import com.tayra.languages.feature.playlists.PlayerBar
 import com.tayra.languages.feature.playlists.playlistsGraph
@@ -120,6 +121,7 @@ fun AppNavHost(openCourses: Int = 0) {
         }
     }
     PlaybackProblemDialog(onDownloadVoice = { voiceFor = it })
+    PlaybackNotificationsPermission()
     LanguageSetupDialog(voiceFor, onClosed = { voiceFor = null })
     if (more) MoreSheet(onNavigate = { more = false; navController.navigate(it) }, onDismiss = { more = false })
 }
