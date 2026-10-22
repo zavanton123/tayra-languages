@@ -1,0 +1,192 @@
+{
+  "id": "hu-mini-4300",
+  "rankUpTo": 4300,
+  "level": "C1",
+  "title": "Éghajlat és energia",
+  "description": "Ten practical stories, an interview and a column about weather, home energy, gardens and saving: a draughty flat, an electricity spreadsheet, a garden made ready for winter, grapes in a dry summer, a forty-year weather diary, a storm night, a ski rental with little snow, a coin jar in Vienna, a rain garden at a show and a school year of saving energy.",
+  "topic": "Climate and energy",
+  "names": [
+    "Kadosa",
+    "Vilja",
+    "Győr",
+    "Bertók",
+    "Valentina",
+    "Flórián",
+    "Debrecen",
+    "Jolanda",
+    "Veszprém",
+    "Nikolasz",
+    "Konstantin",
+    "Zánka",
+    "Balaton",
+    "Tihana",
+    "Ozsváth",
+    "Emánuel",
+    "Velence",
+    "Dunakeszi",
+    "Hedda",
+    "Krisztofer",
+    "Szeged",
+    "Zdenka",
+    "Brigi",
+    "Mátra",
+    "Mátraháza",
+    "Bécs",
+    "Annabella",
+    "Domokos",
+    "Vanessza",
+    "Kecskemét",
+    "Margaréta",
+    "Ottilia",
+    "Miskolc"
+  ],
+  "lessons": [
+    {
+      "title": "Hideg a résen át",
+      "summary": "A divorced father cannot get his old flat in Győr warm for his daughter; a repairman takes a wooden grille off the radiator and seals the gaps around the windows, and the room stays warm.",
+      "newWords": [
+        "elvált",
+        "rés",
+        "rács",
+        "szerelő",
+        "fokos",
+        "sehogy",
+        "javul",
+        "változatlan"
+      ],
+      "text": "Kadosa vagyok, három éve elvált apa. A lányom, Vilja, minden második hétvégén nálam lakik, és ilyenkor szeretném, ha otthon érezné magát. Tavaly ősszel azonban volt egy gondom: a győri lakásomban a nappali egyszerűen nem akart meleg lenni.\n\nA ház régi, a múlt század elején épült, magasak a szobák, nagyok az ablakok. Amikor nyáron beköltöztem, ez nagyon tetszett. Novemberben viszont kiderült, hogy hiába megy a fűtés, a nappaliban a hőmérséklet nem megy 18 fok fölé. Vilja pulóverben és két pár zokniban ült az asztalnál, úgy rajzolt. Egy 18 fokos szobában nem könnyű rajzolni.\n\n– Apa, miért fúj itt a szél? – kérdezte egy este.\n\nIgaza volt. Ha az ablak mellé tartottam a kezem, éreztem a hideg levegőt. Az ablak és a fal között egy vékony rés volt, alul pedig még egy, szélesebb. Megpróbáltam újságpapírral betömni a réseket, de sehogy sem sikerült. A papír kiesett, a hideg pedig ugyanúgy jött be. Ragasztóval is próbáltam, de az sem tartott. Sehogy sem tudtam megoldani, ezért felhívtam egy szerelőt.\n\nEgy idős, nyugodt ember jött ki, Bertók úr. Először csak állt a szobában, és figyelt. Aztán a radiátorhoz lépett. A radiátort egy régi, festett fa rács takarta el, amelyet még az előző lakó tett fel, mert szépnek találta.\n\n– Ez a rács szép, de a meleg nagy részét a fal mellett tartja – mondta a szerelő. – A meleg levegő nem tud kijönni a szobába. Ha leveszi, a szoba sokkal gyorsabban meleg lesz.\n\nAztán megnézte az ablakokat is. Elmagyarázta, hogy a réseket nem papírral kell betömni, hanem egy vékony gumiszalaggal, amelyet az ablak szélére ragasztanak.\n\nBertók úr egy óra alatt végzett. Levette a rácsot, a réseket pedig gondosan lezárta. Amikor elment, még mindig 18 fok volt a szobában. Másnap reggel viszont már 21 fokos volt a nappali.\n\nAz első napokban figyeltem, hogy tartósan javul-e a helyzet, vagy csak egy szerencsés nap volt. Nem kellett csalódnom: a hőmérséklet napokon át változatlan maradt, reggel és este is 21 fok volt. A következő havi gázszámla kisebb lett, pedig a fűtésen nem változtattam. A szerelő szerint a régi házakban a helyzet legtöbbször így javul: nem drága munkával, hanem apró, okos lépésekkel.\n\nA rácsot nem dobtam ki. Viljával kékre festettük, és most a falon van, könyvespolcként. Vilja szerint így sokkal szebb, mint régen. Ő már nem ül pulóverben az asztalnál, és nem kérdezi, miért fúj a szél a szobában. A nappali azóta változatlanul meleg.\n\nKérdések:\nKi Kadosa, és mikor van nála a lánya?\nKadosa elvált apa, és a lánya, Vilja, minden második hétvégén nála lakik.\nMiért nem sikerült újságpapírral betömni a réseket?\nSehogy sem sikerült, mert a papír kiesett, és a hideg ugyanúgy bejött.\nMit csinált a szerelő a radiátornál?\nLevette a régi fa rácsot, mert az a fal mellett tartotta a meleget.\nHány fokos volt a nappali másnap reggel?\nMásnap reggel 21 fokos volt a nappali.\nTartósan javult-e a helyzet?\nIgen, a hőmérséklet napokon át változatlan maradt, és a gázszámla is kisebb lett.\nMi lett a régi ráccsal?\nKadosa és Vilja kékre festették, és most könyvespolc a falon."
+    },
+    {
+      "title": "Egy család táblázata",
+      "summary": "When the winter electricity bill nearly doubles, a teenager in Debrecen builds a spreadsheet of every appliance and family member and finds an old freezer that eats power and an unused eco function on the washing machine.",
+      "newWords": [
+        "táblázat",
+        "oszlop",
+        "összeállít",
+        "családtag",
+        "meghalad",
+        "ugrás",
+        "funkció",
+        "értékelés"
+      ],
+      "text": "Januárban Valentina kinyitotta a decemberi áramszámlát, és nem hitt a szemének. Az összeg jóval meghaladta a novemberit: majdnem kétszer akkora volt. Ekkora ugrás még soha nem volt a család számláiban. Először arra gondolt, hogy hiba történt, de amikor megnézte a mérőt a garázs falán, látta, hogy a szám pontos.\n\nEste leült beszélni a családdal. A debreceni házban négyen élnek: Valentina, a férje, a 16 éves Flórián és a 9 éves kislányuk.\n\n– Valahol elfolyik az áram – mondta Valentina. – Csak azt nem tudom, hol. Honnan jön ez a nagy ugrás?\n\nFlórián szívesen dolgozik számítógépen, ezért felajánlotta, hogy összeállít egy táblázatot. Még aznap este összeállította. Az első oszlopba a ház összes gépét írta be: a hűtőt, a mosógépet, a sütőt, a számítógépeket, a kerti lámpákat és a régi fagyasztót, amely a garázsban állt. A második oszlopba azt írta, hogy melyik gép mennyi áramot fogyaszt egy nap alatt. A harmadik oszlop a családtagoké lett.\n\n– Minden családtagnak van egy oszlopa – magyarázta Flórián. – Ide írjuk, ki melyik gépet használja, és mennyi ideig. Így látjuk, mi történik a házban.\n\nAz apja először nevetett, de aztán ő is segített. Egy héten át minden este leolvasták a mérőt, és a számokat a táblázatba írták. Még a kislány is pontosan beírta, mennyi ideig nézte a tévét.\n\nA táblázat hamar megmutatta, hol a hiba. A régi fagyasztó egyedül több áramot használt, mint a hűtő és a mosógép együtt. Az ajtaja nem zárt rendesen, ezért a gép szinte éjjel-nappal dolgozott. Amennyi áramot naponta elvitt, az messze meghaladta azt, amit egy ilyen gépnél normálisnak tartanak. Decemberben ráadásul a hideg garázsban még többet dolgozott.\n\nKiderült az is, hogy a mosógépnek van egy olyan funkciója, amelyet senki sem használt, mert senki sem olvasta el a leírást. Ez a funkció tovább mos, de alacsonyabb hőmérsékleten, és sokkal kevesebb áramot használ. Flórián a táblázatba egy új oszlopot is tett, és abba azt írta, melyik gépnek milyen hasznos funkciói vannak.\n\nA régi gépet eladták, és egy kisebb, újat vettek helyette. A mosógépen attól kezdve mindig ezt a funkciót választották, a számítógépeket pedig éjszakára kikapcsolták.\n\nFebruár végén Flórián elkészítette a hónap értékelését. Az értékelés rövid volt: a család a negyedével kevesebb áramot használt, mint decemberben, és a februári számla már nem volt nagyobb a novemberinél. Az értékelés végére Flórián egy mondatot is írt: „A legtöbb áramot nem egy családtag használta, hanem a garázs.” Valentina a táblázatot a hűtő ajtajára tette.\n\nKérdések:\nMekkora ugrás volt a decemberi számlában?\nA decemberi számla jóval meghaladta a novemberit: majdnem kétszer akkora volt.\nMit állított össze Flórián?\nÖsszeállított egy táblázatot a ház gépeiről és a családtagokról.\nMi volt a táblázat oszlopaiban?\nAz első oszlopban a gépek voltak, a másodikban az, hogy mennyi áramot használnak, a harmadikban pedig a családtagok.\nMelyik gép használta a legtöbb áramot?\nA régi fagyasztó, mert az ajtaja nem zárt rendesen. Egyedül több áramot használt, mint a hűtő és a mosógép együtt.\nMilyen funkciót nem használt senki?\nA mosógép egyik funkcióját, amellyel sokkal kevesebb áram kell, mert senki sem olvasta el a leírást.\nMit írt Flórián az értékelés végére?\nAzt írta, hogy a legtöbb áramot nem egy családtag használta, hanem a garázs."
+    },
+    {
+      "title": "Télre készül a kert",
+      "summary": "In late October a grandmother in Veszprém and her twelve-year-old grandson get her garden ready for winter: they compost the leaves, wrap the roses, store the apples and oil the blades of the tools.",
+      "newWords": [
+        "előkészít",
+        "kesztyű",
+        "pók",
+        "hulladék",
+        "baktérium",
+        "csomagol",
+        "tárol",
+        "penge"
+      ],
+      "text": "Jolanda néni negyven éve gondozza a kertjét Veszprém szélén. Minden év október végén előkészíti a télre, és ezt a munkát soha nem hagyja ki. Idén az unokája, a 12 éves Nikolasz is segített neki, mert a szülei egy hétre elutaztak.\n\n– Először a kesztyűt veszed fel – mondta Jolanda néni, és odaadott neki egy pár vastag, régi kesztyűt. – A kertben kesztyű nélkül semmihez sem nyúlunk.\n\nA szerszámokat a kert végében, egy kis kamrában tartja. Amikor Nikolasz kinyitotta az ajtót, megállt. A sarokban egy nagy pók ült a hálója közepén.\n\n– Ne félj tőle – nevetett a nagymamája. – A pók a barátunk. Egész nyáron fogta a legyeket és a szúnyogokat. Itt maradhat egész télen.\n\nAztán munkához láttak. Először összegyűjtötték a lehullott leveleket. Jolanda néni soha nem égeti el a kerti hulladékot, és nem is teszi a kukába. A kert sarkában van egy nagy fa láda, abba kerül minden: a levelek, a levágott növények, az apróra vágott ágak és a konyhai hulladék is, például a zöldségek héja.\n\n– És mi lesz ebből? – kérdezte Nikolasz.\n\n– Föld – felelte Jolanda néni. – Egész télen a baktériumok dolgoznak rajta. Nem látod őket, mert nagyon kicsik, de rengeteg van belőlük. A baktériumoknak csak levegő, egy kis víz és idő kell. Egy év múlva ebből a hulladékból fekete, jó föld lesz, és tavasszal visszakerül a kertbe.\n\nEzután a két magas rózsához mentek. Ezek nem bírják jól a fagyot, ezért Jolanda néni minden ősszel régi zsákokba csomagolja őket. Nikolasz tartotta a zsákot, a nagymamája pedig megkötötte. Gondosan csomagolták, hogy a szél ne vigye el a zsákokat.\n\nDélután az almát szedték le, és levitték a pincébe. Jolanda néni a pincében tárolja az almát egész télen, fa ládákban, egy hűvös, sötét sarokban. Minden almát egyenként megnézett: amelyiken volt egy kis folt, azt nem tette a többi közé.\n\n– Egy rossz alma a többit is elrontja – magyarázta. – A krumplival is így vagyok. Azt külön tárolom, a másik sarokban.\n\nVégül a szerszámokat tisztították meg. Jolanda néni megmutatta, hogyan kell a kerti kés pengéjét élesre fenni. Aztán egy rongyot olajba mártott, és a pengéket bekente vele, hogy tavaszig se legyen bajuk.\n\nEste Nikolasz egy kosár almával ment haza. A kesztyűt is megkapta ajándékba.\n\nKérdések:\nMit csinál Jolanda néni minden év október végén?\nElőkészíti a kertet a télre.\nMiért maradhatott a pók a kamrában?\nMert a pók a barátjuk: egész nyáron fogta a legyeket és a szúnyogokat.\nMi lesz a kerti hulladékból?\nA baktériumok egész télen dolgoznak rajta, és egy év múlva jó, fekete föld lesz belőle.\nMibe csomagolták a rózsákat, és miért?\nRégi zsákokba csomagolták őket, mert nem bírják jól a fagyot.\nHol tárolja Jolanda néni az almát?\nA pincében tárolja, fa ládákban, egy hűvös, sötét sarokban.\nMit csináltak a kés pengéjével?\nJolanda néni élesre fente, aztán olajjal bekenték."
+    },
+    {
+      "title": "Szőlő a terasz fölött",
+      "summary": "During a hot, dry July in Zánka a girl helps her grandfather give the garden water only on odd days and dust the vine with sulphur at dawn, and in August they pick the first ripe grapes.",
+      "newWords": [
+        "szőlő",
+        "érett",
+        "kén",
+        "jellegzetes",
+        "páratlan",
+        "korlátozott",
+        "halkan",
+        "figyelmes"
+      ],
+      "text": "Konstantin bácsi Zánkán lakik, a Balaton északi partján, egy kis házban a falu fölött. A háza előtt egy öreg szőlő fut fel a fa oszlopokon, és nyáron árnyékot ad a teraszra. Az unokája, Tihana, minden júliusban két hetet tölt nála.\n\nIdén különösen forró volt a nyár. Napokon át 35 fokos meleg volt, és hetek óta nem esett az eső. A kútban egyre kevesebb lett a víz, ezért Konstantin bácsi szabályt hozott.\n\n– A víz most korlátozott – mondta halkan, ahogy mindig. – A kert csak páratlan napokon kap vizet, reggel korán, amikor még hűvös van. Páros napokon csak a paradicsom kap egy keveset abból, amit a hordóban gyűjtöttünk.\n\nTihana figyelmes lány. Észrevette, hogy a nagyapja sosem emeli fel a hangját, mégis mindenki figyel rá. Ő is megtanulta, hogy halkan kérdezzen, és figyelmesen hallgassa a választ. Ő vette észre azt is, hogy a szőlő levelein fehér foltok jelentek meg.\n\n– Ez gomba – mondta Konstantin bácsi. – A meleg éjszakák kedveznek neki. Holnap reggel kénnel szórjuk be a szőlőt.\n\nMásnap hajnalban keltek, amikor még nem fújt a szél. A nagyapa egy kis géppel finom, sárga port fújt a levelekre. Ez volt a kén. Tihana kesztyűben állt mellette, és a létrát tartotta.\n\n– A kén régi, egyszerű szer – magyarázta a nagyapja. – Az én nagyapám is ezt használta. Csak óvatosan kell vele bánni, mert nem szabad a szemünkbe jutnia.\n\nA kén segített: egy hét múlva már nem jelent meg új folt.\n\nAugusztus elején, Tihana utolsó napján a szőlő érett lett. A szemek aranysárgák voltak, a nap felőli oldalon egy kicsit barnák. Konstantin bácsi levágott egy fürtöt, és Tihana kezébe adta.\n\n– Kóstold meg! Ennek a szőlőnek jellegzetes íze van. Kicsit olyan, mint a méz és a virág együtt. Ezt a fajtát a faluban szinte mindenki ismeri.\n\nTihana megkóstolta. A szőlő édes volt, és meleg a naptól. Valóban jellegzetes íze volt: semmihez sem hasonlított, amit a boltban vett.\n\n– Az érett szőlővel nem kell sokáig várni – mondta a nagyapja halkan. – Ha érett, enni kell, nem tartogatni.\n\nEste egy kosár szőlővel ültek a teraszon. A Balaton fölött villámlott, és késő este, hetek után először, végre esni kezdett az eső.\n\nKérdések:\nMiért volt korlátozott a víz Konstantin bácsinál?\nMert hetek óta nem esett az eső, és a kútban egyre kevesebb lett a víz.\nMikor kapott vizet a kert?\nA kert csak páratlan napokon kapott vizet, reggel korán.\nMilyen lány Tihana?\nFigyelmes lány: halkan kérdez, és figyelmesen hallgatja a választ.\nMivel szórták be a szőlőt, és miért?\nKénnel szórták be, mert fehér foltok jelentek meg a levelein.\nMilyen íze volt az érett szőlőnek?\nJellegzetes, édes íze volt, kicsit olyan, mint a méz és a virág együtt."
+    },
+    {
+      "title": "Negyven év időjárása",
+      "summary": "An interview with a retired geography teacher in Velence who has written down the weather in his garden three times a day since 1981: what he observes, what has changed, an eagle on the lake and a magnetic storm.",
+      "newWords": [
+        "megfigyel",
+        "légkör",
+        "anno",
+        "sas",
+        "karom",
+        "költői",
+        "mágneses",
+        "fázis"
+      ],
+      "text": "Ozsváth Emánuel 74 éves, nyugdíjas földrajztanár Velencén. 1981 óta minden nap háromszor feljegyzi, milyen az idő a kertjében. A füzetei ma egy egész szekrényt megtöltenek. Otthonában beszélgettünk vele.\n\n– Hogyan kezdődött ez a szokás?\n\n– Anno, amikor fiatal tanár voltam, a diákjaimmal építettünk egy kis időjárás-állomást az iskola udvarán. A diákok egy idő után elfelejtették, én viszont nem. Amikor nyugdíjba mentem, itthon, a kertben folytattam.\n\n– Mit szokott megfigyelni?\n\n– Reggel hétkor, délben és este kilenckor megnézem a hőmérsékletet, a szelet és a felhőket, és megmérem, mennyi eső esett. Mindent beírok a füzetbe. A Hold fázisait is feljegyzem, mert az idősebb kertészek szerint a Hold fázisa hatással van a növényekre. Ezt én nem hiszem, de feljegyezni nem kerül semmibe.\n\n– Változott-e az időjárás az elmúlt negyven évben?\n\n– Ez szinte költői kérdés, hiszen a válasz ott van a füzeteimben. Anno januárban hetekig be volt fagyva a tó, a gyerekek korcsolyáztak rajta. Az utolsó igazán kemény telet tizenöt éve figyeltem meg. A nyarak viszont egyre melegebbek. A légkör melegebb lett, és a meleg légkör több vizet tud magában tartani. Ezért nálunk is ritkábban esik, de amikor esik, akkor egyszerre sok.\n\n– Nem unja, hogy minden nap ugyanazt csinálja?\n\n– Ez is költői kérdés. Nem unom, mert minden nap más. És nem csak az eget szoktam megfigyelni.\n\n– Mire gondol?\n\n– Télen sok madár jön a tóra, és néha sasok is. Egyszer láttam, ahogy egy sas lecsapott a vízre, és hatalmas karmokkal kiemelt egy halat. A karmok olyan erősek voltak, hogy a hal meg sem tudott mozdulni. Ezt a napot is beírtam a füzetbe, pedig a sas nem időjárás.\n\n– Volt olyan, amit a füzetei alapján sem tudott megmagyarázni?\n\n– 2024 májusában egy erős mágneses vihar miatt piros és lila fény jelent meg az égen. Sarki fényt láttunk Velencén! Ilyet negyven év alatt sosem figyeltem meg. A mágneses vihar persze nem időjárás, mert a légkör fölött, messze fent történik, de azt is feljegyeztem.\n\n– Mit tanácsol annak, aki szeretné elkezdeni?\n\n– Egy füzetet, egy hőmérőt és türelmet. Az időjárás egy nap alatt keveset mond. Negyven év alatt viszont sokat.\n\nKérdések:\nMióta jegyzi fel az időjárást Ozsváth Emánuel?\n1981 óta jegyzi fel, minden nap háromszor.\nHogyan kezdődött a szokása?\nAnno a diákjaival épített egy kis időjárás-állomást az iskola udvarán.\nMit figyel meg reggel, délben és este?\nMegfigyeli a hőmérsékletet, a szelet és a felhőket, és megméri, mennyi eső esett. A Hold fázisait is feljegyzi.\nMiért esik ritkábban, de egyszerre több eső?\nMert a légkör melegebb lett, és a meleg légkör több vizet tud magában tartani.\nMit látott egyszer a tavon?\nEgy sast, amely hatalmas karmokkal kiemelt egy halat a vízből.\nMi történt 2024 májusában?\nEgy erős mágneses vihar miatt sarki fény jelent meg az égen Velencén is."
+    },
+    {
+      "title": "Éjszakai vihar",
+      "summary": "Alone at home in Dunakeszi during a summer storm, a woman loses power and cannot reach her husband; a neighbour keeps her company, and in the morning a broken branch is sawn up, the insurer is called and the husband comes home.",
+      "newWords": [
+        "dől",
+        "vész",
+        "biztosítása",
+        "elvág",
+        "kiút",
+        "felőle",
+        "hazajön",
+        "idejön"
+      ],
+      "text": "Július végén Hedda egyedül volt otthon Dunakeszin. A férje, Krisztofer, egy hétig Szegeden dolgozott, és csak pénteken akart hazajönni. Csütörtök este a telefonja figyelmeztette, hogy erős vihar közeledik.\n\nHedda bezárta az ablakokat, és a kerti székeket a házba vitte. Fél tízkor jött a szél, aztán dőlni kezdett az eső. Hedda az ablakból nézte, ahogy az eső dől, és az utcán folyik a víz. Tízkor elment az áram, és a házban sötét lett.\n\nKrisztofer még régen kitett a hűtő ajtajára egy listát, amelynek ez volt a címe: „Vész esetén”. Rajta volt, hol van a kis lámpa, hogyan kell elzárni a gázt, és melyik számot kell hívni, ha baj van. Hedda most hálás volt érte. Megkereste a lámpát, és felhívta a férjét. A telefon sokáig szólt, de Krisztofer nem vette fel. Hedda írt neki egy üzenetet, de arra sem jött válasz. Egy órán át semmit sem hallott felőle.\n\nEkkor a szomszéd, Zdenka néni hívta.\n\n– Nálad is sötét van? – kérdezte. – Ne ülj ott egyedül, idejövök hozzád. Hozok gyertyát is.\n\nZdenka néni pár perc múlva ott volt két gyertyával.\n\n– Köszönöm, hogy idejöttél – mondta Hedda.\n\nLeültek a konyhában.\n\n– Krisztofer még mindig nem jelentkezett – mondta Hedda. – Nem tudom, mi lehet vele.\n\n– Biztosan alszik, vagy lemerült a telefonja – mondta Zdenka néni. – Ha baj lenne, már hallottál volna felőle.\n\nEkkor nagy zajt hallottak. A kert végében álló öreg fa egyik nagy ága letört, és most a kerítésnek dőlve lógott. Hedda meg akarta nézni, de Zdenka néni nem engedte ki a viharba.\n\nÉjfélre vége lett a viharnak, és Zdenka néni hazament. Hajnalban végre üzenet jött: „Bocsáss meg, lemerült a telefonom. Jól vagy? Délben hazajövök.”\n\nReggel az utcán mindenütt ágak feküdtek. Az utca végén egy nagy fa feküdt keresztben, és elvágta az utat a város felé, ezért az utcából csak egy kiút maradt: a másik vége, a vasút felé. Hedda a kerítéshez ment, és nem látott kiutat: hogyan vegye le egyedül a nehéz ágat? Délelőtt Zdenka néni fia jött át. Két helyen elvágta az ágat, és együtt elvitték a kerítéstől.\n\nHedda megnézte a ház biztosítását is. A ház biztosítása a viharban sérült kerítés javítását is fizeti, ezért felhívta a biztosítót, és fényképeket készített.\n\nKrisztofer délben ért haza. Először azt kérdezte meg, hogy Hedda jól van-e, és csak aztán nézte meg a kerítést.\n\n– Legközelebb a telefon töltője is rákerül a „Vész esetén” listára – mondta.\n\nKérdések:\nMikor akart Krisztofer hazajönni?\nPénteken akart hazajönni Szegedről.\nMi volt a hűtő ajtaján lévő listán?\nA „Vész esetén” listán az állt, hol van a kis lámpa, hogyan kell elzárni a gázt, és melyik számot kell hívni, ha baj van.\nMiért aggódott Hedda?\nMert Krisztofer nem vette fel a telefont, és egy órán át semmit sem hallott felőle.\nKi jött át Heddához a viharban?\nZdenka néni, a szomszéd, aki gyertyát is hozott.\nMi történt az utca végén?\nEgy nagy fa feküdt keresztben, és elvágta az utat a város felé.\nKi fizeti a kerítés javítását?\nA ház biztosítása fizeti a viharban sérült kerítés javítását."
+    },
+    {
+      "title": "Kevés hó a Mátrában",
+      "summary": "A woman who has run a small ski rental in Mátraháza for fifteen years copes with ever shorter winters: on a good January day she fits out a family for the slope, and on green weeks she rents out bikes, a bold idea that now brings half her profit.",
+      "newWords": [
+        "sí",
+        "bérel",
+        "sapka",
+        "krém",
+        "merész",
+        "kijut",
+        "összefüggő"
+      ],
+      "text": "Brigi tizenöt éve visz egy kis kölcsönzőt Mátraházán, a pálya alján. Amikor kezdte, a sí volt a fő üzlet. Decembertől márciusig szinte minden hétvégén összefüggő hó borította a hegyet, és a vendégek sorban álltak, hogy sít béreljenek.\n\nAz utóbbi években azonban egyre kevesebb a hó. Van olyan tél, amikor alig két-három hétig van összefüggő hó a pályán. Máskor esik egy kicsit, aztán jön egy meleg hét, és a hónak nyoma sem marad.\n\nEgy januári szombaton végre jó idő volt. Éjjel friss hó esett, reggel sütött a nap, és Brigi már nyolckor kinyitott. Az első vendég egy család volt két kisgyerekkel.\n\n– Egy napra szeretnénk sít bérelni – mondta az apa. – Mindenkinek. A gyerekek most próbálják először.\n\nBrigi kiválasztotta nekik a megfelelő sít és cipőt, aztán a gyerekekre nézett.\n\n– Nincs rajtuk sapka? – kérdezte. – Itt fent hideg a szél, még ha süt is a nap. Sapkát nálam is lehet bérelni, de kettőt szívesen kölcsönadok.\n\nA gyerekek felvették a sapkát. Brigi ekkor elővett egy kis tubus krémet is.\n\n– A hó visszaveri a napot, ezért itt fent hamarabb leég az ember arca, mint a strandon – magyarázta. – Kenjék be az arcukat ezzel a krémmel, a gyerekekét is. Délben pedig még egyszer.\n\nA család hálásan elfogadta a krémet. A gyerekek a nehéz cipőben lassan jártak, ezért Brigi megmutatta nekik, hogyan lehet a legrövidebb úton kijutni a pályára. Tíz perc múlva mindannyian kijutottak, és az apa integetett a hó közepéről.\n\nDélután, amikor kevés volt a vendég, Brigi arra gondolt, hogy három éve milyen merész döntést hozott. Mivel a sí már nem hozott elég pénzt, a kölcsönzőben kerékpárokat és botokat is kínálni kezdett a havas napok közötti zöld hetekre. Sokan kinevették: ki bérel biciklit januárban? A merész ötlet mégis bevált. A téli bevétel fele ma már a kerékpárokból jön. Nélkülük a kölcsönző már bezárt volna.\n\nNégykor a család visszajött. A gyerekek arca piros volt, de nem égett le.\n\n– Jövő szombaton is jövünk – mondta az apa, és visszaadta a sapkákat. – Ha lesz hó.\n\n– És ha nem lesz, akkor kerékpárral – nevetett Brigi.\n\nKérdések:\nMi változott Mátraházán az utóbbi években?\nEgyre kevesebb a hó, és van olyan tél, amikor csak két-három hétig van összefüggő hó a pályán.\nMit akart bérelni a család?\nEgy napra sít és cipőt akartak bérelni mindenkinek.\nMiért adott Brigi krémet a családnak?\nMert a hó visszaveri a napot, és fent hamarabb leég az ember arca.\nHogyan jutott ki a család a pályára?\nBrigi megmutatta nekik a legrövidebb utat, és tíz perc múlva kijutottak.\nMilyen merész döntést hozott Brigi három éve?\nKerékpárokat és botokat is kínálni kezdett a zöld hetekre, és ma a téli bevétel fele ebből jön."
+    },
+    {
+      "title": "Az üveg a polcon",
+      "summary": "A Hungarian mother in Vienna writes about the jar into which the family puts the money it saves on electricity: her two children switch off the lights, count their coins and learn something about saving and about each other.",
+      "newWords": [
+        "érme",
+        "cent",
+        "vagyona",
+        "nevelés",
+        "egyén",
+        "nyaklánc",
+        "sértés",
+        "meggyőző"
+      ],
+      "text": "Tíz éve élünk Bécsben, de otthon magyarul beszélünk, és a gyerekeink, Annabella és Domokos, szombatonként magyar iskolába is járnak. Tavaly ősszel, amikor az áram ára megint emelkedett, a férjemmel kitaláltunk valamit.\n\nAzt mondtuk a gyerekeknek: amennyivel kisebb lesz a havi áramszámla, mint tavaly ugyanebben a hónapban, annak a felét megkapják. A pénzt egy nagy üvegbe tesszük, amely a konyhában áll a polcon.\n\nA hatás azonnal látszott. Domokos, aki nyolcéves, a lámpák őre lett. Ha valaki kiment egy szobából, és égve hagyta a villanyt, ő már ott is volt, és lekapcsolta. A tizenegy éves Annabella a mosógépet és a hűtőt figyelte, és a tévét sem hagyta bekapcsolva.\n\nAz első hónap után 8 euró 40 centtel fizettünk kevesebbet. A pénzt érmékben tettük az üvegbe, hogy a gyerekek lássák. Domokos minden este kiöntötte az érméket az asztalra, és megszámolta őket. A kis, barna centek egy kupacba kerültek, a nagyobb érmék egy másikba. Büszkén mondta, hogy ez az egész vagyona. Valójában a vagyona fele a nővéréé volt, de ezt nem akartam elrontani.\n\nAnnabella viszont spórolni kezdett. Egy ezüst nyakláncot szeretett volna, amelyet a szomszéd utcában egy kis üzletben látott. A nyaklánc 25 euróba került, és ő minden centet félretett rá.\n\nEgy este Domokos azt mondta a nővérére, hogy zsugori, mert soha nem költ semmit. Annabella sírva szaladt a szobájába. Később elmagyaráztam Domokosnak, hogy amit mondott, az sértés volt, még ha nem is gondolta komolyan.\n\n– Nem sértésnek szántam – mondta Domokos, és bocsánatot kért.\n\nMásnap Annabella elmagyarázta neki, miért spórol: ha türelmes, a saját pénzéből veheti meg a nyakláncot. Az érvei olyan meggyőzőek voltak, hogy Domokos is gyűjteni kezdett egy focilabdára. A legmeggyőzőbb azonban a nyaklánc volt, amikor februárban végre ott csillogott a nővére nyakában.\n\nSokat gondolkodtam azon, mi a jó nevelés, ha pénzről van szó. Az egyik oldalon az áll, hogy a gyerekeket nem kell pénzzel jutalmazni azért, amit amúgy is meg kellene tenniük. A másik oldalon viszont az, hogy a pénzzel bánni is tanulni kell, és jobb otthon, kis összegekkel kezdeni. Szerintem a nevelés nem egyetlen szabályból áll. Minden gyerek más egyén, és minden egyénnek mást kell megtanulnia: Annabellának azt, hogy néha merjen költeni is, Domokosnak azt, hogy a pénzt nem kell azonnal elkölteni.\n\nDomokos addigra 14 euró 60 centet gyűjtött, és kiszámolta, hogy a labdához még a fél tavasz kell. Az üveg ma is ott áll a polcon. Az áramszámla pedig azóta is kisebb.\n\nKérdések:\nMit kapnak a gyerekek az áramszámlából?\nAnnak a felét kapják meg, amennyivel kisebb a számla, mint tavaly ugyanabban a hónapban.\nMit csinált Domokos minden este?\nKiöntötte az érméket az asztalra, és megszámolta őket. A centek egy kupacba kerültek, a nagyobb érmék egy másikba.\nMire spórolt Annabella?\nEgy ezüst nyakláncra, amely 25 euróba került.\nMiért kért bocsánatot Domokos?\nMert zsugorinak nevezte a nővérét, és az sértés volt, még ha nem is gondolta komolyan.\nMit gondol az anya a nevelésről?\nAzt, hogy a nevelés nem egyetlen szabályból áll, mert minden gyerek más egyén."
+    },
+    {
+      "title": "Esőkert a kiállításon",
+      "summary": "At a spring garden show in Kecskemét a young gardener debuts with a small rain garden that needs no watering, and a well-known television gardener praises it on stage and invites her to her programme.",
+      "newWords": [
+        "híresség",
+        "fellépés",
+        "debütál",
+        "meghívás",
+        "díszít",
+        "elnevezés",
+        "varázslatos",
+        "vízi"
+      ],
+      "text": "Vanessza két éve végzett kertészként. Áprilisban Kecskeméten, a tavaszi kiállításon debütált: először mutatott be saját kertet a közönségnek.\n\nA kiállításon tizenkét fiatal kertész épített egy-egy kis kertet. Vanessza egy esőkertet tervezett. Az elnevezés talán furcsán hangzik, de az ötlet egyszerű: a kert a ház tetejéről lefolyó eső vizét egy mélyebb részben gyűjti össze, és ott tartja, amíg a föld lassan magába nem issza. Egy ilyen kertnek nyáron sem kell sok vizet adni.\n\nA kert legmélyebb részén egy kis tó volt, benne vízi növényekkel. A vízi növények a tó vizét is tisztán tartják. A tó körül olyan növények nőttek, amelyek a száraz időt és a sok vizet is bírják. Vanessza a kertet régi téglákkal és fehér kövekkel díszítette, a kövek közé pedig apró lámpákat tett.\n\nA kiállítás sztárja Margaréta volt, a televízió ismert kertésze. Húsz éve vezet egy kertekről szóló műsort, és az országban szinte mindenki ismeri. Igazi híresség, mégis úgy járt a kertek között, mint bárki más. Délelőtt Vanessza kertje előtt is megállt.\n\n– Miért pont esőkert? – kérdezte.\n\n– Az elnevezés nem az enyém – felelte Vanessza. – Angolul is így hívják az ilyen kerteket. Én csak magyarul mondom.\n\nMargaréta sokáig nézte a kis tavat, aztán megkérdezte, mennyi vizet kell adni a kertnek nyáron. Amikor Vanessza azt felelte, hogy szinte semmit, mosolygott.\n\nDélután négykor volt Margaréta fellépése a színpadon. Fél órán át beszélt arról, hogyan lehet szép kertet tartani kevés vízzel. Sokan jöttek el a fellépésére. A végén azt mondta, hogy a kiállítás legokosabb kertjét egy fiatal kertész készítette, aki most debütál. Aztán Vanessza nevét is kimondta.\n\nEste, a kiállítás végén, Margaréta meghívást adott Vanesszának: jöjjön el a műsorába, és mutassa be az esőkertet a nézőknek. Vanessza alig hitte el, hogy a meghívás neki szól. Margaréta azonban kezet nyújtott neki, és mosolyogva várta a válaszát.\n\nAmikor sötét lett, az apró lámpák égni kezdtek a kövek között, és a fényük a vízen is látszott. Egy kislány megállt a kert előtt, és azt mondta az anyjának:\n\n– Ez egy varázslatos kert!\n\nVanessza úgy gondolta, ennél szebb díjat nem kaphatott volna. A kert valóban varázslatos volt, pedig csak az eső vizéből, kövekből és néhány régi téglából állt.\n\nKérdések:\nMi történt Vanesszával áprilisban?\nA kecskeméti tavaszi kiállításon debütált: először mutatott be saját kertet.\nMit jelent az „esőkert” elnevezés?\nOlyan kertet jelent, amely összegyűjti a tetőről lefolyó eső vizét, és ott tartja, amíg a föld magába nem issza.\nMivel díszítette Vanessza a kertet?\nRégi téglákkal és fehér kövekkel díszítette, a kövek közé pedig apró lámpákat tett.\nKi volt Margaréta?\nA televízió ismert kertésze, igazi híresség.\nMiről beszélt Margaréta a fellépésén?\nArról, hogyan lehet szép kertet tartani kevés vízzel.\nMilyen meghívást kapott Vanessza?\nMeghívást kapott Margaréta műsorába, hogy bemutassa az esőkertet."
+    },
+    {
+      "title": "Egy tanév energiája",
+      "summary": "In a Miskolc secondary school a physics teacher and her class spend a school year saving energy: they lower the overheated classrooms' temperature, switch off the lights after football training and present their results to the school management.",
+      "newWords": [
+        "tanév",
+        "labdarúgás",
+        "szállítás",
+        "igazgatóság",
+        "megszólal",
+        "torka"
+      ],
+      "text": "Ottilia húsz éve tanít fizikát egy miskolci gimnáziumban. Szeptemberben, a tanév első hetében megkérdezte az osztályát: mennyi energiát használ egy iskola, és mennyit lehetne belőle megtakarítani? A diákok nem tudták. Elhatározták, hogy az egész tanév alatt figyelni fogják.\n\nAz első kérdés a meleg volt. Télen a tantermekben gyakran 25 fok volt, a levegő pedig nagyon száraz. Ottilia ilyenkor délutánra alig tudott beszélni, mert fájt a torka.\n\n– A tanárnő torka megint fáj – mondta egyszer egy diák. – Lehet, hogy a meleg miatt?\n\nA diákok két hónapig mérték a hőmérsékletet minden teremben. Kiderült, hogy 21–22 fok is bőven elég, és ilyenkor a levegő sem olyan száraz. Ottilia torka is jobban bírta.\n\nA második kérdés a villany volt. A diákok kitalálták, hogy minden teremnek legyen egy felelőse. Amikor az óra végén megszólal a csengő, a felelős lekapcsolja a lámpákat, ha a terem üres marad. Az első hetekben sokan elfelejtették, de tavaszra már mindenki magától kapcsolt, amint megszólalt a csengő.\n\nEste a tornateremben labdarúgás-edzéseket tartanak a környék gyerekeinek. A diákok észrevették, hogy az edzés után sokszor reggelig égnek a lámpák. Megkérték az edzőket, hogy a labdarúgás után ők kapcsolják le a villanyt. Az edzők szívesen segítettek.\n\nTavasszal az iskola új, takarékos lámpákat kapott a folyosókra. A szállítás két hetet késett, de a szállítás után a diákok is segítettek kicserélni a régi lámpákat.\n\nJúniusban az osztály összeállította az eredményeket. Egy rövid értékelésben elküldték az iskola igazgatóságának, és egy délután be is mutatták. A számok meggyőzőek voltak: az iskola egy tanév alatt a negyedével kevesebb energiát használt, mint egy évvel korábban. Az igazgatóság megköszönte a munkát, és úgy döntött, hogy a projektnek lesz folytatása.\n\nSzeptemberben a kilencedikesek veszik át a munkát, Ottilia osztálya pedig megmutatja nekik, hogyan kell mérni. Ottilia a következő tanévet már jó előre várja. A torka azóta nem fáj.\n\nKérdések:\nMit kérdezett Ottilia az osztályától a tanév elején?\nAzt, hogy mennyi energiát használ egy iskola, és mennyit lehetne belőle megtakarítani.\nMiért fájt gyakran Ottilia torka?\nMert télen a tantermekben 25 fok volt, és a levegő nagyon száraz.\nMit csinál a terem felelőse, amikor megszólal a csengő?\nLekapcsolja a lámpákat, ha a terem üres marad.\nMi történt a labdarúgás-edzések után?\nSokszor reggelig égtek a lámpák, ezért a diákok megkérték az edzőket, hogy kapcsolják le a villanyt.\nMit döntött az igazgatóság?\nÚgy döntött, hogy a projektnek lesz folytatása, és szeptemberben a kilencedikesek veszik át a munkát."
+    }
+  ]
+}
