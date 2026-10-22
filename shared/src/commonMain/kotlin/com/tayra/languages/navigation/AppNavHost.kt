@@ -4,6 +4,7 @@ import androidx.compose.animation.EnterTransition
 import androidx.compose.animation.ExitTransition
 import androidx.compose.animation.fadeIn
 import androidx.compose.animation.fadeOut
+import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.WindowInsets
 import androidx.compose.foundation.layout.consumeWindowInsets
 import androidx.compose.foundation.layout.padding
@@ -37,7 +38,10 @@ import com.tayra.languages.feature.frequency.frequencyGraph
 import com.tayra.languages.feature.home.homeGraph
 import com.tayra.languages.feature.languages.languagesGraph
 import com.tayra.languages.feature.news.newsGraph
+import com.tayra.languages.feature.playlists.PlaybackProblemDialog
+import com.tayra.languages.feature.playlists.PlayerBar
 import com.tayra.languages.feature.playlists.playlistsGraph
+import com.tayra.languages.feature.settings.LanguageSetupDialog
 import com.tayra.languages.feature.reading.readingGraph
 import com.tayra.languages.feature.settings.settingsGraph
 import com.tayra.languages.feature.stats.statsGraph
@@ -62,20 +66,26 @@ fun AppNavHost(openCourses: Int = 0) {
     val phoneBar = LocalWindowWidth.current.isCompact && destination != null && !destination.hasRoute<Route.Read>() && !destination.hasRoute<Route.Practice>() && !destination.hasRoute<Route.PracticeWords>() &&
         !destination.hasRoute<Route.ChooseLanguage>()
     var more by remember { mutableStateOf(false) }
+    // The language whose downloads the playlist player sent for, to get a voice for it.
+    var voiceFor by remember { mutableStateOf<Long?>(null) }
     Scaffold(
         bottomBar = {
-            if (phoneBar) {
-                PhoneNavBar(
-                    section = destination?.let(::sectionOf),
-                    // A tab always lands on its own page, with only the start page (Home) left beneath it.
-                    onNavigate = { route ->
-                        navController.navigate(route) {
-                            popUpTo(navController.graph.findStartDestination().id)
-                            launchSingleTop = true
-                        }
-                    },
-                    onMore = { more = true },
-                )
+            // The playlist player's bar stays while anything is loaded, over the phone's tabs.
+            Column {
+                PlayerBar(onNavigate = { navController.navigate(it) { launchSingleTop = true } }, onPlayerScreen = destination?.hasRoute<Route.Player>() == true)
+                if (phoneBar) {
+                    PhoneNavBar(
+                        section = destination?.let(::sectionOf),
+                        // A tab always lands on its own page, with only the start page (Home) left beneath it.
+                        onNavigate = { route ->
+                            navController.navigate(route) {
+                                popUpTo(navController.graph.findStartDestination().id)
+                                launchSingleTop = true
+                            }
+                        },
+                        onMore = { more = true },
+                    )
+                }
             }
         },
         containerColor = MaterialTheme.colorScheme.background,
@@ -109,6 +119,8 @@ fun AppNavHost(openCourses: Int = 0) {
             composable<Route.ChooseLanguage> { ChooseLanguageScreen(onBack = { navController.popBackStack() }) }
         }
     }
+    PlaybackProblemDialog(onDownloadVoice = { voiceFor = it })
+    LanguageSetupDialog(voiceFor, onClosed = { voiceFor = null })
     if (more) MoreSheet(onNavigate = { more = false; navController.navigate(it) }, onDismiss = { more = false })
 }
 

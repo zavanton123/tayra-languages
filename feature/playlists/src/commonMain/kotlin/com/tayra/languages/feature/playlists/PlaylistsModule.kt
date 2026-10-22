@@ -25,6 +25,7 @@ val playlistsModule = module {
     viewModel { (playlistId: Long) -> PlaylistDetailViewModel(playlistId, get(), get(), get(), get()) }
     viewModel { (mode: PlaylistFormMode) -> PlaylistFormViewModel(mode, get(), get()) }
     viewModel { (bookId: Long) -> AddToPlaylistViewModel(bookId, get(), get()) }
+    viewModel { PlayerViewModel(get(), get(), get(), get(), get(), get()) }
 }
 
 fun NavGraphBuilder.playlistsGraph(navController: NavController) {
@@ -33,6 +34,7 @@ fun NavGraphBuilder.playlistsGraph(navController: NavController) {
         val route = entry.toRoute<Route.Playlist>()
         PlaylistDetailScreen(route.playlistId, onNavigate = { navController.navigate(it) }, onBack = { navController.backTo(Route.Playlists) })
     }
+    composable<Route.Player> { PlayerScreen(onNavigate = { navController.navigate(it) }, onBack = { navController.popBackStack() }) }
     composable<Route.NewPlaylist> { entry ->
         val route = entry.toRoute<Route.NewPlaylist>()
         PlaylistFormScreen(
