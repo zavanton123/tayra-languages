@@ -302,8 +302,9 @@ fun ExamplesSearchScreen(
                     state.searching -> item { PlaceholderCards(4, lines = 1) }
                     state.results.isEmpty() -> item {
                         Column(Modifier.fillMaxWidth(), horizontalAlignment = Alignment.CenterHorizontally) {
-                            EmptyMessage(tr("No examples match these filters."), Modifier.fillMaxWidth())
+                            EmptyMessage(if (state.failed) unreachable(query.source) else tr("No examples match these filters."), Modifier.fillMaxWidth())
                             Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+                                if (state.failed) SecondaryButton(tr("Retry"), onClick = viewModel::search, icon = Icons.Default.Refresh)
                                 state.fallbackSources.forEach { source ->
                                     val label = when (source) {
                                         ExampleSource.COURSES -> tr("Try my courses")
@@ -343,6 +344,7 @@ fun ExamplesSearchScreen(
                             Spacer(Modifier.height(AppSpacing.m))
                         }
                         if (state.hasMore) {
+                            if (state.failed) item { SourceNote(unreachable(query.source)) }
                             item {
                                 Row(Modifier.fillMaxWidth().padding(AppSpacing.l), horizontalArrangement = Arrangement.Center) {
                                     SecondaryButton(if (state.loadingMore) tr("Loading...") else tr("Load more"), onClick = viewModel::loadMore, enabled = !state.loadingMore)
@@ -625,4 +627,11 @@ private fun emphasize(sentence: String, term: String): AnnotatedString {
             append(sentence.substring(index))
         }
     }
+}
+
+/** What the screen says when [source] could not be asked. */
+private fun unreachable(source: ExampleSource): String = when (source) {
+    ExampleSource.TATOEBA -> tr("Tatoeba isn't responding right now.")
+    ExampleSource.LEIPZIG -> tr("The Leipzig Corpora Collection isn't responding right now.")
+    ExampleSource.COURSES -> tr("Your courses could not be read.")
 }

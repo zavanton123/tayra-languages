@@ -171,6 +171,70 @@ class ExamplesSearchViewModelTest {
         assertEquals(emptyList(), vm.state.value.fallbackSources)
     }
 
+    /** Tatoeba fails while [down]; its pages fail while [pagesDown]. */
+    private class FlakyTatoeba(private val sources: List<ExampleSourceFeatures>) : ExampleSentencesProvider {
+        @Volatile var down = true
+        @Volatile var pagesDown = false
+        val queries: MutableList<ExampleSearchQuery> = Collections.synchronizedList(mutableListOf())
+        override suspend fun search(query: ExampleSearchQuery): ExampleSearchResult {
+            queries += query
+            return when {
+                query.source != ExampleSource.TATOEBA -> ExampleSearchResult(listOf(ExampleSentence("Uma casa ${query.source}.", null)), 1, null)
+                down -> ExampleSearchResult.FAILED
+                else -> ExampleSearchResult(listOf(ExampleSentence("Uma casa.", "A house.")), 2, "page-2")
+            }
+        }
+        override suspend fun nextPage(nextPage: String, targetLanguage: String) =
+            if (pagesDown) ExampleSearchResult.FAILED else ExampleSearchResult(listOf(ExampleSentence("Outra casa.", "Another house.")), 2, null)
+        override suspend fun sources(language: Language) = sources
+    }
+
+    @Test
+    fun aFailedTatoebaSearchOffersARetryAndTheOtherSources() {
+        val examples = FlakyTatoeba(listOf(ExampleSourceFeatures.TATOEBA, courses, leipzig))
+        val vm = viewModel(examples)
+        waitFor("the failure and the other sources") { vm.state.value.failed && !vm.state.value.searching && vm.state.value.fallbackSources == listOf(ExampleSource.COURSES, ExampleSource.LEIPZIG) }
+        assertEquals(emptyList(), vm.state.value.results)
+
+        examples.down = false
+        vm.search()
+        waitFor("the retry") { vm.state.value.results.isNotEmpty() && !vm.state.value.searching }
+        assertFalse(vm.state.value.failed)
+        assertEquals("page-2", vm.state.value.nextPage)
+
+        examples.pagesDown = true
+        vm.loadMore()
+        waitFor("the page failed") { vm.state.value.failed && !vm.state.value.loadingMore }
+        assertEquals(1, vm.state.value.results.size)
+        assertEquals("page-2", vm.state.value.nextPage, "the failed page can be asked for again")
+
+        examples.pagesDown = false
+        vm.loadMore()
+        waitFor("the page came") { vm.state.value.results.size == 2 && !vm.state.value.loadingMore }
+        assertFalse(vm.state.value.failed)
+        assertEquals(null, vm.state.value.nextPage)
+    }
+
+    @Test
+    fun aFailedSearchFallsBackToTheCoursesWhenAsked() {
+        val examples = FlakyTatoeba(listOf(ExampleSourceFeatures.TATOEBA, courses))
+        val vm = viewModel(examples)
+        waitFor("the offer") { vm.state.value.failed && vm.state.value.fallbackSources == listOf(ExampleSource.COURSES) }
+        vm.setSource(ExampleSource.COURSES)
+        waitFor("the courses' results") { vm.state.value.results.singleOrNull()?.text == "Uma casa COURSES." && !vm.state.value.searching }
+        assertFalse(vm.state.value.failed)
+    }
+
+    @Test
+    fun aProviderThatThrowsIsAFailureNotAStuckSearch() {
+        val examples = object : ExampleSentencesProvider {
+            override suspend fun search(query: ExampleSearchQuery): ExampleSearchResult = throw IllegalStateException("timeout")
+            override suspend fun nextPage(nextPage: String, targetLanguage: String) = ExampleSearchResult.EMPTY
+        }
+        val vm = viewModel(examples)
+        waitFor("the failure") { vm.state.value.failed && !vm.state.value.searching && !vm.state.value.loading }
+    }
+
     @Test
     fun leipzigResultsAreTranslatedOnceEachAsTheyAreShown() {
         val examples = FakeExamples(listOf(ExampleSourceFeatures.TATOEBA, leipzig)) {

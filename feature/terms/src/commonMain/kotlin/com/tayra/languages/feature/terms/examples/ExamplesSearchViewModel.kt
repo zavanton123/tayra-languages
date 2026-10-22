@@ -22,6 +22,7 @@ import com.tayra.languages.core.domain.service.SentenceTranslation
 import com.tayra.languages.core.domain.service.SentenceTranslator
 import com.tayra.languages.core.domain.service.TranslationEngine
 import com.tayra.languages.core.domain.service.effectiveEngine
+import com.tayra.languages.core.domain.service.failedOnError
 import com.tayra.languages.core.domain.settings.SettingsRepository
 import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.CoroutineScope
@@ -50,6 +51,8 @@ data class ExamplesSearchUiState(
     val searching: Boolean = false,
     val loadingMore: Boolean = false,
     val error: String? = null,
+    /** The source could not be asked for the last search or page (offline, too slow), rather than having found nothing. */
+    val failed: Boolean = false,
     /** The term shown in the term pane: the searched one, or a word clicked in an example; null once closed. */
     val paneTerm: String? = null,
     /** The example the pane's term was clicked in, if any. */
@@ -180,14 +183,14 @@ class ExamplesSearchViewModel(
         if (!keepCollocations) collocationsFor = null
         _state.update {
             it.copy(
-                searching = true, error = null, results = emptyList(), total = null, nextPage = null, paneTerm = query.text.trim(), paneSentence = null,
+                searching = true, error = null, failed = false, results = emptyList(), total = null, nextPage = null, paneTerm = query.text.trim(), paneSentence = null,
                 translations = it.translations.filterValues { t -> t is SentenceTranslation.Done },
                 collocations = if (keepCollocations) it.collocations else emptyList(),
             )
         }
         searchJob = viewModelScope.launch {
-            val result = provider.search(query)
-            _state.update { it.copy(searching = false, results = result.sentences, total = result.total, nextPage = result.nextPage) }
+            val result = failedOnError { provider.search(query) }
+            _state.update { it.copy(searching = false, failed = result.failed, results = result.sentences, total = result.total, nextPage = result.nextPage) }
             loadLearning()
         }
         if (query.source == ExampleSource.LEIPZIG && !keepCollocations) loadCollocations(query)
@@ -324,10 +327,11 @@ class ExamplesSearchViewModel(
         val s = _state.value
         val next = s.nextPage ?: return
         if (s.loadingMore || s.searching) return
-        _state.update { it.copy(loadingMore = true) }
+        _state.update { it.copy(loadingMore = true, failed = false) }
         viewModelScope.launch {
-            val result = provider.nextPage(next, s.query?.targetLanguage ?: "en")
-            _state.update { it.copy(loadingMore = false, results = it.results + result.sentences, nextPage = result.nextPage) }
+            val result = failedOnError { provider.nextPage(next, s.query?.targetLanguage ?: "en") }
+            // A page that failed stays the next one, so that "Load more" asks for it again.
+            _state.update { it.copy(loadingMore = false, failed = result.failed, results = it.results + result.sentences, nextPage = if (result.failed) next else result.nextPage) }
             loadLearning()
         }
     }
