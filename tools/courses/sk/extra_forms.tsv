@@ -734,7 +734,19 @@ geológ	geologického geologické geologickej
 farmácia	farmaceutickej farmaceutické farmaceutických
 menštruácia	menštruačného
 # Added by hand: the future of ísť negated (the list files it under its noise entry nepôjsť), the pronoun on joined to a
-# preposition (naň, preňho), and the greeting ahoj to several people.
-on	naň naňho preňho zaň doňho oňho zaňho cezeň poňho
+# preposition (naň, preňho), the greeting ahoj to several people, and forms the
+# writers found missing or filed under a look-alike (rada of rád, domáce of domáci, nebeží of bežať).
+on	naň naňho preňho oň zaň doňho oňho zaňho cezeň poňho
 ísť	nepôjde nepôjdem nepôjdu nepôjdeme nepôjdete nepôjdeš
+oni	ne
+rád	rada
 ahoj	ahojte
+jasný	jasná
+mnohý	mnohé mnohá
+milý	milo
+minulý	minulom
+bežať	nebežal nebežala nebežia nebeží
+obyvateľ	obyvateľovi
+cestovať	necestuje necestujú
+domáci	domáce
+sadnúť	sadli sadla
