@@ -36,5 +36,7 @@ private val featureModules: List<Module> = listOf(booksModule, coursesModule, fr
 fun initKoin(platformModules: List<Module> = emptyList()) {
     startKoin {
         modules(platformModules + dataModule + appModule + featureModules)
+        // Koin on the web does not make the singles marked to be made at the start by itself.
+        createEagerInstances()
     }
 }
