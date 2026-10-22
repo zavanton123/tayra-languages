@@ -33,7 +33,11 @@ import com.tayra.languages.core.domain.dictionary.OfflineDictionary
 import com.tayra.languages.core.domain.service.TermTranslationProvider
 import com.tayra.languages.core.domain.service.WordTranslationService
 import com.tayra.languages.core.domain.service.TermValidationException
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.async
+import kotlinx.coroutines.awaitAll
 import kotlinx.coroutines.flow.first
+import kotlinx.coroutines.runBlocking
 import kotlinx.coroutines.test.runTest
 import java.io.File
 import kotlin.test.Test
@@ -269,5 +273,30 @@ class RepositoryIntegrationTest {
         assertEquals(null, service.translate(language, "xyzzy"))
         assertEquals(null, service.translate(language, "1999"))
         assertEquals(listOf("house", "xyzzy"), asked)
+    }
+
+    /** Saves that both found no term with a text store it once: a new term takes the row stored meanwhile. */
+    @Test
+    fun aTermStoredMeanwhileIsTakenNotInsertedTwice() = runTest {
+        val env = Env()
+        val langId = env.english()
+        val stored = env.termService.save(TermDraft(languageId = langId, text = "run", originalText = "run", status = TermStatus.NEW_1, translation = "correr"))
+        val raced = env.terms.findByTextLc(langId, "run")!!.copy(id = 0, status = TermStatus.LEARNING_3, translation = "corrida")
+        assertEquals(stored, env.terms.save(raced))
+        assertEquals("corrida", env.terms.findByTextLc(langId, "run")?.translation)
+        // A page's placeholder for the word leaves the stored term as it is.
+        assertEquals(listOf(stored), env.terms.insertAll(listOf(raced.copy(status = TermStatus.UNKNOWN, translation = null))))
+        assertEquals(TermStatus.LEARNING_3, env.terms.findByTextLc(langId, "run")?.status)
+    }
+
+    /** The term pane can save a form twice at once; both link the same new lemma without a clash. */
+    @Test
+    fun concurrentSavesCreateTheParentOnce() = runBlocking {
+        val env = Env()
+        val langId = env.english()
+        val draft = TermDraft(languageId = langId, text = "runs", originalText = "runs", status = TermStatus.NEW_1, translation = "corre", parents = listOf("run"))
+        val ids = (1..8).map { async(Dispatchers.Default) { env.termService.save(draft) } }.awaitAll()
+        assertEquals(1, ids.distinct().size)
+        assertEquals(listOf("run"), env.terms.getById(ids.first())?.parents?.map { it.text })
     }
 }

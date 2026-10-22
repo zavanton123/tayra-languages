@@ -75,12 +75,20 @@ class TermRepositoryImpl(
 
     override suspend fun save(term: Term): Long = withContext(databaseDispatcher) {
         val database = db()
-        database.transactionWithResult { saveInTransaction(database, term) }
+        database.transactionWithResult { saveInTransaction(database, term, replaceStored = true) }
     }
 
-    private suspend fun saveInTransaction(database: TayraDatabase, term: Term): Long {
+    /**
+     * Stores [term]. A new term whose text another writer stored in the meantime takes that row:
+     * [replaceStored] overwrites it with this one, otherwise the stored row stays as it is.
+     */
+    private suspend fun saveInTransaction(database: TayraDatabase, term: Term, replaceStored: Boolean): Long {
         val q = database.termsQueries
         val now = clock.now().toEpochMilliseconds()
+        if (term.id == 0L) {
+            val stored = q.selectByTextLc(term.languageId, term.textLc).awaitAsOneOrNull()
+            if (stored != null) return if (replaceStored) saveInTransaction(database, term.copy(id = stored.id), replaceStored) else stored.id
+        }
         val id = if (term.id == 0L) {
             q.insert(
                 languageId = term.languageId,
@@ -163,7 +171,7 @@ class TermRepositoryImpl(
     override suspend fun insertAll(terms: List<Term>): List<Long> = withContext(databaseDispatcher) {
         if (terms.isEmpty()) return@withContext emptyList()
         val database = db()
-        database.transactionWithResult { terms.map { saveInTransaction(database, it) } }
+        database.transactionWithResult { terms.map { saveInTransaction(database, it, replaceStored = false) } }
     }
 
     override suspend fun setParents(termId: Long, parentIds: List<Long>) = withContext(databaseDispatcher) {

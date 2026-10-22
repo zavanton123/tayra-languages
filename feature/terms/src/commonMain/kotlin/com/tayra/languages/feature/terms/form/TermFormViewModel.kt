@@ -1,5 +1,9 @@
 package com.tayra.languages.feature.terms.form
 
+import kotlinx.coroutines.withContext
+import kotlinx.coroutines.NonCancellable
+import kotlinx.coroutines.sync.withLock
+import kotlinx.coroutines.sync.Mutex
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.domain.flashcards.Flashcard
 import com.tayra.languages.core.domain.flashcards.FlashcardService
@@ -198,6 +202,8 @@ class TermFormViewModel(
     val events = UiEvents<TermFormEvent>()
     private var searchJob: Job? = null
     private var autosaveJob: Job? = null
+    /** One save at a time, each reading the draft as the one before left it, so a term is never inserted twice. */
+    private val saveLock = Mutex()
     private var packJob: Job? = null
     private var lookupJob: Job? = null
     private var entryJob: Job? = null
@@ -591,7 +597,7 @@ class TermFormViewModel(
             val pending = toSave(before.draft)
             val sentence = sentenceFor(before.draft)
             viewModelScope.launch {
-                val id = runCatching { termService.save(pending, sentence) }.getOrNull() ?: return@launch
+                val id = runCatching { saveLock.withLock { termService.save(pending, sentence) } }.getOrNull() ?: return@launch
                 events.send(TermFormEvent.Saved(id, keepOpen = true))
             }
         }
@@ -610,7 +616,8 @@ class TermFormViewModel(
         autosaveJob?.cancel()
         autosaveJob = viewModelScope.launch {
             delay(AUTOSAVE_DELAY_MS)
-            val id = doSave() ?: return@launch
+            // A newer edit cancels the wait, never a save half done.
+            val id = withContext(NonCancellable) { doSave() } ?: return@launch
             events.send(TermFormEvent.Saved(id, keepOpen = true))
         }
     }
@@ -668,7 +675,7 @@ class TermFormViewModel(
         // The form can disappear with unsaved edits (panel closed, navigation); persist them.
         val state = _state.value
         if (state.dirty && !state.loading && state.draft.languageId != 0L && state.draft.text.isNotBlank()) {
-            GlobalScope.launch { runCatching { termService.save(toSave(state.draft), sentenceFor(state.draft)) } }
+            GlobalScope.launch { runCatching { saveLock.withLock { termService.save(toSave(_state.value.draft), sentenceFor(_state.value.draft)) } } }
         }
     }
 
@@ -752,7 +759,9 @@ class TermFormViewModel(
     private fun toSave(draft: TermDraft): TermDraft =
         if (draft.status == TermStatus.UNKNOWN && !draft.statusExplicitlySet) draft.copy(status = TermStatus.NEW_1) else draft
 
-    private suspend fun doSave(): Long? {
+    private suspend fun doSave(): Long? = saveLock.withLock { saveDraft() }
+
+    private suspend fun saveDraft(): Long? {
         val draft = toSave(_state.value.draft)
         if (draft.languageId == 0L) {
             _state.update { it.copy(error = tr("Please select a language")) }
