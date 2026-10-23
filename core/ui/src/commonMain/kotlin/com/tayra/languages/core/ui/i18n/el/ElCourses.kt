@@ -1,6 +1,7 @@
 package com.tayra.languages.core.ui.i18n.el
 
 internal val elCourses: Map<String, String> = mapOf(
+    "Add course to playlist" to "Προσθήκη μαθήματος σε λίστα αναπαραγωγής",
     "Search courses, lessons and tags" to "Αναζήτηση μαθημάτων, ενοτήτων και ετικετών",
     // CourseForms.kt
     "Press Enter or a comma after each tag. Courses can be filtered by their tags." to "Πατήστε Enter ή κόμμα μετά από κάθε ετικέτα. Μπορείτε να φιλτράρετε τα μαθήματα με βάση τις ετικέτες τους.",

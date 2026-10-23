@@ -185,8 +185,8 @@ class PlaylistDetailViewModel(
 
 /** What a playlist form does: make one, change its details, or add texts to it. */
 sealed interface PlaylistFormMode {
-    /** A new playlist, with the text [bookId] chosen to start with when given. */
-    data class Create(val bookId: Long?) : PlaylistFormMode
+    /** A new playlist, starting with [source] when given, or else with the text [bookId] when given. */
+    data class Create(val bookId: Long?, val source: PlaylistSource? = null) : PlaylistFormMode
     data class Edit(val playlistId: Long) : PlaylistFormMode
     data class AddTexts(val playlistId: Long) : PlaylistFormMode
 }
@@ -281,7 +281,7 @@ class PlaylistFormViewModel(
             }
             val languageId = existing?.languageId ?: settings.current.currentLanguageId
             val library = if (mode is PlaylistFormMode.AddTexts) service.library(languageId) else PlaylistLibrary(emptyList(), emptyList())
-            val start = (mode as? PlaylistFormMode.Create)?.bookId?.let { service.sourceFor(it) }
+            val start = (mode as? PlaylistFormMode.Create)?.let { create -> create.source ?: create.bookId?.let { service.sourceFor(it) } }
             _state.update {
                 it.copy(
                     loading = false,
@@ -339,6 +339,22 @@ class PlaylistFormViewModel(
 
     /** About how long [characters] of the playlist's language take to hear. */
     fun duration(characters: Int): Duration = service.duration(characters, _state.value.languageCode)
+}
+
+/** The course pages' playlist menu: the language's playlists, to put a lesson or a whole course into. */
+class PlaylistPickerViewModel(private val service: PlaylistService, settings: SettingsRepository) : ViewModel() {
+    @OptIn(ExperimentalCoroutinesApi::class)
+    val state: StateFlow<AddToPlaylistUiState> =
+        settings.settings.map { it.currentLanguageId }.distinctUntilChanged().flatMapLatest { service.observePlaylists(it) }
+            .map { AddToPlaylistUiState(it) }
+            .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), AddToPlaylistUiState())
+
+    /** Adds [source] after the playlist's texts, then tells [onAdded] the playlist's name. */
+    fun add(playlist: Playlist, source: PlaylistSource, onAdded: (String) -> Unit) {
+        viewModelScope.launch {
+            runCatching { service.add(playlist.id, listOf(source)) }.onSuccess { onAdded(playlist.name) }
+        }
+    }
 }
 
 /** The reader's playlist menu: the language's playlists, and which hold the open text. */

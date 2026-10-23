@@ -1,5 +1,8 @@
 package com.tayra.languages.feature.courses
 
+import androidx.compose.runtime.SideEffect
+import androidx.compose.runtime.Composable
+import com.tayra.languages.core.domain.playlists.PlaylistSource
 import com.tayra.languages.core.domain.courses.CourseDraft
 import androidx.compose.foundation.layout.Column
 import androidx.compose.material3.MaterialTheme
@@ -186,6 +189,26 @@ class CoursesScreenTest {
         assertNotNull(onAllNodesWithText("Completed").fetchSemanticsNodes().singleOrNull())
         save("COURSE_SCREENSHOT")
         collecting.cancel()
+    }
+
+    /** A course's page offers the whole course to a playlist, and each lesson of it on its own. */
+    @Test
+    fun aCourseAndEachLessonCanGoIntoAPlaylist() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        val viewModel = CourseViewModel("pt-mini-0100", service)
+        val offered = mutableListOf<Pair<PlaylistSource, String?>>()
+        host {
+            val state by viewModel.state.collectAsState()
+            val button: @Composable (PlaylistSource, String?) -> Unit = { source, label -> SideEffect { offered += source to label } }
+            CompositionLocalProvider(LocalPlaylistButton provides button) {
+                if (!state.loading) CourseContent(state, onOpenLesson = {}, onCourses = {})
+            }
+        }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("A casa nova").fetchSemanticsNodes().isNotEmpty() }
+        val sources = offered.toMap()
+        assertEquals("Add course to playlist", sources[PlaylistSource.WholeCourse("pt-mini-0100")])
+        val lessons = sources.keys.filterIsInstance<PlaylistSource.Lesson>()
+        assertEquals(10, lessons.size, "every lesson has its own button")
+        assertTrue(lessons.all { it.courseId == "pt-mini-0100" } && lessons.none { sources[it] != null }, "a lesson's button is an icon")
     }
 
     /** On a phone a lesson's title keeps its width beside its tags and the hint; they go under it when the line is full. */

@@ -1,5 +1,11 @@
 package com.tayra.languages.feature.courses
 
+import androidx.compose.runtime.staticCompositionLocalOf
+import androidx.compose.runtime.CompositionLocalProvider
+import com.tayra.languages.core.ui.components.rememberToastState
+import com.tayra.languages.core.ui.components.ToastHost
+import com.tayra.languages.feature.playlists.AddToPlaylistMenuButton
+import com.tayra.languages.core.domain.playlists.PlaylistSource
 import com.tayra.languages.core.ui.components.inLearnedScript
 import androidx.compose.foundation.LocalIndication
 import androidx.compose.foundation.background
@@ -172,6 +178,23 @@ internal fun LabelTag(label: String) = Tag(label, AppAccents.purple, size = TagS
 internal fun SampleTag() = LabelTag(tr("Sample course"))
 
 /** The courses of the language being learned, to search, filter and sort. */
+/**
+ * The button that puts a whole course or one lesson into a playlist: an icon, or a full-width
+ * button with the label given. The screens provide it; their content alone shows none.
+ */
+internal val LocalPlaylistButton = staticCompositionLocalOf<(@Composable (source: PlaylistSource, label: String?) -> Unit)?> { null }
+
+/** Gives [content] the playlist button, which confirms each adding with a toast. */
+@Composable
+internal fun ProvidePlaylistButton(content: @Composable () -> Unit) {
+    val toast = rememberToastState()
+    val button: @Composable (PlaylistSource, String?) -> Unit = { source, label ->
+        AddToPlaylistMenuButton(source, onAdded = { toast.show(tr("Added to {0}", it)) }, label = label)
+    }
+    CompositionLocalProvider(LocalPlaylistButton provides button, content = content)
+    ToastHost(toast)
+}
+
 @Composable
 fun CoursesScreen(onNavigate: (Route) -> Unit, viewModel: CoursesViewModel = koinViewModel()) {
     val state by viewModel.state.collectAsStateWithLifecycle()
@@ -181,31 +204,33 @@ fun CoursesScreen(onNavigate: (Route) -> Unit, viewModel: CoursesViewModel = koi
         }
     }
     if (LocalWindowWidth.current.isCompact) {
-        PhoneCoursesScreen(state, viewModel, onNavigate)
+        ProvidePlaylistButton { PhoneCoursesScreen(state, viewModel, onNavigate) }
         return
     }
-    Scaffold(
-        topBar = { AppTopBar(title = tr("Courses"), onNavigate = onNavigate, section = NavSection.COURSES) },
-        containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
-    ) { padding ->
-        if (state.loading) {
-            LoadingIndicator(Modifier.padding(padding))
-            return@Scaffold
+    ProvidePlaylistButton {
+        Scaffold(
+            topBar = { AppTopBar(title = tr("Courses"), onNavigate = onNavigate, section = NavSection.COURSES) },
+            containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
+        ) { padding ->
+            if (state.loading) {
+                LoadingIndicator(Modifier.padding(padding))
+                return@Scaffold
+            }
+            CoursesContent(
+                state,
+                onSearch = viewModel::setSearch,
+                onLevel = viewModel::setLevel,
+                onStatus = viewModel::setStatus,
+                onOpen = { onNavigate(Route.Course(it)) },
+                onNewCourse = { onNavigate(Route.NewCourse) },
+                onDownloadCourses = viewModel::downloadCourses,
+                onSort = viewModel::setSort,
+                onView = viewModel::setView,
+                onContinue = viewModel::continueCourse,
+                onTags = viewModel::setTags,
+                modifier = Modifier.padding(padding),
+            )
         }
-        CoursesContent(
-            state,
-            onSearch = viewModel::setSearch,
-            onLevel = viewModel::setLevel,
-            onStatus = viewModel::setStatus,
-            onOpen = { onNavigate(Route.Course(it)) },
-            onNewCourse = { onNavigate(Route.NewCourse) },
-            onDownloadCourses = viewModel::downloadCourses,
-            onSort = viewModel::setSort,
-            onView = viewModel::setView,
-            onContinue = viewModel::continueCourse,
-            onTags = viewModel::setTags,
-            modifier = Modifier.padding(padding),
-        )
     }
 }
 
@@ -491,6 +516,7 @@ private fun CourseCard(progress: CourseProgress, modifier: Modifier, tagsBelow: 
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
                 ProgressBar(progress, Modifier.weight(1f))
                 StatusText(progress, stacked = false)
+                LocalPlaylistButton.current?.invoke(PlaylistSource.WholeCourse(course.id), null)
                 Icon(Icons.AutoMirrored.Filled.KeyboardArrowRight, contentDescription = null, tint = colors.onSurfaceVariant)
             }
         }
@@ -536,6 +562,7 @@ private fun CourseRow(progress: CourseProgress, compact: Boolean, onClick: () ->
             ProgressBar(progress, Modifier.weight(0.9f))
             Box(Modifier.width(ROW_STATUS_WIDTH)) { StatusText(progress, stacked = true) }
         }
+        if (course.lessons.isNotEmpty()) LocalPlaylistButton.current?.invoke(PlaylistSource.WholeCourse(course.id), null)
         Icon(Icons.AutoMirrored.Filled.KeyboardArrowRight, contentDescription = null, tint = colors.onSurfaceVariant)
     }
 }
@@ -644,28 +671,30 @@ fun CourseScreen(
             CourseEvent.Deleted -> onBack()
         }
     }
-    Scaffold(
-        topBar = { AppTopBar(title = state.progress?.course?.title ?: tr("Course"), onNavigate = onNavigate, section = NavSection.COURSES, onBack = onBack) },
-        containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
-    ) { padding ->
-        if (state.loading) {
-            LoadingIndicator(Modifier.padding(padding))
-            return@Scaffold
+    ProvidePlaylistButton {
+        Scaffold(
+            topBar = { AppTopBar(title = state.progress?.course?.title ?: tr("Course"), onNavigate = onNavigate, section = NavSection.COURSES, onBack = onBack) },
+            containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
+        ) { padding ->
+            if (state.loading) {
+                LoadingIndicator(Modifier.padding(padding))
+                return@Scaffold
+            }
+            CourseContent(
+                state,
+                onOpenLesson = viewModel::openLesson,
+                onCourses = onBack,
+                editing = CourseEditing(
+                    onEdit = { onNavigate(Route.EditCourse(courseId)) },
+                    onDelete = viewModel::deleteCourse,
+                    onAddLesson = { onNavigate(Route.NewLesson(courseId)) },
+                    onEditLesson = { onNavigate(Route.EditLesson(courseId, it)) },
+                    onMoveLesson = viewModel::moveLesson,
+                    onDeleteLesson = viewModel::deleteLesson,
+                ),
+                modifier = Modifier.padding(padding),
+            )
         }
-        CourseContent(
-            state,
-            onOpenLesson = viewModel::openLesson,
-            onCourses = onBack,
-            editing = CourseEditing(
-                onEdit = { onNavigate(Route.EditCourse(courseId)) },
-                onDelete = viewModel::deleteCourse,
-                onAddLesson = { onNavigate(Route.NewLesson(courseId)) },
-                onEditLesson = { onNavigate(Route.EditLesson(courseId, it)) },
-                onMoveLesson = viewModel::moveLesson,
-                onDeleteLesson = viewModel::deleteLesson,
-            ),
-            modifier = Modifier.padding(padding),
-        )
     }
 }
 
@@ -764,6 +793,7 @@ private fun CourseSummary(progress: CourseProgress, onOpenLesson: (String) -> Un
                     Icon(Icons.AutoMirrored.Filled.ArrowForward, contentDescription = null, modifier = Modifier.size(AppSizes.icon))
                 }
             }
+            if (course.lessons.isNotEmpty()) LocalPlaylistButton.current?.invoke(PlaylistSource.WholeCourse(course.id), tr("Add course to playlist"))
             if (editing != null) {
                 SecondaryButton(tr("Edit course"), onClick = editing.onEdit, modifier = Modifier.fillMaxWidth().testTag("edit-course"), icon = Icons.Default.Edit)
                 if (confirm) {
@@ -847,6 +877,7 @@ private fun LessonList(progress: CourseProgress, compact: Boolean, onOpenLesson:
                 last = index == progress.lessons.lastIndex,
                 hint = if (lesson === next) (if (progress.status == LessonStatus.NOT_STARTED) tr("Start here") else tr("Continue here")) else null,
                 courseTags = progress.course.tags,
+                courseId = course.id,
                 onClick = { onOpenLesson(lesson.lesson.id) },
                 editing = editing,
             )
@@ -873,6 +904,7 @@ private fun LessonRow(
     last: Boolean,
     hint: String?,
     courseTags: List<String>,
+    courseId: String,
     onClick: () -> Unit,
     editing: CourseEditing?,
 ) {
@@ -943,6 +975,7 @@ private fun LessonRow(
             }
             if (status != LessonStatus.NOT_STARTED) Tag(status.label, tint, Modifier.width(LESSON_STATUS_WIDTH)) else Spacer(Modifier.width(LESSON_STATUS_WIDTH))
         }
+        LocalPlaylistButton.current?.invoke(PlaylistSource.Lesson(courseId, lesson.id), null)
         if (editing != null) LessonMenu(lesson.id, lesson.title, first, last, editing)
         else Icon(Icons.AutoMirrored.Filled.KeyboardArrowRight, contentDescription = null, tint = colors.onSurfaceVariant)
     }

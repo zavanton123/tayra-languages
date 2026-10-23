@@ -122,6 +122,49 @@ class PlaylistScreensTest {
         assertEquals(listOf(book), runBlocking { data.service.playlist(created!!)!!.items.map { it.bookId } })
     }
 
+    /** The course pages' menu puts a whole course, or one lesson, after a playlist's texts. */
+    @Test
+    fun aCourseOrALessonGoesIntoAPlaylistFromItsMenu() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        val book = data.book("Na cidade", text.repeat(4))
+        val playlist = runBlocking { data.service.create(data.languageId, PlaylistDraft("Commute", "", cover = 0), listOf(PlaylistSource.Text(book))) }
+        val picker = PlaylistPickerViewModel(data.service, data.settings)
+        val added = mutableListOf<String>()
+        val lesson = data.course.lessons[1]
+        host(data, "Course") {
+            AddToPlaylistMenuButton(PlaylistSource.Lesson(data.course.id, lesson.id), onAdded = { added += it }, viewModel = picker)
+            AddToPlaylistMenuButton(PlaylistSource.WholeCourse(data.course.id), onAdded = { added += it }, label = "Add course to playlist", viewModel = picker)
+        }
+        onNodeWithTag("add-lesson-to-playlist-${lesson.id}").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasTestTag("picker-playlist-$playlist"), useUnmergedTree = true).fetchSemanticsNodes().isNotEmpty() }
+        screenshot("playlist-picker")
+        onNodeWithTag("picker-playlist-$playlist", useUnmergedTree = true).performClick()
+        waitUntil(timeoutMillis = 5_000) { added.size == 1 }
+        assertEquals(listOf("Na cidade", lesson.title), runBlocking { data.service.playlist(playlist)!!.items.map { it.title } })
+
+        // The whole course follows, its lesson already there keeping its place.
+        onNodeWithText("Add course to playlist").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasTestTag("picker-playlist-$playlist"), useUnmergedTree = true).fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("picker-playlist-$playlist", useUnmergedTree = true).performClick()
+        waitUntil(timeoutMillis = 5_000) { added.size == 2 }
+        assertEquals(listOf("Commute", "Commute"), added)
+        val titles = runBlocking { data.service.playlist(playlist)!!.items.map { it.title } }
+        assertEquals(listOf("Na cidade", lesson.title, data.course.lessons[0].title, data.course.lessons[2].title), titles)
+    }
+
+    @Test
+    fun aPlaylistMadeFromACoursePageStartsWithTheCourse() = runDesktopComposeUiTest(width = 1586, height = 1100) {
+        val viewModel = PlaylistFormViewModel(PlaylistFormMode.Create(null, PlaylistSource.WholeCourse(data.course.id)), data.service, data.settings)
+        var created: Long? = null
+        host(data, "Course") {
+            NewPlaylistDialog(viewModel, onCreated = { id, _ -> created = id }, onDismiss = {})
+        }
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasTestTag("playlist-name")).fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("playlist-name").performTextInput("Shopping")
+        onNodeWithTag("form-save").performClick()
+        waitUntil(timeoutMillis = 5_000) { created != null }
+        assertEquals(data.course.lessons.map { it.title }, runBlocking { data.service.playlist(created!!)!!.items.map { it.title } })
+    }
+
     @Test
     fun onAPhoneTheNewPlaylistDialogFits() = runDesktopComposeUiTest(width = 400, height = 900) {
         val viewModel = PlaylistFormViewModel(PlaylistFormMode.Create(null), data.service, data.settings)

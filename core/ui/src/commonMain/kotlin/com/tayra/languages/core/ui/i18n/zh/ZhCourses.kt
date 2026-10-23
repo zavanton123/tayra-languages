@@ -1,6 +1,7 @@
 package com.tayra.languages.core.ui.i18n.zh
 
 internal val zhCourses: Map<String, String> = mapOf(
+    "Add course to playlist" to "将课程添加到播放列表",
     "Search courses, lessons and tags" to "搜索课程、课文和标签",
     // CourseForms.kt
     "Press Enter or a comma after each tag. Courses can be filtered by their tags." to "每输入一个标签后按 Enter 或输入逗号。课程可按标签筛选。",

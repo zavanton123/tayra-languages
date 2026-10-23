@@ -28,6 +28,7 @@ val playlistsModule = module {
     viewModel { (playlistId: Long) -> PlaylistDetailViewModel(playlistId, get(), get(), get(), get()) }
     viewModel { (mode: PlaylistFormMode) -> PlaylistFormViewModel(mode, get(), get()) }
     viewModel { (bookId: Long) -> AddToPlaylistViewModel(bookId, get(), get()) }
+    viewModel { PlaylistPickerViewModel(get(), get()) }
     viewModel { PlayerViewModel(get(), get(), get(), get(), get(), get()) }
 }
 

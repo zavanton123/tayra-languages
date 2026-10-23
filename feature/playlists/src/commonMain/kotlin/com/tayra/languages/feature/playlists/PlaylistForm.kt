@@ -120,13 +120,14 @@ fun PlaylistFormScreen(
 
 /**
  * Making a playlist in a dialog over the screen it is made from: its name, description and cover.
- * With [bookId] the open text goes into it. [onCreated] is told the new playlist's id and name.
+ * With [bookId] the open text goes into it, and with [source] that lesson or course does.
+ * [onCreated] is told the new playlist's id and name.
  */
 @Composable
-fun NewPlaylistDialog(bookId: Long?, onCreated: (playlistId: Long, name: String) -> Unit, onDismiss: () -> Unit) {
+fun NewPlaylistDialog(bookId: Long?, onCreated: (playlistId: Long, name: String) -> Unit, onDismiss: () -> Unit, source: PlaylistSource? = null) {
     // Each opening starts from an empty form, not from the last one's.
     val opening = remember { Random.nextLong() }
-    val viewModel: PlaylistFormViewModel = koinViewModel(key = "new-playlist-$bookId-$opening") { parametersOf(PlaylistFormMode.Create(bookId)) }
+    val viewModel: PlaylistFormViewModel = koinViewModel(key = "new-playlist-$bookId-$opening") { parametersOf(PlaylistFormMode.Create(bookId, source)) }
     NewPlaylistDialog(viewModel, onCreated, onDismiss)
 }
 

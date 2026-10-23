@@ -4,6 +4,9 @@ plugins {
 
 kotlin {
     sourceSets {
+        commonMain.dependencies {
+            implementation(projects.feature.playlists)
+        }
         jvmTest.dependencies {
             implementation(projects.core.data)
             implementation(libs.multiplatform.settings)

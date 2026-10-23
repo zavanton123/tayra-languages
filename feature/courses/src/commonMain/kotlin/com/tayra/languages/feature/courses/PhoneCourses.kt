@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.courses
 
+import com.tayra.languages.core.domain.playlists.PlaylistSource
 import com.tayra.languages.core.ui.components.inLearnedScript
 import androidx.compose.foundation.LocalIndication
 import androidx.compose.foundation.background
@@ -260,9 +261,10 @@ private fun PhoneCourseCard(progress: CourseProgress, onClick: () -> Unit) {
             Text(tr("No lessons yet"), Modifier.padding(top = AppSpacing.l), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
         } else {
             Text(courseFacts(course), Modifier.padding(top = AppSpacing.l), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
-            Row(Modifier.padding(top = AppSpacing.m, end = AppSpacing.s), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
+            Row(Modifier.padding(top = AppSpacing.m), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
                 ProgressBar(progress, Modifier.weight(1f))
                 StatusText(progress, stacked = false)
+                LocalPlaylistButton.current?.invoke(PlaylistSource.WholeCourse(course.id), null)
             }
         }
     }

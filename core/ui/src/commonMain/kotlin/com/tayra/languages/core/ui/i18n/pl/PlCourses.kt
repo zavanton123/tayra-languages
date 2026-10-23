@@ -1,6 +1,7 @@
 package com.tayra.languages.core.ui.i18n.pl
 
 internal val plCourses: Map<String, String> = mapOf(
+    "Add course to playlist" to "Dodaj kurs do playlisty",
     "Search courses, lessons and tags" to "Szukaj kursów, lekcji i tagów",
     // CourseForms.kt
     "Press Enter or a comma after each tag. Courses can be filtered by their tags." to "Po każdym tagu naciśnij Enter lub wpisz przecinek. Kursy można filtrować według tagów.",

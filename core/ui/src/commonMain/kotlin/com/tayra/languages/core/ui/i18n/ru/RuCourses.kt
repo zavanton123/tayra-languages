@@ -1,6 +1,7 @@
 package com.tayra.languages.core.ui.i18n.ru
 
 internal val ruCourses: Map<String, String> = mapOf(
+    "Add course to playlist" to "Добавить курс в плейлист",
     "Search courses, lessons and tags" to "Поиск по курсам, урокам и тегам",
     // CourseForms.kt
     "Press Enter or a comma after each tag. Courses can be filtered by their tags." to "После каждого тега нажмите Enter или поставьте запятую. По тегам курсы можно отфильтровать.",

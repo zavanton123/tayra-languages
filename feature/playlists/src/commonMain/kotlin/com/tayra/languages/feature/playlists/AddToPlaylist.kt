@@ -1,6 +1,12 @@
 package com.tayra.languages.feature.playlists
 
 import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.widthIn
+import com.tayra.languages.core.ui.components.SecondaryButton
+import com.tayra.languages.core.ui.components.AppMenuItem
+import com.tayra.languages.core.ui.components.AppMenu
+import com.tayra.languages.core.ui.components.AppIconButton
+import com.tayra.languages.core.domain.playlists.PlaylistSource
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
@@ -146,6 +152,78 @@ private fun AddToPlaylistMenu(viewModel: AddToPlaylistViewModel, onCreate: () ->
                 Text(tr("Create new playlist"), style = MaterialTheme.typography.bodyLarge)
             }
         }
+    }
+}
+
+/**
+ * Puts [source], a lesson or a whole course, into a playlist chosen from a menu of the language's
+ * playlists, or into a new one made for it. The button is an icon, or a full-width button with
+ * [label] where there is room. [onAdded] is told the playlist's name, for the screen to confirm.
+ */
+@Composable
+fun AddToPlaylistMenuButton(
+    source: PlaylistSource,
+    onAdded: (playlist: String) -> Unit,
+    modifier: Modifier = Modifier,
+    label: String? = null,
+    viewModel: PlaylistPickerViewModel = koinViewModel(),
+) {
+    val state by viewModel.state.collectAsStateWithLifecycle()
+    val colors = MaterialTheme.colorScheme
+    var open by remember { mutableStateOf(false) }
+    var creating by remember { mutableStateOf(false) }
+    val tag = when (source) {
+        is PlaylistSource.WholeCourse -> "add-course-to-playlist-${source.courseId}"
+        is PlaylistSource.Lesson -> "add-lesson-to-playlist-${source.lessonId}"
+        is PlaylistSource.Text -> "add-text-to-playlist-${source.bookId}"
+    }
+    Box(modifier) {
+        if (label != null) {
+            SecondaryButton(label, onClick = { open = true }, modifier = Modifier.fillMaxWidth().testTag(tag), icon = AppIcons.PlaylistAdd)
+        } else {
+            AppTooltip(tr("Add to playlist")) {
+                AppIconButton(AppIcons.PlaylistAdd, contentDescription = tr("Add to playlist"), onClick = { open = true }, modifier = Modifier.testTag(tag), tint = colors.primary)
+            }
+        }
+        AppMenu(expanded = open, onDismissRequest = { open = false }, modifier = Modifier.widthIn(max = MENU_WIDTH).testTag("playlist-picker")) {
+            Text(tr("Add to playlist"), Modifier.padding(horizontal = AppSpacing.l, vertical = AppSpacing.s), style = AppText.itemTitle)
+            if (state.playlists.isEmpty()) {
+                Text(tr("No playlists yet"), Modifier.padding(horizontal = AppSpacing.l, vertical = AppSpacing.s), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+            }
+            state.playlists.forEach { playlist ->
+                AppMenuItem(
+                    text = {
+                        Row(Modifier.testTag("picker-playlist-${playlist.id}"), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+                            Box(Modifier.size(AppSizes.tile).clip(AppShapes.compact).background(coverColor(playlist.cover).copy(alpha = AppAlpha.line)))
+                            Column {
+                                Text(playlist.name, style = AppText.label, maxLines = 1, overflow = TextOverflow.Ellipsis)
+                                Text(textCount(playlist.items.size), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
+                            }
+                        }
+                    },
+                    onClick = {
+                        open = false
+                        viewModel.add(playlist, source, onAdded)
+                    },
+                )
+            }
+            AppDivider(Modifier.padding(vertical = AppSpacing.xs))
+            AppMenuItem(
+                text = {
+                    Row(Modifier.testTag("picker-new-playlist"), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+                        Icon(Icons.Default.Add, contentDescription = null, modifier = Modifier.size(AppSizes.icon))
+                        Text(tr("Create new playlist"), style = MaterialTheme.typography.bodyLarge)
+                    }
+                },
+                onClick = {
+                    open = false
+                    creating = true
+                },
+            )
+        }
+    }
+    if (creating) {
+        NewPlaylistDialog(bookId = null, source = source, onCreated = { _, name -> creating = false; onAdded(name) }, onDismiss = { creating = false })
     }
 }
 
