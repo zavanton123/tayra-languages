@@ -1,3 +1,27 @@
 # Forms the Arabic frequency list files under another word or misses; check_course.py counts them as forms of the word.
 # Each line: the list's headword, a tab, the forms. Only true forms, spelled as unvowelled text writes them.
 عمل	تعمله
+تحقق	أتحقق
+شيء	أشيائي أشيائها
+دفع	تدفعين
+أخذ	تأخذين
+عبر	نعبر
+قال	يقل
+ضروري	ضروريون
+هواء	وهواؤها
+حي	أحياؤها
+هدوء	هدوئه
+عزف	تعزفون
+وزن	أزن
+أحب	أحبوها
+مبدأ	مبدؤه
+قرأ	تقرؤه
+صديق	أصدقائه
+توجه	تتوجهين
+متوقع	متوقعا
+رأى	رآها
+قبل	قبلت
+شاهد	تشاهدوه
+كوب	أكوابا
+شاب	الشابات
+انتهاء	انتهائهما
