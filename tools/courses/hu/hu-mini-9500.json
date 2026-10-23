@@ -1,0 +1,197 @@
+{
+  "id": "hu-mini-9500",
+  "rankUpTo": 9500,
+  "level": "C2",
+  "title": "Városépítés",
+  "description": "Ten stories about how Hungarian towns and villages are planned and improved: a riverside park, traffic lights, a courtyard, piped water, a school gym, a pier, garden wildlife, street trees, a digital city model and a square given back to pedestrians.",
+  "topic": "Urban planning",
+  "names": [
+    "Takáts",
+    "Éva",
+    "Győr",
+    "Sopron",
+    "Pécs",
+    "Bécs",
+    "Rába",
+    "Hidas",
+    "András",
+    "Szeged",
+    "Galló",
+    "Réka",
+    "Manyi",
+    "Alföld",
+    "Sulyok",
+    "Judit",
+    "Kiskunhalas",
+    "Józsi",
+    "Benda",
+    "Tamás",
+    "Matuska",
+    "Ágnes",
+    "Balaton",
+    "Pongrácz",
+    "Attila",
+    "Vecsey",
+    "Krisztina",
+    "Hegedüs",
+    "Balázs",
+    "Debrecen",
+    "India",
+    "Nagyerdő",
+    "Ambrózy",
+    "Barbara",
+    "Miskolc",
+    "Balatonboglár",
+    "Kecskemét",
+    "Hűvösvölgy",
+    "Buda"
+  ],
+  "lessons": [
+    {
+      "title": "Rózsák a töltés alatt",
+      "summary": "Urban planner Éva Takáts presents three designs for a new riverside park in Győr at the city library, and the residents ask friendly questions about the width of the promenade.",
+      "newWords": [
+        "határol",
+        "ismertetés",
+        "tárlat",
+        "választható",
+        "rózsás",
+        "szélesség",
+        "jóindulatú",
+        "sokfelé"
+      ],
+      "text": "Takáts Éva várostervező, húsz éve dolgozik Győrben. Pályája során már sokfelé tervezett parkot és teret: Sopronban, Pécsen, sőt egyszer Bécsben is. Ez a márciusi este mégis különösen fontos volt neki, mert most a saját városa egyik legszebb részéről volt szó.\n\nA Rába partján évtizedek óta üresen állt egy hosszú telek. Északról a folyó, délről a vasúti töltés határolja, keletről egy csendes utca, nyugatról egy kis patak. Most park készül rajta, és Éva a városi könyvtárban mutatta be a terveket a lakóknak.\n\nAz ismertetés előtt a vendégeket egy kis tárlat fogadta a terem falain. A tárlaton régi fényképek és térképek mutatták, milyen volt a part száz évvel ezelőtt: csónakok, strandok, fák alatt sétáló családok. Mellettük lógtak az új park rajzai. Sokan hosszan álltak a tárlat előtt, és összehasonlították a régit az újjal.\n\nAzután Éva megkezdte az ismertetést. Elmondta, hogy a tervezők három változatot készítettek, és a lakók maguk dönthetik el, melyik valósuljon meg. A választható elemek között szerepelt egy játszótér, egy szabadtéri sportpálya és egy rózsakert. Mindhárom változatban van sétány, sok pad és sok fa, a választható részek viszont mások.\n\n– A rózsás változatot én is szeretem – mondta Éva mosolyogva –, de nem én döntök, hanem önök.\n\nA legtöbb kérdés a sétány szélességére vonatkozott. A tervek szerint a fő sétány szélessége négy méter lesz, hogy a gyalogosok és a kerékpárosok is kényelmesen elférjenek egymás mellett. Egy fiatal apa megkérdezte, nem lehetne-e a gyerekek miatt még nagyobb ez a szélesség. Egy idős úr arra volt kíváncsi, lesz-e elég pad az árnyékban.\n\nA kérdések jóindulatúak voltak. Senki sem akart vitatkozni, mindenki csak jobbá szerette volna tenni a tervet. Éva minden kérdést felírt egy füzetbe, és megígérte, hogy a tervezők mindegyiket megvizsgálják.\n\nAz este végén egy néni rózsás arccal odament hozzá.\n\n– Gyerekkoromban itt úsztunk a folyóban – mondta. – Örülök, hogy újra élet lesz a parton.\n\nÉva megköszönte a jóindulatú szavakat. A vendégek lassan sokfelé indultak haza, de a lépcsőn még sokáig a parkról beszélgettek.\n\nKérdések:\nHol van a telek, ahol a park készül?\nA Rába partján, Győrben. Északról a folyó, délről a vasúti töltés határolja.\nMit láthattak a vendégek a tárlaton?\nRégi fényképeket és térképeket a partról, mellettük pedig az új park rajzait.\nMelyek voltak a választható elemek?\nEgy játszótér, egy szabadtéri sportpálya és egy rózsakert.\nMiért lesz négy méter a sétány szélessége?\nAzért, hogy a gyalogosok és a kerékpárosok is kényelmesen elférjenek egymás mellett.\nMilyenek voltak a lakók kérdései?\nJóindulatúak voltak, mert mindenki csak jobbá akarta tenni a tervet."
+    },
+    {
+      "title": "Zöld hullám Szegeden",
+      "summary": "Traffic engineer András Hidas links the timers of Szeged's traffic lights so that trams and buses get green lights sooner, and the journeys become several minutes shorter.",
+      "newWords": [
+        "tömegközlekedés",
+        "dízel",
+        "jórészt",
+        "gyorsaság",
+        "időzítő",
+        "operátor",
+        "javulás",
+        "percnyi",
+        "egyazon"
+      ],
+      "text": "Hidas András közlekedési mérnök Szegeden. Évek óta azon dolgozik, hogy a város tömegközlekedése gyorsabb és kényelmesebb legyen. Szeged szerencsés helyzetben van, mert villamos és busz is jár az utcáin. A buszok azonban sokáig jórészt dízel motorral működtek, és a forgalmas utakon hangosak, piszkosak voltak.\n\nNéhány éve a város elektromos buszokat vásárolt. A régi dízel buszok jórészt eltűntek, már csak néhány jár a külső városrészekben. András szerint azonban a jármű csak a feladat egyik fele. A másik fele a gyorsaság: ha a busz minden lámpánál megáll, az utasok hiába ülnek csendes, tiszta járműben.\n\nEzért András csapata a lámpák időzítőivel kezdett foglalkozni. Minden nagyobb csomópontban van egy időzítő, amely eldönti, meddig zöld és meddig piros a lámpa. Korábban ezek az időzítők semmit sem tudtak egymásról. Most egy központi rendszer köti össze őket, és ha villamos vagy busz közeledik, a lámpa előbb vált zöldre.\n\nA rendszert egy operátor figyeli a központban. Az operátor egy nagy képernyőn látja az egész várost: a járműveket, a lámpákat, a forgalmat. Ha valahol az utat javítják, és lassabban halad a forgalom, az operátor kézzel is átállíthatja az időzítőt.\n\nAz első hónap után András megnézte az adatokat. A javulás jól látható volt: a legforgalmasabb villamos egy teljes úton négy percnyi időt nyert, a leghosszabb vonalon járó busz pedig hat percnyit. Ez kevésnek tűnhet, de aki naponta kétszer utazik, egy hét alatt majdnem egy órát nyer.\n\n– Az utasok nem a műszaki részleteket érzik, hanem a gyorsaságot – mondta András egy helyi újságnak. – Ha a villamos nem áll percekig a lámpánál, az emberek szívesebben hagyják otthon az autót.\n\nA javulásnak volt egy másik oka is. Ma egyazon jeggyel lehet utazni villamoson és buszon, és egyazon alkalmazásban lehet megvenni a havi bérletet is. Régen sokan azért választották az autót a tömegközlekedés helyett, mert bonyolultnak találták a jegyeket. Ma a tömegközlekedést egyre többen választják.\n\nAz egyik idősebb operátor, aki harminc éve dolgozik a központban, egy este elégedetten nézte a képernyőt.\n\n– Régen csak a hibákat figyeltük – mondta Andrásnak. – Most végre azt is látjuk, hogyan lesz jobb a tömegközlekedés.\n\nKérdések:\nMilyen motorral működtek sokáig a buszok Szegeden?\nJórészt dízel motorral működtek, ezért hangosak és piszkosak voltak.\nMit csinál egy csomópontban az időzítő?\nEldönti, meddig zöld és meddig piros a lámpa.\nMi az operátor feladata?\nEgy nagy képernyőn figyeli a várost, és ha kell, kézzel átállítja az időzítőt.\nMennyi időt nyert a legforgalmasabb villamos?\nEgy teljes úton négy percnyi időt nyert.\nMi volt a javulás másik oka?\nAz, hogy ma egyazon jeggyel lehet utazni villamoson és buszon."
+    },
+    {
+      "title": "Udvar a nyolcadik kerületben",
+      "summary": "Young architect Réka Galló moves into a rented flat in an old Budapest tenement, eats from tins among the boxes, and over dinner with her neighbour Manyi néni plans to green the bleak courtyard.",
+      "newWords": [
+        "tegnapelőtt",
+        "albérlet",
+        "karton",
+        "konzerv",
+        "sivár",
+        "dzseki",
+        "sertés",
+        "mártás"
+      ],
+      "text": "Galló Réka fiatal építész. Tegnapelőtt költözött be új albérletébe, egy százéves ház harmadik emeletére a nyolcadik kerületben. Az albérlet kicsi, de világos: egy szoba, egy konyha és egy keskeny erkély, amely a belső udvarra néz.\n\nA szobában még mindenütt kartonok álltak: könyvek, edények, ruhák, rajzeszközök. Réka minden este kibontott néhány kartont, de mindig maradt még. A konyhában még nem működött a tűzhely, ezért két napig szinte csak konzervet evett. Tegnapelőtt este babot evett egy konzervből, tegnap halat egy másik konzervből, és közben arra gondolt, hogy hamarosan végre főzni fog.\n\nAz erkélyről az udvarra látott. Az udvar sivár volt: szürke beton, néhány kuka, egy régi biciklitároló. Sehol egy fa, sehol egy virág. A falak mentén csak a lépcsőház ablakai sorakoztak. Réka építészként rögtön látta, mi hiányzik innen: árnyék, zöld, egy pad, ahol a lakók leülhetnek.\n\nMa este valaki kopogott az ajtón. Manyi néni volt az, a második emeletről.\n\n– Maga az új lakó? Gondoltam, még nincs rendes konyhája. Jöjjön le vacsorázni!\n\nRéka felkapta a dzsekijét, mert a lépcsőházban hűvös volt, és lement. Manyi néni konyhájában finom illat fogadta.\n\n– Ugye nem vegetáriánus? – kérdezte a néni. – Sertés lesz, gombás mártással.\n\nA sertés puha volt, a mártás sűrű és fűszeres. Réka két tányérral evett, és elmondta, hogy építész.\n\n– Akkor maga biztosan tudja, mit lehetne kezdeni ezzel a sivár udvarral – mondta Manyi néni. – Én negyven éve nézem ezt a betont.\n\nRéka elővett egy szalvétát, és rajzolni kezdett rá: a falak mellé nagy virágládák, a kukák elé egy fából készült fal, futónövényekkel, középre egy fa és két pad. Manyi néni figyelmesen nézte.\n\n– A szomszédok is segítenének – mondta. – A ládákat a szomszéd fiúk megépítik, a földet a kertészetből hozzuk.\n\nVacsora után Réka visszament a lakásába. A kartonok még mindig ott álltak, de most nem bánta. Felakasztotta a dzsekijét, leült, és tiszta lapra rajzolta meg az udvar tervét.\n\nKérdések:\nMikor költözött be Réka az albérletébe?\nTegnapelőtt költözött be egy százéves ház harmadik emeletére.\nMiért evett két napig szinte csak konzervet?\nMert a konyhában még nem működött a tűzhely.\nMilyen volt az udvar?\nSivár volt: szürke beton, néhány kuka és egy régi biciklitároló, fa és virág nélkül.\nMi volt a vacsora Manyi néninél?\nSertés volt gombás mártással.\nMit rajzolt Réka a szalvétára?\nAz udvar új tervét: virágládákat, futónövényeket, egy fát és két padot."
+    },
+    {
+      "title": "Víz a tanyákra",
+      "summary": "Planner Judit Sulyok runs a rural development programme on the Great Plain that brings piped water to scattered farmsteads, and an old farmer turns on his first tap.",
+      "newWords": [
+        "vezetékes",
+        "kistérség",
+        "vidékfejlesztési",
+        "irányelv",
+        "magánszemély",
+        "kétmillió",
+        "segítése",
+        "elkötelezettség"
+      ],
+      "text": "Az Alföld tanyáin ma is sokan élnek úgy, hogy nincs vezetékes víz a házukban. Kútból hordják a vizet, vagy nagy kannákban hozzák a faluból. Sulyok Judit mérnök Kiskunhalas környékén dolgozik, egy kistérség tervezési irodájában. A kistérség tizenkét településből áll, és több száz tanya tartozik hozzá.\n\nKét éve indult el egy vidékfejlesztési program, amelynek célja a tanyán élők segítése. A program pénzéből a tanyákat be lehet kötni a vezetékes vízhálózatba. Judit lett a vidékfejlesztési program helyi felelőse.\n\nAz első hetekben azt tanulmányozta, mit mondanak a program irányelvei. Az irányelvek szerint nemcsak települések, hanem magánszemélyek is kérhettek támogatást. Ez fontos volt, mert a tanyákon jórészt idős emberek élnek, akik maguk nem tudnák kifizetni a munkát. Egy messzi tanya bekötése akár kétmillió forintba is kerülhet. A program ennek nagy részét fedezi, a magánszemélynek csak kis összeget kell hozzátennie.\n\nJudit sokat utazott a földutakon. Elmagyarázta a családoknak az irányelveket, segített kitölteni a nyomtatványokat, és megmutatta, hol halad majd a cső. Néha egy-egy tanyán órákig ült a konyhában, mert az idős lakók szívesen beszélgettek.\n\nA kollégái csodálták az elkötelezettségét. Judit nem csak a papírokkal foglalkozott: ismerte a tanyák lakóit, tudta, kinek fáj a lába, ki él egyedül, kinek van messze az unokája.\n\n– Az elkötelezettség itt nem szép szó, hanem munka – mondta egyszer. – Ha nem jövök ki ide, senki sem tudja, mire van szükségük.\n\nTavasszal elkészült az első szakasz. Egy kilométer hosszú cső vezetett el Józsi bácsi tanyájáig. Az öreg gazda hetvenkilenc éves, és egész életében kútból hordta a vizet. Az első napon Judit is ott volt.\n\nJózsi bácsi megnyitotta a csapot a konyhában. Tiszta, hideg víz folyt belőle.\n\n– Kétmillió forint – mondta csendesen. – Én ennyi pénzt egyben még sosem láttam. És most itt folyik a konyhámban.\n\nJudit mosolygott. Tudta, hogy a kistérségben még sok tanya vár a vezetékes vízre, de ez a nap megmutatta, miért érdemes dolgozni.\n\nKérdések:\nHonnan hordják a vizet sokan az Alföld tanyáin?\nKútból hordják, vagy nagy kannákban hozzák a faluból.\nMi a vidékfejlesztési program célja?\nA tanyán élők segítése, például az, hogy a tanyákat bekössék a vezetékes vízhálózatba.\nKik kérhettek támogatást az irányelvek szerint?\nNemcsak települések, hanem magánszemélyek is.\nMennyibe kerülhet egy messzi tanya bekötése?\nAkár kétmillió forintba is.\nMiért csodálták a kollégák Juditot?\nAz elkötelezettsége miatt, mert ismerte a tanyák lakóit, és tudta, mire van szükségük."
+    },
+    {
+      "title": "Tornaterem a lakótelepen",
+      "summary": "PE teacher Tamás Benda follows the building of a new school gym on a Kecskemét housing estate from plan to opening, where he referees the first match between pupils and parents.",
+      "newWords": [
+        "tornaterem",
+        "stádium",
+        "mászkál",
+        "szponzor",
+        "huszonnégy",
+        "játékvezető",
+        "rúgás"
+      ],
+      "text": "Benda Tamás testnevelő tanár Kecskeméten, egy lakótelep iskolájában. Az iskolában évtizedekig nem volt igazi tornaterem, csak egy kis szoba az alagsorban. Ha esett az eső, minden osztály a folyosón mászkált, mert nem volt hol futni.\n\nAmikor a város elkészítette a lakótelep új tervét, a lakók legfontosabb kérése egy új tornaterem volt. A terv szerint a tornaterem az iskola udvarán épül fel, és esténként a lakótelep lakói is használhatják.\n\nTamás a tervezés minden stádiumában ott volt. A korai stádiumban azt mondta el a tervezőknek, mekkora pálya kell egy iskolának. A tornaterem végül huszonnégy méter hosszú lett, elég nagy ahhoz, hogy kosárlabdázni és focizni is lehessen benne. Egy későbbi stádiumban a padlót és az öltözőket választották ki, végül pedig a szereket.\n\nAz építkezés másfél évig tartott. A szünetekben az egész iskola a kerítés mellett mászkált, és figyelte, hogyan nő a fal. Tamás néha elvitte őket egy rövid sétára, és elmagyarázta, mi készül éppen.\n\nA szereket egy helyi cég fizette ki, amely a tornaterem szponzora lett. A szponzor nevét egy kis tábla mutatja a bejárat mellett. A cég vezetője maga is ebbe az iskolába járt, és még az alagsori kis szobában tanult meg kötélre mászni.\n\nA megnyitón diákok és szülők játszottak egymás ellen. Mindkét csapatban huszonnégy játékos volt, ezért négy percenként cserélni kellett. Tamás volt a játékvezető. Hétvégén különben is ifjúsági meccseken játékvezető, ezért jól ismerte a szabályokat.\n\nAz első rúgást a szponzor cég vezetője végezte el. A labda lassan gurult, a nézők nevettek és tapsoltak. A meccs igazi pillanata a végén jött: egy kislány a negyedik osztályból messziről, egyetlen erős rúgással a szülők kapujába talált.\n\n– Ez a gól ennek a teremnek szólt – mondta Tamás a meccs után. – Ezentúl esős napokon a gyerekek nem a folyosón mászkálnak, hanem itt futnak.\n\nKérdések:\nMit csinált régen minden osztály, ha esett az eső?\nA folyosón mászkált, mert nem volt hol futni.\nMekkora lett az új tornaterem?\nHuszonnégy méter hosszú lett, elég nagy ahhoz, hogy kosárlabdázni és focizni is lehessen benne.\nMit beszélt meg Tamás a tervezőkkel a korai stádiumban?\nAzt, hogy mekkora pálya kell egy iskolának.\nKi fizette ki a szereket?\nEgy helyi cég, amely a tornaterem szponzora lett.\nKi volt a játékvezető a megnyitón?\nBenda Tamás, aki hétvégén ifjúsági meccseken is játékvezető."
+    },
+    {
+      "title": "A móló újra nyitva",
+      "summary": "Ágnes Matuska, who runs the café at the end of a Balaton pier, watches the old wooden jetty being renewed over the winter and reopens it to holidaymakers on a May weekend.",
+      "newWords": [
+        "móló",
+        "nyaraló",
+        "belföld",
+        "deviza",
+        "bevételi",
+        "májusi"
+      ],
+      "text": "Matuska Ágnes húsz éve viszi a kis büfét Balatonbogláron, a móló végén. A móló száz méter hosszan nyúlik be a tóba, és nyáron reggeltől estig sétálnak rajta a nyaralók. Ágnes büféje fagylaltot, kávét és lángost árul, és a móló végéről a legszebb a kilátás a túlsó partra.\n\nAz utóbbi években azonban a móló elöregedett. A fa deszkák kopottak voltak, a korlát néhány helyen meglazult. A település ezért úgy döntött, hogy a mólót teljesen felújítja. A munka ősszel kezdődött, amikor a nyaralók már hazamentek, és a tavasz végére kellett elkészülnie.\n\nÁgnes számára ez nehéz időszak volt. A büfé fő bevételi forrása a nyár, a téli hónapokban pedig a móló felújítása miatt még a hétvégi sétálók sem jöhettek. Ágnes ezt az időt arra használta, hogy átgondolja a büfé jövőjét.\n\nRégen sok külföldi vendég járt a büfébe, és gyakran előfordult, hogy devizával akartak fizetni. Ágnes ilyenkor mindig elmagyarázta, hogy devizát nem fogad el, csak forintot. Ma már mindenki kártyával fizet, a vendégek nagy része pedig belföldről érkezik. Belföldön sokáig nem volt divatos a Balaton, de az utóbbi években újra népszerű lett: sok család belföldön nyaral, és a nyaralók között egyre több a fiatal.\n\nÁgnes ezért új bevételi lehetőségeken gondolkodott. Arra jutott, hogy a büfé tavasszal és ősszel is nyitva lesz, és meleg levest, teát, házi süteményt is árul majd. A hétvégi sétálók így is szívesen megállnak egy kávéra.\n\nAz új móló szép lett. A deszkák világosak, a korlát erős, és a móló végén padok állnak, ahonnan a naplementét lehet nézni. Este kis lámpák világítják meg a mólót, mintha egy fénycsík vezetne a vízre.\n\nA májusi megnyitón zene szólt, és a gyerekek léggömböket kaptak. A májusi napsütésben sokan kisétáltak a móló végére, és Ágnes büféje előtt hosszú sor állt.\n\n– Ilyen májusi hétvégét még nem láttam – mondta Ágnes a szomszéd halásznak. – Úgy látszik, a nyaralók is hiányolták a mólót.\n\nKérdések:\nHol van Matuska Ágnes büféje?\nBalatonbogláron, a móló végén van.\nMiért kellett felújítani a mólót?\nMert elöregedett: a deszkák kopottak voltak, a korlát néhány helyen meglazult.\nMi a büfé fő bevételi forrása?\nA nyár, amikor sok nyaraló jön.\nMiért nem fogadott el Ágnes devizát?\nMert a büfében csak forinttal lehetett fizetni.\nMi történt a májusi megnyitón?\nZene szólt, a gyerekek léggömböket kaptak, és Ágnes büféje előtt hosszú sor állt."
+    },
+    {
+      "title": "Borz a kertben",
+      "summary": "Urban ecologist Attila Pongrácz explains to a family in the Buda hills that the holes in their lawn were dug by a badger hunting for grubs, and that city animals differ from forest ones in behaviour rather than through mutation.",
+      "newWords": [
+        "borz",
+        "kukac",
+        "rágcsáló",
+        "ártalmas",
+        "bármennyi",
+        "viselkedési",
+        "mutáció"
+      ],
+      "text": "Egy Hűvösvölgyben élő család egy reggel furcsa lyukakat talált a kertjében. A pázsit tele volt kis gödrökkel, mintha valaki éjjel ásott volna. A család felhívta Pongrácz Attilát, aki városi állatokkal foglalkozó biológus.\n\nAttila körbejárta a kertet, és rögtön tudta, ki járt ott.\n\n– Ezt egy borz csinálta – mondta. – A borz éjjel jár ki, és a földben kukacokat keres. A pázsit alatt rengeteg kukac él, ezért a borz itt találja meg a vacsoráját.\n\nA család meglepődött. Azt hitték, borz csak az erdőben él. Attila elmagyarázta, hogy Budán a hegyek erdei egészen a házakig érnek, és a borzok egyre gyakrabban jönnek be a kertekbe. A kukacokon kívül gyümölcsöt, gombát és apró rágcsálókat is esznek.\n\n– Akkor a borz segít nekünk? – kérdezte a kisebbik fiú.\n\n– Bizonyos értelemben igen. A rágcsálók például szívesen beköltöznek a kerti házakba, a borz pedig távol tartja őket.\n\nA szülők megkérdezték, adhatnak-e enni a borznak. Attila szerint ezt nem érdemes.\n\n– A kenyér, a csokoládé és a sós étel ártalmas a borznak – mondta. – Bármennyi ételt hagynak is kint, a borz nem lesz tőle egészségesebb, csak megszokja a házat. Ami a kutyának vagy a macskának jó, az is lehet ártalmas egy vadon élő állatnak.\n\nAttila azt is elmondta, hogy a kutatók sokat vizsgálják a városi állatokat. A városi borzok, rókák és madarak másképp élnek, mint erdei rokonaik: később kelnek, közelebb mennek az emberhez, máshol rejtőznek el. A kutatók szerint ez legtöbbször viselkedési változás, nem mutáció.\n\n– Egy mutáció lassan, sok nemzedék alatt terjed el – magyarázta. – A viselkedési változás gyorsabb: az állat egyszerűen megtanulja, hogy a kertben is lehet élni.\n\nA család végül úgy döntött, hogy a kert hátsó sarkát meghagyja vadnak. Ott nem nyírják a füvet, és egy kis farakás is maradhat. A gödrökkel a pázsiton pedig megbarátkoznak: bármennyit ás is a borz, ősszel úgyis újravetik a füvet.\n\nKérdések:\nMit talált a család a kertjében?\nKis gödröket a pázsiton, mintha valaki éjjel ásott volna.\nMiért ásott a borz a pázsiton?\nMert a pázsit alatt rengeteg kukac él, és a borz kukacokat keres.\nMiért segít a borz a kertben?\nMert távol tartja a rágcsálókat, amelyek beköltöznének a kerti házakba.\nMiért nem szabad kenyeret adni a borznak?\nMert a kenyér ártalmas neki, és megszokja tőle a házat.\nMit mondanak a kutatók a városi állatokról?\nHogy a változás legtöbbször viselkedési, nem mutáció."
+    },
+    {
+      "title": "Fák a tüdőnknek",
+      "summary": "In a newspaper column, Pécs doctor Krisztina Vecsey explains how street trees, shade and benches help people with breathing problems, sore joints or diabetes, and why planting them is a form of prevention.",
+      "newWords": [
+        "élettani",
+        "nyugtalanító",
+        "légzési",
+        "cukorbeteg",
+        "ízületi",
+        "megelőzése",
+        "gyógyír",
+        "bizonyosság"
+      ],
+      "text": "Vecsey Krisztina háziorvos Pécsen. Egy helyi újságban rendszeresen ír rövid cikkeket az egészségről. Legutóbbi írásában arról szólt, hogyan hat a város az emberi testre.\n\n„Orvosként mindennap látom, hogy a város nemcsak díszlet körülöttünk: élettani hatással is van ránk. A zaj élettani hatása például az, hogy rosszabbul alszunk, és gyorsabban ver a szívünk. A forgalmas utak zaja, a beton forrósága, a levegő pora mind megjelenik a rendelőmben.\n\nA nyári adatok nyugtalanítóak. Pécsen is egyre több a hőségnap, és ilyenkor a belváros kövei éjjel sem hűlnek le. Nyugtalanító az is, hogy a forró napokon megnő a légzési panaszok száma. Az idős és a légzési betegségben szenvedő betegek ilyenkor alig mernek kimenni az utcára.\n\nPedig a mozgás sokuknak gyógyszer. Egy cukorbeteg páciensemnek minden nap legalább fél órát kellene sétálnia. Ő azonban azt mondja, nincs hová mennie: az utcán nincs árnyék, és nincs egy pad sem, ahol megpihenhetne. Hasonlót mesélnek az ízületi fájdalmakkal küzdő betegeim is. Egy ízületi gondokkal élő ember szívesen sétál, ha kétszáz méterenként leülhet.\n\nA fák ezekre a gondokra sokszor jobb gyógyírt adnak, mint egy újabb tabletta. Egy nagy fa alatt nyáron több fokkal hűvösebb van, és a levelek a port is megfogják. Az árnyékos utcán a cukorbeteg páciens is szívesebben sétál, és az ízületi panaszokkal élő szomszédja is eljut a boltig.\n\nA betegségek megelőzése ezért nem csak az orvosok feladata. A hőség okozta rosszullét megelőzése, a légzési betegségek megelőzése a várostervezők asztalán is eldől: azon, hogy hová kerül egy fa, egy pad vagy egy ivókút.\n\nSokan kérdezik, van-e bizonyosság arra, hogy a fák valóban egészségesebbé teszik a várost. A kutatások alapján erre nagyon jó okunk van gondolni. A teljes bizonyosság ritka a tudományban, de én nem várnék rá. Egy fa elültetése olcsó, és a hasznát unokáink is élvezik.\n\nA fák persze nem minden bajra gyógyír. De minden új fa egy kis lépés afelé, hogy a város ne csak lakóhely, hanem egészséges otthon legyen.\"\n\nKérdések:\nMiről írt Vecsey Krisztina legutóbbi cikkében?\nArról, hogy a város élettani hatással van az emberi testre.\nMiért nyugtalanítóak a nyári adatok?\nMert egyre több a hőségnap, és a forró napokon megnő a légzési panaszok száma.\nMiért nem sétál eleget a cukorbeteg páciens?\nMert az utcán nincs árnyék, és nincs pad, ahol megpihenhetne.\nMit kér egy ízületi gondokkal élő ember az utcától?\nAzt, hogy kétszáz méterenként leülhessen.\nVan-e teljes bizonyosság arra, hogy a fák egészségesebbé teszik a várost?\nTeljes bizonyosság ritka, de a kutatások alapján erre nagyon jó okunk van gondolni."
+    },
+    {
+      "title": "A város egy meghajtón",
+      "summary": "Balázs Hegedüs, whose Debrecen firm specialises in digital city models, carries a model of the whole city to a conference in India on a portable drive, after waiting weeks for his visa.",
+      "newWords": [
+        "szakosodik",
+        "elektronika",
+        "termékcsalád",
+        "konkurencia",
+        "fölény",
+        "tárhely",
+        "meghajtó",
+        "vízum"
+      ],
+      "text": "Hegedüs Balázs egy Debrecenben működő cégnél dolgozik, amely digitális várostérképekre szakosodott. A cég tíz éve még mindenféle szoftvert fejlesztett, de később úgy döntöttek, hogy egyetlen területre szakosodnak: a városok háromdimenziós modelljeire.\n\nEgy ilyen modellben minden épület, utca, fa és villanyoszlop megtalálható. A tervezők megnézhetik, hová vet árnyékot egy új ház, merre folyik az esővíz, vagy hogyan változik a forgalom, ha egy utcát sétálóutcává alakítanak. A modellhez apró mérőeszközök is tartoznak, amelyek az utcán mérik a zajt és a levegő minőségét. Ezek elektronikáját a cég maga tervezi, a házukat pedig egy helyi üzem gyártja.\n\nAz idén a cég új termékcsaládot mutatott be. A termékcsalád három részből áll: egy egyszerű változat kisebb településeknek, egy bővebb a nagyvárosoknak, és egy külön program az iskoláknak. A konkurencia erős, hiszen több nagy külföldi cég is foglalkozik ilyen modellekkel. A cég fölénye abban rejlik, hogy a mérőeszközök elektronikája és a program egymáshoz készült, ezért pontosabban működik.\n\n– A fölényünk nem a méretünk, hanem a figyelmünk – szokta mondani Balázs. – A konkurencia nagyobb, de mi minden részletet ismerünk.\n\nEgy ilyen modell rengeteg adatot tartalmaz. A cég a saját tárhelyén őrzi őket, és a városok onnan érik el a modellt. A tárhely bővítése az idén a legnagyobb beruházás volt.\n\nŐsszel Balázst meghívták egy nagy konferenciára Indiába. Ehhez vízumot kellett kérnie. A vízum három hétig készült, és Balázs addig minden nap megnézte a leveleit. Végül egy esős kedden megérkezett a vízum, és Balázs megkönnyebbülten foglalta le a repülőjegyét.\n\nA konferencián Debrecen modelljét akarta bemutatni. Mivel a szállodában nem bízott az internetben, a teljes modellt egy kis külső meghajtóra másolta. A meghajtó alig volt nagyobb egy gyufásdoboznál, mégis rajta volt az egész város.\n\nAz előadás után sokan odamentek hozzá. Egy fiatal mérnök a meghajtót forgatta a kezében, és csodálkozott, hogy ilyen kicsi.\n\n– Itt van rajta Debrecen minden utcája – mondta Balázs mosolyogva. – Csak a Nagyerdő illatát nem lehet rámásolni.\n\nKérdések:\nMire szakosodott Balázs cége?\nA városok háromdimenziós modelljeire szakosodott.\nMilyen részekből áll a cég új termékcsaládja?\nEgy változat kisebb településeknek, egy a nagyvárosoknak, és egy külön program az iskoláknak.\nMiben rejlik a cég fölénye a konkurenciával szemben?\nAbban, hogy a mérőeszközök elektronikája és a program egymáshoz készült.\nMeddig készült Balázs vízuma?\nHárom hétig készült.\nMiért másolta a modellt egy külső meghajtóra?\nMert nem bízott a szálloda internetében."
+    },
+    {
+      "title": "Zongora a téren",
+      "summary": "Pianist Barbara Ambrózy plays the street piano at the opening of a Miskolc square that had turned into a car park and has now been given back to pedestrians.",
+      "newWords": [
+        "fajul",
+        "szívtelen",
+        "zongorista",
+        "elkényeztetett",
+        "zeng",
+        "eltöröl",
+        "újfent"
+      ],
+      "text": "Miskolcon a színház előtti tér valaha a város egyik legszebb helye volt. Az évtizedek során azonban a tér lassan parkolóvá fajult. Az autók elfoglalták a régi sétányt, a fák kiszáradtak, a padokat elvitték. Sokan szívtelen térnek nevezték: olyan helynek, ahol senki sem áll meg szívesen, csak átsiet rajta.\n\nA város két évvel ezelőtt úgy döntött, hogy a teret visszaadja a gyalogosoknak. Az autók egy közeli mélygarázsba kerültek, a téren pedig fák, padok, szökőkút és virágágyások kaptak helyet. A tervezők azt akarták, hogy a tér soha többé ne fajuljon parkolóvá, és ne legyen olyan szívtelen, mint régen.\n\nA tér közepére egy utcai zongora került. Bárki leülhet hozzá és játszhat rajta. A megnyitón Ambrózy Barbara zongorista adott rövid koncertet. Barbara Miskolcon nőtt fel, de ma Bécsben él, és a világ nagy koncerttermeiben lép fel.\n\n– Egy koncertterem zongorája elkényeztetett hangszer – mondta nevetve a koncert előtt. – Mindig ugyanabban a melegben áll, és egy hangoló vigyáz rá. Ez az utcai zongora nem ilyen elkényeztetett. Bírja az esőt, a napot és a gyerekek kezét.\n\nDélután eleredt egy rövid zápor. Barbara az eső után zsebkendővel eltörölte a billentyűket, és leült a zongorához. Először egy régi dalt játszott, amelyet a nagymamája tanított neki. A zene zengett a házak között, a tér pedig zengett a tapstól.\n\nUtána egy kisfiú lépett oda, és megkérdezte, játszhat-e ő is. Barbara megmutatta neki, hogyan kell eltörölni a nedves billentyűket, majd újfent leült mellé, és négykezest játszottak. Az emberek megálltak, a kávézók teraszán a vendégek letették a csészéjüket.\n\n– Egy zongorista ritkán kap ilyen közönséget – mondta Barbara a koncert végén. – Itt senki sem vett jegyet, mégis mindenki figyelt.\n\nEste, amikor a tér kiürült, a zongorát letakarták. Másnap reggel azonban újfent zene zengett a téren: egy idős úr ült a zongoránál, és a régi dalokat játszotta.\n\nKérdések:\nMivé fajult az évtizedek során a színház előtti tér?\nParkolóvá fajult.\nMiért nevezték sokan szívtelen térnek?\nMert senki sem állt meg rajta szívesen, mindenki csak átsietett.\nKi adott koncertet a megnyitón?\nAmbrózy Barbara zongorista, aki Miskolcon nőtt fel.\nMiért mondta Barbara, hogy a koncertterem zongorája elkényeztetett hangszer?\nMert mindig ugyanabban a melegben áll, és egy hangoló vigyáz rá.\nMit csinált Barbara az eső után?\nZsebkendővel eltörölte a billentyűket, és leült a zongorához."
+    }
+  ]
+}

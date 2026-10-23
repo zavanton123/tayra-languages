@@ -1,0 +1,175 @@
+{
+  "id": "hu-mini-9600",
+  "rankUpTo": 9600,
+  "level": "C2",
+  "title": "A hétköznapok fizikája",
+  "description": "Ten standalone stories in which ordinary people meet the physics of everyday life: heating pipes, kitchens, cabin pressure, floating boats, starlight, falling bodies, heat loss, a floating mandarin, condensation and ice.",
+  "topic": "Everyday physics",
+  "names": [
+    "Albert",
+    "Veszprém",
+    "Soma",
+    "Hajni",
+    "Bogi",
+    "Panka",
+    "Helsinki",
+    "Lilla",
+    "Magyarország",
+    "Antal",
+    "Tisza",
+    "Milán",
+    "Emma",
+    "Roland",
+    "Dalma",
+    "Sipos",
+    "Félix",
+    "Anita",
+    "Margó",
+    "Pécs",
+    "Dávid",
+    "Kanada",
+    "Heni",
+    "Debrecen",
+    "Fülöp"
+  ],
+  "lessons": [
+    {
+      "title": "Kopogás a falban",
+      "summary": "Old Albert hears a knocking in the walls every night; during a power cut the electrician explains that the heating pipes expand and contract, and why smoke rises in the chimney.",
+      "newWords": [
+        "kémény",
+        "kazán",
+        "áramszünet",
+        "villanyszerelő",
+        "éjjelente",
+        "azonosítatlan",
+        "módosul"
+      ],
+      "text": "Albert bácsi negyven éve lakik ugyanabban a régi családi házban Veszprém szélén. A ház szíve a pincében álló kazán: ősszel és télen ez fűti fel a csövekben keringő vizet, a füst pedig a tetőn álló kéményen át távozik. Albert bácsi büszke rá, hogy a kazánt mindig maga tartja rendben.\n\nIdén novemberben azonban furcsa hangokra lett figyelmes. Éjjelente, amikor a házban csend lett, a falakból tompa kopogás hallatszott: hol a hálószobában, hol a konyhában szólalt meg, aztán elhallgatott, és egy óra múlva újra kezdődött. Albert bácsi először egerekre gondolt, aztán a szélre, de egyik magyarázat sem illett a hanghoz. Az azonosítatlan zaj miatt napokig rosszul aludt.\n\nEgy hideg reggelen ráadásul áramszünet volt az utcában. A kazán ugyan nem árammal fűt, de a szivattyúja árammal működik, így az áramszünet alatt a szobák lassan kihűltek. Albert bácsi felhívta Somát, a szomszéd utcában lakó villanyszerelőt. Mire Soma megérkezett, az áram már visszajött, és a kazán újra elindult.\n\n– Ha már itt vagyok, átnézem a vezetékeket is – mondta a villanyszerelő.\n\nAlbert bácsi közben elmesélte neki, mit hall éjjelente. Soma mosolygott.\n\n– Ezt az azonosítatlan zajt én is ismerem, nálunk is ugyanez volt. A csövek kopognak. Amikor a kazán bekapcsol, a forró víz végigfut a csöveken, és a fém a melegtől kitágul. A cső egy kicsit megnyúlik, és ahol a falhoz van rögzítve, ott megcsúszik és koppan. Amikor a kazán leáll, a cső kihűl, összehúzódik, és megint koppan.\n\n– Vagyis a kopogás azt jelzi, hogy a kazán be- vagy kikapcsol?\n\n– Pontosan. Éjjelente a termosztát alacsonyabb hőmérsékletet tart, ezért a kazán rövidebb szakaszokban működik, és a csövek hossza többször is módosul. Nappal is kopognak, csak akkor nem halljuk őket, mert a ház zajosabb.\n\nSoma a pincében megkereste, hol ér hozzá a cső a falhoz, és egy darab filcet tett a bilincs alá, hogy a fém ne a kőhöz súrlódjon. A kéményt is megnézte, mert a jó huzat legalább olyan fontos, mint maga a kazán.\n\n– A füst azért száll fel a kéményben, mert a meleg levegő ritkább és könnyebb a hidegnél – magyarázta. – Minél hidegebb van kint, annál erősebb a huzat.\n\nEste Albert bácsi a sötét hálószobában figyelt. A kopogás egyszer még megszólalt, de jóval halkabban, és már nem volt azonosítatlan: tudta, hogy a kazán bekapcsolt, és a cső hossza módosul. Megnyugodva aludt el.\n\nKérdések:\nMi fűti fel a vizet Albert bácsi házában?\nA pincében álló kazán fűti fel, a füst pedig a kéményen át távozik.\nMit hallott Albert bácsi éjjelente?\nTompa kopogást hallott a falakból, amely hol megszólalt, hol abbamaradt.\nMiért hűltek ki a szobák az áramszünet alatt?\nMert a kazán szivattyúja árammal működik, és áram nélkül nem keringett a víz.\nMi okozta a kopogást a villanyszerelő szerint?\nA csövek, amelyek a melegtől megnyúlnak, kihűlve összehúzódnak, és közben megcsúsznak ott, ahol a falhoz vannak rögzítve.\nMiért száll fel a füst a kéményben?\nMert a meleg levegő ritkább és könnyebb a hidegnél, ezért felfelé áramlik."
+    },
+    {
+      "title": "Kísérletek a konyhában",
+      "summary": "Hajni and her daughter Bogi make tuna salad with home-made mayonnaise, cut onions, bake scones and brew mint tea, and Hajni explains the physics behind each step.",
+      "newWords": [
+        "majonéz",
+        "vöröshagyma",
+        "tonhal",
+        "pogácsa",
+        "duzzad",
+        "menta",
+        "érezhető",
+        "ízlés"
+      ],
+      "text": "Hajni vasárnap délelőtt salátát készít a lányával, Bogival. A saláta fő része a tonhal, de majonézt, vöröshagymát és egy kevés kukoricát is tesznek bele. Bogi tizenkét éves, és mindenre kíváncsi, ami a konyhában történik.\n\n– A majonézt is mi csináljuk? – kérdezi.\n\n– Persze – feleli Hajni. – A házi majonéz sokkal finomabb a boltinál.\n\nEgy tálba tojássárgáját tesznek, egy kevés mustárt és citromlevet. Hajni cseppenként önti hozzá az olajat, Bogi pedig közben szorgalmasan kavarja. Lassan sűrű, sárga krém lesz belőle.\n\n– Hogy lesz a folyékony olajból ilyen sűrű majonéz? – csodálkozik Bogi.\n\n– Az olaj és a víz nem keveredik – magyarázza Hajni. – Ha erősen kavarjuk, az olaj apró cseppekre esik szét, a tojássárgája pedig bevonja a cseppeket, és nem engedi, hogy újra összefolyjanak. Annyi apró csepp szorul egymás mellé, hogy alig tudnak elmozdulni. Ettől sűrű a majonéz. Ha viszont túl gyorsan öntöd az olajat, a cseppek nagyok maradnak, és az egész szétválik.\n\nEzután a vöröshagyma következik. Bogi vágja fel, és hamarosan folyni kezd a könnye.\n\n– Miért csípi a szemem?\n\n– Vágáskor a vöröshagyma sejtjeiből egy csípős anyag kerül a levegőbe, és eljut a szemedig – mondja Hajni. – Ha előtte fél órára hűtőbe teszed a hagymát, az anyag lassabban jut a levegőbe, és a csípés is kevésbé érezhető.\n\nHajni a tonhalat összekeveri a majonézzel és a hagymával, aztán Bogira bízza a sót és a borsot.\n\n– Mennyi sót és borsot tegyek bele?\n\n– Ízlés szerint. Kóstold meg, és döntsd el te. Az ízlés mindenkinél más.\n\nA sütőben közben pogácsa sül. Bogi a sütő ajtaja mögött figyeli, ahogy a kis pogácsák lassan megemelkednek.\n\n– Nézd, hogy duzzad a pogácsa!\n\n– A tésztában apró buborékok vannak – mondja Hajni. – A melegben a bennük lévő levegő kitágul, a víz egy része gőzzé válik, és a tészta ettől duzzad. A sütő melege aztán megkeményíti a buborékok falát, ezért a pogácsa akkor sem esik össze, amikor kivesszük.\n\nEbéd után teát főznek a kertben szedett mentából. Bogi iszik egy kortyot, és meglepődik.\n\n– A tea meleg, mégis hűvösnek érzem tőle a számat.\n\n– A mentában van egy anyag, amely becsapja a szánkat – mondja Hajni. – Ugyanazok az idegek jeleznek rá, amelyek a hideget is érzik. A tea nem lesz tőle hidegebb, de a hűvösség érezhető.\n\nBogi elgondolkodik.\n\n– Akkor a konyha egy kis laboratórium.\n\n– Az – nevet Hajni. – Csak itt a kísérletek eredményét meg is lehet enni.\n\nKérdések:\nMi a saláta fő része?\nA saláta fő része a tonhal, de majonéz, vöröshagyma és kukorica is van benne.\nMiért lesz sűrű a majonéz?\nMert az olaj apró cseppekre esik szét, a tojássárgája bevonja őket, és a sok csepp alig tud elmozdulni.\nMit lehet tenni, hogy a vöröshagyma kevésbé csípje a szemet?\nHa előtte fél órára hűtőbe teszik, az anyag lassabban jut a levegőbe, és a csípés kevésbé érezhető.\nMennyi sót tegyen Bogi a salátába?\nÍzlés szerint, mert az ízlés mindenkinél más.\nMiért duzzad a pogácsa a sütőben?\nMert a buborékokban lévő levegő kitágul, a víz egy része gőzzé válik, és ettől a tészta megemelkedik.\nMiért érzi Bogi hűvösnek a meleg teát?\nMert a mentában van egy anyag, amelyre ugyanazok az idegek jeleznek, amelyek a hideget is érzik."
+    },
+    {
+      "title": "Egy összenyomott palack",
+      "summary": "In an e-mail to her friend, Lilla tells how a half-empty bottle of mineral water was crushed when her plane landed, and how a fellow passenger explained cabin pressure.",
+      "newWords": [
+        "ásványvíz",
+        "atmoszféra",
+        "repülőjegy",
+        "csatolt",
+        "megdöbben",
+        "északkelet",
+        "kérhető"
+      ],
+      "text": "Kedves Panka!\n\nTegnap este megérkeztem Helsinkiből. A repülőjegyet még tavasszal vettem, akciósan, ezért a gép kora reggel indult, és enni sem adtak semmit. A fedélzeten csak víz kérhető ingyen, minden más fizetős. Én egy palack ásványvizet kértem, és félig megittam még a felszállás után.\n\nHelsinki tőlünk északkeletre van, és útközben a pilóta bemondta, hogy északkeleten erős szél fúj, ezért egy kicsit kerülünk. Ekkor nyitottam ki újra a palackot, és meglepett, milyen hangosan sziszeg, és mennyi buborék száll fel benne. Aztán szorosan visszacsavartam a kupakot, és betettem a táskámba.\n\nLeszálláskor elővettem, és megdöbbentem: a palack teljesen összenyomódott, mintha valaki a markában szorongatta volna. A csatolt fényképen láthatod, milyen furcsán néz ki. Annyira megdöbbentem, hogy a mellettem ülő úrnak is megmutattam. Kiderült, hogy gépészmérnök, és szívesen elmagyarázta, mi történt.\n\nAzt mondta, hogy repülés közben az utastérben kisebb a légnyomás, mint a földön. Nem olyan alacsony, mint odakint, de nagyjából akkora, mint egy kétezer méteres hegy tetején. Amikor a magasban lezártam a palackot, a benne lévő levegő nyomása is ekkora volt. Leszálláskor viszont az utastérben visszaállt a földi nyomás, nagyjából egy atmoszféra. Ez az egy atmoszféra kívülről erősebben nyomta a palack falát, mint a belső levegő belülről, és a vékony műanyag engedett.\n\nAz ásványvíz sziszegésére is volt magyarázata. A buborékokban szén-dioxid van, ami nagy nyomáson jól oldódik a vízben. Ha a nyomás csökken, a víz kevesebbet tud megtartani belőle, ezért fent több buborék szállt fel, mint a földön szokott.\n\nMegkérdeztem tőle azt is, hogy a fülünk miért dugul be ilyenkor. Azt felelte, hogy a fülünk belsejében is levegő van, és ha kint gyorsan változik a nyomás, a fül csak lassan egyenlíti ki. Ilyenkor segít, ha nyelünk vagy ásítunk. Ezért jó, ha leszállás előtt kérünk egy pohár vizet, ami szerencsére mindig kérhető.\n\nHa legközelebb repülőjegyet veszel, gondolj erre, és vigyél magaddal egy üres palackot. Kíváncsi vagyok, nálad is összenyomódik-e. A csatolt képet pedig nyugodtan mutasd meg a gyerekeknek is.\n\nÖlel:\nLilla\n\nKérdések:\nMit lehetett ingyen kérni a repülőn?\nCsak vizet, mert a fedélzeten csak víz kérhető ingyen, minden más fizetős.\nMerre van Helsinki Magyarországhoz képest?\nHelsinki tőlünk északkeletre van.\nMi történt a palackkal leszálláskor?\nTeljesen összenyomódott, és Lilla nagyon megdöbbent.\nMiért nyomódott össze a palack?\nMert Lilla a magasban, kisebb nyomáson zárta le, a földön pedig az egy atmoszféra kívülről erősebben nyomta a falát.\nMiért sziszegett az ásványvíz a magasban?\nMert kisebb nyomáson a víz kevesebb szén-dioxidot tud megtartani, ezért több buborék szállt fel.\nMit tanácsol Lilla Pankának?\nHogy ha legközelebb repülőjegyet vesz, vigyen magával egy üres palackot."
+    },
+    {
+      "title": "Miért nem süllyed el a csónak?",
+      "summary": "Out fishing on the Tisza, old Antal explains to his grandson Milán why an iron anchor sinks but a metal boat floats, and why a fish looks closer than it is.",
+      "newWords": [
+        "horgász",
+        "horgony",
+        "legelő",
+        "vaddisznó",
+        "közömbös",
+        "felismerhető"
+      ],
+      "text": "Antal bácsi hetvenéves, és fél életét a Tisza partján töltötte. Igazi horgász: minden reggel tudja, merre áll a szél, és milyen meleg a víz. Ezen a nyáron tizenegy éves unokája, Milán is vele tart. Kora hajnalban indulnak el a faluból a legelő mellett vezető földúton, amely egyenesen a folyóhoz visz.\n\nA legelő szélén, a puha sárban friss nyomokat látnak. Milán leguggol mellettük.\n\n– Ezek kutyanyomok?\n\n– Nem, ezt egy vaddisznó hagyta – mondja Antal bácsi. – A lába két nagy és két kisebb ujjban végződik, ezért a nyoma könnyen felismerhető. A vaddisznók éjjel lejönnek az erdőből, és a legelő nedves részén túrják a földet.\n\nA parton egy régi fémcsónak várja őket. Antal bácsi beteszi a botokat, a csalit és egy nehéz vasból készült horgonyt. Kievez a folyó közepére, ahol a víz lassabban folyik, és a horgonyt kötélen leengedi a mélybe. A horgony azonnal lesüllyed, és megakad a fenéken.\n\n– Nagyapa, ezt nem értem – mondja Milán. – A horgony vasból van, és elsüllyed. A csónak is fémből van, sokkal nehezebb a horgonynál, mégis fennmarad a vízen.\n\n– Jó kérdés – feleli Antal bácsi. – Minden test annyi vizet szorít ki, amennyi helyet elfoglal a vízben. A víz pedig felfelé nyomja a testet, mégpedig akkora erővel, amekkora a kiszorított víz súlya. A horgony kicsi és tömör, kevés vizet szorít ki, ezért a saját súlya erősebb. A csónak belül üres, de az egész nagy helyet foglal el. Sok vizet szorít ki, és a víz ereje elég ahhoz, hogy megtartsa.\n\n– Akkor ha víz folyik a csónakba, azért süllyed el, mert már nem üres?\n\n– Pontosan.\n\nMilán bedobja a horgot. A halak azonban egész délelőtt közömbösek maradnak, a csalira rá sem néznek. Egyszer Milán egy nagy halat lát a felszín közelében, és izgatottan mutat rá.\n\n– Ott van, egészen közel!\n\n– Közelebbinek látszik, mint amilyen – mondja Antal bácsi. – A fény, amikor a vízből a levegőbe lép, megtörik, ezért a hal máshol látszik, mint ahol valójában van. A tapasztalt horgász ezt tudja, és nem oda dobja a csalit, ahová a szeme mutatja.\n\nDélre végre megmozdul az úszó. Milán egy szép kárászt húz ki, megnézik, aztán óvatosan visszaengedik a vízbe.\n\n– Látod, a halak sem közömbösek mindig – nevet Antal bácsi. – Csak ki kell várni, amíg megéheznek.\n\nDélután a horgonyt visszahúzzák a csónakba, és hazaindulnak. A legelő mellett megint elhaladnak a vaddisznó nyomai mellett. Ezek a nyomok Milán számára már messziről felismerhetők, és büszkén mutatja meg őket a nagyapjának.\n\nKérdések:\nKinek a nyomait látják a legelő szélén?\nEgy vaddisznó nyomait, amelyek könnyen felismerhetők.\nMiért süllyed el a vasból készült horgony?\nMert kicsi és tömör, kevés vizet szorít ki, ezért a saját súlya erősebb a víz erejénél.\nMiért marad fenn a fémcsónak a vízen?\nMert belül üres, nagy helyet foglal el, sok vizet szorít ki, és a víz ereje megtartja.\nMiért látszik a hal közelebbinek, mint amilyen?\nMert a fény megtörik, amikor a vízből a levegőbe lép.\nMilyenek voltak a halak délelőtt?\nKözömbösek voltak, a csalira rá sem néztek."
+    },
+    {
+      "title": "Utazás az időben",
+      "summary": "Eight-year-old Emma plays time travel with her teddy bear in a cardboard box, and in the evening her father Roland shows her that starlight brings news from the past.",
+      "newWords": [
+        "mackó",
+        "időgép",
+        "szerepjáték",
+        "puff",
+        "metafora",
+        "eljövendő",
+        "hírnök"
+      ],
+      "text": "Emma nyolcéves, és a nappaliban egy nagy kartondobozból időgépet épített. A dobozba betett egy kis puffot, hogy kényelmesen lehessen benne ülni, a falára pedig gombokat és órákat rajzolt. Az időgép első utasa a régi barna mackója.\n\n– Apa, játsszunk szerepjátékot! – kéri az apját, Rolandot. – Én vagyok a kapitány, te pedig a tudós, aki feltalálta az időgépet.\n\nRoland leül a puff mellé a földre, és elkezdődik a szerepjáték. Emma a mackót a térdére ülteti, és megnyom egy rajzolt gombot. Először a múltba utaznak, egy régi vár udvarára, aztán a jövőbe, egy eljövendő század városába, ahol a házak a felhők fölé érnek.\n\nEste, lefekvés előtt, Emma kimegy az apjával az erkélyre. Éjjelente gyakran nézik együtt a csillagokat.\n\n– Apa, igazi időgép is létezik? – kérdezi Emma.\n\n– Olyan, mint a tiéd, nem – feleli Roland. – De nézd azt a fényes csillagot ott fent. Tudod, hogy most a múltját látod?\n\n– Hogyhogy?\n\n– A fénynek is idő kell, amíg ideér. Nagyon gyors: egyetlen másodperc alatt hétszer megkerülné a Földet. A csillagok viszont olyan messze vannak, hogy a fényük sok évig utazik. Annak a csillagnak a fénye több mint tíz éve indult el. Amit most látunk, az a csillag tíz évvel ezelőtti képe.\n\n– Akkor a csillag fénye olyan, mint egy hírnök, aki régi üzenetet hoz?\n\n– Ez szép metafora – mosolyog Roland. – A metafora az, amikor egy dolgot egy másik dolog képével mondunk el, mert hasonlítanak egymásra. A fény tényleg olyan, mint egy hírnök: hírt hoz a csillagról, de mire ideér, a hír már régi.\n\n– És a Nap fénye is régi?\n\n– Az csak nyolcperces. A reggeli napfény, amit az ablakodon át látsz, nyolc perccel korábban indult el a Naptól.\n\nEmma elgondolkodik.\n\n– Akkor az időgépem nem is olyan butaság.\n\n– Egyáltalán nem. Valamilyen értelemben mindannyian időutazók vagyunk: mindig az eljövendő idő felé haladunk, másodpercenként egy másodpercet.\n\nEmma ásít. Mielőtt bemegy, még egyszer felnéz a csillagra, a régi fény hírnökére, aztán a mackóját magához ölelve elindul lefeküdni. A kartondobozból épített időgép a nappaliban várja a következő utat.\n\nKérdések:\nMiből épített Emma időgépet?\nEgy nagy kartondobozból, amelybe egy kis puffot tett, hogy kényelmesen lehessen ülni.\nKi az időgép első utasa?\nEmma régi barna mackója.\nMilyen szerepeket játszanak a szerepjátékban?\nEmma a kapitány, Roland pedig a tudós, aki feltalálta az időgépet.\nMiért a csillag múltját látja Emma?\nMert a csillag fénye sok évig utazik, amíg ideér, ezért a csillag régi képét látjuk.\nMilyen metaforát talál Emma a csillag fényére?\nAzt mondja, hogy a csillag fénye olyan, mint egy hírnök, aki régi üzenetet hoz."
+    },
+    {
+      "title": "Melyik esik le előbb?",
+      "summary": "A pupil reports for the school paper on a physics lesson in which the teacher drops a book and a sheet of paper to break an old prejudice about falling bodies.",
+      "newWords": [
+        "előítélet",
+        "definíció",
+        "félrevezet",
+        "egyenrangú",
+        "kifejező",
+        "egyszerűsített",
+        "komplikáció",
+        "tudósít"
+      ],
+      "text": "Az iskola újságjának Dalma tudósít a 10. B-ből.\n\nA múlt héten szokatlan órán vettünk részt fizikából. Sipos tanár úr egy vastag könyvvel és egy lap papírral lépett be a terembe, és azzal kezdte, hogy feltett egy kérdést: melyik ér előbb a padlóra, ha egyszerre ejti el őket?\n\nSzinte mindenki a könyvre szavazott. A tanár úr ekkor elmagyarázta, hogy ez egy nagyon régi előítélet. Már kétezer évvel ezelőtt is így gondolták a tudósok, és az előítélet nagyon sokáig tartotta magát. A tapasztalat ugyanis félrevezet: a mindennapokban valóban a könnyű tárgyak, a toll vagy egy száraz levél esnek lassabban.\n\nEzután felírta a táblára a szabadesés definícióját: szabadesésnek azt a mozgást nevezzük, amikor a testre csak a nehézségi erő hat. A definíció legfontosabb szava a „csak”. A valóságban ugyanis mindig ott van a levegő is, amely fékezi a testeket. Ez a komplikáció az oka annak, hogy a papír lassabban esik.\n\nElőször egyszerre ejtette el a könyvet és a kiterített lapot. A könyv nagyot szólt a padlón, a lap pedig még sokáig lebegett. Aztán a papírból kis gombócot csinált, és újra elejtette a könyvvel együtt. Ezúttal szinte egyszerre értek földet. Végül egy új lapot a könyv tetejére tett, és úgy ejtette el őket. A lap végig a könyvön maradt, mert a könyv elvette előle a levegőt. Ez volt az óra legkifejezőbb kísérlete: néhány másodperc alatt megmutatta, hogy a papír nem azért esik lassan, mert könnyű, hanem mert a levegő fékezi.\n\nA tanár úr szerint egy egyszerűsített modellben, amelyben nincs levegő, minden test egyenrangú: egy toll és egy kalapács ugyanúgy esik. Ezt egyszer a Holdon ki is próbálták, ahol nincs légkör, és a felvételen tényleg egyszerre ért le a kettő. Az egyszerűsített modell nem hazudik, csak elhagyja a komplikációt, hogy a lényeg jobban látsszon. Ha a levegőt is figyelembe vesszük, a testek már nem egyenrangúak: a nagy és könnyű tárgyakat a levegő jobban fékezi.\n\nAz óra végén a tanár úr azt mondta, hogy a fizikában gyakran a legegyszerűbb kísérlet a legkifejezőbb, és hogy az érzékeink néha félrevezetnek, ezért kell mérni. Mi pedig megígértük, hogy az előítéleteinket ezentúl kísérlettel ellenőrizzük. A következő számban arról fogok tudósítani, mit mértünk a délutáni foglalkozáson. Dalma tudósított.\n\nKérdések:\nMit kérdezett Sipos tanár úr az óra elején?\nAzt, hogy a könyv vagy a papír ér-e előbb a padlóra, ha egyszerre ejti el őket.\nMi a régi előítélet a testek eséséről?\nAz, hogy a nehezebb test gyorsabban esik, mint a könnyebb.\nMi a szabadesés definíciója?\nSzabadesésnek azt a mozgást nevezzük, amikor a testre csak a nehézségi erő hat.\nMi volt az óra legkifejezőbb kísérlete?\nAz, amikor a tanár úr a lapot a könyv tetejére tette, és a lap végig a könyvön maradt.\nMikor egyenrangú minden test?\nEgy egyszerűsített modellben, amelyben nincs levegő, mert akkor minden test ugyanúgy esik."
+    },
+    {
+      "title": "Hová lesz a meleg?",
+      "summary": "A columnist looks back on a winter of saving energy at home: what heat does, how draughts and lids matter, and how hard it is to change a family's habits.",
+      "newWords": [
+        "megtakarítás",
+        "fogyasztói",
+        "gazdálkodás",
+        "tranzakció",
+        "meggátol",
+        "előrehalad"
+      ],
+      "text": "Tavaly ősszel, amikor megérkezett az első téli számla, sokáig ültem vele a konyhában, és az összeget néztem. Aztán megnyitottam a bankom alkalmazását, és átnéztem az elmúlt hónapok tranzakcióit. Úgy éreztem, minden tranzakció mögött egy döntés áll: egy nyitva hagyott ablak, egy túl meleg szoba, egy éjszakára bekapcsolva felejtett számítógép. Akkor határoztam el, hogy a családunk energiával való gazdálkodását komolyabban veszem.\n\nElőször a fizikát kellett megértenem. A meleg mindig a melegebb helyről a hidegebb felé áramlik, és ezt semmi sem tudja teljesen meggátolni, legfeljebb lassítani. A falakon, az ablakokon és az ajtó alatti résen át a lakásunk folyamatosan adja át a meleget a téli levegőnek. Amikor fűtünk, tulajdonképpen ezt a veszteséget pótoljuk. A megtakarítás tehát ott kezdődik, ahol a veszteség.\n\nEgy régi törölközőt tettem az ajtó alá, hogy ne jöjjön be a hideg. Esténként behúzzuk a vastag függönyöket, mert a függöny és az ablak között megmaradó levegő jól tartja a meleget, és meggátolja, hogy az üveg túl gyorsan kihűljön. Főzéskor fedőt teszek az edényre: így a gőz nem viszi el a hőt, és a víz hamarabb forró lesz. Kis dolgok, de sok kicsi sokra megy, és a megtakarítás is így születik.\n\nAhogy előrehaladt a tél, kiderült, hogy a legnehezebb nem a technika, hanem az, hogy megváltoztassuk a szokásainkat. A fogyasztói szokásainkat évek alatt alakítottuk ki, és nem könnyű lemondani róluk. A gyerekek eleinte nem örültek annak, hogy le kell kapcsolniuk a villanyt, amikor kimennek a szobából. Később viszont versenyt csináltak belőle: ki kapcsol le több felesleges lámpát. A fogyasztói árakon mi nem tudunk változtatni, a felhasznált mennyiségen viszont igen.\n\nFebruárban, amikor ez már szinte magától ment, újra átnéztem a tranzakciókat. A téli számla harmadával kisebb lett, mint egy évvel korábban. Ahogy a munka előrehaladt, a gyerekek is egyre több ötlettel álltak elő: a kisebbik például azt javasolta, hogy a hűtőt ne nyissuk ki feleslegesen, mert minden nyitással kiömlik belőle a hideg levegő.\n\nNem lettem fizikus, és a házunk sem lett tökéletes. De megtanultam, hogy a háztartási gazdálkodás és a fizika ugyanazt a leckét tanítja: a meleget nem lehet örökre megtartani, csak a távozását lassíthatjuk. Aki ezt elfogadja, az már félúton van a megtakarítás felé.\n\nKérdések:\nMit nézett át a szerző a bankja alkalmazásában?\nAz elmúlt hónapok tranzakcióit.\nMerre áramlik a meleg a fizika szerint?\nMindig a melegebb helyről a hidegebb felé, és ezt semmi sem tudja teljesen meggátolni.\nMiért húzzák be esténként a függönyöket?\nMert a függöny és az ablak között megmaradó levegő jól tartja a meleget, és meggátolja, hogy az üveg gyorsan kihűljön.\nMi bizonyult a legnehezebbnek, ahogy előrehaladt a tél?\nAz, hogy megváltoztassák a fogyasztói szokásaikat, mert ezeket évek alatt alakították ki.\nMennyivel lett kisebb a téli számla?\nHarmadával lett kisebb, mint egy évvel korábban."
+    },
+    {
+      "title": "A mandarin próbája",
+      "summary": "On a first date in a café, Anita shows Félix that a mandarin floats in its peel but sinks without it, and they agree not to quarrel over a piece of fruit.",
+      "newWords": [
+        "találka",
+        "mandarin",
+        "dobog",
+        "érzelgős",
+        "arcú",
+        "összeveszik",
+        "iszonyat"
+      ],
+      "text": "Félix harmincéves, és hónapok óta nem volt találkán. Most egy kávézóban vár Anitára, akivel egy futóklubban ismerkedett meg. Kicsit korán érkezett, és miközben az ajtót figyeli, érzi, hogy erősen dobog a szíve. Előző este iszonyattal gondolt arra, hogy esetleg nem lesz miről beszélniük. Anita mosolygós arcú, göndör hajú nő. Amikor belép, Félix szíve még gyorsabban dobog.\n\nAnita teát kér, Félix pedig egy forró csokoládét és egy pohár vizet. Az asztalon egy kis tálban mandarin van, a kávézó ajándéka. Anita elvesz egyet.\n\n– Mutatok egy trükköt – mondja. – Szerinted mi történik, ha ezt a mandarint beleteszem a vízbe?\n\n– Elsüllyed – feleli Félix magabiztosan.\n\nAnita beleteszi a mandarint Félix poharába. A gyümölcs lebukik, aztán felemelkedik, és a felszínen úszik.\n\n– Úszik! – csodálkozik Félix.\n\n– Most figyelj! – Anita kiveszi a mandarint, meghámozza, és a hámozott gyümölcsöt visszateszi a pohárba. A mandarin ezúttal lassan lesüllyed a pohár aljára.\n\n– Ez nem lehet! – nevet Félix. – Hiszen most könnyebb lett!\n\n– Könnyebb, de nem ez számít – mondja Anita, és komoly arcú tanárnőt játszik. – A héjában rengeteg apró légbuborék van, olyan, mint egy úszógumi. A héjjal együtt a mandarin nagyobb helyet foglal el, sok vizet szorít ki, ezért fennmarad. Héj nélkül kisebb és tömörebb, ezért elsüllyed.\n\n– Én azért vitatkoznék… – kezdi Félix, aztán elneveti magát. – Nem, inkább mégsem. Nem szeretném, ha már az első találkán összevesznénk egy mandarinon.\n\n– Okos döntés – mondja Anita. – A szüleim egyszer egy egész vacsorán át azon vitatkoztak, hogy a jég a pohár alján vagy a tetején úszik. Végül annyira összevesztek, hogy apám felállt, és kísérletet csinált.\n\n– És hol úszik?\n\n– Fent. A jég könnyebb, mint ugyanannyi víz, ezért mindig a tetején marad. A szüleim ma is nevetnek azon a vacsorán, amelyen összevesztek.\n\nFélix bevallja, hogy előző este iszonyat fogta el a gondolatra, hogy unalmas lesz.\n\n– Most érzelgős leszek – mondja –, de rég nem nevettem ennyit.\n\n– Nyugodtan legyél érzelgős – feleli Anita. – Én is szeretem az érzelgős filmeket, csak ne mondd el senkinek.\n\nAmikor elköszönnek, megbeszélik, hogy jövő héten újra találkoznak. A következő találkán Félix hoz egy trükköt.\n\nKérdések:\nHol van Félix és Anita találkája?\nEgy kávézóban találkoznak.\nMiért dobog erősen Félix szíve?\nMert hónapok óta nem volt találkán, és izgul, amikor Anitára vár.\nMi történik a mandarinnal a vízben?\nA héjával együtt úszik, de hámozva lesüllyed a pohár aljára.\nMiért úszik a mandarin a héjával együtt?\nMert a héjában sok apró légbuborék van, így a mandarin nagyobb helyet foglal el, és sok vizet szorít ki.\nMin vesztek össze Anita szülei egy vacsorán?\nAzon, hogy a jég a pohár alján vagy a tetején úszik."
+    },
+    {
+      "title": "Margó néni orchideái",
+      "summary": "Retired biology teacher Margó hands the care of her orchid collection to her grandson Dávid for two months, teaching him about humidity, condensation and leaf structure.",
+      "newWords": [
+        "orchidea",
+        "gyűjtés",
+        "életmű",
+        "szerkezetű",
+        "ruház",
+        "kifogástalan",
+        "dísz"
+      ],
+      "text": "Margó néni nyugdíjas tanár Pécsen, és harminc éve gyűjti az orchideákat. A gyűjtés egyetlen növénnyel kezdődött, amelyet a tanítványaitól kapott ajándékba. Ma már több mint száz orchidea áll a lakás ablakaiban és polcain. A szomszédok viccesen életműnek nevezik a gyűjteményt, és Margó néni nem tiltakozik: valóban ez az élete egyik legfontosabb munkája, a tanítás mellett a második életmű.\n\nTizenhat éves unokája, Dávid egy szombat délelőtt meglátogatja. Margó néni kávé mellett elmondja neki, hogy tavasszal két hónapra elutazik a húgához Kanadába, és arra kéri Dávidot, hogy addig gondozza a növényeket.\n\n– Rád ruházom a legfontosabb feladatot – mondja mosolyogva. – A gyűjtést csak olyanra bízhatom, aki megérti, mire van szükségük az orchideáknak.\n\nDávid megígéri, és Margó néni rögtön tanítani kezdi. Először az ablakhoz vezeti. Az üveg belső oldalán apró cseppek ülnek.\n\n– Látod? Kint hideg van, ezért az ablak üvege kihűl. A szoba levegőjében láthatatlan pára van. Amikor a meleg, nedves levegő a hideg üveghez ér, kihűl, és a pára egy része cseppekké válik. A hideg levegő ugyanis kevesebb párát tud megtartani, mint a meleg.\n\n– Ez az orchideáknak jó vagy rossz?\n\n– A nedves levegő jó nekik, mert a természetben meleg erdőkben nőnek, ahol mindig sok az eső. Ezért állnak a növények kavicsokkal teli tálcákon. A tálcába vizet öntök, ami lassan a levegőbe száll, és a növények körül nedvesebb marad a levegő. A gyökér viszont nem érhet bele a vízbe, mert attól megbetegszik.\n\nAztán a leveleket mutatja meg.\n\n– Nézd, milyen vastag, kemény szerkezetű levelei vannak. Ez a szerkezet megtartja a vizet a levélben. A vékony, puha szerkezetű leveleket gyakrabban kell vízzel befújni.\n\nDávid figyelmesen jegyzeteket ír. Margó néni szerint az orchidea nem csak dísz. Sokan dísznek veszik meg az áruházban, aztán amikor a virága lehull, kidobják, pedig a növény él, csak pihen.\n\nDávid büszke rá, hogy a nagymamája rá ruházta ezt a feladatot, és a két hónap alatt minden reggel ellenőrzi a tálcákat. Amikor Margó néni hazaér, végigjárja az ablakokat. Minden orchidea kifogástalan állapotban van, sőt kettő éppen virágzik.\n\n– Kifogástalan munka – mondja elégedetten. – Azt hiszem, a gyűjtésnek mostantól két gondozója van.\n\nKérdések:\nMióta gyűjti Margó néni az orchideákat?\nHarminc éve gyűjti őket, és a gyűjtés egyetlen növénnyel kezdődött.\nMiért nevezik a szomszédok életműnek a gyűjteményt?\nMert ez Margó néni életének egyik legfontosabb munkája, a tanítás mellett a második életmű.\nKire ruházza Margó néni a növények gondozását?\nAz unokájára, Dávidra, amíg két hónapig a húgánál van Kanadában.\nMiért jelennek meg vízcseppek az ablak belső oldalán?\nMert a meleg, nedves levegő a hideg üveghez érve kihűl, és a pára egy része cseppekké válik.\nMilyen szerkezetű levelei vannak sok orchideának?\nVastag, kemény szerkezetű levelei vannak, és ez megtartja a vizet a levélben.\nMilyen állapotban találja Margó néni az orchideákat?\nKifogástalan állapotban, sőt kettő éppen virágzik."
+    },
+    {
+      "title": "Jég az udvaron",
+      "summary": "When trampled snow turns the courtyard of a block of flats to ice, the house manager calls a residents' meeting, and an engineer explains friction, salt and sand.",
+      "newWords": [
+        "lakóház",
+        "összehív",
+        "bevonása",
+        "baleseti",
+        "tapos"
+      ],
+      "text": "Heni egy nagy lakóházban lakik Debrecenben. A lakóház belső udvarán át lehet eljutni a kukákhoz és a biciklikhez. Januárban sok hó esett, és a lakók napokig taposták a havat az udvaron, amíg a kukákhoz jártak. A letaposott hó néhány nap alatt sima, kemény jéggé vált.\n\nEgy reggel Heni idős szomszédja majdnem elcsúszott a kukák mellett. Szerencsére meg tudott kapaszkodni a korlátban, de a lakók megijedtek. Fülöp, a lakóház közös képviselője, még aznap este úgy döntött, hogy összehívja a lakókat. Már többször összehívta őket, ha közös gondjuk volt. Nem akart egyedül dönteni: fontosnak tartotta a lakók bevonását, mert a megoldás mindenkit érint, és a költségét is közösen fizetik.\n\nA gyűlésen Fülöp elmondta, hogy a biztosító szerint a jeges udvar komoly baleseti kockázat, és a háznak kötelessége tisztán tartani a járdát. Aztán Heni, aki mérnökként dolgozik, elmagyarázta, mi történik a hóval.\n\n– A friss hó laza, sok levegő van benne, ezért nem csúszik. Amikor tapossuk, a hó kristályai egymáshoz nyomódnak, a levegő kiszorul, és a hó tömör lesz. Napközben a felszíne egy kicsit megolvad, éjjel visszafagy, és így lesz belőle jég. A jég azért csúszós, mert a felszínén mindig van egy nagyon vékony réteg víz, amely olyan, mint az olaj. Ilyenkor a cipő szinte semmibe sem tud kapaszkodni.\n\n– És mit tegyünk? – kérdezte valaki.\n\n– Két megoldás van – felelte Heni. – A só miatt a jég mínusz néhány fokon is megolvad, de a só árt a növényeknek, a cipőknek és a kerékpároknak. A homoktól nem olvad el a jég, de durvább lesz a felülete, és a cipő újra meg tud kapaszkodni rajta.\n\nA lakók bevonásával hosszan beszélgettek, és végül közösen döntöttek. A biciklikhez vezető utat homokkal szórják fel, a bejárat előtti lépcsőre egy kevés só kerül. Abban is megegyeztek, hogy ha hó esik, az, aki reggel elsőként indul el, lapáttal eltakarítja a havat az udvarról, mielőtt még letapossák. Fülöp egy táblát is kitett a kapu mellé, amely a baleseti kockázatra figyelmeztet.\n\nAmikor legközelebb hó esett, Heni reggel hatkor lapáttal ment le az udvarra. A hó még friss és laza volt, könnyen el lehetett takarítani. Mire a többiek elindultak dolgozni, a járda tiszta volt, és senki sem taposta jéggé a havat. Fülöp elégedett volt: a lakóház lakói közösen oldották meg a gondot.\n\nKérdések:\nMi történt a hóval az udvaron?\nA lakók napokig taposták, és néhány nap alatt sima, kemény jéggé vált.\nMiért hívta össze Fülöp a lakókat?\nMert Heni szomszédja majdnem elcsúszott, és Fülöp a lakók bevonásával akart dönteni.\nMiért csúszós a jég?\nMert a felszínén mindig van egy nagyon vékony réteg víz, és a cipő szinte semmibe sem tud kapaszkodni.\nMiben különbözik a só és a homok?\nA sótól megolvad a jég, a homoktól viszont durvább lesz a felülete, és a cipő újra meg tud kapaszkodni.\nMire figyelmeztet a tábla a kapu mellett?\nA baleseti kockázatra figyelmeztet."
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "id": "hu-mini-9700",
+  "rankUpTo": 9700,
+  "level": "C2",
+  "title": "Kertek és növénytan",
+  "description": "Ten stories about gardens and plants: a colour garden in a kindergarten, dietary fibre, a fallen poplar, a greenhouse, plants and pollinators, a charity plant auction, a forest railway, a dockside garden, a gardener's winter diary and a bridal bouquet.",
+  "topic": "Gardens and botany",
+  "names": [
+    "Felícia",
+    "Szeged",
+    "Belián",
+    "Pataki",
+    "Anzelma",
+    "Gracián",
+    "Gödöllő",
+    "Kelényi",
+    "Bojána",
+    "Madléna",
+    "Budapest",
+    "Füvészkert",
+    "Vácrátót",
+    "Hanák",
+    "Demény",
+    "Afrika",
+    "Szalai",
+    "Delfina",
+    "Szentendre",
+    "Bezerédi",
+    "Armand",
+    "Julitta",
+    "Fábia",
+    "Szilvásvárad",
+    "Magyarország",
+    "Forgács",
+    "Alárd",
+    "Duna",
+    "Kordula",
+    "Szendike",
+    "Bogdány",
+    "Gerlinda",
+    "Eger",
+    "Norina",
+    "Irmina",
+    "Dömjén"
+  ],
+  "lessons": [
+    {
+      "title": "Színes kert az oviban",
+      "summary": "Kindergarten teacher Felícia turns a dull yard into a garden with one bed for each colour, and the children slowly come to love it.",
+      "newWords": [
+        "tematikus",
+        "ovi",
+        "egyhangú",
+        "fokozatos",
+        "ecset",
+        "bíbor",
+        "hétszer",
+        "megszeret"
+      ],
+      "text": "Felícia tizenkét éve dolgozik egy óvodában Szegeden. Az ovi udvarán sokáig csak fű volt és néhány régi játék. Az udvar egyhangú volt: tavasszal zöld, nyáron sárga, ősszel barna, és a gyerekek is unták. Felícia egy napon úgy döntött, hogy kertet csinál a gyerekekkel.\n\nNem akart akármilyen kertet. Tematikus kertet tervezett, amelyben minden rész egy színről szól. Lett egy sárga rész napraforgóval, egy kék rész kék virágokkal, és lett egy bíbor rész is. Ebbe bíbor virágok kerültek, és egy olyan fűszernövény, amelynek a levele is bíbor.\n\n– Miért nem lehet minden virág bíbor? – kérdezte Belián, egy ötéves kisfiú.\n\nBelián aznap hétszer tette fel ezt a kérdést, és Felícia hétszer magyarázta el türelmesen, hogy egy tematikus kertben minden színnek megvan a maga helye. A hetedik válasz után Belián végre elégedett volt.\n\nA munka fokozatos volt, mert a kert sem nő meg egyetlen nap alatt. Márciusban a gyerekek magokat vetettek kis poharakba, és az ovi ablakába tették őket. Áprilisban a kis növényeket kivitték az udvarra, és a földbe ültették. Májusban a fokozatos meleggel a virágok is kinyíltak, egyik a másik után.\n\nA táblákat a gyerekek maguk festették. Felícia mindenkinek adott egy ecsetet és egy kis deszkát. Belián az ecsetével egy nagy bíbor foltot festett a deszkára, és kijelentette, hogy ez a bíbor rész táblája. Egy kislány napot festett a sárga részhez. Az ecseteket utána közösen mosták ki a csapnál.\n\nEleinte nem minden gyerek szerette a kertet. Volt, akinek a gaz kihúzása volt unalmas, és volt, aki a kukacoktól félt. Felícia azonban tudta, hogy a gyerekek idővel megszeretik, amit maguk gondoznak. Igaza lett: júniusra mindenki megszerette a kertet, és reggelente az volt az első kérdés, hogy nyílt-e új virág.\n\nA szülők is észrevették a változást. Belián édesanyja elmesélte, hogy a fia otthon is magot akar vetni, és egy bíbor virágot kért a születésnapjára.\n\nAz udvar ma már nem egyhangú. Az ovi kertje három színben virágzik, és ősszel a gyerekek egy negyedik részt is terveznek: fehéret.\n\nKérdések:\nMilyen volt az ovi udvara a kert előtt?\nEgyhangú volt: csak fű és néhány régi játék volt rajta.\nMilyen kertet tervezett Felícia?\nTematikus kertet tervezett, amelyben minden rész egy színről szól.\nHányszor kérdezte meg Belián, miért nem lehet minden virág bíbor?\nAznap hétszer kérdezte meg.\nMivel festették a gyerekek a táblákat?\nEcsettel festették a táblákat kis deszkákra.\nMiért volt fokozatos a munka?\nMert a kert sem nő meg egyetlen nap alatt: márciusban vetettek, áprilisban ültettek, májusban nyíltak a virágok.\nHogyan szerették meg a gyerekek a kertet?\nEleinte nem mindenki szerette, de júniusra mindenki megszerette, mert maguk gondozták."
+    },
+    {
+      "title": "A rost dicsérete",
+      "summary": "A dietitian's column on dietary fibre: where it is in the plant, why we need it, wholemeal flour, beef with vegetables, medicinal herbs and a cinnamon baked apple.",
+      "newWords": [
+        "rost",
+        "vitathatatlan",
+        "kiőrlésű",
+        "marhahús",
+        "nélkülöz",
+        "gyógyászati",
+        "fahéjas"
+      ],
+      "text": "Kertünk legszerényebb kincse a rost. Nem csillog, nincs illata, és aki a zöldséges ágyás mellett áll, ritkán gondol rá. Pedig a növényt éppen a rost tartja állva: a szárban, a levélben és a gyümölcs héjában hosszú, erős rostok futnak, és ezek adják a növény tartását.\n\nAmikor a növényt megesszük, a rostok nagy részét a szervezetünk nem tudja megemészteni. Éppen ebben rejlik a hasznuk. A rost lassítja az emésztést, sokáig jóllakottnak érezzük magunkat tőle, és a bélben élő hasznos baktériumok is belőle táplálkoznak. Az orvosok szerint vitathatatlan, hogy a rostban gazdag étrend jót tesz a szívnek és az emésztésnek. Sajnos az is vitathatatlan, hogy a legtöbben ennek csak a felét esszük meg.\n\nHonnan szerezhetünk rostot? Elsősorban a kertből és a malomból. A bab, a borsó, a lencse, az alma és a sárgarépa rostban gazdag, főleg ha a héjukkal együtt esszük őket. A lisztek közül a teljes kiőrlésű a jobb választás: ebben benne marad a gabonaszem héja is, a fehér lisztnél viszont a malomban eltávolítják a héjat. A teljes kiőrlésű kenyér sötétebb és tömörebb, mint a fehér, de jóval több rost van benne. Aki megszokta a teljes kiőrlésű kenyeret, ritkán tér vissza a fehérhez.\n\nNem kell lemondanunk a húsról sem. Én magam is szívesen főzök marhahúst, de érdemes tudni, hogy a marhahúsban egyáltalán nincs rost. Ezért a marhahús mellé mindig sok zöldséget teszek: répát, zellert és káposztát. A szervezet a rostot nem tudja nélkülözni, a sok húst viszont könnyen nélkülözheti. Aki pedig egyáltalán nem eszik húst, annak a rostot biztosan nem kell nélkülöznie.\n\nA kertben a gyógynövényeknek is helye van. Sok fűszernövénynek gyógyászati hatást tulajdonítanak: a kamilla teája megnyugtat, a menta segíti az emésztést. A gyógyászati célú használatról azonban mindig érdemes megkérdezni az orvost vagy a gyógyszerészt, mert nem minden gyógynövény való mindenkinek.\n\nVégül egy őszi recept. Ilyenkor a kedvenc desszertem a sült alma. Kimagozom az almát, a közepébe diót és egy kevés mézet teszek, a tetejét megszórom fahéjjal, és fél órára a sütőbe teszem. A fahéjas sült alma illata betölti az egész lakást. A fahéj egyébként maga is a növénytan tárgya: egy trópusi fa kérge, amelyet lehántanak és megszárítanak, és száradás közben tekeredik fel. Aki fahéjas almát eszik, az tehát egy kis fakérget is eszik, és vele egy kevés rostot is.\n\nPataki Anzelma dietetikus\n\nKérdések:\nMi tartja állva a növényt?\nA rost: a szárban, a levélben és a héjban hosszú, erős rostok futnak.\nMi vitathatatlan az orvosok szerint?\nVitathatatlan, hogy a rostban gazdag étrend jót tesz a szívnek és az emésztésnek.\nMiért jobb választás a teljes kiőrlésű liszt?\nMert benne marad a gabonaszem héja is, ezért jóval több rost van benne.\nMit tesz a szerző a marhahús mellé, és miért?\nSok zöldséget tesz mellé, mert a marhahúsban egyáltalán nincs rost.\nMit érdemes tenni a gyógynövények gyógyászati használata előtt?\nÉrdemes megkérdezni az orvost vagy a gyógyszerészt.\nMi a fahéj?\nEgy trópusi fa kérge, amelyet lehántanak és megszárítanak."
+    },
+    {
+      "title": "A kidőlt nyárfa",
+      "summary": "A summer storm brings down Gracián's old poplar, which had half-bare branches in spring; he shuts off the burst water pipe, a crew removes the tree, and he plants a lime tree in its place.",
+      "newWords": [
+        "tar",
+        "kidől",
+        "rohamosan",
+        "haladéktalanul",
+        "elzár",
+        "hidraulikus",
+        "lóerő",
+        "darabka"
+      ],
+      "text": "Gracián kertje egy Gödöllő melletti faluban van. A kert végében egy öreg nyárfa állt, amelyet még a nagyapja ültetett ötven évvel ezelőtt. Gracián szerette ezt a fát: nyáron árnyékot adott, ősszel pedig a sárga levelei messziről látszottak.\n\nTavasszal azonban észrevett valamit. A fa koronájának egyik fele tar maradt. A többi ágon kizöldültek a levelek, ezek az ágak viszont csupaszon meredtek az ég felé, mintha még mindig tél volna. Egy kertész ismerőse megnézte a fát, és azt mondta, hogy a tar ágak nem jót jelentenek: a törzs belül valószínűleg már beteg.\n\nEgy júliusi éjszakán nagy vihar volt. Reggel Gracián kinézett az ablakon, és nem hitt a szemének. A nyárfa kidőlt. A törzse átfeküdt a kerítésen, a koronája a szomszéd kertjébe esett, a gyökerek pedig kiszakadtak a földből. A fa a kerítés egy részét is magával vitte: az is kidőlt.\n\nA gyökerek egy vízcsövet is eltörtek. A víz rohamosan ömlött a gödörbe, és a gödör rohamosan megtelt. Gracián haladéktalanul elzárta a főcsapot a kapunál. Aztán felhívta a szomszédját, Kelényi Bojánát, és megkérdezte, nem esett-e baja valakinek. Senkinek sem esett baja, Bojána csak a virágait sajnálta.\n\nEzután Gracián egy céget hívott, amely fák kivágásával foglalkozik. A cég embere elmondta, hogy a szomszéd ház tetejére is rádőlt egy vastag ág, ezért azt haladéktalanul el kell távolítani. Délelőtt meg is érkeztek egy hidraulikus emelővel. A hidraulikus kar lassan a magasba emelte a munkást egy kosárban, és ő fentről darabokra vágta az ágat. Addig a kert végét szalaggal elzárták, hogy senki ne menjen a fa közelébe.\n\nA törzset egy traktor húzta ki a szomszéd kertjéből. Az első traktor motorjának csak 40 lóerő volt a teljesítménye, és nem bírt a nehéz törzzsel. Ezért hoztak egy nagyobb gépet, amely 90 lóerővel már könnyen elhúzta.\n\nEstére a nyárfából csak egy halom fa maradt. Gracián egy darabkát megtartott a törzsből. Az unokái megszámolták rajta az évgyűrűket, és ötvenet számoltak. A darabkát Gracián lecsiszolta, és a polcra tette.\n\nŐsszel a nyárfa helyére egy fiatal hársfát ültetett. A hárs lassan nő, de száz évig is élhet, és nyáron, amikor virágzik, az illata az egész kertet betölti.\n\nKérdések:\nMit vett észre Gracián tavasszal a nyárfán?\nAzt, hogy a fa koronájának egyik fele tar maradt.\nMi történt a viharos éjszakán?\nA nyárfa kidőlt, és a kerítés egy részét is magával vitte.\nMit tett Gracián, amikor a víz rohamosan ömlött a gödörbe?\nHaladéktalanul elzárta a főcsapot a kapunál.\nMivel távolították el az ágat a szomszéd ház tetejéről?\nEgy hidraulikus emelővel, amely a munkást a magasba emelte.\nMiért kellett nagyobb traktort hozni?\nMert az első traktor motorjának csak 40 lóerő volt a teljesítménye, és nem bírt a nehéz törzzsel.\nMit tartott meg Gracián a fából?\nEgy darabkát a törzsből, amelyen az unokái megszámolták az évgyűrűket."
+    },
+    {
+      "title": "Az üvegház kincsei",
+      "summary": "Madléna and her grandfather visit the greenhouses of the Füvészkert: emerald leaves, a room of rare orchids, strange-shaped cacti and a giant water lily.",
+      "newWords": [
+        "smaragd",
+        "drágakő",
+        "kincses",
+        "groteszk",
+        "markáns",
+        "hosszúság",
+        "végtelenség"
+      ],
+      "text": "Madléna egy esős szombaton a nagyapjával Budapestre, a Füvészkertbe ment. A kert legszebb része a nagy, régi üvegház, ahol télen-nyáron trópusi meleg van. Amint beléptek, a szemüvegükre pára ült, és nedves, meleg levegő fogadta őket.\n\nMadléna először a színeken csodálkozott. A banán és a pálmák levele olyan mély zöld volt, mint a smaragd.\n\n– Nézd, nagyapa, ezek a levelek olyanok, mint a smaragdok! – mondta.\n\nA nagyapja nevetett: ő is éppen erre gondolt. Egy üveg szekrényben egy kis bogár ült egy levélen, és a hátán úgy csillogott a fény, mintha drágakő lenne.\n\nA vezető, egy idős kutató, azt mondta, hogy itt az igazi drágakövek nem a bogarak, hanem az orchideák. Egy kis, meleg terembe vezette őket. Itt voltak a legritkább növények: apró, fehér orchideák, amelyek a világon csak egyetlen hegyen nőnek, és egy sárga orchidea, amelyet ötven éve gondoznak ebben a teremben.\n\n– Ez a mi kincses kamránk – mondta a kutató. – Minden növény egy drágakő.\n\nMadléna azt gondolta, hogy a kincses kamra jó név: a mesékben is így hívják azt a helyet, ahol a legértékesebb dolgokat őrzik.\n\nA szomszéd teremben egészen más világ fogadta őket. Itt a sivatag növényei éltek, és a formájuk groteszk volt: az egyik olyan volt, mint egy sor egymásra rakott labda, a másik, mint egy szőrös, öreg fej. Madléna először nevetett a groteszk alakokon, de a kutató elmagyarázta, hogy ezek a formák nem véletlenek. A vastag törzs vizet tárol, a tüskék árnyékot adnak, és a növény így kevesebb vizet veszít. Ami nekünk groteszk, az a sivatagban az életben maradás módja.\n\nA két terem között markáns különbség volt. Az egyikben minden puha, nedves és zöld volt, a másikban minden száraz, kemény és szürke. A szaguk is markánsan eltért: az egyikben a nedves föld, a másikban a meleg homok szaga volt érezhető.\n\nA ház közepén egy medencében egy óriási vízi növény úszott. A kutató elmondta, hogy egy-egy levelének a hosszúsága elérheti a két métert, és a levél olyan erős, hogy egy kisgyerek is megállna rajta. Madléna megkérdezte, milyen hosszú a növény szára.\n\n– A szár hosszúsága a víz mélységétől függ – felelte a kutató –, mert a levélnek mindig a víz tetején kell lennie.\n\nHazafelé Madléna azt mondta, hogy a növényekről a végtelenségig tudna hallgatni. A nagyapja megígérte, hogy tavasszal újra eljönnek, amikor a szabadban is nyílnak a virágok.\n\n– A növények világa maga a végtelenség – mondta. – Egy élet sem elég, hogy mindet megismerjük.\n\nKérdések:\nMilyen volt a pálmák és a banán levele?\nOlyan mély zöld, mint a smaragd.\nMik az igazi drágakövek az üvegházban a kutató szerint?\nAz orchideák az igazi drágakövek.\nHogyan nevezte a kutató az orchideák termét?\nKincses kamrának nevezte.\nMiért groteszk a sivatagi növények formája, és mire jó?\nFurcsa, szokatlan alakjuk van, de a vastag törzs vizet tárol, a tüskék pedig árnyékot adnak.\nMekkora lehet a vízi növény levelének a hosszúsága?\nElérheti a két métert.\nMit mondott Madléna hazafelé?\nAzt, hogy a növényekről a végtelenségig tudna hallgatni."
+    },
+    {
+      "title": "Esti vetítés a botanikus kertben",
+      "summary": "A visitor writes about an evening lecture with slides at Vácrátót on how plants and animals shape each other: giraffes and thorny trees, a moth and an orchid, bees and pollen, and a dried-out meadow.",
+      "newWords": [
+        "vetítés",
+        "zsiráf",
+        "specializálódik",
+        "akaratlan",
+        "hasonlítható",
+        "felkavaró"
+      ],
+      "text": "Csütörtök este Vácrátótra, a botanikus kertbe mentem egy előadásra, amelyet vetítés kísért. Az előadó, Hanák Demény professzor, harminc éve kutatja a növények és az állatok kapcsolatát. A vetítés a kert régi pajtájában volt, egy nagy fehér vásznon, és minden szék foglalt volt.\n\nAz első képeken zsiráfok voltak Afrikában, a nagy füves síkságon. A zsiráfok egy tüskés fa leveleit ették. A fa ágai tele voltak hosszú tüskékkel, de a zsiráfok ügyesen kikerülték őket: a zsiráf hosszú, mozgékony nyelvvel tépi le a leveleket a tüskék közül. A professzor elmondta, hogy a fa és a zsiráf nagyon régóta együtt változik. Ha a zsiráfok túl sokat esznek egy fáról, a fa keserű anyagot termel a levelében, és a zsiráf továbbmegy a következő fához.\n\nUtána arról beszélt, hogy sok növény egyetlen állatra specializálódott. Egy szigeten él egy orchidea, amelynek a virágában a cukros lé egy harminc centi hosszú cső alján van. Csak egyetlen lepke éri el, amelynek ugyanilyen hosszú a nyelve. A virág erre az egy lepkére specializálódott, a lepke pedig erre az egy virágra. A professzor szerint ez a kapcsolat egy kulcs és egy zár kapcsolatához hasonlítható: az egyik csak a másikkal működik. A zsiráf és a tüskés fa viszonya inkább két régi szomszédéhoz hasonlítható, akik jól ismerik egymás szokásait.\n\nA legtöbb virág azonban nem specializálódik ennyire, hanem sokféle rovart fogad. A méh nem azért száll a virágra, hogy segítsen neki: ételt keres. A virágport akaratlanul viszi magával a testén, és akaratlanul hagyja ott a következő virágon. Ez az akaratlan segítség tartja életben a rétek és a gyümölcsösök nagy részét.\n\nAz előadás végén felkavaró képek következtek: egy kiszáradt rét, ahol két nyáron át alig esett eső, és ahol szinte nem maradt rovar. A felkavaró képek után hosszú csend lett a pajtában. A professzor azonban nem félelemmel akarta befejezni. Az utolsó képen egy kert volt, amelynek a gazdája a fű egy részét nem nyírja le, és ott újra megjelentek a méhek és a lepkék.\n\n– Egy kis kert nem hasonlítható egy nagy réthez – mondta –, de száz kis kert már sokat számít.\n\nHazafelé elhatároztam, hogy a kertünkben én is meghagyok egy sarkot a vadvirágoknak.\n\nKérdések:\nHol volt a vetítés?\nVácrátóton, a botanikus kert régi pajtájában.\nHogyan eszi a zsiráf a tüskés fa leveleit?\nHosszú, mozgékony nyelvvel tépi le őket a tüskék közül.\nMire specializálódott az orchidea a szigeten?\nEgyetlen lepkére, amelynek ugyanolyan hosszú a nyelve, mint a virág csöve.\nMihez hasonlítható a virág és a lepke kapcsolata a professzor szerint?\nEgy kulcs és egy zár kapcsolatához.\nHogyan viszi a méh a virágport egyik virágról a másikra?\nAkaratlanul: a testén viszi magával, és a következő virágon hagyja.\nMilyen kép volt az előadás végén a felkavaró képek után?\nEgy kert, ahol a fű egy részét nem nyírják le, és újra megjelentek a méhek és a lepkék."
+    },
+    {
+      "title": "Aukció a kertbarátoknál",
+      "summary": "Garden-club leader Delfina holds a charity plant auction in Szentendre; a retired antique dealer runs it without commission, and the money goes into the school garden's bank account.",
+      "newWords": [
+        "jótékonyság",
+        "aukció",
+        "főbejárat",
+        "üdvözlő",
+        "bankszámla",
+        "jutalék",
+        "felmutat"
+      ],
+      "text": "Szalai Delfina tíz éve vezet egy kerti klubot Szentendrén. A tagok minden hónapban összejönnek a közösségi házban, és magokat, fiatal növényeket és tanácsokat cserélnek. Idén ősszel Delfina valami újat talált ki: aukciót szervezett. Az aukció bevételét jótékonyságra szánták, a helyi általános iskola kertjére, ahol a gyerekek zöldséget nevelnek.\n\nAz aukcióra a tagok a saját kertjükből hoztak növényeket. Volt köztük ritka paradicsomok magja, egy 30 éves kis fenyő egy lapos tálban, egy fehér rózsa és sok ritka virág.\n\nSzombat reggel a közösségi ház főbejáratánál egy nagy üdvözlő tábla fogadta a vendégeket. A táblát az iskolások festették virágokkal és zöldségekkel. A főbejárat mellett két tag állt, és minden érkezőnek adott egy kartont egy számmal. Aki vásárolni akart, ezt a kartont emelte fel.\n\nDelfina rövid üdvözlő beszéddel kezdte a délelőttöt. Megköszönte, hogy ennyien eljöttek, és elmondta, hogy minden forint az iskola kertjének a bankszámlájára kerül.\n\n– Az iskola külön bankszámlát nyitott a kertnek – mondta –, így mindenki láthatja, mire megy a pénz.\n\nAz aukciót Bezerédi Armand vezette, aki régen régi tárgyakkal kereskedett, és sok aukciót látott. Máskor jutalékot kapott minden eladott tárgy után, most azonban nem kért jutalékot.\n\n– Ma a jutalékom a jó érzés – mondta, és a közönség megtapsolta.\n\nArmand minden növényt felmutatott, mielőtt az első ajánlat elhangzott. Magasra tartotta, hogy a hátsó sorokban is lássák, és elmondta, kinek a kertjéből való. Amikor a kis fenyőt mutatta fel, csend lett a teremben. Egy idős tag harminc évig nevelte, és most a jótékonyság kedvéért vált meg tőle.\n\nA fenyő lett a nap legdrágább növénye. Egy fiatal pár vette meg, és megígérték, hogy tanácsért elviszik majd a régi gazdájához. A paradicsommagok is gyorsan elfogytak, a rózsáért pedig két szomszéd versengett, míg végül megegyeztek, hogy együtt veszik meg, és megosztják egymás között.\n\nDélre az aukció véget ért. Délután Delfina megnézte a bankszámlát: az iskola kertje annyi pénzt kapott, hogy tavasszal egy kis üvegházat is építhetnek. A tagok elhatározták, hogy jövőre is lesz aukció, és a jótékonyság hagyomány lesz a klubban.\n\nKérdések:\nMire szánták az aukció bevételét?\nJótékonyságra: a helyi általános iskola kertjére.\nMi fogadta a vendégeket a főbejáratnál?\nEgy nagy üdvözlő tábla, amelyet az iskolások festettek.\nHova került minden forint?\nAz iskola kertjének a bankszámlájára.\nMiért nem kért jutalékot Armand?\nMert ma a jó érzés volt a jutaléka: a pénz az iskolának ment.\nMit csinált Armand minden növénnyel az első ajánlat előtt?\nFelmutatta: magasra tartotta, hogy a hátsó sorokban is lássák.\nMire volt elég a pénz?\nArra, hogy tavasszal egy kis üvegházat építsenek az iskola kertjében."
+    },
+    {
+      "title": "Kisvasúttal a völgybe",
+      "summary": "Julitta and her daughter Fábia take the narrow-gauge railway into the Szalajka valley, learn what such lines once carried, and see a grass snake in a pond.",
+      "newWords": [
+        "főtér",
+        "kisvasút",
+        "földműves",
+        "beszállás",
+        "síp",
+        "kóborol",
+        "sikló"
+      ],
+      "text": "Julitta egy júniusi vasárnap a lányával, Fábiával Szilvásváradra utazott. Az autót a főtéren hagyták, és a főtérről gyalog mentek a kisvasút állomásáig. A kisvasút sínjei keskenyebbek, mint a rendes vasúté, a kocsik kicsik és nyitottak, így utazás közben az erdő illatát is érezni lehet.\n\nAz állomáson egy kis kiállítás volt. Fábia megtudta belőle, hogy Magyarországon sok kisvasutat eredetileg nem kirándulásra építettek. Az erdőkből fát szállítottak rajtuk, a földművesek pedig ezzel vitték a termést a piacra. A régi fényképeken a földművesek zsákokat raktak a kocsikba, és lovas kocsik vártak a megállóknál.\n\nTíz órakor a vonat vezetője hangosan bejelentette a beszállást. A beszállás gyorsan ment: a gyerekek a kocsik elejére ültek, a felnőttek mögéjük. Aztán megszólalt a vezető sípja, a vonat megmozdult, és lassan elindult a völgy felé. Fábia minden kanyarban várta, hogy újra megszólaljon a síp, mert a vezető minden átjárónál belefújt a sípjába.\n\nA völgyben magas bükkök nőttek, és a patak mellett erős illat volt, olyan, mint a fokhagymáé. Julitta elmagyarázta, hogy ez a medvehagyma, amely tavasszal az erdő alját borítja, és hogy itt, a védett erdőben nem szabad szedni belőle.\n\nAz utolsó állomástól gyalog mentek tovább. Fábia szeretett volna letérni az ösvényről, és az erdőben kóborolni, de Julitta azt mondta, hogy a jelzett úton kell maradniuk, mert az erdő az állatok otthona. Így a patak mentén kóboroltak órákig, és a kis hidakon újra meg újra átmentek a vízen.\n\nEgy kis tóban egy sikló úszott. Fábia először megijedt, de Julitta megnyugtatta: a sikló félénk kígyó, és könnyű felismerni a két sárga foltjáról a feje mögött. A sikló hamar eltűnt a part menti fű között, és csak kis hullámok maradtak utána a vízen.\n\nDélután visszaültek a kisvasútra. Fábia útközben elaludt Julitta vállán, és csak akkor ébredt fel, amikor a vezető utoljára megfújta a sípját az állomáson.\n\nKérdések:\nHol hagyták az autót?\nSzilvásváradon, a főtéren.\nMire használták régen a kisvasutakat?\nFát szállítottak rajtuk az erdőkből, a földművesek pedig ezzel vitték a termést a piacra.\nMit jelentett be a vonat vezetője tíz órakor?\nA beszállást.\nMikor szólalt meg a síp?\nInduláskor és minden átjárónál.\nMiért nem kóborolhatott Fábia az erdőben?\nMert a jelzett úton kellett maradniuk, hiszen az erdő az állatok otthona.\nMiről lehet felismerni a siklót?\nA két sárga foltjáról a feje mögött."
+    },
+    {
+      "title": "A régi dokk kertje",
+      "summary": "Retired shipwright Alárd gardens in the community garden beside an old Danube dock; his first summers fail, he learns to improve the sandy soil, and he teaches a careless boy to respect the beds.",
+      "newWords": [
+        "dokk",
+        "zakó",
+        "eredménytelen",
+        "belenéz",
+        "vitorlás",
+        "tarkó",
+        "megmos",
+        "ej"
+      ],
+      "text": "Forgács Alárd negyven évig hajókat javított a Duna partján, egy nagy dokkban. Amikor nyugdíjba ment, a dokk már rég üresen állt. A város néhány éve közösségi kertet csinált a régi dokk melletti területen, és Alárd volt az első, aki ágyást kért benne.\n\nAlárd minden reggel ugyanabban a régi barna zakóban jön ki a kertbe. A zakó könyöke kopott, a zsebében mindig van egy zacskó mag és egy ceruza.\n\n– Ebben a zakóban dolgoztam a dokkban is – mondja. – Úgy hozzám nőtt, mint egy második bőr.\n\nA dokk mellett a föld homokos és köves volt, és tele volt régi, rozsdás vasdarabokkal. Alárd első próbálkozásai eredménytelenek voltak. Az első nyáron a paradicsom alig termett, a sárgarépa apró és görbe lett, a bab pedig kiszáradt. A második nyár sem volt sokkal jobb. Két eredménytelen év után Alárd könyveket kért kölcsön a könyvtárból, és esténként mindegyikbe belenézett. A könyvekből megtudta, hogy a homokos földbe sok szerves anyag kell: lehullott levél, levágott fű, konyhai maradék.\n\nAzóta Alárd mindent összegyűjt, ami a kertben lehull, és egy nagy ládában érleli. Minden reggel belenéz a ládába, hogy elég nedves-e, és belenéz az esővizes hordóba is. A harmadik nyáron végre piros, kemény paradicsomok értek az ágyásában.\n\nA kert előtt a Dunán gyakran úsznak el vitorlások. Hétvégén néha húsz vitorlás is elhalad a part mellett, és Alárd ilyenkor leteszi a kapát, és nézi a fehér vitorlákat. Régen ő maga is javított vitorlásokat a dokkban.\n\nNyáron a nap erősen tűz, és Alárd tarkója minden évben leég. Ezért most egy széles kalapot hord, és egy vizes kendőt köt a tarkójára. A zöldséget a kerti csapnál megmossa, mielőtt hazaviszi, és munka után a kezét is megmossa a hideg vízben.\n\nEgy délután egy kisfiú a szomszéd iskolából átszaladt az ágyásokon a labdája után.\n\n– Ej, ej, fiatalember! – szólt rá Alárd. – Az ágyás nem futballpálya.\n\nA fiú zavartan megállt. Alárd nem haragudott rá. Megmutatta neki, hol nő a paradicsom, és hol bújik ki a földből a sárgarépa.\n\n– Ej, hát ezt nem is tudtam – mondta a fiú. – Azt hittem, ez csak fű.\n\nMásnap a fiú visszajött, és megkérdezte, kaphat-e ő is egy kis sarkot az ágyásból.\n\nKérdések:\nMi volt Alárd foglalkozása, mielőtt nyugdíjba ment?\nNegyven évig hajókat javított egy nagy dokkban a Duna partján.\nMiben jön ki Alárd minden reggel a kertbe?\nUgyanabban a régi barna zakóban, amelyben a dokkban is dolgozott.\nMiért voltak eredménytelenek az első próbálkozásai?\nMert a föld homokos és köves volt, és nem volt benne elég szerves anyag.\nMibe néz bele Alárd minden reggel?\nA ládába, ahol a leveleket és a füvet érleli, és az esővizes hordóba.\nMit tesz Alárd, hogy ne égjen le a tarkója?\nSzéles kalapot hord, és egy vizes kendőt köt a tarkójára.\nMit mondott Alárd a kisfiúnak, aki átszaladt az ágyásokon?\nAzt mondta: „Ej, ej, fiatalember! Az ágyás nem futballpálya.”"
+    },
+    {
+      "title": "Kordula téli naplója",
+      "summary": "In two January diary entries retired gardener Kordula sits in her armchair through grey days, plans the spring at her desk, and feels the patience of the seeds.",
+      "newWords": [
+        "januári",
+        "pizsama",
+        "fotel",
+        "monoton",
+        "elszomorít",
+        "íróasztal",
+        "átérez"
+      ],
+      "text": "Január 12., vasárnap\n\nMa sem mentem ki a kertbe. A januári kert alszik, és nem szereti, ha zavarják. Reggel pizsamában ültem a fotelban az ablak előtt, egy bögre teával, és néztem a kertet. Monoton szürke ég, monoton szürke föld, és a kettő között a fák csupasz ágai. Egyetlen színes folt volt: egy kis sárga madár a bokor ágán.\n\nBevallom, a januári napok elszomorítanak. Nem a hideg az, ami elszomorít, hanem az, hogy semmi sem változik. Nyáron minden reggel nyílik valami, most hetekig ugyanazt látom. Egy kertésznek a monoton tél a legnehezebb évszak.\n\nDélután mégis jobb kedvem lett. Leültem az íróasztalomhoz, és elővettem a magok katalógusait, a tavalyi kerti naplómat és egy nagy papírt. Az íróasztalon lassan megszületett az idei kert terve: hova kerül a paradicsom, hova a bab, és hol lesz az új virágos sarok. Ilyenkor úgy érzem, már tavasz van, legalábbis papíron.\n\nJanuár 19., vasárnap\n\nHajnalban esett egy kis hó. Megint a fotelban ültem, pizsamában, mert egyedül vagyok, és senki sem lát. A hó alatt a kert már nem volt monoton: minden bokor és minden kő más formát kapott.\n\nMa délelőtt az unokám, Szendike hívott telefonon. Azt kérdezte, miért nem vetek még magot, ha úgyis unatkozom. Megpróbáltam elmagyarázni neki, hogy a magnak ideje van. Ha most vetném el, a kis növény a sötét szobában megnyúlna és elgyengülne. Szendike nevetett, és azt mondta, hogy ezt nem tudja átérezni, ő mindent azonnal szeretne.\n\nLetettem a telefont, és arra gondoltam, hogy fiatalon én sem tudtam ezt átérezni. Most már értem a magok türelmét. A föld alatt, a hideg sötétben ők is várnak, és nem sietnek sehova. Talán ezért nem olyan elszomorító a mai szürke nap. Délután visszaültem az íróasztalhoz, és a terv aljára odaírtam: türelem.\n\nKérdések:\nMit csinált Kordula január 12-én reggel?\nPizsamában ült a fotelban az ablak előtt, teát ivott, és nézte a kertet.\nMi szomorítja el Kordulát a januári napokon?\nNem a hideg az, ami elszomorítja, hanem az, hogy semmi sem változik.\nMit csinált Kordula délután az íróasztalánál?\nElővette a magok katalógusait, és megtervezte az idei kertet.\nMiért nem volt monoton a kert január 19-én?\nMert hó esett, és minden bokor és kő más formát kapott.\nMit nem tud átérezni Szendike?\nAzt, hogy a magnak ideje van, mert ő mindent azonnal szeretne.\nMit írt Kordula a terv aljára?\nAzt írta oda: türelem."
+    },
+    {
+      "title": "A menyasszonyi csokor",
+      "summary": "Florist Gerlinda makes a bride's bouquet only from the grandmother's garden, as Irmina néni insists; she strives for perfection, takes the groom's hint about the wild rose, and the garden wedding is a joyful one.",
+      "newWords": [
+        "ara",
+        "megparancsol",
+        "tökéletesség",
+        "elégedik",
+        "célzás",
+        "féktelen"
+      ],
+      "text": "Bogdány Gerlinda húsz éve köt csokrokat egy kis üzletben Egerben. Egy tavaszi napon egy fiatal ara, Norina kereste fel a nagymamájával, Irmina nénivel. Az esküvőt júniusban tartják Irmina néni kertjében, a város szélén.\n\n– Egyet már az elején megmondok – szólt Irmina néni. – Az unokám csokrába csak az én kertemből kerülhet virág. Ezt én parancsolom meg, nem az ara.\n\nGerlinda megígérte, hogy úgy lesz, ahogy Irmina néni megparancsolta.\n\nNorina mosolygott. Elmesélte, hogy a nagymamája ezt már akkor megparancsolta, amikor ő még kislány volt, és először beszéltek arról, hogy egyszer férjhez megy.\n\nGerlinda kiment a kertbe, hogy megnézze a virágokat. Volt ott fehér és rózsaszín rózsa, levendula és sok más virág. A kerítésen egy vadrózsa mászott fel, amely féktelenül terjedt: évek óta senki sem vágta vissza, és az ágai már a szomszéd fáiba is belekapaszkodtak.\n\nGerlinda mindig a tökéletességre törekedett, de tudta, hogy egy kertben semmi sem tökéletes. Az egyik rózsa túl korán nyílt, a másik túl későn, a fehér virágok pedig egy hét alatt kétszer akkorára nőttek. Irmina néni sem elégedett meg könnyen semmivel. Az első csokornál azt mondta, hogy túl kicsi, a másodiknál, hogy túl merev.\n\n– A nagymamám soha nem elégszik meg az első változattal – nevetett Norina. – Engem is így nevelt.\n\nA vőlegény, Dömjén is eljött egyszer a kertbe. Ő csak egy apró célzást tett: elmondta, hogy amikor először járt itt, Norinával a kerítés rózsája alatt beszélgettek egész délután. Gerlinda megértette a célzást. A harmadik csokorba a kerítés rózsájának egy kis ágát is beletette, a fehér rózsák közé.\n\nIrmina néni sokáig nézte az új csokrot. Aztán elégedetten mosolygott.\n\n– Most meg vagyok elégedve – mondta. – Ebben a csokorban benne van az egész kert.\n\nA tökéletesség nem abban volt, hogy minden virág egyforma lett. Abban volt, hogy minden virágnak volt története.\n\nAz esküvő napján féktelen öröm uralkodott a kertben. A vendégek a füvön táncoltak, a gyerekek a bokrok között szaladtak, Irmina néni pedig mindenkinek elmondta, hogy a csokor minden virága az ő kertjéből való.\n\nKérdések:\nMit parancsolt meg Irmina néni?\nAzt, hogy az unokája csokrába csak az ő kertjéből kerülhet virág.\nMilyen volt a vadrózsa a kerítésen?\nFéktelenül terjedt, mert évek óta senki sem vágta vissza.\nMiért nem lehetett tökéletes semmi a kertben?\nMert az egyik rózsa túl korán nyílt, a másik túl későn, a fehér virágok pedig gyorsan nőttek.\nMilyen célzást tett Dömjén?\nElmondta, hogy Norinával a kerítés rózsája alatt beszélgettek egész délután, amikor először járt ott.\nMikor elégedett meg végül Irmina néni a csokorral?\nAmikor a harmadik csokorba a kerítés rózsájának egy kis ága is bekerült.\nMilyen volt a hangulat az esküvő napján?\nFéktelen öröm uralkodott a kertben."
+    }
+  ]
+}
