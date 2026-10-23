@@ -1,0 +1,214 @@
+{
+  "id": "ro-mini-0200",
+  "rankUpTo": 200,
+  "level": "A1",
+  "title": "O zi obișnuită",
+  "description": "Ten short, simple stories about ordinary days in Romanian towns: mornings, buses, shops, homework, dinners, work and evenings.",
+  "topic": "Everyday life",
+  "names": [
+    "Cosmin",
+    "București",
+    "Teodora",
+    "Carmen",
+    "Horia",
+    "Sibiu",
+    "Gabriel",
+    "Liviu",
+    "Craiova",
+    "Marcu",
+    "Simona",
+    "Valentin",
+    "Anca",
+    "Brașov",
+    "Miti",
+    "Adrian",
+    "Monica",
+    "Suceava",
+    "Cluj",
+    "Clujul",
+    "Natalia",
+    "Timișoara",
+    "Coșbuc",
+    "Eugen",
+    "Darius",
+    "Andreea",
+    "Răzvan",
+    "Ploiești",
+    "Ionescu",
+    "Grigore",
+    "Livia",
+    "Maramureș",
+    "Cișmigiu"
+  ],
+  "lessons": [
+    {
+      "title": "Ca în fiecare zi",
+      "summary": "Cosmin lives alone in Bucharest, and every working day of his begins and ends the same way.",
+      "newWords": [
+        "fiecare",
+        "începe",
+        "fel",
+        "oră",
+        "apoi",
+        "înainte",
+        "pleca",
+        "ajunge",
+        "singur",
+        "prea",
+        "puțin",
+        "până"
+      ],
+      "text": "Cosmin are 30 de ani și stă singur, în București. Fiecare zi a lui începe la fel.\n\nZiua începe la ora 7. Cosmin face o cafea și stă puțin la masă. Apoi se uită puțin la telefon. Nu are prea mult timp.\n\nÎnainte de ora 8, Cosmin pleacă la lucru. Merge pe jos. Până la lucru face o oră. Pentru el, o oră nu e prea mult.\n\nLa ora 9, Cosmin ajunge la lucru. Apoi începe ziua de lucru.\n\nLa ora 6, Cosmin pleacă de la lucru. Merge iar pe jos și ajunge acasă înainte de ora 7.\n\nAșa e fiecare zi pentru Cosmin. Toate zilele sunt la fel, dar pentru el e bine așa.\n\nÎntrebări:\nUnde stă Cosmin?\nCosmin stă singur, în București.\nCe face Cosmin la ora 7?\nLa ora 7, Cosmin face o cafea.\nCând pleacă Cosmin la lucru?\nCosmin pleacă la lucru înainte de ora 8.\nCât timp face Cosmin până la lucru?\nPână la lucru, Cosmin face o oră.\nCând ajunge Cosmin la lucru?\nCosmin ajunge la lucru la ora 9."
+    },
+    {
+      "title": "Ultimul autobuz",
+      "summary": "Late at night Teodora waits at a crowded stop in Iași for the last bus home, and it comes.",
+      "newWords": [
+        "noapte",
+        "aștepta",
+        "trece",
+        "peste",
+        "lume",
+        "intra",
+        "ultim",
+        "câtva",
+        "deci",
+        "pierde",
+        "atunci"
+      ],
+      "text": "E ora 11 și e noapte. Teodora a fost la lucru toată ziua. Acum pleacă de la lucru și merge la stație. Așteaptă ultimul autobuz din noaptea asta. Nu vrea să-l piardă. Dacă îl pierde, nu mai are cu ce să meargă.\n\nTeodora nu e singură. E multă lume. Toată lumea așteaptă.\n\nTrece un autobuz, dar nu e al ei. Mai trece unul. Nici acesta nu e al ei. Teodora mai așteaptă.\n\nAtunci se uită la telefon. Al ei vine peste câteva minute. Deci mai are puțin timp.\n\nTeodora mai așteaptă puțin. Atunci vine și al ei.\n\nTeodora intră. Toată lumea intră după ea. Nu l-a pierdut! Deci peste o oră e la ea.\n\nÎntrebări:\nCe așteaptă Teodora?\nTeodora așteaptă ultimul autobuz din noaptea asta.\nE singură Teodora?\nNu, Teodora nu e singură. E multă lume.\nCând vine autobuzul ei?\nAutobuzul ei vine peste câteva minute.\nA pierdut Teodora ultimul autobuz?\nNu, Teodora nu l-a pierdut."
+    },
+    {
+      "title": "La magazinul doamnei Carmen",
+      "summary": "Every morning Mr Horia buys bread and milk at Mrs Carmen's little shop in Sibiu.",
+      "newWords": [
+        "doamnă",
+        "domn",
+        "mic",
+        "alt",
+        "dori",
+        "ruga",
+        "trei",
+        "aduce",
+        "nimic",
+        "mulțumi",
+        "ban",
+        "primi"
+      ],
+      "text": "Doamna Carmen are un magazin mic în Sibiu. În fiecare zi, la ora 8, domnul Horia vine la ea. Domnul Horia nu merge la alt magazin. Merge doar la doamna Carmen.\n\n— Bună ziua, doamnă Carmen! Ce mai faceți?\n\n— Bună ziua, domnule Horia! Bine, mulțumesc. Ce doriți?\n\n— Trei pâini, vă rog.\n\nDoamna Carmen aduce trei pâini.\n\n— Mai doriți ceva?\n\n— Da, vă rog. Și un lapte.\n\nDoamna Carmen aduce și laptele.\n\n— Mai doriți ceva?\n\n— Nu, nimic, mulțumesc. Cât vă dau?\n\n— 12 lei, vă rog.\n\nDomnul Horia îi dă banii. Doamna Carmen primește banii și îi mulțumește.\n\n— Mulțumesc, domnule Horia! O zi bună!\n\n— Și eu vă mulțumesc, doamnă Carmen!\n\nÎntrebări:\nCe are doamna Carmen?\nDoamna Carmen are un magazin mic în Sibiu.\nCe dorește domnul Horia?\nDomnul Horia dorește trei pâini.\nMai dorește domnul Horia ceva?\nNu, domnul Horia nu mai dorește nimic.\nCe primește doamna Carmen?\nDoamna Carmen primește banii.\nMerge domnul Horia la alte magazine?\nNu, domnul Horia nu merge la alte magazine."
+    },
+    {
+      "title": "Problema lui Gabriel",
+      "summary": "Gabriel cannot understand a problem for school, so his father Liviu shows him until he can do it alone.",
+      "newWords": [
+        "cine",
+        "copil",
+        "problemă",
+        "încerca",
+        "gândi",
+        "înțelege",
+        "tată",
+        "ajuta",
+        "sigur",
+        "arăta",
+        "încă"
+      ],
+      "text": "Gabriel e un copil de 9 ani din Craiova. E seară. Gabriel are de făcut o problemă pentru școală.\n\nGabriel încearcă. Se gândește mult. Încearcă iar. Dar nu înțelege problema.\n\n— Tată, mă ajuți? spune Gabriel.\n\nLiviu, tatăl lui, vine la el.\n\n— Sigur că te ajut, spune Liviu. Ce nu înțelegi?\n\n— Nu înțeleg problema asta.\n\nLiviu se uită la problemă. Se gândește puțin.\n\n— Stai să-ți arăt, spune el.\n\nLiviu îi arată. Gabriel se uită și se gândește. Încă nu înțelege.\n\n— Încă nu înțeleg, tată.\n\n— Nu-i nimic. Mai încercăm.\n\nLiviu îi mai arată. Acum Gabriel înțelege!\n\n— Acum înțeleg! spune Gabriel. Pot să fac singur problema.\n\nGabriel face singur problema. Liviu e sigur: copilul lui poate să facă multe singur.\n\nÎntrebări:\nCâți ani are Gabriel?\nGabriel are 9 ani.\nCe nu înțelege Gabriel?\nGabriel nu înțelege problema pentru școală.\nCine e Liviu?\nLiviu e tatăl lui Gabriel.\nCine îl ajută pe Gabriel?\nLiviu îl ajută.\nCe face Liviu?\nLiviu îi arată cum să facă problema.\nCe face Gabriel acum?\nAcum Gabriel face singur problema."
+    },
+    {
+      "title": "Seara, în familie",
+      "summary": "The Marcu family in Brașov come home in the evening, and at dinner Anca tells her parents she got a 10.",
+      "newWords": [
+        "familie",
+        "casă",
+        "mamă",
+        "fată",
+        "lor",
+        "întoarce",
+        "sub",
+        "întâmpla",
+        "zice",
+        "afla",
+        "atât"
+      ],
+      "text": "Familia Marcu stă într-o casă din Brașov. Casa lor nu e mare, dar e bună. În familie sunt trei: Simona e mama, Valentin e tatăl, iar Anca e fata lor. Anca are 12 ani. Și mai e Miti, pisica lor.\n\nSimona și Valentin sunt toată ziua la lucru, iar Anca e la școală. La ora 6, toți se întorc acasă. Anca se întoarce prima, apoi se întoarce Simona, apoi Valentin.\n\nLa ora 7, familia stă la masă. Miti stă sub masă.\n\n— Ce s-a întâmplat la școală? zice Simona.\n\n— Nimic, zice Anca.\n\n— Chiar nimic? zice Valentin.\n\n— Ei, s-a întâmplat ceva, zice Anca. Am luat un 10!\n\nAșa află mama și tatăl ei ce s-a întâmplat la școală.\n\n— Un 10? E atât de bine! zice Simona.\n\n— Foarte bine, Anca! zice Valentin. Suntem atât de mulțumiți!\n\nAnca îi dă și lui Miti, sub masă, ceva bun.\n\nÎntrebări:\nCine e Anca?\nAnca e fata lor.\nCând se întorc toți acasă?\nToți se întorc acasă la ora 6.\nCe vrea să afle Simona?\nSimona vrea să afle ce s-a întâmplat la școală.\nCe s-a întâmplat la școală?\nAnca a luat un 10.\nUnde stă Miti?\nMiti stă sub masă."
+    },
+    {
+      "title": "Un prieten nou",
+      "summary": "Monica from Suceava is new at Adrian's work in Cluj; he shows her the town and they become friends.",
+      "newWords": [
+        "persoană",
+        "nou",
+        "femeie",
+        "nume",
+        "oraș",
+        "oh",
+        "îți",
+        "plăcea",
+        "frumos",
+        "prieten",
+        "deveni"
+      ],
+      "text": "Adrian are 28 de ani și stă în Cluj. Azi, la lucru, vine o persoană nouă. E o femeie de 25 de ani.\n\n„Cine e femeia asta?” se gândește Adrian. Merge la ea.\n\n— Bună! Eu sunt Adrian. Care e numele tău?\n\n— Bună! Numele meu e Monica.\n\n— De unde ești, Monica?\n\n— Din Suceava. Clujul e un oraș nou pentru mine.\n\n— Oh! Și îți place orașul?\n\n— Da, îmi place mult. E un oraș frumos. Dar aici nu am prieteni.\n\n— Oh, acum ai un prieten! spune Adrian.\n\nDupă lucru, Adrian îi arată orașul. Îi arată o stradă frumoasă și un parc frumos.\n\n— Îți place aici? spune el.\n\n— Îmi place foarte mult! spune Monica.\n\nAșa Adrian și Monica devin prieteni. Monica e o persoană foarte bună. Acum are un prieten nou într-un oraș nou.\n\nÎntrebări:\nCine e Monica?\nMonica e o persoană nouă la lucru.\nDe unde e Monica?\nMonica e din Suceava.\nCe îi arată Adrian după lucru?\nAdrian îi arată orașul.\nCe devin Adrian și Monica?\nAdrian și Monica devin prieteni."
+    },
+    {
+      "title": "Strada lui Eugen",
+      "summary": "Natalia cannot find her friend's street in Timișoara until a man shows her the way.",
+      "newWords": [
+        "acolo",
+        "găsi",
+        "drept",
+        "cineva",
+        "către",
+        "acel",
+        "ăla",
+        "între",
+        "față"
+      ],
+      "text": "Natalia e în Timișoara. Vrea să meargă pe strada Coșbuc. Acolo stă Eugen, un prieten al ei.\n\nDar Natalia nu găsește strada. Se uită la dreapta. Nu e acolo. Se uită înainte. Nu e nici acolo. Poate o ajută cineva?\n\nAtunci vede pe cineva: un domn cu o fată mică.\n\n— Bună ziua! Vă rog, unde e strada Coșbuc?\n\n— Mergeți drept înainte, către parc. Vedeți acea casă mare? E între parc și acea casă.\n\n— Casa aia?\n\n— Da, aia.\n\n— Mulțumesc mult!\n\nNatalia merge drept înainte, către parc. Apoi vede casa mare. Între parc și casă e strada Coșbuc!\n\nAcolo, în fața unei case, e Eugen.\n\n— Natalia! Ai găsit strada!\n\n— Da, am găsit-o! Un domn m-a ajutat.\n\nÎntrebări:\nUnde vrea să meargă Natalia?\nNatalia vrea să meargă la Eugen.\nPe cine vede Natalia?\nNatalia vede un domn cu o fată mică.\nUnde stă Eugen?\nEugen stă între parc și o casă mare.\nCine e în fața casei?\nEugen e în fața casei."
+    },
+    {
+      "title": "Noaptea lui Darius",
+      "summary": "Six-year-old Darius feels unwell in the night; his mother Andreea stays with him, and in the morning he is better.",
+      "newWords": [
+        "simți",
+        "rău",
+        "auzi",
+        "ține",
+        "nevoie",
+        "rămâne",
+        "lăsa",
+        "fără"
+      ],
+      "text": "E noapte. Darius are 6 ani. Nu se simte bine. Îi e rău.\n\n— Mamă! spune Darius.\n\nAndreea, mama lui, îl aude. Vine la el.\n\n— Ce ai, Darius?\n\n— Mă simt rău, mamă.\n\nAndreea stă cu el. Îi ține mâna.\n\n— Ai nevoie de ceva? Vrei apă?\n\n— Nu. Am nevoie de tine. Rămâi cu mine?\n\n— Sigur. Nu te las singur.\n\nAndreea rămâne cu Darius toată noaptea. Îi ține mâna și nu-l lasă singur.\n\nDimineața, Darius se simte mai bine. Dar nu merge la școală. Rămâne acasă cu Andreea. E o zi fără școală.\n\n— O zi fără școală! spune Darius. Acum mă simt bine!\n\nÎntrebări:\nCum se simte Darius noaptea?\nDarius se simte rău.\nCine îl aude pe Darius?\nAndreea, mama lui, îl aude.\nDe ce are nevoie Darius?\nDarius are nevoie de mama lui.\nCe face Andreea?\nAndreea rămâne cu Darius toată noaptea.\nMerge Darius la școală?\nNu, Darius rămâne acasă."
+    },
+    {
+      "title": "Bicicleta",
+      "summary": "Răzvan buys a city bike from Mr Ionescu in Ploiești and rides it out of the shop for the first time.",
+      "newWords": [
+        "tip",
+        "folosi",
+        "dintre",
+        "orice",
+        "decât",
+        "regulă",
+        "pune",
+        "dată"
+      ],
+      "text": "Răzvan stă în Ploiești. Merge la domnul Ionescu. Domnul Ionescu are un magazin de biciclete.\n\n— Bună ziua! Ce doriți? spune domnul Ionescu.\n\n— Bună ziua! Vreau o bicicletă.\n\n— Ce tip? Avem multe tipuri.\n\n— Una pentru oraș. Vreau s-o folosesc când merg la lucru.\n\nDomnul Ionescu îi arată trei. Una dintre ele îi place mult lui Răzvan. E mică, dar foarte bună.\n\n— Pot s-o folosesc pe orice drum?\n\n— Da, pe orice drum din oraș.\n\n— Și cât vă dau?\n\n— 900 de lei.\n\nRăzvan nu are la el decât 1000 de lei. Deci e bine.\n\n— În regulă. O iau!\n\nRăzvan pune banii pe masă.\n\n— Mulțumesc! Pentru orice problemă, veniți la noi! spune domnul Ionescu.\n\n— În regulă, mulțumesc! spune Răzvan.\n\nE prima dată când Răzvan are o bicicletă. Pleacă de acolo cu ea și e foarte mulțumit.\n\nÎntrebări:\nCe vrea Răzvan?\nRăzvan vrea o bicicletă pentru oraș.\nCare dintre ele îi place lui Răzvan?\nÎi place una mică, dar foarte bună.\nCâți bani are Răzvan la el?\nRăzvan nu are la el decât 1000 de lei.\nUnde pune Răzvan banii?\nRăzvan pune banii pe masă.\nE prima dată când Răzvan are o bicicletă?\nDa, e prima dată."
+    },
+    {
+      "title": "Tata la București",
+      "summary": "Grigore comes from his village in Maramureș to visit his daughter Livia in Bucharest, who shows him the city.",
+      "newWords": [
+        "urmă",
+        "caz",
+        "exista",
+        "viață",
+        "fapt",
+        "ceea"
+      ],
+      "text": "Grigore are 70 de ani. Stă într-un sat din Maramureș. Acum stă câteva zile la București, la Livia, fata lui.\n\nLivia îi arată orașul. Pe stradă e multă lume. Toată lumea merge repede. Grigore nu merge așa. Rămâne în urmă.\n\n— Tată, unde ești? zice Livia.\n\n— Aici, în urmă! Voi, cei de la oraș, mergeți prea repede.\n\n— În cazul ăsta, te aștept, zice Livia.\n\nÎn București există de toate. Există și un parc foarte frumos, Cișmigiu. Livia îl duce acolo. Grigore se uită la tot ceea ce îi arată ea.\n\n— Îți place viața la oraș, tată? zice Livia.\n\n— E frumos aici. Dar, de fapt, nu e viața mea. Viața mea e la sat.\n\n— De fapt, te înțeleg, zice Livia.\n\nCeea ce îi place lui Grigore e Cișmigiu.\n\n— În orice caz, o să mai vin, zice el.\n\nÎntrebări:\nUnde stă Grigore?\nGrigore stă într-un sat din Maramureș.\nCine rămâne în urmă?\nGrigore rămâne în urmă.\nCe există în București?\nÎn București există de toate.\nUnde e viața lui Grigore?\nViața lui Grigore e la sat.\nCe îi place lui Grigore?\nLui Grigore îi place Cișmigiu."
+    }
+  ]
+}
