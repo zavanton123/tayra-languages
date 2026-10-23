@@ -21,6 +21,8 @@ import com.tayra.languages.core.data.network.KtorRecordingFetcher
 import com.tayra.languages.core.domain.service.ExampleRecordings
 import androidx.compose.ui.test.performClick
 import androidx.compose.ui.test.performScrollTo
+import androidx.compose.ui.test.assertIsEnabled
+import androidx.compose.ui.test.assertIsNotEnabled
 import androidx.compose.ui.test.onNodeWithContentDescription
 import androidx.compose.ui.test.onAllNodesWithContentDescription
 import com.tayra.languages.core.domain.service.MemorySpeechAudioCache
@@ -295,7 +297,13 @@ class ReadingHoverTest {
         val visited = mutableListOf<com.tayra.languages.core.ui.navigation.Route>()
         // Given its Koin outright: compositions of earlier tests can leave another one as the default.
         @Suppress("DEPRECATION")
-        rule.setContent { org.koin.compose.KoinContext(koin.koin) { ReadingScreen(bookId = 1, initialPage = null, onNavigate = { visited += it }, onHome = {}, viewModel = vm) } }
+        rule.setContent {
+            org.koin.compose.KoinContext(koin.koin) {
+                CompositionLocalProvider(LocalWindowWidth provides WindowWidth.COMPACT) {
+                    ReadingScreen(bookId = 1, initialPage = null, onNavigate = { visited += it }, onHome = {}, viewModel = vm)
+                }
+            }
+        }
         rule.waitUntil(5_000) { rule.onAllNodesWithTag("add-to-playlist").fetchSemanticsNodes().isNotEmpty() }
         rule.onNodeWithTag("add-to-playlist").performClick()
         rule.waitUntil(5_000) { rule.onAllNodesWithText("Morning Portuguese").fetchSemanticsNodes().isNotEmpty() }
@@ -363,8 +371,53 @@ class ReadingHoverTest {
         assertTrue(rule.onAllNodesWithContentDescription("Page 1 of 1").fetchSemanticsNodes().isEmpty(), "a single page has no redundant page count")
         assertTrue(rule.onAllNodesWithContentDescription("Previous page").fetchSemanticsNodes().isEmpty(), "a single page has no previous-page control")
         assertTrue(rule.onAllNodesWithContentDescription("Next page").fetchSemanticsNodes().isEmpty(), "a single page has no next-page control")
-        rule.onNodeWithContentDescription("Reader settings").assertExists()
+        assertEquals(2, rule.onAllNodesWithContentDescription("Reader settings").fetchSemanticsNodes().size, "settings stay available in the toolbar and stable action bar")
         rule.onNodeWithContentDescription("Back").assertExists()
+    }
+
+    /** Playback stays reachable in a fixed compact action bar with accessible touch targets. */
+    @Test
+    fun theCompactReaderKeepsSentencePlaybackActionsStable() {
+        val vm = runBlocking { reader(mainIsDefault = false) }
+        startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }) }
+        rule.setContent {
+            CompositionLocalProvider(LocalWindowWidth provides WindowWidth.COMPACT) {
+                ReadingScreen(bookId = 1, initialPage = null, onNavigate = {}, onHome = {}, viewModel = vm)
+            }
+        }
+
+        rule.waitUntil(5_000) { rule.onAllNodesWithContentDescription("Read the page").fetchSemanticsNodes().isNotEmpty() }
+        rule.onNodeWithContentDescription("Previous sentence").assertIsNotEnabled()
+        rule.onNodeWithContentDescription("Next sentence").assertIsEnabled()
+        for (description in listOf("Reader settings", "Previous sentence", "Read the page", "Next sentence")) {
+            val index = if (description == "Reader settings") 1 else 0
+            val control = rule.onAllNodesWithContentDescription(description)[index].getBoundsInRoot()
+            assertTrue(control.right - control.left >= 48.dp, "$description is at least 48dp wide")
+            assertTrue(control.bottom - control.top >= 48.dp, "$description is at least 48dp tall")
+        }
+        assertEquals(1, vm.state.value.pageNumber, "sentence controls do not replace page navigation")
+    }
+
+    /** Turning read-aloud controls off removes playback actions without removing reader settings. */
+    @Test
+    fun theCompactReaderRespectsTheReadAloudPreference() {
+        val vm = runBlocking {
+            reader(mainIsDefault = false).also {
+                settings.update { current -> current.copy(showSentencePlay = false) }
+            }
+        }
+        startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }) }
+        rule.setContent {
+            CompositionLocalProvider(LocalWindowWidth provides WindowWidth.COMPACT) {
+                ReadingScreen(bookId = 1, initialPage = null, onNavigate = {}, onHome = {}, viewModel = vm)
+            }
+        }
+
+        rule.waitUntil(5_000) { rule.onAllNodesWithContentDescription("Reader settings").fetchSemanticsNodes().isNotEmpty() }
+        assertEquals(1, rule.onAllNodesWithContentDescription("Reader settings").fetchSemanticsNodes().size, "only the toolbar action remains")
+        assertTrue(rule.onAllNodesWithContentDescription("Read the page").fetchSemanticsNodes().isEmpty())
+        assertTrue(rule.onAllNodesWithContentDescription("Previous sentence").fetchSemanticsNodes().isEmpty())
+        assertTrue(rule.onAllNodesWithContentDescription("Next sentence").fetchSemanticsNodes().isEmpty())
     }
 
     /** The menu's Edit section opens the whole book or the current page for editing, and adds or deletes no pages. */
