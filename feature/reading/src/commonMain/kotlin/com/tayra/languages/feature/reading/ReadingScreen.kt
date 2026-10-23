@@ -375,7 +375,7 @@ fun ReadingScreen(
             val compact = LocalWindowWidth.current.isCompact
             when {
                 state.settings.focusMode -> FocusBar(state, viewModel, onMenu = openPane)
-                compact -> ReadingHeader(state, viewModel, onMenu = openPane, onHome = leave)
+                compact -> ReadingHeader(state, onMenu = openPane, onHome = leave)
                 else -> {
                     AppTopBar(title = "Tayra Languages", onNavigate = onNavigate, section = when {
                         state.lesson != null -> NavSection.COURSES
@@ -479,23 +479,38 @@ private fun SheetHandle() {
 }
 
 @Composable
-private fun ReadingHeader(state: ReadingUiState, viewModel: ReadingViewModel, onMenu: () -> Unit, onHome: () -> Unit) {
+private fun ReadingHeader(state: ReadingUiState, onMenu: () -> Unit, onHome: () -> Unit) {
     BarSurface(raised = true) {
-        Column(Modifier.fillMaxWidth().windowInsetsPadding(WindowInsets.safeDrawing.only(WindowInsetsSides.Top)).padding(horizontal = AppSpacing.s, vertical = AppSpacing.xs)) {
-            Row(verticalAlignment = Alignment.CenterVertically) {
-                AppIconButton(Icons.Default.Settings, contentDescription = tr("Reader settings"), onClick = onMenu)
-                if (state.lesson == null && !state.news) AppIconButton(Icons.Default.Home, contentDescription = tr("Home"), onClick = onHome)
-                else AppIconButton(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = if (state.news) tr("Back to news") else tr("Back to course"), onClick = onHome)
+        Row(
+            Modifier.fillMaxWidth().windowInsetsPadding(WindowInsets.safeDrawing.only(WindowInsetsSides.Top)).padding(horizontal = AppSpacing.s, vertical = AppSpacing.xs),
+            verticalAlignment = Alignment.CenterVertically,
+        ) {
+            AppIconButton(
+                Icons.AutoMirrored.Filled.ArrowBack,
+                contentDescription = when {
+                    state.news -> tr("Back to news")
+                    state.lesson != null -> tr("Back to course")
+                    else -> tr("Back")
+                },
+                onClick = onHome,
+            )
+            Text(
+                state.book?.title.orEmpty(),
+                Modifier.weight(1f),
+                style = MaterialTheme.typography.titleMedium.copy(textDirection = if (state.language?.rightToLeft == true) TextDirection.Rtl else TextDirection.Ltr),
+                maxLines = 1,
+                overflow = TextOverflow.Ellipsis,
+            )
+            if (state.pageCount > 1) {
                 Text(
-                    state.book?.title.orEmpty(),
-                    Modifier.weight(1f),
-                    style = MaterialTheme.typography.titleMedium.copy(textDirection = if (state.language?.rightToLeft == true) TextDirection.Rtl else TextDirection.Ltr),
+                    "${state.pageNumber}/${state.pageCount}",
+                    style = MaterialTheme.typography.labelMedium,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
                     maxLines = 1,
+                    modifier = Modifier.semantics { contentDescription = tr("Page {0} of {1}", state.pageNumber, state.pageCount) },
                 )
             }
-            if (state.pageCount > 1) {
-                PageProgress(state.pageNumber, state.pageCount, viewModel::goToPage, sliderWidth = null, modifier = Modifier.fillMaxWidth().padding(horizontal = AppSpacing.s, vertical = AppSpacing.s))
-            }
+            AppIconButton(Icons.Default.Settings, contentDescription = tr("Reader settings"), onClick = onMenu)
         }
     }
 }
@@ -724,7 +739,9 @@ private fun ReadingBody(
                 lineHeight = state.settings.readingLineHeight,
                 rightToLeft = state.language?.rightToLeft == true,
                 fontFamily = ReadingFont.byId(state.settings.readingFont).fontFamily(),
-                splitSentences = state.settings.splitSentences,
+                // On a phone, sentence audio always uses ReadingText's fixed leading gutter. Letting
+                // its buttons flow inside a paragraph can split the reading text between words.
+                splitSentences = state.settings.splitSentences || (compact && state.settings.showSentencePlay),
                 readings = when {
                     !state.settings.showReadings -> emptyMap()
                     wantsZhuyin -> zhuyinReadings

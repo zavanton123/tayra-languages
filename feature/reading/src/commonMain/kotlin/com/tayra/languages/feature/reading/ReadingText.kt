@@ -110,6 +110,7 @@ import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.theme.AppAlpha
 import com.tayra.languages.core.ui.theme.AppMotion
 import com.tayra.languages.core.ui.theme.AppShapes
+import com.tayra.languages.core.ui.theme.AppSizes
 import com.tayra.languages.core.ui.theme.AppSpacing
 import com.tayra.languages.core.ui.theme.AppTheme
 import kotlin.math.roundToInt
@@ -393,13 +394,16 @@ private data class SpokenSentence(val place: Int, val text: String)
  */
 @Composable
 private fun PlayButton(place: Int?, playing: Boolean, preparing: Boolean, fontScale: Float, gap: Dp, onSpeak: (Int) -> Unit) {
-    Box(Modifier.padding(end = gap).size((PLAY_BUTTON_SIZE * fontScale).dp)) {
+    Box(Modifier.padding(end = gap).size(playButtonSize(fontScale))) {
         if (place != null) SpeakerCircle(playing, preparing, Modifier.fillMaxSize()) { onSpeak(place) }
     }
 }
 
 /** How far the text of a sentence with a play button starts from the edge. */
-private fun playGutter(fontScale: Float, gap: Dp) = (PLAY_BUTTON_SIZE * fontScale).dp + gap
+private fun playGutter(fontScale: Float, gap: Dp) = playButtonSize(fontScale) + gap
+
+/** The drawn sentence control is also its touch target, never smaller than the app's 48dp minimum. */
+private fun playButtonSize(fontScale: Float) = maxOf(AppSizes.touch, (PLAY_BUTTON_SIZE * fontScale).dp)
 
 private const val PLAY_BUTTON_SIZE = 32
 
