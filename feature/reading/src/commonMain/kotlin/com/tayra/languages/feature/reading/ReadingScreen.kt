@@ -14,6 +14,7 @@ import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.RowScope
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.WindowInsets
 import androidx.compose.foundation.layout.navigationBars
@@ -772,6 +773,21 @@ private fun ReadingBody(
         Spacer(Modifier.height(CONTROLS_ROOM))
     }
     EdgeScrollbar(scrollState)
+    if (compact && state.settings.showSentencePlay && pageSentences.isNotEmpty()) {
+        MobileReaderActions(
+            playlistBookId = state.book?.id?.takeIf { playlistPlayer != null },
+            onSettings = onMenu,
+            onPreviousSentence = continuous::previous,
+            previousEnabled = continuous.currentIndex != null && continuous.currentIndex!! > 0,
+            onPlay = continuous::toggle,
+            playing = continuous.active,
+            onNextSentence = continuous::next,
+            nextEnabled = continuous.currentIndex != pageSentences.lastIndex,
+            onNewPlaylist = onNewPlaylist,
+            onAddedToPlaylist = onAddedToPlaylist,
+            modifier = Modifier.align(Alignment.BottomCenter),
+        )
+    }
     if (!compact && !focus) {
         val settingsDescription = tr("Reader settings")
         // The tooltip does not pass the alignment on to the screen's box, so a box of its own takes the corner.
@@ -787,7 +803,7 @@ private fun ReadingBody(
             }
         }
     }
-    if (state.settings.showSentencePlay && pageSentences.isNotEmpty()) {
+    if (!compact && state.settings.showSentencePlay && pageSentences.isNotEmpty()) {
         ContinuousControls(
             bookId = state.book?.id?.takeIf { playlistPlayer != null },
             onNewPlaylist = onNewPlaylist,
@@ -803,10 +819,101 @@ private fun ReadingBody(
     }
 }
 
+/** Phone controls stay in one place above the safe bottom while the page scrolls behind them. */
+@Composable
+private fun MobileReaderActions(
+    playlistBookId: Long?,
+    onSettings: () -> Unit,
+    onPreviousSentence: () -> Unit,
+    previousEnabled: Boolean,
+    onPlay: () -> Unit,
+    playing: Boolean,
+    onNextSentence: () -> Unit,
+    nextEnabled: Boolean,
+    onNewPlaylist: () -> Unit,
+    onAddedToPlaylist: (String) -> Unit,
+    modifier: Modifier = Modifier,
+) {
+    val colors = MaterialTheme.colorScheme
+    Row(
+        modifier.fillMaxWidth().padding(horizontal = AppSpacing.l, vertical = AppSpacing.m)
+            .shadow(AppElevation.raised, AppShapes.card).clip(AppShapes.card)
+            .background(colors.surface).border(AppBorders.hairline(), AppShapes.card)
+            .height(MOBILE_ACTION_BAR_HEIGHT).padding(horizontal = AppSpacing.s),
+        verticalAlignment = Alignment.CenterVertically,
+    ) {
+        MobileActionSlot {
+            MobileReaderButton(Icons.Default.Settings, tr("Reader settings"), onSettings)
+        }
+        MobileActionSlot {
+            MobileReaderButton(AppIcons.SkipPrevious, tr("Previous sentence"), onPreviousSentence, enabled = previousEnabled)
+        }
+        MobileActionSlot {
+            MobileReaderButton(
+                if (playing) AppIcons.Pause else AppIcons.PlayArrow,
+                if (playing) tr("Pause reading") else tr("Read the page"),
+                onPlay,
+                primary = true,
+                size = MOBILE_PLAY_SIZE,
+            )
+        }
+        MobileActionSlot {
+            MobileReaderButton(AppIcons.SkipNext, tr("Next sentence"), onNextSentence, enabled = nextEnabled)
+        }
+        if (playlistBookId != null) {
+            MobileActionSlot {
+                AddToPlaylistButton(
+                    playlistBookId,
+                    MOBILE_ACTION_SIZE,
+                    onCreate = onNewPlaylist,
+                    onAdded = onAddedToPlaylist,
+                )
+            }
+        } else {
+            // Keeps play centred when this build has no playlist player.
+            MobileActionSlot {}
+        }
+    }
+}
+
+@Composable
+private fun RowScope.MobileActionSlot(content: @Composable () -> Unit) {
+    Box(Modifier.weight(1f), contentAlignment = Alignment.Center) { content() }
+}
+
+@Composable
+private fun MobileReaderButton(
+    icon: ImageVector,
+    description: String,
+    onClick: () -> Unit,
+    enabled: Boolean = true,
+    primary: Boolean = false,
+    size: Dp = MOBILE_ACTION_SIZE,
+) {
+    val colors = MaterialTheme.colorScheme
+    val background = if (primary) colors.primary else Color.Transparent
+    val foreground = when {
+        !enabled -> colors.onSurface.copy(alpha = AppAlpha.disabled)
+        primary -> colors.onPrimary
+        else -> colors.onSurfaceVariant
+    }
+    Box(
+        Modifier.size(size).clip(AppShapes.circle).background(background)
+            .clickable(enabled = enabled, onClick = onClick)
+            .semantics { contentDescription = description },
+        contentAlignment = Alignment.Center,
+    ) {
+        Icon(icon, contentDescription = null, tint = foreground, modifier = Modifier.size(if (primary) AppSizes.iconXLarge else AppSizes.iconLarge))
+    }
+}
+
 /** The small round buttons beside the play button share one size. */
 private val CONTROL_SIZE = 40.dp
 private val PLAY_CONTROL_SIZE = 60.dp
 private val FOOTER_CONTROL_SIZE = 52.dp
+private val MOBILE_ACTION_SIZE = 48.dp
+private val MOBILE_PLAY_SIZE = 60.dp
+private val MOBILE_ACTION_BAR_HEIGHT = 76.dp
 /** How much of the well-known green the mark-known circle takes, over the surface. */
 private const val KNOWN_CIRCLE_TINT = 0.6f
 
