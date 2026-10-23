@@ -1800,3 +1800,13 @@ OVERRIDES["bs"] = {
 }
 EXCLUDE["bs"] = set(EXCLUDE["hr"])
 DISPLAY["bs"] = dict(DISPLAY["hr"])
+
+# Slovene nouns simplemma gives to verbs (črta "line" to črtati, postava "figure" to postavati, žene "wives" to gnati),
+# postavi of postaviti, nje "her", ona's, and vrat "neck", which the pack files under vrata "door" as well, and the adverb
+# namenoma "on purpose".
+OVERRIDES["sl"].update({**{f: ["črta"] for f in ("črta", "črto", "črte", "črti", "črt", "črtah", "črtam", "črtami", "črtama")},
+                        **{f: ["postava"] for f in ("postava", "postavo", "postave")}, "postavi": ["postaviti"], "nje": ["ona"],
+                        "žene": ["žena"], "ženi": ["žena"], "vrat": ["vrat"], "namenoma": ["namenoma"],
+                        # s and h are z and k before the consonants that take them (s psom, h kosilu); the pack files s
+                        # under a gloss.
+                        "s": ["z"], "h": ["k"]})

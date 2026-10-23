@@ -112,6 +112,8 @@ SOURCE_ORDER["ro"] = ["wordfreq", "frequencywords"]
 SOURCE_ORDER["sk"] = ["wordfreq", "frequencywords"]
 # And Bulgarian, whose list was first built from them.
 SOURCE_ORDER["bg"] = ["wordfreq", "frequencywords"]
+# And Slovene, whose shipped list was.
+SOURCE_ORDER["sl"] = ["wordfreq", "frequencywords"]
 # Languages whose sources are all blended, however many forms the first has.
 BLEND = {"ko"}
 # Galician is counted from subtitles alone, as its list was first built (wordfreq has no Galician, and the Wikipedia
@@ -219,6 +221,10 @@ JA_STEM_SHARE = 0.02
 # by the related-kanji rule; filled by load_dictionary.
 JA_READINGS = {}
 JA_ORPHANS = set()
+# The Slovene forms the pack files under a name (maja of Maj); see load_dictionary.
+SLOVENE_NAMED = set()
+# The kinds of word no Slovene verb's present form is taken from (meni of jaz, laže of lahko); see slovene_present.
+SLOVENE_LITTLE = {"pron", "conj", "prep", "adv", "particle", "det", "num", "intj"}
 
 
 def ja_stem_words(form):
@@ -1324,6 +1330,12 @@ def romanian_kinds(db, lemmas):
     return kinds
 
 
+def slovene_unstressed(text):
+    """A Slovene word without the stress and tone marks dictionaries give it (imẹ́ti, bȋł, səm: imeti, bil, sem)."""
+    bare = "".join(c for c in unicodedata.normalize("NFD", text) if unicodedata.category(c) != "Mn" or c == "\u030c")
+    return unicodedata.normalize("NFC", bare).replace("ł", "l").replace("ə", "e")
+
+
 def is_wordlike(text):
     """Letters, hyphens and apostrophes; and the vowel signs and other marks of the scripts that write them apart."""
     return all(c.isalpha() or unicodedata.category(c)[0] == "M" or c in "-'ʻ\u200c" for c in text)
@@ -1626,10 +1638,19 @@ def load_dictionary(language):
     for form_lc, lemma in db.execute("SELECT form_lc, lemma FROM forms"):
         if "deprecated in the spelling reform" in lemma:
             outdated.add(form_lc)
+        # The Slovene pack files the forms of thousands of names, which lowercased are common words' or stand for them:
+        # roke and roki of Rok (not rok "deadline", but roka "hand"), vidi of Vid (videti "sees"), maja of Maj. They are
+        # left out, and a form they alone were filed under is simplemma's to place (SLOVENE_NAMED).
+        if language == "sl" and lemma != lower(language, lemma):
+            SLOVENE_NAMED.add(form_lc)
+            continue
         lemma = lower(language, lemma)
         if language == "bg":
             # Some of the pack's links name the word with its stress mark (къщата of къ́ща).
             lemma = BULGARIAN_REFLEXIVE.sub("", lemma.replace("\u0301", ""))
+        # Some of its forms name their word with stress marks (imel of imẹ́ti, pil of píti), which no headword has.
+        if language == "sl":
+            lemma = slovene_unstressed(lemma)
         if is_wordlike(lemma):
             lemmas[form_lc].append(lemma)
     # A Korean verb's form the pack files under other verbs too (가는 of 가다, 갈다 and 가늘다) goes as its forms table says.
@@ -2331,6 +2352,9 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
             # A Croatian infinitive is no other verb's form, as the dictionary files aspect partners (dolaziti of doći).
             if language in ("hr", "bs") and croatian_infinitive(form):
                 others = [l for l in others if "verb" not in pos.get(l, set()) or croatian_variant(form, l)]
+            if language == "sl" and not others and form in SLOVENE_NAMED and not lemmas.get(form) and not is_word(form):
+                word = guess(form)
+                return {word: 1.0} if word else {}
             # A simplified word whose traditional entries are all variant spellings (哪里 of 哪裏) goes to the
             # spelling Taiwan writes (哪裡), when that is a word.
             if language in ("zh", "yue") and not others and not is_word(form):
@@ -2497,6 +2521,29 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
             return None
         return noun if weight(noun) >= weight(form) else None
 
+    def slovene_verb(word):
+        """Whether a Slovene word is a verb, by the dictionary or by its infinitive's ending (simplemma's words have no kind)."""
+        return "verb" in pos.get(word, set()) or word.endswith(("ti", "či"))
+
+    def slovene_present(form, shares):
+        """
+        A Slovene verb's present third person (and imperative) is spelled as a noun's case often (misli "thinks" and
+        "thoughts", pozabi, kupi, sledi), and simplemma gives it to the noun. It goes to the verb whose first and second
+        persons it spells with -m and -š (mislim, misliš) for as much as those are common against it, the noun keeping
+        the rest: leti stays leto's, igra mostly igra's, prosi and upa are the verbs'.
+        """
+        if not shares or form in overrides or not form.endswith(("a", "e", "i")) or any(
+                slovene_verb(l) or pos.get(l, set()) & SLOVENE_LITTLE for l in shares):
+            return shares
+        first, second = direct(form + "m"), direct(form + "š")
+        verbs = [v for v in first if slovene_verb(v) and first[v] >= 0.5 and second.get(v, 0.0) >= 0.5]
+        if len(verbs) != 1 or not count(form):
+            return shares
+        part = min(1.0, (count(form + "m") + count(form + "š")) / count(form))
+        out = {l: share * (1.0 - part) for l, share in shares.items()}
+        out[verbs[0]] = out.get(verbs[0], 0.0) + part
+        return {l: share for l, share in out.items() if share > 0.0}
+
     resolved = {}
 
     def targets_of(form, depth=0):
@@ -2504,7 +2551,10 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
         if form in resolved:
             return resolved[form]
         result = defaultdict(float)
-        for word, part in direct(form).items():
+        shares = direct(form)
+        if language == "sl":
+            shares = slovene_present(form, shares)
+        for word, part in shares.items():
             if word != form and depth < 3:
                 onward = targets_of(word, depth + 1)
                 # An Arabic word spelled as another's verb form keeps its own forms (يتكون of تكون, not of كان), and a verb
