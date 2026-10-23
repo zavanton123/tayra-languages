@@ -80,6 +80,13 @@ fun PlayerBar(onNavigate: (Route) -> Unit, onPlayerScreen: Boolean, viewModel: P
 
 @Composable
 private fun NowPlayingTitle(state: PlayerUiState, modifier: Modifier, onOpen: (() -> Unit)?) {
+    if (onOpen == null) NowPlayingTitleRow(state, modifier, null)
+    // The tooltip does not pass a weight on, so the box carries it.
+    else Box(modifier) { AppTooltip(tr("Open the player")) { NowPlayingTitleRow(state, Modifier.fillMaxWidth(), onOpen) } }
+}
+
+@Composable
+private fun NowPlayingTitleRow(state: PlayerUiState, modifier: Modifier, onOpen: (() -> Unit)?) {
     val colors = MaterialTheme.colorScheme
     val p = state.player
     Row(
@@ -101,7 +108,7 @@ private fun MiniBar(state: PlayerUiState, viewModel: PlayerViewModel, onOpen: ()
     Row(Modifier.fillMaxWidth().padding(horizontal = AppSpacing.m, vertical = AppSpacing.s), verticalAlignment = Alignment.CenterVertically) {
         NowPlayingTitle(state, Modifier.weight(1f).testTag("open-player"), onOpen)
         PlayPauseButton(state, viewModel, IconButtonSize.Regular)
-        AppIconButton(AppIcons.SkipNext, contentDescription = tr("Next text"), onClick = viewModel.player::next, enabled = p.hasNext)
+        Tip(tr("Next text")) { AppIconButton(AppIcons.SkipNext, contentDescription = it, onClick = viewModel.player::next, enabled = p.hasNext) }
         CloseButton(viewModel)
     }
 }
@@ -138,43 +145,54 @@ internal fun PlayerControls(state: PlayerUiState, viewModel: PlayerViewModel, mo
     val player = viewModel.player
     val buttons: @Composable () -> Unit = {
         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
-            AppIconButton(AppIcons.Shuffle, contentDescription = if (p.shuffle) tr("Shuffle on") else tr("Shuffle off"), onClick = { player.setShuffle(!p.shuffle) }, selected = p.shuffle, tint = if (p.shuffle) colors.primary else null, modifier = Modifier.testTag("shuffle"))
-            AppIconButton(AppIcons.SkipPrevious, contentDescription = tr("Previous text"), onClick = player::previous, tint = colors.primary, modifier = Modifier.testTag("bar-previous"))
+            Tip(if (p.shuffle) tr("Shuffle on") else tr("Shuffle off")) {
+                AppIconButton(AppIcons.Shuffle, contentDescription = it, onClick = { player.setShuffle(!p.shuffle) }, selected = p.shuffle, tint = if (p.shuffle) colors.primary else null, modifier = Modifier.testTag("shuffle"))
+            }
+            Tip(tr("Previous text")) { AppIconButton(AppIcons.SkipPrevious, contentDescription = it, onClick = player::previous, tint = colors.primary, modifier = Modifier.testTag("bar-previous")) }
             PlayPauseButton(state, viewModel, IconButtonSize.Large)
-            AppIconButton(AppIcons.SkipNext, contentDescription = tr("Next text"), onClick = player::next, enabled = p.hasNext, tint = colors.primary, modifier = Modifier.testTag("bar-next"))
-            AppIconButton(
-                if (p.repeat == RepeatMode.ONE) AppIcons.RepeatOne else AppIcons.Repeat,
-                contentDescription = when (p.repeat) {
-                    RepeatMode.OFF -> tr("Repeat off")
-                    RepeatMode.ALL -> tr("Repeat the playlist")
-                    RepeatMode.ONE -> tr("Repeat the text")
-                },
-                onClick = viewModel::cycleRepeat,
-                selected = p.repeat != RepeatMode.OFF,
-                tint = if (p.repeat != RepeatMode.OFF) colors.primary else null,
-                modifier = Modifier.testTag("repeat"),
-            )
+            Tip(tr("Next text")) { AppIconButton(AppIcons.SkipNext, contentDescription = it, onClick = player::next, enabled = p.hasNext, tint = colors.primary, modifier = Modifier.testTag("bar-next")) }
+            val repeat = when (p.repeat) {
+                RepeatMode.OFF -> tr("Repeat off")
+                RepeatMode.ALL -> tr("Repeat the playlist")
+                RepeatMode.ONE -> tr("Repeat the text")
+            }
+            Tip(repeat) {
+                AppIconButton(
+                    if (p.repeat == RepeatMode.ONE) AppIcons.RepeatOne else AppIcons.Repeat,
+                    contentDescription = it,
+                    onClick = viewModel::cycleRepeat,
+                    selected = p.repeat != RepeatMode.OFF,
+                    tint = if (p.repeat != RepeatMode.OFF) colors.primary else null,
+                    modifier = Modifier.testTag("repeat"),
+                )
+            }
         }
     }
     val seek: @Composable (Modifier) -> Unit = { m ->
         var dragging by remember { mutableStateOf<Float?>(null) }
         Row(m, verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
             Text(clockTime(state.elapsed), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
-            AppSlider(
-                value = dragging ?: p.textProgress,
-                onValueChange = { dragging = it },
-                valueRange = 0f..1f,
-                onValueChangeFinished = { dragging?.let(player::seek); dragging = null },
-                modifier = Modifier.weight(1f).testTag("seek"),
-            )
+            Box(Modifier.weight(1f)) {
+                AppTooltip(tr("Position in the text")) {
+                    AppSlider(
+                        value = dragging ?: p.textProgress,
+                        onValueChange = { dragging = it },
+                        valueRange = 0f..1f,
+                        onValueChangeFinished = { dragging?.let(player::seek); dragging = null },
+                        modifier = Modifier.fillMaxWidth().testTag("seek"),
+                    )
+                }
+            }
             Text(clockTime(state.total), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
-            SelectMenu(
-                PlayerViewModel.SPEEDS,
-                PlayerViewModel.SPEEDS.minByOrNull { kotlin.math.abs(it - state.speed) },
-                onSelect = player::setSpeed,
-                optionLabel = ::speedLabel,
-                buttonModifier = Modifier.testTag("speed"),
-            )
+            AppTooltip(tr("Playback speed")) {
+                SelectMenu(
+                    PlayerViewModel.SPEEDS,
+                    PlayerViewModel.SPEEDS.minByOrNull { kotlin.math.abs(it - state.speed) },
+                    onSelect = player::setSpeed,
+                    optionLabel = ::speedLabel,
+                    buttonModifier = Modifier.testTag("speed"),
+                )
+            }
         }
     }
     if (wide) {
@@ -200,23 +218,32 @@ internal fun speedLabel(speed: Float): String {
 private fun PlayPauseButton(state: PlayerUiState, viewModel: PlayerViewModel, size: IconButtonSize) {
     val p = state.player
     val complete = p.status == PlayerStatus.COMPLETE
-    AppIconButton(
-        when {
-            complete -> AppIcons.Replay
-            p.isPlaying -> AppIcons.Pause
-            else -> AppIcons.PlayArrow
-        },
-        contentDescription = when {
-            complete -> tr("Play again")
-            p.isPlaying -> tr("Pause")
-            else -> tr("Play")
-        },
-        onClick = viewModel.player::toggle,
-        size = size,
-        style = IconButtonStyle.Filled,
-        loading = p.status == PlayerStatus.LOADING,
-        modifier = Modifier.testTag("play-pause"),
-    )
+    val label = when {
+        complete -> tr("Play again")
+        p.isPlaying -> tr("Pause")
+        else -> tr("Play")
+    }
+    Tip(label) {
+        AppIconButton(
+            when {
+                complete -> AppIcons.Replay
+                p.isPlaying -> AppIcons.Pause
+                else -> AppIcons.PlayArrow
+            },
+            contentDescription = it,
+            onClick = viewModel.player::toggle,
+            size = size,
+            style = IconButtonStyle.Filled,
+            loading = p.status == PlayerStatus.LOADING,
+            modifier = Modifier.testTag("play-pause"),
+        )
+    }
+}
+
+/** A control with its [label] as both its tooltip and what a screen reader says. */
+@Composable
+private fun Tip(label: String, control: @Composable (String) -> Unit) {
+    AppTooltip(label) { control(label) }
 }
 
 /**

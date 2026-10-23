@@ -92,6 +92,7 @@ internal val frPlaylists: Map<String, String> = mapOf(
     "Create new playlist" to "Créer une nouvelle playlist",
     "Added to {0}" to "Ajouté à « {0} »",
     "Open the player" to "Ouvrir la lecture en cours",
+    "Position in the text" to "Position dans le texte",
     "Close player" to "Fermer la lecture en cours",
     "Shuffle on" to "Lecture aléatoire activée",
     "Shuffle off" to "Lecture aléatoire désactivée",

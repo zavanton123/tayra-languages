@@ -12,6 +12,7 @@ import androidx.compose.ui.test.ExperimentalTestApi
 import androidx.compose.ui.test.hasTestTag
 import androidx.compose.ui.test.hasText
 import androidx.compose.ui.test.onAllNodesWithTag
+import androidx.compose.ui.test.performMouseInput
 import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.performClick
@@ -172,6 +173,26 @@ class PlayerScreensTest {
         data.player.play(id)
         waitUntil(timeoutMillis = 5_000) { onAllNodes(hasTestTag("player-bar")).fetchSemanticsNodes().isNotEmpty() }
         until { data.player.state.value.sentence == 1 && data.player.state.value.status == PlayerStatus.PLAYING }
+    }
+
+    @Test
+    fun theWideBarsControlsNameThemselvesOnHover() = runDesktopComposeUiTest(width = 1586, height = 300) {
+        playing()
+        until { data.output.done != null }
+        val viewModel = viewModel()
+        host(data) {
+            Column(Modifier.fillMaxSize()) {
+                Box(Modifier.weight(1f))
+                PlayerBar(onNavigate = {}, onPlayerScreen = false, viewModel = viewModel)
+            }
+        }
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Morning Portuguese")).fetchSemanticsNodes().isNotEmpty() }
+        for ((tag, tip) in listOf("shuffle" to "Shuffle off", "bar-previous" to "Previous text", "bar-next" to "Next text", "repeat" to "Repeat off", "seek" to "Position in the text", "speed" to "Playback speed", "close-player" to "Close player")) {
+            onNodeWithTag(tag).performMouseInput { moveTo(center) }
+            waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText(tip)).fetchSemanticsNodes().isNotEmpty() }
+            if (tag == "seek") screenshot("player-bar-tooltip")
+            onNodeWithTag(tag).performMouseInput { exit() }
+        }
     }
 
     @Test

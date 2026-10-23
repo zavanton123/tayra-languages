@@ -92,6 +92,7 @@ internal val dePlaylists: Map<String, String> = mapOf(
     "Create new playlist" to "Neue Playlist erstellen",
     "Added to {0}" to "Zu „{0}“ hinzugefügt",
     "Open the player" to "Player öffnen",
+    "Position in the text" to "Stelle im Text",
     "Close player" to "Player schließen",
     "Shuffle on" to "Zufallswiedergabe an",
     "Shuffle off" to "Zufallswiedergabe aus",

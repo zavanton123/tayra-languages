@@ -92,6 +92,7 @@ internal val elPlaylists: Map<String, String> = mapOf(
     "Create new playlist" to "Δημιουργία νέας λίστας αναπαραγωγής",
     "Added to {0}" to "Προστέθηκε στη λίστα «{0}»",
     "Open the player" to "Άνοιγμα προγράμματος αναπαραγωγής",
+    "Position in the text" to "Θέση στο κείμενο",
     "Close player" to "Κλείσιμο προγράμματος αναπαραγωγής",
     "Shuffle on" to "Τυχαία αναπαραγωγή ενεργή",
     "Shuffle off" to "Τυχαία αναπαραγωγή ανενεργή",
