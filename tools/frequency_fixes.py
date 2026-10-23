@@ -1694,10 +1694,10 @@ OVERRIDES["ko"].update({"누구세요": ["누구"], "어디세요": ["어디"]})
 # counts say (build_arabic): the list has the first, by which the reader keeps them whole, and leaves out the second.
 ARABIC_WHOLE = {
     "الله", "اللهم", "لله", "اليوم", "الآن", "الان", "الليلة", "اللي", "لقد", "لأن", "لان", "لكي", "لذا", "لذلك", "كذلك",
-    "لما", "بدون", "كلا", "لماذا", "لدى", "كأن",
+    "لما", "بدون", "كلا", "لماذا", "لدى", "كأن", "وحد", "وفيت",
 }
 ARABIC_CUT = {
-    "ولكن",
+    "ولكن", "ووفيت",
 }
 # Names, the stems of names written with ال (صين of الصين, which then stays whole), foreign and dialect words.
 EXCLUDE.setdefault("ar", set()).update({
@@ -1727,6 +1727,15 @@ OVERRIDES["ar"].update({"طيبة": ["طيب"], "سيئة": ["سيئ"], "كلا�
 # Names spelled as forms of a word the rules now list: لبنان, the dual of لبن "milk", counts for nothing, ألبانيا for
 # ألباني; and أنتي is أنت misspelt, not أنة's.
 OVERRIDES["ar"].update({"لبنان": [], "ألبانيا": ["ألباني"], "الباني": ["ألباني"], "أنتي": ["أنت"], "انتي": ["أنت"]})
+# Words of their own spelled as another's form: بدا "to seem" (بدأ "to begin" without its hamza), تحدث "to talk" (حدث's
+# present), مالي "financial" and داخلي "internal" (not "my money", "my inside"), لعب "to play" and لعبة "game" (each the
+# other's form to wty), أخبر "to tell" (خبر's first person).
+OVERRIDES["ar"].update({w: [w] for w in ("بدا", "تحدث", "مالي", "داخلي", "لعب", "لعبة", "أخبر")})
+# امرأة loses its alif after the article (المرأة, of مرأة); وحد "by oneself" is written with a pronoun (وحده, وحدها), and
+# وحده is no وحدة misspelt.
+OVERRIDES["ar"].update({"مرأة": ["امرأة"], "وحده": ["وحد"]})
+# Duals the dictionary has as words of their own: نقطتان "colon" and مرتين "twice" are mostly "two points", "two times".
+OVERRIDES["ar"].update({"نقطتان": ["نقطة"], "مرتين": ["مرة"]})
 
 # Slovak verbs in ne- that are words of their own, not a verb negated: "hate", "can't stand".
 SLOVAK_NEGATIVE_VERBS = {"nenávidieť", "neznášať"}

@@ -1234,7 +1234,8 @@ def arabic_tokens(text, ranks, names=frozenset()):
             elif piece in fl.ARABIC_CLITICS:
                 out.append(KNOWN)
             else:
-                out.append(next((b for b in fl.arabic_bases(piece) if b in ranks), piece))
+                # The commonest word it can be with a pronoun after it (غرفتهما is غرفة's, not غرفت's).
+                out.append(min((b for b in fl.arabic_bases(piece) if b in ranks), key=ranks.get, default=piece))
     return out
 
 
