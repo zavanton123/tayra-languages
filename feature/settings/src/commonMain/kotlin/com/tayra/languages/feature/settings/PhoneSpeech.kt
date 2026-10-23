@@ -156,7 +156,7 @@ internal fun PhoneSpeechScreen(
                 PlaySample(viewModel, learning)
             }
             if (engine != null && packages.isNotEmpty()) {
-                if (packages.size == 1) PhoneModelCard(viewModel, engine, packages.single())
+                if (packages.all { it.languageCode == null }) packages.forEach { PhoneModelCard(viewModel, engine, it) }
                 else PhoneVoices(viewModel, packages, learning)
             }
             if (engine != null && engine.hasRuntimeSetup) AdvancedRow(viewModel, engine)
@@ -238,7 +238,7 @@ private fun PhoneModelCard(viewModel: SpeechViewModel, engine: LocalSpeechEngine
     val busy = pkg.id in packageBusy
     val voiceCount = Regex("""(\d+) voices""").find(pkg.title)?.groupValues?.get(1)
     ContentCard(tr("Voice model"), subtitle = null, icon = AppIcons.Download, dense = true, headerExtra = { if (pkg.installed) Tag(tr("Installed"), StatusTints.ok) else Tag(tr("Not downloaded"), StatusTints.warning) }) {
-        Text(tr("{0} voice model", engine.displayName), style = AppText.itemTitle)
+        Text(modelTitle(engine, pkg), style = AppText.itemTitle)
         Text(
             listOfNotNull(voiceCount?.let { trPlural(it.toInt(), "{0} voice", "{0} voices") }, pkg.sizeBytes.takeIf { it > 0 }?.let(::formatSize)).joinToString(" · "),
             style = MaterialTheme.typography.bodyMedium,

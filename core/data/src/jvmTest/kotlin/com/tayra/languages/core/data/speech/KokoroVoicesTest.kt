@@ -18,12 +18,14 @@ class KokoroVoicesTest {
             "zm_yunyang,em_santa"
         ).split(',')
 
-    private class FakeRuntime(files: List<String>) : SherpaRuntime {
-        val folders = mapOf("/tts/kokoro/kokoro-v1.0" to files)
+    private class FakeRuntime(files: List<String>, val folders: MutableMap<String, List<String>> = mutableMapOf("/tts/kokoro/kokoro-v1.0" to files)) : SherpaRuntime {
+        val installed = mutableListOf<Pair<String, String>>()
         val requests = mutableListOf<SherpaRequest>()
         override fun folder(engine: String) = "/tts/$engine"
         override fun list(path: String) = folders[path]
-        override suspend fun installArchive(url: String, destination: String, onDownload: (Long, Long) -> Unit, onUnpack: () -> Unit) = Unit
+        override suspend fun installArchive(url: String, destination: String, onDownload: (Long, Long) -> Unit, onUnpack: () -> Unit) {
+            installed += url to destination
+        }
         override suspend fun delete(path: String) = Unit
         override suspend fun synthesize(request: SherpaRequest): ByteArray = ByteArray(0).also { requests += request }
     }
@@ -66,8 +68,10 @@ class KokoroVoicesTest {
         val engine = SherpaKokoroEngine(FakeRuntime(modelFiles))
         val counts = listOf("en", "es", "fr", "hi", "it", "ja", "pt", "zh").associateWith { engine.voices(it).size }
         assertEquals(mapOf("en" to 27, "es" to 2, "fr" to 1, "hi" to 4, "it" to 2, "ja" to 0, "pt" to 2, "zh" to 8), counts)
-        val pkg = engine.packages().single()
+        val (pkg, full) = engine.packages()
         assertEquals("Kokoro model with 46 voices", pkg.title)
+        assertEquals("Kokoro full model with 46 voices", full.title)
+        assertTrue(pkg.installed && !full.installed)
         assertEquals(setOf("en", "es", "fr", "it", "pt", "hi", "zh"), pkg.group.split(", ").map { LanguageCodes.codeFor(it) }.toSet())
         assertEquals(listOf("hf_alpha", "hf_beta", "hm_omega", "hm_psi"), engine.packageVoices(pkg.id, "hi").map { it.id })
     }
@@ -88,5 +92,22 @@ class KokoroVoicesTest {
         assertEquals("hi", hindi.lang)
         assertEquals("", hindi.ruleFsts, "the Chinese number rules would turn other languages' numbers into characters")
         assertTrue(chinese.key != hindi.key, "each reader configuration loads its own engine")
+    }
+
+    @Test
+    fun theFullModelIsDownloadedBesideTheCompactOneAndSpeaksFirst() = runTest {
+        val runtime = FakeRuntime(modelFiles)
+        val engine = SherpaKokoroEngine(runtime)
+        val full = engine.packages().last()
+        engine.installPackage(full.id)
+        assertEquals("https://github.com/k2-fsa/sherpa-onnx/releases/download/tts-models/kokoro-multi-lang-v1_0.tar.bz2" to "/tts/kokoro/kokoro-v1.0-full", runtime.installed.single())
+
+        engine.synthesize("Hello.", "en", null, 1f)
+        runtime.folders["/tts/kokoro/kokoro-v1.0-full"] = modelFiles.map { if (it == "model.int8.onnx") "model.onnx" else it }
+        engine.synthesize("Hello.", "en", null, 1f)
+        val (compact, fullModel) = runtime.requests
+        assertEquals("/tts/kokoro/kokoro-v1.0/model.int8.onnx", compact.model)
+        assertEquals("/tts/kokoro/kokoro-v1.0-full/model.onnx", fullModel.model)
+        assertTrue(compact.key != fullModel.key, "switching models loads the other one")
     }
 }

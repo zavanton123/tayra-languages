@@ -249,7 +249,8 @@ fun SpeechScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: Spe
                 VoiceCard(settings, viewModel, engine, learning, voices)
             }
             if (engine != null && packages.isNotEmpty()) {
-                if (packages.size == 1) ModelCard(viewModel, engine, packages.single(), settings, learning, voices)
+                // A model with all its voices (Kokoro) comes as one download or two, compact and full.
+                if (packages.all { it.languageCode == null }) packages.forEach { ModelCard(viewModel, engine, it, settings, learning, voices) }
                 else VoicesCard(viewModel, engine, packages, settings, learning, voices)
             }
         }
@@ -515,7 +516,7 @@ private fun ModelCard(
                 IconTile(AppIcons.Storage, size = 44, tint = StatusTints.ok)
                 Spacer(Modifier.width(AppSpacing.l))
                 Column(Modifier.weight(1f)) {
-                    Text(tr("{0} voice model", engine.displayName), style = AppText.itemTitle)
+                    Text(modelTitle(engine, pkg), style = AppText.itemTitle)
                     Text(
                         listOfNotNull(voiceCount?.let { trPlural(it.toInt(), "{0} voice", "{0} voices") }, pkg.sizeBytes.takeIf { it > 0 }?.let(::formatSize)).joinToString(" · "),
                         style = MaterialTheme.typography.bodySmall,
@@ -729,3 +730,7 @@ internal fun localizedVoiceName(name: String): String {
     return "${name.substring(0, open)} ($details)"
 }
 
+/** "Kokoro voice model", or "Kokoro full model" for the full copy beside a compact one. */
+@Composable
+internal fun modelTitle(engine: LocalSpeechEngine, pkg: SpeechPackage): String =
+    if (pkg.id.endsWith("-full")) tr("{0} full model", engine.displayName) else tr("{0} voice model", engine.displayName)
