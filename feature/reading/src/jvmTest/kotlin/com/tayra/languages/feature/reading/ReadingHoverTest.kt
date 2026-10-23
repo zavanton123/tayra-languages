@@ -68,6 +68,7 @@ import com.tayra.languages.core.domain.dictionary.DictionaryPack
 import com.tayra.languages.core.domain.dictionary.DictionaryPackStore
 import com.tayra.languages.feature.terms.form.TermFormViewModel
 import com.tayra.languages.feature.terms.form.TermFormKey
+import com.tayra.languages.feature.terms.examples.ExamplesSearchViewModel
 import androidx.compose.ui.test.click
 import androidx.compose.ui.test.assertTextContains
 import androidx.compose.ui.test.assertTextEquals
@@ -118,6 +119,8 @@ class ReadingHoverTest {
 
     /** The reader's prepared sentence audio, shared with the screen's speaker through Koin. */
     private lateinit var sentenceAudio: SentenceAudio
+    private lateinit var languageRepository: LanguageRepositoryImpl
+    private lateinit var examplesProvider: ExampleSentencesProvider
 
     /** What the term pane needs when a click opens it on the real screen. */
     private lateinit var termPane: org.koin.core.module.Module
@@ -146,7 +149,7 @@ class ReadingHoverTest {
     ): ReadingViewModel {
         if (mainIsDefault) Dispatchers.setMain(Dispatchers.Default)
         val provider = DatabaseProvider(DatabaseDriverFactory(File.createTempFile("tayra-hover", ".db").also { it.delete() })).also { this.provider = it }
-        val languages = LanguageRepositoryImpl(provider)
+        val languages = LanguageRepositoryImpl(provider).also { languageRepository = it }
         val books = BookRepositoryImpl(provider)
         val terms = TermRepositoryImpl(provider)
         termRepository = terms
@@ -165,6 +168,11 @@ class ReadingHoverTest {
             override suspend fun lookup(dictionary: DictionaryId, text: String) = error("not installed")
         }
         val words = WordTranslationService(terms, offline, engine, settings)
+        val noExamples = object : ExampleSentencesProvider {
+            override suspend fun search(query: ExampleSearchQuery) = ExampleSearchResult.EMPTY
+            override suspend fun nextPage(nextPage: String, targetLanguage: String) = ExampleSearchResult.EMPTY
+        }
+        examplesProvider = examples ?: noExamples
         termPane = module {
             single { words }
             single { ExampleRecordings(KtorRecordingFetcher(createHttpClient()), MemorySpeechAudioCache()) }
@@ -180,13 +188,10 @@ class ReadingHoverTest {
                     override suspend fun lemmas(dictionary: DictionaryId, formLc: String) = emptyList<String>()
                     override suspend fun close(dictionary: DictionaryId) {}
                 }
-                val noExamples = object : ExampleSentencesProvider {
-                    override suspend fun search(query: ExampleSearchQuery) = ExampleSearchResult.EMPTY
-                    override suspend fun nextPage(nextPage: String, targetLanguage: String) = ExampleSearchResult.EMPTY
-                }
                 val dictionaries = DictionaryService(noPacks, noEntries)
-                TermFormViewModel(key, termService, terms, languages, settings, engine, examples ?: noExamples, dictionaries, dictionaries)
+                TermFormViewModel(key, termService, terms, languages, settings, engine, examplesProvider, dictionaries, dictionaries)
             }
+            viewModel { (id: Long, text: String) -> ExamplesSearchViewModel(id, text, languageRepository, settings, examplesProvider) }
         }
         sentenceAudio = SentenceAudio(speech, settings, MemorySpeechAudioCache())
         val vm = ReadingViewModel(
@@ -970,8 +975,13 @@ class ReadingHoverTest {
             advanceEventTime(120)
             release()
         }
-        rule.waitUntil(5_000) { visited.isNotEmpty() }
-        assertEquals(listOf<com.tayra.languages.core.ui.navigation.Route>(com.tayra.languages.core.ui.navigation.Route.Examples(languageId, "lobo")), visited)
+        rule.waitUntil(5_000) { rule.onAllNodesWithTag("examples-dialog").fetchSemanticsNodes().isNotEmpty() }
+        rule.onNodeWithText("Examples for ‘lobo’").assertExists()
+        assertEquals(emptyList(), visited, "examples stay over the reader")
+        rule.onNodeWithTag("close-examples-dialog").performClick()
+        rule.waitUntil(5_000) { rule.onAllNodesWithTag("examples-dialog").fetchSemanticsNodes().isEmpty() }
+        rule.onNodeWithText("lobo dorme", substring = true).assertExists()
+        rule.onNodeWithText("View all", substring = true).assertExists()
     }
 
     /** The examples button beside the word heading the pane opens the examples of that word. */
@@ -990,8 +1000,12 @@ class ReadingHoverTest {
         rule.waitUntil(5_000) { rule.onAllNodesWithTag("term-heading").fetchSemanticsNodes().isNotEmpty() }
 
         rule.onNodeWithContentDescription("Examples").performClick()
-        rule.waitUntil(5_000) { visited.isNotEmpty() }
-        assertEquals(listOf<com.tayra.languages.core.ui.navigation.Route>(com.tayra.languages.core.ui.navigation.Route.Examples(languageId, "lobo")), visited)
+        rule.waitUntil(5_000) { rule.onAllNodesWithTag("examples-dialog").fetchSemanticsNodes().isNotEmpty() }
+        rule.onNodeWithText("Examples for ‘lobo’").assertExists()
+        assertEquals(emptyList(), visited, "the heading opens examples without replacing the reader")
+        rule.onNodeWithTag("close-examples-dialog").performClick()
+        rule.waitUntil(5_000) { rule.onAllNodesWithTag("examples-dialog").fetchSemanticsNodes().isEmpty() }
+        rule.onNodeWithTag("term-heading").assertExists()
     }
 
     /** Coming back to the reader (from the examples, say) finds the page scrolled where it was left; a new page starts at its top. */
