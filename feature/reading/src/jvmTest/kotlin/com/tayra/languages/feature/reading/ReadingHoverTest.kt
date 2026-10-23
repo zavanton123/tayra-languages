@@ -99,6 +99,9 @@ import androidx.compose.ui.test.performTouchInput
 import kotlin.test.assertEquals
 import kotlin.test.assertNull
 import androidx.compose.ui.test.getBoundsInRoot
+import androidx.compose.runtime.CompositionLocalProvider
+import com.tayra.languages.core.ui.components.LocalWindowWidth
+import com.tayra.languages.core.ui.components.WindowWidth
 
 class ReadingHoverTest {
 
@@ -319,25 +322,49 @@ class ReadingHoverTest {
         assertEquals(emptyList(), visited, "the reader stays open")
     }
 
-    /** The toolbar shows "page of pages" between the arrows, with a slider across the book. */
+    /** The compact toolbar shows the page count, while the footer keeps the page-turning action. */
     @Test
     fun theToolbarShowsThePagePositionAndMovesBetweenPages() {
         val vm = runBlocking { reader(mainIsDefault = false, pages = 12) }
         startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }) }
-        rule.setContent { ReadingScreen(bookId = 1, initialPage = null, onNavigate = {}, onHome = {}, viewModel = vm) }
+        rule.setContent {
+            CompositionLocalProvider(LocalWindowWidth provides WindowWidth.COMPACT) {
+                ReadingScreen(bookId = 1, initialPage = null, onNavigate = {}, onHome = {}, viewModel = vm)
+            }
+        }
         val count = vm.state.value.pageCount
         assertTrue(count > 2, "the book should have several pages")
-        rule.waitUntil(5_000) { rule.onAllNodesWithText("1  of $count").fetchSemanticsNodes().isNotEmpty() }
-        // The toolbar's arrow, before the footer's button.
-        rule.onAllNodesWithContentDescription("Next page")[0].performClick()
-        rule.waitUntil(5_000) { rule.onAllNodesWithText("2  of $count").fetchSemanticsNodes().isNotEmpty() }
-        assertEquals(2, vm.state.value.pageNumber)
+        rule.waitUntil(5_000) { rule.onAllNodesWithContentDescription("Page 1 of $count").fetchSemanticsNodes().isNotEmpty() }
+        assertEquals(1, rule.onAllNodesWithText("T").fetchSemanticsNodes().size, "a phone shows the book title only in its toolbar")
+        assertTrue(rule.onAllNodesWithContentDescription("Previous page").fetchSemanticsNodes().isEmpty(), "the compact toolbar stays informational")
+        rule.onNodeWithContentDescription("Next page").performScrollTo().performClick()
+        rule.waitUntil(5_000) { vm.state.value.pageNumber == 2 }
+        rule.onNodeWithContentDescription("Page 2 of $count").assertExists()
         System.getenv("PAGE_PROGRESS_SCREENSHOT")?.let { path ->
             rule.waitForIdle()
             javax.imageio.ImageIO.write(rule.onAllNodes(androidx.compose.ui.test.isRoot())[0].captureToImage().toAwtImage(), "png", File(path))
         }
-        rule.onNodeWithContentDescription("Previous page").performClick()
-        rule.waitUntil(5_000) { vm.state.value.pageNumber == 1 }
+    }
+
+    /** A one-page text still has the compact title bar, but no page controls that cannot do anything. */
+    @Test
+    fun theCompactToolbarHidesThePagerForAOnePageText() {
+        val vm = runBlocking { reader(mainIsDefault = false) }
+        startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }) }
+        rule.setContent {
+            CompositionLocalProvider(LocalWindowWidth provides WindowWidth.COMPACT) {
+                ReadingScreen(bookId = 1, initialPage = null, onNavigate = {}, onHome = {}, viewModel = vm)
+            }
+        }
+
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("T").fetchSemanticsNodes().isNotEmpty() }
+        assertEquals(1, vm.state.value.pageCount)
+        assertEquals(1, rule.onAllNodesWithText("T").fetchSemanticsNodes().size, "the title is not repeated above the text")
+        assertTrue(rule.onAllNodesWithContentDescription("Page 1 of 1").fetchSemanticsNodes().isEmpty(), "a single page has no redundant page count")
+        assertTrue(rule.onAllNodesWithContentDescription("Previous page").fetchSemanticsNodes().isEmpty(), "a single page has no previous-page control")
+        assertTrue(rule.onAllNodesWithContentDescription("Next page").fetchSemanticsNodes().isEmpty(), "a single page has no next-page control")
+        rule.onNodeWithContentDescription("Reader settings").assertExists()
+        rule.onNodeWithContentDescription("Back").assertExists()
     }
 
     /** The menu's Edit section opens the whole book or the current page for editing, and adds or deletes no pages. */
