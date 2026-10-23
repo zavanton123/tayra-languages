@@ -229,7 +229,7 @@ class PlayerScreensTest {
         val (morning, work) = runBlocking {
             listOf(data.service.create(data.languageId, PlaylistDraft("Morning Portuguese")), data.service.create(data.languageId, PlaylistDraft("Work & Business", cover = 1)))
         }
-        val viewModel = AddToPlaylistViewModel(book, data.service, data.settings)
+        val viewModel = AddToPlaylistViewModel(PlaylistSource.Text(book), data.service, data.settings)
         var created = false
         var added: String? = null
         host(data, "Reader") {

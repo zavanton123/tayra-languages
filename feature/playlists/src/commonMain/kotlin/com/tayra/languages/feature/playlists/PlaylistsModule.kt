@@ -5,6 +5,7 @@ import androidx.navigation.NavGraphBuilder
 import androidx.navigation.compose.composable
 import androidx.navigation.toRoute
 import com.tayra.languages.core.domain.playlists.PlaylistPlayer
+import com.tayra.languages.core.domain.playlists.PlaylistSource
 import com.tayra.languages.core.domain.playlists.SpeechOutput
 import com.tayra.languages.core.ui.navigation.Route
 import kotlinx.coroutines.CoroutineScope
@@ -27,8 +28,7 @@ val playlistsModule = module {
     viewModel { PlaylistsViewModel(get(), get(), get(), get(), get()) }
     viewModel { (playlistId: Long) -> PlaylistDetailViewModel(playlistId, get(), get(), get(), get()) }
     viewModel { (mode: PlaylistFormMode) -> PlaylistFormViewModel(mode, get(), get()) }
-    viewModel { (bookId: Long) -> AddToPlaylistViewModel(bookId, get(), get()) }
-    viewModel { PlaylistPickerViewModel(get(), get()) }
+    viewModel { (source: PlaylistSource) -> AddToPlaylistViewModel(source, get(), get()) }
     viewModel { PlayerViewModel(get(), get(), get(), get(), get(), get()) }
 }
 

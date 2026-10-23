@@ -341,43 +341,40 @@ class PlaylistFormViewModel(
     fun duration(characters: Int): Duration = service.duration(characters, _state.value.languageCode)
 }
 
-/** The course pages' playlist menu: the language's playlists, to put a lesson or a whole course into. */
-class PlaylistPickerViewModel(private val service: PlaylistService, settings: SettingsRepository) : ViewModel() {
-    @OptIn(ExperimentalCoroutinesApi::class)
-    val state: StateFlow<AddToPlaylistUiState> =
-        settings.settings.map { it.currentLanguageId }.distinctUntilChanged().flatMapLatest { service.observePlaylists(it) }
-            .map { AddToPlaylistUiState(it) }
-            .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), AddToPlaylistUiState())
-
-    /** Adds [source] after the playlist's texts, then tells [onAdded] the playlist's name. */
-    fun add(playlist: Playlist, source: PlaylistSource, onAdded: (String) -> Unit) {
-        viewModelScope.launch {
-            runCatching { service.add(playlist.id, listOf(source)) }.onSuccess { onAdded(playlist.name) }
-        }
-    }
+/** A playlist menu: the language's playlists, and which hold what the menu is for. */
+data class AddToPlaylistUiState(
+    val playlists: List<Playlist> = emptyList(),
+    /** The texts the menu's text, lesson or course stands for; null for a lesson not made a text yet. */
+    val texts: List<Long?> = emptyList(),
+) {
+    /** Whether [playlist] holds all of it: the text, the lesson, or every lesson of the course. */
+    fun contains(playlist: Playlist) = texts.isNotEmpty() && texts.all { text -> text != null && playlist.items.any { it.bookId == text } }
 }
 
-/** The reader's playlist menu: the language's playlists, and which hold the open text. */
-data class AddToPlaylistUiState(val playlists: List<Playlist> = emptyList())
-
-class AddToPlaylistViewModel(private val bookId: Long, private val service: PlaylistService, settings: SettingsRepository) : ViewModel() {
-    /** The name of each playlist the open text has just been put in. */
+/** The playlist menus of the reader and the course pages: [source] goes into the language's playlists, or comes out. */
+class AddToPlaylistViewModel(private val source: PlaylistSource, private val service: PlaylistService, settings: SettingsRepository) : ViewModel() {
+    /** The name of each playlist [source] has just been put in. */
     val added = UiEvents<String>()
+    private val texts = MutableStateFlow<List<Long?>>(emptyList())
 
     @OptIn(ExperimentalCoroutinesApi::class)
     val state: StateFlow<AddToPlaylistUiState> =
         settings.settings.map { it.currentLanguageId }.distinctUntilChanged().flatMapLatest { service.observePlaylists(it) }
-            .map { AddToPlaylistUiState(it) }
+            .combine(texts) { playlists, texts -> AddToPlaylistUiState(playlists, texts) }
             .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), AddToPlaylistUiState())
 
-    fun contains(playlist: Playlist) = playlist.items.any { it.bookId == bookId }
+    init {
+        viewModelScope.launch { texts.value = service.textsOf(source) }
+    }
 
-    /** Puts the open text into the playlist, or takes it out when it is in it. */
+    /** Puts [source] into the playlist, or takes it out when the playlist holds all of it. */
     fun toggle(playlistId: Long) {
         viewModelScope.launch {
             val playlist = service.observePlaylist(playlistId).first() ?: return@launch
-            val adding = !contains(playlist)
-            service.setContains(playlistId, bookId, adding)
+            val adding = !AddToPlaylistUiState(texts = service.textsOf(source)).contains(playlist)
+            service.setContains(playlistId, source, adding)
+            // Adding a lesson makes its text, which the menu then knows it by.
+            texts.value = service.textsOf(source)
             if (adding) added.send(playlist.name)
         }
     }

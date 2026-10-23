@@ -67,8 +67,21 @@ class PlaylistService(
     }
 
     /** Puts the text with [bookId] into the playlist, or takes it out, as the reader's playlist menu does. */
-    suspend fun setContains(playlistId: Long, bookId: Long, contains: Boolean) {
-        if (contains) add(playlistId, listOf(PlaylistSource.Text(bookId))) else repository.removeBook(playlistId, bookId)
+    suspend fun setContains(playlistId: Long, bookId: Long, contains: Boolean) = setContains(playlistId, PlaylistSource.Text(bookId), contains)
+
+    /** Puts [source] into the playlist, or takes its texts out, as the playlist menus do. */
+    suspend fun setContains(playlistId: Long, source: PlaylistSource, contains: Boolean) {
+        if (contains) add(playlistId, listOf(source)) else textsOf(source).filterNotNull().forEach { repository.removeBook(playlistId, it) }
+    }
+
+    /**
+     * The texts [source] stands for: the text itself, a lesson's, or each of a course's lessons' in
+     * order, null for a lesson whose text is not made yet. Nothing is made.
+     */
+    suspend fun textsOf(source: PlaylistSource): List<Long?> = when (source) {
+        is PlaylistSource.Text -> listOf(source.bookId)
+        is PlaylistSource.Lesson -> listOf(courses.lessonText(source.lessonId))
+        is PlaylistSource.WholeCourse -> courses.observeCourse(source.courseId).first()?.course?.lessons.orEmpty().map { courses.lessonText(it.id) }
     }
 
     suspend fun remove(itemId: Long) = repository.removeItem(itemId)

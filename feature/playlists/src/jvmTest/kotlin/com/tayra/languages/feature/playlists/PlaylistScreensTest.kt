@@ -5,6 +5,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.ui.test.ExperimentalTestApi
 import androidx.compose.ui.test.assertIsNotEnabled
 import androidx.compose.ui.test.hasText
+import androidx.compose.ui.test.onAllNodesWithContentDescription
 import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.performClick
@@ -122,33 +123,55 @@ class PlaylistScreensTest {
         assertEquals(listOf(book), runBlocking { data.service.playlist(created!!)!!.items.map { it.bookId } })
     }
 
-    /** The course pages' menu puts a whole course, or one lesson, after a playlist's texts. */
+    /**
+     * The course pages' menu is the reader's: a lesson or a whole course goes into a playlist, the
+     * playlist is ticked once it holds all of it, and choosing a ticked one takes it out again.
+     */
     @Test
-    fun aCourseOrALessonGoesIntoAPlaylistFromItsMenu() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+    fun aCourseOrALessonGoesIntoAPlaylistAndOutFromItsMenu() = runDesktopComposeUiTest(width = 1586, height = 1000) {
         val book = data.book("Na cidade", text.repeat(4))
         val playlist = runBlocking { data.service.create(data.languageId, PlaylistDraft("Commute", "", cover = 0), listOf(PlaylistSource.Text(book))) }
-        val picker = PlaylistPickerViewModel(data.service, data.settings)
-        val added = mutableListOf<String>()
         val lesson = data.course.lessons[1]
+        val lessonMenu = AddToPlaylistViewModel(PlaylistSource.Lesson(data.course.id, lesson.id), data.service, data.settings)
+        val courseMenu = AddToPlaylistViewModel(PlaylistSource.WholeCourse(data.course.id), data.service, data.settings)
+        val added = mutableListOf<String>()
         host(data, "Course") {
-            AddToPlaylistMenuButton(PlaylistSource.Lesson(data.course.id, lesson.id), onAdded = { added += it }, viewModel = picker)
-            AddToPlaylistMenuButton(PlaylistSource.WholeCourse(data.course.id), onAdded = { added += it }, label = "Add course to playlist", viewModel = picker)
+            AddToPlaylistMenuButton(PlaylistSource.Lesson(data.course.id, lesson.id), onAdded = { added += it }, viewModel = lessonMenu)
+            AddToPlaylistMenuButton(PlaylistSource.WholeCourse(data.course.id), onAdded = { added += it }, label = "Add course to playlist", viewModel = courseMenu)
         }
-        onNodeWithTag("add-lesson-to-playlist-${lesson.id}").performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasTestTag("picker-playlist-$playlist"), useUnmergedTree = true).fetchSemanticsNodes().isNotEmpty() }
-        screenshot("playlist-picker")
-        onNodeWithTag("picker-playlist-$playlist", useUnmergedTree = true).performClick()
-        waitUntil(timeoutMillis = 5_000) { added.size == 1 }
-        assertEquals(listOf("Na cidade", lesson.title), runBlocking { data.service.playlist(playlist)!!.items.map { it.title } })
+        fun titles() = runBlocking { data.service.playlist(playlist)!!.items.map { it.title } }
+        fun open(tag: String) {
+            onNodeWithTag(tag).performClick()
+            waitUntil(timeoutMillis = 5_000) { onAllNodes(hasTestTag("menu-playlist-$playlist")).fetchSemanticsNodes().isNotEmpty() }
+        }
+        fun ticked() = onAllNodesWithContentDescription("In this playlist").fetchSemanticsNodes().size
 
-        // The whole course follows, its lesson already there keeping its place.
-        onNodeWithText("Add course to playlist").performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasTestTag("picker-playlist-$playlist"), useUnmergedTree = true).fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithTag("picker-playlist-$playlist", useUnmergedTree = true).performClick()
+        open("add-lesson-to-playlist-${lesson.id}")
+        assertEquals(0, ticked())
+        onNodeWithTag("menu-playlist-$playlist").performClick()
+        waitUntil(timeoutMillis = 5_000) { added.size == 1 }
+        assertEquals(listOf("Na cidade", lesson.title), titles())
+
+        // Opened again, the playlist is ticked; choosing it takes the lesson out, and the menu stays.
+        open("add-lesson-to-playlist-${lesson.id}")
+        waitUntil(timeoutMillis = 5_000) { ticked() == 1 }
+        screenshot("playlist-picker")
+        onNodeWithTag("menu-playlist-$playlist").performClick()
+        waitUntil(timeoutMillis = 5_000) { titles() == listOf("Na cidade") }
+        waitUntil(timeoutMillis = 5_000) { ticked() == 0 }
+        onNodeWithTag("add-lesson-to-playlist-${lesson.id}").performClick()
+
+        // The whole course goes in, and is ticked only once every lesson is there.
+        open("add-course-to-playlist-${data.course.id}")
+        assertEquals(0, ticked())
+        onNodeWithTag("menu-playlist-$playlist").performClick()
         waitUntil(timeoutMillis = 5_000) { added.size == 2 }
         assertEquals(listOf("Commute", "Commute"), added)
-        val titles = runBlocking { data.service.playlist(playlist)!!.items.map { it.title } }
-        assertEquals(listOf("Na cidade", lesson.title, data.course.lessons[0].title, data.course.lessons[2].title), titles)
+        assertEquals(listOf("Na cidade") + data.course.lessons.map { it.title }, titles())
+        open("add-course-to-playlist-${data.course.id}")
+        waitUntil(timeoutMillis = 5_000) { ticked() == 1 }
+        onNodeWithTag("menu-playlist-$playlist").performClick()
+        waitUntil(timeoutMillis = 5_000) { titles() == listOf("Na cidade") }
     }
 
     @Test

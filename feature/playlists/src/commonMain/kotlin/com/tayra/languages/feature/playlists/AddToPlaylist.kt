@@ -1,10 +1,7 @@
 package com.tayra.languages.feature.playlists
 
 import androidx.compose.foundation.background
-import androidx.compose.foundation.layout.widthIn
 import com.tayra.languages.core.ui.components.SecondaryButton
-import com.tayra.languages.core.ui.components.AppMenuItem
-import com.tayra.languages.core.ui.components.AppMenu
 import com.tayra.languages.core.ui.components.AppIconButton
 import com.tayra.languages.core.domain.playlists.PlaylistSource
 import androidx.compose.foundation.border
@@ -44,6 +41,10 @@ import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.IntOffset
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.Popup
+import androidx.compose.ui.window.PopupPositionProvider
+import androidx.compose.ui.unit.LayoutDirection
+import androidx.compose.ui.unit.IntSize
+import androidx.compose.ui.unit.IntRect
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.tayra.languages.core.ui.components.AppDivider
 import com.tayra.languages.core.ui.components.AppIcons
@@ -78,7 +79,7 @@ fun AddToPlaylistButton(
     onAdded: (playlist: String) -> Unit,
     modifier: Modifier = Modifier,
     menuShift: Dp = 0.dp,
-    viewModel: AddToPlaylistViewModel = koinViewModel(key = "add-to-playlist-$bookId") { parametersOf(bookId) },
+    viewModel: AddToPlaylistViewModel = koinViewModel(key = "add-to-playlist-$bookId") { parametersOf(PlaylistSource.Text(bookId)) },
 ) {
     val colors = MaterialTheme.colorScheme
     var open by remember { mutableStateOf(false) }
@@ -118,7 +119,7 @@ private fun AddToPlaylistMenu(viewModel: AddToPlaylistViewModel, onCreate: () ->
                     Text(tr("No playlists yet"), Modifier.padding(AppSpacing.s), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
                 }
                 state.playlists.forEach { playlist ->
-                    val contains = viewModel.contains(playlist)
+                    val contains = state.contains(playlist)
                     Row(
                         Modifier.fillMaxWidth().clip(AppShapes.control)
                             .background(if (contains) colors.primary.copy(alpha = AppAlpha.tint) else colors.surface)
@@ -156,9 +157,10 @@ private fun AddToPlaylistMenu(viewModel: AddToPlaylistViewModel, onCreate: () ->
 }
 
 /**
- * Puts [source], a lesson or a whole course, into a playlist chosen from a menu of the language's
- * playlists, or into a new one made for it. The button is an icon, or a full-width button with
- * [label] where there is room. [onAdded] is told the playlist's name, for the screen to confirm.
+ * Puts [source], a lesson or a whole course, into a playlist, or takes it out, with the reader's
+ * playlist menu opening below the button (above it where there is no room). A playlist is ticked
+ * when it holds all of [source]. The button is an icon, or a full-width button with [label] where
+ * there is room. Putting it in a playlist closes the menu and hands the playlist's name to [onAdded].
  */
 @Composable
 fun AddToPlaylistMenuButton(
@@ -166,64 +168,44 @@ fun AddToPlaylistMenuButton(
     onAdded: (playlist: String) -> Unit,
     modifier: Modifier = Modifier,
     label: String? = null,
-    viewModel: PlaylistPickerViewModel = koinViewModel(),
+    viewModel: AddToPlaylistViewModel = koinViewModel(key = "add-to-playlist-$source") { parametersOf(source) },
 ) {
-    val state by viewModel.state.collectAsStateWithLifecycle()
-    val colors = MaterialTheme.colorScheme
     var open by remember { mutableStateOf(false) }
     var creating by remember { mutableStateOf(false) }
+    CollectEvents(viewModel.added) { name -> open = false; onAdded(name) }
     val tag = when (source) {
         is PlaylistSource.WholeCourse -> "add-course-to-playlist-${source.courseId}"
         is PlaylistSource.Lesson -> "add-lesson-to-playlist-${source.lessonId}"
         is PlaylistSource.Text -> "add-text-to-playlist-${source.bookId}"
     }
+    val gap = with(LocalDensity.current) { AppSpacing.xs.roundToPx() }
     Box(modifier) {
         if (label != null) {
-            SecondaryButton(label, onClick = { open = true }, modifier = Modifier.fillMaxWidth().testTag(tag), icon = AppIcons.PlaylistAdd)
+            SecondaryButton(label, onClick = { open = !open }, modifier = Modifier.fillMaxWidth().testTag(tag), icon = AppIcons.PlaylistAdd)
         } else {
             AppTooltip(tr("Add to playlist")) {
-                AppIconButton(AppIcons.PlaylistAdd, contentDescription = tr("Add to playlist"), onClick = { open = true }, modifier = Modifier.testTag(tag), tint = colors.primary)
+                AppIconButton(AppIcons.PlaylistAdd, contentDescription = tr("Add to playlist"), onClick = { open = !open }, modifier = Modifier.testTag(tag), tint = MaterialTheme.colorScheme.primary)
             }
         }
-        AppMenu(expanded = open, onDismissRequest = { open = false }, modifier = Modifier.widthIn(max = MENU_WIDTH).testTag("playlist-picker")) {
-            Text(tr("Add to playlist"), Modifier.padding(horizontal = AppSpacing.l, vertical = AppSpacing.s), style = AppText.itemTitle)
-            if (state.playlists.isEmpty()) {
-                Text(tr("No playlists yet"), Modifier.padding(horizontal = AppSpacing.l, vertical = AppSpacing.s), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+        if (open) {
+            Popup(popupPositionProvider = remember(gap) { BelowOrAbove(gap) }, onDismissRequest = { open = false }) {
+                AddToPlaylistMenu(viewModel, onCreate = { open = false; creating = true })
             }
-            state.playlists.forEach { playlist ->
-                AppMenuItem(
-                    text = {
-                        Row(Modifier.testTag("picker-playlist-${playlist.id}"), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-                            Box(Modifier.size(AppSizes.tile).clip(AppShapes.compact).background(coverColor(playlist.cover).copy(alpha = AppAlpha.line)))
-                            Column {
-                                Text(playlist.name, style = AppText.label, maxLines = 1, overflow = TextOverflow.Ellipsis)
-                                Text(textCount(playlist.items.size), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
-                            }
-                        }
-                    },
-                    onClick = {
-                        open = false
-                        viewModel.add(playlist, source, onAdded)
-                    },
-                )
-            }
-            AppDivider(Modifier.padding(vertical = AppSpacing.xs))
-            AppMenuItem(
-                text = {
-                    Row(Modifier.testTag("picker-new-playlist"), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-                        Icon(Icons.Default.Add, contentDescription = null, modifier = Modifier.size(AppSizes.icon))
-                        Text(tr("Create new playlist"), style = MaterialTheme.typography.bodyLarge)
-                    }
-                },
-                onClick = {
-                    open = false
-                    creating = true
-                },
-            )
         }
     }
     if (creating) {
         NewPlaylistDialog(bookId = null, source = source, onCreated = { _, name -> creating = false; onAdded(name) }, onDismiss = { creating = false })
+    }
+}
+
+/** Puts a popup under its anchor, its end edge on the anchor's, or above the anchor when the window has no room below. */
+private class BelowOrAbove(private val gap: Int) : PopupPositionProvider {
+    override fun calculatePosition(anchorBounds: IntRect, windowSize: IntSize, layoutDirection: LayoutDirection, popupContentSize: IntSize): IntOffset {
+        val end = if (layoutDirection == LayoutDirection.Ltr) anchorBounds.right - popupContentSize.width else anchorBounds.left
+        val x = end.coerceIn(0, maxOf(0, windowSize.width - popupContentSize.width))
+        val below = anchorBounds.bottom + gap
+        val y = if (below + popupContentSize.height <= windowSize.height) below else maxOf(0, anchorBounds.top - gap - popupContentSize.height)
+        return IntOffset(x, y)
     }
 }
 

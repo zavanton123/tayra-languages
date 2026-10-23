@@ -74,6 +74,9 @@ class CourseService(
         }
     }
 
+    /** The text made for the lesson with [lessonId], or null while it has never been opened or added to a playlist. */
+    suspend fun lessonText(lessonId: String): Long? = books.lessonBookId(lessonId)
+
     /**
      * The text to read for a lesson, made on first use. Null when the app does not have the
      * course's language.

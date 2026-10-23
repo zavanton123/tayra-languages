@@ -284,7 +284,7 @@ class ReadingHoverTest {
             modules(
                 module {
                     single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio }; single { player }
-                    viewModel { (bookId: Long) -> com.tayra.languages.feature.playlists.AddToPlaylistViewModel(bookId, playlists, settings) }
+                    viewModel { (source: com.tayra.languages.core.domain.playlists.PlaylistSource) -> com.tayra.languages.feature.playlists.AddToPlaylistViewModel(source, playlists, settings) }
                     viewModel { (mode: com.tayra.languages.feature.playlists.PlaylistFormMode) -> com.tayra.languages.feature.playlists.PlaylistFormViewModel(mode, playlists, settings) }
                 },
             )
