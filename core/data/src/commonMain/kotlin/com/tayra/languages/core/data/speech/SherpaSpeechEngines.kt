@@ -42,16 +42,16 @@ abstract class SherpaSpeechEngine(protected val runtime: SherpaRuntime, folderNa
 }
 
 /**
- * Piper on phones: the voices sherpa-onnx packages, each in a compact copy (weights cut to 8 bits,
- * with a faint hiss) or the full model, which sounds as clean as on the desktop at about three
- * times the size. The full model speaks when both are on the device.
+ * Piper on phones: the voices sherpa-onnx packages, downloaded as the full model, which sounds as
+ * clean as on the desktop. Compact copies (weights cut to 8 bits, with a faint hiss) are no longer
+ * offered; one downloaded before still speaks, until its full model is there, and can be removed.
  */
 class SherpaPiperEngine(runtime: SherpaRuntime) : SherpaSpeechEngine(runtime, "piper") {
 
     override val engine: SpeechEngine = SpeechEngine.PIPER
     override val displayName: String = "Piper"
     override val description: String = "Piper is a neural speech engine that runs on this device with no network. It has voices for most of the languages the app teaches."
-    override val packagesDescription: String = "One download per voice: compact, about 20 MB, or the full model, about 65 MB, which sounds cleaner."
+    override val packagesDescription: String = "One download per voice, about 65 MB each."
 
     private class Voice(val info: SherpaPiperVoice) {
         val key: String get() = info.key
@@ -67,34 +67,34 @@ class SherpaPiperEngine(runtime: SherpaRuntime) : SherpaSpeechEngine(runtime, "p
         .sortedWith(compareBy({ it.info.language }, { it.info.country }, { it.name }, { it.quality }))
 
     override suspend fun status(): String {
-        val count = catalog.count { isInstalled(it.key) }
+        val count = catalog.count { folderOf(it.key) != null }
         return if (count == 0) "Piper is ready. No voices downloaded yet." else "Piper is ready with $count voice${if (count == 1) "" else "s"} downloaded."
     }
 
     override suspend fun packages(): List<SpeechPackage> = catalog.flatMap { voice ->
-        listOf(
-            SpeechPackage(voice.key, voice.title, voice.appCode, voice.info.language, voice.info.sizeBytes, isInstalled(voice.key)),
-            SpeechPackage(full(voice.key), "${voice.title} \u00b7 full model", voice.appCode, voice.info.language, voice.info.sizeBytes * FULL_SIZE_RATIO, isInstalled(full(voice.key))),
+        listOfNotNull(
+            SpeechPackage(voice.key, voice.title, voice.appCode, voice.info.language, voice.info.sizeBytes * FULL_SIZE_RATIO, isInstalled(full(voice.key))),
+            SpeechPackage(voice.key + COMPACT, "${voice.title} \u00b7 compact model", voice.appCode, voice.info.language, voice.info.sizeBytes, installed = true)
+                .takeIf { isInstalled(voice.key) },
         )
     }
 
     override suspend fun installPackage(id: String) {
-        val key = id.removeSuffix(FULL)
+        val key = id.removeSuffix(COMPACT)
         val voice = catalog.firstOrNull { it.key == key } ?: error("unknown voice $id")
-        val archive = if (id.endsWith(FULL)) "vits-piper-$key.tar.bz2" else "vits-piper-$key-int8.tar.bz2"
-        install("$MODELS/$archive", id, voice.name)
+        install("$MODELS/vits-piper-$key.tar.bz2", full(key), voice.name)
     }
 
-    override suspend fun removePackage(id: String) = runtime.delete(path(id))
+    override suspend fun removePackage(id: String) = runtime.delete(path(if (id.endsWith(COMPACT)) id.removeSuffix(COMPACT) else full(id)))
 
     /** One voice per Piper voice on the device, whichever of its copies is there. */
     override suspend fun voices(languageCode: String): List<SpeechVoice> =
         catalog.filter { it.appCode == languageCode && folderOf(it.key) != null }
-            .map { SpeechVoice(it.key, "${it.name} (${it.info.country}, ${it.quality}${if (isInstalled(full(it.key))) ", full model" else ""})", languageCode) }
+            .map { SpeechVoice(it.key, "${it.name} (${it.info.country}, ${it.quality}${if (isInstalled(full(it.key))) "" else ", compact model"})", languageCode) }
 
     override suspend fun synthesize(text: String, languageCode: String, voiceId: String?, speed: Float): ByteArray? {
         val usable = voices(languageCode)
-        val voice = usable.firstOrNull { it.id == voiceId } ?: usable.firstOrNull() ?: return null
+        val voice = usable.firstOrNull { it.id == voiceId?.removeSuffix(FULL) } ?: usable.firstOrNull() ?: return null
         val name = folderOf(voice.id) ?: return null
         val folder = path(name)
         val model = onnx(folder) ?: return null
@@ -109,10 +109,16 @@ class SherpaPiperEngine(runtime: SherpaRuntime) : SherpaSpeechEngine(runtime, "p
     private fun isInstalled(name: String): Boolean = runtime.list(path(name))?.let { files -> "tokens.txt" in files && files.any { it.endsWith(".onnx") } } == true
 
     private companion object {
-        /** Marks a voice's full model, as a package and as its folder. */
+        /**
+         * Marks a voice's full model as its folder; the package is the voice itself. The ids of
+         * full models chosen while compact ones were also offered still carry it.
+         */
         const val FULL = "-full"
 
-        /** The full model's archive is about this many times the compact one's. */
+        /** Marks a compact copy as a package, to remove; its folder is the voice's key. */
+        const val COMPACT = "-int8"
+
+        /** The full model's archive is about this many times the compact one's, whose size the catalog has. */
         const val FULL_SIZE_RATIO = 3
 
         fun full(key: String) = key + FULL
@@ -120,16 +126,16 @@ class SherpaPiperEngine(runtime: SherpaRuntime) : SherpaSpeechEngine(runtime, "p
 }
 
 /**
- * Kokoro on phones: one model that speaks several languages, each with a handful of built-in voices.
- * It comes compact (8-bit weights) or as the full model, cleaner but larger and slower to answer;
- * the full one speaks when both are on the device.
+ * Kokoro on phones: one model that speaks several languages, each with a handful of built-in voices,
+ * downloaded as the full model. A compact copy (8-bit weights) downloaded before still speaks, until
+ * the full one is there, and can be removed.
  */
 class SherpaKokoroEngine(runtime: SherpaRuntime) : SherpaSpeechEngine(runtime, "kokoro") {
 
     override val engine: SpeechEngine = SpeechEngine.KOKORO
     override val displayName: String = "Kokoro"
     override val description: String = "Kokoro is a high-quality neural voice that runs on this device with no network. It speaks English, Spanish, French, Italian, Portuguese, Hindi and Mandarin Chinese; other languages fall back to the system voice. It needs a recent device to answer quickly."
-    override val packagesDescription: String = "One download holds the model and all its voices: compact, or the full model, which sounds cleaner but needs a fast device."
+    override val packagesDescription: String = "One download holds the model and all its voices. It needs a fast device."
 
     /** The model that speaks: the full one when downloaded, else the compact one, or null when neither is. */
     private val folder: String? get() = listOf(FULL_PACKAGE, PACKAGE).map(::path).firstOrNull(::isInstalled)
@@ -138,14 +144,13 @@ class SherpaKokoroEngine(runtime: SherpaRuntime) : SherpaSpeechEngine(runtime, "
 
     override suspend fun status(): String = if (folder != null) "Kokoro is ready. The model is downloaded." else "Kokoro is ready. The model is not downloaded yet."
 
-    override suspend fun packages(): List<SpeechPackage> = listOf(
-        SpeechPackage(PACKAGE, "Kokoro model with ${catalog.size} voices", languageCode = null, group = GROUP, sizeBytes = ARCHIVE_BYTES, installed = isInstalled(path(PACKAGE))),
-        SpeechPackage(FULL_PACKAGE, "Kokoro full model with ${catalog.size} voices", languageCode = null, group = GROUP, sizeBytes = FULL_ARCHIVE_BYTES, installed = isInstalled(path(FULL_PACKAGE))),
+    override suspend fun packages(): List<SpeechPackage> = listOfNotNull(
+        SpeechPackage(FULL_PACKAGE, "Kokoro model with ${catalog.size} voices", languageCode = null, group = GROUP, sizeBytes = FULL_ARCHIVE_BYTES, installed = isInstalled(path(FULL_PACKAGE))),
+        SpeechPackage(PACKAGE, "Kokoro compact model with ${catalog.size} voices", languageCode = null, group = GROUP, sizeBytes = ARCHIVE_BYTES, installed = true)
+            .takeIf { isInstalled(path(PACKAGE)) },
     )
 
-    override suspend fun installPackage(id: String) =
-        if (id == FULL_PACKAGE) install("$MODELS/kokoro-multi-lang-v1_0.tar.bz2", FULL_PACKAGE, "the full Kokoro model")
-        else install("$MODELS/kokoro-int8-multi-lang-v1_0.tar.bz2", PACKAGE, "the Kokoro model")
+    override suspend fun installPackage(id: String) = install("$MODELS/kokoro-multi-lang-v1_0.tar.bz2", FULL_PACKAGE, "the Kokoro model")
 
     override suspend fun removePackage(id: String) = runtime.delete(path(if (id == FULL_PACKAGE) FULL_PACKAGE else PACKAGE))
 

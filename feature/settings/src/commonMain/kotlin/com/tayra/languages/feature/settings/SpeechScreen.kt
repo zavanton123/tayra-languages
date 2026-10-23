@@ -730,7 +730,7 @@ internal fun localizedVoiceName(name: String): String {
     return "${name.substring(0, open)} ($details)"
 }
 
-/** "Kokoro voice model", or "Kokoro full model" for the full copy beside a compact one. */
+/** "Kokoro voice model", or "Kokoro compact model" for a compact copy downloaded before only full models were offered. */
 @Composable
 internal fun modelTitle(engine: LocalSpeechEngine, pkg: SpeechPackage): String =
-    if (pkg.id.endsWith("-full")) tr("{0} full model", engine.displayName) else tr("{0} voice model", engine.displayName)
+    if ("compact model" in pkg.title) tr("{0} compact model", engine.displayName) else tr("{0} voice model", engine.displayName)

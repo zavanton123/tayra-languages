@@ -68,10 +68,11 @@ class KokoroVoicesTest {
         val engine = SherpaKokoroEngine(FakeRuntime(modelFiles))
         val counts = listOf("en", "es", "fr", "hi", "it", "ja", "pt", "zh").associateWith { engine.voices(it).size }
         assertEquals(mapOf("en" to 27, "es" to 2, "fr" to 1, "hi" to 4, "it" to 2, "ja" to 0, "pt" to 2, "zh" to 8), counts)
-        val (pkg, full) = engine.packages()
+        // The compact model downloaded before is listed after the full one, to remove.
+        val (pkg, compact) = engine.packages()
         assertEquals("Kokoro model with 46 voices", pkg.title)
-        assertEquals("Kokoro full model with 46 voices", full.title)
-        assertTrue(pkg.installed && !full.installed)
+        assertEquals("Kokoro compact model with 46 voices", compact.title)
+        assertTrue(!pkg.installed && compact.installed)
         assertEquals(setOf("en", "es", "fr", "it", "pt", "hi", "zh"), pkg.group.split(", ").map { LanguageCodes.codeFor(it) }.toSet())
         assertEquals(listOf("hf_alpha", "hf_beta", "hm_omega", "hm_psi"), engine.packageVoices(pkg.id, "hi").map { it.id })
     }
@@ -95,10 +96,11 @@ class KokoroVoicesTest {
     }
 
     @Test
-    fun theFullModelIsDownloadedBesideTheCompactOneAndSpeaksFirst() = runTest {
+    fun onlyTheFullModelIsOfferedAndItSpeaksBeforeACompactOne() = runTest {
+        assertEquals(listOf("kokoro-v1.0-full"), SherpaKokoroEngine(FakeRuntime(emptyList(), mutableMapOf())).packages().map { it.id })
         val runtime = FakeRuntime(modelFiles)
         val engine = SherpaKokoroEngine(runtime)
-        val full = engine.packages().last()
+        val full = engine.packages().first()
         engine.installPackage(full.id)
         assertEquals("https://github.com/k2-fsa/sherpa-onnx/releases/download/tts-models/kokoro-multi-lang-v1_0.tar.bz2" to "/tts/kokoro/kokoro-v1.0-full", runtime.installed.single())
 
