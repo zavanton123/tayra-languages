@@ -1,0 +1,100 @@
+1	5401	njuška	njušci njuške njuški njuško njuškom njušku
+2	5402	primorati	primora primorala primorali primoralo primoram primoran primorana primorane primorani primorao
+3	5403	tjestenina	testenina tjestenine tjestenini tjesteninom tjesteninu
+4	5404	čavao	čavala čavla čavle čavli čavlima čavlom čavlu
+5	5405	zaborav	zaborava zaborave zaboravi zaboravu
+6	5406	učionica	učionicama učionice učionici učionicu
+7	5407	blagajna	blagajnama blagajne blagajni blagajnom blagajnu
+8	5408	nepotrebno	
+9	5409	roj	roja roje rojem rojeve rojevi roju
+10	5410	jedro	jedara jedra jedrima jedrom jedru
+11	5411	pustolovina	pustolovinama pustolovine pustolovini pustolovinom pustolovinu
+12	5412	pi	
+13	5413	pristojnost	pristojnosti pristojnošću
+14	5414	carina	carine carini carinom carinu
+15	5415	napušen	napušena napušene napušeni napušenih napušeno napušenog
+16	5416	posjetilac	posetilac posetilaca posetioca posetioce posetioci posetiocima posjetilaca posjetioca posjetioce posjetioci posjetiocima
+17	5417	uzvrat	uzvrate uzvrati
+18	5418	siromaštvo	siromaštva siromaštvom siromaštvu
+19	5419	grmlje	grmlja grmljem grmlju
+20	5420	limunada	limunade limunadi limunadom limunadu
+21	5421	trijem	trem treme tremu trijema trijemom trijemu
+22	5422	smrtnik	smrtnici smrtnicima smrtnika smrtnike smrtnikom smrtniku smrtniče
+23	5423	instrukcija	instrukcijama instrukcije
+24	5424	tak	taka takom taku
+25	5425	parlament	parlamenta parlamentom parlamentu
+26	5426	procjenjivati	procenjuje procenjujem procenjuju procjenjivali procjenjivanje procjenjivao procjenjuje procjenjujem procjenjujemo procjenjujete procjenjuješ procjenjuju
+27	5427	neophodan	neophodna neophodne neophodni neophodnih neophodnim neophodnog neophodnom neophodnu
+28	5428	dekan	dekana dekane dekanom dekanu
+29	5429	zvučnik	zvučnici zvučnicima zvučnika zvučnike zvučniku
+30	5430	sletjeti	
+31	5431	okret	okreta okrete okreti okretom okretu
+32	5432	podzemlje	podzemlja
+33	5433	značajno	
+34	5434	smilovati	smilovala smilovao smiluj smiluje smilujte smiluju
+35	5435	garancija	garancije garancijom garanciju
+36	5436	zabuna	zabune zabuni zabunom zabunu
+37	5437	odozgo	
+38	5438	izolirati	izolira izoliraj izolirajte izoliraju izolirala izolirali izoliram izoliramo izoliranje izolirao izoliraš
+39	5439	nemiran	nemirna nemirne nemirni nemirnih nemirnim nemirno nemirnog nemirnom nemirnu
+40	5440	suzdržati	suzdržala suzdržan suzdržana suzdržani suzdržano suzdržao suzdrže suzdrži suzdržim suzdržimo suzdržite suzdržiš
+41	5441	povećanje	povećanja povećanjem povećanju
+42	5442	trokut	trokuta trokute trokuti trokutima trokutom trokutu
+43	5443	kvantni	kvantna kvantne kvantnih kvantnim kvantno kvantnog kvantnoj kvantnom kvantnu
+44	5444	ublažiti	ublaže ublažena ublaži ublažila ublažili ublažilo ublažim ublažimo ublažio ublažite ublažiš
+45	5445	roditeljski	roditeljska roditeljske roditeljskih roditeljskim roditeljsko roditeljskog roditeljskoj roditeljskom roditeljsku
+46	5446	meteor	meteora meteore meteori meteorima meteorom meteoru
+47	5447	civiliziran	civilizirana civilizirane civilizirani civiliziranih civiliziranije civiliziraniji civiliziranim civilizirano civiliziranog civiliziranom civiliziranu
+48	5448	besprijekoran	besprekoran besprekorna besprekorno besprijekorna besprijekorne besprijekorni besprijekornim besprijekorno besprijekornog besprijekornom besprijekornu
+49	5449	faraon	faraona faraone faraoni faraonima faraonom faraonu
+50	5450	softver	softvera softverom softveru
+51	5451	neutralan	neutralna neutralne neutralni neutralnih neutralnim neutralno neutralnog neutralnoj neutralnom neutralnu
+52	5452	magnet	magneta magnete magneti magnetima magnetom magnetu
+53	5453	sačmarica	sačmaricama sačmarice sačmaricom sačmaricu
+54	5454	lovački	lovačka lovačke lovačkih lovačkim lovačko lovačkog lovačkoj lovačkom lovačku
+55	5455	mlatiti	mlate mlateći mlati mlatili mlatim mlatimo mlatio mlatite mlatiš mlaćenje
+56	5456	puzati	puza puzajući puzali puzanje puzao puže pužem pužemo pužeš puži pužu
+57	5457	ljepilo	ljepila ljepilom ljepilu
+58	5458	izolacija	izolacije izolaciji izolacijom izolaciju
+59	5459	raskomotiti	raskomoti raskomotili raskomotim raskomotimo raskomotio raskomotite raskomotiš
+60	5460	karate	karatea karateom karateu
+61	5461	uzrujavati	uzrujava uzrujavaj uzrujavajte uzrujavaju uzrujavam uzrujavanje uzrujavao uzrujavate uzrujavaš
+62	5462	simulacija	simulacijama simulacije simulaciji simulaciju
+63	5463	sirup	sirupa sirupom sirupu
+64	5464	učestvovati	učestvovala učestvovali učestvovalo učestvovanje učestvovao učestvuje učestvujem učestvujemo učestvujete učestvuješ učestvuju
+65	5465	deseti	deseta desete deseto desetog desetoj desetom desetu
+66	5466	vijak	vijaka vijci vijcima vijka vijke vijkom
+67	5467	postrojenje	postrojenja
+68	5468	upit	upi upij upije upijem upiješ upijte upiju upila upilo upio upita upite upiti upitima upiše
+69	5469	njegovati	negovala negovati neguje negujem njegovala njegovali njegovan njegovana njegovanje njegovao njeguj njeguje njegujem njegujemo njegujete njeguješ njeguju
+70	5470	mator	matora matore matori matorim matoro matorog matorom matoru
+71	5471	osvajati	osvaja osvajaju osvajajući osvajala osvajali osvajam osvajamo osvajao osvajate osvajaš
+72	5472	odvjetnički	odvjetnička odvjetničke odvjetničkih odvjetničkim odvjetničko odvjetničkog odvjetničkoj odvjetničkom odvjetničku
+73	5473	veselje	veselja veseljem veselju
+74	5474	nezakonito	
+75	5475	poni	ponija poniji
+76	5476	medo	
+77	5477	soda	sode sodom sodu
+78	5478	strelica	strelicama strelice strelicom strelicu
+79	5479	antena	antenama antene anteni antenom antenu
+80	5480	buniti	bune buni bunili bunim bunimo bunio bunite buniš
+81	5481	okup	okupa okupe okupi okupu
+82	5482	burza	burzama burze burzi burzom burzu
+83	5483	svila	svile svili svilom svilu
+84	5484	kesa	kesama kese kesi kesom kesu
+85	5485	vrana	vranama vrane vrani vrano vranom vranu
+86	5486	nezavisan	nezavisna nezavisne nezavisni nezavisnih nezavisnim nezavisnog nezavisnoj nezavisnom nezavisnu
+87	5487	teri	
+88	5488	stidljiv	stidljiva stidljive stidljivi stidljivo
+89	5489	motivirati	motivira motiviraju motivirala motiviralo motiviram motiviran motivirana motivirane motivirani motivirano motivirao
+90	5490	statistika	statistici statistikama statistike statistikom statistiku
+91	5491	inspekcija	inspekcije inspekciji inspekcijom inspekciju
+92	5492	mliječni	mlečne mlečni mlečnog mliječna mliječne mliječnih mliječnim mliječno mliječnog mliječnoj mliječnom mliječnu
+93	5493	grašak	graška graškom grašku
+94	5494	izvjestan	izvesna izvesne izvesni izvesnih izvesnog izvesnom izvesnu izvestan izvjesna izvjesne izvjesni izvjesnih izvjesnim izvjesnog izvjesnoj izvjesnom izvjesnu
+95	5495	maj	maja maju
+96	5496	neprikladan	neprikladna neprikladne neprikladni neprikladnih neprikladnim neprikladno neprikladnog neprikladnom neprikladnu
+97	5497	prehlada	prehlade prehladi prehladom prehladu
+98	5498	krik	krici kricima krika krike krikom krikova krikove krikovi kriku
+99	5499	okruživati	okruživala okruživale okruživali okruživao okružuje okružuju
+100	5500	svemoguć	svemoguća svemoguće svemogućeg svemogućega svemogućem svemogućemu svemogući svemogućim

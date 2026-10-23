@@ -1,0 +1,100 @@
+1	9201	operater	
+2	9202	izvediv	izvediva izvedivo
+3	9203	šofer	šofera šoferom šoferu
+4	9204	privržen	privržena privrženi
+5	9205	kamuflaža	kamuflaže kamuflažu
+6	9206	posredovati	posredovala posredovanje posredovao posreduje posredujem
+7	9207	prevaliti	prevali prevalila prevalili prevalio
+8	9208	prodajni	prodajna prodajne prodajnih prodajnim prodajnog prodajnom prodajnu
+9	9209	džez	džeza džezu
+10	9210	gnjavator	gnjavatora gnjavatori gnjavatoru
+11	9211	odbojka	odbojci odbojke odbojku
+12	9212	primjeren	primjerena primjerene primjereni primjerenije primjereniji primjerenim primjerenu
+13	9213	uzburkati	uzburka uzburkala uzburkali uzburkalo uzburkana uzburkane uzburkano uzburkao
+14	9214	oaza	oaze oazi oazu
+15	9215	halja	haljama halje halji halju
+16	9216	unučad	unučadi
+17	9217	neuspio	neuspjela neuspjele neuspjeli neuspjelih neuspjelog neuspjelom
+18	9218	akcelerator	akceleratora akceleratoru
+19	9219	lisac	lisca lisce liscu lišče
+20	9220	glavešina	glavešinama glavešine glavešinu
+21	9221	arheologija	arheologije arheologiji arheologijom arheologiju
+22	9222	mučan	mučna mučne mučni mučnih mučnim mučnog mučnom mučnu
+23	9223	prljati	prlja prljaj prljaju prljam prljamo prljao prljate prljaš
+24	9224	naklon	naklona nakloni
+25	9225	nerazdvojan	nerazdvojne nerazdvojni
+26	9226	uljudan	uljudni
+27	9227	provedba	provedbe provedbi provedbu
+28	9228	smokva	smokava smokvama smokve smokvi smokvu
+29	9229	bambus	bambusa bambusom
+30	9230	fobija	fobijama fobije fobijom fobiju
+31	9231	bilijun	bilijuna bilijune bilijuni
+32	9232	utvara	utvare utvaru
+33	9233	sazreti	sazrela sazrele sazreli sazreo sazri sazrio
+34	9234	umirovljenik	umirovljenici umirovljenicima umirovljenika umirovljenike
+35	9235	sjeveroistok	severoistoku sjeveroistoka sjeveroistoku
+36	9236	ekvivalent	ekvivalenta
+37	9237	balans	balansa balansu
+38	9238	kažnjiv	kažnjiva kažnjive kažnjivo
+39	9239	veto	veta
+40	9240	brokula	brokule brokulom brokulu
+41	9241	neuk	neuka neuke neuki neukih neuko
+42	9242	vjenčavati	venčavaju venčavamo vjenčava vjenčavaju vjenčavali vjenčavam vjenčavamo
+43	9243	nasmejati	nasmej nasmejala nasmejan nasmejana nasmejani nasmejao nasmeje nasmejem nasmeješ
+44	9244	odjava	odjave odjavi odjavu
+45	9245	gabula	gabule gabuli gabulu
+46	9246	rikverc	
+47	9247	kliše	klišea
+48	9248	antitijelo	antitela antitijela antitijelima
+49	9249	avokado	avokada avokadom
+50	9250	grbača	grbače grbači grbaču
+51	9251	lijenčina	lijenčine lijenčino
+52	9252	šina	šinama šine šinu
+53	9253	tašt	tašta tašte tašti tašto taštu
+54	9254	transportirati	transportira transportirajte transportiraju transportirali transportiramo transportiran transportirani transportirao
+55	9255	umjeren	umeren umereni umjerena umjerene umjereni umjerenim umjerenu
+56	9256	uzbrdo	
+57	9257	korice	
+58	9258	sedmero	
+59	9259	degradirati	degradira degradirali degradiran degradirana degradirani degradiranje degradirao
+60	9260	srdit	srdi srdita srdite srditi srdito srdiš
+61	9261	odlikovanje	odlikovanja odlikovanjima
+62	9262	humanost	humanosti
+63	9263	zinuti	zine zineš zini zinite zinula zinuli zinuo
+64	9264	redakcija	redakcije redakciji redakciju
+65	9265	ovalan	ovalne ovalni ovalno ovalnog ovalnoj ovalnom
+66	9266	namjeran	namjerna namjerne namjerni namjernim namjernog namjernom
+67	9267	čudakinja	čudakinje čudakinjo čudakinju
+68	9268	sutrašnjica	sutrašnjice sutrašnjici sutrašnjicu
+69	9269	obvezivati	obvezivanje obvezuje obvezujem obvezuju obvezujući
+70	9270	križar	križara križare križari križarima
+71	9271	jestiv	jestiva jestive jestivi jestivih jestivim jestivog jestivu
+72	9272	pucač	pucača pucaču
+73	9273	porobiti	porobe porobi porobili porobio porobljen porobljena porobljeni
+74	9274	otuđiti	otuđen otuđena otuđene otuđeni otuđeno otuđila otuđili otuđio
+75	9275	telka	telke telki telku
+76	9276	budaletina	budaletine budaletino budaletinu
+77	9277	bež	
+78	9278	ljaga	ljage ljagu
+79	9279	babica	babice babicu
+80	9280	luster	lustera lustere lusteri lusteru
+81	9281	proton	protona protone protoni
+82	9282	sinagoga	sinagoge sinagogi sinagogu
+83	9283	faksirati	faksira faksiraj faksirajte faksiraju faksirala faksirali faksirao
+84	9284	pedantan	pedantna pedantni pedantno
+85	9285	sistematski	sistematske sistematsko sistematskog sistematskom
+86	9286	anonimnost	anonimnosti
+87	9287	naslaga	naslagama naslage
+88	9288	poznanstvo	poznanstva
+89	9289	nagib	nagiba nagibom nagibu
+90	9290	harfa	harfe harfi harfom harfu
+91	9291	konvencionalan	konvencionalna konvencionalne konvencionalni konvencionalnih konvencionalnim konvencionalnog konvencionalnom
+92	9292	mačevanje	mačevanja mačevanju
+93	9293	službenica	službenice službenici službenicom službenicu
+94	9294	gat	gata gate gatu
+95	9295	dijagnostika	dijagnostici dijagnostike dijagnostiku
+96	9296	vještac	veštac vješca vješci
+97	9297	izjašnjavati	izjašnjava izjašnjavaju izjašnjavam izjašnjavanje izjašnjavate izjašnjavaš
+98	9298	raskid	
+99	9299	pustinjak	pustinjaci pustinjaka
+100	9300	nelagoda	nelagode nelagodu

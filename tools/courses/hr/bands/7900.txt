@@ -1,0 +1,100 @@
+1	7801	udomitelj	udomitelja udomitelje udomitelji udomiteljima
+2	7802	učinkovito	
+3	7803	srećka	srećke srećki srećko srećku
+4	7804	usputan	usputna usputne usputni usputnih usputno usputnog usputnu
+5	7805	nezamisliv	nezamisliva nezamislive nezamislivi nezamislivih nezamislivim nezamislivog nezamislivom nezamislivu
+6	7806	rupčić	rupčića rupčiće rupčićem rupčići rupčiću
+7	7807	mirisan	mirisna mirisne mirisni mirisnih mirisnim mirisno mirisnog mirisnom mirisnu
+8	7808	milovati	milovala milovanje milovao miluj miluje milujem miluješ miluju
+9	7809	kruška	krušaka kruškama kruške kruški krušku
+10	7810	izbijati	izbija izbijaju izbijali izbijanje
+11	7811	lopatica	lopaticama lopatice lopatici lopaticom lopaticu
+12	7812	gorući	goruća goruće gorućeg gorućem gorućih gorućim gorućoj gorućom goruću
+13	7813	brineta	brinete brinetom brinetu
+14	7814	lavina	lavine lavini lavinom lavinu
+15	7815	ispijati	ispija ispijaju ispijajući ispijala ispijali ispijam ispijanje ispijao ispijate ispijaš
+16	7816	brzojav	
+17	7817	podučavati	
+18	7818	vizualan	vizualni
+19	7819	paradoks	paradoksa paradokse paradoksom paradoksu
+20	7820	šokantan	šokantna šokantne šokantni šokantnih šokantnim šokantnog šokantnom šokantnu
+21	7821	čedo	čeda čede
+22	7822	spektakl	spektakla spektaklom spektaklu
+23	7823	nogometaš	nogometaša nogometaše nogometašem nogometaši nogometašima
+24	7824	poprsje	poprsja
+25	7825	toplota	toplote toploti toplotom toplotu
+26	7826	preoteti	preotela preoteli preoteo preotme preotmem preotmeš preotmu
+27	7827	tumačiti	tumače tumači tumačili tumačim tumačimo tumačio tumačite tumačiš
+28	7828	aktivist	aktivista aktiviste aktivisti aktivistima
+29	7829	đumbir	đumbira đumbirom
+30	7830	pravilnik	pravilnika pravilnikom pravilniku
+31	7831	prevoditi	prevode prevodeći prevodi prevodila prevodili prevodim prevodio prevodite prevodiš prevođenje
+32	7832	taština	taštine taštini taštinom taštinu
+33	7833	klicati	klicali klicanje kliče kliču
+34	7834	perzijski	perzijska perzijske perzijskih perzijskim perzijsko perzijskog perzijskom perzijsku
+35	7835	kriminalistički	kriminalistička kriminalističke kriminalističkih kriminalističkog kriminalističkoj kriminalističkom kriminalističku
+36	7836	obruč	obruča obruče obručem obruči obruču
+37	7837	komandir	komandira komandire komandiru
+38	7838	tajlandski	tajlandska tajlandske tajlandskog tajlandskom tajlandsku
+39	7839	suradnica	suradnice suradnici suradnicom suradnicu
+40	7840	replika	replici replike replikom repliku
+41	7841	premotati	premotaj premotajmo premotajte premotam premotamo premotao premotaš
+42	7842	glavica	glavice glavici glavicu
+43	7843	golubica	golubice golubici golubicu
+44	7844	dinja	dinjama dinje dinjom dinju
+45	7845	šprica	šprice šprici špricom špricu
+46	7846	autsajder	autsajdera autsajdere autsajderi autsajderima
+47	7847	četrnaest	
+48	7848	mrijeti	mre mrem mri
+49	7849	moljac	moljaca moljca moljce moljci moljcima
+50	7850	otrcan	otrcana otrcane otrcani otrcanih otrcanim otrcanog otrcanom otrcanu
+51	7851	feniks	feniksa fenikse feniksu
+52	7852	dotrčati	dotrčala dotrčali dotrčao dotrči dotrčim dotrčiš
+53	7853	slap	slapa slapova slapove slapovi slapovima
+54	7854	burma	burme burmi burmu
+55	7855	višnja	višanja višnjama višnje višnjom višnju
+56	7856	jugoistočni	jugoistočna jugoistočne jugoistočnog jugoistočnoj jugoistočnom jugoistočnu
+57	7857	ostava	ostave ostavi ostavo ostavu
+58	7858	hobotnica	hobotnice hobotnicom hobotnicu
+59	7859	namjena	namjene namjeni namjenom namjenu
+60	7860	petarda	petardama petarde petardi petardu
+61	7861	kurvica	kurvice kurvicom kurvicu
+62	7862	janjetina	janjetine janjetinom janjetinu
+63	7863	mušica	mušicama mušice mušicu
+64	7864	erotski	erotska erotske erotskih erotskim erotsko erotskog erotskoj erotskom erotsku
+65	7865	stezati	stezala stezanje steže stežem stežeš steži stežu
+66	7866	imitacija	imitacije imitacijom imitaciju
+67	7867	prekjučer	
+68	7868	plaziti	plaze plazi plazila plazio
+69	7869	pseudonim	pseudonima pseudonime pseudonimi pseudonimom
+70	7870	kriterij	kriterija kriterije kriteriji kriterijima kriteriju
+71	7871	biskvit	biskvita biskvite biskviti biskvitu
+72	7872	latica	laticama latice laticu
+73	7873	interakcija	interakcije interakciji interakcijom interakciju
+74	7874	mehanika	mehanici mehanike mehanikom mehaniku
+75	7875	šetač	šetača šetače šetači šetačima šetaču
+76	7876	iskazivati	iskazivali iskazivanje iskazivao iskazuje iskazujem iskazujemo iskazujete iskazuješ iskazuju
+77	7877	sesija	sesijama sesije sesiji sesiju
+78	7878	devetka	devetke devetki devetkom devetku
+79	7879	brežuljak	brežuljaka brežuljci brežuljcima brežuljka brežuljke brežuljku
+80	7880	diktirati	diktira diktiraju diktirala diktiram diktirao
+81	7881	pire	
+82	7882	baron	
+83	7883	odbojan	odbojna odbojni odbojnim odbojno
+84	7884	zvon	zvona zvone zvonom zvonu
+85	7885	pradjed	pradjeda pradjede pradjedova pradjedu
+86	7886	marljiv	marljiva marljive marljivi marljivih marljivim marljivog
+87	7887	minirati	minira miniraju minirali miniramo miniran minirana minirani miniranje minirano minirao miniraš
+88	7888	mula	mulama mule muli mulu
+89	7889	kopneni	kopnena kopnene kopnenih kopnenim kopnenog kopnenu
+90	7890	turbulencija	turbulencije turbulenciju
+91	7891	sandala	sandalama sandale sandalu
+92	7892	proziran	prozirna prozirne prozirni prozirnim prozirno prozirnoj prozirnom prozirnu
+93	7893	koračati	korača koračaj koračajmo koračajte koračaju koračali koračam koračamo koračanje koračao koračaš
+94	7894	lijeniti	lene leni lijene lijeni lijenim
+95	7895	zajeb	
+96	7896	egzorcizam	egzorcizma egzorcizmom egzorcizmu
+97	7897	poslušnost	poslušnosti
+98	7898	skalp	skalpa skalpova skalpove skalpovi skalpu
+99	7899	shrvati	shrvala shrvalo shrvan shrvana shrvani
+100	7900	impulsan	impulsna impulsne impulsni impulsnim impulsnom impulsnu

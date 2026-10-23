@@ -1,0 +1,100 @@
+1	8101	učinkovitost	učinkovitosti
+2	8102	nepotpun	nepotpuna nepotpune nepotpuni nepotpuno
+3	8103	komšiluk	komšiluka komšiluku
+4	8104	djetinjasto	detinjasto
+5	8105	remetiti	remete remeti remetim remetio remetite remetiš remećenje
+6	8106	urođen	urođena urođene urođeni urođenih urođenim urođeno urođenom urođenu
+7	8107	peraja	perajama peraje perajom peraju
+8	8108	klimav	klimava klimave klimavi klimavim klimavo klimavog klimavom
+9	8109	finalni	finalna finalne finalnim finalno finalnog finalnoj finalnom finalnu
+10	8110	vreti	vrela vrele vreli vrenja vreće vreću vri vrio vru vrući
+11	8111	nabrojati	nabroji nabrojim nabrojio nabrojite nabrojiš
+12	8112	šapat	šapata šapatom
+13	8113	okupljati	okuplja
+14	8114	njuškalo	njuškala
+15	8115	mucati	muca mucaju mucala mucam mucao mucaš
+16	8116	zastavnik	zastavnika zastavniče
+17	8117	prdjeti	prde prdi prdim prdio prditi prdiš
+18	8118	pomilovati	pomilovala pomilovali pomilovan pomilovani pomilovao pomiluj pomiluje pomilujem pomiluju
+19	8119	jastreb	jastreba jastrebe jastrebova jastrebove jastrebovi
+20	8120	fleksibilan	fleksibilna fleksibilne fleksibilni fleksibilnija fleksibilniji fleksibilno
+21	8121	galija	galije galiji galiju
+22	8122	namirnica	
+23	8123	intimno	
+24	8124	odlomak	odlomaka odlomci odlomka odlomke odlomku
+25	8125	otpiliti	otpili otpilila otpilili otpilio otpiliš
+26	8126	starina	starinama starine starino starinu
+27	8127	murija	
+28	8128	genetika	genetici genetike genetikom genetiku
+29	8129	olujni	olujna olujne olujnih olujnim olujno olujnog olujnom
+30	8130	birokracija	birokracije birokraciji birokracijom birokraciju
+31	8131	štaka	štakama štake štakom štaku
+32	8132	pokop	
+33	8133	upitnik	upitnika upitnike upitnikom upitniku
+34	8134	tenzija	tenzije tenziju
+35	8135	vrisnuti	vrisne vrisnem vrisneš vrisni vrisnula vrisnuo
+36	8136	trčkarati	trčkara trčkaraju trčkarala trčkaram trčkaranje trčkarao trčkaraš
+37	8137	tikva	tikve tikvi tikvica tikvo tikvu
+38	8138	jedinac	jedinca jedincu
+39	8139	narasti	
+40	8140	podložan	podložna podložne podložni podložniji podložnim podložno
+41	8141	isušiti	isuše isušen isušena isušene isušeni isušeno isuši isušila isušili isušilo isušio
+42	8142	ljudstvo	ljudstva ljudstvom ljudstvu
+43	8143	jegulja	jeguljama jegulje jegulju
+44	8144	tetak	teci tetke tetkom tetku teče
+45	8145	balerina	balerine balerinom balerinu
+46	8146	ulagati	ulaže
+47	8147	opatica	opaticama opatice opaticu
+48	8148	ratnički	ratnička ratničke ratničkih ratničkim ratničko ratničkog ratničkoj ratničkom ratničku
+49	8149	prodan	prodana prodane prodani prodanih prodano prodanog prodanu
+50	8150	razglas	razglasa razglasi razglasu
+51	8151	jeka	jeke jeko jeku
+52	8152	kapati	kapala kapalo kapanje kapao kaplje kaplju
+53	8153	sudoper	
+54	8154	pozorište	pozorišta pozorištu
+55	8155	nasljedan	nasledno nasljedna nasljedne nasljedni nasljedno nasljednu
+56	8156	općina	općine općini općinu
+57	8157	decenija	decenijama decenije deceniji deceniju
+58	8158	premalen	premalena premalene premaleni premaleno
+59	8159	ludjeti	lude ludi ludim ludimo ludio ludiš ludjela
+60	8160	protivno	
+61	8161	plivač	plivača plivače plivači
+62	8162	ležeran	ležerna ležerni ležernije ležerno ležernu
+63	8163	kam	kama kame kami
+64	8164	skaut	skauta skaute skauti skautima
+65	8165	gumica	gumicama gumice gumicom gumicu
+66	8166	gomilati	gomilaju gomilali gomilanje gomilao gomilaš
+67	8167	protestant	protestanata protestanta protestante protestanti protestantima
+68	8168	republikanski	republikanska republikanske republikanskih republikanskim republikanskog republikanskoj republikanskom republikansku
+69	8169	paradajz	paradajza paradajzom
+70	8170	zataškavanje	zataškavanja zataškavanju
+71	8171	vizitka	vizitke vizitki vizitku
+72	8172	istrošiti	istroše istroši istrošila istrošile istrošili istrošilo istrošio
+73	8173	iskopavati	iskopava iskopavaju iskopavali iskopavam iskopavamo iskopavanje iskopavao iskopavaš
+74	8174	istovariti	istovare istovari istovarili istovarim istovarimo istovario istovarite
+75	8175	dvorski	dvorska dvorske dvorskih dvorskim dvorskog dvorskoj dvorskom dvorsku
+76	8176	nalijevo	nalevo
+77	8177	postanak	postanka postanku
+78	8178	ugostiti	ugosti ugostila ugostili ugostim ugostimo ugostio
+79	8179	mikroskopski	mikroskopska mikroskopske mikroskopskih mikroskopskim mikroskopskog mikroskopskom mikroskopsku
+80	8180	predodžba	predodžbe predodžbi predodžbu
+81	8181	točnost	točnosti točnošću
+82	8182	sorta	sorte sorti sortu
+83	8183	poništavati	poništava poništavaju poništavam poništavanje
+84	8184	štetočina	štetočinama štetočine štetočino štetočinu
+85	8185	goblin	goblina gobline goblini goblinima
+86	8186	misionar	misionara misionare misionari misionarima
+87	8187	krizni	krizna krizne kriznih kriznim krizno kriznog kriznoj kriznom kriznu
+88	8188	potop	potopa potope potopi potopom potopu
+89	8189	navikavati	navikava navikavaj navikavaju navikavam navikavanje navikavaš
+90	8190	nekadašnji	nekadašnja nekadašnje nekadašnjeg nekadašnjem nekadašnjih nekadašnjim nekadašnjoj nekadašnju
+91	8191	začudo	
+92	8192	naslijeđe	
+93	8193	jarbol	jarbola jarbole jarboli jarbolu
+94	8194	punica	punice punici punicom punicu
+95	8195	bokserice	bokserica boksericama
+96	8196	elektromagnetski	elektromagnetska elektromagnetske elektromagnetskih elektromagnetskim elektromagnetsko elektromagnetskog elektromagnetsku
+97	8197	abnormalan	abnormalna abnormalne abnormalni abnormalnih abnormalnim abnormalnima abnormalnog abnormalnu
+98	8198	šamar	šamara šamare
+99	8199	saobraćajni	saobraćajna saobraćajne saobraćajnih saobraćajnoj saobraćajnom saobraćajnu
+100	8200	kolektivan	kolektivna kolektivne kolektivni kolektivnim kolektivnog kolektivnoj kolektivnom kolektivnu

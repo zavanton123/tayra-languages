@@ -1,0 +1,100 @@
+1	3301	građanski	građanska građanske građanskih građanskim građansko građanskog građanskoga građanskoj građanskom građansku
+2	3302	gaćice	gaćica gaćicama
+3	3303	upitati	upita upitah upitaj upitajmo upitajte upitaju upitala upitali upitam upitamo upitani upitao upitate upitaš
+4	3304	at	ata ate ati atom atoma atome atomi atomima atomom atomu atu
+5	3305	oblačiti	oblače oblačenje oblači oblačila oblačili oblačim oblačimo oblačio oblačite oblačiš
+6	3306	obrazovanje	obrazovanja obrazovanjem obrazovanju
+7	3307	progoniti	progone progoneći progoni progonila progonile progonili progonilo progonim progonimo progonio progonite progoniš progonjen progonjena progonjeni
+8	3308	privremeno	
+9	3309	iskorištavati	iskorištava iskorištavaju iskorištavajući iskorištavala iskorištavali iskorištavam iskorištavamo iskorištavana iskorištavanje iskorištavao iskorištavate iskorištavaš
+10	3310	pregovor	pregovora pregovore pregovori pregovorima
+11	3311	zanemariti	zanemare zanemaren zanemarena zanemarene zanemareni zanemareno zanemari zanemarila zanemarili zanemarim zanemarimo zanemario zanemarite zanemariš
+12	3312	iskupiti	iskupe iskupi iskupila iskupili iskupim iskupimo iskupio iskupite iskupiću iskupiš iskupljenje
+13	3313	poremetiti	poremete poremeti poremetila poremetile poremetili poremetilo poremetim poremetimo poremetio poremetite poremetiš poremećen poremećena poremećene poremećeni poremećeno
+14	3314	razvijati	razvija razvijaj razvijaju razvijajući razvijala razvijale razvijali razvijalo razvijam razvijamo razvijanje razvijao razvijate razvijaš
+15	3315	grobnica	grobnicama grobnice grobnici grobnicom grobnicu
+16	3316	mrtvačnica	mrtvačnicama mrtvačnice mrtvačnici mrtvačnicom mrtvačnicu
+17	3317	značajan	najznačajnija najznačajnije najznačajniji najznačajnijih značajna značajne značajni značajnih značajnija značajnije značajniji značajnijih značajniju značajnim značajnog značajnoj značajnom značajnu
+18	3318	rezervni	rezervna rezervne rezervnih rezervnim rezervno rezervnog rezervnoj rezervnom rezervnu
+19	3319	ar	ara are ari aru
+20	3320	zarobljenik	zarobljenici zarobljenicima zarobljenika zarobljenike zarobljenikom zarobljeniku
+21	3321	deka	dekama deke deki deko dekom deku
+22	3322	zaprositi	zaprosi zaprosila zaprosili zaprosim zaprosio zaprosiš
+23	3323	spavaći	spavaća spavaće spavaćih spavaćim spavaćoj spavaćom spavaću
+24	3324	roniti	rone roneći roni ronila ronili ronim ronimo ronio ronite roniš ronjenje
+25	3325	pakirati	pakira pakiraj pakirajte pakiraju pakirala pakirali pakiram pakiramo pakiran pakirane pakirani pakiranje pakirano pakirao pakirate pakiraš
+26	3326	dodijeliti	dodele dodeli dodelila dodelili dodelio dodeliti dodeljen dodeljena dodeljene dodijele dodijeli dodijelila dodijelili dodijelim dodijelio dodijelite dodijeljen dodijeljena dodijeljene dodijeljeni dodijeljeno
+27	3327	smrznuti	smrzne smrznem smrznemo smrznete smrzneš smrzni smrznu smrznula smrznuli smrznulo smrznuo smrznut smrznuta smrznute smrznuto
+28	3328	prizor	prizora prizore prizori prizorima prizorom prizoru
+29	3329	karton	kartona kartone kartonom kartonu
+30	3330	zagonetka	zagonetkama zagonetke zagonetki zagonetkom zagonetku
+31	3331	crtež	crteža crteže crteži crtežima crtežom crtežu
+32	3332	smrdljiv	smrdljiva smrdljive smrdljivi smrdljivih smrdljivim smrdljivo smrdljivog smrdljivoj smrdljivom smrdljivu
+33	3333	santa	
+34	3334	agresivan	agresivna agresivne agresivni agresivnih agresivnija agresivnije agresivniji agresivnim agresivno agresivnog agresivnom agresivnu
+35	3335	impresioniran	impresionirana impresionirane impresionirani impresionirano
+36	3336	vodič	vodiča vodiče vodičem vodiči vodičima vodiču
+37	3337	sklanjati	sklanja sklanjaj sklanjajte sklanjaju sklanjala sklanjali sklanjam sklanjamo sklanjanje sklanjao sklanjate sklanjaš
+38	3338	varalica	varalicama varalice varalici varalico varalicom varalicu
+39	3339	oglas	oglasa oglase oglasi oglasima oglasom oglasu
+40	3340	karakter	karaktera karaktere karakteri karakterima karakterom karakteru
+41	3341	pretraživati	pretraživala pretraživali pretraživanje pretraživao pretražuje pretražujem pretražujemo pretražujete pretražuješ pretražujte pretražuju pretražujući
+42	3342	nacist	nacista naciste nacisti nacistima nacistom nacistu
+43	3343	ponoć	ponoćni
+44	3344	otmjen	otmen otmena otmene otmeni otmeno otmenom otmjena otmjene otmjeni otmjenih otmjenije otmjeniji otmjenim otmjeno otmjenog otmjenoj otmjenom otmjenu
+45	3345	užitak	užici užicima užitaka užitci užitka užitke užitkom užitku
+46	3346	pretući	pretuci pretukao pretukla pretukli pretuku pretuče pretučem pretučen pretučena pretučene pretučeni pretučeno pretučeš
+47	3347	preporuka	preporuci preporukama preporuke preporukom preporuku
+48	3348	obdukcija	obdukcijama obdukcije obdukciji obdukcijom obdukciju
+49	3349	prenositi	prenose prenoseći prenosi prenosila prenosile prenosili prenosilo prenosim prenosimo prenosio prenosite prenosiš prenošena prenošene prenošenje prenošeno
+50	3350	automatski	automatska automatske automatskih automatskim automatsko automatskog automatskoj automatskom automatsku
+51	3351	prosto	
+52	3352	spis	spisa spise spisi spisima spisu
+53	3353	rujan	rujna rujnu
+54	3354	dodatak	dodaci dodacima dodataka dodatka dodatke dodatkom dodatku
+55	3355	počastiti	počasti počastila počastili počastim počastimo počastio počastite počastiš počašćen počašćena počašćeni počašćeno
+56	3356	ekran	ekrana ekrane ekrani ekranima ekranom ekranu
+57	3357	pozor	
+58	3358	maslac	maslaca maslacem maslacu
+59	3359	bus	busa buseva busevi busevima busom busu
+60	3360	udaljiti	udalje udalji udaljila udaljile udaljili udaljilo udaljim udaljimo udaljio udaljite udaljiš
+61	3361	pobunjenik	pobunjenici pobunjenicima pobunjenika pobunjenike pobunjenikom
+62	3362	farmer	farmera farmere farmeri farmerima farmerom farmeru
+63	3363	žedan	žedna žedne žedni žednih žednim žedno žednog
+64	3364	namještaj	nameštaj nameštaja nameštajem nameštaju namještaja namještajem namještaju
+65	3365	gnijezdo	gnezda gnezdo gnezdu gnijezda gnijezdima gnijezdom gnijezdu
+66	3366	šminka	šminke šminki šminkom šminku
+67	3367	navaliti	navale navali navalila navalile navalili navalim navalimo navalio navalite navališ
+68	3368	utočište	utočišta utočištem utočištu
+69	3369	unutrašnji	unutrašnja unutrašnje unutrašnjeg unutrašnjem unutrašnjih unutrašnjim unutrašnjoj unutrašnjom unutrašnju
+70	3370	nasljednik	naslednici naslednik naslednika naslednikom nasledniku nasljednici nasljednicima nasljednika nasljednike nasljednikom nasljedniku
+71	3371	prodavač	prodavača prodavače prodavačem prodavači prodavačima prodavaču
+72	3372	znatiželjan	znatiželjna znatiželjne znatiželjni znatiželjnih znatiželjnim znatiželjno
+73	3373	šou	
+74	3374	inteligentan	inteligentna inteligentne inteligentni inteligentnih inteligentnije inteligentniji inteligentnim inteligentno inteligentnog inteligentnom inteligentnu najinteligentnija najinteligentniji
+75	3375	kinuti	kine kini kinu kinuo
+76	3376	fond	fonda fondom fondova fondove fondovi fondovima fondu
+77	3377	konobarica	konobaricama konobarice konobarici konobaricom konobaricu
+78	3378	pandur	pandura pandure panduri pandurima pandurom panduru
+79	3379	beo	bel bele beli belih belim belo belog beloj belom belu
+80	3380	magla	magle magli maglom maglu
+81	3381	složen	najsloženija najsloženije najsloženiji složena složene složeni složenih složenija složenije složeniji složenim složeno složenog složenoj složenom složenu
+82	3382	ranjiv	najranjivija najranjivije najranjiviji ranjiva ranjive ranjivi ranjivih ranjivija ranjiviji ranjivim ranjivima ranjivo ranjivog ranjivom ranjivu
+83	3383	završni	završna završne završnih završnim završno završnog završnoj završnom završnu
+84	3384	dragulj	dragulja dragulje draguljem dragulji draguljima dragulju
+85	3385	ugristi	ugrize ugrizem ugrizen ugrizena ugrizeš ugrizi ugrizla ugrizli ugrizlo ugrizu
+86	3386	kolovoz	kol kolovoza kolovozu
+87	3387	povremeno	
+88	3388	obraz	obraza obraze obrazi obrazima obrazom obrazu
+89	3389	spasti	spade spadne spadnu spala spale spali spalo spao spasao spasavati spase spasem spasemo spasen spasena spaseni spasete spaseš spasi spasimo spasite spasla spasli spasu
+90	3390	nadoknaditi	nadoknade nadoknadi nadoknadila nadoknadili nadoknadim nadoknadimo nadoknadio nadoknadite nadoknadiću nadoknadiš
+91	3391	rabiti	rabe rabeći rabi rabila rabili rabim rabimo rabio rabite rabiš rabljen rabljena rabljene rabljeni rabljeno
+92	3392	inteligencija	inteligencije inteligenciji inteligencijom inteligenciju
+93	3393	kvaliteta	kvalitete kvaliteti kvalitetom kvalitetu
+94	3394	ručati	ruča ručaj ručajmo ručajte ručaju ručala ručale ručali ručam ručamo ručanje ručao ručate ručaš
+95	3395	funkcija	funkcijama funkcije funkciji funkcijom funkciju
+96	3396	crtati	crtaj crtaju crtajući crtala crtali crtam crtamo crtane crtani crtanje crtao crtate crtaće crtaću crtaš
+97	3397	lozinka	lozinkama lozinke lozinki lozinkom lozinku
+98	3398	narukvica	narukvicama narukvice narukvici narukvicom narukvicu
+99	3399	tajanstven	najtajanstvenijih tajanstvena tajanstvene tajanstveni tajanstvenih tajanstvenim tajanstvenog tajanstvenoj tajanstvenom tajanstvenu
+100	3400	klavir	klavira klavire klaviri klavirom klaviru

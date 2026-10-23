@@ -1,0 +1,100 @@
+1	7501	poručivati	poručuje poručujem poručujemo poručuješ poručuju
+2	7502	sonar	sonara sonare sonarom sonaru
+3	7503	neoprezan	neoprezna neoprezne neoprezni neoprezno
+4	7504	drijemati	drema drijema drijemaju drijemajući drijemala drijemali drijemam drijemanje drijemao drijemaš
+5	7505	književni	književna književne književnih književnim književno književnog književnoj književnom književnu
+6	7506	šepati	šepa šepajući šepam šepanje šepao šepate šepaš
+7	7507	kristalno	
+8	7508	prikrivanje	prikrivanja prikrivanjem prikrivanju
+9	7509	stolić	stolića stoliće stoliću
+10	7510	folio	folija folije foliji folijom foliju
+11	7511	zatajiti	zataje zataji zatajila zatajili zatajilo zatajio zatajite zatajiš
+12	7512	grebati	grebala grebali grebanje grebe grebem grebeš grebi grebu
+13	7513	lija	lije liju
+14	7514	ogovarati	ogovara ogovaraju ogovarala ogovarali ogovaram ogovaramo ogovaranje ogovarao ogovarate ogovaraš
+15	7515	patika	patikama patike patiku
+16	7516	transfuzija	transfuzije transfuzijom transfuziju
+17	7517	kapelica	kapelice kapelici kapelicu
+18	7518	nečist	nečista nečiste nečisti nečistih nečistim nečisto nečistu
+19	7519	postolje	postolja postolju
+20	7520	artiljerija	artiljerije artiljeriji artiljerijom artiljeriju
+21	7521	štikla	štiklama štikle štikli štiklom štiklu
+22	7522	škrt	škrta škrti škrto
+23	7523	sekta	sekte sekti sektom sektu
+24	7524	savijati	savija savijaj savijaju savijam savijanje savijaš
+25	7525	divljati	divlja divljaju divljala divljali divljanje divljao divljaš
+26	7526	pripremljen	
+27	7527	zabilješka	zabilješkama zabilješke zabilješki zabilješku
+28	7528	rendžer	
+29	7529	povraćati	
+30	7530	pustoš	pustoši
+31	7531	suprotstavljati	suprotstavlja suprotstavljaj suprotstavljaju suprotstavljala suprotstavljali suprotstavljam suprotstavljamo suprotstavljanje suprotstavljao suprotstavljate suprotstavljaš
+32	7532	smjernica	smernice smjernicama smjernice smjernicu
+33	7533	ikona	ikonama ikone ikonom ikonu
+34	7534	matica	matice matici maticom maticu
+35	7535	zloglasan	najzloglasniji najzloglasnijih zloglasna zloglasne zloglasni zloglasnih zloglasnim zloglasno zloglasnog zloglasnom
+36	7536	vjerodostojan	vjerodostojna vjerodostojne vjerodostojni vjerodostojniji vjerodostojnim vjerodostojno vjerodostojnog vjerodostojnu
+37	7537	odvijač	odvijača odvijačem
+38	7538	organizator	organizatora organizatore organizatori organizatorima organizatorom
+39	7539	galeb	galeba galebe galebova galebove galebovi galebovima
+40	7540	raspustiti	raspuste raspusti raspustila raspustili raspustim raspustio raspustite raspušten raspuštena raspuštene raspušteni
+41	7541	toksin	toksina toksine toksini toksinima
+42	7542	obličje	obličja obličju
+43	7543	omamiti	omame omami omamila omamili omamio omamljen omamljena omamljeni omamljeno
+44	7544	izviđati	izviđa izviđaju izviđali izviđam izviđanje izviđao
+45	7545	krivični	krivična krivične krivičnih krivičnim krivičnog krivičnom krivičnu
+46	7546	ljupko	
+47	7547	sluz	sluzi
+48	7548	finski	finska finske finskog finskoj finskom finsku
+49	7549	statistički	statistička statističke statističkih statističku
+50	7550	nepošten	nepoštena nepoštene nepošteni nepoštenih nepoštenim nepoštenog nepoštenu
+51	7551	kamenica	kamenicama kamenice kamenicu
+52	7552	odjek	odjeci odjeka odjeke odječe
+53	7553	blistati	blista blistaj blistaju blistala blistale blistam blistao blistate blistaš
+54	7554	golotinja	golotinje golotinji golotinjom golotinju
+55	7555	apostol	apostola apostole apostoli apostolima apostolu
+56	7556	uzgojiti	uzgojen uzgojena uzgojene uzgojeni uzgojeno uzgoji uzgojila uzgojili uzgojimo uzgojio
+57	7557	predujam	predujma predujmom
+58	7558	velikodušnost	velikodušnosti velikodušnošću
+59	7559	nepravedan	nepravedna nepravedne nepravedni nepravednih nepravednim nepravednog nepravednom nepravednu
+60	7560	pjega	pega pege pegi pjegama pjege pjegu
+61	7561	tuce	tuceta
+62	7562	pritvoriti	pritvore pritvoren pritvorena pritvoreni pritvori pritvorili pritvorim pritvorimo pritvorio pritvorite
+63	7563	proljev	
+64	7564	devin	devina devine devino devinu
+65	7565	kaubojski	kaubojska kaubojske kaubojskih kaubojskim kaubojsko kaubojskog kaubojskom kaubojsku
+66	7566	rasizam	rasizma rasizmom rasizmu
+67	7567	jačina	jačine jačini jačinom jačinu
+68	7568	pripisati	pripisala pripisali pripisan pripisana pripisano pripisao pripišemo pripiši pripišu
+69	7569	štenac	štenaca štenca štence štenci štencima
+70	7570	arheološki	arheološka arheološke arheoloških arheološkim arheološko arheološkog arheološkom arheološku
+71	7571	poriv	poriva porive porivi porivima porivom porivu
+72	7572	papagaj	papagaja papagaje papagajem papagaji papagaju
+73	7573	spontano	
+74	7574	ćale	
+75	7575	kanap	konop
+76	7576	objektivan	objektivna objektivne objektivni objektivnog objektivnu
+77	7577	povorka	povorci povorke povorku
+78	7578	pogan	pogana pogane pogani poganim poganima pogano poganu
+79	7579	pripasti	pripadne pripadnu pripala pripali pripalo pripao
+80	7580	strašiti	straše straši strašili strašim strašio strašite strašiš
+81	7581	skupljati	
+82	7582	otprije	
+83	7583	tanjir	tanjira tanjire tanjiri tanjirima tanjirom tanjiru
+84	7584	zbrojiti	zbroje zbroji zbrojila zbrojili zbrojim zbrojimo zbrojio zbrojite zbrojiš
+85	7585	kovati	kovala kovali kovan kovani kovanje kovao kuje kujem kujemo kujete kuješ kuju
+86	7586	šipak	šipci šipke šipkom šipku
+87	7587	tabor	tabora taboru
+88	7588	prolazak	prolaska prolaskom prolasku
+89	7589	prisezati	priseže prisežem prisežemo prisežete prisežeš prisežu
+90	7590	nestvaran	nestvarna nestvarne nestvarni nestvarnim nestvarno
+91	7591	nenormalan	nenormalna nenormalne nenormalni nenormalno nenormalnu
+92	7592	intimnost	intimnosti intimnošću
+93	7593	grančica	grančicama grančice grančicom grančicu
+94	7594	rizičan	rizična rizične rizični rizičnih rizičnije rizičnim rizičnog rizičnom rizičnu
+95	7595	njihati	njihanje njihao njiše njišem njišemo njišeš njiši njišu njišući
+96	7596	novorođenče	novorođenčad novorođenčadi novorođenčeta novorođenčetom novorođenčetu
+97	7597	sumpor	sumpora sumporom sumporu
+98	7598	istopiti	istope istopi istopila istopile istopili istopilo istopim istopio istopljen istopljena istopljeni istopljeno
+99	7599	stalak	stalci stalka stalke stalkom stalku
+100	7600	naseljen	naseljena naseljene naseljeni naseljenih naseljenim naseljeno naseljenog naseljenom naseljenu

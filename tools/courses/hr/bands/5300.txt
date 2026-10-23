@@ -1,0 +1,100 @@
+1	5201	svoditi	svode svodi svodilo svodio
+2	5202	živcirati	živcira živciraj živciraju živcirala živciralo živciram živciranje živcirao živcirate živciraš
+3	5203	biologija	biologije biologiji biologijom biologiju
+4	5204	ukleti	uklela ukleo uklet ukleta uklete ukleto
+5	5205	kvalitetan	kvalitetna kvalitetne kvalitetni kvalitetnih kvalitetnije kvalitetniji kvalitetnim kvalitetno kvalitetnog kvalitetnom kvalitetnu najkvalitetnije najkvalitetniji
+6	5206	violina	violine violini violinom violinu
+7	5207	osuda	osudama osude osudi osudom osudu
+8	5208	ukratko	
+9	5209	sprijateljiti	sprijatelje sprijatelji sprijateljila sprijateljile sprijateljili sprijateljim sprijateljimo sprijateljio sprijateljite sprijateljiš
+10	5210	bal	
+11	5211	ljepotan	lepotan lepotana lepotane ljepotana ljepotane ljepotani ljepotanom ljepotanu
+12	5212	smrzavati	smrzava smrzavaju smrzavajući smrzavala smrzavali smrzavam smrzavamo smrzavanje smrzavao smrzavate smrzavaš
+13	5213	prtljag	prtljage prtljagom prtljagu prtljazi
+14	5214	diktator	diktatora diktatore diktatori diktatorima diktatorom diktatoru
+15	5215	uporan	uporna uporne uporni uporniji upornog
+16	5216	branitelj	branitelja branitelje braniteljem branitelji braniteljima branitelju
+17	5217	izreka	izreci izrekama izreke izreku
+18	5218	omogućavati	omogućava omogućavaju omogućavajući omogućavala omogućavali omogućavalo omogućavam omogućavamo omogućavanje omogućavao
+19	5219	zažaliti	zažali zažalila zažalili zažalim zažalio zažalićete zažalićeš zažališ
+20	5220	realnost	realnosti realnošću
+21	5221	vjerojatnost	vjerojatnosti vjerojatnostima vjerojatnošću
+22	5222	zbirka	zbirci zbirke zbirkom zbirku
+23	5223	pogodan	najpogodnije najpogodniji pogodna pogodne pogodni pogodnih pogodnije pogodniji pogodnim pogodno pogodnog pogodnom pogodnu
+24	5224	lažljiv	lažljiva lažljive lažljivi lažljivim lažljivo lažljivog lažljivom lažljivu
+25	5225	osjećajan	osećajan osećajna osećajno osjećajna osjećajne osjećajni osjećajnih osjećajniji osjećajnim osjećajno osjećajnog osjećajnom osjećajnu
+26	5226	mađioničar	mađioničara mađioničare mađioničari mađioničaru
+27	5227	uvod	uvoda uvode uvodi uvodom uvodu
+28	5228	udvostručiti	udvostruče udvostručen udvostručena udvostručenje udvostruči udvostručila udvostručili udvostručilo udvostručim udvostručimo udvostručio udvostručite udvostručiš
+29	5229	balet	baleta baletom baletu
+30	5230	regija	regijama regije regiji regijom regiju
+31	5231	šišati	šiša šišaj šišaju šišala šišam šišamo šišanje šišao šišaš
+32	5232	očuh	očuha očuhom očuhu
+33	5233	nitkov	nitkova nitkove nitkovi nitkovima nitkovom nitkovu
+34	5234	tacna	tacne tacni tacno tacnu
+35	5235	razveseliti	razvesele razveseli razveselila razveselili razveselilo razveselim razveselimo razveselio razveselite razveseliš
+36	5236	flaša	flašama flaše flaši flašom flašu
+37	5237	narodni	narodna narodne narodnih narodnim narodno narodnog narodnoj narodnom narodnu
+38	5238	hladiti	hlade hladi hladila hladilo hladim hladio hlađenje
+39	5239	istaknuti	istakne istaknem istaknemo istakneš istakni istaknimo istaknu istaknula istaknuli istaknuo istaći
+40	5240	urin	urina urinom urinu
+41	5241	krastavac	krastavaca krastavca krastavce krastavci krastavcima
+42	5242	protjerati	proterali proteran proterana proterani proterao proterati protjera protjeraj protjeraju protjerala protjerali protjeramo protjeran protjerana protjerani protjerano protjerao protjeraš
+43	5243	prisjetiti	prisetim prisjete prisjeti prisjetila prisjetili prisjetim prisjetimo prisjetio prisjetite prisjetiš
+44	5244	iskra	iskrama iskre iskri iskrom iskru
+45	5245	rječnik	rečnik rečnikom rečniku riječnik rječnika rječnikom rječniku
+46	5246	gajiti	gaje gaji gajila gajili gajim gajimo gajio gajite gajiš
+47	5247	novčani	novčana novčane novčanih novčanim novčano novčanog novčanoj novčanom novčanu
+48	5248	prepuštati	prepušta prepuštaj prepuštaju prepuštajući prepuštam prepuštamo prepuštanje prepuštao prepuštate prepuštaš
+49	5249	onuda	
+50	5250	cjelina	celina celine celini celinu cjeline cjelini cjelinu
+51	5251	insekt	insekata insekta insekte insekti insektima insektu
+52	5252	pomfrit	pomfrita pomfritom pomfritu
+53	5253	plesač	plesača plesače plesačem plesači plesačima plesaču
+54	5254	era	ere eri erom eru
+55	5255	sjebano	
+56	5256	opravdanje	opravdanja
+57	5257	konvoj	konvoja konvoje konvojem konvoji konvojima konvoju
+58	5258	porotnik	porotnici porotnicima porotnika porotnike porotnikom porotniče
+59	5259	arheolog	arheologa arheologe arheologinja arheologom arheolozi arheolozima
+60	5260	deva	devama deve devi devo devom devu
+61	5261	smaknuti	smakao smakne smaknem smaknemo smakneš smakni smaknite smaknu smaknula smaknuli smaknuo smaknut smaknuta smaknuto
+62	5262	gutljaj	gutljaja gutljajem gutljajima gutljaju
+63	5263	povjerenik	poverenik povjerenici povjerenika povjerenikom povjereniku povjereniče
+64	5264	artefakt	artefakta artefakte artefakti artefaktima artefaktom artefaktu
+65	5265	umiroviti	umirovi umirovili umirovim umirovio umiroviš umirovljen umirovljena umirovljene umirovljeni umirovljenje
+66	5266	uporno	
+67	5267	hod	hoda hodom hodu
+68	5268	diskretan	diskretna diskretne diskretni diskretnija diskretnije diskretniji diskretnog diskretnu
+69	5269	slabić	slabića slabiće slabićem slabići slabićima slabiću
+70	5270	obalni	obalna obalne obalnih obalnim obalnog obalnoj obalnom obalnu
+71	5271	izrađivati	izrađivala izrađivali izrađivanje izrađivao izrađuje izrađujem izrađujemo izrađujete izrađuješ izrađuju izrađujući
+72	5272	udisati	udisala udisali udisanje udisao udiše udišem udišemo udišete udišeš udiši udišite udišu udišući
+73	5273	sporedan	sporedna sporedne sporedni sporednih sporednim sporedno sporednog sporednoj sporednom sporednu
+74	5274	sumnjičav	sumnjičava sumnjičave sumnjičavi sumnjičavim sumnjičavo
+75	5275	nevjesta	nevesta neveste nevestu nevjeste nevjesti nevjesto nevjestom nevjestu
+76	5276	crći	crkao crkla crkle crkli crklo crkne crknem crkneš crkni crknite crknu crknula crknuo crknut crknuti
+77	5277	osnivač	osnivača osnivače osnivačem osnivači osnivačima osnivaču
+78	5278	rasprodaja	rasprodajama rasprodaje rasprodaji rasprodaju
+79	5279	postelja	postelje postelji postelju
+80	5280	utrkivati	utrkivala utrkivali utrkivanje utrkivao utrkuje utrkujem utrkujemo utrkujete utrkuješ utrkujmo utrkuju
+81	5281	obrva	obrvama obrve obrvi obrvom obrvu
+82	5282	donator	donatora donatore donatori donatorima donatorom donatoru
+83	5283	neočekivan	neočekivana neočekivane neočekivani neočekivanih neočekivanim neočekivanog neočekivanoj neočekivanom neočekivanu
+84	5284	retardiran	retardirana retardirane retardirani retardiranih retardiranim retardirano retardiranog retardiranom retardiranu
+85	5285	prepisati	prepisala prepisali prepisan prepisana prepisane prepisani prepisano prepisao prepiše prepišem prepišete prepišeš prepiši prepišite
+86	5286	praktičan	praktična praktične praktični praktičnih praktičnije praktičniji praktičnim praktičnog praktičnoj praktičnom praktičnu
+87	5287	kongresmen	kongresmena kongresmene kongresmeni kongresmenima kongresmenom kongresmenu
+88	5288	povučen	povučena povučene povučeni povučeno povučenog povučenom
+89	5289	nadležnost	nadležnosti nadležnošću
+90	5290	iskrcati	iskrca iskrcaj iskrcajte iskrcaju iskrcala iskrcale iskrcali iskrcalo iskrcam iskrcamo iskrcan iskrcao iskrcate iskrcaš
+91	5291	ruž	ružem ruževe ružu
+92	5292	premalo	
+93	5293	pobačaj	pobačaja pobačaje pobačajem pobačaji pobačaju
+94	5294	prenoćiti	prenoće prenoći prenoćila prenoćili prenoćim prenoćimo prenoćio prenoćite prenoćiš
+95	5295	zaboljeti	zabole zabolelo zaboli zabolio zaboljela zaboljelo
+96	5296	tabla	tablama table tabli tablo tablom tablu
+97	5297	nepodnošljiv	nepodnošljiva nepodnošljive nepodnošljivi nepodnošljivim nepodnošljivo nepodnošljivom nepodnošljivu
+98	5298	samoća	samoće samoći samoćom samoću
+99	5299	priručnik	priručnici priručnicima priručnika priručnike priručnikom priručniku
+100	5300	kurir	kurira kurire kuriri kuririma kurirom kuriru

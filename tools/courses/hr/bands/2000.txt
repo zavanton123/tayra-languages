@@ -1,0 +1,100 @@
+1	1901	milo	mila mile mili milom milu
+2	1902	kontaktirati	kontaktira kontaktiraj kontaktirajte kontaktiraju kontaktirala kontaktirali kontaktiram kontaktiramo kontaktiranje kontaktirao kontaktirate kontaktiraću kontaktiraš
+3	1903	buka	buci buke bukom buku
+4	1904	ocean	oceana oceane oceani oceanima oceanom oceanski oceanu
+5	1905	motiv	motiva motive motivi motivima motivom motivu
+6	1906	svjež	najsvježija najsvježije najsvježiji svež sveža svežeg svežem sveži svežih svežim svežu svježa svježeg svježega svježem svježi svježih svježija svježije svježiji svježim svježoj svježom svježu
+7	1907	sramota	sramote sramoti sramoto sramotom sramotu
+8	1908	uhapsiti	uhapse uhapsi uhapsila uhapsili uhapsim uhapsimo uhapsio uhapsite uhapsiće uhapsićemo uhapsićeš uhapsiću uhapsiš uhapšen uhapšena uhapšene uhapšeni uhapšeno
+9	1909	zaposliti	zaposle zaposli zaposlila zaposlili zaposlim zaposlimo zaposlio zaposlite zaposliću zaposliš
+10	1910	igračka	igračaka igračkama igračke igrački igračkom igračku
+11	1911	okretati	okretala okretale okretali okretalo okretanje okretao okreće okrećem okrećemo okrećete okrećeš okreći okrećite okreću okrećući
+12	1912	svijetao	najsvetliji najsvjetlija najsvjetlije najsvjetliji svetao svetla svetle svetli svetlije svetlima svetlom svetlu svijetla svijetle svijetli svijetlih svijetlim svijetlima svijetlo svijetlog svijetloj svijetlom svijetlu svjetlija svjetlije svjetliji svjetlijom svjetliju
+13	1913	slava	slave slavi slavo slavom slavu
+14	1914	top	topa tope topom topova topove topovi topovima topu
+15	1915	rub	ruba rube rubom rubova rubove rubovi rubovima rubu
+16	1916	izlazak	izlasci izlascima izlaska izlaske izlaskom izlasku izlazaka
+17	1917	stav	stava stave stavom stavova stavove stavovi stavovima stavu
+18	1918	proizvod	proizvoda proizvode proizvodi proizvodima proizvodom proizvodu
+19	1919	muka	muci mukama muke muko mukom muku
+20	1920	čin	čina činom činova činove činovi činovima činu
+21	1921	jakna	jaknama jakne jakni jaknom jaknu
+22	1922	torta	tortama torte torti tortom tortu
+23	1923	straža	straže straži stražo stražom stražu
+24	1924	dodatan	dodatna dodatne dodatni dodatnih dodatnim dodatnog dodatnoj dodatnom dodatnu
+25	1925	odati	oda odaj odajmo odajte odaju odala odale odali odalo odam odamo odao odate odaću odaš ode odi odo odom odu
+26	1926	sinak	sinko
+27	1927	uključujući	
+28	1928	helikopter	helikoptera helikoptere helikopteri helikopterima helikopterom helikopteru
+29	1929	zakasniti	zakasne zakasni zakasnila zakasnile zakasnili zakasnim zakasnimo zakasnio zakasnite zakasnićemo zakasnićete zakasnićeš zakasniću zakasniš zakašnjenja zakašnjenje zakašnjenjem zakašnjenju
+30	1930	prepustiti	prepuste prepusti prepustila prepustili prepustim prepustimo prepustio prepustite prepustiću prepustiš prepušten prepuštena prepušteni prepušteno
+31	1931	vremenski	vremenska vremenske vremenskih vremenskim vremensko vremenskog vremenskoj vremenskom vremensku
+32	1932	terapija	terapijama terapije terapiji terapijom terapiju
+33	1933	divlji	divlja divljeg divljega divljem divljih divljim divljoj divljom divlju
+34	1934	ljepota	lepota lepote lepoti lepoto lepotom lepotu ljepotama ljepote ljepoti ljepoto ljepotom ljepotu
+35	1935	tokom	
+36	1936	traka	traci trakama trake trakom traku
+37	1937	raniti	rane ranih ranila ranili ranilo ranim ranio ranite raniš ranjen ranjena ranjene ranjeni ranjeno
+38	1938	ormar	ormara ormare ormari ormarima ormarom ormaru
+39	1939	znanstvenik	znanstvenica znanstvenice znanstvenici znanstvenicima znanstvenicu znanstvenika znanstvenike znanstvenikom znanstveniku znanstveniče
+40	1940	nagovoriti	nagovore nagovoren nagovori nagovorila nagovorili nagovorim nagovorimo nagovorio nagovorite nagovoriš
+41	1941	okolnost	okolnosti okolnostima
+42	1942	pokvariti	pokvare pokvari pokvarila pokvarile pokvarili pokvarilo pokvarim pokvarimo pokvario pokvarite pokvarićeš pokvariš
+43	1943	probiti	probi probij probije probijem probijemo probijen probijena probijene probijeni probijeno probijete probiješ probijmo probijte probiju probila probile probili probilo probio
+44	1944	opcija	opcijama opcije opciji opcijom opciju
+45	1945	gurati	gura gurajte guraju gurajući gurala gurali guralo guram guramo guran guranje gurao gurate guraš
+46	1946	izbjegavati	izbegava izbegavaj izbegavajte izbegavaju izbegavala izbegavali izbegavam izbegavamo izbegavanje izbegavao izbegavate izbegavati izbegavaš izbjegava izbjegavaj izbjegavajte izbjegavaju izbjegavajući izbjegavala izbjegavali izbjegavam izbjegavamo izbjegavanje izbjegavao izbjegavate izbjegavaš
+47	1947	stijena	stena stenama stene steni steno stenom stenu stijenama stijene stijeni stijeno stijenom stijenu
+48	1948	marka	maraka marci markama marke marki markica marko markom marku
+49	1949	naredba	naredbama naredbe naredbi naredbom naredbu
+50	1950	ispitivati	ispitivala ispitivali ispitivan ispitivana ispitivani ispitivao ispituj ispituje ispitujem ispitujemo ispitujete ispituješ ispitujte ispituju ispitujući
+51	1951	zatražiti	zatraže zatražena zatraženo zatraži zatražila zatražile zatražili zatražilo zatražim zatražimo zatražio zatražite zatražiš
+52	1952	aerodrom	aerodroma aerodrome aerodromi aerodromima aerodromom aerodromska aerodromske aerodromski aerodromsko aerodromskog aerodromskom aerodromu
+53	1953	mudar	mudra mudre mudri mudrih mudrija mudrije mudrijeg mudriji mudrim mudrima mudro mudrog mudrom mudru najmudrija najmudrije najmudriji
+54	1954	uništavati	uništava uništavaj uništavajte uništavaju uništavajući uništavala uništavali uništavalo uništavam uništavamo uništavanje uništavao uništavate uništavaš
+55	1955	dnevni	dnevna dnevne dnevnih dnevnim dnevnog dnevnoj dnevnom dnevnu
+56	1956	stvarnost	stvarnosti stvarnošću
+57	1957	politički	politička političke političkih političkim političko političkog političkoj političkom političku
+58	1958	pokrivati	pokriva pokrivaj pokrivajte pokrivaju pokrivajući pokrivala pokrivale pokrivali pokrivalo pokrivam pokrivamo pokrivanje pokrivao pokrivate pokrivaću pokrivaš
+59	1959	odustajati	odustaj odustajala odustajali odustajanje odustajao odustaje odustajem odustajemo odustajete odustaješ odustajte odustaju
+60	1960	mračan	mračna mračne mračni mračnih mračnija mračnije mračniji mračniju mračnim mračnog mračnoga mračnoj mračnom mračnome mračnu najmračnija najmračnije najmračnijem najmračniji najmračnijih najmračnijim najmračnijoj najmračniju
+61	1961	oštetiti	oštete ošteti oštetila oštetile oštetili oštetilo oštetim oštetimo oštetio oštetite oštetiš oštećen oštećena oštećene oštećeni oštećenje oštećeno
+62	1962	prijevoz	prevoz prevoza prevozom prevozu prijevoza prijevozom prijevozu
+63	1963	građanin	građana građane građani građanima građanina građanine građaninom građaninu
+64	1964	drugdje	drugde
+65	1965	pauza	pauzama pauze pauzi pauzom pauzu
+66	1966	jednako	
+67	1967	pregled	pregleda preglede pregledi pregledima pregledom pregledu
+68	1968	sisa	sisama sise sisi siso sisom sisu
+69	1969	zamisao	zamisli zamislima
+70	1970	žica	žicama žice žici žicom žicu
+71	1971	plin	plina plinom plinova plinove plinovi plinovima plinu
+72	1972	bojnik	bojnici bojnika bojnike bojnikom bojniku bojniče
+73	1973	serija	serijama serije seriji serijom seriju
+74	1974	bitan	bitna bitne bitni bitnih bitnija bitnije bitniji bitnijih bitnim bitnog bitnoga bitnom bitnu najbitnija najbitnije najbitniji najbitnijih najbitniju
+75	1975	upozorenje	upozorenja
+76	1976	učenik	učenici učenicima učenika učenike učenikom učeniku učeniče
+77	1977	izvršiti	izvrše izvršen izvršena izvršene izvršeni izvršenje izvršeno izvrši izvršila izvršile izvršili izvršilo izvršim izvršimo izvršio izvršite izvršiš
+78	1978	ministar	ministara ministra ministre ministri ministrima ministrom ministru
+79	1979	publika	publici publike publiko publikom publiku
+80	1980	tolik	tolika tolike toliki tolikih tolikim tolikog tolikoj tolikom toliku
+81	1981	navodno	
+82	1982	terorist	terorista teroriste teroristi teroristima teroristom teroristu
+83	1983	teret	tereta terete tereti teretom teretu
+84	1984	muzika	muzici muzike muzikom muziku
+85	1985	sladoled	sladoleda sladolede sladoledi sladoledima sladoledom sladoledu
+86	1986	održavati	održava održavaj održavajte održavaju održavajući održavala održavale održavali održavalo održavam održavamo održavan održavana održavane održavani održavao održavate održavaš
+87	1987	skupiti	skupe skupi skupih skupila skupile skupili skupilo skupim skupimo skupio skupite skupićemo skupiš skupljen skupljena skupljene skupljeni skupljeno
+88	1988	okupiti	okupe okupi okupila okupile okupili okupilo okupim okupimo okupio okupite okupiš okupljena okupljene okupljeni okupljeno
+89	1989	genij	genija genije genijem geniji genijima geniju
+90	1990	odvratno	
+91	1991	đavo	đavola đavole đavoli đavolima đavolom đavolu
+92	1992	pogotovo	
+93	1993	znanost	znanosti znanostima znanošću
+94	1994	obraćati	obraća obraćaj obraćajte obraćaju obraćajući obraćala obraćali obraćam obraćamo obraćanje obraćanju obraćao obraćate obraćaš
+95	1995	stric	strica stricem stricu striče stričeva stričeve stričevi
+96	1996	štit	štita štite štitom štitova štitove štitovi štitovima štitu
+97	1997	klasa	klasama klase klasi klaso klasom klasu
+98	1998	šupak	šupaka šupci šupcima šupka šupke šupkom šupku šupče
+99	1999	vila	vilama vile vili vilo vilom vilu
+100	2000	kut	kuta kute kutom kutova kutove kutovi kutovima kutu

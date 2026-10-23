@@ -1,0 +1,100 @@
+1	7001	nesvjestan	nesvesna nesvesni nesvestan nesvjesna nesvjesne nesvjesni nesvjesnim nesvjesnog nesvjesnom
+2	7002	uvećati	uveća uvećaj uvećajte uvećala uvećali uvećam uvećan uvećana uvećane uvećani uvećanje uvećano uvećao uvećaš
+3	7003	slad	slada slade
+4	7004	maksimalno	
+5	7005	štab	štaba štabu
+6	7006	mineralni	mineralna mineralne mineralnih mineralno mineralnog mineralnom mineralnu
+7	7007	poravnati	poravna poravnaj poravnajte poravnaju poravnali poravnam poravnamo poravnani poravnao poravnate poravnaš
+8	7008	zvaničan	zvanična zvanične zvanični zvaničnih zvaničnim zvaničnog zvaničnoj zvaničnom zvaničnu
+9	7009	renovirati	renovira renoviraju renovirala renovirali renoviram renoviramo renoviran renovirana renoviranje renovirao renovirate
+10	7010	sramotan	najsramotniji sramotna sramotne sramotni sramotnih sramotnije sramotnim sramotnog sramotnom sramotnu
+11	7011	klečati	klečala klečali klečanje klečao kleče klečeći kleči klečim klečimo klečite klečiš
+12	7012	napušiti	napuše napuši napušila napušili napušim napušimo napušio napušite napušiš
+13	7013	elegantno	
+14	7014	smočiti	smoče smoči smočila smočili smočim smočimo smočio smočite smočiš
+15	7015	upijati	upija upijaj upijaju upijajući upijala upijam upijanje upijao upijaš
+16	7016	slezena	slezene slezeni slezenu
+17	7017	imperator	imperatora imperatore imperatorom imperatoru
+18	7018	pješak	pešak pešaka pješaci pješacima pješaka pješake pješače
+19	7019	kremirati	kremira kremiraju kremirali kremiran kremirana kremirani kremiranje kremirano kremirao
+20	7020	južan	južnu
+21	7021	milimetar	milimetara milimetra
+22	7022	matrica	matrice matrici matricom matricu
+23	7023	mulj	mulja muljem mulju
+24	7024	trend	trenda trendova trendove trendovi trendovima trendu
+25	7025	karakteristika	karakteristikama karakteristike karakteristiku
+26	7026	gibati	giba gibaj gibajmo gibajte gibaju gibam gibamo gibanje
+27	7027	pravnik	pravnici pravnicima pravnika pravnike pravnikom
+28	7028	naslovnik	naslovnici
+29	7029	stid	stida stide
+30	7030	vikendica	vikendice vikendici vikendicu
+31	7031	mineral	minerala minerale minerali mineralima
+32	7032	nametnuti	nametne nametnem nametnu nametnula nametnuli nametnuo nametnut nametnuta nametnute nametnuto
+33	7033	masnica	masnicama masnice masnicom masnicu
+34	7034	katkada	
+35	7035	odšteta	odštete odštetu
+36	7036	valuta	valutama valute valuti valutom valutu
+37	7037	nasloniti	naslone nasloni naslonila naslonim naslonio naslonite nasloniš naslonjen naslonjena naslonjeni
+38	7038	miti	mij mije mijenje miju miće
+39	7039	dominantan	dominantna dominantne dominantni dominantnih dominantnim dominantno dominantnog dominantnom dominantnu
+40	7040	astronom	astronoma astronome astronomi astronomima
+41	7041	posramiti	posrami posramila posramili posramim posramio posramljena posramljeni posramljeno
+42	7042	nadjačati	nadjača nadjačala nadjačali nadjačan nadjačana nadjačani nadjačao
+43	7043	dojiti	doje dojenje doji dojila dojim dojiš
+44	7044	pokidati	pokida pokidaj pokidala pokidali pokidam pokidan pokidana pokidane pokidani pokidano pokidao pokidaš
+45	7045	odužiti	
+46	7046	kompleksan	kompleksna kompleksne kompleksni kompleksnih kompleksnija kompleksnije kompleksniji kompleksnim kompleksno kompleksnog kompleksnom kompleksnu
+47	7047	globalno	
+48	7048	rakija	rakije rakijom rakiju
+49	7049	originalno	
+50	7050	suzan	suzne suzni suznih
+51	7051	zalagaonica	zalagaonicama zalagaonice zalagaonici zalagaonicu
+52	7052	ništarija	ništarijama ništarije ništarijo ništarijom ništariju
+53	7053	hir	hira hire hirom hirova hirove hirovi hirovima hiru
+54	7054	vjeriti	vere veren verena vereni veri verila verili verio veriti vjere vjeren vjerena vjereni vjeri vjerili vjerio
+55	7055	foto	
+56	7056	razbistriti	razbistri razbistrila razbistrilo razbistrim razbistrio razbistriš
+57	7057	uvodni	uvodna uvodne uvodnih uvodnim uvodno uvodnog uvodnoj uvodnom uvodnu
+58	7058	manipulacija	manipulacijama manipulacije manipulaciji manipulacijom manipulaciju
+59	7059	dijalog	dijaloga dijaloge dijalogom dijalogu dijalozi dijalozima
+60	7060	vaga	vage vagi vagu vazi
+61	7061	trn	trna trne trnu
+62	7062	bat	bata bate batom batu
+63	7063	vrhnje	vrhnja vrhnjem vrhnju
+64	7064	ananas	ananasa ananase ananasi ananasom
+65	7065	forum	foruma forume forumi forumima forumu
+66	7066	mak	maka makom makova makovi maku mače
+67	7067	krstarica	krstarice krstarici krstaricom krstaricu
+68	7068	popularnost	popularnosti popularnošću
+69	7069	zacijeliti	zaceliti zacijele zacijeli zacijelila zacijelile zacijelilo zacijelio
+70	7070	ljudskost	ljudskosti
+71	7071	koštan	koštana koštane koštani koštanog koštanoj koštanom koštanu
+72	7072	pederski	pederska pederske pederskih pederskim pedersko pederskog pederskoj pederskom pedersku
+73	7073	smrskati	smrska smrskala smrskali smrskam smrskan smrskana smrskane smrskani smrskano smrskao
+74	7074	kresati	kresala kresali kresanje kresao kreše krešem krešemo krešeš krešu
+75	7075	biro	
+76	7076	prosudba	prosudbe prosudbi prosudbu
+77	7077	rudarski	rudarska rudarske rudarskih rudarskim rudarsko rudarskog rudarskoj rudarskom rudarsku
+78	7078	vanzemaljac	
+79	7079	siromah	siromaha siromahe siromahu siromasi siromasima
+80	7080	neoprostiv	neoprostiva neoprostive neoprostivi neoprostivo neoprostivu
+81	7081	obožavateljica	obožavateljice obožavateljicom obožavateljicu
+82	7082	netočan	netočna netočne netočni netočno
+83	7083	sarađivati	sarađivala sarađivali sarađivao sarađuj sarađuje sarađujem sarađujemo sarađujete sarađuješ sarađujte sarađuju
+84	7084	bankrot	bankrota bankrotom bankrotu
+85	7085	poduka	poduci poduke podukom poduku
+86	7086	gnjida	gnjide gnjidi gnjido gnjidu
+87	7087	sliniti	sline slini slinim slinite sliniš slinjenje
+88	7088	šećerni	šećerna šećerne šećernih šećernim šećernog šećernom šećernu
+89	7089	vibrirati	vibrira vibriraju vibrirajući vibriram vibriranje vibriraš
+90	7090	palma	palmama palme palmi palmom palmu
+91	7091	bezbednost	bezbednosti
+92	7092	sudopera	sudopere sudoperi sudoperom sudoperu
+93	7093	fosil	fosila fosile fosili fosilima fosilu
+94	7094	bašta	bašte bašti baštom baštu
+95	7095	gladijator	gladijatora gladijatore gladijatori gladijatorima gladijatorom gladijatoru
+96	7096	međusoban	međusobna međusobne međusobni međusobnih međusobnim međusobnog međusobnoj međusobnom međusobnu
+97	7097	pozivnica	
+98	7098	logika	
+99	7099	ki	
+100	7100	depozit	depozita depozite depoziti depozitu

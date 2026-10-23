@@ -1,0 +1,100 @@
+1	7201	kucnuti	kucne kucnem kucni kucnite kucnu kucnuo
+2	7202	svečano	
+3	7203	pupoljak	pupoljaka pupoljci pupoljcima pupoljka pupoljke pupoljku
+4	7204	cesar	cesara cesare cesaru
+5	7205	arsenal	arsenala arsenalom arsenalu
+6	7206	patriot	patriota patriote patrioti patriotu
+7	7207	petoro	
+8	7208	duhovno	
+9	7209	tolerancija	tolerancije toleranciji tolerancijom toleranciju
+10	7210	luđački	luđačka luđačke luđačkim luđačko luđačkoj luđačkom luđačku
+11	7211	profinjen	profinjena profinjene profinjeni profinjenije profinjeniji profinjeno profinjenog profinjenom profinjenu
+12	7212	blažiti	blaže blažen blažena blažene blaženi blaženo blaži
+13	7213	bolovanje	bolovanja bolovanju
+14	7214	anatomija	anatomije anatomiji anatomiju
+15	7215	ulični	
+16	7216	križaljka	križaljci križaljkama križaljke križaljki križaljku
+17	7217	izbušiti	izbuše izbušen izbušena izbušene izbuši izbušila izbušili izbušim izbušimo izbušio izbušite
+18	7218	obrnuti	obrne obrnem obrnemo obrni obrnite obrnu obrnula obrnuli obrnuo
+19	7219	uslovan	uslovna uslovne uslovni uslovno uslovnog uslovnoj uslovnom uslovnu
+20	7220	osakatiti	osakati osakatila osakatili osakatio osakaćen osakaćena osakaćene osakaćeni osakaćeno
+21	7221	razbijač	razbijača razbijače razbijači razbijačima razbijaču
+22	7222	primjerice	
+23	7223	kotao	kotla kotlom kotlova kotlove kotlovi kotlovima kotlu
+24	7224	milicija	milicije miliciji milicijom miliciju
+25	7225	obrnut	obrnuta obrnute obrnutim obrnutog obrnutom obrnutu
+26	7226	literatura	literature literaturi literaturom literaturu
+27	7227	mušketir	mušketira mušketire mušketiri mušketirima
+28	7228	razmnožavati	razmnožava razmnožavaju razmnožavanje
+29	7229	magično	
+30	7230	harmonija	harmonije harmoniji harmoniju
+31	7231	stepenište	stepeništa stepeništem stepeništu
+32	7232	usaditi	usade usadi usadila usadili usadio usađen usađena usađene usađeni usađeno
+33	7233	nizbrdo	
+34	7234	glasnogovornik	glasnogovornica glasnogovornici glasnogovornika glasnogovorniku
+35	7235	smrtonosno	
+36	7236	kobila	kobile kobili kobilo kobilom kobilu
+37	7237	hrčak	hrčaka hrčci hrčka hrčke hrčkom hrčku
+38	7238	kljun	kljuna kljunom kljunova kljunove kljunovi kljunovima kljunu
+39	7239	žlijezda	žlezda žlezde žlijezdama žlijezde žlijezdi žlijezdu
+40	7240	konjanik	konjanici konjanika konjanike
+41	7241	manjkati	manjka manjkalo
+42	7242	odmaralište	odmarališta odmaralištima odmaralištu
+43	7243	mlin	mlina mlinom mlinove mlinovi mlinu
+44	7244	lubenica	lubenicama lubenice lubenicom lubenicu
+45	7245	gostionica	gostionice gostionici gostionicu
+46	7246	obilježje	obilježja obilježjima
+47	7247	dugoročan	dugoročna dugoročne dugoročni dugoročnih dugoročnim dugoročnog dugoročnoj dugoročnom dugoročnu
+48	7248	imitator	imitatora imitatore imitatori imitatorom imitatoru
+49	7249	lizalica	lizalicama lizalice lizalicom lizalicu
+50	7250	tipkati	tipkaj tipkaju tipkala tipkam tipkanje tipkao tipkate tipkaš
+51	7251	pijavica	pijavicama pijavice pijavico pijavicu
+52	7252	očekivan	očekivana očekivane očekivani očekivanih očekivanim očekivanog očekivanoga očekivanom očekivanu
+53	7253	reptil	reptila reptile reptili reptilima reptilu
+54	7254	prognati	prognala prognali prognan prognana prognane prognani prognao
+55	7255	infracrven	infracrvena infracrvene infracrveni infracrvenih infracrvenim infracrveno infracrvenog infracrvenom infracrvenu
+56	7256	stavka	stavci stavkama stavke stavki stavkom stavku
+57	7257	suši	sušija
+58	7258	masnoća	masnoće masnoćom masnoću
+59	7259	takmičiti	takmiče takmiči takmičila takmičili takmičim takmičimo takmičio takmičite takmičiš
+60	7260	dvojba	dvojbama dvojbe dvojbi dvojbu
+61	7261	uređivati	uređivanje uređuje uređujem uređujemo uređujete uređuješ uređuju
+62	7262	manje-više	
+63	7263	nar	nara nare naru
+64	7264	nježnost	nežnost nežnosti nježnosti nježnošću
+65	7265	tendencija	tendencijama tendencije tendencijom tendenciju
+66	7266	malina	malinama maline malini malinom malinu
+67	7267	cilindar	cilindara cilindra cilindre cilindri cilindrima cilindrom cilindru
+68	7268	nosorog	nosoroga nosoroge nosorogom nosorogu nosorozi
+69	7269	finansijski	finansijska finansijske finansijskih finansijskim finansijsko finansijskog finansijskoj finansijskom finansijsku
+70	7270	teza	teze tezi tezu
+71	7271	zabijati	zabija zabijaju zabijajući zabijala zabijali zabijam zabijanje zabijao zabijate zabijaš
+72	7272	avenija	
+73	7273	srodstvo	srodstva srodstvu
+74	7274	zavući	zavuci zavucite zavukao zavukla zavukli zavuku zavuče zavučem zavučeš
+75	7275	sniziti	snizi snizila snizili snizimo snizio snizite snižen snižena snižene sniženo
+76	7276	muškost	muškosti
+77	7277	brijeg	breg brega bregovi brijega brijegu
+78	7278	preletjeti	prelete preleteo preleti preletim preletimo preletio preletjela preletjeli
+79	7279	gunđati	gunđa gunđaj gunđaju gunđajući gunđam gunđanje gunđao gunđaš
+80	7280	patak	pataka patke patkom patku
+81	7281	plemenski	plemenska plemenske plemenskih plemenskim plemensko plemenskog plemenskom plemensku
+82	7282	seksualnost	seksualnosti seksualnošću
+83	7283	skupština	skupštine skupštini skupštinom skupštinu
+84	7284	vrtni	vrtna vrtne vrtnih vrtnim vrtno vrtnog vrtnoj vrtnom vrtnu
+85	7285	skuter	skutera skutere skuteri skuterima skuterom skuteru
+86	7286	sanjar	sanjara sanjare sanjari sanjarima sanjaru
+87	7287	naizgled	
+88	7288	dobaciti	dobaci dobacila dobacim dobacio dobacite dobaciš
+89	7289	revizija	revizije reviziji revizijom reviziju
+90	7290	usmjeravati	usmerava usmjerava usmjeravaju usmjeravala usmjeravali usmjeravam usmjeravamo usmjeravanje usmjeravao usmjeravaš
+91	7291	profitirati	profitira profitiraju profitirala profitirali profitiram profitiramo profitirao profitiraš
+92	7292	nasukati	nasukala nasukali nasukan nasukana nasukani nasukao nasuče
+93	7293	guliti	gule guli gulim gulimo gulio gulite guliš guljenje
+94	7294	štednjak	štednjaka štednjakom štednjaku
+95	7295	dominacija	dominacije dominaciji dominacijom dominaciju
+96	7296	materijalan	materijalna materijalne materijalni materijalnih materijalnim materijalnog materijalnom materijalnu
+97	7297	obavještajac	obaveštajci obavještajaca obavještajca obavještajce obavještajci obavještajcima
+98	7298	mamuran	mamurna mamurni mamurno
+99	7299	paprika	paprikama paprike paprikom papriku
+100	7300	šahovski	šahovska šahovske šahovskih šahovskim šahovskog šahovskoj šahovskom šahovsku

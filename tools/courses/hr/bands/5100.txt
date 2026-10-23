@@ -1,0 +1,100 @@
+1	5001	dražestan	dražesna dražesne dražesni dražesnim dražesno dražesnog dražesnoj dražesnom dražesnu
+2	5002	diplomatski	diplomatska diplomatske diplomatskih diplomatskim diplomatsko diplomatskog diplomatskoj diplomatskom diplomatsku
+3	5003	šišmiš	šišmiša šišmiše šišmiši šišmišima šišmišu
+4	5004	orgazam	orgazama orgazma orgazme orgazmi orgazmima orgazmom orgazmu
+5	5005	semestar	semestra semestru
+6	5006	razmaziti	razmazi razmazila razmazili razmazim razmazio razmažen razmažena razmažene razmaženi razmaženo
+7	5007	lomiti	lome lomeći lomi lomila lomili lomim lomimo lomio lomite lomiš lomljenje
+8	5008	veleposlanstvo	veleposlanstva veleposlanstvima veleposlanstvom veleposlanstvu
+9	5009	kampirati	kampira kampiraju kampirala kampirali kampiram kampiramo kampiranje kampirao kampiraš
+10	5010	primaran	primarna primarne primarni primarnih primarnim primarno primarnog primarnoj primarnom primarnu
+11	5011	obuzeti	obuzela obuzeli obuzelo obuzeo obuzet obuzeta obuzme obuzmu
+12	5012	paša	paše paši pašu
+13	5013	olupina	olupinama olupine olupini olupinom olupinu
+14	5014	ventil	ventila ventile ventili ventilima ventilom ventilu
+15	5015	predosjećaj	predosjećaja predosjećaje predosjećajem predosjećaji predosjećaju
+16	5016	odvratiti	odvrate odvrati odvratim odvratimo odvratite odvratiš
+17	5017	antibiotik	antibiotici antibioticima antibiotika antibiotike
+18	5018	kompromis	kompromisa kompromise kompromisi kompromisima kompromisom kompromisu
+19	5019	plima	plime plimi plimom plimu
+20	5020	čelični	čelična čelične čeličnih čeličnim čelično čeličnog čeličnoj čeličnom čeličnu
+21	5021	kiseo	kisela kisele kiseli kiselih kiselim kiselo kiselog kiselom kiselu
+22	5022	pritužba	pritužaba pritužbama pritužbe pritužbi pritužbu
+23	5023	dobitak	dobici dobitaka dobitka dobitke dobitkom dobitku
+24	5024	aplikacija	aplikacijama aplikacije aplikaciji aplikacijom aplikaciju
+25	5025	kritizirati	kritizira kritiziraj kritiziraju kritizirala kritizirali kritiziram kritiziramo kritiziran kritiziranje kritizirao kritizirate kritiziraš
+26	5026	ugrožavati	ugrožava ugrožavaju ugrožavajući ugrožavala ugrožavali ugrožavam ugrožavamo ugrožavanje ugrožavao ugrožavate ugrožavaš
+27	5027	ušetati	ušeta ušetaju ušetala ušetali ušetam ušetamo ušetao ušetate ušetaš
+28	5028	kokice	
+29	5029	uzvratiti	
+30	5030	barun	barona barone baronom baronu baruna barune baruni barunom barunu
+31	5031	čistač	čistača čistače čistačem čistači čistačima čistaču
+32	5032	vidik	vidici vidika vidike vidiku
+33	5033	mirovni	mirovna mirovne mirovnih mirovnim mirovnog mirovnoj mirovnom mirovnu
+34	5034	metafora	metaforama metafore metafori metaforom metaforu
+35	5035	zlikovac	cima zlikovaca zlikovca zlikovce zlikovcem zlikovci zlikovcima zlikovcu zlikovče
+36	5036	uvlačiti	uvlače uvlačenje uvlačeći uvlači uvlačim uvlačimo uvlačite uvlačiš
+37	5037	blagdan	blagdana blagdane blagdani blagdanima
+38	5038	snježan	snežna snežne snežni snježna snježne snježni snježnih snježnim snježno snježnog snježnoj snježnom snježnu
+39	5039	obe	obema
+40	5040	iznimka	iznimaka iznimke iznimkom iznimku
+41	5041	otimati	otima otimaj otimaju otimajući otimala otimali otimam otimamo otimanje otimao otimate otimaš
+42	5042	sipati	sipa sipaj sipajte sipaju sipala sipali sipam sipamo sipanje sipao sipate sipaću sipaš sipe sipi sipu
+43	5043	telegram	telegrama telegrame telegrami telegramom telegramu
+44	5044	olovo	olova olovom olovu
+45	5045	silan	silna silne silni silnih silnim silnog silnoj silnom silnu
+46	5046	grč	grča grčeva grčeve grčevi grčevima grču
+47	5047	biser	bisera bisere biseri biserima biserom biseru
+48	5048	travnjak	travnjaci travnjacima travnjaka travnjake travnjakom travnjaku
+49	5049	gozba	gozbama gozbe gozbi gozbom gozbu
+50	5050	značaj	značaja značaju
+51	5051	rulja	rulje rulji ruljo ruljom rulju
+52	5052	predrasuda	predrasudama predrasude predrasudu
+53	5053	pokoriti	pokore pokoren pokorena pokoreni pokori pokorila pokorili pokorim pokorimo pokorio pokorite pokoriš
+54	5054	neodoljiv	neodoljiva neodoljive neodoljivi neodoljivim neodoljivo neodoljivog neodoljivom neodoljivu
+55	5055	izdavač	izdavača izdavače izdavačem izdavači izdavačima izdavaču
+56	5056	afrički	afrička afričke afričkih afričkim afričko afričkog afričkoj afričkom afričku
+57	5057	postotak	postoci postocima postotaka postotcima postotka postotke postotkom postotku
+58	5058	svinjski	svinjska svinjske svinjskih svinjskim svinjsko svinjskog svinjskoj svinjskom svinjsku
+59	5059	razveden	razvedena razvedene razvedeni razvedenih
+60	5060	slikar	slikara slikare slikari slikarica slikarima slikarom slikaru
+61	5061	letak	leci lecima letaka letka letke letku
+62	5062	dobrovoljac	dobrovoljaca dobrovoljca dobrovoljce dobrovoljci dobrovoljcima
+63	5063	budžet	budžeta budžetom budžetu
+64	5064	sisati	sisala sisali sisanje sisao siše sišem sišeš siši sišu
+65	5065	partnerstvo	partnerstva partnerstvom partnerstvu
+66	5066	atentat	atentata atentate atentati atentatom atentatu
+67	5067	prasak	prasci praska praskom prasku
+68	5068	otkazivati	otkazivali otkazivanje otkazuje otkazujem otkazujemo otkazujete otkazuješ otkazuju
+69	5069	vaza	vazama vaze vazi vazom vazu
+70	5070	narančast	narančasta narančaste narančasti narančastih narančastim narančasto narančastog narančastoj narančastom narančastu
+71	5071	građevina	građevinama građevine građevini građevinom građevinu
+72	5072	uslov	uslova uslove uslovi uslovima uslovom
+73	5073	karantena	karantene karanteni karantenom karantenu
+74	5074	deveti	deveta devete deveto devetog devetoj devetom devetu
+75	5075	uvidjeti	uvide uvidela uvideli uvideo uvideti uvidi uvidim uvidimo uvidio uvidite uvidiš uvidjela uvidjeli uviđati
+76	5076	servis	servisa servise servisi servisom servisu
+77	5077	trećina	trećine trećini trećinom trećinu
+78	5078	džip	džipa džipom džipova džipove džipovi džipovima džipu
+79	5079	reporter	reportera reportere reporteri reporterima reporterom reporteru
+80	5080	jadnica	jadnice jadnici jadnicu
+81	5081	norveški	norveška norveške norveških norveškim norveško norveškog norveškoj norveškom norvešku
+82	5082	podsjetnik	podsetnik podsjetnici podsjetnika podsjetnike podsjetniku
+83	5083	pohod	pohoda pohode pohodi pohodima pohodom pohodu
+84	5084	investicija	investicijama investicije investiciji investicijom investiciju
+85	5085	trljati	trlja trljaj trljajte trljaju trljajući trljala trljali trljam trljamo trljanje trljao trljaš
+86	5086	sedlo	sedla sedlima sedlom sedlu
+87	5087	drugarica	drugaricama drugarice drugarici drugaricom drugaricu
+88	5088	poštar	poštara poštare poštari poštarom poštaru
+89	5089	univerzitet	univerziteta univerziteti univerzitetima univerzitetu
+90	5090	razići	raziđe raziđemo raziđete raziđimo raziđite raziđu razišao razišla razišle razišli
+91	5091	legalan	legalna legalne legalni legalnih legalnim legalnog legalnoj legalnom legalnu
+92	5092	kanjon	kanjona kanjone kanjoni kanjonima kanjonom kanjonu
+93	5093	iznositi	iznose iznoseći iznosi iznosila iznosili iznosilo iznosim iznosimo iznosio iznosite iznosiš iznošena iznošene iznošenje
+94	5094	odvijati	odvija
+95	5095	suvenir	suvenira suvenire suveniri suvenirima
+96	5096	madrac	madraca madrace madracem madraci madracima madracu
+97	5097	predviđati	predviđa predviđaju predviđajući predviđala predviđali predviđam predviđamo predviđanje predviđao predviđate predviđaš
+98	5098	uzgred	
+99	5099	informirati	informira informiraj informirajte informiraju informirala informirali informiram informiramo informiran informirana informirane informirani informiranje informirao informirate
+100	5100	pronalazak	pronalasci pronalaska pronalaske pronalaskom pronalasku pronalazaka

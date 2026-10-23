@@ -1,0 +1,100 @@
+1	8401	rastužiti	rastuži rastužila rastužilo rastužim rastužio rastužiš
+2	8402	ženidba	ženidbe ženidbi ženidbom ženidbu
+3	8403	prestignuti	prestigao prestigla prestigli prestigne prestignemo prestigni prestignu prestići prestiže
+4	8404	domišljat	domišljata domišljate domišljati domišljato
+5	8405	prigušivač	prigušivača prigušivače prigušivačem prigušivači
+6	8406	neizvjesnost	neizvesnost neizvesnosti neizvjesnosti
+7	8407	proračunati	proračuna proračunali proračunao proračunat proračunata proračunate proračunato
+8	8408	jurnjava	
+9	8409	privrženost	privrženosti privrženošću
+10	8410	spremnost	spremnosti spremnošću
+11	8411	naslutiti	nasluti naslutila naslutili naslutim naslutio
+12	8412	gaj	gaja gaju
+13	8413	kondicija	kondicije kondiciji kondiciju
+14	8414	nagrađivati	nagrađivan nagrađivana nagrađivane nagrađivani nagrađivanje nagrađuje nagrađujem nagrađujemo nagrađujete nagrađuju
+15	8415	presjek	preseci presek preseče presjeci presjeka presjeku presječe
+16	8416	udvaranje	udvaranja udvaranjem udvaranju
+17	8417	genocid	genocida genocidom genocidu
+18	8418	prijemnik	prijemnici prijemnika prijemnike prijemnikom
+19	8419	paketić	paketića paketiće paketići paketićima paketiću
+20	8420	hvatač	hvatača hvatače hvatačem hvatači hvataču
+21	8421	transvestit	transvestita transvestite transvestiti transvestitima transvestitu
+22	8422	jedriti	jedre jedri jedrili jedrim jedrimo jedrio jedrite jedriš
+23	8423	konstruirati	konstruira konstruirali konstruiramo konstruiran konstruirana konstruirani konstruirano konstruirao
+24	8424	mrzovoljan	
+25	8425	nadesno	
+26	8426	menstruacija	menstruacije menstruaciju
+27	8427	teatar	teatra teatru
+28	8428	nastanak	nastanka nastanku
+29	8429	bekstvo	bekstva bekstvu
+30	8430	udes	udesa udesi udesu
+31	8431	prosvjedovati	prosvjedovala prosvjedovali prosvjedovao prosvjeduje prosvjedujem prosvjedujemo prosvjeduju
+32	8432	galon	galona galonu
+33	8433	energičan	energična energične energični energičnije energično energičnu
+34	8434	mesti	mele meli melo meo mete metem metenje meteš meti metu
+35	8435	gluv	gluva gluve gluvi gluvo gluvu
+36	8436	vokal	vokala vokale vokali
+37	8437	srdačan	najsrdačnije srdačna srdačne srdačni srdačniji srdačnu
+38	8438	hranjiv	hranjiva hranjive hranjivi hranjivih hranjivim hranjivo hranjivu
+39	8439	sumnjičiti	sumnjiče sumnjiči sumnjičila sumnjičili sumnjičim sumnjičimo sumnjičio sumnjičite sumnjičiš
+40	8440	vertikalan	vertikalna vertikalne vertikalni vertikalnim vertikalno vertikalnog vertikalnoj vertikalnom vertikalnu
+41	8441	debljina	debljine debljini debljinom debljinu
+42	8442	holokaust	holokausta holokaustom holokaustu
+43	8443	potonuti	
+44	8444	zakočiti	zakočen zakočena zakočeno zakoči zakočila zakočio zakočite
+45	8445	miraz	miraza mirazom mirazu
+46	8446	uvjeravanje	uvjeravanja
+47	8447	odazvati	odazove odazovi odazovite odazovu odazvala odazvali odazvao
+48	8448	adut	aduta adute aduti
+49	8449	poredati	poredaj poredajte poredaju poredam poredaš
+50	8450	iritirati	iritira iritiraju iritirajući iritiralo iritiram iritiraš
+51	8451	cisterna	cisterne cisterni cisternom cisternu
+52	8452	učlaniti	učlani učlanila učlanili učlanim učlanio učlanite učlaniš učlanjen
+53	8453	stjuardesa	
+54	8454	usran	
+55	8455	naočit	naočita naočiti naočito naočitog
+56	8456	udruživati	udruživanje udružuje udružujemo udružuju
+57	8457	nadmoćan	nadmoćna nadmoćne nadmoćni nadmoćnije nadmoćniji nadmoćnim nadmoćnog nadmoćnom nadmoćnu
+58	8458	bris	brisa brise brisove
+59	8459	nostalgija	nostalgije nostalgijom nostalgiju
+60	8460	odar	odra odre odri odru
+61	8461	neodlučan	neodlučna neodlučne neodlučni neodlučnih neodlučno
+62	8462	nepristran	nepristrana nepristrane nepristrani nepristrano nepristranog nepristranu
+63	8463	kolumbijski	kolumbijska kolumbijske kolumbijskih kolumbijskim kolumbijskog kolumbijskom kolumbijsku
+64	8464	kontroverzan	kontroverzna kontroverzne kontroverzni kontroverznih kontroverznim kontroverzno kontroverznog kontroverznom kontroverznu
+65	8465	oduran	odurna odurne odurni odurnim odurnu
+66	8466	pikado	pikada pikadu
+67	8467	registar	registra
+68	8468	doigravanje	doigravanja doigravanju
+69	8469	horoskop	horoskopa horoskope horoskopu
+70	8470	pridonijeti	pridonijela pridonijeli pridonijelo pridonio
+71	8471	atentator	atentatora atentatore atentatori atentatoru
+72	8472	sažaliti	sažali sažalila sažalili sažalio sažalite
+73	8473	oslonac	oslonca
+74	8474	okrilje	okriljem
+75	8475	zaglibiti	zaglibila zaglibili zaglibio
+76	8476	županija	županije županiji županiju
+77	8477	nepravilan	nepravilna nepravilne nepravilni nepravilnih nepravilnim nepravilnog
+78	8478	bugarski	bugarska bugarske bugarskog bugarskoj bugarskom bugarsku
+79	8479	pokrajina	pokrajinama pokrajine pokrajini pokrajinu
+80	8480	premlatiti	premlate premlati premlatila premlatili premlatim premlatio premlaćen premlaćena
+81	8481	petsto	
+82	8482	balistika	balistici balistike balistikom balistiku
+83	8483	apsorbirati	apsorbira apsorbiraju apsorbirala apsorbiran apsorbirani apsorbirao
+84	8484	fleka	flek flekama fleke fleku
+85	8485	brojač	brojača brojače brojačem brojači brojaču
+86	8486	terenac	
+87	8487	svagda	
+88	8488	tečnost	tečnosti tečnošću
+89	8489	štagalj	štaglja štaglju
+90	8490	zasaditi	zasadi zasadila zasadili zasadimo zasadio zasađeno
+91	8491	kopač	kopača kopače kopači kopačima kopaču
+92	8492	blještav	blještava blještave blještavi blještavih blještavim blještavo blještavom blještavu
+93	8493	stolar	stolara stolari stolaru
+94	8494	prisluškivač	prisluškivača prisluškivače prisluškivači
+95	8495	kompresija	kompresijama kompresije kompresijom kompresiju
+96	8496	potkupiti	potkupi potkupila potkupili potkupio potkupljen potkupljeni
+97	8497	fascikl	fascikla fascikle fascikli fasciklima fasciklu
+98	8498	tijesan	tesna tesne tijesna tijesne tijesni tijesnim tijesnoj tijesnom tijesnu
+99	8499	prepoznatljiv	prepoznatljiva prepoznatljive prepoznatljivi prepoznatljivih prepoznatljivim prepoznatljivo prepoznatljivu
+100	8500	nemoralan	nemoralna nemoralne nemoralni nemoralnih nemoralnim nemoralnog nemoralnom nemoralnu

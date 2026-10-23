@@ -1,0 +1,100 @@
+1	2601	med	meda mede medom medu
+2	2602	savjest	savest savesti savjesti savješću
+3	2603	rijetko	retko
+4	2604	vatren	vatrena vatrene vatreni vatrenih vatrenim vatreno vatrenog vatrenoj vatrenom vatrenu
+5	2605	čelo	čela čelima čelom čelu
+6	2606	nedostatak	nedostaci nedostacima nedostataka nedostatka nedostatke nedostatkom nedostatku
+7	2607	odmarati	odmara odmaraj odmarajte odmaraju odmarajući odmarala odmarali odmaram odmaramo odmaranje odmarao odmarate odmaraš
+8	2608	rimski	rimska rimske rimskih rimskim rimsko rimskog rimskoga rimskoj rimskom rimsku
+9	2609	kul	
+10	2610	sjedalo	sjedala sjedalima sjedalom sjedalu
+11	2611	sebičan	najsebičnija najsebičniji sebična sebične sebični sebičnih sebičnim sebično sebičnog sebičnoj sebičnom sebičnu
+12	2612	predvidjeti	predvide predvidela predvideli predvideo predvideti predvidi predvidim predvidimo predvidio predvidite predvidiš predvidjela predvidjele predvidjeli predviđen predviđena predviđene predviđeni predviđeno
+13	2613	podržavati	podržava podržavaju podržavajući podržavala podržavale podržavali podržavam podržavamo podržavanje podržavao podržavate podržavaš
+14	2614	pamtiti	pamte pamti pamtila pamtili pamtim pamtimo pamtio pamtite pamtiš
+15	2615	organ	organa organe organi organima organom organu
+16	2616	pozornica	pozornice pozornici pozornicom pozornicu
+17	2617	nestanak	nestanaka nestanci nestancima nestanka nestanke nestankom nestanku
+18	2618	vijek	vek veka vekova vekove vekovi vekovima veku vijeka vijeku viječe vjekova vjekove vjekovi vjekovima
+19	2619	salata	salatama salate salati salatom salatu
+20	2620	povećati	poveća povećaj povećajmo povećajte povećaju povećale povećali povećam povećamo povećan povećana povećane povećani povećano povećao povećate povećaš
+21	2621	udahnuti	udahne udahnem udahnemo udahnete udahneš udahni udahnimo udahnite udahnu udahnula udahnuli udahnuo udahnut
+22	2622	logor	logora logore logori logorima logorom logoru
+23	2623	slabost	slabosti slabostima slabošću
+24	2624	frend	frenda frende frendica frendicama frendice frendici frendicom frendicu frendom frendova frendove frendovi frendovima frendu
+25	2625	gaće	gaća gaćama
+26	2626	nastati	nasta nastala nastale nastali nastalo nastane nastani nastanu nastao nastaće
+27	2627	tok	toka tokova tokove tokovi tokovima toku toče
+28	2628	ogrlica	ogrlicama ogrlice ogrlici ogrlicom ogrlicu
+29	2629	prometan	najprometniji najprometnijih prometna prometne prometni prometnih prometnim prometno prometnog prometnoj prometnom prometnu
+30	2630	glasan	glasna glasne glasni glasnih glasnija glasnije glasniji glasnim glasnog glasnom glasnu najglasnija najglasnije najglasniji
+31	2631	kanta	kantama kante kanti kanto kantom kantu
+32	2632	dlaka	dlaci dlakama dlake dlakom dlaku
+33	2633	medicina	medicine medicini medicinom medicinu
+34	2634	pozitivan	pozitivna pozitivne pozitivni pozitivnih pozitivnije pozitivniji pozitivnim pozitivnog pozitivnoj pozitivnom pozitivnu
+35	2635	sklon	sklona sklone skloni sklonija skloniji sklonim sklono sklonog
+36	2636	uzbuna	uzbune uzbuni uzbunom uzbunu
+37	2637	važiti	važe važeći važi važilo važio
+38	2638	opak	najopakija najopakije najopakijeg najopakiji najopakijih opaka opake opaki opakih opakije opakiji opakim opakog opakoj opakom opaku
+39	2639	ciljati	cilja ciljaj ciljajte ciljaju ciljajući ciljala ciljali ciljam ciljamo ciljanje ciljao ciljate ciljaš
+40	2640	zamalo	
+41	2641	uostalom	
+42	2642	okružiti	okruže okružen okružena okružene okruženi okruženo okruži okružila okružile okružili okružilo okružim okružimo okružio okružite
+43	2643	odvući	odvuci odvucimo odvucite odvukao odvukla odvukle odvukli odvuklo odvuku odvuče odvučem odvučemo odvučen odvučena odvučeni odvučeno odvučete odvučeš
+44	2644	akademija	akademije akademiji akademijom akademiju akademska akademske akademski akademskih akademskim akademsko akademskog akademskoj akademskom akademsku
+45	2645	osmijeh	osmeh osmeha osmehom osmesi osmijeha osmijehe osmijehom osmijehu osmijesi
+46	2646	konferencija	konferencijama konferencije konferenciji konferencijom konferenciju
+47	2647	tresti	tresao trese tresem tresemo tresete treseš tresi tresite tresla tresle tresli treslo tresu tresući
+48	2648	poboljšati	poboljša poboljšaj poboljšajte poboljšaju poboljšala poboljšale poboljšali poboljšalo poboljšam poboljšamo poboljšan poboljšana poboljšane poboljšani poboljšanja poboljšanje poboljšanjem poboljšanjima poboljšanju poboljšano poboljšao poboljšate poboljšaš
+49	2649	barbar	barbara barbare barbari barbarima barbarom barbaru
+50	2650	okrutan	najokrutnija najokrutnije najokrutniji najokrutnijih okrutna okrutne okrutni okrutnih okrutnija okrutnije okrutniji okrutnim okrutnima okrutnog okrutnoj okrutnom okrutnu
+51	2651	uvaliti	uvale uvali uvalila uvalile uvalili uvalilo uvalim uvalimo uvalio uvalite uvalićeš uvališ
+52	2652	paluba	palubama palube palubi palubom palubu
+53	2653	odan	najodanija najodanijeg najodaniji najodanijih odana odane odani odanih odaniji odanim odano odanog odanoj odanom odanu
+54	2654	col	cola cole colu
+55	2655	kocka	kocaka kockama kocke kocki kockom kocku
+56	2656	frizura	frizurama frizure frizuri frizurom frizuru
+57	2657	pica	picama pice pici pico picom picu
+58	2658	emocija	emocijama emocije emociju
+59	2659	suradnik	suradnici suradnicima suradnika suradnike suradnikom suradniku
+60	2660	smrtonosan	smrtonosna smrtonosne smrtonosni smrtonosnih smrtonosnim smrtonosnog smrtonosnoj smrtonosnom smrtonosnu
+61	2661	seljak	seljaci seljacima seljaka seljake seljakom seljaku seljače seljačina seljačinama seljačine seljačini seljačino seljačinom seljačinu seljačić seljačka seljačke seljački seljačkim seljačko seljačkog seljačkoj seljačkom seljačku
+62	2662	potvrda	potvrde potvrdi potvrdom potvrdu
+63	2663	dostaviti	dostave dostavi dostavila dostavili dostavim dostavimo dostavio dostavite dostaviš dostavljen dostavljena dostavljene dostavljeni dostavljeno
+64	2664	čovječanstvo	čovečanstva čovečanstvo čovečanstvu čovječanstva čovječanstvom čovječanstvu
+65	2665	izvlačiti	izvlače izvlačenje izvlačeći izvlači izvlačila izvlačili izvlačim izvlačimo izvlačio izvlačite izvlačiš
+66	2666	nogomet	nogometa nogometom nogometu
+67	2667	lagano	
+68	2668	mentalni	mentalna mentalne mentalnih mentalnim mentalno mentalnog mentalnoj mentalnom mentalnu
+69	2669	zaposlenik	zaposlenici zaposlenicima zaposlenika zaposlenike zaposlenikom zaposleniku
+70	2670	povjerljiv	poverljiv poverljiva poverljive poverljivi poverljivim poverljivo poverljivog povjerljiva povjerljive povjerljivi povjerljivih povjerljivim povjerljivo povjerljivog povjerljivoj povjerljivom povjerljivu
+71	2671	žeti	žanje žanjemo žanješ žanju želi žeo
+72	2672	otrovan	najotrovnija najotrovnijih otrovna otrovne otrovni otrovnih otrovnije otrovnim otrovno otrovnog otrovnoj otrovnom otrovnu
+73	2673	tetka	tetkama tetke tetki tetko tetkom tetku
+74	2674	tanak	najtanja najtanji tanja tanje tanji tanjom tanju tanka tanke tanki tankih tankim tanko tankog tankoj tankom tankome tanku
+75	2675	japanski	japanska japanske japanskih japanskim japansko japanskog japanskoga japanskoj japanskom japanskome japansku
+76	2676	palica	palicama palice palici palicom palicu
+77	2677	tuš	tuša tušem tuševa tuševe tuševi tuševima tušu
+78	2678	silaziti	silaze silazeći silazi silazim silazimo silazite silaziš
+79	2679	simptom	simptoma simptome simptomi simptomima
+80	2680	vrijeđati	vređa vređaj vređaju vređam vređanje vređao vređate vređati vređaš vrijeđa vrijeđaj vrijeđajte vrijeđaju vrijeđajući vrijeđala vrijeđali vrijeđalo vrijeđam vrijeđamo vrijeđanje vrijeđao vrijeđate vrijeđaš
+81	2681	prijateljski	prijateljska prijateljske prijateljskih prijateljskim prijateljsko prijateljskog prijateljskoj prijateljskom prijateljsku
+82	2682	zlostavljati	zlostavlja zlostavljaju zlostavljala zlostavljali zlostavljam zlostavljan zlostavljana zlostavljane zlostavljani zlostavljanje zlostavljano zlostavljao zlostavljate zlostavljaš
+83	2683	smrad	smrada smrade smradom smradova smradove smradovi smradu
+84	2684	praznik	praznici praznicima praznika praznike praznikom prazniku
+85	2685	seronja	
+86	2686	direktno	
+87	2687	sjedište	sedišta sedište sedištima sedištu sjedišta sjedištem sjedištima sjedištu
+88	2688	vrpca	vrpcama vrpce vrpci vrpcom vrpcu
+89	2689	protokol	protokola protokole protokoli protokolima protokolom protokolu
+90	2690	civilizacija	civilizacijama civilizacije civilizaciji civilizacijom civilizaciju
+91	2691	osobito	
+92	2692	širom	
+93	2693	grub	gruba grube grubi grubih grubim grublja grublje grublji grubog gruboj grubom grubu
+94	2694	admiral	admirala admirale admirali admiralom admiralu
+95	2695	kaniti	kane kani kanila kanile kanili kanim kanimo kanio kanite kaniš
+96	2696	kuhar	kuhara kuhare kuhari kuharima kuharom kuharu
+97	2697	nećak	nećaci nećacima nećaka nećake nećakom nećaku nećače
+98	2698	pamćenje	pamćenja pamćenjem pamćenju
+99	2699	doza	dozama doze dozi dozo dozom dozu
+100	2700	mapa	mapama mape mapi mapo mapom mapu

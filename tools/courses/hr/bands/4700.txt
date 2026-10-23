@@ -1,0 +1,100 @@
+1	4601	starost	starosti starošću
+2	4602	potegnuti	potegao potegla potegli potegne potegnem potegneš potegni potegnite potegnu potegnula potegnuli potegnuo potegnut poteže
+3	4603	kud	
+4	4604	zavoljeti	zavole zavolela zavoleli zavoleo zavoleti zavoli zavolim zavolimo zavolio zavolite zavoliš zavoljela zavoljeli
+5	4605	minus	minusa minuse minusi minusu
+6	4606	osušiti	osuše osušen osušena osušene osušeni osušeno osuši osušila osušile osušili osušilo osušim osušimo osušio osušite osušiš
+7	4607	iskazati	iskaza iskazala iskazali iskazao iskaže iskažem iskažemo iskažete iskažeš iskaži iskažite iskažu
+8	4608	trač	trača tračeva tračeve tračevi tračevima traču
+9	4609	povećavati	povećava povećavaju povećavajući povećavala povećavali povećavalo povećavam povećavamo povećavanje povećavao povećavate povećavaš
+10	4610	zet	zeta zete zeti zetom zetu
+11	4611	odredište	odredišta odredištu
+12	4612	prost	prosta proste prosti prostih prostije prostim prostog prostom prostu
+13	4613	problematičan	problematična problematične problematični problematičnih problematičnim problematično problematičnog problematičnom problematičnu
+14	4614	privilegija	privilegijama privilegije privilegijom privilegiju
+15	4615	patolog	patologa patologe patologinja patologom patologu patolozi
+16	4616	bandit	bandita bandite banditi banditima banditom banditu
+17	4617	alkoholičar	alkoholičara alkoholičare alkoholičarem alkoholičari alkoholičarima alkoholičaru
+18	4618	presresti	presrela presreli presreo presretne presretnem presretnemo presretni presretnite presretnu
+19	4619	sadašnjost	sadašnjosti sadašnjošću
+20	4620	tipka	tipkama tipke tipki tipkom tipku
+21	4621	genijalan	genijalna genijalne genijalni genijalnih genijalnim genijalnog genijalnom genijalnu
+22	4622	poluga	polugama poluge polugom polugu poluzi
+23	4623	zaštitnik	zaštitnici zaštitnicima zaštitnika zaštitnike zaštitnikom zaštitniku zaštitniče
+24	4624	dud	duda dude dudu
+25	4625	ljubičast	ljubičasta ljubičaste ljubičasti ljubičastih ljubičastim ljubičasto ljubičastog ljubičastoj ljubičastom ljubičastu
+26	4626	koncept	koncepata koncepta koncepte koncepti konceptima konceptom konceptu
+27	4627	gaziti	gaze gazeći gazi gazila gazili gazim gazimo gazio gazite gaziš gaženje
+28	4628	lopata	lopatama lopate lopati lopatom lopatu
+29	4629	ugljen	ugljena ugljene ugljeni ugljenom ugljenu
+30	4630	fraza	frazama fraze frazi frazom frazu
+31	4631	crvotočina	crvotočinama crvotočine crvotočini crvotočinom crvotočinu
+32	4632	arogantan	arogantna arogantne arogantni arogantnih arogantnim arogantno arogantnog arogantnom
+33	4633	pijanac	pijanaca pijanca pijance pijanci pijancima pijancu pijanu
+34	4634	trojka	trojci trojkama trojke trojki trojko trojkom trojku
+35	4635	populacija	populacije populaciji populacijom populaciju
+36	4636	spol	spola spolom spolova spolove spolovima spolu
+37	4637	ljubomora	ljubomore ljubomori ljubomorom ljubomoru
+38	4638	kožni	kožna kožne kožnih kožnim kožno kožnog kožnoj kožnom kožnu
+39	4639	lola	lole loli lolo lolom lolu
+40	4640	raspad	raspada raspadom raspadu
+41	4641	strastven	strastvena strastvene strastveni strastvenih strastvenim strastveno strastvenog strastvenom strastvenu
+42	4642	naušnica	naušnicama naušnice naušnicom naušnicu
+43	4643	norma	normama norme normi normom normu
+44	4644	naučnik	naučnici naučnicima naučnika naučnike naučnikom naučniče
+45	4645	snajperist	snajperista snajperiste snajperisti snajperistima snajperistom snajperistu
+46	4646	preporučivati	preporučuje preporučujem preporučujemo preporučujete preporučuješ preporučuju
+47	4647	kanalizacija	kanalizacije kanalizaciji kanalizacijom kanalizaciju
+48	4648	navijati	navija navijaj navijajte navijaju navijam navijamo navijanje navijate navijaš
+49	4649	tiskati	tiska tiskaj tiskajte tiskaju tiskala tiskali tiskam tiskamo tiskan tiskana tiskane tiskani tiskanje tiskano tiskao tiskate tiskaš
+50	4650	nepristojno	
+51	4651	ojačati	ojača ojačaj ojačaju ojačala ojačale ojačali ojačalo ojačam ojačamo ojačan ojačana ojačane ojačani ojačanje ojačano ojačao ojačate ojačaš
+52	4652	uzbuditi	uzbude uzbudi uzbudila uzbudile uzbudili uzbudilo uzbudim uzbudio uzbudite uzbudiš
+53	4653	naglo	
+54	4654	žrtvovati	
+55	4655	sportaš	sportaša sportaše sportašem sportaši sportašima sportašu
+56	4656	pametnjaković	pametnjakovića pametnjakoviće pametnjakovići pametnjakoviću
+57	4657	zagristi	zagrizao zagrize zagrizem zagrizeš zagrizi zagrizite zagrizla zagrizli zagrizu
+58	4658	ukras	ukrasa ukrase ukrasi ukrasima ukrasom
+59	4659	detektor	detektora detektore detektori detektorima detektorom detektoru
+60	4660	impresivan	impresivna impresivne impresivni impresivnih impresivnije impresivniji impresivnim impresivnom impresivnu najimpresivnije najimpresivniji najimpresivnijih
+61	4661	rajčica	rajčicama rajčice rajčicom rajčicu
+62	4662	duž	duži
+63	4663	univerzum	univerzuma univerzumi univerzumom univerzumu
+64	4664	prodavnica	prodavnicama prodavnice prodavnici prodavnicom prodavnicu
+65	4665	sprat	sprata spratova spratu
+66	4666	posmatrati	posmatra posmatraj posmatrajte posmatraju posmatrajući posmatram posmatramo posmatranje posmatrate posmatraću posmatraš
+67	4667	prikaz	prikaza prikaze prikazi prikazima prikazom prikazu
+68	4668	ruksak	ruksaci ruksacima ruksaka ruksake ruksakom ruksaku
+69	4669	naprotiv	
+70	4670	sova	sovama sove sovi sovo sovom sovu
+71	4671	sumrak	sumraka sumraku
+72	4672	kupola	kupolama kupole kupoli kupolom kupolu
+73	4673	ekonomski	ekonomska ekonomske ekonomskih ekonomskim ekonomsko ekonomskog ekonomskoj ekonomskom ekonomsku
+74	4674	očuvati	očuva očuvaju očuvala očuvali očuvalo očuvam očuvamo očuvan očuvana očuvane očuvani očuvanje očuvano očuvao očuvaš
+75	4675	sponzor	sponzora sponzore sponzori sponzorima sponzorom sponzoru
+76	4676	nedovoljan	nedovoljna nedovoljne nedovoljni nedovoljno
+77	4677	prevrnuti	prevrne prevrnem prevrnemo prevrneš prevrni prevrnite prevrnu prevrnula prevrnuli prevrnulo prevrnuo prevrnut prevrnuta prevrnute
+78	4678	primirje	primirja primirjem primirju
+79	4679	okrutno	
+80	4680	podnositi	podnosi
+81	4681	ovisnost	ovisnosti ovisnošću
+82	4682	kup	kupa kupi kupova kupu
+83	4683	europski	europska europske europskih europskim europsko europskog europskoj europskom europsku
+84	4684	evolucija	evolucije evoluciji evolucijom evoluciju
+85	4685	psiholog	psihologa psihologe psihologom psihologu psiholozi
+86	4686	žestoko	
+87	4687	joga	joge jogi jogom jogu
+88	4688	sirov	sirova sirove sirovi sirovih sirovim sirovog sirovoj sirovom sirovu
+89	4689	džin	džina džine džinom džinova džinovi džinu
+90	4690	obuzdati	obuzda obuzdaj obuzdajte obuzdaju obuzdali obuzdam obuzdamo obuzdan obuzdana obuzdao obuzdate obuzdaš
+91	4691	logično	
+92	4692	takozvani	takozvana takozvane takozvanih takozvanim takozvano takozvanog takozvanoj takozvanom takozvanu
+93	4693	škoditi	škode škodi škodila škodilo škodio
+94	4694	klopka	klopci klopke klopki klopku
+95	4695	beskrajan	beskrajna beskrajne beskrajni beskrajnih beskrajnim beskrajnog beskrajnoj beskrajnom beskrajnu
+96	4696	marihuana	marihuane marihuani marihuanom marihuanu
+97	4697	karma	karme karmi karmom karmu
+98	4698	krhak	krhka krhke krhki krhkih krhkim krhko krhkog krhkoj krhkom krhku
+99	4699	nedjeljni	nedeljna nedeljne nedeljni nedeljnim nedeljno nedeljnu nedjeljna nedjeljne nedjeljnih nedjeljnim nedjeljno nedjeljnog nedjeljnoj nedjeljnom nedjeljnu
+100	4700	četvrtina	četvrtine četvrtini četvrtinom četvrtinu

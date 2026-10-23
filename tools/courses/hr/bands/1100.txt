@@ -1,0 +1,100 @@
+1	1001	srednji	srednja srednje srednjeg srednjega srednjem srednjih srednjim srednjoj srednjom srednju
+2	1002	cesta	cestama ceste cesti cesto cestom cestu
+3	1003	osoban	osobna osobne osobni osobnih osobnije osobniji osobnim osobnog osobnoga osobnoj osobnom osobnu
+4	1004	upasti	upade upadne upadnem upadnemo upadnete upadneš upadni upadnite upadnu upala upale upali upalo upalom upalu upao upašćeš upašću
+5	1005	kontakt	kontakata kontakta kontakte kontakti kontaktima kontaktom kontaktu
+6	1006	čaj	čaja čajem čajeva čajeve čajevi čaju
+7	1007	želja	željama želje želji željom želju
+8	1008	popričati	popriča popričaj popričajmo popričajte popričaju popričala popričale popričali popričam popričamo popričao popričate popričaćemo popričaću popričaš
+9	1009	vlak	vlaka vlakom vlakova vlakove vlakovi vlakovima vlaku
+10	1010	vezati	vezala vezale vezali vezalo vezan vezana vezane vezani vezanje vezano vezao vezaću veže vežem vežemo vežete vežeš veži vežimo vežite vežu
+11	1011	vikend	vikenda vikende vikendi vikendima vikendom vikendu
+12	1012	događaj	događaja događaje događajem događaji događajima događaju
+13	1013	sloboda	slobodama slobode slobodi slobodo slobodom slobodu
+14	1014	vratilo	vratila
+15	1015	poljubiti	poljube poljubi poljubila poljubile poljubili poljubim poljubimo poljubio poljubite poljubiću poljubiš poljubljena
+16	1016	oprezan	oprezna oprezne oprezni opreznija opreznije oprezniji opreznim oprezno opreznog
+17	1017	pretvoriti	pretvore pretvoren pretvorena pretvorene pretvoreni pretvoreno pretvori pretvorila pretvorile pretvorili pretvorilo pretvorim pretvorimo pretvorio pretvorite pretvorivši pretvoriće pretvorićemo pretvoriću pretvoriš
+18	1018	poklon	poklona poklone pokloni poklonima poklonom poklonu
+19	1019	fotografija	fotografijama fotografije fotografiji fotografijom fotografiju
+20	1020	moć	moćima moću
+21	1021	putovati	putovala putovale putovali putovalo putovao putovaćemo putuj putuje putujem putujemo putujete putuješ putujte putuju putujući
+22	1022	rezultat	rezultata rezultate rezultati rezultatima rezultatom rezultatu
+23	1023	odrasti	odrasla odrasle odrasli odraslo odraste odrastem odrastemo odrastete odrasteš odrastite odrastu
+24	1024	zlo	zala zla zlima zlom zlu
+25	1025	rana	ranama rane rani ranom ranu
+26	1026	pažnja	pažnje pažnji pažnjom pažnju
+27	1027	svemir	svemira svemire svemiri svemirima svemirom svemiru
+28	1028	ček	čeka čekom čekova čekove čekovi čekovima čeku
+29	1029	kraljica	kraljicama kraljice kraljici kraljico kraljicom kraljicu
+30	1030	svejedno	
+31	1031	trgovina	trgovinama trgovine trgovini trgovinom trgovinu
+32	1032	prokletstvo	prokletstva prokletstvom prokletstvu
+33	1033	misija	misijama misije misiji misijo misijom misiju
+34	1034	energija	energijama energije energiji energijom energiju
+35	1035	motor	motora motore motori motorima motorom motoru
+36	1036	obožavati	obožava obožavaju obožavala obožavale obožavali obožavam obožavamo obožavan obožavana obožavane obožavani obožavanje obožavao obožavate obožavaš
+37	1037	signal	signala signale signali signalima signalom signalu
+38	1038	meta	metama mete meti meto metom metu
+39	1039	ujak	ujaci ujacima ujaka ujake ujakom ujaku ujače
+40	1040	zadovoljstvo	zadovoljstava zadovoljstva zadovoljstvima zadovoljstvom zadovoljstvu
+41	1041	drugačije	
+42	1042	čitav	čitava čitave čitavi čitavih čitavim čitavo čitavog čitavoga čitavoj čitavom čitavome čitavu
+43	1043	zaraditi	zarad zarade zaradi zaradila zaradile zaradili zaradilo zaradim zaradimo zaradio zaradite zaradićemo zaradićeš zaradiš zarađen zarađena zarađene zarađeni zarađeno
+44	1044	prolaz	prolaza prolaze prolazi prolazima prolazom prolazu
+45	1045	stvaran	najstvarnija najstvarnije stvarna stvarne stvarni stvarnih stvarnija stvarnije stvarniji stvarnim stvarnima stvarnog stvarnoga stvarnoj stvarnom stvarnome stvarnu
+46	1046	otpustiti	otpuste otpusti otpustila otpustile otpustili otpustilo otpustim otpustimo otpustio otpustite otpustiće otpustiću otpustiš otpušten otpuštena otpuštene otpušteni otpušteno
+47	1047	dijeliti	dele deleći deli delila delili delim delimo delio delite deliti deliće delićemo deliću deliš deljenje dijele dijeleći dijeli dijelila dijelile dijelili dijelilo dijelim dijelimo dijelio dijelite dijeliće dijeliš dijeljenje dijeljeno
+48	1048	šuma	šumama šume šumi šumom šumu
+49	1049	krug	kruga krugom krugova krugove krugovi krugovima krugu kruzi kruže kružić kružna kružne kružni kružnih kružnim kružno kružnog kružnoj kružnom kružnu
+50	1050	kazna	kaznama kazne kazni kaznom kaznu
+51	1051	sakriti	skrij skrije skrijem skrijemo skriješ skrijmo skrijte skriju skrili skrit skriven skrivena skrivene skriveni skrivenih skrivenim skrivenima skriveno skrivenog skrivenoj skrivenom skrivenu
+52	1052	ponoviti	ponove ponovi ponovila ponovili ponovilo ponovim ponovimo ponovio ponovite ponovićemo ponoviću ponoviš ponovljen ponovljena ponovljene ponovljeni ponovljeno
+53	1053	obojica	obojice obojici obojicom obojicu
+54	1054	upaliti	upale upali upalila upalile upalili upalilo upalim upalimo upalio upalite upaliće upaliću upališ upaljen upaljena upaljene upaljeni upaljeno
+55	1055	slatko	slatka slatkom slatku
+56	1056	snimiti	snime snimi snimila snimile snimili snimilo snimim snimimo snimio snimite snimićemo snimiću snimiš snimljen snimljena snimljene snimljeni snimljeno
+57	1057	ples	plesa plesom plesova plesove plesovi plesovima plesu
+58	1058	profesor	profesora profesore profesori profesorima profesorom profesoru
+59	1059	spriječiti	spreče sprečen spreči sprečila sprečili sprečilo sprečim sprečimo sprečio sprečite sprečiti sprečiš spriječe spriječen spriječena spriječeni spriječeno spriječi spriječila spriječile spriječili spriječilo spriječim spriječimo spriječio spriječite spriječiš
+60	1060	dosadan	dosadna dosadne dosadni dosadnih dosadnije dosadniji dosadnim dosadno dosadnog dosadnoj dosadnom dosadnu najdosadnija najdosadnije najdosadniji
+61	1061	napokon	
+62	1062	pad	pada pade padom padova padove padovi padovima padu
+63	1063	odjel	odel odela odelima odelom odelu odjela odjele odjeli odjelima odjelom odjelu
+64	1064	koža	kožama kože koži kožom kožu
+65	1065	kreten	kretena kretene kreteni kretenima kretenom kretenu
+66	1066	prsten	prstena prstene prsteni prstenima prstenom prstenova prstenove prstenovi prstenovima prstenu
+67	1067	normalan	najnormalnija najnormalnije najnormalniji normalna normalne normalni normalnih normalnije normalniji normalnim normalnima normalnog normalnoga normalnoj normalnom normalnu
+68	1068	sudbina	sudbinama sudbine sudbini sudbino sudbinom sudbinu
+69	1069	zahvaliti	zahvale zahvali zahvalila zahvalili zahvalim zahvalimo zahvalio zahvalite zahvalićeš zahvališ
+70	1070	drag	drage dragi dragih dragim dragima dragog dragoga dragoj dragom dragome dragu draža draže draži najdraža najdraže najdražeg najdražem najdraži najdražih najdražim najdražima najdražoj najdražom najdražu
+71	1071	družiti	druže druženje družeći druži družila družile družili družim družimo družio družite družiš
+72	1072	kurva	kurava kurvama kurve kurvetina kurvetine kurvetino kurvetinu kurvi kurvinska kurvinske kurvinski kurvinsko kurvo kurvom kurvu
+73	1073	potvrditi	potvrde potvrdi potvrdila potvrdile potvrdili potvrdilo potvrdim potvrdimo potvrdio potvrdite potvrdiš potvrđen potvrđena potvrđene potvrđeni potvrđeno
+74	1074	spominjati	spominjala spominjale spominjali spominjalo spominjanje spominjao spominje spominjem spominjemo spominjete spominješ spominji spominjimo spominjite spominju spominjući
+75	1075	lažan	lažna lažne lažni lažnih lažnim lažnog lažnoga lažnoj lažnom lažnu
+76	1076	vođa	vodja vođama vođe vođi vođo vođom vođu
+77	1077	primjer	primer primera primere primeri primjera primjere primjeri primjerima primjerom primjeru
+78	1078	potraga	potrage potragom potragu potrazi
+79	1079	metar	metara metra metre metri metrima metru
+80	1080	kost	kosti kostiju kostima
+81	1081	smeće	smeća smećem smeću
+82	1082	udarac	udaraca udarca udarce udarcem udarci udarcima udarcu
+83	1083	pušiti	puše pušenje pušeći puši pušila pušile pušili pušilo pušim pušimo pušio pušite pušiš
+84	1084	okolo	
+85	1085	vojni	vojna vojne vojnih vojnim vojno vojnog vojnoga vojnoj vojnom vojnome vojnu
+86	1086	haljina	haljinama haljine haljini haljinom haljinu
+87	1087	stol	stola stole stolom stolova stolove stolovi stolovima stolu
+88	1088	tijekom	
+89	1089	poslušati	posluša poslušaj poslušajmo poslušajte poslušaju poslušala poslušali poslušam poslušamo poslušao poslušate poslušaću poslušaš
+90	1090	položaj	položaja položaje položajem položaji položajima položaju
+91	1091	drvo	drva drvaca drvca drvce drvcem drvceta drvcu drveta drvetom drvetu
+92	1092	odgovoran	najodgovornija najodgovorniji odgovorna odgovorne odgovorni odgovornih odgovornija odgovornije odgovorniji odgovornim odgovornima odgovorno odgovornog odgovornom odgovornu
+93	1093	viđati	viđa viđaj viđaju viđala viđale viđali viđam viđamo viđan viđanje viđao viđate viđaš
+94	1094	selo	sela selima selom selu
+95	1095	nekad	
+96	1096	dužnost	dužnosti dužnostima dužnošću
+97	1097	pogriješiti	pogriješe pogriješi pogriješila pogriješile pogriješili pogriješilo pogriješim pogriješimo pogriješio pogriješite pogriješiš
+98	1098	hrabar	hrabra hrabre hrabri hrabrih hrabrija hrabrije hrabrijeg hrabriji hrabrim hrabrima hrabro hrabrog hrabroj hrabrom hrabru najhrabrija najhrabrije najhrabrijeg najhrabriji najhrabrijih
+99	1099	vjera	vera vere veri vero verom veru vjerama vjere vjeri vjero vjerom vjeru
+100	1100	otok	otoci otocima otoka otoke otokom otoku otočić otočića otočiću

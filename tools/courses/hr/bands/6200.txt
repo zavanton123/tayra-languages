@@ -1,0 +1,100 @@
+1	6101	maraton	maratona maratone maratonu
+2	6102	mještanin	meštani mještana mještane mještani mještanima mještanina mještanka
+3	6103	ekskluzivan	ekskluzivna ekskluzivne ekskluzivni ekskluzivnih ekskluzivnim ekskluzivnog ekskluzivnoj ekskluzivnom ekskluzivnu
+4	6104	obuti	obu obuj obuje obujem obuješ obujte obula obuo obuće obućeš obuću
+5	6105	leglo	legla leglu
+6	6106	donekle	
+7	6107	rudar	rudara rudare rudari rudarima
+8	6108	uzvraćati	uzvraća uzvraćaju uzvraćam uzvraćamo uzvraćanje uzvraćate uzvraćaš
+9	6109	natjecatelj	natjecatelja natjecatelje natjecatelji natjecateljica natjecateljima natjecateljski
+10	6110	vampirski	vampirska vampirske vampirskih vampirskim vampirsko vampirskog vampirskoj vampirskom vampirsku
+11	6111	kupaći	kupaće kupaćeg kupaćem kupaćih kupaćim kupaćima
+12	6112	surov	najsurovijih surova surove surovi surovih suroviji surovim surovog surovoj surovom surovu
+13	6113	prerasti	prerasla prerasli preraslo prerastao preraste prerasteš prerastu
+14	6114	suvremen	najsuvremenija najsuvremenije suvremena suvremene suvremeni suvremenih suvremenim suvremeno suvremenog suvremenoj suvremenom suvremenu
+15	6115	flertovati	flertovala flertovali flertovanje flertovao flertuj flertuje flertujem flertujemo flertujete flertuješ flertuju
+16	6116	prisega	prisege prisegom prisegu prisezi
+17	6117	žarulja	žaruljama žarulje žarulji žaruljom žarulju
+18	6118	zastrašiti	zastraše zastrašen zastrašena zastrašeni zastraši zastrašila zastrašili zastrašilo zastrašio zastrašite zastrašiš
+19	6119	bušilica	bušilicama bušilice bušilici bušilicom bušilicu
+20	6120	zdravstveno	
+21	6121	pušač	pušača pušače pušačem pušači pušačica pušačice pušačima pušaču
+22	6122	sagledati	sagleda sagledaj sagledajmo sagledaju sagledala sagledali sagledam sagledamo sagledao sagledate sagledaš
+23	6123	ukočen	ukočena ukočene ukočeni ukočenih ukočenim ukočeno
+24	6124	krstariti	krstare krstarenje krstareći krstari krstarili krstarimo krstario
+25	6125	lupiti	lupe lupi lupila lupili lupilo lupim lupimo lupio lupite lupiš
+26	6126	glina	gline glini glinom glinu
+27	6127	šlag	šlaga šlagom
+28	6128	časno	
+29	6129	omlet	omleta omlete omleti omletu
+30	6130	dizajner	dizajnera dizajnere dizajneri dizajnerima dizajnerom dizajneru
+31	6131	opsada	opsade opsadi opsadom opsadu
+32	6132	korov	korova korovom korovu
+33	6133	knjigovođa	knjigovođama knjigovođe knjigovođi knjigovođo knjigovođom knjigovođu
+34	6134	stepen	stepena stepeni stepenu
+35	6135	bratac	braca brace braci bracu brače
+36	6136	etiketa	etiketama etikete etiketi etiketom etiketu
+37	6137	talas	talasa talase talasi talasima talasom talasu
+38	6138	sitniš	sitniša sitnišem sitnišu
+39	6139	turistički	turistička turističke turističkih turističkim turističko turističkog turističkoj turističkom turističku
+40	6140	badnjak	badnjaka
+41	6141	pratilac	pratilaca pratioca pratioce pratiocem pratioci pratiocima pratiocu
+42	6142	milosrđe	milosrđa milosrđem milosrđu
+43	6143	stambeni	stambena stambene stambenih stambenim stambeno stambenog stambenoj stambenom stambenu
+44	6144	točak	točkom točkova točkove točkovi točkovima točku
+45	6145	platac	placa place placem placi placu plače
+46	6146	nagovarati	nagovara nagovaraju nagovarala nagovarali nagovaram nagovaranje nagovarao nagovarate nagovaraš
+47	6147	nabavljati	nabavlja nabavljaju nabavljala nabavljali nabavljam nabavljamo nabavljanje nabavljao nabavljate nabavljaš
+48	6148	pastuh	pastuha pastuhe pastuhom pastuhu pastusi pastuše
+49	6149	tračnica	tračnicama tračnice tračnicu
+50	6150	darežljiv	darežljiva darežljive darežljivi darežljivo darežljivog darežljivu
+51	6151	korejski	korejska korejske korejskih korejskim korejsko korejskog korejskoj korejskom korejsku
+52	6152	hrast	hrasta hrastom hrastova hrastove hrastovi hrastu
+53	6153	panda	pandama pande pandi pando pandom pandu
+54	6154	zabadati	zabada zabadaj zabadaju zabadala zabadali zabadalo zabadam zabadanje zabadao zabadate zabadaš
+55	6155	požuda	požude požudi požudom požudu
+56	6156	psihijatrija	psihijatrije psihijatriji psihijatrijom psihijatriju
+57	6157	saga	sage sagi sagom sagu
+58	6158	nadležan	nadležna nadležne nadležni nadležnih nadležnim nadležnima nadležno nadležnog nadležnom
+59	6159	žitarica	žitaricama žitarice
+60	6160	homić	homića homiće homićem homići homićima homiću
+61	6161	čistoća	čistoće čistoći čistoćom čistoću
+62	6162	iskrasti	iskrade iskradem iskrademo iskradeš iskradi iskrala iskrali iskrao
+63	6163	ostvarivati	ostvarivanje ostvarivanju ostvarivao ostvaruje ostvarujem ostvarujemo ostvarujete ostvaruješ ostvaruju
+64	6164	samuraj	samuraja samuraje samurajem samuraji samurajima samuraju
+65	6165	zaljubljivati	zaljubljivala zaljubljivali zaljubljivanje zaljubljivao zaljubljuj zaljubljuje zaljubljujem zaljubljujemo zaljubljuješ zaljubljuju
+66	6166	nemaran	nemarna nemarne nemarni nemarnim nemarno nemarnog
+67	6167	manjak	manjkom manjku
+68	6168	komesar	komesara komesare komesarom komesaru
+69	6169	pedofil	pedofila pedofile pedofili pedofilima pedofilom pedofilu
+70	6170	bezbroj	
+71	6171	katedrala	katedrale katedrali katedralom katedralu
+72	6172	starinski	starinska starinske starinskih starinskim starinsko starinskog starinskom starinsku
+73	6173	dojaviti	dojave dojavi dojavila dojavili dojavio dojavite dojavljeno
+74	6174	umor	umora umore umori umorom umoru
+75	6175	dob	dobi dobima
+76	6176	građa	građe građi građom građu
+77	6177	poveznica	poveznice poveznicu
+78	6178	udaljavati	udaljava udaljavaj udaljavajte udaljavaju udaljavala udaljavali udaljavam udaljavamo udaljavanje udaljavao udaljavaš
+79	6179	vojnički	vojnička vojničke vojničkih vojničkim vojničko vojničkog vojničkoj vojničkom vojničku
+80	6180	nabacivati	nabacivanje nabacuj nabacuje nabacujem nabacujemo nabacujete nabacuješ nabacuju
+81	6181	blagoslovljen	
+82	6182	presuditi	presude presudi presudila presudili presudilo presudim presudio presudite presuđeno
+83	6183	radoznao	radoznali
+84	6184	senf	senfa senfom senfu
+85	6185	diplomat	diplomata diplomate diplomati diplomatima diplomatom diplomatu
+86	6186	nasljeđe	nasleđa nasleđe nasljeđa nasljeđem nasljeđu
+87	6187	raspitati	raspita raspitaj raspitajte raspitam raspitamo raspitate raspitaću raspitaš
+88	6188	ventilator	ventilatora ventilatore ventilatori ventilatorima ventilatorom ventilatoru
+89	6189	rasporediti	rasporede rasporedi rasporedila rasporedili rasporedimo rasporedio rasporedite raspoređen raspoređena raspoređene raspoređeni raspoređeno
+90	6190	bikini	bikinija bikinije bikiniji bikinijima bikiniju
+91	6191	biljni	biljna biljne biljnih biljnim biljno biljnog biljnoj biljnom biljnu
+92	6192	demonski	demonska demonske demonskih demonskim demonsko demonskog demonskoj demonskom demonsku
+93	6193	osvajač	osvajača osvajače osvajači osvajačima osvajaču
+94	6194	južni	
+95	6195	idiotski	idiotska idiotske idiotskih idiotskim idiotsko idiotskog idiotskom idiotsku
+96	6196	klin	klina kline klinom klinova klinove klinovi klinovima
+97	6197	sinkronizacija	sinkronizacije sinkronizaciji sinkronizaciju
+98	6198	dres	dresa dresova dresove dresovi dresovima dresu
+99	6199	astma	astme astmom astmu
+100	6200	urban	urbana urbane urbani urbanih urbanim urbano urbanog urbanoj urbanom urbanu

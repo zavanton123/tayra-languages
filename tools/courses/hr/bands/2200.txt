@@ -1,0 +1,100 @@
+1	2101	zvono	zvona zvonima zvonom zvonu
+2	2102	identitet	identiteta identitete identiteti identitetima identitetom identitetu
+3	2103	pisac	pisaca pisca pisce piscem pisci piscima piscu pišče
+4	2104	dobijati	dobija dobijaju dobijajući dobijam dobijamo dobijanje dobijate dobijaš
+5	2105	fer	
+6	2106	televizija	televizijama televizije televiziji televizijom televiziju
+7	2107	sala	salama salame salami salamom salamu sale sali salima salo salom salu
+8	2108	predavati	predaj predaje predajem predajemo predajete predaješ predajmo predajte predaju predajući predavala predavali predavao
+9	2109	krasno	
+10	2110	pokraj	
+11	2111	rješavati	rešava rešavaju rešavam rešavamo rešavanje rešavati rešavaš rješava rješavaj rješavajte rješavaju rješavajući rješavala rješavali rješavam rješavamo rješavanja rješavanje rješavanju rješavao rješavate rješavaš
+12	2112	guverner	guvernera guvernere guverneri guvernerima guvernerom guverneru
+13	2113	iznutra	
+14	2114	kancelarija	kancelarijama kancelarije kancelariji kancelarijom kancelariju
+15	2115	nek	
+16	2116	pobjednik	pobednici pobednik pobednika pobednike pobednikom pobjednici pobjednicima pobjednika pobjednike pobjednikom pobjedniku pobjedniče
+17	2117	dim	dima dime dimom dimova dimu
+18	2118	nastup	nastupa nastupe nastupi nastupima nastupom nastupu
+19	2119	kraljevstvo	kraljevstava kraljevstva kraljevstvima kraljevstvom kraljevstvu
+20	2120	donji	donja donje donjeg donjega donjem donjih donjim donjoj donjom donju
+21	2121	ispit	ispij ispije ispijem ispijena ispijmo ispijte ispila ispio ispita ispite ispiti ispitima ispitom ispitu ispiše
+22	2122	oblak	oblaci oblacima oblaka oblake oblakom oblaku oblače
+23	2123	komplicirati	komplicira kompliciraj kompliciraju kompliciram kompliciramo kompliciran komplicirana komplicirane komplicirani komplicirano kompliciraš
+24	2124	zmaj	zmaja zmajem zmajeva zmajeve zmajevi zmajevima zmaju
+25	2125	osnovni	osnovna osnovne osnovnih osnovnim osnovno osnovnog osnovnoj osnovnom osnovnu
+26	2126	moderan	moderna moderne moderni modernih modernija modernije moderniji moderniju modernim moderno modernog modernoga modernoj modernom modernu najmodernija najmodernije najmoderniji najmodernijih najmoderniju
+27	2127	ukoliko	
+28	2128	stepenica	stepenicama stepenice stepenici stepenicu
+29	2129	liječiti	leče lečenje leči lečila lečili lečim lečimo lečio lečite lečiti lečiš liječe liječen liječena liječene liječeni liječeći liječi liječila liječili liječim liječimo liječio liječite liječiš
+30	2130	carstvo	carstava carstva carstvima carstvom carstvu
+31	2131	aktivnost	aktivnosti aktivnostima aktivnošću
+32	2132	savjetnik	savetnici savetnik savetnika savetnikom savetniče savjetnici savjetnicima savjetnika savjetnike savjetnikom savjetniku savjetniče
+33	2133	pokopati	pokopa pokopaj pokopajmo pokopajte pokopaju pokopala pokopale pokopali pokopalo pokopam pokopamo pokopan pokopana pokopane pokopani pokopano pokopao pokopate pokopaš
+34	2134	ubica	ubicama ubice ubici ubico ubicom ubicu
+35	2135	stranka	stranaka stranci strankama stranke strankom stranku
+36	2136	naviknuti	navikne naviknem naviknemo naviknete navikneš navikni naviknite naviknu naviknula naviknuli naviknuo naviknut naviknuta naviknute navići
+37	2137	utjecaj	utjecaja utjecaje utjecajem utjecaji utjecajima utjecaju
+38	2138	kruh	kruha kruhom kruhova kruhu
+39	2139	faza	fazama faze fazi fazom fazu
+40	2140	organizacija	organizacijama organizacije organizaciji organizacijom organizaciju
+41	2141	potrajati	potrajala potrajalo potrajao potrajaće potraje potraju
+42	2142	glad	gladi glađu
+43	2143	izazivati	izaziva izazivaj izazivajte izazivaju izazivajući izazivam izazivamo izazivanje izazivate izazivaš
+44	2144	gužva	gužvama gužve gužvi gužvom gužvu
+45	2145	vod	vode vodom vodova vodove vodovi vodovima vodu
+46	2146	prilagoditi	prilagode prilagodi prilagodila prilagodile prilagodili prilagodim prilagodimo prilagodio prilagodite prilagodiš prilagođen prilagođena prilagođene prilagođeni prilagođeno
+47	2147	potruditi	potrude potrudi potrudila potrudili potrudim potrudimo potrudio potrudite potrudićemo potrudiću potrudiš
+48	2148	odvojiti	odvoje odvojena odvojene odvojeni odvoji odvojila odvojile odvojili odvojilo odvojim odvojimo odvojio odvojite odvojiš
+49	2149	isplatiti	isplate isplati isplatila isplatile isplatili isplatilo isplatim isplatimo isplatio isplatite isplatiće isplatiš isplaćen isplaćena isplaćene isplaćeni isplaćeno
+50	2150	robot	robota robote roboti robotima robotom robotu
+51	2151	svašta	svačega svačemu svačim
+52	2152	razvod	razvoda razvode razvodi razvodima razvodom razvodu
+53	2153	odjenuti	odeven odjene odjenem odjenemo odjenete odjeneš odjeni odjenimo odjenite odjenu odjenula odjenuli odjenuo odjenut odjeven odjevena odjevene odjeveni odjeveno
+54	2154	svemirski	svemirska svemirske svemirskih svemirskim svemirsko svemirskog svemirskoj svemirskom svemirsku
+55	2155	novost	novosti novostima
+56	2156	rukavica	rukavicama rukavice rukavici rukavicom rukavicu
+57	2157	božićni	božićna božićne božićnih božićnim božićno božićnog božićnoj božićnom božićnu
+58	2158	zahvalnost	zahvalnosti zahvalnošću
+59	2159	blokirati	blokira blokiraj blokirajte blokiraju blokirajući blokirala blokirale blokirali blokiralo blokiram blokiramo blokiran blokirana blokirane blokirani blokiranje blokirano blokirao blokirate blokiraš
+60	2160	staklo	stakala stakla staklima staklom staklu
+61	2161	talac	talaca taoca taoce taocem taoci taocima taocu
+62	2162	advokat	advokata advokate advokati advokatica advokatima advokatom advokatska advokatske advokatskoj advokatsku advokatu
+63	2163	firma	firmama firme firmi firmom firmu
+64	2164	zakopati	zakopa zakopaj zakopajmo zakopajte zakopaju zakopala zakopale zakopali zakopam zakopamo zakopan zakopana zakopane zakopani zakopano zakopao zakopate zakopaš
+65	2165	uistinu	
+66	2166	intervju	intervjua intervjue intervjui intervjuima intervjuom intervjuu
+67	2167	blok	bloka blokom blokova blokove blokovi blokovima bloku
+68	2168	usuđivati	usuđivao usuđuj usuđuje usuđujem usuđujemo usuđujete usuđuješ usuđujte usuđuju
+69	2169	nimalo	
+70	2170	dijamant	dijamanata dijamanta dijamante dijamanti dijamantima dijamantom dijamantu
+71	2171	glupan	glupana glupane glupani glupanima glupanom glupanu
+72	2172	ozlijeđen	ozlijeđena ozlijeđene ozlijeđeni ozlijeđenih ozlijeđenim ozlijeđenima ozlijeđeno ozlijeđenog ozlijeđenom ozlijeđenu
+73	2173	suza	suzama suze suzi suzom suzu
+74	2174	susjed	sused susede susedi susedima susjede susjedi susjedima susjedom susjedu
+75	2175	onamo	
+76	2176	biljka	biljaka biljci biljkama biljke biljki biljkom biljku
+77	2177	količina	količinama količine količini količinom količinu
+78	2178	šetnja	šetnjama šetnje šetnji šetnjom šetnju
+79	2179	vagati	vagala vaganje vagao važe važem važeš važi važu
+80	2180	ljubavnik	ljubavnici ljubavnicima ljubavnika ljubavnike ljubavnikom ljubavniku ljubavniče
+81	2181	zakleti	zaklela zaklele zakleli zakleo zaklet zakleta zaklete zakune zakunem zakunemo zakunete zakuneš zakuni zakunite zakunu
+82	2182	kupaonica	kupaonicama kupaonice kupaonici kupaonicom kupaonicu
+83	2183	zamišljati	zamišlja zamišljaj zamišljaju zamišljajući zamišljala zamišljali zamišljam zamišljamo zamišljanje zamišljao zamišljate zamišljaš
+84	2184	izvrstan	izvrsna izvrsne izvrsni izvrsnih izvrsnim izvrsnog izvrsnoj izvrsnom izvrsnu
+85	2185	nečiji	nečija nečije nečijeg nečijem nečijih nečijim nečijoj nečijom nečiju
+86	2186	okrug	okruga okruge okrugom okrugu okruzi okruzima okruže
+87	2187	naočale	naočala naočalama
+88	2188	koledž	koledža koledže koledži koledžima koledžu
+89	2189	pomoćnik	pomoćnici pomoćnicima pomoćnika pomoćnike pomoćnikom pomoćniku pomoćniče
+90	2190	hram	hrama hramom hramova hramove hramovi hramovima hramu
+91	2191	trošak	troška troškova troškove troškovi troškovima trošku
+92	2192	uopšte	
+93	2193	krvav	krvava krvave krvavi krvavih krvavije krvavim krvavog krvavoga krvavoj krvavom krvavu najkrvavija najkrvaviji najkrvavijih
+94	2194	uzdah	uzdaha uzdahe uzdahom uzdasi uzdasima
+95	2195	otmica	otmicama otmice otmici otmicom otmicu
+96	2196	brisati	brisala brisali brisanje brisao briše brišem brišemo brišete brišeš briši brišimo brišite brišu brišući
+97	2197	frajer	frajera frajere frajeri frajerima frajerom frajeru
+98	2198	ljubavni	ljubavna ljubavne ljubavnih ljubavnim ljubavno ljubavnog ljubavnoj ljubavnom ljubavnu
+99	2199	pustinja	pustinjama pustinje pustinji pustinjom pustinju
+100	2200	simbol	simbola simbole simboli simbolima simbolom simbolu

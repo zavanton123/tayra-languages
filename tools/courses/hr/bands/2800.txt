@@ -1,0 +1,100 @@
+1	2701	nevidljiv	nevidljiva nevidljive nevidljivi nevidljivih nevidljivim nevidljivima nevidljivo nevidljivog nevidljivoj nevidljivom nevidljivu
+2	2702	označiti	označe označen označena označene označeni označeno označi označila označili označilo označim označimo označio označite označiš
+3	2703	imovina	imovine imovini imovinom imovinu
+4	2704	vitez	viteza vitezi vitezom vitezova vitezove vitezovi vitezovima vitezu viteže
+5	2705	mrlja	mrljama mrlje mrlji mrljo mrljom mrlju
+6	2706	prijem	prijema prijeme prijemi prijemom prijemu
+7	2707	nisko	najniže niže
+8	2708	posjed	posed poseda posedu posjeda posjede posjedi posjedima posjedom posjedu
+9	2709	stalan	stalna stalne stalni stalnih stalnim stalnog stalnoj stalnom stalnu
+10	2710	gornji	gornja gornje gornjeg gornjem gornjih gornjim gornjoj gornjom gornju
+11	2711	profil	profila profile profili profilima profilom profilu
+12	2712	spisak	spiska spiskom spiskove spiskovi spisku
+13	2713	nacija	nacijama nacije naciji nacijom naciju
+14	2714	preostati	preostala preostale preostali preostalih preostalo preostane preostao
+15	2715	obožavatelj	obožavatelja obožavatelje obožavateljem obožavatelji obožavateljima obožavatelju
+16	2716	iznova	
+17	2717	pička	pičaka pičkama pičke pički pičko pičkom pičku
+18	2718	tragedija	tragedijama tragedije tragediji tragedijom tragediju
+19	2719	jednak	jednaka jednake jednaki jednakih jednakim jednakima jednakog jednakoj jednakom jednaku
+20	2720	kemijski	kemijska kemijske kemijskih kemijskim kemijsko kemijskog kemijskoj kemijskom kemijsku
+21	2721	električni	električna električne električnih električnim električno električnog električnoj električnom električnu
+22	2722	dnevno	
+23	2723	dopuštenje	dopuštenja dopuštenjem dopuštenju
+24	2724	uznemiravati	uznemirava uznemiravaj uznemiravajte uznemiravaju uznemiravajući uznemiravala uznemiravali uznemiravalo uznemiravam uznemiravamo uznemiravan uznemiravana uznemiravani uznemiravanje uznemiravao uznemiravate uznemiravaš
+25	2725	omogućiti	omoguće omogućen omogućena omogućeno omogući omogućila omogućile omogućili omogućilo omogućim omogućimo omogućio omogućite omogućivši omogućiš
+26	2726	meden	medena medene medeni medenih medenim medeno medenog medenom medenome medenu
+27	2727	ludost	ludosti ludostima ludošću
+28	2728	pišati	piša pišaj pišajte pišaju pišajući pišala pišali pišalo pišam pišamo pišanje pišao pišate pišaću pišaš
+29	2729	crijevo	creva crevo crevom crijeva crijevom crijevu
+30	2730	promet	prometa prometom prometu
+31	2731	sramiti	srame srami sramila sramili sramim sramimo sramio sramite sramiš
+32	2732	album	albuma albume albumi albumima albumom albumu
+33	2733	buljiti	bulje buljenje buljeći bulji buljila buljili buljim buljimo buljio buljite buljiš
+34	2734	objekt	objekata objekta objekte objekti objektima objektom objektu
+35	2735	palača	palačama palače palači palačom palaču
+36	2736	stoka	stoci stoke stoko stokom stoku
+37	2737	nakit	nakita nakitom nakitu
+38	2738	pomisao	pomisli
+39	2739	guza	guzama guze guzi guzo guzom guzu
+40	2740	vrhunski	vrhunska vrhunske vrhunskih vrhunskim vrhunsko vrhunskog vrhunskoj vrhunskom vrhunsku
+41	2741	ševiti	ševe ševi ševila ševili ševim ševimo ševio ševite ševiš
+42	2742	zakazati	zakazala zakazale zakazali zakazalo zakazan zakazana zakazane zakazani zakazano zakazao zakazaću zakaže zakažem zakažemo zakažete zakažeš zakaži zakažite zakažu
+43	2743	međutim	
+44	2744	smeđ	smeđa smeđe smeđeg smeđem smeđi smeđih smeđim smeđoj smeđom smeđu
+45	2745	kupovina	kupovine kupovini kupovinom kupovinu
+46	2746	siv	siva sive sivi sivih sivim sivima sivo sivog sivoga sivoj sivom sivu
+47	2747	tajan	tajne tajni tajnih tajnim tajnog tajnoga tajnoj tajnom tajnome tajnu
+48	2748	dokle	
+49	2749	knjižnica	knjižnicama knjižnice knjižnici knjižnicom knjižnicu
+50	2750	kirurg	kirurga kirurge kirurgom kirurgu kirurzi kirurzima
+51	2751	crta	crtama crte crti crtom crtu
+52	2752	privlačan	najprivlačnija najprivlačnije najprivlačniji privlačna privlačne privlačni privlačnih privlačnija privlačnije privlačniji privlačnijim privlačnim privlačnima privlačno privlačnog privlačnom privlačnu
+53	2753	prirodno	
+54	2754	romantičan	najromantičnija najromantičnije najromantičniji najromantičnijih romantična romantične romantični romantičnih romantičnije romantičniji romantičnim romantičnog romantičnoj romantičnom romantičnu
+55	2755	kravata	kravatama kravate kravati kravatom kravatu
+56	2756	razlikovati	razlikovala razlikovale razlikovali razlikovalo razlikovanje razlikovao razlikuje razlikujem razlikujemo razlikujete razlikuješ razlikuju
+57	2757	nahraniti	nahrane nahrani nahranila nahranili nahranim nahranimo nahranio nahranite nahraniš nahranjen nahranjena nahranjeni
+58	2758	otpor	otpora otporom otporu
+59	2759	razuman	najrazumnija najrazumnije najrazumniji razumna razumne razumni razumnih razumnija razumnije razumniji razumnim razumnog razumnoj razumnom razumnu
+60	2760	sudar	sudara sudare sudari sudarima sudarom sudaru
+61	2761	groblje	groblja grobljem grobljima groblju
+62	2762	pucanj	pucnja pucnjem pucnjeva pucnjeve pucnjevi pucnjevima pucnju
+63	2763	pretjerati	preterala preterali preterao pretjera pretjeraju pretjerala pretjerale pretjerali pretjeram pretjeramo pretjerao pretjeraš
+64	2764	popušiti	popuše popuši popušila popušili popušim popušimo popušio popušite popušiš
+65	2765	preskočiti	preskoče preskoči preskočila preskočili preskočilo preskočim preskočimo preskočio preskočite preskočiću preskočiš
+66	2766	mjeriti	mere merenje meri merim merio merite meriti mjere mjerenje mjereći mjeri mjerili mjerim mjerimo mjerio mjerite mjeriš
+67	2767	šator	šatora šatore šatori šatorima šatorom šatoru
+68	2768	moma	mome momo momu
+69	2769	metoda	metodama metode metodi metodom metodu
+70	2770	pregovarati	pregovara pregovaraj pregovarajmo pregovarajte pregovaraju pregovarala pregovarali pregovaram pregovaramo pregovaranje pregovarao pregovarate pregovaraš
+71	2771	mek	meka meke meki mekih mekim meko mekog mekoj mekom meku mekša mekše mekši mekšu najmekše
+72	2772	kan	kana kane kani kano kanom kanu kanua kanue kanui kanuima kanuom kanuu
+73	2773	mana	manama mane mani mano manom manu
+74	2774	veseo	vesela vesele veseli veselih veselija veselije veseliji veselim veselog veseloj veselom veselu
+75	2775	kloniti	klone kloni klonila klonili klonim klonimo klonio klonite kloniš
+76	2776	radost	radosti radostima radošću
+77	2777	sastaviti	sastave sastavi sastavila sastavili sastavim sastavimo sastavio sastavite sastaviću sastaviš sastavljen sastavljena sastavljene sastavljeni sastavljeno
+78	2778	bolničar	bolničara bolničare bolničari bolničarima bolničarka bolničarkama bolničarke bolničarki bolničarko bolničarkom bolničarku bolničarom bolničaru
+79	2779	veličanstven	veličanstvena veličanstvene veličanstveni veličanstvenih veličanstvenim veličanstveno veličanstvenog veličanstvenoj veličanstvenom veličanstvenu
+80	2780	polica	policama police polici policom policu
+81	2781	mrtvac	mrtvaca mrtvace mrtvaci mrtvacima mrtvacom mrtvacu mrtvače
+82	2782	blizanac	blizanaca blizanca blizance blizanci blizancima blizancu
+83	2783	oboriti	obore oboren oborena oborene oboreni oboreno obori oborila oborili oborilo oborim oborimo oborio oborite oboriš
+84	2784	kucati	kucaj kucajte kucaju kucajući kucala kucali kucalo kucam kucamo kucanje kucao kucate kucaš
+85	2785	mobilan	mobilna mobilne mobilni mobilnih mobilnim mobilnog mobilnoj mobilnom mobilnu
+86	2786	nekretnina	nekretninama nekretnine nekretnini nekretninu
+87	2787	osuđivati	osuđivala osuđivali osuđivan osuđivana osuđivani osuđivanje osuđivao osuđuj osuđuje osuđujem osuđujemo osuđujete osuđuješ osuđujte osuđuju osuđujući
+88	2788	blag	blaga blage blagi blagih blagim blagog blagoj blagom blagu blaža blaže blaži blažu najblaže najblaži
+89	2789	afera	aferama afere aferi aferom aferu
+90	2790	motel	motela motele moteli motelima motelom motelu
+91	2791	drolja	droljama drolje drolji droljo droljom drolju
+92	2792	ubrzati	ubrza ubrzaj ubrzajmo ubrzajte ubrzaju ubrzala ubrzali ubrzalo ubrzam ubrzamo ubrzanja ubrzanje ubrzanjem ubrzanju ubrzao ubrzate ubrzaš
+93	2793	v	
+94	2794	svugdje	svugde
+95	2795	proklet	
+96	2796	sportski	sportska sportske sportskih sportskim sportsko sportskog sportskoj sportskom sportsku
+97	2797	odsjeći	odseci odsecite odsekao odsekla odsekli odseku odseći odseče odsečem odsečemo odsečen odsečena odsečene odsečeni odsečeš odsijeci odsijecite odsijeku odsiječe odsiječem odsiječemo odsiječete odsiječeš odsjekao odsjekla odsjekle odsjekli odsječen odsječena odsječene odsječeni odsječeno
+98	2798	pratnja	pratnje pratnji pratnjom pratnju
+99	2799	komora	komorama komore komori komorom komoru
+100	2800	runda	rundama runde rundi rundom rundu

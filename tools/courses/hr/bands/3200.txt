@@ -1,0 +1,100 @@
+1	3101	tajnica	tajnicama tajnice tajnici tajnicom tajnicu
+2	3102	konačan	konačna konačne konačni konačnih konačnim konačnog konačnoj konačnom konačnu
+3	3103	raspoloženje	raspoloženja raspoloženjem raspoloženju
+4	3104	sedmica	sedmicama sedmice sedmici sedmicom sedmicu
+5	3105	talijanski	talijanska talijanske talijanskih talijanskim talijansko talijanskog talijanskoj talijanskom talijansku
+6	3106	skenirati	skenira skeniraj skenirajte skeniraju skenirajući skenirala skenirali skeniram skeniramo skeniran skenirana skenirane skenirani skeniranje skenirao skenirate skeniraš
+7	3107	rečenica	rečenicama rečenice rečenici rečenicom rečenicu
+8	3108	lijes	les lesa lese lesom lesu lies lijesa lijesom lijesova lijesovi lijesu ljesova ljesove ljesovi ljesovima
+9	3109	jutarnji	jutarnja jutarnje jutarnjeg jutarnjem jutarnjih jutarnjim jutarnjoj jutarnjom jutarnju
+10	3110	otraga	
+11	3111	proslava	proslavama proslave proslavi proslavom proslavu
+12	3112	z	
+13	3113	patka	pataka patkama patke patki patkica patkice patkicu patko patkom patku
+14	3114	uspostaviti	uspostave uspostavi uspostavila uspostavile uspostavili uspostavilo uspostavim uspostavimo uspostavio uspostavite uspostaviš uspostavljen uspostavljena uspostavljeni uspostavljeno
+15	3115	poručnica	poručnice poručnici poručnicom poručnicu
+16	3116	bejzbol	bejzbola bejzbolom bejzbolu
+17	3117	sklonište	skloništa skloništem skloništima skloništu
+18	3118	strog	najstroža najstrože najstrožem najstroži najstrožu stroga stroge strogi strogih strogim strogog strogoj strogom strogu stroža strože stroži
+19	3119	šesti	šesta šeste šestim šesto šestog šestoga šestoj šestom šestu
+20	3120	nadgledati	nadgleda nadgledaj nadgledajte nadgledaju nadgledala nadgledali nadgledam nadgledamo nadgledan nadgledani nadgledanje nadgledano nadgledao nadgledate nadgledaš
+21	3121	dragocjen	dragocen dragocena dragocene dragoceni dragoceno dragocenog dragocenu dragocjena dragocjene dragocjeni dragocjenih dragocjenije dragocjeniji dragocjenim dragocjeno dragocjenog dragocjenom dragocjenu najdragocjenija najdragocjenije najdragocjeniji
+22	3122	koktel	koktela koktele kokteli koktelima koktelom koktelu
+23	3123	upamtiti	upamte upamti upamtim upamtite upamtiću upamtiš
+24	3124	nezgoda	nezgodama nezgode nezgodi nezgodom nezgodu
+25	3125	nagodba	nagodbe nagodbi nagodbom nagodbu
+26	3126	borben	borbena borbene borbeni borbenih borbenim borbenog borbenoj borbenom borbenu
+27	3127	jadnik	jadnici jadnicima jadnika jadnike jadnikom jadniku jadniče
+28	3128	uvjetan	uvjetna uvjetne uvjetni uvjetno uvjetnog uvjetnoj uvjetnom uvjetnu
+29	3129	lansirati	lansira lansiraj lansirajmo lansirajte lansiraju lansirala lansirali lansiram lansiramo lansiran lansirana lansirane lansirani lansiranje lansirano lansirao lansirate lansiraš
+30	3130	potres	potresa potrese potresi potresima potresom potresu
+31	3131	audicija	audicijama audicije audiciji audicijom audiciju
+32	3132	odletjeti	odlete odletela odleteli odleteo odleteti odleti odletim odletimo odletio odletite odletiš odletjela odletjele odletjeli odletjelo
+33	3133	godišnje	
+34	3134	poricati	poricala poricali poricanje poricao poriče poričem poričemo poričete poričeš poriči poričite poriču poričući
+35	3135	ujediniti	ujedine ujedini ujedinila ujedinile ujedinili ujedinim ujedinimo ujedinio ujedinite ujediniš ujedinjen ujedinjena ujedinjene ujedinjeni ujedinjenje ujedinjeno
+36	3136	salon	salona salone saloni salonima salonom salonu
+37	3137	napolju	
+38	3138	komunicirati	komunicira komuniciraj komunicirajte komuniciraju komunicirala komunicirali komuniciram komuniciramo komuniciranje komunicirao komunicirate komuniciraš
+39	3139	hladnjak	hladnjaci hladnjacima hladnjaka hladnjake hladnjakom hladnjaku hladnjače
+40	3140	rekord	rekorda rekorde rekordi rekordom rekordu
+41	3141	imenovati	imenovala imenovali imenovan imenovana imenovane imenovani imenovanje imenovano imenovao imenuj imenuje imenujem imenujemo imenujete imenuješ imenujte imenuju
+42	3142	period	perioda periode periodi periodima periodom periodu
+43	3143	trenutan	trenutna trenutne trenutni trenutnih trenutnim trenutnog trenutnoj trenutnom trenutnu
+44	3144	srebrn	srebrna srebrne srebrni srebrnih srebrnim srebrno srebrnog srebrnoj srebrnom srebrnu
+45	3145	bračni	bračna bračne bračnih bračnim bračno bračnog bračnoj bračnom bračnu
+46	3146	locirati	locira lociraj locirajte lociraju locirala locirali lociram lociramo lociran locirana locirane locirani lociranje locirano locirao locirate lociraš
+47	3147	provala	provalama provale provali provalom provalu
+48	3148	vječno	večno
+49	3149	patuljak	patuljaka patuljci patuljcima patuljka patuljke patuljkom patuljku patuljče
+50	3150	svetac	sveca svece svecem sveci svecima svecu svetaca sveče
+51	3151	nekoć	
+52	3152	ispustiti	ispuste ispusti ispustila ispustili ispustim ispustimo ispustio ispustite ispustiš ispušten ispuštena ispuštene
+53	3153	odstupiti	odstupe odstupi odstupila odstupili odstupim odstupimo odstupio odstupite odstupiš
+54	3154	popuniti	popune popuni popunila popunili popunim popunimo popunio popunite popuniš popunjen popunjena popunjene popunjeni popunjeno
+55	3155	plavuša	plavušama plavuše plavuši plavušo plavušom plavušu
+56	3156	godišnji	godišnja godišnjeg godišnjem godišnjih godišnjim godišnjoj godišnjom godišnju
+57	3157	orao	oral orla orle orlom orlov orlova orlove orlovi orlovima orlovo orlovski orlu
+58	3158	zadaća	zadaćama zadaće zadaći zadaćom zadaću
+59	3159	patrola	patrolama patrole patroli patrolo patrolom patrolu
+60	3160	useliti	usele useli uselila uselile uselili uselim uselimo uselio uselite useliš useljenje
+61	3161	poprilično	
+62	3162	tjedno	
+63	3163	rastaviti	rastave rastavi rastavila rastavili rastavim rastavimo rastavio rastavite rastaviš rastavljen rastavljena rastavljene rastavljeni
+64	3164	puniti	pune puneći puni punila punili punim punimo punio punite puniš punjen punjena punjene punjeni punjenje punjeno
+65	3165	ravan	ravna ravne ravni ravnih ravnim ravnima ravnog ravnoga ravnoj ravnom ravnu
+66	3166	kupatilo	kupatila kupatilima kupatilom kupatilu
+67	3167	poker	pokera pokerom pokeru
+68	3168	jao	
+69	3169	odrezak	odresci odrescima odreska odreske odreskom odresku odrezaka
+70	3170	maca	macama mace maci maco macom macu
+71	3171	pop	popa pope popom popova popove popovi popu
+72	3172	ulaznica	ulaznicama ulaznice ulaznicu
+73	3173	beskućnik	beskućnica beskućnice beskućnici beskućnicima beskućnicu beskućnika beskućnike beskućnikom beskućniku
+74	3174	strijela	strela strele strelom strelu strijelama strijele strijeli strijelom strijelu
+75	3175	cimer	cimera cimere cimeri cimerima cimerom cimeru
+76	3176	unuka	unuci unuke unuko unukom unuku
+77	3177	navesti	naveden navedene navela naveo
+78	3178	preminuti	premine preminula preminule preminuli preminulo preminuo
+79	3179	zapovijedati	zapoveda zapovedam zapovijeda zapovijedaj zapovijedaju zapovijedajući zapovijedala zapovijedali zapovijedam zapovijedamo zapovijedanje zapovijedao zapovijedate zapovijedaš
+80	3180	vodstvo	vodstva vodstvom vodstvu
+81	3181	primjerak	primerak primeraka primerci primerka primerke primjeraka primjerci primjercima primjerka primjerke primjerkom primjerku
+82	3182	uzak	najuže najuži uska uske uski uskih uskim usko uskog uskoj uskom usku uža užeg užem uži užu
+83	3183	originalan	originalna originalne originalni originalnih originalnim originalnog originalnoj originalnom originalnu
+84	3184	proljeće	proleća proleće proljeća proljeću
+85	3185	nakaza	nakazama nakaze nakazi nakazo nakazom nakazu
+86	3186	mršav	mršava mršave mršavi mršavih mršavija mršavije mršaviji mršavim mršavo mršavog mršavom mršavu
+87	3187	ladica	ladicama ladice ladici ladicom ladicu
+88	3188	strpljiv	strpljiva strpljive strpljivi strpljivija strpljiviji strpljivo strpljivog
+89	3189	modrica	modricama modrice modricom modricu
+90	3190	tinejdžer	tinejdžera tinejdžere tinejdžeri tinejdžerima tinejdžerom tinejdžeru
+91	3191	pokloniti	poklone pokloni poklonila poklonili poklonim poklonimo poklonio poklonite pokloniću pokloniš poklonjen poklonjena poklonjeno
+92	3192	tekućina	tekućinama tekućine tekućini tekućinom tekućinu
+93	3193	oštar	najoštrija najoštrije najoštriji oštra oštre oštri oštrih oštrija oštrije oštriji oštrim oštrog oštroj oštrom oštru
+94	3194	jen	
+95	3195	razboljeti	razbole razbolela razboleli razboleo razboleti razboli razbolim razbolimo razbolio razbolite razboliš razboljela razboljele razboljeli razboljelo
+96	3196	potvrđivati	potvrđivanje potvrđuje potvrđujem potvrđujemo potvrđujete potvrđuješ potvrđuju potvrđujući
+97	3197	skroman	skromna skromne skromni skromnih skromnije skromniji skromnim skromno skromnog skromnoj skromnom skromnu
+98	3198	ograničen	ograničena ograničene ograničeni ograničenih ograničenim ograničeno ograničenog ograničenoj ograničenom ograničenu
+99	3199	ručnik	ručnici ručnicima ručnika ručnike ručnikom ručniku
+100	3200	čudak	čudaci čudacima čudaka čudake čudakom čudaku čudače

@@ -1,0 +1,100 @@
+1	6501	rezidencija	rezidencije rezidenciji rezidenciju
+2	6502	trak	traci trake trakom traku tračak
+3	6503	tupan	tupana tupane tupani tupanima tupanom tupanu
+4	6504	propaganda	propagande propagandi propagandom propagandu
+5	6505	aranžman	aranžmana aranžmane aranžmani aranžmanima aranžmanom aranžmanu
+6	6506	leopard	leoparda leoparde leopardi leopardima leopardom leopardu
+7	6507	jelda	
+8	6508	kvalifikacija	kvalifikacijama kvalifikacije kvalifikaciju
+9	6509	krajolik	krajolici krajolika krajolike krajolikom krajoliku
+10	6510	besmrtnost	besmrtnosti besmrtnošću
+11	6511	kuharica	
+12	6512	čep	čepa čepom čepova čepove čepovi čepovima čepu
+13	6513	korpus	korpusa korpusom korpusu
+14	6514	grb	grba grbe grbi grbom grbu
+15	6515	dužnosnik	dužnosnici dužnosnicima dužnosnika dužnosnike
+16	6516	omot	omota omote omoti omotima omotu
+17	6517	uzoran	uzorna uzorne uzorni uzornih uzornim uzorno uzornog
+18	6518	šupalj	šuplja šuplje šupljeg šupljem šuplji šupljim šupljoj šuplju
+19	6519	delfin	delfina delfine delfini delfinima delfinu
+20	6520	omotati	omota omotaj omotajte omotaju omotala omotali omotam omotan omotana omotane omotani omotano omotao omotaš
+21	6521	rezultirati	rezultira rezultiraju rezultirajući rezultirala rezultirali rezultiralo rezultirao
+22	6522	dominirati	dominira dominiraju dominirala dominirali dominiralo dominiram dominiramo dominirao dominiraš
+23	6523	bjelkinja	belkinja belkinje bjelkinjama bjelkinje bjelkinjo bjelkinjom bjelkinju
+24	6524	zemljan	zemljana zemljane zemljani zemljanih zemljanim zemljanima zemljanom zemljanu
+25	6525	potjernica	poternica poternice poternicu potjernicama potjernice potjernici potjernicu
+26	6526	imigrant	imigranata imigranta imigrante imigranti imigrantima
+27	6527	kozmički	kozmička kozmičke kozmičkih kozmičkim kozmičko kozmičkog kozmičkoj kozmičkom kozmičku
+28	6528	brus	brusa brusom brusu
+29	6529	mrmljati	mrmlja mrmljaj mrmljaju mrmljajući mrmljala mrmljanje mrmljao mrmljaš
+30	6530	kopča	kopčama kopče kopči kopčom kopču
+31	6531	sestrica	sestrice sestrici sestricom sestricu
+32	6532	djeveruša	deveruša djeverušama djeveruše djeverušu
+33	6533	fizičar	fizičara fizičare fizičari fizičaru
+34	6534	dozivati	doziva dozivaju dozivajući dozivala dozivali dozivam dozivamo dozivanje dozivao dozivaš
+35	6535	četka	četke četki četkom četku
+36	6536	aljaski	aljaska aljaske aljasku
+37	6537	spektakularan	najspektakularnije najspektakularniji najspektakularnijih spektakularna spektakularne spektakularni spektakularnih spektakularnim spektakularnog spektakularnoj spektakularnom spektakularnu
+38	6538	grm	grma grme grmova grmove grmovi grmu
+39	6539	uzda	uzdama uzde uzdi uzdu
+40	6540	vojvotkinja	vojvotkinje vojvotkinji vojvotkinjo vojvotkinjom vojvotkinju
+41	6541	delikatan	delikatna delikatne delikatni delikatnih delikatnim delikatnog delikatnoj delikatnom delikatnu
+42	6542	zavlačiti	zavlače zavlačenje zavlači zavlačila zavlačili zavlačim zavlačio zavlačite zavlačiš
+43	6543	muslimanski	muslimanska muslimanske muslimanskih muslimanskim muslimansko muslimanskog muslimanskoj muslimanskom muslimansku
+44	6544	herojski	herojska herojske herojskih herojskim herojsko herojskog herojskoj herojskom herojsku
+45	6545	spužva	spužve spužvi spužvom spužvu
+46	6546	arhitektura	arhitekture arhitekturi arhitekturom arhitekturu
+47	6547	poštenje	poštenja poštenjem poštenju
+48	6548	uljepšati	uljepša uljepšaj uljepšajte uljepšaju uljepšala uljepšali uljepšalo uljepšam uljepšamo uljepšano uljepšao uljepšaš
+49	6549	gospodstvo	gospodstva gospodstvom gospodstvu
+50	6550	hipi	hipija hipije hipiji hipijima hipiju
+51	6551	spektar	spektra spektrom spektru
+52	6552	simpatija	simpatijama simpatije simpatijom simpatiju
+53	6553	drot	drota drotovi
+54	6554	vlaga	vlage vlagom vlagu vlazi
+55	6555	lojalan	lojalna lojalne lojalni lojalnih lojalno lojalnog
+56	6556	imidž	imidža imidžom imidžu
+57	6557	kokos	kokosa kokose kokosi kokosima kokosom kokosu
+58	6558	zatvorenica	zatvorenicama zatvorenice zatvorenici zatvorenicom zatvorenicu
+59	6559	fatalan	fatalna fatalne fatalni fatalnih fatalnim fatalnog fatalnoj fatalnom fatalnu
+60	6560	kvadratni	kvadratna kvadratne kvadratnih kvadratnog kvadratnom kvadratnu
+61	6561	refleks	refleksa reflekse refleksi refleksima
+62	6562	bezosjećajan	bezosećajno bezosjećajna bezosjećajne bezosjećajni bezosjećajno bezosjećajnom
+63	6563	sitno	
+64	6564	popravni	popravna popravne popravnim popravnog popravnoj popravnom popravnome popravnu
+65	6565	pljusak	pljuska pljuske pljuski pljuskom pljuskova pljuskove pljuskovi pljuskovima pljusku
+66	6566	psihotičan	psihotična psihotične psihotični psihotičnih psihotičnim psihotično psihotičnog psihotičnom psihotičnu
+67	6567	mljeti	melje meljem meljemo meljete melješ melji melju mljela mljevena mljevene mljeveni mljevenje mljeveno
+68	6568	odvažan	odvažna odvažne odvažni odvažnih odvažnije odvažniji odvažnim odvažno odvažnog odvažnu
+69	6569	propovijed	propoved propovedi propovijedi propovijedima
+70	6570	češnjak	češnjaka češnjakom češnjaku
+71	6571	znojan	znojna znojne znojni znojnih znojnim znojno znojnog znojnu
+72	6572	izniman	iznimna iznimne iznimni iznimnih iznimnim iznimnog iznimnom iznimnu
+73	6573	silovatelj	
+74	6574	pozorno	
+75	6575	samopoštovanje	samopoštovanja samopoštovanjem samopoštovanju
+76	6576	lider	lidera lidere lideri liderima liderom lideru
+77	6577	gajba	gajbe gajbi gajbu
+78	6578	otpisati	otpisala otpisali otpisan otpisana otpisani otpisao otpiše otpišemo otpišeš otpiši otpišu
+79	6579	analitičar	analitičara analitičare analitičari analitičarima
+80	6580	glasač	glasača glasače glasači glasačima
+81	6581	tava	tavama tave tavi tavom tavu
+82	6582	spavaonica	spavaonicama spavaonice spavaonici spavaonicu
+83	6583	svršetak	svršetka svršetke svršetku
+84	6584	ludovati	ludovala ludovali ludovanje ludovao luduj luduje ludujem ludujemo luduješ ludujmo ludujte luduju
+85	6585	malik	
+86	6586	motivacija	motivacije motivaciji motivacijom motivaciju
+87	6587	hibrid	hibrida hibride hibridi hibridima hibridu
+88	6588	uzvišen	najuzvišenija uzvišena uzvišene uzvišeni uzvišenih uzvišenije uzvišenim uzvišenog uzvišenoj uzvišenom uzvišenu
+89	6589	sušiti	suše sušena sušene sušeni sušenje sušeno sušila sušilo sušim sušio sušiš
+90	6590	zadah	zadaha zadahom zadahu
+91	6591	radnički	radnička radničke radničkih radničkim radničko radničkog radničkoj radničkom radničku
+92	6592	otkup	otkupa otkupe otkupi otkupom otkupu
+93	6593	gospon	gospona
+94	6594	sed	seda sede sedi sedim
+95	6595	šiljak	šiljaka šiljci šiljcima šiljka šiljke šiljkom šiljku
+96	6596	prskati	prska prskaj prskaju prskala prskali prskam prskanje prskao prskaš
+97	6597	prezir	prezira prezirom preziru
+98	6598	drskost	drskosti drskošću
+99	6599	zanemarivati	zanemarivala zanemarivali zanemarivanje zanemarivao zanemaruje zanemarujem zanemarujemo zanemarujete zanemaruješ zanemaruju zanemarujući
+100	6600	studentica	

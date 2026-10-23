@@ -1,0 +1,100 @@
+1	1101	nad	
+2	1102	jedinica	jedinicama jedinice jedinici jedinicom jedinicu
+3	1103	definitivno	
+4	1104	namjeravati	namerava nameravaju nameravala nameravali nameravam nameravamo nameravao nameravate nameravaš namjerava namjeravaju namjeravala namjeravale namjeravali namjeravam namjeravamo namjeravao namjeravate namjeravaš
+5	1105	bob	boba bobe bobom bobova bobove bobu
+6	1106	različit	različita različite različiti različitih različitiji različitim različitima različitog različitoj različitom različitu
+7	1107	slobodno	
+8	1108	iskustvo	iskustava iskustva iskustvima iskustvom iskustvu
+9	1109	ugovor	ugovora ugovore ugovori ugovorima ugovorom ugovoru
+10	1110	povezan	povezana povezane povezani povezanih povezanim povezano povezanog povezanoj povezanom povezanu
+11	1111	pristup	pristupa pristupe pristupi pristupom pristupu
+12	1112	izvinite	
+13	1113	pošto	
+14	1114	poginuti	pogine poginem poginemo poginete pogineš pogini poginu poginula poginule poginuli poginulo poginuo poginuće poginućeš
+15	1115	vruć	vruća vruće vrućeg vrućem vrući vrućih vrućim vrućoj vrućom vruću
+16	1116	sasvim	
+17	1117	kuhinja	kuhinjama kuhinje kuhinji kuhinjom kuhinju
+18	1118	porodica	porodicama porodice porodici porodico porodicom porodicu
+19	1119	dodati	doda dodaj dodajmo dodajte dodaju dodala dodali dodalo dodam dodamo dodan dodana dodane dodani dodano dodao dodate dodavši dodaćemo dodaću dodaš
+20	1120	noćni	noćna noćne noćnih noćnim noćno noćnog noćnoga noćnoj noćnom noćnome noćnu
+21	1121	sačekati	sačeka sačekaj sačekajmo sačekajte sačekaju sačekala sačekali sačekam sačekamo sačekao sačekate sačekaće sačekaćemo sačekaću sačekaš
+22	1122	prostor	prostora prostore prostori prostorima prostorom prostoru
+23	1123	ponuda	ponudama ponude ponudi ponudom ponudu
+24	1124	niz	niza nize nizom nizova nizove nizovi nizovima nizu
+25	1125	nagrada	nagradama nagrade nagradi nagradom nagradu
+26	1126	blizina	blizine blizini blizinom blizinu
+27	1127	kartica	karticama kartice kartici karticom karticu
+28	1128	učitelj	učitelja učitelje učiteljem učitelji učiteljica učiteljice učiteljici učiteljicom učiteljicu učiteljima učitelju
+29	1129	kratak	kratka kratke kratki kratkih kratkim kratkog kratkoga kratkoj kratkom kratkome kratku kraća kraće kraćeg kraćem kraći kraćim kraćom kraću najkraća najkraće najkraćem najkraći najkraćim najkraću
+30	1130	ionako	
+31	1131	ovuda	
+32	1132	izvještaj	izveštaj izveštaja izveštaje izveštajem izveštaji izveštajima izveštaju izvještaja izvještaje izvještajem izvještaji izvještajima izvještaju
+33	1133	smisliti	smisle smisli smislila smislile smislili smislim smislimo smislio smislite smisliće smislićemo smislićeš smisliću smisliš smišljen smišljena smišljene smišljeni smišljeno
+34	1134	popis	popisa popise popisi popisima popisom popisu
+35	1135	odabrati	odabere odaberem odaberemo odaberete odabereš odaberi odaberimo odaberite odaberu odabrala odabrale odabrali odabralo odabran odabrana odabrane odabrani odabrano odabrao
+36	1136	donositi	donose donoseći donosi donosila donosile donosili donosilo donosim donosimo donosio donosite donosiš donošenje
+37	1137	mačka	mačaka mačja mačje mačjeg mačjem mačji mačjih mačjim mačju mačkama mačke mački mačkica mačko mačkom mačku
+38	1138	njemački	nemačka nemačke nemački nemačkih nemačkim nemačko nemačkog nemačkoj nemačkom nemačku njemačka njemačke njemačkih njemačkim njemačko njemačkog njemačkoga njemačkoj njemačkom njemačkome njemačku
+39	1139	brzina	brzinama brzine brzini brzinom brzinu
+40	1140	policijski	policijska policijske policijskih policijskim policijsko policijskog policijskoga policijskoj policijskom policijsku
+41	1141	služba	službama službe službi službo službom službu
+42	1142	nevin	nevina nevine nevini nevinih nevinije nevinim nevinima nevino nevinog nevinoga nevinoj nevinom nevinu
+43	1143	povesti	povede povedem povedemo povedete povedeš povedi povedimo povedite povedu povela povele poveli poveo povešće povešćemo povešćeš povešću
+44	1144	automobil	automobila automobile automobili automobilima automobilom automobilu
+45	1145	zanimljivo	
+46	1146	udar	udara udare udari udarima udarom udaru
+47	1147	šutjeti	šute šuti šutim šutimo šutio šutite šutiš šutjela šutjeli
+48	1148	kuca	kucama kuce kuci kuco kucom kucu
+49	1149	optužiti	optuže optužen optužena optužene optuženi optuženo optuži optužila optužile optužili optužilo optužim optužimo optužio optužite optuživši optužiće optužićemo optužiću optužiš
+50	1150	točka	točaka točkama točke točki točkom točku
+51	1151	vlasnik	vlasnici vlasnicima vlasnika vlasnike vlasnikom vlasniku vlasniče
+52	1152	poželjeti	požele poželela poželeli poželeo poželeti poželećeš poželi poželim poželimo poželio poželite poželiš poželjela poželjeli
+53	1153	obući	obuci obucimo obucite obukao obukla obukle obukli obuku obuče obučem obučemo obučete obučeš
+54	1154	govor	govora govorima govorom govoru
+55	1155	sumnja	sumnjama sumnje sumnji sumnjom sumnju
+56	1156	dići	digao digla digle digli diglo digne dignem dignemo dignete digneš digni dignimo dignite dignu dignula dignuli dignuo dignut dignuta dignute dignuti dignuto diže
+57	1157	debeo	debela debele debeli debelih debelim debelima debelo debelog debeloga debeloj debelom debelu deblja deblje deblji deblju najdeblja najdeblji
+58	1158	zapovjednik	zapovednik zapovednika zapovedniče zapovjednici zapovjednicima zapovjednika zapovjednike zapovjednikom zapovjedniku zapovjedniče
+59	1159	gđa	
+60	1160	pogrešan	pogrešna pogrešne pogrešni pogrešnih pogrešnim pogrešnima pogrešnog pogrešnoga pogrešnoj pogrešnom pogrešnome pogrešnu
+61	1161	zamijeniti	zamene zameni zamenila zamenili zamenim zamenimo zamenio zamenite zameniti zamenićemo zameniću zameniš zamenjen zamenjena zamenjene zamenjeni zamijene zamijeni zamijenila zamijenile zamijenili zamijenilo zamijenim zamijenimo zamijenio zamijenite zamijenivši zamijeniš zamijenjen zamijenjena zamijenjene zamijenjeni zamijenjeno zamjenjivati
+62	1162	izvor	izvora izvore izvori izvorima izvorom izvoru
+63	1163	teorija	teorijama teorije teoriji teorijom teoriju
+64	1164	pogrešno	
+65	1165	ceo	cela cele celi celih celim celo celog celoga celoj celom celome celu
+66	1166	laž	laži lažima
+67	1167	odjednom	
+68	1168	meso	mesa mesom mesu
+69	1169	pobjeda	pobeda pobedama pobede pobedi pobedom pobedu pobjedama pobjede pobjedi pobjedom pobjedu
+70	1170	fakultet	faks faksa faksom faksova faksove faksovi faksu fakulteta fakultete fakulteti fakultetima fakultetom fakultetu
+71	1171	omiljen	najomiljenija najomiljenije najomiljeniji najomiljenijih omiljena omiljene omiljeni omiljenih omiljenim omiljeno omiljenog omiljenoj omiljenom omiljenu
+72	1172	ležati	ležala ležale ležali ležalo ležanje ležao leže ležeći leži ležim ležimo ležite ležiš
+73	1173	polje	polja poljem poljima polju
+74	1174	prljav	najprljavija najprljavije najprljaviji prljava prljave prljavi prljavih prljavija prljavije prljaviji prljavim prljavog prljavoj prljavom prljavu
+75	1175	rođen	rodjen rođena rođene rođeni rođenih rođenim rođeno rođenog rođenoj rođenom rođenu
+76	1176	miran	mirna mirne mirni mirnih mirnija mirnije mirnijem mirniji mirniju mirnim mirnima mirnog mirnoj mirnom mirnu najmirnije najmirniji
+77	1177	božji	boži božiji božja božje božjeg božjega božjem božjih božjim božjoj božjom božju
+78	1178	zabavljati	zabavlja zabavljaj zabavljajmo zabavljajte zabavljaju zabavljajući zabavljala zabavljale zabavljali zabavljalo zabavljam zabavljamo zabavljanje zabavljao zabavljate zabavljaš
+79	1179	ponijeti	ponela poneli poneo ponese ponesem ponesemo poneseni ponesete poneseš ponesi ponesimo ponesite ponesu poneti ponećemo poneću ponije ponijela ponijele ponijeli ponijelo ponijet ponio
+80	1180	govno	govana govance govna govnima govnom govnu
+81	1181	apsolutno	
+82	1182	izgubljen	izgubljena izgubljene izgubljeni izgubljenih izgubljenim izgubljenima izgubljeno izgubljenog izgubljenoj izgubljenom izgubljenu
+83	1183	medicinski	medicinska medicinske medicinskih medicinskim medicinsko medicinskog medicinskoj medicinskom medicinsku
+84	1184	kamen	kamena kamene kameni kamenih kamenim kameno kamenog kamenoj kamenom kamenu
+85	1185	truditi	trude trudeći trudi trudila trudile trudili trudim trudimo trudio trudite trudiću trudiš
+86	1186	pristati	pristala pristale pristali pristalo pristane pristanem pristanemo pristanete pristaneš pristani pristanite pristanu pristao pristaće pristaše
+87	1187	vožnja	vožnjama vožnje vožnji vožnjom vožnju
+88	1188	uho	uha uhom uhu uši ušiju ušima
+89	1189	ravno	
+90	1190	strašan	najstrašnija najstrašnije najstrašnijeg najstrašniji najstrašnijih najstrašnijim najstrašniju strašna strašne strašni strašnih strašnija strašnije strašnijeg strašniji strašnim strašnog strašnoga strašnoj strašnom strašnu
+91	1191	kuda	
+92	1192	odijelo	odela odelima odelo odelom odelu odijela odijelima odijelom odijelu
+93	1193	oblik	oblici oblicima oblika oblike oblikom obliku
+94	1194	varati	vara varaj varaju varajući varala varale varali varam varamo varanje varao varate varaš
+95	1195	braća	braće braći braćo braćom braću
+96	1196	poštovanje	poštovanja poštovanjem poštovanju
+97	1197	smjestiti	smeste smestila smestili smestim smestimo smestio smestite smestiti smestiću smestiš smešten smeštena smešteni smešteno smjeste smjesti smjestila smjestile smjestili smjestilo smjestim smjestimo smjestio smjestite smjestiš smješten smještena smještene smješteni smješteno
+98	1198	čudovište	čudovišta čudovištem čudovištima čudovištu
+99	1199	slučajno	
+100	1200	prepoznati	prepozna prepoznaj prepoznajte prepoznaju prepoznala prepoznale prepoznali prepoznalo prepoznam prepoznamo prepoznao prepoznat prepoznata prepoznate prepoznato prepoznaš

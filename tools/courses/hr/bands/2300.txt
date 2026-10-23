@@ -1,0 +1,100 @@
+1	2201	uvreda	uvredama uvrede uvredi uvredom uvredu
+2	2202	raspravljati	raspravlja raspravljaj raspravljajte raspravljaju raspravljajući raspravljala raspravljale raspravljali raspravljalo raspravljam raspravljamo raspravljanje raspravljao raspravljate raspravljaš
+3	2203	preuzimati	preuzima preuzimaju preuzimajući preuzimala preuzimali preuzimam preuzimamo preuzimanja preuzimanje preuzimao preuzimate preuzimaš
+4	2204	koncert	koncerata koncerta koncerte koncerti koncertima koncertom koncertu
+5	2205	šok	šoka šokom šokova šokove šokovi šokovima šoku
+6	2206	stres	stresa stresom stresova stresu
+7	2207	kauč	kauča kauče kaučem kauču
+8	2208	osumnjičiti	osumnjičen osumnjičena osumnjičene osumnjičeni osumnjičeno osumnjičili
+9	2209	uprava	uprave upravi upravom upravu
+10	2210	siromašan	najsiromašnija najsiromašnije najsiromašniji najsiromašnijih siromašna siromašne siromašni siromašnih siromašnije siromašniji siromašnijim siromašnim siromašnima siromašno siromašnog siromašnoj siromašnom siromašnu
+11	2211	utorak	utorka utorke utorkom
+12	2212	dalek	daleka daleke daleki dalekih dalekim dalekog dalekoj dalekom daleku dalja dalje daljeg daljem dalji daljih daljim daljoj dalju najdalja najdalje najdalji najdaljih
+13	2213	gotovina	gotovine gotovini gotovinom gotovinu
+14	2214	sličiti	sliče sliči sličila sličile sličili sličilo sličim sličimo sličio sličite sličiš
+15	2215	vladati	vladaj vladaju vladajuća vladajuće vladajućeg vladajući vladajućih vladajuću vladala vladale vladali vladalo vladam vladamo vladanja vladanje vladanjem vladanju vladao vladate vladaš
+16	2216	dupli	dupla duple duplih duplim duplo duplog duploj duplom duplu
+17	2217	proslaviti	proslave proslavi proslavila proslavile proslavili proslavilo proslavim proslavimo proslavio proslavite proslavićemo proslaviš proslavljen proslavljena proslavljeni
+18	2218	roman	romana romane romani romanima romanom romanu
+19	2219	razviti	razvij razvije razvijem razvijemo razvijen razvijena razvijene razvijeni razvijeno razvijete razviješ razvijte razviju razvila razvile razvili razvilo razvio
+20	2220	porez	poreski poreza poreze porezi porezima porezni porezom porezu
+21	2221	katastrofa	katastrofama katastrofe katastrofi katastrofom katastrofu
+22	2222	prsa	prsima
+23	2223	susjeda	suseda susede susedi susjede susjedi susjedo susjedom susjedu
+24	2224	ponos	ponosa ponose ponosi ponosom ponosu
+25	2225	juriti	jure jurenje jureći juri jurila jurile jurili jurilo jurim jurimo jurio jurite
+26	2226	pritvor	pritvora pritvore pritvori pritvorom pritvoru
+27	2227	privući	privuci privucite privukao privukla privukle privukli privuklo privuku privuče privučem privučemo privučen privučena privučene privučeni privučete privučeš
+28	2228	pluća	plućima
+29	2229	lav	lava lave lavi lavom lavova lavove lavovi lavovima lavu
+30	2230	jabuka	jabuci jabukama jabuke jabukom jabuku jabučica jabučice jabučicu jabučni jabučnog
+31	2231	povratiti	povrate povrati povratila povratile povratili povratilo povratim povratimo povratio povratite povratiću povratiš
+32	2232	uvesti	uvede uvedem uvedemo uveden uvedena uvedene uvedeni uvedeno uvedete uvedeš uvedi uvedimo uvedite uvedu uvela uvele uveli uvelo uvezen uvezena uvezene uvezeni uvezeno uvezi uvezli uvezu uvešću
+33	2233	napolje	
+34	2234	alibi	alibija alibije alibijem alibiji alibiju
+35	2235	štap	štapa štapom štapova štapove štapovi štapovima štapu
+36	2236	pristajati	pristajala pristajale pristajali pristajalo pristajanje pristajao pristaje pristajem pristajemo pristajete pristaješ pristaju
+37	2237	društven	društvena društvene društveni društvenih društvenim društveno društvenog društvenoj društvenom društvenu
+38	2238	lisa	
+39	2239	prekršiti	prekrše prekršen prekršena prekršeni prekršeno prekrši prekršila prekršile prekršili prekršilo prekršim prekršimo prekršio prekršite prekršiš
+40	2240	gazda	gazdama gazde gazdi gazdom gazdu
+41	2241	liz	liza lizom lizu liže
+42	2242	tehnički	tehnička tehničke tehničkih tehničkim tehničko tehničkog tehničkoj tehničkom tehničku
+43	2243	predavanje	predavanja predavanjem predavanjima predavanju
+44	2244	razdvojiti	razdvoje razdvojen razdvojena razdvojene razdvojeni razdvoji razdvojila razdvojile razdvojili razdvojilo razdvojim razdvojimo razdvojio razdvojite razdvojiš
+45	2245	umjetnik	umetnici umetnicima umetnik umetnika umetnike umjetnici umjetnicima umjetnika umjetnike umjetnikom umjetniku umjetniče
+46	2246	skakati	skakala skakale skakali skakanje skakao skače skačem skačemo skačete skačeš skači skačimo skačite skaču skačući
+47	2247	šetati	šeta šetaj šetajte šetaju šetajući šetala šetale šetali šetam šetamo šetanje šetao šetate šetaš šeće šećem šećemo šećete šećeš šeći šeću šećući
+48	2248	obavljati	obavlja obavljaj obavljajte obavljaju obavljajući obavljala obavljali obavljam obavljamo obavljanje obavljao obavljate obavljaš
+49	2249	kultura	kulturama kulture kulturi kulturom kulturu
+50	2250	opsjesti	opsednut opsednuta opsednuti opsjedne opsjednut opsjednuta opsjednute opsjednuti opsjednuto opsjela opsjeli opsjelo opsjeo
+51	2251	dovršiti	dovrše dovršen dovršena dovršene dovršeni dovršenje dovršeno dovrši dovršila dovršili dovršim dovršimo dovršio dovršite dovršiš
+52	2252	besplatan	besplatna besplatne besplatni besplatnih besplatnim besplatnog besplatnoj besplatnom besplatnu
+53	2253	suh	suha suhe suhi suhih suhim suho suhog suhoj suhom suhome suhu suša suše sušim sušom sušu
+54	2254	zima	zime zimi zimo zimom zimu
+55	2255	graditi	grade gradeći gradi gradila gradile gradili gradilo gradim gradimo gradio gradite gradiće gradiću gradiš građen građena građene građeni građenje građeno
+56	2256	ludilo	ludila ludilom ludilu
+57	2257	trenirati	trenira treniraj trenirajte treniraju trenirala trenirale trenirali treniram treniramo treniran trenirana trenirane trenirani treniranje trenirao trenirate treniraš
+58	2258	moguć	moguća mogućeg mogućega mogućem mogući mogućih mogućim mogućoj mogućom moguću
+59	2259	lisice	lisica lisicama lisici lisico lisicom lisicu
+60	2260	pogodak	pogoci pogodaka pogotka pogotke pogotkom pogotku
+61	2261	odreći	odreci odrecite odrekao odrekla odrekle odrekli odrekne odreknem odreknemo odreknete odrekneš odrekni odreknite odreknu
+62	2262	dvorac	dvoraca dvorca dvorce dvorcem dvorci dvorcima dvorcu
+63	2263	penjati	penjala penjali penjanje penjao penje penjem penjemo penjete penješ penji penjite penju penjući
+64	2264	radnja	radnjama radnje radnji radnjom radnju
+65	2265	otkako	
+66	2266	sjena	sena sene seni senu siena sjenama sjene sjeni sjeno sjenom sjenu
+67	2267	susjedstvo	susedstva susedstvo susedstvu susjedstva susjedstvima susjedstvom susjedstvu
+68	2268	šaka	šaci šakama šake šakom šaku
+69	2269	naoružati	naoruža naoružaj naoružajte naoružaju naoružala naoružali naoružamo naoružan naoružana naoružane naoružani naoružano naoružao
+70	2270	verzija	verzijama verzije verziji verzijom verziju
+71	2271	pripaziti	pripaze pripazi pripazila pripazili pripazim pripazimo pripazio pripazite pripaziću pripaziš
+72	2272	trening	treninga treninge treningom treningu treninzi treninzima
+73	2273	usuditi	usude usudi usudila usudile usudili usudim usudimo usudio usudite usudiš
+74	2274	čarolija	čarolijama čarolije čaroliji čarolijom čaroliju
+75	2275	medij	medija medije medijem mediji medijima mediju
+76	2276	nuklearni	nuklearna nuklearne nuklearnih nuklearnim nuklearno nuklearnog nuklearnoj nuklearnom nuklearnu
+77	2277	žut	žute žuti žutih žutim žutima žuto žutog žutoj žutom žutu žuća žuće žuću
+78	2278	naići	naiđe naiđem naiđemo naiđete naiđeš naiđu naišao naišla naišle naišli naišlo
+79	2279	rima	rimama rime rimi rimom rimu
+80	2280	rep	repa repe repo repom repova repove repovi repovima repu ripa
+81	2281	negativan	negativna negativne negativni negativnih negativnim negativno negativnog negativnoj negativnom negativnu
+82	2282	kombi	
+83	2283	ugodno	
+84	2284	šalica	šalicama šalice šalici šalicom šalicu
+85	2285	sitan	najsitnija najsitnije najsitnijeg najsitniji najsitnijih sitna sitne sitni sitnih sitnije sitniji sitnim sitnog sitnoga sitnoj sitnom sitnu
+86	2286	peder	pedera pedere pederi pederima pederom pederu
+87	2287	unijeti	une unela uneli uneo unese unesem unesemo unesen unesena unesene uneseni uneseno unesete uneseš unesi unesimo unesite unesu uneti unije unijela unijeli unijelo unio
+88	2288	analiza	analizama analize analizi analizom analizu
+89	2289	tekst	teksta tekstom tekstova tekstove tekstovi tekstovima tekstu
+90	2290	priznanje	priznanja priznanjem priznanjima priznanju
+91	2291	muzej	muzeja muzeje muzeji muzejima muzejom muzeju
+92	2292	krvni	krvna krvne krvnih krvnim krvno krvnog krvnoj krvnom krvnu
+93	2293	kompjuter	kompjutera kompjutere kompjuteri kompjuterima kompjuterom kompjuteru
+94	2294	ran	najranija najranije najranijeg najraniji najranijih najranijim rane ranih ranija ranije ranijeg ranijem raniji ranijih ranijim ranijoj raniju ranim ranog ranoga ranoj ranom ranu
+95	2295	kupac	kupaca kupca kupce kupcem kupci kupcima kupcu
+96	2296	časopis	časopisa časopise časopisi časopisima časopisom časopisu
+97	2297	rast	rasta raste rastom rastu
+98	2298	snaći	snađe snađem snađemo snađete snađeš snađi snađite snađu snašao snašla snašle snašli snašlo
+99	2299	posto	
+100	2300	iskopati	iskopa iskopaj iskopajmo iskopajte iskopaju iskopala iskopale iskopali iskopam iskopamo iskopan iskopana iskopane iskopani iskopano iskopao iskopate iskopaću iskopaš

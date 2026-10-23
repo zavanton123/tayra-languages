@@ -1,0 +1,100 @@
+1	3901	spas	spasa spase spasu
+2	3902	manijak	manijaci manijacima manijaka manijake manijakom manijaku manijače
+3	3903	konkurencija	konkurencije konkurenciji konkurencijom konkurenciju
+4	3904	desetljeće	desetljeća desetljećima desetljeću
+5	3905	igralište	igrališta igralištem igralištima igralištu
+6	3906	hrvatski	hrvatska hrvatske hrvatskih hrvatskim hrvatsko hrvatskog hrvatskoga hrvatskoj hrvatskom hrvatsku
+7	3907	izuzetan	izuzetna izuzetne izuzetni izuzetnih izuzetnim izuzetnog izuzetnoj izuzetnom izuzetnu
+8	3908	ožujak	ožujka ožujku
+9	3909	stidjeti	stide stidela stideo stideti stidi stidim stidimo stidio stidite stidiš stidjela stidjeli
+10	3910	pomoćnica	pomoćnice pomoćnici pomoćnicom pomoćnicu
+11	3911	ambasador	ambasadora ambasadore ambasadori ambasadorima ambasadorom ambasadoru
+12	3912	požuriti	
+13	3913	figura	figurama figure figuri figurom figuru
+14	3914	ličnost	ličnosti ličnostima ličnošću
+15	3915	stanarina	stanarine stanarini stanarinom stanarinu
+16	3916	ovlast	ovlasti ovlastima ovlašću
+17	3917	uspijevati	uspijeva
+18	3918	nosač	nosača nosače nosačem nosači nosačima nosaču
+19	3919	voz	voza vozom vozova vozove vozovi vozovima vozu
+20	3920	vojvoda	vojvode vojvodi vojvodo vojvodom vojvodu
+21	3921	obred	obreda obrede obredi obredima obredom obredu
+22	3922	ostrvo	ostrva ostrvima ostrvom ostrvu
+23	3923	kukac	kukaca kukca kukce kukci kukcima kukcu
+24	3924	grana	granama grane grani granom granu
+25	3925	kabel	kabela kabeli kabla kablom kablova kablove kablovi kablovima kablu
+26	3926	prigoda	prigodama prigode prigodi prigodom prigodu
+27	3927	kornjača	kornjačama kornjače kornjači kornjačo kornjačom kornjaču
+28	3928	krafna	krafn krafnama krafne krafni krafnom krafnu krofna
+29	3929	obrijati	obrij obrijala obrijali obrijan obrijana obrijane obrijani obrijao obrije obrijem obrijemo obrijete obriješ obrijte obriju
+30	3930	zaljev	zaljeva zaljevom zaljevu
+31	3931	rodbina	rodbine rodbini rodbinom rodbinu
+32	3932	vješt	najvještiji vešt vešta vešti vešto vješta vješte vješti vještih vještiji vještim vješto vještog vještom
+33	3933	natpis	natpisa natpise natpisi natpisima natpisom natpisu
+34	3934	namamiti	namame namami namamila namamile namamili namamim namamimo namamio namamite namamiš namamljen namamljeni
+35	3935	nadzornik	nadzornici nadzornicima nadzornika nadzornike nadzornikom nadzorniku nadzorniče
+36	3936	kokoš	kokoši kokošiju kokošima kokošju
+37	3937	nikuda	
+38	3938	financije	financija financijama
+39	3939	leptir	leptira leptire leptiri leptirima leptirom leptiru
+40	3940	arterija	arterijama arterije arteriji arteriju
+41	3941	arhiv	arhiva arhive arhivi arhivima arhivom arhivu
+42	3942	ukazati	ukaza ukazala ukazale ukazali ukazalo ukazana ukazanje ukazano ukazao ukaže ukažem ukažemo ukažeš ukaži ukažite ukažu
+43	3943	ljubitelj	ljubitelja ljubitelje ljubiteljem ljubitelji ljubiteljica ljubiteljice ljubiteljima ljubitelju
+44	3944	kreativan	kreativna kreativne kreativni kreativnih kreativnije kreativniji kreativnim kreativno kreativnog kreativnoj kreativnom kreativnu
+45	3945	parada	paradama parade paradi paradom paradu
+46	3946	gripa	gripe gripi gripom gripu
+47	3947	as	asa asom asova asove asovi asu
+48	3948	velikodušan	najvelikodušniji velikodušna velikodušne velikodušni velikodušniji velikodušnim velikodušnog velikodušnoj velikodušnom velikodušnu
+49	3949	izgovarati	izgovara izgovaraj izgovarajte izgovaraju izgovarajući izgovarala izgovarali izgovaram izgovaramo izgovaranje izgovarao izgovarate izgovaraš
+50	3950	dostojan	dostojna dostojne dostojni dostojnim dostojnima dostojno dostojnog dostojnom dostojnu
+51	3951	prvenstvo	prvenstava prvenstva prvenstvom prvenstvu
+52	3952	mart	marta marte martom martu
+53	3953	vrućina	vrućine vrućini vrućinom vrućinu
+54	3954	srebro	srebra srebrom srebru
+55	3955	zamjeriti	zameri zamerio zamerite zameriti zamjere zamjeri zamjerila zamjerili zamjerim zamjerio zamjerite zamjeriš
+56	3956	pridržati	pridržali pridržao pridrži pridržim pridržite pridržiš
+57	3957	bačiti	bačen bačena bačene bačeni bačeno
+58	3958	centimetar	centimetara centimetra centimetri centimetrima centimetru
+59	3959	ulazni	ulazna ulazne ulaznih ulaznim ulazno ulaznog ulaznoj ulaznom ulaznu
+60	3960	isporučiti	isporuče isporučen isporučena isporučene isporučeni isporučeno isporuči isporučila isporučili isporučim isporučimo isporučio isporučite isporučiš
+61	3961	ispeći	ispeci ispecite ispekao ispekla ispekle ispekli ispeku ispeče ispečem ispečemo ispečen ispečena ispečene ispečeni ispečeno ispečeš
+62	3962	dvanaest	
+63	3963	prilog	priloga priloge prilogom prilogu prilozi prilozima
+64	3964	direktan	direktna direktne direktni direktnih direktnim direktnog direktnoj direktnom direktnu
+65	3965	kuga	kuge kugi kugom kugu
+66	3966	motati	mota motaj motaju motala motale motali motalo motam motamo motanje motao motate motaš
+67	3967	teroristički	teroristička terorističke terorističkih terorističkim terorističko terorističkog terorističkoj terorističkom terorističku
+68	3968	drkadžija	drkadžijama drkadžije drkadžiji drkadžijo drkadžijom drkadžiju
+69	3969	prihod	prihoda prihode prihodi prihodima prihodom prihodu
+70	3970	odbacivati	odbacivala odbacivali odbacivanje odbacivao odbacuj odbacuje odbacujem odbacujemo odbacujete odbacuješ odbacujte odbacuju odbacujući
+71	3971	zbuniti	zbune zbuni zbunila zbunile zbunili zbunilo zbunim zbunimo zbunio zbunite zbuniš
+72	3972	iskrenost	iskrenosti iskrenošću
+73	3973	las	
+74	3974	ozdraviti	ozdrave ozdravi ozdravila ozdravili ozdravim ozdravimo ozdravio ozdravite ozdraviš
+75	3975	prijestolje	prijestolja prijestoljem prijestolju
+76	3976	vo	vola vole volova volove volovi volovima volu
+77	3977	suknja	suknjama suknje suknji suknjom suknju
+78	3978	dijagnoza	dijagnozama dijagnoze dijagnozi dijagnozom dijagnozu
+79	3979	pribor	pribora priborom priboru
+80	3980	trofej	trofeja trofeje trofejem trofeji trofejima trofeju
+81	3981	sajam	sajma sajmom sajmova sajmove sajmovi sajmovima sajmu
+82	3982	odbrana	odbrane odbrani odbranom odbranu
+83	3983	dosaditi	dosade dosadi dosadila dosadile dosadili dosadilo dosadim dosadio dosadiš
+84	3984	strogo	
+85	3985	krtica	krticama krtice krtici krticom krticu
+86	3986	najaviti	najave najavi najavila najavili najavim najavimo najavio najavite najaviš najavljen najavljena najavljene najavljeni najavljeno
+87	3987	zeko	zeka zeke zeki zekom zeku
+88	3988	jun	juna june juni junu
+89	3989	nastavnik	nastavnici nastavnicima nastavnika nastavnike nastavnikom nastavniku nastavniče
+90	3990	limun	limuna limune limuni limunima limunom limunu
+91	3991	napitak	napici napicima napitaka napitci napitcima napitka napitke napitkom napitku
+92	3992	pedeset	
+93	3993	sunčan	sunčana sunčane sunčani sunčanih sunčanim sunčano sunčanog sunčanoj sunčanom sunčanu
+94	3994	proučiti	prouče prouči proučila proučili proučim proučimo proučio proučite proučiš
+95	3995	šupčina	šupčine šupčino šupčinu
+96	3996	civilni	civilna civilne civilnih civilnim civilno civilnog civilnoj civilnom civilnu
+97	3997	porasti	porasla porasle porasli poraslo porastao poraste porastem porasteš porastu
+98	3998	zbiti	zbijen zbijena zbijene zbijeni zbijeno zbijte zbila zbili zbilo zbio
+99	3999	večerašnji	večerašnja večerašnje večerašnjeg večerašnjem večerašnjih večerašnjim večerašnjoj večerašnjom večerašnju
+100	4000	vršiti	vrše vršenje vršeći vrši vršila vršili vršim vršimo vršio vršite vršiš

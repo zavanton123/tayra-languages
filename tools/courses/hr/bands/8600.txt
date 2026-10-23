@@ -1,0 +1,100 @@
+1	8501	plast	plastu
+2	8502	olabaviti	olabavi olabavila olabavilo olabavim olabavimo olabavio olabavite olabaviš
+3	8503	utemeljiti	utemeljen utemeljena utemeljene utemeljeni utemeljeno utemeljili utemeljio
+4	8504	ji	
+5	8505	upornost	upornosti upornošću
+6	8506	prekrivati	prekriva prekrivaju prekrivajući prekrivala prekrivali prekrivanje prekrivao
+7	8507	sekvenca	sekvence sekvenci sekvencu
+8	8508	beskonačno	
+9	8509	filter	
+10	8510	ukočiti	ukoče ukoči ukočila ukočili ukočilo ukočim ukočio
+11	8511	nesvjesno	nesvesno
+12	8512	bajan	bajna bajne bajni bajno bajnu
+13	8513	uhićivati	uhićuje uhićujem uhićujemo uhićujete uhićuješ uhićuju
+14	8514	kazaljka	kazaljke kazaljki kazaljku
+15	8515	baraba	barabe barabo barabu
+16	8516	pacifički	pacifička pacifičke pacifičkih pacifičkim pacifičkog pacifičkoj pacifičkom pacifičku
+17	8517	sedamdeset	
+18	8518	odstupati	odstupa odstupaj odstupaju odstupam odstupamo odstupanje
+19	8519	subotnji	subotnja subotnje subotnjoj subotnju
+20	8520	human	humana humane humani humanije humaniji najhumanije
+21	8521	obrazovati	obrazovala obrazovali obrazovao obrazuj obrazuje obrazujem obrazujemo obrazuješ obrazuju
+22	8522	uzgajati	
+23	8523	metabolizam	metabolizma metabolizmu
+24	8524	specifikacija	specifikacijama specifikacije specifikaciju
+25	8525	puran	purana purane purani puranu pureći
+26	8526	padobranac	padobranaca padobranca padobrance padobranci padobrancima
+27	8527	sezonski	sezonska sezonske sezonskih sezonskim sezonsko sezonskom sezonsku
+28	8528	mitski	mitska mitske mitskih mitskim mitsko mitskog mitskom mitsku
+29	8529	dušik	dušika dušikom
+30	8530	temperament	temperamenta temperamentom temperamentu
+31	8531	električar	električara električari
+32	8532	pancirka	pancirke pancirki pancirku
+33	8533	anestetik	anestetika anestetike anestetikom
+34	8534	cirkulacija	cirkulacije cirkulaciji cirkulacijom cirkulaciju
+35	8535	punoljetan	punoletan punoljetna punoljetne punoljetni
+36	8536	maznuti	mazne maznem maznemo mazneš mazni maznu
+37	8537	uviti	uvije uvijem uvijen uvijena uvijene uvijeni uvijeno uvijete
+38	8538	zapažati	zapaža zapažam zapažanje zapažate zapažaš
+39	8539	pobaciti	pobaci pobacila pobacim
+40	8540	potplatiti	potplate potplati potplatila potplatili potplatio potplaćen potplaćeni
+41	8541	prevrtati	prevrtala prevrtali prevrtanje prevrtao prevrće prevrćem prevrćeš prevrći prevrću
+42	8542	nakupiti	nakupe nakupi nakupila nakupile nakupili nakupilo nakupio nakupljene
+43	8543	guja	guje gujo guju
+44	8544	koalicija	koalicije koaliciji koalicijom koaliciju
+45	8545	nezadovoljstvo	nezadovoljstva
+46	8546	brusnica	brusnicama brusnice brusnicom brusnicu
+47	8547	piton	pitona pitoni pitonom pitonu
+48	8548	napomena	napomene napomeni napomenu
+49	8549	baština	baštine baštini baštinom baštinu
+50	8550	tmuran	tmurna tmurne tmurni tmurno tmurnu
+51	8551	pojedinačno	
+52	8552	hunta	hunte huntom huntu
+53	8553	rt	rta rtu
+54	8554	podrediti	podredio podređen podređena podređene podređeni podređeno
+55	8555	crvenjeti	crvene crveni crvenim crveniš
+56	8556	zakup	zakupa zakupu
+57	8557	radilica	radilicama radilice radilicu
+58	8558	češati	češali češanje češao češe češem češete češeš češi češu
+59	8559	podmetnuti	
+60	8560	odvojen	
+61	8561	sim	
+62	8562	sušilica	sušilice sušilici sušilicu
+63	8563	laguna	lagune laguni lagunu
+64	8564	tajmer	tajmera tajmere tajmerom tajmeru
+65	8565	dinar	dinara
+66	8566	pletenica	pletenicama pletenice pletenicu
+67	8567	šrapnel	šrapnela šrapnele šrapneli
+68	8568	aroma	arome aromom aromu
+69	8569	prepisivati	prepisivala prepisivali prepisivanje prepisivao prepisuje prepisujem prepisujete prepisuješ prepisuju
+70	8570	pohrana	pohrane pohrani pohranu
+71	8571	porađati	porađa porađaju porađala porađam porađanje porađaš
+72	8572	pronevjera	pronevera pronevjere pronevjeri pronevjeru
+73	8573	obrat	obrata obrate obrati
+74	8574	uzduž	
+75	8575	pozajmiti	
+76	8576	visjeti	
+77	8577	gramofon	gramofona gramofonom gramofonu
+78	8578	razmirica	razmiricama razmirice razmiricu
+79	8579	ushićen	ushićena ushićeni ushićeno
+80	8580	oteći	otekao otekla otekle otekli oteklo otekne oteknu otečen otečena otečene otečeni otečeno
+81	8581	deblo	debla deblu
+82	8582	hipoteza	hipoteze hipotezi hipotezu
+83	8583	ultimatum	ultimatuma ultimatume
+84	8584	podsvjestan	podsvesno podsvjesna podsvjesne podsvjesni podsvjesno podsvjesnu
+85	8585	začarati	začara začarala začarali začarao
+86	8586	kvrga	kvrge kvrgo kvrgu
+87	8587	zatrovati	zatrovala zatrovali zatrovan zatrovana zatrovane zatrovani zatrovano zatrovao zatruje
+88	8588	dramski	dramska dramske dramskih dramsko dramskog dramskoj dramskom dramsku
+89	8589	razbacivati	razbacivanje razbacuj razbacuje razbacujem razbacujemo razbacujete razbacuješ razbacuju
+90	8590	šiti	šije šijem šijemo šijete šiješ šiju šila šivenje
+91	8591	raspust	raspusta raspuste raspusti raspustu
+92	8592	reciklirati	reciklira recikliraj recikliraju recikliram recikliramo reciklirane reciklirani reciklirano reciklirao
+93	8593	dugoročno	
+94	8594	sužavati	sužava sužavaju sužavam sužavanje
+95	8595	šarlatan	šarlatana šarlatane šarlatani šarlatanu
+96	8596	pastrva	pastrve pastrvu
+97	8597	ažurirati	ažurira ažuriraj ažuriraju ažurirala ažurirali ažuriram ažuriran ažurirana ažurirane ažurirani ažurirao
+98	8598	prisilan	prisilna prisilne prisilni prisilnim prisilnog prisilnom prisilnu
+99	8599	nepoželjan	nepoželjna nepoželjne nepoželjni nepoželjnih nepoželjno
+100	8600	vandalizam	vandalizma vandalizmom

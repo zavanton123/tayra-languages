@@ -1,0 +1,100 @@
+1	1	biti	bi bih bila bile bili bilo bio bismo biste bit biće bude budem budemo budete budeš budi budite budu je jesam jesi jesmo jest jeste jesu nije nisam nisi nismo niste nisu sam sama sami si smo ste su
+2	2	da	
+3	3	taj	najtiši ta tih tiha tihe tihi tihih tihim tihog tihoj tihom tihome tihu tim tima time timom timova timove timovi timovima timu tiša tiše tiši to tog toga togama toge togi togo togu toj tom tome tomu
+4	4	ne	
+5	5	se	
+6	6	i	
+7	7	u	
+8	8	htjeti	ce cu hoće hoćemo hoćete hoćeš hoću htedoh htela htele hteli htelo hteo hteti htijenje htio htjede htjedoh htjela htjele htjeli htjelo neće nećemo nećete nećeš neću oš će ćemo ćete ćeš ću
+9	9	ti	te tebe tebi tobom
+10	10	što	sta čega čemu čime šta
+11	11	ja	me mene meni menija menije menijem meniji meniju mnom mnome
+12	12	mi	nam nama nas
+13	13	na	
+14	14	on	ga mu nega nege negom negu nezi njega njege njego njegom njegu njemu njezi njim njime
+15	15	moći	mogao mogavši mogla mogle mogli moglo mogne mognem mognemo mogneš mogu mogući mozi moš može možemo možete možeš
+16	16	za	
+17	17	znati	zna znade znadem znadete znadeš znadu znaj znajte znaju znajući znala znale znali znalo znam znamo znanja znanje znanjem znanjima znanju znao znate znaće znaćemo znaćete znaćeš znaću znaš
+18	18	li	
+19	19	ovaj	ova ove ovi ovih ovim ovime ovo ovog ovoga ovoj ovoje ovom ovome ovomu ovu
+20	20	imati	iam ima imaj imajmo imajte imaju imajući imala imale imali imalo imam imama imame imamo imamu imanja imanje imanjem imanjima imanju imao imat imate imaće imaćemo imaćete imaćeš imaću imaš imaše
+21	21	ali	
+22	22	vi	vam vama vas
+23	23	sav	sva sve sveg svega svem svemu svi svih svim svima svime svom svu
+24	24	koji	koj koja koje kojeg kojega kojem kojemu kojih kojim kojima kojoj kojom koju
+25	25	reći	reci recimo recite rekao rekavši rekla rekle rekli reklo rekne reknem rekneš rekoh rekosmo rekoste rekoše reče rečem rečena rečene rečeni rečeno rečete rečeš
+26	26	misliti	misle misleći misli mislila mislile mislili mislilo mislim mislimo mislio mislite misliće mislićeš misliću misliš mišljah mišljene mišljenja mišljenje mišljenjem mišljenju
+27	27	moj	mog moga moja moje mojeg mojega mojem mojemu moji mojih mojim mojima mojoj mojom moju mom
+28	28	dobro	bolje dobara dobra dobrima dobrom dobru najbolje
+29	29	s	
+30	30	samo	
+31	31	od	
+32	32	a	
+33	33	morati	mora moraju morali moralo moram morama moramo moranje morao morat morate moraće moraćemo moraćete moraćeš moraću moraš mori moro morom moru
+34	34	oni	ih im njih njima one
+35	35	kako	kak како
+36	36	željeti	žele želea želela želele želeli želelo želeo želeom želeti želeu želeće želećeš želeći želi želim želimo želio želite želiš željela željele željeli željelo željen željena željene željeni željeno
+37	37	o	
+38	38	vidjeti	vide videh videla videle videli videlo videti videvši videće videćemo videćete videćeš videći videću vidi vidim vidimo vidio vidite vidiš vidje vidjeh vidjela vidjele vidjeli vidjelo vidjelu vidjevši vidjećemo vidjećete vidjećeš vidjeću viđen viđena viđene viđeni viđenje viđeno viš
+39	39	ići	ide idem idemo idete ideš idi idimo idite idu iduća iduće idućeg idućega idućem idući idućih idućim idućoj idućom iduću išao išla išle išli išlo
+40	40	ako	
+41	41	trebati	treba trebaju trebala trebale trebali trebalo trebam trebamo trebao trebate trebaće trebaćemo trebaćeš trebaću trebaš trebe trebi trebo trebu
+42	42	ona	joj ju nje njoj njom njome nju
+43	43	kad	kada kadama kade kadi kado kadom kadu
+44	44	sa	
+45	45	kao	ко
+46	46	ovdje	ovde
+47	47	raditi	rade radeći radi radija radije radiji radijima radiju radila radile radili radilo radim radimo radio radiom radite radiće radićemo radićete radićeš radiću radiš rađen rađena rađene rađeni rađenje rađeno
+48	48	tako	
+49	49	sad	sada sade sadu
+50	50	jedan	jedna jedne jedni jednih jednim jednima jedno jednog jednoga jednoj jednom jednome jednomu jednu
+51	51	čovjek	ljude ljudi ljudima čovek čoveka čovekom čoveku čoveče čovjeka čovjekom čovjeku čovječe
+52	52	svoj	svog svoga svoja svoje svojeg svojega svojem svojemu svoji svojih svojim svojima svojoj svojom svoju svom svome
+53	53	tvoj	tvog tvoga tvoja tvoje tvojeg tvojega tvojem tvojemu tvoji tvojih tvojim tvojima tvojoj tvojom tvoju tvom tvome
+54	54	pa	
+55	55	zašto	
+56	56	red	reda rede redom redova redove redovi redovima redu
+57	57	tko	kim kima kime kimom kimova kimu ko kog koga koj kom koma kome komi komo komom komu ко
+58	58	nemati	neam nema nemaj nemajte nemaju nemajući nemalo nemam nemamo nemao nemate nemaš
+59	59	nešto	nečeg nečega nečem nečemu nečim
+60	60	još	
+61	61	doći	dođe dođem dođemo dođete dođeš dođi dođimo dođite dođoh dođosmo dođoše dođu došao došavši došla došle došli došlo
+62	62	dati	dade dadem dadne dadnem dadneš dadoh dadu dah daha dahom dahu daj dajmo dajte daju dala dale dali dalo dam damo dana dane dani dano dao dasa dase dat date dato davši daće daćemo daćete daćeš daću daš dašak
+63	63	hvala	fala hvale hvali hvalu
+64	64	gdje	gde đe
+65	65	iz	
+66	66	ili	
+67	67	možda	
+68	68	više	
+69	69	vrijeme	brime vreme vremena vremenima vremenom vremenu
+70	70	dobar	bolja bolje boljeg boljega boljem boljemu bolji boljih boljim boljima boljoj boljom bolju dobra dobre dobri dobrih dobrim dobrima dobrog dobroga dobroj dobrom dobrome dobru najbolja najbolje najboljeg najboljega najboljem najboljemu najbolji najboljih najboljim najboljima najboljoj najboljom najbolju
+71	71	onda	
+72	72	drugi	druga druge drugih drugim drugima drugo drugog drugoga drugoj drugom drugome drugomu drugu
+73	73	stvar	stvari stvarima
+74	74	ništa	nič ničeg ničega ničem ničemu ničim
+75	75	voljeti	vole volela volele voleli volelo voleo voleti voleće voleći voleću voli volim volimo volio volite voliti voliš volje voljela voljele voljeli voljelo voljen voljena voljene voljeni voljenje voljeno
+76	76	kazati	kaza kazala kazali kazalo kazan kazana kazano kazanu kazao kazavši kazaću kaže kažem kažemo kažete kažeš kaži kažimo kažite kažu
+77	77	do	dola doli dolu
+78	78	zar	zara zare zaru
+79	79	malo	
+80	80	moliti	mole moleći moli molila molile molili molilo molim molimo molio molite molićemo molićeš moliću moliš moljenje
+81	81	neki	neke nekih nekim nekima nekime neko nekog nekoga nekoj nekom nekome nekomu neku niki
+82	82	naš	naša naše našeg našega našem našemu naši naših našim našima našoj našom našu
+83	83	vaš	vaša vaše vašeg vašega vašem vašemu vaši vaših vašim vašima vašoj vašom vašu
+84	84	prije	pre prie
+85	85	dan	dana dane dani danima danom danu
+86	86	učiniti	učine učini učinih učinila učinile učinili učinilo učinim učinimo učinio učinite učinivši učiniće učinićemo učinićete učinićeš učiniću učiniš učiniše učinjen učinjena učinjene učinjeni učinjeno
+87	87	put	puta pute putem puteva puteve putevi putevima puti puto putom putova putove putovi putovima putu
+88	88	godina	godinama godine godini godinom godinu
+89	89	nikad	nikada
+90	90	otići	ode odem odemo odete odeš odi odimo odite odoh odosmo odoše odu otidi otiđe otiđem otiđemo otiđete otiđeš otiđi otiđimo otiđite otiđu otišao otišavši otišla otišle otišli otišlo
+91	91	jer	
+92	92	ubiti	ubi ubih ubij ubije ubijem ubijemo ubijen ubijena ubijene ubijeni ubijeno ubijete ubiješ ubijmo ubijte ubiju ubila ubile ubili ubilo ubio ubivši ubiće ubićemo ubićete ubićeš ubiću ubiše
+93	93	čuti	najčuveniji ču čuh čuj čuje čujem čujemo čujete čuješ čujmo čujte čuju čula čule čuli čulima čulo čulom čuo čuven čuvena čuvene čuveni čuvenih čuvenim čuveno čuvenog čuvenoj čuvenom čuvenu čuvši čuće čućemo čućete čućeš
+94	94	hej	
+95	95	netko	nekim neko nekog nekoga nekom nekome nekomu
+96	96	tu	
+97	97	bog	boga boginja boginjama boginje boginji boginjo boginjom boginju bogom bogova bogove bogovi bogovima bogu bozi bože božić
+98	98	njegov	njegova njegove njegovi njegovih njegovim njegovima njegovo njegovog njegovoga njegovoj njegovom njegovome njegovu
+99	99	hajde	ajde ajmo hajdemo hajdmo hajmo
+100	100	posao	posla posli poslom poslova poslove poslovi poslovima poslu

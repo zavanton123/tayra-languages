@@ -1,0 +1,100 @@
+1	4801	izvršni	izvršna izvršne izvršnih izvršnim izvršno izvršnog izvršnoj izvršnom izvršnu
+2	4802	iznajmljivati	iznajmljivali iznajmljivanje iznajmljivao iznajmljuje iznajmljujem iznajmljujemo iznajmljujete iznajmljuješ iznajmljuju
+3	4803	faktor	faktora faktore faktori faktorima faktorom faktoru
+4	4804	odjeljak	odeljak odeljku odjeljaka odjeljci odjeljcima odjeljka odjeljke odjeljkom odjeljku
+5	4805	primitivan	primitivna primitivne primitivni primitivnih primitivniji primitivnim primitivno primitivnog primitivnoj primitivnom primitivnu
+6	4806	uzor	uzora uzore uzori uzorom uzoru
+7	4807	očaj	očaja očajem očaju
+8	4808	poslodavac	poslodavaca poslodavca poslodavce poslodavcem poslodavci poslodavcima poslodavcu
+9	4809	autoput	autoputa autoputom autoputu
+10	4810	psihologija	psihologije psihologiji psihologijom psihologiju
+11	4811	nizozemski	nizozemska nizozemske nizozemskih nizozemskim nizozemsko nizozemskog nizozemskoj nizozemskom nizozemsku
+12	4812	autopsija	autopsije autopsiji autopsijom autopsiju
+13	4813	drhtati	drhtala drhtale drhtali drhtanje drhtao drhte drhteći drhti drhtim drhtite drhtiš dršće dršćem dršćeš
+14	4814	bombardirati	bombardira bombardiraju bombardirala bombardirali bombardiramo bombardiran bombardirana bombardirani bombardiranje bombardirano bombardirao
+15	4815	tragati	traga tragaju tragajući tragala tragali tragam tragamo traganje tragao tragate tragaš
+16	4816	egipatski	egipatska egipatske egipatskih egipatskim egipatsko egipatskog egipatskoga egipatskoj egipatskom egipatsku
+17	4817	jebač	jebača jebače jebačem jebači jebačima jebaču
+18	4818	otputovati	otputovala otputovali otputovao otputuj otputuje otputujem otputujemo otputujete otputuješ otputujmo otputuju
+19	4819	uraniti	urani uranila uranili uranio
+20	4820	sastav	sastava sastave sastavi sastavom sastavu
+21	4821	izražavati	izražava izražavaj izražavaju izražavajući izražavala izražavali izražavam izražavamo izražavanje izražavao izražavate izražavaš
+22	4822	emocionalno	
+23	4823	gležanj	gležnja gležnjem gležnjeva gležnjeve gležnjevi gležnjevima gležnju
+24	4824	pogrešiti	pogreše pogreši pogrešila pogrešili pogrešim pogrešio pogrešite pogrešiš
+25	4825	bušiti	buše bušena bušenje buši bušila bušili bušim bušimo bušio bušite bušiš
+26	4826	neočekivano	
+27	4827	prijatan	prijatna prijatne prijatni prijatnih prijatnija prijatnije prijatniji prijatnim prijatnog prijatnom prijatnu
+28	4828	istočno	
+29	4829	poraditi	poradi poradim poradimo poradio poradite poradiću poradiš
+30	4830	krokodil	krokodila krokodile krokodili krokodilima krokodilom krokodilu
+31	4831	pljunuti	pljune pljunem pljuneš pljuni pljunite pljunu pljunula pljunuli pljunuo pljunut pljunuta
+32	4832	dužina	dužinama dužine dužini dužinom dužinu
+33	4833	iskaznica	iskaznicama iskaznice iskaznici iskaznicom iskaznicu
+34	4834	poštovan	najpoštovaniji najpoštovanijih poštovana poštovane poštovani poštovano poštovanog poštovanom
+35	4835	obojen	obojena obojene obojeni obojenih obojenim obojenima obojeno obojenog obojenoj obojenom obojenu
+36	4836	lebdjeti	lebde lebdenje lebdeo lebdeće lebdeći lebdi lebdim lebdimo lebdio lebdite lebdiš lebdjela lebdjeli lebdjelo
+37	4837	lakat	lakata lakta laktom laktova laktove laktovi laktovima laktu
+38	4838	perika	perici perikama perike perikom periku
+39	4839	taktički	taktička taktičke taktičkih taktičkim taktičko taktičkog taktičkoj taktičkom taktičku
+40	4840	seta	sete seti seto setom setu
+41	4841	lupati	lupaj lupajte lupaju lupajući lupala lupali lupalo lupam lupamo lupao lupate lupaš
+42	4842	veljača	veljače veljači
+43	4843	kapirati	kapira kapiraju kapiram kapiramo kapirate kapiraš
+44	4844	obiti	obi obij obije obijem obijen obijena obiju obila obili obilo obio
+45	4845	profesionalno	
+46	4846	suma	sumama sume sumi sumo sumom sumu
+47	4847	ranč	
+48	4848	zapadno	
+49	4849	sabotirati	sabotira sabotiraju sabotirala sabotirali sabotiram sabotiramo sabotiran sabotirana sabotirani sabotiranje sabotirao sabotirate sabotiraš
+50	4850	koš	koša košem koševa koševe košu
+51	4851	tekući	tekuća tekuće tekućeg tekućem tekućih tekućim tekućoj tekućom tekuću
+52	4852	veterinar	veterinara veterinare veterinari veterinarom veterinaru
+53	4853	otkuda	
+54	4854	ud	uda ude udom udova udove udovi udovima udu
+55	4855	fontana	fontanama fontane fontani fontanom fontanu
+56	4856	poverovati	poverovala poverovali poverovao poveruje poverujem poverujemo poverujete poveruješ poveruju
+57	4857	mehaničar	mehaničara mehaničare mehaničari mehaničarima mehaničarom mehaničaru
+58	4858	višak	viška viškom
+59	4859	nadalje	
+60	4860	željan	željna željne željni željnih željnim željno željnog
+61	4861	triput	
+62	4862	približno	
+63	4863	probijati	probija probijaj probijaju probijajući probijala probijali probijam probijamo probijanje probijao probijaš
+64	4864	kajati	kajala kajanje kajao kaje kajem kajemo kajete kaješ kaju
+65	4865	bivati	biva bivaju bivajući bivala bivali bivalo bivam bivamo bivanje bivao bivaš
+66	4866	strop	stropa stropom stropove stropovi stropovima stropu
+67	4867	veleposlanik	veleposlanici veleposlanika veleposlanike veleposlanikom veleposlaniku veleposlaniče
+68	4868	pingvin	pingvina pingvine pingvini pingvinima pingvinom pingvinu
+69	4869	zoološki	zoološke zoološkim zoološkog zoološkom
+70	4870	doprinos	doprinosa doprinose doprinosi doprinosima doprinosom doprinosu
+71	4871	mnoštvo	mnoštva mnoštvom mnoštvu
+72	4872	apsurdno	
+73	4873	izoliran	izolirana izolirane izolirani izoliranih izoliranim izolirano izoliranog izoliranoj izoliranom izoliranu
+74	4874	drkati	drka drkaj drkaju drkajući drkala drkali drkam drkamo drkanje drkao drkate drkaš
+75	4875	sprečavati	sprečava sprečavaju sprečavajući sprečavala sprečavali sprečavalo sprečavam sprečavamo sprečavanje sprečavao sprečavate sprečavaš
+76	4876	ulov	ulova ulove ulovi ulovom ulovu
+77	4877	mesar	mesara mesare mesari mesarima mesarom mesaru
+78	4878	gospodarica	gospodarice gospodarici gospodaricom gospodaricu
+79	4879	narkoman	narkomana narkomane narkomani narkomanima narkomanom narkomanu
+80	4880	bre	
+81	4881	ironija	ironije ironiji ironijom ironiju
+82	4882	ugovoriti	ugovore ugovoren ugovorena ugovorene ugovoreni ugovoreno ugovori ugovorila ugovorili ugovorim ugovorimo ugovorio ugovorite ugovoriću ugovoriš
+83	4883	kradljivac	kradljivaca kradljivca kradljivce kradljivcem kradljivci kradljivcima kradljivcu kradljivče
+84	4884	haker	hakera hakere hakeri hakerima hakerom hakeru
+85	4885	uvid	uvida uvide uvidi uvidom uvidu
+86	4886	oslobođen	
+87	4887	pornografija	pornografije pornografiji pornografijom pornografiju pornografska pornografske pornografski pornografskih pornografskim pornografsku
+88	4888	prijatno	
+89	4889	potaknuti	potakao potakla potakli potaklo potakne potaknem potaknemo potaknite potaknu potaknut potaknuta potaknute potaknuto potaći
+90	4890	puding	pudinga pudinge pudingom pudingu
+91	4891	doprijeti	dopre doprem dopremo dopreti dopreš doprla doprle doprli doprlo dopro dopru
+92	4892	nekolicina	nekolicine nekolicini nekolicinom nekolicinu
+93	4893	beta	bete beti beto betu
+94	4894	iseliti	isele iseli iselila iselili iselim iselimo iselio iselite iseliš
+95	4895	skrbništvo	skrbništva skrbništvom skrbništvu
+96	4896	vrebati	vreba vrebaju vrebajući vrebala vrebali vrebam vrebanje vrebao vrebate vrebaš
+97	4897	registracija	registracijama registracije registraciji registracijom registraciju
+98	4898	guska	gusaka guskama guske guski gusko guskom gusku
+99	4899	inspirirati	inspirira inspiriraju inspirirajući inspirirala inspirirale inspirirali inspiriralo inspiriram inspiriran inspirirana inspirirani inspirirano inspirirao inspiriraš
+100	4900	obrnuto	

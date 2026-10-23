@@ -1,0 +1,100 @@
+1	4201	trezor	trezora trezore trezori trezorima trezorom trezoru
+2	4202	mrav	mrava mrave mravi mravima mravu
+3	4203	košarka	košarci košarke košarkom košarku
+4	4204	istraživač	istraživača istraživače istraživačem istraživači istraživačima istraživaču
+5	4205	nesiguran	nesigurna nesigurne nesigurni nesigurniji nesigurnim nesigurno nesigurnog nesigurnoj nesigurnom nesigurnu
+6	4206	puk	puci puka puke pukom puku puče
+7	4207	ponestati	ponestalo ponestane
+8	4208	suziti	suze suzenje suzi suzila suzile suzili suzilo suzim suzimo suzio suzite suziš suženje
+9	4209	namijeniti	namene namenio namenjen namenjena namenjene namenjeni namenjeno namijenila namijenili namijenio namijenjen namijenjena namijenjene namijenjeni namijenjeno
+10	4210	front	fronta fronte frontom frontova frontovima frontu
+11	4211	več	
+12	4212	nećakinja	nećakinjama nećakinje nećakinji nećakinjo nećakinjom nećakinju
+13	4213	grliti	grle grleći grli grlila grlili grlim grlimo grlio grlite grliš grljenje
+14	4214	šum	šume šumom šumova šumove šumovi šumu
+15	4215	izvanredno	
+16	4216	raspadati	raspada raspadaju raspadala raspadalo raspadam raspadamo raspadanje raspadao raspadaš
+17	4217	vlakno	vlakana vlakna vlaknima
+18	4218	izrada	izrade izradi izradom izradu
+19	4219	legalno	
+20	4220	hot	
+21	4221	ručno	
+22	4222	jesen	jeseni jesenju
+23	4223	institut	instituta institute institutom institutu
+24	4224	iznenađujući	iznenađujuća iznenađujuće iznenađujućeg iznenađujućem iznenađujućih iznenađujućim iznenađujuću
+25	4225	pero	pera perima perom peru
+26	4226	ličan	lična lične lični ličnih ličnim ličnog ličnoj ličnom ličnu
+27	4227	grom	groma grome gromom gromova gromove gromovi gromovima gromu
+28	4228	brojka	brojkama brojke brojki brojku
+29	4229	kardinal	kardinala kardinale kardinali kardinalima kardinalom kardinalu
+30	4230	rezervacija	rezervacijama rezervacije rezervaciji rezervacijom rezervaciju
+31	4231	doručkovati	doručkovala doručkovali doručkovao doručkuj doručkuje doručkujem doručkujemo doručkujete doručkuješ doručkujmo doručkujte doručkuju
+32	4232	nedavan	nedavna nedavne nedavni nedavnih nedavnim nedavnog nedavnoj nedavnom nedavnu
+33	4233	narkotik	narkotici narkoticima narkotika narkotike
+34	4234	finale	finala finalu
+35	4235	kupati	kupaj kupaju kupala kupali kupam kupamo kupao kupate kupaće kupaš
+36	4236	vagon	vagona vagone vagoni vagonima vagonom vagonu
+37	4237	povodom	
+38	4238	ustanoviti	ustanove ustanovi ustanovila ustanovili ustanovilo ustanovim ustanovimo ustanovio ustanovite ustanoviš ustanovljen ustanovljena ustanovljeni ustanovljeno
+39	4239	vračati	vrača vračaj vračajte vračaju vračala vračali vračam vračamo vračanje vračao vračate vračaš
+40	4240	zrno	zrna zrnima zrnom zrnu
+41	4241	prima	
+42	4242	volan	volana volanom volanu
+43	4243	dojava	dojavama dojave dojavi dojavom dojavu
+44	4244	nauka	nauci naukama nauke naukom nauku
+45	4245	obavezan	obavezna obavezne obavezni obaveznih obaveznim obavezno obaveznog obaveznom obaveznu
+46	4246	zavarati	zavara zavaraj zavaraju zavarala zavarali zavaralo zavaram zavaramo zavaran zavarani zavarao zavarate zavaraš
+47	4247	dostojanstvo	dostojanstva dostojanstvom dostojanstvu
+48	4248	urednik	urednici urednicima urednika urednike urednikom uredniku uredniče
+49	4249	garderoba	garderobe garderobi garderobom garderobu
+50	4250	velim	vele veli velite veliš
+51	4251	bradavica	bradavicama bradavice bradavici bradavicom bradavicu
+52	4252	prljavština	prljavštine prljavštini prljavštinom prljavštinu
+53	4253	municija	municije municiji municijom municiju
+54	4254	alergičan	alergična alergične alergični
+55	4255	kvariti	kvare kvarenje kvari kvarila kvarili kvarim kvarimo kvario kvarite kvariš
+56	4256	čelik	čelika čelikom čeliku
+57	4257	psihički	psihička psihičke psihičkih psihičkim psihičko psihičkog psihičkoj psihičkom psihičku
+58	4258	realan	realna realne realni realnih realnije realniji realnim realnog realnom realnu
+59	4259	tajiti	taje tajenje taji tajila tajili tajim tajimo tajio tajite tajiš
+60	4260	potopiti	potope potopi potopila potopili potopilo potopim potopimo potopio potopite potopiš potopljen potopljena potopljene potopljeni potopljeno
+61	4261	riža	riže riži rižom rižu
+62	4262	organiziran	organizirana organizirane organizirani organiziranih organiziranim organizirano organiziranog organiziranoj organiziranom organiziranu
+63	4263	keš	keša kešom kešu
+64	4264	đubre	đubrad đubradi đubreta đubretom đubretu
+65	4265	naknada	naknadama naknade naknadi naknadom naknadu
+66	4266	četvrt	četvrtima
+67	4267	globalan	globalna globalne globalni globalnih globalnim globalnog globalnoj globalnom globalnu
+68	4268	obogatiti	obogate obogati obogatila obogatili obogatilo obogatim obogatimo obogatio obogatite obogatiš obogaćen obogaćena obogaćeni
+69	4269	svadba	svadbama svadbe svadbi svadbu
+70	4270	zaraza	zaraze zarazi zarazom zarazu
+71	4271	divovski	divovska divovske divovskih divovskim divovsko divovskog divovskoj divovskom divovsku
+72	4272	šal	šale šalom šalova šalove šalovi šalovima šalu
+73	4273	indijski	indijska indijske indijskih indijskim indijsko indijskog indijskoj indijskom indijsku
+74	4274	silno	
+75	4275	maziti	maze mazi mazila mazili mazim mazimo mazio mazite maziš maženje
+76	4276	siječanj	sij siječanja siječnja siječnju
+77	4277	brijati	brijala brijali brijanje brijao brije brijem brijemo brijete briješ briju brijući
+78	4278	slučajan	slučajna slučajne slučajni slučajnih slučajnim slučajnog slučajnom slučajnu
+79	4279	piramida	piramidama piramide piramidi piramidom piramidu
+80	4280	delta	delte delti deltom deltu
+81	4281	željezan	željezna željezne željezni željeznih željeznim željezno željeznog željeznoj željeznom željeznu
+82	4282	prikupljati	prikuplja prikupljaju prikupljajući prikupljala prikupljali prikupljam prikupljamo prikupljanje prikupljao prikupljate prikupljaš
+83	4283	ponestajati	ponestajalo ponestaje ponestaju
+84	4284	skener	skenera skenere skeneri skenerima skenerom skeneru
+85	4285	molba	molbama molbe molbi molbom molbu
+86	4286	tratiti	trate trati tratila tratili tratim tratimo tratio tratite tratiš traćenje
+87	4287	tipičan	tipična tipične tipični tipičnih tipičnim tipičnog tipičnoj tipičnom tipičnu
+88	4288	odsad	
+89	4289	kutak	kuci kutaka kutcima kutka kutke kutku
+90	4290	slom	sloma slome slomom slomova slomove slomovi slomu
+91	4291	odoljeti	odole odoleti odoli odolim odolio odoliš odoljela
+92	4292	nevažan	nevažna nevažne nevažni nevažnih nevažnim nevažnima nevažno nevažnog nevažnom nevažnu
+93	4293	tvrđava	tvrđave tvrđavi tvrđavom tvrđavu
+94	4294	mastan	masna masne masni masnih masnim masno masnog masnoj masnom masnu
+95	4295	donacija	donacijama donacije donaciji donacijom donaciju
+96	4296	filozofija	filozofije filozofiji filozofijom filozofiju
+97	4297	otkinuti	otkine otkinem otkinemo otkineš otkini otkinu otkinula otkinuli otkinulo otkinuo otkinut otkinuta otkinute otkinuto otkinuću
+98	4298	organski	organska organske organskih organskim organsko organskog organskoj organskom organsku
+99	4299	pjevač	pevač pevača pevači pjevača pjevače pjevačem pjevači pjevačima pjevaču
+100	4300	revolver	revolvera revolvere revolveri revolverima revolverom revolveru

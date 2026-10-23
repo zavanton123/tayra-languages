@@ -1,0 +1,100 @@
+1	8801	tristo	
+2	8802	džoint	džointa
+3	8803	podmićivati	podmićivanje podmićivao podmićuje podmićujem podmićuješ podmićuju
+4	8804	prerija	prerijama prerije preriji prerijom preriju
+5	8805	medvjeđi	medvjeđa medvjeđe medvjeđeg medvjeđem medvjeđim medvjeđu
+6	8806	raskošan	raskošna raskošne raskošni raskošnih raskošnim raskošnog raskošnoj raskošnom raskošnu
+7	8807	neuspješan	neuspešan neuspješna neuspješne neuspješni neuspješnih neuspješnog
+8	8808	jaz	jaza
+9	8809	lažac	lašca lašcem lašci
+10	8810	ujedati	ujeda ujedaju ujedam ujedaš
+11	8811	izbezumljen	izbezumljena izbezumljeni izbezumljeno
+12	8812	pasivan	pasivna pasivne pasivni pasivnim pasivnog pasivnom pasivnu
+13	8813	okultan	okultna okultne okultni okultnih okultnim okultno okultnog okultnom
+14	8814	mekušac	mekušaca mekušca mekušce mekušcem mekušci
+15	8815	skeč	
+16	8816	zvoniti	
+17	8817	zaplašiti	zaplaše zaplašen zaplaši zaplašili zaplašim zaplašio
+18	8818	arsen	arsena arsene arsenom
+19	8819	praznovjeran	praznovjerna praznovjerne praznovjerni praznovjerno
+20	8820	brazda	brazdama brazde brazdi brazdu
+21	8821	konkurent	konkurenata konkurenta konkurente konkurenti konkurentima
+22	8822	minimalno	
+23	8823	očekivano	
+24	8824	kaiš	kaiša kaišem kaiševe kaišu
+25	8825	urok	uroci uroka uroke
+26	8826	dvoličan	dvolična dvolični dvoličnim dvolično
+27	8827	šarmirati	šarmira šarmiraj šarmirala šarmiram šarmirao šarmiraš
+28	8828	razlaz	razlaza
+29	8829	metež	meteža metežu
+30	8830	uspavanka	uspavanke uspavanki uspavanku
+31	8831	sanjke	sanjkama sanjki
+32	8832	izba	izbo
+33	8833	marljivo	
+34	8834	nabolje	
+35	8835	biftek	bifteka bifteke biftekom
+36	8836	helij	helija helijem
+37	8837	foka	fokama foke foku
+38	8838	glinen	glinena glinene glineni glinenih glinenim glineno glinenoj glinenu
+39	8839	nadživjeti	nadživeti nadživi nadživio nadživjela nadživjeli
+40	8840	nevjera	nevjere nevjeri nevjerom nevjeru
+41	8841	mišićav	mišićava mišićave mišićavi mišićavih mišićavim mišićavo mišićavog
+42	8842	prisila	prisile prisili prisilom prisilu
+43	8843	mirotvorac	mirotvoraca mirotvorca mirotvorce mirotvorci mirotvorcima
+44	8844	stručno	
+45	8845	špinat	špinata špinatom
+46	8846	trepavica	trepavicama trepavice trepavicu
+47	8847	bunda	bunde bundi bundu
+48	8848	reinkarnacija	reinkarnacije reinkarnaciji reinkarnaciju
+49	8849	mačevalac	mačevalaca mačevaoca mačevaoci mačevaoče
+50	8850	inovacija	inovacijama inovacije inovaciju
+51	8851	bezazlen	bezazlena bezazlene bezazleni bezazlenih bezazlenu
+52	8852	utičnica	utičnice utičnici utičnicu
+53	8853	ganuti	gane ganem gani ganu ganula ganulo ganuo ganut ganuta
+54	8854	trk	trkom trku trče
+55	8855	intelekt	intelekta intelektom intelektu
+56	8856	špijunka	špijunke špijunkom špijunku
+57	8857	nadmoć	nadmoći
+58	8858	minijaturni	minijaturna minijaturne minijaturnih minijaturnim minijaturno minijaturnog minijaturnu
+59	8859	dapače	
+60	8860	nekud	
+61	8861	neprofesionalno	
+62	8862	sažetak	sažeci sažetke sažetku
+63	8863	vjetrobran	vetrobran vjetrobrana vjetrobranu
+64	8864	sardina	sardinama sardine
+65	8865	geometrija	geometrije geometriji geometrijom geometriju
+66	8866	simbolizirati	simbolizira simboliziraju
+67	8867	nezaposlenost	nezaposlenosti
+68	8868	ribnjak	ribnjaka ribnjaku
+69	8869	klanac	klanca klancu
+70	8870	testosteron	testosterona testosterone testosteronom
+71	8871	oplata	oplate oplati oplatu
+72	8872	buncati	bunca buncala buncam buncanje buncao buncaš
+73	8873	obveznik	obveznici obveznicima obveznika obveznike
+74	8874	južnjak	južnjaci južnjacima južnjaka južnjake južnjače
+75	8875	suton	sutona sutonu
+76	8876	atletski	atletska atletske atletskim atletsko atletskog atletskom atletsku
+77	8877	ovladati	ovlada ovladaju ovladala ovladali ovladao ovladaš
+78	8878	iskaliti	iskali iskalila iskalili iskalim iskalio iskališ
+79	8879	krepati	krepa krepaj krepala krepalo krepana krepani krepaš
+80	8880	naseljenik	naseljenici naseljenicima naseljenika naseljenike
+81	8881	broš	broša
+82	8882	hud	huda hude hudu
+83	8883	novembar	novembra novembru
+84	8884	krntija	krntije krntiji krntijom krntiju
+85	8885	sopstveni	
+86	8886	udovac	udovca
+87	8887	opruga	oprugama opruge oprugom oprugu
+88	8888	trgati	trga trgaj trgaju trgala trgali trgam trganje trgao trgaš
+89	8889	otkloniti	otklone otkloni otklonila otklonili otklonim otklonimo otklonio otklonjena
+90	8890	sinov	sinova sinove sinovi sinovim sinovima sinovo sinovoj sinovom sinovu
+91	8891	devedeset	
+92	8892	suptilno	
+93	8893	metan	metana metanom
+94	8894	svrgnuti	svrgne svrgnu svrgnuli svrgnuo svrgnut
+95	8895	rastavljati	rastavlja rastavljaju rastavljali rastavljam rastavljamo rastavljanje rastavljao rastavljaš
+96	8896	portugalski	portugalska portugalske portugalskim portugalskog portugalskom portugalsku
+97	8897	iscjelitelj	iscelitelj iscelitelja iscjelitelja iscjelitelji iscjelitelju
+98	8898	marmelada	marmelade marmeladom marmeladu
+99	8899	zboriti	zbore zbori zborio zborite zboriš
+100	8900	sablastan	sablasna sablasne sablasni sablasnih sablasnim sablasnog sablasnom sablasnu

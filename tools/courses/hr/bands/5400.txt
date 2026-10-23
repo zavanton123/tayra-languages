@@ -1,0 +1,100 @@
+1	5301	prosjek	prosek proseka proseku prosjeka prosjekom prosjeku
+2	5302	proraditi	prorade proradi proradila proradili proradilo proradio
+3	5303	uhoda	uhode uhodi uhodo uhodom uhodu
+4	5304	sićušan	sićušna sićušne sićušni sićušnih sićušnim sićušno sićušnog sićušnoj sićušnom sićušnu
+5	5305	računovođa	računovođama računovođe računovođi računovođo računovođom računovođu
+6	5306	obilježiti	obilježe obilježen obilježena obilježene obilježeni obilježeno obilježi obilježila obilježili obilježilo obilježim obilježimo obilježio obilježite
+7	5307	kolac	kolaca kolca kolce kolcem kolci kolcima kolcu
+8	5308	isključivo	
+9	5309	alergija	alergijama alergije alergijom alergiju
+10	5310	motocikl	motocikala motocikla motocikle motocikli motociklima motociklom motociklu
+11	5311	sijati	sij sija sijaj sijaju sijala sijali sijalo sijam sijanje sijao sijaš sije sijem sijemo siješ siju
+12	5312	potajan	potajni potajno
+13	5313	tel	tela tele teleta telima telom telu
+14	5314	ustav	ustava ustave ustavi ustavom ustavu
+15	5315	sveštenik	sveštenici sveštenicima sveštenika sveštenike sveštenikom svešteniku svešteniče
+16	5316	nezaposlen	nezaposlena nezaposlene nezaposleni nezaposlenih nezaposlenim nezaposlenima nezaposleno nezaposlenog
+17	5317	jed	jeda jede jedom jedu
+18	5318	kamata	kamatama kamate kamatom kamatu
+19	5319	ženin	ženina ženine ženini ženinih ženinim ženino ženinoj ženinom ženinu
+20	5320	kaša	kaše kaši kašom kašu
+21	5321	publicitet	publiciteta publicitetom publicitetu
+22	5322	izbjeglica	izbeglica izbeglicama izbeglice izbjeglicama izbjeglice izbjeglicu
+23	5323	promatrač	promatrača promatrače promatračem promatrači promatračima promatraču
+24	5324	šapa	šapama šape šapi šapom šapu
+25	5325	legendaran	legendarna legendarne legendarni legendarnih legendarnim legendarnog legendarnoj legendarnom legendarnu
+26	5326	trunuti	trune trunem trunemo trunete truneš truni trunu trunula trunuli trunuo
+27	5327	curiti	cure curenje curi curila curile curilo curim curio curiš
+28	5328	definicija	definicijama definicije definiciji definiciju
+29	5329	naručje	naruče naručja naručju
+30	5330	siroče	siročeta siročetom siročetu
+31	5331	beton	betona betonom betonu
+32	5332	skijati	skija skijaju skijala skijali skijam skijamo skijanje skijao skijate skijaš
+33	5333	losos	lososa losose lososi lososima lososom lososu
+34	5334	podjela	podela podele podeli podelu podjele podjeli podjelom podjelu
+35	5335	naumiti	naumi naumila naumile naumili naumio naumiš
+36	5336	danju	
+37	5337	opaziti	opaze opazi opazila opazili opazim opazio opazite opaziš opažen opaženi
+38	5338	maloljetnik	maloletnik maloletnika maloletnike maloljetnica maloljetnicama maloljetnice maloljetnici maloljetnicima maloljetnicom maloljetnicu maloljetnika maloljetnike maloljetnikom maloljetniku
+39	5339	sentimentalan	sentimentalna sentimentalne sentimentalni sentimentalnih sentimentalnim sentimentalno sentimentalnog sentimentalnom sentimentalnu
+40	5340	porezati	poreza porezala porezali porezan porezana porezao poreže porežem porežeš poreži
+41	5341	seminar	seminara seminare seminari seminarima seminarom seminaru
+42	5342	dužnik	dužnici dužnicima dužnika dužnike
+43	5343	određeno	
+44	5344	bazirati	bazira baziraju bazirajući bazirala bazirali baziran bazirana bazirane bazirani bazirano bazirao baziraš
+45	5345	domar	domara domare domari domarom domaru
+46	5346	osvajanje	osvajanja osvajanjem osvajanjima osvajanju
+47	5347	masivan	masivna masivne masivni masivnih masivnija masivnije masivnim masivnog masivnoj masivnom masivnu
+48	5348	administracija	administracije administraciji administracijom administraciju
+49	5349	naglas	
+50	5350	kompas	kompasa kompase kompasi kompasom kompasu
+51	5351	bacač	bacača bacače bacačem bacači bacačima bacaču
+52	5352	kanadski	kanadska kanadske kanadskih kanadskim kanadsko kanadskog kanadskoj kanadskom kanadsku
+53	5353	gledište	gledišta gledištu
+54	5354	grožđe	grožđa grožđem grožđu
+55	5355	hrvati	hrva hrvaju hrvala hrvali hrvam hrvamo hrvanje hrvao hrvate hrvaš
+56	5356	proljetni	proljetna proljetne proljetnih proljetnim proljetno proljetnog proljetnoj proljetnom proljetnu
+57	5357	tragično	
+58	5358	doživljavati	doživljava doživljavaju doživljavala doživljavali doživljavam doživljavamo doživljavao doživljavate doživljavaš
+59	5359	neuredan	neuredna neuredne neuredni neuredno neurednog neurednom neurednu
+60	5360	provalnik	provalnici provalnicima provalnika provalnike provalniku
+61	5361	egzotičan	egzotična egzotične egzotični egzotičnih egzotičnije egzotičnim egzotično egzotičnog egzotičnoj egzotičnom egzotičnu
+62	5362	lutalica	lutalicama lutalice lutalici lutalicu
+63	5363	saviti	savi savij savije savijem savijen savijena savijene savijeni savijeno savijete saviješ savijte savila savile savili savio savit
+64	5364	us	
+65	5365	zapisivati	zapisivala zapisivali zapisivanje zapisivao zapisuj zapisuje zapisujem zapisujemo zapisujete zapisuješ zapisujte zapisuju
+66	5366	obveznica	obveznicama obveznice obveznici obveznicu
+67	5367	opako	
+68	5368	kralježnica	kralježnice kralježnici kralježnicom kralježnicu
+69	5369	ikako	
+70	5370	šivati	šiva šivaju šivala šivali šivam šivan šivana šivanje šivano šivao šivaće šivaću šivaš
+71	5371	praonica	praonicama praonice praonici praonicu
+72	5372	ribar	ribara ribare ribari ribarima ribarom ribaru
+73	5373	pust	pusta puste pusti pustih pustim pusto pustog pustoj pustom pustu
+74	5374	izdvojiti	izdvoje izdvojen izdvojena izdvojene izdvojeni izdvojeno izdvoji izdvojila izdvojili izdvojim izdvojimo izdvojio izdvojite izdvojiš
+75	5375	neizbježno	neizbežno
+76	5376	pantalone	pantalona pantalonama
+77	5377	pravosuđe	pravosuđa pravosuđem pravosuđu
+78	5378	tačka	tačaka tačkama tački tačkom tačku
+79	5379	magazin	magazina
+80	5380	uredan	uredna uredne uredni urednije uredniji urednim urednog urednom urednu
+81	5381	kal	kala kale kalem kali kalima kalu
+82	5382	jasmin	jasmina jasmine
+83	5383	savjetovanje	savetovanja savetovanje savjetovanja savjetovanjem savjetovanju
+84	5384	ponižavati	ponižava ponižavaj ponižavaju ponižavajući ponižavala ponižavali ponižavam ponižavan ponižavani ponižavanje ponižavao ponižavate ponižavaš
+85	5385	pohvaliti	pohvale pohvali pohvalila pohvalili pohvalim pohvalio pohvalite pohvališ pohvaljen pohvaljena pohvaljeni
+86	5386	rezervoar	rezervoara rezervoare rezervoari rezervoarima rezervoarom rezervoaru
+87	5387	klopa	klope klopi klopom klopu
+88	5388	koncentracija	koncentracije koncentraciji koncentracijom koncentraciju
+89	5389	sprej	spreja sprejem sprejeva sprejeve sprejevi sprejevima spreju
+90	5390	desetina	desetinama desetine desetini desetino desetinu
+91	5391	neprilika	neprilici neprilikama neprilike nepriliku
+92	5392	poredak	poreci poretka poretkom poretku
+93	5393	navodni	navodna navodne navodnih navodnim navodnog navodnoga navodnoj navodnom navodnu
+94	5394	ludak	ludaci ludacima ludaka ludake ludakinja ludakom ludaku ludače
+95	5395	duhan	duhana duhanom duhanu
+96	5396	slama	slame slami slamom slamu
+97	5397	vješati	veša vešanje vješa vješaju vješali vješam vješamo vješanje vješao vješate vješaš
+98	5398	komentirati	komentira komentiraj komentiraju komentirala komentirali komentiram komentirao komentirate komentiraš
+99	5399	posjetnica	posetnica posetnicu posjetnice posjetnici posjetnicu
+100	5400	crnčuga	crnčugama crnčuge crnčugi crnčugo crnčugom crnčugu

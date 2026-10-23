@@ -1,0 +1,100 @@
+1	6201	skrbnik	skrbnici skrbnicima skrbnika skrbnike skrbnikom skrbniku
+2	6202	čeznuti	čezne čeznem čeznemo čeznete čezneš čeznu čeznula čeznuli čeznuo
+3	6203	komšija	komšijama komšije komšiji komšijom komšiju komšinica
+4	6204	obučavati	obučava obučavaju obučavajući obučavala obučavali obučavam obučavamo obučavan obučavana obučavani obučavanje obučavao obučavate obučavaš
+5	6205	posteljina	posteljine posteljini posteljinom posteljinu
+6	6206	zadovoljavati	zadovoljava zadovoljavaju zadovoljavala zadovoljavam zadovoljavanje zadovoljavao zadovoljavaš
+7	6207	okean	okeana okeane okeani okeanima okeanom okeanu
+8	6208	amnezija	amnezije amneziji amnezijom amneziju
+9	6209	milijunaš	milijunaša milijunaše milijunašem milijunaši milijunašima milijunašu
+10	6210	sočan	sočna sočne sočni sočnih sočnije sočnim sočnog sočnom sočnu
+11	6211	prsni	prsna prsne prsnim prsno prsnog prsnoga prsnoj prsnom prsnu
+12	6212	konkretno	
+13	6213	kapital	kapitala kapitalom kapitalu
+14	6214	uticaj	uticaja uticaje uticajem uticaju
+15	6215	privjesak	privjesaka privjesci privjeska privjeske privjeskom privjesku
+16	6216	klinika	
+17	6217	pladanj	pladnja pladnjeva pladnjeve pladnjevi pladnju
+18	6218	potrčati	potrčala potrčali potrčao potrči potrčim potrčimo potrčite potrčiš
+19	6219	nerazuman	nerazumna nerazumne nerazumni nerazumnim nerazumno nerazumnog
+20	6220	zaostati	zaostala zaostale zaostali zaostalo zaostane zaostaneš zaostao
+21	6221	efikasan	efikasna efikasne efikasni efikasnija efikasnije efikasniji efikasnim efikasnog efikasnu najefikasnije najefikasniji
+22	6222	manekenka	manekenkama manekenke manekenki manekenkom manekenku
+23	6223	mafijaš	mafijaša mafijaše mafijašem mafijaši mafijašima mafijašu
+24	6224	ukrasiti	ukrase ukrasi ukrasila ukrasili ukrasim ukrasimo ukrasio ukrasite ukrašen ukrašena ukrašene ukrašeni ukrašeno
+25	6225	odbrojavanje	odbrojavanja odbrojavanjem odbrojavanju
+26	6226	maslina	maslinama masline maslinom maslinu
+27	6227	pripravnik	pripravnici pripravnicima pripravnika pripravnike pripravniku pripravniče
+28	6228	revolucionaran	revolucionarna revolucionarne revolucionarni revolucionarnih revolucionarnim revolucionarno revolucionarnog revolucionarnoj revolucionarnom revolucionarnu
+29	6229	pluta	plove plovi plovimo plovite pluto pluće
+30	6230	papirnat	papirnata papirnate papirnati papirnatih papirnatim papirnato papirnatog papirnatoj papirnatom papirnatu
+31	6231	odgađati	odgađa odgađaj odgađaju odgađala odgađali odgađam odgađamo odgađanje odgađao odgađate odgađaš
+32	6232	neograničen	neograničena neograničene neograničeni neograničenim neograničeno neograničenog neograničenom neograničenu
+33	6233	žalosno	
+34	6234	žudnja	žudnje žudnji žudnjom žudnju
+35	6235	izravnati	izravna izravnaj izravnajte izravnaju izravnala izravnali izravnam izravnamo izravnao izravnaš
+36	6236	mah	mach maha mahom mahove maše
+37	6237	osuđenik	osuđenici osuđenicima osuđenika osuđenike osuđenikom osuđeniku
+38	6238	carica	carice carici caricom caricu
+39	6239	očarati	očara očarala očarali očaran očarana očarani očarao
+40	6240	tjeskoba	tjeskobe tjeskobi tjeskobom tjeskobu
+41	6241	ugrijati	ugrij ugrijala ugrijali ugrijalo ugrijao ugrije ugrijem ugrijemo ugrijete ugriješ ugrijte ugriju
+42	6242	frustriran	frustrirana frustrirane frustrirani frustriranih frustrirano
+43	6243	kreirati	kreira kreiraju kreirajući kreirala kreirali kreiram kreiramo kreiran kreirana kreiranje kreirao kreirate kreiraš
+44	6244	odjaviti	odjave odjavi odjavila odjavili odjavim odjavimo odjavio odjavite odjavljen odjavljena
+45	6245	težiti	teže težeći teži težila težili težilo težim težimo težio težite težiš
+46	6246	negirati	negira negiraj negiraju negirajući negirala negirali negiram negiramo negiranje negirao negirate negiraš
+47	6247	opekotina	opekotinama opekotine opekotinu
+48	6248	marketing	marketinga marketingom marketingu
+49	6249	nevaljao	nevaljala nevaljale nevaljali nevaljalih nevaljalo nevaljalog nevaljalu
+50	6250	kristalni	kristalna kristalne kristalnih kristalnim kristalnog kristalnoj kristalnom kristalnu
+51	6251	čir	čira čireva čireve čirevi čirevima čirom čiru
+52	6252	pomagač	pomagača pomagače pomagačem pomagači pomagaču
+53	6253	suprotnost	suprotnosti
+54	6254	očigledan	najočigledniji očigledna očigledne očigledni očiglednih očiglednije očiglednim očiglednog očiglednu
+55	6255	sidro	sidra sidrom sidru
+56	6256	specijalizirati	specijalizira specijalizirala specijalizirali specijaliziram specijaliziran specijalizirana specijalizirane specijalizirani specijalizirano specijalizirao
+57	6257	kvadrat	kvadrata kvadrate kvadrati kvadratom kvadratu
+58	6258	fabrika	fabrici fabrikama fabrike fabrikom fabriku
+59	6259	maloljetan	maloletan maloletna maloletni maloljetna maloljetne maloljetni maloljetnih maloljetnim maloljetnog maloljetnom maloljetnu
+60	6260	prosvjed	prosvjeda prosvjede prosvjedi prosvjedima prosvjedu
+61	6261	licemjer	licemer licemeri licemjera licemjeri licemjerka licemjerko licemjerom licemjeru
+62	6262	zadugo	
+63	6263	poza	pozama poze pozi pozu
+64	6264	propisati	propisa propisala propisali propisan propisana propisane propisani propisano propisao propiše
+65	6265	bordel	bordela bordele bordeli bordelima bordelu
+66	6266	politi	poli polij polije polijem polijte poliju polila polili polio
+67	6267	sjati	sja sjaju sjala sjale sjalo sjao sjaš
+68	6268	odgoj	odgoja odgojem odgoju
+69	6269	did	dida didi
+70	6270	kvadrant	kvadranta kvadrante kvadrantima kvadrantu
+71	6271	kupon	kupona kupone kuponi kuponima kuponom
+72	6272	povjetarac	povetarac povetarca povjetarca povjetarcem povjetarcu
+73	6273	svota	svote svoti svotom svotu
+74	6274	bočni	bočna bočne bočnih bočnim bočno bočnog bočnoj bočnom bočnu
+75	6275	skrasiti	skrase skrasi skrasila skrasili skrasim skrasimo skrasio skrasite skrasiš
+76	6276	sprovesti	sprovede sprovedem sprovedemo sproveden sprovedena sprovedete sprovedi sprovedite sprovedu sprovela sproveli sproveo
+77	6277	kompletno	
+78	6278	zaključivati	zaključivanje zaključivao zaključuj zaključuje zaključujem zaključujemo zaključujete zaključuješ zaključuju
+79	6279	plitak	plitka plitke plitki plitkih plitkim plitkog plitkoj plitkom plitku pliće
+80	6280	preskakati	preskakala preskakali preskakanje preskakao preskače preskačem preskačemo preskačeš preskaču preskačući
+81	6281	sastavljati	sastavlja sastavljaju sastavljajući sastavljala sastavljali sastavljam sastavljamo sastavljanje sastavljao sastavljate sastavljaš
+82	6282	zjenica	zenice zjenicama zjenice zjenicu
+83	6283	azijski	azijska azijske azijskih azijskim azijsko azijskog azijskoj azijskom azijsku
+84	6284	tiranin	tirana tirane tirani tiranima tiranina tiranine tiraninom tiraninu
+85	6285	konkretan	konkretna konkretne konkretni konkretnih konkretnije konkretniji konkretnim konkretnog konkretnoj konkretnom konkretnu
+86	6286	istodobno	
+87	6287	bundeva	bundevama bundeve bundevi bundevo bundevom bundevu
+88	6288	crnački	crnačka crnačke crnačkih crnačkim crnačko crnačkog crnačkoj crnačkom crnačku
+89	6289	književnost	književnosti
+90	6290	tajnovit	tajnovita tajnovite tajnoviti tajnovitih tajnovitim tajnovito tajnovitog tajnovitom tajnovitu
+91	6291	ring	
+92	6292	začas	
+93	6293	uprkos	
+94	6294	krštenje	krštenja krštenjem krštenju
+95	6295	trudnica	trudnicama trudnice trudnici trudnicom trudnicu
+96	6296	kapela	kapele kapeli kapelom kapelu
+97	6297	družina	družine družini družino družinom družinu
+98	6298	regionalan	regionalna regionalne regionalni regionalnih regionalnim regionalno regionalnog regionalnoj regionalnom regionalnu
+99	6299	ју	је јој
+100	6300	žeđ	žeđi žeđu

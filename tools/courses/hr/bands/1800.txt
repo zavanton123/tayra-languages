@@ -1,0 +1,100 @@
+1	1701	kopati	kopa kopaj kopajmo kopajte kopaju kopajući kopala kopali kopam kopamo kopanje kopao kopate kopaš
+2	1702	sok	soka sokom sokova sokove sokovi sokovima soku
+3	1703	hodnik	hodnici hodnicima hodnika hodnike hodnikom hodniku
+4	1704	smjesta	smesta
+5	1705	bazen	bazena bazene bazeni bazenima bazenom bazenu
+6	1706	grob	groba grobe grobom grobova grobove grobovi grobovima grobu
+7	1707	tkati	tka tkao čemo čete češ ču
+8	1708	umjetnost	umetnost umetnosti umetnošću umjetnosti umjetnošću
+9	1709	ruski	ruska ruske ruskih ruskim rusko ruskog ruskoga ruskoj ruskom ruskome rusku
+10	1710	prenijeti	prenela preneli preneo prenese prenesem prenesemo prenesen prenesena prenesene preneseni preneseno prenesete preneseš prenesi prenesimo prenesite prenesu preneti preneću prenijela prenijele prenijeli prenijelo prenijet prenijeta prenio
+11	1711	raznijeti	razne raznela razneli razneo raznese raznesem raznesemo raznesen raznesena raznesene razneseni razneseno raznesete razneseš raznesi raznesimo raznesite raznesu raznet razneti razneće razneću raznijela raznijele raznijeli raznijelo raznijet raznijeta raznijeću raznio raznositi
+12	1712	čas	časa časom časova časove časovi časovima času
+13	1713	prednost	prednosti prednostima prednošću
+14	1714	uzrok	uzroci uzrocima uzroka uzroke uzrokom uzroku
+15	1715	spor	najsporije najsporiji spora spore spori sporih sporija sporije sporiji sporijim sporim sporo sporog sporoj sporom sporova sporove sporovi sporovima sporu
+16	1716	članak	članaka članci člancima članka članke člankom članku
+17	1717	udarati	udara udaraj udarajte udaraju udarajući udarala udarale udarali udaralo udaram udaramo udaran udarana udaranje udarao udarate udaraš
+18	1718	majica	majicama majice majici majicom majicu
+19	1719	interes	interesa interese interesi interesima interesom interesu
+20	1720	približavati	približava približavaj približavajte približavaju približavajući približavala približavali približavalo približavam približavamo približavanje približavao približavate približavaš
+21	1721	rok	roka rokom rokova rokove rokovi rokovima roku
+22	1722	susret	susreta susrete susreti susretima susretom susretu
+23	1723	epizoda	epizodama epizode epizodi epizodom epizodu
+24	1724	sposobnost	sposobnosti sposobnostima sposobnošću
+25	1725	upropastiti	upropaste upropasti upropastila upropastile upropastili upropastilo upropastim upropastimo upropastio upropastite upropastiće upropastićeš upropastiš upropašten upropaštena upropaštene upropašteni upropašteno
+26	1726	vrijednost	vrednost vrednosti vrednostima vrijednosti vrijednostima vrijednošću
+27	1727	zajednica	zajednicama zajednice zajednici zajednicom zajednicu
+28	1728	studio	studija studijama studije studijem studiji studijima studijom studiju studiom
+29	1729	eksplodirati	eksplodira eksplodiraj eksplodiraju eksplodirajući eksplodirala eksplodirale eksplodirali eksplodiralo eksplodiram eksplodiramo eksplodirao eksplodiraće eksplodiraš
+30	1730	alkohol	alkohola alkoholom alkoholu
+31	1731	pretpostaviti	pretpostave pretpostavi pretpostavila pretpostavili pretpostavim pretpostavimo pretpostavio pretpostavite pretpostaviš pretpostavljena pretpostavljene pretpostavljeni pretpostavljeno
+32	1732	specijalan	specijalna specijalne specijalni specijalnih specijalnim specijalnog specijalnoj specijalnom specijalnu
+33	1733	svuda	
+34	1734	kukavica	kukavicama kukavice kukavici kukavico kukavicom kukavicu
+35	1735	tableta	tabletama tablete tableti tabletom tabletu
+36	1736	okej	
+37	1737	zaključati	zaključa zaključaj zaključajmo zaključajte zaključaju zaključala zaključale zaključali zaključalo zaključam zaključamo zaključao zaključate zaključaš
+38	1738	zona	zonama zone zoni zonom zonu
+39	1739	bend	benda bendom bendova bendove bendovi bendovima bendu
+40	1740	kriminalac	kriminalaca kriminalca kriminalce kriminalcem kriminalci kriminalcima kriminalcu
+41	1741	gorivo	goriva gorivima gorivom gorivu
+42	1742	reagirati	reagira reagiraj reagiraju reagirala reagirale reagirali reagiralo reagiram reagiramo reagiranje reagirao reagirate reagiraš
+43	1743	suditi	sude sudi sudila sudili sudilo sudim sudimo sudio sudite sudiće sudiš suđen suđena suđene suđeni suđeno
+44	1744	stručnjak	stručnjaci stručnjacima stručnjaka stručnjake stručnjakom stručnjaku
+45	1745	hvatati	hvata hvataj hvatajmo hvatajte hvataju hvatajući hvatala hvatali hvatalo hvatam hvatamo hvatanje hvatao hvatate hvataš
+46	1746	počiniti	počine počini počinila počinile počinili počinilo počinim počinimo počinio počinite počiniš počinjen počinjena počinjene počinjeni počinjeno
+47	1747	srati	sere serem seremo serete sereš seri serite seru srala srali srao
+48	1748	ispitivanje	ispitivanja ispitivanjem ispitivanjima ispitivanju
+49	1749	tunel	tunela tunele tuneli tunelima tunelom tunelu
+50	1750	svratiti	svrate svrati svratila svratile svratili svratim svratimo svratio svratite svratićemo svratiću svratiš
+51	1751	priuštiti	priušte priušti priuštila priuštili priuštim priuštimo priuštio priuštite priuštiš
+52	1752	priznavati	priznaj priznaje priznajem priznajemo priznajete priznaješ priznajmo priznajte priznaju priznavajući priznavali priznavanje priznavao
+53	1753	kompa	kompe kompi kompom kompu
+54	1754	trošiti	troše trošenje trošeći troši trošila trošili trošim trošimo trošio trošite trošiš
+55	1755	ukloniti	uklone ukloni uklonila uklonile uklonili uklonilo uklonim uklonimo uklonio uklonite ukloniš uklonjen uklonjena uklonjene uklonjeni uklonjeno
+56	1756	zračan	zračna zračne zračni zračnih zračnim zračno zračnog zračnoj zračnom zračnu
+57	1757	kino	kina kinima kinom kinu
+58	1758	ej	
+59	1759	pali	
+60	1760	otprilike	
+61	1761	današnji	današnja današnje današnjeg današnjega današnjem današnjih današnjim današnjoj današnjom današnju
+62	1762	crnac	crnaca crnca crnce crncem crnci crncima crncu crnče
+63	1763	dvaput	
+64	1764	če	
+65	1765	predomisliti	predomisle predomisli predomislila predomislile predomislili predomislim predomislimo predomislio predomislite predomisliš
+66	1766	utjecati	utjecala utjecale utjecali utjecalo utjecanje utjecao utječe utječem utječemo utječete utječeš utječu
+67	1767	kineski	kineska kineske kineskih kineskim kinesko kineskog kineskoga kineskoj kineskom kineskome kinesku
+68	1768	ispitati	ispita ispitaj ispitajmo ispitajte ispitaju ispitala ispitale ispitali ispitam ispitamo ispitan ispitana ispitane ispitani ispitano ispitao ispitate ispitaćemo ispitaću ispitaš
+69	1769	krađa	krađama krađe krađi krađom krađu
+70	1770	uzrokovati	uzrokovala uzrokovale uzrokovali uzrokovalo uzrokovan uzrokovana uzrokovane uzrokovani uzrokovanje uzrokovano uzrokovao uzrokuje uzrokujem uzrokujemo uzrokujete uzrokuješ uzrokuju uzrokujući
+71	1771	dnevnik	dnevnici dnevnicima dnevnika dnevnike dnevnikom dnevniku dnevniče
+72	1772	nauditi	naude naudi naudila naudili naudilo naudim naudimo naudio naudite naudiš
+73	1773	povlačiti	povlače povlačenja povlačenje povlačeći povlači povlačila povlačili povlačim povlačimo povlačio povlačite povlačiš
+74	1774	slaviti	slave slaveći slavi slavila slavile slavili slavilo slavim slavimo slavio slavite slaviš slavljen slavljena slavljeni slavljenje
+75	1775	ljutiti	ljute ljuteći ljuti ljutila ljutili ljutilo ljutim ljutimo ljutio ljutite ljutiš
+76	1776	sjever	sever severa severu sjevera sjeverom sjeveru
+77	1777	bijes	bes besa bese besi besom besu bijesa bijesom bijesu
+78	1778	rasti	rasla rasle rasli raslo raste rastem rastemo rastete rasteš rastu rastući
+79	1779	slavan	najslavnija najslavnije najslavnijeg najslavniji najslavnijih slavna slavne slavni slavnih slavniji slavnim slavnima slavno slavnog slavnoga slavnoj slavnom slavnu
+80	1780	ispraviti	isprave ispravi ispravila ispravili ispravilo ispravim ispravimo ispravio ispravite ispraviću ispraviš ispravljen ispravljena ispravljene ispravljeni ispravljeno
+81	1781	hitno	
+82	1782	zapisati	zapisa zapisala zapisali zapisan zapisana zapisane zapisani zapisano zapisao zapisaću zapiše zapišem zapišemo zapišete zapišeš zapiši zapišimo zapišite zapišu
+83	1783	reči	
+84	1784	zvijer	zver zveri zverima zvijeri zvijerima
+85	1785	prijedlog	predlog predloga predloge predlogom predlogu predlozi predlože prijedloga prijedloge prijedlogom prijedlogu prijedlozi prijedlozima
+86	1786	sredina	sredinama sredine sredini sredinom sredinu
+87	1787	nasilje	nasilja nasiljem nasilju
+88	1788	katkad	
+89	1789	agencija	agencijama agencije agenciji agencijom agenciju
+90	1790	tlo	tala tla tlom tlu
+91	1791	košulja	košuljama košulje košulji košuljica košuljom košulju
+92	1792	identificirati	identificira identificiraj identificirajte identificiraju identificirala identificirale identificirali identificiralo identificiram identificiramo identificiran identificirana identificirane identificirani identificiranje identificirano identificirao identificirate identificiraš
+93	1793	paket	paketa pakete paketi paketima paketom paketu
+94	1794	otrov	otrova otrove otrovi otrovima otrovom otrovu
+95	1795	sluga	slugama sluge slugi slugo slugom slugu sluškinja sluškinjama sluškinje sluškinji sluškinjo sluškinjom sluškinju
+96	1796	isprika	isprici isprikama isprike isprikom ispriku
+97	1797	svjetlost	svetlost svetlosti svetlošću svjetlosti svjetlošću
+98	1798	tatica	tatice tatici taticom taticu
+99	1799	doznati	dozna doznaj doznajmo doznajte doznaju doznala doznale doznali doznalo doznam doznamo doznao doznate doznaš
+100	1800	milion	miliona milione milioni milionima

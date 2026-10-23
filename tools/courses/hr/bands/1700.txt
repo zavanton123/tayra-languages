@@ -1,0 +1,100 @@
+1	1601	krivnja	krivnje krivnji krivnjom krivnju
+2	1602	skloniti	sklone skloni sklonila sklonili sklonim sklonimo sklonio skloniste sklonite skloniću skloniš sklonjen sklonjena sklonjeni sklonjeno
+3	1603	izgled	izglede izgledi izgledima izgledom izgledu
+4	1604	prići	priđe priđem priđemo priđete priđeš priđi priđimo priđite priđu prišao prišla prišle prišli prišlo
+5	1605	srećan	najsrećnija najsrećnije najsrećniji srećna srećne srećni srećnih srećnija srećnije srećniji srećnim srećno srećnog srećnoj srećnom srećnu
+6	1606	osoblje	osoblja osobljem osoblju
+7	1607	bijeg	beg bega begu bezi beže bijega bijegom bijegu
+8	1608	vis	visa vise visova visove visovi visovima visu viška
+9	1609	totalno	
+10	1610	lokacija	lokacijama lokacije lokaciji lokacijom lokaciju
+11	1611	potpun	potpuna potpune potpuni potpunih potpunije potpunim potpunog potpunoga potpunoj potpunom potpunu
+12	1612	ugodan	najugodnije najugodniji ugodna ugodne ugodni ugodnih ugodnija ugodnije ugodniji ugodnijim ugodnim ugodnog ugodnoj ugodnom ugodnu
+13	1613	nazivati	naziva nazivaj nazivajte nazivaju nazivajući nazivala nazivale nazivali nazivalo nazivam nazivamo nazivanje nazivao nazivate nazivaš
+14	1614	uspješan	najuspješnija najuspješnije najuspješniji najuspješnijih uspešan uspešna uspešne uspešni uspešniji uspešnim uspešno uspešnog uspešnu uspješna uspješne uspješni uspješnih uspješnija uspješnije uspješniji uspješnim uspješno uspješnog uspješnoj uspješnom uspješnu
+15	1615	cigareta	cigaretama cigarete cigareti cigaretom cigaretu
+16	1616	hraniti	hrane hraneći hrani hranila hranile hranili hranilo hranim hranimo hranio hranite hraniš hranjen hranjena hranjene hranjeni hranjenje
+17	1617	pila	pilama pile pilence pileta piletom piletu pili pilića piliće pilići pilićima pilo pilom pilu
+18	1618	podrum	podruma podrume podrumi podrumima podrumom podrumu
+19	1619	drevan	drevna drevne drevni drevnih drevnim drevnima drevno drevnog drevnoga drevnoj drevnom drevnu
+20	1620	igrač	igrača igrače igračem igrači igračima igraču
+21	1621	lovac	lovaca lovca lovce lovcem lovci lovcima lovcu lovče
+22	1622	val	vala vale valom valova valove valovi valovima valu
+23	1623	uzbuđen	uzbuđena uzbuđene uzbuđeni uzbuđenija uzbuđeniji uzbuđeno uzbuđenog uzbuđenom uzbuđenu
+24	1624	kolač	kolača kolače kolačem kolači kolačima kolaču
+25	1625	izvrsno	
+26	1626	nered	nereda nerede neredi neredima neredom neredu
+27	1627	funta	funtama funte funti funtu
+28	1628	dosad	dosada dosade dosadi dosado dosadom dosadu
+29	1629	prijetiti	prete preteći preti pretim pretite pretiti pretiš prijete prijeteći prijetila prijetile prijetili prijetilo prijetim prijetimo prijetio prijetite prijetiš
+30	1630	svađati	svađaj svađajmo svađajte svađaju svađajući svađala svađale svađali svađam svađamo svađanje svađao svađate svađaš
+31	1631	zmija	zmijama zmije zmiji zmijo zmijom zmijska zmijske zmijski zmijskih zmijskim zmijsko zmijskog zmijskoj zmijskom zmijsku zmiju
+32	1632	sredstvo	sredstava sredstva sredstvima sredstvom sredstvu
+33	1633	luđak	luđaci luđacima luđaka luđake luđakinja luđakom luđaku luđače
+34	1634	uloviti	ulove ulovi ulovila ulovile ulovili ulovilo ulovim ulovimo ulovio ulovite uloviš ulovljen ulovljena ulovljene ulovljeni ulovljeno
+35	1635	mirisati	mirisala mirisale mirisali mirisalo mirisanje mirisao miriše mirišem mirišemo mirišete mirišeš miriši mirišite mirišu mirišući
+36	1636	dolazak	dolasci dolascima dolaska dolaske dolaskom dolasku dolazaka
+37	1637	odjebati	odjebala odjebali odjebao odjebe odjebem odjebemo odjebete odjebeš odjebi odjebimo odjebite odjebu
+38	1638	gurnuti	gurne gurnem gurnemo gurnete gurneš gurni gurnimo gurnite gurnu gurnula gurnuli gurnulo gurnuo gurnut gurnuta gurnuto
+39	1639	smrdjeti	smrde smrdela smrdelo smrdeo smrdeći smrdi smrdim smrdimo smrdio smrdite smrdiš smrdjela smrdjelo
+40	1640	provaliti	provale provali provalila provalile provalili provalilo provalim provalimo provalio provalite provalićemo provališ provaljen provaljena provaljeni provaljeno
+41	1641	objašnjavati	objašnjava objašnjavaj objašnjavaju objašnjavajući objašnjavala objašnjavali objašnjavam objašnjavamo objašnjavanje objašnjavao objašnjavate objašnjavaš
+42	1642	odraditi	odrade odradi odradila odradile odradili odradim odradimo odradio odradite odradiću odradiš odrađen odrađena odrađeno
+43	1643	skidati	skida skidaj skidajte skidaju skidajući skidala skidali skidam skidamo skidanje skidao skidate skidaš
+44	1644	kilometar	kilometara kilometra kilometre kilometri kilometrima kilometru
+45	1645	javnost	javnosti javnošću
+46	1646	cijev	cev cevi cevima cijevi cijevima
+47	1647	jahati	jahala jahale jahali jahanja jahanje jahanjem jahanju jahao jahaće jahaću jaše jašem jašemo jašete jašeš jaši jašimo jašite jašu jašući
+48	1648	opisati	opisa opisala opisale opisali opisalo opisan opisana opisane opisani opisano opisao opiše opišem opišemo opišete opišeš opiši opišite opišu
+49	1649	uzbudljiv	najuzbudljivija najuzbudljivije najuzbudljiviji najuzbudljivijih uzbudljiva uzbudljive uzbudljivi uzbudljivih uzbudljivija uzbudljivije uzbudljiviji uzbudljivijim uzbudljivim uzbudljivo uzbudljivog uzbudljivoj uzbudljivom uzbudljivu
+50	1650	sezona	sezonama sezone sezoni sezonom sezonu
+51	1651	vampir	vampira vampire vampiri vampirima vampirom vampiru
+52	1652	nepoznat	nepoznata nepoznate nepoznati nepoznatih nepoznatim nepoznatima nepoznato nepoznatog nepoznatoga nepoznatoj nepoznatom nepoznatome nepoznatu
+53	1653	magija	magijama magije magiji magijom magiju
+54	1654	šešir	šešira šešire šeširi šeširima šeširić šeširom šeširu
+55	1655	tačno	
+56	1656	podrška	podršci podrške podrškom podršku
+57	1657	pristojan	najpristojniji pristojna pristojne pristojni pristojnih pristojnija pristojnije pristojniji pristojnim pristojno pristojnog pristojnoj pristojnom pristojnu
+58	1658	osuditi	osude osudi osudila osudile osudili osudilo osudim osudimo osudio osudite osudiće osudiš osuđen osuđena osuđene osuđeni osuđeno
+59	1659	zahtijevati	zahteva zahtevaju zahtevala zahtevali zahtevalo zahtevam zahtevamo zahtevan zahtevao zahtevati zahtijeva zahtijevaj zahtijevajte zahtijevaju zahtijevajući zahtijevala zahtijevale zahtijevali zahtijevalo zahtijevam zahtijevamo zahtijevan zahtijevao zahtijevate zahtijevaš
+60	1660	sjeverni	najsjevernija severna severne severni severnog severnoj severnom severnu sjeverna sjeverne sjevernih sjevernije sjevernim sjevernog sjevernoj sjevernom sjevernome sjevernu
+61	1661	suprotan	suprotna suprotne suprotni suprotnih suprotnim suprotno suprotnog suprotnoj suprotnom suprotnome suprotnu
+62	1662	zavezati	zavezala zavezali zavezan zavezana zavezane zavezani zavezano zavezao zaveže zavežem zavežemo zavežete zavežeš zaveži zavežimo zavežite zavežu
+63	1663	svećenik	svećenici svećenicima svećenika svećenike svećenikom svećeniku svećeniče
+64	1664	gradonačelnik	gradonačelnica gradonačelnice gradonačelnici gradonačelnicom gradonačelnicu gradonačelnika gradonačelnikom gradonačelniku gradonačelniče
+65	1665	samoubojstvo	samoubojstava samoubojstva samoubojstvima samoubojstvom samoubojstvu
+66	1666	ljubiti	ljube ljubeći ljubi ljubila ljubile ljubili ljubim ljubimo ljubio ljubite ljubiš ljubljena ljubljene ljubljenje
+67	1667	završen	završena završene završeni završenim završeno završenog završenom završenu
+68	1668	emisija	emisijama emisije emisiji emisijom emisiju
+69	1669	odbijati	odbija odbijaj odbijaju odbijajući odbijala odbijale odbijali odbijalo odbijam odbijamo odbijao odbijate odbijaš
+70	1670	skladište	skladišta skladištem skladištima skladištu
+71	1671	navečer	
+72	1672	maska	masaka masci maskama maske maski maskom masku
+73	1673	izmisliti	izmisle izmisli izmislila izmislile izmislili izmislim izmislimo izmislio izmislite izmisliš izmišljena izmišljene izmišljeni izmišljeno
+74	1674	gđica	
+75	1675	milost	milosti milošću
+76	1676	kazniti	kazne kazni kaznila kaznili kaznim kaznimo kaznio kaznite kazniće kazniću kazniš kažnjen kažnjena kažnjene kažnjeni kažnjeno
+77	1677	ružan	najružnija najružnije najružniji najružnijih ružna ružne ružni ružnih ružnija ružnije ružniji ružnim ružnima ružnog ružnoj ružnom ružnu
+78	1678	iznenađen	iznenađena iznenađene iznenađeni iznenađeno
+79	1679	objesiti	obese obesi obesila obesili obesim obesimo obesio obesite obesiti obesiće obesiš obešen obešeni objese objesi objesila objesili objesim objesimo objesio objesite objesiće objesiš obješen obješena obješene obješeni obješeno
+80	1680	zgrabiti	zgrabe zgrabi zgrabila zgrabile zgrabili zgrabilo zgrabim zgrabimo zgrabio zgrabite zgrabiš
+81	1681	vrištati	vrištala vrištale vrištali vrištalo vrištanje vrištao vrištaću vrište vrišteći vrišti vrištim vrištimo vrištite vrištiš
+82	1682	spojiti	spoje spoji spojila spojile spojili spojilo spojim spojimo spojio spojite spojićemo spojiću spojiš
+83	1683	poduzeti	poduzela poduzeli poduzeo poduzet poduzeta poduzete poduzeto poduzeća poduzeće poduzećem poduzećima poduzeću poduzme poduzmem poduzmemo poduzmete poduzmeš poduzmi poduzmimo poduzmite poduzmu
+84	1684	demon	demona demone demoni demonima demonom demonu
+85	1685	lutka	lutaka lutkama lutke lutki lutko lutkom lutku
+86	1686	ćelija	ćelijama ćelije ćeliji ćelijom ćeliju
+87	1687	završavati	završava završavaj završavajte završavaju završavajući završavala završavale završavali završavalo završavam završavamo završavanje završavao završavate završavaš
+88	1688	četvrti	četvrta četvrte četvrtim četvrtima četvrto četvrtog četvrtoga četvrtoj četvrtom četvrtu
+89	1689	student	studenata studenta studente studenti studentima studentom studentu
+90	1690	pozornost	pozornosti pozornošću
+91	1691	stvorenje	stvorenja stvorenjem stvorenjima stvorenju
+92	1692	povezati	poveza povezala povezale povezali povezalo povezao povezaću poveže povežem povežemo povežete povežeš poveži povežimo povežite povežu
+93	1693	pošta	pošte pošti poštom poštu
+94	1694	uzrujati	uzruja uzrujaju uzrujala uzrujali uzrujalo uzrujam uzrujan uzrujana uzrujane uzrujani uzrujano uzrujao uzrujaš
+95	1695	posljedica	posledica posledicama posledice posledicu posljedicama posljedice posljedicom posljedicu
+96	1696	plivati	pliva plivaj plivajte plivaju plivajući plivala plivale plivali plivalo plivam plivamo plivanja plivanje plivanjem plivanju plivao plivate plivaš
+97	1697	odmoriti	odmore odmoreno odmori odmorila odmorili odmorim odmorimo odmorio odmorite odmoriš
+98	1698	visiti	vise viseći visi visila visile visili visilo visim visimo visio visite visiš
+99	1699	uznemiriti	uznemire uznemiren uznemirena uznemirene uznemireni uznemireno uznemiri uznemirila uznemirile uznemirili uznemirilo uznemirim uznemirimo uznemirio uznemirite uznemiriš
+100	1700	politika	politici politike politikom politiku

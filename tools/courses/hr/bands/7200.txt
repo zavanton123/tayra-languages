@@ -1,0 +1,100 @@
+1	7101	pšenica	pšenice pšenici pšenicom pšenicu pšenične pšenični pšenično pšeničnog
+2	7102	nerado	
+3	7103	tampon	tampona tampone tamponi tamponima
+4	7104	đavolji	đavolja đavolje đavoljeg đavoljem đavoljim đavoljoj đavolju
+5	7105	pribaviti	pribavi pribavila pribavili pribavim pribavimo pribavio pribavite
+6	7106	supstanca	supstancama supstance supstanci supstancom supstancu
+7	7107	presudan	presudna presudne presudni presudno presudnog presudnom presudnu
+8	7108	ama	
+9	7109	lutak	luci lutaka lutke lutkom lutku luče
+10	7110	cviliti	cvile cvili cvilim cvilio cvilite cviliš
+11	7111	votka	
+12	7112	evakuirati	
+13	7113	madež	madeža madeže madeži madežom madežu
+14	7114	uozbiljiti	uozbilji uozbiljim uozbiljimo uozbiljio uozbiljite uozbiljiš
+15	7115	grmljavina	grmljavine grmljavini grmljavinom grmljavinu
+16	7116	obračunati	obračuna obračunaju obračunali obračunam obračunamo obračunao obračunat obračunaš
+17	7117	podupirati	podupire
+18	7118	dodavanje	dodavanja dodavanjem dodavanju
+19	7119	opijum	opijuma opijumom opijumu
+20	7120	trinaest	
+21	7121	tovar	tovara tovare tovari tovarom tovaru
+22	7122	odgristi	odgrizao odgrize odgrizem odgrizeš odgrizi odgrizla odgrizli odgrizu
+23	7123	zaprljati	zaprlja zaprljaju zaprljala zaprljali zaprljam zaprljan zaprljana zaprljano zaprljao zaprljaš
+24	7124	cjelokupan	celokupan celokupna celokupne celokupnu cjelokupna cjelokupne cjelokupni cjelokupnim cjelokupnog cjelokupnoj cjelokupnom cjelokupnu
+25	7125	bogac	bokca
+26	7126	instalacija	instalacijama instalacije instalaciji instalaciju
+27	7127	sabotaža	sabotaže sabotaži sabotažu
+28	7128	udaviti	udave udavi udavim udavite udaviću udaviš
+29	7129	kaka	kake kaki kakom kaku
+30	7130	trijumf	trijumfa trijumfom trijumfu
+31	7131	fondacija	fondacije fondaciji fondacijom fondaciju
+32	7132	zalupiti	zalupe zalupi zalupila zalupili zalupio zalupiš
+33	7133	abeceda	abecede abecedi abecedom abecedu
+34	7134	napon	napona naponom naponu
+35	7135	poslužitelj	poslužitelja poslužitelje poslužitelji poslužiteljima poslužitelju
+36	7136	himna	himne himni himnom himnu
+37	7137	propust	propusta propuste propusti propustima propustom
+38	7138	abortus	abortusa abortuse abortusi abortusu
+39	7139	reforma	reformama reforme reformi reformom reformu
+40	7140	vješala	vešala vješalima
+41	7141	odražavati	odražava odražavaju
+42	7142	lobanja	lobanje lobanji lobanjom lobanju
+43	7143	zanat	zanata zanatom zanatu
+44	7144	cement	cementa cementom cementu
+45	7145	djetinjast	detinjast detinjasta djetinjasta djetinjaste djetinjasti djetinjastim djetinjastog djetinjastu
+46	7146	sijed	sijeda sijede sijedi sijedih sijedom sijedu
+47	7147	napomenuti	napomene napomenem napomeni napomenu napomenula napomenuli napomenuo
+48	7148	kontati	konta kontam kontao kontate kontaš
+49	7149	trta	tare tari taru tr tre tro trt tru
+50	7150	srpski	srpska srpske srpskih srpskim srpskog srpskom srpsku
+51	7151	šugav	šugava šugave šugavi šugavih šugavim šugavo šugavog šugavoj šugavom šugavu
+52	7152	podbaciti	podbace podbaci podbacila podbacili podbacimo podbacio podbaciš
+53	7153	bure	burad buradi burence bureta buretu
+54	7154	gnojivo	gnojiva gnojivom gnojivu
+55	7155	uoči	
+56	7156	bajat	baj bajanje baje baju
+57	7157	kliješta	klešta kliještima
+58	7158	gamad	gamadi
+59	7159	fragment	fragmenata fragmenta fragmente fragmenti fragmentima
+60	7160	čimpanza	čimpanzama čimpanze čimpanzi čimpanzom čimpanzu
+61	7161	polubrat	polubrata polubratom polubratu polubraća
+62	7162	šestica	šestice šestici šesticu
+63	7163	istaknut	istaknuta istaknute istaknutih istaknutim istaknuto istaknutog istaknutom istaknutu najistaknutija najistaknutiji najistaknutijih
+64	7164	novinarstvo	novinarstva novinarstvom novinarstvu
+65	7165	datirati	datira datiraju datiranje
+66	7166	iscijediti	iscedi iscijede iscijedi iscijedila iscijedili iscijedim iscijedimo iscijedio iscijedite iscijeđen iscijeđena iscijeđeni iscijeđeno
+67	7167	reflektor	reflektora reflektore reflektori reflektorima reflektorom
+68	7168	formalan	formalna formalne formalni formalnih formalnim formalnog formalnom formalnu
+69	7169	dugotrajan	dugotrajna dugotrajne dugotrajni dugotrajnih dugotrajnim dugotrajnog dugotrajnoj dugotrajnom dugotrajnu
+70	7170	čar	čari čarima
+71	7171	brucoš	brucoša brucoše brucoši brucošima brucošu
+72	7172	kišiti	kiše kiši kišilo
+73	7173	naj	
+74	7174	prismotra	prismotre prismotri prismotrom prismotru
+75	7175	nezaboravan	nezaboravna nezaboravne nezaboravni nezaboravnim nezaboravno nezaboravnog nezaboravnu
+76	7176	neprimjereno	neprimereno
+77	7177	mješanac	mešanac mješanaca mješanca mješance mješanci mješancima mješanče
+78	7178	konflikt	konflikata konflikta konflikte konflikti konfliktima konfliktu
+79	7179	razbacati	razbacaj razbacali razbacan razbacana razbacane razbacani razbacano razbacao
+80	7180	podružnica	podružnice podružnici podružnicu
+81	7181	osama	osame osami osamu
+82	7182	skakač	skakača skakače skakačem skakači skakaču
+83	7183	juli	jul jula jule julu
+84	7184	praznovjerje	praznoverje praznovjerja praznovjerjem praznovjerju
+85	7185	natopiti	natopi natopila natopili natopio natopljen natopljena natopljene natopljeni natopljeno
+86	7186	uran	urana urani uranom uranu
+87	7187	polog	
+88	7188	kolumna	kolumne kolumni kolumnu
+89	7189	mahnuti	mahne mahnem mahneš mahni mahnite mahnula mahnuli mahnuo
+90	7190	upravni	upravna upravne upravnim upravno upravnog upravnoj upravnom
+91	7191	unija	unije uniji unijom uniju
+92	7192	obvezati	obvezala obvezali obvezan obvezani obvezao obveže
+93	7193	režija	režije režiji režiju
+94	7194	rezanac	rezanaca rezanca rezance rezanci rezancima
+95	7195	mjesečni	mesečnu mjesečna mjesečne mjesečnih mjesečnim mjesečnog mjesečnoj mjesečnom mjesečnu
+96	7196	patetično	
+97	7197	podnožje	podnožja podnožju
+98	7198	sestrična	sestrične sestrični sestrično sestričnom sestričnu
+99	7199	ocjenjivati	ocenjuje ocenjujem ocjenjivala ocjenjivali ocjenjivanje ocjenjivao ocjenjuje ocjenjujem ocjenjujemo ocjenjujete ocjenjuješ ocjenjuju
+100	7200	efekat	efekata efekta efekte efekti efektima efektom efektu

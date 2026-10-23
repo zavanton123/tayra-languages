@@ -1,0 +1,100 @@
+1	6401	vuna	vune vuni vunom vunu
+2	6402	kuna	kn kune kuni kunu
+3	6403	mučenik	mučenici mučenicima mučenika mučenike mučenikom
+4	6404	založiti	založi založila založili založim založio založite založiš
+5	6405	umjetnica	umetnica umetnici umjetnice umjetnici umjetnicu
+6	6406	kompjutor	kompjutora kompjutore kompjutori kompjutorima kompjutorom kompjutoru
+7	6407	štampa	štampe štampi štampom štampu
+8	6408	žarki	žarka žarkim žarko žarku
+9	6409	znatno	
+10	6410	anestezija	anestezije anesteziji anestezijom anesteziju
+11	6411	uvenuo	uvenula uvenule uvenulo uveo
+12	6412	fiksan	fiksna fiksne fiksni fiksnim fiksno fiksnog fiksnoj fiksnom fiksnu
+13	6413	fascinirati	fascinira fasciniraju fascinirala fascinirali fasciniralo fasciniran fascinirana fascinirani fascinirao
+14	6414	čekaonica	čekaonice čekaonici čekaonicu
+15	6415	olakšavati	olakšava olakšavaju olakšavam olakšavanje olakšavao olakšavate olakšavaš
+16	6416	fetus	fetusa fetuse fetusi fetusom fetusu
+17	6417	plućni	plućna plućne plućnih plućnim plućno plućnog plućnom plućnu
+18	6418	zalediti	zaledi zaledila zaledili zaledilo zaledio zaleđen zaleđena zaleđene zaleđeni zaleđeno
+19	6419	karneval	karnevala karnevalu
+20	6420	podanik	podanici podanicima podanika podanike
+21	6421	buha	buhama buhe buhu
+22	6422	fanatik	fanatici fanaticima fanatika fanatike fanatikom
+23	6423	okrutnost	okrutnosti okrutnošću
+24	6424	odjuriti	odjuri odjurila odjurili odjurim odjurio odjurite odjuriš
+25	6425	osa	ose osi oso osom osu
+26	6426	obmana	obmanama obmane obmani obmanom obmanu
+27	6427	luna	lune luni lunu
+28	6428	ljigav	ljigava ljigave ljigavi ljigavih ljigavim ljigavog ljigavom ljigavu
+29	6429	kubanski	kubanska kubanske kubanskih kubanskim kubansko kubanskog kubanskoj kubanskom kubansku
+30	6430	solidan	solidna solidne solidni solidnih solidno solidnu
+31	6431	baraka	baraci barakama barake baraku
+32	6432	hladnokrvan	hladnokrvna hladnokrvne hladnokrvni hladnokrvnih hladnokrvnim hladnokrvnog hladnokrvnom
+33	6433	traperice	
+34	6434	intuicija	intuicije intuiciji intuicijom intuiciju
+35	6435	ravnica	ravnicama ravnice ravnici ravnicom ravnicu
+36	6436	plac	placa placem placu
+37	6437	vlas	vlasi vlasima
+38	6438	magnetni	magnetna magnetne magnetnih magnetnim magnetno magnetnog magnetnoj magnetnom magnetnu
+39	6439	njušiti	njuše njuši njušim njušio njušite njušiš
+40	6440	pakovati	pakovanje pakuj pakuje pakujem pakujemo pakujete pakuješ pakujmo pakujte pakuju
+41	6441	polizati	polizala polizao poliže poližem poližete poližeš poliži poližite
+42	6442	proteza	protezama proteze protezi protezom protezu
+43	6443	tvor	tvora tvore tvorom tvorova tvorove tvorovi tvorovima tvoru
+44	6444	nit	nitima
+45	6445	maksimum	maksimuma maksimumu
+46	6446	gazdarica	gazdarice gazdarici gazdaricom gazdaricu
+47	6447	nezavisnost	nezavisnosti
+48	6448	vesta	veste vestom vestu
+49	6449	davni	davna davne davnih davnim davnog davnoj davnu
+50	6450	transfer	transfera transfere transferi transferom transferu
+51	6451	raskrižje	raskrižja raskrižjima raskrižju
+52	6452	iva	ive ivi ivo ivu
+53	6453	kršćanstvo	kršćanstva kršćanstvom kršćanstvu
+54	6454	šokantno	
+55	6455	elektrana	elektranama elektrane elektrani elektranu
+56	6456	salveta	salvetama salvete salveti salvetom salvetu
+57	6457	odijevati	odijeva odijevaju odijevala odijevam odijevamo odijevanje odijevao odijevate odijevaš
+58	6458	prestanak	prestanka prestankom prestanku
+59	6459	automobilski	automobilska automobilske automobilskih automobilskim automobilskoj automobilskom automobilsku
+60	6460	patent	patenata patenta patente patenti patentima patentom patentu
+61	6461	uporaba	uporabe uporabi uporabom uporabu
+62	6462	predah	predaha
+63	6463	zviždati	zviždala zviždali zviždanje zviždao zvižde zviždeći zviždi zviždim zviždite zviždiš
+64	6464	rizično	
+65	6465	smaknuće	smaknuća smaknućem smaknućima smaknuću
+66	6466	jednorog	jednoroga jednoroge jednorogom jednorogu jednorozi jednorozima
+67	6467	opteretiti	optereti opteretila opteretili opteretilo opteretim opteretio opterećen opterećena opterećeni opterećenje opterećeno
+68	6468	sjedati	seda sedaj sjeda sjedaj sjedajte sjedaju sjedam sjedaš
+69	6469	kidati	kida kidaj kidajmo kidaju kidajući kidam kidamo kidanje kidao kidaš
+70	6470	svojstvo	svojstava svojstva svojstvima svojstvu
+71	6471	pretjeran	preterana preterane pretjerana pretjerane pretjerani pretjeranim pretjeranog pretjeranom pretjeranu
+72	6472	žiri	žirija žiriju
+73	6473	siliti	sile sili silila silili silim silio silite siliš
+74	6474	vrtlog	vrtloga vrtloge vrtlogu vrtlozi
+75	6475	dizalica	dizalicama dizalice dizalici dizalicom dizalicu
+76	6476	rasprodati	rasproda rasprodaju rasprodala rasprodali rasprodan rasprodana rasprodane rasprodani rasprodano rasprodao
+77	6477	beskonačan	beskonačna beskonačne beskonačni beskonačnih beskonačnim beskonačnog beskonačnoj beskonačnom beskonačnu
+78	6478	usto	
+79	6479	udica	udice udici udicom udicu
+80	6480	autentičan	autentična autentične autentični autentičnim autentično autentičnog autentičnom autentičnu
+81	6481	papuča	papučama papuče papuči papučom papuču
+82	6482	božanstven	božanstvena božanstvene božanstveni božanstveno božanstvenog božanstvenu
+83	6483	livada	livadama livade livadi livadom livadu
+84	6484	umisliti	umisle umisli umislila umislili umislio umisliš
+85	6485	povrh	
+86	6486	šupljina	šupljinama šupljine šupljini šupljinu
+87	6487	prozvati	prozove prozovem prozovu prozva prozvala prozvali prozvan prozvana prozvani prozvao
+88	6488	bor	bore borom borova borove borovi borovima boru
+89	6489	različito	
+90	6490	redovno	
+91	6491	šema	shema šemama šeme šemi šemo šemom šemu
+92	6492	bankrotirati	bankrotira bankrotiraju bankrotirala bankrotirali bankrotiralo bankrotiram bankrotirao
+93	6493	tačan	tačna tačne tačni tačnije tačnim tačnu
+94	6494	pobuniti	pobune pobuni pobunila pobunili pobunimo pobunio pobunjene pobunjeni
+95	6495	rajski	rajska rajske rajskih rajskim rajsko rajskog rajskoj rajskom rajsku
+96	6496	izdaleka	
+97	6497	povjesničar	povjesničara povjesničare povjesničari povjesničarima povjesničarka povjesničaru
+98	6498	kovač	kovača kovači kovaču
+99	6499	prisegnuti	prisegao prisegla prisegli prisegne prisegnem prisegni prisegnite prisegnula prisegnuli prisegnuo prisegnut priseže
+100	6500	spoznaja	spoznajama spoznaje spoznaji spoznajom spoznaju

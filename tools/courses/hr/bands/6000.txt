@@ -1,0 +1,100 @@
+1	5901	usrano	
+2	5902	link	linka linkom linkova linkove linkovi linku
+3	5903	zamjenica	zamenica zamenice zamenici zamjenice zamjenici zamjenicom zamjenicu
+4	5904	teoretičar	teoretičara teoretičare teoretičari teoretičarima
+5	5905	šmokljan	šmokljana šmokljane šmokljani šmokljanima šmokljanom šmokljanu
+6	5906	mjesečina	mesečina mesečine mesečini mesečinom mjesečine mjesečini mjesečinom mjesečinu
+7	5907	posebice	
+8	5908	kresnuti	kresne kresnem kresnemo kresneš kresni kresnu kresnula kresnuli kresnuo kresnut
+9	5909	planirano	
+10	5910	doduše	
+11	5911	četvorka	četvorci četvorke četvorki četvorkom četvorku
+12	5912	utapati	utapa utapaju utapala utapali utapam utapamo utapanje utapao utapate utapaš
+13	5913	velikodušno	
+14	5914	izjednačiti	izjednače izjednačen izjednačena izjednačene izjednačeni izjednačenje izjednačeno izjednači izjednačila izjednačili izjednačim izjednačimo izjednačio
+15	5915	plašt	plašta plaštem plašteve plaštevi plaštu
+16	5916	idol	idola idole idoli idolima idolom idolu
+17	5917	islam	islama islamom islamu
+18	5918	odsustvo	odsustva odsustvom odsustvu
+19	5919	poplaviti	poplave poplavi poplavila poplavile poplavili poplavilo poplavim poplavio poplavite poplaviš poplavljen poplavljena poplavljene poplavljeni poplavljeno
+20	5920	ušteđevina	ušteđevine ušteđevinom ušteđevinu
+21	5921	žito	žita žitom žitu
+22	5922	voćni	voćna voćne voćnih voćnim voćno voćnog voćnom voćnu
+23	5923	razmak	razmaci razmacima razmaka razmake razmakom razmaku
+24	5924	temeljni	temeljna temeljne temeljnih temeljnim temeljno temeljnog temeljnoj temeljnu
+25	5925	obarač	obarača obaraču
+26	5926	kuvati	kuva kuvaju kuvala kuvam kuvamo kuvana kuvani kuvanje kuvano kuvao kuvate kuvaš
+27	5927	sijeno	seno senu sijena sijenom sijenu
+28	5928	ranjenik	ranjenici ranjenicima ranjenika ranjenike
+29	5929	precizno	
+30	5930	katalog	kataloga kataloge katalogom katalogu katalozi katalozima
+31	5931	kolodvor	kolodvora kolodvore kolodvorima kolodvoru
+32	5932	svjetionik	svetionik svetionika svetioniku svjetionici svjetionika svjetionikom svjetioniku
+33	5933	presretati	presretan presretanje presreće presrećemo presreću
+34	5934	pokoj	pokoja pokoje pokojeg pokoji pokoju
+35	5935	zastati	zastala zastali zastalo zastane zastanem zastanemo zastanete zastaneš zastani zastanimo zastanite zastanu zastao
+36	5936	stegnuti	stegao stegla stegne stegnem stegnemo stegneš stegni stegnite stegnu stegnula stegnuli stegnuo stegnut stegnuta stegnute stegnuto
+37	5937	krijumčar	krijumčara krijumčare krijumčari krijumčarima krijumčaru
+38	5938	komitet	komiteta komiteti komitetom komitetu
+39	5939	svrbjeti	svrbe svrbi svrbjelo
+40	5940	prostitucija	prostitucije prostituciji prostitucijom prostituciju
+41	5941	pomak	pomaci pomaka pomake pomakom pomaku
+42	5942	smesti	smela smele smeli smelo smete smeten smetena smeteni smeteno
+43	5943	uspravan	uspravna uspravne uspravni uspravno uspravnog uspravnom
+44	5944	jednadžba	jednadžbama jednadžbe jednadžbi jednadžbom jednadžbu
+45	5945	lom	loma lome lomom lomova lomove lomovi lomu
+46	5946	dežuran	dežurna dežurne dežurni dežurnim dežurnog dežurnoj dežurnom dežurnu
+47	5947	poraziti	
+48	5948	zezati	
+49	5949	medvjedić	medvedić medvedića medvjedića medvjediće medvjedićem medvjedići medvjedićima medvjediću
+50	5950	vedro	vedra vedrom vedru
+51	5951	jecaj	jecaje jecaji jecaju
+52	5952	sustignuti	sustigao sustigla sustigle sustigli sustiglo sustigne sustignem sustignemo sustignu sustići sustiže
+53	5953	nezakonit	nezakonita nezakonite nezakoniti nezakonitih nezakonitim nezakonitog nezakonitom nezakonitu
+54	5954	svečan	najsvečanijom svečana svečane svečani svečanih svečanim svečanog svečanoj svečanom svečanu
+55	5955	kreker	krekera krekere krekeri krekerima krekeru
+56	5956	ronilac	ronilaca ronioca ronioce ronioci roniocima ronioče
+57	5957	pokrasti	pokrade pokraden pokradena pokradeni pokradeno pokradeš pokradu pokrala pokrali pokrao
+58	5958	smirivati	smirivala smirivalo smirivanje smirivao smiruj smiruje smirujem smiruješ smiruju smirujući
+59	5959	strateški	strateška strateške strateških strateškim strateško strateškog strateškoj strateškom stratešku
+60	5960	strojnica	strojnicama strojnice strojnicom strojnicu
+61	5961	protest	protesta proteste protesti protestima protestom protestu
+62	5962	posjekotina	posekotina posekotine posekotinu posjekotinama posjekotine posjekotinom posjekotinu
+63	5963	poznanik	poznanica poznanice poznanici poznanicima poznanicu poznanika poznanike poznanikom poznaniku
+64	5964	molekula	molekulama molekule molekuli molekulu
+65	5965	racija	racijama racije raciji raciju
+66	5966	krinka	krinke krinkom krinku
+67	5967	kojot	kojota kojote kojoti kojotima kojotom kojotu
+68	5968	trol	trola trole trolom trolova trolove trolovi trolovima trolu
+69	5969	štovati	štovali štovan štovana štovani štovanje štovao štuje štujem štujemo štujete štuješ štuju
+70	5970	smjerati	smera smeraju smerate smeraš smjera smjeraju smjerala smjeram smjeramo smjerao smjerate smjeraš
+71	5971	naprosto	
+72	5972	pasta	paste pastom pastu
+73	5973	opravdan	opravdana opravdane opravdani opravdanih opravdanim opravdanog opravdanom opravdanu
+74	5974	povod	povoda povode povodi povodu
+75	5975	spasilački	spasilačka spasilačke spasilačkih spasilačkim spasilačkog spasilačkoj spasilačkom spasilačku
+76	5976	viti	vij vije vili vilo vio vit vita vite vito viće
+77	5977	samoubistvo	samoubistva samoubistvom samoubistvu
+78	5978	prelazak	prelaska prelaskom prelasku
+79	5979	poduzetnik	poduzetnica poduzetnici poduzetnicima poduzetnika poduzetnike poduzetnikom poduzetniku
+80	5980	jadac	jaca jace jaci jacu jače
+81	5981	domovinski	domovinska domovinske domovinskog domovinskoj domovinskom domovinsku
+82	5982	soj	soja soje sojeva soji sojo sojom soju
+83	5983	neuobičajeno	
+84	5984	iznervirati	iznervira iznerviraju iznervirala iznervirali iznerviralo iznerviram iznerviran iznervirana iznervirani iznervirano iznervirao iznerviraš
+85	5985	urlati	urla urlaj urlaju urlajući urlala urlali urlam urlanje urlao urlaš
+86	5986	umiti	umi umij umije umijem umijemo umijete umiješ umiju umio
+87	5987	porod	poroda porode porodi porodom porodu
+88	5988	kliziti	klize klizeći klizi klizila klizim klizimo klizio klizite kliziš
+89	5989	grkljan	grkljana grkljane grkljanu
+90	5990	počivati	počiva
+91	5991	antički	antička antičke antičkih antičkim antičko antičkog antičkoj antičkom antičku
+92	5992	pješačiti	pešačenje pešačim pješače pješačenje pješači pješačila pješačili pješačim pješačimo pješačio pješačite pješačiš
+93	5993	puž	puža pužem puževa puževe puževi puževima pužu
+94	5994	predjelo	predjela predjelima predjelom predjelu
+95	5995	budalast	budalasta budalaste budalasti budalastih budalastim budalasto budalastog budalastom budalastu
+96	5996	urezati	ureza urezala urezale urezali urezalo urezan urezana urezane urezani urezano urezao ureže ureži
+97	5997	očevidac	očevica očevice očevici očevicima očevidaca očevidca očevidci
+98	5998	prihvatljiv	prihvatljiva prihvatljive prihvatljivi prihvatljivih prihvatljivija prihvatljivije prihvatljiviji prihvatljivim prihvatljivog prihvatljivom prihvatljivu
+99	5999	elitni	elitna elitne elitnih elitnim elitno elitnog elitnoj elitnom elitnu
+100	6000	pseto	pseta psetom

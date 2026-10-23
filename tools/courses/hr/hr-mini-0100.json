@@ -1,0 +1,215 @@
+{
+  "id": "hr-mini-0100",
+  "rankUpTo": 100,
+  "level": "A1",
+  "title": "Kod kuće i u obitelji",
+  "description": "Ten short, simple stories about home, family and everyday moments in Croatia.",
+  "topic": "Home and family",
+  "names": [
+    "Ana",
+    "Ivan",
+    "Zagreb",
+    "Split",
+    "Karlovac",
+    "Zadar",
+    "Dora",
+    "Karlo",
+    "Jakov",
+    "Marija",
+    "Pula",
+    "Ante",
+    "Ema",
+    "Filip",
+    "Leon",
+    "Sara",
+    "Osijek",
+    "Tomislav",
+    "Nina",
+    "Borna",
+    "Varaždin",
+    "Josip",
+    "Lucija",
+    "Marin",
+    "Ivana",
+    "Sisak",
+    "Dubrovnik",
+    "Tena",
+    "Hrvoje",
+    "Petar",
+    "Mate",
+    "Jana",
+    "Vesna",
+    "Lea",
+    "Zoran"
+  ],
+  "lessons": [
+    {
+      "title": "Gdje si?",
+      "summary": "Ana goes from Zagreb to Split, where Ivan is waiting for her.",
+      "newWords": [
+        "biti",
+        "ići",
+        "ja",
+        "ti",
+        "on",
+        "ona",
+        "gdje",
+        "ovdje",
+        "u",
+        "kazati",
+        "i",
+        "tko"
+      ],
+      "text": "Ana je u Zagrebu. Ivan je u Splitu. Ana ide u Split.\n\n— Gdje si ti? — kaže Ivan.\n\n— Ja sam u Zagrebu — kaže Ana. — Idem u Split.\n\n— Ja sam ovdje, u Splitu — kaže Ivan. — Tko ide u Split? Ti?\n\n— Ja! Ja idem u Split!\n\nAna ide i ide. Ona je u Karlovcu. Ona je u Zadru.\n\n— Gdje si ti? — kaže Ivan.\n\n— Ja sam u Zadru — kaže Ana. — Idem u Split. Gdje si ti?\n\n— Ja sam ovdje, u Splitu — kaže Ivan.\n\nAna ide i ide. Ona je u Splitu! Gdje je Ivan? On je ovdje!\n\n— Ivane! Ja sam ovdje! — kaže Ana.\n\n— I ja sam ovdje! — kaže Ivan.\n\nOn je u Splitu i ona je u Splitu.\n\nPitanja:\nTko je u Zagrebu?\nAna je u Zagrebu.\nGdje je Ivan?\nIvan je u Splitu.\nTko ide u Split?\nAna ide u Split.\nGdje su Ana i Ivan?\nAna i Ivan su u Splitu."
+    },
+    {
+      "title": "Jedna je moja, druga je tvoja",
+      "summary": "Dora has two apples and Karlo has two juices, so they share.",
+      "newWords": [
+        "imati",
+        "nemati",
+        "moj",
+        "tvoj",
+        "jedan",
+        "drugi",
+        "što",
+        "ne",
+        "da",
+        "a",
+        "li"
+      ],
+      "text": "Dora i Karlo su u Zadru. Dora ima 2 jabuke. Karlo nema jabuku.\n\n— Imaš li jabuku? — kaže Dora.\n\n— Ne, nemam — kaže Karlo.\n\n— Ja imam 2 — kaže Dora. — Jedna je moja, a druga je tvoja.\n\n— Moja? — kaže Karlo.\n\n— Da, tvoja! — kaže Dora.\n\nKarlo ima 2 soka.\n\n— Imaš li sok? — kaže Karlo.\n\n— Ne, nemam — kaže Dora.\n\n— Ja imam 2 — kaže Karlo. — Jedan je moj, a drugi je tvoj.\n\n— Moj? — kaže Dora.\n\n— Da, tvoj! — kaže Karlo.\n\nDora i Karlo imaju i jedno i drugo.\n\nPitanja:\nŠto ima Dora?\nDora ima 2 jabuke.\nŠto nema Karlo?\nKarlo nema jabuku.\nŠto ima Karlo?\nKarlo ima 2 soka.\nŠto kaže Dora?\nDora kaže: „Jedna je moja, a druga je tvoja.“"
+    },
+    {
+      "title": "Malo ili više?",
+      "summary": "Jakov wants ice cream; his grandmother Marija lets him have a little more.",
+      "newWords": [
+        "htjeti",
+        "željeti",
+        "moći",
+        "voljeti",
+        "hvala",
+        "moliti",
+        "ali",
+        "samo",
+        "malo",
+        "više",
+        "ili"
+      ],
+      "text": "Jakov i baka Marija su u Puli. Jakov voli sladoled.\n\n— Što želiš, Jakove? — kaže Marija.\n\n— Želim sladoled — kaže Jakov. — Molim!\n\n— Hoćeš li malo ili više?\n\n— Više! Volim sladoled. Hoću više!\n\n— Ne možeš više — kaže Marija. — Možeš samo malo.\n\n— Molim te! Ja želim više!\n\n— Ne. Samo malo. Ali i ja hoću malo. I ja volim sladoled!\n\nJakov ima malo sladoleda. Marija ima malo sladoleda.\n\n— Mogu li ja malo više? Molim! — kaže Jakov.\n\n— Možeš — kaže Marija. — Ali samo malo.\n\n— Hvala! Hvala, bako!\n\nPitanja:\nŠto voli Jakov?\nJakov voli sladoled.\nŠto želi Jakov?\nJakov želi sladoled.\nHoće li Jakov malo ili više?\nJakov hoće više.\nŠto kaže Marija?\nMarija kaže: „Možeš samo malo.“"
+    },
+    {
+      "title": "Vrijeme je za posao",
+      "summary": "Ante has to go to work, works all day and then goes home to Ema.",
+      "newWords": [
+        "raditi",
+        "posao",
+        "dan",
+        "morati",
+        "trebati",
+        "vrijeme",
+        "sad",
+        "onda",
+        "kad",
+        "još",
+        "na"
+      ],
+      "text": "Ante radi u Zadru. Ima posao u Zadru. Sad je 7 sati.\n\n— Ante, vrijeme je! — kaže Ema. — Moraš ići na posao.\n\n— Imam li još malo vremena? — kaže Ante.\n\n— Ne, nemaš. Sad moraš ići.\n\nAnte ide na posao. Na poslu radi i radi. Kad je 12 sati, Ante ima malo vremena. Onda radi i radi.\n\n— Ante, ima još posla! — kaže Filip. — Moramo raditi.\n\n— Trebam još malo vremena — kaže Ante.\n\nAnte mora raditi. On radi još 2 sata. Dan je dug. Onda je 5 sati. Posao je gotov.\n\n— Vrijeme je! Moram ići — kaže Ante.\n\nAnte ide kući. Ema kaže:\n\n— Je li posao gotov?\n\n— Da, posao je gotov — kaže Ante. — Dan je bio dug.\n\nPitanja:\nGdje radi Ante?\nAnte radi u Zadru.\nKad Ante mora ići na posao?\nAnte mora ići na posao u 7 sati.\nŠto kaže Ante?\nAnte kaže: „Trebam još malo vremena.“\nKad je posao gotov?\nPosao je gotov u 5 sati."
+    },
+    {
+      "title": "Put do Pule",
+      "summary": "Leon travels from Osijek to Pula, where Sara waits for him.",
+      "newWords": [
+        "doći",
+        "otići",
+        "put",
+        "iz",
+        "do",
+        "za",
+        "s",
+        "sa",
+        "tu"
+      ],
+      "text": "Leon je iz Osijeka. Sara je iz Pule. Leon ide na put. Ide iz Osijeka do Pule.\n\n— Kad ćeš doći? — kaže Sara.\n\n— Doći ću za 2 dana — kaže Leon. — Put je dug.\n\nLeon mora otići iz Osijeka. Ide s Tomislavom do Zagreba.\n\n— Idem s tobom do Zagreba — kaže Tomislav.\n\n— Da, idi sa mnom — kaže Leon.\n\nLeon i Tomislav idu na put. Za 3 sata su u Zagrebu. Tomislav je tu, u Zagrebu. Leon mora otići.\n\n— Hvala što si išao sa mnom — kaže Leon. — Ja moram otići. Idem do Pule.\n\nLeon ide i ide. Za 2 dana je u Puli. Sara je tu.\n\n— Tu sam! Došao sam! — kaže Leon.\n\n— Leone! Tu si! — kaže Sara. — Došao si za 2 dana!\n\nPitanja:\nJe li Leon iz Osijeka?\nDa, Leon je iz Osijeka.\nIde li Leon do Pule?\nDa, Leon ide do Pule.\nTko ide s Leonom do Zagreba?\nTomislav ide s Leonom do Zagreba.\nKad je Leon došao u Pulu?\nLeon je došao u Pulu za 2 dana."
+    },
+    {
+      "title": "Čuješ li?",
+      "summary": "Nina hears something, and Borna finds that it is only a little cat.",
+      "newWords": [
+        "znati",
+        "misliti",
+        "reći",
+        "čuti",
+        "vidjeti",
+        "kako",
+        "zašto",
+        "jer",
+        "nešto"
+      ],
+      "text": "Nina i Borna su u Varaždinu. Nina čuje nešto.\n\n— Čuješ li? — kaže Nina.\n\n— Što? Ja ne čujem — kaže Borna.\n\n— Čujem nešto. Ne znam što je.\n\n— I ja ne znam — kaže Borna. — Vidiš li nešto?\n\n— Ne vidim. Ali čujem.\n\nBorna ide vidjeti. Vidi nešto malo.\n\n— Što misliš, što je? — kaže Nina.\n\n— Mislim da znam — kaže Borna. — Mačka je!\n\n— Mačka? Kako znaš?\n\n— Znam jer je vidim. Ovdje je.\n\n— Zašto je ovdje? — kaže Nina.\n\n— Ne znam. Mislim da želi jesti — kaže Borna.\n\nNina ide vidjeti. Vidi mačku. Mačka je mala.\n\n— Reci joj nešto — kaže Borna.\n\n— Što da joj kažem? Reći ću joj: „Bok!“ — kaže Nina.\n\nPitanja:\nŠto čuje Nina?\nNina čuje nešto.\nŠto vidi Borna?\nBorna vidi mačku.\nKako Borna zna da je mačka?\nBorna zna jer je vidi.\nZašto je mačka ovdje?\nBorna misli da želi jesti."
+    },
+    {
+      "title": "Naše godine",
+      "summary": "Josip and Lucija talk with their neighbours Marin and Ivana about the towns they lived in.",
+      "newWords": [
+        "mi",
+        "vi",
+        "oni",
+        "naš",
+        "vaš",
+        "svoj",
+        "njegov",
+        "godina",
+        "prije",
+        "nikad"
+      ],
+      "text": "Josip i Lucija su u Sisku 2 godine. Marin i Ivana su tu 1 godinu.\n\n— Vi ste ovdje 1 godinu? — kaže Josip.\n\n— Da, mi smo ovdje 1 godinu — kaže Ivana. — Prije smo bili u Puli. A vi?\n\n— Mi smo ovdje 2 godine. Prije smo bili u Zadru — kaže Josip.\n\n— Imate li svoj posao? — kaže Lucija.\n\n— Da. Marin ima svoj posao. Njegov posao je tu, u Sisku. I ja imam svoj posao.\n\n— Gdje je vaš posao? — kaže Ivana.\n\n— Naš posao je ovdje, u Sisku — kaže Josip. — I Lucija i ja radimo tu. Naš posao je tu. A gdje je vaš?\n\n— Moj je u Zagrebu. Njegov je tu.\n\n— Jeste li bili u Dubrovniku? — kaže Lucija.\n\n— Nikad! — kaže Ivana. — Mi nikad nismo bili u Dubrovniku.\n\n— Ni mi — kaže Josip. — Ali sad idemo!\n\nPitanja:\nJesu li Josip i Lucija u Sisku 2 godine?\nDa, oni su u Sisku 2 godine.\nGdje su bili prije?\nPrije su bili u Zadru.\nGdje Marin ima posao?\nMarin ima svoj posao u Sisku.\nJesu li oni bili u Dubrovniku?\nNe, oni nikad nisu bili u Dubrovniku."
+    },
+    {
+      "title": "Sve moje stvari",
+      "summary": "Tena moves to Split with all her things, and her friend Hrvoje helps her sort them.",
+      "newWords": [
+        "sav",
+        "neki",
+        "ništa",
+        "netko",
+        "stvar",
+        "dobar",
+        "dobro",
+        "koji",
+        "taj",
+        "od"
+      ],
+      "text": "Tena ide u Split. Ona ima sve svoje stvari tu. Hrvoje ide s njom.\n\n— Ima li netko moje stvari? — kaže Tena.\n\n— Ja imam neke stvari — kaže Hrvoje. — Koje stvari su tvoje?\n\n— Ta stvar je moja. I ta je moja.\n\n— A ta stvar?\n\n— Ta nije moja. Mislim da je to stvar od Petra.\n\n— Netko ima tvoju stvar, Petre! — kaže Hrvoje.\n\n— Da, ta stvar je moja — kaže Petar. — Hvala!\n\n— Imaš li sve? — kaže Hrvoje.\n\n— Imam sve — kaže Tena. — Ne treba mi ništa.\n\n— Ništa? Je li sve dobro?\n\n— Da, sve je dobro — kaže Tena. — Ti si dobar, Hrvoje!\n\n— I ti si dobra — kaže Hrvoje.\n\nPitanja:\nGdje ide Tena?\nTena ide u Split.\nKoje stvari ima Hrvoje?\nHrvoje ima neke stvari od Tene.\nJe li ta stvar od Tene?\nNe, ta stvar je od Petra.\nJe li sve dobro?\nDa, sve je dobro."
+    },
+    {
+      "title": "Hajde, Jana!",
+      "summary": "Mate asks Jana to come out; she has to take a parcel to Vesna first, then they go.",
+      "newWords": [
+        "hajde",
+        "hej",
+        "pa",
+        "zar",
+        "dati",
+        "učiniti",
+        "možda",
+        "ako",
+        "ovaj"
+      ],
+      "text": "— Hej, Jana! Hajde u grad! — kaže Mate.\n\n— Ne mogu sad — kaže Jana. — Moram nešto učiniti.\n\n— Zar moraš sad?\n\n— Moram. Moram to učiniti sad.\n\n— Pa što moraš učiniti?\n\n— Moram dati ovaj paket Vesni. Ovaj paket je za nju.\n\n— Hajde, ja ću ići s tobom. Daj mi paket.\n\n— Možda... Ako hoćeš.\n\nMate i Jana idu do Vesne. Jana je dala paket Vesni.\n\n— Hvala vam! — kaže Vesna.\n\n— Hej, Mate — kaže Jana. — Sad možemo ići u grad. Ili možda u park?\n\n— Pa, ako hoćeš, idemo u park. Idemo, zar ne?\n\n— Hajde! — kaže Jana.\n\nPitanja:\nŠto kaže Mate?\nMate kaže: „Hajde u grad!“\nŠto Jana mora učiniti?\nJana mora dati paket Vesni.\nTko ide s Janom do Vesne?\nMate ide s Janom do Vesne.\nIdu li Mate i Jana u park?\nDa, Mate i Jana idu u park."
+    },
+    {
+      "title": "Čovjek u redu",
+      "summary": "In a queue at the post office, a kind man lets Lea go first.",
+      "newWords": [
+        "čovjek",
+        "red",
+        "se",
+        "o",
+        "tako",
+        "kao"
+      ],
+      "text": "Lea je u Osijeku, na pošti. Tu je red. U redu je 10 ljudi. Lea ima samo 1 pismo, ali mora ići na posao.\n\nJedan čovjek u redu vidi Leu.\n\n— Imate li samo to pismo? — kaže čovjek.\n\n— Da, samo to — kaže Lea.\n\n— Idite prije mene. Ja imam puno stvari.\n\n— Hvala vam! To je lijepo od vas! Vi ste dobar čovjek!\n\n— To je u redu — kaže čovjek.\n\nLea ide prije njega. Ljudi u redu se smiju.\n\n— Kako se zovete? — kaže Lea.\n\n— Zovem se Zoran — kaže čovjek.\n\nLea ide od pošte na posao. Ona misli o tom čovjeku. Tako je dobro kad su ljudi dobri. Ljudi kao on su dobri ljudi. „I ja ću tako, kao on“, misli Lea.\n\nPitanja:\nGdje je Lea?\nLea je u Osijeku, na pošti.\nŠto ima Lea?\nLea ima samo 1 pismo.\nŠto kaže Lea čovjeku?\nLea kaže: „Vi ste dobar čovjek!“\nŠto misli Lea o čovjeku?\nLea misli da je on dobar čovjek."
+    }
+  ]
+}

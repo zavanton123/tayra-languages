@@ -1,0 +1,100 @@
+1	6601	kapljica	kapljicama kapljice kapljici kapljicom kapljicu
+2	6602	jecati	jeca jecaju jecajući jecala jecam jecanje jecao
+3	6603	upecati	upeca upecaj upecala upecali upecam upecamo upecan upecao upecaš
+4	6604	žalostan	najžalosnije žalosna žalosne žalosni žalosnih žalosnije žalosnim žalosnog žalosnom žalosnu
+5	6605	čistačica	čistačice čistačici čistačicom čistačicu
+6	6606	ujesti	ujede ujedem ujeden ujedi ujedu ujela ujeli ujelo ujeo
+7	6607	humanitaran	humanitarna humanitarne humanitarni humanitarnih humanitarnim humanitarno humanitarnog humanitarnoj humanitarnom humanitarnu
+8	6608	guz	guze guzom guzova guzove guzovi guzovima guzu
+9	6609	odlučnost	odlučnosti odlučnošću
+10	6610	samrt	samrti
+11	6611	medijski	medijska medijske medijskih medijskim medijsko medijskog medijskoj medijskom medijsku
+12	6612	prijestup	prestup prestupa prestupe prestupi prijestupa prijestupe prijestupi prijestupima prijestupu
+13	6613	kavana	kavanama kavane kavani kavano kavanu
+14	6614	griz	griza grizem grizu
+15	6615	maskota	maskote maskoto maskotom maskotu
+16	6616	os	osi osima
+17	6617	gulaš	gulaša gulašu
+18	6618	gradnja	gradnju
+19	6619	hauba	haube haubi haubom haubu
+20	6620	ćošak	ćoška ćoškovima ćošku
+21	6621	dabar	dabra dabre dabrom dabrova dabrove dabrovi dabrovima dabru
+22	6622	rastanak	rastanci rastanka rastanke rastanku
+23	6623	akcent	akcenat akcenta akcentom akcentu
+24	6624	uvježbati	uvježbala uvježbali uvježbam uvježbamo uvježban uvježbana uvježbane uvježbani uvježbano uvježbao uvježbaš
+25	6625	redovit	redovita redovite redoviti redovitih redovitim redovitom redovitu
+26	6626	priličan	prilična prilične prilični priličnoj priličnom priličnu
+27	6627	šampon	šampona šampone šamponi šamponom šamponu
+28	6628	rastopiti	rastope rastopi rastopila rastopili rastopilo rastopim rastopio rastopljen rastopljena rastopljene rastopljeni rastopljeno
+29	6629	bakar	bakra bakrom bakru
+30	6630	biografija	biografije biografiji biografijom biografiju
+31	6631	elektronika	elektronici elektronike elektronikom elektroniku
+32	6632	dahtati	dahtanje
+33	6633	mladunče	mladunčad mladunčadi mladunčeta
+34	6634	državljanin	državljana državljane državljani državljanima državljanina državljanka
+35	6635	krater	kratera kratere krateri kraterima krateru
+36	6636	poklanjati	poklanja poklanjaju poklanjala poklanjali poklanjam poklanjamo poklanjanje poklanjao poklanjate poklanjaš
+37	6637	ucijeniti	ucene uceni ucenio ucijene ucijeni ucijenila ucijenili ucijenio ucijenjen ucijenjena ucijenjene
+38	6638	iskakati	iskakali iskakanje iskakao iskače iskačem iskačemo iskačeš iskači iskačite iskaču
+39	6639	šoping	
+40	6640	argo	
+41	6641	kriket	kriketa kriketu
+42	6642	ometati	
+43	6643	podučiti	poduči podučila podučili podučim podučio podučite podučiš
+44	6644	zalaziti	zalaze zalazi zalazili zalazilo zalazim zalazimo zalazio zalazite zalaziš
+45	6645	novajlija	novajlijama novajlije novajliji novajlijo novajlijom novajliju
+46	6646	neutralizirati	neutralizira neutraliziraj neutraliziraju neutralizirala neutralizirali neutraliziram neutraliziramo neutraliziran neutralizirana neutralizirani neutraliziranje neutralizirao
+47	6647	povezivati	povezuju
+48	6648	točkica	točkicama točkice točkicu
+49	6649	poprište	poprišta poprištu
+50	6650	povoljan	najpovoljnije najpovoljniji povoljna povoljne povoljni povoljnih povoljnije povoljniji povoljnim povoljnoj povoljnom povoljnu
+51	6651	mudrac	mudraca mudrace mudraci mudracima mudracu mudrače
+52	6652	spašavati	
+53	6653	objekat	objekata objekta objekte objekti objektima objektom objektu
+54	6654	djelomičan	djelomična djelomične djelomični djelomičnih djelomičnim djelomičnog djelomičnom djelomičnu
+55	6655	pljeskati	pljeskala pljeskali pljeskanje pljeskao plješće plješćem plješćete plješći plješćite plješću
+56	6656	prigušiti	prigušen prigušena prigušene prigušeni prigušeno priguši prigušila prigušio prigušite
+57	6657	krut	kruta krute kruti krutim kruto krutog krutom krutu
+58	6658	konstantno	
+59	6659	direktorica	direktorice direktorici direktoricom direktoricu
+60	6660	rekonstrukcija	rekonstrukcije rekonstrukciji rekonstrukcijom rekonstrukciju
+61	6661	zagaditi	zagadi zagadila zagadili zagadio zagađen zagađena zagađene zagađeni zagađenja zagađenje zagađeno
+62	6662	prolazan	prolazna prolazne prolazni prolaznih prolaznim prolazno prolaznom prolaznu
+63	6663	iskušenje	
+64	6664	energetski	energetske
+65	6665	koverta	koverte koverti kovertom kovertu
+66	6666	zaostajati	zaostajala zaostajali zaostajao zaostaje zaostajem zaostajemo zaostajete zaostaješ zaostaju
+67	6667	raspon	raspona rasponom rasponu
+68	6668	siročad	siročadi
+69	6669	mjenjač	menjač mjenjača mjenjače mjenjačem mjenjači mjenjačima mjenjaču
+70	6670	blebetati	blebetala blebetalo blebetanje blebetao blebeće blebećem blebećete blebećeš blebeći blebeću
+71	6671	posuđivati	posuđivala posuđivali posuđivanje posuđivao posuđuj posuđuje posuđujem posuđujemo posuđujete posuđuješ posuđuju
+72	6672	sapunica	sapunicama sapunice sapunici sapunicu
+73	6673	zavod	zavoda zavode zavodi zavodu
+74	6674	graničan	granična granične granični graničnih graničnim granično graničnog graničnoj graničnom graničnu
+75	6675	skužiti	
+76	6676	izvođač	izvođača
+77	6677	širina	širine širini širinom širinu
+78	6678	pijetao	petao petla petlova pijetla pijetle pijetlova pijetlove pijetlovi pijetlu
+79	6679	sukobiti	sukobe sukobi sukobila sukobile sukobili sukobim sukobimo sukobio sukobljene
+80	6680	uredno	
+81	6681	računalni	računalne
+82	6682	svitak	svici svicima svitaka svitci svitka svitke svitkom svitku
+83	6683	favorit	favorita favorite favoriti
+84	6684	ispravljati	ispravlja ispravljaj ispravljaju ispravljala ispravljam ispravljamo ispravljanje ispravljao ispravljaš
+85	6685	kočiti	koče kočenje koči kočim kočio kočite kočiš
+86	6686	plesti	plela pleo plete pletem pletemo pletena pletene pleteni pletenje pleteš pletu
+87	6687	dilema	dileme dilemi dilemom dilemu
+88	6688	splav	splava splavom splavu
+89	6689	projekcija	projekcijama projekcije projekciji projekciju
+90	6690	raspršiti	rasprše raspršen raspršena raspršene raspršeni rasprši raspršila raspršile raspršili raspršilo raspršimo raspršio raspršite
+91	6691	izdahnuti	izdahne izdahneš izdahni izdahnite izdahnula izdahnuo
+92	6692	krčma	krčmama krčme krčmi krčmu
+93	6693	mađarski	mađarska mađarske mađarskih mađarskim mađarsko mađarskog mađarskoj mađarskom mađarsku
+94	6694	žig	žiga žigom žigove žigovi žigu
+95	6695	članica	članicama članice članicom članicu
+96	6696	krojač	krojača krojače krojačem krojači krojaču
+97	6697	tetovirati	tetovira tetoviraju tetovirala tetovirali tetoviram tetoviran tetovirana tetovirane tetovirani tetoviranje tetovirano tetovirao
+98	6698	dojka	dojci dojkama dojke dojki dojku
+99	6699	ugrabiti	ugrabe ugrabi ugrabila ugrabili ugrabim ugrabimo ugrabio ugrabite ugrabiš
+100	6700	preokret	preokreta preokrete preokretom preokretu

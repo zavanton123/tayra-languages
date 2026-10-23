@@ -1,0 +1,100 @@
+1	7401	korpa	korpe korpi korpom korpu
+2	7402	proklinjati	proklinjala proklinjali proklinjao proklinje proklinjem proklinješ proklinju proklinjući
+3	7403	metropolis	metropolisa metropolisu
+4	7404	spretan	spretna spretne spretni spretniji spretno
+5	7405	drška	dršci drškama drške drškom dršku
+6	7406	huligan	huligana huligane huligani huliganima huliganu
+7	7407	apoteka	apoteci apoteke apoteku
+8	7408	dohvat	dohvata dohvate dohvati dohvatu
+9	7409	nasljednica	naslednica naslednici nasljednice nasljednici nasljednicom nasljednicu
+10	7410	august	
+11	7411	plodnost	plodnosti plodnošću
+12	7412	tiranija	tiranije tiraniji tiranijom tiraniju
+13	7413	odredba	odredbama odredbe odredbi odredbom odredbu
+14	7414	okupacija	okupacije okupaciji okupacijom okupaciju
+15	7415	forsirati	forsira forsiraj forsiraju forsirala forsirali forsiram forsiramo forsiranje forsirao forsirate forsiraš
+16	7416	rumunjski	rumunjska rumunjske rumunjskog rumunjskoj rumunjskom rumunjsku
+17	7417	zabit	zabiću
+18	7418	arija	arije ariji arijom ariju
+19	7419	fašist	fašista fašiste fašisti fašistima fašistu
+20	7420	realno	
+21	7421	stvarčica	
+22	7422	začuditi	začudila začudili začudilo začudio začuđen začuđena začuđeni
+23	7423	vrač	vrača vračem vračeva vračevi vraču
+24	7424	poduhvat	poduhvata poduhvate poduhvatima poduhvatom poduhvatu
+25	7425	škrinja	škrinje škrinji škrinjom škrinju
+26	7426	unakaziti	unakazi unakazila unakazili unakazio unakažen unakažena unakažene unakaženi unakaženo
+27	7427	blagajnik	blagajnici blagajnika blagajniku
+28	7428	zelje	zelja zeljem zelju
+29	7429	pridruživati	pridruživanje pridruživanju pridružuje pridružujem pridružujemo pridružujete pridružuješ pridružuju
+30	7430	marama	marame maramom maramu
+31	7431	brzak	brzaci brzaka
+32	7432	svetica	svetice sveticom sveticu
+33	7433	papar	papra paprom
+34	7434	lokva	lokve lokvi lokvu
+35	7435	nailaziti	nailaze nailazi nailazili nailazim nailazimo nailazio nailazite
+36	7436	pismen	pismena pismene pismeni pismenim pismenog pismenom pismenu
+37	7437	članstvo	članstva članstvom članstvu
+38	7438	šljam	šljama šljame šljamom šljamu
+39	7439	nikud	
+40	7440	akumulator	akumulatora akumulatore akumulatori akumulatorom
+41	7441	koban	kobna kobne kobni kobnim kobnog kobnoj kobnom kobnu
+42	7442	ćaskati	ćaska ćaskaju ćaskali ćaskam ćaskamo ćaskanje ćaskao ćaskate
+43	7443	breme	bremena bremenom bremenu brime
+44	7444	tapeta	tapetama tapete tapeti tapetu
+45	7445	čajnik	čajnika čajniku
+46	7446	lira	lire liri liru
+47	7447	jajašce	jajašaca jajašca jajašcima
+48	7448	zaudarati	zaudara zaudaraju zaudarala zaudaram zaudarao zaudarate zaudaraš
+49	7449	lasica	lasicama lasice lasicu
+50	7450	kenjati	kenja kenjaj kenjaju kenjam kenjanje kenjao kenjaš
+51	7451	ponor	ponora ponorom ponoru
+52	7452	puštati	
+53	7453	nastran	nastrana nastrane nastrani nastranih nastranim nastranog nastranu
+54	7454	internacionalan	internacionalna internacionalne internacionalni internacionalnih internacionalnim internacionalno internacionalnog internacionalnoj internacionalnom internacionalnu
+55	7455	snob	snoba snobe snobova snobove snobovi snobovima
+56	7456	puma	pume pumom pumu
+57	7457	predlagati	predlaže
+58	7458	nuklearka	nuklearkama nuklearke nuklearki nuklearkom nuklearku
+59	7459	čitatelj	čitatelja čitatelje čitatelji čitateljima čitatelju
+60	7460	rival	rivala rivale rivali rivalima rivalom rivalu
+61	7461	sputavati	sputava sputavaju sputavala sputavali sputavalo sputavam sputavanje sputavao sputavaš
+62	7462	ophoditi	ophode ophodi ophodila ophodili ophodim ophodimo ophodio ophodite ophodiš ophođenje
+63	7463	prizvati	prizove prizovem prizovemo prizoveš prizovi prizvala prizvali prizvao
+64	7464	osovina	osovine osovini osovinu
+65	7465	vu	
+66	7466	spaljivanje	spaljivanja spaljivanjem spaljivanju
+67	7467	pubertet	puberteta pubertetu
+68	7468	kritično	
+69	7469	makro	makroa makroi makroom makrou
+70	7470	akutan	akutna akutne akutni akutnim akutno akutnog akutnom akutnu
+71	7471	nemar	nemara nemarom nemaru
+72	7472	fotografirati	
+73	7473	pepeljara	pepeljare pepeljari pepeljarom pepeljaru
+74	7474	privezati	privezala privezali privezan privezana privezane privezani privezano privezao privežeš priveži privežite
+75	7475	smeo	smela smele smeli smelo
+76	7476	zavist	zavisti zavišću
+77	7477	spilja	spiljama spilje spilji spilju
+78	7478	crveniti	crvene crveni crvenila crvenilo crvenim crveniš
+79	7479	pekara	pekare pekari pekaru
+80	7480	odsutnost	odsutnosti
+81	7481	župa	župe župi župu
+82	7482	majmunski	majmunska majmunske majmunskih majmunskim majmunsko majmunskog majmunskom majmunsku
+83	7483	saudijski	saudijska saudijske saudijskih saudijskim saudijskog saudijskoj saudijskom saudijsku
+84	7484	pregrada	pregradama pregrade pregradi pregradu
+85	7485	krst	krsta krste krstom krstu
+86	7486	krilce	krilaca krilca krilcima
+87	7487	starenje	starenja starenjem starenju
+88	7488	šaren	šarena šarene šareni šarenih šarenim šareno šarenog šarenoj šarenu
+89	7489	savladati	svlada svladaju svladam svladamo svladaš
+90	7490	močiti	moče moči
+91	7491	starateljstvo	starateljstva starateljstvom starateljstvu
+92	7492	lisnica	lisnice lisnici lisnicu
+93	7493	mjerilo	merilima merilo mjerila mjerilima mjerilu
+94	7494	bilje	bilja biljem bilju
+95	7495	limen	limena limene limeni limenih limenim limenog limenoj limenom limenu
+96	7496	apsurdan	apsurdna apsurdne apsurdni apsurdnih apsurdnim apsurdnog apsurdnom apsurdnu
+97	7497	nesebičan	nesebična nesebične nesebični nesebično nesebičnog nesebičnu
+98	7498	duvati	duva duvaj duvaju duvala duvali duvam duvana duvanje duvao duvate duvaš
+99	7499	časnica	časnice časnici časnicu
+100	7500	roza	

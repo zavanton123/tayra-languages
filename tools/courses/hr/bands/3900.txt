@@ -1,0 +1,100 @@
+1	3801	koplje	kopalja koplja kopljem kopljima koplju
+2	3802	izbaviti	izbave izbavi izbavila izbavili izbavim izbavimo izbavio izbavite izbavićemo izbaviću izbaviš izbavljen
+3	3803	turist	turista turiste turisti turistima turistu
+4	3804	iskočiti	iskoče iskoči iskočila iskočile iskočili iskočilo iskočim iskočimo iskočio iskočite iskočiš
+5	3805	polovina	polovine polovini polovinom polovinu
+6	3806	ilegalan	ilegalna ilegalne ilegalni ilegalnih ilegalnim ilegalnog ilegalnoj ilegalnom ilegalnu
+7	3807	zuriti	zure zurenje zureći zuri zurila zurile zurili zurim zurimo zurio zurite zuriš
+8	3808	mahati	mahanje mahao maše mašem mašemo mašete mašeš maši mašite mašu mašući
+9	3809	popust	popusta popuste popusti popustima popustom popustu
+10	3810	taknuti	takao takla takli takne taknem taknete takneš takni taknite taknu taknula taknuli taknuo taknut
+11	3811	trijezan	trezan trezna trijezna trijezne trijezni trijeznim trijezno trijeznog trijeznu
+12	3812	postrojba	postrojbama postrojbe postrojbi postrojbom postrojbu
+13	3813	hitac	hica hice hici hicima hitaca hitci
+14	3814	daljina	daljine daljini daljinu
+15	3815	vukodlak	vukodlaci vukodlacima vukodlaka vukodlake vukodlakom vukodlaku
+16	3816	mjehur	mehur mehura mehurića mehuriće mehurići mjehura mjehure mjehuri mjehurima mjehurić mjehurića mjehuriće mjehurići mjehurićima mjehuriću mjehurom mjehuru
+17	3817	živčan	živčana živčane živčani živčanih živčanim živčano živčanog živčanom živčanu
+18	3818	obavijest	obavesti obavijesti obavijestima
+19	3819	kašalj	kašlja kašlje kašljem kašlji kašlju
+20	3820	dosegnuti	dosegao dosegla dosegle dosegli doseglo dosegne dosegnem dosegnemo dosegnete dosegneš dosegni dosegnu dosegnula dosegnuli dosegnuo dosegnut doseći doseže
+21	3821	obraniti	obrane obrani obranila obranili obranim obranimo obranio obranite obraniš
+22	3822	sjeverno	severno
+23	3823	fotograf	fotografa fotografe fotografi fotografima fotografom fotografu
+24	3824	bubanj	bubnja bubnjem bubnjeva bubnjeve bubnjevi bubnjevima bubnju
+25	3825	naopako	
+26	3826	mačak	mačaka mače mačke mačkom mačku
+27	3827	bočica	bočicama bočice bočici bočicom bočicu
+28	3828	asistent	asistenata asistenta asistente asistenti asistentima asistentom asistentu
+29	3829	hobi	hobija hobije hobijem hobiji hobijima hobiju
+30	3830	tvar	tvari tvarima
+31	3831	željeznica	železnica železnice železnici železnicu željeznice željeznici željeznicom željeznicu
+32	3832	granata	granatama granate granati granato granatom granatu
+33	3833	razvesti	razvede razvedem razvedemo razvedete razvedeš razvedi razvedu razvela razveli razveo
+34	3834	ego	ega egom egu
+35	3835	isticati	isticala isticali isticalo isticanje isticao ističe ističem ističemo ističete ističeš ističi ističu ističući
+36	3836	vazduh	vazduha vazduhom vazduhu
+37	3837	paranoičan	paranoična paranoične paranoični paranoičnih paranoičnim paranoično paranoičnog paranoičnom paranoičnu
+38	3838	sjaj	sjaja sjajem sjaju
+39	3839	zbrka	zbrci zbrke zbrkom zbrku
+40	3840	bijedan	bedan bedna bedne bedni bednih bednog bednom bednu bijedna bijedne bijedni bijednih bijednim bijednog bijednoj bijednom bijednu
+41	3841	mrzeti	mrze mrzela mrzeli mrzeo mrzeći mrzi mrzim mrzimo mrzite mrziš
+42	3842	dirnuti	dirne dirnem dirnete dirneš dirni dirnite dirnu dirnula dirnule dirnuli dirnulo dirnuo dirnut dirnuta
+43	3843	mračno	
+44	3844	privremen	privremena privremene privremeni privremenih privremenim privremenog privremenoj privremenom privremenu
+45	3845	divljak	divljaci divljacima divljaka divljake divljakom divljaku divljače
+46	3846	skandal	skandala skandale skandali skandalima skandalom skandalu
+47	3847	upotreba	upotrebe upotrebi upotrebom upotrebu
+48	3848	dimenzija	dimenzijama dimenzije dimenziji dimenzijom dimenziju
+49	3849	krupan	krupna krupne krupni krupnih krupnija krupnije krupniji krupniju krupnim krupno krupnog krupnom krupnu
+50	3850	uzbuđivati	uzbuđivala uzbuđivalo uzbuđivanje uzbuđivao uzbuđuj uzbuđuje uzbuđujem uzbuđujete uzbuđuješ uzbuđujte uzbuđuju uzbuđujući
+51	3851	zadaviti	zadave zadavi zadavila zadavili zadavim zadavio zadavite zadaviću zadaviš zadavljen zadavljena zadavljene zadavljeni
+52	3852	učinak	učinaka učinci učincima učinka učinke učinkom učinku
+53	3853	obuka	obuci obuke obukom obuku
+54	3854	kilogram	kilograma kilograme kilogrami kilogramima kilogramu
+55	3855	parfem	parfema parfeme parfemi parfemima parfemom parfemu
+56	3856	psihološki	psihološka psihološke psiholoških psihološkim psihološko psihološkog psihološkoj psihološkom psihološku
+57	3857	rukav	rukava rukave rukavi rukavima rukavom rukavu
+58	3858	financirati	financira financiraju financirala financirali financiram financiramo financiran financirana financirane financirani financiranje financirao financirate financiraš
+59	3859	but	buta bute butom butu
+60	3860	kofer	kofera kofere koferi koferima koferom koferu
+61	3861	vraški	
+62	3862	unajmiti	unajme unajmi unajmim unajmimo unajmite unajmiću unajmiš
+63	3863	odjeljenje	odeljenja odeljenje odeljenjem odeljenju odjeljenja odjeljenjem odjeljenju
+64	3864	mjesni	mesna mesne mesni mesnih mesnim mesno mesnog mesnoj mesnom mesnu mjesna mjesne mjesnih mjesnim mjesno mjesnog mjesnoj mjesnom mjesnu
+65	3865	sred	
+66	3866	izjaviti	izjave izjavi izjavila izjavili izjavilo izjavim izjavio izjavite izjaviš
+67	3867	slanina	slanine slanini slaninom slaninu
+68	3868	ekonomija	ekonomije ekonomiji ekonomijom ekonomiju
+69	3869	čokoladni	čokoladna čokoladne čokoladnih čokoladnim čokoladno čokoladnog čokoladnoj čokoladnom čokoladnu
+70	3870	gušiti	guše gušeći guši gušila gušili gušilo gušim gušimo gušio gušite gušiš
+71	3871	dobrota	dobrote dobroti dobrotom dobrotu
+72	3872	temeljit	temelje temeljen temeljena temeljene temeljeni temeljeno temeljeći temelji temeljila temeljili temeljilo temeljim temeljio temeljita temeljite temeljiti temeljitije temeljitiji temeljitog temeljitu temeljiš
+73	3873	bespomoćan	bespomoćna bespomoćne bespomoćni bespomoćnih bespomoćnim bespomoćnima bespomoćno bespomoćnog bespomoćnom bespomoćnu
+74	3874	latinski	latinska latinske latinskih latinskim latinsko latinskog latinskoj latinskom latinskome latinsku
+75	3875	doseliti	dosele doseli doselila doselile doselili doselim doselimo doselio doselite doseliš
+76	3876	nepristojan	nepristojna nepristojne nepristojni nepristojnih nepristojnim nepristojnog nepristojnu
+77	3877	knez	kneginja kneginje kneginji kneginjo kneginju kneza knezom knezova knezovi knezu kneže kneževa kneževe kneževi
+78	3878	češće	
+79	3879	zemljište	zemljišta zemljištem zemljištima zemljištu
+80	3880	suočavati	suočava suočavaju suočavajući suočavala suočavali suočavam suočavamo suočavanje suočavao suočavate suočavaš
+81	3881	apartman	
+82	3882	povezanost	povezanosti
+83	3883	eksperiment	
+84	3884	sagnuti	sagne sagnem sagneš sagni sagnite sagnula sagnuo sagnut
+85	3885	skretati	skretali skretanje skretao skreće skrećem skrećemo skrećete skrećeš skreći skrećite skreću
+86	3886	jamčevina	jamčevine jamčevini jamčevinom jamčevinu
+87	3887	spomenik	spomenici spomenicima spomenika spomenike spomenikom spomeniku
+88	3888	prisustvo	prisustva prisustvom prisustvu
+89	3889	kapsula	kapsulama kapsule kapsuli kapsulom kapsulu
+90	3890	grah	graha grahom grahu
+91	3891	čudesno	
+92	3892	turnir	turnira turnire turniri turnirima turnirom turniru
+93	3893	zateći	zatekao zatekla zatekle zatekli zateklo zatekne zateknem zateknemo zateknete zatekneš zateknu zatečena zatečeni
+94	3894	djelić	delić delića deliće delići deliću djelića djeliće djelićem djelići djelićima djeliću
+95	3895	titula	titulama titule tituli titulom titulu
+96	3896	fizika	fizici fizike fizikom fiziku
+97	3897	kiselina	kiselinama kiseline kiselini kiselinom kiselinu
+98	3898	kršćanin	kršćana kršćane kršćani kršćanima kršćanina kršćanine kršćaninom
+99	3899	angažirati	angažira angažiraj angažirajte angažiraju angažirala angažirali angažiram angažiramo angažiranje angažirao angažirate angažiraš
+100	3900	motriti	motre motrenje motreći motri motrila motrili motrim motrimo motrio motrite motriš

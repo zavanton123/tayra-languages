@@ -1,0 +1,100 @@
+1	1501	luk	luci luke lukom lukova lukove lukovi lukovima luku luče
+2	1502	obavijestiti	obaveste obavesti obavestila obavestili obavestim obavestimo obavestio obavestite obavestiti obavestiću obavestiš obavešten obaveštena obavešteni obaveštenje obavijeste obavijesti obavijestila obavijestili obavijestim obavijestimo obavijestio obavijestite obavijestiću obavijestiš obaviješten obaviještena obaviještene obaviješteni obaviješteno obavještenje
+3	1503	stolica	stolicama stolice stolici stolicom stolicu
+4	1504	miš	miša miše mišem miševa miševe miševi miševima miši mišić mišića mišiće mišići mišićima mišiću mišu
+5	1505	trava	travama trave travi travom travu
+6	1506	dovoditi	dovode dovodeći dovodi dovodila dovodili dovodilo dovodim dovodimo dovodio dovodite dovodiš dovođenje
+7	1507	razočarati	razočara razočaraju razočarala razočarale razočarali razočaralo razočaram razočaramo razočaran razočarana razočarane razočarani razočarano razočarao razočarate razočaraš razočarenja razočarenje razočarenjem razočarenju
+8	1508	volja	volje volji voljom volju
+9	1509	prebaciti	prebace prebaci prebacila prebacili prebacilo prebacim prebacimo prebacio prebacite prebaciće prebacićemo prebaciću prebaciš prebačen prebačena prebačene prebačeni prebačeno
+10	1510	direktor	direktora direktore direktori direktorima direktorom direktoru
+11	1511	nedavno	
+12	1512	sići	siđe siđem siđemo siđete siđeš siđi siđimo siđite siđu sišao sišla sišle sišli sišlo
+13	1513	banda	bandama bande bandi bando bandom bandu
+14	1514	tema	temama teme temi temo temom temu
+15	1515	obrada	obrade obradi obradom obradu
+16	1516	stil	stila stile stilom stilova stilove stilovi stilovima stilu
+17	1517	zamjena	zamena zamene zameni zamenu zamjenama zamjene zamjeni zamjenom zamjenu
+18	1518	podsjećati	podseća podsećaj podsećaju podsećala podsećam podsećamo podsećanje podsećao podsećate podsećati podsećaš podsjeća podsjećaj podsjećaju podsjećajući podsjećala podsjećali podsjećalo podsjećam podsjećamo podsjećanje podsjećao podsjećate podsjećaš
+19	1519	usamljen	najusamljenija najusamljeniji usamljena usamljene usamljeni usamljenih usamljenija usamljenije usamljeniji usamljenim usamljenima usamljeno usamljenog usamljenoj usamljenom usamljenu
+20	1520	tvrditi	tvrde tvrdeći tvrdi tvrdila tvrdile tvrdili tvrdilo tvrdim tvrdimo tvrdio tvrdite tvrdiš
+21	1521	daviti	dave davi davila davili davim davimo davio davite daviš davljen davljenje
+22	1522	izazvati	izazove izazovem izazovemo izazovete izazoveš izazovi izazovite izazovu izazvala izazvale izazvali izazvalo izazvan izazvana izazvane izazvani izazvano izazvao izazvavši
+23	1523	miješati	mešaj mešajte mešaju mešala mešali mešam mešamo mešanje mešao mešate mešati mešaš miješa miješaj miješajte miješaju miješajući miješala miješali miješam miješamo miješanje miješao miješate miješaš
+24	1524	jezero	jezera jezerca jezerce jezerceta jezercu jezerima jezerom jezerski jezerskih jezeru
+25	1525	krilo	krila krilima krilom krilu
+26	1526	požar	požara požare požari požarima požarom požaru
+27	1527	džep	džepa džepom džepova džepove džepovi džepovima džepu
+28	1528	oba	obaju obama
+29	1529	posjedovati	posedovala posedovali posedovao posedovati poseduje posedujem posedujemo posedujete poseduješ poseduju posjedovala posjedovale posjedovali posjedovao posjeduje posjedujem posjedujemo posjedujete posjeduješ posjeduju
+30	1530	mlijeko	mleka mleko mlekom mleku mlijeka mlijekom mlijeku
+31	1531	starac	staraca starca starce starcem starci starcima starcu starče
+32	1532	smjeti	sme smede smej smejte smeju smejući smela smele smeli smelo smem smemo smeste smete smeti smeću smeš smeše smij smije smijem smijemo smijete smiješ smijte smiju smijući
+33	1533	čistiti	čiste čisteći čisti čistila čistile čistili čistilo čistim čistimo čistio čistite čistiš čišćen čišćenje
+34	1534	stoga	
+35	1535	odrastati	odrasta odrastaju odrastajući odrastala odrastale odrastali odrastam odrastamo odrastanje odrastao odrastate odrastaš
+36	1536	pružiti	pruže pružen pružena pružene pruženo pruži pružila pružile pružili pružilo pružim pružimo pružio pružite pružiće pružiću pružiš
+37	1537	promatrati	promatra promatraj promatrajte promatraju promatrajući promatrala promatrale promatrali promatralo promatram promatramo promatran promatrani promatranja promatranje promatrano promatrao promatrate promatraš
+38	1538	veličina	veličinama veličine veličini veličinom veličinu
+39	1539	scena	scenama scene sceni scenom scenu
+40	1540	provjeravati	proverava proveravaju proveravala proveravali proveravam proveravamo proveravao proveravati proveravaš provjerava provjeravaj provjeravajte provjeravaju provjeravajući provjeravala provjeravali provjeravam provjeravamo provjeravanje provjeravao provjeravate provjeravaš
+41	1541	vrt	vrta vrte vrtom vrtova vrtove vrtovi vrtovima vrtu
+42	1542	subota	subotama subote suboti subotom subotu
+43	1543	topao	najtoplija najtoplije najtoplijeg najtopliji najtoplijih topla tople topli toplih toplija toplije toplijem topliji toplijim topliju toplim toplog toploga toploj toplom toplome toplu
+44	1544	pažljivo	
+45	1545	predmet	predmeta predmete predmeti predmetima predmetom predmetu
+46	1546	javni	javna javne javnih javnim javnog javnoga javnoj javnom javnome javnu
+47	1547	krivica	krivice krivici krivicom krivicu
+48	1548	internet	interneta internetu
+49	1549	osveta	osvete osveti osveto osvetom osvetu
+50	1550	ljeto	leta leto letom letu ljeta ljetom ljetu
+51	1551	zaglaviti	zaglave zaglavi zaglavila zaglavile zaglavili zaglavilo zaglavim zaglavimo zaglavio zaglavite zaglaviš zaglavljen zaglavljena zaglavljene zaglavljeni zaglavljeno
+52	1552	eksplozija	eksplozijama eksplozije eksploziji eksplozijom eksploziju
+53	1553	pokriti	pokri pokrij pokrije pokrijem pokrijemo pokrijete pokriješ pokrijmo pokrijte pokriju pokrila pokrili pokrilo pokrio pokrit pokrite pokriven pokrivena pokrivene pokriveni pokriveno pokriće pokriću
+54	1554	tehnologija	tehnologijama tehnologije tehnologiji tehnologijom tehnologiju
+55	1555	uvjet	uveta uvetu uvjeta uvjete uvjeti uvjetima uvjetom
+56	1556	zaspati	zaspala zaspale zaspali zaspalo zaspao zaspe zaspi zaspim zaspimo zaspite zaspiš
+57	1557	iznenaditi	iznenade iznenadi iznenadila iznenadile iznenadili iznenadilo iznenadim iznenadimo iznenadio iznenadite iznenadiš
+58	1558	preseliti	presele preseli preselila preselile preselili preselilo preselim preselimo preselio preselite preselićemo preseliću preseliš preseljen preseljena preseljeni preseljeno
+59	1559	grijeh	greh greha grehe grehova grehove grehu gresi gresima greše grijeha grijehe grijehom grijehova grijehove grijehovi grijehu grijesi grijesima griješe
+60	1560	troje	troma
+61	1561	testirati	testira testiraj testirajmo testirajte testiraju testirajući testirala testirali testiram testiramo testiran testirana testirane testirani testiranje testirano testirao testirate testiraću testiraš
+62	1562	sačuvati	sačuva sačuvaj sačuvajmo sačuvajte sačuvaju sačuvala sačuvale sačuvali sačuvalo sačuvam sačuvamo sačuvan sačuvana sačuvane sačuvani sačuvano sačuvao sačuvate sačuvaću sačuvaš
+63	1563	ljubomoran	ljubomorna ljubomorne ljubomorni ljubomornih ljubomornim ljubomorno ljubomornog ljubomornom ljubomornu
+64	1564	osnova	osnovama osnove osnovi osnovom osnovu
+65	1565	uputiti	upute uputi uputila uputile uputili uputilo uputim uputimo uputio uputite uputiš upućen upućena upućene upućeni upućeno
+66	1566	kriviti	krive kriveći krivi krivila krivili krivim krivimo krivio krivite kriviš
+67	1567	vlast	vlasti vlastima vlašću
+68	1568	rizik	rizici rizicima rizika rizike rizikom riziku
+69	1569	potrošiti	potroše potrošen potrošena potrošene potrošeni potrošeno potroši potrošila potrošile potrošili potrošilo potrošim potrošimo potrošio potrošite potrošiš
+70	1570	časnik	časnici časnicima časnika časnike časnikom časniku časniče
+71	1571	rame	ramena ramenima ramenom ramenu
+72	1572	princ	princa princem princu prinče prinčeva prinčeve prinčevi prinčevima
+73	1573	hrabrost	hrabrosti hrabrošću
+74	1574	zabraniti	zabrane zabrani zabranila zabranili zabranilo zabranim zabranimo zabranio zabranite zabraniš zabranjen zabranjena zabranjene zabranjeni zabranjeno
+75	1575	doviđenja	
+76	1576	los	losa lose losom losova losove losovi losu
+77	1577	podsjetiti	podseti podsetila podsetili podsetilo podsetim podsetimo podsetio podsetite podsetiti podsetiću podsetiš podsjete podsjeti podsjetila podsjetili podsjetilo podsjetim podsjetimo podsjetio podsjetite podsjetiš
+78	1578	nastavljati	nastavlja nastavljaj nastavljaju nastavljajući nastavljala nastavljali nastavljalo nastavljam nastavljamo nastavljanje nastavljao nastavljate nastavljaš
+79	1579	skrenuti	skrene skrenem skrenemo skrenete skreneš skreni skrenimo skrenite skrenu skrenula skrenule skrenuli skrenulo skrenuo skrenut skrenuta
+80	1580	go	gola gole goli golih golim golo golog gologa goloj golom golu
+81	1581	lanac	lanaca lanca lance lancem lanci lancima lancu lančana lančane lančani lančano lančanoj lančanu
+82	1582	izbjeći	izbegao izbegla izbegli izbegne izbegnem izbegnemo izbegnete izbegneš izbegnu izbeći izbjegao izbjegla izbjegle izbjegli izbjeglo izbjegne izbjegnem izbjegnemo izbjegnete izbjegneš izbjegni izbjegnimo izbjegnite izbjegnu izbjegnut izbjegnuta izbjegnuti izbjegnuto
+83	1583	razina	razinama razine razini razinom razinu
+84	1584	upomoć	
+85	1585	popodne	popodneva popodnevu
+86	1586	izvješće	izvešća izvešće izvešću izvješća izvješćem izvješćima izvješću
+87	1587	pozicija	pozicijama pozicije poziciji pozicijom poziciju
+88	1588	obratiti	obrate obrati obratila obratile obratili obratilo obratim obratimo obratio obratite obratiću obratiš
+89	1589	boljeti	bole bolela bolelo boleo boleti boleće boli bolio boljela boljele boljelo
+90	1590	sjebati	sjebala sjebale sjebali sjebalo sjeban sjebana sjebane sjebani sjebao sjebaćemo sjebaću sjebe sjebem sjebemo sjebete sjebeš sjebi sjebimo sjebite sjebu
+91	1591	odbor	odbora odbore odbori odborima odborom odboru
+92	1592	tad	
+93	1593	sigurnosni	sigurnosna sigurnosne sigurnosnih sigurnosnim sigurnosno sigurnosnog sigurnosnoj sigurnosnom sigurnosnu
+94	1594	ozlijediti	ozlede ozlijede ozlijedi ozlijedila ozlijedili ozlijedilo ozlijedim ozlijedimo ozlijedio ozlijedite ozlijediš
+95	1595	telefonski	telefonska telefonske telefonskih telefonskim telefonsko telefonskog telefonskoj telefonskom telefonsku
+96	1596	teta	tetama tete teti teto tetom tetu
+97	1597	smanjiti	smanje smanjen smanjena smanjene smanjeni smanjenja smanjenje smanjenjem smanjenju smanjeno smanji smanjila smanjile smanjili smanjilo smanjim smanjimo smanjio smanjite smanjiš
+98	1598	faca	facama face faci faco facom facu
+99	1599	farma	farmama farme farmi farmom farmu
+100	1600	majmun	majmuna majmune majmuni majmunima majmunom majmunu

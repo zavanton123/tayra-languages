@@ -1,0 +1,100 @@
+1	2401	bas	basa base basom basu
+2	2402	poslovati	poslovala poslovali poslovanja poslovanje poslovanjem poslovanju poslovao posluje poslujem poslujemo poslujete posluješ posluju
+3	2403	mržnja	mržnje mržnji mržnjom mržnju
+4	2404	dvadeset	
+5	2405	utvrditi	utvrde utvrdi utvrdila utvrdile utvrdili utvrdilo utvrdim utvrdimo utvrdio utvrdite utvrdiš utvrđen utvrđena utvrđene utvrđeni utvrđeno
+6	2406	stisnuti	stisla stisli stislo stisne stisnem stisnemo stisnete stisneš stisni stisnimo stisnite stisnu stisnula stisnule stisnuli stisnulo stisnuo stisnut stisnuta stisnute stisnuto
+7	2407	neobičan	najneobičnija najneobičnije najneobičniji najneobičnijih neobična neobične neobični neobičnih neobičnije neobičniji neobičnim neobičnog neobičnoga neobičnoj neobičnom neobičnu
+8	2408	zahod	zahoda zahode zahodi zahodima zahodom zahodu
+9	2409	trojica	trojice trojici trojicom trojicu
+10	2410	nokat	nokata nokta nokte nokti noktiju noktima noktom
+11	2411	ponositi	ponose ponosi ponosila ponosili ponosim ponosimo ponosio ponosite ponosiš
+12	2412	zaliha	zalihama zalihe zalihi zalihom zalihu
+13	2413	napet	nape napeo napeta napete napeti napetih napetija napetije napetiji napetim napeto napetog napetom napetu napneš napni napnite
+14	2414	kamenje	kamenja kamenjem kamenjima kamenju
+15	2415	zena	zenama zene zeni zeno zenom zenu
+16	2416	ministarstvo	ministarstava ministarstva ministarstvima ministarstvom ministarstvu
+17	2417	pobjeđivati	pobeđivao pobeđuje pobeđujem pobeđujemo pobeđuješ pobeđuju pobjeđivala pobjeđivali pobjeđivanje pobjeđivao pobjeđuje pobjeđujem pobjeđujemo pobjeđujete pobjeđuješ pobjeđuju
+18	2418	rezati	rezala rezali rezan rezana rezane rezani rezanje rezano rezao reže režem režemo režete režeš reži režite režu režući
+19	2419	djetinjstvo	detinjstva detinjstvo detinjstvu djetinjstva djetinjstvom djetinjstvu
+20	2420	napredak	napredaka napretka napretkom napretku
+21	2421	tetovaža	tetovažama tetovaže tetovaži tetovažom tetovažu
+22	2422	rez	reza rezom rezova rezove rezovi rezovima rezu
+23	2423	unutarnji	unutarnja unutarnje unutarnjeg unutarnjem unutarnjih unutarnjim unutarnjoj unutarnjom unutarnju
+24	2424	prezime	prezimena prezimenima prezimenom prezimenu
+25	2425	zaposlen	zaposlena zaposlene zaposleni zaposlenih zaposleniji zaposlenim zaposlenima zaposleno zaposlenog zaposlenom zaposlenu
+26	2426	kap	kapi kapima kaplju
+27	2427	otjerati	otera oteraj oterajte oteraju oterala oterali oteralo oteram oteramo oterao oterati oteraš otjera otjeraj otjerajmo otjerajte otjeraju otjerala otjerale otjerali otjeralo otjeram otjeramo otjeran otjerana otjerani otjerao otjerate otjeraš
+28	2428	zora	zore zori zoro zorom zoru
+29	2429	blagosloviti	blagoslove blagoslovi blagoslovila blagoslovili blagoslovim blagoslovimo blagoslovio blagoslovite blagosloviš blagoslovljena blagoslovljene blagoslovljeni blagoslovljeno
+30	2430	rod	roda rode rodi rodom rodova rodu
+31	2431	profesionalan	profesionalna profesionalne profesionalni profesionalnih profesionalnije profesionalnim profesionalnog profesionalnoj profesionalnom profesionalnu
+32	2432	ukazivati	ukazivala ukazivale ukazivali ukazivalo ukazivanje ukazivao ukazuje ukazujem ukazujete ukazuješ ukazuju ukazujući
+33	2433	socijalan	socijalna socijalne socijalni socijalnih socijalnim socijalnog socijalnoj socijalnom socijalnu
+34	2434	komunikacija	komunikacijama komunikacije komunikaciji komunikacijom komunikaciju
+35	2435	pravac	pravaca pravca pravce pravcem pravci pravcima pravcu
+36	2436	petljati	petlja petljaj petljajte petljaju petljam petljamo petljate petljaš petlje petlji petljom petlju
+37	2437	zagrliti	zagrle zagrli zagrlila zagrlili zagrlim zagrlimo zagrlio zagrlite zagrliš zagrljene zagrljeni
+38	2438	sport	sporta sportom sportova sportove sportovi sportovima sportu
+39	2439	koliki	kolika kolike kolikim kolikima kolikoj kolikom koliku
+40	2440	služben	službena službene službeni službenih službenim službenog službenoj službenom službenu
+41	2441	prebiti	prebij prebije prebijem prebijemo prebijen prebijena prebijene prebijeni prebijeno prebijete prebiješ prebijte prebiju prebila prebili prebio prebit prebite prebiću
+42	2442	oporaviti	oporave oporavi oporavila oporavile oporavili oporavilo oporavim oporavimo oporavio oporavite oporaviće oporaviš oporavljen
+43	2443	pijesak	pesak pesci peska peskom pesku pijeska pijeskom pijesku
+44	2444	proglasiti	proglase proglasi proglasila proglasile proglasili proglasilo proglasim proglasimo proglasio proglasite proglasiš proglašen proglašena proglašene proglašeni proglašenje proglašeno
+45	2445	tretirati	tretira tretiraj tretirajte tretiraju tretirala tretirali tretiram tretiramo tretiran tretirana tretirane tretirani tretiranje tretirano tretirao tretirate tretiraš
+46	2446	progovoriti	progovore progovori progovorila progovorile progovorili progovorilo progovorim progovorimo progovorio progovorite progovoriće progovoriš
+47	2447	privlačiti	privlače privlačenje privlačeći privlači privlačila privlačile privlačili privlačilo privlačim privlačimo privlačio privlačite privlačiš
+48	2448	podne	podneva
+49	2449	vijeće	vijeća vijećem vijeću
+50	2450	koristan	korisna korisne korisni korisnih korisnija korisnije korisniji korisnim korisnima korisnog korisnom korisnu najkorisnija najkorisnije najkorisniji
+51	2451	sukob	sukoba sukobe sukobi sukobima sukobom sukobu
+52	2452	obrok	obroci obrocima obroka obroke obrokom obroku
+53	2453	ožiljak	ožiljaka ožiljci ožiljcima ožiljka ožiljke ožiljkom ožiljku
+54	2454	tuga	tuge tugo tugom tugu tuzi
+55	2455	savjetovati	savetovala savetovali savetovao savetovati savetuje savetujem savetujemo savetuješ savetuju savjetovala savjetovali savjetovan savjetovano savjetovao savjetuj savjetuje savjetujem savjetujemo savjetujete savjetuješ savjetujte savjetuju savjetujući
+56	2456	težina	težine težini težinom težinu
+57	2457	izgovor	izgovora izgovore izgovori izgovorima izgovorom izgovoru
+58	2458	psihijatar	psihijatara psihijatra psihijatre psihijatri psihijatrima psihijatrom psihijatru
+59	2459	bosti	bo bode bodem boden bodena bodeš bodi bodu bola bole boli bolo
+60	2460	tužitelj	tužitelja tužitelje tužiteljem tužitelji tužiteljima tužitelju
+61	2461	drogirati	drogira drogiraj drogiraju drogirala drogirali drogiram drogiramo drogiran drogirana drogirane drogirani drogiranje drogirano drogirao drogirate drogiraš
+62	2462	mamica	mamicama mamice mamici mamicom mamicu
+63	2463	vrtjeti	vrte vrtela vrtelo vrteti vrteći vrti vrtim vrtimo vrtio vrtite vrtiš vrtjela vrtjeli vrtjelo
+64	2464	dolina	dolinama doline dolini dolinom dolinu
+65	2465	dodirnuti	dodirne dodirnem dodirnemo dodirnete dodirneš dodirni dodirnite dodirnu dodirnula dodirnuli dodirnulo dodirnuo dodirnut
+66	2466	nula	nulama nule nuli nulom nulu
+67	2467	dokazivati	dokazivala dokazivali dokazivanje dokazivao dokazuje dokazujem dokazujemo dokazujete dokazuješ dokazuju dokazujući
+68	2468	cent	centa cente centi centu
+69	2469	uobičajen	uobičajena uobičajene uobičajeni uobičajenih uobičajenim uobičajenog uobičajenoga uobičajenoj uobičajenom uobičajenome uobičajenu
+70	2470	pomiriti	pomire pomiren pomiri pomirila pomirile pomirili pomirim pomirimo pomirio pomirite pomiriš pomiriše
+71	2471	seliti	sele seli selila selili selim selimo selio selite seliš seljenje
+72	2472	desetak	deseci desecima desetaka desetci desetka desetke desetki desetku
+73	2473	mudo	muda mudima
+74	2474	prevelik	prevelika prevelike preveliki prevelikih prevelikim preveliko prevelikog prevelikoj prevelikom preveliku
+75	2475	mirovina	mirovinama mirovine mirovini mirovinom mirovinu
+76	2476	steći	steci stekao stekla stekli stekne steknem steknemo steknete stekneš stekni steknu stečen stečena stečene stečeni stečeno
+77	2477	oznaka	oznaci oznakama oznake oznakom oznaku
+78	2478	ogledalo	ogledala ogledalima ogledalom ogledalu
+79	2479	baterija	baterijama baterije bateriji baterijom bateriju
+80	2480	visost	visosti
+81	2481	čuditi	čude čudi čudila čudili čudilo čudim čudimo čudio čudite čudiš čuđenja čuđenje čuđenjem
+82	2482	zec	zeca zecom zecu zeče zečeva zečeve zečevi zečevima zečić
+83	2483	strast	strasti strastima strašću
+84	2484	brojati	brojala brojali brojanja brojanje brojanjem brojanju brojao brojaću broje brojeći broji brojim brojimo brojite brojiš brojte
+85	2485	liga	ligama lige ligi ligom ligu
+86	2486	vaditi	vade vadeći vadi vadila vadili vadim vadimo vadio vadite vadiš vađenje
+87	2487	potpis	potpisa potpise potpisi potpisima potpisom potpisu
+88	2488	tlak	tlaka tlakom tlaku tlače
+89	2489	recept	recepata recepta recepte recepti receptima receptom receptu
+90	2490	leti	
+91	2491	naljutiti	naljute naljuti naljutila naljutile naljutili naljutilo naljutim naljutimo naljutio naljutite naljutiš
+92	2492	grčki	grčka grčke grčkih grčkim grčko grčkog grčkoj grčkom grčku
+93	2493	rudnik	rudnici rudnicima rudnika rudnike rudnikom rudniku
+94	2494	studirati	studira studiraju studirajući studirala studirale studirali studiram studiramo studiranje studirao studirate studiraš
+95	2495	trgovac	trgovaca trgovca trgovce trgovcem trgovci trgovcima trgovcu trgovče
+96	2496	kafić	kafića kafiće kafićem kafići kafićima kafiću
+97	2497	doslovno	
+98	2498	podzemni	podzemna podzemne podzemnih podzemnim podzemno podzemnog podzemnoj podzemnom podzemnu
+99	2499	vlasništvo	vlasništva vlasništvom vlasništvu
+100	2500	alat	alata alate alati alatima alatni alatom alatu

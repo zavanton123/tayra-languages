@@ -1,0 +1,100 @@
+1	8001	ukidati	ukida ukidaju ukidam ukidamo ukidanje
+2	8002	priopćiti	priopći priopćila priopćili priopćim priopćio priopćiš
+3	8003	sažalijevati	sažalijeva sažalijevaj sažalijevaju sažalijevam sažalijevanje sažalijevao sažalijevaš
+4	8004	sablja	sabljama sablje sablji sabljom sablju
+5	8005	junački	junačka junačke junačkih junačkim junačko junačkog junačkoj junačkom junačku
+6	8006	nastavnica	nastavnice nastavnici nastavnicom nastavnicu
+7	8007	utješno	
+8	8008	marica	marice marici maricu
+9	8009	puretina	puretine puretinom puretinu
+10	8010	ljiljan	ljiljana ljiljane ljiljani ljiljanima
+11	8011	pojedinačan	pojedinačna pojedinačne pojedinačni pojedinačnih pojedinačnim pojedinačnog pojedinačnom pojedinačnu
+12	8012	mazati	mazala mazali mazan mazanje mazao maže mažem mažeš maži mažu
+13	8013	štednja	štednje štednji štednjom štednju
+14	8014	izumitelj	izumitelja izumitelji izumitelju
+15	8015	dovijeka	doveka
+16	8016	kompromitiran	kompromitirana kompromitirane kompromitirani kompromitirano
+17	8017	italijanski	italijanska italijanske italijanskih italijanskim italijansko italijanskog italijanskom italijansku
+18	8018	dosljedan	dosledan dosledno dosljedna dosljedne dosljedni dosljedno
+19	8019	zabuniti	zabune zabuni zabunila zabunili zabunio
+20	8020	buntovnik	buntovnici buntovnika buntovnike
+21	8021	ravnopravan	ravnopravna ravnopravne ravnopravni ravnopravnih ravnopravnim ravnopravno ravnopravnom
+22	8022	izopačen	izopačena izopačene izopačeni izopačenim izopačenog izopačenom izopačenu
+23	8023	govnar	
+24	8024	hektar	hektara hektaru
+25	8025	saditi	sade sadi sadili sadim sadimo sadio sadite sadiš sađenje
+26	8026	sunašce	
+27	8027	dopirati	dopirala dopirali dopirao dopire dopirem dopiru
+28	8028	potomstvo	potomstva potomstvom potomstvu
+29	8029	badem	badema bademe bademi bademima bademom
+30	8030	havajski	havajska havajske havajskih havajskim havajsko havajskog havajskoj havajskom havajsku
+31	8031	veslo	vesala vesla veslima veslom
+32	8032	inzulin	inzulina inzulinom
+33	8033	barbarski	barbarska barbarske barbarskih barbarskim barbarsko barbarskog barbarskom barbarsku
+34	8034	aorta	aorte aorti aortu
+35	8035	kukavički	
+36	8036	zastrašujući	
+37	8037	kemičar	kemičara kemičare kemičari
+38	8038	nedodirljiv	nedodirljiva nedodirljivi nedodirljivih nedodirljivim nedodirljivo
+39	8039	osporavati	osporava osporavaju osporavam osporavamo osporavanje osporavao osporavate osporavaš
+40	8040	snaha	snahe snaho snahom snahu
+41	8041	kusur	kusura
+42	8042	debi	debija debiju
+43	8043	puder	pudera puderom
+44	8044	pomesti	pomela pomeli pomelo pomeo pomete pometem pometen
+45	8045	prašuma	prašumama prašume prašumi prašumu
+46	8046	prašnjav	prašnjava prašnjave prašnjavi prašnjavih prašnjavim prašnjavo prašnjavoj prašnjavom prašnjavu
+47	8047	traumatičan	traumatična traumatične traumatični traumatičnih traumatično traumatičnog
+48	8048	anarhija	anarhije anarhiji anarhiju
+49	8049	akcijski	akcijska akcijske akcijskih akcijskim akcijskog akcijskom akcijsku
+50	8050	razoružati	razoruža razoružaj razoružajte razoružaju razoružala razoružali razoružam razoružan razoružani razoružao razoružate
+51	8051	zračiti	zrače zrači zračila zračim zračio zračite zračiš
+52	8052	trenutačan	trenutačna trenutačne trenutačni trenutačnim trenutačnog trenutačnoj trenutačnom trenutačnu
+53	8053	miješan	miješana miješane miješani miješanih miješanim miješano miješanog miješanom miješanu
+54	8054	podvig	podviga podvige podvigu podvizi podvizima
+55	8055	korito	korita koritom koritu
+56	8056	prostran	prostrana prostrane prostrani prostranije prostranim prostrano prostranom prostranu
+57	8057	prepad	prepada prepade prepadi prepadu
+58	8058	nazdravljati	nazdravlja nazdravljaju nazdravljali nazdravljam nazdravljamo nazdravljao nazdravljaš
+59	8059	darovit	darovita darovite daroviti darovitih darovito darovitu
+60	8060	popunjavati	popunjava popunjavaju popunjavala popunjavali popunjavam popunjavamo popunjavanje popunjavao popunjavate popunjavaš
+61	8061	svršavati	svršava svršavaju svršavala svršavam svršavanje svršavao svršavaš
+62	8062	vodik	vodici vodika vodikom vodiče
+63	8063	sugestija	sugestijama sugestije sugestiji sugestijom sugestiju
+64	8064	surogat	surogata surogate surogati
+65	8065	takt	takta taktova taktu
+66	8066	budalaština	budalaštinama budalaštine budalaštinu
+67	8067	britva	britve britvo britvom britvu
+68	8068	odozdo	
+69	8069	strahovit	strahovita strahovite strahoviti strahovitim strahovito strahovitu
+70	8070	nazočnost	nazočnosti nazočnošću
+71	8071	australski	australska australske australskih australskim australsko australskog australskoj australskom australsku
+72	8072	sanjariti	sanjare sanjarenje sanjari sanjarila sanjarim sanjario sanjariš
+73	8073	neuništiv	neuništiva neuništive neuništivi neuništivim neuništivo neuništivog neuništivom
+74	8074	zaposlenje	zaposlenja zaposlenju
+75	8075	malarija	malarije malarijom malariju
+76	8076	djelatnik	djelatnica djelatnici djelatnicima djelatnika djelatnike
+77	8077	presvlačiti	presvlače presvlačenje presvlači presvlačim presvlačimo presvlačiš
+78	8078	lokomotiva	lokomotive lokomotivi lokomotivom lokomotivu
+79	8079	kapak	kapaka kapci kapcima kapka kapke
+80	8080	simfonija	simfonije simfoniji simfoniju
+81	8081	pristignuti	pristigao pristigla pristigle pristigli pristiglo pristigne pristignu pristiže
+82	8082	neiskusan	neiskusna neiskusne neiskusni neiskusnih neiskusnim neiskusnog
+83	8083	glodavac	glodavaca glodavca glodavce glodavci glodavcima glodavče
+84	8084	dostignuti	dostići
+85	8085	obratno	
+86	8086	genijalnost	genijalnosti genijalnošću
+87	8087	infrastruktura	infrastrukture infrastrukturi infrastrukturu
+88	8088	galaktika	galaktici galaktike galaktikom galaktiku
+89	8089	grešan	grešna grešne grešni grešnih grešnim grešno grešnog grešnom grešnu
+90	8090	košarica	košaricama košarice košarici košaricu
+91	8091	staklenik	staklenicima staklenika stakleniku
+92	8092	stupati	stupaj stupajte stupaju stupali stupam stupamo stupanje stupate stupaš
+93	8093	nepozvan	nepozvana nepozvane nepozvani nepozvanih nepozvanog
+94	8094	samouništenje	
+95	8095	blesan	blesana blesane blesani
+96	8096	čežnja	čežnje čežnji čežnjom čežnju
+97	8097	poraniti	poranila poranili poranio
+98	8098	banuti	bane baneš bani banu banula banuli banuo
+99	8099	najesti	najede najedem najedeš najedi najedite najedu najela najeli najeo
+100	8100	špil	špila špilom špilu

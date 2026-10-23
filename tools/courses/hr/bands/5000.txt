@@ -1,0 +1,100 @@
+1	4901	veslati	vesla veslaj veslajte veslaju veslala veslali veslam veslamo veslanja veslanje veslanju veslao veslaš
+2	4902	genijalno	
+3	4903	mješavina	mešavina mešavinu mješavine mješavini mješavinom mješavinu
+4	4904	redovnik	redovnici redovnicima redovnika redovnike redovnikom redovniku redovniče
+5	4905	primjedba	primedba primedbe primedbi primedbu primjedaba primjedbama primjedbe primjedbi primjedbu
+6	4906	otpust	
+7	4907	mutan	mutna mutne mutni mutnih mutnim mutno mutnog mutnoj mutnom mutnu
+8	4908	vjernik	vernici vernik vernika vjernici vjernicima vjernika vjernike
+9	4909	zastoj	zastoja zastoje zastojem zastoji zastojima zastoju
+10	4910	nezgodan	nezgodna nezgodne nezgodni nezgodnih nezgodnim nezgodnog nezgodnoj nezgodnom nezgodnu
+11	4911	iskrvariti	iskrvare iskrvari iskrvarila iskrvarili iskrvarim iskrvario iskrvariće iskrvariš
+12	4912	ganjati	ganja ganjaju ganjajući ganjala ganjali ganjam ganjamo ganjao ganjate ganjaš
+13	4913	psihijatrijski	psihijatrijska psihijatrijske psihijatrijskih psihijatrijskim psihijatrijsko psihijatrijskog psihijatrijskoj psihijatrijskom psihijatrijsku
+14	4914	ambiciozan	ambiciozna ambiciozne ambiciozni ambicioznih ambiciozniji ambicioznim ambiciozno ambicioznog ambicioznu najambiciozniji
+15	4915	nastupiti	nastupe nastupi nastupila nastupile nastupili nastupilo nastupim nastupimo nastupio nastupite nastupiš
+16	4916	napast	
+17	4917	fotoaparat	fotoaparata fotoaparate fotoaparati fotoaparatima fotoaparatom fotoaparatu
+18	4918	cimerica	cimericama cimerice cimerici cimericom cimericu
+19	4919	pristanak	pristanka pristankom pristanku
+20	4920	zajam	zajma zajmom zajmova zajmove zajmovi zajmovima zajmu
+21	4921	nišan	nišana nišane nišani nišanom nišanu
+22	4922	jastog	jastoga jastoge jastogom jastogu jastozi jastozima
+23	4923	istraživački	istraživačka istraživačke istraživačkih istraživačkim istraživačko istraživačkog istraživačkoj istraživačkom istraživačku
+24	4924	plastika	plastici plastike plastikom plastiku
+25	4925	vrlina	vrlinama vrline vrlini vrlinom vrlinu
+26	4926	odvajati	odvaja odvajaj odvajajte odvajaju odvajajući odvajala odvajali odvajam odvajamo odvajanje odvajao odvajate odvajaš
+27	4927	besmislen	besmislena besmislene besmisleni besmislenih besmislenim besmislenog besmislenoj besmislenom besmislenu
+28	4928	asteroid	asteroida asteroide asteroidi asteroidima asteroidom asteroidu
+29	4929	operativan	operativna operativne operativni operativnih operativnim operativno operativnog operativnoj operativnom operativnu
+30	4930	ovlastiti	ovlasti ovlastila ovlastili ovlastio ovlašten ovlaštena ovlaštene ovlašteni ovlašteno
+31	4931	trup	trupe trupom trupu
+32	4932	kvaka	kvakama kvake kvaki kvakom kvaku
+33	4933	orkestar	orkestara orkestra orkestrom orkestru
+34	4934	dlakav	dlakava dlakave dlakavi dlakavih dlakaviji dlakavim dlakavo dlakavog dlakavom dlakavu
+35	4935	bič	biča bičem bičeva bičeve bičevi bičevima biču
+36	4936	balkon	balkona balkone balkoni balkonom balkonu
+37	4937	oslabiti	oslabe oslabi oslabila oslabile oslabili oslabilo oslabim oslabimo oslabio oslabljen oslabljena oslabljene oslabljeni oslabljeno
+38	4938	tržnica	tržnicama tržnice tržnici tržnicu
+39	4939	označavati	označava označavaju označavajući označavala označavali označavam označavamo označavanje označavao
+40	4940	odsjek	odseci odsek odseka odseku odsjeci odsjeka odsjeku
+41	4941	jarak	jaraka jarci jarcima jarka jarke jarkom jarku jarče
+42	4942	hokej	hokeja hokejom hokeju
+43	4943	vladavina	vladavine vladavini vladavinom vladavinu
+44	4944	poen	poena poene poeni poenima
+45	4945	samac	samaca samca samce samci samcima
+46	4946	dodatno	
+47	4947	dovde	
+48	4948	lupa	lupe lupi lupo lupom lupu
+49	4949	osip	osipa osipe osipom osipu
+50	4950	mrkva	mrkvama mrkve mrkvi mrkvom mrkvu
+51	4951	ispisati	ispisa ispisala ispisali ispisan ispisana ispisane ispisani ispisano ispisao ispiše ispišem ispišemo ispišeš ispiši ispišite
+52	4952	rutinski	rutinska rutinske rutinskih rutinsko rutinskog rutinskoj rutinskom rutinsku
+53	4953	poreći	poreci porekao porekli porekne poreknem porekneš
+54	4954	katolički	katolička katoličke katoličkih katoličkim katoličko katoličkog katoličkoj katoličkom katoličku
+55	4955	zrcalo	zrcala zrcalima zrcalom zrcalu
+56	4956	ispratiti	isprate ispratim ispratimo ispratite ispratiću ispratiš
+57	4957	katolik	katolici katolicima katolika katolike
+58	4958	pokrivač	pokrivača pokrivače pokrivačem pokrivači pokrivačima pokrivaču
+59	4959	naglasiti	naglasi naglasila naglasili naglasim naglasimo naglasio naglasite naglasiš naglašen naglašena naglašene naglašeni naglašeno
+60	4960	tužilaštvo	tužilaštva tužilaštvom tužilaštvu
+61	4961	arhitekt	arhitekata arhitekta arhitekte arhitekti arhitektima arhitektom arhitektu
+62	4962	proizvođač	proizvođača proizvođače proizvođačem proizvođači proizvođačima proizvođaču
+63	4963	učinkovit	najučinkovitija najučinkovitije najučinkovitiji učinkovita učinkovite učinkoviti učinkovitija učinkovitije učinkovitiji učinkovitim učinkovitog učinkovitom učinkovitu
+64	4964	srodan	srodna srodne srodni srodnih srodnim srodnoj srodnom srodnu
+65	4965	gram	grama gramom gramu
+66	4966	neprihvatljiv	neprihvatljiva neprihvatljive neprihvatljivi neprihvatljivim neprihvatljivo
+67	4967	kamoli	
+68	4968	neriješen	nerešena nerešenih nerešeno neriješena neriješene neriješeni neriješenih neriješenim neriješeno neriješenog neriješenom
+69	4969	staklen	staklena staklene stakleni staklenih staklenim stakleno staklenog staklenoj staklenom staklenu
+70	4970	pokretan	pokretna pokretne pokretni pokretnih pokretnim pokretno pokretnog pokretnoj pokretnom pokretnu
+71	4971	derište	derišta derištem derištima derištu
+72	4972	halucinacija	halucinacijama halucinacije halucinaciji halucinaciju
+73	4973	zabranjivati	zabranjivao zabranjuje zabranjujem zabranjujemo zabranjujete zabranjuješ zabranjuju
+74	4974	nagnuti	nagne nagnem nagneš nagni nagnite nagnula nagnuli nagnuo nagnut nagnuta nagnute
+75	4975	prevoziti	prevoze prevozeći prevozi prevozila prevozili prevozim prevozimo prevozio prevozite prevoziš prevoženje
+76	4976	bizaran	bizarna bizarne bizarni bizarnih bizarnije bizarnim bizarno bizarnog bizarnoj bizarnom bizarnu najbizarnije najbizarnijih
+77	4977	prognoza	prognozama prognoze prognozi prognozom prognozu
+78	4978	vatromet	vatrometa vatrometi vatrometom vatrometu
+79	4979	nepravda	nepravdama nepravde nepravdi nepravdom nepravdu
+80	4980	zabluda	zabludama zablude zabludi zabludom zabludu
+81	4981	planinski	planinska planinske planinskih planinskim planinsko planinskog planinskoj planinskom planinsku
+82	4982	opravdati	opravda opravdaj opravdaju opravdala opravdali opravdalo opravdam opravdamo opravdao opravdate opravdaš
+83	4983	zaruke	zaruka zarukama
+84	4984	tavan	tavana tavanu
+85	4985	bala	balama bale bali balom balu
+86	4986	detektivka	
+87	4987	arena	arenama arene areni arenu
+88	4988	zauzimati	zauzima zauzimaju zauzimajući zauzimala zauzimali zauzimam zauzimamo zauzimanje zauzimao zauzimate zauzimaš
+89	4989	spomen	spomena spomene spomeni spomenu
+90	4990	odnosno	
+91	4991	nagon	nagona nagone nagoni nagonima nagonom nagonu
+92	4992	kostur	kostura kosture kosturi kosturima kosturom kosturu
+93	4993	gutati	guta gutaj gutaju gutajući gutala gutali gutam gutamo gutanja gutanje gutanjem gutao gutate gutaš
+94	4994	odavati	odaje odajem odajemo odajete odaješ odaji odaju odavala odavali odavanje odavao
+95	4995	pojasniti	pojasni pojasnila pojasnili pojasnilo pojasnim pojasnimo pojasnio pojasnite pojasniš
+96	4996	aspirin	aspirina aspirine aspirinom
+97	4997	blog	bloga blogom blogova blogove blogovi blogovima blogu
+98	4998	institucija	institucijama institucije instituciji institucijom instituciju
+99	4999	predgrađe	predgrađa predgrađima predgrađu
+100	5000	prijelom	prelom preloma prelome prelomi prijeloma prijelome prijelomi prijelomom

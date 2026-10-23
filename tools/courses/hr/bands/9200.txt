@@ -1,0 +1,100 @@
+1	9101	ismijati	ismijala ismijali ismijan ismijao ismije
+2	9102	pogodnost	pogodnosti pogodnostima
+3	9103	snošaj	snošaja snošaju
+4	9104	nektar	nektara nektarom
+5	9105	mantil	mantila mantile mantilu
+6	9106	štampati	štampaju štampali štampam štampamo štampana štampane štampanje štampano štampao
+7	9107	procenat	procenata procenta
+8	9108	pašteta	paštete paštetom paštetu
+9	9109	efikasno	
+10	9110	kontracepcija	kontracepcije kontracepciji kontracepciju
+11	9111	senilan	senilna senilni senilnog
+12	9112	ovčar	ovčara ovčare ovčari ovčaru
+13	9113	sjeverozapadni	severozapadni sjeverozapadna sjeverozapadne sjeverozapadnog sjeverozapadnoj sjeverozapadnom
+14	9114	hvalisati	hvalisanje hvalisao hvališe hvališeš
+15	9115	veranda	verande verandi verandu
+16	9116	gorčina	gorčine gorčini gorčinom gorčinu
+17	9117	džokej	džokeja džokeje džokeji
+18	9118	razonoda	razonode razonodu
+19	9119	tamošnji	tamošnja tamošnje tamošnjeg tamošnjem tamošnjih tamošnjim tamošnjoj
+20	9120	gledalac	gledalaca gledaoca gledaoce gledaoci gledaocima
+21	9121	brodogradilište	brodogradilišta brodogradilištu
+22	9122	balavac	balavaca balavca balavce balavci balavče
+23	9123	strm	strma strme strmi strmih strmije strmim strmom strmu
+24	9124	omamljivati	omamljivanje omamljuje omamljujući
+25	9125	iskorijeniti	iskorijeni iskorijenili iskorijenimo iskorijenjen iskorijenjena
+26	9126	elektron	elektrona elektrone elektroni
+27	9127	trnje	trnja trnjem trnju
+28	9128	opsesivan	opsesivna opsesivne opsesivni opsesivnim opsesivnog opsesivnom opsesivnu
+29	9129	nepostojeći	nepostojeća nepostojeće nepostojećeg nepostojećem nepostojećih nepostojećim nepostojeću
+30	9130	objed	obed
+31	9131	uslijediti	uslijedila
+32	9132	destruktivan	destruktivna destruktivne destruktivni destruktivnim destruktivnog destruktivnom destruktivnu
+33	9133	karakterističan	karakteristična karakteristične karakteristični karakterističnih karakterističnim karakteristično karakterističnu
+34	9134	olovan	olovna olovne olovni olovnih olovnim olovno olovnog olovnom olovnu
+35	9135	bliz	bliza blize blizi blizo bliži
+36	9136	prihvatilište	prihvatilišta prihvatilištu
+37	9137	recesija	recesije recesiji recesiju
+38	9138	poređenje	poređenja poređenju
+39	9139	teletina	teletine teletinom teletinu
+40	9140	otpadnik	otpadnici otpadnicima otpadnika otpadnike
+41	9141	obris	obrisa obrise obrisi
+42	9142	nemoralno	
+43	9143	zviždaljka	zviždaljku
+44	9144	golicati	golica golicaj golicaju golicanje golicaš
+45	9145	kmica	kmice kmico kmicu
+46	9146	ljekovit	ljekovita ljekovite ljekoviti ljekovitih ljekovitim ljekovito ljekovitog ljekovitu
+47	9147	dezertirati	dezertira dezertirala dezertirali dezertiranje dezertirao
+48	9148	cvjećar	cvećar cvećara cvećaru cvjećara cvjećare cvjećari cvjećaru
+49	9149	znatan	znatna znatne znatnog znatnu
+50	9150	kovrčav	kovrčava kovrčave kovrčavi kovrčavom kovrčavu
+51	9151	maltretirati	
+52	9152	dijabetičar	dijabetičara dijabetičari
+53	9153	naslonjač	naslonjača naslonjaču
+54	9154	nedoumica	nedoumice nedoumici nedoumicu
+55	9155	biciklist	biciklista bicikliste biciklisti biciklistu
+56	9156	tunjevina	tunjevine tunjevinom tunjevinu
+57	9157	kozmetika	kozmetici kozmetike kozmetikom kozmetiku
+58	9158	iscuriti	iscuri iscurila iscurilo iscurio
+59	9159	ukrasni	ukrasna ukrasne ukrasnih ukrasnim ukrasno ukrasnog ukrasnom ukrasnu
+60	9160	neobuzdan	neobuzdana neobuzdane neobuzdani neobuzdanim neobuzdano neobuzdanog neobuzdanu
+61	9161	retorički	retorička retoričko
+62	9162	gušterača	gušterače gušterači gušteraču
+63	9163	predahnuti	predahne predahnem predahnemo predahneš predahni predahnimo predahnite
+64	9164	povelja	povelje povelji povelju
+65	9165	razmetati	razmetanje razmetao razmeće razmećem razmećeš razmeću
+66	9166	gnjevan	gnjevna gnjevne gnjevni gnjevnih gnjevno
+67	9167	noj	noja nojeva nojeve nojevi
+68	9168	slastičar	slastičara slastičari
+69	9169	hibernacija	hibernacije hibernaciji hibernaciju
+70	9170	bezbolno	
+71	9171	tigrica	tigrice tigricu
+72	9172	zidar	zidara zidare zidari
+73	9173	sjeverozapad	severozapadu sjeverozapada sjeverozapadu
+74	9174	šnicl	šnicla šnicle šnicli šniclu
+75	9175	uposliti	uposlen uposli uposlila uposlili uposlim uposlio uposlite
+76	9176	lijepiti	lepe lepi lepim lijepe lijepi lijepila lijepili lijepilo lijepim lijepio lijepiš lijepljenje
+77	9177	glasovir	glasovira glasovirom glasoviru
+78	9178	logički	logička logičke logičkim logičko logičkog
+79	9179	pričljiv	pričljiva pričljivi pričljiviji
+80	9180	trska	trske trskom trsku
+81	9181	mirovinski	mirovinskim mirovinsko mirovinskog mirovinskom
+82	9182	vegetarijanski	vegetarijanska vegetarijanske vegetarijansko vegetarijansku
+83	9183	radiologija	radiologije radiologiji radiologiju
+84	9184	sijalica	sijalice sijalicu
+85	9185	klizav	klizava klizave klizavi klizavo
+86	9186	vratni	vratna vratne vratnih vratnim vratnog vratnu
+87	9187	iznuditi	iznude iznudi iznudila iznudili iznudio iznuđeno
+88	9188	divljački	divljačka divljačke divljačkim divljačko divljačkog divljačkom
+89	9189	smrtovnica	smrtovnice smrtovnici smrtovnicu
+90	9190	utrošiti	utrošen utrošena utrošeni utrošeno utrošila utrošili utrošio
+91	9191	imaginaran	imaginarna imaginarne imaginarni imaginarnih imaginarnim imaginarno imaginarnog imaginarnom imaginarnu
+92	9192	bjesnjeti	besne besni besnim bjesne bjesni bjesnim bjesnio bjesniš
+93	9193	tekstura	teksture teksturi teksturu
+94	9194	jurcati	jurca jurcaju jurcali jurcam jurcamo jurcanje jurcao jurcaš
+95	9195	preksinoć	
+96	9196	pilar	
+97	9197	dalekozor	dalekozora dalekozorom
+98	9198	narcis	narcisa narcise narcisi narcisu
+99	9199	pobuditi	pobude pobudi pobudila pobudili pobudilo pobudio
+100	9200	nadglednik	nadglednici nadglednika nadglednikom nadgledniče

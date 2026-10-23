@@ -1,0 +1,100 @@
+1	9901	suicidalan	suicidalna suicidalne suicidalni suicidalnim suicidalno
+2	9902	saplesti	saplela sapleo sapleteš
+3	9903	krijesnica	krijesnice krijesnicu
+4	9904	ustupak	ustupaka ustupci ustupke
+5	9905	utopija	utopije utopiji utopiju
+6	9906	tečan	tečna tečne tečni tečnim tečnog tečnom tečnu
+7	9907	dobrotvor	dobrotvora dobrotvori dobrotvorka dobrotvoru
+8	9908	figurativno	
+9	9909	garant	
+10	9910	indeks	indeksa indeksu
+11	9911	kraljevna	kraljevne kraljevno kraljevnu
+12	9912	dosjetka	dosjetkama dosjetke dosjetki dosjetku
+13	9913	kretenski	kretenska kretenske kretenskih kretensko kretenskog
+14	9914	kafana	kafanama kafane kafani kafanu
+15	9915	germanski	germanska germanske germanskih germanskim germansko germanskog germanskom
+16	9916	slavuj	slavuja slavuji slavuju
+17	9917	množiti	množe množenje množi množite
+18	9918	hladnjača	hladnjače hladnjači hladnjaču
+19	9919	radijator	radijatora radijatori radijatoru
+20	9920	uzastopan	uzastopna uzastopne uzastopni uzastopnih uzastopnim
+21	9921	šljaka	šljake šljaku
+22	9922	nožice	nožica nožicama nožicu
+23	9923	morž	morža morževa morževi
+24	9924	inostranstvo	inostranstva inostranstvu
+25	9925	žargon	žargona žargonom žargonu
+26	9926	barel	barela barelu
+27	9927	provokativan	provokativna provokativne provokativno
+28	9928	posmatrač	posmatrača posmatrače posmatrači
+29	9929	septički	septička septičke septičkoj septičku
+30	9930	plašljiv	plašljiva plašljive plašljivi plašljivo
+31	9931	kepec	kepeca kepeci kepecu
+32	9932	epruveta	epruvetama epruvete epruveti epruvetu
+33	9933	dresirati	dresirala dresiram dresiran dresirana dresirane dresirani dresirao
+34	9934	perverzno	
+35	9935	neprimjetno	neprimetno
+36	9936	kardiolog	kardiologa kardiologom
+37	9937	sebičnost	sebičnosti
+38	9938	ljudina	ljudino
+39	9939	nevidljivost	nevidljivosti
+40	9940	riva	rive rivi rivu
+41	9941	kabanica	kabanice kabanici kabanicu
+42	9942	konverzacija	konverzacije konverzaciji konverzaciju
+43	9943	asimilirati	asimilira asimiliraju asimilirala asimilirali asimiliran asimilirani asimilirao
+44	9944	homoseksualan	homoseksualna homoseksualne homoseksualni homoseksualnih homoseksualno homoseksualnog
+45	9945	imetak	imetka imetkom
+46	9946	kamilica	kamilice kamilicu
+47	9947	kamenac	kamenaca kamenca kamence kamenci
+48	9948	spartanski	spartanska spartanske spartansko spartanskog spartanskom spartansku
+49	9949	lemur	lemura lemure lemuri
+50	9950	planinar	planinara planinare planinari
+51	9951	hostesa	hostese hostesu
+52	9952	klada	klade kladi kladu
+53	9953	posluživati	
+54	9954	najlon	najlona najlonom
+55	9955	apstinencija	apstinencije apstinenciji apstinenciju
+56	9956	filtar	filtra filtre filtri
+57	9957	napadan	napadna napadne napadni napadnu
+58	9958	presto	prestola prestolu
+59	9959	izostati	izostala izostane izostao
+60	9960	odnedavno	
+61	9961	nadmašivati	nadmašuje nadmašuju
+62	9962	meteorolog	meteorologa meteorolozi
+63	9963	popustljiv	popustljiva popustljivi popustljiviji
+64	9964	giljotina	giljotine giljotini giljotinom giljotinu
+65	9965	moćnik	moćnici moćnicima moćnika moćnike
+66	9966	morena	moreno
+67	9967	stampedo	stampeda stampedu
+68	9968	glamur	glamura
+69	9969	milioner	milionera milioneri
+70	9970	asocijacija	asocijacije asocijaciji asocijaciju
+71	9971	spojnica	spojnice spojnicu
+72	9972	gro	
+73	9973	nedopustivo	
+74	9974	rastrgati	
+75	9975	jar	
+76	9976	kažiprst	kažiprsta kažiprstom kažiprstu
+77	9977	pričica	pričicama pričice pričicu
+78	9978	opušak	opušaka opušci opušcima opuška opuške
+79	9979	postojan	postojana postojani postojano
+80	9980	suveren	suverena suverene suvereni suvereno suverenog suverenu
+81	9981	kroasan	kroasana kroasane kroasani
+82	9982	raskršće	raskršća raskršću
+83	9983	paviljon	paviljona paviljonu
+84	9984	djelotvoran	djelotvorna djelotvorne djelotvorni djelotvornije
+85	9985	monarh	monarha monarhu monarsi
+86	9986	patriotski	patriotska patriotske patriotskim patriotskog patriotskom patriotsku
+87	9987	geografija	geografije geografiji geografiju
+88	9988	zapostaviti	zapostavila zapostavili zapostavio zapostavljen zapostavljena zapostavljeni zapostavljeno
+89	9989	oličenje	
+90	9990	ventilacijski	ventilacijske ventilacijskog ventilacijskom
+91	9991	zafrkancija	zafrkancije zafrkanciju
+92	9992	neplodan	neplodna neplodne neplodni neplodnim
+93	9993	samotan	samotna samotne samotni samotnim samotnog samotnom samotnu
+94	9994	mumljati	mumlja mumljajući mumljam mumljanje mumljao mumljaš
+95	9995	sekirati	sekiraj sekirajte sekiram sekiraš
+96	9996	značajka	značajke značajki značajku
+97	9997	obrezati	obrezali obrezan obrezani obrezao
+98	9998	amputacija	amputacije amputaciji amputaciju
+99	9999	gal	
+100	10000	rezime	rezimea rezimeu

@@ -1,0 +1,100 @@
+1	301	brod	broda brode brodić brodom brodova brodove brodovi brodovima brodska brodske brodski brodskih brodskim brodsko brodskog brodskoj brodskom brodsku brodu
+2	302	pokazati	pokaza pokazala pokazale pokazali pokazalo pokazan pokazana pokazani pokazano pokazao pokazavši pokazaće pokazaćemo pokazaćeš pokazaću pokaže pokažem pokažemo pokažete pokažeš pokaži pokažimo pokažite pokažu
+3	303	bojati	boj bojaju bojala bojale bojali bojalo bojam bojamo bojanje bojao bojaš boje bojeva bojeve bojeći boji bojim bojimo bojite bojiš bojte boju
+4	304	gore	
+5	305	točno	
+6	306	smijati	smij smijala smijale smijali smijalo smijanja smijanje smijanjem smijao smije smijem smijemo smijete smiješ smijte smiju smijući
+7	307	lud	luda ludama lude ludi ludih ludim ludima ludo ludog ludoga ludoj ludom ludu luđa luđe luđi luđih najluđa najluđe najluđi najluđih najluđim najluđu
+8	308	kriv	kriva krive krivi krivih krivim krivima krivlji krivo krivog krivoga krivoj krivom krivome krivu
+9	309	stignuti	stigao stigavši stigla stigle stigli stiglo stigne stignem stignemo stignete stigneš stigni stignimo stignite stignu stigoh stigosmo stigoše stići stiže
+10	310	osim	
+11	311	dosta	
+12	312	broj	broja brojem brojeva brojeve brojevi brojevima broju
+13	313	voda	vodama vode vodena vodene vodeni vodenih vodenim vodeno vodenog vodenoj vodenom vodenu vodi vodo vodom vodu
+14	314	ikad	ikada
+15	315	saznati	sazna saznaj saznajmo saznajte saznaju saznala saznale saznali saznalo saznam saznamo saznao saznat saznate saznavši saznaće saznaćemo saznaćete saznaćeš saznaću saznaš
+16	316	pomoć	pomoću
+17	317	dolje	dole
+18	318	zadnji	zadnja zadnje zadnjeg zadnjega zadnjem zadnjih zadnjim zadnjoj zadnjom zadnju
+19	319	odavde	
+20	320	osoba	osobama osobe osobi osobo osobom osobu
+21	321	tijelo	tela telima telo telom telu tijela tijelima tijelom tijelu tjelesa
+22	322	ponovno	ponovo
+23	323	srce	srca srcem srcima srcu srdaca
+24	324	brzo	
+25	325	razlog	razloga razloge razlogom razlogu razlozi razlozima
+26	326	protiv	
+27	327	sestra	sestara sestrama sestre sestri sestro sestrom sestru
+28	328	super	
+29	329	večeras	
+30	330	poznavati	poznaje poznajem poznajemo poznajete poznaješ poznajte poznaju poznavajući poznavala poznavale poznavali poznavalo poznavanje poznavao
+31	331	unutra	
+32	332	škola	školama škole školi školo školom školu
+33	333	igrati	igraj igrajmo igrajte igraju igrajući igrala igrale igrali igralo igram igramo igranje igrao igrate igraće igraćemo igraćeš igraću igraš
+34	334	nastaviti	nastave nastavi nastavila nastavile nastavili nastavilo nastavim nastavimo nastavio nastavite nastaviće nastavićemo nastavićete nastavićeš nastaviću nastaviš nastavljen nastavljena nastavljeno
+35	335	ljubav	ljubavi ljubavima ljubavlju
+36	336	isto	
+37	337	kupiti	kupe kupi kupila kupile kupili kupilo kupim kupimo kupio kupite kupiće kupićemo kupićeš kupiću kupiš kupljen kupljena kupljene kupljeni kupljenje kupljeno
+38	338	rat	rata ratama rate rati ratna ratne ratni ratnih ratnim ratno ratnog ratnoga ratnoj ratnom ratnu ratom ratova ratove ratovi ratovima ratu
+39	339	ideja	idejama ideje ideji idejom ideju
+40	340	spasiti	spase spasi spasila spasile spasili spasilo spasim spasimo spasio spasite spasivši spasiće spasićemo spasiću spasiš spašen spašena spašene spašeni spašeno
+41	341	pozvati	pozove pozovem pozovemo pozovete pozoveš pozovi pozovimo pozovite pozovu pozva pozvala pozvale pozvali pozvalo pozvan pozvana pozvane pozvani pozvano pozvao pozvavši pozvaće pozvaćemo pozvaćeš pozvaću
+42	342	odvesti	odvede odvedem odvedemo odveden odvedena odvedene odvedeni odvedeno odvedete odvedeš odvedi odvedimo odvedite odvedu odvela odvele odveli odvelo odveo odveze odvezem odvezemo odvezen odvezena odvezeni odvezete odvezeš odvezi odvezimo odvezite odvezla odvezle odvezli odvezu odvešće odvešćemo odvešćeš odvešću
+43	343	uz	uza
+44	344	glup	glupa glupe glupi glupih glupim glupima gluplja gluplje glupljeg gluplji glupljim glupo glupog glupoga glupoj glupom glupu najgluplja najgluplje najgluplji najglupljih najgluplju
+45	345	lice	lica licem licima licu lišce
+46	346	poslije	posle
+47	347	plan	plana plane planom planova planove planovi planovima planu
+48	348	otvoriti	otvore otvorenje otvori otvorila otvorile otvorili otvorilo otvorim otvorimo otvorio otvorit otvorite otvorivši otvoriće otvorićemo otvorićeš otvoriću otvoriš otvoriše
+49	349	ovako	
+50	350	nestati	nesta nestade nestadoše nestala nestale nestali nestalo nestane nestanem nestanemo nestanete nestaneš nestani nestanimo nestanite nestanu nestao nestaće nestaćemo nestaću
+51	351	dovesti	dovede dovedem dovedemo doveden dovedena dovedene dovedeni dovedeno dovedete dovedeš dovedi dovedimo dovedite dovedu dovela dovele doveli dovelo doveo dovevši dovezao doveze dovezem dovezemo dovezen dovezena dovezeni dovezeno dovezete dovezeš dovezi dovezite dovezla dovezli dovezu dovešće dovešćemo dovešćeš dovešću
+52	352	sljedeći	sledeća sledeće sledećeg sledećem sledeći sledećih sledećim sledećoj sledeću slijedeći sljedeća sljedeće sljedećeg sljedećega sljedećem sljedećih sljedećim sljedećoj sljedećom sljedeću
+53	353	posljednji	poslednja poslednje poslednjeg poslednjem poslednji poslednjih poslednjim poslednjoj poslednjom poslednju posljednja posljednje posljednjeg posljednjega posljednjem posljednjih posljednjim posljednjima posljednjoj posljednjom posljednju
+54	354	preko	
+55	355	lagati	lagala lagale lagali lagalo laganje lagao laže lažem lažemo lažete lažeš laži lažite lažu lažući
+56	356	van	
+57	357	slika	slici slikama slike slikom sliku
+58	358	potreban	najpotrebnija najpotrebnije najpotrebniji potrebna potrebne potrebni potrebnih potrebnija potrebnije potrebniji potrebnim potrebno potrebnog potrebnom potrebnu
+59	359	briga	brigama brige brigom brigu brizi
+60	360	promijeniti	promene promeni promenila promenile promenili promenilo promenim promenimo promenio promenite promeniti promeniće promenićemo promenićeš promeniću promeniš promenjen promenjena promenjeni promenjeno promijene promijeni promijenila promijenile promijenili promijenilo promijenim promijenimo promijenio promijenite promijeniću promijeniš promijenjen promijenjena promijenjene promijenjeni promijenjeno
+61	361	krv	krvi krvlju
+62	362	provjeriti	provere proveren proverena provereni provereno proveri proverila proverili proverim proverimo proverio proverite proveriti proverićemo proveriću proveriš provjere provjeren provjerena provjerene provjereni provjereno provjeri provjerila provjerili provjerilo provjerim provjerimo provjerio provjerite provjerićemo provjeriću provjeriš
+63	363	stajati	stajala stajale stajali stajalo stajanje stajao stajaće stajaću stajaše staje stajem stajemo stajete staješ staji stajte staju stoj stoje stojeći stoji stojim stojimo stojite stojiš stojte
+64	364	riješiti	reše rešen rešena rešeni rešenja rešenje rešeno reši rešila rešili rešim rešimo rešio rešite rešiti rešićemo rešiću rešiš riješe riješen riješena riješene riješeni riješeno riješi riješila riješile riješili riješilo riješim riješimo riješio riješite riješiš rješenja rješenje rješenjem rješenjima rješenju
+65	365	pas	pasa pase pasja pasje pasjeg pasji pasjim pasju pasom pasu psa pse pseća pseće psećeg psećem pseći psećih psećim psećoj psećom pseću psi psima psić psića psiće psićem psići psićima psiću psom psu
+66	366	zatvor	zatvora zatvore zatvori zatvorima zatvorom zatvoru
+67	367	igra	igara igrama igre igri igrom igru
+68	368	ubojstvo	ubojstava ubojstva ubojstvima ubojstvom ubojstvu
+69	369	platiti	plate plati platila platile platili platilo platim platimo platio platite plativši platiće platićemo platićete platićeš platiću platiš plaćen plaćena plaćene plaćeni plaćeno
+70	370	lak	laka lake laki lakih lakim lakog lakoj lakom laku lakša lakše lakšeg lakši lakših lakšim lakšima lakšom lakšu najlakša najlakše najlakši najlakših
+71	371	paziti	paze pazeći pazi pazila pazile pazili pazim pazimo pazio pazite pazićemo paziću paziš
+72	372	ured	ureda urede uredi uredima uredom uredu
+73	373	pisati	pisa pisala pisale pisali pisalo pisana pisane pisani pisanje pisano pisao pisaće pisaću piše pišem pišemo pišete pišeš piši pišite pišu pišući
+74	374	muškarac	muškaraca muškarca muškarce muškarcem muškarci muškarcima muškarcu muškarče
+75	375	doktor	doktora doktore doktori doktorima doktorom doktoru
+76	376	uhvatiti	uhvate uhvati uhvatila uhvatile uhvatili uhvatilo uhvatim uhvatimo uhvatio uhvatite uhvativši uhvatiće uhvatićemo uhvatiću uhvatiš uhvaćen uhvaćena uhvaćene uhvaćeni uhvaćeno
+77	377	bar	bara barama bare bari barom barova barove barovi barovima barska barske barski barskih barskim barskoj barskom barsku baru bave
+78	378	oružje	oružja oružjem oružjima oružju
+79	379	cura	curama cure curi curo curom curu
+80	380	otkriti	otkri otkrij otkrije otkrijem otkrijemo otkrijete otkriješ otkrijmo otkrijte otkriju otkrila otkrile otkrili otkrilo otkrio otkriven otkrivena otkrivene otkriveni otkriveno otkrivši otkrića otkriće otkrićem otkrićemo otkrićete otkrićeš otkrićima otkriću
+81	381	kasnije	
+82	382	dopustiti	dopuste dopusti dopustila dopustile dopustili dopustilo dopustim dopustimo dopustio dopustite dopustivši dopustićeš dopustiću dopustiš dopušten dopuštena dopuštene dopušteni dopušteno
+83	383	natrag	
+84	384	pet	
+85	385	jednostavno	
+86	386	rad	najradije rada radija radije radijem radiji radijima radijom radiju rado radom radova radove radovi radovima radu
+87	387	jutro	jutara jutra jutrima jutrom jutru
+88	388	odlaziti	odlaze odlazeći odlazi odlazila odlazile odlazili odlazilo odlazim odlazimo odlazio odlazite odlaziš odlaženje
+89	389	knjiga	knjigama knjige knjigo knjigom knjigu knjizi knjižica knjižicu knjižni
+90	390	uništiti	unište uništen uništena uništene uništeni uništenja uništenje uništenjem uništenju uništeno uništi uništila uništile uništili uništilo uništim uništimo uništio uništite uništivši uništiće uništićemo uništićeš uništiću uništiš
+91	391	gotovo	
+92	392	san	sna sne sni snima snom snova snove snovi snovima snu
+93	393	zaustaviti	zaustave zaustavi zaustavila zaustavile zaustavili zaustavilo zaustavim zaustavimo zaustavio zaustavite zaustavivši zaustaviće zaustavićemo zaustaviću zaustaviš zaustavljen zaustavljena zaustavljene zaustavljeni zaustavljeno
+94	394	mrziti	mrze mrzeći mrzi mrzila mrzile mrzili mrzilo mrzim mrzimo mrzio mrzite mrziš
+95	395	iza	
+96	396	pobjeći	pobegao pobegla pobegle pobegli pobeglo pobegne pobegnem pobegnemo pobegnete pobegneš pobegni pobegnu pobeći pobeže pobjegao pobjegla pobjegle pobjegli pobjeglo pobjegne pobjegnem pobjegnemo pobjegnete pobjegneš pobjegni pobjegnimo pobjegnite pobjegnu pobježe
+97	397	zao	gora goreg gorega gorem gori gorih gorim gorima goro goroj gorom goru najgora najgore najgoreg najgorega najgorem najgori najgorih najgorim najgorima najgoroj najgorom najgoru zal zla zle zli zlih zlim zlima zlog zloga zloj zlom zlu
+98	398	šansa	šansama šanse šansi šansom šansu
+99	399	noga	nogama noge nogo nogom nogu nozi
+100	400	naučiti	nauče naučen naučena naučene naučeni naučeno nauči naučila naučile naučili naučilo naučim naučimo naučio naučite naučiće naučićemo naučićete naučićeš naučiću naučiš

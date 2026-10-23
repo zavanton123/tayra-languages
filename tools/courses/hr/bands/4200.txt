@@ -1,0 +1,100 @@
+1	4101	unazad	
+2	4102	polazak	polaska polasku
+3	4103	iti	grem pem pete
+4	4104	pretrpjeti	pretrpela pretrpeli pretrpeo pretrpi pretrpio pretrpjela pretrpjele pretrpjeli pretrpjelo
+5	4105	štala	štalama štale štali štalom štalu
+6	4106	polaziti	polaze polazeći polazi polazili polazilo polazim polazimo polazio polazite polaziš
+7	4107	izravan	izravna izravne izravni izravnih izravnije izravniji izravnim izravnog izravnoj izravnom izravnu najizravniji
+8	4108	marš	marša marševa marševe marševi maršu
+9	4109	zapovjediti	zapovedi zapovjedi zapovjedila zapovjedili zapovjedim zapovjedio zapovjedite zapovjeđeno
+10	4110	svjetiljka	svetiljka svetiljke svetiljku svjetiljci svjetiljkama svjetiljke svjetiljki svjetiljkom svjetiljku
+11	4111	smanjivati	smanjivala smanjivanje smanjivao smanjuje smanjujem smanjujemo smanjujete smanjuješ smanjuju smanjujući
+12	4112	sastojak	sastojaka sastojci sastojcima sastojka sastojke sastojkom
+13	4113	proizvesti	proizvede proizvedem proizvedemo proizveden proizvedena proizvedene proizvedeni proizvedeno proizvedete proizvedu proizvela proizvele proizveli proizvelo proizveo
+14	4114	svršiti	svrše svršen svrši svršila svršili svršilo svršim svršimo svršio svršite svršiću svršiš
+15	4115	redatelj	redatelja redatelje redateljem redatelji redateljima redatelju
+16	4116	ujutru	
+17	4117	prikladan	najprikladnija najprikladnije najprikladniji prikladna prikladne prikladni prikladnih prikladnija prikladnije prikladnijeg prikladniji prikladniju prikladnim prikladnog prikladnom prikladnu
+18	4118	spadati	spada spadaju spadalo spadam spadamo spadao spadate spadaš
+19	4119	sit	sita site siti sitija sitiju sito situ
+20	4120	sirota	sirote siroti siroto sirotom sirotu
+21	4121	identifikacija	identifikacije identifikaciji identifikacijom identifikaciju
+22	4122	okruženje	okruženja okruženjem okruženjima okruženju
+23	4123	oporuka	oporuke oporukom oporuku
+24	4124	platforma	platformama platforme platformi platformom platformu
+25	4125	načiniti	načine načini načinila načinile načinili načinilo načinim načinimo načinio načinite načiniš načinjen načinjena načinjene načinjeni načinjeno
+26	4126	gljiva	gljivama gljive gljivi gljivu
+27	4127	sekretarica	sekretarice sekretarici sekretaricom sekretaricu
+28	4128	presjeći	preseci presekao presekla presekli preseći preseče presečemo presečen presečena presečeš presijeci presijecite presiječe presiječem presiječemo presiječeš presjekao presjekla presjekli presjeklo presječen presječena presječene presječeno
+29	4129	litica	liticama litice litici liticu
+30	4130	vagina	vaginama vagine vagini vaginom vaginu
+31	4131	lajati	laj lajala lajali lajanje lajao laje lajem lajemo lajete laješ laju lajući
+32	4132	tragač	tragača tragače tragačem tragači tragačima tragaču
+33	4133	onesposobiti	onesposobe onesposobi onesposobila onesposobili onesposobilo onesposobim onesposobimo onesposobio onesposobite onesposobiš onesposobljen onesposobljena onesposobljene onesposobljeni onesposobljeno
+34	4134	vjeverica	veverica veverice vevericu vjevericama vjeverice vjeverici vjevericom vjevericu
+35	4135	sapun	sapuna sapune sapuni sapunom sapunu
+36	4136	obrambeni	obrambena obrambene obrambenih obrambenim obrambeno obrambenog obrambenoj obrambenom obrambenu
+37	4137	talentiran	najtalentiranija najtalentiraniji najtalentiranijih talentirana talentirane talentirani talentiranih talentiraniji talentiranim talentiranog talentiranom talentiranu
+38	4138	fotka	fotkama fotke fotki fotkom fotku
+39	4139	hladnoća	hladnoće hladnoći hladnoćom hladnoću
+40	4140	plač	plača plačem plaču
+41	4141	stvor	stvora stvore stvorom stvorova stvorove stvorovi stvorovima stvoru
+42	4142	četvero	
+43	4143	južno	
+44	4144	ambicija	ambicijama ambicije ambiciji ambicijom ambiciju
+45	4145	praktično	
+46	4146	sedativ	sedativa sedative sedativi sedativima sedativom
+47	4147	pomišljati	pomišlja pomišljaj pomišljajte pomišljaju pomišljala pomišljali pomišljam pomišljamo pomišljao pomišljate pomišljaš
+48	4148	ukinuti	ukine ukinem ukinemo ukinete ukineš ukini ukinite ukinu ukinula ukinuli ukinuo ukinut ukinuta ukinute ukinuto
+49	4149	zakletva	zakletve zakletvi zakletvom zakletvu
+50	4150	ren	rena rene renom renu
+51	4151	musliman	muslimana muslimane muslimani muslimanima
+52	4152	poklopac	poklopaca poklopca poklopce poklopcem poklopci poklopcima poklopcu
+53	4153	unutrašnjost	unutrašnjosti
+54	4154	gorjeti	gorela gorelo gorenje goreo goreti goreće gorećeš goreći gorim gorimo gorio gorite goriš gorjela gorjele gorjeli gorjelo
+55	4155	snalaziti	snalaze snalazi snalazila snalazili snalazim snalazimo snalazio snalazite snalaziš snalaženje
+56	4156	oklijevati	okleva oklevaj oklevala oklevali oklevam oklevanje oklevao oklevati oklevaš oklijeva oklijevaj oklijevajte oklijevaju oklijevajući oklijevala oklijevali oklijevam oklijevanje oklijevao oklijevate oklijevaš
+57	4157	tur	tura ture turom turove turu
+58	4158	argument	argumenata argumenta argumente argumenti argumentima argumentom argumentu
+59	4159	ćutati	ćutala ćutali ćutanje ćutao ćute ćuti ćutim ćutimo ćutite ćutiš
+60	4160	oduzimati	oduzima oduzimaj oduzimaju oduzimajući oduzimala oduzimali oduzimam oduzimamo oduzimanje oduzimao oduzimate oduzimaš
+61	4161	pecivo	peciva pecivima pecivom pecivu
+62	4162	radijacija	radijacije radijaciji radijacijom radijaciju
+63	4163	isključivati	isključivanje isključivao isključuj isključuje isključujem isključujemo isključujete isključuješ isključujte isključuju isključujući
+64	4164	cigla	cigala ciglama cigle cigli ciglom ciglu
+65	4165	propadati	propada propadaju propadala propadale propadali propadam propadamo propadanje propadao propadate propadaš
+66	4166	glazben	glazbena glazbene glazbeni glazbenih glazbenim glazbeno glazbenog glazbenoj glazbenom glazbenu
+67	4167	sindrom	sindroma sindromom sindromu
+68	4168	dobrobit	dobrobiti
+69	4169	bačva	bačava bačvama bačve bačvi bačvom bačvu
+70	4170	iznimno	
+71	4171	sljedbenik	sledbenici sledbenicima sledbenik sledbenika sledbenike sljedbenici sljedbenicima sljedbenika sljedbenike
+72	4172	plod	ploda plodom plodova plodove plodovi plodovima
+73	4173	ogrtač	ogrtača ogrtače ogrtači ogrtačima ogrtaču
+74	4174	tup	tupa tupe tupi tupih tupim tupo tupog tupom tupu
+75	4175	oficir	oficira oficire oficiri oficirima oficirom oficiru
+76	4176	pak	paka pakom pakove pakovi paku pače
+77	4177	titl	titla title titlova titlove titlovi titlovima
+78	4178	komanda	komandama komande komandi komando komandom komandu
+79	4179	tehničar	tehničara tehničare tehničari tehničarima tehničarom tehničaru
+80	4180	kazneni	kaznena kaznene kaznenih kaznenim kaznenog kaznenoga kaznenoj kaznenom kaznenu
+81	4181	umoriti	umore umoren umorena umori umorila umorile umorili umorilo umorim umorimo umorio umorite umoriš
+82	4182	memorija	memorije memoriji memorijom memoriju
+83	4183	samopouzdanje	samopouzdanja samopouzdanjem samopouzdanju
+84	4184	euro	eura eure eurima
+85	4185	prisustvovati	prisustvovala prisustvovali prisustvovanje prisustvovao prisustvuje prisustvujem prisustvujemo prisustvujete prisustvuješ prisustvujte prisustvuju
+86	4186	uličica	uličicama uličice uličici uličicom uličicu
+87	4187	praktički	
+88	4188	pokus	pokusa pokuse pokusi pokusima pokusom pokusu
+89	4189	pomoćni	pomoćna pomoćne pomoćnih pomoćnim pomoćno pomoćnog pomoćnoj pomoćnom pomoćnu
+90	4190	turski	turska turske turskih turskim tursko turskog turskoj turskom tursku
+91	4191	lišće	lišća lišćem lišću
+92	4192	ugraditi	ugrade ugradi ugradila ugradili ugradim ugradimo ugradio ugradite ugradiš ugrađen ugrađena ugrađene ugrađeni ugrađeno
+93	4193	okrugao	okrugla okrugle okrugli okruglih okruglim okruglo okruglog okrugloj okruglom okruglu
+94	4194	poštanski	poštanska poštanske poštanskih poštanskim poštansko poštanskog poštanskoj poštanskom poštansku
+95	4195	ucjenjivati	ucenjivala ucenjivali ucenjivao ucenjuje ucenjuješ ucjenjivala ucjenjivali ucjenjivan ucjenjivanje ucjenjivao ucjenjuje ucjenjujem ucjenjujete ucjenjuješ ucjenjuju
+96	4196	dlan	dlana dlanom dlanova dlanove dlanovi dlanovima dlanu
+97	4197	pista	pistama piste pisti pistom pistu
+98	4198	formula	formulama formule formuli formulom formulu
+99	4199	novčanica	novčanicama novčanice novčanici novčanicom novčanicu
+100	4200	grijati	grijala grijali grijana grijani grijanje grijao grije grijem grijemo grijete griješ griju

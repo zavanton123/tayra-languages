@@ -1,0 +1,100 @@
+1	2801	eksploziv	eksploziva eksplozive eksplozivi eksplozivima eksplozivom eksplozivu
+2	2802	kugla	kuglama kugle kugli kuglo kuglom kuglu
+3	2803	komentar	komentara komentare komentari komentarima komentarom komentaru
+4	2804	ajme	
+5	2805	gospa	gospe gospi gospo gospom gospu
+6	2806	umak	umaci umacima umaka umake umakom umaku umače
+7	2807	čaroban	čarobna čarobne čarobni čarobnih čarobnim čarobnog čarobnoj čarobnom čarobnu
+8	2808	datoteka	datoteci datotekama datoteke datotekom datoteku
+9	2809	metal	metala metale metali metalima metalom metalu
+10	2810	istinski	istinska istinske istinskih istinskim istinsko istinskog istinskoj istinskom istinsku
+11	2811	rasa	rasama rase rasi rasom rasu
+12	2812	menadžer	menadžera menadžere menadžeri menadžerima menadžerom menadžeru
+13	2813	kum	kuma kume kumom kumova kumove kumovi kumu
+14	2814	sveučilište	sveučilišta sveučilištem sveučilištima sveučilištu
+15	2815	žalost	žalosti žalošću
+16	2816	stvaranje	stvaranja stvaranjem stvaranju
+17	2817	glasno	
+18	2818	tigar	tigra tigre tigrom tigrova tigrove tigrovi tigrovima tigru
+19	2819	predak	preci precima predaka pretka pretke pretku
+20	2820	revolucija	revolucije revoluciji revolucijom revoluciju
+21	2821	isprazniti	isprazne isprazni ispraznila ispraznile ispraznili ispraznilo ispraznim ispraznimo ispraznio ispraznite isprazniš ispražnjen ispražnjena ispražnjene ispražnjeni ispražnjeno
+22	2822	radar	radara radare radari radarima radarom radaru
+23	2823	odvezati	odvezala odvezali odvezan odvezana odvezane odvezao odveže odvežem odvežemo odvežete odvežeš odveži odvežite
+24	2824	prvak	prvaci prvacima prvaka prvake prvakom prvaku prvače
+25	2825	naporan	naporna naporne naporni napornih napornije naporniji napornim napornog napornom napornu
+26	2826	podržati	podržala podržali podržalo podržan podržana podržani podržano podržao podržaću podrže podrži podržim podržimo podržite podržiš
+27	2827	nacrtati	nacrta nacrtaj nacrtajte nacrtaju nacrtala nacrtali nacrtalo nacrtam nacrtamo nacrtan nacrtana nacrtane nacrtani nacrtano nacrtao nacrtate nacrtaš
+28	2828	svježe	sveže
+29	2829	heroin	heroina heroine heroinom heroinu
+30	2830	otpad	otpada otpade otpadom otpadu
+31	2831	jetra	jetara jetre jetri jetrom jetru
+32	2832	neprijateljski	neprijateljska neprijateljske neprijateljskih neprijateljskim neprijateljsko neprijateljskog neprijateljskoj neprijateljskom neprijateljsku
+33	2833	tehnika	tehnici tehnikama tehnike tehnikom tehniku
+34	2834	jime	
+35	2835	zaključak	zaključaka zaključci zaključcima zaključka zaključke zaključkom zaključku
+36	2836	madam	
+37	2837	hiljada	hiljadama hiljade hiljadu
+38	2838	jadno	
+39	2839	masa	masama mase masi maso masom masu
+40	2840	pogađati	pogađa pogađaj pogađajte pogađaju pogađala pogađali pogađam pogađamo pogađanje pogađao pogađate pogađaš
+41	2841	vjeran	najvjerniji veran verna verne verni verno vernog vernom vernu vjerna vjerne vjerni vjernih vjernim vjerno vjernog vjernom vjernu
+42	2842	atmosfera	atmosfere atmosferi atmosferom atmosferu
+43	2843	mraz	mraza mraze mrazova mrazove mrazovi mrazu
+44	2844	kruna	krune kruni kruno krunom krunu
+45	2845	klaun	klauna klaune klauni klaunima klaunom klaunova klaunove klaunovi klaunovima klaunu
+46	2846	matematika	matematici matematike matematikom matematiku
+47	2847	toplo	
+48	2848	aktivan	aktivna aktivne aktivni aktivnih aktivnija aktivnije aktivniji aktivnim aktivno aktivnog aktivnoj aktivnom aktivnu najaktivniji
+49	2849	pretraga	pretragama pretrage pretragom pretragu pretrazi
+50	2850	znanstven	znanstvena znanstvene znanstveni znanstvenih znanstvenim znanstvenog znanstvenoj znanstvenom znanstvenu
+51	2851	skok	skoka skokom skokova skokove skokovi skokovima skoku
+52	2852	svijeća	sveća svećama sveće sveću svijećama svijeće svijeći svijećom svijeću
+53	2853	plemenit	najplemenitija najplemenitije najplemenitiji najplemenitijih plemenita plemenite plemeniti plemenitih plemenitije plemenitiji plemenitim plemenito plemenitog plemenitoj plemenitom plemenitu
+54	2854	sram	srama srame sramom sramu
+55	2855	gej	geja gejeva gejeve gejevi gejevima
+56	2856	profesionalac	profesionalaca profesionalca profesionalce profesionalcem profesionalci profesionalcima profesionalcu
+57	2857	fantastičan	fantastična fantastične fantastični fantastičnih fantastičnim fantastičnog fantastičnoj fantastičnom fantastičnu
+58	2858	prikazati	prikaza prikazala prikazali prikazalo prikazan prikazana prikazane prikazani prikazano prikazao prikaze prikazi prikazom prikazu prikaže prikažem prikažemo prikažete prikažeš prikaži prikažite prikažu
+59	2859	usmjeriti	usmeren usmerena usmerene usmereni usmereno usmeri usmerila usmerili usmerio usmerite usmeriti usmeriš usmjere usmjeren usmjerena usmjerene usmjereni usmjereno usmjeri usmjerila usmjerili usmjerilo usmjerim usmjerimo usmjerio usmjerite usmjeriš
+60	2860	bik	bika bikom bikova bikove bikovi bikovima biku biče
+61	2861	potpora	potpore potpori potporom potporu
+62	2862	kombinacija	kombinacijama kombinacije kombinaciji kombinacijom kombinaciju
+63	2863	ukrcati	ukrca ukrcaj ukrcaja ukrcajem ukrcajmo ukrcajte ukrcaju ukrcala ukrcale ukrcali ukrcalo ukrcam ukrcamo ukrcan ukrcana ukrcane ukrcani ukrcano ukrcao ukrcate ukrcaš
+64	2864	zacijelo	zacelo
+65	2865	instinkt	instinkata instinkta instinkte instinkti instinktima instinktom instinktu
+66	2866	trka	trci trkama trke trkom trku
+67	2867	indij	indija indije indiji indijom indiju
+68	2868	međunarodni	međunarodna međunarodne međunarodnih međunarodnim međunarodno međunarodnog međunarodnoj međunarodnom međunarodnu
+69	2869	civil	civila civile civili civilima civilom civilu
+70	2870	suviše	
+71	2871	protivnik	protivnica protivnice protivnici protivnicima protivnika protivnike protivnikom protivniku
+72	2872	lift	lifta liftom liftova liftove liftovi liftovima liftu
+73	2873	bubreg	bubrega bubrege bubregom bubregu bubrezi bubrezima
+74	2874	tanjur	tanjura tanjure tanjuri tanjurima tanjurom tanjuru
+75	2875	ocjena	ocena ocenama ocene oceni ocenom ocenu ocjenama ocjene ocjeni ocjenom ocjenu
+76	2876	rasprava	raspravama rasprave raspravi raspravom raspravu
+77	2877	želudac	želuca želuce želuci želucima želucu želudaca
+78	2878	boravak	boravka boravkom boravku
+79	2879	zamoliti	
+80	2880	strpljenje	strpljenja strpljenjem strpljenju
+81	2881	kauboj	kauboja kauboje kaubojem kauboji kaubojima kauboju
+82	2882	izdaja	izdaje izdaji izdajom izdaju
+83	2883	uključivati	uključuje
+84	2884	bacati	baca
+85	2885	paliti	pale paleći palila palile palili palilo palim palimo palio palite pališ paljenje
+86	2886	sudnica	sudnicama sudnice sudnici sudnicom sudnicu
+87	2887	ulazak	ulaska ulaske ulaskom ulasku ulazaka
+88	2888	gas	gasa gase gasom gasova gasove gasovi gasu
+89	2889	zabrljati	zabrlja zabrljaju zabrljala zabrljale zabrljali zabrljam zabrljamo zabrljao zabrljate zabrljaš
+90	2890	partija	partijama partije partiji partijom partiju
+91	2891	crv	crva crve crvi crvima crvom crvu
+92	2892	galaksija	galaksijama galaksije galaksiji galaksijom galaksiju
+93	2893	sudski	sudska sudske sudskih sudskim sudsko sudskog sudskoj sudskom sudsku
+94	2894	optuživati	optuživala optuživali optuživan optuživani optuživanje optuživao optužuj optužuje optužujem optužujemo optužujete optužuješ optužujte optužuju optužujući
+95	2895	izlet	izleta izlete izleti izletima izletom izletu
+96	2896	upozoravati	upozorava upozoravaju upozoravajući upozoravala upozoravali upozoravam upozoravamo upozoravanje upozoravao upozoravate upozoravaš
+97	2897	savezni	savezna savezne saveznih saveznim savezno saveznog saveznoj saveznom saveznu
+98	2898	drama	dramama drame drami dramom dramu
+99	2899	ohladiti	ohlade ohladi ohladila ohladile ohladili ohladilo ohladim ohladimo ohladio ohladite ohladiće ohladiš ohlađen ohlađeni ohlađeno
+100	2900	cvijet	cvet cveta cvetom cvetova cvetove cvetovi cvetu cvijeta cvijete cvijetom cvijetu cvjetova cvjetove cvjetovi cvjetovima

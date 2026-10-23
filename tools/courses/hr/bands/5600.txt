@@ -1,0 +1,100 @@
+1	5501	rezervirati	rezervira rezerviraj rezervirajte rezerviraju rezerviram rezerviramo rezervirate rezerviraš
+2	5502	seansa	seansama seanse seansi seansu
+3	5503	jučerašnji	jučerašnja jučerašnje jučerašnjeg jučerašnjem jučerašnjih jučerašnjim jučerašnjoj jučerašnjom jučerašnju
+4	5504	glupav	glupava glupave glupavi glupavih glupavim glupavo glupavog glupavoj glupavom glupavu
+5	5505	jogurt	jogurta jogurte jogurtom jogurtu
+6	5506	vratar	vratara vratare vratari vratarom vrataru
+7	5507	inicijal	inicijala inicijale inicijali inicijalima inicijalom
+8	5508	progon	progona progone progoni progonima progonom progonu
+9	5509	teoretski	teoretska teoretske teoretsko teoretskog teoretsku
+10	5510	poniženje	poniženja poniženjem poniženjima poniženju
+11	5511	ljuljati	ljulja ljuljaj ljuljaju ljuljajući ljuljala ljuljali ljuljam ljuljamo ljuljanje ljuljao ljuljate ljuljaš
+12	5512	začin	začina začine začini začinima začinom
+13	5513	općenito	
+14	5514	jelovnik	jelovnici jelovnicima jelovnika jelovnike jelovnikom jelovniku
+15	5515	crvenokos	crvenokosa crvenokose crvenokosi crvenokosih crvenokosog crvenokosoj crvenokosom crvenokosu
+16	5516	okusiti	okuse okusi okusila okusili okusim okusimo okusio okusite okusiš
+17	5517	suđe	suđa suđem
+18	5518	povlastica	povlasticama povlastice povlasticom povlasticu
+19	5519	prase	prasad prasence praseta prasetom prasetu
+20	5520	transplantacija	transplantacije transplantaciji transplantacijom transplantaciju
+21	5521	investitor	investitora investitore investitori investitorima investitorom investitoru
+22	5522	krijumčariti	krijumčare krijumčarene krijumčarenja krijumčarenje krijumčari krijumčarila krijumčarili krijumčarim krijumčario krijumčarite krijumčariš
+23	5523	masakr	masakra masakre masakri masakrima masakrom masakru
+24	5524	elektronski	elektronska elektronske elektronskih elektronskim elektronsko elektronskog elektronskoj elektronskom elektronsku
+25	5525	ljekarna	ljekarnama ljekarne ljekarni ljekarnu
+26	5526	bizon	bizona bizone bizoni bizonima bizonom bizonu
+27	5527	kockar	kockara kockare kockari kockarima kockarom kockaru
+28	5528	istupiti	istupe istupi istupila istupili istupim istupio istupite istupiš
+29	5529	apsolutan	apsolutna apsolutne apsolutni apsolutnim apsolutnog apsolutnoj apsolutnom apsolutnu
+30	5530	tuda	
+31	5531	labirint	labirinta labirinti labirintom labirintu
+32	5532	patetičan	patetična patetične patetični patetičnih patetičnim patetičnog patetičnom patetičnu
+33	5533	trepnuti	trepne trepnem trepnete trepneš trepni trepnite trepnu trepnula trepnuli trepnuo trepnuvši
+34	5534	sramotno	
+35	5535	rov	rova rove rovova rovove rovovi rovovima rovu
+36	5536	nepotreban	nepotrebna nepotrebne nepotrebni nepotrebnih nepotrebnim nepotrebnog nepotrebnom nepotrebnu
+37	5537	početnik	početnici početnicima početnika početnike početniku početniče
+38	5538	trkač	trkača trkače trkačem trkači trkačima trkaču
+39	5539	intervencija	intervencijama intervencije intervenciji intervencijom intervenciju
+40	5540	neizbježan	neizbežan neizbežna neizbežne neizbježna neizbježne neizbježni neizbježnim neizbježnog neizbježnoj neizbježnom neizbježnu
+41	5541	načelo	načela načelima načelom načelu
+42	5542	transakcija	transakcijama transakcije transakciji transakcijom transakciju
+43	5543	prigovarati	prigovara prigovaraj prigovaraju prigovarala prigovarali prigovaram prigovaranje prigovarao prigovarate prigovaraš
+44	5544	znatiželja	znatiželje znatiželji znatiželjom znatiželju
+45	5545	suparnik	suparnici suparnicima suparnika suparnike suparnikom suparniku
+46	5546	guba	
+47	5547	gledatelj	gledatelja gledatelje gledatelji gledateljima gledatelju
+48	5548	uzdravlje	
+49	5549	izmjeriti	izmeri izmerim izmerio izmeriti izmjere izmjerena izmjereno izmjeri izmjerila izmjerili izmjerim izmjerimo izmjerio izmjerite
+50	5550	pastir	pastira pastire pastiri pastirima pastiru
+51	5551	karavan	karavana karavane karavani karavanom karavanu
+52	5552	bukvalno	
+53	5553	loza	loze lozi lozom lozu
+54	5554	neustrašiv	neustrašiva neustrašive neustrašivi neustrašivih neustrašivim neustrašivo neustrašivog neustrašivom neustrašivu
+55	5555	bitanga	bitangama bitange bitangi bitango bitangom bitangu
+56	5556	ujna	ujne ujni ujno ujnom ujnu
+57	5557	unositi	unose unoseći unosi unosila unosili unosim unosimo unosio unosite unosiš unošenje
+58	5558	redovan	redovna redovne redovni redovnih redovnim redovnog redovnoj redovnom redovnu
+59	5559	sazvati	sazove sazovem sazovemo sazovi sazovite sazvala sazvali sazvan sazvana sazvano sazvao
+60	5560	biznismen	biznismena biznismene biznismeni biznismenima biznismenom biznismenu
+61	5561	pokolj	pokolja pokolje pokoljem pokolji pokolju
+62	5562	oduprijeti	odupre oduprem odupremo oduprete odupreš odupri oduprite odupru
+63	5563	tornado	tornada tornadom tornadu
+64	5564	avionski	avionska avionske avionskih avionskim avionsko avionskog avionskoj avionskom avionsku
+65	5565	pjevačica	pevačica pevačicu pjevačice pjevačici pjevačicom pjevačicu
+66	5566	žohar	žohara žohare žohari žoharima žoharu
+67	5567	prsluk	
+68	5568	konjak	konjaka konjakom konjaku
+69	5569	varka	varci varkama varke varki varkom varku
+70	5570	veo	vela vele velom velova velu
+71	5571	rasist	rasista rasiste rasisti rasistima rasistom rasistu
+72	5572	plutati	plutaj plutaju plutajući plutala plutali plutalo plutam plutamo plutanje plutao plutate plutaš
+73	5573	ovisan	ovisna ovisne ovisni ovisnim ovisnima
+74	5574	žetva	žetve žetvi žetvom žetvu
+75	5575	avatar	avatara avatare avatari avatarima avatarom avataru
+76	5576	epidemija	epidemije epidemiji epidemijom epidemiju
+77	5577	kas	kasa kasama kase kasi kasom kasu
+78	5578	londonski	londonska londonske londonskih londonskim londonsko londonskog londonskoj londonskom londonsku
+79	5579	alternativan	alternativna alternativne alternativni alternativnih alternativnim alternativno alternativnog alternativnoj alternativnom alternativnu
+80	5580	sastojati	sastojala sastojalo sastojao sastoje sastoji
+81	5581	republikanac	republikanaca republikanca republikance republikanci republikancima
+82	5582	zahvatiti	zahvate zahvati zahvatila zahvatile zahvatili zahvatilo zahvatio zahvaćen zahvaćena zahvaćene zahvaćeni zahvaćeno
+83	5583	brojiti	broje brojenje brojeći broji brojili brojim brojimo brojio brojite brojiš
+84	5584	predvoditi	predvode predvodi predvodila predvodili predvodim predvodio predvodite predvodiš predvođen predvođena predvođene predvođeni
+85	5585	neposredan	neposredna neposredne neposredni neposrednog neposrednoj neposrednom neposrednu
+86	5586	integritet	integriteta integritetom integritetu
+87	5587	podrazumijevati	podrazumijeva podrazumijevaju podrazumijevalo podrazumijevam podrazumijevao podrazumijevate podrazumijevaš
+88	5588	zakonit	zakonita zakonite zakoniti zakonitih zakonitim zakonitog zakonitom zakonitu
+89	5589	specijalno	
+90	5590	infuzija	infuzije infuziji infuzijom infuziju
+91	5591	sklonost	sklonosti sklonostima sklonošću
+92	5592	striptiz	striptiza striptizom striptizu
+93	5593	ulaganje	ulaganja
+94	5594	psiha	psihe psiho psihom psihu
+95	5595	podmititi	podmiti podmitila podmitili podmitim podmitimo podmitio podmitiš podmićen podmićeni
+96	5596	tješiti	teši tešim tešio tješe tješenje tješi tješila tješili tješim tješimo tješio tješite tješiš
+97	5597	kročiti	kroče kroči kročila kročili kročim kročimo kročio kročite kročiš
+98	5598	poslastica	poslasticama poslastice poslasticom poslasticu
+99	5599	nezahvalan	nezahvalna nezahvalne nezahvalni nezahvalnim nezahvalno nezahvalnog nezahvalnoj nezahvalnom nezahvalnu
+100	5600	sokol	soko sokola sokole sokolom sokolova sokolove sokolovi sokolu

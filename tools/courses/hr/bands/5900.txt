@@ -1,0 +1,100 @@
+1	5801	neznanac	neznanaca neznanca neznance neznancem neznanci neznancima neznancu neznanče
+2	5802	lojalnost	lojalnosti lojalnošću
+3	5803	posaditi	posade posadi posadila posadili posadim posadimo posadio posadite posadiš posađene posađeno
+4	5804	šljiva	šljivama šljive šljivi šljivom šljivu
+5	5805	poželjan	najpoželjnija najpoželjnijeg najpoželjniji najpoželjnijih poželjna poželjne poželjni poželjnija poželjnije poželjniji poželjnim poželjno poželjnog poželjnom
+6	5806	redovito	
+7	5807	takoder	
+8	5808	bljesak	blesak bljeska bljeskom bljeskovi bljesku
+9	5809	vosak	voska voskom vosku
+10	5810	debil	debila debile debili debilima debilom debilu
+11	5811	kontekst	konteksta kontekstu
+12	5812	razraditi	razrade razradi razradila razradili razradim razradimo razradio razradite razrađen razrađena razrađene razrađeni razrađeno
+13	5813	kviz	kviza kvizom kvizove kvizovi kvizovima kvizu
+14	5814	kapuljača	kapuljačama kapuljače kapuljači kapuljačom kapuljaču
+15	5815	specijalitet	specijaliteta specijalitete specijaliteti specijalitetima
+16	5816	struka	struci struke strukom struku
+17	5817	monstrum	monstruma monstrume monstrumi monstrumima monstrumom monstrumu
+18	5818	udruženje	udruženja udruženjem udruženju
+19	5819	štand	štanda štandom štandova štandove štandovi štandovima štandu
+20	5820	primijeniti	primene primeni primenili primenim primenimo primenio primeniti primijeni primijenila primijenili primijenim primijenimo primijenio primijenite primijenjen primijenjena primijenjene
+21	5821	pločnik	pločnika pločnike pločnikom pločniku
+22	5822	sakrivati	sakriva sakrivaj sakrivaju sakrivajući sakrivala sakrivali sakrivam sakrivamo sakrivanje sakrivao sakrivate sakrivaš
+23	5823	razočaranje	razočaranja razočaranjem razočaranju
+24	5824	dvojka	dvojci dvojke dvojki dvojko dvojkom dvojku
+25	5825	prekosutra	preksutra
+26	5826	kodeks	kodeksa kodeksom kodeksu
+27	5827	zaslužan	najzaslužniji zaslužna zaslužne zaslužni zaslužnih zaslužniji zaslužno
+28	5828	eksplozivan	eksplozivna eksplozivne eksplozivni eksplozivnih eksplozivnim eksplozivnog eksplozivnom eksplozivnu
+29	5829	leća	lećama leće lećom leću
+30	5830	imun	imuna imune imuni imunih imunim imuno
+31	5831	goditi	gode godi godila godilo godio
+32	5832	bolovati	bolovala bolovali bolovao boluje bolujem bolujete boluješ boluju
+33	5833	prilagodba	prilagodbe prilagodbi prilagodbom prilagodbu
+34	5834	vrtoglavica	vrtoglavice vrtoglavicom vrtoglavicu
+35	5835	ukrcavati	ukrcava ukrcavaj ukrcavajte ukrcavaju ukrcavali ukrcavam ukrcavamo ukrcavanje ukrcavate
+36	5836	uzaludan	uzaludna uzaludne uzaludni uzaludnih uzaludnim uzaludnog uzaludnoj uzaludnom uzaludnu
+37	5837	spoznati	spozna spoznaj spoznaju spoznala spoznali spoznam spoznamo spoznao spoznat spoznate spoznaš
+38	5838	najzad	
+39	5839	istući	istuci istukao istukla istukli istuku istuče istučem istučeš
+40	5840	odlutati	odluta odlutaju odlutala odlutale odlutali odlutalo odlutam odlutao odlutaš
+41	5841	maštati	maštaj maštaju maštajući maštala maštali maštam maštamo maštanje maštao maštate maštaš
+42	5842	gušenje	gušenja gušenjem gušenju
+43	5843	svjedokinja	svjedokinje svjedokinji svjedokinjom svjedokinju
+44	5844	govornik	govornici govornika govornike govorniče
+45	5845	četvoro	
+46	5846	manevar	manevara manevra manevre manevri manevrima manevrom
+47	5847	ophodnja	ophodnjama ophodnje ophodnji ophodnjom ophodnju
+48	5848	ventilacija	ventilacije ventilaciji ventilacijom ventilaciju
+49	5849	pustinjski	pustinjska pustinjske pustinjskih pustinjskim pustinjsko pustinjskog pustinjskoj pustinjskom pustinjsku
+50	5850	fokus	fokusa fokusom fokusu
+51	5851	shvaćati	
+52	5852	rasan	rasna rasne rasni rasnih rasnim rasno rasnog rasnoj rasnom rasnu
+53	5853	mumija	mumijama mumije mumiji mumijom mumiju
+54	5854	penzija	penzije penziji penzijom penziju
+55	5855	krstiti	krste krsti krstila krstili krstim krstimo krstio krstite krstiš krštena kršteni kršteno
+56	5856	riskantan	riskantna riskantne riskantnije riskantnim riskantno
+57	5857	oticati	oticanje otiče otiči otiču
+58	5858	krvoproliće	krvoprolića krvoprolićem krvoproliću
+59	5859	lešinar	lešinara lešinare lešinari lešinarima lešinaru
+60	5860	izrasti	izrasla izrasle izrasli izraslo izraste izrastu
+61	5861	svadbeni	svadbena svadbene svadbenih svadbenim svadbeno svadbenog svadbenoj svadbenom svadbenu
+62	5862	testis	testisa testise testisi testisima testisu
+63	5863	skalpel	skalpela skalpele skalpeli skalpelom
+64	5864	etika	etici etike etikom etiku
+65	5865	rešetka	rešetkama rešetke rešetki rešetku
+66	5866	pijanica	pijanicama pijanice pijanico pijanicom pijanicu
+67	5867	komandant	komandanta komandante komandanti komandantom komandantu
+68	5868	šaptati	šaptala šaptali šaptanje šaptao šapće šapćem šapćemo šapćete šapćeš šapći šapću šapćući
+69	5869	mazga	mazgama mazge mazgi mazgo mazgom mazgu
+70	5870	breskva	bresaka breskvama breskve breskvi breskvu
+71	5871	zastor	zastora zastore zastori zastorima
+72	5872	pohvala	pohvalama pohvale pohvali pohvalom pohvalu
+73	5873	upitan	upitna upitne upitni upitnih upitnim upitno upitnog upitnom
+74	5874	procuriti	procure procuri procurila procurile procurili procurilo procurio
+75	5875	slamka	slamke slamki slamkom slamku
+76	5876	ubojit	ubojita ubojite ubojiti ubojitih ubojitije ubojitim ubojitog ubojitoj ubojitom ubojitu
+77	5877	stubište	stubišta stubištem stubištu
+78	5878	generalan	generalna generalne generalni generalnim generalno generalnog generalnoj generalnom generalnu
+79	5879	kolona	kolonama kolone koloni kolonu
+80	5880	nemir	nemira nemire nemiri nemirima nemiru
+81	5881	ovdašnji	ovdašnja ovdašnje ovdašnjeg ovdašnjem ovdašnjih ovdašnjim ovdašnjoj ovdašnju
+82	5882	karati	kara karaju karala karali karam karan karana karanje karao karaš
+83	5883	improvizirati	improvizira improviziraj improviziraju improvizirala improvizirali improviziram improviziramo improvizirana improvizirane improvizirani improvizirao improviziraš
+84	5884	izlagati	izlaže izlažem izlažemo izlažete izlažeš izlaži izlažite izlažu
+85	5885	narediti	naredi
+86	5886	ohrabrivati	ohrabrivala ohrabrivali ohrabrivanje ohrabrivao ohrabruj ohrabruje ohrabrujem ohrabrujemo ohrabrujete ohrabruješ ohrabrujte ohrabruju
+87	5887	luksuzan	luksuzna luksuzne luksuzni luksuznih luksuznim luksuznog luksuznoj luksuznom luksuznu
+88	5888	starački	staračka staračke staračkih staračkim staračkog staračkom staračkome
+89	5889	životopis	životopisa životopise životopisi životopisom životopisu
+90	5890	bombarder	bombardera bombardere bombarderi bombarderima bombarderu
+91	5891	nametati	nametala nametanje nametao nameće namećem namećemo namećete namećeš nameću
+92	5892	zaviriti	zavire zaviri zavirila zavirili zavirim zavirimo zavirio zavirite zaviriš
+93	5893	podcijeniti	podcijene podcijenila podcijenili podcijenio podcijenjen podcijenjena podcijenjeni podcijenjeno
+94	5894	porast	porasta poraste porastom porastu
+95	5895	izlog	izloga izloge izlogu izlozi izlozima izlože
+96	5896	utješiti	uteši utešim utešiti utješe utješi utješila utješili utješilo utješim utješio utješite utješiš
+97	5897	prerušiti	prerušen prerušena prerušene prerušeni preruši prerušila prerušili prerušim prerušimo prerušio
+98	5898	imitirati	imitira imitiraj imitiraju imitirajući imitirala imitirali imitiram imitiranje imitirao imitiraš
+99	5899	portret	
+100	5900	deaktivirati	deaktivira deaktiviraj deaktivirajte deaktiviraju deaktivirala deaktivirali deaktiviram deaktiviramo deaktiviran deaktivirana deaktivirane deaktivirani deaktiviranje deaktivirano deaktivirao deaktivirate deaktiviraš

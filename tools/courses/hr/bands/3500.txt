@@ -1,0 +1,100 @@
+1	3401	ostavka	ostavci ostavke ostavkom ostavku
+2	3402	lipanj	lip lipnja lipnju
+3	3403	mudrost	mudrosti mudrošću
+4	3404	sumnjivac	sumnjivaca sumnjivca sumnjivce sumnjivcem sumnjivci sumnjivcima sumnjivcu
+5	3405	tara	tare tari taro tarom taru
+6	3406	unatrag	
+7	3407	prepun	prepuna prepune prepuni prepunih prepunim prepuno prepunog prepunoj prepunom prepunu
+8	3408	poništiti	ponište poništen poništena poništene poništeni poništeno poništi poništila poništili poništilo poništim poništimo poništio poništite poništiš
+9	3409	dostava	dostavama dostave dostavi dostavom dostavu
+10	3410	poraz	poraza poraze porazi porazima porazom porazu
+11	3411	trudnoća	trudnoće trudnoći trudnoćom trudnoću
+12	3412	princip	principa principe principi principima principom principu
+13	3413	isprobati	isproba isprobaj isprobajmo isprobajte isprobaju isprobala isprobali isprobam isprobamo isprobana isprobano isprobao isprobate isprobaš
+14	3414	maloprije	malopre
+15	3415	zločinac	zločinaca zločinca zločince zločincem zločinci zločincima zločincu
+16	3416	vladin	vladina vladine vladini vladinih vladinim vladino vladinoj vladinom vladinu
+17	3417	fantazija	fantazijama fantazije fantaziji fantazijom fantaziju
+18	3418	zavjesa	zavesa zavesama zavese zavesu zavjesama zavjese zavjesi zavjesom zavjesu
+19	3419	naspavati	naspava naspavaj naspavajmo naspavajte naspavala naspavali naspavam naspavamo naspavao naspavate naspavaš
+20	3420	okolina	okoline okolini okolinom okolinu
+21	3421	oklop	oklopa oklope oklopi oklopima oklopom oklopu
+22	3422	parkiralište	parkirališta parkiralištem parkiralištima parkiralištu
+23	3423	nedužan	nedužna nedužne nedužni nedužnih nedužnim nedužno nedužnog nedužnoj nedužnom nedužnu
+24	3424	injekcija	injekcijama injekcije injekciji injekcijom injekciju
+25	3425	obveza	obvezama obveze obvezi obvezom obvezu
+26	3426	špijunirati	špijunira špijuniraj špijuniraju špijunirajući špijunirala špijunirali špijuniram špijuniramo špijuniranje špijunirao špijunirate špijuniraš
+27	3427	postupati	postupa postupaj postupajte postupaju postupajući postupala postupali postupalo postupam postupamo postupanje postupao postupate postupaš
+28	3428	napor	napora napore napori naporima naporom naporu
+29	3429	naredni	naredna naredne narednih narednim naredno narednog narednoj narednom narednu
+30	3430	kobasica	kobasicama kobasice kobasici kobasicom kobasicu
+31	3431	sabrati	sabere saberem saberemo saberete sabereš saberi saberimo saberite saberu sabra sabrala sabrao
+32	3432	prerezati	prerezala prerezali prerezan prerezana prerezane prerezani prerezano prerezao prereže prerežem prerežemo prerežete prerežeš prereži prerežite prerežu
+33	3433	očev	očeva očeve očevi očevih očevim očevima očevo očevoj očevom očevu
+34	3434	astronaut	astronauta astronaute astronauti astronautima astronautom astronautu
+35	3435	kolonija	kolonijama kolonije koloniji kolonijom koloniju
+36	3436	deda	dede dedi dedom dedu
+37	3437	održavanje	održavanja
+38	3438	osnovati	osnovala osnovale osnovali osnovao osnuj osnuje osnujem osnujemo osnujete osnuješ osnujmo osnuju
+39	3439	školjka	školjaka školjci školjkama školjke školjki školjkom školjku
+40	3440	svakodnevan	svakodnevna svakodnevne svakodnevni svakodnevnih svakodnevnim svakodnevno svakodnevnog svakodnevnoj svakodnevnom svakodnevnu
+41	3441	lukav	lukava lukave lukavi lukavih lukavije lukaviji lukavim lukavo lukavog lukavom lukavu najlukaviji
+42	3442	pravilan	pravilna pravilne pravilni pravilnih pravilnije pravilnim pravilno pravilnog pravilnoj pravilnom pravilnu
+43	3443	čudesan	najčudesnija najčudesnije najčudesniji najčudesnijih čudesna čudesne čudesni čudesnih čudesnim čudesnog čudesnoj čudesnom čudesnu
+44	3444	frekvencija	frekvencijama frekvencije frekvenciji frekvencijom frekvenciju
+45	3445	strava	strave stravi stravu
+46	3446	poljski	poljska poljske poljskih poljskim poljsko poljskog poljskoj poljskom poljsku
+47	3447	ukusno	
+48	3448	munja	munjama munje munji munjo munjom munju
+49	3449	projektil	projektila projektile projektili projektilima projektilom projektilu
+50	3450	jezgra	jezgre jezgri jezgro jezgrom jezgru
+51	3451	termin	termina termine termini terminima terminom terminu
+52	3452	povjeriti	poveri poverila poverili poverim poverio poveriti povjere povjeren povjerena povjerene povjereni povjereno povjeri povjerila povjerili povjerim povjerimo povjerio povjerite povjeriš
+53	3453	kockati	kockaj kockaju kockajući kockala kockali kockam kockamo kockanje kockao kockaste kockate kockaš
+54	3454	čip	čipa čipom čipova čipove čipovi čipovima čipu
+55	3455	sjediniti	sjedine sjedini sjedinili sjedinimo sjedinio sjedinjen sjedinjena sjedinjene sjedinjeni sjedinjenih
+56	3456	medalja	medaljama medalje medalji medaljom medalju
+57	3457	lan	lana lanom lanu
+58	3458	poslijepodne	poslepodne poslepodneva poslijepodneva poslijepodnevu
+59	3459	groznica	groznice groznici groznicom groznicu
+60	3460	nastupati	nastupa nastupaju nastupala nastupali nastupam nastupamo nastupanje nastupao nastupate nastupaš
+61	3461	di	
+62	3462	festival	festivala festivale festivali festivalima festivalom festivalu
+63	3463	div	diva dive divom divova divove divovi divovima divu
+64	3464	detaljan	detaljna detaljne detaljni detaljnih detaljnija detaljnije detaljniji detaljniju detaljnim detaljno detaljnog detaljnom detaljnu
+65	3465	trg	trga trgom trgova trgove trgovi trgovima trgu
+66	3466	isplata	isplatama isplate isplati isplatom isplatu
+67	3467	spajati	spaja spajaj spajajte spajaju spajajući spajala spajale spajali spajam spajamo spajanje spajao spajate spajaš
+68	3468	o.	
+69	3469	uzalud	
+70	3470	domovina	domovine domovini domovino domovinom domovinu
+71	3471	uštedjeti	uštede uštedela uštedeli uštedeo uštedeti uštedi uštedim uštedimo uštedio uštedite uštediš uštedjela uštedjeli uštedjelo ušteđeno
+72	3472	totalan	totalna totalne totalni totalnih totalnim totalnog totalnoj totalnom totalnu
+73	3473	skratiti	skrate skrati skratila skratili skratilo skratim skratimo skratio skratite skratiš skraćen skraćena skraćene skraćeni skraćeno
+74	3474	isporuka	isporuci isporukama isporuke isporukom isporuku
+75	3475	kristal	kristala kristale kristali kristalima kristalom kristalu
+76	3476	ljestve	lestvici ljestava ljestvama ljestvi ljestvica ljestvicama ljestvice ljestvici ljestvicu
+77	3477	rebro	rebara rebra rebrima rebru
+78	3478	krivac	krivaca krivca krivce krivcem krivci krivcima krivcu
+79	3479	oštro	oštra oštre oštri oštrom oštru
+80	3480	razdoblje	razdoblja razdobljem razdobljima razdoblju
+81	3481	ženiti	žene ženi ženili ženim ženimo ženio ženite ženiš
+82	3482	ogrebotina	ogrebotinama ogrebotine ogrebotinom ogrebotinu
+83	3483	neugodan	najneugodnija najneugodniji neugodna neugodne neugodni neugodnih neugodnije neugodnim neugodnog neugodnoj neugodnom neugodnu
+84	3484	primati	primam
+85	3485	naglasak	naglasci naglascima naglaska naglaske naglaskom naglasku
+86	3486	depresija	depresije depresiji depresijom depresiju
+87	3487	bjegunac	begunac begunca begunce begunci bjegunaca bjegunca bjegunce bjeguncem bjegunci bjeguncima bjeguncu
+88	3488	kvart	kvarta kvartom kvartova kvartove kvartovi kvartovima kvartu
+89	3489	uspavati	uspava uspavaj uspavajte uspavaju uspavala uspavali uspavalo uspavam uspavamo uspavan uspavana uspavane uspavani uspavano uspavao uspavate uspavaš
+90	3490	teksas	teksasa teksasom teksasu
+91	3491	prikriti	prikrij prikrije prikrijem prikrijemo prikrijete prikriješ prikrijte prikriju prikrila prikrili prikrilo prikrio prikriven prikrivena prikrivene prikriveni prikriveno
+92	3492	jamčiti	jamče jamči jamčila jamčili jamčim jamčimo jamčio jamčite jamčiš
+93	3493	naslijediti	nasledi nasledila nasledili nasledio naslediti naslijede naslijedi naslijedila naslijedili naslijedim naslijedio naslijediš
+94	3494	hotelski	hotelska hotelske hotelskih hotelskim hotelsko hotelskog hotelskoj hotelskom hotelsku
+95	3495	potjera	potera potere poteri poteru potjere potjeri potjerom potjeru
+96	3496	vječnost	večnost večnosti vječnosti vječnošću
+97	3497	prethodno	
+98	3498	proizvodnja	proizvodnje proizvodnji proizvodnjom proizvodnju
+99	3499	tečaj	tečaja tečajem tečajeva tečajeve tečajevi tečajevima tečaju
+100	3500	izrezati	izrezala izrezali izrezan izrezana izrezane izrezani izrezano izrezao izreže izrežem izrežemo izrežete izrežeš izreži izrežite izrežu

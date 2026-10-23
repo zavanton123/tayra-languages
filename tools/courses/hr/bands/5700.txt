@@ -1,0 +1,100 @@
+1	5601	jarac	jarca jarce jarcem jarci jarcima jarcu jarče jarčeve
+2	5602	uklopiti	
+3	5603	naplata	naplate naplati naplatom naplatu
+4	5604	odmetnik	odmetnici odmetnicima odmetnika odmetnike odmetnikom odmetniku odmetniče
+5	5605	pretinac	pretinaca pretinca pretince pretincima pretincu
+6	5606	viza	vizama vize vizi vizom vizu
+7	5607	opeći	opekao opekla opekli opeklo opeku opeče opečen opečena opečene opečeni opečeno opečeš
+8	5608	živahan	živahna živahne živahni živahnije živahnim živahno živahnog živahnom živahnu
+9	5609	slijed	sled slede slijeda slijede slijedom slijedu sljedova
+10	5610	ovolik	ovolika ovolike ovoliki ovolikim ovolikog ovolikoj ovolikom ovoliku
+11	5611	tužiteljstvo	tužiteljstva tužiteljstvom tužiteljstvu
+12	5612	impuls	impulsa impulse impulsi impulsima impulsom impulsu
+13	5613	obustaviti	obustave obustavi obustavila obustavili obustavim obustavimo obustavio obustavite obustavljen obustavljena obustavljene obustavljeni obustavljeno
+14	5614	ubuduće	
+15	5615	vodoinstalater	vodoinstalatera vodoinstalatere vodoinstalateri vodoinstalaterom vodoinstalateru
+16	5616	fajl	fajla fajlova fajlove fajlovi fajlovima fajlu
+17	5617	kormilo	kormila kormilom kormilu
+18	5618	sofa	sofe sofi sofu
+19	5619	čeljust	čeljusti čeljustima
+20	5620	imenik	imenici imenicima imenika imenike imenikom imeniku
+21	5621	ale	
+22	5622	krhotina	krhotinama krhotine krhotinu
+23	5623	opklada	opklade opkladi opkladu
+24	5624	gama	game gami gamu
+25	5625	umišljati	umišlja umišljaj umišljaju umišljam umišljate umišljaš
+26	5626	dobavljač	dobavljača dobavljače dobavljačem dobavljači dobavljačima dobavljaču
+27	5627	svodnik	svodnici svodnicima svodnika svodnike svodnikom svodniku svodniče
+28	5628	šaputati	šaputala šaputale šaputali šaputao šapuće šapućem šapućemo šapućete šapućeš šapući šapuću
+29	5629	brana	brane brani branom branu
+30	5630	ohrabriti	ohrabren ohrabrena ohrabreni ohrabrenje ohrabri ohrabrila ohrabrili ohrabrilo ohrabrim ohrabrimo ohrabrio ohrabrite ohrabriš
+31	5631	povisiti	povise povisi povisila povisili povisimo povisio povisite povišen povišena povišene povišeni povišeno
+32	5632	racionalan	racionalna racionalne racionalni racionalnih racionalnim racionalno racionalnog racionalnom racionalnu
+33	5633	opijati	opija opijaju opijajući opijala opijali opijam opijamo opijanje opijao opijate opijaš
+34	5634	vlasnica	vlasnice vlasnici vlasnicom vlasnicu
+35	5635	drek	dreka dreke drekom dreku
+36	5636	serum	seruma serumom serumu
+37	5637	f	
+38	5638	odvojeno	
+39	5639	ubrzavati	ubrzava ubrzavaju ubrzavajući ubrzavam ubrzavamo ubrzavanje ubrzavao ubrzavaš
+40	5640	ratovati	ratovala ratovali ratovao ratuje ratujem ratujemo ratujete ratuješ ratuju
+41	5641	samica	samicama samice samici samicu
+42	5642	kompić	kompića kompiće kompićem kompići kompićima kompiću
+43	5643	minimalan	minimalna minimalne minimalni minimalnih minimalnim minimalnog minimalnoj minimalnom minimalnu
+44	5644	košnica	košnicama košnice košnici košnicom košnicu
+45	5645	sklapati	sklapa sklapaj sklapaju sklapajući sklapala sklapali sklapam sklapamo sklapanje sklapao sklapate sklapaš
+46	5646	ošišati	ošiša ošišaj ošišaju ošišala ošišali ošišam ošišan ošišane ošišani ošišao ošišaš
+47	5647	amandman	amandmana amandmanom amandmanu
+48	5648	osiguravati	osigurava osiguravaju osiguravajući osiguravala osiguravali osiguravam osiguravamo osiguravanje osiguravao osiguravate osiguravaš
+49	5649	formacija	formacijama formacije formaciji formaciju
+50	5650	prepirati	prepirala prepirali prepiranje prepirao prepire prepirem prepiremo prepirete prepireš prepiri prepiru
+51	5651	osvježiti	osveži osvežim osvežiti osvježen osvježi osvježila osvježili osvježim osvježimo osvježio osvježite osvježiš
+52	5652	tempo	tempa tempom tempu
+53	5653	opstati	opstala opstale opstali opstalo opstane opstanem opstanemo opstanu opstao
+54	5654	kancelar	kancelara kancelare kancelarom kancelaru
+55	5655	štimati	štima štimaju štimalo
+56	5656	izvršavati	izvršava izvršavaj izvršavaju izvršavajući izvršavala izvršavali izvršavam izvršavamo izvršavanje izvršavao izvršavate izvršavaš
+57	5657	rasplakati	rasplakala rasplakali rasplakalo rasplakao rasplače rasplačem rasplačeš rasplaču
+58	5658	automat	automata automate automati automatima automatom automatu
+59	5659	plata	platama plate plati plato platoa platom platou platu
+60	5660	žuta	
+61	5661	spasilac	spasilaca spasioca spasioce spasioci spasiocima spasiocu spasioče
+62	5662	upotrebljavati	upotrebljava upotrebljavaj upotrebljavajte upotrebljavaju upotrebljavajući upotrebljavala upotrebljavali upotrebljavam upotrebljavamo upotrebljavan upotrebljavao upotrebljavate upotrebljavaš
+63	5663	suv	suva suve suvi suvih suvim suvo suvog suvom suvu
+64	5664	tuđinac	tuđinaca tuđinca tuđince tuđincem tuđinci tuđincima tuđinka
+65	5665	knjižara	knjižarama knjižare knjižari knjižaru
+66	5666	mjuzikl	mjuzikla mjuzikle mjuzikli mjuziklima mjuziklu
+67	5667	ragbi	ragbija ragbijem ragbiju
+68	5668	nejasno	
+69	5669	ekstremno	
+70	5670	brašno	brašna brašnom brašnu
+71	5671	taksist	taksista taksiste taksisti taksistom taksistu
+72	5672	nasljedstvo	nasljedstva nasljedstvom nasljedstvu
+73	5673	ropstvo	ropstva ropstvom ropstvu
+74	5674	neznanje	neznanja neznanjem neznanju
+75	5675	naručivati	naručivala naručivali naručivanje naručivao naručuj naručuje naručujem naručujemo naručujete naručuješ naručuju
+76	5676	un	
+77	5677	poručiti	poruči poručila poručili poručim poručimo poručio poručite poručiš
+78	5678	odstraniti	odstrane odstrani odstranila odstranili odstranim odstranimo odstranio odstranite odstraniš odstranjen odstranjena odstranjeni odstranjeno
+79	5679	nedaleko	
+80	5680	ispovijed	ispoved ispovedi ispovijedi
+81	5681	zabosti	zabode zabodem zaboden zabodena zabodene zabodeš zabodi zabodu zabola zabole zaboli
+82	5682	jok	
+83	5683	svlačionica	svlačionicama svlačionice svlačionici svlačionicu
+84	5684	mehanički	mehanička mehaničke mehaničkih mehaničkim mehaničko mehaničkog mehaničkom mehaničku
+85	5685	podrijetlo	podrijetla podrijetlom podrijetlu
+86	5686	neprocjenjiv	neprocenjiv neprocenjiva neprocenjive neprocenjivo neprocjenjiva neprocjenjive neprocjenjivi neprocjenjivim neprocjenjivo neprocjenjivog neprocjenjivu
+87	5687	obilaziti	obilaze obilazeći obilazi obilazila obilazili obilazim obilazimo obilazio obilazite obilaziš obilaženje
+88	5688	štos	štosa štosove štosu
+89	5689	izboriti	izbore izbori izborila izborili izborim izborimo izborio izborite izboriću izboriš
+90	5690	sprava	spravama sprave spravi spravom spravu
+91	5691	janje	janjad janjadi janjeta janjetu
+92	5692	ševa	ševe ševi ševom ševu
+93	5693	propovjednik	propovednik propovednika propovjednici propovjednika propovjednike propovjednikom propovjedniku propovjedniče
+94	5694	nabaciti	nabace nabaci nabacila nabacili nabacim nabacimo nabacio nabacite nabaciš
+95	5695	prijam	prijama prijma prijmu
+96	5696	šašav	šašava šašave šašavi šašavih šašavim šašavog šašavom šašavu
+97	5697	probosti	probode probodem proboden probodena probodeni probodeno probodeš probodi probodu probola proboli probolo proboo
+98	5698	svinjetina	svinjetine svinjetini svinjetinom svinjetinu
+99	5699	zvanično	
+100	5700	džentlmen	džentlmena džentlmene džentlmeni džentlmenom džentlmenu

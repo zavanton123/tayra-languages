@@ -1,0 +1,100 @@
+1	3201	popustiti	popuste popusti popustila popustile popustili popustilo popustim popustimo popustio popustite popustiš
+2	3202	odrezati	odrezala odrezali odrezan odrezana odrezane odrezani odrezano odrezao odreže odrežem odrežemo odrežete odrežeš odreži odrežite odrežu
+3	3203	infekcija	infekcijama infekcije infekciji infekcijom infekciju
+4	3204	sedmi	sedma sedme sedmo sedmog sedmoga sedmoj sedmom sedmu
+5	3205	vozački	vozačka vozačke vozačkih vozačkim vozačko vozačkog vozačkoj vozačkom vozačku
+6	3206	prtljažnik	prtljažnika prtljažnikom prtljažniku
+7	3207	uzbuđenje	uzbuđenja uzbuđenjem uzbuđenjima uzbuđenju
+8	3208	značenje	značenja značenjem značenju
+9	3209	okidač	okidača okidače okidačem okidači okidaču
+10	3210	nagađati	nagađa nagađaj nagađajte nagađaju nagađam nagađamo nagađanja nagađanje nagađate nagađaš
+11	3211	tjelesni	telesna telesne telesni telesnih telesnu tjelesna tjelesne tjelesnih tjelesnim tjelesno tjelesnog tjelesnoga tjelesnoj tjelesnom tjelesnu
+12	3212	ploviti	plove ploveći plovi plovila plovili plovilima plovilo plovilom plovilu plovim plovimo plovio plovite ploviš
+13	3213	cirkus	cirkusa cirkuse cirkusi cirkusom cirkusu
+14	3214	ispostaviti	ispostave ispostavi ispostavilo ispostavio
+15	3215	pozadina	pozadinama pozadine pozadini pozadinom pozadinu
+16	3216	sporazum	sporazuma sporazume sporazumi sporazumima sporazumom sporazumu
+17	3217	stožer	stožera stožerom stožeru
+18	3218	plastičan	plastična plastične plastični plastičnih plastičnim plastičnog plastičnoj plastičnom plastičnu
+19	3219	biološki	biološka biološke bioloških biološkim biološko biološkog biološkoj biološkom biološku
+20	3220	poremećaj	poremećaja poremećaje poremećajem poremećaji poremećajima poremećaju
+21	3221	osramotiti	osramote osramoti osramotila osramotili osramotilo osramotim osramotimo osramotio osramotite osramotiš osramoćen osramoćena osramoćeni osramoćeno
+22	3222	mit	mita mitom mitova mitove mitovi mitovima mitu
+23	3223	pčela	pčelama pčele pčeli pčelica pčelo pčelom pčelu
+24	3224	nesporazum	nesporazuma nesporazume nesporazumi nesporazumom nesporazumu
+25	3225	cigara	cigarama cigare cigari cigarom cigaru
+26	3226	teretana	teretanama teretane teretani teretanom teretanu
+27	3227	vrhovni	vrhovna vrhovne vrhovnih vrhovnim vrhovno vrhovnog vrhovnoga vrhovnoj vrhovnom vrhovnome vrhovnu
+28	3228	pojava	pojavama pojave pojavi pojavom pojavu
+29	3229	procijeniti	procene proceni procenila procenili procenim procenimo procenio procenite proceniti procenjena procenjeno procijene procijeni procijenila procijenili procijenim procijenimo procijenio procijenite procijeniš procijenjen procijenjena procijenjene procijenjeni procijenjeno
+30	3230	političar	političara političare političarem političari političarima političarom političaru
+31	3231	napadaj	napadaja napadaje napadaji napadajima napadaju
+32	3232	zglob	zgloba zglobom zglobova zglobove zglobovi zglobovima zglobu
+33	3233	nabiti	nabi nabij nabije nabijem nabijemo nabijen nabijena nabijene nabijeni nabijeno nabijete nabiješ nabijte nabiju nabila nabile nabili nabio nabit nabiću
+34	3234	daljnji	daljnja daljnje daljnjeg daljnjega daljnjem daljnjih daljnjim daljnjoj daljnju
+35	3235	buraz	
+36	3236	sklad	sklada skladu
+37	3237	pauk	pauci paucima pauka pauke paukom paukova paukove paukovi pauku pauče
+38	3238	šarmantan	šarmantna šarmantne šarmantni šarmantnim šarmantno šarmantnog šarmantnoj šarmantnom šarmantnu
+39	3239	spakirati	spakira spakiraj spakirajmo spakirajte spakiraju spakiram spakiramo spakirate spakiraš
+40	3240	banana	bananama banane banani banano bananom bananu
+41	3241	močvara	močvarama močvare močvari močvarom močvaru
+42	3242	alfa	alfe alfi alfom alfu
+43	3243	povreda	povredama povrede povredi povredom povredu
+44	3244	pristupiti	pristupe pristupi pristupila pristupili pristupilo pristupim pristupimo pristupio pristupite pristupiš
+45	3245	zavjet	zavet zaveta zavete zaveti zavetima zavetu zavjeta zavjete zavjeti zavjetima zavjetom zavjetu
+46	3246	sahraniti	sahrane sahrani sahranila sahranili sahranim sahranimo sahranio sahranite sahraniću sahraniš sahranjen sahranjena sahranjene sahranjeni sahranjeno
+47	3247	okvir	okvira okvire okviri okvirima okvirom okviru
+48	3248	kila	kile kili kilo kilom kilu
+49	3249	pećina	pećinama pećine pećini pećinom pećinu
+50	3250	doušnik	doušnici doušnicima doušnika doušnike doušnikom doušniku
+51	3251	impresivno	
+52	3252	proteći	protekao protekla protekle protekli proteklih proteklo protekne
+53	3253	izraziti	izraze izrazi izrazila izrazile izrazili izrazim izrazimo izrazite izraziš izražen izražena izražene izraženi izraženo
+54	3254	palac	palaca palca palce palcem palci palcima palcu palčeva palčeve palčevi palčevima
+55	3255	precizan	najprecizniji precizna precizne precizni preciznih preciznija preciznije precizniji preciznim preciznog preciznom preciznu
+56	3256	toplina	topline toplini toplinom toplinu
+57	3257	dopasti	dopadne dopadnem dopadnu dopala dopale dopali dopalo dopao dopašće
+58	3258	poticati	poticala poticali poticalo poticanje poticao potiče potičem potičemo potičete potičeš potiči potiču potičući
+59	3259	preporučiti	preporučen preporučena preporučene preporučeni preporučeno preporuči preporučila preporučili preporučim preporučio preporučite preporučiću preporučiš
+60	3260	tužilac	tužilaca tužioca tužioce tužiocem tužioci tužiocima tužiocu tužioče
+61	3261	domaćin	domaćina domaćine domaćini domaćinima domaćinom domaćinu
+62	3262	neuspjeh	neuspeh neuspeha neuspjeha neuspjehe neuspjehom neuspjehu neuspjesi neuspjesima
+63	3263	popravak	popravaka popravci popravcima popravka popravke popravkom popravku
+64	3264	posjećivati	posećivala posećivao posećivati posećuje posećujem posećujemo posećuješ posećuju posjećivala posjećivali posjećivanje posjećivao posjećuje posjećujem posjećujemo posjećujete posjećuješ posjećuju
+65	3265	dizalo	dizala dizalima dizalom dizalu
+66	3266	prijava	prijavama prijave prijavi prijavo prijavom prijavu
+67	3267	uobičajeno	
+68	3268	struktura	strukturama strukture strukturi strukturom strukturu
+69	3269	sulud	suluda sulude suludi suludih suludim suludo suludog suludom suludu
+70	3270	tenk	tenka tenkom tenkova tenkove tenkovi tenkovima tenku
+71	3271	pogon	pogona
+72	3272	lane	
+73	3273	pojačanje	
+74	3274	tablica	tablicama tablice tablici tablicom tablicu
+75	3275	gristi	grizao grize grizem grizemo grizete grizeš grizi grizite grizla grizle grizli grizlo grizu
+76	3276	reputacija	reputacije reputaciji reputacijom reputaciju
+77	3277	rukopis	rukopisa rukopise rukopisi rukopisima rukopisom rukopisu
+78	3278	pogreb	pogreba pogrebe pogrebi pogrebima pogrebom pogrebu
+79	3279	gluma	glume glumi glumom glumu
+80	3280	ada	adama ade adi ado adom adu
+81	3281	desert	deserta deserte deserti desertima desertom desertu
+82	3282	nadimak	nadimaka nadimci nadimcima nadimka nadimke nadimkom nadimku
+83	3283	moda	mode modi modom modu
+84	3284	trupa	trupama trupe trupi trupom trupu
+85	3285	pecati	peca pecaj pecaju pecala pecali pecam pecamo pecanje pecao pecate pecaš
+86	3286	promaknuti	promakao promakla promakle promakli promaklo promakne promaknu promaknula promaknuli promaknulo promaknuo promaknut promaknuta promaći
+87	3287	razbijati	razbija razbijaj razbijajte razbijaju razbijajući razbijam razbijamo razbijanje razbijate razbijaš
+88	3288	procedura	procedurama procedure proceduri procedurom proceduru
+89	3289	pozdravljati	pozdravlja pozdravljaj pozdravljaju pozdravljajući pozdravljala pozdravljali pozdravljam pozdravljamo pozdravljanje pozdravljao pozdravljate pozdravljaš
+90	3290	stup	stupa stupe stupi stupom stupova stupove stupovi stupovima stupu
+91	3291	nafta	nafte nafti naftom naftu
+92	3292	izvana	
+93	3293	tretman	tretmana tretmane tretmanom tretmanu
+94	3294	okriviti	okrive okrivi okrivila okrivili okrivim okrivimo okrivio okrivite okriviš okrivljen okrivljena okrivljeni
+95	3295	praksa	praksama prakse praksi praksom praksu
+96	3296	zastupati	zastupa zastupaju zastupala zastupali zastupam zastupamo zastupanje zastupao zastupate zastupaš
+97	3297	razmjena	razmena razmene razmeni razmenu razmjene razmjeni razmjenom razmjenu
+98	3298	sprovod	sprovoda sprovode sprovodi sprovodima sprovodom sprovodu
+99	3299	žaba	žabama žabe žabi žabica žabice žabicu žablja žablje žablji žabo žabom žabu
+100	3300	nadzirati	nadzirala nadzirali nadziran nadzirane nadzirani nadziranje nadzirao nadzire nadzirem nadziremo nadzirete nadzireš nadziri nadzirite nadziru

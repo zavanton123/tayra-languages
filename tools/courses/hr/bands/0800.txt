@@ -1,0 +1,100 @@
+1	701	slomiti	slome slomi slomila slomile slomili slomilo slomim slomimo slomio slomite slomiće slomićeš slomiću slomiš slomljen slomljena slomljene slomljeni slomljeno
+2	702	iskoristiti	iskoriste iskoristi iskoristila iskoristile iskoristili iskoristilo iskoristim iskoristimo iskoristio iskoristite iskoristivši iskoristiće iskoristićemo iskoristiću iskoristiš iskorišten iskorištena iskorištene iskorišteni iskorišteno
+3	703	ostajati	ostajala ostajale ostajali ostajalo ostajanje ostajao ostaje ostajem ostajemo ostajete ostaješ ostaju ostajući
+4	704	mijenjati	menja menjaj menjajte menjaju menjala menjali menjam menjamo menjanje menjao menjate menjati menjaš mijenja mijenjaj mijenjajmo mijenjajte mijenjaju mijenjajući mijenjala mijenjale mijenjali mijenjalo mijenjam mijenjamo mijenjana mijenjani mijenjanje mijenjao mijenjate mijenjaš
+5	705	planirati	planira planiraj planirajte planiraju planirajući planirala planirale planirali planiram planiramo planiran planirana planirane planirani planiranje planirao planirate planiraš
+6	706	kasniti	kasne kasni kasnila kasnile kasnili kasnilo kasnim kasnimo kasnio kasnite kasniš kašnjenje
+7	707	planet	planeta planetama planete planeti planetima planetom planetu
+8	708	greška	grešaka grešci greškama greške greškom grešku
+9	709	pokušaj	pokušaja pokušaje pokušajem pokušaji pokušajima pokušaju
+10	710	nesreća	nesrećama nesreće nesreći nesrećo nesrećom nesreću
+11	711	poseban	posebna posebne posebni posebnih posebnim posebnima posebnog posebnoga posebnoj posebnom posebnu
+12	712	budala	budalama budale budali budalo budalom budalu
+13	713	pogled	pogleda poglede pogledi pogledima pogledom pogledu
+14	714	ispričavati	ispričava ispričavaj ispričavajte ispričavaju ispričavajući ispričavala ispričavam ispričavamo ispričavanje ispričavao ispričavate ispričavaš
+15	715	sustav	sustava sustave sustavi sustavima sustavom sustavu
+16	716	pokupiti	pokupe pokupi pokupila pokupile pokupili pokupilo pokupim pokupimo pokupio pokupite pokupiće pokupićemo pokupićeš pokupiću pokupiš pokupljen pokupljena pokupljeni pokupljeno
+17	717	klijent	klijenata klijenta klijente klijenti klijentica klijentice klijentici klijenticom klijenticu klijentima klijentom klijentu
+18	718	neprijatelj	neprijatelja neprijatelje neprijateljem neprijatelji neprijateljima neprijatelju
+19	719	odbiti	odbi odbij odbije odbijem odbijemo odbijen odbijena odbijene odbijeni odbijeno odbijete odbiješ odbijte odbiju odbila odbile odbili odbilo odbio odbivši odbiću
+20	720	klinac	klinaca klinca klince klincem klinci klincima klincu klinče
+21	721	svjedok	svedoci svedocima svedok svedoka svedoke svedokom svedoku svedoče svjedoci svjedocima svjedoka svjedoke svjedokom svjedoku svjedoče
+22	722	preuzeti	preuzela preuzele preuzeli preuzelo preuzeo preuzet preuzeta preuzete preuzeto preuzeće preuzećemo preuzeću preuzme preuzmem preuzmemo preuzmete preuzmeš preuzmi preuzmimo preuzmite preuzmu
+23	723	prati	pere perem peremo perete pereš peri perite peru perući prah praha prahom prahu prala prali pran prana pranja pranje pranjem pranju prao praše
+24	724	metak	meci mecima metaka metka metke metkom metku
+25	725	pravilo	pravila pravilima pravilom pravilu
+26	726	zabrinut	zabrine zabrinem zabrinemo zabrineš zabrini zabrinu zabrinula zabrinule zabrinuli zabrinulo zabrinuo zabrinuta zabrinute zabrinuti zabrinutih zabrinutija zabrinutiji zabrinutim zabrinuto zabrinutog zabrinutom zabrinutu
+27	727	predati	preda predaj predajmo predajte predaju predala predale predali predalo predam predamo predan predana predane predani predano predao predate predaćemo predaćeš predaću predaš
+28	728	crkva	crkava crkvama crkve crkvena crkvene crkveni crkvenih crkvenim crkveno crkvenog crkvenoj crkvenom crkvenu crkvi crkvom crkvu
+29	729	izabrati	izabere izaberem izaberemo izaberete izabereš izaberi izaberimo izaberite izaberu izabrala izabrale izabrali izabralo izabrao izabravši izabraćemo izabraću
+30	730	jučer	
+31	731	sir	sira sireva sireve sirevi sirevima sirom siru
+32	732	prozor	prozora prozore prozori prozorima prozorom prozoru
+33	733	djelovati	delovala delovali delovalo delovanja delovanje delovao delovati deluje delujem delujemo delujete deluješ deluju djelovala djelovale djelovali djelovalo djelovanja djelovanje djelovanjem djelovanju djelovao djeluj djeluje djelujem djelujemo djelujete djeluješ djelujte djeluju djelujući
+34	734	zatvoriti	zatvore zatvori zatvorila zatvorile zatvorili zatvorilo zatvorim zatvorimo zatvorio zatvorite zatvorivši zatvoriće zatvoriću zatvoriš
+35	735	inače	
+36	736	ulaz	ulaza ulaze ulazi ulazima ulazom ulazu
+37	737	plakati	plakala plakale plakali plakalo plakanja plakanje plakanjem plakanju plakao plače plačem plačemo plačete plačeš plači plačite plaču plačući
+38	738	idiot	idiota idiote idioti idiotima idiotom idiotu
+39	739	pripremiti	pripreme pripremi pripremila pripremile pripremili pripremilo pripremim pripremimo pripremio pripremite pripremiću pripremiš pripremljena pripremljene pripremljeni pripremljeno
+40	740	trčati	trčala trčale trčali trčalo trčanje trčao trče trčeći trči trčim trčimo trčite trčiš
+41	741	sresti	srela srele sreli sreo sretne sretnem sretnemo sretnete sretneš sretni sretnimo sretnu sretoh srešćemo srešćeš
+42	742	strah	straha strahom strahova strahove strahovi strahovima strahu
+43	743	dogovoriti	dogovore dogovoren dogovorena dogovorene dogovoreni dogovoreno dogovori dogovorila dogovorile dogovorili dogovorim dogovorimo dogovorio dogovorite dogovorićemo dogovoriću dogovoriš
+44	744	video	videa videima videom videu
+45	745	komad	komada komade komadi komadima komadić komadom komadu
+46	746	izbaciti	izbace izbaci izbacila izbacile izbacili izbacilo izbacim izbacimo izbacio izbacite izbaciće izbaciću izbaciš izbačen izbačena izbačene izbačeni izbačeno
+47	747	jedva	
+48	748	među	
+49	749	savršen	najsavršenija najsavršenije najsavršeniji savršena savršene savršeni savršenih savršenije savršeniji savršenim savršenog savršenoga savršenoj savršenom savršenu
+50	750	rupa	rupama rupe rupetina rupetine rupetini rupetinu rupi rupica rupom rupu rupčaga
+51	751	pjevati	peva pevaj pevajte pevaju pevajući pevala pevale pevali pevam pevamo pevanje pevao pevate pevati pevaćemo pevaću pevaš pjeva pjevaj pjevajmo pjevajte pjevaju pjevajući pjevala pjevale pjevali pjevalo pjevam pjevamo pjevanje pjevao pjevate pjevaš
+52	752	zgodan	najzgodnija najzgodnije najzgodnijeg najzgodniji najzgodnijih najzgodnijim najzgodniju zgodna zgodne zgodni zgodnih zgodnija zgodnije zgodnijeg zgodniji zgodnim zgodno zgodnog zgodnoga zgodnoj zgodnom zgodnu
+53	753	dvojica	dvojice dvojici dvojicom dvojicu
+54	754	kutija	kutijama kutije kutiji kutijo kutijom kutiju
+55	755	narod	naroda narode narodi narodima narodom narodu
+56	756	uhititi	uhite uhiti uhitila uhitile uhitili uhitim uhitimo uhitio uhitite uhitiš uhićen uhićena uhićene uhićeni uhićeno
+57	757	obično	
+58	758	osjetiti	osete oseti osetila osetili osetilo osetim osetimo osetio osetite osetiti osetićeš osetiš osjete osjeti osjetih osjetile osjetili osjetim osjetimo osjetio osjetite osjetivši osjetiš
+59	759	boja	bojama boje boji bojom boju
+60	760	zauvijek	zauvek
+61	761	odličan	odlična odlične odlični odličnih odličnim odličnog odličnoj odličnom odličnu
+62	762	bomba	bombama bombe bombi bombo bombom bombu
+63	763	zatim	
+64	764	kurac	kuraca kurca kurce kurcem kurci kurcima kurcu kurče kurčeva kurčeve kurčevi kurčevima
+65	765	sunce	sunaca sunca suncem suncu
+66	766	glazba	glazbe glazbeni glazbi glazbom glazbu
+67	767	pripadati	pripada pripadaju pripadala pripadale pripadali pripadalo pripadam pripadamo pripadao pripadate pripadaš
+68	768	uvjeriti	uvere uverenja uverenje uveri uverila uverili uverim uverimo uverio uverite uveriti uveriš uvjere uvjerenja uvjerenje uvjerenjem uvjerenjima uvjerenju uvjeri uvjerila uvjerile uvjerili uvjerilo uvjerim uvjerimo uvjerio uvjerite uvjeriš
+69	769	američki	američka američke američkih američkim američko američkog američkoga američkoj američkom američkome američku
+70	770	svakako	
+71	771	ustati	ustala ustale ustali ustalo ustane ustanem ustanemo ustanete ustaneš ustani ustanimo ustanite ustanu ustao ustaću
+72	772	oprost	oprosta oproste oprosti oprostom oprostu
+73	773	gle	
+74	774	pored	
+75	775	pridružiti	pridruže pridružen pridružena pridruži pridružila pridružile pridružili pridružilo pridružim pridružimo pridružio pridružite pridružiće pridružićemo pridružićeš pridružiću pridružiš
+76	776	eto	ete
+77	777	pacijent	pacijenata pacijenta pacijente pacijenti pacijentima pacijentom pacijentu
+78	778	liječnik	liječnica liječnice liječnici liječnicima liječnicom liječnicu liječnika liječnike liječnikom liječniku liječniče
+79	779	odnos	odnosa odnose odnosi odnosima odnosom odnosu
+80	780	stizati	stizala stizale stizali stizalo stizao stiže stižem stižemo stižete stižeš stižu
+81	781	vjenčanje	venčanja venčanje venčanjem venčanju vjenčanja vjenčanjem vjenčanjima vjenčanju
+82	782	moral	morala moralom moralu
+83	783	cijena	cena cenama cene ceni cenom cenu cijenama cijene cijeni cijenom cijenu
+84	784	snimak	snimaka snimci snimcima snimka snimkama snimke snimki snimkom snimku
+85	785	vlada	vladama vlade vladi vlado vladom vladu
+86	786	promjena	promena promenama promene promeni promenom promenu promjenama promjene promjeni promjenom promjenu
+87	787	linija	linijama linije liniji linijom liniju
+88	788	popraviti	poprave popravi popravila popravile popravili popravilo popravim popravimo popravio popravite popravićemo popraviću popraviš popravljen popravljena popravljene popravljeni popravljeno
+89	789	natjerati	natera nateraj naterajte nateraju naterala naterale naterali nateralo nateram nateramo nateran naterao naterate naterati nateraće nateraćemo nateraćeš nateraću nateraš natjera natjeraj natjerajmo natjerajte natjeraju natjerala natjerale natjerali natjeralo natjeram natjeramo natjeran natjerana natjerani natjerao natjerate natjeravši natjeraću natjeraš
+90	790	pivo	piva pivom pivu
+91	791	svidjeti	svide svidela svidele svideli svidelo svideo svideti svideće svidi svidim svidimo svidio svidite svidiš svidjela svidjele svidjeli svidjelo svidjeće
+92	792	usta	ustima
+93	793	ručak	ručka ručkama ručke ručki ručkom ručkova ručkove ručkovi ručkovima ručku
+94	794	opasan	najopasnija najopasnije najopasnijeg najopasnijem najopasniji najopasnijih najopasnijim najopasniju opasna opasne opasni opasnih opasnija opasnije opasnijeg opasniji opasnijim opasnim opasnima opasnog opasnoj opasnom opasnu
+95	795	treći	treća treće trećeg trećem trećim trećoj treću
+96	796	jebeno	
+97	797	grupa	grupama grupe grupi grupo grupom grupu
+98	798	savršeno	
+99	799	svatko	svakim svakog svakoga svakome svakomu
+100	800	zaljubiti	zaljube zaljubi zaljubila zaljubile zaljubili zaljubim zaljubimo zaljubio zaljubite zaljubiš zaljubljen zaljubljena zaljubljene zaljubljeni zaljubljeno

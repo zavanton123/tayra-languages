@@ -1,0 +1,100 @@
+1	9301	koordinacija	koordinacije koordinaciji koordinaciju
+2	9302	sirot	sirote siroti sirotih sirotim siroto sirotog sirotoga sirotoj sirotom sirotu
+3	9303	razaranje	
+4	9304	čem	
+5	9305	prečac	
+6	9306	meteorit	meteorita meteoriti meteoritima
+7	9307	treptaj	treptaja treptajem treptaju
+8	9308	rezervisati	rezervisala rezervisali rezervisao rezerviše rezervišem rezervišeš rezerviši
+9	9309	opozicija	opozicije opoziciji opoziciju
+10	9310	fen	fenom
+11	9311	fijasko	fijaska
+12	9312	papirni	papirna papirne papirnih papirnim papirnoj papirnu
+13	9313	iskaljivati	iskaljivao iskaljuj iskaljuje iskaljujem iskaljuješ iskaljuju
+14	9314	potkopavati	potkopava potkopavaju potkopavanje potkopavao potkopavaš
+15	9315	tračati	trača tračaju tračala tračali tračam tračanje tračate tračaš
+16	9316	proglas	proglasa proglase proglasi
+17	9317	kube	
+18	9318	gostoljubivost	gostoljubivosti
+19	9319	kolektiv	kolektiva kolektivom kolektivu
+20	9320	nestašica	nestašice nestašici nestašicu
+21	9321	utući	utučen utučena utučeni utučeno
+22	9322	potkrovlje	
+23	9323	server	servera
+24	9324	hodočašće	hodočašća hodočašću
+25	9325	knjižničar	knjižničara knjižničari
+26	9326	cjenkati	cjenka cjenkam cjenkanje cjenkaš
+27	9327	dlačica	dlačicama dlačice dlačicu
+28	9328	mislilac	mislilaca mislioca mislioce mislioci
+29	9329	gospodična	gospodične gospodičnu
+30	9330	implikacija	implikacijama implikacije
+31	9331	tetkica	tetkice tetkicu
+32	9332	regulirati	regulira reguliraju reguliran regulirana reguliranje regulirano
+33	9333	pokleknuti	poklekla poklekne pokleknem poklekneš pokleknu pokleknula pokleknuli pokleknuo
+34	9334	sasjeći	sasjekao sasjekla sasjekli sasječen
+35	9335	kolebati	koleba kolebaju kolebala kolebam kolebanje kolebao
+36	9336	nesvjestica	nesvjestice nesvjestici nesvjesticu
+37	9337	epilepsija	epilepsije epilepsijom epilepsiju
+38	9338	alatka	alatkama alatke alatki alatkom alatku
+39	9339	stas	stasa stasom stasu
+40	9340	neprestan	neprestana neprestane neprestani neprestanim neprestanog neprestanom neprestanu
+41	9341	odbraniti	odbrane odbrani odbranili odbranim odbranimo odbranio odbranite
+42	9342	kormilar	kormilara kormilari kormilaru
+43	9343	tinejdžerica	
+44	9344	natječaj	natječaja natječaju
+45	9345	nemogućnost	nemogućnosti
+46	9346	koljač	koljača koljači koljaču
+47	9347	neiskren	neiskrena neiskrene neiskreni neiskreno
+48	9348	rafinerija	rafinerije rafineriji rafineriju
+49	9349	bradat	bradata bradate bradati bradatim bradatog bradatu
+50	9350	avijacija	avijacije avijaciji avijaciju
+51	9351	skuvati	skuva skuvaj skuvala skuvam skuvamo skuvao skuvaću skuvaš
+52	9352	upoznavati	upoznajte
+53	9353	djelatnost	djelatnosti djelatnostima
+54	9354	radikal	radikala radikale radikali radikalima
+55	9355	nijekati	nijekanje nijekao niječe niječem niječete niječeš niječu
+56	9356	mahuna	mahunama mahune mahuni
+57	9357	skupnik	skupnika skupniku skupniče
+58	9358	nedostižan	nedostižna nedostižne nedostižni nedostižnim nedostižno nedostižnog
+59	9359	spokojan	spokojna spokojni
+60	9360	intenzitet	intenziteta intenzitetom intenzitetu
+61	9361	budilica	budilice budilicu
+62	9362	građevinar	građevinara građevinare građevinari građevinarima
+63	9363	mrcina	mrcine mrcino mrcinu
+64	9364	prasnuti	prasne prasnemo prasnula prasnuli prasnuo
+65	9365	nekidan	
+66	9366	polarni	
+67	9367	izumirati	izumiranje izumire izumiru
+68	9368	mljekar	mljekara mljekare mljekari mljekarom mljekaru
+69	9369	imela	imele imelom imelu omela
+70	9370	propuh	propuha propuhu
+71	9371	priviđenje	priviđenja
+72	9372	ljevica	levica ljevice ljevicom ljevicu
+73	9373	nabor	nabora nabore nabori naborima
+74	9374	fasada	fasade fasadi fasadu
+75	9375	pješadija	pješadije pješadiji pješadijom pješadiju
+76	9376	anarhist	anarhista anarhiste anarhisti
+77	9377	pakistanski	pakistanska pakistanske pakistanskih pakistanskog pakistanskoj pakistanskom pakistansku
+78	9378	štivo	
+79	9379	djetešce	
+80	9380	nepogrešiv	nepogrešiva nepogrešivi nepogrešivo
+81	9381	maketa	makete maketi maketu
+82	9382	menopauza	menopauze menopauzi menopauzu
+83	9383	likvidirati	likvidira likvidiraju likvidirali likvidiram likvidiran likvidirana likvidirani likvidirao
+84	9384	gangsterski	gangsterska gangsterske gangsterskih gangsterskim gangstersko gangsterskog gangsterskom
+85	9385	dopuniti	dopune dopuni dopunim dopunimo dopunio dopunite
+86	9386	njuh	njuha njuhom njuše
+87	9387	nepce	nepca nepcu
+88	9388	pizdek	pizdeka pizdeki pizdeku
+89	9389	skela	skelama skele skeli skelu
+90	9390	sačiniti	sačinio sačinjen sačinjena sačinjene sačinjeni sačinjeno
+91	9391	dovoziti	dovoze dovozi dovozili dovozim dovozimo dovozio
+92	9392	keltski	keltska keltske keltskih keltskim keltsko keltskog keltskoj keltskom keltsku
+93	9393	kontuzija	kontuzije kontuziju
+94	9394	iscrpljivati	iscrpljivanje iscrpljuje iscrpljuješ iscrpljuju iscrpljujući
+95	9395	pitak	pitka pitke pitko pitku
+96	9396	ledenjak	ledenjaci ledenjaka ledenjaku
+97	9397	nesigurnost	
+98	9398	kretnja	kretnjama kretnje kretnji kretnju
+99	9399	besmrtnik	besmrtnici besmrtnicima besmrtnika besmrtnike
+100	9400	probaviti	probave probavi probavio

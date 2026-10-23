@@ -1,0 +1,100 @@
+1	8601	izuti	izuj izuje izujem izuješ izujte izula izuo
+2	8602	angažiran	angažirana angažirani
+3	8603	jugozapad	jugozapada jugozapadu
+4	8604	gusjenica	gusenica gusenice gusjenicama gusjenice gusjenicu
+5	8605	sprovoditi	sprovode sprovodi sprovodila sprovodili sprovodim sprovodimo sprovodio sprovodite sprovodiš sprovođenje sprovođenju
+6	8606	sjahati	sjaši sjašite
+7	8607	nepovjerenje	nepoverenje nepovjerenja nepovjerenjem nepovjerenju
+8	8608	osrednji	osrednja osrednje osrednjeg osrednjih osrednjim
+9	8609	krigla	krigle krigli kriglu
+10	8610	nasip	nasipa nasipi nasipom nasipu
+11	8611	pora	pore poro poru
+12	8612	mećava	mećave mećavi mećavu
+13	8613	podudarnost	podudarnosti
+14	8614	šuškati	šuška šuškaju šuškalo šuškanje
+15	8615	probavni	probavne probavnih probavnim probavnog probavnom
+16	8616	impulzivan	impulzivna impulzivni impulzivno
+17	8617	sprdati	sprda sprdaj sprdaju sprdali sprdam sprdamo sprdao sprdate sprdaš
+18	8618	priličiti	priliče priliči
+19	8619	pravosudni	pravosudna pravosudne pravosudnog pravosudnom
+20	8620	kokoška	kokošaka kokoškama kokoške kokoški kokoško kokoškom kokošku
+21	8621	obostrano	
+22	8622	sakupljač	sakupljača sakupljače sakupljači
+23	8623	umivaonik	umivaonika umivaoniku
+24	8624	patologija	patologije patologiji patologiju
+25	8625	naslon	naslona naslone nasloni naslonima naslonu
+26	8626	kunić	kunića kuniće kunići kunićima
+27	8627	spajalica	spajalicama spajalice spajalicom spajalicu
+28	8628	zapustiti	zapustila zapustili zapustio zapušten zapuštena zapušteni zapušteno
+29	8629	padina	padinama padine padini padinu
+30	8630	herc	herca
+31	8631	kopito	kopita kopitima kopitom
+32	8632	ogavan	ogavna ogavne ogavni ogavnim ogavno
+33	8633	obrazovni	obrazovna obrazovne obrazovnih obrazovno obrazovnog obrazovnom obrazovnu
+34	8634	postupno	
+35	8635	grafit	grafita grafite
+36	8636	hijerarhija	hijerarhije hijerarhiji hijerarhiju
+37	8637	sirovo	
+38	8638	zalog	zaloga
+39	8639	prazniti	prazne prazni praznili praznim praznimo praznio prazniš pražnjenje
+40	8640	psihoza	psihoze psihozom psihozu
+41	8641	bijedno	bedno
+42	8642	nokaut	nokauta nokautom
+43	8643	šljunak	šljunka šljunkom šljunku
+44	8644	kiseonik	kiseonika kiseonikom
+45	8645	okomit	okomita okomite okomiti okomito
+46	8646	upropaštavati	upropaštava upropaštavaju upropaštavam upropaštavanje upropaštavao upropaštavate upropaštavaš
+47	8647	kralješak	kralješci kralješcima kralješka kralješke kralješku kralježak kralježaka
+48	8648	prisan	prisna prisne prisni prisniji prisno
+49	8649	kamila	kamilama kamile kamili kamilo kamilom kamilu
+50	8650	sjevernjak	sjevernjaci sjevernjacima sjevernjaka sjevernjake sjevernjače
+51	8651	krivokletstvo	krivokletstva
+52	8652	slastan	slasna slasne slasni slasnih slasnog slasnom slasnu
+53	8653	izvoz	izvoza izvoze izvozi izvozom izvozu
+54	8654	maslo	masala masla maslom
+55	8655	selen	selena selene selenu
+56	8656	vidljivo	
+57	8657	mena	meno menom menu
+58	8658	aga	age agi ago agu
+59	8659	zrelost	zrelosti
+60	8660	oduševljenje	oduševljenja oduševljenjem
+61	8661	skijaški	skijaška skijaške skijaških skijaškim skijaško skijaškoj skijaškom skijašku
+62	8662	biljeg	biljega biljege biljegom biljegu biljezi bilježe
+63	8663	dragocjenost	dragocenosti dragocjenosti dragocjenostima
+64	8664	stotinjak	
+65	8665	dugmad	dugmadi
+66	8666	krš	krša kršem kršu
+67	8667	saradnja	saradnje saradnji saradnju
+68	8668	opipati	opipaj opipajte opipam opipao opipaš
+69	8669	nepromišljen	nepromišljena nepromišljene nepromišljeni nepromišljenih
+70	8670	tuberkuloza	tuberkuloze tuberkulozom tuberkulozu
+71	8671	unovčiti	
+72	8672	požurivati	
+73	8673	svetinja	svetinjama svetinje svetinju
+74	8674	rezač	rezača rezače rezačem rezači
+75	8675	toplice	toplica toplicama
+76	8676	butik	buticima butika butike butiku
+77	8677	svraćati	svraća svraćaju svraćala svraćali svraćam svraćao svraćaš
+78	8678	bludnica	bludnicama bludnice bludnici bludnicom bludnicu
+79	8679	mustra	mustre
+80	8680	znamenitost	znamenitosti znamenitostima
+81	8681	očinski	očinska očinske očinskim očinskom očinsku
+82	8682	tumarati	tumara tumaraju tumarajući tumarala tumarali tumaram tumaranje tumarao tumaraš
+83	8683	vremeplov	
+84	8684	pik	
+85	8685	caka	cake caki caku
+86	8686	katran	katrana katranom katranu
+87	8687	grejati	grej grejanje greje grejem greju
+88	8688	intelektualac	intelektualaca intelektualca intelektualce intelektualci intelektualcima
+89	8689	administrativan	administrativna administrativne administrativni administrativnih administrativnim administrativno administrativnog administrativnom administrativnu
+90	8690	pesnica	pesnicama pesnice pesnici pesnicom pesnicu
+91	8691	lupež	lupeža lupeže lupeži lupežu
+92	8692	tetiva	tetivama tetive tetivu
+93	8693	strugati	strugali struganje strugao struže stružem stružeš stružu
+94	8694	bdjeti	bdenje bdi bdije bdijem bdiješ bdiju bdjela bdjenje
+95	8695	sunčev	
+96	8696	prisilno	
+97	8697	nevrijeme	nevreme nevremena nevremenu
+98	8698	jazavac	jazavaca jazavca jazavce jazavci
+99	8699	pudlica	pudlice pudlicom pudlicu
+100	8700	kapica	kapicama kapice kapicom kapicu

@@ -1,0 +1,100 @@
+1	8201	naglavačke	
+2	8202	adaptacija	adaptacije adaptaciji adaptaciju
+3	8203	uobražen	uobražena uobražene uobraženi uobraženo
+4	8204	potrošač	potrošača potrošače potrošači potrošačima
+5	8205	više-manje	
+6	8206	osporiti	ospori osporila osporili osporim osporio osporite
+7	8207	stanište	staništa staništu
+8	8208	naklonjen	naklonjena naklonjene naklonjeni naklonjeno
+9	8209	pijaca	pijace pijaci pijacu
+10	8210	etnički	etnička etničke etničkih etničkim etničko etničkog etničkoj etničkom etničku
+11	8211	muva	muve muvu
+12	8212	platni	platna platne platnog platnoj platnom platnu
+13	8213	miriti	mire mirenje miri mirili mirim mirimo miriš
+14	8214	priopćenje	priopćenja priopćenju
+15	8215	svjećica	svećica svećice svjećice svjećicu
+16	8216	varijacija	varijacijama varijacije varijaciju
+17	8217	marioneta	marionete marionetu
+18	8218	verbalan	verbalna verbalne verbalni verbalnih verbalnim verbalno verbalnog verbalnu
+19	8219	banket	banketa bankete banketu
+20	8220	tajanstveno	
+21	8221	ciljan	ciljana ciljane ciljani ciljano ciljanu
+22	8222	crtica	crtice crticom crticu
+23	8223	prdež	prdeža prdeže prdeži prdežima prdežu
+24	8224	hebrejski	hebrejska hebrejske hebrejskih hebrejsko hebrejskog hebrejskoj hebrejskom
+25	8225	starjeti	stare starim starimo stario starite stariš
+26	8226	prodirati	prodirala prodiranje prodire prodiru prodirući
+27	8227	pripravan	pripravna pripravne pripravni pripravno
+28	8228	naivčina	naivčine naivčino naivčinu
+29	8229	milostiv	
+30	8230	kometa	
+31	8231	neznalica	neznalice neznalico
+32	8232	prisloniti	prisloni prislonila prislonili prislonim prislonio prislonite prisloniš prislonjen
+33	8233	plavokos	plavokosa plavokose plavokosi plavokosih plavokosim plavokosog plavokosom plavokosu
+34	8234	miljenik	miljenici miljenika miljenike
+35	8235	stidan	stidna stidne stidnih stidnim stidnu
+36	8236	smicalica	smicalicama smicalice smicalicu
+37	8237	asistirati	asistira asistirala asistiram asistirao asistirate asistiraš
+38	8238	revolucionar	revolucionara revolucionare revolucionari revolucionarima
+39	8239	lješnjak	lješnjaci lješnjacima lješnjaka lješnjake
+40	8240	konstantan	konstantna konstantne konstantni konstantnih konstantnim konstantnog konstantnoj konstantnom konstantnu
+41	8241	urotiti	urote uroti urotila urotile urotili urotilo urotio
+42	8242	tramvaj	tramvaja tramvaje tramvajem tramvaji tramvajima tramvaju
+43	8243	pregovarač	pregovarača pregovarače pregovarači
+44	8244	lipa	lipe lipo lipom lipu
+45	8245	slabašan	slabašna slabašne slabašni slabašnim slabašno slabašnog slabašnu
+46	8246	brazilski	brazilska brazilske brazilskih brazilskim brazilsko brazilskog brazilskoj brazilskom brazilsku
+47	8247	zabavljač	zabavljača zabavljače zabavljači
+48	8248	sašiti	saši sašije sašijem sašila sašili sašio sašivena
+49	8249	prodavačica	prodavačice prodavačici prodavačicom prodavačicu
+50	8250	lovina	lovine lovinom lovinu
+51	8251	treperiti	trepere treperenje treperi treperim
+52	8252	mitraljez	mitraljeza mitraljeze mitraljezi mitraljezima mitraljezom
+53	8253	ubadati	ubada ubadaju ubadala ubadam ubadanje ubadao
+54	8254	rasipati	rasipa rasipaj rasipaju rasipam rasipamo rasipanje rasipate rasipaš
+55	8255	prilazak	prilaska prilasku
+56	8256	gore-dolje	gore-dole
+57	8257	baratati	barata barataju baratam baratanje baratao baratate barataš
+58	8258	cvjetni	cvetna cvetni cvjetna cvjetne cvjetnih cvjetnim cvjetno cvjetnoj cvjetnom cvjetnu
+59	8259	stjecati	stjecanje stjecao stječe stječem stječemo stječete stječeš stječu
+60	8260	lokot	lokota lokote lokoti lokotom
+61	8261	osamdeset	
+62	8262	parče	
+63	8263	vjerodostojnost	vjerodostojnosti
+64	8264	jeza	jeze jezom jezu
+65	8265	brlog	brloga brlogu
+66	8266	priseban	prisebna prisebni
+67	8267	isporučivati	isporučivao isporučuje isporučujem isporučujemo isporučujete isporučuješ isporučuju
+68	8268	hulja	hulje huljo hulju
+69	8269	pazuh	pazuha pazuhe pazuhom pazuhu pazusima
+70	8270	ovan	ovna ovnova ovnove ovnovi ovnu
+71	8271	bezobziran	bezobzirna bezobzirne bezobzirni bezobzirnih bezobzirnim bezobzirnog
+72	8272	ambulantni	ambulantna ambulantnih ambulantnim ambulantno
+73	8273	klinjo	
+74	8274	odjedanput	
+75	8275	mormon	mormona mormone mormoni mormonima
+76	8276	štetiti	štete štetilo štetim štetio štetite štetiš
+77	8277	obostran	obostrana obostrane obostrani obostranog obostranom obostranu
+78	8278	jedrenje	jedrenja jedrenju
+79	8279	brutalnost	brutalnosti brutalnošću
+80	8280	zaseban	zasebna zasebne zasebni zasebnih zasebnim zasebnu
+81	8281	desnica	desnice desnici desnicom desnicu
+82	8282	ubrizgavati	ubrizgava ubrizgavaju ubrizgavali ubrizgavam ubrizgavanje ubrizgavao ubrizgavaš
+83	8283	koješta	
+84	8284	popravljati	
+85	8285	djevac	djevce djevci djevče
+86	8286	monopol	monopola monopoli monopolu
+87	8287	divljač	divljači
+88	8288	pijanstvo	pijanstva pijanstvu
+89	8289	prošlogodišnji	prošlogodišnja prošlogodišnje prošlogodišnjeg prošlogodišnjem prošlogodišnjih prošlogodišnjim prošlogodišnjoj prošlogodišnju
+90	8290	istrošen	istrošena istrošene istrošeni istrošeno istrošenog
+91	8291	blef	blefa
+92	8292	iznuda	iznude iznudi iznudom iznudu
+93	8293	najamnina	najamnine najamninom najamninu
+94	8294	šačica	šačice šačici šačicom šačicu
+95	8295	matematičar	matematičara matematičare matematičari matematičaru
+96	8296	šapnuti	šapne šapnem šapni šapnula šapnuo
+97	8297	omalovažavati	omalovažava omalovažavaj omalovažavaju omalovažavali omalovažavam omalovažavanje omalovažavao omalovažavaš
+98	8298	diplomacija	diplomacije diplomaciji diplomacijom diplomaciju
+99	8299	svjetlucav	svetlucavo svjetlucava svjetlucave svjetlucavi svjetlucavih svjetlucavim svjetlucavo svjetlucavu
+100	8300	pokvarenjak	pokvarenjaci pokvarenjacima pokvarenjaka pokvarenjaku pokvarenjače

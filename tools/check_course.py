@@ -550,6 +550,29 @@ def ukrainian_name_forms(names):
     return forms
 
 
+def croatian_serbianisms():
+    """The ekavian spellings and Serbian words a Croatian lesson must not use, with the word to write instead."""
+    path = os.path.join(ROOT, "tools", "courses", "hr", "serbian_forms.tsv")
+    found = {}
+    for line in open(path, encoding="utf-8") if os.path.exists(path) else ():
+        if line.strip() and not line.startswith("#"):
+            form, _, word = line.rstrip("\n").partition("\t")
+            found[form] = word
+    return found
+
+
+CROATIAN_FUTURE = ("ćemo", "ćete", "ćeš", "ću", "će")
+
+
+def croatian_joined_future(word, words):
+    """Croatian writing of a future Serbian writes joined (radiću, videćemo): radit ću, vidjet ćemo; or None."""
+    for ending in CROATIAN_FUTURE:
+        stem = word[:-len(ending)]
+        if word.endswith(ending) and len(stem) > 1 and word != "biće" and word not in words and stem + "ti" in words:
+            return f"{stem}t {ending}"
+    return None
+
+
 def serbian_name_forms(names):
     """
     The case forms of Serbian names, from their regular declension: Ana, Ane, Ani, Anu, Anom; Marko,
@@ -1315,7 +1338,7 @@ def check(path, brief=False):
     names = {fold(code, n.lower()) for n in course.get("names", [])}
     # In Spanish a name of several words or joined by a hyphen (San José, al-Ándalus) counts as one known word wherever it
     # is written whole; the earlier languages count such names word by word, as they were written to.
-    long_names = sorted((n for n in course.get("names", []) if " " in n or "-" in n or (code in ("it", "ca") and "'" in n)), key=len, reverse=True) if code in ("es", "it", "sr", "nl", "da", "no", "sv", "el", "ar", "ca", "id") else []
+    long_names = sorted((n for n in course.get("names", []) if " " in n or "-" in n or (code in ("it", "ca") and "'" in n)), key=len, reverse=True) if code in ("es", "it", "sr", "nl", "da", "no", "sv", "el", "ar", "ca", "id", "hr") else []
     # Chinese writes no spaces, so every name is matched whole, the longest first.
     if code in ("zh", "ja"):
         long_names = sorted(course.get("names", []), key=len, reverse=True)
@@ -1323,8 +1346,10 @@ def check(path, brief=False):
         names = names | russian_name_forms(course.get("names", []))
     if code == "uk":
         names = names | ukrainian_name_forms(course.get("names", []))
-    if code == "sr":
+    # Croatian names decline as Serbian ones do (Ana, Ane; Zagreb, Zagrebu; Split, Splitu).
+    if code in ("sr", "hr"):
         names = names | serbian_name_forms(course.get("names", []))
+    serbian = croatian_serbianisms() if code == "hr" else {}
     # A Polish name of several words or with a hyphen (Zielona Góra, Bielsko-Biała) counts as one known word wherever it
     # is written whole; each case form the text uses is listed whole (Zielonej Górze).
     if code == "pl":
@@ -1404,9 +1429,11 @@ def check(path, brief=False):
             text = re.sub(r"(?m)^Preguntes:", "", text)
         if code == "id":
             text = re.sub(r"(?m)^Pertanyaan:", "", text)
+        if code == "hr":
+            text = re.sub(r"(?m)^Pitanja:", "", text)
         toks = tokens(text, code, ranks, names, verbs, set(words) if code in ("it", "ko", "id") else None)
         # A century or a king's number in capital Roman numerals (siglo XVI, Carlos V) is a number.
-        if code in ("es", "ru", "it", "sr", "uk", "ca"):
+        if code in ("es", "ru", "it", "sr", "uk", "ca", "hr"):
             numerals = sum(1 for t in toks if ROMAN.fullmatch(t))
             toks = [t for t in toks if not ROMAN.fullmatch(t)]
             whole_names += numerals
@@ -1465,6 +1492,10 @@ def check(path, brief=False):
             problems.append(f"coverage {coverage:.1%} < {need:.0%}")
         if not shortest <= len(lowered) <= longest:
             problems.append(f"{len(lowered)} words, needs {shortest}-{longest}")
+        for t in sorted({t for t in lowered if t in serbian}):
+            problems.append(f"'{t}' is Serbian or ekavian: write {serbian[t]} (ijekavian Croatian)")
+        for t in sorted({t for t in lowered if code == "hr" and croatian_joined_future(t, words)}):
+            problems.append(f"'{t}' joins the future as Serbian writes it: write {croatian_joined_future(t, words)}")
         for new in lesson.get("newWords", []):
             key = fold(code, new.lower())
             entry = words.get(key)

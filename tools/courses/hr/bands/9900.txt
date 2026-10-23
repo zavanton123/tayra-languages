@@ -1,0 +1,100 @@
+1	9801	mahovina	mahovine mahovinom mahovinu
+2	9802	relativan	relativna relativne relativni relativnom relativnu
+3	9803	gigantski	gigantska gigantske gigantskih gigantskog gigantsku
+4	9804	gmaz	gmaza gmazova gmazove gmazovi gmazovima gmazu
+5	9805	zalaz	zalaza zalaze zalazi
+6	9806	imperij	imperije imperiji imperiju
+7	9807	poslovica	
+8	9808	fregata	fregate fregatu
+9	9809	kontrakcija	kontrakcije
+10	9810	tvrdoglavost	tvrdoglavosti tvrdoglavošću
+11	9811	jagodica	jagodicama jagodice jagodicu
+12	9812	jednjak	jednjaka jednjaku
+13	9813	varljiv	varljiva varljive varljivi varljivo
+14	9814	pamučan	pamučna pamučne pamučni pamučnih pamučnim pamučnog pamučnu
+15	9815	partizan	partizana partizane partizani partizanima
+16	9816	dopisnik	dopisnici dopisnika
+17	9817	jauk	jauci jauka jauke jauče
+18	9818	hardver	hardvera
+19	9819	antropolog	antropologa antropologinja antropolozi
+20	9820	gnusno	gnjusno
+21	9821	telepatija	telepatije telepatijom telepatiju
+22	9822	cestovni	cestovna cestovne cestovnih cestovno cestovnog cestovnom
+23	9823	ptić	ptića ptiće ptići
+24	9824	jugozapadni	jugozapadna jugozapadne jugozapadnog jugozapadnoj jugozapadnom
+25	9825	sup	supe supom supu
+26	9826	obao	obla oble obli oblije oblog obloga
+27	9827	savjestan	savjesna savjesni savjesno
+28	9828	sitničav	sitničava sitničave sitničavi sitničavo
+29	9829	kesten	kestena kestene kesteni kestenom
+30	9830	srednjoškolac	srednjoškolca srednjoškolce srednjoškolci srednjoškolcima
+31	9831	slasno	
+32	9832	tam	
+33	9833	šumski	
+34	9834	hors	horsa horse
+35	9835	gord	gorda gordi
+36	9836	usisivač	usisivača usisivače usisivačem
+37	9837	aritmija	aritmije aritmiju
+38	9838	osedlati	osedlaj osedlajte osedlam osedlan osedlao
+39	9839	fazan	fazana fazane fazani
+40	9840	hemija	hemije hemiji hemiju
+41	9841	neljudski	neljudska neljudske neljudskih neljudskim neljudsko neljudskog
+42	9842	sjenica	sjenice sjenici sjenicu
+43	9843	historija	historije historiji historiju
+44	9844	urednica	urednice urednici urednicu
+45	9845	musti	muzao muze muzem muzeš muzi muzla muzu
+46	9846	neovisno	
+47	9847	karcinom	karcinoma karcinomom
+48	9848	tribun	tribuna tribune tribuni
+49	9849	tromjesečje	tromesečje tromjesečja tromjesečju
+50	9850	izabirati	izabire izabirem izabiremo izabireš izabiru
+51	9851	idealist	idealista idealisti
+52	9852	harem	harema haremu
+53	9853	meteorološki	meteorološka meteorološke meteoroloških meteorološkog
+54	9854	traumatizirati	traumatiziran traumatizirana traumatizirani traumatizirano
+55	9855	sječivo	sečiva sečivo sječiva sječivom
+56	9856	zaratiti	zarati zaratili zaratimo zaratio zaraćene
+57	9857	gubitnica	gubitnice gubitnici
+58	9858	obadvoje	
+59	9859	zašiti	
+60	9860	džihad	džihada džihadu
+61	9861	licemjerje	licemerje licemjerja licemjerju
+62	9862	isplaćivati	isplaćivao isplaćuje isplaćujem isplaćuju
+63	9863	prebijati	prebija prebijaju prebijali prebijam prebijanje prebijao
+64	9864	podešavati	podešava podešavam podešavanje podešavao
+65	9865	brujati	brujanje bruje bruji
+66	9866	nezamjenjiv	nezamjenjiva nezamjenjive nezamjenjivi nezamjenjivo
+67	9867	kamenovati	kamenova kamenovali kamenovan kamenovanje kamenujte kamenuju
+68	9868	štićenica	štićenice štićenici štićenicu
+69	9869	eliksir	eliksira
+70	9870	drobiti	drobi drobiš drobljenje
+71	9871	lopuža	lopuže lopužo lopužu
+72	9872	kognitivan	kognitivna kognitivne kognitivni kognitivnih kognitivno kognitivnog kognitivnu
+73	9873	balega	balege balegi balegom balegu
+74	9874	ukrotiti	
+75	9875	imunološki	imunološkog
+76	9876	dobročinitelj	dobročinitelja dobročinitelji
+77	9877	zavojnica	zavojnice zavojnicu
+78	9878	bjesnoća	bjesnoće bjesnoćom bjesnoću
+79	9879	ispovijest	ispovest ispovesti ispovijesti
+80	9880	nezdrav	nezdrava nezdrave nezdravi nezdravog nezdravom nezdravu
+81	9881	žezlo	žezla žezlom
+82	9882	riđ	riđa riđe riđeg riđi riđu
+83	9883	katalizator	katalizatora
+84	9884	kazivati	kazuje kazuju
+85	9885	ravnina	ravnine ravnini ravninu
+86	9886	đakon	đakona đakone đakoni
+87	9887	praćka	praćke praćkom praćku
+88	9888	braon	
+89	9889	uzajamno	
+90	9890	neopisivo	
+91	9891	nepoznanica	nepoznanice
+92	9892	mentalitet	mentaliteta mentalitetom mentalitetu
+93	9893	pješaštvo	pješaštva pješaštvu
+94	9894	kontrast	kontrasta kontrastom kontrastu
+95	9895	zanos	zanosa zanosom zanosu
+96	9896	bezimen	bezimena bezimene bezimeni bezimenih bezimeno bezimenog bezimenom
+97	9897	surovo	
+98	9898	grdno	
+99	9899	njegovateljica	negovateljica njegovateljice njegovateljicu
+100	9900	kompenzacija	kompenzacije kompenzaciju

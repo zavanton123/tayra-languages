@@ -1,0 +1,100 @@
+1	4701	rezerva	rezervama rezerve rezervi rezervom rezervu
+2	4702	kontinent	kontinenata kontinenta kontinente kontinenti kontinentima kontinentom kontinentu
+3	4703	portal	portala portale portali portalom portalu
+4	4704	psovati	psovala psovali psovanja psovanje psovanjem psovanju psovao psuj psuje psujem psujemo psujete psuješ psuju psujući
+5	4705	identičan	identična identične identični identičnih identičnim identično identičnog identičnom identičnu
+6	4706	alternativa	alternativama alternative alternativi alternativom alternativu
+7	4707	homoseksualac	homoseksualaca homoseksualca homoseksualce homoseksualcem homoseksualci homoseksualcima
+8	4708	mehanizam	mehanizama mehanizma mehanizme mehanizmi mehanizmima mehanizmom mehanizmu
+9	4709	sluh	sluha sluhom sluhu
+10	4710	željeznički	železnička železničke železnički železničkoj železničku željeznička željezničke željezničkih željezničkim željezničkog željezničkoj željezničkom željezničku
+11	4711	osobina	osobinama osobine osobinu
+12	4712	laskati	laska laskaj laskajte laskaju laskala laskalo laskam laskanje laskao laskate laskaš
+13	4713	iznenađivati	iznenađuje iznenađujem iznenađujete iznenađuješ iznenađuju
+14	4714	željezo	željeza željezom željezu
+15	4715	otpuštati	otpušta otpuštaju otpuštajući otpuštali otpuštam otpuštamo otpuštanja otpuštanje otpuštate otpuštaš
+16	4716	plaćenik	plaćenici plaćenicima plaćenika plaćenike plaćenikom plaćeniku
+17	4717	kris	krisa krisom krisu
+18	4718	oproštaj	oproštaja oproštaje oproštajem oproštaji oproštaju
+19	4719	inozemstvo	inozemstva inozemstvu
+20	4720	gnjev	gnev gneva gnevu gnjeva gnjevom gnjevu
+21	4721	polijetati	poletanje poleće polećemo poleći polijetanje polijetao polijeće polijećem polijećemo polijećete polijećeš polijeću
+22	4722	dinamit	dinamita dinamite dinamitom dinamitu
+23	4723	adrenalin	adrenalina adrenaline adrenalinom adrenalinski adrenalinu
+24	4724	sonda	sondama sonde sondi sondom sondu
+25	4725	interesantan	interesantna interesantne interesantni interesantnih interesantnija interesantnije interesantniji interesantnijim interesantnim interesantnog interesantnom interesantnu najinteresantnije najinteresantniji
+26	4726	opuštati	opušta opuštaj opuštaju opuštajući opuštala opuštam opuštamo opuštanje opuštao opuštate opuštaš
+27	4727	kuk	kukom kukova kukove kukovi kukovima kuku
+28	4728	glazbenik	glazbenici glazbenicima glazbenika glazbenike glazbenikom glazbeniku
+29	4729	religiozan	religiozna religiozne religiozni religioznih religioznim religiozno religioznog religioznoj religioznom religioznu
+30	4730	porodični	porodična porodične porodičnih porodičnim porodično porodičnog porodičnoj porodičnom porodičnu
+31	4731	gasiti	gasi
+32	4732	hormon	hormona hormone hormoni hormonima
+33	4733	platno	platna platnom platnu
+34	4734	mrva	mrve mrvi mrvica mrvicu mrvu
+35	4735	gubica	gubice gubici gubicu
+36	4736	seoski	seoska seoske seoskih seoskim seosko seoskog seoskoj seoskom seosku
+37	4737	naslikati	naslika naslikaj naslikala naslikali naslikam naslikan naslikana naslikane naslikani naslikano naslikao naslikate naslikaš
+38	4738	pljesak	pljeska pljeskom pljesku
+39	4739	tkanina	tkaninama tkanine tkanini tkaninom tkaninu
+40	4740	vrtić	vrtića vrtiće vrtićima vrtiću
+41	4741	hapsiti	hapse hapsi hapsili hapsim hapsimo hapsio hapsite hapsiš hapšen hapšena hapšeni hapšenje
+42	4742	škare	škara škarama
+43	4743	stanovništvo	stanovništva stanovništvom stanovništvu
+44	4744	takmičenje	takmičenja takmičenjem takmičenjima takmičenju
+45	4745	sadašnji	sadašnja sadašnje sadašnjeg sadašnjem sadašnjih sadašnjim sadašnjoj sadašnjom sadašnju
+46	4746	besmislica	besmislicama besmislice besmislicom besmislicu
+47	4747	isjeći	iseci isekao isekla isekli iseku iseći iseče isečem isečemo isečen isečena isečene isečeš isijeci isiječem isiječemo isiječeš isjekao isjekla isjekli isječen isječena isječene isječeno
+48	4748	ološ	ološa ološem ološi ološu
+49	4749	padobran	padobrana padobrane padobrani padobranima padobranom padobranu
+50	4750	parazit	parazita parazite paraziti parazitima parazitom parazitu
+51	4751	kandidirati	kandidira kandidiraj kandidiraju kandidirala kandidirali kandidiram kandidirao kandidirate kandidiraš
+52	4752	baklja	bakljama baklje baklji bakljom baklju
+53	4753	cista	ciste cisti cisto cistom cistu
+54	4754	ljubaznost	ljubaznosti ljubaznošću
+55	4755	skrb	skrbi
+56	4756	sličnost	sličnosti sličnostima
+57	4757	industrijski	industrijska industrijske industrijskih industrijskim industrijsko industrijskog industrijskoj industrijskom industrijsku
+58	4758	upaljač	upaljača upaljače upaljači upaljačima upaljaču
+59	4759	izvedba	izvedbama izvedbe izvedbi izvedbom izvedbu
+60	4760	cijenjen	cenjen cenjeni cijenjena cijenjene cijenjeni cijenjenih cijenjenim cijenjeno cijenjenog cijenjenoj cijenjenom cijenjenu najcjenjeniji najcjenjenijih
+61	4761	otkupnina	otkupnine otkupnini otkupninom otkupninu
+62	4762	nadaren	nadarena nadarene nadareni nadarenih nadarenim nadareno nadarenog nadarenom nadarenu
+63	4763	utvrda	utvrdama utvrde utvrdi utvrdom utvrdu
+64	4764	limenka	limenci limenkama limenke limenki limenko limenkom limenku
+65	4765	zbližiti	zbliže zbliži zbližila zbližile zbližili zbližilo zbližim zbližimo zbližio zbližite zbližiš
+66	4766	danski	danska danske danskih danskim dansko danskog danskoj danskom dansku
+67	4767	kula	kulama kule kuli kulom kulu
+68	4768	izdavati	izdaj izdaje izdajem izdajemo izdajete izdaješ izdajte izdaju izdajući izdavala izdavali izdavanje izdavao
+69	4769	buđenje	buđenja buđenjem buđenju
+70	4770	bunar	bunara bunare bunari bunarima bunaru
+71	4771	davanje	davanja
+72	4772	krivotvoriti	krivotvore krivotvoren krivotvorena krivotvorene krivotvoreni krivotvorenje krivotvoreno krivotvori krivotvorila krivotvorili krivotvorio krivotvoriš
+73	4773	pripadnik	pripadnici pripadnicima pripadnika pripadnike pripadnikom pripadniku
+74	4774	sirotište	sirotišta sirotištem sirotištima sirotištu
+75	4775	rendgen	rendgena rendgenom rendgenska rendgenske rendgenski rendgenskih rendgenskim rendgensko rendgenskog rendgensku rendgenu
+76	4776	idealan	idealna idealne idealni idealnim idealnog idealnoj idealnom idealnu
+77	4777	infarkt	infarkta infarktom infarktu
+78	4778	pileći	pileća pileće pilećeg pilećem pilećih pilećim pilećoj pilećom pileću
+79	4779	čahura	čahurama čahure čahuri čahurom čahuru
+80	4780	košara	košarama košare košari košarom košaru
+81	4781	zaklada	zakladama zaklade zakladi zakladom zakladu
+82	4782	nacistički	nacistička nacističke nacističkih nacističkim nacističko nacističkog nacističkoj nacističkom nacističku
+83	4783	pljuvati	pljuj pljuje pljujem pljujemo pljujete pljuješ pljuju pljuvala pljuvali pljuvanje pljuvao
+84	4784	ironično	
+85	4785	širenje	širenja širenjem širenju
+86	4786	zbunjivati	zbunjivala zbunjivalo zbunjivanje zbunjivao zbunjuj zbunjuje zbunjujem zbunjujete zbunjuješ zbunjuju zbunjujući
+87	4787	odabir	odabira odabire odabiri odabirom odabiru
+88	4788	široko	široka široke široki širokom široku
+89	4789	izbliza	
+90	4790	proglašavati	proglašava proglašavaju proglašavajući proglašavam proglašavamo proglašavanje
+91	4791	specifičan	specifična specifične specifični specifičnih specifičnije specifičniji specifičnim specifično specifičnog specifičnoj specifičnom specifičnu
+92	4792	pridobiti	pridobij pridobije pridobijem pridobijemo pridobijete pridobiješ pridobiju pridobila pridobili pridobio pridobit
+93	4793	korisnik	korisnica korisnici korisnicima korisnika korisnike korisnikom korisniku korisnički
+94	4794	ambasada	ambasade ambasadi ambasadom ambasadu
+95	4795	škamp	škampa škampe škampi škampima škampu
+96	4796	štreber	štrebera štrebere štreberi štreberima štreberom štreberu
+97	4797	udio	udjela udjele udjeli udjelom udjelu
+98	4798	veš	veša vešu
+99	4799	rastava	rastave rastavi rastavom rastavu
+100	4800	ugledan	ugledna ugledne ugledni uglednih uglednim ugledno uglednog uglednoj uglednom uglednu

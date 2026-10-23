@@ -1,0 +1,100 @@
+1	6001	teror	terora terorom teroru
+2	6002	samouvjeren	samouveren samouverena samouvereno samouvjerena samouvjerene samouvjereni samouvjereniji samouvjereno
+3	6003	dokumentacija	dokumentacije dokumentaciji dokumentacijom dokumentaciju
+4	6004	aligator	aligatora aligatore aligatori aligatorima aligatorom aligatoru
+5	6005	propovijedati	propoveda propovedao propovedati propovijeda propovijedaj propovijedajte propovijedaju propovijedali propovijedam propovijedamo propovijedanje propovijedao propovijedate propovijedaš
+6	6006	petorica	petorice petorici petoricom petoricu
+7	6007	pult	pulta pultom pultu
+8	6008	ideal	ideala ideale ideali idealima idealom idealu
+9	6009	ultrazvuk	ultrazvuka ultrazvukom ultrazvuku
+10	6010	uzica	uzice uzici uzicom uzicu
+11	6011	žar	žara žare žarom žaru
+12	6012	obojiti	oboj oboji obojila obojili obojim obojimo obojio obojite obojiš
+13	6013	prkositi	prkose prkoseći prkosi prkosila prkosili prkosim prkosimo prkosio prkosite prkosiš prkošenje
+14	6014	kazneno	
+15	6015	komunistički	komunistička komunističke komunističkih komunističkim komunističko komunističkog komunističkoj komunističkom komunističku
+16	6016	kartati	kartaj kartaju kartala kartali kartam kartamo kartanje kartao kartate kartaš
+17	6017	nastajati	nastajanje nastaje nastaju
+18	6018	sinuti	sine sini sinu sinula sinulo
+19	6019	ocijeniti	ocene oceni ocenim oceniti ocijene ocijeni ocijenila ocijenili ocijenim ocijenimo ocijenio ocijenite ocijenjen ocijenjena ocijenjeni ocijenjeno
+20	6020	šupa	šupe šupi šupu
+21	6021	naboj	naboja naboje nabojem naboji
+22	6022	zaliti	zali zalij zalije zalijem zalijemo zaliješ zalijte zalila zalili zalio zaliven zalivena zalivši
+23	6023	bojiti	boje bojenje bojeći boji bojila bojili bojilo bojim bojimo bojio bojite bojiš
+24	6024	materin	materina materine materini materinu
+25	6025	lekar	lekara lekare lekari lekarima lekarom lekaru
+26	6026	brižan	brižna brižne brižni brižnih brižnim brižno brižnog brižnom brižnu
+27	6027	boks	
+28	6028	razapeti	razapela razapeli razapeo razapet razapeta razapnem razapni razapnite razapnu
+29	6029	omogućivati	omogućuje omogućuju omogućujući
+30	6030	horizont	horizonta horizonte horizonti horizontom horizontu
+31	6031	klanjati	klanja klanjaj klanjajte klanjaju klanjali klanjam klanjamo klanjanje klanjao klanjate klanjaš
+32	6032	vodopad	vodopada vodopade vodopadi vodopadima vodopadom vodopadu
+33	6033	gošća	gošćama gošće gošći gošćom gošću
+34	6034	kadet	kadeta kadete kadeti kadetima kadetu
+35	6035	razoriti	razore razoren razorena razorene razoreni razoreno razori razorila razorile razorili razorilo razorimo razorio
+36	6036	svečanost	svečanosti svečanostima
+37	6037	oživljavati	oživljava oživljavaju oživljavali oživljavam oživljavamo oživljavanje oživljavao
+38	6038	pridržavati	pridržava pridržavaj pridržavajte pridržavaju pridržavala pridržavali pridržavam pridržavamo pridržavanje pridržavao pridržavate pridržavaš
+39	6039	esej	eseja eseje eseji esejima eseju
+40	6040	demokratski	demokratska demokratske demokratskih demokratskim demokratsko demokratskog demokratskoj demokratskom demokratsku
+41	6041	špijunski	špijunska špijunske špijunskih špijunskim špijunsko špijunskog špijunskoj špijunskom špijunsku
+42	6042	pipa	pipe pipi pipu
+43	6043	vedar	vedra vedre vedri vedrih vedrija vedrije vedriju vedrim vedrog vedroga vedrom vedru
+44	6044	škorpion	škorpiona škorpione škorpioni škorpionima škorpionom škorpionu
+45	6045	demokrat	demokrata demokrate demokrati demokratima
+46	6046	zubni	zubna zubne zubnih zubnim zubno zubnog zubnoj zubnom zubnu
+47	6047	interni	interna interne internih internim interno internog internoj internom internu
+48	6048	uputstvo	uputstava uputstva uputstvima uputstvom uputstvu
+49	6049	promocija	promocije promociji promocijom promociju
+50	6050	tor	tora tore torom torova torove toru
+51	6051	neovisan	neovisna neovisne neovisni neovisnih neovisnim neovisnog neovisnom neovisnu
+52	6052	začiniti	začine začini začinila začinili začinim začinimo začinio začinite začiniš začinjen začinjena začinjene začinjeni začinjeno
+53	6053	agonija	agonije agoniji agoniju
+54	6054	rika	rici rike riki riko rikom riku
+55	6055	kukati	kukaj kukaju kukala kukali kukam kukamo kukanje kukao kukate kukaš
+56	6056	idealno	
+57	6057	dimnjak	dimnjaci dimnjacima dimnjaka dimnjake dimnjakom dimnjaku
+58	6058	hladnokrvno	
+59	6059	svući	svuci svucite svukao svukla svukli svuku svuče svučem svučete svučeš
+60	6060	proučavanje	proučavanja proučavanjem proučavanju
+61	6061	naučan	naučna naučne naučni naučnih naučnim naučno naučnog naučnoj naučnom naučnu
+62	6062	vika	vici vike vikom viku
+63	6063	kečap	ketchup kečapa kečapom
+64	6064	laboratorijski	laboratorijska laboratorijske laboratorijskih laboratorijskim laboratorijsko laboratorijskog laboratorijskom laboratorijsku
+65	6065	korporativan	korporativna korporativne korporativni korporativnih korporativnim korporativno korporativnog korporativnoj korporativnom korporativnu
+66	6066	stručan	stručna stručne stručni stručnih stručnim stručnog stručnom stručnu
+67	6067	izlika	izlikama izlike izlikom izliku
+68	6068	formalnost	formalnosti formalnostima
+69	6069	skulptura	skulpturama skulpture skulpturi skulpturom skulpturu
+70	6070	nepobjediv	nepobediv nepobedivi nepobjediva nepobjedive nepobjedivi nepobjedivim nepobjedivima nepobjedivo nepobjedivog
+71	6071	površan	površna površne površni površnih površnim površno površnog površnom površnu
+72	6072	regrutirati	regrutira regrutiraju regrutirala regrutirali regrutiram regrutiramo regrutiran regrutirana regrutirani regrutiranje regrutirao regrutiraš
+73	6073	otopiti	otope otopi otopila otopili otopilo otopio otopljen otopljena otopljene otopljeni otopljeno
+74	6074	litra	litre litri litru
+75	6075	pješke	peške
+76	6076	maestro	maestra maestrom
+77	6077	raf	rafa rafe rafu
+78	6078	šipka	šipci šipkama šipke šipki šipkom šipku
+79	6079	preferirati	preferira preferiraju preferirala preferirali preferiram preferiramo preferirao preferirate preferiraš
+80	6080	trešnja	trešanja trešnjama trešnje trešnji trešnjom trešnju
+81	6081	školovanje	školovanja školovanjem školovanju
+82	6082	križanje	križanja križanjem križanju
+83	6083	svladati	svlada svladaju svladala svladale svladali svladam svladamo svladan svladao svladaš
+84	6084	muza	muze muzi muzo muzom muzu
+85	6085	radikalan	radikalna radikalne radikalni radikalnih radikalnije radikalniji radikalnim radikalnog radikalnoj radikalnom radikalnu
+86	6086	jamstvo	jamstava jamstva jamstvom
+87	6087	škripa	škripe škripi škripu
+88	6088	produkcija	produkcije produkciji produkcijom produkciju
+89	6089	zastrašivati	zastrašivali zastrašivanja zastrašivanje zastrašivao zastrašuje zastrašujete zastrašuješ zastrašuju
+90	6090	smoking	smokinga smokinge smokingom smokingu smokinzi smokinzima
+91	6091	pospremiti	pospreme pospremi pospremim pospremimo pospremite pospremiš
+92	6092	licenca	licence licenci licencom licencu
+93	6093	tvorac	tvoraca tvorca tvorce tvorcem tvorci tvorcima tvorcu tvorče
+94	6094	posjeći	posekao posekla poseći poseče posijecite posiječe posiječeš posjekao posjekla posjekli posječen posječeno
+95	6095	hava	have havi
+96	6096	spopasti	spopadne spopala spopali spopalo spopao
+97	6097	paranoja	paranoje paranoji paranojom paranoju
+98	6098	vrelo	vrela vrelom vrelu
+99	6099	flora	flore flori florom floru
+100	6100	veselo	

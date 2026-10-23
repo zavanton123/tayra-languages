@@ -1,0 +1,100 @@
+1	6701	cifra	cifara ciframa cifre cifri cifru
+2	6702	odjahati	odjahala odjahali odjahao odjaše odjašem odjašemo odjašete odjašeš odjaši odjašite odjašu
+3	6703	izdržavati	izdržava izdržavaju izdržavala izdržavam izdržavamo izdržavanje izdržavao izdržavate izdržavaš
+4	6704	prosjak	prosjaci prosjacima prosjaka prosjake prosjaku prosjače
+5	6705	etički	etička etičke etičkih etičkim etičko etičkog etičkom etičku
+6	6706	predvidljiv	predvidljiva predvidljive predvidljivi predvidljivim predvidljivo
+7	6707	cvjetati	cveta cvetaju cvjeta cvjetaju cvjetala cvjetale cvjetalo cvjetanje cvjetao
+8	6708	mutacija	mutacijama mutacije mutaciji mutacijom mutaciju
+9	6709	milijarder	milijardera milijardere milijarderi milijarderom milijarderu
+10	6710	dokučiti	dokuči dokučila dokučili dokučim dokučimo dokučio
+11	6711	džamija	džamije džamiji džamiju
+12	6712	nepredvidljiv	nepredvidljiva nepredvidljive nepredvidljivi nepredvidljivim nepredvidljivo nepredvidljivog
+13	6713	prikrivati	prikriva prikrivaju prikrivajući prikrivala prikrivali prikrivam prikrivamo prikrivao prikrivate prikrivaš
+14	6714	klinka	klinke klinki klinko klinkom klinku
+15	6715	akt	akta akte aktom aktova aktove aktovi aktu
+16	6716	povećalo	povećala povećalom
+17	6717	ishrana	ishrane ishrani ishranom ishranu
+18	6718	osumnjičenik	
+19	6719	osmica	osmice osmici osmicom osmicu
+20	6720	otploviti	otplove otplovi otplovila otplovili otplovim otplovimo otplovio otplovite otploviš
+21	6721	nepouzdan	nepouzdana nepouzdane nepouzdani nepouzdanim nepouzdano nepouzdanog nepouzdanom
+22	6722	akvarij	akvarija akvarije akvariju
+23	6723	jaguar	jaguara jaguare jaguari jaguarom jaguaru
+24	6724	odmazda	odmazde odmazdi odmazdom odmazdu
+25	6725	začeti	začela začeli začeo začet začeta začeto začeće začeću
+26	6726	uteg	utega utege utegom utezi utezima
+27	6727	oruđe	oruđa oruđem
+28	6728	okov	okova okove okovi okovima
+29	6729	prihvatljivo	
+30	6730	poroditi	porode porodi porodila porodili porodim porodio porodiš
+31	6731	točiti	toče točena točenje točeno toči točila točili točim točimo točio točite točiš
+32	6732	ošamariti	ošamari ošamarila ošamarim ošamario ošamariš
+33	6733	precijeniti	precijenila precijenili precijenio precijenjen precijenjena precijenjene precijenjeni precijenjeno
+34	6734	ovisno	
+35	6735	ovratnik	ovratnika ovratnike ovratnikom ovratniku
+36	6736	staklenka	staklenci staklenkama staklenke staklenki staklenku
+37	6737	ujedno	
+38	6738	poslanik	poslanica poslanice poslanici poslanicima poslanika poslanike poslanikom poslaniku poslaniče
+39	6739	petero	
+40	6740	umišljen	umišljena umišljene umišljeni umišljenih umišljenim umišljeno umišljenog umišljenu
+41	6741	kavijar	kavijara kavijarom
+42	6742	udobnost	udobnosti
+43	6743	plantaža	plantažama plantaže plantaži plantažu
+44	6744	stub	stube stubom stubova stubove stubovi stubovima stubu
+45	6745	lupanje	lupanja lupanjem lupanju
+46	6746	buket	buketa bukete buketi buketom buketu
+47	6747	kobra	kobre kobri kobrom kobru
+48	6748	ruda	rude rudi rudo rudu
+49	6749	štoviše	
+50	6750	kuče	kučence
+51	6751	debeljko	debeljka debeljkom debeljku
+52	6752	sestrinstvo	sestrinstva sestrinstvu
+53	6753	uručiti	uruče uručen uručena uručeno uruči uručila uručili uručim uručimo uručio uručite uručiš
+54	6754	suptilan	suptilna suptilne suptilni suptilnija suptilnije suptilniji suptilnim suptilnu
+55	6755	vreo	vrela vrele vreli vrelih vrelije vrelim vrelog vreloj vrelom vrelu
+56	6756	samostalno	
+57	6757	svanuti	svane svanulo svanuo svanuća svanuće
+58	6758	znanstveno	
+59	6759	potencijalno	
+60	6760	opadati	opada opadaju opadajući opadala opadanje
+61	6761	suspenzija	suspenzije suspenziji suspenzijom suspenziju
+62	6762	ukupan	ukupna ukupne ukupni ukupnog ukupnoj ukupnom ukupnu
+63	6763	oživiti	ožive oživi oživila oživili oživim oživimo oživio oživite oživiš
+64	6764	frustracija	frustracijama frustracije frustraciji frustracijom frustraciju
+65	6765	omjer	omjera omjere omjeri omjerima omjerom omjeru
+66	6766	najava	najave najavi najavom najavu
+67	6767	zaći	zađe zašao zašla zašli zašlo
+68	6768	erupcija	erupcijama erupcije erupciji erupcijom erupciju
+69	6769	uskrsnuti	uskrsne uskrsni uskrsnu uskrsnula uskrsnuli uskrsnuo uskrsnut uskrsnuću
+70	6770	ispirati	ispirali ispiranje ispirao ispire ispirem ispiru
+71	6771	spontan	spontana spontane spontani spontanih spontanog spontanom spontanu
+72	6772	dupin	dupina dupine dupini dupinima dupinu
+73	6773	graditelj	graditelja graditelje graditelji graditeljima graditelju
+74	6774	neželjen	neželjena neželjene neželjeni neželjenih neželjenim neželjeno neželjenog neželjenom neželjenu
+75	6775	dijabetes	dijabetesa dijabetesom
+76	6776	prezentacija	prezentacije
+77	6777	pivnica	pivnicama pivnice pivnici pivnicu
+78	6778	obnova	obnove obnovi obnovom obnovu
+79	6779	tonuti	tone tonem tonemo tonete toneš toni tonu tonula tonuli tonuo
+80	6780	temeljito	
+81	6781	opterećivati	opterećivala opterećivao opterećuj opterećuje opterećujem opterećujemo opterećuješ opterećujte opterećuju
+82	6782	usisati	usisa usisala usisali usisalo usisan usisana usisani usisao usiše usiši usišite
+83	6783	istrijebiti	istrebiti istrebljen istrebljena istrebljeni istrijebe istrijebi istrijebili istrijebimo istrijebio istrijebite istrijebljen istrijebljena istrijebljeni
+84	6784	božanstvo	božanstava božanstva božanstvima božanstvom božanstvu
+85	6785	punč	punča punčem punču
+86	6786	odgoda	odgode odgodi odgodom odgodu
+87	6787	dramatično	
+88	6788	izmicati	izmicala izmicalo izmicanje izmicao izmiče izmiču
+89	6789	nevjernik	nevernici nevernika nevernike nevjernici nevjernicima nevjernika nevjernike nevjerniče
+90	6790	bubnjar	bubnjara bubnjare bubnjari bubnjarom bubnjaru
+91	6791	podmukao	podmukla podmukle podmukli podmuklih podmukliji podmuklim podmuklog podmuklom
+92	6792	grešnik	grešnici grešnicima grešnika grešnike grešniku grešniče
+93	6793	uskrsnuće	uskrsnuća uskrsnućem uskrsnuću
+94	6794	uvredljivo	
+95	6795	sekretar	sekretara sekretare sekretarom sekretaru
+96	6796	ris	risa rise risovi risu
+97	6797	bluz	bluze bluzom bluzu
+98	6798	sajt	sajta sajtova sajtove sajtovi sajtovima sajtu
+99	6799	mokraća	mokraće mokraći mokraćom mokraću
+100	6800	tucati	tuca tucaj tucaju tucala tucali tucam tucamo tucanje tucao tucaš

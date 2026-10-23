@@ -1,0 +1,100 @@
+1	3701	zelena	
+2	3702	umorstvo	umorstva umorstvima umorstvom umorstvu
+3	3703	invazija	invazije invaziji invazijom invaziju
+4	3704	zaručnica	zaručnice zaručnici zaručnicom zaručnicu
+5	3705	brend	brenda brende brendom brendu
+6	3706	som	soma some somova somove somovi
+7	3707	iluzija	iluzijama iluzije iluziji iluzijom iluziju
+8	3708	puhati	puhala puhali puhalo puhanje puhao puše pušem pušete pušeš puši pušimo pušite pušu
+9	3709	masaža	masažama masaže masaži masažom masažu
+10	3710	bolan	bolna bolne bolni bolnih bolnija bolnije bolniji bolnim bolnog bolnoj bolnom bolnu najbolnija najbolnije najbolniji
+11	3711	listopad	lis listopada listopadu
+12	3712	ljetni	ljetna ljetne ljetnih ljetnim ljetno ljetnog ljetnoj ljetnom ljetnu
+13	3713	lijen	len leno lijena lijene lijeni lijenih lijenim lijeno lijenog lijenom lijenu ljenje
+14	3714	poletjeti	polete poletela poleteo poleteti poleti poletim poletimo poletio poletite poletiš poletjela poletjele poletjeli poletjelo
+15	3715	opisivati	opisivala opisivali opisivan opisivanje opisivao opisuje opisujem opisujemo opisujete opisuješ opisuju opisujući
+16	3716	prljavo	
+17	3717	zreo	zrela zrele zreli zrelih zrelija zrelije zreliji zrelim zrelo zrelog zreloj zrelom zrelu
+18	3718	ustanova	ustanovama ustanove ustanovi ustanovom ustanovu
+19	3719	oblast	oblasti oblastima
+20	3720	lediti	lede ledi
+21	3721	prorok	proroci prorocima proroka proroke prorokom proroku proroče
+22	3722	bratstvo	bratstava bratstva bratstvima bratstvom bratstvu
+23	3723	republika	republici republike republikom republiku
+24	3724	galerija	galerijama galerije galeriji galerijom galeriju
+25	3725	jeziv	jeziva jezive jezivi jezivih jezivije jezivim jezivog jezivoj jezivom jezivu
+26	3726	diljem	
+27	3727	namjestiti	namestiti namjeste namjesti namjestim namjestimo namjestite namjestiš
+28	3728	tuširati	tušira tuširaj tuširaju tuširala tuširali tuširam tuširamo tuširanje tuširao tuširate tuširaš
+29	3729	žurka	žurci žurkama žurke žurki žurkom žurku
+30	3730	žalba	žalbama žalbe žalbi žalbom žalbu
+31	3731	suprotstaviti	suprotstave suprotstavi suprotstavila suprotstavili suprotstavilo suprotstavim suprotstavimo suprotstavio suprotstavite suprotstaviš suprotstavljene
+32	3732	izići	iziđe iziđem iziđemo iziđete iziđeš iziđi iziđite iziđu izišao izišla izišli izišlo
+33	3733	veseliti	vesele veseli veselila veselili veselilo veselim veselimo veselio veselite veseliš
+34	3734	navijač	navijača navijače navijači navijačica navijačima navijačka navijačke navijački navijačkih navijačku
+35	3735	prosječan	prosečan prosečna prosečne prosečni prosečno prosečnog prosječna prosječne prosječni prosječnih prosječnim prosječno prosječnog prosječnoj prosječnom prosječnu
+36	3736	diplomirati	diplomira diplomiraju diplomirala diplomirali diplomiram diplomiranje diplomirao diplomirate diplomiraš
+37	3737	duhovan	duhovna duhovne duhovni duhovnih duhovnim duhovnog duhovnoj duhovnom duhovnu
+38	3738	usvojiti	usvoje usvojen usvojena usvojene usvojeni usvojenje usvojeno usvoji usvojila usvojili usvojim usvojimo usvojio usvojite usvojiš
+39	3739	magičan	magična magične magični magičnih magičnim magičnog magičnoj magičnom magičnu
+40	3740	znojiti	znoje znojenje znojeći znoji znojila znojile znojili znojim znojimo znojio znojite znojiš
+41	3741	izvorni	izvorna izvorne izvornih izvornim izvorno izvornog izvornoj izvornom izvornu
+42	3742	stupiti	stupe stupi stupila stupili stupilo stupim stupimo stupio stupite stupiš
+43	3743	sperma	sperme spermi spermom spermu
+44	3744	prikupiti	prikupe prikupi prikupila prikupili prikupim prikupimo prikupio prikupite prikupiš prikupljen prikupljena prikupljene prikupljeni prikupljeno
+45	3745	istjerati	istera isteraj isterala isterali isteram isteramo isterao isterati isteraš istjera istjeraj istjerajmo istjerajte istjeraju istjerala istjerali istjeram istjeramo istjeran istjerana istjerani istjerao istjerate istjeraš
+46	3746	važnost	važnosti
+47	3747	poglavica	poglavicama poglavice poglavici poglavico poglavicom poglavicu
+48	3748	kočnica	kočnicama kočnice kočnici kočnicom kočnicu
+49	3749	obavještajni	obaveštajna obaveštajne obaveštajni obaveštajnim obaveštajnoj obaveštajnu obavještajna obavještajne obavještajnih obavještajnim obavještajno obavještajnog obavještajnoj obavještajnom obavještajnu
+50	3750	buditi	bude budeći budi budila budili budim budimo budio budite budiš
+51	3751	doživotan	doživotna doživotne doživotni doživotnih doživotnim doživotnog doživotnoj doživotnom doživotnu
+52	3752	efekt	efekata efekta efekte efekti efektima efektom efektu
+53	3753	gladak	glatka glatke glatki glatkih glatkim glatko glatkog glatkom glatku glađe glađu
+54	3754	zemaljski	zemaljska zemaljske zemaljskih zemaljskim zemaljsko zemaljskog zemaljskoj zemaljskom zemaljsku
+55	3755	pjena	pena pene peni penom penu pjene pjeni pjenom pjenu
+56	3756	stran	strane strani stranih stranim strano stranog stranoj stranom stranu
+57	3757	istovremeno	
+58	3758	meč	meča mečeva mečeve mečevi meču
+59	3759	nagoditi	nagode nagodi nagodila nagodili nagodim nagodimo nagodio nagodite nagodićemo nagodiš
+60	3760	zauzvrat	
+61	3761	šah	šaha šahom šahu
+62	3762	prilaziti	prilaze prilazeći prilazi prilazila prilazili prilazim prilazimo prilazio prilazite prilaziš prilaženje
+63	3763	ve	
+64	3764	porijeklo	porekla poreklo poreklom poreklu porijekla porijeklom porijeklu
+65	3765	dohvatiti	dohvate dohvati dohvatila dohvatili dohvatilo dohvatim dohvatimo dohvatio dohvatite dohvatiš
+66	3766	ispunjavati	ispunjava ispunjavaju ispunjavajući ispunjavala ispunjavale ispunjavali ispunjavalo ispunjavam ispunjavamo ispunjavanje ispunjavanju ispunjavao ispunjavate ispunjavaš
+67	3767	napuštati	napušta
+68	3768	vijećnik	vijećnica vijećnice vijećnici vijećnicom vijećnicu vijećnika vijećnike vijećnikom vijećniku vijećniče
+69	3769	čvor	čvora čvorom čvorova čvorove čvorovi čvorovima čvoru
+70	3770	primjećivati	primećivao primećuje primećujem primećujemo primećujete primećuješ primećuju primjećivala primjećivali primjećivao primjećuje primjećujem primjećujemo primjećujete primjećuješ primjećuju primjećujući
+71	3771	dizajn	dizajna dizajne dizajni dizajnima dizajnom dizajnu
+72	3772	nastradati	nastrada nastradaju nastradala nastradale nastradali nastradalo nastradam nastradamo nastradao nastradate nastradaš
+73	3773	šampion	šampiona šampione šampioni šampionima šampionom šampionu
+74	3774	kontejner	kontejnera kontejnere kontejneri kontejnerima kontejnerom kontejneru
+75	3775	opirati	opirala opirali opiranje opirao opire opirem opiremo opirete opireš opiri opirite opiru
+76	3776	liti	lije lijem liju lila lile lili lilo lio liste liše
+77	3777	starica	staricama starice starici staricom staricu
+78	3778	neprestano	
+79	3779	daljinski	daljinska daljinske daljinskih daljinskim daljinsko daljinskog daljinskom daljinsku
+80	3780	uvjerljiv	najuvjerljiviji uverljiv uverljiva uvjerljiva uvjerljive uvjerljivi uvjerljivih uvjerljivija uvjerljivije uvjerljiviji uvjerljivim uvjerljivog uvjerljivom uvjerljivu
+81	3781	jama	jamama jame jami jamice jamo jamom jamu
+82	3782	sadržaj	sadržaja sadržaje sadržajem sadržaji sadržajima sadržaju
+83	3783	isprati	ispere isperem isperemo isperete ispereš isperi isperite isperu isprala isprali ispralo ispran isprana isprane isprani isprano isprao ispraše
+84	3784	korporacija	korporacijama korporacije korporaciji korporacijom korporaciju
+85	3785	nemoguć	nemoguća nemogućeg nemogućem nemogući nemogućih nemogućim nemogućima nemogućoj nemogućom nemoguću
+86	3786	kuka	kukama kuke kuki kuko kukom kuku
+87	3787	lani	
+88	3788	čest	najčešća najčešće najčešći najčešćih česta česte česti čestih čestim čestog češća češći
+89	3789	prepreka	prepreci preprekama prepreke preprekom prepreku
+90	3790	švedski	švedska švedske švedskih švedskim švedsko švedskog švedskoj švedskom švedsku
+91	3791	ljutnja	ljutnje ljutnji ljutnjom ljutnju
+92	3792	voditelj	voditelja voditelje voditeljem voditelji voditeljima voditelju
+93	3793	biskup	biskupa biskupe biskupi biskupima biskupom biskupu
+94	3794	nejasan	nejasna nejasne nejasni nejasnih nejasnim nejasnog nejasnu
+95	3795	čestica	česticama čestice česticu
+96	3796	krpa	krpama krpe krpi krpica krpice krpicu krpo krpom krpu
+97	3797	žvakati	žvakala žvakali žvakanje žvakao žvakaće žvakaću žvače žvačem žvačete žvačeš žvači žvačite žvaču žvačući
+98	3798	ugušiti	uguše ugušen ugušena ugušene ugušeni uguši ugušila ugušili ugušilo ugušim ugušimo ugušio ugušite ugušiće ugušiš
+99	3799	olakšanje	olakšanja olakšanjem
+100	3800	potencijalan	potencijalna potencijalne potencijalni potencijalnih potencijalnim potencijalnog potencijalnoj potencijalnom potencijalnu

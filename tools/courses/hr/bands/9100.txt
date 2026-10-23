@@ -1,0 +1,100 @@
+1	9001	opatija	opatije opatiji opatiju
+2	9002	nepromišljeno	
+3	9003	ateist	ateista ateiste ateisti
+4	9004	kalcij	kalcija kalcijem
+5	9005	pripisivati	pripisuje pripisujem pripisujete pripisuješ pripisuju
+6	9006	bljuvati	bljuje bljujem bljuju bljuvala bljuvanje bljuvao
+7	9007	bakren	bakrena bakrene bakreni bakrenih bakrenim bakrenom bakrenu
+8	9008	vješalica	vješalicama vješalice vješalici vješalicom vješalicu
+9	9009	ilegalac	ilegalaca ilegalca ilegalce ilegalci ilegalcima
+10	9010	crpiti	crpe crpi crpim crpimo crpite crpiš crpljenje
+11	9011	bedak	bedaci bedaka bedaku
+12	9012	prenosiv	prenosiva prenosive prenosivi prenosivih prenosivim prenosivo prenosivu
+13	9013	šašavo	
+14	9014	atlas	atlasa atlasu
+15	9015	ruglo	rugala ruglu
+16	9016	kihnuti	kihne kihnem kihneš kihnula kihnuo
+17	9017	gu	
+18	9018	adresar	adresara adresaru
+19	9019	kiklop	kiklopa kiklope kiklopi kiklopom kiklopu
+20	9020	rukovoditelj	rukovoditelja rukovoditelje rukovoditelji
+21	9021	predio	predjela predjele predjeli predjelima predjelom predjelu
+22	9022	angažman	
+23	9023	prvenstveno	
+24	9024	spolja	
+25	9025	pokućstvo	pokućstva pokućstvom pokućstvu
+26	9026	ravnodušan	ravnodušna ravnodušni ravnodušno
+27	9027	knedla	knedlama knedle knedli knedlu
+28	9028	izmamiti	izmami izmamila izmamim izmamimo izmamio izmamiš
+29	9029	belgijski	belgijska belgijske belgijsko belgijskog belgijskoj belgijskom belgijsku
+30	9030	starati	staraju starala staram staranje starao starate staraš
+31	9031	mikrob	mikroba mikrobe mikrobi mikrobima
+32	9032	paradirati	paradira paradiraju paradirala paradirali paradiram paradiranje paradirao paradirate paradiraš
+33	9033	nemo	
+34	9034	odurno	
+35	9035	operator	operatora operatore operatori operatoru
+36	9036	administrator	administratora administratore administratori administratorica
+37	9037	svekrva	svekrve svekrvi svekrvo svekrvom svekrvu
+38	9038	sedmorica	sedmorice sedmorici sedmoricom sedmoricu
+39	9039	izručiti	izruče izručen izruči izručili izručim izručimo izručio izručite
+40	9040	ozljeđivati	ozljeđivanje ozljeđivao ozljeđuje ozljeđujem ozljeđujemo ozljeđuješ ozljeđuju
+41	9041	dukat	dukata dukate dukati
+42	9042	unakrsno	
+43	9043	beznačajno	
+44	9044	predočiti	predoči predočili predočim predočio predočite
+45	9045	kolera	kolere koleru
+46	9046	interpretacija	interpretacije interpretaciji interpretaciju
+47	9047	neprirodan	neprirodna neprirodne neprirodni neprirodnih neprirodnim neprirodnog neprirodnom neprirodnu
+48	9048	osamljen	osamljena osamljene osamljeni osamljeno osamljenom
+49	9049	lim	lime limu
+50	9050	pridošlica	pridošlicama pridošlice pridošlicu
+51	9051	krak	kraci kraka krake krakova krakove krakovi kraku
+52	9052	pristalica	pristalice
+53	9053	improvizacija	improvizacije improvizaciji improvizaciju
+54	9054	asfalt	asfalta asfaltu
+55	9055	oplodnja	oplodnje oplodnji oplodnjom oplodnju
+56	9056	enciklopedija	enciklopedije enciklopediji enciklopediju
+57	9057	budist	budista budiste budisti
+58	9058	obuća	obuće obućom obuću
+59	9059	ekstazi	ekstazija
+60	9060	pojednostaviti	pojednostavi pojednostavim pojednostavimo pojednostavljeno
+61	9061	povoljno	
+62	9062	gnoj	gnoja gnojem gnoju
+63	9063	neurolog	neurologa neurologom neurologu neurolozi
+64	9064	čipka	čipke čipkom čipku
+65	9065	homoseksualnost	homoseksualnosti
+66	9066	obrt	obrta obrte obrtom obrtu
+67	9067	zavidan	zavidna zavidne zavidni zavidno zavidnu
+68	9068	rukovoditi	rukovode rukovodeći rukovodi rukovodim rukovodio rukovođenje
+69	9069	embrio	embrij embrija embrije embriji embrion
+70	9070	tov	tova tove
+71	9071	biolog	biologa biologinja biolozi
+72	9072	vjetrovit	vjetrovita vjetrovite vjetroviti vjetrovito vjetrovitog vjetrovitom
+73	9073	neprirodno	
+74	9074	mramor	mramora mramorom mramoru
+75	9075	zamrziti	zamrze zamrzi zamrzila zamrzili zamrzim zamrzio zamrziš
+76	9076	ušuškati	ušuška ušuškaj ušuškala ušuškam ušuškan ušuškana ušuškao ušuškaš
+77	9077	utovariti	utovare utovaren utovarena utovareno utovari utovarili utovarimo utovario utovarite
+78	9078	reprodukcija	reprodukcije reprodukciju
+79	9079	trabunjati	trabunja trabunjaj trabunjam trabunjanje trabunjao trabunjate trabunjaš
+80	9080	pivski	pivska pivske pivskih pivskim pivskoj pivskom pivsku
+81	9081	junaštvo	junaštva junaštvom junaštvu
+82	9082	perla	perlama perle perli perlu
+83	9083	vozati	voza vozaju vozali vozam vozamo vozao vozaš
+84	9084	cijediti	cijede cijedi cijedila cijedim cijedio cijediš cijeđenje
+85	9085	mamut	mamuta mamute mamuti mamutu
+86	9086	cjevčica	cevčica cjevčice cjevčicom cjevčicu
+87	9087	konfederacija	konfederacije konfederaciji konfederaciju
+88	9088	neuron	neurona neurone neuroni neuronima
+89	9089	suvišan	suvišna suvišne suvišni suvišnih suvišnim suvišnog suvišnu
+90	9090	otočje	otočja otočju
+91	9091	var	vara vari varu
+92	9092	planer	planera planeri planeru
+93	9093	pijanist	pijanista pijanisti pijanistu
+94	9094	eliminacija	eliminacije eliminaciji eliminacijom eliminaciju
+95	9095	usmen	usmena usmene usmeni usmenim usmenog usmenom usmenu
+96	9096	stolnjak	stolnjaci stolnjacima stolnjaka stolnjake stolnjakom stolnjaku
+97	9097	kotlet	kotleta kotlete kotleti
+98	9098	smaragd	smaragda smaragde smaragdi
+99	9099	razglasiti	razglasi razglasila razglasili razglasim razglasimo razglasio razglasite
+100	9100	uzjahati	uzjahao uzjaše uzjašete uzjašeš uzjaši uzjašite

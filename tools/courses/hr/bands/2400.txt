@@ -1,0 +1,100 @@
+1	2301	istočni	istočna istočne istočnih istočnije istočnim istočnog istočnoga istočnoj istočnom istočnome istočnu
+2	2302	jedanput	
+3	2303	vražji	vražja vražje vražjeg vražjem vražjih vražjim vražjoj vražjom vražju
+4	2304	iznenada	
+5	2305	pucnjava	pucnjave pucnjavi pucnjavom pucnjavu
+6	2306	otvor	otvora otvore otvori otvorima otvorom otvoru
+7	2307	šampanjac	šampanjca šampanjcem šampanjcu
+8	2308	molitva	molitvama molitve molitvi molitvom molitvu
+9	2309	pravni	pravna pravne pravnih pravnim pravno pravnog pravnoj pravnom pravnu
+10	2310	kolica	kolicima
+11	2311	uložiti	ulože uložen uložena uložene uloženi uloženo uloži uložila uložile uložili uložim uložimo uložio uložite uložiš
+12	2312	gubitnik	gubitnici gubitnicima gubitnika gubitnike gubitnikom gubitniku gubitniče
+13	2313	slovo	slova slovima slovom slovu
+14	2314	proširiti	prošire proširen proširena proširene prošireni proširenje prošireno proširi proširila proširile proširili proširilo proširim proširimo proširio proširite proširiš
+15	2315	uvući	uvuci uvucite uvukao uvukla uvukle uvukli uvuklo uvuku uvuče uvučem uvučemo uvučen uvučena uvučene uvučeni uvučeno uvučete uvučeš
+16	2316	popularan	najpopularnija najpopularnije najpopularnijeg najpopularniji najpopularnijih najpopularniju popularna popularne popularni popularnih popularnija popularnije popularniji popularnim popularno popularnog popularnoj popularnom popularnu
+17	2317	reklama	reklamama reklame reklami reklamom reklamu
+18	2318	naziv	naziva nazive nazivi nazivima nazivom nazivu
+19	2319	gnjaviti	gnjave gnjavi gnjavim gnjavimo gnjavite gnjaviš
+20	2320	zabiti	zabi zabij zabije zabijem zabijemo zabijen zabijena zabijene zabijeni zabijeno zabijete zabiješ zabijte zabiju zabila zabili zabilo zabio zabiću
+21	2321	leš	leša leševa leševe leševi leševima lešom lešu
+22	2322	raketa	raketama rakete raketi raketo raketom raketu
+23	2323	incident	incidenata incidenta incidente incidenti incidentima incidentom incidentu
+24	2324	bacil	bacila bacile bacili
+25	2325	čokolada	čokoladama čokolade čokoladi čokoladom čokoladu
+26	2326	sprema	spreme spremi spremom spremu
+27	2327	provjera	provera provere proveri proveru provjerama provjere provjeri provjerom provjeru
+28	2328	tužno	
+29	2329	zapis	zapisa zapise zapisi zapisima zapisom zapisu
+30	2330	srčan	srčana srčane srčani srčanih srčanim srčanog srčanoj srčanom srčanu
+31	2331	prašina	prašine prašini prašinom prašinu
+32	2332	pažljiv	pažljiva pažljive pažljivi pažljivija pažljivije pažljiviji pažljivim pažljivog
+33	2333	premijer	premijera premijerama premijere premijeri premijerom premijeru
+34	2334	ulog	uloge ulogom ulogu ulozi ulozima ulože
+35	2335	kriza	krizama krize krizi krizom krizu
+36	2336	prošetati	prošeta prošetaj prošetajmo prošetajte prošetaju prošetala prošetali prošetam prošetamo prošetao prošetate prošetaću prošetaš prošeće prošećem prošećemo prošećeš prošeći prošećimo prošećite
+37	2337	razni	razna razne raznih raznim razno raznog raznu
+38	2338	generacija	generacijama generacije generaciji generacijom generaciju
+39	2339	besplatno	
+40	2340	tržište	tržišta tržištem tržištima tržištu
+41	2341	diviti	dive diveći divi divila divili divim divimo divio divite diviš divljenje
+42	2342	domaći	domaća domaće domaćeg domaćem domaćih domaćim domaćima domaćoj domaćom domaću
+43	2343	ulje	ulja uljem uljima ulju
+44	2344	mašina	mašinama mašine mašini mašino mašinom mašinu
+45	2345	trbuh	trbuha trbuhe trbuhom trbuhu trbusi trbusima
+46	2346	izliječiti	izlečen izlečena izleči izlečila izlečili izlečim izlečimo izlečio izlečite izlečiti izlečiš izliječe izliječen izliječena izliječene izliječeni izliječeno izliječi izliječila izliječili izliječilo izliječim izliječimo izliječio izliječite izliječiš
+47	2347	satnik	satnici satnika satnikom satniku satniče
+48	2348	vid	vida vide vidom vidove vidovima vidu
+49	2349	leden	ledena ledene ledeni ledenih ledenim ledeno ledenog ledenoga ledenoj ledenom ledenu
+50	2350	pojas	pojasa pojaseva pojaseve pojasevi pojasevima pojasom pojasu
+51	2351	vući	vucimo vucite vukao vukla vukle vukli vuklo vuku vukući vuče vučem vučemo vučen vučena vučenje vučeno vučete vučeš
+52	2352	zainteresiran	zainteresirani
+53	2353	stražar	stražara stražare stražari stražarima stražarom stražaru
+54	2354	flota	flote floti flotom flotu
+55	2355	zasad	zasada
+56	2356	juha	juhe juhi juhom juhu jusi
+57	2357	zajebati	zajeba zajebala zajebali zajebalo zajeban zajebana zajebane zajebani zajebano zajebao zajebe zajebem zajebemo zajebete zajebeš zajebu
+58	2358	talent	talenata talenta talente talenti talentima talentom talentu
+59	2359	uspomena	uspomenama uspomene uspomeni uspomenom uspomenu
+60	2360	olovka	olovaka olovci olovkama olovke olovki olovkom olovku
+61	2361	papa	pape papi papo papom papu
+62	2362	širok	najširem najširi šira šire šireg širem širi širim širo široj široka široke široki širokih širokim širokog širokoj širokom široku širu
+63	2363	udoban	najudobnije najudobniji udobna udobne udobni udobnija udobnije udobniji udobnijim udobnim udobno udobnog udobnoj udobnom udobnu
+64	2364	novčanik	novčanici novčanicima novčanika novčanike novčanikom novčaniku
+65	2365	borac	boraca borca borce borcem borci borcima borcu borče
+66	2366	majstor	majstora majstore majstori majstorima majstorom majstoru
+67	2367	mio	mila mile mili milije milim milog miloga miloj milom milu najmilija najmilije najmiliji najmilijih najmilijima
+68	2368	živac	živaca živca živce živci živcima živcu
+69	2369	iznevjeriti	iznevjere iznevjeri iznevjerila iznevjerile iznevjerili iznevjerilo iznevjerim iznevjerimo iznevjerio iznevjerite iznevjeriš
+70	2370	pripremati	pripremaj pripremaju pripremajući pripremala pripremale pripremali pripremalo pripremam pripremamo pripremanje pripremao pripremate pripremaš
+71	2371	blagoslov	blagoslova blagoslove blagoslovi blagoslovima blagoslovom blagoslovu
+72	2372	istinit	istinita istinite istiniti istinitih istinitije istinitim istinito istinitog istinitoj istinitom istinitu
+73	2373	prigovor	prigovora prigovore prigovori prigovorima prigovorom prigovoru
+74	2374	zločest	najzločestiji zločesta zločeste zločesti zločestih zločestiji zločestim zločesto zločestog zločestoj zločestom zločestu
+75	2375	usredotočiti	usredotoče usredotočen usredotočena usredotočene usredotočeni usredotočeno usredotoči usredotočila usredotočili usredotočim usredotočimo usredotočio usredotočite usredotočiš
+76	2376	četvrtak	četvrtka četvrtkom
+77	2377	obučen	obučena obučene obučeni obučenih obučenim obučeno obučenog obučenom obučenu
+78	2378	odrediti	odrede odredi odredila odredile odredili odredilo odredim odredimo odredio odrediste odredite odrediš
+79	2379	tuđ	tuđa tuđe tuđeg tuđem tuđi tuđih tuđim tuđoj tuđom tuđu
+80	2380	dadilja	dadiljama dadilje dadilji dadiljo dadiljom dadilju
+81	2381	slatkiš	slatkiša slatkiše slatkišem slatkiši slatkišima slatkišu
+82	2382	ograda	ogradama ograde ogradi ogradom ogradu
+83	2383	diler	dilera dilere dileri dilerima dilerom dileru
+84	2384	dopadati	dopada dopadaju dopadala dopadali dopadalo dopadam dopadamo dopadao dopadate dopadaš
+85	2385	čizma	čizama čizmama čizme čizmi čizmom čizmu
+86	2386	mušterija	mušterijama mušterije mušteriji mušterijo mušterijom mušteriju
+87	2387	osvetiti	osvete osveti osvetila osvetili osvetilo osvetim osvetimo osvetio osvetite osvetiću osvetiš osvećen osvećena osvećeni
+88	2388	razum	razuma razume razumom razumu
+89	2389	golf	golfa golfom golfu
+90	2390	ispadati	ispada ispadaj ispadaju ispadalo ispadam ispadamo ispadanje ispadao ispadate ispadaš
+91	2391	upadati	upada upadaj upadajte upadaju upadala upadali upadam upadamo upadanje upadao upadate upadaš
+92	2392	jedinstven	jedinstvena jedinstvene jedinstveni jedinstvenih jedinstvenim jedinstveno jedinstvenog jedinstvenoj jedinstvenom jedinstvenu
+93	2393	tužba	tužbama tužbe tužbi tužbom tužbu
+94	2394	otkrivati	otkriva otkrivaj otkrivaju otkrivajući otkrivala otkrivali otkrivam otkrivamo otkrivanje otkrivao otkrivate otkrivaš
+95	2395	polovica	polovice polovici polovicom polovicu
+96	2396	lubanja	lubanjama lubanje lubanji lubanjo lubanjom lubanju
+97	2397	parkirati	parkira parkiraj parkirajte parkiraju parkirala parkirali parkiram parkiramo parkiranje parkirao parkirate parkiraš
+98	2398	zaključiti	zaključe zaključen zaključena zaključeni zaključenje zaključeno zaključi zaključila zaključile zaključili zaključilo zaključim zaključimo zaključio zaključite zaključiš
+99	2399	tulum	tuluma tulume tulumi tulumima tulumom tulumu
+100	2400	sastati	sastala sastale sastali sastalo sastane sastanem sastanemo sastanete sastaneš sastani sastanimo sastanite sastanu sastao sastaćemo sastaću

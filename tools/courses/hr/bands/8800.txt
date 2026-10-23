@@ -1,0 +1,100 @@
+1	8701	žderati	žderanje žderao ždere žderem ždereš žderi žderu
+2	8702	gnusan	gnjusan gnusna gnusne gnusni gnusnim gnusnima gnusnog gnusnu
+3	8703	java	jave javi javu
+4	8704	odličje	odličja
+5	8705	zloba	zlobe zlobi zlobom zlobu
+6	8706	pomrčina	pomrčine pomrčini pomrčinu
+7	8707	monarhija	monarhije monarhiji monarhiju
+8	8708	neposlušan	neposlušna neposlušne neposlušni neposlušno neposlušnog neposlušnu
+9	8709	nanovo	
+10	8710	kapitalizam	kapitalizma kapitalizmu
+11	8711	pejzaž	pejzaža pejzaže pejzaži pejzažima pejzažu
+12	8712	šakal	šakala šakale šakali šakalima šakalu
+13	8713	osmrtnica	osmrtnicama osmrtnice osmrtnici osmrtnicu
+14	8714	secirati	secira seciraju secirala secirali seciram seciranje secirao
+15	8715	preraditi	prerade preradi preradili preradim preradio prerađen prerađena prerađene prerađeni prerađeno
+16	8716	nezaštićen	nezaštićena nezaštićene nezaštićeni nezaštićeno nezaštićenog nezaštićenu
+17	8717	vjetrenjača	vetrenjača vjetrenjačama vjetrenjače vjetrenjači vjetrenjaču
+18	8718	posveta	posvete posveti posvetom posvetu
+19	8719	odaziv	odaziva odazivu
+20	8720	tumačenje	tumačenja
+21	8721	rekreacija	rekreacije rekreaciju
+22	8722	jednostavnost	jednostavnosti jednostavnošću
+23	8723	zavisnost	zavisnosti zavisnošću
+24	8724	polusestra	polusestre polusestrom polusestru
+25	8725	osvećivati	osvećivao osvećuje osvećujem osvećujete osvećuješ osvećuju
+26	8726	goveđi	goveđa goveđe goveđeg goveđih goveđim goveđu
+27	8727	nomad	nomada nomade nomadi nomadima
+28	8728	unca	unce unci uncu
+29	8729	slušatelj	slušatelja slušatelje slušatelji slušateljima
+30	8730	potezati	potezanje potezao poteže potežem potežeš poteži potežu
+31	8731	opažati	opaža opažam opažamo opažanje opažate opažaš
+32	8732	svjedočanstvo	svedočanstvo svjedočanstava svjedočanstva
+33	8733	pedijatar	pedijatra pedijatru
+34	8734	nabavka	nabavci nabavke nabavkom nabavku
+35	8735	tanker	tankera tankere tankeri tankeru
+36	8736	deklaracija	deklaracije deklaraciji deklaraciju
+37	8737	motka	motkama motke motki motkom motku
+38	8738	opipljiv	opipljiva opipljive opipljivi opipljivih opipljivije opipljivim opipljivo opipljivog opipljivu
+39	8739	probava	probave probavi probavom probavu
+40	8740	socijalno	
+41	8741	svršeni	svršena svršeno
+42	8742	drvosječa	drvoseča drvosječama drvosječe drvosječu
+43	8743	otirač	otirača otirače otiračem otirači otiraču
+44	8744	zoben	zobena zobene zobeni zobenih zobenu
+45	8745	gustoća	gustoće gustoći gustoću
+46	8746	prolaznik	prolaznici prolaznicima prolaznika prolaznike
+47	8747	hoditi	hodi hodio hodite
+48	8748	detektirati	detektira detektiraju detektirali detektiram detektiran detektirana detektirao
+49	8749	kongresni	kongresna kongresne kongresnim kongresno kongresnog kongresnoj kongresnom kongresnu
+50	8750	neprekidan	neprekidna neprekidne neprekidni neprekidnih neprekidnim neprekidnog neprekidnoj neprekidnom neprekidnu
+51	8751	dvadesetak	
+52	8752	izazivač	izazivača izazivače izazivači
+53	8753	kajgana	kajgane kajganu
+54	8754	oganj	ognja ognjem ognju
+55	8755	žilet	žileta žilete žileti žiletima žiletom
+56	8756	spona	sponama spone sponu
+57	8757	dodjeljivati	dodeljuje dodjeljivanje dodjeljuje dodjeljujem dodjeljujemo dodjeljuješ dodjeljuju
+58	8758	tržišni	tržišna tržišne tržišnim tržišnog tržišnoj tržišnom tržišnu
+59	8759	hlad	hlada hlade hladu
+60	8760	kašljati	kašljala kašljanje kašljao kašlje kašljem kašljete kašlješ kašlji kašlju
+61	8761	grubijan	grubijana grubijane grubijani grubijanima grubijanu
+62	8762	trgovinski	trgovinska trgovinske trgovinskih trgovinskim trgovinskog trgovinskom trgovinsku
+63	8763	poreznik	poreznici poreznicima poreznika poreznike
+64	8764	geografski	geografska geografske geografskih geografsko geografskog geografskoj geografskom geografsku
+65	8765	pokoran	pokorna pokorne pokorni pokorno pokornog
+66	8766	neodređeno	
+67	8767	topništvo	topništva topništvom topništvu
+68	8768	paničiti	paniče paniči paničim paničimo paničite paničiš
+69	8769	podvaliti	podvale podvali podvalila podvalili podvalio
+70	8770	grabiti	grabe grabeći grabi grabila grabim grabio grabite grabiš
+71	8771	patološki	patološka patološke patološko patološkog patološkom patološku
+72	8772	pandža	pandžama pandže pandži pandžu
+73	8773	poslovođa	poslovođe poslovođi poslovođom poslovođu
+74	8774	mlažnjak	mlažnjaci mlažnjacima mlažnjaka mlažnjake mlažnjakom mlažnjaku
+75	8775	inkvizicija	inkvizicije inkviziciji inkvizicijom inkviziciju
+76	8776	klipan	klipana klipane klipani
+77	8777	ekscentričan	ekscentrična ekscentrične ekscentrični ekscentrično ekscentričnog
+78	8778	vitak	vitka vitke vitki vitko
+79	8779	reket	
+80	8780	talisman	talismana talismane talismani
+81	8781	lakoća	lakoće lakoćom lakoću
+82	8782	dušnik	dušnika dušniku
+83	8783	pribran	pribrana pribrani pribrano
+84	8784	treptati	treptala treptanje treptao trepće trepćem trepćeš trepći trepću
+85	8785	delegacija	delegacije delegaciji delegacijom delegaciju
+86	8786	stabljika	stabljici stabljikama stabljike stabljiku
+87	8787	bridž	bridža bridžu
+88	8788	televizijski	televizijske
+89	8789	staratelj	staratelja staratelji
+90	8790	sadist	sadista sadiste sadisti
+91	8791	usidriti	usidren usidrena usidreni usidri usidrili usidrio
+92	8792	vidra	vidara vidrama vidre vidri vidru
+93	8793	gimnastika	gimnastici gimnastike gimnastikom gimnastiku
+94	8794	mlaz	mlaza mlazom mlazove mlazovi mlazu
+95	8795	maloljetnički	maloljetnička maloljetničke maloljetničko maloljetničkog maloljetničkom
+96	8796	kanibal	kanibala kanibale kanibali kanibalima
+97	8797	nadjev	nadjeva nadjevom
+98	8798	koridor	koridora koridore koridori koridorom koridoru
+99	8799	oktobar	oktobra oktobru
+100	8800	kanarinac	kanarinaca kanarinca kanarince kanarinci

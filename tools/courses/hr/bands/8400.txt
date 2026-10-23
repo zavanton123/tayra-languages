@@ -1,0 +1,100 @@
+1	8301	bulja	bulje bulji bulju
+2	8302	lisičine	
+3	8303	skromnost	skromnosti skromnošću
+4	8304	ništavilo	ništavila ništavilom ništavilu
+5	8305	kuvar	kuvara kuvare kuvari kuvaru
+6	8306	obožavalac	obožavalaca obožavaoca obožavaoce obožavaoci obožavaocima
+7	8307	jajnik	jajnici jajnicima jajnika jajnike jajniku
+8	8308	izdvajati	izdvaja izdvajaju izdvajali izdvajam izdvajamo izdvajanje izdvajaš
+9	8309	najednom	
+10	8310	mimo	
+11	8311	činovnik	činovnici činovnika činovnike činovniku
+12	8312	dinosaurus	dinosaurusa dinosauruse dinosaurusi dinosaurusima
+13	8313	komoda	komode komodi komodo komodu
+14	8314	vata	vate vati vato vatom vatu
+15	8315	zloupotreba	zloupotrebe zloupotrebi zloupotrebu
+16	8316	igdje	igde
+17	8317	cijelost	celosti cijelosti
+18	8318	prokletinja	prokletinje prokletinjo prokletinju
+19	8319	iščašiti	iščašen iščašena iščašenje iščašeno iščašila iščašio
+20	8320	umarati	umara umaraju umaram umaraš
+21	8321	betonski	betonska betonske betonskih betonskim betonskog betonskoj betonskom betonsku
+22	8322	najuriti	najure najuren najuri najurila najurili najurim najurio
+23	8323	kolonijalan	kolonijalna kolonijalne kolonijalni kolonijalnih kolonijalnim kolonijalno kolonijalnog kolonijalnoj kolonijalnom kolonijalnu
+24	8324	pomoliti	
+25	8325	dražba	dražbe dražbi dražbu
+26	8326	spaziti	spaze spazi spazih spazila spazili spazio
+27	8327	iranski	iranska iranske iranskih iranskim iranskog iranskoj iranskom iransku
+28	8328	upirati	upiranje upire upirem upirete upireš upiri upiru
+29	8329	sažaljevati	sažaljeva sažaljevaj sažaljevaju sažaljevala sažaljevam sažaljevanje sažaljevao sažaljevate sažaljevaš
+30	8330	investicijski	investicijska investicijske investicijskih investicijskim investicijskog investicijskoj investicijskom investicijsku
+31	8331	artritis	artritisa artritisom
+32	8332	raznolikost	raznolikosti raznolikošću
+33	8333	diskriminacija	diskriminacije diskriminaciji diskriminacijom diskriminaciju
+34	8334	pjenušac	
+35	8335	održiv	održiva održive održivi održivo održivog održivom održivu
+36	8336	šestoro	
+37	8337	slijevati	slijeva slijevaju
+38	8338	niš	niša niše nišu
+39	8339	razdražljiv	razdražljiva razdražljive razdražljivi razdražljivo
+40	8340	kvota	kvote kvotu
+41	8341	fiziološki	fiziološka fiziološke fiziološkom fiziološku
+42	8342	prašak	praška praškom prašku
+43	8343	bučno	
+44	8344	fakat	
+45	8345	običavati	običavaju običavala običavali običavam običavao
+46	8346	zajedništvo	zajedništva zajedništvu
+47	8347	klip	klipa klipe klipova klipove klipovi klipu
+48	8348	saobraćaj	saobraćaja saobraćaju
+49	8349	frakcija	frakcijama frakcije frakciji frakciju
+50	8350	tašna	tašne tašni tašnom tašnu
+51	8351	vječit	večiti večito vječita vječite vječiti vječito vječitog vječitu
+52	8352	klokan	klokana klokane klokani klokanom klokanu
+53	8353	prostranstvo	prostranstva prostranstvima prostranstvu
+54	8354	rezolucija	rezolucije rezoluciji rezolucijom rezoluciju
+55	8355	galamiti	galame galami galamila galamili galamim galamio galamite galamiš
+56	8356	dokrajčiti	
+57	8357	bijednik	bednik bednika bedniče bijednici bijednika bijedniče
+58	8358	trzati	trza trzaju trzala trzam trzanje trzao trzaš
+59	8359	procjep	procep procepu procjepa procjepu
+60	8360	snalažljiv	snalažljiva snalažljivi snalažljivo
+61	8361	pramac	pramca pramcu
+62	8362	porta	porte porti porto portu
+63	8363	trenirka	trenirci trenirke trenirki trenirku
+64	8364	transformirati	transformira transformiraj transformiraju transformirala transformirali transformiran transformirana transformirao
+65	8365	lezbijski	lezbijska lezbijske lezbijskih lezbijskim lezbijsko lezbijskog lezbijskoj lezbijskom lezbijsku
+66	8366	barka	barci barke barkom barku
+67	8367	velikan	velikana velikane velikani velikanima
+68	8368	neobjašnjiv	neobjašnjiva neobjašnjive neobjašnjivi neobjašnjivih neobjašnjivim neobjašnjivog neobjašnjivom neobjašnjivu
+69	8369	misteriozno	
+70	8370	državljanstvo	državljanstva državljanstvu
+71	8371	hijena	hijenama hijene hijeno hijenu
+72	8372	psovka	psovkama psovke psovki psovku
+73	8373	krem	
+74	8374	valcer	valcera
+75	8375	nepravilnost	nepravilnosti nepravilnostima
+76	8376	objavljivanje	objavljivanja
+77	8377	smola	smole smoli smolom smolu
+78	8378	pramen	pramenova pramenove pramenovi pramenovima
+79	8379	malj	malja maljem malju
+80	8380	osvetoljubiv	osvetoljubiva osvetoljubive osvetoljubivi osvetoljubivo osvetoljubivog
+81	8381	letač	letača letače letači letačima letaču
+82	8382	cirkuski	cirkuska cirkuske cirkuskih cirkuskim cirkuskog cirkuskom cirkusku
+83	8383	nelagodno	
+84	8384	ciganiti	cigane cigani
+85	8385	objavljivati	objavljujem
+86	8386	potpetica	potpeticama potpetice potpeticom potpeticu
+87	8387	ratnica	ratnice ratnici ratnicu
+88	8388	kositi	kose kosi kosim kosimo kosio kosiš košenje
+89	8389	primjereno	primereno
+90	8390	apokalipsa	
+91	8391	otvarač	otvarača otvaračem
+92	8392	nadvladati	nadvlada nadvladaju nadvladala nadvladali nadvladao
+93	8393	trubiti	trube trubi trubila trubili trubim trubio trubite trubiš trubljenje
+94	8394	otrcano	
+95	8395	uzvodno	
+96	8396	intenzivno	
+97	8397	ljevak	levak ljevaci ljevaka ljevake
+98	8398	ocat	octa octom octu
+99	8399	ep	epa epu
+100	8400	bankarski	bankarska bankarske bankarskih bankarskim bankarsko bankarskog bankarskom bankarsku

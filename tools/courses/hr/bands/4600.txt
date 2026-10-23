@@ -1,0 +1,100 @@
+1	4501	aukcija	aukcijama aukcije aukciji aukcijom aukciju
+2	4502	poplava	poplavama poplave poplavi poplavom poplavu
+3	4503	prestraviti	prestravi prestravila prestravili prestravilo prestravio prestravljen prestravljena prestravljene prestravljeni prestravljeno
+4	4504	bogataš	bogataša bogataše bogatašem bogataši bogatašima bogatašu
+5	4505	putanja	putanjama putanje putanji putanjom putanju
+6	4506	smišljati	smišlja smišljaj smišljaju smišljajući smišljala smišljali smišljam smišljamo smišljanje smišljao smišljate smišljaš
+7	4507	perspektiva	perspektive perspektivi perspektivom perspektivu
+8	4508	nastava	nastave nastavi nastavom nastavu
+9	4509	naprava	napravama naprave napravi napravo napravom napravu
+10	4510	hipoteka	hipoteci hipotekama hipoteke hipotekom hipoteku
+11	4511	pohlepan	pohlepna pohlepne pohlepni pohlepnih pohlepnim pohlepno pohlepnog
+12	4512	misteriozan	misteriozna misteriozne misteriozni misterioznih misterioznim misterioznog misterioznoj misterioznom misterioznu
+13	4513	tenis	tenisa tenisom tenisu
+14	4514	određivati	određivali određivao određuje određujem određujemo određujete određuješ određuju
+15	4515	napola	
+16	4516	laser	lasera lasere laseri laserima laserom laseru
+17	4517	pozitivno	
+18	4518	apetit	apetita apetite apetiti apetitima apetitom apetitu
+19	4519	izračunati	izračuna izračunaj izračunajte izračunala izračunali izračunam izračunamo izračunao izračunat izračunata izračunate izračunato izračunaš
+20	4520	iskusan	iskusna iskusne iskusni iskusnih iskusnija iskusnije iskusnijeg iskusniji iskusnim iskusno iskusnog iskusnom iskusnu najiskusniji najiskusnijih
+21	4521	arapski	arapska arapske arapskih arapskim arapsko arapskog arapskoj arapskom arapsku
+22	4522	izostaviti	izostave izostavi izostavila izostavili izostavim izostavimo izostavio izostavite izostaviš izostavljen izostavljena izostavljeni izostavljeno
+23	4523	šav	šava šavom šavova šavove šavovi šavovima šavu
+24	4524	uticati	uticala uticale uticali uticalo uticao utiče utičem utičemo utičeš utiču
+25	4525	opremiti	opreme opremi opremila opremili opremimo opremio opremite opremljen opremljena opremljene opremljeni opremljeno
+26	4526	lažirati	lažira lažiraj lažiraju lažirala lažirali lažiram lažiramo lažiran lažirana lažirane lažirani lažiranje lažirano lažirao lažirate lažiraš
+27	4527	kritičan	kritična kritične kritični kritičnih kritičnim kritičnog kritičnoj kritičnom kritičnu
+28	4528	zaželjeti	zažele zaželi zaželim zaželimo zaželio zaželite zaželiš zaželjela zaželjeli
+29	4529	uragan	uragana uragane uragani uraganima uraganom uraganu
+30	4530	kasan	kasna kasne kasni kasnih kasnija kasnijeg kasnijem kasniji kasnijih kasnijim kasnijoj kasniju kasnim kasnog kasnoj kasnom kasnu najkasnije
+31	4531	glede	
+32	4532	bodež	bodeža bodeže bodeži bodežima bodežom bodežu
+33	4533	blefirati	blefira blefiraju blefirala blefirali blefiram blefiramo blefiranje blefirao blefirate blefiraš
+34	4534	jebemti	
+35	4535	ugledati	ugleda ugledah ugledaj ugledajte ugledaju ugledam ugledamo ugledate ugledavši ugledaš ugledaše
+36	4536	ekspedicija	ekspedicijama ekspedicije ekspediciji ekspedicijom ekspediciju
+37	4537	lokal	lokala lokale lokali lokalima lokalu
+38	4538	krajnji	krajnja krajnjeg krajnjem krajnjih krajnjim krajnjoj krajnjom krajnju
+39	4539	ljubak	ljupka ljupke ljupki ljupkih ljupkim ljupkog ljupkoj ljupkom ljupku
+40	4540	ukupno	
+41	4541	žlica	žlicama žlice žlici žlicom žlicu
+42	4542	inspiracija	inspiracije inspiraciji inspiracijom inspiraciju
+43	4543	glupača	glupače glupači glupačo glupačom glupaču
+44	4544	komunist	komunista komuniste komunisti komunistima komunistom komunistu
+45	4545	nestrpljiv	nestrpljiva nestrpljive nestrpljivi nestrpljivo
+46	4546	plesačica	plesačicama plesačice plesačici plesačicom plesačicu
+47	4547	pahuljica	pahuljicama pahuljice pahuljicu
+48	4548	jahta	jahtama jahte jahti jahtom jahtu
+49	4549	otpasti	otpade otpadne otpadni otpadnih otpadnu otpala otpale otpali otpalo otpao
+50	4550	besmrtan	besmrtna besmrtne besmrtni besmrtnih besmrtnim besmrtnima besmrtno besmrtnog besmrtnom besmrtnu
+51	4551	vjerski	verska verske verski vjerska vjerske vjerskih vjerskim vjersko vjerskog vjerskoj vjerskom vjersku
+52	4552	tjelohranitelj	telohranitelj telohranitelja telohranitelji tjelohranitelja tjelohranitelje tjelohraniteljem tjelohranitelji tjelohraniteljima tjelohranitelju
+53	4553	tragičan	tragična tragične tragični tragičnih tragičnije tragičnim tragičnog tragičnoj tragičnom tragičnu
+54	4554	sutrašnji	sutrašnja sutrašnje sutrašnjeg sutrašnjem sutrašnjih sutrašnjim sutrašnjoj sutrašnju
+55	4555	opstanak	opstanka opstankom opstanku
+56	4556	sutkinja	sutkinje sutkinji sutkinjo sutkinjom sutkinju
+57	4557	biblioteka	biblioteci biblioteke biblioteku
+58	4558	novak	novaci novacima novaka novake novakom novaku novače
+59	4559	stih	stiha stihom stihova stihove stihovi stihovima stihu
+60	4560	trostruk	trostruka trostruke trostruki trostrukim trostruko trostrukog trostrukom trostruku
+61	4561	boraviti	borave boraveći boravi boravila boravili boravim boravimo boravio boravite boraviš
+62	4562	samoobrana	samoobrane samoobrani samoobranom samoobranu
+63	4563	urota	urotama urote uroti urotom urotu
+64	4564	aktovka	aktovci aktovkama aktovke aktovki aktovkom aktovku
+65	4565	emotivan	emotivna emotivne emotivni emotivnih emotivnim emotivno emotivnog emotivnoj emotivnom emotivnu
+66	4566	zapisnik	zapisnici zapisnicima zapisnika zapisnike zapisniku
+67	4567	sako	sakoa sakoe sakoi sakoima sakoom sakou
+68	4568	spasitelj	spasitelja spasitelje spasiteljem spasitelji spasiteljima spasitelju
+69	4569	kraljev	kraljeva kraljeve kraljevi kraljevih kraljevim kraljevima kraljevo kraljevoj kraljevom kraljevu
+70	4570	naranča	narandža narančama naranče naranči narančom naranču
+71	4571	svezati	svezala svezali svezan svezana svezane svezani svezano svezao sveze svezi svežem svežemo svežete svežeš sveži svežite svežu
+72	4572	besmisleno	
+73	4573	stanka	stanci stanke stanki stankom stanku
+74	4574	razbojnik	razbojnici razbojnicima razbojnika razbojnike razbojnikom razbojniku razbojniče
+75	4575	srž	srži
+76	4576	terorizam	terorizma terorizmom terorizmu
+77	4577	ponovan	ponovna ponovne ponovni ponovnih ponovnim ponovnog ponovnoj ponovnom ponovnu
+78	4578	kleknuti	klekne kleknem kleknete klekneš klekni kleknite kleknu kleknula kleknuli kleknuo kleknut kleče
+79	4579	ciklus	ciklusa cikluse ciklusi ciklusima ciklusom ciklusu
+80	4580	blokada	blokadama blokade blokadi blokadom blokadu
+81	4581	transport	transporta transporte transporti transportom transportu
+82	4582	zvučan	zvučna zvučne zvučni zvučnih zvučnim zvučnog zvučnom zvučnu
+83	4583	ekstreman	ekstremna ekstremne ekstremni ekstremnih ekstremnije ekstremniji ekstremnim ekstremnog ekstremnoj ekstremnom ekstremnu najekstremniji najekstremnijim
+84	4584	mar	mara mare marom maru
+85	4585	zabrinutost	zabrinutosti zabrinutošću
+86	4586	gumen	gumena gumene gumeni gumenih gumenim gumeno gumenog gumenoj gumenom gumenu
+87	4587	ćelav	ćelava ćelave ćelavi ćelavih ćelavim ćelavo ćelavog ćelavom ćelavu
+88	4588	lonac	lonaca lonca lonce loncem lonci loncima loncu
+89	4589	materija	materije materiji materijom materiju
+90	4590	lizati	lizala lizali lizalo lizanje lizao liže ližem ližete ližeš liži ližite ližu ližući
+91	4591	promisliti	promisle promisli promislila promislili promislim promislimo promislio promislite promisliš
+92	4592	remen	remena remene remeni remenima remenom remenu
+93	4593	čopor	čopora čopore čopori čoporima čoporom čoporu
+94	4594	komedija	komedijama komedije komediji komedijom komediju
+95	4595	razljutiti	razljute razljuti razljutila razljutili razljutilo razljutim razljutimo razljutio razljutite razljutiš
+96	4596	izbosti	izbode izbodem izboden izbodena izbodene izbodeni izbodeno izbodeš izbodi izbodu izbola izboli izboo
+97	4597	oltar	oltara oltare oltarom oltaru
+98	4598	vredeti	vrede vredela vredelo vredeo vredi vredim vrediš
+99	4599	trovati	trovala trovali trovanje trovao truje trujem trujemo trujete truješ truju
+100	4600	tipično	

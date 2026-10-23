@@ -1,0 +1,100 @@
+1	6901	struna	strunama strune strunu
+2	6902	pehar	pehara pehare pehari peharom peharu
+3	6903	islamski	islamska islamske islamskih islamskim islamsko islamskog islamskoj islamskom islamsku
+4	6904	hleb	hleba hlebom hlebu leb
+5	6905	bos	bosa bose bosi bosih bosim bosom
+6	6906	sjednica	sednici sednicu sjednicama sjednice sjednici sjednicu
+7	6907	pojedini	pojedina pojedine pojedinih pojedinim pojedinog pojedinom pojedinu
+8	6908	seljanin	seljana seljane seljani seljanima
+9	6909	povremen	povremena povremene povremeni povremenih povremenim povremenog povremenom povremenu
+10	6910	ciničan	cinična cinične cinični ciničnim cinično
+11	6911	nepošteno	
+12	6912	skakavac	skakavaca skakavca skakavce skakavci skakavcima skakavče
+13	6913	optimizam	optimizma optimizmom optimizmu
+14	6914	neurološki	neurološka neurološke neuroloških neurološkim neurološko neurološkog neurološkom neurološku
+15	6915	žulj	žulja žuljeva žuljeve žuljevi žuljevima
+16	6916	nepravedno	
+17	6917	cjedilo	cedilu cjedilu
+18	6918	alimentacija	alimentacije alimentacijom alimentaciju
+19	6919	bezvezan	bezvezna bezvezne bezvezni bezveznih bezveznim bezvezno bezveznog bezveznom bezveznu
+20	6920	opseg	opsega opsegom opsegu
+21	6921	mističan	mistična mistične mistični mističnih mističnim mističnog mističnoj mističnom mističnu
+22	6922	bela	
+23	6923	kućanica	kućanicama kućanice kućanicu
+24	6924	kriška	kriškama kriške kriški kriškom krišku
+25	6925	garantovati	garantovala garantovano garantovao garantuje garantujem garantujemo garantuješ garantuju
+26	6926	onemogućiti	onemogućen onemogućena onemogućeni onemogućeno onemogući onemogućila onemogućili onemogućilo onemogućimo onemogućio
+27	6927	lišiti	liše lišen lišena lišeni lišeno liši lišila lišili lišim lišio lišiš
+28	6928	košmar	košmara košmare košmari košmarima košmaru
+29	6929	polaran	polarna polarne polarnih polarnim polarno polarnog polarnoj polarnom polarnu
+30	6930	dobitnik	dobitnici dobitnicima dobitnika dobitnike dobitniku
+31	6931	ekološki	ekološka ekološke ekoloških ekološkim ekološko ekološkog ekološkoj ekološkom ekološku
+32	6932	miroljubiv	miroljubiva miroljubive miroljubivi miroljubivih miroljubivim miroljubivo miroljubivog miroljubivu
+33	6933	svirka	svirci svirke svirki svirkom svirku
+34	6934	dopisivati	dopisivala dopisivali dopisivanje dopisivao dopisuje dopisujem dopisujemo dopisujete dopisuješ dopisuju
+35	6935	začaran	začarana začarane začarani začaranim začarano začaranog začaranoj začaranom začaranu
+36	6936	sauna	saune sauni saunom saunu
+37	6937	univerzalan	univerzalna univerzalne univerzalni univerzalnih univerzalnim univerzalnog univerzalnom univerzalnu
+38	6938	navod	navoda navode navodi navodima
+39	6939	ispuhati	ispuha ispuhala ispuhali ispuhao ispuše ispušem ispušeš ispuši ispušite ispušu
+40	6940	kotrljati	kotrlja kotrljaj kotrljaju kotrljajući kotrljala kotrljali kotrljam kotrljamo kotrljanje kotrljao kotrljaš
+41	6941	nekažnjen	nekažnjena nekažnjeni nekažnjeno
+42	6942	nalikovati	nalikovala nalikovalo nalikovao nalikuje nalikujem nalikujete nalikuješ nalikuju
+43	6943	preljub	preljuba preljube preljubi preljubu
+44	6944	peć	pećima
+45	6945	nelegalan	nelegalna nelegalne nelegalni nelegalnih nelegalnim nelegalno nelegalnog nelegalnom nelegalnu
+46	6946	perec	pereca perece pereci perecima perecu
+47	6947	poslušan	poslušna poslušne poslušni poslušnim poslušno poslušnog
+48	6948	sestrin	sestrina sestrine sestrinih sestrinim sestrino sestrinoj sestrinom sestrinu
+49	6949	doseg	dosega dosegu doseže
+50	6950	intelektualan	intelektualna intelektualne intelektualni intelektualnih intelektualnim intelektualnog intelektualnoj intelektualnom intelektualnu
+51	6951	mamurluk	mamurluka mamurlukom
+52	6952	žilav	najžilaviji žilava žilave žilavi žilavija žilaviji žilavo
+53	6953	preliminaran	preliminarna preliminarne preliminarni preliminarnih preliminarnim preliminarno preliminarnom preliminarnu
+54	6954	stvoritelj	stvoritelja stvoriteljem stvoritelji stvoritelju
+55	6955	moralno	
+56	6956	manjina	manjinama manjine manjini manjinu
+57	6957	volt	volta volte volti voltu
+58	6958	gaza	gaze gazi gazom gazu
+59	6959	fantom	fantoma fantome fantomi fantomom fantomu
+60	6960	zadnjica	zadnjice zadnjici zadnjicom zadnjicu
+61	6961	meduza	meduzama meduze meduzi meduzu
+62	6962	perverzan	perverzna perverzne perverzni perverznih perverznim perverznog perverznom perverznu
+63	6963	galama	galame galami galamom galamu
+64	6964	primjena	primene primeni primjene primjeni primjenom primjenu
+65	6965	okolni	okolna okolne okolnih okolnim okolno okolnog okolnom okolnu
+66	6966	orgija	orgijama orgije orgiji orgiju
+67	6967	distribucija	distribucije distribuciji distribucijom distribuciju
+68	6968	kreda	krede kredi kredo kredom kredu
+69	6969	kalifornijski	kalifornijska kalifornijske kalifornijskih kalifornijskim kalifornijsko kalifornijskog kalifornijskoj kalifornijskom kalifornijsku
+70	6970	buran	burna burne burni burnih burnim burno burnog burnu
+71	6971	gusto	
+72	6972	prastar	prastara prastare prastari prastarih prastarim prastaro prastarog prastarom prastaru
+73	6973	sag	sagom sagova sagove sagovi sagovima sagu
+74	6974	tesla	tesle tesli teslom teslu
+75	6975	transporter	transportera transportere transporteri transporterima transporterom transporteru
+76	6976	loža	lože loži ložu
+77	6977	karika	karike kariku
+78	6978	oslobođenje	oslobođenja oslobođenjem oslobođenju
+79	6979	okno	okana okna oknima oknu
+80	6980	bljak	
+81	6981	nasred	
+82	6982	prirediti	
+83	6983	izrazit	izrazio
+84	6984	oklopni	oklopna oklopne oklopnih oklopnim oklopno oklopnog oklopnom oklopnu
+85	6985	zadavati	zadaj zadaje zadajem zadajete zadaješ zadaju zadavala zadavali zadavao
+86	6986	puziti	puzala puze puzeći puzi puzim puzimo puzio puzite puziš
+87	6987	sarkastičan	sarkastična sarkastične sarkastični sarkastično
+88	6988	zalogajnica	zalogajnice zalogajnici zalogajnicu
+89	6989	bučan	bučna bučne bučni bučnih bučnije bučniji bučnim bučnog bučnom bučnu
+90	6990	čestit	čestita čestite čestiti čestitim čestito čestitu
+91	6991	losion	losiona losione losionom
+92	6992	zdravstvo	zdravstva zdravstvu
+93	6993	uklanjati	uklanja uklanjaju uklanjajući uklanjali uklanjam uklanjamo uklanjao uklanjaš
+94	6994	redoslijed	redosled redosledom redosledu redoslijeda redoslijedom redoslijedu
+95	6995	svod	svoda svode svodom svodova svodove svodovi svodovima svodu
+96	6996	krompir	krompira krompire krompiri krompirom
+97	6997	gravitacijski	gravitacijska gravitacijske gravitacijskih gravitacijskim gravitacijsko gravitacijskog gravitacijskom gravitacijsku
+98	6998	hipnoza	hipnoze hipnozi hipnozom hipnozu
+99	6999	kockarnica	kockarnicama kockarnice kockarnici kockarnicu
+100	7000	naginjati	naginjala naginjanje naginjao naginje naginjem naginjemo naginjete naginješ naginji naginju

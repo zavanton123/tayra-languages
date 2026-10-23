@@ -1,0 +1,100 @@
+1	9401	ljetovanje	letovanja letovanje ljetovanja ljetovanju
+2	9402	gruda	grude grudom grudu
+3	9403	opaska	opaske opaski opasku
+4	9404	razderati	razderala razderali razderan razderana razderane razderano razderao razdere razderi
+5	9405	alkoholičarka	
+6	9406	suzbijati	suzbija suzbijanje
+7	9407	maštovit	maštovita maštovite maštoviti maštovito
+8	9408	ugođaj	ugođaja
+9	9409	svirač	svirača svirače svirači sviraču
+10	9410	dočasnik	dočasnici dočasnika dočasniče
+11	9411	nametljiv	nametljiva nametljivi nametljivo
+12	9412	sarkofag	sarkofaga sarkofagu
+13	9413	jaran	jarana jarane jarani
+14	9414	slastica	slasticama slastice slasticu
+15	9415	kozak	kozaci kozacima kozaka kozake kozače
+16	9416	žonglirati	žonglira žongliram žongliranje žonglirao žongliraš
+17	9417	iracionalan	iracionalna iracionalne iracionalni iracionalnim iracionalnog
+18	9418	zapadnjački	zapadnjačka zapadnjačke zapadnjačkih zapadnjačkim zapadnjačkog zapadnjačkoj zapadnjačkom zapadnjačku
+19	9419	kašika	kašike kašikom kašiku kašičica kašičice kašičicu
+20	9420	koriti	kore korena korene koreni korenje kori korio koriš
+21	9421	voćnjak	voćnjaci voćnjaka voćnjake voćnjaku
+22	9422	neizlječiv	neizlječiva neizlječive neizlječivi neizlječivo neizlječivu
+23	9423	tinejdžerka	
+24	9424	instinktivno	
+25	9425	krelac	
+26	9426	naslijepo	naslepo
+27	9427	solidarnost	solidarnosti
+28	9428	sprdnja	sprdnje sprdnju
+29	9429	snagator	snagatora snagatore snagatori snagatoru
+30	9430	pristran	pristrana pristrani pristrano
+31	9431	dočekivati	dočekivali dočekivao dočekuje dočekujem dočekujemo dočekujete dočekuješ dočekuju
+32	9432	zbijati	zbija zbijaj zbijaju zbijali zbijam zbijanje zbijao zbijate zbijaš
+33	9433	utješan	utešna utešno utješna utješne utješni utješnu
+34	9434	rud	rude rudi rudo rudu
+35	9435	šverc	šverca švercom švercu
+36	9436	darivati	darivali darivanje darivao
+37	9437	čučati	čučala čučao čuče čučeći čuči čučim čučiš
+38	9438	vunen	vunena vunene vuneni vunenih vuneno vunenom vunenu
+39	9439	bluza	
+40	9440	lima	
+41	9441	specijalizacija	specijalizacije specijalizaciji specijalizaciju
+42	9442	beživotan	beživotna beživotne beživotni beživotno beživotnog beživotnu
+43	9443	globa	globe globo globu
+44	9444	zatočenik	zatočenici zatočenicima zatočenika zatočenike
+45	9445	elektroda	elektrodama elektrode
+46	9446	učešće	učešća učešću
+47	9447	kontaminacija	kontaminacije kontaminaciju
+48	9448	sobica	sobice sobici sobicu
+49	9449	kist	kista kistom kistove
+50	9450	đak	đaci đacima đaka đake
+51	9451	pripovjedač	pripovjedača pripovjedači
+52	9452	gi	
+53	9453	zavodnik	zavodnika zavodniče
+54	9454	strankinja	strankinje strankinji strankinjo strankinjom strankinju
+55	9455	gerilac	gerilaca gerilce gerilci gerilcima
+56	9456	spavač	spavača spavače spavači spavaču
+57	9457	vlasulja	vlasulje vlasuljom vlasulju
+58	9458	žličica	žličice žličicom žličicu
+59	9459	hrišćanin	hrišćana hrišćane hrišćani hrišćanima hrišćanina
+60	9460	autorski	autorska autorskih autorskim autorsko autorskog
+61	9461	individualan	individualna individualne individualni individualnih individualnim individualnog individualnu
+62	9462	neumoran	neumorna neumorni neumornog neumornom neumornu
+63	9463	pretplata	pretplate pretplatu
+64	9464	neslužben	neslužbena neslužbene neslužbeni neslužbenim neslužbenu
+65	9465	vrba	vrbe vrbi vrbu
+66	9466	zupčanik	zupčanici zupčanicima zupčanika zupčanike
+67	9467	osmero	
+68	9468	spisateljica	spisateljice spisateljicu
+69	9469	raskoš	raskoši
+70	9470	krunidba	krunidbe krunidbi krunidbu
+71	9471	tulipan	tulipana tulipane tulipani tulipanima
+72	9472	uteći	utekao utekla utekli utekne
+73	9473	spiralan	spiralna spiralne spiralni spiralnih spiralnim spiralnom spiralnu
+74	9474	useljenik	useljenici useljenicima useljenika useljenike
+75	9475	opsežan	opsežna opsežne opsežni opsežnom opsežnu
+76	9476	ciganski	ciganska ciganske cigansko ciganskog ciganskom cigansku
+77	9477	efektivan	efektivna efektivne efektivni efektivnije efektivno
+78	9478	ćufta	ćuftama ćufte ćufti ćuftu
+79	9479	janjeći	janjeća janjeće janjećim janjećoj janjeću
+80	9480	čačkalica	čačkalice čačkalicom čačkalicu
+81	9481	ukočenost	ukočenosti
+82	9482	jednook	jednooka jednooki jednooko jednookog jednookom
+83	9483	grimasa	grimase grimasu
+84	9484	dika	dike diki diko diku
+85	9485	doktorski	doktorska doktorske doktorskih doktorskim doktorskog doktorskoj doktorsku
+86	9486	log	loga logom logove logu lože
+87	9487	navrat	navrata navrate navrati
+88	9488	kolekcionar	
+89	9489	kondukter	konduktera kondukteru
+90	9490	kompromitirati	kompromitira kompromitiraju kompromitirala kompromitirali kompromitirao kompromitiraš
+91	9491	šalter	šaltera šalteru
+92	9492	klošar	klošara klošare klošari klošarima klošaru
+93	9493	diskreditirati	diskreditira diskreditiraju diskreditirali diskreditiran diskreditirana diskreditirao
+94	9494	bahat	bahata bahati bahato
+95	9495	sezati	seže sežu
+96	9496	kraljevina	kraljevine kraljevini kraljevinu
+97	9497	nizvodno	
+98	9498	revanš	revanša
+99	9499	fašistički	fašistička fašističke fašističkih fašističkim fašističkog fašističkom fašističku
+100	9500	narkomanka	narkomanke narkomanki narkomanku

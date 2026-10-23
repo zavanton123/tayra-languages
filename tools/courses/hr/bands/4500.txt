@@ -1,0 +1,100 @@
+1	4401	kritika	kritici kritikama kritike kritikom kritiku
+2	4402	nervirati	nervira nerviraj nerviraju nervirala nerviralo nerviram nerviramo nerviranje nervirao nervirate nerviraš
+3	4403	indijanski	indijanska indijanske indijanskih indijanskim indijansko indijanskog indijanskoj indijanskom indijansku
+4	4404	ishod	ishoda ishode ishodi ishodima ishodom ishodu
+5	4405	naoružanje	naoružanja naoružanjem naoružanju
+6	4406	domaćica	domaćicama domaćice domaćici domaćicom domaćicu
+7	4407	rutina	rutine rutini rutinom rutinu
+8	4408	carski	carska carske carskih carskim carsko carskog carskoj carskom carsku
+9	4409	osloniti	osloni oslonila oslonili oslonim oslonimo oslonio oslonite osloniš
+10	4410	izvijestiti	izvestim izvestio izveštava izvijesti izvijestila izvijestili izvijestim izvijestimo izvijestio izvijestite izvijestiš
+11	4411	osmi	osma osme osmo osmog osmoga osmoj osmom osmu
+12	4412	dijeta	dijetama dijeti dijetom dijetu
+13	4413	gusar	gusara gusare gusari gusarima gusarom gusaru
+14	4414	interesantno	
+15	4415	bolesnik	bolesnici bolesnicima bolesnika bolesnike bolesnikom bolesniku bolesniče
+16	4416	ugrizati	ugriza ugrizao
+17	4417	zamjerati	zameram zamerate zameraš zamjera zamjeraj zamjeraju zamjerala zamjerali zamjeram zamjeramo zamjerao zamjerate zamjeraš
+18	4418	sjeći	seci secite sekao sekla sekli seku seći seče sečem sečemo sečenje sečeš sijeci sijecite sijeku siječe siječem siječemo siječeš sjekao sjekla sjekli sječenje
+19	4419	pojedinac	pojedinaca pojedinca pojedince pojedinci pojedincima pojedincu
+20	4420	plahta	plahtama plahte plahti plahtom plahtu
+21	4421	kružiti	kruže kruženje kružeći kruži kružila kružile kružili kružim kružimo kružio kružite kružiš
+22	4422	nasmiješiti	nasmeši nasmešila nasmešio nasmešite nasmiješe nasmiješi nasmiješila nasmiješili nasmiješim nasmiješio nasmiješite nasmiješiš
+23	4423	truba	trubama trube trubi trubom trubu
+24	4424	udaja	udaje udaji udajom udaju
+25	4425	original	originala originale originali originalom originalu
+26	4426	pečat	pečata pečate pečati pečatom pečatu
+27	4427	proračun	proračuna proračune proračuni proračunima proračunom proračunu
+28	4428	gušter	guštera guštere gušteri gušterima gušterom gušteru
+29	4429	jagoda	jagodama jagode jagodom jagodu
+30	4430	osvetnik	osvetnici osvetnicima osvetnika osvetnike osvetnikom osvetniku osvetniče
+31	4431	večernji	večernja večernje večernjeg večernjem večernjih večernjim večernjoj večernjom večernju
+32	4432	zastupnik	zastupnici zastupnicima zastupnika zastupnike zastupnikom zastupniku zastupniče
+33	4433	grubo	
+34	4434	pješice	pešice
+35	4435	zimski	zimska zimske zimskih zimskim zimsko zimskog zimskoj zimskom zimsku
+36	4436	predaja	predajama predaje predaji predajom predaju
+37	4437	smiješiti	smeše smeši smešim smešite smešiš smiješe smiješeći smiješi smiješila smiješili smiješim smiješimo smiješio smiješite smiješiš
+38	4438	pub	puba pubova pubove pubovi pubovima pubu
+39	4439	zalazak	zalasci zalaska zalaske zalaskom zalasku zalazaka
+40	4440	četvorica	četvorice četvorici četvoricom četvoricu
+41	4441	pacijentica	pacijenticama pacijentice pacijentici pacijenticom pacijenticu
+42	4442	tugovati	tugovala tugovali tugovanje tugovao tuguj tuguje tugujem tugujemo tugujete tuguješ tugujte tuguju tugujući
+43	4443	nasilnik	nasilnici nasilnicima nasilnika nasilnike nasilnikom nasilniku nasilniče
+44	4444	vitalan	vitalna vitalne vitalni vitalnih vitalnim vitalno vitalnog vitalnu
+45	4445	digitalni	digitalna digitalne digitalnih digitalnim digitalno digitalnog digitalnoj digitalnom digitalnu
+46	4446	stenjati	stenjala stenjanje stenjao stenje stenješ stenji stenju stenjući
+47	4447	kemikalija	kemikalijama kemikalije kemikaliji kemikalijom kemikaliju
+48	4448	samostan	samostana samostane samostani samostanima samostanu
+49	4449	glasnik	glasnici glasnicima glasnika glasnike glasnikom glasniku glasniče
+50	4450	onoliko	
+51	4451	striptizeta	striptizetama striptizete striptizeti striptizetom striptizetu
+52	4452	utroba	utrobama utrobe utrobi utrobom utrobu
+53	4453	burka	burke burki burku
+54	4454	evakuacija	evakuacije evakuaciji evakuacijom evakuaciju
+55	4455	post	posta poste postom postova postove postovi postovima postu
+56	4456	nezgodno	
+57	4457	znoj	znoja znojem znoju
+58	4458	izum	izuma izume izumi izumima izumom izumu
+59	4459	atomski	atomska atomske atomskih atomskim atomsko atomskog atomskoj atomskom atomsku
+60	4460	potok	potoci potocima potoka potoke potokom potoku
+61	4461	bankar	bankara bankare bankari bankarima bankarom bankaru
+62	4462	hajati	haj haje hajmo hajte
+63	4463	gangster	gangstera gangstere gangsteri gangsterima gangsterom gangsteru
+64	4464	konopac	konopaca konopca konopce konopcem konopci konopcima konopcu
+65	4465	udruga	udrugama udruge udrugom udrugu udruzi
+66	4466	disciplina	disciplinama discipline disciplini disciplinom disciplinu
+67	4467	najam	najma najmom najmu
+68	4468	kemija	kemije kemiji kemijom kemiju
+69	4469	demokracija	demokracije demokraciji demokracijom demokraciju
+70	4470	usporavati	usporava usporavaj usporavajte usporavaju usporavajući usporavala usporavali usporavam usporavamo usporavao usporavate usporavaš
+71	4471	preokrenuti	preokrene preokrenem preokrenemo preokreneš preokreni preokrenite preokrenu preokrenula preokrenule preokrenuli preokrenulo preokrenuo preokrenut preokrenuta
+72	4472	zloban	najzlobnija najzlobniji zlobna zlobne zlobni zlobnih zlobnija zlobniji zlobnim zlobno zlobnog zlobnom zlobnu
+73	4473	zavidjeti	zavide zavideo zavidi zavidim zavidimo zavidio zavidite zavidiš zavidjela zavidjeli
+74	4474	stolac	stolaca stolca stolce stolcem stolci stolcima stolcu
+75	4475	krzno	krzna krznima krznom krznu
+76	4476	ivica	ivicama ivice ivici ivicom ivicu
+77	4477	polagati	polaganje polaže polažem polažemo polažete polažeš polažu
+78	4478	pidžama	pidžamama pidžame pidžami pidžamu
+79	4479	kult	kulta kultom kultova kultove kultovi kultovima kultu
+80	4480	imunitet	imuniteta imunitetom imunitetu
+81	4481	bakterija	bakterijama bakterije bakteriji bakterijom bakteriju
+82	4482	suština	suštine suštini suštinu
+83	4483	amater	amatera amatere amateri amaterima amaterom amateru
+84	4484	izmaknuti	izmakao izmakla izmakle izmakli izmaklo izmakne izmakneš izmakni izmaknu izmaknula izmaknule izmaknulo izmaknuo izmaći
+85	4485	premda	
+86	4486	maršal	maršala maršale maršali maršalima maršalom maršalu
+87	4487	šunka	šunke šunki šunkom šunku
+88	4488	potpredsjednik	potpredsednik potpredsednika potpredsjednici potpredsjednika potpredsjednikom potpredsjedniku potpredsjedniče
+89	4489	oporavljati	oporavlja oporavljaju oporavljajući oporavljala oporavljam oporavljamo oporavljao oporavljate oporavljaš
+90	4490	vidljiv	vidljiva vidljive vidljivi vidljivih vidljivim vidljivog vidljivom vidljivu
+91	4491	maramica	maramicama maramice maramici maramicom maramicu
+92	4492	uvečer	
+93	4493	razumno	
+94	4494	pušten	
+95	4495	torpedo	torpeda torpedima torpedom torpedu
+96	4496	iščupati	iščupa iščupaj iščupajte iščupaju iščupala iščupali iščupam iščupamo iščupan iščupana iščupane iščupani iščupano iščupao iščupaću iščupaš
+97	4497	mito	mita mitom mitu
+98	4498	potomak	potomaka potomci potomcima potomka potomke potomkom potomku potomče
+99	4499	ilegalno	
+100	4500	štrajk	štrajka štrajkom štrajkova štrajkove štrajkovi štrajku

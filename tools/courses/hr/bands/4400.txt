@@ -1,0 +1,100 @@
+1	4301	tučnjava	tučnjavama tučnjave tučnjavi tučnjavom tučnjavu
+2	4302	stanar	stanara stanare stanari stanarima stanarom stanaru
+3	4303	negativac	negativaca negativca negativce negativcem negativci negativcima
+4	4304	pritiskati	pritiska pritiskaj pritiskaju pritiskala pritiskali pritiskam pritiskamo pritiskanje pritiskao pritiskate pritiskaš pritišće pritišćem pritišćemo pritišćete pritišćeš pritišći pritišćite pritišću
+5	4305	emitirati	emitira emitiraju emitirala emitirali emitiram emitiramo emitiran emitirana emitiranje emitirano emitirao
+6	4306	barut	baruta barutom barutu
+7	4307	vrisak	vrisaka vrisci vriska vriske vriskom vriskova vriskove vriskovi vrisku
+8	4308	utisak	utisaka utisci utiska utiske utiskom utisku
+9	4309	dopust	dopusta dopuste dopusti dopustu
+10	4310	slavlje	slavlja slavljem slavlju
+11	4311	susjedni	susedne susednog susednoj susednom susednu susjedna susjedne susjednih susjednim susjedno susjednog susjednoj susjednom susjednu
+12	4312	karo	kara karom karu
+13	4313	oblikovati	oblikovala oblikovale oblikovali oblikovalo oblikovan oblikovana oblikovane oblikovani oblikovanje oblikovano oblikovao oblikuj oblikuje oblikujem oblikujemo oblikujete oblikuješ oblikuju oblikujući
+14	4314	oživjeti	ožive oživela oživeo oživeti oživi oživim oživimo oživite oživiš oživjela oživjele oživjeli oživjelo oživljen oživljena oživljeni
+15	4315	kalendar	kalendara kalendare kalendari kalendarom kalendaru
+16	4316	propis	propisa propise propisi propisima propisu
+17	4317	sotona	sotone sotoni sotono sotonom sotonu
+18	4318	konzerva	konzervama konzerve konzervi konzervom konzervu
+19	4319	zdjela	zdjele zdjeli zdjelom zdjelu
+20	4320	iskusiti	iskuse iskusi iskusila iskusile iskusili iskusim iskusimo iskusio iskusite iskusiš
+21	4321	terapeut	terapeuta terapeute terapeuti terapeutima terapeutom terapeutu
+22	4322	čips	čipsa čipsom čipsu
+23	4323	napetost	napetosti
+24	4324	upad	upada upade upadi upadom upadu
+25	4325	zračenje	zračenja zračenjem zračenju
+26	4326	fuj	
+27	4327	naokolo	
+28	4328	jad	jada jade jadi jadima jadom jadu
+29	4329	klasik	klasici klasicima klasika klasike klasikom klasiku
+30	4330	stišati	stiša stišaj stišajte stišaju stišala stišali stišam stišao stišate stišaš
+31	4331	okoliš	okoliša okolišem okolišu
+32	4332	mužjak	mužjaci mužjacima mužjaka mužjake mužjakom mužjaku
+33	4333	ničiji	ničija ničije ničijem ničijoj ničijom ničiju
+34	4334	otarasiti	otarase otarasi otarasila otarasili otarasim otarasimo otarasio otarasite otarasiću otarasiš
+35	4335	proizvoditi	proizvode proizvodeći proizvodi proizvodila proizvodile proizvodili proizvodilo proizvodim proizvodimo proizvodio proizvodite proizvodiš
+36	4336	razmatrati	razmatra razmatraju razmatrajući razmatrala razmatrali razmatralo razmatram razmatramo razmatran razmatranje razmatrao razmatrate razmatraš
+37	4337	zbor	zbora zbore zborom zborova zborove zborovi zboru
+38	4338	lezbijka	lezbijkama lezbijke lezbijki lezbijko lezbijkom lezbijku
+39	4339	pirat	pirata pirate pirati piratima piratom piratu
+40	4340	obrađivati	obrađivala obrađivali obrađivanje obrađivao obrađuj obrađuje obrađujem obrađujemo obrađujete obrađuješ obrađuju obrađujući
+41	4341	mjesečno	mesečno
+42	4342	zakonski	zakonska zakonske zakonskih zakonskim zakonsko zakonskog zakonskom zakonsku
+43	4343	govedina	govedine govedini govedinom govedinu
+44	4344	šarm	šarma šarmom šarmu
+45	4345	profit	profita profite profiti profitom profitu
+46	4346	kršćanski	kršćanska kršćanske kršćanskih kršćanskim kršćansko kršćanskog kršćanskoga kršćanskoj kršćanskom kršćansku
+47	4347	zadati	zada zadaj zadaju zadala zadali zadalo zadam zadamo zadan zadana zadane zadani zadano zadao zadate zadaće zadaću zadaš
+48	4348	vulkan	vulkana vulkane vulkani vulkanima vulkanom vulkanu
+49	4349	masovan	masovna masovne masovni masovnih masovnim masovnog masovnoj masovnom masovnu
+50	4350	zamak	zamci zamke zamkom zamku
+51	4351	krajnje	
+52	4352	petnaest	
+53	4353	skitnica	skitnicama skitnice skitnici skitnicom skitnicu
+54	4354	četa	četama čete četi četo četom četu
+55	4355	simpatičan	najsimpatičniji simpatična simpatične simpatični simpatičniji simpatičnim simpatično simpatičnog simpatičnom simpatičnu
+56	4356	šibica	šibicama šibice šibicom šibicu
+57	4357	intiman	intimna intimne intimni intimnih intimnija intimnije intimniji intimnim intimnog intimnoj intimnom intimnu najintimnije najintimniji najintimnijim
+58	4358	organizam	organizama organizma organizme organizmi organizmima organizmom organizmu
+59	4359	ženka	ženkama ženke ženki ženkom ženku
+60	4360	greben	grebena grebene grebeni grebenima grebenom grebenu
+61	4361	trajan	trajna trajne trajni trajnih trajnije trajniji trajnim trajnog trajnoj trajnom trajnu
+62	4362	anomalija	anomalijama anomalije anomaliji anomalijom anomaliju
+63	4363	guraj	
+64	4364	stadion	stadiona stadione stadioni stadionima stadionom stadionu
+65	4365	tvrdnja	tvrdnjama tvrdnje tvrdnji tvrdnjom tvrdnju
+66	4366	dodavati	dodaj dodaje dodajem dodajemo dodajete dodaješ dodajmo dodajte dodaju dodajući dodavala dodavali dodavao
+67	4367	kora	kore kori korom koru
+68	4368	ograničenje	ograničenja ograničenjem ograničenjima ograničenju
+69	4369	jahač	jahača jahače jahačem jahači jahačima jahaču
+70	4370	božanski	božanska božanske božanskih božanskim božansko božanskog božanskoga božanskoj božanskom božansku
+71	4371	sakupiti	sakupe sakupi sakupila sakupili sakupim sakupimo sakupio sakupite sakupiš sakupljen sakupljene sakupljeni
+72	4372	izreći	izreci izrecite izrekao izrekla izrekli izrekne izreknem izreku izreče izrečena izrečene izrečeno
+73	4373	kategorija	kategorijama kategorije kategoriji kategoriju
+74	4374	kompleks	kompleksa komplekse kompleksi kompleksima kompleksom kompleksu
+75	4375	svesti	svela sveli svelo sveo sveze svezi
+76	4376	darovati	darova darovala darovali darovan darovana darovano darovao daruj daruje darujem darujemo darujete daruješ darujte daruju
+77	4377	ruševina	ruševinama ruševine ruševini ruševinu
+78	4378	šank	šanka šankom šanku
+79	4379	dočepati	dočepa dočepaju dočepala dočepali dočepam dočepamo dočepao dočepate dočepaš
+80	4380	mirovati	mirovala mirovanje mirovao miruj miruje mirujem mirujemo mirujete miruješ mirujte miruju
+81	4381	pržiti	prže pržen pržena pržene prženi prženo prži pržila pržili pržilo pržim pržimo pržio pržite pržiš
+82	4382	veteran	veterana veterane veterani veteranima veteranom veteranu
+83	4383	modni	modna modne modnih modnim modno modnog modnoj modnom modnu
+84	4384	omesti	omela omeli omelo omeo omete ometem ometemo ometen ometena ometeni ometu
+85	4385	središnji	središnja središnje središnjeg središnjem središnjih središnjim središnjoj središnjom središnju
+86	4386	svakakav	svakakva svakakve svakakvi svakakvih svakakvim svakakvo svakakvog svakakvom svakakvu
+87	4387	odnositi	odnose odnoseći odnosi odnosila odnosile odnosili odnosilo odnosim odnosimo odnosio odnosite odnosiš odnošenje
+88	4388	prodavaonica	prodavaonicama prodavaonice prodavaonici prodavaonicu
+89	4389	garda	garde gardi gardo gardom gardu
+90	4390	predvorje	predvorja predvorju
+91	4391	tradicionalan	tradicionalna tradicionalne tradicionalni tradicionalnih tradicionalnije tradicionalnim tradicionalnog tradicionalnoj tradicionalnom tradicionalnu
+92	4392	gust	gusta guste gusti gustih gustim gustog gustoj gustom gustu gušća gušće gušći najgušća najgušće
+93	4393	uspon	uspona uspone usponi usponima usponom usponu
+94	4394	skrovište	skrovišta skrovištima skrovištu
+95	4395	nemilosrdan	nemilosrdna nemilosrdne nemilosrdni nemilosrdnih nemilosrdniji nemilosrdnim nemilosrdno nemilosrdnog nemilosrdnoj nemilosrdnom nemilosrdnu
+96	4396	narav	naravi
+97	4397	dramatičan	dramatična dramatične dramatični dramatičnih dramatičnije dramatičniji dramatičnim dramatičnog dramatičnom dramatičnu najdramatičnije najdramatičniji
+98	4398	razgledati	razgleda razgledaj razgledajmo razgledajte razgledaju razgledala razgledali razgledam razgledamo razgledanja razgledanje razgledanju razgledao razgledate razgledaš
+99	4399	bezopasan	bezopasna bezopasne bezopasni bezopasnih bezopasnim bezopasno bezopasnog bezopasnom bezopasnu
+100	4400	truo	trula trule truli trulih trulim trulo trulog trulom trulu

@@ -1,0 +1,100 @@
+1	4001	lula	lule luli lulom lulu
+2	4002	smejati	smej smejala smejali smejanja smejanje smejao smeje smejem smejemo smejete smeješ smejte smeju smejući
+3	4003	trenutačno	
+4	4004	jebiga	
+5	4005	autoritet	autoriteta autoritete autoriteti autoritetima autoritetom autoritetu
+6	4006	iznenadan	iznenadna iznenadne iznenadni iznenadnih iznenadnim iznenadno iznenadnog iznenadnoj iznenadnom iznenadnu
+7	4007	neophodno	
+8	4008	mast	masti mastima mašću
+9	4009	vladar	vladara vladare vladari vladarima vladaru
+10	4010	nacrt	nacrta nacrte nacrti nacrtima nacrtom nacrtu
+11	4011	stražnjica	stražnjicama stražnjice stražnjici stražnjicom stražnjicu
+12	4012	švicarski	švicarska švicarske švicarskih švicarskim švicarskog švicarskoj švicarskom švicarsku
+13	4013	bojna	bojne bojni bojno bojnom bojnu
+14	4014	autocesta	autocestama autoceste autocesti autocestom autocestu
+15	4015	upućivati	upućivala upućivali upućivalo upućivanje upućivao upućuje upućujem upućujemo upućuju
+16	4016	zaklon	zaklona zaklone zakloni zaklonu
+17	4017	kukuruz	kukuruza kukuruze kukuruzom kukuruzu
+18	4018	špilja	špiljama špilje špilji špilju
+19	4019	brojan	brojna brojne brojni brojnih brojnije brojniji brojnim brojnu
+20	4020	nebitan	nebitna nebitne nebitni nebitnih nebitnim nebitno nebitnom
+21	4021	skot	skota skote skotom skotova skotove skotovi skotu
+22	4022	pjesnik	pesnici pesnik pesnika pjesnici pjesnicima pjesnika pjesnike pjesnikom pjesniku pjesniče
+23	4023	židovski	židovska židovske židovskih židovskim židovsko židovskog židovskoj židovskom židovsku
+24	4024	senat	senata senate senatom senatu
+25	4025	prekidač	prekidača prekidače prekidačem prekidači prekidačima prekidaču
+26	4026	televizor	televizora televizore televizori televizorima televizorom televizoru
+27	4027	dina	dinama dine dini dino dinom dinu
+28	4028	jeftino	
+29	4029	pukotina	pukotinama pukotine pukotini pukotinom pukotinu
+30	4030	le	
+31	4031	intenzivan	intenzivna intenzivne intenzivni intenzivnih intenzivnije intenzivniji intenzivnim intenzivnog intenzivnoj intenzivnom intenzivnu
+32	4032	zavaravati	zavarava zavaravaj zavaravajmo zavaravajte zavaravaju zavaravajući zavaravala zavaravali zavaravam zavaravamo zavaravanje zavaravao zavaravate zavaravaš
+33	4033	tisak	tiska tiskom tisku
+34	4034	zov	zova zove zovi zovu
+35	4035	dvor	dvora dvore dvori dvorom dvorovima dvoru
+36	4036	batina	batinama batine batinom batinu
+37	4037	nesvijest	nesvest nesvesti nesvijesti
+38	4038	komisija	komisije komisiji komisijom komisiju
+39	4039	centralni	centralna centralne centralnih centralnim centralno centralnog centralnoj centralnom centralnu
+40	4040	stipendija	stipendijama stipendije stipendiji stipendijom stipendiju
+41	4041	udat	udata udate udatom udatu
+42	4042	nogometni	nogometna nogometne nogometnih nogometnim nogometno nogometnog nogometnoj nogometnom nogometnu
+43	4043	bolnički	bolnička bolničke bolničkih bolničkim bolničko bolničkog bolničkoj bolničkom bolničku
+44	4044	streljivo	streljiva streljivom streljivu
+45	4045	bunker	bunkera bunkere bunkeri bunkerima bunkeru
+46	4046	žudjeti	žude žudeo žudeći žudi žudim žudimo žudio žudite žudiš žudjela žudjeli
+47	4047	posluga	posluge poslugom poslugu posluzi
+48	4048	divljina	divljine divljini divljinom divljinu
+49	4049	kartel	kartela kartele karteli kartelima kartelom kartelu
+50	4050	udružiti	udruže udružen udružena udružene udruženi udruženo udruži udružila udružile udružili udružim udružimo udružio udružite udružiš
+51	4051	nagraditi	nagrade nagradi nagradila nagradili nagradim nagradimo nagradio nagradite nagrađen nagrađena nagrađene nagrađeni nagrađeno
+52	4052	sjenka	senci senka senkama senke senko senku sjenci sjenkama sjenke sjenko sjenkom sjenku
+53	4053	smještaj	smeštaj smeštaja smeštaju smještaja smještajem smještaju
+54	4054	golub	goluba golube golubi golubom golubova golubove golubovi golubovima golubu
+55	4055	dugme	dugmeta dugmetom dugmetu
+56	4056	pretjerano	preterano
+57	4057	staromodan	staromodna staromodne staromodni staromodnih staromodnim staromodno staromodnog staromodnom staromodnu
+58	4058	spojen	spojena spojene spojeni spojenih spojenim spojeno spojenog spojenu
+59	4059	paklen	paklena paklene pakleni paklenih paklenim pakleno paklenog paklenoj paklenom paklenu
+60	4060	usprkos	
+61	4061	prikladno	
+62	4062	formirati	formira formiraj formirajte formiraju formirajući formirala formirale formirali formiralo formiram formiramo formiran formirana formirane formirani formiranje formirano formirao formirate
+63	4063	ubod	uboda ubode ubodi ubodima ubodom ubodu
+64	4064	potpisivati	potpisivala potpisivali potpisivanja potpisivanje potpisivao potpisuj potpisuje potpisujem potpisujemo potpisujete potpisuješ potpisujte potpisuju potpisujući
+65	4065	grudnjak	grudnjaci grudnjacima grudnjaka grudnjake grudnjakom grudnjaku
+66	4066	napojnica	napojnicama napojnice napojnici napojnicom napojnicu
+67	4067	uputa	uputama upute uputi uputom uputu
+68	4068	bezobrazan	bezobrazna bezobrazne bezobrazni bezobraznih bezobraznim bezobrazno bezobraznog bezobraznu
+69	4069	orah	oraha orahe orahom orasi orasima
+70	4070	ismijavati	ismijava ismijavaj ismijavajte ismijavaju ismijavala ismijavale ismijavali ismijavam ismijavamo ismijavan ismijavanje ismijavao ismijavate ismijavaš
+71	4071	prtljaga	prtljage prtljagom prtljagu prtljazi
+72	4072	trgovati	trgovala trgovali trgovalo trgovanje trgovao trguje trgujem trgujemo trgujete trguješ trguju trgujući
+73	4073	armija	armije armiji armijom armiju
+74	4074	vilica	vilicama vilice vilici vilicom vilicu
+75	4075	vlažan	vlažna vlažne vlažni vlažnih vlažnija vlažnije vlažnim vlažno vlažnog vlažnoj vlažnom vlažnu
+76	4076	dosađivati	dosađivala dosađivali dosađivanje dosađivao dosađuj dosađuje dosađujem dosađujemo dosađujete dosađuješ dosađujte dosađuju dosađujući
+77	4077	nesposoban	nesposobna nesposobne nesposobni nesposobnih nesposobnim nesposobno nesposobnog nesposobnom nesposobnu
+78	4078	taktika	taktici taktikama taktike taktikom taktiku
+79	4079	oružan	oružana oružane oružani oružanih oružanim oružano oružanog oružanoj oružanom oružanu
+80	4080	posuda	posudama posude posudi posudom posudu
+81	4081	pljačkati	pljačkaj pljačkaju pljačkajući pljačkala pljačkali pljačkam pljačkamo pljačkanje pljačkao pljačkate pljačkaše
+82	4082	zvučati	
+83	4083	tajnik	tajnici tajnika tajnikom tajniku tajniče
+84	4084	ucjena	ucena ucene uceni ucenu ucjenama ucjene ucjeni ucjenom ucjenu
+85	4085	bezvrijedan	bezvredan bezvredna bezvredne bezvredni bezvredno bezvrijedna bezvrijedne bezvrijedni bezvrijednih bezvrijednim bezvrijedno bezvrijednog bezvrijednom bezvrijednu
+86	4086	počast	počasti počastima
+87	4087	monitor	monitora monitore monitori monitorima monitorom monitoru
+88	4088	radionica	radionicama radionice radionici radionicom radionicu
+89	4089	početni	početna početne početnih početnim početno početnog početnoj početnom početnu
+90	4090	kaj	
+91	4091	kompletan	kompletna kompletne kompletni kompletnim kompletnog kompletnoj kompletnom kompletnu
+92	4092	naselje	naselja naseljem naseljima naselju
+93	4093	prezirati	prezirala prezirali preziran preziranje prezirao prezire prezirem preziremo prezirete prezireš preziru
+94	4094	autor	autora autore autori autorima autorom autoru
+95	4095	nestabilan	nestabilna nestabilne nestabilni nestabilnih nestabilniji nestabilnim nestabilno nestabilnog nestabilnom nestabilnu
+96	4096	prepasti	prepade prepadne prepadnem prepadneš prepadnu prepala prepali prepalo prepao
+97	4097	impresionirati	impresionira impresioniraj impresioniraju impresionirala impresionirali impresioniralo impresioniram impresioniramo impresionirao impresionirate impresioniraš
+98	4098	derati	derala derali deran derane derani deranje derao dere derem deremo derete dereš deri derite deru derući
+99	4099	stuba	stubama stube stubom stubu
+100	4100	zamrznuti	zamrzne zamrznem zamrznemo zamrznete zamrzneš zamrzni zamrznite zamrznu zamrznula zamrznuli zamrznulo zamrznuo zamrznut zamrznuta zamrznute zamrznuto

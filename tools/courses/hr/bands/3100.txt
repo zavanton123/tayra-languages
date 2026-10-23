@@ -1,0 +1,100 @@
+1	3001	podmornica	podmornicama podmornice podmornici podmornicom podmornicu
+2	3002	zasjeda	zaseda zasede zasedi zasedu zasjedama zasjede zasjedi zasjedom zasjedu
+3	3003	suradnja	suradnje suradnji suradnjom suradnju
+4	3004	major	majora majore majorom majoru
+5	3005	razvoj	razvoja razvojem razvoju
+6	3006	načelnik	načelnici načelnika načelnikom načelniku načelniče
+7	3007	golem	golema goleme golemi golemih golemim golemo golemog golemoj golemom golemu
+8	3008	utopiti	utope utopi utopila utopile utopili utopilo utopim utopimo utopio utopite utopiš utopljen utopljena utopljene utopljeni
+9	3009	gađati	gađa gađaj gađajte gađaju gađala gađali gađam gađamo gađanje gađao gađate gađaš
+10	3010	pouzdan	najpouzdanija najpouzdaniji najpouzdanijih pouzdana pouzdane pouzdani pouzdanih pouzdanije pouzdaniji pouzdanim pouzdano pouzdanog pouzdanom pouzdanu
+11	3011	međusobno	
+12	3012	bilješka	bilješci bilješkama bilješke bilješki bilješku bilježaka
+13	3013	kočija	kočijama kočije kočiji kočijo kočijom kočiju
+14	3014	prethodan	prethodna prethodne prethodni prethodnih prethodnim prethodnog prethodnoj prethodnom prethodnu
+15	3015	poglavlje	poglavlja poglavljem poglavljima poglavlju
+16	3016	dubina	dubinama dubine dubini dubinom dubinu
+17	3017	ulaziti	ulazi
+18	3018	buba	bubama bube bubi bubo bubom bubu
+19	3019	otrovati	otrova otrovala otrovali otrovalo otrovana otrovane otrovani otrovano otrovao otruje otrujem otrujete otruješ otruju
+20	3020	dugačak	dugačka dugačke dugački dugačkih dugačkim dugačko dugačkog dugačkoj dugačkom dugačku
+21	3021	trauma	traumama traume traumi traumom traumu
+22	3022	industrija	industrije industriji industrijom industriju
+23	3023	potom	
+24	3024	liječenje	liječenja
+25	3025	sadržati	sadržala sadrže sadrži
+26	3026	irski	irska irske irskih irskim irsko irskog irskoj irskom irsku
+27	3027	pojačati	pojača pojačaj pojačajmo pojačajte pojačaju pojačale pojačali pojačam pojačamo pojačan pojačana pojačane pojačani pojačano pojačao pojačate pojačaš
+28	3028	lažljivac	lažljivaca lažljivca lažljivce lažljivcem lažljivci lažljivcima lažljivcu lažljivče
+29	3029	analizirati	analizira analiziraj analizirajmo analizirajte analiziraju analizirajući analizirala analizirali analiziram analiziramo analiziran analizirana analizirani analiziranje analizirano analizirao analizirate analiziraš
+30	3030	užas	užasa užase užasi užasima užasom užasu
+31	3031	sektor	sektora sektore sektori sektorima sektorom sektoru
+32	3032	raširiti	rašire raširen raširena raširene rašireni rašireno raširi raširila raširile raširili raširilo raširim raširimo raširio raširite raširiš
+33	3033	zapitati	zapita zapitaj zapitajmo zapitajte zapitaju zapitala zapitali zapitam zapitamo zapitao zapitate zapitaš
+34	3034	sitnica	sitnicama sitnice sitnici sitnicom sitnicu
+35	3035	glavobolja	glavoboljama glavobolje glavobolji glavoboljom glavobolju
+36	3036	loptica	lopticama loptice loptici lopticom lopticu
+37	3037	koza	kozama koze kozi kozica kozicama kozja kozje kozjeg kozji kozjim kozjom kozju kozo kozom kozu
+38	3038	balon	balona balone baloni balonima balonom balonu
+39	3039	kovčeg	kovčega kovčege kovčegom kovčegu kovčezi kovčezima
+40	3040	unatoč	
+41	3041	tumor	tumora tumore tumori tumorima tumorom tumoru
+42	3042	satelit	satelita satelite sateliti satelitima satelitom satelitu
+43	3043	ljubavnica	ljubavnicama ljubavnice ljubavnici ljubavnicom ljubavnicu
+44	3044	igla	igala iglama igle igli iglo iglom
+45	3045	sjeme	seme semena semenom semenu sjemena sjemenom sjemenu
+46	3046	godišnjica	godišnjice godišnjici godišnjicu
+47	3047	kriminal	kriminala kriminalom kriminalu
+48	3048	humor	humora humorom humoru
+49	3049	počistiti	počiste počisti počistim počistimo počistite počistiću počistiš
+50	3050	prijelaz	prelaz prelaza prelaze prelazi prelazu prijelaza prijelaze prijelazi prijelazima prijelazom prijelazu
+51	3051	umjetnički	umetnička umetničke umetnički umetničkih umetničkim umetničko umetničkog umetničkoj umetničkom umetničku umjetnička umjetničke umjetničkih umjetničkim umjetničko umjetničkog umjetničkoj umjetničkom umjetničku
+52	3052	šokirati	šokira šokiraj šokiraju šokirala šokirale šokirali šokiralo šokiram šokiran šokirana šokirani šokirano šokirao šokirate šokiraš
+53	3053	izgovoriti	izgovore izgovorena izgovorene izgovoreno izgovori izgovorila izgovorili izgovorim izgovorimo izgovorio izgovorite izgovoriš
+54	3054	kafa	kafe kafi kafom kafu
+55	3055	mariti	mare mareći mari marila marili marim marimo marite mariš
+56	3056	bacanje	bacanja bacanjem bacanju
+57	3057	krumpir	krumpira krumpire krumpiri krumpirima krumpirom krumpiru
+58	3058	odanost	odanosti odanošću
+59	3059	raspasti	raspadne raspadnem raspadneš raspadnu raspadnuta raspadnuti raspadnuto raspala raspale raspali raspalo raspao
+60	3060	iznajmiti	iznajme iznajmi iznajmila iznajmili iznajmim iznajmimo iznajmio iznajmite iznajmiću iznajmiš iznajmljen iznajmljena iznajmljene iznajmljeni iznajmljeno
+61	3061	daska	dasaka dasci daskama daske daski daskom dasku
+62	3062	razmotriti	razmotre razmotri razmotrila razmotrili razmotrim razmotrimo razmotrio razmotrite razmotriš
+63	3063	kredit	kredita kredite krediti kreditima kreditom kreditu
+64	3064	snimanje	
+65	3065	pobuna	pobunama pobune pobuni pobunom pobunu
+66	3066	izdajica	izdajicama izdajice izdajici izdajico izdajicom izdajicu
+67	3067	keks	keksa kekse keksi keksima keksom keksu
+68	3068	zagrljaj	zagrljaja zagrljaje zagrljajem zagrljaji zagrljajima zagrljaju
+69	3069	džungla	džunglama džungle džungli džunglom džunglu
+70	3070	benzin	benzina benzinom benzinu
+71	3071	izuzetno	
+72	3072	ovoliko	
+73	3073	tkivo	tkiva tkivima tkivom tkivu
+74	3074	izvanredan	izvanredna izvanredne izvanredni izvanrednih izvanrednim izvanrednog izvanrednoj izvanrednom izvanrednu
+75	3075	raspraviti	rasprave raspravi raspravila raspravili raspravim raspravimo raspravio raspravite raspraviš
+76	3076	javno	
+77	3077	konobar	konobara konobare konobari konobarima konobarom konobaru
+78	3078	zasigurno	
+79	3079	ravnatelj	ravnatelja ravnatelje ravnateljem ravnatelji ravnatelju
+80	3080	posjetitelj	posjetitelja posjetitelje posjetitelji posjetiteljima posjetitelju
+81	3081	rog	roga roge rogom rogova rogove rogovi rogovima rogu rozi
+82	3082	olakšati	olakša olakšaj olakšajmo olakšajte olakšaju olakšala olakšali olakšalo olakšam olakšamo olakšan olakšano olakšao olakšate olakšaću olakšaš
+83	3083	ludnica	ludnice ludnici ludnicu
+84	3084	slon	slona slone slonom slonova slonove slonovi slonovima slonu
+85	3085	uzdisati	uzdisala uzdisanje uzdiše uzdišem uzdišeš uzdišu uzdišući
+86	3086	ritam	ritma ritmom ritmova ritmove ritmovi ritmu
+87	3087	studeni	stu studenog studenoga studenom
+88	3088	napadač	napadača napadače napadačem napadači napadačima napadaču
+89	3089	mornar	mornara mornare mornari mornarima mornarom mornaru
+90	3090	odgoditi	odgode odgodi odgodila odgodili odgodilo odgodim odgodimo odgodio odgodite odgodiš odgođen odgođena odgođeni odgođeno
+91	3091	skuhati	skuha skuhaj skuhajte skuhaju skuhala skuhale skuhali skuham skuhamo skuhan skuhana skuhane skuhani skuhano skuhao skuhate skuhaš
+92	3092	kip	kipa kipe kipom kipova kipove kipovi kipovima kipu
+93	3093	prespavati	prespava prespavaj prespavajmo prespavajte prespavaju prespavala prespavali prespavam prespavamo prespavao prespavate prespavaš
+94	3094	obnoviti	obnove obnovi obnovila obnovili obnovilo obnovim obnovimo obnovio obnovite obnoviš obnovljen obnovljena obnovljene obnovljeni obnovljeno
+95	3095	napredan	najnaprednija najnaprednije najnapredniji najnaprednijih najnapredniju napredna napredne napredni naprednih naprednija naprednije napredniji napredniju naprednim napredno naprednog naprednoj naprednom naprednu
+96	3096	magarac	magaraca magarca magarce magarcem magarci magarcima magarcu magarče
+97	3097	kotač	kotača kotače kotačem kotači kotačima kotaču
+98	3098	oprez	opreza oprezom oprezu
+99	3099	status	statusa statuse statusom statusu
+100	3100	zavjera	zavera zavere zaveri zaveru zavjerama zavjere zavjeri zavjerom zavjeru

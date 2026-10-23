@@ -1,0 +1,100 @@
+1	3501	kongres	kongresa kongresom kongresu
+2	3502	rušiti	ruše rušenje rušeći ruši rušila rušile rušili rušim rušimo rušio rušite rušiš
+3	3503	zadiviti	zadivi zadivila zadivili zadivilo zadivim zadivio zadivite zadiviš zadivljen zadivljena zadivljeni zadivljeno
+4	3504	kaciga	kacigama kacige kacigi kacigo kacigom kacigu
+5	3505	zbrisati	zbrisala zbrisali zbrisan zbrisana zbrisani zbrisano zbrisao zbriše zbrišem zbrišemo zbrišete zbrišeš zbriši zbrišu
+6	3506	garantirati	garantira garantiraju garantirala garantirali garantiram garantiramo garantiran garantirana garantirani garantirano garantirao garantirate garantiraš
+7	3507	straga	
+8	3508	ravnoteža	ravnoteže ravnoteži ravnotežom ravnotežu
+9	3509	pronalaziti	pronalaze pronalazeći pronalazi pronalazila pronalazili pronalazim pronalazimo pronalazio pronalazite pronalaziš pronalaženje
+10	3510	kondom	kondoma kondome kondomi kondomima kondomom kondomu
+11	3511	telefonirati	telefonira telefoniraj telefonirajte telefoniraju telefonirala telefonirali telefoniram telefoniramo telefoniranje telefonirao telefonirate telefoniraš
+12	3512	hvaliti	hvale hvaleći hvali hvalila hvalili hvalim hvalimo hvalio hvalite hvališ hvaljen hvaljena hvaljeni hvaljenje
+13	3513	resurs	resursa resurse resursi resursima
+14	3514	sahrana	sahranama sahrane sahrani sahranom sahranu
+15	3515	zavoj	zavoja zavoje zavojem zavoji zavojima zavoju
+16	3516	škotski	škotska škotske škotskih škotskim škotsko škotskog škotskoj škotskom škotsku
+17	3517	roštilj	roštilja roštilje roštiljem roštilji roštilju
+18	3518	odobravati	odobrava odobravaju odobravala odobravali odobravam odobravamo odobravanje odobravao odobravate odobravaš
+19	3519	optužnica	optužnicama optužnice optužnici optužnicom optužnicu
+20	3520	moralan	moralna moralne moralni moralnih moralnim moralnog moralnoj moralnom moralnu
+21	3521	rođendanski	rođendanska rođendanske rođendanskih rođendanskim rođendansko rođendanskog rođendanskoj rođendanskom rođendansku
+22	3522	premjestiti	
+23	3523	muha	muhama muhe muhi muho muhom muhu
+24	3524	pomicati	pomicala pomicali pomicanje pomicao pomiče pomičem pomičemo pomičete pomičeš pomiči pomičite pomiču pomičući
+25	3525	rugati	ruga rugaj rugajte rugaju rugajući rugali rugam rugamo ruganje rugao rugate rugaš
+26	3526	gravitacija	gravitacije gravitaciji gravitacijom gravitaciju
+27	3527	odlučan	odlučna odlučne odlučni odlučnih odlučnija odlučnije odlučniji odlučnim odlučno odlučnog odlučnom odlučnu
+28	3528	kikiriki	kikirikija kikirikijem kikirikiju
+29	3529	nekamo	
+30	3530	tijek	tijeka tijeku
+31	3531	tajnost	tajnosti tajnošću
+32	3532	blijed	bled bleda blede bledi bledo blijeda blijede blijedi blijedih blijedim blijedo blijedog blijedom blijedu bljeđi
+33	3533	sjekira	sekira sekire sekirom sekiru sjekirama sjekire sjekiri sjekirica sjekiricu sjekirom sjekiru
+34	3534	zaštitni	zaštitna zaštitne zaštitnih zaštitnim zaštitno zaštitnog zaštitnoj zaštitnom zaštitnu
+35	3535	han	hana hane hanom hanu
+36	3536	kušati	kuša kušaj kušajmo kušajte kušaju kušala kušali kušam kušamo kušanje kušao kušate kušaš
+37	3537	kolekcija	kolekcije kolekciji kolekcijom kolekciju
+38	3538	završetak	završeci završecima završetaka završetka završetke završetkom završetku
+39	3539	odred	odreda odrede odredi odredima odredom odredu
+40	3540	ružno	
+41	3541	kapija	kapijama kapije kapiji kapijom kapiju
+42	3542	rađati	rađa rađaju rađajući rađala rađale rađali rađam rađamo rađanja rađanje rađao rađate rađaš
+43	3543	okončati	okonča okončaj okončajmo okončajte okončaju okončala okončali okončalo okončam okončamo okončan okončana okončanje okončano okončao okončate okončaš
+44	3544	lampa	lampama lampe lampi lampom lampu
+45	3545	obići	obiđe obiđem obiđemo obiđete obiđeš obiđi obiđimo obiđite obiđu obišao obišla obišli
+46	3546	vena	venama vene veni venom venu
+47	3547	jelen	jelena jelene jeleni jelenima jelenom jelenu
+48	3548	kletva	kletvama kletve kletvi kletvom kletvu
+49	3549	sudija	sudijama sudije sudiji sudijo sudijom sudiju
+50	3550	mekan	mekana mekane mekani mekanih mekanim mekano mekanog mekanom mekanu
+51	3551	lično	
+52	3552	sem	
+53	3553	sindikat	sindikata sindikate sindikati sindikatima sindikatom sindikatu
+54	3554	opći	opća opće općeg općem općih općim općoj općom opću
+55	3555	prijeti	
+56	3556	mafija	mafije mafiji mafijom mafiju
+57	3557	mikrofon	mikrofona mikrofone mikrofoni mikrofonima mikrofonom mikrofonu
+58	3558	strip	stripa stripe stripom stripova stripove stripovi stripovima stripu
+59	3559	nevinost	nevinosti nevinošću
+60	3560	sovjetski	sovjetska sovjetske sovjetskih sovjetskim sovjetsko sovjetskog sovjetskoj sovjetskom sovjetsku
+61	3561	tuča	tučama tuče tuči tučom tuču
+62	3562	čekić	čekića čekiće čekićem čekići čekićima čekiću
+63	3563	odigrati	odigra odigraj odigrajmo odigrajte odigraju odigrali odigram odigramo odigrate odigraš
+64	3564	odsutan	odsutna odsutne odsutni odsutnih odsutnim odsutno odsutnog odsutnom
+65	3565	kupnja	kupnje kupnji kupnjom kupnju
+66	3566	izbacivati	izbacivala izbacivali izbacivanje izbacivao izbacuj izbacuje izbacujem izbacujemo izbacujete izbacuješ izbacujte izbacuju izbacujući
+67	3567	poezija	poezije poeziji poezijom poeziju
+68	3568	pizda	pizdama pizde pizdi pizdo pizdom pizdu
+69	3569	itekako	
+70	3570	počinitelj	počinitelja
+71	3571	štedjeti	štede štedela štedeo štedeti štedeći štedi štedim štedimo štedio štedite štediš štedjela štedjeli štedjelo
+72	3572	korisno	
+73	3573	domet	dometa dometom dometu
+74	3574	unuk	unuci unucima unuke unukom unuku unuče
+75	3575	predstavnik	predstavnica predstavnice predstavnici predstavnicima predstavnicu predstavnika predstavnike predstavnikom predstavniku
+76	3576	povrće	povrća povrćem povrću
+77	3577	trgovački	trgovačka trgovačke trgovačkih trgovačkim trgovačko trgovačkog trgovačkoj trgovačkom trgovačku
+78	3578	pelena	pelenama pelene peleni pelenom pelenu
+79	3579	kriminalan	kriminalna kriminalne kriminalni kriminalnih kriminalnim kriminalno kriminalnog kriminalnoj kriminalnom kriminalnu
+80	3580	brbljati	brblja brbljaj brbljaju brbljajući brbljala brbljali brbljam brbljamo brbljanje brbljao brbljate brbljaš
+81	3581	gluh	gluha gluhe gluhi gluhih gluhim gluhima gluho gluhog gluhom gluhu
+82	3582	srpanj	srp srpnja srpnju srpom
+83	3583	gumb	gumba gumbe gumbi gumbima gumbom gumbu
+84	3584	zabrana	zabrane zabrani zabranom zabranu
+85	3585	kažnjavati	kažnjava kažnjavaj kažnjavajte kažnjavaju kažnjavajući kažnjavala kažnjavali kažnjavam kažnjavamo kažnjavan kažnjavana kažnjavani kažnjavanje kažnjavao kažnjavate kažnjavaš
+86	3586	urediti	urede uredi uredila uredili uredim uredimo uredio uredite urediš
+87	3587	pljačkaš	pljačkaša pljačkaše pljačkašem pljačkaši pljačkašima pljačkašu
+88	3588	prag	praga pragom pragova pragove pragu
+89	3589	protiviti	protive protivi protivila protivili protivilo protivim protivimo protivio protivite protiviš protivljenje
+90	3590	nužno	
+91	3591	zasluga	zaslugama zasluge zaslugom zaslugu zasluzi
+92	3592	diploma	diplomama diplome diplomi diplomom diplomu
+93	3593	drven	drvena drvene drveni drvenih drvenim drvenog drvenoj drvenom drvenu
+94	3594	konac	konaca konca konce koncem konci koncima koncu
+95	3595	dozvoljavati	dozvoljava dozvoljavaju dozvoljavajući dozvoljavala dozvoljavali dozvoljavam dozvoljavamo dozvoljavao dozvoljavate dozvoljavaš
+96	3596	klati	klali klan klana klanje klao kolje koljem koljemo koljete kolješ kolju
+97	3597	preživljavati	preživljava preživljavaju preživljavajući preživljavala preživljavali preživljavam preživljavamo preživljavanje preživljavao preživljavate preživljavaš
+98	3598	narudžba	narudžbama narudžbe narudžbi narudžbom narudžbu
+99	3599	prisluškivati	prisluškivala prisluškivali prisluškivan prisluškivani prisluškivanje prisluškivao prisluškuj prisluškuje prisluškujem prisluškujemo prisluškujete prisluškuješ prisluškujte prisluškuju
+100	3600	zaručnik	zaručnici zaručnika zaručnikom zaručniku zaručniče

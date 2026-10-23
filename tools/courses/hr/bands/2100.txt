@@ -1,0 +1,100 @@
+1	2001	rublje	rubalja rublja rubljem rublji rublju
+2	2002	spremati	spremaj spremajte spremaju spremajući spremala spremale spremali spremalo spremam spremamo spremana spremanje spremao spremate spremaš
+3	2003	dvostruk	dvostruka dvostruke dvostruki dvostrukih dvostrukim dvostruko dvostrukog dvostrukoj dvostrukom dvostruku
+4	2004	objašnjenje	objašnjenja objašnjenjem objašnjenjima objašnjenju
+5	2005	kaput	kaputa kapute kaputi kaputima kaputom kaputu
+6	2006	garaža	garažama garaže garaži garažom garažu
+7	2007	istražiti	istraže istražen istražena istražene istraženi istraženo istraži istražila istražili istražim istražimo istražio istražite istražićemo istražiš
+8	2008	kratko	
+9	2009	minut	mine mini minu minute minuti minutom minutu
+10	2010	ostvariti	ostvare ostvaren ostvarena ostvarene ostvareni ostvareno ostvari ostvarila ostvarile ostvarili ostvarilo ostvarim ostvarimo ostvario ostvarite ostvariš
+11	2011	posve	
+12	2012	drukčije	
+13	2013	školski	školska školske školskih školskim školsko školskog školskoga školskoj školskom školsku
+14	2014	okus	okusa okuse okusi okusima okusom okusu
+15	2015	obećanje	obećanja obećanjem obećanjima obećanju
+16	2016	legenda	legendama legende legendi legendo legendom legendu
+17	2017	ubistvo	ubistva ubistvima ubistvom ubistvu
+18	2018	kostim	kostima kostime kostimi kostimima kostimom kostimu
+19	2019	izazov	izazova izazove izazovi izazovima izazovom izazovu
+20	2020	britanski	britanska britanske britanskih britanskim britansko britanskog britanskoga britanskoj britanskom britansku
+21	2021	udaljen	najudaljenija najudaljenije najudaljenijem najudaljeniji najudaljenijih najudaljenijim udaljena udaljene udaljeni udaljenih udaljenija udaljenije udaljeniji udaljenim udaljeno udaljenog udaljenoj udaljenom udaljenu
+22	2022	osjetljiv	najosjetljivija najosjetljiviji osetljiv osetljiva osetljive osetljivi osetljivo osetljivu osjetljiva osjetljive osjetljivi osjetljivih osjetljivija osjetljivije osjetljiviji osjetljivim osjetljivo osjetljivog osjetljivoj osjetljivom osjetljivu
+23	2023	curica	curicama curice curici curicom curicu
+24	2024	glasina	glasinama glasine glasini glasinu
+25	2025	ukus	ukusa ukuse ukusi ukusima ukusom ukusu
+26	2026	odobriti	odobre odobren odobrena odobrene odobreni odobreno odobri odobrila odobrili odobrilo odobrim odobrimo odobrio odobrite odobriš
+27	2027	temelj	temelja temelje temeljem temelji temeljima temelju
+28	2028	dućan	dućana dućane dućani dućanima dućanom dućanu
+29	2029	istok	istoka istokom istoku
+30	2030	približiti	približe približi približila približile približili približilo približim približimo približio približite približiš
+31	2031	organizirati	organizira organiziraj organizirajmo organizirajte organiziraju organizirala organizirale organizirali organiziram organiziramo organiziranje organizirao organizirate organiziraš
+32	2032	odlučivati	odlučivala odlučivali odlučivalo odlučivanje odlučivao odlučuj odlučuje odlučujem odlučujemo odlučujete odlučuješ odlučuju odlučujuća odlučujuće odlučujući odlučujuću
+33	2033	zarađivati	zarađivala zarađivali zarađivanje zarađivao zarađuj zarađuje zarađujem zarađujemo zarađujete zarađuješ zarađuju zarađujući
+34	2034	neobično	
+35	2035	krasan	krasna krasne krasni krasnih krasnim krasnog krasnoj krasnom krasnu
+36	2036	dovoljan	dovoljna dovoljne dovoljni dovoljnim dovoljnog dovoljnoj dovoljnom dovoljnu
+37	2037	nasmijati	nasmij nasmija nasmijala nasmijali nasmijalo nasmijan nasmijana nasmijane nasmijani nasmijano nasmijao nasmije nasmijem nasmijemo nasmijete nasmiješ nasmijte nasmiju
+38	2038	alarm	alarma alarme alarmi alarmima alarmni alarmnog alarmom alarmu
+39	2039	dvorište	dvorišta dvorištem dvorištima dvorištu
+40	2040	skupina	skupinama skupine skupini skupinom skupinu
+41	2041	tama	tame tami tamom tamu
+42	2042	krava	kravama krave kravi kravo kravom kravu
+43	2043	jug	juga jugom jugu
+44	2044	bogatstvo	bogatstava bogatstva bogatstvima bogatstvom bogatstvu
+45	2045	glasati	glasa glasaj glasajmo glasajte glasaju glasala glasale glasali glasalo glasam glasamo glasanja glasanje glasanjem glasanju glasao glasate glasaš
+46	2046	prijateljstvo	prijateljstava prijateljstva prijateljstvom prijateljstvu
+47	2047	vizija	vizijama vizije viziji vizijom viziju
+48	2048	reakcija	reakcijama reakcije reakciji reakcijom reakciju
+49	2049	čamac	čamaca čamca čamce čamcem čamci čamcima čamcu
+50	2050	dječji	dečja dečje dečji dečju dječja dječje dječjeg dječjem dječjih dječjim dječjoj dječjom dječju
+51	2051	odvratan	najodvratnija najodvratnije najodvratniji odvratna odvratne odvratni odvratnih odvratnije odvratniji odvratnim odvratnog odvratnoj odvratnom odvratnu
+52	2052	rijedak	najrjeđa najrjeđe najrjeđi najrjeđih reci recima redak redaka retka retke retki retkih retkim retkog retkom retku reče ređe rijetka rijetke rijetki rijetkih rijetkim rijetkima rijetkog rijetkoj rijetkom rijetku rjeđa rjeđe rjeđi
+53	2053	sol	so soli solima solju
+54	2054	proces	procesa procese procesi procesima procesom procesu
+55	2055	nadzor	nadzora nadzorom nadzoru
+56	2056	šifra	šifara šiframa šifre šifri šifrom šifru
+57	2057	tvornica	tvornicama tvornice tvornici tvornicom tvornicu
+58	2058	prostorija	prostorijama prostorije prostoriji prostorijom prostoriju
+59	2059	nasamo	
+60	2060	kopile	kopilad kopiladi kopileta kopiletom kopiletu
+61	2061	sedeti	sede sedela sedeli sedenje sedeo sedećemo sedećeš sedeći sedeću sedi sedim sedimo sedite sediš
+62	2062	izbrisati	izbrisala izbrisale izbrisali izbrisalo izbrisan izbrisana izbrisane izbrisani izbrisano izbrisao izbriše izbrišem izbrišemo izbrišete izbrišeš izbriši izbrišite izbrišu
+63	2063	vanjski	vanjska vanjske vanjskih vanjskim vanjsko vanjskog vanjskoga vanjskoj vanjskom vanjskome vanjsku
+64	2064	slučajnost	slučajnosti slučajnostima slučajnošću
+65	2065	predložiti	predlože predložen predložena predložene predloženi predloženo predloži predložila predložili predložilo predložim predložimo predložio predložite predložiću predložiš
+66	2066	grudi	grudima
+67	2067	kraljevski	kraljevska kraljevske kraljevskih kraljevskim kraljevsko kraljevskog kraljevskoga kraljevskoj kraljevskom kraljevsku
+68	2068	zamjenik	zamenici zamenik zamenika zamenikom zameniku zameniče zamjenici zamjenicima zamjenika zamjenike zamjenikom zamjeniku zamjeniče
+69	2069	štakor	štakora štakore štakori štakorima štakorom štakoru
+70	2070	svađa	svađama svađe svađi svađom svađu
+71	2071	nasilan	najnasilnija najnasilnije najnasilniji najnasilnijih nasilna nasilne nasilni nasilnih nasilnija nasilnije nasilniji nasilnim nasilno nasilnog nasilnoj nasilnom nasilnu
+72	2072	zapadni	zapadna zapadne zapadnih zapadnije zapadnim zapadnog zapadnoga zapadnoj zapadnom zapadnome zapadnu
+73	2073	međuvrijeme	međuvremenu
+74	2074	ozljeda	ozlede ozljedama ozljede ozljedi ozljedom ozljedu
+75	2075	ugroziti	ugroze ugrozi ugrozila ugrozile ugrozili ugrozilo ugrozim ugrozimo ugrozio ugrozite ugroziš ugrožen ugrožena ugrožene ugroženi ugroženo
+76	2076	snijeg	sneg snega snegom snegu snijega snijegom snijegu snjegovi
+77	2077	ubrzo	
+78	2078	dužan	dužna dužne dužni dužnim dužno dužnom
+79	2079	usna	usana usnama usne usni usno usnom usnu
+80	2080	zahvaljivati	zahvaljivala zahvaljivali zahvaljivanje zahvaljivao zahvaljuj zahvaljuje zahvaljujem zahvaljujemo zahvaljujete zahvaljuješ zahvaljujte zahvaljuju
+81	2081	natjecanje	natjecanja natjecanjem natjecanjima natjecanju
+82	2082	posvetiti	posvete posveti posvetila posvetili posvetim posvetimo posvetio posvetite posvetivši posvetiš posvećen posvećena posvećene posvećeni posvećeno
+83	2083	špijun	špijuna špijune špijuni špijunima špijunom špijunu
+84	2084	tužiti	tuže tužen tužena tuženi tuži tužila tužile tužili tužim tužimo tužio tužite tužiće tužiću tužiš
+85	2085	aktivirati	aktivira aktiviraj aktivirajte aktiviraju aktivirala aktivirale aktivirali aktiviralo aktiviram aktiviramo aktiviran aktivirana aktivirane aktivirani aktiviranje aktivirano aktivirao aktivirate aktiviraš
+86	2086	fantastično	
+87	2087	brada	bradama brade bradi bradom bradu
+88	2088	milijarda	milijardama milijarde milijardi milijardu
+89	2089	potpunost	potpunosti
+90	2090	odavno	
+91	2091	in	ina ine ini ino inu
+92	2092	kampanja	kampanjama kampanje kampanji kampanjom kampanju
+93	2093	službeno	
+94	2094	stablo	stabala stabla stablima stablom stablu
+95	2095	visina	visinama visine visini visinom visinu
+96	2096	pokvaren	pokvarena pokvarene pokvareni pokvarenih pokvarenim pokvareno pokvarenog pokvarenoj pokvarenom pokvarenu
+97	2097	čvrsto	cvrsto
+98	2098	smrtan	smrtna smrtne smrtni smrtnih smrtnim smrtno smrtnog smrtnoga smrtnoj smrtnom smrtnu
+99	2099	kapa	kapama kape kapi kapo kapom kapu
+100	2100	odmaknuti	odmakao odmakla odmakli odmakne odmaknem odmaknemo odmaknete odmakneš odmakni odmaknimo odmaknite odmaknu odmaknula odmaknuli odmaknuo odmaknut odmaći
