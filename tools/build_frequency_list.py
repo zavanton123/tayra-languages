@@ -1322,6 +1322,16 @@ BULGARIAN_REFLEXIVE = re.compile(" (?:се|си)$")
 BULGARIAN_VERBS = set()
 
 
+# A Macedonian verb is cited with its reflexive pronoun when it takes one ("се сеќава", "to remember"; "смеј се"): the
+# reader reads the pronoun as a word of its own, so the verb is the word beside it.
+MACEDONIAN_REFLEXIVE = re.compile("^(?:се|си) | (?:се|си)$")
+# The kinds of word (noun, verb, adj) each Macedonian word of the dictionary is, filled by load_dictionary.
+MACEDONIAN_KINDS = defaultdict(set)
+# The endings of a Macedonian verb's person forms after its stem (чека: чекам, чекаш, чекаме, чекаат; чекав, чекаше).
+MACEDONIAN_PERSON_ENDINGS = {"ам", "аш", "аме", "ате", "аат", "ем", "еш", "еме", "ете", "ат", "им", "иш", "име", "ите", "ев", "ав",
+                             "ив", "вме", "вте", "ше", "еше", "аше", "а", "е", "и", "ј", "јте"}
+
+
 ROMANIAN_KINDS = {}
 ROMANIAN_FORM_GLOSS = re.compile(r"\bof ([^\W\d_]+)")
 # A noun or verb the other kind's form is spelled as (fiu "son" and să fiu; cost and the verb costa) keeps its count when
@@ -1641,6 +1651,10 @@ def load_dictionary(language):
             word, word_lc = BULGARIAN_REFLEXIVE.sub("", word), BULGARIAN_REFLEXIVE.sub("", word_lc)
             if p == "verb" and any(g.startswith("to ") for s in json.loads(senses) for g in s.get("glosses", [])):
                 BULGARIAN_VERBS.add(word_lc)
+        if language == "mk":
+            word, word_lc = MACEDONIAN_REFLEXIVE.sub("", word), MACEDONIAN_REFLEXIVE.sub("", word_lc)
+            if p in ("noun", "verb", "adj"):
+                MACEDONIAN_KINDS[word_lc].add(p)
         pos[word_lc].add(p)
         if p not in WORD_POS and not (language == "ko" and p == "counter"):
             continue
@@ -1669,6 +1683,8 @@ def load_dictionary(language):
         # Some of its forms name their word with stress marks (imel of imẹ́ti, pil of píti), which no headword has.
         if language == "sl":
             lemma = slovene_unstressed(lemma)
+        if language == "mk":
+            form_lc, lemma = MACEDONIAN_REFLEXIVE.sub("", form_lc), MACEDONIAN_REFLEXIVE.sub("", lemma)
         if is_wordlike(lemma):
             lemmas[form_lc].append(lemma)
     # A Korean verb's form the pack files under other verbs too (가는 of 가다, 갈다 and 가늘다) goes as its forms table says.
@@ -1734,6 +1750,25 @@ def load_dictionary(language):
         for form_lc, of in lemmas.items():
             if form_lc in BULGARIAN_VERBS:
                 lemmas[form_lc] = [lemma for lemma in of if lemma == form_lc or lemma not in BULGARIAN_VERBS]
+    if language == "mk":
+        # A Macedonian word's forms table names its aspect partner (враќа in врати's, доаѓа in дојде's) and the words
+        # made from it (годишен of година, барање of бара, важност of важен): each is a word of its own, which the
+        # dictionary has as such. A verb is no other verb's form, an adjective no noun's or verb's, a noun no verb's
+        # or adjective's, unless it is that kind of word too (игра, the noun and the verb).
+        def macedonian_form_of(form, lemma):
+            kinds, of = MACEDONIAN_KINDS.get(form), MACEDONIAN_KINDS.get(lemma)
+            if not kinds or not of or lemma == form:
+                return True
+            # A verb may be a noun's plural too (води of вода, мисли of мисла), which the counts settle.
+            if "verb" in kinds:
+                return "verb" not in of
+            # A noun spelled as a verb's person form (имам "imam" and "I have") is that form as well.
+            if "verb" in of and form.startswith(lemma[:-1]) and form[len(lemma) - 1:] in MACEDONIAN_PERSON_ENDINGS:
+                return True
+            return bool(of & kinds)
+
+        for form_lc, of in lemmas.items():
+            lemmas[form_lc] = [lemma for lemma in of if macedonian_form_of(form_lc, lemma)]
     if language == "ro":
         ROMANIAN_KINDS.update(romanian_kinds(db, lemmas))
     if language == "ar" and ARABIC_FORMS:
@@ -2420,6 +2455,10 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
                 shares = romanian_shares(form, others)
                 if shares:
                     return shares
+            if language == "mk":
+                shares = macedonian_shares(form, others)
+                if shares:
+                    return shares
             # Without its vowels, an Arabic word is often spelled as another's verb form too (أنت as a form of أن "to
             # moan"): it keeps its count.
             if language == "ar":
@@ -2462,6 +2501,30 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
             weights = {l: weight(l) or 1e-12 for l in others}
         whole = sum(weights.values())
         return {l: w / whole for l, w in weights.items()}
+
+    macedonian_forms = defaultdict(set)
+
+    def macedonian_own(word):
+        """How common a Macedonian word's forms are that are no other word's nor a word themselves (затворам of затвори)."""
+        if not macedonian_forms:
+            for form, of in lemmas.items():
+                if len(set(of)) == 1 and form not in pos:
+                    macedonian_forms[of[0]].add(form)
+        return sum(count(f) for f in macedonian_forms.get(word, ()))
+
+    def macedonian_shares(form, others):
+        """
+        The words a Macedonian verb spelled as a noun's plural goes to (затвори "closes" and "prisons", цени "values" and
+        "prices"), or None for the general rule: the verb and the nouns share it by how common each one's own forms are.
+        """
+        if "verb" not in MACEDONIAN_KINDS.get(form, ()):
+            return None
+        nouns = [l for l in others if "noun" in MACEDONIAN_KINDS.get(l, ()) and "verb" not in MACEDONIAN_KINDS[l]]
+        if not nouns:
+            return None
+        weights = {form: macedonian_own(form), **{l: macedonian_own(l) for l in nouns}}
+        whole = sum(weights.values())
+        return {l: w / whole for l, w in weights.items()} if whole else None
 
     romanian_forms = defaultdict(set)
 
@@ -2581,7 +2644,10 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
                 if language == "ar" and word not in moved and word not in overrides and (
                         any(ARABIC_FORMS.get(word, {}).get(t) is True for t in onward) or ARABIC_FORMS.get(form, {}).get(word) is True):
                     onward = None
-                if onward and word not in onward:
+                # A Macedonian verb sharing its spelling with a noun's plural (macedonian_shares) passes the forms spelled as
+                # both (жените, затворите) on by its shares, and keeps its own (затворам).
+                if onward and (word not in onward or language == "mk" and onward[word] < 1.0
+                               and set(lemmas.get(form, ())) & (set(onward) - {word})):
                     if word in merged_verbs:
                         via[form] = word
                     for final, share in onward.items():
