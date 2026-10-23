@@ -132,7 +132,8 @@ private fun PhonePromptSheet(ready: Boolean, state: VocabularySettingsUiState, o
         val level = state.picked ?: state.level
         val choices = remember(list) { VocabularyLevelService.choices(list.words.size) }
         val index = choices.indexOf(level).coerceAtLeast(0)
-        Column(Modifier.padding(horizontal = AppSpacing.xl)) {
+        // The question scrolls on a short screen, so the buttons below it keep their size.
+        ScrollColumn(Modifier.weight(1f, fill = false), contentModifier = Modifier.padding(horizontal = AppSpacing.xl)) {
             // The close button shares the title's row, so the sheet starts with the question.
             Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.Top, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
                 Text(tr("How much {0} do you know?", languageInSentence(state.languageName, LanguageCase.NOMINATIVE)), Modifier.weight(1f), style = AppText.headline)
