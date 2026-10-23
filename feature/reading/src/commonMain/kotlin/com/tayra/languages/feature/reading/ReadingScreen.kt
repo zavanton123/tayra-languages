@@ -396,6 +396,7 @@ fun ReadingScreen(
                             onMenu = openPane,
                             onCourses = { onNavigate(Route.Courses) },
                             onNewPlaylist = { onNavigate(Route.NewPlaylist(bookId)) },
+                            onAddedToPlaylist = { name -> toast.show(tr("Added to {0}", name)) },
                             focusText = { runCatching { focusRequester.requestFocus() } },
                         )
                     }
@@ -562,6 +563,8 @@ private fun ReadingBody(
     onCourses: () -> Unit,
     /** Making a playlist that starts with this text. */
     onNewPlaylist: () -> Unit,
+    /** Confirming that the text went into the playlist with this name. */
+    onAddedToPlaylist: (String) -> Unit,
     focusText: () -> Unit,
     /** Whether the term panel is open beside the text, which then leaves its scrollbar room on that side. */
 ) {
@@ -761,6 +764,7 @@ private fun ReadingBody(
         ContinuousControls(
             bookId = state.book?.id?.takeIf { playlistPlayer != null },
             onNewPlaylist = onNewPlaylist,
+            onAddedToPlaylist = onAddedToPlaylist,
             playing = continuous.active,
             autoPause = state.settings.autoPause,
             hotkeys = state.settings.hotkeys.takeUnless { LocalWindowWidth.current.isCompact },
@@ -874,6 +878,7 @@ private fun KeyCap(hotkey: Hotkey) {
 private fun ContinuousControls(
     bookId: Long?,
     onNewPlaylist: () -> Unit,
+    onAddedToPlaylist: (String) -> Unit,
     playing: Boolean,
     autoPause: Boolean,
     hotkeys: Map<HotkeyAction, Hotkey?>?,
@@ -890,7 +895,7 @@ private fun ContinuousControls(
         if (bookId != null) {
             // The menu ends where the controls do: past the buttons after this one.
             val after = PLAY_CONTROL_SIZE + CONTROL_SIZE + AppSpacing.m * 2 + if (hotkeys != null) CONTROL_SIZE + AppSpacing.m else 0.dp
-            AddToPlaylistButton(bookId, CONTROL_SIZE, onCreate = onNewPlaylist, menuShift = after)
+            AddToPlaylistButton(bookId, CONTROL_SIZE, onCreate = onNewPlaylist, onAdded = onAddedToPlaylist, menuShift = after)
         }
         if (hotkeys != null) {
             Box {

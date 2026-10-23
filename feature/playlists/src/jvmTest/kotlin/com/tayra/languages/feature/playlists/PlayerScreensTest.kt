@@ -11,6 +11,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.test.ExperimentalTestApi
 import androidx.compose.ui.test.hasTestTag
 import androidx.compose.ui.test.hasText
+import androidx.compose.ui.test.onAllNodesWithTag
 import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.performClick
@@ -201,17 +202,22 @@ class PlayerScreensTest {
         }
         val viewModel = AddToPlaylistViewModel(book, data.service, data.settings)
         var created = false
+        var added: String? = null
         host(data, "Reader") {
             Box(Modifier.fillMaxSize()) {
-                AddToPlaylistButton(book, AppSpacing.giant, onCreate = { created = true }, modifier = Modifier.align(Alignment.BottomEnd).padding(AppSpacing.xxl), viewModel = viewModel)
+                AddToPlaylistButton(book, AppSpacing.giant, onCreate = { created = true }, onAdded = { added = it }, modifier = Modifier.align(Alignment.BottomEnd).padding(AppSpacing.xxl), viewModel = viewModel)
             }
         }
         onNodeWithTag("add-to-playlist").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Work & Business")).fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithTag("menu-playlist-$morning").performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Added to Morning Portuguese")).fetchSemanticsNodes().isNotEmpty() }
-        assertEquals(listOf(book), runBlocking { data.service.playlist(morning)!!.items.map { it.bookId } })
         screenshot("reader-add-to-playlist")
+        onNodeWithTag("menu-playlist-$morning").performClick()
+        // Putting the text in a playlist closes the menu and leaves the confirmation to the screen.
+        waitUntil(timeoutMillis = 5_000) { added == "Morning Portuguese" }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("add-to-playlist-menu").fetchSemanticsNodes().isEmpty() }
+        assertEquals(listOf(book), runBlocking { data.service.playlist(morning)!!.items.map { it.bookId } })
+        onNodeWithTag("add-to-playlist").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Work & Business")).fetchSemanticsNodes().isNotEmpty() }
         onNodeWithTag("menu-playlist-$morning").performClick()
         waitUntil(timeoutMillis = 5_000) { runBlocking { data.service.playlist(morning)!!.items.isEmpty() } }
         onNodeWithTag("menu-new-playlist").performClick()

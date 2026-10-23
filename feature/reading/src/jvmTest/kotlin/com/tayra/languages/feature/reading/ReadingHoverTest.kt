@@ -295,12 +295,16 @@ class ReadingHoverTest {
         rule.onNodeWithTag("add-to-playlist").performClick()
         rule.waitUntil(5_000) { rule.onAllNodesWithText("Morning Portuguese").fetchSemanticsNodes().isNotEmpty() }
         rule.onNodeWithTag("menu-playlist-$morning").performClick()
+        // The menu closes and the reader's toast confirms.
         rule.waitUntil(5_000) { rule.onAllNodesWithText("Added to Morning Portuguese").fetchSemanticsNodes().isNotEmpty() }
+        rule.waitUntil(5_000) { rule.onAllNodesWithTag("add-to-playlist-menu").fetchSemanticsNodes().isEmpty() }
         assertEquals(listOf(1L), runBlocking { playlists.playlist(morning)!!.items.map { it.bookId } })
         System.getenv("READING_PLAYLIST_SCREENSHOT")?.let { path ->
             rule.waitForIdle()
             javax.imageio.ImageIO.write(rule.onAllNodes(androidx.compose.ui.test.isRoot())[0].captureToImage().toAwtImage(), "png", File(path))
         }
+        rule.onNodeWithTag("add-to-playlist").performClick()
+        rule.waitUntil(5_000) { rule.onAllNodesWithTag("menu-new-playlist").fetchSemanticsNodes().isNotEmpty() }
         rule.onNodeWithTag("menu-new-playlist").performClick()
         assertEquals(listOf<com.tayra.languages.core.ui.navigation.Route>(com.tayra.languages.core.ui.navigation.Route.NewPlaylist(1)), visited)
     }

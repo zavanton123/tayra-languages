@@ -17,12 +17,10 @@ import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Add
 import androidx.compose.material.icons.filled.Check
-import androidx.compose.material.icons.filled.CheckCircle
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
@@ -46,6 +44,7 @@ import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppTooltip
 import com.tayra.languages.core.ui.components.PopupCard
 import com.tayra.languages.core.ui.i18n.tr
+import com.tayra.languages.core.ui.state.CollectEvents
 import com.tayra.languages.core.ui.theme.AppAccents
 import com.tayra.languages.core.ui.theme.AppAlpha
 import com.tayra.languages.core.ui.theme.AppBorders
@@ -54,22 +53,23 @@ import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.AppSizes
 import com.tayra.languages.core.ui.theme.AppSpacing
 import com.tayra.languages.core.ui.theme.AppText
-import kotlinx.coroutines.delay
 import org.koin.compose.viewmodel.koinViewModel
 import org.koin.core.parameter.parametersOf
 
 /**
  * The reader's playlist button, round and raised like the reader's other floating buttons and
  * [size] across: it opens a menu of the language's playlists, each ticked when it holds the text
- * with [bookId], to put the text in or take it out, and a way to make a new playlist with it. The
- * menu's right edge is [menuShift] to the right of the button's, so it can line up with the end of
- * the controls beside it and stay inside the window.
+ * with [bookId], to put the text in or take it out, and a way to make a new playlist with it.
+ * Putting the text in a playlist closes the menu and hands the playlist's name to [onAdded], for
+ * the screen to confirm. The menu's right edge is [menuShift] to the right of the button's, so it
+ * can line up with the end of the controls beside it and stay inside the window.
  */
 @Composable
 fun AddToPlaylistButton(
     bookId: Long,
     size: Dp,
     onCreate: () -> Unit,
+    onAdded: (playlist: String) -> Unit,
     modifier: Modifier = Modifier,
     menuShift: Dp = 0.dp,
     viewModel: AddToPlaylistViewModel = koinViewModel(key = "add-to-playlist-$bookId") { parametersOf(bookId) },
@@ -77,13 +77,14 @@ fun AddToPlaylistButton(
     val colors = MaterialTheme.colorScheme
     var open by remember { mutableStateOf(false) }
     val description = tr("Add to playlist")
+    CollectEvents(viewModel.added) { name -> open = false; onAdded(name) }
     Box(modifier) {
         AppTooltip(description) {
             Box(
                 Modifier.size(size).shadow(AppElevation.raised, AppShapes.circle).clip(AppShapes.circle)
                     .background(if (open) colors.primary.copy(alpha = AppAlpha.soft) else colors.surface)
                     .border(AppBorders.selected(colors.primary), AppShapes.circle)
-                    .clickable { open = !open; viewModel.clearAdded() }
+                    .clickable { open = !open }
                     .semantics { contentDescription = description }
                     .testTag("add-to-playlist"),
                 contentAlignment = Alignment.Center,
@@ -103,8 +104,6 @@ fun AddToPlaylistButton(
 private fun AddToPlaylistMenu(viewModel: AddToPlaylistViewModel, onCreate: () -> Unit) {
     val state by viewModel.state.collectAsStateWithLifecycle()
     val colors = MaterialTheme.colorScheme
-    // The confirmation goes after a while, as a toast would.
-    LaunchedEffect(state.added) { if (state.added != null) { delay(CONFIRMATION_MILLIS); viewModel.clearAdded() } }
     PopupCard(Modifier.width(MENU_WIDTH).testTag("add-to-playlist-menu")) {
         Column(Modifier.padding(AppSpacing.s)) {
             Text(tr("Add to playlist"), Modifier.padding(horizontal = AppSpacing.s, vertical = AppSpacing.s), style = AppText.itemTitle)
@@ -146,20 +145,9 @@ private fun AddToPlaylistMenu(viewModel: AddToPlaylistViewModel, onCreate: () ->
                 Icon(Icons.Default.Add, contentDescription = null, tint = colors.onSurface, modifier = Modifier.size(AppSizes.icon))
                 Text(tr("Create new playlist"), style = MaterialTheme.typography.bodyLarge)
             }
-            state.added?.let { name ->
-                Row(
-                    Modifier.fillMaxWidth().clip(AppShapes.control).background(AppAccents.green.copy(alpha = AppAlpha.tint)).padding(AppSpacing.m).testTag("added-to-playlist"),
-                    verticalAlignment = Alignment.CenterVertically,
-                    horizontalArrangement = Arrangement.spacedBy(AppSpacing.s),
-                ) {
-                    Icon(Icons.Default.CheckCircle, contentDescription = null, tint = AppAccents.green, modifier = Modifier.size(AppSizes.icon))
-                    Text(tr("Added to {0}", name), style = AppText.label, color = AppAccents.onWash(AppAccents.green))
-                }
-            }
         }
     }
 }
 
 private val MENU_WIDTH = 360.dp
 private val LIST_HEIGHT = 320.dp
-private const val CONFIRMATION_MILLIS = 3_000L

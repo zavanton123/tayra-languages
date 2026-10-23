@@ -341,17 +341,17 @@ class PlaylistFormViewModel(
 }
 
 /** The reader's playlist menu: the language's playlists, and which hold the open text. */
-data class AddToPlaylistUiState(val playlists: List<Playlist> = emptyList(), val added: String? = null)
+data class AddToPlaylistUiState(val playlists: List<Playlist> = emptyList())
 
 class AddToPlaylistViewModel(private val bookId: Long, private val service: PlaylistService, settings: SettingsRepository) : ViewModel() {
-    private val added = MutableStateFlow<String?>(null)
+    /** The name of each playlist the open text has just been put in. */
+    val added = UiEvents<String>()
 
     @OptIn(ExperimentalCoroutinesApi::class)
-    val state: StateFlow<AddToPlaylistUiState> = combine(
-        settings.settings.map { it.currentLanguageId }.distinctUntilChanged().flatMapLatest { service.observePlaylists(it) },
-        added,
-    ) { playlists, added -> AddToPlaylistUiState(playlists, added) }
-        .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), AddToPlaylistUiState())
+    val state: StateFlow<AddToPlaylistUiState> =
+        settings.settings.map { it.currentLanguageId }.distinctUntilChanged().flatMapLatest { service.observePlaylists(it) }
+            .map { AddToPlaylistUiState(it) }
+            .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), AddToPlaylistUiState())
 
     fun contains(playlist: Playlist) = playlist.items.any { it.bookId == bookId }
 
@@ -361,11 +361,7 @@ class AddToPlaylistViewModel(private val bookId: Long, private val service: Play
             val playlist = service.observePlaylist(playlistId).first() ?: return@launch
             val adding = !contains(playlist)
             service.setContains(playlistId, bookId, adding)
-            added.value = if (adding) playlist.name else null
+            if (adding) added.send(playlist.name)
         }
-    }
-
-    fun clearAdded() {
-        added.value = null
     }
 }
