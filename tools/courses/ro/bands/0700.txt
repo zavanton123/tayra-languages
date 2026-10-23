@@ -1,0 +1,100 @@
+1	601	conta	contai contam contat contau contați contează contez conteze contezi contând contăm necontând
+2	602	nebun	nebuna nebune nebunei nebunele nebunelor nebuni nebunii nebunilor nebunul nebunule nebunului nebună
+3	603	dragă	draga dragat drage dragei dragele dragelor drago dragăm
+4	604	noroc	noroace norocel norocul norocului
+5	605	raport	rapoarte rapoartele rapoartelor raportul raportului raporturi raporturile raporturilor
+6	606	armată	armata armate armatei armatele armatelor
+7	607	termen	termene termenele termenelor termeni termenii termenilor termenul termenului
+8	608	obicei	obiceiul obiceiului obiceiuri obiceiurile obiceiurilor
+9	609	republică	republic republica republicat republicată republici republicii republicile republicilor
+10	610	cânta	cânt cântai cântam cântase cântasem cântat cântate cântatul cântatului cântată cântau cântați cânte cântul cântând cântându cântă cântăm cânți cînt cînta cînte cîntînd cîntă
+11	611	director	directoare directoarea directoarei directoarele directori directorii directorilor directorul directorule directorului
+12	612	rapid	rapida rapide rapidul rapidului rapidă rapizi
+13	613	articol	articole articolele articolelor articolul articolului
+14	614	culoare	culoarea culori culorii culorile culorilor
+15	615	mondial	mondiala mondiale mondialele mondiali mondialul mondială
+16	616	polițist	polițista polițiste polițistei polițistele polițistul polițistule polițistului polițistă polițiști polițiștii polițiștilor
+17	617	dispărea	dispar dispare dispari dispară dispăreai dispăream dispăreau dispărem dispăreți dispăru dispăruse dispărusem dispăruseră dispăruseși dispărut dispărând
+18	618	atenție	atenția atenției atenții atențiile atențiune
+19	619	mijloc	mijloace mijloacele mijloacelor mijlocul mijlocului
+20	620	magazin	magazine magazinele magazinelor magazinu magazinul magazinului
+21	621	uneori	
+22	622	dezvoltare	dezvoltarea dezvoltări dezvoltării dezvoltările
+23	623	rezolva	rezolv rezolvai rezolvam rezolvase rezolvasem rezolvat rezolvata rezolvate rezolvată rezolvau rezolvați rezolve rezolvi rezolvând rezolvă rezolvăm
+24	624	grozav	grozava grozave grozavi grozavii grozavul grozavului grozavă
+25	625	cunoscut	cunoscuta cunoscute cunoscutei cunoscutele cunoscuto cunoscutul cunoscutului cunoscută cunoscuți cunoscuții cunoscuților
+26	626	scuza	scuz scuzam scuzat scuzată scuzați scuze scuzi scuzăm
+27	627	conține	conții conțin conținea conțineau conținu conținut conținute conținutul conținutului conținuturi conținută conținând conțină
+28	628	informație	informația informației informații informațiile informațiilor
+29	629	material	materiala materiale materialele materialelor materialul materialului materială
+30	630	legat	legata legate legatul legatului legaturi legată legați
+31	631	curând	
+32	632	piesă	piesa piese piesei piesele pieselor
+33	633	include	includ includea includeau includem includeți includă inclus inclusa incluse inclusă incluzi incluzând incluzându incluși
+34	634	atac	atacul atacului atacuri atacurile atacurilor
+35	635	trezi	trezea trezeai trezeam trezească trezeau trezesc trezește trezești trezii trezim trezind trezindu trezise trezisem trezit treziți
+36	636	model	modele modelele modelelor modelul modelului
+37	637	nord	nordul nordului
+38	638	răspuns	răspunsul răspunsului răspunsuri răspunsurile răspunsurilor
+39	639	uni	unea unească uneau unesc unește unești unii unim unind unindu unit unita unite unită uniți
+40	640	majoritate	majoritatea majorități majorității
+41	641	deloc	
+42	642	suficient	suficienta suficiente suficientă suficienți
+43	643	drăguț	drăguța drăguțe drăguței drăguțele drăguțelor drăguți drăguții drăguților drăguțo drăguțul drăguțule drăguțului drăguță
+44	644	merita	meritai meritam meritat meritata meritate meritată meritau meritați merite merită merităm meriți
+45	645	semn	semne semnele semnelor semnul semnului
+46	646	venit	venite venitul venitule venitului venituri veniturile veniturilor venită
+47	647	produce	produ produc producea produceam produceau producem produceți produci producând producă produs produse produsese
+48	648	mișca	mișc mișcai mișcam mișcat mișcate mișcată mișcau mișcați mișcând mișcându mișcă mișcăm miște miști
+49	649	petrecere	petrecerea petreceri petrecerii petrecerile petrecerilor
+50	650	crea	creai cream crease creasem creaseră creat creau creați creează creez creeze creezi creând creându creăm
+51	651	privire	privirea priviri privirii privirile privirilor
+52	652	anumit	anumite anumitor anumită anumiți
+53	653	uman	umana umane umani umanii umanul umană
+54	654	cercetare	cercetarea cercetarii cercetarile cercetarilor cercetări cercetării cercetările cercetărilor
+55	655	decide	decid decidea decideam decideau decidem decideți decidă decis decise decisese decisesem decizi decizând
+56	656	ordin	ordinele ordinelor ordinul ordinului
+57	657	distruge	distrug distrugea distrugeai distrugeam distrugeau distrugem distrugeți distrugi distrugând distrugându distrugă distrus distruse distrusese distruseseră
+58	658	roșu	roș roșia roșie roșii roșiii roșiile roșiilor roșul
+59	659	lupta	lupt luptai luptam luptase luptaseră luptat luptau luptați lupte luptând luptându luptăm lupți
+60	660	autor	autoare autoarea autori autorii autorilor autorul autorului
+61	661	proteja	protejai protejam protejat protejata protejate protejatul protejatului protejată protejau protejați protejații protejează protejez protejeze protejezi protejând protejându protejăm
+62	662	spațiu	spații spațiile spațiilor spațiul spațiului
+63	663	zece	zecea zecelea zeci zecile zecilor
+64	664	curte	curtea curți curții curțile curților
+65	665	economic	economica economice economici economico economică
+66	666	funcționa	funcționara funcționară funcționat funcționau funcționați funcționează funcționez funcționeze funcționezi funcționând funcționăm
+67	667	kilometru	kilometri kilometrii kilometrul km
+68	668	iulie	
+69	669	ieri	
+70	670	accident	accidente accidentele accidentelor accidentul accidentului
+71	671	tăia	tae tai taie tăiai tăiam tăiase tăiat tăiau tăiați tăie tăiem tăind tăindu
+72	672	renunța	renunț renunțai renunțam renunțase renunțasem renunțaseră renunțat renunțau renunțați renunțe renunți renunțând renunță renunțăm
+73	673	accepta	acceptai acceptam acceptase acceptat acceptau acceptați accepte acceptând acceptă acceptăm accepți
+74	674	cultural	culturala culturale culturali culturală
+75	675	victimă	victima victime victimei victimele victimelor
+76	676	poziție	poziția poziției poziții pozițiile pozițiilor
+77	677	susține	susții susțin susținea susțineai susțineam susțineau susținem susțineți susținut susținând susțină
+78	678	mie	mia miei mii miile miilor mio
+79	679	piață	piața piețe pieței piețele piețelor pieții
+80	680	pofti	poftea poftească poftesc poftește poftești poftim poftind poftit poftiți
+81	681	premiu	premii premiile premiilor premiul premiului
+82	682	încât	încît
+83	683	presupune	presupui presupun presupunea presupuneam presupuneau presupunem presupuneți presupunând presupunându presupună presupus presupusa presupuse presupusei presupusele presupuselor presupusul presupusului presupusă presupuși presupușii
+84	684	ediție	ediția ediției ediții edițiile edițiilor
+85	685	frică	frica frici fricii fricile fricilor
+86	686	fiindcă	
+87	687	clădire	clădirea clădiri clădirii clădirile clădirilor
+88	688	locui	locuia locuiai locuiam locuiască locuiau locuiați locuiesc locuiește locuiești locuim locuind locuise locuit locuiți
+89	689	aprilie	april
+90	690	mișcare	mișcarea mișcări mișcării mișcările mișcărilor
+91	691	părăsi	părăsea părăseai părăseam părăsească părăseau părăsesc părăsește părăsești părăsii părăsim părăsind părăsindu părăsise părăsisem părăsiseră părăsit părăsiți
+92	692	gol	goala goale goală goi golul golului goluri golurile golurilor goluț
+93	693	pat	patul patului paturi paturile paturilor pătuț
+94	694	înalt	nalt înalta înalte înaltei înaltele înaltul înaltului înaltă înalți înalții înalților
+95	695	vară	vara varo vere verei veri verii verile verilor
+96	696	pasă	pasa pase pasei pasele paso
+97	697	avion	avioane avioanele avioanelor avionul avionului
+98	698	teren	terenul terenului terenuri terenurile terenurilor
+99	699	sud	sudul sudului
+100	700	august	augusta auguste augustei augustul augustă

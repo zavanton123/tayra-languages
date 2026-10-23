@@ -1,0 +1,100 @@
+1	3301	jazz	jazzul jazzului
+2	3302	amant	amanta amantul amantului amantă amanți amanții amanților
+3	3303	fotografia	fotografiam fotografiat fotografiate fotografiatul fotografiată fotografiază fotografiați fotografiem fotografiez fotografieze fotografiezi fotografiind
+4	3304	bronz	bronzul bronzului
+5	3305	cască	casca casco căști căștii căștile căștilor
+6	3306	purtător	purtătoare purtătoarea purtătoarei purtători purtătorii purtătorilor purtătorul purtătorului
+7	3307	infinit	infinita infinite infinitei infinitele infinitelor infinitul infinitului infinită
+8	3308	bisericesc	bisericească bisericești
+9	3309	cazinou	cazino cazinoul cazinoului cazinouri cazinourile cazinourilor
+10	3310	distant	distanta distante distantei distantele distantă distanți
+11	3311	plănui	plănuia plănuiai plănuiam plănuiască plănuiau plănuiați plănuiesc plănuiește plănuiești plănuim plănuind plănuise plănuisem plănuiseră plănuiseși plănuiți
+12	3312	tragere	tragerea trageri tragerii tragerile tragerilor
+13	3313	portofel	portofele portofelele portofelul portofelului
+14	3314	chirurg	chirurgi chirurgii chirurgilor chirurgul chirurgului
+15	3315	district	districte districtele districtelor districtul districtului
+16	3316	observator	observatoare observatoarele observatori observatorii observatorilor observatorul observatorului
+17	3317	procent	procente procentele procentul
+18	3318	califica	calific calificam calificat calificați califice califici califică calificăm
+19	3319	colonie	colonia coloniei colonii coloniile coloniilor
+20	3320	porno	
+21	3321	deodată	
+22	3322	comite	comise comisese comit comitea comiteau comitem comiteți comită comiți comițând
+23	3323	câmpie	câmpia câmpiei câmpii câmpiile câmpiilor
+24	3324	sacrifica	sacrific sacrificam sacrificat sacrificau sacrificați sacrifice sacrifici sacrificând sacrificându sacrifică sacrificăm
+25	3325	înfrângere	înfrângerea înfrângeri înfrângerii înfrângerile înfrângerilor
+26	3326	vopsea	vopseaua vopsele vopselei vopselele
+27	3327	dispută	disputa dispute disputei disputele disputelor
+28	3328	regulament	regulamente regulamentele regulamentelor regulamentul regulamentului
+29	3329	matematic	matematica matematice matematici matematicii
+30	3330	legumă	leguma legume legumele legumelor
+31	3331	distinge	disting distingem distingi distingă distins distinsa distinse distinsei distinsul distinsului distinsă distinși distinșii distinșilor
+32	3332	diagnostic	diagnostice diagnosticele diagnosticelor diagnosticul diagnosticului
+33	3333	preocupare	preocuparea preocupări preocupării preocupările preocupărilor
+34	3334	conservare	conservarea conservării
+35	3335	intim	intima intime intimi intimă
+36	3336	legislație	legislația legislației legislații
+37	3337	agăța	agațe agață agăț agățai agățam agățat agățau agățați agăți agățând agățându agățăm
+38	3338	pirat	piratul piratule piratului pirați pirații piraților
+39	3339	broască	broasca broaște broaștei broaștele broaștelor broscoi broscoii broscoiul broscoiule broscoiului broscuță
+40	3340	detaliat	detailat detaliata detaliate detaliată detaliați
+41	3341	sluji	slujea slujeam slujească slujesc slujește slujești slujim slujind slujit slujiți
+42	3342	adâncime	adâncimea adâncimi adâncimii adâncimile
+43	3343	prăjit	prăjita prăjite prăjită prăjiți
+44	3344	însemn	însemne însemnele însemnul
+45	3345	afirmație	afirmația afirmației afirmații afirmațiile afirmațiilor
+46	3346	parolă	parola parolat parole parolei parolele
+47	3347	supraviețuire	supraviețuirea supraviețuirii
+48	3348	definiție	definiția definiției definiții definițiile
+49	3349	orez	orezul orezului
+50	3350	cafenea	cafeneaua cafenele cafenelei cafenelele cafenelelor
+51	3351	momentan	momentană
+52	3352	dietă	dieta diete dietei dietele
+53	3353	cuib	cuibul cuibului cuiburi cuiburile cuiburilor cuibușor
+54	3354	tragic	tragica tragice tragicei tragicele tragici tragicul tragicului tragică
+55	3355	sindrom	sindromul sindromului
+56	3356	trăsătură	trăsătura trăsături trăsăturile trăsăturilor
+57	3357	vilă	vila vile vilei vilele
+58	3358	intersecție	intersecția intersecției intersecții intersecțiile
+59	3359	condiționat	condiționate condiționată condiționați
+60	3360	asista	asist asistam asistat asistați asiste asistând asistă asistăm asiști
+61	3361	vultur	vulturi vulturii vulturilor vulturul vulturule vulturului
+62	3362	rutier	rutiera rutiere rutieră
+63	3363	întări	întărea întărească întăresc întărește întărești întărim întărind întărit întăriți
+64	3364	punere	punerea puneri punerii punerile
+65	3365	clopot	clopote clopotele clopotelor clopotul clopotului clopoțel
+66	3366	submarin	submarine submarinele submarinelor submarini submarinul submarinului submarină
+67	3367	începere	începerea începerii
+68	3368	evacuare	evacuarea evacuări evacuării evacuările
+69	3369	conservator	conservatoare conservatori conservatorii conservatorilor conservatorul conservatorului
+70	3370	circumstanță	circumstanța circumstanțe circumstanțele circumstanțelor
+71	3371	adapta	adaptam adaptat adaptați adaptează adaptez adapteze adaptezi adaptăm
+72	3372	cabană	cabana cabane cabanei cabanele cabanelor
+73	3373	gală	gala gale galei galele galo
+74	3374	neplăcut	neplăcuta neplăcute neplăcută neplăcuți
+75	3375	șoarece	șoarec șoarecele șoarecelui șoareci șoarecii șoarecilor șoricei șoriceii șoriceilor șoricel șoricelul șoricelule șoricelului
+76	3376	oral	orala orale oralul orală
+77	3377	plăcintă	plăcinta plăcinte plăcintei plăcintele plăcintelor plăcintuță plăcințică
+78	3378	fotbalist	fotbalistul fotbalistule fotbalistului fotbalistă fotbaliști fotbaliștii fotbaliștilor
+79	3379	botez	botezul botezului botezuri botezurile
+80	3380	rezolvare	rezolvarea rezolvări rezolvării rezolvările
+81	3381	expira	expir expirase expirat expirați expire expiri expirând expiră expirăm
+82	3382	îmbolnăvi	îmbolnăvea îmbolnăveam îmbolnăvească îmbolnăveau îmbolnăvesc îmbolnăvește îmbolnăvești îmbolnăvim îmbolnăvise îmbolnăvit îmbolnăviți
+83	3383	picta	pictai pictam pictase pictat pictau pictați pictează pictez picteze pictezi pictând pictăm
+84	3384	alertă	alerta alerte alertei alertele
+85	3385	bulgar	bulgara bulgare bulgari bulgarii bulgarilor bulgarul bulgară
+86	3386	executare	executarea executării
+87	3387	umed	umeda umede umedă umezi
+88	3388	administrator	administratoare administratoarea administratori administratorii administratorilor administratorul administratorului
+89	3389	grec	greaca greci grecii grecilor grecul grecule grecului
+90	3390	absurd	absurda absurde absurdul absurdului absurdă absurzi
+91	3391	mulțumire	mulțumirea mulțumiri mulțumirii mulțumirile
+92	3392	sincronizare	sincronizarea sincronizări sincronizării
+93	3393	ud	uda ude udul udă uzi
+94	3394	patron	patroana patroană patroni patronii patronilor patronul patronului
+95	3395	orizont	orizontul orizontului orizonturi orizonturile orizonturilor
+96	3396	limpede	limpezi
+97	3397	expunere	expunerea expuneri expunerii expunerile
+98	3398	box	boxul boxului
+99	3399	energetic	energetica energetice energetici energetică
+100	3400	integrare	integrarea integrării

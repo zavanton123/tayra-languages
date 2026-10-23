@@ -45,6 +45,7 @@ def rules(rank_up_to):
 
 GREEK_ACCENTED = {"ά": "α", "έ": "ε", "ή": "η", "ί": "ι", "ό": "ο", "ύ": "υ", "ώ": "ω", "ΐ": "ϊ", "ΰ": "ϋ"}
 TURKISH_CIRCUMFLEX = str.maketrans("âîû", "aiu")
+ROMANIAN_COMMA_BELOW = str.maketrans("şţŞŢ’", "șțȘȚ'")
 
 
 # OpenCC's tables, as the app bundles them, for reading Chinese in simplified characters.
@@ -111,6 +112,10 @@ def fold(code, word):
     if code == "el" and sum(1 for c in word if c in GREEK_ACCENTED) > 1:
         last = max(i for i, c in enumerate(word) if c in GREEK_ACCENTED)
         return word[:last] + GREEK_ACCENTED[word[last]] + word[last + 1:]
+    # Romanian is written with the comma-below ș and ț, which the list and the reader use; older text and some keyboards
+    # write the cedilla ş and ţ, which the reader turns into them. The apostrophe is the straight one, as the reader has it.
+    if code == "ro":
+        return word.translate(ROMANIAN_COMMA_BELOW)
     return word
 
 
@@ -1466,7 +1471,7 @@ def check(path, brief=False):
     names = {fold(code, n.lower()) for n in course.get("names", [])}
     # In Spanish a name of several words or joined by a hyphen (San José, al-Ándalus) counts as one known word wherever it
     # is written whole; the earlier languages count such names word by word, as they were written to.
-    long_names = sorted((n for n in course.get("names", []) if " " in n or "-" in n or (code in ("it", "ca") and "'" in n)), key=len, reverse=True) if code in ("es", "it", "sr", "nl", "da", "no", "sv", "el", "ar", "ca", "id", "hr", "bs", "bg") else []
+    long_names = sorted((n for n in course.get("names", []) if " " in n or "-" in n or (code in ("it", "ca") and "'" in n)), key=len, reverse=True) if code in ("es", "it", "sr", "nl", "da", "no", "sv", "el", "ar", "ca", "id", "hr", "bs", "bg", "ro") else []
     # So is a Galician one (A Coruña, Santiago de Compostela, O Porriño).
     if code == "gl":
         long_names = sorted((n for n in course.get("names", []) if " " in n or "-" in n), key=len, reverse=True)
@@ -1573,9 +1578,11 @@ def check(path, brief=False):
             text = re.sub(r"(?m)^Preguntas:", "", text)
         if code in ("hr", "bs"):
             text = re.sub(r"(?m)^Pitanja:", "", text)
+        if code == "ro":
+            text = re.sub(r"(?m)^Întrebări:", "", text)
         toks = tokens(text, code, ranks, names, verbs, set(words) if code in ("it", "ko", "id") else None)
         # A century or a king's number in capital Roman numerals (siglo XVI, Carlos V) is a number.
-        if code in ("es", "ru", "it", "sr", "uk", "ca", "hr", "bs", "bg"):
+        if code in ("es", "ru", "it", "sr", "uk", "ca", "hr", "bs", "bg", "ro"):
             numerals = sum(1 for t in toks if ROMAN.fullmatch(t))
             toks = [t for t in toks if not ROMAN.fullmatch(t)]
             whole_names += numerals

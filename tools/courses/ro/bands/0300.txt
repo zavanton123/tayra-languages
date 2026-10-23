@@ -1,0 +1,100 @@
+1	201	țară	țara țări țării țările țărilor țărișoară
+2	202	spre	
+3	203	moment	momente momentele momentelor momentul momentului
+4	204	cunoaște	cunoască cunoaștem cunoașteți cunosc cunoscu cunoscuse cunoscusem cunoscuseră cunoscuserăm cunoscut cunoscând cunoscându cunoștea cunoșteai cunoșteam cunoșteau cunoșteați cunoști necunoscând
+5	205	acela	acee aceea aceia acelea aceleia acelora aceluia cee ceia cela celea celora
+6	206	național	naționala naționale naționalei naționalele naționalelor naționali națională
+7	207	muri	moare moară mor mori morii murea mureai muream mureau murii murim murind murise murisem muriseră muriseși murit muriți
+8	208	căuta	cate cată caut caute caută cauți căta căutai căutam căutase căutasem căutat căutau căutați căutând căutându căutînd căută căutăm
+9	209	nimeni	nime nimenea nimi nimănui
+10	210	niciodată	
+11	211	același	aceeași aceiași acelaș aceleași aceleiași acelorași aceluiași
+12	212	suna	sun sunai sunam sunase sunasem sunat sunau sunați sune suni sunând sunându sună sunăm
+13	213	perioadă	perioada perioade perioadei perioadele perioadelor period
+14	214	numai	numa
+15	215	aproape	aproapele aproapelui
+16	216	drum	drumul drumului drumuri drumurile drumurilor
+17	217	haide	aida aide haid haida
+18	218	adevărat	adevărata adevărate adevăratei adevăratele adevăratelor adevăratul adevăratului adevărată adevărați adevărații adevăraților
+19	219	grijă	grija grije griji grijii grijile grijilor
+20	220	apă	apa ape apei apele apelor apo
+21	221	hei	he hehe
+22	222	lucra	lucrai lucram lucrase lucrasem lucraseră lucrat lucrau lucrați lucrează lucrez lucreze lucrezi lucri lucrând lucrînd lucră lucrăm
+23	223	jos	joasa joase joasă josul joși
+24	224	important	importanta importante importantei importantul importantă importanți
+25	225	ori	or
+26	226	astfel	
+27	227	termina	termin terminai terminam terminase terminasem terminaseră terminaserăm terminaseși terminat terminata terminate terminato terminatul terminatule terminată terminau terminați terminații termine termini terminând terminându termină terminăm
+28	228	ieși	eși iasă ies iese ieșea ieșeai ieșeam ieșeau ieșeați ieșii ieșim ieșind ieșindu ieșise ieșisem ieșiseră ieșiseși ieșit ieșite ieșitul ieșită ieșiți
+29	229	scrie	scri scria scriai scriam scriau scriați scriem scrieți scrii scriind scriindu scris scrise scrisese scrisesem scriu
+30	230	stat	state statele statelor statul statului
+31	231	asemenea	asemene
+32	232	joc	jocul joculeț jocului jocuri jocurile jocurilor
+33	233	deja	
+34	234	mână	mâini mâinii mâinile mâinilor mân mâna mânam mânat mânate mânată mânați mâne mâni mânile mânuță mânăm mîini mîinile mîna mînă
+35	235	mașină	mașina mașini mașinii mașinile mașinilor mașinuța mașinuțe mașinuțele mașinuță
+36	236	echipă	echipa echipam echipat echipata echipate echipată echipați echipe echipează echipei echipele echipelor echipez echipeze echipezi echipăm
+37	237	acasă	
+38	238	mod	modul module modulele modulelor modului modulul modulului moduri modurile
+39	239	număr	numere numerele numerelor numărul numărului
+40	240	însemna	înseamnă însemnai însemnam însemnat însemnate însemnată însemnau însemnați însemnează însemnez însemneze însemnezi însemni însemnând însemnă însemnăm
+41	241	cauză	cauza cauzam cauzat cauzate cauzată cauzau cauzați cauze cauzează cauzei cauzele cauzelor cauzez cauzeze cauzezi cauzând cauzându cauzăm
+42	242	opri	oprea opreai opream oprească opreau opresc oprește oprești oprii oprim oprind oprindu oprise oprisem opriseră oprit oprita oprite opritul oprită opriți
+43	243	asculta	ascult ascultai ascultam ascultasem ascultat ascultata ascultate ascultatul ascultată ascultau ascultați asculte ascultând ascultându ascultă ascultăm asculți
+44	244	naiba	naibii
+45	245	carte	cartea cartii cartile cartilor cărți cărții cărțile cărților cărțulie
+46	246	trimite	trimes trimis trimisa trimise trimisese trimisesem trimiseseră trimisul trimisului trimisă trimit trimitea trimiteai trimiteam trimiteau trimiteați trimitem trimiteți trimită trimiși trimișii trimiți trimițând trimițându
+47	247	băiat	băiatul băiatule băiatului băiet băietan băiete băiețaș băiețașule băiețeilor băiețel băiețelule băieți băiețică băieții băieților băiețoi
+48	248	zonă	zona zone zonei zonele zonelor
+49	249	cap	capete capetele capetelor capi capii capilor capu capul capului capuri capurile căpșor căpșorul
+50	250	seară	sară seara seri serii serile serilor
+51	251	cameră	camera camere camerei camerele camerelor camero
+52	252	cere	ceară cer cerea cereai ceream cereau cerem cereți ceri ceru ceruiesc ceruse cerusem ceruseră cerut cerând cerându
+53	253	fiu	fii fiii fiilor fiiu fiiul fiul fiule fiului
+54	254	vorbă	vorba vorbe vorbei vorbele vorbelor vorbuliță
+55	255	idee	ideea idei ideii ideile ideilor
+56	256	deschide	deschid deschidea deschideai deschideam deschideau deschidem deschideți deschidă deschis deschisa deschise deschisese deschisesem deschisul deschisă deschizi deschizând deschizându deschiși
+57	257	destul	destui destula destule destulă
+58	258	târziu	târzie târzii
+59	259	celălalt	cealaltă ceilalți celalalt celeilalte celelalte celorlalte celorlalți celuilalt
+60	260	împreună	înpreună
+61	261	general	generala generale generali generalii generalilor generalul generalului generală
+62	262	întreba	întreabă întreb întrebai întrebam întrebase întrebasem întrebat întrebate întrebată întrebau întrebați întrebe întrebi întrebând întrebându întrebă întrebăm
+63	263	frate	fratele fratelui frați frații fraților frățică frățior
+64	264	altul	alta alteia altele altora altu altuia alții
+65	265	ucide	ucid ucidea ucideai ucideam ucideau ucidem ucideți ucidă ucigând ucigându ucis ucisa ucise ucisese ucisesem uciseseră ucisul ucisă ucizi uciși
+66	266	greu	grea greaua grei greii greilor grele grelele greul
+67	267	precum	
+68	268	își	
+69	269	sistem	sisteme sistemele sistemelor sistemul sistemului
+70	270	privi	privea priveai priveam privească priveau priveați privesc privește privești privii privim privind privindu privit priviți
+71	271	iubi	iubea iubeai iubeam iubească iubeau iubeați iubesc iubește iubești iubii iubim iubind iubindu iubise iubisem iubiți
+72	272	hai	
+73	273	trăi	trăia trăiai trăiam trăiască trăiau trăiați trăiesc trăiește trăiești trăii trăim trăind trăindu trăise trăisem trăiseră trăit trăiți
+74	274	film	filme filmele filmelor filmul filmuleț filmulețe filmulețele filmulețul filmulețului filmului
+75	275	vreme	vreamea vremea vremi vremii vremilor vremuri vremurile vremurilor
+76	276	minut	minu minute minutele minutelor minutul minuțel
+77	277	niciun	nicio niciunei niciunui
+78	278	ajutor	ajutoare ajutoarea ajutoarele ajutoarelor ajutori ajutorii ajutorul ajutorule ajutorului
+79	279	alege	aleagă aleg alegea alegeai alegeam alegeau alegem alegeți alegi alegând alegându ales alese alesei alesese alesesem aleseseră
+80	280	ochi	ochea ochească ochesc ochește ochești ochii ochilor ochim ochit ochiul ochiului ochiuri ochiurile ochiți
+81	281	dumneavoastră	dv dvs
+82	282	săptămână	săptămâna săptămâni săptămânii săptămânile săptămânilor săptămîni săptămînă
+83	283	punct	puncte punctele punctelor punctul punctuleț punctului
+84	284	schimba	schimbai schimbam schimbase schimbasem schimbaseră schimbat schimbau schimbați schimbe schimbi schimbând schimbându schimbă schimbăm
+85	285	cuvânt	cuvinte cuvintele cuvintelor cuvințel cuvințele cuvântu cuvântul cuvântului cuvînt cuvîntul cuvîntului
+86	286	bărbat	bărbate bărbatul bărbatule bărbatului bărbată bărbați bărbații bărbaților bărbățel
+87	287	vreun	vreo vreunei vreunui vrun
+88	288	treabă	treaba trebi trebii trebile treburi treburile treburilor trebușoară
+89	289	prinde	prind prindea prindeai prindeam prindeau prindem prindeți prindă prins prinsa prinse prinsese prinsesem prinseseră prinsul prinsă prinzi prinzând prinzându prinși prinșii
+90	290	moarte	moartea morți morții morțile morților
+91	291	trecut	trecuta trecute trecutul trecutului trecută trecuți
+92	292	biserică	biserica biserici bisericii bisericile bisericilor
+93	293	ușor	ușoara ușoare ușoară ușori ușorul ușurel
+94	294	muncă	munca munci muncii muncile muncilor
+95	295	asupra	asupră
+96	296	probabil	probabila probabile probabili probabilă
+97	297	telefon	telefoane telefoanele telefoanelor telefonul telefonule telefonului
+98	298	cale	calea căi căiește căiești căii căile căilor căim căit căiți
+99	299	special	speciala speciale speciali specialii specialul specială
+100	300	companie	compania companiei companii companiile companiilor

@@ -1,0 +1,100 @@
+1	3001	înarmat	înarmata înarmate înarmată înarmați
+2	3002	psihologic	psihologica psihologice psihologici psihologică
+3	3003	umor	humor umorul umorului
+4	3004	lent	lenta lente lento lentă lenți
+5	3005	moldovean	moldovene moldoveni moldovenii moldovenilor
+6	3006	elabora	elaborat elaborată elaborează elaborez elaboreze elaborezi elaborăm
+7	3007	poștal	postal poștale poștali poștală
+8	3008	lift	liftul liftului lifturi lifturile lifturilor
+9	3009	încheiat	încheiata încheiate încheiată încheiați
+10	3010	echivalent	echivalenta echivalente echivalentul echivalentă
+11	3011	iarăși	
+12	3012	lux	luxul luxului
+13	3013	coree	coreea coreei
+14	3014	galaxie	galaxia galaxiei galaxii galaxiile galaxiilor
+15	3015	house	
+16	3016	fort	fortul fortului forturi forturile
+17	3017	do	dolor doul
+18	3018	mortal	mortala mortale mortali mortalul mortală
+19	3019	cămin	cămine căminele căminelor căminul căminului
+20	3020	pustiu	pustia pustie pustii pustiul pustiule pustiului puștiu
+21	3021	iepure	iepurele iepurelui iepuri iepurii iepurilor iepuroi iepuroiul
+22	3022	primire	primirea primiri primirii
+23	3023	tabel	tabele tabelele tabelul tabelului
+24	3024	eliminare	eliminarea eliminări eliminării eliminările
+25	3025	salată	salata salate salatei salatele
+26	3026	florid	florida floridei
+27	3027	furat	furate furatul furată
+28	3028	abuz	abuzul abuzului abuzuri abuzurile abuzurilor
+29	3029	grafic	grafica grafice graficele graficul graficului
+30	3030	destinație	destinația destinației destinații destinațiile
+31	3031	călugăr	călugărești călugări călugării călugărilor călugărit călugărita călugărite călugăritele călugărită călugărul călugărule călugărului
+32	3032	corespunde	corespund corespundea corespundeau corespundă corespuns corespunzi corespunzând
+33	3033	mexican	mexicana mexicanca mexicance mexicancă mexicane mexicani mexicanii mexicanilor mexicanul mexicanule mexicanului mexicană
+34	3034	elită	elita elite elitei elitele elitelor
+35	3035	periodic	periodica periodice periodică
+36	3036	încadra	încadram încadrat încadrate încadrată încadrați încadrează încadrez încadreze încadrezi încadrăm
+37	3037	semnătură	semnătura semnături semnăturii semnăturile semnăturilor
+38	3038	satisface	satisfac satisfacem satisfaceți satisfaci satisfacă satisfăcea satisfăcut satisfăcute satisfăcută satisfăcuți
+39	3039	însura	însoare însoară însor însuram însurat însurați însurându însurăm
+40	3040	start	startul startului starturi
+41	3041	genial	geniala geniale geniali genialul genialului genială
+42	3042	marți	marțea
+43	3043	sesiune	sesiunea sesiuni sesiunii sesiunile sesiunilor
+44	3044	scufunda	scufund scufundam scufundase scufundat scufundau scufundați scufunde scufundând scufundându scufundă scufundăm scufunzi
+45	3045	pian	piane pianele pianul pianului
+46	3046	vital	vitala vitale vitali vitală
+47	3047	eventual	eventuala eventuale eventualele eventualelor eventuali eventualii eventuală
+48	3048	pr	
+49	3049	ciupercă	ciuperca ciuperci ciupercii ciupercile ciupercilor
+50	3050	reuni	reunească reunesc reunește reunești reunim reunind reunindu reunit reunite reunită reuniți
+51	3051	favorabil	favorabila favorabile favorabili favorabilă
+52	3052	noțiune	noțiunea noțiuni noțiunii noțiunile noțiunilor
+53	3053	cerință	cerința cerințe cerinței cerințele cerințelor
+54	3054	vesti	vestea vestească vestesc vestește vestii vestit vestita vestite vestitele vestitul vestită vestiți
+55	3055	stres	stresul stresului
+56	3056	jurământ	jurăminte jurămintele jurămintelor jurământul jurământului jurămînt jurămîntul
+57	3057	urmărit	urmărite urmăritul urmărită urmăriți urmăriții
+58	3058	replică	replica replici replicile replicilor
+59	3059	sit	situl sitului situri siturile siturilor
+60	3060	infractor	infractoare infractori infractorii infractorilor infractorul infractorule infractorului
+61	3061	portret	portrete portretele portretelor portretul portretului
+62	3062	reaminti	reamintea reaminteam reamintească reamintesc reamintește reamintești reamintim reamintind reamintit reamintiți
+63	3063	cita	citam citat citați citează citez citeze citezi citând citându cităm
+64	3064	fecioară	fecioara fecioare fecioarei fecioarele fecioarelor
+65	3065	instala	instalam instalase instalat instalați instalează instalez instaleze instalezi instalând instalăm
+66	3066	absolvi	absolv absolve absolvesc absolvește absolvești absolvim absolvind absolvise absolvisem absolvit absolviți absolvă
+67	3067	sindicat	sindicate sindicatele sindicatelor sindicatul sindicatului
+68	3068	funcționar	funcționara funcționari funcționarii funcționarilor funcționarul funcționarului funcționară
+69	3069	drac	drace draci dracii dracilor dracul drăcușor drăcușori drăcușorii drăcușorul drăcușorule
+70	3070	colorat	colorata colorate coloratul colorată colorați colorații
+71	3071	revedea	revadă revede revedeam revedem revedeți revezi revăd revăzând
+72	3072	marcat	marcata marcate marcată
+73	3073	banat	banatul banatului
+74	3074	instinct	instincte instinctele instinctelor instinctul instinctului
+75	3075	tină	tina tine tinei tino
+76	3076	considerabil	considerabila considerabile considerabilă
+77	3077	haos	haosul haosului
+78	3078	vitreg	vitrega vitrege vitregi vitregă
+79	3079	reprezentare	reprezentarea reprezentări reprezentării reprezentările
+80	3080	unghie	unghia unghiei unghii unghiile unghiilor
+81	3081	îmbrățișa	îmbrățișai îmbrățișam îmbrățișat îmbrățișate îmbrățișată îmbrățișau îmbrățișați îmbrățișează îmbrățișez îmbrățișeze îmbrățișezi îmbrățișând îmbrățișându îmbrățișă îmbrățișăm
+82	3082	segment	segmente segmentele segmentul segmentului
+83	3083	atracție	atracția atracției atracții atracțiile atracțiilor
+84	3084	pensie	pensia pensiei pensii pensiile pensiilor
+85	3085	slăbiciune	slăbiciunea slăbiciuni slăbiciunii slăbiciunile slăbiciunilor
+86	3086	identic	identica identice identici identică
+87	3087	debuta	debutat debutează debutez debuteze debutezi
+88	3088	blestem	blesteme blestemele blestemelor blestemul blestemului
+89	3089	gospodărie	gospodăria gospodăriei gospodării gospodăriile gospodăriilor
+90	3090	socialist	socialista socialiste socialistă socialiști socialiștii socialiștilor
+91	3091	deseori	
+92	3092	exagera	exageram exagerat exagerați exagerează exagerez exagereze exagerezi exagerând exagerăm
+93	3093	șir	șirul șirului șiruri șirurile
+94	3094	proporție	proporția proporții proporțiile proporțiilor
+95	3095	contrar	contrara contrare contrarii contrariu contrariul contrarul contrară
+96	3096	amator	amatoare amatori amatorii amatorilor amatorul amatorule
+97	3097	tentativă	tentativa tentative tentativei tentativele tentativelor
+98	3098	comedie	comedia comediei comedii comediile
+99	3099	alcătuit	alcătuite alcătuită alcătuiți
+100	3100	subteran	subterana subterane subteranele subterani subteranul subteranului subterană

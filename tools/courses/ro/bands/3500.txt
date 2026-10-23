@@ -1,0 +1,100 @@
+1	3401	adaptat	adaptata adaptate adaptată adaptați
+2	3402	fântână	fântâna fântâni fântânii fântânile fântânilor
+3	3403	oaie	oaia oi oii oile oilor oiță
+4	3404	custodie	custodia custodiei
+5	3405	suge	sug sugea sugeai sugeam sugeau sugem sugeți sugi sugând sugă supt supte suptul suptă
+6	3406	prosop	prosoape prosoapele prosoapelor prosopel prosopul prosopului
+7	3407	ghinion	ghinioane ghinioanele ghinionul ghinionului
+8	3408	umanitate	umanitatea umanități umanității
+9	3409	sari	sariul
+10	3410	violet	violeta violete violetei violetele violetul violetă violeți
+11	3411	atașat	atașate atașatul atașatului atașată atașați
+12	3412	proteină	proteina proteine proteinei proteinele proteinelor
+13	3413	bancar	bancara bancare bancari bancară
+14	3414	radar	radare radarele radarelor radarul radarului
+15	3415	microfon	microfoane microfoanele microfoanelor microfonul microfonului
+16	3416	modest	modesta modeste modestul modestă modești
+17	3417	propagandă	propaganda propagandei
+18	3418	loial	loiala loiale loiali loialii loialul loială
+19	3419	absență	absența absențe absenței absențele
+20	3420	presa	presam presară presat presata presate presată presau presați presează presez preseze presezi presând presăm
+21	3421	reda	redai redam redat redate redau redați redea redă redăm
+22	3422	strecura	strecoare strecoară strecor strecori strecurai strecuram strecurat strecurau strecurați strecurând strecurându strecură strecurăm
+23	3423	comunism	comunismul comunismului
+24	3424	căra	cari cară cărai căram cărat cărau cărați cărând cărându cără cărăm
+25	3425	cuveni	cuvenea cuveneau cuvenit cuveniți cuvin cuvine
+26	3426	tramvai	tramvaie tramvaiele tramvaielor tramvaiul tramvaiului
+27	3427	prag	pragul pragului praguri pragurile
+28	3428	fonda	fondat fondate fondată fondez fondeze
+29	3429	antenă	antena antene antenei antenele antenelor
+30	3430	pică	pica picam picase picau picați pice pici piciul piciule pico picăm
+31	3431	zori	zoresc zorește zorii zorilor zorim
+32	3432	cremă	crema creme cremei cremele cremelor
+33	3433	ascuțit	ascuțite ascuțită ascuțiți
+34	3434	percepe	perceapă percep percepea percepeau percepem percepeți percepi perceput percepute percepută percepuți
+35	3435	scurgere	scurgerea scurgeri scurgerii scurgerile scurgerilor
+36	3436	răspândi	răspândea răspândească răspândeau răspândesc răspândește răspândești răspândim răspândind răspândindu răspândise răspândit răspândiți
+37	3437	demisiona	demisionam demisionat demisionați demisionează demisionez demisioneze demisionezi demisionând demisionăm
+38	3438	administra	administram administrat administrau administrați administrează administrez administreze administrezi administrând administrăm
+39	3439	viorel	
+40	3440	săgeată	săgeata săgeți săgeții săgețile săgeților
+41	3441	împărțit	împărțite împărțitul împărțită împărțiți
+42	3442	color	
+43	3443	rezonabil	rezonabila rezonabile rezonabili rezonabilă
+44	3444	încăpere	încăperea încăperi încăperii încăperile
+45	3445	iubitor	iubitoare iubitoarea iubitori iubitorii iubitorilor iubitorul iubitorule
+46	3446	sfătui	sfătuia sfătuiască sfătuiesc sfătuiește sfătuiești sfătuim sfătuit sfătuiți
+47	3447	închidere	închiderea închideri închiderii închiderile
+48	3448	binecuvântare	binecuvântarea binecuvântări binecuvântării binecuvântările binecuvântărilor
+49	3449	vrajă	vraja vrajile vrăji vrăjii vrăjile vrăjilor
+50	3450	creștinism	creștinismul creștinismului
+51	3451	nefericire	nefericirea nefericiri nefericirii
+52	3452	capră	capra capre caprei caprele caprelor căprița căpriță
+53	3453	tablă	tabla table tablei tablele tăblițele tăbliță
+54	3454	cereală	cereale cerealele cerealelor
+55	3455	particulă	particula particule particulei particulele particulelor
+56	3456	pompă	pompa pompe pompei pompele pompelor
+57	3457	cântăreț	cântăreață cântăreți cântăreții cântăreților cântărețul cântărețule cântărețului
+58	3458	învățătură	învățătura învățături învățăturii învățăturile învățăturilor
+59	3459	master	masterul
+60	3460	examina	examinam examinat examinau examinați examinează examinez examineze examinezi examinând examinăm
+61	3461	ars	arsa arse arsul arsă arși
+62	3462	însumi	înseși însămi înșine
+63	3463	înota	înoate înoată înotai înotam înotat înotatul înotau înotați înotând înotăm înoți
+64	3464	sete	setea setei
+65	3465	coreean	coreeana coreeancă coreeanul coreeană coreene coreeni coreenii coreenilor
+66	3466	înainta	înaintam înaintat înaintau înaintași înaintați înaintează înaintez înainteze înaintezi înaintând înaintăm
+67	3467	aurel	aurele
+68	3468	curățenie	curățenia curățeniei
+69	3469	repetat	repetata repetate repetatelor repetată repetați
+70	3470	craniu	cranii craniile craniilor craniul craniule craniului
+71	3471	lenjerie	lenjeria lenjeriei lenjerii lenjeriile
+72	3472	miligram	mg miligrame
+73	3473	întregime	
+74	3474	bulevard	bulevarde bulevardele bulevardul bulevardului
+75	3475	condamnare	condamnarea condamnări condamnării condamnările condamnărilor
+76	3476	păstrare	păstrarea păstrării
+77	3477	green	
+78	3478	circ	circul circule circului circuri circurile circurilor
+79	3479	amendă	amenda amenzi amenzii amenzile amenzilor
+80	3480	șah	șahul șahului
+81	3481	radiație	radiația radiației radiații radiațiile radiațiilor
+82	3482	apreciat	apreciata apreciate apreciată apreciați
+83	3483	încurca	încurc încurcam încurcase încurcat încurcați încurce încurci încurcându încurcă încurcăm
+84	3484	fain	faina faine faini faină
+85	3485	iulian	iuliana
+86	3486	întrece	întreacă întrec întrecea întreceam întreceau întrecem întreceți întreci întrecut
+87	3487	încălzire	încălzirea încălziri încălzirii
+88	3488	fierbe	fiarbă fiarta fiartă fierb fierbea fierbeam fierbeau fierbem fierbeți fierbi fierbând fiert fierte fierți
+89	3489	acuză	acuza acuze acuzele
+90	3490	vigoare	vigoarea
+91	3491	inventat	inventata inventate inventată inventați
+92	3492	bacterie	bacteria bacteriei bacterii bacteriile bacteriilor bacterio
+93	3493	împăca	împac împace împaci împacă împăcam împăcasem împăcat împăcau împăcați împăcăm
+94	3494	explora	exploram explorat explorate explorată explorau explorați explorează explorez exploreze explorezi explorând explorăm
+95	3495	interzice	interzic interzicea interzicem interziceți interzici interzicând interzică interzise interzisese
+96	3496	justifica	justific justificat justificata justificate justificată justificați justifice justifici justifică justificăm
+97	3497	spori	sporea sporească sporesc sporește sporești sporii sporim sporind sporit sporite sporită sporiți
+98	3498	menit	menita menite menită meniți
+99	3499	măreț	măreața măreață mărețe măreței mărețele măreți măreții mărețul mărețului
+100	3500	reprezentativ	reprezentativa reprezentative reprezentativi reprezentativă

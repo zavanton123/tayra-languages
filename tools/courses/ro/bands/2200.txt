@@ -1,0 +1,100 @@
+1	2101	meserie	meseria meseriei meserii meseriile
+2	2102	mărturisi	mărturisea mărturisească mărturisesc mărturisește mărturisești mărturisim mărturisind mărturisit mărturisiți
+3	2103	utilizator	utilizatori utilizatorii utilizatorilor utilizatorul utilizatorului
+4	2104	documentar	documentare documentarea documentarele documentarul documentarului documentară
+5	2105	ignora	ignor ignorai ignoram ignorat ignorau ignorați ignore ignori ignorând ignoră ignorăm
+6	2106	toaletă	toaleta toalete toaletei toaletele toaletelor
+7	2107	adora	ador adorai adoram adorat adorata adorate adoratul adorată adorau adorați adore adori adoră adorăm
+8	2108	moale	moalele moi
+9	2109	bagaj	bagaje bagajele bagajelor bagajul bagajului
+10	2110	chimic	chimica chimice chimici chimică
+11	2111	striga	strig strigai strigam strigat strigau strigați strige strigi strigând strigându strigînd strigăm
+12	2112	răbdare	răbdarea răbdări răbdării răbdărilor
+13	2113	teribil	teribila teribile teribilei teribilele teribili teribilul teribilului teribilă
+14	2114	formulă	formula formule formulei formulele
+15	2115	ritm	ritmul ritmului ritmuri ritmurile
+16	2116	mină	mina mine minei minele minelor mino
+17	2117	sclav	sclavi sclavii sclavilor sclavul sclavule sclavului
+18	2118	anula	anulam anulase anulat anulați anulează anulez anuleze anulezi anulând anulăm
+19	2119	eficient	eficienta eficiente eficientei eficientă eficienți
+20	2120	progres	progrese progresele progreselor progresul progresului
+21	2121	însărcinat	însărcinata însărcinate însărcinatul însărcinată însărcinați
+22	2122	roată	roata roate rotițele rotiță roți roții roțile roților
+23	2123	oaspete	oaspe oaspetele oaspetelui oaspeți oaspeții oaspeților
+24	2124	pasager	pasagera pasagere pasageri pasagerii pasagerilor pasagerul pasagerului pasageră
+25	2125	bătălie	bătălia bătăliei bătălii bătăliile bătăliilor
+26	2126	obligat	obligata obligate obligată obligați obligații
+27	2127	ceremonie	ceremonia ceremoniei ceremonii ceremoniile ceremoniilor
+28	2128	cinstit	cinstita cinstite cinstitul cinstită cinstiți
+29	2129	alianță	alianța alianțe alianței alianțele alianțelor
+30	2130	parțial	parțiale parțiali parțialul parțială
+31	2131	remarca	remarc remarcam remarcasem remarcat remarcate remarcată remarcați remarci remarcându remarcăm
+32	2132	compara	compar comparam comparat comparata comparate comparată comparau comparați comparații compare compari comparând compară comparăm
+33	2133	acoperit	acoperita acoperite acoperită acoperiți
+34	2134	violență	violența violențe violenței violențele violențelor
+35	2135	reducere	reducerea reduceri reducerii reducerile reducerilor
+36	2136	lady	
+37	2137	necesita	necesit necesitat necesitau necesite necesitând necesită
+38	2138	scădere	scăderea scăderi scăderii
+39	2139	întoarcere	întoarcerea întoarceri întoarcerii întoarcerile
+40	2140	bicicletă	bicicleta biciclete bicicletei bicicletele bicicletelor
+41	2141	nor	nori norii norilor norișor norul norului nour
+42	2142	definitiv	definitiva definitive definitivă
+43	2143	superb	superba superbe superbele superbi superbul superbă
+44	2144	garanta	garantam garantat garantata garantate garantată garantați garantează garantez garanteze garantezi garantând garantăm
+45	2145	construire	construirea construirii
+46	2146	slavă	slava slavo slăvi
+47	2147	dac	daca dace daci dacii dacilor
+48	2148	crescut	crescuta crescute crescutul crescută crescuți
+49	2149	profita	profitam profitat profitau profitați profite profitând profită profităm profiți
+50	2150	oportunitate	oportunitatea oportunități oportunității oportunitățile oportunităților
+51	2151	dezvoltat	dezvoltata dezvoltate dezvoltată dezvoltați
+52	2152	populare	
+53	2153	alcool	alcohol alcoolul alcoolului
+54	2154	lot	lotul lotului loturi loturile
+55	2155	distribuție	distribuția distribuției distribuții
+56	2156	pasiune	pasiunea pasiuni pasiunii pasiunile pasiunilor
+57	2157	zăpadă	zăpada zăpezi zăpezii zăpezile zăpezilor
+58	2158	specializat	specializata specializate specializată specializați
+59	2159	ton	toni tonii tonul tonului tonuri tonurile
+60	2160	curios	curioasa curioase curioaso curioasă curiosul curiosule curioși curioșii curioșilor
+61	2161	brad	bradul bradului brazi brazii brazilor brăduț
+62	2162	turism	turismul turismului
+63	2163	gratis	
+64	2164	gamă	gama game gamei gamele gamo
+65	2165	inspector	inspectoare inspectori inspectorii inspectorilor inspectorul inspectorului
+66	2166	divizie	divizia diviziei divizii diviziile diviziilor
+67	2167	aplicare	aplicarea aplicării
+68	2168	dezastru	dezastre dezastrele dezastrelor dezastrul dezastrului
+69	2169	nuclear	nucleara nucleare nuclearele nucleari nucleară
+70	2170	record	recordul recordului recorduri recordurile recordurilor
+71	2171	sac	saci sacii sacilor sacul sacului
+72	2172	intens	intensa intense intensă intenși
+73	2173	reformă	reforma reforme reformei reformele reformelor
+74	2174	rock	rockul rockului
+75	2175	concluzie	concluzia concluzii concluziile concluziilor
+76	2176	înființare	înființarea înființării
+77	2177	miere	mierea mierii
+78	2178	arhivă	arhiva arhivat arhivate arhive arhivei arhivele arhivelor
+79	2179	fișier	fișiere fișierele fișierelor fișierul fișierului
+80	2180	juriu	jurii juriile juriul juriului
+81	2181	tunel	tunele tunelele tunelelor tunelul tunelului tuneluri tunelurile tunelurilor
+82	2182	preface	prefac prefacem prefaceți prefaci prefacă prefă prefăcea prefăceai prefăceam prefăceau prefăceați prefăcut prefăcuta prefăcute prefăcutul prefăcută prefăcuți prefăcuții prefăcându
+83	2183	accept	accepte acceptul
+84	2184	temporar	temporara temporare temporari temporară
+85	2185	conversație	conversația conversației conversații conversațiile conversațiilor
+86	2186	confortabil	confortabila confortabile confortabili confortabilă
+87	2187	condamnat	condamnata condamnate condamnatul condamnatule condamnatului condamnată condamnați condamnații condamnaților
+88	2188	democrat	democrata democrate democratul democrată democrați democraților
+89	2189	invita	invit invitai invitam invitase invitasem invitau invitați invite invitând invitându invităm inviți
+90	2190	scriere	scrierea scrieri scrierii scrierile scrierilor
+91	2191	sinucide	sinucid sinucidea sinucideam sinucidem sinucideți sinucidă sinucigându sinucis sinucizi
+92	2192	stomac	stomacul stomacului stomacuri stomacurile
+93	2193	inițiativă	inițiativa inițiative inițiativei inițiativele
+94	2194	brânză	brânza brânzei brânzeturi brânzeturile brânzeturilor brânzică
+95	2195	antic	antica antice anticele anticelor antici anticii anticilor anticul anticului antică
+96	2196	țipa	țip țipai țipam țipat țipatul țipau țipați țipe țipi țipând țipă țipăm
+97	2197	retragere	retragerea retrageri retragerii retragerile
+98	2198	filozofie	filosofia filosofie filosofiei filosofii filozofia filozofiei filozofii filozofiile
+99	2199	interesat	interesata interesate interesată interesați
+100	2200	manifesta	manifestam manifestat manifestate manifestată manifestau manifestați manifeste manifestând manifestându manifestă manifestăm manifești

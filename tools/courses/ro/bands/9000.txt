@@ -1,0 +1,100 @@
+1	8901	spovedanie	spovedania spovedaniei spovedanii spovedaniile
+2	8902	incipient	incipienta incipiente incipientă
+3	8903	indecent	indecenta indecente indecentă
+4	8904	cervical	cervicala cervicale cervicală
+5	8905	retrospectivă	retrospectiva retrospective
+6	8906	baricadă	baricada baricade baricadei baricadele baricadelor
+7	8907	clădit	clădite clădită clădiți
+8	8908	hain	haina haine hainei hainele hainelor haini
+9	8909	chilă	chila chile chilei chilo
+10	8910	investigator	investigatoare investigatori investigatorii investigatorilor investigatorul investigatorului
+11	8911	cuceritor	cuceritoare cuceritori cuceritorii cuceritorilor cuceritorul cuceritorule cuceritorului
+12	8912	bastion	bastioane bastioanele bastionul
+13	8913	sfâșiat	sfâșiate sfâșiată sfâșiați
+14	8914	discotecă	discoteca discoteci discotecii discotecile discotecilor
+15	8915	yankeu	yankei yankeii yankeilor yankeul yankeule
+16	8916	filtrare	filtrarea
+17	8917	transfuzie	transfuzia transfuzii transfuziile
+18	8918	columbian	columbiana columbianul columbiană columbiene columbieni columbienii columbienilor
+19	8919	caucazian	caucaziana caucaziană caucaziene caucazieni caucazienii
+20	8920	solitar	solitara solitare solitari solitară
+21	8921	interfera	interferat interferați interferează interferez interfereze interferezi interferând interferă interferăm
+22	8922	sarcastic	sarcastica sarcastice sarcastici sarcastică
+23	8923	contracție	contracții
+24	8924	clement	clementa clemente clementă
+25	8925	tatuat	tatuata tatuate tatuată tatuați
+26	8926	corporativ	corporativa corporative corporativi corporativă
+27	8927	verigă	veriga verigi verigile
+28	8928	rinocer	rinoceri rinocerii rinocerilor rinocerul rinocerule rinocerului
+29	8929	înțepătură	înțepătura înțepături înțepăturii înțepăturile
+30	8930	rivalitate	rivalitatea rivalități rivalității rivalitățile
+31	8931	loțiune	loțiunea loțiuni loțiunile
+32	8932	configurare	configurarea
+33	8933	bufon	bufoni bufonii bufonilor bufonul bufonule bufonului
+34	8934	încătușat	încătușate încătușată încătușați
+35	8935	secară	secara
+36	8936	vivat	viva
+37	8937	aramă	arama
+38	8938	stimă	stima stimei
+39	8939	neclintit	neclintita neclintită neclintiți
+40	8940	îngrășat	îngrășați
+41	8941	îndrumător	îndrumătoare îndrumătoarea îndrumători îndrumătorii îndrumătorilor îndrumătorul
+42	8942	fluiera	fluieram fluierat fluierau fluierați fluiere fluieri fluierând fluieră fluierăm
+43	8943	remiză	remiza
+44	8944	virginitate	virginitatea virginității
+45	8945	păstrăv	păstrăvi păstrăvii păstrăvul păstrăvului
+46	8946	cânepă	cânepa
+47	8947	jojă	joja jojo
+48	8948	revoltător	revoltătoare
+49	8949	umbrit	umbrita umbrite umbrită
+50	8950	uscător	uscătorul uscătorului
+51	8951	clădi	clădească clădesc clădește clădești clădim clădind clădit clădiți
+52	8952	moderator	moderatoare moderatori moderatorii moderatorul
+53	8953	emancipare	emanciparea emancipării
+54	8954	falsificare	falsificarea falsificări falsificării
+55	8955	împăcare	împăcarea împăcări împăcării
+56	8956	morenă	morena moreno
+57	8957	imitație	imitația imitații imitațiile
+58	8958	ceremonial	ceremoniale ceremonialul
+59	8959	vraci	vracii vraciul vraciule vraciului
+60	8960	bărbăție	bărbăția bărbăției
+61	8961	vaccinare	vaccinarea vaccinări vaccinările
+62	8962	dăruire	dăruirea dăruirii
+63	8963	îngrășa	îngraș îngrașe îngrași îngrașă îngrășam îngrășați îngrășăm
+64	8964	concesie	concesii concesiile
+65	8965	splendoare	splendoarea splendori splendorii
+66	8966	autoapărare	autoapărarea autoapărării
+67	8967	trestie	trestia trestiei trestii trestiile
+68	8968	aerodrom	aerodromul aerodromului aerodromuri aerodromurile aerodromurilor
+69	8969	basta	
+70	8970	atrocitate	atrocitatea atrocități atrocitățile atrocităților
+71	8971	voiaj	voiaje voiajele voiajul voiajului
+72	8972	alpinism	alpinismul alpinismului
+73	8973	catalan	catalana catalani catalano catalanule catalană
+74	8974	romanic	romanice romanică
+75	8975	predomina	predominat predomine predomină
+76	8976	cianură	cianura cianuri cianurii
+77	8977	lagună	laguna lagune lagunei lagunele
+78	8978	scaner	scanere scanerele scanerelor scanerul scanerului
+79	8979	expozițional	expoziționale
+80	8980	viceprimar	viceprimarul viceprimarului
+81	8981	afluent	afluenți afluenții
+82	8982	marcia	
+83	8983	ofensa	ofensat ofensați ofensează ofensez ofenseze ofensezi ofensăm
+84	8984	plutire	plutirea
+85	8985	copiere	copierea
+86	8986	oportun	oportuna oportune oportună
+87	8987	cactus	cactusul cactusului cactuși cactușii cactușilor
+88	8988	terci	terciul
+89	8989	pedală	pedala pedale pedalei pedalele
+90	8990	flirt	flirtul flirtului flirturi flirturile
+91	8991	derbedeu	derbedei derbedeii derbedeilor derbedeul derbedeule
+92	8992	smiley	
+93	8993	oferire	oferirea
+94	8994	strangulat	strangulata strangulate strangulată strangulați ștrangulat
+95	8995	emigrat	
+96	8996	oază	oaza oaze oazele
+97	8997	meschin	meschina meschine meschini meschină
+98	8998	flata	flatat flatați flatează flatez flateze flatezi
+99	8999	cămară	cămara cămări cămările cămăruță
+100	9000	patriciu	

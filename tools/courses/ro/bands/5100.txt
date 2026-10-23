@@ -1,0 +1,100 @@
+1	5001	încrede	încreadă încred încredea încredem încredeți încrezi încrezut încrezuta încrezute încrezutul încrezută încrezuți încrezuții
+2	5002	discutat	discutata discutate discutatul discutată discutați
+3	5003	locuit	locuita locuite locuitul locuită locuiți
+4	5004	serv	serva servi servii servă
+5	5005	înclina	înclin înclinam înclinat înclinați încline înclini înclinând înclină înclinăm
+6	5006	păcătos	păcătoasa păcătoase păcătoasă păcătosul păcătosului păcătoși păcătoșii păcătoșilor
+7	5007	ara	arai aram arau arați are ari ară arăm
+8	5008	rolă	rola role rolele rolo
+9	5009	prezervativ	prezervative prezervativele prezervativelor prezervativul prezervativului
+10	5010	boboc	bobocel boboci bobocii bobocilor bobocul bobocule bobocului
+11	5011	calvin	calvini
+12	5012	sirian	siriana sirianul siriană siriene sirieni sirienii
+13	5013	dornic	dornica dornice dornici dornică
+14	5014	afiș	afișe afișele afișelor afișul afișului
+15	5015	răpi	răpea răpească răpeau răpesc răpește răpești răpim răpind răpindu răpise răpiți
+16	5016	salvator	salvatoare salvatoarea salvatoarei salvatori salvatorii salvatorilor salvatorul salvatorului
+17	5017	iți	
+18	5018	oua	ouat ouă
+19	5019	principe	principele principelui principi principii
+20	5020	îndeplinire	îndeplinirea îndeplinirii
+21	5021	cucerire	cucerirea cuceriri cuceririi cuceririle cuceririlor
+22	5022	incapabil	incapabila incapabile incapabili incapabilul incapabilă
+23	5023	medievală	medievala medievale
+24	5024	climatic	climatica climatice climatică
+25	5025	semestru	semestre semestrul semestrului
+26	5026	cip	cipul cipului cipuri cipurile cipurilor
+27	5027	sapă	sapa sape sapo
+28	5028	geografie	geografia geografiei
+29	5029	omagiu	omagii omagiile omagiul
+30	5030	tavă	tava tavo tăvi tăvii tăvile tăviță
+31	5031	activist	activista activiste activistul activistă activiști activiștii activiștilor
+32	5032	pleda	pledam pledat pledați pledează pledez pledeze pledezi pledând pledăm
+33	5033	izola	izolam izolat izolați izolează izolez izoleze izolezi izolând izolăm
+34	5034	clasificat	clasificata clasificate clasificată clasificați
+35	5035	imaginar	imaginara imaginare imaginarea imaginari imaginarul imaginarului imaginară
+36	5036	diesel	dieselul
+37	5037	nea	neaua nei neii
+38	5038	hobby	
+39	5039	librărie	librăria librăriei librării librăriile librăriilor
+40	5040	păgân	păgâne păgâni păgânii păgânilor păgânul păgânule păgână
+41	5041	convențional	convenționale convenționali convențională
+42	5042	enumera	enumerat enumerate enumerați enumeri enumeră enumerăm
+43	5043	dobândit	dobândite dobândită
+44	5044	blocaj	blocaje blocajele blocajelor blocajul blocajului
+45	5045	liric	lirica lirice liricii lirică
+46	5046	nesigur	nesigura nesigure nesiguri nesigură
+47	5047	subordonat	subordonata subordonate subordonatul subordonată subordonați subordonații subordonaților
+48	5048	gravitație	gravitația gravitației gravitații
+49	5049	manipulare	manipularea manipulări manipulării manipulările
+50	5050	bec	becul becului becuri becurile becurilor
+51	5051	decis	decisa decise decisă deciși
+52	5052	înapoia	înapoiat înapoiata înapoiate înapoiată înapoiază înapoiați înapoiem înapoiez înapoieze înapoiezi
+53	5053	alimentară	alimentara
+54	5054	camionetă	camioneta camionete camionetei camionetele
+55	5055	container	containere containerele containerelor containerul containerului
+56	5056	ilustra	ilustrat ilustrează ilustrez ilustreze ilustrând ilustră
+57	5057	cucerit	cucerita cucerite cucerită cuceriți
+58	5058	devina	devină
+59	5059	consolida	consolidat consolidați consolidează consolidez consolideze consolidezi consolidăm
+60	5060	boxer	boxeri boxerii boxerilor boxerul boxerule boxerului
+61	5061	turci	turcește turcești turcii
+62	5062	gleznă	glezna glezne gleznei gleznele gleznelor
+63	5063	gat	gatul gatului gaturile
+64	5064	proiecție	proiecția proiecției proiecții proiecțiile
+65	5065	pix	pixul pixului pixuri pixurile
+66	5066	apartenență	apartenența apartenenței
+67	5067	les	lesul lesuri
+68	5068	expansiune	expansiunea expansiunii
+69	5069	declanșare	declanșarea declanșării
+70	5070	ecou	ecoul ecoului ecouri ecourile
+71	5071	exploata	exploatam exploatat exploatau exploatați exploatează exploatez exploateze exploatezi exploatând exploatăm
+72	5072	madamă	madama madame madamei
+73	5073	floră	flora flore florei floro
+74	5074	ludovic	ludovici
+75	5075	secuiesc	secuiești
+76	5076	instantaneu	instantanee
+77	5077	lentilă	lentila lentile lentilei lentilele lentilelor
+78	5078	respingere	respingerea respingeri respingerii respingerile
+79	5079	ficțiune	ficțiunea ficțiuni ficțiunii
+80	5080	revendica	revendic revendicam revendicat revendicate revendicată revendicați revendice revendici revendică revendicăm
+81	5081	rupere	ruperea ruperi ruperii
+82	5082	interactiv	interactive interactivă
+83	5083	refugiu	refugii refugiile refugiul refugiului
+84	5084	profeție	profeția profeției profeții profețiile profețiilor
+85	5085	har	harul harului haruri harurile
+86	5086	evacua	evacuam evacuat evacuați evacuează evacuez evacueze evacuezi evacuăm
+87	5087	împlinire	împlinirea împliniri împlinirii
+88	5088	promoție	promoția promoției promoții
+89	5089	suspenda	suspend suspendam suspendat suspendați suspende suspendă suspendăm suspenzi
+90	5090	boom	
+91	5091	haios	haioasa haioase haioasă haioși
+92	5092	nebunesc	nebuneasca nebunească nebunești
+93	5093	capodoperă	capodopera capodopere capodoperei capodoperele
+94	5094	călăreț	călăreața călăreață călăreți călăreții călăreților călărețul călărețule călărețului
+95	5095	însămi	însumi înșine
+96	5096	sufoca	sufoc sufocai sufocam sufocat sufocau sufocați sufoce sufoci sufocându sufocă sufocăm
+97	5097	elementar	elementara elementare elementară
+98	5098	dronă	drona drone dronei dronele dronelor
+99	5099	masacru	masacre masacrele masacrelor masacrul masacrului
+100	5100	yoga	

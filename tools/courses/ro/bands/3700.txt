@@ -1,0 +1,100 @@
+1	3601	îngriji	îngrijea îngrijeam îngrijească îngrijeau îngrijesc îngrijește îngrijești îngrijim îngrijind îngrijindu îngrijit îngrijiți
+2	3602	acceptat	acceptata acceptate acceptată
+3	3603	oarecum	
+4	3604	concediat	concediata concediate concediată concediați
+5	3605	baseball	baseballul baseballului
+6	3606	mascul	masculi masculii masculilor masculul masculule masculului
+7	3607	ramură	ramura ramuri ramurii ramurile ramurilor rămurele rămurică
+8	3608	amplu	ampla ample amplă
+9	3609	inginerie	ingineria ingineriei inginerii
+10	3610	aranjat	aranjata aranjate aranjatul aranjată aranjați
+11	3611	friptură	friptura fripturi fripturică fripturii fripturile
+12	3612	mostră	mostra mostre mostrei mostrele mostrelor mostro
+13	3613	încasa	încasam încasat încasau încasați încasează încasez încaseze încasezi încasând încasăm
+14	3614	colo	
+15	3615	domina	domin dominam dominat dominau dominați domine domini dominând domină dominăm
+16	3616	demnitate	demnitatea demnități demnității
+17	3617	încetini	încetinea încetinească încetineau încetinesc încetinește încetinești încetinim încetinind încetinit încetinite încetinită încetiniți
+18	3618	parteneriat	parteneriate parteneriatele parteneriatul parteneriatului
+19	3619	atingere	atingerea atingeri atingerii atingerile
+20	3620	povară	povara poveri poverile
+21	3621	ecologic	ecologica ecologice ecologici ecologică
+22	3622	investi	investea investească investesc investește investești investim investind investise investit investiți
+23	3623	hal	halul
+24	3624	pronunța	pronunț pronunțam pronunțat pronunțați pronunțe pronunți pronunțând pronunță pronunțăm
+25	3625	provizie	provizia provizii proviziile proviziilor
+26	3626	brand	brandul brandului branduri brandurile
+27	3627	talentat	talentata talentate talentatei talentatul talentată talentați
+28	3628	apreciere	aprecierea aprecieri aprecierii aprecierile
+29	3629	babă	baba babe babei babele babelor babo băbuță
+30	3630	raportat	raportata raportate raportată raportați
+31	3631	zău	
+32	3632	teologic	teologice teologică
+33	3633	elefant	elefantul elefantule elefantului elefanți elefanții elefanților
+34	3634	păianjen	paianjen paianjeni paianjenii paianjenul păianjene păianjeni păianjenii păianjenilor păianjenul păianjenului
+35	3635	aluneca	alunec alunecam alunecat alunecau alunecați alunece aluneci alunecând alunecă alunecăm
+36	3636	concentrare	concentrarea concentrări concentrării
+37	3637	finanțare	finanțarea finanțări finanțării finanțările
+38	3638	arbitru	arbitri arbitrii arbitrilor arbitrul arbitrule arbitrului
+39	3639	reușit	reușita reușite reușitei reușitele reușită reușiți
+40	3640	dubla	dublam dublat dublate dublată dublați dublează dublez dubleze dublezi dublând dublăm
+41	3641	suspendat	suspendata suspendate suspendată suspendați
+42	3642	șampanie	șampania șampaniei șampanii
+43	3643	decisiv	decisiva decisive decisivi decisivă
+44	3644	jura	juram jurase jurasem jurau jurați jure juri jurând jură jurăm
+45	3645	binecuvântat	binecuvântata binecuvântate binecuvântatei binecuvântatul binecuvântată binecuvântați binecuvântații
+46	3646	bunătate	bunătatea bunătăți bunătății bunătățile
+47	3647	hotar	hotare hotarele hotarelor hotarul hotarului
+48	3648	gașcă	gașca găști găștii găștile găștilor
+49	3649	recenzie	recenzia recenzii recenziile
+50	3650	tumoare	tumoarea tumora tumori tumorii tumorile tumorilor tumoră
+51	3651	furnizor	furnizoare furnizori furnizorii furnizorilor furnizorul furnizorului
+52	3652	măritat	măritate măritată măritați
+53	3653	distinct	distincta distincte distinctă distincții
+54	3654	scurge	scurg scurgea scurgeau scurgem scurgi scurgându scurgă scurs scurse scursă
+55	3655	viza	vizat vizate vizată vizau vizați vizează vizez vizeze vizezi vizând vizăm
+56	3656	service	
+57	3657	culme	culmea culmi culmile culmilor
+58	3658	cretin	cretina cretine cretini cretinii cretinilor cretino cretinul cretinule cretinului cretină
+59	3659	bomboană	bomboana bomboane bomboanele bomboanelor bombonică bonbon
+60	3660	vagon	vagoane vagoanele vagoanelor vagonul vagonului
+61	3661	doctrină	doctrina doctrine doctrinei doctrinele
+62	3662	manevră	manevra manevre manevrei manevrele manevrelor
+63	3663	chemat	chemata chemate chemată chemați
+64	3664	corabie	corabia corabiei corăbiei corăbii corăbiile corăbiilor
+65	3665	invizibil	invizibila invizibile invizibili invizibilul invizibilă
+66	3666	privilegiu	privilegii privilegiile privilegiilor privilegiul privilegiului
+67	3667	găină	găina găini găinii găinile găinilor găino găinușa găinușe găinușă
+68	3668	chinezesc	chinezeasca chinezească chinezești
+69	3669	vast	vasta vaste vastei vastele vastul vastului vastă vaști
+70	3670	sonor	sonora sonore sonorul sonoră
+71	3671	consecutiv	consecutiva consecutive consecutivi consecutivă
+72	3672	părăsit	părăsite părăsită părăsiți
+73	3673	paște	pasc paștele paștelui paști păscut păscutul păscând păștea pășteau
+74	3674	planificare	planificarea planificări planificării planificările
+75	3675	geografic	geografica geografice geografică
+76	3676	decorat	decorata decorate decoratul decorată decorați decorații
+77	3677	intensitate	intensitatea intensității
+78	3678	net	neta nete netul netului netă
+79	3679	audiență	audiența audiențe audienței audiențele
+80	3680	venă	vena vene venei venele venelor
+81	3681	înot	înotul înotului
+82	3682	austriac	austriaca austriacul austriacă austriece austrieci austriecii austriecilor
+83	3683	stelar	stelara stelare stelari stelară
+84	3684	puls	pulsul pulsului pulsuri pulsurile
+85	3685	carbon	carbonul carbonului
+86	3686	chirurgie	chirurgia chirurgiei chirurgii
+87	3687	comenta	comentam comentat comentau comentați comentează comentez comenteze comentezi comentând comentă comentăm
+88	3688	târî	târa târai târam târască târau târâi târâie târâit târâm târând târându târât târâți târăsc târăște târăști
+89	3689	plămân	plămâni plămânii plămânilor plămânul plămânului
+90	3690	mall	mallul mallului malluri
+91	3691	asasinat	asasinata asasinate asasinatele asasinatelor asasinatul asasinatului asasinată
+92	3692	farmec	farmece farmecele farmecelor farmecul farmecului
+93	3693	ferm	ferma ferme fermei fermele fermelor fermi
+94	3694	disperare	disperarea disperarii disperării
+95	3695	fuga	fug fugară fuge
+96	3696	discret	discreta discrete discretă discreți
+97	3697	sentință	sentința sentințe sentinței sentințele
+98	3698	amenajare	amenajarea amenajări amenajării amenajările
+99	3699	balenă	balena balene balenei balenele balenelor
+100	3700	font	fontul fontului fonturi fonturile

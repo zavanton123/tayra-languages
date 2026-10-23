@@ -1,0 +1,100 @@
+1	1301	leu	lei leii leilor leul leule leului
+2	1302	liniștit	liniștita liniștite liniștitul liniștită liniștiți
+3	1303	literatură	literatura literaturi literaturii
+4	1304	realizare	realizarea realizări realizării realizările realizărilor
+5	1305	competiție	competiția competiției competiții competițiile competițiilor
+6	1306	ceai	ceaiul ceaiului ceaiuri ceaiurile
+7	1307	scară	scara scarile scarilor scări scării scările scărilor scăriță
+8	1308	târg	târgu târgul târgului târguri târgurile tîrg tîrgu tîrgul
+9	1309	apar	apari
+10	1310	așadar	
+11	1311	efort	efortul efortului eforturi eforturile eforturilor
+12	1312	sector	sectoare sectoarele sectoarelor sectorul sectorului
+13	1313	rar	rara rare rarele rari rară
+14	1314	pricepe	priceapă pricep pricepea pricepeai pricepeam pricepeau pricepem pricepeți pricepi priceput pricepuși
+15	1315	mănăstire	mânăstire mănăstirea mănăstiri mănăstirii mănăstirile mănăstirilor
+16	1316	copac	copaci copacii copacilor copacul copacule copacului copăcel
+17	1317	sarcină	sarcina sarcini sarcinii sarcinile sarcinilor
+18	1318	vânzare	vânzarea vânzari vânzarile vânzarilor vânzări vânzările vânzărilor vînzare vînzarea
+19	1319	adânc	adânca adânci adâncul adâncului adâncuri adâncurile adâncurilor adâncă adînc adînci adîncul adîncă
+20	1320	durea	doare doară dureau duru durut durând
+21	1321	capabil	capabila capabile capabili capabilă
+22	1322	proprietar	proprietari proprietarii proprietarilor proprietarul proprietarule proprietarului proprietară proprietăreasă
+23	1323	dispozitiv	dispozitive dispozitivele dispozitivelor dispozitivul dispozitivului
+24	1324	aresta	arestai arestam arestat arestau arestați arestează arestez aresteze arestezi arestând arestându arestăm
+25	1325	calma	calmam calmat calmate calmați calmează calmez calmeze calmezi calmă calmăm
+26	1326	angaja	angajai angajam angajase angajasem angajat angajau angajați angajează angajez angajeze angajezi angajând angajându angajăm
+27	1327	detectiv	detectivi detectivii detectivilor detectivul detectivule detectivului
+28	1328	ureche	urechea urecheat urecheatule urechi urechii urechile urechilor urechiușe
+29	1329	minciună	minciuna minciuni minciunică minciunii minciunile minciunilor
+30	1330	totdeauna	todeauna totdeuna
+31	1331	spăla	spală spele speli spăl spălai spălam spălase spălasem spălat spălau spălați spălând spălându spălă spălăm
+32	1332	instrument	instrumente instrumentele instrumentelor instrumentul instrumentului
+33	1333	stabilit	stabilita stabilite stabilită stabiliți
+34	1334	concentra	concentrai concentram concentrat concentrau concentrați concentrează concentrez concentreze concentrezi concentrându concentră concentrăm
+35	1335	urât	urit urâta urâte urâtele urâtul urâtului urâtă urâțel urâți urâțică urâții urâților urâțit
+36	1336	conflict	conflicte conflictele conflictelor conflictul conflictului
+37	1337	trata	tratai tratam tratat tratau tratați tratează tratez trateze tratezi tratând tratându tratăm
+38	1338	culca	culc culcai culcam culcase culcasem culcat culcau culcați culce culci culcându culcă culcăm
+39	1339	bunic	bunici bunicii bunicilor bunicul bunicule bunicului bunicuțul bunicuțule
+40	1340	bombă	bomba bombat bombe bombei bombele bombelor bombo
+41	1341	exterior	exterioara exterioare exterioarele exterioară exteriori exteriorul exteriorului
+42	1342	vârf	vârful vârfului vârfuri vârfurile vârfurilor
+43	1343	reprezentant	reprezentanta reprezentante reprezentantul reprezentantului reprezentantă reprezentanți reprezentanții reprezentanților
+44	1344	practic	practice practici practicii practicilor
+45	1345	indica	indicat indicata indicate indicată indicau indicați indicații indice indicelui indici indicii indicând indică indicăm
+46	1346	lac	lacul lacului lacuri lacurile lacurilor
+47	1347	televiziune	televiziunea televiziuni televiziunii televiziunile televiziunilor
+48	1348	proveni	provenea proveneam proveneau provenim provenind provenit provenite provenită proveniți provii provin provine provină
+49	1349	sugera	sugerai sugeram sugerase sugerat sugerate sugerată sugerau sugerați sugerează sugerez sugereze sugerezi sugerând sugerându sugerăm
+50	1350	trist	trista triste tristei tristele tristul tristă triști
+51	1351	alerga	aleargă alerg alergai alergam alergat alergatul alergau alergați alerge alergi alergând alergînd alergă alergăm
+52	1352	pahar	pahare paharele paharelor paharul paharului păhărel
+53	1353	canal	canale canalele canalelor canalul canalului
+54	1354	versiune	versiunea versiuni versiunii versiunile versiunilor
+55	1355	turneu	turnee turneele turneelor turneul turneului
+56	1356	laborator	laboratoare laboratoarele laboratoarelor laboratorul laboratorului
+57	1357	dulce	dulcea dulcele dulci dulcii dulcile dulciurile dulciurilor
+58	1358	rochie	roche rochia rochiei rochii rochiile rochiilor rochița rochiță
+59	1359	rănit	rânit rănita rănite rănitul rănită răniți răniții răniților
+60	1360	similar	similara similare similari similară
+61	1361	reacție	reacția reacției reacții reacțiile reacțiilor reacțiune
+62	1362	clasic	clasica clasice clasicele clasici clasicii clasicilor clasicul clasicului clasică
+63	1363	colaborare	colaborarea colaborări colaborării colaborările
+64	1364	vinovat	vinovata vinovate vinovatul vinovatului vinovată vinovați vinovații vinovaților
+65	1365	tabără	tabere taberei taberele taberelor tabăra
+66	1366	centimetru	centimetri centimetrii cm
+67	1367	popular	populara populari popularul populară
+68	1368	apropiat	apropiata apropiate apropiatul apropiată apropiați apropiații apropiaților
+69	1369	pauză	pauza pauze pauzei pauzele pauzelor
+70	1370	stăpân	stăpâna stăpâne stăpânei stăpânele stăpâni stăpânii stăpânilor stăpânul stăpânului stăpână stăpîn stăpîne stăpînul stăpînului
+71	1371	lega	leagă leg legam legase legat legau legați legi legând legându legă legăm
+72	1372	implicat	implicata implicate implicată implicați implicații
+73	1373	marca	marcam marcat marcau marcați marchează marchez marcheze marchezi marcând marcăm
+74	1374	origine	originea origini originii originile originilor
+75	1375	suspect	suspecta suspecte suspectei suspectul suspectului suspectă suspecți suspecții suspecților
+76	1376	lansat	lansata lansate lansată lansați
+77	1377	șterge	șteargă ștearsă șterg ștergea ștergeai ștergeam ștergem ștergeți ștergi ștergând ștergându șters șterse ștersul șterși
+78	1378	lansare	lansarea lansări lansării lansările lansărilor
+79	1379	înșela	înșală înșeală înșel înșelai înșelam înșelase înșelasem înșelat înșelau înșelați înșele înșeli înșelând înșelându înșelăm
+80	1380	studia	studiai studiam studiase studiat studiau studiază studiați studiem studiez studieze studiezi studiind studiindu
+81	1381	potrivi	potrivea potriveai potriveam potrivească potriveau potriveați potrivesc potrivește potrivești potrivim potrivindu potriviți
+82	1382	contra	contrat contre contrează contrezi contră
+83	1383	asociat	asociata asociate asociatei asociatul asociatului asociată asociați asociații asociaților
+84	1384	sumă	som suma sumai sumară sume sumei sumele sumelor sumo
+85	1385	informat	informata informate informată informați informații
+86	1386	religios	religioasa religioase religioasă religioși
+87	1387	etaj	etaje etajele etajelor etajul etajului
+88	1388	țintă	ținta ținte țintei țintele țintelor
+89	1389	trup	trupul trupului trupuri trupurile trupurilor
+90	1390	somn	somni somnul somnule somnului
+91	1391	cruce	crucea cruci crucii crucile cruciulița cruciuliță
+92	1392	visa	visai visam visase visasem visat visau visați visează visez viseze visezi visând visă visăm
+93	1393	antrenor	antrenoare antrenoarea antrenori antrenorii antrenorilor antrenorul antrenorule antrenorului
+94	1394	autobuz	autobus autobuze autobuzele autobuzelor autobuzul autobuzului
+95	1395	menționa	menționam menționat menționau menționați menționează menționez menționeze menționezi menționând menționăm
+96	1396	campion	campioana campioane campioanei campioanele campioanelor campioano campioană campioni campionii campionilor campionul campionule campionului
+97	1397	iad	ad iadul iadului iaduri iadurile
+98	1398	depune	depui depun depunea depuneam depuneau depunem depuneți depunând depună depus depuse depusese
+99	1399	menține	menții mențin menținea mențineam mențineau menținem mențineți menținut menținute menținută menținând menținându mențină
+100	1400	tehnic	tehnice tehnici tehnicul tehnicului

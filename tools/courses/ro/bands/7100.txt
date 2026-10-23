@@ -1,0 +1,100 @@
+1	7001	pal	pala pale palele pali palo pală
+2	7002	instabilitate	instabilitatea instabilități instabilității
+3	7003	notar	notari notarul notarului
+4	7004	aviz	avize avizele avizul
+5	7005	traversare	traversarea traversări traversării
+6	7006	georgian	georgiana georgiană georgiene georgieni georgienii
+7	7007	cler	clerul clerului
+8	7008	chimicale	chimicala chimicalele chimicalelor chimicală
+9	7009	abuziv	abuziva abuzive abuzivi abuzivă
+10	7010	narativ	narative narativă
+11	7011	reglementat	reglementata reglementate reglementată
+12	7012	naționalism	naționalismul naționalismului
+13	7013	privilegiat	privilegiata privilegiate privilegiată privilegiați
+14	7014	homosexualitate	homosexualitatea homosexualității
+15	7015	neautorizat	neautorizata neautorizate neautorizată neautorizați
+16	7016	nedreptate	nedreptatea nedreptăți nedreptățile nedreptăților
+17	7017	chat	chatul
+18	7018	confederație	confederația confederației confederații
+19	7019	demolare	demolarea demolări demolării demolările demolărilor
+20	7020	criminalistică	criminalistica criminalisticii
+21	7021	aspirator	aspiratoare aspiratoarele aspiratorul aspiratorului
+22	7022	autenticitate	autenticitatea autenticității
+23	7023	carcasă	carcasa carcase carcasei carcasele
+24	7024	gotic	gotica gotice gotici gotică
+25	7025	palmares	palmaresul
+26	7026	preponderent	
+27	7027	activare	activarea
+28	7028	monopol	monopolul monopolului monopoluri monopolurile
+29	7029	cartă	carta cartei cartele
+30	7030	tulburat	tulburata tulburate tulburată tulburați
+31	7031	percheziție	percheziția percheziției percheziții perchezițiile perchezițiilor
+32	7032	geană	geana gene genei genele genelor
+33	7033	manifestație	manifestația manifestații manifestațiile
+34	7034	murdări	murdărea murdărească murdăresc murdărește murdărești murdării murdărim murdărit murdăriți
+35	7035	valet	valetul valetului valeți valeții valeților
+36	7036	potecă	poteca poteci potecii potecile
+37	7037	insuportabil	insuportabila insuportabile insuportabili insuportabilul insuportabilă
+38	7038	horă	hora
+39	7039	nevinovăție	nevinovăția nevinovăției
+40	7040	supradoză	supradoza supradoze supradozei supradozele supradozelor
+41	7041	deranjat	deranjata deranjate deranjată deranjați
+42	7042	orășenesc	orășenească orășenești
+43	7043	viabil	viabila viabile viabili viabilă
+44	7044	epistolă	epistola epistole epistolele
+45	7045	divizat	divizata divizate divizată divizați
+46	7046	pământesc	pământească pământești
+47	7047	tribut	tributul tributului tributuri tributurile
+48	7048	conectare	conectarea
+49	7049	simula	simulam simulat simulata simulate simulată simulați simulează simulez simuleze simulezi simulând simulăm
+50	7050	soacră	soacra soacre soacrei soacrele
+51	7051	dirijat	dirijate dirijată dirijați
+52	7052	aperitiv	aperitive aperitivele aperitivul
+53	7053	comemorativ	comemorativa comemorative comemorativă
+54	7054	instituțional	instituționale instituțională
+55	7055	conversiune	conversia conversie
+56	7056	aliniere	alinierea alinieri alinierii
+57	7057	led	ledul leduri
+58	7058	infirmier	infirmiera infirmiere infirmierei infirmierele infirmierelor infirmieri infirmierii infirmierul infirmierului infirmieră
+59	7059	molecular	moleculara moleculare moleculari moleculară
+60	7060	afro	
+61	7061	risipă	risipa risipei
+62	7062	vână	vine vinei vinele vâna
+63	7063	lipicios	lipicioasa lipicioase lipicioasă lipicioși
+64	7064	periferic	periferica periferice periferici periferică
+65	7065	lătra	latre latri latru latră lătrat lătrau lătrați lătrând lătră
+66	7066	metodologie	metodologia metodologiei metodologii
+67	7067	neterminat	neterminata neterminate neterminată
+68	7068	instituire	instituirea
+69	7069	comentator	comentatori comentatorii comentatorul
+70	7070	viking	vikingi vikingii vikingilor vikingul vikingule
+71	7071	derby	derbyul
+72	7072	deopotrivă	
+73	7073	azot	azotul azotului
+74	7074	hori	horea
+75	7075	castor	castori castorii castorilor castorul castorului
+76	7076	alinia	aliniat aliniau aliniază aliniați aliniem aliniez alinieze aliniezi
+77	7077	pensionar	pensionara pensionari pensionarii pensionarilor pensionarul pensionară
+78	7078	politehnic	politehnica politehnicii
+79	7079	benzinărie	benzinăria benzinăriei benzinării benzinăriile
+80	7080	vezică	vezica vezici vezicii
+81	7081	audit	auditul auditului
+82	7082	sedativ	sedative sedativele sedativelor sedativul sedativului
+83	7083	instrui	instruia instruiască instruiesc instruiește instruiești instruim instruit instruiți
+84	7084	vanilie	vanilia
+85	7085	purificare	purificarea purificării
+86	7086	jenă	jena jenei
+87	7087	falit	falita falite falită faliți
+88	7088	bikini	
+89	7089	păcălit	păcălite păcălită păcăliți
+90	7090	baton	batoane batoanele batonul
+91	7091	fundaș	fundași fundașii fundașul fundașului
+92	7092	includere	includerea
+93	7093	prostituție	prostituția prostituției
+94	7094	gogă	goga gogo
+95	7095	laic	laice laici laică
+96	7096	geologic	geologica geologice geologică
+97	7097	sinucigaș	sinucigașe sinucigași sinucigașii sinucigașilor sinucigașul sinucigașului sinucigașă
+98	7098	deservi	deservesc deservește deservit deservite deservită
+99	7099	defensiv	defensiva defensive defensivei defensivi
+100	7100	stemă	stema stemei

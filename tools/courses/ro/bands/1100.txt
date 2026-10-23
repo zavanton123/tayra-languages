@@ -1,0 +1,100 @@
+1	1001	drog	drogul drogului droguri drogurile drogurilor
+2	1002	speria	speriai speriam speriase speriasem speriat speriau speriați sperie speriem sperii speriind
+3	1003	verde	verdele verdelui verzi verzii verzilor verzișori verzișorii verzișorul verzișorule
+4	1004	curent	curenta curente curentele curentul curentului curentă curenți curenții curenților
+5	1005	elibera	eliberam eliberase eliberat eliberau eliberați eliberează eliberez elibereze eliberezi eliberând eliberându eliberă eliberăm
+6	1006	dificil	dificila dificile dificili dificilul dificilă
+7	1007	vizită	vizita vizite vizitei vizitele vizitelor
+8	1008	super	
+9	1009	distanță	distanța distanțe distanței distanțele distanțelor
+10	1010	criminal	criminala criminale criminalei criminalele criminali criminalii criminalilor criminalo criminalul criminalule criminalului criminală
+11	1011	sediu	sedii sediile sediul sediului
+12	1012	spirit	spirite spiritele spiritelor spiritul spiritule spiritului
+13	1013	lipsă	lipsa lipse lipsei lipsuri lipsurile lipsurilor
+14	1014	încheia	închei încheiam încheiase încheiat încheiați încheie încheiem încheind încheindu
+15	1015	civil	civila civile civili civilii civililor civilul civilule civilă
+16	1016	povesti	povestea povesteai povesteam povestească povesteau povestesc povestește povestești povestii povestim povestind povestindu povestit povestiți
+17	1017	scriitor	scriitoare scriitoarea scriitoarei scriitoraș scriitorașul scriitori scriitorii scriitorilor scriitorul scriitorule scriitorului
+18	1018	fals	falsa false falsei falsele falselor falsul falsului falsuri falsurile falsurilor falsă falși falșii
+19	1019	henry	
+20	1020	arat	arata arate aratul
+21	1021	arde	ard ardea ardeai ardeam ardeau ardem ardeți ardă ars arse arsese arzi arzând arzându
+22	1022	obiectiv	obiectiva obiective obiectivele obiectivelor obiectivi obiectivul obiectivului obiectivă
+23	1023	deget	degete degetele degetelor degetul degetului
+24	1024	acces	accese accesele accesul accesului
+25	1025	economie	economia economiei economii economiile economiilor
+26	1026	larg	larga largi largul largă
+27	1027	revedere	revederea revederii
+28	1028	slab	slaba slabe slabei slabele slabi slabii slabul slabă slăbuț
+29	1029	bucată	bucata bucate bucatele bucatelor bucăți bucățică bucății bucățile bucăților
+30	1030	urî	urai uram urască urau urați urâm urând urăsc urăște urăști
+31	1031	aspect	aspecte aspectele aspectelor aspectul aspectului
+32	1032	incas	inca incasa incase incaș incași incașii incașilor
+33	1033	des	deasa deasă dese desele desul
+34	1034	vot	votul votului voturi voturile voturilor
+35	1035	tren	trenul trenuleț trenului trenuri trenurile trenurilor trin
+36	1036	invitat	invitata invitate invitatei invitatele invitatul invitatului invitată invitați invitații invitaților
+37	1037	operație	operația operației operații operațiile operațiilor operațiune operațiuni
+38	1038	scaun	scan scaune scaunele scaunelor scaunul scaunului
+39	1039	costa	costase costat costau coste costă coști
+40	1040	voie	voii voile
+41	1041	risc	riscul riscului riscuri riscurile riscurilor
+42	1042	radio	radioul radioului radiouri radiourile radiourilor
+43	1043	administrație	administrația administrației administrații administrațiile
+44	1044	sticlă	sticla sticle sticlei sticlele sticlelor sticluța sticluță
+45	1045	contract	contracte contractele contractelor contractul contractului
+46	1046	împușca	împușc împușcai împușcam împușcase împușcat împușcau împușcați împușcând împușcându împușcă împușcăm împuște împuști
+47	1047	opt	optulea
+48	1048	tehnică	tehnica tehnici tehnicii tehnicile tehnicilor tehnico
+49	1049	pierdere	pierderea pierderi pierderii pierderile pierderilor
+50	1050	stație	stația stației stații stațiile stațiilor stațiune stațiunea
+51	1051	direcție	direcția direcției direcții direcțiile direcțiune direcțiunea
+52	1052	creat	creata create creată creați creații
+53	1053	obișnuit	obișnuita obișnuite obișnuitele obișnuitul obișnuită obișnuiți obișnuiții
+54	1054	închis	închisa închise închisul închisă închiși
+55	1055	comandant	comandante comandantul comandantule comandantului comandanți comandanții comandanților
+56	1056	lovitură	lovitura lovituri loviturii loviturile loviturilor
+57	1057	datorie	datoria datoriei datorii datoriile datoriilor
+58	1058	indiferent	indiferenta indiferente indiferenti indiferentul indiferentă indiferenți
+59	1059	concurs	concursul concursului concursuri concursurile concursurilor
+60	1060	respect	respectele respectul respectului
+61	1061	carne	carnea cărnii cărniță cărnuri cărnurile
+62	1062	martor	martora martori martorii martorilor martorul martorului martoră
+63	1063	dur	dura dure duri durii durilor durul durule dură
+64	1064	ah	
+65	1065	rupe	rup rupea rupeai rupeam rupeau rupem rupeți rupi rupsese rupt rupând rupându rupă
+66	1066	joacă	joaca joace
+67	1067	coborî	coboare coboară cobor cobora coborai coboram coborau coborați cobori coborâm coborând coborâse coborâsem coborât coborâți pogoare pogorât pogorî
+68	1068	prostie	prostia prostiei prostii prostiile prostiilor
+69	1069	comercial	comerciala comerciale comerciali comercială
+70	1070	crăciuni	crăciun
+71	1071	înțelegere	înțelegerea înțelegeri înțelegerii înțelegerile înțelegerilor
+72	1072	fond	fondul fondului fonduri fondurile fondurilor
+73	1073	bineînțeles	
+74	1074	industrie	industria industriei industrii industriile industriilor
+75	1075	colonel	colonei coloneii coloneilor colonele colonelul colonelule colonelului
+76	1076	instituție	instituția instituției instituții instituțiile instituțiilor
+77	1077	vizita	vizitai vizitam vizitase vizitasem vizitat vizitata vizitate vizitată vizitau vizitați vizitează vizitez viziteze vizitezi vizitând vizitându vizităm
+78	1078	operă	opera opere operei operele operelor
+79	1079	cântec	cântece cântecel cântecele cântecelele cântecelor cântecelul cântecul cântecului cîntece cîntecul
+80	1080	dimensiune	dimensiunea dimensiuni dimensiunii dimensiunile dimensiunilor
+81	1081	coleg	colega colegi colegii colegilor colegul colegule colegului colegă
+82	1082	complex	complecși complexa complexe complexele complexul complexului complexă
+83	1083	deosebit	deosebita deosebite deosebită deosebiți
+84	1084	emisiune	emisia emisie emisiei emisii emisiile emisiilor emisiunea emisiuni emisiunii emisiunile emisiunilor
+85	1085	ceas	ceasul ceasului ceasuri ceasurile ceasurilor
+86	1086	sosi	sosea soseam sosească soseau sosesc sosește sosești sosii sosim sosind sosise sosisem sosit sosiți
+87	1087	continuare	continuarea continuări continuării continuările
+88	1088	dans	dansul dansului dansuri dansurile dansurilor
+89	1089	municipiu	municipii municipiile municipiilor municipiul municipiului
+90	1090	aduna	adun adunai adunam adunase adunasem adunaseră adunat adunau adunați adune aduni adunând adunându adună adunăm
+91	1091	asociație	asociația asociației asociații asociațiile asociațiilor
+92	1092	grav	grava grave gravele gravi gravă
+93	1093	euro	
+94	1094	căzut	căzute căzutul căzută căzuți
+95	1095	student	studentul studentule studentului studenți studenții studenților
+96	1096	firmă	firma firme firmei firmele firmelor
+97	1097	comisie	comisia comisiei comisii comisiile comisiilor
+98	1098	cursă	cursa curse cursei cursele curselor
+99	1099	discuție	discuția discuției discuții discuțiile discuțiilor
+100	1100	caracter	caractere caracterele caracterelor caracterul caracterului

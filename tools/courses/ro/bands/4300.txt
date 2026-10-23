@@ -1,0 +1,100 @@
+1	4201	neînțelegere	neînțelegerea neînțelegeri neînțelegerii neînțelegerile neînțelegerilor
+2	4202	exersa	exersai exersam exersat exersată exersau exersați exersează exersez exerseze exersezi exersând exersăm
+3	4203	clovn	claun clovni clovnii clovnilor clovnul clovnule clovnului clown clownilor
+4	4204	manuscris	manuscriptul manuscrise manuscrisele manuscriselor manuscrisul manuscrisului
+5	4205	talie	talia taliei
+6	4206	aromă	aroma arome aromei aromele aromelor
+7	4207	invenție	invenția invenției invenții invențiile invențiilor
+8	4208	dobitoc	dobitoaca dobitoace dobitoacele dobitoaco dobitoacă dobitoci dobitocii dobitocilor dobitocul dobitocule dobitocului
+9	4209	aprovizionare	aprovizionarea aprovizionări aprovizionării
+10	4210	elaborare	elaborarea elaborării
+11	4211	gândac	gândaci gândacii gândacilor gândacul gândacule gândacului gândăcel
+12	4212	onest	onesta oneste onestul onestă onești
+13	4213	administrat	administrata administrate administrată administrați administrații
+14	4214	tâmpenie	tâmpenia tâmpeniei tâmpenii tâmpeniile tâmpeniilor
+15	4215	rațiune	rațiunea rațiuni rațiunii rațiunile
+16	4216	just	justa juste justă
+17	4217	cardinal	cardinale cardinali cardinalii cardinalilor cardinalul cardinalului cardinală
+18	4218	despărțire	despărțirea despărțiri despărțirii despărțirile despărțirilor
+19	4219	toc	tocul tocului tocuri tocurile tocurilor
+20	4220	cosmic	cosmica cosmice cosmici cosmică
+21	4221	orbită	orbita orbite orbitei orbitele orbitelor
+22	4222	coridor	coridoare coridoarele coridoarelor coridorul coridorului
+23	4223	episcopie	episcopia episcopiei episcopii
+24	4224	fustă	fusta fuste fustei fustele fustelor fustiță
+25	4225	fișă	fișa fișe fișei fișele fișelor
+26	4226	indicator	indicatoare indicatoarele indicatoarelor indicatori indicatorii indicatorul indicatorului
+27	4227	sirenă	sirena sirene sirenei sirenele sirenelor
+28	4228	garanție	garanția garanției garanții garanțiile garanțiilor
+29	4229	căruță	căruța căruțe căruței căruțele căruțelor
+30	4230	percepție	percepția percepției percepții percepțiile percepțiilor
+31	4231	dedica	dedic dedicam dedicați dedice dedici dedică dedicăm
+32	4232	organizator	organizatoare organizatoarea organizatori organizatorii organizatorilor organizatorul organizatorului
+33	4233	relevant	relevanta relevante relevantă relevanți
+34	4234	repetiție	repetiția repetiției repetiții repetițiile repetițiilor
+35	4235	ușura	ușuram ușurat ușurați ușurează ușurez ușureze ușurezi ușurându ușurăm
+36	4236	îndeajuns	
+37	4237	protejare	protejarea protejării
+38	4238	pont	pontul pontului ponturi ponturile
+39	4239	educațional	educaționale educațională
+40	4240	complice	complicea complicele complicelui complici complicii complicilor
+41	4241	sârb	sârba sârbe sârbi sârbii sârbilor sârboaică sârbul sârbă
+42	4242	bancnotă	bancnota bancnote bancnotei bancnotele bancnotelor
+43	4243	confuzie	confuzia confuziei confuzii confuziile
+44	4244	localizat	localizata localizate localizată localizați
+45	4245	ocoli	ocolea ocolească ocoleau ocolesc ocolește ocolești ocolim ocolind ocolit ocolite ocolită ocoliți
+46	4246	cărbune	cărbunele cărbunelui cărbuni cărbunii
+47	4247	pastor	pastori pastorii pastorilor pastorul pastorule pastorului
+48	4248	banană	banana banane bananei bananele bananelor
+49	4249	arsură	arsura arsuri arsurii arsurile arsurilor
+50	4250	cumplit	cumplita cumplite cumplitele cumplitul cumplită cumpliți
+51	4251	secundar	secundara secundari secundarul secundară
+52	4252	captura	capturam capturase capturaseră capturat capturau capturați capturează capturez captureze capturezi capturând capturăm
+53	4253	întrerupere	întreruperea întreruperi întreruperii întreruperile
+54	4254	ocazional	ocazionala ocazionale ocazionalele ocazionali ocazională
+55	4255	informare	informarea informări informării informările
+56	4256	readuce	readu readuc readucem readuceți readuci readucă readus readuse readusă readuși
+57	4257	indirect	indirecta indirecte indirectă
+58	4258	țigan	țigane țigani țiganii țiganilor țiganul țiganule țiganului
+59	4259	plănuit	plănuite plănuită plănuiți
+60	4260	nesfârșit	nesfârșita nesfârșite nesfârșitele nesfârșitul nesfârșită
+61	4261	acordare	acordarea acordării
+62	4262	suveran	suverana suverane suveranei suverani suveranii suveranul suveranului suverană
+63	4263	albi	albească albesc albește albești albii albit albite
+64	4264	inconștient	inconștienta inconștiente inconștientul inconștientului inconștientă inconștienți
+65	4265	phoenix	phoenixul
+66	4266	decor	decorul decorului decoruri decorurile
+67	4267	maritim	maritima maritime maritimi maritimă
+68	4268	prevenire	prevenirea prevenirii
+69	4269	tobă	toba tobe tobei tobele tobelor
+70	4270	islamic	islamica islamice islamici islamică
+71	4271	coordonare	coordonarea coordonării
+72	4272	imn	imnul imnului imnuri imnurile imnurilor
+73	4273	portar	portari portarii portarilor portarul portarule portarului portăreasă
+74	4274	bou	boi boii boilor boise boul boule boului
+75	4275	nerăbdător	nerăbdătoare nerăbdători
+76	4276	atractiv	atractiva atractive atractivi atractivă
+77	4277	puzzle	
+78	4278	riscant	riscanta riscante riscantă
+79	4279	imigrant	imigrantul imigrantule imigrantă imigranți imigranții imigranților
+80	4280	aplauze	aplauzele aplauzelor
+81	4281	acuzare	acuzarea acuzări acuzării acuzările
+82	4282	gustare	gustarea gustarile gustări gustărică gustării gustările gustărilor
+83	4283	pact	pactul pactului
+84	4284	blond	blonda blonde blondei blondele blondelor blondul blondule blonzi blonzii
+85	4285	pescar	pescari pescarii pescarilor pescarul pescarule pescarului
+86	4286	orbi	orbea orbește orbești orbii orbim orbit orbiți
+87	4287	respirator	respiratori respiratorie respiratorii respiratoriu respiratorul
+88	4288	influent	influenta influente influentei influentele influentul influentă influenți
+89	4289	desenat	desenate desenatul desenată
+90	4290	controversat	controversata controversate controversatul controversatului controversată
+91	4291	pluti	plutea pluteai pluteam plutească pluteau plutesc plutește plutești plutim plutit plutiți
+92	4292	prelungire	prelungirea prelungiri prelungirii prelungirile
+93	4293	ideologie	ideologia ideologiei ideologii ideologiile
+94	4294	separare	separarea separări separării
+95	4295	emoționat	emoționate emoționată emoționați
+96	4296	uzină	uzina uzine uzinei uzinele uzinelor
+97	4297	veterinar	veterinara veterinare veterinari veterinarii veterinarul veterinarului veterinară
+98	4298	majoritar	majoritare majoritari majoritară
+99	4299	tratare	tratarea tratării
+100	4300	colier	coliere colierele colierul colierului

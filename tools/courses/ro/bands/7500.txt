@@ -1,0 +1,100 @@
+1	7401	vrăjitorie	vrăjitoria vrăjitoriei vrăjitorii vrăjitoriile
+2	7402	magistrală	magistrala magistrale magistralei
+3	7403	socru	socri socrii socrilor socrul socrule socrului
+4	7404	moțiune	moțiunea moțiuni moțiunii moțiunile
+5	7405	măiestrie	măiestria măiestriei
+6	7406	conduită	conduita conduite conduitei
+7	7407	supremație	supremația supremației
+8	7408	neregulat	neregulata neregulate neregulată neregulați
+9	7409	jilav	jilava jilavă
+10	7410	ruginit	ruginita ruginite ruginită ruginiți
+11	7411	maur	maura maurei mauri maurii maurilor maurul maurule maură
+12	7412	recurs	recursul recursului recursuri recursurile
+13	7413	impecabil	impecabila impecabile impecabilă
+14	7414	subvenție	subvenția subvenții subvențiile subvențiilor
+15	7415	pilulă	pilula pilule pilulei pilulele pilulelor
+16	7416	crai	craiul craiule craiului crăiasă
+17	7417	restrânge	restrâng restrângem restrângeți restrângi restrângă restrâns restrânse
+18	7418	relicvă	relicva relicve relicvei relicvele relicvelor
+19	7419	înveliș	învelișul învelișului învelișuri învelișurile
+20	7420	manevra	manevrat manevrate manevrată manevrați manevrează manevrez manevreze manevrezi manevrând manevrăm
+21	7421	jeleu	jeleul jeleuri jeleurile
+22	7422	luminozitate	luminozitatea
+23	7423	răsuci	răsucea răsucească răsucesc răsucește răsucești răsucim răsucind răsucindu răsucit răsuciți
+24	7424	româncă	românca românce
+25	7425	limonadă	limonada limonade
+26	7426	încins	încinsa încinse încinsă încinși
+27	7427	programator	programatoare programatori programatorii programatorul
+28	7428	antarctic	antarctica antarctice antarcticii antarctică
+29	7429	eretic	eretica eretice eretici ereticii ereticilor ereticul ereticule eretică
+30	7430	diaree	diareea diareei
+31	7431	orificiu	orificii orificiile orificiul orificiului
+32	7432	senzorial	senzoriala senzoriale senzoriali senzorială
+33	7433	enoriaș	enoriași enoriașii enoriașilor
+34	7434	generare	generarea
+35	7435	mozaic	mozaicul mozaicuri
+36	7436	modernitate	modernitatea modernității
+37	7437	aventura	aventuram aventurat aventurați aventurează aventurez aventureze aventurezi aventurăm
+38	7438	descuraja	descurajam descurajat descurajați descurajează descurajez descurajeze descurajezi descurajăm
+39	7439	dublură	dublura dubluri dublurii dublurile dublurilor
+40	7440	medalia	medaliat medaliata medaliată medaliați
+41	7441	finit	finita finite finită
+42	7442	portughez	portugheza portugheze portughezi portughezii portughezilor portughezul portughezule
+43	7443	aliaj	aliaje aliajele aliajul
+44	7444	buncăr	buncăre buncărele buncărul buncărului
+45	7445	alpin	alpine alpini alpină
+46	7446	boș	boașe boașele boașelor boașă
+47	7447	ateu	atei ateii ateilor ateul ateule
+48	7448	ilustrată	ilustrata ilustrate ilustratele
+49	7449	vomă	voma vomei
+50	7450	tulpină	tulpini
+51	7451	vițel	viței vițeii vițelul vițelului vițeluș
+52	7452	gaza	gazat gazată gazați gazează gazez gazeze gazăm
+53	7453	metropolitan	metropolitane
+54	7454	nerezolvat	nerezolvata nerezolvate nerezolvată
+55	7455	camping	campingul campinguri campingurile
+56	7456	vitrină	vitrina vitrine vitrinei vitrinele vitrinelor
+57	7457	normativ	normative
+58	7458	ortografie	ortografia ortografiei
+59	7459	lichior	lichiorul lichiorului lichioruri
+60	7460	plictisit	plictisita plictisite plictisită plictisiți
+61	7461	grava	gravat gravata gravate gravată gravez graveze gravezi gravă
+62	7462	prelimina	preliminară
+63	7463	leopard	leopardul leopardului leoparzi leoparzii leoparzilor
+64	7464	bolovan	bolovani bolovanii bolovanul bolovanule bolovanului
+65	7465	încânta	încânt încântau încântați încânte încântă încânți
+66	7466	terasa	
+67	7467	declarare	declararea
+68	7468	detona	detonam detonat detonata detonată detonați detonează detonez detonezi detonăm
+69	7469	veșmânt	vesmânt veșminte veșmintele veșmântul
+70	7470	suspensie	suspensia suspensiei suspensii suspensiile
+71	7471	gresie	gresia gresiei gresii
+72	7472	câmpină	câmpina
+73	7473	soia	
+74	7474	mistreț	mistreți mistreții mistreților mistrețul mistrețului
+75	7475	ptru	tr
+76	7476	ajustare	ajustarea ajustări ajustările
+77	7477	palmier	palmieri palmierii palmierilor palmierul palmierului
+78	7478	patogen	patogene patogeni patogenul
+79	7479	explorator	exploratoare exploratoarea exploratori exploratorii exploratorilor exploratorul exploratorului
+80	7480	sin	
+81	7481	muștar	muștarul muștarului
+82	7482	înșelătorie	înșelătoria înșelătoriei înșelătorii înșelătoriile înșelătoriilor
+83	7483	valvă	valva valve valvei valvele valvelor
+84	7484	încinge	încing încingea încingem încingeți încingi încingă încins încinse
+85	7485	minimum	
+86	7486	competițional	competițională
+87	7487	vocație	vocația
+88	7488	steril	sterila sterile sterili sterilă
+89	7489	traumatism	traumatisme traumatismele traumatismelor traumatismul traumatismului
+90	7490	senzațional	senzaționala senzaționale senzaționali senzaționalul senzațională
+91	7491	paradigmă	paradigma paradigme paradigmei
+92	7492	tigaie	tigaia tigăi tigăile
+93	7493	ipotetic	ipotetica ipotetice ipotetici ipotetică
+94	7494	latitudine	latitudinea latitudini
+95	7495	consultativ	consultative consultativă
+96	7496	turbă	turba turbo
+97	7497	maia	
+98	7498	închiriat	închiriate închiriatul închiriată
+99	7499	imprimare	imprimarea imprimări imprimării imprimările
+100	7500	simplitate	simplitatea simplității

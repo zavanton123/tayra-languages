@@ -1,0 +1,100 @@
+1	4501	încrezător	încrezătoare încrezători
+2	4502	nominal	nominala nominale nominală
+3	4503	informator	informatoare informatori informatorii informatorilor informatorul informatorule informatorului
+4	4504	curbă	curba curbe curbei curbele curbelor
+5	4505	papuc	papuci papucii papucilor papucul
+6	4506	tac	tacul tacuri tacurile
+7	4507	apleca	apleacă aplec aplecam aplecat aplecați aplece apleci aplecându aplecă aplecăm
+8	4508	pildă	pilda pilde pildele
+9	4509	frontal	frontala frontale frontali frontală
+10	4510	neutru	neutra neutre neutri neutrii neutră
+11	4511	gheară	gheara gheare ghearei ghearele ghearelor
+12	4512	cântări	cântărea cântăream cântărească cântăreau cântăresc cântărește cântărești cântărim cântărind cântărit cântărite cântărită cântăriți
+13	4513	bizar	bizara bizare bizari bizarul bizară
+14	4514	grădiniță	grădinița grădinițe grădiniței grădinițele
+15	4515	pupa	pup pupam pupat pupatul pupaturi pupau pupați pupe pupi pupând pupăm
+16	4516	goli	golea goleam golească golesc golește golești golim golind golit goliți
+17	4517	eră	era ere erei erele erelor ero
+18	4518	remarcă	remarce remarcile remarcilor
+19	4519	jalnic	jalnica jalnice jalnici jalnicii jalnicul jalnică
+20	4520	ostil	ostila ostile ostili ostilii ostilul ostilă
+21	4521	legitim	legitima legitime legitimi legitimă
+22	4522	botezat	botezata botezate botezată botezați
+23	4523	împotrivă	
+24	4524	mir	mirul
+25	4525	cavalerie	cavaleria cavaleriei cavalerii
+26	4526	sărat	sărate sărată sărați
+27	4527	anotimp	anotimpul anotimpului anotimpuri anotimpurile anotimpurilor
+28	4528	integritate	integritatea integrității
+29	4529	amar	amare amarei amari amarul
+30	4530	fuziune	fuziunea fuziuni fuziunii fuziunile
+31	4531	labă	laba labe labei labele labelor lăbuță
+32	4532	poza	pozam pozat pozată pozați pozează pozez pozeze pozezi pozând pozăm
+33	4533	discriminare	discriminarea discriminări discriminării
+34	4534	muscular	musculara musculare musculară
+35	4535	treizeci	treizecea
+36	4536	ruina	ruinam ruinat ruinați ruinează ruinez ruineze ruinezi ruinând ruinăm
+37	4537	îngrijorare	îngrijorarea îngrijorări îngrijorării îngrijorările îngrijorărilor
+38	4538	olimpiadă	olimpiada olimpiade olimpiadei olimpiadele
+39	4539	cola	
+40	4540	obsesie	obsesia obsesiei obsesii obsesiile
+41	4541	capsulă	capsula capsule capsulei capsulele capsulelor
+42	4542	tavan	tavane tavanele tavanul tavanului
+43	4543	poreclă	porecla porecle poreclei
+44	4544	boier	boierești boieri boierii boierilor boierul boierule boierului
+45	4545	subtil	subtila subtile subtili subtilă
+46	4546	mileniu	milenii mileniile mileniilor mileniul mileniului
+47	4547	folclor	folclorul folclorului
+48	4548	enervant	enervanta enervante enervantul enervantă enervanți
+49	4549	preparat	preparate preparatele preparatelor preparatul preparată
+50	4550	solist	solista solistul solistului solistă soliști soliștii
+51	4551	sinceritate	sinceritatea sincerității
+52	4552	tribună	tribuna tribune tribunei tribunele tribunelor
+53	4553	pasa	pasam pasat pasate pasată pasați pasează pasez paseze pasezi pasăm
+54	4554	lățime	lățimea
+55	4555	tunde	tund tundea tundeam tundem tundeți tundă tuns tunse tunzi
+56	4556	sintetic	sintetica sintetice sintetici sinteticii sintetică
+57	4557	bluză	bluza bluze bluzei bluzele
+58	4558	dotare	dotarea dotări dotările
+59	4559	mel	meli
+60	4560	traumă	trauma traume traumei traumele traumelor
+61	4561	caritate	caritatea carității
+62	4562	convingător	convingătoare convingători convingătorul
+63	4563	spionaj	spionajul spionajului
+64	4564	vorbire	vorbirea vorbirii
+65	4565	regiment	regimente regimentele regimentelor regimentul regimentului
+66	4566	dubiu	dubii dubiile
+67	4567	confunda	confund confundam confundat confundați confunde confundând confundă confundăm confunzi neconfundat
+68	4568	miră	mira mirei mirele miro
+69	4569	mențiune	mențiunea mențiuni
+70	4570	autohton	autohtone autohtoni autohtonă
+71	4571	deșeu	deșeuri deșeurile deșeurilor
+72	4572	ceapă	ceapa cepe cepei cepele
+73	4573	asemeni	
+74	4574	mobilier	mobilierul mobilierului
+75	4575	procedeu	procedee procedeele procedeul procedeului
+76	4576	abdomen	abdomene abdomenele abdomenul abdomenului
+77	4577	sofisticat	sofisticata sofisticate sofisticată sofisticați
+78	4578	caras	caraș
+79	4579	chemare	chemarea chemarii chemarile chemări chemării chemările chemărilor
+80	4580	hit	hitul hituri hiturile
+81	4581	latin	latina latine latinește latini latinii latinilor latinul
+82	4582	batalion	batalioane batalioanele batalioanelor batalionul batalionului
+83	4583	ordona	ordon ordonam ordonase ordonați ordone ordonează ordonez ordoneze ordonezi ordoni ordonând ordonă ordonăm
+84	4584	vecinătate	vecinătatea vecinătăți
+85	4585	rocă	roca roci rocii rocile rocilor
+86	4586	îmbăta	îmbată îmbete îmbeți îmbăt îmbătam îmbătase îmbătat îmbătau îmbătați îmbătându îmbătăm
+87	4587	magnific	magnifica magnifice magnificele magnifici magnificul magnificului magnifică
+88	4588	nenumărat	nenumărate nenumăratele nenumăratelor nenumărați nenumărații
+89	4589	estic	estica estice estici estică
+90	4590	ev	evi evul evului
+91	4591	cultiva	cultiv cultivam cultivat cultivau cultivați cultive cultivi cultivând cultivă cultivăm
+92	4592	atribuție	atribuția atribuții atribuțiile atribuțiilor atribuțiunile
+93	4593	taină	taina taine tainei tainele
+94	4594	lamă	lame lamei lamele lamelor lamo
+95	4595	vindecare	vindecarea vindecări vindecării vindecările
+96	4596	acumulare	acumularea acumulări acumulării
+97	4597	redacție	redacția redacției redacții
+98	4598	fabricare	fabricarea fabricării
+99	4599	studiat	studiata studiate studiatul studiată studiați
+100	4600	eternitate	eternitatea eternității

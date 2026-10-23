@@ -1,0 +1,100 @@
+1	5601	abstract	abstracta abstracte abstractă
+2	5602	jucat	jucate jucatul jucată
+3	5603	vibrație	vibrația vibrații vibrațiile vibrațiilor
+4	5604	prunc	prunci pruncii pruncilor pruncul pruncule pruncului
+5	5605	stick	stickul
+6	5606	transparent	transparenta transparente transparentă transparenți
+7	5607	revelație	revelația revelației revelații revelațiile revelațiilor
+8	5608	mugur	mugure mugurel muguri mugurii
+9	5609	flexibil	flexibila flexibile flexibili flexibilă
+10	5610	nemulțumire	nemulțumirea nemulțumiri nemulțumirii nemulțumirile
+11	5611	neclar	neclara neclare neclari neclară
+12	5612	parchet	parchetul parchetului
+13	5613	compensa	compensam compensat compensata compensate compensată compensați compensații compensează compensez compenseze compensezi compensăm
+14	5614	radiografie	radiografia radiografiat radiografiei radiografii radiografiile radiografiilor
+15	5615	fluviu	fluvii fluviile fluviul fluviului
+16	5616	patruzeci	
+17	5617	firesc	fireasca firească firești
+18	5618	infern	infernul infernului
+19	5619	orfelinat	orfelinate orfelinatele orfelinatul orfelinatului
+20	5620	fermecat	fermecata fermecate fermecatele fermecatelor fermecată fermecați
+21	5621	prototip	prototipul prototipului prototipuri prototipurile
+22	5622	avertizare	avertizarea avertizări avertizările
+23	5623	crucial	cruciala cruciale cruciali crucială
+24	5624	caritabil	caritabila caritabile caritabili caritabilă
+25	5625	înlocuitor	înlocuitoare înlocuitoarea înlocuitori înlocuitorii înlocuitorul înlocuitorului
+26	5626	sal	salul
+27	5627	tactic	tactica tactice tactici tacticii tacticilor
+28	5628	combate	combat combatem combateți combată combați combătut combătută
+29	5629	bon	bonul bonuri bonurile
+30	5630	vegetală	vegetala vegetale vegetalele vegetalelor
+31	5631	îndepărtare	îndepărtarea îndepărtării
+32	5632	deteriorat	deteriorata deteriorate deteriorată deteriorați
+33	5633	exploziv	explozivi explozivii explozivilor explozivul
+34	5634	gătit	gătat gătita gătite gătitul gătitului gătită gătiți
+35	5635	gogoașă	gogoașa gogoși gogoșii gogoșile gogoșilor
+36	5636	repaus	repaos
+37	5637	converti	convertească convertesc convertește convertești convertim convertind convertit convertiți
+38	5638	lut	lutul lutului
+39	5639	arterial	arteriala arteriale arterială
+40	5640	chit	chitul
+41	5641	furișa	furișai furișam furișat furișau furișați furișează furișez furișeze furișezi furișându furișă furișăm
+42	5642	zgâria	zgâriat zgâriau zgâriați zgârie zgâriem zgârii zgâriind
+43	5643	arsenal	arsenale arsenalele arsenalul arsenalului
+44	5644	credibil	credibila credibile credibili credibilă
+45	5645	turcesc	turceasca turcească turcești
+46	5646	umbrelă	umbrela umbrele umbrelei umbrelele umbreluța umbreluțe umbreluță
+47	5647	răcire	răcirea
+48	5648	faraon	faraoni faraonii faraonilor faraonul faraonule faraonului
+49	5649	confidențial	confidențiale confidențiali confidențială
+50	5650	islam	islamul islamului
+51	5651	restaura	restauram restaurat restaurate restaurată restaurați restaurează restaurez restaureze restaurezi restaurând restaurăm
+52	5652	cântare	cântarea cântări cântările cântărilor
+53	5653	preparare	prepararea preparării
+54	5654	strămoși	strămoșești strămoșii
+55	5655	bănuială	bănuiala bănuieli bănuielii bănuielile bănuielilor
+56	5656	spălare	spălarea spălări spălării
+57	5657	preocupat	preocupata preocupate preocupată preocupați
+58	5658	elf	elfi elfii elfilor elful elfule
+59	5659	hardware	
+60	5660	adrenalină	adrenalina adrenaline adrenalinei
+61	5661	rotație	rotația rotației rotații rotațiile
+62	5662	atribut	atribute atributele atributul
+63	5663	fax	faxul faxului faxuri faxurile
+64	5664	musca	
+65	5665	capitalism	capitalismul capitalismului
+66	5666	gimnaziu	gimnaziul gimnaziului
+67	5667	trusă	trusa truse trusele
+68	5668	fulg	fulgi fulgii fulgilor fulgul
+69	5669	vegetarian	vegetariana vegetariană vegetariene vegetarieni vegetarienii
+70	5670	mângâia	mângâi mângâiai mângâiam mângâiat mângâiau mângâiați mângâie mângâiem mîngîie
+71	5671	studiere	studierea studierii
+72	5672	admirator	admiratoare admiratoarea admiratoarele admiratori admiratorii admiratorilor admiratorul
+73	5673	aparență	aparența aparențe aparenței aparențele aparențelor
+74	5674	toast	toastul toastului toasturi toasturile
+75	5675	rulotă	rulota rulote rulotei rulotele rulotelor
+76	5676	perdea	perdeaua perdele perdelei perdelele perdelelor
+77	5677	îndruma	îndrum îndrumat îndrumată îndrumați îndrume îndrumi îndrumă îndrumăm
+78	5678	ambuscadă	ambuscada ambuscade ambuscadei ambuscadele
+79	5679	accesoriu	accesorii accesoriile accesoriilor accesoriul
+80	5680	veveriță	veverița veverițe veveriței veverițele veverițelor veverițo
+81	5681	pondere	ponderea
+82	5682	terapeutic	terapeutica terapeutice terapeutică
+83	5683	uluitor	uluitoare uluitoarea uluitori uluitorul
+84	5684	fiară	fiara fiare fiarei fiarele fiarelor
+85	5685	cartelă	cartela cartele cartelei cartelele cartelelor
+86	5686	clonă	clona clone clonei clonele clonelor
+87	5687	achita	achit achitam achitat achitați achite achită achităm achiți
+88	5688	călugăriță	călugărița călugărițe călugăriței călugărițele călugărițelor
+89	5689	grilă	grila grile grilei grilele
+90	5690	blocat	blocata blocate
+91	5691	baptist	baptiste baptistă baptiști baptiștii
+92	5692	șuncă	șunca șunci șuncii șuncile
+93	5693	suveranitate	suveranitatea suveranității
+94	5694	pupă	pupa pupe pupei pupele
+95	5695	absorbție	absorbția absorbției
+96	5696	ofensivă	ofensiva ofensive ofensivei
+97	5697	desființare	desființarea desființării
+98	5698	șocant	șocante șocantul șocantă
+99	5699	pocni	pocnea pocneam pocnească pocnesc pocnește pocnești pocnim pocnind pocnit pocniți
+100	5700	suită	suita suite

@@ -1,0 +1,100 @@
+1	3901	moderat	moderata moderate moderată moderați moderații moderaților
+2	3902	interacțiune	interacțiunea interacțiuni interacțiunii interacțiunile interacțiunilor
+3	3903	îngust	îngusta înguste îngustă înguști
+4	3904	sângera	sângerai sângeram sângerat sângerau sângerați sângerează sângerez sângereze sângerezi sângerăm
+5	3905	valiză	valijoară valiza valize valizei valizele valizelor
+6	3906	tranzacție	tranzacția tranzacției tranzacții tranzacțiile tranzacțiilor
+7	3907	smulge	smulg smulgea smulgeam smulgeau smulgem smulgeți smulgi smulgând smulgându smulgă smuls smulse
+8	3908	turmă	turma turme turmei turmele turmelor
+9	3909	tovarăș	tovarăși tovarășii tovarășilor tovarășul tovarășului tovarășă
+10	3910	prostesc	prosteasca prostească prostești
+11	3911	pară	para parai paraii parale paralele param parat parau parează parezi paro pere perele
+12	3912	femelă	femela femele femelei femelele femelelor
+13	3913	noră	nora nurori nurorii
+14	3914	statistic	statistica statistice statistici statisticii statisticilor
+15	3915	planta	plantam plantat plantate plantatul plantată plantați plantează plantez planteze plantezi plantând plantăm
+16	3916	autorizat	autorizata autorizate autorizată autorizați autorizații
+17	3917	ezita	ezit ezitam ezitat ezitau ezitați ezite ezitând ezită ezităm eziți
+18	3918	aspru	aspra aspre aspri asprul aspră
+19	3919	pacific	pacifica pacificul pacificului pacifică
+20	3920	brut	bruta brute brutele brutelor bruto brută
+21	3921	incintă	incinta incinte incintei
+22	3922	viteaz	viteaza viteazul viteazului vitează viteji vitejii vitejilor viteze vitezei vitezele vitezelor
+23	3923	evreiesc	evreiasca evreiască evreiești
+24	3924	capturat	capturata capturate capturată capturați
+25	3925	veronică	veronica
+26	3926	surprinzător	surprinzătoare surprinzătoarea surprinzători
+27	3927	inch	inchi
+28	3928	consumator	consumatoare consumatori consumatorii consumatorilor consumatorul consumatorului
+29	3929	be	
+30	3930	minim	minimul
+31	3931	contabil	contabila contabile contabili contabilii contabililor contabilul contabilului contabilă
+32	3932	psihiatru	psihiatri psihiatrii psihiatrilor psihiatrul psihiatrului psihiatră
+33	3933	arteră	artera artere arterei arterele arterelor artero
+34	3934	obraz	obraji obrajii obrajilor obrazul obrazului
+35	3935	semifinală	semifinala semifinale semifinalei semifinalele
+36	3936	laser	lasere laserele laserelor laserul laserului
+37	3937	feroviar	feroviare feroviari feroviară
+38	3938	urmaș	urmașa urmași urmașii urmașilor urmașul urmașă
+39	3939	orfan	orfana orfane orfani orfanii orfanilor orfanul orfană
+40	3940	selectat	selectata selectate selectată selectați
+41	3941	barieră	bariera bariere barierei barierele barierelor
+42	3942	idol	idoli idolii idolilor idolul idolului
+43	3943	izolare	izolarea izolării
+44	3944	manipula	manipulam manipulat manipulată manipulați manipulează manipulez manipuleze manipulezi manipulând manipulăm
+45	3945	colecta	colectam colectat colectate colectau colectați colectează colectez colecteze colectezi colectând colectăm
+46	3946	stand	standul standului standuri standurile
+47	3947	îmbrăcăminte	îmbrăcămintea îmbrăcăminții
+48	3948	paradă	parada parade paradei paradele
+49	3949	nedrept	nedreapta nedreaptă nedrepte nedrepți
+50	3950	psiholog	psihologi psihologii psihologilor psihologul psihologului
+51	3951	revoluționar	revoluționari revoluționarii revoluționarilor revoluționarul revoluționară
+52	3952	cățel	căței cățeii cățeilor cățelul cățelule cățelului cățeluș
+53	3953	auriu	aurie aurii auriul
+54	3954	rămășiță	rămășița rămășițe rămășițele rămășițelor
+55	3955	oală	oala oale oalei oalele ol olița olițe oliță
+56	3956	pătură	pătura pături păturică păturii păturile păturilor
+57	3957	dos	dosul dosuri dosurile
+58	3958	râs	râsete râsetele râsetelor râsul râsului râși
+59	3959	terestru	terestra terestre terestră tereștri
+60	3960	leziune	leziunea leziuni leziunii leziunile leziunilor
+61	3961	informatică	informatica informatici informaticii
+62	3962	montat	montata montate montată montați
+63	3963	designer	designeri designerii designerilor designerul designerului
+64	3964	precizie	precizia preciziei
+65	3965	aglomerat	aglomerata aglomerate aglomerată aglomerați
+66	3966	negri	negrea negrești negrii
+67	3967	fasole	fasolea fasolei fasolele
+68	3968	curiozitate	curiozitatea curiozități curiozității curiozitățile
+69	3969	diametru	diametre diametrul
+70	3970	ocupație	ocupația ocupației ocupații ocupațiile
+71	3971	domni	domnea domneau domnește domnești domnii domnim domnind domnit domnite domnită
+72	3972	coordona	coordonam coordonat coordonați coordonează coordonez coordoneze coordonezi coordonând coordonăm
+73	3973	electricitate	electricitatea electricității
+74	3974	suedez	suedeza suedeze suedezele suedezi suedezii suedezilor suedezul suedezule suedezului suedeză
+75	3975	excesiv	excesiva excesive excesivă
+76	3976	grevă	greva greve grevei grevele grevelor
+77	3977	capac	capace capacele capacul capacului
+78	3978	zână	zâna zâne zânei zânele zânelor zâno zîna zînă
+79	3979	rod	roade roadele roadă rodul
+80	3980	investit	investita investite investită investiți investiții
+81	3981	posta	postam postat postate postată postași postați postează postez posteze postezi postând postă postăm
+82	3982	dinozaur	dinozauri dinozaurii dinozaurilor dinozaurul dinozaurului
+83	3983	distrage	distrag distragem distrageți distragi distragă distras distrasa distrase distrasă distrași distrăgea distrăgeau
+84	3984	elvețian	elvețiancă elvețianul elvețiană elvețiene elvețieni elvețienii
+85	3985	atentat	atentate atentatele atentatelor atentatul atentatului
+86	3986	premiat	premiata premiate premiată premiați
+87	3987	urla	urlai urlam urlat urlatul urlau urlați urle urli urlu urlând urlă urlăm
+88	3988	donație	donația donației donații donațiile donațiilor
+89	3989	socoteală	socoteala socoteli socotelii socotelile socotelilor
+90	3990	creangă	creanga crengi crengii crengile crengilor crenguță
+91	3991	coardă	coarda coarde coardele coardelor corzi corzii corzile corzilor
+92	3992	mărunt	mărunta mărunte măruntul măruntă mărunțești mărunți mărunțit mărunțită
+93	3993	confirmare	confirmarea confirmări confirmării confirmările
+94	3994	preluare	preluarea preluări preluării preluările
+95	3995	componență	componența
+96	3996	agendă	agenda agende agendei agendele
+97	3997	lipi	lipea lipeam lipească lipeau lipesc lipește lipești lipii lipim lipind lipindu lipise lipit lipiți
+98	3998	plat	plata plate plați
+99	3999	isteț	isteața isteață istețe isteți isteții isteților istețul
+100	4000	comunitar	comunitare comunitari comunitară

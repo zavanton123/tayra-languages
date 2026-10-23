@@ -1,0 +1,100 @@
+1	2001	urs	ursul ursule ursului urși urșii urșilor
+2	2002	transfer	transferul transferului transferuri transferurile transferurilor
+3	2003	ciocolată	ciocolata ciocolate ciocolatei ciocolatele
+4	2004	lanț	lanțul lanțului lanțuri lanțurile lanțurilor lănțișoare lănțișor
+5	2005	bară	bara barat bare barei barele barelor
+6	2006	brusc	brusca bruscă bruște
+7	2007	genunchi	genuchi genunchii genunchilor genunchiul genunchiului
+8	2008	salariu	salar salarii salariile salariilor salariul salariului
+9	2009	analiza	analizam analizat analizata analizate analizată analizați analizează analizez analizeze analizezi analizând analizăm
+10	2010	ridicol	ridicola ridicole ridicoli ridicolul ridicolului ridicolă ridicul
+11	2011	bucurie	bucuria bucuriei bucurii bucuriile bucuriilor
+12	2012	comunica	comunic comunicam comunicat comunicate comunicatele comunicatul comunicatului comunicată comunicau comunicați comunice comunici comunicând comunică comunicăm
+13	2013	acid	acida acide acidul acidului acidă acizi acizii acizilor
+14	2014	obliga	oblig obligai obligam obligat obligau obligați oblige obligi obligând obligându obligă obligăm
+15	2015	aprinde	aprind aprindea aprindeai aprindeam aprindeau aprindem aprindeți aprindă aprins aprinse aprinsese aprinzi aprinzând
+16	2016	casetă	caseta casete casetei casetele casetelor
+17	2017	dispune	dispui dispun dispunea dispuneau dispunem dispuneți dispunând dispună dispus dispuse
+18	2018	unire	uniri unirii
+19	2019	rural	rurala rurale rurală
+20	2020	van	vana vane vanele vanul vană
+21	2021	nobil	nobila nobile nobilei nobilele nobili nobilii nobililor nobilul nobilului nobilă noble
+22	2022	intenționa	intenționai intenționam intenționasem intenționat intenționau intenționați intenționează intenționez intenționezi intenționând intenționăm
+23	2023	liberal	liberala liberale liberali liberalii liberalilor liberalul liberală
+24	2024	paria	pariai pariam pariase pariasem pariat pariau pariază pariați pariem pariez parieze pariezi pariind
+25	2025	lumina	luminam luminat luminata luminate luminată luminau luminați luminează luminez lumineze luminezi luminând luminăm
+26	2026	așteptare	așteptarea așteptări așteptării așteptările așteptărilor
+27	2027	executa	execut executam executat executau executați execute executând execută executăm execuți
+28	2028	platformă	platforma platforme platformei platformele platformelor
+29	2029	informa	informam informat informați informează informez informeze informezi informându informă informăm
+30	2030	câteodată	
+31	2031	discută	discuta discute
+32	2032	îndepărta	îndepărtai îndepărtam îndepărtase îndepărtat îndepărtau îndepărtați îndepărtează îndepărtez îndepărteze îndepărtezi îndepărtând îndepărtându îndepărtă îndepărtăm
+33	2033	insista	insist insistai insistam insistat insistau insistați insiste insisti insistând insistă insistăm insiști
+34	2034	glorie	gloria gloriei glorii gloriile
+35	2035	amprentă	amprenta amprente amprentei amprentele amprentelor
+36	2036	folos	foloase foloasele folosul
+37	2037	reține	reții rețin reținea rețineau reținem rețineți reținut reținând rețină
+38	2038	studio	studioul studioului studiouri studiourile studiourilor
+39	2039	cost	costul costului costuri costurile costurilor
+40	2040	minor	minora minore minori minorii minorilor minorul minorului minoră
+41	2041	îngrijorat	îngrijorata îngrijorate îngrijorată îngrijorați
+42	2042	cult	culta culte cultele cultelor cultul cultului cultă culți
+43	2043	stinge	sting stingea stingeam stingeau stingem stingeți stingi stingând stingându stingă stins stinsa stinse stinsese stinsă stinși
+44	2044	ulei	uleiul uleiului uleiuri uleiurile
+45	2045	țigară	țigara țigare țigări țigării țigările țigărilor
+46	2046	câștig	câștigul câștigului câștiguri câștigurile câștigurilor cîștig
+47	2047	dezvălui	dezvăluia dezvăluiau dezvăluie dezvăluim dezvăluind dezvăluit dezvăluiți
+48	2048	calm	calme calmi calmul calmului
+49	2049	creatură	creatura creaturi creaturii creaturile creaturilor
+50	2050	deosebire	deosebirea deosebiri deosebirile
+51	2051	îndrăzni	îndrăznea îndrăzneam îndrăznească îndrăzneau îndrăznesc îndrăznește îndrăznești îndrăznii îndrăznim îndrăznind îndrăznit îndrăzniți
+52	2052	interpretare	interpretarea interpretări interpretării interpretările interpretărilor
+53	2053	împrumut	împrumutul împrumutului împrumuturi împrumuturile împrumuturilor
+54	2054	teritorial	teritoriala teritoriale teritoriali teritorială
+55	2055	lup	lupi lupii lupilor lupul lupule lupului
+56	2056	găti	gătea găteai găteam gătească găteau gătesc gătește gătești gătim gătind gătit gătiți
+57	2057	alică	alica alice alicei alicele
+58	2058	ura	urai uram urat urata urate uratul uratule urată urau urați urează urez ureze urezi urând urându urăm
+59	2059	nevoit	nevoita nevoite nevoită nevoiți
+60	2060	hrană	hrana hranei
+61	2061	zero	zerouri zerourile
+62	2062	politician	politicianul politicianului politicieni politicienii politicienilor
+63	2063	suprem	suprema supreme supremi supremul supremă
+64	2064	cavaler	cavalere cavaleri cavalerii cavalerilor cavalerul cavalerule cavalerului
+65	2065	pază	paza pazei
+66	2066	electronic	electronica electronice electronicele electronicelor electronici electronicii
+67	2067	atelier	ateliere atelierele atelierelor atelierul atelierului
+68	2068	ciclu	ciclul ciclului cicluri ciclurile ciclurilor
+69	2069	referitor	referitoare
+70	2070	specialitate	specialitatea specialități specialitățile
+71	2071	parcare	parcarea parcarii parcări parcării parcările parcărilor
+72	2072	întâmplare	întâmplarea întâmplări întâmplării întâmplările întâmplărilor întîmplare
+73	2073	favorit	favorita favorite favoritei favoritele favoritul favoritului favorită favoriți favoriții favoriților
+74	2074	mătușă	mătușa mătuși mătușică mătușii mătușile mătușilor mătușo
+75	2075	plasa	plasam plasat plasate plasată plasați plasează plasez plaseze plasezi plasând plasăm
+76	2076	buză	buza buze buzei buzele buzelor
+77	2077	romantic	romantica romantice romantici romanticii romanticul romantică
+78	2078	strategie	strategia strategiei strategii strategiile strategiilor
+79	2079	miez	miezul miezului miezuri miezurile
+80	2080	solar	solara solare solari solarul solară
+81	2081	șerif	șerifi șerifii șerifilor șeriful șerifule șerifului
+82	2082	chef	cheful chefului chefuri chefurile
+83	2083	argint	argintul argintului arginți arginții
+84	2084	experiment	experimente experimentele experimentelor experimentul experimentului
+85	2085	mister	mistere misterele misterelor misterul misterului
+86	2086	rugăciune	rugăciunea rugăciuni rugăciunii rugăciunile rugăciunilor
+87	2087	distrugere	distrugerea distrugeri distrugerii distrugerile distrugerilor
+88	2088	mișto	
+89	2089	dormitor	dormitoare dormitoarele dormitoarelor dormitorul dormitorului
+90	2090	baterie	bateria bateriei baterii bateriile bateriilor
+91	2091	regizor	regizoare regizori regizorii regizorilor regizorul regizorului
+92	2092	faimos	faimoasa faimoase faimoasei faimoasele faimoasă faimosul faimosului faimoși faimoșii
+93	2093	masiv	masiva masive masivele masivi masivul masivului masivă
+94	2094	apăsa	apasă apese apeși apăs apăsai apăsam apăsat apăsați apăsând apăsă apăsăm
+95	2095	tonă	tona tone tonele tono
+96	2096	asemănător	asemănătoare asemănători
+97	2097	lin	lina line linei lini linii lină
+98	2098	manager	manageri managerii managerilor managerul managerului
+99	2099	curge	curg curgea curgeau curgi curgând curgându curgă curse cursei
+100	2100	imens	imensa imense imensei imensele imensul imensului imensă imenși

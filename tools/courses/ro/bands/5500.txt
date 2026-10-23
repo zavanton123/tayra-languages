@@ -1,0 +1,100 @@
+1	5401	seră	sera sere serei serele sero
+2	5402	amelie	amelia ameliei amelio
+3	5403	alimentație	alimentația alimentației
+4	5404	tribal	tribala tribale tribali tribală
+5	5405	umflat	umflata umflate umflato umflatul umflatule umflată umflați
+6	5406	zoologic	zoologica zoologice zoologică
+7	5407	ciumă	ciuma ciume ciumei
+8	5408	prindere	prinderea prinderi prinderii
+9	5409	cincizeci	cincizecea
+10	5410	sodiu	sodiul sodiului
+11	5411	acumula	acumulat acumulați acumulează acumulez acumuleze acumulezi acumulând acumulăm
+12	5412	zadar	
+13	5413	extras	extrase extrasele extrasul extrasă extrași
+14	5414	dintâi	
+15	5415	urnă	urna urne urnei urnele urnelor
+16	5416	presupunere	presupunerea presupuneri presupunerii presupunerile presupunerilor
+17	5417	vestiar	vestiare vestiarele vestiarelor vestiarul vestiarului
+18	5418	repartizat	repartizata repartizate repartizată repartizați
+19	5419	party	
+20	5420	cinematografie	cinematografia cinematografiei
+21	5421	restabili	restabilească restabilesc restabilește restabilești restabilim restabilit restabilita restabilite restabilită restabiliți
+22	5422	naționalitate	naționalitatea naționalități naționalității naționalitățile naționalităților
+23	5423	got	goți goții goților
+24	5424	adolescență	adolescența adolescenței
+25	5425	umil	umila umile umilei umilele umili umilii umilul umilului umilă
+26	5426	discipol	discipoli discipolii discipolilor discipolul discipolului
+27	5427	pornire	pornirea porniri pornirii pornirile pornirilor
+28	5428	gelozie	gelozia geloziei gelozii
+29	5429	transpira	transpir transpirai transpiram transpirat transpirau transpirați transpire transpiri transpirând transpiră transpirăm
+30	5430	reîntoarce	reîntoarcem reîntoarceți reîntoarcă reîntorc reîntorci reîntors reîntorși
+31	5431	donator	donatoare donatoarea donatori donatorii donatorilor donatorul donatorului
+32	5432	dens	densa dense densă denși
+33	5433	complexitate	complexitatea complexității complexitățile
+34	5434	hemoragie	hemoragia hemoragiei hemoragii hemoragiile
+35	5435	guverna	guvernat guvernați guvernează guvernez guverneze guvernezi guvernăm
+36	5436	medieval	medievala medievale medievali
+37	5437	bătrânețe	bătrânețea bătrâneți bătrâneții bătrânețile
+38	5438	diagnostica	diagnosticat diagnosticate diagnosticată diagnosticați diagnostichez diagnosticheze diagnostichezi diagnosticăm
+39	5439	extensie	extensia extensii extensiile extensiilor
+40	5440	înmormânta	înmormântam înmormântat înmormântate înmormântată înmormântați înmormântează înmormântez înmormânteze înmormântezi înmormântăm
+41	5441	agitație	agitația agitației agitații
+42	5442	ceată	ceata cete cetei cetele
+43	5443	pulbere	pulberea pulberi pulberii
+44	5444	confisca	confisc confiscam confiscat confiscați confiscă confiscăm confiște confiști
+45	5445	funerar	funerara funerare funerarii funerară
+46	5446	iudă	iuda iudei
+47	5447	dezavantaj	dezavantaje dezavantajele dezavantajul
+48	5448	marmură	marmura
+49	5449	electromagnetic	electromagnetica electromagnetice electromagnetică
+50	5450	repertoriu	repertoriul repertoriului
+51	5451	croazieră	croaziera croaziere croazierei croazierele
+52	5452	ideologic	ideologica ideologice ideologică
+53	5453	sârmă	sârma sârme sârmei sârmele
+54	5454	frână	frâna frâne frânei frânele frânelor
+55	5455	pestă	pesta pestei pestele pesto
+56	5456	picnic	picnicul picnicului picnicuri picnicurile
+57	5457	priză	prize prizei prizele
+58	5458	labirint	labirintul labirintului labirinturi labirinturile
+59	5459	certitudine	certitudinea certitudini certitudinii certitudinile
+60	5460	coca	
+61	5461	slatină	slatina
+62	5462	corespondent	corespondenta corespondenti corespondentul corespondentă corespondenți corespondenții corespondenților
+63	5463	etic	etica etice etici eticii
+64	5464	zdrobit	zdrobita zdrobite zdrobită zdrobiți
+65	5465	progresiv	progresiva progresive progresivi progresivă
+66	5466	economist	economistul economiști economiștii
+67	5467	actualitate	actualitatea actualități
+68	5468	sinonim	sinonime sinonimul sinonimă
+69	5469	bețiv	bețiva bețive bețivi bețivii bețivilor bețivo bețivul bețivule bețivului bețivă
+70	5470	schelet	schelete scheletele scheletelor scheletul scheletului
+71	5471	dornă	dorna dorne dornei
+72	5472	englezi	englezește englezești englezii
+73	5473	soc	soci socul socului
+74	5474	simulare	simularea simulări simulării simulările simulărilor
+75	5475	savura	savuram savurat savurată savurați savurează savurez savureze savurezi savurând savurăm
+76	5476	hochei	hocheiul hocheiului
+77	5477	anulare	anularea anulări anulării anulările
+78	5478	forte	
+79	5479	curățare	curățarea curățire curățirea curățării
+80	5480	prădător	prădătoare prădători prădătorii prădătorilor prădătorului
+81	5481	actualizare	actualizarea actualizări actualizările
+82	5482	filarmonică	filarmonica filarmonicii
+83	5483	săritură	săritura sărituri săriturii săriturile săriturilor
+84	5484	evanghelic	evanghelica evanghelice evanghelici evanghelică
+85	5485	omucidere	omuciderea omucideri omuciderii omuciderile omuciderilor
+86	5486	sanctuar	sanctuare sanctuarele sanctuarelor sanctuarul sanctuarului
+87	5487	relief	relieful reliefului reliefuri
+88	5488	reforma	reformat reformate reformată reformați reformează reformez reformeze reformezi
+89	5489	umili	umila umilea umilească umilesc umilește umilești umilii umilim umilindu umilit umiliți
+90	5490	derivă	deriva derivați
+91	5491	look	lookul
+92	5492	beta	
+93	5493	deosebi	deosebea deosebească deosebesc deosebește deosebești deosebim deosebiți
+94	5494	metaforă	metafora metafore metaforei metaforele
+95	5495	jucătoare	jucătoarea jucătoarele
+96	5496	răsturna	răstoarne răstoarnă răstorn răstorni răsturnat răsturnați răsturnând răsturnăm
+97	5497	blindat	blindata blindate blindatele blindatelor blindatul blindată blindați
+98	5498	statie	statia statiei statii statiile statiilor
+99	5499	decan	decane decanul decanule decanului
+100	5500	jet	jetul jetului jeturi jeturile jeturilor

@@ -1,0 +1,100 @@
+1	3201	placa	placam placat placate placată placați plachează plachez placheze plachezi
+2	3202	gusta	gustam gustat gustați guste gustând gustă gustăm guști
+3	3203	uz	uzul uzului
+4	3204	trădare	trădarea trădări trădării trădările
+5	3205	caracteristic	caracteristica caracteristice caracteristici caracteristicilor
+6	3206	senior	senioară seniora seniore seniori seniorii seniorilor seniorul seniorului
+7	3207	ostatic	ostatec ostatica ostatice ostaticei ostatici ostaticii ostaticilor ostaticul ostaticului ostatică
+8	3208	cauciuc	cauciucul cauciucului cauciucuri cauciucurile cauciucurilor
+9	3209	vărsa	vars varsă verse verși vărs vărsam vărsat vărsați vărsând vărsă vărsăm
+10	3210	prietenos	prietenoasa prietenoase prietenoasă prietenosul prietenoși
+11	3211	matur	matura mature maturi maturii matură
+12	3212	platou	platoul platoului platouri platourile
+13	3213	spaniolă	spaniola spaniole
+14	3214	cumpărat	cumpărate cumpăratul cumpărată cumpărați
+15	3215	dană	dana dane danei
+16	3216	decent	decenta decente decentei decentă decenți
+17	3217	douăzeci	douăzecea douăzecilea
+18	3218	ficat	ficatul ficatului ficați ficații
+19	3219	menținere	menținerea menținerii
+20	3220	razna	
+21	3221	învârti	învârt învârte învârtea învârteai învârteam învârtească învârteau învârtesc învârtește învârtești învârtim învârtind învârtindu învârtit învârtiți învârtă învârți
+22	3222	greacă	greaca greci grecii
+23	3223	exprimat	exprimata exprimate exprimată exprimați
+24	3224	ambasadă	ambasada ambasade ambasadei ambasadele ambasadelor
+25	3225	transformat	transformata transformate transformată transformați
+26	3226	rade	rad radem radeți ras rase razi rădea rădeam
+27	3227	african	africana africane africani africanii africanilor africanul africană
+28	3228	parfum	parfumul parfumului parfumuri parfumurile parfumurilor
+29	3229	certificat	certificate certificatele certificatelor certificatul certificatului certificată
+30	3230	cuptor	cuptoare cuptoarele cuptoarelor cuptorul cuptorului
+31	3231	aranjament	aranjamente aranjamentele aranjamentelor aranjamentul aranjamentului
+32	3232	psihic	psihica psihice psihici psihicul psihicului psihică
+33	3233	ocupare	ocuparea ocupării
+34	3234	adecvat	adecvata adecvate adecvată adecvați
+35	3235	seminar	seminarii seminariile seminarul seminarului
+36	3236	creastă	creasta creste crestei crestele crestelor
+37	3237	evada	evadam evadase evadat evadați evadează evadez evadeze evadezi evadând evadăm
+38	3238	încălzi	încălzea încălzeam încălzească încălzeau încălzesc încălzește încălzești încălzim încălzind încălzindu încălzit încălziți
+39	3239	etnic	etnica etnice etnici etnicii etnicilor etnică
+40	3240	paradis	paradisul paradisului paradisuri paradisurile
+41	3241	cotidian	cotidianul cotidianului cotidiană cotidiene
+42	3242	transferat	transferata transferate transferată transferați
+43	3243	undă	unda undei undele undelor undo
+44	3244	împușcat	împușcata împușcate împușcatul împușcată împușcați
+45	3245	lumânare	lumânarea lumânărele lumânări lumânărică lumânării lumânările lumânărilor
+46	3246	franc	franca france franci francii francilor francul
+47	3247	glob	globi globii globilor globul globule globului globuri globurile globurilor
+48	3248	luminos	luminoasa luminoase luminoasă luminoși
+49	3249	valora	valoram valorat valorau valorați valorează valorez valoreze valorezi valorând valorăm
+50	3250	afurisit	afurisita afurisite afurisitei afurisitele afurisitelor afurisitul afurisitului afurisită afurisiți afurisiții afurisiților
+51	3251	oficiu	oficii oficiile oficiul oficiului
+52	3252	salt	saltul saltului salturi salturile salturilor
+53	3253	teză	teza teze tezei tezele tezelor tezo
+54	3254	lăuda	laud laude lauzi lăudai lăudam lăudat lăudau lăudați lăudând lăudându lăudă lăudăm
+55	3255	proiectare	proiectarea proiectării
+56	3256	iluzie	iluzia iluziei iluzii iluziile iluziilor
+57	3257	avertisment	avertismente avertismentele avertismentelor avertismentul avertismentului
+58	3258	marinar	marinari marinarii marinarilor marinarul marinarule marinarului mariner
+59	3259	excelență	excelența excelenței excelențele
+60	3260	tatuaj	tatuaje tatuajele tatuajelor tatuajul tatuajului
+61	3261	delegație	delegația delegației delegații delegațiile
+62	3262	doctorat	doctorate doctoratul doctoratului
+63	3263	blând	blânda blânde blândele blândul blândă blânzi blînd
+64	3264	refugiat	refugiate refugiatul refugiată refugiați refugiații refugiaților
+65	3265	portal	portalul portalului portaluri portalurile portalurilor portală
+66	3266	revenire	revenirea reveniri revenirii revenirile
+67	3267	nepotrivit	nepotrivita nepotrivite nepotrivită nepotriviți
+68	3268	impuls	impulsul impulsului impulsuri impulsurile impulsurilor
+69	3269	binecuvânta	binecuvântam binecuvântat binecuvântați binecuvântează binecuvântez binecuvânteze binecuvântezi binecuvântăm
+70	3270	alee	aleea alei aleii aleile aleilor
+71	3271	fermier	fermieri fermierii fermierilor fermierul fermierule fermierului fermieră
+72	3272	diplomatic	diplomatica diplomatice diplomatici diplomatică
+73	3273	burtă	burta burtică burți burții burțile
+74	3274	chitară	chitara chitare chitarei chitarele ghitară
+75	3275	tigru	tigri tigrii tigrilor tigrul tigrule tigrului
+76	3276	anonim	anonima anonime anonimi anonimii anonimul anonimă
+77	3277	noutate	noutatea noutăți noutățile
+78	3278	pașaport	pasaport pașapoarte pașapoartele pașapoartelor pașaportul pașaportului
+79	3279	clinic	clinica clinice clinici clinicii clinicilor
+80	3280	amiral	admiral amirali amiralii amiralul amiralului
+81	3281	separa	separ separam separat separau separați separe separi separând separă separăm
+82	3282	rotund	rotunda rotunde rotundă rotunjor rotunzi
+83	3283	nod	nodul noduli nodulii nodului nodulul noduri nodurile nodurilor
+84	3284	gravidă	gravida gravide gravidei gravidele gravidelor
+85	3285	moștenitor	moștenitoare moștenitoarea moștenitoarei moștenitori moștenitorii moștenitorilor moștenitorul moștenitorului
+86	3286	generat	generata generate generată generați generații
+87	3287	electronică	electronica electronici electronicii
+88	3288	sculă	scula scule sculei sculele sculelor
+89	3289	poștă	postă poșta poștei
+90	3290	regreta	regretam regretat regretata regretatul regretatului regretați regretând regretă regretăm regreți
+91	3291	revoltă	revolta revolte revoltei revoltele revoltelor
+92	3292	căpăta	capete capeți capătă căpătase căpătat căpătați căpătând căpătăm
+93	3293	esență	esența esențe esenței esențelor
+94	3294	slăbi	slăbea slăbească slăbesc slăbește slăbești slăbim slăbind slăbise slăbit slăbiți
+95	3295	schemă	schema scheme schemei schemele schemelor
+96	3296	însuți	însăți înșivă
+97	3297	laș	lace lașa lașe lași lașii lașilor lașul lașului lașă
+98	3298	implicare	implicarea implicări implicării
+99	3299	căsnicie	căsnicia căsniciei căsnicii căsniciile căsniciilor
+100	3300	chirie	chiria chiriei chirii chiriile chiriilor

@@ -1,0 +1,100 @@
+1	6501	păzit	păzite păzitul păzită păziți
+2	6502	garderobă	garderoba garderobe garderobei
+3	6503	ruinat	ruinata ruinate ruinată ruinați
+4	6504	productivitate	productivitatea productivității
+5	6505	ignorat	ignorata ignorate ignorată ignorați
+6	6506	bordel	bordelul bordelului bordeluri bordelurile bordelurilor
+7	6507	intuiție	intuiția intuiției intuiții intuițiile
+8	6508	robinet	robinete robinetele robinetul robinetului
+9	6509	subofițer	subofițeri subofițerii subofițerul subofițerului
+10	6510	vui	ui vuia vuiesc vuiește
+11	6511	coliziune	coliziunea coliziuni coliziunii coliziunile coliziunilor
+12	6512	sătul	sătui sătule sătulă
+13	6513	importat	importata importate importată importați
+14	6514	geamăt	geamătul gemete gemetele
+15	6515	manea	manele
+16	6516	remediu	remedii remediile remediul remediului
+17	6517	raliu	raliul raliului raliuri
+18	6518	supunere	supunerea supunerii
+19	6519	mortalitate	mortalitatea mortalități mortalității
+20	6520	canion	canioane canioanele canioanelor canionul canionului
+21	6521	otrăvitor	otrăvitoare otrăvitori otrăvitorul
+22	6522	distanța	distanțat distanțate distanțați distanțează distanțez distanțeze distanțezi distanțăm
+23	6523	variabil	variabila variabile variabilele
+24	6524	fabricație	fabricației
+25	6525	culisă	culise culisele
+26	6526	vicar	vicari vicarul vicarule vicarului
+27	6527	învinui	învinuia învinuiască învinuiesc învinuiește învinuiești învinuim învinuit învinuiți
+28	6528	schimbărie	schimbării
+29	6529	derula	derulam derulat derulau derulați derulează derulez deruleze derulezi derulându derulăm
+30	6530	formidabil	formidabila formidabile formidabili formidabilul formidabilă
+31	6531	adopție	adopția adopției adopții adopțiile adopțiilor
+32	6532	uzat	uzata uzate uzată uzați
+33	6533	demis	demisa demise demisă demiși
+34	6534	optică	optica optici
+35	6535	mântuitor	mântuitorul mântuitorule mântuitorului
+36	6536	aluzie	aluzia aluzii aluziile
+37	6537	toxină	toxina toxine toxinei toxinele toxinelor
+38	6538	geometric	geometrice geometrică
+39	6539	funciar	funciare funciară
+40	6540	înfrânt	înfrânta înfrânte înfrântă înfrânți
+41	6541	furtun	furtunul furtunului furtunuri furtunurile
+42	6542	subiectiv	subiectiva subiective subiectivă
+43	6543	competent	competenta competente competentele competentelor competentă competenți
+44	6544	adoptiv	adoptiva adoptive adoptivi adoptivă
+45	6545	eclipsă	eclipsa eclipse eclipsei eclipsele eclipselor
+46	6546	diacon	diaconi diaconii diaconul diaconului
+47	6547	cioban	ciobani ciobanii ciobanilor ciobanul ciobanului
+48	6548	privit	privitul privită
+49	6549	flanc	flancul flancului flancuri flancurile
+50	6550	conforma	conformat conformați conformează conformez conformeze conformezi conformă conformăm
+51	6551	doliu	doliul doliului
+52	6552	moaște	moaștele moaștelor
+53	6553	consultanță	consultanța
+54	6554	amoros	amoroasa amoroase amoroasă
+55	6555	nat	nații
+56	6556	unsprezece	unsprezecea unsprezecelea unșpe
+57	6557	inspectorat	inspectoratul inspectoratului
+58	6558	reparare	repararea reparării
+59	6559	pescui	pescuia pescuiai pescuiam pescuiască pescuiau pescuiesc pescuiește pescuiești pescuim pescuind pescuiți
+60	6560	obscur	obscura obscure obscuri obscurul obscură
+61	6561	țânțar	țânțari țânțarii țânțarilor țânțarul țânțarului
+62	6562	botezător	botezătorul
+63	6563	unificare	unificarea unificării
+64	6564	preliminare	
+65	6565	op	
+66	6566	capotă	capota capote capotei
+67	6567	scriptură	scriptura scripturi scripturii
+68	6568	intrigă	intriga intrigi intrigii intrigile intrigilor
+69	6569	eden	edenul edenului
+70	6570	venera	veneram venerat venerau venerați venerează venerez venereze venerezi venerând venerăm
+71	6571	maxwell	
+72	6572	plantație	plantația plantației plantații plantațiile plantațiilor
+73	6573	furnizare	furnizarea furnizării
+74	6574	funie	funia funiei funii funiile
+75	6575	sanie	sania saniei sănii săniile
+76	6576	criminalitate	criminalitatea criminalității
+77	6577	prejudecată	prejudecata prejudecăți prejudecății prejudecățile prejudecăților
+78	6578	clauză	clauza clauze clauzei clauzele clauzelor
+79	6579	uzual	uzuala uzuale uzuali uzuală
+80	6580	penibil	penibila penibile penibili penibilul penibilă
+81	6581	intercepta	interceptam interceptat interceptați interceptează interceptez intercepteze interceptezi interceptă interceptăm
+82	6582	ancora	ancoram ancorat ancorata ancorate ancorată ancorați ancorează ancorez ancoreze ancorezi ancorăm
+83	6583	cilindru	cilindri cilindrii cilindrul cilindrului
+84	6584	detectare	detectarea detectării
+85	6585	suferind	suferinda suferinde suferindă suferinzi suferinzii suferinzilor
+86	6586	bridge	
+87	6587	poliță	polița polițe poliței polițele
+88	6588	antecedent	antecedente antecedentele antecedentelor
+89	6589	scuipă	scuipa scuipe
+90	6590	comandor	comandorul comandorule comandorului
+91	6591	plictiseală	plictiseala plictiselii
+92	6592	săpătură	săpătura săpături săpăturile săpăturilor
+93	6593	fisă	fisa fise fisele fiselor
+94	6594	deghizat	deghizata deghizate deghizată deghizați
+95	6595	mira	mirai miram mirat mirată mirați miri mirăm
+96	6596	castron	castroane castroanele castronel castronul castronului
+97	6597	comitat	comitate comitatele comitatul comitatului
+98	6598	sfida	sfidat sfidați sfidează sfidez sfideze sfidezi sfidând sfidăm
+99	6599	consul	consulul consulului
+100	6600	dezvăluit	dezvăluite dezvăluită dezvăluiți

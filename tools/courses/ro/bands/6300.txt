@@ -1,0 +1,100 @@
+1	6201	regla	reglam reglat reglate reglată reglați reglează reglez regleze reglezi reglând reglăm
+2	6202	erupție	erupția erupției erupții erupțiile erupțiilor
+3	6203	oboseală	oboseala oboselii
+4	6204	premisă	premisa premise premisele premiză
+5	6205	chilie	chilia chilii chiliile
+6	6206	bit	bitul biți
+7	6207	vârcolac	vârcolaci vârcolacii vârcolacilor vârcolacul vârcolacule vârcolacului
+8	6208	eticheta	etichetam etichetat etichetata etichetate etichetată etichetați etichetează etichetez eticheteze etichetezi etichetăm
+9	6209	țărănesc	țărănească țărănești
+10	6210	potasiu	potasiul potasiului
+11	6211	locomotivă	locomotiva locomotive locomotivei locomotivele
+12	6212	omite	omis omise omit omitem omiteți omită omiți omițând
+13	6213	usturoi	usturoiul
+14	6214	captiv	captiva captive captivi captivii captivul captivă
+15	6215	ofta	oftează oftez oftezi oftând oftă
+16	6216	șantaja	șantajai șantajam șantajat șantajau șantajați șantajează șantajez șantajeze șantajezi șantajând șantajăm
+17	6217	chips	chipsuri chipsurile
+18	6218	releva	relevat releve relevă
+19	6219	iepuraș	iepurași iepurașii iepurașilor iepurașul iepurașule iepurașului
+20	6220	suliță	sulița sulițe suliței sulițele
+21	6221	crocodil	crocodili crocodilii crocodililor crocodilul crocodilule crocodilului
+22	6222	dezbate	dezbat dezbatem dezbateți dezbată dezbați dezbătut dezbătute dezbătută
+23	6223	orizontală	orizontala orizontale
+24	6224	analist	analistul analistului analistă analiști analiștii analiștilor
+25	6225	monarhie	monarhia monarhiei monarhii monarhiile
+26	6226	redactat	redactate redactată
+27	6227	anticipat	anticipata anticipate anticipată anticipați
+28	6228	lori	
+29	6229	droga	drogai drogam drogase drogatu drogau drogați droghează droghez drogheze droghezi drogându drogăm
+30	6230	consulat	consulatul consulatului
+31	6231	metan	metanul metanului
+32	6232	mentă	menta mentei mento mintă
+33	6233	dominație	dominația dominației
+34	6234	ambalaj	ambalaje ambalajele ambalajul ambalajului
+35	6235	monahal	monahale monahală
+36	6236	secetă	seceta secete secetei secetele
+37	6237	tangou	tango tangoul tangoului tangouri
+38	6238	risipi	risipească risipesc risipește risipești risipim risipind risipit risipiți
+39	6239	nicidecum	
+40	6240	poziționat	poziționate poziționată poziționați
+41	6241	franțuzesc	franțuzească franțuzești
+42	6242	neglijat	neglijata neglijate neglijată neglijați
+43	6243	devotament	devotamentul devotamentului
+44	6244	iminent	iminenta iminente iminentul iminentă
+45	6245	hărțuire	hărțuirea hărțuiri hărțuirii
+46	6246	rating	ratingul ratinguri ratingurile
+47	6247	constructiv	constructiva constructive constructivi constructivă
+48	6248	putrezi	putrezea putrezească putrezeau putrezesc putrezește putrezești putrezim putrezind putrezit putrezita putrezite putrezită putreziți
+49	6249	aspirație	aspirația aspirații aspirațiile aspirațiilor
+50	6250	anexa	anexat anexate anexată anexează anexez anexeze
+51	6251	adormire	adormirea adormirii
+52	6252	jandarmerie	jandarmeria jandarmeriei
+53	6253	speculație	speculația speculații speculațiile speculațiilor
+54	6254	perfecționare	perfecționarea
+55	6255	rabin	rabini rabinii rabinilor rabinul rabinule rabinului
+56	6256	bombardier	bombardiere bombardierele bombardierelor bombardieri bombardierii bombardierul bombardierului
+57	6257	ușurare	ușurarea
+58	6258	reconstrui	reconstruiască reconstruiesc reconstruiește reconstruiești reconstruim reconstruind reconstruit reconstruiți
+59	6259	luceafăr	luceafărul
+60	6260	stagiar	stagiara stagiare stagiarei stagiarele stagiari stagiarii stagiarilor stagiarul stagiarului stagiară
+61	6261	implementa	implementam implementat implementați implementează implementez implementeze implementezi implementăm
+62	6262	insuficiență	insuficiența insuficiențe insuficienței
+63	6263	consult	consultul
+64	6264	moralitate	moralitatea moralității
+65	6265	sas	sasul sasului sasurile sași sașii sașilor
+66	6266	lingvistică	lingvistica
+67	6267	întâmpinat	întâmpinate întâmpinată întâmpinați
+68	6268	numărătoare	numărătoarea numărători
+69	6269	cerut	cerute cerutul cerută ceruți
+70	6270	redare	redarea
+71	6271	igienă	igiena igienei
+72	6272	riguros	riguroase riguroasă riguroși
+73	6273	multimedia	
+74	6274	demara	demarat demarate demarată demarați demarează demarez demareze demarezi demarând demarăm
+75	6275	acvatic	acvatica acvatice acvatici acvaticii acvaticul acvatică
+76	6276	mobilizare	mobilizarea
+77	6277	optime	optimi optimile
+78	6278	bade	badea
+79	6279	sintagmă	sintagma sintagme sintagmei
+80	6280	tracțiune	tracțiunea tracțiuni tracțiunii
+81	6281	flirta	flirtai flirtam flirtat flirtau flirtați flirtează flirtez flirteze flirtezi flirtând flirtăm
+82	6282	enzimă	enzima enzime enzimei enzimele enzimelor
+83	6283	încrucișat	încrucișate încrucișată încrucișați
+84	6284	suspicios	suspicioasa suspicioase suspicioasă suspicioși
+85	6285	publicitar	publicitara publicitare publicitară
+86	6286	atlet	atleta atlete atletul atletului atletă atleți atleții atleților
+87	6287	reluare	reluarea reluări reluările
+88	6288	atestat	atestate atestatul atestată atestați
+89	6289	portabil	portabila portabile portabilă
+90	6290	performant	performanta performante performantei performantele performantă
+91	6291	echilibrat	echilibrata echilibrate echilibrată echilibrați
+92	6292	coborât	coborâte coborâtul coborâtă coborâți
+93	6293	complica	complic complicam complicați complici complică complicăm
+94	6294	specificație	specificații specificațiile specificațiilor
+95	6295	moschee	moscheea moscheei moscheele moschei moscheii moscheile
+96	6296	ospitalitate	ospitalitatea ospitalității
+97	6297	land	landul
+98	6298	evoca	evoc evocat evoce evocând evocă
+99	6299	mutant	mutantul mutantule mutantului mutanți mutanții mutanților
+100	6300	sculptat	sculptata sculptate sculptată sculptați

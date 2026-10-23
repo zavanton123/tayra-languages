@@ -1,0 +1,100 @@
+1	1701	modă	moda mode modei modele modo
+2	1702	grămadă	grămada grămezi grămezii grămezile grămăjoară
+3	1703	monstru	monstrul monstrule monstrului monștri monștrii monștrilor
+4	1704	ghici	ghicea ghiceam ghicească ghicesc ghicește ghicești ghicim ghicind ghicit ghicite ghicitul ghiciți
+5	1705	niciunul	niciuna niciunele niciunii
+6	1706	existent	existenta existente existentei existentă existenți
+7	1707	plată	plata plato plăți plății plățile plăților
+8	1708	recupera	recuperam recuperase recuperat recuperați recuperează recuperez recupereze recuperezi recuperând recuperându recuperăm
+9	1709	maestru	maestrul maestrule maestrului maestră maeștri maeștrii maeștrilor
+10	1710	oricând	
+11	1711	judecată	judecăți judecății judecățile
+12	1712	turn	turnul turnule turnulețe turnului turnuri turnurile turnurilor
+13	1713	trib	tribul tribului triburi triburile triburilor
+14	1714	candidat	candidata candidatele candidatelor candidatul candidatului candidată candidați candidații candidaților
+15	1715	mormânt	morminte mormintele mormintelor mormântul mormântului mormînt
+16	1716	capitol	capitole capitolele capitolelor capitolul capitolului
+17	1717	apropo	app apropoul apropouri
+18	1718	feminin	feminina feminine feminini femininul feminină
+19	1719	pictură	pictura picturi picturii picturile picturilor
+20	1720	potențial	potențiala potențiale potențialele potențialelor potențiali potențialii potențialilor potențialul potențialului potențială
+21	1721	pistol	pistoale pistoalele pistoalelor pistolul pistolului
+22	1722	vota	votam votat votau votați votează votez voteze votezi votând votăm
+23	1723	europeu	europei
+24	1724	desen	desene desenele desenelor desenul desenului
+25	1725	vacanță	vacanța vacanțe vacanței vacanțele vacanțelor
+26	1726	fermă	ferma ferme fermei fermele fermelor
+27	1727	senator	senatoare senatori senatorii senatorilor senatorul senatorule senatorului
+28	1728	literar	literara literare literari literară
+29	1729	gaură	gaura gaurile găuri găurică găurii găurile găurilor
+30	1730	scor	score scorul scorului scoruri scorurile
+31	1731	umbla	umblai umblam umblat umblau umblați umble umbli umblu umblând umblă umblăm
+32	1732	sergent	sergentul sergentule sergentului sergenți sergenții sergenților
+33	1733	aplicat	aplicata aplicate aplicată aplicați aplicații
+34	1734	împiedica	împiedeca împiedecat împiedic împiedicam împiedicat împiedicata împiedicate împiedicatul împiedicată împiedicau împiedicați împiedice împiedici împiedicând împiedicându împiedică împiedicăm
+35	1735	cifră	cifra cifrat cifrate cifrată cifre cifrei cifrele cifrelor
+36	1736	județean	județeană județene
+37	1737	arestat	arestata arestate arestatul arestată arestați arestații
+38	1738	trafic	traficul traficului
+39	1739	profesional	profesionala profesionale profesionali profesională
+40	1740	piept	pieptul pieptului piepturi piepturile
+41	1741	șofer	șoferi șoferii șoferilor șoferiță șoferul șoferule șoferului
+42	1742	nevastă	nevasta neveste nevestei nevestele nevestelor nevestică
+43	1743	înființa	înființase înființat înființate înființată înființați înființează înființez înființeze înființezi înființăm
+44	1744	sovietic	sovietica sovietice sovietici sovieticii sovieticilor sovietică
+45	1745	aripă	aripa aripi aripii aripile aripilor aripioare aripioară
+46	1746	ocean	oceane oceanele oceanelor oceanul oceanului
+47	1747	procuror	procurori procurorii procurorilor procurorul procurorule procurorului
+48	1748	dispus	dispusa dispuse dispusă dispuși
+49	1749	chinez	chineza chineze chinezi chinezii chinezilor chinezul chinezule chinezului chineză
+50	1750	toamnă	toamna toamne toamnei
+51	1751	sol	soli solii solilor solul solului soluri solurile solurilor
+52	1752	revoluție	revoluția revoluției revoluții revoluțiile revoluțiilor
+53	1753	context	contexte contextul contextului
+54	1754	contacta	contactam contactat contactate contactată contactați contactează contactez contacteze contactezi contactăm
+55	1755	monedă	moneda monede monedei monedele monedelor monezi monezii monezile monezilor
+56	1756	instanță	instanța instanțe instanței instanțele instanțelor
+57	1757	locație	locația locației locații locațiile locațiilor
+58	1758	distracție	distracția distracției distracții distracțiile distracțiilor
+59	1759	ședință	ședința ședințe ședinței ședințele ședințelor
+60	1760	modalitate	modalitatea modalități modalității modalitățile
+61	1761	dispoziție	dispoziția dispoziției dispoziții dispozițiile dispozițiilor
+62	1762	speriat	speriata speriate speriati speriatul speriată speriați sperieți
+63	1763	card	cardul cardului carduri cardurile cardurilor
+64	1764	amenințare	amenințarea amenințări amenințării amenințările amenințărilor
+65	1765	pretinde	pretind pretindea pretindeai pretindeam pretindeau pretindem pretindeți pretindă pretins pretinsa pretinse pretinsele pretinsul pretinsă pretinzi pretinzând
+66	1766	sare	sarea sări sării săruri sărurile
+67	1767	ras	rasa rase rasei rasele raselor rasul rasului rasă rași
+68	1768	supraveghere	supravegherea supravegheri supravegherii supravegherile
+69	1769	sănătos	sănătoasa sănătoase sănătoasă sănătoși
+70	1770	catolic	catolica catolice catolici catolicii catolicilor catolicul catolică
+71	1771	incendiu	incendii incendiile incendiilor incendiul incendiului
+72	1772	regula	regulai regulam regulat regulata regulate regulatul regulată regulau regulați regulează regulez reguleze regulezi regulând regulăm
+73	1773	groaznic	groaznica groaznice groaznicele groaznici groaznicul groaznicului groaznică groznic
+74	1774	salvă	salva salve salvele salvo
+75	1775	duminică	duminecă duminica duminici duminicii duminicile
+76	1776	opțiune	opțiunea opțiuni opțiunile opțiunilor
+77	1777	denumire	denumirea denumiri denumirii denumirile denumirilor
+78	1778	agricol	agricola agricole agricoli agricolă
+79	1779	credit	credite creditele creditelor creditul creditului
+80	1780	bloc	blocul blocului blocuri blocurile blocurilor
+81	1781	mărturie	mărturia mărturiei mărturii mărturiile mărturiilor
+82	1782	viziune	viziunea viziuni viziunii viziunile viziunilor
+83	1783	fantomă	fantom fantoma fantome fantomei fantomele fantomelor
+84	1784	propunere	propunerea propuneri propunerii propunerile propunerilor
+85	1785	micuț	micuța micuțe micuței micuțele micuțelor micuți micuții micuților micuțul micuțului micuță
+86	1786	consecință	consecința consecințe consecințele consecințelor
+87	1787	deal	dealul dealului dealuri dealurile dealurilor
+88	1788	rezistență	rezistența rezistențe rezistenței
+89	1789	descriere	descrierea descrieri descrierii descrierile descrierilor
+90	1790	expresie	expresia expresiei expresii expresiile expresiilor
+91	1791	mască	masca mascat mascata mascate mascatul mascată mascați mascații maschează maschez mascheze maschezi mascăm măști măștii măștile măștilor
+92	1792	melodie	melodia melodiei melodii melodiile melodiilor
+93	1793	diavol	diavoli diavolii diavolilor diavoliță diavolul diavolule diavolului
+94	1794	interzis	interzisa interzise interzisă interziși
+95	1795	hrăni	hrănea hrăneai hrăneam hrănească hrăneau hrănesc hrănește hrănești hrănii hrănim hrănind hrănindu hrănit hrăniți
+96	1796	deștept	deșteapta deșteapto deșteaptă deștepte deșteptul deșteptule deștepți deștepții deștepților
+97	1797	digital	digitala digitale digitali digitalul digitală
+98	1798	fier	fer fiare fiarele fiarelor fierul fierului
+99	1799	salvare	salvarea salvări salvării salvările
+100	1800	destinat	destinata destinate destinată destinați destinații

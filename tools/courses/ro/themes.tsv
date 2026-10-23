@@ -1,0 +1,101 @@
+# id	rankUpTo	level	topic (English)	title (Romanian)
+ro-mini-0100	100	A1	Home and family	Acasă, în familie
+ro-mini-0200	200	A1	Everyday life	O zi obișnuită
+ro-mini-0300	300	A1	Food and shopping	Mâncare și cumpărături
+ro-mini-0400	400	A2	In the city	În oraș
+ro-mini-0500	500	A2	School and work	Școală și serviciu
+ro-mini-0600	600	A2	Free time and hobbies	Timp liber și pasiuni
+ro-mini-0700	700	A2	Health and the body	Sănătatea și corpul
+ro-mini-0800	800	A2	Travel and holidays	Călătorii și vacanțe
+ro-mini-0900	900	A2	Nature and the seasons	Natura și anotimpurile
+ro-mini-1000	1000	A2	Birthdays, parties and friends	Zile de naștere și prieteni
+ro-mini-1100	1100	B1	Living and housing	În căutarea unei locuințe
+ro-mini-1200	1200	B1	Memories	Amintiri
+ro-mini-1300	1300	B1	Jobs and training	Meserii și cursuri
+ro-mini-1400	1400	B1	Getting around	De aici până acolo
+ro-mini-1500	1500	B1	Money and shopping	Bani și buget
+ro-mini-1600	1600	B1	Experiencing culture	Un weekend cultural
+ro-mini-1700	1700	B1	Sport and exercise	Sport și mișcare
+ro-mini-1800	1800	B1	The environment in daily life	Mediul în viața de zi cu zi
+ro-mini-1900	1900	B1	Letters, messages and media	Scrisori, mesaje și presă
+ro-mini-2000	2000	B1	Neighbourhood	Cartierul
+ro-mini-2100	2100	B2	Cooking and food	Bucătărie și rețete
+ro-mini-2200	2200	B2	Body and mind	Trup și minte
+ro-mini-2300	2300	B2	The world of work	Lumea muncii
+ro-mini-2400	2400	B2	Science and technology	Știință și tehnologie
+ro-mini-2500	2500	B2	History you can touch	Istoria de lângă noi
+ro-mini-2600	2600	B2	Travelling in Romania	Călătorii prin România
+ro-mini-2700	2700	B2	Generations	Generații
+ro-mini-2800	2800	B2	Music	Muzică
+ro-mini-2900	2900	B2	Society and living together	Viața în comunitate
+ro-mini-3000	3000	B2	Small columns	Mici cronici
+ro-mini-3100	3100	B2	Home and decoration	Casa și amenajarea ei
+ro-mini-3200	3200	B2	Fashion and clothes	Modă și haine
+ro-mini-3300	3300	B2	The great outdoors	În aer liber
+ro-mini-3400	3400	B2	Traditional crafts	Meșteșuguri tradiționale
+ro-mini-3500	3500	B2	Technology and society	Tehnologie și societate
+ro-mini-3600	3600	B2	Rivers, lakes and the sea	Râuri, lacuri și mare
+ro-mini-3700	3700	B2	Books and language	Cărți și limbă
+ro-mini-3800	3800	B2	Everyday economics	Economia de zi cu zi
+ro-mini-3900	3900	B2	Village life	Viața la sat
+ro-mini-4000	4000	B2	City life columns	Cronici de oraș
+ro-mini-4100	4100	C1	Body and mind in daily life	Corpul și mintea, zi de zi
+ro-mini-4200	4200	C1	Architecture and heritage	Arhitectură și patrimoniu
+ro-mini-4300	4300	C1	Climate and energy	Clima și energia
+ro-mini-4400	4400	C1	Everyday paperwork	Acte și formulare
+ro-mini-4500	4500	C1	Film and television	Film și televiziune
+ro-mini-4600	4600	C1	Research and discovery	Cercetare și descoperire
+ro-mini-4700	4700	C1	Living far from home	Departe de casă
+ro-mini-4800	4800	C1	The mind in daily life	Psihologia de fiecare zi
+ro-mini-4900	4900	C1	Sport and society	Sportul și societatea
+ro-mini-5000	5000	C1	Short essays	Eseuri scurte
+ro-mini-5100	5100	C1	Archaeology and the past	Arheologie și trecut
+ro-mini-5200	5200	C1	The science of cooking	Știința gătitului
+ro-mini-5300	5300	C1	Landscapes	Peisaje
+ro-mini-5400	5400	C1	Caring for others	Grija pentru ceilalți
+ro-mini-5500	5500	C1	Visual arts	Arte vizuale
+ro-mini-5600	5600	C1	Journalism and media	Jurnalism și media
+ro-mini-5700	5700	C1	Transport and mobility	Transport și mobilitate
+ro-mini-5800	5800	C1	The Romanian language	Limba română
+ro-mini-5900	5900	C1	Starting a business	O afacere de la zero
+ro-mini-6000	6000	C1	Memoirs	Memorii
+ro-mini-6100	6100	C1	The universe and the stars	Universul și stelele
+ro-mini-6200	6200	C1	Mining and natural resources	Mine și resurse naturale
+ro-mini-6300	6300	C1	Food and health	Alimentație și sănătate
+ro-mini-6400	6400	C1	Theatre and stage	Teatru și scenă
+ro-mini-6500	6500	C1	Engineering	Inginerie
+ro-mini-6600	6600	C1	Farm to table	De la fermă la masă
+ro-mini-6700	6700	C1	Regions and ways of speaking	Regiuni și graiuri
+ro-mini-6800	6800	C1	Romanian literature	Literatura română
+ro-mini-6900	6900	C1	Numbers and reasoning	Numere și raționament
+ro-mini-7000	7000	C1	Travel columns	Însemnări de călătorie
+ro-mini-7100	7100	C1	Public health	Sănătate publică
+ro-mini-7200	7200	C1	Everyday philosophy	Filozofie de zi cu zi
+ro-mini-7300	7300	C1	Folk fairs and festivals	Târguri și festivaluri populare
+ro-mini-7400	7400	C1	Animal behaviour	Comportamentul animalelor
+ro-mini-7500	7500	C1	Work and the labour market	Munca și piața muncii
+ro-mini-7600	7600	C1	Cities of the world	Orașe ale lumii
+ro-mini-7700	7700	C1	Inventions and inventors	Invenții și inventatori
+ro-mini-7800	7800	C1	Public services	Servicii publice
+ro-mini-7900	7900	C1	Mountains and caves	Munți și peșteri
+ro-mini-8000	8000	C1	Family columns	Cronici de familie
+ro-mini-8100	8100	C2	The human body	Corpul omenesc
+ro-mini-8200	8200	C2	Prevention and resilience	Prevenție și reziliență
+ro-mini-8300	8300	C2	Design and craft	Design și meșteșug
+ro-mini-8400	8400	C2	Emotions and relationships	Emoții și relații
+ro-mini-8500	8500	C2	Explorers and travellers	Exploratori și călători
+ro-mini-8600	8600	C2	The forest	Pădurea
+ro-mini-8700	8700	C2	Advertising and communication	Publicitate și comunicare
+ro-mini-8800	8800	C2	Food culture in Romania	Cultura gastronomică
+ro-mini-8900	8900	C2	Traditional and classical music	Muzică tradițională și clasică
+ro-mini-9000	9000	C2	Essays on time	Eseuri despre timp
+ro-mini-9100	9100	C2	Chemistry and materials	Chimie și materiale
+ro-mini-9200	9200	C2	Maps and finding the way	Hărți și orientare
+ro-mini-9300	9300	C2	Tales and legends	Basme și legende
+ro-mini-9400	9400	C2	Rare professions	Meserii rare
+ro-mini-9500	9500	C2	Urban planning	Urbanism
+ro-mini-9600	9600	C2	Everyday physics	Fizica de zi cu zi
+ro-mini-9700	9700	C2	Gardens and botany	Grădini și botanică
+ro-mini-9800	9800	C2	Folk art and customs	Artă și obiceiuri populare
+ro-mini-9900	9900	C2	Ethics and living together	Etică și conviețuire
+ro-mini-10000	10000	C2	Learning and language	Învățare și limbaj

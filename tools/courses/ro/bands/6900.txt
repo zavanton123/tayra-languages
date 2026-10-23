@@ -1,0 +1,100 @@
+1	6801	respectabil	respectabila respectabile respectabili respectabilul respectabilă
+2	6802	înșelător	înșelătoare înșelători înșelătorii înșelătorul
+3	6803	mamifer	mamifere mamiferele mamiferelor
+4	6804	bugetar	bugetare bugetară
+5	6805	apogeu	apogeul
+6	6806	îngădui	îngăduie îngăduim îngăduit îngăduită îngăduiți
+7	6807	cenușiu	cenușie cenușii cenușiul
+8	6808	inacceptabil	inacceptabila inacceptabile inacceptabilă
+9	6809	ipocrit	ipocrita ipocrite ipocrito ipocritul ipocritule ipocrită ipocriți ipocriții ipocriților
+10	6810	generalizat	generalizata generalizate generalizată
+11	6811	condoleanțe	
+12	6812	șurub	șurubul șuruburi șuruburile
+13	6813	cumsecade	
+14	6814	tânji	tânjea tânjeai tânjeam tânjească tânjeau tânjesc tânjește tânjești tânjim tânjind tânjit tânjiți
+15	6815	croitor	croitoreasa croitoreasă croitorese croitoresele croitori croitorii croitorul croitorule croitorului
+16	6816	restitui	restituie restituim restituit restituite restituită restituiți
+17	6817	ghicitoare	ghicitoarea ghicitori ghicitorii ghicitorile ghicitorilor
+18	6818	cinic	cinica cinice cinici cinicii cinicul cinică
+19	6819	barou	baroul baroului
+20	6820	pionier	pioner pionieri pionierii pionierilor pionierul pionieră
+21	6821	simfonic	simfonice simfonică
+22	6822	temniță	temnița temnițe temniței temnițele
+23	6823	retină	retina retine retinei retinele
+24	6824	contradictoriu	contradictorie contradictorii
+25	6825	autoriza	autorizat autorizați autorizează autorizez autorizeze autorizezi autorizăm
+26	6826	subconștient	subconștientul subconștientului
+27	6827	concordanță	
+28	6828	scofală	scofala
+29	6829	despăgubire	despăgubirea despăgubiri despăgubirile
+30	6830	brioșă	brioșa brioșe brioșei brioșele brioșelor
+31	6831	neliniștit	neliniștite neliniștită neliniștiți
+32	6832	socotit	socotite socotită socotiți
+33	6833	meteo	
+34	6834	frământa	frământ frământat frământată frământați frământe frământă frămânți
+35	6835	agresor	agresoare agresori agresorii agresorilor agresorul agresorului
+36	6836	injecta	injectam injectat injectau injectați injectează injectez injecteze injectezi injectând injectăm
+37	6837	comparabil	comparabile comparabilă
+38	6838	transmisiune	transmisiunea transmisiuni transmisiunii transmisiunile transmisiunilor
+39	6839	sătura	satur sature saturi satură săturam săturase săturasem săturaseră săturați săturăm
+40	6840	rebeliune	rebeliunea rebeliuni rebeliunii
+41	6841	detașat	detașate detașată detașați
+42	6842	minuscul	minuscula minuscule minusculi minusculul minusculă
+43	6843	panoramă	panarama panarame panaramo panaramă panorama panorame
+44	6844	venin	veninul veninului veninuri
+45	6845	colibă	coliba colibe colibei colibele
+46	6846	lichidă	lichida lichide lichidele lichidelor
+47	6847	pilota	pilotai pilotam pilotat pilotate pilotată pilotați pilotează pilotez piloteze pilotezi pilotând pilotăm
+48	6848	amplasament	amplasamente amplasamentul amplasamentului
+49	6849	milan	milani milanul milanului
+50	6850	desăvârșit	desăvârșite desăvârșită desăvârșiți
+51	6851	atașa	atașat atașați atașează atașez atașeze atașezi atașă atașăm
+52	6852	veritabil	veritabila veritabile veritabili veritabilă
+53	6853	floral	florale florală
+54	6854	însemnare	însemnarea însemnări însemnările însemnărilor
+55	6855	gravitațional	gravitaționale gravitaționali gravitațională
+56	6856	asistat	asistata asistate asistată asistați
+57	6857	anatomie	anatomia anatomiei
+58	6858	dascăl	dascal dascăli dascălii dascălul
+59	6859	buștean	bușteanul bușteni buștenii
+60	6860	scoatere	scoaterea scoaterii
+61	6861	corecție	corecția corecții corecțiile
+62	6862	pătat	pătate pătată pătați
+63	6863	autoritar	autoritara autoritare autoritari autoritară
+64	6864	aliniat	aliniate aliniatul aliniată aliniați
+65	6865	nemurire	nemurirea nemuririi
+66	6866	iaurt	iaurtul iaurtului iaurturi iaurturile
+67	6867	prestație	prestația prestației prestații prestațiile
+68	6868	deficiență	deficiența deficiențe deficiențele
+69	6869	ventilator	ventilatoare ventilatoarele ventilatoarelor ventilatorul ventilatorului
+70	6870	polo	
+71	6871	patimă	patima patimi patimile patimilor
+72	6872	algă	alga alge algele algelor algo
+73	6873	realism	realismul realismului
+74	6874	celebrare	celebrarea celebrări celebrării
+75	6875	randament	randamente randamentele randamentul randamentului
+76	6876	plasare	plasarea plasării
+77	6877	exactitate	exactitatea
+78	6878	script	scriptul scripturi scripturile scripturilor
+79	6879	trezorerie	trezoreria trezoreriei
+80	6880	șoaptă	șoapta șoapte șoaptei șoaptele șoaptelor
+81	6881	pensiune	pensiunea pensiuni pensiunii
+82	6882	zări	zărea zăream zărească zăresc zărește zărești zărim zărit zărite zărită zăriți
+83	6883	scotch	scotchul
+84	6884	înveseli	înveselea înveselească înveselesc înveselește înveselești înveselim înveselit înveseliți
+85	6885	măreție	măreția măreției măreții
+86	6886	putred	putreda putrede putredă putrezi
+87	6887	lavă	lava lavei
+88	6888	dezastruos	dezastros dezastruoasa dezastruoase dezastruoasă
+89	6889	mutație	mutația mutației mutații mutațiile mutațiilor
+90	6890	catalogat	catalogata catalogate catalogată catalogați
+91	6891	sinistru	sinistra sinistre sinistrul sinistră siniștri
+92	6892	eroină	eroina eroine eroinei eroinele
+93	6893	vulcanic	vulcanica vulcanice vulcanici vulcanică
+94	6894	articulat	articulate articulată articulații
+95	6895	tesla	
+96	6896	deteriora	deteriorat deteriorați deteriorează deterioreze deteriorezi deteriorăm
+97	6897	măcelar	măcelari măcelarii măcelarilor măcelarul măcelarule măcelarului
+98	6898	însul	însa însu
+99	6899	râpă	râpa râpe râpei
+100	6900	mansardă	mansarda mansarde mansardei

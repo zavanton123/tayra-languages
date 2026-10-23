@@ -1,0 +1,100 @@
+1	6001	verset	versete versetele versetul
+2	6002	șervețel	șervețele șervețelele șervețelelor șervețelul
+3	6003	scurta	scurtam scurtat scurtate scurtată scurtați scurtează scurtez scurteze scurtezi scurtă scurtăm
+4	6004	selecționat	selecționata selecționate selecționatei selecționată selecționați
+5	6005	miliție	miliția miliției miliții milițiile milițiilor
+6	6006	pușcaș	pușcași pușcașii pușcașilor pușcașul pușcașule
+7	6007	rătăcit	rătăcite rătăcită rătăciți rătăciții
+8	6008	stabiliza	stabilizam stabilizat stabilizate stabilizată stabilizați stabilizează stabilizez stabilizeze stabilizezi stabilizăm
+9	6009	spor	spori sporii sporilor sporul sporuri
+10	6010	detesta	detest detestai detestam detestat detestată detestau detestați deteste detestă detestăm detești
+11	6011	cretă	credă creta crete cretei
+12	6012	zgomotos	zgomotoasa zgomotoase zgomotoasă zgomotoși
+13	6013	imbecil	imbecila imbecile imbecili imbecilii imbecililor imbecilul imbecilului imbecilă
+14	6014	trăgaci	trăgaciul trăgaciului
+15	6015	pepene	pepenele pepenelui pepeni pepenii pepenilor
+16	6016	curcubeu	curcubee curcubeele curcubeie curcubeiele curcubeul curcubeului
+17	6017	scana	scanam scanat scanați scanează scanez scanezi scanând scanăm
+18	6018	simboliza	simbolizat simbolizează simbolizeze simbolizând
+19	6019	adeseori	
+20	6020	ciocni	ciocnească ciocneau ciocnesc ciocnește ciocnești ciocnim ciocnindu ciocnit ciocniți
+21	6021	întrecere	întrecerea întreceri întrecerii întrecerile
+22	6022	îmbogăți	îmbogățească îmbogățesc îmbogățește îmbogățești îmbogății îmbogățim îmbogățit îmbogățiți
+23	6023	mareșal	mareșali mareșalii mareșalul mareșalului
+24	6024	vânătaie	vânătaia vânătăi vânătăii vânătăile vânătăilor
+25	6025	geacă	geaca geci gecii gecile
+26	6026	brat	bratul bratului
+27	6027	sigiliu	sigilii sigiliile sigiliilor sigiliul sigiliului
+28	6028	geneză	geneza genezei
+29	6029	aferent	aferente aferentă
+30	6030	succesiv	succesive
+31	6031	inițiator	inițiatorii inițiatorul
+32	6032	patriot	patriotul patriotă patrioți patrioții patrioților
+33	6033	prețui	prețuia prețuiam prețuiască prețuiau prețuiesc prețuiește prețuiești prețuim prețuit prețuiți
+34	6034	devastator	devastatoare
+35	6035	înmuia	înmoaie înmoi înmuiat înmuiau înmuiați înmuiem
+36	6036	cazare	cazarea cazării
+37	6037	combina	combin combinam combinat combinați combine combini combinând combinăm
+38	6038	dexter	
+39	6039	lăcomie	lăcomia lăcomiei
+40	6040	ambulant	ambulanta ambulante ambulantei ambulantele ambulantă ambulanți
+41	6041	slobozie	slobozia
+42	6042	obositor	obositoare obositori
+43	6043	traversă	travers traversa traverse
+44	6044	frânge	frâng frângea frângem frângeți frângi frângă frânt
+45	6045	înfometat	înfometata înfometate înfometată înfometați
+46	6046	lacom	lacoma lacome lacomi lacomii lacomul lacomă
+47	6047	ceh	ceha cehe cehi cehii cehilor
+48	6048	extragere	extragerea extrageri extragerii extragerile
+49	6049	caza	cazam cazat cazați cazează cazez cazeze cazezi cazând cază cazăm
+50	6050	alimentat	alimentata alimentate alimentată alimentați
+51	6051	spiritualitate	spiritualitatea spiritualității
+52	6052	buclă	bucla bucle buclei buclele
+53	6053	ieșean	ieșeană ieșene ieșeni
+54	6054	broșură	broșura broșuri broșurile
+55	6055	populat	populata populate populată populații
+56	6056	radioactiv	radioactiva radioactive radioactivi radioactivă
+57	6057	împuțit	împuțita împuțite împuțitele împuțitul împuțitule împuțită împuțiți împuțiții împuțiților
+58	6058	revizuit	revizuita revizuite revizuită revizuiți
+59	6059	decolare	decolarea decolări decolării decolările
+60	6060	bai	baiu baiul
+61	6061	atmosferic	atmosferica atmosferice atmosferici atmosferică
+62	6062	vulgar	vulgara vulgare vulgari vulgară
+63	6063	portland	portlandul portlandului
+64	6064	valorificare	valorificarea
+65	6065	generozitate	generozitatea generozității
+66	6066	aleatoriu	aleator aleatorie aleatorii
+67	6067	iluminare	iluminarea iluminării
+68	6068	distribuire	distribuirea distribuirii
+69	6069	hacker	hackeri hackerii hackerilor hackerul hackerului
+70	6070	temperament	temperamente temperamentele temperamentul temperamentului
+71	6071	ornament	ornamente ornamentele ornamentelor ornamentul
+72	6072	academician	academicianul academicianului academicieni academicienii
+73	6073	înșelat	înșelate înșelatul înșelată înșelați
+74	6074	alergie	alergia alergiei alergii alergiile alergiilor
+75	6075	tufiș	tufișul tufișului tufișuri tufișurile tufișurilor
+76	6076	înmâna	înmânam înmânat înmânate înmânată înmânați înmânează înmânez înmâneze înmânezi înmânăm
+77	6077	strălucit	strălucita strălucite strălucitul strălucită străluciți
+78	6078	nasture	nasturele nasturi nasturii nasturilor năsturel
+79	6079	fascist	fascista fasciste fascistul fascistule fascistă fasciști fasciștii fasciștilor
+80	6080	părintesc	părintească părintești
+81	6081	nelimitat	nelimitata nelimitate nelimitată
+82	6082	optim	optima optimi optimă
+83	6083	petiție	petiția petiției petiții petițiile
+84	6084	umanitar	umanitara umanitare umanitară
+85	6085	profitabil	profitabila profitabile profitabili profitabilă
+86	6086	diplomație	diplomația diplomației diplomații
+87	6087	finanța	finanțat finanțați finanțează finanțez finanțeze finanțezi finanțând finanțăm
+88	6088	picant	picanta picante picantă picanți
+89	6089	sirop	siropul siropului siropuri
+90	6090	gagică	gagica gagici gagico gagicuță
+91	6091	închiriere	închirierea închirieri închirierii închirierile
+92	6092	iniția	inițiază inițiați inițiem inițiez inițieze inițiezi
+93	6093	masterat	masterate masteratul
+94	6094	progresa	progresam progresat progresați progresează progresez progreseze progresezi progresăm
+95	6095	ax	axe axele axul axului
+96	6096	secretariat	secretariatul secretariatului
+97	6097	cronic	cronica cronice cronici
+98	6098	vocabular	vocabularul vocabularului
+99	6099	competitiv	competitiva competitive competitivi competitivă
+100	6100	șantaj	șantaje șantajul șantajului

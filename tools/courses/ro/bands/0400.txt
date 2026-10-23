@@ -1,0 +1,100 @@
+1	301	scoate	scoase scoasă scoatem scoateți scoată scos scosese scosesem scosul scot scote scotea scoteai scoteam scoteau scoși scoți scoțând scoțându
+2	302	școală	școala școlesc școli școlii școlile școlilor școlit școliți
+3	303	conduce	condu conduc conducea conduceai conduceam conduceau conduceați conducem conduceți conduci conducând conducându conducă condus condusa conduse condusese condusul condusului condusă conduși
+4	304	urma	urmai urmam urmat urmate urmată urmau urmași urmați urmează urmez urmeze urmezi urmând urmându urmăm
+5	305	adică	
+6	306	azi	az
+7	307	motiv	motive motivele motivelor motivul motivului
+8	308	înapoi	înnapoi
+9	309	următor	următoare următoarea următoarei următoarele următoarelor următori următorii următorilor următorul următorului
+10	310	simplu	simpla simple simplele simpli simplii simplul simplă
+11	311	putere	puterea puteri puterii puterile puterilor
+12	312	oferi	ofer ofere oferea ofereai ofeream ofereau oferii oferim oferind oferindu oferise oferisem oferit oferite oferită oferiți oferă
+13	313	vechi	veche vechea vechii vechile vechilor vechiul vechiului
+14	314	diferit	diferita diferite diferitele diferitelor diferită diferiți diferiții
+15	315	patru	patra patrulea
+16	316	exact	exacta exacte exactă exacți
+17	317	armă	arma armat armata armate armatei armatele armatelor armați arme armează armei armele armelor armez armeze armezi armând armăm
+18	318	sus	susul
+19	319	serios	serioasa serioase serioasă seriosul serioși
+20	320	propriu	propria proprie propriei proprii propriii propriile propriilor propriul propriului
+21	321	cadru	cadre cadrele cadrelor cadrul cadrului
+22	322	plan	plana plane planele planul planului planuri planurile planurilor plană
+23	323	spate	spatele spatelui
+24	324	departe	
+25	325	cam	cani
+26	326	reuși	nereușind reușea reușeai reușeam reușească reușeau reușesc reușește reușești reușii reușim reușind reușise reușisem reușiseră reușit reușiți
+27	327	întreg	întreaga întreagă întregească întregesc întregește întregești întregi întregii întregile întregit întregul întregului
+28	328	vedere	vederea vederi vederii vederile
+29	329	vină	vina vini vino
+30	330	aminti	amintea aminteai aminteam amintească aminteau amintesc amintește amintești amintii amintim amintind amintindu amintit amintiți
+31	331	jur	jurul
+32	332	bază	baza baze bazei bazele bazelor
+33	333	însă	
+34	334	european	europeana europeancă europeanul europeană europence europene europeni europenii europenilor
+35	335	mereu	
+36	336	centru	centre centrele centrelor centri centrii centrul centrule centrului
+37	337	viitor	viitoare viitoarea viitoarei viitoarele viitoarelor viitori viitorii viitorilor viitorul viitorului viitoruri viitorurile
+38	338	afară	
+39	339	public	publica publice publici publicul publicului publică
+40	340	trage	trag tragem trageți tragi tragă tras trase traso trasul trasului trași trăgea trăgeai trăgeam trăgeau trăgeați trăgând trăgându trăsese trăsesem
+41	341	adevăr	adevara adevărul adevărului adevăruri adevărurile adevărurilor
+42	342	întâlni	întâlnea întâlneai întâlneam întâlnească întâlneau întâlneați întâlnesc întâlnește întâlnești întâlnii întâlnim întâlnind întâlnindu întâlnise întâlnisem întâlniseră întâlnit întâlniți întîlni
+43	343	ocupa	ocup ocupai ocupam ocupase ocupaseră ocupat ocupau ocupați ocupe ocupi ocupând ocupându ocupă ocupăm
+44	344	imediat	imediata imediate imediată
+45	345	milion	milioane milioanele milioanelor milionul milionului
+46	346	tocmai	tocma
+47	347	obține	obții obțin obținea obțineai obțineam obțineau obținem obțineți obținuse obținusem obținut obținute obținută obținuți obținând obțină
+48	348	membru	membra membre membrele membrelor membri membrii membrilor membrul membrului membră
+49	349	apărea	apare apari apară apăreai apăream apăreau apărem apăreți apăru apăruse apăruseră apărut apărute apărută apăruți apărând
+50	350	legătură	legătura legături legăturii legăturile legăturilor
+51	351	afacere	afacerea afaceri afacerii afacerile afacerilor
+52	352	lung	lunga lungească lungesc lungește lungești lungi lungii lungile lungilor lungim lungit lungite lungită lungiți lungul lungului lungă
+53	353	gata	
+54	354	juca	joace joacă joci jucai jucam jucase jucasem jucat jucau jucați jucând jucându jucă jucăm
+55	355	realiza	realizai realizam realizase realizasem realizat realizata realizate realizată realizau realizați realizează realizez realizeze realizezi realizând realizându realiză realizăm
+56	356	tânăr	tiner tinere tinerei tinereii tinereilor tinerel tinerele tinerelor tinerelul tinerelule tineri tinerii tinerilor tânăra tânărul tânărului tânără tînăr
+57	357	repede	repejor repezi
+58	358	spera	sper sperai speram sperase sperasem sperat sperau sperați spere speri sperând sperăm
+59	359	plăti	plătea plăteai plăteam plătească plăteau plăteați plătesc plătește plătești plătii plătim plătind plătindu plătise plătisem plătit plătite plătită plătiți
+60	360	poveste	povestea povestile povestilor povestioara povestioare povestioarele povestioară povești poveștii poveștile poveștilor
+61	361	formă	forma forme formei formele formelor
+62	362	luni	lunea
+63	363	activitate	activitatea activități activității activitățile activităților
+64	364	minte	mintea minți minții mințile minților
+65	365	sfânt	sfinte sfintei sfintele sfintelor sfinți sfinții sfinților sfânta sfântul sfântule sfântului sfântă sfînt sfîntul sfîntă
+66	366	grup	grupul grupului grupuri grupurile grupurilor
+67	367	mort	moarta moartei moartă mortul mortule mortului morți morții morților
+68	368	continua	continuai continuam continuat continuate continuată continuau continuați continue continui continuând continuându continuă continuăm
+69	369	poliție	poliția poliției polițiile
+70	370	luptă	lupta lupte luptei luptele luptelor
+71	371	lună	luna lunii lunile lunilor
+72	372	împotriva	
+73	373	președinte	președinta președintele președintelui președintă președinți președinții președinților
+74	374	întrebare	întrebarea întrebarii întrebarile întrebarilor întrebări întrebării întrebările întrebărilor
+75	375	inimă	inima inimi inimii inimile inimilor inimioara inimioară
+76	376	funcție	funcția funcției funcții funcțiile funcțiilor funcțiune funcțiuni funcțiunii funcțiunile
+77	377	puternic	puternica puternice puternicei puternicele puternicelor puternici puternicii puternicilor puternicul puternicului puternică
+78	378	război	războaie războaiele războaielor războiască războiesc războiește războiești războim războit războiul războiului războiți
+79	379	picior	picioare picioarele picioarelor piciorul piciorule piciorului picioruș
+80	380	citi	ceti citea citeai citeam citească citeau citeați citesc citește citești citii citim citind citindu citise citisem citit citiți
+81	381	mânca	mâncai mâncam mâncase mâncasem mâncaseră mâncat mâncate mâncatul mâncatului mâncată mâncau mâncați mânce mâncând mâncându mâncă mâncăm mînca mîncat mîncați mîncînd mănânc mănânce mănânci mănâncă mănînce mănîncă
+82	382	măcar	
+83	383	scuză	scuze scuzele scuzelor
+84	384	liber	libera liberat liberate libere liberează liberei liberez libereze liberi liberul liberului liberă
+85	385	părinte	părintele părintelui părinți părinții părinților
+86	386	seamă	seama semi
+87	387	permite	permis permisa permise permisele permiselor permisul permisului permisă permit permitea permiteai permiteam permiteau permitem permiteți permită permiși permiți permițând permițându
+88	388	lângă	lîngă
+89	389	bucura	bucur bucurai bucuram bucurat bucurate bucurau bucurați bucure bucuri bucurându bucură bucurăm
+90	390	șef	șefa șefi șefii șefilor șeful șefule șefului șefă
+91	391	reprezenta	reprezentai reprezentam reprezentat reprezentate reprezentată reprezentau reprezentați reprezentând reprezentăm reprezint reprezinte reprezintă reprezinți
+92	392	limbă	limba limbi limbii limbile limbilor limbo
+93	393	ridica	ridic ridicai ridicam ridicase ridicasem ridicaseră ridicat ridicau ridicați ridice ridici ridicând ridicându ridică ridicăm
+94	394	cinci	cincea cincilea cinciul
+95	395	minunat	minunata minunate minunatei minunatele minunatelor minunatul minunatului minunată minunați minunații minunaților
+96	396	acord	acordul acordului acorduri acordurile acordurilor
+97	397	siguranță	siguranța siguranțe siguranței siguranțele
+98	398	numi	numea numeai numeam numească numeau numeați numesc numește numești numii numim numind numindu numise numit numiți
+99	399	alb	ab alba albe albei albele albi albii albilor albul albule albului albă
+100	400	posibil	posibila posibile posibilei posibilele posibilelor posibili posibilii posibililor posibilul posibilului posibilă

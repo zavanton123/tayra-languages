@@ -1,0 +1,100 @@
+1	8601	consistență	consistența
+2	8602	înflorire	înflorirea înfloriri înfloririi
+3	8603	dislocat	dislocate dislocată dislocați
+4	8604	balnear	balneare balneară
+5	8605	involuntar	involuntara involuntare involuntari involuntară
+6	8606	zvoni	zvonea zvonește zvonit
+7	8607	acreditare	acreditarea acreditări acreditările
+8	8608	necinstit	necinstita necinstite necinstită necinstiți
+9	8609	stokes	
+10	8610	aruncător	aruncătoare aruncătoarele aruncători aruncătorii aruncătorul aruncătorului
+11	8611	artefact	artefactul artefactului
+12	8612	precoce	
+13	8613	camuflaj	camuflajul camuflajului
+14	8614	adjectiv	adjective adjectivele adjectivul
+15	8615	inconfortabil	inconfortabila inconfortabile inconfortabili inconfortabilă
+16	8616	jegos	jegoasa jegoase jegoasă jegosul jegosule jegoși jegoșii jegoșilor
+17	8617	cerși	cerșea cerșească cerșesc cerșește cerșești cerșim cerșind cerșit cerșiți
+18	8618	diferențiere	diferențierea
+19	8619	folie	folia foliei folii foliile folio
+20	8620	compunere	compunerea compuneri compunerile
+21	8621	sobor	soborul
+22	8622	menire	menirea
+23	8623	mascotă	mascota mascote mascotei mascotele mascotelor
+24	8624	turnare	turnarea turnării
+25	8625	ștergere	ștergerea ștergerii
+26	8626	flacon	flacoane flacoanele flaconul
+27	8627	roi	roiască roiau roiesc roiește roim roind roiul roiuri roiurile
+28	8628	jurisprudență	jurisprudența jurisprudenței
+29	8629	avangardă	avangarda avangardei
+30	8630	slăbire	slăbirea
+31	8631	marxist	marxiste marxistă marxiști
+32	8632	balistic	balistica balistice
+33	8633	nesăbuit	nesăbuite nesăbuitul nesăbuită nesăbuiți nesăbuiților
+34	8634	beci	beciul beciului beciuri beciurile
+35	8635	raton	ratoni ratonii ratonilor ratonul
+36	8636	vindecător	vindecătoare vindecătoarea vindecători vindecătorii vindecătorul
+37	8637	hectogram	hg
+38	8638	pândi	pândea pândeam pândească pândeau pândesc pândește pândești pândim pândind pândit pândiți
+39	8639	fetesc	fetească fetești
+40	8640	rid	ridul riduri ridurile ridurilor
+41	8641	lustrui	lustruia lustruiam lustruiască lustruiesc lustruiește lustruiești lustruim lustruind lustruit lustruiți
+42	8642	angelic	angelica angelice angelico angelică
+43	8643	deprimant	deprimanta deprimante deprimantă
+44	8644	frescă	fresca fresce frescele fresco
+45	8645	săpat	săpate săpatul săpată
+46	8646	catering	cateringul
+47	8647	pisoi	pisoiaș pisoii pisoilor pisoiul pisoiule
+48	8648	reciclare	reciclarea reciclării
+49	8649	ilar	hilar ilare ilari ilară
+50	8650	restructurare	restructurarea restructurări
+51	8651	demonstrativ	demonstrative demonstrativă
+52	8652	captivitate	captivitatea captivității
+53	8653	negresă	negresa negrese negresei negresele negreselor
+54	8654	cranian	craniana craniană craniene cranieni
+55	8655	desfacere	desfacerea
+56	8656	calificativ	calificative calificativele calificativul
+57	8657	sălta	salte saltă salți săltam săltat săltați săltând săltăm
+58	8658	înghesui	înghesuiau înghesuie înghesuim înghesuindu înghesuit înghesuiți
+59	8659	fruntaș	fruntași fruntașii fruntașul fruntașă
+60	8660	convocare	convocarea
+61	8661	nevătămat	nevătămate nevătămată nevătămați
+62	8662	discutabil	discutabila discutabile discutabilă
+63	8663	dezerta	dezertat dezertați dezertează dezertez dezerteze dezertezi
+64	8664	detonator	detonatoare detonatoarele detonatorul detonatorului
+65	8665	bam	
+66	8666	șaizeci	
+67	8667	conotație	conotații
+68	8668	tor	
+69	8669	saună	sauna saune saunele
+70	8670	hirotonit	
+71	8671	torturat	torturata torturate torturată torturați
+72	8672	divă	diva dive divei divele divelor divo
+73	8673	necredincios	necredincioasa necredincioase necredincioasă necredinciosul necredinciosule necredincioși necredincioșii necredincioșilor
+74	8674	spartan	spartana spartane spartani spartanii spartanilor spartană
+75	8675	pedofil	pedofili pedofilii pedofililor pedofilul pedofilule pedofilului pedofilă
+76	8676	relaxant	relaxanta relaxante relaxantul relaxantă
+77	8677	porecli	poreclească porecleau poreclesc poreclit poreclită porecliți
+78	8678	fault	faultul faulturi
+79	8679	tachina	tachinai tachinam tachinat tachinată tachinau tachinați tachinează tachinez tachineze tachinezi tachinăm
+80	8680	aflare	aflarea aflării
+81	8681	rotire	rotirea rotiri
+82	8682	tutelă	tutela tutelei
+83	8683	bestial	bestiala bestiale bestiali bestială
+84	8684	inscripționat	inscripționate inscripționată
+85	8685	dăuna	dăunat dăunează dăuneze
+86	8686	scorțișoară	scorțișoara scorțișoarei
+87	8687	jug	jugul
+88	8688	guvernământ	guvernământul
+89	8689	interdisciplinar	interdisciplinare interdisciplinară
+90	8690	încununa	încununat încununate încununată
+91	8691	răscoli	răscolea răscolească răscolesc răscolește răscolești răscolim răscolind răscolit răscoliți
+92	8692	copoi	copoii copoilor copoiul copoiule
+93	8693	nesuferit	nesuferita nesuferite nesuferitul nesuferită nesuferiți nesuferiții
+94	8694	electron	electroni electronii electronilor electronul electronului
+95	8695	posesor	posesoare posesoarea posesori posesorii posesorilor posesorul posesorului
+96	8696	dop	dopul dopului dopuri dopurile
+97	8697	captivant	captivanta captivante captivantă
+98	8698	mural	murala murale murali murală
+99	8699	instaurare	instaurarea
+100	8700	jefuit	jefuite jefuitul jefuită

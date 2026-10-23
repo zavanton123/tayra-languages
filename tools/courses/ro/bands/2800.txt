@@ -1,0 +1,100 @@
+1	2701	determinat	determinata determinate determinată determinați
+2	2702	grupare	gruparea grupări grupării grupările grupărilor
+3	2703	aruncat	aruncata aruncate aruncatul aruncată aruncați
+4	2704	investiga	investigai investigam investigat investigata investigate investigată investigau investigați investigații investighează investighez investigheze investighezi investigând investigăm
+5	2705	completa	completam completat completau completați completează completez completeze completezi completând completă completăm
+6	2706	înțelept	înțeleapta înțeleaptă înțelepte înțeleptul înțeleptule înțeleptului înțelepți înțelepții înțelepților
+7	2707	olimpic	olimpica olimpice olimpici olimpicii olimpică
+8	2708	salvat	salvata salvate salvato salvatul salvată salvați
+9	2709	îmbunătățire	îmbunătățirea îmbunătățiri îmbunătățirii îmbunătățirile
+10	2710	steag	steagul steagului steaguri steagurile steagurilor steguleț
+11	2711	spion	spioana spioane spioană spioni spionii spionilor spionul spionule spionului
+12	2712	ho	
+13	2713	aplică	aplica aplice
+14	2714	căsătoresc	căsătoreasca căsătorească căsătorești
+15	2715	formular	formulare formularea formularele formularelor formularul formularului formulări
+16	2716	polonez	poloneza poloneze polonezi polonezii polonezilor polonezul polonezule poloneză
+17	2717	deplasa	deplasam deplasat deplasau deplasați deplasează deplasez deplaseze deplasezi deplasând deplasându deplasăm
+18	2718	mit	mitul mitului mituri miturile miturilor
+19	2719	extindere	extinderea extinderi extinderii
+20	2720	supraviețuitor	supraviețuitoare supraviețuitoarea supraviețuitori supraviețuitorii supraviețuitorilor supraviețuitorul supraviețuitorului
+21	2721	țesut	țesute țesutul țesutului țesuturi țesuturile țesuturilor țesută
+22	2722	întâlnit	întâlnita întâlnite întâlnitul întâlnită întâlniți întălnit
+23	2723	executat	executata executate executată executați
+24	2724	lat	lata late latei latul laturi laturile lată lați
+25	2725	filială	filiala filiale filialei filialele filialelor
+26	2726	cuminte	cumințel cumințesc cumințești cuminți cumințică cumințit
+27	2727	coșmar	coșmare coșmarele coșmarul coșmarului coșmaruri coșmarurile coșmarurilor
+28	2728	academic	academica academice academică
+29	2729	mintal	mental mentale mintala mintale mintali mintală
+30	2730	regală	regala regale
+31	2731	oțel	oțelul oțelului
+32	2732	gard	gardul gardului garduri gardurile gardurilor gărduleț
+33	2733	maghiar	maghiara maghiare maghiari maghiarii maghiarilor
+34	2734	traduce	netradus tradu traduc traducea traduceam traducem traduceți traduci traducă tradus traduse
+35	2735	mări	mărea mărească măresc mărește mărești mării mărim mărind mărindu măriți
+36	2736	șosea	șoseaua șosele șoselei șoselele șoselelor
+37	2737	identificare	identificarea identificări identificării identificările
+38	2738	emis	emisa emise emisă
+39	2739	scula	scoale scoală scol scoli sculam sculat sculata sculatul sculată sculați sculăm
+40	2740	comunicație	comunicația comunicației comunicații comunicațiile comunicațiilor
+41	2741	cabină	cabina cabine cabinei cabinele cabinelor
+42	2742	implora	implor implorai imploram implorat implorau implorați implore implori implorând implorându imploră implorăm
+43	2743	încheiere	încheierea încheierii
+44	2744	oprire	oprirea opriri opririi opririle
+45	2745	monitor	monitoare monitoarele monitoarelor monitorul monitorului
+46	2746	ceartă	cearta certuri certurile certurilor
+47	2747	referire	referirea referiri referirile
+48	2748	rezerva	rezerv rezervam rezervase rezervasem rezervat rezervata rezervate rezervată rezervați rezervații rezerve rezervi rezervăm
+49	2749	înghiți	înghit înghite înghită înghițea înghițeam înghițeau înghiții înghițim înghițind înghițise înghițit înghițite înghițită înghițiți
+50	2750	expus	expusa expuse expusă expuși
+51	2751	scut	scutul scutului scuturi scuturile scuturilor
+52	2752	tâmpit	tâmpita tâmpite tâmpitele tâmpito tâmpitul tâmpitule tâmpitului tâmpită tâmpiți tâmpiții tâmpiților
+53	2753	dialog	dialogul dialogului dialoguri dialogurile
+54	2754	războinic	războinica războinice războinicele războinici războinicii războinicilor războinicul războinicule războinicului războinică
+55	2755	mușchi	mușchii mușchilor mușchiul mușchiuleț mușchiului
+56	2756	exemplar	exemplara exemplare exemplarele exemplari exemplarul exemplară
+57	2757	apostol	apostoli apostolii apostolilor apostolul apostolului
+58	2758	conte	contele contelui conți conții
+59	2759	reporter	reporteri reporterii reporterilor reporterul reporterului reporteră
+60	2760	spațial	spațiala spațiale spațiali spațială
+61	2761	instrucțiune	instrucțiunea instrucțiuni instrucțiunii instrucțiunile instrucțiunilor
+62	2762	treptat	treptate treptată
+63	2763	onorat	onorata onorate onoratei onoratul onorată onorați
+64	2764	reacționa	reacționam reacționat reacționau reacționați reacționează reacționez reacționeze reacționezi reacționând reacționăm
+65	2765	închiria	închiriam închiriase închiriasem închiriat închiriau închiriază închiriați închiriem închiriez închirieze închiriezi închiriind
+66	2766	doc	docul docului docuri docurile docurilor
+67	2767	șoc	șocul șocului șocuri șocurile șocurilor
+68	2768	senzație	senzația senzației senzații senzațiile senzațiilor
+69	2769	asasin	asasine asasinei asasini asasinii asasinilor asasinul asasinule asasinului asasină
+70	2770	sămânță	semințe seminței semințele semințelor sămânța
+71	2771	prezidențial	prezidențiale prezidențială
+72	2772	dispariție	dispariția dispariției dispariții disparițiile disparițiilor
+73	2773	traversa	traversai traversam traversat traversate traversatul traversată traversau traversați traversează traversez traverseze traversezi traversând traversăm
+74	2774	plictisitor	plictisitoare plictisitoarea plictisitoarele plictisitori plictisitorul
+75	2775	împlini	împlinea împlineam împlinească împlineau împlinesc împlinește împlinești împlinim împlinind împlinise împlinisem împlinit împliniți
+76	2776	moștenire	moștenirea moșteniri moștenirii moștenirile
+77	2777	telefonic	telefonica telefonice telefonici telefonică
+78	2778	tun	tunul tunului tunuri tunurile tunurilor
+79	2779	reclamă	reclama reclame reclamei reclamele reclamelor
+80	2780	moral	morala morale moralei morali moralul moralului
+81	2781	coș	coșul coșuleț coșului coșuri coșurile coșurilor
+82	2782	observație	observația observației observații observațiile observațiilor
+83	2783	arhitect	arhitecta arhitectul arhitectule arhitectului arhitectă arhitecți arhitecții arhitecților
+84	2784	doborî	doboare doboară dobor dobora doboram dobori doborâm doborând doborându doborâse doborât doborâți
+85	2785	divorț	divorțul divorțului divorțuri divorțurile divorțurilor
+86	2786	practica	practicai practicam practicat practicate practicată practicau practicați practice practici practicând practicăm
+87	2787	trofeu	trofee trofeele trofeelor trofeul trofeului
+88	2788	occidental	occidentala occidentale occidentali occidentalii occidentalilor occidentală
+89	2789	rundă	rund runda runde rundei rundele
+90	2790	axă	axa axat axate axată axați axe axează axei axele axez axeze axezi axăm
+91	2791	flux	fluxul fluxului fluxuri fluxurile fluxurilor
+92	2792	finanțe	finanța finanțele finanțelor
+93	2793	disciplină	disciplina discipline disciplinei disciplinele disciplinelor
+94	2794	pungă	punga pungi pungii pungile pungilor punguliță punguță
+95	2795	concurent	concurenta concurente concurentei concurentele concurentul concurentului concurentă concurenți concurenții concurenților
+96	2796	execuție	execuția execuției execuții execuțiile execuțiilor
+97	2797	gelos	geloasa geloase geloasă gelosul geloși
+98	2798	margine	margini marginii marginile marginilor
+99	2799	ratat	ratata ratate ratatele ratatelor ratato ratatul ratatule ratatului ratată ratați ratații rataților
+100	2800	matematică	matematici matematicile

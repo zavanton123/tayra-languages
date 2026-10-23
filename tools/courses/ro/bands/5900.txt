@@ -1,0 +1,100 @@
+1	5801	achiziționare	achiziționarea achiziționării
+2	5802	guler	gulere gulerele gulerelor gulerul gulerului
+3	5803	acumulat	acumulata acumulate acumulată acumulați
+4	5804	vegetal	vegetala vegetale vegetalele vegetalelor vegetali
+5	5805	prudent	prudenta prudente prudentă prudenți
+6	5806	schit	schitul schitului
+7	5807	talpă	talpa talpile tălpi tălpii tălpile tălpilor
+8	5808	flămând	flămânde flămândul flămândă flămânzi flămânzii
+9	5809	plasmă	plasma plasme plasmei
+10	5810	definire	definirea definirii
+11	5811	amendament	amendamente amendamentele amendamentul amendamentului
+12	5812	leagăn	leagăne leagănele leagănul leagănului
+13	5813	basarabean	basarabeană basarabene basarabeni
+14	5814	refuzat	refuzata refuzate refuzată refuzați
+15	5815	convoi	convoaie convoaiele convoaielor convoiul convoiului
+16	5816	uragan	uragane uraganele uraganelor uraganul uraganului
+17	5817	dinafară	
+18	5818	necrezut	
+19	5819	aplauda	aplaud aplaudam aplaudat aplaudau aplaudați aplaude aplaudând aplaudă aplaudăm aplauzi
+20	5820	implementat	implementata implementate implementată implementați
+21	5821	edificiu	edificii edificiile edificiul edificiului
+22	5822	atotputernic	atotputernica atotputernice atotputernici atotputernicul atotputernicului atotputernică
+23	5823	stilou	stiloul stiloului stilouri stilourile
+24	5824	votcă	vodca vodci vodcă votca
+25	5825	fotografic	fotografica fotografice fotografică
+26	5826	corb	corbi corbii corbilor corbul corbule corbului
+27	5827	baga	
+28	5828	înălțare	înălțarea înălțării
+29	5829	șoim	șoimi șoimii șoimilor șoimul șoimule șoimului
+30	5830	pentagon	pentagonul pentagonului
+31	5831	ascultare	ascultarea ascultări ascultării ascultările
+32	5832	cărucior	cărucioare cărucioarele cărucioarelor căruciorul căruciorului
+33	5833	evaluat	evaluata evaluate evaluată evaluați
+34	5834	variabilă	variabila variabile variabilele
+35	5835	câștigare	câștigarea câștigării
+36	5836	trunchi	trunchiul trunchiului trunchiuri trunchiurile
+37	5837	pontă	ponta pontat ponte pontează pontez pontezi
+38	5838	inofensiv	inofensiva inofensive inofensivi inofensivă
+39	5839	balanță	balanța balanțe balanței
+40	5840	costisitor	costisitoare costisitori
+41	5841	instruit	instruita instruite instruită instruiți
+42	5842	pensionare	pensionarea pensionării
+43	5843	viță	vița viței vițele
+44	5844	rampă	rampa rampe rampei rampele
+45	5845	pricină	pricina pricini
+46	5846	acu	
+47	5847	carnaval	carnavalul carnavalului carnavaluri
+48	5848	chibrit	chibrite chibritele chibritul chibrituri chibriturile
+49	5849	vertebral	vertebrala vertebrale vertebrală
+50	5850	ecumenic	ecumenice ecumenică
+51	5851	burete	buretele burețel bureți bureții
+52	5852	mouse	
+53	5853	paranoic	paranoica paranoice paranoici paranoicii paranoicul paranoică
+54	5854	abdominal	abdominala abdominale abdominali abdominalii abdominală
+55	5855	răutate	răutatea răutăți răutății răutățile răutăților
+56	5856	raional	raionale
+57	5857	confirmat	confirmată
+58	5858	recoltă	recolte recoltei recoltele recoltelor
+59	5859	brunet	bruneta brunete brunetele bruneto brunetul brunetă bruneți
+60	5860	seduce	seduc seducea seducem seduceți seduci seducând seducă sedus seduse
+61	5861	bum	
+62	5862	înzestrat	înzestrate înzestrată înzestrați
+63	5863	dictator	dictatoare dictatori dictatorilor dictatorul dictatorului
+64	5864	prăji	prăjea prăjeam prăjească prăjesc prăjește prăjești prăjim prăjit prăjiți
+65	5865	viral	virala virale virali virală
+66	5866	cercetat	cercetata cercetate cercetată cercetați
+67	5867	aură	aura aure aurei
+68	5868	rafinat	rafinata rafinate rafinată rafinați
+69	5869	tocilar	tocilari tocilarii tocilarilor tocilarul tocilarule tocilarului tocilară
+70	5870	săvârșit	săvârșite săvârșită
+71	5871	meteorit	meteoritul meteoritului meteoriți meteoriții meteoriților
+72	5872	operativ	operativa operative operativi operativul operativă
+73	5873	balcanic	balcanice balcanică
+74	5874	meteorologic	meteorologice meteorologici meteorologică
+75	5875	recurge	recurg recurgem recurgeți recurgi recurgând recurgă recurs
+76	5876	asemăna	aseamănă asemene asemăn asemănat asemănați asemănăm
+77	5877	viclean	vicleana vicleanul vicleană viclene vicleni viclenii
+78	5878	oaste	oastea oastei oști oștile oștilor
+79	5879	atestare	atestarea
+80	5880	dungă	dunga dungi dungile
+81	5881	abrupt	abrupta abrupte abruptă abrupți
+82	5882	filosof	filosofilor filosoful filosofului
+83	5883	rubrică	rubrica rubrici rubricii rubricile
+84	5884	tabletă	tableta tablete tabletei tabletele
+85	5885	statal	statala statale statali statală
+86	5886	prosperitate	prosperitatea prosperității
+87	5887	bombardament	bombardamente bombardamentele bombardamentelor bombardamentul bombardamentului
+88	5888	saturn	
+89	5889	cantină	cantina cantine cantinei cantinele
+90	5890	stoarce	stoarcem stoarceți stoarcă stoarse stoarsă storc storcea storceam storci storcit storcând stors storși
+91	5891	limuzină	limuzina limuzine limuzinei limuzinele
+92	5892	țel	țelul țelului țeluri țelurile țil
+93	5893	toi	toiul
+94	5894	romantism	romantismul romantismului
+95	5895	ascultător	ascultătoare ascultători ascultătorii ascultătorilor ascultătorul ascultătorule
+96	5896	complot	complotul complotului comploturi comploturile
+97	5897	baghetă	bagheta baghete baghetei baghetele
+98	5898	recital	recitalul recitalului recitaluri recitalurile
+99	5899	analitic	analitica analitice analitică
+100	5900	dezordine	dezordinea dezordini dezordinii

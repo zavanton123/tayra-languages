@@ -1,0 +1,100 @@
+1	1501	pereche	perechea perechi perechii perechile perechilor
+2	1502	durată	durata durate duratei
+3	1503	rezervă	rezerva rezerve rezervei rezervele rezervelor
+4	1504	ființă	ființa ființe ființei ființele ființelor
+5	1505	praf	praful prafului prafuri prafurile
+6	1506	uimitor	uimitoare uimitoarea uimitoarei uimitoarele uimitori uimitorul uimitorului
+7	1507	capitală	capitala capitale capitalei capitalele
+8	1508	miliard	miliarde miliardele miliardelor miliardul
+9	1509	intermediu	intermediul
+10	1510	permanent	permanenta permanente permanentul permanentă permanenți
+11	1511	inamic	inamica inamice inamici inamicilor inamicul inamicului inamică
+12	1512	factor	factori factorii factorilor factorul factorului
+13	1513	înlocui	înlocuia înlocuiam înlocuiască înlocuiesc înlocuiește înlocuiești înlocuim înlocuind înlocuindu înlocuise înlocuit înlocuită înlocuiți
+14	1514	felicitare	felicitarea felicitări felicitările felicitărilor
+15	1515	secretar	secretara secretari secretarii secretarul secretarului secretară
+16	1516	adult	adulta adulte adultul adultului adultă adulți adulții adulților
+17	1517	prizonier	prizonieri prizonierii prizonierilor prizonierul prizonierului prizonieră
+18	1518	demonstra	demonstram demonstrat demonstrau demonstrați demonstrează demonstrez demonstreze demonstrezi demonstrând demonstrăm
+19	1519	sărac	săraca sărace săracei săracele săraci săracii săracilor săracul săracule săracului săracă
+20	1520	număra	numere numeri numărai număram numărat numărau numărați numărând numărându numără numărăm
+21	1521	aseară	
+22	1522	dinte	dintele dintelui dinți dinții dinților dințișor
+23	1523	așeza	așază așează așez așezam așezase așezasem așezat așezau așezați așeze așezi așezând așezându așeză așezăm
+24	1524	exprima	exprim exprimam exprimat exprimau exprimați exprime exprimi exprimând exprimându exprimă exprimăm
+25	1525	negativ	negativa negative negativele negativi negativul negativă
+26	1526	egal	egala egale egali egalii egalul egală
+27	1527	val	valul valului valuri valurile valurilor
+28	1528	prinț	prinți prinții prinților prințișor prințul prințule prințului
+29	1529	resursă	resursa resurse resursele resurselor
+30	1530	specie	specia speciei specii speciile speciilor
+31	1531	înaintea	naintea
+32	1532	cupă	cupa cupe cupei cupele cupelor
+33	1533	concept	concepte conceptele conceptelor conceptul conceptului
+34	1534	elimina	elimin eliminam eliminase eliminat eliminau eliminați elimine elimini eliminând eliminându elimină eliminăm
+35	1535	semăna	seamăn seamănă semene semeni semăn semănai semănam semănat semănate semănau semănați semănând semănă semănăm
+36	1536	colț	colții colților colțișor colțul colțului colțuri colțurile
+37	1537	puști	puștii puștilor puștiul puștiule puștiulică puștiului puștoaica puștoaice puștoaicei puștoaicele puștoaică
+38	1538	bătaie	bătaia bătăi bătăii bătăile bătăilor bătăiță
+39	1539	fizică	
+40	1540	statut	statute statutele statutul statutului
+41	1541	lapte	laptele laptelui lăptic
+42	1542	pilot	pilotul pilotule pilotului piloți piloții piloților
+43	1543	televizor	televizoare televizoarele televizoarelor televizorul televizorului
+44	1544	prânz	prânzul prânzului prânzuri prânzurile prînz
+45	1545	declarație	declarația declarației declarații declarațiile declarațiilor
+46	1546	weekend	weekendul weekendului weekenduri weekendurile
+47	1547	adesea	ades
+48	1548	formare	formarea formării
+49	1549	gardă	garda gardo gărzi gărzii gărzile gărzilor
+50	1550	împărat	împărate împăratul împăratului împărați împărații împăraților
+51	1551	sări	sar sară săr sărea săreai săream săreau sării sărim sărind sărise sărit săriți
+52	1552	artistic	artistica artistice artistici artistică
+53	1553	îmbrăca	îmbrac îmbrace îmbraci îmbracă îmbrăcai îmbrăcam îmbrăcase îmbrăcat îmbrăcau îmbrăcați îmbrăcând îmbrăcându îmbrăcă îmbrăcăm
+54	1554	efectuat	efectuata efectuate efectuată efectuați
+55	1555	conducător	conducătoare conducătoarea conducători conducătorii conducătorilor conducătorul conducătorule conducătorului
+56	1556	amiază	amiaz amiaza amiezele amiezi amiezii amiezile
+57	1557	extinde	extind extindea extindem extindeți extindă extins extinsa extinse extinsă extinzi extinzând extinzându
+58	1558	identitate	identitatea identități identității identitățile identităților
+59	1559	fenomen	fenomene fenomenele fenomenelor fenomenul fenomenului
+60	1560	pată	pata pete petei petele petelor
+61	1561	îndrăgostit	îndrăgostita îndrăgostite îndrăgostitul îndrăgostită îndrăgostiți îndrăgostiții îndrăgostiților
+62	1562	înger	îngeraș îngeri îngerii îngerilor îngerul îngerule îngerului
+63	1563	supărat	supărata supărate supăratul supărată supărați
+64	1564	importanță	importanța importanței
+65	1565	vânătoare	vânătoarea vânători vânătorii vânătorile vânătorilor vînătoare
+66	1566	limita	limitam limitat limitata limitate limitată limitau limitați limitează limitez limiteze limitezi limitând limităm
+67	1567	impresie	impresia impresii impresiile
+68	1568	distrus	distrusa distruse distrusul distrusule distrusă distruși
+69	1569	adunare	adunarea adunarii adunări adunării adunările adunărilor
+70	1570	uriaș	uriașa uriașe uriașei uriașele uriașelor uriași uriașii uriașilor uriașul uriașule uriașului uriașă
+71	1571	acordat	acordata acordate acordată acordați
+72	1572	echipaj	echipaje echipajele echipajelor echipajul echipajului
+73	1573	prezentare	prezentarea prezentarii prezentarile prezentări prezentării prezentările prezentărilor
+74	1574	regional	regionala regionale regionalele regionali regională
+75	1575	îndoială	îndoiala îndoieli îndoielii îndoielile îndoielilor
+76	1576	rază	raza raze razei razele razelor
+77	1577	întuneric	întunericul întunericului
+78	1578	fabrică	fabrica fabrici fabricii fabricile fabricilor
+79	1579	celebru	celebra celebre celebrei celebrele celebri celebrii celebrul celebrului celebră
+80	1580	tară	tara tarei tarele taro
+81	1581	galben	galbena galbene galbenele galbeni galbenii galbenul galbenă
+82	1582	depozit	depozite depozitele depozitelor depozitul depozitului
+83	1583	fan	fani fanii fanilor fanul fanului
+84	1584	discurs	discursul discursului discursuri discursurile discursurilor
+85	1585	pedeapsă	pedeapsa pedepse pedepsei pedepsele pedepselor pedepsi
+86	1586	secțiune	secțiunea secțiuni secțiunii secțiunile secțiunilor
+87	1587	ticălos	ticăloasa ticăloase ticăloasei ticăloasele ticăloaselor ticăloaso ticăloasă ticălosul ticălosule ticălosului ticăloși ticăloșii ticăloșilor
+88	1588	marfă	marfa mărfii mărfuri mărfurile mărfurilor
+89	1589	constanță	constanța constanței
+90	1590	consilier	consiliera consilieri consilierii consilierilor consilierul consilierule consilierului consilieră
+91	1591	computer	computere computerele computerelor computerul computerului
+92	1592	mut	muta mute mutul mută muți muții
+93	1593	maior	maiori maiorul maiorule maiorului
+94	1594	muzical	muzicala muzicale muzicali muzicalul muzicalului muzicală
+95	1595	vindeca	vindec vindecam vindecase vindecat vindecata vindecate vindecată vindecau vindecați vindece vindeci vindecând vindecă vindecăm
+96	1596	suporta	nesuportat suportai suportam suportat suportate suportată suportau suportați suporte suportând suportă suportăm suporți
+97	1597	mirosi	miroase miroasă mirosea miroseai miroseam miroseau mirosii mirosim mirosind mirosit mirositul mirosiți miroși
+98	1598	capital	capitala capitale capitalei capitalele capitalul capitalului capitaluri
+99	1599	introduce	introdu introduc introducea introducem introduceți introduci introducând introducă introdus introduse
+100	1600	împinge	împing împingea împingeai împingeam împingeau împingem împingeți împingi împingând împingându împingă împins împinse împinsul împinsă împinși

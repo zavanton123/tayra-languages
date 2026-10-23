@@ -1,0 +1,100 @@
+1	2301	îngrozitor	îngrozitoare îngrozitoarea îngrozitori îngrozitorul
+2	2302	protest	proteste protestele protestelor protestul protestului
+3	2303	star	starul starule starului staruri starurile starurilor
+4	2304	relativ	relativa relative relativi relativă
+5	2305	aplicație	aplicația aplicației aplicații aplicațiile aplicațiilor
+6	2306	petrol	petrolul petrolului
+7	2307	cădere	căderea căderi căderii căderile
+8	2308	îndoi	îndoaie îndoia îndoiai îndoiam îndoiască îndoiau îndoiesc îndoiește îndoiești îndoim îndoit îndoiți
+9	2309	opoziție	opoziția opoziției opoziții
+10	2310	tricou	tricoul tricoului tricouri tricourile tricourilor
+11	2311	vers	versul versuri versurile versurilor
+12	2312	evolua	evoluam evoluat evoluați evoluează evoluez evolueze evoluezi evoluând evoluăm
+13	2313	mană	mana mane mano
+14	2314	stâng	stânge stângi stângii stângul stângă
+15	2315	colectiv	colectiva colective colectivul colectivului colectivă
+16	2316	software	
+17	2317	certa	certai certam certase certasem certaseră certaserăm certat certau certați certe certându certă certăm cerți
+18	2318	eliberat	eliberata eliberate eliberată eliberați eliberații
+19	2319	autostradă	autostrada autostrăzi autostrăzii autostrăzile autostrăzilor
+20	2320	englez	engleza engleze englezei englezi englezii englezilor englezoaica englezoaice englezoaicele englezoaico englezoaică englezul englezule englezului
+21	2321	util	utila utilată utile utili utilul utilă
+22	2322	profit	profitul profitului profituri profiturile profiturilor
+23	2323	precedent	precedenta precedente precedentele precedentelor precedentul precedentului precedentă precedenți
+24	2324	adopta	adopt adoptam adoptase adoptat adoptați adopte adoptând adoptă adoptăm adopți
+25	2325	emite	emis emise emit emitea emiteau emitem emiteți emită emiți emițând
+26	2326	terapie	terapia terapiei terapii terapiile
+27	2327	miss	
+28	2328	mireasă	mireasa mireaso mirese miresei miresele mireselor
+29	2329	izvor	izvoare izvoarele izvoarelor izvorul izvorului
+30	2330	cândva	cîndva
+31	2331	întrerupe	întrerup întrerupea întrerupem întrerupeți întrerupi întrerupt întrerupând întrerupă
+32	2332	ideal	ideala ideale ideali idealul idealului idealuri idealurile idealurilor ideală
+33	2333	consum	consumul consumului
+34	2334	inginer	ingineri inginerii inginerilor inginerul inginerule inginerului ingineră
+35	2335	placă	plăci plăcii plăcile plăcilor plăcuță
+36	2336	impresionant	impresionanta impresionante impresionantă impresionanți
+37	2337	masculin	masculina masculine masculini masculinul masculină
+38	2338	seif	safe sef seiful seifului seifuri seifurile seifurilor
+39	2339	luptător	luptătoare luptători luptătorii luptătorilor luptătorul luptătorului
+40	2340	biet	bet biata biată biete bietei bietele bietelor bietul bietului bieți bieții bieților
+41	2341	alarmă	alarma alarme alarmei alarmele alarmelor
+42	2342	sec	seaca seacă seci
+43	2343	influența	influențat influențate influențată influențați influențează influențez influențeze influențezi influențând influențăm
+44	2344	cunoaștere	cunoașterea cunoașteri cunoașterii
+45	2345	palmă	palma palme palmei palmele palmelor pălmuță
+46	2346	căci	
+47	2347	ordonat	ordonata ordonate ordonată ordonați
+48	2348	regie	regia regiei regii regio
+49	2349	inferior	inferioara inferioare inferioară inferiori inferiorii
+50	2350	investigație	investigația investigației investigații investigațiile investigațiilor
+51	2351	popă	popa popești popi popii popo
+52	2352	alimentare	alimentarea alimentării
+53	2353	recunoaștere	recunoașterea recunoașteri recunoașterii
+54	2354	bebeluș	bebeluși bebelușii bebelușilor bebelușul bebelușule bebelușului
+55	2355	amestec	amestecul amestecului amestecuri amestecurile
+56	2356	găzdui	găzduia găzduiască găzduiesc găzduiește găzduiești găzduim găzduind găzduit găzduite găzduită găzduiți
+57	2357	fabrica	fabric fabricam fabricat fabricate fabricată fabricau fabricați fabrice fabrici fabricând fabricăm
+58	2358	prevăzut	prevăzute prevăzută
+59	2359	factură	factura facturat facturate facturează facturezi facturi facturii facturile facturilor facturăm
+60	2360	intelectual	intelectuala intelectuale intelectuali intelectualii intelectualilor intelectualul intelectuală
+61	2361	exploda	explodam explodase explodat explodau explodați explodează explodez explodeze explodezi explodând explodă explodăm
+62	2362	comoară	comoara comori comorii comorile comorilor
+63	2363	geniu	genii geniile geniilor geniul geniule geniului
+64	2364	registru	registre registrele registrelor registrul registrului
+65	2365	suferință	suferința suferințe suferinței suferințele suferințelor
+66	2366	accent	accente accentele accentul accentului
+67	2367	rădăcină	rădăcina rădăcini rădăcinii rădăcinile rădăcinilor
+68	2368	provocare	provocarea provocări provocării provocările provocărilor
+69	2369	cadă	cada căzi căzii căzile
+70	2370	preajmă	preajma prejmă
+71	2371	exclusiv	exclusiva exclusive exclusivi exclusivă
+72	2372	nota	notam notat notate notată notați notează notez noteze notezi notând notăm
+73	2373	beneficia	beneficiara beneficiară beneficiat beneficiau beneficiază beneficiați beneficiem beneficiez beneficieze beneficiezi beneficiind
+74	2374	creator	creatoare creatoarea creatoarei creatori creatorii creatorilor creatorul creatorule creatorului
+75	2375	cheltuială	cheltuiala cheltuieli cheltuielile cheltuielilor
+76	2376	satelit	satelitul satelitului sateliți sateliții sateliților
+77	2377	obținere	obținerea obținerii
+78	2378	liniști	liniștea linișteam liniștească linișteau liniștesc liniștește liniștești liniștii liniștim liniștiți
+79	2379	stâncă	stânca stânci stâncii stâncile stâncilor stângă stîncă
+80	2380	circuit	circuite circuitele circuitelor circuitul circuitului
+81	2381	civilizație	civilizația civilizației civilizații civilizațiile civilizațiilor
+82	2382	ochelari	ochelarii ochelarilor
+83	2383	ecran	ecrane ecranele ecranelor ecranul ecranului
+84	2384	solid	solida solide solidele solidă solizi solizii
+85	2385	premier	premierul premierului
+86	2386	excursie	excursia excursiei excursii excursiile excursiilor
+87	2387	strict	stricta stricte strictul strictă stricți
+88	2388	conștiință	conștiința conștiințe conștiinței conștiințele
+89	2389	simptom	simptome simptomele simptomelor simptomul simptomă
+90	2390	tură	tura ture turei turele turelor turo
+91	2391	școlar	scolar școlare școlari școlarii școlarilor școlarul școlarule școlară
+92	2392	anunțat	anunțate anunțată anunțați
+93	2393	reciproc	reciproca reciproce reciprocă
+94	2394	prof	profi profii proful profule profului profă
+95	2395	călca	calci calcă călcai călcam călcase călcat călcau călcați călcând călcăm
+96	2396	supraveghea	supravegheai supravegheam supravegheat supravegheata supravegheate supravegheată supravegheau supraveghează supravegheați supraveghem supraveghez supravegheze supraveghezi supraveghind supraveghindu
+97	2397	no	
+98	2398	mecanism	mecanisme mecanismele mecanismelor mecanismul mecanismului
+99	2399	arhitectură	arhitectura arhitecturi arhitecturii
+100	2400	vampir	vampiri vampirii vampirilor vampirul vampirule vampirului

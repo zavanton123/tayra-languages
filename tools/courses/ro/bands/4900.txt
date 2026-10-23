@@ -1,0 +1,100 @@
+1	4801	biologie	biologia biologiei biologii
+2	4802	sensibilitate	sensibilitatea sensibilități sensibilității sensibilitățile
+3	4803	instructor	instructoare instructoarea instructori instructorii instructorilor instructorul instructorului
+4	4804	carnet	carnete carnetele carnetul carnetului carnețel carnețelul
+5	4805	astronaut	astronautul astronautule astronautului astronauți astronauții astronauților
+6	4806	structural	structurala structurale structurală
+7	4807	vegetație	vegetația vegetației
+8	4808	anxietate	anxietatea anxietăți anxietății anxietățile
+9	4809	sângeros	sângeroasa sângeroase sângeroasă sângerosul sângeroși
+10	4810	inventar	inventare inventarea inventarele inventarul inventarului inventării
+11	4811	precipitație	precipitații precipitațiile precipitațiilor
+12	4812	cocoș	cocoșei cocoșeii cocoșel cocoșelul cocoșelule cocoși cocoșii cocoșilor cocoșul cocoșule cocoșului
+13	4813	urină	urina urinei
+14	4814	caiet	caiete caietele caietul caietului
+15	4815	comision	comisioane comisioanele comisionul comisionului
+16	4816	nemți	nemțește nemțești nemții
+17	4817	scanare	scanarea scanări scanării scanările scanărilor
+18	4818	deținător	deținătoare deținătoarea deținători deținătorii deținătorilor deținătorul deținătorului
+19	4819	primitiv	primitiva primitive primitivi primitivii primitivul primitivă
+20	4820	reparație	reparația reparației reparații reparațiile reparațiilor
+21	4821	transplant	transplantul transplantului transplanturi transplanturile transplanturilor
+22	4822	vatican	vaticanul vaticanului
+23	4823	autopsie	autopsia autopsiat autopsiei autopsii autopsiile autopsiilor
+24	4824	legendar	legendara legendare legendarei legendarele legendari legendarii legendarul legendarului legendară
+25	4825	acceptare	acceptarea acceptării
+26	4826	clarifica	clarific clarificam clarificat clarificata clarificate clarificată clarificați clarifice clarifici clarifică clarificăm
+27	4827	arhiepiscopie	arhiepiscopia arhiepiscopiei
+28	4828	ascensiune	ascensiunea ascensiuni ascensiunii
+29	4829	alimenta	alimentam alimentat alimentau alimentați alimentează alimentez alimenteze alimentezi alimentând alimentăm
+30	4830	îmbrățișare	îmbrățișarea îmbrățișări îmbrățișării îmbrățișările îmbrățișărilor
+31	4831	stoc	stocul stocului stocuri stocurile stocurilor
+32	4832	încorpora	incorpora încorporat încorporate încorporată încorporați încorporează încorporez încorporeze
+33	4833	grafică	
+34	4834	stimula	stimulam stimulat stimulată stimulați stimulează stimulez stimuleze stimulezi stimulând stimulăm
+35	4835	decurge	decurg decurgea decurgeau decurgă decurs
+36	4836	prestigios	prestigioasa prestigioase prestigioasei prestigioasă prestigiosul
+37	4837	numerar	numerarul
+38	4838	admis	admisa admise admisă admiși
+39	4839	vestic	vestica vestice vestici vesticii vestică
+40	4840	descărcare	descărcarea descărcări descărcării descărcările
+41	4841	rucsac	rucsacul rucsacului rucsacuri rucsacurile
+42	4842	împușcătură	împușcătura împușcături împușcăturii împușcăturile împușcăturilor
+43	4843	interogatoriu	interogatorii interogatoriile interogatoriilor interogatoriul interogatoriului
+44	4844	probabilitate	probabilitatea probabilități probabilității probabilitățile probabilităților
+45	4845	scutec	scutece scutecele scutecelor scutecul scutecului
+46	4846	litoral	litoralul litoralului
+47	4847	compromite	compromis compromise compromit compromitem compromiteți compromită compromiți compromițând
+48	4848	adăposti	adăpostea adăpostească adăposteau adăpostesc adăpostește adăpostești adăpostim adăpostind adăpostit adăpostiți
+49	4849	lipit	lipita lipite lipită lipiți
+50	4850	mistic	mistica mistice mistici misticii misticilor misticul mistică
+51	4851	studentă	studenta studente studentei studentele studentelor
+52	4852	capelă	capela capele capelei capelele
+53	4853	localizare	localizarea
+54	4854	vamă	vama vămi vămii vămile vămilor
+55	4855	exclus	exclusa excluse exclusă excluși
+56	4856	optimist	optimista optimiste optimistul optimistă optimiști
+57	4857	exagerat	exagerata exagerate exagerată exagerați
+58	4858	educat	educata educate educată educați educații
+59	4859	inundat	inundata inundate inundată inundați inundații
+60	4860	injecție	injecția injecției injecții injecțiile injecțiilor
+61	4861	stagiu	stagii stagiile stagiul stagiului
+62	4862	viziona	vizionam vizionară vizionat vizionate vizionată vizionați vizionează vizionez vizioneze vizionezi vizionând vizionăm
+63	4863	legiune	legiunea legiuni legiunii legiunile legiunilor
+64	4864	aderare	aderarea aderării
+65	4865	strigăt	strigăte strigătele strigătelor strigătul
+66	4866	armură	armura armuri armurii armurile
+67	4867	atribui	atribuie atribuim atribuit atribuiți
+68	4868	nemulțumit	nemulțumite nemulțumită nemulțumiți
+69	4869	leneș	leneșa leneșe leneși leneșii leneșilor leneșul leneșule leneșului leneșă
+70	4870	doină	doina
+71	4871	frânghie	frânghia frânghiei frânghii frânghiile
+72	4872	tristețe	tristețea tristeți tristeții tristețile
+73	4873	jachetă	jacheta jachete jachetei jachetele
+74	4874	începător	începătoare începători începătorii începătorilor începătorul începătorule începătorului
+75	4875	solicitare	solicitarea solicitări solicitării solicitările solicitărilor
+76	4876	răsplăti	răsplătea răsplătească răsplătesc răsplătește răsplătești răsplătim răsplătit răsplătite răsplătită răsplătiți
+77	4877	epidemie	epidemia epidemiei epidemii epidemiile epidemiilor
+78	4878	experimental	experimentala experimentale experimentali experimentală
+79	4879	asemănare	asemănarea asemănări asemănării asemănările asemănărilor
+80	4880	confesiune	confesie confesiunea confesiuni confesiunii confesiunile confesiunilor
+81	4881	danez	daneza daneze danezi danezii danezilor danezul daneză
+82	4882	auxiliar	auxiliara auxiliare auxiliari auxiliară
+83	4883	armament	armamentul armamentului
+84	4884	anomalie	anomalia anomaliei anomalii anomaliile anomaliilor
+85	4885	lingvistic	lingvistica lingvistice
+86	4886	durabil	durabila durabile durabilă
+87	4887	vocal	vocala vocale vocalele vocalelor vocali vocalul
+88	4888	completare	completarea completări completările
+89	4889	cioară	cioara cioaro ciori ciorii ciorile ciorilor cioroi cioroii cioroilor cioroiul cioroiule cioroiului
+90	4890	alocat	alocata alocate alocată
+91	4891	entuziasmat	entuziasmata entuziasmate entuziasmată entuziasmați
+92	4892	mitropolie	mitropolia mitropoliei
+93	4893	vocală	vocala vocale vocalele vocalelor
+94	4894	colectare	colectarea colectări colectării colectările
+95	4895	prenume	prenumele prenumelui
+96	4896	numeric	numerica numerice numerică
+97	4897	evalua	evaluam evaluat evaluați evaluează evaluez evalueze evaluezi evaluând evaluăm
+98	4898	tolera	toleram tolerat tolerata tolerată tolerați tolerează tolerez tolereze tolerezi tolerând tolerăm
+99	4899	debit	debite debitele debitelor debitul debitului
+100	4900	recuperat	recuperata recuperate recuperată recuperați

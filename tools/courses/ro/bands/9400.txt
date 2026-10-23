@@ -1,0 +1,100 @@
+1	9301	subdiviziune	subdiviziuni subdiviziunile
+2	9302	variu	varia varii
+3	9303	clor	clorul clorului
+4	9304	companion	companioana companioană companioni companionii companionilor companionul companionului
+5	9305	fructifer	fructiferi
+6	9306	meduză	meduza meduze meduzei meduzele meduzelor
+7	9307	fumător	fumătoare fumători fumătorii fumătorilor fumătorul
+8	9308	scotie	scotia scotiei
+9	9309	foarfece	forfecuța
+10	9310	tâmplar	tâmplari tâmplarii tâmplarul tâmplarului
+11	9311	reconstruit	reconstruita reconstruite reconstruită reconstruiți
+12	9312	poștaș	postaș poștași poștașii poștașul poștașule poștașului poștăriță
+13	9313	haz	hazul
+14	9314	spătar	spătarele spătarul
+15	9315	mutilat	mutilata mutilate mutilată mutilați
+16	9316	muschetar	muschetari muschetarii muschetarilor muschetarul mușchetar mușchetari
+17	9317	schizofrenie	schizofrenia schizofreniei
+18	9318	intoxicație	intoxicații
+19	9319	toxicologic	toxicologica toxicologice toxicologicul toxicologică
+20	9320	memă	mema meme memo
+21	9321	convergență	convergența convergenței
+22	9322	pigment	pigmentul pigmentului pigmenți pigmenții
+23	9323	aragaz	aragazul aragazului
+24	9324	țicnit	țicnita țicnite țicnitul țicnită țicniți țicniții țicniților
+25	9325	plagiat	plagiatul
+26	9326	optzeci	
+27	9327	închinare	închinarea
+28	9328	bursier	bursiere bursieri bursieră
+29	9329	procura	procur procurat procurate procurați procure procuri procurăm
+30	9330	obștesc	obștească obștești
+31	9331	favorizat	favorizate favorizată favorizați
+32	9332	aligator	aligatori aligatorii aligatorilor aligatorul aligatorule aligatorului
+33	9333	pilă	pila pile pilele pilo
+34	9334	proră	prora prova provă
+35	9335	kappa	
+36	9336	silvicultură	
+37	9337	enciclopedic	enciclopedice enciclopedică
+38	9338	stereotip	stereotipe stereotipul stereotipuri stereotipurile stereotipurilor
+39	9339	ionic	ionica ionice ionică
+40	9340	pieptene	piepten pieptenele piepteni pieptăn
+41	9341	caramel	caramelul
+42	9342	suicid	suicidul suicidului
+43	9343	exporta	exportat exporte exportă exportăm
+44	9344	șiling	șilingi șilingul
+45	9345	refren	refrene refrenul
+46	9346	ispășitor	ispășitori
+47	9347	înghițitură	înghițitura înghițituri
+48	9348	refugia	refugiază refugiați refugiem refugiez refugieze refugiezi
+49	9349	resuscitare	resuscitarea resuscitării
+50	9350	carat	carate caratul
+51	9351	leșinat	leșinate leșinată leșinați
+52	9352	crocant	crocanta crocante crocantă crocanți
+53	9353	morar	morarul morarului
+54	9354	siluetă	silueta siluete siluetei siluetele
+55	9355	nerecunoscător	nerecunoscătoare nerecunoscători nerecunoscătorul nerecunoscătorule
+56	9356	pășesc	pășească pășești
+57	9357	intimidare	intimidarea intimidări intimidării intimidările
+58	9358	argentinian	argentiniana argentiniană argentiniene argentinieni argentinienii
+59	9359	despacheta	despachetam despachetat despachetați despachetează despachetez despacheteze despachetezi despachetăm
+60	9360	stopa	stopat stopată stopează stopez stopeze stopezi stopăm
+61	9361	umplutură	umplutura umpluturi
+62	9362	basma	basmaua
+63	9363	crucișător	crucișătoare crucișătoarele crucișătoarelor crucișătorul crucișătorului
+64	9364	vehement	vehementa vehemente
+65	9365	rigoare	rigoarea rigorile rigorilor
+66	9366	procesat	procesata procesate procesată procesați
+67	9367	malarie	malaria malariei
+68	9368	funebru	funebre funebră
+69	9369	departajare	
+70	9370	inocență	inocența inocenței
+71	9371	meseriaș	meseriași meseriașii meseriașul meseriașule meseriașă
+72	9372	spânzură	spânzura spânzure
+73	9373	subtitlu	subtitlul subtitluri
+74	9374	transă	transa transe
+75	9375	monoton	monotona monotone monotoni monotonă
+76	9376	inovare	
+77	9377	polonă	polona polone
+78	9378	premergător	premergătoare
+79	9379	albanez	albaneza albaneze albanezi albanezii albanezilor albanezul
+80	9380	pakistanez	pakistaneza pakistaneze pakistanezi pakistanezii pakistanezilor pakistanezul pakistaneză
+81	9381	nereușită	nereușita nereușite
+82	9382	doctoral	doctorale doctorală
+83	9383	sponsorizat	sponsorizata sponsorizate sponsorizată sponsorizați
+84	9384	ultraviolete	ultravioletele
+85	9385	compilație	compilația compilații
+86	9386	neconvențional	neconvenționale neconvențională
+87	9387	hidos	hidoasa hidoase hidoasă hidosul hidoși
+88	9388	cherestea	cheresteaua
+89	9389	simetric	simetrice simetrică
+90	9390	inserție	inserția inserții
+91	9391	hoinări	hoinărea hoinăream hoinărească hoinăreau hoinăresc hoinărește hoinărești hoinărim hoinărind hoinărit hoinăriți
+92	9392	ecologie	ecologia ecologiei
+93	9393	vrăjeală	vrăjeala vrăjeli vrăjelile
+94	9394	echivala	echivalat echivalează
+95	9395	scotoci	scotocea scotoceam scotocească scotocesc scotocește scotocești scotocim scotocind scotocit scotociți
+96	9396	câtelea	câta
+97	9397	institui	instituie instituim
+98	9398	cortex	cortexul cortexului
+99	9399	turnură	turnura turnuri turnurile turnurilor
+100	9400	centurie	centuria centurii

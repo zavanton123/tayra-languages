@@ -1,0 +1,100 @@
+1	8101	neuron	neuroni neuronii neuronilor
+2	8102	breșă	breșa breșe breșei breșele
+3	8103	silă	sila silo
+4	8104	larvă	larva larve larvei larvele larvelor
+5	8105	competitor	competitoare competitori competitorii competitorilor competitorul
+6	8106	adunătură	adunătura adunături
+7	8107	nuc	nuci nucii nucilor nucul
+8	8108	fermoar	fermoare fermoarele fermoarul fermoarului
+9	8109	scârbă	scârba scârbe scârbele scârbelor
+10	8110	poantă	poanta poante poantele
+11	8111	dezgropa	dezgroape dezgroapă dezgrop dezgropam dezgropat dezgropați dezgropi dezgropând dezgropăm
+12	8112	finalist	finalistul finalistă finaliști finaliștii finaliștilor
+13	8113	granit	granitul
+14	8114	adulter	adultere adulteri adulterul adulterului
+15	8115	duo	duoul
+16	8116	buric	buricele buricul buricului
+17	8117	ședea	șade șadă șed ședeam ședem ședeți șezi șezând
+18	8118	dinamită	dinamita dinamite dinamitei
+19	8119	zgârcit	zgârcitul zgârcitule zgârcită zgârciți zgârciții
+20	8120	reîncepe	reînceapă reîncep reîncepem reîncepeți reîncepi reînceput
+21	8121	foi	foia foiesc foiește foiești foii foit foite
+22	8122	exilat	exilate exilată exilați exilații exilaților
+23	8123	interceptare	interceptarea interceptări interceptării interceptările
+24	8124	trip	
+25	8125	trailer	trailere trailerele trailerul
+26	8126	existențial	existențiale existențială
+27	8127	violă	viola violei
+28	8128	echitabil	echitabila echitabile echitabilă
+29	8129	alaltăieri	
+30	8130	liberalism	liberalismul liberalismului
+31	8131	irakian	irakiana irakiană irakiene irakieni irakienii irakienilor
+32	8132	taximetrist	taximetristul taximetristule taximetristului taximetriști
+33	8133	exponat	exponate exponatele exponatul
+34	8134	bambus	bambusul bambusului bambuși
+35	8135	tușă	tușa tușe
+36	8136	însângerat	însângerata însângerate însângerată însângerați
+37	8137	incompetent	incompetenta incompetente incompetentei incompetentul incompetentă incompetenți incompetenții incompetenților
+38	8138	decadă	decada decade decadei
+39	8139	augur	
+40	8140	podoabă	podoaba podoabe podoabele
+41	8141	bănățean	bănățene bănățeni
+42	8142	teoretician	teoreticianul teoreticieni teoreticienii teoreticienilor
+43	8143	specula	speculam speculat speculează speculez speculeze speculezi speculând speculăm
+44	8144	diviziune	diviziunea diviziuni diviziunii diviziunile
+45	8145	textură	textura texturi texturile
+46	8146	neputincios	neputincioasa neputincioase neputincioasă neputincioși
+47	8147	cuc	cuci cucii cucul cuculețul cucului
+48	8148	sic	
+49	8149	arbust	arbustul arbuști arbuștii
+50	8150	cuvios	cuvioasa cuviosul
+51	8151	raportare	raportarea raportări
+52	8152	îngrășământ	îngrășăminte îngrășămintele îngrășămintelor îngrășământul
+53	8153	meridian	meridiane meridianele meridianul meridianului
+54	8154	distrat	distrata distrată distrați
+55	8155	propice	
+56	8156	binar	binare binari binarii binară
+57	8157	eroism	eroismul eroismului
+58	8158	valoric	valorice valorică
+59	8159	luciu	luciul
+60	8160	acustic	acustica acustice
+61	8161	impas	impasul
+62	8162	alcătuire	alcătuirea
+63	8163	incendiere	incendiare incendierea incendieri incendierii incendierile
+64	8164	patriotism	patriotismul patriotismului
+65	8165	prună	pruna prune prunele prunelor
+66	8166	necorespunzător	necorespunzătoare
+67	8167	sinagogă	sinagoga sinagogi sinagogii sinagogile
+68	8168	opiu	opiul opiului opium opiumul opiumului
+69	8169	jale	jalea
+70	8170	obezitate	obezitatea obezității
+71	8171	mucegai	mucegaiul mucegaiului
+72	8172	jamaică	jamaica
+73	8173	talisman	talismane talismanele talismanul talismanului
+74	8174	londonez	londoneza londoneze londonezi londonezii londoneză
+75	8175	secreție	secreția secreției secreții secrețiile
+76	8176	treisprezece	treisprezecea treisprezecelea
+77	8177	sfinție	sfinția sfinției sfinții
+78	8178	reapărea	reapar reapare reapari reapară reapărut
+79	8179	binevoitor	binevoitoare binevoitori binevoitorul binevoitorule
+80	8180	bătăuș	bătăușa bătăuși bătăușii bătăușilor bătăușul bătăușule bătăușului bătăușă
+81	8181	adineauri	adineaori
+82	8182	modelat	modelata modelate modelată modelați
+83	8183	autorizare	autorizarea
+84	8184	anticorp	anticorpi anticorpii anticorpilor anticorpul
+85	8185	înnăscut	înnăscute înnăscută înnăscuți
+86	8186	reproșa	reproșat reproșați reproșează reproșez reproșeze reproșezi reproșăm
+87	8187	areal	arealul
+88	8188	mâncărime	mâncărimea mâncărimi mâncărimile
+89	8189	jaguar	jaguari jaguarii jaguarul jaguarului
+90	8190	manta	mantale mantaua
+91	8191	rotativ	rotativa rotative rotativă
+92	8192	silvă	silva silvo
+93	8193	armonios	armonioasa armonioase armonioasă
+94	8194	popas	popasul popasuri popasurile
+95	8195	revărsa	revarsă reverse reverși revărs revărsat revărsăm
+96	8196	partitură	partitura partituri partiturile
+97	8197	pronunțare	pronunțarea
+98	8198	manichiură	manichiura manichiuri
+99	8199	optimism	optimismul optimismului
+100	8200	catifea	catifeaua

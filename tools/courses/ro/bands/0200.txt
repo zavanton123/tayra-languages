@@ -1,0 +1,100 @@
+1	101	atunci	
+2	102	până	pân pînă pănă
+3	103	alt	alte altei altor altui altă alți
+4	104	acolo	
+5	105	viață	viața vieți vieții viețile vieților
+6	106	pune	pui pun punea puneai puneam puneau puneați punem puneți punând punându pună pus puse pusese pusesem puseseră puseserăm pusă puși
+7	107	lăsa	las lase lasă lași lăsai lăsam lăsase lăsasem lăsaseră lăsaseși lăsat lăsata lăsate lăsatul lăsată lăsau lăsați lăsații lăsând lăsându lăsînd lăsă lăsăm nelăsând
+8	108	copil	copii copiii copiilor copilaș copilași copilașii copilașilor copilașul copilașule copilașului copile copilei copilele copiliță copilo copilul copilule copilului copilă
+9	109	dată	data datat datata datate datată date datează datei datele datelor datez dateze dato datând dăți dățile
+10	110	nou	noii noile noilor noua noul noului nouă nouălea nouț
+11	111	cine	cn cui
+12	112	găsi	găsea găseai găseam găsească găseau găseați găsesc găsește găsești găsii găsim găsind găsindu găsise găsisem găsiseră găsit găsita găsite găsitul găsită găsiți negăsind
+13	113	pleca	pleacă plec plecai plecam plecase plecasem plecaseră plecaseși plecat plecate plecatul plecată plecau plecați plece pleci plecând plecă plecăm
+14	114	domn	dl dlor dlui dnul doamne domle domne domni domnii domnilor domnișor domnișorul domnișorule domnișorului domnul domnule domnului
+15	115	ajunge	ajung ajungea ajungeai ajungeam ajungeau ajungeați ajungem ajungeți ajungi ajungând ajungându ajungă ajuns ajunsa ajunse ajunseră ajunsese ajunsesem ajunseseră ajunseserăm ajunseseși ajunsă ajunși
+16	116	nimic	nimicul nimicului nimicuri nimicurile
+17	117	nevoie	nevoi nevoia nevoii nevoile nevoilor
+18	118	dintre	
+19	119	lume	lumea lumi lumia lumii lumile lumilor
+20	120	rău	rea reaua rele relele relelor răi răii răilor răul răului
+21	121	singur	singura singure singurei singurel singurele singuri singurică singurii singurul singurului singură
+22	122	fel	felul felului feluri felurile felurilor felurite
+23	123	fără	făr
+24	124	începe	înceapă încep începea începeai începeam începeau începem începeți începi începu începură începuse începusem începuseră începuserăm începuseși început începând începînd
+25	125	atât	atâtor atâtora atâți atît
+26	126	tată	tata tatei tati tatăl tatălui tați tații taților tătucă
+27	127	ceea	
+28	128	întâmpla	tâmpla tâmplat întâmplase întâmplaseră întâmplat întâmplate întâmplată întâmplau întâmple întâmplându întâmplă întîmpla
+29	129	afla	aflai aflam aflase aflasem aflaseră aflat aflata aflate aflată aflau aflați afle afli aflu aflând aflându află aflăm
+30	130	îți	
+31	131	decât	decît dăcât
+32	132	plăcea	plac place placi placul placă plăceai plăceam plăceau plăceați plăcem plăceți plăcu plăcuse plăcut
+33	133	puțin	puțina puține puținele puținelor puțini puținii puțintel puțintică puținul puțină
+34	134	ruga	roage roagă rog rogi rogu rugai rugam rugase rugasem rugat rugate rugată rugau rugați rugând rugându rugăm
+35	135	nume	numele numelor numelui
+36	136	prea	
+37	137	mamă	mama mame mamei mamele mamelor mamo mt
+38	138	aduce	adu aduc aducea aduceai aduceam aduceau aducem aduceți aduci aducând aducându aducă adus adusa aduse adusese adusesem aduseseră adusul adusă aduși
+39	139	ajuta	ajut ajutai ajutam ajutase ajutasem ajutat ajutata ajutate ajutatul ajutată ajutau ajutați ajute ajutând ajutându ajută ajutăm ajuți
+40	140	zice	zic zicea ziceai ziceam ziceau ziceați zicem ziceți zici zicând zicându zică zis zisa zise zisei zisele zisese zisesem ziseși zisul zisului zisă ziși zișii zișilor
+41	141	problemă	problem problema probleme problemei problemele problemelor problemo problemuță
+42	142	casă	casa casat casate case casei casele caselor căsoaie căsuță
+43	143	încerca	încearcă încerc încercai încercam încercase încercasem încercaseră încercat încercate încercatul încercată încercau încercați încerce încerci încercând încercă încercăm
+44	144	încă	
+45	145	sigur	sigura sigure sigurele siguri sigurii sigurul sigură
+46	146	mulțumi	mulțumea mulțumeam mulțumească mulțumeau mulțumesc mulțumește mulțumești mulțumii mulțumim mulțumind mulțumindu mulțumit mulțumiți
+47	147	exista	exist existai existam existase existat existau existați existe existând există existăm exiști neexistând
+48	148	trei	treia treilea treiul trii
+49	149	cineva	cuiva
+50	150	folosi	folosea foloseai foloseam folosească foloseau foloseați folosesc folosește folosești folosii folosim folosind folosindu folosise folosisem folosit folosita folosite folosită folosiți
+51	151	simți	simt simte simtă simțea simțeai simțeam simțeau simțeați simții simțim simțind simțindu simțise simțisem simțit simțite simțită simțiți
+52	152	deci	dece
+53	153	fată	fata fato fete fetei fetele fetelor fetișcana fetișcane fetișcanele fetișcană fetișoara fetiță fătuca fătuci fătucile fătuco fătucă
+54	154	ban	bani banii banilor banul banului bănuț bănuți bănuții bănuțul
+55	155	mic	mica mice mici micii micile micilor mico micul micule micului mică
+56	156	drept	dreapta dreaptă drepte dreptei dreptul dreptului drepturi drepturile drepturilor drepți drepților
+57	157	oră	ora ore orei orele orelor oro
+58	158	lor	
+59	159	înțelege	înțeleagă înțeleg înțelegea înțelegeai înțelegeam înțelegeau înțelegeați înțelegem înțelegeți înțelegi înțelegând înțeles înțelese înțelesese înțelesesem înțeleseseră înțeleseserăm
+60	160	fapt	fapte faptele faptelor faptul faptului
+61	161	rămâne	rămas rămase rămasul rămasă rămași rămâi rămân rămânea rămâneai rămâneam rămâneau rămâneați rămânem rămâneți rămânând rămână rămîne rămîneți rămăsese rămăsesem rămăseseră rămăseserăm
+62	162	trece	treacă trec trecea treceai treceam treceau treceați trecem treceți treci trecu trecură trecuse trecusem trecuseră trecut trecând trecându trecînd
+63	163	față	fața fețe feței fețele fețelor fețișoară
+64	164	auzi	aud aude audă auzea auzeai auzeam auzeau auzii auzim auzind auzindu auzise auzisem auziseră auzit auzita auzite auzită auziți
+65	165	apoi	poi
+66	166	aștepta	așteaptă aștept așteptai așteptam așteptase așteptasem așteptat așteptata așteptate așteptatul așteptată așteptau așteptați aștepte așteptând așteptându așteptînd așteptă așteptăm aștepți
+67	167	intra	intrai intram intrase intrasem intraseră intrat intrate intratul intrată intrau intrați intre intri intru intrând intră intrăm întra întrat întri întră
+68	168	fiecare	fiecărei fiecăreia fiecărui fiecăruia
+69	169	familie	familia familiei familii familiile familiilor
+70	170	arăta	arate arată arăt arătai arătam arătase arătat arătate arătatul arătată arătau arătați arătând arătându arătînd arătă arătăm arăți
+71	171	către	
+72	172	ăla	aia alea ăia ăleia ălora ăluia
+73	173	femeie	femei femeia femeii femeile femeilor femeiușca femeiușcă
+74	174	orice	
+75	175	gândi	gândea gândeai gândeam gândească gândeau gândeați gândesc gândește gândești gândii gândim gândind gândindu gândise gândisem gândit gândite gânditul gândită gândiți gîndea gîndesc gîndi gîndit gîndiți
+76	176	ultim	ultima ultime ultimei ultimele ultimelor ultimi ultimii ultimilor ultimul ultimului ultimă
+77	177	tip	tipei tipele tipelor tipi tipii tipilor tipul tipule tipului tipuri tipurile tipurilor tipă
+78	178	caz	cazul cazului cazuri cazurile cazurilor
+79	179	înainte	nainte înante înnainte înte
+80	180	între	
+81	181	peste	
+82	182	câtva	câteva câtorva câtăva câțiva cîteva cîțiva
+83	183	ține	neținând ții țin ținea țineai țineam țineau țineați ținem țineți ținuse ținut ținuta ținute ținutei ținutele ținutul ținutului ținuturi ținuturile ținuturilor ținută ținuți ținând ținându țină
+84	184	urmă	urma urme urmei urmele urmelor
+85	185	acel	acea acei acele acelei acelor acelui
+86	186	prieten	prietene prieteni prietenii prietenilor prietenul prietenului
+87	187	doamnă	doamna doamne doamnei doamnele doamnelor domnițe domniței domnițele domnițelor domniță
+88	188	sub	supt supte suptul suptă
+89	189	întoarce	întoarcem întoarceți întoarcă întoarsa întoarse întoarsă întorc întorcea întorceai întorceam întorceau întorceați întorci întorcând întorcându întors întorsese întorsesem întorseseră întorsul întorși
+90	190	deveni	devenea deveneai deveneam deveneau devenii devenim devenind deveniră devenise devenisem deveniseră deveniseși devenit devenite devenită deveniți devii devin devine devino devină
+91	191	oh	
+92	192	regulă	regula reguli regulii regulile regulilor
+93	193	frumos	frumoasa frumoase frumoasei frumoasele frumoaselor frumoasă frumosul frumosului frumoși frumoșii frumoșilor frumușel frumușele frumușelul frumușelului frumușică
+94	194	român	româna române români românii românilor româno românul română
+95	195	noapte	noaptea noptii noptile noptilor nopți nopții nopțile nopților
+96	196	primi	primea primeai primeam primească primeau primeați primesc primește primești primii primim primind primise primisem primiseră primit primiți
+97	197	persoană	persoana persoane persoanei persoanele persoanelor
+98	198	dori	dorea doreai doream dorească doreau doreați doresc dorește dorești dorii dorim dorind dorindu dorise dorisem dorit dorita dorite doritul dorită doriți nedorind
+99	199	pierde	piardă pierd pierdea pierdeai pierdeam pierdeau pierdeați pierdem pierdeți pierdu pierdui pierduse pierdusem pierduseră pierduserăm pierduseși pierdut pierduta pierdute pierdutul pierdută pierduți pierzi pierzând pierzându
+100	200	oraș	orașe orașele orașelor orașul orașului orășel

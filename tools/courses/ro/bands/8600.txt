@@ -1,0 +1,100 @@
+1	8501	brici	brice briciul
+2	8502	joint	jointul jointuri jointurile
+3	8503	răgaz	răgazul
+4	8504	programă	programa programe programei programele programelor
+5	8505	marginal	marginale marginală
+6	8506	murătură	murătura murături murăturile murăturilor
+7	8507	fierar	fierari fierarii fierarilor fierarul fierarule fierarului
+8	8508	excitat	excitata excitate excitată excitați
+9	8509	liniar	linear lineară liniara liniare liniară
+10	8510	impulsiv	impulsiva impulsive impulsivi impulsivă
+11	8511	aiureală	aiureala aiureli aiurelile
+12	8512	antropologie	antropologia antropologiei antropologii
+13	8513	utopie	utopia
+14	8514	marcator	marcatori marcatorii marcatorul
+15	8515	focă	foca foci focii focile focilor
+16	8516	muscel	muscelului
+17	8517	divizare	divizarea divizări divizării
+18	8518	desăvârșire	desăvârșirea
+19	8519	purice	puricele purici puricii puricilor
+20	8520	compensare	compensarea
+21	8521	soprană	soprana soprane sopranele
+22	8522	înălțat	înălțate înălțată înălțați
+23	8523	bivol	bivoli bivolii bivolilor bivolul bivolului
+24	8524	submina	subminat subminate subminată subminați subminează subminez submineze subminezi subminând subminăm
+25	8525	coincident	coincidenta coincidente coincidentele coincidentă
+26	8526	plai	plaiul plaiuri plaiurile
+27	8527	belșug	belșugul belșugului
+28	8528	aromân	aromâni aromânii aromânilor
+29	8529	reclamație	reclamația reclamației reclamații reclamațiile reclamațiilor
+30	8530	mătura	mătur măturam măturat măturate măturată măturați măture mături măturând măturăm
+31	8531	fiabilitate	fiabilitatea
+32	8532	domino	dominoul dominoului dominouri
+33	8533	karaoke	
+34	8534	saxon	saxona saxone saxoni saxonii saxonilor saxonă
+35	8535	ketchup	ketchupul
+36	8536	promulga	promulgat promulgată
+37	8537	dreptunghiular	dreptunghiulare dreptunghiulară
+38	8538	recurent	recurente recurentă
+39	8539	memora	memoram memorat memorate memorată memorați memorează memorez memoreze memorezi memorând memorăm
+40	8540	gran	grane granele granule
+41	8541	glugă	gluga glugi glugile
+42	8542	cofeină	cafeina cafeină cofeina cofeinei
+43	8543	tao	
+44	8544	fărâmă	fărâma fărâme fărâmiță
+45	8545	microscop	microscoape microscopul microscopului
+46	8546	transparență	transparența transparenței
+47	8547	uscare	uscarea
+48	8548	concretizat	concretizată
+49	8549	sifon	sifoane sifonul
+50	8550	tunsoare	tunsori
+51	8551	sintetiza	sintetizat sintetizează sintetizez sintetizeze sintetizăm
+52	8552	învățătoare	învățătoarea învățătoarei
+53	8553	busuioc	busuiocul
+54	8554	plagă	plaga plăgi plăgii plăgile plăgilor
+55	8555	vibra	vibrat vibrează vibrez vibreze vibrezi vibrând
+56	8556	transilvănean	transilvănene transilvăneni
+57	8557	globalizare	globalizarea globalizării
+58	8558	arm	armuri
+59	8559	vârtej	vârtejul vârtejului vârtejuri vârtejurile
+60	8560	diferențiat	diferențiate diferențiată
+61	8561	reformare	reformarea reformării
+62	8562	curgere	curgerea curgerii
+63	8563	flagrant	flagranta flagrante flagrantul flagrantă
+64	8564	emițător	emițătorul emițătorului
+65	8565	sfidare	sfidarea sfidării
+66	8566	procură	procura procuri
+67	8567	training	trainingul
+68	8568	pedagogie	pedagogia
+69	8569	penalty	
+70	8570	otrăvi	otrăvea otrăvească otrăvesc otrăvește otrăvești otrăvii otrăvim otrăvind otrăviți
+71	8571	dezamăgitor	dezamăgitoare dezamăgitori
+72	8572	mutră	mutra mutre mutrele
+73	8573	muscat	
+74	8574	orienta	orientam orientați orientează orientez orienteze orientezi orientăm
+75	8575	viraj	viraje virajele virajul
+76	8576	suvenir	suvenire suvenirul
+77	8577	fosfor	fosforul
+78	8578	dual	
+79	8579	limpezi	limpezească limpezesc limpezește limpezești limpezim limpezit
+80	8580	transcriere	transcrierea transcrieri transcrierile
+81	8581	aviator	aviatori aviatorii aviatorilor aviatorul aviatorule
+82	8582	convulsie	convulsii convulsiile convulsiilor
+83	8583	silință	silința
+84	8584	ruletă	ruleta ruletei
+85	8585	răscruce	răscrucea răscruci
+86	8586	scurtătură	scurtătura scurtături scurtăturile
+87	8587	caravană	caravana caravane caravanei caravanele caravanelor
+88	8588	bis	bisuri
+89	8589	încadrare	încadrarea
+90	8590	agresivitate	agresivitatea agresivității
+91	8591	răcoritoare	răcoritoarele
+92	8592	eroziune	eroziunea eroziunii
+93	8593	descompune	descompui descompun descompună descompus descompuse descompusă
+94	8594	neplăcere	neplăcerea neplăceri neplăcerile
+95	8595	bănesc	bănească bănești
+96	8596	coran	coranul coranului
+97	8597	pluș	
+98	8598	răsturnare	răsturnarea răsturnări
+99	8599	înghețat	înghețata înghețate înghețatei înghețatele înghețați
+100	8600	cant	

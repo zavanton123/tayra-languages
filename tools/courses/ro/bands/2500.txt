@@ -1,0 +1,100 @@
+1	2401	dublă	dubla duble dublei dublele
+2	2402	penal	penala penale penală
+3	2403	pistă	pista piste pistei pistele pistelor
+4	2404	protocol	protocoale protocoalele protocoalelor protocolul protocolului
+5	2405	peisaj	peisaje peisajele peisajelor peisajul peisajului
+6	2406	deces	decese decesele deceselor decesul decesului
+7	2407	administrare	administrarea administrării
+8	2408	negociere	negocierea negocieri negocierii negocierile negocierilor
+9	2409	vrăjitor	vrăjitoare vrăjitori vrăjitorii vrăjitorilor vrăjitorul vrăjitorule vrăjitorului
+10	2410	corespunzător	corespunzătoare corespunzători
+11	2411	cimitir	cimitire cimitirele cimitirelor cimitirul cimitirului
+12	2412	fum	fumul fumului fumuri fumurile
+13	2413	lichid	lichida lichide lichidele lichidelor lichidul lichidului lichizi
+14	2414	gară	gara garam garat garo gări gării gările gărilor
+15	2415	precis	precisa precise precisă preciși
+16	2416	inventa	inventai inventam inventase inventasem inventat inventați inventează inventez inventeze inventezi inventând inventăm
+17	2417	acuza	acuz acuzai acuzam acuzat acuzau acuzați acuzi acuzând acuzându acuzăm
+18	2418	alternativă	alternativa alternative alternativele
+19	2419	abandona	abandonam abandonase abandonasem abandonat abandonați abandonează abandonez abandoneze abandonezi abandonând abandonându abandonăm
+20	2420	nasol	nasoala nasoale nasoală nasoli nasul
+21	2421	furt	furtul furtului furturi furturile furturilor
+22	2422	aliat	aliate aliatul aliatului aliată aliați aliații aliaților
+23	2423	liră	lira lire lirei lirele
+24	2424	pescuit	pescuite pescuitul pescuitului pescuită
+25	2425	domnie	domnia domniei domnii domniile domniilor
+26	2426	fin	fina finei finele fini finul finule finului finuț fină
+27	2427	expune	expui expun expunea expuneam expunem expuneți expunând expunându expună expus expuse
+28	2428	cablu	cablul cablului cabluri cablurile cablurilor
+29	2429	văr	vere veri verii verilor verișor verișorul vărul vărule vărului
+30	2430	indiciu	indicii indiciile indiciilor indiciul indiciului
+31	2431	adăpost	adăpostul adăpostului adăposturi adăposturile adăposturilor
+32	2432	dispera	desperat disper disperat disperata disperate disperatul disperatule disperată disperați disperații dispere disperi disperă disperăm
+33	2433	peșteră	peștera peșteri peșterii peșterile peșterilor
+34	2434	prăbuși	prăbușea prăbușeam prăbușească prăbușeau prăbușesc prăbușește prăbușești prăbușim prăbușindu prăbușise prăbușit prăbușiți
+35	2435	referință	referința referințe referințele
+36	2436	electoral	electorala electorale electorală
+37	2437	lectură	lectura lecturat lecturi lecturii lecturile
+38	2438	furie	furia furiei furii furiile furiilor furio
+39	2439	actriță	actrița actrițe actriței actrițele actrițelor
+40	2440	inițiat	inițiate inițiată inițiați inițiații
+41	2441	zvon	zvonul zvonului zvonuri zvonurile zvonurilor
+42	2442	desfășurare	desfășurarea desfășurări desfășurării
+43	2443	cumpărătură	cumpărături cumpărăturile cumpărăturilor
+44	2444	aliment	alimente alimentele alimentelor alimentul
+45	2445	cerceta	cercetai cercetam cercetase cercetat cercetau cercetași cercetați cercetează cercetez cerceteze cercetezi cercetând cercetă cercetăm
+46	2446	centură	centura centuri centurile centurilor
+47	2447	catedrală	catedrala catedrale catedralei catedralele
+48	2448	supus	supusa supuse supusul supusului supusă supuși supușii supușilor
+49	2449	aproba	aprob aprobam aprobat aprobau aprobați aprobe aprobi aprobând aprobă aprobăm
+50	2450	metrou	metro metroul metroului metrouri metrourile
+51	2451	marină	marina marinat marinata marinate marinată marine marinează marinei marinezi marino
+52	2452	încolo	
+53	2453	licență	licența licențe licenței licențele licențelor
+54	2454	abandonat	abandonata abandonate abandonată abandonați
+55	2455	așezat	așezate așezată așezați
+56	2456	împărtăși	împărtășea împărtășeam împărtășească împărtășeau împărtășesc împărtășește împărtășești împărtășim împărtășind împărtășit împărtășite împărtășită împărtășiți
+57	2457	lipsit	lipsita lipsite lipsită lipsiți
+58	2458	partidă	partida partide partidei partidele partidelor
+59	2459	jaf	jac jaful jafului jafuri jafurile jafurilor
+60	2460	împrumuta	împrumutam împrumutase împrumutat împrumutau împrumutați împrumute împrumutând împrumută împrumutăm împrumuți
+61	2461	mac	maci macii macu macul macului
+62	2462	conceput	conceputa concepute concepută concepuți
+63	2463	genetic	genetica genetice genetici geneticii genetică
+64	2464	demult	
+65	2465	pătrunde	nepătruns pătrund pătrundea pătrundeau pătrundem pătrundeți pătrundă pătruns pătrunse pătrunsese pătrunzi pătrunzând
+66	2466	teoretic	teoretica teoretice teoretică
+67	2467	mărit	mărita mărite măritul mărită măriți
+68	2468	montan	montana montane montanei montani montană
+69	2469	aparent	aparenta aparente aparentei aparentele aparentelor aparentul aparentă
+70	2470	vedetă	vedeta vedete vedetei vedetele vedetelor vedeto
+71	2471	înnebuni	înnebunea înnebuneai înnebuneam înnebunească înnebuneau înnebunesc înnebunește înnebunești înnebunim înnebunind înnebunise înnebunisem înnebuniseră înnebunit înnebuniți
+72	2472	considerare	considerarea
+73	2473	iertare	iertarea iertări iertării
+74	2474	orb	oarba oarbe oarbă orbi orbii orbilor orbul orbule orbului
+75	2475	sfert	sfertul sfertului sferturi sferturile sferturilor
+76	2476	convenție	convenția convenției convenții convențiile convențiilor
+77	2477	arestare	arestarea arestări arestării arestările arestărilor
+78	2478	deplasare	deplasarea deplasări deplasării deplasările deplasărilor
+79	2479	statistică	statistica statistici statisticii statisticile statisticilor
+80	2480	gazdă	gazda gazde gazdei gazdele gazdelor
+81	2481	dator	datoare datori datorii
+82	2482	pastilă	pastila pastile pastilei pastilele pastilelor
+83	2483	elicopter	elicoptere elicopterele elicopterelor elicopterul elicopterului helicopter helicopterul
+84	2484	explicație	explicația explicații explicațiile explicațiilor
+85	2485	furios	furioasa furioase furioasă furiosul furiosului furioși
+86	2486	programa	programam programase programasem programat programate programată programați programează programez programeze programezi programăm
+87	2487	culcare	culcarea culcării
+88	2488	nega	neagă neg negam negat negată negau negați nege negi negii negilor negul negând negăm
+89	2489	secund	secunda secundară secunde secundele secundul secundului secunzi secunzii
+90	2490	aborda	abordam abordat abordata abordate abordată abordau abordați abordează abordez abordeze abordezi abordând abordăm
+91	2491	flacără	flacăra flăcări flăcării flăcările flăcărilor
+92	2492	maiestate	maiestatea maiestății maiestățile majestate
+93	2493	dulap	dulapul dulapului dulapuri dulapurile dulapurilor dulăpior
+94	2494	zâmbet	zâmbete zâmbetele zâmbetelor zâmbetul zâmbetului
+95	2495	întreprindere	întreprinderea întreprinderi întreprinderii întreprinderile întreprinderilor
+96	2496	tăcere	tăcerea tăceri tăcerii tăcerile
+97	2497	delicios	delicioasa delicioase delicioasele delicioasă deliciosul delicioși
+98	2498	oricât	oricâte oricâtă oricâți
+99	2499	îndată	ndat
+100	2500	normă	norma norme normei normele normelor

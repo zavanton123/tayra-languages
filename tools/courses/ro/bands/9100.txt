@@ -1,0 +1,100 @@
+1	9001	cuviință	cuviințe
+2	9002	calcar	calcarul
+3	9003	metodic	metodica metodice metodici metodică
+4	9004	zodie	zodia zodiei zodii
+5	9005	marțian	marțianul marțianule marțiană marțieni marțienii marțienilor
+6	9006	juvenil	juvenila juvenile juvenili juvenilă
+7	9007	emirat	emirate emiratele
+8	9008	voluntariat	voluntariatul
+9	9009	ghimpat	ghimpata ghimpate ghimpată
+10	9010	denumi	denumea denumească denumeau denumesc denumește denumești denumim denumiți
+11	9011	binefacere	binefacerea binefaceri binefacerile
+12	9012	acadea	acadeaua acadele acadelele acadelelor
+13	9013	neutraliza	neutralizam neutralizat neutralizata neutralizate neutralizată neutralizați neutralizează neutralizez neutralizeze neutralizezi neutralizăm
+14	9014	terifiant	terifianta terifiante terifiantă
+15	9015	teroriza	terorizat terorizau terorizați terorizează terorizez terorizeze terorizezi terorizând terorizăm
+16	9016	primitor	primitoare primitori primitorul
+17	9017	epilepsie	epilepsia epilepsiei
+18	9018	dăinui	dăinuiască dăinuie dăinuiește dăinuit
+19	9019	străbun	străbune străbuni străbunii străbunilor străbunul străbună
+20	9020	meșteri	meșteresc meșterește meșterești meșterii meșterind meșterit
+21	9021	cascadorie	cascadoria cascadoriei cascadorii cascadoriile cascadoriilor
+22	9022	consorțiu	consorțiul consorțiului
+23	9023	yuan	yuani
+24	9024	jad	jadul
+25	9025	restituire	restituirea restituiri
+26	9026	boc	
+27	9027	îmbogățire	îmbogățirea îmbogățirii
+28	9028	văz	văzul văzului
+29	9029	biopsie	biopsia biopsiei biopsii
+30	9030	focos	focoasa focoase focoasele focoaselor focoasă focosul focosului
+31	9031	soclu	soclul
+32	9032	previziune	previziunea previziuni previziunii previziunile previziunilor
+33	9033	șaptezeci	
+34	9034	anemie	anemia anemiei
+35	9035	microorganism	microorganisme microorganismele microorganismelor
+36	9036	cașcaval	cașcavalul
+37	9037	tomografie	tomografia tomografiei tomografii tomografiile
+38	9038	urlet	urlete urletele urletelor urletul
+39	9039	retro	
+40	9040	neînarmat	neînarmate neînarmată neînarmați
+41	9041	conserva	conserv conservam conservat conservați conserve conservi conservăm
+42	9042	pudra	pudrat pudrate pudrată pudrez pudreze pudrezi
+43	9043	vals	valsul valsuri
+44	9044	îndrăgi	îndrăgea îndrăgeam îndrăgească îndrăgeau îndrăgesc îndrăgește îndrăgești îndrăgim îndrăgit îndrăgiți
+45	9045	rapper	rapperi rapperii rapperul
+46	9046	traumatic	traumatica traumatice traumatică
+47	9047	pelerină	pelerina pelerine pelerinei pelerinele
+48	9048	ulcer	ulcere ulcerul ulcerului
+49	9049	blanc	
+50	9050	flaut	flaute flautul flautului
+51	9051	izbit	izbită izbiți
+52	9052	considerent	considerente considerentele considerentul
+53	9053	extenuat	extenuata extenuate extenuată extenuați
+54	9054	moravuri	moravurile moravurilor
+55	9055	facere	facerea faceri facerii
+56	9056	proiectant	proiectantul proiectanți proiectanții
+57	9057	înotător	înotătoare înotătoarea înotătoarele înotătoarelor înotători înotătorii înotătorul
+58	9058	crap	crapi crapii crapul crapule
+59	9059	concerta	concertat concertează concerteze
+60	9060	urinare	urinarea
+61	9061	sforăi	sforăia sforăiai sforăiam sforăie sforăind sforăit sforăitul sforăitului sforăiți
+62	9062	tisă	tis tisa
+63	9063	consecvent	consecventa consecvente consecventă consecvenți
+64	9064	ucenicie	ucenicia ucenicii
+65	9065	polen	polenul polenului
+66	9066	regenerabil	regenerabile regenerabilă
+67	9067	răsunător	răsunătoare
+68	9068	adiere	adierea adieri
+69	9069	marker	markere markerele markeri markerii markerul
+70	9070	notificare	notificarea notificări notificările
+71	9071	satisfacere	satisfacerea satisfacerii
+72	9072	scărpina	scarpin scarpine scarpini scarpină scărpinam scărpinat scărpinați scărpinându scărpină scărpinăm
+73	9073	sobru	sobra sobre sobri sobră
+74	9074	emana	eman emanat emanată emanau emane emani emanând emană
+75	9075	încăierare	încăierarea încăierări încăierării încăierările
+76	9076	parcelă	parcela parcele parcelei parcelele
+77	9077	neurologie	neurologia neurologiei neurologii
+78	9078	surplus	surplusul surplusului surplusuri
+79	9079	tuși	tușea tușească tușesc tușește tușești tușind tușit tușiți
+80	9080	seringă	seringa seringi seringii seringile siringă
+81	9081	clește	cleștele clești cleștii cleștilor
+82	9082	chior	chioara chioară chiori chiorii chiorul chiorule
+83	9083	abil	abila abile abili abilă
+84	9084	propulsa	propulsat propulsate propulsată propulsați propulsează propulseze
+85	9085	dispunere	dispunerea
+86	9086	repune	repui repun repunem repuneți repună repus repuse repusă repuși
+87	9087	obsesiv	obsesiva obsesive obsesivă
+88	9088	evadat	evadata evadate evadatul evadatului evadată evadați evadații evadaților
+89	9089	victorios	victorioasa victorioase victorioasă victoriosul victorioși
+90	9090	pergament	pergamente pergamentele pergamentelor pergamentul pergamentului
+91	9091	slavic	slavici
+92	9092	cerne	cearnă cern cernea cernem cerni cernit cernită cernut
+93	9093	nazală	nazala nazale
+94	9094	vibrator	vibratoare vibratoarele vibratorul
+95	9095	lefter	leftera lefteri lefteră
+96	9096	cunună	cununa cununi cununii
+97	9097	torențial	torențiale torențială
+98	9098	călcâi	călcâie călcâiele călcâiul călcâiului
+99	9099	patiserie	patiseria patiseriei patiserii
+100	9100	tiranie	tirania tiraniei tiranii

@@ -1,0 +1,100 @@
+1	2201	particular	particulara particulare particulari particulară
+2	2202	gândire	gândirea gândiri gândirii
+3	2203	suc	sucul sucului sucuri sucurile sucurilor
+4	2204	aniversare	aniversarea aniversară aniversări aniversării aniversările
+5	2205	zilnic	zilnica zilnice zilnică
+6	2206	bucuros	bucuroasa bucuroase bucuroasă bucurosul bucuroși
+7	2207	pop	
+8	2208	salon	saloane saloanele saloanelor salonul salonului
+9	2209	nisip	nisipul nisipului nisipuri nisipurile nisipurilor
+10	2210	figură	figura figuri figurii figurile figurilor
+11	2211	cheltui	cheltuia cheltuiai cheltuiam cheltuiască cheltuiau cheltuie cheltuiesc cheltuiește cheltuiești cheltuii cheltuim cheltuind cheltuise cheltuit cheltuiți
+12	2212	încălca	încalc încalce încalci încalcă încălcam încălcase încălcat încălcate încălcată încălcau încălcați încălcând încălcăm
+13	2213	adormi	adoarme adoarmă adorm adormea adormeai adormeam adormeau adormim adormind adormise adormisem adormiseși adormit adormiți
+14	2214	curvă	curva curve curvei curvele curvelor curvo
+15	2215	mecanic	mecanica mecanice mecanici mecanicii mecanicilor mecanicul mecanicule mecanicului mecanică
+16	2216	săturat	săturate săturați
+17	2217	ceda	cedai cedam cedase cedat cedau cedați cedează cedez cedeze cedezi cedând cedă cedăm
+18	2218	sensibil	sensibila sensibile sensibili sensibilul sensibilă
+19	2219	rupt	rupta rupte ruptul ruptă rupți
+20	2220	mizerie	mizeria mizeriei mizerii mizeriile mizeriilor
+21	2221	curajos	curajoasa curajoase curajoasă curajosul curajosule curajosului curajoși curajoșii curajoșilor
+22	2222	filma	filmai filmam filmat filmau filmați filmează filmez filmeze filmezi filmând filmăm
+23	2223	eroare	eroarea erori erorii erorile erorilor
+24	2224	design	designul designului
+25	2225	capcană	capcana capcane capcanei capcanele capcanelor
+26	2226	geam	geamul geamului geamuri geamurile geamurilor
+27	2227	emoție	emoția emoției emoții emoțiile emoțiilor
+28	2228	varia	variat variata variate variatele variată variau variază variați variații variem variez varieze variezi variind
+29	2229	flotă	flota flote flotei flotele flotelor
+30	2230	bijuterie	bijuteria bijuteriei bijuterii bijuteriile bijuteriilor
+31	2231	calendar	calendare calendarele calendarul calendarului
+32	2232	automat	automata automate automatele automatelor automatul automatului automată
+33	2233	zahăr	zahar zaharul zaharului zaharuri zahărul zahărului zăhărel
+34	2234	enerva	enervai enervam enervase enervat enervau enervați enervează enervez enerveze enervezi enervând enervăm
+35	2235	încărca	încarc încarce încarci încarcă încărcam încărcat încărcau încărcați încărcând încărcăm
+36	2236	inutil	inutila inutile inutili inutilul inutilă
+37	2237	cartof	cartoafă cartofi cartofii cartofilor cartofior cartofiori cartoful cartofului
+38	2238	conștient	conștienta conștiente conștientul conștientă conștienți
+39	2239	podea	podeaua podele podelei podelele podelelor
+40	2240	opus	opusa opuse opusul opusului opusurile opusă opuși
+41	2241	urmărire	urmărirea urmăriri urmăririi urmăririle urmăririlor
+42	2242	golf	golful golfului golfuri golfurile
+43	2243	medalie	medalia medaliei medalii medaliile medaliilor
+44	2244	fondator	fondatoare fondatoarea fondatori fondatorii fondatorilor fondatorul fondatorului
+45	2245	convins	convinsa convinse convinsă convinși
+46	2246	întrucât	
+47	2247	străinătate	străinătatea
+48	2248	esențial	esențiala esențiale esențiali esențialul esențială
+49	2249	biblie	biblia bibliei biblii bibliile
+50	2250	introducere	introducerea introduceri introducerii introducerile
+51	2251	recunoscut	recunoscuta recunoscute recunoscută recunoscuți
+52	2252	congres	congrese congresul congresului
+53	2253	universal	universala universale universali universală
+54	2254	executiv	executiva executive executivi executivii executivul executivului executivă
+55	2255	fundamental	fundamentala fundamentale fundamentală
+56	2256	moș	moși moșii moșilor moșul moșule moșulică moșului
+57	2257	junior	junioare junioară juniori juniorii juniorilor juniorul juniorule juniorului
+58	2258	simț	simțul simțului simțuri simțurile simțurilor
+59	2259	afectat	afectata afectate afectată afectați
+60	2260	premieră	premiera premiere premierea premierei premierele
+61	2261	jucărie	jucăria jucăriei jucării jucăriile jucăriilor jucărioară
+62	2262	pălărie	pălăria pălăriei pălării pălăriile pălăriilor pălărioară
+63	2263	avansat	avansata avansate avansată avansați
+64	2264	clasament	clasamente clasamentele clasamentul clasamentului
+65	2265	apela	apelam apelat apelata apelate apelată apelau apelați apelează apelez apeleze apelezi apelând apelă apelăm
+66	2266	robot	robotul robotule robotului roboțel roboți roboții roboților
+67	2267	târfă	târfa târfe târfei târfele târfelor
+68	2268	buton	butoane butoanele butoanelor butonul butonului
+69	2269	legislativ	legislativa legislative legislativul legislativului legislativă
+70	2270	fine	
+71	2271	gay	
+72	2272	supune	supui supun supunea supuneam supuneau supunem supuneți supună supus supuse
+73	2273	rai	raiul raiului raiuri
+74	2274	examen	examene examenele examenelor examenul examenului
+75	2275	vită	vita vite vitei vitele vitelor vito
+76	2276	compus	compusa compuse compusul compusului compusă compuși compușii compușilor
+77	2277	neregulă	neregula nereguli neregulile
+78	2278	me	
+79	2279	lacrimă	lacrima lacrimi lacrimile lacrimilor
+80	2280	lis	lisa lise lisei lisă
+81	2281	ambasador	ambasadoare ambasadoarea ambasadori ambasadorii ambasadorilor ambasadorul ambasadorule ambasadorului
+82	2282	mincinos	mincinoasa mincinoase mincinoaselor mincinoasă mincinosul mincinosule mincinosului mincinoși mincinoșii mincinoșilor
+83	2283	duș	dușul dușului dușuri dușurile dușurilor
+84	2284	amesteca	amestecai amestecam amestecat amestecau amestecați amestece amesteci amestecând amestecându amestecă amestecăm
+85	2285	șarpe	șarpele șarpelui șerpi șerpii șerpilor șerpoaică
+86	2286	bursă	bursa burse bursei bursele burselor
+87	2287	senat	senate senatul senatului
+88	2288	independență	independența independenței
+89	2289	tulburare	tulburarea tulburări tulburării tulburările tulburărilor
+90	2290	disc	discul discului discuri discurile discurilor
+91	2291	antrena	antrenai antrenam antrenasem antrenat antrenau antrenați antrenează antrenez antreneze antrenezi antrenând antrenându antrenăm
+92	2292	tendință	tendința tendințe tendinței tendințele tendințelor
+93	2293	transformare	transformarea transformarii transformări transformării transformările transformărilor
+94	2294	coroană	coroana coroane coroanei coroanele corona coroniță
+95	2295	adolescent	adolescenta adolescente adolescentei adolescentele adolescentelor adolescenti adolescentii adolescentilor adolescentul adolescentului adolescentă adolescenți adolescenții adolescenților
+96	2296	oribil	oribila oribile oribilei oribilele oribili oribilul oribilului oribilă
+97	2297	paralel	paralela paralele paralelele paralelă
+98	2298	piscină	piscina piscine piscinei piscinele piscinelor
+99	2299	stadion	stadioane stadioanele stadionul stadionului
+100	2300	conecta	conectam conectat conectau conectați conectează conectez conecteze conectezi conectând conectându conectăm

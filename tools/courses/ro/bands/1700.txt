@@ -1,0 +1,100 @@
+1	1601	parcurs	parcursul parcursă parcurși
+2	1602	rană	rana răni rănii rănile rănilor
+3	1603	individ	individul individule individului indivizi indivizii indivizilor
+4	1604	moară	moara mori morii morile morilor morișca morișcă
+5	1605	încântat	încântata încântate încântată încântați
+6	1606	prințesă	prințesa prințese prințesei prințesele prințeselor prințeso
+7	1607	națiune	nația nație nației națiile națiunea națiuni națiunii națiunile națiunilor
+8	1608	minge	mingea mingi mingie mingii mingile mingilor
+9	1609	învățământ	învățăminte învățămintele învățământul învățământului
+10	1610	talent	talente talentele talentelor talentul talentului
+11	1611	japonez	japoneza japoneze japonezele japonezi japonezii japonezilor japonezul japonezule japoneză
+12	1612	rușine	rușinea rușini rușinii
+13	1613	pozitiv	pozitiva pozitive pozitivi pozitivul pozitivă
+14	1614	nervos	nervoasa nervoase nervoasă nervosul nervoși
+15	1615	prezentat	prezentata prezentate prezentată prezentați
+16	1616	acuzat	acuzata acuzate acuzatei acuzatul acuzatului acuzată acuzați acuzații acuzaților
+17	1617	minune	minunea minuni minunii minunile minunilor
+18	1618	însoți	însoțea însoțeam însoțească însoțeau însoțesc însoțește însoțești însoțim însoțind însoțit însoțite însoțită însoțiți
+19	1619	creare	crearea creării
+20	1620	alătura	alătur alăturam alăturat alăturați alăture alăturându alătură alăturăm
+21	1621	profesionist	profesionista profesioniste profesionistul profesionistă profesioniști profesioniștii profesioniștilor
+22	1622	jurnal	jurnale jurnalele jurnalelor jurnalul jurnalule jurnalului
+23	1623	semnificativ	semnificativa semnificative semnificativă
+24	1624	despărți	despart desparte despartă desparți despărțea despărțeam despărțeau despărții despărțim despărțindu despărțise despărțisem despărțiseră despărțiserăm despărțit despărțiți
+25	1625	buzunar	buzunare buzunarele buzunarelor buzunarul buzunarului
+26	1626	substanță	substanța substanțe substanței substanțele substanțelor
+27	1627	bravo	bravos
+28	1628	relaxa	relaxam relaxat relaxau relaxați relaxează relaxez relaxeze relaxezi relaxându relaxăm
+29	1629	obosit	obosita obosite obositul obosită obosiți
+30	1630	lecție	lecția lecției lecții lecțiile lecțiilor
+31	1631	folosire	folosirea folosirii
+32	1632	uscat	uscata uscate uscatul uscatule uscatului uscată uscați
+33	1633	bord	bordul bordului borduri
+34	1634	participant	participanta participante participantele participantul participantă participanți participanții participanților
+35	1635	câștigător	câștigătoare câștigătoarea câștigătoarele câștigători câștigătorii câștigătorilor câștigătorul câștigătorului
+36	1636	organism	organisme organismele organismelor organismul organismului
+37	1637	responsabilitate	responsabilitatea responsabilități responsabilității responsabilitățile responsabilităților
+38	1638	rata	ratai ratam ratase ratasem ratat ratau ratați ratează ratez rateze ratezi ratând ratăm
+39	1639	prietenie	prietenia prieteniei prietenii prieteniile prieteniilor
+40	1640	anchetă	ancheta anchetam anchetat anchetate anchetată anchetau anchetați anchete anchetează anchetei anchetele anchetelor anchetez ancheteze anchetezi anchetăm
+41	1641	nas	nasul nasule nasului nasuri nasurile nasurilor năsuc
+42	1642	identifica	identific identificam identificat identificați identifice identifici identificând identifică identificăm
+43	1643	coastă	coasta coaste coastei coastele coastelor costiță
+44	1644	comerț	comerțul comerțului
+45	1645	ploaie	ploaia ploi ploii ploile ploilor
+46	1646	formație	formația formației formații formațiile formațiilor formațiune formațiuni
+47	1647	na	
+48	1648	cancer	cancere cancerelor cancerul cancerului
+49	1649	marin	marina marinat marinata marinate marinată marine marinează marinei marinezi marini
+50	1650	individual	individuala individuale individuali individuală
+51	1651	suport	suportul suportului suporturi suporturile
+52	1652	fundație	fundația fundației fundații fundațiile fundațiilor
+53	1653	constant	constanta constante constantele constantă constanți
+54	1654	modificare	modificarea modificări modificării modificările modificărilor
+55	1655	obișnui	obișnuia obișnuiai obișnuiam obișnuiască obișnuiau obișnuiați obișnuiesc obișnuiește obișnuiești obișnuim obișnuise obișnuisem obișnuiți
+56	1656	sparge	sparg spargem spargeți spargi spargă spart spărgea spărgeai spărgeam spărgeau spărgând spărgându spărsese
+57	1657	ansamblu	ansamblul ansamblului ansambluri ansamblurile
+58	1658	comitet	comitete comitetele comitetelor comitetul comitetului
+59	1659	agenție	agenția agenției agenții agențiile agențiilor
+60	1660	lord	lordul lordule lordului lorzi lorzii lorzilor
+61	1661	organ	organe organele organelor organul organului
+62	1662	aranja	aranjai aranjam aranjase aranjasem aranjat aranjau aranjați aranjează aranjez aranjeze aranjezi aranjând aranjă aranjăm
+63	1663	pantalon	pantalonaș pantaloni pantalonii pantalonilor pantalonul pantalonului
+64	1664	preferat	preferata preferate preferatele preferatul preferată preferați preferații
+65	1665	dejun	dejunul dejunului dejunuri
+66	1666	umbră	umbra umbre umbrei umbrele umbrelor
+67	1667	sabie	sabia sabiei săbiei săbii săbiile săbiilor
+68	1668	episcop	episcopi episcopii episcopilor episcopul episcopule episcopului
+69	1669	universitar	universitara universitare universitari universitară
+70	1670	gheață	gheața gheții ghețuri ghețurile ghețurilor
+71	1671	castel	castele castelele castelelor castelul castelului
+72	1672	cerc	cercul cerculeț cerculețe cercului cercuri cercurile cercurilor
+73	1673	profil	profilele profilul profilului profiluri profilurile
+74	1674	plecare	plecarea plecări plecării plecările plecărilor
+75	1675	degrabă	degrab
+76	1676	soartă	soarta soarte soartei sorți sorțile
+77	1677	camion	camioane camioanele camioanelor camionul camionului
+78	1678	inițial	iniția inițiali
+79	1679	adresa	adresam adresat adresata adresate adresată adresau adresați adresează adresez adreseze adresezi adresându adresăm
+80	1680	taxă	taxa taxam taxat taxate taxată taxați taxe taxează taxei taxele taxelor taxez taxeze taxezi taxăm
+81	1681	plimba	plimb plimbai plimbam plimbat plimbate plimbatul plimbată plimbau plimbați plimbe plimbi plimbând plimbându plimbă plimbăm
+82	1682	promovare	promovarea promovări promovării promovările
+83	1683	epocă	epoca epoci epocii epocile epocilor
+84	1684	complicat	complicata complicate complicată complicați complicații
+85	1685	aerian	aeriana aeriană aeriene aerieni
+86	1686	sir	sirul
+87	1687	menționat	menționate menționată menționați
+88	1688	consta	constat constau constați constând constă
+89	1689	ilegal	ilegala ilegale ilegali ilegală
+90	1690	maximă	maxima maxime maximele maximo
+91	1691	plimbare	plimbarea plimbări plimbărică plimbării plimbările plimbărilor
+92	1692	afecta	afectat afectau afectați afectează afectez afecteze afectezi afectând afectăm
+93	1693	album	albume albumelor albumul albumului
+94	1694	justiție	justiția justiției
+95	1695	pregătire	pregătirea pregătiri pregătirii pregătirile pregătirilor
+96	1696	căsătorit	căsătorita căsătorite căsătorită căsătoriți căsătoriții
+97	1697	mal	malul malului maluri malurile malurilor
+98	1698	odihni	odihnea odihneai odihneam odihnească odihneau odihnesc odihnește odihnești odihnim odihnindu odihnit odihnita odihnite odihnită odihniți
+99	1699	eliberare	eliberarea eliberări eliberării eliberările
+100	1700	turistic	turistica turistice turistică

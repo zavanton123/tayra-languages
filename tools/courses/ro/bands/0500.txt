@@ -1,0 +1,100 @@
+1	401	istorie	istoria istoriei istorii istoriile istorioară
+2	402	învăța	învață învețe înveți învăț învățai învățam învățase învățasem învățaseră învățat învățau învățați învățând învățându învăță învățăm
+3	403	serviciu	servicii serviciile serviciilor serviciul serviciului
+4	404	sfârșit	sfârșite sfârșitul sfârșitului sfârșituri sfârșiturile sfârșită sfârșiți sfîrșitul
+5	405	soție	soția soției soții soțiile soțiilor soțioara soțioară
+6	406	local	locala locale locali localul localului localuri localurile localurilor locală
+7	407	tare	tarea tarele tari tarii tarile tarilor
+8	408	pământ	pământul pământule pământului pământuri pământurile pământurilor pămîntul pămîntului
+9	409	dreptate	dreptatea dreptăți dreptății
+10	410	masă	masa masai masam masat masate masați mase masează masei masele maselor masez masezi maso masăm mese mesei mesele meselor măsuța măsuță
+11	411	vin	vinișor vinul vinului vinuri vinurile vinurilor
+12	412	nivel	nivele nivelul nivelului niveluri nivelurile nivelurilor
+13	413	guvern	guverne guvernele guvernelor guvernul guvernului
+14	414	omorî	omoare omoară omora omorai omoram omorau omori omorâm omorând omorându omorâse omorâsem omorâseră omorât omorâți
+15	415	câștiga	câștigai câștigam câștigase câștigasem câștigaseră câștigat câștigau câștigați câștige câștigi câștigând câștigându câștigă câștigăm
+16	416	comun	comuna comune comunei comunele comunelor comuni comună
+17	417	vostru	voastre voastră voștri
+18	418	bea	beai beam beau beați bei bem beți bând bându băuse băusem băuseră băuseși băut băuta băute băutul băutului băută băuți
+19	419	principal	principala principale principalele principalelor principali principalii principalilor principalul principalului principală
+20	420	prezent	prezenta prezente prezentei prezentul prezentului prezentă prezenți
+21	421	personal	personala personale personali personalul personalului personală
+22	422	deși	
+23	423	început	începute începutul începutului începuturi începuturile începuturilor începută
+24	424	lege	legea legi legii legile legilor
+25	425	rând	rându rândul rândului rânduri rândurile rândurilor rînd rîndul rînduri
+26	426	prost	proasta proaste proastei proastele proastelor proastă prostovan prostovane prostovani prostovanii prostovanilor prostovanul prostul prostule prostului prostuț prostălău proști proștii proștilor
+27	427	rege	regele regelui regi regii regilor
+28	428	perfect	perfecta perfectat perfecte perfectul perfectă perfectăm perfecți
+29	429	corect	corecta corecte corectă corecți corecții
+30	430	lucrare	lucrarea lucrarii lucrarile lucrarilor lucrări lucrării lucrările lucrărilor
+31	431	negru	neagra neagră negre negrele negri negrii negrilor negrul negrule negrului
+32	432	corp	corpul corpului corpuri corpurile corpurilor
+33	433	gen	genul genului genuri genurile genurilor
+34	434	scăpa	scap scape scapi scapă scăpai scăpam scăpase scăpasem scăpaseră scăpat scăpau scăpați scăpând scăpă scăpăm
+35	435	fericit	fericita fericite fericitei fericitul fericitule fericitului fericită fericiți fericiții
+36	436	românesc	româneasca românească românește românești
+37	437	internațional	internaționala internaționale internaționali internațională
+38	438	avocat	avocatul avocatului avocată avocați avocații avocaților ule ului uluiesc uluiește uluiești uluit uluită uluiți
+39	439	fiică	fiica fiice fiicei fiicele fiicelor
+40	440	acțiune	acțiunea acțiuni acțiunii acțiunile acțiunilor
+41	441	cumpăra	cumpere cumperi cumpăr cumpărai cumpăram cumpărase cumpărasem cumpăraseră cumpărat cumpărau cumpărați cumpărând cumpărându cumpără cumpărăm
+42	442	dragoste	dragostea dragostei
+43	443	arunca	arunc aruncai aruncam aruncase aruncasem aruncat aruncau aruncați arunce arunci aruncând aruncându aruncă aruncăm
+44	444	plin	plina pline plini plinul plinuț plinuță plină
+45	445	chestie	chestia chestiei chestii chestiile chestiilor
+46	446	final	finala finale finalei finalele finalelor finali finalul finalului finală
+47	447	ciudat	ciudata ciudate ciudatei ciudatele ciudatelor ciudato ciudatul ciudatule ciudatului ciudată ciudați ciudații ciudaților
+48	448	mâine	mîine
+49	449	american	americana americanca americance americancei americancele americancă americane americani americanii americanilor americanul americanule americanului americană
+50	450	stradă	strada străduța străduțe străduțele străduță străzi străzii străzile străzilor
+51	451	exemplu	exemple exemplele exemplul exemplului
+52	452	printre	pentre
+53	453	întotdeauna	
+54	454	desigur	
+55	455	deoarece	
+56	456	birou	biroul biroului birouri birourile birourilor
+57	457	soră	sor sora surioara surioară surori surorii surorile surorilor
+58	458	conform	conforme
+59	459	odată	udată
+60	460	încredere	încrederea încrederi încrederii
+61	461	fugi	fug fuge fugea fugeai fugeam fugeau fugeați fugii fugim fugind fugise fugisem fugiseră fugit fugite fugitul fugită fugiți fugiții fugă
+62	462	județ	județe județele județelor județul județului
+63	463	ales	aleasa aleasă alese alesei alesul alesului aleși aleșii aleșilor
+64	464	proces	procese procesele proceselor procesul procesului
+65	465	eveniment	evenimente evenimentele evenimentelor evenimentul evenimentului
+66	466	păstra	păstrai păstram păstrase păstrasem păstrat păstrate păstratul păstrată păstrau păstrați păstrează păstrez păstreze păstrezi păstrând păstrându păstră păstrăm
+67	467	răspunde	răspund răspundea răspundeai răspundeam răspundeau răspundem răspundeți răspundă răspuns răspunse răspunsese răspunzi răspunzând
+68	468	jumătate	juma jumătatea jumătăți jumătății jumătățile
+69	469	curs	cursul cursului cursuri cursurile cursurilor
+70	470	foc	focul focule focului focuri focurile focurilor
+71	471	petrece	petreacă petrec petrecea petreceai petreceam petreceau petreceați petrecem petreceți petreci petrecu petrecuse petrecusem petrecut petrecând petrecându
+72	472	studiu	studii studiile studiilor studiul studiului
+73	473	asigura	asigur asigurai asiguram asigurat asigurata asigurate asiguratul asigurată asigurau asigurați asigurații asigure asiguri asigurând asigurându asigură asigurăm
+74	474	secret	secreta secretara secretară secretat secrete secretele secretelor secretul secretului secretă secreți secreții
+75	475	astăzi	
+76	476	chema	cheamă chem chemai chemam chemase chemat chemau chemați cheme chemi chemând chemându chemă chemăm chiamă
+77	477	întâlnire	întâlnirea întâlniri întâlnirii întâlnirile întâlnirilor
+78	478	relație	relația relației relații relațiile relațiilor
+79	479	oficial	oficiala oficiale oficiali oficialii oficialilor oficialul oficialului oficială
+80	480	vinde	vindea vindeai vindeam vindeau vindeați vindem vindeți vinzi vând vânduse vândusem vânduseră vândut vândute vândută vânduți vândă vânzând vânzându vîndut
+81	481	proiect	proiecte proiectele proiectelor proiectul proiectului
+82	482	mediu	media mediat mediei mediez medieze mediezi medii mediile mediilor mediul mediului
+83	483	as	asul asule asului ași așii așilor
+84	484	doctor	doctoraș doctorei doctori doctorii doctorilor doctorul doctorului doctoră
+85	485	sânge	sângele sângelui sînge sîngele sîngelui
+86	486	iubit	iubita iubite iubitei iubitele iubitelor iubitul iubitule iubitului iubită iubițel iubiți iubiții iubiților
+87	487	prezenta	prezentai prezentam prezentat prezentau prezentați prezentând prezentându prezentă prezentăm prezint prezinte prezintă prezinți
+88	488	ușă	ușa uși ușii ușile ușilor ușița ușiță ușo
+89	489	politic	politica politice politici politicii politicilor politicul
+90	490	gând	gându gândul gândului gânduri gândurile gândurilor gînd gîndul gînduri
+91	491	listă	lista listat listați liste listează listei listele listelor listez listo
+92	492	social	sociala sociale sociali socială
+93	493	muzică	muzica muzici muzicii muzicuța muzicuță
+94	494	cer	ceri cerii cerul cerule cerului ceruri cerurile cerurilor
+95	495	clar	clara clare clarei clari clarul clară
+96	496	roman	romana romane romanele romanelor romani romanii romanilor romanul romanule romanului romană
+97	497	bate	bat batem bateți bați bătea băteai băteam băteau băteați bătu bătură bătuse bătusem bătut bătute bătutul bătută bătuți bătând bătându
+98	498	pic	piculeț picuri picuț
+99	499	profesor	profesoara profesoare profesoarei profesoarele profesoară profesori profesorii profesorilor profesorul profesorule profesorului
+100	500	lumină	lumina lumini luminii luminile luminilor luminiță

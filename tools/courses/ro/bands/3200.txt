@@ -1,0 +1,100 @@
+1	3101	hotărât	hotărâte hotărâtă hotărâți
+2	3102	pasaj	pasaje pasajele pasajul pasajului
+3	3103	negocia	negociam negociat negociate negociată negociau negociază negociați negociem negociez negocieze negociezi negociind
+4	3104	îngrijire	îngrijirea îngrijiri îngrijirii îngrijirile îngrijirilor
+5	3105	tipic	tipica tipice tipici tipicul tipică
+6	3106	stadiu	stadii stadiile stadiul stadiului
+7	3107	arbore	arbor arborele arborelui arbori arborii arborilor
+8	3108	bată	bata bato bete betele
+9	3109	întărire	întărirea întăriri întăririi întăririle întăririlor
+10	3110	subsol	subsolul subsolului subsoluri subsolurile
+11	3111	definit	definita definite definită definiți definiții
+12	3112	turist	turistul turistule turistului turistă turiști turiștii turiștilor
+13	3113	genă	gena gene genei genele genelor geno
+14	3114	grabă	graba grabe grabei
+15	3115	inspirație	inspirația inspirației inspirații
+16	3116	categoric	categorice categorică
+17	3117	orient	orientul orientului
+18	3118	varietate	varietatea varietati varietăți
+19	3119	descărca	descarc descarce descarci descarcă descărcam descărcase descărcat descărcau descărcați descărcând descărcă descărcăm
+20	3120	panou	panoul panoului panouri panourile panourilor
+21	3121	extrage	extrag extragem extrageți extragi extragă extras extrase extrăgea extrăgeau extrăgând
+22	3122	parca	parcam parcase parcasem parcat parcate parcată parcați parchează parchez parcheze parchezi parcând parcăm
+23	3123	duh	duhul duhule duhului duhuri duhurile duhurilor
+24	3124	recuperare	recuperarea recuperări recuperării recuperările
+25	3125	funcțional	funcționale funcționali funcțională
+26	3126	străluci	strălucea strălucească străluceau strălucesc strălucește strălucești strălucim strălucind strălucit străluciți
+27	3127	măr	mere merele merelor meri merii merișoare merișoarele merișor mărul mărului
+28	3128	vulnerabil	vulnerabila vulnerabile vulnerabili vulnerabilă
+29	3129	minoritate	minoritatea minorități minorității minoritățile minorităților
+30	3130	virtual	virtuala virtuale virtuali virtuală
+31	3131	beton	betoane betonul betonului
+32	3132	săpa	sap sape sapi săp săpai săpam săpat săpau săpați săpând săpăm
+33	3133	clan	clanul clanului clanuri clanurile clanurilor
+34	3134	înțeles	înțeleasă înțelese înțelesul înțelesului înțelesuri înțelesurile înțeleși
+35	3135	balon	baloane baloanele baloanelor balonaș balonul balonului
+36	3136	tehnologic	tehnologica tehnologice tehnologică
+37	3137	orchestră	orchestra orchestrat orchestrată orchestre orchestrează orchestrei orchestrele orchestreze orchestrezi
+38	3138	prilej	prilejul prilejuri
+39	3139	farfurie	farfuria farfuriei farfurii farfuriile farfuriilor farfurioara farfurioare farfurioară
+40	3140	conveni	convenea convenim convenit convin convine convină
+41	3141	alina	alin alinat alinată alinați aline alini alină alinăm
+42	3142	obligație	obligația obligației obligații obligațiile obligațiilor obligațiune obligațiuni
+43	3143	plasă	plasa plase plasei plasele plaselor
+44	3144	deltă	delta deltei
+45	3145	fibră	fibra fibre fibrei fibrele fibrelor
+46	3146	covor	covoare covoarele covoarelor covoraș covorul covorului
+47	3147	sufla	suflam suflat suflate suflatul suflată suflau suflați sufle sufli suflând suflă suflăm
+48	3148	declanșa	declanșat declanșați declanșează declanșez declanșeze declanșezi declanșând declanșăm
+49	3149	desert	desertul desertului deserturi deserturile
+50	3150	dona	donam donat donată donați donează donez doneze donezi donând donăm
+51	3151	pernă	perină perna perne pernei pernele pernelor pernița pernițe perniță pernuța pernuțe pernuțele pernuță
+52	3152	citat	citata citate citatele citatul citatului citată citați citații
+53	3153	drogat	drogata drogate drogatele drogato drogatul drogatule drogatului drogată drogați drogații drogaților
+54	3154	paznic	paznici paznicii paznicilor paznicul paznicului
+55	3155	soi	soiul soiului soiuri soiurile soiurilor
+56	3156	pânză	pânza pânze pânzei pânzele pânzelor
+57	3157	maghiară	maghiara maghiare
+58	3158	șobolan	șobolani șobolanii șobolanilor șobolanul șobolanule șobolanului
+59	3159	rezistent	rezistenta rezistente rezistentei rezistentă rezistenți
+60	3160	cristal	cristale cristalele cristalelor cristalul cristalului
+61	3161	închipui	închipuia închipuiai închipuiam închipuie închipuiește închipuim închipuisem închipuit închipuite închipuită închipuiți
+62	3162	amabil	amabila amabile amabili amabilul amabilă
+63	3163	estima	estimam estimat estimați estimează estimez estimeze estimezi estimând estimăm
+64	3164	dotat	dotata dotate dotată dotați
+65	3165	rob	robi robii robilor robit robul robului
+66	3166	teologie	teologia teologiei teologii
+67	3167	preocupa	preocup preocupam preocupat preocupau preocupați preocupe preocupi preocupă preocupăm
+68	3168	trădător	trădătoare trădătoarea trădători trădătorii trădătorilor trădătorul trădătorule trădătorului
+69	3169	finalizat	finalizata finalizate finalizată finalizați
+70	3170	car	carele carelor cari carii carul carului căruț
+71	3171	integrat	integrata integrate integratul integrată integrați
+72	3172	garaj	garaje garajele garajul garajului
+73	3173	animat	animata animate animată animați animații
+74	3174	tanc	tancul tancului tancuri tancurile tancurilor
+75	3175	demn	demna demne demni demnul demnă
+76	3176	asiatic	asiatica asiatice asiaticele asiatici asiaticii asiaticilor asiaticul asiatică
+77	3177	spectator	spectatoare spectatori spectatorii spectatorilor spectatorul spectatorului
+78	3178	chinui	chinuia chinuiai chinuiam chinuiască chinuiau chinuie chinuiesc chinuiește chinuiești chinuim chinuind chinuindu chinuit chinuiți
+79	3179	baschet	baschetul baschetului bascheți bascheții
+80	3180	rețetă	rețeta rețete rețetei rețetele rețetelor
+81	3181	fraier	fraiere fraieri fraierii fraierilor fraierul fraierule fraierului fraieră
+82	3182	viola	violam violase violat violata violată violau violați violează violez violeze violezi violând violăm
+83	3183	pictor	pictori pictorii pictorilor pictorița pictoriță pictorul pictorule pictorului
+84	3184	omorât	omorit omorâta omorâte omorâtul omorâtă omorâți omorâții
+85	3185	agresiv	agresiva agresive agresivi agresivă
+86	3186	gri	griul
+87	3187	imaginație	imaginația imaginației imaginații
+88	3188	insectă	insecta insecte insectei insectele insectelor insecto
+89	3189	instalație	instalația instalației instalații instalațiile instalațiilor
+90	3190	preciza	precizat precizate precizată precizați precizează precizez precizeze precizezi precizând precizăm
+91	3191	pușcărie	pușcăria pușcăriei pușcării pușcăriile
+92	3192	ridicare	ridicarea ridicări ridicării ridicările
+93	3193	strădui	străduia străduiai străduiam străduiască străduiau străduiesc străduiește străduiești străduim străduindu străduit străduiți
+94	3194	fute	fut futea futeam futem futeți futu futui futut fută fuți
+95	3195	obosi	obosea oboseam obosească oboseau obosesc obosește obosești obosim obosise obosisem obosit obosiți
+96	3196	desena	desenai desenam desenat desenau desenați desenează desenez deseneze desenezi desenând desenă desenăm
+97	3197	vânător	vânători vânătorii vânătorilor vânătorul vânătorule vânătorului
+98	3198	publica	publicam publicase publicați publice publici publicând publică publicăm
+99	3199	pol	poli polii polilor polul polului
+100	3200	jurat	jurata juratul juratului jurată jurați jurații juraților

@@ -1,0 +1,100 @@
+1	5501	cognitiv	cognitiva cognitive cognitivă
+2	5502	roșcat	roșcata roșcate roșcatei roșcatele roșcatul roșcată roșcați roșcații roșcaților
+3	5503	bulă	bula bule bulei bulele bulelor
+4	5504	dezamăgire	dezamăgirea dezamăgiri dezamăgirii dezamăgirile dezamăgirilor
+5	5505	rigid	rigida rigide rigidă rigizi
+6	5506	tăcut	tăcute tăcutul tăcută tăcuți
+7	5507	mentor	mentori mentorii mentorilor mentorul mentorului
+8	5508	ocular	oculara oculare oculari oculară
+9	5509	beneficiar	beneficiara beneficiari beneficiarii beneficiarilor beneficiarul beneficiarului beneficiară
+10	5510	bot	botul botului boturi boturile boți boții
+11	5511	teolog	teologi teologii teologul
+12	5512	alcătui	alcătuiască alcătuiau alcătuiesc alcătuiește alcătuiești alcătuim alcătuind alcătuiți
+13	5513	mos	mosul mosule mosului
+14	5514	minier	miniera miniere minieră
+15	5515	acceptabil	acceptabila acceptabile acceptabili acceptabilă
+16	5516	ședere	șederea șederi șederii
+17	5517	suflare	suflarea
+18	5518	dăunător	dăunătoare dăunători dăunătorii dăunătorilor dăunătorul
+19	5519	purtare	purtarea purtări purtării purtările
+20	5520	hambar	ambar hambare hambarele hambarul hambarului
+21	5521	frânt	frânta frânte frântă frânți
+22	5522	cumnat	cumnatul cumnatului cumnați cumnații
+23	5523	explozibil	explozibile explozibilele explozibili explozibilii explozibililor explozibilul explozibilului explozibilă
+24	5524	cometă	comet cometa comete cometei cometele cometelor comită
+25	5525	blugi	blugii blugilor
+26	5526	admitere	admiterea admiteri admiterii admiterile admiterilor
+27	5527	contabilitate	contabilitatea contabilității
+28	5528	greață	greața grețuri grețurile grețurilor
+29	5529	bârfă	bârfa bârfe bârfei bârfele bârfelor
+30	5530	înaintat	înaintate înaintată înaintați
+31	5531	ciao	
+32	5532	folcloric	folclorice folclorică
+33	5533	napoleon	napoleoni
+34	5534	letal	letala letale letali letală
+35	5535	absent	absenta absente absentei absentele absentă absenți
+36	5536	stareț	stareța starețe starețul starețule starețului stareță
+37	5537	ser	serul serului seruri
+38	5538	scutura	scutur scuturam scuturat scuturați scuture scuturi scuturând scutură scuturăm
+39	5539	toleranță	toleranța toleranței
+40	5540	propus	propusa propusă propuși
+41	5541	amețit	amețita amețite amețitul amețită amețiți
+42	5542	dimpotrivă	
+43	5543	reclama	reclam reclamam reclamat reclamată reclamați reclamații reclame reclami reclamând reclamăm
+44	5544	yală	yala yale yalele
+45	5545	captură	captura capture capturi capturii capturile
+46	5546	bălan	balan
+47	5547	meșter	meșteri meșterii meșterilor meșterul meșterului
+48	5548	înfățișa	înfățișat înfățișate înfățișată înfățișați înfățișează înfățișez înfățișeze înfățișezi înfățișând înfățișăm
+49	5549	revizuire	revizuirea revizuiri revizuirii revizuirile
+50	5550	maturiza	maturizam maturizat maturizați maturizează maturizez maturizeze maturizezi maturizăm
+51	5551	cenzură	cenzura cenzurii
+52	5552	divorța	divorțam divorțase divorțați divorțează divorțez divorțeze divorțezi divorțând divorțăm
+53	5553	descendent	descendenta descendente descendentul descendentă descendenți descendenții descendenților
+54	5554	armean	arman armeana armeanul armeană armene armeni armenii armenilor
+55	5555	fluier	fluierașul fluiere fluierele fluierul fluierului fluieră
+56	5556	mesteca	mestec mestecam mestecat mestecau mestecați mestece mesteci mestecând mestecă mestecăm
+57	5557	mafiot	mafiotul mafiotule mafiotului mafiotă mafioți mafioții mafioților
+58	5558	brazilian	braziliana braziliancă brazilianul braziliană braziliene brazilieni brazilienii brazilienilor
+59	5559	cultivare	cultivarea cultivării
+60	5560	narator	naratorul naratorului
+61	5561	deranj	deranjul
+62	5562	răscumpărare	răscumpărarea răscumpărări răscumpărării
+63	5563	depozitare	depozitarea
+64	5564	multiplu	multipla multiplele multiplelor multipli multiplii multiplă
+65	5565	inscripție	inscripția inscripții inscripțiile
+66	5566	veghea	vegheam vegheat vegheau veghează vegheați veghem veghez vegheze veghezi veghind
+67	5567	cauțiune	cauțiunea cauțiuni cauțiunii
+68	5568	living	livingul
+69	5569	pulover	pulovere puloverele puloverul puloverului pulovăr
+70	5570	neted	neteda netede netedă netezi
+71	5571	sabin	sabina sabine sabinei sabinelor sabini sabinii sabinilor sabino
+72	5572	scârbos	scârboasa scârboase scârboasă scârbosul scârboși scârboșii
+73	5573	spălat	spălate spălatul spălată spălați
+74	5574	comunal	comunale comunală
+75	5575	protestant	protestanta protestante protestantă protestanți protestanții protestanților
+76	5576	ciorap	ciorapi ciorapii ciorapilor ciorapul
+77	5577	panica	panicam panicase panicat panicata panicate panicată panicați panichează panichez panichezi panicăm
+78	5578	spray	sprayul sprayuri
+79	5579	vizualizare	vizualizarea vizualizări
+80	5580	prematur	prematura premature prematuri prematură
+81	5581	interzicere	interzicerea interzicerii
+82	5582	sătean	săteni sătenii sătenilor
+83	5583	potoli	potolească potolesc potolește potolești potolim potolit potoliți
+84	5584	tezaur	tezaure tezaurul tezaurului
+85	5585	adera	ader aderat aderați adere aderi aderă aderăm
+86	5586	moleculă	molecula molecule moleculei moleculele moleculelor
+87	5587	vamal	vamale vamali vamală
+88	5588	diabet	diabetul diabetului
+89	5589	dubios	dubioasa dubioase dubioasă dubiosul dubioși
+90	5590	clătită	clătita clătite clătitele clătitelor
+91	5591	bunăstare	bunăstarea bunăstării
+92	5592	mutat	mutate mutatul mutatului mutată
+93	5593	întindere	întinderea întinderi întinderii întinderile
+94	5594	asocia	asociază asociați asociem asociez asocieze asociezi
+95	5595	auz	auzul auzului
+96	5596	difuzare	difuzarea difuzării
+97	5597	chicoti	chicotea chicotească chicoteau chicotesc chicotește chicotești chicotind chicotit chicotiți
+98	5598	spălătorie	spălătoria spălătoriei spălătorii spălătoriile
+99	5599	margaretă	margareta margarete margaretei margaretele
+100	5600	domnesc	domneasca domnească domnești

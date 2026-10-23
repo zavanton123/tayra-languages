@@ -1,0 +1,100 @@
+1	1	de	d dec deh
+2	2	fi	e era erai eram erau erați este esti ești fie fii fiilor fiind fiindu fim fiu fiți fost fosta foste fostei fostele fostul fostului fostă foști foștii foștilor fu fură furăm fusese fuseseră nefiind sint sunt suntem sunteți îs
+3	3	și	si sii ș șî
+4	4	în	in intr inul ntr într
+5	5	a	
+6	6	nu	n nup
+7	7	avea	ai aibe aibă am are au aveai aveam aveau aveați avem aveți avu avuse avusem avusese avusesem avuseseră avut avuta avute avutul avută avuți având avându avînd aș aț ați neavând nemaiavând
+8	8	să	
+9	9	o	
+10	10	la	lai laie lam lau lați lea lă lău lăut
+11	11	un	niște um unei unor unui
+12	12	că	c
+13	13	pe	pă
+14	14	cu	
+15	15	mai	ma
+16	16	ce	
+17	17	din	dintr dîn
+18	18	se	s
+19	19	al	ai ale alor
+20	20	pentru	pt
+21	21	care	carea cari cărei căreia căror cărora cărui
+22	22	face	fac facem faceți faci facă fe fou fă făcea făceai făceam făceau făceați făceți făcu făcui făcură făcuse făcusem făcuseră făcuserăm făcuseși făcut făcuta făcute făcutul făcută făcuși făcuți făcând făcându făcînd nefăcând
+23	23	el	iale l li sie sieși îl
+24	24	vrea	eți nevrând oi or oți vei veți voia voiai voiam vom vor vre vreai vream vreau vrei vrem vreți vroia vroiai vroiam vroiau vroiați vru vrut vrute vrând ăți
+25	25	ca	
+26	26	ăsta	ast asta astea ăsteia ăstora ăstuia ăștia
+27	27	tu	ti tine vi îț țe ți ție
+28	28	te	
+29	29	da	dai dap dat datul dau dați dații dea dede dete dând dându dînd dă dădea dădeai dădeam dădeau dădeați dădu dădură dăduse dădusem dăduseră dăduseși dăm
+30	30	îi	i iai iam iați ie iesc iești ii iii iile iilor iit io
+31	31	putea	nemaiputând neputând poată pot potul poturi poți puteai puteam puteau puteați putem puteți putu putuse putut putând putându
+32	32	mă	m măi
+33	33	tot	soției toate toati toată totu totul totului toți toții tuturor tuturora
+34	34	dar	darul darului daruri darurile darurilor dară
+35	35	eu	eul eului euri mie mine îm
+36	36	său	sa sale sali săi
+37	37	spune	nespunând spui spuie spun spunea spuneai spuneam spuneau spuneați spunem spuneți spunând spunându spună spus spusa spuse spusei spusele spuselor spuseră spusese spusesem spuseseră spuseseși spuso spusul spusă
+38	38	cel	cea cei cele celei celor celui
+39	39	trebui	trebe trebuia trebuiam trebuiască trebuiau trebuie trebuiea trebuiesc trebuiește trebuiești trebuii trebuind trebuit
+40	40	bine	binele binelui binișor bn
+41	41	dacă	daca dace daco
+42	42	va	
+43	43	ști	neștiind știa știai știam știau știați știe știi știind știindu știm știu știuse știusem știut știute știută știuți știți
+44	44	ar	ari arii
+45	45	mult	multa multe multele multelor multi multicel multișor multor multora multă mulț mulți mulții
+46	46	mi	
+47	47	meu	mea mei meiul mele
+48	48	lui	
+49	49	ne	
+50	50	acest	această aceste acestei acestor acestui acești
+51	51	cum	
+52	52	vedea	nevăzând vadă vede vedeai vedeam vedeau vedeați vedem vedeți vezi văd văzu văzui văzură văzuse văzusem văzuseră văzuserăm văzuseși văzut văzute văzutul văzută văzuși văzuți văzând văzându văzînd
+53	53	crede	creadă crează cred credea credeai credeam credeau credeați credem credeți crezi crezu crezuse crezusem crezut crezute crezută crezuți crezând crezându crezînd
+54	54	aici	acilea
+55	55	bun	buna bune bunei bunele bunelor buni bunicel bunii bunilor bunu bunul bunule bunului bunuri bunurile bunurilor bunuț bună
+56	56	an	aii ani anii anilor anu anul anului
+57	57	când	cînd
+58	58	poate	
+59	59	sau	
+60	60	așa	ași așă
+61	61	vă	v
+62	62	acum	acm
+63	63	doar	doară
+64	64	om	oameni oamenii oamenilor omul omule omuleț omuleți omuleții omulețul omulețului omului
+65	65	le	
+66	66	tău	ta tale tăi
+67	67	ei	sieși
+68	68	timp	timpi timpii timpul timpului timpuri timpurile timpurilor
+69	69	mare	marea marele marelui mari marii marile marilor mări măricel mării mările mărilor mărișor
+70	70	lua	ia iau iei ieie ieu luai luam luară luase luasem luaseră luaseși luat luata luate luatul luată luau luați luații luând luându luînd luă luăm neluând
+71	71	despre	
+72	72	după	
+73	73	două	doi doilea doua
+74	74	noi	nouă nouălea
+75	75	ceva	
+76	76	zi	zile zilei zilele zilelor zio zioa ziua ziuă
+77	77	acesta	aceasta aceaste aceastea acestea acesteia acesti acestia acestora acestu acestuia aceștea aceștia ceasta ceastă cesta ceste
+78	78	foarte	ft
+79	79	veni	venea veneai veneam veneau veneați venii venim venind veniră venise venisem veniseră veniseși venit veniși veniți vii vin vine vino vină
+80	80	ea	ele sieși
+81	81	unul	una uneia unele unii unora unuia
+82	82	unde	
+83	83	îmi	imi
+84	84	prin	printr
+85	85	lucru	lucrul lucrului lucruri lucrurile lucrurilor lucrușor
+86	86	chiar	chiara chiari chiară
+87	87	duce	du duc ducea duceai duceam duceau duceați ducele ducelui ducem duceți duci ducii ducând ducându ducînd ducă dus dusa duse dusese dusesem duseseră dusul dusului dusă duși
+88	88	voi	voiau voiați voiesc voiește voiești voii voim voind voise voit voită voiți vouă
+89	89	merge	meargem meargă mere merg mergea mergeai mergeam mergeau mergeați mergem mergeți mergi mergând mergînd mers merse mersese mersesem mersu mersul mersului
+90	90	loc	locul locului locuri locurile locurilor locșor
+91	91	prim	prima primară primat primata primate primatele primatelor primatul primată prime primează primei primele primelor primeze primi primii primilor primo primul primule primului primă
+92	92	iar	iară
+93	93	cât	câte câtor câtă câți cît cîtă cîți
+94	94	nici	
+95	95	nostru	noastre noastră noștri
+96	96	sta	stai stam stat stau stați stea steie stând stînd stă stăm stătea stăteai stăteam stăteau stăteați stătu stătuse
+97	97	parte	partea parti părticele părticica părticică părți părții părțile părților
+98	98	vorbi	nemaivorbind nevorbind vb vorbea vorbeai vorbeam vorbească vorbeau vorbeați vorbesc vorbește vorbești vorbii vorbim vorbind vorbindu vorbise vorbisem vorbiseră vorbiserăm vorbit vorbita vorbite vorbitul vorbitului vorbită vorbiți
+99	99	părea	paie pare pari pară păreai păream păreau păreați părem păreți păru părui păruse părut părând
+100	100	uita	uit uitai uitam uitase uitasem uitaseră uitaseși uitat uitata uitate uitatul uitată uitau uitați uite uitând uitându uită uităm uiți

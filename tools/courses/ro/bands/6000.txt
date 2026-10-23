@@ -1,0 +1,100 @@
+1	5901	proveniență	proveniența provenienței
+2	5902	sterlină	sterline
+3	5903	incomplet	incompleta incomplete incompletă incompleți
+4	5904	cruzime	cruzimea cruzimi cruzimii cruzimile
+5	5905	naș	nași nașii nașul nașule nașului
+6	5906	antologie	antologia antologii
+7	5907	sărbătoresc	sărbătorească sărbătorești
+8	5908	inspecție	inspecția inspecției inspecții inspecțiile inspecțiilor
+9	5909	trust	trustul trustului trusturi trusturile
+10	5910	repriză	repriza reprize reprizei
+11	5911	denunța	denunțat denunțați denunțe denunți denunțând denunță denunțăm
+12	5912	alăturat	alăturate alăturată alăturați
+13	5913	protestatar	protestatari protestatarii protestatarilor
+14	5914	alfabet	alfabete alfabetul alfabetului
+15	5915	cortină	cortina cortine cortinei cortinele cortino
+16	5916	reverend	reverendul reverendule reverendului reverenzi
+17	5917	suprapune	suprapui suprapun suprapunem suprapună suprapus suprapuse suprapusă
+18	5918	supranatural	supranaturala supranaturale supranaturali supranaturalul supranaturalului supranaturală
+19	5919	călduros	călduroasa călduroase călduroasă călduroși
+20	5920	telecomunicație	telecomunicații telecomunicațiile telecomunicațiilor
+21	5921	încurcătură	încurcătura încurcături încurcăturile
+22	5922	strâmt	strâmta strâmte strâmtă strâmți
+23	5923	deliu	delia deliei
+24	5924	moșie	moșia moșiei moșii moșiile
+25	5925	sălbăticie	sălbăticia sălbăticiei sălbăticiile
+26	5926	recompensa	recompensat recompensate recompensată recompensați recompensează recompensez recompenseze recompensezi recompensăm
+27	5927	dizolva	dizolv dizolvat dizolvați dizolve dizolvi dizolvă dizolvăm
+28	5928	pelerin	pelerini pelerinii pelerinilor pelerinul pelerinule pelerinului
+29	5929	satisfacție	satisfacția satisfacției satisfacții satisfacțiile
+30	5930	coincide	coincid coincideau coincidă coincis
+31	5931	membrană	membrana membrane membranei membranele membranelor
+32	5932	înfiorător	înfiorătoare înfiorătoarea înfiorători înfiorătorul
+33	5933	ren	reni renii renilor renul
+34	5934	mântuire	mântuirea mântuirii
+35	5935	scorpion	scorpioni scorpionii scorpionilor scorpionul scorpionului
+36	5936	deficit	deficite deficitelor deficitul deficitului
+37	5937	traiectorie	traiectoria traiectoriei traiectorii traiectoriile
+38	5938	alegător	alegătoare alegători alegătorii alegătorilor alegătorul
+39	5939	șa	șaua șea șei șeii șeile
+40	5940	banc	bancul bancului bancuri bancurile bancurilor
+41	5941	culoar	culoarele culoarul culoarului
+42	5942	elastic	elastica elastice elasticele elastici elasticul elastică
+43	5943	ortodoxie	ortodoxia ortodoxiei
+44	5944	sculptor	sculptori sculptorii sculptorul sculptorului
+45	5945	sandviș	sandvișul sandvișului sandvișuri sandvișurile
+46	5946	telefonie	telefonia
+47	5947	dină	dina dine dinei dino
+48	5948	eroic	eroica eroice eroici eroicul eroică
+49	5949	vecie	vecii
+50	5950	contradicție	contradicția contradicții contradicțiile contradicțiilor
+51	5951	alimentar	alimentara alimentari
+52	5952	baston	bastoane bastoanele bastonul bastonului
+53	5953	consolă	consola console consolei consolele
+54	5954	batistă	batista batiste batistei batistele batistuță
+55	5955	silit	silita silite silită siliți
+56	5956	șopti	șoptea șopteai șopteam șoptească șopteau șoptesc șoptește șoptești șoptim șoptind șoptindu șoptit șoptiți
+57	5957	tei	teiul teiului
+58	5958	răpitor	răpitoare răpitoarea răpitori răpitorii răpitorilor răpitorul răpitorului
+59	5959	răceală	răceala răceli răcelii
+60	5960	chiuvetă	chiuveta chiuvete chiuvetei chiuvetele
+61	5961	epic	epica epice epică
+62	5962	îndemână	
+63	5963	servietă	servieta serviete servietei servietele
+64	5964	verb	verbe verbele verbelor verbul verbului
+65	5965	puritate	puritatea purității
+66	5966	renal	renala renale renală
+67	5967	ordonanță	ordonanța ordonanțe ordonanței ordonanțele
+68	5968	recomandat	recomandata recomandate recomandată recomandați
+69	5969	supermarket	supermarketul supermarketului supermarketuri supermarketurile
+70	5970	silvic	silvice silvică
+71	5971	primejdie	primejdia primejdiei primejdii primejdiile
+72	5972	motivat	motivata motivate motivată motivați motivații
+73	5973	banal	banala banale banali banalul banală
+74	5974	panglică	pamblică panglica panglici panglicii panglicile
+75	5975	livră	livra livre
+76	5976	jignit	jignita jignite jignită jigniți
+77	5977	loterie	loteria loteriei loterii
+78	5978	renunțare	renunțarea renunțării
+79	5979	împrejurare	împrejurarea împrejurări împrejurările împrejurărilor
+80	5980	autovehicul	autovehicule autovehiculele autovehiculelor autovehiculul autovehiculului
+81	5981	trasa	trasat trasează trasez traseze trasezi trasând trasă trasăm
+82	5982	dezvoltator	dezvoltatori dezvoltatorii dezvoltatorilor dezvoltatorul
+83	5983	micșora	micșorat micșorați micșorează micșorez micșoreze micșorezi micșorăm
+84	5984	eronat	eronata eronate eronată
+85	5985	îndatorire	îndatorirea îndatoriri îndatoririle îndatoririlor
+86	5986	creativitate	creativitatea creativității
+87	5987	karate	
+88	5988	abuza	abuzam abuzat abuzau abuzați abuzează abuzez abuzeze abuzezi abuzând abuză abuzăm
+89	5989	dezactiva	dezactivam dezactivat dezactivați dezactivează dezactivez dezactivezi dezactivăm
+90	5990	reavăn	reveni revenii
+91	5991	șold	șoldul șoldului șolduri șoldurile șoldurilor
+92	5992	pofidă	pofida
+93	5993	solemn	solemna solemne solemnă
+94	5994	candidatură	candidatura candidaturi candidaturii
+95	5995	infiltra	infiltram infiltrase infiltrat infiltrați infiltrează infiltrez infiltreze infiltrezi infiltrându infiltrăm
+96	5996	divinitate	divinitatea divinități divinității
+97	5997	psihiatrie	psihiatria psihiatriei psihiatrii
+98	5998	consolidat	consolidate consolidată consolidați
+99	5999	imprevizibil	imprevizibila imprevizibile imprevizibili imprevizibilul imprevizibilă
+100	6000	literalmente	

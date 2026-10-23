@@ -1,0 +1,100 @@
+1	9201	vulnerabilitate	vulnerabilitatea vulnerabilități vulnerabilității
+2	9202	portavion	portavioane portavioanele portavioanelor portavionul portavionului
+3	9203	pișa	pișat pișați pișe piși pișă pișăm
+4	9204	scuter	scutere scuterele scuterul scuterului
+5	9205	jeton	jetoane jetoanele jetonul
+6	9206	viscol	vicol viscole viscolul viscolului
+7	9207	turnat	turnata turnate turnată
+8	9208	contractat	contractate contractată contractați
+9	9209	nautic	nautice nautică
+10	9210	toiag	toiagul toiagului
+11	9211	nonsens	nonsensul nonsensuri nonsensurile
+12	9212	isterie	isteria isteriei isterii isteriile
+13	9213	urare	urarea urări urările
+14	9214	arian	ariana ariană ariene arieni arienii arienilor
+15	9215	scârțâi	scârțâia scârțâiau scârțâie scârțâind scârțâit
+16	9216	răscumpăra	răscumpere răscumperi răscumpăr răscumpărat răscumpărați răscumpără răscumpărăm
+17	9217	foișor	foișorul
+18	9218	tocană	tocana tocăniță
+19	9219	copilări	copilărești copilării copilărit
+20	9220	psihoterapie	psihoterapia psihoterapiei
+21	9221	maladie	maladia maladiei maladii maladiile maladiilor
+22	9222	pistolar	pistolari pistolarii pistolarilor pistolarul pistolarule pistolarului
+23	9223	cimpanzeu	cimpanzei cimpanzeii cimpanzeilor cimpanzeul cimpanzeule cimpanzeului
+24	9224	tencuială	tencuiala
+25	9225	jupui	jupoaie jupoi jupuia jupuim jupuit jupuiți
+26	9226	tăbăci	tăbăcească tăbăcesc tăbăcește tăbăcești tăbăcim tăbăcit
+27	9227	comestibil	comestibila comestibile comestibili comestibilă
+28	9228	propagare	propagarea
+29	9229	biliar	biliara biliare biliari biliară
+30	9230	alungat	alungata alungate alungată alungați
+31	9231	sporire	sporirea
+32	9232	iritat	iritata iritate iritată iritați iritații
+33	9233	pesimist	pesimista pesimiste pesimistul pesimistă pesimiști
+34	9234	metraj	metraje
+35	9235	mânui	mânuia mânuiască mânuiesc mânuiește mânuiești mânuim mânuind mânuit mânuite mânuită mânuiți
+36	9236	împletit	împletite împletită
+37	9237	med	
+38	9238	ferăstrău	ferestrău ferăstraie ferăstrăul fierăstrău
+39	9239	monstruos	monstruoasa monstruoase monstruoasă monstruoși
+40	9240	cedare	cedarea cedării
+41	9241	vidră	vidra vidre vidrele vidrelor
+42	9242	podgorie	podgoria podgoriei podgorii podgoriile
+43	9243	noimă	noima
+44	9244	amplificare	amplificarea
+45	9245	sucit	sucite sucită
+46	9246	răvășit	răvășite răvășită răvășiți
+47	9247	lingvist	lingvistul lingviști lingviștii
+48	9248	portieră	portiera portiere portierei portierele
+49	9249	caracterizare	caracterizarea
+50	9250	postuniversitar	postuniversitare postuniversitară
+51	9251	indiferență	indiferența indiferenței
+52	9252	compatibilitate	compatibilitatea
+53	9253	teanc	teancul teancului teancuri teancurile
+54	9254	targă	targa tărgi tărgile
+55	9255	implanta	implantat implantați implantează implantez implanteze implantezi implantăm
+56	9256	reflectare	reflectarea
+57	9257	hrănit	hrănita hrănite hrănitul hrănită hrăniți
+58	9258	laur	lauri laurii
+59	9259	congresmen	congresman congresmeni congresmenii congresmenul congresmenului
+60	9260	background	
+61	9261	numărare	numărarea
+62	9262	metafizic	metafizica metafizice
+63	9263	conferențiar	
+64	9264	tataie	
+65	9265	vizionar	vizionara vizionari vizionarii vizionarul vizionară
+66	9266	ratificare	ratificarea
+67	9267	cronicar	cronicari cronicarii cronicarul
+68	9268	bronzat	bronzata bronzate bronzatul bronzată bronzați
+69	9269	regularitate	regularitatea
+70	9270	cortez	
+71	9271	faleză	faleza faleze falezei falezele
+72	9272	bovină	bovina bovine bovinele bovinelor
+73	9273	mulțam	
+74	9274	translator	translatoare translatori translatorul
+75	9275	penticostal	penticostali penticostalii penticostală
+76	9276	înclinare	inclinare înclinarea
+77	9277	fig	
+78	9278	inspecta	inspectam inspectat inspectate inspectată inspectați inspectează inspectez inspecteze inspectezi inspectând inspectăm
+79	9279	bărbierit	bărbieritul
+80	9280	neîncetat	neîncetata neîncetate neîncetată
+81	9281	literal	literale literală
+82	9282	dizolvat	dizolvata dizolvate dizolvată dizolvați
+83	9283	avertizat	avertizata avertizate avertizată avertizați
+84	9284	pustii	pustia pustiit pustiite pustiită
+85	9285	cobai	cobaii cobailor cobaiul
+86	9286	muză	muza muze muzei muzele muzelor
+87	9287	ghețar	ghețari ghețarii ghețarilor ghețarul ghețarului
+88	9288	vrabie	vrabia vrabiei vrăbii vrăbiile vrăbiuță
+89	9289	gherilă	gherila gherile gherilei gherilele gherilelor guerilă
+90	9290	succeda	succeadă succed succedat succede
+91	9291	urbanism	
+92	9292	blândețe	blândețea blândeții
+93	9293	amanet	amanetul
+94	9294	viperă	vipera vipere viperei viperele viperelor vipero
+95	9295	colector	colectoare colectoarele colectori colectorii colectorilor colectorul colectorului
+96	9296	cast	casta caste castei castele castelor castă caști
+97	9297	scalp	scalpul scalpului scalpuri scalpurile
+98	9298	paraclis	paraclisul
+99	9299	fluctuație	fluctuația fluctuații fluctuațiile
+100	9300	spaghete	spaghetele spaghetelor

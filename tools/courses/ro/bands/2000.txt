@@ -1,0 +1,100 @@
+1	1901	iarbă	iarba ierbii ierburi ierburile ierburilor
+2	1902	calcul	calcule calculele calculelor calculi calculii calculul calculului
+3	1903	atitudine	atitudinea atitudini atitudinii atitudinile atitudinilor
+4	1904	intenție	intenția intenției intenții intențiile intențiilor
+5	1905	dublu	duble dublei dublele dubli dublii dublul dublului
+6	1906	mărime	mărimea mărimi mărimii mărimile
+7	1907	frontieră	frontiera frontiere frontierei frontierele frontierelor
+8	1908	muncitor	muncitoare muncitoarea muncitoarele muncitori muncitorii muncitorilor muncitorul muncitorule muncitorului
+9	1909	chip	chipul chipului chipuri chipurile chipurilor
+10	1910	activa	activam activat activați activează activez activeze activezi activând activă activăm
+11	1911	rudă	ruda rude rudei rudele rudelor rudo
+12	1912	acoperire	acoperirea acoperiri acoperirii acoperirile
+13	1913	intervenție	intervenția intervenției intervenții intervențiile intervențiilor
+14	1914	violent	violenta violente violentei violentele violentelor violentă violenți
+15	1915	creație	creația creației creații creațiile creațiilor
+16	1916	credincios	credincioasa credincioase credincioasă credinciosul credinciosule credinciosului credincioși credincioșii credincioșilor
+17	1917	ac	ace acele acelor acul acului acușor
+18	1918	show	showul showului showuri
+19	1919	frunte	fruntea fruntii fruntile frunți frunții frunțile
+20	1920	murdar	murdara murdare murdari murdarii murdarul murdară
+21	1921	bogdan	
+22	1922	scenariu	scenarii scenariile scenariilor scenariul scenariului
+23	1923	îngrijora	îngrijorai îngrijoram îngrijorasem îngrijorat îngrijorau îngrijorați îngrijorează îngrijorez îngrijoreze îngrijorezi îngrijorându îngrijorăm
+24	1924	gras	grasa grase grasele grasul grasului grasă grași grașii grașilor grăsan grăsana grăsane grăsanei grăsanele grăsani grăsanii grăsanilor grăsanul grăsanului grăsană
+25	1925	comporta	comport comportai comportam comportat comportate comportau comportați comporte comportându comportă comportăm comporți
+26	1926	geantă	geanta gentuță genți genții gențile
+27	1927	explozie	explozia exploziei explozii exploziile exploziilor
+28	1928	agricultură	agricultura agriculturii
+29	1929	legendă	legenda legende legendei legendele legendelor
+30	1930	glonț	gloanțe gloanțele gloanțelor glonțul glonțului
+31	1931	opera	operam operat operata operate operată operau operați operații operează operez opereze operezi operând operăm
+32	1932	antrenament	antrenamente antrenamentele antrenamentelor antrenamentul antrenamentului
+33	1933	management	managementul managementului
+34	1934	hotărâre	hotărârea hotărâri hotărârii hotărârile hotărârilor hotărîre hotărîrea
+35	1935	surprinde	surprind surprindea surprindem surprindeți surprindă surprins surprinse surprinzi surprinzând
+36	1936	ucigaș	ucigașa ucigașe ucigașei ucigași ucigașii ucigașilor ucigașul ucigașule ucigașului ucigașă
+37	1937	sălbatic	sălbatec sălbatica sălbatice sălbaticele sălbatici sălbaticii sălbaticilor sălbaticul sălbaticului sălbatică
+38	1938	regret	regrete regretele regretelor regretul regretului
+39	1939	diplomă	diploma diplomat diplomata diplomate diplomatul diplomatului diplomată diplomați diplomații diplomaților diplome diplomei diplomele diplomelor
+40	1940	coadă	coada codiță cozi cozii cozile cozilor
+41	1941	adoptat	adoptata adoptate adoptată adoptați
+42	1942	merit	merite meritele meritelor meritul meritului
+43	1943	contribuție	contribuția contribuției contribuții contribuțiile contribuțiilor
+44	1944	redus	redusa reduse redusă reduși
+45	1945	maxim	maxi maxime maximul
+46	1946	sărbători	sărbătorea sărbătoreai sărbătoream sărbătoreau sărbătoreați sărbătorește sărbătorești sărbătorii sărbătorim sărbătorind sărbătorit sărbătorita sărbătorite sărbătoritei sărbătoritul sărbătoritului sărbătorită sărbătoriți
+47	1947	testa	testai testam testat testata testate testată testau testați testează testez testeze testezi testând testăm
+48	1948	tablou	tabloul tabloului tablouri tablourile tablourilor
+49	1949	oglindă	oglinda oglinjoară oglinzi oglinzii oglinzile oglinzilor
+50	1950	manual	manuala manuale manualele manualelor manualul manualului manuală
+51	1951	săruta	sărutai sărutam sărutase sărutat sărutau sărutați sărute sărutând sărutându sărută sărutăm săruți
+52	1952	abilitate	abilitatea abilități abilității abilitățile abilităților
+53	1953	politie	politia politiei
+54	1954	limbaj	limbaje limbajele limbajul limbajului
+55	1955	perspectivă	perspectiva perspective perspectivei perspectivele perspectivelor
+56	1956	beat	beata beată bete betele beți beții
+57	1957	incident	incidenta incidente incidentele incidentelor incidentul incidentului
+58	1958	ieftin	ieftina ieftine ieftini ieftinit ieftină
+59	1959	îngropa	îngroape îngroapă îngrop îngropam îngropase îngropat îngropau îngropați îngropi îngropând îngropându îngropăm
+60	1960	hol	hall holul holului holuri holurile
+61	1961	sâmbătă	sâmbete sâmbetei sâmbetele sâmbăta sîmbătă
+62	1962	habar	
+63	1963	sărbătoare	sărbătoarea sărbători sărbătorii sărbătorile sărbătorilor
+64	1964	dispărut	dispăruta dispărute dispărutul dispărutului dispărută dispăruți dispăruții dispăruților
+65	1965	solicita	solicit solicitam solicitat solicitate solicitată solicitau solicitați solicite solicitând solicită solicităm soliciți
+66	1966	locuință	locuința locuințe locuinței locuințele locuințelor
+67	1967	transporta	transportai transportam transportat transportata transportate transportată transportau transportați transporte transportând transportă transportăm transporți
+68	1968	papă	papa pape papei papi papii papilor papo păpică
+69	1969	promisiune	promisiunea promisiuni promisiunii promisiunile promisiunilor
+70	1970	jurnalist	jurnalistul jurnalistului jurnalistă jurnaliști jurnaliștii jurnaliștilor
+71	1971	constituție	constituția constituției constituții
+72	1972	comunicare	comunicarea comunicări comunicării comunicările comunicărilor
+73	1973	scrisă	scrisa scrise
+74	1974	spiritual	spirituala spirituale spirituali spiritualul spirituală
+75	1975	st	ss sst
+76	1976	diseară	
+77	1977	magie	magia magiei magii magiile
+78	1978	serial	seriale serialele serialelor serialul serialului
+79	1979	guvernator	guvernatori guvernatorii guvernatorilor guvernatorul guvernatorule guvernatorului
+80	1980	deceniu	decenii deceniile deceniilor deceniul deceniului
+81	1981	fa	
+82	1982	înconjura	înconjoare înconjoară înconjor înconjori înconjuram înconjuraseră înconjurat înconjurate înconjurată înconjurau înconjurați înconjurând înconjură înconjurăm
+83	1983	promova	promovam promovat promovau promovați promovează promovez promoveze promovezi promovând promovăm
+84	1984	virus	virusul virusului virusuri virusurile virusurilor viruși virușii virușilor
+85	1985	mur	muri murii
+86	1986	templu	temple templele templelor templul templului
+87	1987	zâmbi	zâmbea zâmbeai zâmbeam zâmbească zâmbeau zâmbesc zâmbește zâmbești zâmbim zâmbind zâmbindu zâmbit zâmbiți
+88	1988	păți	pate pățea pățeai pățeam pățească pățeau pățesc pățește pățești pățim pățise pățit pățiți
+89	1989	plastic	plastica plastice plasticele plastici plasticul plasticului plastică
+90	1990	efectua	efectuam efectuat efectuau efectuați efectuează efectuez efectueze efectuezi efectuând efectuăm
+91	1991	întunecat	întunecata întunecate întunecatele întunecatul întunecatului întunecată întunecați întunecații
+92	1992	patrimoniu	patrimoniul patrimoniului
+93	1993	căldură	căldura călduri căldurică căldurii căldurile
+94	1994	grecie	grecia greciei grecii
+95	1995	acoperiș	acoperișul acoperișului acoperișuri acoperișurile acoperișurilor
+96	1996	demon	demoni demonii demonilor demonul demonule demonului dimon
+97	1997	interveni	intervenea interveneai interveneam interveneau intervenii intervenim intervenind intervenit interveniți intervii intervin intervine intervină
+98	1998	ucidere	uciderea ucideri uciderii uciderile uciderilor
+99	1999	specialist	specialista specialistul specialistule specialistului specialistă specialiști specialiștii specialiștilor
+100	2000	atmosferă	atmosfera atmosfere atmosferei

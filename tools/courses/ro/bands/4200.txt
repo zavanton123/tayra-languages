@@ -1,0 +1,100 @@
+1	4101	înfrânge	înfrâng înfrângem înfrângeți înfrângi înfrângă înfrânt
+2	4102	ziarist	ziarista ziariste ziaristul ziaristule ziaristului ziaristă ziariști ziariștii ziariștilor
+3	4103	inevitabil	inevitabila inevitabile inevitabilele inevitabilul inevitabilului inevitabilă
+4	4104	implementare	implementarea implementări implementării
+5	4105	orientat	orientata orientate orientată orientați
+6	4106	etichetă	eticheta etichete etichetei etichetele etichetelor
+7	4107	evidenția	evidențiat evidențiază evidențiem evidențiez evidențieze evidențiezi evidențiind
+8	4108	decorativ	decorativa decorative decorativă
+9	4109	piramidă	piramida piramide piramidei piramidele piramidelor
+10	4110	alcoolic	alcoolica alcoolice alcoolici alcoolicii alcoolicilor alcoolicul alcoolicule alcoolică
+11	4111	modernizare	modernizarea modernizări modernizării
+12	4112	încărcătură	încărcătura încărcături încărcăturii încărcăturile încărcăturilor
+13	4113	magnetic	magnetica magnetice magnetici magnetică
+14	4114	împacheta	împachetam împachetase împachetat împachetau împachetați împachetează împachetez împacheteze împachetezi împachetând împachetăm
+15	4115	nordic	nordica nordice nordici nordicii nordicilor nordicul nordică
+16	4116	șocat	șocate șocată șocați
+17	4117	israelian	israeliana israeliană israeliene israelieni israelienii israelienilor
+18	4118	naiv	naiva naive naivi naivii naivul naivă
+19	4119	irosi	irosea iroseam irosească irosesc irosește irosești irosim irosind irosindu irosit irosiți
+20	4120	miner	mineri minerii minerilor minerit mineritul mineritului minerul minerului
+21	4121	stabilitate	stabilitatea stabilității
+22	4122	graham	
+23	4123	chin	chinul chinului chinuri chinurile chinurilor
+24	4124	atesta	atestat atestați ateste atestă
+25	4125	ruină	ruine ruinei ruinele ruinelor
+26	4126	dezbrăcat	dezbrăcata dezbrăcate dezbrăcatul dezbrăcată dezbrăcați
+27	4127	temelie	temelia temelii temeliile
+28	4128	cocaină	cocaina cocaine cocainei
+29	4129	whisky	whiskyul
+30	4130	străbate	străbat străbatem străbateți străbată străbați străbătea străbăteam străbătut străbătute străbătută străbătând
+31	4131	impus	impusa impuse impusă impuși
+32	4132	fixat	fixata fixate fixată fixați fixații
+33	4133	epuizat	epuizata epuizate epuizată epuizați
+34	4134	homo	
+35	4135	recruta	recrutam recrutat recrutate recrutată recrutau recrutați recrutează recrutez recruteze recrutezi recrutând recrută recrutăm
+36	4136	rață	rața rațe raței rațele rațelor rățușcă
+37	4137	cezar	cezarul cezarului
+38	4138	lance	lancea lănci lăncii lăncile
+39	4139	acut	acuta acute acută
+40	4140	muscă	musculițe musculiță muște muștei muștele muștelor
+41	4141	damă	dama dame damei damele damelor
+42	4142	maro	maron maroul
+43	4143	nimerit	nimerită nimeriți
+44	4144	criticat	criticata criticate criticată criticați
+45	4145	accidental	accidentala accidentale accidentală
+46	4146	supărare	supărarea supărări supărării supărările
+47	4147	cub	cubi cubul cubului cuburi cuburile cuburilor
+48	4148	vaccin	vaccinul vaccinului vaccinuri vaccinurile vaccinurilor
+49	4149	atribuit	atribuita atribuite atribuită atribuiți
+50	4150	tranziție	tranziția tranziției tranziții tranzițiile
+51	4151	liliac	liliacul liliacule liliacului lilieci liliecii liliecilor
+52	4152	atrăgător	atrăgătoare atrăgătoarea atrăgători atrăgătorul
+53	4153	interoga	interogam interogat interogau interogați interoghează interoghez interogheze interoghezi interogând interogăm
+54	4154	țărm	țărmul țărmului țărmuri țărmurile țărmurilor
+55	4155	sinteză	sinteza sinteze sintezei
+56	4156	sertar	sertare sertarele sertarelor sertarul sertarului
+57	4157	felicita	felicit felicitam felicitat felicitați felicite felicită felicităm feliciți fericita
+58	4158	bonus	bonusul bonusuri bonusurile
+59	4159	întreprinde	întreprind întreprindem întreprindeți întreprindă întreprins întreprinse întreprinsă întreprinzi
+60	4160	induce	indu induc inducea inducem induceți induci inducă indus indusa induse indusă induși
+61	4161	consacrat	consacrata consacrate consacrată consacrați
+62	4162	handbal	handbalul handbalului
+63	4163	înjunghiat	înjunghiata înjunghiate înjunghiatul înjunghiată înjunghiați
+64	4164	târgoviște	
+65	4165	vorbitor	vorbitoare vorbitori vorbitorii vorbitorilor vorbitorul vorbitorului
+66	4166	sinod	sinodul sinodului
+67	4167	dam	damul
+68	4168	răsărit	răsăritul răsăritului răsărituri răsăriturile răsărită
+69	4169	traficant	traficanta traficante traficantul traficantului traficantă traficanți traficanții traficanților
+70	4170	matern	materna materne maternă
+71	4171	augustin	augustina augustine
+72	4172	redactor	redactori redactorii redactorul redactorului
+73	4173	cană	cana canile cano căni cănile
+74	4174	corporație	corporația corporației corporații corporațiile corporațiilor
+75	4175	fox	
+76	4176	machiaj	machiaje machiajele machiajul machiajului
+77	4177	leac	leacul leacului leacuri leacurile
+78	4178	compact	compacta compacte compactă
+79	4179	penny	
+80	4180	calcula	calculam calculat calculați calculează calculez calculeze calculezi calculând calculăm
+81	4181	depus	depusa depuse depusă depuși
+82	4182	explorare	explorarea explorări explorării explorările explorărilor
+83	4183	pagubă	paguba pagube pagubele pagubelor
+84	4184	învățare	învățarea învățării
+85	4185	vatră	vatra
+86	4186	cicatrice	cicatricea cicatricei cicatricele cicatricelor cicatrici cicatricii cicatricile cicatricilor
+87	4187	conspirație	conspirația conspirației conspirații conspirațiile conspirațiilor
+88	4188	grație	grația grației grații grațiile
+89	4189	vag	vaga vagi vagă
+90	4190	adept	adepta adeptul adeptă adepți adepții adepților
+91	4191	competență	competența competențe competenței competențele competențelor
+92	4192	baraj	baraje barajele barajul barajului
+93	4193	stârni	stârnea stârnească stârnesc stârnește stârnești stârnim stârnind stârnit stârnite stârnită stârniți
+94	4194	constituire	constituirea constituirii
+95	4195	investitor	investitori investitorii investitorilor investitorul investitorului
+96	4196	contrazice	contrazic contrazicea contraziceam contraziceau contrazicem contraziceți contrazici contrazică contrazis contrazise contrazisă
+97	4197	maya	
+98	4198	estimare	estimarea estimări estimările estimărilor
+99	4199	gigant	gigantul gigantule gigantului gigantă giganți giganții giganților
+100	4200	achiziție	achiziția achiziției achiziții achizițiile achizițiilor

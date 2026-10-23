@@ -1,0 +1,100 @@
+1	7501	afină	afina afine afinele
+2	7502	deconecta	deconectam deconectat deconectați deconectează deconectez deconecteze deconectezi deconectăm
+3	7503	împăcat	împăcate împăcată împăcați
+4	7504	coapsă	coapsa coapse coapsei coapsele coapselor
+5	7505	coregrafie	coregrafia coreografie
+6	7506	imigrație	imigrația imigrației imigrații
+7	7507	escadrilă	escadrila escadrile escadrilei escadrilele
+8	7508	fierbere	fierberea
+9	7509	asamblare	asamblarea
+10	7510	multinațional	multinaționale multinaționalele multinațională
+11	7511	cocă	coacă coco
+12	7512	bufniță	bufnița bufnițe bufniței bufnițele bufnițelor
+13	7513	extremist	extremiste extremistă extremiști extremiștii extremiștilor
+14	7514	posterior	posterioara posterioare posterioară posteriorul
+15	7515	mitui	mituia mituiască mituiesc mituiește mituiești mituim mituind mituit mituită mituiți
+16	7516	zoom	
+17	7517	necondiționat	necondiționate necondiționată
+18	7518	simplificat	simplificate simplificată simplificați
+19	7519	unanim	unanima unanime unanimă
+20	7520	mazăre	mazărea
+21	7521	diminuare	diminuarea
+22	7522	buruiană	buruiana buruieni buruienile buruienilor
+23	7523	îmbarcare	îmbarcarea îmbarcări îmbarcării îmbarcările
+24	7524	gestiune	gestiunea
+25	7525	busolă	busola busole busolei busolele
+26	7526	glucoză	glucoza glucozei
+27	7527	manechin	manechine manechinele manechinelor manechinul manechinului
+28	7528	imprimantă	imprimanta imprimante imprimantei imprimantele
+29	7529	pseudonim	pseudonime pseudonimele pseudonimul
+30	7530	tunet	tunete tunetele tunetelor tunetul tunetului
+31	7531	zăcământ	zăcăminte zăcămintele zăcămintelor zăcământul
+32	7532	rugăminte	rugămintea rugăminți rugămințile rugăminților
+33	7533	orizontal	orizontala orizontale
+34	7534	verandă	veranda verande verandei
+35	7535	rupie	rupia rupii
+36	7536	măcina	macin macine macini macină măcinat măcinați
+37	7537	aviatic	aviatica aviatice aviatică
+38	7538	mediteranean	mediteraneană mediteraneene
+39	7539	efracție	efracții
+40	7540	înfășura	înfășoare înfășoară înfășor înfășori înfășurat înfășurate înfășurată înfășurați înfășurăm
+41	7541	farmacist	farmacistul farmacistului farmacistă farmaciști farmaciștii
+42	7542	ciudățenie	ciudățenia ciudățeniei ciudățenii ciudățeniile ciudățeniilor
+43	7543	suflu	suflul suflului sufluri
+44	7544	predecesor	predecesoarea predecesori predecesorii predecesorilor predecesorul predecesorului
+45	7545	amețeală	amețeala amețeli amețelii amețelile
+46	7546	bunăvoie	
+47	7547	improvizat	improvizata improvizate improvizată improvizați improvizații
+48	7548	armăsar	armasar armăsari armăsarii armăsarilor armăsarul armăsarule armăsarului
+49	7549	violare	violarea violări violării
+50	7550	desprins	desprinsa desprinse desprinsă
+51	7551	static	statica statice
+52	7552	proiectil	proiectile proiectilele proiectilelor proiectilul proiectilului
+53	7553	bocanc	bocanci bocancii bocancilor bocancul bocancului
+54	7554	thriller	thrillere
+55	7555	congelator	congelatoare congelatorul congelatorului
+56	7556	originalitate	originalitatea
+57	7557	complicație	complicația complicații complicațiile complicațiilor
+58	7558	vaginal	vaginala vaginale vaginali vaginală
+59	7559	analogie	analogia analogii analogiile
+60	7560	pledoarie	pledoaria pledoariei pledoarii pledoariile
+61	7561	pneumonie	pneumonia pneumoniei pneumonii
+62	7562	sărbătorire	sărbătorirea sărbătoriri sărbătoririi
+63	7563	autoturism	autoturisme autoturismele autoturismul autoturismului
+64	7564	pisa	pisam pisat pisate pisatul pisată pisează pisez piseze pisezi pisă pisăm
+65	7565	draperie	draperia draperiei draperii draperiile draperiilor
+66	7566	dizolvare	dizolvarea dizolvării
+67	7567	rasial	rasiala rasiale rasială
+68	7568	aprindere	aprinderea aprinderii
+69	7569	neîncredere	neîncrederea neîncrederii
+70	7570	reptilă	reptila reptile reptilei reptilele reptilelor
+71	7571	holding	
+72	7572	lector	lectori lectorul
+73	7573	tradă	trada trade
+74	7574	crișan	
+75	7575	cruciadă	cruciada cruciade cruciadei cruciadele cruciadelor cruciată
+76	7576	foarfecă	foarfeca foarfeci foarfecii foarfecile
+77	7577	soluționare	soluționarea
+78	7578	mov	movul
+79	7579	sabota	sabotam sabotat sabotate sabotată sabotați sabotează sabotez saboteze sabotezi sabotând sabotăm
+80	7580	crez	crezul crezului crezuri crezurile crezurilor
+81	7581	principesă	principesa principesei
+82	7582	sucursală	sucursala sucursale sucursalei sucursalele
+83	7583	milostiv	milostiva milostive milostivi milostivul milostivă
+84	7584	trecător	trecătoarea trecători trecătorii trecătorilor
+85	7585	prospera	prosperat prosperau prospere prosperi prosperă prosperăm
+86	7586	previzibil	previzibila previzibile previzibili previzibilă
+87	7587	igienic	igienica igienice igienică
+88	7588	ins	insul insule inși
+89	7589	răscoală	răscoala răscoale răscoalei răscoalele
+90	7590	mobilizat	mobilizate mobilizată mobilizați
+91	7591	tiran	tirani tiranii tiranilor tiranul tiranule tiranului tirană
+92	7592	pisicuță	pisicuța pisicuțe pisicuței pisicuțele pisicuțelor pisicuțo
+93	7593	semnatar	semnatare semnatari semnatarii
+94	7594	impunător	impunătoare impunători
+95	7595	ademeni	ademenea ademenească ademenesc ademenește ademenești ademenim ademenind ademenit ademeniți
+96	7596	arhimandrit	arhimandritul
+97	7597	franciză	franciza
+98	7598	aspira	aspir aspiram aspirat aspirați aspire aspiri aspirând aspiră aspirăm
+99	7599	dorian	
+100	7600	preludiu	preludiul preludiului

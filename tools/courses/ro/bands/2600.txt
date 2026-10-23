@@ -1,0 +1,100 @@
+1	2501	frecvență	frecvența frecvențe frecvenței frecvențele frecvențelor
+2	2502	comentariu	comentarii comentariile comentariilor comentariul comentariului
+3	2503	relua	reia reiau reiei reluam reluat reluate reluată reluați reluând reluă reluăm
+4	2504	calificare	calificarea calificări calificării calificările calificărilor
+5	2505	intitulat	intitulata intitulate intitulată
+6	2506	rom	romi romii romilor romul romului romuri romă rum
+7	2507	combinație	combinația combinației combinații combinațiile
+8	2508	diamant	diamante diamantele diamantelor diamantul diamantului
+9	2509	înmormântare	înmormântarea înmormântări înmormântării înmormântările
+10	2510	cutremur	cutremure cutremurele cutremurelor cutremurul cutremurului
+11	2511	pumn	pumni pumnii pumnilor pumnul pumnului
+12	2512	bal	balul balului baluri balurile balurilor
+13	2513	modifica	modific modificam modificat modificați modifice modifici modificând modifică modificăm
+14	2514	combustibil	combustibile combustibili combustibilii combustibililor combustibilul combustibilului
+15	2515	judecat	judecata judecate judecați
+16	2516	infecție	infecția infecției infecții infecțiile infecțiilor
+17	2517	valoros	valoroasa valoroase valoroasă valorosul valoroși
+18	2518	comparație	comparația comparații comparațiile
+19	2519	preveni	prevenii prevenim prevenind prevenit prevenite prevenită preveniți previi previn previne prevină
+20	2520	han	hanul hanului hanuri hanurile
+21	2521	răzbunare	răzbunarea răzbunări răzbunării răzbunările
+22	2522	divin	divina divine divinei divini divinul divinului divină
+23	2523	acuzație	acuzația acuzației acuzații acuzațiile acuzațiilor
+24	2524	degeaba	
+25	2525	exploatare	exploatarea exploatări exploatării exploatările
+26	2526	truc	trucul trucului trucuri trucurile trucurilor
+27	2527	turc	turca turce turci turcii turcilor turcoaică turcul turcule turcului turcă
+28	2528	conformitate	conformitatea
+29	2529	trăda	trădai trădam trădase trădat trădați trădează trădez trădeze trădezi trădând trădându trădăm
+30	2530	deșert	deșarte deșartă deșertul deșertului deșerturi deșerturile deșerturilor
+31	2531	petrecut	petrecuta petrecute petrecută petrecuți
+32	2532	deoparte	
+33	2533	front	frontul frontului fronturi fronturile
+34	2534	tenis	tenisul tenisului teniși
+35	2535	deplin	deplina depline deplină
+36	2536	videoclip	videoclipul videoclipului videoclipuri videoclipurile videoclipurilor
+37	2537	sărut	sărutul sărutului săruturi săruturile săruturilor
+38	2538	vizitator	vizitatoare vizitatori vizitatorii vizitatorilor vizitatorul vizitatorule vizitatorului
+39	2539	răpit	răpita răpite răpitul răpită răpiți răpiții
+40	2540	efectiv	efectiva efective efectivele efectivelor efectivul efectivă
+41	2541	deocamdată	
+42	2542	atacat	atacata atacate atacată atacați
+43	2543	feri	ferea feream ferească feresc ferește ferești ferim ferindu ferit feriți
+44	2544	interpreta	interpretai interpretam interpretat interpretau interpretați interpretează interpretez interpreteze interpretezi interpretând interpretă interpretăm
+45	2545	misterios	misterioasa misterioase misterioasei misterioasele misterioasă misteriosul misteriosului misterioși misterioșii
+46	2546	circulație	circulația circulației
+47	2547	reflecta	reflect reflectam reflectat reflectata reflectate reflectată reflectau reflectați reflectează reflectez reflecteze reflectezi reflectând reflectându reflectă reflectăm
+48	2548	mineral	minerala minerale mineralele mineralelor mineralul minerală
+49	2549	sos	sosul sosului sosuri sosurile
+50	2550	inițială	inițiala inițiale inițialele
+51	2551	vizibil	vizibila vizibile vizibili vizibilă
+52	2552	gros	groasa groase groasă grosul groși
+53	2553	miracol	miracole miracolele miracolelor miracolul miracolului
+54	2554	decedat	decedata decedate decedatei decedatul decedatului decedată decedați decedații decedaților
+55	2555	vacă	vaca vaci vacii vacile vacilor vaco văcuță
+56	2556	turna	toarne toarnă torn torni turnai turnam turnat turnau turnați turnând turnă turnăm
+57	2557	punte	puntea punți punții punțile punților
+58	2558	debut	debutul debutului
+59	2559	latină	latina latine latino
+60	2560	ateriza	aterizam aterizase aterizat aterizau aterizați aterizează aterizez aterizeze aterizezi aterizând aterizăm
+61	2561	dramatic	dramatica dramatice dramatici dramatică
+62	2562	regăsi	regăsea regăsească regăsesc regăsește regăsești regăsim regăsindu regăsit regăsite regăsită regăsiți
+63	2563	democrație	democrația democrației democrații democrațiile
+64	2564	ghid	ghidul ghidului ghiduri ghidurile ghizi ghizii ghizilor
+65	2565	neapărat	neapărată
+66	2566	artificial	artificiala artificiale artificiali artificială
+67	2567	abordare	abordarea abordări abordării abordările
+68	2568	parohie	parohia parohiei parohii parohiile parohiilor
+69	2569	guvernamental	guvernamentala guvernamentale guvernamentali guvernamentală
+70	2570	treaz	treaza trează treji treze
+71	2571	strategic	strategica strategice strategică
+72	2572	langă	langa
+73	2573	inspirat	inspirata inspirate inspirată inspirați inspirații
+74	2574	păcăli	păcălea păcăleam păcălească păcălesc păcălește păcălești păcălim păcălind păcălit păcăliți
+75	2575	permisiune	permisiunea permisiuni permisiunii permisiunile
+76	2576	adjunct	adjuncta adjunctul adjunctului adjunctă adjuncți adjuncții
+77	2577	denumit	denumita denumite denumită denumiți
+78	2578	rebel	rebela rebele rebeli rebelii rebelilor rebelul rebelului rebelă
+79	2579	re	rei
+80	2580	păpușă	păpușa păpuși păpușică păpușii păpușile păpușilor păpușoi
+81	2581	vai	
+82	2582	dumneata	dumitale
+83	2583	neobișnuit	neobișnuita neobișnuite neobișnuitul neobișnuită neobișnuiți
+84	2584	invers	inversa inverse inversul inversă
+85	2585	mijlociu	mijlocie mijlocii mijlociul
+86	2586	inspira	inspir inspiram inspirat inspirați inspire inspiri inspirând inspiră inspirăm
+87	2587	susținere	susținerea susținerii susținerile
+88	2588	exercițiu	exerciții exercițiile exercițiilor exercițiul exercițiului
+89	2589	mobilă	mobila mobilat mobilata mobilate mobilată mobile mobilei mobilele mobilelor mobilez
+90	2590	geamăn	geamăna geamănul geamănului geamănă gemene gemenele gemenelor gemeni gemenii gemenilor
+91	2591	treime	treimea treimi treimii
+92	2592	scandal	scandalul scandalului scandaluri scandalurile scandalurilor
+93	2593	infracțiune	infracțiunea infracțiuni infracțiunii infracțiunile infracțiunilor
+94	2594	tub	tubul tubului tuburi tuburile tuburilor
+95	2595	eșec	eșecul eșecului eșecuri eșecurile eșecurilor
+96	2596	stupid	stupida stupide stupidele stupidul stupidă stupizi
+97	2597	dificultate	dificultatea dificultăți dificultățile dificultăților
+98	2598	îmbrăcat	îmbrăcata îmbrăcate îmbrăcatul îmbrăcată îmbrăcați
+99	2599	omenire	omenirea omeniri omenirii
+100	2600	rută	ruta rute rutei rutele rutelor

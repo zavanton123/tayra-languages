@@ -1,0 +1,100 @@
+1	5201	lână	lâna lânii lâno lînă
+2	5202	afișa	afișat afișați afișează afișez afișeze afișezi afișând afișăm
+3	5203	motivație	motivația motivații motivațiile
+4	5204	găleată	găleata găletușă găleți găleții gălețile
+5	5205	ruj	rujul rujului rujuri rujurile
+6	5206	vascular	vasculara vasculare vasculară
+7	5207	iluminat	iluminata iluminate iluminatul iluminată iluminați iluminații
+8	5208	radă	rada rade radei rado
+9	5209	insultă	insulta insulte insultele insultelor
+10	5210	topor	topoare topoarele toporaș toporul toporului
+11	5211	exotic	exotica exotice exotici exotică
+12	5212	preferință	preferința preferințe preferințele preferințelor
+13	5213	actorie	actoria actoriei actorii
+14	5214	devotat	devotata devotate devotatul devotată devotați
+15	5215	procesare	procesarea procesării
+16	5216	bântui	bântuia bântuiau bântuie bântuim bântuind bântuit bântuiți
+17	5217	vizavi	
+18	5218	cârnat	cârnatul cârnatule cârnatului cârnaț cârnați cârnații cârnaților cârnăcior cârnăciori
+19	5219	scufundare	scufundarea scufundări scufundării scufundările
+20	5220	paj	pag paji pajul
+21	5221	usca	uscam uscase uscau uscați uscă uscăm usuc usuce usuci usucă
+22	5222	mâner	mânere mânerele mânerul mânerului
+23	5223	solidaritate	solidaritatea solidarității
+24	5224	mândri	mândrea mândrească mândresc mândrește mândrești mândrii mândrim mândrit mândriți
+25	5225	amuza	amuz amuzam amuzat amuzată amuzau amuzați amuze amuzi amuză amuzăm
+26	5226	spiona	spionai spionam spionat spionau spionați spionează spionez spioneze spionezi spionând spionându spionăm
+27	5227	interbelic	interbelice interbelică
+28	5228	peliculă	pelicula pelicule peliculei peliculele
+29	5229	traducător	traducătoare traducătoarea traducători traducătorii traducătorul traducătorului
+30	5230	aducere	aducerea aducerii
+31	5231	declin	declinul declinului
+32	5232	expres	exprese expreso expresul expresului expresă
+33	5233	dentar	dentara dentare dentară
+34	5234	arhanghel	arhangheli arhanghelii arhanghelul arhanghelului
+35	5235	biografie	biografia biografiei biografii biografiile
+36	5236	succesiune	succesiunea succesiuni succesiunii
+37	5237	pedagogic	pedagogice pedagogică
+38	5238	relatare	relatarea relatări relatării relatările relatărilor
+39	5239	caporal	caporali caporalii caporalul caporalului
+40	5240	excita	excit excitam excitat excitau excitați excite excită excităm exciți
+41	5241	dezbrăca	dezbrac dezbrace dezbraci dezbracă dezbrăcam dezbrăcau dezbrăcați dezbrăcându dezbrăcăm
+42	5242	infanterie	infanteria infanteriei
+43	5243	anal	anala anale analele anali anală
+44	5244	blocare	blocarea blocări blocării
+45	5245	contrabandă	contrabanda contrabandei
+46	5246	reactor	reactoare reactoarele reactoarelor reactorul reactorului
+47	5247	stoca	stocat stocate stocați stochează stochez stocheze stochezi stocăm
+48	5248	rotilă	rotile
+49	5249	antreprenor	antreprenoare antreprenori antreprenorii antreprenorilor antreprenorul antreprenorului
+50	5250	bust	bustul bustului busturi busturile
+51	5251	reconstrucție	reconstrucția reconstrucției reconstrucții
+52	5252	tulbura	tulbur tulburat tulburați tulburi tulburând tulbură tulburăm
+53	5253	pretext	pretexte pretextele pretextul
+54	5254	intensiv	intensiva intensive intensivă
+55	5255	arogant	aroganta arogante arogantei arogantul arogantă aroganți
+56	5256	nominalizare	nominalizarea nominalizări nominalizării nominalizările nominalizărilor
+57	5257	delfin	delfini delfinii delfinilor delfinul delfinului
+58	5258	ironie	ironia ironiei ironii ironiile
+59	5259	marc	
+60	5260	dentist	dentistul dentistule dentistului dentistă dentiști dentiștii dentiștilor
+61	5261	cazier	caziere cazierele cazierul cazierului
+62	5262	corporal	corporala corporale corporalul corporală
+63	5263	vestă	vesta vestei vestele
+64	5264	sui	suie suim suit suiți
+65	5265	fortăreață	fortăreața fortărețe fortăreței fortărețele
+66	5266	dominat	dominata dominate dominată dominați
+67	5267	atacator	atacatoare atacatori atacatorii atacatorilor atacatorul atacatorului
+68	5268	limitare	limitarea limitări limitării limitările limitărilor
+69	5269	suspin	suspine suspinele suspinelor suspinul
+70	5270	vid	vida vidat vide videle vidul vidului vidă
+71	5271	holocaust	holocaustul holocaustului
+72	5272	inițiere	inițierea inițieri inițierii
+73	5273	însori	însorit însorita însorite însoritul însorită
+74	5274	rareori	
+75	5275	șmecherie	șmecheria șmecherii șmecheriile șmecheriilor
+76	5276	reprezentație	reprezentația reprezentației reprezentații reprezentațiile
+77	5277	instituit	instituita instituite instituită
+78	5278	ruptură	ruptura rupturi rupturii rupturile rupturilor
+79	5279	înscena	înscenat înscenați înscenează înscenez înscenezi înscenând înscenăm
+80	5280	atomic	atomica atomice atomici atomică
+81	5281	moștenit	moștenite moștenită moșteniți
+82	5282	portofoliu	portofolii portofoliile portofoliul portofoliului
+83	5283	ten	tenul tenului
+84	5284	inedit	inedita inedite inedită
+85	5285	trecătoare	trecătoarea trecători trecătorii trecătorile trecătorilor
+86	5286	încheietură	încheietura încheieturi încheieturii încheieturile încheieturilor
+87	5287	slăbit	slăbite slăbitul slăbită slăbiți
+88	5288	veșnicie	veșnicia veșniciei
+89	5289	monitorizare	monitorizarea monitorizării
+90	5290	implant	implantul implantului implanturi implanturile implanturilor
+91	5291	vopsit	vopsita vopsite vopsitul vopsită vopsiți
+92	5292	anghel	
+93	5293	poponar	poponari poponarii poponarilor poponarul poponarule poponarului
+94	5294	magician	magicianul magicianule magicianului magiciană magicieni magicienii magicienilor
+95	5295	pantă	panta pante pantei pantele
+96	5296	poșetă	poșeta poșete poșetei poșetele
+97	5297	morgă	morga morgi morgii morgile
+98	5298	telegramă	telegram telegrama telegrame telegramei telegramele telegramelor
+99	5299	ascunzătoare	ascunzătoarea ascunzători ascunzătorii ascunzătorile
+100	5300	mercenar	mercenari mercenarii mercenarilor mercenarul mercenarule mercenară

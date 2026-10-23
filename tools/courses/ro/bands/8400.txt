@@ -1,0 +1,100 @@
+1	8301	reflexie	reflexia reflexiei reflexii reflexiile
+2	8302	comuniune	comuniunea comuniuni comuniunii
+3	8303	doctoriță	doctorița doctorițe doctoriței doctorițele
+4	8304	derivat	derivați
+5	8305	cârtiță	cârtița cârtițe cârtiței cârtițele cârtițelor
+6	8306	celest	celesta celeste celestă celești
+7	8307	oficia	oficiat oficiată oficiază oficiez oficieze oficiezi
+8	8308	aprofundat	aprofundata aprofundate aprofundată
+9	8309	serbare	serbarea serbări serbării serbările
+10	8310	brașovean	brașoveni
+11	8311	amenințător	amenințătoare amenințători
+12	8312	mustang	mustangi mustangii mustangul
+13	8313	cifru	cifrul cifrului cifruri
+14	8314	presta	prestat prestate prestată prestați prestează prestez presteze prestezi prestăm
+15	8315	displăcea	displac displace displaci displacă displăcut
+16	8316	scumpete	scumpetea
+17	8317	necăji	necăjea necăjeam necăjească necăjeau necăjesc necăjește necăjești necăjim necăjit necăjiți
+18	8318	devora	devorat devorați devorează devorez devoreze devorezi devorând devorăm
+19	8319	personalizat	personalizata personalizate personalizată personalizați
+20	8320	mango	
+21	8321	colateral	colaterala colaterale colaterală
+22	8322	alocare	alocarea alocări
+23	8323	tranșee	tranșeea tranșeele tranșeelor tranșeu
+24	8324	titulatură	titulatura
+25	8325	guvernat	guvernata guvernate guvernată guvernați
+26	8326	tangentă	tangenta tg
+27	8327	alocuri	
+28	8328	stimulent	stimulente stimulentele stimulentul
+29	8329	văl	vălul vălului văluri
+30	8330	orhidee	orhideea orhideei orhideele orhideelor
+31	8331	stup	stupi stupii stupul stupului
+32	8332	navigator	navigatori navigatorii navigatorilor navigatorul navigatorule navigatorului
+33	8333	divulga	divulg divulgam divulgat divulgate divulgată divulgați divulge divulgi divulgă divulgăm
+34	8334	fiat	fiatul
+35	8335	cărturar	cărturari cărturarii cărturarilor cărturarul
+36	8336	servire	servirea servirii
+37	8337	predispus	predispusa predispuse predispusă predispuși
+38	8338	croat	croata croate croați croații
+39	8339	stimul	stimuli stimulii stimulilor stimulul
+40	8340	totalitar	totalitare totalitară
+41	8341	predicție	predicția predicții predicțiile predicțiilor
+42	8342	corner	cornerul
+43	8343	carpatic	carpatica
+44	8344	furcă	furca furci furcile
+45	8345	sociologic	sociologice sociologică
+46	8346	havană	havana havane havanei
+47	8347	grohăit	grohăituri
+48	8348	colectă	colecta colecte
+49	8349	memorandum	memorandumul memorandumului memorandumuri
+50	8350	neutralitate	neutralitatea neutralității
+51	8351	pomenit	pomenite pomenită pomeniți
+52	8352	legitimitate	legitimitatea
+53	8353	step	stepul
+54	8354	rasism	rasismul rasismului
+55	8355	viespe	viespea viespi viespii viespile viespilor
+56	8356	otrăvire	otrăvirea otrăviri otrăvirii
+57	8357	culmina	culminat culminează culminând
+58	8358	râmnic	râmnicul râmnicului
+59	8359	arca	
+60	8360	sold	soldul soldului solduri soldurile soldurilor
+61	8361	încurcat	încurcata încurcate încurcată încurcați
+62	8362	board	
+63	8363	termal	termala termale termali termală
+64	8364	veselie	veselia veseliei
+65	8365	infantil	infantila infantile infantili infantilă
+66	8366	vopsi	vopseam vopsească vopsesc vopsește vopsești vopsim vopsind vopsiți
+67	8367	sesiza	sesizat sesizați sesizează sesizez sesizeze sesizezi sesizăm
+68	8368	reîntoarcere	reîntoarcerea reîntoarcerii
+69	8369	chitarist	chitaristul chitaristule chitariști
+70	8370	asfalt	asfaltul asfaltului
+71	8371	străbunic	străbunicii străbunicul străbunicule străbunicului
+72	8372	îndoit	îndoita îndoite îndoită îndoiți
+73	8373	rimă	rima rime rimele
+74	8374	peluză	peluza peluze peluzei peluzele
+75	8375	vestire	vestiri
+76	8376	comemora	comemoram comemorat comemorează comemorez comemoreze comemorând comemorăm
+77	8377	gel	gelul geluri
+78	8378	titanic	titanice titanicul titanicului titanică
+79	8379	exmatriculat	exmatriculata exmatriculată exmatriculați
+80	8380	erecție	erecția erecției erecții erecțiile
+81	8381	turbat	turbata turbate turbatul turbată turbați turbații
+82	8382	fitness	
+83	8383	dezintoxicare	dezintoxicarea
+84	8384	ghimber	ghimbir
+85	8385	porto	
+86	8386	plutind	
+87	8387	marcare	marcarea
+88	8388	balaur	balauri balaurii balaurul balaurului
+89	8389	sinele	sinelui
+90	8390	întâmpinare	întâmpinarea
+91	8391	preoteasă	preoteasa preotese preotesei preotesele
+92	8392	mărie	măria măriei mării
+93	8393	arhaic	arhaice arhaică
+94	8394	așternut	așternutul așternuturi așternuturile așternuturilor așternută
+95	8395	irod	
+96	8396	puicuță	puicuța puicuțe puicuței puicuțele puicuțelor puicuțo
+97	8397	deținere	deținerea deținerii
+98	8398	sulf	sulful sulfului
+99	8399	nil	nilul nilului
+100	8400	pandur	panduri pandurii

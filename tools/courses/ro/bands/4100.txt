@@ -1,0 +1,100 @@
+1	4001	privitor	privitoare privitori privitorii privitorilor privitorul privitorului
+2	4002	sărăcie	sărăcia sărăciei
+3	4003	monetar	monetara monetare monetarul monetară
+4	4004	bestie	bestia bestiei bestii bestiile bestiilor
+5	4005	ram	ramuri
+6	4006	batman	
+7	4007	bang	
+8	4008	șantier	șantiere șantierele șantierul șantierului
+9	4009	arest	arestul arestului aresturi
+10	4010	infectat	infectata infectate infectată infectați infectații
+11	4011	alfa	
+12	4012	generator	generatoare generatoarele generatoarelor generatorul generatorului
+13	4013	dog	dogi dogii dogul
+14	4014	testare	testarea testări testării testările testărilor
+15	4015	restaurare	restaurarea restaurări restaurării
+16	4016	inaugurat	inaugurate inaugurată
+17	4017	verbal	verbala verbale verbală
+18	4018	lucrat	lucrata lucrate lucratul lucrată lucrați
+19	4019	tactică	tactica tactici tacticii tacticile tacticilor
+20	4020	cot	coate coatele coatelor cotul cotului coturi coturile coți
+21	4021	atare	
+22	4022	comandament	comandamente comandamentul comandamentului
+23	4023	grecesc	greceasca grecească grecescul grecești
+24	4024	sanitar	sanitara sanitare sanitari sanitarii sanitarul sanitară
+25	4025	omenesc	omeneasca omenească omenești
+26	4026	veteran	veterani veteranii veteranilor veteranul veterană
+27	4027	disputat	disputate disputată
+28	4028	comparativ	comparative comparativă
+29	4029	iute	iuti iuțește iuți
+30	4030	aprins	aprinsa aprinse aprinsă aprinși
+31	4031	armonie	armonia armoniei armonii armoniile
+32	4032	job	jobul jobului joburi joburile
+33	4033	transmitere	transmiterea transmiterii
+34	4034	lagăr	lagăre lagărele lagărelor lagărul lagărului
+35	4035	încărcat	încărcate încărcatul încărcată
+36	4036	distincție	distincția distincții distincțiile
+37	4037	specifica	specificat specificate specificată specificați specifice specifici specificând specifică
+38	4038	restricție	restricția restricții restricțiile restricțiilor
+39	4039	rătăci	rătăcea rătăceai rătăceam rătăcească rătăceau rătăcesc rătăcește rătăcești rătăcim rătăcind rătăcise rătăcisem rătăcit rătăciți
+40	4040	prevedere	prevederea prevederi prevederile prevederilor
+41	4041	țeavă	țeava țevi țevii țevile țevilor
+42	4042	campus	campusul campusului campusuri campusurile
+43	4043	familiar	familiara familiare familiari familiară
+44	4044	pedepsit	pedepsita pedepsite pedepsită pedepsiți
+45	4045	vulcan	vulcani vulcanii vulcanilor vulcanul vulcanului
+46	4046	copertă	coperta coperte copertele coperți coperții coperțile
+47	4047	închina	închin închinam închinat închinate închinată închinau închinați închine închini închinându închină închinăm
+48	4048	înlocuire	înlocuirea înlocuiri înlocuirii
+49	4049	republican	republicana republicane republicani republicanii republicanilor republicanul republicană
+50	4050	cizmă	cizma cizme cizmei cizmele cizmelor cizmulițele
+51	4051	tipărit	tipărite tipărită
+52	4052	ardere	arderea arderi arderii arderile
+53	4053	concret	concreta concrete concretă
+54	4054	vitamină	vitamina vitamine vitaminei vitaminele vitaminelor
+55	4055	realist	realista realiste realistă realiști
+56	4056	diferent	diferenta diferente diferentele diferentelor diferentă
+57	4057	gheată	gheata ghete ghetei ghetele ghetelor ghetuțe
+58	4058	dependență	dependența dependențe dependenței dependențele
+59	4059	fidel	fidela fidele fideli fidelii fidelul fidelă
+60	4060	amâna	amân amânam amânat amânați amâne amâni amânând amână amânăm
+61	4061	luare	luarea luări luării luările
+62	4062	adoptare	adoptarea adoptării
+63	4063	coopera	cooperam cooperat cooperați cooperează cooperez coopereze cooperezi cooperând cooperăm
+64	4064	suspecta	suspectai suspectam suspectat suspectau suspectați suspectează suspectez suspecteze suspectezi suspectă suspectăm
+65	4065	ușurință	ușurința
+66	4066	zăcea	zac zace zaci zacă zăceai zăceam zăceau zăcut zăcând
+67	4067	satană	satan satana satanei
+68	4068	obraznic	obraznica obraznice obraznici obraznicii obraznicilor obraznicul obraznică
+69	4069	grătar	grătare grătarele grătarelor grătarul grătarului
+70	4070	comic	comica comice comici comicii comicul comică
+71	4071	filmat	filmata filmate filmatul filmată filmați
+72	4072	bonă	bona bone bonei bonele bonelor bono
+73	4073	scuti	scuteam scutească scutesc scutește scutești scutim scutit scutiți
+74	4074	conferi	confer confere conferindu conferit conferă
+75	4075	cumpărător	cumpărătoare cumpărători cumpărătorii cumpărătorilor cumpărătorul cumpărătorului
+76	4076	pornit	pornita pornite pornită porniți
+77	4077	reglementare	reglementarea reglementări reglementării reglementările reglementărilor
+78	4078	autentic	autentica autentice autentici autenticul autentică
+79	4079	tortură	tortura torturi torturii torturile torturilor
+80	4080	fixa	fixam fixat fixau fixați fixează fixez fixeze fixezi fixând fixă fixăm
+81	4081	comerciant	comerciantul comerciantului comerciantă comercianți comercianții comercianților
+82	4082	insignă	insigna insigne insignei insignele insignelor
+83	4083	simbolic	simbolica simbolice simbolici simbolică
+84	4084	sculptură	sculptura sculpturi sculpturii sculpturile sculpturilor
+85	4085	uau	
+86	4086	stăpâni	stăpânea stăpâneam stăpâneau stăpânește stăpânești stăpânii stăpânim stăpânind stăpânit stăpânite stăpânită stăpâniți
+87	4087	mini	
+88	4088	rival	rivale rivali rivalii rivalilor rivalul rivalului rivală
+89	4089	hectometru	hm
+90	4090	civic	civica civice civică
+91	4091	schi	schiul schiuri schiurile
+92	4092	întocmi	întocmească întocmesc întocmește întocmești întocmim întocmit întocmite întocmită întocmiți
+93	4093	imperial	imperiala imperiale imperiali imperialii imperială
+94	4094	get	geți geții geților
+95	4095	băț	bețe bețele bețelor bețigaș bețișor bățul bățului
+96	4096	spânzura	spânzur spânzuram spânzurase spânzurat spânzurau spânzurați spânzure spânzuri spânzurându spânzurăm
+97	4097	convorbire	convorbirea convorbiri convorbirii convorbirile convorbirilor
+98	4098	îndreptat	îndreptata îndreptate îndreptată îndreptați
+99	4099	portocaliu	portocalie portocalii portocaliul
+100	4100	săptămânal	săptămânala săptămânale săptămânalul săptămânală

@@ -1,0 +1,100 @@
+1	501	direct	directa directe directă direcți direcții
+2	502	imagine	imaginea imagini imaginii imaginile imaginilor
+3	503	poartă	poarta portițe portiță porți porții porțile porților
+4	504	rezultat	rezultate rezultatele rezultatelor rezultatul rezultatului rezultată rezultați
+5	505	crește	crească cresc crescu crescuse crescusem crescuseră crescut crescându creștea creșteai creșteam creșteau creștem creșteți crești
+6	506	mesaj	mesaje mesajele mesajelor mesajul mesajului
+7	507	dolar	dolari dolarii dolarilor dolarul dolarului
+8	508	consiliu	consilii consiliile consiliilor consiliul consiliului
+9	509	navă	nava nave navei navele navelor
+10	510	program	programe programele programelor programul programule programului
+11	511	scurt	scurta scurte scurtei scurtele scurtul scurtă scurți
+12	512	valoare	valoarea valori valorii valorile valorilor
+13	513	șansă	șansa șanse șansei șansele șanselor
+14	514	păi	
+15	515	stare	starea stări stării stările stărilor
+16	516	societate	societatea societăți societății societățile societăților
+17	517	normal	normala normale normali normalii normalul normalului normală
+18	518	domeniu	domenii domeniile domeniilor domeniul domeniului
+19	519	gură	gura guri gurii gurile gurilor gurița guriță guro
+20	520	forma	formam formase format formata formatat formate formatele formatul formatului formată formau formați formații formează formez formeze formezi formând formându formăm
+21	521	situație	situația situației situații situațiile situațiilor
+22	522	total	totala totale totali totalul totală
+23	523	clasă	clas clasa clasat clasate clasată clasați clase clasează clasei clasele claselor clasez claseze clasezi clasându clasăm
+24	524	pregăti	pregătea pregăteai pregăteam pregătească pregăteau pregăteați pregătesc pregătește pregătești pregătii pregătim pregătind pregătindu pregătise pregătisem pregătiseră pregătit pregătiți
+25	525	purta	poarte porți purtai purtam purtase purtat purtata purtate purtatul purtată purtau purtați purtând purtându purtînd purtă purtăm
+26	526	lovi	lovea loveai loveam lovească loveau lovele lovesc lovește lovești lovii lovim lovind lovindu lovise lovisem lovit lovitu loviți
+27	527	complet	complect completa complete completul completului completă compleți
+28	528	alegere	alegerea alegeri alegerii alegerile alegerilor
+29	529	reveni	revenea reveneai reveneam reveneau revenii revenim revenind revenindu revenise revenisem reveniseră revenit revenită reveniți revii revin revine revino revină
+30	530	sex	sexe sexele sexelor sexul sexului
+31	531	urmări	urmărea urmăreai urmăream urmărească urmăreau urmăreați urmăresc urmărește urmărești urmării urmărim urmărind urmărindu urmărise urmărit urmăriți
+32	532	artă	arta arte artei artele artelor arto
+33	533	ascunde	ascund ascundea ascundeai ascundeam ascundeau ascundeați ascundem ascundeți ascundă ascuns ascunse ascunsese ascunsesem ascunzi ascunzând ascunzându
+34	534	noiembrie	
+35	535	ba	
+36	536	politică	politica politici politicii politicile politicilor politico
+37	537	control	controale controalele controalelor controlul controlului
+38	538	atinge	ating atingea atingeai atingeam atingeau atingem atingeți atingi atingând atingându atingă atins atinsa atinse atinsese atinsesem atinseseră atinsul atinsă atinși
+39	539	viu	via viat vie viei vii viii viile viilor vio viul
+40	540	verifica	verific verificai verificam verificat verificau verificați verifice verifici verificând verifică verificăm
+41	541	dormi	doarme doarmă dorm dorme dormea dormeai dormeam dormeau dormeați dormii dormim dormind dormise dormisem dormit dormitul dormiți
+42	542	publicat	publicata publicate publicată publicați publicații
+43	543	produs	produse produsele produselor produsul produsului produsă produși
+44	544	considera	consider considerai consideram considerat considerau considerați considere consideri considerând considerându consideră considerăm
+45	545	pace	pacea pacii păci păcii
+46	546	serie	seria seriei serii seriile seriilor serio
+47	547	rol	rolul rolului roluri rolurile rolurilor
+48	548	aer	aere aerele aerul aerului
+49	549	spital	spitale spitalele spitalelor spitalul spitalului
+50	550	succes	succese succesele succeselor succesul succesului
+51	551	ură	ura uri urii urile urilor
+52	552	animal	animala animale animalele animalelor animali animalul animalule animalului animală
+53	553	octombrie	
+54	554	unitate	unitatea unități unității unitățile unităților
+55	555	vârstă	vârsta vârste vârstei vârstele vîrstei vîrstă
+56	556	crimă	crima crime crimei crimele crimelor
+57	557	decembrie	
+58	558	schimb	schimbul schimbului schimburi schimburile schimburilor
+59	559	închide	închid închidea închideai închideam închideau închidem închideți închidă închis închise închisese închisesem închiseseră închizi închizând închizându
+60	560	altceva	
+61	561	vreodată	vrodată
+62	562	septembrie	
+63	563	meci	meciul meciului meciuri meciurile meciurilor
+64	564	alături	alăturea
+65	565	totuși	
+66	566	oricum	orc
+67	567	cultură	cultura culturi culturii culturile culturilor
+68	568	real	reala reale reali realul realului reală reel
+69	569	martie	mart marte
+70	570	militar	militara militare militari militarii militarilor militarul militară
+71	571	linie	linia liniară liniei linii liniile liniilor liniuța liniuțe liniuță
+72	572	soț	soața soațe soață soți soții soților soțior soțiorul soțul soțule soțului
+73	573	interior	interioara interioare interioarele interioară interiori interiorul interiorului
+74	574	potrivit	potrivita potrivite potrivită potriviți
+75	575	recunoaște	nerecunoscut nerecunoscută recunoască recunoaștem recunoașteți recunosc recunoscuse recunoscusem recunoscut recunoscând recunoștea recunoșteai recunoșteam recunoșteau recunoști
+76	576	pur	pura pure puri puro purul pură
+77	577	scop	scopul scopului scopuri scopurile scopurilor
+78	578	partid	partide partidele partidelor partidul partidului
+79	579	parcă	parca parce parcele
+80	580	post	postul postului posturi posturile posturilor
+81	581	participa	particip participai participam participase participaseră participat participau participați participe participi participând participă participăm
+82	582	salva	salvai salvam salvase salvasem salvat salvau salvați salvează salvez salveze salvezi salvând salvându salvăm
+83	583	club	clubul clubului cluburi cluburile cluburilor
+84	584	șase	șasea șaselea
+85	585	universitate	universitatea universități universității universitățile universităților
+86	586	ministru	ministrul ministrule ministrului miniștri miniștrii miniștrilor
+87	587	altfel	
+88	588	natural	naturala naturale naturali naturală
+89	589	promite	promis promise promisese promisesem promiseseră promit promitea promiteai promiteam promiteau promitem promiteți promită promiți promițând promițându
+90	590	iunie	
+91	591	atâta	atâtea atâția tita tâta
+92	592	agent	agenta agentul agentule agentului agentă agenți agenții agenților
+93	593	rest	restul restului resturi resturile resturilor
+94	594	site	sait
+95	595	vis	vise visele viselor visul visului visuri visurile visurilor
+96	596	explica	explic explicai explicam explicat explicata explicate explicată explicau explicați explicații explice explici explicând explicându explică explicăm
+97	597	suflet	suflete sufletele sufletelor sufletu sufletul sufletului suflețel
+98	598	abia	abi
+99	599	ci	
+100	600	sat	sate satele satelor satul satului saturi

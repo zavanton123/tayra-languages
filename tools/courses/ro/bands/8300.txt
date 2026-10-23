@@ -1,0 +1,100 @@
+1	8201	publicist	publicista publicistul publicistului publicistă publiciști publiciștii
+2	8202	invadator	invadatoare invadatori invadatorii invadatorilor invadatorul invadatorului
+3	8203	epurare	epurarea epurări epurării
+4	8204	delimitare	delimitarea
+5	8205	puf	puful pufuleț pufuri
+6	8206	dezvăluire	dezvăluirea dezvăluiri dezvăluirii dezvăluirile dezvăluirilor
+7	8207	ananas	ananasul ananași
+8	8208	logistică	logistica
+9	8209	secui	secuii secuilor
+10	8210	doborât	doborâta doborâte doborâtă doborâți
+11	8211	tipărire	tipărirea
+12	8212	computerizat	computerizata computerizate computerizată
+13	8213	nocturn	nocturna nocturne nocturni
+14	8214	coală	coala coli colii colile
+15	8215	hohot	hohote hohotele
+16	8216	măcel	măcelul măcelului măceluri măcelurile
+17	8217	gong	gongul gongului
+18	8218	represiune	represiunea represiuni represiunii
+19	8219	covrig	covrigel covrigi covrigii covrigul covrigului
+20	8220	porcină	porcina porcine
+21	8221	sociolog	sociologi sociologii sociologul
+22	8222	împlinit	împlinita împlinite împlinită împliniți
+23	8223	mag	magi magii magilor magul magule
+24	8224	atlas	atlasul atlasului
+25	8225	criptare	criptarea criptări
+26	8226	furiș	furișa furișă
+27	8227	optimizare	optimizarea
+28	8228	unilateral	unilaterala unilaterale unilaterală
+29	8229	hipertensiune	hipertensiunea hipertensiunii
+30	8230	disco	
+31	8231	înscenare	înscenarea înscenări înscenării
+32	8232	falsifica	falsific falsificam falsificat falsificați falsifice falsifici falsificând falsifică falsificăm
+33	8233	procesiune	procesiunea procesiuni procesiunii procesiunile
+34	8234	colorant	colorantul coloranți
+35	8235	etnografie	
+36	8236	notoriu	notorie notorii notoriul
+37	8237	restabilire	restabilirea restabilirii
+38	8238	samă	sama same samo
+39	8239	extravagant	extravaganta extravagante extravagantă extravaganți
+40	8240	migrațiune	migrație
+41	8241	amnezie	amnezia amneziei amnezii
+42	8242	ovăz	ovăzul
+43	8243	legitima	legitimat legitimează legitimez legitimeze legitimă
+44	8244	zmeu	zmei zmeie zmeiele zmeii zmeul zmeului
+45	8245	îmbinare	îmbinarea îmbinări îmbinările
+46	8246	afacerist	afaceristi afaceristii afaceristul afaceristului afaceristă afaceriști afaceriștii afaceriștilor
+47	8247	suspectat	suspectata suspectate suspectată suspectați
+48	8248	alert	alerte alertei alertele alerți
+49	8249	mitică	mitica
+50	8250	disputa	disputat dispute
+51	8251	figurină	figurina figurine figurinele figurinelor
+52	8252	papal	papala papale papală
+53	8253	tejghea	tejgheaua tejghele tejghelei
+54	8254	calorie	calorii caloriile caloriilor
+55	8255	beție	beția beției beții bețiile
+56	8256	părăsire	părăsirea părăsirii
+57	8257	reprograma	reprogramam reprogramat reprogramate reprogramată reprogramați reprogramează reprogramez reprogramezi reprogramăm
+58	8258	regretabil	regretabila regretabile regretabilă
+59	8259	milord	milorzi
+60	8260	trompetă	trompeta trompete trompetei trompetele trompetelor
+61	8261	turnător	turnătoare turnătoarea turnători turnătorii turnătorilor turnătorul turnătorule turnătorului
+62	8262	corectare	corectarea
+63	8263	tijă	tija tije tijei tijele
+64	8264	strajă	straja străji străjile
+65	8265	pandoră	pandora pandorei
+66	8266	luxos	luxoasa luxoase luxoasă luxosul
+67	8267	manie	mania maniei manii maniile
+68	8268	mărunțiș	mărunțișul mărunțișuri mărunțișurile
+69	8269	patrula	patrulam patrulat patrulate patrulată patrulau patrulați patrulează patrulez patruleze patrulezi patrulând patrulăm
+70	8270	miza	mizam mizat mizați mizează mizez mizeze mizezi mizând mizăm
+71	8271	lovire	lovirea loviri lovirii
+72	8272	abonat	abonatul abonatului abonată abonați abonații abonaților
+73	8273	serafim	serafimi serafimii
+74	8274	proximitate	proximitatea
+75	8275	mititel	mititei mititeii mititeilor mititele mititelul mititelule mititelului mititica mititico mititică
+76	8276	mediere	medierea
+77	8277	filologie	
+78	8278	plesni	plesnea plesnească plesnesc plesnește plesnești plesnim plesnind plesnit pleznesc plezni
+79	8279	masonic	masonica masonice masonică
+80	8280	biodiversitate	biodiversitatea biodiversității
+81	8281	stereo	
+82	8282	substrat	substratul
+83	8283	lesă	lesa lese lesei
+84	8284	încoronare	încoronarea încoronării
+85	8285	fleac	fleacul fleacuri fleacurile flecușteț flecuștețe
+86	8286	aplicabil	aplicabile aplicabilă
+87	8287	oponent	oponenta oponentul oponentului oponenți oponenții oponenților
+88	8288	oracol	oracole oracolele oracolul oracolule oracolului
+89	8289	îndurare	îndurarea îndurării
+90	8290	sacrificat	sacrificata sacrificate sacrificată sacrificați
+91	8291	stagiune	stagiunea stagiunii
+92	8292	agățat	agățate agățatul agățată agățați
+93	8293	recâștiga	recâștig recâștigat recâștigați recâștige recâștigi recâștigă recâștigăm
+94	8294	imperativ	imperative imperativul imperativă
+95	8295	tentant	tentanta tentante tentantă
+96	8296	îngreuna	îngreunat îngreunate îngreunată îngreunați îngreunează îngreunez îngreuneze îngreunezi îngreunăm
+97	8297	cineast	cineastul cineaști cineaștii cineaștilor
+98	8298	modestie	modestia modestiei
+99	8299	mirositor	mirositoare mirositori mirositorul
+100	8300	duritate	duritatea durități

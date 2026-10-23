@@ -1,0 +1,100 @@
+1	5101	suporter	suporteri suporterii suporterilor suporterul
+2	5102	avenue	
+3	5103	pelerinaj	pelerinaje pelerinajul pelerinajului
+4	5104	renovare	renovarea renovări renovării renovările
+5	5105	calculat	calculata calculate calculată calculați
+6	5106	accentuat	accentuata accentuate accentuată
+7	5107	înmatriculare	înmatricularea înmatriculări
+8	5108	găuri	găurească găuresc găurește găurești găurii găurim găurit găurite găurită găuriți
+9	5109	insuficient	insuficienta insuficiente insuficientei insuficientă insuficienți
+10	5110	benefic	benefica benefice benefici beneficii benefică
+11	5111	samurai	samuraii samurailor samuraiul samuraiule samuraiului
+12	5112	var	varul varule varului
+13	5113	însoțitor	însoțitoare însoțitoarea însoțitoarei însoțitoarele însoțitoarelor însoțitori însoțitorii însoțitorilor însoțitorul însoțitorului
+14	5114	revanșa	revanșat revanșați revanșează revanșei revanșez revanșeze revanșezi revanșă revanșăm
+15	5115	difuza	difuzam difuzat difuzau difuzați difuzează difuzez difuzeze difuzezi difuză difuzăm
+16	5116	dacic	dacica dacice dacică
+17	5117	jurnalism	jurnalismul jurnalismului
+18	5118	sudic	sudica sudice sudici sudică
+19	5119	pasiv	pasiva pasive pasivi pasivul pasivă
+20	5120	postură	postura posturi
+21	5121	dealer	dealeri dealerii dealerilor dealerul dealerului
+22	5122	infarct	infarcte infarctul infarctului
+23	5123	porunci	poruncească poruncesc poruncește poruncești poruncii poruncim poruncit porunciți
+24	5124	vagin	vagine vaginele vaginelor vaginul vaginule vaginului vaginuri vaginurile
+25	5125	fior	fiori fiorii fiorul
+26	5126	saudit	saudita saudite saudită saudiți saudiții
+27	5127	malefic	malefica malefice maleficei malefici maleficul maleficului malefică
+28	5128	verticală	verticala verticale
+29	5129	caracterizat	caracterizate caracterizată caracterizați
+30	5130	spargere	spargerea spargeri spargerii spargerile spargerilor
+31	5131	municipalitate	municipalitatea municipalității
+32	5132	dinamică	dinamica dinamici dinamicii
+33	5133	escroc	escroaca escroace escroacă escroci escrocii escrocilor escrocul escrocule escrocului
+34	5134	temere	temerea temeri temerii temerile temerilor
+35	5135	slav	slava slave slavei slavi slavii slavilor
+36	5136	cent	centul cenți
+37	5137	norvegian	norvegiana norvegianul norvegiană norvegiene norvegieni norvegienii
+38	5138	generic	generice genericul genericului generică
+39	5139	faimă	faima faimei
+40	5140	domestic	domestica domestice domestici domestică
+41	5141	respectare	respectarea respectării
+42	5142	editare	editarea editării
+43	5143	but	
+44	5144	putință	putința
+45	5145	utilaj	utilaje utilajele utilajelor utilajul
+46	5146	stoic	stoica
+47	5147	dulciuri	
+48	5148	porter	
+49	5149	timbru	timbre timbrele timbrelor timbrul timbrului
+50	5150	nespus	nespusa nespuse nespusă
+51	5151	neoficial	neoficiala neoficiale neoficiali neoficială
+52	5152	dinastie	dinastia dinastiei dinastii dinastiile
+53	5153	prezentator	prezentatoare prezentatoarea prezentatori prezentatorii prezentatorul prezentatorului
+54	5154	henri	
+55	5155	magistrat	magistratul magistratule magistratului magistrați magistrații magistraților
+56	5156	subordine	subordinea
+57	5157	umfla	umflam umflase umflat umflau umflați umfle umfli umflu umflând umflându umflă umflăm
+58	5158	livadă	livada livezi livezii livezile
+59	5159	fast	fastul
+60	5160	filozofic	filosofic filosofice filozofica filozofice filozofică
+61	5161	reieși	reiasă reies reiese reieșea reieșit
+62	5162	spic	spice spicele tic ticul ticuri ticurile
+63	5163	catastrofă	catastrofa catastrofe catastrofei catastrofele catastrofelor
+64	5164	angajare	angajarea angajări angajării angajările angajărilor
+65	5165	telecomandă	telecomanda telecomandat telecomandate telecomenzi telecomenzii telecomenzile
+66	5166	coborâre	coborârea coborâri coborârii pogorârea
+67	5167	logo	logoul
+68	5168	belgian	belgiana belgianul belgiană belgiene belgieni belgienii belgienilor
+69	5169	borcan	borcane borcanele borcanul borcanului borcănel
+70	5170	șosetă	șoseta șosete șosetele șosetelor
+71	5171	coral	corale corali coralii coralilor coralul coralului corală
+72	5172	tir	tirul tirului tiruri tirurile
+73	5173	carton	cartoane cartoanele cartonaș cartonașe cartonașele cartonașul cartonul
+74	5174	confort	confortul confortului
+75	5175	seta	setam setat setați setează setez setezi setăm
+76	5176	gangster	gangsteri gangsterii gangsterilor gangsterul gangsterule gangsterului
+77	5177	pârâu	pâraie pâraiele pârâiaș pârâul pârâului pârâuri pârâurile
+78	5178	propoziție	propoziția propoziției propoziții propozițiile propozițiilor
+79	5179	conac	conace conacele conacul conacului
+80	5180	păstor	păstorel păstori păstorii păstorilor păstorit păstorul păstorule păstorului
+81	5181	nostim	nostima nostime nostimi nostimă
+82	5182	înrola	înrolat înrolată înrolați înrolează înrolez înroleze înrolezi înrolăm
+83	5183	lanternă	lanterna lanterne lanternei lanternele lanternelor
+84	5184	audiție	audiția audiției audiții audițiile audițiilor
+85	5185	simpatie	simpatia simpatiei simpatii simpatiile
+86	5186	artilerie	artileria artileriei
+87	5187	sponsor	sponsori sponsorii sponsorilor sponsorul sponsorului
+88	5188	legist	legista legistul legistului legistă legiști legiștii legiștilor
+89	5189	concomitent	concomitentă
+90	5190	îngrijit	îngrijita îngrijite îngrijitul îngrijită îngrijiți
+91	5191	glandă	glanda glande glandei glandele glandelor
+92	5192	poluare	poluarea poluării
+93	5193	sutien	sutiene sutienele sutienelor sutienul sutienului
+94	5194	grajd	grajdul grajdului grajduri grajdurile grajdurilor
+95	5195	înviere	învierea învieri învierii
+96	5196	încărcare	încărcarea încărcări încărcării
+97	5197	adormit	adormita adormite adormitul adormită adormiți adormiții
+98	5198	leșina	leșinam leșinase leșinasem leșinat leșinau leșinați leșine leșini leșinând leșină leșinăm
+99	5199	osos	osoasa osoase osoasă osoși
+100	5200	dirijor	dirijori dirijorii dirijorul dirijorului

@@ -1,0 +1,100 @@
+1	4601	logodnă	logodna logodne logodnei logodnele
+2	4602	politicos	politicoasa politicoase politicoasă politicoși
+3	4603	baftă	bafta
+4	4604	petrolier	petroliera petroliere petrolierele petrolierul petrolieră
+5	4605	link	linkul linkuri
+6	4606	domnitor	domnitori domnitorii domnitorul domnitorului
+7	4607	dedesubt	dedesubtul dedesubturi dedesubturile
+8	4608	gram	grame gramul
+9	4609	contrast	contraste contrastele contrastelor contrastul
+10	4610	monitoriza	monitorizam monitorizat monitorizata monitorizate monitorizată monitorizau monitorizați monitorizează monitorizez monitorizezi monitorizând monitorizăm
+11	4611	temporal	temporala temporale temporali temporală
+12	4612	citire	citirea citiri citirii citirile
+13	4613	ierarhie	ierarhia ierarhiei ierarhii ierarhiile
+14	4614	comod	comoda comode comodei comodă comozi
+15	4615	contesta	contest contestam contestat contestați conteste contestă contestăm contești
+16	4616	mlaștină	mlaștina mlaștini mlaștinii mlaștinile mlaștinilor
+17	4617	protagonist	protagonista protagonistul protagonistului protagonistă protagoniști protagoniștii
+18	4618	concurență	concurența concurenței
+19	4619	cascadă	cascada cascade cascadei cascadele cascadelor
+20	4620	holba	holbai holbam holbat holbatul holbau holbați holbează holbez holbeze holbezi holbându holbăm
+21	4621	actualizat	actualizata actualizate actualizată
+22	4622	expediție	expediția expediției expediții expedițiile
+23	4623	estetică	estetica estetice
+24	4624	abate	abat abatele abatelui abatem abateți abată abați abații abătut abătută abătuți
+25	4625	rufă	rufe rufele rufelor rufo
+26	4626	pervers	perversa perverse perversul perversului perversă perverși perverșii perverșilor
+27	4627	gestiona	gestionam gestionat gestionate gestionată gestionați gestionează gestionez gestioneze gestionezi gestionăm
+28	4628	diferi	difere diferiți diferă
+29	4629	catedră	catedra catedre catedrei
+30	4630	tutun	tutunul tutunului
+31	4631	sondă	sonda sonde sondei sondele sondelor
+32	4632	drapel	drapele drapelele drapelul drapelului
+33	4633	advers	adversa adverse adversă
+34	4634	motel	motelul motelului moteluri motelurile motelurilor
+35	4635	finalizare	finalizarea finalizării
+36	4636	țestoasă	țestoasa țestoase țestoasei țestoasele țestoaselor
+37	4637	patrulă	patrula patrule patrulei patrulele patrulelor
+38	4638	dărâma	dărâm dărâmam dărâmat dărâmați dărâme dărâmi dărâmând dărâmă dărâmăm dărîmat
+39	4639	vulpe	vulpea vulpi vulpii vulpile vulpilor
+40	4640	bandit	banditul banditule banditului bandiți bandiții bandiților
+41	4641	tupeu	tupeul
+42	4642	contesă	contesa contese contesei
+43	4643	prestigiu	prestigiul prestigiului
+44	4644	ajun	ajunul ajunului
+45	4645	indic	indica indicele indici indicii indică
+46	4646	locaș	locașul locașuri lăcaș lăcașul lăcașului lăcașuri lăcașurile
+47	4647	celebra	celebram celebrat celebrata celebrate celebrată celebrau celebrați celebrează celebrez celebreze celebrezi celebrând celebră celebrăm
+48	4648	forestier	forestiere forestieră
+49	4649	divertisment	divertismentul divertismentului
+50	4650	inocent	inocenta inocente inocentei inocentul inocentă inocenți inocenții inocenților
+51	4651	uniform	uniforma uniforme uniformei uniformele uniformelor
+52	4652	semnala	semnalat semnalate semnalată semnalați semnalează semnalez semnaleze semnalezi semnalăm
+53	4653	înflori	înflorea înflorească înfloreau înfloresc înflorește înflorești înflorim înflorind înflorit înfloriți
+54	4654	teroristă	terorista teroriste
+55	4655	îndrumare	îndrumarea îndrumări îndrumării îndrumările
+56	4656	prelungit	prelungita prelungite prelungită prelungiți
+57	4657	surprindere	surprinderea
+58	4658	întemeiat	întemeiate întemeiată întemeiați
+59	4659	pipi	pipiul
+60	4660	strângere	strângerea strângeri strângerii strângerile strângerilor
+61	4661	aviație	aviația aviației
+62	4662	mătase	mătasea mătăsii mătăsuri mătăsurile
+63	4663	singurătate	singurătatea singurătății
+64	4664	lovit	lovite lovitul lovită
+65	4665	entuziasm	entuziasmul entuziasmului
+66	4666	înșiși	însele însuși însăși
+67	4667	întrerupt	întrerupta întrerupte întreruptă întrerupți
+68	4668	teafăr	teafără tefere teferi
+69	4669	paroh	parohii parohul parohului
+70	4670	examinare	examinarea examinări examinării examinările
+71	4671	singuratic	singuratec singuratica singuratice singuratici singuraticii singuraticul singuraticului singuratică
+72	4672	ironic	ironica ironice ironici ironică
+73	4673	acționar	acționari acționarii acționarilor acționarul
+74	4674	climat	climate climatele climatul climatului
+75	4675	triplu	tripla triple triplei triplul triplă
+76	4676	implicit	implicita implicite implicită
+77	4677	intact	intacta intacte intactă intacți
+78	4678	îndrăzneț	îndrăzneața îndrăzneață îndrăznețe îndrăzneți îndrăznețul
+79	4679	vol	
+80	4680	pretutindeni	
+81	4681	completat	completata completate completată completați
+82	4682	grosime	grosimea grosimi
+83	4683	verișoară	verișoara verișoare verișoarei verișoarele
+84	4684	pronunțat	pronunțate pronunțată pronunțați
+85	4685	ingredient	ingrediente ingredientele ingredientelor ingredientul
+86	4686	terasă	terase terasei terasele
+87	4687	unitar	unitare unitară
+88	4688	respectat	respectata respectate respectatul respectată respectați
+89	4689	facilita	facilitat facilitați facilitaților facilitează facilitez faciliteze facilitezi facilitând facilităm
+90	4690	reproducere	reproducerea reproduceri reproducerii reproducerile
+91	4691	dinamic	dinamica dinamice dinamici dinamicii
+92	4692	ambiție	ambiția ambiției ambiții ambițiile ambițiilor
+93	4693	îngrozit	îngrozita îngrozite îngrozită îngroziți
+94	4694	balcon	balcoane balcoanele balconul balconului
+95	4695	adorabil	adorabila adorabile adorabili adorabilul adorabilă
+96	4696	miză	miza mize mizei mizele
+97	4697	mercur	mercurul mercurului
+98	4698	negustor	negustori negustorii negustorilor negustorul negustorule negustorului neguțător neguțători neguțătorul
+99	4699	exil	exilul exilului
+100	4700	proiecta	proiectam proiectat proiectau proiectați proiectează proiectez proiecteze proiectezi proiectând proiectăm

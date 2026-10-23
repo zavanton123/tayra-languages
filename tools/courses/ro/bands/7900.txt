@@ -1,0 +1,100 @@
+1	7801	arcaș	arcași arcașii arcașilor arcașul arcașule arcașului
+2	7802	alias	
+3	7803	instrucție	instrucția instrucției instrucții
+4	7804	agrar	agrare agrară
+5	7805	cooperativă	cooperativa cooperative cooperativei cooperativele
+6	7806	eșantion	eșantioane eșantioanele eșantionul
+7	7807	stângaci	stângace stângacii stângaciul stângaciule
+8	7808	tipografie	tipografia tipografii
+9	7809	regent	regenta regentei regentul regentule regentului regentă regenți regenții regenților
+10	7810	protopop	protopopul
+11	7811	yen	yeni yenul
+12	7812	fotografiere	fotografierea fotografierii
+13	7813	miniatură	miniatura miniaturi miniaturile
+14	7814	consultare	consultarea consultări
+15	7815	trimestru	trimestre trimestrul trimestrului
+16	7816	vietnamez	vietnameza vietnameze vietnamezi vietnamezii vietnamezilor vietnameză
+17	7817	căutător	căutătoare căutători căutătorii căutătorilor căutătorul căutătorule căutătorului
+18	7818	astmă	astm astma astmul astmului
+19	7819	lambert	
+20	7820	însuma	însumat însumează însumând
+21	7821	intervieva	intervievam intervievat intervievați intervievează intervievez intervieveze intervievezi intervievând intervievăm
+22	7822	zicală	zicala zicale zicalele
+23	7823	crăpătură	crăpătura crăpături crăpăturile
+24	7824	dumbravă	dumbrava
+25	7825	cronometru	cronometre cronometrele cronometrul cronometrului
+26	7826	reflector	reflectoare reflectoarele reflectoarelor reflectorul reflectorului
+27	7827	pion	pioni pionii pionul
+28	7828	inexistent	inexistenta inexistente inexistentul inexistentă inexistenți
+29	7829	aminoacid	aminoacizi aminoacizii aminoacizilor
+30	7830	nan	nani
+31	7831	nădejde	nădejdea
+32	7832	contaminare	contaminarea contaminări contaminării
+33	7833	broker	brokeri brokerii brokerilor brokerul brokerului
+34	7834	tocat	tocata tocate tocată tocați
+35	7835	clasare	clasarea
+36	7836	practicant	practicanta practicantă practicanți practicanții
+37	7837	marcant	marcante marcantă
+38	7838	charleston	
+39	7839	colonist	coloniști coloniștii coloniștilor
+40	7840	desktop	
+41	7841	nimeri	nimerea nimereai nimeream nimerească nimeresc nimerește nimerești nimerim nimeriți
+42	7842	plug	plugul plugului pluguri plugurile
+43	7843	tonic	tonica tonice tonicul tonică
+44	7844	educare	educarea educării
+45	7845	scândură	scândura scânduri scândurile
+46	7846	concediere	concedierea concedieri concedierii concedierile concedierilor
+47	7847	baladă	balada balade baladele
+48	7848	obște	obștea obștii
+49	7849	sumar	sumare sumarul sumară
+50	7850	invidios	invidioasa invidioase invidioasă invidioși
+51	7851	isteric	isterica isterice isterici isterică
+52	7852	movilă	movila movile movilei movilele
+53	7853	salam	salamul salamului salamuri
+54	7854	siglă	sigla sigle
+55	7855	scenic	scenice scenică
+56	7856	spaimă	spaima spaime spaimei spaimele
+57	7857	hu	
+58	7858	hepatită	hepatita hepatitei
+59	7859	pastorală	pastorala pastorale
+60	7860	înțepenit	înțepenite înțepenită înțepeniți
+61	7861	tătar	tătari tătarii
+62	7862	bacterian	bacteriana bacteriană bacteriene
+63	7863	bibliotecar	bibliotecara bibliotecare bibliotecari bibliotecarii bibliotecarilor bibliotecarul bibliotecarului bibliotecară
+64	7864	decădere	decăderea decăderii
+65	7865	gabor	gabori gaborii gaborilor gaborul
+66	7866	toracic	toracica toracice toracică
+67	7867	imoral	imorala imorale imorali imorală
+68	7868	pub	pubul puburi
+69	7869	arbitrar	arbitrare arbitrară
+70	7870	nimici	nimicească nimicesc nimicește nimicești nimicim nimicit nimicite nimicită nimiciți
+71	7871	văduv	văduva văduve văduvei văduvele văduvelor văduvi văduvul
+72	7872	verighetă	verigheta verighete verighetei verighetele
+73	7873	macara	macarale macaralei macaralele macaraua
+74	7874	apocaliptic	apocaliptice apocaliptici apocaliptică
+75	7875	numărat	numărate număratul numărați
+76	7876	buc	buci
+77	7877	ambarcație	ambarcațiune ambarcațiuni
+78	7878	jar	jarul
+79	7879	încarcera	încarcerat încarcerate încarcerată încarcerați
+80	7880	logistic	logistica logistice
+81	7881	monah	monahi monahii monahul
+82	7882	bodyguard	bodyguardul bodyguarzi bodyguarzii
+83	7883	breaslă	breasla bresle breslei breslele
+84	7884	prezida	prezidat prezidată prezidați prezidează prezidez prezideze
+85	7885	virgulă	virgula virgule virgulele
+86	7886	ierarhic	ierarhica ierarhice ierarhică
+87	7887	conceptual	conceptuale conceptuală
+88	7888	onorific	onorifici onorifică
+89	7889	pasare	pasarea pasări
+90	7890	muntos	muntoase muntoasă
+91	7891	bas	basul basului
+92	7892	liceal	liceale liceală
+93	7893	brichetă	bricheta brichete brichetei brichetele
+94	7894	învelit	învelite învelită înveliți
+95	7895	lacăt	lacăte lacătele lacătul lacătului
+96	7896	sindical	sindicale sindicali sindicală
+97	7897	militant	militante militantă militanți militanții militanților
+98	7898	îndrăzneală	îndrăzneala
+99	7899	lichidare	lichidarea lichidări
+100	7900	ocrotire	ocrotirea ocrotirii

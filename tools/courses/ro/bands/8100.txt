@@ -1,0 +1,100 @@
+1	8001	incendiat	incendiata incendiate incendiată incendiați
+2	8002	insinua	insinuam insinuat insinuați insinuează insinuez insinueze insinuezi insinuând
+3	8003	nefolositor	nefolositoare nefolositori
+4	8004	revolver	revolvere revolverele revolverul
+5	8005	liză	liza lize lizei
+6	8006	jigodie	jigodii
+7	8007	răsturnat	răsturnate răsturnată răsturnați
+8	8008	neglijență	neglijența neglijențe neglijenței
+9	8009	camelie	camelia camelii cameliile
+10	8010	superstiție	superstiția superstiției superstiții superstițiile superstițiilor
+11	8011	perfuzie	perfuzia perfuziei perfuzii perfuziile
+12	8012	weber	
+13	8013	glonte	glontele glontelui
+14	8014	corelat	corelate corelată corelații
+15	8015	atașament	atașamente atașamentele atașamentul
+16	8016	rablă	rabla rable rablele
+17	8017	dialect	dialecte dialectele dialectul
+18	8018	drumeție	drumeția drumeții drumețiile
+19	8019	televiza	televizat televizate
+20	8020	bilingv	bilingve bilingvă
+21	8021	paramedic	paramedici paramedicii paramedicilor paramedicul paramedicului
+22	8022	colet	colete coletele coletul coletului
+23	8023	scrupul	scrupule scrupulele
+24	8024	cupolă	cupola cupole cupolei cupolele
+25	8025	parental	parentala parentale parentală
+26	8026	confiscare	confiscarea confiscări confiscării confiscările
+27	8027	invadat	invadata invadate invadată invadați
+28	8028	drăcie	drăcia drăcii drăciile
+29	8029	mahala	mahalale mahalalei mahalalele mahalalelor mahalaua
+30	8030	joker	jokeri jokerii jokerul
+31	8031	indispensabil	indispensabila indispensabile indispensabili indispensabilii indispensabilă
+32	8032	pudră	pudre pudrei
+33	8033	vicios	vicioasa vicioase vicioasă viciosul vicioși
+34	8034	incursiune	incursiunea incursiuni incursiunii incursiunile
+35	8035	staff	stafful staffului
+36	8036	list	
+37	8037	must	
+38	8038	insomnie	insomnia insomniei insomnii insomniile
+39	8039	bau	
+40	8040	compensație	compensația compensației compensații compensațiile
+41	8041	degradat	degradata degradate degradată degradați
+42	8042	criptă	cripta cripte criptei criptele criptelor cripto
+43	8043	fuck	
+44	8044	exterminare	exterminarea exterminări exterminării
+45	8045	hipnoză	hipnoza hipnozei
+46	8046	greoi	greoaie
+47	8047	certat	certata certate certată certați
+48	8048	argilă	argila argilei
+49	8049	paranoia	paranoie paranoiei
+50	8050	cârciumă	crâșme crâșmă cârciuma cârciumi cârciumii cârciumile cârciumioară
+51	8051	gastric	gastrice gastrică
+52	8052	maioneză	maioneza
+53	8053	polemică	polemica polemici
+54	8054	inflamație	inflamația inflamației inflamații inflamațiile
+55	8055	ghetou	gheto ghetoul ghetoului ghetouri ghetourile
+56	8056	substantiv	substantive substantivele substantivul
+57	8057	concordie	concordia
+58	8058	ursuleț	ursuleți ursuleții ursulețul ursulețule ursulețului
+59	8059	abis	abisul abisului abisuri abisurile
+60	8060	neguvernamental	neguvernamentale neguvernamentală
+61	8061	oltean	olteni
+62	8062	grotă	grota grote grotei grotele grotelor
+63	8063	eșalon	eșaloanele eșalonul
+64	8064	panteră	pantera pantere panterei panterele panterelor
+65	8065	eleganță	eleganța eleganței
+66	8066	amenda	amendat amendată amendați amendează amendez amendeze amendezi
+67	8067	pompa	pompam pompat pompate pompată pompați pompează pompez pompeze pompezi pompând pompăm
+68	8068	neobservat	neobservata neobservate neobservată neobservați
+69	8069	maxilar	maxilare maxilarele maxilarul maxilarului
+70	8070	inadecvat	inadecvata inadecvate inadecvată
+71	8071	sobă	soba sobe sobei sobele
+72	8072	recoltare	recoltarea recoltării
+73	8073	comutator	comutatoare comutatoarele comutatorul comutatorului
+74	8074	sangvin	sanguin sangvine sangvină
+75	8075	maistru	maistrul maistrului
+76	8076	afișare	afișarea
+77	8077	ger	gerul gerului
+78	8078	oțet	oțetul
+79	8079	scorpie	scorpia scorpiei scorpii scorpiile scorpiilor scorpio
+80	8080	parizian	pariziana parizianul pariziană pariziene parizieni parizienii
+81	8081	jacuzzi	
+82	8082	infraroșu	infraroșie infraroșii infraroșiile infraroșul
+83	8083	sanatoriu	sanatorii sanatoriul sanatoriului
+84	8084	alunecos	alunecoasa alunecoase alunecoasă alunecosul alunecoși
+85	8085	oficialitate	oficialități oficialitățile oficialităților
+86	8086	presărat	presărate presărată
+87	8087	adeziv	adeziva adezive adezivi adezivul adezivă
+88	8088	masturbare	masturbarea masturbări masturbării
+89	8089	porțelan	porțelanul porțelanuri porțelanurile
+90	8090	dudă	duda dude
+91	8091	timișorean	timișorene timișoreni
+92	8092	stilat	stilata stilate stilată stilați
+93	8093	scurtmetraj	scurtmetraje scurtmetrajul
+94	8094	atletic	atletica atletice atletici atletico atletică
+95	8095	amfiteatru	amfiteatre amfiteatrul
+96	8096	uzură	uzura
+97	8097	pomenire	pomenirea
+98	8098	frecare	frecarea frecări frecării
+99	8099	aerisire	aerisirea aerisiri aerisirile
+100	8100	precizare	precizarea precizări

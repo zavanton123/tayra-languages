@@ -1,0 +1,100 @@
+1	4901	felie	felia felii feliile feliuțe feliuță
+2	4902	silvie	silvia silviei silvio
+3	4903	renume	renumele renumelui
+4	4904	farsă	farsa farse farsei farsele farselor
+5	4905	votat	votata votate votatul votată votați
+6	4906	demers	demersul demersului demersuri demersurile demersurilor
+7	4907	filtru	filtre filtrele filtrelor filtrul filtrului
+8	4908	curcan	curcani curcanii curcanilor curcanul curcanule curcanului
+9	4909	obiecție	obiecția obiecției obiecții obiecțiile obiecțiilor obiecțiune obiecțiunea obiecțiuni
+10	4910	abur	aburi aburii aburul aburului
+11	4911	folosință	folosința
+12	4912	textil	textila textile textilele textilelor textilă
+13	4913	cinematografic	cinematografica cinematografice cinematografică
+14	4914	pluton	plutoane plutoanele plutonul plutonului
+15	4915	bancher	bancheri bancherii bancherilor bancherul bancherule bancherului
+16	4916	predică	predica predici predicii predicile predicilor
+17	4917	concentrație	concentrația concentrației concentrații concentrațiile
+18	4918	gazetă	gazeta gazetei
+19	4919	amănunt	amănunte amănuntele amănuntul
+20	4920	nepoliticos	nepoliticoasa nepoliticoase nepoliticoasă nepoliticoși
+21	4921	ardelean	ardeleană ardelene ardeleni ardelenii
+22	4922	recolta	recoltam recoltat recoltate recoltatul recoltată recoltați recoltează recoltez recolteze recoltezi recoltând recoltăm
+23	4923	saltea	salteaua saltele saltelei saltelele saltelelor
+24	4924	nenorocire	nenorocirea nenorociri nenorocirii nenorocirile nenorocirilor
+25	4925	învingător	învingătoare învingătoarea învingători învingătorii învingătorilor învingătorul învingătorului
+26	4926	altădată	
+27	4927	studențesc	studențeasca studențească studențești
+28	4928	înfățișare	înfățișarea înfățișări înfățișării înfățișările
+29	4929	lingură	lingura linguri lingurii lingurile
+30	4930	șmecher	smecher șmechera șmechere șmecheri șmecherii șmecherilor șmecherul șmecherule șmecheră
+31	4931	ținti	țintea ținteai ținteam țintească ținteau țintesc țintește țintești țintim țintind țintisem țintit țintiți
+32	4932	exces	excese excesele exceselor excesul excesului
+33	4933	păși	pășea pășeam pășește pășești pășim pășind pășit pășiți
+34	4934	heroină	heroina heroinei
+35	4935	economisi	economisea economiseam economisească economisesc economisește economisești economisim economisind economisit economisiți
+36	4936	teatral	teatrala teatrale teatrali teatrală
+37	4937	bucureștean	bucureșteană bucureștene bucureșteni
+38	4938	palid	palida palide palidul palidă palizi
+39	4939	mariaj	mariaje mariajele mariajelor mariajul mariajului
+40	4940	dulceață	dulceața dulceațo dulcețuri
+41	4941	finaliza	finalizam finalizat finalizați finalizează finalizez finalizeze finalizezi finalizăm
+42	4942	suspendare	suspendarea suspendări suspendării
+43	4943	musafir	musafira musafiri musafirii musafirilor musafirul musafirului musafiră
+44	4944	planifica	planific planificam planificase planificasem planificat planificau planificați planifice planifici planificând planifică planificăm
+45	4945	dominant	dominanta dominante dominantul dominantă dominanți
+46	4946	tehnician	tehniciana tehnicianul tehnicianului tehniciană tehnicieni tehnicienii tehnicienilor
+47	4947	gustos	gustoasa gustoase gustoasă gustoși
+48	4948	pulmonar	pulmonara pulmonare pulmonară
+49	4949	utilitate	utilitatea utilități utilității utilitățile utilităților
+50	4950	înfuria	înfuriam înfuriat înfuriați înfurie înfuriem înfurii
+51	4951	favoriza	favorizat favorizați favorizează favorizez favorizeze favorizezi favorizând
+52	4952	răspândire	răspândirea răspândirii
+53	4953	instabil	instabila instabile instabili instabilă
+54	4954	străvechi	străveche străvechea străvechii străvechile străvechiul
+55	4955	alergic	alergica alergice alergici alergică
+56	4956	sire	
+57	4957	integra	integram integrat integrați integrează integrez integreze integrezi integră integrăm
+58	4958	zombi	zombii zombilor zombiul
+59	4959	zdrobi	zdrobea zdrobeam zdrobească zdrobeau zdrobesc zdrobește zdrobești zdrobim zdrobind zdrobindu zdrobit zdrobiți
+60	4960	cumpărare	cumpărarea cumpărări cumpărării
+61	4961	gumă	guma gumat gumate gumați gume gumei gumele
+62	4962	mire	mirel mirele mirelui miri mirii mirilor
+63	4963	psihopat	psihopatul psihopatule psihopatului psihopată psihopați psihopații psihopaților
+64	4964	parazit	parazite parazitul parazitule parazitului parazită paraziți paraziții paraziților
+65	4965	recăpăta	recapete recapeți recapăt recapătă recăpătam recăpătat recăpătați recăpătă recăpătăm
+66	4966	ladă	lada lado lădița lădiță lăzi lăzii lăzile lăzilor
+67	4967	australian	australiana australianca australiancă australianul australiană australiene australieni australienii australienilor
+68	4968	țâță	țâț țâța țâțe țâțele țâțelor
+69	4969	erotic	erotica erotice erotică
+70	4970	rezervație	rezervația rezervației rezervații rezervațiile
+71	4971	desprinde	desprind desprindea desprindem desprindeți desprindă desprins desprinse desprinzi
+72	4972	filă	fila filat filate filați file filele filo
+73	4973	glas	glasul glasului glasuri glasurile
+74	4974	logodnic	logodnici logodnicii logodnicul logodnicului
+75	4975	doisprezece	doisprezecelea doișpe douăsprezece douăsprezecea
+76	4976	transmisie	transmisii
+77	4977	triunghi	triunghiul triunghiului triunghiuri triunghiurile
+78	4978	climă	clima climei
+79	4979	calciu	calciul calciului
+80	4980	peninsulă	peninsula peninsulei
+81	4981	evacuat	evacuata evacuate evacuată evacuați evacuații
+82	4982	îndeosebi	
+83	4983	mesager	mesagera mesageri mesagerii mesagerilor mesagerul mesagerule mesagerului
+84	4984	instruire	instruirea instruirii
+85	4985	îngropat	îngropate îngropatul îngropată
+86	4986	plută	pluta plute plutei plutele pluto
+87	4987	țipăt	țipete țipetele țipetelor țipătul
+88	4988	încăpățânat	încăpățânata încăpățânate încăpățânatul încăpățânată încăpățânați
+89	4989	retur	returul retururi
+90	4990	bizantin	bizantine bizantini bizantinii bizantină
+91	4991	mitralieră	mitraliera mitraliere mitralierei mitralierele mitralierelor
+92	4992	superman	
+93	4993	dezlega	dezleagă dezleg dezlegam dezlegat dezlegați dezlege dezlegi dezlegând dezlegăm
+94	4994	facial	faciala faciale faciali facială
+95	4995	înrăutăți	înrăutățea înrăutățească înrăutățeau înrăutățesc înrăutățește înrăutățești înrăutății înrăutățim înrăutățit înrăutățiți
+96	4996	densitate	densitatea densității
+97	4997	mașinărie	mașinăria mașinăriei mașinării mașinăriile mașinăriilor
+98	4998	duel	duelul duelului dueluri duelurile
+99	4999	prefectură	prefectura prefecturii
+100	5000	bumbac	bumbacul bumbacului

@@ -1,0 +1,100 @@
+1	4701	călin	
+2	4702	stocare	stocarea
+3	4703	curier	curieri curierii curierilor curierul curierule curierului
+4	4704	sufragerie	sufrageria sufrageriei sufragerii sufrageriile
+5	4705	înălța	înalț înalțe înalți înalță înălțat înălțau înălțați înălțând înălțându înălță înălțăm
+6	4706	slujitor	slujitoare slujitoarea slujitoarei slujitoarele slujitori slujitorii slujitorilor slujitorul slujitorului
+7	4707	prezice	prezic prezicea prezicem preziceți prezici prezicând prezică prezis prezise prezisese
+8	4708	situa	situați situează situez situeze situezi situându situăm
+9	4709	reorganizare	reorganizarea reorganizării
+10	4710	otoman	otomane otomani otomanii otomanilor otomană
+11	4711	casnic	casnica casnice casnicele casnicelor casnici casnicii casnică
+12	4712	escortă	escorta escorte escortei escortele
+13	4713	săpun	săpunul săpunului săpunuri săpunurile
+14	4714	amploare	amploarea
+15	4715	consiliere	consilierea consilieri consilierii consilierilor
+16	4716	îmbunătățit	îmbunătățita îmbunătățite îmbunătățitul îmbunătățită îmbunătățiți
+17	4717	poruncă	porunca porunci poruncii poruncile poruncilor
+18	4718	import	importul importului importuri importurile importurilor
+19	4719	mânecă	mâneca mâneci mânecii mânecile
+20	4720	absorbi	absoarbe absoarbă absorb absorbea absorbim absorbind absorbit absorbiți
+21	4721	instant	instanta instante instantei instantele instantă
+22	4722	butoi	butoaie butoaiele butoaielor butoiaș butoiul butoiului
+23	4723	lămâie	lămâi lămâia lămâii lămâile lămâilor lămâiul lămâiță
+24	4724	măsurare	măsurarea
+25	4725	artificiu	artificii artificiile artificiilor
+26	4726	onorabil	onorabila onorabile onorabilei onorabili onorabilii onorabililor onorabilul onorabilului onorabilă
+27	4727	hibrid	hibrida hibride hibridul hibridului hibridă hibrizi hibrizii hibrizilor
+28	4728	invada	invadam invadase invadat invadau invadați invadează invadez invadeze invadezi invadând invadăm
+29	4729	pavilion	pavilioane pavilioanele pavilionul pavilionului
+30	4730	renaștere	renașterea renașteri renașterii
+31	4731	solo	soloul solouri
+32	4732	popularitate	popularitatea popularității
+33	4733	dânsul	dânsa dânsei dânsului dânșii
+34	4734	retras	retrasa retrase retrasă retrași
+35	4735	component	componenta componente componentei componentele componentelor componentul componenți componenții
+36	4736	cercel	cercei cerceii cerceilor cercelul
+37	4737	vioară	vioara vioare viori viorii viorile viorilor
+38	4738	jandarm	jandarmi jandarmii jandarmilor jandarmul jandarmului
+39	4739	căcat	căcatul căcatule căcatului căcați căcații căcaților
+40	4740	mărire	mărirea măriri măririi
+41	4741	parcurge	parcurg parcurgeam parcurgem parcurgeți parcurgi parcurgând parcurgă parcurs parcurse
+42	4742	cupru	cuprul cuprului
+43	4743	patetic	patetica patetice patetici pateticul patetică
+44	4744	hormon	hormoni hormonii hormonilor hormonul hormonului
+45	4745	asasinare	asasinarea asasinări asasinării asasinările
+46	4746	antibiotic	antibiotice antibioticele antibioticelor antibioticul
+47	4747	verdict	verdicte verdictele verdictul verdictului
+48	4748	intestin	intestine intestinele intestinelor intestinul intestinului
+49	4749	convenabil	convenabila convenabile convenabilă
+50	4750	refacere	refacerea refacerii
+51	4751	autorizație	autorizația autorizației autorizații autorizațiile
+52	4752	aruncare	aruncarea aruncarile aruncări aruncării aruncările aruncărilor
+53	4753	pin	pini pinii pinilor pinul pinului
+54	4754	procuratură	procuratura procuraturii
+55	4755	logodnică	logodnica logodnice logodnicei logodnicele
+56	4756	conectat	conectate conectată
+57	4757	încăpea	încap încape încapi încapă încăpeau încăpem încăput
+58	4758	compartiment	compartimente compartimentele compartimentul compartimentului
+59	4759	fugar	fugara fugare fugari fugarii fugarilor fugarul fugarului fugară
+60	4760	familial	familiala familiale familială
+61	4761	etnie	etnia etniei etnii etniile
+62	4762	cătușă	cătușa cătușe cătușele cătușelor
+63	4763	declanșat	declanșate declanșată declanșați
+64	4764	sicriu	sicrie sicriele sicrielor sicriul sicriului
+65	4765	inaugurare	inaugurarea inaugurări inaugurării
+66	4766	miel	miei mieii mieilor mielul mielului mielușel mieluț
+67	4767	nemuritor	nemuritoare nemuritoarea nemuritori nemuritorii nemuritorilor nemuritorul
+68	4768	cancelar	cancelarii cancelarul cancelarule cancelarului
+69	4769	fractură	fractura fracturi fracturii fracturile fracturilor
+70	4770	splendid	splendida splendide splendidele splendidul splendidă splendizi
+71	4771	finanțat	finanțate finanțată finanțați
+72	4772	greș	
+73	4773	lama	
+74	4774	aluminiu	aluminiul aluminiului
+75	4775	judecătoresc	judecătorească judecătorești
+76	4776	furnică	furnica furnici furnicii furnicile furnicilor
+77	4777	întâmplător	întâmplătoare
+78	4778	depunere	depunerea depuneri depunerii depunerile depunerilor
+79	4779	accelera	acceleram accelerat accelerați accelerează accelerez accelereze accelerezi accelerând accelerăm
+80	4780	mită	mita mite mitei mitele mito
+81	4781	provizoriu	provizorie provizorii
+82	4782	strămoș	strămoașa strămoși strămoșii strămoșilor strămoșul strămoșului
+83	4783	ecuație	ecuația ecuației ecuații ecuațiile ecuațiilor
+84	4784	cash	
+85	4785	biscuit	biscuite biscuitul biscuiți biscuiții biscuiților
+86	4786	protesta	protestam protestat protestau protestați protestează protestez protesteze protestezi protestând protestăm
+87	4787	liturghie	liturghia liturghiei liturghii
+88	4788	gripă	gripa gripe gripei
+89	4789	cocktail	cocktailul cocktailuri cocktailurile
+90	4790	invoca	invoc invocam invocat invocați invoce invoci invocând invocă invocăm
+91	4791	cerb	cerbi cerbii cerbilor cerbul cerbului
+92	4792	detențiune	detenția detenție detenției detenții
+93	4793	rama	ramai ramase ramat
+94	4794	camarad	camarade camaradul camaradului camarazi camarazii camarazilor
+95	4795	raid	raidul raidului raiduri raidurile raidurilor
+96	4796	reabilitare	reabilitarea reabilitării
+97	4797	altundeva	
+98	4798	distribui	distribuia distribuiam distribuiau distribuie distribuim distribuind distribuit distribuiți
+99	4799	nașpa	
+100	4800	eșuat	eșuate eșuată eșuați

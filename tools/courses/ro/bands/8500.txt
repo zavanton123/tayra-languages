@@ -1,0 +1,100 @@
+1	8401	semafor	semafoare semafoarele semafoarelor semaforul semaforului
+2	8402	comentat	comentate comentată comentați
+3	8403	punk	
+4	8404	peron	peroane peronul peronului
+5	8405	farmaceutic	farmaceutica farmaceutice farmaceutici
+6	8406	vigilent	vigilenta vigilente vigilentă vigilenți
+7	8407	evanghelist	evanghelistul evangheliști evangheliștii
+8	8408	încercui	încercuiască încercuiesc încercuiește încercuim încercuind încercuit încercuite încercuită încercuiți
+9	8409	sabotaj	sabotaje sabotajele sabotajul sabotajului
+10	8410	corectitudine	corectitudinea corectitudinii
+11	8411	apăsare	apăsarea apăsări
+12	8412	cibernetic	cibernetica cibernetice cibernetici
+13	8413	eligibil	eligibile eligibili eligibilă
+14	8414	tabelă	tabela tabele tabelei tabelele
+15	8415	fanfară	fanfara fanfare fanfarei fanfarele
+16	8416	încălzit	încălzite încălzită încălziți
+17	8417	împărătesc	împărătească împărătești
+18	8418	herb	
+19	8419	dezacord	dezacordul dezacordului dezacorduri dezacordurile
+20	8420	socoti	socot socotea socoteam socotească socotesc socotește socotești socotim socotind socotiți socoți
+21	8421	evoluat	evoluata evoluate evoluată evoluați evoluații evoluaților
+22	8422	statură	statura staturii
+23	8423	orgă	orga orgi
+24	8424	remorcă	remorca remorci remorcii remorcile
+25	8425	decență	decența decenței
+26	8426	expediat	expediate expediată expediați
+27	8427	ireversibil	ireversibila ireversibile ireversibilă
+28	8428	constatare	constatarea constatări constatările constatărilor
+29	8429	zmeură	zmeura
+30	8430	jeli	jel jelea jelească jeleau jelesc jelește jelești jelim jelind jelit jelitul jeliți
+31	8431	borș	borșul
+32	8432	lobby	
+33	8433	vizuină	vizuina vizuine vizuinei vizuinele
+34	8434	transportor	transportorul transportorului
+35	8435	nai	
+36	8436	activat	activata activată
+37	8437	districtual	districtuale districtuali districtuală
+38	8438	leșin	leșinul leșinului leșinuri leșinurile
+39	8439	călău	călăi călăii călăilor călăul călăule călăului
+40	8440	definitoriu	definitorie definitorii
+41	8441	atipic	atipice atipică
+42	8442	persecuție	persecuția persecuției persecuții persecuțiile persecuțiilor
+43	8443	analgezic	analgezice analgezicele analgezicelor analgezicul
+44	8444	gâdila	gâdil gâdilam gâdilat gâdilați gâdile gâdili gâdilă gâdilăm
+45	8445	banner	bannere bannerele bannerul
+46	8446	derulare	derularea
+47	8447	lăsare	lăsarea
+48	8448	introductiv	introductive introductivă
+49	8449	remedia	remediat remediate remediată remediază remediați remediem remediez remedieze remediezi
+50	8450	rouă	roua
+51	8451	colind	colinde colindele colindul
+52	8452	valorifica	valorific valorificat valorifice valorifici valorifică valorificăm
+53	8453	aglomerație	aglomerația aglomerației
+54	8454	vitejie	vitejia vitejiei vitejii
+55	8455	sfârc	sfârcul sfârcului sfârcuri sfârcurile sfârcurilor
+56	8456	aluat	
+57	8457	amuzament	amuzamentul amuzamentului
+58	8458	fenomenal	fenomenala fenomenale fenomenali fenomenalul fenomenală
+59	8459	progresist	progresista progresiste progresistă progresiști
+60	8460	punctual	punctuala punctuale punctuali punctuală
+61	8461	explicativ	explicative explicativă
+62	8462	regenerare	regenerarea regenerării
+63	8463	țiței	țițeiul țițeiului
+64	8464	contuzie	contuzia contuziei contuzii contuziile contuziilor
+65	8465	cucer	cuceri cucerii
+66	8466	nomad	nomade nomadă nomazi nomazii nomazilor
+67	8467	diagnosticare	diagnosticarea
+68	8468	ilustrat	ilustrata ilustrate ilustratele ilustrații
+69	8469	preistoric	preistorica preistorice preistorici preistorică
+70	8470	topire	topirea topirii
+71	8471	pipă	pipa pipe pipei pipele pipo
+72	8472	olivă	oliva olive olivo
+73	8473	șemineu	șemineul șemineului
+74	8474	alergător	alergătoare alergători alergătorii alergătorilor alergătorul alergătorului
+75	8475	irezistibil	irezistibila irezistibile irezistibili irezistibilă
+76	8476	asambla	asamblam asamblat asamblați asamblează asamblez asambleze asamblezi asamblăm
+77	8477	sabat	sabatul sabatului sabaturi sabaturile
+78	8478	recreere	recreerea
+79	8479	mentenanță	mentenanța
+80	8480	rulant	rulanta rulante rulantă
+81	8481	chică	chica chici chico
+82	8482	suspans	suspansul suspansului
+83	8483	legare	legarea
+84	8484	cazarmă	cazarma cazarme cazarmele cazărmi cazărmii cazărmile
+85	8485	unicorn	unicorni unicornii unicornilor unicornul unicornului
+86	8486	ereditar	ereditara ereditare ereditară
+87	8487	lărgi	lărgească lărgesc lărgește lărgești lărgim lărgit lărgiți
+88	8488	milos	miloasa miloase miloasă milosul miloși
+89	8489	parașuta	parașutat parașutate parașutată parașutați parașutează parașutez parașuteze parașutăm
+90	8490	neprevăzut	neprevăzute neprevăzutul neprevăzutului neprevăzută
+91	8491	silicon	silicoane siliconul
+92	8492	convertire	convertirea
+93	8493	permisie	permisia permisiei permisii permisiile
+94	8494	patronaj	patronajul
+95	8495	articulare	
+96	8496	întorsătură	întorsătura întorsături
+97	8497	iudaic	iudaica iudaice iudaică
+98	8498	stilistic	stilistice
+99	8499	studenție	studenției studenții
+100	8500	prostată	prostata prostatei

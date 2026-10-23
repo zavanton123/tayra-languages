@@ -1,0 +1,100 @@
+1	1101	preda	predai predam predat predate predată predau predați predea predând predându predă predăm
+2	1102	albastru	albastra albastre albastrele albastrul albastrului albastră albaștri albaștrii albăstrel
+3	1103	idiot	idioata idioate idioatei idioatele idioatelor idioată idiotul idiotule idiotului idioți idioții idioților
+4	1104	departament	departamente departamentele departamentelor departamentul departamentului
+5	1105	surpriză	surpriza surprize surprizei surprizele surprizelor
+6	1106	prezență	prezența prezențe prezenței
+7	1107	bloca	blocai blocam blocase blocasem blocat blocată blocau blocați blochează blochez blocheze blochezi blocând blocându blocăm
+8	1108	institut	institute institutele institutelor institutul institutului
+9	1109	propune	propui propun propunea propuneam propunem propuneți propunând propunându propună propus propuse propusese propusesem
+10	1110	ligă	liga ligi ligii ligile ligo
+11	1111	apuca	apuc apucai apucam apucase apucasem apucat apucau apucați apuce apuci apucând apucându apucă apucăm
+12	1112	imposibil	imposibila imposibile imposibili imposibilul imposibilului imposibilă
+13	1113	activ	activa active activele activelor activi activul activului activă
+14	1114	cald	calda calde caldă calzi
+15	1115	bandă	banda bande bandei bandele bandelor bando benzi benzii benzile benzilor
+16	1116	privat	privata private privată privați
+17	1117	afirma	afirm afirmam afirmat afirmau afirmați afirme afirmi afirmând afirmă afirmăm
+18	1118	aprecia	apreciam apreciat apreciau apreciază apreciați apreciează apreciem apreciez aprecieze apreciezi apreciind
+19	1119	actor	actori actorii actorilor actorul actorule actorului
+20	1120	înăuntru	năuntru înlăuntru
+21	1121	braț	brațe brațele brațelor brațul brațule brațului
+22	1122	adresă	adres adresa adrese adresei adresele adreselor
+23	1123	excepție	excepția excepții excepțiile
+24	1124	contact	contacte contactele contactelor contactul contactului
+25	1125	deasupra	
+26	1126	realitate	realitatea realități realității realitățile realităților
+27	1127	experiență	experiența experiențe experienței experiențele experiențelor
+28	1128	apropiere	apropierea apropieri apropierii
+29	1129	îndrepta	îndreaptă îndrept îndreptai îndreptam îndreptase îndreptat îndreptau îndreptați îndrepte îndreptând îndreptându îndreptă îndreptăm îndrepți
+30	1130	presă	presa prese presei presele
+31	1131	numeros	numeroasa numeroase numeroasele numeroaselor numeroasă numeroși numeroșii
+32	1132	dorință	dorința dorințe dorinței dorințele dorințelor
+33	1133	medicament	medicamente medicamentele medicamentelor medicamentul medicamentului
+34	1134	locotenent	locotenente locotenentul locotenentului locotenenți locotenenții
+35	1135	cădea	cad cade cazi cădeai cădeam cădeau cădem cădeți căzu căzuse căzusem căzuseră căzând căzînd
+36	1136	temă	tema teme temei temeiul temeiuri temeiurile temele temelor
+37	1137	plantă	planta plante plantei plantele plantelor
+38	1138	căutare	cotarea cătare cătarea căutarea căutări căutării căutările căutărilor
+39	1139	dor	dorul dorului
+40	1140	memorie	memoria memoriei memorii memoriile memoriilor
+41	1141	retrage	retrag retragem retrageți retragi retragă retras retrase retrăgea retrăgeam retrăgeau retrăgând retrăgându retrăsese
+42	1142	cunoștință	cunoștința cunoștințe cunoștinței cunoștințele cunoștințelor
+43	1143	top	topul topului topuri topurile topurilor
+44	1144	bar	bari barul barului baruri barurile barurilor
+45	1145	extern	externa externe externele externi externă
+46	1146	strânge	strâng strângea strângeai strângeam strângeau strângem strângeți strângi strângând strângându strângă strâns strânse strânsese strânsesem strîng strînge strîngînd strîns
+47	1147	ridicat	ridicata ridicate ridicatul ridicată ridicați
+48	1148	oricare	oricărei oricăreia oricăror oricărui oricăruia
+49	1149	înregistrare	înregistrarea înregistrări înregistrării înregistrările înregistrărilor
+50	1150	posibilitate	posibilitatea posibilități posibilității posibilitățile posibilităților
+51	1151	stânga	
+52	1152	munci	muncea munceai munceam muncească munceau muncesc muncește muncești muncii muncim muncind muncise muncisem muncit munciți
+53	1153	întinde	întind întindea întindeai întindeam întindeau întindem întindeți întindă întins întinsa întinse întinsele întinsese întinsul întinsă întinzi întinzând întinzându întinși
+54	1154	sprijin	sprijine sprijinul sprijinului
+55	1155	specific	specifica specifice specifici specificul specifică
+56	1156	născut	născuta născute născutul născutului născută născuți născuții născuților
+57	1157	adaptare	adaptarea adaptări adaptării adaptările
+58	1158	aparat	aparate aparatele aparatelor aparatul aparatului
+59	1159	protecție	protecția protecției protecții protecțiile
+60	1160	colegiu	colegii colegiile colegiilor colegiul colegiului
+61	1161	restaurant	restaurante restaurantele restaurantelor restaurantul restaurantului
+62	1162	palat	palate palatele palatelor palatul palatului
+63	1163	sportiv	sportiva sportive sportivi sportivii sportivilor sportivul sportivă
+64	1164	rezista	rezist rezistai rezistam rezistat rezistau rezistați reziste rezistând rezistă rezistăm reziști
+65	1165	apariție	apariția apariției apariții aparițiile aparițiilor
+66	1166	concert	concerte concertele concertelor concertul concertului
+67	1167	perete	peretele peretelui pereți pereții pereților
+68	1168	celulă	celula celule celulei celulele celulelor
+69	1169	recent	recenta recente recentei recentele recentelor recentul recentului recentă recenți
+70	1170	încercare	încercarea încercări încercării încercările încercărilor
+71	1171	depinde	depind depindea depindeam depindeau depindem depindeți depindă depins depinzi depinzând
+72	1172	tehnologie	tehnologia tehnologiei tehnologii tehnologiile tehnologiilor
+73	1173	servi	servea serveai serveam servească serveau servesc servește servești servii servim servind servindu servise servit serviți
+74	1174	critic	critica critice critici criticii criticile criticilor criticul criticului critică
+75	1175	ni	
+76	1176	excelent	excelenta excelente excelentei excelentele excelentul excelentă excelenți
+77	1177	iarnă	iarna ierni iernii iernile iernilor
+78	1178	diferență	diferența diferențe diferenței diferențele diferențelor
+79	1179	educație	educația educației educații
+80	1180	sexual	sexuala sexuale sexuali sexuală
+81	1181	limită	limita limite limitei limitele limitelor
+82	1182	pește	peștele peștelui pești peștii peștilor peștișor peștișori peștișorii peștișorilor peștișorul peștișorului
+83	1183	fază	faza faze fazei fazele fazelor
+84	1184	vas	vase vasele vaselor vasul vasului
+85	1185	existență	existența existențe existenței existențele
+86	1186	înscrie	înscria înscriam înscriem înscrieți înscrii înscriind înscriindu înscris înscrise înscrisese înscrisesem înscrisul înscrisuri înscrisurile înscrisă înscriu înscriși
+87	1187	tratament	tratamente tratamentele tratamentelor tratamentul tratamentului
+88	1188	capacitate	capacitatea capacități capacității capacitățile capacităților
+89	1189	major	majora majorat majoratul majoratului majore majori majoră
+90	1190	speranță	speranța speranțe speranței speranțele speranțelor
+91	1191	notă	nota note notei notele notelor noto
+92	1192	însuși	însele însușească însușesc însușește însușești însușit însăși înșiși
+93	1193	gaz	gaze gazele gazelor gazul gazului
+94	1194	financiar	financiara financiare financiari financiară
+95	1195	judecător	judecătoare judecătoarea judecători judecătorii judecătorilor judecătorul judecătorule judecătorului
+96	1196	pasăre	pasărea păsărelele păsări păsării păsările păsărilor păsăruică
+97	1197	glumi	glumea glumeai glumeam glumească glumeau glumeați glumesc glumește glumești glumii glumim glumind glumit glumiți
+98	1198	cartier	cartiere cartierele cartierelor cartierul cartierului
+99	1199	apăra	apere aperi apăr apărai apăram apărat apărate apărată apărau apărați apărând apărându apără apărăm
+100	1200	repeta	repet repetai repetam repetat repetau repetați repete repetând repetându repetă repetăm repeți

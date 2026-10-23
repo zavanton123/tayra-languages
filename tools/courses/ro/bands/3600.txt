@@ -1,0 +1,100 @@
+1	3501	muzician	muziciana muzicianul muzicianului muziciană muzicieni muzicienii muzicienilor
+2	3502	difuzat	difuzata difuzate difuzată difuzați
+3	3503	rang	rangul rangului ranguri rangurile
+4	3504	concura	concuram concurat concurau concurați concurează concurez concureze concurezi concurând concurăm
+5	3505	simultan	simultane simultană
+6	3506	anulat	anulata anulate anulată anulați
+7	3507	egoist	egoista egoiste egoisto egoistul egoistule egoistă egoiști
+8	3508	culege	culeagă culeg culegea culegeai culegeam culegeau culegem culegeți culegi culegând cules culese
+9	3509	profesie	profesia profesiei profesii profesiile
+10	3510	atras	atrasa atrase atrasă atrași
+11	3511	latură	latura laturi laturii laturile
+12	3512	împreuna	împreunat împreunate împreunați împreunează împreunez împreuneze împreunezi împreunăm
+13	3513	cardiac	cardiaca cardiace cardiaci cardiacă
+14	3514	fundal	fundalul fundalului
+15	3515	convingere	convingerea convingeri convingerii convingerile convingerilor
+16	3516	nemaipomenit	nemaipomenita nemaipomenite nemaipomenitul nemaipomenită nemaipomeniți
+17	3517	tremura	tremur tremurai tremuram tremurat tremuratul tremurau tremurați tremure tremuri tremurul tremură tremurăm
+18	3518	înregistrat	înregistrată
+19	3519	confruntare	confruntarea confruntări confruntării confruntările confruntărilor
+20	3520	forum	forumul forumului forumuri forumurile
+21	3521	relata	relatam relatat relatate relatată relatați relatează relatez relateze relatezi relatând relatăm
+22	3522	vodă	
+23	3523	nebuni	nebunește nebunești nebunii
+24	3524	farmacie	farmacia farmaciei farmacii farmaciile farmaciilor
+25	3525	open	openul
+26	3526	strâns	strânse strânsul strânsă strânși
+27	3527	irlandez	irlandeza irlandeze irlandezi irlandezii irlandezilor irlandezul irlandezule irlandezului irlandeză
+28	3528	chirurgical	chirurgicala chirurgicale chirurgicală
+29	3529	semnat	semnate semnată
+30	3530	impresionat	impresionata impresionate impresionată impresionați
+31	3531	rezervor	rezervoare rezervoarele rezervoarelor rezervorul rezervorului
+32	3532	ceresc	cereasca cerească cerești
+33	3533	nucă	nuca nuci nucii nucile nucilor nucșoara nucșoară
+34	3534	adăugat	adăugate adăugată adăugați
+35	3535	binevenit	binevenita binevenite binevenită bineveniți
+36	3536	experimenta	experimentam experimentat experimentau experimentați experimentează experimentez experimenteze experimentezi experimentând experimentăm
+37	3537	meniu	meniul meniului meniuri meniurile
+38	3538	junglă	jungla jungle junglei junglele
+39	3539	pitic	pitica pitice piticei piticele pitici piticii piticilor pitico piticul piticule piticului pitică
+40	3540	coincidență	coincidența coincidențe coincidenței coincidențele
+41	3541	evanghelie	evanghelia evangheliei evanghelii evangheliile evangheliilor
+42	3542	albină	albina albine albinei albinele albinelor albino albinuță
+43	3543	neașteptat	neașteptata neașteptate neașteptatul neașteptată neașteptați
+44	3544	business	
+45	3545	poseda	posed posedam posedat posedau posedați posede posedând posedă posedăm posezi
+46	3546	înfricoșător	înfricoșătoare înfricoșătoarea înfricoșători înfricoșătorul
+47	3547	loialitate	loialitatea loialități loialității loialitățile
+48	3548	prevedea	prevadă prevede prevedem prevedeți prevezi prevăd prevăzuse prevăzusem
+49	3549	masaj	masaje masajele masajul masajului
+50	3550	otravă	otrava otrăvi otrăvii otrăvuri otrăvurile otrăvurilor
+51	3551	consemna	consemnat consemnate consemnată consemnați consemnează consemnez consemneze consemnezi consemnăm
+52	3552	infrastructură	infrastructura infrastructuri infrastructurii
+53	3553	amenajat	amenajate amenajată
+54	3554	impozit	impozite impozitele impozitelor impozitul impozitului
+55	3555	timpuriu	timpurie timpurii
+56	3556	cert	certa certe certei certă cerți
+57	3557	învins	învinsa învinse învinsul învinsului învinsă învinși învinșii învinșilor
+58	3558	taur	tauri taurii taurilor taurul taurule taurului
+59	3559	virtute	virtutea virtuți virtuții virtuțile virtuților
+60	3560	venire	venirea veniri venirii venirile
+61	3561	întreține	întreții întrețin întreținea întrețineam întrețineau întreținem întrețineți întreținut întreținute întreținută întreținând întrețină
+62	3562	fascinant	fascinanta fascinante fascinantul fascinantă fascinanți
+63	3563	picătură	picătura picături picăturii picăturile picăturilor
+64	3564	apus	apuse apusul apusului apusuri apusurile apusă
+65	3565	corupție	corupția corupției corupții
+66	3566	veșnic	veșnica veșnice veșnicele veșnici veșnicul veșnică
+67	3567	ipoteză	ipoteza ipoteze ipotezei ipotezele
+68	3568	rutină	rutina rutine rutinei rutinele
+69	3569	prostituată	prostituata prostituate prostituatei prostituatele prostituatelor
+70	3570	mirare	mirarea
+71	3571	simpatic	simpatica simpatice simpatici simpaticul simpatică
+72	3572	ăst	aste astă ăști
+73	3573	compune	compui compun compunea compuneam compunem compuneți compunând compună compus compuse
+74	3574	numire	numirea numiri numirii numirile
+75	3575	bucătar	bucătari bucătarii bucătarilor bucătarul bucătarule bucătarului
+76	3576	promovat	promovata promovate promovată promovați
+77	3577	virgin	virgina virgine virginei virginele virginelor virgini virginii virginilor virginul virgină
+78	3578	corn	coarne coarnele coarnelor corni cornul cornulețe cornului cornuri cornurile
+79	3579	îngheța	îngheață înghețam înghețase înghețat înghețau înghețați înghețe îngheți înghețând îngheță înghețăm
+80	3580	formula	formulat formulate formulată formulați formulează formulez formuleze formulezi formulăm
+81	3581	senzor	senzori senzorii senzorilor senzorul senzorului
+82	3582	predare	predarea predării
+83	3583	detecta	detectam detectat detectați detectează detectez detecteze detectezi detectăm
+84	3584	angajament	angajamente angajamentele angajamentelor angajamentul angajamentului
+85	3585	delegat	delegata delegatul delegatului delegată delegați delegații delegaților
+86	3586	invită	invita invite
+87	3587	piper	piperul piperului
+88	3588	subtitrare	subtitrarea subtitrări subtitrării subtitrările
+89	3589	așezare	așezarea așezări așezării așezările
+90	3590	verificat	verificata verificate verificatul verificată verificați
+91	3591	vacant	vacanta vacante vacantei vacantele vacantelor vacantă
+92	3592	frază	fraza fraze frazei frazele frazelor
+93	3593	adunat	adunata adunate adunatul adunată adunați
+94	3594	recomandare	recomandarea recomandări recomandării recomandările recomandărilor
+95	3595	agita	agit agitai agitam agitat agitau agitați agite agitând agitându agită agităm agiți
+96	3596	mixt	mixta mixte mixtă
+97	3597	interpretat	interpretata interpretate interpretată interpretați
+98	3598	naviga	navigai navigam navigat navigatul navigau navigați navighează navighez navigheze navighezi navigând navigăm
+99	3599	pomeni	pomenea pomeneai pomenească pomenesc pomenește pomenești pomenim pomenind pomenit pomeniți pomi
+100	3600	porcărie	porcăria porcăriei porcării porcăriile porcăriilor

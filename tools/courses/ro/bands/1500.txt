@@ -1,0 +1,100 @@
+1	1401	hotărî	hotăra hotăram hotărască hotărâm hotărând hotărâse hotărâsem hotărâseră hotărât hotărâți hotărăsc hotărăște hotărăști
+2	1402	comanda	comand comandai comandam comandase comandasem comandat comandata comandate comandatul comandatului comandată comandau comandați comande comandând comandăm comanzi
+3	1403	organizare	organizarea organizări organizării
+4	1404	asistent	asistenta asistentul asistentule asistentului asistentă asistenți asistenții asistenților
+5	1405	fantastic	fantastica fantastice fantastici fantasticul fantasticului fantastică
+6	1406	italian	italiana italianca italiancă italiano italianul italianule italianului italiană italience italiencele italiene italieni italienii italienilor
+7	1407	tradițional	tradiționala tradiționale tradiționalele tradiționali tradiționalul tradițională
+8	1408	marcă	marca marco mărci mărcii mărcile mărcilor
+9	1409	acționa	acționai acționam acționat acționau acționați acționează acționez acționeze acționezi acționând acționăm
+10	1410	indian	indiana indiancă indianul indianule indianului indiană indiene indieni indienii indienilor
+11	1411	personalitate	personalitatea personalități personalității personalitățile personalităților
+12	1412	dracului	
+13	1413	asigurare	asigurarea asigurări asigurării asigurările asigurărilor
+14	1414	colecție	colecția colecției colecții colecțiile colecțiilor
+15	1415	ou	oul oule oului ouă ouăle ouălor ouț
+16	1416	britanic	britanica britanice britanici britanicii britanicilor britanicul britanică
+17	1417	practică	practica practici practicii practicile practicilor
+18	1418	trecere	trecerea treceri trecerii trecerile
+19	1419	plajă	plaja plaje plajei plajele plajelor
+20	1420	extraordinar	extraordinara extraordinare extraordinarei extraordinarele extraordinari extraordinarul extraordinarului extraordinară
+21	1421	mandat	mandate mandatele mandatelor mandatul mandatului
+22	1422	editură	editura edituri editurii editurile editurilor
+23	1423	norocos	norocoasa norocoase norocoasă norocosul norocosului norocoși norocoșii norocoșilor
+24	1424	călători	călătorea călătoreai călătoream călătorească călătoreau călătoreați călătoresc călătorește călătorești călătorii călătorim călătorind călătorise călătorit călătoritul călătoriți
+25	1425	hartă	harta hartile hărți hărții hărțile hărților
+26	1426	martin	martini
+27	1427	dedicat	dedicata dedicate dedicată dedicați dedicații
+28	1428	respira	respir respirai respiram respirat respirau respirați respire respiri respirând respiră respirăm
+29	1429	determina	determin determinam determinat determinați determine determini determinând determină determinăm
+30	1430	bob	boabe boabele boabelor bobul
+31	1431	pantof	pantofi pantofii pantofilor pantoful pantofului
+32	1432	anual	anuala anuale anuală
+33	1433	miros	mirosul mirosului mirosuri mirosurile mirosurilor
+34	1434	înălțime	înălțimea înălțimi înălțimii înălțimile înălțimilor
+35	1435	dincolo	
+36	1436	plăcut	plăcuta plăcute plăcutele plăcutul plăcută plăcuți
+37	1437	respecta	nerespectând respectai respectam respectat respectau respectați respecte respectând respectă respectăm respecți
+38	1438	descoperit	descoperita descoperite descoperită descoperiți
+39	1439	opinie	opinia opiniei opinii opiniile opiniilor
+40	1440	respinge	resping respingea respingeai respingeam respingeau respingem respingeți respingi respingând respingă respins respinse respinsă respinși
+41	1441	evoluție	evoluția evoluției evoluții evoluțiile
+42	1442	academie	academia academiei academii academiile
+43	1443	pachet	pachete pachetele pachetelor pachetul pachetului pachețel
+44	1444	bucătărie	bucătăria bucătăriei bucătării bucătăriile
+45	1445	scris	scrise scrisul scrisului scriși
+46	1446	întârzia	întârziai întârziam întârziase întârziasem întârziat întârziau întârziați întârzie întârziem întârzii întârziind
+47	1447	echipament	echipamente echipamentele echipamentelor echipamentul echipamentului
+48	1448	omor	omorul omorului omoruri omorurile omorurilor
+49	1449	elen	elena elene elenei eleni elenă elin elina
+50	1450	religie	religia religiei religii religiile religiilor
+51	1451	disponibil	disponibila disponibile disponibili disponibilă
+52	1452	hârtie	hârtia hârtiei hârtii hârtiile hârtiilor hârtiuța hârtiuțe hârtiuță hîrtii hărtie
+53	1453	independent	independenta independente independentei independentul independentă independenți independenții
+54	1454	privință	privința privințe privințele
+55	1455	conferință	conferința conferințe conferinței conferințele conferințelor
+56	1456	zid	zidul zidului ziduri zidurile zidurilor
+57	1457	greutate	greutatea greutăți greutății greutățile greutăților
+58	1458	criză	criza crize crizei crizele crizelor
+59	1459	împărți	împart împarte împartă împarți împărțea împărțeai împărțeam împărțeau împărțeați împărții împărțim împărțind împărțit împărțiți
+60	1460	administrativ	administrativa administrative administrativi administrativă
+61	1461	pariu	pariul pariului pariuri pariurile pariurilor
+62	1462	porc	porci porcii porcilor porcoi porcul porcule porcului porcușor porcușori porcușorii porcușorilor porcușorul porcușorule porcușorului purcoi
+63	1463	calculator	calculatoare calculatoarele calculatoarelor calculatorul calculatorului
+64	1464	kilogram	kg kilograme kilogramele kilogramul
+65	1465	mândru	mândra mândre mândrele mândri mândrii mândrul mândră mîndru mîndră
+66	1466	umple	umplea umpleam umpleau umplem umpleți umpli umplu umpluse umplut umpluta umplute umplută umpluți umplând umplându
+67	1467	simbol	simbolul simbolului simboluri simbolurile simbolurilor
+68	1468	poet	poeta poetul poetule poetului poetă poeți poeții poeților
+69	1469	curăța	curețe cureți curăț curățai curățam curățat curățau curățați curăți curățim curățind curățând curăță curățăm
+70	1470	inel	inele inelele inelelor inelul inelului
+71	1471	cetate	cetatea cetăți cetății cetățile cetăților
+72	1472	influență	influența influențe influenței influențele influențelor
+73	1473	tratat	tratata tratate tratatele tratatelor tratatul tratatului tratată tratați tratații
+74	1474	maică	maica maici maicii maicile maicilor măiculiță
+75	1475	medicină	medicina medicine medicinei medicinii
+76	1476	cantitate	cantitatea cantități cantității cantitățile cantităților
+77	1477	reduce	redu reduc reducea reducem reduceți reduci reducând reducându reducă redus reduse
+78	1478	fierbinte	fierbintele fierbinți
+79	1479	îndeplini	îndeplinea îndeplineam îndeplinească îndeplineau îndeplinesc îndeplinește îndeplinești îndeplinii îndeplinim îndeplinind îndeplinindu îndeplinit îndeplinite îndeplinită îndepliniți
+80	1480	barcă	barca bărci bărcii bărcile bărcilor bărcuța bărcuțe bărcuțele bărcuță
+81	1481	os	oase oasele oaselor oscior osul osului
+82	1482	depăși	depășea depășeam depășească depășeau depășesc depășește depășești depășim depășind depășise depășisem depășit depășiți
+83	1483	baltă	balta balto bălți bălții bălțile
+84	1484	generație	generația generației generații generațiile generațiilor
+85	1485	comportament	comportamente comportamentele comportamentelor comportamentul comportamentului
+86	1486	pisică	pisica pisicesc pisici pisicii pisicile pisicilor pisico
+87	1487	grupă	grupa grupat grupate grupați grupe grupează grupei grupele grupelor grupeze grupo grupăm
+88	1488	ieșire	ieșirea ieșiri ieșirii ieșirile ieșirilor
+89	1489	ciudă	ciuda
+90	1490	literă	litera literam literară literat litere literei literele literelor
+91	1491	gunoi	gunoaie gunoaiele gunoaielor gunoiul gunoiule gunoiului
+92	1492	deputat	deputatul deputatului deputați deputații deputaților
+93	1493	legal	legala legale legali legală
+94	1494	grădină	grădina grădini grădinii grădinile grădinilor
+95	1495	scăzut	scăzute scăzută scăzuți
+96	1496	cuplu	cuplul cuplului cupluri cuplurile cuplurilor
+97	1497	tur	turi turul turului tururi tururile
+98	1498	oriunde	
+99	1499	aventură	aventura aventuri aventurii aventurile aventurilor
+100	1500	mobil	mobila mobilat mobilata mobilate mobilată mobile mobilei mobilele mobilelor mobilez mobili mobilul mobilului

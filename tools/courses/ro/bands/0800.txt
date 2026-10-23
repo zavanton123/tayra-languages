@@ -1,0 +1,100 @@
+1	701	plus	plusul plusuri plusurile
+2	702	urmare	urmarea urmări urmării urmările urmărilor
+3	703	pană	pana pene penei penele penelor penița peniță
+4	704	necesar	necesara necesare necesari necesarul necesară
+5	705	bătrân	bătrâior bătrâna bătrâne bătrânei bătrâneii bătrânel bătrânele bătrânelor bătrânelul bătrânelule bătrâni bătrânii bătrânilor bătrâno bătrânul bătrânule bătrânului bătrână bătrîne bătrîni bătrînul
+6	706	închisoare	închisoarea închisori închisorii închisorile închisorilor
+7	707	durere	durerea dureri durerii durerile durerilor
+8	708	sursă	sursa surse sursei sursele surselor
+9	709	mâncare	mâncarea mâncări mâncărică mâncării mâncăruri mâncărurile mâncărurilor mîncare mîncarea
+10	710	titlu	titlul titlului titluri titlurile titlurilor
+11	711	aproximativ	aproximativa aproximative aproximativă
+12	712	secol	secole secolele secolelor secolul secolului
+13	713	apropia	apropiai apropiam apropiase apropiasem apropiat apropiau apropiați apropie apropiem apropii apropiindu
+14	714	măsură	măsura măsuri măsurii măsurile măsurilor
+15	715	sens	sensul sensului sensuri sensurile
+16	716	baza	bazai bazam bazat bazata bazate bazată bazau bazați bazează bazez bazeze bazezi bazându bazăm
+17	717	hotel	hotele hotelul hotelului hoteluri hotelurile hotelurilor otel
+18	718	dimineața	
+19	719	calitate	calitatea calități calității calitățile calităților
+20	720	rahat	rahatul rahatule rahatului rahaturi rahaturile rahaturilor
+21	721	observa	observ observai observam observase observasem observat observate observată observau observați observe observi observând observându observă observăm
+22	722	decizie	decizia deciziei decizii deciziile deciziilor
+23	723	forță	forțe forței forțele forțelor
+24	724	teatru	teatre teatrele teatrelor teatrul teatrului
+25	725	utiliza	utilizam utilizat utilizata utilizate utilizată utilizau utilizați utilizează utilizez utilizeze utilizezi utilizând utilizăm
+26	726	păcat	păcate păcatele păcatelor păcatul păcatului
+27	727	munte	muntele muntelui munți munții munților
+28	728	greșit	greșita greșite greșită greșiți greșiților
+29	729	iubire	iubirea iubiri iubirii iubirile iubirilor
+30	730	central	centrala centrale centralei centralele centralelor centrali centrală
+31	731	baie	baia baii baile bailor baio băi băii băile băilor băiță
+32	732	dimineață	dimineți dimineții diminețile dimineților
+33	733	dovadă	dovada dovezi dovezii dovezile dovezilor
+34	734	inclusiv	
+35	735	sezon	sezoane sezoanele sezoanelor sezonul sezonului
+36	736	drag	draga dragat drage dragei dragele dragelor dragi dragii dragilor dragul dragule dragului dragăm
+37	737	amândoi	amândouă amândurora amîndoi
+38	738	ordine	ordinea ordini ordinii ordinile
+39	739	act	acte actele actelor actul actului
+40	740	uniune	uniunea uniuni uniunii uniunile
+41	741	ianuarie	
+42	742	întâi	întâia întâiul întâiului întîi
+43	743	stea	steale steaua stele stelei stelele stelelor steluța steluță
+44	744	cod	codul codului coduri codurile codurilor cozi cozii cozilor
+45	745	câine	câinele câinelui câini câinii câinilor câne
+46	746	primar	primara primare primari primarii primarilor primarul primarule primarului primară primărița primăriței primăriță
+47	747	misiune	misia misiunea misiuni misiunii misiunile misiunilor
+48	748	fura	fur furai furam furase furasem furaseră furat furau furați fure furi furând furându fură furăm
+49	749	haină	haina haine hainei hainele hainelor hăinuțe hăinuță
+50	750	scenă	scena scene scenei scenele scenelor
+51	751	maria	mariam marie mariei
+52	752	client	clienta clientul clientului clientă clienți clienții clienților
+53	753	stil	stilul stilului stiluri stilurile stilurilor
+54	754	cheie	chei cheia cheii cheile cheilor cheiul cheiului cheiuri cheiurile cheiță cheu
+55	755	istoric	istorica istorice istorici istoricii istoricilor istoricul istoricului istorică
+56	756	condiție	condiția condiției condiții condițiile condițiilor
+57	757	bogat	bogata bogate bogatele bogatul bogatului bogată bogați bogații bogaților băgat băgate băgatul
+58	758	dovedi	dovedea dovedească dovedeau dovedesc dovedește dovedești dovedii dovedim dovedind dovedindu dovedise dovedit dovedite dovedită dovediți
+59	759	slujbă	slujba slujbe slujbei slujbele slujbelor
+60	760	pas	pasul pasului pași pașii pașilor
+61	761	obiect	obiecte obiectele obiectelor obiectul obiectului
+62	762	referi	refer refera refere referea refereai refeream refereau refereați referim referindu referit referiți referă
+63	763	energie	energia energiei energii energiile energiilor
+64	764	element	elemente elementele elementelor elementul elementului
+65	765	plânge	plâng plângea plângeai plângeam plângeau plângeați plângem plângeți plângi plângând plângându plângă plâns plânse plânsese plânsul plânsului plânsă plânși plînge plîngea plîngînd plîngă
+66	766	spectacol	spectacole spectacolele spectacolelor spectacolul spectacolului
+67	767	salut	salutul salutului saluturi saluturile
+68	768	soare	soarele soarelui sori sorii sorilor
+69	769	suferi	sufere suferea sufereai sufeream sufereau suferii suferim suferise suferit suferite suferită suferiți suferă sufăr
+70	770	prietenă	prietena prietene prietenei prietenele prietenelor prieteno
+71	771	geac	jack
+72	772	plăcere	plăcerea plăceri plăcerii plăcerile plăcerilor
+73	773	urca	urc urcai urcam urcase urcasem urcat urcau urcați urce urci urcând urcându urcă urcăm
+74	774	rus	rusa ruse ruso rusul rusule rusului rusă ruși rușii rușilor
+75	775	semna	semnam semnase semnasem semnat semnați semnează semnez semneze semnezi semnând semnă semnăm
+76	776	piatră	piatra pietre pietrei pietrele pietrelor pietri pietricică
+77	777	autoritate	autoritatea autorități autorității autoritățile autorităților
+78	778	medic	medici medicii medicilor medicul medicule medicului
+79	779	efect	efecte efectele efectelor efectul efectului
+80	780	poză	poza poze pozei pozele pozelor
+81	781	evident	evidenta evidente evidentei evidentele evidentelor evidentul evidentului evidentă evidenți
+82	782	respectiv	respectiva respective respectivei respectivele respectivelor respectivi respectivii respectivul respectivului respectivă
+83	783	cal	cai caii cailor calul calule calului călușei căluț
+84	784	anume	
+85	785	aur	aurul aurului
+86	786	descoperi	descopere descoperea descopeream descopereau descoperii descoperim descoperind descoperise descoperisem descoperiseră descoperit descoperiți descoperă descopăr
+87	787	interesant	interesanta interesante interesantul interesantă interesanți
+88	788	lipsi	lipsea lipseai lipseam lipsească lipseau lipsesc lipsește lipsești lipsim lipsind lipsindu lipsit lipsiți
+89	789	unu	una
+90	790	descurca	descurc descurcai descurcam descurcat descurcau descurcați descurce descurci descurcă descurcăm
+91	791	comunitate	comunitatea comunități comunității comunitățile comunităților
+92	792	german	germana germancă germane germani germanii germanilor germano germanul germanului germană gherman
+93	793	băga	bag bage bagi bagă băgai băgam băgase băgasem băgaseră băgat băgate băgatul băgată băgau băgați băgând băgându băgă băgăm
+94	794	sală	sala salo săli sălii sălile sălilor
+95	795	datorită	
+96	796	păr	peri perii părul părului
+97	797	pagină	pagina pagini paginii paginile paginilor
+98	798	traducere	traducerea traduceri traducerii traducerile traducerilor
+99	799	deține	deții dețin deținea dețineai dețineam dețineau deținem dețineți deținut deținute deținutul deținutule deținutului deținută deținuți deținuții deținuților deținând dețină
+100	800	soldat	soldate soldatul soldatule soldatului soldată soldați soldații soldaților soldățel

@@ -1,0 +1,100 @@
+1	3801	divorțat	divorțata divorțate divorțată divorțați
+2	3802	atârna	atârn atârnai atârnam atârnat atârnate atârnată atârnau atârnați atârne atârni atârnând atârnându atârnă atârnăm atîrna
+3	3803	alternativ	alternativa alternative alternativele alternativi
+4	3804	audiere	audierea audieri audierii audierile audierilor
+5	3805	formal	formala formale formali formală
+6	3806	recunoștință	recunoștința recunoștinței
+7	3807	tărâm	tărâmul tărâmului tărâmuri tărâmurile tărâmurilor
+8	3808	occident	occidentul occidentului
+9	3809	creativ	creativa creative creativi creativă
+10	3810	fluture	flutur fluturaș fluturași fluturașii fluturașul fluturașule fluturele fluturelui fluturi fluturii fluturilor
+11	3811	stăpânire	stăpânirea stăpânirii stăpînire
+12	3812	marketing	marketingul marketingului
+13	3813	rezoluție	rezoluția rezoluției rezoluții rezoluțiile
+14	3814	ceașcă	ceașca ceșcuța ceșcuțe ceșcuțele ceșcuță cești ceștile
+15	3815	navetă	naveta navete navetei navetele navetelor
+16	3816	baron	baroneasă baroni baronii baronilor baronul baronule baronului
+17	3817	determinare	determinarea determinării
+18	3818	localiza	localizam localizat localizați localizează localizez localizeze localizezi localizând localizăm
+19	3819	conductă	conducta conducte conductei conductele conductelor
+20	3820	compromis	compromisa compromisul compromisului compromisuri compromisurile compromisă compromiși
+21	3821	putină	putina putini putinii
+22	3822	fiscal	fiscala fiscale fiscali fiscală
+23	3823	dezgustător	dezgustătoare dezgustători dezgustătorul
+24	3824	poetic	poetica poetice poetică
+25	3825	dezamăgit	dezamăgita dezamăgite dezamăgită dezamăgiți
+26	3826	vânzător	vânzători vânzătorii vânzătorilor vânzătorul vânzătorule vânzătorului
+27	3827	altitudine	altitudinea altitudini altitudinii
+28	3828	coaliție	coaliția coaliției coaliții
+29	3829	buletin	buletine buletinele buletinelor buletinul buletinului
+30	3830	poiană	poiana poieni poieniță
+31	3831	rosti	rostea rosteam rostească rosteau rostesc rostește rostești rostim rostind rostindu rostit rostite rostită rostiți
+32	3832	catalog	cataloage cataloagele catalogul catalogului
+33	3833	grâu	grâne grânele grânelor grâul grâului
+34	3834	protector	protectoare protectoarea protectori protectorii protectorilor protectorul protectorule protectorului
+35	3835	mafie	mafia mafiei mafii
+36	3836	mânie	mânia mâniat mâniați mâniei mânii
+37	3837	președinție	președinția președinției președinții
+38	3838	ceață	ceața ceții cețuri cețurilor
+39	3839	vapor	vapoare vapoarele vapoarelor vaporaș vaporul vaporului
+40	3840	straniu	strania stranie stranii straniile straniul
+41	3841	returna	returnam returnat returnata returnate returnată returnați returnează returnez returneze returnezi returnând returnăm
+42	3842	înlătura	înlătur înlăturat înlăturate înlăturată înlăturați înlăture înlături înlăturând înlătură înlăturăm
+43	3843	corupt	corupta corupte coruptul coruptă corupți corupții
+44	3844	înțelepciune	înțelepciunea înțelepciuni înțelepciunii
+45	3845	intermediar	intermediara intermediare intermediari intermediarii intermediarul intermediarului intermediară
+46	3846	accesibil	accesibila accesibile accesibili accesibilă
+47	3847	desemna	desemnat desemnați desemnează desemnez desemneze desemnezi desemnăm
+48	3848	vechime	vechimea vechimii
+49	3849	întâmpina	întâmpin întâmpinam întâmpinat întâmpinau întâmpinați întâmpine întâmpini întâmpinând întâmpină întâmpinăm
+50	3850	sondaj	sondaje sondajele sondajelor sondajul sondajului
+51	3851	recepționat	recepționate recepționată recepționați
+52	3852	porumbel	porumbei porumbeii porumbeilor porumbelul porumbelule porumbelului
+53	3853	încălcare	încălcarea încălcări încălcării încălcările
+54	3854	lucrător	lucrătoare lucrătoarea lucrătoarele lucrători lucrătorii lucrătorilor lucrătorul lucrătorului
+55	3855	eșua	eșuase eșuat eșuați eșuează eșuez eșueze eșuezi eșuând eșuăm
+56	3856	foaie	foaia foi foii foile foilor foiță
+57	3857	egiptean	egipteana egipteanca egipteancă egipteanul egipteană egiptene egipteni egiptenii egiptenilor
+58	3858	laudă	lauda laude laudele
+59	3859	timid	timida timide timidul timidă timizi
+60	3860	coase	coasem coaseți cos cosea coseam cosând coși cusut
+61	3861	volan	volane volanele volanul volanului
+62	3862	distribuit	distribuita distribuite distribuită distribuiți
+63	3863	perimetru	perimetre perimetrele perimetrul perimetrului
+64	3864	încredința	încredințam încredințat încredințate încredințată încredințați încredințează încredințez încredințeze încredințezi încredințăm
+65	3865	arheologic	arheologica arheologice arheologică
+66	3866	sugestie	sugestia sugestiei sugestii sugestiile sugestiilor
+67	3867	secvență	secvența secvențe secvenței secvențele secvențelor
+68	3868	puți	put pute pută puțea puțeam puțim puțind puțiți
+69	3869	linge	ling lingea lingeai lingeam lingeau lingem lingeți lingi lingând lingându lingă lins linsa linse linsul linsă
+70	3870	compozitor	compozitori compozitorii compozitorilor compozitorul compozitorului
+71	3871	pom	pomi pomii pomilor pomul pomului
+72	3872	încuiat	încuiata încuiate încuiatul încuiată încuiați încuiații încuiaților
+73	3873	senin	senina senine senini seninul senină
+74	3874	blondă	blonda blonde blondei blondele blondelor blondo
+75	3875	noroi	noroaie noroiul noroiului
+76	3876	exprimare	exprimarea exprimări exprimării
+77	3877	cur	curul curule curului cururi cururile
+78	3878	mizerabil	mizerabila mizerabile mizerabilei mizerabili mizerabilii mizerabililor mizerabilul mizerabilului mizerabilă
+79	3879	estimat	estimate estimată
+80	3880	lampă	lampa lampile lămpi lămpii lămpile lămpilor
+81	3881	print	printul printule printului printuri
+82	3882	azil	azilul azilului aziluri azilurile
+83	3883	judiciar	judiciara judiciare judiciari judiciarul judiciară
+84	3884	plic	plicul pliculeț pliculețe plicului plicuri plicurile plicurilor
+85	3885	laptop	laptopul laptopului laptopuri laptopurile
+86	3886	daună	dauna daune daunele daunelor
+87	3887	desface	desfac desfacem desfaceți desfaci desfacă desfă desfăcea desfăceam desfăcu desfăcut desfăcând
+88	3888	brigadă	brigada brigade brigadei brigăzi brigăzii brigăzile brigăzilor
+89	3889	cinematograf	cinematografe cinematografele cinematografelor cinematograful cinematografului
+90	3890	eh	
+91	3891	blană	blana blane blăniță blănuri blănurile blănurilor
+92	3892	viol	violul violului violuri violurile violurilor
+93	3893	invazie	invazia invaziei invazii invaziile invaziilor
+94	3894	răspândit	răspândite răspândită răspândiți
+95	3895	sfoară	sfoara sfori sforii sforile sforilor
+96	3896	ciocan	ciocane ciocanele ciocanul ciocanule ciocanului ciocănel
+97	3897	export	exportul exportului exporturi exporturile exporturilor
+98	3898	stricat	stricata stricate stricatei stricatele stricato stricatule stricată stricați
+99	3899	caracteriza	caracterizat caracterizați caracterizează caracterizez caracterizeze caracterizezi
+100	3900	onora	onoram onorat onorați onorează onorez onoreze onorezi onorând onorăm

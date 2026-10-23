@@ -1,0 +1,100 @@
+1	801	uf	uh
+2	802	popor	popoare popoarele popoarelor popol poporul poporului
+3	803	boală	boala boli bolii bolile bolilor
+4	804	absolut	absoluta absolute absolutul absolută absoluți
+5	805	atent	atenta atentat atente atentează atenteze atentezi atentă atenți atenții
+6	806	localitate	localitatea localități localității localitățile localităților
+7	807	undeva	
+8	808	discuta	discut discutai discutam discutasem discutaserăm discutat discutau discutați discute discutând discutăm discuți
+9	809	cafea	cafeaua cafele cafelei cafelele cafeluță cafă
+10	810	numit	numita numite numitei numitele numitelor numitul numitului numită numiți numiții
+11	811	știință	știința științe științei științele științelor
+12	812	partener	partenere parteneri partenerii partenerilor partenerul partenerului parteneră
+13	813	actual	actuala actuale actualei actualele actualelor actuali actualii actualilor actualul actualului actuală
+14	814	cat	
+15	815	cumva	
+16	816	nenorocit	nenorocita nenorocite nenorocitei nenorocitele nenorocitelor nenorocitul nenorocitule nenorocitului nenorocită nenorociți nenorociții nenorociților
+17	817	pregătit	pregătita pregătite pregătitul pregătită pregătiți
+18	818	sentiment	sentimente sentimentele sentimentelor sentimentul sentimentului
+19	819	ion	ioana ioni ionii ionilor
+20	820	declarat	declarata declarate declarată declarați declarații
+21	821	clipă	clipa clipe clipei clipele clipelor
+22	822	străin	străina străine străini străinii străinilor străinul străinule străinului străină
+23	823	iată	ete
+24	824	fund	fundul fundule funduleț fundului funduri fundurile fundurilor
+25	825	devreme	
+26	826	ambii	ambele ambelor ambilor
+27	827	muta	mutai mutam mutase mutasem mutaseră mutat mutau mutați mute mutând mutându mută mutăm
+28	828	bancă	banca bancile bancilor banco bănci băncii băncile băncilor băncuța băncuță
+29	829	conducere	conducerea conduceri conducerii
+30	830	secundă	secunda secundară secunde secundele secundo
+31	831	interes	interese interesele intereselor interesul interesului
+32	832	voce	vocea voci vocii vocile vocilor
+33	833	tăcea	tace taci tăceai tăceam tăceau tăcem tăceți tăcut tăcând
+34	834	creștere	creșterea creșteri creșterii creșterile
+35	835	document	documente documentele documentelor documentul documentului
+36	836	securitate	securitatea securități securității
+37	837	înregistra	înregistrai înregistram înregistrase înregistrat înregistrate înregistrau înregistrați înregistrează înregistrez înregistreze înregistrezi înregistrând înregistrându înregistrăm
+38	838	schimbare	schimbarea schimbări schimbările schimbărilor
+39	839	transforma	transform transformai transformam transformase transformaseră transformat transformau transformați transforme transformi transformând transformându transformă transformăm
+40	840	scrisoare	scrisoarea scrisori scrisorică scrisorii scrisorile scrisorilor
+41	841	porni	pornea porneai porneam pornească porneau pornesc pornește pornești pornii pornim pornind pornise pornisem porniseră pornit porniți
+42	842	căpitan	căpitani căpitanii căpitanilor căpitanul căpitanului
+43	843	metru	metri metrii metrul
+44	844	sută	suta sute sutele sutelor
+45	845	sincer	sincera sincere sincerele sinceri sincerul sinceră
+46	846	regiune	regiunea regiuni regiunii regiunile regiunilor
+47	847	greșeală	greșală greșeala greșeli greșelii greșelile greșelilor
+48	848	francez	franceza franceze francezi francezii francezilor francezul francezule francezului franceză
+49	849	of	oful
+50	850	teamă	teama teme temei temeiul temeiuri temeiurile
+51	851	călătorie	călătoria călătoriei călătorii călătoriile călătoriilor
+52	852	superior	superioara superioare superioară superiori superiorii superiorilor superiorul superiorului
+53	853	natură	natura naturi naturii
+54	854	artist	artistei artistul artistule artistului artistă artiști artiștii artiștilor
+55	855	ataca	atacai atacam atacase atacat atacau atacați atace ataci atacând atacându atacă atacăm
+56	856	suprafață	suprafața suprafețe suprafeței suprafețele suprafețelor
+57	857	oricine	oricui
+58	858	februarie	
+59	859	test	teste testele testelor testul testului
+60	860	muzeu	muzee muzeele muzeelor muzeul muzeului
+61	861	liceu	licee liceele liceelor liceul liceului
+62	862	medical	medicala medicale medicali medicală
+63	863	construcție	construcția construcției construcții construcțiile construcțiilor
+64	864	anterior	anterioara anterioare anterioară anteriori anteriorul
+65	865	grad	grade gradele gradelor gradul gradului
+66	866	intrare	intrarea intrări intrării intrările intrărilor
+67	867	organizat	organizata organizate organizată organizați organizații
+68	868	regină	regina regine reginei reginele reginelor regino
+69	869	victorie	victoria victoriei victorii victoriile victoriilor victorio
+70	870	proprietate	proprietatea proprietăți proprietății proprietățile proprietăților
+71	871	fir	fire firea firele firelor firi firicel firii firul firului
+72	872	oară	oara
+73	873	ofițer	ofițeri ofițerii ofițerilor ofițerul ofițerule ofițerului
+74	874	episod	episoade episoadele episoadelor episodul episodului
+75	875	ziar	ziare ziarele ziarelor ziarul ziarului
+76	876	text	texte textele textelor textul textului
+77	877	revistă	revista reviste revistei revistele revistelor
+78	878	video	
+79	879	modern	moderna moderne moderni modernul modernului modernă
+80	880	cuprinde	cuprind cuprindea cuprindeau cuprindă cuprins cuprinsa cuprinse cuprinsese cuprinsul cuprinsă cuprinzi cuprinzând cuprinși
+81	881	lider	leader lideri liderii liderilor liderul liderule liderului
+82	882	planetă	planet planeta planete planetei planetele planetelor
+83	883	cont	contul contului conturi conturile conturilor
+84	884	est	estul estului
+85	885	insulă	ile insula insule insulei insulele insulelor insuliță
+86	886	rețea	rețeaua rețele rețelei rețelele rețelelor
+87	887	facultate	facultatea facultă facultăți facultății facultățile facultăților
+88	888	curat	curata curate curatule curată curați curățel
+89	889	anunța	anunțai anunțam anunțase anunțat anunțau anunțați anunțe anunți anunțând anunță anunțăm
+90	890	metodă	metoda metode metodei metodele metodelor
+91	891	mulțime	mulțimea mulțimi mulțimii mulțimile mulțimilor
+92	892	construi	construia construiai construiam construiască construiau construiesc construiește construiești construii construim construind construindu construise construiseră construit construiți
+93	893	stabili	stabilea stabileam stabilească stabilesc stabilește stabilești stabilii stabilim stabilind stabilindu stabilise stabilisem stabiliseră stabiliserăm stabilit stabiliți
+94	894	aparține	aparții aparțin aparținea aparțineai aparțineam aparțineau aparținem aparțineți aparținuse aparținut aparținând aparținându aparțină
+95	895	deranja	deranjai deranjam deranjat deranjau deranjați deranjează deranjez deranjeze deranjezi deranjând deranjăm
+96	896	dura	duram durat durau durează dureze durând dură
+97	897	transport	transportul transportului transporturi transporturile transporturilor
+98	898	onoare	onoarea onoarei onor onorul onoruri onorurile
+99	899	par	para parai paraii parale paralele param parat parau parează parezi parii parul parului
+100	900	poezie	poezia poeziei poezii poeziile poeziilor poezioară

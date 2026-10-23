@@ -1,0 +1,100 @@
+1	901	pădure	pădurea păduri pădurii pădurile pădurilor
+2	902	parc	parcul parcului parcuri parcurile parcurilor
+3	903	apel	apelul apelului apeluri apelurile apelurilor
+4	904	șapte	șaptea șaptelea
+5	905	teme	tem temea temeai temeam temeau temeați temem temeți temi temu temut temuta temute temutul temutului temută temuți temându
+6	906	imagina	imaginai imaginam imaginară imaginase imaginasem imaginat imaginate imaginată imaginau imaginați imaginații imaginează imaginez imagineze imaginezi imaginând imaginându imaginăm neimaginat
+7	907	probă	proba probe probei probele probelor
+8	908	volum	volume volumele volumelor volumul volumului
+9	909	preot	preotul preotule preotului preoțești preoți preoții preoților
+10	910	naștere	nașterea nașteri nașterii nașterile nașterilor
+11	911	pericol	pericole pericolele pericolelor pericolul pericolului
+12	912	mersi	ms
+13	913	domnișoară	domnișoara domnișoare domnișoarei domnișoarele domnișoarelor domnișoaro domnișorică dra drei
+14	914	trupă	trupa trupe trupei trupele trupelor
+15	915	floare	floarea flori floricică florii florile florilor
+16	916	campanie	campania campaniei campanii campaniile campaniilor
+17	917	lemn	lemne lemnele lemnelor lemnul lemnului
+18	918	apartament	apartamente apartamentele apartamentelor apartamentul apartamentului
+19	919	cadou	cadoul cadoului cadouri cadourile cadourilor
+20	920	convinge	conving convingea convingeai convingeam convingem convingeți convingi convingând convingându convingă convins convinse convinsese convinsesem
+21	921	producție	producția producției producții producțiile producțiilor
+22	922	structură	structura structurat structurata structurate structurată structuri structurii structurile structurilor
+23	923	alo	
+24	924	creștin	creștina creștine creștini creștinii creștinilor creștinul creștină
+25	925	ierta	iartă iert iertam iertat iertate iertată iertați ierte iertând iertăm ierți
+26	926	rece	recea recele reci
+27	927	bilet	bilete biletele biletelor biletul biletului bilețel bilețele bilețelele bilețelul
+28	928	populație	populația populației populații populațiile populațiilor
+29	929	părere	părerea păreri părerii părerile părerilor
+30	930	teritoriu	teritorii teritoriile teritoriilor teritoriul teritoriului
+31	931	fotografie	fotografia fotografiei fotografii fotografiile fotografiilor
+32	932	divers	diverse diversele diverselor diversă diverși
+33	933	apărare	apărarea apărări apărării apărările
+34	934	comandă	comanda comando comandoul comandoului comandouri comandourile comandourilor comenzi comenzii comenzile comenzilor
+35	935	veste	vestea vești veștii veștile veștilor
+36	936	fotbal	fotbalul fotbalului
+37	937	festival	festivalul festivalului festivaluri festivalurile festivalurilor
+38	938	dosar	dosare dosarele dosarelor dosarul dosarului
+39	939	amic	amice amici amicii amicilor amicul amicului
+40	940	subiect	subiecte subiectele subiectelor subiectul subiectului subiecți subiecții subiecților
+41	941	altcineva	altcuiva
+42	942	forța	forțai forțam forțat forțate forțată forțau forțați forțează forțez forțeze forțezi forțând forțându forțăm
+43	943	parlament	parlamentul parlamentului
+44	944	viteză	viteza viteze vitezei vitezele vitezelor
+45	945	minți	mint mintă mințea mințeai mințeam mințeau minții mințim mințind mințindu mințise mințit mințite mințitul mințită mințiți
+46	946	grăbi	grăbea grăbeai grăbeam grăbească grăbeau grăbesc grăbește grăbești grăbii grăbim grăbind grăbindu grăbit grăbite grăbită grăbiți
+47	947	minister	ministere ministerele ministerelor ministerul ministerului
+48	948	piele	piei pieile pieilor pielea pieli pielii pielița pieliță
+49	949	implica	implic implicam implicase implicat implicau implicați implice implici implicând implicându implică implicăm
+50	950	cină	cina cinei cinele cinelor
+51	951	bolnav	bolnava bolnave bolnavi bolnavii bolnavilor bolnavul bolnavule bolnavului bolnavă bolnăvior
+52	952	controla	controlai controlam controlat controlata controlate controlată controlau controlați controlează controlez controleze controlezi controlând controlăm
+53	953	organizație	organizația organizației organizații organizațiile organizațiilor
+54	954	interesa	interesai interesam interesat interesau interesați interesează interesez intereseze interesezi interesându interesăm
+55	955	râde	râd râdea râdeai râdeam râdeau râdeați râdem râdeți râdă râs râse râzi râzând rîde rîdea
+56	956	pacient	pacienta paciente pacientei pacientele pacientelor pacientul pacientului pacientă pacienți pacienții pacienților
+57	957	cutie	cutia cutiei cutii cutiile cutiilor cutiuța cutiuță
+58	958	prefera	prefer preferai preferam preferat preferau preferați prefere preferi preferând preferă preferăm
+59	959	ortodox	ortodocși ortodocșii ortodocșilor ortodoxa ortodoxe ortodoxă
+60	960	continuu	continua continue continui continuii continuul continuă
+61	961	prelua	preia preiau preiei preluam preluase preluat preluate preluată preluați preluând preluăm
+62	962	extrem	extrema extreme extremele extremelor extremi extremul extremă
+63	963	nuntă	nunta nunți nunții nunțile nunților
+64	964	preț	prețul prețului prețuri prețurile prețurilor
+65	965	desfășura	desfășoare desfășoară desfășor desfășori desfășuram desfășurat desfășurate desfășurată desfășurau desfășurați desfășurându desfășurăm
+66	966	ocazie	ocazia ocaziei ocazii ocaziile ocaziilor
+67	967	intern	interna interne internele internelor interni internii internilor internul internă
+68	968	provoca	provoace provoacă provoc provocai provocam provocase provocat provocate provocată provocau provocați provoci provocând provocându provocă provocăm
+69	969	tom	
+70	970	milă	mil mila mile milei milele milo
+71	971	motor	motoare motoarele motoarelor motoraș motori motorul motorului
+72	972	zeu	zei zeii zeilor zeița zeițe zeiței zeițele zeițelor zeiță zeul zeule zeului
+73	973	port	portul portului porturi porturile porturilor
+74	974	jucător	jucători jucătorii jucătorilor jucătorul jucătorule jucătorului
+75	975	erou	eroi eroii eroilor eroul eroule eroului
+76	976	carieră	cariera cariere carierea carierei carierele carierelor
+77	977	sport	sportul sportului sporturi sporturile sporturilor
+78	978	pa	
+79	979	transmite	transmis transmisa transmise transmisă transmit transmitea transmiteai transmiteam transmiteau transmitem transmiteți transmită transmiți transmițând
+80	980	capăt	capete capetele capetelor capătul capătului
+81	981	unchi	unchii unchilor unchiul unchiule unchiului
+82	982	medie	media mediat mediei mediez medieze mediezi medii mediile mediilor medio
+83	983	ulterior	ulterioara ulterioare ulterioară
+84	984	situat	situata situate situată situați situații
+85	985	vest	vestul vestului
+86	986	personaj	personaje personajele personajelor personajul personajului
+87	987	naște	nasc nască naștem nașteți naști născuse născusem născuseră născuseși născut născând născându năștea nășteai nășteam nășteau
+88	988	periculos	periculoasa periculoase periculoasei periculoasă periculosul periculoși
+89	989	categorie	categoria categoriei categorii categoriile categoriilor
+90	990	creier	creer creieraș creiere creierele creierelor creieri creierii creierul creierului
+91	991	electric	electrica electrice electrici electrică
+92	992	acoperi	acopere acoperea acopereai acopeream acopereau acoperii acoperim acoperind acoperindu acoperise acoperit acoperiți acoperă acopăr
+93	993	libertate	libertatea libertăți libertății libertățile libertăților
+94	994	amuzant	amuzanta amuzante amuzantul amuzantă amuzanți
+95	995	înceta	înceată încetam încetase încetat încetau încetați încetează încetez înceteze încetezi încetăm înceți
+96	996	refuza	refuzai refuzam refuzase refuzat refuzau refuzați refuze refuzi refuzând refuză refuzăm
+97	997	supăra	supere superi supăr supărai supăram supărase supărat supărau supărați supără supărăm
+98	998	zbor	zborul zborului zboruri zborurile zborurilor
+99	999	hectar	ha hectare
+100	1000	angajat	angajata angajate angajatele angajatul angajatului angajată angajați angajații angajaților
