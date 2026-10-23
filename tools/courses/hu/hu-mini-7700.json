@@ -1,0 +1,179 @@
+{
+  "id": "hu-mini-7700",
+  "rankUpTo": 7700,
+  "level": "C1",
+  "title": "Találmányok és feltalálók",
+  "description": "Ten standalone stories, interviews, letters and columns about inventions and the people who make them: a museum's clock room, a stuck toaster, a young inventors' competition, a doctor's pocket instruments, a wheelwright, a tenant's e-bike motor, whether ideas make people rich, solar power on a farmstead, a heated sweater tested on New Year's Eve and the story of tinned food.",
+  "topic": "Inventions and inventors",
+  "names": [
+    "Sopron",
+    "Hargitai",
+    "Szibilla",
+    "Gombár",
+    "Kassai",
+    "Grácia",
+    "Torma",
+    "Budapest",
+    "Fábry",
+    "Gaszton",
+    "Debrecen",
+    "Szentendre",
+    "Csiszár",
+    "Gotthárd",
+    "Kecskemét",
+    "Kordélia",
+    "Tarr",
+    "Herman",
+    "Bódis",
+    "Terézia",
+    "Antalfi",
+    "Ivola",
+    "Kiskunmajsa",
+    "Rostás",
+    "Eulália",
+    "Viktorina",
+    "Jósa",
+    "Hubertusz",
+    "Miskolc",
+    "Bükk",
+    "Dévényi",
+    "Fernanda",
+    "Szeged",
+    "Győr"
+  ],
+  "lessons": [
+    {
+      "title": "Az órák terme",
+      "summary": "Curator Hargitai Szibilla guides a school class through the clock room of the Sopron museum, from a pendulum clock and a spring-driven table clock to analogue and digital clocks.",
+      "newWords": [
+        "évezred",
+        "gépezet",
+        "centiméter",
+        "díszes",
+        "rugó",
+        "analóg",
+        "felváltva"
+      ],
+      "text": "Szombat délelőtt Sopronban, a városi múzeum emeletén csak egyetlen hang hallatszik: több tucat óra jár egyszerre. Hargitai Szibilla, a gyűjtemény vezetője, havonta egyszer maga vezeti körbe a látogatókat. Ezúttal egy iskolai osztály és néhány nyugdíjas áll körülötte.\n\n– Az ember évezredek óta méri az időt – kezdi Szibilla. – Évezredeken át a nap árnyékát, a csöpögő vizet vagy a lassan lefolyó homokot figyelték. Ahhoz azonban, hogy egy óra magától és pontosan járjon, egy egészen újfajta gépezet kellett.\n\nA terem közepén egy magas, egyszerű faszekrény áll. Az üvegajtaja mögött egy hosszú inga lendül lassan jobbra és balra.\n\n– Ez az óra körülbelül háromszáz éves – mondja Szibilla. – Két nehéz súly hajtja, amelyeket hetente egyszer kell felhúzni. A gépezet minden lendülésnél egy kicsit továbbengedi a kereket, és ettől halad előre a mutató. Az inga egy lendülés alatt nagyjából húsz centiméter utat tesz meg.\n\nMellette egy díszes asztali óra áll, aranyozott levelekkel és két apró, festett madárral a tetején. A gyerekek egyszerre hajolnak közelebb.\n\n– Ez már nem súllyal működik, hanem rugóval – magyarázza Szibilla. – A rugó egy hosszú, vékony acélszalag, amelyet szorosan feltekernek. Ahogy lassan kienged, hajtja a gépezetet. A rugó tette lehetővé, hogy az óra kisebb legyen, és az ember magával vihesse. A legkisebb zsebóránk alig négy centiméter széles.\n\nEgy kisfiú megkérdezi, miért olyan díszes minden régi óra.\n\n– Mert nagyon drága volt – feleli Szibilla mosolyogva. – Akinek ilyen órája volt, az meg is akarta mutatni. A díszes tok védte a rugót és a gépezetet, de főleg azt mutatta, mennyi pénze van a gazdájának.\n\nA terem végében a múlt század órái következnek.\n\n– Itt látják, hogyan lett az analóg órából digitális – mondja Szibilla. – Az analóg órán mutatók járnak körbe, és az időt a helyzetükből olvassuk le. A digitális órán csak számokat látunk. Sokan azt hiszik, hogy az analóg óra ma már csak dísz, pedig a gyerekek többsége ma is analóg órán tanulja meg leolvasni az időt.\n\nA terem utolsó falán két egyforma falióra lóg. Szibilla elmondja, hogy a múzeum órása hetente bejön, és a két órát felváltva szedi szét és tisztítja meg: egyik héten az egyiket, másik héten a másikat. Így mindig jár legalább az egyik, és a látogatók mindig láthatják, hogyan dolgozik a rugó.\n\nA séta végén a gyerekek felváltva felhúzhatnak egy régi oktatóórát. Minden fordulatnál érzik, ahogy a rugó egyre feszesebb lesz.\n\nKérdések:\nMióta méri az ember az időt?\nAz ember évezredek óta méri az időt.\nMi hajtja a magas faszekrényben álló órát?\nKét nehéz súly hajtja, amelyeket hetente egyszer kell felhúzni.\nMit tett lehetővé a rugó?\nAzt, hogy az óra kisebb legyen, és az ember magával vihesse.\nMiért voltak olyan díszesek a régi órák?\nMert drágák voltak, és a gazdájuk meg akarta mutatni, mennyi pénze van.\nHogyan tisztítja meg az órás a két egyforma faliórát?\nFelváltva: egyik héten az egyiket, másik héten a másikat.\nMit csinálnak a gyerekek a séta végén?\nFelváltva felhúznak egy régi oktatóórát."
+    },
+    {
+      "title": "Csütörtöki pirítós",
+      "summary": "A columnist's old toaster keeps getting stuck; new ones are too expensive, so a retired engineer neighbour cleans the spring that pops the toast up and becomes a guest at the family's Thursday breakfast.",
+      "newWords": [
+        "csütörtöki",
+        "pirítós",
+        "elakad",
+        "papucs",
+        "újrakezd",
+        "borsos"
+      ],
+      "text": "Nálunk a csütörtöki reggelinek évek óta saját szabálya van: pirítós vajjal és mézzel. Hogy miért éppen csütörtökön, arra már senki sem emlékszik. A gyerekek szerint azért, mert a csütörtök a hét leghosszabb napja, és kell valami jó, amivel elkezdődik.\n\nA pirítóshoz egy régi gépet használunk, még a szüleimtől kaptuk. Múlt héten azonban, éppen a csütörtöki reggelinél, a gép nem engedte el a kenyeret. A szelet elakadt, és lassan égni kezdett. Papucsban, még álmosan rohantam a konyhába, kihúztam a gépet a falból, és egy villával kiszedtem belőle a fekete pirítóst.\n\nMásnap reggel újrakezdtem: új szeletet tettem bele, lenyomtam a kart, és vártam. A kenyér megint elakadt. Harmadszor is újrakezdtem, de a gép pontosan ugyanúgy viselkedett. A család aznap sima kenyeret evett, pirítós nélkül, és senki sem volt boldog.\n\nEste megnéztem az interneten az új gépeket. Az árak meglehetősen borsosak voltak: amelyik tetszett, többe került, mint egy heti élelmiszer az egész családnak. A borsos árak miatt inkább átmentem a szomszédba, Gombár úrhoz, aki nyugdíjas mérnök, és a pincéjében szinte mindent megjavít, amit a ház lakói levisznek hozzá.\n\nGombár úr papucsban nyitott ajtót, és amikor meglátta a gépet a kezemben, mosolyogni kezdett.\n\n– Ez egy igazi régi darab! – mondta. – Tudja, hogy az első ilyen gépek a kenyérnek csak az egyik oldalát sütötték meg? A szeletet kézzel kellett megfordítani, és az ember közben nem mehetett el a gép mellől. Később jött az ötlet, hogy egy rugó dobja fel a kész pirítóst, amikor elkészült. Ez a rugó tartja és engedi el a kenyeret az ön gépében is.\n\nKiderült, hogy a rugó nem tört el, csak az évek alatt apró kenyérdarabok gyűltek alá. Gombár úr kiszedte őket, egy csepp olajat tett egy kis alkatrészre, és a gép újra működött. Megkérdeztem, mennyivel tartozom.\n\n– Semmivel – felelte. – De ha legközelebb pirítós lesz, hozzon át nekem is egy szeletet.\n\nAzóta a csütörtöki reggelinél eggyel több tányért teszünk az asztalra: Gombár úr is átjön, papucsban, mint mi. A gyerekek kérdezik a régi gépekről, ő pedig szívesen mesél. A pirítós pedig többé nem akad el.\n\nKérdések:\nMit esznek a családban a csütörtöki reggelinél?\nPirítóst esznek vajjal és mézzel.\nMi történt a csütörtöki reggelinél múlt héten?\nA szelet elakadt a gépben, és égni kezdett.\nMiért nem vett a szerző új gépet?\nMert az új gépek árai túl borsosak voltak.\nMi volt a gép baja?\nApró kenyérdarabok gyűltek a rugó alá.\nMit kért Gombár úr a javításért?\nAzt, hogy legközelebb neki is vigyenek át egy szelet pirítóst."
+    },
+    {
+      "title": "Huszonöt csapat",
+      "summary": "Eighteen-year-old Kassai Grácia takes her plant-watering reminder device to a national young inventors' competition, loses her self-confidence before the final, and finds it again on stage.",
+      "newWords": [
+        "tizennyolc",
+        "huszonöt",
+        "szekció",
+        "verseng",
+        "továbbjut",
+        "önbizalom",
+        "reszket"
+      ],
+      "text": "Kassai Grácia tizennyolc éves, egy gimnázium végzős diákja Győrben. Fél éve dolgozik egy találmányon: egy kis eszközön, amely figyeli, mennyi vizet kapnak a cserepes növények, és szól a telefonon, ha valamelyiknek víz kell. Az ötlet a nagymamájától jött, akinek a lakása tele van virággal, de egyre nehezebben emlékszik, melyiket mikor locsolta meg.\n\nTavasszal Grácia jelentkezett az ország legnagyobb ifjúsági feltalálóversenyére. A versenyen huszonöt csapat indult, és mindegyik a saját szekciójában versengett: volt egészségügyi, közlekedési és környezetvédelmi szekció. Grácia a környezetvédelmi szekcióba került, ahol hat másik fiatallal versengett.\n\nAz első fordulóban csak egy rövid leírást kellett beküldeni. Grácia továbbjutott. A második fordulóban már egy működő eszközt kellett bemutatni egy online zsűrinek. Grácia innen is továbbjutott, így bekerült a döntőbe, amelyet Budapesten rendeztek.\n\nA döntő előtti estén alig aludt. Nem a találmányában kételkedett, hanem saját magában. Úgy érezte, hogy az önbizalmát, amely az első fordulókban még erős volt, hirtelen elvesztette. Felhívta a fizikatanárát, Torma tanár urat.\n\n– Huszonöt csapatból csak hét jutott be a döntőbe – mondta a tanár. – Ez nem véletlen. Te tizennyolc évesen olyasmit építettél, ami tényleg segít valakinek. Holnap ne a díjra gondolj, hanem csak mondd el, miért csináltad. Az önbizalom nem attól jön, hogy nem izgulsz, hanem attól, hogy tudod, miről beszélsz.\n\nMásnap, amikor Grácia a színpadra lépett, reszketett a keze. A kezében tartott papír is reszketett egy kicsit. Aztán a nagymamájáról kezdett beszélni, a sok virágról és a kis eszközről, amely a nagymama helyett emlékszik. A hangja lassan megnyugodott, és már nem nézett a papírra.\n\nA zsűri egyik tagja megkérdezte, miben más az ő eszköze, mint a boltban kapható hasonló termékek. Grácia elmagyarázta, hogy az övé olcsóbb, és egyetlen gombbal kezelhető, mert idős embereknek készült.\n\nVégül a szekciójában második lett. Az első helyet egy fiú kapta, aki esővizet gyűjtő rendszert tervezett a kerteknek. A díjátadó után Grácia odament hozzá, és gratulált neki.\n\n– Furcsa, de nem éreztem, hogy versengünk – mondta neki. – Inkább azt, hogy mindketten ugyanazért dolgozunk.\n\nHazafelé a vonaton arra gondolt, hogy a díjnál is fontosabbat kapott: visszakapta az önbizalmát.\n\nKérdések:\nHány éves Kassai Grácia, és mit talált fel?\nTizennyolc éves, és egy eszközt talált fel, amely szól, ha egy növénynek víz kell.\nHány csapat indult a versenyen?\nHuszonöt csapat indult.\nMelyik szekcióban versengett Grácia?\nA környezetvédelmi szekcióban versengett.\nMi történt a második fordulóban?\nGrácia bemutatta a működő eszközét, és továbbjutott a döntőbe.\nMi történt a kezével, amikor a színpadra lépett?\nReszketett a keze.\nMit kapott Grácia, ami a díjnál is fontosabb volt?\nVisszakapta az önbizalmát."
+    },
+    {
+      "title": "Műszer a zsebben",
+      "summary": "An interview with Debrecen GP Fábry Gaszton, who built a cheap finger oxygen meter with engineering students and now works on a handheld ultrasound for thyroid checks in his small consulting room.",
+      "newWords": [
+        "vizsgáló",
+        "köröm",
+        "egyezés",
+        "pajzsmirigy",
+        "indokol",
+        "mindnyájunk"
+      ],
+      "text": "Fábry Gaszton háziorvos Debrecenben, de a betegei mellett van egy másik szenvedélye is: a műszerek. Három évvel ezelőtt egyetemi mérnökhallgatókkal közösen kifejlesztett egy olcsó, ujjra húzható oxigénmérőt, amelyet ma már több rendelőben használnak. Vele beszélgettünk.\n\n– Hogyan lesz egy háziorvosból feltaláló?\n\n– Úgy, hogy a vizsgálóban naponta látja, mi hiányzik. Az én vizsgálóm kicsi: egy ágy, egy asztal és egy szekrény fér el benne. Nincs hely nagy gépeknek. Olyan eszközre volt szükségem, amely elfér a zsebemben, és mégis megbízható.\n\n– Mit mér pontosan ez az eszköz?\n\n– Azt, hogy mennyi oxigén van a szervezetben. Fényt küld át az ujjon, és abból számol, hogy mennyi fény jut át rajta.\n\n– Hallottam, hogy ilyenkor a köröm is számít.\n\n– Igen, ez sok beteget meglep. A fénynek a körmön keresztül kell átjutnia. Ha valakinek sötét lakk van a körmén, vagy nagyon vastag a körme, a műszer tévedhet. Ezért mindig megkérem a betegeket, hogy a vizsgálat előtt legalább az egyik körmükről töröljék le a lakkot.\n\n– Honnan tudják, hogy a saját eszközük pontos?\n\n– Kétszáz embert mértünk meg egyszerre a mi eszközünkkel és egy kórház drága gépével. Az egyezés kilencvenhét százalékos volt. Ahol nem volt egyezés, ott szinte mindig a köröm volt az ok: lakk vagy nagyon hideg kéz.\n\n– Most min dolgoznak?\n\n– Egy kézi ultrahangos készüléken, amellyel a pajzsmirigyet lehet megvizsgálni. A pajzsmirigy egy kicsi, pillangó alakú szerv a nyakon, de az egész szervezet működésére hat. Ma, ha a pajzsmirigy gyanús, a beteget továbbküldjük, és sokszor hetekig vár egy vizsgálatra. Ha a saját vizsgálómban öt perc alatt megnézhetném, sok felesleges izgulástól megkímélném az embereket.\n\n– Nem lesz ez nagyon drága?\n\n– Egy kórházi gép valóban sokba kerül, és ott ez az ár indokolt is, mert a gép sokkal többet tud. Egy háziorvosnak viszont nem kell mindent tudnia. Mi azt próbáljuk kitalálni, mi az a kevés, ami tényleg szükséges. Csak azt építjük bele, amit a beteg érdeke indokol. Ami ezen felül van, az csak az árat emeli.\n\n– Miért fontos ez önnek ennyire?\n\n– Mert mindnyájunkat érint. Mindnyájunknak van pajzsmirigye, és előbb vagy később mindnyájunknak szüksége lesz egy egyszerű vizsgálatra. Ha egy ilyen vizsgálat közelebb kerül az emberekhez, az mindenkinek segít.\n\nKérdések:\nMit fejlesztett ki Fábry Gaszton a mérnökhallgatókkal?\nEgy olcsó, ujjra húzható oxigénmérőt.\nMiért kellett a műszernek kicsinek lennie?\nMert a vizsgálója kicsi, és nincs benne hely nagy gépeknek.\nMiért kéri a betegeket, hogy töröljék le a lakkot a körmükről?\nMert a fénynek át kell jutnia a körmön, és a sötét lakk miatt a műszer tévedhet.\nMekkora volt az egyezés a két készülék között?\nKilencvenhét százalékos volt.\nMin dolgoznak most?\nEgy kézi ultrahangos készüléken, amellyel a pajzsmirigyet lehet megvizsgálni.\nMit építenek bele az új készülékbe?\nCsak azt, amit a beteg érdeke indokol."
+    },
+    {
+      "title": "Kerék a skanzenben",
+      "summary": "At a crafts day in the Szentendre open-air museum, seventy-year-old wheelwright Csiszár Gotthárd shows how wheels are made, tells how his grandfather's wheel came back to the family, and his granddaughter plays the violin by the old oil press.",
+      "newWords": [
+        "bognár",
+        "alkotói",
+        "húszas",
+        "visszakerül",
+        "zúz",
+        "hegedűs"
+      ],
+      "text": "Szentendrén, a szabadtéri múzeumban minden nyáron megrendezik a régi szakmák napját. Idén a legtöbb látogató Csiszár Gotthárd körül állt. A 70 éves férfi bognár: kerekeket, szekereket és kocsikat készít fából, pontosan úgy, ahogy a nagyapjától tanulta.\n\n– A kerék talán a legismertebb találmány a világon – mondta a körülötte állóknak. – Mégis kevesen tudják, milyen nehéz jó kereket csinálni. A bognárnak egyszerre kell pontosan számolnia és szépen dolgoznia. Én ezt alkotói munkának tartom, nem csak szakmának.\n\nAz asztalán egy félig kész kerék feküdt. Gotthárd megmutatta, hogy a kerék közepét kemény fából, a külső részét puhább, rugalmasabb fából készíti, mert annak a sok ütést el kell viselnie az úton, és nem szabad eltörnie.\n\n– A régi bognároknak sok alkotói szabadságuk volt – folytatta. – Minden vidékre más szekér kellett: a homokos vidékre könnyebb, a hegyekbe erősebb. Egy jó bognár kitalálta, mire van szüksége a gazdának, és ahhoz alakította a munkáját.\n\nAztán egy sötét, régi kerékre mutatott a fal mellett.\n\n– Ezt a kereket a nagyapám a húszas években készítette. Egy Kecskemét környéki gazda vette meg, és ötven évig használta, aztán nyoma veszett. Tavaly egy gyűjtő hívott fel, hogy egy padláson megtalálta, és a nagyapám jele van rajta. Így a kerék visszakerült a családhoz. Most a múzeumnak adtam, hogy itt mindenki láthassa. Én magam is a húszas éveimben kezdtem tanulni a szakmát, amikor megszűnt az állásom a gyárban. Azt hittem, csak egy évig maradok. Aztán sosem kerültem vissza a gyárba.\n\nDélután a látogatók átmentek a szomszédos épületbe, ahol régen olajat készítettek. A nagy gépet egy fakerék hajtja, amelyet szintén egy bognár csinált. A gépezet egy nehéz gerendát emel fel, majd leejti, és a gerenda zúzza össze a magokat. A múzeum egyik dolgozója elmagyarázta, hogy régen így zúzták a magokat, mielőtt olajat nyertek belőlük. Kézzel zúzni nagyon lassú munka volt, a víz ereje viszont éjjel-nappal hajtotta a kereket.\n\nEste az épület előtt egy hegedűs játszott: Gotthárd unokája, Kordélia. A fiatal hegedűs elmondta, hogy aki hangszert készít, és aki kereket, valójában rokon szakmát űz: mindketten görbe fával dolgoznak, és mindkettőnél a legkisebb hiba is számít.\n\n– A nagyapám kerekei a földön szólnak, az én hangszerem a levegőben – mondta nevetve, aztán játszani kezdett. A hegedűs dalai után a látogatók lassan visszaindultak a kapuhoz, és a múzeum bezárt. A régi kerék pedig visszakerült a helyére, a fal mellé.\n\nKérdések:\nMivel foglalkozik Csiszár Gotthárd?\nBognár: kerekeket, szekereket és kocsikat készít fából.\nMiért tartja a munkáját alkotói munkának?\nMert egyszerre kell pontosan számolnia és szépen dolgoznia.\nMikor készítette a nagyapja a fal melletti kereket?\nA húszas években készítette.\nHogyan került vissza a kerék a családhoz?\nEgy gyűjtő megtalálta egy padláson, és felhívta Gotthárdot.\nMit zúztak régen a szomszédos épületben?\nMagokat zúztak, hogy olajat nyerjenek belőlük.\nKi játszott este az épület előtt?\nGotthárd unokája, Kordélia, aki hegedűs."
+    },
+    {
+      "title": "Levelek a pincéről",
+      "summary": "Three e-mails: a landlady formally asks her tenant Tarr Herman to stop late-night noise in the cellar, he apologises and explains his e-bike invention, and they agree on a solution.",
+      "newWords": [
+        "ezúton",
+        "bérlő",
+        "meggondolatlan",
+        "lezárás",
+        "formális",
+        "bánásmód"
+      ],
+      "text": "Tárgy: A pince használata\n\nTisztelt Tarr Úr!\n\nEzúton tájékoztatom, hogy a ház lakói az elmúlt két hétben többször jelezték nekem, hogy késő este hangos zaj hallatszik a pincéből. Utánanéztem, és kiderült, hogy a zaj az Ön pincerészéből jön, ahol – úgy tudom – valamilyen gépet épít.\n\nSzeretném emlékeztetni, hogy a bérleti szerződés szerint a bérlő a pincét csak tárolásra használhatja. Ezúton kérem, hogy az esti munkát a pincében azonnal fejezze be, vagy keressünk közösen megoldást.\n\nÜdvözlettel:\nBódis Terézia\n\nTárgy: Válasz: A pince használata\n\nTisztelt Bódis Asszony!\n\nKöszönöm a levelét, és elnézést kérek a kellemetlenségért. Igaza van: meggondolatlan voltam. Nem gondoltam bele, hogy a pincéből a hang a lépcsőházba is felmegy, és este tízkor már mindenki pihenni szeretne.\n\nHadd mondjam el, mi folyik odalent. Fél éve egy olcsó elektromos motort fejlesztek régi kerékpárokhoz, amelyet bárki maga is fel tud szerelni. Nappal dolgozom, ezért csak este jut rá időm. A motor próbái valóban hangosak, és meggondolatlan dolog volt ezt éjjel csinálni.\n\nAzt javaslom, hogy a jövőben csak szombaton napközben próbáljam ki a motort, a csendes munkát pedig a lakásban végezzem. A lakóktól is személyesen szeretnék bocsánatot kérni. A próbák végén, a munka lezárásakor, két hónap múlva, a gépet átviszem egy közösségi műhelybe.\n\nTisztelettel:\nTarr Herman\n\nTárgy: Válasz: Válasz: A pince használata\n\nKedves Herman!\n\nElnézést, hogy az első levelem ilyen formális volt. A bérlőkkel mindig így kezdem, mert volt már rossz tapasztalatom. A válaszából azonban látom, hogy Önnel lehet beszélni, ezért a formális hangot el is hagyom.\n\nA javaslatát elfogadom. A szombati próbák nem zavarnak senkit, a lakók pedig biztosan értékelni fogják, hogy személyesen keresi meg őket. Egy kérésem van: amikor elkészül a találmány, mutassa meg nekem is. A férjem negyven éve ugyanazzal a kerékpárral jár a piacra, és egyre nehezebben megy fel vele a dombon.\n\nRészemről az ügyet lezártnak tekintem.\n\nÜdvözlettel:\nTerézia\n\nTárgy: Köszönöm\n\nKedves Terézia!\n\nEzúton is köszönöm a megértő bánásmódot. Bérlőként ritkán tapasztal ilyet az ember, és be kell vallanom, hogy egy formális levél után nem ilyen választ vártam. Az ilyen bánásmód nekem is tanulság: legközelebb előbb kérdezek, aztán kezdek bele valamibe.\n\nA férje kerékpárját szívesen kipróbálom elsőként. Ha minden jól megy, a munka lezárására a férje már gond nélkül feljut vele a dombra.\n\nÜdvözlettel:\nHerman\n\nKérdések:\nMiért írt levelet Bódis Terézia Tarr Hermannak?\nMert a lakók szerint késő este hangos zaj hallatszott a pincéből.\nMire használhatja a bérlő a pincét a szerződés szerint?\nCsak tárolásra.\nMit fejleszt Herman a pincében?\nEgy olcsó elektromos motort régi kerékpárokhoz.\nMit javasol Herman?\nAzt, hogy csak szombaton napközben próbálja ki a motort, a csendes munkát pedig a lakásban végezze.\nMiért volt Terézia első levele olyan formális?\nMert a bérlőkkel mindig így kezd, mert volt már rossz tapasztalata.\nMit kér Terézia Hermantól?\nHogy mutassa meg neki is a találmányt, mert a férje egyre nehezebben jut fel a dombon."
+    },
+    {
+      "title": "Meggazdagít-e egy ötlet?",
+      "summary": "A reflective column asks whether inventions make their inventors rich, looking at a representative survey, unequal chances in disadvantaged places and the moral side of profiting from inventions that heal.",
+      "newWords": [
+        "reprezentatív",
+        "gazdagság",
+        "függvénye",
+        "összefügg",
+        "koldus",
+        "hátrányos",
+        "morális"
+      ],
+      "text": "Ha egy gyereket megkérdezünk, milyen egy feltaláló, valószínűleg egy kócos hajú, kicsit szórakozott embert rajzol, aki a garázsban dolgozik, és egy nap egyetlen ötlettel milliókat keres. A kép első fele néha igaz, a második fele azonban ritkán.\n\nEgy tavalyi reprezentatív felmérés szerint a felnőttek több mint fele úgy gondolja, hogy egy jó találmány szinte biztos gazdagságot hoz. A felmérés azért reprezentatív, mert a megkérdezettek kor, nem és lakóhely szerint pontosan úgy oszlanak meg, mint az egész társadalom. A valóság azonban más: a legtöbb feltaláló soha nem keres annyit a találmányával, amennyit ráköltött.\n\nHogy egy ötletből lesz-e gazdagság, az sok mindennek a függvénye: a szerencsének, a pénznek, amelyet a gyártásba lehet fektetni, és annak, hogy a feltaláló ért-e az üzlethez. A tehetség és a siker persze összefügg, de sokkal lazábban, mint hinnénk. Aki remek mérnök, abból nem biztos, hogy jó kereskedő is lesz.\n\nA múltban sok olyan feltaláló volt, aki idős korára szinte koldusként élt, miközben mások az ő találmányán gazdagodtak meg. A koldus és a gazdag ember között sokszor nem a tehetség, hanem egy jól vagy rosszul megírt szerződés volt a különbség. Hogy valaki koldus marad-e, vagy meggazdagodik, ma is gyakran egy ügyes tanácsadó függvénye.\n\nA lehetőségek ráadásul nem egyformák. Egy hátrányos helyzetű kis faluban élő tehetséges fiatalnak sokkal nehezebb eljutnia egy jó műhelyig, egy tanárig vagy egy befektetőig, mint egy nagyvárosi diáknak. A kutatások azt mutatják, hogy az iskolázottság, a lakóhely és a találmányok száma szorosan összefügg. Ez nem azt jelenti, hogy a hátrányos helyzetű fiatalok kevésbé tehetségesek, hanem azt, hogy kevesebb esélyt kapnak.\n\nVégül van egy morális kérdés is. Ha valaki olyan gyógyszert vagy készüléket talál fel, amely betegeket gyógyít, szabad-e a lehető legtöbb pénzt kérnie érte? Az egyik oldal szerint igen, hiszen a feltaláló éveket és sok pénzt fektetett a munkájába, és ha nem kap érte jutalmat, senki sem fog többé feltalálni semmit. A másik oldal szerint egy gyógyító találmánynál a haszonnak határa van, és ezt a határt morális okokból kell meghúzni, nem csak üzleti szempontból.\n\nÉn úgy gondolom, hogy mindkét oldalnak igaza van, mert a két szempont összefügg, és nem kell választani közöttük. A jó ötletnek legyen jutalma, de az ne zárja el mások elől a segítséget. A feltaláló gazdagsága és a társadalom haszna nem zárja ki egymást.\n\nKérdések:\nMit gondol a felnőttek több mint fele a reprezentatív felmérés szerint?\nAzt, hogy egy jó találmány szinte biztos gazdagságot hoz.\nMinek a függvénye, hogy egy ötletből lesz-e gazdagság?\nA szerencsének, a pénznek és annak, hogy a feltaláló ért-e az üzlethez.\nMi volt sokszor a különbség a koldus és a gazdag feltaláló között?\nEgy jól vagy rosszul megírt szerződés.\nMiért nehezebb a dolga egy hátrányos helyzetű faluban élő fiatalnak?\nMert nehezebben jut el egy jó műhelyig, egy tanárig vagy egy befektetőig.\nMilyen morális kérdést tesz fel a szerző?\nAzt, hogy szabad-e a lehető legtöbb pénzt kérni egy gyógyító találmányért."
+    },
+    {
+      "title": "Áram a tanyán",
+      "summary": "Energy engineer Antalfi Ivola visits an elderly couple's hard-to-reach farmstead near Kiskunmajsa and plans a solar power system that also regulates the temperature of the old woman's small glasshouse.",
+      "newWords": [
+        "energetikai",
+        "megközelíthető",
+        "beér",
+        "körzeti",
+        "gondozása",
+        "szabályozása"
+      ],
+      "text": "Antalfi Ivola energetikai mérnök. Egy Kecskeméten működő kis cégnél dolgozik, amely a nap energiájával lát el olyan házakat, ahová nem ér el a vezeték, vagy csak nagyon drágán lehetne odavinni.\n\nEgy márciusi reggelen Ivola Kiskunmajsa felé indult. A Rostás házaspár tanyája a térkép szerint csak tizenkét kilométerre van a várostól, mégis nehezen megközelíthető: az utolsó három kilométeren nincs rendes út, csak homok. Esős időben autóval szinte meg sem lehet közelíteni, ilyenkor a tanya csak gyalog megközelíthető.\n\nIvola dél előtt beért a tanyára. Rostás Eulália, a 81 éves asszony már az udvaron várta.\n\n– De jó, hogy beért, mielőtt elered az eső! – mondta. – A körzeti ápolónk múlt héten kétszer is elakadt a homokban.\n\nA tanyán eddig egy régi, hangos gép adta az áramot, amely benzinnel működött. Sokat fogyasztott, és gyakran leállt. Eulália néni gyógyszereit, amelyeket hidegen kell tartani, ezért a körzeti ápoló hozta ki hetente, mert otthon nem volt megbízható a hűtő. A körzeti orvos is többször mondta már, hogy ez így nem mehet tovább.\n\nIvola leült a konyhában az asztalhoz, és elmagyarázta a terveit. A tetőre napelemek kerülnek, a kamrába pedig egy nagy akkumulátor, amely éjszakára is eltárolja az energiát. Az energetikai rendszer szíve egy kis doboz lesz a falon, amely figyeli, mennyi áramot használ a hűtő, a lámpák és a kút motorja.\n\n– És a kis üvegházam? – kérdezte Eulália néni. – Abban nevelem a paradicsomot. A kert gondozása az én dolgom, a férjem a hátával már nem bírja.\n\nIvola megígérte, hogy az üvegház hőmérsékletének szabályozása is a rendszer része lesz: ha túl meleg van, kinyílik egy kis ablak, ha túl hideg, bekapcsol egy kis fűtés. A szabályozása teljesen automatikus, semmit sem kell állítani rajta.\n\n– A paradicsom gondozását azért nem veszi át a gép? – nevetett az idős asszony.\n\n– Azt nem – felelte Ivola. – Az továbbra is az ön dolga.\n\nKét héttel később a szerelők is beértek a tanyára, és három nap alatt mindent felszereltek. Azóta a gyógyszerek a saját hűtőben állnak, az üvegházban pedig egyenletes a meleg. A körzeti ápoló továbbra is kijár, de most már csak azért, hogy megnézze, hogy vannak, és megigyon egy kávét Eulália nénivel.\n\nKérdések:\nMivel foglalkozik Antalfi Ivola?\nEnergetikai mérnök, és a nap energiájával lát el távoli házakat.\nMiért nehezen megközelíthető a Rostás házaspár tanyája?\nMert az utolsó három kilométeren nincs rendes út, csak homok.\nMiért hozta ki eddig a körzeti ápoló a gyógyszereket?\nMert otthon nem volt megbízható a hűtő.\nKinek a dolga a kert gondozása?\nEulália nénié, mert a férje a hátával már nem bírja.\nHogyan működik az üvegház hőmérsékletének szabályozása?\nHa túl meleg van, kinyílik egy kis ablak, ha túl hideg, bekapcsol egy kis fűtés."
+    },
+    {
+      "title": "Szilveszter a hegyekben",
+      "summary": "Two young engineers in Miskolc, Gerlei Viktorina and Jósa Hubertusz, keep their heated sweater secret and test it on New Year's Eve in the snow in the Bükk hills.",
+      "newWords": [
+        "pulóver",
+        "titkolózik",
+        "szilveszter",
+        "vakmerő",
+        "átöltözik",
+        "megráz"
+      ],
+      "text": "Gerlei Viktorina és Jósa Hubertusz fiatal mérnökök, Miskolcon dolgoznak egy kis műhelyben. Két éve fejlesztenek egy pulóvert, amelybe nagyon vékony fűtő szálakat szőttek. A szálakat egy kis akkumulátor fűti, és a pulóver egyetlen gombbal három fokozatban állítható.\n\nAz elmúlt hónapokban mindketten sokat titkolóztak. A barátaik kérdezték, min dolgoznak, de ők csak annyit mondtak: „valami meleg dolgon”. Nem szerettek titkolózni, de okuk volt rá: amíg a találmány minden papírja nem volt kész, nem akarták, hogy az ötletről bárki tudjon.\n\nA legnagyobb próbát szilveszterre tervezték. Hubertusz ötlete volt, hogy az év utolsó éjszakáját a Bükk egyik kis szállásán töltsék, és éjfélkor kint, a hóban köszöntsék az új évet, csak a pulóverben. Viktorina először vakmerőnek tartotta a tervet.\n\n– Mínusz tizenöt fok lesz – mondta. – Ez nem bátorság, hanem vakmerő ötlet.\n\n– Nem leszünk kint sokáig – felelte Hubertusz. – Csak fél óráig. És itt lesz velünk egy kamera, amely a meleget méri, hogy lássuk, mi történik.\n\nSzilveszter délutánján felmentek a szállásra. Este átöltöztek: levették a vastag kabátot, és felvették a két pulóvert, alájuk csak egy vékony pólót. A ház többi vendége, egy család három gyerekkel Budapestről, érdeklődve nézte őket.\n\n– Ilyen hidegben pulóverben? Ez elég vakmerő – mondta az apa.\n\nFél 12-kor kimentek a hóba. Az első percekben Viktorina még fázott, aztán érezte, ahogy a pulóver lassan meleg lesz a hátán. Hubertusz a kamerát figyelte: a pulóver alatt a test hőmérséklete végig egyenletes maradt. Közben elkezdett esni a hó.\n\nÉjfélkor a család is kijött az udvarra. Hubertusz megrázta a pulóverét, hogy lehulljon róla a hó, és boldog új évet kívánt mindenkinek. Az apa megrázta a kezét, és megkérdezte, hol lehet ilyen pulóvert venni.\n\n– Még sehol – felelte Viktorina. – De tavasszal már nem kell titkolóznunk.\n\nFél egykor visszamentek a házba, és átöltöztek. A gyerekek még sokáig kérdezgették őket a pulóverről, és mindegyik fel akarta próbálni. Hubertusz éjjel leírta, mit mutatott a kamera. Az utolsó sorba csak ennyit írt: „Ez volt életem legmelegebb szilvesztere.”\n\nKérdések:\nMit fejlesztenek Gerlei Viktorina és Jósa Hubertusz?\nEgy pulóvert, amelyet egy kis akkumulátor fűt.\nMiért titkolóztak a barátaik előtt?\nMert amíg a találmány minden papírja nem volt kész, nem akarták, hogy az ötletről bárki tudjon.\nMit gondolt Viktorina először Hubertusz szilveszteri tervéről?\nAzt, hogy vakmerő ötlet.\nMit csináltak este a szálláson?\nÁtöltöztek, és felvették a két pulóvert.\nMit csinált Hubertusz éjfélkor?\nMegrázta a pulóverét, hogy lehulljon róla a hó, és boldog új évet kívánt mindenkinek."
+    },
+    {
+      "title": "Éhség a hajón",
+      "summary": "Librarian Dévényi Fernanda gives a library talk in Szeged on how the hunger of long sea voyages led to food kept in sealed jars and tins and, decades later, to the tin opener.",
+      "newWords": [
+        "felfedező",
+        "éhség",
+        "poloska",
+        "vigasz",
+        "mérföldes",
+        "olvasmány"
+      ],
+      "text": "Szegeden, a városi könyvtárban Dévényi Fernanda könyvtáros minden hónapban előadást tart a konyha találmányairól. Ezen a csütörtökön a dobozba zárt étel volt a téma, és a terem tele lett gyerekekkel és szülőkkel.\n\n– Gondoljanak a régi nagy felfedezőkre – kezdte Fernanda. – Hónapokig, néha évekig utaztak hajón ismeretlen tengereken. A legnagyobb gondjuk gyakran nem a vihar volt, hanem az éhség.\n\nElmondta, hogy a felfedezők hajóin a friss étel néhány hét alatt elfogyott vagy megromlott. Maradt a kemény, száraz keksz, amelybe sokszor apró bogarak költöztek. Egy régi könyv szerint a hajósok ágyában poloskák laktak, és a poloska miatt sokan inkább a fedélzeten aludtak.\n\n– Az éhség nemcsak a testnek ártott – folytatta Fernanda –, hanem a hangulatnak is. Egy felfedező naplójában azt olvastam, hogy hetek óta csak sós húst és kekszet ettek, és a legnagyobb vigasz egy kis üveg méz volt, amelyet a kapitány ünnepeken osztott szét. Egy kanál méz volt az egyetlen vigasz egy hosszú, szürke héten.\n\nAztán arról beszélt, hogyan változott meg minden. Egy szakács rájött, hogy ha az ételt üvegbe zárják, és az üveget hosszan főzik, az étel hónapokig jó marad. Néhány évvel később az üveg helyett már fémdobozt használtak, mert az nem tört el a hajón. A több ezer mérföldes utakon így végre jutott zöldség és hús is a hajósoknak.\n\n– És most egy kérdés a gyerekeknek – mondta Fernanda mosolyogva. – Szerintetek mivel nyitották ki az első dobozokat?\n\nA gyerekek tippeltek: késsel, ollóval, egy nagy kővel.\n\n– Kalapáccsal – felelte. – A konzervnyitót csak évtizedekkel később találták fel.\n\nA terem nevetett. Fernanda elmondta, hogy az étel tárolása azóta mérföldes léptekkel fejlődött: jött a hűtő, a fagyasztó és a szárított étel, amelyet ma az űrhajósok is visznek magukkal.\n\nAz előadás végén minden család kapott egy listát Fernanda kedvenc olvasmányaiból: régi hajósok naplóit, gyerekeknek írt könyveket a felfedezőkről és egy könyvet a dobozba zárt étel történetéről.\n\n– Az én kedvenc olvasmányom gyerekkoromban egy felfedező naplója volt – mondta végül. – Azóta is mindig van egy üveg méz a polcomon.\n\nKérdések:\nMi volt a régi felfedezők legnagyobb gondja a hosszú utakon?\nGyakran az éhség volt a legnagyobb gondjuk.\nMiért aludtak sokan a fedélzeten?\nMert a hajósok ágyában poloskák laktak.\nMi volt a legnagyobb vigasz egy felfedező naplója szerint?\nEgy kis üveg méz, amelyet a kapitány ünnepeken osztott szét.\nMivel nyitották ki az első dobozokat?\nKalapáccsal.\nMit kaptak a családok az előadás végén?\nEgy listát Fernanda kedvenc olvasmányaiból."
+    }
+  ]
+}
