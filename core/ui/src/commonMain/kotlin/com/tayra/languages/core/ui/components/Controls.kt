@@ -1,5 +1,14 @@
 package com.tayra.languages.core.ui.components
 
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.verticalScroll
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.layout.heightIn
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.BoxWithConstraints
+import androidx.compose.foundation.interaction.collectIsFocusedAsState
+import androidx.compose.foundation.interaction.MutableInteractionSource
+import androidx.compose.foundation.BorderStroke
 import androidx.compose.animation.animateColorAsState
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -293,6 +302,47 @@ fun AppTextField(
     shape = AppShapes.control,
     colors = colors,
 )
+
+/**
+ * A text field for a whole text, outlined like [AppTextField] and as tall as [modifier] makes it: a
+ * longer text scrolls inside, with [EdgeScrollbar] beside it. [fieldModifier] goes on the field itself.
+ */
+@Composable
+fun TextArea(
+    value: String,
+    onValueChange: (String) -> Unit,
+    modifier: Modifier = Modifier,
+    placeholder: String? = null,
+    textStyle: TextStyle = MaterialTheme.typography.bodyLarge,
+    fieldModifier: Modifier = Modifier,
+) {
+    val colors = MaterialTheme.colorScheme
+    val interaction = remember { MutableInteractionSource() }
+    val focused by interaction.collectIsFocusedAsState()
+    val scroll = rememberScrollState()
+    val border = if (focused) BorderStroke(2.dp, colors.primary) else BorderStroke(1.dp, colors.outline)
+    BoxWithConstraints(modifier.clip(AppShapes.control).border(border, AppShapes.control)) {
+        val viewport = maxHeight
+        Box(Modifier.fillMaxSize().verticalScroll(scroll)) {
+            BasicTextField(
+                value = value,
+                onValueChange = onValueChange,
+                // As tall as the box at least, so a click anywhere in it starts typing.
+                modifier = Modifier.fillMaxWidth().heightIn(min = viewport).padding(AppSpacing.l).then(fieldModifier),
+                textStyle = textStyle.copy(color = colors.onSurface),
+                cursorBrush = SolidColor(colors.primary),
+                interactionSource = interaction,
+                decorationBox = { field ->
+                    Box {
+                        if (value.isEmpty() && placeholder != null) Text(placeholder, style = textStyle, color = colors.onSurfaceVariant)
+                        field()
+                    }
+                },
+            )
+        }
+        EdgeScrollbar(scroll)
+    }
+}
 
 /** A dialog with a title, a body and its buttons (usually [QuietButton]s), shaped like the app's other large containers. */
 @Composable

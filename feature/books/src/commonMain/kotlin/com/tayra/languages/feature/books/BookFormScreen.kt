@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.books
 
+import com.tayra.languages.core.ui.components.TextArea
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -206,10 +207,10 @@ private fun BookContentCard(
         when (if (state.isNew) source else ContentSource.PASTE) {
             ContentSource.PASTE -> {
                 FieldLabel(tr("Text"))
-                AppTextField(
+                TextArea(
                     value = state.draft.text,
                     onValueChange = { text -> viewModel.update { it.copy(text = text) } },
-                    placeholder = { Text(state.language?.name?.let { tr("Paste your {0} text here…", languageInSentence(it, LanguageCase.PREPOSITIONAL)) } ?: tr("Paste your text here…")) },
+                    placeholder = state.language?.name?.let { tr("Paste your {0} text here…", languageInSentence(it, LanguageCase.PREPOSITIONAL)) } ?: tr("Paste your text here…"),
                     textStyle = MaterialTheme.typography.bodyLarge.copy(textDirection = if (rtl) TextDirection.Rtl else TextDirection.Ltr),
                     modifier = Modifier.fillMaxWidth().height(CONTENT_HEIGHT),
                 )

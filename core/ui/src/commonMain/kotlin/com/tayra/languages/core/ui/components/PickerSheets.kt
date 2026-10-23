@@ -45,7 +45,7 @@ fun <T> PickerSheet(
 ) {
     val colors = MaterialTheme.colorScheme
     AppBottomSheet(onDismissRequest = onDismiss) {
-        Column(Modifier.fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = AppSpacing.xl, vertical = AppSpacing.xs).padding(bottom = AppSpacing.l)) {
+        ScrollColumn(Modifier.fillMaxWidth(), contentModifier = Modifier.padding(horizontal = AppSpacing.xl, vertical = AppSpacing.xs).padding(bottom = AppSpacing.l)) {
             Text(title, Modifier.padding(bottom = AppSpacing.s), style = AppText.headline)
             options.forEachIndexed { i, option ->
                 val heading = group?.invoke(option)
@@ -82,7 +82,7 @@ fun <T> LanguagePickerSheet(
 ) {
     val colors = MaterialTheme.colorScheme
     AppBottomSheet(onDismissRequest = onDismiss) {
-        Column(Modifier.fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = AppSpacing.xl, vertical = AppSpacing.xs).padding(bottom = AppSpacing.l)) {
+        ScrollColumn(Modifier.fillMaxWidth(), contentModifier = Modifier.padding(horizontal = AppSpacing.xl, vertical = AppSpacing.xs).padding(bottom = AppSpacing.l)) {
             Text(title, Modifier.padding(bottom = AppSpacing.s), style = AppText.headline)
             options.forEach { option ->
                 val chosen = option == selected

@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.frequency
 
+import com.tayra.languages.core.ui.components.ScrollColumn
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
@@ -66,7 +67,7 @@ internal fun PhoneVocabularySettingsScreen(state: VocabularySettingsUiState, onP
         topBar = { AppTopBar(title = tr("Vocabulary settings"), onNavigate = onNavigate, onBack = onBack, section = NavSection.SETTINGS) },
         containerColor = colors.surfaceContainerLow,
     ) { padding ->
-        Column(Modifier.padding(padding).fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = AppSpacing.l, vertical = AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
+        ScrollColumn(Modifier.padding(padding).fillMaxWidth(), contentModifier = Modifier.padding(horizontal = AppSpacing.l, vertical = AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
             if (list == null) {
                 Text(
                     if (state.languageName.isEmpty()) tr("There is no word frequency list for this language, so a level cannot be set.")
@@ -74,7 +75,7 @@ internal fun PhoneVocabularySettingsScreen(state: VocabularySettingsUiState, onP
                     style = MaterialTheme.typography.bodyLarge,
                     color = colors.onSurfaceVariant,
                 )
-                return@Column
+                return@ScrollColumn
             }
             val level = state.shownLevel
             val choices = remember(list) { VocabularyLevelService.choices(list.words.size) }

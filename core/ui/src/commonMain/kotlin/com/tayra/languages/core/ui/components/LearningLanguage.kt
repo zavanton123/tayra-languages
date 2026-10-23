@@ -1,5 +1,8 @@
 package com.tayra.languages.core.ui.components
 
+import androidx.compose.runtime.mutableIntStateOf
+import androidx.compose.ui.platform.LocalDensity
+import androidx.compose.ui.layout.onSizeChanged
 import com.tayra.languages.core.domain.morphology.ChineseScript
 import androidx.compose.foundation.LocalIndication
 import androidx.compose.foundation.background
@@ -190,6 +193,7 @@ fun ChooseLanguageScreen(onBack: () -> Unit) {
     // The rows before the languages: search, the current language (when shown) and the heading.
     val rowsBefore = if (current != null) 4 else 2
     val letters = others.map { tr(it.label).first().uppercaseChar() }.distinct()
+    var indexWidth by remember { mutableIntStateOf(0) }
     Scaffold(
         topBar = {
             CenterAlignedTopAppBar(
@@ -250,7 +254,7 @@ fun ChooseLanguageScreen(onBack: () -> Unit) {
                 }}
             }
             if (letters.size > 1) {
-                Column(Modifier.align(Alignment.CenterEnd).padding(end = AppSpacing.xs), horizontalAlignment = Alignment.CenterHorizontally) {
+                Column(Modifier.align(Alignment.CenterEnd).onSizeChanged { indexWidth = it.width }.padding(end = AppSpacing.xs), horizontalAlignment = Alignment.CenterHorizontally) {
                     letters.forEach { letter ->
                         Text(
                             letter.toString(),
@@ -267,6 +271,8 @@ fun ChooseLanguageScreen(onBack: () -> Unit) {
                     }
                 }
             }
+            // On the desktop, the bar runs beside the letters rather than under them.
+            EdgeScrollbar(list, Modifier.padding(end = with(LocalDensity.current) { indexWidth.toDp() }))
         }
     }
 }

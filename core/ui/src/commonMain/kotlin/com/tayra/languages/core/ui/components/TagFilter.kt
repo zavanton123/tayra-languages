@@ -71,7 +71,7 @@ fun TagFilterButton(
 @Composable
 fun TagFilterSheet(available: List<String>, selected: Set<String>, matchAll: Boolean, onApply: (tags: Set<String>, matchAll: Boolean) -> Unit, onDismiss: () -> Unit) {
     AppBottomSheet(onDismissRequest = onDismiss) {
-        Column(Modifier.fillMaxWidth().verticalScroll(rememberScrollState()).padding(bottom = AppSpacing.m)) {
+        ScrollColumn(Modifier.fillMaxWidth(), contentModifier = Modifier.padding(bottom = AppSpacing.m)) {
             TagFilterBody(available, selected, matchAll, onApply)
         }
     }

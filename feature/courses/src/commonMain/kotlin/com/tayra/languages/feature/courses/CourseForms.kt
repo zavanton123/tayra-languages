@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.courses
 
+import com.tayra.languages.core.ui.components.TextArea
 import androidx.compose.material3.Icon
 import com.tayra.languages.core.ui.components.Segment
 import com.tayra.languages.core.ui.components.SegmentedToggle
@@ -421,11 +422,12 @@ internal fun LessonFormContent(
         // As in the book form, the text can come from a file or a web page, and lands here to check.
         if (state.isNew && onImportFile != null) LessonSource(state, onImportFile, onImportWebPage)
         LabeledField(tr("Text"), Modifier.padding(bottom = AppSpacing.l)) {
-            AppTextField(
+            TextArea(
                 value = state.draft.text,
                 onValueChange = { text -> onChange { it.copy(text = text) } },
-                placeholder = { Text(state.languageName.ifEmpty { null }?.let { tr("Paste or write the {0} text to read…", languageInSentence(it, LanguageCase.PREPOSITIONAL)) } ?: tr("Paste or write the text to read…")) },
-                modifier = Modifier.fillMaxWidth().height(LESSON_TEXT_HEIGHT).testTag("lesson-text"),
+                placeholder = state.languageName.ifEmpty { null }?.let { tr("Paste or write the {0} text to read…", languageInSentence(it, LanguageCase.PREPOSITIONAL)) } ?: tr("Paste or write the text to read…"),
+                modifier = Modifier.fillMaxWidth().height(LESSON_TEXT_HEIGHT),
+                fieldModifier = Modifier.testTag("lesson-text"),
             )
             val words = state.draft.text.split(Regex("\\s+")).count { word -> word.any { it.isLetterOrDigit() } }
             Text(

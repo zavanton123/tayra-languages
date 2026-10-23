@@ -1,5 +1,7 @@
 package com.tayra.languages.feature.flashcards
 
+import com.tayra.languages.core.ui.components.ScrollColumn
+import com.tayra.languages.core.ui.components.EdgeScrollbar
 import kotlin.math.roundToInt
 import kotlin.time.Duration.Companion.minutes
 import kotlin.time.Duration.Companion.hours
@@ -226,58 +228,62 @@ internal fun FlashcardsContent(state: FlashcardsUiState, speaker: Speaker?, acti
     // The page holds the keys: it takes them with each card and answer, and back when the window or the screen returns to the front.
     LaunchedEffect(state.card?.termId, state.revealed, state.canUndo) { runCatching { focus.requestFocus() } }
     LifecycleEventEffect(Lifecycle.Event.ON_RESUME) { runCatching { focus.requestFocus() } }
-    Box(
-        // A phone scrolls the card alone, under buttons that stay put; a wide screen scrolls the page.
-        modifier.fillMaxSize().then(if (compact) Modifier else Modifier.verticalScroll(rememberScrollState()))
-            .focusRequester(focus).focusable().testTag("flashcards-keys")
-            .onPreviewKeyEvent { event ->
-                if (event.type != KeyEventType.KeyDown || state.card == null) return@onPreviewKeyEvent false
-                val pressed = HotkeyMatcher.fromEvent(event)
-                when {
-                    // The configurable shortcut (Ctrl+Z unless changed), and the left arrow always.
-                    pressed != null && pressed == hotkeys[HotkeyAction.FLASHCARDS_PREVIOUS] -> if (state.canUndo) actions.onUndo()
-                    event.key == Key.DirectionLeft -> if (state.canUndo) actions.onUndo()
-                    event.isCtrlPressed || event.isMetaPressed -> return@onPreviewKeyEvent false
-                    !state.revealed && (event.key == Key.Spacebar || event.key == Key.Enter) -> actions.onReveal()
-                    !state.revealed -> return@onPreviewKeyEvent false
-                    event.key == Key.Spacebar || event.key == Key.Enter || event.key == Key.Three -> actions.onAnswer(Rating.GOOD)
-                    event.key == Key.One -> actions.onAnswer(Rating.AGAIN)
-                    // With two buttons the hidden answers have no keys either, so none is given by accident.
-                    event.key == Key.Two && !state.twoButtons -> actions.onAnswer(Rating.HARD)
-                    event.key == Key.Four && !state.twoButtons -> actions.onAnswer(Rating.EASY)
-                    else -> return@onPreviewKeyEvent false
-                }
-                true
-            },
-        contentAlignment = Alignment.TopCenter,
-    ) {
-        if (compact) {
-            PhoneReview(state, speaker, actions)
-        } else {
-            Column(
-                Modifier.widthIn(max = REVIEW_WIDTH).fillMaxWidth().padding(horizontal = if (compact) AppSpacing.l else AppSpacing.xxxl, vertical = if (compact) AppSpacing.l else AppSpacing.xxxl),
-                verticalArrangement = Arrangement.spacedBy(if (compact) AppSpacing.l else AppSpacing.xxl),
-            ) {
-                ScreenHeader(
-                    tr("Flashcards"),
-                    subtitle = if (state.languageName.isEmpty()) tr("Review the words you are learning.") else tr("Review the {0} words you are learning.", languageInSentence(state.languageName, LanguageCase.PREPOSITIONAL)),
+    val scroll = rememberScrollState()
+    Box(modifier.fillMaxSize()) {
+        Box(
+            // A phone scrolls the card alone, under buttons that stay put; a wide screen scrolls the page.
+            Modifier.fillMaxSize().then(if (compact) Modifier else Modifier.verticalScroll(scroll))
+                .focusRequester(focus).focusable().testTag("flashcards-keys")
+                .onPreviewKeyEvent { event ->
+                    if (event.type != KeyEventType.KeyDown || state.card == null) return@onPreviewKeyEvent false
+                    val pressed = HotkeyMatcher.fromEvent(event)
+                    when {
+                        // The configurable shortcut (Ctrl+Z unless changed), and the left arrow always.
+                        pressed != null && pressed == hotkeys[HotkeyAction.FLASHCARDS_PREVIOUS] -> if (state.canUndo) actions.onUndo()
+                        event.key == Key.DirectionLeft -> if (state.canUndo) actions.onUndo()
+                        event.isCtrlPressed || event.isMetaPressed -> return@onPreviewKeyEvent false
+                        !state.revealed && (event.key == Key.Spacebar || event.key == Key.Enter) -> actions.onReveal()
+                        !state.revealed -> return@onPreviewKeyEvent false
+                        event.key == Key.Spacebar || event.key == Key.Enter || event.key == Key.Three -> actions.onAnswer(Rating.GOOD)
+                        event.key == Key.One -> actions.onAnswer(Rating.AGAIN)
+                        // With two buttons the hidden answers have no keys either, so none is given by accident.
+                        event.key == Key.Two && !state.twoButtons -> actions.onAnswer(Rating.HARD)
+                        event.key == Key.Four && !state.twoButtons -> actions.onAnswer(Rating.EASY)
+                        else -> return@onPreviewKeyEvent false
+                    }
+                    true
+                },
+            contentAlignment = Alignment.TopCenter,
+        ) {
+            if (compact) {
+                PhoneReview(state, speaker, actions)
+            } else {
+                Column(
+                    Modifier.widthIn(max = REVIEW_WIDTH).fillMaxWidth().padding(horizontal = if (compact) AppSpacing.l else AppSpacing.xxxl, vertical = if (compact) AppSpacing.l else AppSpacing.xxxl),
+                    verticalArrangement = Arrangement.spacedBy(if (compact) AppSpacing.l else AppSpacing.xxl),
                 ) {
-                    // The phone's bar carries this button instead.
-                    if (!compact) SecondaryButton(tr("Browse flashcards"), onClick = actions.onBrowse, modifier = Modifier.testTag("browse-flashcards"), icon = AppIcons.ViewList)
-                }
-                Progress(state, compact)
-                val card = state.card
-                if (card == null) {
-                    Finished(state, actions)
-                } else {
-                    // Each card fades in as it comes up.
-                    key(card.termId) { Appear(grow = true) { Card(card, state.revealed, speaker, compact, actions.onReveal) } }
-                    // The answers fade in as the card turns over.
-                    if (state.revealed) Appear { Answers(actions, compact, state.twoButtons, state.waits) }
-                    CardFooter(card, state.canUndo, actions, compact)
+                    ScreenHeader(
+                        tr("Flashcards"),
+                        subtitle = if (state.languageName.isEmpty()) tr("Review the words you are learning.") else tr("Review the {0} words you are learning.", languageInSentence(state.languageName, LanguageCase.PREPOSITIONAL)),
+                    ) {
+                        // The phone's bar carries this button instead.
+                        if (!compact) SecondaryButton(tr("Browse flashcards"), onClick = actions.onBrowse, modifier = Modifier.testTag("browse-flashcards"), icon = AppIcons.ViewList)
+                    }
+                    Progress(state, compact)
+                    val card = state.card
+                    if (card == null) {
+                        Finished(state, actions)
+                    } else {
+                        // Each card fades in as it comes up.
+                        key(card.termId) { Appear(grow = true) { Card(card, state.revealed, speaker, compact, actions.onReveal) } }
+                        // The answers fade in as the card turns over.
+                        if (state.revealed) Appear { Answers(actions, compact, state.twoButtons, state.waits) }
+                        CardFooter(card, state.canUndo, actions, compact)
+                    }
                 }
             }
         }
+        EdgeScrollbar(scroll)
     }
 }
 
@@ -288,8 +294,9 @@ internal fun FlashcardsContent(state: FlashcardsUiState, speaker: Speaker?, acti
 @Composable
 private fun PhoneReview(state: FlashcardsUiState, speaker: Speaker?, actions: FlashcardActions) {
     Column(Modifier.fillMaxSize()) {
-        Column(
-            Modifier.weight(1f).fillMaxWidth().verticalScroll(rememberScrollState()).padding(AppSpacing.l),
+        ScrollColumn(
+            Modifier.weight(1f).fillMaxWidth(),
+            contentModifier = Modifier.padding(AppSpacing.l),
             verticalArrangement = Arrangement.spacedBy(AppSpacing.l),
         ) {
             // The phone's bar carries the Browse button.

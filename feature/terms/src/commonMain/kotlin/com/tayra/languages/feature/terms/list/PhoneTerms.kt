@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.terms.list
 
+import com.tayra.languages.core.ui.components.ScrollColumn
 import com.tayra.languages.core.ui.components.chosenFor
 import com.tayra.languages.core.ui.components.shownName
 import com.tayra.languages.core.ui.components.shownStatuses
@@ -275,7 +276,7 @@ private fun PhoneFiltersSheet(state: TermsListUiState, viewModel: TermsListViewM
     val colors = MaterialTheme.colorScheme
     val filter = state.filter
     AppBottomSheet(onDismissRequest = onDismiss) {
-        Column(Modifier.fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = AppSpacing.xl).padding(bottom = AppSpacing.xl)) {
+        ScrollColumn(Modifier.fillMaxWidth(), contentModifier = Modifier.padding(horizontal = AppSpacing.xl).padding(bottom = AppSpacing.xl)) {
             Row(verticalAlignment = Alignment.CenterVertically) {
                 Text(tr("Filters"), Modifier.weight(1f), style = AppText.headline)
                 QuietButton(tr("Show learning words"), onClick = viewModel::resetFilters)

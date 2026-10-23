@@ -1,5 +1,7 @@
 package com.tayra.languages.core.ui.components
 
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.lazy.rememberLazyListState
 import com.tayra.languages.core.ui.i18n.tr
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
@@ -114,10 +116,14 @@ fun TagInput(
             .filter { pending.isBlank() || it.contains(pending, ignoreCase = true) }
         if (focused && pending.isNotBlank() && visible.isNotEmpty()) {
             PopupCard(Modifier.fillMaxWidth()) {
-                LazyColumn(Modifier.heightIn(max = SUGGESTIONS_MAX_HEIGHT)) {
-                    items(visible.take(20)) { suggestion ->
-                        AppMenuItem(text = { suggestionContent?.invoke(suggestion) ?: Text(suggestion) }, onClick = { commit(suggestion) })
+                val list = rememberLazyListState()
+                Box(Modifier.heightIn(max = SUGGESTIONS_MAX_HEIGHT)) {
+                    LazyColumn(state = list) {
+                        items(visible.take(20)) { suggestion ->
+                            AppMenuItem(text = { suggestionContent?.invoke(suggestion) ?: Text(suggestion) }, onClick = { commit(suggestion) })
+                        }
                     }
+                    EdgeScrollbar(list)
                 }
             }
         }

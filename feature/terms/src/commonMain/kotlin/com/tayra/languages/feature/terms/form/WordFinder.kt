@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.terms.form
 
+import com.tayra.languages.core.ui.components.ScrollColumn
 import androidx.compose.foundation.layout.Arrangement
 import com.tayra.languages.core.ui.theme.AppSpacing
 import com.tayra.languages.core.ui.theme.AppText
@@ -104,7 +105,7 @@ internal fun WordFinderDialog(
                             modifier = Modifier.fillMaxWidth().focusRequester(focus).testTag("word-finder-query"),
                         )
                         val (searched, lookup) = result ?: ("" to DictionaryLookup.EMPTY)
-                        Column(Modifier.heightIn(max = RESULTS_MAX_HEIGHT).verticalScroll(rememberScrollState()), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
+                        ScrollColumn(Modifier.heightIn(max = RESULTS_MAX_HEIGHT), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
                             if (searched.isNotBlank() && lookup.isEmpty) {
                                 Text(tr("The word finder does not know \"{0}\".", searched), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
                             }

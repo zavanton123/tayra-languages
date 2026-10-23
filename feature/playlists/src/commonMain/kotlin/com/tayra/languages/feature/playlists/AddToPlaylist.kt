@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.playlists
 
+import com.tayra.languages.core.ui.components.ScrollColumn
 import androidx.compose.foundation.background
 import com.tayra.languages.core.ui.components.SecondaryButton
 import com.tayra.languages.core.ui.components.AppIconButton
@@ -114,7 +115,7 @@ private fun AddToPlaylistMenu(viewModel: AddToPlaylistViewModel, onCreate: () ->
     PopupCard(Modifier.width(MENU_WIDTH).testTag("add-to-playlist-menu")) {
         Column(Modifier.padding(AppSpacing.s)) {
             Text(tr("Add to playlist"), Modifier.padding(horizontal = AppSpacing.s, vertical = AppSpacing.s), style = AppText.itemTitle)
-            Column(Modifier.heightIn(max = LIST_HEIGHT).verticalScroll(rememberScrollState())) {
+            ScrollColumn(Modifier.heightIn(max = LIST_HEIGHT)) {
                 if (state.playlists.isEmpty()) {
                     Text(tr("No playlists yet"), Modifier.padding(AppSpacing.s), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
                 }

@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.news
 
+import com.tayra.languages.core.ui.components.ScrollColumn
 import com.tayra.languages.core.ui.components.inLearnedScript
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
@@ -314,8 +315,9 @@ private fun WikiFiltersButton(state: WikiUiState, actions: WikiActions) {
     )
     if (sheet) {
         AppBottomSheet(onDismissRequest = { sheet = false }) {
-            Column(
-                Modifier.fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = AppSpacing.xl, vertical = AppSpacing.m),
+            ScrollColumn(
+                Modifier.fillMaxWidth(),
+                contentModifier = Modifier.padding(horizontal = AppSpacing.xl, vertical = AppSpacing.m),
                 verticalArrangement = Arrangement.spacedBy(AppSpacing.l),
             ) {
                 Text(tr("Filters"), style = AppText.itemTitle)

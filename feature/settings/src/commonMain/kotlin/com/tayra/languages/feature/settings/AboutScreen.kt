@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.settings
 
+import com.tayra.languages.core.ui.components.ScrollColumn
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.components.ScreenTitle
 import androidx.compose.foundation.layout.Arrangement
@@ -25,7 +26,7 @@ import com.tayra.languages.core.ui.theme.AppSpacing
 fun AboutScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit = { onNavigate(Route.Settings) }) {
     // Opened from Settings like its other pages, it has their way back on a phone.
     Scaffold(topBar = { AppTopBar(title = tr("About"), onNavigate = onNavigate, onBack = onBack.takeIf { LocalWindowWidth.current.isCompact }, section = NavSection.SETTINGS) }) { padding ->
-        Column(Modifier.padding(padding).fillMaxSize().verticalScroll(rememberScrollState()).padding(AppSpacing.l).widthIn(max = TEXT_WIDTH), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+        ScrollColumn(Modifier.padding(padding).fillMaxSize(), contentModifier = Modifier.padding(AppSpacing.l).widthIn(max = TEXT_WIDTH), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
             ScreenTitle(tr("About"))
             Text("Tayra Languages", style = MaterialTheme.typography.headlineSmall)
             Text(tr("Learn languages by reading. Import texts, select words to look them up and track what you know."), style = MaterialTheme.typography.bodyLarge)

@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.settings
 
+import com.tayra.languages.core.ui.components.ScrollColumn
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -102,7 +103,7 @@ internal fun PhoneTranslationScreen(
         topBar = { AppTopBar(title = tr("Translation"), onNavigate = onNavigate, onBack = onBack, section = NavSection.SETTINGS) },
         containerColor = colors.surfaceContainerLow,
     ) { padding ->
-        Column(Modifier.padding(padding).fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = AppSpacing.l, vertical = AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
+        ScrollColumn(Modifier.padding(padding).fillMaxWidth(), contentModifier = Modifier.padding(horizontal = AppSpacing.l, vertical = AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
             Column(Modifier.fillMaxWidth(), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
                 Text(tr("Choose how translations are generated and stored."), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
                 EngineStatusPill(settings, viewModel, local, checking, ready, pair)
@@ -317,7 +318,7 @@ private fun PackagesSheet(viewModel: OfflineTranslationViewModel, packages: List
             Text(if (runtime) tr("Language packages") else tr("Language models"), style = AppText.headline)
             SearchField(query, { query = it }, if (runtime) tr("Search packages") else tr("Search models"), Modifier.fillMaxWidth())
             TabToggle(tab, fill = true) { tab = it }
-            Column(Modifier.fillMaxWidth().verticalScroll(rememberScrollState()), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
+            ScrollColumn(Modifier.fillMaxWidth(), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
                 if (shown.isEmpty()) {
                     Text(
                         when {

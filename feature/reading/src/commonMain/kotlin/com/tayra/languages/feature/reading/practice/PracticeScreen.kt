@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.reading.practice
 
+import com.tayra.languages.core.ui.components.EdgeScrollbar
 import androidx.compose.animation.animateColorAsState
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -156,62 +157,66 @@ internal fun PracticeContent(state: PracticeUiState, actions: PracticeActions, m
     LaunchedEffect(state.index, state.answered, state.finished) {
         if (exercise == null || exercise.isChoice || state.answered) runCatching { rootFocus.requestFocus() }
     }
-    Box(
-        modifier.fillMaxSize().verticalScroll(rememberScrollState())
-            .focusRequester(rootFocus).focusable()
-            .onPreviewKeyEvent { event ->
-                if (event.type != KeyEventType.KeyDown || exercise == null || event.isCtrlPressed || event.isMetaPressed) return@onPreviewKeyEvent false
-                val enter = event.key == Key.Enter || event.key == Key.NumPadEnter
-                when {
-                    state.answered && enter -> actions.onNext()
-                    state.answered -> return@onPreviewKeyEvent false
-                    !exercise.isChoice && enter -> actions.onSubmit()
-                    exercise.isChoice -> {
-                        val option = listOf(Key.One, Key.Two, Key.Three, Key.Four).indexOf(event.key).takeIf { it >= 0 }?.let { exercise.options.getOrNull(it) }
-                            ?: return@onPreviewKeyEvent false
-                        actions.onChoose(option)
-                    }
-                    else -> return@onPreviewKeyEvent false
-                }
-                true
-            },
-        contentAlignment = Alignment.TopCenter,
-    ) {
-        Column(
-            Modifier.widthIn(max = PRACTICE_WIDTH).fillMaxWidth().padding(horizontal = if (compact) AppSpacing.l else AppSpacing.xxxl, vertical = if (compact) AppSpacing.l else AppSpacing.xxxl),
-            verticalArrangement = Arrangement.spacedBy(if (compact) AppSpacing.l else AppSpacing.xl),
-        ) {
-            Column {
-                // On a phone the bar carries the title.
-                if (!compact) Text(tr("Practice"), style = AppText.screenTitle)
-                Text(
+    val scroll = rememberScrollState()
+    Box(modifier.fillMaxSize()) {
+        Box(
+            Modifier.fillMaxSize().verticalScroll(scroll)
+                .focusRequester(rootFocus).focusable()
+                .onPreviewKeyEvent { event ->
+                    if (event.type != KeyEventType.KeyDown || exercise == null || event.isCtrlPressed || event.isMetaPressed) return@onPreviewKeyEvent false
+                    val enter = event.key == Key.Enter || event.key == Key.NumPadEnter
                     when {
-                        state.wholeBook -> trPlural(state.wordCount, "The {0} word you are learning in {1}.", "The {0} words you are learning in {1}.", state.bookTitle)
-                        state.pageNumber == null -> trPlural(state.wordCount, "{0} word from your vocabulary.", "{0} words from your vocabulary.")
-                        state.bookTitle.isEmpty() -> tr("The words you are learning on page {0}.", state.pageNumber)
-                        else -> tr("The words you are learning on page {0} of {1}.", state.pageNumber, state.bookTitle)
-                    },
-                    style = MaterialTheme.typography.bodyLarge,
-                    color = MaterialTheme.colorScheme.onSurfaceVariant,
-                )
-                // Fewer than all the kinds: which ones.
-                if (state.kinds.size < PracticeBuilder.KINDS.size) {
+                        state.answered && enter -> actions.onNext()
+                        state.answered -> return@onPreviewKeyEvent false
+                        !exercise.isChoice && enter -> actions.onSubmit()
+                        exercise.isChoice -> {
+                            val option = listOf(Key.One, Key.Two, Key.Three, Key.Four).indexOf(event.key).takeIf { it >= 0 }?.let { exercise.options.getOrNull(it) }
+                                ?: return@onPreviewKeyEvent false
+                            actions.onChoose(option)
+                        }
+                        else -> return@onPreviewKeyEvent false
+                    }
+                    true
+                },
+            contentAlignment = Alignment.TopCenter,
+        ) {
+            Column(
+                Modifier.widthIn(max = PRACTICE_WIDTH).fillMaxWidth().padding(horizontal = if (compact) AppSpacing.l else AppSpacing.xxxl, vertical = if (compact) AppSpacing.l else AppSpacing.xxxl),
+                verticalArrangement = Arrangement.spacedBy(if (compact) AppSpacing.l else AppSpacing.xl),
+            ) {
+                Column {
+                    // On a phone the bar carries the title.
+                    if (!compact) Text(tr("Practice"), style = AppText.screenTitle)
                     Text(
-                        tr("Questions: {0}", PracticeBuilder.KINDS.filter { it in state.kinds }.joinToString(", ") { it.label().lowercase() }),
-                        style = MaterialTheme.typography.bodyMedium,
+                        when {
+                            state.wholeBook -> trPlural(state.wordCount, "The {0} word you are learning in {1}.", "The {0} words you are learning in {1}.", state.bookTitle)
+                            state.pageNumber == null -> trPlural(state.wordCount, "{0} word from your vocabulary.", "{0} words from your vocabulary.")
+                            state.bookTitle.isEmpty() -> tr("The words you are learning on page {0}.", state.pageNumber)
+                            else -> tr("The words you are learning on page {0} of {1}.", state.pageNumber, state.bookTitle)
+                        },
+                        style = MaterialTheme.typography.bodyLarge,
                         color = MaterialTheme.colorScheme.onSurfaceVariant,
                     )
+                    // Fewer than all the kinds: which ones.
+                    if (state.kinds.size < PracticeBuilder.KINDS.size) {
+                        Text(
+                            tr("Questions: {0}", PracticeBuilder.KINDS.filter { it in state.kinds }.joinToString(", ") { it.label().lowercase() }),
+                            style = MaterialTheme.typography.bodyMedium,
+                            color = MaterialTheme.colorScheme.onSurfaceVariant,
+                        )
+                    }
                 }
-            }
-            when {
-                state.exercises.isEmpty() -> Empty(state, actions)
-                exercise == null -> Finished(state, actions)
-                else -> {
-                    ProgressStrip(state)
-                    Question(state, exercise, actions, compact)
+                when {
+                    state.exercises.isEmpty() -> Empty(state, actions)
+                    exercise == null -> Finished(state, actions)
+                    else -> {
+                        ProgressStrip(state)
+                        Question(state, exercise, actions, compact)
+                    }
                 }
             }
         }
+        EdgeScrollbar(scroll)
     }
 }
 

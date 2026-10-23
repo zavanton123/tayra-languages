@@ -136,8 +136,8 @@ internal fun NewPlaylistDialog(viewModel: PlaylistFormViewModel, onCreated: (pla
     val state by viewModel.state.collectAsStateWithLifecycle()
     CollectEvents(viewModel.events) { event -> if (event is PlaylistFormEvent.Saved) onCreated(event.playlistId, state.name.trim()) }
     AppDialogSurface(onDismissRequest = onDismiss, maxWidth = AppSizes.dialog) {
-        Column(
-            Modifier.verticalScroll(rememberScrollState()).padding(AppSpacing.xxl).testTag("new-playlist-dialog"),
+        ScrollColumn(
+            contentModifier = Modifier.padding(AppSpacing.xxl).testTag("new-playlist-dialog"),
             verticalArrangement = Arrangement.spacedBy(AppSpacing.l),
         ) {
             Row(verticalAlignment = Alignment.Top) {

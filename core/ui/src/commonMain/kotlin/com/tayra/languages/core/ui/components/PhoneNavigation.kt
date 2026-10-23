@@ -131,7 +131,7 @@ fun MoreSheet(onNavigate: (Route) -> Unit, onDismiss: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     val language = LocalLearningLanguage.current?.currentName
     AppBottomSheet(onDismissRequest = onDismiss, modifier = Modifier.testTag("more-sheet")) {
-        Column(Modifier.fillMaxWidth().verticalScroll(rememberScrollState()).padding(start = AppSpacing.xl, end = AppSpacing.s, bottom = AppSpacing.l)) {
+        ScrollColumn(Modifier.fillMaxWidth(), contentModifier = Modifier.padding(start = AppSpacing.xl, end = AppSpacing.s, bottom = AppSpacing.l)) {
             Row(verticalAlignment = Alignment.CenterVertically) {
                 Text(tr("More"), Modifier.weight(1f), style = AppText.headline)
                 AppIconButton(Icons.Default.Close, contentDescription = tr("Close"), onClick = onDismiss)

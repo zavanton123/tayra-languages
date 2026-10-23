@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.languages
 
+import com.tayra.languages.core.ui.components.ScrollColumn
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -64,7 +65,7 @@ internal fun PhoneLanguagesScreen(settings: UserSettings, learning: LearningLang
         topBar = { AppTopBar(title = tr("Languages"), onNavigate = onNavigate, onBack = onBack, section = NavSection.SETTINGS) },
         containerColor = colors.surfaceContainerLow,
     ) { padding ->
-        Column(Modifier.padding(padding).fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = AppSpacing.l, vertical = AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
+        ScrollColumn(Modifier.padding(padding).fillMaxWidth(), contentModifier = Modifier.padding(horizontal = AppSpacing.l, vertical = AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
             Text(tr("Choose what you learn and the language Tayra uses with you."), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
             PhoneLanguageCard(tr("Learning"), tr("I'm learning"), tr("Books, courses, vocabulary and flashcards."), highlighted = true) {
                 PhoneLanguageRow(learning?.current?.label, tag = "learning-language") { learningSheet = true }

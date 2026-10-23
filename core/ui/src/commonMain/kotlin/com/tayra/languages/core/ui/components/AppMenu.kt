@@ -1,5 +1,6 @@
 package com.tayra.languages.core.ui.components
 
+import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.ColumnScope
@@ -19,7 +20,10 @@ import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.AppElevation
 import com.tayra.languages.core.ui.theme.AppSpacing
 
-/** A popup menu styled like the rest of the app: white, rounded, bordered, with compact rows. */
+/**
+ * A popup menu styled like the rest of the app: white, rounded, bordered, with compact rows. A long
+ * one scrolls within [MENU_MAX_HEIGHT], with the scrollbar on the desktop.
+ */
 @Composable
 fun AppMenu(expanded: Boolean, onDismissRequest: () -> Unit, modifier: Modifier = Modifier, content: @Composable ColumnScope.() -> Unit) {
     DropdownMenu(
@@ -30,8 +34,9 @@ fun AppMenu(expanded: Boolean, onDismissRequest: () -> Unit, modifier: Modifier 
         containerColor = MaterialTheme.colorScheme.surface,
         shadowElevation = AppElevation.raised,
         border = AppBorders.hairline(),
-        content = content,
-    )
+    ) {
+        ScrollColumn(Modifier.heightIn(max = MENU_MAX_HEIGHT), content = content)
+    }
 }
 
 @Composable
@@ -48,3 +53,4 @@ fun AppMenuItem(text: @Composable () -> Unit, onClick: () -> Unit, enabled: Bool
 }
 
 private val MENU_MIN_WIDTH = 160.dp
+private val MENU_MAX_HEIGHT = 420.dp

@@ -1,5 +1,7 @@
 package com.tayra.languages.feature.terms.form
 
+import com.tayra.languages.core.ui.components.BottomEdgeScrollbar
+import com.tayra.languages.core.ui.components.ScrollColumn
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.horizontalScroll
@@ -115,7 +117,7 @@ internal fun ConjugationDialog(
                 if (onSpeak != null) AppIconButton(AppIcons.VolumeUp, tr("Read aloud"), onClick = { onSpeak(lemma) }, style = IconButtonStyle.Tonal)
                 AppIconButton(Icons.Default.Close, tr("Close"), onClick = onDismiss, style = IconButtonStyle.Tonal)
             }
-            Column(Modifier.weight(1f, fill = false).heightIn(max = BODY_MAX_HEIGHT).verticalScroll(rememberScrollState()), verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
+            ScrollColumn(Modifier.weight(1f, fill = false).heightIn(max = BODY_MAX_HEIGHT), verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
                 if (verb) VerbBody(table, languageCode, isClicked, onSpeak) else GridBody(table, isClicked, onSpeak)
             }
             credit?.let { WiktionaryCredit(it, languageName) }
@@ -269,8 +271,9 @@ private fun personLabel(person: String): String = when (person) {
 private fun GridBody(table: InflectionTable, isClicked: (String) -> Boolean, onSpeak: ((String) -> Unit)?) {
     val colors = MaterialTheme.colorScheme
     if (table.rows.isNotEmpty()) {
-        Box(Modifier.fillMaxWidth().horizontalScroll(rememberScrollState())) {
-            Column {
+        val scroll = rememberScrollState()
+        Box(Modifier.fillMaxWidth()) {
+            Column(Modifier.horizontalScroll(scroll).padding(bottom = AppSpacing.m)) {
                 Row(Modifier.padding(vertical = AppSpacing.s)) {
                     Spacer(Modifier.width(LABEL_WIDTH))
                     table.columns.forEach { Text(grammarColumn(it), Modifier.width(GRID_CELL_WIDTH), style = AppText.labelStrong) }
@@ -283,6 +286,7 @@ private fun GridBody(table: InflectionTable, isClicked: (String) -> Boolean, onS
                     }
                 }
             }
+            BottomEdgeScrollbar(scroll)
         }
     }
     table.other.forEach { form ->

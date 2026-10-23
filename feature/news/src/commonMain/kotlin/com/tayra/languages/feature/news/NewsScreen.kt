@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.news
 
+import com.tayra.languages.core.ui.components.ScrollColumn
 import com.tayra.languages.core.ui.components.inLearnedScript
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
@@ -304,8 +305,9 @@ private fun Filters(state: NewsUiState, actions: NewsActions) {
     }
     if (sheet) {
         AppBottomSheet(onDismissRequest = { sheet = false }) {
-            Column(
-                Modifier.fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = AppSpacing.xl, vertical = AppSpacing.m),
+            ScrollColumn(
+                Modifier.fillMaxWidth(),
+                contentModifier = Modifier.padding(horizontal = AppSpacing.xl, vertical = AppSpacing.m),
                 verticalArrangement = Arrangement.spacedBy(AppSpacing.l),
             ) {
                 Text(tr("Filters"), style = AppText.itemTitle)
