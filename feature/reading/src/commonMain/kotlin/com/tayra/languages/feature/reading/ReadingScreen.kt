@@ -66,6 +66,7 @@ import androidx.compose.material3.Text
 import androidx.compose.material3.rememberDrawerState
 import androidx.compose.material3.DrawerValue
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -139,6 +140,7 @@ import com.tayra.languages.core.domain.morphology.Chinese
 import com.tayra.languages.core.ui.components.AboveTargetPositionProvider
 import androidx.compose.ui.platform.LocalDensity
 import com.tayra.languages.core.ui.components.AppDivider
+import com.tayra.languages.core.ui.components.AppDialogSurface
 import com.tayra.languages.core.ui.components.AppIconButton
 import com.tayra.languages.core.ui.components.AppSwitch
 import com.tayra.languages.core.ui.components.BarSurface
@@ -185,6 +187,7 @@ import com.tayra.languages.feature.terms.form.TermFormEvent
 import com.tayra.languages.feature.terms.form.TermFormKey
 import com.tayra.languages.feature.terms.form.TermFormPanel
 import com.tayra.languages.feature.terms.form.TermFormViewModel
+import com.tayra.languages.feature.terms.examples.ExamplesSearchScreen
 import com.tayra.languages.feature.terms.list.BulkEditDialog
 import kotlinx.coroutines.launch
 import androidx.compose.ui.platform.testTag
@@ -229,6 +232,26 @@ fun ReadingScreen(
     val shift = remember { ShiftTracker() }
     val toast = rememberToastState()
     var newPlaylist by remember { mutableStateOf(false) }
+    var examplesLanguageId by rememberSaveable(bookId) { mutableStateOf<Long?>(null) }
+    var examplesText by rememberSaveable(bookId) { mutableStateOf("") }
+    var embeddedTermForm by remember { mutableStateOf<TermFormViewModel?>(null) }
+    val closeExamples: () -> Unit = {
+        examplesLanguageId = null
+        viewModel.refresh()
+        embeddedTermForm?.refresh()
+    }
+    // Examples opened from the embedded term form stay over this reader. Other destinations retain
+    // their normal navigation behaviour and dismiss the overlay before leaving.
+    val navigateFromReader: (Route) -> Unit = { route ->
+        if (route is Route.Examples) {
+            examplesLanguageId = route.languageId
+            examplesText = route.text
+        }
+        else {
+            closeExamples()
+            onNavigate(route)
+        }
+    }
     LifecycleEventEffect(Lifecycle.Event.ON_RESUME) {
         viewModel.onResumed()
         // Back in front (from the examples, say) the text takes the keys again, even with the term pane open, which the focus below leaves alone.
@@ -249,6 +272,9 @@ fun ReadingScreen(
             typing = false
             runCatching { focusRequester.requestFocus() }
         }
+    }
+    LaunchedEffect(examplesLanguageId) {
+        if (examplesLanguageId == null && !state.loading) runCatching { focusRequester.requestFocus() }
     }
 
     val hotkeys = state.settings.hotkeys
@@ -350,7 +376,7 @@ fun ReadingScreen(
             enabled = !wide,
             open = state.panel != ReadingPanel.None,
             onClosed = viewModel::closePanel,
-            sheet = { CompositionLocalProvider(LocalTypingReporter provides { typing = it }) { PanelContent(state, viewModel, onNavigate) } },
+            sheet = { CompositionLocalProvider(LocalTypingReporter provides { typing = it }) { PanelContent(state, viewModel, navigateFromReader, onForm = { embeddedTermForm = it }) } },
         ) {
         Column(
             Modifier
@@ -407,7 +433,7 @@ fun ReadingScreen(
                 if (wide && state.panel != ReadingPanel.None) {
                     AppVerticalDivider()
                     Box(Modifier.width(TERM_PANEL_WIDTH).fillMaxHeight().background(MaterialTheme.colorScheme.surface)) {
-                        CompositionLocalProvider(LocalTypingReporter provides { typing = it }) { PanelContent(state, viewModel, onNavigate) }
+                        CompositionLocalProvider(LocalTypingReporter provides { typing = it }) { PanelContent(state, viewModel, navigateFromReader, onForm = { embeddedTermForm = it }) }
                     }
                 }
             }
@@ -422,6 +448,23 @@ fun ReadingScreen(
             onConfirm = { viewModel.addBookmark(it.trim()); bookmarkDialog = false },
             onDismiss = { bookmarkDialog = false },
         )
+    }
+    examplesLanguageId?.let { languageId ->
+        AppDialogSurface(
+            onDismissRequest = closeExamples,
+            modifier = Modifier.fillMaxHeight(EXAMPLES_DIALOG_HEIGHT)
+                .windowInsetsPadding(WindowInsets.safeDrawing)
+                .testTag("examples-dialog"),
+            maxWidth = AppSizes.contentWidth,
+        ) {
+            ExamplesSearchScreen(
+                languageId = languageId,
+                text = examplesText,
+                onNavigate = navigateFromReader,
+                onBack = closeExamples,
+                dialog = true,
+            )
+        }
     }
     // A playlist made from the reader starts with the open text, and the reader stays.
     if (newPlaylist) {
@@ -924,6 +967,7 @@ private val DRAWER_WIDTH = 460.dp
 private val TERM_PANEL_WIDTH = 440.dp
 /** How much of a phone's height the reader's settings take, leaving the text above them in view. */
 private const val PANE_SHEET_HEIGHT = 0.6f
+private const val EXAMPLES_DIALOG_HEIGHT = 0.92f
 private val HANDLE_WIDTH = 32.dp
 private val SHORTCUTS_WIDTH = 440.dp
 private val SHORTCUT_KEYS_WIDTH = 250.dp
@@ -1305,12 +1349,18 @@ private fun SourceChip(url: String, onClick: () -> Unit) {
 }
 
 @Composable
-private fun PanelContent(state: ReadingUiState, viewModel: ReadingViewModel, onNavigate: (Route) -> Unit) {
+private fun PanelContent(
+    state: ReadingUiState,
+    viewModel: ReadingViewModel,
+    onNavigate: (Route) -> Unit,
+    onForm: (TermFormViewModel?) -> Unit,
+) {
     when (val panel = state.panel) {
         ReadingPanel.None -> Unit
-        is ReadingPanel.EditTerm -> EmbeddedTermForm(TermFormKey.ById(panel.termId, panel.sentence), "edit-${panel.termId}-${panel.version}", viewModel, onNavigate)
-        is ReadingPanel.NewTerm -> EmbeddedTermForm(TermFormKey.ByText(panel.languageId, panel.text, panel.sentence), "new-${panel.languageId}-${panel.text}", viewModel, onNavigate)
+        is ReadingPanel.EditTerm -> EmbeddedTermForm(TermFormKey.ById(panel.termId, panel.sentence), "edit-${panel.termId}-${panel.version}", viewModel, onNavigate, onForm)
+        is ReadingPanel.NewTerm -> EmbeddedTermForm(TermFormKey.ByText(panel.languageId, panel.text, panel.sentence), "new-${panel.languageId}-${panel.text}", viewModel, onNavigate, onForm)
         is ReadingPanel.BulkEdit -> Column(Modifier.padding(AppSpacing.m)) {
+            SideEffect { onForm(null) }
             Text(trPlural(panel.termIds.size, "Updating {0} term", "Updating {0} terms"), style = MaterialTheme.typography.titleMedium)
             BulkEditDialog(count = panel.termIds.size, onApply = viewModel::applyBulkUpdate, onDismiss = viewModel::closePanel)
         }
@@ -1318,10 +1368,20 @@ private fun PanelContent(state: ReadingUiState, viewModel: ReadingViewModel, onN
 }
 
 @Composable
-private fun EmbeddedTermForm(key: TermFormKey, keyString: String, viewModel: ReadingViewModel, onNavigate: (Route) -> Unit) {
+private fun EmbeddedTermForm(
+    key: TermFormKey,
+    keyString: String,
+    viewModel: ReadingViewModel,
+    onNavigate: (Route) -> Unit,
+    onForm: (TermFormViewModel?) -> Unit,
+) {
     // Each opening gets a new form, since a form may have moved on to a looked-up word.
     val opening = remember(keyString) { Random.nextLong() }
     val formViewModel = koinViewModel<TermFormViewModel>(key = "reading-term-$keyString-$opening") { parametersOf(key) }
+    DisposableEffect(formViewModel) {
+        onForm(formViewModel)
+        onDispose { onForm(null) }
+    }
     CollectEvents(formViewModel.events) { event ->
         when (event) {
             is TermFormEvent.Saved -> if (event.keepOpen) viewModel.onTermChanged() else viewModel.onTermFormDone()

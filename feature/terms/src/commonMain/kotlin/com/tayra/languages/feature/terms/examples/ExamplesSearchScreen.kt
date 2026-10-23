@@ -22,6 +22,7 @@ import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.foundation.relocation.BringIntoViewRequester
 import androidx.compose.foundation.relocation.bringIntoViewRequester
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Close
 import androidx.compose.material.icons.filled.Refresh
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
@@ -146,6 +147,8 @@ fun ExamplesSearchScreen(
     text: String,
     onNavigate: (Route) -> Unit,
     onBack: () -> Unit,
+    /** Omits the app bar and global breadcrumb when the search is shown over another screen. */
+    dialog: Boolean = false,
     viewModel: ExamplesSearchViewModel = koinViewModel(key = "examples-$languageId-$text") { parametersOf(languageId, text) },
 ) {
     val state by viewModel.state.collectAsStateWithLifecycle()
@@ -212,7 +215,9 @@ fun ExamplesSearchScreen(
     }
 
     Scaffold(
-        topBar = { AppTopBar(title = tr("Examples"), onNavigate = onNavigate, section = NavSection.TERMS, onBack = if (compact) onBack else null) },
+        topBar = {
+            if (!dialog) AppTopBar(title = tr("Examples"), onNavigate = onNavigate, section = NavSection.TERMS, onBack = if (compact) onBack else null)
+        },
     ) { padding ->
         if (state.loading || query == null) {
             LoadingIndicator(Modifier.padding(padding))
@@ -273,7 +278,7 @@ fun ExamplesSearchScreen(
                 state = listState,
                 contentPadding = PaddingValues(horizontal = gutter, vertical = AppSpacing.l),
             ) {
-                item { PageHeader(query, compact, onBack, onTerms = { onNavigate(Route.Terms()) }) }
+                item { PageHeader(query, compact || dialog, onBack, onTerms = { onNavigate(Route.Terms()) }, dialog = dialog) }
                 item { ErrorMessage(state.error) }
                 item { SearchBar(query, viewModel, onSearch = { viewModel.search(); focusList() }) }
                 item { FilterRow(query, state.sources, state.features, viewModel) }
@@ -417,17 +422,26 @@ private fun TermPane(
 }
 
 @Composable
-private fun PageHeader(query: ExampleSearchQuery, compact: Boolean, onBack: () -> Unit, onTerms: () -> Unit) {
+private fun PageHeader(query: ExampleSearchQuery, compact: Boolean, onBack: () -> Unit, onTerms: () -> Unit, dialog: Boolean = false) {
     val colors = MaterialTheme.colorScheme
     val uriHandler = LocalUriHandler.current
     // On a phone the bar has the way back and the screen's name.
     val crumbs = if (compact) emptyList() else listOf(Crumb(tr("Vocabulary"), onTerms), Crumb(tr("Examples")))
     Column(Modifier.fillMaxWidth().padding(bottom = AppSpacing.xl)) {
         ScreenHeader(tr("Examples for ‘{0}’", query.text), subtitle = null, crumbs = crumbs, titleOnCompact = true, onBack = onBack) {
-            if (!compact && query.source != ExampleSource.COURSES) Text(tr("Powered by"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
-            when (query.source) {
+            if (dialog) {
+                AppIconButton(
+                    Icons.Default.Close,
+                    tr("Close"),
+                    onClick = onBack,
+                    modifier = Modifier.testTag("close-examples-dialog"),
+                    style = IconButtonStyle.Tonal,
+                )
+            } else when (query.source) {
                 ExampleSource.COURSES -> Text(tr("From your courses"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
-                ExampleSource.TATOEBA -> LinkText(
+                ExampleSource.TATOEBA -> {
+                    if (!compact) Text(tr("Powered by"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+                    LinkText(
                     "Tatoeba",
                     onClick = {
                         val from = LanguageCodes.tatoebaCodeFor(query.language.name)?.let { "&from=$it" } ?: ""
@@ -436,14 +450,18 @@ private fun PageHeader(query: ExampleSearchQuery, compact: Boolean, onBack: () -
                     modifier = Modifier.semantics { contentDescription = tr("Open on Tatoeba") },
                     style = MaterialTheme.typography.bodyMedium,
                     trailingIcon = AppIcons.OpenInNew,
-                )
-                ExampleSource.LEIPZIG -> LinkText(
+                    )
+                }
+                ExampleSource.LEIPZIG -> {
+                    if (!compact) Text(tr("Powered by"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+                    LinkText(
                     "Leipzig Corpora Collection",
                     onClick = { uriHandler.openUri("https://wortschatz.uni-leipzig.de/en") },
                     modifier = Modifier.semantics { contentDescription = tr("Open the Leipzig Corpora Collection") },
                     style = MaterialTheme.typography.bodyMedium,
                     trailingIcon = AppIcons.OpenInNew,
-                )
+                    )
+                }
             }
         }
     }
