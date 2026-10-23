@@ -973,6 +973,11 @@ ARABIC_VERB_TAKES = 0.5
 ARABIC_ELATIVE_VERB = 0.3
 # How much commoner a noun with a pronoun must be than the verbs whose form it is spelled as, to be read as that noun.
 ARABIC_NOUN_OVER_VERB = 10.0
+# A form shared by words is listed only under those it goes to at least an ARABIC_LISTED-th as much as the most (يضع is
+# listed under وضع, not under ضاع, whose jussive it is too), but for the forms read as two words (ARABIC_SHARED). The
+# shares of verbs are rough (by their forms no other verb has), so only a far smaller share is left out, and only where
+# the word it goes to most lists it.
+ARABIC_LISTED = 10.0
 # The words a misspelt form (انا, الى) is, each as common as its spellings that are that word.
 ARABIC_SPELLED = {}
 # The little words: a verb spelled as one has its forms counted for nothing (تمني is no form of من); and a word spelled
@@ -1089,7 +1094,8 @@ def build_arabic(found, size):
     ARABIC_RARE.clear()
     for (form, lemma), tags in sorted(tagged.items()):
         verbal = bool(tags & ARABIC_VERB_TAGS)
-        if form.startswith(ARABIC_ARTICLE) or form in pos or form in ARABIC_CUT:
+        # A form with the article is cut, but not one of a verb in ال (التقتا of التقى).
+        if form.startswith(ARABIC_ARTICLE) and not lemma.startswith(ARABIC_ARTICLE) or form in pos or form in ARABIC_CUT:
             continue
         if "dual" in tags or verbal and {"plural", "feminine"} <= tags and "masculine" not in tags:
             ARABIC_RARE[lemma].append(form)
@@ -2600,18 +2606,29 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
     # A Korean form shared by verbs (산다 of 살다 and 사다, 준다 of 주다 and 줄다) is listed under one it goes to
     # KOREAN_LISTED times less than to another only for its share of the count: a course counts 산다 as no use of 사다.
     main = {}
-    if language == "ko":
+    if language in ("ko", "ar"):
         for word in ranked:
             for form, share in forms[word].items():
                 if form not in main or share > forms[main[form]][form]:
                     main[form] = word
+    if language == "ar":
+        # An Arabic form is left out under a word only where the word it goes to most lists it (يعطوا, past أعطى's
+        # first forms, stays under the other), or where the reader finds it as a listed form with a pronoun (أضعها of
+        # أضع, not ضاع's).
+        first = {word: set(sorted(forms[word], key=lambda f: -forms[word][f])[:FORMS_PER_WORD]) for word in ranked}
+        anywhere = set().union(*first.values())
+        for word in ranked:
+            for form in forms[word]:
+                if main.get(form) == word and form not in first[word] and not any(b in anywhere for b in arabic_bases(form)):
+                    del main[form]
     lines = [f"# source: {label}", f"# words: {len(ranked)}"]
     # The forms counted for some word of the list, which no other word's rare forms may take.
     rare_taken = {f for word in ranked for f in forms[word]} if language == "ar" else set()
     for word in ranked:
         # A form sent by hand to several words is listed under each (끈다 of 끄다 and 끌다).
-        counted = sorted((f for f in forms[word] if f not in main or KOREAN_LISTED * forms[word][f] >= forms[main[f]][f]
-                          or word in overrides.get(f, ())), key=lambda f: -forms[word][f])
+        least = ARABIC_LISTED if language == "ar" else KOREAN_LISTED
+        counted = sorted((f for f in forms[word] if f not in main or least * forms[word][f] >= forms[main[f]][f]
+                          or word in overrides.get(f, ()) or language == "ar" and f in ARABIC_SHARED), key=lambda f: -forms[word][f])
         # A Korean form of a word sent to another by hand (해야할 of 해야하다, 해야 하다 written as one) is listed
         # however many forms come before it: the reader finds no word of the list for it otherwise.
         everything = counted

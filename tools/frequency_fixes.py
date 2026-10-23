@@ -1717,10 +1717,11 @@ OVERRIDES["ko"].update({"누구세요": ["누구"], "어디세요": ["어디"]})
 # counts say (build_arabic): the list has the first, by which the reader keeps them whole, and leaves out the second.
 ARABIC_WHOLE = {
     "الله", "اللهم", "لله", "اليوم", "الآن", "الان", "الليلة", "اللي", "لقد", "لأن", "لان", "لكي", "لذا", "لذلك", "كذلك",
-    "لما", "بدون", "كلا", "لماذا", "لدى", "كأن", "وحد", "وفيت",
+    "لما", "بدون", "كلا", "لماذا", "لدى", "كأن", "وحد", "وفيت", "السبت", "الأربعاء", "الاربعاء", "الحادي", "الحادية",
+    "بكن",
 }
 ARABIC_CUT = {
-    "ولكن", "ووفيت",
+    "ولكن", "ووفيت", "وضوء",
 }
 # Names, the stems of names written with ال (صين of الصين, which then stays whole), foreign and dialect words.
 EXCLUDE.setdefault("ar", set()).update({
@@ -1759,6 +1760,28 @@ OVERRIDES["ar"].update({w: [w] for w in ("بدا", "تحدث", "مالي", "دا
 OVERRIDES["ar"].update({"مرأة": ["امرأة"], "وحده": ["وحد"]})
 # Duals the dictionary has as words of their own: نقطتان "colon" and مرتين "twice" are mostly "two points", "two times".
 OVERRIDES["ar"].update({"نقطتان": ["نقطة"], "مرتين": ["مرة"]})
+# Verb forms shared by look-alike verbs that the counts send to the rarer one (يحل "solves" to حلا "to be sweet", يرد
+# "replies" to أراد's jussive, يحين
+# to وحى, يصح to صاح's jussive, تفضلي to فضل, تغني to تغنى, دعيني to دعا; عاض's presents are عوض's "to compensate"), or
+# none (يعد, which has seven verbs: لم يعد "no longer" is عاد's).
+OVERRIDES["ar"].update({
+    "يرد": ["رد", "ورد"], "يحين": ["حان"], "تحين": ["حان"], "يصح": ["صح"], "تفضلي": ["تفضل"], "تفضلوا": ["تفضل"],
+    "تغني": ["غنى"], "دعيني": ["دع"], "يسود": ["ساد"], "تسود": ["ساد"], "يمر": ["مر"], "مرت": ["مر"], "مرنا": ["مر"],
+    "تنام": ["نام"], "تكبر": ["كبر"], "تبيت": ["بات"], "يبيت": ["بات"], "نبيت": ["بات"], "خافت": ["خاف"],
+    "امسك": ["مسك"], **{f: ["حل"] for f in ("يحل", "تحل", "حلت", "يحلها", "تحلها", "يحلون", "يحلوا", "نحلها")}, "يبقى": ["بقي"], "يبقون": ["بقي"], "نبقى": ["بقي"], "يبقوا": ["بقي"], "أعدت": ["أعاد", "أعد"], "أعدته": ["أعاد", "أعد"], "يعد": ["عاد", "عد", "وعد"], "تغير": ["تغير"],
+    **{f: ["جدد"] for f in ("جددت", "يجدد", "نجدد", "جددوا", "يجددون")},
+    **{f: ["عوض"] for f in ("تعوض", "يعوض", "نعوض", "أعوض", "اعوض", "يعوضك", "يعوضه", "يعوضها", "تعوضني", "تعوضه",
+                            "يعوضني", "تعوضها", "يعوضون", "يعوضهم")},
+})
+# Nouns spelled as another word's form (ظلام "darkness" as ظالم's plural, حلوى "sweets" as أحلى's feminine, كريمة "cream",
+# سبت "Saturday" as ساب's, تمري "my dates" as مر's, نخيل "palms" as خيل's), and forms the rules miss (فرسا, أسلاك, مدرسية,
+# الحادية "eleventh"); جارة and حفيدة count as جار and حفيد, as طفلة does as طفل; قديما and نقدا are قديم and نقد in the
+# accusative (كثيرا, أيضا, نادرا, عذرا "sorry" stay words).
+OVERRIDES["ar"].update({
+    "ظلام": ["ظلام"], "حلوى": ["حلوى"], "كريمة": ["كريمة"], "سبت": ["السبت"], "تمري": ["تمر"], "نخيل": ["نخلة"],
+    "فرسا": ["فرس"], "أسلاك": ["سلك"], "اسلاك": ["سلك"], "مدرسية": ["مدرسة"], "الحادي": ["واحد"], "الحادية": ["واحد"],
+    "الاربعاء": ["الأربعاء"], "بكن": ["ب"], "جارة": ["جار"], "حفيدة": ["حفيد"], "قديما": ["قديم"], "نقدا": ["نقد"],
+})
 
 # Slovak verbs in ne- that are words of their own, not a verb negated: "hate", "can't stand".
 SLOVAK_NEGATIVE_VERBS = {"nenávidieť", "neznášať"}
