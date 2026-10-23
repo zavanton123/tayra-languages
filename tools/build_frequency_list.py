@@ -1305,6 +1305,9 @@ ROMANIAN_FORM_GLOSS = re.compile(r"\bof ([^\W\d_]+)")
 ROMANIAN_OWN_FORMS = 0.05
 # A verb spelled as a noun's articled form (urma, the trace and to follow; lupta) gives the noun this share of it.
 ROMANIAN_ARTICLED_SHARE = 0.8
+# A word spelled as a verb's past participle is the verb's in text when the verb's own spelling is at least this share as
+# common (lucra and lucrat); an adjective whose verb is rare (potrivit, obișnuit, fericit) keeps it.
+ROMANIAN_PARTICIPLE_VERB = 0.1
 
 
 def romanian_kinds(db, lemmas):
@@ -2428,6 +2431,11 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
                     romanian_forms[of[0]].add(form)
         return sum(count(f) for f in romanian_forms.get(word, ()))
 
+    def romanian_participle(form, verb):
+        """Whether a Romanian word is spelled as a verb's past participle (lucrat of lucra, hotărât of hotărî, cerut of cere)."""
+        return form in (verb[:-1] + "at", verb[:-1] + "ât", verb[:-2] + "ut", verb + "t") or (
+            verb.endswith("e") and form[-1] in "ts" and form[0] == verb[0])
+
     def romanian_shares(form, others):
         """
         The words a Romanian word goes to by its kind, or None for the general rule. A word the dictionary has only as
@@ -2462,9 +2470,16 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
         if kinds & {"noun", "adj"} and "verb" not in kinds:
             verbs = [l for l in others if verbal(l)]
             articled = any(l in (form[:-1] + "a", form + "a") and form in lemmas.get(l, ()) for l in verbs)
-            participle = any(form in (l[:-1] + "at", l[:-2] + "ut", l + "t") or l.endswith("e") and form[-1] in "ts" and form[0] == l[0] for l in verbs)
-            if verbs and (articled or common_forms(form) and not participle):
+            participle_of = [l for l in verbs if romanian_participle(form, l) and count(l) >= ROMANIAN_PARTICIPLE_VERB * count(form)]
+            if verbs and (articled or common_forms(form) and not participle_of):
                 return {form: 1.0}
+            # A verb's past participle (lucrat, căutat, răspuns) is mostly the verb in text, in its perfect (am lucrat) and
+            # passive: the adjective or noun shares it by how common each word's own forms are (lucrată; răspunsul).
+            # A verb whose own spelling is the commoner takes it whole by the general rule (făcut of face).
+            if participle_of and not any(weight(l) >= TAKEOVER * weight(form) for l in participle_of):
+                weights = {form: romanian_own(form), **{l: romanian_own(l) - (count(form) if form in romanian_forms[l] else 0) for l in participle_of}}
+                whole = sum(weights.values())
+                return {l: w / whole for l, w in weights.items()} if whole else None
         return None
 
     merged = defaultdict(list)

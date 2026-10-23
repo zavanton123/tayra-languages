@@ -1471,6 +1471,11 @@ OVERRIDES["ro"].update({
     "ș": ["și"], "dintr": ["din"], "printr": ["prin"], "intr": ["în"], "ti": ["tu"],
     "fiu": ["fiu", "fi"], "mie": ["mie", "eu"], "cui": ["cui", "cine"], "ceară": ["ceară", "cere"], "moară": ["moară", "muri"],
     "placă": ["placă", "plăcea"], "mii": ["mie"], "așteptat": ["aștepta"],
+    # Verb forms the rules leave to a look-alike (știut, irregular; plac and sun, "I like", "I call"), and curs "course",
+    # not curge's rare participle. Verb forms spelled as a noun share it with the noun: vin "I come" and "wine", să vină
+    # and vină "fault", se joacă and joacă "play", pui "you put" and "chick", cer "I ask" and "sky".
+    "știut": ["ști"], "plac": ["plăcea"], "sun": ["suna"], "curs": ["curs"],
+    "vin": ["vin", "veni"], "stea": ["stea", "sta"], "vină": ["vină", "veni"], "joacă": ["joacă", "juca"], "pui": ["pui", "pune"], "cer": ["cer", "cere"],
 })
 
 # "vir" is also a form of "ver" ("quando eu vir"), which took it and every form of "vir" with it.
