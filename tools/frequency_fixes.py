@@ -1752,3 +1752,18 @@ OVERRIDES["ar"].update({"نقطتان": ["نقطة"], "مرتين": ["مرة"]})
 
 # Slovak verbs in ne- that are words of their own, not a verb negated: "hate", "can't stand".
 SLOVAK_NEGATIVE_VERBS = {"nenávidieť", "neznášať"}
+
+# Croatian, beside the rules for infinitives and ekavian words: the case forms of tko, što, mi and vi, verb forms that sat
+# apart or under a look-alike noun (počela, traže of trag, govori of govor), piti through pita "pie" to pitati, njezin
+# counted for moj, words split by their forms (stari, nikada, vijesti), čest "frequent" for čast "honour", tiho "quietly"
+# for taj, and Serbian niko and vjerovatno.
+OVERRIDES["hr"].update({
+    "čega": ["što"], "čemu": ["što"], "kome": ["tko"], "kim": ["tko"], "niko": ["nitko"], "piti": ["piti"],
+    "počela": ["početi"], "počelo": ["početi"], "došla": ["doći"], "tiče": ["ticati"], "rade": ["raditi"],
+    "govori": ["govoriti"], "govore": ["govoriti"], "čini": ["činiti"], "čine": ["činiti"], "traže": ["tražiti"],
+    "žele": ["željeti"], "stane": ["stati"], "duše": ["duša"], "njezin": ["njezin"], "čest": ["čest"],
+    "tiho": ["tiho"], "vjerovatno": ["vjerojatno"], "vam": ["vi"], "nam": ["mi"], "čime": ["što"], "kog": ["tko"],
+    "kom": ["tko"], "kime": ["tko"], "komu": ["tko"], "stari": ["star"], "stara": ["star"], "nikada": ["nikad"],
+    "ikada": ["ikad"], "ponovo": ["ponovno"], "hajdemo": ["hajde"], "vijesti": ["vijest"],
+})
+DISPLAY["hr"] = {"cio": "cijeli"}

@@ -1949,6 +1949,20 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
     guessed = {}
     lemmatizer = simplemma_for(language)
 
+    # Croatian verbs whose forms the dictionary names but which it has no entry for (vraćati of vraća): words, as the
+    # aspect partner the dictionary files them under (vratiti) is another. So are those it gives only as a partner's
+    # form (pokušavati of pokušati), which simplemma finds for their forms.
+    croatian_verbs = set()
+    if language == "hr":
+        named = {l for of in lemmas.values() for l in of if l.endswith("ti") and l not in pos}
+        # Not a verb's imperative or present in -ti (vrati of vratiti, šuti of šutjeti, vrišti of vrištati).
+        partners = {f for f in freq if f.endswith("ti") and f not in pos and lemmas.get(f)
+                    and all(l.endswith(("ti", "ći")) and "verb" in pos.get(l, set()) and not l.startswith(f[:-1]) for l in lemmas[f])}
+        for verb in named | partners:
+            if verb not in excluded and verb not in overrides and len(verb) > 3:
+                croatian_verbs.add(verb)
+                guessed.setdefault(verb, verb)
+
     # How common a Korean word is with its forms that are no other word's: a verb's dictionary form is
     # rare in text, so a form of several verbs (가는, of 가다 and 갈다) is shared by this.
     mass = {}
@@ -2004,6 +2018,42 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
             guessed.setdefault(positive, positive)
             return positive
         return None
+
+    croatian_glosses = {}
+
+    def croatian_gloss(word):
+        """The English glosses of a Croatian entry, cut at commas, without what brackets add."""
+        if word not in croatian_glosses:
+            db = sqlite3.connect(os.path.join(DICTIONARIES, "hr-en.sqlite"))
+            items = set()
+            for (senses,) in db.execute("SELECT senses FROM entries WHERE word_lc = ?", (word,)):
+                for sense in json.loads(senses):
+                    for gloss in sense.get("glosses", []):
+                        items.update(i.strip() for i in re.split(r"[,;]", re.sub(r"\([^)]*\)", "", gloss.lower())) if i.strip())
+            db.close()
+            croatian_glosses[word] = items
+        return croatian_glosses[word]
+
+    def croatian_ijekavian(word):
+        """
+        The ijekavian word a Croatian entry is the ekavian (Serbian) spelling of, as the dictionary has both with a
+        gloss in common (cijena of cena, pjevati of pevati, prijevod of prevod), or None.
+        """
+        for i in (i for i, c in enumerate(word) if c == "e"):
+            for jat in ("je", "ije"):
+                twin = word[:i] + jat + word[i + 1:]
+                if is_word(twin) and count(twin) >= count(word) and pos[word] & pos[twin] & WORD_POS and croatian_gloss(word) & croatian_gloss(twin):
+                    return twin
+        return None
+
+    def croatian_infinitive(word):
+        """Whether a Croatian word is a verb's infinitive: a word of its own, never another verb's form."""
+        return word.endswith(("ti", "ći")) and len(word) > 3 and ("verb" in pos.get(word, set()) or word in croatian_verbs) and is_word(word)
+
+    def croatian_variant(verb, other):
+        """Whether two Croatian verbs are one spelled two ways (stići and stignuti, dići and dignuti)."""
+        stem = lambda v: re.sub(r"(gnuti|knuti|nuti|ći)$", "", v)  # noqa: E731
+        return verb != other and stem(verb) == stem(other)
 
     reu = {}
 
@@ -2181,6 +2231,8 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
             return {form: 1.0}
         elif language == "sk" and "verb" in pos.get(form, set()) and slovak_positive(form):
             return {slovak_positive(form): 1.0}
+        elif language == "hr" and is_word(form) and form in pos and croatian_ijekavian(form):
+            return {croatian_ijekavian(form): 1.0}
         elif language == "ko" and KOREAN_GLOSSED.get(form) and is_word(KOREAN_GLOSSED[form]):
             # A form the pack has as a word (화려한, 먹기, 아빤) is the word it is the form of.
             return {KOREAN_GLOSSED[form]: 1.0}
@@ -2244,6 +2296,9 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
                     return {}
                 candidates = [l for l in candidates if not is_name(l)]
             others = list(dict.fromkeys(l for l in candidates if l != form and is_word(l)))
+            # A Croatian infinitive is no other verb's form, as the dictionary files aspect partners (dolaziti of doći).
+            if language == "hr" and croatian_infinitive(form):
+                others = [l for l in others if "verb" not in pos.get(l, set()) or croatian_variant(form, l)]
             # A simplified word whose traditional entries are all variant spellings (哪里 of 哪裏) goes to the
             # spelling Taiwan writes (哪裡), when that is a word.
             if language in ("zh", "yue") and not others and not is_word(form):
