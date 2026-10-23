@@ -30,6 +30,13 @@ internal class SessionPlayer(
 ) : SimpleBasePlayer(Looper.getMainLooper()) {
     private val watch = scope.launch { nowPlaying.collect { invalidateState() } }
 
+    /** The cover every text shows in the notification and on the lock screen, once it is loaded. */
+    var artwork: ByteArray? = null
+        set(value) {
+            field = value
+            invalidateState()
+        }
+
     override fun getState(): State {
         val now = nowPlaying.value?.takeIf { it.queue.isNotEmpty() } ?: return State.Builder().setAvailableCommands(COMMANDS).build()
         val items = now.queue.map { text ->
@@ -38,6 +45,7 @@ internal class SessionPlayer(
                 .setArtist(now.playlistName)
                 .setAlbumTitle(now.playlistName)
                 .setMediaType(MediaMetadata.MEDIA_TYPE_AUDIO_BOOK_CHAPTER)
+                .apply { artwork?.let { setArtworkData(it, MediaMetadata.PICTURE_TYPE_FRONT_COVER) } }
                 .build()
             MediaItemData.Builder(text.itemId)
                 .setMediaItem(MediaItem.Builder().setMediaId(text.itemId.toString()).setMediaMetadata(metadata).build())

@@ -89,9 +89,11 @@ class PlaylistPlaybackService : MediaSessionService(), KoinComponent {
         val open = packageManager.getLaunchIntentForPackage(packageName)?.let {
             PendingIntent.getActivity(this, 0, it, PendingIntent.FLAG_IMMUTABLE or PendingIntent.FLAG_UPDATE_CURRENT)
         }
-        session = MediaSession.Builder(this, SessionPlayer(player, nowPlaying, scope))
+        val sessionPlayer = SessionPlayer(player, nowPlaying, scope)
+        session = MediaSession.Builder(this, sessionPlayer)
             .apply { if (open != null) setSessionActivity(open) }
             .build()
+        scope.launch { sessionPlayer.artwork = nowPlayingArtwork() }
         scope.launch {
             nowPlaying.map { it?.playing }.distinctUntilChanged().collect { playing ->
                 when (playing) {

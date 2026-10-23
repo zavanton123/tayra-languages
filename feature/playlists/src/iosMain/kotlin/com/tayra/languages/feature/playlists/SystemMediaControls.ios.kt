@@ -3,6 +3,8 @@ package com.tayra.languages.feature.playlists
 import androidx.compose.runtime.Composable
 import com.tayra.languages.core.domain.playlists.PlaylistPlayer
 import kotlinx.cinterop.ExperimentalForeignApi
+import kotlinx.cinterop.addressOf
+import kotlinx.cinterop.usePinned
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.SupervisorJob
@@ -19,13 +21,17 @@ import platform.AVFAudio.AVAudioSessionInterruptionTypeKey
 import platform.AVFAudio.AVAudioSessionModeSpokenAudio
 import platform.AVFAudio.AVAudioSessionSetActiveOptionNotifyOthersOnDeactivation
 import platform.AVFAudio.setActive
+import platform.Foundation.NSData
 import platform.Foundation.NSNotification
+import platform.Foundation.dataWithBytes
 import platform.Foundation.NSNotificationCenter
 import platform.Foundation.NSNumber
 import platform.Foundation.NSOperationQueue
 import platform.MediaPlayer.MPChangePlaybackPositionCommandEvent
 import platform.MediaPlayer.MPMediaItemPropertyAlbumTitle
+import platform.MediaPlayer.MPMediaItemArtwork
 import platform.MediaPlayer.MPMediaItemPropertyArtist
+import platform.MediaPlayer.MPMediaItemPropertyArtwork
 import platform.MediaPlayer.MPMediaItemPropertyPlaybackDuration
 import platform.MediaPlayer.MPMediaItemPropertyTitle
 import platform.MediaPlayer.MPNowPlayingInfoCenter
@@ -40,6 +46,7 @@ import platform.MediaPlayer.MPRemoteCommandHandlerStatus
 import platform.MediaPlayer.MPRemoteCommandHandlerStatusCommandFailed
 import platform.MediaPlayer.MPRemoteCommandHandlerStatusSuccess
 import platform.UIKit.UIApplication
+import platform.UIKit.UIImage
 import platform.UIKit.UIBackgroundTaskIdentifier
 import platform.UIKit.UIBackgroundTaskInvalid
 import kotlin.time.DurationUnit
@@ -57,6 +64,7 @@ private class IosMediaControls(private val player: PlaylistPlayer, private val f
     private var active = false
     private var pausedForInterruption = false
     private var backgroundTask: UIBackgroundTaskIdentifier = UIBackgroundTaskInvalid
+    private var artwork: MPMediaItemArtwork? = null
 
     init {
         commands.playCommand.handle { player.resume() }
@@ -72,7 +80,10 @@ private class IosMediaControls(private val player: PlaylistPlayer, private val f
             MPRemoteCommandHandlerStatusSuccess
         }
         NSNotificationCenter.defaultCenter.addObserverForName(AVAudioSessionInterruptionNotification, `object` = session, queue = NSOperationQueue.mainQueue) { note -> interrupted(note) }
-        CoroutineScope(SupervisorJob() + Dispatchers.Main).launch { feed.nowPlaying.collect(::show) }
+        CoroutineScope(SupervisorJob() + Dispatchers.Main).launch {
+            artwork = nowPlayingArtwork()?.let(::coverOf)
+            feed.nowPlaying.collect(::show)
+        }
     }
 
     private fun MPRemoteCommand.handle(action: () -> Unit) {
@@ -97,7 +108,7 @@ private class IosMediaControls(private val player: PlaylistPlayer, private val f
         }
         // Nothing sounds while a sentence is got ready, and in the background the system would suspend the app then.
         if (now.status == NowPlayingStatus.LOADING) beginBackgroundTask() else endBackgroundTask()
-        center.nowPlayingInfo = mapOf<Any?, Any?>(
+        center.nowPlayingInfo = listOfNotNull(
             MPMediaItemPropertyTitle to now.title,
             MPMediaItemPropertyArtist to now.playlistName,
             MPMediaItemPropertyAlbumTitle to now.playlistName,
@@ -106,8 +117,15 @@ private class IosMediaControls(private val player: PlaylistPlayer, private val f
             MPNowPlayingInfoPropertyPlaybackRate to if (now.status == NowPlayingStatus.PLAYING) 1.0 else 0.0,
             MPNowPlayingInfoPropertyPlaybackQueueIndex to now.index,
             MPNowPlayingInfoPropertyPlaybackQueueCount to now.queue.size,
-        )
+            artwork?.let { MPMediaItemPropertyArtwork to it },
+        ).toMap<Any?, Any?>()
         commands.nextTrackCommand.enabled = now.hasNext
+    }
+
+    /** The cover from its PNG [bytes], handed to the system at whatever size it asks for. */
+    private fun coverOf(bytes: ByteArray): MPMediaItemArtwork? {
+        val image = bytes.usePinned { UIImage(data = NSData.dataWithBytes(it.addressOf(0), bytes.size.toULong())) }
+        return MPMediaItemArtwork(boundsSize = image.size) { _ -> image }
     }
 
     private fun interrupted(note: NSNotification?) {

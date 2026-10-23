@@ -3,6 +3,12 @@ plugins {
 }
 
 kotlin {
+    // The notification's cover is a Compose resource, which an Android library only packages with this on.
+    androidLibrary {
+        androidResources {
+            enable = true
+        }
+    }
     sourceSets {
         androidMain.dependencies {
             implementation(libs.androidx.media3.session)
