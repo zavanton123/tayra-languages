@@ -1,0 +1,208 @@
+{
+  "id": "ca-mini-7100",
+  "rankUpTo": 7100,
+  "level": "C1",
+  "title": "Salut pública",
+  "description": "Ten standalone stories about everyday public health in Catalan-speaking places: a mountain spring intake, autumn flu vaccinations, a school canteen cooking local food, a sleep bracelet, a new cycle lane, sun cream at a youth hostel, a choir and healthy ageing, street noise, a dovecote for town pigeons and a village doctor's memoirs.",
+  "topic": "Public health",
+  "names": [
+    "Medir",
+    "Riudavets",
+    "Rupit",
+    "Collsacabra",
+    "Albertina",
+    "Gatell",
+    "Laurentina",
+    "Caralt",
+    "Atanasi",
+    "Ricart",
+    "Tortosa",
+    "Erminda",
+    "Boixadera",
+    "Mansuet",
+    "Farrerons",
+    "Xàtiva",
+    "Ignàsia",
+    "Mollfulleda",
+    "Lleida",
+    "Juvenal",
+    "Trullàs",
+    "Honorata",
+    "Puigcercós",
+    "Tarragona",
+    "Altafulla",
+    "Anastàsia",
+    "Muntané",
+    "Gelasi",
+    "Ballbè",
+    "Palamós",
+    "Girona",
+    "Crescència",
+    "Bufill",
+    "Emerencià",
+    "Soteras",
+    "Manresa",
+    "Alcoi",
+    "Zoila",
+    "Roura",
+    "Antolí",
+    "Garolera",
+    "Barcelona",
+    "Hipòlita",
+    "Llopart",
+    "Ambrosina",
+    "Noguer",
+    "Vic",
+    "Domitila",
+    "Salvadó",
+    "Peronella",
+    "Tafalla",
+    "Pallars"
+  ],
+  "lessons": [
+    {
+      "title": "L'aigua que baixa de la muntanya",
+      "summary": "Medir Riudavets, the water technician of Rupit, shows a secondary-school class the spring intake in the forest, the rock layers that filter the rain, the automated chlorine dosing and a simple water test; months later the teacher's idea of a mural about the water's journey becomes real.",
+      "newWords": [
+        "captació",
+        "estrat",
+        "descendir",
+        "automatitzar",
+        "simplicitat",
+        "vast",
+        "experimentació",
+        "materialitzar"
+      ],
+      "text": "En Medir Riudavets és el tècnic de l'aigua de Rupit, un poble del Collsacabra. El terme del poble és molt vast i gairebé tot és bosc. Cada any, al maig, en Medir rep una classe de l'institut que vol saber d'on surt l'aigua de l'aixeta. Aquest matí l'acompanya la professora de ciències, l'Albertina Gatell, amb vint alumnes de setze anys.\n\nPrimer els porta a la captació, una caseta de pedra al costat d'una font, enmig del bosc. «Una captació és el lloc on agafem l'aigua de la natura per portar-la a les cases», explica.\n\nDesprés s'aturen davant d'un tall de la muntanya, al costat del camí, on es veuen diverses capes de roca. «Mireu aquests estrats», diu en Medir. «Cada estrat és una capa de roca o de sorra diferent. Quan plou, l'aigua no es queda a dalt: descendeix lentament a través dels estrats. Mentre descendeix, la terra la filtra i la neteja. Pot tardar mesos a arribar a la font.»\n\nDins la caseta hi ha un aparell blanc amb una pantalla. Abans, en Medir havia de pujar cada dia a la captació per posar clor a l'aigua amb les mans. Ara el sistema està automatitzat: una bomba petita hi afegeix la dosi justa de clor, i un sensor analitza l'aigua cada deu minuts i envia les dades al seu mòbil. «Automatitzar la captació ens ha donat molta tranquil·litat», diu. «Però jo hi continuo pujant cada setmana. Una màquina no veu si una branca ha caigut a sobre del dipòsit.»\n\nL'Albertina li pregunta per què l'aigua del poble és tan bona. «Per la simplicitat del sistema», respon ell. «Tenim un bosc vast que protegeix la font, uns estrats que filtren l'aigua i una canonada que la porta cap avall sense cap motor. No cal res més. La simplicitat és el nostre gran avantatge.»\n\nAbans de tornar, els alumnes fan una petita experimentació. Cada grup omple tres gots: un amb aigua de la font, un amb aigua del rierol i un amb aigua d'un toll del camí. Hi tiren unes gotes d'un líquid que canvia de color segons el clor i miren l'aigua contra la llum. L'experimentació els agrada molt: l'aigua del toll és bruta i plena de partícules, i la de la font és ben transparent.\n\nAquell mateix dia, l'Albertina proposa una idea: fer un mural a l'institut sobre el camí de l'aigua. Al juny, la idea es materialitza: a l'entrada de l'institut hi ha un mural de sis metres que mostra la pluja, el bosc, els estrats, la captació i l'aixeta d'una cuina. Quan en Medir el veu, somriu. Veure materialitzada la feina d'aquell matí li fa molta il·lusió.\n\nPreguntes:\nQuè és una captació, segons en Medir?\nÉs el lloc on agafen l'aigua de la natura per portar-la a les cases.\nQuè fa l'aigua de la pluja a la muntanya?\nDescendeix lentament a través dels estrats, i la terra la filtra i la neteja.\nPer què l'aigua del poble és tan bona?\nPer la simplicitat del sistema: un bosc vast, uns estrats que filtren l'aigua i una canonada sense motor.\nQuè fan els alumnes durant l'experimentació?\nOmplen tres gots d'aigua, hi tiren unes gotes d'un líquid i miren l'aigua contra la llum.\nCom es materialitza la idea de l'Albertina?\nEs materialitza en un mural de sis metres a l'entrada de l'institut."
+    },
+    {
+      "title": "La vacuna de la tardor",
+      "summary": "Nurse Laurentina Caralt starts the autumn flu vaccinations for older people at the Tortosa health centre; Atanasi Ricart, eighty-one, tries to hide his fear of needles, she explains the mild side effects and why the vaccine helps in old age, and the day ends with forty-two people vaccinated.",
+      "newWords": [
+        "feix",
+        "dissimular",
+        "advers",
+        "vellesa",
+        "menystenir",
+        "gratificar"
+      ],
+      "text": "Cada octubre, al centre de salut de Tortosa, comença la vacunació de la grip per a la gent gran. La infermera Laurentina Caralt hi treballa des de fa quinze anys. El primer dia arriba d'hora, amb un feix de papers sota el braç: les llistes de pacients, els horaris i un full informatiu per a cada persona. Deixa el feix damunt la taula, ordena les vacunes a la nevera i obre la porta a les vuit en punt.\n\nA les nou entra el senyor Atanasi Ricart, de vuitanta-un anys. Camina ben dret, porta barret i té un aire molt decidit. «Bon dia, infermera. Vinc per la vacuna. I li aviso que no em fa gens de por», diu. La Laurentina veu que li tremolen una mica les mans. Ell intenta dissimular-ho, però no ho dissimula gaire bé.\n\n«No passa res, senyor Ricart», li diu amb un somriure. «Molta gent intenta dissimular els nervis. Tenir por d'una agulla no és cap vergonya.» Ell arrufa el nas, però al final somriu. «D'acord. No m'agraden gens, les agulles. Ja està dit.»\n\nAbans de vacunar-lo, la Laurentina li explica què pot notar. «Els efectes adversos solen ser lleus: una mica de dolor al braç, potser cansament durant un dia. Si nota algun efecte advers més fort, ens truca i en parlem.» Li dona el full informatiu, on hi ha la llista dels efectes adversos més freqüents i el telèfon del centre.\n\nEl senyor Ricart pregunta si la vacuna és només per als vells. «Està recomanada per a molta gent», respon ella. «Però amb la vellesa el cos resisteix pitjor la grip, i un hivern es pot fer molt llarg. La vacuna ajuda a viure la vellesa amb més salut.» Ell admet que, de jove, menystenia la grip. «Deia que era un refredat i prou. Ara veig que no s'ha de menystenir.» La Laurentina hi està d'acord: «No s'ha de menystenir a cap edat, i a la vellesa encara menys.»\n\nLa punxada dura un segon. «Ja està?», pregunta ell, sorprès. Abans de marxar, treu de la bossa una capsa de pastes de l'obrador del seu barri per a tot l'equip. «Gràcies per la paciència amb un vell que dissimula tan malament.»\n\nAl migdia, la Laurentina compta els noms del feix: ha vacunat quaranta-dues persones. És una feina cansada, però molt gratificant. «El més gratificant», explica a una companya, «és quan algú entra amb por i surt rient.» Per a ella, aquests matins d'octubre són els més gratificants de l'any.\n\nPreguntes:\nQuè porta la Laurentina sota el braç el primer dia?\nPorta un feix de papers amb les llistes de pacients, els horaris i els fulls informatius.\nQuè intenta dissimular el senyor Ricart?\nIntenta dissimular la por, perquè li tremolen una mica les mans.\nQuins efectes adversos pot notar després de la vacuna?\nPot notar una mica de dolor al braç i potser cansament durant un dia.\nPer què la vacuna és útil a la vellesa?\nPerquè amb la vellesa el cos resisteix pitjor la grip.\nQuè feia el senyor Ricart de jove?\nMenystenia la grip: deia que era un refredat i prou.\nPer què la feina de la Laurentina és gratificant?\nPerquè hi ha gent que entra amb por i surt rient."
+    },
+    {
+      "title": "El menjador de l'escola",
+      "summary": "After a new contract for the school canteen in Xàtiva, cook Erminda Boixadera cooks on site with local food: fruit and vegetables from Mansuet Farrerons's farmhouse, flour from a local miller, bread kneaded by hand, lean meat and hazelnuts for snacks, and the microwave is hardly used any more.",
+      "newWords": [
+        "microona",
+        "adjudicació",
+        "alqueria",
+        "clàudia",
+        "comercialització",
+        "moliner",
+        "maurar",
+        "magre",
+        "avellana"
+      ],
+      "text": "A l'escola de l'Erminda Boixadera, a Xàtiva, dinen tres-cents alumnes cada dia. Fins a l'any passat, el menjar arribava d'una empresa de fora, ja cuinat, i a l'escola només l'escalfaven al microones. Els nens es queixaven: la verdura era tova, el peix no tenia gust i el pa era sec.\n\nAquest curs l'ajuntament ha fet una nova adjudicació del servei de menjador. En les condicions de l'adjudicació hi havia tres punts: cuinar a la mateixa escola, comprar productes de la comarca i fer servir el microones només en casos excepcionals. La cooperativa on treballa l'Erminda va guanyar l'adjudicació, i ara ella és la cap de cuina.\n\nCada dilluns, l'Erminda va a l'alqueria d'en Mansuet Farrerons, una casa de camp antiga envoltada d'horts i de tarongers, a tres quilòmetres de la ciutat. A l'alqueria hi ha tomàquets, carbasses, enciams i, al juny, unes clàudies grogues i dolcíssimes. Els nens no les coneixien, i ara les clàudies són la fruita més demanada de les postres.\n\nEn Mansuet ven la fruita directament a l'escola. «La comercialització era el que més em costava», explica. «Abans venia tota la collita a un majorista, que me la pagava molt barata. Ara la comercialització és directa: de l'alqueria a la cuina de l'escola, sense ningú pel mig.»\n\nLa farina ve d'un moliner de la comarca que encara mol el gra amb una mola de pedra. Cada divendres, l'Erminda maura la massa del pa a la cuina. Maurar és treballar la massa amb les mans: cal maurar-la uns deu minuts, fins que queda fina i elàstica. Un cop al mes, els alumnes de tercer van a la cuina i aprenen a maurar la seva pròpia massa. A la primavera, el moliner els va visitar i els va explicar com funciona un molí.\n\nPel que fa a la carn, l'Erminda tria carn magra: pit de pollastre, conill i, de tant en tant, porc magre. «La carn magra té menys greix, i els nens se la mengen igual de bé si està ben cuinada», diu.\n\nPer berenar, en lloc de galetes de paquet, l'escola dona fruita i un grapat d'avellanes torrades. Abans de servir les avellanes, l'Erminda revisa la llista dels nens que no poden menjar fruits secs; per a ells hi ha pa amb tomàquet.\n\nAl final del primer trimestre, l'escola fa una enquesta a les famílies. Gairebé totes estan contentes. Una mare escriu: «El meu fill ara em demana pa fet a mà i clàudies.» I a la cuina, el microones només serveix per escalfar la llet del matí.\n\nPreguntes:\nCom era el menjador abans de la nova adjudicació?\nEl menjar arribava ja cuinat i només l'escalfaven al microones.\nQuins punts hi havia en les condicions de l'adjudicació?\nCuinar a l'escola, comprar productes de la comarca i fer servir poc el microones.\nQuè hi ha a l'alqueria d'en Mansuet?\nHi ha tomàquets, carbasses, enciams i, al juny, clàudies grogues i dolces.\nCom és ara la comercialització de la fruita d'en Mansuet?\nÉs directa: de l'alqueria a la cuina de l'escola, sense ningú pel mig.\nQuè vol dir maurar?\nVol dir treballar la massa del pa amb les mans fins que queda fina i elàstica.\nPer què l'Erminda tria carn magra?\nPerquè té menys greix, i els nens se la mengen igual de bé si està ben cuinada."
+    },
+    {
+      "title": "Les nits de la Ignàsia",
+      "summary": "Architect Ignàsia Mollfulleda becomes obsessed with the sleep figures of a fitness bracelet and her nights get longer; a doctor explains how crude the data are and how screen brightness keeps her awake, and a work-life balance plan at her firm lets her stop working at night and sleep well again.",
+      "newWords": [
+        "polsera",
+        "obsessionar",
+        "interminable",
+        "binari",
+        "brillantor",
+        "conciliació"
+      ],
+      "text": "L'Ignàsia Mollfulleda és arquitecta a Lleida i té dos fills petits. Fa mesos que dorm malament, i pel seu aniversari la seva germana li va regalar una polsera intel·ligent. La polsera mesura el cor i el moviment, i cada matí li diu quantes hores ha dormit i quantes vegades s'ha despertat.\n\nAl principi, la polsera li sembla una idea excel·lent. Però al cap d'unes setmanes, les dades la comencen a obsessionar. Cada matí, abans de llevar-se, mira el mòbil: «6 hores i 12 minuts. Son profund: 48 minuts.» Si el número és baix, es posa de mal humor. A la nit, es fica al llit pensant en la xifra de l'endemà, i com més hi pensa, menys s'adorm. Les nits se li fan interminables: dona voltes al llit, mira el rellotge, torna a mirar la polsera. A les reunions, ha de dissimular els badalls amb la mà.\n\nUn dia en parla amb la seva metgessa de capçalera. «La seva polsera no és un aparell mèdic», li explica la metgessa. «Les dades que dona són gairebé binàries: dormida o desperta, quieta o en moviment. Però el son no és un codi binari de zeros i uns: és molt més complex. No deixi que una xifra l'obsessioni.»\n\nLa metgessa també li pregunta què fa abans d'anar a dormir. L'Ignàsia admet que respon els correus de la feina al llit, amb el mòbil a tota brillantor. «La brillantor de la pantalla confon el cervell: li fa pensar que encara és de dia», diu la metgessa. «Abaixi la brillantor a partir de les vuit, i deixi el mòbil fora de l'habitació.»\n\nL'Ignàsia sap que el problema de fons és un altre. Cada tarda, a les cinc, va a buscar els nens a l'escola, i les hores de feina que perd a la tarda les recupera a la nit. La conciliació de la feina i la família és el seu punt feble. L'endemà en parla amb la seva cap. L'estudi té un pla de conciliació que ella no coneixia: pot començar a les set i mitja i plegar a les quatre, i un dia a la setmana pot treballar des de casa. «La conciliació no és un favor», li diu la cap. «Si dorms bé, treballes millor.»\n\nL'Ignàsia canvia els horaris. A les nou de la nit, apaga l'ordinador. Abaixa la brillantor del mòbil i el deixa a la cuina. I la polsera, la guarda en un calaix.\n\nAl cap d'un mes, les nits ja no són interminables. S'adorm abans de les onze. A les reunions, ja no ha de dissimular cap badall. Una nit, per curiositat, es torna a posar la polsera. Al matí, ni la mira: sap que ha dormit bé, i no necessita cap número que l'obsessioni.\n\nPreguntes:\nQuè li va regalar la seva germana a l'Ignàsia?\nLi va regalar una polsera intel·ligent que mesura el cor i el moviment.\nPer què les nits se li fan interminables?\nPerquè les dades de la polsera l'obsessionen i, com més hi pensa, menys s'adorm.\nPer què la metgessa diu que les dades són gairebé binàries?\nPerquè només diuen si està dormida o desperta, quieta o en moviment.\nQuè li passa al cervell amb la brillantor de la pantalla?\nLa brillantor el confon i li fa pensar que encara és de dia.\nQuè li ofereix el pla de conciliació de l'estudi?\nPot començar a les set i mitja, plegar a les quatre i treballar un dia des de casa."
+    },
+    {
+      "title": "En tàndem pel carril bici",
+      "summary": "Retired couple Juvenal Trullàs and Honorata Puigcercós ride their tandem along Tarragona's new cycle lane, which more people use since the last recession: they explain the street's order of priority, ask a scooter rider for good manners, and end with a picnic in a pine wood by the sea.",
+      "newWords": [
+        "tàndem",
+        "recessió",
+        "faixa",
+        "jerarquia",
+        "civisme",
+        "abonament",
+        "reclam",
+        "sensacional",
+        "pícnic"
+      ],
+      "text": "En Juvenal Trullàs i l'Honorata Puigcercós viuen a Tarragona i fa quaranta anys que van junts amb bicicleta. Des que es van jubilar, però, van en tàndem: una bicicleta llarga, de dues places, amb dos seients i dos parells de pedals. En Juvenal va al davant i gira el manillar; l'Honorata va al darrere i pedala. «En un tàndem cal anar d'acord», diu ella. «Si un frena i l'altre no, no anem enlloc.»\n\nDurant l'última recessió, molta gent de Tarragona va deixar el cotxe per estalviar i va començar a anar amb bicicleta. Però els carrers no hi estaven preparats. Quan la recessió es va acabar, l'ajuntament va decidir fer un carril bici que travessés la ciutat de punta a punta. Aquesta primavera l'han acabat. És una faixa de dos metres, pintada de verd i separada dels cotxes per una vorada baixa. Al costat hi ha una altra faixa, més ampla, per als vianants.\n\nAl principi de cada tram hi ha un cartell que explica la jerarquia del carrer: primer els vianants, després les bicicletes i, al final, els cotxes. «La jerarquia és clara», diu en Juvenal. «Qui és més fràgil té preferència.»\n\n«Però un carril bici només funciona amb civisme», afegeix l'Honorata. Quan passen pel costat d'un parc infantil, en Juvenal toca el timbre i redueix la velocitat. Un noi amb patinet elèctric els avança massa a prop. L'Honorata li somriu i li diu: «Una mica de civisme, jove!» El noi es gira, es disculpa i frena.\n\nAquest dissabte van fins a l'estació, on hi ha un aparcament cobert per a bicicletes. En Juvenal i l'Honorata hi tenen un abonament anual: per vint euros l'any, hi poden deixar el tàndem sempre que vulguin. Avui no agafen el tren: només hi passen perquè l'abonament també inclou un petit taller, i en Juvenal hi infla les rodes abans de sortir.\n\nDesprés segueixen el carril fins a la ruta de la costa que va cap a Altafulla. La ruta també és un reclam per als turistes: cada cap de setmana hi passen ciclistes de tot arreu. «És el millor reclam que té la comarca», diu en Juvenal. Al costat del mar, el paisatge és sensacional: platges, pins i, al fons, el port. «Sensacional!», crida l'Honorata des del darrere.\n\nA les dues s'aturen en un pinar a la vora del mar per fer un pícnic: entrepans de tomàquet i formatge, fruita i aigua fresca. Durant el pícnic, una família amb dos nens s'acosta a mirar el tàndem.\n\nA la tarda tornen a Tarragona. Han fet quaranta quilòmetres, i l'Honorata ho resumeix així: «Un dia sensacional, un pícnic vora el mar i ni un sol cotxe.»\n\nPreguntes:\nCom és el tàndem d'en Juvenal i l'Honorata?\nÉs una bicicleta llarga, de dues places, amb dos seients i dos parells de pedals.\nQuè va passar durant l'última recessió?\nMolta gent va deixar el cotxe per estalviar i va començar a anar amb bicicleta.\nQuè explica el cartell de cada tram?\nExplica la jerarquia del carrer: primer els vianants, després les bicicletes i, al final, els cotxes.\nQuè li diu l'Honorata al noi del patinet?\nLi diu que tingui una mica de civisme.\nPer què la ruta de la costa és un reclam?\nPerquè cada cap de setmana hi passen ciclistes de tot arreu.\nOn fan el pícnic?\nEl fan en un pinar a la vora del mar."
+    },
+    {
+      "title": "Crema solar a l'alberg",
+      "summary": "Anastàsia Muntané, a leader at a youth hostel on the Costa Brava, teaches twelve ten-year-olds to use sun cream properly; a lifeguard who used to be a competitive swimmer gives them a talk, they build a little sand castle under borrowed sunshades and take turns at the bow of a glass-bottomed boat.",
+      "newWords": [
+        "alberg",
+        "cella",
+        "rull",
+        "salvament",
+        "nedador",
+        "castellet",
+        "agenciar",
+        "faldilla",
+        "proa"
+      ],
+      "text": "L'Anastàsia Muntané és monitora en un alberg de joves de Palamós, a la costa de Girona. Aquesta setmana hi ha dotze nens i nenes de deu anys d'una escola de Lleida. L'alberg és a cinc minuts de la platja, i cada matí, abans de sortir, l'Anastàsia reuneix el grup a l'entrada amb un pot gros de crema solar.\n\n«La crema s'ha de posar mitja hora abans d'anar al sol i tornar-la a posar cada dues hores», explica. «I després de banyar-vos, també.» Els nens se la posen a la cara, als braços i a les cames. Els recorda els llocs que tothom oblida: les orelles, el coll, el nas i les celles. «Sí, les celles també es cremen!», diu, i en toca una amb el dit per ensenyar-los-ho.\n\nUn nen té el cabell ple de rulls i pregunta si cal posar-se crema al cap. «Entre els rulls la pell queda força amagada», respon ella, «però a la ratlla del cabell el sol toca de ple.» Li dona una gorra, i el nen se l'encaixa damunt dels rulls.\n\nA les onze, en Gelasi Ballbè, el socorrista de la platja, els fa una xerrada. Abans de ser socorrista, havia estat nedador de competició, i després va treballar deu anys en un servei de salvament marítim. Els ensenya el material de salvament: un flotador vermell i una planxa. «Un bon nedador també respecta el mar», diu. «Banyeu-vos sempre on hi hagi socorrista.»\n\nAl migdia, el sol pica fort, i l'únic para-sol de l'alberg no fa prou ombra per a tothom. L'Anastàsia se les agencia per trobar-ne dos més: en demana un al cuiner de l'alberg i un altre a una família que se'n va. Sota els tres para-sols, el grup construeix un castellet de sorra amb quatre torres. Quan l'onada se l'emporta, fan un altre castellet, més lluny de l'aigua.\n\nA la tarda fan una excursió en una barca amb el fons de vidre. Una nena porta una faldilla llarga de cotó i una samarreta de màniga llarga: la seva mare li ha explicat que la roba també protegeix del sol. «La faldilla és una idea molt bona», li diu l'Anastàsia. Tots volen seure a la proa, on bufa l'aire fresc. Però a la proa no hi ha gens d'ombra, i el sol hi toca de ple. Per això l'Anastàsia fa torns: cinc minuts a la proa, cinc minuts a l'ombra. I abans de pujar a la barca, tothom s'ha tornat a posar crema.\n\nAquella nit, a l'alberg, ningú no té la pell vermella. Ni tan sols a les celles.\n\nPreguntes:\nQuan s'ha de posar la crema solar, segons l'Anastàsia?\nMitja hora abans d'anar al sol, cada dues hores i després de banyar-se.\nQuins llocs oblida tothom?\nLes orelles, el coll, el nas i les celles.\nQuè feia en Gelasi abans de ser socorrista?\nHavia estat nedador de competició i va treballar deu anys en un servei de salvament marítim.\nCom s'agencia l'Anastàsia dos para-sols més?\nEn demana un al cuiner de l'alberg i un altre a una família que se'n va.\nPer què la nena porta una faldilla llarga?\nPerquè la seva mare li ha explicat que la roba també protegeix del sol.\nPer què l'Anastàsia fa torns a la proa?\nPerquè a la proa no hi ha gens d'ombra i el sol hi toca de ple."
+    },
+    {
+      "title": "Cantar als setanta-nou",
+      "summary": "Crescència Bufill, seventy-nine, has sung in the Manresa choral society for fifty years; after a test shows slightly low bone density she walks uphill to rehearsals, sings a duet with a young tenor at a friendly gathering of choirs, and a local paper presents her as an example of active ageing.",
+      "newWords": [
+        "orfeó",
+        "ossi",
+        "envelliment",
+        "duet",
+        "virtuós",
+        "amical",
+        "exponent"
+      ],
+      "text": "La Crescència Bufill té setanta-nou anys i fa cinquanta anys que canta a l'orfeó de Manresa. Hi va entrar quan tenia vint-i-nou anys, i des d'aleshores no s'ha perdut gairebé cap assaig. L'orfeó assaja dos vespres per setmana en un local de la part alta de la ciutat.\n\nL'any passat, en una revisió, la metgessa li va fer una prova per mesurar la densitat òssia. La prova va mostrar que la seva massa òssia era una mica baixa. «És normal amb l'envelliment», li va explicar la metgessa. «A partir d'una edat, el teixit ossi es renova més a poc a poc. Però podem frenar aquest procés: camini cada dia, prengui una mica de sol al matí, mengi formatge i iogurt i mantingui's activa.»\n\nDes d'aleshores, la Crescència va a peu als assajos. Són vint-i-cinc minuts de pujada, i al principi arribava ofegada. Ara puja sense aturar-se. «La pujada és bona per al teixit ossi», li va dir la metgessa, «i a més, li fa bé al cor.»\n\nEl director de l'orfeó, l'Emerencià Soteras, sempre diu que cantar és un dels millors remeis contra l'envelliment. «Quan cantes, treballes la respiració i la memòria, i fas amics», explica. «Els estudis sobre l'envelliment ho diuen clar: la gent que canta en grup es troba menys sola.»\n\nAquesta primavera, l'orfeó organitza una trobada amical amb una coral d'Alcoi. No és cap concurs: cada coral canta quatre peces, i al final sopen tots junts en un ambient molt amical. L'Emerencià té una idea: que la Crescència canti un duet amb el tenor més jove del grup, un noi de vint anys. Al principi, ella dubta. «Un duet? A la meva edat?» Però el noi la convenç, i assagen el duet cada dissabte a casa d'ella.\n\nEls acompanya al piano un estudiant del conservatori de disset anys. És un pianista virtuós: toca les peces més difícils sense mirar la partitura. «Ser virtuós no és tocar ràpid», li diu la Crescència. «És fer que els altres cantin millor.» El jove pianista s'enrojola i somriu.\n\nEl dia de la trobada, el duet és el moment més aplaudit del concert. L'endemà, el diari de la comarca hi dedica un article. El títol diu: «La Crescència Bufill, un exponent de l'envelliment actiu.» La periodista escriu que la Crescència és el millor exponent d'una idea senzilla: que la música i el moviment ajuden a envellir bé.\n\nAl cap d'uns mesos, la Crescència torna a fer la prova òssia. La densitat no ha baixat gens. La metgessa li pregunta quin és el secret. «Dues pujades per setmana i un duet», respon ella.\n\nPreguntes:\nQuant de temps fa que la Crescència canta a l'orfeó?\nFa cinquanta anys que hi canta.\nQuè va mostrar la prova de densitat òssia?\nVa mostrar que la seva massa òssia era una mica baixa.\nPer què l'Emerencià diu que cantar és bo contra l'envelliment?\nPerquè treballes la respiració i la memòria, i fas amics.\nAmb qui canta un duet la Crescència?\nCanta un duet amb el tenor més jove del grup, un noi de vint anys.\nQuè diu la Crescència sobre ser virtuós?\nDiu que ser virtuós no és tocar ràpid, sinó fer que els altres cantin millor.\nCom la presenta el diari de la comarca?\nLa presenta com un exponent de l'envelliment actiu."
+    },
+    {
+      "title": "Mesurar el soroll",
+      "summary": "Acoustic expert Zoila Roura measures street noise in Barcelona while TV director Antolí Garolera films her for a documentary: a busy street against a quiet inner courtyard, a calmed street that has brought residents better sleep, and teenagers' earphones at a secondary school.",
+      "newWords": [
+        "acústic",
+        "realitzador",
+        "auricular",
+        "denotar",
+        "abisme",
+        "postular",
+        "reportar"
+      ],
+      "text": "La Zoila Roura és experta en contaminació acústica i treballa per a l'ajuntament de Barcelona. La seva feina és mesurar el soroll dels carrers i preparar el mapa acústic de la ciutat. Aquest mes l'acompanya en Antolí Garolera, un realitzador de televisió que prepara un documental sobre el soroll i la salut. El realitzador porta una càmera petita i uns auriculars grans per controlar el so que grava.\n\nPrimer van a un carrer de l'Eixample amb molt de trànsit. La Zoila posa al terra un trípode amb un aparell que mesura el soroll. Al cap d'un minut, la pantalla marca 72 decibels, i s'hi encén una llum vermella. «La llum vermella denota que el soroll supera el límit recomanat per a la salut», explica. En Antolí s'abaixa els auriculars. «I què denota la llum groga?», pregunta. «Denota que som a prop del límit.»\n\nDesprés entren per un portal al pati interior de la mateixa illa de cases. És un jardí amb arbres i bancs. L'aparell marca 45 decibels. «Entre el carrer i el pati hi ha un abisme», diu la Zoila. «Només cinquanta metres de distància, i un abisme acústic.» El realitzador grava els ocells del pati i, tot seguit, els cotxes del carrer, per mostrar aquest abisme al documental.\n\nMentre recullen el trípode, la Zoila li explica la història del seu ofici. «Fa dècades, alguns científics van postular que el soroll del trànsit no només molesta, sinó que també fa dormir pitjor i augmenta l'estrès. Ho van postular quan encara no hi havia gaires dades. Avui ho confirmen molts estudis.»\n\nA la tarda visiten un carrer que l'any passat es va tancar als cotxes. Ara hi ha bancs, testos i nens que juguen a pilota. El soroll ha baixat de 68 a 58 decibels. «La pacificació d'aquest carrer ha reportat beneficis molt clars», diu la Zoila. «Els veïns diuen que dormen millor i que tornen a obrir les finestres.» Una veïna gran ho confirma davant la càmera: «A mi m'ha reportat la tranquil·litat. Ara sento els ocells.»\n\nL'últim dia van a un institut. La Zoila mesura el volum dels auriculars dels alumnes: alguns arriben a 95 decibels. Els explica una regla senzilla: «Si l'amic del costat sent la vostra música, el volum és massa alt. No passeu del 60 per cent del volum, ni de 60 minuts seguits.» Els alumnes comproven els seus auriculars i n'abaixen el volum.\n\nAl final del rodatge, en Antolí admet davant la Zoila que ell també escolta la música massa forta. Aquell vespre, a casa, abaixa el volum dels seus auriculars. Està convençut que el documental reportarà molts beneficis: si una sola persona l'escolta i abaixa el volum, ja haurà valgut la pena.\n\nPreguntes:\nPer què en Antolí porta uns auriculars grans?\nPer controlar el so que grava amb la càmera.\nQuè denota la llum vermella de l'aparell?\nDenota que el soroll supera el límit recomanat per a la salut.\nPer què la Zoila parla d'un abisme acústic?\nPerquè entre el carrer i el pati interior hi ha molta diferència de soroll, a només cinquanta metres.\nQuè van postular alguns científics fa dècades?\nVan postular que el soroll del trànsit fa dormir pitjor i augmenta l'estrès.\nQuins beneficis ha reportat la pacificació del carrer?\nEls veïns dormen millor i tornen a obrir les finestres.\nQuina regla explica la Zoila als alumnes?\nNo passar del 60 per cent del volum, ni de 60 minuts seguits."
+    },
+    {
+      "title": "El colomer del mercat",
+      "summary": "Hipòlita Llopart, the town biologist of Vic, replaces useless nets with a dovecote on the old market roof, where workers swap some eggs for plaster ones to keep the pigeon colony small and away from the heritage façades and the allotments; Ambrosina Noguer, who used to feed the pigeons bread, becomes a volunteer.",
+      "newWords": [
+        "patrimonial",
+        "estigma",
+        "devastar",
+        "colomer",
+        "descendència"
+      ],
+      "text": "L'Hipòlita Llopart és la biòloga de l'ajuntament de Vic. Fa anys que el centre de la ciutat té massa coloms. Els excrements embruten els bancs i les places, poden transmetre algunes infeccions i, a més, fan malbé les façanes dels edificis antics. «Moltes d'aquestes cases tenen un gran valor patrimonial», explica l'Hipòlita. «Netejar una façana patrimonial costa molts diners, i l'àcid dels excrements la desgasta.»\n\nEls coloms, però, tenen un estigma injust. Molta gent els anomena «rates amb ales». «L'estigma no ajuda gens», diu l'Hipòlita. «El problema no és l'animal. El problema és que n'hi ha massa, perquè troben menjar per tot arreu.»\n\nDurant anys, l'ajuntament va posar xarxes i punxes a les façanes. Però els coloms sempre trobaven la manera de passar-hi: entraven per qualsevol forat o es posaven a la teulada del costat. «Cap xarxa no els atura», reconeix l'Hipòlita. A més, a la primavera, els estols de coloms baixaven als horts urbans del riu i podien devastar en un sol matí tots els planters d'enciams. Una hortolana li va dir: «En una hora m'han devastat la feina d'un mes.»\n\nPer això l'Hipòlita va proposar una altra solució: un colomer. Es tracta d'una gran caseta de fusta damunt la teulada del mercat vell, amb forats i prestatges perquè els coloms hi facin el niu. Al colomer hi ha menjar i aigua neta, i els coloms s'hi queden en lloc d'anar a les façanes. Un cop per setmana, dos treballadors entren al colomer, el netegen i canvien una part dels ous per ous de guix. Així, la descendència de cada parella es redueix. «Controlem la descendència sense fer mal a cap ocell», explica l'Hipòlita. «La colònia es fa més petita de mica en mica.»\n\nHi ha una veïna, l'Ambrosina Noguer, que des de fa anys dona pa als coloms cada matí. Al principi, quan sent parlar del colomer, s'enfada. L'Hipòlita la convida a visitar-lo. Li explica que el pa no és bo per als coloms i que, com més menjar troben al carrer, més descendència tenen. L'Ambrosina ho entén. Des d'aquell dia, en lloc de donar pa a la plaça, fa de voluntària al colomer: hi porta aigua, anota els nius i explica el projecte als veïns.\n\nAl cap de tres anys, al centre de Vic hi ha la meitat dels coloms d'abans. Les façanes patrimonials estan més netes, i els horts del riu tornen a tenir enciams. I l'Ambrosina coneix tots els coloms del colomer, i a cadascun li ha posat un nom.\n\nPreguntes:\nPer què els excrements dels coloms són un problema a Vic?\nPerquè embruten els bancs, poden transmetre infeccions i fan malbé les façanes de valor patrimonial.\nQuin estigma tenen els coloms?\nMolta gent els anomena «rates amb ales».\nPer què les xarxes no funcionaven?\nPerquè els coloms entraven per qualsevol forat o es posaven a la teulada del costat.\nQuè fan els treballadors al colomer cada setmana?\nEl netegen i canvien una part dels ous per ous de guix.\nPer què es redueix la descendència dels coloms?\nPerquè els treballadors canvien una part dels ous per ous de guix.\nQuè fa ara l'Ambrosina?\nFa de voluntària al colomer: hi porta aigua, anota els nius i explica el projecte als veïns."
+    },
+    {
+      "title": "Les memòries de la doctora",
+      "summary": "Retired doctor Domitila Salvadó, eighty-eight, writes her memoirs of forty years of village medicine in the Pallars, from the founding of a health association to bring clean water to every house; her granddaughter Peronella, a language student, types them and corrects only the grammar.",
+      "newWords": [
+        "llicenciatura",
+        "ascendència",
+        "fundacional",
+        "creditor",
+        "honorari",
+        "estudiós",
+        "gramatical",
+        "esmenar"
+      ],
+      "text": "La Domitila Salvadó té vuitanta-vuit anys i va ser la metgessa d'un poble del Pallars durant quaranta anys. Ara escriu les seves memòries. Les escriu a mà, en unes llibretes de tapes blaves, i la seva néta, la Peronella Tafalla, les passa a l'ordinador.\n\nLa Domitila és d'ascendència pagesa. Els seus avis conreaven patates i criaven vaques a la muntanya, i a casa ningú no havia estudiat. «Vaig ser la primera de la família que va anar a la universitat», escriu. Va acabar la llicenciatura de Medicina a Barcelona el 1962. A la seva classe hi havia molt poques dones. «La llicenciatura em va costar sis anys i molts sacrificis dels meus pares», recorda. «Però mai no vaig oblidar la meva ascendència: volia tornar a la muntanya.»\n\nQuan va arribar al poble, moltes cases no tenien aigua corrent. La gent agafava l'aigua d'una font, i a l'estiu hi havia molts nens amb mal de panxa. El 1966, la Domitila i un grup de veïns van fundar una associació per a la salut del poble. La Peronella ha trobat l'acta fundacional en una capsa: un full groc, signat per vint-i-tres persones. Els objectius fundacionals eren tres: aigua neta a totes les cases, una revisió anual per a tots els nens i una farmaciola a cada escola.\n\nPer construir el dipòsit d'aigua, l'associació va demanar diners als veïns. «Molts veïns es van convertir en creditors de l'associació», escriu la Domitila. «Alguns creditors només van deixar-nos cent pessetes, però van confiar en nosaltres. En deu anys els ho vam tornar tot, fins a l'últim cèntim.»\n\nFa dos mesos, l'associació va nomenar la Domitila sòcia honorària. Al diploma hi diu: «Membre honorari per la seva feina en favor de la salut del poble.» Ella el té penjat a la cuina, al costat de la foto del dipòsit.\n\nLa Peronella estudia Filologia a Lleida i és una estudiosa de la parla del Pallars. Quan passa les memòries a l'ordinador, esmena els errors gramaticals: un accent, una coma, un verb mal conjugat. «No m'esmenis massa, que no semblarà meu», li diu l'àvia. «Només esmeno els errors gramaticals, iaia», respon la Peronella. «Les paraules del Pallars les deixo totes. Són un tresor.»\n\nUn estudiós de la història de la comarca ha llegit les primeres pàgines i vol publicar les memòries. Diu que són un document únic sobre la salut pública a la muntanya. La Domitila s'ho mira amb calma. «Si serveix perquè els joves sàpiguen d'on ve l'aigua de l'aixeta, ja n'hi ha prou.»\n\nPreguntes:\nQuè vol dir que la Domitila és d'ascendència pagesa?\nVol dir que els seus avis conreaven patates i criaven vaques, i a casa ningú no havia estudiat.\nQuan va acabar la llicenciatura de Medicina?\nLa va acabar a Barcelona el 1962.\nQuins eren els objectius fundacionals de l'associació?\nAigua neta a totes les cases, una revisió anual per als nens i una farmaciola a cada escola.\nPer què molts veïns es van convertir en creditors?\nPerquè l'associació els va demanar diners per construir el dipòsit d'aigua.\nQuè va nomenar l'associació a la Domitila?\nLa va nomenar sòcia honorària.\nQuè esmena la Peronella quan passa les memòries a l'ordinador?\nEsmena els errors gramaticals, però deixa totes les paraules del Pallars."
+    }
+  ]
+}
