@@ -118,6 +118,9 @@ SOURCE_ORDER["gl"] = ["frequencywords"]
 
 # The gloss language of the pack whose forms group a language's words, where English's is small.
 DICTIONARY_TARGETS = {"br": "fr"}
+# The pack whose forms group a language's words, where its own is worse: the Bosnian pack files ijekavian and
+# ekavian words as forms of each other (lijepo of lepo, kat of kad); the Croatian one, from the same entries, does not.
+DICTIONARY_SOURCES = {"bs": "hr"}
 
 # Wikipedia editions by the app's code where they differ.
 WIKIPEDIAS = {"yue": "zh_yue"}
@@ -138,7 +141,7 @@ SOURCE_LICENCES = {
 CAPITALISED_NOUNS = {"de"}
 
 # simplemma's code where it differs from the app's; it has no Belarusian.
-SIMPLEMMA_CODES = {"hr": "hbs", "sr": "hbs", "no": "nb"}
+SIMPLEMMA_CODES = {"hr": "hbs", "sr": "hbs", "bs": "hbs", "no": "nb"}
 
 # Parts of speech a frequency list shows; names, letters, affixes and set phrases are left out.
 WORD_POS = {"noun", "adj", "verb", "adv", "pron", "prep", "num", "conj", "det", "article", "intj", "contraction", "particle", "adnominal"}
@@ -1578,7 +1581,7 @@ def simplemma_for(language):
 
 
 def load_dictionary(language):
-    path = os.path.join(DICTIONARIES, f"{language}-{DICTIONARY_TARGETS.get(language, 'en')}.sqlite")
+    path = os.path.join(DICTIONARIES, f"{DICTIONARY_SOURCES.get(language, language)}-{DICTIONARY_TARGETS.get(language, 'en')}.sqlite")
     if not os.path.exists(path):
         sys.exit(f"{path} is missing; build it with: python3 tools/build_dictionary.py --source {language} --target en")
     db = sqlite3.connect(path)
@@ -1953,7 +1956,7 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
     # aspect partner the dictionary files them under (vratiti) is another. So are those it gives only as a partner's
     # form (pokušavati of pokušati), which simplemma finds for their forms.
     croatian_verbs = set()
-    if language == "hr":
+    if language in ("hr", "bs"):
         named = {l for of in lemmas.values() for l in of if l.endswith("ti") and l not in pos}
         # Not a verb's imperative or present in -ti (vrati of vratiti, šuti of šutjeti, vrišti of vrištati).
         partners = {f for f in freq if f.endswith("ti") and f not in pos and lemmas.get(f)
@@ -2024,7 +2027,7 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
     def croatian_gloss(word):
         """The English glosses of a Croatian entry, cut at commas, without what brackets add."""
         if word not in croatian_glosses:
-            db = sqlite3.connect(os.path.join(DICTIONARIES, "hr-en.sqlite"))
+            db = sqlite3.connect(os.path.join(DICTIONARIES, f"{DICTIONARY_SOURCES.get(language, language)}-en.sqlite"))
             items = set()
             for (senses,) in db.execute("SELECT senses FROM entries WHERE word_lc = ?", (word,)):
                 for sense in json.loads(senses):
@@ -2042,7 +2045,8 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
         for i in (i for i, c in enumerate(word) if c == "e"):
             for jat in ("je", "ije"):
                 twin = word[:i] + jat + word[i + 1:]
-                if is_word(twin) and count(twin) >= count(word) and pos[word] & pos[twin] & WORD_POS and croatian_gloss(word) & croatian_gloss(twin):
+                # Bosnian subtitles are half ekavian, so there an ijekavian twin need only be a fourth as common.
+                if is_word(twin) and count(twin) >= count(word) * (0.25 if language == "bs" else 1) and pos[word] & pos[twin] & WORD_POS and croatian_gloss(word) & croatian_gloss(twin):
                     return twin
         return None
 
@@ -2231,7 +2235,7 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
             return {form: 1.0}
         elif language == "sk" and "verb" in pos.get(form, set()) and slovak_positive(form):
             return {slovak_positive(form): 1.0}
-        elif language == "hr" and is_word(form) and form in pos and croatian_ijekavian(form):
+        elif language in ("hr", "bs") and is_word(form) and form in pos and croatian_ijekavian(form):
             return {croatian_ijekavian(form): 1.0}
         elif language == "ko" and KOREAN_GLOSSED.get(form) and is_word(KOREAN_GLOSSED[form]):
             # A form the pack has as a word (화려한, 먹기, 아빤) is the word it is the form of.
@@ -2297,7 +2301,7 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
                 candidates = [l for l in candidates if not is_name(l)]
             others = list(dict.fromkeys(l for l in candidates if l != form and is_word(l)))
             # A Croatian infinitive is no other verb's form, as the dictionary files aspect partners (dolaziti of doći).
-            if language == "hr" and croatian_infinitive(form):
+            if language in ("hr", "bs") and croatian_infinitive(form):
                 others = [l for l in others if "verb" not in pos.get(l, set()) or croatian_variant(form, l)]
             # A simplified word whose traditional entries are all variant spellings (哪里 of 哪裏) goes to the
             # spelling Taiwan writes (哪裡), when that is a word.

@@ -1767,3 +1767,26 @@ OVERRIDES["hr"].update({
     "ikada": ["ikad"], "ponovo": ["ponovno"], "hajdemo": ["hajde"], "vijesti": ["vijest"],
 })
 DISPLAY["hr"] = {"cio": "cijeli"}
+
+# Bosnian: as Croatian, from the same dictionary and ijekavian too, with the words Bosnian writes where Croatian has
+# others: ko, niko and neko (not tko, nitko, netko), šta "what" beside što "that, why", vjerovatno, ponovo; and sa,
+# which the dictionary gives as a form of the dialectal săs.
+OVERRIDES["bs"] = {
+    **OVERRIDES["hr"],
+    "ko": ["ko"], "tko": ["ko"], "koga": ["ko"], "kome": ["ko"], "kim": ["ko"], "kog": ["ko"], "kom": ["ko"],
+    "kime": ["ko"], "komu": ["ko"], "niko": ["niko"], "nitko": ["niko"], "neko": ["neko"], "netko": ["neko"],
+    "šta": ["šta"], "sta": ["šta"], "čega": ["šta"], "čemu": ["šta"], "čime": ["šta"], "što": ["što"],
+    "vjerovatno": ["vjerovatno"], "vjerojatno": ["vjerovatno"], "ponovo": ["ponovo"], "ponovno": ["ponovo"],
+    "sa": ["sa"],
+    # Spellings of one word that Croatian and Serbian write apart, under the one Bosnian writes.
+    "istorija": ["historija"], "kemija": ["hemija"], "točka": ["tačka"], "točno": ["tačno"], "točan": ["tačan"],
+    "opšti": ["opći"], "opština": ["općina"], "ujutru": ["ujutro"], "srećan": ["sretan"], "uopšte": ["uopće"],
+    "takođe": ["također"], "ubojstvo": ["ubistvo"], "ubojica": ["ubica"],
+    # Ekavian words the jat rule misses.
+    "ceo": ["cio"], "deo": ["dio"], "sedeti": ["sjediti"], "vredeti": ["vrijediti"], "poverovati": ["povjerovati"],
+    "pogrešiti": ["pogriješiti"], "obe": ["obje"], "deda": ["djed"], "mrzeti": ["mrziti"], "nedelja": ["nedjelja"],
+    "veriti": ["vjeriti"], "bekstvo": ["bjekstvo"], "beo": ["bijel"], "smejati": ["smijati"], "meša": ["miješati"],
+    "sećati": ["sjećati"], "pevac": ["pijevac"], "avgust": ["august"], "zena": ["žena"],
+}
+EXCLUDE["bs"] = set(EXCLUDE["hr"])
+DISPLAY["bs"] = dict(DISPLAY["hr"])
