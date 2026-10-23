@@ -1,0 +1,225 @@
+{
+  "id": "sk-mini-3600",
+  "rankUpTo": 3600,
+  "level": "B2",
+  "title": "Rieky a jazerá",
+  "description": "Ten standalone stories about Slovak rivers and lakes: sensors in the Hron, a lakeside hotel, laundry in a stream, a park pond, a party boat on the Danube, the source of the Danube, elephants bathing, golf between lakes, a ride along the Danube and a quiet mountain tarn.",
+  "topic": "Rivers and lakes",
+  "names": [
+    "Jaroslav",
+    "Jaroslavovi",
+    "Anežka",
+    "Anežkou",
+    "Hron",
+    "Hronu",
+    "Hrone",
+    "Slovensku",
+    "Banskou",
+    "Bystricou",
+    "Olga",
+    "Prešova",
+    "Prešove",
+    "Mirko",
+    "Mirka",
+    "Zemplínskej",
+    "šírave",
+    "Orave",
+    "Žiliny",
+    "Štefánia",
+    "Štefánie",
+    "Martina",
+    "Oto",
+    "Drahoslava",
+    "Drahoslave",
+    "Boleslav",
+    "Boleslavovi",
+    "Boleslavovi",
+    "Edvard",
+    "Dunaji",
+    "Dunaj",
+    "Dunaja",
+    "Bratislavy",
+    "Viedne",
+    "Donaueschingen",
+    "Donaueschingene",
+    "Donaueschingenu",
+    "Nemecku",
+    "Komárna",
+    "Breg",
+    "Bregu",
+    "Brigach",
+    "Furtwangen",
+    "Furtwangene",
+    "Radko",
+    "Kire",
+    "Kira",
+    "Kiru",
+    "Kiry",
+    "Bojniciach",
+    "Albert",
+    "Albertovi",
+    "Albertovým",
+    "Jozefa",
+    "Jozefou",
+    "Adrián",
+    "Adriánovom",
+    "Valér",
+    "Čunove",
+    "Gabčíkova",
+    "Gabčíkovo",
+    "Miloslava",
+    "Poprade",
+    "Tatier",
+    "Popradskému",
+    "plesu",
+    "Gabčíkova",
+    "Čunove"
+  ],
+  "lessons": [
+    {
+      "title": "Senzory pod mostom",
+      "summary": "Technician Jaroslav and his trainee Anežka fix a cheap and an expensive temperature sensor side by side under a bridge on the Hron, and a month of data shows the cheap one works and the river slowly warming.",
+      "newWords": [
+        "technik",
+        "senzor",
+        "merať",
+        "server",
+        "experiment",
+        "funkčný",
+        "postupný",
+        "reálne"
+      ],
+      "text": "Jaroslav pracuje ako technik vo firme, ktorá sa stará o rieky na strednom Slovensku. Jeho úlohou je sledovať vodu v Hrone a merať jej výšku, teplotu a čistotu. Kedysi chodil technik k rieke každé ráno, pozrel sa na tyč s číslami a hodnotu zapísal do zošita. Dnes to za neho robia senzory.\n\nJedného aprílového rána išiel Jaroslav k Hronu pod Banskou Bystricou s Anežkou. Anežka študuje ochranu životného prostredia a na jar má vo firme prax. Niesli dva senzory na meranie teploty. Prvý bol drahý a firma ho používala už roky. Druhý bol nový a stál len tretinu jeho ceny.\n\n„Toto je experiment,“ vysvetľoval Jaroslav. „Chceme vedieť, či lacnejší senzor meria rovnako presne ako drahý. Ak experiment dopadne dobre, kúpime na jeseň ďalších dvadsať.“\n\nOba senzory pripevnili vedľa seba na betónový stĺp pod mostom, aby merali tú istú vodu. Každý senzor posiela každých desať minút údaje na server v kancelárii v meste.\n\n„A čo keď sa niečo pokazí?“ spýtala sa Anežka.\n\n„Server to zistí sám. Keď od senzora pol hodiny nepríde správa, pošle mi do mobilu upozornenie. Potom prídem a pozriem sa, či je senzor ešte funkčný.“\n\nJaroslav zapol oba senzory a v mobile otvoril stránku servera. O chvíľu sa tam objavili prvé dve čísla. Obe ukazovali deväť stupňov.\n\n„Funguje,“ povedal Jaroslav spokojne.\n\nPo mesiaci si Anežka pozrela na serveri všetky údaje. Lacnejší senzor bol funkčný celý čas. Jeho čísla sa od čísel drahého senzora líšili najviac o desatinu stupňa. Anežka si však všimla ešte niečo. Na grafe bolo pekne vidieť postupný rast teploty: na konci apríla mala voda v Hrone deväť stupňov, o dva týždne jedenásť a na konci mája trinásť.\n\n„Reálne by sme taký postupný rast bez senzorov nevideli,“ povedala Jaroslavovi. „Človek by musel merať vodu každú hodinu.“\n\n„Kedysi sme ju merali raz denne,“ zasmial sa Jaroslav. „A reálne len vo všedné dni.“\n\nNa konci praxe napísala Anežka o experimente krátku správu. Firma potom kúpila dvadsať lacnejších senzorov a Jaroslav ich postupne pripevnil pod ďalšie mosty na Hrone.\n\nOtázky:\nČo robí Jaroslav vo firme?\nJaroslav pracuje ako technik a meria, ako sa mení voda v Hrone.\nAký experiment robili Jaroslav a Anežka?\nChceli zistiť, či lacnejší senzor meria teplotu rovnako presne ako drahý.\nKam posielajú senzory údaje?\nKaždých desať minút posielajú údaje na server v kancelárii.\nČo urobí server, keď od senzora nepríde správa?\nPošle Jaroslavovi do mobilu upozornenie.\nAko dopadol experiment?\nLacnejší senzor bol funkčný celý čas a jeho čísla sa líšili najviac o desatinu stupňa.\nČo bolo vidieť na grafe?\nBolo vidieť postupný rast teploty vody v Hrone."
+    },
+    {
+      "title": "Ticho pri zátoke",
+      "summary": "Olga from Prešov books a lakeside hotel on Zemplínska šírava through a travel agency, finds it too noisy, and with her son Mirko discovers a quiet bay to the left along the shore.",
+      "newWords": [
+        "hotelový",
+        "jedáleň",
+        "cestovný",
+        "ruch",
+        "nudiť",
+        "nádherne",
+        "doľava",
+        "zvyšný"
+      ],
+      "text": "Olga z Prešova bola celú zimu unavená a v lete si chcela oddýchnuť pri vode. V marci zašla do cestovnej kancelárie a kúpila týždeň v hoteli pri Zemplínskej šírave pre seba a pre desaťročného syna Mirka. Pani v cestovnej kancelárii jej ukázala fotky: veľký bazén, hotelová reštaurácia a hotelová jedáleň s výhľadom na jazero.\n\nV júli prišli na miesto. Hotel bol pekný, ale bol v ňom veľký ruch. Pri bazéne hrala hlasná hudba, deti kričali a v hotelovej jedálni bolo pri raňajkách toľko ľudí, že Olga nenašla voľný stôl. Rovnaký ruch bol v jedálni aj večer.\n\nMirko sa už na druhý deň začal nudiť.\n\n„Mami, v bazéne je toľko ľudí, že sa nedá plávať,“ povedal. „Nudím sa.“\n\n„Aj ja sa trochu nudím,“ priznala Olga. „Taký ruch som nechcela. Poďme sa pozrieť, čo je okolo.“\n\nPri hoteli stála veľká mapa. Od hotela viedla cesta doprava k veľkej pláži a doľava popri brehu k malej zátoke. Pri pláži bolo na mape nakreslených veľa ľudí, pri zátoke len stromy. Olga a Mirko sa rozhodli ísť doľava.\n\nCesta viedla v tieni stromov. Po pol hodine prišli k malej pláži, na ktorej nebol nikto. Voda bola pokojná a teplá a z lesa bolo počuť len vtáky. Mirko sa hneď išiel kúpať. Olga si sadla do tieňa a pozerala sa na jazero.\n\n„Mami, je tu nádherne!“ zakričal Mirko z vody.\n\n„Naozaj je tu nádherne,“ odpovedala Olga.\n\nNa zvyšné dni si urobili plán. Raňajky jedli v hotelovej jedálni hneď o siedmej, keď tam ešte nebol ruch. Potom si zbalili vodu, ovocie a uteráky a išli doľava k zátoke. Mirko tam chytal malé ryby do pohára a potom ich púšťal späť do vody. Olga čítala knihu. Na obed sa vrátili do hotela a v najväčšej horúčave spali. Večer chodili na prechádzku po brehu a pozerali sa, ako slnko zapadá nad vodou.\n\nZvyšné dni ubehli rýchlo a Mirko sa už ani raz nenudil. Keď sa vrátili do Prešova, Olga zašla znova do cestovnej kancelárie a kúpila pobyt v tom istom hoteli aj na budúce leto. Tentoraz už vedela, kam pôjdu hneď v prvý deň: doľava, k tichej zátoke.\n\nOtázky:\nKde kúpila Olga dovolenku?\nOlga kúpila dovolenku v cestovnej kancelárii.\nPrečo sa Mirko začal nudiť?\nV bazéne bolo toľko ľudí, že sa nedalo plávať.\nKam išli Olga a Mirko podľa mapy?\nIšli doľava popri brehu k malej zátoke.\nAké to bolo pri zátoke?\nBolo tam ticho a nádherne, voda bola pokojná a teplá.\nAko trávili zvyšné dni?\nRáno jedli v hotelovej jedálni, potom išli k zátoke a večer chodili na prechádzku po brehu."
+    },
+    {
+      "title": "Pranie pri potoku",
+      "summary": "In a village museum in Orava, Mrs Štefánia, who grew up there, tells a school class how her family ploughed, washed laundry in the soft water of the stream, mended clothes and baked bread.",
+      "newWords": [
+        "rozprávanie",
+        "dub",
+        "orať",
+        "prádlo",
+        "mäkký",
+        "piecť",
+        "surovina",
+        "ihla"
+      ],
+      "text": "V malej dedine na Orave je múzeum starých domov. Stoja v ňom drevené domy a malý mlyn pri potoku. Pri potoku rastie starý dub, ktorý tam stál už vtedy, keď ľudia v domoch ešte bývali. V septembri prišla do múzea trieda zo Žiliny. Deťom ukazovala múzeum pani Štefánia.\n\nPani Štefánia sa narodila v tejto dedine a ako dievča tu žila v jednom z drevených domov. Deti si sadli pod dub a ona začala rozprávať. Jej rozprávanie bolo pomalé a pokojné a deti ho počúvali bez slova.\n\n„Pod týmto dubom sme v lete sedeli po práci,“ povedala. „Na jar sme s otcom chodili orať. Otec viedol koňa a ja som išla vedľa neho. Orať pole bola ťažká práca a trvala celé dni.“\n\nPotom ich zaviedla k potoku. Na brehu ležala široká drevená doska.\n\n„Tu sme prali prádlo,“ vysvetlila. „Práčku vtedy nikto nemal. Prádlo sme dali do potoka a potom sme ho dlho bili drevom na doske. Voda v potoku je mäkká, a preto sa v nej prádlo dobre čistilo. V mäkkej vode je čistenie ľahšie. Mokré prádlo sme potom dali na trávu pod dub a nechali sme ho na slnku.“\n\nV dome im ukázala veľkú pec.\n\n„V tejto peci sme raz za týždeň piekli chlieb,“ povedala. „Mama piekla chlieb pre celú rodinu na celý týždeň. Suroviny na chlieb sme mali vlastné: múku z vlastného poľa, vodu z potoka a soľ. Iná surovina nebola potrebná.“\n\nJedno dievča chcelo vedieť, či pani Štefánia vie piecť aj dnes.\n\n„Samozrejme,“ povedala pani Štefánia s úsmevom. „Chlieb pečiem každú sobotu.“\n\nNa stole pri okne ležala stará ihla.\n\n„V zime sme večer pri ohni opravovali oblečenie,“ povedala pani Štefánia. „Každé dievča malo vlastnú ihlu. Ihla bola vzácna. Keď sa stratila, hľadala ju celá rodina.“\n\nRozprávanie pani Štefánie trvalo dve hodiny. Na konci dostalo každé dieťa kúsok chleba, ktorý v sobotu upiekla. Chlieb bol mäkký a voňal ako kedysi.\n\nOtázky:\nKto ukazoval deťom múzeum?\nMúzeum im ukazovala pani Štefánia, ktorá sa narodila v tejto dedine.\nČo robila pani Štefánia na jar s otcom?\nChodili spolu orať, otec viedol koňa a ona išla vedľa neho.\nPrečo sa prádlo v potoku dobre čistilo?\nVoda v potoku je mäkká, a preto sa v nej prádlo dobre čistilo.\nAké suroviny potrebovali na chlieb?\nPotrebovali múku, vodu z potoka a soľ.\nPrečo hľadala stratenú ihlu celá rodina?\nIhla bola vzácna, každé dievča malo len jednu.\nČo dostali deti na konci rozprávania?\nDostali kúsok mäkkého chleba, ktorý pani Štefánia upiekla."
+    },
+    {
+      "title": "Priatelia jazierka",
+      "summary": "Retired Oto joins a residents' group that keeps a park pond in Martin clean: he fills in the form before the deadline, pays the membership fee and learns why the birds' nests in the tall grass must be protected.",
+      "newWords": [
+        "špina",
+        "zúčastňovať",
+        "vyplniť",
+        "lehota",
+        "členský",
+        "hromadný",
+        "zničenie",
+        "požadovať"
+      ],
+      "text": "V parku na okraji Martina je malé jazierko. Žijú v ňom ryby a na brehu rastie vysoká tráva, v ktorej majú hniezda vtáky. Pred piatimi rokmi bolo jazierko plné špiny. V tráve ležali fľaše a vrecká a voda bola zelená. Vtedy ľudia z okolitých domov založili združenie Priatelia jazierka. Vedie ho pani Drahoslava, ktorá býva hneď oproti parku.\n\nOto mal 70 rokov a už rok bol na dôchodku. Každé ráno chodil okolo jazierka na prechádzku. Jedného dňa si na tabuli pri vode prečítal: „Hľadáme nových členov. Každú prvú sobotu v mesiaci zbierame špinu z brehu. Kto sa chce pravidelne zúčastňovať na našej práci, nech vyplní prihlášku do 31. mája.“ Lehota bola krátka, a tak Oto ešte v ten deň zavolal na číslo z tabule.\n\n„Prihlášku môžete vyplniť na internete alebo u mňa doma,“ povedala pani Drahoslava. „Lehota je do konca mája. Členský príspevok je päť eur na rok. Za to dostanete členský preukaz a pracovné rukavice.“\n\nOto nemal rád internet, preto išiel k pani Drahoslave. Prihlášku vyplnil perom pri jej stole v kuchyni, zaplatil členský príspevok a dostal preukaz.\n\n„Ako sa dozviem, kedy je brigáda?“ spýtal sa.\n\n„Pred každou brigádou posielam všetkým členom hromadnú správu do mobilu,“ odpovedala. „Hromadnú správu dostanete vždy vo štvrtok.“\n\nV prvý júnový štvrtok mu naozaj prišla hromadná správa. V sobotu ráno sa na brigáde zišlo dvadsať ľudí. Pani Drahoslava im vysvetlila, prečo treba zbierať špinu opatrne, najmä vo vysokej tráve.\n\n„Vtáky si v tráve pri vode stavajú hniezda,“ povedala. „Keď po nej ľudia chodia, hniezda ničia. Zničenie hniezda trvá sekundu, ale vtáky potom celý rok nemajú mláďatá. A zničenie všetkých hniezd by znamenalo, že vtáky od jazierka odídu.“\n\nPreto nikto nesmel chodiť do vysokej trávy. Špinu z nej brali dlhými palicami z cesty.\n\nV lete chcela jedna firma postaviť pri jazierku parkovisko. Priatelia jazierka napísali na mestský úrad list, v ktorom požadovali, aby bolo parkovisko ďalej od vody. Požadovali aj to, aby sa stavba začala až na jeseň, keď vtáky už nesedia na hniezdach. Úrad súhlasil a parkovisko postavili na druhej strane cesty.\n\nOto sa od toho dňa zúčastňuje na každej brigáde. Hovorí, že jazierko bez špiny je najkrajšia časť jeho prechádzky.\n\nOtázky:\nAké bolo jazierko pred piatimi rokmi?\nJazierko bolo plné špiny a voda bola zelená.\nAká lehota bola na prihlášku?\nLehota bola do konca mája.\nČo dostane člen za členský príspevok?\nDostane členský preukaz a pracovné rukavice.\nAko sa členovia dozvedia o brigáde?\nPani Drahoslava im pošle hromadnú správu do mobilu.\nPrečo nikto nesmel chodiť do vysokej trávy?\nVtáky v nej majú hniezda a zničenie hniezd by znamenalo, že vtáky od jazierka odídu.\nČo požadovali Priatelia jazierka od mestského úradu?\nPožadovali, aby bolo parkovisko ďalej od vody."
+    },
+    {
+      "title": "Narodeniny na lodi",
+      "summary": "Retired Danube captain Boleslav celebrates his seventieth birthday at a party on a boat in Bratislava, with invitations in envelopes, a handwritten greeting and a band playing live.",
+      "newWords": [
+        "pozvanie",
+        "večierok",
+        "obálka",
+        "pozdrav",
+        "sprievod",
+        "naživo",
+        "rytmus"
+      ],
+      "text": "Boleslav mal v júni oslavovať 70. narodeniny. Celý život pracoval na Dunaji ako kapitán lode, na ktorej turisti plávali z Bratislavy do Viedne. Jeho vnuk Edvard chcel, aby mal dedko narodeniny tam, kde bol najšťastnejší: na vode.\n\nEdvard si na jeden večer objednal malú loď s veľkou palubou. Potom spolu s dedkom pripravili pozvanie na večierok. Edvard napísal pozvanie na počítači a dedko na koniec každého pozvania napísal rukou krátky pozdrav: „Teším sa na vás. Váš kapitán Boleslav.“ Potom vložili každé pozvanie do obálky a na obálku napísali meno a adresu. Obálok bolo 40. Rodina a starí kolegovia z lode dostali pozvanie poštou.\n\nVečierok sa začal v sobotu o šiestej večer. Boleslav prišiel do prístavu v sprievode manželky a dcéry. Hostia už čakali na brehu. Každého privítal pozdravom, ako to kedysi robil na lodi: „Vitajte na palube!“\n\nLoď plávala pomaly pod mostami a okolo starého mesta. Kus cesty išla v sprievode dvoch malých člnov, v ktorých sedeli Boleslavovi priatelia z klubu a mávali mu.\n\nNa palube hrala naživo malá kapela. Boleslav už roky nepočul hudbu naživo a mal z nej veľkú radosť. Kapela hrala staré piesne a hostia tancovali v ich rytme. Aj deti sa hýbali do rytmu. Boleslav povedal, že loď sa na vlnách hýbe v rovnakom rytme ako hudba.\n\nUprostred večera prišiel Edvard s ďalšou obálkou. Bol v nej pozdrav od starého kolegu z Viedne, ktorý nemohol prísť. Boleslav si ho prečítal nahlas.\n\nNa konci sa Boleslav postavil pred hostí.\n\n„Ďakujem vám, že ste prijali pozvanie na môj večierok,“ povedal. „Celý život som robil radosť iným ľuďom na Dunaji. Dnes robí Dunaj radosť mne.“\n\nLoď sa vrátila do prístavu okolo desiatej. Kapela hrala naživo až do poslednej chvíle. Bol to najkrajší večierok, aký Boleslav zažil.\n\nOtázky:\nKde pracoval Boleslav celý život?\nPracoval na Dunaji ako kapitán lode.\nAko poslali Edvard a dedko pozvanie hosťom?\nVložili ho do obálky a poslali poštou.\nČo napísal Boleslav na koniec každého pozvania?\nNapísal rukou krátky pozdrav.\nAko prišiel Boleslav do prístavu?\nPrišiel v sprievode manželky a dcéry.\nAká hudba hrala na lodi?\nNa palube hrala naživo malá kapela a hostia tancovali v jej rytme."
+    },
+    {
+      "title": "Kde sa začína Dunaj",
+      "summary": "A newspaper columnist answers readers who pointed out a mistake in his last column: where the Danube begins depends on the definition and the context, and he ends with a correction.",
+      "newWords": [
+        "čitateľ",
+        "riadok",
+        "poukazovať",
+        "preskúmať",
+        "definícia",
+        "určenie",
+        "kontext",
+        "udiať",
+        "korekcia"
+      ],
+      "text": "Milí čitatelia,\n\nminulý týždeň som na tomto mieste písal o Dunaji. Hneď v prvom riadku som napísal, že Dunaj pramení v meste Donaueschingen v Nemecku. Odvtedy mi prišlo deväť listov. Každý čitateľ v nich poukazuje na to isté: že to nie je celkom pravda. Jeden čitateľ z Komárna mi dokonca poslal mapu, na ktorej ceruzkou zakreslil dve malé rieky.\n\nPriznávam, že ma to najprv trochu nahnevalo. Potom som si však sadol k počítaču a celú vec som preskúmal. Preskúmal som mapy, knihy aj stránky o rieke. A naozaj: čitatelia majú pravdu, aj keď nie úplne. Všetko závisí od toho, akú definíciu prameňa použijeme.\n\nV Donaueschingene sa stretávajú dve riečky, Breg a Brigach. Až od tohto miesta sa voda volá Dunaj. Ak je naša definícia „rieka sa začína tam, kde dostane meno“, tak som mal pravdu. Odborníci na rieky však používajú inú definíciu. Podľa nej je prameňom rieky miesto, ktoré je najďalej od jej konca. Breg je dlhší ako Brigach, a preto sa za skutočný prameň Dunaja považuje prameň Bregu pri meste Furtwangen, asi päťdesiat kilometrov od Donaueschingenu.\n\nUrčenie prameňa teda nie je také jednoduché, ako sa zdá. Pri určení prameňa veľkej rieky treba poznať kontext. Hovoríme o mene rieky, o jej histórii, alebo o jej dĺžke? V kontexte histórie a turistiky je prameňom Dunaja Donaueschingen, kde je v parku pekná fontána a kam chodia turisti. V kontexte dĺžky rieky je to Furtwangen.\n\nČo sa teda vlastne udialo? Nič hrozné. Udialo sa len to, že som napísal jednu vetu bez kontextu. Čitatelia, ktorí na to poukazovali, mali dobrý dôvod. Kto číta o rieke, chce vedieť presne, kde sa začína.\n\nTu je teda korekcia prvého riadku z minulého týždňa: „Dunaj dostáva meno v Donaueschingene, ale jeho najvzdialenejší prameň je pri Furtwangene.“ Korekcia je dlhšia ako pôvodná veta, ale je presnejšia.\n\nĎakujem každému čitateľovi, ktorý mi napísal. Najviac ďakujem pánovi z Komárna za mapu. Visí teraz na stene nad mojím stolom a pripomína mi, že aj jeden riadok treba preskúmať dvakrát.\n\nOtázky:\nČo napísal autor v prvom riadku minulého textu?\nNapísal, že Dunaj pramení v meste Donaueschingen.\nNa čo poukazujú čitatelia vo svojich listoch?\nPoukazujú na to, že to nie je celkom pravda.\nAkú definíciu prameňa používajú odborníci na rieky?\nPrameňom rieky je miesto, ktoré je najďalej od jej konca.\nPrečo nie je určenie prameňa Dunaja jednoduché?\nTreba poznať kontext, lebo podľa mena je prameň v Donaueschingene a podľa dĺžky rieky pri Furtwangene.\nČo je na konci textu?\nNa konci textu je korekcia prvého riadku z minulého týždňa."
+    },
+    {
+      "title": "Slony pri jazierku",
+      "summary": "On her eighth birthday Radko takes his daughter Kira to the zoo in Bojnice, where she watches the elephants drink and bathe in their pond and gets splashed with water.",
+      "newWords": [
+        "slon",
+        "hľadieť",
+        "tempo",
+        "napiť",
+        "triasť"
+      ],
+      "text": "Radko sľúbil dcére Kire, že ju na ôsme narodeniny vezme do zoologickej záhrady v Bojniciach. Kira mala najradšej slony. Mala o nich tri knihy a nad posteľou obraz so slonom.\n\nV záhrade išli najprv rovno k slonom. Slony mali veľký priestor s pieskom, so stromami a s malým jazerom. Bol horúci deň a tri slony stáli v tieni pod stromom. Kira sa postavila k plotu a hľadela na ne. Hľadela tak dlho, že Radko si medzitým kúpil kávu.\n\n„Prečo sa nehýbu?“ spýtala sa.\n\n„Slony majú svoje tempo,“ povedal Radko. „Keď je teplo, robia všetko pomaly.“\n\nPotom sa najväčší slon pomaly pohol k vode. Išiel pokojným tempom, krok za krokom. Pri vode sa zastavil a napil sa. Kira hľadela, ako berie vodu do chobota a dáva si ju do úst.\n\n„Slon sa napije ako cez slamku,“ zasmiala sa.\n\n„Za deň sa slon napije aj sto litrov vody,“ povedala pani, ktorá sa o slony starala. Stála pri plote a odpovedala deťom na otázky.\n\nNajväčší slon vošiel do jazera. Po chvíli prišli aj ďalšie dva slony. Rovnakým pomalým tempom vošli do vody a začali si púšťať vodu na chrbát. Kira hľadela a nemohla uveriť, akí sú slony vo vode šťastní. Ruky sa jej triasli od radosti, keď ich fotografovala mobilom.\n\nPotom najmenší slon zobral do chobota veľa vody a pustil ju smerom k plotu. Voda padla rovno na Kiru. Bola chladná a Kira sa triasla od zimy aj od smiechu.\n\n„Ocko, slon ma celú umyl!“ kričala.\n\nRadko jej dal svoju bundu. Sadli si na slnko, napili sa vody z fľaše a jedli rožky. Slony medzitým vyšli z vody a vrátili sa do tieňa. Ich tempo bolo zasa pomalé.\n\nVečer v aute Kira povedala: „Keď budem veľká, budem sa starať o slony ako tá pani.“\n\nOtázky:\nKam vzal Radko Kiru na narodeniny?\nVzal ju do zoologickej záhrady v Bojniciach.\nPrečo sa slony najprv nehýbali?\nBol horúci deň a slony majú svoje tempo, keď je teplo, robia všetko pomaly.\nAko sa slon napil?\nBral vodu do chobota a dával si ju do úst.\nPrečo sa Kira triasla?\nNajmenší slon na ňu pustil chladnú vodu a Kira sa triasla od zimy aj od smiechu.\nAko dlho hľadela Kira na slony?\nHľadela na ne tak dlho, že si Radko medzitým kúpil kávu."
+    },
+    {
+      "title": "Loptičky v jazere",
+      "summary": "Albert, sixty-six, gets golf lessons as a birthday present; on a course between three lakes his balls keep landing in the water until his coach shows him the soft ground under his feet.",
+      "newWords": [
+        "golf",
+        "hocikto",
+        "usporiadanie",
+        "smola",
+        "zúfalý",
+        "podklad",
+        "dosiahnutie"
+      ],
+      "text": "Albert mal šesťdesiatšesť rokov a golf nikdy nehral. Myslel si, že golf je šport len pre bohatých ľudí. Jeho žena Jozefa mu však na narodeniny darovala päť hodín golfu s trénerom.\n\n„Golf môže hrať hocikto,“ povedala mu. „Aj ty.“\n\nIhrisko bolo za mestom pri Dunaji. Usporiadanie ihriska bolo zvláštne: medzi jamkami boli tri jazerá a takmer pri každej jamke bolo treba hrať ponad vodu. Tréner Albertovi vysvetlil, že také usporiadanie nie je náhoda.\n\n„Voda robí hru zaujímavou,“ povedal. „Bez jazier by golf bol príliš jednoduchý.“\n\nNa prvej hodine Albert udrel loptičku a tá spadla rovno do jazera. Na druhej hodine spadla do jazera znova, a na tretej tiež.\n\n„To je smola,“ hovoril Albert. Bol však čoraz zúfalejší. Keď štvrtá loptička zmizla pod vodou, bol úplne zúfalý.\n\n„Golf nie je pre mňa,“ povedal trénerovi. „Hocikto to vie, len ja nie.“\n\nTréner sa usmial. „To nie je smola,“ povedal. „Pozrite sa na podklad pod vašimi nohami.“\n\nAlbert sa pozrel dole. Pri jazere bola tráva mokrá a podklad mäkký. Pri každom údere sa mu noha trochu pošmykla, a preto loptička letela nízko.\n\n„Na mäkkom podklade musíte stáť pevne, s nohami ďalej od seba,“ vysvetlil tréner. „A neponáhľajte sa.“\n\nAlbert sa postavil tak, ako mu tréner ukázal. Dlho sa pozeral na loptičku, potom udrel. Loptička preletela ponad vodu a dopadla do trávy na druhom brehu. Albert sa nahlas zasmial. Dosiahnutie druhého brehu bolo jeho prvým veľkým úspechom.\n\nNa piatej hodine prišla aj Jozefa. Albert jej ukázal, ako sa stojí na mäkkom podklade, a dve loptičky z troch preleteli ponad jazero. Tretia spadla do vody.\n\n„Smola,“ povedala Jozefa.\n\n„Nie, to bol zlý úder,“ odpovedal Albert. „Smola je niečo iné.“\n\nPo lete si Albert kúpil vlastnú palicu. Jeho ďalším cieľom je dosiahnutie lepšieho výsledku: jamku pri najväčšom jazere chce zahrať na päť úderov.\n\nOtázky:\nČo darovala Jozefa Albertovi na narodeniny?\nDarovala mu päť hodín golfu s trénerom.\nAké bolo usporiadanie ihriska?\nMedzi jamkami boli tri jazerá a takmer pri každej jamke bolo treba hrať ponad vodu.\nPrečo bol Albert zúfalý?\nJeho loptičky stále padali do jazera.\nAký podklad bol pri jazere?\nTráva bola mokrá a podklad mäkký.\nČo bolo Albertovým prvým veľkým úspechom?\nJeho prvým veľkým úspechom bolo dosiahnutie druhého brehu."
+    },
+    {
+      "title": "Popri Dunaji do Gabčíkova",
+      "summary": "Colleagues Adrián and Valér cycle along the Danube from Bratislava to Gabčíkovo: a weak brake delays them, roadworks send them through the woods, and they return a lost bunch of keys.",
+      "newWords": [
+        "brzda",
+        "zdržať",
+        "komunikovať",
+        "rozširovať",
+        "skrz",
+        "tesný",
+        "zväzok",
+        "vstupovať"
+      ],
+      "text": "Adrián a Valér sú kolegovia a raz za rok idú spolu na veľký výlet na bicykli. Tento rok si vybrali cestu z Bratislavy po hrádzi popri Dunaji až do Gabčíkova, kde sú na rieke veľké komory pre lode. Je to asi 60 kilometrov po rovine.\n\nRáno pred odchodom Valér skontroloval oba bicykle. Zadná brzda na Adriánovom bicykli bola slabá.\n\n„S takou brzdou nemôžeš ísť,“ povedal Valér. „Keď budeš potrebovať rýchlo zastaviť, brzda ťa nezastaví.“\n\nVýmena brzdy ich zdržala pol hodiny.\n\n„Nevadí,“ povedal Adrián. „Radšej sa zdržíme doma ako na ceste.“\n\nNa hrádzi bol pokoj. Vľavo bol Dunaj, vpravo polia. Valér išiel prvý a Adrián za ním. Na bicykli sa zle rozpráva, a tak komunikovali rukami. Ruka hore znamenala „zastavme“, ruka vľavo „ideme doľava“. Takto komunikovali celý deň a vždy si rozumeli.\n\nPri Čunove ich zastavili robotníci. Práve rozširovali cestu.\n\n„Cestu rozširujeme, aby bolo dosť miesta pre bicykle aj pre ľudí, ktorí idú pešo,“ vysvetlil jeden z nich. „Musíte ísť dole, skrz les.“\n\nCesta skrz les bola úzka. Na niektorých miestach bola taká tesná, že medzi stromami prešiel len jeden bicykel. Adrián mal navyše nové rukavice, ktoré boli trochu tesné, a ruky ho boleli. Po kilometri sa však vrátili na hrádzu.\n\nPri ceste na zemi uvideli zväzok kľúčov. Na zväzku visel malý papier s číslom telefónu. Valér na to číslo zavolal. O desať minút k nim prišla na bicykli mladá žena.\n\n„Ďakujem vám, celý zväzok som už hľadala,“ povedala. „Sú v ňom kľúče od bytu aj od auta.“\n\nPopoludní prišli do Gabčíkova. Pri vode stáli tabule: „Nevstupujte do vody, prúd je silný.“ Pri komorách pre lode bola ďalšia tabuľa: „Nevstupovať, iba pre zamestnancov.“ Adrián a Valér teda zostali na brehu. Sadli si do trávy a pozerali sa, ako veľká loď v komore pomaly stúpa až k hladine Dunaja.\n\nDomov išli vlakom. Bicykle stáli vo vlaku vedľa nich.\n\nOtázky:\nKam išli Adrián a Valér na bicykloch?\nIšli z Bratislavy popri Dunaji do Gabčíkova.\nČo ich ráno zdržalo?\nZdržala ich výmena slabej zadnej brzdy.\nPrečo išli skrz les?\nRobotníci rozširovali cestu, a preto museli ísť skrz les.\nAko spolu komunikovali na bicykloch?\nKomunikovali rukami.\nČo našli pri ceste?\nNašli zväzok kľúčov s číslom telefónu."
+    },
+    {
+      "title": "Ticho pri plese",
+      "summary": "Tired nurse Miloslava from Poprad spends a Saturday alone at Popradské pleso, uses an app to identify flowers, cleans her contact lenses with solution after a gust of dust, and comes home calmer.",
+      "newWords": [
+        "zdravotníctvo",
+        "odvetvie",
+        "psychický",
+        "nachádzajúci",
+        "identifikácia",
+        "roztok",
+        "žiaľ"
+      ],
+      "text": "Miloslava pracuje už dvadsať rokov ako zdravotná sestra v nemocnici v Poprade. Svoju prácu má rada, ale zdravotníctvo je ťažké odvetvie. Sestry v ňom pracujú v noci aj cez víkendy a často aj za kolegyne, ktoré sú choré. V zdravotníctve chýbajú ľudia, a preto je práca každý rok ťažšia.\n\nNa jar bola Miloslava veľmi unavená. Telo mala zdravé, ale unavená bola najmä jej hlava. Zle spala a doma sa nevedela tešiť z ničoho.\n\n„To je psychická únava,“ povedala jej staršia kolegyňa. „Psychické zdravie je rovnako dôležité ako telo. Choď na miesto, kde je ticho.“\n\nV sobotu ráno teda Miloslava sadla do vlaku a išla do Tatier. Chcela ísť k Popradskému plesu, k jazeru nachádzajúcemu sa vysoko nad dolinou. Cesta viedla lesom popri potoku a potom ponad les, medzi kamene. Miloslava išla pomaly a nepozerala na hodinky.\n\nPri ceste rástlo veľa kvetov, ktoré nepoznala. Boli to kvety nachádzajúce sa len vo vysokých horách. Vybrala si mobil a otvorila aplikáciu na identifikáciu rastlín. Aplikácia fungovala aj bez signálu. Stačilo kvet odfotiť a identifikácia trvala len pár sekúnd. Miloslava sa tak dozvedela mená piatich kvetov.\n\nPri plese stála chata, nachádzajúca sa priamo na brehu. Žiaľ, pri chate bolo veľa turistov a hluk. Miloslava preto išla kúsok ďalej po brehu, až k veľkému kameňu. Tam bolo ticho.\n\nZrazu prišiel silný vietor a nafúkal jej prach do očí. Miloslava nosí kontaktné šošovky a prach v oku veľmi bolel. Našťastie mala v batohu malú fľašu roztoku na šošovky. Šošovky si vybrala, umyla ich roztokom a opatrne si ich vrátila do očí. Roztok vždy nosí so sebou, aj v práci.\n\nPotom sedela pri vode celú hodinu. Na hladine sa odrážali štíty hôr a od vody bolo počuť len vietor. Miloslava prvýkrát po mesiacoch na nič nemyslela.\n\nŽiaľ, popoludní musela ísť späť, lebo v nedeľu mala službu. Domov však prišla pokojná. Rozhodla sa, že k plesu pôjde aspoň raz za mesiac. Vie totiž, že človek, ktorý pracuje v zdravotníctve, musí myslieť aj na seba.\n\nOtázky:\nKde pracuje Miloslava?\nPracuje ako zdravotná sestra v nemocnici v Poprade.\nPrečo je zdravotníctvo ťažké odvetvie?\nSestry pracujú v noci aj cez víkendy a často aj za choré kolegyne.\nAký druh únavy mala Miloslava?\nMala psychickú únavu.\nNa čo používala aplikáciu v mobile?\nPoužívala ju na identifikáciu rastlín.\nČo urobila, keď jej vietor nafúkal prach do očí?\nŠošovky si umyla roztokom, ktorý mala v batohu.\nPrečo musela ísť popoludní späť?\nV nedeľu mala službu."
+    }
+  ]
+}
