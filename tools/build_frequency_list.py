@@ -110,6 +110,8 @@ SOURCE_ORDER = {"ko": ["frequencywords", "leipzig"]}
 SOURCE_ORDER["ro"] = ["wordfreq", "frequencywords"]
 # So is Slovak, whose courses were written against that list.
 SOURCE_ORDER["sk"] = ["wordfreq", "frequencywords"]
+# And Bulgarian, whose list was first built from them.
+SOURCE_ORDER["bg"] = ["wordfreq", "frequencywords"]
 # Languages whose sources are all blended, however many forms the first has.
 BLEND = {"ko"}
 # Galician is counted from subtitles alone, as its list was first built (wordfreq has no Galician, and the Wikipedia
@@ -1289,6 +1291,13 @@ def build_arabic(found, size):
 
 # The kinds of word (noun, verb...) each Romanian word of the dictionary is with senses of its own, not only as another
 # word's form ("am", first-person form of avea; "fu", simple perfect of fi).
+# A Bulgarian verb is cited with its reflexive pronoun when it takes one ("нуждая се", "to need"): the reader
+# reads the pronoun as a word of its own, so the verb is the word before it.
+BULGARIAN_REFLEXIVE = re.compile(" (?:се|си)$")
+# The Bulgarian verbs the pack has as verbs of their own ("to stop"), not as another verb's participle.
+BULGARIAN_VERBS = set()
+
+
 ROMANIAN_KINDS = {}
 ROMANIAN_FORM_GLOSS = re.compile(r"\bof ([^\W\d_]+)")
 # A noun or verb the other kind's form is spelled as (fiu "son" and să fiu; cost and the verb costa) keeps its count when
@@ -1595,6 +1604,10 @@ def load_dictionary(language):
     for word, word_lc, p, senses in db.execute("SELECT word, word_lc, pos, senses FROM entries"):
         if language == "ko" and (korean_fused(word_lc, senses) or word_lc in KOREAN_GLOSSED):
             continue
+        if language == "bg":
+            word, word_lc = BULGARIAN_REFLEXIVE.sub("", word), BULGARIAN_REFLEXIVE.sub("", word_lc)
+            if p == "verb" and any(g.startswith("to ") for s in json.loads(senses) for g in s.get("glosses", [])):
+                BULGARIAN_VERBS.add(word_lc)
         pos[word_lc].add(p)
         if p not in WORD_POS and not (language == "ko" and p == "counter"):
             continue
@@ -1611,6 +1624,9 @@ def load_dictionary(language):
         if "deprecated in the spelling reform" in lemma:
             outdated.add(form_lc)
         lemma = lower(language, lemma)
+        if language == "bg":
+            # Some of the pack's links name the word with its stress mark (къщата of къ́ща).
+            lemma = BULGARIAN_REFLEXIVE.sub("", lemma.replace("\u0301", ""))
         if is_wordlike(lemma):
             lemmas[form_lc].append(lemma)
     # A Korean verb's form the pack files under other verbs too (가는 of 가다, 갈다 and 가늘다) goes as its forms table says.
@@ -1670,6 +1686,12 @@ def load_dictionary(language):
             if len(set(of)) > 1:
                 best = max(weight(lemma) for lemma in of)
                 lemmas[form_lc] = [lemma for lemma in of if weight(lemma) == best]
+    if language == "bg":
+        # A Bulgarian verb's forms table names its aspect partner (спирам in спра's, давам in дам's): the partner is a
+        # word of its own, which the reader shows apart, and so are its forms.
+        for form_lc, of in lemmas.items():
+            if form_lc in BULGARIAN_VERBS:
+                lemmas[form_lc] = [lemma for lemma in of if lemma == form_lc or lemma not in BULGARIAN_VERBS]
     if language == "ro":
         ROMANIAN_KINDS.update(romanian_kinds(db, lemmas))
     if language == "ar" and ARABIC_FORMS:
@@ -1999,6 +2021,9 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
             return None
         lemma = lemmatizer.lemmatize(form)
         key = lower(language, lemma)
+        # simplemma gives a Bulgarian reflexive verb's forms as the pronoun (нуждаеш of се).
+        if language == "bg" and key in ("се", "си") and form != key:
+            return None
         if (lemma != key and language not in CAPITALISED_NOUNS) or (key in pos and key not in common) or key in excluded:
             return None
         # simplemma gives a negated Slovak verb as a word of its own (neurobil of neurobiť).
