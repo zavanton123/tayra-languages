@@ -1418,7 +1418,7 @@ def check(path, brief=False):
     names = {fold(code, n.lower()) for n in course.get("names", [])}
     # In Spanish a name of several words or joined by a hyphen (San José, al-Ándalus) counts as one known word wherever it
     # is written whole; the earlier languages count such names word by word, as they were written to.
-    long_names = sorted((n for n in course.get("names", []) if " " in n or "-" in n or (code in ("it", "ca") and "'" in n)), key=len, reverse=True) if code in ("es", "it", "sr", "nl", "da", "no", "sv", "el", "ar", "ca", "id", "hr", "bs") else []
+    long_names = sorted((n for n in course.get("names", []) if " " in n or "-" in n or (code in ("it", "ca") and "'" in n)), key=len, reverse=True) if code in ("es", "it", "sr", "nl", "da", "no", "sv", "el", "ar", "ca", "id", "hr", "bs", "bg") else []
     # So is a Galician one (A Coruña, Santiago de Compostela, O Porriño).
     if code == "gl":
         long_names = sorted((n for n in course.get("names", []) if " " in n or "-" in n), key=len, reverse=True)
@@ -1512,13 +1512,15 @@ def check(path, brief=False):
             text = re.sub(r"(?m)^Preguntes:", "", text)
         if code == "id":
             text = re.sub(r"(?m)^Pertanyaan:", "", text)
+        if code == "bg":
+            text = re.sub(r"(?m)^Въпроси:", "", text)
         if code == "gl":
             text = re.sub(r"(?m)^Preguntas:", "", text)
         if code in ("hr", "bs"):
             text = re.sub(r"(?m)^Pitanja:", "", text)
         toks = tokens(text, code, ranks, names, verbs, set(words) if code in ("it", "ko", "id") else None)
         # A century or a king's number in capital Roman numerals (siglo XVI, Carlos V) is a number.
-        if code in ("es", "ru", "it", "sr", "uk", "ca", "hr", "bs"):
+        if code in ("es", "ru", "it", "sr", "uk", "ca", "hr", "bs", "bg"):
             numerals = sum(1 for t in toks if ROMAN.fullmatch(t))
             toks = [t for t in toks if not ROMAN.fullmatch(t)]
             whole_names += numerals
