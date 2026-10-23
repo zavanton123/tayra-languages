@@ -1,0 +1,177 @@
+{
+  "id": "hu-mini-9000",
+  "rankUpTo": 9000,
+  "level": "C2",
+  "title": "Esszék az időről",
+  "description": "Ten reflective essays and columns on time: animals' inner clocks, waiting, fashion, slow evenings, meetings, a school lesson, a cave, memory and sleep, a time-lapse film and a long marriage.",
+  "topic": "Essays on time",
+  "names": [
+    "Fanna",
+    "Kecskemét",
+    "Nyíregyháza",
+    "Debrecen",
+    "London",
+    "Kanada",
+    "Sztankó",
+    "Kiliána",
+    "Győr",
+    "Szeged",
+    "Turóczi",
+    "Weöres",
+    "Sándor",
+    "Abádi",
+    "Aggtelek",
+    "Baradla",
+    "Ballai",
+    "Tamara",
+    "Pécs",
+    "Endre",
+    "Ilka",
+    "Balaton",
+    "Szigliget",
+    "Sopron"
+  ],
+  "lessons": [
+    {
+      "title": "A papagáj órája",
+      "summary": "A columnist reflects on the inner clocks of animals: her neighbour Fanna's parrot that calls at six every morning, her uncle's farm animals near Kecskemét, and the pumas of the Nyíregyháza zoo that wake up only towards evening.",
+      "newWords": [
+        "papagáj",
+        "emlős",
+        "háziállat",
+        "jószág",
+        "feldolgozó",
+        "puma",
+        "többszöri"
+      ],
+      "text": "Szomszédasszonyunknak, Fannának van egy szürke papagája. Ez az egyetlen háziállata, és minden reggel pontosan hat órakor megszólal: előbb halkan füttyent, aztán egyre hangosabban kiabálja a gazdája nevét. Nincs ébresztőórája, és nem lát ki az utcára, mert a kalitkája a konyha belső sarkában áll. Mégsem téved soha. Télen, amikor hatkor még koromsötét van, ugyanúgy megszólal, mint nyáron. Eleinte bosszantott, ma már szinte várom. A papagáj lett a házunk órája.\n\nSokáig azt hittem, hogy az időérzék az ember kiváltsága. Úgy gondoltam, hogy egy háziállat egyszerűen akkor eszik, amikor elé teszik az ételt, és akkor alszik, amikor elfárad. Azóta olvastam róla, hogy minden emlős testében működik egy belső óra. Ez az óra nagyjából huszonnégy órás ritmusban jár, és a reggeli fény igazítja be nap mint nap. Egy emlős akkor is megérzi a reggel közeledtét, ha sötét helyen tartják. A madarak, így a papagáj is, hasonlóan működnek, bár ők nem emlősök.\n\nIgazán a nagybátyám tanyáján tapasztaltam meg, milyen pontos ez a belső óra. A nagybátyám Kecskemét mellett gazdálkodik: néhány tehenet, két lovat és egy csapat tyúkot tart. Ő ezeket egyszerűen jószágnak hívja. A jószág reggel ötkor már a kapunál áll, és vár. Ha a nagybátyám tíz percet késik, a tehenek hangosan bőgni kezdenek.\n\n– A jószág pontosabb, mint én – mondja nevetve.\n\nA tejet hétkor viszi a feldolgozóba, a szomszéd falu szélére. A feldolgozó pontosan hétkor veszi át a tejet, és aki elkésik, annak másnapig kell várnia. Így a tanyán az egész nap a jószág és a feldolgozó órájához igazodik.\n\nNyíregyházán, az állatkertben is láttam ilyet. Ott két puma él. Délelőtt a pumák szinte mindig alszanak, és a látogatók csalódottan mennek tovább. Az egyik gondozó elmagyarázta nekem, hogy ez nem lustaság. A puma a szabadban alkonyatkor indul útnak, ezért az állatkerti pumák is estefelé élénkülnek fel, akkor is, ha délben kapják az ételt. Többszöri látogatás után magam is meggyőződtem róla: a délelőtti látogatók alvó pumákat láttak, a késő délutániak viszont mozgó, kíváncsi állatokat. A többszöri megfigyelés mindig ugyanazt mutatta.\n\nMi, emberek, hajlamosak vagyunk azt hinni, hogy az órát mi találtuk fel. Valójában csak lemásoltuk azt, ami minden élőlényben ott ketyeg. A papagáj, a jószág és a puma nem tudja, hány óra van, mégis tudja, mikor mit kell tennie. Talán nekünk is jót tenne, ha néha kevesebbet néznénk a telefonunkat, és jobban figyelnénk a saját belső óránkra.\n\nKérdések:\nMikor szólal meg minden reggel Fanna papagája?\nMinden reggel pontosan hat órakor szólal meg, télen és nyáron is.\nMi működik minden emlős testében?\nMinden emlős testében működik egy belső óra, amelyet a reggeli fény igazít be.\nMit csinál a jószág reggel ötkor a nagybátyám tanyáján?\nReggel ötkor már a kapunál áll, és vár.\nMiért kell a tejet pontosan hétkor a feldolgozóba vinni?\nMert a feldolgozó hétkor veszi át a tejet, és aki elkésik, annak másnapig kell várnia.\nMiért alszanak délelőtt a pumák?\nMert a puma a szabadban alkonyatkor indul útnak, ezért estefelé élénkül fel."
+    },
+    {
+      "title": "Várakozás a buszmegállóban",
+      "summary": "On an icy January morning in Debrecen, the writer waits at a bus stop, catches a bespectacled old man who slips, listens to two women gossiping, and finally shares a taxi when the bus breaks down.",
+      "newWords": [
+        "buszmegálló",
+        "jéghideg",
+        "alattomos",
+        "szemüveges",
+        "megcsúszik",
+        "pletykál",
+        "elutazik",
+        "taxis"
+      ],
+      "text": "Ha összeadnám, hány órát töltöttem eddig buszmegállókban, valószínűleg hetek jönnének ki belőle. A várakozás ideje különös idő. Nem tartozik sem ahhoz a helyhez, ahonnan jövünk, sem ahhoz, ahová tartunk: mintha egyszerűen kimaradna a napból. Mégis sokat tanultam ezekben a percekben.\n\nEgy januári reggelen Debrecenben, a lakásunk melletti buszmegállóban álltam. Jéghideg szél fújt, és a járdát vékony, szinte láthatatlan jég borította. Ez a fajta jég a legalattomosabb: alig látszik, és csak akkor veszed észre, amikor már késő. Egy idős, szemüveges úr lépett a megállóhoz, és a járda szélén megcsúszott. Épp el tudtam kapni a karját.\n\n– Köszönöm – mondta, és megigazította a szemüvegét. – Ez az alattomos jég minden télen megtréfál. Tavaly is megcsúsztam itt, pont ugyanezen a helyen.\n\nA busz késett. Mellettünk két asszony arról pletykált, hogy ki költözik el az utcából, és kinek a gyereke kapott új állást. Az egyik elmesélte, hogy a szomszédja lánya holnap elutazik Londonba, és két évig nem jön haza. A szemüveges úr halkan megjegyezte:\n\n– Régen a buszmegálló volt a környék újságja. Itt pletykáltak az emberek, itt tudták meg, ki költözik, ki házasodik, ki elutazik.\n\nAztán elmesélte, hogy a fiai húsz éve elutaztak Kanadába, és most minden vasárnap videón beszél velük.\n\nHúsz perc telt el, aztán harminc. A lábam már jéghideg volt. Ekkor egy taxi állt meg előttünk. A taxis lehúzta az ablakot, és kiszólt:\n\n– A hetes busz elromlott a hídnál. Ma reggel már nem jön!\n\nAz asszonyok bosszankodva indultak gyalog a villamos felé. A szemüveges úr rám nézett, én rá, aztán megkérdeztem a taxist, mennyibe kerülne az út a belvárosig. A taxis mondott egy összeget, mi pedig elosztottuk egymás között. Útközben a taxis is elmesélte a magáét: harminc éve vezet, és szerinte az ember a várakozásban ismerszik meg igazán.\n\nAzóta sokat gondolok erre a reggelre. A várakozást általában elvesztegetett időnek tartjuk, és a telefonunkkal próbáljuk kitölteni. Pedig ha felnézünk, a buszmegálló megszólít bennünket: az alattomos jég, a pletykáló asszonyok, egy szemüveges idegen története. Az idő, amelyet ott töltünk, nem marad ki a napból, hanem a nap egyik legemberibb része.\n\nKérdések:\nMilyen idő volt azon a januári reggelen?\nJéghideg szél fújt, és a járdát vékony, szinte láthatatlan jég borította.\nMiért alattomos ez a fajta jég?\nMert alig látszik, és csak akkor veszed észre, amikor már késő.\nMi történt a szemüveges úrral?\nMegcsúszott a járda szélén, de a szerző elkapta a karját.\nMiről pletykált a két asszony?\nArról, hogy ki költözik el az utcából, és kinek a gyereke kapott új állást.\nMit mondott a taxis?\nAzt mondta, hogy a hetes busz elromlott a hídnál, és ma reggel már nem jön."
+    },
+    {
+      "title": "A divat órája",
+      "summary": "Looking at her mother's orange polyester dress from the seventies, the writer reflects on fashion as a clock that goes round in circles, on which innovations last, and on what future generations will think of today's clothes.",
+      "newWords": [
+        "poliészter",
+        "príma",
+        "kifutó",
+        "öltözék",
+        "újítás",
+        "mérce",
+        "jövőbeni"
+      ],
+      "text": "Anyám szekrényében a mai napig ott lóg egy narancssárga ruha a hetvenes évekből. Poliészterből készült, és anyám szerint akkoriban ez volt a legmodernebb anyag. A poliészter nem gyűrődött, gyorsan megszáradt, és nem kellett vasalni. A nagymamám, aki egész életében pamutból és gyapjúból varrt, gyanakodva tapogatta.\n\n– Príma anyag ez, csak nem lélegzik – mondta.\n\nMa a poliésztert inkább kerülik az emberek, a ruha formája mégis visszatért: tavaly egy fiatal tervező szinte ugyanilyen ruhát küldött a kifutóra.\n\nA divat talán a legpontosabb óra, amelyet az ember feltalált. Minden öltözék elárulja, melyik évtizedben készült: a vállak szélessége, a nadrágok hossza, a színek. Aki régi fényképeket nézeget, első ránézésre meg tudja mondani, hogy egy öltözék a hatvanas vagy a nyolcvanas évekből való. A divat azonban nem egyenesen halad, hanem körben jár. Ami a kifutón ma újításnak számít, az gyakran csak egy húsz-harminc éves ötlet visszatérése.\n\nPersze vannak valódi újítások is. A cipzár, a farmer, a vízálló kabát, és igen, a poliészter is valódi újítás volt a maga idejében. Ezek az újítások nem tűntek el a következő évszakkal, hanem beépültek a mindennapjainkba. Talán ez a jó mérce: egy újítás akkor értékes, ha a kifutóról lekerülve is velünk marad. A divatnak persze más a mércéje: az számít, mi hat frissnek egy-egy évszakban.\n\nGyakran gondolok arra, mit szólnak majd a jövőbeni nemzedékek a mi ruháinkhoz. Lehet, hogy a jövőbeni kutatók ugyanúgy mosolyognak majd a mai sportcipőkön és melegítőkön, ahogy mi a hetvenes évek széles szárú nadrágjain. Az is lehet, hogy a jövőbeni tervezők éppen ezeket hozzák vissza a kifutóra.\n\nAnyám ruhája egyébként még ma is príma állapotban van. Tavaly a lányom felpróbálta, és egy baráti összejövetelre fel is vette. Mindenki megdicsérte, és senki sem hitte el, hogy ötvenéves öltözéket visel. Ott, abban a narancssárga ruhában egyszerre volt jelen a hetvenes évek, a mai nap és talán egy kicsit a jövő is. A divat órája nem egyirányú: előre jár, de újra meg újra visszafordul.\n\nKérdések:\nMiből készült a narancssárga ruha?\nPoliészterből készült, a hetvenes években.\nMit mondott a nagymama a poliészterről?\nAzt mondta, hogy príma anyag, csak nem lélegzik.\nMiért mondja a szerző, hogy a divat körben jár?\nMert ami a kifutón ma újításnak számít, az gyakran csak egy régi ötlet visszatérése.\nMi a szerző szerint egy újítás jó mércéje?\nAz, hogy a kifutóról lekerülve is velünk marad.\nMit gondolhatnak majd a jövőbeni nemzedékek a mai ruháinkról?\nLehet, hogy mosolyognak majd rajtuk, de az is lehet, hogy visszahozzák őket a kifutóra."
+    },
+    {
+      "title": "Lassú esték",
+      "summary": "A writer who used to bolt down her dinner in seven minutes learns from her pharmacist friend Kiliána to eat slowly, drinks camomile in the evening, bakes gluten-free bread for her sister and finds calm at the kitchen sink.",
+      "newWords": [
+        "gyógyszerész",
+        "emészt",
+        "kellően",
+        "kamilla",
+        "gluténmentes",
+        "mosogató",
+        "szükséglet"
+      ],
+      "text": "Évekig úgy vacsoráztam, mintha versenyeznék. A munkából hazaérve gyorsan összeállítottam valamit, a számítógép előtt megettem, aztán már mentem is tovább a következő feladatra. Este tízkor rendszerint fájt a gyomrom, és nem értettem, miért.\n\nA barátnőm, Sztankó Kiliána gyógyszerész. Egyszer, amikor a gyógyszertárában gyomorcseppeket kértem tőle, nem adta oda azonnal.\n\n– Mikor vacsoráztál? – kérdezte. – És mennyi ideig?\n\nBevallottam, hogy körülbelül hét perc alatt.\n\n– Akkor nem a gyomrod a hibás – mondta. – A gyomor nem tud kapkodni. A szervezet a saját tempójában emészt, és ha te sietsz, nem emészt gyorsabban. Ha nem rágod meg kellően az ételt, és nem ülsz le kellően nyugodtan, a gyomrodnak kell elvégeznie azt, amit a szádnak kellett volna.\n\nAzt tanácsolta, hogy próbáljak meg egy hónapig lassan enni, vacsora után pedig igyak egy csésze kamillát. A kamilla nem csodaszer – tette hozzá, ahogy egy jó gyógyszerész szokta –, de megnyugtatja a gyomrot, és jelzi a testnek, hogy vége a napnak.\n\nMegfogadtam a tanácsát. Az első napokban furcsa volt: a vacsora húsz-huszonöt percig tartott, és közben nem néztem semmit. A húgom, aki nem ehet glutént, ekkoriban gyakran átjött hozzám, ezért gluténmentes kenyeret kezdtem sütni. A gluténmentes tészta lassan kel, és nem lehet siettetni; ez is megtanított várni.\n\nVacsora után a mosogatóhoz álltam. Korábban a mosogatás volt a legunalmasabb kötelességem, most viszont az esti rend része lett. Amíg a meleg víz a mosogatóba folyt, és a tányérok egymás után tisztára kerültek, a gondolataim is lassan rendeződtek. A mosogató fölötti ablakból a szomszéd kertre láttam, ahol sorban kialudtak a fények.\n\nEgy hónap múlva a gyomrom már nem fájt. Ennél is fontosabbnak tartom, hogy rájöttem: a lassúság nem luxus, hanem alapvető szükséglet. A testnek ugyanúgy szüksége van lassú órákra, mint alvásra vagy vízre, és ezt a szükségletet nem lehet a hétvégére halasztani. Azóta is igyekszem kellően lassan vacsorázni. Esténként, amikor a kamilla illata betölti a konyhát, úgy érzem, végre a saját időmben élek.\n\nKérdések:\nMiért fájt esténként a szerző gyomra?\nMert túl gyorsan vacsorázott, és nem rágta meg kellően az ételt.\nKi Sztankó Kiliána?\nA szerző barátnője, aki gyógyszerész.\nMit tanácsolt a gyógyszerész?\nAzt, hogy egy hónapig egyen lassan, vacsora után pedig igyon egy csésze kamillát.\nMiért kezdett a szerző gluténmentes kenyeret sütni?\nMert a húga nem ehet glutént, és gyakran átjött hozzá.\nMire jött rá a szerző egy hónap után?\nArra, hogy a lassúság nem luxus, hanem alapvető szükséglet."
+    },
+    {
+      "title": "Az értekezletek ideje",
+      "summary": "A head of department near Győr writes about how meetings ate up half her working week, how her first assistant taught her to stop complicating things and prepare the yearly budget estimate faster, and why a more profitable job is not always a better one.",
+      "newWords": [
+        "osztályvezető",
+        "beleszól",
+        "bonyolít",
+        "előirányzat",
+        "segéd",
+        "megélhetés",
+        "jövedelmező"
+      ],
+      "text": "Tizenkét éve vagyok osztályvezető egy Győr melletti gépgyártó cégnél. Amikor kineveztek, azt hittem, hogy egy osztályvezető legfontosabb feladata a döntés. Ma már tudom, hogy inkább az időt kell beosztania: a saját idejét és a munkatársaiét.\n\nTavaly egy hétig minden negyedórámat felírtam egy füzetbe. Az eredmény megdöbbentett: a munkaidőm csaknem felét értekezleteken töltöttem. Nem mindegyik volt fölösleges, de sokon olyan kérdésekről vitatkoztunk, amelyeket két ember tíz perc alatt el tudott volna intézni. Az ilyen értekezleteken mindig akad valaki, aki mindenbe beleszól. Nem rosszindulatból teszi, egyszerűen fontosnak érzi, hogy minden döntésbe beleszóljon. Csakhogy minden újabb vélemény bonyolítja a helyzetet, és ami egy óra alatt eldőlhetne, az három hétig húzódik.\n\nAz egyik legtöbb időt elnyelő feladatunk az éves előirányzat elkészítése. Ősszel meg kell becsülnünk, mennyi pénzre lesz szüksége az osztálynak a következő évben: anyagokra, gépekre, továbbképzésekre. Az előirányzat nem csupán egy táblázat: minden sora egy vita és egy kompromisszum. Régen hetekig készítettük, és a végén senki sem volt elégedett vele.\n\nAz első segédem, egy fiatal mérnök tanított meg arra, hogyan ne bonyolítsuk túl a dolgokat. Azt javasolta, hogy minden értekezlet előtt küldjük ki írásban a kérdést, és csak azok jöjjenek el, akiknek valóban van mondanivalójuk. A módszere elsőre nyersnek tűnt, de bevált: az előirányzatot azóta két hét alatt elkészítjük. Ma már ő is osztályvezető, és most neki is van egy segédje, akit ugyanerre tanít.\n\nSokat gondolkodom azon is, mire használjuk a munkával töltött időt. A munka a megélhetés eszköze: a fizetésünkből élünk, ebből tartjuk el a családunkat. De a megélhetés nem minden. Ismerek olyan kollégát, aki egy sokkal jövedelmezőbb állást utasított vissza, mert ott hetente hatvan órát kellett volna dolgoznia. Ismerek olyat is, aki elfogadta a jövedelmező ajánlatot, és két év után visszajött hozzánk, mert soha nem volt otthon. Egy állás attól, hogy jövedelmező, még nem feltétlenül jó.\n\nMa, ha valaki értekezletet kér tőlem, először mindig megkérdezem: mennyi ideig fog tartani, és kinek kell ott lennie? A pénzről minden ősszel újra lehet tárgyalni, az időről nem. Az időt egyetlen előirányzat sem tudja megemelni.\n\nKérdések:\nMire jött rá az osztályvezető, amikor egy hétig felírta minden negyedóráját?\nArra, hogy a munkaidejének csaknem felét értekezleteken töltötte.\nMiért húzódnak el egyes döntések?\nMert valaki mindenbe beleszól, és minden újabb vélemény bonyolítja a helyzetet.\nMi az éves előirányzat?\nAnnak a becslése, hogy mennyi pénzre lesz szüksége az osztálynak a következő évben.\nMit javasolt az első segéd?\nAzt, hogy az értekezletek előtt írásban küldjék ki a kérdést, és csak azok jöjjenek el, akiknek van mondanivalójuk.\nMiért utasított vissza egy kolléga egy jövedelmezőbb állást?\nMert ott hetente hatvan órát kellett volna dolgoznia."
+    },
+    {
+      "title": "Negyvenöt perc",
+      "summary": "A literature teacher in Szeged explains why the forty-five-minute lesson is the hardest part of her job, and how a digression on rhythm in poetry turned the careless pupil Turóczi, a drummer, into an eager one.",
+      "newWords": [
+        "felszólít",
+        "hanyag",
+        "adottság",
+        "kitér",
+        "belead",
+        "tanulság",
+        "kimerítő",
+        "nagyobbik"
+      ],
+      "text": "Huszonkét éve tanítok irodalmat Szegeden, egy gimnáziumban. Ha valaki megkérdezi, mi a legnehezebb a munkámban, nem a dolgozatjavítást mondom, hanem a negyvenöt percet. Ennyi idő jut egy órára, és ebbe kell beleférnie mindennek: a házi feladat ellenőrzésének, az új anyagnak, a kérdéseknek és annak a néhány csendes pillanatnak, amikor egy diák végre megért valamit.\n\nFiatal tanárként ki akartam használni minden percet. Az óra elején felszólítottam valakit, hogy mondja el, mit olvasott otthon, aztán gyorsan továbbléptem. Ha egy diák hanyag volt, és nem készült, bosszankodtam, mert elvette az időt a többiektől. Az egyik tanítványom, egy Turóczi nevű fiú, különösen hanyag volt: a füzetébe csak címeket írt, a verseket nem olvasta el. Ha felszólítottam, csak vállat vont. Sokáig azt hittem, hogy egyszerűen nincs adottsága az irodalomhoz.\n\nEgy tavaszi órán Weöres Sándor verseiről beszéltünk. Abádi, az osztály egyik legjobb tanulója, kérdezett valamit a ritmusról, én pedig kitértem egy hosszabb kérdésre: hogyan érzékeljük az időt a versben, miért lassít le egy hosszú sor, és miért gyorsít fel egy rövid. Ez nem szerepelt a tervben, és tudtam, hogy ha kitérek rá, nem jutunk a végére. Ekkor Turóczi jelentkezett, először abban a tanévben. Elmondta, hogy otthon dobol, és szerinte a vers olyan, mint egy dal: a szünetek is számítanak. Olyan pontosan beszélt a ritmusról, hogy az egész osztály elcsendesedett.\n\nAzon az órán rájöttem, hogy rosszul ítéltem meg. Nem az adottság hiányzott belőle, hanem az, hogy valaki olyan nyelven szóljon hozzá, amelyet ért. A következő hetekben Turóczi mindent beleadott: zenei szempontból elemezte a verseket, és a félévi dolgozatát is a ritmusról írta. A hanyag diákból lelkes diák lett.\n\nA tanulság számomra az volt, hogy a negyvenöt perc nem verseny. Néha éppen a tervtől való eltérés adja meg az óra értelmét. Azóta bátrabban kitérek egy-egy kérdésre, ha érzem, hogy az osztály figyel. Ezt a tanulságot minden fiatal kollégámnak elmondom.\n\nA tanítás ettől nem lett könnyebb. Egy hosszú nap ma is kimerítő: hat óra, hat osztály, hatszor negyvenöt perc teljes figyelem. A kimerítő napok után otthon sem könnyű kikapcsolni. A nagyobbik lányom egyetemista, és maga is tanárnak készül. Ilyenkor megkérdezi, megéri-e. Mindig azt felelem neki, hogy igen: ha az ember mindent belead, a negyvenöt perc is nagyon hosszú idő lehet. A nagyobbik lányom ilyenkor nevet, és azt mondja, hogy ezt is felírja magának.\n\nKérdések:\nMi a legnehezebb a tanár munkájában?\nA negyvenöt perc, mert ebbe kell beleférnie mindennek.\nMilyen diák volt Turóczi az év elején?\nHanyag diák volt: nem olvasta el a verseket, és a füzetébe csak címeket írt.\nMire tért ki a tanár a tavaszi órán?\nArra, hogyan érzékeljük az időt a versben.\nMit mondott Turóczi a versről?\nAzt, hogy a vers olyan, mint egy dal: a szünetek is számítanak.\nMi volt a tanulság a tanár számára?\nAz, hogy a negyvenöt perc nem verseny, és néha éppen a tervtől való eltérés adja meg az óra értelmét."
+    },
+    {
+      "title": "Kő és víz",
+      "summary": "On a tour of the Baradla cave at Aggtelek, an old researcher explains how dripstones grow from a weak limestone solution, shows an anomaly, and hands the writer a pebble smoothed by a shallow stream over thousands of years.",
+      "newWords": [
+        "oldat",
+        "formáció",
+        "arányú",
+        "anomália",
+        "sekély",
+        "kavics",
+        "kivezet"
+      ],
+      "text": "Kevés olyan hely van, ahol az időt annyira kézbe lehet venni, mint egy barlangban. Tavaly ősszel Aggtelekre utaztam, hogy bejárjam a Baradla-barlang egyik hosszabb útvonalát. A vezetőnk, egy idős kutató, az első teremben megállt, és a barlang tetejére mutatott. Onnan hosszú, vékony kőcsapok lógtak le, alattuk pedig a földből vastag kőoszlopok nőttek felfelé.\n\n– Ezeket cseppkőnek hívjuk – mondta. – Egy ilyen formáció nagyjából száz év alatt nő egy centimétert. Amit itt láttok, az több tízezer év munkája.\n\nElmagyarázta, hogyan születik egy ilyen formáció. Az eső vize átjut a földön, és közben feloldja a követ, így egy gyenge oldat jön létre. Amikor az oldat a barlang tetejéről lecseppen, a víz egy része a levegőbe távozik, a kő anyaga pedig apró kristályok formájában ott marad. Csepp csepp után, évszázadról évszázadra így épülnek fel a lenti és a fenti formációk. Mindegyik formáció más alakot vett fel: van, amelyik függönyre, van, amelyik óriási gombára emlékeztet.\n\nA vezetőnk azt is elmondta, hogy a növekedés üteme a felszíni időjárástól függ. Esős években több oldat jut le a mélybe, ezért a kő gyorsabban nő; száraz években szinte megáll. A változás azonban kis arányú: egy év alatt alig egy hajszálnyi. Egy helyen mégis olyan formációt mutatott, amely az elmúlt ötven évben sokkal gyorsabban nőtt, mint a többi.\n\n– Ez egy anomália – mondta. – A kutatók szerint a fölötte húzódó repedés miatt több víz éri, mint a szomszédait. Az ilyen anomália segít megérteni, hogyan működik a barlang. Egy kis arányú eltérés is sokat elárul.\n\nA járat alján egy sekély patak folyt. A víz alig volt néhány centi mély, az alján mégis tökéletesen sima, kerek kavicsok feküdtek. A vezetőnk kivett egy kavicsot, és a kezembe tette.\n\n– Ez a kavics valaha egy éles kődarab volt – mondta. – A víz sok ezer év alatt tette simává. Ez a sekély patak ugyanazt teszi, mint a cseppek odafent: lassan, türelmesen dolgozik.\n\nHárom óra után egy keskeny lépcső kivezetett bennünket a barlangból. Kint sütött a nap, és a fény bántotta a szememet. A kivezető ösvényen arra gondoltam, hogy a barlang egészen más mércével méri az időt, mint mi. Ami nekünk egy hosszú nyár, az a barlangnak egyetlen pillanat.\n\nHazafelé a zsebemben ott volt a kavics. Azóta is az asztalomon tartom, és ha nagyon sietek, néha kézbe veszem. Sima felülete emlékeztet arra, hogy a legszebb formák nem sietségből születnek.\n\nKérdések:\nMennyit nő egy ilyen formáció száz év alatt?\nNagyjából egy centimétert.\nHogyan jön létre az oldat, amelyből a formációk épülnek?\nAz eső vize átjut a földön, és feloldja a követ.\nMiért nő gyorsabban a kő esős években?\nMert ilyenkor több oldat jut le a mélybe.\nMiért nevezte a vezető anomáliának az egyik formációt?\nMert az elmúlt ötven évben sokkal gyorsabban nőtt, mint a többi, mivel egy repedés miatt több víz éri.\nMit kapott a szerző a vezetőtől a sekély patak mellett?\nEgy sima, kerek kavicsot."
+    },
+    {
+      "title": "Az idő a fejünkben",
+      "summary": "Prompted by a neurologist friend, the writer reads up on why holidays feel long in hindsight, and tells how a friend who could not fall asleep before midnight was examined and reset his inner clock until an irresistible sleepiness returned in the evenings.",
+      "newWords": [
+        "neurológiai",
+        "szakirodalom",
+        "képi",
+        "sorolható",
+        "kivizsgál",
+        "szabályozó",
+        "ellenállhatatlan"
+      ],
+      "text": "Miért tűnik egy kéthetes nyaralás utólag hosszabbnak, mint egy egész hónapnyi hétköznap? Ezt a kérdést egy vacsorán tettem fel egy régi ismerősömnek, aki neurológus. Azt felelte, hogy a neurológiai kutatások szerint az idő hosszát utólag nem az óra határozza meg, hanem az, hogy mennyi új élmény marad meg bennünk.\n\nKíváncsi lettem, és a következő hetekben elmélyedtem a szakirodalomban. A szakirodalom nagy része nehéz olvasmány volt, de néhány gondolat világosan kirajzolódott. Az agy az új, szokatlan élményeket részletesebben rögzíti, a megszokottakat viszont összevonja. Az emlékeink jó része képi emlék: egy tér, egy szín, egy arc. Egy nyaralás tele van új képi élménnyel, ezért utólag hosszúnak tűnik. A hétköznapok ezzel szemben hasonlítanak egymásra, és az agy egyetlen szürke emlékké sűríti őket.\n\nEz a jelenség a hétköznapi érzékcsalódások közé sorolható, akárcsak az, hogy a várakozás percei lassabban telnek, mint egy jó beszélgetés percei. Egyik sem betegség: mindkettő a figyelő agy természetes működéséhez sorolható.\n\nVan azonban a fejünkben egy másik óra is, amelyet nem az élmények, hanem a fény állít be. Egy barátomat tavaly kivizsgálták, mert hónapokig nem tudott elaludni éjfél előtt, reggel pedig alig tudott felkelni. A kivizsgálás során kiderült, hogy nincs komoly baja: a belső órája egyszerűen elcsúszott. Az orvos elmagyarázta, hogy a szervezet egyik fontos szabályozója egy hormon, a melatonin, amely sötétedéskor kezd termelődni, és jelzi a testnek, hogy közeledik az alvás ideje. Ha valaki késő estig erős fényben, képernyő előtt ül, ez a szabályozó nem tud rendesen működni.\n\nA barátom két hónapig követte az orvos tanácsait: este kilenc után nem nézett képernyőt, reggel pedig fél órát sétált a szabad levegőn. Lassan visszaállt a ritmusa. Elmesélte, hogy egy este tíz óra körül ellenállhatatlan álmosságot érzett, pedig évek óta nem érzett ilyet. Ez az ellenállhatatlan álmosság volt a jel, hogy a belső szabályozó újra működik. Amikor egy év múlva ismét kivizsgálták, az orvos már csak annyit mondott, hogy így tovább.\n\nAzóta én is máshogy gondolok az időre. Ha azt szeretném, hogy egy év ne folyjon össze egyetlen szürke emlékké, új képi élményeket keresek: más úton megyek haza, ismeretlen városrészekben sétálok. Ha pedig este tíz körül ellenállhatatlan álmosság tör rám, már nem próbálok ébren maradni, hanem lefekszem.\n\nKérdések:\nMi határozza meg a neurológiai kutatások szerint, milyen hosszúnak érezzük utólag az időt?\nAz, hogy mennyi új élmény marad meg bennünk.\nMiért tűnik egy nyaralás utólag hosszúnak?\nMert tele van új képi élménnyel, amelyeket az agy részletesen rögzít.\nMiért vizsgálták ki a szerző barátját?\nMert hónapokig nem tudott elaludni éjfél előtt, és reggel alig tudott felkelni.\nMi a melatonin szerepe?\nA szervezet egyik fontos szabályozója: jelzi a testnek, hogy közeledik az alvás ideje.\nMi jelezte, hogy a barát belső órája újra működik?\nEgy este tíz óra körül ellenállhatatlan álmosságot érzett."
+    },
+    {
+      "title": "Egy nap hét percben",
+      "summary": "Young film-maker Ballai Tamara records a fountain on a quiet square in Pécs once a minute for twenty-four hours, turns the pictures into a seven-minute short film, and shows it at festivals with the help of an association of independent film-makers.",
+      "newWords": [
+        "rövidfilm",
+        "szökőkút",
+        "indítás",
+        "távközlési",
+        "ígérkezik",
+        "társulás",
+        "belépési"
+      ],
+      "text": "Ballai Tamara huszonhat éves, és rövidfilmeket készít. Legutóbbi rövidfilmje mindössze hét perc hosszú, mégis egy teljes napot mutat be: huszonnégy órát egy szökőkút körül Pécsen, a belváros egyik csendes terén.\n\nAz ötlet egy nyári estén született. Tamara a szökőkút szélén ült, és figyelte, hogyan változik körülötte a tér: reggel a piacra sietők, délben a turisták, este a sétáló párok jöttek. Úgy érezte, hogy a szökőkút a tér órája. Mindig ugyanott áll, csak körülötte telik az idő.\n\nA forgatás nem volt egyszerű. Tamara egy kis kamerát szerelt egy szemközti ház erkélyére, amely huszonnégy órán át percenként készített egy felvételt. A felvétel indítása éjfélkor volt. Az indítás előtt többször is ellenőrizte a beállításokat, mert egyetlen hiba az egész napot tönkretette volna. A kamera nem tárolta a képeket, hanem a távközlési hálózaton keresztül azonnal Tamara számítógépére küldte őket. Egy távközlési cég mérnöke, aki maga is szereti a filmet, segített neki beállítani a kapcsolatot.\n\nA napot gondosan választotta ki. A júniusi szombat az előrejelzés szerint napsütésesnek és szélcsendesnek ígérkezett, és mozgalmasnak is ígérkezett, mert délelőtt kis vásárt tartottak a téren. Az időjárás nem okozott csalódást: reggeltől estig sütött a nap.\n\nA forgatás után Tamara hetekig dolgozott a felvételeken. A több mint ezernégyszáz képből hétperces film lett. A filmen felkel a nap, az árnyékok körbefordulnak a téren, emberek tűnnek fel és el, a szökőkút vize pedig végig ugyanúgy csillog. A nézők azt mondják, hogy a film egyszerre gyors és nyugodt.\n\nA rövidfilmet egy független filmesekből álló társulás segítségével mutatta be. A társulás tagjai megnézik egymás filmjeit, tanácsokat adnak egymásnak, és közösen fizetik a fesztiválok belépési díjait. Egy nagyobb fesztivál belépési díja ugyanis sok pénz egy fiatal filmesnek. A társulás támogatásával Tamara filmje három fesztiválra is eljutott.\n\n– Sokan kérdezik, miért nem csináltam hosszabb filmet – mondja Tamara. – Szerintem a rövidfilm pont arról szól, amiről az enyém: hogy egy egész nap is belefér hét percbe, ha figyelünk.\n\nKérdések:\nMiről szól Ballai Tamara legutóbbi rövidfilmje?\nEgy teljes napról egy szökőkút körül, Pécsen, a belváros egyik csendes terén.\nHogyan készültek a felvételek?\nEgy kis kamera huszonnégy órán át percenként készített egy felvételt egy szemközti ház erkélyéről.\nMikor volt a felvétel indítása?\nÉjfélkor volt.\nHogyan jutottak el a képek Tamara számítógépére?\nA távközlési hálózaton keresztül.\nMiben segít a társulás a fiatal filmeseknek?\nMegnézik egymás filmjeit, tanácsokat adnak, és közösen fizetik a belépési díjakat."
+    },
+    {
+      "title": "Évek múltán",
+      "summary": "The writer describes her grandparents Endre and Ilka, whose summer romance at Szigliget in 1984 became a forty-year marriage, and how time turned their passion into quiet agreement and everyday kindness.",
+      "newWords": [
+        "románc",
+        "múlta",
+        "egyetértés",
+        "elfojt",
+        "különösképpen",
+        "jóság"
+      ],
+      "text": "Nagyszüleim, Endre és Ilka, 1984 nyarán ismerkedtek meg a Balatonnál, Szigligeten. Ilka egy üdülőben dolgozott felszolgálóként, Endre a barátaival sátorozott a part közelében. Egy esős délután Endre betért az üdülő kis büféjébe, és három órán át ugyanazt a limonádét itta, csak hogy beszélgethessen vele. Így kezdődött a románcuk.\n\nAkkoriban mindenki azt mondta, hogy ez csak egy nyári románc, és szeptemberben vége lesz. Endre Szegeden tanult, Ilka Sopronban élt, és egyikük lakásában sem volt telefon. Leveleket írtak egymásnak, hetente kettőt-hármat. Az idő múltával azonban a levelek nem lettek ritkábbak, sőt. Két év múltán összeházasodtak.\n\nNegyven év múltán ma is gyakran megkérdezik tőlük, mi a titkuk. A nagymamám erre mindig ugyanazt feleli:\n\n– Nem értünk egyet mindenben. Az egyetértés nem azt jelenti, hogy mindig ugyanazt gondoljuk, hanem azt, hogy meghallgatjuk egymást.\n\nA nagyapám ilyenkor csendben bólint, és próbál elfojtani egy mosolyt, mert tudja, hogy a nagymamám ezt minden vendégnek elmondja.\n\nKülönösképpen szeretem nézni, ahogy reggelente együtt kávéznak. A nagyapám főzi a kávét, a nagymamám megteríti az asztalt, és egyikük sem szól a másikra. Mindketten tudják, mi a dolguk. Ez a csendes egyetértés évtizedek alatt alakult ki. Nem lehet sietve megtanulni, különösképpen nem egyetlen nyár alatt.\n\nA nagymamám szerint az idő nem gyengítette, hanem formálta a szerelmüket. Fiatalon a lelkesedés vitte őket, ma inkább a jóság. Úgy érti ezt, hogy apró dolgokban figyelnek egymásra. A nagyapám mindig neki hagyja a kenyér héját, mert tudja, hogy azt szereti. A nagymamám pedig mindig elfojtja a megjegyzését, ha a nagyapám harmadszor meséli el ugyanazt a történetet. Ez a jóság nem látványos, de minden napjukat átszövi.\n\nAz idő múltával a románcból csendes, hétköznapi szeretet lett. Amikor rájuk nézek, arra gondolok, hogy a legszebb dolgokhoz nem egy pillanat kell, hanem sok-sok év. Negyven év, amelyben minden reggel újra eldől, hogy figyelünk-e a másikra.\n\nKérdések:\nHol és mikor ismerkedett meg Endre és Ilka?\n1984 nyarán ismerkedtek meg a Balatonnál, Szigligeten.\nMiért mondták sokan, hogy a kapcsolatuk nem fog tartani?\nMert azt hitték, hogy ez csak egy nyári románc, és szeptemberben vége lesz.\nMit jelent Ilka szerint az egyetértés?\nAzt, hogy meghallgatják egymást, nem azt, hogy mindig ugyanazt gondolják.\nMit próbál elfojtani Endre, amikor Ilka a titkukról beszél?\nEgy mosolyt próbál elfojtani.\nMit jelent a nagymama szerint a jóság a kapcsolatukban?\nAzt, hogy apró dolgokban figyelnek egymásra."
+    }
+  ]
+}
