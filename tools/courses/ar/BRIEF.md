@@ -241,11 +241,13 @@ Things to know about the Arabic list and the checker:
   known.
 - **A word the list has whole is never cut**: *وصل*, *ولد*, *بنت*, *كما*, *فيما*, *مما*, *لما*, *بل*,
   *بدون*, *بسبب*, *باسم*, *لدى*, *لأن*, *لكي*, *لذلك*, *كذلك*, *لقد*, *اليوم*, *الآن*, *الذي*, *برد* "cold"
-  (1963), *لبن* "milk" (3295) stay whole, and so does a headword with a pronoun after it: *كلنا* counts
+  (1963), *لبن* "milk" (3303) stay whole, and so does a headword with a pronoun after it: *كلنا* counts
   as *كل*, *بابي* as *باب*, *ولدي* as *ولد*. After *و* or *ف* such a word is not cut further (*ولأن*
   is *و* + *لأن*, a use of *لأن*, and *ولقد* is *و* + *لقد*), and after *لل* a word of the list is the
   article's (*للبنك* is *لل* + *بنك*) unless *ل* is on a word of the list (*للجنة* is *ل* + *لجنة*,
-  *للعب* is *ل* + *لعب*).
+  *للعب* is *ل* + *لعب*). *بكن* "with you" (feminine plural) is one word, under *ب*; *وضوء* is *و* +
+  *ضوء* "and light"; *كاميرته* is still *ك* + *أميرته*, *للقطة* *ل* + *لقطة* and *وعدتهما* *و* + *عدت*:
+  write *كاميرا* with a word after it (*كاميرا الهاتف*), *للقطة* only as "for a shot".
 - **فقد and فهم go by the word after them.** *فقد* is "lost" (636) before a word with *ال* or at the
   end of a sentence (*فقد الولد المفتاح*), and *ف* + *قد* before anything else (*فقد قال* is *ف* + *قد*
   + *قال*): to teach "lost", put a word with *ال* after it (*فقد الولد المفتاح*), or use its other
@@ -272,7 +274,13 @@ Things to know about the Arabic list and the checker:
     *حياتي* are under their words too (`extra_forms.tsv` keeps *تعمله*); so are *ليست* and *لست* (under
     *ليس*), *المرأة* (*ال* + *امرأة*), *يده*, *يدك* (under *يد*), *وحده*, *وحدها*, *وحدي* (under *وحد* "alone",
     1001), and the duals and the verbs' feminine plurals (*نقطتان*, *مرتين* under *مرة*, *عينيك* under *عين*,
-    *يأخذان*, *تأخذا*, *قلن*, *يضحكن*);
+    *يأخذان*, *تأخذا*, *قلن*, *يضحكن*, *التقتا*); so are *أصدقائه*, *أصدقاؤه* (under *صديق*, as
+    *ب* + *أصدقائه*), *جارة* and *حفيدة* (under *جار*, *حفيد*), *قديما* and *نقدا* (under *قديم*, *نقد*),
+    *المدرسية* (*ال* + *مدرسية*, under *مدرسة*), *الحادية* (under *واحد*), *يعد* (*لم يعد*, under *عاد*), and
+    the presents that look like another verb's (*يضع* under *وضع*, not *ضاع*; *يرد* under *رد*; *يصح* under
+    *صح*; *يكبر*, *تكبر* under *كبر*; *يطول* under *طال*; *يحين* under *حان*; *يسود* under *ساد*; *يمر* under
+    *مر*; *تنام* under *نام*; *تعوض* under *عوض*; *يجدد* under *جدد*; *تبيت* under *بات*; *تغني* under *غنى*;
+    *دعيني* under *دع*; *تفضلي* under *تفضل*; *يحل* under *حل*; *أعدت* under *أعاد* and *أعد*);
   - "my X" spelled like an adjective in *-ي* (*يومي* "my day" and "daily", *عملي*, *بلدي*, *هاتفي*,
     *زوجي*, *رأسي*, *مثلي*, *قلبي*, *حياتي*) is listed under the noun as well as on its own, and the
     checker counts it as the noun: it is a use of *يوم*, *هاتف*, *مثل*, never of the adjective, which
@@ -285,7 +293,10 @@ Things to know about the Arabic list and the checker:
     *كثيرا* 428 "a lot", *مباشرة* "directly", *خاصة* "especially", *عامة* "public", *نساء* "women",
     *جامعة* "university", *طائرة* "aeroplane", *جنسية* "nationality", *نظرية* "theory", *معلومات*
     "information"; and *زوجة* "wife" (not *زوج*'s), *بدا* "to seem" (not *بدأ*'s), *تحدث* "to talk" (not
-    *حدث*'s), *لعب* "to play" and *لعبة* "game", *أخبر* "to tell" (not *خبر*'s);
+    *حدث*'s), *لعب* "to play" and *لعبة* "game", *أخبر* "to tell" (not *خبر*'s); *تغير* "to change"
+    (not *غير*'s), *ظلام* "darkness", *حلوى* "sweets", *كريمة* "cream", *السبت* "Saturday" (with *سبت*),
+    *الأربعاء* "Wednesday" (whole), *نادرا* "rarely", *عذرا* "sorry", *تماما*, *قريبا*. *ممثلة* "actress"
+    1953 is still apart from *ممثل*;
   - **homographs**: unvowelled Arabic writes many words alike, and a form counts for every word
     that has it: *علم* "knowledge", "flag", "knew"; *كتب* "wrote" and "books" (*الكتب* counts as the
     verb, so *كتاب* is never taught through it); *ذهب* "went" and "gold"; *عمر* "age" and the name;
