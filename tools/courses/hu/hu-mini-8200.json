@@ -1,0 +1,186 @@
+{
+  "id": "hu-mini-8200",
+  "rankUpTo": 8200,
+  "level": "C2",
+  "title": "Megelőzés és alkalmazkodás",
+  "description": "Ten stories about preparing for weather and change and keeping healthy habits: damp flats, storms on Lake Balaton, heatwaves, smoke alarms, sun protection and life on a farmstead.",
+  "topic": "Prevention and resilience",
+  "names": [
+    "Inka",
+    "Herbert",
+    "Szeged",
+    "Matilda",
+    "Tihany",
+    "Balaton",
+    "Budapest",
+    "Gina",
+    "Ica",
+    "Rubik",
+    "Pécs",
+    "Konrád",
+    "Zsófika",
+    "Ternák",
+    "Andor",
+    "Bede",
+    "Irén",
+    "Debrecen",
+    "Janka",
+    "Mohai",
+    "Rezső",
+    "Johanna",
+    "Kecskemét",
+    "Alföld",
+    "Barcza",
+    "Géza",
+    "Hugó",
+    "Imola",
+    "Portugália",
+    "Lisszabon",
+    "Iglói",
+    "Hedvig",
+    "Kubinyi",
+    "Ambrus",
+    "Kiskunmajsa",
+    "Andrási",
+    "Elza",
+    "Haász",
+    "Emil",
+    "Nyíregyháza",
+    "Zsuzsó"
+  ],
+  "lessons": [
+    {
+      "title": "Penész a matrac alatt",
+      "summary": "Inka and Herbert find mould under their mattress in a ground-floor flat in Szeged, measure the humidity, buy a dehumidifier and change their habits.",
+      "newWords": [
+        "páratartalom",
+        "képződik",
+        "ürít",
+        "precíz",
+        "tartozék",
+        "matrac"
+      ],
+      "text": "Inka és Herbert tavaly ősszel költöztek egy földszinti lakásba Szegeden. A lakás világos és csendes volt, a kert felől friss levegő jött be, és mindketten úgy érezték, jól választottak.\n\nJanuár közepén Inka ágyneműt cserélt a hálószobában. Amikor felemelte a matracot, megállt a keze. A matrac alján szürke és zöld foltok voltak, és a szekrény mögött a fal is elsötétült. Penész.\n\n– Ez nem egyik napról a másikra jelent meg – mondta Herbert, aki mérnökként dolgozott. – Itt már hetek óta valami nincs rendben.\n\nHerbert utánaolvasott a dolognak. Megtudta, hogy penész ott képződik, ahol a meleg, nedves levegő hideg felülethez ér. A földszinti lakások fala télen hideg, a lakás levegőjében pedig sok a pára: a főzés, a zuhanyzás, a ruhák szárítása, sőt maga a lélegzés is nedvességet ad hozzá. Ha a levegő páratartalma tartósan hatvan százalék fölött van, a hideg falakon és a bútorok mögött könnyen penész képződik.\n\nElőször azt akarták tudni, pontosan mekkora a baj. Vettek egy kis mérőt, amely precíz számokat mutatott, nem csak annyit, hogy „száraz” vagy „nedves”. Herbert mindenben a precíz megoldásokat szerette: egy füzetbe reggel és este felírta a páratartalmat. Az első héten a hálószobában a páratartalom hetvenöt százalék volt.\n\nEzután vettek egy párátlanító gépet. A dobozban egy hosszú cső is volt; a leírás szerint ez a gép tartozéka, és ha a gépet a fürdőszobában használják, a víz ezen át egyenesen a lefolyóba folyhat. A hálószobában erre nem volt lehetőség, ezért a víz egy tartályba gyűlt, és a tartályt minden reggel üríteni kellett. Inka eleinte csodálkozott, mennyi víz gyűlik össze egyetlen éjszaka alatt: amikor először ürítette, majdnem két liter folyt a mosdóba. Később megszokta, és a tartályt ugyanúgy ürítette, ahogy a kávét főzte: reggel, gondolkodás nélkül.\n\nA szokásaikon is változtattak. Naponta háromszor tíz percre szélesre nyitották az ablakokat, a szekrényt tíz centivel elhúzták a faltól, a ruhákat pedig a fürdőszobában szárították. A matracot hetente egyszer az oldalára állították, hogy alulról is szellőzzön, a foltokat pedig egy erre való szerrel lemosták.\n\nMárcius végére a mérő ötvenöt százalékot mutatott, és új penész nem képződött. Tavasszal a gépet átvitték a fürdőszobába. Herbert ott végre használni tudta a tartozékát, a csövet, és onnantól a tartályt sem kellett üríteni.\n\nKérdések:\nMit talált Inka, amikor felemelte a matracot?\nA matrac alján szürke és zöld foltokat, penészt talált.\nHol képződik könnyen penész?\nOtt, ahol a meleg, nedves levegő hideg felülethez ér, például a hideg falakon és a bútorok mögött.\nMiért vettek precíz mérőt?\nMert pontosan tudni akarták, mekkora a páratartalom.\nMire való a gép tartozéka, a cső?\nRajta át a víz egyenesen a lefolyóba folyhat, így a tartályt nem kell üríteni.\nMit kellett Inkának minden reggel csinálnia?\nMinden reggel ürítenie kellett a gép tartályát.\nHogyan változtattak a szokásaikon?\nNaponta háromszor szellőztettek, elhúzták a szekrényt a faltól, és nem a hálószobában szárították a ruhákat."
+    },
+    {
+      "title": "Szél a félszigeten",
+      "summary": "Sailing teacher Matilda shows her new student Gina how to read the storm warning lights at Tihany; Gina gets seasick, and they are back in port before the storm.",
+      "newWords": [
+        "szeszélyes",
+        "félsziget",
+        "sirály",
+        "kendő",
+        "sugárzik",
+        "homloka",
+        "hányinger",
+        "háromnegyed"
+      ],
+      "text": "Matilda húsz éve tanít vitorlázni Tihanyban. Kis iskolája a félsziget keleti oldalán van, egy csendes öbölben, ahol reggelente csak a sirályok hangja hallatszik. Matilda szerint a Balaton nem nagy tó, de szeszélyes: egy napsütéses délelőtt után néhány perc alatt erős szél kerekedhet, és a víz egészen más arcát mutatja.\n\nJúliusban új tanítványa érkezett Budapestről, Gina, egy könyvelő, aki egész életében vitorlázni szeretett volna. Az első reggel Matilda nem a hajóhoz vitte, hanem a móló végére.\n\n– Mielőtt vízre szállunk, megtanuljuk figyelni az eget – mondta. – A szeszélyes időt nem lehet megváltoztatni, csak fel lehet rá készülni.\n\nMegmutatta Ginának a túlsó parton álló viharjelző lámpát. Ha percenként 45-ször villan, az az első fok: ilyenkor óvatosnak kell lenni, és a parthoz közel kell maradni. Ha 90-szer, az a második fok: ilyenkor minden kis hajónak ki kell jönnie a vízből. Matilda azt is elmondta, hogy rossz idő előtt a sirályok gyakran a parton gyűlnek össze, de a sirályokra nem szabad úgy hagyatkozni, mint a lámpára.\n\nForró nap volt. A kövekből már délelőtt sugárzott a hő, és a víz fölött remegett a levegő. Matilda fehér kendőt kötött Gina fejére, a saját kendőjét pedig mélyen a homlokára húzta.\n\n– A kendő nem divat – mondta. – A nap a vízről is visszaverődik, így kétszer annyi éri az embert.\n\nDélután kimentek a vízre. Az öbölben kicsik voltak a hullámok, de a félsziget csúcsán túl a hajó már erősebben ringott. Gina egyre sápadtabb lett, és egy idő után bevallotta, hogy hányingere van. Matilda azt mondta neki, nézzen a messzi partra, igyon egy kis vizet, és vegye át a kormányt: aki maga irányítja a hajót, annak ritkábban van hányingere. Gina homlokán izzadságcseppek ültek, de a kormánnyal a kezében tényleg jobban lett.\n\nHáromnegyed négykor Matilda észrevette, hogy a lámpa villogni kezdett. Megszámolta a villanásokat: percenként negyvenöt. Első fok. Megfordították a hajót, és alig húsz perc múlva a mólónál voltak. Mire kikötöttek, a lámpa már gyorsabban villogott, a sirályok a parton ültek, nyugat felől pedig sötét felhők jöttek.\n\nA teraszról nézték a viharos vizet. Gina levette a kendőt, és azt mondta, ma többet tanult, mint egy egész könyvből.\n\nKérdések:\nMiért mondja Matilda, hogy a Balaton szeszélyes?\nMert egy napsütéses délelőtt után néhány perc alatt erős szél kerekedhet.\nMit jelent, ha a lámpa percenként 90-szer villan?\nAz a második fok: minden kis hajónak ki kell jönnie a vízből.\nMi sugárzott a kövekből?\nA kövekből már délelőtt sugárzott a hő.\nMiért kötött Matilda kendőt Gina fejére?\nMert a nap a vízről is visszaverődik, így kétszer annyi éri az embert.\nMit tanácsolt Matilda Ginának a hányinger ellen?\nAzt, hogy nézzen a messzi partra, igyon vizet, és vegye át a kormányt.\nMikor kezdett villogni a lámpa?\nHáromnegyed négykor kezdett villogni."
+    },
+    {
+      "title": "Nagyanyám rejtvényei",
+      "summary": "A grandchild describes how their 81-year-old grandmother keeps her mind fresh with puzzles, a Rubik's cube, quiet and the radio.",
+      "newWords": [
+        "nagyanyám",
+        "rejtvény",
+        "szorgalmas",
+        "kockás",
+        "erkölcs",
+        "hallgatás",
+        "mélységes"
+      ],
+      "text": "Nagyanyám, Ica mama, nyolcvanegy éves, és minden reggel rejtvényt fejt. Nem azért, mert unatkozik. Szerinte a fejnek ugyanúgy kell a mozgás, mint a lábnak, és az orvosa is ezt mondja neki. Ezért a reggeli kávé mellé mindig jut egy rejtvény.\n\nNagyanyám szorgalmas ember. Negyven évig dolgozott könyvelőként, és ma is olyan rendben tartja a dolgait, mint egykor a számlákat. A rejtvényeit egy kockás füzetbe gyűjti: a kockás lapokra maga rajzol új rejtvényeket, a megfejtéseket pedig apró, szép betűkkel írja alájuk. A füzetek a polcon állnak, évek szerint sorban.\n\nA kedvence mégis a Rubik-kocka. Hetvenéves korában kapta tőlem, félig tréfából, és azt hittem, egy hét múlva a fiókba kerül. Nem így lett. Nagyanyám szorgalmasan gyakorolt, könyvből tanulta meg a lépéseket, és ma két perc alatt kirakja a Rubik-kockát. Ha az unokák jönnek, versenyeznek, és ritkán ő veszít.\n\nNála a rejtvényfejtésnek saját erkölcse van. A megfejtést nem szabad hátul megnézni, és aki mégis megnézi, annak be kell vallania.\n\n– A rejtvény erkölcse egyszerű – mondja. – Aki hátul megnézi a megfejtést, az a saját örömét veszi el.\n\nA rejtvényhez csend kell. Ilyenkor nagyanyám a rádiót is kikapcsolja. Szerinte a hallgatás is munka: a fejben ilyenkor rendeződnek el a dolgok. Gyerekként, amikor nála nyaraltam, nehezen bírtam ezt a hosszú hallgatást, ma már értem. Esténként viszont rádiót hallgat, régi dalokat és ismeretterjesztő műsorokat, és a rádió hallgatását is komolyan veszi: közben nem telefonál, és ajtót sem nyit.\n\nTavaly megkérdeztem tőle, mitől maradt ilyen friss a feje. Sokáig gondolkodott. Aztán azt mondta, hogy a rejtvények mellett a napi séta, a jó alvás és a beszélgetés a legfontosabb, és hogy soha nem szabad abbahagyni a tanulást. Az arcán mélységes nyugalom ült, amikor ezt mondta, én pedig mélységes hálát éreztem, hogy ilyen nagyanyám van.\n\nKérdések:\nMit csinál nagyanyám minden reggel?\nNagyanyám minden reggel rejtvényt fejt.\nMiért mondhatjuk, hogy nagyanyám szorgalmas?\nMert rendben tartja a dolgait, és addig gyakorolt, amíg meg nem tanulta kirakni a Rubik-kockát.\nHova gyűjti a rejtvényeit?\nEgy kockás füzetbe gyűjti őket.\nMi a rejtvényfejtés erkölcse nagyanyám szerint?\nAki hátul megnézi a megfejtést, az a saját örömét veszi el.\nMiért fontos neki a hallgatás?\nMert szerinte csendben rendeződnek el a fejben a dolgok.\nMit érzett az unokája, amikor nagyanyám a szokásairól beszélt?\nMélységes hálát érzett, hogy ilyen nagyanyja van."
+    },
+    {
+      "title": "Nyílt nap a tűzoltóságon",
+      "summary": "Konrád takes his daughter Zsófika to a fire station open day in Pécs; she learns about teamwork and smoke alarms and becomes the family's smoke alarm keeper.",
+      "newWords": [
+        "tűzoltóság",
+        "logó",
+        "jelű",
+        "csapatmunka",
+        "elhallgat",
+        "sürget",
+        "felelősségteljes"
+      ],
+      "text": "Pécsen szombaton nyílt napot tartott a tűzoltóság. Konrád elvitte a lányát, a nyolcéves Zsófikát, aki hetek óta erről beszélt.\n\nA kapuban egy magas, nyugodt tűzoltó fogadta őket. Ternák Andornak hívták, és húsz éve dolgozott a tűzoltóságon. Zsófika először a nagy piros autókat nézte meg. Mindegyik oldalán ott volt a tűzoltóság logója: egy piros kör, benne egy láng és egy létra. Az autókon számok is voltak: a 2-es jelű autón volt a hosszú létra, a 3-as jelű pedig a vizet szállította. Zsófika lerajzolta a logót a füzetébe.\n\n– A tűzoltás csapatmunka – mondta Andor. – Egyedül senki sem boldogul. Mindenki tudja a dolgát, és mindenki bízik a másikban.\n\nEzt a gyerekeknek egy játékkal mutatták meg. Négy csapat állt fel, és vödrökben kellett vizet adogatniuk egymásnak egy hordóig. Zsófika csapata először összevissza kapkodott, és a víz fele kifolyt. Másodszorra megbeszélték, ki hol áll, és ők lettek az elsők. Andor nevetve mondta, hogy ez a csapatmunka lényege: nem a leggyorsabb ember nyer, hanem a legjobb csapat.\n\nUtána egy kis házban megmutatták, mit kell tenni, ha otthon füst van. Hirtelen megszólalt a sziréna, és a gyerekek összerezzentek. Amikor a sziréna elhallgatott, Andor halkan magyarázni kezdett. A füst felfelé száll, ezért a padlóhoz közel kell kimenni. A kijáratot a zöld jelű táblák mutatják. A legfontosabb pedig az, hogy mindenki tudja a 112-t.\n\nAndor azt is elmondta, hogy a lakásban a füstjelző a legjobb barát. Ez egy kis eszköz a mennyezeten, amely hangosan sípol, ha füstöt érez. Konrád bevallotta, hogy náluk évek óta nem cserélték benne az elemet. Andor nem szidta meg, csak annyit mondott, hogy a füstjelző csak akkor ér valamit, ha működik.\n\nHazafelé Zsófika sürgetni kezdte az apját, hogy menjenek be a boltba elemért. Konrád azt mondta, ráér holnap is, de Zsófika addig sürgette, amíg be nem mentek.\n\nOtthon Zsófika felállt egy székre, és Konrád segítségével kicserélte az elemet. Megnyomta a gombot: a füstjelző hangosan sípolt, aztán elhallgatott. Zsófika nagyon büszke volt.\n\nAznap este Konrád megtette Zsófikát a család füstjelző-felelősének. Minden hónap első szombatján neki kell megnyomnia a gombot. Zsófika komolyan vette: azt mondta, ez felelősségteljes feladat, mert egy felelősségteljes tűzoltó sem felejt el semmit. A füzetébe, a logó mellé, felírta a következő szombat dátumát.\n\nKérdések:\nHol tartott nyílt napot a tűzoltóság?\nPécsen tartott nyílt napot.\nMi volt a tűzoltóság logóján?\nEgy piros kör, benne egy láng és egy létra.\nMit mutatott meg a játék a vödrökkel?\nAzt, hogy a tűzoltás csapatmunka, és nem a leggyorsabb ember nyer, hanem a legjobb csapat.\nMi történt, amikor a sziréna elhallgatott?\nAndor halkan elmagyarázta, mit kell tenni, ha otthon füst van.\nMiért sürgette Zsófika az apját?\nMert még aznap elemet akart venni a füstjelzőbe.\nMilyen feladatot kapott Zsófika?\nŐ lett a család füstjelző-felelőse, és ezt felelősségteljes feladatnak tartja."
+    },
+    {
+      "title": "Hőség a sugárúton",
+      "summary": "During a heatwave in Debrecen, nurse Janka makes a plan with her 84-year-old neighbour Irén néni, and the local butcher helps with the shopping.",
+      "newWords": [
+        "sugárút",
+        "lenéz",
+        "átível",
+        "akut",
+        "szomszédsága",
+        "hentes",
+        "hazavisz"
+      ],
+      "text": "Júliusban egy hétig harmincöt fok fölött volt a hőmérséklet Debrecenben. Bede Irén néni nyolcvannégy éves, és egy régi ház harmadik emeletén lakik, a város széles sugárútja mellett. Az erkélyéről gyakran lenéz az útra: a villamosokra, a biciklisekre és a platánokra. A fák lombja a sugárút fölött átível, mint egy zöld kapu, és ez az átívelő lomb nyáron hűvös árnyékot ad.\n\nA szomszéd lakásban Janka lakik, egy fiatal ápolónő. A hőség előtti napon a rádió arra figyelmeztetett, hogy az idős emberek kevésbé érzik a szomjúságot, ezért náluk a nagy melegben akut kiszáradás alakulhat ki. Janka a kórházban sokszor látott ilyet. Tudta, hogy az akut kiszáradás gyorsan szédüléshez és zavartsághoz vezethet, ezért átment Irén nénihez.\n\nKözösen tervet készítettek. Irén néni napközben nem megy ki, csak reggel hét előtt és este. A redőnyöket délelőtt leeresztik, és csak este húzzák fel. Az asztalra egy kancsó víz kerül, és Irén néni óránként iszik egy pohárral, akkor is, ha nem szomjas. Janka naponta kétszer becsönget hozzá.\n\n– És a bevásárlás? – kérdezte Irén néni. – A ház szomszédságában csak egy hentes és egy pék van, a piac messze.\n\nJanka lement a henteshez. A hentes, Mohai úr, régóta ismerte Irén nénit. Amikor meghallotta, miről van szó, azt ajánlotta, hogy Irén néni reggelente telefonon adja le a rendelést: ő mindent félretesz, a pékáruval együtt. Janka pedig munka után beugrik a csomagért, és hazaviszi.\n\nÍgy is lett. Irén néni minden reggel felhívta a hentest, délután pedig az erkélyről lenézett a sugárútra, és várta, mikor tűnik fel Janka a fák alatt a kis csomaggal. Janka minden nap hazavitte neki a húst, a kenyeret és egy kis gyümölcsöt, és közben megnézte, ivott-e elég vizet.\n\nA hőség egy hét után megtört. Az első hűvös estén Irén néni pogácsát sütött. Egy tálat átvitt Jankának, a másikat pedig Janka vitte le a henteshez. Mohai úr nevetve mondta, hogy a ház szomszédságában még sosem volt ilyen jó csapat.\n\nKérdések:\nHol lakik Irén néni?\nEgy régi ház harmadik emeletén lakik, a város széles sugárútja mellett.\nMit lát Irén néni a sugárút fölött?\nA platánok lombját, amely átível a sugárút fölött.\nMiért veszélyes a hőség az idős embereknek?\nMert kevésbé érzik a szomjúságot, és akut kiszáradás alakulhat ki náluk.\nMit ajánlott a hentes?\nAzt, hogy Irén néni telefonon adja le a rendelést, ő pedig mindent félretesz.\nKi segít a csomaggal?\nJanka, aki munka után hazaviszi a csomagot Irén néninek.\nMit csinált Irén néni délutánonként az erkélyen?\nLenézett a sugárútra, és várta Jankát."
+    },
+    {
+      "title": "Új élet a tanyán",
+      "summary": "Rezső and Johanna, who met on a dating site, move from Budapest to a farmstead near Kecskemét, keep sheep and learn to live with the land and the weather.",
+      "newWords": [
+        "társkereső",
+        "gyökeres",
+        "juh",
+        "pulcsi",
+        "csípő",
+        "felszabadul"
+      ],
+      "text": "Rezső és Johanna hat éve egy társkereső oldalon ismerkedtek meg. Rezső a bemutatkozásában azt írta, hogy egyszer tanyán szeretne élni, állatok között, csendben. Johanna később bevallotta, hogy az egész társkeresőn ez a mondat tetszett neki a legjobban.\n\nTavaly tavasszal megtették a lépést: eladták a lakásukat Budapesten, és vettek egy tanyát Kecskemét mellett. A változás gyökeres volt. Rezső addig egy irodában ült, Johanna egy áruházat vezetett; most egyszerre kellett megtanulniuk a kertet, az állatokat és a tanyán mindig akadó javításokat. Nem csak a munkájuk változott meg gyökeresen, hanem a napjaik ritmusa is: hajnalban keltek, és este kilenckor már aludtak.\n\nTizenkét juhot vettek a szomszéd gazdától, Barcza Gézától. Géza bácsi az első héten mindennap átjött, és megmutatta, hogyan kell a juhokat etetni, itatni és a karámban tartani. Azt is elmagyarázta, hogy a juhokat május elején meg kell nyírni, különben a vastag gyapjú miatt rosszul bírják a nyári hőséget.\n\nAz Alföldön a nyári hajnal is hűvös. Rezső reggelente vastag pulcsiban ment ki az állatokhoz, délre pedig már pólóban izzadt.\n\n– A pulcsi itt a legjobb barátod – mondta neki Géza bácsi. – Reggel felveszed, délben leveszed, este megint felveszed.\n\nJúniusban Johanna csípője fájni kezdett. Kiderült, hogy rosszul emeli a nehéz szénabálákat: derékból hajol le, és csípőből fordul el, miközben a bála a kezében van. Géza bácsi megmutatta, hogyan kell: a térdét behajlítani, a bálát a testhez közel tartani, és fordulás helyett lépni egyet. Johanna két hétig figyelt minden mozdulatára, és a csípője rendbe jött.\n\nAz első ősszel egy este Johanna a kerítésnek dőlve nézte, ahogy a juhok hazaindulnak a legelőről. Rezső mellé állt, és megkérdezte, mi jár a fejében. Johanna nevetett. Azt mondta, úgy érzi, valami felszabadult benne. Évekig a határidők és a táblázatok kötötték meg, és most, a tanyán, mintha az egész teste felszabadult volna. Rezső bólintott, és ő is nevetett. Aztán bementek, mert hűvös lett, és mindketten pulcsit vettek.\n\nKérdések:\nHol ismerkedtek meg Rezső és Johanna?\nEgy társkereső oldalon ismerkedtek meg hat éve.\nMiért volt gyökeres a változás?\nMert az irodából és az áruházból egy tanyára költöztek, ahol a munkájuk és a napjaik ritmusa is megváltozott.\nMiért kell a juhokat május elején megnyírni?\nMert a vastag gyapjú miatt rosszul bírják a nyári hőséget.\nMiért ment ki Rezső reggelente pulcsiban?\nMert az Alföldön a nyári hajnal is hűvös.\nMitől kezdett fájni Johanna csípője?\nAttól, hogy rosszul emelte a szénabálákat, és csípőből fordult el.\nMit érzett Johanna az első ősszel?\nÚgy érezte, hogy valami felszabadult benne."
+    },
+    {
+      "title": "Két kártya a nászútra",
+      "summary": "Before their honeymoon in Portugal, Imola talks Hugó into taking a second bank card and travel insurance; in Lisbon the second card saves the day.",
+      "newWords": [
+        "nászút",
+        "bankkártya",
+        "érvel",
+        "félbeszakít",
+        "másfelől",
+        "rábeszél",
+        "rubin"
+      ],
+      "text": "Hugó és Imola májusban házasodtak össze, és két hétre Portugáliába készültek nászútra. Imola mindent előre megtervezett: a szállásokat, a vonatjegyeket és egy listát arról, mit kell bepakolni. A lista végén ez állt: „Két bankkártya, két külön bankból.”\n\nHugó elolvasta, és nevetett.\n\n– Minek két bankkártya? Egy kártyával is mindent ki tudunk fizetni.\n\nImola elmagyarázta, hogy külföldön a bank néha letilt egy kártyát, ha szokatlan helyen használják. Ilyenkor a bank a tulajdonost védi, de ha éppen hétvége van, napokig is eltarthat, mire a kártya újra működik.\n\nHugó ezt túlzásnak tartotta. Hosszan érvelt amellett, hogy ma már mindenhol el lehet érni a bankot telefonon, és hogy egy második kártya csak plusz költség. Imola egy darabig hallgatta, aztán félbeszakította.\n\n– Ne haragudj, hogy félbeszakítalak – mondta. – Lehet, hogy igazad van. Másfelől nászút csak egyszer van az életben, és én nem szeretnék egy idegen városban a bank ügyfélszolgálatát hívogatni.\n\nHugó még próbált érvelni, de Imola ugyanolyan nyugodtan válaszolt minden mondatára, és végül rábeszélte, hogy nyisson számlát egy másik banknál is. Ugyanígy rábeszélte az utasbiztosításra is. Hugó nevetve mondta, hogy Imola bárkit bármire rábeszél.\n\nEgy dolgot viszont Hugó szeretett volna. Imola a nagyanyjától kapott egy régi gyűrűt egy kis rubinnal, és Hugó azt szerette volna, ha a nászúton viseli. Imola sokáig gondolkodott. Egyfelől a gyűrű a család emléke volt, és szépen mutatott volna a fényképeken. Másfelől félt, hogy a strandon vagy egy vonaton leveszi és elveszíti. Végül a rubin otthon maradt egy dobozban, és Imola egy egyszerű ezüstgyűrűt vitt magával.\n\nLisszabonban, a harmadik napon, egy étteremben Hugó kártyáját nem fogadta el a gép. Hugó próbálta hívni a bankot, de vasárnap volt, és a telefonban egy gépi hang csak azt ismételte, hogy hétfőn hívja újra. Hugó egy pillanatig hallgatott, aztán Imolára nézett. Imola szó nélkül elővette a második bankkártyát.\n\nHétfőn kiderült, hogy a bank csak óvatosságból tiltotta le Hugó kártyáját, és délutánra minden rendeződött. Este, a tengerparton, Hugó azt mondta, hogy legközelebb nem fog ilyen sokáig érvelni.\n\nKérdések:\nHova készültek Hugó és Imola nászútra?\nPortugáliába készültek nászútra.\nMiért akart Imola két bankkártyát?\nMert külföldön a bank néha letilt egy kártyát, és hétvégén napokig is eltarthat, mire újra működik.\nHogyan érvelt Hugó?\nAzzal érvelt, hogy a bankot ma már mindenhol el lehet érni, és a második kártya csak plusz költség.\nMire beszélte rá Imola Hugót?\nRábeszélte, hogy nyisson számlát egy másik banknál is, és kössenek utasbiztosítást.\nMiért maradt otthon a rubin?\nMert Imola félt, hogy a strandon vagy egy vonaton elveszíti.\nMi történt Lisszabonban a harmadik napon?\nEgy étteremben Hugó kártyáját nem fogadta el a gép, de Imola elővette a második bankkártyát."
+    },
+    {
+      "title": "Ráncok és napfény",
+      "summary": "A local newspaper interviews dermatologist dr. Iglói Hedvig about wrinkles, sun protection, skin care and yearly check-ups.",
+      "newWords": [
+        "ránc",
+        "felismerés",
+        "megrázó",
+        "ápolás",
+        "kontroll"
+      ],
+      "text": "A nyár elején a helyi újság interjút készített dr. Iglói Hedvig bőrgyógyásszal arról, hogyan védhetjük meg a bőrünket a naptól.\n\n– Doktornő, sokan azt gondolják, hogy a ráncok egyszerűen a korral jönnek. Így van?\n\n– Részben. A ráncok egy része valóban az évekkel jár. A nagyobb részükért azonban a napfény felel. A nap sugarai lassan gyengítik a bőr rugalmas rostjait, és ez sok év után látszik meg. Sok páciensem számára megrázó felismerés, hogy a ráncaik nagy részét a strandon és a kertben töltött órák okozták.\n\n– Miért megrázó?\n\n– Mert addig azt hitték, hogy a ráncok ellen nem lehet mit tenni. Ilyenkor megmutatom nekik a karjuk belső oldalát, amelyet ritkán ér nap, és összehasonlítjuk a kézfejükkel. A különbség sokakat megráz. Ez a felismerés azonban jó hír is: ami a naptól van, annak a nagy része megelőzhető.\n\n– Mit javasol?\n\n– Három egyszerű szokást. Az első a fényvédő krém, minden nap, nem csak a strandon, mert felhős időben is ér minket napfény. A második a kalap és az árnyék, különösen délelőtt tizenegy és délután három között. A harmadik a bőr rendszeres ápolása: a hidratálás és a kíméletes tisztítás. Az ápolás nem luxus, hanem a bőr védelme.\n\n– Hány éves kortól érdemes figyelni?\n\n– Gyerekkortól. A gyerekbőr érzékeny, és amit gyerekként kap, azt a bőr megjegyzi. Ezért nálam a kis páciensek szülei is kapnak egy rövid tájékoztatót a bőr ápolásáról.\n\n– És a rendszeres kontroll?\n\n– Az is fontos. Évente egyszer érdemes elmenni egy bőrgyógyászhoz kontrollra, különösen annak, akinek sok anyajegye van. A kontroll néhány perc: megnézzük az anyajegyeket, és ha valami megváltozott, időben észrevesszük. A legtöbbször minden rendben van, és a páciens megnyugodva megy haza.\n\n– Végül: lehet tenni valamit a meglévő ráncokkal?\n\n– Eltüntetni nem lehet őket, de a bőr állapota sokat javulhat. Aki kerüli a tűző napot, sok vizet iszik és jól alszik, annak a bőre egy-két év alatt üdébb lesz. A legfontosabb felismerés talán ez: soha nem késő elkezdeni.\n\nKérdések:\nMi felel a ráncok nagyobb részéért a doktornő szerint?\nA napfény felel a ráncok nagyobb részéért.\nMilyen felismerés megrázó sok páciens számára?\nAz, hogy a ráncaik nagy részét a napon töltött órák okozták.\nMit javasol a doktornő a megelőzésre?\nA napi fényvédő krémet, a kalapot és az árnyékot, valamint a bőr rendszeres ápolását.\nMiért kell már gyerekkortól figyelni?\nMert a gyerekbőr érzékeny, és amit gyerekként kap, azt megjegyzi.\nMilyen gyakran érdemes kontrollra menni?\nÉvente egyszer érdemes elmenni egy bőrgyógyászhoz kontrollra.\nMi a doktornő legfontosabb felismerése?\nAz, hogy soha nem késő elkezdeni."
+    },
+    {
+      "title": "Esővíz a közlönyben",
+      "summary": "Kubinyi Ambrus, editor of a village bulletin near Kiskunmajsa, publishes an article on collecting rainwater during summer water shortages and corrects a wrong figure.",
+      "newWords": [
+        "közlöny",
+        "időszakos",
+        "részesedés",
+        "kijavít",
+        "úgyszintén"
+      ],
+      "text": "Kubinyi Ambrus nyugdíjas tanár, és tíz éve ő a szerkesztője egy Kiskunmajsa melletti kis falu közlönyének. A közlöny havonta egyszer jelenik meg, négy oldalon, és minden házba eljut. Van benne orvosi rendelési idő, egy recept, a szemét elszállításának napjai, és mindig egy hosszabb cikk arról, ami a falut éppen foglalkoztatja.\n\nAz utóbbi nyarakon ez a téma a víz volt. A falu kútjaiban évről évre mélyebben van a víz, és a forró hetekben időszakos vízhiány van: ilyenkor tilos este vizet használni a kertben. Ez a tilalom időszakos, csak néhány hétig tart, de a kertek ilyenkor nagyon szenvednek.\n\nAmbrus ezért tavasszal megkérte a falu kertészeinek egyesületét, hogy írjanak a közlönybe arról, hogyan lehet összegyűjteni az eső vizét. A cikk elmagyarázta, hogy egy átlagos ház tetejéről egy nagyobb nyári eső alatt több száz liter víz folyik le, és ezt egy egyszerű hordóval fel lehet fogni. Azt is leírta, hogy a hordóban gyűjtött víz a növényeknek jobb, mint a csapból folyó víz.\n\nA cikk mellé Ambrus egy kis táblázatot is tett. Ebből kiderült, hogy az egyesület tagjainál a hordóban gyűjtött víz részesedése a kertekre használt vízben két év alatt tíz százalékról negyven százalékra nőtt. A számot sokan idézték, és többen Ambrustól kérdezték meg, hogyan kezdjenek hozzá.\n\nA következő héten azonban felhívta az egyesület vezetője, Andrási Elza. Elmondta, hogy a táblázatban hiba van: ő maga számolt rosszul, és a valódi részesedés nem negyven, hanem harmincöt százalék. Ambrus megköszönte a hívást, és megígérte, hogy a következő számban kijavítja a hibát.\n\n– Köszönöm, hogy ilyen gyorsan reagált. Szép estét! – mondta Elza.\n\n– Úgyszintén! – felelte Ambrus.\n\nA következő számban, a második oldalon, egy rövid szöveg jelent meg: „Előző számunkban hibás adat szerepelt. A hordóban gyűjtött víz részesedése az egyesület tagjainál nem negyven, hanem harmincöt százalék. A hibát ezúton kijavítjuk, és elnézést kérünk olvasóinktól. Úgyszintén kérjük, hogy aki hordót szeretne, jelentkezzen az egyesületnél.”\n\nAmbrus úgy gondolta, hogy egy kis falu közlönyének ugyanolyan pontosnak kell lennie, mint egy nagy újságnak. Azon a nyáron 42 család tett hordót a ház sarkára, és az időszakos vízhiány alatt a kertek többsége zöld maradt.\n\nKérdések:\nMi van Ambrus közlönyében?\nOrvosi rendelési idő, egy recept, a szemét elszállításának napjai és mindig egy hosszabb cikk.\nMiért volt a víz a téma az utóbbi nyarakon?\nMert a forró hetekben időszakos vízhiány van, és a kertek szenvednek.\nMit írt a cikk a növényekről?\nMert a hordóban gyűjtött esővíz jobb nekik, mint a csapból folyó víz.\nMi volt a hiba a táblázatban?\nA gyűjtött víz részesedése nem negyven, hanem harmincöt százalék volt.\nHogyan javította ki Ambrus a hibát?\nA következő számban egy rövid szövegben kijavította az adatot, és elnézést kért.\nMit felelt Ambrus, amikor Elza szép estét kívánt?\nAzt felelte: „Úgyszintén!”"
+    },
+    {
+      "title": "Jég a párducoknak",
+      "summary": "Zoo keeper Haász Emil and ten-year-old camper Zsuzsó look after panthers and ponies in Nyíregyháza during a hot summer week.",
+      "newWords": [
+        "hangú",
+        "párduc",
+        "karcol",
+        "póni",
+        "kedvesség"
+      ],
+      "text": "Haász Emil 15 éve gondozó Nyíregyházán, az állatkertben. Mély hangú, nyugodt ember, aki sosem kiabál, és az állatok is ismerik a hangját. Nyáron az állatkert táborának résztvevői is mellette tanulnak, és idén egy 10 éves kislány, Zsuzsó került hozzá egy hétre.\n\nHétfőn reggel a párducokhoz mentek. Az előrejelzés hőséget ígért, ezért Emil előző este vödrökben vizet fagyasztott meg, és a vízbe húst tett. Reggel kiborította a jeget a vödrökből, és amikor bevitték a párducokhoz, a két párduc azonnal odament. Órákig foglalkoztak velük, és közben a jég hűtötte őket.\n\n– Így a párducok nemcsak esznek, hanem dolgoznak is az ételért – mondta Emil. – A melegben ez sokkal jobb nekik, mint ha csak egy tálban kapnák a húst.\n\nZsuzsó észrevette, hogy egy vastag fa törzsén mély csíkok vannak. Emil elmondta, hogy a párduc a karmaival karcolja a fát. Így tartja rendben a karmait, és így jelzi, hogy ez az ő helye. A sok karcolás után a fa elkopik, ezért a gondozók évente új törzset tesznek be. Zsuzsó megérintette a régi törzset, és megszámolta rajta a karcolt csíkokat: 32 volt.\n\nKedden a pónikhoz mentek. A pónik tavasszal levetik vastag téli szőrüket, de a nyári hőségben így is melegük van. Emil megmutatta Zsuzsónak, hogyan kell egy póni szőrét rendbe tenni, és hogyan kell ellenőrizni, van-e elég friss víz a pónik mellett. Az egyik, egy kis barna póni, mindenhová követte Zsuzsót.\n\nDélután egy család a kerítésnél kenyeret kezdett dobálni a pónik elé. Emil odament hozzájuk, és nyugodt hangon elmagyarázta, hogy a kenyér a pónik gyomrának árt.\n\n– Tudom, hogy ez kedvesség akart lenni – mondta. – De az állatokhoz a legnagyobb kedvesség az, ha nem etetjük őket.\n\nA család megértette, és a gyerekek inkább lerajzolták a pónikat. Az apa megköszönte Emil kedvességét, mert nem kiabált velük, csak elmagyarázta, miért nem szabad.\n\nPénteken Zsuzsó a tábori naplójába írta, hogy legközelebb ő is gondozó szeretne lenni, és ő is olyan nyugodt hangú, mint Emil.\n\nKérdések:\nMilyen ember Haász Emil?\nMély hangú, nyugodt ember, aki sosem kiabál.\nMit készített Emil a párducoknak a hőség előtt?\nVödrökben vizet fagyasztott meg, és a jégbe húst tett.\nMiért karcolja a párduc a fát?\nÍgy tartja rendben a karmait, és így jelzi, hogy ez az ő helye.\nMit tanult Zsuzsó a pónik mellett?\nMegtanulta, hogyan kell egy póni szőrét rendbe tenni, és hogyan kell ellenőrizni, van-e elég víz.\nMi a legnagyobb kedvesség az állatokhoz Emil szerint?\nAz, ha nem etetjük őket.\nMit írt Zsuzsó a naplójába?\nAzt, hogy legközelebb ő is gondozó szeretne lenni, és ő is olyan nyugodt hangú, mint Emil."
+    }
+  ]
+}
