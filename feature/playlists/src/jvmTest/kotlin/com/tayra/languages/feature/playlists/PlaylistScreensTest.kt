@@ -18,6 +18,7 @@ import kotlinx.coroutines.runBlocking
 import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertNull
+import kotlin.test.assertTrue
 import kotlin.time.Clock
 
 /** The playlists, making one, and a playlist's own page, as the screens show them. */
@@ -143,8 +144,13 @@ class PlaylistScreensTest {
 
         val items = runBlocking { data.service.playlist(morning)!!.items }
         onNodeWithTag("item-menu-${items[0].id}").performClick()
+        // Playing a text is the row's own button, not a menu item.
+        assertTrue(onAllNodes(hasText("Play from here")).fetchSemanticsNodes().isEmpty())
         onNodeWithText("Move down").performClick()
         waitUntil(timeoutMillis = 5_000) { runBlocking { data.service.playlist(morning)!!.items.map { it.id } } == listOf(items[1].id, items[0].id) + items.drop(2).map { it.id } }
+
+        onNodeWithTag("play-item-${items[2].id}").performClick()
+        waitUntil(timeoutMillis = 5_000) { data.player.state.value.let { it.playlist?.id == morning && it.itemId == items[2].id } }
 
         onNodeWithTag("delete-playlist").performClick()
         onNodeWithTag("delete-playlist-dialog").assertExists()

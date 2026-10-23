@@ -40,6 +40,7 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.tayra.languages.core.domain.playlists.Playlist
 import com.tayra.languages.core.domain.playlists.PlaylistItem
 import com.tayra.languages.core.ui.components.AppDivider
+import com.tayra.languages.core.ui.components.AppIconButton
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppMenuItem
 import com.tayra.languages.core.ui.components.AppTopBar
@@ -222,10 +223,12 @@ private fun Texts(state: PlaylistDetailUiState, playlist: Playlist, viewModel: P
                 index,
                 playlist.items.size,
                 current = item.id == current,
+                playing = item.id == current && state.isLoaded && state.player.isPlaying,
                 time = listeningTime(state.durations[item.id] ?: kotlin.time.Duration.ZERO),
                 handle = handle,
                 dragging = dragging,
                 onPlay = { viewModel.play(itemId = item.id) },
+                onPause = viewModel::pause,
                 onRead = { onNavigate(Route.Read(item.bookId)) },
                 onMove = { to -> viewModel.move(item.id, to) },
                 onRemove = { viewModel.remove(item.id) },
@@ -241,10 +244,13 @@ internal fun ItemRow(
     index: Int,
     count: Int,
     current: Boolean,
+    /** Whether this is the text the player is reading out now. */
+    playing: Boolean,
     time: String,
     handle: Modifier,
     dragging: Boolean,
     onPlay: () -> Unit,
+    onPause: () -> Unit,
     onRead: () -> Unit,
     onMove: (Int) -> Unit,
     onRemove: () -> Unit,
@@ -283,8 +289,14 @@ internal fun ItemRow(
                 if (item.finished) Icon(AppIcons.DoneAll, contentDescription = tr("Heard to the end"), tint = AppAccents.green, modifier = Modifier.size(AppSizes.icon))
             }
         }
+        AppIconButton(
+            if (playing) AppIcons.Pause else AppIcons.PlayArrow,
+            contentDescription = if (playing) tr("Pause") else tr("Play"),
+            onClick = if (playing) onPause else onPlay,
+            tint = colors.primary,
+            modifier = Modifier.testTag("play-item-${item.id}"),
+        )
         OverflowMenu(tr("More actions"), buttonModifier = Modifier.testTag("item-menu-${item.id}")) { close ->
-            AppMenuItem(text = { Text(tr("Play from here")) }, onClick = { close(); onPlay() })
             AppMenuItem(text = { Text(tr("Open in the reader")) }, onClick = { close(); onRead() })
             AppMenuItem(text = { Text(tr("Move up")) }, onClick = { close(); onMove(index - 1) }, enabled = index > 0)
             AppMenuItem(text = { Text(tr("Move down")) }, onClick = { close(); onMove(index + 1) }, enabled = index < count - 1)

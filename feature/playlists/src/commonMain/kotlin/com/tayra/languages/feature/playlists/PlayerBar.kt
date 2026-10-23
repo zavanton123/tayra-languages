@@ -113,7 +113,6 @@ private fun WideBar(state: PlayerUiState, viewModel: PlayerViewModel, onNavigate
         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
             NowPlayingTitle(state, Modifier.weight(1f), onOpen = if (onPlayerScreen) null else { { onNavigate(Route.Player) } })
             PlayerControls(state, viewModel, Modifier.weight(2.2f), wide = true)
-            if (!onPlayerScreen) AppIconButton(AppIcons.QueueMusic, contentDescription = tr("Open the player"), onClick = { onNavigate(Route.Player) }, style = IconButtonStyle.Outlined, modifier = Modifier.testTag("open-player"))
             CloseButton(viewModel)
         }
     }
