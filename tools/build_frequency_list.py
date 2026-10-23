@@ -1323,6 +1323,50 @@ def english_share(form):
     return wordfreq.word_frequency(form, "en")
 
 
+# Galician joins a verb's pronouns to its end (díxolle, chámase, vémonos, fíxeno, facelo, déuno), and the pack lists
+# few such forms: the checker (check_course.py's galician_clitics) cuts them by the same rules.
+GALICIAN_PRONOUNS = ("me", "te", "che", "lle", "lles", "nos", "vos", "se", "o", "a", "os", "as", "lo", "la", "los", "las",
+                     "no", "na", "nas", "mo", "ma", "mos", "mas", "cho", "cha", "chos", "chas", "llo", "lla", "llos", "llas",
+                     "llelo", "llela", "llelos", "llelas", "nolo", "nola", "nolos", "nolas", "volo", "vola", "volos", "volas")
+GALICIAN_ENDINGS = sorted(set(GALICIAN_PRONOUNS) | {"se" + p for p in GALICIAN_PRONOUNS if p != "se"}, key=lambda p: (-len(p), p))
+GALICIAN_INFINITIVES = ("ar", "er", "ir", "ír", "ór")
+GALICIAN_VOWELS = "aeiouáéíóú"
+GALICIAN_UNACCENTED = str.maketrans("áéíóú", "aeiou")
+
+
+def galician_infinitive(word):
+    """Whether a word ends as a Galician infinitive does: falar, saír, pór, and supor, but not the preposition por."""
+    return word.endswith(GALICIAN_INFINITIVES) or word.endswith("por") and len(word) > 3
+
+
+def galician_joined(form, verb_of, count):
+    """
+    The verb a Galician form is, with pronouns joined to it (díxolle: dicir; chámase: chamar; facelo: facer; vémonos:
+    ver), or None; [verb_of] gives the verbs a form without pronouns is a form of. The verb's form alone must be the
+    commoner, so a noun that looks so is no verb (crime is no cri + me, debate no deba + te, video no vide + o).
+    """
+    for ending in GALICIAN_ENDINGS:
+        if not form.endswith(ending) or len(form) <= len(ending) + 1:
+            continue
+        stem = form[: -len(ending)]
+        last = ending[2:] if ending.startswith("se") and ending != "se" else ending
+        diphthong = stem[-1] in "iu" and len(stem) > 1 and stem[-2] in GALICIAN_VOWELS
+        bases = [stem, stem.translate(GALICIAN_UNACCENTED)]
+        candidates = bases
+        if last in ("lo", "la", "los", "las"):
+            candidates = [base + end for base in bases for end in ("r", "s")]
+        elif last in ("no", "na", "nas") and not diphthong:
+            continue
+        elif last in ("o", "a", "os", "as") and (stem.endswith(("r", "s")) or diphthong):
+            continue
+        if last == "nos" and stem.endswith(("mo", "mó")):
+            candidates = candidates + [base + "s" for base in bases]
+        for candidate in candidates:
+            if verb_of(candidate) and count(candidate) >= count(form):
+                return verb_of(candidate)
+    return None
+
+
 def normalise(language, form):
     """A form as the reader writes it: Romanian text has ş, ţ turned into ș, ț."""
     if language == "ro":
@@ -2119,6 +2163,11 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
                     return {l: w / sum(weights.values()) for l, w in weights.items()}
         return None
 
+    def galician_verb(form):
+        """The commonest verb a Galician form is a form of (or is), or None."""
+        verbs = [l for l in ([form] if form in pos else []) + lemmas.get(form, []) if galician_infinitive(l) and is_word(l)]
+        return max(verbs, key=count) if verbs else None
+
     def direct(form):
         """The words a form's count goes to, with their shares, before following words that are forms themselves."""
         compared = False
@@ -2173,6 +2222,16 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
                 if verbs:
                     weights = {v: count(v) or 1e-12 for v in verbs}
                     return {v: w / sum(weights.values()) for v, w in weights.items()}
+            if not known and language == "gl" and not guess(form):
+                # A verb with its pronouns joined (díxolle, chámase) is the verb's, unless simplemma knows the word (dano
+                # "harm", not dan + o); an adverb in -mente the pack lacks (realmente, seguramente) is a word of its own,
+                # made from an adjective (real, seguro), when written as the norm writes it, unaccented (not básicamente).
+                verb = galician_joined(form, galician_verb, count)
+                if verb:
+                    return {verb: 1.0}
+                if form.endswith("mente") and len(form) > 8 and not set(form) & set("áéíóú") and any(
+                        s in lemmas or s in pos or count(s) for s in (form[:-5], form[:-6] + "o")):
+                    return {form: 1.0}
             if not known:
                 word = guess(form)
                 return {word: 1.0} if word else {}
