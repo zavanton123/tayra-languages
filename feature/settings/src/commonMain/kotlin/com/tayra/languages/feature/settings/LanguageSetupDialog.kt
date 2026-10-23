@@ -52,7 +52,6 @@ import com.tayra.languages.core.ui.components.AppIconButton
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppSpinner
 import com.tayra.languages.core.ui.components.AppTriStateCheckbox
-import com.tayra.languages.core.ui.components.ButtonSize
 import com.tayra.languages.core.ui.components.IconButtonStyle
 import com.tayra.languages.core.ui.components.IconTile
 import com.tayra.languages.core.ui.components.PrimaryButton
@@ -186,8 +185,8 @@ internal fun PhoneSetupSheet(
     val colors = MaterialTheme.colorScheme
     val items = state.items
     AppBottomSheet(onDismissRequest = onClosed, modifier = Modifier.testTag("language-setup")) {
-        // The list gives way, so the buttons below it stay on screen however long it is.
-        Column(Modifier.weight(1f, fill = false).padding(horizontal = AppSpacing.l)) {
+        // Everything above the buttons scrolls as one, so the buttons stay on screen at their size however long the list is.
+        ScrollColumn(Modifier.weight(1f, fill = false), contentModifier = Modifier.padding(horizontal = AppSpacing.l)) {
             Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.End) {
                 AppIconButton(
                     Icons.Default.Close,
@@ -217,9 +216,9 @@ internal fun PhoneSetupSheet(
             Spacer(Modifier.height(AppSpacing.l))
             if (items == null) {
                 Box(Modifier.fillMaxWidth().heightIn(min = LOADING_HEIGHT), contentAlignment = Alignment.Center) { AppSpinner(size = SpinnerSize.Large) }
-                return@Column
+                return@ScrollColumn
             }
-            ScrollColumn(Modifier.weight(1f, fill = false), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+            Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
                 setupGroups(items).forEach { group ->
                     val item = group.first()
                     if (item.kind == SetupKind.VOICE && item.engine != null) {
@@ -237,6 +236,15 @@ internal fun PhoneSetupSheet(
         val chosen = items?.filter { it.id in state.selected }.orEmpty()
         val running = state.started && chosen.any { progress[it.id].let { p -> p == null || p is SetupState.Waiting || p is SetupState.Running } }
         val failed = state.started && !running && chosen.any { progress[it.id] is SetupState.Failed }
+        // What is chosen sits on a line of its own, so the buttons below it keep their natural size.
+        if (items != null && !state.started && items.any { it.status == SetupStatus.MISSING }) {
+            Text(
+                listOfNotNull(trPlural(chosen.size, "{0} download selected", "{0} downloads selected"), totalSize(chosen)).joinToString(" · "),
+                Modifier.fillMaxWidth().padding(start = AppSpacing.l, end = AppSpacing.l, top = AppSpacing.m),
+                style = MaterialTheme.typography.bodyMedium,
+                color = colors.onSurfaceVariant,
+            )
+        }
         Row(Modifier.fillMaxWidth().padding(horizontal = AppSpacing.l, vertical = AppSpacing.m), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
             when {
                 items != null && items.none { it.status == SetupStatus.MISSING } -> {
@@ -244,21 +252,13 @@ internal fun PhoneSetupSheet(
                     PrimaryButton(onClick = onClosed, modifier = Modifier.testTag("setup-done")) { Text(tr("Done")) }
                 }
                 !state.started -> {
-                    // What is chosen, and the way out, stacked at the start; the download button takes the rest.
-                    Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.xxs)) {
-                        Text(
-                            listOfNotNull(trPlural(chosen.size, "{0} download selected", "{0} downloads selected"), totalSize(chosen)).joinToString(" · "),
-                            style = MaterialTheme.typography.bodyMedium,
-                            color = colors.onSurfaceVariant,
-                        )
-                        QuietButton(onClick = onClosed, size = ButtonSize.Compact) { Text(tr("Set up later"), style = MaterialTheme.typography.titleMedium) }
-                    }
+                    QuietButton(onClick = onClosed) { Text(tr("Set up later"), style = MaterialTheme.typography.titleMedium) }
+                    Spacer(Modifier.weight(1f))
                     PrimaryButton(
                         tr("Download selected"),
                         onClick = onStart,
-                        modifier = Modifier.weight(1f).testTag("setup-download"),
+                        modifier = Modifier.testTag("setup-download"),
                         enabled = chosen.isNotEmpty(),
-                        size = ButtonSize.Large,
                     )
                 }
                 else -> {
