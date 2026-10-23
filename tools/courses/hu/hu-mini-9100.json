@@ -1,0 +1,188 @@
+{
+  "id": "hu-mini-9100",
+  "rankUpTo": 9100,
+  "level": "C2",
+  "title": "Kémia és anyagok",
+  "description": "Ten stories about the chemistry of everyday materials: plaster, cooking, asphalt, shampoo, static electricity, insulin, henna, sails, a chemistry interpreter's work and the scents of an arboretum.",
+  "topic": "Chemistry and materials",
+  "names": [
+    "Sárközi",
+    "Boldizsár",
+    "Hermina",
+    "Pest",
+    "Szilágyi",
+    "Mirjam",
+    "Teodor",
+    "Szeged",
+    "Kispest",
+    "Bodnár",
+    "Ernesztina",
+    "Debrecen",
+    "Halasi",
+    "Patrik",
+    "Horváth",
+    "Olga",
+    "Zente",
+    "Gaál",
+    "Teofil",
+    "Lénárd",
+    "Klaudia",
+    "Rácz",
+    "Ramóna",
+    "Balaton",
+    "Pécs",
+    "Mátyás",
+    "Balatonfüred",
+    "Pálma",
+    "Szalay",
+    "Borbála",
+    "Budapest",
+    "Tímea",
+    "Morzsa",
+    "Vácrátót",
+    "Vác"
+  ],
+  "lessons": [
+    {
+      "title": "Gipsz a mennyezeten",
+      "summary": "A plasterer, Boldizsár, takes on the repair of a cracked plaster rose on the ceiling of Hermina's old Pest flat and explains how gypsum sets.",
+      "newWords": [
+        "gipsz",
+        "mennyezet",
+        "léc",
+        "reszel",
+        "térdel",
+        "elvállal",
+        "nehézkes",
+        "hátrafelé"
+      ],
+      "text": "Sárközi Boldizsár harminc éve javít régi mennyezeteket Pest régi bérházaiban. Amikor Hermina felhívta, hogy a nemrég vásárolt lakásában megrepedt a díszítés a mennyezet közepén, Boldizsár először csak megnézni ment el. A munkát azonban ott helyben elvállalta, pedig látta, hogy nem lesz egyszerű.\n\n– Ez a ház 1890 körül épült – mondta, és felnézett a mennyezetre. – Akkor még minden díszt gipszből öntöttek.\n\nA mennyezet közepén egy nagy gipszrózsa volt, abból lógott le a lámpa. A rózsa egyik levele letört, és a széle mentén hosszú repedés futott.\n\nHermina megkérdezte, mi tartja odafent a gipszet. Boldizsár elmagyarázta, hogy a régi mennyezetek alatt keskeny fa lécek futnak. A léceket kis résekkel szögezték fel egymás mellé, és a friss gipsz ezekbe a résekbe nyomódott be. Amikor megkeményedett, a lécekbe kapaszkodott. Ha egy léc elmozdul, a gipsz megreped.\n\nMásnap állványt állított fel a szobában. Hermina az ajtóból figyelte, ahogy fehér port szór egy vödör vízbe.\n\n– A gipsz tulajdonképpen kő – mondta Boldizsár. – Olyan kő, amely vizet is tartalmaz. Amikor kiégetik, elveszíti a vize nagy részét, és porrá törik. Ha újra vizet adok hozzá, visszaköti a vizet, és apró, hosszú kristályok nőnek benne. A kristályok egymásba kapaszkodnak, és a sűrű, fehér masszából néhány perc alatt megint kő lesz.\n\nHermina megérintette a vödör oldalát. Langyos volt.\n\n– Ez a reakció hője – mondta Boldizsár. – A gipsz kötés közben melegszik.\n\nA hiányzó levélhez a megmaradt levelekről gumiból formát készített, abba öntötte a friss gipszet, és megvárta, amíg megköt. Aztán a padlón térdelve, egy régi újságon reszelte simára az új levél széleit. Finom fehér por szállt fel.\n\n– Régen ez sokkal nehézkesebb volt – mondta, miközben reszelt. – A mesterek kézzel faragták ki a leveleket, napokig dolgoztak egyen. A forma gyorsabb, de a reszelést ma sem lehet megúszni.\n\nDélután felmászott az állványra, és egy kevés friss gipsszel a helyére illesztette a levelet. Utána lejött, és a szoba közepéről lassan hátrafelé lépett egészen az ablakig, hogy messzebbről is lássa a rózsát. Aztán visszament, és egy kicsit még reszelt az egyik levélen. Ezt többször is megismételte: hátrafelé lépett, nézte, aztán javított.\n\nHermina közben a padlón térdelt, és összesöpörte a port.\n\n– Köszönöm, hogy elvállalta – mondta. – Tudom, hogy nehézkes munka.\n\n– Nehézkes, de szép – felelte Boldizsár. – Ez a gipsz még száz évig itt lesz.\n\nKérdések:\nMi tartja a gipszet a régi mennyezeteken?\nKeskeny fa lécek tartják, mert a gipsz a lécek közötti résekbe kapaszkodik.\nMi történik, amikor a gipszporhoz vizet adnak?\nA gipsz visszaköti a vizet, kristályok nőnek benne, és újra kő lesz belőle.\nMiért lett langyos a vödör oldala?\nMert a gipsz kötés közben melegszik.\nHogyan készült el az új levél?\nBoldizsár formába öntötte a gipszet, aztán térdelve simára reszelte a széleit.\nMiért lépett hátrafelé Boldizsár?\nAzért, hogy messzebbről is lássa a rózsát."
+    },
+    {
+      "title": "Kémia a tűzhelyen",
+      "summary": "Chemistry teacher Mirjam cooks a celery soup with her ten-year-old son Teodor and explains why onions brown and why sour cream must be warmed slowly.",
+      "newWords": [
+        "tűzhely",
+        "zeller",
+        "tejföl",
+        "tízéves",
+        "ízelítő",
+        "gyorsul",
+        "emelés"
+      ],
+      "text": "Szilágyi Mirjam kémiát tanít Szegeden, egy gimnáziumban, de azt szokta mondani, hogy a legjobb laboratórium a konyha. Szombaton a tízéves fiával, Teodorral levest főztek zellerből. Teodor tízéves, és mindenre rákérdez, ezért Mirjam tudta, hogy a főzés lassan fog haladni.\n\nElőször vajat tett egy edénybe, és feltette a tűzhelyre. A vaj hamarosan hangosan sistergett.\n\n– Miért csinálja ezt? – kérdezte Teodor.\n\n– A vajban víz is van – felelte Mirjam. – Ahogy a vaj meleg lesz, a víz gőzzé válik, és buborékokban távozik.\n\nAztán hozzáadták a kockára vágott hagymát és a zellert. A zeller erős, kissé édes illata betöltötte a konyhát. Mirjam lejjebb vette a lángot a tűzhelyen.\n\n– Ha túl erős a láng, a hagyma pillanatok alatt megbarnul, sőt odaég – magyarázta. – A hagymában cukrok és fehérjék vannak. A hő hatására egymással reagálnak, és barna, illatos anyagok keletkeznek belőlük. Ez a reakció a hőmérséklet emelésével egyre gyorsul. Ha a hőmérséklet emelése túl nagy, a reakció annyira gyorsul, hogy már nem tudjuk megállítani, és keserű lesz az étel.\n\nTeodor keverte a zellert, és figyelte, hogyan lesz a hagyma átlátszóból sárga. Amikor felöntötték vízzel, és a leves főni kezdett, Mirjam kivette a hűtőből a tejfölt. Teodor rögtön bele akarta önteni az edénybe, de az anyja megállította.\n\n– Várj! Ha a hideg tejfölt egyszerre öntöd a forró levesbe, kicsapódik. A tejfölben lévő fehérjék a hirtelen hőtől összeugranak, és apró, fehér darabkák úsznak majd a leves tetején.\n\n– Akkor mit csináljunk?\n\n– Előbb egy kevés levest keverünk a tejfölhöz, lassan, kis adagokban. Így a tejföl fokozatosan lesz meleg, és a hőmérséklet emelése nem éri hirtelen.\n\nTeodor óvatosan keverte. A tejföl lassan meleg lett, aztán Mirjam visszaöntötte az egészet az edénybe. A leves sima és krémes maradt.\n\nMielőtt elzárták a tűzhelyet, Teodor egy kis tálba szedett egy ízelítőt, és bevitte az apjának a nappaliba.\n\n– Ez csak ízelítő – mondta komolyan. – A tejföl nem csapódott ki, mert tudtuk, mit csinálnak a fehérjék.\n\nAz apja megkóstolta, és nevetett.\n\n– Ha ez az ízelítő, akkor kérek egy egész tányérral.\n\nKérdések:\nMit főzött Mirjam a tízéves fiával?\nLevest főztek zellerből.\nMiért sistergett a vaj az edényben?\nMert a vajban víz is van, és a víz a melegben gőzzé válik.\nMi történik a hagymával, ha túl erős a láng a tűzhelyen?\nA reakció a hőmérséklet emelésével annyira gyorsul, hogy a hagyma odaég, és keserű lesz.\nMiért nem szabad a hideg tejfölt egyszerre a forró levesbe önteni?\nMert a tejfölben lévő fehérjék a hirtelen hőtől összeugranak, és a tejföl kicsapódik.\nMit vitt Teodor az apjának?\nEgy kis tálban ízelítőt vitt neki a levesből."
+    },
+    {
+      "title": "Az aszfalt nyara",
+      "summary": "A columnist living on a Kispest housing estate watches the asphalt under her window through a heatwave, a warm night and a frosty spring, and learns what it is made of.",
+      "newWords": [
+        "aszfalt",
+        "lakótelep",
+        "gépjármű",
+        "közelség",
+        "éjféli",
+        "napnyugta",
+        "véges",
+        "baljós"
+      ],
+      "text": "Tizenkét éve lakom egy lakótelepen Kispesten, a negyedik emeleten. Az ablakom alatt parkoló van, mögötte egy széles út, ahol reggeltől estig járnak a gépjárművek. Sokáig eszembe sem jutott, hogy az aszfalt különös anyag. Csak a tavalyi nagy hőségben kezdtem figyelni rá.\n\nJúliusban délben harmincnyolc fok volt árnyékban. Az aszfalt a napon ennél sokkal melegebb lett: az egyik szomszédom meg is mérte, hatvan fok fölött volt. A parkolóban a gépjárművek kerekei mély nyomokat hagytak benne, a cipőm talpa pedig ragadt, amikor átmentem rajta.\n\nUtánanéztem, miből készül. Az aszfalt nagyobbik része apró kő és homok. Ezeket egy sűrű, fekete, ragacsos anyag tartja össze, amelyet a kőolaj legnehezebb részéből nyernek. Ez az anyag hidegben kemény, melegben lágy, a nagy hőségben pedig szinte folyni kezd. A kövek ilyenkor elmozdulnak benne, ezért maradnak meg a kerekek nyomai.\n\nA hőt az aszfalt nemcsak felveszi, hanem tárolja is. Napnyugta után a levegő lassan lehűl, az aszfalt viszont egész éjjel adja vissza a nappali meleget. Egy éjféli sétán magam is éreztem: a levegő már kellemes volt, a földből mégis meleg áradt felfelé, mintha egy kemence mellett mentem volna el. Az éjféli meleg miatt a lakótelepen sokan nem tudtak aludni, és nyitott ablaknál ültek napnyugtától hajnalig.\n\nFeltűnt az is, hogy a lakótelep belső udvarán, a nagy fák közelségében egészen más a levegő. A fák árnyéka nem engedi felmelegedni az aszfaltot, a levelek pedig vizet párologtatnak, és hűtik a környezetüket. A fák közelsége néhány fokkal enyhébbé teszi az estét.\n\nTélen az aszfalt másképp viselkedik. Ősszel a víz beszivárog az apró repedésekbe, és amikor megfagy, kitágul. A jég szétfeszíti a repedést, és tavaszra a vékony résből hosszú, széles repedés lesz. A tavaszi utakon ezek a repedések baljós jelek: azt mutatják, hogy az aszfalt alatt meggyengült az út. Márciusban az ablakom alatt is megjelent egy ilyen baljós repedés, és egy hét múlva egy kamion kereke beszakította. Senkinek nem esett baja, de a lyuk hetekig ott maradt.\n\nAzóta máshogy nézek az utakra. Az aszfalt kőolajból készül, a kőolaj pedig véges kincs: egyszer elfogy. Örömmel olvastam, hogy a régi aszfaltot ma már fel lehet törni, újra fel lehet melegíteni, és új útba lehet keverni. Ha a készletek végesek, legalább ne dobjuk el azt, amit egyszer már a föld mélyéből hoztunk fel.\n\nKérdések:\nMi történt az aszfalttal a júliusi hőségben?\nHatvan fok fölé melegedett, ellágyult, és a gépjárművek kerekei nyomot hagytak benne.\nMiből készül az aszfalt?\nApró kőből és homokból, amelyeket a kőolajból nyert sűrű, fekete anyag tart össze.\nMiért volt meleg egy éjféli sétán?\nMert az aszfalt napnyugta után egész éjjel visszaadja a nappali meleget.\nMiért hűvösebb a levegő a fák közelségében?\nMert a fák árnyéka nem engedi felmelegedni az aszfaltot, a levelek pedig hűtik a környezetüket.\nMiért baljós jel egy repedés tavasszal?\nMert azt mutatja, hogy az aszfalt alatt meggyengült az út."
+    },
+    {
+      "title": "Túl híg sampon",
+      "summary": "Ernesztina, a newly qualified chemist at a cosmetics factory near Debrecen, finds out why customers complain that a new shampoo is too runny.",
+      "newWords": [
+        "sampon",
+        "újdonsül",
+        "ambiciózus",
+        "iparág",
+        "ügyfélszolgálati",
+        "kontrollál",
+        "ismétlés"
+      ],
+      "text": "Bodnár Ernesztina újdonsült vegyész. Tavaly végzett az egyetemen, és ősszel kezdett dolgozni egy Debrecen melletti gyárban, amely samponokat és szappanokat gyárt. A kozmetikai iparág az utóbbi években gyorsan fejlődik, és ebben az iparágban nagy a verseny. A gyárnak ambiciózus tervei vannak: két év alatt meg akarják duplázni a termelést.\n\nErnesztina főnöke, Halasi Patrik maga is ambiciózus ember. Már az első héten megmondta, hogy a minőséget minden nap kontrollálni kell.\n\n– Egy sampont nem a laborban, hanem a fürdőszobában ítélnek meg – mondta.\n\nNovemberben az ügyfélszolgálati osztályról levél jött. Az ügyfélszolgálati munkatársak szerint több vásárló is panaszkodott, hogy az új, almaillatú sampon túl híg: kifolyik a kezükből, mielőtt a hajukra kennék.\n\nPatrik az újdonsült kollégára bízta a feladatot. Úgy gondolta, hogy aki ebben az iparágban akar dolgozni, annak minél előbb meg kell tanulnia az ilyen hibák keresését. Ernesztina előbb a receptet nézte meg. A sampon fő összetevője egy tisztító anyag, amelynek molekulái egyik végükkel a vizet, a másikkal a zsírt kedvelik. Ezek a molekulák a vízben apró gömbökbe rendeződnek, és a zsírt a gömbök belsejébe zárják. Ettől tisztít a sampon. A sűrűségét viszont nagyrészt egy egyszerű anyag határozza meg: a só. Ha egy kevés sót adnak hozzá, a gömbök hosszú, egymásba fonódó szálakká nyúlnak, és a folyadék besűrűsödik. Ha viszont túl sok sót tesznek bele, a szálak szétesnek, és a sampon újra híg lesz.\n\nErnesztina kontrollálta a legutóbbi gyártás adatait, és talált egy apró eltérést: a sót egy új szállítótól vették, és a gép azóta más mennyiséget adott a keverékhez. Hogy biztos legyen a dolgában, tíz kis mintát kevert ki, mindegyikbe kicsit több sót tett, és megmérte, milyen gyorsan folynak. Aztán az egészet elölről kezdte. Az ismétlés unalmas volt, de Patrik mindig azt mondta, hogy egy mérés semmit sem ér ismétlés nélkül. A harmadik ismétlés után Ernesztina már biztosan látta: a gép túl sok sót adott a samponhoz.\n\nBeállították a gépet, és a következő tételt Ernesztina maga kontrollálta. Az új sampon szépen, lassan folyt ki az üvegből.\n\nKét hét múlva újabb levél jött az ügyfélszolgálati osztályról, de ez már köszönőlevél volt. Patrik kitűzte a labor ajtajára.\n\n– Látja? – mondta Ernesztinának. – Az újdonsült kollégák néha a legalaposabbak.\n\nKérdések:\nHol dolgozik Ernesztina?\nEgy Debrecen melletti gyárban, amely samponokat és szappanokat gyárt.\nMi volt a vásárlók panasza?\nAz, hogy az új sampon túl híg, és kifolyik a kezükből.\nMitől lesz sűrűbb a sampon?\nEgy kevés sótól, mert a gömbök hosszú, egymásba fonódó szálakká nyúlnak.\nMiért ismételte meg Ernesztina a méréseket?\nMert Patrik szerint egy mérés semmit sem ér ismétlés nélkül.\nMi volt a hiba oka?\nA gép túl sok sót adott a samponhoz."
+    },
+    {
+      "title": "Szikrázó tél",
+      "summary": "In a dry January flat, Olga explains to her eight-year-old son Zente why their synthetic bathrobes give off sparks, and a humidifier ends the problem.",
+      "newWords": [
+        "köntös",
+        "statikus",
+        "távirányító",
+        "billentyű",
+        "vigasztal",
+        "kapcsolható",
+        "átlát"
+      ],
+      "text": "Januárban a Horváth család lakásában szinte semmihez sem lehetett nyugodtan hozzáérni. Olga reggelente felvette a puha, szintetikus köntösét, és amint megfogta a tévé távirányítóját, apró szikra pattant az ujja és a távirányító között. A szikra nem volt veszélyes, mégis mindig összerezzent tőle.\n\nA nyolcéves Zente még jobban félt. Egy este ő is a köntösében ült a kanapén, és amikor a macska felé nyúlt, hangosan pattant valami. A macska elszaladt, Zente pedig sírni kezdett. Olga leült mellé, és vigasztalni kezdte.\n\n– Nem csináltál semmi rosszat, és a cicának sem lett baja – vigasztalta. – Ez csak statikus elektromosság. Megmutatom, honnan jön.\n\nElővett egy lufit, és a hajához dörzsölte. Aztán a lufit Zente feje fölé tartotta, és a fiú haja felállt.\n\n– Minden anyag apró részecskékből áll, és ezekben parányi töltések vannak – magyarázta. – Amikor két anyag egymáshoz dörzsölődik, az egyik töltéseket ad át a másiknak. A köntösöd és a kanapé is így cserél töltéseket. Ilyenkor statikus töltés gyűlik össze rajtad, és amikor megérintesz valamit, egy szikrával távozik.\n\nZente figyelt. Okos gyerek volt, és hamar átlátta, miről van szó.\n\n– Akkor a köntös a hibás? – kérdezte.\n\n– Részben. A száraz levegő is. Télen a fűtés kiszárítja a lakást, és a száraz levegőben a töltés nem tud elszökni. Nyáron, amikor párás az idő, alig van szikra.\n\nOlga a laptopján is észrevette ugyanezt: ha hosszú munka után megérintette a billentyűket, néha halk pattanást hallott, és egyszer egy billentyű egy pillanatra nem is működött. Másnap vett egy párásítót. A készülék a telefonhoz is kapcsolható volt, így a munkahelyéről is be tudta kapcsolni, mielőtt hazaért. A kapcsolható párásító hamar megérte az árát: egy hét múlva sokkal kevesebb szikra pattant.\n\nZente is átlátta, mit tehet ő. A szintetikus köntöst egy pamutra cserélte, és mielőtt a távirányítóhoz nyúlt, előbb egy kulccsal megérintette a fűtőtestet. Így a töltés a kulcson keresztül, észrevétlenül távozott.\n\nAmikor a macska újra az ölébe ugrott, nem pattant semmi.\n\n– Most már nem kell vigasztalni – mondta Zente büszkén.\n\nKérdések:\nMi történt, amikor Olga megfogta a távirányítót?\nApró szikra pattant az ujja és a távirányító között.\nMiért sírt Zente?\nMert hangosan pattant valami, amikor a macska felé nyúlt, és a macska elszaladt.\nMi a szikra oka?\nStatikus elektromosság: a köntös és a kanapé dörzsölődéskor töltéseket cserél.\nMiért van télen több szikra?\nMert a fűtés kiszárítja a levegőt, és a száraz levegőben a töltés nem tud elszökni.\nMit csinált Zente, mielőtt a távirányítóhoz nyúlt?\nEgy kulccsal megérintette a fűtőtestet."
+    },
+    {
+      "title": "Egy apró fehérje",
+      "summary": "When Teofil leaves hospital with a new diagnosis of diabetes, an eager nurse explains the chemistry of insulin to him and his son-in-law Lénárd, who helps him through the first weeks.",
+      "newWords": [
+        "inzulin",
+        "elbocsát",
+        "összekapcsol",
+        "betekintés",
+        "buzgó",
+        "veje",
+        "meggyőződik"
+      ],
+      "text": "Gaál Teofil hetvenkét éves. Tavasszal derült ki, hogy cukorbeteg, és néhány napra kórházba került, amíg beállították a kezelését. Azt a napot, amikor elbocsátották, előre megbeszélte a vejével: a veje, Lénárd, autóval jött érte. Teofil egyedül él, ezért úgy döntöttek, hogy az első hetekben Lénárd segít neki.\n\nMielőtt elbocsátották volna, egy fiatal ápolónő, Klaudia, hosszan beszélgetett velük. Klaudia buzgó ápolónő volt, látszott rajta, hogy szereti a munkáját. Mindent kétszer is elmagyarázott, és buzgón rajzolt egy papírra.\n\n– Az inzulin egy apró fehérje, amelyet a szervezetünk termel – mondta. – Ez a jel szól a sejteknek, hogy vegyék fel a cukrot, amelyet az étellel kaptunk. Az ön szervezete most kevés inzulint termel, ezért kívülről kell pótolni.\n\nTeofil régen gépészmérnök volt, és mindig szerette tudni, hogyan működnek a dolgok. Klaudia ezért rövid betekintést adott neki az inzulin kémiájába is. Elmondta, hogy a molekula két rövid láncból áll, és ezeket kénatomok tartják össze. Az első kutatók a két láncot külön-külön is előállították, aztán összekapcsolták őket. A két összekapcsolt lánc csak akkor működik, ha a molekula megtartja a formáját.\n\n– Ezért nem szabad az inzulint a napon vagy a fűtőtest mellett hagyni – mondta Klaudia. – A hő megváltoztatja a molekula alakját, és akkor hiába adja be.\n\nHozzátette, hogy az inzulint régen állatokból nyerték, ma viszont apró élőlények állítják elő nagy tartályokban, pontosan olyat, amilyet az emberi szervezet készít.\n\nTeofil elégedetten bólintott. Ez a betekintés jobban megnyugtatta, mint bármilyen biztatás.\n\nOtthon Lénárd minden reggel átjött. Az első napokban ő mérte meg Teofil cukrát, és minden alkalommal meggyőződött róla, hogy az apósa a megfelelő mennyiséget adja be magának. Egy füzetbe írták az adatokat.\n\n– Nem kell mindig meggyőződni arról, hogy jól csinálom – mondta egy reggel Teofil nevetve. – Mérnök vagyok, tudok számolni.\n\n– Tudom – felelte a veje. – De Klaudia azt mondta, az első hetekben jobb, ha ketten figyelünk.\n\nKét hét múlva Teofil már egyedül is mindent elvégzett. Lénárd még egyszer meggyőződött arról, hogy a hűtőben van elég inzulin, aztán hazament. Teofil este felhívta, és megköszönte a segítségét.\n\nKérdések:\nKi ment Teofilért, amikor elbocsátották a kórházból?\nA veje, Lénárd ment érte autóval.\nMilyen volt Klaudia?\nBuzgó ápolónő volt, aki szerette a munkáját, és mindent kétszer is elmagyarázott.\nMiből áll az inzulin molekulája?\nKét rövid láncból, amelyeket kénatomok tartanak össze.\nMiért nem szabad az inzulint melegen tartani?\nMert a hő megváltoztatja a molekula alakját, és az inzulin nem működik.\nMiről győződött meg Lénárd minden reggel?\nArról, hogy Teofil a megfelelő mennyiségű inzulint adja be magának."
+    },
+    {
+      "title": "Henna a vásárban",
+      "summary": "At summer craft fairs by Lake Balaton, Ramóna paints henna patterns and explains why the colour darkens over two days and fades as the skin renews itself.",
+      "newWords": [
+        "tetovál",
+        "tulajdonít",
+        "nevezhető",
+        "kezelési",
+        "udvariatlan",
+        "szűkös",
+        "képzési"
+      ],
+      "text": "Rácz Ramóna nyaranta a Balaton környéki falvak kézműves vásárain árul. Nem ékszert vagy kerámiát kínál: hennával tetovál. A vendégei leülnek egy kis székre, Ramóna pedig vékony kúpból finom virágokat és indákat rajzol a kezükre vagy a vállukra. A sátra szűkös, alig fér el benne két szék és egy asztal, de a szűkös helyen is mindig rend van.\n\nA henna egy növény levele, amelyet megszárítanak és finom porrá törnek. Ramóna a port citrom levével és egy kevés cukorral keveri sűrű masszává, és egy éjszakán át pihenteti. Ezalatt a levelekből kiszabadul a festék. A henna festése kis kémiai kísérletnek nevezhető: a festék molekulái a bőr legfelső rétegének fehérjéihez kötődnek. Ramóna sátra tehát egyfajta szabadtéri laboratóriumnak is nevezhető. A henna nem a bőr alá kerül, hanem csak a felszínére, ezért nem fáj, és nem marad meg örökre.\n\nEzt Ramóna egy képzési napon tanulta meg részletesen, amelyet egy Pécsen működő kozmetikai iskola tartott. A képzési anyagból azt is megtudta, miért változik a minta színe. Amikor a masszát lekaparja, a rajz még élénk narancssárga. A következő két napban azonban egyre sötétebb, végül vörösesbarna lesz. Sokan ezt a napfénynek tulajdonítják, pedig a levegő oxigénje okozza: a festék lassan reakcióba lép vele, és közben megsötétedik.\n\nRamóna minden vendégnek ad egy kis lapot, rajta a kezelési tanácsokkal. A kezelési lap szerint a mintát az első napon nem szabad szappannal mosni, és jó, ha egy kevés olajjal bekenik. Két-három hét alatt a bőr legfelső rétege lassan leválik, és vele együtt a minta is eltűnik.\n\nEgy szombat délután egy udvariatlan férfi lépett a sátorba. Rá sem nézett Ramónára, csak annyit mondott, hogy siet, és azonnal kéri a legnagyobb mintát. Ramóna nyugodtan elmagyarázta neki, hogy előtte még két vendég vár. A férfi udvariatlan megjegyzést tett, aztán elment. Ramóna nem bánta. Ő a sikerét mindig a türelemnek tulajdonította: a henna is lassan sötétedik, és a vendégek is jobban örülnek, ha nem kell sietni.\n\nEste, amikor összecsomagolt, egy kislány az édesanyjával még visszajött, és megmutatta a kezét. A tegnap tetovált kis pillangó már szép sötétbarna volt.\n\n– Pont olyan lett, ahogy mondta – mondta az anya.\n\nKérdések:\nMit csinál Ramóna a vásárokon?\nHennával tetovál: finom virágokat és indákat rajzol a vendégek kezére.\nMiért nem fáj a hennás minta?\nMert a festék nem kerül a bőr alá, csak a legfelső rétegéhez kötődik.\nMit tulajdonítanak sokan a napfénynek?\nAzt, hogy a minta sötétebb lesz, pedig ezt a levegő oxigénje okozza.\nMi áll a kezelési lapon?\nAz, hogy az első napon nem szabad szappannal mosni a mintát, és jó egy kevés olajjal bekenni.\nMit csinált Ramóna, amikor az udvariatlan férfi sietett?\nNyugodtan elmagyarázta neki, hogy előtte még két vendég vár."
+    },
+    {
+      "title": "Szél a vitorlában",
+      "summary": "Mátyás rents a sailing boat at Balatonfüred, learns from his instructor what modern sails are made of, and finds out why the club's ranking corrects for boat size.",
+      "newWords": [
+        "vitorlázás",
+        "szárnyal",
+        "kölcsönzés",
+        "felemelkedik",
+        "rangsor",
+        "ámde",
+        "igazságtalanság"
+      ],
+      "text": "Mátyás negyven évesen kezdett el vitorlázni. A vitorlázás régóta vonzotta, de sosem volt rá ideje. Egész életében irodában dolgozott, és egy nyáron elhatározta, hogy kipróbál valami egészen mást. Balatonfüreden jelentkezett egy tanfolyamra, és a kikötő melletti kölcsönzésben bérelt egy kis hajót. A kölcsönzés tulajdonosa, Pálma, maga is régi vitorlázó volt, és az első napon ő tartotta neki az órát.\n\n– A vitorlázás nem más, mint alkalmazott fizika és kémia – mondta, amikor felhúzták a fehér vitorlát. – A vitorlázás attól lesz biztonságos, hogy ismerjük az anyagainkat. Ez a vitorla poliészterből van. Régen pamutból varrták őket, ámde a pamut magába szívja a vizet, megnyúlik, és ha nedvesen marad, tönkremegy. A poliészter hosszú, egymáshoz kapcsolódó molekulaláncokból álló műanyag: nem szívja be a vizet, és megtartja a formáját.\n\nMegmutatta a versenyhajók sötét, fényes vitorláit is a kikötőben.\n\n– Ezek még könnyebbek és erősebbek. Vékony műanyag rétegek közé szénből készült szálakat ragasztanak. Ámde nagyon drágák, és egy kezdőnek nincs rájuk szüksége.\n\nKifutottak a tóra. Az első órában Mátyás csak a kötelekkel küzdött, aztán hirtelen erős szél fújt a vitorlába, és a hajó szárnyalni kezdett a vízen. A hajó orra kissé felemelkedett, a víz sustorogva futott el mellettük. Mátyás elnevette magát.\n\n– Most szárnyal! – kiáltotta.\n\nFölöttük egy sirály emelkedett fel a hullámokról, és egy darabig velük együtt szállt. Amikor a szél elállt, a sirály felemelkedett a magasba, és visszarepült a part felé.\n\nAugusztus végén a klub kezdőknek is rendezett egy kis versenyt. Mátyás a hatodik helyen ért célba, ámde a kihirdetett rangsorban csak a kilencedik lett. Először igazságtalanságnak érezte, és elment Pálmához.\n\n– Nem igazságtalanság – mondta Pálma nyugodtan. – A hosszabb hajók gyorsabbak, ezért minden hajó idejét egy számmal javítjuk, a méretétől függően. Így a rangsor azt mutatja, ki vitorlázott a legjobban, nem azt, kinek volt nagyobb hajója. Az igazságtalanság az lenne, ha ezt nem tennénk meg.\n\nMátyás elgondolkodott, aztán bólintott. Jövőre ugyanabból a kölcsönzésből akar hajót bérelni, és jobb helyet akar elérni a rangsorban.\n\nKérdések:\nHol bérelt hajót Mátyás?\nBalatonfüreden, a kikötő melletti kölcsönzésben.\nMiért nem varrnak ma már pamutból vitorlát?\nMert a pamut magába szívja a vizet, megnyúlik, és tönkremegy, a poliészter viszont megtartja a formáját.\nMi történt, amikor erős szél fújt a vitorlába?\nA hajó szárnyalni kezdett a vízen, és az orra kissé felemelkedett.\nMiért lett Mátyás csak kilencedik a rangsorban?\nMert minden hajó idejét a hajó méretétől függően javítják.\nMiért nem igazságtalanság ez Pálma szerint?\nMert így a rangsor azt mutatja, ki vitorlázott a legjobban, nem azt, kinek volt nagyobb hajója."
+    },
+    {
+      "title": "Két nyelv között",
+      "summary": "Interpreter Borbála prepares for a chemistry conference in Budapest, works through a speaker's text paragraph by paragraph and avoids two classic traps of chemical interpreting.",
+      "newWords": [
+        "tolmács",
+        "többes",
+        "bekezdés",
+        "módszertani",
+        "értelmi",
+        "vonzalom",
+        "könyvelés"
+      ],
+      "text": "Szalay Borbála tizenöt éve dolgozik tolmácsként. Angolból és németből fordít magyarra, és fordítva. Legszívesebben természettudományos konferenciákon dolgozik, mert a gimnázium óta erős vonzalom köti a kémiához. Ez a vonzalom sokat segít neki: ha érti, miről beszél az előadó, könnyebben talál szavakat.\n\nOktóberben egy Budapesten rendezett konferenciára kérték fel, amelyen új építőanyagokról volt szó. Egy héttel előtte megkapta az előadások szövegét. Mindegyiket bekezdésről bekezdésre végigolvasta, és minden bekezdés mellé felírta az ismeretlen kifejezéseket. Este ezekből saját szótárt készített.\n\nA legnehezebb a módszertani részek voltak. Ezekben az előadók azt írják le, hogyan végezték a kísérleteiket: milyen hőmérsékleten, mennyi ideig, milyen eszközökkel mértek. Egy módszertani hiba a fordításban könnyen megváltoztathatja egy kísérlet értelmét, ezért ezeket a részeket háromszor is átnézte.\n\nA tolmács munkájában vannak régi csapdák. Borbála már pályája elején megtanulta, hogy az oldódás és az olvadás között értelmi különbség van, pedig a két szót sok kezdő összekeveri. A cukor a vízben oldódik, a jég a melegben olvad. Ha egy tolmács ezt elrontja, az értelmi hiba miatt a hallgatók egészen mást értenek, mint amit az előadó mondott.\n\nA másik csapda a többes szám. Az angol a számok után többes számot használ, a magyar viszont nem: angolul több molekula „molecules”, magyarul azonban három molekula, nem három molekulák. Gyors beszéd közben könnyű átvenni az angol többes számot, ezért Borbála erre külön figyel.\n\nA konferencia két napig tartott. Borbála egy kollégájával felváltva dolgozott: félóránként cseréltek, mert a tolmácsolás nagyon fárasztó. A szünetekben a szótárát lapozgatta. Az egyik előadó a második nap végén odament hozzá, és megköszönte, hogy olyan pontosan fordította a módszertani részt.\n\nHazaérve még egy feladat várta: a könyvelés. Borbála szabadúszó, ezért a számláit maga írja meg, és havonta átküldi őket egy könyvelőnek. A könyvelés nem tartozik a kedvenc munkái közé, de egy óra alatt végzett vele. Aztán leült a teraszra, és a következő heti konferencia szövegeit kezdte olvasni, bekezdésről bekezdésre.\n\nKérdések:\nMiért szeret Borbála természettudományos konferenciákon dolgozni?\nMert a gimnázium óta erős vonzalom köti a kémiához.\nHogyan készült fel a konferenciára?\nBekezdésről bekezdésre végigolvasta a szövegeket, és saját szótárt készített.\nMiért voltak nehezek a módszertani részek?\nMert egy hiba a fordításban megváltoztathatja egy kísérlet értelmét.\nMilyen értelmi különbség van az oldódás és az olvadás között?\nA cukor a vízben oldódik, a jég a melegben olvad.\nMire figyel Borbála a többes számmal kapcsolatban?\nArra, hogy a magyar a számok után nem használ többes számot."
+    },
+    {
+      "title": "Illatok az arborétumban",
+      "summary": "On an autumn walk in the Vácrátót arboretum, Tímea watches her dog Morzsa follow scents, thinks about the chemistry of smell and memory, and buys pine oil in a small shop in Vác.",
+      "newWords": [
+        "arborétum",
+        "szaglászik",
+        "rejtekhely",
+        "időutazás",
+        "kereskedés",
+        "önmagunk"
+      ],
+      "text": "Októberben Tímea a kutyájával, Morzsával kirándult Vácrátótra, az arborétumba. Az arborétum a fák kertje, ahol a világ minden tájáról gyűjtött fák és bokrok nőnek egymás mellett. Tímeát elsősorban a színek vonzották, Morzsát viszont az illatok.\n\nA kutya minden fa alatt megállt, és hosszan szaglászott. Az orrát a földhöz nyomta, aztán felemelte, és a levegőben is szaglászott. Tímea türelmesen várt. Egyszer olvasta, hogy egy kutya orra sok ezerszer érzékenyebb, mint az emberé.\n\nAz illat tulajdonképpen kémia. Minden illatot apró molekulák okoznak, amelyek könnyen a levegőbe szállnak. A fenyők például illatos anyagokat bocsátanak ki, amelyek távol tartják tőlük a rovarokat. Ezek a molekulák az orrunkba jutnak, és ott különleges sejtekhez kötődnek. A sejtek jelet küldenek az agyba, és mi azt mondjuk: ez a fenyő illata.\n\nEgy öreg fa alatt Morzsa különösen sokáig szaglászott, aztán ásni kezdett a lehullott levelek között. Néhány perc múlva három diót talált egy kis gödörben. Valamelyik mókus rejtekhelye volt. Tímea visszahívta a kutyát, és betemette a rejtekhelyet, hogy a mókus télen megtalálja.\n\nA tó partján magas fenyők álltak, és a meleg napon erős volt az illatuk. Tímea megállt, és hirtelen a nagyszülei kertjében érezte magát, ahol nyolc évesen annyit játszott egy hasonló fenyő alatt. Ez valóságos időutazás volt. Később elolvasta, hogy az illatok azért ébresztenek ilyen erős emlékeket, mert az agyban nagyon közel dolgoznak azokhoz a részekhez, amelyek az emlékeket tárolják. Egy illat néha könnyebben visz vissza a múltba, mint egy fénykép. Talán ez az egyetlen igazi időutazás, amelyre képesek vagyunk.\n\nAz illatokban önmagunkat is megtaláljuk. Amit egy illat felidéz, az a mi saját történetünk: más-más emléket ébreszt bennünk, mert mindannyian mást hordozunk önmagunkban.\n\nHazafelé Vácon megállt egy kis kereskedésben a főtéren, amely szappanokat és illatos olajokat árult. A kereskedés tulajdonosa egy idős úr volt, aki minden olajat megmutatott neki, mielőtt választott. Tímea egy kis üveg fenyőolajat vett. Otthon, amikor kinyitotta az üveget, és az illat betöltötte a szobát, újra ott volt a nagyszülei kertjében. Morzsa a lábánál aludt, és álmában még mindig szaglászott.\n\nKérdések:\nHova kirándult Tímea Morzsával?\nVácrátótra, az arborétumba.\nMit csinált Morzsa minden fa tövénél?\nMegállt, és hosszan szaglászott.\nMit talált Morzsa az öreg fa alatt?\nEgy mókus rejtekhelyét, benne három diót.\nMiért ébresztenek az illatok erős emlékeket?\nMert az agyban nagyon közel dolgoznak azokhoz a részekhez, amelyek az emlékeket tárolják.\nMit vett Tímea a kis kereskedésben?\nEgy kis üveg fenyőolajat vett."
+    }
+  ]
+}
