@@ -280,20 +280,26 @@ private fun QueueRow(item: PlaylistItem, index: Int, current: Boolean, time: Str
 /** Opens the text being heard in the reader, at its page. */
 @Composable
 internal fun BackToText(state: PlayerUiState, onNavigate: (Route) -> Unit, modifier: Modifier = Modifier) {
-    val p = state.player
-    val item = p.item ?: return
+    val label = backToTextLabel(state) ?: return
     LinkText(
-        when (item.kind) {
-            com.tayra.languages.core.domain.playlists.PlaylistTextKind.LESSON -> tr("Back to lesson")
-            com.tayra.languages.core.domain.playlists.PlaylistTextKind.NEWS -> tr("Back to article")
-            com.tayra.languages.core.domain.playlists.PlaylistTextKind.BOOK -> tr("Back to book")
-        },
-        onClick = { onNavigate(Route.Read(item.bookId, p.page)) },
+        label,
+        onClick = { textRoute(state)?.let(onNavigate) },
         modifier = modifier.testTag("back-to-text"),
         icon = Icons.AutoMirrored.Filled.ArrowBack,
         style = MaterialTheme.typography.bodyMedium,
     )
 }
+
+/** "Back to lesson", "Back to article" or "Back to book", by the kind of text being heard. */
+@Composable
+internal fun backToTextLabel(state: PlayerUiState): String? = when (state.player.item?.kind ?: return null) {
+    com.tayra.languages.core.domain.playlists.PlaylistTextKind.LESSON -> tr("Back to lesson")
+    com.tayra.languages.core.domain.playlists.PlaylistTextKind.NEWS -> tr("Back to article")
+    com.tayra.languages.core.domain.playlists.PlaylistTextKind.BOOK -> tr("Back to book")
+}
+
+/** The text being heard in the reader, at its page. */
+internal fun textRoute(state: PlayerUiState): Route? = state.player.item?.let { Route.Read(it.bookId, state.player.page) }
 
 /** Why a text cannot be played, in a sentence. */
 @Composable

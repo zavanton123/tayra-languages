@@ -80,7 +80,9 @@ class PlayerScreensTest {
         onNodeWithTag("player-bar").assertExists()
         screenshot("player")
 
-        onNodeWithTag("back-to-text").performClick()
+        // On the player, the bar's text goes back to the text in the reader.
+        onNodeWithTag("back-to-text").assertDoesNotExist()
+        onNodeWithTag("open-text").performClick()
         val bookId = data.player.state.value.item!!.bookId
         assertEquals(Route.Read(bookId, 1), visited.last())
         onNodeWithTag("next-sentence").performClick()
@@ -180,10 +182,11 @@ class PlayerScreensTest {
         playing()
         until { data.output.done != null }
         val viewModel = viewModel()
+        val visited = mutableListOf<Route>()
         host(data) {
             Column(Modifier.fillMaxSize()) {
                 Box(Modifier.weight(1f))
-                PlayerBar(onNavigate = {}, onPlayerScreen = false, viewModel = viewModel)
+                PlayerBar(onNavigate = { visited += it }, onPlayerScreen = false, viewModel = viewModel)
             }
         }
         waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Morning Portuguese")).fetchSemanticsNodes().isNotEmpty() }
@@ -193,6 +196,11 @@ class PlayerScreensTest {
             if (tag == "seek") screenshot("player-bar-tooltip")
             onNodeWithTag(tag).performMouseInput { exit() }
         }
+
+        // Off the player, the text opens the player.
+        onNodeWithTag("back-to-text").assertDoesNotExist()
+        onNodeWithTag("open-player").performClick()
+        assertEquals(listOf<Route>(Route.Player), visited)
     }
 
     @Test
