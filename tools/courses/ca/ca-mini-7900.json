@@ -1,0 +1,196 @@
+{
+  "id": "ca-mini-7900",
+  "rankUpTo": 7900,
+  "level": "C1",
+  "title": "Muntanya i esports d'hivern",
+  "description": "Ten standalone stories about mountains and winter sport in Catalan-speaking places, from a ski-rental shop, a mountain hut kitchen and a snowshoe walk to a snow-words field trip, a cross-country ski club and an ice hockey semi-final.",
+  "topic": "Mountains and winter sport",
+  "names": [
+    "Pallars",
+    "Silvà",
+    "Rovirosa",
+    "Ava",
+    "Garsenda",
+    "Sangenís",
+    "Angelina",
+    "Lleida",
+    "Eleonor",
+    "Tubert",
+    "Setcases",
+    "Vallter",
+    "Argimon",
+    "Puigdomènech",
+    "Tàrsila",
+    "Espelt",
+    "Bagà",
+    "Odina",
+    "Puigcerdà",
+    "Pirineus",
+    "Alps",
+    "Certascan",
+    "Elisava",
+    "Graupera",
+    "Isil",
+    "Ròmul",
+    "Wifred",
+    "Aigüestortes",
+    "Sunifred",
+    "Viladrich",
+    "Calella",
+    "Palafrugell",
+    "Adalaisa",
+    "Lles",
+    "Cerdanya",
+    "Ermini",
+    "Bosom",
+    "Riquilda",
+    "Ataülf",
+    "Isart",
+    "Tòdia",
+    "Catalunya",
+    "Barcelona",
+    "Puigmal"
+  ],
+  "lessons": [
+    {
+      "title": "Abans del primer dia de pistes",
+      "summary": "Two days before the season opens at the Espot ski resort, rental-shop owner Silvà Rovirosa shows student Ava how to inspect and label the skis and encode the lift cards, explains the resort's single booking website and its bus discount, and they go up to see the freshly groomed snow.",
+      "newWords": [
+        "inspeccionar",
+        "etiquetatge",
+        "codificar",
+        "centralitzar",
+        "incentiu",
+        "aplicable",
+        "homogeni"
+      ],
+      "text": "A l'estació d'esquí d'Espot, al Pallars, la temporada comença dissabte. Dijous al matí, en Silvà Rovirosa obre la botiga de lloguer de material que la seva família té al peu de les pistes des de fa trenta anys. Aquest hivern l'ajuda l'Ava, una estudiant de Tremp que hi treballarà fins a l'abril.\n\n«Primer, cal inspeccionar tots els esquís», diu en Silvà. «Un per un.» Li ensenya com ho fa: mira la base, per si té ratlles fondes, passa el dit pels cantells i prova les fixacions. L'Ava inspecciona els primers parells a poc a poc. Al cap d'una hora ja n'ha inspeccionat quaranta, i només dos han d'anar al taller.\n\nDesprés ve l'etiquetatge. Cada parell porta una etiqueta amb la llargada, la mida de la bota i un número. Fins a l'any passat, l'etiquetatge es feia a mà, amb un retolador, i a la primavera les etiquetes ja no es llegien. Ara en Silvà té una petita impressora, i les etiquetes noves resisteixen l'aigua i el fred. «Un bon etiquetatge estalvia moltes discussions», diu.\n\nA la tarda arriben les targetes de l'estació. Són les targetes que obren les barreres dels remuntadors, i porten un xip. L'Ava les ha de codificar amb un aparell connectat a l'ordinador: en posa una a sobre, hi escriu el tipus de passi i els dies, i l'aparell la codifica en un segon. Si s'equivoca, la pot tornar a codificar.\n\nAquest hivern, l'estació ha decidit centralitzar totes les reserves en un sol web. Abans, cada botiga i cada hotel tenien el seu sistema, i els clients s'hi perdien. Centralitzar-ho tot vol dir que un client pot reservar el passi, els esquís i les classes amb una sola compra. A en Silvà li va costar acceptar-ho, però ara hi veu avantatges: ja no ha de respondre vint trucades cada matí.\n\nL'estació també ofereix un incentiu per venir en autobús des de la Pobla de Segur: qui hi arriba en autobús té un descompte del 20% en el lloguer. «L'incentiu és aplicable a tots els clients?», pregunta l'Ava. «Només als adults», respon en Silvà. «Els nens ja tenen un preu reduït, i el descompte no hi és aplicable.» L'any passat, gràcies a aquest incentiu, l'aparcament va estar molt menys ple.\n\nAl vespre, en Silvà i l'Ava pugen amb el cap de pistes a veure la neu. Les màquines l'han aplanada durant tota la tarda, i ara és llisa i homogènia, sense pedres ni plaques de gel. «Quan la neu és homogènia, els principiants no tenen por», diu el cap de pistes. L'Ava s'ajup i hi passa la mà. És freda i fina com el sucre.\n\nPreguntes:\nQuè ha de fer l'Ava amb els esquís abans de l'etiquetatge?\nEls ha d'inspeccionar un per un: la base, els cantells i les fixacions.\nPer què en Silvà ha canviat l'etiquetatge?\nPerquè les etiquetes fetes a mà amb retolador ja no es llegien a la primavera.\nQuè fa l'aparell connectat a l'ordinador?\nCodifica les targetes amb el tipus de passi i els dies.\nPer què l'estació ha decidit centralitzar les reserves?\nPerquè abans cada botiga i cada hotel tenien el seu sistema, i els clients s'hi perdien.\nA qui és aplicable el descompte de l'autobús?\nNomés és aplicable als adults.\nCom és la neu al vespre?\nÉs llisa i homogènia, sense pedres ni plaques de gel."
+    },
+    {
+      "title": "Sopa d'ordi al refugi",
+      "summary": "At a mountain hut in the Pallars, keeper Garsenda Sangenís and her niece Angelina cook the guests' favourite barley soup without a food processor or power-hungry appliances, blanching the cabbage, crushing the garlic by hand and finishing with a citrus cream.",
+      "newWords": [
+        "descalç",
+        "ordi",
+        "predilecte",
+        "escaldar",
+        "esclafar",
+        "processador",
+        "electrodomèstic",
+        "cítric"
+      ],
+      "text": "La Garsenda Sangenís és la guarda d'un refugi del Pallars Sobirà, a més de 2.000 metres d'altitud. A l'hivern, el refugi només obre els caps de setmana, i hi arriben excursionistes amb raquetes de neu i esquís de muntanya. La norma de la casa és clara: les botes es deixen a l'entrada. A dins, tothom va amb sabatilles o descalç sobre el terra de fusta, que l'estufa manté calent.\n\nAquest dissabte, la neboda de la Garsenda, l'Angelina, l'ajuda a la cuina per primera vegada. Ha pujat amb ella des de la vall amb una motxilla plena de verdures. El plat del sopar és la sopa d'ordi, el plat predilecte dels clients del refugi. L'ordi és un cereal que aguanta bé el fred, i a les valls altes s'ha cultivat sempre. La Garsenda l'ha deixat en remull des de la nit abans.\n\nPrimer escalden la col. L'Angelina posa una olla d'aigua al foc, hi submergeix les fulles uns segons i les treu. «Escaldar vol dir això», li explica la tia: «coure una cosa només un moment, perquè quedi tendra però conservi el color.» Després escalden els tomàquets, i així la pell surt sola.\n\nMentrestant, la Garsenda esclafa uns alls amb la fulla ampla del ganivet. «A casa tinc un processador que ho tritura tot en un segon», diu l'Angelina. La tia riu. Al refugi, l'electricitat ve d'unes plaques solars i d'una bateria, i a l'hivern el sol dura poc. No hi ha cap electrodomèstic que gasti gaire: només una nevera petita i la ràdio. «Aquí el processador som nosaltres», diu, i li dona un morter per esclafar-hi el julivert amb una mica de sal.\n\nL'ordi, la col, les patates i els alls bullen a poc a poc durant dues hores, i tot el refugi fa olor de sopa. Els excursionistes, que han arribat cansats i amb les mans gelades, s'asseuen al voltant de l'estufa, descalços, amb els mitjons penjats a assecar.\n\nDe postres, la Garsenda prepara una crema de cítrics amb les taronges i les llimones que l'Angelina ha pujat a la motxilla. Diu que a la muntanya els cítrics són un petit luxe, però que després d'un dia de neu el cos els demana.\n\nAl final del sopar, una noia de Lleida li pregunta pel secret de la sopa. La Garsenda li ho explica: ordi en remull, verdures escaldades, alls ben esclafats i paciència. «I una cuina sense cap electrodomèstic», hi afegeix l'Angelina. Aquella nit, mentre renta les olles, decideix que la sopa d'ordi també és el seu plat predilecte.\n\nPreguntes:\nCom va la gent a dins del refugi?\nVa amb sabatilles o descalça sobre el terra de fusta.\nQuin és el plat predilecte dels clients del refugi?\nÉs la sopa d'ordi.\nQuè vol dir escaldar?\nVol dir coure una cosa només un moment, perquè quedi tendra però conservi el color.\nPer què al refugi no fan servir cap processador?\nPerquè l'electricitat ve d'unes plaques solars i d'una bateria, i no hi ha cap electrodomèstic que gasti gaire.\nAmb què esclafen els alls i el julivert?\nEsclafen els alls amb la fulla del ganivet i el julivert amb un morter.\nAmb què fa la Garsenda la crema de cítrics?\nLa fa amb les taronges i les llimones que l'Angelina ha pujat a la motxilla."
+    },
+    {
+      "title": "Una casa de pedra a Setcases",
+      "summary": "Eleonor Tubert buys an old stone house near the Vallter ski slopes, and local contractor Argimon Puigdomènech repairs the roof, drills the hard stone walls with his father's tools, fits modular kitchen units and fences the back plot with wire against the neighbour's cows.",
+      "newWords": [
+        "parcel·la",
+        "arranjar",
+        "contractista",
+        "perforar",
+        "ferramenta",
+        "modular",
+        "filferro"
+      ],
+      "text": "Fa dos anys, l'Eleonor Tubert va comprar una casa de pedra a Setcases, un poble del Ripollès a prop de les pistes de Vallter. La casa tenia el teulat mig enfonsat i, al darrere, una parcel·la de terra plena d'herba alta i d'ortigues. L'Eleonor hi volia passar els hiverns: esquiar al matí i llegir a la tarda al costat del foc.\n\nPer arranjar la casa va trucar a en Argimon Puigdomènech, un contractista del poble que coneix totes les cases velles de la vall. El contractista va venir un dissabte de novembre, va tocar les parets i va dir que eren sòlides. «El teulat sí que l'hem d'arranjar ben aviat», va dir. «Abans que arribi la neu.»\n\nLes obres van començar l'endemà. Els paletes van posar bigues noves i teules velles, recuperades d'una altra casa del poble. Després van perforar la paret de la cuina per passar-hi els tubs de l'aigua i de la calefacció. La pedra era tan dura que van haver de perforar-la amb una broca especial, i van trigar tot un matí a fer tres forats.\n\nL'Eleonor mirava la ferramenta del contractista, ben ordenada en una caixa de fusta: martells, tascons, serres i claus de totes les mides. «Aquesta ferramenta era del meu pare», va dir en Argimon. «Les eines bones no es llencen; es cuiden.»\n\nPer a la cuina, el contractista li va proposar uns mobles modulars. Són peces de la mateixa amplada que es combinen com es vol: un armari, un calaix, la pica, un altre armari. «En una casa vella cap paret no és recta», va explicar, «però amb mobles modulars sempre ho pots ajustar.» L'Eleonor en va triar sis, de fusta de pi.\n\nQuedava la parcel·la. A la primavera l'Eleonor hi vol plantar un hort, però a la tardor hi entraven les vaques del veí quan baixaven de les pastures. En Argimon va clavar uns pals de castanyer a terra i hi va estirar tres fils de filferro. «El filferro no fa mal a les vaques», va dir. «Només els recorda que per aquí no s'hi passa.» Al final, la parcel·la va quedar tancada amb filferro i una portella de fusta.\n\nAl desembre la casa ja estava arranjada. La primera nit de neu, l'Eleonor va encendre el foc i va mirar la parcel·la blanca per la finestra. L'endemà al matí va pujar a Vallter amb els esquís a l'espatlla.\n\nPreguntes:\nQuè hi havia al darrere de la casa?\nHi havia una parcel·la de terra plena d'herba alta i d'ortigues.\nA qui va trucar l'Eleonor per arranjar la casa?\nVa trucar a en Argimon Puigdomènech, un contractista del poble.\nPer què van perforar la paret de la cuina?\nPer passar-hi els tubs de l'aigua i de la calefacció.\nDe qui era la ferramenta del contractista?\nEra del seu pare.\nPer què els mobles modulars van bé en una casa vella?\nPerquè cap paret no és recta, i amb els mobles modulars sempre ho pots ajustar.\nPer què en Argimon va estirar filferro a la parcel·la?\nPerquè a la tardor hi entraven les vaques del veí."
+    },
+    {
+      "title": "Raquetes sota el Cadí",
+      "summary": "On a snowshoe walk below the Cadí, guide Tàrsila Espelt shows fourteen-year-old Odina and her father the shrubs that shelter birds under the snow, a selective felling, a rotting pine and the resting sap, and the walk ends in purple and scarlet evening light.",
+      "newWords": [
+        "arbust",
+        "tala",
+        "podrir",
+        "saba",
+        "claror",
+        "porpra",
+        "grana"
+      ],
+      "text": "La Tàrsila Espelt és guia de muntanya a Bagà, al Berguedà. Els dissabtes d'hivern porta grups petits a caminar amb raquetes de neu pels boscos de sota el Cadí. Aquest dissabte el grup és molt petit: l'Odina, una noia de catorze anys, i el seu pare.\n\nSurten a les nou, amb el sol encara baix. Al principi el camí és ample i la neu és tova. A banda i banda hi ha arbustos coberts de neu, com petites cabanes blanques. «Sota cada arbust hi ha un refugi per als ocells i els conills», explica la Tàrsila. «La neu fa de sostre, i a dins s'hi està més bé que a fora.» L'Odina s'ajup davant d'un arbust i hi veu les petjades d'un ocell.\n\nA mitja pujada arriben a una clariana plena de troncs tallats, ordenats en piles. «Aquí hi van fer una tala l'any passat», diu la guia. L'Odina arrufa el nas: per què tallen els arbres? La Tàrsila li explica que no és una tala de tot el bosc. Només es tallen alguns pins, els més vells o els que creixen massa junts, perquè els altres tinguin llum i espai. «Una tala ben feta ajuda el bosc», diu. «Una tala mal feta el deixa pelat.»\n\nUna mica més amunt troben un pi vell a terra, mig cobert de neu. La fusta és tova i fosca, i l'Odina hi pot enfonsar un dit. «S'està podrint», diu la Tàrsila. «Els fongs i els insectes la desfan a poc a poc: així es podreix la fusta. Quan la fusta s'hagi podrit del tot, serà terra per als arbres nous.» El pare fa una foto de la fusta podrida, plena de molsa verda.\n\nAl costat hi ha un pi jove amb una gota groga i enganxosa a l'escorça. És saba. «A l'hivern la saba gairebé no es mou», explica la guia. «L'arbre descansa. A la primavera, quan torni la calor, la saba pujarà de les arrels fins a les branques.» L'Odina toca la gota de saba i diu que fa olor de caramel.\n\nA les cinc, quan tornen, el sol ja és molt baix. La claror de la tarda es fa rosada, i les parets del Cadí es tenyeixen de color porpra. Per sobre, el cel és de color grana. El pare fa fotos sense parar. «A l'estiu no hi ha aquests colors», diu la Tàrsila. «La neu agafa la claror del cel i la torna, com un mirall.» Mentre baixen, el porpra de les roques es fa més fosc, i el grana del cel es torna gris. Arriben al cotxe amb l'última claror del dia.\n\nPreguntes:\nQuè hi ha sota cada arbust cobert de neu?\nHi ha un refugi per als ocells i els conills.\nPer què es fa una tala al bosc?\nPer tallar els pins més vells o els que creixen massa junts, perquè els altres tinguin llum i espai.\nQuè passa amb la fusta del pi que és a terra?\nS'està podrint, perquè els fongs i els insectes la desfan a poc a poc.\nQuè fa la saba a l'hivern?\nA l'hivern la saba gairebé no es mou, perquè l'arbre descansa.\nDe quin color es tenyeixen les parets del Cadí a la tarda?\nEs tenyeixen de color porpra, i el cel és de color grana."
+    },
+    {
+      "title": "Article d'opinió: la neu que ens falta",
+      "summary": "A columnist from Puigcerdà looks at how much less it snows than forty years ago, explains why latitude alone does not account for it, why snow matters as a water reserve, what lake sediments show and how mountain towns can adapt.",
+      "newWords": [
+        "nevar",
+        "diòxid",
+        "latitud",
+        "hídric",
+        "sediment",
+        "àrid",
+        "estrall"
+      ],
+      "text": "Quan era petit, a Puigcerdà nevava cada hivern. Recordo carrers blancs des del desembre fins al març i tardes senceres fent ninots al pati de l'escola. Ara, quan neva, els nens surten corrents com si fos un regal. Les dades de l'estació meteorològica del poble diuen el mateix que la meva memòria: fa quaranta anys hi nevava una mitjana de trenta dies l'any; ara, menys de quinze.\n\nLa causa principal, la coneixem tots. El diòxid de carboni que emetem quan cremem petroli i gas reté la calor a l'atmosfera, i la temperatura mitjana puja. Hi ha qui diu que el problema és la latitud, i és cert que la latitud hi té un paper: els Pirineus són més al sud que els Alps, i a la mateixa altitud hi fa més calor. Però la latitud de Puigcerdà no ha canviat en quaranta anys. La quantitat de diòxid de carboni a l'aire, sí.\n\nLa falta de neu no és només un problema per a les estacions d'esquí. La neu és una reserva d'aigua. A l'hivern s'acumula als cims, i a la primavera es fon a poc a poc i omple els rius quan els pagesos de la plana més la necessiten. Els experts en recursos hídrics en diuen «el pantà blanc». Sense aquest pantà, el calendari hídric de tota la conca canvia: hi ha més aigua a l'hivern, quan sobra, i menys a l'estiu, quan falta.\n\nEls científics també ho llegeixen al fons dels estanys de muntanya. Cada any s'hi diposita una capa fina de sediment, com una pàgina d'un llibre. En el sediment hi queden grans de pol·len, restes d'algues i pols. Un equip de la universitat ha estudiat el sediment de l'estany de Certascan, i les pàgines dels últims decennis no s'assemblen a cap de les dels últims mil anys.\n\nNo vull ser alarmista. Els Pirineus no seran demà un paisatge àrid com un desert. Però algunes vessants del sud ja són més seques, i a finals d'estiu hi ha prats d'alta muntanya amb un aspecte àrid que els nostres avis no havien vist mai. La calor fa estralls als boscos d'avets, que necessiten fred i humitat, i els insectes que es multipliquen amb els hiverns suaus també hi fan estralls.\n\nQuè podem fer? Gastar menys energia, és clar, i produir-ne més amb el sol i el vent. Però també podem adaptar-nos: estacions que obren tot l'any amb rutes de bicicleta i de senderisme, pobles que guarden l'aigua quan neva i que la fan servir a l'estiu. Que nevi menys no ha de voler dir que la muntanya es buidi.\n\nPreguntes:\nQuants dies l'any nevava a Puigcerdà fa quaranta anys?\nHi nevava una mitjana de trenta dies l'any.\nPer què la latitud no explica el canvi?\nPerquè la latitud de Puigcerdà no ha canviat en quaranta anys, però la quantitat de diòxid de carboni a l'aire, sí.\nPer què la neu és important per als recursos hídrics?\nPerquè és una reserva d'aigua que es fon a la primavera i omple els rius quan els pagesos la necessiten.\nQuè hi queda, en el sediment dels estanys?\nHi queden grans de pol·len, restes d'algues i pols de cada any.\nOn fa estralls la calor?\nFa estralls als boscos d'avets, que necessiten fred i humitat."
+    },
+    {
+      "title": "Paraules de neu",
+      "summary": "Lleida linguist Elisava Graupera visits villages in the Pallars to compile the local words for snow and cold, records the old shepherd Ròmul for an audio archive, studies the old syntax of his speech and stays an extra night for a gathering of songs and stories.",
+      "newWords": [
+        "fascinació",
+        "compilació",
+        "dialectal",
+        "sintaxi",
+        "auditiu",
+        "declinar",
+        "enriquidor"
+      ],
+      "text": "L'Elisava Graupera és lingüista a la Universitat de Lleida. Des de petita sent fascinació per les paraules: com les diuen els avis, com canvien d'una vall a l'altra, quines s'han perdut. Aquest hivern prepara una compilació de paraules de la neu i del fred del Pallars Sobirà.\n\nCada setmana puja en cotxe a un poble diferent i visita la gent gran. A Isil coneix en Ròmul, que té 88 anys i va ser pastor tota la vida. Ell li explica que la neu que el vent fa volar és el torb, i que la neu que es queda a les obagues fins a l'estiu és una congesta. L'Elisava ho apunta tot en una llibreta. Moltes són paraules dialectals, que no surten als diccionaris generals o hi surten amb un altre sentit.\n\nPerò no li interessen només les paraules. També estudia la sintaxi, és a dir, com s'ordenen les paraules dins de la frase. En Ròmul diu coses com «neu, ara no en fa com abans», i l'Elisava s'hi fixa. La sintaxi de la parla del Pallars té trets dialectals antics que a les ciutats s'han perdut, i una frase com aquesta li agrada tant com una paraula rara.\n\nHo grava tot. A la universitat preparen un arxiu auditiu: no només paraules escrites, sinó la veu de cada persona. «La memòria auditiva és tan important com l'escrita», explica l'Elisava. «Una paraula escrita no et diu com sona, ni amb quina música la diu un pastor d'Isil.»\n\nA la tarda, en Ròmul la convida a sopar a casa seva. L'Elisava declina la invitació amablement: vol baixar abans que la carretera es geli. Però abans que marxi, la filla d'en Ròmul li explica que l'endemà fan una trobada de gent gran a la sala del poble, amb cançons i contes. Aquesta vegada l'Elisava no declina: es queda a dormir en una casa de turisme rural.\n\nL'endemà, a la trobada, sent paraules que no havia sentit mai. Una dona li diu que, quan neva molt, «fa una nevada de les que tapen les tanques». Un home li canta una cançó sobre el torb que li cantava la seva mare. L'Elisava torna a Lleida amb vint pàgines de notes i sis hores de gravacions.\n\nAquella nit escriu en el seu quadern: «Aquest treball és el més enriquidor que he fet mai. Cada visita és enriquidora, perquè no hi aprenc només paraules, sinó maneres de mirar el món.» La compilació es publicarà l'any que ve, amb les gravacions de cada paraula, i la seva fascinació pel Pallars no ha fet més que créixer.\n\nPreguntes:\nQuè prepara l'Elisava aquest hivern?\nPrepara una compilació de paraules de la neu i del fred del Pallars Sobirà.\nQuè és el torb, segons en Ròmul?\nÉs la neu que el vent fa volar.\nQuè és la sintaxi?\nÉs com s'ordenen les paraules dins de la frase.\nPer què és important l'arxiu auditiu?\nPerquè una paraula escrita no et diu com sona, ni amb quina música la diu un pastor.\nPer què l'Elisava declina la invitació a sopar?\nPerquè vol baixar abans que la carretera es geli.\nPer què diu que el treball és enriquidor?\nPerquè no hi aprèn només paraules, sinó maneres de mirar el món."
+    },
+    {
+      "title": "Quatre dies amb el meu germanastre",
+      "summary": "In a four-day diary, a sixteen-year-old girl crosses Aigüestortes on snowshoes with her new stepbrother Wifred, a guide and his big white mountain dog: a parental consent form, a long climb to a pass, a family love of mountains and a promise to plan the next trip together.",
+      "newWords": [
+        "germanastre",
+        "progenitor",
+        "ascendent",
+        "afany",
+        "hereditari",
+        "ullal",
+        "heroic",
+        "periple"
+      ],
+      "text": "Dilluns\n\nAvui comencem una travessa de quatre dies amb raquetes de neu pel Parc Nacional d'Aigüestortes. Som el meu germanastre, en Wifred, i jo, amb un guia i el seu gos. La meva mare i el pare d'en Wifred es van casar fa dos anys, i en Wifred i jo encara ens coneixem poc. Ell té disset anys i jo, setze. La idea va ser d'ells: «Quatre dies junts a la muntanya i sereu germans de debò», va dir la meva mare.\n\nAl refugi on dormim, la guarda ens demana els papers. Com que som menors, cal una autorització signada pels progenitors. «Progenitors?», pregunta en Wifred, rient. És una paraula de formulari, que vol dir el pare i la mare. Però, en el nostre cas, quins són els progenitors de qui? Al final, la guarda accepta el full amb les quatre signatures, i en Wifred i jo riem junts per primera vegada.\n\nDimarts\n\nAvui la ruta és ascendent tot el dia: sis hores de pujada fins a un coll a 2.600 metres. El camí ascendent no s'acaba mai. En Wifred camina davant amb un afany que no li coneixia. A casa no s'aixeca del sofà, i aquí té afany de veure-ho tot i de pujar-ho tot. Diu que la passió per la muntanya és hereditària: el seu avi era guia a la Vall de Boí. Jo li dic que, a casa, la seva mandra sembla més hereditària que la seva passió. Ell riu.\n\nAl refugi, el gos del guia, un gos de muntanya dels Pirineus enorme i blanc, badalla davant de l'estufa i ensenya uns ullals llargs. Sembla un llop, però és el gos més tranquil del món. En Wifred s'hi asseu al costat i li mira les dents. «Quatre ullals, com tots els gossos», diu, com si fos veterinari.\n\nDimecres\n\nEn Wifred diu que la pujada d'ahir va ser heroica. No ho va ser: cap dels dos no va patir gaire. Però l'últim tram, amb la neu tova fins als genolls i el vent a la cara, sí que va tenir alguna cosa d'heroic. Avui, en canvi, hem caminat poc: un llac gelat, un bosc de pins i una tarda jugant a cartes al refugi.\n\nDijous\n\nBaixem a la vall. El nostre periple s'acaba: quatre dies, cinquanta quilòmetres i tres refugis. Al cotxe, el gos s'adorm amb el cap sobre les cames d'en Wifred i ensenya la punta d'un ullal. En Wifred em diu: «El proper periple, el triem nosaltres.» Penso que la mare tenia raó.\n\nPreguntes:\nQui fa la travessa?\nLa fan la noia que escriu el diari i el seu germanastre, en Wifred, amb un guia i el seu gos.\nPer què la guarda demana una autorització?\nPerquè són menors i cal una autorització signada pels progenitors.\nCom és la ruta del dimarts?\nÉs ascendent tot el dia: sis hores de pujada fins a un coll a 2.600 metres.\nPer què en Wifred diu que la passió per la muntanya és hereditària?\nPerquè el seu avi era guia a la Vall de Boí.\nQuè ensenya el gos quan badalla?\nEnsenya uns ullals llargs.\nQuant dura el periple?\nDura quatre dies: cinquanta quilòmetres i tres refugis."
+    },
+    {
+      "title": "Havaneres a la neu",
+      "summary": "Every February Sunifred Viladrich, a hotel owner at La Molina born by the sea, holds a concert of sea songs; this year the poster gets the date wrong, the old loudspeakers distort the voices so violinist Adalaisa's group plays unamplified, and the hotel's old parrot whistles along.",
+      "newWords": [
+        "havanera",
+        "erròniament",
+        "violinista",
+        "usual",
+        "distorsionar",
+        "lloro"
+      ],
+      "text": "L'hotel d'en Sunifred Viladrich és a la Molina, a 1.700 metres, envoltat de pistes d'esquí. Cada febrer hi organitza un concert d'havaneres. Sembla estrany: les havaneres són cançons de mar, de vaixells i de ports llunyans, i la Molina és lluny de la costa. Però en Sunifred va néixer a Calella de Palafrugell, al costat del mar, i diu que una havanera escalfa més que una estufa.\n\nAquest any, el cartell de l'hotel anunciava erròniament que el concert seria divendres. Era dissabte. Algú havia copiat erròniament la data del cartell de l'any anterior. Molts clients van baixar de les pistes divendres a les sis i van trobar la sala buida. En Sunifred els va demanar perdó i els va convidar a una xocolata desfeta.\n\nDissabte, per fi, arriba el grup: tres cantants i una violinista, l'Adalaisa. La violinista toca amb ells des de fa deu anys. No és usual que un grup d'havaneres porti violí: l'usual és una guitarra, un acordió i les veus. Però el violí de l'Adalaisa fa sonar les melodies com el moviment lent de les ones.\n\nAbans del concert, el tècnic de l'hotel prova els altaveus. Són vells, i distorsionen les veus: les notes altes surten trencades i brutes. L'Adalaisa escolta una estona i diu: «Aquests altaveus distorsionen massa. Millor que toquem sense micròfons.» La sala és petita, de fusta, i les veus s'hi senten bé sense ajuda.\n\nA la recepció de l'hotel viu el lloro d'en Sunifred, un lloro verd i groc que té més de trenta anys. Quan el grup comença la primera havanera, el lloro es posa a xiular. L'Adalaisa somriu i continua tocant. El lloro xiula la tornada sencera, nota per nota. «Coneix totes les havaneres», explica en Sunifred al públic. «Les sent cada febrer des que era petit.»\n\nEl concert dura dues hores. Hi ha havaneres alegres i havaneres tristes, de mariners que pensen en el seu poble. A l'última, tota la sala canta, i el lloro també. Quan surten, fa un fred intens i la neu brilla sota la lluna. Un client li diu a en Sunifred que l'any vinent tornarà, encara que el cartell torni a dir la data erròniament.\n\nPreguntes:\nPer què en Sunifred organitza un concert d'havaneres a la muntanya?\nPerquè va néixer a Calella de Palafrugell, al costat del mar, i diu que una havanera escalfa més que una estufa.\nQuè deia erròniament el cartell?\nDeia erròniament que el concert seria divendres.\nPer què el grup de l'Adalaisa no és un grup usual?\nPerquè no és usual que un grup d'havaneres porti violí.\nPer què toquen sense micròfons?\nPerquè els altaveus vells distorsionen les veus.\nQuè fa el lloro durant la primera havanera?\nEs posa a xiular la tornada sencera, nota per nota."
+    },
+    {
+      "title": "Dimarts al club d'esquí de fons",
+      "summary": "At the weekly session of the Lles cross-country ski club, coach Ermini Bosom teaches the members to scrape old wax without leaving the base rough, answers a veteran's resentful complaint by asking for a proposal, and reads a report that shows the club's strength is its community life.",
+      "newWords": [
+        "rascar",
+        "aspre",
+        "enfortiment",
+        "ressentit",
+        "destructiu",
+        "radiografia",
+        "associatiu"
+      ],
+      "text": "El club d'esquí de fons de Lles, a la Cerdanya, té seixanta socis, des de nens de vuit anys fins a jubilats de setanta. Cada dimarts al vespre, en Ermini Bosom, l'entrenador, fa una sessió a la caseta del club, al costat de les pistes. Aquest dimarts toca preparar els esquís per a la cursa de diumenge.\n\nPrimer cal rascar la cera vella. En Ermini posa un esquí sobre el banc de treball i el rasca amb una peça de plàstic, de la punta a la cua, amb moviments llargs i iguals. «No rasqueu mai cap enrere», diu. Els socis el miren i rasquen els seus. La Riquilda, una sòcia nova, rasca massa fort, i la base del seu esquí queda aspra. En Ermini hi passa el dit: «Si la base és aspra, l'esquí no llisca. Ha de quedar llisa com un vidre.» Li ensenya a polir-la amb un raspall suau.\n\nMentre treballen, parlen de la temporada. A l'octubre, en Ermini va organitzar un programa d'enfortiment: dues sessions setmanals de gimnàs per enfortir les cames i l'esquena abans de la neu. Alguns socis hi van anar cada setmana; d'altres, cap. Ara l'enfortiment es nota: els que hi van anar pugen les costes sense aturar-se.\n\nL'Ataülf Isart, un soci veterà, no ha estat triat per a l'equip de relleus de diumenge, i està ressentit. Diu que l'entrenador sempre tria els joves. Ho diu en veu alta, amb un to ressentit, i hi afegeix: «Aquest club ja no és el que era.» La Riquilda el mira, incòmoda.\n\nEn Ermini no s'enfada. «Una crítica destructiva no ens ajuda gens», diu amb calma, «però una proposta, sí. Què proposes?» L'Ataülf s'ho pensa una estona i proposa un relleu de veterans, per als socis de més de seixanta anys. En Ermini hi està d'acord: el comentari d'abans era destructiu, però la idea és molt bona.\n\nAl final de la sessió, en Ermini llegeix l'informe que la federació ha fet sobre el club. És una radiografia de l'últim any: socis, curses, quilòmetres i comptes. La radiografia mostra que el club té més socis que mai, sobretot nens, i que la seva força és la vida associativa. A més de les curses, el club organitza sopars, sortides nocturnes amb llanternes i cursos per a les escoles de la comarca. «Som una part del teixit associatiu de la vall», diu en Ermini. «No vivim de les medalles, sinó de la gent que ve els dimarts.» L'Ataülf, ja menys ressentit, rasca l'últim esquí amb cura.\n\nPreguntes:\nQuè cal fer primer amb els esquís?\nPrimer cal rascar la cera vella.\nPer què l'esquí de la Riquilda no lliscaria bé?\nPerquè la base ha quedat aspra.\nPer a què servia el programa d'enfortiment?\nServia per enfortir les cames i l'esquena abans de la neu.\nPer què l'Ataülf està ressentit?\nPerquè no ha estat triat per a l'equip de relleus de diumenge.\nQuè mostra la radiografia del club?\nMostra que el club té més socis que mai i que la seva força és la vida associativa."
+    },
+    {
+      "title": "La careta de la portera",
+      "summary": "Tòdia, fifteen, goalkeeper of the Puigcerdà youth ice hockey team, paints the Cerdanya mountains on her new mask with paint her grandfather buys under the square's arcades, and after a depressing first period her team draws level, goes to overtime and wins the shoot-out.",
+      "newWords": [
+        "arcada",
+        "careta",
+        "ratllat",
+        "depriment",
+        "pessimista",
+        "perllongar"
+      ],
+      "text": "La Tòdia té quinze anys i és la portera de l'equip juvenil d'hoquei sobre gel de Puigcerdà. Diumenge juguen la semifinal del campionat de Catalunya contra un equip de Barcelona, al pavelló de gel del poble.\n\nDissabte a la tarda, la Tòdia i el seu avi passegen per sota les arcades de la plaça. A les arcades hi ha botigues de roba d'esquí, una pastisseria i una botiga de pintures. Allà l'avi compra tres pots petits de pintura: blanca, blava i porpra. La Tòdia té una careta nova, tota blanca, i la vol pintar per al partit. A casa, sobre la taula de la cuina, hi pinta les muntanyes de la Cerdanya, amb el Puigmal a l'esquerra i un cel porpra a dalt. «Amb aquesta careta, no hi entrarà cap disc», diu l'avi.\n\nDiumenge, el pavelló és ple. Els jugadors de Puigcerdà porten la samarreta ratllada de blanc i blau de sempre; els de Barcelona, una samarreta vermella. El primer període és depriment: els rivals marquen dos gols en cinc minuts, i la Tòdia no en pot aturar cap. Quan s'acaba el període, se sent pessimista. A la banqueta, l'entrenadora li diu: «No siguis pessimista. Encara queden quaranta minuts.»\n\nAl segon període, la Tòdia ho atura tot, i un jugador de Puigcerdà marca el primer gol. Al tercer, quan falten dos minuts, en marquen un altre: 2 a 2. Com que hi ha empat, el partit es perllonga cinc minuts més. Tampoc no hi ha gols, i el partit es perllonga encara: cada equip ha de fer cinc llançaments contra la portera de l'altre. La Tòdia n'atura quatre. Puigcerdà guanya i passa a la final.\n\nAl vespre, l'avi i la Tòdia tornen a la pastisseria de les arcades. Ella encara porta la samarreta ratllada a sota de l'abric. L'avi li diu que el primer període no era tan depriment. «Per a tu, no», respon ella. «Jo era a la porteria.» L'avi riu. La Tòdia es mira la careta: la pintura de les muntanyes té tres ratlles noves, de tres discs que ha aturat. «No les tornaré a pintar», diu. «Així recordaré aquest partit.»\n\nPreguntes:\nOn passegen la Tòdia i el seu avi dissabte a la tarda?\nPassegen per sota les arcades de la plaça.\nQuè pinta la Tòdia a la careta?\nHi pinta les muntanyes de la Cerdanya, amb el Puigmal a l'esquerra i un cel porpra.\nCom és la samarreta de l'equip de Puigcerdà?\nÉs ratllada de blanc i blau.\nPer què el primer període és depriment?\nPerquè els rivals marquen dos gols en cinc minuts.\nQuè passa quan hi ha empat?\nEl partit es perllonga cinc minuts més, i després cada equip fa cinc llançaments."
+    }
+  ]
+}
