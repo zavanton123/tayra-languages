@@ -23,6 +23,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.style.TextAlign
@@ -79,15 +80,18 @@ fun PlayerBar(onNavigate: (Route) -> Unit, onPlayerScreen: Boolean, viewModel: P
     }
 }
 
-/** The text and its playlist, opening the place named by [tip]. */
+/**
+ * The text and its playlist, opening the place named by [tip]: the text in the reader, which its
+ * icon shows as a page, or the player, shown as headphones.
+ */
 @Composable
-private fun NowPlayingTitle(state: PlayerUiState, modifier: Modifier, tip: String, onOpen: () -> Unit) {
+private fun NowPlayingTitle(state: PlayerUiState, modifier: Modifier, opensText: Boolean, tip: String, onOpen: () -> Unit) {
     // The tooltip does not pass a weight on, so the box carries it.
-    Box(modifier) { AppTooltip(tip) { NowPlayingTitleRow(state, Modifier.fillMaxWidth(), onOpen) } }
+    Box(modifier) { AppTooltip(tip) { NowPlayingTitleRow(state, Modifier.fillMaxWidth(), if (opensText) AppIcons.Description else AppIcons.Headphones, onOpen) } }
 }
 
 @Composable
-private fun NowPlayingTitleRow(state: PlayerUiState, modifier: Modifier, onOpen: () -> Unit) {
+private fun NowPlayingTitleRow(state: PlayerUiState, modifier: Modifier, icon: ImageVector, onOpen: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     val p = state.player
     Row(
@@ -95,7 +99,7 @@ private fun NowPlayingTitleRow(state: PlayerUiState, modifier: Modifier, onOpen:
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(AppSpacing.m),
     ) {
-        IconTile(AppIcons.Description, size = TILE)
+        IconTile(icon, size = TILE)
         Column(Modifier.weight(1f)) {
             Text(p.item?.title.orEmpty(), style = AppText.label, maxLines = 1, overflow = TextOverflow.Ellipsis)
             Text(p.playlist?.name.orEmpty(), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant, maxLines = 1, overflow = TextOverflow.Ellipsis)
@@ -107,7 +111,7 @@ private fun NowPlayingTitleRow(state: PlayerUiState, modifier: Modifier, onOpen:
 private fun MiniBar(state: PlayerUiState, viewModel: PlayerViewModel, onOpen: () -> Unit) {
     val p = state.player
     Row(Modifier.fillMaxWidth().padding(horizontal = AppSpacing.m, vertical = AppSpacing.s), verticalAlignment = Alignment.CenterVertically) {
-        NowPlayingTitle(state, Modifier.weight(1f).testTag("open-player"), tr("Open the player"), onOpen)
+        NowPlayingTitle(state, Modifier.weight(1f).testTag("open-player"), opensText = false, tr("Open the player"), onOpen)
         PlayPauseButton(state, viewModel, IconButtonSize.Regular)
         Tip(tr("Next text")) { AppIconButton(AppIcons.SkipNext, contentDescription = it, onClick = viewModel.player::next, enabled = p.hasNext) }
         CloseButton(viewModel)
@@ -123,9 +127,9 @@ private fun WideBar(state: PlayerUiState, viewModel: PlayerViewModel, onNavigate
     ) {
         // The text opens the player, and on the player it goes back to the text in the reader.
         if (onPlayerScreen) {
-            NowPlayingTitle(state, Modifier.weight(1f).testTag("open-text"), backToTextLabel(state).orEmpty(), onOpen = { textRoute(state)?.let(onNavigate) })
+            NowPlayingTitle(state, Modifier.weight(1f).testTag("open-text"), opensText = true, backToTextLabel(state).orEmpty(), onOpen = { textRoute(state)?.let(onNavigate) })
         } else {
-            NowPlayingTitle(state, Modifier.weight(1f).testTag("open-player"), tr("Open the player"), onOpen = { onNavigate(Route.Player) })
+            NowPlayingTitle(state, Modifier.weight(1f).testTag("open-player"), opensText = false, tr("Open the player"), onOpen = { onNavigate(Route.Player) })
         }
         PlayerControls(state, viewModel, Modifier.weight(2.2f), wide = true)
         CloseButton(viewModel)
