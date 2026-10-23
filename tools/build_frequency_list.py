@@ -112,6 +112,9 @@ SOURCE_ORDER["ro"] = ["wordfreq", "frequencywords"]
 SOURCE_ORDER["sk"] = ["wordfreq", "frequencywords"]
 # Languages whose sources are all blended, however many forms the first has.
 BLEND = {"ko"}
+# Galician is counted from subtitles alone, as its list was first built (wordfreq has no Galician, and the Wikipedia
+# dump blended in after FrequencyWords would add encyclopaedic words).
+SOURCE_ORDER["gl"] = ["frequencywords"]
 
 # The gloss language of the pack whose forms group a language's words, where English's is small.
 DICTIONARY_TARGETS = {"br": "fr"}

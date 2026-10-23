@@ -1,13 +1,13 @@
 # source: FrequencyWords gl (OpenSubtitles 2018) (CC BY-SA 4.0)
 # words: 10000
-de	de do da dos das dun dunha daquela deste del deles dela dese destes deses doutro delas doutra duns doutros daquel doutras des
-a	a as ao aos ás ós la las
+a	a as ao á aos ás ó ós la las
+de	de do da dos das dun dunha daquela diso deste desta del deles dela dese disto desa destes deses destas doutro desas delas doutra dalgún duns doutros dalgunha daquel daqueles doutras dunhas dalgúns des daquilo dalgunhas daquelas
 que	que qué
 o	o os los lo
 non	non nons
 e	e
 un	un unha uns unhas
-en	en no na nos nun nas nunha neste nel nela noutro noutra naquel neles nuns nelas nunhas
+en	en no na nos nun nas nunha neste nesta nese niso nesa nel nela nisto noutro nestes nalgún nestas noutra naquel noutras neles neses nesas nuns noutros naquela nalgunha nalgúns nelas nunhas naqueles nalgunhas naquelas naquilo
 ser	son era ser foi es sexa será somos sería eran foron fun fose sodes serán sendo sexas fora sexan fomos sido eras fuches eramos serei serás seres sede seren fosen sé és seria seremos foran for serían serías sexamos sermos
 estar	está estou estás estaba están estar estamos estado estaban estiven estea estivo estades estabamos estabas estará estaría estiveches estados estarei estivese estean esteas estivemos estaremos estivera estarás estarán estiveron estando esteamos estarías estariamos estarían estivesen estabades estiveses estivésemos estiveras estiveramos
 por	por polo pola polos polas pela
@@ -16,7 +16,7 @@ ir	vai vou ir imos foi vas vamos van vaia ía foron fun fose irei ían ides vaia
 se	se
 para	para paras
 poder	pode podo podes podería podemos poder poden podía poida poderías puiden puido poderiamos podedes poderían puidese podían poderá poidamos podías poderás poidas puidera poidan poderemos poderíamos poderei podiamos puideron puidemos poderes puideches poderán poda poderiades puidesen puideses puideran puidésemos puideras
-con	con co coa cos cun coas cunha cunhas cons
+con	con co coa cos cun coas cunha cuns cunhas cons
 facer	facer fai feito fixo fas fixen fan fago faga fixeches facendo fixeron facemos fagas facía farei fixemos faría feitos fará fagan feita fixera faremos facedes facían fagamos farías fixese farán farás facías facede fixestes fixeran feitas faciamos fagades farían fixa
 seu	súa seu seus súas
 meu	meu miña meus miñas
@@ -34,7 +34,7 @@ este	esta este estes estas estoutro
 pero	pero peros
 ver	ver vin ven vexo ves ve vista viches viu verán vimos vía vemos veremos vira vexa visto verás vendo vexamos viron vexan verá verdes vistes vías vedes verei vexas vistas viran vise vi viras veredes vería viste vises visen via
 aquí	aquí
-me	me
+me	me mo ma
 iso	iso
 teu	teu túa teus túas
 xa	xa
@@ -51,13 +51,13 @@ te	te tes
 deber	debe debería debemos debo debes deben deberías deberiamos deber debía deberían debera debido debeu debín deberas deberes deberiades debedes deberan debían deberá debiamos debiches deberon deba debías deberemos debese debamos deberán deberamos deberás debida deban debeses deberedes deberei debestes deberades
 así	así
 moi	moi
+lle	lle lles llo lla llos llelo llas
 onde	onde
 moito	moito moitos moitas moita muito
 nada	nada
 noso	noso nosa nosos nosas
 pensar	penso pensar pensei pensas pensa pensaba pensando pensan pensamos pensou pense penses pensaches pensades pensado pensara pensen pensabamos pensabas pensaron pensará pensaría pensaban pensade pensemos pensarías pensarei pensarán pensedes pensarás pensase pensada pensasen pensarían pensastes pensaran pensados pensaramos pensabades pensaremos
 señor	señor señora señores señoras
-lle	lle lles
 el	el
 día	día días
 bo	bo boa boas bos
@@ -79,11 +79,11 @@ tempo	tempo tempos
 xente	xente xentes
 dar	dar dá deu dou dan dean dando deron dea dado dei daba demos deches daría damos deas dera dás dará darei dada dados daban darán daremos deran dade dadas deamos dades desen darás deste deades darían dabamos deem dabas deren
 mais	mais
+che	che cho cha chas chos
 chegar	chegar chegou chega chegamos cheguei chegue chegaron chegada chegan chego chegará chegaches chegaba chegas chegando chegara chegado chegaría cheguen cheguemos chegaremos chegarán chegarás chegues chegaban chegarei chegaran chegase chegados chegades chegaren chegaredes chegarían chegabamos cheguedes chegares chegasen chegastes chegases chegaras
+nós	nós nos nolo nola
 tamén	tamén
 vostede	vostede vostedes
-che	che cho chos
-nós	nós nos
 nunca	nunca
 volver	volver volve volveu volva volvo volverei volvín volvas volverá volves volvemos volveremos volven volvan volveron volviches voltas volvendo volvede volvamos volvería volverán volverás volvía volvese volvera volvían volvedes volto volveses volvesen volvades volvías volverías volveran volvestes volveriamos volveras volveren volverían
 vivir	vivir vivo vive viva viven vivimos vivía vivindo vives vivos viviu vivín vivían viviamos vivas vivirá vivido vivan vivirei viviron viviría viviches vivira vivirán vivamos vivise vivías vivida vivides viviremos vivirás vivisen vivide vividos vivirían vivades viviras vivirías viviredes vividas
@@ -147,13 +147,13 @@ tanto	tanto tanta tantos tantas
 cada	cada
 comezar	comezar comezou comezo comeza comezamos comecei comezaron comezan comezas comece comezando comezaremos comezos comecemos comezara comezaba comezaches comezarei comezará comezarán comezade comecen comezado comezaban comezades comezaran comezase comeces comenzar comezaramos comezaría comezarás comezasen comezastes comezada comezarían comezarmos comezásemos comezabamos comezabas
 man	man mans mao maos
+vós	vós vos volo vola
 parte	parte partes
 alguén	alguén
 cara	cara caras
 lugar	lugar lugares
 esperar	espero espera esperar esperando espere esperaba esperamos esperas esperan esperade esperen esperei esperemos esperes esperarei esperabas esperabamos esperaría esperou esperaban esperará esperado esperarmos esperaron esperades esperase esperaremos esperabades esperaredes esperases esperara esperai esperaches esperaríamos
 moza	moza mozo mozos mozas
-vós	vós vos
 escoitar	escoita escoitar escoitei escoite escoito escoitade escoitamos escoitas escoiten escoitando escoitou escoitaron escoitaches escoitan escoitaba escoitara escoites escoitado escoitará escoitarán escoitase escoitastes escoitados escoitaramos escoitades escoitada escoitabas escoitedes escoitemos escoitaran escoitaremos escoitarei escoitases escoitáramos escoitaban escoitasen escoitaredes escoitarás escoitaría escoitares
 mañá	mañá mañás
 problema	problema problemas
@@ -523,6 +523,7 @@ tranquilo	tranquilo tranquila tranquilos tranquilas
 música	música músicas
 película	película películas
 doutor	doutor doutora doutores doutoras
+tras	tras trala tralo tralas tralos
 equipo	equipo equipos
 sociedade	sociedade sociedades
 café	café cafés
@@ -544,7 +545,6 @@ azul	azuis azul
 cambio	cambio cambios
 dirixir	dirixir dirixe dirixida dirixido dirixía dirixindo dirixidos dirixo dirixas dirixiu dirixen dirixidas dirixan dirixiron dirixiamos diriximos dirixa dirixirá dirixides dirixes dirixirei dirixirás dirixise dirixín dirixiches dirixían dirixiran dirixira dirixías dirixiremos dirixirmos
 sete	sete setes
-tras	tras tralo tralos
 avión	avión avións
 próximo	próxima próximo próximos próximas
 verdadeiro	verdadeiro verdadeira verdadeiros verdadeiras
@@ -696,7 +696,6 @@ explicar	explicar explica explique explicou expliquei explican explicando explic
 arte	arte artes
 inglés	inglés ingleses inglesa inglesas
 flor	flores flor
-distar	disto diste distan
 valor	valor valores
 pegar	pegadas pegar pegada pega pegados pegou pegado pegas pegues pegue peguei pegaches pegaron cumprido pegan pegara pegará pego pegaría pegaran pegamos pegando pegasen peguen pegaba pegaban peguemos pegaremos pegarmos cumprida cumpridas cumpridos
 pelexar	pelexar pelexa pelexas pelexamos pelexo pelexando pelexaron pelexes pelexan pelexou pelexarei pelexade pelexe pelexaches pelexaba pelexades pelexaremos pelexarán pelexabas pelexei pelexaban pelexedes pelexabamos pelexara pelexaran pelexado pelexen
@@ -867,7 +866,6 @@ durar	durou durar durará dura duran dure duraría durase duraba duras durara du
 doado	doado doada doadas doados
 amo	amo amos amas
 precioso	precioso preciosa preciosas preciosos
-niso	niso
 patrón	patrón patróns patroa
 pertencer	pertence pertencen pertencía pertencer pertenzas pertenzo pertenceu pertencían pertences pertencedes pertencemos pertenza pertencendo pertencería pertencesen pertenceran pertenzan pertencín
 principal	principal principais
@@ -999,7 +997,6 @@ fracasar	fracaso fracasar fracasado fracasou fracasos fracasaron fracasados frac
 rexeitar	rexeitar rexeita rexeitan rexeitou rexeitado rexeitaron rexeito rexeitada rexeitamos rexeitando rexeitados rexeitas rexeitei rexeitastes rexeitaría rexeitaren rexeitadas rexeitases rexeitades rexeitabamos rexeitaran rexeite rexeitaches rexeites rexeitarían rexeiten
 enerxía	enerxía enerxías
 investigación	investigación investigacións
-dalgún	dalgún dalgunha dalgúns dalgunhas
 palestino	palestina palestinos palestino palestinas
 sombra	sombra sombras
 cargo	cargo cargos
@@ -1099,7 +1096,6 @@ cantidade	cantidade cantidades
 exacto	exacto exacta exactos exactas
 contrato	contrato contratos
 rostro	rostro rostros
-nalgún	nalgún nalgunha nalgúns nalgunhas
 fumar	fumar fumas fuma fumo fumando fumei fuman fumamos fumos fumaches fumabamos fumara fumou fumen fumaba fumabas fumada fumases fumemos fumes
 regra	regras regra
 mellorar	mellorar mellora melloras mellorou mellorando melloraches mellore melloraron mellorado mellorada melloran melloradas melloraban melloraría mellorará melloraran melloramos melloraren mellorase mellorarían mellorados
@@ -1472,7 +1468,6 @@ enfadar	enfadado enfadada enfades enfado enfade enfadar enfada enfadados enfadas
 ruta	ruta rutas
 árabe	árabe árabes
 revista	revista revistas
-noutras	noutras noutros noutro noutra
 interesado	interesado interesados interesada interesadas
 prohibido	prohibido prohibida prohibidas prohibidos
 ameazar	ameazado ameazan ameazar ameazou ameazando ameazados ameazada ameazaban ameazaba ameazaron ameace ameazas ameazará ameazo ameazaches ameazadas ameazara ameacei
@@ -2363,7 +2358,6 @@ pavo	pavos pavo
 concepto	concepto conceptos
 sesión	sesión sesións
 asociación	asociación asociacións
-cha	cha chas
 regalo	regalo regalos
 israelí	israelí israelís
 independente	independente independentes
@@ -2706,7 +2700,6 @@ xogador	xogador xogadores xogadora
 envexa	envexa envexas
 propor	propoño propón propós proposto propuxo propuxemos proporá propuxeron propuxera propor proporía propuña propostos propuxen propostas
 prima	prima primas
-cuns	cuns cunhas
 quentar	quentar quenta quentando quentes quentan quentamos quentado quentade quentada quentas
 suspender	suspender suspendido suspendida suspendeu suspendidas suspendidos suspenderon suspenderá suspendín suspendan suspendía suspendera suspenderemos suspende
 derramar	derramar derramou derramado derramando derrame derramaron derramase derramades derramarei derramas derraman derramei derramadas derrama derramaría derramemos
@@ -7146,6 +7139,7 @@ caricatura	caricaturas caricatura
 parisiense	parisiense parisienses
 chicano	chicanos chicana
 centeo	centeo centeas
+distar	diste distan
 desvantaxe	desvantaxe desvantaxes
 empresarial	empresarial empresariais
 canoa	canoa canoas
@@ -10000,3 +9994,9 @@ eslavar	eslavos
 porcallán	porcallán
 pole	pole
 condescendente	condescendente
+conxelación	conxelación
+autenticidade	autenticidade
+socioloxía	socioloxía
+desfalcar	desfalco
+catalizador	catalizador
+designación	designación

@@ -499,6 +499,19 @@ _OVERRIDES_B = {
         "ao": ["a"], "aos": ["a"], "ás": ["a"], "ós": ["a"],
         "co": ["con"], "coa": ["con"], "cos": ["con"], "coas": ["con"], "cun": ["con"], "cunha": ["con"],
         "polo": ["por"], "pola": ["por"], "polos": ["por"], "polas": ["por"],
+        # The other contractions go to their preposition too: á (a + a) and the demonstratives' and indefinites'
+        # (desta, diso, nesta, nese, noutro, dalgún) had been dropped, filed under a rare verb (disto, of distar) or
+        # left as words of their own (niso, dalgún, nalgún); so do the pronoun pairs mo, llo, cha, nolo, volo.
+        "á": ["a"], "ó": ["a"], "cuns": ["con"], "cunhas": ["con"], "trala": ["tras"], "tralas": ["tras"],
+        "desta": ["de"], "destas": ["de"], "desa": ["de"], "desas": ["de"], "daqueles": ["de"], "daquelas": ["de"],
+        "disto": ["de"], "diso": ["de"], "daquilo": ["de"], "dunhas": ["de"],
+        "dalgún": ["de"], "dalgunha": ["de"], "dalgúns": ["de"], "dalgunhas": ["de"],
+        "nesta": ["en"], "nestes": ["en"], "nestas": ["en"], "nese": ["en"], "nesa": ["en"], "neses": ["en"], "nesas": ["en"],
+        "naquela": ["en"], "naqueles": ["en"], "naquelas": ["en"], "nisto": ["en"], "niso": ["en"], "naquilo": ["en"],
+        "noutro": ["en"], "noutra": ["en"], "noutros": ["en"], "noutras": ["en"],
+        "nalgún": ["en"], "nalgunha": ["en"], "nalgúns": ["en"], "nalgunhas": ["en"],
+        "mo": ["me"], "ma": ["me"], "llo": ["lle"], "lla": ["lle"], "llos": ["lle"], "llas": ["lle"], "llelo": ["lle"],
+        "cha": ["che"], "chas": ["che"], "nolo": ["nós"], "nola": ["nós"], "volo": ["vós"], "vola": ["vós"],
         "se": ["se"], "me": ["me"], "te": ["te"], "che": ["che"], "cho": ["che"], "chos": ["che"], "lle": ["lle"], "lles": ["lle"],
         "isto": ["isto"], "iso": ["iso"], "aquilo": ["aquilo"], "moi": ["moi"],
         "este": ["este"], "ese": ["ese"], "aquel": ["aquel"], "outro": ["outro"], "algún": ["algún"],
