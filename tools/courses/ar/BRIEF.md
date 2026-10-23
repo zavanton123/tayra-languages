@@ -233,7 +233,7 @@ Things to know about the Arabic list and the checker:
   does.
 - **The letters in front are words.** The reader cuts the letters written onto a word's front:
   *و* or *ف*, then *ب*, *ك* or *ل*, the article *ال* or both (*بال*, *كال*), *لل* for *ل + ال*, and *س*
-  before a present-tense verb (*سيذهب*). Each piece is a word of its own, in the length too:
+  before a present-tense verb (*سيذهب*, *سآخذ*). Each piece is a word of its own, in the length too:
   *والكتاب* is *و* + *ال* + *كتاب*, three words, *وسيكتب* is *و* + *س* + *يكتب*. These eight pieces
   are list words of band 1 (*ال* 1, *و* 2, *ب* 5, *ل* 7, *لل* 15, *ف* 20, *س* 40, *ك* 68), taught in
   the first course simply by using them, and known everywhere after. A word with a pronoun after it
@@ -241,10 +241,11 @@ Things to know about the Arabic list and the checker:
   known.
 - **A word the list has whole is never cut**: *وصل*, *ولد*, *بنت*, *كما*, *فيما*, *مما*, *لما*, *بل*,
   *بدون*, *بسبب*, *باسم*, *لدى*, *لأن*, *لكي*, *لذلك*, *كذلك*, *لقد*, *اليوم*, *الآن*, *الذي*, *برد* "cold"
-  (1938), *لبن* "milk" (3294) stay whole, and so does a headword with a pronoun after it: *كلنا* counts
+  (1963), *لبن* "milk" (3295) stay whole, and so does a headword with a pronoun after it: *كلنا* counts
   as *كل*, *بابي* as *باب*, *ولدي* as *ولد*. After *و* or *ف* such a word is not cut further (*ولأن*
   is *و* + *لأن*, a use of *لأن*, and *ولقد* is *و* + *لقد*), and after *لل* a word of the list is the
-  article's (*للبنك* is *لل* + *بنك*).
+  article's (*للبنك* is *لل* + *بنك*) unless *ل* is on a word of the list (*للجنة* is *ل* + *لجنة*,
+  *للعب* is *ل* + *لعب*).
 - **فقد and فهم go by the word after them.** *فقد* is "lost" (636) before a word with *ال* or at the
   end of a sentence (*فقد الولد المفتاح*), and *ف* + *قد* before anything else (*فقد قال* is *ف* + *قد*
   + *قال*): to teach "lost", put a word with *ال* after it (*فقد الولد المفتاح*), or use its other
@@ -254,8 +255,8 @@ Things to know about the Arabic list and the checker:
   (see the writers' instructions) on any word you are not sure of.
 - The list was built from news and web text, so politics rank high and many everyday words rank
   later than you might expect: *أم* 99, *أب* 105, *هل* 117, *بيت* 200, *ماء* 201, *ذهب* 315, *صغير* 149,
-  *ماذا* 446, *نعم* 762, *شكرا* 773, *أكل* 780, *أين* 806, *متى* 915, *شرب* 1150, *أخت* 1020, *نام* 1354,
-  *قهوة* 1754, *مطبخ* 1889, *شاي* 2134, *خبز* 2361, *قط* 1780 (with *قطة*); *طفلة* counts as *طفل*.
+  *ماذا* 446, *نعم* 762, *شكرا* 773, *أكل* 780, *أين* 806, *متى* 915, *شرب* 1152, *أخت* 1020, *نام* 1355,
+  *قهوة* 1754, *مطبخ* 1886, *شاي* 2136, *خبز* 2364, *قط* 1788 (with *قطة*); *طفلة* counts as *طفل*.
   Check a word's rank rather than guess it. In the first bands, *ما الذي* (all band 1) asks "what"
   where *ماذا* costs a word, *من* and *أي* ask "who" and "which" (*في أي مدينة؟*).
 - The list files the forms of a word under its headword: the persons and tenses of verbs under the
@@ -268,18 +269,23 @@ Things to know about the Arabic list and the checker:
     *أنفس*), and the presents the dictionary has as words of their own under their verbs (*ترى* and *أرى*
     under *رأى*, *تبقى* under *بقي*, *توجد* under *وجد*, *تصل* under *وصل*, *تقرأ* under *قرأ*), as are
     *أعرف*, *أعلم* and *أفعل* "I know, I do"; *أمه*, *تقوله*, *أجده*, *أبا*, *أباه*, *شخصا*, *اسمي*,
-    *حياتي* are under their words too (`extra_forms.tsv` keeps *تعمله*);
+    *حياتي* are under their words too (`extra_forms.tsv` keeps *تعمله*); so are *ليست* and *لست* (under
+    *ليس*), *المرأة* (*ال* + *امرأة*), *يده*, *يدك* (under *يد*), *وحده*, *وحدها*, *وحدي* (under *وحد* "alone",
+    1001), and the duals and the verbs' feminine plurals (*نقطتان*, *مرتين* under *مرة*, *عينيك* under *عين*,
+    *يأخذان*, *تأخذا*, *قلن*, *يضحكن*);
   - "my X" spelled like an adjective in *-ي* (*يومي* "my day" and "daily", *عملي*, *بلدي*, *هاتفي*,
     *زوجي*, *رأسي*, *مثلي*, *قلبي*, *حياتي*) is listed under the noun as well as on its own, and the
     checker counts it as the noun: it is a use of *يوم*, *هاتف*, *مثل*, never of the adjective, which
-    can only be taught where "my X" is rare (*عالمي* 181, *علمي* 713, *شعبي* 571);
+    can only be taught where "my X" is rare (*عالمي* 181, *علمي* 713, *شعبي* 571); *مالي* "financial" and
+    *داخلي* "internal" are words of their own;
   - still entries of their own: number words in two genders (*ثلاثة* 285 / *ثلاث* 435, *خمس* /
     *خمسة*, *ست* / *ستة*) and *تعد* 827 ("is considered", "you return", "she promises"). Each such pair
     is one word: teach the one that comes first and never the other (it is a form of a taught word), and
     remember that the later one counts only at its own rank. Lexicalised words are words of their own:
     *كثيرا* 428 "a lot", *مباشرة* "directly", *خاصة* "especially", *عامة* "public", *نساء* "women",
     *جامعة* "university", *طائرة* "aeroplane", *جنسية* "nationality", *نظرية* "theory", *معلومات*
-    "information";
+    "information"; and *زوجة* "wife" (not *زوج*'s), *بدا* "to seem" (not *بدأ*'s), *تحدث* "to talk" (not
+    *حدث*'s), *لعب* "to play" and *لعبة* "game", *أخبر* "to tell" (not *خبر*'s);
   - **homographs**: unvowelled Arabic writes many words alike, and a form counts for every word
     that has it: *علم* "knowledge", "flag", "knew"; *كتب* "wrote" and "books" (*الكتب* counts as the
     verb, so *كتاب* is never taught through it); *ذهب* "went" and "gold"; *عمر* "age" and the name;
