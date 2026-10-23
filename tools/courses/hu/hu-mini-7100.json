@@ -1,0 +1,184 @@
+{
+  "id": "hu-mini-7100",
+  "rankUpTo": 7100,
+  "level": "C1",
+  "title": "Népegészségügy",
+  "description": "Ten standalone stories about public health in Hungary: flu jabs at a district clinic, sleep after night shifts, sport, lab results, slow eating, posture at work, a student health day, a mobile clinic, handwashing in a kindergarten and a column on taking the stairs.",
+  "topic": "Public health",
+  "names": [
+    "Soltész",
+    "Malvina",
+    "Csepel",
+    "Lóczy",
+    "Violetta",
+    "Pákozd",
+    "Gerendás",
+    "Székesfehérvár",
+    "Bertényi",
+    "Mariella",
+    "Sárvár",
+    "Csengeri",
+    "Cirill",
+    "Alina",
+    "Budapest",
+    "Mányoki",
+    "Estella",
+    "Fióna",
+    "Veszprém",
+    "Gyetvai",
+    "Pomáz",
+    "Blanka",
+    "Lorina",
+    "Debrecen",
+    "Galgóczi",
+    "Csengele",
+    "Zorina",
+    "Baldvin",
+    "Ditrói",
+    "Anetta",
+    "Gödöllő",
+    "Kormi",
+    "Csöpi",
+    "Budaörs",
+    "Petrás",
+    "Netta"
+  ],
+  "lessons": [
+    {
+      "title": "Oltás a sarki rendelőben",
+      "summary": "Practice assistant Malvina posts letters to every patient over sixty in her Csepel district, and far more older people come for their yearly flu jab at the clinic in an old corner house.",
+      "newWords": [
+        "oltás",
+        "városrész",
+        "környékbeli",
+        "sarki",
+        "újbóli",
+        "kiküld",
+        "emléktábla",
+        "egészségi"
+      ],
+      "text": "Soltész Malvina húsz éve dolgozik asszisztensként egy háziorvosi rendelőben Csepelen. A rendelő egy régi sarki házban van, egy pékség és egy kis gyógyszertár között. A bejárat mellett emléktábla van a falon. Az emléktábla szerint ebben a házban nyílt meg 1952-ben a városrész első gyermekorvosi rendelője. Malvina minden reggel elmegy az emléktábla előtt, és néha eszébe jut, hány gyerek járt már ide az elmúlt 70 évben.\n\nŐsszel a rendelőben az influenza elleni oltás a legfontosabb feladat. Lóczy doktor, a háziorvos, idén azt szerette volna, hogy több idős ember kérje az oltást, mint tavaly. Tavaly ugyanis a környékbeli nyugdíjasok közül sokan nem jöttek el, mert nem tudták, mikor és hol lehet oltást kapni.\n\nEzért Malvina szeptemberben levelet írt minden hatvan év feletti betegnek, és egy hét alatt mind a 400-at kiküldte. A levélben leírta, hogy az oltás ingyenes, hogy időpontot telefonon vagy személyesen lehet kérni, és hogy a rendelő szombat délelőtt is nyitva lesz. Lóczy doktor a sarki pékségbe és a gyógyszertárba is kitett egy-egy plakátot, mert a környékbeli idősek oda szinte minden nap bemennek.\n\nMiután a leveleket kiküldte, a telefon napokig egész nap csörgött. Sokan azt kérdezték, kell-e oltás annak, aki tavaly már kapott egyet.\n– Igen, minden évben újbóli oltásra van szükség – magyarázta Malvina türelmesen. – Az influenza vírusa évről évre változik, ezért a tavalyi oltás idén már nem véd elég jól.\n\nAz újbóli oltás előtt Lóczy doktor mindenkitől megkérdezte, milyen az egészségi állapota. Megmérte a lázát, megkérdezte, van-e allergiája, és milyen gyógyszert szed. Akinek láza volt, az egy héttel később jöhetett vissza.\n\nEgy szombat délelőtt egy idős férfi érkezett, a kezében Malvina levelével.\n– Ötven éve lakom ebben a városrészben – mondta –, de még sosem kaptam ilyen levelet. Azt hittem, az oltás csak a fiataloknak való.\n– Pont fordítva – mosolygott Malvina. – Az idősebbeknek a legfontosabb.\nA férfi megkapta az oltást, aztán kifelé menet megállt az emléktábla előtt.\n– Gyerekkoromban én is ide jártam – mondta. – Akkor is ebben a sarki házban oltottak.\n\nOktóber végére a rendelőben több mint 300 embert oltottak be, majdnem kétszer annyit, mint tavaly. Lóczy doktor elégedett volt. Malvina pedig már tudta, hogy jövőre is kiküldi a leveleket, mert a környékbeli idősek egy része csak így értesül az oltásról.\n\nKérdések:\nHol dolgozik Soltész Malvina?\nEgy háziorvosi rendelőben dolgozik Csepelen, egy régi sarki házban.\nMi áll az emléktáblán?\nAz, hogy ebben a házban nyílt meg 1952-ben a városrész első gyermekorvosi rendelője.\nMiért küldte ki Malvina a leveleket?\nMert tavaly sok környékbeli nyugdíjas nem tudta, mikor és hol kaphat oltást.\nMiért van szükség minden évben újbóli oltásra?\nMert az influenza vírusa évről évre változik, és a tavalyi oltás már nem véd elég jól.\nMit kérdezett meg Lóczy doktor az oltás előtt?\nMegkérdezte, milyen a betegek egészségi állapota, van-e allergiájuk, és milyen gyógyszert szednek.\nMit mondott az idős férfi az emléktábla előtt?\nAzt, hogy gyerekkorában ő is ide járt, és akkor is ebben a sarki házban oltottak."
+    },
+    {
+      "title": "Kakas a szomszédban",
+      "summary": "Night-shift nurse Violetta cannot sleep in the day because of her new neighbour's rooster; instead of shouting she talks to him, and he moves the bird into a thick-walled hut at the end of his garden.",
+      "newWords": [
+        "kakas",
+        "üvölt",
+        "megbocsátás",
+        "határozatlan",
+        "kunyhó",
+        "enélkül"
+      ],
+      "text": "Violetta ápolóként dolgozik a kórházban Székesfehérváron. Három hete éjszakai műszakban van: este hétkor kezd, és reggel hétkor végez. Pákozdon lakik, egy csendes utcában, ahonnan húsz perc alatt ér haza. Reggel nyolckor fekszik le, és délután háromig alszik. Legalábbis így tervezte.\n\nTavasszal ugyanis új szomszéd költözött a szomszéd házba, Gerendás úr, és hozott magával egy kakast is. A kakas nemcsak hajnalban szólt, hanem egész délelőtt. Violetta hiába húzta be a függönyt, és hiába tett füldugót a fülébe: a kakas hangja mindenen átjött. Eddig úgy gondolta, hogy a füldugó a legjobb barátja, és enélkül egy percet sem tudna aludni. Most már a füldugó sem segített.\n\nEgy héten át alig aludt napi négy órát. Fájt a feje, a munkában figyelmetlen lett, és egyszer kis híján rossz gyógyszert adott egy betegnek. Ekkor megijedt. Tudta, hogy a kevés alvás nemcsak neki árt, hanem a betegeinek is.\n\nEgy délelőtt, amikor a kakas már a harmadik órája szólt, Violetta úgy érezte, legszívesebben üvöltene. Nem üvöltött. Felöltözött, és átment a szomszédba.\n– Elnézést, hogy zavarom – mondta Gerendás úrnak. – Éjszaka dolgozom a kórházban, és nappal kell aludnom. A kakasa miatt egy hete nem tudok pihenni.\nGerendás úr meglepődött. Ő minden reggel hatkor kelt, és sosem gondolt arra, hogy valaki ilyenkor alszik.\n– Nem is tudtam – mondta zavartan. – Bocsánatot kérek. De mit tehetnék? A kakast nem adhatom el, az unokáim nagyon szeretik.\nEgy darabig határozatlan volt, nem tudta, mit mondjon. Aztán eszébe jutott valami.\n– A kert végében van egy régi kunyhó – mondta. – Vastag a fala, és csak egy kis ablaka van. Ha a kakas ott alszik, és csak délben engedem ki, talán nem hallja.\n\nMásnap Gerendás úr kitakarította a kunyhót, és odavitte a kakast. Violetta reggel nyolckor füldugó nélkül feküdt le. A kakas hangja most messziről, halkan szólt a kunyhóból, és Violetta hamar elaludt. Délután háromig egyszer sem ébredt fel.\n\nEgy hét múlva Violetta egy tál süteményt vitt át a szomszédba.\n– Köszönöm a kunyhót – mondta. – Enélkül már nem bírtam volna sokáig.\n– Én köszönöm a megbocsátást – felelte Gerendás úr. – Amikor ideköltöztem, határozatlan voltam, maradjon-e a kakas. Most már tudom: maradhat, de a kunyhóban.\nVioletta úgy érezte, a megbocsátás neki is jót tett. A jó alvás néha egy nyugodt beszélgetésen múlik.\n\nKérdések:\nMikor alszik Violetta, és miért?\nReggel nyolctól délután háromig alszik, mert éjszakai műszakban dolgozik.\nMi zavarta az alvását?\nA szomszéd kakasa, amely egész délelőtt szólt.\nMiért ijedt meg Violetta?\nMert a kevés alvás miatt kis híján rossz gyógyszert adott egy betegnek.\nMit csinált Violetta ahelyett, hogy üvöltött volna?\nÁtment a szomszédba, és nyugodtan elmondta Gerendás úrnak, mi a baja.\nHová került a kakas?\nA kert végében lévő régi kunyhóba, amelynek vastag a fala.\nMit köszönt meg Gerendás úr Violettának?\nA megbocsátást."
+    },
+    {
+      "title": "Röplabda negyven felett",
+      "summary": "Office worker Mariella, a school volleyball champion in her youth, gets twenty colleagues and neighbours to share the cost of a court on Thursday evenings, and a retired PE teacher coaches them.",
+      "newWords": [
+        "röplabda",
+        "sportág",
+        "izmos",
+        "ifjúság",
+        "aranyérem",
+        "összefog",
+        "fejenként",
+        "ötszáz"
+      ],
+      "text": "Bertényi Mariella fiatal korában sokat játszott röplabdát. Ifjúsága legszebb éveit az edzéseken és a pályán töltötte: 17 évesen az iskolai csapattal aranyérmet nyert az országos bajnokságon. Az aranyérem ma is ott lóg a nappaliban, a könyvespolc mellett.\n\nMost negyvenhat éves, és egy irodában dolgozik Sárváron. Egész nap ül, este fáradt, és tavaly az orvosa figyelmeztette, hogy a vérnyomása magasabb a kelleténél. Az orvos azt mondta, hetente legalább kétszer mozognia kellene, és jobb, ha olyan sportágat választ, amelyet szívesen csinál, mert csak azt fogja kitartóan csinálni.\n\nMariella sokat gondolkodott. A futást unalmasnak találta, úszni pedig nem szeretett. Aztán meglátta a falon a régi aranyérmet, és eszébe jutott a röplabda. A röplabdát viszont egyedül nem lehet játszani: csapat kell hozzá. Megkérdezte a régi barátait, a kollégáit és a szomszédait. Kiderült, hogy sokan ugyanígy éreznek: mozogni szeretnének, de egyedül nem szívesen indulnak el.\n\nÖsszefogtak. A városi sportcsarnokban csütörtök esténként ki lehetett bérelni egy pályát, de egy óra tízezer forintba került. Ez egy embernek sok lett volna, de húszan voltak, így fejenként csak ötszáz forintot kellett fizetniük. Ötszáz forint egy edzésért: ennyit mindenki szívesen kifizetett.\n\nMariella egy izmos, fiatal edzőre számított. Végül egy hatvanéves, nyugdíjas testnevelő tanár, Csengeri Cirill vállalta el a csapatot. Nem volt különösebben izmos, de mindenkinél jobban értett a röplabdához. Az első edzésen ezt mondta:\n– Itt nem az számít, ki a legizmosabb. A röplabda olyan sportág, ahol a csapat nyer, nem egy ember. Ha összefogtok, jól fogtok játszani.\n\nAz első hetekben sokat nevettek, mert a labda gyakran a fejükre esett, vagy messze elrepült. Fél év alatt azonban egyre jobban ment a játék. Mariella karja és válla izmosabb lett, és az orvos is elégedett volt: a vérnyomása rendbe jött.\n\n– Az ifjúságom már nem jön vissza – mondta egyszer nevetve –, de csütörtök esténként majdnem úgy érzem magam, mint 17 évesen.\nTavasszal a csapat egy helyi tornán játszott más amatőr csapatok ellen. Aranyérmet nem nyertek, de nem is ez volt a cél. Utána fejenként ötszáz forintot gyűjtöttek össze, és ebből vettek egy új labdát.\n\nKérdések:\nMit nyert Mariella 17 évesen?\nAranyérmet nyert az iskolai csapattal az országos bajnokságon.\nMit tanácsolt neki az orvos?\nAzt, hogy hetente legalább kétszer mozogjon, és olyan sportágat válasszon, amelyet szívesen csinál.\nHogyan tudták kifizetni a pályát?\nHúszan összefogtak, így fejenként csak ötszáz forintot kellett fizetniük.\nKi lett az edzőjük?\nCsengeri Cirill, egy hatvanéves, nyugdíjas testnevelő tanár.\nMit mondott Cirill az első edzésen?\nAzt, hogy nem az számít, ki a legizmosabb, mert a röplabdában a csapat nyer.\nHogyan változott Mariella egészsége fél év alatt?\nIzmosabb lett a karja és a válla, és rendbe jött a vérnyomása."
+    },
+    {
+      "title": "Számok egy alkalmazásban",
+      "summary": "Alina panics when her lab results appear in a health app with a value marked in red; at a video consultation the doctor goes through the figures with her and explains that one doubtful value needs only a repeat test.",
+      "newWords": [
+        "vizsgálati",
+        "elemez",
+        "paraméter",
+        "kétséges",
+        "konzultáció",
+        "app"
+      ],
+      "text": "Alina harmincnégy éves, és Budapesten dolgozik egy könyvelőirodában. Ősszel sokszor fáradt volt, ezért a háziorvosa laborvizsgálatra küldte. Egy hét múlva a telefonja jelzett: a vizsgálati eredmények megérkeztek az egészségügyi appba.\n\nAlina rögtön megnyitotta az appot. Egy hosszú táblázatot látott, harminc paraméterrel. Minden paraméter mellett ott volt egy szám és egy tartomány, amelyen belül az érték normálisnak számít. Huszonnyolc paraméter rendben volt. Kettő mellett viszont piros jelet látott: a D-vitamin-szintje alacsony volt, egy májérték pedig kicsit magasabb a normálisnál.\n\nAlina megijedt. Este egy órán át olvasott az interneten a májról, és minden oldalon újabb betegségekről talált valamit. Minél többet olvasott, annál jobban aggódott. Éjjel alig aludt.\n\nMásnap reggel felhívta a rendelőt, és kért egy konzultációt. A konzultáció videón történt, így nem kellett szabadságot kivennie. Mányoki doktornő a képernyőn mosolygott rá.\n– Látom, megnézte az eredményeket az appban – mondta. – Most elemezzük őket együtt. Nem elég egy-egy számot nézni; a paramétereket mindig együtt kell elemezni, és figyelembe kell venni, hogyan érzi magát a beteg.\n\nA doktornő sorra vette a számokat. A D-vitaminról azt mondta, hogy ősszel és télen nagyon sokan hiányt szenvednek belőle, mert kevés a napfény. Alina valószínűleg ezért volt fáradt. Felírt neki D-vitamint, és azt tanácsolta, hogy ebédidőben sétáljon egy kicsit a szabadban.\n– És a májérték? – kérdezte Alina halkan.\n– Az az érték kétséges, de nem veszélyes – felelte a doktornő. – Csak kicsit magasabb a normálisnál. Ez gyakran attól van, hogy a beteg előző este nehéz ételt evett, vagy valamilyen gyógyszert vett be. Evett vagy vett be valamit a vizsgálat előtt?\nAlina elgondolkodott. A vizsgálat előtti estén fájt a feje, és bevett két fájdalomcsillapítót.\n– Akkor egy hónap múlva megismételjük – mondta a doktornő. – Egy kétséges érték még nem betegség. Az új vizsgálati eredményből többet fogunk tudni.\n\nEgy hónap múlva Alina újra elment a laborba. Most semmilyen gyógyszert nem vett be előtte. Az appban minden paraméter mellett zöld jel volt, és a fáradtsága is elmúlt.\n\nAlina azóta másképp nézi az eredményeit. Nem keresgél éjszaka az interneten, hanem kér egy konzultációt, és megvárja, hogy az orvos elemezze a számokat.\n\nKérdések:\nMiért küldte Alinát laborvizsgálatra a háziorvosa?\nMert ősszel sokat volt fáradt.\nHol látta Alina a vizsgálati eredményeket?\nAz egészségügyi appban, egy harminc paraméterből álló táblázatban.\nMit csinált Alina, amikor meglátta a piros jeleket?\nEgy órán át olvasott az interneten, egyre jobban aggódott, és éjjel alig aludt.\nHogyan történt a konzultáció?\nVideón, így nem kellett szabadságot kivennie.\nMit mondott a doktornő a kétséges értékről?\nAzt, hogy nem veszélyes, és valószínűleg a fájdalomcsillapító miatt magasabb, ezért egy hónap múlva megismétlik a vizsgálatot.\nMit csinál Alina azóta az eredményeivel?\nKonzultációt kér, és megvárja, hogy az orvos elemezze a számokat."
+    },
+    {
+      "title": "Lassan, kortyonként",
+      "summary": "Estella, who used to gulp her lunch, now chews slowly and drinks in small sips on her doctor's advice; her friend Fióna laughs, and the waitress in the Veszprém bistro has heard the same advice a hundred times from her grandmother.",
+      "newWords": [
+        "sonka",
+        "rág",
+        "korty",
+        "pincérnő",
+        "százszor"
+      ],
+      "text": "Estella és Fióna minden pénteken együtt ebédelnek Veszprémben, egy kis étteremben a munkahelyük közelében. Régen Estella mindig tíz perc alatt végzett az ebéddel. Gyorsan evett, alig rágott, és közben a telefonját nézte. Utána gyakran fájt a gyomra, és délután álmos volt.\n\nEgy hónapja elment az orvoshoz a gyomra miatt. Az orvos megvizsgálta, és azt mondta, hogy nincs komoly baj, csak túl gyorsan eszik.\n– Minden falatot legalább húszszor rágjon meg – tanácsolta. – Egyen lassan, és vizet is csak kis kortyokban igyon. És a sonkát meg a kolbászt egye ritkábban, mert sok bennük a só.\n\nEzen a pénteken Fióna már az asztalnál ült, amikor Estella megérkezett. A pincérnő hozta az étlapot.\n– A szokásosat? – kérdezte. – Sonkás tészta, nagy pohár üdítő?\n– Ma nem – mondta Estella. – Egy zöldséglevest kérek és egy grillezett csirkét salátával. És egy pohár vizet.\nA pincérnő csodálkozva írta fel. Fióna nevetett.\n– Mi történt veled? Mindig sonkás tésztát eszel.\n\nEstella elmesélte, mit mondott az orvos.\n– A sonkát sem kell teljesen elhagynom – tette hozzá. – Csak ritkábban ehetem.\nAmikor megjött a leves, lassan kanalazni kezdett. Minden falatot sokáig rágott, és közben számolt. Fióna jót nevetett rajta.\n– Számolod, hányszor rágod meg? – kérdezte nevetve.\n– Igen – felelte Estella. – Ha nem számolok, megint gyorsan eszem. Már százszor elhatároztam, hogy lassabban eszem, de eddig sosem sikerült.\n\nFióna is megpróbálta. Ő tizenkétszer rágta meg a falatot, aztán elnevette magát. Ezen most már Estella nevetett.\nA pincérnő a szomszéd asztaltól figyelte őket. Amikor kihozta a vizet, megállt egy pillanatra.\n– A nagymamám is mindig ezt mondta – szólt közbe mosolyogva. – Legalább százszor hallottam tőle gyerekkoromban: „Rágd meg rendesen, és igyál kortyonként!” Akkor nem hallgattam rá. Most már tudom, hogy igaza volt.\n\nEstella belekortyolt a vizébe. Az ebéd ezúttal fél óráig tartott, és délután nem fájt a gyomra. Nem is volt álmos.\n\nAzóta péntekenként mindketten lassabban esznek. Fióna nem számolja a falatokat, de a telefonját már nem teszi az asztalra. Estella pedig csak havonta egyszer rendel sonkás tésztát. A pincérnő ilyenkor kacsint egyet, és két pohár vizet hoz.\n\nKérdések:\nHogyan evett régen Estella?\nGyorsan evett, alig rágott, és közben a telefonját nézte.\nMit tanácsolt neki az orvos?\nAzt, hogy minden falatot legalább húszszor rágjon meg, a vizet kis kortyokban igya, és ritkábban egyen sonkát.\nMit rendelt Estella ezen a pénteken?\nZöldséglevest, grillezett csirkét salátával és egy pohár vizet.\nMin nevetett Fióna?\nAzon, hogy Estella számolja, hányszor rágja meg a falatot.\nMit hallott a pincérnő százszor a nagymamájától?\nAzt, hogy rágja meg rendesen az ételt, és kortyonként igyon.\nHogyan érezte magát Estella délután?\nNem fájt a gyomra, és nem volt álmos."
+    },
+    {
+      "title": "Ferde hát, magasabb pad",
+      "summary": "Carpenter Gyetvai has back pain; a physiotherapist watches him at work, sees him bending crookedly over a bench that is too low, and they raise the bench and change how he uses his powerful sander.",
+      "newWords": [
+        "asztalos",
+        "ferde",
+        "lenyom",
+        "mechanikus",
+        "tengely",
+        "teljesítményű",
+        "elfér"
+      ],
+      "text": "Gyetvai úr harminc éve asztalos Pomázon. Asztalt, szekrényt és ajtót készít, a műhelye a háza mögött van. Az utóbbi évben egyre gyakrabban fájt a dereka. Reggelente nehezen kelt fel, este pedig alig tudott egyenesen állni. Az orvos gyógytornászhoz küldte.\n\nA gyógytornász, egy fiatal nő, Blanka, nem a rendelőben akarta kezdeni.\n– Először látni szeretném, hogyan dolgozik – mondta. – A fájdalom oka sokszor a műhelyben van, nem a testben.\n\nEgy kedd reggel Blanka kiment a műhelybe, és egy órán át figyelte az asztalost. Gyetvai úr egy hosszú lapot csiszolt egy nagy teljesítményű csiszológéppel. A munkapadja régi volt és alacsony, ezért erősen előre kellett dőlnie. Blanka hamar észrevette, hogy közben ferdén áll: csak az egyik lábán állt, és a válla is ferde volt.\n– Látja, hogy a feje, a válla és a dereka nincs egy tengelyen? – kérdezte Blanka. – A gerincnek van egy természetes tengelye. Ha egész nap ferdén állva dolgozik, a derék fárad el először.\n\nAztán a gépre mutatott.\n– Miért nyomja le ilyen erősen?\n– Így gyorsabban halad – felelte Gyetvai úr.\n– Egy ilyen nagy teljesítményű gépet nem kell lenyomni – mondta Blanka. – Elég, ha vezeti. Ha lenyomja, a karja és a dereka dolgozik a gép helyett.\n\nBlanka azt is észrevette, hogy Gyetvai úr órákon át ugyanazt a mozdulatot ismétli, mint egy gép.\n– Ez a mechanikus mozgás is fárasztja a hátát – magyarázta. – Óránként álljon meg öt percre, nyújtsa ki a karját, és sétáljon egyet a kertben.\n\nA legfontosabb azonban a pad volt. Blanka megmérte Gyetvai úr magasságát, és azt javasolta, hogy a pad 15 centivel legyen magasabb. Gyetvai úr asztalos volt, így nem kellett senkit hívnia: két nap alatt új padot készített magának. Az új padba egy mechanikus emelőt is szerelt: egy kart kell tekerni, ez egy hosszú tengelyt forgat, és így a pad magasságát mindig az adott munkához lehet állítani.\n\nElőször attól félt, hogy a nagyobb pad nem fér el a kis műhelyben. Átrendezte a szekrényeket, és végül minden elfért: a pad, a gépek, sőt még egy szék is a szünetekhez.\n\nKét hónap múlva Gyetvai úr visszament Blankához a rendelőbe.\n– Már nem fáj a derekam – mondta. – Egyenesen állok, és a gépet sem nyomom le. Harminc évig dolgoztam ferde háttal, és nem is tudtam róla.\n\nKérdések:\nMi a foglalkozása Gyetvai úrnak?\nAsztalos: asztalt, szekrényt és ajtót készít.\nMiért ment ki Blanka a műhelybe?\nMert látni akarta, hogyan dolgozik Gyetvai úr, hiszen a fájdalom oka sokszor a műhelyben van.\nMit vett észre Blanka, amikor figyelte?\nAzt, hogy ferdén áll, és a feje, a válla és a dereka nincs egy tengelyen.\nMit mondott Blanka a nagy teljesítményű gépről?\nAzt, hogy nem kell lenyomni, elég, ha vezeti.\nMit javasolt Blanka a mechanikus mozgás ellen?\nAzt, hogy óránként álljon meg öt percre, nyújtsa ki a karját, és sétáljon egyet.\nElfért-e az új pad a műhelyben?\nIgen, Gyetvai úr átrendezte a szekrényeket, és minden elfért."
+    },
+    {
+      "title": "Egészségnap az egyetemen",
+      "summary": "Student Lorina applies for university funding to hold a free health day, the dean backs her, she pays a deposit on the hall from her own savings, and gets it back when the grant arrives.",
+      "newWords": [
+        "pályázik",
+        "dékán",
+        "felsőfokú",
+        "megvalósul",
+        "tervezési",
+        "előleg",
+        "visszakap"
+      ],
+      "text": "Lorina harmadéves egészségügyi hallgató Debrecenben. Egy kérdőívből tudta meg, hogy az egyetem hallgatóinak több mint fele keveset alszik, sokat ül, és alig mozog. Elhatározta, hogy tavasszal ingyenes egészségnapot szervez a diákoknak: vérnyomásmérést, alvási tanácsadást, közös tornát és egészséges reggelit.\n\nEgy ilyen nap azonban pénzbe kerül. Lorina megtudta, hogy az egyetem minden évben támogatást ad hallgatói programokra, és erre pályázni lehet. Két hétig írta a pályázatot. Leírta benne, miért fontos, hogy a felsőfokú tanulmányok alatt a fiatalok vigyázzanak az egészségükre, és pontosan leírta, mire mennyi pénz kell. A határidő előtt egy nappal küldte be.\n\nA pályázatokról a kar dékánja döntött. Lorinát behívták hozzá egy rövid beszélgetésre. A dékán, Galgóczi professzor, már figyelmesen elolvasta a tervet.\n– Hányan pályáznak még? – kérdezte Lorina idegesen.\n– Kilencen – felelte a dékán. – De az ön terve az egyetlen, amely mindenkinek szól. A felsőfokú oktatásban sokszor csak a vizsgákra figyelünk, a hallgatók egészségére kevésbé. Ha a terv megvalósul, én is szívesen ott leszek.\n\nA tervezési munka ezután kezdődött. A tervezési szakaszban Lorina hat barátjával minden héten összeült. Orvosokat és ápolókat kértek fel, akik önként segítettek, és egy pékséggel is megegyeztek a reggeliről. Kiderült azonban, hogy a nagytermet csak előleggel lehet lefoglalni, és az előleget két héten belül ki kell fizetni. A támogatás pénze viszont csak egy hónap múlva érkezett meg.\n\nLorina sokat gondolkodott. Végül a saját megtakarításából fizette ki az előleget. Az édesanyja kicsit aggódott.\n– És ha nem kapod vissza?\n– Visszakapom – mondta Lorina. – A dékán megígérte, hogy a támogatás biztos.\n\nÁprilis egyik szerdáján a terv megvalósult. Reggel nyolckor már sorban álltak a diákok a nagyterem előtt. Volt, aki most mérette meg először a vérnyomását, és sokan kérdeztek az alvásról. A közös tornán a dékán is részt vett, amin a hallgatók jót nevettek.\n\nEgy héten belül megérkezett a támogatás, és Lorina visszakapta az előleget. Este ezt írta a naplójába: „Nem gondoltam, hogy a tervem tényleg megvalósul. Jövőre két napot szeretnék.” Galgóczi professzor azt írta neki egy levélben, hogy a kar a következő évben is támogatja a programot, és ha Lorina újra pályázik, nem kell mindent elölről kezdenie.\n\nKérdések:\nMit tudott meg Lorina a kérdőívből?\nAzt, hogy a hallgatók több mint fele keveset alszik, sokat ül, és alig mozog.\nHová pályázott Lorina?\nAz egyetem támogatására, amelyet hallgatói programokra adnak.\nKi döntött a pályázatokról?\nA kar dékánja, Galgóczi professzor.\nMi történt a tervezési szakaszban?\nLorina a barátaival orvosokat és ápolókat kért fel, és megegyeztek egy pékséggel a reggeliről.\nMiért kellett Lorinának a saját pénzéből előleget fizetnie?\nMert a nagytermet csak előleggel lehetett lefoglalni, a támogatás pedig csak később érkezett meg.\nVisszakapta-e Lorina az előleget?\nIgen, egy héten belül visszakapta, amikor megérkezett a támogatás."
+    },
+    {
+      "title": "Rendelő kerekeken",
+      "summary": "Doctor Zorina and driver Baldvin take a caravan fitted out as a clinic to the farmsteads around Csengele; the village chronicle says doctors once came by cart, and a muddy road gives the trip its adventure.",
+      "newWords": [
+        "lakókocsi",
+        "szekér",
+        "krónika",
+        "kalandos",
+        "balszerencse",
+        "gyógyítás"
+      ],
+      "text": "Csengele körül sok tanya van, és az ott élő idős emberek közül sokan ritkán jutnak el orvoshoz. A legközelebbi rendelő tizenöt kilométerre van, busz alig jár, és nem mindenkinek van autója. Ezért a megyei kórház tavaly vett egy nagy lakókocsit, és rendelővé alakíttatta át. A lakókocsiban van egy vizsgálóágy, egy kis labor és egy hűtő a gyógyszereknek.\n\nA lakókocsival Zorina, egy fiatal háziorvos jár, a volánnál pedig Baldvin ül, aki régen kamionsofőr volt. Hetente kétszer mennek ki a tanyákra: vérnyomást és cukrot mérnek, meghallgatják a szívet és a tüdőt, és tanácsot adnak.\n\nAz első hónapban Zorina meglátogatta a falu könyvtárát is. A könyvtárosnő megmutatta neki a falu régi krónikáját, amelyet egy tanító kezdett el írni száz évvel ezelőtt. A krónika szerint akkoriban az orvos szekéren járt ki a tanyákra, havonta egyszer. Ha esett az eső, a szekér nem tudott elindulni, és az emberek hetekig vártak.\n– Száz év alatt a szekérből lakókocsi lett – mondta nevetve Zorina. – De az utak alig változtak.\n\nIgaza volt. Egy októberi napon egész éjjel esett, és a földút reggelre sárossá vált. Baldvin óvatosan vezetett, de egy kanyarban a lakókocsi kereke mélyen beleragadt a sárba. Bármit próbált, a kerék csak forgott, a kocsi nem mozdult.\n– Ez aztán a balszerencse – sóhajtott Zorina. – Pont ma, amikor tizenkét beteg vár ránk.\n\nSzerencsére a közeli tanyán lakó gazda meghallotta a motor hangját. Kijött a traktorával, és fél óra alatt kihúzta a lakókocsit a sárból. Utána behívta őket egy kávéra, és megmérette a vérnyomását is, amit évek óta halogatott.\n\nA nap végül kalandos lett, de sikeres. Zorina tizenhárom embert vizsgált meg, egyet közülük a kórházba is beutalt további vizsgálatra. Este Baldvin azt mondta:\n– Harminc évig vezettem kamiont, de ilyen kalandos napom kevés volt.\nZorina azt felelte, hogy neki a gyógyítás mellett a megelőzés a legfontosabb. A gyógyítás drága és hosszú, a megelőzés viszont sokszor csak egy vérnyomásmérés egy tanya udvarán.\n\nMásnap a könyvtárosnő felírta a falu krónikájába, hogy a lakókocsi elakadt a sárban, és hogy a szomszéd gazda segített. Zorina úgy gondolta, a balszerencse is jó volt valamire: így egy újabb beteg jutott el az orvoshoz.\n\nKérdések:\nMiért vett a kórház lakókocsit?\nMert a tanyákon élő idős emberek ritkán jutnak el orvoshoz, a rendelő messze van, és busz alig jár.\nMilyennek nevezte Baldvin ezt a napot?\nKalandosnak: azt mondta, harminc év alatt kevés ilyen kalandos napja volt.\nMit olvasott Zorina a falu krónikájában?\nAzt, hogy száz éve az orvos havonta egyszer szekéren járt ki a tanyákra.\nMilyen balszerencse érte őket egy októberi napon?\nA lakókocsi kereke beleragadt a sárba.\nKi segített nekik?\nA közeli tanyán lakó gazda, aki a traktorával kihúzta a lakókocsit.\nMit mondott Zorina a gyógyításról és a megelőzésről?\nAzt, hogy a gyógyítás drága és hosszú, a megelőzés viszont sokszor csak egy vérnyomásmérés."
+    },
+    {
+      "title": "Kormi és Csöpi",
+      "summary": "Health visitor Anetta teaches handwashing in a kindergarten with two puppets of different character, a soap-bubble show and a thirty-second song on a small player, and the children go crazy for it.",
+      "newWords": [
+        "bábu",
+        "szaporodik",
+        "buborék",
+        "jellem",
+        "természetű",
+        "lejátszó",
+        "megbolondul"
+      ],
+      "text": "Ditrói Anetta védőnő Gödöllőn, és havonta egyszer elmegy a város óvodáiba. Tavaly télen sok gyerek volt beteg az egyik óvodában, ezért a nevelők megkérték, hogy tanítsa meg a gyerekeknek, hogyan kell rendesen kezet mosni.\n\nAnetta tudta, hogy a kicsiket nem lehet hosszú magyarázattal lekötni. Ezért két bábut vitt magával. Az egyik bábu egy szürke kisfiú volt, Kormi. A másik egy kislány kék ruhában, Csöpi. A két bábunak egészen más volt a jelleme. Kormi türelmetlen természetű volt, és mindig sietett: soha nem mosott kezet. Csöpi nyugodt, türelmes természetű volt, és mindent alaposan csinált.\n\nA mosdóban Anetta a kezére húzta Kormit.\n– Én nem mosok kezet! – mondta Kormi vékony hangon. – Úgyis tiszta a kezem!\n– Az nem biztos – felelte Csöpi. – A kezeden olyan apró élőlények élnek, amelyeket nem látsz. Ezek a baktériumok gyorsan szaporodnak. Ha nem mosod le őket, egy nap alatt nagyon sokan lesznek.\nA gyerekek hangosan nevettek, amikor Kormi megijedve a kezére nézett.\n\nAnetta ezután megmutatta, hogyan szaporodnak a baktériumok. Egy papírra egy pontot rajzolt, aztán kettőt, négyet, nyolcat, amíg az egész papír tele nem lett pontokkal. A gyerekek csodálkozva figyelték.\n\nAztán kezet mostak. Anetta szappant tett a kezére, és addig mosta a kezét, amíg az tele nem lett apró buborékokkal. Néhány buborék a levegőbe is felszállt, és a gyerekek nevetve próbálták elkapni őket. Közben Anetta bekapcsolt egy kis lejátszót. A lejátszóból egy rövid dal szólt, amely pontosan harminc másodpercig tartott.\n– Addig kell mosni a kezünket, amíg a dal szól – magyarázta Csöpi. – Az ujjak között is!\n\nA végén Kormi is kezet mosott, és a gyerekek nagyon örültek. Addigra mindenki megértette a két bábu jellemét. Anetta úgy látta, hogy a kicsik szinte megbolondulnak a bábukért. Mindenki meg akarta fogni Kormit, és mindenki Csöpivel akart kezet mosni.\n\nA nevelők elmondták, hogy azóta a gyerekek minden ebéd előtt maguktól mossák a kezüket. Az egyik kisfiú még a buborékokat is számolja. A dalt a lejátszóból a nevelők minden nap elindítják, és a gyerekek közben együtt éneklik. Egy kislány az édesanyjának is megtanította.\n– A lányom otthon is megbolondult a dalért – mesélte az anyuka nevetve. – Most már akkor is ezt énekli, amikor fogat mos.\n\nTavaszra a betegségek száma csökkent az óvodában. Anetta pedig elhatározta, hogy a két bábut a többi óvodába is elviszi.\n\nKérdések:\nMiért hívták Anettát az óvodába?\nMert télen sok gyerek volt beteg, és a nevelők azt szerették volna, hogy megtanítsa a gyerekeknek, hogyan kell kezet mosni.\nMilyen volt a két bábu jelleme?\nKormi türelmetlen természetű volt és mindig sietett, Csöpi nyugodt és türelmes természetű volt.\nMit mondott Csöpi a baktériumokról?\nAzt, hogy gyorsan szaporodnak, és ha nem mossuk le őket, nagyon sokan lesznek.\nMire használta Anetta a lejátszót?\nEgy harminc másodperces dalt játszott le, amíg a gyerekek kezet mostak.\nMit próbáltak elkapni a gyerekek kézmosás közben?\nA szappan buborékait, amelyek a levegőbe szálltak.\nMi változott tavaszra az óvodában?\nCsökkent a betegségek száma, és a gyerekek maguktól mosnak kezet."
+    },
+    {
+      "title": "A mozgólépcső mellett",
+      "summary": "A columnist counts how many people take the stairs instead of the escalator in a shopping centre, asks why knowing is not enough, and argues that the healthy choice should be made the easy one.",
+      "newWords": [
+        "cselekvés",
+        "kívánatos",
+        "hátrány",
+        "bevásárlóközpont",
+        "hiábavaló",
+        "lelkiismeret"
+      ],
+      "text": "Egy szombat délelőtt fél órát töltöttem Budaörsön, egy nagy bevásárlóközpont földszintjén, a mozgólépcső mellett. Számoltam. Fél óra alatt kétszáznegyven ember ment fel az első emeletre. Közülük tizenegyen választották a lépcsőt, a többiek a mozgólépcsőt. A lépcső pedig ott volt mellette, alig tíz méterre.\n\nNem akarok senkit hibáztatni. Én is a mozgólépcsőn jöttem fel, mielőtt elkezdtem számolni. És tudom, hogy mindenki ismeri a tanácsot: használjunk lépcsőt, sétáljunk többet, mozogjunk napi fél órát. Ezt az orvosok, a plakátok és az újságok százszor elmondták. Mégis kevesen követik. Miért van ekkora távolság a tudás és a cselekvés között?\n\nAz egyik magyarázat egyszerű: a lépcsőnek hátránya van. Lassabb, fárasztóbb, és a bevásárlóközpontokban gyakran el is rejtik egy sarokba vagy egy szürke ajtó mögé. A mozgólépcső viszont középen áll, fényes és kényelmes. Aki szatyrokkal érkezik, vagy kisgyereket vezet kézen fogva, annak a lépcső valódi hátrány.\n\nA másik magyarázat a lelkiismeret. A legtöbben tudjuk, mi lenne a helyes, és kicsit rossz a lelkiismeretünk, amikor a kényelmesebb utat választjuk. A rossz lelkiismeret azonban ritkán vezet cselekvéshez. Inkább csak elrontja a kedvünket, és másnap ugyanúgy döntünk.\n\nEzért gondolom, hogy a puszta figyelmeztetés hiábavaló. Hiábavaló kitenni egy plakátot arról, hogy a lépcső egészséges, ha a lépcső sötét és nehéz megtalálni. Van viszont egy másik út. Néhány külföldi városban a bevásárlóközpontokban világos, széles lépcsőket építettek, közvetlenül a bejárat mellé, és a lépcsőfokokra színes képeket festettek. Az eredmény meglepő volt: egy év alatt kétszer annyian használták a lépcsőt.\n\nPersze ennek is van hátránya: pénzbe kerül, és nem mindenkinek segít. Akinek fáj a térde, annak továbbra is a mozgólépcső vagy a lift a jó megoldás, és ez így van rendjén. Senkit sem kell szégyenbe hozni.\n\nMégis azt gondolom, hogy a kívánatos viselkedést könnyűvé kell tenni, nem csak elmagyarázni. Ha a kívánatos választás egyben a legkényelmesebb is, nem kell hozzá erős akarat, sem rossz lelkiismeret. Én egyelőre a magam módján kezdtem: a bevásárlóközpontban azóta mindig a lépcsőt választom. Ez még nem nagy dolog, de a cselekvés valahol itt kezdődik.\n\nPetrás Netta\n\nKérdések:\nMit számolt a szerző a bevásárlóközpontban?\nAzt, hogy fél óra alatt hányan mennek fel lépcsőn, és hányan mozgólépcsőn.\nHányan választották a lépcsőt?\nKétszáznegyven emberből csak tizenegyen.\nMilyen hátránya van a lépcsőnek a szerző szerint?\nLassabb, fárasztóbb, és gyakran el is rejtik egy sarokba.\nMiért nem elég a rossz lelkiismeret?\nMert ritkán vezet cselekvéshez, inkább csak elrontja a kedvünket.\nMit tart hiábavalónak a szerző?\nAzt, hogy plakáton figyelmeztessenek a lépcső hasznára, ha a lépcső sötét és nehéz megtalálni.\nMit kell tenni a kívánatos viselkedéssel a szerző szerint?\nKönnyűvé kell tenni, nem csak elmagyarázni."
+    }
+  ]
+}
