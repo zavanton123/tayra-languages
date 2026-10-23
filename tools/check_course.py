@@ -1340,6 +1340,8 @@ def korean_tokens(text, ranks, names, heads):
 # Arabic: words cut as the reader cuts them (ArabicParser, ported as build_frequency_list.arabic_pieces) by the ranks
 # of the list the app ships, not the courses' pinned one, and the ar-en pack's words: والكتاب is و + ال + كتاب.
 _arabic = {}
+# How much rarer a noun in ة may be than the verb's form in ت spelled alike before a pronoun, to be the word read.
+ARABIC_NOUN_OVER_FORM = 3.0
 
 
 def arabic_reader():
@@ -1388,8 +1390,13 @@ def arabic_tokens(text, ranks, names=frozenset()):
             elif piece in fl.ARABIC_CLITICS:
                 out.append(KNOWN)
             else:
-                # The commonest word it can be with a pronoun after it (غرفتهما is غرفة's, not غرفت's).
-                out.append(min((b for b in fl.arabic_bases(piece) if b in ranks), key=ranks.get, default=piece))
+                # The commonest word it can be with a pronoun after it (غرفتهما is غرفة's, not غرفت's), but a noun in ة before
+                # a verb's form in ت not much commoner (عجلتها is عجلة's, not عجلت's; أكلته is أكلت's).
+                base = min((b for b in fl.arabic_bases(piece) if b in ranks), key=ranks.get, default=piece)
+                noun = base[:-1] + "ة"
+                if base.endswith("ت") and noun in ranks and a["head"](noun) and ranks[noun] <= ARABIC_NOUN_OVER_FORM * ranks[base]:
+                    base = noun
+                out.append(base)
     return out
 
 

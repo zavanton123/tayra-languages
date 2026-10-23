@@ -12,7 +12,8 @@ import kotlin.math.ln
  * A word is cut only where what is left is a word the lexicon knows, written as it is or with a pronoun after it
  * (وكتابهم), of two letters or more. A word the frequency list has stays whole (ولد, كان, لكن, فيلم, برد): the list has
  * the words that are more often themselves than letters and a word. So may a headword of the list with a pronoun after
- * it (كلنا of كل, بابي of باب, not ب + أبي). Of the cuts and that, the one whose word is the most common wins, by the
+ * it (كلنا of كل, بابي of باب, not ب + أبي), and a form of the list with one where no cut leaves a word of the list
+ * (كلفانا of كلفا, not ك + لفانا). Of the cuts and that, the one whose word is the most common wins, by the
  * costs SegmentingParser gives Chinese words, the letters in front costing the log of their rank alone. After the
  * conjunction a word of the list is cut no further (ولأن is و + لأن, as لأن is whole), and after لل a word of the list
  * is the article's (للبنك is لل + بنك, not ل + لبنك) unless ل is on a word of the list too, when the costs choose
@@ -80,6 +81,12 @@ class ArabicParser : SpaceDelimitedParser(), LexiconParser {
             }
         }
         if (best == null || word in lexicon && !afterListed) return listOf(word)
+        // Nor is a form of the list with a pronoun after it cut where no cut leaves a word of the list (كلفانا of كلفا, not
+        // ك + لفانا), unless it is a word with a pronoun itself.
+        val formed = bases(word).any { base ->
+            lexicon.rank(base) != null && !base.startsWith(ARTICLE) && bases(base).none { lexicon.rank(it) != null }
+        }
+        if (!afterListed && formed) return listOf(word)
         return cut
     }
 
@@ -120,7 +127,8 @@ class ArabicParser : SpaceDelimitedParser(), LexiconParser {
 
     /**
      * The words [word] may be with a pronoun after it, as they are written before one: كتاب of كتابه, مدرسة of
-     * مدرستي, على of عليه, بنى of بناها, كتبوا of كتبوه; ب and ل take them too (به, لك).
+     * مدرستي, على of عليه, بنى of بناها, كتبوا of كتبوه, أصدقاء of أصدقائه (a hamza alone is written on a seat before
+     * one); ب and ل take them too (به, لك).
      */
     private fun bases(word: String): List<String> {
         val out = mutableListOf<String>()
@@ -132,6 +140,7 @@ class ArabicParser : SpaceDelimitedParser(), LexiconParser {
                 base.endsWith("ت") -> out += base.dropLast(1) + "ة"
                 base.endsWith("ي") || base.endsWith("ا") -> out += base.dropLast(1) + "ى"
                 base.endsWith("و") -> out += base + "ا"
+                base.endsWith("ئ") || base.endsWith("ؤ") -> out += base.dropLast(1) + "ء"
             }
         }
         return out

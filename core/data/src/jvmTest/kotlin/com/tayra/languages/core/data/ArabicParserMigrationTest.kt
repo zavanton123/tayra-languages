@@ -103,6 +103,26 @@ class ArabicParserMigrationTest {
     }
 
     @Test
+    fun aWordWithAHamzaOnASeatBeforeItsPronounIsCut() = runBlocking<Unit> {
+        val provider = DatabaseProvider(DatabaseDriverFactory(file))
+        val languages = LanguageRepositoryImpl(provider)
+        val terms = TermRepositoryImpl(provider)
+        val id = languages.save(LanguageDefinitions.all.first { it.name == "Arabic" }.language)
+        // بأصدقائه "with his friends" was saved whole while the reader found no أصدقاء in أصدقائه; كلفانا "he charged us
+        // two" stays whole, كلفا's with a pronoun, now that it is no ك + لفانا.
+        val friends = terms.save(Term(languageId = id, text = "بأصدقائه", textLc = "بأصدقائه", status = TermStatus.NEW_2, tokenCount = 1))
+        val charged = terms.save(Term(languageId = id, text = "كلفانا", textLc = "كلفانا", status = TermStatus.NEW_1, tokenCount = 1))
+        val ranks = mapOf("ال" to 1, "و" to 2, "ب" to 5, "ل" to 7, "ك" to 68, "صديق" to 298, "أصدقاء" to 298, "كلف" to 2277, "كلفا" to 2277)
+        val migration = CutWordsMigration(languages, terms, BookRepositoryImpl(provider)) {
+            Lexicons.set("ar", Lexicon(ranks.keys + "لفا", ranks, mapOf("صديق" to 298, "كلف" to 2277)))
+        }
+
+        assertEquals(mapOf(id to CutWordsMigration.Change(cut = 1, merged = 0)), migration.migrate())
+        assertEquals("أصدقائه" to TermStatus.NEW_2, terms.getById(friends)!!.let { it.text to it.status })
+        assertEquals("كلفانا", terms.getById(charged)!!.text)
+    }
+
+    @Test
     fun wordsTheReaderLeavesWholeStayAsSaved() = runBlocking<Unit> {
         val provider = DatabaseProvider(DatabaseDriverFactory(file))
         val languages = LanguageRepositoryImpl(provider)

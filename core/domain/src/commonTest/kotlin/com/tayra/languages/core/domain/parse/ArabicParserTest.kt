@@ -20,14 +20,15 @@ class ArabicParserTest {
         "بن" to 82, "لبن" to 574, "بنك" to 827, "فعل" to 101, "فعلي" to 101, "فقد" to 637, "هم" to 123, "فهم" to 521,
         "لا" to 12, "قالوا" to 24, "درس" to 900, "ولدي" to 195, "ليس" to 60, "لست" to 60, "ليست" to 60, "ست" to 670,
         "حد" to 154, "وحد" to 720, "وحدها" to 720, "وفى" to 960, "وفيت" to 960, "فيت" to 2060, "أخذ" to 192, "آخذ" to 192,
-        "لجنة" to 484, "جنة" to 1208, "لعب" to 266, "عب" to 3474,
+        "لجنة" to 484, "جنة" to 1208, "لعب" to 266, "عب" to 3474, "صديق" to 298, "أصدقاء" to 298, "ماء" to 201,
+        "كلف" to 2277, "كلفا" to 2277,
     )
 
     /** The headwords among them, with their own ranks: فعلي is فعل's form, not a headword. */
     private val heads = listOf("كل", "باب", "ولد", "فعل", "برد", "لبن", "كتاب", "بيت").associateWith { ranks.getValue(it) }
 
     /** Words a dictionary pack adds, without a rank. */
-    private val packWords = listOf("العالم", "الكتاب", "لبنان", "بنان", "لد", "صل", "ين", "عد", "كن", "لم", "يلم", "تب")
+    private val packWords = listOf("العالم", "الكتاب", "لبنان", "بنان", "لد", "صل", "ين", "عد", "كن", "لم", "يلم", "تب", "لفا")
 
     @BeforeTest
     fun lexicon() = Lexicons.set("ar", Lexicon(ranks.keys + packWords, ranks, heads))
@@ -132,6 +133,22 @@ class ArabicParserTest {
         assertEquals(listOf("و", "لست"), words("ولست"))
         assertEquals(listOf("وحدها"), words("وحدها"))
         assertEquals(listOf("وفيت"), words("وفيت"))
+    }
+
+    @Test
+    fun aHamzaOnASeatBeforeAPronounIsTheWordsHamza() {
+        // أصدقاء "friends" writes its hamza on a seat before a pronoun: أصدقائه, أصدقاؤه; ماء "water" مائه.
+        assertEquals(listOf("ب", "أصدقائه"), words("بأصدقائه"))
+        assertEquals(listOf("و", "أصدقاؤه"), words("وأصدقاؤه"))
+        assertEquals(listOf("ب", "مائه"), words("بمائه"))
+    }
+
+    @Test
+    fun aFormOfTheListWithAPronounIsNoCutLeavingOnlyADictionarysWord() {
+        // كلفا "he charged ... two" with نا "us": no ك + لفانا, whose لفا only a dictionary has.
+        assertEquals(listOf("كلفانا"), words("كلفانا"))
+        // After the conjunction it is the word the costs choose, as the list has its form.
+        assertEquals(listOf("و", "كلفانا"), words("وكلفانا"))
     }
 
     @Test

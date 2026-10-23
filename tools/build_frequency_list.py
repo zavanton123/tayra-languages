@@ -828,7 +828,10 @@ def arabic_analyses(word):
 
 
 def arabic_bases(word):
-    """The words [word] may be with a pronoun after it, as they are written before one: كتاب of كتابه, مدرسة of مدرستي, على of عليه."""
+    """
+    The words [word] may be with a pronoun after it, as they are written before one: كتاب of كتابه, مدرسة of مدرستي, على
+    of عليه, أصدقاء of أصدقائه.
+    """
     out = []
     for suffix in ARABIC_SUFFIXES:
         base = word[:-len(suffix)]
@@ -841,6 +844,9 @@ def arabic_bases(word):
             out.append(base[:-1] + "ى")
         elif base.endswith("و"):
             out.append(base + "ا")
+        elif base.endswith(("ئ", "ؤ")):
+            # A hamza on its own is written on a seat before a pronoun (أصدقائه, أصدقاؤه of أصدقاء).
+            out.append(base[:-1] + "ء")
     return out
 
 
@@ -873,7 +879,8 @@ def arabic_pieces(word, known, rank, following=None, head=None):
     An Arabic word cut as the reader cuts it: the letters in front of it and the word they are on (والعالم is و + ال +
     عالم), when that word is one the lexicon [known] knows, or such a word with a pronoun after it (وكتابهم). A word the
     frequency list has ([rank] is a word's rank in it) stays whole (ولد, كان, لكن), and so may a headword of the list
-    ([head] is its rank as one) with a pronoun after it (كلنا of كل, بابي of باب). Of the cuts and that, the one whose
+    ([head] is its rank as one) with a pronoun after it (كلنا of كل, بابي of باب), and a form of the list with one where
+    no cut leaves a word of the list (كلفانا of كلفا, not ك + لفانا). Of the cuts and that, the one whose
     word is the most common wins, by the costs SegmentingParser gives Chinese words, the letters in front costing the
     log of their rank alone. After the conjunction, a word of the list is left as the reader leaves it alone (ولأن is
     و + لأن, as لأن is whole), and after لل a word of the list is the article's (للبنك is لل + بنك) unless ل is on a word
@@ -909,6 +916,11 @@ def arabic_pieces(word, known, rank, following=None, head=None):
         if best is None or cost < best:
             best, cut = cost, clitics + [stem]
     if best is None or known(word) and not after_listed:
+        return [word]
+    # Nor is a form of the list with a pronoun after it cut where no cut leaves a word of the list (كلفانا of كلفا, not
+    # ك + لفانا), unless it is a word with a pronoun itself.
+    if not after_listed and any(rank(b) and not b.startswith(ARABIC_ARTICLE) and not any(rank(c) for c in arabic_bases(b))
+                                for b in arabic_bases(word)):
         return [word]
     return cut
 
