@@ -86,6 +86,23 @@ class ArabicParserMigrationTest {
     }
 
     @Test
+    fun aVerbSavedWithTheFutureOnItsAlifBecomesTheVerb() = runBlocking<Unit> {
+        val provider = DatabaseProvider(DatabaseDriverFactory(file))
+        val languages = LanguageRepositoryImpl(provider)
+        val terms = TermRepositoryImpl(provider)
+        val id = languages.save(LanguageDefinitions.all.first { it.name == "Arabic" }.language)
+        // سآخذ "I will take" was saved whole before the future was cut off a verb's آ; لست stays the word of the list it is.
+        val take = terms.save(Term(languageId = id, text = "سآخذ", textLc = "سآخذ", status = TermStatus.NEW_2, tokenCount = 1))
+        val notI = terms.save(Term(languageId = id, text = "لست", textLc = "لست", status = TermStatus.NEW_1, tokenCount = 1))
+        val ranks = mapOf("ال" to 1, "و" to 2, "ل" to 7, "س" to 41, "ليس" to 60, "لست" to 60, "أخذ" to 192, "آخذ" to 192, "ست" to 670)
+        val migration = CutWordsMigration(languages, terms, BookRepositoryImpl(provider)) { Lexicons.set("ar", Lexicon(ranks.keys, ranks)) }
+
+        assertEquals(mapOf(id to CutWordsMigration.Change(cut = 1, merged = 0)), migration.migrate())
+        assertEquals("آخذ" to TermStatus.NEW_2, terms.getById(take)!!.let { it.text to it.status })
+        assertEquals("لست", terms.getById(notI)!!.text)
+    }
+
+    @Test
     fun wordsTheReaderLeavesWholeStayAsSaved() = runBlocking<Unit> {
         val provider = DatabaseProvider(DatabaseDriverFactory(file))
         val languages = LanguageRepositoryImpl(provider)

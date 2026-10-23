@@ -778,6 +778,8 @@ ARABIC_ARTICLE = "ال"
 ARABIC_FOR_THE = "لل"
 ARABIC_FUTURE = "س"
 ARABIC_IMPERFECT = "يتنأ"
+# The letters the future's س comes before: the imperfect's, and آ, the first person's أ on a verb in أ (سآخذ, سآتي).
+ARABIC_FUTURE_BEFORE = ARABIC_IMPERFECT + "آ"
 ARABIC_CLITICS = {*ARABIC_CONJUNCTIONS, *ARABIC_PREPOSITIONS, ARABIC_ARTICLE, ARABIC_FOR_THE, ARABIC_FUTURE}
 # The pronouns joined to the end of a word (كتابه, عليها, كتبوه), longest first, but كن, seldom one and the end of many
 # a word (يمكن, أماكن, لنكن is ل + نكن). Before one, a word may write its ة as
@@ -808,7 +810,7 @@ def arabic_analyses(word):
                     options.append(([preposition, ARABIC_ARTICLE], rest[3:]))
         if rest.startswith(ARABIC_ARTICLE):
             options.append(([ARABIC_ARTICLE], rest[2:]))
-        if rest.startswith(ARABIC_FUTURE) and rest[1:2] and rest[1] in ARABIC_IMPERFECT:
+        if rest.startswith(ARABIC_FUTURE) and rest[1:2] and rest[1] in ARABIC_FUTURE_BEFORE:
             options.append(([ARABIC_FUTURE], rest[1:]))
         out.extend((head + clitics, stem) for clitics, stem in options if len(stem) >= 2)
     return out
@@ -863,7 +865,8 @@ def arabic_pieces(word, known, rank, following=None, head=None):
     ([head] is its rank as one) with a pronoun after it (كلنا of كل, بابي of باب). Of the cuts and that, the one whose
     word is the most common wins, by the costs SegmentingParser gives Chinese words, the letters in front costing the
     log of their rank alone. After the conjunction, a word of the list is left as the reader leaves it alone (ولأن is
-    و + لأن, as لأن is whole), and after لل a word of the list is the article's (للبنك is لل + بنك). A word only a
+    و + لأن, as لأن is whole), and after لل a word of the list is the article's (للبنك is لل + بنك) unless ل is on a word
+    of the list (للجنة is ل + لجنة, by the costs). A word only a
     dictionary has stays whole unless a cut leaves a word of the list (لبنان is no ل + بنان; the dictionary's forms with
     ال, العالم, are cut). فقد and فهم go by the word after them ([following]; arabic_context_cut).
     """
@@ -881,8 +884,9 @@ def arabic_pieces(word, known, rank, following=None, head=None):
     for clitics, stem in arabic_analyses(word):
         if len(clitics) > 1 and clitics[0] in ARABIC_CONJUNCTIONS and rank(word[1:]):
             continue
-        # After لل, a word of the list is the article's (للبنك is لل + بنك, not ل + لبنك "for your milk").
-        if clitics[-1:] == ["ل"] and stem.startswith("ل") and rank(stem[1:]):
+        # After لل, a word of the list is the article's (للبنك is لل + بنك, not ل + لبنك "for your milk"), unless what
+        # follows ل is a word of the list itself, when the commoner reading wins (للجنة is ل + لجنة, not لل + جنة).
+        if clitics[-1:] == ["ل"] and stem.startswith("ل") and rank(stem[1:]) and not rank(stem):
             continue
         bases = [stem] + arabic_bases(stem)
         ranked = next((rank(b) for b in bases if rank(b)), None)

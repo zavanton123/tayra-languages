@@ -7,7 +7,7 @@ import kotlin.math.ln
  * بالبيت ب + ال + بيت, سيكتب س + يكتب), which then read as words of their own, as Korean particles do: a word keeps one
  * status however it is written. In front come the conjunction و or ف, then a preposition ب, ك or ل, the article ال,
  * the two together (بال, كال; ل with ال is لل, its alif dropped, and stays one piece: للبيت is لل + بيت), or the
- * future's س before a verb's imperfect. A pronoun after a word stays on it (كتابه, عليها).
+ * future's س before a verb's imperfect (سيكتب, سآخذ). A pronoun after a word stays on it (كتابه, عليها).
  *
  * A word is cut only where what is left is a word the lexicon knows, written as it is or with a pronoun after it
  * (وكتابهم), of two letters or more. A word the frequency list has stays whole (ولد, كان, لكن, فيلم, برد): the list has
@@ -15,7 +15,8 @@ import kotlin.math.ln
  * it (كلنا of كل, بابي of باب, not ب + أبي). Of the cuts and that, the one whose word is the most common wins, by the
  * costs SegmentingParser gives Chinese words, the letters in front costing the log of their rank alone. After the
  * conjunction a word of the list is cut no further (ولأن is و + لأن, as لأن is whole), and after لل a word of the list
- * is the article's (للبنك is لل + بنك, not ل + لبنك). A word only a dictionary has stays whole unless a cut leaves a
+ * is the article's (للبنك is لل + بنك, not ل + لبنك) unless ل is on a word of the list too, when the costs choose
+ * (للجنة is ل + لجنة "for a committee", not لل + جنة). A word only a dictionary has stays whole unless a cut leaves a
  * word of the list (لبنان is no ل + بنان; the dictionary's forms with ال, العالم, are cut).
  *
  * فقد and فهم, words of the list, are as often ف and a word, told apart by the word after them: فقد "lost" takes a
@@ -66,7 +67,8 @@ class ArabicParser : SpaceDelimitedParser(), LexiconParser {
         }
         for ((clitics, stem) in analyses(word)) {
             if (clitics.size > 1 && clitics[0] in CONJUNCTIONS && lexicon.rank(word.substring(1)) != null) continue
-            if (clitics.lastOrNull() == "ل" && stem.startsWith("ل") && lexicon.rank(stem.substring(1)) != null) continue
+            val theArticles = stem.startsWith("ل") && lexicon.rank(stem.substring(1)) != null && lexicon.rank(stem) == null
+            if (clitics.lastOrNull() == "ل" && theArticles) continue
             val bases = listOf(stem) + bases(stem)
             val ranked = bases.firstNotNullOfOrNull { lexicon.rank(it) }
             if (ranked == null && bases.none { it in lexicon }) continue
@@ -155,8 +157,8 @@ class ArabicParser : SpaceDelimitedParser(), LexiconParser {
         /** A verb's plural present (يعملون, تعرفون, سيذهبون). */
         val THEY_VERB = Regex("^[يتس].{2,}ون$")
 
-        /** The letters a verb's imperfect begins with, which the future's س comes before. */
-        const val IMPERFECT = "يتنأ"
+        /** The letters a verb's imperfect begins with, which the future's س comes before: آ is أ on a verb in أ (سآخذ). */
+        const val IMPERFECT = "يتنأآ"
 
         /** The pronouns joined to the end of a word, longest first, but كن, seldom one and the end of many a word (يمكن, لنكن). */
         val SUFFIXES = listOf("هما", "كما", "هم", "هن", "كم", "ها", "نا", "ني", "ه", "ك", "ي")

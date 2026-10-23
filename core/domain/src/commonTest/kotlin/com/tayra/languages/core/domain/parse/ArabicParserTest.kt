@@ -18,7 +18,9 @@ class ArabicParserTest {
         "مدرسة" to 208, "مدرستي" to 208, "على" to 6, "عليه" to 6, "عليك" to 6, "جديد" to 64, "لنا" to 7, "أن" to 8,
         "لأن" to 83, "باب" to 430, "أب" to 106, "ابي" to 106, "لدى" to 91, "لدي" to 91, "رد" to 479, "برد" to 1942,
         "بن" to 82, "لبن" to 574, "بنك" to 827, "فعل" to 101, "فعلي" to 101, "فقد" to 637, "هم" to 123, "فهم" to 521,
-        "لا" to 12, "قالوا" to 24, "درس" to 900, "ولدي" to 195,
+        "لا" to 12, "قالوا" to 24, "درس" to 900, "ولدي" to 195, "ليس" to 60, "لست" to 60, "ليست" to 60, "ست" to 670,
+        "حد" to 154, "وحد" to 720, "وحدها" to 720, "وفى" to 960, "وفيت" to 960, "فيت" to 2060, "أخذ" to 192, "آخذ" to 192,
+        "لجنة" to 484, "جنة" to 1208, "لعب" to 266, "عب" to 3474,
     )
 
     /** The headwords among them, with their own ranks: فعلي is فعل's form, not a headword. */
@@ -58,6 +60,8 @@ class ArabicParserTest {
     fun theFutureIsCutOffAVerbsImperfectOnly() {
         assertEquals(listOf("س", "يكتب"), words("سيكتب"))
         assertEquals(listOf("و", "س", "يكتب"), words("وسيكتب"))
+        // The first person's أ on a verb in أ is written آ after it: سآخذ "I will take".
+        assertEquals(listOf("س", "آخذ"), words("سآخذ"))
         assertEquals(listOf("سيد"), words("سيد"))
         assertEquals(listOf("سنة"), words("سنة"))
     }
@@ -112,6 +116,22 @@ class ArabicParserTest {
     @Test
     fun afterLlAWordOfTheListIsTheArticles() {
         assertEquals(listOf("لل", "بنك"), words("للبنك"))
+    }
+
+    @Test
+    fun afterLAWordOfTheListInLIsCutByTheCosts() {
+        // لجنة "committee" and لعب "to play" are words of the list: للجنة is ل + لجنة, not لل + جنة "paradise".
+        assertEquals(listOf("ل", "لجنة"), words("للجنة"))
+        assertEquals(listOf("ل", "لعب"), words("للعب"))
+    }
+
+    @Test
+    fun aWordOfTheListThatBeginsAsTheLettersInFrontStaysWhole() {
+        // لست "I am not" is ليس's, وحدها "she alone" وحد's, وفيت "I fulfilled" وفى's: no ل + ست, و + حدها, و + فيت.
+        assertEquals(listOf("لست"), words("لست"))
+        assertEquals(listOf("و", "لست"), words("ولست"))
+        assertEquals(listOf("وحدها"), words("وحدها"))
+        assertEquals(listOf("وفيت"), words("وفيت"))
     }
 
     @Test
