@@ -1,0 +1,212 @@
+{
+  "id": "bs-mini-0100",
+  "rankUpTo": 100,
+  "level": "A1",
+  "title": "Kod kuće i u porodici",
+  "description": "Ten short, simple stories about home, family and everyday moments in Bosnia and Herzegovina.",
+  "topic": "Home and family",
+  "names": [
+    "Amra",
+    "Tarik",
+    "Sarajevo",
+    "Mostar",
+    "Lejla",
+    "Edin",
+    "Selma",
+    "Haris",
+    "Bihać",
+    "Aida",
+    "Merima",
+    "Travnik",
+    "Mirza",
+    "Tuzla",
+    "Belma",
+    "Amer",
+    "Neum",
+    "Ajla",
+    "Faris",
+    "Una",
+    "Kenan",
+    "Lamija",
+    "Zenica",
+    "Nermin",
+    "Beč",
+    "Vedad",
+    "Dženana",
+    "Ena",
+    "Damir",
+    "Harun"
+  ],
+  "lessons": [
+    {
+      "title": "Ko je tamo?",
+      "summary": "Amra in Sarajevo and Tarik in Mostar talk about where everyone is.",
+      "newWords": [
+        "biti",
+        "ja",
+        "ti",
+        "on",
+        "ona",
+        "ko",
+        "gdje",
+        "ovdje",
+        "tamo",
+        "u",
+        "i",
+        "kazati"
+      ],
+      "text": "Amra je u Sarajevu. Tarik je u Mostaru.\n\n— Gdje si ti, Tarik? — kaže Amra.\n\n— Ja sam u Mostaru — kaže Tarik. — A ti? Gdje si ti?\n\n— Ja sam ovdje, u Sarajevu.\n\n— Ko je tamo sa tobom? — kaže Tarik.\n\n— Lejla je ovdje. Ona je u Sarajevu. A Edin? Gdje je on?\n\n— On je ovdje, u Mostaru. I on i ja smo u Mostaru.\n\n— Ko je ovdje? Ja i ona — kaže Amra. — Ko je tamo? Ti i on.\n\n— Da. Ja sam ovdje, a ti si tamo — kaže Tarik.\n\n— I ona je ovdje, a on je tamo — kaže Amra.\n\nAmra i Lejla su u Sarajevu. Tarik i Edin su u Mostaru.\n\nPitanja:\nGdje je Amra?\nAmra je u Sarajevu.\nKo je u Mostaru?\nTarik i Edin su u Mostaru.\nGdje je Lejla?\nOna je u Sarajevu.\nJe li Edin u Sarajevu?\nNe, on je u Mostaru."
+    },
+    {
+      "title": "Imaš li ključ?",
+      "summary": "Selma has no key, but Edin has two and gives her one.",
+      "newWords": [
+        "imati",
+        "nemati",
+        "moj",
+        "tvoj",
+        "jedan",
+        "drugi",
+        "šta",
+        "ne",
+        "da",
+        "a",
+        "li"
+      ],
+      "text": "Selma i Haris su u Bihaću. Selma nema ključ.\n\n— Imaš li ti ključ? — kaže Selma.\n\n— Ne, nemam ga — kaže Haris. — A ti?\n\n— Ne, ja ga nemam.\n\n— Ko ga ima? Edin?\n\n— Da, Edin ga ima. On ima 2.\n\nEdin je u Bihaću. Selma kaže:\n\n— Edine, imaš li ključ?\n\n— Imam 2. Jedan je moj, a drugi je tvoj.\n\n— Moj? Da li je drugi moj?\n\n— Da, Selma. Drugi je tvoj.\n\nSelma ima jedan, a Edin ima drugi. Haris nema, ali on je sa Selmom.\n\nPitanja:\nŠta Selma nema?\nSelma nema ključ.\nKo ima 2 ključa?\nEdin ima 2 ključa.\nDa li Haris ima ključ?\nNe, Haris nema ključ.\nŠta kaže Edin?\nEdin kaže: „Jedan je moj, a drugi je tvoj.“"
+    },
+    {
+      "title": "Kafa ili čaj?",
+      "summary": "Aida visits Merima, who asks if she wants coffee or tea.",
+      "newWords": [
+        "htjeti",
+        "željeti",
+        "moći",
+        "voljeti",
+        "hvala",
+        "moliti",
+        "ali",
+        "samo",
+        "malo",
+        "više",
+        "ili"
+      ],
+      "text": "Aida i Merima su u Travniku. Merima voli kafu. Aida ne voli kafu, ali voli čaj.\n\n— Šta želiš, Aida? — kaže Merima. — Hoćeš li kafu ili čaj?\n\n— Čaj, molim — kaže Aida.\n\n— Hoćeš li malo ili više?\n\n— Više, molim. Ja ga volim.\n\n— A ti, Merima? Šta želiš ti?\n\n— Ja hoću kafu, ali samo malo. A ti? Hoćeš li i ti malo?\n\n— Ne, hvala. Ne želim. Hoću samo to.\n\n— Može — kaže Merima.\n\n— Mogu li ja malo više? Molim! — kaže Aida.\n\n— Možeš. Ali samo malo.\n\n— Hvala, Merima!\n\nPitanja:\nŠta voli Merima?\nMerima voli kafu.\nŠta želi Aida?\nAida želi čaj.\nHoće li Aida malo ili više?\nAida hoće više.\nDa li Aida voli kafu?\nNe, Aida je ne voli."
+    },
+    {
+      "title": "Vrijeme je za posao",
+      "summary": "Mirza has to go to work at seven; first he has a coffee with Belma.",
+      "newWords": [
+        "raditi",
+        "posao",
+        "dan",
+        "morati",
+        "trebati",
+        "vrijeme",
+        "sad",
+        "onda",
+        "kad",
+        "još",
+        "na"
+      ],
+      "text": "Mirza radi u Tuzli. Sad je 6. Mirza još nije na poslu.\n\n— Mirza, vrijeme je za posao! — kaže Belma.\n\n— Kad moram biti na poslu? — kaže Mirza.\n\n— Moraš biti na poslu u 7. Sad je 6.\n\n— Onda imam još vremena. Trebam kafu.\n\n— Ja ne trebam kafu — kaže Belma. — Ja danas ne radim.\n\n— A ja moram raditi. Ja radim i danas.\n\nDan je lijep. Mirza ima još malo vremena. Onda je vrijeme za posao.\n\nU 7 Mirza je na poslu. On radi i radi. Dan je dug, ali Mirza voli posao.\n\nPitanja:\nGdje radi Mirza?\nMirza radi u Tuzli.\nKad Mirza mora biti na poslu?\nMirza mora biti na poslu u 7.\nŠta kaže Belma?\nBelma kaže: „Vrijeme je za posao!“\nDa li Belma radi danas?\nNe, Belma danas ne radi."
+    },
+    {
+      "title": "Put do Neuma",
+      "summary": "Amer and Lejla travel from Sarajevo to Neum.",
+      "newWords": [
+        "ići",
+        "doći",
+        "otići",
+        "put",
+        "iz",
+        "do",
+        "za",
+        "s",
+        "sa",
+        "tu"
+      ],
+      "text": "Amer i Lejla su iz Sarajeva. Oni idu u Neum.\n\n— Idemo li? — kaže Lejla.\n\n— Da, idemo na put! — kaže Amer.\n\nAmer ide s Lejlom. Lejla ide sa Amerom. Oni idu iz Sarajeva do Mostara. Onda idu iz Mostara do Neuma.\n\n— Kad ćemo doći? — kaže Lejla.\n\n— Doći ćemo za 2 sata — kaže Amer.\n\nOni idu i idu. Put je dug. Za 2 sata dođu u Neum.\n\n— Tu smo! — kaže Amer.\n\n— Tu je lijepo — kaže Lejla. — Ne želim otići.\n\n— Ne moramo otići. Možemo biti tu 5 dana.\n\nLejla je tu s Amerom, a Amer je tu sa Lejlom. Oni ne žele otići iz Neuma.\n\nPitanja:\nDa li su Amer i Lejla iz Mostara?\nNe, oni su iz Sarajeva.\nGdje idu Amer i Lejla?\nOni idu u Neum.\nKad dođu u Neum?\nDođu u Neum za 2 sata.\nDa li Lejla želi otići iz Neuma?\nNe, Lejla ne želi otići."
+    },
+    {
+      "title": "Šta je to?",
+      "summary": "Ajla sees something by the river and her brother Faris tells her it is a dog.",
+      "newWords": [
+        "znati",
+        "misliti",
+        "reći",
+        "vidjeti",
+        "kako",
+        "zašto",
+        "nešto",
+        "ništa",
+        "zbog",
+        "o"
+      ],
+      "text": "Ajla i Faris su na Uni. Ajla vidi nešto tamo.\n\n— Faris, vidiš li nešto? — kaže Ajla.\n\n— Ne vidim ništa. Šta ti vidiš?\n\n— Ne znam šta je to. Nešto je tamo.\n\nFaris vidi nešto malo.\n\n— Mislim da je to pas — kaže Faris.\n\n— Zašto to misliš?\n\n— Zbog toga kako ide. Ja znam kako ide pas.\n\n— Reci mi nešto o psu! — kaže Ajla.\n\n— Šta da ti kažem? Ne znam ništa više o njemu.\n\n— Kako znaš da je to pas?\n\n— Zbog toga kako ide!\n\nPas ide do Ajle i Farisa. Da, to je pas! Sad Ajla zna kako ide pas. Ona misli o psu cijeli dan.\n\nPitanja:\nŠta Ajla vidi?\nAjla vidi nešto tamo.\nŠta misli Faris?\nFaris misli da je to pas.\nZašto Faris misli da je to pas?\nZbog toga kako ide.\nŠta kaže Ajla?\nAjla kaže: „Reci mi nešto o psu!“"
+    },
+    {
+      "title": "Naše godine",
+      "summary": "Kenan and Lamija talk about their brother and sister, and about Neum.",
+      "newWords": [
+        "mi",
+        "vi",
+        "oni",
+        "naš",
+        "vaš",
+        "svoj",
+        "godina",
+        "prije",
+        "nikad",
+        "svaki"
+      ],
+      "text": "Kenan ima 10 godina, a Lamija ima 9. Oni su iz Zenice.\n\n— Mi imamo brata Haruna — kaže Kenan. — Naš Harun ima 15 godina. A vi?\n\n— Mi imamo Selmu. Naša Selma ima 12 godina.\n\n— Šta radi vaša Selma?\n\n— Ona ide u školu. A vaš Harun?\n\n— I on.\n\nHarun i Selma idu u školu. Oni idu svaki dan. Svaki dan Kenan ide sa svojim bratom, a Lamija sa svojom sestrom.\n\n— Jeste li vi bili u Neumu? — kaže Lamija.\n\n— Jesmo, prije 2 godine. Mi i Harun. A vi?\n\n— Mi nikad nismo bili u Neumu. Ali naša Selma kaže da idemo ove godine.\n\n— Vi ćete vidjeti Neum! — kaže Kenan. — Mi smo bili prije, a vi niste nikad. Tamo je lijepo.\n\nPitanja:\nKoliko godina ima Kenan?\nKenan ima 10 godina.\nKo je Harun?\nHarun je Kenanov brat. On ima 15 godina.\nKad su Kenan i Harun bili u Neumu?\nBili su u Neumu prije 2 godine.\nDa li je Lamija bila u Neumu?\nNe, Lamija nikad nije bila u Neumu."
+    },
+    {
+      "title": "Sve moje stvari",
+      "summary": "Nermin packs his things and keeps only the good ones.",
+      "newWords": [
+        "sav",
+        "neki",
+        "neko",
+        "stvar",
+        "dobar",
+        "dobro",
+        "koji",
+        "taj",
+        "ovaj",
+        "od"
+      ],
+      "text": "Nermin ide u Beč. On ima mnogo stvari. Koje stvari treba?\n\n— Ova stvar je dobra — kaže Nermin. — Ta stvar nije dobra.\n\nNeke stvari su od mame. Neke stvari su od Vedada. Sve stvari su tu.\n\n— Koju stvar hoćeš? — kaže Vedad.\n\n— Hoću ovu. Ova je od mame. Dobra je.\n\n— A ta? Od koga je ta stvar?\n\n— Od nekoga iz Mostara. Neko ju je imao prije mene.\n\n— Dobro — kaže Vedad. — Onda ta stvar ostaje ovdje.\n\nNermin ima sve stvari koje treba. Sve dobre stvari su sa njim. Sve je dobro.\n\nPitanja:\nGdje ide Nermin?\nNermin ide u Beč.\nOd koga su neke stvari?\nNeke stvari su od mame, a neke od Vedada.\nKoju stvar hoće Nermin?\nNermin hoće stvar od mame.\nŠta kaže Vedad?\nVedad kaže: „Onda ta stvar ostaje ovdje.“"
+    },
+    {
+      "title": "Hajde, Dženana!",
+      "summary": "Dženana does not want to go out, but her friend Ena talks her into a walk by the river.",
+      "newWords": [
+        "hajde",
+        "hej",
+        "pa",
+        "zar",
+        "dati",
+        "uraditi",
+        "možda",
+        "ako",
+        "tako"
+      ],
+      "text": "Dženana i Ena su u Bihaću. Dženana ne želi ići na Unu.\n\n— Hej, Dženana! Hajde, idemo na Unu! — kaže Ena.\n\n— Ne znam. Možda ne idem — kaže Dženana.\n\n— Zar nećeš? Pa šta ćeš uraditi ovdje?\n\n— Ništa. Možda malo radim.\n\n— Ako hoćeš raditi, uradi to sutra. Hajde!\n\n— Pa dobro — kaže Dženana. — Ako ti tako kažeš.\n\n— Tako je! Daj mi ruku.\n\nDženana joj je dala ruku. One idu na Unu.\n\n— Hej, ovdje je dobro! — kaže Dženana.\n\n— Zar ne? Dobro smo uradile.\n\nPitanja:\nGdje su Dženana i Ena?\nOne su u Bihaću.\nŠta kaže Ena?\nEna kaže: „Hajde, idemo na Unu!“\nŠta je Dženana dala Eni?\nDženana je dala Eni ruku.\nDa li Dženana ide na Unu?\nDa, Dženana ide na Unu sa Enom."
+    },
+    {
+      "title": "Čovjek u redu",
+      "summary": "Damir waits in a long queue and talks to a man who waits like him.",
+      "newWords": [
+        "čovjek",
+        "red",
+        "se",
+        "kao",
+        "ni",
+        "što"
+      ],
+      "text": "Damir je na pošti u Sarajevu. Tu je red. U redu su ljudi.\n\nIza Damira je jedan čovjek. Čovjek se smije.\n\n— Ovaj red je dug — kaže čovjek.\n\n— Jeste — kaže Damir. — Ali ni ja ni vi ne možemo ništa.\n\n— Ja sam ovdje od 10 — kaže čovjek. — Kao i vi?\n\n— Da, i ja sam tu od 10.\n\nRed ide malo po malo. Čovjek se smije, a Damir se smije kao i on.\n\n— Dobro je što ste tu — kaže Damir. — Hvala vam što pričate sa mnom.\n\n— Hvala i vama. Dobro je što nismo sami.\n\nSad je Damir na redu. Onda je čovjek na redu.\n\nPitanja:\nGdje je Damir?\nDamir je na pošti u Sarajevu.\nKo je iza Damira?\nIza Damira je jedan čovjek.\nŠta kaže čovjek?\nČovjek kaže: „Ovaj red je dug.“\nŠta kaže Damir?\nDamir kaže: „Hvala vam što pričate sa mnom.“"
+    }
+  ]
+}

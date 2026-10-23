@@ -1,0 +1,100 @@
+1	8101	cisterna	cisternama cisterne cisterni cisternu
+2	8102	unajmljivati	unajmljivanje unajmljuje unajmljujem unajmljujemo unajmljuješ unajmljuju
+3	8103	saopštenje	saopštenja saopštenju
+4	8104	koštan	koštana koštane koštani koštanim koštanoj koštanu
+5	8105	dopuniti	dopune dopuni dopunili dopunim dopunimo dopunio dopunite dopuniš
+6	8106	pastuh	pastuha pastuhu pastusi pastuše
+7	8107	rendžer	
+8	8108	puštati	
+9	8109	bokserice	bokserica boksericama
+10	8110	forum	foruma forume forumi forumu
+11	8111	vir	vira vire viru
+12	8112	gimnastika	gimnastici gimnastike gimnastikom gimnastiku
+13	8113	milosrdan	milosrdna milosrdne milosrdni milosrdnim milosrdno milosrdnog
+14	8114	ugoditi	ugode ugodi ugodim ugodimo ugodio ugodite ugodiš
+15	8115	izolovan	izolovani
+16	8116	psovka	psovkama psovke psovki psovku
+17	8117	opravdano	
+18	8118	nedodirljiv	nedodirljiva nedodirljivi nedodirljivih nedodirljivim
+19	8119	figurica	figuricama figurice figuricu
+20	8120	ljiljan	ljiljana ljiljane ljiljani ljiljanima
+21	8121	breme	bremena bremenom bremenu
+22	8122	mirisan	mirisna mirisne mirisni mirisnih mirisnim mirisno mirisnog mirisnom mirisnu
+23	8123	istrenirati	istrenira istreniram istreniramo istreniran istrenirana istrenirani istrenirao
+24	8124	sipa	sipe sipi
+25	8125	iznuda	iznude iznudi iznudu
+26	8126	žlijezda	žlezda žlezde žlijezdama žlijezde žlijezdu
+27	8127	pres	
+28	8128	тат	тата
+29	8129	dvogled	dvogleda dvoglede dvogledom
+30	8130	pregovarač	pregovarača pregovarače pregovarači
+31	8131	žilet	žileta žilete žileti žiletima žiletom
+32	8132	sječivo	sečiva sečivo sečivom sječiva sječivom
+33	8133	udžbenik	udžbenici udžbenicima udžbenika udžbenike udžbeniku
+34	8134	pojuriti	pojure pojuri pojurila pojurili pojurim pojurimo pojurio pojurite pojuriš
+35	8135	uposlenik	uposlenici uposlenicima uposlenika uposlenike
+36	8136	anarhija	anarhije anarhiji anarhiju
+37	8137	spirala	spiralama spirale spirali spiralu
+38	8138	divljati	divlja divljaju divljala divljali divljanje divljao divljaš
+39	8139	kompozitor	kompozitora kompozitori kompozitoru
+40	8140	zabijati	zabija zabijaju zabijam zabijanje zabijao zabijate zabijaš
+41	8141	nepotpun	nepotpuna nepotpune nepotpuni nepotpunih nepotpunim nepotpuno
+42	8142	oslonac	oslonca
+43	8143	studentski	studentskim
+44	8144	jedrenje	jedrenja jedrenju
+45	8145	transvestit	transvestita transvestite transvestiti transvestitima transvestitu
+46	8146	sorta	sorte sorti sortu
+47	8147	smjesa	smesa smese smesi smesu smjese smjesi smjesom smjesu
+48	8148	rastužiti	rastuži rastužila rastužilo rastužim rastužio
+49	8149	privjesak	priveske priveskom privesku privjeska privjeske privjesku
+50	8150	djetinjasto	detinjasto
+51	8151	izdržljivost	izdržljivosti
+52	8152	човек	човека човеку човече
+53	8153	tunjevina	tunjevine tunjevinom tunjevinu
+54	8154	zabilješka	zabilješkama zabilješke zabilješki zabilješku
+55	8155	pladanj	pladnja pladnjeve pladnju
+56	8156	odvojen	
+57	8157	koješta	
+58	8158	državljanstvo	državljanstva
+59	8159	nezaposlenost	nezaposlenosti
+60	8160	okršaj	okršaja okršaje okršajima okršaju
+61	8161	mrzak	mrska mrske mrski mrskih mrsko mrskog
+62	8162	lala	lale lali lalo lalu
+63	8163	isušiti	isuše isušen isušena isušene isušeni isušeno isuši isušila isušio
+64	8164	majušan	majušna majušne majušni majušnih majušnim majušno majušnog majušnu
+65	8165	naslovnik	naslovnici
+66	8166	pomno	
+67	8167	kaplar	
+68	8168	češalj	češlja češljem
+69	8169	maslo	masala maslom
+70	8170	prodor	prodora prodoru
+71	8171	sočivo	sočiva
+72	8172	berba	berbe berbu
+73	8173	džak	džaka džakom džakova džakove džakovima džaku
+74	8174	kamenolom	kamenoloma kamenolomu
+75	8175	neizvjesnost	neizvesnost neizvesnosti neizvjesnosti
+76	8176	očekivan	očekivana očekivane očekivani očekivanih očekivanog očekivanom očekivanu
+77	8177	šapnuti	šapne šapnem šapni šapnula šapnuo
+78	8178	toksin	toksina toksine toksini toksinima
+79	8179	diktatura	diktature diktaturi diktaturom diktaturu
+80	8180	rasipati	rasipa rasipaj rasipaju rasipam rasipamo rasipanje rasipate rasipaš
+81	8181	skelet	skeleta skelete skeleti skeletom skeletu
+82	8182	odgoda	odgode odgodi odgodom odgodu
+83	8183	veslo	vesala vesla veslima veslom
+84	8184	starjeti	stare starim starimo stario starite stariš
+85	8185	razumevati	razumevanje
+86	8186	ciganiti	cigane cigani
+87	8187	kotao	kotla kotlova kotlove kotlu
+88	8188	svjedokinja	svjedokinje svjedokinji svjedokinjom svjedokinju
+89	8189	perla	perlama perle perli perlu
+90	8190	strojnica	strojnicama strojnice strojnicom strojnicu
+91	8191	neudat	neudata neudate neudatih neudatu
+92	8192	prodirati	prodirala prodiranje prodire prodiru prodirući
+93	8193	opaska	opaske opaski opasku
+94	8194	napadan	napadna napadne napadni napadnim napadnog napadnu
+95	8195	markiza	markize markizo markizom markizu
+96	8196	strina	strine strini strino strinu
+97	8197	učtiv	učtiva učtivi učtivo
+98	8198	osmatrati	osmatra osmatraj osmatrajte osmatraju osmatrali osmatram osmatramo osmatranje osmatrao osmatraš
+99	8199	mod	
+100	8200	reinkarnacija	reinkarnacije reinkarnaciji reinkarnacijom reinkarnaciju

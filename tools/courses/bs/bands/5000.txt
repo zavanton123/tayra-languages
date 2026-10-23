@@ -1,0 +1,100 @@
+1	4901	obuzdati	obuzda obuzdaj obuzdajte obuzdaju obuzdali obuzdam obuzdamo obuzdan obuzdana obuzdao obuzdate obuzdaš
+2	4902	otputovati	otputovala otputovali otputovalo otputovao otputovaću otputuj otputuje otputujem otputujemo otputujete otputuješ otputuju
+3	4903	redovno	
+4	4904	neprihvatljiv	neprihvatljiva neprihvatljive neprihvatljivi neprihvatljivim neprihvatljivo
+5	4905	besmislica	besmislicama besmislice besmislicu
+6	4906	rasprodaja	rasprodajama rasprodaje rasprodaji rasprodaju
+7	4907	prijeti	
+8	4908	straga	
+9	4909	bič	biča bičem bičeva bičeve bičevi bičevima biču
+10	4910	škoditi	škode škodi škodila škodilo škodio
+11	4911	kupola	kupole kupoli kupolom kupolu
+12	4912	cijenjen	cenjen cenjena cenjene cenjeni cenjeno cenjenog cenjenom cijenjena cijenjene cijenjeni cijenjenih cijenjenim cijenjeno cijenjenog cijenjenoj cijenjenom najcenjenijih najcjenjeniji najcjenjenijih
+13	4913	uporno	
+14	4914	sanja	sanje sanji sanju
+15	4915	šum	šume šumom šumova šumove šumu
+16	4916	arena	arenama arene areni arenu
+17	4917	gutati	guta gutaj gutaju gutajući gutala gutali gutam gutanja gutanje gutanjem gutao gutate gutaš
+18	4918	prikaz	prikaza prikaze prikazi prikazima prikazom prikazu
+19	4919	nedavan	nedavna nedavne nedavni nedavnih nedavnim nedavnog nedavnoj nedavnom nedavnu
+20	4920	drhtati	drhtala drhtale drhtali drhtanje drhtao drhte drhteći drhti drhtim drhtite drhtiš
+21	4921	dakako	
+22	4922	bočica	bočicama bočice bočici bočicom bočicu
+23	4923	pečat	pečata pečate pečati pečatima pečatom pečatu
+24	4924	simulacija	simulacijama simulacije simulaciji simulacijom simulaciju
+25	4925	kašalj	kašlja kašlje kašljem kašlji kašlju
+26	4926	dojam	dojmom dojmove dojmovi dojmu
+27	4927	ambiciozan	ambiciozna ambiciozne ambiciozni ambicioznih ambiciozniji ambicioznim ambiciozno ambicioznog najambiciozniji
+28	4928	četvrtina	četvrtine četvrtini četvrtinom četvrtinu
+29	4929	naprava	napravama naprave napravi napravo napravom napravu
+30	4930	padobran	padobrana padobrane padobrani padobranima padobranom padobranu
+31	4931	tup	tupa tupe tupi tupih tupim tupo tupog tupom
+32	4932	tamnica	tamnicama tamnice tamnici tamnicu
+33	4933	suradnja	suradnje suradnji suradnjom suradnju
+34	4934	šav	šava šavom šavova šavove šavovi šavovima
+35	4935	ris	risa rise risom risova risovi risu
+36	4936	muha	muhama muhe muhu
+37	4937	udaviti	udave udavi udavim udavimo udavite udaviće udavićemo udavićeš udaviću udaviš
+38	4938	pornografija	pornografije pornografiji pornografijom pornografiju pornografska pornografske pornografski pornografskih pornografskim pornografsku
+39	4939	uzdisati	uzdisala uzdisanje uzdiše uzdišem uzdišeš uzdiši uzdišu uzdišući
+40	4940	orgazam	orgazama orgazma orgazme orgazmi orgazmu
+41	4941	diplomatski	diplomatska diplomatske diplomatskih diplomatskim diplomatsko diplomatskog diplomatskoj diplomatskom diplomatsku
+42	4942	šema	shema šemama šeme šemi šemom šemu
+43	4943	bolnički	bolnička bolničke bolničkih bolničkim bolničko bolničkog bolničkoj bolničkom bolničku
+44	4944	tragičan	najtragičniji tragična tragične tragični tragičnih tragičnije tragičnim tragičnog tragičnoj tragičnom tragičnu
+45	4945	prognoza	prognozama prognoze prognozi prognozom prognozu
+46	4946	од	
+47	4947	otraga	
+48	4948	januar	januara januaru
+49	4949	opstati	opstala opstale opstali opstalo opstane opstanem opstanemo opstaneš opstanu opstao
+50	4950	okret	okreta okrete okreti okretom okretu
+51	4951	kandža	kandžama kandže kandži kandžom kandžu
+52	4952	plastika	plastici plastike plastikom plastiku
+53	4953	slučajan	slučajna slučajne slučajni slučajnih slučajnim slučajnog slučajnom slučajnu
+54	4954	četvrt	četvrtima
+55	4955	ishrana	ishrane ishrani ishranom ishranu
+56	4956	svinjski	svinjska svinjske svinjskih svinjskim svinjsko svinjskog svinjskoj svinjskom svinjsku
+57	4957	prodavač	prodavača prodavače prodavačem prodavači prodavačima prodavaču
+58	4958	osip	osipa osipe osipi osipom
+59	4959	pesnica	pesnicama pesnice pesnici pesnicom pesnicu
+60	4960	demokratija	demokratije demokratiji demokratijom demokratiju
+61	4961	šišati	šiša šišaju šišala šišam šišamo šišanje šišao šišaš
+62	4962	naumiti	naumi naumila naumile naumili naumio
+63	4963	obrva	obrvama obrve obrvi obrvom obrvu
+64	4964	zvučati	
+65	4965	odozgo	
+66	4966	genijalno	
+67	4967	zadaća	zadaćama zadaće zadaći zadaćom zadaću
+68	4968	ruda	rude rudi rudo rudom rudu
+69	4969	alternativa	alternativama alternative alternativom alternativu
+70	4970	unositi	unose unoseći unosi unosila unosili unosim unosimo unosio unosite unosiš unošenje
+71	4971	donator	donatora donatore donatori donatorima donatorom
+72	4972	prasak	prasci praska praskom prasku
+73	4973	opsesija	opsesijama opsesije opsesiji opsesijom opsesiju
+74	4974	uporan	uporna uporne uporni upornih uporniji upornim upornom
+75	4975	znanstven	znanstvena znanstvene znanstveni znanstvenih znanstvenim znanstvenog znanstvenoj znanstvenom znanstvenu
+76	4976	koš	koša košem koševa koševe košu
+77	4977	kompromis	kompromisa kompromise kompromisi kompromisu
+78	4978	limunada	limunade limunadi limunadom limunadu
+79	4979	monstrum	monstruma monstrume monstrumi monstrumima monstrumom monstrumu
+80	4980	lakat	lakata lakta laktom laktova laktove laktovi laktovima laktu
+81	4981	gozba	gozbe gozbi gozbom gozbu
+82	4982	deseti	deseta desete deseto desetog desetoj desetom desetu
+83	4983	violina	violine violini violinom violinu
+84	4984	uzdah	uzdaha uzdahe uzdahom uzdasi
+85	4985	pjevač	pevač pevača pevače pevačem pevači pevaču pjevača pjevače pjevači pjevaču
+86	4986	rehabilitacija	rehabilitacije rehabilitaciji rehabilitacijom rehabilitaciju
+87	4987	antibiotik	antibiotici antibioticima antibiotika antibiotike
+88	4988	strastven	strastvena strastvene strastveni strastvenih strastvenim strastveno strastvenog strastvenoj strastvenom strastvenu
+89	4989	zbližiti	zbliže zbliži zbližila zbližile zbližili zbližilo zbližim zbližimo zbližio zbližite zbližiš
+90	4990	profesija	profesije profesiji profesijom profesiju
+91	4991	izdržavati	izdržava izdržavaju izdržavala izdržavali izdržavam izdržavamo izdržavanje izdržavao izdržavate izdržavaš
+92	4992	odbijanje	odbijanja odbijanjem odbijanju
+93	4993	veterinar	veterinara veterinari veterinarom veterinaru
+94	4994	kukati	kukaj kukajte kukaju kukala kukam kukamo kukanje kukao kukate kukaš
+95	4995	avionski	avionska avionske avionskih avionskim avionsko avionskog avionskoj avionskom avionsku
+96	4996	sporedan	sporedna sporedne sporedni sporednih sporednim sporedno sporednog sporednoj sporednom sporednu
+97	4997	jad	jada jade jadi jadima jadom jadu
+98	4998	saradnik	saradnici
+99	4999	orman	ormana ormane ormanu
+100	5000	neustrašiv	neustrašiva neustrašive neustrašivi neustrašivih neustrašivim neustrašivima neustrašivo neustrašivog neustrašivom neustrašivu

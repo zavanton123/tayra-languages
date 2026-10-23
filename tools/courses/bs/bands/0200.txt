@@ -1,0 +1,100 @@
+1	101	gospodin	gospoda gospode gospodi gospodina gospodine gospodinom gospodinu gospodo gospodom gospodu
+2	102	ubiti	ubi ubih ubij ubije ubijem ubijemo ubijen ubijena ubijene ubijeni ubijeno ubijete ubiješ ubijmo ubijte ubiju ubila ubile ubili ubilo ubio ubivši ubiće ubićemo ubićete ubićeš ubiću ubiše
+3	103	jer	
+4	104	bog	boga boginja boginjama boginje boginji boginjo boginjom boginju bogom bogova bogove bogovi bogovima bogu bože božić
+5	105	žena	zena zenama zene zeni zeno zenom zenu ženama žene ženi ženica ženo ženom ženska ženske ženski ženskih ženskim žensko ženskog ženskoga ženskoj ženskom žensku ženu
+6	106	velik	najveća najveće najvećeg najvećega najvećem najveći najvećih najvećim najvećima najvećoj najvećom najveću velika velike veliki velikih velikim velikima veliko velikog velikoga velikoj velikom velikome veliku veća veće većeg većega većem veći većih većim većima većoj većom veću
+7	107	njegov	njegova njegove njegovi njegovih njegovim njegovima njegovo njegovog njegovoga njegovoj njegovom njegovu
+8	108	uvijek	uvek uviek
+9	109	vratiti	vrate vrati vratih vratile vratili vratim vratimo vratio vratite vrativši vratiće vratićemo vratićete vratićeš vratiću vratiš vratiše vraćen vraćena vraćene vraćeni vraćeno
+10	110	zvati	zove zovem zovemo zovete zoveš zovi zovimo zovite zovu zovući zva zvala zvale zvali zvalo zvan zvana zvane zvani zvanja zvanje zvanjem zvanju zvano zvao zvaće zvaćemo zvaćete zvaćeš zvaću zvaše
+11	111	stvarno	
+12	112	izgledati	izgleda izgledaj izgledajte izgledaju izgledajući izgledala izgledale izgledali izgledalo izgledam izgledamo izgledao izgledate izgledaće izgledaćemo izgledaćete izgledaćeš izgledaću izgledaš
+13	113	ostati	osta ostade ostadoh ostadosmo ostadoše ostah ostala ostale ostali ostalih ostalim ostalima ostalo ostalog ostaloga ostaloj ostalom ostalu ostane ostanem ostanemo ostanete ostaneš ostani ostanimo ostanite ostanu ostao ostavši ostaće ostaćemo ostaćete ostaćeš ostaću
+14	114	naći	nađe nađem nađemo nađen nađena nađene nađeni nađeno nađete nađeš nađi nađimo nađite nađoh nađoše nađu našao našavši našla našle našli našlo
+15	115	po	по
+16	116	prvi	prva prve prvih prvim prvima prvo prvog prvoga prvoj prvom prvome prvomu prvu
+17	117	čuti	najčuvenija najčuveniji ču čuh čuj čuje čujem čujemo čujete čuješ čujmo čujte čuju čula čule čuli čulima čulo čulom čulu čuo čuven čuvena čuvene čuveni čuvenih čuvenim čuveno čuvenog čuvenoj čuvenom čuvenu čuvši čuće čućemo čućete čućeš čuću čuše
+18	118	vjerovati	verovala verovale verovali verovalo verovanja verovanje verovanjima verovanju verovao verovati verovaću veruj veruje verujem verujemo verujete veruješ verujte veruju verujući vjerovala vjerovale vjerovali vjerovalo vjerovanja vjerovanje vjerovanjem vjerovanjima vjerovanju vjerovao vjeruj vjeruje vjerujem vjerujemo vjerujete vjeruješ vjerujte vjeruju vjerujući
+19	119	život	života živote životi životima životom životu
+20	120	zato	
+21	121	koliko	
+22	122	dva	dvaju dvama dve dveju dvema dvije dviju dvjema
+23	123	prijatelj	prijatelja prijatelje prijateljem prijatelji prijateljica prijateljicama prijateljice prijateljici prijateljicom prijateljicu prijateljima prijatelju
+24	124	pomoći	pomogao pomogla pomogle pomogli pomoglo pomogne pomognem pomognemo pomognete pomogneš pomogni pomognite pomognu pomozi pomozite
+25	125	dobiti	dobi dobih dobij dobije dobijem dobijemo dobijete dobiješ dobijte dobiju dobila dobile dobili dobilo dobio dobismo dobiven dobivena dobivene dobiveni dobivši dobiće dobićemo dobićete dobićeš dobiću
+26	126	baš	
+27	127	uzeti	uze uzeh uzela uzele uzeli uzelo uzeo uzet uzeta uzete uzetih uzetim uzeto uzetog uzetom uzevši uzeće uzećemo uzećete uzećeš uzeću uzeše uzme uzmem uzmemo uzmete uzmeš uzmi uzmimo uzmite uzmu
+28	128	sto	stola stole stolom stolova stolove stolovi stolovima stolu
+29	129	mama	mamama mame mami mamo mamom mamu
+30	130	nego	
+31	131	dok	doka doke dokom dokova dokove dokovi dokovima doku
+32	132	ono	
+33	133	bez	
+34	134	mjesto	mesta mestima mesto mestom mestu mjesta mjestima mjestom mjestu
+35	135	čekati	čeka čekaj čekajmo čekajte čekaju čekajući čekala čekale čekali čekalo čekam čekamo čekanje čekao čekate čekaće čekaćemo čekaćete čekaćeš čekaću čekaš
+36	136	govoriti	govorahu govoraše govore govorenje govoreno govoreći govori govorila govorile govorili govorilo govorim govorimo govorio govorite govoriće govorićemo govorićete govorićeš govoriću govoriš
+37	137	otac	oca oce ocem oci ocima ocu otaca oče očeva očeve očevi očevima
+38	138	već	
+39	139	naravno	
+40	140	gledati	gleda gledaj gledajmo gledajte gledaju gledajući gledala gledale gledali gledalo gledam gledamo gledan gledana gledanje gledano gledao gledate gledaće gledaćemo gledaćete gledaćeš gledaću gledaš
+41	141	nov	najnovija najnovije najnovijeg najnovijem najnoviji najnovijih najnovijim najnovijoj najnovijom najnoviju nova nove novi novih novija novije novijeg noviji novijih novijim noviju novim novima novo novog novoga novoj novom novome novu
+42	142	niko	nikim nikog nikoga nikome nikomu nitko
+43	143	onaj	onih onim onima onime onog onoga onoj onom onome onomu onu
+44	144	kakav	kakva kakve kakvi kakvih kakvim kakvima kakvo kakvog kakvoga kakvoj kakvom kakvu
+45	145	mali	mal mala male malih malim malima malog maloga maloj malom malome malomu malu manja manjeg manjem manji manjih manjim manjima manjoj manjom manju najmanja najmanjeg najmanjem najmanji najmanjih najmanjim najmanjoj najmanjom najmanju
+46	146	pitati	pita pitah pitaj pitajmo pitajte pitaju pitajući pitala pitale pitali pitalo pitam pitama pitamo pitan pitani pitao pitate pitaće pitaćemo pitaćete pitaćeš pitaću pitaš pitaše pite pito pitom pitoma pitome pitomi pitomo pitu
+47	147	pričati	pričaj pričajmo pričajte pričaju pričajući pričala pričale pričali pričalo pričam pričamo pričanje pričao pričate pričaće pričaćemo pričaćete pričaćeš pričaću pričaš
+48	148	napraviti	naprave napravi napravih napravila napravile napravili napravilo napravim napravimo napravio napravite napraviće napravićemo napravićete napravićeš napraviću napraviš napraviše napravljen napravljena napravljene napravljeni napravljeno
+49	149	oko	oka okama oke oki okom oku oči očiju očima
+50	150	kod	koda kode kodom kodova kodove kodovi kodovima kodu
+51	151	tata	tatama tate tati tatom tatu
+52	152	žao	
+53	153	siguran	najsigurnija najsigurnije najsigurnijem najsigurniji najsigurnijih sigurna sigurne sigurni sigurnih sigurnija sigurnije sigurnijeg sigurnijem sigurniji sigurnijim sigurnijom sigurniju sigurnim sigurnima sigurnog sigurnoj sigurnom sigurnome sigurnu
+54	154	zdravo	
+55	155	problem	problema probleme problemi problemima problemom problemu
+56	156	pravi	prava prave pravih pravim pravima pravog pravoga pravoj pravom pravome pravu
+57	157	pogledati	pogleda pogledah pogledaj pogledajmo pogledajte pogledaju pogledala pogledale pogledali pogledalo pogledam pogledamo pogledao pogledate pogledavši pogledaće pogledaćemo pogledaćeš pogledaću pogledaš pogleč
+58	158	značiti	znače znači značila značile značili značilo značim značimo značio značite značiće značiš
+59	159	sebe	sebi sobom
+60	160	djevojka	devojaka devojci devojka devojkama devojke devojko devojkom devojku djevojaka djevojci djevojkama djevojke djevojki djevojko djevojkom djevojku
+61	161	nemoj	
+62	162	tražiti	traže tražen tražena tražene traženi traženje traženo tražeći traži tražile tražili tražim tražimo tražio tražite tražiće tražićemo tražićete tražićeš tražiću tražiš
+63	163	ime	imena imenima imenom imenu
+64	164	drago	draga drage dragi dragoj dragom dragu drazi draže najdraže
+65	165	slušati	sluša slušaj slušajmo slušajte slušaju slušajući slušala slušale slušali slušalo slušam slušamo slušanje slušao slušate slušaće slušaćemo slušaćete slušaćeš slušaću slušaš
+66	166	novac	novaca novca novce novcem novci novcima novcu novčić novčića novčiće novčićem novčići novčićima novčiću
+67	167	cijeli	cela cele celi celih celim celo celog celoga celoj celom celome celu ceo cijel cijela cijele cijelih cijelim cijelo cijelog cijeloga cijeloj cijelom cijelome cijelu cio
+68	168	svijet	najsvetija najsvetije najsvetijem najsvetiji najsvetijih najsvetijim najsvetiju svet sveta svete sveti svetih svetim svetima sveto svetog svetoga svetoj svetom svetome svetomu svetova svetove svetovi svetovima svetu svijeta svijete svijetom svijetu svjet svjetova svjetove svjetovi svjetovima
+69	169	mnogo	
+70	170	razumjeti	razume razumeju razumela razumele razumeli razumem razumemo razumeo razumete razumeti razumeće razumećete razumećeš razumeću razumeš razumij razumije razumijem razumijemo razumijete razumijevati razumiješ razumijte razumiju razumio razumjela razumjele razumjeli razumjelo razumjeće razumjećeš razumjeću
+71	171	pustiti	puste pusti pustih pustila pustile pustili pustilo pustim pustimo pustio pustite pustivši pustiće pustićemo pustićete pustićeš pustiću pustiš puštena puštene pušteni pušteno
+72	172	momak	momaka momci momcima momka momke momkom momku momčad momčadi momče
+73	173	učiniti	učine učini učinih učinila učinile učinili učinilo učinim učinimo učinio učiniste učinite učinivši učiniće učinićemo učinićete učinićeš učiniću učiniš učiniše učinjen učinjena učinjene učinjeno
+74	174	evo	eno eve ево
+75	175	ruka	ruci rukama ruke ruko rukom ruku ručetine ručica ručicama ručice ručicom ručicu ručna ručne ručni ručnih ručnim ručnog ručnom ručnu
+76	176	majka	majci majkama majke majki majkin majko majkom majku majčica majčin majčina majčine majčinih majčinim majčino majčinoj majčinom majčinska majčinske majčinski majčinskom majčinsku majčinu
+77	177	star	najstarija najstarije najstarijeg najstarijem najstariji najstarijih najstarijim najstarijoj najstarijom najstariju stara stare stari starih starija starije starijeg starijem stariji starijih starijim starijima starijoj starijom stariju starim starima staro starog staroga staroj starom starome staru
+78	178	pravo	prava pravima pravom pravu
+79	179	sat	sata sate sati satima satom satova satu
+80	180	postojati	postojala postojale postojali postojalo postojanja postojanje postojanjem postojanju postojao postojaće postoje postojeća postojeće postojećeg postojećem postojeći postojećih postojećim postojeću postoji postojim postojimo postojite postojiš
+81	181	ostaviti	ostave ostavi ostavih ostavila ostavile ostavili ostavilo ostavim ostavimo ostavio ostavite ostavivši ostaviće ostavićemo ostavićete ostavićeš ostaviću ostaviš ostaviše ostavljen ostavljena ostavljene ostavljeni ostavljeno
+82	182	veza	vezama veze vezi vezom vezu
+83	183	dolaziti	dolaze dolazeći dolazi dolazila dolazile dolazili dolazilo dolazim dolazimo dolazio dolazite dolaziće dolazićemo dolazićeš dolaziću dolaziš dolaženje
+84	184	djeca	deca dece deci deco decom decu djece djeci djeco djecom djecu
+85	185	razgovarati	razgovara razgovaraj razgovarajmo razgovarajte razgovaraju razgovarajući razgovarala razgovarale razgovarali razgovaralo razgovaram razgovaramo razgovaranje razgovarao razgovarate razgovaraće razgovaraćemo razgovaraćete razgovaraćeš razgovaraću razgovaraš
+86	186	sin	sina sinama sine sino sinom sinova sinove sinovi sinovima sinu
+87	187	kuća	kućama kuće kućica kućna kućne kućni kućnih kućnim kućno kućnog kućnoga kućnoj kućnom kućnu kućo kućom kuću
+88	188	danas	
+89	189	njen	njena njene njeni njenih njenim njenima njeno njenog njenoga njenoj njenom njenu
+90	190	umrijeti	umre umrem umremo umrete umreti umreće umrećemo umrećete umrećeš umreću umreš umri umrijeće umrijećemo umrijećete umrijećeš umrijeću umrite umrla umrle umrli umrlo umro umru
+91	191	odmah	
+92	192	mrtav	mrtva mrtve mrtvi mrtvih mrtvim mrtvima mrtvo mrtvog mrtvoga mrtvoj mrtvom mrtvu
+93	193	sranje	sranja sranjem sranjima sranju
+94	194	daleko	dalje
+95	195	kući	
+96	196	loš	loša loše lošeg lošega lošem loši loših lošija lošije lošijem lošiji lošijih lošijim lošijoj lošiju lošim lošima lošoj lošom lošu najlošija najlošije najlošiji
+97	197	stati	stade stah stala stali stalo stane stanem stanemo stanete staneš stani stanimo stanite stanu stao staće staćemo staćeš staću
+98	198	brinuti	brine brinem brinemo brinete brineš brini brinimo brinite brinu brinula brinule brinuli brinulo brinuo brinuće brinućemo brinućeš brinući brinuću
+99	199	puno	
+100	200	tri	triju trima три

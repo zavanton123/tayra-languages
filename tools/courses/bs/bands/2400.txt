@@ -1,0 +1,100 @@
+1	2301	baterija	baterijama baterije bateriji baterijom bateriju
+2	2302	carstvo	carstava carstva carstvima carstvom carstvu
+3	2303	dokle	
+4	2304	oštetiti	oštete ošteti oštetila oštetile oštetili oštetilo oštetim oštetimo oštetio oštetite oštetiš oštećen oštećena oštećene oštećeni oštećenje oštećeno
+5	2305	med	meda mede medom medu
+6	2306	iznijeti	iznela izneli izneo iznese iznesem iznesemo iznesen iznesena izneseni iznesete izneseš iznesi iznesimo iznesite iznesu izneti izneto iznećemo izneću iznijela iznijeli iznijet iznijećemo iznijeću iznio
+7	2307	tkati	tka tkaju tkao čemo čete češ ču
+8	2308	obrok	obroci obrocima obroka obroke obrokom obroku
+9	2309	novost	novosti novostima
+10	2310	nula	nulama nule nuli nulom nulu
+11	2311	trojica	trojice trojici trojicom trojicu
+12	2312	rod	roda rode rodi rodom rodova rodovi rodu
+13	2313	trošak	troška troškova troškove troškovi troškovima trošku
+14	2314	novčanik	novčanici novčanicima novčanika novčanike novčanikom novčaniku
+15	2315	ruža	ružama ruže ruži ružo ružom ružu
+16	2316	navodno	
+17	2317	simbol	simbola simbole simboli simbolima simbolom simbolu
+18	2318	analiza	analizama analize analizi analizom analizu
+19	2319	ludak	ludaci ludacima ludaka ludake ludakinja ludakom ludaku ludače
+20	2320	parkirati	parkira parkiraj parkirajte parkiraju parkirala parkirali parkiram parkiramo parkiranje parkirao parkirate parkiraću parkiraš
+21	2321	uveče	
+22	2322	sitan	najsitnije najsitnijeg najsitniji najsitnijih sitna sitne sitni sitnih sitnije sitniji sitnim sitnog sitnoga sitnoj sitnom sitnu
+23	2323	ljubavnik	ljubavnici ljubavnicima ljubavnika ljubavnike ljubavnikom ljubavniku ljubavniče
+24	2324	hrpa	hrpe hrpi hrpo hrpom hrpu
+25	2325	istočni	istočna istočne istočnih istočnije istočnim istočnog istočnoj istočnom istočnu
+26	2326	naučnik	naučnici naučnicima naučnika naučnike naučnikom naučniku naučniče
+27	2327	dvostruk	dvostruka dvostruke dvostruki dvostrukih dvostrukim dvostruko dvostrukog dvostrukom dvostruku
+28	2328	opsjesti	opsednut opsednuta opsednute opsednuti opsjednut opsjednuta opsjednute opsjednuti opsjednuto opsjeo
+29	2329	salata	salatama salate salati salatom salatu
+30	2330	skot	skota skote skotom skotova skotove skotovi skotovima skotu
+31	2331	komunikacija	komunikacijama komunikacije komunikaciji komunikacijom komunikaciju
+32	2332	stres	stresa stresom stresova stresove stresu
+33	2333	incident	incidenata incidenta incidente incidenti incidentima incidentom incidentu
+34	2334	sklon	sklona sklone skloni skloniji sklonim sklono
+35	2335	društven	društvena društvene društveni društvenih društvenim društveno društvenog društvenoj društvenom društvenu
+36	2336	strava	strave
+37	2337	odreći	odreci odrecite odrekao odrekavši odrekla odrekli odrekne odreknem odreknemo odreknete odrekneš odrekni odreknite odreknu
+38	2338	тобом	те ти
+39	2339	tijekom	
+40	2340	stražar	stražara stražare stražari stražarima stražarom stražaru
+41	2341	dnevno	
+42	2342	partija	partijama partije partiji partijom partiju
+43	2343	raskinuti	raskide raskine raskinem raskinemo raskinete raskineš raskini raskinu raskinula raskinule raskinuli raskinuo raskinut raskinuću
+44	2344	socijalan	socijalna socijalne socijalni socijalnih socijalnim socijalnog socijalnoj socijalnom socijalnu
+45	2345	sveštenik	sveštenici sveštenicima sveštenika sveštenike sveštenikom svešteniku svešteniče
+46	2346	istražiti	istraže istražen istražena istraženi istraženo istraži istražila istražili istražim istražimo istražio istražite istražićemo istražiću istražiš
+47	2347	prilagoditi	prilagode prilagodi prilagodila prilagodile prilagodili prilagodim prilagodimo prilagodio prilagodite prilagodićemo prilagodiću prilagodiš prilagođen prilagođena prilagođene prilagođeni prilagođeno
+48	2348	sport	sporta sportom sportova sportove sportovi sportovima sportu
+49	2349	štit	štita štite štitom štitova štitove štitovi štitovima štitu
+50	2350	otmica	otmicama otmice otmici otmicom otmicu
+51	2351	naviknuti	navikne naviknem naviknemo naviknete navikneš navikni naviknite naviknu naviknula naviknuli naviknuo naviknut naviknuta naviknute naviknućete naviknućeš navići
+52	2352	dadilja	dadiljama dadilje dadilji dadiljo dadiljom dadilju
+53	2353	okean	okeana okeane okeani okeanima okeanom okeanski okeanu
+54	2354	unutrašnji	unutrašnja unutrašnje unutrašnjeg unutrašnjem unutrašnjih unutrašnjim unutrašnjoj unutrašnjom unutrašnju
+55	2355	otjerati	otera oteraj oterajte oteraju oterala oterale oterali oteralo oteram oteramo oteran oterani oterao oterate oterati oteraće oteraćeš oteraću oteraš otjera otjeraj otjerajte otjeraju otjerala otjerali otjeralo otjeram otjeramo otjeran otjerana otjerani otjerao otjerate otjeraš
+56	2356	izvrsno	
+57	2357	pojavljivati	pojavljivala pojavljivale pojavljivali pojavljivalo pojavljivanje pojavljivao pojavljuj pojavljuje pojavljujem pojavljujemo pojavljujete pojavljuješ pojavljuju pojavljujući
+58	2358	slučajnost	slučajnosti slučajnošću
+59	2359	penis	penisa penise penisi penisima penisom penisu
+60	2360	tradicija	tradicijama tradicije tradiciji tradicijom tradiciju
+61	2361	tuga	tuge tugo tugom tugu tuzi
+62	2362	priznanje	priznanja priznanjem priznanjima priznanju
+63	2363	dozvoljavati	dozvoljava dozvoljavaj dozvoljavaju dozvoljavajući dozvoljavala dozvoljavali dozvoljavam dozvoljavamo dozvoljavao dozvoljavate dozvoljavaš
+64	2364	komandant	komandanta komandante komandanti komandantima komandantom komandantu
+65	2365	pacov	pacova pacove pacovi pacovima pacovom pacovu
+66	2366	strast	strasti strastima strašću
+67	2367	prošetati	prošeta prošetaj prošetajmo prošetajte prošetaju prošetala prošetali prošetam prošetamo prošetao prošetate prošetaćemo prošetaću prošetaš prošećem prošećemo prošećeš prošeći prošećimo prošećite
+68	2368	uvreda	uvredama uvrede uvredi uvredom uvredu
+69	2369	ograda	ogradama ograde ogradi ogradom ogradu
+70	2370	frajer	frajera frajere frajeri frajerima frajerom frajeru
+71	2371	medij	medija medije mediji medijima mediju
+72	2372	svađa	svađama svađe svađi svađom svađu
+73	2373	pogotovo	
+74	2374	nastati	nasta nastade nastala nastale nastali nastalo nastane nastani nastanu nastao nastaće
+75	2375	revolucija	revolucije revoluciji revolucijom revoluciju
+76	2376	povreda	povredama povrede povredi povredom povredu
+77	2377	kauč	kauča kauče kaučem kauču
+78	2378	prekršiti	prekrše prekršen prekršena prekršeni prekršeno prekrši prekršila prekršile prekršili prekršilo prekršim prekršimo prekršio prekršite prekršiću prekršiš
+79	2379	udoban	najudobnije najudobniji udobna udobne udobni udobnih udobnija udobnije udobniji udobnijim udobnim udobno udobnog udobnoj udobnom udobnu
+80	2380	šetnja	šetnjama šetnje šetnji šetnjom šetnju
+81	2381	krvav	krvava krvave krvavi krvavih krvavije krvavim krvavog krvavoj krvavom krvavu najkrvavija najkrvaviji najkrvavijih
+82	2382	graditi	grade gradeći gradi gradila gradile gradili gradilo gradim gradimo gradio gradite gradiću gradiš građen građena građene građeni građenje građeno
+83	2383	nečiji	nečija nečije nečijeg nečijem nečijih nečijim nečijoj nečijom nečiju
+84	2384	nahraniti	nahrane nahrani nahranila nahranili nahranim nahranimo nahranio nahranite nahraniće nahranićemo nahraniću nahraniš nahranjen nahranjena nahranjeni
+85	2385	nestajati	nestajala nestajale nestajali nestajalo nestajanje nestajao nestaje nestajem nestajemo nestaješ nestaju nestajući
+86	2386	besplatno	
+87	2387	japanski	japanska japanske japanskih japanskim japansko japanskog japanskoj japanskom japansku
+88	2388	zora	zore zori zoro zorom zoru
+89	2389	aparat	aparata aparate aparati aparatima aparatom aparatu
+90	2390	golf	golfa golfom golfu
+91	2391	zastava	zastavama zastave zastavi zastavom zastavu
+92	2392	diviti	dive diveći divi divila divili divim divimo divio divite diviš divljenje
+93	2393	kamenje	kamenja kamenjem kamenju
+94	2394	progutati	proguta progutaj progutajte progutaju progutala progutale progutali progutalo progutam progutamo progutan progutana progutani progutao progutate progutaće progutaću progutaš
+95	2395	količina	količinama količine količini količinom količinu
+96	2396	tehnički	tehnička tehničke tehničkih tehničkim tehničko tehničkog tehničkoj tehničkom tehničku
+97	2397	stopa	stopama stope stopi stopom stopu
+98	2398	naziv	naziva nazive nazivi nazivima nazivom nazivu
+99	2399	usuditi	usude usudi usudila usudile usudili usudim usudimo usudio usudite usudiću usudiš
+100	2400	pristajati	pristajala pristajale pristajali pristajalo pristajanje pristajao pristaje pristajem pristajemo pristajete pristaješ pristaju

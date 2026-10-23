@@ -1,0 +1,100 @@
+1	4801	danju	
+2	4802	zabranjivati	zabranjivao zabranjuje zabranjujem zabranjuješ zabranjuju
+3	4803	naslikati	naslika naslikaj naslikala naslikali naslikam naslikan naslikana naslikane naslikano naslikao naslikate naslikaću naslikaš
+4	4804	magnetni	magnetna magnetne magnetnih magnetnim magnetno magnetnog magnetnoj magnetnom magnetnu
+5	4805	posjeći	poseci posekao posekla posekli poseći poseče posečem posečeš posijeci posiječe posjekao posjekla posjekli posječen
+6	4806	taktički	taktička taktičke taktičkih taktičkim taktičko taktičkog taktičkoj taktičkom taktičku
+7	4807	ojačati	ojača ojačaj ojačaju ojačala ojačale ojačali ojačalo ojačam ojačamo ojačan ojačana ojačane ojačani ojačao ojačate ojačaće ojačaš
+8	4808	striptiz	striptiza striptizom
+9	4809	izbjeglica	izbeglica izbeglicama izbeglice izbjeglicama izbjeglice izbjeglicu
+10	4810	investitor	investitora investitore investitori investitorima investitorom investitoru
+11	4811	katolik	katolici katolicima katolika katolike
+12	4812	štreber	štrebera štrebere štreberi štreberima štreberom štreberu
+13	4813	baklja	bakljama baklje baklji bakljom baklju
+14	4814	pijaca	pijacama pijace pijaci pijacom pijacu
+15	4815	odvajati	odvaja odvajaj odvajajte odvajaju odvajajući odvajala odvajali odvajam odvajamo odvajanje odvajao odvajate odvajaš
+16	4816	indijanski	indijanska indijanske indijanskih indijanskim indijansko indijanskog indijanskoj indijanskom indijansku
+17	4817	čik	čika čikom čiku
+18	4818	aspirin	aspirina aspirine aspirinom
+19	4819	oslabiti	oslabe oslabi oslabila oslabile oslabili oslabilo oslabim oslabimo oslabio oslabite oslabljen oslabljena oslabljene oslabljeni oslabljeno
+20	4820	poslodavac	poslodavaca poslodavca poslodavce poslodavcem poslodavci poslodavcima poslodavcu
+21	4821	štrajk	štrajka štrajkom štrajkova štrajkove štrajkovi štrajku
+22	4822	semestar	semestara semestra semestru
+23	4823	formacija	formacijama formacije formaciji formaciju
+24	4824	učenica	učenicama učenice učenici učenicom učenicu
+25	4825	mladoženja	mladoženje mladoženji mladoženjo mladoženjom mladoženju
+26	4826	zauzimati	zauzima zauzimaju zauzimajući zauzimala zauzimali zauzimam zauzimamo zauzimanje zauzimao zauzimate zauzimaš
+27	4827	proučiti	prouče prouči proučila proučili proučim proučimo proučio proučite proučiš
+28	4828	kurir	kurira kurire kuriri kurirom kuriru
+29	4829	tehničar	tehničara tehničare tehničari tehničarima tehničarom tehničaru
+30	4830	obrađivati	obrađivala obrađivali obrađivanje obrađivao obrađuj obrađuje obrađujem obrađujemo obrađujete obrađuješ obrađuju
+31	4831	izdavati	izdaj izdaje izdajem izdajemo izdajete izdaješ izdajmo izdajte izdaju izdajući izdavala izdavali izdavanje izdavao
+32	4832	zaštitnik	zaštitnici zaštitnicima zaštitnika zaštitnike zaštitnikom zaštitniku zaštitniče
+33	4833	ručno	
+34	4834	obrnuto	
+35	4835	odvijati	odvija
+36	4836	kamin	kamina kamini kaminom kaminu
+37	4837	fontana	fontanama fontane fontani fontanom fontanu
+38	4838	obojen	obojena obojene obojeni obojenih obojenim obojenima obojeno obojenog obojenom obojenu
+39	4839	pozitivno	
+40	4840	tuda	
+41	4841	proglašavati	proglašava proglašavaju proglašavajući proglašavam proglašavamo
+42	4842	sakrivati	sakriva sakrivaj sakrivaju sakrivajući sakrivala sakrivali sakrivam sakrivamo sakrivanje sakrivao sakrivate sakrivaš
+43	4843	odbraniti	odbrane odbrani odbranila odbranili odbranim odbranimo odbranio odbranite odbraniš
+44	4844	kardinal	kardinala kardinale kardinali kardinalima kardinalom kardinalu
+45	4845	nabaciti	nabace nabaci nabacila nabacili nabacim nabacimo nabacio nabacite nabaciću nabaciš
+46	4846	predgrađe	predgrađa predgrađima predgrađu
+47	4847	bora	borama bore bori boro boru
+48	4848	metla	metala metlama metle metli metlom metlu
+49	4849	ulov	ulova ulove ulovi ulovom ulovu
+50	4850	klopa	klope klopi klopom klopu
+51	4851	samac	samaca samca samce samci
+52	4852	travnjak	travnjaci travnjacima travnjaka travnjake travnjakom travnjaku
+53	4853	ovolik	ovolika ovolike ovoliki ovolikim ovolikog ovolikoj ovolikom ovoliku
+54	4854	laskati	laska laskaj laskaju laskala laskalo laskam laskanje laskao laskate laskaš
+55	4855	portal	portala portale portali portalima portalu
+56	4856	pješke	peške
+57	4857	starješina	starešina starešinama starešine starešini starešino starešinom starešinu starješinama starješine starješino starješinu
+58	4858	čelični	čelična čelične čeličnih čeličnim čelično čeličnog čeličnoj čeličnom čeličnu
+59	4859	bal	
+60	4860	zbunjivati	zbunjivala zbunjivalo zbunjivanje zbunjivao zbunjuj zbunjuje zbunjujem zbunjujemo zbunjujete zbunjuješ zbunjuju zbunjujući
+61	4861	nacistički	nacistička nacističke nacističkih nacističkim nacističko nacističkog nacističkoj nacističkom nacističku
+62	4862	zalogaj	zalogaja zalogaje zalogajem zalogaji zalogaju
+63	4863	zalediti	zalede zaledi zaledila zaledile zaledili zaledilo zaledim zaledio zaledite zalediš zaleđen zaleđena zaleđene zaleđeni zaleđeno
+64	4864	zabosti	zabode zabodem zaboden zabodene zabodeno zabodeš zabodi zabodu zabola zabole zaboli zabošću
+65	4865	sjebano	
+66	4866	ljubomora	ljubomore ljubomori ljubomorom ljubomoru
+67	4867	srž	srži
+68	4868	stanovništvo	stanovništva stanovništvom stanovništvu
+69	4869	profesionalno	
+70	4870	voditelj	voditelja voditelje voditeljem voditelji voditeljima voditelju
+71	4871	anomalija	anomalijama anomalije anomaliji anomalijom anomaliju
+72	4872	četvorica	četvorice četvorici četvoricom četvoricu
+73	4873	panda	pande pandi pando pandom pandu
+74	4874	lopata	lopatama lopate lopati lopatom lopatu
+75	4875	efekt	efekata efekta efekte efekti efektima efektom efektu
+76	4876	široko	široka široke široki širokom široku
+77	4877	revolver	revolvera revolvere revolveri revolverima revolverom revolveru
+78	4878	trovati	trovala trovali trovana trovanje trovao truje trujem trujete truješ truju
+79	4879	inicijativa	inicijative inicijativi inicijativom inicijativu
+80	4880	ponestati	ponestalo ponestane ponestaće
+81	4881	korupcija	korupcije korupciji korupcijom korupciju
+82	4882	psihologija	psihologije psihologiji psihologijom psihologiju
+83	4883	prikladan	najprikladnije najprikladniji prikladna prikladne prikladni prikladnija prikladnije prikladniji prikladnim prikladnog prikladnom prikladnu
+84	4884	istupiti	istupe istupi istupila istupili istupim istupimo istupio istupite istupiš
+85	4885	otkazivati	otkazivanje otkazivao otkazuj otkazuje otkazujem otkazujemo otkazujete otkazuješ otkazuju
+86	4886	slikar	slikara slikare slikari slikarica slikarima slikarom slikaru
+87	4887	kancelar	kancelara kancelare kancelarom kancelaru
+88	4888	letak	leci lecima letaka letka letke letku
+89	4889	identičan	identična identične identični identičnih identičnim identično identičnu
+90	4890	trljati	trlja trljaj trljajte trljaju trljala trljali trljam trljanje trljao trljate trljaš
+91	4891	ljubaznost	ljubaznosti ljubaznošću
+92	4892	terasa	terasama terase terasi terasom terasu
+93	4893	genijalan	genijalna genijalne genijalni genijalnih genijalnim genijalnog genijalnoj genijalnom genijalnu
+94	4894	pecivo	peciva pecivima pecivom pecivu
+95	4895	zlikovac	cima zlikovaca zlikovca zlikovce zlikovcem zlikovci zlikovcima zlikovcu zlikovče
+96	4896	resiti	rese resi resila resili resim resimo resio resite
+97	4897	isključivati	isključivanje isključivao isključuj isključuje isključujem isključujemo isključujete isključuješ isključuju isključujući
+98	4898	manastir	manastira manastire manastiri manastirima manastiru
+99	4899	konvencija	konvencijama konvencije konvenciji konvencijom konvenciju
+100	4900	izračunati	izračuna izračunaj izračunajte izračunala izračunali izračunam izračunamo izračunao izračunata izračunate izračunato izračunaš

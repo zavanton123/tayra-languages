@@ -1,0 +1,100 @@
+1	6101	živahan	živahna živahne živahni živahno živahnog živahnu
+2	6102	jučerašnji	jučerašnja jučerašnje jučerašnjeg jučerašnjem jučerašnjih jučerašnjim jučerašnjoj jučerašnju
+3	6103	zezati	
+4	6104	klinika	
+5	6105	petorica	petorice petorici petoricom petoricu
+6	6106	istopiti	istope istopi istopila istopili istopilo istopim istopio istopljen istopljena istopljene istopljeni istopljeno
+7	6107	tegla	teglama tegle tegli teglom teglu
+8	6108	rival	rivala rivale rivali rivalima rivalom rivalu
+9	6109	skrasiti	skrase skrasi skrasila skrasili skrasim skrasimo skrasio skrasite skrasiš
+10	6110	žrtvovati	
+11	6111	hrišćanin	hrišćana hrišćane hrišćani hrišćanima hrišćanina
+12	6112	pridržavati	pridržava pridržavaj pridržavajte pridržavaju pridržavala pridržavali pridržavam pridržavamo pridržavanje pridržavao pridržavate pridržavaš
+13	6113	grješnik	grešnici grešnicima grešnik grešnika grešnike grešniku grješnici grješnika
+14	6114	izravno	
+15	6115	usprkos	
+16	6116	udio	udjela udjelom
+17	6117	žitarica	žitaricama žitarice
+18	6118	stambeni	stambena stambene stambenih stambenim stambeno stambenog stambenoj stambenom stambenu
+19	6119	izlog	izloga izloge izlogu izlozi izlozima izlože
+20	6120	puž	puža pužem puževa puževe puževi puževima pužu
+21	6121	prezir	prezira prezirom preziru
+22	6122	založiti	založi založila založili založim založimo založio založite založiću založiš
+23	6123	grkljan	grkljana grkljane
+24	6124	upotrebljavati	upotrebljava upotrebljavaj upotrebljavaju upotrebljavajući upotrebljavali upotrebljavam upotrebljavamo upotrebljavao upotrebljavate upotrebljavaš
+25	6125	nabavljati	nabavlja nabavljaju nabavljala nabavljali nabavljam nabavljamo nabavljanje nabavljao nabavljate nabavljaš
+26	6126	dres	dresa dresova dresove dresovi dresovima dresu
+27	6127	tragično	
+28	6128	povrh	
+29	6129	kriket	kriketa kriketu
+30	6130	razmak	razmaci razmacima razmaka razmake razmakom razmaku
+31	6131	arhitekt	arhitekata arhitekte arhitekti arhitektom arhitektu
+32	6132	građevinski	građevinska građevinske građevinskih građevinskim građevinsko građevinskog građevinskoj građevinskom građevinsku
+33	6133	skulptura	skulpturama skulpture skulpturi skulpturom skulpturu
+34	6134	ranjenik	ranjenici ranjenicima ranjenika ranjenike
+35	6135	rajski	rajska rajske rajskih rajskim rajsko rajskog rajskom rajsku
+36	6136	треба	
+37	6137	otkuda	
+38	6138	manjina	manjinama manjine manjini manjinu
+39	6139	dilema	dilemama dileme dilemi dilemom dilemu
+40	6140	prihvatljiv	prihvatljiva prihvatljive prihvatljivi prihvatljivih prihvatljivija prihvatljivije prihvatljiviji prihvatljivim prihvatljivog prihvatljivom prihvatljivu
+41	6141	boks	
+42	6142	sumnjičav	sumnjičava sumnjičave sumnjičavi sumnjičavim sumnjičavo
+43	6143	radioaktivan	radioaktivna radioaktivne radioaktivni radioaktivnih radioaktivnim radioaktivnog radioaktivnom radioaktivnu
+44	6144	dežuran	dežurna dežurne dežurni dežurnim dežurnog dežurnom dežurnu
+45	6145	nasljeđe	nasleđa nasleđe nasleđem nasleđu nasljeđa nasljeđu
+46	6146	bjelkinja	belkinja belkinje belkinjom belkinju bjelkinjama bjelkinje bjelkinjo bjelkinjom bjelkinju
+47	6147	smotati	smota smotaj smotala smotali smotam smotamo smotan smotana smotane smotani smotano smotao smotaš
+48	6148	veselo	
+49	6149	idealno	
+50	6150	remen	remena remene remenom remenu
+51	6151	sardina	sardinama sardine sardino sardinu
+52	6152	vratar	vratara vratari vratarom vrataru
+53	6153	arija	arije ariji arijom ariju
+54	6154	povjetarac	povetarac povetarca povetarcu povjetarca povjetarcem povjetarcu
+55	6155	opaziti	opaze opazi opazila opazili opazio opažen
+56	6156	živčan	živčana živčane živčani živčanih živčanim živčano živčanog živčanom živčanu
+57	6157	serum	seruma serumom serumu
+58	6158	preokret	preokreta preokrete preokretom preokretu
+59	6159	esej	eseja eseje eseji esejom eseju
+60	6160	otpisati	otpisala otpisali otpisan otpisana otpisani otpisano otpisao otpiše otpišem otpišemo otpišeš otpišu
+61	6161	odabir	odabira odabire odabirom odabiru
+62	6162	prihvat	prihvata prihvate
+63	6163	puzati	puza puzajući puzali puzanje puzao puže pužem pužemo pužeš puži pužu pužući
+64	6164	jednorog	jednoroga jednoroge jednorogom jednorogu jednorozi jednorozima
+65	6165	zastati	zastala zastali zastane zastanem zastanemo zastanete zastaneš zastani zastanimo zastanite zastanu zastao
+66	6166	suprotnost	suprotnosti
+67	6167	korišćenje	korišćenja korišćenjem korišćenju
+68	6168	osiguravati	osigurava osiguravaju osiguravajući osiguravala osiguravali osiguravam osiguravamo osiguravanje osiguravao
+69	6169	idiotski	idiotska idiotske idiotskih idiotskim idiotsko idiotskog idiotskom idiotsku
+70	6170	danak	danaka danci dancima danka danke
+71	6171	iskaznica	iskaznicama iskaznice iskaznici iskaznicom iskaznicu
+72	6172	šestica	šesticama šestice šestici šesticu
+73	6173	povisiti	povisi povisila povisili povisimo povisio povišen povišena povišene povišeni povišeno
+74	6174	sastavljati	sastavlja sastavljaju sastavljajući sastavljala sastavljali sastavljam sastavljamo sastavljanje sastavljao sastavljate sastavljaš
+75	6175	igranka	igrankama igranke igranku
+76	6176	promocija	promocije promociji promocijom promociju
+77	6177	unija	unije uniji unijom uniju
+78	6178	nastavnica	nastavnice nastavnici nastavnicom nastavnicu
+79	6179	sveska	svesci sveskama sveske sveskom svesku svezaka
+80	6180	milioner	milionera milionere milioneri milionerom milioneru
+81	6181	tiranin	tirana tirane tirani tiranima tiranina tiranine tiraninom tiraninu
+82	6182	izviniti	
+83	6183	tečaj	tečaja tečajeve tečajevi tečaju
+84	6184	papak	papaka papci papcima papka papke papku
+85	6185	lovački	lovačka lovačke lovačkih lovačkim lovačko lovačkog lovačkoj lovačkom lovačku
+86	6186	prosjak	prosjaci prosjacima prosjaka prosjake prosjaku prosjače
+87	6187	smirivati	smirivala smirivanje smirivao smiruj smiruje smirujem smiruješ smiruju smirujući
+88	6188	tekma	tekme tekmi tekmu
+89	6189	londonski	londonska londonske londonskih londonskim londonsko londonskog londonskoj londonskom londonsku
+90	6190	did	dida didi
+91	6191	guz	guze guzom guzova guzove guzovi guzovima guzu
+92	6192	demokracija	demokracije demokraciji demokracijom demokraciju
+93	6193	nerazuman	nerazumna nerazumne nerazumni nerazumnih nerazumnim nerazumno
+94	6194	zubni	zubna zubne zubnih zubnim zubno zubnog zubnoj zubnom zubnu
+95	6195	šipka	šipci šipkama šipke šipki šipkom šipku
+96	6196	senf	senfa senfom senfu
+97	6197	grmlje	grmlja grmlju
+98	6198	isploviti	isplove isplovi isplovila isplovili isplovim isplovimo isplovio isplovite isploviš
+99	6199	lupiti	lupe lupi lupila lupili lupilo lupim lupio lupite lupiću lupiš
+100	6200	твој	твог твом твоја твоје твоји твојим твојих твојом твојој твоју

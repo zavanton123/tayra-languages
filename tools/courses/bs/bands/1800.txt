@@ -1,0 +1,100 @@
+1	1701	podsjećati	podseća podsećaj podsećaju podsećajući podsećala podsećalo podsećam podsećamo podsećanje podsećao podsećate podsećati podsećaš podsjeća podsjećaj podsjećaju podsjećajući podsjećala podsjećalo podsjećam podsjećamo podsjećanje podsjećao podsjećate podsjećaš
+2	1702	telefonski	telefonska telefonske telefonskih telefonskim telefonsko telefonskog telefonskoj telefonskom telefonsku
+3	1703	milost	milosti milošću
+4	1704	prednost	prednosti prednostima prednošću
+5	1705	hraniti	hrane hraneći hrani hranila hranile hranili hranilo hranim hranimo hranio hranite hraniću hraniš hranjen hranjena hranjeni hranjenje
+6	1706	osobno	
+7	1707	ploča	pločama ploče ploči pločica pločicama pločice pločici pločicu pločom ploču
+8	1708	gorivo	goriva gorivom gorivu
+9	1709	grozno	
+10	1710	eksplodirati	eksplodira eksplodiraj eksplodiraju eksplodirala eksplodirale eksplodirali eksplodiralo eksplodiram eksplodiramo eksplodirao eksplodiraće eksplodiraću eksplodiraš
+11	1711	materijal	materijala materijale materijali materijalima materijalom materijalu
+12	1712	gurnuti	gurne gurnem gurnemo gurnete gurneš gurni gurnimo gurnite gurnu gurnula gurnuli gurnulo gurnuo gurnut gurnuta gurnute gurnuto gurnućemo gurnuću
+13	1713	kukavica	kukavicama kukavice kukavici kukavico kukavicom kukavicu
+14	1714	bitan	bitna bitne bitni bitnih bitnija bitnije bitniji bitnijih bitnijim bitnim bitnog bitnom bitnu najbitnija najbitnije najbitnijeg najbitniji najbitnijih najbitniju
+15	1715	sredstvo	sredstava sredstva sredstvima sredstvom sredstvu
+16	1716	studio	studija studijama studije studijem studiji studijima studijo studijom studiju studiom
+17	1717	sredina	sredinama sredine sredini sredinom sredinu
+18	1718	izvršiti	izvrše izvršen izvršena izvršene izvršeni izvršenje izvršeno izvrši izvršila izvršile izvršili izvršilo izvršim izvršimo izvršio izvršite izvršiće izvršićemo izvršićete izvršiću izvršiš
+19	1719	odbrana	odbrane odbrani odbranom odbranu
+20	1720	bijes	bes besa bese besi besom besu bijesa bijesom bijesu
+21	1721	stijena	stena stenama stene steni steno stenom stenu stijenama stijene stijeni stijenom stijenu
+22	1722	suviše	
+23	1723	povezati	poveza povezala povezale povezali povezalo povezao povezaće povezaćemo povezaću poveže povežem povežemo povežete povežeš poveži povežimo povežite povežu
+24	1724	otvor	otvora otvore otvori otvorima otvorom otvoru
+25	1725	rosa	rose rosi roso rosom rosu
+26	1726	bijesan	besan besana besane besani besanih besna besne besni besnih besnim besno besnog besnom besnu bijesna bijesne bijesni bijesnih bijesnim bijesno bijesnog bijesnom bijesnu
+27	1727	hitno	
+28	1728	nedavno	
+29	1729	optužba	optužaba optužbama optužbe optužbi optužbom optužbu
+30	1730	uzbuđen	uzbuđena uzbuđene uzbuđeni uzbuđeniji uzbuđeno uzbuđenog
+31	1731	tatica	tatice tatici taticom taticu
+32	1732	boljeti	bole bolela bolele bolelo boleo boleti boleće boli bolio boljela boljele boljelo boljeće
+33	1733	terorist	terorista teroriste teroristi teroristima teroristom teroristu
+34	1734	planet	planete planeti planetima planetom planetu
+35	1735	funta	funtama funte funti funtu
+36	1736	plaća	plaćama plaće plaći plaćom plaću
+37	1737	skupa	
+38	1738	osoblje	osoblja osobljem osoblju
+39	1739	vreća	vrećama vreće vreći vrećica vrećicama vrećice vrećici vrećicom vrećicu vrećo vrećom vreću
+40	1740	povratiti	povrate povrati povratila povratile povratili povratilo povratim povratimo povratio povratite povratiće povratićemo povratićeš povratiću povratiš povraćena
+41	1741	gradski	gradska gradske gradskih gradskim gradsko gradskog gradskoj gradskom gradsku
+42	1742	prirodan	najprirodnija prirodna prirodne prirodni prirodnih prirodnije prirodnim prirodnog prirodnoj prirodnom prirodnu
+43	1743	pristojan	pristojna pristojne pristojni pristojnih pristojnija pristojnije pristojniji pristojnim pristojno pristojnog pristojnoj pristojnom pristojnu
+44	1744	odbor	odbora odbore odbori odborima odborom odboru
+45	1745	klasa	klasama klase klasi klaso klasom klasu
+46	1746	cijev	cev cevi cevima cijevi cijevima
+47	1747	kontaktirati	kontaktira kontaktiraj kontaktirajte kontaktiraju kontaktirala kontaktirali kontaktiram kontaktiramo kontaktiranje kontaktirao kontaktirate kontaktiraćemo kontaktiraću kontaktiraš
+48	1748	žuriti	žure žureći žuri žurila žurili žurilo žurim žurimo žurio žurite žuriš
+49	1749	razočarati	razočara razočaraju razočarala razočarale razočarali razočaralo razočaram razočaramo razočaran razočarana razočarane razočarani razočarano razočarao razočarate razočaraću razočaraš razočarenja razočarenje razočarenjima razočarenju
+50	1750	marka	maraka marci markama marke marki markica marko markom marku
+51	1751	dupli	dupla duple duplih duplim duplo duplog duploj duplom duplu
+52	1752	ljepota	lepota lepotama lepote lepoti lepoto lepotom lepotu ljepote ljepoti ljepoto ljepotom ljepotu
+53	1753	ponedjeljak	ponedeljak ponedeljka ponedeljke ponedeljkom ponedjeljka ponedjeljke ponedjeljkom
+54	1754	lekcija	lekcijama lekcije lekciji lekcijom lekciju
+55	1755	posljedica	posledica posledicama posledice posledicu posljedicama posljedice posljedicu
+56	1756	dolazak	dolasci dolascima dolaska dolaske dolaskom dolasku dolazaka
+57	1757	javnost	javnosti javnošću
+58	1758	paket	paketa pakete paketi paketima paketom paketu
+59	1759	vic	vica vicem viceva viceve vicevi vicevima vicu viče
+60	1760	fer	
+61	1761	stepenica	stepenicama stepenice stepenici stepenicu
+62	1762	zapad	zapada zapadom zapadu
+63	1763	izgled	izglede izgledi izgledima izgledom izgledu
+64	1764	pritisnuti	pritisne pritisnem pritisnemo pritisnete pritisneš pritisni pritisnimo pritisnite pritisnu pritisnula pritisnuli pritisnuo pritisnut pritisnuta pritisnuto pritisnućemo pritisnuću
+65	1765	medvjed	medved medveda medvede medvedi medvedima medvedom medvedu medvjeda medvjede medvjedi medvjedima medvjedom medvjedu
+66	1766	pošta	pošte pošti poštom poštu
+67	1767	odati	oda odaj odajmo odajte odaju odala odale odali odalo odam odamo odao odate odaće odaćemo odaću odaš ode odi odo odom odu
+68	1768	spojiti	spoje spoji spojila spojile spojili spojilo spojim spojimo spojio spojite spojićemo spojiću spojiš spojte
+69	1769	torta	tortama torte torti torto tortom tortu
+70	1770	sposobnost	sposobnosti sposobnostima sposobnošću
+71	1771	otok	otoci otocima otoka otoke otokom otoku
+72	1772	pretpostaviti	pretpostave pretpostavi pretpostavila pretpostavili pretpostavim pretpostavimo pretpostavio pretpostavite pretpostaviću pretpostaviš pretpostavljene pretpostavljeni pretpostavljeno
+73	1773	gej	geja gejeva gejeve gejevi gejevima geju
+74	1774	današnji	današnja današnje današnjeg današnjega današnjem današnjih današnjim današnjoj današnjom današnju
+75	1775	dnevnik	dnevnici dnevnicima dnevnika dnevnike dnevnikom dnevniku dnevniče
+76	1776	sličan	najsličnije slična slične slični sličnih sličnija sličnije sličniji sličnim sličnima sličnog sličnoga sličnoj sličnom sličnu
+77	1777	iznenađen	iznenađena iznenađene iznenađeni iznenađeno
+78	1778	spremati	spremaj spremajte spremaju spremajući spremala spremale spremali spremalo spremam spremamo spremana spremanje spremao spremate spremaš
+79	1779	ministar	ministara ministra ministre ministri ministrima ministrom ministru
+80	1780	jakna	jaknama jakne jakni jaknom jaknu
+81	1781	odavno	
+82	1782	sladoled	sladoleda sladolede sladoledi sladoledima sladoledom sladoledu
+83	1783	nasilje	nasilja nasiljem nasilju
+84	1784	milijarda	milijardama milijarde milijardi milijardu
+85	1785	proizvod	proizvoda proizvode proizvodi proizvodima proizvodom proizvodu
+86	1786	oficir	oficira oficire oficiri oficirima oficirom oficiru
+87	1787	crnac	crnaca crnca crnce crncem crnci crncima crncu crnče
+88	1788	odmoriti	odmore odmori odmorila odmorili odmorim odmorimo odmorio odmorite odmorićemo odmoriću odmoriš
+89	1789	odvratno	
+90	1790	peder	pedera pedere pederi pederima pederom pederu
+91	1791	suza	suzama suze suzi suzom suzu
+92	1792	toalet	toaleta toalete toaleti toaletima toaletom toaletu
+93	1793	bicikl	bicikala bicikla bicikle bicikli biciklima biciklom biciklu
+94	1794	otprilike	
+95	1795	spisak	spiska spiskom spiskova spiskove spiskovi spiskovima spisku
+96	1796	grob	groba grobom grobova grobove grobovi grobovima grobu
+97	1797	jug	juga jugom jugu
+98	1798	dosad	dosada dosade dosadi dosado dosadom dosadu
+99	1799	površina	površinama površine površini površinom površinu
+100	1800	britanski	britanska britanske britanskih britanskim britansko britanskog britanskoga britanskoj britanskom britansku

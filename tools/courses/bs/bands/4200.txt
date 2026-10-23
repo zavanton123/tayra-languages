@@ -1,0 +1,100 @@
+1	4101	glasanje	glasanja glasanjem glasanju
+2	4102	poklopac	poklopaca poklopca poklopce poklopcem poklopci poklopcima poklopcu
+3	4103	torpedo	torpeda torpedima torpedom torpedu
+4	4104	veteran	veterana veterane veterani veteranima veteranom veteranu
+5	4105	skretati	skretala skretanje skretao skreće skrećem skrećemo skrećete skrećeš skreći skrećite skreću
+6	4106	dlan	dlana dlanom dlanova dlanove dlanovi dlanovima dlanu
+7	4107	tjelohranitelj	telohranitelj telohranitelja telohranitelji telohraniteljima tjelohranitelja tjelohranitelje tjelohraniteljem tjelohranitelji tjelohraniteljima tjelohranitelju
+8	4108	lula	lule luli lulom lulu
+9	4109	prvak	prvaci prvaka prvake prvakom prvaku prvače
+10	4110	nesposoban	nesposobna nesposobne nesposobni nesposobnih nesposobnim nesposobno nesposobnog nesposobnom
+11	4111	oproštaj	oproštaja oproštaje oproštajem oproštaji oproštaju
+12	4112	realnost	realnosti realnošću
+13	4113	južno	
+14	4114	ozdraviti	ozdrave ozdravi ozdravila ozdravili ozdravim ozdravimo ozdravio ozdravite ozdraviš
+15	4115	litica	liticama litice litici liticu
+16	4116	polazak	polaska polasku polazaka
+17	4117	izvanredno	
+18	4118	apetit	apetita apetite apetiti apetitima apetitom apetitu
+19	4119	latinski	latinska latinske latinskim latinsko latinskog latinskoj latinskom latinsku
+20	4120	kup	kupa kupi kupo kupova kupovi kupu
+21	4121	vilica	vilicama vilice vilici vilicom vilicu
+22	4122	bandit	bandita bandite banditi banditima banditom banditu
+23	4123	ćale	
+24	4124	toplina	topline toplini toplinom toplinu
+25	4125	trostruk	trostruka trostruke trostruki trostrukih trostrukim trostruko trostrukog trostrukoj trostrukom trostruku
+26	4126	ševiti	ševe ševi ševila ševili ševim ševimo ševio ševite ševiš
+27	4127	prtljažnik	prtljažnika prtljažniku
+28	4128	zavoljeti	zavole zavolela zavoleli zavoleo zavoleti zavoleće zavolećete zavolećeš zavoli zavolim zavolio zavolite zavoliš zavoljela zavoljeli zavoljećeš
+29	4129	želudac	želuca želuci želucu
+30	4130	tašna	tašne tašni tašnom tašnu
+31	4131	divljak	divljaci divljacima divljaka divljake divljakom divljaku divljače
+32	4132	zavaravati	zavarava zavaravaj zavaravajte zavaravaju zavaravajući zavaravala zavaravali zavaravam zavaravamo zavaravanje zavaravao zavaravate zavaravaš
+33	4133	osloniti	oslone osloni oslonila oslonili oslonim oslonimo oslonio oslonite osloniš
+34	4134	kiselina	kiseline kiselini kiselinom kiselinu
+35	4135	budžet	budžeta budžete budžetom budžetu
+36	4136	oduzimati	oduzima oduzimaj oduzimaju oduzimajući oduzimala oduzimali oduzimalo oduzimam oduzimamo oduzimanje oduzimao oduzimate oduzimaš
+37	4137	pretjerano	preterano
+38	4138	proizvesti	proizvede proizvedem proizvedemo proizveden proizvedena proizvedene proizvedeni proizvedeno proizvedete proizvedu proizvela proizveli proizvelo proizveo
+39	4139	nosač	nosača nosače nosači nosačima nosaču
+40	4140	izvjestan	izvesna izvesne izvesni izvesnih izvesnim izvesnog izvesnoj izvesnom izvesnu izvestan izvjesna izvjesne izvjesni izvjesnih izvjesnim izvjesnog izvjesnoj izvjesnom izvjesnu
+41	4141	memorija	memorije memoriji memorijom memoriju
+42	4142	stidljiv	stidljiva stidljive stidljivi stidljivo stidljivu
+43	4143	vukodlak	vukodlaci vukodlacima vukodlaka vukodlake vukodlakom vukodlaku
+44	4144	arterija	arterijama arterije arteriji arteriju
+45	4145	rukav	rukava rukave rukavi rukavima rukavom rukavu
+46	4146	oktobar	oktobra oktobru
+47	4147	narkoman	narkomana narkomane narkomani narkomanima narkomanom narkomanu
+48	4148	dirnuti	dirne dirnem dirneš dirni dirnu dirnula dirnule dirnuli dirnulo dirnuo dirnut dirnuta
+49	4149	saobraćajni	saobraćajna saobraćajne saobraćajnih saobraćajnim saobraćajno saobraćajnog saobraćajnoj saobraćajnom saobraćajnu
+50	4150	smještaj	smeštaj smeštaja smeštajem smeštaju smještaja smještajem smještaju
+51	4151	pozor	
+52	4152	bačiti	bačen bačena bačene bačeni bačeno
+53	4153	primorati	primora primoraju primorala primorali primoralo primoram primoramo primoran primorana primorane primorani primorao primoraš
+54	4154	glupav	glupava glupave glupavi glupavih glupavim glupavo glupavog glupavoj glupavom glupavu
+55	4155	trgovati	trgovala trgovali trgovalo trgovanje trgovao trguje trgujem trgujemo trgujete trguješ trguju trgujući
+56	4156	izuzetak	izuzeci izuzetaka izuzetka izuzetke izuzetkom
+57	4157	gust	gusta guste gusti gustih gustim gustog gustoj gustom gustu gušća gušće gušći najgušće najgušći
+58	4158	ladica	ladicama ladice ladici ladicom ladicu
+59	4159	brojan	brojna brojne brojni brojnih brojnije brojniji brojnim brojnu najbrojniji
+60	4160	nestrpljiv	nestrpljiva nestrpljive nestrpljivi nestrpljivo
+61	4161	poručnica	poručnice poručnici poručnicom poručnicu
+62	4162	mastan	masna masne masni masnih masnije masnim masno masnog masnoj masnom masnu
+63	4163	evolucija	evolucije evoluciji evolucijom evoluciju
+64	4164	susjedni	susedna susedne susedni susednih susednim susednog susednoj susednom susednu susjedna susjedne susjednih susjednim susjedno susjednog susjednoj susjednom susjednu
+65	4165	važnost	važnosti
+66	4166	jagoda	jagodama jagode jagodo jagodom jagodu
+67	4167	prorok	proroci prorocima proroka proroke prorokom proroku proroče
+68	4168	nagraditi	nagrade nagradi nagradila nagradili nagradim nagradimo nagradio nagradite nagradiće nagradiš nagrađen nagrađena nagrađene nagrađeni nagrađeno
+69	4169	ulaznica	ulaznicama ulaznice ulaznicu
+70	4170	drukčiji	drukčija drukčijeg drukčijem drukčijim drukčijom drukčiju
+71	4171	košarka	košarci košarke košarkom košarku
+72	4172	lizati	lizala lizali lizalo lizanje lizao lizaću liže ližem ližemo ližete ližeš liži ližu ližući
+73	4173	udružiti	udruže udružen udružena udružene udruženi udruženo udruži udružila udružile udružili udružim udružimo udružio udružite udružiš
+74	4174	filozofija	filozofije filozofiji filozofijom filozofiju
+75	4175	bojna	bojne bojni bojno bojnom bojnu
+76	4176	disciplina	discipline disciplini disciplinom disciplinu
+77	4177	sprečavati	sprečava sprečavaju sprečavajući sprečavala sprečavalo sprečavam sprečavamo sprečavanje sprečavao sprečavate sprečavaš
+78	4178	nacrt	nacrta nacrte nacrti nacrtima nacrtom nacrtu
+79	4179	prekidač	prekidača prekidače prekidačem prekidači prekidačima prekidaču
+80	4180	neophodan	neophodna neophodne neophodni neophodnih neophodnim neophodnog neophodnom neophodnu
+81	4181	svršiti	svrše svršen svrši svršila svršili svršim svršimo svršio svršite svršiću svršiš
+82	4182	četa	čete četi četo četom četu
+83	4183	sličiti	sliče sliči sličila sličilo sličim sličimo sličio sličite sličiš
+84	4184	lišće	lišća lišćem lišću
+85	4185	kočnica	kočnicama kočnice kočnici kočnicom kočnicu
+86	4186	klasik	klasici klasicima klasika klasike klasikom klasiku
+87	4187	džemper	džempera džempere džemperi džemperima džemperom džemperu
+88	4188	dopuštenje	dopuštenja dopuštenjem dopuštenju
+89	4189	teroristički	teroristička terorističke terorističkih terorističkim terorističko terorističkog terorističkoj terorističkom terorističku
+90	4190	lomiti	lome lomeći lomi lomila lomili lomim lomimo lomio lomite lomiš lomljenje
+91	4191	le	
+92	4192	dimenzija	dimenzijama dimenzije dimenziji dimenzijom dimenziju
+93	4193	dostojan	dostojna dostojne dostojni dostojnim dostojno dostojnog dostojnom dostojnu
+94	4194	trijezan	trezan trezna trezni trijezna trijezne trijezni trijeznim trijeznog
+95	4195	bunar	bunara bunare bunari bunarom bunaru
+96	4196	pista	pistama piste pisti pistom pistu
+97	4197	prometan	najprometnije najprometnijih prometna prometne prometni prometnih prometnim prometno prometnog prometnoj prometnom prometnu
+98	4198	urediti	urede uredi uredila uredili uredim uredimo uredio uredite urediću urediš
+99	4199	zadaviti	zadave zadavi zadavila zadavili zadavim zadavimo zadavio zadavite zadaviću zadaviš zadavljen zadavljena zadavljene
+100	4200	krdo	krda krdima krdom krdu

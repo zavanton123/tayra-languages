@@ -1,0 +1,100 @@
+1	2001	prijateljstvo	prijateljstava prijateljstva prijateljstvom prijateljstvu
+2	2002	opljačkati	opljačka opljačkaj opljačkaju opljačkala opljačkale opljačkali opljačkam opljačkamo opljačkan opljačkana opljačkane opljačkani opljačkano opljačkao opljačkate opljačkaće opljačkaćemo opljačkaću opljačkaš
+3	2003	viski	viskija viskijem viskiju
+4	2004	сам	сама сами само
+5	2005	sklanjati	sklanja sklanjaj sklanjajte sklanjaju sklanjala sklanjali sklanjam sklanjamo sklanjanje sklanjao sklanjate sklanjaš
+6	2006	tvrtka	tvrtkama tvrtke tvrtki tvrtkom tvrtku
+7	2007	razvod	razvoda razvode razvodi razvodima razvodom razvodu
+8	2008	ćutati	ćutala ćutali ćutanje ćutao ćutaću ćute ćuteći ćuti ćutim ćutimo ćutite ćutiš
+9	2009	dijamant	dijamanata dijamanta dijamante dijamanti dijamantima dijamantom dijamantu
+10	2010	zahvaljivati	zahvaljivala zahvaljivali zahvaljivanje zahvaljivao zahvaljivaćeš zahvaljuj zahvaljuje zahvaljujem zahvaljujemo zahvaljujete zahvaljuješ zahvaljujte zahvaljuju
+11	2011	tama	tame tami tamom tamu
+12	2012	šetati	šeta šetah šetaj šetajte šetaju šetajući šetala šetale šetali šetam šetamo šetanje šetao šetate šetaćemo šetaćeš šetaš šeće šećem šećemo šećete šećeš šeći šeću
+13	2013	porota	porote poroti porotom porotu
+14	2014	iznenada	
+15	2015	zarađivati	zarađivala zarađivale zarađivali zarađivanje zarađivao zarađuj zarađuje zarađujem zarađujemo zarađujete zarađuješ zarađuju zarađujući
+16	2016	suprug	supruge suprugom suprugu supruzi
+17	2017	alarm	alarma alarme alarmi alarmima alarmni alarmnog alarmom alarmu
+18	2018	izvoditi	izvode izvodeći izvodi izvodila izvodile izvodili izvodim izvodimo izvodio izvodite izvodiš izvođenje
+19	2019	izgovor	izgovora izgovore izgovori izgovorima izgovorom izgovoru
+20	2020	milo	mila mile mili milom milu
+21	2021	ludilo	ludila ludilom ludilu
+22	2022	izazivati	izaziva izazivaj izazivajte izazivaju izazivajući izazivam izazivamo izazivanje izazivate izazivaš
+23	2023	odobriti	odobre odobren odobrena odobrene odobreni odobreno odobri odobrila odobrile odobrili odobrilo odobrim odobrimo odobrio odobrite odobriću odobriš
+24	2024	kaput	kaputa kapute kaputi kaputima kaputom kaputu
+25	2025	šupak	šupaka šupci šupcima šupka šupke šupkom šupku
+26	2026	legenda	legendama legende legendi legendo legendom legendu
+27	2027	tableta	tabletama tablete tableti tabletom tabletu
+28	2028	moderan	moderna moderne moderni modernih modernije moderniji modernim moderno modernog modernoj modernom modernu najmodernija najmodernije najmoderniji najmodernijih najmodernijim najmoderniju
+29	2029	gđica	гђица
+30	2030	doživjeti	dožive doživela doživele doživeli doživelo doživeo doživeti doživeće doživećeš doživi doživim doživimo doživio doživite doživiš doživjela doživjeli doživjelo
+31	2031	uništavati	uništava uništavaj uništavaju uništavajući uništavala uništavali uništavam uništavamo uništavanje uništavao uništavate uništavaš
+32	2032	čamac	čamaca čamca čamce čamcem čamci čamcima čamcu
+33	2033	aktivirati	aktivira aktiviraj aktivirajte aktiviraju aktivirala aktivirale aktivirali aktiviralo aktiviram aktiviramo aktiviran aktivirana aktivirane aktivirani aktiviranje aktivirano aktivirao aktivirate aktiviraće aktiviraću aktiviraš
+34	2034	stol	stola stole stolom stolova stolove stolovi stolovima stolu
+35	2035	nasamo	
+36	2036	liječnik	liječnica liječnice liječnici liječnicima liječnicu liječnika liječnike liječnikom liječniku liječniče
+37	2037	pažljiv	pažljiva pažljive pažljivi pažljivija pažljivije pažljiviji pažljivim pažljivog
+38	2038	gol	gola gole goli golih golim golo golog gologa goloj golom golova golove golovi golu
+39	2039	mapa	mapama mape mapi mapo mapom mapu
+40	2040	guverner	guvernera guvernere guverneri guvernerima guvernerom guverneru
+41	2041	sendvič	sendviča sendviče sendvičem sendviči sendvičima sendviču
+42	2042	namjerno	namerno
+43	2043	mušterija	mušterijama mušterije mušteriji mušterijom mušteriju
+44	2044	zakleti	zakleh zaklela zaklele zakleli zakleo zaklet zakleta zaklete zakune zakunem zakunemo zakunete zakuneš zakuni zakunite zakunu
+45	2045	aktivnost	aktivnosti aktivnostima aktivnošću
+46	2046	tlo	tala tla tlom tlu
+47	2047	grlo	grla grlom grlu
+48	2048	televizija	televizijama televizije televiziji televizijom televiziju
+49	2049	razviti	razvij razvije razvijem razvijemo razvijen razvijena razvijene razvijeni razvijeno razvijete razviješ razvijte razviju razvila razvile razvili razvilo razvio
+50	2050	kuhati	kuha kuhaj kuhaju kuhala kuhali kuham kuhamo kuhan kuhana kuhane kuhani kuhanje kuhano kuhao kuhate kuhaš
+51	2051	val	vala vale valom valova valove valovi valovima valu
+52	2052	nasilan	najnasilniji najnasilnijih nasilna nasilne nasilni nasilnih nasilnija nasilnije nasilniji nasilnim nasilno nasilnog nasilnoj nasilnom nasilnu
+53	2053	slaviti	slave slaveći slavi slavila slavili slavilo slavim slavimo slavio slavite slavićemo slaviš slavljen slavljena slavljeni slavljenje slavljeno
+54	2054	donji	donja donje donjeg donjem donjih donjim donjoj donju
+55	2055	siromašan	najsiromašnija najsiromašnije najsiromašniji najsiromašnijih siromašna siromašne siromašni siromašnih siromašnije siromašniji siromašnim siromašnima siromašno siromašnog siromašnoj siromašnom siromašnu
+56	2056	razdvojiti	razdvoje razdvojen razdvojena razdvojene razdvojeni razdvoji razdvojila razdvojile razdvojili razdvojilo razdvojim razdvojimo razdvojio razdvojite razdvojiće razdvojićemo razdvojiš
+57	2057	okolnost	okolnosti okolnostima
+58	2058	posvetiti	posvete posveti posvetila posvetile posvetili posvetim posvetimo posvetio posvetite posvetiću posvetiš posvećen posvećena posvećene posvećeni posvećeno
+59	2059	građanin	građana građane građani građanima građanina građanine građaninom građaninu
+60	2060	krađa	krađama krađe krađi krađom krađu
+61	2061	uključujući	
+62	2062	stvarnost	stvarnosti stvarnošću
+63	2063	čin	čina činom činova činove činovi činovima činu
+64	2064	upadati	upada upadaj upadajte upadaju upadajući upadala upadali upadam upadamo upadanje upadao upadate upadaš
+65	2065	naredba	naredbama naredbe naredbi naredbom naredbu
+66	2066	pregled	pregleda preglede pregledi pregledima pregledom pregledu
+67	2067	mudar	mudra mudre mudri mudrih mudrija mudrije mudriji mudrim mudrima mudro mudrog mudrom mudru najmudrija najmudrije najmudriji
+68	2068	ispitivati	ispitivala ispitivali ispitivan ispitivana ispitivani ispitivao ispitivaće ispituj ispituje ispitujem ispitujemo ispitujete ispituješ ispitujte ispituju ispitujući
+69	2069	naredni	naredna naredne narednih narednim naredno narednog narednoj narednom narednu
+70	2070	potruditi	potrude potrudi potrudila potrudili potrudim potrudimo potrudio potrudite potrudićemo potrudiću potrudiš
+71	2071	objesiti	obese obesi obesila obesili obesim obesimo obesio obesite obesiti obesiće obesićemo obesiću obesiš obešen obešena obešene obešeni objese objesi objesila objesili objesim objesimo objesio objesite objesiće objesiću objesiš obješen obješena obješene obješeni obješeno
+72	2072	terapija	terapijama terapije terapiji terapijom terapiju
+73	2073	tretirati	tretira tretiraj tretirajte tretiraju tretirala tretirali tretiram tretiramo tretiran tretirana tretirane tretirani tretiranje tretirano tretirao tretirate tretiraće tretiraćemo tretiraću tretiraš
+74	2074	blokirati	blokira blokiraj blokirajte blokiraju blokirajući blokirala blokirale blokirali blokiralo blokiram blokiramo blokiran blokirana blokirane blokirani blokiranje blokirano blokirao blokirate blokiraćemo blokiraš
+75	2075	kombi	
+76	2076	širom	
+77	2077	lift	lifta liftom liftova liftove liftovi liftovima liftu
+78	2078	fokusirati	fokusira fokusiraj fokusirajmo fokusirajte fokusiraju fokusirajući fokusirala fokusirali fokusiram fokusiramo fokusiran fokusirana fokusirane fokusirani fokusiranje fokusirano fokusirao fokusirate fokusiraš
+79	2079	mek	meka meke meki mekih mekim meko mekog mekoj mekom meku mekša mekše mekši mekšu najmekša najmekše
+80	2080	flota	flotama flote floti flotom flotu
+81	2081	svijetao	najsvetlija najsvetliji najsvjetliji svetao svetla svetle svetli svetlih svetlija svetlije svetliji svetliju svetlim svetlima svetlog svetloj svetlom svetlu svijetla svijetle svijetli svijetlih svijetlim svijetlima svijetlo svijetlog svijetlom svijetlu svjetlija svjetlije svjetliji svjetliju
+82	2082	čvrst	najčvršće najčvršći čvrsta čvrste čvrsti čvrstih čvrstim čvrstog čvrstoj čvrstom čvrstu čvršća čvršće čvršći čvršću
+83	2083	špijun	špijuna špijune špijuni špijunima špijunom špijunu
+84	2084	ispit	ispij ispije ispijem ispijemo ispijeno ispiješ ispijmo ispijte ispio ispita ispite ispiti ispitima ispitom ispitu ispiše
+85	2085	ogledalo	ogledala ogledalima ogledalom ogledalu
+86	2086	jabuka	jabuci jabukama jabuke jabuko jabukom jabuku jabučica jabučicama jabučice jabučicu
+87	2087	lisice	lisica lisicama lisici lisico lisicom lisicu
+88	2088	tužiti	tuže tužen tužena tužene tuženi tuži tužila tužili tužim tužimo tužio tužite tužiće tužićemo tužićeš tužiću tužiš
+89	2089	kampanja	kampanjama kampanje kampanji kampanjom kampanju
+90	2090	pretražiti	pretraže pretražen pretražena pretraženi pretraži pretražila pretražili pretražim pretražimo pretražio pretražite pretražiće pretražićemo pretražiću pretražiš
+91	2091	susret	susreta susrete susreti susretima susretom susretu
+92	2092	reakcija	reakcijama reakcije reakciji reakcijom reakciju
+93	2093	vlak	vlaka vlakom vlakova vlakove vlakovi vlakovima vlaku
+94	2094	sumnjiv	nesumnjivo sumnjiva sumnjive sumnjivi sumnjivih sumnjivim sumnjivo sumnjivog sumnjivoj sumnjivom sumnjivu
+95	2095	dim	dima dime dimom dimova dimu
+96	2096	uzrok	uzroci uzrocima uzroka uzroke uzrokom uzroku
+97	2097	glasina	glasinama glasine glasini glasinu
+98	2098	čvrsto	cvrsto
+99	2099	madam	
+100	2100	pantalone	pantalona pantalonama

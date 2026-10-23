@@ -1,0 +1,100 @@
+1	4001	prenositi	prenose prenoseći prenosi prenosila prenosile prenosili prenosilo prenosim prenosimo prenosio prenosite prenosiš prenošen prenošena prenošene prenošenje
+2	4002	neprestano	
+3	4003	čekić	čekića čekiće čekićem čekiću
+4	4004	nagoditi	nagode nagodi nagodila nagodili nagodim nagodimo nagodio nagodite nagodićemo nagodiću nagodiš
+5	4005	zavoj	zavoja zavoje zavojem zavoji zavojima zavoju
+6	4006	brijati	brij brijala brijali brijana brijanje brijao brije brijem brijemo brijete briješ briju brijući
+7	4007	metalan	metalna metalne metalni metalnih metalnim metalno metalnog metalnoj metalnom metalnu
+8	4008	prilog	priloga priloge prilogom prilogu prilozi prilozima
+9	4009	staromodan	staromodna staromodne staromodni staromodnih staromodnim staromodno staromodnog staromodnom staromodnu
+10	4010	finale	finala finalu
+11	4011	srebro	srebra srebrom srebru
+12	4012	uzbuđivati	uzbuđivala uzbuđivalo uzbuđivao uzbuđuj uzbuđuje uzbuđujem uzbuđujemo uzbuđujete uzbuđuješ uzbuđujte uzbuđuju
+13	4013	kapsula	kapsulama kapsule kapsuli kapsulom kapsulu
+14	4014	nogomet	nogometa nogometom nogometu
+15	4015	drzak	drska drske drski drskiji drskim drsko drskog drskom drsku
+16	4016	garderoba	garderobe garderobi garderobom garderobu
+17	4017	sastojak	sastojaka sastojci sastojcima sastojka sastojke sastojkom
+18	4018	snalaziti	snalaze snalazi snalazila snalazili snalazim snalazimo snalazio snalazite snalaziš snalaženje
+19	4019	petljati	petljaj petljajte petljaju petljam petljamo petljate petljaš
+20	4020	evakuacija	evakuacije evakuaciji evakuacijom evakuaciju
+21	4021	emocionalan	emocionalna emocionalne emocionalni emocionalnih emocionalnim emocionalnog emocionalnoj emocionalnom emocionalnu
+22	4022	pokaz	pokaza pokaze pokazi pokazu
+23	4023	nezavisan	nezavisna nezavisne nezavisni nezavisnih nezavisnim nezavisnog nezavisnoj nezavisnom nezavisnu
+24	4024	dosađivati	dosađivala dosađivali dosađivanje dosađivao dosađuj dosađuje dosađujem dosađujemo dosađujete dosađuješ dosađujte dosađuju
+25	4025	august	avgust avgusta avgustu
+26	4026	donacija	donacijama donacije donaciji donacijom donaciju
+27	4027	stipendija	stipendije stipendiji stipendijom stipendiju
+28	4028	prikupiti	prikupe prikupi prikupila prikupili prikupim prikupimo prikupio prikupite prikupiš prikupljen prikupljena prikupljene prikupljeni prikupljeno
+29	4029	hot	
+30	4030	promet	prometa prometom prometu
+31	4031	bunker	bunkera bunkere bunkeri bunkerima bunkeru
+32	4032	koplje	kopalja koplja kopljem kopljima koplju
+33	4033	kupati	kupaj kupaju kupala kupali kupam kupamo kupao kupate kupaće kupaću kupaš
+34	4034	autoritet	autoriteta autoritete autoriteti autoritetima autoritetom autoritetu
+35	4035	nastavak	nastavaka nastavci nastavcima nastavka nastavke nastavkom nastavku
+36	4036	komesar	komesara komesare komesari komesarom komesaru
+37	4037	izjaviti	izjave izjavi izjavila izjavile izjavili izjavilo izjavim izjavimo izjavio izjavite izjaviš
+38	4038	vladar	vladara vladare vladarem vladari vladarima vladaru
+39	4039	trudnoća	trudnoće trudnoći trudnoćom trudnoću
+40	4040	otkinuti	otkine otkinem otkineš otkini otkinu otkinula otkinuli otkinulo otkinuo otkinut otkinuta otkinute otkinuto otkinuće otkinuću
+41	4041	ponestajati	ponestajalo ponestaje ponestaju
+42	4042	napojnica	napojnicama napojnice napojnicom napojnicu
+43	4043	pritiskati	pritiska pritiskaj pritiskajte pritiskaju pritiskajući pritiskala pritiskali pritiskam pritiskamo pritiskanje pritiskao pritiskate pritiskaš pritišće pritišćem pritišćeš pritišći pritišću
+44	4044	spomenik	spomenici spomenicima spomenika spomenike spomenikom spomeniku
+45	4045	psihološki	psihološka psihološke psiholoških psihološkim psihološko psihološkog psihološkoj psihološkom psihološku
+46	4046	metro	metroa metroom metrou
+47	4047	najaviti	najave najavi najavila najavili najavim najavimo najavio najavite najaviću najaviš najavljen najavljena najavljene najavljeni najavljeno
+48	4048	gangster	gangstera gangstere gangsteri gangsterima gangsterom gangsteru
+49	4049	realan	realna realne realni realnih realnije realniji realnim realnog realnoj realnom realnu
+50	4050	privilegija	privilegijama privilegije privilegijom privilegiju
+51	4051	nemoguć	nemoguća nemogućeg nemogućem nemogući nemogućih nemogućim nemogućoj nemogućom nemoguću
+52	4052	zadiviti	zadive zadivi zadivila zadivili zadivilo zadivim zadivio zadivite zadiviš zadivljen zadivljena zadivljeni
+53	4053	prljavština	prljavštine prljavštini prljavštino prljavštinom prljavštinu
+54	4054	krajnji	krajnja krajnjeg krajnjem krajnjih krajnjim krajnjoj krajnjom krajnju
+55	4055	oporavak	oporavka oporavkom oporavku
+56	4056	vrpca	vrpcama vrpce vrpci vrpcom vrpcu
+57	4057	osmi	osma osme osmo osmog osmoj osmom osmu
+58	4058	posuda	posudama posude posudi posudom posudu
+59	4059	petnaest	
+60	4060	zaraza	zaraze zarazi zarazom zarazu
+61	4061	podesiti	podesi podesila podesili podesim podesimo podesio podesite podesiću podesiš podešen podešena podešene podešeni podešeno
+62	4062	ćošak	ćoška ćoškova ćoškove ćoškovima ćošku
+63	4063	rastati	rastala rastale rastali rastane rastanem rastanemo rastanete rastaneš rastanimo rastanu rastao
+64	4064	sakupljati	sakuplja sakupljaju sakupljajući sakupljala sakupljali sakupljam sakupljamo sakupljanje sakupljao sakupljate sakupljaš
+65	4065	komunist	komunista komuniste komunisti komunistima komunistom komunistu
+66	4066	olakšanje	olakšanja olakšanjem
+67	4067	ugušiti	uguše ugušen ugušena ugušene ugušeni ugušeno uguši ugušila ugušili ugušilo ugušim ugušimo ugušio ugušite ugušiće ugušićemo ugušićeš ugušiš
+68	4068	sirota	sirote siroti siroto sirotom sirotu
+69	4069	kvariti	kvare kvarenje kvari kvarila kvarili kvarim kvarimo kvario kvarite kvariš
+70	4070	bjekstvo	bekstva bekstvo bekstvom bekstvu bjekstva bjekstvu
+71	4071	mračno	
+72	4072	ви	вам вас
+73	4073	iskočiti	iskoče iskoči iskočila iskočile iskočili iskočilo iskočim iskočimo iskočio iskočite iskočiću iskočiš
+74	4074	razmatrati	razmatra razmatraju razmatrajući razmatrala razmatrali razmatram razmatramo razmatrana razmatranje razmatrao razmatrate razmatraš
+75	4075	potpisivati	potpisivala potpisivali potpisivanja potpisivanje potpisivao potpisuj potpisuje potpisujem potpisujemo potpisujete potpisuješ potpisuju potpisujući
+76	4076	specijalno	
+77	4077	konjica	konjice konjici konjicom konjicu
+78	4078	institut	instituta institute institutom institutu
+79	4079	jok	
+80	4080	krzno	krzna krznima krznom krznu
+81	4081	ljubitelj	ljubitelja ljubitelje ljubitelji ljubiteljica ljubiteljima ljubitelju
+82	4082	aplauz	aplauza aplauze aplauzom
+83	4083	nesiguran	nesigurna nesigurne nesigurni nesigurnim nesigurno nesigurnog nesigurnoj nesigurnom nesigurnu
+84	4084	uočiti	uoče uočen uočena uočene uočeni uočeno uočila uočili uočim uočimo uočio uočite uočiš
+85	4085	mjesečno	mesečno
+86	4086	unutarnji	unutarnja unutarnje unutarnjeg unutarnjem unutarnjih unutarnjim unutarnjoj unutarnjom unutarnju
+87	4087	crći	crkao crkla crkle crkli crklo crkne crknem crkneš crkni crknite crknu crknuo crknut crknuti crkoh
+88	4088	autor	autora autore autori autorima autorom autoru
+89	4089	populacija	populacije populaciji populacijom populaciju
+90	4090	pečen	pečena pečene pečeni pečenih pečenim pečeno pečenog pečenom pečenu
+91	4091	djelić	delić delića deliće delići delićima deliću djelića djeliće djelićem djelići djelićima djeliću
+92	4092	naokolo	
+93	4093	sapun	sapuna sapune sapuni sapunom sapunu
+94	4094	zemljište	zemljišta zemljištem zemljištu
+95	4095	hajati	haj haje hajem hajmo hajte
+96	4096	rezervacija	rezervacije rezervaciji rezervacijom rezervaciju
+97	4097	as	asa asom asova asove asovi asu
+98	4098	čvor	čvora čvorom čvorova čvorove čvorovi čvorovima čvoru
+99	4099	planinski	planinska planinske planinskih planinskim planinsko planinskog planinskoj planinskom planinsku
+100	4100	štala	štalama štale štali štalu

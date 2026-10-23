@@ -1,0 +1,100 @@
+1	7201	uredno	
+2	7202	punč	punča punčem punču
+3	7203	razočaranje	razočaranja razočaranjem
+4	7204	trpezarija	trpezarije trpezariji trpezariju
+5	7205	percepcija	percepcije percepciji percepcijom percepciju
+6	7206	angažirati	angažira angažiraju angažirala angažirali angažiram angažiranje angažirao
+7	7207	ćorsokak	ćorsokaci ćorsokaka ćorsokaku
+8	7208	neprijateljstvo	neprijateljstava neprijateljstva neprijateljstvom neprijateljstvu
+9	7209	tvor	tvora tvore tvorova tvorove tvorovi
+10	7210	razmnožavati	razmnožava razmnožavaju razmnožavali razmnožavanje
+11	7211	zavući	zavuci zavucite zavukao zavukla zavukli zavuku zavuče zavučem zavučeš
+12	7212	naseljen	naseljena naseljene naseljeni naseljenih naseljenim naseljeno naseljenog naseljenom
+13	7213	formalno	
+14	7214	молити	моли молим
+15	7215	imitacija	imitacijama imitacije imitacijom imitaciju
+16	7216	odmaralište	odmarališta odmaralištima odmaralištu
+17	7217	moljac	moljaca moljca moljce moljci moljcima moljče
+18	7218	konstrukcija	konstrukcije konstrukciji konstrukciju
+19	7219	dobaciti	dobaci dobacila dobacim dobacio dobacite dobaciš
+20	7220	domovinski	domovinska domovinske domovinskog domovinskoj domovinskom domovinsku
+21	7221	kopneni	kopnena kopnene kopnenih kopnenim kopnenog kopnenom kopnenu
+22	7222	savladati	svlada
+23	7223	dugmad	dugmadi
+24	7224	nasljedstvo	nasljedstva nasljedstvom nasljedstvu
+25	7225	lignja	lignjama lignje lignji lignjom lignju
+26	7226	pričvrstiti	pričvrste pričvrsti pričvrstili pričvrstim pričvrstio pričvrstite pričvršćen pričvršćena pričvršćene pričvršćeni pričvršćeno
+27	7227	trotoar	trotoara trotoari trotoarima trotoarom trotoaru
+28	7228	pješak	pešaci pešak pešaka pešake pešače pješaci pješaka pješake
+29	7229	sob	sobe sobova sobove sobovi sobovima sobu
+30	7230	knjigovođa	knjigovođe knjigovođom knjigovođu
+31	7231	krojač	krojača krojačem krojači krojaču
+32	7232	ustanak	ustanka ustanku
+33	7233	rastava	rastave rastavi rastavom rastavu
+34	7234	pojedinačan	pojedinačna pojedinačne pojedinačni pojedinačnih pojedinačnim pojedinačnog pojedinačnoj pojedinačnom pojedinačnu
+35	7235	kometa	
+36	7236	ji	
+37	7237	efikasno	
+38	7238	zavist	zavisti zavišću
+39	7239	drek	dreka dreke drekom dreku
+40	7240	milosrđe	milosrđa milosrđem milosrđu
+41	7241	zapaziti	zapazi zapazila zapazili zapazio zapazite zapažen zapaženi
+42	7242	nastran	nastrana nastrane nastrani nastranih nastranim nastranog nastranu
+43	7243	bankarski	bankarska bankarske bankarskih bankarskim bankarskog bankarskom bankarsku
+44	7244	irački	iračka iračke iračkih iračkim iračko iračkog iračkoj iračkom iračku
+45	7245	kliše	klišea klišei klišeima
+46	7246	diktirati	diktira diktiraj diktiraju diktirala diktiram diktiranje diktirao diktiraš
+47	7247	podmukao	podmukla podmukle podmukli podmuklih podmukliji podmuklim podmuklog podmuklom
+48	7248	iranski	iranska iranske iranskih iranskim iranskog iranskoj iranskom iransku
+49	7249	medvjedić	medvedić medvedića medvediće medvediću medvjedića medvjediće medvjedićem medvjedići medvjediću
+50	7250	opiti	opi opij opije opijen opijena opijeni opijeno opiju opila opio opiše
+51	7251	razvoditi	razvode razvodi razvodila razvodili razvodim razvodimo razvodio razvodite razvodiš
+52	7252	kvota	kvotama kvote kvotu
+53	7253	savijati	savija savijaj savijaju savijam savijanje savijaš
+54	7254	začaran	začarana začarane začarani začaranih začarano začaranog začaranom začaranu
+55	7255	naizgled	
+56	7256	zaslon	zaslona zaslonu
+57	7257	škorpion	škorpiona škorpione škorpioni škorpionima škorpionu
+58	7258	mikroskop	mikroskopa mikroskopom mikroskopu
+59	7259	razdaljina	razdaljinama razdaljine razdaljini razdaljinu
+60	7260	naboj	naboja naboje nabojem naboji nabojima
+61	7261	putnički	putnička putničke putničkih putničkim putničkog putničkom putničku
+62	7262	trunka	trunke trunkom trunku
+63	7263	ananas	ananasa ananasom
+64	7264	sirotinja	sirotinje sirotinji sirotinjom sirotinju
+65	7265	stoljećima	
+66	7266	ekstazi	ekstazija
+67	7267	slogan	slogana slogane sloganima
+68	7268	maćeha	maćehe maćehi maćehom maćehu
+69	7269	invalidski	invalidska invalidskih invalidskim invalidskoj invalidsku
+70	7270	saplesti	saplela sapleli sapleo saplete sapletem sapleteš
+71	7271	povorka	povorci povorke povorku
+72	7272	graditelj	graditelja graditelje graditelji graditeljima
+73	7273	sanjar	sanjara sanjare sanjari sanjaru
+74	7274	beskonačan	beskonačna beskonačne beskonačni beskonačnih beskonačnim beskonačnog beskonačnoj beskonačnom beskonačnu
+75	7275	posjetnica	posetnica posetnice posetnicu posjetnice posjetnicu
+76	7276	zategnuti	zategao zategne zategnem zategnemo zategneš zategni zategnite zateže
+77	7277	cement	cementa cementom cementu
+78	7278	drijemati	drema dremala dremam dremanje dremao dremati dremaš drijema drijemaju drijemala drijemanje drijemao drijemaš
+79	7279	rasistički	rasistička rasističke rasističkih rasističkim rasističko
+80	7280	duhan	duhana duhanom duhanu
+81	7281	svitak	svici svicima svitaka svitci svitka svitke svitku
+82	7282	dopisivati	dopisivala dopisivali dopisivanje dopisivao dopisuje dopisujem dopisujemo dopisujete dopisuješ dopisuju
+83	7283	ljupko	
+84	7284	janje	janjad janjeta
+85	7285	jednačina	jednačinama jednačine jednačini jednačinu
+86	7286	pretinac	pretinca pretince pretincu
+87	7287	neoprostiv	neoprostiva neoprostive neoprostivi neoprostivo
+88	7288	ljepilo	ljepila ljepilom
+89	7289	obradovati	obradovala obradovali obradovalo obradovao obradovaće obraduje obradujem obraduju
+90	7290	rudarski	rudarska rudarske rudarskih rudarskim rudarsko rudarskog rudarskoj rudarskom rudarsku
+91	7291	mljeti	melje meljem melješ melju mlevena mlevene mlevenje mleveno mljevena mljeveni mljevenje mljeveno
+92	7292	teoretičar	teoretičara teoretičare teoretičari teoretičarima
+93	7293	stanište	staništa staništima staništu
+94	7294	ugrijati	ugrij ugrijala ugrijalo ugrijao ugrije ugrijem ugrijemo ugriješ ugrijte ugriju
+95	7295	naopačke	
+96	7296	pečurka	pečuraka pečurkama pečurke pečurki pečurko pečurku
+97	7297	aktivist	aktivista aktiviste aktivisti aktivistima aktivistom
+98	7298	živcirati	živcira živciraj živciraju živciram živcirao živcirate živciraš
+99	7299	višnja	višanja višnjama višnje višnjom višnju
+100	7300	cviliti	cvile cvili cvilim cvilio cviliš

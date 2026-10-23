@@ -1,0 +1,100 @@
+1	7701	šofer	šofera šoferom šoferu
+2	7702	snaja	snaje snajo snajom snaju
+3	7703	lavina	lavine lavini lavinom lavinu
+4	7704	planer	planera planeri planerima planerom planeru
+5	7705	viršla	viršlama viršle viršli viršlu
+6	7706	kengur	kengura kengure kenguri kengurom kenguru
+7	7707	tajlandski	tajlandska tajlandske tajlandskog tajlandskom tajlandsku
+8	7708	zaudarati	zaudara zaudaraju zaudarala zaudaram zaudarao zaudaraš
+9	7709	nezamisliv	nezamisliva nezamislive nezamislivi nezamislivih nezamislivim nezamislivog nezamislivom nezamislivu
+10	7710	minirati	minira miniraju minirali miniramo miniran minirana minirani miniranje minirano minirao miniraš
+11	7711	istaknut	istaknuta istaknute istaknutih istaknutim istaknuto istaknutog istaknutom istaknutu najistaknutiji najistaknutijih
+12	7712	skontati	
+13	7713	čekaonica	čekaonice čekaonici čekaonicu
+14	7714	pomagač	pomagača pomagače pomagači
+15	7715	kapitalizam	kapitalizma kapitalizmom kapitalizmu
+16	7716	pobožan	pobožna pobožne pobožni pobožnih pobožno
+17	7717	uobražen	uobražena uobražene uobraženi uobraženih uobraženo
+18	7718	mazati	mazala mazali mazan mazanje mazao maže mažem mažeš maži mažu
+19	7719	fleksibilan	fleksibilna fleksibilne fleksibilni fleksibilniji fleksibilnim fleksibilno
+20	7720	nasukati	nasukala nasukali nasukalo nasukan nasukana nasukani nasukao
+21	7721	okovati	okova okovali okovan okovana okovane okovani okovao okujte
+22	7722	smještati	smešta smeštaju smeštam smeštanje smješta smještaju smještam smještamo smještanje smještao smještate smještaš
+23	7723	farbati	farbaju farbali farbam farbamo farbanje farbao farbate farbaš
+24	7724	muškost	muškosti
+25	7725	gomilati	gomilaju gomilali gomilamo gomilanje gomilao gomilaš
+26	7726	badem	badema bademe bademi bademima bademom
+27	7727	žulj	žulja žuljeva žuljeve žuljevi žuljevima
+28	7728	konstantan	konstantna konstantne konstantni konstantnim konstantnog konstantnom konstantnu
+29	7729	uzrast	uzrasta uzraste uzrastu
+30	7730	obrazovni	obrazovna obrazovne obrazovnih obrazovnim obrazovno obrazovnog obrazovnom
+31	7731	neurološki	neurološka neurološke neuroloških neurološkim neurološko neurološkog neurološku
+32	7732	revolucionar	revolucionara revolucionare revolucionari revolucionarima
+33	7733	podmazati	podmazala podmazan podmazana podmazane podmazani podmazano podmazao podmaže podmažem podmažeš podmaži
+34	7734	čestit	čestita čestite čestiti čestito čestitu
+35	7735	slutiti	slute slutila slutili slutim slutio slutite slutiš
+36	7736	тебе	
+37	7737	plemstvo	plemstva plemstvom plemstvu
+38	7738	panj	panja panjeva panjevi panju
+39	7739	neslaganje	neslaganja
+40	7740	prihvatilište	prihvatilišta prihvatilištima prihvatilištu
+41	7741	olujni	olujna olujne olujnih olujnim olujno olujnog olujnoj olujnu
+42	7742	podcijeniti	podcijenila podcijenili podcijenio podcijenjen podcijenjena podcijenjeni
+43	7743	zavladati	zavlada zavladaju zavladala zavladali zavladao
+44	7744	vjenčavati	venčava venčavaju venčavali venčavam venčavamo venčavate vjenčava vjenčavaju vjenčavam vjenčavamo
+45	7745	presjek	preseci presek preseku preseče presjeci presjeka presjeku presječe
+46	7746	utovar	utovara utovare utovari utovarom utovaru
+47	7747	onemogućiti	onemoguće onemogućen onemogućena onemogućeni onemogućeno onemogući onemogućila onemogućili onemogućim onemogućio onemogućite
+48	7748	tijesan	tesan tesna tesne tesnim tesnoj tesnom tijesna tijesne
+49	7749	kuharica	
+50	7750	odnekud	
+51	7751	pijun	pijuna pijune pijuni
+52	7752	povećalo	povećala povećalom
+53	7753	bambus	bambusa bambusom
+54	7754	iskopavati	iskopava iskopavaju iskopavali iskopavam iskopavamo iskopavanje iskopavao
+55	7755	klip	klipa klipova klipove klipovi klipu
+56	7756	podvig	podviga podvige podvigu podvizi podvizima
+57	7757	lokva	lokve lokvi lokvu
+58	7758	plemenski	plemenska plemenske plemenskih plemenskim plemensko plemenskog plemenskom plemensku
+59	7759	grm	grma grme grmu
+60	7760	господин	господа господе господине господо
+61	7761	spašavati	
+62	7762	strašilo	strašila
+63	7763	naposljetku	naposletku
+64	7764	kruška	krušaka kruškama kruške krušku
+65	7765	pouka	pouke pouku
+66	7766	lovina	lovine lovinom lovinu
+67	7767	okno	okana okna oknu
+68	7768	knedla	knedlama knedle knedli knedlu
+69	7769	buva	buvama buve buvu
+70	7770	ciničan	cinična cinične cinični cinično ciničnom
+71	7771	naklonjen	naklonjena naklonjene naklonjeni naklonjeno
+72	7772	naježiti	naježi naježila naježim naježio naježiš
+73	7773	runa	runama rune runi runo runu
+74	7774	prošlogodišnji	prošlogodišnja prošlogodišnje prošlogodišnjeg prošlogodišnjem prošlogodišnjih prošlogodišnjoj prošlogodišnju
+75	7775	osakatiti	osakate osakati osakatila osakatili osakatio osakaćen osakaćena osakaćene osakaćeni osakaćeno
+76	7776	hoditi	hodi hodite
+77	7777	pokvarenjak	pokvarenjaci pokvarenjacima pokvarenjaka pokvarenjaku pokvarenjače
+78	7778	geografski	geografska geografske geografskih geografskim geografsko geografskog geografskoj geografsku
+79	7779	platni	platna platne platnog platnoj platnom platnu
+80	7780	veljača	veljače veljači
+81	7781	analni	analna analne analnim analno analnog analnom
+82	7782	rikverc	
+83	7783	krvotok	krvotoka krvotokom krvotoku
+84	7784	radilica	radilice radilicu
+85	7785	partizan	partizana partizane partizani partizanima
+86	7786	glečer	glečera glečeri glečerima glečeru
+87	7787	regrutirati	regrutira regrutiraju regrutirala regrutirali regrutiram regrutiran regrutirani regrutiranje regrutirao
+88	7788	sintetički	sintetička sintetičke sintetičkih sintetičkim sintetičko sintetičkog sintetičku
+89	7789	providan	providna providne providni providno providnu
+90	7790	močiti	moče moči
+91	7791	lupanje	lupanja lupanjem
+92	7792	izmicati	izmicala izmicao izmiče izmiču
+93	7793	trk	trkom trku trče
+94	7794	fen	fena fenom
+95	7795	kalup	kalupa kalupe kalupi kalupima kalupu
+96	7796	nosilac	nosioca nosioce nosioci nosiocu
+97	7797	osovina	osovine osovini osovinu
+98	7798	posramiti	posramila posramim posramio posramiš posramljena posramljeni posramljeno
+99	7799	apsurdan	apsurdna apsurdne apsurdni apsurdnih apsurdnim apsurdnom apsurdnu
+100	7800	ништа	

@@ -1,0 +1,100 @@
+1	1401	zatvorenik	zatvorenici zatvorenicima zatvorenika zatvorenike zatvorenikom zatvoreniku zatvoreniče
+2	1402	prolaziti	prolaze prolazeći prolazi prolazila prolazile prolazili prolazilo prolazim prolazimo prolazio prolazite prolaziš
+3	1403	mobitel	mobitela mobitele mobiteli mobitelima mobitelom mobitelu
+4	1404	snažan	najsnažnija najsnažnije najsnažniji najsnažnijih snažna snažne snažni snažnih snažnija snažnije snažniji snažnijim snažniju snažnim snažno snažnog snažnoj snažnom snažnu
+5	1405	čudovište	čudovišta čudovištem čudovištima čudovištu
+6	1406	žurka	žurci žurkama žurke žurki žurkom žurku
+7	1407	usamljen	najusamljenija najusamljeniji usamljena usamljene usamljeni usamljenih usamljenija usamljenije usamljeniji usamljenim usamljeno usamljenog usamljenoj usamljenom usamljenu
+8	1408	anđeo	anđela anđelak anđele anđeli anđelima anđelom anđelu anđelčić anđeoska anđeoske anđeoski anđeoskim anđeosko anđeoskog anđeosku
+9	1409	kul	
+10	1410	predstaviti	predstave predstavi predstavila predstavili predstavim predstavimo predstavio predstavite predstaviće predstavićemo predstaviću predstaviš predstavljen predstavljena predstavljene predstavljeni predstavljeno
+11	1411	vjenčati	venča venčajmo venčajte venčaju venčala venčali venčam venčamo venčan venčana venčane venčani venčano venčao venčate venčati venčaće venčaćemo venčaćete venčaš vjenča vjenčajmo vjenčajte vjenčaju vjenčala vjenčali vjenčam vjenčamo vjenčan vjenčana vjenčane vjenčani vjenčano vjenčao vjenčate vjenčaćemo vjenčaš
+12	1412	ubijati	ubija
+13	1413	dno	dna dnom dnu
+14	1414	budan	budna budne budni budnih budnim budnima budno budnog budnom budnu
+15	1415	oba	obaju obama
+16	1416	potez	poteza poteze potezi potezima potezom potezu
+17	1417	drag	drage dragi dragih dragim dragima dragog dragoga dragoj dragom dragu draža draže draži dražima najdraža najdraže najdražeg najdražem najdraži najdražih najdražim najdražoj najdražu
+18	1418	postavljati	postavlja postavljaj postavljajte postavljaju postavljajući postavljala postavljali postavljam postavljamo postavljana postavljane postavljanja postavljanje postavljao postavljate postavljaće postavljaću postavljaš
+19	1419	patiti	pate pateći pati patila patile patili patilo patim patimo patio patite patiće patićeš patiš
+20	1420	koljeno	kolena kolenima koleno kolenom kolenu koljena koljenima koljenom koljenu
+21	1421	kit	kita kitama kite kiti kito kitom kitova kitove kitovi kitovima kitu
+22	1422	uznemiriti	uznemire uznemiren uznemirena uznemirene uznemireni uznemireno uznemiri uznemirila uznemirile uznemirili uznemirilo uznemirim uznemirimo uznemirio uznemirite uznemirićeš uznemiriš
+23	1423	taman	najtamnije najtamniji tamna tamne tamni tamnih tamnija tamnije tamniji tamniju tamnim tamno tamnog tamnoj tamnom tamnu
+24	1424	bitka	bici bitaka bitci bitkama bitke bitki bitkom bitku
+25	1425	otkaz	otkaza otkaze otkazi otkazima otkazom otkazu
+26	1426	kompjuter	kompjutera kompjutere kompjuteri kompjuterima kompjuterom kompjuteru
+27	1427	očistiti	očiste očisti očistila očistili očistilo očistim očistimo očistio očistite očistiće očistićemo očistiću očistiš očišćen očišćena očišćene očišćeni očišćeno
+28	1428	volja	volje volji voljom volju
+29	1429	podrška	podršci podrške podrškom podršku
+30	1430	najmanje	
+31	1431	dovoditi	dovode dovodeći dovodi dovodila dovodili dovodilo dovodim dovodimo dovodio dovodite dovodiš dovođenje
+32	1432	odbaciti	odbace odbaci odbacila odbacile odbacili odbacilo odbacim odbacimo odbacio odbacite odbaciće odbacićemo odbacićeš odbaciću odbaciš odbačen odbačena odbačene odbačeni odbačeno
+33	1433	namjera	namera namerama namere nameri namerom nameru namjerama namjere namjeri namjerom namjeru
+34	1434	nastavljati	nastavlja nastavljaj nastavljajte nastavljaju nastavljajući nastavljala nastavljale nastavljali nastavljam nastavljamo nastavljanje nastavljao nastavljate nastavljaš
+35	1435	mlijeko	mleka mleko mlekom mleku mlijeka mlijekom mlijeku
+36	1436	totalno	
+37	1437	odgovornost	odgovornosti odgovornostima odgovornošću
+38	1438	mrak	mraka mrakom mraku
+39	1439	jezero	jezera jezerca jezerce jezerceta jezercu jezerima jezerom jezerska jezerske jezeru
+40	1440	zavezati	zavezala zavezali zavezan zavezana zavezane zavezani zavezano zavezao zavezaću zaveže zavežem zavežemo zavežete zavežeš zaveži zavežimo zavežite zavežu
+41	1441	zdrav	najzdravija najzdravije najzdraviji zdrava zdrave zdravi zdravih zdravija zdravije zdraviji zdravijim zdraviju zdravim zdravima zdravog zdravoj zdravom zdravu
+42	1442	obratiti	obrate obrati obratila obratile obratili obratilo obratim obratimo obratio obratite obratiće obratićemo obratiću obratiš
+43	1443	dizati	dizala dizale dizali dizanje dizao diže dižem dižemo dižete dižeš diži dižimo dižite dižu dižući
+44	1444	ukus	ukusa ukuse ukusi ukusima ukusom ukusu
+45	1445	naručiti	naruče naručen naručena naručene naručeni naručeno naruči naručila naručile naručili naručim naručimo naručio naručite naručićemo naručićeš naručiću naručiš
+46	1446	čisto	
+47	1447	valjati	valja valjaj valjaju valjajući valjala valjale valjali valjalo valjam valjamo valjan valjana valjane valjani valjanje valjano valjao valjate valjaš
+48	1448	sačuvati	sačuva sačuvaj sačuvajmo sačuvajte sačuvaju sačuvala sačuvale sačuvali sačuvalo sačuvam sačuvamo sačuvan sačuvana sačuvane sačuvani sačuvano sačuvao sačuvate sačuvaće sačuvaćemo sačuvaćeš sačuvaću sačuvaš
+49	1449	zmija	zmijama zmije zmiji zmijica zmijo zmijom zmijska zmijske zmijski zmijskih zmijskim zmijsko zmijskog zmijskom zmijsku zmiju
+50	1450	složiti	slože složi složila složile složili složilo složim složimo složio složite složićemo složićete složićeš složiću složiš
+51	1451	potražiti	potraže potraži potražila potražili potražim potražimo potražio potražite potražiće potražićemo potražićeš potražiću potražiš
+52	1452	jasan	jasna jasne jasni jasnih jasnija jasnije jasniji jasniju jasnim jasnog jasnoj jasnom jasnu najjasnije najjasniji
+53	1453	tražilo	tražila
+54	1454	oluja	olujama oluje oluji olujo olujom oluju
+55	1455	istraživanje	istraživanja istraživanjem istraživanjima istraživanju
+56	1456	glumiti	glume glumeći glumi glumila glumile glumili glumim glumimo glumio glumite glumićeš glumiću glumiš glumljenje
+57	1457	sjeverni	severna severne severni severnih severnije severnim severnog severnoj severnom severnu sjeverna sjeverne sjevernih sjevernije sjevernim sjevernog sjevernoj sjevernom sjevernome sjevernu
+58	1458	sprat	sprata spratova spratove spratovi spratovima spratu
+59	1459	oduzeti	oduzela oduzele oduzeli oduzelo oduzeo oduzet oduzeta oduzete oduzeto oduzeće oduzećemo oduzeću oduzme oduzmem oduzmemo oduzmete oduzmeš oduzmi oduzmite oduzmu
+60	1460	vraćati	vraća
+61	1461	usporiti	uspore usporen usporena usporene usporeni usporeno uspori usporila usporile usporili usporilo usporim usporimo usporio usporite usporiće usporiću usporiš
+62	1462	zamjena	zamena zamenama zamene zameni zamenom zamenu zamjenama zamjene zamjeni zamjenom zamjenu
+63	1463	nikako	
+64	1464	topao	najtoplija najtoplije najtoplijem najtopliji najtoplijih topla tople topli toplih toplija toplije topliji toplijih toplijim topliju toplim toplog toploj toplom toplome toplu
+65	1465	ustajati	ustaj ustajala ustajale ustajali ustajalo ustajanje ustajao ustaje ustajem ustajemo ustajete ustaješ ustajte ustaju
+66	1466	skrivati	skriva skrivaj skrivajte skrivaju skrivajući skrivala skrivale skrivali skrivalo skrivam skrivamo skrivana skrivanje skrivao skrivate skrivaš
+67	1467	oprost	oprosta oproste oprosti oprostu
+68	1468	spaliti	spale spali spalila spalile spalili spalilo spalim spalimo spalio spalite spaliće spalićemo spalićeš spaliću spališ spaljen spaljena spaljene spaljeni spaljeno
+69	1469	uzorak	uzoraka uzorci uzorcima uzorka uzorke uzorkom uzorku
+70	1470	tema	temama teme temena temenu temi temo temom temu
+71	1471	posjedovati	posedovala posedovali posedovao posedovati poseduje posedujem posedujemo posedujete poseduješ poseduju posjedovala posjedovali posjedovao posjeduje posjedujem posjedujemo posjedujete posjeduješ posjeduju
+72	1472	obrada	obrade obradi obradom obradu
+73	1473	srušiti	sruše srušen srušena srušene srušeni srušeno sruši srušila srušile srušili srušilo srušim srušimo srušio srušite srušiće srušićemo srušićeš srušiću srušiš
+74	1474	trka	trci trkama trke trkom trku
+75	1475	laboratorij	laboratorija laboratorije laboratorijem laboratoriji laboratorijima laboratoriju
+76	1476	tužan	najtužnija najtužnije najtužniji tužna tužne tužni tužnih tužnije tužniji tužnim tužnog tužnoj tužnom tužnu
+77	1477	osigurati	osigura osiguraj osigurajmo osigurajte osiguraju osigurala osigurale osigurali osiguralo osiguram osiguramo osiguran osigurana osigurane osigurani osigurano osigurao osigurate osiguraćemo osiguraću osiguraš
+78	1478	lokacija	lokacijama lokacije lokaciji lokacijom lokaciju
+79	1479	kineski	kineska kineske kineskih kineskim kinesko kineskog kineskoj kineskom kineskome kinesku
+80	1480	majmun	majmuna majmune majmuni majmunima majmunom majmunu
+81	1481	trgovina	trgovinama trgovine trgovini trgovinom trgovinu
+82	1482	lutka	lutaka lutkama lutke lutki lutko lutkom lutku
+83	1483	muka	muci mukama muke mukom muku
+84	1484	aerodrom	aerodroma aerodrome aerodromi aerodromima aerodromom aerodromska aerodromske aerodromski aerodromsko aerodromskog aerodromskom aerodromu
+85	1485	list	liste listi listić listića listiće listići listićima listiću listom listova listove listovi listovima listu
+86	1486	trener	trenera trenere treneri trenerima trenerom treneru
+87	1487	zajednički	zajednička zajedničke zajedničkih zajedničkim zajedničko zajedničkog zajedničkoga zajedničkoj zajedničkom zajedničku
+88	1488	subota	subotama subote suboti subotom subotu
+89	1489	doručak	doručka doručkom doručku
+90	1490	skidati	skida skidaj skidajte skidaju skidajući skidala skidale skidali skidam skidamo skidanje skidao skidate skidaš
+91	1491	trava	travama trave travi travom travu
+92	1492	krvariti	krvare krvarenje krvareći krvari krvarila krvarile krvarili krvarilo krvarim krvarimo krvario krvarite krvariš
+93	1493	cvijeće	cveća cveće cvećem cveću cvijeća cvijećem cvijeću
+94	1494	spominjati	spominjala spominjali spominjalo spominjanje spominjao spominje spominjem spominjemo spominjete spominješ spominji spominjimo spominjite spominju spominjući
+95	1495	svratiti	svrate svrati svratila svratile svratili svratim svratimo svratio svratite svratiće svratićemo svratićeš svratiću svratiš
+96	1496	miješati	meša mešaj mešajte mešaju mešajući mešala mešali mešam mešamo mešana mešane mešani mešanje mešano mešao mešate mešati mešaš miješa miješaj miješajte miješaju miješala miješali miješam miješamo miješanje miješao miješate miješaš
+97	1497	smeće	smeća smećem smeću
+98	1498	javljati	javlja javljaj javljajte javljaju javljam javljamo javljanje javljate javljaću javljaš
+99	1499	provjeravati	proverava proveravaj proveravajte proveravaju proveravajući proveravala proveravali proveravam proveravamo proveravanje proveravao proveravate proveravati proveravaš provjerava provjeravaj provjeravajte provjeravaju provjeravajući provjeravala provjeravali provjeravam provjeravamo provjeravanje provjeravao provjeravate provjeravaš
+100	1500	kilometar	kilometara kilometra kilometre kilometri kilometrima kilometru

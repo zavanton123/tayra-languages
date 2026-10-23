@@ -1,0 +1,100 @@
+1	7901	jastreb	jastreba jastrebe jastrebova jastrebovi
+2	7902	porta	porte porti porto portu
+3	7903	metropolis	metropolisa metropolisu
+4	7904	prevladati	prevlada prevladaju prevladala prevladali prevladao
+5	7905	pribaviti	pribavi pribavila pribavili pribavim pribavimo pribavio pribavite
+6	7906	zastor	zastora zastore zastori zastorima
+7	7907	први	прва прве прво првог првом првој прву
+8	7908	suprotstavljati	suprotstavlja suprotstavljaj suprotstavljaju suprotstavljali suprotstavljam suprotstavljamo suprotstavljanje suprotstavljao suprotstavljaš
+9	7909	raspršiti	rasprše raspršen raspršena raspršene raspršeni rasprši raspršila raspršili raspršio raspršite
+10	7910	zloglasan	najzloglasnijih zloglasna zloglasne zloglasni zloglasnih zloglasnim zloglasno zloglasnog zloglasnom
+11	7911	horoskop	horoskopa horoskope horoskopi horoskopu
+12	7912	obasjati	obasja obasjaj obasjala obasjalo obasjan obasjana obasjane obasjano obasjao
+13	7913	učinkovit	najučinkovitiji učinkovita učinkovite učinkoviti učinkovitija učinkovitije učinkovitiji učinkovitu
+14	7914	surovo	
+15	7915	mort	morta morte mortu
+16	7916	pansion	pansiona pansionu
+17	7917	đumbir	đumbira đumbirom
+18	7918	rijetkost	retkost retkosti
+19	7919	rezervirati	rezervira rezerviraj rezervirajte rezerviram rezerviramo
+20	7920	templar	templara templare templari templarima
+21	7921	izbušiti	izbuše izbušen izbušena izbušene izbuši izbušila izbušili izbušim izbušimo izbušio izbušiću izbušiš
+22	7922	prašnjav	prašnjava prašnjave prašnjavi prašnjavih prašnjavim prašnjavo prašnjavog prašnjavom prašnjavu
+23	7923	jedinac	jedinca jedince
+24	7924	ispovijed	ispoved ispovedi ispovijedi
+25	7925	sim	
+26	7926	sunašce	
+27	7927	izmišljotina	izmišljotinama izmišljotine
+28	7928	polen	polena polenom
+29	7929	njuškalo	njuškala
+30	7930	čar	čari čarima
+31	7931	varijacija	varijacijama varijacije varijaciju
+32	7932	gnjida	gnjide gnjido gnjidu
+33	7933	samoobrana	samoobrane samoobrani samoobranu
+34	7934	sinoćnji	sinoćnja sinoćnje sinoćnjeg sinoćnjem sinoćnjim sinoćnjoj sinoćnju
+35	7935	kovač	kovača kovači kovaču
+36	7936	grančica	grančicama grančice grančici grančicu
+37	7937	koračati	korača koračaj koračaju koračala koračali koračam koračamo koračanje koračao koračaš
+38	7938	štićenik	štićenici štićenicima štićenika štićenike
+39	7939	igdje	igde
+40	7940	ozbiljnost	ozbiljnosti
+41	7941	dopirati	dopirao dopire dopirem dopiru
+42	7942	stolar	stolara stolari
+43	7943	pomorandža	pomorandžama pomorandže pomorandži pomorandžu
+44	7944	rasizam	rasizma rasizmom rasizmu
+45	7945	okaniti	okane okani okanite okaniš
+46	7946	interakcija	interakcije interakciji interakciju
+47	7947	preoteti	preotela preoteli preoteo preotme preotmem preotmeš preotmu
+48	7948	surogat	surogata surogate surogati
+49	7949	prikrivanje	prikrivanja prikrivanjem prikrivanju
+50	7950	srećka	srećke srećko srećku
+51	7951	lomača	lomače lomači lomaču
+52	7952	frakcija	frakcijama frakcije frakciji frakciju
+53	7953	protestant	protestanata protestante protestanti protestantima
+54	7954	njihati	njihali njihanje njihao njiše njišem njišeš njiši njišite njišu
+55	7955	fetiš	fetiša fetiši fetišima fetišom
+56	7956	belgijski	belgijska belgijske belgijskih belgijsko belgijskog belgijskoj belgijskom belgijsku
+57	7957	sanjariti	sanjare sanjarenje sanjari sanjarila sanjarim sanjario sanjariš
+58	7958	ratnica	ratnice ratnici ratnicu
+59	7959	alatka	alatke alatki alatkom alatku
+60	7960	prepoloviti	prepolovi prepolovila prepolovili prepolovim prepolovimo prepolovio prepolovljen prepolovljena
+61	7961	pacifički	pacifička pacifičke pacifičkih pacifičkim pacifičko pacifičkog pacifičkoj pacifičkom pacifičku
+62	7962	jar	
+63	7963	naime	
+64	7964	sedmoro	
+65	7965	takt	takta taktova taktove taktu
+66	7966	tabor	tabora taboru
+67	7967	bilje	bilja biljem
+68	7968	butik	buticima butika butike butiku
+69	7969	kamiondžija	kamiondžijama kamiondžije kamiondžiji kamiondžijom kamiondžiju
+70	7970	promatrač	promatrača promatrače promatrači promatraču
+71	7971	čupav	čupava čupave čupavi čupavo čupavog čupavu
+72	7972	svjetlucav	svetlucava svetlucave svetlucavi svetlucavih svetlucavo svetlucavom svjetlucava svjetlucave svjetlucavi svjetlucavih svjetlucavo svjetlucavu
+73	7973	nostalgija	nostalgije nostalgijom nostalgiju
+74	7974	odjedanput	
+75	7975	pik	
+76	7976	adut	aduta adute aduti
+77	7977	nektar	nektara nektarom
+78	7978	blistati	blista blistaj blistaju blistala blistam blistao blistate blistaš
+79	7979	geografija	geografije geografiji geografijom geografiju
+80	7980	nasmijavati	nasmijava nasmijavaj nasmijavaju nasmijavam nasmijavao nasmijavaš
+81	7981	uzdržavati	uzdržava uzdržavaj uzdržavaju uzdržavam uzdržavanja uzdržavanje uzdržavanju uzdržavate uzdržavaš
+82	7982	pucač	pucača pucače pucaču
+83	7983	prostran	prostrana prostrane prostrani prostranim prostrano prostranog prostranom
+84	7984	plišani	plišana plišane plišanih plišanim plišanog plišanu
+85	7985	presti	predahu prede predem predemo predenje predete predeš predi predu
+86	7986	prostranstvo	prostranstva prostranstvima prostranstvu
+87	7987	spoljašnji	spoljašnja spoljašnje spoljašnjeg spoljašnjem spoljašnjih spoljašnjim spoljašnju
+88	7988	osamdeset	
+89	7989	šezdeset	
+90	7990	jugoistočni	jugoistočna jugoistočne jugoistočnog jugoistočnoj jugoistočnom jugoistočnu
+91	7991	trčkarati	trčkara trčkaraju trčkarajući trčkarala trčkaram trčkaramo trčkaranje trčkarao trčkaraš
+92	7992	nokaut	nokauta nokautom
+93	7993	spremnost	spremnosti
+94	7994	tezga	tezge tezgi tezgu
+95	7995	sjemenka	semenke semenki sjemenkama sjemenke sjemenki
+96	7996	plankton	planktona planktone planktonom planktonu
+97	7997	reprodukcija	reprodukcije reprodukciji reprodukcijom reprodukciju
+98	7998	урадити	уради урадила урадили урадим урадимо урадио урадите урадиш урадићу
+99	7999	razbacivati	razbacivanje razbacuj razbacuje razbacujem razbacujemo razbacujete razbacuješ razbacuju
+100	8000	upirati	upiranje upire upirem upireš upiri upiru

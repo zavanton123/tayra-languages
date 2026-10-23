@@ -1,0 +1,100 @@
+1	9901	klizaljka	klizaljkama klizaljke klizaljki
+2	9902	čudakinja	čudakinjo čudakinjom
+3	9903	tamjan	tamjana tamjanom
+4	9904	pamflet	pamfleta pamflete pamfleti
+5	9905	gađenje	gađenja gađenjem
+6	9906	predomišljati	predomišlja predomišljam predomišljanje predomišljaš
+7	9907	ilustracija	ilustracijama ilustracije ilustraciju
+8	9908	nepostojeći	nepostojeća nepostojeće nepostojećeg nepostojećem nepostojećim nepostojeću
+9	9909	britva	britve britvom britvu
+10	9910	sumnjičiti	sumnjiče sumnjiči sumnjičila sumnjičili sumnjičimo sumnjičite
+11	9911	kontroverzan	kontroverzna kontroverzne kontroverzni kontroverznih kontroverznog
+12	9912	živopisan	živopisna živopisne živopisni živopisniji živopisnim
+13	9913	nužan	nužna nužne nužni nužnim nužnu
+14	9914	ušteda	uštede uštedi uštedu
+15	9915	kašljati	kašljala kašljanje kašljao kašlje kašljem kašljete kašlješ kašlji kašlju
+16	9916	zabit	zabiću
+17	9917	čiča	čiči
+18	9918	premalen	premalena premaleni premaleno
+19	9919	sugrađanin	sugrađana sugrađane sugrađani sugrađanima sugrađanina
+20	9920	bezbolan	bezbolna bezbolni bezbolnije bezbolnom bezbolnu
+21	9921	porobiti	porobe porobi porobili porobio porobljen porobljena porobljeni
+22	9922	šumski	
+23	9923	stampedo	stampeda
+24	9924	brojač	brojača
+25	9925	kvartet	kvarteta kvartetu
+26	9926	spona	spone sponu
+27	9927	prepelica	prepelice prepelicu
+28	9928	foton	fotona fotone fotoni
+29	9929	сигуран	сигурна сигурно
+30	9930	nagovijestiti	nagovestila nagovestio nagovestiti nagovestiću nagovestiš nagovijestila nagovijestio
+31	9931	upadljiv	upadljiva upadljive upadljivi
+32	9932	trica	trice tricu
+33	9933	naslutiti	naslutila naslutili naslutim naslutio
+34	9934	aleja	aleje aleji alejo aleju
+35	9935	neljudski	neljudska neljudske neljudskim neljudsko neljudskog neljudskom
+36	9936	žonglirati	žonglira žongliram žongliranje žonglirao žongliraš
+37	9937	spiskati	spiska spiskala spiskali spiskao spiskaš
+38	9938	šaržer	šaržera
+39	9939	orgulje	orgulja orguljama
+40	9940	kazivati	kazuj kazuje kazuju
+41	9941	pinceta	pincete pincetom pincetu
+42	9942	obuhvatiti	obuhvati obuhvatila obuhvatim obuhvatio obuhvaćeni obuhvaćeno
+43	9943	raznolik	raznolika raznolike raznoliki raznolikim raznoliko raznolikom raznoliku
+44	9944	neukusno	
+45	9945	pogovor	pogovora
+46	9946	povoljno	
+47	9947	angažman	
+48	9948	naslijepo	naslepo
+49	9949	zamrzavati	zamrzava zamrzavaju zamrzavanje
+50	9950	čovječnost	čovečnost čovečnosti čovječnosti
+51	9951	kontuzija	kontuzije kontuziju
+52	9952	shrvati	shrvalo shrvan shrvana shrvani
+53	9953	trut	truta trutova trutove trutovi
+54	9954	узет	узела узео узети узмем узми узмите
+55	9955	ukrašavati	ukrašava ukrašavaju ukrašavali ukrašavamo ukrašavanje
+56	9956	велик	велика велике велики велико великом велику већи
+57	9957	uvala	uvale uvali uvalu
+58	9958	strugati	strugali struganje strugao struže stružem struži
+59	9959	neurolog	neurologa neurologu
+60	9960	polog	
+61	9961	brojčano	
+62	9962	tutor	tutora tutorom
+63	9963	šaman	šamana šamane šamani
+64	9964	seljanka	seljanke seljanko seljanku
+65	9965	jagnjetina	jagnjetine jagnjetinom jagnjetinu
+66	9966	bezosećajan	bezosećajna bezosećajne bezosećajni
+67	9967	ocat	octa octom octu
+68	9968	izljev	izljeva izljeve izljevima izljevu
+69	9969	slutnja	slutnje slutnji slutnju
+70	9970	kriterij	kriterija kriterije kriteriji kriterijima
+71	9971	bova	bove bovi bovu
+72	9972	proširivati	proširivanje proširuje proširujem proširujemo proširuju
+73	9973	tmuran	tmurna tmurne tmurni tmurno
+74	9974	radikal	radikala radikale radikali radikalima
+75	9975	neprirodan	neprirodna neprirodne neprirodnim neprirodnog neprirodnom
+76	9976	gejša	gejše gejši gejšu
+77	9977	biciklist	biciklista bicikliste biciklisti biciklistu
+78	9978	asfalt	asfalta asfaltu
+79	9979	obvezati	obvezala obvezali obvezan obvezao
+80	9980	jecaj	jecaje jecaji jecaju
+81	9981	odaziv	odaziva
+82	9982	dopuna	dopune dopuni dopunu
+83	9983	carev	careva careve carevi carevima carevo carevoj carevom carevu
+84	9984	ljaga	ljagu
+85	9985	parobrod	parobroda parobrodom parobrodu
+86	9986	pelikan	pelikana pelikani pelikanu
+87	9987	zamenjivati	zamenjivao zamenjuje zamenjujem zamenjuješ zamenjuju
+88	9988	prodajni	prodajna prodajne prodajnog prodajnom prodajnu
+89	9989	vunen	vunena vunene vuneni vunenim vunenom vunenu
+90	9990	bockati	bocka bockaju bockali bockam bockanje bockao
+91	9991	perverzno	
+92	9992	чак	
+93	9993	seka	
+94	9994	nastrano	
+95	9995	nezreo	
+96	9996	skeč	
+97	9997	povodac	
+98	9998	десити	деси десило
+99	9999	eliksir	eliksira
+100	10000	rastuživati	rastužuje rastužuješ rastužuju

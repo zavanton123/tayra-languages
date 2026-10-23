@@ -1,0 +1,100 @@
+1	7001	preliminaran	preliminarna preliminarne preliminarni preliminarnih preliminarnim preliminarno preliminarnu
+2	7002	košnica	košnice košnici košnicu
+3	7003	nagovarati	nagovara nagovaraju nagovarala nagovarali nagovaram nagovaranje nagovarao nagovaraš
+4	7004	pismen	pismena pismene pismeni pismenih pismenim pismenog pismenu
+5	7005	davni	davna davne davnih davnim davnog davnoj davnu
+6	7006	glavonja	glavonjama glavonje glavonjo glavonju
+7	7007	zadesiti	zadese zadesi zadesila zadesile zadesili zadesilo zadesio
+8	7008	krštenje	krštenja krštenjem krštenju
+9	7009	prepona	preponama prepone preponu
+10	7010	cjedilo	cedilu cjedilu
+11	7011	šupalj	šuplja šuplje šupljeg šupljem šuplji šupljih šupljim šupljoj šuplju
+12	7012	prisjećati	priseća prisećala prisećam prisećao prisećati prisećaš prisjeća prisjećala prisjećam prisjećamo prisjećanje prisjećao prisjećaš
+13	7013	šljam	šljama šljame šljamom šljamu
+14	7014	osvajač	osvajača osvajače osvajači osvajačima osvajaču
+15	7015	šećerni	šećerna šećerne šećernih šećernim šećernog šećernom šećernu
+16	7016	sušiti	suše sušena sušene sušeni sušenje sušeno sušila sušilo sušim sušio sušiš
+17	7017	akumulator	akumulatora akumulatore akumulatori akumulatorima akumulatorom akumulatoru
+18	7018	svetica	svetice svetici sveticom sveticu
+19	7019	čistoća	čistoće čistoći čistoćom čistoću
+20	7020	можда	
+21	7021	šesnaest	
+22	7022	gvožđe	gvožđa gvožđem gvožđu
+23	7023	ograničiti	ograniče ograniči ograničila ograničili ograničim ograničimo ograničio ograničite ograničiš
+24	7024	iznimka	iznimaka iznimke iznimkom iznimku
+25	7025	miroljubiv	miroljubiva miroljubive miroljubivi miroljubivih miroljubivim miroljubivo miroljubivog miroljubivu
+26	7026	raspoloživ	raspoloživa raspoložive raspoloživi raspoloživih raspoloživim raspoloživo raspoloživog raspoloživu
+27	7027	profitirati	profitira profitiraju profitirala profitirali profitiram profitiramo profitirao profitiraš
+28	7028	zanat	zanata zanate zanati zanatom zanatu
+29	7029	uzoran	uzorna uzorne uzorni uzornim uzorno uzornog
+30	7030	ekološki	ekološka ekološke ekoloških ekološkim ekološko ekološkog ekološkoj ekološkom ekološku
+31	7031	zataškati	zataška zataškaju zataškala zataškali zataškam zataškamo zataškano zataškao
+32	7032	mamut	mamuta mamute mamuti mamutu
+33	7033	testera	testere testerom testeru
+34	7034	bankrot	bankrota bankrotom bankrotu
+35	7035	plantaža	plantažama plantaže plantaži plantažu
+36	7036	napomenuti	napomene napomenem napomeni napomenu napomenula napomenuo
+37	7037	novinarstvo	novinarstva novinarstvom novinarstvu
+38	7038	branitelj	branitelja branitelje braniteljem branitelji braniteljima branitelju
+39	7039	naveče	
+40	7040	puma	pume pumu
+41	7041	tučnjava	tučnjave tučnjavi tučnjavu
+42	7042	presudan	presudna presudne presudni presudno presudnog presudnu
+43	7043	porod	poroda porode porodi porodom porodu
+44	7044	nametnuti	nametne nametnem nametnu nametnula nametnuli nametnuo nametnut nametnuta nametnute nametnuto
+45	7045	napušen	napušena napušeni
+46	7046	cesar	cesara cesare cesaru
+47	7047	farba	farbe farbi farbom farbu
+48	7048	usmjeravati	usmerava usmeravaju usmeravam usmeravamo usmeravanje usmeravao usmeravati usmeravaš usmjerava usmjeravaju usmjeravam usmjeravamo usmjeravanje usmjeravao usmjeravaš
+49	7049	ščepati	ščepa ščepaj ščepajmo ščepajte ščepaju ščepala ščepali ščepam ščepamo ščepao ščepaš
+50	7050	meduza	meduzama meduze meduzu
+51	7051	kolonijalan	kolonijalna kolonijalne kolonijalni kolonijalnih kolonijalnim kolonijalno kolonijalnog kolonijalnoj kolonijalnom kolonijalnu
+52	7052	prihvatljivo	
+53	7053	krivično	
+54	7054	čajnik	čajnika čajnike čajniku
+55	7055	kreacija	kreacijama kreacije kreaciji kreaciju
+56	7056	mudrac	mudraca mudrace mudraci mudracu mudrače
+57	7057	predvidljiv	predvidljiva predvidljive predvidljivi predvidljivim predvidljivo
+58	7058	ispravak	ispravci ispravka ispravke ispravku
+59	7059	nosorog	nosoroga nosoroge nosorogom nosorozi nosorože
+60	7060	zastrašivati	zastrašivali zastrašivanja zastrašivanje zastrašivao zastrašuje zastrašujete zastrašuješ zastrašuju
+61	7061	suptilan	suptilna suptilne suptilni suptilnije suptilniji suptilnim
+62	7062	dabar	dabra dabrova dabrove dabrovi dabrovima dabru
+63	7063	lišiti	liše lišen lišena lišeni lišeno liši lišila lišili lišim lišio
+64	7064	studij	studije studijem studiji studijima studiju
+65	7065	zakup	zakupa zakupi zakupu
+66	7066	osama	osame osami osamom osamu
+67	7067	oživljavati	oživljava oživljavaju oživljavam oživljavamo oživljavanje oživljavao
+68	7068	pomak	pomaci pomaka pomake pomakom
+69	7069	kampirati	kampiraju kampirali kampiramo kampiranje kampirao
+70	7070	teatar	teatra teatru
+71	7071	transporter	transportera transportere transporteri transporterom transporteru
+72	7072	zrnce	zrnaca zrnca zrncima
+73	7073	žudnja	žudnje žudnji žudnjom žudnju
+74	7074	predeo	predela predele predeli predelima predelom predelu
+75	7075	glina	gline glini glinom glinu
+76	7076	špric	šprica šprice špriceva špriceve špricevi šprici špricu
+77	7077	ker	kera kerova kerove kerovi kerovima keru
+78	7078	ukrstiti	ukrste ukrsti ukrstile ukrstili ukrstimo ukrstio ukrstite ukrstiš ukrštena ukrštene ukršteni ukršteno
+79	7079	prevodilac	prevodioca prevodiocem prevodioci
+80	7080	hrskav	hrskava hrskave hrskavi hrskavim hrskavo hrskavog hrskavom hrskavu
+81	7081	plašt	plašta plaštem plaštevi plaštu
+82	7082	zebra	zebrama zebre zebri zebru
+83	7083	sutkinja	sutkinje sutkinji sutkinjo sutkinju
+84	7084	emitirati	emitira emitiraju emitiramo emitiranje emitirao
+85	7085	uzrujavati	uzrujava uzrujavaj uzrujavajte uzrujavam uzrujavao uzrujavate uzrujavaš
+86	7086	materijalan	materijalna materijalne materijalni materijalnih materijalnim materijalnog materijalnom materijalnu
+87	7087	naklonost	
+88	7088	време	времена
+89	7089	veleposlanstvo	veleposlanstva veleposlanstvu
+90	7090	bučan	bučna bučne bučni bučniji bučnim bučnog bučnu
+91	7091	funkcionalan	funkcionalna funkcionalne funkcionalni funkcionalnim funkcionalno funkcionalnog funkcionalnom funkcionalnu
+92	7092	navaljivati	navaljivala navaljivali navaljivanje navaljivao navaljuj navaljuje navaljujem navaljujete navaljuješ navaljuju
+93	7093	dijalog	dijaloga dijaloge dijalogom dijalogu
+94	7094	ovlašćenje	ovlašćenja
+95	7095	ovisan	ovisna ovisne ovisni ovisnim
+96	7096	uvježbati	uvežbali uvežbam uvežbamo uvežban uvežbani uvežbano uvežbao uvežbati uvježbali uvježban uvježbana uvježbane uvježbani uvježbao
+97	7097	tetovirati	tetovira tetoviraju tetovirala tetovirali tetoviram tetoviran tetovirana tetovirane tetovirani tetoviranje tetovirano tetovirao tetoviraš
+98	7098	ševa	ševe ševi ševo ševu
+99	7099	hipnoza	hipnoze hipnozi hipnozom hipnozu
+100	7100	preljub	preljuba preljube preljubi preljubom preljubu

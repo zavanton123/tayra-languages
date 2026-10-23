@@ -1,0 +1,100 @@
+1	1901	pustinja	pustinjama pustinje pustinji pustinjom pustinju
+2	1902	zahvalnost	zahvalnosti zahvalnošću
+3	1903	politički	politička političke političkih političkim političko političkog političkoj političkom političku
+4	1904	vježba	vežba vežbama vežbe vežbi vežbom vežbu vježbama vježbe vježbi vježbom vježbu
+5	1905	ran	najranija najranije najranijeg najranijem najraniji najranijih najranijim rane ranih ranija ranije ranijeg ranijem raniji ranijih ranijim ranijoj raniju ranim ranog ranoj ranom ranu
+6	1906	blok	bloka blokom blokova blokove blokovi blokovima bloku
+7	1907	dopasti	dopadne dopadnem dopadneš dopadnu dopala dopale dopali dopalo dopao dopašće dopašćeš
+8	1908	spoj	spoja spojem spojeva spojeve spojevi spojevima spoju
+9	1909	porodični	porodična porodične porodičnih porodičnim porodično porodičnog porodičnoj porodičnom porodičnu
+10	1910	krava	kravama krave kravi kravo kravom kravu
+11	1911	kratko	
+12	1912	ispričavati	ispričava ispričavaj ispričavajte ispričavam ispričavamo ispričavao ispričavate ispričavaš
+13	1913	genij	genija genije genijem geniji genijima geniju
+14	1914	bre	бре
+15	1915	izraz	izraza izraze izrazi izrazima izrazom izrazu
+16	1916	izlazak	izlasci izlascima izlaska izlaske izlaskom izlasku izlazaka
+17	1917	mart	mar mara mare marta marte martom martu maru
+18	1918	silovati	silova silovala silovali silovan silovana silovane silovani silovano silovao silovaće silovaću siluj siluje silujem silujemo silujete siluješ siluju
+19	1919	svatko	svakim svakog svakoga svakome svakomu
+20	1920	prijevoz	prevoz prevoza prevozom prevozu prijevoza prijevozom prijevozu
+21	1921	osoban	osobna osobne osobni osobnih osobnije osobnim osobnog osobnoj osobnom osobnu
+22	1922	osuditi	osude osudi osudila osudili osudilo osudim osudimo osudio osudite osudiće osudiš osuđen osuđena osuđene osuđeni osuđeno
+23	1923	tok	toka tokova tokove tokovi tokovima toku toče
+24	1924	slavan	najslavnija najslavnije najslavniji najslavnijih slavna slavne slavni slavnih slavniji slavnim slavnima slavno slavnog slavnoga slavnoj slavnom slavnu
+25	1925	istok	istoka istokom istoku
+26	1926	serija	serijama serije seriji serijom seriju
+27	1927	top	topa tope topom topova topove topovi topovima topu
+28	1928	ispitivanje	ispitivanja ispitivanjem ispitivanjima ispitivanju
+29	1929	zapadni	zapadna zapadne zapadnih zapadnije zapadnim zapadnog zapadnoj zapadnom zapadnu
+30	1930	gurati	gura gurajte guraju gurajući gurala gurali guralo guram guramo guranje gurao gurate guraš
+31	1931	zmaj	zmaja zmajem zmajeva zmajeve zmajevi zmajevima zmaju
+32	1932	priuštiti	priušte priušti priuštila priuštili priuštim priuštimo priuštio priuštite priuštiš
+33	1933	vizija	vizijama vizije viziji vizijom viziju
+34	1934	poslužiti	posluže poslužen poslužena posluženi posluženo posluži poslužila poslužile poslužili poslužilo poslužim poslužimo poslužio poslužite poslužiće poslužiću poslužiš
+35	1935	zbunjen	zbunjena zbunjene zbunjeni zbunjenih zbunjeniji zbunjenim zbunjeno zbunjenog zbunjenom zbunjenu
+36	1936	dovoljan	dovoljna dovoljne dovoljni dovoljnim dovoljnog dovoljnoj dovoljnom dovoljnu
+37	1937	šifra	šifara šiframa šifre šifri šifrom šifru
+38	1938	suditi	sude sudi sudila sudili sudilo sudim sudimo sudio sudite sudiće sudiš suđen suđena suđene suđeni suđeno
+39	1939	jahati	jahala jahali jahanja jahanje jahanjem jahanju jahao jahaćemo jahaću jaše jašem jašemo jašete jašeš jaši jašimo jašite jašu jašući
+40	1940	divlji	divlja divljeg divljem divljih divljim divljoj divljom divlju
+41	1941	puknuti	pukao pukla pukle pukli puklo pukne puknem pukneš pukni puknu puknula puknulo puknuo puknut puknuta puknuće pući puče
+42	1942	članak	članaka članci člancima članka članke člankom članku
+43	1943	glad	gladi glađu
+44	1944	ostvariti	ostvare ostvaren ostvarena ostvarene ostvareni ostvareno ostvari ostvarila ostvarile ostvarili ostvarilo ostvarim ostvarimo ostvario ostvarite ostvariće ostvariću ostvariš
+45	1945	talac	talaca taoca taoce taocem taoci taocima taocu
+46	1946	zajebati	zajeba zajebala zajebali zajebalo zajeban zajebana zajebane zajebani zajebano zajebao zajebaćeš zajebe zajebem zajebemo zajebete zajebeš zajebu
+47	1947	trud	truda trude trudi trudom trudova trudove trudovi trudovima trudu
+48	1948	tačan	tačna tačne tačni tačnih tačnije tačniji tačnim tačnog tačnom tačnu točan točna točne točni točnije točniji točnim točnog točnom točnu
+49	1949	fizički	fizička fizičke fizičkih fizičkim fizičko fizičkog fizičkoj fizičkom fizičku
+50	1950	publika	publici publike publiko publikom publiku
+51	1951	očajan	očajna očajne očajni očajnih očajniji očajnim očajno očajnog očajnoj očajnom očajnu
+52	1952	rijedak	najređi najređih najrjeđa najrjeđih reci recima redak redaka retka retke retki retkih retkim retkog retkom retku reče ređe ređi rijetka rijetke rijetki rijetkih rijetkim rijetkog rijetkoj rijetkom rijetku rjeđe rjeđi
+53	1953	odustajati	odustaj odustajala odustajali odustajanje odustajao odustaje odustajem odustajemo odustajete odustaješ odustajte odustaju
+54	1954	oblak	oblaci oblacima oblaka oblake oblakom oblaku oblače
+55	1955	dobit	dobiću
+56	1956	školski	školska školske školskih školskim školsko školskog školskoj školskom školsku
+57	1957	prostorija	prostorijama prostorije prostoriji prostorijom prostoriju
+58	1958	visost	visosti
+59	1959	dvorište	dvorišta dvorištem dvorištima dvorištu
+60	1960	biljka	biljaka biljci biljkama biljke biljki biljkom biljku
+61	1961	udaljen	najudaljenija najudaljenije najudaljenijem najudaljeniji najudaljenijih najudaljenijim udaljena udaljene udaljeni udaljenih udaljenija udaljenije udaljeniji udaljenim udaljeno udaljenog udaljenoj udaljenom udaljenu
+62	1962	igračka	igračaka igračkama igračke igrački igračko igračkom igračku
+63	1963	zahvaljujući	
+64	1964	penjati	penjala penjali penjanje penjao penje penjem penjemo penjete penješ penji penjite penju penjući
+65	1965	upozorenje	upozorenja
+66	1966	prepustiti	prepuste prepusti prepustila prepustili prepustim prepustimo prepustio prepustite prepustićemo prepustiću prepustiš prepušten prepuštena prepuštene prepušteni prepušteno
+67	1967	učenik	učenici učenicima učenika učenike učenikom učeniku učeniče
+68	1968	datum	datuma datume datumi datumima datumom datumu
+69	1969	dalek	daleka daleke daleki dalekih dalekim dalekog dalekoj dalekom daleku dalja dalje daljeg daljem dalji daljih daljim daljoj daljom dalju najdalja najdalje najdalji
+70	1970	ispitati	ispita ispitaj ispitajmo ispitajte ispitaju ispitala ispitali ispitam ispitamo ispitan ispitana ispitane ispitani ispitano ispitao ispitate ispitaćemo ispitaću ispitaš
+71	1971	pisac	pisaca pisca pisce piscem pisci piscima piscu
+72	1972	slatkiš	slatkiša slatkiše slatkišem slatkiši slatkišima slatkišu
+73	1973	snijeg	sneg snega snegom snegu snijega snijegom snijegu
+74	1974	raniti	rane ranih ranila ranili ranilo ranim ranio raniš ranjen ranjena ranjene ranjeni ranjeno
+75	1975	zima	zime zimi zimom zimu
+76	1976	održavati	održava održavaj održavajte održavaju održavajući održavala održavale održavali održavalo održavam održavamo održavan održavana održavani održavao održavate održavaš
+77	1977	pokvaren	pokvarena pokvarene pokvareni pokvarenih pokvareniji pokvarenim pokvareno pokvarenog pokvarenoj pokvarenom pokvarenu
+78	1978	kraljevski	kraljevska kraljevske kraljevskih kraljevskim kraljevsko kraljevskog kraljevskoj kraljevskom kraljevsku
+79	1979	svjež	najsvežija najsvježije svež sveža svežeg svežem sveži svežih svežije svežim svežoj svežom svežu svježa svježeg svježem svježi svježih svježije svježiji svježim svježoj svježom svježu
+80	1980	glasati	glasa glasaj glasajmo glasajte glasaju glasala glasale glasali glasalo glasam glasamo glasao glasate glasaće glasaćemo glasaćeš glasaću glasaš
+81	1981	ubrzo	
+82	1982	uprava	uprave upravi upravom upravu
+83	1983	okupiti	okupe okupi okupila okupile okupili okupilo okupim okupimo okupio okupite okupiće okupićemo okupiću okupiš okupiše okupljen okupljena okupljene okupljeni
+84	1984	vid	vida vide vidom vidova vidove vidovima vidu
+85	1985	porez	poreski poreza poreze porezi porezima porezni porezom porezu
+86	1986	vještina	veština veštinama veštine veštini veštinom veštinu vještinama vještine vještini vještinom vještinu
+87	1987	dvaput	
+88	1988	sinak	sinko
+89	1989	savjetnik	savetnici savetnicima savetnik savetnika savetnike savetnikom savetniku savetniče savjetnici savjetnicima savjetnika savjetnike savjetnikom savjetniku savjetniče
+90	1990	guma	gumama gume gumi gumom gumu
+91	1991	leden	ledena ledene ledeni ledenih ledenim ledeno ledenog ledenoga ledenoj ledenom ledenu
+92	1992	dodatan	dodatna dodatne dodatni dodatnih dodatnim dodatnog dodatnom dodatnu
+93	1993	izbjegavati	izbegava izbegavaj izbegavajte izbegavaju izbegavajući izbegavala izbegavali izbegavam izbegavamo izbegavanje izbegavao izbegavate izbegavati izbegavaš izbjegava izbjegavaj izbjegavajte izbjegavaju izbjegavajući izbjegavala izbjegavali izbjegavam izbjegavamo izbjegavanje izbjegavao izbjegavate izbjegavaš
+94	1994	sjedište	sedišta sedište sedištem sedištima sedištu sjedišta sjedištem sjedištima sjedištu
+95	1995	okretati	okretala okretali okretalo okretanje okretao okreće okrećem okrećemo okrećete okrećeš okreći okrećite okreću okrećući
+96	1996	visina	visinama visine visini visinom visinu
+97	1997	bijelac	belac belaca belca belce belcem belci belcima belcu belče bijelaca bijelca bijelce bijelcem bijelci bijelcima bijelcu bijelče
+98	1998	ortak	ortaci ortacima ortaka ortake ortakom ortaku ortače
+99	1999	direktno	
+100	2000	provjera	provera proverama provere proveri proverom proveru provjere provjeri provjerom provjeru

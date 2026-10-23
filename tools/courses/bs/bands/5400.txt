@@ -1,0 +1,100 @@
+1	5301	silan	silna silne silni silnih silnim silnog silnoj silnom silnu
+2	5302	domar	domara domari domarom domaru
+3	5303	iznenađivati	iznenađuje iznenađujem iznenađujete iznenađuješ iznenađuju
+4	5304	slabić	slabića slabiće slabićem slabići slabićima slabiću
+5	5305	neočekivano	
+6	5306	aplikacija	aplikacijama aplikacije aplikaciji aplikacijom aplikaciju
+7	5307	kucnuti	kucne kucnem kucnemo kucni kucnite kucnu kucnuo
+8	5308	uvjetan	uvjetna uvjetne uvjetni uvjetno uvjetnog uvjetnoj uvjetnom uvjetnu
+9	5309	upaljač	upaljača upaljače upaljači upaljaču
+10	5310	tornado	tornada tornadima tornadu
+11	5311	postrojenje	postrojenja
+12	5312	gledište	gledišta gledištu
+13	5313	izdvojiti	izdvoje izdvojen izdvojena izdvojene izdvojeni izdvojeno izdvoji izdvojila izdvojili izdvojim izdvojimo izdvojio izdvojite izdvojiš
+14	5314	čistač	čistača čistače čistačem čistači čistaču
+15	5315	parlament	parlamenta parlamentom parlamentu
+16	5316	kajla	kajle kajli kajlom kajlu
+17	5317	dostavljati	dostavlja dostavljaju dostavljala dostavljali dostavljam dostavljamo dostavljanje dostavljao dostavljate dostavljaš
+18	5318	hemikalija	hemikalijama hemikalije hemikaliju
+19	5319	ravnatelj	ravnatelja ravnateljem ravnatelju
+20	5320	unatoč	
+21	5321	braon	
+22	5322	postelja	postelje postelji posteljica posteljice posteljicu postelju
+23	5323	naplata	naplate naplati naplatom naplatu
+24	5324	odavati	odaje odajem odajemo odajete odaješ odaji odaju odavala odavali odavanje odavao
+25	5325	uvid	uvida uvide uvidi uvidom uvidu
+26	5326	svoditi	svode svodi svodilo svođenje
+27	5327	vulkanski	vulkanska vulkanske vulkanskih vulkanskim vulkansko vulkanskog vulkanskoj vulkanskom vulkansku
+28	5328	publicitet	publiciteta publicitetom publicitetu
+29	5329	jasmin	jasmina jasmine jasminu
+30	5330	topiti	tope topi topim topimo topio topite topiš topljenje
+31	5331	rabin	rabina rabine rabini rabinom rabinu
+32	5332	očaj	očaja očajem očaju
+33	5333	jazbina	jazbinama jazbine jazbini jazbinu
+34	5334	obarač	obarača obaraču
+35	5335	partnerstvo	partnerstva partnerstvom partnerstvu
+36	5336	haker	hakera hakere hakeri hakerima hakerom hakeru
+37	5337	poredak	poreci poretka poretkom poretku
+38	5338	racija	racijama racije raciji raciju
+39	5339	četkica	četkice četkici četkicom četkicu
+40	5340	razbojnik	razbojnici razbojnicima razbojnika razbojnike razbojniče
+41	5341	kompas	kompasa kompasi kompasom kompasu
+42	5342	nadležnost	nadležnosti nadležnošću
+43	5343	prekosutra	preksutra
+44	5344	bliz	bliza blize blizi blizo bliži
+45	5345	bijeda	beda bede bedi bedo bedu bijede bijedi bijedu
+46	5346	psihički	psihička psihičke psihičkih psihičkim psihičko psihičkog psihičkoj psihičkom psihičku
+47	5347	urin	urina urinom urinu
+48	5348	osvetnik	osvetnici osvetnicima osvetnika osvetnike osvetniku osvetniče
+49	5349	odbrambeni	odbrambena odbrambene odbrambenih odbrambenim odbrambeno odbrambenog odbrambenoj odbrambenom odbrambenu
+50	5350	karavan	karavana karavane karavani karavanima karavanom karavanu
+51	5351	rasplakati	rasplakala rasplakali rasplakalo rasplakao rasplakaćeš rasplakaću rasplače rasplačem rasplačeš rasplaču
+52	5352	obrazovan	obrazovana obrazovane obrazovani obrazovanih obrazovanim obrazovano obrazovanog obrazovanom obrazovanu
+53	5353	pratilac	pratilaca pratioca pratioce pratiocem pratioci pratiocima pratiocu
+54	5354	nagnuti	nagne nagnem nagneš nagni nagnite nagnula nagnuo nagnut nagnuta nagnute
+55	5355	limenka	limenci limenkama limenke limenki limenko limenkom limenku
+56	5356	barun	barona barone baroni baronom baronu baruna barune baruni barunima barunu
+57	5357	svibanj	svibnja svibnju
+58	5358	vrebati	vreba vrebaju vrebajući vrebala vrebali vrebamo vrebao vrebate vrebaš
+59	5359	sprijateljiti	sprijatelje sprijatelji sprijateljila sprijateljile sprijateljili sprijateljim sprijateljimo sprijateljio sprijateljite sprijateljiš
+60	5360	ventil	ventila ventile ventili ventilima ventilom
+61	5361	naglo	
+62	5362	suši	sušija
+63	5363	kobra	kobre kobri kobro kobrom kobru
+64	5364	ohrabriti	ohrabre ohrabren ohrabrena ohrabreni ohrabrenje ohrabri ohrabrila ohrabrili ohrabrilo ohrabrim ohrabrimo ohrabrio ohrabrite ohrabriš
+65	5365	izmet	izmeta izmetom izmetu
+66	5366	diskretan	diskretna diskretne diskretni diskretnija diskretnije diskretniji diskretnog diskretnu
+67	5367	odmetnik	odmetnici odmetnicima odmetnika odmetnike odmetnikom odmetniku odmetniče
+68	5368	naglasiti	naglasi naglasila naglasili naglasim naglasimo naglasio naglasite naglašen naglašeno
+69	5369	smišljati	smišlja smišljaju smišljajući smišljala smišljali smišljam smišljamo smišljanje smišljao smišljate smišljaš
+70	5370	proračun	proračuna proračune proračuni proračunima proračunom proračunu
+71	5371	statistika	statistici statistikama statistike statistikom statistiku
+72	5372	razumljivo	
+73	5373	razići	raziđe raziđemo raziđete raziđimo raziđite raziđu razišao razišla razišle razišli
+74	5374	obilaziti	obilaze obilazeći obilazi obilazila obilazili obilazim obilazimo obilazio obilazite obilaziš obilaženje
+75	5375	hava	have havi
+76	5376	pohod	pohoda pohode pohodi pohodima pohodom pohodu
+77	5377	pronalazak	pronalasci pronalaska pronalaske pronalaskom pronalasku pronalazaka
+78	5378	poreći	poreci porekao porekli porekne poreknem poreknete porekneš poreknu
+79	5379	iti	grem pem pete peš
+80	5380	raf	rafa rafe rafom rafovima rafu
+81	5381	podzemlje	podzemlja
+82	5382	psihijatrijski	psihijatrijska psihijatrijske psihijatrijskih psihijatrijskim psihijatrijsko psihijatrijskog psihijatrijskoj psihijatrijskom psihijatrijsku
+83	5383	krastavac	krastavaca krastavca krastavce krastavci krastavcima krastavica
+84	5384	zagrejati	zagrej zagrejala zagrejali zagrejalo zagrejan zagrejana zagrejane zagrejani zagrejano zagrejao zagrejaće zagrejaću zagreje zagrejem zagrejemo zagrejete zagreješ zagrejte zagreju
+85	5385	hokej	hokeja hokeju
+86	5386	siromaštvo	siromaštva siromaštvom siromaštvu
+87	5387	samica	samice samici samicu
+88	5388	antena	antenama antene antenom antenu
+89	5389	transakcija	transakcijama transakcije transakciji transakciju
+90	5390	novak	novaci novacima novaka novake novače
+91	5391	srpanj	srp srpnja srpnju srpom
+92	5392	vještački	veštačka veštačke veštački veštačkih veštačkim veštačko veštačkog veštačkoj veštačkom veštačku vještačka vještačke vještačkih vještačko vještačku
+93	5393	nadaren	nadarena nadarene nadareni nadarenih nadareno nadarenog nadarenu
+94	5394	ugrožavati	ugrožava ugrožavaju ugrožavajući ugrožavala ugrožavam ugrožavamo ugrožavanje ugrožavao ugrožavate ugrožavaš
+95	5395	potegnuti	potegao potegla potegli potegne potegnem potegneš potegni potegnite potegnu potegnuli potegnuo poteže
+96	5396	ubrizgati	ubrizga ubrizgaj ubrizgajte ubrizgaju ubrizgala ubrizgali ubrizgam ubrizgamo ubrizgan ubrizgana ubrizgano ubrizgao ubrizgaću ubrizgaš
+97	5397	ćurka	ćurke ćurki ćurkom ćurku
+98	5398	pješice	pešice
+99	5399	apoteka	apoteci apotekama apoteke apoteku
+100	5400	tovar	tovara tovare tovari tovarom tovaru

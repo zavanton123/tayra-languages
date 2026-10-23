@@ -1,0 +1,100 @@
+1	5901	diktator	diktatora diktatore diktatori diktatorima diktatorom diktatoru
+2	5902	uzaludan	uzaludna uzaludne uzaludni uzaludnim uzaludnoj uzaludnom uzaludnu
+3	5903	proteza	protezama proteze protezom protezu
+4	5904	dimnjak	dimnjaci dimnjacima dimnjaka dimnjake dimnjaku
+5	5905	ostvarivati	ostvarivanje ostvarivanju ostvarivao ostvaruje ostvarujem ostvarujemo ostvarujete ostvaruješ ostvaruju
+6	5906	poplaviti	poplave poplavi poplavila poplavile poplavili poplavilo poplavim poplavio poplavite poplavljen poplavljena poplavljene poplavljeni poplavljeno
+7	5907	struka	struci struke strukom struku
+8	5908	splav	splava splavom splavove splavu
+9	5909	tvar	tvari tvarima
+10	5910	udaljavati	udaljava udaljavaj udaljavajte udaljavaju udaljavala udaljavali udaljavam udaljavamo udaljavanje udaljavao udaljavate udaljavaš
+11	5911	kokoš	kokoši kokošiju kokošima
+12	5912	oporuka	oporuke oporukom oporuku
+13	5913	dozivati	doziva dozivaju dozivala dozivali dozivam dozivamo dozivanje dozivao dozivaš
+14	5914	crvotočina	crvotočine crvotočini crvotočinu
+15	5915	božica	božice božici božicom božicu
+16	5916	krvoproliće	krvoprolića krvoprolićem krvoproliću
+17	5917	trkač	trkača trkače trkačem trkači trkačima trkaču
+18	5918	nezadovoljan	nezadovoljna nezadovoljne nezadovoljni nezadovoljnih nezadovoljnim nezadovoljno nezadovoljnog nezadovoljnom
+19	5919	nadležan	nadležna nadležne nadležni nadležnih nadležnim nadležnima nadležnog nadležnom
+20	5920	obučavati	obučava obučavaju obučavala obučavali obučavam obučavamo obučavan obučavana obučavani obučavanje obučavao obučavate obučavaš
+21	5921	špilja	špiljama špilje špilji špilju
+22	5922	narandžast	narandžasta narandžaste narandžasti narandžastih narandžastim narandžasto narandžastog narandžastoj narandžastom narandžastu
+23	5923	opeći	opeci opekao opekla opekli opeklo opeku opeče opečem opečen opečena opečene opečeni opečete opečeš
+24	5924	raspitati	raspita raspitaj raspitajte raspitaju raspitam raspitamo raspitate raspitaću raspitaš
+25	5925	rupija	rupije
+26	5926	tesla	tesle tesli teslu
+27	5927	kodeks	kodeksa kodeksom kodeksu
+28	5928	olovo	olova olovom olovu
+29	5929	rasist	rasista rasiste rasisti rasistima rasistom rasistu
+30	5930	etiketa	etiketama etikete etiketi etiketom etiketu
+31	5931	rešetka	rešetkama rešetke rešetki rešetku
+32	5932	osa	ose osi oso osom osu
+33	5933	zapovjediti	zapovedi zapovedio zapovjedi zapovjedila zapovjedili zapovjedio zapovjedite zapovjeđeno
+34	5934	softver	softvera softverom softveru
+35	5935	trajekt	trajekta trajekte trajekti trajektom trajektu
+36	5936	prerušiti	prerušen prerušena prerušene prerušeni preruši prerušila prerušili prerušim prerušio
+37	5937	đavolji	đavolja đavolje đavoljeg đavoljem đavoljih đavoljim đavoljoj đavoljom đavolju
+38	5938	ocijeniti	ocene oceni ocenila ocenili ocenim ocenimo ocenio ocenite oceniti oceniš ocenjena ocijene ocijeni ocijenili ocijenim ocijenio ocijenite ocijeniš ocijenjen
+39	5939	dinar	dinara
+40	5940	radoznalost	radoznalosti
+41	5941	sekcija	sekcije sekciji sekcijom sekciju
+42	5942	spasilački	spasilačka spasilačke spasilačkih spasilačkim spasilačkog spasilačkoj spasilačkom spasilačku
+43	5943	radostan	radosna radosne radosni radosnim radosno radosnog radosnu
+44	5944	istaknuti	istakne istaknem istaknemo istakneš istakni istaknu istaknula istaknuo istaći
+45	5945	navodni	navodna navodne navodnih navodnim navodnog navodnoj navodnom navodnu
+46	5946	naručivati	naručivala naručivali naručivanje naručivao naručuj naručuje naručujem naručujemo naručujete naručuješ naručuju
+47	5947	krstiti	krste krsti krstila krstili krstim krstimo krstio krstite krstiš krštena kršteni kršteno
+48	5948	utvrda	utvrde utvrdi utvrdu
+49	5949	trijem	trem treme tremu trijema trijemu
+50	5950	teoretski	teoretska teoretske
+51	5951	kaša	kaše kaši kašom kašu
+52	5952	kapacitet	kapaciteta kapacitete kapaciteti kapacitetima kapacitetom kapacitetu
+53	5953	manekenka	manekenkama manekenke manekenki manekenkom manekenku
+54	5954	anketa	anketama ankete anketi anketu
+55	5955	željezan	željezna željezne željezni željeznih željeznim željezno željeznog željeznom željeznu
+56	5956	kubanski	kubanska kubanske kubanskih kubanskim kubansko kubanskog kubanskoj kubanskom kubansku
+57	5957	kapital	kapitala kapitalom kapitalu
+58	5958	varka	varci varke varki varkom varku
+59	5959	svjetionik	svetionici svetionik svetionika svetioniku svjetionika svjetioniku
+60	5960	poželjan	najpoželjnijeg najpoželjniji najpoželjnijih poželjna poželjne poželjni poželjnih poželjnije poželjnim poželjno poželjnom
+61	5961	uzvratiti	
+62	5962	klizati	klizala klizali klizanje klizao kliže kližem kližeš kliži kližu
+63	5963	labud	labuda labude labudova labudove labudovi labudovima labudu
+64	5964	obračun	obračuna obračune obračuni obračunu
+65	5965	probosti	probode probodem proboden probodena probodeni probodeno probodeš probodi probodu probola proboli proboo probošću
+66	5966	gledalac	gledalaca gledaoca gledaoce gledaoci gledaocima
+67	5967	ubuduće	
+68	5968	opsada	opsade opsadi opsadom opsadu
+69	5969	šašav	šašava šašave šašavi šašavih šašavim šašavog šašavom šašavu
+70	5970	pacijentica	pacijentice pacijentici pacijenticom pacijenticu
+71	5971	savjetovanje	savetovanja savetovanje savetovanju savjetovanja savjetovanjem savjetovanju
+72	5972	strelica	strelicama strelice strelicom strelicu
+73	5973	minimum	minimuma minimumi minimumu
+74	5974	vosak	voska voskom vosku
+75	5975	lutkica	lutkicama lutkice lutkici lutkicom lutkicu
+76	5976	posmatrač	posmatrača posmatrače posmatrači posmatračima posmatraču
+77	5977	delikatan	delikatna delikatne delikatni delikatnije delikatnim delikatnog delikatnoj delikatnom delikatnu
+78	5978	tajiti	taje taji tajila tajili tajim tajimo tajio tajite tajiš
+79	5979	muslimanski	muslimanska muslimanske muslimanskih muslimanskim muslimansko muslimanskog muslimanskoj muslimanskom muslimansku
+80	5980	strateški	strateška strateške strateških strateškim strateško strateškog strateškoj strateškom stratešku
+81	5981	dominirati	dominira dominiraju dominirala dominirale dominirali dominiralo dominiram dominiramo dominirao dominiraš
+82	5982	herojski	herojska herojske herojskih herojskim herojsko herojskog herojskoj herojskom herojsku
+83	5983	један	једна једне једни једно једног једном једну
+84	5984	zaželjeti	zažele zaželeo zaželi zaželim zaželimo zaželio zaželite zaželiš zaželjela zaželjeli
+85	5985	puhati	puhala puhali puhalo puhanje puhao puše pušem pušeš puši pušimo pušite pušu
+86	5986	sutradan	
+87	5987	dužnik	dužnici dužnicima dužnika
+88	5988	željezo	željeza željezom
+89	5989	sklonost	sklonosti sklonostima sklonošću
+90	5990	štikla	štiklama štikle štikli štiklom štiklu
+91	5991	vjernost	vernost vernosti vjernosti
+92	5992	неки	нека неке неким неко неког некога неком неку
+93	5993	stupa	stupe stupi stupu
+94	5994	rubin	rubina rubine rubini rubinima rubinom rubinu
+95	5995	pjega	pega pege pegi pjegama pjege pjegu
+96	5996	tor	tora tore torom torove toru
+97	5997	kreker	krekera krekere krekeri krekerima krekeru
+98	5998	norveški	norveška norveške norveških norveškog norveškoj norveškom norvešku
+99	5999	pravnik	pravnici pravnicima pravnika pravnike pravnikom
+100	6000	popravni	popravna popravne popravnih popravnim popravnog popravnoj popravnom popravnu

@@ -1,0 +1,100 @@
+1	5101	sluh	sluha sluhom sluhu
+2	5102	gljiva	gljivama gljive gljivo gljivu
+3	5103	problematičan	problematična problematične problematični problematičnih problematičnim problematično problematičnog problematičnom problematičnu
+4	5104	predvorje	predvorja predvorju
+5	5105	posjetitelj	posjetitelja posjetitelje posjetitelji posjetiteljima
+6	5106	garantirati	garantira garantiraju garantiram garantiramo garantirano garantirao garantiraš
+7	5107	kvalitetan	kvalitetna kvalitetne kvalitetni kvalitetnih kvalitetnija kvalitetnije kvalitetnim kvalitetno kvalitetnog kvalitetnoj kvalitetnu najkvalitetnije najkvalitetniji
+8	5108	teleskop	teleskopa teleskope teleskopi teleskopima teleskopom teleskopu
+9	5109	suvenir	suvenira suvenire suveniri suvenirima
+10	5110	ukleti	uklela uklet ukleta uklete ukleto
+11	5111	komplikacija	komplikacijama komplikacije komplikaciju
+12	5112	širenje	širenja širenjem širenju
+13	5113	geto	geta getu
+14	5114	željan	željna željne željni željnih željnim željno željnog željnu
+15	5115	trač	trača tračeva tračeve tračevi tračevima
+16	5116	krumpir	krumpira krumpire krumpiri krumpirima krumpirom krumpiru
+17	5117	ukratko	
+18	5118	rječnik	rečnik rečnika rečnikom rečniku riječnik rječnika rječnikom rječniku
+19	5119	stegnuti	stegao stegla stegli stegne stegnem stegnemo stegneš stegni stegnite stegnu stegnuli stegnuo stegnut stegnuta stegnute stegnuto
+20	5120	izvijestiti	izvestila izvestili izvestim izvestimo izvestio izvestite izvestiti izvestiću izvijesti izvijestila izvijestili izvijestim izvijestimo izvijestio izvijestite izvješćuje
+21	5121	izrada	izrade izradi izradom izradu
+22	5122	obmana	obmanama obmane obmani obmanom obmanu
+23	5123	us	
+24	5124	got	gota goti
+25	5125	izići	iziđe iziđem iziđemo iziđeš iziđi iziđite iziđu izišao izišavši izišla izišli izišlo
+26	5126	gorak	gorka gorke gorki gorkih gorkim gorko gorkog gorkom gorku
+27	5127	nikamo	
+28	5128	buđenje	buđenja buđenju
+29	5129	mjesni	mesna mesne mesni mesnih mesnim mesnog mesnoj mesnom mesnu mjesna mjesne mjesnim mjesno mjesnoj mjesnom mjesnu
+30	5130	njujorški	njujorška njujorške njujorških njujorškim njujorško njujorškog njujorškoj njujorškom njujoršku
+31	5131	obveznica	obveznicama obveznice obveznici obveznicu
+32	5132	recepcija	recepcije recepciji recepcijom recepciju
+33	5133	poraniti	porani poranila poranile poranili poranim poranio
+34	5134	poluga	polugama poluge polugo polugom polugu
+35	5135	žvakati	žvakala žvakali žvakanje žvakao žvakaće žvakaću žvače žvačem žvačete žvačeš žvači žvaču
+36	5136	režim	režima režime režimi režimom režimu
+37	5137	hod	hoda hodom hodu
+38	5138	svezati	sveza svezala svezali svezan svezana svezane svezani svezao sveze svezi svezu svežem svežemo svežeš sveži svežite svežu
+39	5139	približno	
+40	5140	zoološki	zoološkim zoološkog zoološkom
+41	5141	kusur	kusura
+42	5142	видети	видела видели видео видећемо видећеш види видим видимо видите видиш
+43	5143	platno	platna platnom platnu
+44	5144	nekolicina	nekolicine nekolicini nekolicinom nekolicinu
+45	5145	šapa	šapama šape šapo šapom šapu
+46	5146	zvučan	zvučna zvučne zvučni zvučnih zvučnim zvučnog zvučnom zvučnu
+47	5147	veo	vela vele velom velova velove velu
+48	5148	ispisati	ispisa ispisala ispisali ispisan ispisana ispisane ispisano ispisao ispiše ispišem ispišemo ispišeš ispiši ispišite
+49	5149	podjela	podela podele podeli podelom podelu podjele podjeli podjelom podjelu
+50	5150	ако	
+51	5151	mnoštvo	mnoštva mnoštvom mnoštvu
+52	5152	federacija	federacije federaciji federacijom federaciju
+53	5153	februar	februara februaru
+54	5154	bizaran	bizarna bizarne bizarni bizarnih bizarnije bizarnim bizarno bizarnog bizarnoj bizarnom bizarnu najbizarnijih
+55	5155	instruktor	instruktora instruktore instruktori instruktorima instruktorom
+56	5156	pasulj	pasulja pasuljem pasulju
+57	5157	raskomotiti	raskomoti raskomotim raskomotimo raskomotio raskomotite raskomotiš
+58	5158	surov	najsurovijih surova surove surovi surovih surovim surovog surovoj surovom surovu
+59	5159	snajper	snajpera snajpere snajperi snajperima snajperom snajperski snajperu
+60	5160	ићи	иде идем идемо идете идеш иди идите иду ишао ишли ишло
+61	5161	postrojba	postrojbama postrojbe postrojbi postrojbom postrojbu
+62	5162	gaditi	gade gadi gadila gadilo gadim gadio gadite gadiš
+63	5163	adrenalin	adrenalina adrenaline adrenalinom adrenalinsku adrenalinu
+64	5164	ljubičast	ljubičasta ljubičaste ljubičasti ljubičastih ljubičastim ljubičasto ljubičastog ljubičastoj ljubičastom ljubičastu
+65	5165	ekstremno	
+66	5166	odnosno	
+67	5167	zacijelo	zacelo
+68	5168	služavka	služavke služavki služavko služavkom služavku
+69	5169	masakr	masakra masakre masakri masakrima masakrom masakru
+70	5170	artefakt	artefakta artefakte artefakti artefaktima artefaktom artefaktu
+71	5171	uzor	uzora uzore uzori uzorom uzoru
+72	5172	obustaviti	obustave obustavi obustavila obustavili obustavim obustavimo obustavio obustavite obustaviš obustavljen obustavljena obustavljene obustavljeni obustavljeno
+73	5173	ugledan	ugledna ugledne ugledni uglednih uglednim ugledno uglednog uglednoj uglednom uglednu
+74	5174	poređenje	poređenja poređenjem poređenju
+75	5175	transfer	transfera transfere transferi transferima transferom transferu
+76	5176	seminar	seminara seminare seminari seminarima seminarom seminaru
+77	5177	smrzavati	smrzava smrzavaju smrzavala smrzavali smrzavam smrzavamo smrzavanje smrzavao smrzavate smrzavaš
+78	5178	neriješen	nerešen nerešena nerešene nerešeni nerešenih nerešenim nerešeno neriješena neriješene neriješeni neriješenih neriješenim neriješeno neriješenom
+79	5179	jedro	jedara jedra jedrima
+80	5180	osvajanje	osvajanja osvajanjem osvajanjima osvajanju
+81	5181	porast	porasta poraste porastom porastu
+82	5182	zabilježiti	zabilježen zabilježena zabilježene zabilježeni zabilježeno zabilježi zabilježila zabilježile zabilježili zabilježim zabilježimo zabilježio zabilježite
+83	5183	napola	
+84	5184	karma	karme karmi karmom karmu
+85	5185	рећи	рекао рекла рекли рекох реци рецимо реците рече речено
+86	5186	obuzeti	obuzela obuzele obuzelo obuzeo obuzet obuzeta obuzme obuzmu
+87	5187	izvršavati	izvršava izvršavaj izvršavajte izvršavaju izvršavajući izvršavali izvršavam izvršavamo izvršavanje izvršavao izvršavate izvršavaš
+88	5188	podnositi	podnosi
+89	5189	snježan	snežna snežne snežni snežnih snežnim snežno snežnog snežnoj snežnom snežnu snježna snježne snježni snježnih snježnim snježno snježnog snježnoj snježnom snježnu
+90	5190	sastojati	sastojala sastojalo sastojao sastoje sastoji
+91	5191	dirljiv	dirljiva dirljive dirljivi dirljivo dirljivu
+92	5192	definicija	definicijama definicije definiciji definicijom definiciju
+93	5193	istraživački	istraživačka istraživačke istraživačkih istraživačkim istraživačko istraživačkog istraživačkoj istraživačkom istraživačku
+94	5194	pohlepa	pohlepe pohlepi pohlepom pohlepu
+95	5195	zamjerati	zamera zameram zamerate zameraš zamjera zamjeraj zamjeraju zamjerala zamjeram zamjerao zamjerate zamjeraš
+96	5196	alkoholičar	alkoholičara alkoholičare alkoholičarem alkoholičari alkoholičarima alkoholičaru
+97	5197	rutinski	rutinska rutinske rutinskih rutinskim rutinsko rutinskog rutinskoj rutinskom rutinsku
+98	5198	uspijevati	uspijeva
+99	5199	bure	burad buradi burence bureta buretom buretu
+100	5200	predviđati	predviđa predviđaju predviđajući predviđala predviđali predviđam predviđamo predviđanje predviđao predviđate predviđaš

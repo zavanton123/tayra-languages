@@ -1,0 +1,100 @@
+1	3301	pretraga	pretragama pretrage pretragom pretragu pretrazi
+2	3302	kriminalan	kriminalna kriminalne kriminalni kriminalnih kriminalnim kriminalno kriminalnog kriminalnoj kriminalnom kriminalnu
+3	3303	popust	popusta popuste popusti popustima popustom popustu
+4	3304	smeđ	smeđa smeđe smeđeg smeđem smeđi smeđih smeđim smeđoj smeđom smeđu
+5	3305	doušnik	doušnici doušnicima doušnika doušnike doušnikom doušniku
+6	3306	značajan	najznačajnija najznačajnije najznačajniji najznačajnijih najznačajniju značajna značajne značajni značajnih značajnija značajnije značajniji značajnim značajnog značajnoj značajnom značajnu
+7	3307	okončati	okonča okončaj okončajmo okončaju okončala okončale okončali okončalo okončam okončamo okončan okončana okončani okončanje okončano okončao okončate okončaću okončaš
+8	3308	oglas	oglasa oglase oglasi oglasima oglasom oglasu
+9	3309	impresioniran	impresionirana impresionirane impresionirani impresionirano
+10	3310	resurs	resursa resurse resursi resursima
+11	3311	automatski	automatska automatske automatskih automatskim automatsko automatskog automatskoj automatskom automatsku
+12	3312	cirkus	cirkusa cirkuse cirkusom cirkusu
+13	3313	funkcija	funkcijama funkcije funkciji funkcijom funkciju
+14	3314	rečenica	rečenicama rečenice rečenici rečenicom rečenicu
+15	3315	pauk	pauci paucima pauka pauke paukom paukova paukove paukovi pauku pauče
+16	3316	pokraj	
+17	3317	bajka	bajci bajkama bajke bajki bajkom bajku
+18	3318	talent	talenata talenta talente talenti talentima talentom talentu
+19	3319	krupan	krupna krupne krupni krupnih krupnija krupnije krupniji krupniju krupnim krupno krupnog krupnom krupnu
+20	3320	sitnica	sitnicama sitnice sitnici sitnicom sitnicu
+21	3321	zvanično	
+22	3322	služben	službena službene službeni službenih službenim službenog službenoj službenom službenu
+23	3323	marš	marša marševa marševe marševi marševima maršu
+24	3324	groznica	groznice groznici groznicom groznicu
+25	3325	izbacivati	izbacivala izbacivali izbacivanje izbacivao izbacuj izbacuje izbacujem izbacujemo izbacujete izbacuješ izbacujte izbacuju izbacujući
+26	3326	biološki	biološka biološke bioloških biološkim biološko biološkog biološkoj biološkom biološku
+27	3327	skenirati	skenira skeniraj skenirajte skeniraju skenirala skenirali skeniram skeniramo skeniran skenirana skenirane skenirani skeniranje skenirao skenirate skeniraš
+28	3328	štampa	štampe štampi štampom štampu
+29	3329	imenovati	imenovala imenovali imenovan imenovana imenovani imenovanje imenovano imenovao imenovaću imenuj imenuje imenujem imenujemo imenujete imenuješ imenujte imenuju imenujući
+30	3330	privremeno	
+31	3331	ulaziti	ulazi
+32	3332	špijunirati	špijunira špijuniraj špijuniraju špijunirala špijunirali špijuniram špijuniramo špijuniranje špijunirao špijunirate špijuniraš
+33	3333	napor	napora napore napori naporima naporom naporu
+34	3334	bela	
+35	3335	bus	busa buse busevi busevima busom busu
+36	3336	medalja	medaljama medalje medalji medaljom medalju
+37	3337	španski	španska španske španskih španskim špansko španskog španskoj španskom špansku
+38	3338	izdajica	izdajicama izdajice izdajici izdajico izdajicom izdajicu
+39	3339	scenarij	scenarija scenarije scenarijem scenariji scenarijima scenariju
+40	3340	spavaći	spavaća spavaće spavaćih spavaćim spavaćoj spavaćom spavaću
+41	3341	katkad	
+42	3342	kikiriki	kikirikija kikirikijem kikirikiju
+43	3343	popustiti	popuste popusti popustila popustile popustili popustilo popustim popustimo popustio popustite popustiće popustiš
+44	3344	sudjelovati	sudjelovala sudjelovale sudjelovali sudjelovalo sudjelovanje sudjelovao sudjeluj sudjeluje sudjelujem sudjelujemo sudjelujete sudjeluješ sudjeluju
+45	3345	naočale	naočala naočalama
+46	3346	crtati	crtaj crtaju crtajući crtala crtali crtam crtamo crtane crtani crtanje crtao crtate crtaće crtaću crtaš
+47	3347	pozornost	pozornosti
+48	3348	počistiti	počiste počisti počistim počistimo počistite počistićemo počistiću počistiš
+49	3349	krasno	
+50	3350	juha	juhe juhi juhom juhu jusi
+51	3351	uključivati	uključuje
+52	3352	isplata	isplatama isplate isplati isplatom isplatu
+53	3353	poezija	poezije poeziji poezijom poeziju
+54	3354	nasljednik	naslednici naslednicima naslednik naslednika naslednike naslednikom nasledniku nasljednici nasljednicima nasljednika nasljednike nasljednikom nasljedniku
+55	3355	posjetilac	posetilac posetilaca posetioca posetioce posetioci posetiocima posjetilaca posjetioca posjetioce posjetioci posjetiocima
+56	3356	pojačanje	
+57	3357	komisija	komisije komisiji komisijom komisiju
+58	3358	inteligentan	inteligentna inteligentne inteligentni inteligentnih inteligentnije inteligentniji inteligentnim inteligentno inteligentnog inteligentnom inteligentnu najinteligentnije najinteligentniji
+59	3359	rimski	rimska rimske rimskih rimskim rimsko rimskog rimskoj rimskom rimsku
+60	3360	fajl	fajla fajlom fajlova fajlove fajlovi fajlovima fajlu
+61	3361	stoljeće	stoleća stoleće stoleću stoljeća stoljeću
+62	3362	zubar	zubara zubare zubari zubarima zubarom zubaru
+63	3363	inteligencija	inteligencije inteligenciji inteligencijom inteligenciju
+64	3364	kruh	kruha kruhom kruhu
+65	3365	gravitacija	gravitacije gravitaciji gravitacijom gravitaciju
+66	3366	festival	festivala festivale festivali festivalima festivalu
+67	3367	proučavati	proučava proučavaju proučavajući proučavala proučavali proučavam proučavamo proučavao proučavate proučavaš
+68	3368	pozornica	pozornice pozornici pozornicom pozornicu
+69	3369	poticati	poticala poticali poticalo poticanje poticao potiče potičem potičemo potičete potičeš potiču
+70	3370	овај	ова ове ови овим ових ово овог овога овом овоме ову
+71	3371	mit	mita mitom mitova mitove mitovi mitovima mitu
+72	3372	praktično	
+73	3373	kompletan	kompletna kompletne kompletni kompletnim kompletnog kompletnoj kompletnom kompletnu
+74	3374	hotelski	hotelska hotelske hotelskih hotelskim hotelsko hotelskog hotelskoj hotelskom hotelsku
+75	3375	pogon	pogona
+76	3376	uzbuđenje	uzbuđenja uzbuđenjem uzbuđenjima uzbuđenju
+77	3377	depresija	depresije depresiji depresijom depresiju
+78	3378	col	cola cole colu
+79	3379	napadač	napadača napadače napadačem napadači napadačima napadaču
+80	3380	povremeno	
+81	3381	skupina	skupinama skupine skupini skupinom skupinu
+82	3382	međusobno	
+83	3383	sagnuti	sagne sagnem sagnemo sagnete sagneš sagni sagnite sagnula sagnuo
+84	3384	petlja	petlje petlji petljom petlju
+85	3385	ranjiv	najranjivija najranjivije najranjiviji ranjiva ranjive ranjivi ranjivih ranjivije ranjiviji ranjivim ranjivo ranjivog ranjivoj ranjivom ranjivu
+86	3386	bračni	bračna bračne bračnih bračnim bračno bračnog bračnoj bračnom bračnu
+87	3387	kockati	kockaj kockaju kockajući kockala kockali kockam kockamo kockanje kockao kockaste kockate kockaš
+88	3388	nevinost	nevinosti nevinošću
+89	3389	kovčeg	kovčega kovčege kovčegom kovčegu kovčezi kovčezima
+90	3390	kristal	kristala kristale kristali kristalima kristalom kristalu
+91	3391	žaba	žabama žabe žabi žabica žabice žabicu žablja žablje žabljeg žablji žabo žabom žabu
+92	3392	žedan	žedna žedne žedni žednih žednim žedno žednog žednu
+93	3393	diplomirati	diplomira diplomiraju diplomirala diplomirale diplomirali diplomiram diplomiramo diplomiranje diplomirao diplomirate diplomiraće diplomiraš
+94	3394	osnovati	osnovala osnovale osnovali osnovao osnovaćemo osnovaću osnuj osnuje osnujem osnujemo osnujete osnuješ osnuju
+95	3395	plastičan	plastična plastične plastični plastičnih plastičnim plastičnog plastičnoj plastičnom plastičnu
+96	3396	čaroban	čarobna čarobne čarobni čarobnih čarobnim čarobnog čarobnoj čarobnom čarobnu
+97	3397	prepreka	prepreci preprekama prepreke preprekom prepreku
+98	3398	z	
+99	3399	izbiti	izbi izbij izbije izbijem izbijemo izbijen izbijeni izbiješ izbiju izbila izbile izbili izbilo izbio izbiće izbiću
+100	3400	sakupiti	sakupe sakupi sakupila sakupile sakupili sakupim sakupimo sakupio sakupite sakupićemo sakupiću sakupiš sakupljene sakupljeni sakupljeno

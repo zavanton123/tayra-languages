@@ -1,0 +1,100 @@
+1	5201	hladiti	hlade hladi hladila hladilo hladim hladimo hladio hladiš hlađenje
+2	5202	mješavina	mešavina mešavine mešavinom mešavinu mješavine mješavini mješavinom mješavinu
+3	5203	ubacivati	ubacivala ubacivali ubacivanje ubacivao ubacuj ubacuje ubacujem ubacujemo ubacujete ubacuješ ubacuju
+4	5204	prizemlje	prizemlja prizemlju
+5	5205	plafon	plafona plafone plafoni plafonu
+6	5206	prase	prasad prasence praseta prasetom prasetu
+7	5207	loza	loze lozi lozom lozu
+8	5208	samuraj	samuraja samuraje samurajem samuraji samurajima samuraju
+9	5209	džinovski	džinovska džinovske džinovskih džinovskim džinovsko džinovskog džinovskoj džinovskom džinovsku
+10	5210	iglu	
+11	5211	džip	džipa džipom džipova džipove džipovima džipu
+12	5212	verenik	verenici verenika verenikom vereniku
+13	5213	rulja	rulje rulji ruljo ruljom rulju
+14	5214	epidemija	epidemije epidemiji epidemijom epidemiju
+15	5215	maksimalan	maksimalna maksimalne maksimalni maksimalnim maksimalnog maksimalnoj maksimalnom maksimalnu
+16	5216	zaborav	zaborava zaborave zaboravi zaboravu
+17	5217	srodan	srodna srodne srodnih srodnim srodnom srodnu
+18	5218	lipanj	lipnja lipnju
+19	5219	razglednica	razglednicama razglednice razglednici razglednicu
+20	5220	prepisati	prepisala prepisali prepisan prepisana prepisane prepisani prepisano prepisao prepisaću prepiše prepišem prepišete prepišeš prepiši prepišu
+21	5221	apsolutan	apsolutna apsolutne apsolutni apsolutnim apsolutnog apsolutnoj apsolutnom apsolutnu
+22	5222	maloljetnik	maloletnica maloletnice maloletnici maloletnicima maloletnicom maloletnik maloletnika maloletnike maloletniku maloljetnica maloljetnicama maloljetnice maloljetnici maloljetnicima maloljetnicom maloljetnicu maloljetnika maloljetnike maloljetniku
+23	5223	тако	
+24	5224	lani	
+25	5225	nitkov	nitkova nitkove nitkovi nitkovima nitkovom nitkovu
+26	5226	krivina	krivinama krivine krivini krivinu
+27	5227	legija	legijama legije legiji legijo legijom legiju
+28	5228	lešinar	lešinara lešinare lešinari lešinarima lešinaru
+29	5229	vodopad	vodopada vodopade vodopadi vodopadima vodopadom vodopadu
+30	5230	kreirati	kreira kreiraju kreirajući kreirala kreirali kreiram kreiramo kreiran kreirana kreirane kreirani kreiranje kreirao kreirate kreiraš
+31	5231	opravdati	opravda opravdaj opravdaju opravdala opravdali opravdalo opravdam opravdamo opravdao opravdate opravdaš
+32	5232	tekućina	tekućinama tekućine tekućini tekućinom tekućinu
+33	5233	sveučilište	sveučilišta sveučilištima sveučilištu
+34	5234	olupina	olupinama olupine olupini olupinu
+35	5235	vjerojatan	najverojatnije najvjerojatnije najvjerojatniji vjerojatna vjerojatni vjerojatnije vjerojatnim vjerojatnu
+36	5236	ravnica	ravnicama ravnice ravnici ravnicom ravnicu
+37	5237	ljepljiv	lepljiv lepljiva lepljive lepljivi lepljivim lepljivo lepljivom lepljivu ljepljiva ljepljive ljepljivi ljepljivim ljepljivo ljepljivog ljepljivoj ljepljivom ljepljivu
+38	5238	odraz	odraza odraze odrazi odrazu
+39	5239	kviz	kviza kvizom kvizova kvizove kvizovi kvizovima kvizu
+40	5240	jato	jata jatima jatom jatu
+41	5241	detektor	detektora detektore detektori detektorima detektorom detektoru
+42	5242	podsjetnik	podsetnici podsetnik podsetnika podsjetnici podsjetnike
+43	5243	satnik	satnici satnika satnikom satniku satniče
+44	5244	djeva	deva devama deve devi devo devu djeve djevi djevo djevu
+45	5245	uvod	uvoda uvode uvodi uvodom uvodu
+46	5246	f	
+47	5247	intervencija	intervencijama intervencije intervenciji intervencijom intervenciju
+48	5248	očigledan	najočigledniji očigledna očigledne očigledni očiglednih očiglednije očigledniji očiglednim očiglednog očiglednom očiglednu
+49	5249	grožđe	grožđa grožđem grožđu
+50	5250	inspekcija	inspekcije inspekciji inspekcijom inspekciju
+51	5251	iskazati	iskaza iskazala iskazali iskazao iskaže iskažem iskažemo iskažete iskažeš iskaži iskažite iskažu
+52	5252	tipično	
+53	5253	istočno	
+54	5254	izolacija	izolacije izolaciji izolacijom izolaciju
+55	5255	pustinjski	pustinjska pustinjske pustinjskih pustinjskim pustinjsko pustinjskog pustinjskoj pustinjskom pustinjsku
+56	5256	grah	graha grahom grahu
+57	5257	patetičan	patetična patetične patetični patetičnih patetičnim patetičnog patetičnom patetičnu
+58	5258	specifičan	specifična specifične specifični specifičnih specifičnim specifično specifičnog specifičnoj specifičnom specifičnu
+59	5259	ručnik	ručnici ručnicima ručnika ručnike ručnikom
+60	5260	zabluda	zabludama zablude zabludi zabludu
+61	5261	koncentracija	koncentracije koncentraciji koncentracijom koncentraciju
+62	5262	kult	kulta kultom kultova kultove kultovi kultovima kultu
+63	5263	lijeniti	lene leni lijene lijeni lijenim
+64	5264	podao	najpodlije najpodliji podla podle podli podlih podlim podlo podlog podloga podlu
+65	5265	stožer	stožera stožerom stožeru
+66	5266	sprava	spravama sprave spravi spravom spravu
+67	5267	uvjerljiv	najuvjerljiviji uverljiv uverljiva uverljivi uverljivije uvjerljiva uvjerljive uvjerljivi uvjerljivih uvjerljivija uvjerljivije uvjerljiviji uvjerljivom uvjerljivu
+68	5268	roditeljski	roditeljska roditeljske roditeljskih roditeljskim roditeljsko roditeljskog roditeljskoj roditeljskom roditeljsku
+69	5269	škamp	škampa škampe škampi škampima škampu
+70	5270	elegantan	elegantna elegantne elegantni elegantnih elegantnija elegantnije elegantniji elegantnim elegantnog elegantnom elegantnu
+71	5271	amandman	amandmana amandmanom amandmanu
+72	5272	pogreb	pogreba pogrebe pogrebi pogrebu
+73	5273	nevažan	nevažna nevažne nevažni nevažnih nevažnim nevažnima nevažno
+74	5274	paničiti	paniče paniči paničila paničim paničimo paničio paničite paničiš
+75	5275	kaka	kake kaki kakom kaku
+76	5276	testis	testisa testise testisi testisima testisom testisu
+77	5277	stado	stada stadima stadom stadu
+78	5278	posrednik	posrednica posrednici posrednika posrednike posrednikom posredniku posredniče
+79	5279	putovnica	putovnicama putovnice putovnici putovnicom putovnicu
+80	5280	jogurt	jogurta jogurte jogurtom jogurtu
+81	5281	vraški	
+82	5282	saučešće	saučešća
+83	5283	pijanica	pijanicama pijanice pijanici pijanico pijanicom pijanicu
+84	5284	pasta	paste pastom pastu
+85	5285	smiješak	smešak smeška smeškom smiješka smiješkom
+86	5286	alergija	alergijama alergije alergijom alergiju
+87	5287	građevina	građevinama građevine građevini građevinom građevinu
+88	5288	izmjeriti	izmerena izmeri izmerila izmerili izmerim izmerimo izmerio izmerite izmeriti izmeriš izmjeri izmjerila izmjerili izmjerim izmjerimo izmjerio izmjerite
+89	5289	naprosto	
+90	5290	starateljstvo	starateljstva starateljstvom starateljstvu
+91	5291	negativac	negativaca negativca negativce negativci negativcima
+92	5292	proraditi	prorade proradi proradila proradili proradilo proradio proradiće
+93	5293	proizvođač	proizvođača proizvođače proizvođačem proizvođači proizvođačima proizvođaču
+94	5294	gnjev	gnev gneva gnevom gnevu gnjeva gnjevom gnjevu
+95	5295	omesti	omela omeli omelo omeo omete ometem ometen ometena ometeni ometeš ometu
+96	5296	iznositi	iznose iznoseći iznosi iznosila iznosili iznosilo iznosim iznosimo iznosio iznosite iznosiš iznošena iznošene iznošenje
+97	5297	pristanak	pristanka pristankom pristanku
+98	5298	soda	sode sodi sodom sodu
+99	5299	volt	volta volte volti voltom voltu
+100	5300	kolona	kolonama kolone koloni kolonu

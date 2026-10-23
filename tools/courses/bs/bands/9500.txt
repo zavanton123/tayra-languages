@@ -1,0 +1,100 @@
+1	9401	kabanica	kabanice kabanici kabanicom kabanicu
+2	9402	uljepšavati	ulepšava ulepšavam ulepšavanje uljepšava uljepšavam uljepšavanje
+3	9403	penzioner	penzionera penzionere penzioneri penzionerima
+4	9404	menopauza	menopauze menopauzi menopauzu
+5	9405	navraćati	navraća navraćaju navraćala navraćali navraćao navraćaš
+6	9406	сав	сва свега свему свим свима свих сву
+7	9407	uzburkati	uzburka uzburkala uzburkan uzburkana uzburkane uzburkano uzburkao
+8	9408	obziran	obzirna obzirni obzirniji obzirno
+9	9409	dvorski	dvorska dvorske dvorskim dvorskom dvorsku
+10	9410	zatajiti	zataji zatajila zatajili zatajio
+11	9411	varljiv	varljiva varljive varljivi varljivo
+12	9412	izvidjeti	izvide izvidi izvidim izvidimo izvidite izvidiš
+13	9413	crpiti	crpe crpi crpim crpimo crpiš
+14	9414	revanš	revanša
+15	9415	krivokletstvo	krivokletstva
+16	9416	raspuštati	raspušta raspuštam raspuštamo raspuštanje
+17	9417	naslaga	naslagama naslage
+18	9418	olakšica	olakšice olakšicu
+19	9419	opažati	opaža opažam opažamo opažanje opažate
+20	9420	sirovina	sirovinama sirovine
+21	9421	balistika	balistici balistike balistiku
+22	9422	cepelin	cepelina cepelini cepelinom cepelinu
+23	9423	kutijica	kutijice kutijici kutijicu
+24	9424	zapreka	zapreci zaprekama zapreke zapreku
+25	9425	perzijski	perzijska perzijske perzijsko perzijskog perzijskoj perzijskom perzijsku
+26	9426	dosadašnji	dosadašnja dosadašnje dosadašnjeg dosadašnjem dosadašnjih dosadašnjim dosadašnjoj
+27	9427	začudo	
+28	9428	ratovanje	
+29	9429	док	
+30	9430	samouništenje	
+31	9431	kontrakcija	kontrakcije
+32	9432	glista	gliste glistu
+33	9433	blesan	blesana blesane
+34	9434	akord	akorda akorde akordi
+35	9435	embrio	embrij embrija embrije embriji embrion
+36	9436	spletka	spletkama spletke spletki spletku
+37	9437	desetar	desetara desetare desetaru
+38	9438	stepa	stepama stepe stepi stepu
+39	9439	razmetati	razmetanje razmetao razmeće razmećem razmećemo razmećeš razmeću
+40	9440	ciljan	ciljana ciljane ciljani ciljano ciljanog ciljanu
+41	9441	slad	slada slade
+42	9442	rumen	rumena rumene rumeni rumenih rumenim rumeno
+43	9443	urotiti	urote uroti urotila urotile urotili urotio
+44	9444	pekmez	pekmeza pekmezom pekmezu
+45	9445	prospekt	prospekata prospekte prospekti prospektu
+46	9446	planinar	planinara planinare planinari
+47	9447	branik	
+48	9448	skužiti	
+49	9449	dokrajčiti	
+50	9450	unakrsno	
+51	9451	fatalno	
+52	9452	kukavički	
+53	9453	jajce	jajca jajcima
+54	9454	beneficija	beneficijama beneficije
+55	9455	indicija	indicijama indicije
+56	9456	skalp	skalpa skalpova skalpove
+57	9457	gazela	gazele gazelu
+58	9458	simpatizer	simpatizera simpatizere simpatizeri
+59	9459	karlica	karlice karlici karlicu
+60	9460	ljudožder	ljudoždera ljudoždere ljudožderi
+61	9461	tračnica	tračnicama tračnice
+62	9462	uteći	uteci utekao utekla utekli utekne
+63	9463	proziran	prozirna prozirne prozirni prozirno prozirnu
+64	9464	vratni	vratna vratne vratnih vratnog vratnu
+65	9465	podupirati	podupire
+66	9466	primjereno	primereno
+67	9467	izrastati	izrasta izrastaju izrastao
+68	9468	malj	malja maljem
+69	9469	nestabilnost	nestabilnosti
+70	9470	nominirati	nominira nominiram nominiran nominirana nominirani nominirao
+71	9471	prethoditi	prethode prethodi prethodila prethodile prethodili prethodilo prethodio
+72	9472	pokoravati	pokorava pokoravajte pokoravaju pokoravam pokoravamo pokoravanje pokoravate
+73	9473	markiz	markizom markizu markiže
+74	9474	delati	dela delaju delam delamo delano delate delaš
+75	9475	časnica	časnice časnici časnicu
+76	9476	остати	остала остале остали остало остане останем останеш остани останите
+77	9477	kvačilo	kvačila kvačilom
+78	9478	slap	slapa slapova slapove slapovi slapovima
+79	9479	bezbolno	
+80	9480	izjutra	
+81	9481	flert	flerta
+82	9482	izumirati	izumiranje izumire izumiru
+83	9483	paketić	paketića paketiće paketići
+84	9484	poznanstvo	poznanstva poznanstvima
+85	9485	prigodan	prigodna prigodne prigodno prigodnu
+86	9486	odlika	odlikama odlike odliku
+87	9487	iscrpljivati	iscrpljivanje iscrpljuje iscrpljuješ iscrpljuju iscrpljujući
+88	9488	primalac	primalaca primaoca primaoci primaocu
+89	9489	gustina	gustine gustini gustinu
+90	9490	kolosijek	kolosek koloseka koloseku kolosijeka
+91	9491	marmelada	marmelade marmeladom marmeladu
+92	9492	svrgnuti	svrgne svrgnemo svrgnu svrgnuli svrgnuo svrgnut
+93	9493	pokrajina	pokrajinama pokrajine pokrajini pokrajinu
+94	9494	neutralizirati	neutralizira neutralizirali neutraliziramo neutraliziran neutralizirana neutralizirani neutralizirao
+95	9495	ljevoruk	levoruk levoruka levoruke levoruki ljevoruka ljevoruki
+96	9496	ljekovit	lekovita lekoviti lekovito lekovitu ljekovita ljekovite ljekoviti ljekovitim ljekovito
+97	9497	nepismen	nepismena nepismene nepismeni
+98	9498	nepromišljen	nepromišljena nepromišljene nepromišljeni nepromišljenog
+99	9499	pretplata	pretplate pretplatom pretplatu
+100	9500	klada	klade kladi klado kladu

@@ -1,0 +1,100 @@
+1	8501	poprskati	poprska poprskaj poprskala poprskali poprskam poprskamo poprskan poprskao poprskaš
+2	8502	obveznik	obveznici obveznicima obveznika obveznike
+3	8503	bilježiti	bilježe bilježi bilježim bilježimo bilježio bilježite bilježiš
+4	8504	ban	bana bane bani banu
+5	8505	oplodnja	oplodnje oplodnji oplodnjom oplodnju
+6	8506	plavokos	plavokosa plavokose plavokosi plavokosih plavokosog plavokosom plavokosu
+7	8507	napušiti	napuše napuši napušila napušili napušim napušimo napušio napušiš
+8	8508	bezosjećajan	bezosećajno bezosjećajna bezosjećajni bezosjećajno
+9	8509	nadesno	
+10	8510	zakonito	
+11	8511	devedeset	
+12	8512	gospodstvo	gospodstva gospodstvu
+13	8513	usisivač	usisivača usisivače usisivačem usisivaču
+14	8514	tanker	tankera tankere tankeri tankeru
+15	8515	sadist	sadista sadiste sadisti sadistu
+16	8516	stidan	stidna stidne stidnih stidnim stidnu
+17	8517	debljina	debljine debljini debljinu
+18	8518	potišten	potištena potišteni potišteno
+19	8519	izdvajati	izdvaja izdvajaju izdvajam izdvajamo izdvajanje izdvajao izdvajate
+20	8520	kanibal	kanibala kanibale kanibali kanibalima
+21	8521	прав	права праве прави право праву
+22	8522	odrađivati	odrađivala odrađivanje odrađivao odrađuje odrađujem odrađujemo odrađuješ odrađuju
+23	8523	наћи	нашао нашла нашли нађе нађем нађемо нађеш нађи
+24	8524	чекати	чека чекам чекамо чекао чекај чекајте чекају
+25	8525	precijeniti	precijenila precijenio precijenjen precijenjena precijenjeni precijenjeno
+26	8526	omalovažavati	omalovažava omalovažavaj omalovažavaju omalovažavali omalovažavam omalovažavanje omalovažavao omalovažavaš
+27	8527	točiti	toče točenje točeno toči točim točio točiš
+28	8528	neodgovorno	
+29	8529	bluza	
+30	8530	upravljač	
+31	8531	pora	pore poru
+32	8532	jugozapad	jugozapada jugozapadu
+33	8533	kolektiv	kolektiva kolektivom kolektivu
+34	8534	potrošač	potrošača potrošače potrošači potrošačima
+35	8535	birač	birača birače birači biračima
+36	8536	destruktivan	destruktivna destruktivne destruktivni destruktivnih destruktivno destruktivnog destruktivnom destruktivnu
+37	8537	mutiti	mute muti mutio mutite mutiš mućenje mućeno
+38	8538	мена	мене
+39	8539	selen	selena selene selenu
+40	8540	miting	mitinga mitinge mitingu mitinzima
+41	8541	džokej	džokeja džokeji džokejom džokeju
+42	8542	spaziti	spaze spazi spazila spazili spazio
+43	8543	kvartal	kvartala kvartalu
+44	8544	aorta	aorte aorti aortu
+45	8545	hipik	hipici hipicima hipika hipike hipiku
+46	8546	gravitacijski	gravitacijska gravitacijske gravitacijskih gravitacijsko gravitacijskog gravitacijskom gravitacijsku
+47	8547	prodavačica	prodavačice prodavačicom prodavačicu
+48	8548	osnivati	osniva osnivaju osnivam osnivamo osnivanje osnivaš
+49	8549	ogavan	ogavna ogavne ogavni ogavnim ogavno ogavnu
+50	8550	etnički	etnička etničke etničkih etničkim etničko etničkog etničku
+51	8551	hvalisati	hvalisala hvalisali hvalisanje hvalisao hvališe hvališem hvališeš
+52	8552	aman	amana amane amanu
+53	8553	netačan	netačna netačne netačni netačno
+54	8554	tjeskoba	teskobe teskobu tjeskobe tjeskobu
+55	8555	otadžbina	otadžbine otadžbini otadžbinu
+56	8556	sprdati	sprda sprdaj sprdaju sprdali sprdam sprdao sprdate sprdaš
+57	8557	aplaudirati	aplaudira aplaudirajte aplaudiraju aplaudirali aplaudiram aplaudiramo aplaudirao aplaudirate
+58	8558	cvjećar	cvećar cvećara cvećare cvećari cvećaru cvjećara cvjećari cvjećaru
+59	8559	prepisivati	prepisivala prepisivali prepisivanje prepisivao prepisuje prepisujem prepisujemo prepisuješ prepisuju
+60	8560	стваран	стварно
+61	8561	minimalno	
+62	8562	protivno	
+63	8563	ludača	
+64	8564	narkomanka	narkomanke narkomanko narkomanku
+65	8565	bedak	bedaka bedaku
+66	8566	grbača	grbače grbači grbaču
+67	8567	blagostanje	blagostanja blagostanju
+68	8568	spretan	spretna spretne spretni spretno
+69	8569	tikva	tikve tikvi tikvica tikvu
+70	8570	prepoznatljiv	prepoznatljiva prepoznatljive prepoznatljivi prepoznatljivih prepoznatljivim prepoznatljivo prepoznatljivu
+71	8571	iskvariti	iskvaren iskvarena iskvarene iskvareni iskvareno iskvari iskvarila iskvarili iskvario
+72	8572	dotrčati	dotrčala dotrčali dotrčao dotrči dotrčim dotrčiš
+73	8573	rukovodstvo	rukovodstva rukovodstvom rukovodstvu
+74	8574	nekadašnji	nekadašnja nekadašnje nekadašnjeg nekadašnjem nekadašnjih nekadašnju
+75	8575	kasarna	kasarnama kasarne kasarni kasarnu
+76	8576	suzdržavati	suzdržava suzdržavaj suzdržavala suzdržavam suzdržavanje suzdržavao suzdržavate suzdržavaš
+77	8577	općenito	
+78	8578	obratno	
+79	8579	spoljni	spoljnu
+80	8580	brusnica	brusnicama brusnice brusnicu
+81	8581	година	годинама године годину
+82	8582	krma	krmi krmom krmu
+83	8583	nepozvan	nepozvana nepozvane nepozvani nepozvanih
+84	8584	stiska	stisci stiskom stisku
+85	8585	spužva	spužve spužvi spužvom spužvu
+86	8586	recesija	recesije recesiji recesiju
+87	8587	hijerarhija	hijerarhije hijerarhiji hijerarhiju
+88	8588	jednook	jednooka jednooki jednooko jednookog jednookom jednooku
+89	8589	zinuti	zine zineš zini zinite zinu zinula zinuli zinuo
+90	8590	minijaturni	minijaturna minijaturne minijaturnih minijaturnim minijaturno minijaturnu
+91	8591	prljati	prlja prljaj prljaju prljam prljao prljate prljaš
+92	8592	grabiti	grabe grabi grabili grabim grabite grabiš
+93	8593	ucijeniti	ucene uceni ucenila ucenili ucenio ucenjena ucijeni ucijenila ucijenio ucijenjena
+94	8594	izrazito	
+95	8595	pseudonim	pseudonima pseudonime pseudonimima pseudonimom
+96	8596	hiljadarka	hiljadarke hiljadarki hiljadarku
+97	8597	mašinerija	mašinerije mašineriji mašinerijom mašineriju
+98	8598	usputan	usputna usputne usputni usputnih usputnim usputno usputnog
+99	8599	uviti	uvij uvije uvijem uvijen uvijena uvijene uvijeni uvijeno uvijete uvio
+100	8600	posrnuti	posrne posrneš posrnu posrnula posrnule posrnuli posrnuo

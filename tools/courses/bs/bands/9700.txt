@@ -1,0 +1,100 @@
+1	9601	разумети	разумем разумете разумеш
+2	9602	драг	драга драги драго
+3	9603	demonstrant	demonstranata demonstrante demonstranti demonstrantima
+4	9604	sobica	sobice sobici sobicu
+5	9605	samokontrola	samokontrole samokontroli samokontrolu
+6	9606	uzjahati	uzjahao uzjašeš uzjaši uzjašimo uzjašite
+7	9607	čehoslovački	čehoslovačka čehoslovačke čehoslovačkoj čehoslovačkom čehoslovačku
+8	9608	prijestolnica	prijestolnice prijestolnici prijestolnicu
+9	9609	sijamski	sijamske sijamskih sijamskim
+10	9610	membrana	membrane membranu
+11	9611	avokado	avokada avokadom
+12	9612	sprdnja	sprdnje sprdnju
+13	9613	izjašnjavati	izjašnjava izjašnjavam izjašnjavamo izjašnjavanje izjašnjavate
+14	9614	neuron	neurona neurone neuroni neuronima
+15	9615	taština	taštine taštinu
+16	9616	svlačiti	svlače svlačenje svlači svlačim svlačiš
+17	9617	oplata	oplate oplatu
+18	9618	anarhist	anarhista anarhiste anarhisti anarhistima
+19	9619	vučji	vučja vučje vučjeg vučjoj vučju
+20	9620	poslužavnik	
+21	9621	mela	
+22	9622	osamdeseti	osamdesetih
+23	9623	inhalator	inhalatora
+24	9624	vjerenički	verenički vereničku
+25	9625	homoseksualnost	homoseksualnosti
+26	9626	barel	barela barelu
+27	9627	oblina	oblinama obline oblinu
+28	9628	strvinar	strvinara strvinare strvinari
+29	9629	perilica	perilice perilici perilicu
+30	9630	kipar	kipra kipru
+31	9631	domišljat	domišljata domišljate domišljati domišljato
+32	9632	kroasan	kroasana kroasane kroasani
+33	9633	stočić	stočića stočiće stočiću
+34	9634	tikvan	tikvana tikvane tikvani
+35	9635	ćaknut	ćaknuta ćaknute ćaknuti ćaknuto
+36	9636	dopisnik	dopisnici dopisnika
+37	9637	vez	vezom vezove vezovi
+38	9638	šmrkati	šmrkala šmrkali šmrkanje šmrkao šmrče šmrčem šmrčeš
+39	9639	istovar	istovara istovare istovari istovarom istovaru
+40	9640	bjesnjeti	besne besnela besni besnim besniš bjesne bjesni bjesnio bjesniš
+41	9641	projektor	projektora projektore projektori projektorom
+42	9642	jabukovača	jabukovače jabukovačom jabukovaču
+43	9643	suzbiti	suzbije suzbijem suzbijemo suzbijena suzbiju suzbila suzbili suzbio
+44	9644	zavisno	
+45	9645	melem	
+46	9646	devetnaest	
+47	9647	znanstveno	
+48	9648	ekvivalent	ekvivalenta
+49	9649	predsedavajući	predsedavajućeg
+50	9650	paragraf	paragrafa paragrafu
+51	9651	hašiš	hašiša
+52	9652	trenje	trenja
+53	9653	kontaminacija	kontaminacije kontaminaciju
+54	9654	unučad	unučadi
+55	9655	mislilac	mislilaca mislioca mislioci
+56	9656	munjevit	munjevita munjevite munjeviti munjevito munjevitom
+57	9657	stolić	stolića stoliće stoliću
+58	9658	arheologija	arheologije arheologiji arheologijom arheologiju
+59	9659	spiralan	spiralna spiralne spiralni spiralnih spiralnim spiralnu
+60	9660	ratnički	ratnička ratničke ratničkim ratničkog ratničku
+61	9661	blejati	blejanje blejao bleje bleji blejim blejimo blejiš
+62	9662	bljesnuti	blesnem blesneš blesnuo bljesne bljesni bljesnulo bljesnuo
+63	9663	moskovski	moskovska moskovske moskovskog moskovskoj moskovskom
+64	9664	kamenica	kamenicama kamenice
+65	9665	kamilica	kamilice kamilicu
+66	9666	oposum	oposuma oposume oposumi
+67	9667	ustavan	ustavna ustavne ustavni ustavnih ustavnim ustavnog ustavnom
+68	9668	trubiti	trube trubeći trubi trubim trubio trubite trubiš
+69	9669	svladati	svlada svladala svladali svladao
+70	9670	baksuz	baksuze
+71	9671	zavodnik	zavodnika zavodniče
+72	9672	hodočašće	hodočašća hodočašću
+73	9673	kukavičluk	kukavičluka kukavičlukom
+74	9674	kretenski	kretenska kretenske kretensko kretenskog kretenskom
+75	9675	kurtizana	kurtizanama kurtizane kurtizanu
+76	9676	obdariti	obdaren obdarena obdareni obdario
+77	9677	vjerenik	vjerenici vjerenika vjerenikom vjereniku
+78	9678	helij	helija helije helijem
+79	9679	pokleknuti	poklekao poklekla poklekne pokleknem pokleknu pokleknuo
+80	9680	пријатељ	пријатеља пријатеље пријатељи пријатељима пријатељу
+81	9681	lezbijski	lezbijska lezbijske lezbijskih lezbijsko lezbijskog lezbijskom lezbijsku
+82	9682	kariran	karirana karirane karirani kariranim karirano kariranoj kariranom kariranu
+83	9683	povraćati	
+84	9684	vizualan	vizualni
+85	9685	sastavni	sastavne
+86	9686	dijabetičar	dijabetičara dijabetičare
+87	9687	gnjavator	gnjavatora gnjavatori
+88	9688	ambijent	ambijenta ambijentu
+89	9689	hardver	hardvera hardverom
+90	9690	proporcija	proporcijama proporcije proporciji
+91	9691	priseban	prisebna prisebni prisebniji
+92	9692	grimasa	grimase grimasu
+93	9693	prosudba	prosudbe prosudbi prosudbu
+94	9694	tranzicija	tranzicije tranziciji tranziciju
+95	9695	iščašiti	iščašen iščašena iščašenje iščašeno iščašila iščašio
+96	9696	akcijski	akcijska akcijske akcijskih akcijskim akcijskog akcijskom akcijsku
+97	9697	izniman	iznimna iznimne iznimni iznimnom iznimnu
+98	9698	sjeverozapadni	severozapadni severozapadnom sjeverozapadna sjeverozapadne sjeverozapadnoj sjeverozapadnom
+99	9699	svod	svoda svode svodom svodu
+100	9700	čovječuljak	čovečuljak čovečuljka čovječuljaka čovječuljci čovječuljka

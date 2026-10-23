@@ -1,0 +1,100 @@
+1	4401	šibica	šibicama šibice šibicom šibicu
+2	4402	kleknuti	klekao klekne kleknem kleknete klekneš klekni kleknite kleknu kleknuli kleknuo kleče
+3	4403	karati	kara karaj karaju karala karali karam karamo karan karana karanje karao karaš
+4	4404	bakterija	bakterijama bakterije bakteriji bakterijom bakteriju
+5	4405	preokrenuti	preokrene preokrenem preokrenemo preokreneš preokreni preokrenite preokrenu preokrenula preokrenule preokrenuli preokrenulo preokrenuo preokrenut preokrenuto
+6	4406	primirje	primirja primirjem primirju
+7	4407	jahta	jahtama jahte jahti jahtom jahtu
+8	4408	ubod	uboda ubode ubodi ubodima ubodom ubodu
+9	4409	kirurg	kirurga kirurgom kirurgu kirurzi kirurzima
+10	4410	osobina	osobinama osobine osobinu
+11	4411	institucija	institucijama institucije instituciji institucijom instituciju
+12	4412	kamata	kamatama kamate kamatom kamatu
+13	4413	skuvati	skuva skuvaj skuvajte skuvala skuvali skuvam skuvamo skuvan skuvana skuvani skuvano skuvao skuvaće skuvaću skuvaš
+14	4414	čestica	česticama čestice česticu
+15	4415	udruženje	udruženja udruženjem udruženjima udruženju
+16	4416	komedija	komedijama komedije komediji komedijom komediju
+17	4417	nezgodan	nezgodna nezgodne nezgodni nezgodnih nezgodnim nezgodnog nezgodnoj nezgodnom nezgodnu
+18	4418	ilegalno	
+19	4419	servis	servisa servise servisi servisima servisom servisu
+20	4420	dobrovoljac	dobrovoljaca dobrovoljca dobrovoljce dobrovoljci dobrovoljcima
+21	4421	kajati	kajanje kajao kajaćeš kaje kajem kajemo kajete kaješ kaju
+22	4422	zavidjeti	zavide zavideli zavideo zavideti zavidi zavidim zavidimo zavidio zavidite zavidiš zavidjela zavidjeli
+23	4423	blokada	blokadama blokade blokadi blokadom blokadu
+24	4424	lajati	laj lajala lajali lajanje lajao laje lajem lajemo lajete laješ laju
+25	4425	obogatiti	obogate obogati obogatila obogatili obogatim obogatimo obogatio obogatite obogatićemo obogatiš obogaćeni
+26	4426	ujna	ujne ujni ujno ujnom ujnu
+27	4427	original	originala originale originali originalom originalu
+28	4428	odoljeti	odole odoleo odoleti odoli odolim odolio odoliš odoljela
+29	4429	instrukcija	instrukcijama instrukcije instrukciju
+30	4430	sumrak	sumraka sumraku
+31	4431	istraživač	istraživača istraživače istraživači istraživačima istraživaču
+32	4432	utjeha	uteha utjehe utjehu
+33	4433	sunčan	sunčana sunčane sunčani sunčanih sunčanim sunčano sunčanog sunčanoj sunčanom sunčanu
+34	4434	ekstreman	ekstremna ekstremne ekstremni ekstremnih ekstremnije ekstremnim ekstremnog ekstremnoj ekstremnom ekstremnu najekstremniji najekstremnijih najekstremnijim
+35	4435	klon	klona klone klonom klonova klonove klonovi klonovima klonu
+36	4436	maziti	maze mazi mazila mazile mazili mazim mazimo mazio mazite maziš mažen maženje
+37	4437	propadati	propada propadaju propadala propadali propadam propadamo propadanje propadao propadaš
+38	4438	sirotište	sirotišta sirotištem sirotištu
+39	4439	gajiti	gaje gaji gajila gajili gajim gajimo gajio gajite gajiš
+40	4440	molba	molbama molbe molbi molbom molbu
+41	4441	bogataš	bogataša bogataše bogatašem bogataši bogatašima bogatašu
+42	4442	iznenađujući	iznenađujuća iznenađujuće iznenađujućeg iznenađujućem iznenađujuću
+43	4443	telegram	telegrama telegrame telegrami telegramom telegramu
+44	4444	klaun	klauna klaune klauni klaunima klaunom klaunova klaunove klaunovi klaunovima klaunu
+45	4445	potok	potoci potocima potoka potoke potokom potoku
+46	4446	zakonski	zakonska zakonske zakonskih zakonskim zakonsko zakonskog zakonskoj zakonskom zakonsku
+47	4447	mito	mita mitom mitu
+48	4448	poslijepodne	poslepodne poslepodneva poslijepodneva poslijepodnevu
+49	4449	čips	čipsa čipsom čipsu
+50	4450	narodni	narodna narodne narodnih narodnim narodno narodnog narodnoj narodnom narodnu
+51	4451	brana	brane brani branom branu
+52	4452	ustanoviti	ustanove ustanovi ustanovila ustanovili ustanovim ustanovimo ustanovio ustanovite ustanoviš ustanovljen ustanovljena ustanovljene ustanovljeno
+53	4453	opera	opere operi operom operu
+54	4454	zločinac	zločinaca zločinca zločince zločincem zločinci zločincima zločincu
+55	4455	pomoćnica	pomoćnice pomoćnici pomoćnicom pomoćnicu
+56	4456	ispeći	ispeci ispekao ispekla ispekle ispekli ispeku ispeče ispečem ispečemo ispečen ispečena ispečeni ispečeno ispečeš
+57	4457	bilješka	bilješkama bilješke bilješki bilješku
+58	4458	znoj	znoja znojem znoju
+59	4459	pahuljica	pahuljicama pahuljice pahuljicu
+60	4460	suziti	suze suzi suzila suzili suzim suzimo suzio suzite suziš suženje
+61	4461	ološ	ološa ološe ološem ološi ološu
+62	4462	nesvijest	nesvest nesvesti nesvijesti
+63	4463	neodoljiv	neodoljiva neodoljive neodoljivi neodoljivim neodoljivo neodoljivog neodoljivom neodoljivu
+64	4464	daljnji	daljnja daljnje daljnjeg daljnjega daljnjem daljnjih daljnjim daljnju
+65	4465	spojen	spojena spojene spojeni spojenih spojenim spojeno spojenog
+66	4466	oštrica	oštricama oštrice oštrici oštricom oštricu
+67	4467	obiti	obi obij obije obijem obijemo obijen obijena obiješ obiju obila obili obilo obio
+68	4468	stadion	stadiona stadione stadioni stadionima stadionu
+69	4469	gumen	gumena gumene gumeni gumenih gumenim gumeno gumenog gumenoj gumenom gumenu
+70	4470	ustav	ustava ustave ustavi ustavom ustavu
+71	4471	burka	burke burki burkom burku
+72	4472	prosinac	pro prosinca prosincu
+73	4473	dvor	dvora dvore dvori dvorom dvoru
+74	4474	terapeut	terapeuta terapeute terapeuti terapeutima terapeutom terapeutu
+75	4475	delfin	delfina delfine delfini delfinima delfinu
+76	4476	skitnica	skitnicama skitnice skitnici skitnicom skitnicu
+77	4477	zvaničan	zvanična zvanične zvanični zvaničnih zvaničnim zvaničnog zvaničnoj zvaničnom zvaničnu
+78	4478	motriti	motre motrenje motri motrila motrili motrim motrimo motrio motrite motrićemo motriću motriš
+79	4479	skrovište	skrovišta skrovištu
+80	4480	ljubak	ljupka ljupke ljupki ljupkih ljupkim ljupkog ljupkoj ljupkom ljupku
+81	4481	lupati	lupaj lupajte lupaju lupajući lupala lupali lupalo lupam lupamo lupan lupao lupate lupaš
+82	4482	perspektiva	perspektive perspektivi perspektivom perspektivu
+83	4483	večernji	večernja večernje večernjeg večernjem večernjih večernjim večernjoj večernjom večernju
+84	4484	ler	lera leri leru
+85	4485	velikodušan	velikodušna velikodušne velikodušni velikodušnim velikodušnog velikodušnoj velikodušnom velikodušnu
+86	4486	organizam	organizama organizma organizme organizmi organizmima organizmom organizmu
+87	4487	nasmejati	nasmej nasmejala nasmejali nasmejan nasmejana nasmejane nasmejani nasmejano nasmejao nasmeje nasmejem nasmejemo nasmejete nasmeješ nasmejte nasmeju
+88	4488	barut	baruta barutom barutu
+89	4489	osušiti	osuše osušena osušene osušeni osušeno osuši osušila osušile osušili osušilo osušim osušimo osušio osušite osušiće osušiš
+90	4490	odgoditi	odgode odgodi odgodila odgodili odgodilo odgodim odgodimo odgodio odgodite odgodiš odgođen odgođena odgođeni odgođeno
+91	4491	džaba	džabe
+92	4492	ura	ure uri uru ура
+93	4493	kritika	kritici kritikama kritike kritikom kritiku
+94	4494	kružiti	kruže kruženje kružeći kruži kružila kružile kružili kružilo kružim kružimo kružio kružite kružiš
+95	4495	jastog	jastoga jastoge jastogom jastogu jastozi jastozima
+96	4496	pomfrit	pomfrita pomfritom pomfritu
+97	4497	pojedinac	pojedinaca pojedinca pojedince pojedinci pojedincima pojedincu
+98	4498	poštanski	poštanska poštanske poštanskih poštanskim poštansko poštanskog poštanskoj poštanskom poštansku
+99	4499	narudžba	narudžbama narudžbe narudžbi narudžbom narudžbu
+100	4500	takozvani	takozvana takozvane takozvanih takozvanim takozvano takozvanog takozvanoj takozvanom takozvanu

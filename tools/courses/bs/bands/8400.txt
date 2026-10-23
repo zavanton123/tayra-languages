@@ -1,0 +1,100 @@
+1	8301	trepavica	trepavicama trepavice trepavicu
+2	8302	čimpanza	čimpanzama čimpanze čimpanzi čimpanzu
+3	8303	folio	folija folije folijom foliju
+4	8304	uređivati	uređivanje uređuje uređujem uređujemo uređuješ uređuju
+5	8305	sprati	spere sperem speremo spereš speri speru sprala sprao
+6	8306	neobjašnjiv	neobjašnjiva neobjašnjive neobjašnjivi neobjašnjivih neobjašnjivim neobjašnjivog neobjašnjivu
+7	8307	balaviti	balave balavi balavim balavio balaviš
+8	8308	spokoj	spokoja spokoju
+9	8309	poslušnost	poslušnosti
+10	8310	otrcan	otrcana otrcane otrcani otrcanih otrcanog otrcanu
+11	8311	murija	
+12	8312	činovnik	činovnici činovnika činovniku
+13	8313	umarati	umara umaraju umaram umaraš
+14	8314	koridor	koridora koridore koridorima koridorom koridoru
+15	8315	riznica	riznice riznici riznicu
+16	8316	učlaniti	učlani učlanila učlanili učlanim učlanimo učlanio učlanite učlaniš učlanjen
+17	8317	требати	требала требали требало требао требају требаће
+18	8318	pazuh	pazuha pazuhe pazuhom pazuhu pazusi
+19	8319	kdo	km
+20	8320	leća	leće leću
+21	8321	olabaviti	olabavi olabavila olabavilo olabavim olabavio olabavite olabaviš
+22	8322	ophodnja	ophodnje ophodnji ophodnju
+23	8323	usran	
+24	8324	stjuardesa	
+25	8325	kam	kama kami
+26	8326	вратити	врати вратим вратимо вратио вратите вратиш вратићу
+27	8327	prigušiti	prigušen prigušena prigušeni prigušeno priguši prigušite prigušiš
+28	8328	iskazivati	iskazivanje iskazivao iskazuje iskazujem iskazujemo iskazujete iskazuješ iskazuju
+29	8329	abdomen	abdomena abdomenu
+30	8330	civiliziran	civilizirana civilizirani civilizirano civiliziranog civiliziranom
+31	8331	ludjeti	lude ludela ludeo ludi ludim ludimo ludio ludite ludiš
+32	8332	oživiti	ožive oživi oživili oživim oživimo oživio oživite oživiš
+33	8333	nasljednica	naslednica naslednice naslednici naslednicu nasljednice nasljednici nasljednicu
+34	8334	selekcija	selekcije selekcijom selekciju
+35	8335	protuotrov	
+36	8336	jarbol	jarbola jarbole
+37	8337	treperiti	trepere treperenje treperi treperila treperim
+38	8338	mehanika	mehanici mehanike mehaniku
+39	8339	šetač	šetača šetače šetači
+40	8340	sinagoga	sinagogama sinagoge sinagogi sinagogu
+41	8341	tuljan	tuljana tuljane tuljani tuljanima
+42	8342	istrošiti	istroše istroši istrošila istrošile istrošili istrošio
+43	8343	gat	gata gate gatu
+44	8344	doseg	dosega dosegu doseže
+45	8345	zataškavanje	zataškavanja zataškavanju
+46	8346	učvrstiti	učvrste učvrsti učvrstila učvrstili učvrstilo učvrstimo učvrstio učvrstite učvršćen
+47	8347	kriminalistički	kriminalistička kriminalističke kriminalističkih kriminalističko kriminalističkog kriminalističkoj kriminalističku
+48	8348	biolog	biologa biologe biolozi
+49	8349	razonoda	razonode razonodi razonodu
+50	8350	human	humana humane humani humanije humaniji humanu najhumaniji
+51	8351	proračunati	proračuna proračunali proračunao proračunat proračunata proračunate proračunato
+52	8352	rud	rude rudi rudo rudom rudu
+53	8353	klimav	klimava klimave klimavi klimavim klimavo klimavu
+54	8354	jaz	jaza jazu
+55	8355	koincidencija	koincidencije koincidenciju
+56	8356	klipan	klipana klipane klipani
+57	8357	lisac	lisca lisce liscu lišče
+58	8358	odazvati	odazove odazovem odazovite odazvala odazvali odazvao
+59	8359	odgađati	odgađa odgađaj odgađaju odgađali odgađam odgađamo odgađanje odgađao
+60	8360	urođen	urođena urođene urođeni urođenim urođeno urođenom urođenu
+61	8361	unosan	najunosniji unosna unosne unosnije unosno unosnu
+62	8362	uspostavljati	uspostavlja uspostavljaju uspostavljam uspostavljamo uspostavljanje uspostavljaš
+63	8363	betonski	betonska betonske betonskih betonskim betonskog betonskoj betonskom betonsku
+64	8364	ljeti	
+65	8365	teca	tec tece
+66	8366	iskrcavati	iskrcava iskrcavaju iskrcavali iskrcavanje
+67	8367	jeza	jeze jezi jezu
+68	8368	skromnost	skromnosti skromnošću
+69	8369	objavljivanje	objavljivanja
+70	8370	iritirati	iritira iritiraju iritirajući iritirao iritiraš
+71	8371	oaza	oaze oazi oazu
+72	8372	smrtnost	smrtnosti
+73	8373	verbalan	verbalna verbalne verbalni verbalnim verbalno verbalnog verbalnu
+74	8374	fešta	fešte fešti feštu
+75	8375	deklaracija	deklaracije deklaraciji deklaraciju
+76	8376	zaokružiti	zaokružen zaokruženo zaokruži zaokružila zaokružili zaokružim zaokružimo zaokružio zaokružite
+77	8377	ep	epa epu
+78	8378	poduzetnik	poduzetnica poduzetnici poduzetnika poduzetnike
+79	8379	remetiti	remete remeti remetim remetite remetiš remećenje
+80	8380	tumarati	tumara tumaraju tumarajući tumarala tumaram tumaranje tumarao tumaraš
+81	8381	var	vara vari
+82	8382	tetak	teci tetke tetkom tetku teče
+83	8383	zabavljač	zabavljača zabavljače zabavljači
+84	8384	unca	unce unci uncu
+85	8385	neboder	nebodera nebodere neboderi neboderima neboderu
+86	8386	stubište	stubišta stubištem stubištu
+87	8387	gledatelj	gledatelja gledatelje gledatelji gledateljima
+88	8388	strm	strma strme strmi strmim strmom strmu
+89	8389	nerado	
+90	8390	blef	blefom
+91	8391	elektromagnetni	elektromagnetna elektromagnetne elektromagnetnih elektromagnetnim elektromagnetno elektromagnetnog elektromagnetnu
+92	8392	izopačen	izopačena izopačene izopačeni izopačenim izopačenog izopačenu
+93	8393	neuobičajen	neuobičajena neuobičajene neuobičajeni neuobičajenih neuobičajenog neuobičajenom neuobičajenu
+94	8394	šipak	šipci šipke šipkom šipku
+95	8395	pijanist	pijanista pijaniste pijanisti pijanistu
+96	8396	neoprezan	neoprezna neoprezni neoprezno
+97	8397	brazda	brazdama brazde brazdi brazdu
+98	8398	atletski	atletska atletske atletskim atletsko atletskog atletskom atletsku
+99	8399	pribran	pribrana pribrani pribrano
+100	8400	zatrovati	zatrovala zatrovali zatrovan zatrovana zatrovani zatrovano zatrovao zatruje

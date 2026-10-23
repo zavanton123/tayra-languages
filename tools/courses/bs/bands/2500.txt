@@ -1,0 +1,100 @@
+1	2401	mraz	mraza mraze mrazova mrazove mrazovi mrazu
+2	2402	uvjeren	uveren uverena uvereni uvereno uvjerena uvjerene uvjereni uvjereno
+3	2403	robot	robota robote roboti robotima robotom robotu
+4	2404	piletina	piletine piletini piletinom piletinu
+5	2405	prethodan	prethodna prethodne prethodni prethodnih prethodnim prethodnog prethodnoj prethodnom prethodnu
+6	2406	koncert	koncerata koncerta koncerte koncerti koncertima koncertom koncertu
+7	2407	uticati	uticala uticale uticali uticalo uticao uticaće utiče utičem utičemo utičete utičeš utiču
+8	2408	kurs	kursa kursevi kursom kursu
+9	2409	zvono	zvona zvonima zvonom zvonu
+10	2410	prezime	prezimena prezimenima prezimenom prezimenu
+11	2411	menadžer	menadžera menadžere menadžeri menadžerima menadžerom menadžeru
+12	2412	zaliha	zalihama zalihe zalihi zalihom zalihu
+13	2413	napiti	napi napij napije napijem napijemo napijete napiješ napijmo napijte napiju napila napile napili napio napićemo napićeš napiću napiše
+14	2414	seronja	
+15	2415	nimalo	
+16	2416	premijer	premijera premijere premijeri premijerom premijeru
+17	2417	prisutan	prisutna prisutne prisutni prisutnih prisutnim prisutnima prisutno prisutnog prisutnom prisutnu
+18	2418	djetinjstvo	detinjstva detinjstvo detinjstvom detinjstvu djetinjstva djetinjstvom djetinjstvu
+19	2419	naljutiti	naljute naljuti naljutila naljutili naljutilo naljutim naljutimo naljutio naljutite naljutiće naljutićeš naljutiš
+20	2420	razni	razna razne raznih raznim razno raznog raznom
+21	2421	majstor	majstora majstore majstori majstorima majstorom majstoru
+22	2422	naročito	
+23	2423	logor	logora logore logori logorima logorom logoru
+24	2424	mokar	mokra mokre mokri mokrih mokrim mokro mokrog mokroj mokrom mokru
+25	2425	ukazivati	ukazivala ukazivale ukazivali ukazivalo ukazivanje ukazivao ukazuje ukazujem ukazujete ukazuješ ukazuju ukazujući
+26	2426	odsjeći	odseci odsecite odsekao odsekla odsekli odseku odseći odseče odsečem odsečemo odsečen odsečena odsečene odsečeni odsečeno odsečete odsečeš odsijeci odsijecite odsijeku odsiječe odsiječem odsiječeš odsjekao odsjekla odsjekli odsječen odsječena odsječene odsječeni odsječeno
+27	2427	dospjeti	dospe dospeju dospela dospele dospeli dospelo dospem dospemo dospeo dospeti dospeš dospije dospijem dospijemo dospijete dospiješ dospiju dospio dospjela dospjele dospjeli dospjelo
+28	2428	tužno	
+29	2429	galaksija	galaksijama galaksije galaksiji galaksijom galaksiju
+30	2430	ulje	ulja uljem uljima ulju
+31	2431	cvijet	cvet cveta cvete cvetom cvetova cvetove cvetovi cvetovima cvetu cvijeta cvijete cvijetom cvijetu cvjetova cvjetove cvjetovi cvjetovima
+32	2432	podržavati	podržava podržavaju podržavajući podržavala podržavale podržavali podržavam podržavamo podržavanje podržavao podržavate podržavaš
+33	2433	mio	mila mile mili milija milije milim milog miloga milom milu najmilija najmilije najmiliji najmilijih najmilijima
+34	2434	curica	curicama curice curici curicom curicu
+35	2435	kreditni	kreditna kreditne kreditnih kreditnim kreditno kreditnog kreditnoj kreditnom kreditnu
+36	2436	sastati	sastala sastale sastali sastalo sastane sastanem sastanemo sastanete sastaneš sastani sastanimo sastanu sastao sastaće sastaćemo sastaćete sastaćeš sastaću
+37	2437	iskopati	iskopa iskopaj iskopajte iskopaju iskopala iskopale iskopali iskopam iskopamo iskopan iskopana iskopane iskopani iskopano iskopao iskopate iskopaćemo iskopaću iskopaš
+38	2438	papa	pape papi papo papom papu
+39	2439	junak	junaci junacima junaka junake junakinja junakinje junakinju junakom junaku junače junačina
+40	2440	komšija	komšijama komšije komšiji komšijom komšiju komšinica
+41	2441	so	soli solju
+42	2442	čokolada	čokoladama čokolade čokoladi čokoladom čokoladu
+43	2443	kapirati	kapira kapiraju kapiram kapiramo kapirao kapirate kapiraš
+44	2444	dužan	dužna dužne dužni dužnim dužno dužnom
+45	2445	uostalom	
+46	2446	istinit	istinita istinite istiniti istinitih istinitije istinitim istinito istinitog istinitoj istinitom istinitu
+47	2447	tanak	najtanji tanja tanje tanji tanjim tanjom tanju tanka tanke tanki tankih tankim tanko tankog tankoj tankom tanku
+48	2448	otkrivati	otkriva otkrivaj otkrivajte otkrivaju otkrivajući otkrivala otkrivali otkrivam otkrivamo otkrivanje otkrivao otkrivate otkrivaš
+49	2449	koza	kozama koze kozi kozica kozja kozje kozjeg kozji kozjim kozjom kozju kozo kozom kozu
+50	2450	zadržavati	zadržava zadržavaj zadržavajte zadržavaju zadržavajući zadržavala zadržavali zadržavalo zadržavam zadržavamo zadržavanje zadržavao zadržavate zadržavaš
+51	2451	mariti	mare mari marila marili marim marimo marite mariš
+52	2452	konferencija	konferencijama konferencije konferenciji konferencijom konferenciju
+53	2453	mana	manama mane mani mano manom manu
+54	2454	podržati	podržala podržale podržali podržan podržana podržani podržano podržao podržaće podržaćemo podržaću podrže podrži podržim podržimo podržite podržiš
+55	2455	stepen	stepena stepene stepeni stepenom stepenu
+56	2456	upisati	upisa upisala upisali upisalo upisan upisana upisane upisani upisano upisao upisaćeš upisaću upiše upišem upišemo upišete upišeš upiši upišite upišu
+57	2457	profesionalan	profesionalna profesionalne profesionalni profesionalnih profesionalnije profesionalnim profesionalnog profesionalnoj profesionalnom profesionalnu
+58	2458	psihijatar	psihijatara psihijatra psihijatre psihijatri psihijatrima psihijatrom psihijatru
+59	2459	navika	navici navikama navike naviko navikom naviku
+60	2460	boj	bojeva bojeve boju
+61	2461	šok	šoka šokom šokova šokove šokovi šokovima šoku
+62	2462	pamtiti	pamte pamteći pamti pamtila pamtili pamtim pamtimo pamtio pamtite pamtiće pamtiću pamtiš pamćeni
+63	2463	obrana	obrane obrani obrano obranom obranu
+64	2464	ovisiti	ovise ovisi ovisila ovisili ovisilo ovisim ovisimo ovisio ovisiš
+65	2465	drogirati	drogira drogiraj drogirajte drogiraju drogirala drogirali drogiram drogiramo drogiran drogirana drogirane drogirani drogiranje drogirano drogirao drogirate drogiraš
+66	2466	pička	pičaka pičkama pičke pički pičko pičkom pičku
+67	2467	krvni	krvna krvne krvnih krvnim krvno krvnog krvnoj krvnom krvnu
+68	2468	smrtonosan	smrtonosna smrtonosne smrtonosni smrtonosnih smrtonosnim smrtonosnog smrtonosnoj smrtonosnom smrtonosnu
+69	2469	potpis	potpisa potpise potpisi potpisima potpisom potpisu
+70	2470	zvjezdan	zvezdana zvezdane zvezdani zvezdanih zvezdanim zvezdano zvezdanog zvezdanoj zvezdanom zvezdanu zvjezdana zvjezdane zvjezdani zvjezdanih zvjezdanim zvjezdano zvjezdanog zvjezdanoj zvjezdanom zvjezdanu
+71	2471	prašina	prašine prašini prašinom prašinu
+72	2472	ministarstvo	ministarstava ministarstva ministarstvom ministarstvu
+73	2473	mržnja	mržnje mržnji mržnjom mržnju
+74	2474	pobjeđivati	pobeđivala pobeđivali pobeđivao pobeđivati pobeđuje pobeđujem pobeđujemo pobeđujete pobeđuješ pobeđuju pobjeđivala pobjeđivali pobjeđivanje pobjeđivao pobjeđuje pobjeđujem pobjeđujemo pobjeđujete pobjeđuješ pobjeđuju
+75	2475	pomoćnik	pomoćnici pomoćnicima pomoćnika pomoćnike pomoćnikom pomoćniku pomoćniče
+76	2476	blagosloviti	blagoslove blagoslovi blagoslovila blagoslovili blagoslovilo blagoslovim blagoslovimo blagoslovio blagoslovite blagosloviš blagoslovljena blagoslovljene blagoslovljeni blagoslovljeno
+77	2477	liječiti	leče lečen lečena lečenje leči lečila lečili lečim lečimo lečio lečite lečiti lečiš liječe liječen liječena liječene liječeni liječeći liječi liječila liječili liječim liječimo liječio liječite liječiš
+78	2478	rez	reza rezom rezova rezove rezovi rezovima rezu
+79	2479	privesti	privede privedem privedemo priveden privedena privedeni privedeno privedete privedeš privedi privedimo privedite privedu privela priveli priveo privešćemo privešću
+80	2480	uzbuna	uzbune uzbuni uzbunom uzbunu
+81	2481	moguć	moguća mogućeg mogućega mogućem mogući mogućih mogućim mogućoj mogućom moguću
+82	2482	unaprijed	unapred
+83	2483	ogrlica	ogrlicama ogrlice ogrlici ogrlicom ogrlicu
+84	2484	trpjeti	trpe trpela trpeli trpeo trpeti trpi trpim trpimo trpio trpite trpiš trpjela trpjeli
+85	2485	kavez	kaveza kaveze kavezi kavezima kavezom kavezu
+86	2486	snaći	snađe snađem snađemo snađete snađeš snađi snađite snađu snašao snašla snašle snašli snašlo
+87	2487	hlače	hlača hlačama
+88	2488	kandidat	kandidata kandidate kandidati kandidatima kandidatom kandidatu
+89	2489	dokazivati	dokazivala dokazivali dokazivanje dokazivao dokazuje dokazujem dokazujemo dokazujete dokazuješ dokazuju dokazujući
+90	2490	dvorac	dvoraca dvorca dvorce dvorcem dvorci dvorcima dvorcu
+91	2491	uložiti	ulože uložen uložena uloženi uloženo uloži uložila uložile uložili uložim uložimo uložio uložite uložiću uložiš
+92	2492	prevelik	prevelika prevelike preveliki prevelikih prevelikim preveliko prevelikog prevelikoj prevelikom preveliku
+93	2493	riskirati	riskira riskiraj riskirajte riskiraju riskirajući riskiram riskiramo riskiranje riskirate riskiraš
+94	2494	nokat	nokata nokta nokte nokti noktiju noktima noktom
+95	2495	zatražiti	zatraže zatražena zatraženo zatraži zatražila zatražili zatražilo zatražim zatražimo zatražio zatražite zatražiću zatražiš
+96	2496	šaka	šaci šakama šake šako šakom šaku
+97	2497	ovoliko	
+98	2498	iznajmiti	iznajme iznajmi iznajmila iznajmile iznajmili iznajmim iznajmimo iznajmio iznajmite iznajmićemo iznajmiću iznajmiš iznajmljen iznajmljena iznajmljene iznajmljeni iznajmljeno
+99	2499	alat	alata alate alati alatima alatom alatu
+100	2500	otpor	otpora otporom otporu

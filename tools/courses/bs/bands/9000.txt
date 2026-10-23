@@ -1,0 +1,100 @@
+1	8901	kamenovati	kamenova kamenovali kamenovan kamenovana kamenovani kamenovanje kamenujte kamenuju
+2	8902	gda	
+3	8903	без	
+4	8904	singl	singla singlom singlova singlu
+5	8905	obrt	obrta obrte obrti obrtom
+6	8906	čedo	čeda čede čedi čedom
+7	8907	mećava	mećave mećavi mećavu
+8	8908	čačkalica	čačkalice čačkalicom čačkalicu
+9	8909	отићи	одем одемо одете одеш отишао отишла отишли
+10	8910	zbijati	zbija zbijaj zbijaju zbijali zbijam zbijanje zbijao zbijate zbijaš
+11	8911	rastvor	rastvora rastvore rastvori rastvorom
+12	8912	posveta	posvete posveti posvetom posvetu
+13	8913	prsni	prsne prsno prsnog prsnu
+14	8914	neodređeno	
+15	8915	radikalno	
+16	8916	poredati	poredaj poredajte
+17	8917	haringa	haringe haringi haringu
+18	8918	štednja	štednje štednji štednjom štednju
+19	8919	saopštiti	saopštila saopštio
+20	8920	slezena	slezene slezeni slezenom slezenu
+21	8921	naraštaj	naraštaja naraštaje naraštaji naraštajima
+22	8922	znojan	znojna znojne znojni znojnih znojnim
+23	8923	sumoran	sumorna sumorne sumorni sumornim sumornom sumornu
+24	8924	premlatiti	premlati premlatila premlatili premlatim premlatio premlaćen
+25	8925	skela	skelama skele skeli skelu
+26	8926	krizni	krizna krizne kriznih kriznim kriznog kriznoj kriznu
+27	8927	ženstven	ženstvena ženstvene ženstveni ženstvenije ženstveno
+28	8928	otpadnik	otpadnici otpadnicima otpadnika otpadnike otpadnikom
+29	8929	razglasiti	razglasi razglasila razglasili razglasim razglasimo razglasio razglasite
+30	8930	suptilno	
+31	8931	sužavati	sužava sužavaju sužavanje
+32	8932	tužiteljica	tužiteljice tužiteljicu
+33	8933	sakupljač	sakupljača sakupljači sakupljaču
+34	8934	pegla	pegle peglom peglu
+35	8935	trojstvo	trojstva trojstvu
+36	8936	dragocjenost	dragocenost dragocenosti dragocjenosti
+37	8937	riza	rize rizi rizo rizom rizu
+38	8938	privreda	privrede privredi privredom privredu
+39	8939	uposliti	uposlen uposlena uposleni uposli uposlila uposlili uposlim uposlimo uposlio uposlite
+40	8940	atlas	atlasa atlasu
+41	8941	omjer	omjera omjere omjerom omjeru
+42	8942	inat	inata
+43	8943	struna	strune struni strunu
+44	8944	batak	bataci batacima bataka batake
+45	8945	jazavac	jazavaca jazavca jazavci
+46	8946	sušilica	sušilice sušilici sušilicu
+47	8947	trbušni	trbušna trbušne trbušnih trbušnim trbušnoj trbušnu
+48	8948	najednom	
+49	8949	dvadesetak	
+50	8950	izumitelj	izumitelja izumitelji izumitelju
+51	8951	kondukter	konduktera kondukteru
+52	8952	poveznica	poveznice poveznicu
+53	8953	oduševljenje	oduševljenja oduševljenjem oduševljenju
+54	8954	zastavnik	zastavnika zastavniče
+55	8955	mormon	mormona mormone mormoni mormonima
+56	8956	kapica	kapicama kapice kapicom kapicu
+57	8957	pesticid	pesticida pesticide pesticidi pesticidima
+58	8958	jajnik	jajnici jajnicima jajnika jajnike jajniku
+59	8959	svjetlucati	svetluca svetlucaj svetlucaju svetlucanje svjetluca svjetlucaju svjetlucanje
+60	8960	điha	đi
+61	8961	drastično	
+62	8962	ekspres	
+63	8963	prisluškivač	prisluškivača prisluškivače prisluškivači
+64	8964	kameleon	kameleona kameleone kameleoni
+65	8965	antilopa	antilope
+66	8966	stabljika	stabljici stabljikama stabljike stabljiku
+67	8967	škrt	škrta škrti škrto
+68	8968	dezertirati	dezertira dezertiraju dezertirala dezertirali dezertiralo dezertiranje dezertirao
+69	8969	nadvladati	nadvlada nadvladaju nadvladala nadvladali nadvladao
+70	8970	baratati	barata barataju baratam barataš
+71	8971	krntija	krntije krntiji krntijom krntiju
+72	8972	mucati	muca mucala mucam mucao mucaš
+73	8973	miriti	mire mirenje miri mirili mirimo mirite miriš
+74	8974	šakal	šakala šakale šakali
+75	8975	egzekucija	egzekucije egzekuciji egzekuciju
+76	8976	partijski	partijska partijske partijskih partijskim partijskog partijskom
+77	8977	natjecatelj	natjecatelja natjecatelje natjecatelji natjecateljica natjecateljski
+78	8978	obrat	obrata obrate obrati obratom
+79	8979	sjati	sja sjaju sjale sjalo
+80	8980	stijeg	steg stega stegu steže stijega
+81	8981	shvaćati	
+82	8982	beskonačno	
+83	8983	mustra	mustre mustru
+84	8984	životopis	životopisa životopisu
+85	8985	žbun	žbuna žbunom žbunu
+86	8986	traumatičan	traumatična traumatične traumatično traumatičnog traumatičnu
+87	8987	globus	globusa globuse globusu
+88	8988	utvara	utvarama utvare utvaru
+89	8989	kompenzacija	kompenzacije kompenzaciju
+90	8990	zidar	zidara zidare zidari
+91	8991	suvišan	suvišna suvišne suvišni suvišnih suvišnim suvišnog
+92	8992	odlomak	odlomaka odlomka odlomke odlomku
+93	8993	cijelost	celosti cijelosti
+94	8994	srednjoškolac	srednjoškolca srednjoškolce srednjoškolci srednjoškolcima
+95	8995	poreznik	poreznici poreznika poreznike porezniče
+96	8996	opatija	opatije opatiji opatiju
+97	8997	nagrađivati	nagrađivan nagrađivana nagrađivani nagrađivanje nagrađuje nagrađujem nagrađujemo nagrađuju
+98	8998	čačkati	čačka čačkaj čačkaju čačkam čačkamo čačkanje čačkate čačkaš
+99	8999	pronevjera	pronevera pronevere proneveru pronevjere pronevjeru
+100	9000	proglas	proglasa proglase proglasi proglasu

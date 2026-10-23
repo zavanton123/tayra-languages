@@ -1,0 +1,100 @@
+1	3901	prikriti	prikrije prikrijem prikrijemo prikrijete prikriješ prikriju prikrila prikrili prikrilo prikrio prikriven prikrivena prikrivene prikriveni prikriveno
+2	3902	krajnje	
+3	3903	emotivan	emotivna emotivne emotivni emotivnih emotivnim emotivno emotivnog emotivnom emotivnu
+4	3904	kukuruz	kukuruza kukuruzom kukuruzu
+5	3905	prestraviti	prestravi prestravila prestravili prestravilo prestravio prestravljen prestravljena prestravljene prestravljeni prestravljeno
+6	3906	bubanj	bubnja bubnjem bubnjeva bubnjeve bubnjevi bubnjevima bubnju
+7	3907	umoriti	umore umoren umori umorila umorile umorili umorilo umorim umorio umorite umoriš
+8	3908	romantično	
+9	3909	povezanost	povezanosti
+10	3910	impresionirati	impresionira impresioniraj impresioniraju impresionirala impresionirale impresionirali impresioniralo impresioniram impresioniramo impresionirao impresionirate impresioniraš
+11	3911	napitak	napici napicima napitaka napitci napitcima napitka napitke napitkom napitku
+12	3912	odlučan	odlučna odlučne odlučni odlučnih odlučnija odlučnije odlučniji odlučnim odlučno odlučnog odlučnu
+13	3913	ucjena	ucena ucenama ucene uceni ucenom ucenu ucjenama ucjene ucjeni ucjenom ucjenu
+14	3914	vjeriti	vere veren verena vereni veri verila verili verim verio veriti vjere vjeren vjerena vjereni vjeri vjerila vjerili vjerio
+15	3915	ugristi	ugrize ugrizem ugrizen ugrizena ugrizeš ugrizi ugrizla ugrizli ugrizlo ugrizu
+16	3916	tvrđava	tvrđave tvrđavi tvrđavom tvrđavu
+17	3917	zbuniti	zbune zbuni zbunila zbunili zbunilo zbunim zbunimo zbunio zbunite zbuniš
+18	3918	bolan	bolna bolne bolni bolnih bolnije bolniji bolnim bolnog bolnoj bolnom bolnu najbolnije najbolniji
+19	3919	inženjer	inženjera inženjere inženjeri inženjerima inženjerom inženjeru
+20	3920	duž	duži
+21	3921	nevaljao	nevaljala nevaljale nevaljali nevaljalih nevaljalim nevaljalo nevaljalog nevaljalom nevaljalu
+22	3922	pridržati	pridržao pridržaću pridrži pridržim pridržite pridržiš
+23	3923	razotkriti	razotkrije razotkrijem razotkrijemo razotkrijete razotkriješ razotkrijte razotkriju razotkrila razotkrili razotkrilo razotkrio razotkrit razotkriven razotkrivena razotkrivene razotkriveni razotkriveno
+24	3924	složen	najsloženija složena složene složeni složenih složenija složenije složeniji složenim složeno složenog složenom složenu
+25	3925	delta	delte delti deltom deltu
+26	3926	nježno	nežno
+27	3927	rika	rici rike riki riko rikom riku
+28	3928	arhiv	arhiva arhive arhivi arhivima arhivom arhivu
+29	3929	povrće	povrća povrćem povrću
+30	3930	krivac	krivaca krivca krivce krivcem krivci krivcu
+31	3931	sijed	sed seda sede sedi sedih sedim sedom sedu sijeda sijede sijedi sijedih sijedom sijedu
+32	3932	pingvin	pingvina pingvine pingvini pingvinima pingvinom pingvinu
+33	3933	prima	
+34	3934	kiseonik	kiseonika kiseonikom
+35	3935	legalno	
+36	3936	lola	lole loli lolo lolom lolu
+37	3937	daljinski	daljinska daljinske daljinskih daljinskim daljinsko daljinskog daljinskom daljinsku
+38	3938	narkotik	narkotici narkoticima narkotika narkotike
+39	3939	civilni	civilna civilne civilnih civilnim civilno civilnog civilnoj civilnom civilnu
+40	3940	utopiti	utope utopi utopila utopili utopilo utopim utopimo utopio utopite utopiš utopljen utopljena utopljene utopljeni
+41	3941	narednica	narednice narednici narednicom narednicu
+42	3942	marihuana	marihuane marihuani marihuanom marihuanu
+43	3943	hemija	hemije hemiji hemijom hemiju kemija kemije kemiji kemijom kemiju
+44	3944	onoliko	
+45	3945	namamiti	namame namami namamila namamili namamim namamimo namamio namamite namamićemo namamiš namamljen namamljeni
+46	3946	sramiti	srame srami sramila sramim sramimo sramio sramite sramiš
+47	3947	aukcija	aukcijama aukcije aukciji aukcijom aukciju
+48	3948	astronaut	astronauta astronaute astronauti astronautima astronautu
+49	3949	ulazni	ulazna ulazne ulaznih ulaznim ulazno ulaznoj ulaznom ulaznu
+50	3950	bivati	biva bivaju bivala bivali bivalo bivam bivamo bivao bivaš
+51	3951	grejati	grej grejala grejanje grejao greje grejem grejemo grejete greješ greju
+52	3952	poništiti	ponište poništen poništena poništene poništeni poništeno poništi poništila poništili poništilo poništim poništimo poništio poništite poništiću poništiš
+53	3953	kontinent	kontinenata kontinenta kontinente kontinenti kontinentima kontinentom kontinentu
+54	3954	kreativan	kreativna kreativne kreativni kreativnih kreativnije kreativniji kreativnim kreativno kreativnog kreativnoj kreativnom kreativnu
+55	3955	dionica	dionicama dionice dionici dionicu
+56	3956	bezvrijedan	bezvredan bezvredna bezvredne bezvredni bezvrednih bezvrednim bezvredno bezvrednog bezvrednoj bezvrednom bezvrednu bezvrijedna bezvrijedne bezvrijedni bezvrijednih bezvrijednim bezvrijedno bezvrijednog bezvrijednom bezvrijednu
+57	3957	blijed	bled bleda blede bledi bledim bledo bledu blijeda blijede blijedi blijedim blijedo blijedog blijedom blijedu bljeđi
+58	3958	okidač	okidača okidače okidačem okidači okidaču
+59	3959	saobraćaj	saobraćaja saobraćajem saobraćaju
+60	3960	brus	brusa brusom brusu
+61	3961	primjećivati	primećivala primećivao primećuje primećujem primećujemo primećujete primećuješ primećuju primjećivala primjećivali primjećivao primjećuje primjećujem primjećujemo primjećujete primjećuješ primjećuju
+62	3962	maramica	maramicama maramice maramici maramicom maramicu
+63	3963	potres	potresa potrese potresi potresima potresom potresu
+64	3964	nastradati	nastrada nastradaju nastradala nastradale nastradali nastradalo nastradam nastradamo nastradao nastradate nastradaćeš nastradaš
+65	3965	dovde	
+66	3966	fizika	fizici fizike fizikom fiziku
+67	3967	jama	jamama jame jami jamice jamo jamu
+68	3968	bitanga	bitangama bitange bitangi bitango bitangom bitangu
+69	3969	kabel	kabela kabeli kabla kable kablom kablova kablove kablovi kablovima kablu
+70	3970	vojvoda	vojvode vojvodi vojvodo vojvodom vojvodu
+71	3971	rezervoar	rezervoara rezervoare rezervoari rezervoarima rezervoarom rezervoaru
+72	3972	ја	
+73	3973	sultan	sultana sultane sultani sultanom sultanu
+74	3974	trezor	trezora trezore trezori trezorima trezorom trezoru
+75	3975	sjedinjen	sjedinjenih
+76	3976	izraditi	izrade izradi izradila izradili izradim izradimo izradio izradite izradiš izrađen izrađena izrađene izrađeni izrađeno
+77	3977	doživotan	doživotna doživotne doživotni doživotnih doživotnim doživotnog doživotnoj doživotnom doživotnu
+78	3978	štapić	štapića štapiće štapićem štapići štapićima štapiću
+79	3979	kora	kore kori korom koru
+80	3980	turnir	turnira turnire turnirima turniru
+81	3981	opisivati	opisivala opisivali opisivanje opisivao opisuje opisujem opisujete opisuješ opisuju opisujući
+82	3982	suprotstaviti	suprotstave suprotstavi suprotstavila suprotstavile suprotstavili suprotstavim suprotstavimo suprotstavio suprotstavite suprotstaviš suprotstavljena suprotstavljene suprotstavljeni
+83	3983	zanimanje	zanimanja zanimanjem zanimanjima zanimanju
+84	3984	insekt	insekata insekta insekte insekti insektima insektu
+85	3985	roj	roja roje rojem rojeva rojeve rojevi rojevima roju
+86	3986	jeftino	
+87	3987	taktika	taktici taktikama taktike taktikom taktiku
+88	3988	protiviti	protive protivi protivila protivili protivim protivimo protivio protivite protiviš protivljenje
+89	3989	zaposlenik	zaposlenici zaposlenicima zaposlenika zaposlenike zaposlenikom zaposleniku
+90	3990	palačinka	palačinkama palačinke palačinki palačinko palačinku
+91	3991	zet	zeta zete zeti zetom zetovi zetu
+92	3992	najprije	
+93	3993	mrav	mrava mrave mravi mravima mravu
+94	3994	predaja	predajama predaje predaji predajom predaju
+95	3995	tragač	tragača tragače tragačem tragači tragačima tragaču
+96	3996	autopsija	autopsije autopsiji autopsijom autopsiju
+97	3997	potopiti	potope potopi potopila potopile potopili potopilo potopim potopimo potopio potopite potopiš potopljen potopljena potopljene potopljeni potopljeno
+98	3998	grliti	grle grleći grli grlila grlili grlim grlimo grlio grlite grliš grljenje
+99	3999	desetina	desetinama desetine desetini desetinu
+100	4000	kategorija	kategorijama kategorije kategoriji kategorijom kategoriju

@@ -1,0 +1,100 @@
+1	6501	zaostajati	zaostajao zaostaje zaostajem zaostajemo zaostajete zaostaješ zaostaju
+2	6502	uručiti	uruče uručen uručena uručeno uruči uručila uručili uručim uručimo uručio uručite uručiš
+3	6503	izjasniti	izjasne izjasni izjasnila izjasnili izjasnim izjasnimo izjasnio izjasnite izjasniš
+4	6504	nevjernik	nevernici nevernicima nevernik nevernika nevernike nevjernici nevjernicima nevjernika nevjernike nevjerniče
+5	6505	где	
+6	6506	katedrala	katedrale katedrali katedralu
+7	6507	povod	povoda povodu
+8	6508	brašno	brašna brašnom
+9	6509	svečan	svečana svečane svečani svečanije svečanim svečanog svečanoj svečanom svečanu
+10	6510	kuna	kn kune kuni kuno kunu
+11	6511	tonuti	tone tonem tonemo tonete toneš toni tonu tonula tonuli tonuo
+12	6512	dobitnik	dobitnici dobitnika dobitnike
+13	6513	још	
+14	6514	naj	
+15	6515	obezbjeđenje	
+16	6516	šeri	
+17	6517	arhitekta	
+18	6518	usrano	
+19	6519	starački	staračke staračkim staračkog staračkom
+20	6520	svanuti	svane svani svanulo svanuo svanuća svanuće
+21	6521	suspenzija	suspenzije suspenziji suspenzijom suspenziju
+22	6522	blagajna	blagajne blagajni blagajnu
+23	6523	sažaljevati	sažaljeva sažaljevaj sažaljevaju sažaljevala sažaljevali sažaljevam sažaljevanje sažaljevao sažaljevate sažaljevaš
+24	6524	dojka	dojci dojke dojki dojkom dojku
+25	6525	streljivo	streljiva streljivom
+26	6526	sisar	sisara sisare sisari sisarima
+27	6527	brižan	brižna brižne brižni brižnih brižnim brižno brižnog brižnu
+28	6528	luksuz	
+29	6529	neženja	neženjama neženje neženju
+30	6530	vojvotkinja	vojvotkinje vojvotkinji vojvotkinjo vojvotkinjom vojvotkinju
+31	6531	milijarder	milijardera milijardere milijarderi milijarderom milijarderu
+32	6532	uzdravlje	
+33	6533	zjenica	zenica zenice zenicu zjenicama zjenice zjenicu
+34	6534	fleka	flek flekama fleke fleku
+35	6535	zaviriti	zaviri zavirila zavirili zavirim zavirimo zavirio zavirite zaviriš
+36	6536	sprovoditi	sprovode sprovodi sprovodila sprovodili sprovodim sprovodimo sprovodio sprovodite sprovodiš sprovođenje sprovođenju
+37	6537	šivati	šiva šivaj šivala šivam šivan šivanje šivaću
+38	6538	lenj	lenja lenje lenji lenjih lenjim
+39	6539	požuda	požude požudi požudom požudu
+40	6540	potrčati	potrčala potrčali potrčao potrči potrčim potrčimo potrčite potrčiš
+41	6541	kos	kose kosi kosim koso kosom kosova kosu
+42	6542	neuobičajeno	
+43	6543	fetus	fetusa fetuse fetusi fetusu
+44	6544	hud	huda hude hudi hudom hudu
+45	6545	region	regiona regione regioni regionima regionu
+46	6546	uvrijeđen	uvređen uvređena uvređeni uvrijeđena uvrijeđeni
+47	6547	pušač	pušača pušače pušači pušačica pušačice pušačima pušaču
+48	6548	нем	нема немој
+49	6549	caka	cake caki caku
+50	6550	vrtlog	vrtloga vrtloge vrtlogu vrtlozi
+51	6551	vuna	vune vuni vunom vunu
+52	6552	prodrijeti	prodre prodrem prodremo prodreti prodreš prodrla prodrle prodrli prodrlo prodro prodru
+53	6553	snob	snoba snobe snobom snobova snobove snobovi snobovima
+54	6554	pospremiti	pospreme pospremi pospremim pospremimo pospremite pospremiš
+55	6555	uputa	uputama upute uputi uputu
+56	6556	milostinja	milostinje milostinji milostinju
+57	6557	himna	himne himni himnom himnu
+58	6558	plodan	najplodnijih plodna plodne plodni plodnih plodnim plodnog plodnoj plodnom plodnu
+59	6559	šnicl	šnicla šnicle šnicli šniclom šniclu
+60	6560	čeznuti	čezne čeznem čeznemo čeznete čezneš čeznu čeznula čeznuli čeznuo
+61	6561	mol	mola mole molom molu
+62	6562	koska	kosci koske koskom kosku
+63	6563	deonica	deonicama deonice deonici deonicu
+64	6564	južan	južnu
+65	6565	medo	
+66	6566	minđuša	minđušama minđuše minđušom minđušu
+67	6567	mještanin	meštana meštane meštani meštanima mještana mještane mještani mještanima mještanina mještanka
+68	6568	obilježiti	obilježen obilježena obilježene obilježeni obilježeno obilježi obilježila obilježili obilježimo obilježio obilježite
+69	6569	počivati	počiva
+70	6570	umisliti	umisle umisli umislila umislili umislio
+71	6571	imbecil	imbecila imbecile imbecili imbecilu
+72	6572	biljni	biljna biljne biljnih biljnim biljno biljnog biljnom
+73	6573	prijestup	prestup prestupa prestupe prestupi prestupu prijestupa prijestupe prijestupi
+74	6574	glazben	glazbena glazbene glazbeni glazbenih glazbenim glazbeno glazbenog glazbenoj glazbenom glazbenu
+75	6575	licemjer	licemer licemera licemere licemeri licemeru licemjera licemjeri licemjerka licemjeru
+76	6576	ludovati	ludovala ludovali ludovanje ludovao luduj luduje ludujem ludujemo luduješ ludujmo ludujte luduju
+77	6577	potajan	potajni potajno
+78	6578	zaruke	zaruka zarukama
+79	6579	jamčevina	jamčevine jamčevini jamčevinom jamčevinu
+80	6580	prdež	prdeža prdeže prdeži prdežu
+81	6581	državljanin	državljana državljane državljani državljanima državljanina državljanka
+82	6582	mjenjač	menjač menjača menjače menjačem menjači menjačima mjenjača mjenjačem
+83	6583	branilac	branilaca branioca branioce braniocem branioci braniocu branioče
+84	6584	nepouzdan	nepouzdana nepouzdane nepouzdani nepouzdanim nepouzdano nepouzdanog
+85	6585	šampon	šampona šampone šamponom šamponu
+86	6586	zamrzivač	zamrzivača zamrzivaču
+87	6587	amnezija	amnezije amnezijom amneziju
+88	6588	rerna	rerne rerni rernom rernu
+89	6589	samostalan	samostalna samostalne samostalni samostalnih samostalnog samostalnom samostalnu
+90	6590	izoliran	izolirana izolirane izolirani izoliranim izolirano izoliranoj izoliranom
+91	6591	razoriti	razore razoren razorena razorene razoreni razoreno razori razorila razorili razorilo razorio
+92	6592	masturbirati	masturbira masturbiraju masturbirala masturbiram masturbiranje masturbirao masturbirate masturbiraš
+93	6593	pult	pulta pultom pultu
+94	6594	sauna	saune sauni saunu
+95	6595	utješiti	uteši utešim utešio utešite utešiti utešiš utješi utješim utješio utješite utješiš
+96	6596	oponašati	oponaša oponašaj oponašaju oponašajući oponašam oponašani oponašanje oponašao oponašaš
+97	6597	spoznati	spozna spoznaj spoznaju spoznala spoznali spoznam spoznao spoznat spoznate spoznaš
+98	6598	tjestenina	testenina testenine testeninu tjestenine tjesteninom tjesteninu
+99	6599	čir	čira čireva čireve čirevi čirevima čirom čiru
+100	6600	štand	štanda štandom štandova štandove štandu

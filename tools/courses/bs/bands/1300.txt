@@ -1,0 +1,100 @@
+1	1201	poštovati	poštovala poštovale poštovali poštovao poštovaćemo poštovaćeš poštovaću poštuj poštuje poštujem poštujemo poštujete poštuješ poštujmo poštujte poštuju poštujući
+2	1202	stavljati	stavlja stavljaj stavljajte stavljaju stavljajući stavljala stavljale stavljali stavljam stavljamo stavljanje stavljao stavljate stavljaš
+3	1203	vuk	vuci vuka vukom vukova vukove vukovi vukovima vuku vuče
+4	1204	radnik	radnica radnicama radnice radnici radnicima radnicom radnicu radnika radnike radnikom radniku radniče
+5	1205	užasan	najužasnija najužasnije najužasniji najužasnijih užasna užasne užasni užasnih užasnije užasnim užasnog užasnoj užasnom užasnu
+6	1206	koštati	košta koštaju koštala koštale koštali koštalo koštam koštao koštaće koštaš
+7	1207	lično	
+8	1208	sigurnost	sigurnosti sigurnošću
+9	1209	rođak	rođaci rođacima rođaka rođake rođakom rođaku rođače
+10	1210	de	
+11	1211	svjetski	svetska svetske svetski svetskih svetskim svetsko svetskog svetskoj svetskom svetsku svjetska svjetske svjetskih svjetskim svjetsko svjetskog svjetskoga svjetskoj svjetskom svjetsku
+12	1212	pomalo	
+13	1213	princeza	princezama princeze princezi princezo princezom princezu
+14	1214	smiješan	najsmešnija najsmešnije najsmešniji najsmješnija najsmješnije najsmješniji smešan smešna smešne smešni smešnih smešnija smešnije smešniji smešnim smešnog smešnoj smešnom smešnu smiješna smiješne smiješni smiješnih smiješnim smiješnog smiješnoj smiješnom smiješnu smješnija smješnije smješniji
+15	1215	oblik	oblici oblicima oblika oblike oblikom obliku
+16	1216	prevariti	prevare prevaren prevarena prevarene prevareni prevareno prevari prevarila prevarile prevarili prevarilo prevarim prevarimo prevario prevarite prevariće prevariš
+17	1217	dići	digao digla digle digli diglo digne dignem dignemo dignete digneš digni dignimo dignite dignu dignula dignuli dignuo dignut dignuta dignute dignuti dignuto diže
+18	1218	muški	muška muške muških muškim muškima muško muškog muškoga muškoj muškom mušku
+19	1219	dopadati	dopada dopadaju dopadala dopadale dopadali dopadalo dopadam dopadamo dopadao dopadate dopadaš
+20	1220	poštovanje	poštovanja poštovanjem poštovanju
+21	1221	dokument	dokumenata dokumenta dokumente dokumenti dokumentima dokumentom dokumentu
+22	1222	prepoznati	prepozna prepoznaj prepoznajte prepoznaju prepoznala prepoznale prepoznali prepoznalo prepoznam prepoznamo prepoznao prepoznat prepoznata prepoznate prepoznato prepoznaš
+23	1223	desni	desna desne desnih desnim desnima desnog desnoj desnom desnu
+24	1224	oprema	opreme opremi opremom opremu
+25	1225	leći	legao legle legli legne legnem legnemo legnete legneš legni legnite legnu legu lez lezi lezimo lezite leže ležem ležeš
+26	1226	spomenuti	spomene spomenem spomenemo spomenete spomeneš spomeni spomenite spomenu spomenuh spomenula spomenule spomenuli spomenulo spomenuo spomenut spomenuta spomenute spomenuto spomenuću
+27	1227	oduvijek	oduvek
+28	1228	priroda	prirode prirodi prirodo prirodom prirodu
+29	1229	pica	picama pice pici pico picom picu
+30	1230	teorija	teorijama teorije teoriji teorijom teoriju
+31	1231	odraditi	odrade odradi odradila odradile odradili odradilo odradim odradimo odradio odradite odradićemo odradiću odradiš odrađen odrađena odrađeni odrađeno
+32	1232	noćni	noćna noćne noćnih noćnim noćno noćnog noćnoj noćnom noćnu
+33	1233	princ	princa princem princu prinče prinčeva prinčeve prinčevi prinčevima
+34	1234	ležati	ležala ležale ležali ležalo ležanje ležao ležaćeš leže ležeći leži ležim ležimo ležite ležiš
+35	1235	položaj	položaja položaje položajem položaji položajima položaju
+36	1236	kava	kave kavi kavom kavu
+37	1237	detalj	detalja detalje detaljem detalji detaljima detalju
+38	1238	juče	
+39	1239	namjeravati	namerava nameravaju nameravala nameravali nameravam nameravamo nameravao nameravate nameravaš namjerava namjeravaju namjeravajući namjeravala namjeravali namjeravam namjeravamo namjeravao namjeravate namjeravaš
+40	1240	vjetar	vetar vetra vetre vetrom vetrova vetrove vetrovi vetrovima vetru vjetra vjetre vjetrom vjetrova vjetrove vjetrovi vjetrovima vjetru
+41	1241	raj	raja raje rajem raji rajom raju
+42	1242	radni	radna radne radnih radnim radno radnog radnoga radnoj radnom radnome radnu
+43	1243	upozoriti	upozore upozoren upozorena upozorene upozoreni upozori upozorila upozorile upozorili upozorilo upozorim upozorimo upozorio upozorite upozoriću upozoriš
+44	1244	spriječiti	spreče sprečen sprečena spreči sprečila sprečile sprečili sprečilo sprečim sprečimo sprečio sprečite sprečiti sprečiću sprečiš spriječe spriječen spriječena spriječeni spriječeno spriječi spriječila spriječile spriječili spriječilo spriječim spriječimo spriječio spriječite spriječiš
+45	1245	važiti	važe važeći važi važila važilo važim važio
+46	1246	karijera	karijerama karijere karijeri karijerom karijeru
+47	1247	pamet	pameti pameću
+48	1248	ostrvo	ostrva ostrvima ostrvom ostrvu
+49	1249	novinar	novinara novinare novinarem novinari novinarima novinarka novinarke novinarki novinarkom novinarku novinarom novinaru
+50	1250	ispuniti	ispune ispuni ispunila ispunile ispunili ispunilo ispunim ispunimo ispunio ispunite ispuniće ispunićemo ispuniću ispuniš ispuniše ispunjen ispunjena ispunjene ispunjeni ispunjenja ispunjenje ispunjenju ispunjeno
+51	1251	hladno	
+52	1252	područje	područja područjem područjima području
+53	1253	gubitak	gubici gubicima gubitaka gubitka gubitke gubitkom gubitku
+54	1254	otkad	откад
+55	1255	go	gola gole goli golih golim golo golog gologa goloj golom golu
+56	1256	voz	voza vozom vozova vozove vozovi vozovima vozu
+57	1257	lijevo	levo
+58	1258	napuniti	napune napuni napunila napunile napunili napunilo napunim napunimo napunio napunite napuniće napunićemo napuniću napuniš napunjen napunjena napunjene napunjeni napunjeno
+59	1259	opasno	
+60	1260	sem	
+61	1261	petak	peci petaka petka petkom petku
+62	1262	zelen	zelene zeleni zelenih zelenim zelenima zeleno zelenog zelenoj zelenom zelenu
+63	1263	izdržati	izdržala izdržale izdržali izdržalo izdržao izdržaće izdržaćemo izdržaćeš izdržaću izdrže izdrži izdržim izdržimo izdržite izdržiš
+64	1264	vožnja	vožnjama vožnje vožnji vožnjom vožnju
+65	1265	upasti	upade upadne upadnem upadnemo upadnete upadneš upadni upadnite upadnu upale upali upalo upao upašće upašćemo upašćeš upašću
+66	1266	otkud	
+67	1267	sakriti	skrij skrije skrijem skrijemo skrijte skriju skrili skriven skrivena skrivene skriveni skrivenih skrivenim skriveno skrivenog skrivenoj skrivenom skrivenu
+68	1268	započeti	započela započele započeli započelo započeo započet započeta započeto započne započnem započnemo započnete započneš započni započnimo započnite započnu
+69	1269	fakultet	faks faksa faksom faksova faksove faksovi faksu fakulteta fakultete fakulteti fakultetima fakultetom fakultetu
+70	1270	lokalan	lokalna lokalne lokalni lokalnih lokalnim lokalno lokalnog lokalnoj lokalnom lokalnu
+71	1271	vrat	vrate vratom vratova vratove vratovi vratovima vratu
+72	1272	ben	
+73	1273	onako	
+74	1274	vještica	veštica vešticama veštice veštici vešticom vešticu vješticama vještice vještici vješticom vješticu
+75	1275	mašina	mašinama mašine mašini mašino mašinom mašinu
+76	1276	očito	
+77	1277	objaviti	objave objavi objavila objavile objavili objavilo objavim objavimo objavio objavite objaviće objavićemo objaviću objaviš objavljen objavljena objavljene objavljeni objavljeno
+78	1278	optužiti	optuže optužen optužena optužene optuženi optuženo optuži optužila optužile optužili optužilo optužim optužimo optužio optužite optužiće optužićemo optužiću optužiš
+79	1279	propast	propade propadne propadnem propadnemo propadnete propadneš propadnu propala propale propali propalo propao propasti propašće propašćeš propašću
+80	1280	potraga	potrage potragom potragu potrazi
+81	1281	krov	krova krovom krovova krovove krovovi krovovima krovu
+82	1282	svejedno	
+83	1283	obavijestiti	obaveste obavesti obavestila obavestili obavestim obavestimo obavestio obavestite obavestiti obavestiće obavestićemo obavestiću obavestiš obavešten obaveštena obavešteni obaveštenje obavijeste obavijesti obavijestila obavijestili obavijestim obavijestimo obavijestio obavijestite obavijestićemo obavijestiću obavijestiš obaviješten obaviještena obaviještene obaviješteni obaviješteno obavještenje
+84	1284	sala	salama salame salami salamom salamu sale sali salima salo salom salu
+85	1285	ugasiti	ugase ugasi ugasila ugasile ugasili ugasilo ugasim ugasimo ugasio ugasite ugasiće ugasićemo ugasiću ugasiš ugašen ugašena ugašene ugašeni ugašeno
+86	1286	tišina	tišine tišini tišinom tišinu
+87	1287	ponavljati	ponavlja ponavljaj ponavljajte ponavljaju ponavljajući ponavljala ponavljali ponavljalo ponavljam ponavljamo ponavljanje ponavljao ponavljate ponavljaću ponavljaš
+88	1288	sef	sefa sefe sefom sefova sefove sefovi sefovima sefu
+89	1289	pol	pole polom polova polove polovi polovima polu
+90	1290	zabaviti	zabave zabavi zabavila zabavile zabavili zabavilo zabavim zabavimo zabavio zabavite zabavićemo zabaviću zabaviš zabavljeni
+91	1291	slikati	slikaj slikajmo slikajte slikaju slikajući slikala slikale slikali slikam slikamo slikan slikana slikane slikanja slikanje slikanjem slikanju slikano slikao slikate slikaće slikaćemo slikaću slikaš
+92	1292	poslušati	posluša poslušaj poslušajmo poslušajte poslušaju poslušala poslušali poslušam poslušamo poslušao poslušate poslušaće poslušaćeš poslušaću poslušaš
+93	1293	ej	
+94	1294	osnova	osnovama osnove osnovi osnovom osnovu
+95	1295	pažljivo	
+96	1296	osvojiti	osvoje osvojen osvojena osvojene osvojeni osvojeno osvoji osvojila osvojile osvojili osvojilo osvojim osvojimo osvojio osvojite osvojivši osvojiće osvojićemo osvojićeš osvojiću osvojiš
+97	1297	automobil	automobila automobile automobili automobilima automobilom automobilu
+98	1298	pri	
+99	1299	odvjetnik	odvjetnica odvjetnice odvjetnici odvjetnicima odvjetnicom odvjetnicu odvjetnika odvjetnike odvjetnikom odvjetniku odvjetniče
+100	1300	birati	bira biraj birajte biraju birajući birala birali biram biramo birane birani biranje birao birate biraš

@@ -1,0 +1,100 @@
+1	2701	čarapa	čarapama čarape čarapi čarapom čarapu
+2	2702	misterij	misterija misterije misteriji misteriju
+3	2703	pjena	pena pene peni penom penu pjene pjeni pjenom pjenu
+4	2704	plemenit	najplemenitija najplemenitije najplemenitijeg najplemenitiji najplemenitijih plemenita plemenite plemeniti plemenitih plemenitije plemenitiji plemenitim plemenito plemenitog plemenitoj plemenitom plemenitu
+5	2705	stidjeti	stide stidela stideo stideti stidi stidim stidimo stidio stidite stidiš stidjela
+6	2706	april	aprila aprile aprilu
+7	2707	flaša	flašama flaše flaši flašom flašu
+8	2708	pratnja	pratnje pratnji pratnjom pratnju
+9	2709	doza	dozama doze dozi dozom dozu
+10	2710	prijateljski	prijateljska prijateljske prijateljskih prijateljskim prijateljsko prijateljskog prijateljskoj prijateljskom prijateljsku
+11	2711	djevica	devica devicama device devici devicom devicu djevicama djevice djevici djevicom djevicu
+12	2712	talenat	talenata talenta talente talenti talentima talentom talentu
+13	2713	kanta	kantama kante kanti kanto kantom kantu
+14	2714	bezbjednost	bezbednost bezbednosti
+15	2715	upozoravati	upozorava upozoravaju upozoravajući upozoravala upozoravali upozoravam upozoravamo upozoravanje upozoravao upozoravate upozoravaš
+16	2716	neprijateljski	neprijateljska neprijateljske neprijateljskih neprijateljskim neprijateljsko neprijateljskog neprijateljskoj neprijateljskom neprijateljsku
+17	2717	popuniti	popune popuni popunila popunili popunim popunimo popunio popunite popuniću popuniš popunjen popunjena popunjene popunjeni popunjeno
+18	2718	kriminal	kriminala kriminalom kriminalu
+19	2719	nevjerojatan	najnevjerojatnija najnevjerojatnije najnevjerojatniji najnevjerojatnijih nevjerojatna nevjerojatne nevjerojatni nevjerojatnih nevjerojatnim nevjerojatnog nevjerojatnoj nevjerojatnom nevjerojatnu
+20	2720	vatren	vatrena vatrene vatreni vatrenih vatrenim vatreno vatrenog vatrenoj vatrenom vatrenu
+21	2721	nestanak	nestanaka nestanci nestancima nestanka nestanke nestankom nestanku
+22	2722	bubreg	bubrega bubrege bubregom bubregu bubrezi bubrezima
+23	2723	opis	opisa opise opisi opisima opisom opisu
+24	2724	forma	formama forme formi formom formu
+25	2725	sportski	sportska sportske sportskih sportskim sportsko sportskog sportskoj sportskom sportsku
+26	2726	promatrati	promatra promatraj promatrajte promatraju promatrajući promatrala promatrali promatram promatramo promatranja promatranje promatrao promatrate promatraš
+27	2727	protokol	protokola protokole protokoli protokolima protokolom protokolu
+28	2728	tragedija	tragedijama tragedije tragediji tragedijom tragediju
+29	2729	kombinacija	kombinacijama kombinacije kombinaciji kombinacijom kombinaciju
+30	2730	savjest	savest savesti savešću savjesti savješću
+31	2731	sastaviti	sastave sastavi sastavila sastavili sastavim sastavimo sastavio sastavite sastavićemo sastaviću sastaviš sastavljen sastavljena sastavljene sastavljeni sastavljeno
+32	2732	bik	bika bikom bikova bikove bikovi bikovima biku biče
+33	2733	učestvovati	učestvovala učestvovale učestvovali učestvovalo učestvovanje učestvovao učestvovaće učestvovaću učestvuj učestvuje učestvujem učestvujemo učestvujete učestvuješ učestvuju
+34	2734	hapsiti	hapse hapseći hapsi hapsila hapsili hapsim hapsimo hapsio hapsite hapsiš hapšen hapšena hapšeni hapšenje
+35	2735	tajan	tajne tajni tajnih tajnim tajnog tajnoj tajnom tajnome tajnu
+36	2736	skok	skoka skokom skokova skokove skokovi skokovima skoku
+37	2737	porasti	porasla porasle porasli poraslo porastao poraste porastem porastemo porastete porasteš porastu porašće
+38	2738	bejzbol	bejzbola bejzbolom bejzbolu
+39	2739	groblje	groblja grobljem grobljima groblju
+40	2740	razuman	najrazumnija najrazumniji razumna razumne razumni razumnih razumnija razumnije razumniji razumnim razumnog razumnoj razumnom razumnu
+41	2741	pećina	pećinama pećine pećini pećinu
+42	2742	eksploziv	eksploziva eksplozive eksplozivi eksplozivima eksplozivom eksplozivu
+43	2743	komentar	komentara komentare komentari komentarima komentarom komentaru
+44	2744	iznova	
+45	2745	pretjerati	pretera preterala preterali preteram preterao preterate preterati preteraš pretjera pretjerala pretjerale pretjerali pretjeram pretjerao pretjeraš
+46	2746	podizati	podizala podizali podizanje podizao podizaću podiže podižem podižemo podižete podižeš podiži podižite podižu podižući
+47	2747	pleme	plemena plemenima plemenom plemenu
+48	2748	okrutan	najokrutnija najokrutnije najokrutniji okrutna okrutne okrutni okrutnih okrutnije okrutniji okrutnim okrutnima okrutnog okrutnoj okrutnom okrutnu
+49	2749	patrola	patrolama patrole patroli patrolo patrolom patrolu
+50	2750	širiti	šire šireći širi širila širile širili širilo širim širimo širio širite širiš
+51	2751	oznaka	oznaci oznakama oznake oznakom oznaku
+52	2752	rublje	rubalja rublja rubljem rublji rublju
+53	2753	prekid	prekida prekide prekidi prekidima prekidom prekidu
+54	2754	plin	plina plinom plinova plinove plinovi plinovima plinu
+55	2755	motel	motela motele moteli motelima motelom motelu
+56	2756	isprazniti	isprazne isprazni ispraznila ispraznile ispraznili ispraznim ispraznimo ispraznio ispraznite isprazniću isprazniš ispražnjen ispražnjena ispražnjene ispražnjeni ispražnjeno
+57	2757	kila	kile kili kilo kilom kilu
+58	2758	ovca	ovaca ovcama ovce ovci ovco ovcom ovcu
+59	2759	nevidljiv	nevidljiva nevidljive nevidljivi nevidljivih nevidljivim nevidljivima nevidljivo nevidljivog nevidljivoj nevidljivom nevidljivu
+60	2760	pomisao	pomisli
+61	2761	imovina	imovine imovini imovinom imovinu
+62	2762	tenk	tenka tenkom tenkova tenkove tenkovi tenkovima tenku
+63	2763	razvoj	razvoja razvojem razvoju
+64	2764	sanduk	sanduci sanducima sanduka sanduke sandukom sanduku sanduče
+65	2765	neobičan	najneobičnija najneobičnije najneobičniji najneobičnijih najneobičnijim neobična neobične neobični neobičnih neobičnije neobičnim neobičnog neobičnoj neobičnom neobičnu
+66	2766	garantovati	garantovala garantovali garantovan garantovana garantovano garantovao garantuje garantujem garantujemo garantujete garantuješ garantuju
+67	2767	stisnuti	stisla stisli stisne stisnem stisnemo stisnete stisneš stisni stisnite stisnu stisnula stisnuli stisnulo stisnuo stisnut stisnuta stisnute stisnuto
+68	2768	povećati	poveća povećaj povećajmo povećajte povećaju povećale povećali povećam povećamo povećan povećana povećane povećani povećano povećao povećate povećaćemo povećaću povećaš
+69	2769	paljba	paljbe paljbi paljbom paljbu
+70	2770	međunarodni	međunarodna međunarodne međunarodnih međunarodnim međunarodno međunarodnog međunarodnoj međunarodnom međunarodnu
+71	2771	tresti	tresao trese tresem tresemo tresete treseš tresi tresite tresla tresle tresli treslo tresu tresući
+72	2772	uvjet	uveta uvetom uvetu uvjeta uvjete uvjeti uvjetima uvjetom
+73	2773	savjetovati	savetovala savetovali savetovao savetovati savetuje savetujem savetujemo savetujete savetuješ savetujte savetuju savjetovala savjetovali savjetovao savjetuj savjetuje savjetujem savjetujemo savjetujete savjetuješ savjetujte savjetuju
+74	2774	vlasništvo	vlasništva vlasništvom vlasništvu
+75	2775	gornji	gornja gornje gornjeg gornjem gornjih gornjim gornjoj gornju
+76	2776	srčan	srčana srčane srčani srčanih srčanim srčanog srčanom srčanu
+77	2777	kan	kana kane kani kano kanom kanu kanua kanue kanui kanuima kanuom kanuu
+78	2778	utisak	utisaka utisci utiscima utiska utiske utiskom utisku
+79	2779	udat	udata udate udatim udato udatom udatu
+80	2780	satelit	satelita satelite sateliti satelitima satelitom satelitu
+81	2781	pogađati	pogađa pogađaj pogađajte pogađaju pogađala pogađali pogađam pogađamo pogađanje pogađao pogađate pogađaš
+82	2782	stablo	stabala stabla stablima stablom stablu
+83	2783	unazad	
+84	2784	crijevo	creva crevo crevom crevu crijeva crijevom crijevu
+85	2785	strpljenje	strpljenja strpljenjem strpljenju
+86	2786	izdaja	izdaje izdaji izdajom izdaju
+87	2787	franak	franaka franci francima franka franke frankom franku
+88	2788	rub	ruba rube rubom rubova rubove rubovi rubovima rubu
+89	2789	žalost	žalosti žalošću
+90	2790	odvezati	odvezala odvezali odvezana odvezane odvezao odvezaću odveže odvežem odvežemo odvežete odvežeš odveži odvežite
+91	2791	mornar	mornara mornare mornarem mornari mornarima mornarom mornaru
+92	2792	silovanje	silovanja silovanjem silovanjima silovanju
+93	2793	vitez	viteza vitezi vitezom vitezova vitezove vitezovi vitezovima vitezu viteže
+94	2794	značka	značaka značkama značke znački značko značkom značku
+95	2795	odobrenje	odobrenja odobrenjem odobrenju
+96	2796	ispadati	ispada ispadaj ispadaju ispadali ispadam ispadamo ispadanje ispadao ispadate ispadaš
+97	2797	momenat	
+98	2798	potvrda	potvrde potvrdi potvrdom potvrdu
+99	2799	izvinjenje	izvinjenja izvinjenjem izvinjenjima izvinjenju
+100	2800	tuš	tuša tušem tuševa tuševe tuševi tuševima tušu

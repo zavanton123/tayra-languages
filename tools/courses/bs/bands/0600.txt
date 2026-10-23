@@ -1,0 +1,100 @@
+1	501	proći	prođe prođem prođemo prođete prođeš prođi prođimo prođite prođoše prođu prošao prošavši
+2	502	stan	stana stanom stanova stanove stanovi stanovima stanu
+3	503	čuvati	čuva čuvaj čuvajmo čuvajte čuvaju čuvajući čuvala čuvale čuvali čuvalo čuvam čuvamo čuvan čuvana čuvane čuvani čuvanje čuvano čuvao čuvate čuvaće čuvaćemo čuvaćeš čuvaću čuvaš
+4	504	poznat	najpoznatija najpoznatije najpoznatijeg najpoznatijem najpoznatiji najpoznatijih najpoznatijim najpoznatiju pozna poznajte poznaju poznala poznali poznam poznamo poznao poznata poznate poznati poznatih poznatija poznatije poznatijeg poznatijem poznatiji poznatijih poznatijim poznatiju poznatim poznatima poznato poznatog poznatoga poznatoj poznatom poznatu poznaćete poznaš
+5	505	dvoje	dvojim dvoma
+6	506	nikakav	nikakva nikakve nikakvi nikakvih nikakvim nikakvo nikakvog nikakvoga nikakvoj nikakvom nikakvu
+7	507	jasno	
+8	508	valjda	
+9	509	pojam	pojma pojmom pojmova pojmove pojmovi pojmovima pojmu
+10	510	piti	pij pije pijem pijemo pijenje pijete piješ pijmo pijte piju pijući pio pićemo piću
+11	511	pomisliti	pomisle pomisli pomislih pomislila pomislile pomislili pomislilo pomislim pomislimo pomislio pomislite pomisliće pomislićete pomislićeš pomisliću pomisliš
+12	512	um	uma ume umom umova umove umovi umovima umu
+13	513	obitelj	obitelji obiteljima
+14	514	bježati	bežala bežale bežali bežanje bežao bežati beže bežeći beži bežim bežimo bežite bežiš bježala bježali bježanje bježao bježe bježeći bježi bježim bježimo bježite bježiš
+15	515	prekinuti	prekide prekine prekinem prekinemo prekinete prekineš prekini prekinimo prekinite prekinu prekinula prekinule prekinuli prekinulo prekinuo prekinut prekinuta prekinute prekinuto prekinuće prekinućemo prekinućeš prekinuću
+16	516	polako	
+17	517	agent	agenata agenta agente agenti agentima agentom agentu
+18	518	napisati	napisa napisah napisala napisale napisali napisalo napisan napisana napisane napisani napisano napisao napisaće napisaćemo napisaćete napisaćeš napisaću napiše napišem napišemo napišete napišeš napiši napišite napišu
+19	519	fin	fina fine fini finih finija finije finiji finim fino finog finoj finom finu najfinija najfinije najfinijeg najfiniji najfinijih najfinijim najfiniju
+20	520	večera	večerama večere večeri večerom večeru
+21	521	probuditi	probude probudi probudih probudila probudile probudili probudilo probudim probudimo probudio probudite probudiće probudićemo probudićete probudićeš probudiću probudiš probuđen probuđena probuđeni
+22	522	kralj	kralja kraljem kraljeva kraljeve kraljevi kraljevima kralju
+23	523	pobijediti	pobede pobedi pobedila pobedile pobedili pobedilo pobedim pobedimo pobedio pobedite pobediti pobediće pobedićemo pobedićeš pobediću pobediš pobeđen pobeđena pobeđeni pobijede pobijedi pobijedila pobijedile pobijedili pobijedilo pobijedim pobijedimo pobijedio pobijedite pobijediće pobijedićemo pobijediću pobijediš pobijeđen pobijeđena pobijeđeni
+24	524	pored	
+25	525	država	državama države državi državna državne državni državnih državnim državno državnog državnoga državnoj državnom državnu državom državu
+26	526	težak	najteža najteže najtežeg najtežem najteži najtežih najtežim najtežu teška teške teški teških teškim teškog teškoj teškom tešku teža teže težeg teži težih težim težom težu
+27	527	piće	pića pićem pićima piću
+28	528	ovakav	ovakva ovakve ovakvi ovakvih ovakvim ovakvima ovakvo ovakvog ovakvoga ovakvoj ovakvom ovakvome ovakvu
+29	529	zadržati	zadržala zadržale zadržali zadržalo zadržan zadržana zadržane zadržani zadržao zadržaće zadržaćemo zadržaćete zadržaćeš zadržaću zadrže zadrži zadržim zadržimo zadržite zadržiš
+30	530	odakle	
+31	531	izlaz	izlaza izlaze izlazi izlazima izlazom izlazu
+32	532	čitati	čita čitaj čitajte čitaju čitajući čitala čitale čitali čitalo čitam čitamo čitanja čitanje čitanjem čitanju čitano čitao čitate čitaće čitaćemo čitaćeš čitaću čitaš štiti
+33	533	trag	traga tragom tragova tragove tragovi tragovima tragu
+34	534	prodati	proda prodaj prodajmo prodajte prodaju prodala prodale prodali prodalo prodam prodamo prodana prodane prodani prodano prodao prodate prodaće prodaćemo prodaćete prodaćeš prodaću prodaš
+35	535	ha	
+36	536	žrtva	žrtava žrtvama žrtve žrtvi žrtvom žrtvu
+37	537	praviti	prave praveći pravila pravile pravili pravim pravimo pravio pravite praviće pravićemo pravićeš praviću praviš pravljen pravljena pravljene pravljeni pravljenje pravljeno
+38	538	čudno	
+39	539	skinuti	skine skinem skinemo skinete skineš skini skinimo skinite skinu skinula skinule skinuli skinulo skinuo skinut skinuta skinute skinuto skinuće skinućemo skinućete skinućeš skinuću
+40	540	pogoditi	pogode pogodi pogodila pogodile pogodili pogodilo pogodim pogodimo pogodio pogodite pogodivši pogodiće pogodićeš pogodiću pogodiš pogođen pogođena pogođene pogođeni pogođeno
+41	541	pojaviti	pojave pojavi pojavila pojavile pojavili pojavilo pojavim pojavimo pojavio pojavite pojaviće pojavićeš pojaviću pojaviš pojaviše
+42	542	poći	pođe pođem pođemo pođete pođeš pođi pođimo pođite pođoše pođu pošao pošla pošle pošli pošlo
+43	543	snaga	snagama snage snagom snagu snazi
+44	544	slobodan	slobodna slobodne slobodni slobodnih slobodnija slobodnije slobodniji slobodnim slobodnima slobodnog slobodnoga slobodnoj slobodnom slobodnu
+45	545	sjajan	najsjajnija najsjajnije najsjajniji najsjajnijih sjajna sjajne sjajni sjajnih sjajnija sjajnije sjajnim sjajnog sjajnoj sjajnom sjajnu
+46	546	manje	
+47	547	prokleti	proklela prokleli prokleo prokleta proklete prokleto prokleću prokune
+48	548	prilično	
+49	549	bijel	bel bele beli belih belim belima belja belji belo belog beloj belom belu beo bijela bijele bijeli bijelih bijelim bijelo bijelog bijeloga bijeloj bijelom bijelome bijelu bio
+50	550	objasniti	objasne objasni objasnila objasnili objasnilo objasnim objasnimo objasnio objasnite objasniće objasnićemo objasnićeš objasniću objasniš objašnjena objašnjene objašnjeno
+51	551	spustiti	spuste spusti spustila spustile spustili spustilo spustim spustimo spustio spustite spustiće spustićemo spustićeš spustiću spustiš spušten spuštena spuštene spušteni spušteno
+52	552	vis	visa vise visova visove visovi visu viška
+53	553	greška	grešaka grešci greškama greške greškom grešku
+54	554	dječak	dečaci dečacima dečak dečaka dečake dečakom dečaku dečače dječaci dječacima dječaka dječake dječakom dječaku dječače
+55	555	počinjati	počinjala počinjale počinjali počinjalo počinjao počinje počinjem počinjemo počinjete počinješ počinji počinjimo počinjite počinju počinjući
+56	556	slagati	slaga slagala slagale slagali slagalo slagao slagaće slaže slažem slažemo slažete slažeš slaži slažu
+57	557	visok	najviša najviše najvišeg najvišem najviši najviših najvišim najvišoj najvišom najvišu visoka visoke visoki visokih visokim visokog visokoga visokoj visokom visoku viša višeg višem viši viših višim višoj višom višu
+58	558	četiri	
+59	559	ujutro	ujutru ујутру
+60	560	dopustiti	dopuste dopusti dopustila dopustile dopustili dopustilo dopustim dopustimo dopustio dopustite dopustiće dopustićete dopustićeš dopustiću dopustiš dopušten dopuštena dopuštene dopušteni dopušteno
+61	561	zakon	zakona zakone zakoni zakonima zakonom zakonu
+62	562	tjedan	tjedana tjedna tjedne tjedni tjednima tjednoj tjednom tjednu
+63	563	zabavan	najzabavnija najzabavnije najzabavniji najzabavnijih zabavna zabavne zabavni zabavnih zabavnija zabavnije zabavniji zabavnijim zabavnim zabavno zabavnog zabavnoj zabavnom zabavnu
+64	564	karta	karata kartama karte karti kartom kartu
+65	565	informacija	informacijama informacije informaciji informacijom informaciju
+66	566	sekunda	sekundama sekunde sekundi sekundom sekundu
+67	567	sačekati	sačeka sačekaj sačekajmo sačekajte sačekaju sačekala sačekali sačekam sačekamo sačekao sačekate sačekaće sačekaćemo sačekaćete sačekaćeš sačekaću sačekaš
+68	568	smetati	smeta smetaj smetajte smetaju smetala smetale smetali smetalo smetam smetamo smetao smetate smetaće smetaš
+69	569	primiti	prime primi primila primile primili primilo primim primimo primio primite primivši primiće primićemo primićete primićeš primiću primiš primljen primljena primljene primljeni primljeno
+70	570	pjesma	pesama pesma pesmama pesme pesmi pesmom pesmu pjesama pjesmama pjesme pjesmi pjesmom pjesmu
+71	571	borba	borbama borbe borbi borbom borbu
+72	572	glas	glasa glase glasi glasom glasova glasove glasovi glasovima glasu
+73	573	gotov	gotova gotove gotovi gotovih gotovim gotovog gotovom gotovu
+74	574	sjesti	sede sedne sednem sednemo sednete sedneš sedni sednimo sednite sednu sesti sešćemo sešćeš sešću sjede sjedne sjednem sjednemo sjednete sjedneš sjedni sjednimo sjednite sjednu sjela sjele sjeli sjelo sjeo sješćemo sješću
+75	575	obzir	obzira obzirom
+76	576	mlad	mlade mladi mladih mladim mladima mlado mladog mladoga mladoj mladom mladu mlađa mlađe mlađeg mlađem mlađi mlađih mlađim mlađima mlađoj mlađom mlađu najmlađa najmlađe najmlađeg najmlađi najmlađih najmlađim najmlađu
+77	577	naprijed	napred
+78	578	avion	aviona avione avioni avionima avionom avionu
+79	579	uživati	uživa uživaj uživajmo uživajte uživaju uživajući uživala uživale uživali uživalo uživam uživamo uživanje uživao uživate uživaće uživaćemo uživaćete uživaćeš uživaću uživaš
+80	580	osjećaj	osećaj osećaja osećaje osećajem osećaji osećajima osećaju osjećaja osjećaje osjećajem osjećaji osjećajima osjećaju
+81	581	udariti	udare udaren udarena udarene udareni udareno udari udarila udarile udarili udarilo udarim udarimo udario udarite udarivši udariće udarićemo udarićeš udariću udariš
+82	582	okrenuti	okrene okrenem okrenemo okrenete okreneš okreni okrenimo okrenite okrenu okrenula okrenule okrenuli okrenulo okrenuo okrenut okrenuta okrenute okrenuto okrenuvši okrenuće okrenućemo okrenućeš okrenuću
+83	583	plašiti	plaše plašenje plašeći plaši plašila plašile plašili plašilo plašim plašimo plašio plašite plašiš
+84	584	kretati	kretala kretale kretali kretalo kretanja kretanje kretanjem kretanjima kretanju kretao kreće krećem krećemo krećete krećeš kreći krećimo krećite kreću krećući
+85	585	ispod	
+86	586	crven	crvena crvene crveni crvenih crvenije crveniji crvenim crvenima crveno crvenog crvenoga crvenoj crvenom crvenome crvenu
+87	587	milion	miliona milione milioni milionima milionu
+88	588	vojnik	vojnici vojnicima vojnika vojnike vojnikom vojniku vojniče
+89	589	postaviti	postave postavi postavila postavile postavili postavilo postavim postavimo postavio postavite postaviće postavićemo postaviću postaviš postaviše postavljen postavljena postavljene postavljeni postavljeno
+90	590	situacija	situacijama situacije situaciji situacijom situaciju
+91	591	kontrola	kontrolama kontrole kontroli kontrolo kontrolom kontrolu
+92	592	duh	duha duhom duhova duhove duhovi duhovima duhu dusi
+93	593	nekako	
+94	594	moguće	
+95	595	pomagati	pomagala pomagale pomagali pomagalo pomaganje pomagao pomagaće pomagaću pomaže pomažem pomažemo pomažete pomažeš pomaži pomažite pomažu pomažući
+96	596	sud	suda sude sudi sudom sudova sudove sudovi sudovima sudu
+97	597	vojska	vojsci vojskama vojske vojski vojsko vojskom vojsku
+98	598	napasti	napade napadne napadnem napadnemo napadnete napadneš napadni napadnimo napadnite napadnu napadnut napadnuta napadnute napadnuti napadnuto napala napale napali napalo napao napašće napašćemo napašću
+99	599	mnogi	mnoga mnoge mnogih mnogim mnogima mnogoj mnogome mnogu
+100	600	sinoć	

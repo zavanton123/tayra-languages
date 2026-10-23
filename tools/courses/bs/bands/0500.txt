@@ -1,0 +1,100 @@
+1	401	otkriti	otkri otkrij otkrije otkrijem otkrijemo otkrijete otkriješ otkrijmo otkrijte otkriju otkrila otkrile otkrili otkrilo otkrio otkriven otkrivena otkrivene otkriveni otkriveno otkrivši otkrića otkriće otkrićem otkrićemo otkrićete otkrićeš otkrićima otkriću
+2	402	bojati	bojaju bojala bojale bojali bojanje bojao boje bojeći boji bojim bojimo bojite bojiš bojte
+3	403	tajna	tajnama tajne tajni tajno tajnom tajnu
+4	404	pobjeći	pobegao pobegla pobegle pobegli pobeglo pobegne pobegnem pobegnemo pobegnete pobegneš pobegni pobegnimo pobegnite pobegnu pobegoše pobeći pobeže pobjegao pobjegla pobjegle pobjegli pobjeglo pobjegne pobjegnem pobjegnemo pobjegnete pobjegneš pobjegni pobjegnimo pobjegnite pobjegnu pobježe
+5	405	ubica	ubicama ubice ubici ubico ubicom ubicu ubojica ubojicama ubojice ubojici ubojico ubojicom ubojicu
+6	406	film	filma filmom filmova filmove filmovi filmovima filmu
+7	407	rad	najradije rada radija radije radijem radiji radijima radijom radiju rado radom radova radove radovi radovima radu
+8	408	sjećati	sećati sjeća sjećaj sjećaju sjećajući sjećam sjećamo sjećate sjećaš
+9	409	rano	ranije
+10	410	javiti	jave javi javila javile javili javilo javim javimo javio javite javiće javićemo javićete javićeš javiću javiš javljeno
+11	411	šef	šefa šefe šefom šefova šefove šefovi šefovima šefu
+12	412	dozvoliti	dozvole dozvoli dozvolila dozvolile dozvolili dozvolilo dozvolim dozvolimo dozvolio dozvolite dozvolivši dozvoliće dozvolićemo dozvolićete dozvolićeš dozvoliću dozvoliš dozvoljen dozvoljena dozvoljene dozvoljeni dozvoljeno
+13	413	jednostavno	
+14	414	oružje	oružja oružjem oružjima oružju
+15	415	zabava	zabavama zabave zabavi zabavom zabavu
+16	416	nedjelja	nedelja nedeljama nedelje nedelji nedeljom nedelju nedjeljama nedjelje nedjelji nedjeljom nedjelju
+17	417	riješiti	reše rešen rešena rešeni rešenja rešenje rešenju rešeno reši rešila rešili rešilo rešim rešimo rešio rešite rešiti rešićemo rešiću rešiš riješe riješen riješena riješeni riješeno riješi riješila riješili riješilo riješim riješimo riješio riješite riješićemo riješiću riješiš rješenja rješenje rješenju
+18	418	boriti	bore boreći bori borila borile borili borilo borim borimo borio borite boriće borićemo borićete borićeš boriću boriš
+19	419	probati	proba probaj probajmo probajte probaju probala probale probali probalo probam probama probamo probanje probao probate probaće probaćemo probaćeš probaću probaš probe probi probo probom probu
+20	420	muž	muža mužem muževa muževe muževi muževima mužu
+21	421	bol	bola bole boli bolju bolom bolova bolove bolovi bolovima bolu
+22	422	pratiti	prate prateći pratila pratile pratili pratilo pratim pratimo pratio pratite pratiće pratićemo pratićete pratićeš pratiću pratiš praćen praćena praćene praćeni praćenje praćeno
+23	423	poput	
+24	424	ipak	
+25	425	uništiti	unište uništen uništena uništene uništeni uništenja uništenje uništenjem uništenju uništeno uništi uništila uništile uništili uništilo uništim uništimo uništio uništite uništivši uništiće uništićemo uništićete uništićeš uništiću uništiš
+26	426	uopće	uopšte
+27	427	naučiti	nauče naučen naučena naučene naučeni naučeno nauči naučila naučile naučili naučilo naučim naučimo naučio naučite naučiće naučićemo naučićete naučićeš naučiću naučiš
+28	428	roditelj	roditelja roditelje roditeljem roditelji roditeljima roditelju
+29	429	događati	događa događaju događala događale događalo događanja događanje
+30	430	ćao	
+31	431	skoro	
+32	432	nazad	
+33	433	pun	puna pune puni punih punim punog punoj punom punu
+34	434	vijest	vest vesti vestima vezao vezem vezemo vezete vezite vezla vešću vijesti vijestima viješću
+35	435	dug	duga dugama duge dugi dugih dugim dugog dugoj dugom dugova dugove dugovi dugovima dugu duzi duža duže dužeg dužem duži dužih dužim dužom dužu najduža najduže najdužeg najduži najdužih najdužim najdužu
+36	436	dama	damama dame dami damo damom damu
+37	437	krevet	kreveta krevete kreveti krevetima krevetom krevetu
+38	438	halo	хало
+39	439	blizu	bliže
+40	440	gotovo	
+41	441	pasti	pade padne padnem padnemo padnete padneš padni padnite padnu padoh padoše pala pale palo pane pani panu pao pasao pase pasi pasu pašće pašćemo pašćeš pašću
+42	442	smiriti	smire smiren smirena smirene smireni smirenija smireniji smirenim smireno smirenog smirenom smirenu smiri smirila smirile smirili smirilo smirim smirimo smirio smirite smiriće smirićeš smiriću smiriš
+43	443	policajac	policajaca policajca policajce policajcem policajci policajcima policajcu policajče
+44	444	ulica	ulicama ulice ulici ulicom ulicu
+45	445	van	
+46	446	negdje	negde
+47	447	pucati	puca pucaj pucajte pucaju pucajući pucala pucale pucali pucalo pucam pucamo pucanje pucao pucate pucaće pucaćemo pucaćete pucaćeš pucaću pucaš puce puci pucu
+48	448	izvući	izvuci izvucimo izvucite izvukao izvukla izvukle izvukli izvuklo izvuku izvuče izvučem izvučemo izvučen izvučena izvučene izvučeni izvučeno izvučete izvučeš
+49	449	sreća	sreće sreći srećo srećom sreću
+50	450	sastanak	sastanaka sastanci sastancima sastanka sastanke sastankom sastanku
+51	451	gospođa	gospođama gospođe gospođi gospođo gospođom gospođu
+52	452	pištolj	pištolja pištolje pištoljem pištolji pištoljima pištolju
+53	453	sjajno	
+54	454	dom	doma dome domom domova domove domovi domovima domu
+55	455	brz	brza brze brzi brzih brzim brzog brzoj brzom brzu brža brže bržeg brži bržim bržu najbrža najbrže najbržeg najbržem najbrži najbržih najbržim najbržu
+56	456	mir	mira mirom miru
+57	457	beba	bebama bebe bebi bebo bebom bebu
+58	458	pretpostavljati	pretpostavlja pretpostavljaj pretpostavljaju pretpostavljajući pretpostavljala pretpostavljali pretpostavljalo pretpostavljam pretpostavljamo pretpostavljao pretpostavljate pretpostavljaš
+59	459	jak	jaka jake jaki jakih jakim jakima jakog jakoj jakom jakova jakove jakovi jaku jača jače jačeg jačem jači jačih jačim jačima jačoj jačom jaču najjača najjače najjačeg najjačem najjači najjačih najjačim najjaču
+60	460	tek	teci teka teke teko teku teče
+61	461	uskoro	
+62	462	povrijediti	povrede povredi povredila povredile povredili povredilo povredim povredimo povredio povredite povrediti povrediće povredićete povredićeš povrediću povrediš povređen povređena povređene povređeni povređeno povređivati povrijede povrijedi povrijedila povrijedili povrijedilo povrijedim povrijedimo povrijedio povrijedite povrijediće povrijedićeš povrijediš povrijeđen povrijeđena povrijeđene povrijeđeni povrijeđeno
+63	463	poziv	poziva pozive pozivi pozivima pozivom pozivu
+64	464	potpuno	
+65	465	glavni	glavna glavne glavnih glavnim glavnima glavno glavnog glavnoga glavnoj glavnom glavnome glavnu
+66	466	izbor	izbora izbore izbori izborima izborom izboru
+67	467	očekivati	očekivala očekivale očekivali očekivalo očekivanja očekivanje očekivanjima očekivanju očekivao očekivaće očekivaću očekuj očekuje očekujem očekujemo očekujete očekuješ očekujte očekuju očekujući
+68	468	kola	kole koli kolima kolo kolom kolu
+69	469	vrsta	vrstama vrste vrsti vrsto vrstom vrstu
+70	470	tada	
+71	471	važno	
+72	472	crn	crna crne crni crnih crnim crnima crnja crnje crnji crnjom crnju crno crnog crnoga crnoj crnom crnome crnu najcrnje najcrnji najcrnjim
+73	473	razmisliti	razmisle razmisli razmislila razmislile razmislili razmislim razmislimo razmislio razmislite razmislićemo razmislićeš razmisliću razmisliš razmišlja razmišljaju razmišljam razmišljamo razmišljate razmišljaš
+74	474	dokaz	dokaza dokaze dokazi dokazima dokazom dokazu
+75	475	stalno	
+76	476	ozbiljno	
+77	477	pred	preda
+78	478	bok	boka bokom bokova bokove bokovi bokovima boku
+79	479	napustiti	napuste napusti napustila napustile napustili napustilo napustim napustimo napustio napustite napustivši napustiće napustićemo napustićete napustićeš napustiću napustiš napušten napuštena napuštene napušteni napušteno
+80	480	bolnica	bolnicama bolnice bolnici bolnicom bolnicu
+81	481	prilika	prilici prilikama prilike prilikom priliku
+82	482	gubiti	gube gubeći gubi gubila gubile gubili gubim gubimo gubio gubite gubiš gubljenje
+83	483	razmišljati	razmišlja razmišljaj razmišljajmo razmišljajte razmišljaju razmišljajući razmišljala razmišljale razmišljali razmišljalo razmišljam razmišljamo razmišljanja razmišljanje razmišljao razmišljate razmišljaću razmišljaš
+84	484	cura	curama cure curi curo curom curu
+85	485	ponekad	
+86	486	pametan	najpametnija najpametnije najpametnijeg najpametniji najpametnijih najpametnijim najpametniju pametna pametne pametni pametnih pametnija pametnije pametnijeg pametniji pametnijih pametnijim pametnijom pametniju pametnim pametnima pametno pametnog pametnoj pametnom pametnu
+87	487	ukrasti	ukrade ukradem ukrademo ukraden ukradena ukradene ukradeni ukradeno ukradete ukradeš ukradi ukradimo ukradite ukradu ukrala ukrale ukrali ukralo ukrao ukravši ukrašće ukrašćemo ukrašćeš ukrašću
+88	488	lako	lahko
+89	489	odlično	
+90	490	predsjednik	predsednica predsednice predsednici predsednicima predsednicom predsednicu predsednik predsednika predsednike predsednikom predsedniku predsedniče predsjednica predsjednice predsjednici predsjednicima predsjednicom predsjednicu predsjednika predsjednike predsjednikom predsjedniku predsjedniče
+91	491	pola	
+92	492	odlučiti	odluče odlučen odlučena odlučeno odluči odlučih odlučila odlučile odlučili odlučilo odlučim odlučimo odlučio odlučite odlučiće odlučićemo odlučiću odlučiš
+93	493	baciti	bace baci bacilo bacim bacimo bacio bacite bacivši baciće bacićemo bacićeš baciću baciš baciše
+94	494	između	
+95	495	veče	večer večeri večerima
+96	496	nedostajati	nedostajala nedostajale nedostajali nedostajalo nedostajao nedostajaće nedostajaćete nedostajaćeš nedostajaću nedostaje nedostajem nedostajemo nedostajete nedostaješ nedostaju nedostajući
+97	497	provesti	provede provedem provedemo proveden provedena provedene provedeni provedeno provedete provedeš provedi provedimo provedite provedu provela provele proveli provelo proveo provezao provezla provezli provešće provešćemo provešćete provešćeš provešću
+98	498	napad	napada napade napadi napadima napadom napadu
+99	499	važan	najvažnija najvažnije najvažnijeg najvažnijem najvažniji najvažnijih najvažnijim najvažnijoj najvažniju važna važne važni važnih važnija važnije važnijeg važnijem važniji važnijih važnijim važniju važnim važnima važnog važnoga važnoj važnom važnu
+100	500	odgovor	odgovora odgovore odgovori odgovorima odgovorom odgovoru

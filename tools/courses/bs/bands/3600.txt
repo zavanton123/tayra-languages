@@ -1,0 +1,100 @@
+1	3501	ženiti	žene ženi ženili ženim ženimo ženio ženite ženiš ženjen
+2	3502	beta	bete beti beto betu
+3	3503	potjera	potera potere poteri poterom poteru potjere potjeri potjerom potjeru
+4	3504	odaja	odajama odaje odaji odaju
+5	3505	posve	
+6	3506	prizor	prizora prizore prizori prizorima prizorom prizoru
+7	3507	grobnica	grobnicama grobnice grobnici grobnicom grobnicu
+8	3508	poremetiti	poremete poremeti poremetila poremetili poremetilo poremetim poremetimo poremetio poremetite poremetiće poremetiš poremećen poremećena poremećene poremećeni poremećeno
+9	3509	crtež	crteža crteže crteži crtežima crtežom crtežu
+10	3510	buditi	bude budeći budi budila budili budilo budim budimo budio budite budiš
+11	3511	mladost	mladosti mladošću
+12	3512	naivan	naivna naivne naivni naivnih naivnim naivno naivnog naivnu
+13	3513	vaza	vazama vaze vazi vazom vazu
+14	3514	zaprositi	zaprosi zaprosila zaprosili zaprosim zaprosio zaprosiću zaprosiš zaprošena
+15	3515	zavesti	zavede zavedem zaveden zavedena zavedene zavedeni zavedeno zavedete zavedeš zavedi zavedite zavedu zavela zaveli zaveo
+16	3516	nazdraviti	nazdravi nazdravila nazdravili nazdravim nazdravimo nazdravio nazdravite nazdravićemo nazdraviću nazdraviš
+17	3517	prilaziti	prilaze prilazi prilazila prilazili prilazim prilazimo prilazio prilazite prilaziš prilaženje
+18	3518	derati	derala derali deran derana derane deranje deranom derao dere derem deremo derete dereš deri derite deru derući
+19	3519	uslovan	uslovna uslovne uslovni uslovno uslovnog uslovnoj uslovnom uslovnu
+20	3520	em	
+21	3521	kuhar	kuhara kuhare kuhari kuharima kuharom kuharu
+22	3522	postupiti	postupe postupi postupila postupili postupim postupimo postupio postupite postupiš
+23	3523	čip	čipa čipom čipova čipove čipovi čipovima čipu
+24	3524	trg	trga trgom trgova trgove trgovi trgovima trgu
+25	3525	kupaonica	kupaonicama kupaonice kupaonici kupaonicom kupaonicu
+26	3526	zdravstveni	zdravstvena zdravstvene zdravstvenih zdravstvenim zdravstvenog zdravstvenoj zdravstvenom zdravstvenu
+27	3527	pelena	pelenama pelene peleni pelenu
+28	3528	konkurencija	konkurencije konkurenciji konkurencijom konkurenciju
+29	3529	savezni	savezna savezne saveznih saveznim savezno saveznog saveznoj saveznom saveznu
+30	3530	bijedan	bedan bedna bedne bedni bednih bednim bednog bednoj bednom bednu bijedna bijedne bijedni bijednih bijednim bijednog bijednom bijednu
+31	3531	povjeriti	poveren poverena povereno poveri poverila poverili poverim poverimo poverio poverite poveriti poveriću poveriš povjeren povjerena povjereni povjereno povjeri povjerila povjerili povjerim povjerio povjerite povjeriš
+32	3532	sekretar	sekretara sekretare sekretarom sekretaru
+33	3533	zakletva	zakletve zakletvi zakletvom zakletvu
+34	3534	kip	kipa kipe kipom kipova kipove kipovi kipovima kipu
+35	3535	odsjek	odseci odsek odseka odsekom odseku odsjeci odsjeka odsjeku
+36	3536	klovn	klovna klovne klovnom klovnova klovnove klovnovi klovnovima klovnu
+37	3537	buraz	
+38	3538	detaljan	detaljna detaljne detaljni detaljnih detaljnije detaljniji detaljniju detaljnim detaljno detaljnog detaljnom detaljnu
+39	3539	moralan	moralna moralne moralni moralnih moralnim moralnog moralnoj moralnom moralnu
+40	3540	školjka	školjaka školjci školjkama školjke školjki školjko školjkom školjku
+41	3541	galerija	galerijama galerije galeriji galerijom galeriju
+42	3542	golub	goluba golube golubom golubova golubove golubovi golubovima golubu
+43	3543	trideset	
+44	3544	granata	granatama granate granatom granatu
+45	3545	preporučiti	preporučen preporučena preporučeni preporučeno preporuči preporučila preporučili preporučim preporučio preporučite preporučiću preporučiš
+46	3546	vršiti	vrše vršeni vršenje vršeno vršeći vrši vršila vršile vršili vršilo vršim vršimo vršio vršite vršiš
+47	3547	dobivati	dobiva
+48	3548	strip	stripa stripova stripove stripovi stripovima stripu
+49	3549	desert	deserta deserte deserti desertom desertu
+50	3550	limuzina	limuzinama limuzine limuzini limuzinom limuzinu
+51	3551	rađati	rađa rađaju rađajući rađala rađale rađali rađam rađamo rađanja rađanje rađao rađate rađaš
+52	3552	jelen	jelena jelene jeleni jelenima jelenom jelenu
+53	3553	posjećivati	posećivala posećivali posećivao posećivati posećuje posećujem posećujemo posećujete posećuješ posećuju posjećivala posjećivali posjećivanje posjećivao posjećuje posjećujem posjećujemo posjećujete posjećuješ posjećuju
+54	3554	psihopat	psihopata psihopate psihopati psihopatima psihopatom psihopatu
+55	3555	turist	turista turiste turisti turistima turistu
+56	3556	naspavati	naspava naspavaj naspavajmo naspavajte naspavaju naspavala naspavali naspavam naspavamo naspavao naspavate naspavaš
+57	3557	uobičajeno	
+58	3558	rukopis	rukopisa rukopise rukopisi rukopisima rukopisom rukopisu
+59	3559	ilegalan	ilegalna ilegalne ilegalni ilegalnih ilegalnim ilegalnog ilegalnoj ilegalnom ilegalnu
+60	3560	kuka	kukama kuke kuki kuko kukom kuku
+61	3561	zavjet	zavet zaveta zavete zaveti zavetima zavetom zavetu zavjeta zavjete zavjeti zavjetima zavjetom zavjetu
+62	3562	značenje	značenja značenjem značenju
+63	3563	opklada	opkladama opklade opkladi opkladom opkladu
+64	3564	musliman	muslimana muslimane muslimani muslimanima
+65	3565	upitati	upita upitah upitaj upitajmo upitajte upitaju upitala upitali upitam upitamo upitana upitani upitao upitate upitaš upitaše
+66	3566	prag	praga pragom pragova pragu
+67	3567	oslobađati	oslobađa oslobađaju oslobađajući oslobađala oslobađali oslobađam oslobađamo oslobađanje oslobađao oslobađate oslobađaš
+68	3568	autoput	autoputa autoputom autoputu
+69	3569	italijanski	italijanska italijanske italijanskih italijanskim italijansko italijanskog italijanskoj italijanskom italijansku
+70	3570	dragulj	dragulja dragulje draguljem dragulji draguljima dragulju
+71	3571	preživljavati	preživljava preživljavaju preživljavala preživljavali preživljavam preživljavamo preživljavanje preživljavao preživljavate preživljavaš
+72	3572	juli	jul jula jule julu
+73	3573	rodni	rodna rodne rodno rodnog rodnoj rodnom rodnu
+74	3574	projektil	projektila projektile projektili projektilima projektilom projektilu
+75	3575	rođendanski	rođendanska rođendanske rođendanskih rođendanskim rođendansko rođendanskog rođendanskoj rođendanskom rođendansku
+76	3576	ustanova	ustanovama ustanove ustanovi ustanovom ustanovu
+77	3577	kilogram	kilograma kilograme kilogrami kilogramima kilogramu
+78	3578	vječno	večno
+79	3579	nalik	
+80	3580	ponoć	ponoćni
+81	3581	misteriozan	misteriozna misteriozne misteriozni misterioznih misteriozniji misterioznim misterioznog misterioznoj misterioznom misterioznu
+82	3582	tara	tare tari taro tarom taru
+83	3583	zreo	zrela zrele zreli zrelih zrelija zrelije zreliji zrelim zrelo zrelog zreloj zrelom zrelu
+84	3584	naslijediti	naslede nasledi nasledila nasledili nasledim nasledio naslediti naslediće naslediš naslijedi naslijedila naslijedili naslijedim naslijedio naslijediš
+85	3585	neuspjeh	neuspeh neuspeha neuspehe neuspehom neuspehu neuspesi neuspesima neuspjeha neuspjehe neuspjehom neuspjehu neuspjesi neuspjesima
+86	3586	jeziv	jeziva jezive jezivi jezivih jezivije jeziviji jezivim jezivog jezivoj jezivom jezivu najjezivija
+87	3587	hemijski	hemijska hemijske hemijskih hemijskim hemijsko hemijskog hemijskoj hemijskom hemijsku
+88	3588	teri	
+89	3589	drven	drvena drvene drveni drvenih drvenim drvenog drvenoj drvenom drvenu
+90	3590	vozački	vozačka vozačke vozačkih vozačkim vozačko vozačkog vozačkoj vozačkom vozačku
+91	3591	lan	lana lanom lanu
+92	3592	tur	tura ture turom turove turu
+93	3593	titula	titulama titule tituli titulom titulu
+94	3594	uštedjeti	uštede uštedela uštedeli uštedelo uštedeo uštedeti uštedeće uštedećemo uštedećeš uštedeću uštedi uštedim uštedimo uštedio uštedite uštediš uštedjela uštedjeli ušteđeno
+95	3595	pronalaziti	pronalaze pronalazeći pronalazi pronalazila pronalazili pronalazim pronalazimo pronalazio pronalazite pronalaziš pronalaženje
+96	3596	stran	strane strani stranih stranim strano stranog stranoj stranom stranu
+97	3597	hvaliti	hvale hvaleći hvali hvalila hvalili hvalim hvalimo hvalio hvalite hvališ hvaljen hvaljena hvaljeni hvaljenje
+98	3598	vijeće	vijeća vijećem vijeću
+99	3599	isprobati	isproba isprobaj isprobajmo isprobajte isprobaju isprobala isprobali isprobam isprobamo isproban isprobana isprobano isprobao isprobate isprobaću isprobaš
+100	3600	jezivo	

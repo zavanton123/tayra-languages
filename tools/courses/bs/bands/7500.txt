@@ -1,0 +1,100 @@
+1	7401	balans	balansa balansu
+2	7402	uran	urana uranu
+3	7403	univerzalan	univerzalna univerzalne univerzalni univerzalnim univerzalnog univerzalnu
+4	7404	sportaš	sportaša sportaše sportaši sportašima sportašu
+5	7405	cilindar	cilindara cilindra cilindre cilindri cilindrima cilindrom cilindru
+6	7406	upijati	upija upijaju upijajući upijam upijanje upijao upijaš
+7	7407	usavršiti	usavršen usavršena usavrši usavršila usavršili usavršim usavršimo usavršio usavršiš
+8	7408	utrkivati	utrkivali utrkivanje utrkivao utrkuje utrkujem utrkujemo utrkuješ utrkujmo utrkuju
+9	7409	zagaditi	zagadi zagadila zagadio zagađen zagađena zagađene zagađenja zagađenje zagađeno
+10	7410	desnica	desnice desnici desnicom desnicu
+11	7411	propisati	propisa propisali propisan propisana propisane propisani propisano propisao propiše
+12	7412	korito	korita koritom koritu
+13	7413	uporište	uporišta uporištu
+14	7414	gladijator	gladijatora gladijatore gladijatori gladijatorima
+15	7415	kaubojski	kaubojska kaubojske kaubojskih kaubojskim kaubojsko kaubojskog kaubojskom kaubojsku
+16	7416	mističan	mistična mistične mistični mističnih mističnim mističnog mističnom mističnu
+17	7417	peraja	perajama peraje perajom peraju
+18	7418	avijacija	avijacije avijaciji avijacijom avijaciju
+19	7419	java	jave javi javu
+20	7420	pekar	pekare pekari pekarom pekaru
+21	7421	висок	високо више највише
+22	7422	kanap	konop
+23	7423	orgija	orgijama orgije orgiji orgiju
+24	7424	goditi	godi godila godilo godio
+25	7425	odjek	odjeci odjeka odjeke odječe
+26	7426	blebetati	blebetalo blebetanje blebetao blebeće blebećem blebećeš blebeću
+27	7427	brazilski	brazilska brazilske brazilskih brazilskim brazilsko brazilskog brazilskoj brazilskom brazilsku
+28	7428	raspolagati	raspolaganje raspolaže raspolažem raspolažemo raspolažete raspolažeš raspolažu
+29	7429	paralelan	paralelna paralelne paralelni paralelnih paralelnim paralelnoj paralelnom paralelnu
+30	7430	mjesečni	mesečna mesečne mesečni mesečnu mjesečna mjesečne mjesečnih mjesečnog mjesečnom mjesečnu
+31	7431	seksualnost	seksualnosti seksualnošću
+32	7432	preduzeće	preduzeća preduzećima preduzeću
+33	7433	šargarepa	šargarepe šargarepom šargarepu
+34	7434	poprište	poprišta poprištu
+35	7435	džukela	džukele džukelo džukelu
+36	7436	šahovski	šahovska šahovske šahovskih šahovskim šahovskog šahovskoj šahovskom šahovsku
+37	7437	primjenjivati	primenjivali primenjivati primenjuje primenjujem primenjujemo primenjujete primenjuju primjenjuje primjenjujem primjenjuju
+38	7438	izvoz	izvoza izvoze izvozi izvozom izvozu
+39	7439	sklop	sklopa sklope sklopove sklopovi sklopovima sklopu
+40	7440	doživljaj	doživljaja doživljaje
+41	7441	dovijeka	doveka
+42	7442	članica	članicama članice članici članicom članicu
+43	7443	mulj	mulja muljem mulju
+44	7444	nepravedno	
+45	7445	svojevoljno	
+46	7446	mimo	
+47	7447	škare	škara škarama
+48	7448	zalupiti	zalupe zalupi zalupila zalupili zalupio zalupiš
+49	7449	gusjenica	gusenica gusenice gusenicu gusjenicama gusjenice gusjenicu
+50	7450	inspirirati	inspirira inspirirala inspirirali inspiriralo inspiriran inspirirana inspirirani inspirirano inspirirao
+51	7451	pomilovati	pomilovala pomilovali pomilovan pomilovana pomilovani pomilovao pomiluj pomiluje pomilujem pomiluješ pomilujte
+52	7452	ocjenjivati	ocenjivanje ocenjivati ocenjuje ocenjujem ocenjuješ ocenjuju ocjenjivanje ocjenjuje ocjenjujem ocjenjuješ ocjenjuju
+53	7453	direktorica	direktorice direktorici direktoricom direktoricu
+54	7454	посао	после послом послу
+55	7455	obim	obima obimom obimu
+56	7456	razbijač	razbijača razbijače razbijači razbijaču
+57	7457	priličan	prilična prilične priličnoj priličnom priličnu
+58	7458	abeceda	abecede abecedi abecedom abecedu
+59	7459	narančast	narančasta narančaste narančasti narančasto narančastom narančastu
+60	7460	elektricitet	elektriciteta elektricitetom elektricitetu
+61	7461	uvoz	uvoza uvoze uvozi uvozom
+62	7462	informirati	informira informiraj informirali informiram informiramo informiran informirana informirani informiranje informirao
+63	7463	votka	
+64	7464	sunđer	sunđera sunđere sunđeri sunđerom sunđeru
+65	7465	ambulantni	ambulantna ambulantnih ambulantnim ambulantno
+66	7466	organizator	organizatora organizatore organizatori organizatorima organizatorom organizatoru
+67	7467	veleposlanik	veleposlanika veleposlanikom veleposlaniku veleposlaniče
+68	7468	isporučivati	isporučivao isporučuje isporučujem isporučujemo isporučujete isporučuješ isporučuju
+69	7469	propovijed	propoved propovedi propovijedi propovijedima
+70	7470	iscijediti	iscede iscedi iscedila iscedim iscedio iscediti iscediš isceđen iscijedi iscijedila iscijedili iscijedim iscijedio iscijeđena iscijeđeno
+71	7471	sandala	sandalama sandale sandalu
+72	7472	inozemstvo	inozemstva inozemstvu
+73	7473	kavana	kavane kavani kavano kavanu
+74	7474	etički	etička etičke etičkih etičkim etičko etičkog etičkom etičku
+75	7475	đak	đaci đacima đaka đake
+76	7476	izrađivati	izrađivali izrađivao izrađuje izrađujem izrađujemo izrađujete izrađuješ izrađuju
+77	7477	čupati	čupa čupaj čupaju čupala čupali čupam čupamo čupanje čupao čupate čupaš
+78	7478	forsirati	forsira forsiraj forsiraju forsirala forsirali forsiram forsiramo forsirao forsiraš
+79	7479	glupak	glupaci glupaka glupake glupaku glupače
+80	7480	izravnati	izravna izravnaj izravnajte izravnali izravnam izravnamo izravnao izravnaš
+81	7481	vesta	veste vesto vestom vestu
+82	7482	vijenac	venac venca vence venci vijenaca vijenca vijence vijenci
+83	7483	pšenica	pšenice pšenicom pšenicu pšenična pšenične pšenični
+84	7484	klik	
+85	7485	ujedno	
+86	7486	govnar	
+87	7487	neprekidno	
+88	7488	palata	
+89	7489	svečano	
+90	7490	gulaš	gulaša gulašu
+91	7491	tendencija	tendencijama tendencije tendenciju
+92	7492	bijedno	bedno
+93	7493	raspon	raspona rasponom rasponu
+94	7494	samit	samita samitu
+95	7495	harem	harema haremu
+96	7496	higijena	higijene higijeni higijenom higijenu
+97	7497	usisati	usisa usisala usisan usisana usisani usisao usišite
+98	7498	grešan	grešna grešne grešni grešnih grešnim grešno grešnog grešnom
+99	7499	tradicionalno	
+100	7500	uzaludno	

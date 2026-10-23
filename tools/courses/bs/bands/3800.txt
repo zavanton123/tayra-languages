@@ -1,0 +1,100 @@
+1	3701	vulkan	vulkana vulkane vulkani vulkanima vulkanom vulkanu
+2	3702	objekt	objekata objekta objekte objekti objektima objektom objektu
+3	3703	materija	materije materiji materijom materiju
+4	3704	dvanaest	
+5	3705	gristi	grizao grize grizem grizemo grizete grizeš grizi grizla grizli grizu
+6	3706	svesti	svela sveli svelo sveo sveze svezi svezu
+7	3707	hitac	hica hice hici hicima hitaca hitci hiče
+8	3708	sofa	sofe sofi sofu
+9	3709	postupati	postupa postupaj postupajte postupaju postupajući postupala postupali postupalo postupam postupamo postupanje postupao postupate postupaš
+10	3710	konac	konaca konca konce koncem konci koncima koncu
+11	3711	slanina	slanine slanini slaninom slaninu
+12	3712	odobravati	odobrava odobravaju odobravala odobravali odobravam odobravamo odobravanje odobravao odobravate odobravaš
+13	3713	mudrost	mudrosti mudrošću
+14	3714	duvati	duva duvaj duvajte duvaju duvala duvali duvam duvamo duvana duvanje duvao duvate duvaš
+15	3715	bolno	
+16	3716	kartel	kartela kartele karteli kartelima kartelom kartelu
+17	3717	zločest	zločesta zločeste zločesti zločestih zločestim zločesto zločestog zločestu
+18	3718	najzad	
+19	3719	pozorište	pozorišta pozorištem pozorištima pozorištu
+20	3720	manijak	manijaci manijacima manijaka manijake manijakom manijaku manijače
+21	3721	privremen	privremena privremene privremeni privremenih privremenim privremenog privremenoj privremenom privremenu
+22	3722	naočare	naočara naočarama
+23	3723	eksperiment	
+24	3724	primati	primam
+25	3725	završetak	završeci završecima završetaka završetka završetke završetkom završetku
+26	3726	ogrebotina	ogrebotinama ogrebotine ogrebotinom ogrebotinu
+27	3727	praznina	praznine praznini prazninom prazninu
+28	3728	potvrđivati	potvrđivali potvrđivanje potvrđuje potvrđujem potvrđujemo potvrđujete potvrđuješ potvrđuju potvrđujući
+29	3729	имати	има имала имали имам имамо имао имате имаш имају имаћеш
+30	3730	brutalan	brutalna brutalne brutalni brutalnih brutalnim brutalno brutalnog brutalnoj brutalnom brutalnu
+31	3731	znanost	znanosti znanostima znanošću
+32	3732	jadac	jaca jace jaci jacu jače
+33	3733	izgradnja	izgradnje izgradnji izgradnjom izgradnju
+34	3734	pirat	pirata pirate pirati piratima piratom piratu
+35	3735	spajati	spaja spajaj spajaju spajajući spajala spajali spajam spajamo spajanje spajao spajate spajaš
+36	3736	isporučiti	isporuče isporučen isporučena isporučene isporučeni isporučeno isporuči isporučila isporučili isporučim isporučimo isporučio isporučite isporučiće isporučićemo isporučiš
+37	3737	rebro	rebara rebra rebrima rebru
+38	3738	sol	soli solju
+39	3739	div	diva dive divom divova divove divovi divovima divu
+40	3740	roštilj	roštilja roštilje roštiljem roštilju
+41	3741	parada	paradama parade paradi paradom paradu
+42	3742	svadba	svadbama svadbe svadbi svadbu
+43	3743	opirati	opirala opirali opiranje opirao opire opirem opiremo opirete opireš opiri opirite opiru
+44	3744	pjesnik	pesnici pesnicima pesnik pesnika pesnike pesnikom pesniku pjesnici pjesnicima pjesnika pjesnike pjesnikom pjesniku pjesniče
+45	3745	masaža	masažama masaže masaži masažom masažu
+46	3746	poremećaj	poremećaja poremećaje poremećajem poremećaji poremećajima poremećaju
+47	3747	meksički	meksička meksičke meksičkih meksičkim meksičko meksičkog meksičkoj meksičkom meksičku
+48	3748	kal	kala kale kalem kalema kali kalima kalu
+49	3749	točak	točkom točkova točkove točkovi točkovima točku
+50	3750	bistar	bistra bistre bistri bistrih bistrija bistrije bistriji bistrim bistro bistrog bistrou bistru najbistrija najbistriji
+51	3751	profit	profita profite profiti profitom profitu
+52	3752	mrtvačnica	mrtvačnicama mrtvačnice mrtvačnici mrtvačnicom mrtvačnicu
+53	3753	anoniman	anonimna anonimne anonimni anonimnih anonimnim anonimnog anonimnoj anonimnom anonimnu
+54	3754	zuriti	zure zurenje zureći zuri zurila zurile zurili zurim zurimo zurio zurite zuriš
+55	3755	parfem	parfema parfeme parfemi parfemima parfemom parfemu
+56	3756	nasmijati	nasmij nasmijala nasmijali nasmijalo nasmijan nasmijana nasmijani nasmijano nasmijao nasmije nasmijem nasmijemo nasmiješ nasmijte nasmiju
+57	3757	batina	batinama batine batinom batinu
+58	3758	optužnica	optužnicama optužnice optužnici optužnicom optužnicu
+59	3759	uzalud	
+60	3760	pljačkaš	pljačkaša pljačkaše pljačkašem pljačkaši pljačkašima pljačkašu
+61	3761	lozinka	lozinke lozinki lozinkom lozinku
+62	3762	lane	
+63	3763	žalba	žalbama žalbe žalbi žalbom žalbu
+64	3764	piramida	piramidama piramide piramidi piramidom piramidu
+65	3765	cigla	cigala ciglama cigle cigli ciglom ciglu
+66	3766	poniziti	ponize ponizi ponizila ponizili ponizim ponizio ponizite poniziš ponižen ponižena ponižene poniženi poniženo
+67	3767	obrijati	obrij obrijala obrijali obrijan obrijana obrijane obrijani obrijano obrijao obrijaćemo obrijaću obrije obrijem obrijemo obrijete obriješ obrijte obriju
+68	3768	mekan	mekana mekane mekani mekanih mekanim mekano mekanog mekanom mekanu
+69	3769	stenjati	stenjala stenjanje stenjao stenje stenjem stenješ stenji stenju stenjući
+70	3770	pomiješati	pomeša pomešaj pomešajte pomešaju pomešala pomešali pomešalo pomešam pomešamo pomešan pomešana pomešane pomešano pomešao pomešate pomešati pomešaš pomiješa pomiješaj pomiješajte pomiješaju pomiješala pomiješali pomiješalo pomiješam pomiješan pomiješana pomiješane pomiješani pomiješano pomiješao pomiješaš
+71	3771	sulud	suluda sulude suludi suludih suludim suludo suludom suludu
+72	3772	zbrka	zbrci zbrke zbrkom zbrku
+73	3773	korijen	koren korena korene koreni korenima korenu korijena korijene korijeni korijenima korijenom korijenu
+74	3774	osjetilo	osjetila
+75	3775	radijacija	radijacije radijaciji radijacijom radijaciju
+76	3776	nastojati	nastoj nastojala nastojali nastojanja nastojanje nastojao nastojaću nastoje nastojeći nastoji nastojim nastojimo nastojite nastojiš nastojte
+77	3777	nepristojan	nepristojna nepristojne nepristojni nepristojnim nepristojnog nepristojnu
+78	3778	švedski	švedska švedske švedskih švedskim švedsko švedskog švedskoj švedskom švedsku
+79	3779	razgledati	razgleda razgledaj razgledajmo razgledajte razgledaju razgledala razgledali razgledam razgledamo razgledanja razgledanje razgledanju razgledao razgledate razgledaš
+80	3780	isticati	isticala isticali isticalo isticanje isticao ističe ističem ističemo ističete ističeš ističu ističući
+81	3781	promaknuti	promakao promakla promakle promakli promaklo promakne promaknu promaknuli promaknulo promaknuo promaknut promaći
+82	3782	čudesan	najčudesnija najčudesniji najčudesnijih čudesna čudesne čudesni čudesnih čudesnim čudesnog čudesnoj čudesnom čudesnu
+83	3783	stupiti	stupe stupi stupila stupili stupim stupimo stupio stupite stupiš
+84	3784	uputstvo	uputstava uputstva uputstvima uputstvom uputstvu
+85	3785	fotograf	fotografa fotografe fotografi fotografima fotografom fotografu
+86	3786	suknja	suknjama suknje suknji suknjom suknju
+87	3787	bankar	bankara bankare bankari bankarima bankarom bankaru
+88	3788	знати	зна знала знали знам знамо знао знате знаш знају
+89	3789	prisluškivati	prisluškivala prisluškivali prisluškivan prisluškivani prisluškivanje prisluškivao prisluškuj prisluškuje prisluškujem prisluškujemo prisluškujete prisluškuješ prisluškujte prisluškuju
+90	3790	komandir	komandira komandire komandiri komandirima komandirom komandiru
+91	3791	kvar	kvara kvare kvarom kvarova kvarove kvarovi kvaru
+92	3792	formula	formulama formule formuli formulom formulu
+93	3793	starica	staricama starice starici staricom staricu
+94	3794	tajanstven	najtajanstvenijih tajanstvena tajanstvene tajanstveni tajanstvenih tajanstvenim tajanstveno tajanstvenog tajanstvenoj tajanstvenom tajanstvenu
+95	3795	las	
+96	3796	fascinantan	fascinantna fascinantne fascinantni fascinantnih fascinantnim fascinantno fascinantnom fascinantnu najfascinantnija
+97	3797	suočavati	suočava suočavaju suočavajući suočavala suočavali suočavam suočavamo suočavanje suočavao suočavate suočavaš
+98	3798	limun	limuna limune limuni limunom limunu
+99	3799	turski	turska turske turskih turskim tursko turskog turskoj turskom tursku
+100	3800	oštro	oštra oštre oštri oštrom oštru

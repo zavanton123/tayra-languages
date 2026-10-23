@@ -1,0 +1,100 @@
+1	6701	vašar	vašara vašare vašarima vašaru
+2	6702	keva	keve kevi kevo kevom kevu
+3	6703	svemoguć	svemoguća svemogućeg svemogućega svemogućem svemogući svemogućim
+4	6704	kvalifikacija	kvalifikacijama kvalifikacije kvalifikaciju
+5	6705	starinski	starinska starinske starinskih starinskim starinsko starinskog starinskom starinsku
+6	6706	desetljeće	desetljeća desetljećima desetljeću
+7	6707	dominantan	dominantna dominantne dominantni dominantnih dominantnim dominantno dominantnog dominantnu
+8	6708	prskati	prska prskaj prskaju prskala prskali prskam prskanje prskao prskaš
+9	6709	радити	радила радили радим радимо радио радите радиш
+10	6710	sekvenca	sekvencama sekvence sekvenci sekvencu
+11	6711	vjeridba	veridba veridbe veridbi veridbu vjeridbe vjeridbu
+12	6712	manipulacija	manipulacijama manipulacije manipulaciji manipulacijom manipulaciju
+13	6713	stiskati	stiskaj stiskaju stiskala stiskali stiskam stiskanje stiskao stiskaš stišće stišćem stišćeš stišći stišću
+14	6714	mučenik	mučenici mučenicima mučenika mučenike mučeniče
+15	6715	fudbalski	fudbalske
+16	6716	konzervativan	konzervativna konzervativne konzervativni konzervativnih konzervativniji konzervativno konzervativnog
+17	6717	menstruacija	menstruacije menstruaciji menstruaciju
+18	6718	sunčati	sunča sunčaju sunčajući sunčala sunčali sunčam sunčamo sunčanje sunčao sunčaš
+19	6719	mitraljez	mitraljeza mitraljeze mitraljezi mitraljezima mitraljezom
+20	6720	trudnica	trudnicama trudnice trudnici trudnicom trudnicu
+21	6721	žohar	žohara žohare žohari žoharima žoharu
+22	6722	grebati	grebala grebali grebanje grebe grebem grebete grebeš grebi grebu
+23	6723	časno	
+24	6724	smrtonosno	
+25	6725	gusto	
+26	6726	pozivnica	
+27	6727	azil	azila azilu
+28	6728	uzica	uzice uzici uzicom uzicu
+29	6729	lasica	lasicama lasice lasicu
+30	6730	tampon	tampona tampone tamponi tamponima
+31	6731	zavlačiti	zavlače zavlačenje zavlači zavlačila zavlačim zavlačimo zavlačio zavlačite zavlačiš
+32	6732	škripa	škripe škripi škripu
+33	6733	začiniti	začine začini začinim začinimo začinio začiniš začinjen začinjena začinjene začinjeni začinjeno
+34	6734	odmazda	odmazde odmazdi odmazdom odmazdu
+35	6735	uklanjanje	uklanjanja
+36	6736	buket	buketa bukete buketom buketu
+37	6737	zadah	zadaha zadahom zadahu
+38	6738	grmljavina	grmljavine grmljavini grmljavinom grmljavinu
+39	6739	karantena	karantene karanteni karantenom karantenu
+40	6740	cimet	cimeta cimetom
+41	6741	perec	pereca perece pereci perecima perecu
+42	6742	opravdan	opravdana opravdane opravdani opravdanim opravdanog opravdanu
+43	6743	sustignuti	sustigao sustigla sustigli sustiglo sustigne sustignem sustignemo sustignu sustići sustiže
+44	6744	dojaviti	dojave dojavi dojavila dojavili dojavio dojavite dojavljeno
+45	6745	praktički	
+46	6746	šestoro	
+47	6747	elegantno	
+48	6748	uvjerljivo	uverljivo
+49	6749	zemljan	zemljana zemljane zemljani zemljanih zemljanima zemljanog zemljanom
+50	6750	pustolovina	pustolovinama pustolovine pustolovini pustolovinu
+51	6751	pojedini	pojedina pojedine pojedinih pojedinim pojedinog pojedinu
+52	6752	zavod	zavoda zavode zavodi zavodu
+53	6753	sudopera	sudopere sudoperi sudoperom sudoperu
+54	6754	patetično	
+55	6755	krem	
+56	6756	očarati	očarala očaran očarana očarani očarao
+57	6757	kec	keca kečeva kečeve kečevi
+58	6758	rizičan	rizična rizične rizični rizičnih rizičnije rizičnim rizičnog rizičnom rizičnu
+59	6759	rezultirati	rezultira rezultirajući rezultirala rezultirale rezultirali rezultiralo rezultirao rezultiraće
+60	6760	procuriti	procure procuri procurila procurile procurilo procurio
+61	6761	postotak	postotaka postotka postotkom postotku
+62	6762	dodavanje	dodavanja dodavanjem dodavanju
+63	6763	uozbiljiti	uozbilji uozbiljim uozbiljimo uozbiljio uozbiljite uozbiljiš
+64	6764	presretati	presretan presretanje presreće presrećemo presreću
+65	6765	sočan	sočna sočne sočni sočnih sočnije sočnim sočnog sočnom sočnu
+66	6766	povoljan	najpovoljniji povoljna povoljne povoljni povoljnih povoljnije povoljnim povoljnoj povoljnom povoljnu
+67	6767	bojiti	boje bojenje bojeći boji bojim bojimo bojio bojite bojiš
+68	6768	kočiti	koče kočenje koči kočim kočio kočite kočiš
+69	6769	hipi	hipija hipije hipiji hipiju
+70	6770	oslobođenje	oslobođenja oslobođenju
+71	6771	napon	napona naponom naponu
+72	6772	bodljikav	bodljikava bodljikave bodljikavi bodljikavih bodljikavim bodljikavo bodljikavog bodljikavom bodljikavu
+73	6773	moralno	
+74	6774	maran	marna marni
+75	6775	merdevine	merdevina merdevinama
+76	6776	uvažen	uvažena uvažene uvaženi uvaženih uvaženim uvaženo uvaženog uvaženom
+77	6777	jedinstvo	jedinstva jedinstvom jedinstvu
+78	6778	književnost	književnosti
+79	6779	umorstvo	umorstva umorstvima umorstvom umorstvu
+80	6780	taliban	talibana talibane talibani talibanima
+81	6781	livada	livadama livade livadi livadu
+82	6782	utapati	utapa utapaju utapala utapali utapam utapamo utapanje utapao utapate utapaš
+83	6783	majmunski	majmunska majmunske majmunskih majmunskim majmunsko majmunskog majmunskom majmunsku
+84	6784	iskakati	iskakala iskakali iskakanje iskakao iskače iskačem iskačemo iskačeš iskači iskačite iskaču
+85	6785	vješati	veša vešaju vešanje vješa vješaju vješali vješanje vješaš
+86	6786	pospan	pospana pospane pospani pospanim pospano
+87	6787	stabilnost	stabilnosti stabilnošću
+88	6788	instalacija	instalacijama instalacije instalaciji instalacijom instalaciju
+89	6789	okolni	okolna okolne okolnih okolnim okolno okolnog okolnom okolnu
+90	6790	patak	pataka patke patkom patku
+91	6791	stavka	stavkama stavke stavki stavku
+92	6792	drskost	drskosti drskošću
+93	6793	seljanin	seljana seljane seljani seljanima
+94	6794	slamka	slamke slamkom slamku
+95	6795	razmjer	razmera razmere razmjera razmjere razmjeri razmjerima
+96	6796	poslušan	poslušna poslušne poslušni poslušnim poslušno poslušnog
+97	6797	glasovati	glasovala glasovali glasovalo glasovanje glasovao glasuj glasuje glasujem glasujmo glasujte glasuju
+98	6798	izobilje	izobilja izobilju
+99	6799	šablona	šablon šablone šabloni šablonu
+100	6800	klizav	klizava klizave klizavi klizavih klizavim klizavo klizavom klizavu

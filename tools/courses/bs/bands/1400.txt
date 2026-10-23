@@ -1,0 +1,100 @@
+1	1301	sudija	sudijama sudije sudiji sudijo sudijom sudiju
+2	1302	vazduh	vazduha vazduhom vazduhu
+3	1303	varati	vara varaj varaju varajući varala varali varam varamo varan varanje varao varate varaš
+4	1304	skroz	
+5	1305	zlatan	zlatna zlatne zlatni zlatnih zlatnim zlatno zlatnog zlatnoj zlatnom zlatnu
+6	1306	provoditi	provode provodeći provodi provodila provodile provodili provodim provodimo provodio provodite provodiću provodiš provođenje
+7	1307	usput	
+8	1308	teren	terena terene tereni terenima terenom terenu
+9	1309	lista	listama liste listi listom listu
+10	1310	milja	miljama milje miljea milji milju
+11	1311	seksualan	seksualna seksualne seksualni seksualnih seksualnim seksualno seksualnog seksualnoj seksualnom seksualnu
+12	1312	gad	gada gade gadom gadova gadove gadovi gadovima gadu
+13	1313	zaštita	zaštite zaštiti zaštitom zaštitu
+14	1314	pristati	pristala pristale pristali pristalo pristane pristanem pristanemo pristanete pristaneš pristani pristanite pristanu pristao pristaće pristaću pristaše
+15	1315	vruć	vruća vruće vrućeg vrućem vrući vrućih vrućim vrućoj vrućom vruću
+16	1316	cesta	cestama ceste cesti cesto cestom cestu
+17	1317	scena	scenama scene sceni scenom scenu
+18	1318	radnja	radnjama radnje radnji radnjom radnju
+19	1319	struja	strujama struje struji strujom struju
+20	1320	uglavnom	
+21	1321	braća	braće braći braćo braćom braću
+22	1322	taksi	taksija taksije taksijem taksiji taksijima taksiju
+23	1323	drugačiji	drugačija drugačijeg drugačijem drugačijih drugačijim drugačijoj drugačijom drugačiju
+24	1324	trik	trika trikom trikova trikove trikovi trikovima triku
+25	1325	pozdraviti	pozdrave pozdravi pozdravila pozdravile pozdravili pozdravim pozdravimo pozdravio pozdravite pozdravićemo pozdravićeš pozdraviću pozdraviš pozdravljen pozdravljeni
+26	1326	odabrati	odabere odaberem odaberemo odaberete odabereš odaberi odaberite odaberu odabrala odabrale odabrali odabralo odabran odabrana odabrane odabrani odabrano odabrao odabraćemo odabraću
+27	1327	zaboga	
+28	1328	puška	pušaka pušci puškama puške puški puškom pušku
+29	1329	prebaciti	prebace prebaci prebacila prebacili prebacilo prebacim prebacimo prebacio prebacite prebaciće prebacićemo prebacićeš prebaciću prebaciš prebačen prebačena prebačene prebačeni prebačeno
+30	1330	oprati	opere operem operemo operete opereš operi operimo operite operu opra oprah oprala oprale oprali opran oprana oprane oprani oprano oprao opraće opraćemo opraću
+31	1331	krasti	krade kradem krademo kradena kradene kradete kradeš kradi kradite kradu kradući krala krale krali krao
+32	1332	kolega	kolegama kolege kolegi kolegica kolegom kolegu
+33	1333	upotrijebiti	upotrebe upotrebi upotrebila upotrebili upotrebim upotrebimo upotrebio upotrebite upotrebiti upotrebiće upotrebićemo upotrebiću upotrebiš upotrebljen upotrebljena upotrebljene upotrebljeni upotrebljeno upotrijebe upotrijebi upotrijebila upotrijebili upotrijebim upotrijebimo upotrijebio upotrijebite upotrijebićemo upotrijebiš upotrijebljen upotrijebljena upotrijebljeno
+34	1334	banda	bandama bande bandi bando bandom bandu
+35	1335	devet	
+36	1336	stranac	stranaca stranca strance strancem stranci strancima strancu stranče
+37	1337	magija	magijama magije magiji magijo magijom magiju
+38	1338	dar	dara dare dari darom darova darove darovi darovima daru
+39	1339	prijetnja	pretnja pretnjama pretnje pretnji pretnjom pretnju prijetnjama prijetnje prijetnji prijetnjom prijetnju
+40	1340	zaglaviti	zaglave zaglavi zaglavila zaglavile zaglavili zaglavilo zaglavim zaglavimo zaglavio zaglavite zaglavićemo zaglavićeš zaglaviću zaglaviš zaglavljen zaglavljena zaglavljene zaglavljeni zaglavljeno
+41	1341	strašan	najstrašnija najstrašnije najstrašnijeg najstrašniji najstrašnijih najstrašnijim najstrašniju strašna strašne strašni strašnih strašnija strašnije strašnijeg strašniji strašnim strašnog strašnoga strašnoj strašnom strašnu
+42	1342	padati	pada padaj padajte padaju padajući padala padale padali padalo padam padamo padanje padao padate padaće padaš
+43	1343	svinja	svinjama svinje svinji svinjo svinjom svinju
+44	1344	svjestan	svesna svesne svesni svesniji svesno svesnog svesnom svestan svjesna svjesne svjesni svjesniji svjesnim svjesno svjesnog svjesnom svjesnu
+45	1345	završen	završena završene završeni završenih završenim završeno završenog završenom završenu
+46	1346	pozicija	pozicijama pozicije poziciji pozicijom poziciju
+47	1347	živjeli	živeli
+48	1348	davno	
+49	1349	ljubazan	ljubazna ljubazne ljubazni ljubaznih ljubaznija ljubaznije ljubazniji ljubaznim ljubazno ljubaznog ljubaznoj ljubaznom ljubaznu najljubaznija najljubaznije najljubazniji
+50	1350	lopov	lopova lopove lopovi lopovima lopovom lopovu
+51	1351	održati	održala održale održali održalo održan održana održani održano održao održaće održaćemo održaću održe održi održim održimo održite održiš
+52	1352	moćan	moćna moćne moćni moćnih moćnija moćnije moćnijeg moćniji moćnijim moćniju moćnim moćnima moćno moćnog moćnoga moćnoj moćnom moćnu najmoćnija najmoćnije najmoćnijeg najmoćniji najmoćnijih najmoćnijim najmoćnijoj najmoćniju
+53	1353	ponašanje	ponašanja ponašanjem ponašanju
+54	1354	plaža	plažama plaže plaži plažom plažu
+55	1355	mjera	mera merama mere meri merom meru mjerama mjere mjeri mjerom mjeru
+56	1356	povjerenje	poverenja poverenje poverenjem poverenju povjerenja povjerenjem povjerenju
+57	1357	specijalan	specijalna specijalne specijalni specijalnih specijalnim specijalnog specijalnoj specijalnom specijalnu
+58	1358	seksi	
+59	1359	slučajno	
+60	1360	glumac	glumaca glumački glumca glumce glumcem glumci glumcima glumcu glumica glumicama glumice glumici glumicom glumicu
+61	1361	poslovan	poslovna poslovne poslovni poslovnih poslovnim poslovno poslovnog poslovnoj poslovnom poslovnu
+62	1362	svrha	svrhe svrhom svrhu svrsi
+63	1363	stolica	stolicama stolice stolici stolicom stolicu
+64	1364	miris	mirisa mirise mirisi mirisima mirisom mirisu
+65	1365	ispravan	ispravna ispravne ispravni ispravnih ispravnim ispravno ispravnog ispravnom ispravnu
+66	1366	ondje	onde
+67	1367	normalno	
+68	1368	zanimljivo	
+69	1369	zapaliti	zapale zapali zapalila zapalile zapalili zapalilo zapalim zapalimo zapalio zapalite zapaliće zapalićemo zapalićeš zapaliću zapališ zapaljen zapaljena zapaljene zapaljeni zapaljeno
+70	1370	mirno	
+71	1371	desno	
+72	1372	gle	гле
+73	1373	rak	raka rakom rakova rakove rakovi rakovima raku račić račića račiće račići račićima račiću
+74	1374	zahvalan	zahvalna zahvalne zahvalni zahvalnih zahvalniji zahvalnim zahvalno zahvalnog
+75	1375	štititi	štite štiteći štiti štitila štitile štitili štitilo štitim štitimo štitio štitite štitiće štitiću štitiš
+76	1376	napredovati	napredovala napredovale napredovali napredovalo napredovanja napredovanje napredovanjem napredovanju napredovao napreduj napreduje napredujem napredujemo napredujete napreduješ napreduju napredujući
+77	1377	tiho	tiše
+78	1378	braniti	brane braneći brani branila branile branili branim branimo branio branite braniće braniću braniš branjena branjenje
+79	1379	prekrasan	prekrasna prekrasne prekrasni prekrasnih prekrasnim prekrasno prekrasnog prekrasnoj prekrasnom prekrasnu
+80	1380	nalog	naloga naloge nalogom nalogu nalozi nalozima
+81	1381	gadan	gadna gadne gadni gadnih gadnija gadnije gadniji gadnim gadno gadnog gadnoj gadnom gadnu najgadnije
+82	1382	snimati	snima snimaj snimajte snimaju snimajući snimala snimale snimali snimalo snimam snimamo sniman snimana snimane snimani snimano snimao snimate snimaće snimaćemo snimaćete snimaću snimaš
+83	1383	prekasno	
+84	1384	stvarati	stvara stvaraj stvarajte stvaraju stvarajući stvarala stvarale stvarali stvaralo stvaram stvaramo stvarana stvarao stvarate stvaraš
+85	1385	prevesti	prevede prevedem prevedemo preveden prevedena prevedeni prevedeno prevedete prevedeš prevedi prevedite prevela preveli preveo prevezao preveze prevezem prevezemo prevezen prevezena prevezeni prevezete prevezeš prevezli prevezu prevešću
+86	1386	razred	razreda razrede razredi razredima razredom razredu
+87	1387	sjebati	sjebala sjebale sjebali sjebalo sjeban sjebana sjebane sjebani sjebao sjebaće sjebaćemo sjebaćeš sjebaću sjebe sjebem sjebemo sjebete sjebeš sjebi sjebimo sjebite sjebu
+88	1388	tačka	tačaka tačkama tački tačkom tačku točaka točka točkama točke točki točkom točku
+89	1389	соба	се си соби собом собу
+90	1390	izjava	izjavama izjave izjavi izjavom izjavu
+91	1391	pravda	pravde pravdi pravdom pravdu
+92	1392	čuvar	čuvara čuvare čuvarem čuvari čuvarima čuvarom čuvaru
+93	1393	griješiti	greše greši grešila grešili grešim grešimo grešio grešite grešiti grešiš griješe griješi griješila griješili griješim griješimo griješio griješite griješiš
+94	1394	ugao	ugla uglom uglova uglove uglovi uglovima uglu
+95	1395	mreža	mrežama mreže mreži mrežo mrežom mrežu
+96	1396	slijep	slep slepa slepe slepi slepih slepim slepima slepo slepog slepoj slepom slepu slijepa slijepe slijepi slijepih slijepim slijepima slijepo slijepog slijepoj slijepom slijepu
+97	1397	stil	stila stile stilom stilova stilove stilovi stilovima stilu
+98	1398	napokon	
+99	1399	vozač	vozača vozače vozačem vozači vozačima vozaču
+100	1400	povratak	povrataka povratka povratke povratkom povratku

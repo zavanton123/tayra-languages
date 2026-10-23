@@ -1,0 +1,100 @@
+1	3801	peškir	peškira peškire peškiri peškirima peškirom peškiru
+2	3802	umak	umaci umaka umake umakom umaku umače
+3	3803	orah	oraha orahe orahom orahu orasi orasima
+4	3804	lijes	les lesa lese lesom lesu lies lijesa lijesova lijesovi lijesu
+5	3805	iznenadan	iznenadna iznenadne iznenadni iznenadnih iznenadnim iznenadno iznenadnog iznenadnoj iznenadnom iznenadnu
+6	3806	isprati	ispere isperem isperemo ispereš isperi isperite isperu isprala isprali ispran isprana isprane isprani isprano isprao ispraše
+7	3807	zabrana	zabrane zabrani zabranom zabranu
+8	3808	otmjen	otmen otmena otmene otmeni otmenih otmenije otmenim otmeno otmenog otmenom otmenu otmjena otmjene otmjeni otmjenih otmjenije otmjenim otmjeno otmjenog otmjenoj otmjenom otmjenu
+9	3809	kažnjavati	kažnjava kažnjavaj kažnjavaju kažnjavajući kažnjavala kažnjavali kažnjavam kažnjavamo kažnjavan kažnjavana kažnjavani kažnjavanje kažnjavao kažnjavate kažnjavaš
+10	3810	zažaliti	zažale zažali zažalila zažalili zažalim zažalio zažalite zažaliće zažalićete zažalićeš zažaliću zažališ
+11	3811	ravnoteža	ravnoteže ravnoteži ravnotežom ravnotežu
+12	3812	močvara	močvarama močvare močvari močvarom močvaru
+13	3813	paklen	paklena paklene pakleni paklenih paklenim pakleno paklenog paklenoj paklenom paklenu
+14	3814	ružno	
+15	3815	vječnost	večnost večnosti vječnosti
+16	3816	kvaliteta	kvalitete kvaliteti kvalitetom kvalitetu
+17	3817	tuširati	tušira tuširaj tuširaju tuširala tuširali tuširam tuširamo tuširanje tuširao tuširate tuširaš
+18	3818	greben	grebena grebene grebeni grebenima grebenom grebenu
+19	3819	zaštitni	zaštitna zaštitne zaštitnih zaštitnim zaštitno zaštitnog zaštitnoj zaštitnom zaštitnu
+20	3820	pedeset	
+21	3821	doseliti	dosele doseli doselila doselile doselili doselim doselio doselite doseliš
+22	3822	obožavatelj	obožavatelja obožavatelje obožavatelji obožavateljima obožavatelju
+23	3823	but	buta bute butom butu
+24	3824	znojiti	znoje znojenje znoji znojila znojili znojim znojimo znojio znojite znojiš
+25	3825	prosječan	prosečan prosečna prosečne prosečni prosečnih prosečnim prosečno prosečnog prosečnom prosečnu prosječna prosječne prosječni prosječnih prosječnim prosječno prosječnog prosječnoj prosječnom prosječnu
+26	3826	striptizeta	striptizetama striptizete striptizeti striptizetom striptizetu
+27	3827	prepasti	prepade prepadne prepadnem prepadnemo prepadneš prepadnu prepala prepale prepali prepalo prepao
+28	3828	skandal	skandala skandale skandali skandalima skandalom skandalu
+29	3829	pretući	pretuci pretucite pretukao pretukla pretukli pretuku pretuče pretučen pretučena pretučene pretučeni pretučeno
+30	3830	polovica	polovice polovici polovicom polovicu
+31	3831	pukotina	pukotinama pukotine pukotini pukotinu
+32	3832	urednik	urednici urednicima urednika urednike urednikom uredniku
+33	3833	dohvatiti	dohvate dohvati dohvatila dohvatili dohvatilo dohvatim dohvatimo dohvatio dohvatite dohvatiću dohvatiš
+34	3834	televizor	televizora televizore televizori televizorima televizorom televizoru
+35	3835	truo	trula trule truli trulih trulim trulo trulog truloj trulom trulu
+36	3836	prestrašiti	prestraše prestrašen prestrašena prestrašene prestrašeni prestrašeno prestraši prestrašila prestrašili prestrašilo prestrašim prestrašimo prestrašio prestrašiš
+37	3837	navoditi	navode navodeći navodi navodila navodili navodim navodimo navodio navodite navodiš navođen navođeni navođenje
+38	3838	gladak	glatka glatke glatki glatkih glatkim glatko glatkog glatkoj glatkom glatku glađu
+39	3839	nebeski	nebeska nebeske nebeskih nebeskim nebesko nebeskog nebeskoj nebeskom nebesku
+40	3840	trauma	traumama traume traumi traumom traumu
+41	3841	šah	šaha šahom šahu
+42	3842	zanemariti	zanemare zanemaren zanemarena zanemarene zanemareni zanemareno zanemari zanemarila zanemarili zanemarim zanemarimo zanemario zanemarite zanemariš
+43	3843	muva	muvama muve muvi muvo muvu
+44	3844	dizajn	dizajna dizajne dizajni dizajnima dizajnom dizajnu
+45	3845	ujesti	ujede ujedem ujeden ujedena ujedeš ujedi ujedu ujela ujeli ujelo ujeo uješće uješću
+46	3846	poletjeti	polete poletela poleteli poleteo poleteti poleti poletim poletimo poletio poletite poletiš poletjela poletjeli
+47	3847	mačak	mačaka mače mačke mačkom mačku
+48	3848	zahod	zahoda zahode zahodi zahodima zahodom zahodu
+49	3849	nagađati	nagađa nagađaj nagađajte nagađaju nagađam nagađamo nagađanja nagađanje nagađate nagađaš
+50	3850	hobi	hobija hobije hobijem hobiji hobijima hobiju
+51	3851	datoteka	datoteci datotekama datoteke datotekom datoteku
+52	3852	volan	volana volanom volanu
+53	3853	jesen	jeseni jesenju
+54	3854	korisno	
+55	3855	zainteresiran	zainteresirani
+56	3856	evropski	europska europske europski europskih europskim europsko europskog europskoj europskom europsku evropska evropske evropskih evropskim evropskoj evropsku
+57	3857	globalan	globalna globalne globalni globalnih globalnim globalnog globalnoj globalnom globalnu
+58	3858	lažno	
+59	3859	upad	upada upade upadi upadima upadom upadu
+60	3860	kisik	kisika kisikom kisiku
+61	3861	transport	transporta transporti transportom transportu
+62	3862	amber	
+63	3863	saradnja	saradnje saradnji saradnjom saradnju
+64	3864	nadzirati	nadzirala nadzirali nadziran nadziranje nadzirao nadzire nadzirem nadziremo nadzirete nadzireš nadziri nadzirite nadziru
+65	3865	sajt	sajta sajtom sajtova sajtove sajtovi sajtovima sajtu
+66	3866	potencijalan	potencijalna potencijalne potencijalni potencijalnih potencijalnim potencijalnog potencijalnoj potencijalnom potencijalnu
+67	3867	pretraživati	pretraživala pretraživali pretraživanje pretraživao pretražuje pretražujem pretražujemo pretražujete pretražuješ pretražuju pretražujući
+68	3868	vlažan	vlažna vlažne vlažni vlažnih vlažnije vlažnim vlažno vlažnog vlažnoj vlažnom vlažnu
+69	3869	gušiti	guše gušeći guši gušila gušili gušim gušimo gušio gušite gušiš
+70	3870	zaklon	zaklona zaklone zakloni zaklonu
+71	3871	komitet	komiteta komiteti komitetom komitetu
+72	3872	čokoladni	čokoladna čokoladne čokoladnih čokoladnim čokoladno čokoladnog čokoladnom čokoladnu
+73	3873	ozljeda	ozleda ozlede ozljedama ozljede ozljedi ozljedom ozljedu
+74	3874	spas	spasa spase spasu
+75	3875	štab	štaba štabom štabu
+76	3876	fil	fila filom filu
+77	3877	krtica	krtice krtici krticom krticu
+78	3878	unajmiti	unajme unajmi unajmim unajmimo unajmite unajmićemo unajmiću unajmiš
+79	3879	napuštati	napušta
+80	3880	samopouzdanje	samopouzdanja samopouzdanjem samopouzdanju
+81	3881	lubanja	lubanjama lubanje lubanji lubanjom lubanju
+82	3882	dosaditi	dosade dosadi dosadila dosadile dosadili dosadilo dosadio
+83	3883	sudeći	
+84	3884	opstanak	opstanka opstankom opstanku
+85	3885	krpa	krpama krpe krpi krpica krpicama krpice krpicu krpom krpu
+86	3886	unutrašnjost	unutrašnjosti unutrašnjošću
+87	3887	ego	ega egom egu
+88	3888	studeni	stu studenog studenoga studenom
+89	3889	bespomoćan	bespomoćna bespomoćne bespomoćni bespomoćnih bespomoćnim bespomoćnima bespomoćno bespomoćnog bespomoćnoj bespomoćnom bespomoćnu
+90	3890	strogo	
+91	3891	tjelesni	telesna telesne telesni telesnih telesnim telesno telesnog telesnom telesnu tjelesna tjelesne tjelesnih tjelesnim tjelesno tjelesnog tjelesnoga tjelesnoj tjelesnom tjelesnu
+92	3892	duhovan	duhovna duhovne duhovni duhovnih duhovnim duhovnog duhovnoj duhovnom duhovnu
+93	3893	odbacivati	odbacivali odbacivanje odbacivao odbacuj odbacuje odbacujem odbacujemo odbacujete odbacuješ odbacujte odbacuju odbacujući
+94	3894	bradavica	bradavicama bradavice bradavici bradavicom bradavicu
+95	3895	središte	središta središtem središtu
+96	3896	kuga	kuge kugi kugo kugom kugu
+97	3897	ukinuti	ukine ukinem ukinemo ukinete ukini ukinite ukinu ukinula ukinuli ukinuo ukinut ukinuta ukinute ukinuto ukinuće
+98	3898	masovan	masovna masovne masovni masovnih masovnim masovnog masovnoj masovnom masovnu
+99	3899	kuk	kukom kukova kukove kukovi kukovima kuku
+100	3900	pat	pata patom patu

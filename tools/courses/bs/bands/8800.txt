@@ -1,0 +1,100 @@
+1	8701	solidarnost	solidarnosti
+2	8702	žarulja	žarulje žarulju
+3	8703	sačmara	sačmare sačmarom sačmaru
+4	8704	lokomotiva	lokomotive lokomotivi lokomotivu
+5	8705	energičan	energična energične energični energičnije energičniji energično
+6	8706	pacijentkinja	pacijentkinje pacijentkinji pacijentkinjom pacijentkinju
+7	8707	zelenilo	zelenila zelenilom
+8	8708	naglašavati	naglašava naglašavaju naglašavajući naglašavam naglašavanje naglašavao
+9	8709	bludnica	bludnice bludnici bludnicom bludnicu
+10	8710	neuredno	
+11	8711	nadmoć	nadmoći
+12	8712	nadolje	nadole
+13	8713	pošast	pošasti
+14	8714	administrator	administratora administratore administratori
+15	8715	smola	smole smolom smolu
+16	8716	pravdati	pravdaj pravdam pravdaš
+17	8717	balega	balege balegom balegu
+18	8718	gaziran	gazirana gazirane gazirani gaziranih gazirano gaziranog gaziranu
+19	8719	isprljati	isprlja isprljaju isprljala isprljam isprljao isprljaćeš isprljaš
+20	8720	vješala	vešala vešalima vješalima
+21	8721	misionar	misionara misionare misionari misionarima
+22	8722	osvetoljubiv	osvetoljubiva osvetoljubive osvetoljubivi osvetoljubivo osvetoljubivog
+23	8723	istrijebiti	istrebi istrebili istrebiti istrebljena istrebljeni istrijebe istrijebi istrijebili istrijebljeni
+24	8724	češati	češala češanje češao češe češem češeš češi češu
+25	8725	miljenik	miljenici miljenika miljenike
+26	8726	vreti	vrela vrele vreli vrenja vreće vreću vri vrio vru vrući
+27	8727	nesvjesno	nesvesno
+28	8728	cvrčak	cvrčaka cvrčci cvrčka cvrčke
+29	8729	aroma	arome aromom aromu
+30	8730	kartati	kartaju kartali kartam kartamo kartao kartate kartaš
+31	8731	sjeveroistok	severoistok severoistoka severoistoku sjeveroistoka sjeveroistoku
+32	8732	mitski	mitska mitske mitskih mitskim mitsko mitskog mitskoj mitskom mitsku
+33	8733	zastrašujući	
+34	8734	metabolizam	metabolizma metabolizmom metabolizmu
+35	8735	humanost	humanosti
+36	8736	raskršće	raskršća raskršću
+37	8737	grafit	grafita grafite
+38	8738	trnje	trnja trnjem trnju
+39	8739	lemur	lemura lemure lemuri lemurima
+40	8740	tržišni	tržišna tržišne tržišnim tržišnog tržišnoj tržišnu
+41	8741	ovladati	ovlada ovladaju ovladala ovladali ovladam ovladao ovladaš
+42	8742	odijevati	odijeva odijevaju odijevala odijevali odijevam odijevanje odijevate odijevaš
+43	8743	monetarni	monetarna monetarne monetarnim monetarnog monetarnom monetarnu
+44	8744	či	
+45	8745	avaj	
+46	8746	broš	broša
+47	8747	bridž	bridža bridžu
+48	8748	golman	golmana golmanom
+49	8749	privrženost	privrženosti
+50	8750	grubijan	grubijana grubijane grubijani grubijanima grubijanu
+51	8751	kozmetika	kozmetici kozmetike kozmetikom kozmetiku
+52	8752	zaseban	zasebna zasebne zasebni zasebnih zasebnim zasebnu
+53	8753	dodjeljivati	dodeljuje dodeljujem dodeljuju dodjeljuje dodjeljujem dodjeljujemo dodjeljuju
+54	8754	pakistanski	pakistanska pakistanske pakistanskih pakistanskim pakistansko pakistanskog pakistanskom pakistansku
+55	8755	zavisan	zavisna zavisne zavisni zavisnim
+56	8756	mišićav	mišićava mišićave mišićavi mišićavih mišićavog mišićavom
+57	8757	jugozapadni	jugozapadna jugozapadne jugozapadnim jugozapadnog jugozapadnoj jugozapadnom
+58	8758	otkloniti	otkloni otklonila otklonili otklonim otklonimo otklonio otklonjena
+59	8759	kapati	kapala kapanje kaplje kaplju
+60	8760	cvjetni	cvetna cvetne cvetni cvetnih cvetnu cvjetna cvjetne cvjetnim cvjetnom
+61	8761	šaljivdžija	
+62	8762	avans	avansa
+63	8763	šuga	šuge šugu
+64	8764	gnojivo	gnojiva gnojivom
+65	8765	subotnji	subotnja subotnje subotnjoj subotnju
+66	8766	desetnik	desetnika desetniče
+67	8767	smaragd	smaragda smaragde smaragdi smaragdima
+68	8768	prisan	prisna prisne prisni prisniji prisno
+69	8769	pasivan	pasivna pasivne pasivni pasivnog pasivnu
+70	8770	jestiv	jestiva jestive jestivi jestivim jestivog jestivu
+71	8771	starina	starinama starine starino starinu
+72	8772	grditi	grde grdi grdila grdim grdite grdiš
+73	8773	zalog	zaloga zalogu
+74	8774	veranda	verande verandi verandu
+75	8775	kršćanstvo	kršćanstva kršćanstvu
+76	8776	rt	rta rtu
+77	8777	popriličan	poprilična popriličnu
+78	8778	lavabo	lavaboa lavabou
+79	8779	improvizacija	improvizacije improvizaciji improvizaciju
+80	8780	причати	прича причали причам причамо причао причаш причај приче причу
+81	8781	traperice	
+82	8782	obilježje	obilježja obilježjima
+83	8783	polusestra	polusestre polusestrom polusestru
+84	8784	poriv	poriva porive porivi porivima porivu
+85	8785	klaonica	klaonice klaonici klaonicu
+86	8786	redakcija	redakcije redakciji redakciju
+87	8787	tabela	tabelama tabele tabeli tabelu
+88	8788	sazreti	sazrela sazrele sazreli sazrelo sazreo sazri sazrio
+89	8789	jež	ježa ježeva ježeve ježevi
+90	8790	prestignuti	prestigao prestigla prestigli prestigne prestigni prestići prestiže
+91	8791	uzduž	
+92	8792	apokalipsa	
+93	8793	sekretarijat	sekretarijata sekretarijatu
+94	8794	špil	špila špilom špilu
+95	8795	dželat	dželata dželati dželatu
+96	8796	riva	rive rivi rivu
+97	8797	telepatski	telepatska telepatske telepatskih telepatsko telepatskog telepatsku
+98	8798	implicirati	implicira impliciram implicirao implicirate impliciraš
+99	8799	astronomija	astronomije astronomiji astronomiju
+100	8800	gunđati	gunđa gunđaj gunđaju gunđam gunđanje gunđao gunđaš

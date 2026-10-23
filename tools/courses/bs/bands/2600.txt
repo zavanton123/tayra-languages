@@ -1,0 +1,100 @@
+1	2501	tužba	tužbama tužbe tužbi tužbom tužbu
+2	2502	raspoložiti	raspoložen raspoložena raspoložene raspoloženi raspoloženo
+3	2503	okolina	okoline okolini okolinom okolinu
+4	2504	akademija	akademije akademiji akademiju akademska akademske akademski akademskih akademskim akademsko akademskog akademskoj akademskom akademsku
+5	2505	izuzetno	
+6	2506	lažov	lažova lažove lažovi lažovima lažovom lažovu
+7	2507	beskoristan	beskorisna beskorisne beskorisni beskorisnih beskorisnim beskorisno beskorisnog beskorisnom beskorisnu
+8	2508	zamisao	zamisli zamislima
+9	2509	tigar	tigra tigre tigrom tigrova tigrove tigrovi tigrovima tigru
+10	2510	recept	recepata recepta recepte recepti receptima receptom receptu
+11	2511	emocija	emocijama emocije emociju
+12	2512	kupac	kupaca kupca kupce kupcem kupci kupcima kupcu
+13	2513	polomiti	polome polomi polomila polomile polomili polomilo polomim polomimo polomio polomite polomiće polomićeš polomiću polomiš polomljen polomljena polomljene polomljeni polomljeno
+14	2514	uvrijediti	uvrede uvredi uvredila uvredili uvredilo uvredim uvredimo uvredio uvredite uvrediti uvrediš uvrijede uvrijedi uvrijedila uvrijedili uvrijedilo uvrijedim uvrijedio uvrijedite uvrijediš
+15	2515	haos	haosa haosom haosu
+16	2516	studirati	studira studiraju studirala studirale studirali studiram studiramo studiranje studirao studirate studiraš
+17	2517	frizura	frizurama frizure frizuri frizurom frizuru
+18	2518	božićni	božićna božićne božićnih božićnim božićno božićnog božićnoj božićnom božićnu
+19	2519	pretjerivati	preterivala preterivanje preterivao preterivati preteruj preteruje preterujem preterujemo preterujete preteruješ preterujmo preterujte preteruju pretjerivanje pretjerivao pretjeruj pretjeruje pretjerujem pretjerujemo pretjerujete pretjeruješ pretjerujte pretjeruju
+20	2520	proširiti	prošire proširen proširena proširene prošireni proširenje prošireno proširi proširila proširile proširili proširilo proširim proširimo proširio proširite proširiće proširićemo proširiću proširiš
+21	2521	glasan	glasna glasne glasni glasnih glasnija glasnije glasniji glasnim glasnog glasnom glasnu najglasnija najglasnije najglasniji
+22	2522	sudar	sudara sudare sudari sudarima sudarom sudaru
+23	2523	rješavati	rešava rešavaj rešavaju rešavala rešavali rešavam rešavamo rešavanje rešavao rešavate rešavati rešavaš rješava rješavaj rješavaju rješavajući rješavala rješavali rješavam rješavamo rješavanja rješavanje rješavanju rješavao rješavate rješavaš
+24	2524	neobično	
+25	2525	koliba	kolibama kolibe kolibi kolibom kolibu
+26	2526	masa	masama mase masi maso masom masu
+27	2527	tehnika	tehnici tehnikama tehnike tehnikom tehniku
+28	2528	napet	nape napeta napete napeti napetih napetija napetije napetiji napetim napeto napetog napetom napetu napni napnite
+29	2529	odrediti	odrede odredi odredila odredili odredilo odredim odredimo odredio odrediste odredite odrediće odredićemo odrediš
+30	2530	osvetiti	osvete osveti osvetila osvetili osvetilo osvetim osvetimo osvetio osvetite osvetiće osvetićemo osvetiću osvetiš osvećen osvećena
+31	2531	mornarica	mornarice mornarici mornaricom mornaricu
+32	2532	spuštati	spušta spuštaj spuštajte spuštaju spuštajući spuštala spuštali spuštalo spuštam spuštamo spuštanje spuštao spuštate spuštaš
+33	2533	izložiti	izlože izložen izložena izložene izloženi izloženo izloži izložila izložili izložilo izložim izložimo izložio izložite izložiću izložiš
+34	2534	međutim	
+35	2535	nauditi	naude naudi naudila naudili naudilo naudim naudimo naudio naudite naudiš
+36	2536	pritvor	pritvora pritvore pritvori pritvorom pritvoru
+37	2537	funkcionisati	funkcionisanje funkcioniše funkcionišem funkcionišemo funkcionišeš funkcionišu
+38	2538	panika	panici panike panikom paniku
+39	2539	tekst	teksta tekstom tekstova tekstove tekstovi tekstovima tekstu
+40	2540	proglasiti	proglase proglasi proglasila proglasile proglasili proglasilo proglasim proglasimo proglasio proglasite proglasiće proglasićemo proglasiću proglasiš proglašen proglašena proglašene proglašeni proglašenje proglašeno
+41	2541	sred	
+42	2542	talas	talasa talase talasi talasima talasom talasu
+43	2543	odmarati	odmara odmaraj odmarajte odmaraju odmarajući odmarala odmarali odmaram odmaramo odmaranje odmarao odmarate odmaraću odmaraš
+44	2544	pišati	piša pišaj pišaju pišala pišali pišam pišamo pišanje pišao pišate pišaće pišaću pišaš
+45	2545	rudnik	rudnici rudnicima rudnika rudnike rudnikom rudniku
+46	2546	preostati	preostala preostale preostali preostalih preostalo preostane preostao
+47	2547	хтети	неће нећу хоће хоћемо хоћете хоћеш хоћу хтела хтели хтео ће ћемо ћете ћеш ћу
+48	2548	mator	matora matore matori matorih matorim matoro matorog matoroj matorom matoru
+49	2549	uživo	
+50	2550	мном	ме ми
+51	2551	meden	medena medene medeni medenih medenim medeno medenog medenom medenu
+52	2552	težina	težine težini težinom težinu
+53	2553	poštedjeti	poštede poštedela poštedeli poštedelo poštedeo poštedeti poštedeću poštedi poštedim poštedimo poštedio poštedite poštediš poštedjela poštedjeli pošteđen pošteđena pošteđeni pošteđeno
+54	2554	liga	ligama lige ligi ligo ligom ligu
+55	2555	privlačiti	privlače privlačenje privlačeći privlači privlačila privlačile privlačili privlačilo privlačim privlačimo privlačio privlačite privlačiš
+56	2556	steći	steci stekao stekla stekle stekli stekne steknem steknemo steknete stekneš stekni steknu stečen stečena stečene stečeni stečeno
+57	2557	napredak	napretka napretkom napretku
+58	2558	prijatan	najprijatnije prijatna prijatne prijatni prijatnih prijatnija prijatnije prijatniji prijatnijim prijatnijom prijatnim prijatnog prijatnom prijatnu
+59	2559	četvrtak	četvrtaka četvrtka četvrtkom
+60	2560	luđak	luđaci luđacima luđaka luđake luđakinja luđakom luđaku luđače
+61	2561	večerati	večeraj večerajmo večerajte večeraju večerala večerale večerali večeram večeramo večerao večerate večeraćemo večeraćeš večeraću večeraš
+62	2562	vrtjeti	vrte vrtela vrteli vrtelo vrteo vrteti vrteći vrti vrtim vrtimo vrtio vrtite vrtiš vrtjela vrtjeli vrtjelo
+63	2563	kocka	kockama kocke kocki kockom kocku
+64	2564	guza	guzama guze guzi guzo guzom guzu
+65	2565	pružati	pruža pružaj pružajte pružaju pružajući pružala pružale pružali pružalo pružam pružamo pružao pružate pružaš
+66	2566	jastuk	jastuci jastucima jastuka jastuke jastukom jastuku jastuče
+67	2567	ton	tone tonom tonova tonove tonovi tonovima tonu
+68	2568	zabiti	zabi zabij zabije zabijem zabijemo zabijen zabijena zabijene zabijeni zabijeno zabijete zabiješ zabijte zabiju zabila zabili zabilo zabio zabiće zabiću
+69	2569	obrisati	obrisa obrisala obrisali obrisan obrisana obrisane obrisani obrisano obrisao obrisaću obriše obrišem obrišemo obrišete obrišeš obriši obrišite obrišu
+70	2570	časopis	časopisa časopise časopisi časopisima časopisom časopisu
+71	2571	univerzitet	univerziteta univerzitete univerziteti univerzitetima univerzitetom univerzitetu
+72	2572	rijetko	retko
+73	2573	hljeb	hleb hleba hlebom hlebova hlebu hljeba hljebom leb
+74	2574	mjeriti	mere merenje meri merila merili merim merimo merio merite meriti meriš mjere mjerenje mjeri mjerili mjerim mjerimo mjerio mjerite mjeriš
+75	2575	oporaviti	oporave oporavi oporavila oporavili oporavilo oporavim oporavimo oporavio oporavite oporaviće oporavićeš oporaviću oporaviš oporavljen oporavljena
+76	2576	srijeda	sreda srede sredi sredo sredom sredu srijede srijedi srijedom srijedu
+77	2577	trgovac	trgovaca trgovca trgovce trgovcem trgovci trgovcima trgovcu trgovče
+78	2578	barbar	barbara barbare barbari barbarima barbarom barbaru
+79	2579	zaboravljati	zaboravlja zaboravljaj zaboravljajte zaboravljaju zaboravljajući zaboravljala zaboravljam zaboravljamo zaboravljanje zaboravljao zaboravljate zaboravljaš
+80	2580	procjena	procena procenama procene proceni procenom procenu procjenama procjene procjeni procjenom procjenu
+81	2581	sukob	sukoba sukobe sukobi sukobima sukobom sukobu
+82	2582	kokain	kokaina kokainom kokainu
+83	2583	profesionalac	profesionalaca profesionalca profesionalce profesionalcem profesionalci profesionalcima profesionalcu
+84	2584	gaće	gaća gaćama
+85	2585	organ	organa organe organi organima organom organu
+86	2586	kap	kapi kapima kaplju
+87	2587	nježan	najnežniji nežan nežna nežne nežni nežnih nežnija nežnije nežniji nežnim nežnog nežnoj nežnom nežnu nježna nježne nježni nježnih nježnija nježnije nježniji nježnim nježnog nježnom nježnu
+88	2588	presuda	presude presudi presudom presudu
+89	2589	obiteljski	obiteljska obiteljske obiteljskih obiteljskim obiteljsko obiteljskog obiteljskoj obiteljskom obiteljsku
+90	2590	patnja	patnjama patnje patnji patnjom patnju
+91	2591	promašiti	promaše promašen promašena promašeni promaši promašila promašili promašilo promašim promašimo promašio promašite promašićeš promašiš
+92	2592	plijen	plen plena plenom plenu plijena plijenom plijenu
+93	2593	predak	preci precima predaka pretka pretke pretku
+94	2594	pomiriti	pomire pomireni pomiri pomirila pomirile pomirili pomirim pomirimo pomirio pomirite pomiriš pomiriše
+95	2595	poslovati	poslovala poslovali poslovanja poslovanje poslovanjem poslovanju poslovao posluje poslujem poslujemo poslujete posluješ posluju
+96	2596	ožiljak	ožiljaka ožiljci ožiljcima ožiljka ožiljke ožiljkom ožiljku
+97	2597	interesantno	
+98	2598	liti	lije lijem liju lila lile lili lilo lio liste liše
+99	2599	pripremati	pripremaj pripremaju pripremajući pripremala pripremale pripremali pripremam pripremamo pripremanje pripremao pripremate pripremaš
+100	2600	zadovoljiti	zadovolje zadovoljen zadovoljena zadovoljene zadovoljeni zadovolji zadovoljila zadovoljile zadovoljili zadovoljilo zadovoljim zadovoljimo zadovoljio zadovoljite zadovoljićemo zadovoljiću zadovoljiš

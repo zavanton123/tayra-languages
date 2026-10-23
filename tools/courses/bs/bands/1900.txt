@@ -1,0 +1,100 @@
+1	1801	pokrivati	pokriva pokrivaj pokrivajte pokrivaju pokrivajući pokrivala pokrivale pokrivali pokrivalo pokrivam pokrivamo pokrivanje pokrivao pokrivate pokrivaćemo pokrivaću pokrivaš
+2	1802	začep	začepe začepi
+3	1803	jeftin	jeftina jeftine jeftini jeftinih jeftinija jeftinije jeftinijeg jeftiniji jeftiniju jeftinim jeftinog jeftinoj jeftinom jeftinu najjeftinija najjeftinije najjeftiniji
+4	1804	helikopter	helikoptera helikoptere helikopteri helikopterima helikopterom helikopteru
+5	1805	zamka	zamci zamkama zamke zamki zamkom zamku
+6	1806	dubok	dublja dublje dubljeg dubljem dublji dubljih dubljim dubljoj dublju duboka duboke duboki dubokih dubokim dubokog dubokoj dubokom duboku najdublja najdublje najdubljeg najdubljem najdublji najdubljih najdubljim najdubljoj najdublju
+7	1807	buka	buci buke bukom buku
+8	1808	prijevara	prevara prevarama prevare prevari prevarom prevaru prijevarama prijevare prijevari prijevarom prijevaru
+9	1809	gazda	gazdama gazde gazdi gazdom gazdu
+10	1810	ikakav	ikakva ikakve ikakvi ikakvih ikakvim ikakvo ikakvog ikakvoga ikakvu
+11	1811	dnevni	dnevna dnevne dnevnih dnevnim dnevnog dnevnoj dnevnom dnevnu
+12	1812	alkohol	alkohola alkoholom alkoholu
+13	1813	stav	stava stave stavom stavova stavove stavovi stavovima stavu
+14	1814	zgrabiti	zgrabe zgrabi zgrabila zgrabile zgrabili zgrabilo zgrabim zgrabimo zgrabio zgrabite zgrabiće zgrabiću zgrabiš
+15	1815	tolik	tolika tolike toliki tolikih tolikim tolikog tolikoj tolikom toliku
+16	1816	opisati	opisa opisala opisale opisali opisalo opisan opisana opisane opisani opisano opisao opiše opišem opišemo opišete opišeš opiši opišite opišu
+17	1817	vampir	vampira vampire vampiri vampirima vampirom vampiru
+18	1818	projekt	projekata projekta projekte projekti projektima projektom projektu
+19	1819	požar	požara požare požari požarima požarom požaru
+20	1820	sudac	suca suce sucem suci sucima sucu sudaca sudca sudce sudcem sudci sudcu sudče suče
+21	1821	približavati	približava približavaj približavajte približavaju približavajući približavala približavali približavalo približavam približavamo približavanje približavao približavate približavaš
+22	1822	prijedlog	predlog predloga predloge predlogom predlogu predlozi predlozima predlože prijedloga prijedloge prijedlogom prijedlogu prijedlozi prijedlozima
+23	1823	ukloniti	uklone ukloni uklonila uklonili uklonilo uklonim uklonimo uklonio uklonite ukloniće uklonićemo ukloniću ukloniš uklonjen uklonjena uklonjene uklonjeni uklonjeno
+24	1824	smjesta	smesta
+25	1825	zvijer	zver zveri zverima zvijeri zvijerima
+26	1826	lord	lorda lorde lordom lordova lordove lordovi lordovima lordu
+27	1827	izazov	izazova izazove izazovi izazovima izazovom izazovu
+28	1828	staza	stazama staze stazi stazom stazu
+29	1829	car	cara care carem careva careve carevi carevima caru
+30	1830	zatvarati	zatvara zatvaraj zatvarajte zatvaraju zatvarajući zatvarala zatvarali zatvaram zatvaramo zatvaran zatvaranje zatvarao zatvarate zatvaraš
+31	1831	smjer	smer smera smerom smerovima smeru smjera smjerom smjerova smjerovima smjeru
+32	1832	lav	lava lave lavi lavo lavom lavova lavove lavovi lavovima lavu
+33	1833	tvrditi	tvrde tvrdeći tvrdi tvrdila tvrdile tvrdili tvrdilo tvrdim tvrdimo tvrdio tvrdite tvrdiš
+34	1834	povlačiti	povlače povlačenja povlačenje povlačeći povlači povlačila povlačile povlačili povlačim povlačimo povlačio povlačite povlačiš
+35	1835	objašnjavati	objašnjava objašnjavaj objašnjavaju objašnjavajući objašnjavala objašnjavali objašnjavam objašnjavamo objašnjavanje objašnjavao objašnjavate objašnjavaš
+36	1836	brdo	brda brdima brdom brdu
+37	1837	proces	procesa procese procesi procesima procesom procesu
+38	1838	odvratan	najodvratnija najodvratnije najodvratniji odvratna odvratne odvratni odvratnih odvratnije odvratniji odvratnim odvratnog odvratnoj odvratnom odvratnu
+39	1839	trošiti	troše trošenje trošeći troši trošila trošili trošim trošimo trošio trošite trošiš
+40	1840	temperatura	temperaturama temperature temperaturi temperaturom temperaturu
+41	1841	uhititi	uhite uhiti uhitila uhitili uhitim uhitimo uhitio uhitite uhitiš uhićen uhićena uhićeni uhićeno
+42	1842	čistiti	čiste čisteći čisti čistila čistile čistili čistim čistimo čistio čistite čistićeš čistiću čistiš čišćenje
+43	1843	zdravlje	zdravlja zdravljem zdravlju
+44	1844	košulja	košuljama košulje košulji košuljom košulju
+45	1845	opcija	opcijama opcije opciji opcijom opciju
+46	1846	odjeljenje	odeljenja odeljenje odeljenjem odeljenjima odeljenju odjeljenja odjeljenjem odjeljenju
+47	1847	interes	interesa interese interesi interesima interesom interesu
+48	1848	bend	benda bendom bendova bendove bendovi bendovima bendu
+49	1849	smjena	smena smenama smene smeni smenom smenu smjenama smjene smjeni smjenom smjenu
+50	1850	ispraviti	isprave ispravi ispravila ispravili ispravilo ispravim ispravimo ispravio ispravite ispravićemo ispraviću ispraviš ispravljen ispravljena ispravljeni ispravljeno
+51	1851	sigurnosni	sigurnosna sigurnosne sigurnosnih sigurnosnim sigurnosno sigurnosnog sigurnosnoj sigurnosnom sigurnosnu
+52	1852	loviti	love loveći lovi lovila lovile lovili lovilo lovim lovimo lovio lovite loviće lovićemo loviću loviš lovljen lovljeni lovljenje
+53	1853	usna	usana usnama usne usni usno usnom usnu
+54	1854	vrištati	vrištala vrištale vrištali vrištalo vrištanje vrištao vrištaćeš vrištaću vrište vrišteći vrišti vrištim vrištimo vrištite vrištiš
+55	1855	priprema	pripremama pripreme pripremi pripremom pripremu
+56	1856	prijetiti	prete preteći preti pretim pretimo pretite pretiti pretiš prijete prijeteći prijetila prijetile prijetili prijetilo prijetim prijetimo prijetio prijetite prijetiš
+57	1857	svađati	svađaj svađajmo svađajte svađaju svađajući svađala svađale svađali svađam svađamo svađanje svađao svađate svađaš
+58	1858	svjedočiti	svedoče svedočenje svedoči svedočila svedočili svedočim svedočimo svedočio svedočite svedočiti svedočiću svedočiš svjedoče svjedočenje svjedoči svjedočila svjedočile svjedočili svjedočilo svjedočim svjedočimo svjedočio svjedočite svjedočiću svjedočiš
+59	1859	životan	životna životne životni životnih životnim životno životnog životnoj životnom životnu
+60	1860	kopija	kopijama kopije kopiji kopijom kopiju
+61	1861	glazba	glazbe glazbeni glazbi glazbom glazbu
+62	1862	napadati	napada napadaj napadaja napadaje napadaji napadajte napadaju napadajući napadala napadale napadali napadalo napadam napadamo napadani napadanje napadao napadate napadaš
+63	1863	predavati	predaj predaje predajem predajemo predajete predaješ predajmo predajte predaju predajući predavala predavali predavao
+64	1864	kuja	kujama kuje kuji kujin kujo kujom kuju
+65	1865	posto	
+66	1866	otrov	otrova otrove otrovi otrovima otrovom otrovu
+67	1867	kostim	kostima kostime kostimi kostimima kostimom kostimu
+68	1868	pokvariti	pokvare pokvari pokvarila pokvarile pokvarili pokvarilo pokvarim pokvarimo pokvario pokvarite pokvariće pokvarićeš pokvariću pokvariš
+69	1869	kopati	kopa kopaj kopajte kopaju kopajući kopala kopali kopam kopamo kopan kopanje kopao kopate kopaćemo kopaš
+70	1870	putnik	putnici putnicima putnika putnike putnikom putniku putniče
+71	1871	leš	leša leševa leševe leševi leševima lešom lešu
+72	1872	predomisliti	predomisle predomisli predomislila predomislili predomislim predomislimo predomislio predomislite predomisliće predomisliš
+73	1873	nevjerojatno	
+74	1874	posmatrati	posmatra posmatraj posmatrajmo posmatrajte posmatraju posmatrajući posmatram posmatramo posmatranje posmatrate posmatraće posmatraćemo posmatraću posmatraš
+75	1875	drevan	drevna drevne drevni drevnih drevnim drevnima drevno drevnog drevnoj drevnom drevnu
+76	1876	šutjeti	šute šuti šutim šutimo šutio šutite šutiš šutjela šutjeli
+77	1877	bogatstvo	bogatstava bogatstva bogatstvima bogatstvom bogatstvu
+78	1878	zaposliti	zaposle zaposli zaposlila zaposlili zaposlim zaposlimo zaposlio zaposlite zaposliće zaposlićemo zaposliću zaposliš
+79	1879	četvrti	četvrta četvrte četvrtim četvrtima četvrto četvrtog četvrtoga četvrtoj četvrtom četvrtu
+80	1880	senator	senatora senatore senatori senatorima senatorom senatoru
+81	1881	sluga	slugama sluge slugi slugo slugom slugu sluškinja sluškinjama sluškinje sluškinji sluškinjo sluškinjom sluškinju
+82	1882	sprema	spreme spremi spremu
+83	1883	probiti	probi probij probije probijem probijemo probijen probijena probijene probijeni probijeno probijete probiješ probijte probiju probila probile probili probilo probio probiće probićemo probićeš
+84	1884	raspored	rasporeda rasporede rasporedi rasporedima rasporedom rasporedu
+85	1885	tunel	tunela tunele tuneli tunelima tunelom tunelu
+86	1886	zapisati	zapisa zapisala zapisali zapisan zapisana zapisane zapisani zapisano zapisao zapisaćemo zapisaću zapiše zapišem zapišemo zapišete zapišeš zapiši zapišite zapišu
+87	1887	ratnik	ratnici ratnicima ratnika ratnike ratnikom ratniku ratniče
+88	1888	vrt	vrta vrte vrtom vrtova vrtove vrtovi vrtovima vrtu
+89	1889	uslov	uslova uslove uslovi uslovima uslovom
+90	1890	ravno	
+91	1891	osnovni	osnovna osnovne osnovnih osnovnim osnovno osnovnog osnovnoj osnovnom osnovnu
+92	1892	zaključati	zaključa zaključaj zaključajmo zaključajte zaključaju zaključala zaključale zaključali zaključalo zaključam zaključamo zaključao zaključate zaključaš
+93	1893	pobjednik	pobednici pobednicima pobednik pobednika pobednike pobednikom pobedniku pobjednici pobjednicima pobjednika pobjednike pobjednikom pobjedniku
+94	1894	šećer	šećera šećerom šećeru
+95	1895	straža	straže straži stražo stražom stražu
+96	1896	organizacija	organizacijama organizacije organizaciji organizacijom organizaciju
+97	1897	noćas	
+98	1898	priznavati	priznaj priznaje priznajem priznajemo priznajete priznaješ priznajmo priznajte priznaju priznavali priznavanje priznavao
+99	1899	obraćati	obraća obraćaj obraćajte obraćaju obraćajući obraćala obraćali obraćam obraćamo obraćanje obraćanju obraćao obraćate obraćaćeš obraćaš
+100	1900	uređaj	uređaja uređaje uređajem uređaji uređajima uređaju

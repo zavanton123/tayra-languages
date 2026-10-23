@@ -1,0 +1,100 @@
+1	9101	brlog	brloga brlogu
+2	9102	letač	letača letače letači letaču
+3	9103	obrukati	obruka obrukala obrukam obrukao obrukaš
+4	9104	nanišaniti	nanišani nanišanili nanišanim nanišanio nanišanite nanišaniš
+5	9105	degradirati	degradira degradiraju degradirali degradiran degradirana degradirani degradiranje degradirao
+6	9106	zakočiti	zakočen zakočena zakočeno zakoči zakočila zakočio zakočiš
+7	9107	potpetica	potpeticama potpetice
+8	9108	vjerodostojan	verodostojan verodostojna vjerodostojna vjerodostojne vjerodostojni vjerodostojno
+9	9109	ustupiti	ustupi ustupila ustupili ustupim ustupio ustupite
+10	9110	blenuti	blene blenem blenete bleneš blenu blenuli blenuo
+11	9111	sistematski	sistematsko sistematskog
+12	9112	слушати	слуша слушам слушај слушајте
+13	9113	skeptičan	skeptična skeptični
+14	9114	vegetarijanski	vegetarijanska vegetarijanske vegetarijansko vegetarijansku
+15	9115	treptati	treptala treptanje treptao trepće trepćem trepćeš trepći trepću
+16	9116	nabolje	
+17	9117	frizer	
+18	9118	poslovica	
+19	9119	nasumice	
+20	9120	nerazdvojan	nerazdvojne nerazdvojni
+21	9121	bujica	bujice bujici bujicu
+22	9122	utrnuo	utrnula utrnule utrnuli utrnulo
+23	9123	hibernacija	hibernacije hibernaciji hibernaciju
+24	9124	mnogobrojan	mnogobrojna mnogobrojne mnogobrojni mnogobrojnih mnogobrojnim
+25	9125	šuljati	šulja šuljaju šuljam šuljanje šuljao šuljaš
+26	9126	medvjeđi	medveđa medveđe medveđi medveđu medvjeđa medvjeđe medvjeđeg medvjeđu
+27	9127	karipski	karipska karipske karipskih karipskim karipsko karipskog karipskoj karipskom
+28	9128	sliniti	sline slini slinim sliniš
+29	9129	podvaliti	podvale podvali podvalila podvalili podvalio podvališ
+30	9130	šarlatan	šarlatana šarlatane šarlatani šarlatanu
+31	9131	odbojan	odbojna odbojni odbojnim
+32	9132	priličiti	priliči
+33	9133	odsada	
+34	9134	beznačajno	
+35	9135	здрав	здраво
+36	9136	šrek	
+37	9137	neprofesionalno	
+38	9138	derbi	derbija derbiju
+39	9139	tuberkuloza	tuberkuloze tuberkulozu
+40	9140	iskorijeniti	iskoreni iskorenimo iskoreniti iskorijeni iskorijenimo
+41	9141	snagator	snagatora snagatore snagatori snagatoru
+42	9142	zavidan	zavidna zavidne zavidni zavidno
+43	9143	elektron	elektrona elektrone elektroni
+44	9144	doktorski	doktorska doktorske doktorskih doktorskim doktorsko doktorskoj doktorskom doktorsku
+45	9145	ljevica	levica levice levicom levicu ljevice ljevicom ljevicu
+46	9146	kamuflaža	kamuflaže kamuflažu
+47	9147	slaganje	slaganja slaganjem slaganju
+48	9148	pričljiv	pričljiva pričljivi
+49	9149	ljevak	levak
+50	9150	ravnateljica	ravnateljice ravnateljici ravnateljicom ravnateljicu
+51	9151	kolodvor	kolodvora kolodvoru
+52	9152	nomad	nomada nomade nomadi
+53	9153	dunuti	dune dunem duneš duni dunite dunuo
+54	9154	opsjedati	opseda opsedaju opsjeda opsjedaju opsjedanje opsjedao
+55	9155	zupčanik	zupčanici zupčanicima zupčanika zupčanike
+56	9156	vjetrenjača	vetrenjača vetrenjače vetrenjaču vjetrenjačama vjetrenjače vjetrenjaču
+57	9157	gubitnica	gubitnice gubitnici
+58	9158	orati	ora orahu orale oran orana oranje ore ori oru
+59	9159	atelje	ateljea ateljeu
+60	9160	otirač	otirača otiračem otiraču
+61	9161	neumoran	neumorna neumorni neumornih neumornog neumornom
+62	9162	magma	magme magmi magmom magmu
+63	9163	nemoralno	
+64	9164	istodobno	
+65	9165	očekivano	
+66	9166	vremeplov	
+67	9167	akvarij	akvarija akvariju
+68	9168	tulipan	tulipana tulipane tulipani tulipanima
+69	9169	interval	intervala intervale intervali intervalima intervalu
+70	9170	konfuzija	konfuzije konfuziji konfuziju
+71	9171	opsesivan	opsesivna opsesivne opsesivni opsesivnim opsesivnu
+72	9172	likvidirati	likvidira likvidiraju likvidirali likvidiran likvidirana likvidirani likvidirao
+73	9173	zanos	zanosa zanosom zanosu
+74	9174	naklon	nakloni
+75	9175	tašta	tašte tašti tašto taštom taštu
+76	9176	око	очи очима очију
+77	9177	vestern	vesterna vesterne vesternima vesternu
+78	9178	praznovjerje	praznoverja praznoverje praznovjerja
+79	9179	primoravati	primorava primoravaju primoravajući primoravam primoravao primoravaš
+80	9180	tulumariti	tulumarenje tulumari tulumarila tulumarili tulumarimo tulumario
+81	9181	tetkica	tetkice tetkicu
+82	9182	turbina	turbinama turbine turbinu
+83	9183	keramika	keramici keramike keramikom keramiku
+84	9184	meteorit	meteorita meteoriti meteoritima
+85	9185	monarhija	monarhije monarhiji monarhiju
+86	9186	kozmetički	kozmetička kozmetičke kozmetičkih kozmetičkim kozmetičkog kozmetičkom kozmetičku
+87	9187	ismejavati	ismejava ismejavaju ismejavali ismejavam ismejavanje ismejavao ismejavate ismejavaš
+88	9188	prečica	
+89	9189	danonoćni	danonoćno
+90	9190	neš	
+91	9191	nesigurnost	
+92	9192	neprirodno	
+93	9193	sirovo	
+94	9194	pikado	pikada pikadom pikadu
+95	9195	fenjer	fenjera fenjere fenjeri
+96	9196	provalija	provalije provaliji provaliju
+97	9197	nastaniti	nastane nastani nastanila nastanili nastanio nastanjen nastanjena nastanjeno
+98	9198	pijevac	pevac pevaca pevca pevcu pijevca
+99	9199	potpukovnik	potpukovnika potpukovniče
+100	9200	safir	safira safire safiri safirima

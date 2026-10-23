@@ -1,0 +1,100 @@
+1	2801	položiti	polože položen položena položene položeno položi položila položile položili položim položimo položio položite položićeš položiću položiš
+2	2802	fudbal	fudbala fudbalom fudbalu
+3	2803	sklopiti	sklope sklopi sklopila sklopile sklopili sklopim sklopimo sklopio sklopite sklopićemo sklopiću sklopiš sklopljen sklopljena sklopljene
+4	2804	naporan	naporna naporne naporni napornih napornije napornim napornog napornom napornu
+5	2805	dostaviti	dostave dostavi dostavila dostavili dostavim dostavimo dostavio dostavite dostaviće dostaviću dostaviš dostavljen dostavljena dostavljene dostavljeni dostavljeno
+6	2806	cigara	cigarama cigare cigari cigarom cigaru
+7	2807	zapis	zapisa zapise zapisi zapisima zapisom zapisu
+8	2808	temelj	temelja temelje temeljem temelji temeljima temelju
+9	2809	šampion	šampiona šampione šampioni šampionima šampionom šampionu
+10	2810	frižider	frižidera frižidere frižideri frižiderom frižideru
+11	2811	atmosfera	atmosfere atmosferi atmosferom atmosferu
+12	2812	izgovoriti	izgovore izgovorena izgovorene izgovoreno izgovori izgovorila izgovorile izgovorili izgovorim izgovorimo izgovorio izgovorite izgovoriš
+13	2813	civilizacija	civilizacijama civilizacije civilizaciji civilizacijom civilizaciju
+14	2814	zračan	zračna zračne zračni zračnih zračnim zračno zračnog zračnoj zračnom zračnu
+15	2815	rukovati	rukovala rukovali rukovanje rukovao rukuj rukuje rukujem rukujemo rukujete rukuješ rukujmo rukujte rukuju
+16	2816	kucati	kucaj kucajte kucaju kucala kucali kucalo kucam kucamo kucanje kucao kucate kucaš
+17	2817	nesretan	najnesretniji nesretna nesretne nesretni nesretnih nesretnim nesretno nesretnog nesretnoj nesretnom nesretnu
+18	2818	dugme	dugmeta dugmetima dugmetom dugmetu
+19	2819	komora	komorama komore komori komorom komoru
+20	2820	džin	džina džine džinom džinova džinove džinovi džinovima džinu
+21	2821	heroin	heroina heroine heroinom heroinu
+22	2822	zaključiti	zaključe zaključen zaključena zaključenje zaključeno zaključi zaključila zaključili zaključilo zaključim zaključimo zaključio zaključite zaključiš
+23	2823	centralni	centralna centralne centralnih centralnim centralno centralnog centralnoj centralnom centralnu
+24	2824	kruna	krune kruni krunom krunu
+25	2825	upamtiti	upamte upamti upamtim upamtimo upamtite upamtiću upamtiš
+26	2826	onakav	onakva onakve onakvi onakvih onakvim onakvima onakvo onakvog onakvoj onakvom onakvu
+27	2827	uobičajen	uobičajena uobičajene uobičajeni uobičajenih uobičajenim uobičajenog uobičajenoj uobičajenom uobičajenu
+28	2828	vanjski	vanjska vanjske vanjskih vanjskim vanjsko vanjskog vanjskoga vanjskoj vanjskom vanjsku
+29	2829	savez	saveza saveze savezi savezima savezom savezu
+30	2830	čelo	čela čelom čelu
+31	2831	prijelaz	prelaz prelaza prelaze prelazi prelazima prelazu prijelaza prijelazu
+32	2832	gnjaviti	gnjave gnjavi gnjavim gnjavimo gnjavite gnjaviš
+33	2833	ocjena	ocena ocenama ocene oceni ocenom ocenu ocjenama ocjene ocjeni ocjenom ocjenu
+34	2834	audicija	audicijama audicije audiciji audicijom audiciju
+35	2835	obrazovanje	obrazovanja obrazovanjem obrazovanju
+36	2836	stranka	stranaka stranci strankama stranke strankom stranku
+37	2837	proklet	
+38	2838	roniti	rone roneći roni ronila ronili ronim ronimo ronio ronite roniš ronjenje
+39	2839	prigovor	prigovora prigovore prigovori prigovorima prigovoru
+40	2840	borben	borbena borbene borbeni borbenih borbenim borbenog borbenoj borbenom borbenu
+41	2841	sagraditi	sagrade sagradi sagradila sagradili sagradim sagradimo sagradio sagradite sagradićemo sagradiću sagradiš sagrađen sagrađena sagrađene sagrađeni sagrađeno
+42	2842	ponositi	ponose ponosi ponosila ponosili ponosim ponosimo ponosio ponosite ponosiš
+43	2843	paliti	pale paleći palila palile palili palilo palim palimo palio palite pališ paljenje
+44	2844	prioritet	prioriteta prioritete prioriteti prioritetima prioritetom
+45	2845	prekriti	prekri prekrij prekrije prekrijem prekrijemo prekriješ prekrijte prekriju prekrila prekrile prekrili prekrilo prekrio prekriven prekrivena prekrivene prekriveni prekriveno prekriće
+46	2846	lampa	lampama lampe lampi lampo lampom lampu
+47	2847	presvući	presvuci presvucite presvukao presvukla presvukli presvuku presvuče presvučem presvučemo presvučete presvučeš
+48	2848	buba	bubama bube bubi bubo bubom bubu
+49	2849	sekretarica	sekretaricama sekretarice sekretarici sekretaricom sekretaricu
+50	2850	okružiti	okruže okružen okružena okružene okruženi okruženo okruži okružila okružili okružimo okružio okružite
+51	2851	pozornik	pozornici pozornicima pozornika pozornike pozornikom pozorniku pozorniče
+52	2852	dubina	dubinama dubine dubini dubinom dubinu
+53	2853	častiti	časte časti častila častili častim častimo častio častite častiću častiš čašćenje
+54	2854	ludost	ludosti ludostima ludošću
+55	2855	nakaza	nakazama nakaze nakazi nakazo nakazom nakazu
+56	2856	izvlačiti	izvlače izvlačenje izvlačeći izvlači izvlačila izvlačili izvlačim izvlačimo izvlačio izvlačite izvlačićemo izvlačiš
+57	2857	banana	bananama banane banani bananom bananu
+58	2858	jetra	jetara jetre jetri jetrom jetru
+59	2859	balon	balona balone baloni balonima balonom balonu
+60	2860	pamćenje	pamćenja pamćenjem pamćenju
+61	2861	fantastičan	fantastična fantastične fantastični fantastičnih fantastičnim fantastičnog fantastičnoj fantastičnom fantastičnu
+62	2862	suh	suha suhe suhi suhih suhim suho suhog suhoj suhom suhu suša sušama suše sušim sušom sušu
+63	2863	uticaj	uticaja uticaje uticajem uticaji uticajima uticaju
+64	2864	odan	najodaniji najodanijih odana odane odani odanih odaniji odanim odano odanog odanoj odanom odanu
+65	2865	vrhunski	vrhunska vrhunske vrhunskih vrhunskim vrhunsko vrhunskog vrhunskoj vrhunskom vrhunsku
+66	2866	nekretnina	nekretninama nekretnine nekretnini nekretninu
+67	2867	nedjeljni	nedeljna nedeljne nedeljni nedeljnih nedeljnim nedeljno nedeljnog nedeljnoj nedeljnom nedeljnu nedjeljna nedjeljne nedjeljno nedjeljnog nedjeljnoj nedjeljnom nedjeljnu
+68	2868	simptom	simptoma simptome simptomi simptomima
+69	2869	konobar	konobara konobare konobari konobarima konobarom konobaru
+70	2870	municija	municije municiji municijom municiju
+71	2871	vrijeđati	vređa vređaj vređajte vređaju vređala vređali vređam vređamo vređanje vređao vređate vređati vređaš vrijeđa vrijeđaj vrijeđajte vrijeđaju vrijeđajući vrijeđala vrijeđali vrijeđam vrijeđamo vrijeđanje vrijeđao vrijeđate vrijeđaš
+72	2872	otpad	otpada otpade otpadom otpadu
+73	2873	alibi	alibija alibije alibijem alibiji alibiju
+74	2874	godišnje	
+75	2875	ulazak	ulaska ulaskom ulasku ulazaka
+76	2876	glasno	
+77	2877	drkadžija	drkadžijama drkadžije drkadžiji drkadžijo drkadžijom drkadžiju
+78	2878	veseo	najveseliji vesela vesele veseli veselih veselija veselije veseliji veselim veselog veseloj veselom veselu
+79	2879	raširiti	rašire raširen raširena raširene rašireni rašireno raširi raširila raširile raširili raširilo raširim raširimo raširio raširite raširiće raširiš
+80	2880	strijelac	strelac strelaca strelca strelce strelcem strelci strijelaca strijelca strijelce strijelcem strijelci strijelcima strijelcu strijelče
+81	2881	nacrtati	nacrta nacrtaj nacrtajte nacrtaju nacrtala nacrtali nacrtam nacrtamo nacrtan nacrtana nacrtane nacrtani nacrtano nacrtao nacrtate nacrtaću nacrtaš
+82	2882	ciljati	cilja ciljaj ciljajte ciljaju ciljajući ciljala ciljali ciljam ciljamo ciljanje ciljao ciljate ciljaš
+83	2883	sedmi	sedma sedme sedmim sedmo sedmog sedmoga sedmoj sedmom sedmu
+84	2884	benzin	benzina benzini benzinom benzinu
+85	2885	izgorjeti	izgore izgorela izgorele izgoreli izgorelo izgoreo izgoreti izgoreće izgorećemo izgori izgorim izgorimo izgorio izgoriš izgorjela izgorjele izgorjeli izgorjelo
+86	2886	kloniti	klone kloni klonila klonim klonimo klonio klonite kloniš
+87	2887	kredit	kredita kredite krediti kreditima kreditom kreditu
+88	2888	preskočiti	preskoče preskoči preskočila preskočili preskočilo preskočim preskočimo preskočio preskočite preskočićemo preskočiću preskočiš
+89	2889	sos	sosa sosom sosove sosovima sosu
+90	2890	godišnjica	godišnjice godišnjici godišnjicu
+91	2891	uprkos	
+92	2892	strategija	strategijama strategije strategiji strategijom strategiju
+93	2893	popušiti	popuše popuši popušila popušili popušim popušimo popušio popušite popušiću popušiš
+94	2894	grof	grofa grofe grofom grofova grofove grofovi grofu
+95	2895	procedura	procedurama procedure proceduri procedurom proceduru
+96	2896	fond	fonda fondom fondova fondove fondovi fondovima fondu
+97	2897	ukusan	najukusnija najukusnije najukusniji ukusna ukusne ukusni ukusnih ukusnija ukusnije ukusniji ukusnim ukusnog ukusnoj ukusnom ukusnu
+98	2898	runda	runde rundi rundo rundom rundu
+99	2899	dobrodošlica	dobrodošlice dobrodošlici dobrodošlicom dobrodošlicu
+100	2900	poboljšati	poboljša poboljšaj poboljšaju poboljšala poboljšale poboljšali poboljšalo poboljšam poboljšamo poboljšan poboljšana poboljšane poboljšani poboljšanja poboljšanje poboljšanjima poboljšanju poboljšano poboljšao poboljšate poboljšaš

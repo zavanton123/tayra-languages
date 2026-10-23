@@ -1,0 +1,100 @@
+1	5501	predrasuda	predrasudama predrasude predrasudu
+2	5502	samostan	samostana samostane samostani samostanu
+3	5503	izrasti	izrasla izrasle izrasli izraslo izraste izrastu izrašće
+4	5504	све	
+5	5505	bacač	bacača bacače bacačem bacači bacačima bacaču
+6	5506	prenoćiti	prenoće prenoći prenoćila prenoćili prenoćim prenoćimo prenoćio prenoćite prenoćiš
+7	5507	pohvala	pohvalama pohvale pohvali pohvalom pohvalu
+8	5508	buniti	bune buni bunili bunim bunimo bunio bunite buniš
+9	5509	prepuštati	prepušta prepuštaj prepuštaju prepuštajući prepuštam prepuštamo prepuštanje prepuštao prepuštate prepuštaš
+10	5510	kazalište	kazališta kazalištem kazalištu
+11	5511	spakirati	spakira spakiraj spakirajmo spakirajte spakiraju spakiram spakiramo spakirate spakiraš
+12	5512	izreći	izreci izrecite izrekao izrekla izrekli izrekne izreknem izreku izreče izrečena izrečene izrečeno
+13	5513	pijanac	pijanaca pijanca pijance pijanci pijancima pijancu pijanu
+14	5514	obuti	obu obuj obuje obujem obuješ obujte obula obuli obuo obuven obuće obućeš obuću
+15	5515	poslastica	poslasticama poslastice poslasticom poslasticu
+16	5516	papagaj	papagaja papagaje papagajem papagaji papagaju
+17	5517	ropstvo	ropstva ropstvom ropstvu
+18	5518	carica	carice carici caricom caricu
+19	5519	odstraniti	odstrane odstrani odstranila odstranili odstranim odstranimo odstranio odstranite odstraniš odstranjen odstranjena odstranjeni odstranjeno
+20	5520	svila	svile svili svilom svilu
+21	5521	komunistički	komunistička komunističke komunističkih komunističkim komunističko komunističkog komunističkoj komunističkom komunističku
+22	5522	posjekotina	posekotina posekotine posekotinu posjekotinama posjekotine posjekotinu
+23	5523	nezakonito	
+24	5524	nezahvalan	nezahvalna nezahvalne nezahvalni nezahvalno nezahvalnog nezahvalnom
+25	5525	pokoriti	pokore pokorena pokoreni pokori pokorila pokorili pokorim pokorimo pokorio pokorite pokoriš
+26	5526	zapisivati	zapisivala zapisivali zapisivanje zapisivao zapisuj zapisuje zapisujem zapisujemo zapisujete zapisuješ zapisujte zapisuju
+27	5527	investirati	investira investiraju investirala investirali investiram investiramo investiranje investirao investirate investiraš
+28	5528	pojasniti	pojasni pojasnila pojasnili pojasnilo pojasnim pojasnimo pojasnio pojasnite pojasniš
+29	5529	soko	sokol sokola sokole sokolom sokolova sokolove sokolovi sokolu
+30	5530	zbiti	zbi zbijen zbijena zbijene zbijeni zbijeno zbijte zbila zbili zbilo zbio
+31	5531	lažljiv	lažljiva lažljive lažljivi lažljivih lažljivo lažljivog lažljivom lažljivu
+32	5532	specijalnost	specijalnosti
+33	5533	prisiljavati	prisiljava prisiljavaj prisiljavajte prisiljavaju prisiljavajući prisiljavala prisiljavali prisiljavam prisiljavanje prisiljavao prisiljavate prisiljavaš
+34	5534	neutralan	neutralna neutralne neutralni neutralnih neutralnim neutralno neutralnog neutralnoj neutralnom neutralnu
+35	5535	poklanjati	poklanja poklanjaju poklanjala poklanjali poklanjam poklanjamo poklanjanje poklanjao poklanjate poklanjaš
+36	5536	ljuljati	ljulja ljuljaj ljuljaju ljuljajući ljuljala ljuljali ljuljam ljuljamo ljuljanje ljuljao ljuljaš
+37	5537	naglas	
+38	5538	prisutnost	prisutnosti prisutnošću
+39	5539	tužilaštvo	tužilaštva tužilaštvom tužilaštvu
+40	5540	revolucionaran	revolucionarna revolucionarne revolucionarni revolucionarnih revolucionarnim revolucionarno revolucionarnog revolucionarnoj revolucionarnom revolucionarnu
+41	5541	razveseliti	razvesele razveseli razveselila razveselili razveselilo razveselim razveselimo razveselio razveselite razveseliš
+42	5542	bulja	bulje bulji bulju
+43	5543	poni	ponija poniji
+44	5544	kradljivac	kradljivaca kradljivca kradljivce kradljivcem kradljivci kradljivcima kradljivče
+45	5545	kafana	kafanama kafane kafani kafanu
+46	5546	komarac	komaraca komarca komarce komarci komarcima
+47	5547	sklapati	sklapa sklapaju sklapajući sklapali sklapam sklapamo sklapanje sklapao sklapate sklapaš
+48	5548	ublažiti	ublaže ublaži ublažila ublažili ublažilo ublažim ublažimo ublažio ublažite ublažiće ublažiš
+49	5549	petoro	
+50	5550	nepotrebno	
+51	5551	rujan	rujna rujnu
+52	5552	sobarica	sobarice sobarici sobaricom sobaricu
+53	5553	travanj	tra travnja travnju
+54	5554	dramatičan	dramatična dramatične dramatični dramatičnih dramatičnije dramatičnim dramatičnog dramatičnom dramatičnu
+55	5555	spasitelj	spasitelja spasitelje spasiteljem spasitelji spasiteljima spasitelju
+56	5556	narediti	naredi
+57	5557	vračati	vrača vračaj vračaju vračala vračali vračam vračamo vračanje vračao vračate vračaš
+58	5558	jarac	jarca jarce jarcem jarci jarcu jarče jarčeva
+59	5559	nastajati	nastajanje nastajao nastaje nastaju
+60	5560	legendaran	legendarna legendarne legendarni legendarnih legendarnim legendarnog legendarnoj legendarnom legendarnu
+61	5561	stepenište	stepeništa stepeništem stepeništu
+62	5562	smrtnik	smrtnici smrtnicima smrtnika smrtnike smrtniku smrtniče
+63	5563	kulturan	kulturna kulturne kulturni kulturnih kulturnim kulturnog kulturnoj kulturnom kulturnu
+64	5564	osjećajan	osećajan osećajna osećajne osećajni osećajniji osećajno osećajnog osjećajna osjećajne osjećajni osjećajniji osjećajno
+65	5565	velim	vele veli velite veliš
+66	5566	precizno	
+67	5567	mađioničar	mađioničara mađioničare mađioničari mađioničarima mađioničaru
+68	5568	učinak	učinaka učinci učincima učinka učinke učinkom učinku
+69	5569	lojalan	lojalna lojalne lojalni lojalnih lojalnim lojalno lojalnog
+70	5570	cjelina	celina celine celini celinu cjeline cjelini cjelinu
+71	5571	vakcina	vakcine vakcini vakcinom vakcinu
+72	5572	židovski	židovska židovske židovskih židovskim židovsko židovskog židovskoj židovskom židovsku
+73	5573	porotnik	porotnici porotnicima porotnika porotnike porotnikom porotniče
+74	5574	dud	duda dude dudu
+75	5575	šišmiš	šišmiša šišmiše šišmiši šišmišima šišmišu
+76	5576	knjižara	knjižarama knjižare knjižari knjižaru
+77	5577	nemir	nemira nemire nemiri nemirima nemiru
+78	5578	zbor	zbora zbore zborom zboru
+79	5579	nabacivati	nabacivanje nabacuj nabacuje nabacujem nabacujemo nabacujete nabacuješ nabacuju
+80	5580	grašak	graška graškom grašku
+81	5581	imun	imuna imune imuni imunih imunim imuno imunog
+82	5582	dopust	dopusta dopuste dopusti dopustu
+83	5583	pješačiti	pešače pešačenje pešači pešačila pešačili pešačim pešačimo pešačio pešačiti pešačiš pješačenje pješači pješačila pješačili pješačim pješačimo pješačio
+84	5584	trepnuti	trepne trepnem trepnete trepneš trepni trepnula trepnuli trepnuo
+85	5585	dvoboj	dvoboja dvoboje dvobojima dvoboju
+86	5586	ginuti	gine ginemo gineš gini ginu ginuli
+87	5587	zaklinjati	zaklinjali zaklinjao zaklinje zaklinjem zaklinjemo zaklinjete zaklinješ zaklinju
+88	5588	aspekt	aspekata aspekta aspekte aspekti aspektima aspektom aspektu
+89	5589	okup	okupa okupe okupi okupu
+90	5590	neprikladan	neprikladna neprikladne neprikladni neprikladnim neprikladno neprikladnog neprikladnom neprikladnu
+91	5591	promašaj	promašaja promašaje promašaji
+92	5592	dizajner	dizajnera dizajnere dizajneri dizajnerima dizajnerom dizajneru
+93	5593	prsluk	
+94	5594	kaiš	kaiša kaišem kaiševa kaiševe kaiševi kaišu
+95	5595	kostur	kostura kosture kosturi kosturima kosturom kosturu
+96	5596	izraelski	izraelska izraelske izraelskih izraelskim izraelsko izraelskog izraelskoj izraelskom izraelsku
+97	5597	gama	game gami gamu
+98	5598	naručje	naruče naručja naručju
+99	5599	pi	
+100	5600	biro	

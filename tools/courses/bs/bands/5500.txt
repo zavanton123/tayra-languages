@@ -1,0 +1,100 @@
+1	5401	nepodnošljiv	nepodnošljiva nepodnošljive nepodnošljivi nepodnošljivim nepodnošljivo nepodnošljivom nepodnošljivu
+2	5402	ušetati	ušeta ušetaju ušetala ušetali ušetam ušetamo ušetao ušetate ušetaš
+3	5403	danski	danska danske danskim dansko danskog danskoj danskom dansku
+4	5404	vijećnik	vijećnica vijećnice vijećnici vijećnicom vijećnicu vijećnika vijećnikom vijećniče
+5	5405	poručiti	poručeno poruči poručila poručili poručim poručimo poručio poručite poručiš
+6	5406	uskratiti	uskrate uskrati uskratila uskratili uskratim uskratimo uskratio uskratite uskratiš uskraćen uskraćena uskraćene uskraćeni uskraćeno
+7	5407	zaliti	zali zalij zalije zalijem zalijemo zaliješ zalila zalili zalio zaliven zalivena zaliveni
+8	5408	korisnik	korisnici korisnicima korisnika korisnike korisniku korisnički
+9	5409	porok	poroci porocima poroka poroke poroku
+10	5410	višak	viška viškom
+11	5411	neprilika	neprilici neprilikama neprilike nepriliku
+12	5412	овде	
+13	5413	spadati	spada spadaju spadala spadalo spadam spadamo spadate spadaš
+14	5414	sličnost	sličnosti
+15	5415	katolički	katolička katoličke katoličkih katoličkim katoličko katoličkog katoličkoj katoličkom katoličku
+16	5416	lutalica	lutalicama lutalice lutalici lutalicom lutalicu
+17	5417	nasilnik	nasilnici nasilnicima nasilnika nasilnike nasilnikom nasilniku nasilniče
+18	5418	doživljavati	doživljava doživljavaju doživljavala doživljavali doživljavam doživljavamo doživljavao doživljavate doživljavaš
+19	5419	egipatski	egipatska egipatske egipatskih egipatskim egipatsko egipatskog egipatskoj egipatskom egipatsku
+20	5420	gutljaj	gutljaja gutljajem gutljaju
+21	5421	ošišati	ošiša ošišaj ošišaju ošišala ošišali ošišam ošišamo ošišan ošišani ošišao ošišate ošišaću ošišaš
+22	5422	zračenje	zračenja zračenjem zračenju
+23	5423	vrana	vranama vrane vrano vranu
+24	5424	bizon	bizona bizone bizoni bizonima bizonom bizonu
+25	5425	siroče	siročeta siročetom siročetu
+26	5426	ugrizati	ugriza ugrizao
+27	5427	usvajati	usvaja usvajaju usvajanje usvajanjem
+28	5428	који	која које којим којима којој коју
+29	5429	titl	titla title titlova titlove titlovi titlovima
+30	5430	osnivač	osnivača osnivače osnivačem osnivači osnivačima osnivaču
+31	5431	fotka	fotkama fotke fotki fotku
+32	5432	grč	grča grčeva grčeve grčevi grčevima grču
+33	5433	lažirati	lažira lažiraju lažirala lažirali lažiram lažiramo lažirana lažiranje lažirano lažirao lažiraš
+34	5434	makaze	makaza makazama
+35	5435	štos	štosa štosova štosove
+36	5436	crvenokos	crvenokosa crvenokose crvenokosi crvenokosog crvenokosoj crvenokosom crvenokosu
+37	5437	zmajev	zmajeva zmajeve zmajevi zmajevih zmajevim zmajevima zmajevo zmajevom zmajevu
+38	5438	ponižavati	ponižava ponižavaj ponižavaju ponižavajući ponižavala ponižavali ponižavam ponižavamo ponižavan ponižavana ponižavani ponižavanje ponižavao ponižavate ponižavaš
+39	5439	četrdeset	
+40	5440	posteljina	posteljine posteljini posteljinom posteljinu
+41	5441	zapošljavati	zapošljava zapošljavaju zapošljavali zapošljavam zapošljavamo zapošljavanje zapošljavao zapošljavate zapošljavaš
+42	5442	smaknuti	smakao smakli smakne smaknem smaknemo smaknete smakneš smakni smaknite smaknu smaknuli smaknuo smaknut smaknuta
+43	5443	magnet	magneta magnete magneti magnetima magnetom magnetu
+44	5444	dizalo	dizala dizalima dizalom dizalu
+45	5445	davanje	davanja
+46	5446	vika	vici vikama vike viko vikom viku
+47	5447	republikanac	republikanaca republikanca republikance republikanci republikancima
+48	5448	sentimentalan	sentimentalna sentimentalne sentimentalni sentimentalnih sentimentalnim sentimentalno sentimentalnu
+49	5449	vjerski	verska verske verski verskih verskog vjerska vjerske vjerskih vjerskim vjersko vjerskog vjerskoj vjerskom vjersku
+50	5450	vodoinstalater	vodoinstalatera vodoinstalatere vodoinstalateri vodoinstalaterom vodoinstalateru
+51	5451	debi	debija
+52	5452	sabotirati	sabotira sabotiraju sabotirala sabotirali sabotiram sabotiramo sabotiran sabotirana sabotiranje sabotirao sabotirate sabotiraš
+53	5453	litar	litara litre litri litru
+54	5454	demokratski	demokratska demokratske demokratskih demokratskim demokratsko demokratskog demokratskoj demokratskom demokratsku
+55	5455	kompletno	
+56	5456	isključivo	
+57	5457	mehaničar	mehaničara mehaničare mehaničari mehaničaru
+58	5458	biologija	biologije biologiji biologijom biologiju
+59	5459	zaljev	zaljeva zaljevu
+60	5460	ragbi	ragbija ragbijem ragbiju
+61	5461	krik	krici kricima krika krike krikom krikova krikove krikovi kriku
+62	5462	objava	objave objavi objavom objavu
+63	5463	značajno	
+64	5464	teror	terora terorom teroru
+65	5465	pjevačica	pevačica pevačice pevačicom pevačicu pjevačice pjevačicom pjevačicu
+66	5466	vjernik	vernici vernicima vernik vernika vernike vjernici vjernicima vjernika vjernike
+67	5467	rabiti	rabe rabi rabili rabim rabimo rabio rabite rabiš rabljena rabljene rabljeni
+68	5468	nejasno	
+69	5469	trajno	
+70	5470	дати	дала дали дам дан дана дао даш дај дајте дају
+71	5471	prehlada	prehlade prehladi prehladom prehladu
+72	5472	ventilacija	ventilacije ventilaciji ventilacijom ventilaciju
+73	5473	divovski	divovska divovske divovskih divovskim divovsko divovskog divovskom divovsku
+74	5474	kockar	kockara kockare kockari kockarima kockarom kockaru
+75	5475	automat	automata automate automati automatima automatom automatu
+76	5476	osvajati	osvaja osvajaju osvajala osvajali osvajam osvajamo osvajao osvajate osvajaš
+77	5477	unatrag	
+78	5478	odvoditi	odvode odvodi odvodili odvodim odvodimo odvodio odvodite odvodiš odvođenje
+79	5479	očuh	očuha očuhom očuhu
+80	5480	sirup	sirupa sirupom sirupu
+81	5481	njuška	njušci njuškama njuške njuški njuško njuškom njušku
+82	5482	beton	betona betonom betonu
+83	5483	tkanina	tkaninama tkanine tkanini tkaninom tkaninu
+84	5484	regija	regijama regije regiji regijom regiju
+85	5485	masivan	masivna masivne masivni masivnih masivniji masivnim masivnog masivnoj masivnom masivnu
+86	5486	procjenjivati	procenjivati procenjuje procenjujem procenjujemo procenjujete procenjuješ procenjuju procjenjuje procjenjujem procjenjujemo procjenjujete procjenjuješ procjenjuju
+87	5487	ironično	
+88	5488	ukrcavati	ukrcava ukrcavaj ukrcavajte ukrcavaju ukrcavali ukrcavam ukrcavamo ukrcavanje
+89	5489	prostitucija	prostitucije prostituciji prostitucijom prostituciju
+90	5490	srpski	srpska srpske srpskih srpskim srpsko srpskog srpskom srpsku
+91	5491	juriš	juriša jurišu
+92	5492	jarak	jaraka jarci jarka jarke jarkom jarku jarče
+93	5493	razljutiti	razljute razljuti razljutila razljutili razljutilo razljutim razljutio razljutite razljutiš
+94	5494	probušiti	probuše probušen probušena probušene probušeni probuši probušila probušili probušilo probušim probušio probušite probušiš
+95	5495	monah	monaha monahe monahu monasi monasima monaše
+96	5496	biografija	biografijama biografije biografiji biografijom biografiju
+97	5497	izborni	izborna izborne izbornih izbornim izborno izbornog izbornoj izbornom izbornu
+98	5498	dekan	dekana dekane dekanom dekanu
+99	5499	zvjezdica	zvezdica zvezdice zvezdicu zvjezdice zvjezdicu
+100	5500	poroditi	porode porodi porodila porodile porodili porodim porodio porodite porodiće porodiću porodiš

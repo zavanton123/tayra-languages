@@ -1,0 +1,100 @@
+1	1501	krilo	krila krilima krilom krilu
+2	1502	sići	siđe siđem siđemo siđete siđeš siđi siđimo siđite siđoše siđu sišao sišla sišle sišli sišlo
+3	1503	zadovoljan	zadovoljna zadovoljne zadovoljni zadovoljnih zadovoljniji zadovoljnim zadovoljno zadovoljnog zadovoljnom
+4	1504	zaspati	zaspala zaspale zaspali zaspalo zaspao zaspaće zaspaću zaspe zaspi zaspim zaspimo zaspite zaspiš
+5	1505	uloga	ulogama uloge ulogom ulogu ulozi
+6	1506	postići	postigao postigla postigle postigli postiglo postigne postignem postignemo postignete postigneš postigni postignu postignut postignuta postignuti postignuto postiže
+7	1507	izgraditi	izgrade izgradi izgradila izgradile izgradili izgradilo izgradim izgradimo izgradio izgradite izgradićemo izgradiću izgradiš izgrađen izgrađena izgrađene izgrađeni izgrađeno
+8	1508	miš	miša miše mišem miševa miševe miševi miševima miši mišima mišić mišića mišiće mišići mišićima mišiću mišu
+9	1509	vagati	vaganje važe važem važi važu
+10	1510	skrenuti	skrene skrenem skrenemo skrenete skreneš skreni skrenimo skrenite skrenu skrenula skrenule skrenuli skrenulo skrenuo skrenut skrenuta skrenuće skrenuću
+11	1511	plivati	pliva plivaj plivajmo plivajte plivaju plivajući plivala plivale plivali plivalo plivam plivamo plivanja plivanje plivanjem plivanju plivao plivate plivaćemo plivaću plivaš
+12	1512	grudi	grudima
+13	1513	otkazati	otkaza otkazala otkazale otkazali otkazalo otkazan otkazana otkazane otkazani otkazano otkazao otkazaće otkazaćemo otkazaću otkaže otkažem otkažemo otkažete otkažeš otkaži otkažimo otkažite otkažu
+14	1514	odjebati	odjebala odjebao odjebe odjebem odjebemo odjebete odjebeš odjebi odjebimo odjebite odjebu
+15	1515	provaliti	provale provali provalila provalile provalili provalilo provalim provalimo provalio provalite provaliće provalićemo provalićeš provaliću provališ provaljen provaljena provaljeni provaljeno
+16	1516	vježbati	vežbaj vežbajte vežbaju vežbajući vežbala vežbale vežbali vežbam vežbamo vežbanje vežbao vežbate vežbati vežbaćemo vežbaću vežbaš vježbaj vježbajte vježbaju vježbajući vježbala vježbale vježbali vježbam vježbamo vježbanje vježbao vježbate vježbaš
+17	1517	jednostavan	jednostavna jednostavne jednostavni jednostavnih jednostavnija jednostavnije jednostavniji jednostavnijim jednostavnim jednostavnog jednostavnoj jednostavnom jednostavnu najjednostavnija najjednostavnije najjednostavniji
+18	1518	pokriti	pokri pokrij pokrije pokrijem pokrijemo pokrijete pokriješ pokrijte pokriju pokrila pokrile pokrili pokrilo pokrio pokrit pokrite pokriven pokrivena pokrivene pokriveni pokriveno pokriće pokrićemo pokriću
+19	1519	popodne	popodneva popodnevu
+20	1520	javni	javna javne javnih javnim javnog javnoga javnoj javnom javnome javnu
+21	1521	drugar	drugara drugare drugari drugarima drugarom drugaru
+22	1522	vlast	vlasti vlastima vlašću
+23	1523	kopile	kopilad kopiladi kopileta kopiletom kopiletu
+24	1524	čaša	čašama čaše čaši čašom čašu
+25	1525	tona	tonama tone toni tonom tonu
+26	1526	ljubomoran	ljubomorna ljubomorne ljubomorni ljubomornih ljubomornim ljubomorno ljubomornog ljubomornom ljubomornu
+27	1527	boca	bocama boce boci bocom bocu
+28	1528	traka	traci trakama trake trakom traku
+29	1529	zavisiti	zavise zavisi zavisila zavisili zavisilo zavisim zavisimo zavisio zavisite zavisiš
+30	1530	rok	roka rokom rokova rokove rokovi rokovima roku
+31	1531	internet	interneta internetu
+32	1532	ćelija	ćelijama ćelije ćeliji ćelijom ćeliju
+33	1533	tacna	tacne tacni tacno tacnom tacnu
+34	1534	vikati	vikala vikale vikali vikanje vikao vikaću viče vičem vičemo vičete vičeš viči vičite viču vičući
+35	1535	slično	
+36	1536	određen	određena određene određeni određenih određenim određenog određenoj određenom određenu
+37	1537	suđenje	suđenja suđenjem suđenjima suđenju
+38	1538	inspektor	inspektora inspektore inspektori inspektorima inspektorom inspektoru
+39	1539	zona	zonama zone zoni zonom zonu
+40	1540	hvatati	hvata hvataj hvatajmo hvatajte hvataju hvatajući hvatala hvatale hvatali hvatam hvatamo hvatanje hvatao hvatate hvataš
+41	1541	zabraniti	zabrane zabrani zabranila zabranili zabranilo zabranim zabranimo zabranio zabranite zabraniće zabraniću zabraniš zabranjen zabranjena zabranjene zabranjeni zabranjeno
+42	1542	tetka	tetkama tetke tetki tetko tetkom tetku
+43	1543	mač	mača mačem mačeva mačeve mačevi mačevima maču
+44	1544	student	studenata studenta studente studenti studentima studentom studentu
+45	1545	zaslužiti	zasluže zaslužena zaslužene zasluženi zasluži zaslužila zaslužile zaslužili zaslužilo zaslužim zaslužimo zaslužio zaslužite zaslužiš
+46	1546	faca	facama face faci faco facom facu
+47	1547	nuditi	nude nudeći nudi nudila nudile nudili nudim nudimo nudio nudite nudiš nuđenje
+48	1548	nizak	najniža najniže najnižeg najnižem najniži najnižih najnižim najnižoj najnižom najnižu niska niske niski niskih niskim niskog niskoj niskom nisku niža niže nižeg nižem niži nižih nižim nižoj nižom nižu
+49	1549	unutar	
+50	1550	prići	priđe priđem priđemo priđete priđeš priđi priđimo priđite priđoše priđu prišao prišla prišle prišli prišlo
+51	1551	rame	ramena ramenima ramenom ramenu
+52	1552	ljeto	leta leto letom letu ljeta ljetu
+53	1553	grijeh	greh greha grehe grehom grehova grehove grehovi grehu gresi gresima greše grijeha grijehe grijehom grijehova grijehove grijehovi grijehu grijesi grijesima griješe
+54	1554	džep	džepa džepom džepova džepove džepovi džepovima džepu
+55	1555	sposoban	najsposobniji najsposobnijih sposobna sposobne sposobni sposobnih sposobnija sposobniji sposobnim sposobno sposobnog sposobnom sposobnu
+56	1556	tući	tuci tucite tukao tukla tukle tukli tuklo tuku tuče tučem tučemo tučen tučena tučeni tučeno tučete tučeš
+57	1557	suprotan	suprotna suprotne suprotni suprotnih suprotnim suprotno suprotnog suprotnoj suprotnom suprotnome suprotnu
+58	1558	osveta	osvete osveti osvetom osvetu
+59	1559	skočiti	skoče skoči skočila skočile skočili skočilo skočim skočimo skočio skočite skočivši skočiće skočićemo skočiću skočiš
+60	1560	gđa	
+61	1561	odrastati	odrasta odrastaju odrastajući odrastala odrastale odrastali odrastam odrastamo odrastanje odrastao odrastate odrastaš
+62	1562	pružiti	pruže pružena pružene pruženo pruži pružila pružile pružili pružilo pružim pružimo pružio pružite pružiće pružićemo pružiću pružiš
+63	1563	spasti	spade spadne spadnu spala spale spali spalo spao spasao spasavati spase spasem spasemo spasen spasena spasene spaseni spaseno spasete spaseš spasi spasimo spasite spasla spasli spaslo spasu spašće
+64	1564	blago	blaga blagom blagu
+65	1565	pobiti	pobi pobij pobije pobijem pobijemo pobijena pobijene pobijeni pobijeno pobijete pobiješ pobijmo pobijte pobiju pobila pobile pobili pobilo pobio pobiće pobićemo pobićeš pobiću
+66	1566	srati	sere serem seremo serete sereš seri serite seru srala srali srao
+67	1567	podsjetiti	podsete podseti podsetila podsetili podsetilo podsetim podsetimo podsetio podsetite podsetiti podsetiću podsetiš podsjete podsjeti podsjetila podsjetile podsjetili podsjetilo podsjetim podsjetimo podsjetio podsjetite podsjetiću podsjetiš
+68	1568	računati	računa računaj računajte računaju računajući računali računam računamo računanje računao računate računaš
+69	1569	božji	božiji božja božje božjeg božjega božjem božjih božjim božjoj božjom božju
+70	1570	sjever	sever severa severom severu sjevera sjeverom sjeveru
+71	1571	popeti	pope popela popeli popelo popeo popećemo popećeš popeću popne popnem popnemo popnete popneš popni popnimo popnite popnu
+72	1572	častan	najčasniji časna časne časni časnih časnije časnim časnog časnoga časnoj časnom časnu
+73	1573	raznijeti	razne raznela razneli raznelo razneo raznese raznesem raznesemo raznesen raznesena raznesene razneseni razneseno raznesete razneseš raznesi raznesimo raznesite raznesu raznet razneta razneti razneto razneće raznećemo razneću raznijela raznijeli raznijelo raznijet raznijeta raznijeće raznijeću raznio raznositi
+74	1574	demon	demona demone demoni demonima demonom demonu
+75	1575	juriti	jure jurenje jureći juri jurila jurile jurili jurilo jurim jurimo jurio jurite juriće juriću
+76	1576	tisuća	tisućama tisuće tisuću
+77	1577	upomoć	
+78	1578	hrabrost	hrabrosti hrabrošću
+79	1579	pali	
+80	1580	rizik	rizici rizicima rizika rizike rizikom riziku
+81	1581	ruski	ruska ruske ruskih ruskim rusko ruskog ruskoj ruskom rusku
+82	1582	kupatilo	kupatila kupatilima kupatilom kupatilu
+83	1583	sustav	sustava sustave sustavi sustavima sustavom sustavu
+84	1584	izazvati	izazove izazovem izazovemo izazovete izazoveš izazovi izazovu izazvala izazvale izazvali izazvalo izazvan izazvana izazvane izazvani izazvano izazvao izazvaće izazvaćemo izazvaću
+85	1585	troje	troma
+86	1586	upropastiti	upropaste upropasti upropastila upropastile upropastili upropastilo upropastim upropastimo upropastio upropastite upropastiće upropastićete upropastićeš upropastiš upropašten upropaštena upropaštene upropašteni upropašteno
+87	1587	nažalost	
+88	1588	pila	pile pilence pileta piletom piletu pili pilića piliće pilići pilićima pilo pilom pilu
+89	1589	politika	politici politike politikom politiku
+90	1590	zajebavati	zajebava zajebavaj zajebavajte zajebavaju zajebavala zajebavali zajebavam zajebavamo zajebavanje zajebavao zajebavate zajebavaš
+91	1591	smrdjeti	smrde smrdela smrdelo smrdeo smrdeti smrdeći smrdi smrdim smrdimo smrdio smrdite smrdiš smrdjela smrdjelo
+92	1592	sramota	sramote sramoti sramoto sramotom sramotu
+93	1593	posada	posadama posade posadi posado posadom posadu
+94	1594	iznenaditi	iznenade iznenadi iznenadila iznenadile iznenadili iznenadilo iznenadim iznenadimo iznenadio iznenadite iznenadiće iznenadićemo iznenadićete iznenadićeš iznenadiću iznenadiš
+95	1595	zanimljiv	najzanimljivija najzanimljivije najzanimljiviji najzanimljivijih zanimljiva zanimljive zanimljivi zanimljivih zanimljivija zanimljivije zanimljiviji zanimljivijih zanimljivijim zanimljivijom zanimljivim zanimljivima zanimljivog zanimljivoj zanimljivom zanimljivu
+96	1596	potrošiti	potroše potrošen potrošena potrošene potrošeni potrošeno potroši potrošila potrošile potrošili potrošilo potrošim potrošimo potrošio potrošite potrošićemo potrošićeš potrošiću potrošiš
+97	1597	nacionalni	nacionalna nacionalne nacionalnih nacionalnim nacionalno nacionalnog nacionalnoj nacionalnom nacionalnu
+98	1598	cigareta	cigaretama cigarete cigareti cigaretom cigaretu
+99	1599	stranica	stranicama stranice stranici stranicom stranicu
+100	1600	stvorenje	stvorenja stvorenjem stvorenjima stvorenju

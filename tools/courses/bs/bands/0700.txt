@@ -1,0 +1,100 @@
+1	601	oboje	oboga oboma
+2	602	smiješno	smešno
+3	603	razgovor	razgovora razgovore razgovori razgovorima razgovorom razgovoru
+4	604	šest	
+5	605	bolestan	bolesna bolesne bolesni bolesnih bolesnija bolesnije bolesniji bolesnim bolesnima bolesno bolesnog bolesnoj bolesnom bolesnu najbolesnija najbolesnije najbolesniji
+6	606	uzimati	uzima uzimaj uzimajte uzimaju uzimajući uzimala uzimale uzimali uzimalo uzimam uzimamo uzimanje uzimao uzimate uzimaću uzimaš
+7	607	zanimati	zanima zanimaj zanimaju zanimala zanimale zanimali zanimalo zanimam zanimamo zanimao zanimate zanimaće zanimaš
+8	608	mozak	mozga mozgom mozgova mozgove mozgovi mozgovima mozgu
+9	609	ispred	
+10	610	ključ	ključa ključe ključem ključeva ključeve ključevi ključevima ključu
+11	611	izlaziti	izlaze izlazeći izlazi izlazila izlazile izlazili izlazilo izlazim izlazimo izlazio izlazite izlaziš izlaženje
+12	612	odgovarati	odgovara odgovaraj odgovarajte odgovaraju odgovarajuća odgovarajuće odgovarajućeg odgovarajućem odgovarajući odgovarajućih odgovarajućim odgovarajućoj odgovarajućom odgovarajuću odgovarala odgovarale odgovarali odgovaralo odgovaram odgovaramo odgovaran odgovaranja odgovaranje odgovaranjem odgovaranju odgovarao odgovarate odgovaraće odgovaraćete odgovaraćeš odgovaraću odgovaraš
+13	613	popiti	popi popij popije popijem popijemo popijete popiješ popijmo popijte popiju popila popile popili popilo popio popiće popićemo popićeš popiću popiše
+14	614	zauzet	zauzela zauzele zauzeli zauzelo zauzeo zauzeta zauzete zauzeti zauzetim zauzeto zauzetog zauzetom zauzeće zauzećemo zauzeću zauzme zauzmem zauzmemo zauzmete zauzmeš zauzmi zauzmimo zauzmite zauzmu
+15	615	početak	počeci počecima početaka početka početke početkom početku
+16	616	ljudski	ljudska ljudske ljudskih ljudskiji ljudskim ljudsko ljudskog ljudskoga ljudskoj ljudskom ljudsku
+17	617	pojesti	pojede pojedem pojedemo pojeden pojedena pojedene pojedeni pojedeno pojedete pojedeš pojedi pojedimo pojedite pojedoše pojedu pojela pojele pojeli pojelo pojeo poješće poješćemo poješćeš poješću
+18	618	kosa	kose kosi koso kosom kosu
+19	619	smisao	smisla smisle smislom smislu
+20	620	lov	lova love lovi lovo lovom lovu
+21	621	iako	
+22	622	prihvatiti	prihvate prihvati prihvatila prihvatile prihvatili prihvatilo prihvatim prihvatimo prihvatio prihvatite prihvativši prihvatiće prihvatićemo prihvatićeš prihvatiću prihvatiš prihvaćen prihvaćena prihvaćene prihvaćeni prihvaćeno
+23	623	otvoren	otvorena otvorene otvoreni otvorenih otvorenija otvorenije otvoreniji otvorenim otvorenima otvoreno otvorenog otvorenoj otvorenom otvorenome otvorenu
+24	624	kći	kćer kćeri kćerima kćerka
+25	625	narod	naroda narode narodi narodima narodom narodu
+26	626	usluga	uslugama usluge uslugom uslugu usluzi
+27	627	operacija	operacijama operacije operaciji operacijom operaciju операција
+28	628	zvijezda	zvezda zvezdama zvezde zvezdi zvezdo zvezdom zvezdu zvijezdama zvijezde zvijezdi zvijezdo zvijezdom zvijezdu
+29	629	svjetlo	svetala svetla svetlima svetlo svetlom svetlu svjetala svjetla svjetlima svjetlom svjetlu
+30	630	droga	drogama droge drogi drogo drogom drogu
+31	631	umirati	umirala umirale umirali umiralo umiranje umirao umire umirem umiremo umirete umireš umiri umirimo umirite umiru umirući
+32	632	odluka	odluci odlukama odluke odlukom odluku
+33	633	sjetiti	sete seti setih setila setile setili setim setimo setio setite setiti setiće setićete setićeš setiću setiš sjete sjeti sjetih sjetila sjetili sjetilo sjetim sjetimo sjetio sjetite sjetiće sjetićeš sjetiću sjetiš
+34	634	zid	zida zide zidina zidinama zidine zidom zidova zidove zidovi zidovima zidu
+35	635	račun	računa račune računi računima računom računu
+36	636	sistem	sistema sisteme sistemi sistemima sistemom sistemu
+37	637	riba	ribama ribe ribi ribica riblja riblje ribljeg ribljem riblji ribljih ribljim ribljoj ribljom riblju ribo ribom ribu
+38	638	ozbiljan	najozbiljnija najozbiljnije najozbiljniji ozbiljna ozbiljne ozbiljni ozbiljnih ozbiljnija ozbiljnije ozbiljnijeg ozbiljniji ozbiljnijih ozbiljnijim ozbiljniju ozbiljnim ozbiljnog ozbiljnoj ozbiljnom ozbiljnu
+39	639	grupa	grupama grupe grupi grupo grupom grupu
+40	640	opustiti	opuste opusti opustila opustili opustilo opustim opustimo opustio opustite opustiće opustićemo opustiš opušten opuštena opuštene opušteni opušteno
+41	641	mlada	mlade mladi mlado mladom mladu
+42	642	zamisliti	zamisle zamisli zamislila zamislili zamislim zamislimo zamislio zamislite zamisliš zamišljen zamišljena zamišljene zamišljeni zamišljeno
+43	643	zgrada	zgradama zgrade zgradi zgradom zgradu
+44	644	šaliti	šale šali šalila šalile šalili šalim šalimo šalio šalite šališ
+45	645	čim	
+46	646	drug	druga druge drugom drugova drugove drugovi drugovima drugu druzi druže
+47	647	sresti	srela srele sreli srelo sreo sretne sretnem sretnemo sretnete sretneš sretni sretnimo sretnu sretoh sretoše srešće srešćemo srešćete srešćeš srešću
+48	648	ljut	ljuta ljute ljuti ljutih ljutim ljuto ljutog ljutom ljutu ljuća ljuće ljući najljući
+49	649	društvo	društava društva društvima društvom društvu
+50	650	boja	bojama boje boji bojo bojom boju
+51	651	pismo	pisama pisma pismima pismom pismu
+52	652	seks	seksa seksom seksu
+53	653	konj	konja konje konjem konji konjic konjima konjić konjiću konju
+54	654	stanje	stanja stanjem stanjima stanju
+55	655	ulaz	ulaza ulaze ulazi ulazima ulazom ulazu
+56	656	nevolja	nevoljama nevolje nevolji nevoljo nevoljom nevolju
+57	657	kamera	kamerama kamere kameri kamerom kameru
+58	658	stanica	stanicama stanice stanici stanico stanicom stanicu
+59	659	prati	pere perem peremo perete pereš peri perite peru perući prah praha prahom prahu prala prale prali pranja pranje pranjem pranju prao praću praše
+60	660	izabrati	izabere izaberem izaberemo izaberete izabereš izaberi izaberimo izaberite izaberu izabrala izabrale izabrali izabralo izabrao izabraće izabraćemo izabraću
+61	661	životinja	životinjama životinje životinji životinjica životinjo životinjom životinjska životinjske životinjski životinjskih životinjskim životinjsko životinjskog životinjskoj životinjskom životinjsku životinju
+62	662	priznati	prizna priznaj priznajmo priznajte priznaju priznala priznale priznali priznalo priznam priznamo priznao priznat priznata priznate priznato priznaće priznaću priznaš
+63	663	deset	
+64	664	kladiti	klade kladeći kladi kladila kladili kladim kladimo kladio kladite kladiću kladiš klađenje
+65	665	smatrati	smatra smatraj smatrajmo smatrajte smatraju smatrajući smatrala smatrale smatrali smatralo smatram smatramo smatrao smatrate smatraće smatraćemo smatraću smatraš
+66	666	eto	ete ето
+67	667	kasniti	kasne kasni kasnila kasnili kasnilo kasnim kasnimo kasnio kasnite kasniće kasniću kasniš kašnjenje
+68	668	klub	kluba klube klubom klubova klubove klubovi klubovima klubu
+69	669	preživjeti	prežive preživela preživele preživeli preživelo preživeo preživeti preživeće preživećemo preživećete preživećeš preživeću preživi preživim preživimo preživio preživite preživiš preživjela preživjele preživjeli preživjelo preživjeće preživjećemo preživjećeš preživjeću
+70	670	osjetiti	osete oseti osetih osetila osetile osetili osetim osetimo osetio osetite osetiti osetiće osetićete osetićeš osetiću osetiš osjete osjeti osjetih osjetile osjetili osjetim osjetimo osjetio osjetite osjetivši osjetićeš osjetiš
+71	671	lijek	lek leka lekom lekova lekove lekovi lekovima leku leče lijeka lijekom lijekova lijekove lijekovi lijekovima lijeku liječe
+72	672	učiti	uče učenja učenje učenjem učenjima učenju učeći uči učila učile učili učilo učim učimo učio učite učiće učićemo učićete učićeš učiću učiš
+73	673	hotel	hotela hotele hoteli hotelima hotelom hotelu
+74	674	umjesto	umesto
+75	675	jebeno	
+76	676	partner	partnera partnere partneri partnerima partnerom partneru
+77	677	barem	
+78	678	vrag	vraga vragom vragova vragove vragovi vragu vraže
+79	679	obećati	obeća obećaj obećajmo obećajte obećaju obećala obećale obećali obećam obećamo obećan obećana obećane obećani obećano obećao obećate obećaš
+80	680	podići	podigao podigla podigle podigli podiglo podigne podignem podignemo podignete podigneš podigni podignimo podignite podignu podignula podignuli podignuo podignut podignuta podignute podignuti podignuto podigoše podiže
+81	681	klinac	klinaca klinca klince klincem klinci klincima klincu
+82	682	izbaciti	izbace izbaci izbacila izbacile izbacili izbacilo izbacim izbacimo izbacio izbacite izbaciće izbacićemo izbacićete izbacićeš izbaciću izbaciš izbaciše izbačen izbačena izbačene izbačeni izbačeno
+83	683	engleski	engleska engleske engleskih engleskim englesko engleskog engleskoga engleskoj engleskom engleskome englesku
+84	684	prst	prsta prste prsti prstiju prstima prstom prstu
+85	685	vatra	vatrama vatre vatri vatro vatrom vatru
+86	686	niti	
+87	687	ponašati	ponaša ponašaj ponašajmo ponašajte ponašaju ponašajući ponašala ponašale ponašali ponašam ponašamo ponašao ponašate ponašaće ponašaćemo ponašaćeš ponašaću ponašaš
+88	688	idiot	idiota idiote idioti idiotima idiotom idiotu
+89	689	budala	budalama budale budali budalo budalom budalu
+90	690	pravilo	pravila pravilima pravilom pravilu
+91	691	ostajati	ostajala ostajale ostajali ostajanje ostajao ostaje ostajem ostajemo ostajete ostaješ ostaju ostajući
+92	692	pokupiti	pokupe pokupi pokupila pokupile pokupili pokupilo pokupim pokupimo pokupio pokupite pokupiće pokupićemo pokupićeš pokupiću pokupiš pokupljen pokupljena pokupljeni pokupljeno
+93	693	iskoristiti	iskoriste iskoristi iskoristila iskoristile iskoristili iskoristim iskoristimo iskoristio iskoristite iskoristivši iskoristiće iskoristićemo iskoristićeš iskoristiću iskoristiš iskorišten iskorištena iskorištene iskorišteni iskorišteno
+94	694	slati	sla slala slale slali slan slana slane slani slanih slanim slanje slano slanog slanoj slanom slanu slao slat slate slaćemo slaću šalje šaljem šaljemo šaljete šalješ šalji šaljite šalju šaljući šlem šlema šlemom šlemove šlemovi šlemovima šlemu šljem šljema
+95	695	dokazati	dokaza dokazala dokazale dokazali dokazalo dokazan dokazana dokazane dokazani dokazano dokazao dokazaće dokazaćemo dokazaćeš dokazaću dokaže dokažem dokažemo dokažete dokažeš dokaži dokažimo dokažite dokažu
+96	696	planirati	planira planiraj planirajte planiraju planirajući planirala planirale planirali planiralo planiram planiramo planiran planirana planirane planirani planiranje planirao planirate planiraš
+97	697	natjerati	natera nateraj naterajte nateraju naterala naterale naterali nateralo nateram nateramo nateran naterani naterao naterate naterati nateraće nateraćemo nateraćeš nateraću nateraš natjera natjeraj natjerajte natjeraju natjerala natjerale natjerali natjeralo natjeram natjeramo natjeran natjerana natjerani natjerao natjerate natjeraće natjeraćemo natjeraću natjeraš
+98	698	hodati	hoda hodaj hodajmo hodajte hodaju hodajuća hodajuće hodajući hodajućih hodajuću hodala hodale hodali hodalo hodam hodamo hodanje hodao hodate hodaćemo hodaću hodaš
+99	699	pjevati	peva pevaj pevajmo pevajte pevaju pevajući pevala pevale pevali pevam pevamo pevanje pevao pevate pevati pevaće pevaćemo pevaćeš pevaću pevaš pjeva pjevaj pjevajmo pjevajte pjevaju pjevajući pjevala pjevale pjevali pjevam pjevamo pjevanje pjevao pjevate pjevaću pjevaš
+100	700	ostatak	ostaci ostacima ostataka ostatka ostatke ostatkom ostatku

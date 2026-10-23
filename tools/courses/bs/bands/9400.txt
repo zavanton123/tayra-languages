@@ -1,0 +1,100 @@
+1	9301	bavarski	bavarska bavarske bavarskih bavarskim bavarskog bavarskoj bavarsku
+2	9302	znamenitost	znamenitosti
+3	9303	odlikovanje	odlikovanja odlikovanjem
+4	9304	podešavati	podešava podešavam podešavanje podešavao
+5	9305	umivaonik	umivaonika umivaonikom umivaoniku
+6	9306	rafinerija	rafinerije rafineriji rafineriju
+7	9307	razaranje	
+8	9308	magacin	
+9	9309	aut	
+10	9310	svrab	svraba
+11	9311	fregata	fregate fregati fregatu
+12	9312	nestašica	nestašice nestašicom nestašicu
+13	9313	utući	utučen utučena utučeni utučeno
+14	9314	krpelj	krpelja krpelje krpelji
+15	9315	škrinja	škrinje škrinji škrinju
+16	9316	maštovit	maštovita maštovite maštoviti maštovitim maštovito
+17	9317	nepovezan	nepovezana nepovezane nepovezani nepovezanih nepovezano
+18	9318	šačica	šačice šačici šačicu
+19	9319	reprezentacija	reprezentacije reprezentaciji reprezentaciju
+20	9320	vodik	vodici vodika vodiče
+21	9321	razglas	razglasa razglasi razglasu
+22	9322	zubarski	zubarska zubarske zubarskog zubarskoj zubarskom zubarsku
+23	9323	secirati	secira seciraju secirali seciram seciramo seciranje secirao secirate
+24	9324	obadvoje	
+25	9325	nizvodno	
+26	9326	svršeni	svršena svršeno
+27	9327	glasnogovornik	glasnogovornica glasnogovornika
+28	9328	mozaik	mozaika mozaikom mozaiku
+29	9329	turizam	turizma turizmu
+30	9330	mlaz	mlaza mlazom mlazove mlazovi
+31	9331	ateist	ateista ateisti
+32	9332	intelekt	intelekta intelektom intelektu
+33	9333	brujati	brujanje bruje bruji
+34	9334	beskonačnost	beskonačnosti
+35	9335	psihoza	psihoze psihozu
+36	9336	podrediti	podredio podređen podređena podređene podređeni podređeno
+37	9337	drmati	drma drmaj drmaju drmanje drmao drmaš
+38	9338	podružnica	podružnice podružnici podružnicu
+39	9339	jedinka	jedinke jedinki jedinku
+40	9340	dvoličan	dvolična dvolične dvolični dvolično
+41	9341	bezbrojan	bezbrojna bezbrojne bezbrojni bezbrojnih bezbrojnim
+42	9342	štenac	štenaca štenca štence štenci štencima
+43	9343	izbočina	izbočinama izbočine izbočini izbočinu
+44	9344	maloljetnički	maloletnički maloletničko maloljetnička maloljetničke maloljetničkih maloljetničkog maloljetničkom
+45	9345	чути	чули чуо чује чујем чујеш чујте
+46	9346	zapušiti	zapuše zapuši zapušila zapušim zapušio zapušite zapušiš
+47	9347	nadmoćan	nadmoćna nadmoćni nadmoćniji nadmoćnim nadmoćno nadmoćnom nadmoćnu
+48	9348	stalak	stalka stalke stalku
+49	9349	bife	bifea bifeu
+50	9350	raspodjela	raspodela raspodele raspodeli raspodelu raspodjele raspodjeli raspodjelu
+51	9351	tuka	tukac tuki tuko tukom tuku
+52	9352	čizburger	čizburgera čizburgere
+53	9353	neformalan	neformalna neformalni neformalnih neformalno
+54	9354	raskrižje	raskrižja raskrižju
+55	9355	dinamika	dinamici dinamike dinamiku
+56	9356	neodlučan	neodlučna neodlučne neodlučni neodlučno
+57	9357	mješanac	mešanac mješanaca mješanca mješanci mješancu
+58	9358	patologija	patologije patologiji patologiju
+59	9359	gu	
+60	9360	skupljati	
+61	9361	raport	
+62	9362	bestseler	bestselera
+63	9363	epilepsija	epilepsije epilepsijom epilepsiju
+64	9364	epruveta	epruvete epruveti epruvetu
+65	9365	puran	purana purane purani pureći
+66	9366	nepogrešiv	nepogrešiva nepogrešivi nepogrešivim nepogrešivo
+67	9367	gibati	giba gibaj gibajmo gibam gibamo gibanje
+68	9368	aktuelan	aktuelna aktuelne aktuelni aktuelnim aktuelno aktuelnog aktuelnom
+69	9369	kotac	koce kocem koci kocu kotaca koče
+70	9370	prisila	prisile prisili prisilom prisilu
+71	9371	sirot	sirote siroti sirotim siroto sirotog sirotoj sirotom sirotu
+72	9372	evakuirati	
+73	9373	radijator	radijatora radijatore radijatori radijatoru
+74	9374	biljojed	biljojeda biljojedi
+75	9375	staž	staža stažu
+76	9376	harpun	harpuna harpune harpuni harpunom
+77	9377	štruca	štruce štrucom štrucu
+78	9378	proton	protona protone protoni protonima
+79	9379	đavao	đavla đavlom đavlu
+80	9380	obistiniti	obistine obistini obistinila obistinile obistinili obistinilo obistinio
+81	9381	vlažnost	vlažnosti
+82	9382	hors	horsa horse
+83	9383	glinen	glinene glineni glinenih glinenim
+84	9384	patron	patrona patrone patronu
+85	9385	друг	друга друге другови другом другу друже
+86	9386	убити	убили убио убиј убије убијеш убићу
+87	9387	zasjedanje	zasedanja zasedanje zasedanju zasjedanja zasjedanju
+88	9388	tutanj	tutnje tutnji
+89	9389	sup	supe supom supu
+90	9390	sloga	sloge slogu slozi
+91	9391	ložiti	lože loženje loži ložila ložim ložio ložiš
+92	9392	postiti	poste posti postim postio postite postiš
+93	9393	imela	imele imelom imelu omela
+94	9394	naslon	naslona naslone nasloni naslonu
+95	9395	iscjelitelj	iscelitelj iscelitelja iscelitelji iscjelitelja iscjelitelji
+96	9396	баш	
+97	9397	memorandum	memoranduma memorandume memorandumu
+98	9398	lavica	lavice lavici lavicu
+99	9399	provokacija	provokacije provokaciju
+100	9400	pašteta	paštete paštetom paštetu

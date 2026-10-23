@@ -1,0 +1,100 @@
+1	7601	strahovati	strahovala strahovali strahovao strahuj strahuje strahujem strahuješ strahuju strahujući
+2	7602	nesvjestan	nesvesna nesvesne nesvesni nesvestan nesvjesna nesvjesne nesvjesni nesvjesnog nesvjesnom
+3	7603	odražavati	odražava odražavaju
+4	7604	režati	režanje režao reže režeći reži režite režiš
+5	7605	skrbništvo	skrbništva skrbništvom skrbništvu
+6	7606	tapeta	tapetama tapete tapeti tapetu
+7	7607	sputavati	sputava sputavaju sputavala sputavalo sputavam sputavanje sputavao sputavaš
+8	7608	izrazit	izrazio
+9	7609	brutalnost	brutalnosti brutalnošću
+10	7610	prdnuti	prdne prdnem prdneš prdni prdnula prdnuo
+11	7611	detonacija	detonacije detonaciju
+12	7612	prašuma	prašumama prašume prašumi prašumu
+13	7613	fascikl	fascikla fascikle fascikli fasciklu
+14	7614	žabac	žapca žapcu žapče
+15	7615	jajašce	jajašaca jajašca jajašcima
+16	7616	privezati	privezala privezali privezan privezana privezane privezani privezao privežem privežemo privežeš priveži privežite
+17	7617	variti	vare varen varena varenje vari varim
+18	7618	obuća	obuće obućom obuću
+19	7619	obučiti	obuče obuči obučila obučili obučim obučimo obučio obučite obučiću
+20	7620	garant	garanta
+21	7621	spaljivanje	spaljivanja spaljivanjem spaljivanju
+22	7622	pijavica	pijavicama pijavice pijavicu
+23	7623	kolumbijski	kolumbijska kolumbijske kolumbijskih kolumbijskim kolumbijskog kolumbijskom kolumbijsku
+24	7624	neznalica	neznalicama neznalice neznalico neznalicu
+25	7625	hulja	hulje huljo hulju
+26	7626	motka	motkama motke motki motkom motku
+27	7627	laguna	lagune laguni lagunu
+28	7628	izuti	izu izuj izujem izujete izuješ izujte izula izuo
+29	7629	marioneta	marionete marionetu
+30	7630	vegetacija	vegetacije vegetaciji vegetacijom vegetaciju
+31	7631	usisavati	usisava usisavaju usisavajući usisavala usisavam usisavanje usisavaš
+32	7632	erotski	erotska erotske erotskih erotskim erotsko erotskog erotskom erotsku
+33	7633	finski	finska finske finskog finskoj finskom finsku
+34	7634	hektar	hektara hektare hektaru
+35	7635	računovodstvo	računovodstva računovodstvom računovodstvu
+36	7636	spontano	
+37	7637	ki	
+38	7638	socijalno	
+39	7639	osamnaest	
+40	7640	žarki	žarka žarke žarko
+41	7641	pustoš	pustoši
+42	7642	tast	tasta taste tastom tastu
+43	7643	potaknuti	potakao potakla potakli potaklo potakne potaknu potaknut potaknuta potaći
+44	7644	umiroviti	umirovili umirovio umirovljen umirovljena umirovljene umirovljeni umirovljenje
+45	7645	motivirati	motivira motiviralo motiviran motivirana motivirani motivirano motivirao
+46	7646	sur	sura sure suri suru
+47	7647	онда	
+48	7648	puder	pudera puderom
+49	7649	liker	likera likerom
+50	7650	krš	krša kršem kršu
+51	7651	pravilnik	pravilnici pravilnicima pravilnika pravilnike pravilnikom pravilniku
+52	7652	ubrati	ubere uberem uberete ubereš uberi uberu ubrala ubrali ubran ubrao
+53	7653	urgentan	urgentna urgentne urgentni urgentnog urgentnom urgentnu
+54	7654	plućni	plućna plućne plućno plućnog plućnom plućnu
+55	7655	zaplašiti	zaplaše zaplašen zaplašeni zaplaši zaplašili zaplašim zaplašimo zaplašite zaplašiš
+56	7656	kovati	kovala kovali kovani kovanje kovao kuj kuje kujem kujemo kujete kuješ kuju kujući
+57	7657	suzavac	suzavca suzavcem
+58	7658	brijač	brijača brijačem brijaču
+59	7659	razbistriti	razbistri razbistrilo razbistrim razbistrio razbistrite razbistriš
+60	7660	opčiniti	opčini opčinila opčinio opčiniš opčinjen opčinjena opčinjeni
+61	7661	valcer	valcera
+62	7662	nestvaran	nestvarna nestvarne nestvarni nestvarno
+63	7663	plodnost	plodnosti plodnošću
+64	7664	književni	književna književne književnim književno književnog književnoj književnom književnu
+65	7665	najesti	najede najedem najedemo najedeš najedi najedite najedu najela najeli najeo
+66	7666	učesnik	učesnici učesnicima učesnika učesnike
+67	7667	brineta	brinete brinetom brinetu
+68	7668	trzaj	trzaja trzaje trzaji trzaju
+69	7669	saditi	sade sadi sadili sadim sadimo sadio sadite sadiš sađenje
+70	7670	galon	galona galone galonu
+71	7671	hebrejski	hebrejska hebrejske hebrejskih hebrejsko hebrejskog hebrejskom hebrejsku
+72	7672	procjep	procep procepa procepu procjepa procjepi procjepu
+73	7673	filter	
+74	7674	organizovati	
+75	7675	prirediti	
+76	7676	predlagati	predlaže
+77	7677	polubrat	polubrata polubratom polubraća
+78	7678	kreativnost	kreativnosti kreativnošću
+79	7679	tava	tave tavi tavom tavu
+80	7680	ваш	ваша ваше вашег вашем ваши вашим вашој вашу
+81	7681	doseljenik	doseljenici doseljenicima doseljenika doseljenike
+82	7682	isprava	ispravama isprave ispravi ispravo ispravu
+83	7683	misteriozno	
+84	7684	stolac	stolaca stolca stolce stolcem stolcima stolcu
+85	7685	socijalizam	socijalizma socijalizmu
+86	7686	trokut	trokuta trokute trokuti trokutu
+87	7687	svinjac	svinjca svinjce svinjcu svinjče
+88	7688	imitator	imitatora imitatore imitatori imitatorom
+89	7689	krajolik	krajolicima krajolika krajolikom krajoliku
+90	7690	musti	muzao muze muzem muzemo muzeš muzi muzla muzu
+91	7691	šlep	šlepa
+92	7692	nekažnjen	nekažnjeni nekažnjeno
+93	7693	arogancija	arogancije aroganciji arogancijom aroganciju
+94	7694	hir	hira hire hirova hirove hirovima hiru
+95	7695	barka	barci barke barkom barku
+96	7696	mrmljati	mrmlja mrmljaju mrmljajući mrmljala mrmljanje mrmljao mrmljate mrmljaš
+97	7697	premostiti	premoste premosti premostila premostili premostim premostimo premostio premostite premostiš
+98	7698	ždral	ždrala ždralova ždralove ždralovi ždralovima ždralu
+99	7699	mitologija	mitologije mitologiji mitologijom mitologiju
+100	7700	pirinač	

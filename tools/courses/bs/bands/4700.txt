@@ -1,0 +1,100 @@
+1	4601	pomišljati	pomišlja pomišljaj pomišljajte pomišljala pomišljali pomišljam pomišljamo pomišljao pomišljate pomišljaš
+2	4602	kiseo	kisela kisele kiseli kiselih kiselim kiselo kiselog kiseloj kiselom kiselu
+3	4603	opremiti	opreme opremi opremila opremili opremim opremimo opremio opremite opremljen opremljena opremljene opremljeni opremljeno
+4	4604	doprinos	doprinosa doprinose doprinosi doprinosima doprinosom doprinosu
+5	4605	polijetati	poletanje poleće polećem polećemo poleći poleću polijetanje polijeće polijećemo polijeći polijeću
+6	4606	riža	riže riži rižom rižu
+7	4607	vatromet	vatrometa vatromete vatrometi vatrometom vatrometu
+8	4608	klopka	klopci klopke klopki klopku
+9	4609	oltar	oltara oltarom oltaru
+10	4610	nakratko	
+11	4611	dijeta	dijetama dijeti dijetom dijetu
+12	4612	izmjena	izmena izmene izmeni izmenu izmjenama izmjene izmjeni izmjenom izmjenu
+13	4613	iseliti	isele iseli iselila iselili iselim iselimo iselio iselite iseliću iseliš iseljeni
+14	4614	vlakno	vlakana vlakna vlaknima vlaknom
+15	4615	zrno	zrna zrnima zrnom zrnu
+16	4616	psovati	psovala psovali psovanja psovanje psovao psuj psuje psujem psujemo psujete psuješ psuju psujući
+17	4617	tanjur	tanjura tanjure tanjuri tanjurima tanjurom tanjuru
+18	4618	idealan	idealna idealne idealni idealnim idealnog idealnoj idealnom idealnu
+19	4619	siriti	sirah sire siren sirene sireni sirenje sireno siri sirila sirile sirim sirimo sirio
+20	4620	kasan	kasna kasne kasni kasnih kasnija kasnijeg kasnijem kasniji kasnijih kasnijim kasniju kasnim kasnog kasnoj kasnom kasnu najkasnije
+21	4621	што	
+22	4622	mirovina	mirovine mirovini mirovinom mirovinu
+23	4623	iskusan	iskusna iskusne iskusni iskusnih iskusnija iskusnije iskusnijeg iskusniji iskusnim iskusno iskusnog iskusnom najiskusniji
+24	4624	lažljivac	lažljivaca lažljivca lažljivce lažljivcem lažljivci lažljivcima lažljivcu lažljivče
+25	4625	plima	plime plimi plimom plimu
+26	4626	balet	baleta baletom baletu
+27	4627	beskrajan	beskrajna beskrajne beskrajni beskrajnih beskrajnim beskrajnog beskrajnoj beskrajnom beskrajnu
+28	4628	lupa	lupe lupi lupo lupom lupu
+29	4629	izboriti	izbore izbori izborila izborili izborim izborimo izborio izborite izborićemo izboriću izboriš
+30	4630	ograničenje	ograničenja ograničenjem ograničenjima ograničenju
+31	4631	preporučivati	preporučuje preporučujem preporučujemo preporučujete preporučuješ preporučuju
+32	4632	joga	joge jogi jogom jogu
+33	4633	sponzor	sponzora sponzore sponzori sponzorima sponzorom sponzoru
+34	4634	pokretan	pokretna pokretne pokretni pokretnih pokretnim pokretno pokretnog pokretnoj pokretnom pokretnu
+35	4635	lijen	len leno lijena lijene lijeni lijenim lijeno lijenog lijenu
+36	4636	kirija	kirije kiriji kirijom kiriju
+37	4637	jebač	jebača jebače jebači jebačima jebaču
+38	4638	blefirati	blefira blefiraju blefirala blefiram blefiramo blefiranje blefirao blefirate blefiraš
+39	4639	guska	gusaka guskama guske guski gusko guskom gusku
+40	4640	osobito	
+41	4641	smiješiti	smeše smeši smešila smešim smešio smešite smešiti smešiš smiješe smiješi smiješila smiješim smiješio smiješite smiješiš
+42	4642	doprijeti	dopre doprem dopremo doprete dopreti dopreš doprla doprle doprli doprlo dopro dopru
+43	4643	kutak	kuci kutke kutku
+44	4644	bodež	bodeža bodeže bodeži bodežima bodežom bodežu
+45	4645	bala	balama bale bali balu
+46	4646	proizvoditi	proizvode proizvodeći proizvodi proizvodila proizvodile proizvodili proizvodilo proizvodim proizvodimo proizvodio proizvodite proizvodiš
+47	4647	prikupljati	prikuplja prikupljaju prikupljajući prikupljala prikupljali prikupljam prikupljamo prikupljanje prikupljao prikupljate prikupljaš
+48	4648	amater	amatera amatere amateri amaterima amaterom amateru
+49	4649	parazit	parazita parazite paraziti parazitima parazitom parazitu
+50	4650	balkon	balkona balkonima balkonom balkonu
+51	4651	zavarati	zavara zavaraju zavarala zavarali zavaralo zavaram zavaramo zavaran zavarani zavarao zavaraš
+52	4652	zbivati	zbiva zbivaju zbivalo
+53	4653	kožni	kožna kožne kožnih kožnim kožno kožnog kožnoj kožnom kožnu
+54	4654	unaokolo	
+55	4655	tuce	tuceta
+56	4656	jebemti	
+57	4657	otimati	otima otimaj otimaju otimajući otimala otimale otimali otimam otimamo otimanje otimao otimate otimaš
+58	4658	drkati	drka drkaj drkaju drkala drkali drkam drkamo drkanje drkao drkate drkaću drkaš
+59	4659	određivati	određivao određuje određujem određujemo određujete određuješ određuju
+60	4660	izum	izuma izume izumi izumima izumom izumu
+61	4661	vaga	vage vagi vago vagu vazi
+62	4662	raspad	raspada raspadom raspadu
+63	4663	užitak	užici užicima užitaka užitka užitke užitkom užitku
+64	4664	opravdanje	opravdanja
+65	4665	fenomen	fenomena fenomene fenomeni fenomenima fenomenom fenomenu
+66	4666	trajan	trajna trajne trajni trajnih trajnije trajniji trajnim trajnog trajnoj trajnom trajnu
+67	4667	redovan	redovna redovne redovni redovnih redovnim redovnog redovnoj redovnom redovnu
+68	4668	sopstveni	
+69	4669	decembar	dec decembra decembru
+70	4670	ćelav	ćelava ćelave ćelavi ćelavih ćelavim ćelavo ćelavog ćelavom ćelavu
+71	4671	košmar	košmara košmare košmari košmarima košmaru
+72	4672	sutrašnji	sutrašnja sutrašnje sutrašnjeg sutrašnjem sutrašnjih sutrašnjim sutrašnjoj sutrašnju
+73	4673	nastava	nastave nastavi nastavom nastavu
+74	4674	iznajmljivati	iznajmljivala iznajmljivali iznajmljivanje iznajmljivao iznajmljuje iznajmljujem iznajmljujemo iznajmljujete iznajmljuješ iznajmljuju
+75	4675	ljestve	lestvama lestve lestvice lestvici lestvicu ljestava ljestvama ljestvi ljestvica ljestvice ljestvici ljestvicu
+76	4676	procenat	procenata procenta procente procentima procentom procentu
+77	4677	kaniti	kane kani kanila kanili kanim kanimo kanio kanite kaniš
+78	4678	politi	poli polij polije polijem poliješ polijte poliju polila polili polio
+79	4679	zelje	zelja zelju
+80	4680	sonda	sondama sonde sondi sondom sondu
+81	4681	ajme	
+82	4682	era	ere eri ero eru
+83	4683	snajperist	snajperista snajperiste snajperisti snajperistima snajperistu
+84	4684	zapadno	
+85	4685	utroba	utrobe utrobi utrobom utrobu
+86	4686	industrijski	industrijska industrijske industrijskih industrijskim industrijsko industrijskog industrijskoj industrijskom industrijsku
+87	4687	izmaknuti	izmakao izmakla izmakle izmakli izmaklo izmakne izmakni izmaknu izmaknuo izmaći
+88	4688	omogućavati	omogućava omogućavaju omogućavajući omogućavala omogućavalo omogućavam omogućavamo omogućavanje omogućavao
+89	4689	minus	minusa minusu
+90	4690	elita	elite eliti elitom elitu
+91	4691	okrugao	okrugla okrugle okrugli okruglih okruglim okruglo okruglog okrugloj okruglom okruglu
+92	4692	zaliv	zaliva zalivom zalivu
+93	4693	organski	organska organske organskih organskim organsko organskog organskoj organskom organsku
+94	4694	imunitet	imuniteta imunitetom imunitetu
+95	4695	gram	grama gramu
+96	4696	iščupati	iščupa iščupaj iščupajte iščupaju iščupala iščupali iščupam iščupamo iščupan iščupana iščupani iščupano iščupao iščupaću iščupaš
+97	4697	uličica	uličicama uličice uličici uličicom uličicu
+98	4698	ud	uda ude udova udove udovi udovima udu
+99	4699	tel	tela tele teleta teletu teli telima telom telu
+100	4700	nepristojno	

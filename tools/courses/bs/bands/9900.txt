@@ -1,0 +1,100 @@
+1	9801	prisega	prisege prisegom prisegu
+2	9802	štoviše	
+3	9803	два	
+4	9804	dabome	
+5	9805	kačket	kačketa kačketom
+6	9806	pokrov	pokrova pokrovom
+7	9807	bezobrazluk	bezobrazluka bezobrazluke
+8	9808	đus	đusa
+9	9809	patološki	patološka patološko patološku
+10	9810	bliskost	bliskosti
+11	9811	nalikovati	nalikovao nalikuje nalikuju
+12	9812	šrafciger	šarafciger šrafcigera šrafcigerom
+13	9813	jagodica	jagodicama jagodice jagodicu
+14	9814	nacionalnost	nacionalnosti
+15	9815	zloba	zlobe zlobu
+16	9816	amputirati	amputiraju amputirali amputiram amputirana amputirao
+17	9817	tortura	torture torturu
+18	9818	lobi	lobija lobiju
+19	9819	južnjak	južnjaci južnjaka južnjake
+20	9820	zapostaviti	zapostavila zapostavili zapostavio zapostavljen zapostavljena zapostavljeno
+21	9821	ruralan	ruralna ruralne ruralni ruralnih ruralnim ruralno ruralnoj ruralnom
+22	9822	najlon	najlona najlonom
+23	9823	otuđiti	otuđen otuđena otuđeni otuđeno otuđila otuđili otuđio
+24	9824	šamarati	šamara šamaraju šamaram šamaranje šamarao šamaraću šamaraš
+25	9825	službenica	službenice službenici službenicu
+26	9826	katkada	
+27	9827	neudobno	
+28	9828	значити	значи
+29	9829	rič	
+30	9830	dabogda	
+31	9831	dvjesto	dvesto
+32	9832	obožavateljica	obožavateljice obožavateljicu
+33	9833	razmirica	razmirice
+34	9834	papar	papra paprom
+35	9835	patriotizam	patriotizma patriotizmom
+36	9836	dijagnostika	dijagnostike dijagnostiku
+37	9837	lemati	leman lemana lemane
+38	9838	odsutnost	odsutnosti
+39	9839	češnjak	češnjaka češnjakom
+40	9840	potplatiti	potplati potplatili potplatio potplaćen potplaćeni
+41	9841	klokan	klokana klokane klokani
+42	9842	druželjubiv	druželjubiva druželjubivi druželjubivo
+43	9843	šizofrenija	šizofrenije šizofreniju
+44	9844	drum	druma drumom drumove drumu
+45	9845	nametljiv	nametljiva nametljive nametljivi nametljivo
+46	9846	nepovoljan	nepovoljna nepovoljne nepovoljni nepovoljnih nepovoljnim nepovoljno nepovoljnom
+47	9847	izvodljiv	izvodljivo
+48	9848	totem	totema totemu
+49	9849	zatočeništvo	zatočeništva zatočeništvu
+50	9850	atlantski	atlantske atlantskog atlantskom
+51	9851	tetiva	tetive tetivu
+52	9852	lukavstvo	lukavstva lukavstvom lukavstvu
+53	9853	sabran	sabrana sabrane sabrani sabrano
+54	9854	neprestan	neprestana neprestane neprestani neprestanih neprestanim neprestanog neprestanom
+55	9855	predahnuti	predahne predahnem predahnemo predahni
+56	9856	popravljati	
+57	9857	kreator	kreatora kreatori
+58	9858	špijunka	špijunke špijunku
+59	9859	шћети	нећемо нећете нећеш
+60	9860	kanabis	kanabisa
+61	9861	bedem	bedema bedeme bedemima
+62	9862	azbest	azbesta azbestom
+63	9863	aritmija	aritmije aritmiju
+64	9864	transmisija	transmisije transmisiju
+65	9865	kompresija	kompresije kompresijom kompresiju
+66	9866	smjelost	smelost smelosti smjelosti
+67	9867	favela	favelama favele faveli favelu
+68	9868	salutirati	salutira salutiraj salutiraju salutiram salutiranje salutirao salutiraš
+69	9869	nikotin	nikotina nikotinom
+70	9870	šverc	šverca švercu
+71	9871	prkos	prkosa prkose
+72	9872	kišiti	kiše kiši kišilo
+73	9873	privatizacija	privatizacije privatizaciji privatizacijom privatizaciju
+74	9874	pot	pota
+75	9875	izveštavati	izveštava
+76	9876	kapelan	kapelana kapelane
+77	9877	mrk	mrka mrki mrko
+78	9878	štednjak	štednjaka štednjaku
+79	9879	doraditi	dorade doradi doradila doradio
+80	9880	filtrirati	filtrira filtriraju filtrirana filtriranje
+81	9881	poslužitelj	poslužitelja poslužitelje poslužitelji poslužitelju
+82	9882	odmoran	odmorna odmorne odmorni odmorno
+83	9883	mam	
+84	9884	intelektualno	
+85	9885	tajnovitost	tajnovitosti
+86	9886	suton	sutona sutonu
+87	9887	ataše	atašea atašeom
+88	9888	telegraf	telegrafa telegrafom telegrafu
+89	9889	bankarstvo	bankarstva
+90	9890	живот	живота животу
+91	9891	adresirati	adresiran adresirana adresirani adresirano
+92	9892	saonice	saonica saonicama
+93	9893	ustupak	ustupaka ustupci ustupke
+94	9894	specijalizacija	specijalizacije specijalizaciji specijalizaciju
+95	9895	jeka	jeke jeku
+96	9896	kršten	
+97	9897	logičan	
+98	9898	retorički	retorička retoričko
+99	9899	akcelerator	akceleratora
+100	9900	mentalitet	mentaliteta mentalitetom mentalitetu

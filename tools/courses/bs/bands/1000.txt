@@ -1,0 +1,100 @@
+1	901	vjenčanje	venčanja venčanje venčanjem venčanjima venčanju vjenčanja vjenčanjem vjenčanjima vjenčanju
+2	902	park	parka parkom parkova parkove parkovi parkovima parku
+3	903	ostavljati	ostavlja ostavljaj ostavljajte ostavljaju ostavljajući ostavljala ostavljale ostavljali ostavljam ostavljamo ostavljanje ostavljao ostavljate ostavljaš
+4	904	srednji	srednja srednje srednjeg srednjem srednjih srednjim srednjoj srednjom srednju
+5	905	kamion	kamiona kamione kamioni kamionima kamionom kamionu
+6	906	ponosan	najponosniji ponosna ponosne ponosni ponosnih ponosnija ponosniji ponosnim ponosnima ponosno ponosnog ponosnoj ponosnom ponosnu
+7	907	svirati	svira sviraj svirajmo svirajte sviraju svirajući svirala svirale svirali sviralo sviram sviramo sviranje svirao svirate sviraće sviraćemo sviraću sviraš
+8	908	meta	metama mete meti metom metu
+9	909	kraljica	kraljicama kraljice kraljici kraljico kraljicom kraljicu
+10	910	išta	ičeg ičega ičemu ičim
+11	911	roditi	rode rodi rodila rodile rodili rodilo rodim rodimo rodio rodite rodiće rodićeš rodiću rodiš rodjenje rođena rođene rođeni rođenja rođenje rođenjem rođenju rođeno
+12	912	visoko	najviše visokim visokog visokom
+13	913	iskren	iskrena iskrene iskreni iskrenih iskrenija iskrenije iskreniji iskrenim iskrenog iskrenoj iskrenom iskrenu najiskrenija najiskrenije najiskreniji
+14	914	obući	obuci obucimo obucite obukao obukla obukle obukli obuku obuče obučem obučemo obučete obučeš
+15	915	cijeniti	cene ceni cenila cenili cenim cenimo cenio cenite ceniti ceniću ceniš cijene cijeni cijenila cijenili cijenim cijenimo cijenio cijenite cijeniš
+16	916	nesreća	nesrećama nesreće nesreći nesrećo nesrećom nesreću
+17	917	torba	torbama torbe torbi torbom torbu
+18	918	kreten	kretena kretene kreteni kretenima kretenom kretenu
+19	919	pakao	pakla pakle paklom paklu
+20	920	čast	časti čašću
+21	921	inače	
+22	922	služiti	služe služenje služeći služi služila služile služili služilo služim služimo služio služite služiće služićemo služićeš služiću služiš
+23	923	prodavati	prodaje prodajem prodajemo prodajete prodaješ prodaji prodaju prodajući prodavala prodavale prodavali prodavalo prodavan prodavana prodavane prodavani prodavanje prodavao prodavaće prodavaćemo prodavaću
+24	924	dobijati	dobija dobijaju dobijajući dobijam dobijamo dobijanje dobijate dobijaćete dobijaćeš dobijaću dobijaš
+25	925	zaraditi	zarad zarade zaradi zaradila zaradile zaradili zaradilo zaradim zaradimo zaradio zaradite zaradiće zaradićemo zaradićete zaradićeš zaradiću zaradiš zarađen zarađeni zarađeno
+26	926	gost	gosta goste gosti gostiju gostima gostom gostu
+27	927	kat	kata kate katom katova katove katovi katovima katu
+28	928	vrh	vrha vrhom vrhova vrhove vrhovi vrhovima vrhu vrše
+29	929	zatvoren	zatvorena zatvorene zatvoreni zatvorenih zatvorenim zatvorenima zatvoreno zatvorenog zatvorenoj zatvorenom zatvorenu
+30	930	zrak	zraci zracima zraka zrakama zrake zrakom zraku zrače
+31	931	njemački	nemačka nemačke nemački nemačkih nemačkim nemačko nemačkog nemačkoj nemačkom nemačku njemačka njemačke njemačkih njemačkim njemačko njemačkog njemačkoga njemačkoj njemačkom njemačkome njemačku
+32	932	pretvarati	pretvara pretvaraj pretvarajmo pretvarajte pretvaraju pretvarajući pretvarala pretvarale pretvarali pretvaralo pretvaram pretvaramo pretvaranje pretvarao pretvarate pretvaraćemo pretvaraćeš pretvaraću pretvaraš
+33	933	malen	malena malene maleni malenih malenim malenima maleno malenog malenoga malenoj malenom malenu manja manjeg manjem manji manjih manjim manjima manjoj manjom manju najmanja najmanjeg najmanjem najmanji najmanjih najmanjim najmanjoj najmanjom najmanju
+34	934	debeo	debela debele debeli debelih debelim debelima debelo debelog debeloga debeloj debelom debelu deblja deblje deblji debljim deblju najdeblja najdeblji
+35	935	cilj	cilja ciljem ciljeva ciljeve ciljevi ciljevima cilju
+36	936	izdati	izda izdade izdaj izdajmo izdajte izdaju izdala izdale izdali izdalo izdam izdamo izdan izdana izdane izdani izdanja izdanje izdanjem izdanjima izdanju izdano izdao izdat izdata izdate izdato izdaće izdaćemo izdaćeš izdaću izdaš
+37	937	savjet	savet saveta savete saveti savetima savetom savetu savjeta savjete savjeti savjetima savjetom savjetu
+38	938	adresa	adresama adrese adresi adresom adresu
+39	939	slatko	slatka slatkom slatku
+40	940	prošlost	prošlosti prošlošću
+41	941	odnijeti	odnela odnele odneli odnelo odneo odnese odnesem odnesemo odnesen odnesena odnesene odneseni odneseno odnesete odneseš odnesi odnesimo odnesite odnesu odneta odneti odneto odneće odnećemo odnećeš odneću odnijela odnijele odnijeli odnijelo odnijet odnijećemo odnijeću odnio
+42	942	zadovoljstvo	zadovoljstava zadovoljstva zadovoljstvima zadovoljstvom zadovoljstvu
+43	943	drvo	drva drvca drvce drvceta drveta drvetom drvetu
+44	944	podnijeti	podnela podnele podneli podneo podnese podnesem podnesemo podnesen podnesena podnesete podneseš podnesi podnesite podnesu podnet podneta podneti podneće podnećemo podneću podnijela podnijele podnijeli podnijelo podnijet podnijeta podnijeću podnio
+45	945	odustati	odustala odustale odustali odustalo odustane odustanem odustanemo odustanete odustaneš odustani odustanimo odustanite odustanu odustao odustaće odustaćeš odustaću
+46	946	vikend	vikenda vikende vikendi vikendima vikendom vikendu
+47	947	prazan	prazna prazne prazni praznih praznim praznima prazno praznog praznoj praznom praznu
+48	948	otvarati	otvara otvaraj otvarajte otvaraju otvarajući otvarala otvarale otvarali otvaram otvaramo otvaran otvarana otvaranja otvaranje otvaranjem otvaranju otvarao otvarate otvaraš
+49	949	duboko	dublje najdublje
+50	950	slab	najslabija najslabije najslabijeg najslabiji najslabijih najslabiju slaba slabe slabi slabih slabija slabije slabijeg slabiji slabijih slabijim slabijima slabiju slabim slabima slabo slabog slaboga slaboj slabom slabu
+51	951	pogrešno	
+52	952	iznad	
+53	953	kontakt	kontakata kontakta kontakte kontakti kontaktima kontaktom kontaktu
+54	954	čiji	čija čije čijeg čijem čijih čijim čijoj čijom čiju
+55	955	odrasti	odrasla odrasle odrasli odraslo odraste odrastem odrastemo odrastete odrasteš odrastite odrastu odrašće
+56	956	sumnjati	sumnjaj sumnjajte sumnjaju sumnjajući sumnjala sumnjali sumnjalo sumnjam sumnjamo sumnjao sumnjate sumnjaš
+57	957	gomila	gomilama gomile gomili gomilo gomilom gomilu
+58	958	sedmica	sedmicama sedmice sedmici sedmicom sedmicu
+59	959	sloboda	slobodama slobode slobodi slobodo slobodom slobodu
+60	960	često	
+61	961	haljina	haljinama haljine haljini haljinom haljinu
+62	962	istraga	istragama istrage istragom istragu istrazi
+63	963	primjer	primer primera primere primeri primerom primeru primjera primjere primjeri primjerima primjerom primjeru
+64	964	šala	šalama šale šali šalom šalu
+65	965	profesor	profesora profesore profesori profesorima profesorom profesoru
+66	966	nalaz	nalaza nalaze nalazi nalazima nalazom nalazu
+67	967	kuda	
+68	968	žaliti	žale žaleći žali žalila žalile žalili žalim žalimo žalio žalite žaliće žalićemo žalićeš žaliću žališ žaljenja žaljenje žaljenjem žaljenju
+69	969	prolaz	prolaza prolaze prolazi prolazima prolazom prolazu
+70	970	ček	čeka čekom čekova čekove čekovi čekovima čeku
+71	971	kučka	kučkama kučke kučki kučko kučkom kučku
+72	972	pokušavati	pokušava
+73	973	vratilo	vratila
+74	974	drugačije	
+75	975	putovanje	putovanja putovanjem putovanjima putovanju
+76	976	ticati	ticala ticalo tiče tiču
+77	977	osam	
+78	978	baviti	bave baveći bavi bavila bavile bavili bavim bavimo bavio bavite bavićemo baviću baviš bavljenje
+79	979	rezultat	rezultata rezultate rezultati rezultatima rezultatom rezultatu
+80	980	gospođica	gospođice gospođici gospođicom gospođicu
+81	981	putovati	putovala putovale putovali putovalo putovao putovaće putovaćemo putovaćeš putovaću putuj putuje putujem putujemo putujete putuješ putujte putuju putujući
+82	982	sasvim	
+83	983	peti	peta petama pete petica peticama petice petici peticom peticu petim peto petog petoga petoj petom petu
+84	984	član	člana članom članova članove članovi članovima članu
+85	985	činjenica	činjenicama činjenice činjenici činjenicom činjenicu
+86	986	maknuti	makao makla makli makne maknem maknemo maknete makneš makni maknimo maknite maknu maknula maknuli maknuo maknut maknuću maći mače
+87	987	signal	signala signale signali signalima signalom signalu
+88	988	posjetiti	posete poseti posetila posetile posetili posetim posetimo posetio posetite posetiti posetiće posetićemo posetićeš posetiću posetiš posjete posjeti posjetila posjetile posjetili posjetilo posjetim posjetimo posjetio posjetite posjetićemo posjetiću posjetiš
+89	989	ponijeti	ponela ponele poneli poneo ponese ponesem ponesemo ponesete poneseš ponesi ponesimo ponesite ponesu poneti poneće ponećemo ponećeš poneću ponije ponijela ponijeli ponijelo ponijet ponijeću ponio
+90	990	običan	najobičnija najobičnije najobičniji najobičniju obična obične obični običnih običnim običnog običnoj običnom običnu
+91	991	nemoguće	
+92	992	omiljen	najomiljenija najomiljenije najomiljenijeg najomiljeniji najomiljenijih najomiljeniju omiljena omiljene omiljeni omiljenih omiljeniji omiljenim omiljeno omiljenog omiljenoj omiljenom omiljenu
+93	993	jebote	jbt
+94	994	baza	bazama baze bazi bazo bazom bazu
+95	995	zlato	zlata zlatom zlatu
+96	996	zatim	
+97	997	pogrešan	pogrešna pogrešne pogrešni pogrešnih pogrešnim pogrešnog pogrešnoga pogrešnoj pogrešnom pogrešnome pogrešnu
+98	998	vezati	vezala vezale vezali vezalo vezan vezana vezane vezani vezanje vezano vezao vezaćemo vezaću veže vežem vežemo vežete vežeš veži vežimo vežite vežu
+99	999	selo	sela selima selom selu
+100	1000	čitav	čitava čitave čitavi čitavih čitavim čitavo čitavog čitavoga čitavoj čitavom čitavu

@@ -1,0 +1,100 @@
+1	7801	uzvodno	
+2	7802	nepošteno	
+3	7803	članstvo	članstva članstvom članstvu
+4	7804	optimizam	optimizma optimizmom optimizmu
+5	7805	mamuran	mamurna mamurni mamurno
+6	7806	pupak	pupka pupkom pupku
+7	7807	naseliti	nasele naseli naselila naselile naselili naselio
+8	7808	obračunati	obračuna obračunaju obračunali obračunam obračunamo obračunat obračunaćemo obračunaću
+9	7809	plast	plastom plastovi plastu
+10	7810	plovidba	plovidbe plovidbi plovidbu
+11	7811	propatiti	propatila propatili propatio
+12	7812	domorodac	domoroce domoroci domorocima domorodaca
+13	7813	zajeb	
+14	7814	igračica	igračice igračicom igračicu
+15	7815	ponor	ponora ponorom ponoru
+16	7816	kelvin	kelvina kelvine kelvinom kelvinu
+17	7817	cirkulacija	cirkulacije cirkulaciji cirkulacijom cirkulaciju
+18	7818	uvredljiv	uvredljiva uvredljive uvredljivi uvredljivih uvredljivim uvredljivu
+19	7819	prevrtati	prevrtala prevrtali prevrtanje prevrtao prevrće prevrćem prevrćemo prevrćeš prevrći prevrću
+20	7820	produktivan	produktivna produktivni produktivnije produktivniji produktivnim produktivno produktivnu
+21	7821	hodočasnik	hodočasnici hodočasnicima hodočasnika hodočasnike hodočasniče
+22	7822	akutan	akutna akutne akutni akutnim akutno akutnog akutnom akutnu
+23	7823	sadržavati	sadržava sadržavaju sadržavala sadržavale sadržavali sadržavalo sadržavao
+24	7824	međusoban	međusobna međusobne međusobni međusobnih međusobnim međusobnog međusobnoj međusobnom međusobnu
+25	7825	poboljšavati	poboljšava poboljšavaju poboljšavam poboljšavamo poboljšavanje poboljšavate poboljšavaš
+26	7826	opozicija	opozicije opoziciji opozicijom opoziciju
+27	7827	nesebičan	nesebična nesebične nesebični nesebičnih nesebično
+28	7828	trgnuti	trgne trgnem trgneš trgni trgnite trgnula trgnulo trgnuo
+29	7829	špada	spada
+30	7830	osigurač	
+31	7831	neslužbeno	
+32	7832	raskid	
+33	7833	smak	smaka smaku
+34	7834	nalijevo	nalevo
+35	7835	potomstvo	potomstva potomstvom potomstvu
+36	7836	džoker	džokera džokeri džokerom džokeru
+37	7837	gavran	gavrana gavrane gavrani
+38	7838	burza	burze burzi burzu
+39	7839	кућа	куће кући кућу
+40	7840	turbulencija	turbulencije turbulenciju
+41	7841	specijalizirati	specijalizira specijalizirala specijalizirali specijaliziran specijalizirana specijalizirane specijalizirani specijalizirao
+42	7842	konkurent	konkurenata konkurenta konkurente konkurenti konkurentima konkurentu
+43	7843	vibrirati	vibrira vibriraju vibrirajući vibriram vibriranje
+44	7844	plivač	plivača plivače plivači
+45	7845	pločnik	pločnika pločnikom pločniku
+46	7846	ispovijest	ispovest ispovesti ispovijesti
+47	7847	kobila	kobile kobili kobilo kobilom kobilu
+48	7848	matica	matice matici maticu
+49	7849	povjerenik	poverenici poverenik poverenika povjerenika povjereniče
+50	7850	nasamariti	nasamaren nasamarena nasamareni nasamari nasamarila nasamarili nasamario nasamariš
+51	7851	sramotan	sramotna sramotne sramotni sramotnih sramotnije sramotnim sramotnog sramotnu
+52	7852	nadjačati	nadjača nadjačaju nadjačali nadjačan nadjačana nadjačane nadjačani nadjačao
+53	7853	prav	prava prave pravih pravim pravima pravog pravoga pravoj pravom pravome pravu
+54	7854	protivan	protivne protivnom
+55	7855	pokazatelj	pokazatelja pokazatelje pokazatelji
+56	7856	aljkav	aljkava aljkavi aljkavo
+57	7857	podučiti	podučen poduči podučila podučili podučim podučio podučite podučiš
+58	7858	fragment	fragmenata fragmenta fragmente fragmenti fragmentima
+59	7859	многи	многе много
+60	7860	žirafa	žirafe žirafi žirafom žirafu
+61	7861	prepirka	prepirci prepirke prepirki prepirku
+62	7862	kirurški	kirurška kirurške kirurških kirurškim kirurško kirurškog kirurškom kiruršku
+63	7863	rezime	rezimea rezimeu
+64	7864	zaklada	zaklade zakladi zakladom zakladu
+65	7865	smjernica	smernica smernice smjernicama smjernice
+66	7866	kleveta	klevetama klevete klevetu
+67	7867	prestonica	prestonice prestonici prestonicu
+68	7868	ograditi	ograde ogradi ogradila ogradili ogradim ogradimo ogradio ogradite ograđen ograđena ograđeni ograđeno
+69	7869	kristalno	
+70	7870	žig	žiga žigom žigu
+71	7871	falsifikat	falsifikata falsifikate falsifikati falsifikatima
+72	7872	svraćati	svraća svraćaju svraćala svraćali svraćam svraćanje svraćao svraćaš
+73	7873	australijski	australijska australijske australijskih australijskim australijsko australijskog australijskom australijsku
+74	7874	ušuškati	ušuška ušuškaj ušuškala ušuškam ušuškamo ušuškan ušuškana ušuškani ušuškano ušuškao ušuškaš
+75	7875	vertikalan	vertikalna vertikalne vertikalni vertikalnim vertikalno vertikalnog vertikalnom vertikalnu
+76	7876	istovariti	istovare istovari istovarili istovarim istovarimo istovario istovarite
+77	7877	kas	kasom kasu
+78	7878	зар	
+79	7879	banket	banketa bankete banketu
+80	7880	ikona	ikone ikonu
+81	7881	smicalica	smicalicama smicalice smicalicu
+82	7882	baraba	barabe barabo barabu
+83	7883	sniziti	snizi snizila snizili snizim snizio snizite snižena sniženo
+84	7884	vata	vate vati vato vatom vatu
+85	7885	prilagodba	prilagodbe prilagodbi prilagodbu
+86	7886	sašiti	saši sašije sašijem sašila sašili sašio sašivena
+87	7887	pudlica	pudlicama pudlice pudlicu
+88	7888	skaut	skauta skaute skauti skautima
+89	7889	dugoročan	dugoročna dugoročne dugoročni dugoročnih dugoročnim dugoročnog dugoročnom dugoročnu
+90	7890	kopča	kopče kopči kopčom kopču
+91	7891	blažiti	blaže blažen blažena blažene blaženi blaženo blaži
+92	7892	prilazak	prilaska prilasku
+93	7893	prekretnica	prekretnice prekretnici prekretnicu
+94	7894	ginekolog	ginekologa ginekologom ginekologu
+95	7895	kepec	kepeca kepeci kepecom kepecu
+96	7896	sisavac	sisavaca sisavca sisavce sisavci sisavcima
+97	7897	vjerojatnost	vjerojatnosti
+98	7898	ostanak	ostanka ostankom ostanku
+99	7899	zadovoljavajući	zadovoljavajuća zadovoljavajuće
+100	7900	ćufta	ćuftama ćufte ćufti ćufto ćuftu

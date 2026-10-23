@@ -1,0 +1,100 @@
+1	9201	šarmirati	šarmira šarmiraj šarmirala šarmiram šarmirao šarmiraš
+2	9202	potkrovlje	
+3	9203	trista	
+4	9204	vidljivo	
+5	9205	nezavisno	
+6	9206	intenzivno	
+7	9207	sočno	
+8	9208	tumačenje	tumačenja
+9	9209	pogodnost	pogodnosti pogodnostima
+10	9210	telepatija	telepatije telepatijom telepatiju
+11	9211	ekvator	ekvatora ekvatoru
+12	9212	gigant	giganata giganta giganti
+13	9213	strankinja	strankinjama strankinje strankinji strankinjo strankinju
+14	9214	dlačica	dlačicama dlačice dlačicu
+15	9215	hrenovka	hrenovkama hrenovke hrenovki hrenovku
+16	9216	kotlet	kotleta kotlete kotleti
+17	9217	bajonet	bajoneta bajonete bajoneti bajonetima bajonetom
+18	9218	rastavljati	rastavlja rastavljaju rastavljam rastavljamo rastavljanje rastavljao rastavljaš
+19	9219	prevazilaziti	prevazilaze prevazilazi
+20	9220	izazivač	izazivača izazivačem izazivači
+21	9221	uteg	utega utege utegom utezi utezima
+22	9222	hula	huli hulu
+23	9223	klonja	klonje klonji klonju
+24	9224	čaršaf	čaršafe čaršafi čaršafima čaršav
+25	9225	mahovina	mahovine mahovinom mahovinu
+26	9226	asimilirati	asimilira asimiliraju asimilirala asimilirali asimiliramo asimiliran asimilirani asimilirao
+27	9227	ciganski	ciganska ciganske cigansko ciganskog ciganskom cigansku
+28	9228	pokvasiti	pokvase pokvasi pokvasila pokvasili pokvasim pokvasio pokvasite pokvasiš
+29	9229	brik	
+30	9230	narasti	
+31	9231	prvenstveno	
+32	9232	svud	
+33	9233	nj	
+34	9234	море	мора
+35	9235	korice	
+36	9236	tečno	
+37	9237	antropolog	antropologa antropologinja antropolozi
+38	9238	avanturist	avanturista avanturisti
+39	9239	jednostavnost	jednostavnosti
+40	9240	ludorija	ludorijama ludorije ludoriju
+41	9241	ribnjak	ribnjaka ribnjaku
+42	9242	devin	devina devine devino
+43	9243	tribun	tribuna tribune tribuni tribunu
+44	9244	nerođen	nerođena nerođene nerođeni nerođenim nerođeno nerođenog nerođenu
+45	9245	vitak	vitka vitke vitki vitko
+46	9246	očinski	očinska očinske očinskih očinskog očinsku
+47	9247	trapav	trapava trapavi trapavo
+48	9248	zalogajnica	zalogajnice zalogajnici zalogajnicu
+49	9249	potkupiti	potkupe potkupi potkupili potkupio potkupljen potkupljeni
+50	9250	beživotan	beživotna beživotne beživotni beživotnim beživotno beživotnu
+51	9251	sjeverozapad	severozapad severozapada severozapadu sjeverozapada sjeverozapadu
+52	9252	srodnik	srodnici srodnicima srodnika
+53	9253	otpadati	otpada otpadaju otpadam otpadaš
+54	9254	tucet	tuceta
+55	9255	izba	izbi izbo
+56	9256	zračiti	zrače zrači zračila zračili zračite zračiš
+57	9257	pozorno	
+58	9258	marljivo	
+59	9259	blic	blica blicem blicevi
+60	9260	prosperitet	prosperiteta prosperitetu
+61	9261	razotkrivati	razotkriva razotkrivaju razotkrivanje
+62	9262	vrhnje	vrhnja vrhnjem
+63	9263	pukovnija	pukovnije pukovniji pukovniju
+64	9264	lema	leme lemi lemom lemu
+65	9265	penzioni	penzione penziono penzionog penzionom
+66	9266	celibat	celibata celibatu
+67	9267	marljiv	marljiva marljivi marljivih marljivim marljivog
+68	9268	rangirati	rangira rangiran rangirana rangirane rangirani rangiranje
+69	9269	nedoumica	nedoumice nedoumici nedoumicu
+70	9270	krošnja	krošnjama krošnje krošnji krošnju
+71	9271	spavač	spavača spavače spavači spavaču
+72	9272	krunisati	krunisan krunisana krunisani krunisanje kruniše
+73	9273	nakupiti	nakupe nakupi nakupila nakupile nakupili nakupilo nakupio
+74	9274	bodlja	bodljama bodlje bodlji
+75	9275	aerobik	aerobika aerobiku
+76	9276	narcis	narcisa narcise narcisi
+77	9277	promjer	promjera promjeru
+78	9278	svak	svaka svakom svaku
+79	9279	brzati	brza brzaj brzajmo brzajte brzam brzamo brzate brzaš
+80	9280	satnica	satnice satnici satnicu
+81	9281	navrat	navrata navrate navrati
+82	9282	štovati	štovali štovani štovanje štovao štuje štujem štujemo štuju
+83	9283	začarati	začara začarala začarao
+84	9284	stolnjak	stolnjaci stolnjacima stolnjaka stolnjake stolnjaku
+85	9285	kesten	kestena kestene kesteni kestenom kestenu
+86	9286	neposlušan	neposlušna neposlušne neposlušni neposlušnog neposlušnu
+87	9287	pastrmka	pastrmke pastrmki pastrmko pastrmku
+88	9288	izmlatiti	izmlate izmlati izmlatili izmlatim izmlatio izmlatiš
+89	9289	nanovo	
+90	9290	nu	
+91	9291	gramofon	gramofona gramofonu
+92	9292	impotentan	impotentni impotentnim
+93	9293	stas	stasa stasom
+94	9294	genetički	genetička genetičke genetičkog
+95	9295	poprijeko	popreko
+96	9296	drvosječa	drvoseča drvoseče drvosječe
+97	9297	podsvjestan	podsvesne podsvesni podsvesno podsvjesne podsvjesno
+98	9298	bjesnilo	besnila besnilo bjesnila
+99	9299	nesvjestica	nesvestica nesvestice nesvesticu nesvjestice nesvjesticu
+100	9300	metež	meteža metežu

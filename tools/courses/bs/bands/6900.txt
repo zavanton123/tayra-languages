@@ -1,0 +1,100 @@
+1	6801	kreda	krede kredi kredo kredom kredu
+2	6802	mahnuti	mahne mahnem mahneš mahni mahnite mahnula mahnuli mahnuo
+3	6803	mah	mach maha mahom mahove maše
+4	6804	smjerati	smera smeraju smeramo smerate smeraš smjera smjeraju smjerate smjeraš
+5	6805	до	
+6	6806	olako	
+7	6807	paprika	paprikama paprike paprikom papriku
+8	6808	otploviti	otplove otplovi otplovila otplovili otplovim otplovimo otplovio otploviš
+9	6809	bušilica	bušilicama bušilice bušilici bušilicom bušilicu
+10	6810	spavaonica	spavaonicama spavaonice spavaonici spavaonicu
+11	6811	psihijatrija	psihijatrije psihijatriji psihijatrijom psihijatriju
+12	6812	stručan	stručna stručne stručni stručnih stručnim stručnog stručnom stručnu
+13	6813	uklanjati	uklanja uklanjaju uklanjajući uklanjali uklanjam uklanjamo uklanjao uklanjate uklanjaš
+14	6814	teniski	teniska teniske teniskih teniskim tenisko teniskog teniskom tenisku
+15	6815	dogovarati	dogovara dogovaraju dogovarala dogovarali dogovaram dogovaramo dogovaranje dogovarao dogovarate dogovaraš
+16	6816	litra	litre litri litru
+17	6817	šokantno	
+18	6818	iznimno	
+19	6819	donekle	
+20	6820	načelo	načela načelima načelu
+21	6821	poštenje	poštenja poštenjem poštenju
+22	6822	bakar	bakra bakrom
+23	6823	lubenica	lubenicama lubenice lubenicu
+24	6824	perverzan	perverzna perverzne perverzni perverznih perverznim perverznog perverznom perverznu
+25	6825	isplivati	ispliva isplivaju isplivala isplivale isplivali isplivalo isplivao
+26	6826	propovijedati	propoveda propovedaju propovedam propovedamo propovedao propovedati propovedaš propovijeda propovijedaju propovijedali propovijedam propovijedao propovijedate propovijedaš
+27	6827	kurvica	kurvicama kurvice kurvici kurvicom kurvicu
+28	6828	popularnost	popularnosti popularnošću
+29	6829	kolumna	kolumne kolumni kolumnu
+30	6830	amaterski	amaterska amaterske amaterskih amaterskim amatersko amaterskog amaterskoj amaterskom amatersku
+31	6831	bezvezan	bezvezna bezvezne bezvezni bezveznih bezveznim bezvezno bezveznog bezveznom bezveznu
+32	6832	kockarnica	kockarnicama kockarnice kockarnici kockarnicu
+33	6833	zamjenica	zamenica zamenice zamenici zamenicu zamjenice zamjenici zamjenicom zamjenicu
+34	6834	težiti	teže težeći teži težila težili težim težimo težio težite težiš
+35	6835	čeljust	čeljusti čeljustima
+36	6836	građa	građe građi građom građu
+37	6837	rakija	rakije rakijom rakiju
+38	6838	anestezija	anestezije anestezijom anesteziju
+39	6839	buran	burna burne burni burnih burnim burno burnog burnu
+40	6840	oklopni	oklopna oklopne oklopnih oklopnim oklopno oklopnog oklopnom
+41	6841	udes	udesa udese udesi udesu
+42	6842	opijum	opijuma opijumom opijumu
+43	6843	razbacati	razbacaj razbacala razbacali razbacan razbacana razbacane razbacani razbacano razbacao razbacaš
+44	6844	mađarski	mađarska mađarske mađarskih mađarskim mađarskog mađarskoj mađarskom mađarsku
+45	6845	prizvati	prizove prizovem prizovemo prizovete prizoveš prizovi prizovite prizvala prizvali prizvan prizvani prizvao
+46	6846	krijumčar	krijumčara krijumčare krijumčari krijumčarima
+47	6847	pehar	pehara pehare pehari peharima peharom peharu
+48	6848	useljavati	useljava useljavaju useljavam useljavamo useljavanje useljavate useljavaš
+49	6849	žar	žara žarom žaru
+50	6850	sapunica	sapunicama sapunice sapunici sapunicom sapunicu
+51	6851	ugrabiti	ugrabe ugrabi ugrabila ugrabili ugrabim ugrabimo ugrabio ugrabite ugrabiš
+52	6852	grb	grba grbe grbi grbom grbu
+53	6853	или	
+54	6854	lepak	lepka lepke lepkom lepku
+55	6855	favorit	favorita favorite favoriti
+56	6856	klin	klina kline klinom klinova klinove klinovi
+57	6857	bedro	bedara bedra bedrima bedru
+58	6858	prizivati	priziva prizivaj prizivaju prizivam prizivamo prizivanje prizivaš
+59	6859	galamiti	galame galami galamila galamili galamim galamimo galamio galamite galamiš
+60	6860	zabadati	zabada zabadaj zabadaju zabadala zabadalo zabadam zabadanje zabadao zabadaš
+61	6861	obrnuti	obrne obrnem obrnemo obrneš obrni obrnu obrnula obrnuli obrnuo
+62	6862	različito	
+63	6863	jes	
+64	6864	losion	losiona losione losionom
+65	6865	energetski	energetske
+66	6866	odlučnost	odlučnosti odlučnošću
+67	6867	borovnica	borovnicama borovnice borovnicom borovnicu
+68	6868	komunizam	komunizma komunizmom komunizmu
+69	6869	logika	
+70	6870	povezivati	povezuju
+71	6871	siječanj	siječnja siječnju
+72	6872	dominacija	dominacije dominaciji dominacijom dominaciju
+73	6873	skakavac	skakavaca skakavca skakavce skakavci skakavcu skakavče
+74	6874	trijumf	trijumfa trijumfom trijumfu
+75	6875	propovjednik	propovednici propovednik propovednika propovedniče propovjednici propovjednika propovjednikom propovjedniče
+76	6876	fotoaparat	fotoaparata fotoaparate fotoaparati fotoaparatom fotoaparatu
+77	6877	limit	limita limite limiti limitu
+78	6878	trešnja	trešanja trešnjama trešnje trešnjom trešnju
+79	6879	frustracija	frustracije frustraciji frustracijom frustraciju
+80	6880	добар	боље бољи добре добри најбоља најбољи
+81	6881	svojstvo	svojstava svojstva svojstvima svojstvu
+82	6882	krivotvoriti	krivotvore krivotvoren krivotvorena krivotvorene krivotvoreni krivotvorenje krivotvori krivotvorila krivotvorili krivotvorim krivotvorio
+83	6883	tijesto	testa testo testom testu tijesta tijestom tijestu
+84	6884	uvečer	
+85	6885	radijus	radijusa radijusu
+86	6886	patent	patenata patenta patente patenti patentima patentom
+87	6887	potencijalno	
+88	6888	jagnje	jagnjad jagnjeta jagnjetom
+89	6889	neželjen	neželjena neželjene neželjeni neželjenih neželjenim neželjeno neželjenog neželjenom neželjenu
+90	6890	milimetar	milimetara milimetra
+91	6891	podsvijest	podsvest podsvesti podsvijesti
+92	6892	košara	košarama košare košari košarom košaru
+93	6893	žlica	žlice žlici žlicom žlicu
+94	6894	uzvišen	uzvišena uzvišene uzvišeni uzvišenih uzvišenije uzvišenim uzvišenog uzvišenom uzvišenu
+95	6895	štimati	štima štimaju štimalo
+96	6896	biftek	bifteka bifteke bifteku
+97	6897	ispravljati	ispravlja ispravljaj ispravljaju ispravljam ispravljamo ispravljanje ispravljao ispravljaš
+98	6898	preletjeti	prelete preletela preleteli preleteo preleteti preleti preletim preletimo preletio preletite preletjela preletjeli
+99	6899	obnova	obnove obnovi obnovom obnovu
+100	6900	izdaleka	

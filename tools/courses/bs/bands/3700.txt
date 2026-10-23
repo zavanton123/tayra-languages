@@ -1,0 +1,100 @@
+1	3601	zarada	zaradama zarade zaradom zaradu
+2	3602	štakor	štakora štakore štakori štakorima štakorom štakoru
+3	3603	bezobrazan	bezobrazna bezobrazne bezobrazni bezobraznih bezobrazniji bezobraznim bezobrazno bezobraznog bezobraznom bezobraznu
+4	3604	prisustvovati	prisustvovala prisustvovali prisustvovalo prisustvovao prisustvuj prisustvuje prisustvujem prisustvujemo prisustvujete prisustvuješ prisustvujte prisustvuju
+5	3605	divlje	
+6	3606	vražji	vražja vražje vražjeg vražjem vražjih vražjim vražjoj vražjom vražju
+7	3607	pizda	pizdama pizde pizdi pizdo pizdom pizdu
+8	3608	stanovati	stanovala stanovali stanovanje stanovao stanuje stanujem stanujemo stanujete stanuješ stanuju
+9	3609	pruga	prugama pruge prugom prugu pruzi
+10	3610	muza	muze muzi muzo muzom muzu
+11	3611	kula	kulama kule kuli kulom kulu
+12	3612	škotski	škotska škotske škotskim škotsko škotskog škotskoj škotskom škotsku
+13	3613	frend	frenda frende frendica frendicama frendice frendicom frendicu frendom frendova frendove frendovi frendovima frendu
+14	3614	rušiti	ruše rušenje rušeći ruši rušila rušili rušim rušimo rušio rušite rušiš
+15	3615	deka	dekama deke deki deko dekom deku
+16	3616	som	soma some somova somove somovi somu
+17	3617	drukčije	
+18	3618	sjekira	sekira sekire sekirom sekiru sjekirama sjekire sjekirica sjekirice sjekirom sjekiru
+19	3619	tajnost	tajnosti tajnošću
+20	3620	zastupati	zastupa zastupaju zastupajući zastupala zastupali zastupam zastupamo zastupanje zastupao zastupate zastupaš
+21	3621	kolovoz	kol kolovoza kolovozu
+22	3622	vrhunac	vrhunaca vrhunca vrhunce vrhuncu
+23	3623	kočija	kočijama kočije kočiji kočijom kočiju
+24	3624	figura	figurama figure figuri figurom figuru
+25	3625	smeo	najsmeliji smela smele smeli smeliji smelo smelog smelu
+26	3626	stub	stuba stubama stube stubom stubova stubove stubovi stubovima stubu
+27	3627	rezati	rezala rezali rezani rezanje rezao reže režem režemo režete režeš reži režite režu režući
+28	3628	onamo	
+29	3629	domaćin	domaćina domaćine domaćini domaćinima domaćinom domaćinu
+30	3630	dućan	dućana dućane dućani dućanima dućanu
+31	3631	nedužan	nedužna nedužne nedužni nedužnih nedužnim nedužno nedužnog nedužnoj nedužnom nedužnu
+32	3632	mikrofon	mikrofona mikrofone mikrofoni mikrofonima mikrofonom mikrofonu
+33	3633	kut	kuta kute kutom kutova kutove kutovi kutovima kutu
+34	3634	načelnik	načelnici načelnika načelnikom načelniku načelniče
+35	3635	kaciga	kacigama kacige kacigi kacigo kacigom kacigu
+36	3636	nastupati	nastupa nastupaju nastupala nastupali nastupam nastupamo nastupanje nastupao nastupate nastupaš
+37	3637	oklop	oklopa oklope oklopi oklopima oklopom oklopu
+38	3638	tulum	tuluma tulume tulumi tulumima tulumom tulumu
+39	3639	leptir	leptira leptire leptiri leptirima leptirom leptirova leptiru
+40	3640	dostava	dostave dostavi dostavom dostavu
+41	3641	konzerva	konzervama konzerve konzervi konzervo konzervom konzervu
+42	3642	sjeverno	severno
+43	3643	norma	normama norme normi normom normu
+44	3644	vjeverica	veverica vevericama veverice veverici vevericom vevericu vjevericama vjeverice vjeverici vjevericom vjevericu
+45	3645	sklad	sklada skladu
+46	3646	iluzija	iluzijama iluzije iluziji iluzijom iluziju
+47	3647	prihvaćati	prihvaća prihvaćaj prihvaćaju prihvaćajući prihvaćali prihvaćam prihvaćamo prihvaćanje prihvaćao prihvaćate prihvaćaš
+48	3648	izgovarati	izgovara izgovaraj izgovarajte izgovaraju izgovarala izgovaram izgovaramo izgovaranje izgovarao izgovarate izgovaraš
+49	3649	septembar	septembra septembrom septembru
+50	3650	izložba	izložbe izložbeni izložbenom izložbi izložbom izložbu
+51	3651	ispunjavati	ispunjava ispunjavaju ispunjavajući ispunjavala ispunjavali ispunjavalo ispunjavam ispunjavamo ispunjavanje ispunjavanju ispunjavao ispunjavate ispunjavaš
+52	3652	prljavo	
+53	3653	zasluga	zaslugama zasluge zaslugom zaslugu zasluzi
+54	3654	daljina	daljine daljini daljinu
+55	3655	munja	munjama munje munji munjo munjom munju
+56	3656	guraj	
+57	3657	zateći	zateci zatekao zatekla zatekle zatekli zateklo zatekne zateknem zateknemo zateknete zatekneš zateknu zatečena zatečeni
+58	3658	ekonomski	ekonomska ekonomske ekonomskih ekonomskim ekonomsko ekonomskog ekonomskoj ekonomskom ekonomsku
+59	3659	puk	puci puka puke pukom pukova pukove pukovi puku puče
+60	3660	ambasador	ambasadora ambasadore ambasadori ambasadorima ambasadorom ambasadoru
+61	3661	završni	završna završne završnih završnim završno završnog završnoj završnom završnu
+62	3662	utočište	utočišta utočištem utočištu
+63	3663	trbuh	trbuha trbuhe trbuhom trbuhu trbusima
+64	3664	kvart	kvarta kvartom kvartova kvartove kvartovi kvartovima kvartu
+65	3665	štedjeti	štede štedela štedeli štedeo štedeti štedeći štedi štedim štedimo štedio štedite štediš štedjela štedjeli
+66	3666	nebitan	nebitna nebitne nebitni nebitnih nebitnim nebitno nebitnom
+67	3667	angel	
+68	3668	injekcija	injekcijama injekcije injekciji injekcijom injekciju
+69	3669	održavanje	održavanja
+70	3670	okruženje	okruženja okruženjem okruženjima okruženju
+71	3671	izraziti	izraze izrazi izrazila izrazili izrazim izrazimo izrazite izraziš izražen izražena izražene izraženi izraženo
+72	3672	platforma	platformama platforme platformi platformom platformu
+73	3673	izvješće	izvešće izvešću izvješća izvješćem izvješćima izvješću
+74	3674	varalica	varalicama varalice varalici varalico varalicom varalicu
+75	3675	potencijal	potencijala potencijale potencijalima potencijalom potencijalu
+76	3676	progoniti	progone progoni progonila progonili progonilo progonim progonimo progonio progonite progoniće progoniš progonjen progonjena progonjene progonjeni progonjeno
+77	3677	vodič	vodiča vodiče vodičem vodiči vodičima vodiču
+78	3678	klupa	klupama klupe klupi klupom klupu
+79	3679	ukazati	ukaza ukazala ukazale ukazali ukazalo ukazana ukazane ukazanje ukazano ukazao ukaže ukažem ukažemo ukažete ukažeš ukaži ukažu
+80	3680	nikuda	
+81	3681	domovina	domovine domovini domovino domovinom domovinu
+82	3682	vagina	vaginama vagine vagini vaginom vaginu
+83	3683	sjaj	sjaja sjajem sjaju
+84	3684	mahati	mahanje mahao maše mašem mašemo mašete mašeš maši mašite mašu mašući
+85	3685	senat	senata senatom senatu
+86	3686	grana	granama grane grani granom granu
+87	3687	bombon	bombona bombone bomboni bombonima bombonu
+88	3688	zagonetka	zagonetkama zagonetke zagonetki zagonetkom zagonetku
+89	3689	zeko	zeka zeke zeki zekom zeku
+90	3690	zauzvrat	
+91	3691	bašta	baštama bašte bašti baštom baštu
+92	3692	odrezak	odresci odrescima odreska odreske odreskom odresku odrezaka
+93	3693	identifikacija	identifikacije identifikaciji identifikacijom identifikaciju
+94	3694	smrznuti	smrzne smrznem smrznemo smrznete smrzneš smrzni smrznu smrznula smrznuli smrznulo smrznuo smrznut smrznuta smrznute smrznuto smrznuće smrznućemo smrznućeš
+95	3695	lukav	lukava lukave lukavi lukavih lukavije lukaviji lukavim lukavo lukavog lukavom najlukaviji
+96	3696	divljina	divljine divljini divljinom divljinu
+97	3697	poprilično	
+98	3698	odjenuti	odeven odevena odeveni odjene odjenem odjenete odjeneš odjeni odjenite odjenula odjenuli odjenuo odjenut odjeven odjevena odjevene odjeveni
+99	3699	plac	placa placem placu
+100	3700	prihod	prihoda prihode prihodi prihodima prihodom prihodu

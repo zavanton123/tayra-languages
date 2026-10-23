@@ -1,0 +1,100 @@
+1	3201	agresivan	agresivna agresivne agresivni agresivnih agresivnija agresivnije agresivniji agresivnim agresivno agresivnog agresivnom agresivnu najagresivniji
+2	3202	tabla	tablama table tabli tablom tablu
+3	3203	prepun	prepuna prepune prepuni prepunih prepunim prepuno prepunog prepunoj prepunom prepunu
+4	3204	magičan	magična magične magični magičnih magičnim magičnog magičnoj magičnom magičnu
+5	3205	predstavnik	predstavnica predstavnice predstavnici predstavnicima predstavnika predstavnike predstavnikom predstavniku predstavniče
+6	3206	bolničar	bolničara bolničare bolničari bolničarima bolničarka bolničarkama bolničarke bolničarki bolničarko bolničarkom bolničarku bolničaru
+7	3207	svakodnevan	svakodnevna svakodnevne svakodnevni svakodnevnih svakodnevnim svakodnevno svakodnevnog svakodnevnoj svakodnevnom svakodnevnu
+8	3208	odstupiti	odstupe odstupi odstupila odstupili odstupim odstupimo odstupio odstupite odstupiš
+9	3209	naopako	
+10	3210	pregovor	pregovora pregovore pregovori pregovorima
+11	3211	jutarnji	jutarnja jutarnje jutarnjeg jutarnjem jutarnjih jutarnjim jutarnjoj jutarnjom jutarnju
+12	3212	izdajnik	izdajnici izdajnicima izdajnika izdajnike izdajnikom izdajniku izdajniče
+13	3213	tretman	tretmana tretmane tretmanom tretmanu
+14	3214	analizirati	analizira analiziraj analizirajte analiziraju analizirajući analizirala analizirali analiziram analiziramo analiziran analizirani analiziranje analizirao analizirate analiziraću analiziraš
+15	3215	tumor	tumora tumore tumori tumorima tumorom tumoru
+16	3216	diploma	diplomama diplome diplomi diplomom diplomu
+17	3217	goniti	gone goni gonila gonili gonim gonimo gonio gonite goniš gonjen gonjena gonjeni gonjenje
+18	3218	prijati	prija prijaju prijala prijalo prijao prijaće
+19	3219	magla	magle magli maglom maglu
+20	3220	pozdravljati	pozdravlja pozdravljaju pozdravljala pozdravljali pozdravljam pozdravljamo pozdravljanje pozdravljao pozdravljate pozdravljaš
+21	3221	primjerak	primerak primeraka primerci primerka primerke primerku primjeraka primjerci primjercima primjerka primjerke primjerkom primjerku
+22	3222	boravak	boravka boravkom boravku
+23	3223	vrhovni	vrhovna vrhovne vrhovnim vrhovno vrhovnog vrhovnoj vrhovnom vrhovnu
+24	3224	raspasti	raspadne raspadnem raspadneš raspadnu raspadnuta raspadnuto raspala raspale raspali raspalo raspao raspašće
+25	3225	razvaliti	razvale razvali razvalila razvalili razvalim razvalimo razvalio razvalite razvaliće razvalićemo razvaliću razvališ razvaljen razvaljena razvaljene razvaljeno
+26	3226	nesporazum	nesporazuma nesporazume nesporazumi nesporazumom nesporazumu
+27	3227	šarmantan	šarmantna šarmantne šarmantni šarmantnim šarmantno šarmantnog šarmantnoj šarmantnom šarmantnu
+28	3228	klasičan	klasična klasične klasični klasičnih klasičnim klasično klasičnog klasičnoj klasičnom klasičnu
+29	3229	iznevjeriti	iznevjere iznevjeri iznevjerila iznevjerili iznevjerilo iznevjerim iznevjerio iznevjeriš
+30	3230	mrtvac	mrtvaca mrtvace mrtvaci mrtvacima mrtvacom mrtvacu mrtvače
+31	3231	otrovati	otrova otrovala otrovali otrovalo otrovana otrovane otrovani otrovano otrovao otruj otruje otrujem otrujete otruješ otruju
+32	3232	bod	boda bode bodom bodova bodove bodovi bodovima bodu
+33	3233	bacanje	bacanja bacanjem bacanju
+34	3234	ceremonija	ceremonijama ceremonije ceremoniji ceremonijom ceremoniju
+35	3235	godišnji	godišnja godišnjeg godišnjem godišnjih godišnjim godišnjoj godišnjom godišnju
+36	3236	naučan	naučna naučne naučni naučnih naučnim naučno naučnog naučnoj naučnom naučnu
+37	3237	olakšati	olakša olakšaj olakšajte olakšaju olakšala olakšali olakšalo olakšam olakšamo olakšan olakšana olakšano olakšao olakšate olakšaće olakšaću olakšaš
+38	3238	skratiti	skrate skrati skratila skratili skratilo skratim skratimo skratio skratite skratiću skratiš skraćen skraćena skraćene skraćeni skraćeno
+39	3239	vječan	večan večna večne večni večnim večnog večnoj večnom večnu vječna vječne vječni vječnih vječnim vječnog vječnoj vječnom vječnu
+40	3240	rekord	rekorda rekorde rekordi rekordom rekordu
+41	3241	modrica	modricama modrice modricom modricu
+42	3242	ukusno	
+43	3243	pokopati	pokopa pokopaj pokopajmo pokopajte pokopaju pokopala pokopali pokopam pokopamo pokopan pokopana pokopane pokopani pokopano pokopao pokopaće pokopaću pokopaš
+44	3244	kondom	kondoma kondome kondomi kondomima kondomom kondomu
+45	3245	palac	palaca palca palce palcem palci palcima palcu palčeva palčeve palčevi palčevima
+46	3246	kletva	kletvama kletve kletvi kletvom kletvu
+47	3247	razvesti	razvede razvedem razvedemo razvedete razvedeš razvedi razvedu razvela razveli razveo razvešće razvešću
+48	3248	karton	kartona kartone kartonom kartonu
+49	3249	domet	dometa dometom dometu
+50	3250	proizvodnja	proizvodnje proizvodnji proizvodnjom proizvodnju
+51	3251	šokirati	šokira šokiraj šokirala šokirali šokiralo šokiram šokiran šokirana šokirane šokirani šokirano šokirao šokirate šokiraš
+52	3252	vladin	vladina vladine vladini vladinih vladinim vladino vladinoj vladinom vladinu
+53	3253	nadoknaditi	nadoknade nadoknadi nadoknadila nadoknadili nadoknadim nadoknadimo nadoknadio nadoknadite nadoknadićemo nadoknadićeš nadoknadiću nadoknadiš nadoknađeno
+54	3254	tanjir	tanjira tanjire tanjiri tanjirima tanjirom tanjiru
+55	3255	razmjena	razmena razmene razmeni razmenu razmjene razmjeni razmjenom razmjenu
+56	3256	teretana	teretanama teretane teretani teretanom teretanu
+57	3257	direktan	direktna direktne direktni direktnih direktnim direktnog direktnoj direktnom direktnu
+58	3258	pobunjenik	pobunjenici pobunjenicima pobunjenika pobunjenike pobunjenikom pobunjeniče
+59	3259	raspoloženje	raspoloženja raspoloženjem raspoloženju
+60	3260	čarolija	čarolijama čarolije čaroliji čarolijom čaroliju
+61	3261	suzan	suzne
+62	3262	navesti	naveden navedene navela naveo navešćemo navešću
+63	3263	sperma	sperme spermi spermom spermu
+64	3264	dodijeliti	dodele dodeli dodelila dodelili dodelim dodelio dodeliti dodeliću dodeljen dodeljena dodeljene dodeljeni dodeljeno dodijele dodijeli dodijelila dodijelili dodijelim dodijelio dodijelite dodijeljen dodijeljena dodijeljene dodijeljeni dodijeljeno
+65	3265	dodatak	dodaci dodacima dodataka dodatci dodatka dodatke dodatkom dodatku
+66	3266	krasan	krasna krasne krasni krasnih krasnim krasnog krasnoj krasnom krasnu
+67	3267	potom	
+68	3268	nezgoda	nezgodama nezgode nezgodi nezgodom nezgodu
+69	3269	udaljiti	udalje udalji udaljila udaljile udaljili udaljilo udaljim udaljimo udaljio udaljite udaljiću udaljiš
+70	3270	samoubojstvo	samoubojstava samoubojstva samoubojstvom samoubojstvu
+71	3271	loptica	lopticama loptice loptici lopticom lopticu
+72	3272	rasprava	raspravama rasprave raspravi raspravom raspravu
+73	3273	odigrati	odigra odigraj odigrajmo odigrajte odigraju odigrali odigram odigramo odigrate odigraće odigraćemo odigraću odigraš
+74	3274	bjegunac	begunac begunaca begunca begunce beguncem begunci beguncima beguncu bjegunaca bjegunca bjegunce bjeguncem bjegunci bjeguncima bjeguncu
+75	3275	napredan	najnaprednija najnaprednije najnapredniji najnaprednijih napredna napredne napredni naprednih naprednija naprednije napredniji napredniju naprednim napredno naprednog naprednoj naprednom naprednu
+76	3276	izlet	izleta izlete izleti izletima izletom izletu
+77	3277	poraz	poraza poraze porazi porazom porazu
+78	3278	lobanja	lobanjama lobanje lobanji lobanjo lobanjom lobanju
+79	3279	naslov	naslova naslove naslovi naslovima naslovom naslovu
+80	3280	optuživati	optuživala optuživali optuživan optuživanje optuživao optužuj optužuje optužujem optužujemo optužujete optužuješ optužuju optužujući
+81	3281	obnoviti	obnove obnovi obnovila obnovili obnovim obnovimo obnovio obnovite obnoviću obnoviš obnovljen obnovljena obnovljene obnovljeni obnovljeno
+82	3282	uzgred	
+83	3283	navaliti	navale navali navalila navalili navalim navalimo navalio navalite navališ navališe
+84	3284	pakovati	pakovanje pakuj pakuje pakujem pakujemo pakujete pakuješ pakujte pakuju
+85	3285	konačan	konačna konačne konačni konačnih konačnim konačnog konačnoj konačnom konačnu
+86	3286	konobarica	konobaricama konobarice konobarici konobaricom konobaricu
+87	3287	kobasica	kobasicama kobasice kobasici kobasicom kobasicu
+88	3288	poricati	poricala poricali poricanje poricao poriče poričem poričemo poričete poričeš poriči poričite poriču poričući
+89	3289	preminuti	premine preminula preminule preminuli preminulo preminuo
+90	3290	tinejdžer	tinejdžera tinejdžere tinejdžeri tinejdžerima tinejdžerom tinejdžeru
+91	3291	političar	političara političare političarem političari političarima političaru
+92	3292	objekat	objekata objekta objekte objekti objektima objektom objektu
+93	3293	prikazivati	prikazivala prikazivale prikazivali prikazivalo prikazivan prikazivani prikazivanje prikazivao prikazuje prikazujem prikazujemo prikazujete prikazuješ prikazuju prikazujući
+94	3294	radar	radara radare radari radarima radarom radaru
+95	3295	at	ata ate ati atom atoma atome atomi atomima atomom atomu atu
+96	3296	ritual	rituala rituale rituali ritualima ritualom ritualu
+97	3297	zbrisati	zbrisala zbrisale zbrisali zbrisalo zbrisan zbrisana zbrisane zbrisani zbrisano zbrisao zbriše zbrišem zbrišemo zbrišete zbrišeš zbriši zbrišimo zbrišu
+98	3298	svugdje	svugde
+99	3299	pozadina	pozadine pozadini pozadinom pozadinu
+100	3300	preporuka	preporuci preporukama preporuke preporukom preporuku

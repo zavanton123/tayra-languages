@@ -552,9 +552,12 @@ def ukrainian_name_forms(names):
     return forms
 
 
-def croatian_serbianisms():
-    """The ekavian spellings and Serbian words a Croatian lesson must not use, with the word to write instead."""
-    path = os.path.join(ROOT, "tools", "courses", "hr", "serbian_forms.tsv")
+def croatian_serbianisms(code="hr"):
+    """
+    The ekavian spellings and Serbian words a Croatian lesson must not use, with the word to write instead; for
+    Bosnian, which shares Serbian's words but is ijekavian too, the ekavian spellings alone.
+    """
+    path = os.path.join(ROOT, "tools", "courses", code, "serbian_forms.tsv" if code == "hr" else "ekavian_forms.tsv")
     found = {}
     for line in open(path, encoding="utf-8") if os.path.exists(path) else ():
         if line.strip() and not line.startswith("#"):
@@ -1415,7 +1418,7 @@ def check(path, brief=False):
     names = {fold(code, n.lower()) for n in course.get("names", [])}
     # In Spanish a name of several words or joined by a hyphen (San José, al-Ándalus) counts as one known word wherever it
     # is written whole; the earlier languages count such names word by word, as they were written to.
-    long_names = sorted((n for n in course.get("names", []) if " " in n or "-" in n or (code in ("it", "ca") and "'" in n)), key=len, reverse=True) if code in ("es", "it", "sr", "nl", "da", "no", "sv", "el", "ar", "ca", "id", "hr") else []
+    long_names = sorted((n for n in course.get("names", []) if " " in n or "-" in n or (code in ("it", "ca") and "'" in n)), key=len, reverse=True) if code in ("es", "it", "sr", "nl", "da", "no", "sv", "el", "ar", "ca", "id", "hr", "bs") else []
     # So is a Galician one (A Coruña, Santiago de Compostela, O Porriño).
     if code == "gl":
         long_names = sorted((n for n in course.get("names", []) if " " in n or "-" in n), key=len, reverse=True)
@@ -1427,9 +1430,9 @@ def check(path, brief=False):
     if code == "uk":
         names = names | ukrainian_name_forms(course.get("names", []))
     # Croatian names decline as Serbian ones do (Ana, Ane; Zagreb, Zagrebu; Split, Splitu).
-    if code in ("sr", "hr"):
+    if code in ("sr", "hr", "bs"):
         names = names | serbian_name_forms(course.get("names", []))
-    serbian = croatian_serbianisms() if code == "hr" else {}
+    serbian = croatian_serbianisms(code) if code in ("hr", "bs") else {}
     # A Polish name of several words or with a hyphen (Zielona Góra, Bielsko-Biała) counts as one known word wherever it
     # is written whole; each case form the text uses is listed whole (Zielonej Górze).
     if code == "pl":
@@ -1511,11 +1514,11 @@ def check(path, brief=False):
             text = re.sub(r"(?m)^Pertanyaan:", "", text)
         if code == "gl":
             text = re.sub(r"(?m)^Preguntas:", "", text)
-        if code == "hr":
+        if code in ("hr", "bs"):
             text = re.sub(r"(?m)^Pitanja:", "", text)
         toks = tokens(text, code, ranks, names, verbs, set(words) if code in ("it", "ko", "id") else None)
         # A century or a king's number in capital Roman numerals (siglo XVI, Carlos V) is a number.
-        if code in ("es", "ru", "it", "sr", "uk", "ca", "hr"):
+        if code in ("es", "ru", "it", "sr", "uk", "ca", "hr", "bs"):
             numerals = sum(1 for t in toks if ROMAN.fullmatch(t))
             toks = [t for t in toks if not ROMAN.fullmatch(t)]
             whole_names += numerals
@@ -1579,9 +1582,10 @@ def check(path, brief=False):
             problems.append(f"coverage {coverage:.1%} < {need:.0%}")
         if not shortest <= len(lowered) <= longest:
             problems.append(f"{len(lowered)} words, needs {shortest}-{longest}")
-        for t in sorted({t for t in lowered if t in serbian}):
-            problems.append(f"'{t}' is Serbian or ekavian: write {serbian[t]} (ijekavian Croatian)")
-        for t in sorted({t for t in lowered if code == "hr" and croatian_joined_future(t, words)}):
+        # A Bosnian name spelled as an ekavian word (Zenica, zjenica's) is a name.
+        for t in sorted({t for t in lowered if t in serbian and not (code == "bs" and t in names)}):
+            problems.append(f"'{t}' is ekavian: write {serbian[t]} (ijekavian Bosnian)" if code == "bs" else f"'{t}' is Serbian or ekavian: write {serbian[t]} (ijekavian Croatian)")
+        for t in sorted({t for t in lowered if code in ("hr", "bs") and croatian_joined_future(t, words)}):
             problems.append(f"'{t}' joins the future as Serbian writes it: write {croatian_joined_future(t, words)}")
         for new in lesson.get("newWords", []):
             key = fold(code, new.lower())

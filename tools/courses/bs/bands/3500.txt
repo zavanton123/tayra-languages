@@ -1,0 +1,100 @@
+1	3401	tkivo	tkiva tkivima tkivom tkivu
+2	3402	brk	brka brkova brkove brkovi brkovima
+3	3403	sram	srama srame sramom sramu
+4	3404	gaćice	gaćica gaćicama
+5	3405	nagodba	nagodbama nagodbe nagodbi nagodbom nagodbu
+6	3406	karo	kara karom karu
+7	3407	meč	meča mečeva mečeve mečevi mečevima meču
+8	3408	zrakoplov	zrakoplova zrakoplove zrakoplovi zrakoplovima zrakoplovom zrakoplovu
+9	3409	okriviti	okrive okrivi okrivila okrivili okrivim okrivimo okrivio okrivite okriviće okriviš okrivljen okrivljena okrivljene okrivljeni
+10	3410	građanski	građanska građanske građanskih građanskim građansko građanskog građanskoj građanskom građansku
+11	3411	zov	zova zove zovi zovu
+12	3412	odanost	odanosti odanošću
+13	3413	čudak	čudaci čudacima čudaka čudake čudakom čudaku čudače
+14	3414	keks	keksa kekse keksi keksima keksom
+15	3415	uistinu	
+16	3416	osramotiti	osramote osramoti osramotila osramotili osramotilo osramotim osramotimo osramotio osramotite osramotiš osramoćen osramoćena osramoćeni osramoćeno
+17	3417	istjerati	istera isteraj isterajmo isterajte isteraju isterala isterali isteram isteramo isteran isterani isterao isterate isterati isteraćemo isteraću isteraš istjera istjeraj istjerajmo istjerajte istjeraju istjerala istjerali istjeram istjeramo istjeran istjerani istjerao istjerate istjeraš
+18	3418	doslovno	
+19	3419	zamoliti	
+20	3420	isprika	isprikama isprike isprikom ispriku
+21	3421	letjelica	letelica letelicama letelice letelici letelicom letelicu letjelicama letjelice letjelici letjelicom letjelicu
+22	3422	konopac	konopaca konopca konopce konopcem konopci konopcima konopcu
+23	3423	obavještajni	obaveštajna obaveštajne obaveštajni obaveštajnih obaveštajnim obaveštajnog obaveštajnoj obaveštajnom obaveštajnu obavještajna obavještajne obavještajnih obavještajnim obavještajnog obavještajnoj obavještajnom obavještajnu
+24	3424	vena	venama vene veni venom venu
+25	3425	unuk	unuci unucima unuke unukom unuku unuče unučeta
+26	3426	obići	obiđe obiđem obiđemo obiđete obiđeš obiđi obiđite obiđu obišao obišla obišli
+27	3427	kopno	kopana kopna kopnom kopnu
+28	3428	моћ	могао могла могли могло могу може можемо можете можеш моћи
+29	3429	ugled	ugleda ugledom ugledu
+30	3430	istovremeno	
+31	3431	krst	krsta krste krstom krstova krstove krstovi krstovima krstu
+32	3432	pojačati	pojača pojačaj pojačajte pojačaju pojačale pojačali pojačam pojačamo pojačan pojačana pojačane pojačani pojačano pojačao pojačate pojačaću pojačaš
+33	3433	obrazac	obrasca obrasce obrascem obrasci obrascima obrascu obrazaca
+34	3434	maršal	maršala maršale maršali maršalima maršalom maršalu
+35	3435	prethodno	
+36	3436	španjolski	španjolska španjolske španjolskih španjolskim španjolsko španjolskog španjolskoj španjolskom španjolskome španjolsku
+37	3437	kontejner	kontejnera kontejnere kontejneri kontejnerima kontejnerom kontejneru
+38	3438	doktorica	doktorice doktorici doktoricom doktoricu
+39	3439	istražitelj	istražitelja istražitelje istražiteljem istražitelji istražiteljima istražitelju
+40	3440	jadnik	jadnici jadnicima jadnika jadnike jadnikom jadniku jadniče
+41	3441	klima	klimama klime klimi klimom klimu
+42	3442	procijeniti	procene proceni procenila procenili procenim procenimo procenio procenite proceniti proceniš procenjena procenjene procenjeni procenjeno procijene procijeni procijenila procijenili procijenim procijenimo procijenio procijenite procijeniš procijenjena procijenjeno
+43	3443	znanstvenik	znanstvenica znanstvenice znanstvenici znanstvenicima znanstvenika znanstvenike znanstvenikom znanstveniku znanstveniče
+44	3444	bratac	braca brace braci bracu brače
+45	3445	smesti	smela smele smeli smelo smete smeten smetena smeteno
+46	3446	šminka	šminke šminki šminkom šminku
+47	3447	rastaviti	rastave rastavi rastavila rastavili rastavim rastavimo rastavio rastavite rastaviću rastaviš rastavljen rastavljena rastavljene rastavljeni
+48	3448	kontati	konta kontala kontam kontamo kontao kontate kontaš
+49	3449	frekvencija	frekvencijama frekvencije frekvenciji frekvencijom frekvenciju
+50	3450	komšiluk	komšiluka komšilukom komšiluku
+51	3451	surađivati	surađivala surađivale surađivali surađivao surađuj surađuje surađujem surađujemo surađujete surađuješ surađujte surađuju
+52	3452	termin	termina termine termini terminima terminom terminu
+53	3453	efekat	efekata efekta efekte efekti efektima efektom efektu
+54	3454	izbaviti	izbave izbavi izbavila izbavili izbavim izbavimo izbavio izbavite izbavićemo izbaviću izbaviš
+55	3455	jezgra	jezgre jezgri jezgro jezgrom jezgru
+56	3456	standard	standarda standarde standardi standardima standardom standardu
+57	3457	pristupiti	pristupe pristupi pristupila pristupili pristupim pristupimo pristupio pristupite pristupiš pristupiše
+58	3458	rezerva	rezervama rezerve rezervi rezervom rezervu
+59	3459	sloj	sloja slojem slojeva slojeve slojevi slojevima sloju
+60	3460	beskućnik	beskućnica beskućnice beskućnici beskućnicima beskućnika beskućnike beskućnikom beskućniku
+61	3461	ambasada	ambasade ambasadi ambasadom ambasadu
+62	3462	opći	opća opće općeg općem općim općoj opću opšta opšte opšteg opštem opšti opštih opštim opštoj opštom opštu
+63	3463	iskupiti	iskupe iskupi iskupila iskupili iskupim iskupimo iskupio iskupite iskupiću iskupiš iskupljenje
+64	3464	tačke	
+65	3465	krompir	krompira krompire krompiri krompirima krompirom krompiru
+66	3466	oprez	opreza oprezom oprezu
+67	3467	ograničen	ograničena ograničene ograničeni ograničenih ograničenim ograničeno ograničenog ograničenoj ograničenom ograničenu
+68	3468	santa	
+69	3469	okvir	okvira okvire okviri okvirima okvirom okviru
+70	3470	invazija	invazije invaziji invazijom invaziju
+71	3471	kuvar	kuvara kuvare kuvari kuvarima kuvarom kuvaru
+72	3472	ar	ara are ari
+73	3473	turneja	turnejama turneje turneji turnejom turneju
+74	3474	indijski	indijska indijske indijskih indijskim indijsko indijskog indijskoj indijskom indijsku
+75	3475	jedanput	
+76	3476	odande	
+77	3477	obraditi	obrade obradi obradila obradili obradim obradimo obradio obradite obradiću obradiš obrađen obrađena obrađene obrađeni obrađeno
+78	3478	praksa	praksama prakse praksi praksom praksu
+79	3479	popravak	popravaka popravci popravcima popravka popravke popravkom popravku
+80	3480	presjeći	preseci presecite presekao presekla presekli preseku preseći preseče presečem presečemo presečen presečena presečene presečeno presečete presečeš presijeci presijecite presiječe presiječemo presiječeš presjekao presjekla presjekli presjeklo presječen presječena presječene presječeni presječeno
+81	3481	њих	га им их
+82	3482	komplicirati	komplicira kompliciraj kompliciraju kompliciran komplicirana komplicirane komplicirani komplicirano kompliciraš
+83	3483	moma	mome momo momu
+84	3484	sastajati	sastajala sastajali sastajanje sastajao sastaje sastajem sastajemo sastajete sastaješ sastaju
+85	3485	apartman	
+86	3486	sipati	sipaj sipajte sipaju sipala sipali sipam sipamo sipanje sipano sipao sipate sipaću sipaš
+87	3487	rugati	ruga rugaj rugajte rugaju rugali rugam rugamo ruganje rugao rugate rugaš
+88	3488	natjecanje	natjecanja natjecanjem natjecanjima natjecanju
+89	3489	organizirati	organizira organiziraj organizirajmo organizirajte organiziraju organizirala organizirali organiziram organiziramo organiziranje organizirao organizirate organiziraš
+90	3490	raspraviti	rasprave raspravi raspravila raspravili raspravim raspravimo raspravio raspravite raspravićemo raspraviš
+91	3491	zelena	
+92	3492	ostavka	ostavci ostavke ostavkom ostavku
+93	3493	bratstvo	bratstava bratstva bratstvima bratstvom bratstvu
+94	3494	utjecaj	utjecaja utjecaje utjecajem utjecaji utjecaju
+95	3495	prost	najprostija najprostije najprostiji prosta proste prosti prostih prostije prostiji prostim prostog prostom prostu
+96	3496	ručati	ruča ručaj ručajmo ručajte ručaju ručala ručale ručali ručam ručamo ručanje ručao ručate ručaćemo ručaću ručaš
+97	3497	razbijati	razbija razbijaj razbijaju razbijajući razbijam razbijamo razbijanje razbijate razbijaš
+98	3498	ada	adama ade adi ado adu
+99	3499	spakovati	spakovaću spakuj spakuje spakujem spakujemo spakujete spakuješ spakujmo spakujte spakuju
+100	3500	sijati	sija sijaj sijaju sijala sijale sijali sijalo sijam sijanje sijao sijate sijaš sije sijemo siješ siju

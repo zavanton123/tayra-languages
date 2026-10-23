@@ -1,0 +1,100 @@
+1	9701	ispostavljati	ispostavlja
+2	9702	imejl	
+3	9703	nagore	
+4	9704	utješno	
+5	9705	šlic	šlica šlicom
+6	9706	lakoća	lakoćom
+7	9707	podudarnost	podudarnosti
+8	9708	organizovan	organizovanog
+9	9709	kontracepcija	kontracepcije kontracepciju
+10	9710	место	места месту
+11	9711	optuženik	optuženici optuženika
+12	9712	nadoknađivati	nadoknađuje nadoknađujem nadoknađujemo nadoknađuješ nadoknađuju
+13	9713	relativan	relativna relativne relativni relativnom relativnu
+14	9714	svršetak	svršetka svršetku
+15	9715	anonimnost	anonimnosti
+16	9716	bradat	bradata bradate bradati bradatog bradatom
+17	9717	katran	katrana katranom
+18	9718	bezdušan	bezdušna bezdušne bezdušni
+19	9719	dijafragma	dijafragme dijafragmu
+20	9720	prisegnuti	prisegao prisegli prisegni prisegnula prisegnuli prisegnuo
+21	9721	antraks	antraksa antraksom
+22	9722	staklenka	staklenci staklenke staklenki staklenku
+23	9723	takoreći	
+24	9724	shvatati	
+25	9725	slijevati	slijeva slijevaju
+26	9726	paprikaš	paprikaša
+27	9727	bruka	bruke bruku
+28	9728	ovogodišnji	ovogodišnjeg
+29	9729	brodolom	brodoloma brodolomu
+30	9730	bljuvati	bljuje bljuju bljuvanje bljuvao
+31	9731	pothvat	pothvata pothvate pothvatima pothvatu
+32	9732	sajla	sajle sajli sajlu
+33	9733	tamošnji	tamošnja tamošnje tamošnjeg tamošnjem tamošnjih tamošnjim tamošnju
+34	9734	тражити	траже тражи тражили тражим тражимо тражио тражите тражиш
+35	9735	kanarinac	kanarinca kanarinci
+36	9736	dremnuti	dremne dremnem dremnemo dremneš dremnula dremnuo
+37	9737	potezati	potezanje potezao poteže potežem potežeš poteži potežu
+38	9738	predio	predjela predjele predjelima predjelom predjelu
+39	9739	punjač	punjača punjače
+40	9740	junaštvo	junaštva junaštvu
+41	9741	lobist	lobista lobiste lobisti
+42	9742	perverzija	perverzijama perverzije perverziju
+43	9743	namjena	namjene namjenu
+44	9744	posredovati	posredovanje posredovao posreduje posredujem
+45	9745	orangutan	orangutana orangutane orangutani
+46	9746	upropaštavati	upropaštava upropaštavaju upropaštavam upropaštavate upropaštavaš
+47	9747	karakterističan	karakteristična karakteristične karakteristični karakterističnim karakteristično
+48	9748	ritualan	ritualna ritualne ritualni ritualnih ritualnim ritualnog ritualnom ritualnu
+49	9749	pomoliti	
+50	9750	maksi	
+51	9751	šorc	
+52	9752	ekskluzivno	
+53	9753	luđački	luđačka luđačke luđačkoj luđačku
+54	9754	pešadija	pešadije pešadiji pešadiju
+55	9755	uštipak	uštipaka uštipci uštipke
+56	9756	razdražljiv	razdražljiva razdražljivi
+57	9757	spartanski	spartanska spartanske spartanskih spartansko spartanskog
+58	9758	opipljiv	opipljiva opipljive opipljivi opipljivije opipljivo opipljivog
+59	9759	povelja	povelje povelji povelju
+60	9760	opipati	opipaj opipajte opipam opipao
+61	9761	župa	župe župi župu
+62	9762	iscuriti	iscuri iscurila iscurilo iscurio
+63	9763	planuti	plane planem planete planeš planu planula planulo planuo
+64	9764	zboriti	zbore zbori zborim zborite zboriš
+65	9765	klarinet	klarineta klarinetu
+66	9766	hvatač	hvatača hvatači hvataču
+67	9767	finalist	finalista finaliste finalisti
+68	9768	neljubazan	neljubazna neljubazni neljubazno
+69	9769	mljekar	mlekar mlekara mlekari mlekaru mljekara mljekare mljekari mljekaru
+70	9770	instinktivno	
+71	9771	rođakinja	
+72	9772	šestero	
+73	9773	kolekcionar	
+74	9774	naslijeđe	
+75	9775	maltretirati	
+76	9776	pravosudni	pravosudnog pravosudnom
+77	9777	pasus	pasusa pasuse pasusu
+78	9778	karcinom	karcinoma
+79	9779	neprimjetno	neprimetno
+80	9780	selotejp	selotejpa selotejpom
+81	9781	ranjivost	ranjivosti
+82	9782	fasada	fasade fasadi fasadu
+83	9783	zapadnjački	zapadnjačka zapadnjačke zapadnjačkih zapadnjačkoj zapadnjačkom zapadnjačku
+84	9784	paun	pauna
+85	9785	progres	progresa progresu
+86	9786	renesansa	renesanse renesansi renesansu
+87	9787	mekušac	mekušaca mekušce mekušci mekušcu
+88	9788	mačevanje	mačevanja mačevanju
+89	9789	какав	каква какве какво
+90	9790	darovit	darovita darovite daroviti darovitu
+91	9791	plašljiv	plašljiva plašljive plašljivi
+92	9792	struk	strukom struku
+93	9793	taksist	taksiste taksisti taksistom taksistu
+94	9794	okolišati	okoliša okolišaj okolišam okolišaš
+95	9795	trampa	trampe trampi trampu
+96	9796	kositi	kose kosi kosim kosimo kosio kosiš košenje
+97	9797	pripreman	pripremna pripremne pripremni pripremnih pripremno pripremnoj pripremnom pripremnu
+98	9798	ugljik	ugljika ugljikom
+99	9799	lupež	lupeža lupeži lupežu
+100	9800	jednjak	jednjaka jednjaku

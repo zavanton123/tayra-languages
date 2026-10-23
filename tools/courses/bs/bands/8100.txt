@@ -1,0 +1,100 @@
+1	8001	komoda	komode komodi komodo komodu
+2	8002	cirkuski	cirkuska cirkuske cirkuskih cirkuskim cirkuskog cirkuskom cirkusku
+3	8003	prašak	praška praškom prašku
+4	8004	smijeniti	smene smeni smeniti smenjen smenjeni smijene smijenili smijenio smijenjen smijenjeni
+5	8005	izviđati	izviđa izviđaju izviđali izviđam izviđanje izviđao
+6	8006	ispijati	ispija ispijaju ispijajući ispijam ispijamo ispijanje ispijao ispijaš
+7	8007	nekuda	
+8	8008	sunčev	
+9	8009	četrnaest	
+10	8010	podnožje	podnožja podnožju
+11	8011	tkogod	kogod
+12	8012	svemoćan	svemoćna svemoćni svemoćnim svemoćnog svemoćnom
+13	8013	ukidati	ukida ukidaju ukidam ukidanje
+14	8014	buha	buhama buhe buhu busi
+15	8015	transfuzija	transfuzije transfuzijom transfuziju
+16	8016	sezonski	sezonska sezonske sezonskih sezonskim sezonsko sezonskog sezonsku
+17	8017	cijepati	cepa cepaj cepaju cepala cepam cepanje cepao cepati cepaš cijepa cijepam cijepanje
+18	8018	njušiti	njuše njuši njušim njušio njušiš
+19	8019	republikanski	republikanska republikanske republikanskih republikanskog republikanskoj republikanskom republikansku
+20	8020	histerija	histerije histeriji histerijom histeriju
+21	8021	efektivan	efektivna efektivne efektivni efektivnije efektivniji efektivno efektivnu
+22	8022	glavica	glavice glavici glavicom glavicu
+23	8023	hor	
+24	8024	raznolikost	raznolikosti raznolikošću
+25	8025	latica	laticama latice latici
+26	8026	slavuj	slavuja slavuju
+27	8027	paran	parna parne parni parnim parno parnog parnom parnu
+28	8028	maznuti	mazne maznem maznemo mazneš mazni maznu
+29	8029	simulirati	simulira simulirajte simuliraju simulirali simuliram simuliramo simulirane simulirani simulirano simulirao
+30	8030	prevoditi	prevode prevodi prevodila prevodim prevodio prevodite prevodiš prevođenje
+31	8031	raspustiti	raspuste raspusti raspustila raspustili raspustimo raspustio raspustite raspušten raspuštena raspuštene raspušteni
+32	8032	miraz	miraza mirazom
+33	8033	šapat	šapata šapate šapati šapatom
+34	8034	poručivati	poručuje poručujem poručuješ poručuju
+35	8035	pobačaj	pobačaja pobačaje
+36	8036	ženidba	ženidbe ženidbi ženidbom ženidbu
+37	8037	brigada	
+38	8038	uoči	
+39	8039	pilar	
+40	8040	nar	nara nare naru
+41	8041	zaposlenje	zaposlenja zaposlenju
+42	8042	tigrica	tigrice tigricu
+43	8043	svjećica	svećica svećice svećicu svjećice svjećicu
+44	8044	prebijati	prebija prebijaju prebijali prebijanje prebijao prebijaš
+45	8045	vepar	vepra veprova veprove veprovi vepru
+46	8046	odjahati	odjahala odjahali odjahao odjahaću odjaše odjašem odjašeš odjaši odjašimo odjašite odjašu
+47	8047	šokantan	šokantna šokantne šokantni šokantnih šokantnim šokantnog šokantnom šokantnu
+48	8048	izuzeti	izuzet izuzeta izuzevši izuzeće izuzme izuzmemo
+49	8049	sjednica	sednica sednice sednici sednicu sjednice sjednici sjednicu
+50	8050	pritvoriti	pritvore pritvoren pritvorena pritvoreni pritvori pritvorili pritvorim pritvorimo pritvorio pritvorite
+51	8051	vrač	vrača vračevi vraču
+52	8052	genijalnost	genijalnosti genijalnošću
+53	8053	neuništiv	neuništiva neuništive neuništivi neuništivim neuništivo
+54	8054	kapak	kapaka kapci kapcima kapka kapke
+55	8055	čitalac	čitalaca čitaoca čitaoce čitaoci čitaocima čitaocu
+56	8056	neiskusan	neiskusna neiskusne neiskusni neiskusnih neiskusno neiskusnom
+57	8057	vječit	večita večiti večito večitog večitu vječita vječiti vječito
+58	8058	pristignuti	pristigla pristigle pristigli pristiglo pristigne pristignu pristiže
+59	8059	mena	menom menu
+60	8060	klošar	klošara klošare klošari klošarima klošaru
+61	8061	zasaditi	zasadi zasadila zasadili zasadim zasadimo zasadio zasađeno
+62	8062	posuđivati	posuđivali posuđivanje posuđivao posuđuje posuđujem posuđujemo posuđuješ posuđuju posuđujući
+63	8063	naduti	nadu nadula naduo nadut naduta naduto naduven naduvena naduvene naduveni naduveno
+64	8064	opaliti	opale opali
+65	8065	jecati	jeca jecaju jecajući jecala jecam jecanje jecao
+66	8066	intimnost	intimnosti intimnošću
+67	8067	šara	šarama šare šari šarom šaru
+68	8068	patriotski	patriotska patriotske patriotskim patriotsko patriotskog patriotskom patriotsku
+69	8069	vrisnuti	vrisne vrisnem vrisneš vrisni vrisnula vrisnuo
+70	8070	učen	učena učene učeni učenih učenim učenog
+71	8071	egzorcizam	egzorcizma egzorcizmom egzorcizmu
+72	8072	govedo	goveda govedima
+73	8073	konfederacija	konfederacije konfederaciji konfederaciju
+74	8074	šestorica	šestorice šestorici šestoricom šestoricu
+75	8075	galija	galije galiji galiju
+76	8076	bugarski	bugarska bugarske bugarskoj bugarskom bugarsku
+77	8077	opomena	opomene opomenom opomenu
+78	8078	kros	krosa krose krosom krosu
+79	8079	efikasnost	efikasnosti efikasnošću
+80	8080	sarkastičan	sarkastična sarkastične sarkastični sarkastično
+81	8081	kralježnica	kralježnice kralježnici kralježnicom kralježnicu
+82	8082	muževan	muževna muževne muževni muževnije muževniji muževnim muževno
+83	8083	djelomično	
+84	8084	nemo	
+85	8085	maniri	
+86	8086	specifikacija	specifikacijama specifikacije specifikaciji specifikaciju
+87	8087	vodovod	vodovoda vodovodom vodovodu
+88	8088	spavaćica	spavaćice spavaćici spavaćicu
+89	8089	kritizirati	kritizira kritiziraju kritizirala kritiziram kritiziranje kritizirao kritizirate kritiziraš
+90	8090	goblin	goblina gobline goblini goblinima
+91	8091	neuspješan	neuspešan neuspešna neuspešni neuspešno neuspješna neuspješne neuspješni neuspješno
+92	8092	krigla	krigle krigli kriglom kriglu
+93	8093	prolaznik	prolaznici prolaznicima prolaznika prolaznike
+94	8094	petero	
+95	8095	okupljati	okuplja
+96	8096	labirint	labirinta labirintu
+97	8097	kajgana	kajgane kajganu
+98	8098	načuti	načujem načula načuli načuo
+99	8099	starenje	starenja starenjem starenju
+100	8100	pripisati	pripisali pripisana pripisano pripisao pripiše pripišemo pripiši

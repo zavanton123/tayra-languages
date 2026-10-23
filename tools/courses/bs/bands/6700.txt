@@ -1,0 +1,100 @@
+1	6601	hauba	haube haubi haubom haubu
+2	6602	prigovarati	prigovara prigovaraj prigovaraju prigovarala prigovarali prigovaram prigovaranje prigovarao prigovarate prigovaraš
+3	6603	umor	umora umore umori umoru
+4	6604	podanik	podanici podanicima podanika podanike
+5	6605	pozajmiti	
+6	6606	barijera	barijere barijeri barijeru
+7	6607	nit	nitima
+8	6608	zaslužan	najzaslužniji zaslužna zaslužne zaslužni zaslužnih zaslužno
+9	6609	prestupnik	prestupnici prestupnicima prestupnika prestupnike
+10	6610	primjena	primena primene primeni primenom primenu primjene primjeni primjenom primjenu
+11	6611	rekonstrukcija	rekonstrukcije rekonstrukciji rekonstrukcijom rekonstrukciju
+12	6612	nag	naga nage nagi nagih nago nagog nagu
+13	6613	školovati	školovala školovali školovan školovana školovani školovao školuje školujem školujemo školuješ školuju
+14	6614	sletjeti	
+15	6615	sućut	sućuti
+16	6616	hijena	hijenama hijene hijeno hijenu
+17	6617	harmonija	harmonije harmoniji harmonijom harmoniju
+18	6618	urlati	urla urlaj urlaju urlajući urlala urlali urlam urlanje urlao urlate urlaš
+19	6619	ophoditi	ophode ophodi ophodila ophodili ophodim ophodimo ophodio ophodite ophodiš ophođenje
+20	6620	presuditi	presude presudi presudila presudili presudim presudio presudite presuđeno
+21	6621	spomen	spomena spomene spomeni spomenu
+22	6622	nenormalan	nenormalna nenormalne nenormalni nenormalnim nenormalno
+23	6623	neznanac	neznanaca neznanca neznance neznancem neznanci neznancima neznancu neznanče
+24	6624	alimentacija	alimentacije alimentacijom alimentaciju
+25	6625	konzul	konzula konzule konzulom konzulu
+26	6626	nadahnuti	nadahne nadahnula nadahnuli nadahnulo nadahnuo nadahnut nadahnuta nadahnute nadahnuto nadahnuće
+27	6627	savremen	najsavremenije savremena savremene savremeni savremenih savremenim savremeno savremenog savremenoj savremenom savremenu
+28	6628	sijeno	seno senom senu sijena sijenu
+29	6629	хајде	ајде
+30	6630	kovanica	kovanicama kovanice kovanici kovanicu
+31	6631	finalni	finalna finalne finalnih finalno finalnog finalnoj finalnom finalnu
+32	6632	katastrofalan	katastrofalna katastrofalne katastrofalni katastrofalnih katastrofalnim katastrofalnog katastrofalnoj katastrofalnom katastrofalnu
+33	6633	civilizovan	civilizovana civilizovane civilizovani civilizovaniji civilizovanim civilizovano civilizovanog civilizovanom
+34	6634	sitniš	sitniša sitnišem
+35	6635	gradnja	gradnju
+36	6636	izdahnuti	izdahne izdahnem izdahneš izdahni izdahnite izdahnu izdahnula izdahnuo
+37	6637	mazga	mazgama mazge mazgi mazgo mazgom mazgu
+38	6638	očevidac	očevica očevice očevici očevidaca očevidca očevidci
+39	6639	ronilac	ronilaca ronioca ronioce ronioci roniocima
+40	6640	originalno	
+41	6641	diza	dize dizi dizu
+42	6642	čistačica	čistačice čistačicom čistačicu
+43	6643	kemikalija	kemikalijama kemikalije kemikaliju
+44	6644	tržnica	tržnice tržnici tržnicu
+45	6645	širina	širine širini širinom širinu
+46	6646	zatočiti	zatočen zatočena zatočene zatočeni zatočeno zatočila zatočili zatočio
+47	6647	dojiti	doje dojenje doji dojila dojim dojiš
+48	6648	golicati	golica golicaj golicaju golicalo golicam golicanje golicao golicaš
+49	6649	šmokljan	šmokljana šmokljane šmokljani šmokljanima
+50	6650	gepek	
+51	6651	bajat	baj bajanje bajata bajate bajati baje baju
+52	6652	kljun	kljuna kljunom kljunova kljunove kljunovi kljunovima kljunu
+53	6653	traktor	traktora traktore traktori traktorom traktoru
+54	6654	špijunski	špijunska špijunske špijunskih špijunskim špijunsko špijunskog špijunskoj špijunskom špijunsku
+55	6655	fosil	fosila fosile fosili fosilima fosilu
+56	6656	ostava	ostave ostavi ostavu
+57	6657	opasti	opadne opala opale opali opalo opao
+58	6658	avatar	avatara avatare avatari avatarima avatarom avataru
+59	6659	uraniti	uranila uranili uranio
+60	6660	fašist	fašista fašiste fašisti fašistima fašistu
+61	6661	apostol	apostola apostole apostoli apostolima
+62	6662	pretjeran	preteran preterana preterane preterani preteranog preteranom preteranu pretjerana pretjerane pretjerani pretjeranim pretjeranog pretjeranom pretjeranu
+63	6663	glede	
+64	6664	odvažan	odvažna odvažne odvažni odvažnih odvažniji odvažnim odvažno odvažnog odvažnu
+65	6665	neograničen	neograničena neograničene neograničeni neograničenim neograničeno neograničenog neograničenom neograničenu
+66	6666	bljesak	blesak bljeska bljeskom bljeskovi bljesku
+67	6667	površan	površna površne površni površnih površnim površno površnom površnu
+68	6668	poraziti	
+69	6669	prastar	prastara prastare prastari prastarih prastarim prastaro prastarog prastarom prastaru
+70	6670	filozof	filozofa filozofe filozofi
+71	6671	dika	diki dikom diku
+72	6672	refleks	refleksa reflekse refleksi refleksima
+73	6673	sonar	sonara sonare sonari sonarom sonaru
+74	6674	trend	trenda trendova trendove trendovi trendovima trendu
+75	6675	magično	
+76	6676	mrs	mrsa
+77	6677	prezentacija	prezentacije
+78	6678	flaster	flastera flastere flasteri flasterima flasterom
+79	6679	četka	četkama četke četkom četku
+80	6680	tiskati	tiska tiskaj tiskajte tiskaju tiskali tiskam tiskamo tiskana tiskane tiskani tiskanje tiskano tiskao
+81	6681	analitičar	analitičara analitičare analitičari analitičaru
+82	6682	samrt	samrti
+83	6683	mladež	mladeža mladeži mladežom
+84	6684	spasenje	spasenja spasenjem spasenju
+85	6685	licenca	licence licenci licencom licencu
+86	6686	krstarica	krstarice krstarici krstaricu
+87	6687	spol	spola spolom spolova spolove spolu
+88	6688	semafor	semafora semafore semafori semaforima semaforu
+89	6689	pridruživati	pridruživanje pridruživanju pridružuje pridružujem pridružujemo pridružujete pridružuješ pridružuju
+90	6690	plesti	plela plete pletem pletemo pletene pletenje pleteš pletu
+91	6691	omot	omota omote omoti omotima omotom omotu
+92	6692	rasprodati	rasproda rasprodaju rasprodala rasprodali rasprodam rasprodamo rasprodan rasprodana rasprodane rasprodani rasprodano rasprodao rasprodate
+93	6693	gaj	gaja gaju
+94	6694	ogranak	ogranaka ogranci ogranka ogranke ogranku
+95	6695	ljudskost	ljudskosti
+96	6696	barikada	barikadama barikade barikadu
+97	6697	gušenje	gušenja gušenjem
+98	6698	tolerancija	tolerancije toleranciji tolerancijom toleranciju
+99	6699	ukrasiti	ukrase ukrasi ukrasila ukrasili ukrasim ukrasimo ukrasio ukrasite ukrašen ukrašena ukrašene ukrašeni ukrašeno
+100	6700	sinuti	sine sinu sinula sinulo

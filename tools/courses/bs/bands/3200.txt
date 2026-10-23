@@ -1,0 +1,100 @@
+1	3101	rezervni	rezervna rezervne rezervnih rezervnim rezervno rezervnog rezervnoj rezervnom rezervnu
+2	3102	šator	šatora šatore šatori šatorima šatorom šatoru
+3	3103	vatrogasac	vatrogasaca vatrogasca vatrogasce vatrogascem vatrogasci vatrogascima vatrogascu
+4	3104	povodom	
+5	3105	proljeće	proleća proleće proleću proljeća proljeću
+6	3106	ren	rena rene renom renu
+7	3107	dobrotvoran	dobrotvorna dobrotvorne dobrotvorni dobrotvornih dobrotvornim dobrotvorno dobrotvornog dobrotvornoj dobrotvornom dobrotvornu
+8	3108	zapitati	zapita zapitaj zapitajmo zapitajte zapitaju zapitala zapitali zapitam zapitamo zapitao zapitate zapitaš
+9	3109	klavir	klavira klavire klaviri klavirom klaviru
+10	3110	srebrn	srebrna srebrne srebrni srebrnih srebrnim srebrno srebrnog srebrnoj srebrnom srebrnu
+11	3111	navečer	
+12	3112	stvaranje	stvaranja stvaranjem stvaranju
+13	3113	sindikat	sindikata sindikate sindikati sindikatima sindikatom sindikatu
+14	3114	telefonirati	telefonira telefoniraj telefonirajte telefoniraju telefonirala telefonirali telefoniram telefoniramo telefoniranje telefonirao telefonirate telefoniraću telefoniraš
+15	3115	crta	crtama crte crti crtom crtu
+16	3116	proteći	proteci protekao protekla protekle protekli proteklih proteklo protekne
+17	3117	nabiti	nabi nabij nabije nabijem nabijemo nabijen nabijena nabijene nabijeni nabijeno nabijete nabiješ nabijte nabiju nabila nabile nabili nabio nabit nabiću
+18	3118	asistent	asistenata asistenta asistente asistenti asistentima asistentom asistentu
+19	3119	metal	metala metale metali metalima metalom metalu
+20	3120	smrdljiv	smrdljiva smrdljive smrdljivi smrdljivih smrdljivim smrdljivo smrdljivog smrdljivoj smrdljivom smrdljivu
+21	3121	isjeći	iseci isecite isekao isekla isekli iseku iseći iseče isečem isečemo isečen isečena isečene isečeni isečeno isečete isečeš isijeci isijecite isjekao isjekla isjekli isječen isječena isječeni isječeno
+22	3122	voće	voća voćem voću
+23	3123	totalan	totalna totalne totalni totalnih totalnim totalnog totalnoj totalnom totalnu
+24	3124	gnijezdo	gnezda gnezdo gnezdom gnezdu gnijezda gnijezdima gnijezdu
+25	3125	posjet	posete poseti posetom posetu posjete posjeti posjetima posjetom posjetu
+26	3126	neophodno	
+27	3127	zavjesa	zavesa zavesama zavese zavesi zavesom zavesu zavjesama zavjese zavjesom zavjesu
+28	3128	preplašiti	preplaše preplašen preplašena preplašene preplašeni preplašeno preplaši preplašila preplašili preplašilo preplašim preplašimo preplašio preplašite preplašiš
+29	3129	namještaj	nameštaj nameštaja nameštajem nameštaju namještaja namještajem namještaju
+30	3130	teksas	teksasa teksasom teksasu
+31	3131	stoka	stoci stoke stoko stokom stoku
+32	3132	ekran	ekrana ekrane ekrani ekranima ekranom ekranu
+33	3133	tuča	tučama tuče tuči tučom tuču
+34	3134	pumpa	pumpama pumpe pumpi pumpom pumpu
+35	3135	prsa	prsima
+36	3136	cimer	cimera cimere cimeri cimerima cimerom cimeru
+37	3137	opak	najopakija najopakije najopakiji opaka opake opaki opakih opakiji opakim opakog opakoj opakom opaku
+38	3138	precizan	najprecizniji precizna precizne precizni preciznih preciznija preciznije precizniji preciznim preciznog preciznom preciznu
+39	3139	susjeda	suseda susede susedi susedu susjede susjedi susjedo susjedom susjedu
+40	3140	magarac	magaraca magarca magarce magarcem magarci magarcima magarcu magarče
+41	3141	nadimak	nadimaka nadimci nadimcima nadimka nadimke nadimkom nadimku
+42	3142	zarobljenik	zarobljenici zarobljenicima zarobljenika zarobljenike zarobljenikom zarobljeniku
+43	3143	unuka	unuci unuke unuko unukom unuku
+44	3144	odsutan	odsutna odsutne odsutni odsutnih odsutnim odsutno odsutnog odsutnom
+45	3145	puniti	pune puneći puni punila punili punim punimo punio punite puniš punjen punjena punjene punjeni punjenje punjeno
+46	3146	pravilan	pravilna pravilne pravilni pravilnije pravilnim pravilno pravilnog pravilnoj pravilnom pravilnu
+47	3147	kafić	kafića kafiće kafići kafićima kafiću
+48	3148	razvijati	razvija razvijaju razvijajući razvijala razvijale razvijali razvijalo razvijam razvijamo razvijanje razvijao razvijate razvijaš
+49	3149	čarobnjak	čarobnjaci čarobnjacima čarobnjaka čarobnjake čarobnjakom čarobnjaku čarobnjače
+50	3150	ploviti	plove ploveći plovi plovila plovili plovilo plovilu plovim plovimo plovio plovite plovićemo ploviš
+51	3151	bosti	bo bode bodem boden bodena bodeš bodi bodu bola bole boli bolo
+52	3152	komunicirati	komunicira komuniciraj komunicirajte komuniciraju komunicirala komunicirale komunicirali komuniciram komuniciramo komuniciranje komunicirao komunicirate komuniciraš
+53	3153	polaziti	polaze polazeći polazi polazim polazimo polazio polazite polaziš
+54	3154	zasad	zasada
+55	3155	čuditi	čude čudi čudila čudili čudilo čudim čudimo čudio čudite čudiš čuđenja čuđenje čuđenjem
+56	3156	prijava	prijavama prijave prijavi prijavom prijavu
+57	3157	smetnja	smetnjama smetnje smetnji smetnju
+58	3158	utrka	utrci utrkama utrke utrkom utrku
+59	3159	karakter	karaktera karaktere karakteri karakterima karakterom karakteru
+60	3160	brend	brenda brende brendom brendova brendove brendu
+61	3161	obraz	obraza obraze obrazi obrazima obrazom obrazu
+62	3162	pokretati	pokretala pokretali pokretalo pokretanje pokretao pokreće pokrećem pokrećemo pokrećeš pokreći pokreću
+63	3163	kolonija	kolonijama kolonije koloniji kolonijom koloniju
+64	3164	dvorana	dvoranama dvorane dvorani dvoranom dvoranu
+65	3165	suv	najsuvlje suva suve suvi suvih suvim suvlje suvo suvog suvoj suvom suvu
+66	3166	farmer	farmera farmere farmeri farmerima farmerom farmeru
+67	3167	reagirati	reagira reagiraj reagiraju reagirala reagirali reagiralo reagiram reagiramo reagirao reagirate reagiraš
+68	3168	dina	dinama dine dini dino dinom dinu
+69	3169	pojava	pojavama pojave pojavi pojavom pojavu
+70	3170	di	
+71	3171	tablica	tablicama tablice tablici tablicom tablicu
+72	3172	bukvalno	
+73	3173	okus	okusa okuse okusi okusom okusu
+74	3174	snimanje	
+75	3175	tvornica	tvornicama tvornice tvornici tvornicom tvornicu
+76	3176	krivnja	krivnje krivnji krivnjom krivnju
+77	3177	zasigurno	
+78	3178	zaključak	zaključaka zaključci zaključcima zaključka zaključke zaključkom zaključku
+79	3179	udaljenost	udaljenosti udaljenostima
+80	3180	žestok	najžešća najžešće najžešći najžešćih žestoka žestoke žestoki žestokih žestokim žestokog žestokoj žestokom žestoku žešća žešće žešći
+81	3181	mafija	mafije mafiji mafijom mafiju
+82	3182	upotreba	upotrebe upotrebi upotrebom upotrebu
+83	3183	oštar	najoštrija najoštrije najoštriji oštra oštre oštri oštrih oštrija oštrije oštriji oštrijim oštrim oštrog oštroj oštrom oštru
+84	3184	umjetnički	umetnička umetničke umetnički umetničkih umetničkim umetničko umetničkog umetničkoj umetničkom umetničku umjetnička umjetničke umjetničkih umjetničkim umjetničko umjetničkog umjetničkoj umjetničkom umjetničku
+85	3185	mužjak	mužjaci mužjacima mužjaka mužjake mužjakom mužjaku
+86	3186	uzak	najuže uska uske uski uskih uskim usko uskog uskoj uskom usku uža užeg užem uži užoj užu
+87	3187	šesti	šesta šeste šestim šesto šestog šestoga šestoj šestom šestu
+88	3188	porijeklo	porekla poreklo poreklom poreklu porijekla porijeklom porijeklu
+89	3189	obavezan	obavezna obavezne obavezni obaveznih obaveznim obavezno obaveznog obaveznom obaveznu
+90	3190	lagan	lagana lagane lagani laganih laganije laganim laganog laganoj laganom laganu
+91	3191	poker	pokera pokerom pokeru
+92	3192	strog	najstroža najstrože najstroži najstrožu stroga stroge strogi strogih strogim strogog strogoj strogom strogu stroža strože stroži
+93	3193	ekonomija	ekonomije ekonomiji ekonomijom ekonomiju
+94	3194	izuzetan	izuzetna izuzetne izuzetni izuzetnih izuzetnim izuzetnog izuzetnoj izuzetnom izuzetnu
+95	3195	patka	pataka patkama patke patki patkica patkice patkicu patko patkom patku
+96	3196	bioskop	bioskopa bioskope bioskopi bioskopima bioskopom bioskopu
+97	3197	infekcija	infekcijama infekcije infekciji infekcijom infekciju
+98	3198	narukvica	narukvicama narukvice narukvici narukvicom narukvicu
+99	3199	uspavati	uspava uspavaj uspavajte uspavaju uspavala uspavale uspavali uspavam uspavamo uspavan uspavana uspavane uspavani uspavano uspavao uspavate uspavaćemo uspavaću uspavaš
+100	3200	skroman	skromna skromne skromni skromnih skromnije skromniji skromnim skromno skromnog skromnoj skromnom skromnu

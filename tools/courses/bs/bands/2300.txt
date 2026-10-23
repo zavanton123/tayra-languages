@@ -1,0 +1,100 @@
+1	2201	smijeh	smeh smeha smehom smehu smeše smijeha smijehom smijehu smiješe
+2	2202	kuvati	kuva kuvah kuvaj kuvajte kuvaju kuvala kuvali kuvalo kuvam kuvamo kuvana kuvane kuvani kuvanje kuvano kuvao kuvate kuvaću kuvaš
+3	2203	kriza	krizama krize krizi krizom krizu
+4	2204	če	
+5	2205	ormar	ormara ormare ormari ormarima ormarom ormaru
+6	2206	sahraniti	sahrane sahrani sahranila sahranili sahranim sahranimo sahranio sahranite sahraniće sahranićemo sahraniću sahraniš sahranjen sahranjena sahranjene sahranjeni sahranjeno
+7	2207	bacil	bacila bacile bacili bacilima
+8	2208	baba	babama babe babetina babi babo babom babu
+9	2209	mamica	mamice mamici mamicom mamicu
+10	2210	nacija	nacijama nacije naciji nacijom naciju
+11	2211	indij	indija indije indiji indijom indiju
+12	2212	oblast	oblasti oblastima
+13	2213	objašnjenje	objašnjenja objašnjenjem objašnjenjima objašnjenju
+14	2214	kraljevstvo	kraljevstava kraljevstva kraljevstvima kraljevstvom kraljevstvu
+15	2215	diler	dilera dilere dileri dilerima dilerom dileru
+16	2216	rep	repa repe repo repom repova repove repovi repovima repu ripa
+17	2217	skupiti	skupe skupi skupih skupila skupile skupili skupilo skupim skupimo skupio skupite skupiće skupićemo skupiću skupiš skupljen skupljena skupljene skupljeni skupljeno
+18	2218	dolina	dolinama doline dolini dolinom dolinu
+19	2219	pojas	pojasa pojaseva pojaseve pojasevi pojasevima pojasom pojasu
+20	2220	rima	rime rimi rimom rimu
+21	2221	predložiti	predlože predložen predložena predložene predloženi predloženo predloži predložila predložili predložim predložimo predložio predložite predložiću predložiš
+22	2222	pucnjava	pucnjave pucnjavi pucnjavom pucnjavu
+23	2223	federalni	federalna federalne federalnih federalnim federalno federalnog federalnoj federalnom federalnu
+24	2224	gužva	gužve gužvi gužvom gužvu
+25	2225	mudo	muda mudima
+26	2226	odlučivati	odlučivala odlučivali odlučivanje odlučivao odlučuj odlučuje odlučujem odlučujemo odlučujete odlučuješ odlučuju odlučujuća odlučujuće odlučujućem odlučujući odlučujuću
+27	2227	širok	najširem najširih šira šire šireg širem širi širim širo široj široka široke široki širokih širokim širokog širokoj širokom široku širu
+28	2228	zaposlen	najzaposleniji zaposlena zaposlene zaposleni zaposlenih zaposlenim zaposlenima zaposleno zaposlenog zaposlenom zaposlenu
+29	2229	podne	podneva
+30	2230	drugarica	drugaricama drugarice drugarici drugaricom drugaricu
+31	2231	okrug	okruga okruge okrugom okrugu okruzi okruzima okruže
+32	2232	vaditi	vade vadeći vadi vadila vadili vadim vadimo vadio vadite vadiš vađenje
+33	2233	šampanjac	šampanjca šampanjcem šampanjcu
+34	2234	koliki	kolika kolike kolikim kolikoj kolikom koliku
+35	2235	popularan	najpopularnija najpopularnije najpopularnijeg najpopularniji najpopularnijih najpopularnijim popularna popularne popularni popularnih popularnija popularnije popularniji popularnim popularno popularnog popularnoj popularnom popularnu
+36	2236	skakati	skakala skakale skakali skakanje skakao skače skačem skačemo skačete skačeš skači skačimo skačite skaču skačući
+37	2237	sekund	
+38	2238	olovka	olovaka olovci olovkama olovke olovki olovkom olovku
+39	2239	uloviti	ulove ulovi ulovila ulovile ulovili ulovilo ulovim ulovimo ulovio ulovite ulovićemo uloviću uloviš ulovljen ulovljena ulovljene ulovljeni
+40	2240	ponos	ponosa ponose ponosi ponosom ponosu
+41	2241	predavanje	predavanja predavanjem predavanjima predavanju
+42	2242	isplatiti	isplate isplati isplatila isplatile isplatili isplatilo isplatim isplatimo isplatio isplatite isplatiće isplatićeš isplatiću isplatiš isplaćen isplaćena isplaćeni isplaćeno
+43	2243	potrajati	potrajala potrajalo potrajao potrajaće potraje potraju
+44	2244	štap	štapa štapom štapova štapove štapovi štapovima štapu
+45	2245	stric	strica stricem stricu striče stričeva stričeve stričevi
+46	2246	izbrisati	izbrisala izbrisali izbrisalo izbrisan izbrisana izbrisane izbrisani izbrisano izbrisao izbrisaće izbrisaću izbriše izbrišem izbrišemo izbrišete izbrišeš izbriši izbrišite izbrišu
+47	2247	zagrliti	zagrle zagrli zagrlila zagrlili zagrlim zagrlimo zagrlio zagrlite zagrlićeš zagrliću zagrliš zagrljen zagrljeni
+48	2248	fabrika	fabrici fabrikama fabrike fabrikom fabriku
+49	2249	teta	tetama tete teti teto tetom tetu тета
+50	2250	drugdje	drugde
+51	2251	đubre	đubrad đubradi đubreta đubretom đubretu
+52	2252	pripaziti	pripaze pripazi pripazila pripazili pripazim pripazimo pripazio pripazite pripaziću pripaziš
+53	2253	jedinstven	jedinstvena jedinstvene jedinstveni jedinstvenih jedinstvenim jedinstveno jedinstvenog jedinstvenoj jedinstvenom jedinstvenu
+54	2254	zakazati	zakazala zakazali zakazalo zakazan zakazana zakazane zakazani zakazano zakazao zakazaćemo zakazaću zakaže zakažem zakažemo zakažete zakažeš zakaži zakažite zakažu
+55	2255	zamišljati	zamišlja zamišljaj zamišljaju zamišljajući zamišljala zamišljale zamišljali zamišljam zamišljamo zamišljanje zamišljao zamišljate zamišljaš
+56	2256	stroj	stroja strojem strojeva strojeve strojevi strojevima stroju
+57	2257	kultura	kulturama kulture kulturi kulturom kulturu
+58	2258	kolica	kolicima
+59	2259	radovati	radovala radovali radovalo radovanje radovao raduj raduje radujem radujemo radujete raduješ radujmo radujte raduju
+60	2260	otkako	
+61	2261	tržište	tržišta tržištem tržištima tržištu
+62	2262	naoružati	naoruža naoružaj naoružajte naoružaju naoružali naoružam naoružamo naoružan naoružana naoružane naoružani naoružano naoružao
+63	2263	zakopati	zakopa zakopaj zakopajmo zakopajte zakopaju zakopala zakopale zakopali zakopam zakopamo zakopan zakopana zakopane zakopani zakopano zakopao zakopate zakopaće zakopaćemo zakopaću zakopaš
+64	2264	smrtan	smrtna smrtne smrtni smrtnih smrtnim smrtno smrtnog smrtnoga smrtnoj smrtnom smrtnu
+65	2265	тај	та тиме то тог том томе тој
+66	2266	progovoriti	progovore progovori progovorila progovorili progovorim progovorimo progovorio progovorite progovoriće progovorićeš progovoriš
+67	2267	uzrokovati	uzrokovala uzrokovale uzrokovali uzrokovalo uzrokovan uzrokovana uzrokovane uzrokovani uzrokovanje uzrokovano uzrokovao uzrokuje uzrokujem uzrokujete uzrokuješ uzrokuju uzrokujući
+68	2268	zamalo	
+69	2269	pogodak	pogoci pogodaka pogotka pogotke pogotkom
+70	2270	uvući	uvuci uvucite uvukao uvukla uvukle uvukli uvuklo uvuku uvuče uvučem uvučemo uvučen uvučena uvučene uvučeni uvučete uvučeš
+71	2271	roman	romana romane romani romanima romanom romanu
+72	2272	negativan	negativna negativne negativni negativnih negativnim negativno negativnog negativnoj negativnom negativnu
+73	2273	prisiliti	prisile prisili prisilila prisilile prisilili prisililo prisilim prisilimo prisilio prisilite prisiliš prisiljen prisiljena prisiljene prisiljeni prisiljeno
+74	2274	jao	јао
+75	2275	naići	naiđe naiđem naiđemo naiđete naiđeš naiđu naišao naišla naišle naišli naišlo
+76	2276	slovo	slova slovima slovom slovu
+77	2277	vladati	vladaj vladajte vladaju vladajuća vladajuće vladajući vladajućih vladajućoj vladajuću vladala vladale vladali vladalo vladam vladamo vladanja vladanje vladanjem vladanju vladao vladate vladaćemo vladaš
+78	2278	verzija	verzijama verzije verziji verzijom verziju
+79	2279	cent	centa cente centi centima centu
+80	2280	polovina	polovine polovini polovinom polovinu
+81	2281	ugodan	najugodnije najugodniji ugodna ugodne ugodni ugodnih ugodnija ugodnije ugodniji ugodnijim ugodnim ugodnog ugodnoj ugodnom ugodnu
+82	2282	nadzor	nadzora nadzorom nadzoru
+83	2283	usuđivati	usuđivala usuđivao usuđuj usuđuje usuđujem usuđujemo usuđujete usuđuješ usuđujte usuđuju
+84	2284	upala	upale upali upalo upalom upalu
+85	2285	armija	armijama armije armiji armijom armiju
+86	2286	uspomena	uspomenama uspomene uspomeni uspomenom uspomenu
+87	2287	žut	žute žuti žutih žutim žuto žutog žutoj žutom žutu žuća
+88	2288	praznik	praznici praznicima praznika praznike praznikom prazniku
+89	2289	raspravljati	raspravlja raspravljaj raspravljajte raspravljaju raspravljajući raspravljala raspravljale raspravljali raspravljalo raspravljam raspravljamo raspravljanje raspravljao raspravljate raspravljaćemo raspravljaš
+90	2290	drveće	drveća drvećem drveću
+91	2291	pijesak	pesak pesaka pesci peska peske peskom pesku pijeska pijeskom pijesku
+92	2292	prijenos	prenos prenosa prenose prenosi prenosom prenosu prijenosa prijenose prijenosi prijenosom prijenosu
+93	2293	dvadeset	
+94	2294	pravni	pravna pravne pravnih pravnim pravno pravnog pravnoj pravnom pravnu
+95	2295	plata	platama plate plati plato platoa platom platou platu
+96	2296	samoubistvo	samoubistva samoubistvima samoubistvom samoubistvu
+97	2297	motiv	motiva motive motivi motivima motivom motivu
+98	2298	nagovoriti	nagovore nagovori nagovorila nagovorile nagovorili nagovorim nagovorimo nagovorio nagovorite nagovoriću nagovoriš
+99	2299	obavljati	obavlja obavljaj obavljaju obavljajući obavljala obavljale obavljali obavljam obavljamo obavljanje obavljao obavljate obavljaš
+100	2300	zec	zeca zecom zecu zeče zečeva zečeve zečevi zečevima zečić

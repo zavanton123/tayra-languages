@@ -1,0 +1,100 @@
+1	2601	grčki	grčka grčke grčkih grčkim grčko grčkog grčkoj grčkom grčku
+2	2602	drolja	droljama drolje drolji droljo droljom drolju
+3	2603	jednako	
+4	2604	crv	crva crve crvi crvima crvom crvu
+5	2605	pokloniti	poklone pokloni poklonila poklonili poklonim poklonimo poklonio poklonite pokloniću pokloniš poklonjen poklonjena poklonjeno
+6	2606	razlikovati	razlikovala razlikovali razlikovalo razlikovanje razlikovao razlikuje razlikujem razlikujemo razlikujete razlikuješ razlikuju
+7	2607	avantura	avanturama avanture avanturi avanturom avanturu
+8	2608	dopuštati	dopušta dopuštaj dopuštaju dopuštajući dopuštala dopuštali dopuštam dopuštamo dopuštanje dopuštao dopuštate dopuštaš
+9	2609	pluća	plućima
+10	2610	izliječiti	izleče izlečen izlečena izlečeni izleči izlečila izlečili izlečilo izlečim izlečimo izlečio izlečite izlečiti izlečiću izlečiš izliječe izliječen izliječena izliječene izliječeni izliječi izliječila izliječili izliječilo izliječim izliječimo izliječio izliječite izliječiš
+11	2611	smrad	smrada smrade smradom smradova smradove smradovi smradu
+12	2612	zapovijed	zapoved zapovedi zapovijedi zapovijedima
+13	2613	jun	juna june juni junu
+14	2614	izabran	izabrana izabrane izabrani izabranih izabranim izabranima izabrano izabranog izabranoj izabranom izabranu
+15	2615	otarasiti	otarase otarasi otarasila otarasili otarasim otarasimo otarasio otarasite otarasićemo otarasiću otarasiš
+16	2616	paluba	palubama palube palubi palubom palubu
+17	2617	matematika	matematici matematike matematikom matematiku
+18	2618	službenik	službenici službenicima službenika službenike službenikom službeniku službeniče
+19	2619	civil	civila civile civili civilima civilom civilu
+20	2620	trupa	trupama trupe trupi trupo trupom trupu
+21	2621	uzrujati	uzruja uzrujaju uzrujala uzrujali uzrujalo uzrujam uzrujan uzrujana uzrujane uzrujani uzrujano uzrujao uzrujaš
+22	2622	povjerljiv	poverljiv poverljiva poverljive poverljivi poverljivih poverljivim poverljivo poverljivog poverljivu povjerljiva povjerljive povjerljivi povjerljivih povjerljivim povjerljivo povjerljivog povjerljivom povjerljivu
+23	2623	mašta	mašte mašti maštom maštu
+24	2624	mentalni	mentalna mentalne mentalnih mentalnim mentalno mentalnog mentalnoj mentalnom mentalnu
+25	2625	prijatno	
+26	2626	pregovarati	pregovara pregovaraj pregovaraju pregovarala pregovarali pregovaram pregovaramo pregovaranje pregovarao pregovarate pregovaraćemo pregovaraš
+27	2627	udahnuti	udahne udahnem udahnemo udahnete udahneš udahni udahnimo udahnite udahnu udahnula udahnuli udahnuo udahnut
+28	2628	plamen	plamena plamene plameni plamenim plameno plamenom plamenova plamenove plamenovi plamenovima plamenu
+29	2629	prilaz	prilaza prilaze prilazi prilazima prilazom prilazu
+30	2630	toplo	
+31	2631	maj	maja maju
+32	2632	kinuti	kine kinem kineš kini kinu kinula kinuo
+33	2633	maca	macama mace maci maco macom macu
+34	2634	industrija	industrijama industrije industriji industrijom industriju
+35	2635	takmičenje	takmičenja takmičenjem takmičenjima takmičenju
+36	2636	računalo	računala računalima računalom računalu
+37	2637	kužiti	kuže kuži kužim kužimo kužite kužiš
+38	2638	podmornica	podmornicama podmornice podmornici podmornicom podmornicu
+39	2639	rasa	rasama rase rasi rasom rasu
+40	2640	ispostaviti	ispostave ispostavi ispostavilo ispostavio
+41	2641	dlaka	dlaci dlakama dlake dlakom dlaku
+42	2642	zadužiti	zadužen zadužena zadužene zaduženi zaduženje zaduži zadužila zadužili zadužim zadužio zadužite zadužiću
+43	2643	buljiti	bulje buljenje buljeći bulji buljila buljili buljim buljimo buljio buljite buljiš
+44	2644	radost	radosti radostima radošću
+45	2645	čizma	čizama čizmama čizme čizmi čizmom čizmu
+46	2646	tetovaža	tetovažama tetovaže tetovaži tetovažom tetovažu
+47	2647	kršiti	krše kršenja kršenje kršeći krši kršila kršili kršim kršimo kršio kršite kršiš
+48	2648	admiral	admirala admirale admirali admiralom admiralu
+49	2649	uvaliti	uvale uvali uvalila uvalili uvalilo uvalim uvalimo uvalio uvalite uvalićeš uvališ
+50	2650	blizanac	blizanaca blizanca blizance blizanci blizancima blizancu
+51	2651	stalan	stalna stalne stalni stalnih stalnim stalnog stalnoj stalnom stalnu
+52	2652	ivica	ivicama ivice ivici ivicom ivicu
+53	2653	koristan	korisna korisne korisni korisnih korisnija korisnije korisniji korisnim korisnog korisnom korisnu najkorisnije najkorisniji
+54	2654	odvući	odvuci odvucimo odvucite odvukao odvukla odvukli odvuklo odvuku odvuče odvučem odvučemo odvučen odvučena odvučeni odvučeno odvučete odvučeš
+55	2655	navratiti	navrate navrati navratila navratili navratim navratimo navratio navratite navratiću navratiš
+56	2656	kravata	kravatama kravate kravati kravatom kravatu
+57	2657	prostitutka	prostitutkama prostitutke prostitutki prostitutkom prostitutku
+58	2658	gotovina	gotovine gotovini gotovinom gotovinu
+59	2659	seljak	seljaci seljacima seljaka seljake seljakom seljaku seljače seljačina seljačine seljačino seljačinom seljačinu seljačka seljačke seljački seljačkim seljačko seljačkog seljačkom seljačku
+60	2660	v	
+61	2661	ubrzati	ubrza ubrzaj ubrzajmo ubrzajte ubrzaju ubrzala ubrzali ubrzalo ubrzam ubrzamo ubrzanja ubrzanje ubrzanju ubrzao ubrzate ubrzaće ubrzaću ubrzaš
+62	2662	nedostatak	nedostaci nedostacima nedostataka nedostatka nedostatke nedostatkom nedostatku
+63	2663	sjeme	seme semena semenom semenu sjemena sjemenom sjemenu
+64	2664	zavjera	zavera zaverama zavere zaveri zaverom zaveru zavjerama zavjere zavjeri zavjerom zavjeru
+65	2665	predvidjeti	predvide predvidela predvideli predvideo predvideti predvidi predvidim predvidimo predvidio predvidite predvidiš predvidjela predvidjeli predviđen predviđena predviđene predviđeni predviđeno
+66	2666	protivnik	protivnica protivnice protivnici protivnicima protivnika protivnike protivnikom protivniku
+67	2667	podzemni	podzemna podzemne podzemnih podzemnim podzemno podzemnog podzemnoga podzemnoj podzemnom podzemnu
+68	2668	tuđ	tuđa tuđe tuđeg tuđem tuđi tuđih tuđim tuđoj tuđom tuđu
+69	2669	sjenka	senci senka senkama senke senko senkom senku sjenci sjenkama sjenke sjenkom sjenku
+70	2670	serijski	serijska serijske serijskih serijskim serijsko serijskog serijskom serijsku
+71	2671	pozitivan	pozitivna pozitivne pozitivni pozitivnih pozitivnije pozitivniji pozitivnim pozitivnog pozitivnoj pozitivnom pozitivnu
+72	2672	veš	veša vešu
+73	2673	otrovan	najotrovnija najotrovnijih otrovna otrovne otrovni otrovnih otrovnim otrovno otrovnog otrovnoj otrovnom otrovnu
+74	2674	saveznik	saveznici saveznicima saveznika saveznike saveznikom savezniku
+75	2675	prirodno	
+76	2676	prisustvo	prisustva prisustvom prisustvu
+77	2677	vol	vo vola vole volom volova volove volovi volu
+78	2678	blag	blaga blage blagi blagih blagim blagog blagoj blagom blagu blaža blaže blaži blažu najblaže
+79	2679	lagano	
+80	2680	vući	vucite vukao vukla vukle vukli vuklo vuku vukući vuče vučem vučemo vučen vučeni vučenje vučete vučeš
+81	2681	neugodno	
+82	2682	žurba	žurbe žurbi žurbom žurbu
+83	2683	toranj	tornja tornjem tornjeva tornjeve tornjevi tornjevima tornju
+84	2684	nisko	najniže niže
+85	2685	džungla	džunglama džungle džungli džunglom džunglu
+86	2686	nakit	nakita nakitom nakitu
+87	2687	slon	slona slone slonom slonova slonove slonovi slonovima slonu
+88	2688	siv	siva sive sivi sivih sivim sivo sivog sivoj sivom sivu
+89	2689	aktivan	aktivna aktivne aktivni aktivnih aktivnije aktivniji aktivnim aktivno aktivnog aktivnoj aktivnom aktivnu najaktivniji najaktivnijih
+90	2690	slabost	slabosti slabostima slabošću
+91	2691	naporno	
+92	2692	profil	profila profile profili profilima profilom profilu
+93	2693	utvrditi	utvrde utvrdi utvrdila utvrdili utvrdilo utvrdim utvrdimo utvrdio utvrdite utvrdiš utvrđen utvrđena utvrđene utvrđeni utvrđeno
+94	2694	pogreška	pogrešaka pogrešci pogreškama pogreške pogreški pogreškom pogrešku
+95	2695	nadgledati	nadgleda nadgledaj nadgledajte nadgledaju nadgledajući nadgledala nadgledali nadgledam nadgledamo nadgledan nadgledani nadgledanje nadgledao nadgledate nadgledaće nadgledaćemo nadgledaću nadgledaš
+96	2696	kofer	kofera kofere koferi koferima koferom koferu
+97	2697	keš	keša kešom kešu
+98	2698	grub	gruba grube grubi grubih grubim grublja grublje grublji grubog gruboj grubom grubu
+99	2699	pozivati	poziva pozivaj pozivaju pozivajući pozivala pozivale pozivali pozivam pozivamo pozivan pozivani pozivanje pozivao pozivate pozivaš
+100	2700	filmski	filmska filmske filmskih filmskim filmsko filmskog filmskoj filmskom filmsku

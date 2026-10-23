@@ -1,0 +1,100 @@
+1	6301	budalast	budalasta budalaste budalasti budalastim budalasto budalastom budalastu
+2	6302	nemoćan	nemoćna nemoćne nemoćni nemoćnih nemoćnim nemoćno
+3	6303	roza	
+4	6304	debeljko	debeljka debeljku
+5	6305	pamuk	pamuka pamukom pamuku
+6	6306	zbirka	zbirci zbirke zbirku
+7	6307	kenjati	kenja kenjaj kenjaju kenjala kenjam kenjanje kenjao kenjaš
+8	6308	interni	interna interne internih interno internog internom internu
+9	6309	nogometni	nogometna nogometne nogometnih nogometnim nogometnog nogometnoj nogometnom nogometnu
+10	6310	tješiti	teše teši tešila tešim tešio tešiti tešiš tješe tješi tješila tješim tješio tješiš
+11	6311	loža	lože loži ložu
+12	6312	ruž	ružem ružu
+13	6313	upit	upij upije upijem upijte upiju upila upilo upio upita upite upiti upiše
+14	6314	saga	sage sagi sago sagom sagu
+15	6315	sluz	sluzi
+16	6316	laboratorijski	laboratorijska laboratorijske laboratorijskih laboratorijskim laboratorijskog laboratorijskom laboratorijsku
+17	6317	pub	puba pubova pubove pubovi pubovima pubu
+18	6318	izjednačiti	izjednače izjednačen izjednačena izjednačene izjednačeni izjednačenje izjednačeno izjednači izjednačila izjednačili izjednačim izjednačimo izjednačio
+19	6319	urezati	ureza urezala urezale urezali urezalo urezan urezana urezane urezani urezano urezao ureže ureži
+20	6320	štene	šteneta štenetom štenetu
+21	6321	bosanski	bosanska bosanske bosanskih bosanskom
+22	6322	kidati	kida kidaj kidajmo kidaju kidajući kidala kidali kidam kidamo kidanje kidaš
+23	6323	slavina	slavine slavini slavinu
+24	6324	nervoza	nervoze nervozi nervozom nervozu
+25	6325	posaditi	posade posadi posadila posadili posadim posadimo posadio posadite posadiš posađeno
+26	6326	cvjetati	cveta cvetaju cvetala cvetale cvetalo cvetanje cvetao cvetati cvjeta cvjetaju cvjetala cvjetao
+27	6327	ventilator	ventilatora ventilatore ventilatori ventilatorom ventilatoru
+28	6328	proljetni	proljetna proljetne proljetnih proljetnim proljetno proljetnog proljetnom proljetnu
+29	6329	zabeležiti	zabeleže zabeležen zabeležena zabeležene zabeleženi zabeleženo zabeleži zabeležila zabeležili zabeležim zabeležimo zabeležio zabeležite zabeležiću
+30	6330	vikendica	vikendice vikendici vikendicu
+31	6331	milicija	milicije miliciji milicijom miliciju
+32	6332	činija	činije činiji činijom činiju
+33	6333	dobavljač	dobavljača dobavljače dobavljačem dobavljači dobavljačima dobavljaču
+34	6334	voćni	voćna voćne voćnih voćnim voćno voćnog voćnom voćnu
+35	6335	agonija	agonije agoniji agoniju
+36	6336	aligator	aligatora aligatore aligatori aligatorima aligatoru
+37	6337	zadovoljavati	zadovoljava zadovoljavaju zadovoljavala zadovoljavam zadovoljavamo zadovoljavanje zadovoljavao zadovoljavaš
+38	6338	dražestan	dražesna dražesne dražesni dražesnim dražesno dražesnoj dražesnom dražesnu
+39	6339	ribarski	ribarska ribarske ribarskih ribarskim ribarsko ribarskog ribarskoj ribarskom ribarsku
+40	6340	manira	manirama manire maniru
+41	6341	izvorni	izvorna izvorne izvornih izvornim izvorno izvornog izvornom izvornu
+42	6342	hrkati	hrkala hrkanje hrkao hrče hrčem hrčeš hrču
+43	6343	stup	stupe stupova stupove stupovi stupovima stupu
+44	6344	prkositi	prkose prkoseći prkosi prkosila prkosili prkosim prkosio prkosite prkosiš prkošenje
+45	6345	odar	odra odre odri odru
+46	6346	potiljak	potiljka potiljku
+47	6347	pristojnost	pristojnosti
+48	6348	sestrica	sestrice sestrici sestricom sestricu
+49	6349	rezidencija	rezidencije rezidenciji rezidenciju
+50	6350	krivični	krivična krivične krivičnih krivičnim krivičnog krivičnom krivičnu
+51	6351	pozirati	pozira poziraj poziraju pozirajući pozirala pozirali poziram poziranje pozirao pozirate poziraš
+52	6352	puziti	puzala puze puzeći puzi puzim puzimo puzio puzite puziš
+53	6353	obraniti	obrane obrani obranila obranili obranim obranimo obranio obraniš
+54	6354	pederski	pederska pederske pederskih pederskim pedersko pederskog pederskoj pederskom pedersku
+55	6355	vampirski	vampirska vampirske vampirskih vampirskim vampirsko vampirskog vampirskoj vampirskom vampirsku
+56	6356	malik	
+57	6357	dinastija	dinastije dinastiji dinastiju
+58	6358	flora	flore flori floro florom floru
+59	6359	доћи	дошао дошла дошли дошло дође дођем дођеш дођи дођите дођу
+60	6360	brzak	brzaci brzaka
+61	6361	veselje	veselja veseljem veselju
+62	6362	antički	antička antičke antičkih antičkim antičko antičkog antičkoj antičkom antičku
+63	6363	kavijar	kavijara kavijarom
+64	6364	osmica	osmice osmici osmicom osmicu
+65	6365	nećakinja	nećakinje nećakinji nećakinjo nećakinjom nećakinju
+66	6366	znan	znana znane znani znanih znanim znano znanog znanom znanu
+67	6367	provaljivati	provaljivali provaljivanje provaljivao provaljuje provaljujem provaljujemo provaljujete provaljuješ provaljuju provaljujući
+68	6368	polizati	polizala polizao poliže poližem poližeš poliži poližite
+69	6369	ulaganje	ulaganja
+70	6370	mokraća	mokraće mokraći mokraćom mokraću
+71	6371	smoking	smokinga smokinge smokingu smokinzi
+72	6372	strpjeti	strpi strpimo strpite strpiš
+73	6373	cjelokupan	celokupan celokupna celokupne celokupni celokupnog celokupnoj celokupnom celokupnu cjelokupna cjelokupne cjelokupni cjelokupnim cjelokupnog cjelokupnom cjelokupnu
+74	6374	rudar	rudara rudare rudari rudarima rudaru
+75	6375	okoliš	okoliša okolišem okolišu
+76	6376	rezanac	rezanaca rezanca rezance rezanci rezancima
+77	6377	maksimalno	
+78	6378	ring	
+79	6379	uvenuo	uvenula uvenule uvenulo uveo
+80	6380	mantil	mantila mantile mantili mantilima mantilom mantilu
+81	6381	aranžman	aranžmana aranžmane aranžmani aranžmanima aranžmanu
+82	6382	sestrinstvo	sestrinstva sestrinstvom sestrinstvu
+83	6383	autocesta	autoceste autocesti autocestom autocestu
+84	6384	bljak	
+85	6385	šupa	šupe šupi šupu
+86	6386	udruga	udruge udrugom udrugu udruzi
+87	6387	ošamariti	ošamari ošamarila ošamarim ošamario ošamariću ošamariš
+88	6388	fascinirati	fascinira fasciniraju fascinirala fascinirale fasciniralo fasciniran fascinirana fascinirani fascinirao fasciniraš
+89	6389	mafijaš	mafijaša mafijaše mafijaši mafijašima mafijašu
+90	6390	izravan	izravna izravne izravni izravnije izravnim izravnog izravnoj izravnom izravnu
+91	6391	zvaničnik	zvaničnici zvaničnicima zvaničnika zvaničnike
+92	6392	tehnološki	tehnološka tehnološke tehnoloških tehnološkim tehnološko tehnološkog tehnološkoj tehnološkom tehnološku
+93	6393	krhotina	krhotinama krhotine krhotinom krhotinu
+94	6394	baron	
+95	6395	napast	
+96	6396	bogalj	bogalja bogalje bogaljem bogalji bogalju
+97	6397	казати	каже кажем кажете кажеш кажи кажу
+98	6398	talentiran	talentirana talentirane talentirani talentiranih talentiranog
+99	6399	izlazni	izlazna izlazne izlaznih izlaznim izlaznoj izlaznu
+100	6400	masovno	

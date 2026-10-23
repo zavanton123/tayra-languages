@@ -1,0 +1,100 @@
+1	6201	abortus	abortusa abortuse abortusi abortusu
+2	6202	algoritam	algoritama algoritma algoritme algoritmi algoritmima algoritmom algoritmu
+3	6203	plahta	plahtama plahte plahti plahtom plahtu
+4	6204	nezakonit	nezakonita nezakonite nezakoniti nezakonitih nezakonitim nezakonitog nezakonitom nezakonitu
+5	6205	preferirati	preferira preferiraju preferirala preferiram preferiramo preferirao preferirate preferiraš
+6	6206	nepobjediv	nepobediv nepobediva nepobedivi nepobjediva nepobjedive nepobjedivi nepobjedivim nepobjedivo nepobjedivog
+7	6207	uginuti	ugine uginu uginula uginule uginuli uginulo uginuo uginuće
+8	6208	uklopiti	
+9	6209	nindža	nindže nindži nindžu
+10	6210	obalni	obalna obalne obalnih obalnim obalnog obalnoj obalnom obalnu
+11	6211	turistički	turistička turističke turističkih turističkim turističko turističkog turističkoj turističkom turističku
+12	6212	ovdašnji	ovdašnja ovdašnje ovdašnjeg ovdašnjih ovdašnjim ovdašnjoj ovdašnju
+13	6213	fatalan	fatalna fatalne fatalni fatalnih fatalnim fatalnog fatalnoj fatalnu
+14	6214	ljigav	ljigava ljigave ljigavi ljigavih ljigavim ljigavog ljigavom ljigavu
+15	6215	vojnički	vojnička vojničke vojničkih vojničkim vojničko vojničkog vojničkoj vojničkom vojničku
+16	6216	свој	свог свом своја своје својим својих својом својој своју
+17	6217	skalpel	skalpela skalpele skalpelima skalpelom
+18	6218	propaganda	propagande propagandi propagandom propagandu
+19	6219	maraton	maratona maratonu
+20	6220	razraditi	razradi razradila razradili razradim razradimo razradio razradite razrađen razrađena razrađene razrađeni razrađeno
+21	6221	sijalica	sijalicama sijalice sijalicu
+22	6222	papirni	papirna papirne papirnih papirnim papirnog papirnoj papirnom papirnu
+23	6223	maksimum	maksimuma maksimumu
+24	6224	pastir	pastira pastire pastiri pastiru
+25	6225	madrac	madraca madrace madracem madraci madracima madracu
+26	6226	pedofil	pedofila pedofile pedofili pedofilima pedofilu
+27	6227	iskušati	iskuša iskušaj iskušajmo iskušajte iskušala iskušali iskušan iskušao iskušaš
+28	6228	odjaviti	odjave odjavi odjavila odjavili odjavim odjavimo odjavio odjavite odjavljen
+29	6229	četvorka	četvorci četvorke četvorki četvorkom četvorku
+30	6230	renovirati	renovira renoviraju renovirala renovirali renoviram renoviramo renoviran renovirana renoviranje renovirao renovirate renoviraš
+31	6231	maloljetan	maloletan maloletna maloletne maloletni maloletnih maloletnim maloletnom maloljetna maloljetne maloljetni maloljetnih maloljetnim maloljetnog maloljetnom
+32	6232	svrbjeti	svrbe svrbi
+33	6233	počinitelj	počinitelja
+34	6234	jaguar	jaguara jaguari jaguarom jaguaru
+35	6235	naznaka	naznake naznakom naznaku
+36	6236	hladnokrvan	hladnokrvna hladnokrvne hladnokrvni hladnokrvnih hladnokrvnim hladnokrvnog
+37	6237	zbrinuti	zbrine zbrinem zbrinemo zbrinuli zbrinuo zbrinut zbrinuta zbrinute zbrinuto
+38	6238	osuđenik	osuđenici osuđenicima osuđenika osuđenike osuđenikom osuđeniku
+39	6239	projekcija	projekcijama projekcije projekciji projekciju
+40	6240	predosjećaj	predosjećaja predosjećaje predosjećajem
+41	6241	нас	нам
+42	6242	ovisnost	ovisnosti ovisnošću
+43	6243	arhitektura	arhitekture arhitekturi arhitekturom arhitekturu
+44	6244	viljuška	viljuškama viljuške viljuški viljuškom viljušku
+45	6245	omlet	omleta omlete omletom omletu
+46	6246	ožujak	ožujka ožujku
+47	6247	izaslanik	izaslanici izaslanicima izaslanika izaslanike izaslanikom izaslaniku izaslaniče
+48	6248	invalid	invalida invalide invalidi invalidima invalidom invalidu
+49	6249	temeljni	temeljna temeljne temeljnih temeljno temeljnog temeljnu
+50	6250	teškoća	teškoćama teškoće teškoću
+51	6251	ekser	eksera eksere ekseri ekserima ekseru
+52	6252	islamski	islamska islamske islamskih islamskim islamsko islamskog islamskoj islamskom islamsku
+53	6253	razmijeniti	razmene razmeni razmenili razmenimo razmenio razmenite razmeniti razmijenili razmijenim razmijenimo razmijenio razmijenite
+54	6254	popuštati	popušta popuštaj popuštajte popuštaju popuštala popuštam popuštanje popuštao popuštaš
+55	6255	fon	
+56	6256	presto	prestola prestolu
+57	6257	slupati	slupa slupala slupali slupam slupamo slupan slupana slupani slupano slupao slupaš
+58	6258	bačva	bačvama bačve bačvi bačvom bačvu
+59	6259	lom	loma lome lomom lomova lomove lomovi
+60	6260	vanzemaljac	
+61	6261	bezbroj	
+62	6262	iskušenje	
+63	6263	mandat	mandata mandatom mandatu
+64	6264	ugalj	uglja ugljem uglju
+65	6265	kontekst	konteksta kontekstu
+66	6266	vrtoglavica	vrtoglavice vrtoglavicu
+67	6267	komponenta	komponentama komponente komponenti komponentom komponentu
+68	6268	radnički	radnička radničke radničkih radničkim radničko radničkog radničkoj radničkom radničku
+69	6269	najava	najave najavi najavom najavu
+70	6270	kotrljati	kotrlja kotrljaj kotrljaju kotrljajući kotrljala kotrljali kotrljam kotrljamo kotrljanje kotrljao kotrljaš
+71	6271	najam	najma najmu
+72	6272	feniks	feniksa fenikse feniksu
+73	6273	imperator	imperatora imperatore imperatorom imperatoru
+74	6274	razarač	razarača razarače razaračem razarači razaraču
+75	6275	komičar	komičara komičare komičari komičarima komičaru
+76	6276	razapeti	razapela razapeli razapeo razapet razapeta razapeće razapeću razapne razapnem razapni razapnite razapnu
+77	6277	demonski	demonska demonske demonskih demonskim demonsko demonskog demonskoj demonskom demonsku
+78	6278	nametati	nametanje nametao nameće namećem namećemo namećeš nameću
+79	6279	doprinijeti	doprinela doprinele doprineli doprinelo doprineo doprinese doprinesem doprinesemo doprineseš doprinesu doprineti doprinijela doprinijeli doprinijelo doprinio
+80	6280	korejski	korejska korejske korejskih korejskim korejsko korejskog korejskoj korejskom korejsku
+81	6281	božanstven	božanstvena božanstvene božanstveni božanstveno božanstvenog božanstvenu
+82	6282	sramotno	
+83	6283	darežljiv	darežljiva darežljive darežljivi darežljivo darežljivu
+84	6284	iva	ive ivi ivo ivu
+85	6285	molekula	molekulama molekule molekuli molekulu
+86	6286	obrambeni	obrambena obrambene obrambenih obrambenim obrambeno obrambenog obrambenoj obrambenom obrambenu
+87	6287	kapuljača	kapuljačama kapuljače kapuljači kapuljačom kapuljaču
+88	6288	maestro	maestra maestre maestru
+89	6289	intuicija	intuicije intuiciji intuicijom intuiciju
+90	6290	mrkva	mrkve mrkvi mrkvom mrkvu
+91	6291	suzdržati	suzdržala suzdržan suzdržana suzdržani suzdržano suzdržao suzdrže suzdrži suzdržim suzdržite suzdržiš
+92	6292	zaostati	zaostala zaostale zaostali zaostalo zaostane zaostaneš zaostao
+93	6293	crnčuga	crnčuge crnčugo crnčugom crnčugu
+94	6294	komercijalan	komercijalna komercijalne komercijalni komercijalnih komercijalnim komercijalnog komercijalnoj komercijalnom komercijalnu
+95	6295	središnji	središnja središnje središnjeg središnjem središnjih središnjim središnjoj središnju
+96	6296	zadugo	
+97	6297	prigoda	prigodama prigode prigodi prigodom prigodu
+98	6298	simpatija	simpatijama simpatije simpatijom simpatiju
+99	6299	otopiti	otope otopi otopila otopile otopili otopilo otopio otopiće otopiš otopljena otopljene otopljeni
+100	6300	umišljati	umišlja umišljaj umišljaju umišljam umišljao umišljate umišljaš

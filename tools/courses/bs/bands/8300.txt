@@ -1,0 +1,100 @@
+1	8201	gigantski	gigantska gigantske gigantskih gigantskim gigantskog gigantskom gigantsku
+2	8202	neovisan	neovisna neovisne neovisni neovisnih neovisnog neovisnom neovisnu
+3	8203	gumica	gumice gumicom gumicu
+4	8204	umišljen	umišljena umišljeni umišljeno umišljenog umišljenu
+5	8205	pogan	pogana pogane pogani poganim pogano poganog
+6	8206	ugostiti	ugosti ugostila ugostili ugostim ugostimo ugostio
+7	8207	prazniti	prazne prazni praznila praznili praznim praznimo praznio praznite prazniš pražnjenje
+8	8208	teg	tega tegova tegove tegovi tegovima teže
+9	8209	banuti	bane baneš bani banu banula banuli banuo
+10	8210	glazbenik	glazbenici glazbenicima glazbenika glazbenike
+11	8211	štetan	štetna štetne štetni štetnih štetnim
+12	8212	lip	
+13	8213	sedamdeset	
+14	8214	nelagodno	
+15	8215	rekreacija	rekreacije rekreaciji rekreaciju
+16	8216	zrakoplovstvo	zrakoplovstva zrakoplovstvu
+17	8217	reportaža	reportaže reportaži reportažu
+18	8218	bunda	bunde bundi bundu
+19	8219	petarda	petardama petarde petardi petardu
+20	8220	nepošten	nepoštena nepoštene nepošteni nepoštenim nepoštenu
+21	8221	prisloniti	prisloni prislonila prislonili prislonim prislonio prislonite prisloniš prislonjen
+22	8222	vidra	vidara vidrama vidre vidri vidru
+23	8223	diskriminacija	diskriminacije diskriminaciji diskriminaciju
+24	8224	gostionica	gostionice gostionici gostionicu
+25	8225	oteći	otekao otekla otekle otekli oteklo otekne oteknu otečena otečene otečeni otečeno
+26	8226	spoznaja	spoznaje spoznaji spoznajom spoznaju
+27	8227	sačiniti	sačine sačinio sačinjen sačinjena sačinjene sačinjeni sačinjeno
+28	8228	intimno	
+29	8229	pire	
+30	8230	obostrano	
+31	8231	tisa	tise tisi tisu
+32	8232	smaknuće	smaknuća smaknuću
+33	8233	samoubica	samoubice samoubicu
+34	8234	prekrivati	prekriva prekrivaju prekrivajući prekrivala prekrivanje prekrivao
+35	8235	vijak	vijaka vijci vijcima vijka vijke
+36	8236	podrijetlo	podrijetla podrijetlom podrijetlu
+37	8237	padobranac	padobranaca padobranca padobrance padobranci padobrancima
+38	8238	pomesti	pomela pomeli pomeo pomete pometem pometen pometena pometeni pometeno pometeš pometite pometu
+39	8239	naivčina	naivčine naivčino naivčinu
+40	8240	presvlačiti	presvlače presvlačenje presvlači presvlačim presvlačiš
+41	8241	cunami	cunamija cunamije cunamiji cunamiju
+42	8242	liberal	liberala liberale liberali liberalima
+43	8243	omotati	omota omotaj omotala omotali omotam omotan omotana omotane omotano omotao omotaš
+44	8244	velikodušnost	velikodušnosti velikodušnošću
+45	8245	niš	niša niše nišu
+46	8246	kriška	kriške kriški kriškom krišku
+47	8247	волети	воле волела волео воли волим волиш
+48	8248	irvas	irvasa irvase irvasi irvasima
+49	8249	testosteron	testosterona testosterone testosteronom
+50	8250	premotati	premotaj premotajte premotam premotamo premotao premotaš
+51	8251	osrednji	osrednja osrednje osrednjeg osrednjih osrednjim
+52	8252	nepravedan	nepravedna nepravedne nepravedni nepravednog nepravednom
+53	8253	kupaona	kupaone kupaoni kupaonu
+54	8254	tumačiti	tumače tumači tumačili tumačim tumačimo tumačite tumačiš
+55	8255	siliti	sile sili silila silili silim silio silite siliš
+56	8256	ježiti	ježi ježim
+57	8257	kran	krana krane kranom kranu
+58	8258	objektivan	objektivna objektivne objektivni objektivnog
+59	8259	delegacija	delegacije delegaciji delegacijom delegaciju
+60	8260	guliti	gule guli gulim gulio guliš guljenje
+61	8261	manjkati	manjka manjkalo
+62	8262	људи	људе људима
+63	8263	gamad	gamadi
+64	8264	bajan	bajna bajni bajno bajnu
+65	8265	portugalski	portugalska portugalske portugalskog portugalskom
+66	8266	kondicija	kondicije kondiciji kondiciju
+67	8267	pijandura	pijandure pijanduro pijanduru
+68	8268	pojačalo	pojačala
+69	8269	holokaust	holokausta holokaustom holokaustu
+70	8270	destinacija	destinacije destinaciji destinaciju
+71	8271	nevrijeme	nevreme nevremena nevremenu
+72	8272	ovan	ovna ovnom ovnove ovnovi ovnu
+73	8273	razoran	razorna razorne razorni razornim razorno razornog razornu
+74	8274	neprekidan	neprekidna neprekidne neprekidni neprekidnim neprekidnog neprekidnoj neprekidnom neprekidnu
+75	8275	odstupati	odstupa odstupaj odstupaju odstupam odstupamo odstupanje
+76	8276	sažaliti	sažali sažalila sažalim sažalio sažalite
+77	8277	utovariti	utovare utovaren utovarena utovareno utovari utovarili utovarim utovarimo utovario utovarite
+78	8278	bilježnica	bilježnicama bilježnice bilježnici bilježnicu
+79	8279	mig	miga migovi migu
+80	8280	impulsan	impulsna impulsne impulsni impulsnog impulsnom impulsnu
+81	8281	већ	
+82	8282	namirnica	
+83	8283	dernek	dernecima derneka derneku
+84	8284	fašistički	fašistička fašističke fašističkih fašističkim fašističko fašističkom fašističku
+85	8285	kolektivan	kolektivna kolektivne kolektivni kolektivnog kolektivnoj kolektivnom kolektivnu
+86	8286	palestinski	palestinska palestinske palestinskih palestinskim palestinsko palestinskog palestinskoj palestinsku
+87	8287	paradoks	paradoksa paradokse paradoksom paradoksu
+88	8288	češki	češka češke čeških češko češkog češkoj češkom češku
+89	8289	luster	lustera lustere lusteri lusterima lusteru
+90	8290	dil	
+91	8291	ту	
+92	8292	nazdravljati	nazdravlja nazdravljaju nazdravljali nazdravljam nazdravljamo
+93	8293	genom	genoma genome genomom genomu
+94	8294	bubuljica	bubuljicama bubuljice bubuljicu
+95	8295	kragna	kragne kragni kragnom kragnu
+96	8296	asistirati	asistira asistirala asistiram asistirao asistirate asistiraš
+97	8297	lađa	lađe lađi lađu
+98	8298	svetinja	svetinjama svetinje svetinju
+99	8299	autsajder	autsajdera autsajdere autsajderi autsajderima
+100	8300	križanje	križanja križanju

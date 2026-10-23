@@ -1,0 +1,100 @@
+1	2101	rast	rasta raste rastom rastu
+2	2102	garaža	garažama garaže garaži garažom garažu
+3	2103	kapija	kapijama kapije kapiji kapijom kapiju
+4	2104	lisa	
+5	2105	han	hana hane hanom hanu
+6	2106	razum	razuma razume razumom razumu
+7	2107	generacija	generacijama generacije generaciji generacijo generacijom generaciju
+8	2108	ljutiti	ljute ljuti ljutila ljutili ljutilo ljutim ljutimo ljutio ljutite ljutiću ljutiš
+9	2109	ljubavni	ljubavna ljubavne ljubavnih ljubavnim ljubavno ljubavnog ljubavnoj ljubavnom ljubavnu
+10	2110	zamjenik	zamenici zamenik zamenika zamenike zamenikom zameniku zameniče zamjenici zamjenicima zamjenika zamjenike zamjenikom zamjeniku zamjeniče
+11	2111	makar	
+12	2112	cista	ciste cisti cisto cistom cistu
+13	2113	prebiti	prebij prebije prebijem prebijemo prebijen prebijena prebijene prebijeni prebijeno prebijete prebiješ prebijmo prebijte prebiju prebila prebili prebio prebit prebite prebiće prebićemo prebiću
+14	2114	žica	žicama žice žici žicom žicu
+15	2115	pomaknuti	pomakao pomakla pomakli pomaklo pomakne pomaknem pomaknemo pomaknete pomakneš pomakni pomaknimo pomaknite pomaknu pomaknula pomaknuli pomaknulo pomaknuo pomaknut pomaknuta pomaknuto pomaći
+16	2116	nuklearni	nuklearna nuklearne nuklearnih nuklearnim nuklearno nuklearnog nuklearnoj nuklearnom nuklearnu
+17	2117	vod	vode vodom vodova vodove vodovi vodovima vodu
+18	2118	potpunost	potpunosti
+19	2119	unijeti	une unela uneli uneo unese unesem unesemo unesen unesena unesene uneseni uneseno unesete uneseš unesi unesimo unesite unesu uneti uneću unije unijela unijeli unio
+20	2120	ljekar	lekar lekara lekare lekari lekarima lekarom lekaru ljekara ljekare ljekari ljekarima ljekarom ljekaru
+21	2121	obaveza	obavezama obaveze obavezi obavezom obavezu
+22	2122	muzej	muzeja muzeje muzeji muzejima muzejom muzeju
+23	2123	in	ina ine ini ino inu
+24	2124	pandur	pandura pandure panduri pandurima pandurom panduru
+25	2125	raketa	raketama rakete raketi raketo raketom raketu
+26	2126	rukavica	rukavicama rukavice rukavici rukavicom rukavicu
+27	2127	seliti	sele seli selila selili selim selimo selio selite seliš seljenje
+28	2128	dosje	dosjea dosjee dosjei dosjeima dosjeom dosjeu
+29	2129	vremenski	vremenska vremenske vremenskih vremenskim vremensko vremenskog vremenskoj vremenskom vremensku
+30	2130	posuditi	posude posudi posudila posudili posudim posudimo posudio posudite posudiću posudiš posuđen posuđena posuđeni posuđeno
+31	2131	prijem	prijema prijeme prijemi prijemima prijemom prijemu
+32	2132	sahrana	sahranama sahrane sahrani sahranom sahranu
+33	2133	stručnjak	stručnjaci stručnjacima stručnjaka stručnjake stručnjakom stručnjaku
+34	2134	gubitnik	gubitnici gubitnicima gubitnika gubitnike gubitnikom gubitniku gubitniče
+35	2135	leti	
+36	2136	ulog	uloge ulogom ulogu ulozi ulozima ulože
+37	2137	smio	smjela smjele smjeli smjelo
+38	2138	obučen	obučena obučene obučeni obučenih obučenim obučeno obučenog obučenom obučenu
+39	2139	odmaknuti	odmakao odmakla odmakli odmakne odmaknem odmaknemo odmaknete odmakneš odmakni odmaknimo odmaknite odmaknu odmaknuli odmaknuo odmaknut odmaći
+40	2140	trenirati	trenira treniraj treniraju trenirala trenirale trenirali treniram treniramo treniran trenirana trenirane trenirani treniranje trenirao trenirate treniraću treniraš
+41	2141	oboriti	obore oboren oborena oborene oboreni oboreno obori oborila oborili oborilo oborim oborimo oborio oborite oboriće oborićemo oborićeš oboriću oboriš
+42	2142	reklama	reklamama reklame reklami reklamom reklamu
+43	2143	nauka	nauci naukama nauke naukom nauku
+44	2144	umjeti	ume umeju umela umeli umem umemo umeo umete umeti umeće umeću umeš umij umije umijem umijemo umijete umiješ umiju umjela umjeće
+45	2145	proslaviti	proslave proslavi proslavila proslavili proslavim proslavimo proslavio proslavite proslavićemo proslaviš proslavljen proslavljena proslavljeni
+46	2146	kino	kina kinima kinom kinu
+47	2147	liz	liza lizom lizu liže
+48	2148	tužilac	tužilaca tužioca tužioce tužiocem tužioci tužiocu tužioče
+49	2149	odvojiti	odvoje odvojena odvojene odvojeni odvoji odvojila odvojile odvojili odvojilo odvojim odvojimo odvojio odvojite odvojićemo odvojiću odvojiš
+50	2150	dodirnuti	dodirne dodirnem dodirnemo dodirnete dodirneš dodirni dodirnite dodirnu dodirnula dodirnule dodirnuli dodirnulo dodirnuo dodirnut dodirnuta
+51	2151	približiti	približe približi približila približile približili približilo približim približimo približio približite približiću približiš
+52	2152	mračan	mračna mračne mračni mračnih mračnija mračnije mračniji mračnim mračnog mračnoj mračnom mračnu najmračnija najmračnije najmračnijem najmračniji najmračnijih najmračnijim najmračniju
+53	2153	besplatan	besplatna besplatne besplatni besplatnih besplatnim besplatnog besplatnoj besplatnom besplatnu
+54	2154	svašta	svačega svačemu svačim
+55	2155	intervju	intervjua intervjue intervjui intervjuima intervjuom intervjuu
+56	2156	fantastično	
+57	2157	preuzimati	preuzima preuzimaju preuzimajući preuzimala preuzimam preuzimamo preuzimanja preuzimanje preuzimao preuzimate preuzimaš
+58	2158	silaziti	silaze silazeći silazi silazim silazimo silazite silaziš silaženje
+59	2159	uznemiravati	uznemirava uznemiravaj uznemiravajte uznemiravaju uznemiravajući uznemiravala uznemiravali uznemiravalo uznemiravam uznemiravamo uznemiravan uznemiravana uznemiravanje uznemiravao uznemiravate uznemiravaš
+60	2160	utorak	utoraka utorci utorka utorkom
+61	2161	umjetnik	umetnici umetnicima umetnik umetnika umetnike umetnikom umetniku umetniče umjetnici umjetnicima umjetnika umjetnike umjetnikom umjetniku
+62	2162	uvesti	uvede uvedem uvedemo uveden uvedena uvedene uvedeni uvedeno uvedete uvedeš uvedi uvedimo uvedite uvedu uvela uvele uveli uvelo uvezen uvezena uvezeni uvezeno uvezi uvezli uvešće uvešćemo uvešću
+63	2163	teret	tereta terete tereti teretom teretu
+64	2164	privući	privuci privucite privukao privukla privukle privukli privuklo privuku privuče privučem privučemo privučen privučena privučene privučeni privučete privučeš
+65	2165	osjetljiv	najosetljiviji najosjetljiviji osetljiv osetljiva osetljive osetljivi osetljivih osetljivija osetljivije osetljiviji osetljivim osetljivo osetljivog osetljivoj osetljivom osetljivu osjetljiva osjetljive osjetljivi osjetljivih osjetljivija osjetljiviji osjetljivim osjetljivo osjetljivog osjetljivoj osjetljivom osjetljivu
+66	2166	faza	fazama faze fazi fazom fazu
+67	2167	popis	popisa popise popisi popisima popisom popisu
+68	2168	svemirski	svemirska svemirske svemirskih svemirskim svemirsko svemirskog svemirskoj svemirskom svemirsku
+69	2169	identitet	identiteta identitete identiteti identitetima identitetom identitetu
+70	2170	glupan	glupana glupane glupani glupanima glupanom glupanu
+71	2171	kapa	kapama kape kapi kapo kapom kapu
+72	2172	obećanje	obećanja obećanjem obećanjima obećanju
+73	2173	ljepotica	lepotica lepoticama lepotice lepotici lepoticom lepoticu ljepoticama ljepotice ljepotici ljepoticom ljepoticu
+74	2174	molitva	molitvama molitve molitvi molitvom molitvu
+75	2175	osmijeh	osmeh osmeha osmehe osmehom osmehu osmesi osmesima osmijeha osmijehe osmijehom osmijehu
+76	2176	trening	treninga treninge treningom treningu treninzi treninzima
+77	2177	kupovina	kupovinama kupovine kupovini kupovinom kupovinu
+78	2178	počiniti	počine počini počinila počinile počinili počinilo počinim počinimo počinio počinite počiniš počinjen počinjena počinjene počinjeni počinjeno
+79	2179	iznutra	
+80	2180	teritorij	teritorija teritorije teritorijem teritoriji teritoriju
+81	2181	stoga	
+82	2182	osumnjičiti	osumnjičen osumnjičena osumnjičene osumnjičeni osumnjičili
+83	2183	brisati	brisala brisali brisanje brisao briše brišem brišemo brišete brišeš briši brišimo brišite brišu brišući
+84	2184	domaći	domaća domaće domaćeg domaćem domaćih domaćim domaćoj domaćom domaću
+85	2185	borac	boraca borca borce borcem borci borcima borcu borče
+86	2186	hram	hrama hramom hramova hramove hramovi hramovima hramu
+87	2187	brada	bradama brade bradi bradom bradu
+88	2188	postupak	postupaka postupci postupcima postupka postupke postupkom postupku
+89	2189	međuvrijeme	međuvremenu
+90	2190	period	perioda periode periodi periodima periodom periodu
+91	2191	nastup	nastupa nastupe nastupi nastupima nastupom nastupu
+92	2192	staklo	stakala stakla staklima staklom staklu
+93	2193	katastrofa	katastrofama katastrofe katastrofi katastrofom katastrofu
+94	2194	ugroziti	ugroze ugrozi ugrozila ugrozili ugrozilo ugrozim ugrozimo ugrozio ugrozite ugroziš ugrožen ugrožena ugrožene ugroženi ugroženo
+95	2195	šou	
+96	2196	uvo	uva uveta uvetom uvetu uvom uvu uši ušiju ušima
+97	2197	voljan	voljna voljne voljni voljnih voljno voljnog voljnu
+98	2198	komanda	komandama komande komandi komando komandom komandu
+99	2199	brojati	brojala brojali brojanja brojanje brojanjem brojanju brojao brojaćemo brojaću broje brojeći broji brojim brojimo brojite brojiš brojte
+100	2200	blagoslov	blagoslova blagoslove blagoslovi blagoslovima blagoslovom blagoslovu

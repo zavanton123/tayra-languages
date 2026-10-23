@@ -1,0 +1,100 @@
+1	9001	umetnuti	umete umetni umetnite umetnuo umetnut umetnuta
+2	9002	anestetik	anestetika
+3	9003	divljač	divljači
+4	9004	elektromagnetski	elektromagnetska elektromagnetske elektromagnetskih elektromagnetskim elektromagnetsko elektromagnetskog elektromagnetskom elektromagnetsku
+5	9005	maločas	
+6	9006	podučavati	
+7	9007	polagano	
+8	9008	terenac	
+9	9009	ovisno	
+10	9010	зато	
+11	9011	neprimjereno	neprimereno
+12	9012	pradjed	pradede pradedu pradjeda
+13	9013	eliminacija	eliminacije eliminaciji eliminacijom eliminaciju
+14	9014	balavac	balavca balavce balavci balavče
+15	9015	piton	pitona pitone pitoni
+16	9016	mahala	mahali mahalo mahalu
+17	9017	bušotina	bušotinama bušotine bušotini bušotinu
+18	9018	limen	limena limene limeni limenim limenog limenoj limenom limenu
+19	9019	budist	budista budiste budisti budistima
+20	9020	nezaštićen	nezaštićena nezaštićene nezaštićeni nezaštićeno nezaštićenog nezaštićenu
+21	9021	najuriti	najure najuren najuri najurili najurim najurio
+22	9022	zapažati	zapaža zapažam zapažanje zapažate zapažaš
+23	9023	nepovjerenje	nepoverenja nepoverenje nepovjerenja nepovjerenju
+24	9024	krak	kraci kraka krake krakova krakove krakovi kraku
+25	9025	polarni	
+26	9026	lima	
+27	9027	tam	
+28	9028	odbojka	odbojci odbojke odbojku
+29	9029	ljudina	ljudino
+30	9030	skrbnik	skrbnici skrbnicima skrbnika
+31	9031	vještac	vešca vešci veštac vješci
+32	9032	tuđinac	tuđinaca tuđinca tuđinci tuđincima
+33	9033	šimpanza	šimpanzama šimpanze šimpanzi šimpanzu
+34	9034	konvencionalan	konvencionalna konvencionalne konvencionalni konvencionalnih konvencionalnim konvencionalnom
+35	9035	uzdržati	uzdržan uzdržana uzdržani uzdrži uzdržim uzdržite uzdržiš
+36	9036	obostran	obostrana obostrane obostrani obostranog obostranom obostranu
+37	9037	stupati	stupaj stupaju stupam stupamo stupanje stupate stupaš
+38	9038	gnusan	gnjusan gnusna gnusne gnusni gnusnih gnusnima gnusnog
+39	9039	adresar	adresara adresaru
+40	9040	nezadovoljstvo	nezadovoljstva nezadovoljstvu
+41	9041	atentator	atentatora atentatori atentatoru
+42	9042	trojanski	trojanska trojanske trojanskog trojanskom
+43	9043	enciklopedija	enciklopedije enciklopediji enciklopediju
+44	9044	kolonist	kolonista koloniste kolonisti kolonistima
+45	9045	voćnjak	voćnjaci voćnjaka voćnjake voćnjaku
+46	9046	riđ	riđa riđe riđeg riđi riđu
+47	9047	izmamiti	izmame izmami izmamila izmamim izmamimo izmamio
+48	9048	ubrizgavati	ubrizgava ubrizgavaju ubrizgavala ubrizgavam ubrizgavanje ubrizgavao ubrizgavaš
+49	9049	neuk	neuka neuke neuki neukih neuko neukog
+50	9050	oploditi	oplode oplodi oplodila oplodio oplođena oplođeno
+51	9051	dresirati	dresira dresiraju dresirala dresiram dresiran dresirana dresirane dresirani dresirao
+52	9052	harfa	harfe harfi harfu
+53	9053	жена	жене жени женом жену
+54	9054	usidriti	usidren usidrena usidreni usidrili usidrimo usidrio
+55	9055	dužnosnik	dužnosnici dužnosnicima dužnosnika dužnosnike
+56	9056	kućanica	kućanice kućanicu
+57	9057	zajedništvo	zajedništva zajedništvu
+58	9058	nasip	nasipa nasipe nasipom nasipu
+59	9059	izroditi	izrode izrodi izrodila izrodili izrodilo izrodio
+60	9060	šaptati	šaptali šaptanje šaptao šapće šapćemo šapćete šapćeš šapći šapću
+61	9061	šuškati	šuška šuškalo šuškanje
+62	9062	udruživati	udruživanje udružuje udružuju udružujući
+63	9063	čmar	čmara čmarovi čmaru
+64	9064	macan	macana macane macani macanom
+65	9065	križaljka	križaljke križaljki križaljku
+66	9066	zečji	zečja zečje zečju
+67	9067	skupocjen	skupocen skupocena skupocene skupoceni skupoceno skupocjena skupocjene skupocjeni skupocjeno
+68	9068	kljova	kljovama kljove
+69	9069	sestrić	sestrića sestrićem sestriću
+70	9070	sljepilo	slepila slepilo sljepila
+71	9071	bezbrižan	bezbrižna bezbrižne bezbrižni bezbrižnu
+72	9072	suvremen	suvremena suvremene suvremeni suvremenim suvremeno suvremenog suvremenom
+73	9073	sudionik	sudionici sudionicima sudionika sudionike
+74	9074	наравно	
+75	9075	увек	
+76	9076	badnjak	
+77	9077	fijasko	fijaska
+78	9078	patricij	patricija patricije patriciji patriciju
+79	9079	neobavezan	neobavezna neobavezni neobaveznim neobavezno
+80	9080	nadglednik	nadglednika nadglednikom nadgledniče
+81	9081	šalter	šaltera šalteru
+82	9082	segment	segmenata segmenta segmente segmenti segmentima segmentu
+83	9083	spokojan	spokojna spokojni spokojnim
+84	9084	maketa	maketama makete maketi maketu
+85	9085	bezobziran	bezobzirna bezobzirni bezobzirnih bezobzirnim bezobzirnog
+86	9086	kompozicija	kompozicije kompoziciji kompoziciju
+87	9087	prenosiv	prenosiva prenosive prenosivi prenosivih prenosivo prenosivu
+88	9088	umjeren	umeren umerena umerene umereni umerenim umjerena umjerene umjereni
+89	9089	kopito	kopita kopitima kopitom
+90	9090	visoravan	visoravni visoravnima
+91	9091	vrba	vrbama vrbe vrbi vrbo vrbu
+92	9092	brežuljak	brežuljaka brežuljcima brežuljka brežuljku
+93	9093	napomena	napomenama napomene napomeni napomenom napomenu
+94	9094	prerija	prerijama prerije preriji preriju
+95	9095	akvarijum	
+96	9096	nena	
+97	9097	duplikat	duplikata duplikate duplikati
+98	9098	vandalizam	vandalizma
+99	9099	operator	operatora operatori operatoru
+100	9100	okrilje	okriljem

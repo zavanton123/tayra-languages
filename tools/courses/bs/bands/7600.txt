@@ -1,0 +1,100 @@
+1	7501	silovatelj	
+2	7502	dijabetes	dijabetesa dijabetesom
+3	7503	pljusak	pljuska pljuske pljuskova pljuskove pljuskovi pljusku
+4	7504	sesija	sesijama sesije sesiji sesiju
+5	7505	kandidirati	kandidira kandidirala kandidiram kandidirao kandidiraš
+6	7506	nespreman	nespremna nespremne nespremni nespremnog nespremnu
+7	7507	obrazovati	obrazovala obrazovali obrazovao obrazuj obrazuje obrazujem obrazujemo obrazuješ obrazujte obrazuju
+8	7508	opterećivati	opterećuj opterećuje opterećujem opterećujemo opterećujete opterećuješ opterećuju
+9	7509	nesanica	nesanice nesanicom nesanicu
+10	7510	dimiti	dime dimi dimilo dimiš dimljena dimljene dimljeni dimljeno
+11	7511	mušica	mušicama mušice mušicu
+12	7512	blagoslovljen	
+13	7513	duhovno	
+14	7514	dž	
+15	7515	šolja	
+16	7516	ispirati	ispirali ispiranje ispire ispiru
+17	7517	marica	marice marici maricu
+18	7518	zdravstvo	zdravstva zdravstvom zdravstvu
+19	7519	maternica	maternice maternici maternicu
+20	7520	psihotičan	psihotična psihotične psihotični psihotičnih psihotičnim psihotično psihotičnog psihotičnu
+21	7521	čep	čepa čepom čepova čepove čepovi čepu
+22	7522	blagajnik	blagajnici blagajnika blagajnike blagajniku
+23	7523	podoficir	podoficira podoficire podoficiri podoficiru
+24	7524	potrošnja	potrošnje potrošnji potrošnjom potrošnju
+25	7525	šaren	šarena šarene šareni šarenih šarenim šareno šarenog šarenom šarenu
+26	7526	sablja	sabljama sablje sablji sabljo sabljom sablju
+27	7527	navod	navoda navode navodi navodima
+28	7528	razmjenjivati	razmenjivali razmenjivanje razmenjujem razmenjujemo razmenjuju razmjenjivali razmjenjuje razmjenjujemo razmjenjuju
+29	7529	guba	
+30	7530	amo	
+31	7531	prekidati	
+32	7532	džoint	džointa džointe
+33	7533	obruč	obruča obruče obruču
+34	7534	prolazak	prolaska prolaskom prolasku
+35	7535	liberalan	liberalna liberalne liberalni liberalnih liberalnim liberalno liberalnog liberalnom liberalnu
+36	7536	jevanđelje	evanđelja evanđelje evanđelju jevanđelja jevanđeljima jevanđelju
+37	7537	tajnik	tajnici tajnika tajnikom tajniku tajniče
+38	7538	zvon	zvona zvone zvonom zvonu
+39	7539	infracrven	infracrvena infracrvene infracrveni infracrvenih infracrvenim infracrveno infracrvenom infracrvenu
+40	7540	poljoprivreda	poljoprivrede poljoprivredi poljoprivredom poljoprivredu
+41	7541	senzacija	senzacije senzacijom senzaciju
+42	7542	jegulja	jeguljama jegulje jegulju
+43	7543	rotacija	rotacije rotaciji rotacijom rotaciju
+44	7544	banja	banje banji banjo banju
+45	7545	siromah	siromaha siromahe siromahu siromasi siromasima
+46	7546	znojav	znojava znojave znojavi znojavih znojavim znojavo znojavog znojavu
+47	7547	sukobiti	sukobe sukobi sukobila sukobile sukobili sukobimo sukobio sukobljene
+48	7548	pripremljen	
+49	7549	omogućivati	omogućuje omogućuju omogućujući
+50	7550	odgoj	odgoja odgoju
+51	7551	pubertet	puberteta pubertetu
+52	7552	dozvati	dozove dozovem dozoveš dozovi dozva dozvala dozvali dozvao
+53	7553	lizalica	lizalice lizalicu
+54	7554	tečan	tečna tečne tečni tečnim tečnog tečnom tečnu
+55	7555	obilan	obilna obilne obilnim obilno obilnog obilnom obilnu
+56	7556	inflacija	inflacije inflaciji inflacijom inflaciju
+57	7557	izvođač	izvođača
+58	7558	odlikovati	odlikovali odlikovan odlikovana odlikovani odlikovao odlikuje odlikujem odlikuju
+59	7559	porađati	porađa porađaju porađala porađam porađanje porađaš
+60	7560	ulični	
+61	7561	fitilj	fitilja fitilje fitiljem fitilji
+62	7562	tajmer	tajmera tajmere tajmerom tajmeru
+63	7563	sanke	sankama sanki
+64	7564	hobotnica	hobotnice hobotnici hobotnicom hobotnicu
+65	7565	svota	svote svotu
+66	7566	ljudstvo	ljudstva ljudstvom ljudstvu
+67	7567	odjuriti	odjuri odjurila odjurili odjurim odjurio odjuriš
+68	7568	matrica	matrice matrici matricu
+69	7569	genetika	genetici genetike genetikom genetiku
+70	7570	čarobnica	čarobnice čarobnici čarobnicu
+71	7571	stezati	stezala stezanje steže stežem stežeš steži stežu
+72	7572	mesti	mele meli mete metem meti metu
+73	7573	pastuv	pastusi pastuva pastuve pastuvi pastuvu
+74	7574	dahtati	dahtanje dahćući
+75	7575	obilje	obilja obiljem obilju
+76	7576	vijetnamski	vijetnamska vijetnamske vijetnamskih vijetnamskim vijetnamskog vijetnamskoj vijetnamskom vijetnamsku
+77	7577	podvrgnuti	podvrgao podvrgla podvrgli podvrgne podvrgnem podvrgnete podvrgnut podvrgnuta podvrgnute
+78	7578	bijednik	bednici bednik bednika bedniku bedniče bijednici bijednika bijedniče
+79	7579	nasred	
+80	7580	krvavo	
+81	7581	atrakcija	atrakcijama atrakcije atrakciju
+82	7582	zrcalo	zrcala zrcalima zrcalom zrcalu
+83	7583	huligan	huligana huligane huligani huliganima
+84	7584	malina	malinama maline malini malinu
+85	7585	odredba	odredbama odredbe odredbi odredbom odredbu
+86	7586	podvala	podvale podvali podvalom podvalu
+87	7587	skrb	skrbi
+88	7588	ometati	
+89	7589	sedamnaest	
+90	7590	opatica	opaticama opatice opaticu
+91	7591	pokoj	pokoja pokoje pokoji pokoju
+92	7592	sticati	sticanje sticao stiče stičem stičemo stičete stičeš stiču
+93	7593	nadoknada	nadoknade nadoknadi nadoknadu
+94	7594	zanemarivati	zanemarivanje zanemarivao zanemaruje zanemarujem zanemarujemo zanemarujete zanemaruješ zanemaruju zanemarujući
+95	7595	spektakularno	
+96	7596	poligraf	poligrafa poligrafom poligrafu
+97	7597	sifilis	sifilisa sifilisom sifilisu
+98	7598	božanstvo	božanstava božanstva božanstvima božanstvom božanstvu
+99	7599	nevjeran	neveran neverna neverne neverni nevjerna nevjerne nevjerni
+100	7600	rastopiti	rastope rastopi rastopila rastopili rastopilo rastopio rastopljena rastopljene rastopljeni rastopljeno

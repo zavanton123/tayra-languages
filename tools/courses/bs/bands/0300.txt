@@ -1,0 +1,100 @@
+1	201	držati	držala držale držali držalo držan držana držane držani držanje držano držao držaće držaćemo držaćete držaćeš držaću drže držeći drži držim držimo držite držiš
+2	202	neka	
+3	203	noć	noći noćima noću
+4	204	upravo	
+5	205	duša	dušama duše duši dušica dušice dušicom dušicu dušo dušom dušu
+6	206	prestati	prestala prestale prestali prestalo prestane prestanem prestanemo prestanete prestaneš prestani prestanimo prestanite prestanu prestao prestaće prestaćemo prestaćete prestaćeš prestaću
+7	207	početi	poče počeh počela počele počeli počelo počeo počet počevši počeće počećemo počećete počećeš počeću počeše počne počnem počnemo počnete počneš počni počnimo počnite počnu
+8	208	par	para parama pare pari paro parom parova parove parovi parovima paru
+9	209	spreman	spremna spremne spremni spremnih spremnija spremniji spremnim spremno spremnog spremnom spremnu
+10	210	jedini	jedina jedine jedinih jedinim jedino jedinog jedinoga jedinoj jedinom jedinu
+11	211	toliko	
+12	212	pitanje	pitanja pitanjem pitanjima pitanju
+13	213	sretan	najsretnija najsretnije najsretniji najsretnijim najsrećnija najsrećnije najsrećniji najsrećnijim sretna sretne sretni sretnih sretnija sretnije sretniji sretnijim sretnim sretnima sretno sretnog sretnoj sretnom sretnu srećan srećna srećne srećni srećnih srećnija srećnije srećniji srećnijim srećnim srećnima srećno srećnog srećnoj srećnom srećnu
+14	214	oprostiti	oproste oprosti oprostila oprostili oprostim oprostimo oprostio oprostite oprostiće oprostićete oprostićeš oprostiću oprostiš oproštena oprošteni oprošteno
+15	215	desiti	dese desi desila desile desili desilo desio desiće
+16	216	jebati	jeba jebala jebale jebali jebalo jeban jebana jebane jebani jebanje jebano jebao jebaće jebaćemo jebaću jebe jebem jebemo jebena jebene jebeni jebete jebeš jebi jebite jebu
+17	217	dio	dela dele delom delova delove delovi delovima delu deo dijela dijelom dijelova dijelove dijelovi dijelovima dijelu
+18	218	kraj	kraja krajem krajeva krajeve krajevi krajevima kraju
+19	219	osjećati	oseća osećajte osećaju osećajući osećala osećale osećali osećalo osećam osećamo osećanje osećao osećate osećati osećaće osećaćete osećaćeš osećaću osećaš osjeća osjećajte osjećaju osjećajući osjećala osjećale osjećali osjećalo osjećam osjećamo osjećanje osjećao osjećate osjećaćeš osjećaću osjećaš
+20	220	grad	grada grade gradi gradom gradova gradove gradovi gradovima gradu
+21	221	lijepo	lepo
+22	222	soba	sobama sobe sobi sobo sobu
+23	223	zaboraviti	zaborave zaboravi zaboravih zaboravila zaboravile zaboravili zaboravilo zaboravim zaboravimo zaboravio zaboravite zaboraviće zaboravićemo zaboravićete zaboravićeš zaboraviću zaboraviš zaboravljen zaboravljena zaboravljene zaboravljeni zaboravljeno
+24	224	zemlja	zemalja zemljama zemlje zemlji zemljo zemljom zemlju
+25	225	opet	
+26	226	dogoditi	dogode dogodi dogodila dogodile dogodili dogodilo dogodio dogodiće
+27	227	takav	takva takve takvi takvih takvim takvima takvo takvog takvoga takvoj takvom takvome takvu
+28	228	god	goda
+29	229	izgubiti	izgube izgubi izgubih izgubila izgubile izgubili izgubilo izgubim izgubimo izgubio izgubismo izgubite izgubivši izgubiće izgubićemo izgubićete izgubićeš izgubiću izgubiš
+30	230	brat	brata brate bratić bratića bratići bratiću bratom bratska bratske bratski bratsko bratskog bratskoj bratsku bratu
+31	231	jako	jače
+32	232	čak	
+33	233	glava	glavama glave glavi glavo glavom glavu
+34	234	istina	istinama istine istini istinom istinu
+35	235	završiti	završe završi završih završila završile završili završilo završim završimo završio završite završivši završiće završićemo završićete završićeš završiću završiš
+36	236	tip	tipa tipom tipova tipove tipovi tipovima tipu
+37	237	auto	auta aute auti autima autom autu
+38	238	sigurno	
+39	239	poslati	posla poslala poslale poslali poslalo poslan poslana poslane poslani poslano poslao poslavši poslaće poslaćemo poslaćete poslaćeš poslaću poslaše pošalje pošaljem pošaljemo pošaljete pošalješ pošalji pošaljimo pošaljite pošalju
+40	240	strana	stranama strane strani strano stranom stranu
+41	241	spavati	spava spavaj spavajmo spavajte spavaju spavajući spavala spavale spavali spavam spavamo spavanja spavanje spavanjem spavanju spavao spavate spavaće spavaćemo spavaćete spavaćeš spavaću spavaš
+42	242	mjesec	mesec meseca mesece meseci mesecima mesecom mesecu meseče mjeseca mjesece mjeseci mjesecima mjesecom mjesecu mjeseče
+43	243	jesti	jede jedem jedemo jedenje jedete jedeš jedi jedimo jedite jedu jedući jela jele jeli jelima jelo jelom jelu jeo ješće ješćemo ješćete ješćeš ješću
+44	244	živjeti	žive živela živele živelo živeo živeti živeće živećemo živećete živećeš živeći živeću živi živim živimo živio živite živiš živjela živjele živjelo živjeće živjećemo živjećeš živjeću življenje
+45	245	upoznati	upozna upoznah upoznaj upoznajmo upoznajte upoznaju upoznala upoznale upoznali upoznalo upoznam upoznamo upoznao upoznat upoznata upoznate upoznavši upoznaće upoznaćemo upoznaćete upoznaćeš upoznaću upoznaš
+46	246	krenuti	krene krenem krenemo krenete kreneš kreni krenimo krenite krenu krenuh krenula krenule krenuli krenulo krenuo krenuvši krenuće krenućemo krenućete krenućeš krenuću krenuše
+47	247	nadati	nadaj nadajmo nadajte nadaju nadajući nadala nadale nadali nadam nadamo nadanje nadao nadate nadaš
+48	248	staviti	stave stavi stavila stavile stavili stavilo stavim stavimo stavio stavite staviće stavićemo stavićete stavićeš staviću staviš staviše stavljen stavljena stavljene stavljeni stavljeno
+49	249	lijep	lep lepa lepe lepi lepih lepim lepog lepoj lepom lepu lepša lepše lepšeg lepši lepšu lijepa lijepe lijepi lijepih lijepim lijepog lijepoj lijepom lijepu ljepša ljepše ljepši ljepšu najlepša najlepše najlepši najlepših najlepšu najljepša najljepše najljepši najljepših najljepšom najljepšu
+50	250	njihov	njihova njihove njihovi njihovih njihovim njihovo njihovog njihovoga njihovoj njihovom njihovu
+51	251	priča	pričama priče priči pričom priču
+52	252	dovoljno	
+53	253	pronaći	pronađe pronađem pronađemo pronađen pronađena pronađene pronađeni pronađeno pronađete pronađeš pronađi pronađimo pronađite pronađoh pronađu pronašao pronašavši pronašla pronašle pronašli pronašlo
+54	254	veoma	
+55	255	ovamo	
+56	256	slučaj	slučaja slučaje slučajem slučajeva slučajeve slučajevi slučajevima slučaju
+57	257	način	načina načine načini načinima načinom načinu
+58	258	ući	uđe uđem uđemo uđete uđeš uđi uđimo uđite uđoše uđu ušao ušavši ušla ušle ušli ušlo
+59	259	uspjeti	uspe uspeh uspeha uspehom uspehu uspeju uspela uspele uspeli uspelo uspem uspemo uspeo uspete uspeti uspeće uspećemo uspećeš uspeću uspeš uspije uspijem uspijemo uspijete uspiješ uspiju uspio uspjeh uspjeha uspjehe uspjehom uspjehu uspjela uspjele uspjeli uspjelo uspjeće uspjećemo uspjećeš
+60	260	vrata	vratima
+61	261	živ	živa žive živi živih živim živima življa življe življi živo živog živoga živoj živom živome živu
+62	262	prema	
+63	263	isti	ista iste istih istim istog istoga istoj istom istome istu
+64	264	dijete	dete deteta detetom detetu diete djeteta djetetom djetetu
+65	265	minuta	mine mini minu minutama minute minuti minutom minutu
+66	266	sutra	sutre sutru
+67	267	voda	vodama vode vodena vodene vodeni vodenih vodenim vodeno vodenog vodenoj vodenom vodenu vodi vodo vodom vodu
+68	268	vrlo	
+69	269	nakon	
+70	270	zajedno	
+71	271	postati	posta postade postadoh postala postale postali postalo postane postanem postanemo postanete postaneš postani postanimo postanite postanu postao postavši postaće postaćemo postaćete postaćeš postaću postaše
+72	272	ponovo	ponovno
+73	273	pod	poda pode podom podova podove podovi podovima podu
+74	274	nositi	nose noseći nosi nosila nosile nosili nosilima nosilo nosim nosimo nosio nosite nosiće nosićemo nosićete nosićeš nosiću nosiš nošen nošena nošene nošeni nošenje
+75	275	pokušati	pokuša pokušajmo pokušajte pokušaju pokušala pokušale pokušali pokušalo pokušam pokušamo pokušao pokušate pokušaće pokušaćemo pokušaćete pokušaćeš pokušaću pokušaš
+76	276	donijeti	done donela donele doneli donelo doneo donesao donese donesem donesemo donesen donesena donesene doneseni doneseno donesete doneseš donesi donesimo donesite donesla donesti donesu doneti doneće donećemo donećete donećeš doneću donijela donijele donijeli donijelo donijeće donijećemo donijeću donio
+77	277	koristiti	koriste koristeći koristi koristila koristile koristili koristilo koristim koristimo koristio koristite koristiće koristićemo koristićeš koristiću koristiš korišten korištena korištene korišteni korištenja korištenje korištenjem korištenju korišteno
+78	278	dosta	
+79	279	činiti	čine čineći čini činila činile činili činilo činim činimo činio činite činiće činiš činjenje
+80	280	zao	gora gorama goreg gorega gorem gori gorih gorim gorima goro goroj gorom goru najgora najgore najgoreg najgorega najgorem najgori najgorih najgorim najgoroj najgorom najgoru zal zala zla zle zli zlih zlim zlo zlog zloga zloj zlom zlu
+81	281	stignuti	stigao stigavši stigla stigle stigli stiglo stigne stignem stignemo stignete stigneš stigni stignite stignu stigoh stigosmo stigoše stići stiže
+82	282	odavde	
+83	283	policija	policije policiji policijo policijom policiju
+84	284	ma	ма
+85	285	kroz	
+86	286	sviđati	sviđa sviđaju sviđala sviđale sviđali sviđalo sviđam sviđamo sviđanje sviđao sviđate sviđaš
+87	287	izaći	izađe izađem izađemo izađete izađeš izađi izađimo izađite izađu izašao izašla izašle izašli izašlo
+88	288	poslije	posle
+89	289	voditi	vode vodeća vodeće vodećeg vodećem vodeći vodećih vodećim vodeću vodi vodila vodile vodili vodilo vodim vodimo vodio vodite vodiće vodićemo vodićeš vodiću vodiš vođen vođena vođene vođeni vođenje vođeno
+90	290	lud	luda lude ludi ludih ludim ludima ludo ludog ludoga ludoj ludom ludu luđa luđe luđi luđim najluđa najluđe najluđi najluđih najluđim najluđu
+91	291	broj	broja brojem brojeva brojeve brojevi brojevima broju
+92	292	nekoliko	
+93	293	vjerovatno	verojatno verovatno vjerojatno
+94	294	pokazati	pokaza pokazala pokazale pokazali pokazalo pokazan pokazana pokazane pokazani pokazano pokazao pokazavši pokazaće pokazaćemo pokazaćete pokazaćeš pokazaću pokazaše pokaže pokažem pokažemo pokažete pokažeš pokaži pokažimo pokažite pokažu
+95	295	pozvati	pozove pozovem pozovemo pozovete pozoveš pozovi pozovimo pozovite pozovu pozva pozvala pozvale pozvali pozvalo pozvan pozvana pozvane pozvani pozvano pozvao pozvaće pozvaćemo pozvaćete pozvaćeš pozvaću
+96	296	brzo	
+97	297	igrati	igraj igrajmo igrajte igraju igrajući igrala igrale igrali igralo igram igramo igranje igrao igrate igraće igraćemo igraćete igraćeš igraću igraš igraše
+98	298	srce	srca srcem srcima srcu srdaca
+99	299	zaista	
+100	300	potreban	najpotrebnija najpotrebnije najpotrebniji potrebna potrebne potrebni potrebnih potrebnija potrebnije potrebniji potrebnim potrebno potrebnog potrebnom potrebnu

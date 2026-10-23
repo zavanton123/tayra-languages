@@ -1,0 +1,100 @@
+1	4201	dobrota	dobrote dobroti dobrotom dobrotu
+2	4202	trojka	trojci trojkama trojke trojki trojko trojkom trojku
+3	4203	rezervisati	rezervisala rezervisali rezervisao rezerviše rezervišem rezervišemo rezervišete rezervišeš rezerviši rezervišite
+4	4204	kemijski	kemijska kemijske kemijskih kemijskim kemijsko kemijskog kemijskoj kemijskom kemijsku
+5	4205	besmisleno	
+6	4206	sindrom	sindroma sindromom sindromu
+7	4207	bojnik	bojnici bojnika bojnikom bojniku bojniče
+8	4208	putanja	putanjama putanje putanji putanjom putanju
+9	4209	dodavati	dodaj dodaje dodajem dodajemo dodajete dodaješ dodajmo dodajte dodaju dodajući dodavala dodavali dodavao
+10	4210	računar	računara računare računari računarima računarom računaru
+11	4211	seta	sete seti seto setom setu
+12	4212	žeti	žanje žanjemo žanješ žanju želi želo žeo
+13	4213	tužitelj	tužitelja tužitelje tužiteljem tužitelji tužiteljima tužitelju
+14	4214	pretrpjeti	pretrpe pretrpela pretrpele pretrpeli pretrpeo pretrpeti pretrpi pretrpio pretrpjela pretrpjele pretrpjeli pretrpjelo
+15	4215	dostojanstvo	dostojanstva dostojanstvom dostojanstvu
+16	4216	prezirati	prezirala prezirali preziranje prezirao prezire prezirem preziremo prezirete prezireš preziru
+17	4217	ambicija	ambicijama ambicije ambiciji ambicijom ambiciju
+18	4218	rodbina	rodbine rodbini rodbino rodbinom rodbinu
+19	4219	carski	carska carske carskih carskim carsko carskog carskoj carskom carsku
+20	4220	monitor	monitora monitore monitori monitorima monitorom monitoru
+21	4221	platac	placa place placem placi placu plače
+22	4222	naselje	naselja naseljima naselju
+23	4223	palača	palačama palače palači palaču
+24	4224	namijeniti	namene namenila namenili namenio namenjen namenjena namenjene namenjeni namenjeno namijenila namijenio namijenjen namijenjena namijenjene namijenjeni namijenjeno
+25	4225	ukupno	
+26	4226	iskrenost	iskrenosti iskrenošću
+27	4227	zadnjica	zadnjicama zadnjice zadnjici zadnjicom zadnjicu
+28	4228	iskusiti	iskuse iskusi iskusila iskusili iskusim iskusimo iskusio iskusite iskusiš
+29	4229	trofej	trofeja trofeje trofeji trofejima trofeju
+30	4230	tradicionalan	tradicionalna tradicionalne tradicionalni tradicionalnih tradicionalnije tradicionalnim tradicionalnog tradicionalnoj tradicionalnom tradicionalnu
+31	4231	investicija	investicijama investicije investiciji investicijom investiciju
+32	4232	ljutnja	ljutnje ljutnji ljutnjom ljutnju
+33	4233	dojava	dojave dojavi dojavom dojavu
+34	4234	ispratiti	isprate ispratim ispratimo ispratite ispratiću ispratiš
+35	4235	ozlijeđen	ozleđen ozlijeđena ozlijeđene ozlijeđeni ozlijeđenih ozlijeđeno ozlijeđenog
+36	4236	pribor	pribora priborom priboru
+37	4237	oružan	oružana oružane oružani oružanih oružanim oružano oružanog oružanoj oružanom oružanu
+38	4238	oklijevati	okleva oklevaj oklevajte oklevala oklevali oklevam oklevanje oklevao oklevate oklevati oklevaš oklijeva oklijevaj oklijevajte oklijevaju oklijevala oklijevali oklijevam oklijevanje oklijevao oklijevate oklijevaš
+39	4239	tlak	tlaka tlakom tlaku tlače
+40	4240	šarm	šarma šarmom šarmu
+41	4241	garancija	garancijama garancije garanciji garancijom garanciju
+42	4242	zamjeriti	zameri zamerila zamerili zamerim zamerio zamerite zameriti zameriš zamjere zamjeri zamjerila zamjerili zamjerim zamjerio zamjerite zamjeriš
+43	4243	grudnjak	grudnjaci grudnjacima grudnjaka grudnjake grudnjakom grudnjaku
+44	4244	motati	mota motaj motaju motala motale motali motalo motam motamo motanje motao motate motaš
+45	4245	večerašnji	večerašnja večerašnje večerašnjeg večerašnjem večerašnjih večerašnjim večerašnjoj večerašnju
+46	4246	žudjeti	žude žudela žudeo žudeti žudeći žudi žudim žudimo žudio žudite žudiš žudjela žudjeli
+47	4247	šalica	šalicama šalice šalici šalicom šalicu
+48	4248	mast	masti mastima mašću
+49	4249	potpredsjednik	potpredsednik potpredsednika potpredsednikom potpredsedniku potpredsedniče potpredsjednika potpredsjednikom potpredsjedniku potpredsjedniče
+50	4250	nadzornik	nadzornici nadzornicima nadzornika nadzornike nadzornikom nadzorniku nadzorniče
+51	4251	dijagnoza	dijagnoze dijagnozi dijagnozom dijagnozu
+52	4252	radionica	radionicama radionice radionici radionicom radionicu
+53	4253	pust	pusta puste pusti pustih pustim pusto pustog pustoj pustom pustu
+54	4254	smanjivati	smanjivala smanjivanje smanjivao smanjuje smanjujem smanjujemo smanjuješ smanjuju smanjujući
+55	4255	odora	odorama odore odori odorom odoru
+56	4256	ugovoriti	ugovore ugovoren ugovorena ugovorene ugovoreni ugovoreno ugovori ugovorila ugovorili ugovorim ugovorimo ugovorio ugovorite ugovoriću ugovoriš
+57	4257	faktor	faktora faktore faktori faktorima faktorom faktoru
+58	4258	kresnuti	kresne kresnem kresnemo kresnete kresneš kresni kresnu kresnula kresnuli kresnuo kresnuću
+59	4259	sako	sakoa sakoe sakoi sakoom sakou
+60	4260	odsustvo	odsustva odsustvom odsustvu
+61	4261	očev	očeva očeve očevi očevih očevim očevima očevo očevoj očevom očevu
+62	4262	prevrnuti	prevrne prevrnem prevrnemo prevrnete prevrneš prevrni prevrnite prevrnu prevrnula prevrnuli prevrnulo prevrnuo prevrnut prevrnuta prevrnute prevrnuće prevrnućemo
+63	4263	grubo	
+64	4264	kaos	kaosa kaosom kaosu
+65	4265	atomski	atomska atomske atomskih atomskim atomsko atomskog atomskoj atomskom atomsku
+66	4266	vrućina	vrućine vrućini vrućinom vrućinu
+67	4267	decenija	decenijama decenije deceniji deceniju
+68	4268	otmičar	otmičara otmičare otmičari otmičarima otmičaru
+69	4269	šupčina	šupčine šupčino
+70	4270	kompleks	kompleksa komplekse kompleksi kompleksima kompleksom kompleksu
+71	4271	brbljati	brblja brbljaj brbljaju brbljajući brbljala brbljali brbljam brbljamo brbljanje brbljao brbljate brbljaš
+72	4272	trgovački	trgovačka trgovačke trgovačkih trgovačkim trgovačko trgovačkog trgovačkoj trgovačkom trgovačku
+73	4273	parče	
+74	4274	dužina	dužinama dužine dužini dužinom dužinu
+75	4275	jime	
+76	4276	ekspert	eksperata eksperta eksperte eksperti ekspertima ekspertom ekspertu
+77	4277	inspiracija	inspiracije inspiraciji inspiracijom inspiraciju
+78	4278	nestabilan	nestabilna nestabilne nestabilni nestabilnih nestabilniji nestabilnim nestabilno nestabilnog nestabilnom nestabilnu
+79	4279	sadržaj	sadržaja sadržaje sadržajem sadržajima sadržaju
+80	4280	kornjača	kornjačama kornjače kornjači kornjačo kornjačom kornjaču
+81	4281	fuj	
+82	4282	skener	skenera skenere skeneri skenerima skenerom skeneru
+83	4283	hladnoća	hladnoće hladnoći hladnoćom hladnoću
+84	4284	hipoteka	hipoteci hipotekama hipoteke hipotekom hipoteku
+85	4285	post	posta poste postom postova postove postu
+86	4286	suradnik	suradnici suradnicima suradnika suradnike suradnikom suradniku
+87	4287	maslac	maslaca maslacem maslacu
+88	4288	vodstvo	vodstva vodstvom vodstvu
+89	4289	natpis	natpisa natpise natpisi natpisima natpisom natpisu
+90	4290	onesposobiti	onesposobe onesposobi onesposobila onesposobili onesposobim onesposobimo onesposobio onesposobite onesposobiš onesposobljen onesposobljena onesposobljene onesposobljeni onesposobljeno
+91	4291	administracija	administracije administraciji administracijom administraciju
+92	4292	saviti	savi savij savije savijem savijemo savijen savijena savijene savijeni savijeno savijete saviješ savijte saviju savila savile savili savio savita
+93	4293	posluga	posluge poslugom poslugu posluzi
+94	4294	arapski	arapska arapske arapskih arapskim arapsko arapskog arapskoj arapskom arapsku
+95	4295	češće	
+96	4296	jen	
+97	4297	garda	garde gardi gardom gardu
+98	4298	zloban	najzlobnija najzlobniji zlobna zlobne zlobni zlobnih zlobnija zlobniji zlobnim zlobno zlobnog zlobnom zlobnu
+99	4299	lider	lidera lidere lideri liderima liderom lideru
+100	4300	upravitelj	upravitelja upravitelje upraviteljem upravitelji upraviteljica upraviteljima upravitelju

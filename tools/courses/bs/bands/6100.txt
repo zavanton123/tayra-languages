@@ -1,0 +1,100 @@
+1	6001	šoping	
+2	6002	korpus	korpusa korpusom korpusu
+3	6003	produkcija	produkcije produkciji produkcijom produkciju
+4	6004	paranoja	paranoje paranoji paranojom paranoju
+5	6005	prodavaonica	prodavaonicama prodavaonice prodavaonici prodavaonicu
+6	6006	samouvjeren	samouveren samouverena samouvereni samouvereno samouvjerena samouvjereni samouvjereno
+7	6007	humanitaran	humanitarna humanitarne humanitarni humanitarnih humanitarnim humanitarno humanitarnog humanitarnoj humanitarnom humanitarnu
+8	6008	rasporediti	rasporede rasporedi rasporedila rasporedili rasporedimo rasporedio rasporedite rasporediš raspoređen raspoređena raspoređene raspoređeni raspoređeno
+9	6009	darovati	darova darovala darovali darovao daruj daruje darujem darujemo daruješ darujte daruju
+10	6010	predjelo	predjela predjelima predjelom predjelu
+11	6011	radikalan	radikalna radikalne radikalni radikalnih radikalnije radikalniji radikalnim radikalnog radikalnom radikalnu
+12	6012	neprocjenjiv	neprocenjiv neprocenjiva neprocenjive neprocenjivi neprocenjivo neprocenjivu neprocjenjiva neprocjenjive neprocjenjivi neprocjenjivo neprocjenjivog neprocjenjivu
+13	6013	doduše	
+14	6014	nana	
+15	6015	portret	
+16	6016	govornik	govornici govornika govornike govorniče
+17	6017	viknuti	vikne viknem viknete vikneš vikni viknite viknu viknula viknuli viknuo
+18	6018	izlagati	izlaže izlažem izlažemo izlažete izlažeš izlažu
+19	6019	azijski	azijska azijske azijskih azijskim azijsko azijskog azijskoj azijskom azijsku
+20	6020	svodnik	svodnici svodnicima svodnika svodnike svodnikom svodniku svodniče
+21	6021	rakun	rakuna rakune rakuni rakunu
+22	6022	oduprijeti	odupre oduprem odupremo oduprete odupreš odupri oduprite odupru
+23	6023	impuls	impulsa impulse impulsi impulsima impulsom
+24	6024	ekskluzivan	ekskluzivna ekskluzivne ekskluzivni ekskluzivnih ekskluzivnim ekskluzivnog ekskluzivnom ekskluzivnu
+25	6025	gaza	gaze gazi gazom gazu
+26	6026	os	osi osima
+27	6027	planirano	
+28	6028	suđe	suđa suđem
+29	6029	foka	fokama foke foku
+30	6030	svlačionica	svlačionicama svlačionice svlačionici svlačionicu
+31	6031	zakonit	zakonita zakonite zakoniti zakonitim zakonitog zakonitoga zakonitom zakonitu
+32	6032	iskrasti	iskrade iskradem iskrademo iskradeš iskradi iskrala iskrali iskrao
+33	6033	pomicati	pomicali pomicanje pomicao pomiče pomičem pomičemo pomičeš pomiči pomičite pomiču
+34	6034	progon	progona progone progoni progonima progonom progonu
+35	6035	umjetnica	umetnica umetnice umetnici umetnicu umjetnice umjetnici umjetnicu
+36	6036	vedar	vedra vedre vedri vedrija vedrije vedriju vedrim vedrog vedrom vedru
+37	6037	regionalan	regionalna regionalne regionalni regionalnih regionalnim regionalno regionalnog regionalnom regionalnu
+38	6038	bolovati	bolovala bolovali bolovao boluje bolujem bolujete boluješ boluju
+39	6039	reptil	reptila reptile reptili reptilima reptilu
+40	6040	negirati	negira negiraj negiraju negirajući negirala negirali negiram negiramo negiranje negirao negirate negiraš
+41	6041	srodstvo	srodstva srodstvu
+42	6042	školovanje	školovanja školovanjem školovanju
+43	6043	ribolov	ribolova ribolovom ribolovu
+44	6044	vlaga	vlage vlagom vlagu vlazi
+45	6045	jelda	
+46	6046	opako	
+47	6047	gimnazija	gimnazije gimnaziji gimnaziju
+48	6048	klanjati	klanja klanjajte klanjaju klanjali klanjam klanjamo klanjanje klanjao klanjate klanjaš
+49	6049	gumb	gumba gumbe gumbi gumbima gumbu
+50	6050	pričuvati	pričuva pričuvaj pričuvajte pričuvali pričuvam pričuvao pričuvate pričuvaš
+51	6051	izuzev	
+52	6052	adaptacija	adaptacije adaptaciji adaptaciju
+53	6053	uzvraćati	uzvraća uzvraćaju uzvraćam uzvraćamo uzvraćanje uzvraćaš
+54	6054	skica	skicama skice skici skicu
+55	6055	kršćanin	kršćana kršćane kršćani kršćanima kršćanina
+56	6056	neposredan	neposredna neposredne neposredni neposrednog neposrednoj neposrednom neposrednu
+57	6057	krijumčariti	krijumčare krijumčarene krijumčarenja krijumčarenje krijumčari krijumčarila krijumčarili krijumčarimo krijumčario krijumčariš
+58	6058	tipka	tipkama tipke tipki tipkom tipku
+59	6059	patriot	patriota patriote patrioti patriotom patriotu
+60	6060	posjedovanje	posedovanje
+61	6061	palma	palmama palme palmi palmu
+62	6062	žito	žita žitom žitu
+63	6063	internacionalan	internacionalna internacionalne internacionalni internacionalnih internacionalnim internacionalno internacionalnog internacionalnoj internacionalnom internacionalnu
+64	6064	konstantno	
+65	6065	četri	
+66	6066	meteor	meteora meteore meteori meteorima meteoru
+67	6067	štampati	štampaj štampajte štampaju štampala štampali štampam štampamo štampan štampana štampane štampani štampanje štampano štampao štampate štampaš
+68	6068	zadirkivati	zadirkivala zadirkivali zadirkivanje zadirkivao zadirkuj zadirkuje zadirkujem zadirkujemo zadirkujete zadirkuješ zadirkuju
+69	6069	vlasnica	vlasnice vlasnici vlasnicom vlasnicu
+70	6070	zatvorenica	zatvorenicama zatvorenice zatvorenici zatvorenicom zatvorenicu
+71	6071	priručnik	priručnici priručnika priručnike priručniku
+72	6072	mutacija	mutacijama mutacije mutaciji mutacijom mutaciju
+73	6073	prozvati	prozove prozovem prozovemo prozovi prozovu prozvala prozvali prozvan prozvana prozvani prozvao
+74	6074	prisjetiti	priseti prisetila prisetim prisetimo prisetite prisetiti prisetiš prisjeti prisjetila prisjetim prisjetimo prisjetio prisjetite prisjetiš
+75	6075	kristalni	kristalna kristalne kristalnih kristalnim kristalnog kristalnoj kristalnom kristalnu
+76	6076	istući	istuci istukao istukla istukli istuku istuče istučem istučeš
+77	6077	зашто	
+78	6078	sprijeda	spreda
+79	6079	mladunče	mladunčad mladunčadi mladunčeta mladunčetom mladunčetu
+80	6080	ujedati	ujeda ujedaju ujedam ujedamo ujedanje ujedao ujedaš
+81	6081	marama	marame marami maramom maramu
+82	6082	osnovan	osnovana osnovane osnovani osnovano osnovanu
+83	6083	sotona	sotone sotoni sotono sotonom sotonu
+84	6084	pokidati	pokida pokidaj pokidaju pokidala pokidali pokidam pokidan pokidana pokidane pokidani pokidano pokidao pokidaću pokidaš
+85	6085	napamet	
+86	6086	promisliti	promisli promislila promislili promislim promislimo promislio promislite promisliš
+87	6087	povijesni	povijesna povijesne povijesnih povijesnim povijesno povijesnog povijesnom povijesnu
+88	6088	evro	evra evre evrima
+89	6089	opijati	opija opijaju opijala opijali opijam opijanje opijao opijate opijaš
+90	6090	okusiti	okuse okusi okusila okusili okusim okusimo okusio okusite okusiš
+91	6091	astma	astme astmom astmu
+92	6092	bordel	bordela bordele bordelima bordelu
+93	6093	raskidati	raskida raskidaju raskidali raskidam raskidamo raskidanje raskidaš
+94	6094	морати	морала морали морам морамо морао морате мораш морају
+95	6095	konkretno	
+96	6096	atraktivan	atraktivna atraktivne atraktivni atraktivnih atraktivnije atraktivnim atraktivno atraktivnog atraktivnom atraktivnu
+97	6097	vedro	vedra vedrom vedru
+98	6098	gvozden	gvozdena gvozdene gvozdeni gvozdenih gvozdenim gvozdeno gvozdenog gvozdenom gvozdenu
+99	6099	podrazumevati	podrazumeva podrazumevaju podrazumevalo podrazumevam podrazumevao podrazumevate podrazumevaš
+100	6100	kupnja	kupnje kupnji kupnjom kupnju

@@ -1,0 +1,100 @@
+1	5801	kupus	kupusa kupusom kupusu
+2	5802	kapela	kapele kapeli kapelom kapelu
+3	5803	kročiti	kroče kroči kročila kročili kročim kročimo kročio kročite kročiš
+4	5804	mlatiti	mlate mlateći mlati mlatili mlatim mlatimo mlatio mlatite mlatiš mlaćenje
+5	5805	karneval	karnevala karnevale karnevalu
+6	5806	solidan	solidna solidne solidni solidnih solidnim solidno solidnog solidnom solidnu
+7	5807	erupcija	erupcijama erupcije erupciji erupcijom erupciju
+8	5808	gajba	gajbe gajbi gajbu
+9	5809	družina	družine družini družino družinom družinu
+10	5810	trunuti	trune trunem trunemo trunete truneš truni trunu trunula trunuo
+11	5811	сад	сада
+12	5812	lezbijka	lezbijkama lezbijke lezbijki lezbijkom lezbijku
+13	5813	pritužba	pritužbe pritužbi pritužbu
+14	5814	izvedba	izvedbama izvedbe izvedbi izvedbom izvedbu
+15	5815	blistav	blistava blistave blistavi blistavih blistavim blistavo blistavog blistavom blistavu
+16	5816	podmititi	podmiti podmitila podmitili podmitim podmitimo podmitio podmitite podmitiš podmićen podmićeni
+17	5817	raspust	raspusta raspuste raspusti raspustu
+18	5818	burma	burme burmi burmu
+19	5819	deaktivirati	deaktivira deaktiviraj deaktivirajte deaktiviraju deaktivirala deaktivirali deaktiviram deaktiviramo deaktiviran deaktivirana deaktivirane deaktiviranje deaktivirao deaktivirate deaktiviraš
+20	5820	prerasti	prerasla prerasle prerasli preraslo prerastao preraste prerastu prerašće
+21	5821	žuta	
+22	5822	takoder	
+23	5823	natjecati	natjecala natjecali natječe natječem natječemo natječete natječeš natječu
+24	5824	organiziran	organizirana organizirane organizirani organiziranih organiziranim organizirano organiziranog organiziranom
+25	5825	pariti	parenje pari parila parile parili parim parimo pario parite pariš
+26	5826	stid	stida stide stidom stidu
+27	5827	makro	makroa makroe makroi makroima makrou
+28	5828	racionalan	racionalna racionalne racionalni racionalnim racionalno racionalnog racionalnu
+29	5829	sumnjivac	sumnjivaca sumnjivca sumnjivce sumnjivci sumnjivcu
+30	5830	ćaskati	ćaska ćaskaju ćaskali ćaskam ćaskamo ćaskanje ćaskao ćaskate ćaskaš
+31	5831	vjenčanica	venčanica venčanice venčanici venčanicu vjenčanice vjenčanici vjenčanicu
+32	5832	novčani	novčana novčane novčanih novčanim novčano novčanog novčanoj novčanom novčanu
+33	5833	hrvatski	hrvatska hrvatske hrvatskih hrvatskog hrvatskoj hrvatskom hrvatsku
+34	5834	triput	
+35	5835	mjuzikl	mjuzikla mjuzikle mjuzikli mjuziklima mjuziklu
+36	5836	gazdarica	gazdarice gazdarici gazdaricom gazdaricu
+37	5837	temeljit	temelje temeljen temeljena temeljene temeljeni temeljeno temelji temeljila temeljio temeljita temeljite temeljiti temeljitije temeljitu
+38	5838	kvadratni	kvadratna kvadratne kvadratnih kvadratnog kvadratnom kvadratnu
+39	5839	školarina	školarine školarini školarinom školarinu
+40	5840	bor	bore borova borove borovi borovima boru
+41	5841	sprej	spreja sprejem sprejeve spreju
+42	5842	starati	staraj staraju starala starali staram staramo staranje starao starate staraš
+43	5843	eksplozivan	eksplozivna eksplozivne eksplozivni eksplozivnih eksplozivnim eksplozivnog eksplozivnom eksplozivnu
+44	5844	nekoć	
+45	5845	ubrzavati	ubrzava ubrzavaju ubrzavajući ubrzavam ubrzavamo ubrzavanje ubrzavao ubrzavaš
+46	5846	sitno	
+47	5847	leglo	legla leglu
+48	5848	primitivan	primitivna primitivne primitivni primitivnih primitivnim primitivnog primitivnom primitivnu
+49	5849	olimpijski	olimpijska olimpijske olimpijskih olimpijskim olimpijsko olimpijskog olimpijskom olimpijsku
+50	5850	nelegalan	nelegalna nelegalne nelegalni nelegalnih nelegalnim nelegalno nelegalnog nelegalnom nelegalnu
+51	5851	nasuprot	
+52	5852	katalog	kataloga kataloge katalogu katalozima
+53	5853	ušteđevina	ušteđevine ušteđevinom ušteđevinu
+54	5854	bušiti	buše bušenje buši bušili bušim bušimo bušio bušite bušiš
+55	5855	etika	etici etike etikom etiku
+56	5856	korporativan	korporativna korporativne korporativni korporativnih korporativnim korporativno korporativnog korporativnoj korporativnom korporativnu
+57	5857	odlutati	odluta odlutaju odlutala odlutale odlutali odlutam odlutao odlutaš
+58	5858	ruksak	ruksacima ruksaka ruksake ruksakom ruksaku
+59	5859	ranč	
+60	5860	zagrijavati	zagrijava zagrijavaju zagrijavam zagrijavamo zagrijavanje zagrijavao zagrijavaš
+61	5861	dvojka	dvojci dvojke dvojki dvojko dvojkom dvojku
+62	5862	zaljubljivati	zaljubljivala zaljubljivali zaljubljivanje zaljubljivao zaljubljuj zaljubljuje zaljubljujem zaljubljuješ zaljubljuju
+63	5863	kormilo	kormila kormilom kormilu
+64	5864	zdjela	zdelu zdjele zdjeli zdjelom zdjelu
+65	5865	krater	kratera kratere krateri kraterima krateru
+66	5866	ideal	ideala ideale ideali idealima idealu
+67	5867	svilen	svilena svilene svileni svilenih svilenim svileno svilenog svilenoj svilenom svilenu
+68	5868	beznačajan	beznačajna beznačajne beznačajni beznačajnih beznačajnim beznačajnog beznačajnom beznačajnu
+69	5869	griz	griza grizem grizu
+70	5870	vrtić	vrtića vrtiću
+71	5871	pokolj	pokolja pokolje pokoljem pokolju
+72	5872	plemić	plemića plemiće plemići plemićima plemiću
+73	5873	mak	maka makom makova makovi maku mače
+74	5874	pseto	pseta psetu
+75	5875	dokumentacija	dokumentacije dokumentaciji dokumentacijom dokumentaciju
+76	5876	faraon	faraona faraone faraoni faraonom faraonu
+77	5877	kotač	kotača kotače kotačem kotači kotačima kotaču
+78	5878	rasan	rasna rasne rasni rasnih rasnim rasno rasnog rasnoj rasnom rasnu
+79	5879	arheolog	arheologa arheologe arheologom arheolozi arheolozima
+80	5880	neizbježno	neizbežno
+81	5881	spopasti	spopadne spopadnu spopala spopale spopalo spopao
+82	5882	poduhvat	poduhvata poduhvate poduhvati poduhvatima poduhvatom poduhvatu
+83	5883	transplantacija	transplantacije transplantaciji transplantacijom transplantaciju
+84	5884	kvantni	kvantna kvantne kvantnih kvantnim kvantno kvantnog kvantnoj kvantnom kvantnu
+85	5885	njegovati	negovala negovanje negovao negovati neguj neguje negujem neguješ neguju njegovala njegovan njegovani njegovanje njegovao njeguj njeguje njegujem njegujemo njeguješ njeguju
+86	5886	kliziti	klize klizeći klizi klizila klizim klizimo klizio klizite kliziš
+87	5887	žila	žilama žile žili žilu
+88	5888	entuzijazam	entuzijazma entuzijazmom entuzijazmu
+89	5889	sićušan	sićušna sićušne sićušni sićušnih sićušnim sićušno sićušnog sićušnom sićušnu
+90	5890	četvero	
+91	5891	zdravstveno	
+92	5892	svirka	svirci svirke svirki svirkom svirku
+93	5893	aljaski	aljaska aljaske aljasku
+94	5894	artiljerija	artiljerije artiljeriji artiljerijom artiljeriju
+95	5895	imigrant	imigranata imigranta imigrante imigranti imigrantima imigrantu
+96	5896	uvećati	uveća uvećaj uvećajte uvećaju uvećala uvećali uvećam uvećamo uvećan uvećana uvećane uvećani uvećanje uvećano uvećao uvećaš
+97	5897	marketing	marketinga marketingom marketingu
+98	5898	infuzija	infuzije infuziji infuzijom infuziju
+99	5899	sramotiti	sramote sramoti sramotila sramotim sramotio sramotite sramotiš sramoćenje
+100	5900	savršenstvo	savršenstva savršenstvom savršenstvu
