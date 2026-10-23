@@ -1,0 +1,208 @@
+{
+  "id": "ca-mini-6800",
+  "rankUpTo": 6800,
+  "level": "C1",
+  "title": "Literatura catalana",
+  "description": "Ten standalone texts about books and the people who make them: a translator and a reindeer novel, booklice in an old library, a review of a novel about a mountain forge, an interview with a comics author, an opinion column on what a book's price pays for, a novelist's diary in a volcanic valley, a children's book about mammals, transcribing a father-in-law's folk tales, a library van with a trailer, and a portrait of an old novelist whose café is being pulled down.",
+  "topic": "Catalan literature",
+  "names": [
+    "Jerònia",
+    "Pujals",
+    "Girona",
+    "Suècia",
+    "Elin",
+    "Camil",
+    "Ullastres",
+    "Floquet",
+    "Camatort",
+    "Araceli",
+    "Bassas",
+    "Solsona",
+    "Valerià",
+    "Freixa",
+    "Benedicta",
+    "Ordeig",
+    "Vilamajó",
+    "Isidora",
+    "Pirineu",
+    "Hilarió",
+    "Cuní",
+    "Superiaia",
+    "Manresa",
+    "Barcelona",
+    "Venceslau",
+    "Farrés",
+    "Lleida",
+    "Zenobi",
+    "Rexach",
+    "Olot",
+    "Anabel",
+    "Magrinyà",
+    "Ambrosi",
+    "Dachs",
+    "Tarragona",
+    "Bartolí",
+    "Sanmartí",
+    "Manuela",
+    "Ebre",
+    "Luci",
+    "Pibernat",
+    "Segarra",
+    "Calixte",
+    "Orenci",
+    "Valldeperas",
+    "Sabadell",
+    "Ivonne"
+  ],
+  "lessons": [
+    {
+      "title": "La traductora dels rens",
+      "summary": "Jerònia, a translator in Girona, turns a Swedish children's novel about a reindeer-herding family into Catalan: her first version is too literal, she reads it aloud again and again to catch its tone, and her editor objects to the name she gave a young reindeer.",
+      "newWords": [
+        "ren",
+        "literal",
+        "copsar",
+        "repetidament",
+        "prudent",
+        "expressiu",
+        "objecció",
+        "entreveure"
+      ],
+      "text": "La Jerònia Pujals tradueix llibres infantils del suec al català des de fa quinze anys, en un petit estudi de Girona. Aquest hivern treballa en una novel·la per a lectors de deu a dotze anys que passa al nord de Suècia, on la família de la protagonista, una nena que es diu Elin, cria rens. Els rens surten a cada pàgina: els rens que busquen menjar sota la neu, els rens que es perden en la boira, el ren petit que l'Elin alimenta amb una ampolla de llet.\n\nLa primera versió que va fer era massa literal. La Jerònia havia traduït cada frase paraula per paraula, i el resultat era correcte però fred. Una traducció literal respecta el diccionari, però sovint perd la veu de l'autora. En suec, l'Elin parla amb frases curtes i expressives, plenes de sons i de paraules inventades. En la versió literal, semblava una nena molt seriosa que llegia un informe.\n\nPer copsar el to del llibre, la Jerònia el va llegir en veu alta repetidament, primer en suec i després en català. Llegir un capítol repetidament li permet sentir on la frase s'encalla i on respira. A poc a poc va copsar el ritme de l'autora: frases breus quan hi ha pressa, frases llargues quan l'Elin mira el paisatge en silenci.\n\nHi havia un problema concret. A la novel·la, la família de l'Elin té una paraula per a cada tipus de neu. Una traducció literal hauria omplert el text de notes a peu de pàgina, i els lectors de deu anys no llegeixen notes. La Jerònia va ser prudent: no volia inventar paraules catalanes que sonessin estranyes, però tampoc no volia perdre la riquesa de l'original. Va triar unes quantes paraules catalanes de muntanya i va explicar les altres dins de la mateixa frase.\n\nQuan va enviar el manuscrit, en Camil Ullastres, l'editor, li va fer una objecció. No li agradava el nom del ren petit, que la Jerònia havia traduït com a «Floquet». «És massa dolç», li va escriure. «En suec el nom és més expressiu: vol dir alguna cosa com \"el que corre de través\".» La Jerònia va pensar en l'objecció tot un vespre. Era una objecció justa: el nom original feia riure, i «Floquet» només feia tendresa. Al final van triar «Camatort», un nom que fa riure i que, alhora, fa estimar l'animal.\n\nAra la Jerònia rellegeix les últimes pàgines. A l'original es pot entreveure un humor que no apareix mai de manera directa: l'autora no fa bromes, però deixa entreveure una mirada divertida sobre els adults, que sempre tenen pressa i no es paren mai a mirar els rens. La Jerònia vol que el lector català també ho pugui entreveure. Ha de ser prudent, perquè, si ho explica massa, l'humor desapareix.\n\nPreguntes:\nPer què la primera versió no funcionava?\nPerquè era massa literal: era correcta, però freda, i perdia la veu de l'autora.\nQuè va fer la Jerònia per copsar el to del llibre?\nEl va llegir en veu alta repetidament, en suec i en català.\nCom va resoldre el problema de les paraules per a la neu?\nVa triar unes quantes paraules catalanes de muntanya i va explicar les altres dins de la frase.\nQuina objecció li va fer l'editor?\nLi va dir que «Floquet» era un nom massa dolç i que el nom original era més expressiu.\nQuè es pot entreveure a l'original?\nEs pot entreveure un humor discret, una mirada divertida sobre els adults."
+    },
+    {
+      "title": "Els polls dels llibres",
+      "summary": "Araceli, who looks after the old book collection of a cultural society in Solsona, finds tiny booklice on some shelves; a paper conservator, Valerià, shows her that damp and poor ventilation are to blame, and together they change how the room breathes.",
+      "newWords": [
+        "poll",
+        "ventilació",
+        "impregnar",
+        "rígid",
+        "feblesa",
+        "recobrir",
+        "mancança",
+        "senyalar"
+      ],
+      "text": "L'Araceli Bassas és la bibliotecària d'un ateneu de Solsona, una entitat cultural que té una sala plena de llibres antics: novel·les del segle XIX, revistes literàries, reculls de poemes i algunes edicions que no es troben enlloc més. Un dilluns de primavera, mentre buscava un volum de poesia, va veure uns punts clars que es movien damunt d'una tapa. Eren insectes minúsculs, gairebé transparents.\n\nL'Araceli va trucar a en Valerià Freixa, un restaurador de paper que treballa per a diversos arxius de la comarca. En Valerià va arribar l'endemà amb una lupa. «Són polls dels llibres», va dir. «No són polls de veritat i no fan cap mal a les persones. Es diuen així perquè són petits com un poll. Mengen els fongs microscòpics que creixen sobre el paper quan hi ha humitat.» Els polls dels llibres, va explicar, no són la causa del problema, sinó el senyal.\n\nEn Valerià va senyalar la paret del fons. La humitat de la terra pujava per la paret i havia impregnat el guix. Després va senyalar les finestres, que no s'obrien mai. «Aquí el problema és la ventilació», va dir. «L'aire no es mou. Sense ventilació, la humitat es queda a la sala i acaba impregnant el paper.» Va obrir un llibre i va senyalar les vores de les pàgines: tenien taques grogues i feien olor de tancat.\n\nL'Araceli va reconèixer una altra mancança. L'ateneu no tenia diners per a un aparell que controlés la humitat, i ningú no revisava la sala cada setmana. Aquesta mancança de temps i de mitjans havia deixat la sala abandonada durant anys.\n\nEn Valerià va proposar un pla senzill. Primer calia netejar els llibres un per un amb un pinzell suau. Les cobertes de pell, rígides per l'edat, s'havien de tractar amb cura, perquè una tapa rígida es trenca si es força. El paper prim, en canvi, tenia una altra feblesa: s'esquinçava amb facilitat. «La feblesa d'aquest paper és l'àcid», va dir en Valerià. «Amb els anys, l'àcid el torna fràgil.» Els llibres més fràgils anirien en capses de cartró sense àcid.\n\nDesprés van recobrir les prestatgeries de fusta amb una pintura que deixa respirar el material, i van recobrir el terra amb una catifa que es pot rentar. Un fuster va arreglar les finestres perquè es poguessin obrir cada matí. Ara la ventilació de la sala és diària, i l'Araceli apunta la humitat en una llibreta.\n\nAl cap de dos mesos, els polls havien desaparegut. L'Araceli encara obre els llibres amb una mica de por, però ja no hi troba res.\n\nPreguntes:\nQuè va veure l'Araceli damunt d'una tapa?\nVa veure uns insectes minúsculs, que eren polls dels llibres.\nPer què els polls dels llibres són un senyal, segons en Valerià?\nPerquè mengen els fongs que creixen sobre el paper quan hi ha humitat.\nQuè va senyalar en Valerià a la sala?\nVa senyalar la paret del fons, impregnada d'humitat, i les finestres que no s'obrien mai.\nQuina feblesa té el paper prim?\nS'esquinça amb facilitat, perquè l'àcid el torna fràgil.\nQuè van fer per millorar la ventilació?\nVan arreglar les finestres perquè es poguessin obrir cada matí."
+    },
+    {
+      "title": "Ressenya: «La farga dels Vilamajó»",
+      "summary": "A review of Benedicta Ordeig's first novel, set in a nineteenth-century Pyrenean village with an iron forge: the stubborn, cheerful cowherd Isidora, the patrician family that owns the forge, painterly descriptions, a predictable middle and an unforgettable last chapter.",
+      "newWords": [
+        "farga",
+        "vilatà",
+        "vaquer",
+        "patrici",
+        "tarannà",
+        "pictòric",
+        "previsible",
+        "inoblidable"
+      ],
+      "text": "Benedicta Ordeig, que fins ara havia publicat contes, presenta la seva primera novel·la, «La farga dels Vilamajó». L'acció passa en un poble del Pirineu a mitjan segle XIX, on una farga transforma el mineral en ferro. La farga és el cor del poble: hi treballen els homes, s'hi fan les eines i, a l'hivern, és l'únic lloc on fa calor.\n\nLa protagonista és la Isidora, una noia de setze anys que fa de vaquera. Cada matí puja les vaques als prats i cada vespre les baixa. L'autora coneix bé aquesta feina, i el lector aprèn com un vaquer llegeix el cel, com fa tornar una vaca que s'ha separat del ramat i com es fa el formatge a la cabana. La Isidora té un tarannà tossut i alegre: no demana permís per a res i riu amb facilitat. El seu tarannà contrasta amb el dels vilatans, gent prudent que pensa molt abans de parlar.\n\nLa propietària de la farga és la família Vilamajó, una família patrícia que viu en una casa gran a la plaça. Els Vilamajó no són dolents. Són patricis, és a dir, gent que fa generacions que té diners i terres al poble, i que no s'imagina el món d'una altra manera. Quan el fill petit dels Vilamajó s'enamora de la Isidora, els vilatans en parlen a la font, al forn i a la farga. Els vilatans de la novel·la són personatges plens de matisos: curiosos, generosos i, de vegades, injustos.\n\nEl millor del llibre és la seva qualitat pictòrica. Ordeig descriu el foc de la farga, la neu als prats i la llum del capvespre com si pintés un quadre. Aquest estil pictòric fa que el lector vegi el poble abans d'entendre'l, i hi ha pàgines que semblen fetes amb pinzell.\n\nTanmateix, la part central és previsible. Des del moment que el fill dels Vilamajó apareix, el lector ja sap què passarà: la família no ho voldrà, la parella patirà i, al final, tothom haurà de cedir. Una trama previsible no és necessàriament un defecte, però aquí les dues-centes pàgines del mig es fan llargues.\n\nEl capítol final, en canvi, és inoblidable. Una nit d'hivern molt freda, tot el poble, patricis, vilatans i vaquers, es reuneix a la farga per escalfar-se, i la Isidora hi canta una cançó que tothom coneix. No cal explicar-ne més. És una escena inoblidable, escrita amb una calma que emociona.\n\n«La farga dels Vilamajó» no és una novel·la perfecta, però és un debut sòlid. Qui en llegeixi el capítol final entendrà per què val la pena esperar el segon llibre d'aquesta autora.\n\nPreguntes:\nOn i quan passa la novel·la?\nPassa en un poble del Pirineu, a mitjan segle XIX.\nQuina feina fa la Isidora?\nFa de vaquera: cada matí puja les vaques als prats i cada vespre les baixa.\nCom és la família Vilamajó?\nÉs una família patrícia, propietària de la farga, que viu en una casa gran a la plaça.\nQuè vol dir que l'estil de la novel·la és pictòric?\nVol dir que l'autora descriu el poble com si pintés un quadre.\nQuina part de la novel·la és previsible, segons la ressenya?\nLa part central, perquè el lector ja sap què passarà des del principi."
+    },
+    {
+      "title": "Entrevista: una superheroïna de setanta-vuit anys",
+      "summary": "An interview with Hilarió Cuní, creator of a humorous comic about an elderly superhero who rides a horse through Manresa: his childhood passion for comics, his degree and his specialisation, the newspaper cuttings behind each episode and why her only accessory is a pair of glasses.",
+      "newWords": [
+        "superheroi",
+        "humorístic",
+        "amazona",
+        "deliri",
+        "titulació",
+        "especialització",
+        "retall",
+        "accessori"
+      ],
+      "text": "Hilarió Cuní dibuixa còmics des dels nou anys. Fa tres anys va crear la Superiaia, una dona de setanta-vuit anys que travessa Manresa damunt d'un cavall blanc per resoldre els petits problemes dels veïns. La sèrie humorística surt cada setmana en un diari comarcal i ja n'hi ha dos volums recopilats.\n\nCom va néixer la Superiaia?\n\nD'una pregunta de la meva filla. Llegíem junts còmics de superherois i em va preguntar per què tots els superherois eren joves i forts. No vaig saber què respondre-li. Aquella nit vaig dibuixar una àvia amb capa. Els superherois clàssics salven el món; la Superiaia salva el dimarts: troba les claus d'una veïna, fa baixar un gat d'un arbre o llegeix una carta a algú que no hi veu.\n\nPer què va a cavall?\n\nPerquè la meva àvia era amazona. De jove muntava a cavall i guanyava concursos de salts. A casa hi havia fotos d'ella amb barret i botes, i jo la mirava com si fos una superheroïna. La Superiaia és una amazona com ella, però en lloc de saltar obstacles, salta els cotxes mal aparcats.\n\nD'on li ve aquesta passió pels còmics?\n\nDe petit tenia deliri pels còmics. Me'ls comprava amb els diners de la setmana i els llegia tantes vegades que se'm desfeien a les mans. Aquest deliri no m'ha passat mai. Encara ara, quan entro en una llibreria de còmics, em sento com un nen.\n\nVa estudiar per ser dibuixant?\n\nTinc una titulació en Belles Arts, però la titulació no em va fer dibuixant. Va ser l'especialització posterior, un any d'il·lustració a Barcelona, la que em va ensenyar a explicar una història amb imatges. Una titulació et dona una base; l'especialització et dona un ofici.\n\nCom prepara cada episodi?\n\nAmb retalls de diari. Fa anys que retallo petites notícies de la comarca: un gat perdut, una fira, una botiga que tanca. Tinc una capsa plena de retalls. Quan he de fer un episodi, en trio un i m'imagino què faria la Superiaia. De vegades també enganxo un retall de paper de diari dins del dibuix, com si fos una paret.\n\nEls superherois porten molts accessoris. I ella?\n\nNomés un accessori: les ulleres, penjades d'una cadeneta. No té cinturó amb aparells ni màscara. Quan algú li pregunta pels seus poders, ella s'ajusta aquest accessori i diu: «El meu poder és fixar-me en les coses.» Crec que és la frase més seriosa de tota la sèrie, i al mateix temps la més humorística.\n\nPreguntes:\nQui és la Superiaia?\nÉs una dona de setanta-vuit anys que travessa Manresa a cavall per resoldre els problemes dels veïns.\nPer què la Superiaia és una amazona?\nPerquè l'àvia de l'Hilarió era amazona i guanyava concursos de salts.\nQuina diferència hi ha entre la titulació i l'especialització, segons l'Hilarió?\nLa titulació et dona una base, i l'especialització et dona un ofici.\nPer a què li serveixen els retalls de diari?\nLi donen idees per als episodis, i de vegades els enganxa dins del dibuix.\nQuin és l'únic accessori de la Superiaia?\nLes ulleres, penjades d'una cadeneta."
+    },
+    {
+      "title": "Article d'opinió: qui paga un llibre?",
+      "summary": "In an opinion column, Venceslau Farrés weighs what a novel's price pays for: bookshops that can barely be profitable, translators whose names are left off covers, a sector study, readers who subscribe to a bookshop's monthly parcel and the need to make readers aware of all this.",
+      "newWords": [
+        "rendible",
+        "equitat",
+        "sectorial",
+        "intolerable",
+        "deplorable",
+        "subscriptor",
+        "possibilitar",
+        "sensibilitzar"
+      ],
+      "text": "Fa unes setmanes un amic em va dir que els llibres són cars. Una novel·la de tres-centes pàgines costa uns vint euros, el mateix que un sopar senzill. Vaig voler saber on van aquests vint euros, i vaig llegir l'últim informe sectorial sobre el món del llibre. Els números d'un estudi sectorial no són emocionants, però ajuden a pensar amb calma.\n\nDe cada vint euros, la llibreria se'n queda unes sis. Amb això ha de pagar el lloguer, la llum i el sou de la gent que hi treballa. Per a moltes llibreries petites, l'activitat és poc rendible: venen prou per mantenir-se, però no per créixer. Una llibreria de barri no és tan rendible com una botiga de roba, i tanmateix fa una feina que cap algoritme no fa: recomanar el llibre adequat a la persona adequada.\n\nAlgunes llibreries han trobat una solució enginyosa. Cada mes envien un paquet amb un llibre triat pels llibreters a una llista de subscriptors. El subscriptor no sap quin llibre rebrà, però confia en el criteri de la botiga. Una llibreria de Lleida que conec té quatre-cents subscriptors, i aquests ingressos fixos li han permès contractar una persona més. Els subscriptors no ho saben, però són ells qui fan la llibreria rendible.\n\nDesprés hi ha els traductors. De cada vint euros, el traductor rep molt poc, i sovint el seu nom no apareix a la coberta. Em sembla intolerable. Quan llegim una novel·la traduïda, llegim, frase per frase, l'obra del traductor. Que el seu nom s'amagui a la pàgina quatre, en lletra petita, és intolerable en una cultura que diu que estima els llibres. Algunes editorials ja el posen a la coberta. Seria just que ho fessin totes. No demano privilegis, sinó equitat: equitat en el reconeixement i equitat en el pagament.\n\nTambé cal ser honest amb els defectes. He llegit traduccions fetes amb presses, amb errors i frases que no s'entenen. És deplorable, però la causa no sol ser el traductor, sinó un termini impossible i una tarifa massa baixa. Una traducció deplorable gairebé sempre és una traducció mal pagada.\n\nQuè podem fer els lectors? Primer, sensibilitzar. Sensibilitzar vol dir explicar, sense donar lliçons, que el preu d'un llibre paga moltes feines. Segon, comprar a les llibreries que fan aquesta feina, si ens ho podem permetre. Les biblioteques públiques, d'altra banda, han de possibilitar que tothom llegeixi, també qui no pot pagar vint euros. Comprar i demanar en préstec no són coses contràries: totes dues possibiliten que els llibres arribin als lectors.\n\nPotser els llibres no són cars. Potser és que no sabem tot el que paguen.\n\nVenceslau Farrés\n\nPreguntes:\nQuè va llegir l'autor per saber on van els vint euros?\nVa llegir l'últim informe sectorial sobre el món del llibre.\nPer què moltes llibreries petites són poc rendibles?\nPerquè venen prou per mantenir-se, però no per créixer.\nQuè reben els subscriptors cada mes?\nReben un paquet amb un llibre triat pels llibreters.\nQuè li sembla intolerable a l'autor?\nQue el nom del traductor no aparegui a la coberta.\nQuè han de possibilitar les biblioteques públiques?\nHan de possibilitar que tothom llegeixi, també qui no pot pagar vint euros."
+    },
+    {
+      "title": "Dietari d'una novel·la endarrerida",
+      "summary": "In his diary, the novelist Zenobi Rexach spends a month in a stone farmhouse near Olot, among old volcanoes, to finish a late novel: a third deadline extension, the wind whistling at night, weekly trips for groceries and a stubborn character he cannot reason with.",
+      "newWords": [
+        "volcànic",
+        "pròrroga",
+        "crònic",
+        "queviures",
+        "xiular",
+        "onejar",
+        "travesser",
+        "raonar"
+      ],
+      "text": "Dilluns, 3 de febrer\n\nHe arribat al mas a les cinc de la tarda. És una casa de pedra prop d'Olot, enmig d'una zona volcànica plena de turons arrodonits i de boscos de faigs. El terra és fosc i esponjós, de terra volcànica, i quan plou fa una olor que no havia sentit mai. Tinc trenta dies per acabar la novel·la. L'editora m'ha concedit una pròrroga de dos mesos, i és la tercera pròrroga que li demano.\n\nDimarts, 4 de febrer\n\nHo he d'admetre: el meu retard és crònic. Vaig lliurar tard el primer llibre, el segon i el tercer. Un mal crònic no es cura amb bones intencions, sinó amb hàbits. Per això he vingut aquí, sense internet i sense ningú. He decidit escriure de vuit a una cada matí, passi el que passi.\n\nDijous, 6 de febrer\n\nAvui he baixat al poble a comprar queviures: pa, ous, llegums, fruita i cafè. La botiguera m'ha preguntat si era «el senyor que escriu». Al poble ja ho saben tot. Baixaré a buscar queviures cada dijous, i així tindré una excusa per parlar amb algú.\n\nDiumenge, 9 de febrer\n\nAquesta nit el vent ha xiulat a les escletxes de la finestra fins a les tres. Sentia xiular el vent com si algú bufés dins d'una ampolla. M'he llevat, he escalfat aigua i, quan la tetera ha començat a xiular, he rigut sol a la cuina. No he dormit gaire, però he escrit sis pàgines.\n\nDimecres, 12 de febrer\n\nEl meu problema és l'Ivonne, la protagonista. Vull que se'n vagi de casa al capítol nou, i ella no vol. Intento raonar amb el personatge: li escric diàlegs, li busco motius. No hi ha manera. Raonar amb un personatge tossut és com raonar amb el vent. Potser té raó ella i el capítol nou està mal pensat.\n\nDivendres, 21 de febrer\n\nFa sol. He estès la roba al pati i l'he vist onejar tota la tarda. Les cortines de l'habitació també onejaven amb l'aire que entrava per la finestra oberta. Mirant-les, he entès el capítol nou: l'Ivonne no se'n va de casa; es queda i obre les finestres. Ho he escrit d'una tirada.\n\nDilluns, 3 de març\n\nHe acabat la novel·la. L'he rellegida al llit, amb el travesser a l'esquena, com quan era petit i llegia fins tard. Aquest travesser vell, llarg i dur, m'ha fet companyia tot el mes. Demà enviaré el manuscrit a l'editora. Sense demanar cap pròrroga més.\n\nPreguntes:\nOn és el mas on escriu en Zenobi?\nÉs prop d'Olot, enmig d'una zona volcànica.\nPer què diu que el seu retard és crònic?\nPerquè va lliurar tard els seus tres primers llibres.\nQuè va a comprar al poble cada dijous?\nVa a comprar queviures: pa, ous, llegums, fruita i cafè.\nAmb qui intenta raonar en Zenobi?\nIntenta raonar amb l'Ivonne, la protagonista de la novel·la.\nQuè li dona la idea per al capítol nou?\nVeure onejar la roba i les cortines amb l'aire."
+    },
+    {
+      "title": "Quant mesura una balena?",
+      "summary": "Anabel, a biologist, writes an illustrated children's book about mammals; her editor Ambrosi finds that a wiki contradicts the length she gives for the blue whale, and they check the scientific bibliography together before polishing the text.",
+      "newWords": [
+        "mamífer",
+        "llargada",
+        "wiki",
+        "contradir",
+        "bibliografia",
+        "emergir",
+        "duna",
+        "perfeccionar"
+      ],
+      "text": "L'Anabel Magrinyà és biòloga i fa vint anys que estudia els animals marins. Fa un any, una editorial de Tarragona li va proposar escriure un llibre il·lustrat per a nens sobre els mamífers. La idea era senzilla: cada doble pàgina presentaria un mamífer diferent, amb un dibuix gran i un text breu. L'Anabel va triar trenta mamífers, des del ratolí més petit fins a la balena blava.\n\nLa pàgina de la balena era la seva preferida. «La balena blava és el mamífer més gran que ha existit mai», hi va escriure. «La seva llargada pot arribar als trenta metres, com tres autobusos l'un darrere l'altre.» Per ajudar els nens a imaginar aquesta llargada, la il·lustradora va dibuixar la balena al costat d'un autobús escolar.\n\nEn Ambrosi Dachs, l'editor, revisa totes les dades abans d'imprimir un llibre. Un dia va trucar a l'Anabel. «He buscat la balena blava en una wiki i diu que fa trenta-tres metres. La wiki et contradiu.» L'Anabel no es va enfadar. Li va explicar que una wiki és una enciclopèdia que pot escriure qualsevol persona: és útil per començar, però no sempre és fiable. «Que una wiki em contradigui no vol dir que jo m'equivoqui», va dir. «Però tampoc vol dir que jo tingui raó. Mirem-ho bé.»\n\nVan consultar junts la bibliografia científica: articles i llibres de biòlegs que han mesurat balenes reals. La bibliografia confirmava que les balenes més grans mesurades amb exactitud feien uns trenta metres i que la xifra de trenta-tres venia d'una mesura antiga i poc precisa. L'Anabel va decidir afegir una pàgina de bibliografia al final del llibre, amb llibres per a nens que vulguin saber-ne més.\n\nLa pàgina de la balena també explicava com respira. Els mamífers marins no respiren sota l'aigua: han d'emergir per agafar aire. Quan la balena emergeix, treu un raig d'aigua i vapor que es veu de molt lluny. L'Anabel volia que els nens entenguessin que la balena respira aire com ells i que per això ha d'emergir.\n\nEn una altra pàgina hi havia el fenec, una guineu petita que viu entre les dunes del desert. El primer text deia que el fenec «viu a la sorra». En Ambrosi el va trobar massa poc precís, i l'Anabel el va perfeccionar: «El fenec dorm de dia en un cau que excava al peu de les dunes, on la sorra és més fresca.» Les dunes canvien de forma amb el vent, i el fenec en coneix cada racó.\n\nVan passar tres setmanes perfeccionant els textos. «Un llibre per a nens no ha de ser més fàcil», diu l'Anabel. «Ha de ser més clar. I això costa molt més.»\n\nPreguntes:\nDe què tracta el llibre de l'Anabel?\nTracta de trenta mamífers, des del ratolí més petit fins a la balena blava.\nQuina llargada pot tenir la balena blava?\nPot arribar als trenta metres, com tres autobusos.\nQuè li va dir l'editor sobre la wiki?\nLi va dir que la wiki deia trenta-tres metres i que, per tant, la contradeia.\nPer què la balena ha d'emergir?\nPerquè és un mamífer i no pot respirar sota l'aigua.\nOn dorm el fenec?\nDorm en un cau que excava al peu de les dunes."
+    },
+    {
+      "title": "Les històries del sogre",
+      "summary": "Manuela records her father-in-law Bartolí, a retired farmer in the Ebre delta, telling the folk tales he heard as a child, and transcribes them: he leans towards the recorder and does the characters' voices in falsetto, a fridge hums on and off, and the printed booklet moves him to tears of gratitude.",
+      "newWords": [
+        "nora",
+        "transcriure",
+        "falset",
+        "inclinar",
+        "intermitent",
+        "recanvi",
+        "plor",
+        "gratitud"
+      ],
+      "text": "En Bartolí Sanmartí té vuitanta-sis anys i ha viscut sempre al delta de l'Ebre, on va conrear arròs fins que es va jubilar. Coneix desenes d'històries que li explicava la seva mare quan era petit: contes de pagesos llestos, de nenes que enganyen moliners avariciosos i d'animals que parlen. La Manuela, la seva nora, és mestra i fa temps que vol guardar aquestes històries abans que es perdin.\n\nTots els dissabtes a la tarda, la Manuela va a casa del sogre amb una gravadora petita. En Bartolí seu a la butaca de sempre i, quan ella prem el botó, s'inclina cap a la gravadora com si li hagués de dir un secret. «Si m'inclino, se'm sent millor», diu. La Manuela li ha explicat que no cal, que l'aparell el sent igual, però ell continua inclinant-se cap a la màquina cada vegada que comença un conte.\n\nEl més divertit són les veus. Quan parla una nena o una gallina, en Bartolí canvia de veu i parla en falset. El seu falset és tan agut que els néts esclaten a riure. Un conte sencer amb tres gallines és un concert de falset.\n\nDesprés, a casa, la Manuela ha de transcriure les gravacions. Transcriure és més difícil del que semblava. En Bartolí parla de pressa, repeteix frases i de vegades canvia el final a mitja història. La Manuela decideix transcriure exactament el que diu, amb les repeticions i les paraules del delta, i anotar al marge què vol dir cada paraula local.\n\nHi ha un problema tècnic: la nevera de la cuina fa un soroll intermitent. Cada pocs minuts el motor s'engega, fa una remor durant mig minut i s'atura. A la gravació, aquest soroll intermitent tapa algunes paraules. La Manuela ha après a demanar al sogre que repeteixi les frases quan sent la nevera. També ha après a portar sempre piles de recanvi, des del dia que la gravadora es va apagar enmig del millor conte. Ara té una bossa amb piles de recanvi i una targeta de memòria de recanvi.\n\nAl cap d'un any, la Manuela té quaranta contes transcrits. Amb l'ajuda de l'escola, n'ha fet imprimir un llibret amb dibuixos dels alumnes. El dia que l'hi porta, en Bartolí el fulleja en silenci. Després se li escapa el plor. No és un plor trist: és el plor d'algú que veu les històries de la seva infantesa impreses en paper. «No sé com dir-te la gratitud que sento», diu a la seva nora. La Manuela li respon que la gratitud és mútua, perquè ell li ha regalat les històries.\n\nPreguntes:\nQui és la Manuela?\nÉs la nora d'en Bartolí i és mestra.\nQuè fa en Bartolí quan comença un conte?\nS'inclina cap a la gravadora com si li hagués de dir un secret.\nQuan parla en falset?\nQuan parla una nena o una gallina.\nQuin problema té la gravació?\nLa nevera fa un soroll intermitent que tapa algunes paraules.\nPer què porta piles de recanvi la Manuela?\nPerquè un dia la gravadora es va apagar enmig del millor conte."
+    },
+    {
+      "title": "La biblioteca amb remolc",
+      "summary": "Luci drives a library van with a trailer around the villages of the Segarra; she parks at a crossroads, opens a reading room in a disused school, and Calixte, a retired gardener with a fondness for gardening books, pays her back with peas from his plot and a neighbour's fresh cheese.",
+      "newWords": [
+        "remolc",
+        "encreuament",
+        "desocupat",
+        "turmell",
+        "jardiner",
+        "afecció",
+        "pèsol",
+        "mató"
+      ],
+      "text": "La Luci Pibernat és bibliotecària, però no treballa en un edifici. Cada dia condueix un bibliobús per la Segarra: una furgoneta que arrossega un remolc ple de prestatges. A la furgoneta hi porta els llibres per a adults; al remolc, els contes infantils, els còmics i les revistes. Quan arriba a un poble, aparca, obre el lateral del remolc i el remolc es converteix en una petita biblioteca.\n\nEls dimecres para en un encreuament de carreteres on es troben els camins de tres pobles. A l'encreuament no hi ha cap casa, només una font i un arbre gran. Però a les deu del matí hi arriba gent dels tres pobles, a peu, en bicicleta o en tractor. La Luci diu que aquell encreuament és la plaça que els tres pobles no tenen.\n\nA l'hivern, a l'encreuament hi ha fang. Després d'un dia de pluja, el fang arriba fins al turmell, i els lectors esperen damunt d'uns taulons que la Luci porta al remolc. Un dia, una senyora hi va enfonsar el peu fins al turmell i va dir, rient, que la setmana següent vindria amb botes d'aigua.\n\nEn un dels pobles, l'escola fa anys que està desocupada, perquè hi queden pocs nens. L'ajuntament va proposar a la Luci d'utilitzar l'edifici desocupat com a sala de lectura els dies que hi passa el bibliobús. Ara, a l'antiga aula, hi ha cadires, una estufa i una taula amb diaris. Un edifici desocupat ha tornat a tenir vida.\n\nEl lector més fidel de la Luci és en Calixte, un jardiner jubilat que va treballar trenta anys als parcs de Lleida. Té una gran afecció pels llibres de jardineria: n'ha llegit tots els que porta el bibliobús, i la Luci n'ha de demanar de nous a la xarxa de biblioteques. «La meva afecció per les plantes va començar amb un llibre», diu en Calixte. «Un jardiner sense llibres és un jardiner que repeteix sempre el mateix.»\n\nEn Calixte té un hort darrere de casa. A la primavera, quan torna els llibres, sempre hi afegeix una bossa de pèsols acabats de collir. «Els pèsols s'han de menjar el mateix dia», li diu. Un dia, a més dels pèsols, li va portar un mató que fa una veïna seva amb llet de cabra. La Luci se'l va menjar aquell vespre, amb una mica de mel, i va pensar que ser bibliotecària d'un remolc tenia avantatges que cap biblioteca de ciutat no té.\n\nPreguntes:\nQuè porta la Luci al remolc?\nPorta els contes infantils, els còmics i les revistes.\nPer què l'encreuament és important per als tres pobles?\nPerquè la gent dels tres pobles s'hi troba, com si fos una plaça.\nFins on arriba el fang després d'un dia de pluja?\nArriba fins al turmell.\nPer a què serveix ara l'escola desocupada?\nServeix com a sala de lectura els dies que passa el bibliobús.\nQuè li regala en Calixte a la Luci?\nLi regala pèsols del seu hort i, un dia, un mató d'una veïna."
+    },
+    {
+      "title": "Retrat: l'escriptor del matx",
+      "summary": "A portrait of Orenci Valldeperas, an eighty-year-old novelist in Sabadell whose best-known book is about a chess match played in a café; on the café's last day before demolition he reads from it on the terrace, the wind snatches his pages, and he talks about crooked lines, diamonds and the brain.",
+      "newWords": [
+        "matx",
+        "demolició",
+        "arrabassar",
+        "onda",
+        "alineació",
+        "diamant",
+        "neurona"
+      ],
+      "text": "Orenci Valldeperas té vuitanta anys i ha publicat nou novel·les, però tothom el coneix per una de sola: «El matx de l'hivern». La novel·la explica un matx d'escacs entre dos jubilats que juguen cada tarda en un cafè de Sabadell durant tot un hivern. No passa res més: dos homes, un tauler i un cafè. I, tanmateix, el lector no pot deixar de llegir.\n\nEl cafè existia de veritat. En Valldeperas hi va passar mitja vida, escrivint en una taula del fons mentre els jubilats jugaven al costat. Aquest mes el cafè tanca: l'edifici és vell i l'ajuntament n'ha aprovat la demolició. Abans de la demolició, els propietaris li van demanar que hi fes una última lectura.\n\nLa lectura es va fer a la terrassa, una tarda de vent. En Valldeperas va llegir el capítol del matx final amb una veu tranquil·la. A mitja lectura, una ràfega li va arrabassar tres fulls de les mans i els va escampar pel carrer. Un nen va córrer a buscar-los. «El vent sempre m'ha volgut arrabassar els finals», va dir l'escriptor, i el públic va riure.\n\nMentre llegia, sobre la taula hi havia un cafè. Cada vegada que passava un camió, a la superfície de la tassa s'hi formaven unes ondes petites i perfectes. En Valldeperas es va quedar mirant les ondes un moment. Després va explicar que la seva novel·la va néixer així: mirant les ondes d'un cafè mentre dos homes pensaven en silenci.\n\nQuan li pregunten per la primera edició, encara s'enfada una mica. La impremta va fer una alineació del text tan estranya que les línies semblaven torçades. «Una mala alineació ho espatlla tot», diu. «El lector no sap per què, però se sent incòmode.» A la segona edició van corregir l'alineació, i el llibre va començar a vendre's.\n\nEn Valldeperas compara les frases amb els diamants. «Un diamant en brut no brilla», diu. «S'ha de tallar moltes vegades. Una frase és igual: la primera versió és un diamant sense tallar.» Per això reescriu cada pàgina sis o set vegades.\n\nTambé diu que els escacs i l'escriptura s'assemblen. «Totes dues coses fan treballar les neurones de la mateixa manera: has de pensar tres moviments endavant.» Fa uns anys va llegir que les neurones es mantenen actives si les fas servir. Des d'aleshores juga una partida d'escacs cada matí i escriu cada tarda.\n\nAra el cafè ja és buit, i d'aquí a uns dies arribaran les màquines de la demolició. En Valldeperas no hi vol ser. Diu que el cafè ja és dins del llibre, i que d'allà no el traurà ningú.\n\nPreguntes:\nDe què tracta «El matx de l'hivern»?\nTracta d'un matx d'escacs entre dos jubilats en un cafè de Sabadell.\nPer què es va fer una última lectura al cafè?\nPerquè l'edifici és vell i aviat en començarà la demolició.\nQuè li va arrabassar el vent?\nLi va arrabassar tres fulls de les mans.\nQuin problema tenia la primera edició?\nTenia una alineació del text tan estranya que les línies semblaven torçades.\nPer què compara les frases amb els diamants?\nPerquè, com un diamant, una frase s'ha de tallar moltes vegades perquè brilli."
+    }
+  ]
+}

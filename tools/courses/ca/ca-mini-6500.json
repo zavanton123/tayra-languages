@@ -1,0 +1,206 @@
+{
+  "id": "ca-mini-6500",
+  "rankUpTo": 6500,
+  "level": "C1",
+  "title": "L'art dels enginyers",
+  "description": "Ten standalone texts about engineering: an accessible metro platform, an opinion column on a new motorway, an interview with the co-founder of a pedal maker, a vegetable-cutting machine, graphene, prehistoric builders, a school playground, data for a junior basketball team, a review of a film about a canal, and a sheet-folding machine in an old mill.",
+  "topic": "Engineering",
+  "names": [
+    "Georgina",
+    "Maspons",
+    "Barcelona",
+    "Isarn",
+    "Molist",
+    "Tàrrega",
+    "Balaguer",
+    "Lleida",
+    "Armand",
+    "Lloveras",
+    "Renata",
+    "Figuerola",
+    "Martorell",
+    "Aimar",
+    "Comellas",
+    "Berlín",
+    "Aldric",
+    "Monràs",
+    "Vic",
+    "Dèlia",
+    "Rocamora",
+    "Aroa",
+    "Surroca",
+    "Xabier",
+    "Arimany",
+    "Mollerussa",
+    "Aritz",
+    "Massagué",
+    "Badalona",
+    "Lúcia",
+    "Espriu",
+    "Eider",
+    "Guitart",
+    "Mael",
+    "Montané",
+    "Puigcerdà",
+    "Eneida",
+    "Pedrals",
+    "Tibau",
+    "Perarnau",
+    "Gilabert",
+    "Yanira",
+    "Castellar del Vallès",
+    "Aïda",
+    "Gombau"
+  ],
+  "lessons": [
+    {
+      "title": "L'andana nova",
+      "summary": "Georgina, an engineer at the Barcelona metro, rebuilds the platform of an old station with the help of Isarn, a blind man: tactile paving along the edge, a floor raised to the level of the train, and a visit by a group of technicians and association members before the opening.",
+      "newWords": [
+        "andana",
+        "comboi",
+        "tàctil",
+        "deficient",
+        "ocasionar",
+        "equiparar",
+        "comitiva",
+        "indiscutible"
+      ],
+      "text": "La Georgina Maspons és enginyera de l'empresa que gestiona el metro de Barcelona. Fa dos anys que treballa en un projecte que sembla senzill: renovar l'andana d'una estació antiga de la línia 1, construïda fa gairebé cent anys, quan ningú no pensava en les persones que van amb cadira de rodes o que no hi veuen.\n\nEl primer dia que hi va baixar amb la llibreta, la Georgina va fer una llista de problemes. L'andana era estreta i corba, i entre la vora i la porta del comboi quedava un espai de gairebé quinze centímetres. A més, el terra del comboi era més alt que l'andana. «Per a la majoria de viatgers és una molèstia», va escriure. «Per a algú que va amb cadira de rodes, és una barrera.» La llum també era deficient: hi havia racons foscos, i els rètols, petits i gastats, es llegien malament. Un accés deficient, va pensar, no és només incòmode: pot ocasionar caigudes i fa que molta gent deixi d'agafar el metro.\n\nAbans de dibuixar res, la Georgina va parlar amb l'Isarn Molist, un home cec que forma part d'una associació de persones amb discapacitat visual. L'Isarn li va explicar com es mou per l'estació amb el bastó. «Necessito saber on acaba l'andana sense haver de buscar-ho a cada pas», li va dir. Per això el projecte inclou un paviment tàctil: una franja de rajoles amb relleu, paral·lela a la vora, que es nota amb els peus i amb el bastó. Unes altres línies tàctils, més estretes, porten els viatgers des de l'entrada fins a les portes del comboi.\n\nL'altre gran canvi és l'alçada. Les obres han aixecat el terra de l'andana fins al nivell del comboi i han reduït l'espai de la vora a pocs centímetres. «La idea és equiparar l'accés de tothom», explica la Georgina. «No volem una entrada especial per a unes quantes persones, sinó una sola andana que serveixi a tothom igual. Equiparar vol dir això: que ningú no hagi de demanar ajuda per pujar al tren.»\n\nLa setmana passada, una comitiva de tècnics de l'empresa i de membres de l'associació va visitar l'estació abans de l'obertura. La comitiva va recórrer l'andana a poc a poc. L'Isarn va caminar sobre el paviment tàctil, va trobar la vora sense dubtar i va pujar al comboi sense ajuda. «El resultat és indiscutible», va dir. «Fa vint anys que espero poder fer això sol.»\n\nAra la Georgina prepara un informe per a les altres estacions. Sap que no totes es podran reformar alhora, perquè les obres ocasionen molèsties i talls de servei. Però una cosa és indiscutible: cal escoltar els usuaris abans de dibuixar.\n\nPreguntes:\nQuins problemes tenia l'andana antiga?\nEra estreta i corba, quedava un espai gran entre la vora i el comboi, i la llum era deficient.\nPer a què serveix el paviment tàctil?\nServeix perquè les persones cegues notin amb els peus i amb el bastó on acaba l'andana i on són les portes.\nQuè vol dir equiparar l'accés, segons la Georgina?\nVol dir que ningú no hagi de demanar ajuda per pujar al tren.\nQui formava part de la comitiva que va visitar l'estació?\nHi havia tècnics de l'empresa i membres de l'associació de persones amb discapacitat visual.\nQuè va dir l'Isarn després de pujar al comboi?\nVa dir que el resultat era indiscutible i que feia vint anys que esperava poder fer-ho sol."
+    },
+    {
+      "title": "Article d'opinió: una autovia per a la plana",
+      "summary": "In an opinion column, Armand Lloveras weighs the draft project for a motorway between Tàrrega and Balaguer: safer roads and savings for local firms against lost farmland, rising costs and a plan that thinks only of the car.",
+      "newWords": [
+        "autovia",
+        "avantprojecte",
+        "socioeconòmic",
+        "asfalt",
+        "licitació",
+        "inflació",
+        "consegüent",
+        "predomini",
+        "cometa"
+      ],
+      "text": "Fa uns dies vaig llegir l'avantprojecte de l'autovia que ha d'unir Tàrrega i Balaguer. És un document de més de tres-centes pàgines, amb plànols, estudis de trànsit i un capítol sencer dedicat a l'impacte socioeconòmic de l'obra. Hi he trobat arguments a favor i en contra, i vull exposar-los amb calma, perquè al meu poble el debat té molts crits i poques dades.\n\nComencem pels arguments a favor. La carretera actual és estreta, té corbes perilloses i cada dia hi passen centenars de camions carregats de fruita. Una autovia, amb dos carrils per sentit i sense cruïlles, reduiria els accidents i el temps de viatge. L'estudi socioeconòmic de l'avantprojecte calcula que les empreses de la comarca estalviarien diners en transport i que, per consegüent, se n'hi podrien instal·lar de noves. És un benefici real.\n\nAra bé, l'avantprojecte també mostra el preu. L'autovia ocuparia unes dues-centes hectàrees de bons camps, i una part de l'horta quedaria tallada en dos. Cada quilòmetre d'asfalt és un quilòmetre de terra que ja no tornarà a produir. I l'asfalt no s'acaba el dia que s'inaugura l'obra: cal mantenir-lo, i el manteniment d'una autovia costa molt més que el d'una carretera.\n\nHi ha també la qüestió del pressupost. La licitació de les obres es farà, si tot va bé, d'aquí a dos anys. Amb la inflació dels últims temps, el preu dels materials ha pujat molt, i és probable que el cost final sigui més alt que el de l'avantprojecte. Ja ha passat altres vegades: una licitació a un preu massa baix, una empresa que no pot acabar la feina i obres aturades a mig fer, amb el consegüent retard. La inflació és un risc que cal tenir en compte.\n\nEm preocupa, sobretot, el predomini del cotxe en tot el document. L'avantprojecte dedica cent pàgines a l'autovia i només dues al tren, que fa anys que funciona malament. S'hi parla molt de «progrés», i escric la paraula entre cometes perquè no vol dir el mateix per a tothom. Per a uns, el progrés és arribar deu minuts abans a Lleida; per a d'altres, és que els fills puguin anar a l'institut en tren sense dependre de ningú. Les cometes no són una ironia: són una pregunta.\n\nNo soc contrari a l'obra. La carretera actual necessita una solució. Però demano que el debat es faci amb les dades a la mà i que, abans de la licitació, es compari l'autovia amb una millora de la carretera i del tren. Potser l'autovia és la millor opció. Però, si ho és, que ho sigui perquè ho hem estudiat bé, i no pel predomini d'una sola idea.\n\nArmand Lloveras\n\nPreguntes:\nQuè conté l'avantprojecte de l'autovia?\nConté plànols, estudis de trànsit i un capítol sobre l'impacte socioeconòmic de l'obra.\nQuins avantatges tindria l'autovia, segons l'article?\nReduiria els accidents i el temps de viatge, i les empreses de la comarca estalviarien diners en transport.\nPer què preocupa la inflació a l'autor?\nPerquè el preu dels materials ha pujat i el cost final pot ser més alt que el de l'avantprojecte.\nPer què escriu la paraula «progrés» entre cometes?\nPerquè el progrés no vol dir el mateix per a tothom.\nQuè demana l'autor abans de la licitació?\nDemana que es compari l'autovia amb una millora de la carretera i del tren."
+    },
+    {
+      "title": "Entrevista amb la cofundadora d'una empresa de pedals",
+      "summary": "An interview with Renata Figuerola, co-founder of a small company in Martorell that makes bicycle pedals that measure each leg's force: how it started, learning to delegate, honest distributors and why they turned down a celebrity sponsorship.",
+      "newWords": [
+        "cofundador",
+        "pedal",
+        "insistència",
+        "delegar",
+        "distribuïdor",
+        "franquesa",
+        "professionalitat",
+        "patrocini",
+        "celebritat"
+      ],
+      "text": "La Renata Figuerola és enginyera mecànica i cofundadora d'una petita empresa de Martorell que fabrica pedals de bicicleta capaços de mesurar la força de cada cama. La va crear fa vuit anys amb l'Aimar Comellas, un company de la universitat. Avui tenen vint treballadors i venen a una dotzena de països.\n\nCom va començar tot?\n\nAmb una bicicleta vella i molta insistència. L'Aimar i jo fèiem curses de muntanya i volíem saber per què una cama se'ns cansava més que l'altra. Els aparells que hi havia eren caríssims. Vam pensar que podíem posar els mesuradors dins del pedal mateix. El primer prototip pesava el doble que un pedal normal i es trencava cada setmana. Sense insistència, ho hauríem deixat el primer any.\n\nQuè vol dir ser cofundadora d'una empresa?\n\nVol dir que, durant anys, ho fas tot: dissenyes, proves, respons correus i portes els comptes. L'Aimar i jo som cofundadors, però ens hem repartit la feina: ell s'ocupa de la producció i jo, del disseny. El més difícil per a mi ha estat aprendre a delegar. Al principi revisava cada peça i cada factura. Ara sé que, si no delego, l'empresa no pot créixer. Delegar no és desentendre's de res: és confiar en la gent que has triat.\n\nCom vau arribar a vendre a fora?\n\nGràcies a un distribuïdor de Berlín que ens va veure en una fira. Un bon distribuïdor coneix les botigues, els ciclistes i les normes de cada país. Nosaltres sols no hauríem arribat enlloc. Avui treballem amb sis distribuïdors, i a cada distribuïdor li demanem el mateix: franquesa. Si un model no es ven, volem saber-ho de seguida, no al cap d'un any.\n\nLa franquesa és important per a vosaltres?\n\nMolt. Quan un pedal falla, ho diem obertament i el canviem. La professionalitat no és no equivocar-se mai: és com respons quan t'equivoques. Una vegada un client ens va escriure molt enfadat. L'endemà li vam enviar un pedal nou i una explicació del problema. Ara és un dels nostres clients més fidels.\n\nTeniu el patrocini d'alguna celebritat?\n\nEns ho han proposat moltes vegades. Una celebritat del ciclisme pot fer vendre molt, però aquest patrocini costa una fortuna i, a més, la gent acaba comprant el pedal per la persona, no per l'enginyeria. Hem preferit un altre tipus de patrocini: donem pedals a un equip de ciclistes joves de la comarca. Ells ens diuen amb franquesa què funciona i què no. Per a nosaltres, això val més que la foto d'una celebritat.\n\nQuè li diria a algú que vol crear una empresa?\n\nQue busqui un bon cofundador: algú que pensi diferent, però que tingui la mateixa idea de professionalitat. I que no perdi mai la insistència, perquè les coses gairebé mai no surten bé a la primera.\n\nPreguntes:\nQuè fabrica l'empresa de la Renata?\nFabrica pedals de bicicleta que mesuren la força de cada cama.\nQuè ha estat el més difícil per a la Renata com a cofundadora?\nAprendre a delegar, perquè al principi ho revisava tot.\nQuè demana l'empresa a cada distribuïdor?\nLi demana franquesa: vol saber de seguida si un model no es ven.\nQuè és la professionalitat, segons la Renata?\nÉs la manera com respons quan t'equivoques.\nPer què no volen el patrocini d'una celebritat?\nPerquè costa una fortuna i la gent compraria el pedal per la persona, no per l'enginyeria."
+    },
+    {
+      "title": "La màquina de la juliana",
+      "summary": "Aldric, an engineer at a kitchen-machine maker in Vic, designs a machine that cuts vegetables into julienne strips; tests in Dèlia's restaurant show a sour taste from crushed edges, and a fork left on the machine gives him the idea that solves it.",
+      "newWords": [
+        "juliana",
+        "temptativa",
+        "cassola",
+        "agre",
+        "forquilla",
+        "accidental",
+        "deliberadament"
+      ],
+      "text": "L'Aldric Monràs treballa en una empresa de Vic que fabrica màquines per a les cuines dels restaurants. Fa mesos que dissenya una màquina que talla verdures a la juliana: tires llargues i fines, de dos o tres mil·límetres de gruix, com les que fan servir els cuiners per a amanides, sopes i salses.\n\nTallar a la juliana a mà és lent. Un bon cuiner necessita mitja hora per tallar un quilo de pastanagues, i al final té la mà cansada. La màquina de l'Aldric ho ha de fer en un minut, i sense que les tires es trenquin.\n\nLa primera temptativa va ser un fracàs. Les fulles giraven massa de pressa i les pastanagues sortien aixafades, convertides gairebé en una pasta. La segona temptativa va resoldre el problema de la velocitat, però les tires de ceba s'enganxaven a les fulles. L'Aldric va provar fulles de diferents gruixos i de diferents angles. Cada temptativa fallida li ensenyava alguna cosa.\n\nPer comprovar els resultats, va portar la màquina al restaurant de la Dèlia Rocamora, una cuinera que coneix des de fa anys. La Dèlia va preparar una cassola d'arròs amb verdures tallades a la juliana per la màquina i una altra cassola amb verdures tallades a mà. Després va servir les dues cassoles als seus cuiners, sense dir-los quina era quina.\n\nEl resultat el va sorprendre. Els cuiners van trobar que la verdura de la màquina tenia un gust una mica agre. L'Aldric no ho entenia. Van mirar les tires de prop i van veure que les vores estaven aixafades: la fulla no tallava net, sinó que trencava la verdura, i el suc s'espatllava més de pressa. Aquell gust agre era la prova d'un tall deficient.\n\nLa solució va arribar de manera accidental. Un dia, l'Aldric dinava al taller i va deixar una forquilla damunt de la màquina. En recollir-la, es va fixar en les puntes de la forquilla: eren primes, estaven separades i entraven a la pastanaga sense aixafar-la. Va pensar que potser les fulles havien de tallar com les puntes d'una forquilla, una darrere l'altra, i no totes alhora. Va ser un descobriment accidental, però no pas casual: feia setmanes que hi pensava.\n\nA la temptativa següent, va col·locar les fulles deliberadament desplaçades, perquè entressin a la verdura una rere l'altra. També les va esmolar deliberadament més del que és habitual. Aquesta vegada les tires van sortir netes i fermes.\n\nLa Dèlia va repetir la prova de les dues cassoles. Cap dels cuiners no va saber dir quina verdura havia tallat la màquina, i cap de les dues no tenia gust agre. «Ara sí», va dir la Dèlia. «Ja la pots vendre.»\n\nPreguntes:\nQuè ha de fer la màquina de l'Aldric?\nHa de tallar verdures a la juliana en un minut, sense que les tires es trenquin.\nCom va comprovar els resultats amb la Dèlia?\nLa Dèlia va preparar dues cassoles, una amb verdures tallades per la màquina i una altra amb verdures tallades a mà.\nPer què la verdura de la màquina tenia un gust agre?\nPerquè la fulla aixafava les vores, i el suc s'espatllava més de pressa.\nCom li va venir la idea de la solució?\nDe manera accidental: es va fixar en les puntes d'una forquilla que havia deixat damunt de la màquina.\nQuè va fer deliberadament a la temptativa següent?\nVa col·locar les fulles desplaçades i les va esmolar més del que és habitual."
+    },
+    {
+      "title": "Una làmina d'un sol àtom",
+      "summary": "A short informative text on graphene: a one-atom sheet of carbon whose honeycomb geometry makes it strong, the quantum behaviour of its electrons, the difficulty of making large perfect sheets, and the cautious view of a leading researcher.",
+      "newWords": [
+        "làmina",
+        "geometria",
+        "cel·lular",
+        "quàntic",
+        "sintetitzar",
+        "debilitar",
+        "inherent",
+        "prominent"
+      ],
+      "text": "El grafè és un dels materials que desperten més interès entre els enginyers. És una làmina de carboni d'un sol àtom de gruix: tan prima que una pila de tres milions de làmines faria només un mil·límetre. Tot i així, és més resistent que l'acer i condueix l'electricitat millor que el coure.\n\nEl secret és la geometria. Els àtoms de carboni del grafè s'uneixen formant figures de sis costats, com les cel·les dels panells que fan les abelles. Aquesta geometria reparteix la força per igual en totes direccions, de manera que la làmina no té cap punt feble. Els enginyers parlen d'una estructura cel·lular, una expressió que també fan servir per als panells de les abelles, les escumes i alguns ossos.\n\nLes estructures cel·lulars interessen molt a l'enginyeria perquè permeten fer peces lleugeres i fortes alhora. El terra de molts avions, per exemple, porta a dins una placa d'alumini amb estructura cel·lular. Gairebé tot el volum és aire, i tanmateix la peça aguanta pesos enormes.\n\nEn el grafè, però, passa una cosa que no es veu en els materials de cada dia. A una escala tan petita, el moviment dels electrons segueix les lleis de la física quàntica. Els electrons es desplacen per la làmina a una velocitat altíssima, com si gairebé no pesessin. Els físics estudien aquests efectes quàntics per fabricar xips més ràpids i aparells de mesura molt sensibles. De moment, però, la majoria d'aquestes aplicacions quàntiques només existeixen als laboratoris.\n\nEl gran problema és la fabricació. Sintetitzar grafè en petites quantitats és relativament fàcil. Sintetitzar làmines grans i perfectes, en canvi, és molt difícil i molt car. Qualsevol defecte, un sol àtom fora de lloc, pot debilitar el material: la força ja no es reparteix per igual i la làmina es trenca per aquell punt. La brutícia que queda del procés també pot debilitar les seves propietats elèctriques.\n\nHi ha, a més, una dificultat inherent a la forma del material. Una làmina tan prima es doblega, s'arruga i s'enganxa a tot el que toca. Aquesta dificultat no és un error de fabricació: és inherent a un material que té un sol àtom de gruix. Quan la làmina s'arruga, hi apareixen plecs prominents que en canvien el comportament.\n\nL'Aroa Surroca, una de les investigadores més prominents del camp, demana paciència. «Durant uns anys es va dir que el grafè ho canviaria tot de seguida», explica. «No ha estat així. Però els materials nous sempre triguen dècades a sortir del laboratori. L'acer i el plàstic també van necessitar molt de temps.»\n\nPreguntes:\nQuè és el grafè?\nÉs una làmina de carboni d'un sol àtom de gruix.\nPer què és tan resistent?\nPer la seva geometria: els àtoms formen figures de sis costats que reparteixen la força per igual.\nPer què interessen les estructures cel·lulars a l'enginyeria?\nPerquè permeten fer peces lleugeres i fortes alhora.\nQuè pot debilitar el material?\nQualsevol defecte, com un sol àtom fora de lloc, i la brutícia que queda del procés.\nQuina dificultat és inherent al grafè?\nCom que és tan prim, es doblega, s'arruga i s'enganxa a tot el que toca."
+    },
+    {
+      "title": "Enginyers de la prehistòria",
+      "summary": "The anthropologist Xabier Arimany studies a Bronze Age village near Mollerussa: roof beams joined with wooden pegs, a shared grain pit and a shared pond fed by a stone channel, and the slow, orderly way the village was left.",
+      "newWords": [
+        "prehistòria",
+        "antropòleg",
+        "piu",
+        "antropologia",
+        "comunal",
+        "primerenc",
+        "abandó"
+      ],
+      "text": "Quan pensem en enginyeria, imaginem ponts d'acer, grues i ordinadors. En Xabier Arimany, antropòleg de la Universitat de Lleida, creu que els primers enginyers van viure a la prehistòria. Fa deu anys que estudia un poblat de fa uns tres mil cinc-cents anys, a prop de Mollerussa, i cada estiu hi torna amb un grup d'estudiants.\n\n«A la prehistòria no hi havia plànols ni càlculs», explica, «però hi havia problemes tècnics i solucions molt enginyoses.» Al poblat, les cases eren de pedra i fang, i el sostre s'aguantava amb bigues de fusta. Les bigues no tenien claus de metall: s'unien amb pius, petites peces de fusta dura que entraven en un forat fet a mida. Un piu ben fet aguantava anys sense moure's. Els estudiants n'han trobat alguns de cremats al fons de les cases, i un piu sencer, conservat dins del fang.\n\nPer a en Xabier, l'antropologia és tan important com les eines. «L'antropologia ens ajuda a entendre no només com construïen, sinó com s'organitzaven», diu. El poblat tenia una gran sitja comunal, excavada a la roca, on es guardava el gra de totes les famílies. També hi havia un forn comunal al centre del poblat. Una sitja comunal no és només una obra tècnica: vol dir que la gent s'havia de posar d'acord per construir-la, omplir-la i repartir-ne el gra. «Per a un antropòleg, això és tan interessant com qualsevol eina», afegeix.\n\nL'obra que més l'impressiona és un canal de pedra d'uns tres-cents metres. Portava l'aigua de pluja del turó fins a una bassa comunal, on bevien els animals. El canal té el pendent just perquè l'aigua corri sense arrossegar la terra. «És un exemple molt primerenc de gestió de l'aigua en aquesta zona», diu. «Fins fa poc, pensàvem que obres així eren molt més modernes. Aquest canal és primerenc, però és tan precís com els que es van fer segles després.»\n\nUna altra pregunta que en Xabier vol resoldre és l'abandó del poblat, cap a l'any 1200 abans de la nostra era. No hi ha senyals de foc ni de destrucció. Potser hi va haver uns quants anys molt secs i la gent es va traslladar a prop del riu. «L'abandó va ser lent i ordenat», explica. «Les famílies es van endur les eines i van tapar la sitja. És com si haguessin pensat tornar-hi.»\n\nAquest estiu, en Xabier vol reconstruir una casa del poblat amb les tècniques de la prehistòria, amb pius de fusta i sense cap clau. «Si es manté dempeus deu anys», diu rient, «haurem après més que llegint cent llibres.»\n\nPreguntes:\nQuè és un piu?\nÉs una petita peça de fusta dura que entra en un forat i uneix les bigues.\nPer què és important l'antropologia per a en Xabier?\nPerquè l'ajuda a entendre com s'organitzava la gent, no només com construïa.\nQuè vol dir que hi hagués una sitja comunal?\nVol dir que la gent s'havia de posar d'acord per construir-la, omplir-la i repartir el gra.\nPer què diu en Xabier que el canal és primerenc?\nPerquè és un exemple molt antic de gestió de l'aigua, i es pensava que obres així eren més modernes.\nCom va ser l'abandó del poblat?\nVa ser lent i ordenat: les famílies es van endur les eines i van tapar la sitja."
+    },
+    {
+      "title": "El pati d'esbarjo",
+      "summary": "Aritz, an engineer who designs public spaces in Badalona, redesigns a school playground with the educator Lúcia: a quiet corner for children with autism, softer surfaces against noise, workshops so the other pupils understand, and an old plane tree that the head will not let them cut down.",
+      "newWords": [
+        "esbarjo",
+        "pedagog",
+        "autisme",
+        "sensibilització",
+        "aviam",
+        "despert",
+        "consentir"
+      ],
+      "text": "L'Aritz Massagué és enginyer en una empresa de Badalona que dissenya espais públics: places, parcs i patis d'escola. Aquesta primavera li han encarregat un projecte que li fa especial il·lusió: renovar el pati d'esbarjo d'una escola de primària del barri.\n\nEl pati d'esbarjo era una pista de formigó amb dues porteries i res més. A l'hora de l'esbarjo, els nens més grans jugaven a futbol al centre, i la resta s'havia d'apartar cap a les parets. Hi havia molt soroll, perquè el formigó i les parets altes multiplicaven els crits.\n\nAbans de començar, l'Aritz es va reunir amb la Lúcia Espriu, la pedagoga de l'escola. La Lúcia li va explicar que a l'escola hi ha sis alumnes amb autisme. «Per a molts infants amb autisme, l'hora de l'esbarjo és la més difícil del dia», li va dir. «El soroll i el moviment constant poden ser massa intensos. Necessiten un lloc on retirar-se una estona sense quedar-se sols.» L'Aritz, que no havia treballat mai amb una pedagoga, va prendre notes de tot.\n\nEl projecte final divideix el pati en zones. Al centre hi ha la pista, però més petita. Al voltant hi ha un sorral, una zona amb jocs d'aigua i, en un racó, un espai tranquil amb bancs de fusta i plantes altes que fan de paret. El terra de cautxú i les plantes redueixen el soroll. La pedagoga va insistir que l'espai tranquil no fos només per als alumnes amb autisme, sinó per a qualsevol infant que el necessiti.\n\nLa Lúcia també va proposar una campanya de sensibilització. Durant dues setmanes, cada classe va fer tallers sobre l'autisme i sobre com ens afecten els sorolls i les llums. La sensibilització va funcionar millor del que esperaven: els alumnes van entendre per què el pati canviava, i ningú no va riure de l'espai tranquil.\n\nL'Aritz va voler escoltar també els nens. Va anar a una classe de quart amb uns plànols grans. «Aviam, què hi trobeu a faltar?», va preguntar. Els nens es van mostrar molt desperts. Un nen molt despert va dir que el sol tocava tot el pati a l'hora de l'esbarjo i que calia ombra. «Aviam si ho podem arreglar», va respondre l'Aritz.\n\nL'ombra la va donar un vell plàtan que hi havia a la cantonada. L'empresa havia pensat a tallar-lo per fer lloc a la pista, però la directora no ho va consentir. «No consentiré que tallem l'únic arbre gran del pati», va dir. Al final, la pista es va moure tres metres i el plàtan es va quedar.\n\nPreguntes:\nCom era el pati d'esbarjo abans de les obres?\nEra una pista de formigó amb dues porteries, i hi havia molt soroll.\nQuè li va explicar la pedagoga a l'Aritz?\nLi va explicar que per a molts infants amb autisme l'hora de l'esbarjo és difícil, i que necessiten un lloc tranquil.\nPer a què va servir la campanya de sensibilització?\nVa servir perquè els alumnes entenguessin per què canviava el pati.\nQuè va dir el nen despert de la classe de quart?\nVa dir que el sol tocava tot el pati i que calia ombra.\nPer què no van tallar el plàtan?\nPerquè la directora no ho va consentir."
+    },
+    {
+      "title": "Dades a la pista",
+      "summary": "Eider, a telecoms engineer, helps the under-twelve basketball team coached by Mael in Puigcerdà: shirts that read heart rate, a chip in the heel of the shoe that counts jumps for rebounds and a patch that measures sweat, used to plan rest, not to push the children.",
+      "newWords": [
+        "aleví",
+        "suor",
+        "cardíaca",
+        "taló",
+        "rebot",
+        "interval",
+        "analítica",
+        "intensament",
+        "tàctic"
+      ],
+      "text": "L'Eider Guitart és enginyera de telecomunicacions i, els caps de setmana, ajuda en Mael Montané, l'entrenador de l'equip aleví de bàsquet de Puigcerdà. Els jugadors alevins tenen deu i onze anys. Fa uns mesos, l'Eider va proposar a en Mael un experiment: mesurar com s'esforcen els nens als entrenaments.\n\nPer fer-ho, va preparar tres aparells senzills. El primer és una samarreta amb una cinta elàstica que mesura la freqüència cardíaca. El segon és un xip petit que va dins del taló de la sabatilla: cada vegada que el nen salta, el taló rep un cop i el xip el compta. El tercer és un pegat a l'esquena que mesura la suor. Amb la suor, el cos perd aigua i sals, i el pegat avisa quan un jugador hauria de beure.\n\nAbans de començar, l'Eider i en Mael van reunir les famílies. Van explicar què es mesuraria i per què, i van demanar permís per escrit. Tots els pares hi van consentir, amb una condició: que les dades no sortissin del club.\n\nEls primers resultats van ser interessants. El xip del taló va mostrar que els nens més alts saltaven el doble que els altres, sobretot per agafar el rebot sota la cistella. Cada rebot és un salt, i alguns jugadors en feien més de cent per entrenament. La freqüència cardíaca d'aquests nens pujava molt i trigava a baixar. «No ho sabia», va reconèixer en Mael. «Pensava que el rebot era una feina tranquil·la.»\n\nAmb aquestes dades, en Mael va canviar els entrenaments. Ara fa exercicis per intervals: un interval curt de joc intens i un interval llarg de descans actiu, en què els nens llancen a cistella sense córrer. Entre interval i interval, tothom beu aigua, i el pegat de la suor ho confirma: ningú no arriba al final de l'entrenament sense haver begut.\n\nL'Eider s'ocupa de l'analítica de les dades. Cada setmana prepara uns gràfics senzills per a en Mael. L'analítica no serveix per fer que els nens corrin més, sinó per saber quan necessiten parar. «Als deu anys, han de jugar intensament i passar-ho bé», diu en Mael. «Però jugar intensament no vol dir jugar cansat.»\n\nA en Mael també li agradaria fer servir les dades per a decisions de partit, com ara saber quin jugador està més descansat. L'Eider hi està d'acord, però amb mesura. «Els canvis tàctics són cosa teva», li diu. «Les dades només t'ajuden a no equivocar-te. En un equip aleví, el més important no és cap detall tàctic: és que tots juguin.»\n\nPreguntes:\nQuins aparells va preparar l'Eider?\nUna samarreta que mesura la freqüència cardíaca, un xip al taló de la sabatilla i un pegat que mesura la suor.\nQuè va mostrar el xip del taló?\nVa mostrar que els nens més alts saltaven el doble que els altres, sobretot per agafar el rebot.\nCom són ara els entrenaments?\nEs fan per intervals: un interval curt de joc intens i un interval llarg de descans actiu.\nPer a què serveix l'analítica de les dades, segons el text?\nServeix per saber quan els nens necessiten parar, no per fer-los córrer més.\nQuè és el més important en un equip aleví, segons l'Eider?\nQue tots els nens juguin."
+    },
+    {
+      "title": "Ressenya: «L'aigua de la plana»",
+      "summary": "A review of a feature film about a fictional 19th-century engineer who builds an irrigation canal across a dry plain: an overwhelming tunnel sequence, the young engineer's training under an older master, a fair look at farmers and investors, and workers left unfairly in the background.",
+      "newWords": [
+        "llargmetratge",
+        "pòster",
+        "minyó",
+        "tutela",
+        "laberint",
+        "aclaparador",
+        "imparcialitat",
+        "injustament"
+      ],
+      "text": "«L'aigua de la plana», el primer llargmetratge de la directora Eneida Pedrals, explica la construcció d'un gran canal de reg a la segona meitat del segle XIX. El protagonista, l'enginyer Tibau Perarnau, és un personatge inventat, però el film recull amb cura com es treballava en aquelles obres. És un llargmetratge llarg, de gairebé dues hores i mitja, i no sempre té el ritme que caldria. Tot i això, val la pena veure'l.\n\nEl pòster ja ho diu tot: un home jove davant de la boca fosca d'un túnel, amb una llum a la mà i un mapa sota el braç. És un pòster senzill i bonic, i resumeix bé el tema del film: un home sol davant d'una muntanya.\n\nLa primera part mostra en Tibau de minyó, en un poble de la plana on els estius eren tan secs que les famílies havien d'anar a buscar aigua amb carro. Aquelles escenes del minyó i el seu avi, mirant el cel per veure si plourà, són les més emotives del film. Després el veiem a Barcelona, on estudia sota la tutela d'un enginyer gran, el senyor Gilabert, que li ensenya a mirar el terreny abans de dibuixar. La tutela del mestre és exigent però generosa, i la relació entre tots dos és un dels encerts del guió.\n\nLa part central és la construcció del túnel que ha de portar l'aigua a través de la serra. Aquí la directora encerta de ple. Les galeries, amb passadissos que es creuen i que de vegades no porten enlloc, formen un autèntic laberint. La càmera segueix en Tibau per aquest laberint de pedra amb una sola llum, i el resultat és aclaparador: el soroll de l'aigua, la calor i la foscor arriben fins a la butaca. És un dels moments més aclaparadors que he vist al cinema aquest any.\n\nEl film té també el mèrit de la imparcialitat. Presenta els pagesos que tenien por de perdre les terres i els inversors que només volien guanyar diners, i no converteix ningú en un dolent. Aquesta imparcialitat fa que el debat sigui creïble.\n\nEl gran defecte és el tractament dels treballadors. Centenars d'homes van obrir el túnel amb les mans, però al film són poc més que ombres al fons de la imatge. Se'ls tracta injustament: tenen moltes escenes de feina, però gairebé cap frase. Es pot dir que la història els ha tractat injustament, i el film, sense voler, repeteix l'error.\n\nAmb tot, «L'aigua de la plana» és un debut notable, que fa entendre una cosa que oblidem sovint: rere cada canal hi ha anys de feina i moltes persones.\n\nPreguntes:\nQui és el protagonista del llargmetratge?\nÉs l'enginyer Tibau Perarnau, un personatge inventat.\nQuè es veu al pòster del film?\nUn home jove davant d'un túnel, amb una llum a la mà i un mapa sota el braç.\nSota la tutela de qui estudia en Tibau?\nEstudia sota la tutela d'un enginyer gran, el senyor Gilabert.\nPer què el túnel sembla un laberint?\nPerquè té galeries amb passadissos que es creuen i que de vegades no porten enlloc.\nQuin és el gran defecte del film, segons la ressenya?\nQue tracta injustament els treballadors, que gairebé no tenen cap frase."
+    },
+    {
+      "title": "La màquina dels llençols",
+      "summary": "Yanira, a young engineer assigned to the maintenance team of a hotel laundry in an old textile mill in Castellar del Vallès, cannot fix a sheet-folding machine until her supervisor brings in Gombau, a retired mechanic of the old mill, who finds the answer in a folder of old drawings.",
+      "newWords": [
+        "adscriure",
+        "reconvertir",
+        "llençol",
+        "supervisor",
+        "pensionista",
+        "carpeta",
+        "clip"
+      ],
+      "text": "La Yanira fa tres mesos que treballa en una bugaderia industrial de Castellar del Vallès. És enginyera industrial i està adscrita al departament de manteniment. La bugaderia ocupa una antiga fàbrica tèxtil que es va reconvertir als anys noranta: on abans hi havia telers, ara hi ha màquines de rentar enormes. Cada dia hi entren tones de roba bruta de vint hotels de la costa, sobretot llençols.\n\nLa màquina més important és la plegadora de llençols. Rep el llençol humit i calent, l'estira, l'asseca i el plega en quatre en pocs segons. Des de fa una setmana, però, la plegadora s'encalla: cada deu o dotze llençols, un llençol surt tort i bloqueja la màquina. La Yanira ho ha provat tot. Ha canviat cintes, ha netejat les peces i ha revisat els motors. No hi ha manera.\n\nLa seva supervisora, l'Aïda, la veu preocupada. L'Aïda és la supervisora del torn de matí i fa vint anys que treballa a la bugaderia. «Coneixes en Gombau?», li pregunta. «És un pensionista que viu aquí al costat. Era mecànic de la fàbrica tèxtil, i quan la van reconvertir va ajudar a muntar les primeres màquines. Potser ell en sap alguna cosa.»\n\nL'endemà, en Gombau arriba a les vuit en punt. És un pensionista de vuitanta anys, prim i molt despert, que camina amb pas ràpid. Porta una carpeta vella de cartró, plena de papers subjectes amb clips vells. «Quan van reconvertir la fàbrica, em vaig quedar aquests dibuixos», explica. «Ningú no els volia.»\n\nObren la carpeta damunt d'una taula. A dins hi ha els plànols originals de la plegadora, amb notes escrites a mà. Cada grup de fulls va subjecte amb un clip, i sota un dels clips hi ha una nota de 1994: «Si s'encalla, revisar la tensió de la cinta del costat esquerre, no la del dret.» En Gombau somriu. «Aquesta màquina sempre ha tingut el mateix defecte», diu.\n\nLa Yanira revisa la cinta del costat esquerre i veu que està una mica fluixa. N'ajusta la tensió i torna a engegar la plegadora. Passen cent llençols, dos-cents, tres-cents. Cap llençol no s'encalla.\n\nAquella tarda, la Yanira fotografia tots els plànols i torna la carpeta a en Gombau, amb cada clip al seu lloc. La supervisora li proposa una cosa més: que en Gombau vingui un matí al mes a explicar com funcionen les màquines. El pensionista accepta de seguida. «Fa trenta anys que ningú no em pregunta res de la fàbrica», diu.\n\nPreguntes:\nOn treballa la Yanira?\nTreballa en una bugaderia industrial de Castellar del Vallès, adscrita al departament de manteniment.\nQuè passa amb la plegadora de llençols?\nS'encalla: cada deu o dotze llençols, un surt tort i bloqueja la màquina.\nQui és en Gombau?\nÉs un pensionista que era mecànic de la fàbrica tèxtil que es va reconvertir en bugaderia.\nQuè hi ha dins de la carpeta?\nHi ha els plànols originals de la plegadora, amb notes escrites a mà i fulls subjectes amb clips.\nQuè proposa la supervisora al final?\nProposa que en Gombau vingui un matí al mes a explicar com funcionen les màquines."
+    }
+  ]
+}

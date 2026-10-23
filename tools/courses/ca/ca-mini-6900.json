@@ -1,0 +1,214 @@
+{
+  "id": "ca-mini-6900",
+  "rankUpTo": 6900,
+  "level": "C1",
+  "title": "Nombres i raonament",
+  "description": "Ten standalone stories about numbers and everyday reasoning in Catalan-speaking places: a builder's estimate, the geometry of honeycombs, an amateur astronomer's asteroid, the jaw as a lever, football statistics before a derby, a proofreader of a puzzle anthology, packing a car boot for a night ferry, a colloquium on arguments, a water leak found by elimination and an old linen seller's account book.",
+  "topic": "Numbers and reasoning",
+  "names": [
+    "Adalbert",
+    "Alcúdia",
+    "Andròmeda",
+    "Baldomer",
+    "Bangalore",
+    "Barcelona",
+    "Batea",
+    "Claudi",
+    "Eduarda",
+    "Eleuteri",
+    "Ermessèn",
+    "Escrivà",
+    "Felipa",
+    "Fiol",
+    "Galofré",
+    "Gandesa",
+    "Girona",
+    "Gualbert",
+    "Gubau",
+    "Hermini",
+    "Ivanna",
+    "Ixeia",
+    "Joaquina",
+    "Júpiter",
+    "Lladonosa",
+    "Lleida",
+    "Llobera",
+    "Macari",
+    "Mallol",
+    "Mallorca",
+    "Manresa",
+    "Marcel·lina",
+    "Masip",
+    "Menon",
+    "Mompó",
+    "Montoliu",
+    "Montsec",
+    "Montseny",
+    "Olimpia",
+    "Olot",
+    "Onyar",
+    "Ovídia",
+    "Pruneda",
+    "Quiteri",
+    "Ragull",
+    "Ramonet",
+    "Ravi",
+    "Rubiralta",
+    "Sabadell",
+    "Sorigué",
+    "Teodomir",
+    "Terra Alta",
+    "Tornabells",
+    "Universitat de València",
+    "València",
+    "Vic",
+    "Vilardell",
+    "Xarau",
+    "Zacarias",
+    "Àger"
+  ],
+  "lessons": [
+    {
+      "title": "Els comptes d'en Baldomer",
+      "summary": "Baldomer Masip, a builder in Manresa, prices a garden wall and a stair for Ivanna Mallol: he counts the bricks, adds a coefficient for breakage, works out the steps with an old trade rule, and lets her postpone the optional rendering until next year.",
+      "newWords": [
+        "constructor",
+        "totxo",
+        "coeficient",
+        "graó",
+        "opcional",
+        "revocar",
+        "posposar",
+        "certificar"
+      ],
+      "text": "En Baldomer Masip és constructor a Manresa des de fa trenta anys. Té una empresa petita: ell, dos paletes i una furgoneta. Aquesta setmana, l'Ivanna Mallol li ha demanat un pressupost per aixecar una paret al pati de casa seva i fer-hi una escala que pugi a la terrassa.\n\nAbans de dir cap xifra, en Baldomer treu la cinta mètrica i una llibreta. «Un constructor que no sap comptar perd diners o perd clients», diu sovint. La paret ha de fer 8 metres de llarg i 2 d'alt: 16 metres quadrats. Per cada metre quadrat calen uns 50 totxos, i 16 per 50 fan 800 totxos.\n\nPerò en Baldomer no en demana 800. Durant el transport sempre se'n trenca algun, i a l'obra cal tallar-ne uns quants per fer les cantonades. Per això multiplica el resultat per un coeficient d'1,1, és a dir, hi afegeix un 10 per cent. 800 per 1,1 fan 880 totxos. «El coeficient és la meva assegurança», explica a l'Ivanna. «Si sobren totxos, els torno al magatzem. Si en falten, l'obra s'atura un dia sencer.»\n\nDesprés mesura on anirà l'escala. Del terra del pati a la terrassa hi ha 1,70 metres. Una escala còmoda té graons d'uns 17 centímetres d'alçada, i 170 entre 17 fan 10 graons. En Baldomer també calcula el fons de cada graó amb una regla antiga de l'ofici: dues alçades més un fons han de sumar uns 63 centímetres. Dues vegades 17 fan 34, i 63 menys 34 fan 29. Cada graó tindrà, doncs, 29 centímetres de fons, prou per posar-hi tot el peu.\n\nAl pressupost, en Baldomer separa el que és necessari del que és opcional. La paret i l'escala són necessàries. Revocar la paret, en canvi, és opcional: vol dir cobrir els totxos amb una capa de morter perquè la paret quedi llisa. «Si no la revoquem, es veuran els totxos. Si la revoquem, quedarà llisa i la podrà pintar, però costarà 600 euros més», li diu. La barana de ferro també és opcional.\n\nL'Ivanna fa números. Aquest any no ho pot pagar tot, i decideix posposar les parts opcionals: ara faran la paret i l'escala, i la revocaran l'any vinent. En Baldomer hi està d'acord: «Posposar-ho no és cap problema. Una paret de totxo aguanta molts anys sense revocar.»\n\nL'obra dura dues setmanes. Al final sobren 22 totxos: el coeficient ha funcionat. Com que l'escala dona a una terrassa, l'Ivanna necessita un document que certifiqui que l'obra compleix les normes. Una arquitecta tècnica hi va, mesura els graons un per un i certifica per escrit que tots fan 17 centímetres. Aquell vespre, en Baldomer li deixa la factura i un full on certifica una garantia de cinc anys.\n\nPreguntes:\nQuants totxos calen per a la paret, sense el coeficient?\nCalen 800 totxos: 16 metres quadrats per 50 totxos.\nPer què en Baldomer multiplica el resultat per 1,1?\nPerquè sempre se'n trenca algun i cal tallar-ne uns quants: el coeficient és la seva assegurança.\nQuants graons tindrà l'escala?\nTindrà 10 graons de 17 centímetres d'alçada.\nQuè vol dir revocar una paret?\nVol dir cobrir els totxos amb una capa de morter perquè la paret quedi llisa.\nQuè decideix posposar l'Ivanna?\nDecideix posposar les parts opcionals, com revocar la paret.\nQuè certifica l'arquitecta tècnica?\nCertifica per escrit que tots els graons fan 17 centímetres."
+    },
+    {
+      "title": "La geometria de les abelles",
+      "summary": "Beekeeper Joaquina Montoliu shows her nephew Adalbert why bees build hexagonal cells, an old hive made from a cork stump, how bees cool the hive on hot days, and how she measures the water in her honey to prove it is genuine.",
+      "newWords": [
+        "abella",
+        "cintura",
+        "soca",
+        "calorós",
+        "brisa",
+        "predominant",
+        "genuí"
+      ],
+      "text": "La Joaquina Montoliu té 40 ruscos en un vessant del Montseny. Fa vint anys que cria abelles, i cada estiu el seu nebot, l'Adalbert, l'ajuda una setmana. Aquest any l'Adalbert té 14 anys i fa moltes preguntes.\n\n«Per què les cel·les de la mel són hexàgons?», li pregunta un matí, mentre miren un quadre ple de mel.\n\nLa Joaquina li ho explica amb un llapis. Les abelles fabriquen la cera amb el seu propi cos, i això els costa molta energia: per fer un quilo de cera, una colònia gasta uns quants quilos de mel. Per tant, els convé fer parets tan curtes com puguin. Només hi ha tres figures regulars que cobreixen un pla sense deixar forats: el triangle, el quadrat i l'hexàgon. Si totes tres tenen la mateixa àrea, d'1 centímetre quadrat, el contorn del triangle fa uns 4,6 centímetres; el del quadrat, 4; i el de l'hexàgon, només 3,7. «Amb hexàgons, les abelles guarden la mateixa mel amb menys cera», diu la Joaquina. «No saben geometria, però en milions d'anys han trobat la solució més econòmica.»\n\nDesprés li ensenya una abella de prop. L'Adalbert s'adona que l'abella té una cintura molt prima entre el pit i l'abdomen. «Aquesta cintura tan estreta li permet doblegar el cos», li explica la tia. «Gràcies a la cintura, l'abella es pot netejar l'abdomen amb les potes.»\n\nAl costat de la casa encara hi ha un rusc antic: una soca de suro buida, tapada amb una llosa. Antigament, els pagesos de la comarca tallaven una soca de suro, la buidaven i hi deixaven entrar un eixam. La soca protegia les abelles del fred, però per treure'n la mel calia trencar les cel·les.\n\nEls dies calorosos de juliol, l'Adalbert veu desenes d'abelles a l'entrada del rusc batent les ales. «Fan de ventilador», diu la Joaquina. «A dins, la temperatura ha de quedar a uns 35 graus. Quan el dia és molt calorós, unes abelles porten aigua i les altres la fan evaporar amb les ales.» A la tarda, quan bufa la brisa de la muntanya, les abelles descansen. Per a la Joaquina, la brisa del vespre és la millor ajuda de l'estiu.\n\nA l'agost fan la collita. La Joaquina sap quina flor ha estat la predominant pel color i el gust de la mel. Al juny, la flor predominant en aquesta part del Montseny és la del castanyer, i la mel surt fosca i forta.\n\nAbans de vendre-la, la Joaquina en mesura l'aigua amb un aparell petit. Una mel genuïna, sense aigua ni xarop afegits, ha de tenir menys d'un 18 per cent d'aigua. La seva en té un 16,5. «Aquesta xifra demostra que és genuïna», diu. «Una mel amb un 20 per cent d'aigua es fa malbé dins del pot.»\n\nPreguntes:\nPer què les abelles fan cel·les en forma d'hexàgon?\nPerquè amb hexàgons guarden la mateixa mel amb menys cera.\nQuè té l'abella entre el pit i l'abdomen?\nTé una cintura molt prima que li permet doblegar el cos.\nCom eren els ruscos antics de la comarca?\nEren una soca de suro buida, tapada amb una llosa.\nQuè fan les abelles els dies calorosos?\nBaten les ales a l'entrada del rusc per refrescar-lo, com un ventilador.\nQuina flor és la predominant al juny?\nLa flor predominant és la del castanyer.\nCom sap la Joaquina que la seva mel és genuïna?\nPerquè té un 16,5 per cent d'aigua, menys del 18 per cent."
+    },
+    {
+      "title": "Un punt que es mou",
+      "summary": "Eduarda Rubiralta, an amateur astronomer in the Montsec, notices a moving dot in her photos, rules out a satellite and a meteor step by step, estimates how distant it is, and a retired professor confirms it is a known asteroid.",
+      "newWords": [
+        "telescopi",
+        "accidentalment",
+        "estela",
+        "centella",
+        "distant",
+        "asteroide",
+        "opacitat",
+        "emèrit"
+      ],
+      "text": "L'Eduarda Rubiralta és infermera a Lleida, però les nits clares se les passa al terrat de casa seva, a Àger, al peu del Montsec. Hi té un telescopi petit connectat a una càmera. Amb el telescopi fotografia el cel, i després estudia les fotos a l'ordinador.\n\nUna nit de setembre fotografia una zona de la constel·lació d'Andròmeda: una foto cada 10 minuts durant una hora. L'endemà, mentre comprova si el telescopi enfocava bé, veu accidentalment un punt que no és al mateix lloc a totes les fotos. Es mou una mica cada vegada. No el buscava: l'ha trobat accidentalment.\n\nL'Eduarda raona pas a pas. Primer pensa en un satèl·lit. Però un satèl·lit passa molt de pressa i, en una foto de 30 segons, deixa una estela llarga i recta, com una ratlla blanca. El punt no deixa cap estela: és rodó a totes les fotos. Després pensa en un meteor, una d'aquelles centelles que travessen el cel en un segon. Però una centella no surt a sis fotos seguides. Per tant, ha de ser un objecte molt més distant, que es mou a poc a poc respecte de les estrelles: un asteroide.\n\nLlavors fa un càlcul senzill. Com més distant és un objecte, més lent sembla que es mogui. Els satèl·lits, que són a prop, travessen el cel en pocs minuts. La Lluna, més distant, triga un mes a fer-ne la volta. Un asteroide del cinturó que hi ha entre Mart i Júpiter és tan distant que, en una hora, gairebé sembla quiet. Per la velocitat del punt a les fotos, l'Eduarda calcula que el seu asteroide és a uns 300 milions de quilòmetres.\n\nLes nits següents vol tornar-lo a fotografiar, però hi ha boira alta. La boira augmenta l'opacitat de l'atmosfera, i la llum feble de l'asteroide no arriba a la càmera. L'Eduarda espera. La tercera nit, l'opacitat baixa i el cel torna a ser net. El punt hi és, una mica més enllà, tal com havia previst.\n\nLlavors envia les fotos a en Gualbert Llobera, professor emèrit d'astronomia, que encara fa classes a una associació d'aficionats de Lleida. El professor emèrit li respon l'endemà: és un asteroide conegut des del 2004. «No l'has descobert, però l'has identificat tu sola amb un raonament impecable», li escriu. Li explica que les seves mesures es poden enviar al centre internacional que recull les posicions dels asteroides, perquè ajuden a calcular-ne l'òrbita amb més precisió. L'Eduarda les envia aquella mateixa nit i torna al terrat, amb el telescopi.\n\nPreguntes:\nCom va trobar l'Eduarda el punt que es movia?\nEl va trobar accidentalment, mentre comprovava si el telescopi enfocava bé.\nPer què el punt no podia ser un satèl·lit?\nPerquè un satèl·lit deixa una estela llarga i recta, i el punt era rodó.\nPer què no podia ser una centella?\nPerquè una centella travessa el cel en un segon i no surt a sis fotos seguides.\nPer què un asteroide sembla que es mogui tan a poc a poc?\nPerquè és molt distant: com més distant és un objecte, més lent sembla.\nQuè va passar quan hi havia boira?\nLa boira va augmentar l'opacitat de l'atmosfera, i la llum de l'asteroide no arribava a la càmera.\nQui és en Gualbert Llobera?\nÉs un professor emèrit d'astronomia que va confirmar que era un asteroide conegut."
+    },
+    {
+      "title": "La palanca de la mandíbula",
+      "summary": "Dental student Ovídia Ragull, nervous before her physiology exam, visits Professor Macari Sorigué, who calmly shows her that the jaw is a lever and that molars bite harder than front teeth because they are closer to the joint.",
+      "newWords": [
+        "fisiologia",
+        "inseguretat",
+        "bigoti",
+        "tranquil·lament",
+        "mandíbula",
+        "dental"
+      ],
+      "text": "L'Ovídia Ragull estudia Odontologia a Barcelona. Demà té l'examen de fisiologia, i hi ha una pregunta que no acaba d'entendre: per què les dents del fons mosseguen amb molta més força que les del davant. Amb aquesta assignatura sent una gran inseguretat. Al gener va suspendre l'examen de fisiologia, i ara té por que li torni a passar.\n\nA la tarda va al despatx del professor Macari Sorigué, un home de seixanta anys amb ulleres i un bigoti gris. «Seu, seu», li diu tranquil·lament. «Ho resoldrem amb un llapis.»\n\nEl professor dibuixa la mandíbula de perfil. «La mandíbula funciona com una palanca», explica. «El punt fix és l'articulació, aquí, davant de l'orella. Els músculs que tanquen la boca s'enganxen a la mandíbula a prop d'aquest punt. I les dents són més lluny.» Escriu una regla a la pissarra: la força del múscul per la seva distància a l'articulació és igual a la força de la dent per la seva distància.\n\n«Imagina que el múscul fa una força de 100 i és a 3 centímetres de l'articulació. Una dent del fons és a 4 centímetres; una dent del davant, a 10.» L'Ovídia fa els càlculs: 100 per 3 fan 300; 300 entre 4 fan 75; 300 entre 10 fan 30. «La dent del fons fa més del doble de força que la del davant», diu. «Exacte», respon el professor, i es toca el bigoti. «Per això tallem amb les dents del davant i triturem amb les del fons. La fisiologia, de vegades, és física.»\n\nL'Ovídia li pregunta si això és important a la clínica. «Molt», diu ell tranquil·lament. «Una peça dental del fons ha de suportar forces molt grans. Quan posem un implant dental al fons de la boca, l'hem de fer més resistent que al davant. I quan una persona estreny les dents de nit, la mandíbula fa tanta força que pot fer malbé una peça dental.»\n\nAbans que ella marxi, el professor li diu: «La teva inseguretat no ve de la fisiologia: ve de memoritzar sense entendre. Si entens el perquè, no se t'oblidarà.» L'Ovídia somriu. Fa mesos que la inseguretat no la deixava dormir, i ara, per primer cop, té ganes que arribi l'examen.\n\nL'endemà, la pregunta de la mandíbula hi és. L'Ovídia dibuixa la palanca, escriu els números i acaba amb temps de sobra. Surt de l'aula tranquil·lament i, al passadís, es creua amb el professor del bigoti gris. No cal que li digui res: ell ja ho veu a la seva cara.\n\nPreguntes:\nPer què l'Ovídia sent inseguretat amb la fisiologia?\nPerquè al gener va suspendre l'examen i té por que li torni a passar.\nCom és el professor Macari Sorigué?\nÉs un home de seixanta anys amb ulleres i un bigoti gris.\nCom funciona la mandíbula, segons el professor?\nFunciona com una palanca, amb el punt fix a l'articulació, davant de l'orella.\nPer què les dents del fons fan més força?\nPerquè són més a prop de l'articulació que les dents del davant.\nPer què un implant dental al fons ha de ser més resistent?\nPerquè una peça dental del fons ha de suportar forces molt grans."
+    },
+    {
+      "title": "Les xifres del derbi",
+      "summary": "Quiteri Gubau, a maths teacher who analyses matches for the women's football team of Gandesa, shows that five defeats in a row hide a steady rise in shots on goal; before the derby against Batea he asks the team to keep shooting, and they win.",
+      "newWords": [
+        "penúltim",
+        "derbi",
+        "alarmant",
+        "suscitar",
+        "progressió",
+        "malnom",
+        "trompeta",
+        "futbolístic"
+      ],
+      "text": "En Quiteri Gubau és professor de matemàtiques a Gandesa i, els caps de setmana, fa d'analista voluntari de l'equip femení del poble. A cada partit apunta en un full els xuts, les passades i les ocasions de gol. Al vestidor li diuen, amb afecte, «el de les xifres».\n\nAquesta temporada l'equip va penúltim a la lliga, i diumenge juga el derbi de la Terra Alta contra el Batea. Al món futbolístic de la comarca, el derbi és el partit de l'any. El dilluns abans, el setmanari publica un article amb un títol alarmant: «El Gandesa suma cinc derrotes seguides». L'article suscita molts comentaris al mercat i també suscita dubtes entre les jugadores, que comencen a pensar que no poden guanyar.\n\nEn Quiteri no creu que la situació sigui tan alarmant. El dimecres, abans de l'entrenament, mostra a l'equip les seves dades. En la primera derrota, l'equip va xutar 4 vegades a porteria; en la segona, 6; en la tercera, 7; en la quarta, 9; i en la cinquena, 11. «Hi ha una progressió clara», explica. «Cada partit creem més ocasions. El que ens falla és l'encert, i l'encert sol arribar quan les ocasions augmenten. Un equip que perd i xuta cada cop més no és igual que un equip que perd i no xuta.»\n\nLa davantera, l'Olimpia Mompó, és la jugadora amb més xuts. Tothom la coneix pel malnom de «la Fletxa», perquè corre més que ningú. Fa tres partits que la Fletxa no marca, i aquest malnom, ara, li pesa. En Quiteri li ensenya que ha xutat a porteria 14 vegades en cinc partits: «Amb aquesta progressió, el gol arribarà. No canviïs res.»\n\nEl diumenge, la grada és plena. Com sempre, en Ramonet, un veí jubilat, toca la trompeta cada vegada que el Gandesa s'acosta a la porteria contrària. Al minut 20 la trompeta sona per primera vegada, i ja no para. L'equip xuta 13 vegades a porteria, la xifra més alta de la temporada. Al minut 58, la Fletxa marca el primer gol, i al minut 81, de cap, el segon. El derbi acaba 2 a 1 per al Gandesa.\n\nEncara són penúltimes, però ara només a dos punts de l'equip que les precedeix. La setmana següent, el setmanari publica una anàlisi futbolística d'en Quiteri, amb un gràfic que mostra la progressió dels xuts. L'article suscita, aquesta vegada, comentaris més tranquils. I en Ramonet ja ha anunciat que, al pròxim partit, portarà una trompeta nova.\n\nPreguntes:\nQuina posició ocupa l'equip de Gandesa a la lliga?\nVa penúltim a la lliga.\nPer què en Quiteri no creu que la situació sigui tan alarmant?\nPerquè hi ha una progressió clara: cada partit l'equip xuta més vegades a porteria.\nQuin malnom té l'Olimpia Mompó?\nTé el malnom de «la Fletxa», perquè corre més que ningú.\nQuè fa en Ramonet a la grada?\nToca la trompeta cada vegada que el Gandesa s'acosta a la porteria contrària.\nCom acaba el derbi?\nAcaba 2 a 1 per al Gandesa, amb dos gols de la Fletxa.\nQuè publica el setmanari la setmana següent?\nPublica una anàlisi futbolística d'en Quiteri amb el gràfic de la progressió."
+    },
+    {
+      "title": "El corrector de números",
+      "summary": "Eleuteri Pruneda, a proofreader in Vic, checks an illustrated anthology of logic puzzles: he resolves an ambiguous decimal, replaces a tilde that young readers will not understand, corrects the authorship of a puzzle and finds a drawing that does not match its text.",
+      "newWords": [
+        "corrector",
+        "antologia",
+        "il·lustrat",
+        "devorar",
+        "ambigüitat",
+        "titlla",
+        "autoria",
+        "subscripció"
+      ],
+      "text": "L'Eleuteri Pruneda és corrector d'una editorial petita de Vic. Aquest mes corregeix una antologia de problemes de lògica per a joves: cent problemes clàssics i moderns, amb les solucions al final. Serà un llibre il·lustrat: cada problema anirà acompanyat d'un dibuix.\n\nDe petit, l'Eleuteri devorava els llibres d'enigmes. Els devorava en una tarda i després els tornava a començar. Potser per això li agrada tant aquesta feina, encara que ara no pot devorar res: un corrector llegeix a poc a poc, línia per línia.\n\nEn una antologia com aquesta, el corrector no només busca faltes d'ortografia: ha de comprovar cada xifra. A la pàgina 34 troba una ambigüitat. Un problema diu que un pastís pesa «1.500 quilos». En català, el punt separa els milers, però el problema s'havia traduït d'una revista estrangera, on el punt separa els decimals. Són 1.500 quilos o 1,5 quilos? L'Eleuteri resol l'ambigüitat amb la lògica: fa el problema i veu que la solució només funciona si el pastís pesa un quilo i mig. Per evitar qualsevol ambigüitat, escriu «1,5 quilos».\n\nA la pàgina 51 apareix una titlla, el signe ondulat (~), davant d'un número: «~200 persones». En matemàtiques, la titlla vol dir «aproximadament», però molts lectors joves no ho saben. L'Eleuteri proposa canviar la titlla per la paraula sencera. A la pàgina 52 la titlla torna a sortir, i també la canvia.\n\nUna altra qüestió és l'autoria. Alguns problemes són tan antics que no se'n coneix l'autoria, i al peu s'hi escriu «popular». D'altres tenen una autoria coneguda, i cal indicar-la. Un problema de rius i ponts s'atribueix a un matemàtic modern, però l'Eleuteri sap que és del segle XVIII. Ho comprova en tres llibres de la biblioteca i corregeix l'autoria.\n\nCom que el llibre és il·lustrat, també revisa els dibuixos. Al problema de les balances, el text diu que hi ha 8 pomes, però al dibuix només n'hi ha 7. Si un lector compta les pomes del dibuix, no trobarà mai la solució. L'Eleuteri avisa la dibuixant, que hi afegeix la poma que faltava.\n\nL'antologia arribarà primer als lectors que tenen una subscripció a la revista de l'editorial, un mes abans que a les llibreries. Hi ha 2.400 lectors amb subscripció. L'Eleuteri pensa en tots aquells joves que, potser, devoraran el llibre en una tarda, com ell feia de petit.\n\nPreguntes:\nQuina feina fa l'Eleuteri Pruneda?\nÉs corrector d'una editorial petita de Vic.\nQuina ambigüitat troba a la pàgina 34?\nNo queda clar si el pastís pesa 1.500 quilos o 1,5 quilos.\nQuè vol dir la titlla davant d'un número?\nEn matemàtiques, la titlla vol dir «aproximadament».\nQuè corregeix l'Eleuteri sobre l'autoria d'un problema?\nComprova que el problema és del segle XVIII i no d'un matemàtic modern.\nQuin error troba en un dibuix?\nAl dibuix de les balances hi ha 7 pomes, però el text en diu 8.\nQui rebrà primer l'antologia?\nLa rebran primer els 2.400 lectors que tenen una subscripció a la revista."
+    },
+    {
+      "title": "Tot cap al maleter",
+      "summary": "Hermini Fiol takes his two children on the night ferry to Mallorca: he works out by volume whether the luggage fits in the car boot, the children agree a fair deal over the top bunk, he picks a cabin in the middle of the ship so as not to get seasick, and their host welcomes them at dawn.",
+      "newWords": [
+        "maleter",
+        "llitera",
+        "avenir",
+        "marejar",
+        "desembarcar",
+        "hospitalitat"
+      ],
+      "text": "L'Hermini Fiol viatja a Mallorca amb els seus dos fills, la Ixeia, de 12 anys, i en Claudi, de 9. Agafaran el vaixell de nit de Barcelona a Alcúdia, amb el cotxe, i passaran deu dies en una casa de pagès.\n\nLa tarda abans, l'Hermini es planta davant del maleter obert amb una cinta mètrica. El maleter fa 380 litres. Mesura les maletes: la gran fa 70 per 45 per 28 centímetres, uns 88 litres; la mitjana, uns 60; i hi ha tres bosses toves, una nevera petita i les botes de muntanya. En total, uns 340 litres. «En teoria hi cap tot», diu la Ixeia. «En teoria», respon el pare. «Però les formes no sempre encaixen.» Per això segueix un ordre: primer, al fons del maleter, les maletes grans i rígides; després la nevera; i, al final, les bosses toves, que omplen els forats. Al cap de deu minuts, el maleter es tanca sense haver de pressionar.\n\nAl vaixell tenen una cabina amb quatre lliteres, dues a dalt i dues a baix. Normalment, els dos germans s'avenen molt, però tots dos volen la llitera de dalt. L'Hermini els proposa un tracte: un dorm a dalt a l'anada i l'altre, a la tornada. Ells s'hi avenen de seguida, i en Claudi puja el primer a la llitera, perquè és el més petit.\n\nL'Hermini es mareja fàcilment al mar. Per això, quan va reservar, va raonar com un enginyer: en un vaixell, el moviment és més petit al centre i a la part baixa, i més gran a la proa i a dalt de tot. Va triar, doncs, una cabina al mig del vaixell, en una coberta baixa. Aquella nit el mar està tranquil i, per primera vegada en un viatge en vaixell, l'Hermini no es mareja gens.\n\nA les sis del matí arriben a Alcúdia. Els cotxes desembarquen per ordre: els que van entrar els últims desembarquen els primers, perquè són a prop de la porta. L'Hermini recorda que van ser dels últims a entrar. «Desembarcarem aviat», diu als nens. I, en efecte, al cap de cinc minuts ja són a terra.\n\nA la casa els espera la senyora Lladonosa, la propietària, amb l'esmorzar a punt: pa amb oli, ensaïmada i suc de taronja. «Estareu cansats», els diu. Els nens no esperaven tanta hospitalitat. L'Hermini li dona les gràcies, i la senyora Lladonosa somriu: «Aquí, l'hospitalitat no és cap esforç. És el costum.»\n\nPreguntes:\nCom col·loca l'Hermini les coses al maleter?\nPrimer posa les maletes grans i rígides, després la nevera i al final les bosses toves.\nQuin tracte proposa als nens per a la llitera de dalt?\nUn dorm a dalt a l'anada i l'altre a la tornada, i ells s'hi avenen.\nPer què l'Hermini tria una cabina al mig del vaixell?\nPerquè es mareja fàcilment, i al centre i a la part baixa el moviment és més petit.\nPer què desembarquen aviat?\nPerquè els cotxes que entren els últims desembarquen els primers.\nCom els rep la senyora Lladonosa?\nEls rep amb l'esmorzar a punt, amb molta hospitalitat."
+    },
+    {
+      "title": "El col·loqui dels arguments",
+      "summary": "Marcel·lina Escrivà organises a colloquium on reasoning in València; she counts back the days so that her guest speaker, Ravi Menon, can get his visa in time, and at the colloquium a heated exchange with a member of the audience is calmed by the moderator and turns into the best moment of the day.",
+      "newWords": [
+        "col·loqui",
+        "orador",
+        "visat",
+        "tramitar",
+        "persuadir",
+        "interlocutor",
+        "estèril",
+        "moderació",
+        "bajanada"
+      ],
+      "text": "La Marcel·lina Escrivà és professora de lògica a la Universitat de València i, cada primavera, organitza un col·loqui sobre el raonament. Aquest any el tema del col·loqui és «Com convencem els altres». Com a orador principal ha convidat en Ravi Menon, un matemàtic de Bangalore que estudia els errors de raonament més habituals.\n\nPer venir, en Ravi ha de tramitar un visat. La Marcel·lina fa números. El col·loqui és el 12 de maig, i l'oficina de visats diu que tramitar un visat pot trigar fins a 45 dies. Si compta enrere 45 dies des del 12 de maig, arriba al 28 de març. Per tant, cal començar a tramitar-lo abans d'aquesta data. El 10 de març ja li envia la carta d'invitació de la universitat, i en Ravi rep el visat el 20 d'abril, amb temps de sobra.\n\nEl dia del col·loqui, la sala és plena. En Ravi explica que, per persuadir algú, no n'hi ha prou de tenir dades: cal saber què volen dir. Posa un exemple: «La majoria dels paraigües perduts a la ciutat es troben a les estacions de tren. Vol dir que les estacions fan perdre paraigües? No: vol dir que hi passa molta gent amb paraigua.» Segons l'orador, una xifra sense context pot persuadir, però també pot enganyar.\n\nAl torn de preguntes, un senyor de la tercera fila s'aixeca. «Això dels paraigües és una bajanada», diu. «Tots sabem que a les xifres se'ls pot fer dir qualsevol cosa.» En Ravi li respon, el senyor insisteix, i durant uns minuts tots dos repeteixen el mateix. La discussió es fa estèril: cap dels dos interlocutors no escolta l'altre.\n\nLlavors intervé el moderador, en Teodomir Galofré. «Amb moderació, si us plau», diu amb calma. «Senyor, ens pot explicar per què li sembla una bajanada?» El senyor s'hi pensa i diu: «Perquè, si no saps quanta gent passa per cada lloc, no pots comparar res.» En Ravi somriu: «Té tota la raó. Això és exactament el que volia dir.» Els dos interlocutors, que fa un moment no s'entenien, ara estan d'acord.\n\nEn Ravi aprofita el moment. «Una discussió és estèril quan ningú no vol canviar d'opinió», diu. «Per persuadir, primer cal escoltar. El meu interlocutor m'ha ajudat més que ningú aquesta tarda.» El públic aplaudeix, i el senyor de la tercera fila també.\n\nEn tancar el col·loqui, la Marcel·lina dona les gràcies a l'orador i al moderador. Al vespre, en Ravi li diu que la moderació d'en Teodomir ha estat el millor del dia. La Marcel·lina ja pensa en el col·loqui de l'any vinent, i aquesta vegada començarà a tramitar els visats al gener.\n\nPreguntes:\nPer què la Marcel·lina compta 45 dies enrere des del 12 de maig?\nPerquè tramitar un visat pot trigar fins a 45 dies, i el visat ha d'arribar abans del col·loqui.\nQuè explica en Ravi sobre els paraigües perduts?\nQue es troben a les estacions perquè hi passa molta gent amb paraigua, no perquè les estacions els facin perdre.\nQuè diu el senyor de la tercera fila?\nDiu que l'exemple dels paraigües és una bajanada.\nQuan es fa estèril la discussió?\nQuan tots dos interlocutors repeteixen el mateix i cap no escolta l'altre.\nQuè demana el moderador?\nDemana moderació i pregunta al senyor per què li sembla una bajanada.\nQuè cal fer per persuadir algú, segons en Ravi?\nPrimer cal escoltar."
+    },
+    {
+      "title": "La fuita del jardí",
+      "summary": "Felipa Xarau, an accountant with a fixation on her household data, sees her water bill double, proves with two night-time meter readings that there is a leak, and finds it in the garden pipe by closing one valve at a time.",
+      "newWords": [
+        "suburbi",
+        "fixació",
+        "amargar",
+        "fuita",
+        "flaix",
+        "carregador"
+      ],
+      "text": "La Felipa Xarau viu en una casa amb jardí en un suburbi de Sabadell, a vint minuts del centre. Al seu suburbi hi ha carrers tranquils, cases baixes i molts horts petits. La Felipa és comptable i té una fixació per les dades: cada mes apunta en un full de càlcul la llum, el gas i l'aigua que gasta la família.\n\nAquest mes, la factura de l'aigua li amarga el dia: ha passat de 32 a 71 euros. La família no ha canviat cap costum, ningú no s'ha dutxat més i no han omplert cap piscina. «Si gastem el mateix i paguem més del doble, l'aigua se'n va per algun lloc», raona. Ha de ser una fuita.\n\nPer comprovar-ho, fa una prova senzilla. Una nit, a les 11, quan ja ningú no fa servir l'aigua, va a veure el comptador, que és dins d'una caixa fosca a l'entrada. Fa una foto dels números amb el flaix del mòbil, perquè a la caixa no s'hi veu res. L'endemà a les 7, abans que ningú obri cap aixeta, en fa una altra amb el flaix. Entre les dues fotos, el comptador ha avançat 152 litres. En 8 hores sense gastar res, se n'han perdut 19 cada hora. Ara ja no en té cap dubte: és una fuita.\n\nPerò on és? La casa té dues claus de pas: una per a l'interior i una altra per al reg del jardí. La Felipa raona per eliminació. Si tanca la clau del jardí i el comptador s'atura, la fuita és al jardí; si continua girant, és a dins de casa. Aquell vespre tanca la clau del jardí, i el comptador s'atura de cop.\n\nAbans de sortir al jardí, s'adona que al mòbil només li queda un 5 per cent de bateria. Torna a la cuina, el connecta al carregador i espera mitja hora. Amb el mòbil carregat, surt amb la llum del flaix i recorre el tub del reg. Al costat del llimoner troba un tros de terra tou i mullat. Allà hi ha la fuita.\n\nL'endemà, un lampista canvia el tros de tub trencat. La Felipa li explica el seu mètode, i ell riu: «La seva fixació per les dades li ha estalviat molts diners.» Abans de marxar, el lampista es deixa el carregador del seu mòbil endollat a la cuina, i la Felipa l'atrapa al carrer per tornar-l'hi.\n\nEl mes següent, la factura torna a ser de 31 euros. Aquesta vegada, la xifra no li amarga res: la Felipa l'apunta al full de càlcul, al costat de totes les altres.\n\nPreguntes:\nPer què la factura de l'aigua li amarga el dia a la Felipa?\nPerquè ha passat de 32 a 71 euros sense que la família hagi canviat cap costum.\nPer què fa servir el flaix del mòbil?\nPerquè el comptador és dins d'una caixa fosca i no s'hi veu res.\nCom sap que hi ha una fuita?\nPerquè en 8 hores de nit sense gastar aigua, el comptador ha avançat 152 litres.\nCom troba on és la fuita?\nTanca la clau del jardí, i com que el comptador s'atura, sap que la fuita és al jardí.\nPer què ha de connectar el mòbil al carregador?\nPerquè només li queda un 5 per cent de bateria."
+    },
+    {
+      "title": "El llibre de comptes del lli",
+      "summary": "Paper restorer Ermessèn Vilardell in Girona repairs the 1860s account book of an itinerant linen seller, removes a botched old repair, converts his old measures into metres, and finds a letter in which he addresses his father as \"vós\".",
+      "newWords": [
+        "restaurador",
+        "lli",
+        "itinerant",
+        "bunyol",
+        "vós",
+        "eternament"
+      ],
+      "text": "L'Ermessèn Vilardell és restauradora de paper i té un taller a Girona, a prop de l'Onyar. Una tarda d'octubre, una dona li porta un llibre de comptes vell de la seva família. És d'en Zacarias Tornabells, un avantpassat seu que, entre el 1858 i el 1871, va ser venedor itinerant de lli.\n\nUn venedor itinerant no tenia botiga: anava de poble en poble amb una mula i un carro, i venia teixits de lli, llençols, tovalloles i camises. Al llibre, en Zacarias hi apuntava cada venda: el poble, el dia, la quantitat de lli i el preu.\n\nPrimer de tot, la restauradora examina el llibre. Fa anys, algú hi va fer una reparació amb cinta adhesiva, i l'Ermessèn arrufa les celles. «Això és un bunyol», diu. La cinta adhesiva es torna groga amb el temps i crema el paper. Treure aquest bunyol li costa dos dies de feina, amb calor suau i molta paciència. Una bona restauradora no amaga mai un bunyol amb un altre: el desfà amb compte i torna a començar.\n\nEl paper, en canvi, és en bon estat. A l'època d'en Zacarias, el paper es feia amb draps vells de lli i de cotó, i per això ha resistit tant. Cap paper no dura eternament, però el de draps de lli s'hi acosta.\n\nMentre treballa, l'Ermessèn llegeix els comptes. En Zacarias mesurava el lli en canes i pams. Una cana feia 8 pams, i un pam, uns 19,4 centímetres; per tant, una cana feia uns 1,55 metres. En una pàgina del 1862 hi ha escrit: «Olot, 12 canes de lli, 60 rals». L'Ermessèn fa el càlcul: 12 canes són uns 18,6 metres de teixit, i cada cana costava 5 rals.\n\nEntre dues pàgines troba una carta doblegada. És d'en Zacarias al seu pare, escrita a Olot el 1863. Com era habitual llavors, el fill tracta el pare de vós: «Pare, vós sempre m'heu dit que els comptes clars fan els bons amics. Us estaré eternament agraït per haver-me ensenyat a comptar.» Avui pocs fills tracten els pares de vós, però al segle XIX era el més normal.\n\nAl cap de tres setmanes, l'Ermessèn torna el llibre a la família dins d'una capsa de cartró sense àcid, amb la carta en una carpeta a part. La dona li dona les gràcies: «Ara podrem ensenyar als nostres fills com treballava un venedor itinerant.» L'Ermessèn li recomana que el guardi en un lloc sec i fosc. Així, si no eternament, el llibre durarà com a mínim un altre segle i mig.\n\nPreguntes:\nQuè venia en Zacarias Tornabells?\nVenia teixits de lli: llençols, tovalloles i camises.\nPer què en Zacarias era un venedor itinerant?\nPerquè no tenia botiga: anava de poble en poble amb una mula i un carro.\nPer què l'Ermessèn diu que la reparació antiga és un bunyol?\nPerquè la cinta adhesiva es torna groga i crema el paper.\nQuants metres feien 12 canes de lli?\nFeien uns 18,6 metres, perquè una cana feia uns 1,55 metres.\nCom tracta en Zacarias el seu pare a la carta?\nEl tracta de vós, com era habitual al segle XIX."
+    }
+  ]
+}
