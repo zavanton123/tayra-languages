@@ -1,0 +1,100 @@
+1	5201	prevajati	prevaja prevajajo prevajal prevajala prevajali prevajam
+2	5202	dočakati	dočaka dočakajo dočakal dočakala dočakali
+3	5203	pripomba	pripomb pripombami pripombe pripombo
+4	5204	občan	občana občane občani občanov
+5	5205	etapa	etapah etape etapi etapo
+6	5206	prevladujoč	prevladujoča prevladujoče prevladujočega prevladujoči prevladujočim
+7	5207	želen	želene želenega želeni želenih želeno
+8	5208	kuža	kuži
+9	5209	obsegati	obsegajo obsegal obsegala
+10	5210	združevanje	združevanja združevanjem združevanju
+11	5211	uloviti	ulovila ulovili ulovim ulovite
+12	5212	fotografski	fotografska fotografske fotografskega fotografsko
+13	5213	sredozemski	sredozemske sredozemskega sredozemskem sredozemskih sredozemsko
+14	5214	avantura	avanture avanturi avanturo
+15	5215	naveličati	naveličajo naveličal naveličala naveličali
+16	5216	obloga	oblog obloge oblogo
+17	5217	trmast	trmasta trmaste trmastega trmasti
+18	5218	številčen	najštevilčnejši številčna številčne številčnejše številčni številčno
+19	5219	prvenec	prvenca prvencu
+20	5220	sodelujoč	sodelujoče sodelujoči sodelujočih
+21	5221	ljubljenček	ljubljenčka ljubljenčki ljubljenčkom
+22	5222	dobrodelen	dobrodelna dobrodelne
+23	5223	mračen	mračna mračne mračnega mračnih mračnim mračnimi mračno
+24	5224	hlev	hleva hleve hlevi hlevih hlevom hlevov hlevu
+25	5225	služkinja	služkinje služkinjo
+26	5226	prha	prh prhah prham prhe prhi prho
+27	5227	prilagoditev	prilagoditve
+28	5228	harmonika	harmonik harmonike harmoniki harmoniko
+29	5229	kontrolirati	kontrolira kontrolirajo kontrolirala kontrolirali kontroliramo
+30	5230	pogovoren	pogovorna pogovorne pogovornega pogovornem pogovorni pogovornih pogovorno
+31	5231	delavka	delavk delavke
+32	5232	odlomek	odlomka odlomke odlomki odlomkov odlomku
+33	5233	izdelovalec	izdelovalca izdelovalce izdelovalcev izdelovalci izdelovalcu
+34	5234	bencinski	bencinska bencinske bencinskega bencinskem bencinskih
+35	5235	gen	geni genih genov
+36	5236	gin	gina ginom ginu
+37	5237	definirati	definira definirajo definiral definirali definirate
+38	5238	košarkar	košarkarjev košarkarji
+39	5239	dojka	dojk dojkah dojke dojki dojko
+40	5240	koren	korena koreni korenom korenov korenu
+41	5241	komandant	komandanta komandantu
+42	5242	porota	porote
+43	5243	enotnost	enotnosti
+44	5244	teza	tez teze tezi tezo
+45	5245	ribica	ribic ribicami ribice ribici ribico
+46	5246	socializem	socializma socializmu
+47	5247	predober	predobra predobre predobri predobro
+48	5248	izločanje	izločanju
+49	5249	neprekinjen	neprekinjena neprekinjene neprekinjeno
+50	5250	navezati	navezal navezala navezali naveže navežejo navežemo
+51	5251	objektiven	objektivna objektivne objektivni objektivnih objektivno
+52	5252	preoblikovanje	preoblikovanja preoblikovanjem preoblikovanju
+53	5253	laboratorijski	laboratorijska laboratorijske laboratorijskih laboratorijsko
+54	5254	prečudovit	prečudovita prečudovitih prečudovito
+55	5255	beton	betona betonom betonu
+56	5256	žejen	žejna žejne
+57	5257	umikati	umika umikajo umikal umikala
+58	5258	znanec	znance znancem znancev znanci znancih znancu
+59	5259	lezbijka	lezbijk lezbijkah lezbijkam lezbijkama lezbijkami lezbijke lezbijki lezbijko
+60	5260	doza	dozi dozo
+61	5261	ustvarjalnost	ustvarjalnosti ustvarjalnostjo
+62	5262	črnilo	črnila črnilom črnilu
+63	5263	vdihniti	vdihne vdihnejo vdihnem vdihnemo vdihnete vdihneš vdihni vdihnil vdihnila vdihnili vdihnimo vdihnita vdihnite
+64	5264	obrest	obresti obrestih obrestmi
+65	5265	smernica	smernic smernicam smernicami smernice
+66	5266	toplice	toplic
+67	5267	razreden	razredna razredne razrednega razredni razrednih razredno
+68	5268	okrasek	okraske okraski okraskov
+69	5269	trčiti	trči trčijo trčil trčila trčili trčilo
+70	5270	ponovitev	ponovitvah ponovitve ponovitvi
+71	5271	pritrditi	pritrdi pritrdijo pritrdil pritrdili pritrdim pritrdimo pritrdite
+72	5272	risanje	risanja risanjem risanju
+73	5273	skorajda	
+74	5274	težiti	težijo težil težila težili težimo
+75	5275	krempelj	kremplja kremplje krempljem krempljev kremplji krempljih kremplju
+76	5276	maternica	maternice maternici maternico
+77	5277	popolnost	popolnosti
+78	5278	navedba	navedb navedbah navedbe navedbo
+79	5279	kotiček	kotička kotičke kotičkih kotičkom kotičkov kotičku
+80	5280	zavetje	zavetja zavetju
+81	5281	glina	gline glini glino
+82	5282	zelišče	zelišč zelišča zelišči zeliščih
+83	5283	jest	
+84	5284	uganiti	uganil uganila uganili
+85	5285	pravosodje	pravosodja pravosodjem
+86	5286	prati	pere perejo perem peremo pereta perete pereva pereš peri prala prale prali pran
+87	5287	gozdarstvo	gozdarstva gozdarstvu
+88	5288	izzivati	izziva izzivajo izzival izzivala izzivali
+89	5289	presnova	presnove presnovi presnovo
+90	5290	piten	pitna pitne pitno
+91	5291	takojšnji	takojšnja takojšnje takojšnjega takojšnjim takojšnjo
+92	5292	alergija	alergij alergijam alergijami alergije alergiji alergijo
+93	5293	elektronik	elektronika elektronike elektroniki elektroniko
+94	5294	konstanten	konstantna konstantne konstantni konstantno
+95	5295	nepredvidljiv	nepredvidljiva nepredvidljive nepredvidljivega nepredvidljivem nepredvidljivi nepredvidljivih nepredvidljivo
+96	5296	konkreten	konkretna konkretne konkretnega konkretnem konkretni konkretnih
+97	5297	muslimanski	muslimanska muslimanske muslimanskega muslimanskem muslimanskih muslimanskim muslimanskimi muslimansko
+98	5298	premor	premorom premoru
+99	5299	dirkalnik	dirkalnika dirkalniki dirkalnikov
+100	5300	nedotaknjen	nedotaknjena nedotaknjene nedotaknjenega nedotaknjeno

@@ -1,0 +1,100 @@
+1	5601	kolona	kolon kolone koloni kolono
+2	5602	gojenje	gojenja gojenju
+3	5603	izkazovati	izkazoval izkazovala izkazovali izkazuje izkazujejo izkazujete
+4	5604	usmerjenost	usmerjenosti
+5	5605	pričeska	pričesko
+6	5606	krepitev	krepitve krepitvi
+7	5607	ničla	ničel ničlo
+8	5608	govorjenje	govorjenjem govorjenju
+9	5609	zmenjen	zmenjena zmenjeni
+10	5610	kazalec	kazalca kazalce kazalcem kazalcev kazalci kazalcih kazalcu
+11	5611	vzdržati	vzdržal vzdržali vzdrži vzdržijo vzdržiš
+12	5612	stolpec	stolpca stolpce stolpcev stolpci stolpcih stolpcu
+13	5613	premog	premoga
+14	5614	nezadovoljstvo	nezadovoljstva
+15	5615	dopuščati	dopušča dopuščajo dopuščal dopuščala dopuščalo
+16	5616	krhek	krhka krhki krhko
+17	5617	gladina	gladine gladini gladino
+18	5618	zapravljati	zapravljajo zapravljal zapravljali
+19	5619	vključevanje	vključevanja vključevanjem vključevanju
+20	5620	copata	copat copate copati copato
+21	5621	paleta	palet palete paleti paleto
+22	5622	pričevanje	pričevanja pričevanjih pričevanju
+23	5623	sluh	sluha
+24	5624	igralen	igralna igralne igralnega igralni
+25	5625	početje	početja početju
+26	5626	šestnajst	šestnajstih šestnajstimi
+27	5627	kužek	kužka kužke
+28	5628	formacija	formacij formacije formaciji formacijo
+29	5629	zastareti	zastarel zastarela zastarelega zastareli zastarelo zastari
+30	5630	kvaliteten	kvalitetna kvalitetne kvalitetnega kvalitetni kvalitetnih kvalitetno
+31	5631	grofica	grofice grofici grofico
+32	5632	izza	
+33	5633	lastnica	lastnice lastnici
+34	5634	desetina	desetine desetino
+35	5635	kavboj	kavbojev kavboji
+36	5636	možak	možaka možaki možakom možakov možaku
+37	5637	strukturen	strukturna strukturne strukturnih strukturno
+38	5638	balkon	balkonu
+39	5639	trojka	trojk trojkah trojke trojki trojko
+40	5640	interakcija	interakcij interakcijo
+41	5641	obrtnik	obrtnika obrtnike obrtniki obrtnikom obrtnikov
+42	5642	administracija	administracije administraciji
+43	5643	kuzla	kuzle
+44	5644	krma	krme krmi krmo
+45	5645	osebek	osebke osebki osebkom osebkov
+46	5646	razcvet	razcveta razcvetu
+47	5647	pomnilnik	pomnilnika pomnilnikom pomnilniku
+48	5648	pedagog	pedagoga pedagogi pedagogov
+49	5649	nabaviti	nabavil nabavili
+50	5650	pogreben	pogrebne pogrebnega pogrebni pogrebnih pogrebno
+51	5651	nesposoben	nesposobna nesposobne nesposobnega nesposobni nesposobno
+52	5652	sij	sija
+53	5653	skorja	skorje skorji skorjo
+54	5654	razpoložen	razpoložena razpoloženega razpoloženi
+55	5655	tur	tura ture turi turo
+56	5656	novinarski	novinarska novinarske novinarskega novinarskih novinarsko
+57	5657	diskreten	diskretna diskretne diskretnega diskretni diskretno
+58	5658	meglica	meglic meglicah meglice meglici meglico
+59	5659	vodovod	vodovoda vodovode vodovodom vodovodov
+60	5660	prepeljati	prepeljal prepeljala prepeljali prepelje prepeljejo
+61	5661	jen	jena jenov
+62	5662	zavreči	zavrgli zavrglo zavrzite zavrže zavržejo
+63	5663	ambulanta	ambulanti
+64	5664	masten	mastne mastnega mastnem mastni mastnih mastnim mastno
+65	5665	vzpostavljen	vzpostavljena vzpostavljene vzpostavljeni
+66	5666	štart	štarta štartom štartu
+67	5667	pristopiti	pristopijo pristopil pristopila pristopili
+68	5668	najemnik	najemnika najemnike najemniki najemnikom najemnikov
+69	5669	spolnost	spolnosti spolnostjo
+70	5670	renault	renaulta
+71	5671	razpis	razpisa razpisu
+72	5672	bran	brani
+73	5673	vznemirjati	vznemirja vznemirjajo vznemirjal vznemirjala vznemirjalo
+74	5674	rum	ruma
+75	5675	predčasen	predčasne predčasni predčasnih predčasno
+76	5676	pesnica	pesnice pesnici pesnico
+77	5677	odmeven	odmevna odmevne odmevnem odmevnih odmevno
+78	5678	previdnost	previdnosti
+79	5679	skulptura	skulptur skulpture skulpturo
+80	5680	zakonodajen	zakonodajne zakonodajnega zakonodajni zakonodajnih zakonodajno
+81	5681	nestabilen	nestabilna nestabilne nestabilni nestabilnih
+82	5682	dioksid	dioksida
+83	5683	pločnik	pločnika pločniki pločnikov pločniku
+84	5684	dieta	diete dieto
+85	5685	ukrajinski	ukrajinska ukrajinske ukrajinskega ukrajinskih ukrajinsko
+86	5686	svak	svaka svaki svakom svaku
+87	5687	nesprejemljiv	nesprejemljiva nesprejemljive nesprejemljivo
+88	5688	srbeti	srbi
+89	5689	župnijski	župnijske župnijskega
+90	5690	privilegij	privilegijem privilegijev
+91	5691	lonec	lonca lonce loncev lonci loncih loncu
+92	5692	elita	elit eliti elito
+93	5693	partnerstvo	partnerstev partnerstva partnerstvom partnerstvu
+94	5694	liberalen	liberalna liberalne liberalni liberalnih liberalno
+95	5695	erotičen	erotična erotične erotičnega erotičnem erotični erotičnih erotičnimi erotično
+96	5696	nakazati	nakazal nakazala nakazali nakazalo nakaže nakažejo
+97	5697	por	pora porah pore
+98	5698	belgijski	belgijska belgijske belgijskega belgijskem belgijskih belgijsko
+99	5699	premočen	premočene premočeni premočna premočne premočni premočno
+100	5700	hobi	hobijev

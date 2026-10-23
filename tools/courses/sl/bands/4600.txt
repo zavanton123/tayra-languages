@@ -1,0 +1,100 @@
+1	4501	otvoritev	otvoritve otvoritvi otvoritvijo
+2	4502	nadležen	nadležna nadležne nadležnega nadležni nadležnih nadležnim nadležnimi nadležno
+3	4503	oropati	oropala oropali oropata
+4	4504	najem	najema najemom najemu
+5	4505	kaznovan	kaznovane kaznovani
+6	4506	poslednji	poslednja poslednje poslednjega poslednjih poslednjim poslednjo
+7	4507	precejšnji	precejšnja precejšnje precejšnjih precejšnjim precejšnjo
+8	4508	zabeležiti	zabeleži zabeležijo zabeležil zabeležila zabeležili zabeležilo zabeležim
+9	4509	enakovreden	enakovredna enakovredne enakovredno
+10	4510	islamski	islamska islamske islamskega islamskih islamsko
+11	4511	varščina	varščine varščini varščino
+12	4512	cent	centov
+13	4513	veljaven	veljavna veljavne veljavnega veljavni veljavnih veljavno
+14	4514	vrvica	vrvic vrvicami vrvice vrvici vrvico
+15	4515	armada	armad armade armadi armado
+16	4516	lopov	lopova lopove lopovi lopovih lopovom lopovov lopovu
+17	4517	dodajati	dodaja dodajajo dodajal dodajali dodajamo
+18	4518	ambasador	ambasadorja ambasadorje ambasadorjem ambasadorjev ambasadorji ambasadorju ambasadorka
+19	4519	omejiti	omeji omejijo omejil omejili omejilo omejim omejimo omejite
+20	4520	prisila	prisili prisilo
+21	4521	sorta	sorte sorti sorto
+22	4522	baron	barona baronu
+23	4523	komunizem	komunizma komunizmom komunizmu
+24	4524	izvoz	izvoza izvozom izvozu
+25	4525	določitev	določitve določitvi
+26	4526	ugotovljen	ugotovljena ugotovljene ugotovljenih ugotovljeno
+27	4527	upravitelj	upravitelja upraviteljem upraviteljev upravitelji upravitelju
+28	4528	prioriteta	prioritet prioritete prioriteto
+29	4529	komisar	komisarja komisarjev komisarju
+30	4530	izzvati	izzove izzovemo izzval izzvali izzvalo
+31	4531	dialog	dialoga dialogi dialogu
+32	4532	poslanstvo	poslanstva poslanstvom poslanstvu
+33	4533	muca	muce muco
+34	4534	prostost	prostosti
+35	4535	podedovati	podedoval podedovala podedovali podeduje
+36	4536	članstvo	članstva članstvu
+37	4537	pitje	pitja pitjem pitju
+38	4538	doseganje	doseganja doseganju
+39	4539	megan	
+40	4540	novinarka	novinarke novinarki novinarko
+41	4541	leča	lečami leče lečo
+42	4542	usmerjati	usmerja usmerjajo usmerjal usmerjali usmerjamo
+43	4543	parkirati	parkira parkirajo parkiral parkirala parkirali
+44	4544	samozavest	samozavesti samozavestjo
+45	4545	parlamentaren	parlamentarna parlamentarne parlamentarnega parlamentarni parlamentarnih parlamentarno
+46	4546	zaposlovanje	zaposlovanja zaposlovanju
+47	4547	rekonstrukcija	rekonstrukcije rekonstrukciji rekonstrukcijo
+48	4548	škofija	škofije škofiji škofijo
+49	4549	filozof	filozofa filozofe filozofi filozofov
+50	4550	gledanje	gledanja gledanjem gledanju
+51	4551	mapa	mape mapi mapo
+52	4552	plamen	plamena plamene plamenih plamenom plamenov plamenu
+53	4553	veljava	veljave veljavi veljavo
+54	4554	veža	veže veži vežo
+55	4555	mlečen	mlečna mlečne mlečnega mlečnem mlečni mlečnih mlečnim mlečno
+56	4556	shraniti	shrani shranijo shranil shranimo shranite
+57	4557	meta	mete meto
+58	4558	ohladiti	ohladi ohladijo ohladil ohladila ohladili ohladilo ohladimo
+59	4559	izrek	izreka izrekom izreku
+60	4560	obdajati	obdaja obdajajo obdajal obdajala
+61	4561	posredno	
+62	4562	obup	obupa obupu
+63	4563	razočaranje	razočaranj razočaranja razočaranjem razočaranji razočaranju
+64	4564	nag	naga nage nagega nagi nagih nagimi nago
+65	4565	menedžer	menedžerja menedžerje menedžerjem menedžerjev menedžerji menedžerju
+66	4566	paradižnik	paradižnika paradižnike paradižniki paradižnikih paradižnikom paradižnikov paradižnikova paradižnikove paradižnikovega paradižnikovo paradižniku
+67	4567	laški	laško
+68	4568	odleteti	odletel odletela odletele odleteli odletelo odleti
+69	4569	komite	komiteja komitejem komiteju
+70	4570	ocenjevanje	ocenjevanja ocenjevanjem ocenjevanju
+71	4571	zaveza	zavez zaveze zavezi
+72	4572	najdba	najdb najdbah najdbe najdbi najdbo
+73	4573	čvrst	čvrsta čvrste čvrstega čvrsti čvrstih čvrstim čvrsto
+74	4574	nečakinja	nečakinj nečakinje nečakinji nečakinjo
+75	4575	kravata	kravat kravate kravato
+76	4576	transporten	transportna transportne transportnega transportnem transportni transportnih transportno
+77	4577	izpostaviti	izpostavijo izpostavil izpostavila izpostavili izpostavimo
+78	4578	vinograd	vinograda vinograde vinogradi vinogradih vinogradov vinogradu
+79	4579	rezervoar	rezervoarja rezervoarje rezervoarjem rezervoarji
+80	4580	izvolitev	izvolitve izvolitvi
+81	4581	atomski	atomska atomske atomskega atomskem atomskih atomskim atomskimi atomsko
+82	4582	pripadnost	pripadnosti
+83	4583	ukiniti	ukine ukinemo ukinil ukinila ukinili
+84	4584	cepec	cepci
+85	4585	razpokati	razpoka razpoke razpoko
+86	4586	radost	radosti radostih radostjo
+87	4587	podprt	podprta podprte podprti podprto
+88	4588	vzdolž	
+89	4589	cepivo	cepiva
+90	4590	upokojen	upokojena upokojenega upokojeni upokojenih upokojenim
+91	4591	čistiti	čistijo čistile čistili čistimo čistit čistita čistite čistiva čistiš
+92	4592	diplomatski	diplomatska diplomatske diplomatskega diplomatskem diplomatskih diplomatsko
+93	4593	razglasitev	razglasitve razglasitvi razglasitvijo
+94	4594	zebsti	zebe zeblo
+95	4595	zadostiti	zadosti zadostila zadostili
+96	4596	aluminij	aluminija aluminijem
+97	4597	prostitutka	prostitutk prostitutke prostitutki prostitutko
+98	4598	zobozdravnik	zobozdravnica zobozdravnika zobozdravnike zobozdravniki zobozdravnikih zobozdravnikom zobozdravnikov zobozdravniku
+99	4599	plan	plana plani planih plano planom planov planu
+100	4600	keramik	keramika keramike keramiki keramiko

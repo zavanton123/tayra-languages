@@ -1,0 +1,100 @@
+1	2801	tožilec	tožilca tožilcev tožilci
+2	2802	češki	češke češkega češkem čeških
+3	2803	grof	grofa grofi grofje grofom grofov grofu
+4	2804	istočasen	istočasno
+5	2805	urok	uroka uroke uroki urokih urokom urokov uroku
+6	2806	zbiranje	zbiranja zbiranjem zbiranju
+7	2807	ohranjanje	ohranjanja ohranjanjem ohranjanju
+8	2808	obraten	obratna obratnega obratnem obratni obratnim obratno
+9	2809	vnuk	vnuka vnuke vnuki vnukih vnukom vnukoma vnukov vnuku
+10	2810	srbski	srbska srbske srbskega srbskem srbskih srbskim srbsko
+11	2811	obesiti	obesi obesil obesila obesili obesimo obesite
+12	2812	izražati	izraža izražajo izražal izražala izražali izražata
+13	2813	prostovoljen	prostovoljna prostovoljne prostovoljnega prostovoljni prostovoljnih prostovoljnim prostovoljno
+14	2814	kakršenkoli	kakršnakoli kakršnegakoli kakršnekoli kakršnemkoli kakršnihkoli kakršnikoli kakršnokoli
+15	2815	nasmeh	nasmeha nasmehe nasmehi nasmehom nasmehov nasmehu
+16	2816	dvoboj	dvoboja dvoboji dvobojih dvoboju
+17	2817	bralec	bralca bralce bralcem bralcev bralci bralcu
+18	2818	pilot	pilota pilote piloti pilotov pilotova pilotove pilotovega pilotovo pilotu
+19	2819	posloviti	poslovi poslovil poslovila poslovili poslovimo
+20	2820	ohranjen	ohranjena ohranjene ohranjenega ohranjeni ohranjenih ohranjeno
+21	2821	prečkati	prečka prečkajo prečkal prečkala prečkale prečkali prečkalo prečki prečko
+22	2822	režim	režima režimi režimom režimov režimu
+23	2823	odsotnost	odsotnosti odsotnostjo
+24	2824	postavitev	postavitve postavitvi postavitvijo
+25	2825	izbirati	izbirajo izbiral izbirala izbirali izbiramo izbirate izbiraš
+26	2826	čiščenje	čiščenja čiščenjem čiščenju
+27	2827	ljubček	ljubčki
+28	2828	cesten	cestna cestne cestnega cestnem cestni cestnih cestno
+29	2829	odigrati	odigra odigrajo odigral odigrala odigrali odigralo
+30	2830	priredba	priredbe
+31	2831	zavarovati	zavaroval zavarovala zavarovale zavarovali zavaruje zavarujejo zavarujem zavarujemo zavarujte
+32	2832	legati	lega legah legat legata lege legi lego
+33	2833	skodelica	skodelic skodelicah skodelicami skodelice skodelici skodelico
+34	2834	tat	tatov tatova tatove tatovi tatovih tatovom tatu
+35	2835	viski	viskija viskijem viskiju
+36	2836	smiseln	smiselna smiselne smiselnega smiselni smiselno
+37	2837	solza	solz solzah solzam solzami solze solzo
+38	2838	šolstvo	šolstva šolstvu
+39	2839	depresija	depresije depresiji depresijo
+40	2840	obtožiti	obtoži obtožil obtožila obtožili
+41	2841	stava	stav stavami stave stavo
+42	2842	strog	najstrožjo stroga stroge strogega strogem strogi strogih strogim strogimi
+43	2843	priporočati	priporoča priporočajo priporočala priporočali priporočam priporočamo priporočaš
+44	2844	starec	starca starce starcem starcema starcev starci starcih starcu
+45	2845	potencial	potenciala potenciale potenciali potencialom potencialov
+46	2846	bojevnik	bojevnika bojevnike bojevniki bojevnikov
+47	2847	poveljstvo	poveljstva poveljstvom poveljstvu
+48	2848	panika	panike paniki paniko
+49	2849	teoretičen	teoretična teoretične teoretičnega teoretični teoretičnih teoretičnim teoretično
+50	2850	čigav	čigava čigave čigavega čigavem čigavi čigavih čigavim čigavo
+51	2851	zaliv	zaliva zalive zalivi zalivih zalivom zalivov zalivu
+52	2852	čaroben	čarobna čarobne čarobnega čarobnih čarobnimi čarobno
+53	2853	zaslon	zaslona zaslone zasloni zaslonih zaslonom zaslonov zaslonu
+54	2854	nečak	nečaka nečake nečaki nečakom nečakov nečaku
+55	2855	nafta	nafte nafti nafto
+56	2856	zaznamovati	zaznamoval zaznamovala zaznamovale zaznamovali zaznamovalo zaznamuje zaznamujejo
+57	2857	storilec	storilca storilce storilcem storilcev storilci storilcu
+58	2858	poseg	posega posege posegi posegih posegom posegov posegu
+59	2859	dobiček	dobička dobičke dobički dobičkom dobičku
+60	2860	sendvič	sendviča sendviče sendvičem sendvičev sendviči sendvičih sendviču
+61	2861	podreti	podre podrejo podrl podrla podrli podrlo
+62	2862	blato	blata blatom blatu
+63	2863	gozden	gozdne gozdni gozdnih gozdnimi gozdno
+64	2864	koder	kodre kodri kodrov
+65	2865	združevati	združeval združuje združujejo združujem združujeta
+66	2866	aparat	aparata aparate aparati aparatom aparatov
+67	2867	pretvarjati	pretvarja pretvarjajo pretvarjal pretvarjamo
+68	2868	potok	potoka potoke potoki potokih potokom potokov potoku
+69	2869	organizator	organizatorja organizatorje organizatorjem organizatorjev organizatorji organizatorju
+70	2870	obnoviti	obnovijo obnovil obnovila obnovili obnovim obnovimo obnovite
+71	2871	podpredsednik	podpredsednika podpredsednikov podpredsedniku
+72	2872	krajina	krajin krajine krajini krajino
+73	2873	slovo	sloves slovesa slovesom slovesu
+74	2874	uvedba	uvedbe uvedbi uvedbo
+75	2875	pogoditi	pogodi pogodijo pogodil pogodila pogodili pogodim pogodimo pogodite pogodiva pogodiš pogojen pogojena pogojene pogojeno pogojna pogojne pogojni pogojnih pogojno
+76	2876	evro	evra evri evrih evrov
+77	2877	moker	mokra mokre mokrega mokrem mokri mokrih mokrim mokrimi mokro
+78	2878	opazovanje	opazovanj opazovanja opazovanjem opazovanju
+79	2879	povedan	povedane povedano
+80	2880	prehitro	
+81	2881	sleči	sleci slecimo slecita slecite sleciva slekel slekla slekli sleč slečemo
+82	2882	žrtvovati	žrtvoval žrtvovala žrtvovale žrtvovali žrtvovalo žrtvuj žrtvuje žrtvujejo žrtvujem žrtvujemo žrtvujete žrtvujeva žrtvuješ žrtvujmo žrtvujte
+83	2883	objem	objema objeme objemi objemih objemom objemov objemu
+84	2884	razvojen	razvojna razvojne razvojnega razvojnem razvojni razvojnih razvojno
+85	2885	kliničen	klinične kliničnega kliničnem klinični kliničnih kliničnimi klinično
+86	2886	mejen	mejna mejne mejnega mejnem mejni mejnih mejnimi mejno
+87	2887	uvrščati	uvršča uvrščajo uvrščali uvrščamo
+88	2888	varnostnik	varnostnike varnostniki varnostnikom varnostnikov
+89	2889	denarnica	denarnic denarnicami denarnice denarnici denarnico
+90	2890	kazenski	kazenska kazenske kazenskega kazenskem kazenskih kazenskim kazensko
+91	2891	nezakonit	nezakonita nezakonitega nezakonitem nezakoniti nezakonitih nezakonitim nezakonito
+92	2892	katastrofa	katastrof katastrofah katastrofami katastrofe katastrofi katastrofo
+93	2893	železnica	železnic železnicah železnice železnici železnico
+94	2894	bruc	bruca bruce brucem brucev bruci brucu
+95	2895	tisk	tiska tiskom tisku
+96	2896	morebiten	morebitna morebitne morebitnega morebitnem morebitni morebitnih morebitnim morebitnimi morebitno
+97	2897	boja	boje
+98	2898	trst	trsta trstom trstu
+99	2899	poudarjati	poudarja poudarjajo poudarjal poudarjala poudarjali poudarjam poudarjamo poudarjata poudarjaš
+100	2900	neroden	nerodna nerodne nerodnega nerodni nerodnim nerodno

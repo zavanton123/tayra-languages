@@ -1,0 +1,100 @@
+1	8801	lama	lamo
+2	8802	prodajalka	prodajalke prodajalki prodajalko
+3	8803	mana	
+4	8804	prebirati	prebira prebirajo prebiral prebirala prebirali prebiram prebiraš
+5	8805	staromoden	staromodna
+6	8806	direktiva	direktivo
+7	8807	ozvezdje	ozvezdij ozvezdja ozvezdju
+8	8808	režiserka	režiserko
+9	8809	zlonameren	zlonamerna zlonamerne zlonamerni zlonamernih zlonamerno
+10	8810	referenčen	referenčne referenčnega referenčni
+11	8811	jasa	jas jaso
+12	8812	vlaganje	vlaganj vlaganja vlaganjem vlaganju
+13	8813	remi	remijem
+14	8814	kolar	
+15	8815	modeliranje	modeliranja
+16	8816	obrezovanje	obrezovanja obrezovanju
+17	8817	urbanističen	urbanističnega urbanistični urbanistično
+18	8818	naslednica	naslednice naslednico
+19	8819	tloris	tlorisa
+20	8820	jaguar	jaguarja jaguarjem
+21	8821	osončje	osončja osončju
+22	8822	petindvajset	petindvajsetimi
+23	8823	kupček	kupčka kupčke kupčkom
+24	8824	nebotičnik	nebotičnika nebotičnike nebotičniki nebotičnikih nebotičnikoma nebotičnikov nebotičniku
+25	8825	prt	prta prte prti prtom prtov prtu
+26	8826	žurka	žurke žurko
+27	8827	zvonjenje	zvonjenja zvonjenjem zvonjenju
+28	8828	zapravljanje	zapravljanja
+29	8829	štrleti	štrlel štrlela štrlele štrleli štrli štrlijo
+30	8830	pogajalec	pogajalca pogajalcem pogajalci
+31	8831	obložen	obložena obložene obloženih obloženo
+32	8832	podlasica	podlasic podlasice podlasici podlasico
+33	8833	zamejstvo	zamejstvu
+34	8834	rastlinjak	rastlinjakih rastlinjaku
+35	8835	soavtor	
+36	8836	toplina	topline toplini toplino
+37	8837	ritmičen	ritmična ritmični ritmično
+38	8838	prizidek	prizidka prizidku
+39	8839	nastavek	nastavka nastavkov nastavku
+40	8840	prodirati	prodira prodirajo
+41	8841	vrednosten	vrednostne vrednostni vrednostnih vrednostnimi
+42	8842	pritlikavec	pritlikavca pritlikavci
+43	8843	letalec	letalce letalcem letalcev
+44	8844	perzijski	perzijskega perzijskem perzijsko
+45	8845	treniranje	treniranja treniranjem
+46	8846	jetrn	jetrne jetrni jetrnih jetrno
+47	8847	siriti	sirijo
+48	8848	psihologinja	psihologinje psihologinji psihologinjo
+49	8849	oporekati	oporeka oporekal oporekala
+50	8850	varovanec	varovanca varovance varovancem varovancev varovanci
+51	8851	razumiti	razumita razumite
+52	8852	sramovati	sramoval sramovali
+53	8853	krokar	krokarja krokarje krokarjem krokarjev krokarji krokarju
+54	8854	drhal	drhali drhaljo
+55	8855	levičar	levičarjev levičarji
+56	8856	ris	risa risi
+57	8857	hranilnica	hranilnice
+58	8858	kobila	kobil kobile kobili kobilo
+59	8859	obsevanje	obsevanja obsevanju
+60	8860	tihotapec	tihotapcev tihotapci
+61	8861	kopito	kopit kopita kopiti kopitom kopitu
+62	8862	otoček	otočka otočki otočkov
+63	8863	zaviralec	zaviralci
+64	8864	prizadetost	prizadetosti
+65	8865	kravji	kravje kravjega kravjih
+66	8866	urejenost	urejenosti
+67	8867	vzornik	vzorniki vzornikov
+68	8868	vnebovzetje	vnebovzetja
+69	8869	odlaganje	odlaganjem odlaganju
+70	8870	stiskati	stiskajo stiskajte stiskal stiskala stiskali stiskam
+71	8871	pokazatelj	pokazatelji
+72	8872	zaobljubiti	zaobljubi zaobljubil zaobljubila zaobljubili zaobljubim zaobljubita zaobljubiš zaobljubljena
+73	8873	projektiranje	projektiranja projektiranju
+74	8874	postavka	postavk postavke postavko
+75	8875	odlikovan	odlikovana odlikovani
+76	8876	lovka	lovk lovkah lovkami lovke lovki lovko
+77	8877	peticija	peticiji peticijo
+78	8878	viva	
+79	8879	naseljevati	naseljevali naseljuje naseljujejo
+80	8880	zamrzovalnik	zamrzovalniku
+81	8881	razpršen	razpršena razpršenih
+82	8882	motoričen	motorične motorični motoričnih
+83	8883	osamosvojitven	osamosvojitvene osamosvojitveni osamosvojitveno
+84	8884	minul	minula minule minulega minulem minuli minulih minulo
+85	8885	pasta	pasto
+86	8886	monitor	monitorja monitorje monitorjev monitorji monitorjih monitorju
+87	8887	pomikati	pomika pomikal pomikala pomikamo
+88	8888	rokovanje	rokovanju
+89	8889	ribištvo	ribištva
+90	8890	rakov	rakove
+91	8891	shizofrenija	shizofrenije shizofrenijo
+92	8892	glavnik	glavnika glavnike glavniki glavnikom
+93	8893	poravnan	poravnana poravnane poravnani poravnano
+94	8894	češplja	češpelj češpljah češpljami češplje češplji češpljo
+95	8895	horoskop	horoskopu
+96	8896	geometrija	geometrije
+97	8897	preobleka	preobleke preobleki
+98	8898	propadanje	propadanja
+99	8899	vrhnji	vrhnja vrhnje vrhnjem vrhnjo
+100	8900	strjevanje	strjevanja strjevanju

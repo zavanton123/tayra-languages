@@ -1,0 +1,100 @@
+1	3701	raznolik	raznolika raznolike raznoliki raznolikih raznolikimi raznoliko
+2	3702	opera	opere operi opero
+3	3703	goba	gob gobah gobam gobami gobe gobi gobo
+4	3704	zaupen	zaupnem zaupni zaupnih zaupnimi zaupno
+5	3705	splačati	splača splačalo
+6	3706	odvreči	odvrgel odvrgla odvrgli odvrglo odvrže odvržejo odvržemo
+7	3707	zaigrati	zaigra zaigral zaigrala zaigrali zaigralo
+8	3708	sef	sefa sefe sefi sefih sefom sefov sefu
+9	3709	kenta	kent
+10	3710	uživanje	uživanja uživanjem uživanju
+11	3711	kvadraten	kvadratne kvadratnega kvadratnemu kvadratni kvadratnih kvadratno
+12	3712	uvod	uvoda uvodom uvodu
+13	3713	izhodišče	izhodišč izhodišča izhodišču
+14	3714	strop	stropa strope stropi stropom stropov stropu
+15	3715	sledeč	sledeča sledeče sledeči sledečih sledečo
+16	3716	šampanjec	šampanjca šampanjce šampanjcem
+17	3717	psihologija	psihologije psihologijo
+18	3718	mehiški	mehiška mehiške mehiškega mehiškem mehiškemu mehiško
+19	3719	votlina	votlin votlinah votline votlini votlino
+20	3720	gnezdo	gnezd gnezda gnezdih gnezdom gnezdu
+21	3721	vernik	vernike verniki vernikom vernikov
+22	3722	zapuščati	zapušča zapuščajo zapuščala zapuščali zapuščam zapuščamo
+23	3723	živahen	živahna živahne živahnega živahnejši živahnem živahni živahnih živahnim živahno
+24	3724	tekmec	tekmeca tekmece tekmecem tekmecev tekmeci tekmecih tekmecu
+25	3725	pridobitev	pridobitve pridobitvijo
+26	3726	pretepsti	pretepel pretepla pretepli
+27	3727	žaga	žag žagam žagami žage žagi žago
+28	3728	gostitelj	gostitelja gostitelje gostiteljem gostiteljev gostitelji gostiteljica gostitelju
+29	3729	pero	peres peresa peresi peresom peresu
+30	3730	ogrožati	ogroža ogrožajo ogrožal ogrožala ogrožale ogrožali ogrožamo ogrožata
+31	3731	prehoden	prehodna prehodne prehodnega prehodnem prehodni prehodnih prehodno
+32	3732	jud	juda judih judje
+33	3733	zadovoljiti	zadovolji zadovoljijo zadovoljil zadovoljila zadovoljile zadovoljili zadovoljilo zadovoljim zadovoljimo zadovoljite zadovoljiva zadovoljiš
+34	3734	samica	samic samicah samicami samice samici samico
+35	3735	obnovljen	obnovljena obnovljene obnovljenega obnovljeni obnovljenih obnovljeno
+36	3736	nakazovati	nakazoval nakazovala nakazuje nakazujejo nakazujeta
+37	3737	prepričljiv	prepričljiva prepričljive prepričljivega prepričljivejše prepričljivih prepričljivo
+38	3738	vrtnica	vrtnic vrtnicah vrtnicami vrtnice vrtnici vrtnico
+39	3739	popust	popusta popuste popusti popustom
+40	3740	baje	
+41	3741	prihodek	prihodka prihodke prihodki prihodkih prihodkom prihodkov prihodku
+42	3742	dostava	dostave dostavo
+43	3743	risba	risb risbah risbami risbe risbi risbo
+44	3744	imperij	imperija
+45	3745	nadzornik	nadzornika nadzorniki nadzornikom nadzornikov
+46	3746	soprog	soproga soproge soprogi soprogo soprogu
+47	3747	potisniti	potisne potisnejo potisnem potisnemo potisnete potisnil potisnila potisnili potisnilo potisnite
+48	3748	naštet	naštej našteje naštejem naštejemo našteješ naštel naštela našteli naštete naštetega našteti naštetih našteto
+49	3749	strelivo	streliva
+50	3750	gib	gibe gibi gibom gibov
+51	3751	žuželka	žuželk žuželkah žuželkam žuželkami žuželke žuželki žuželko
+52	3752	težaven	težavna težavnega težavnem težavni težavnih težavno
+53	3753	proračun	proračuna proračune proračunom proračunu
+54	3754	marinec	marincev marinci
+55	3755	nameniti	namenijo namenil namenila namenile namenili namenilo
+56	3756	beseden	besedna besedne besednega besednem besedni besednih besednim besednimi besedno
+57	3757	zvrst	zvrsteh zvrsti
+58	3758	nedaven	nedavna nedavne nedavnega nedavnem nedavni nedavnih nedavnim
+59	3759	podjetnik	podjetnika podjetnike podjetniki podjetnikom podjetnikov
+60	3760	razsežnost	razsežnosti razsežnostih
+61	3761	prestopiti	prestopi prestopil prestopila prestopili prestopimo prestopite prestopiš
+62	3762	revščina	revščine revščini revščino
+63	3763	obdelati	obdela obdelajo obdelajte obdelal obdelala obdelale obdelali obdelamo
+64	3764	koordinata	koordinatah koordinatam koordinate koordinato
+65	3765	ravnotežje	ravnotežja ravnotežjem ravnotežju
+66	3766	testirati	testirajo testiral testirala testirali testiramo testirate
+67	3767	privaten	privatna privatne privatnem privatni privatnih privatno
+68	3768	spretnost	spretnosti spretnostih spretnostjo
+69	3769	protokol	protokola protokolih protokolom protokolov
+70	3770	obrazec	obrazca obrazce obrazcem obrazcev obrazci obrazcih obrazcu
+71	3771	akt	akta akte akti aktih aktom aktov aktu
+72	3772	steklen	steklena steklene steklenem stekleni steklenih steklenimi stekleno
+73	3773	zavesa	zaves zavesah zavesami zavese zavesi zaveso
+74	3774	deželen	deželna deželne deželnega deželnem deželni deželnih deželno
+75	3775	spreminjanje	spreminjanja spreminjanjem spreminjanju
+76	3776	privlačiti	privlači privlačijo privlačil privlačila privlačita
+77	3777	naraščati	narašča naraščajo naraščal naraščala naraščata
+78	3778	usesti	usedel usedete usedite usedla usedli
+79	3779	neprestan	neprestane neprestanih neprestano
+80	3780	premier	premiera premieri premierja premierju premiero premierom premieru
+81	3781	školjka	školjk školjkami školjke školjko
+82	3782	kavarna	kavarn kavarnah kavarne kavarni kavarno
+83	3783	zaslužek	zaslužka zaslužke zaslužkom zaslužkov zaslužku
+84	3784	maščoba	maščob maščobah maščobami maščobe maščobi maščobo
+85	3785	pobeg	pobega pobegi pobegih pobegom
+86	3786	prikrit	prikrijejo prikril prikrili prikrita prikriti prikritih prikrito
+87	3787	afriški	afriška afriške afriškega afriških
+88	3788	latinski	latinska latinske latinskega latinskem latinskih latinskim latinskimi latinsko
+89	3789	razumljiv	razumljiva razumljive razumljivega razumljivo
+90	3790	kapljica	kapljic kapljicami kapljice kapljico
+91	3791	ločevati	ločeval ločevala ločevale ločevali ločevalo ločevanje ločuj ločuje ločujejo ločujem ločujemo ločujeta ločujete ločujeva ločuješ ločujte
+92	3792	predviden	predvidena predvidene predvidenega predvidenem predvideni predvidenih predvideno
+93	3793	pridelek	pridelka pridelke pridelki pridelkih pridelkom pridelkov pridelku
+94	3794	tekom	
+95	3795	cirkus	cirkusa cirkusi cirkusu
+96	3796	sladkoren	sladkorna sladkorne sladkorni sladkornim sladkornimi sladkorno
+97	3797	pokopan	pokopana pokopane pokopani pokopanih
+98	3798	baker	bakra bakrom bakru
+99	3799	madež	madeža madeže madežem madežev madeži
+100	3800	pomembnost	pomembnosti

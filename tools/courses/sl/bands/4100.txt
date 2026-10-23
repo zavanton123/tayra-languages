@@ -1,0 +1,100 @@
+1	4001	grajski	grajska grajske grajskega grajskem grajsko
+2	4002	postava	postav postave postavo
+3	4003	tovoren	tovorna tovornega tovornem tovorni tovornih tovornim tovornimi tovorno
+4	4004	šaliti	šalil šalila šalili šalimo šalite
+5	4005	potrditev	potrditve potrditvi potrditvijo
+6	4006	zamuda	zamud zamude zamudo
+7	4007	najden	najdene najdeni najdenih najdenim
+8	4008	darovati	daroval darovala darovali darovanje daruj daruje darujejo darujem darujemo darujete darujeva daruješ darujte
+9	4009	nega	nege negi nego
+10	4010	garaža	garaž garaže garažo
+11	4011	naročje	naročja naročju
+12	4012	profesionalec	profesionalca profesionalce profesionalcem profesionalcev profesionalci profesionalcu
+13	4013	siliti	silijo silil silila silili silim silite
+14	4014	prekinitev	prekinitve prekinitvi
+15	4015	ocenjen	ocenjena ocenjene ocenjeni ocenjenih ocenjeno
+16	4016	podaljšati	podaljša podaljšaj podaljšajo podaljšajte podaljšal podaljšala podaljšale podaljšali podaljšalo podaljšam podaljšamo podaljšate podaljšaš
+17	4017	kriti	krij krije krijejo krijem krijemo krijeta krijete krijeva kriješ krijmo krijta krijte krile
+18	4018	škorenj	škornja škornje škornjem škornjev škornji škornjih škornju
+19	4019	materin	materina materine materinega materinem materini materinim materino
+20	4020	palec	palca palce palcem palcema palcev palci palcih palcu
+21	4021	usmrtitev	usmrtitvah usmrtitvami usmrtitve usmrtitvi usmrtitvijo
+22	4022	najstnik	najstnike najstniki najstnikih najstnikov
+23	4023	mulec	mulc mulca mulcev
+24	4024	spis	spisa spise spisi spisov spisu
+25	4025	met	metih metom metov metu
+26	4026	žirija	žirije žiriji žirijo
+27	4027	afera	afer afere aferi afero
+28	4028	terorističen	teroristična teroristične terorističnega teroristični terorističnih terorističnimi teroristično
+29	4029	čuvaj	čuvaja čuvaje čuvajev čuvaji
+30	4030	okrožen	okrožna okrožnega okrožnem okrožni okrožnim okrožno
+31	4031	suša	suše suši sušo
+32	4032	izključen	izključena izključene izključeni izključeno izključna izključne izključni
+33	4033	vzdevek	vzdevki vzdevkom vzdevkov
+34	4034	vzgojiti	vzgojil vzgojila vzgojili vzgojiš
+35	4035	povzpeti	povzpel povzpela povzpeli povzpelo povzpne povzpnemo povzpnete
+36	4036	samec	samca samce samcem samcev samci samcu
+37	4037	povabljen	povabljena povabljene povabljeni povabljenih
+38	4038	povraten	povratna povratne povratnem povratni povratnih povratno
+39	4039	blagoven	blagovna blagovne blagovnih blagovno
+40	4040	mučenje	mučenja mučenjem
+41	4041	splav	splava splave splavi splavih splavom splavov splavu
+42	4042	gneča	gneče gneči gnečo
+43	4043	mil	mila milega milejši milem mili milih
+44	4044	predvajati	predvaja predvajajo predvajala predvajali predvajamo predvajate
+45	4045	klasik	klasika klasike klasiki klasiko klasikov
+46	4046	prevarati	prevaral prevarala prevarali
+47	4047	zagnati	zagnal zagnala zagnali zagnalo zažene zaženejo zaženem zaženemo zaženete zaženeva zaženeš zaženi zaženimo zaženite
+48	4048	norveški	norveške norveškega norveškem norveških norveškim
+49	4049	kršitev	kršitvah kršitve kršitvijo
+50	4050	tekač	tekača tekače tekačem tekačev tekači tekaču
+51	4051	usoden	usodna usodne usodnega usodnem usodni usodnih usodnim usodno
+52	4052	posoditi	posodil posodila posodili posodimo posodit posodita posodite posodiva
+53	4053	ugibati	ugibala ugibali ugibam ugibamo ugibate
+54	4054	piknik	piknike piknikov pikniku
+55	4055	imunski	imunskega
+56	4056	izkaznica	izkaznic izkaznice izkaznico
+57	4057	priznavati	priznava priznavajo priznaval priznavali priznavam priznavamo priznavata priznavate priznavaš
+58	4058	vzgajati	vzgaja vzgajajo vzgajala vzgajali
+59	4059	tekmovalen	tekmovalna tekmovalne tekmovalnega tekmovalnem tekmovalni tekmovalno
+60	4060	nepotreben	nepotrebna nepotrebne nepotrebnega nepotrebnem nepotrebni nepotrebnih nepotrebnim nepotrebno
+61	4061	novela	novele noveli novelo
+62	4062	koalicija	koalicije koaliciji koalicijo
+63	4063	plesalec	plesalca plesalce plesalcev plesalci plesalcu
+64	4064	razpolagati	razpolaga razpolagal razpolagala razpolago
+65	4065	brdo	brd brda brdih brdu
+66	4066	dojet	dojame dojela dojeli dojeti
+67	4067	pustolovščina	pustolovščine pustolovščini pustolovščino
+68	4068	pohvaliti	pohvali pohvalijo pohvalil pohvalila pohvalili pohvalim pohvalimo pohvališ
+69	4069	anonimen	anonimna anonimne anonimnega anonimnem anonimni anonimnih anonimnim anonimnimi anonimno
+70	4070	vzpostavitev	vzpostavitvi vzpostavitvijo
+71	4071	pečen	pečena pečene pečeni pečenimi pečeno
+72	4072	rebro	reber rebra rebri rebrih rebrom rebru
+73	4073	tedenski	tedenska tedenske tedenskega tedenskem tedenskih tedensko
+74	4074	gluh	gluha gluhe gluhega gluhemu gluhi gluhih gluhim gluhimi gluho
+75	4075	danski	danske danskega danskem danskih
+76	4076	zastaviti	zastavil zastavila zastavili zastavimo zastaviš
+77	4077	ustreljen	ustreljena ustreljene
+78	4078	upočasniti	upočasni upočasnijo upočasnila upočasnimo
+79	4079	svetišče	svetišč svetišča svetišču
+80	4080	bencin	bencina
+81	4081	neznanec	neznanca neznance neznancem neznanci
+82	4082	vnos	vnosa vnose vnosom vnosu
+83	4083	jarek	jarka jarke jarki jarkih jarkom jarkov jarku
+84	4084	platno	platen platna platnih platnom platnu
+85	4085	vaba	vab vabami vabe vabo
+86	4086	specializiran	specializirana specializirane specializirani specializiranih specializirano
+87	4087	tožilstvo	tožilstva tožilstvom tožilstvu
+88	4088	razpoloženje	razpoloženj razpoloženja razpoloženjem razpoloženju
+89	4089	avtoriteta	avtoritet avtoritete avtoriteti avtoriteto
+90	4090	lice	lic lica licem lici licih licu
+91	4091	glasilo	glasil glasila glasilih
+92	4092	ponoreti	ponorel ponorela ponorele ponorelega ponorelem ponoreli ponorelih ponorelo ponori ponorijo ponorim ponorimo ponorite ponoriš
+93	4093	pojasnjevati	pojasnjeval pojasnjevala pojasnjevali pojasnjuje pojasnjujejo
+94	4094	izvod	izvode izvodi izvodih izvodom izvodov izvodu
+95	4095	preučevati	preučeval preučevala preučevali preučuje preučujejo preučujemo
+96	4096	stanovati	stanoval stanovala stanovali stanovat stanuje stanujejo stanujem stanujemo stanujeta stanujete stanujeva stanuješ
+97	4097	tenis	tenisa tenisom tenisu
+98	4098	mišičen	mišična mišične mišičnega mišičnem mišični mišičnih mišično
+99	4099	izteči	iztekel iztekla iztekle iztekli izteklo izteče iztečejo
+100	4100	zadolžen	zadolžena zadolžene

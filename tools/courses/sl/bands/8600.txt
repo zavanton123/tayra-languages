@@ -1,0 +1,100 @@
+1	8501	tečen	tečna tečni
+2	8502	velesila	velesil velesilami velesile velesili velesilo
+3	8503	poenostavljen	poenostavljena poenostavljene
+4	8504	škofovski	škofovska škofovske
+5	8505	ovreči	ovrgli ovrglo ovrže
+6	8506	nagnati	nagnala nagnali
+7	8507	sočen	sočna sočnih sočnim
+8	8508	natrij	natrija
+9	8509	osvežiti	osveži osvežijo osvežimo
+10	8510	nemoč	nemoči
+11	8511	elektron	elektrona elektrone elektroni elektronov
+12	8512	hrbtenjača	hrbtenjače hrbtenjači hrbtenjačo
+13	8513	predpostavljati	predpostavlja predpostavljajo predpostavljamo
+14	8514	svarilo	svaril svarila
+15	8515	kanta	kante kanti
+16	8516	zadati	zada zadala zadali
+17	8517	klicanje	klicanja klicanjem klicanju
+18	8518	košarica	košarice košarici košarico
+19	8519	izmenjevati	izmenjevali izmenjujejo izmenjujeta
+20	8520	predrzen	predrzne predrzni
+21	8521	finsko	
+22	8522	izolirati	izolira izolirajo izolirali izoliraš
+23	8523	kotlina	kotline kotlino
+24	8524	rakav	rakavega rakavih
+25	8525	ukrivljen	ukrivljena ukrivljene ukrivljeni ukrivljenim
+26	8526	poglobiti	poglobil poglobili poglobite
+27	8527	vstava	vstavi
+28	8528	samopodoba	samopodobe samopodobo
+29	8529	izčrpati	izčrpajo izčrpal izčrpala izčrpali
+30	8530	privleči	privlekel privlekla privlečejo
+31	8531	hollywoodski	hollywoodskih
+32	8532	zavladati	zavlada zavladala zavladali zavladalo
+33	8533	rasizem	rasizma
+34	8534	genski	genske
+35	8535	folija	folije foliji folijo
+36	8536	strašilo	strašila
+37	8537	bolničar	bolničarja
+38	8538	smuk	smuka smuku
+39	8539	potrošnja	potrošnje
+40	8540	favorit	favorita favoritov
+41	8541	tabornik	taborniki tabornikov
+42	8542	utrjen	utrjena utrjene
+43	8543	učenjak	učenjake učenjaki
+44	8544	pusten	pustne pustni pustno
+45	8545	vozišče	vozišča
+46	8546	preventiva	preventivo
+47	8547	privaditi	privadil privadila privadili privadimo
+48	8548	sorodstvo	sorodstva sorodstvu
+49	8549	natočiti	natočil natočila natočim natočite
+50	8550	položen	položena položenih položeno
+51	8551	navigator	navigatorja
+52	8552	eksperimentalen	eksperimentalna eksperimentalno
+53	8553	konfederacija	konfederacije konfederaciji
+54	8554	navor	navora
+55	8555	zapečaten	zapečatena zapečatene zapečateno
+56	8556	onesvestiti	onesvestil onesvestila
+57	8557	ponujen	ponujena ponujene ponujenega ponujeni ponujenih ponujeno
+58	8558	izpisati	izpisal izpisala izpisali izpisalo izpiše izpišejo
+59	8559	ekskluziven	ekskluzivnih ekskluzivno
+60	8560	pičiti	pičila pičilo
+61	8561	enostranski	enostranska enostranske enostranskih enostransko
+62	8562	premagovanje	premagovanju
+63	8563	odkorakati	odkorakal odkorakala odkorakali
+64	8564	goniti	goni gonijo gonil gonila gonili gonilo gonim gonite goniš
+65	8565	intervencija	intervencijo
+66	8566	linearen	linearna linearne linearno
+67	8567	bukev	bukve
+68	8568	daritev	daritve
+69	8569	ubežati	ubežal ubežijo
+70	8570	odposlanec	odposlanca odposlance odposlancev odposlancu
+71	8571	hipoteza	hipotezo
+72	8572	ukrepanje	ukrepanja ukrepanjem
+73	8573	lastnoročen	lastnoročno
+74	8574	razvedeti	razvedelo
+75	8575	inženirstvo	inženirstva
+76	8576	županja	županje županji županjo
+77	8577	pravilnost	pravilnosti
+78	8578	majorka	majorke majorki majorko
+79	8579	diamanten	diamantna diamantne diamantnega diamantnem diamantni diamantnih diamantnim diamantnimi diamantno
+80	8580	selo	sela
+81	8581	simpatija	simpatij simpatije simpatijo
+82	8582	obešen	obešena obešene obešeni
+83	8583	porabljati	porablja porabljajo porabljala
+84	8584	vzoren	vzorno
+85	8585	produktiven	produktivni produktivno
+86	8586	prtiček	prtička prtičke prtički prtičkom
+87	8587	namišljen	namišljenega namišljeni namišljenim namišljenimi namišljeno
+88	8588	padalec	padalca padalce padalcem padalcev padalci
+89	8589	slikarka	slikarke
+90	8590	podkupnina	podkupnine
+91	8591	obkoljen	obkoljena obkoljeni
+92	8592	psevdonim	psevdonimom
+93	8593	pristaš	pristašev pristaši
+94	8594	prijati	prija
+95	8595	manjšinski	manjšinske manjšinskih
+96	8596	odteči	odtekla odteče
+97	8597	zvleči	zvlekla zvleče
+98	8598	štekati	šteka štekaš
+99	8599	izpeljava	izpeljave izpeljavo
+100	8600	letina	letine letini letino

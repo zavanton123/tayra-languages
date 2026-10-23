@@ -1,0 +1,100 @@
+1	2301	občinstvo	občinstva občinstvom občinstvu
+2	2302	privlačen	privlačna privlačne privlačnega privlačnejša privlačni privlačnih privlačno
+3	2303	zastava	zastav zastavah zastavam zastavami zastave zastavi zastavo
+4	2304	skala	skal skalah skalam skalami skale skali skalo
+5	2305	standard	standarda standarde standardi standardih standardom standardov standardu
+6	2306	centralen	centralna centralne centralnega centralni centralnih centralno
+7	2307	krasti	krade kradejo kradel kradem krademo kradeta kradete kradeva kradeš kradi kradite kradla kradle kradli krast
+8	2308	ubijati	ubija ubijajo ubijal
+9	2309	specifičen	specifična specifične specifičnega specifični specifičnih specifičnim specifičnimi specifično
+10	2310	zadovoljstvo	zadovoljstev zadovoljstva zadovoljstvom zadovoljstvu
+11	2311	občinski	občinska občinske občinskega občinskem občinskih občinsko
+12	2312	kakovost	kakovosti kakovostjo
+13	2313	dragocen	dragocena dragocene dragoceni dragocenih dragoceno najdragocenejše najdragocenejših
+14	2314	vrhoven	vrhovna vrhovne vrhovnega vrhovnem vrhovnemu vrhovni vrhovnih vrhovnim vrhovno
+15	2315	koristen	koristna koristne koristnega koristni koristnih koristnim koristno
+16	2316	sladkor	sladkorja sladkorjem sladkorjev
+17	2317	oskrba	oskrbe oskrbi oskrbo
+18	2318	segati	sega segajo segal segala segale segali
+19	2319	delec	delce delcev delci delcih
+20	2320	suženj	sužnje sužnjem sužnjev sužnji sužnjih sužnju
+21	2321	tisoči	tisoče tisočev
+22	2322	straža	straž straže stražo
+23	2323	mamica	mamic mamicam mamice mamici mamico
+24	2324	one	onidve plural
+25	2325	nikjer	
+26	2326	ročen	ročna ročne ročnega ročnem ročni ročnih ročnim ročnimi ročno
+27	2327	reševati	reševal reševala reševali rešuje rešujejo rešujemo rešujete
+28	2328	strup	strupa strupe strupi strupih strupom strupov strupu
+29	2329	duhoven	duhovna duhovnega duhovni duhovnih duhovno
+30	2330	fin	fina finega finem fini finih finim finimi fino
+31	2331	molitev	molitvah molitvam molitvami molitve molitvi molitvijo
+32	2332	pesnik	pesnika pesnike pesniki pesnikom pesnikov
+33	2333	poljski	poljske poljskega poljskem poljskemu poljskih poljskim poljskimi
+34	2334	snemanje	snemanja snemanjem snemanjih snemanju
+35	2335	poezija	poezij poezije poeziji poezijo
+36	2336	mandat	mandata mandatih mandatom mandatov mandatu
+37	2337	malenkost	malenkosti
+38	2338	osamiti	osamijo osamil osamila osamili osamimo osamite osamljen osamljena osamljene osamljeni osamljenih osamljeno
+39	2339	lisa	lis lisami lise liso
+40	2340	porabiti	porabijo porabil porabila porabili porabilo porabimo porabita porabite
+41	2341	zadetek	zadetka zadetki zadetkih zadetkom zadetkov zadetku
+42	2342	mrzel	mrzla mrzle mrzlega mrzlem mrzli mrzlih mrzlimi mrzlo
+43	2343	množičen	množična množične množičnega množičnem množični množičnih množičnimi množično
+44	2344	upravljati	upravlja upravljajo upravljal upravljala upravljali upravljamo upravljata
+45	2345	zemljišče	zemljišč zemljišča zemljiščem zemljišči zemljiščih zemljišču
+46	2346	niz	niza nize nizi nizih nizom nizov nizu
+47	2347	kemičen	kemična kemične kemičnega kemičnem kemični kemičnih kemičnim kemičnimi kemično
+48	2348	fantastičen	fantastična fantastične fantastičnih fantastično
+49	2349	sojenje	sojenja sojenjem sojenju
+50	2350	počivati	počiva počivaj počivajmo počivajo počivajta počivajte počivajva počival počivala počivale počivali počivalo počivam počivamo počivat počivata počivate počivava počivaš
+51	2351	rjav	rjava rjave rjavega rjavem rjavi rjavih rjavimi rjavo
+52	2352	kmetijstvo	kmetijstva kmetijstvom kmetijstvu
+53	2353	bratranec	bratranca bratrance bratrancem bratrancema bratrancev bratranci bratrancih bratrancu
+54	2354	brada	brad bradami brade bradi brado
+55	2355	omara	omarah omare omari omaro
+56	2356	generalen	generalna generalne generalnega generalnem generalnemu generalni generalnim
+57	2357	uvesti	uvede uvedejo uvedel uvedeš uvedla uvedle uvedli uvedlo
+58	2358	tipičen	tipična tipične tipičnega tipičnem tipični tipičnih tipično
+59	2359	klobuk	klobuka klobuke klobuki klobukih klobukom klobukov klobuku
+60	2360	osredotočiti	osredotoči osredotočijo osredotočil osredotočila osredotočili osredotočimo osredotočita osredotočite
+61	2361	pouk	pouka poukom pouku
+62	2362	krajeven	krajevna krajevne krajevnega krajevnem krajevni krajevnih krajevnim krajevnimi krajevno
+63	2363	zanimanje	zanimanja zanimanjem zanimanju
+64	2364	steza	stez stezah stezami steze stezi stezo
+65	2365	noseč	noseča noseči
+66	2366	podariti	podari podaril podarila podarili podarilo podarimo podarite
+67	2367	vesti	vede vedejo vedem vedemo vedeta vedete vedeva vedeš vedimo vedita vedite vediva vedle vezenje
+68	2368	vprašaj	vprašaja vprašajem
+69	2369	prihraniti	prihrani prihranijo prihranil prihranila prihranili prihranimo prihranite
+70	2370	jed	jedem jedi jedjo jedmi
+71	2371	nakup	nakupa nakupe nakupi nakupih nakupom nakupov nakupu
+72	2372	nevihta	neviht nevihtah nevihtam nevihtami nevihte nevihti nevihto
+73	2373	okrožje	okrožij okrožja okrožjih okrožju
+74	2374	skrajen	skrajna skrajne skrajnem skrajni skrajnih skrajnim skrajnimi skrajno
+75	2375	izobrazba	izobrazbe izobrazbi izobrazbo
+76	2376	napredek	napredka napredki napredkom napredku
+77	2377	opisovati	opisoval opisovala opisovali opisuje opisujejo opisujem opisujemo opisujete
+78	2378	ustnica	ustnic ustnicah ustnicam ustnicami ustnice ustnici ustnico
+79	2379	uvrstitev	uvrstitvami uvrstitve uvrstitvi uvrstitvijo
+80	2380	objava	objavah objavami objave objavi objavo
+81	2381	sestavina	sestavin sestavinah sestavinami sestavine sestavini sestavino
+82	2382	srebrn	srebrna srebrne srebrnega srebrnem srebrni srebrnih srebrnim srebrnimi srebrno
+83	2383	zanesljiv	najzanesljivejši zanesljiva zanesljive zanesljivejši zanesljivi zanesljivih zanesljivim zanesljivo
+84	2384	zima	zim zime zimi zimo
+85	2385	rahel	rahla rahle rahlem rahli rahlih rahlim rahlo
+86	2386	prikazan	prikazana prikazane prikazani prikazanih prikazano
+87	2387	preživetje	preživetja preživetjem preživetju
+88	2388	vampir	vampirja vampirje vampirjem vampirjev vampirji vampirjih vampirju
+89	2389	vročina	vročine vročini vročino
+90	2390	čelo	čela čeli čelom čelu
+91	2391	reven	najrevnejše najrevnejši najrevnejših revna revne revnega revnejše revnejši revnejših revnem revnemu revni revnih revnim revnimi revno
+92	2392	cerkven	cerkvena cerkvene cerkvenega cerkvenem cerkveni cerkvenih cerkveno
+93	2393	oblikovan	oblikovana oblikovane oblikovanega oblikovani oblikovanih oblikovanim oblikovanimi oblikovano
+94	2394	medalja	medalj medaljami medalje medalji medaljo
+95	2395	televizijski	televizijska televizijske televizijskega televizijskem televizijskih televizijskim televizijskimi televizijsko
+96	2396	ureditev	ureditve ureditvi ureditvijo
+97	2397	prestolnica	prestolnic prestolnicah prestolnice prestolnici prestolnico
+98	2398	moštvo	moštev moštva moštvi moštvom moštvu
+99	2399	filozofija	filozofij filozofije filozofiji filozofijo
+100	2400	prelep	prelepa prelepe prelepih prelepim prelepo

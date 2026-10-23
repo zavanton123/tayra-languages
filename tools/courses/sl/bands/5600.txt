@@ -1,0 +1,100 @@
+1	5501	pokrajinski	pokrajinske pokrajinskega pokrajinskem
+2	5502	prestava	prestav prestavami prestave prestavi prestavo
+3	5503	sprejemnik	sprejemnike sprejemniki sprejemnikom sprejemnikov
+4	5504	proza	proze prozi prozo
+5	5505	spominek	spominke spominki spominkov
+6	5506	vijak	vijaka vijake vijaki vijakom vijakov
+7	5507	preiskovalec	preiskovalce preiskovalcem preiskovalcev preiskovalci
+8	5508	marihuana	marihuane marihuano
+9	5509	kirurški	kirurška kirurške kirurškega kirurških kirurškim
+10	5510	imeniten	imenitna imenitni imenitno
+11	5511	kovač	kovačev kovači kovaču
+12	5512	negotov	negotova negotove negotovi negotovih negotovo
+13	5513	vosek	voska voski voskom vosku
+14	5514	služenje	služenja služenju
+15	5515	predstojnik	predstojnika predstojniki
+16	5516	bombardirati	bombardira bombardirajo bombardirajte bombardiral bombardirala bombardirale bombardirali bombardiram bombardiramo bombardiran bombardirana bombardirani bombardiranje bombardirano bombardirate bombardiraš
+17	5517	zaželen	zaželena zaželene zaželenega zaželeni zaželenih zaželeno
+18	5518	predelati	predelajo predelal predelali predelamo
+19	5519	pregledovati	pregledoval pregledovala pregledovali pregledujejo pregledujemo
+20	5520	bedast	bedasta bedaste bedastega bedastem bedasti bedastih bedastim bedastimi bedasto
+21	5521	strip	stripa stripi stripih stripom stripov
+22	5522	boks	bokse boksih boksu
+23	5523	revež	revežev reveži
+24	5524	vnet	vname vnela vneli vneta vnete vneti vneto
+25	5525	obupati	obupajo obupajte obupala obupali obupam obupate
+26	5526	adrenalin	adrenalina
+27	5527	zapisnik	zapisnika zapisnike zapisniki zapisniku
+28	5528	slikarski	slikarska slikarske slikarskih slikarsko
+29	5529	oglašati	oglaša oglašajo oglašal oglašala oglašali
+30	5530	doleteti	doletela doletele doleti
+31	5531	vagon	vagona vagone vagoni vagonih vagonov vagonu
+32	5532	odkupnina	odkupnine odkupnino
+33	5533	hektar	hektarjev hektarji hektarjih hektarov
+34	5534	pobirati	pobira pobiral pobirali
+35	5535	operater	operaterja operaterje operaterjem operaterjev operaterji
+36	5536	varianta	variante varianti varianto
+37	5537	sova	sove sovi sovo
+38	5538	jadranski	jadranske jadranskega jadranskem jadransko
+39	5539	dvigovati	dvigoval dvigovali dviguje dvigujejo dvigujemo dvigujete
+40	5540	zahvalen	zahvalni zahvalnim zahvalno
+41	5541	taktičen	taktične taktičnega taktični taktičnih taktično
+42	5542	operirati	operirajo operiral operirali operiraš
+43	5543	rutina	rutine rutino
+44	5544	izvoren	izvorna izvorne izvorni izvornih izvornimi izvorno
+45	5545	nasmešek	nasmeška nasmeške nasmeški nasmeškom nasmeškov nasmešku
+46	5546	ptičji	ptičja ptičje ptičjega ptičjih ptičjim ptičjo
+47	5547	krepiti	krepi krepijo krepil krepila krepilo krepimo
+48	5548	izločati	izloča izločajo
+49	5549	kaplja	kapelj kaplje kaplji kapljo
+50	5550	vnukinja	vnukinje vnukinji vnukinjo
+51	5551	napovedovati	napovedoval napovedovala napovedovali napoveduje napovedujejo
+52	5552	mešanje	mešanja mešanjem
+53	5553	stvaritev	stvaritve stvaritvi
+54	5554	biblija	biblije
+55	5555	indeks	indeksa
+56	5556	emisija	emisij emisije emisijo
+57	5557	stenski	stenska stenske stenskih stensko
+58	5558	načeloma	
+59	5559	tvor	tvori
+60	5560	dosegljiv	dosegljiva dosegljivi dosegljivih
+61	5561	prostornina	prostornine prostornini prostornino
+62	5562	prešteti	preštej preštejemo prešteješ preštejte preštel preštela prešteli
+63	5563	vedro	veder vedra vedri vedrih vedrom vedru
+64	5564	mišljen	mišljena mišljeni mišljeno
+65	5565	sproščanje	sproščanja sproščanjem sproščanju
+66	5566	korito	korita koritom koritu
+67	5567	strojnica	strojnice strojnico
+68	5568	uren	urna urne urnega urni urno
+69	5569	valentinovo	valentinovem
+70	5570	žebelj	žeblja žeblje žebljem žebljev žeblji žebljih žeblju
+71	5571	prihranek	prihranka prihranke prihranki prihrankov
+72	5572	skleda	skled sklede skledi skledo
+73	5573	tvorba	tvorb tvorbe tvorbo
+74	5574	shramba	shrambe shrambi shrambo
+75	5575	vdati	vda vdal vdala vdalo
+76	5576	zabeležen	zabeleženi zabeleženih zabeleženo
+77	5577	jemanje	jemanja jemanjem jemanju
+78	5578	simulacija	simulacij simulacijah simulacije simulacijo
+79	5579	prilagajanje	prilagajanja prilagajanjem prilagajanju
+80	5580	zafrkavati	zafrkava zafrkaval zafrkavali zafrkavam
+81	5581	napitek	napitki napitkom napitkov
+82	5582	romar	romarje romarjev romarji
+83	5583	sesalec	sesalca sesalce sesalcem sesalcev sesalci sesalcih sesalcu
+84	5584	direktorica	direktorice
+85	5585	smrad	smradu
+86	5586	puran	purana purane purani puranom puranov puranovo puranu
+87	5587	meheh	mehko
+88	5588	zagotovljen	zagotovljena zagotovljene zagotovljenega zagotovljeni zagotovljenih zagotovljeno
+89	5589	moto	
+90	5590	naročnik	naročnika naročnike naročniki naročnikih naročnikom naročnikov
+91	5591	nepopoln	nepopolna nepopolne nepopolnega nepopolnem nepopolni nepopolno
+92	5592	orgazem	orgazma orgazme orgazmi orgazmih orgazmom orgazmov orgazmu
+93	5593	mozaik	mozaika mozaiki mozaiku
+94	5594	napočiti	napoči napočil napočila napočilo
+95	5595	risanka	risank risankah risanke risanko
+96	5596	sočasno	
+97	5597	vohati	voham
+98	5598	sluznica	sluznic sluznice sluznici sluznico
+99	5599	požaren	požarna požarne požarnega požarni požarnimi
+100	5600	nesmrten	nesmrtna nesmrtne nesmrtni nesmrtnih nesmrtno

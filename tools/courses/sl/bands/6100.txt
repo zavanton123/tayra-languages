@@ -1,0 +1,100 @@
+1	6001	optika	optike optiki optiko
+2	6002	prvakinja	prvakinj prvakinje
+3	6003	odvajanje	odvajanja odvajanju
+4	6004	preučevanje	preučevanja preučevanju
+5	6005	povračilo	povračil povračila povračilu
+6	6006	otročji	otročja otročje otročjega otročjih otročjim otročjo
+7	6007	odločba	odločb odločbe odločbi odločbo
+8	6008	žaljiv	žaljiva žaljive žaljivih žaljivo
+9	6009	privid	privida privide prividi prividov
+10	6010	integracija	integracije integraciji integracijo
+11	6011	mehanik	mehaniki
+12	6012	racionalen	racionalna racionalni racionalnih racionalno
+13	6013	odstoten	odstotna odstotne odstotni odstotno
+14	6014	razbrati	razberemo razbereš razbral razbrala razbrali
+15	6015	un	
+16	6016	suknjič	suknjiča suknjiče suknjiči suknjiču
+17	6017	pridigar	pridigarji
+18	6018	lopata	lopat lopatami lopate lopati lopato
+19	6019	vagina	vagin vaginah vaginami vagine vagini vagino
+20	6020	dolgoročen	dolgoročna dolgoročne dolgoročni dolgoročnih
+21	6021	kriviti	krivijo
+22	6022	mladostnik	mladostnika mladostnike mladostniki mladostnikih mladostnikov
+23	6023	veterinar	veterinarja veterinarjem veterinarji
+24	6024	preobleči	preobleci preoblekla preobleče preoblečemo preoblečeta
+25	6025	šminkati	šminka šminke šminki
+26	6026	posvojitev	posvojitve
+27	6027	rov	rova rovi rovih rovu
+28	6028	log	loga logi logom logu
+29	6029	izogibanje	izogibanja izogibanju
+30	6030	razmnoževanje	razmnoževanja
+31	6031	monografija	monografije monografiji monografijo
+32	6032	pladenj	pladnje pladnjem pladnju
+33	6033	učilnica	učilnic učilnicah učilnice učilnici učilnico
+34	6034	neomejen	neomejene neomejenih neomejeno
+35	6035	ukazovati	ukazoval ukazuje
+36	6036	vrlina	vrlin vrlinami vrline
+37	6037	uprizoriti	uprizoril uprizorila uprizorili
+38	6038	vezje	vezij vezja vezji vezjih vezju
+39	6039	predmestje	predmestjih predmestju
+40	6040	parada	paradah parado
+41	6041	poklon	poklona poklone pokloni poklonom poklonov poklonu
+42	6042	pretepati	pretepajo pretepal pretepali pretepamo
+43	6043	prepuščen	prepuščena prepuščene prepuščeni prepuščeno
+44	6044	sinteza	sinteze sintezi sintezo
+45	6045	postajališče	postajališč postajališča postajališču
+46	6046	piščančji	piščančja piščančje piščančjega piščančjih piščančjim piščančjimi piščančjo
+47	6047	serum	serumom
+48	6048	kuhinjski	kuhinjska kuhinjske kuhinjskem kuhinjskih kuhinjskim kuhinjsko
+49	6049	bombaž	bombaža bombažem bombažu
+50	6050	uredba	uredbe uredbi uredbo
+51	6051	neprecenljiv	neprecenljiva neprecenljive neprecenljivo
+52	6052	zapoved	zapovedi zapovedim
+53	6053	nadloga	nadlog nadloge nadlogo
+54	6054	popravljen	popravljena popravljeni popravljeno
+55	6055	agresiven	agresivne agresivni
+56	6056	utišati	utiša utišal utišala utišali
+57	6057	pogonski	pogonska pogonske pogonskih pogonsko
+58	6058	zakladnica	zakladnice zakladnici zakladnico
+59	6059	osvajati	osvaja osvajajo osvajala osvajali osvajata
+60	6060	tolikšen	tolikšna tolikšne tolikšnega tolikšni tolikšnim tolikšno
+61	6061	govornik	govornika govorniki
+62	6062	vol	vola voli volov
+63	6063	obrv	obrveh obrvi obrvjo obrvmi
+64	6064	podvojiti	podvojil podvojila podvojili podvojilo
+65	6065	prodajen	prodajna prodajne prodajnega prodajnem prodajni prodajnih prodajno
+66	6066	omamiti	omami omamijo omamil omamila omamili omamilo omamim omamimo omamite omamiš omamljen omamljena omamljene omamljenega omamljeni omamljeno
+67	6067	pivovarna	pivovarne pivovarni pivovarno
+68	6068	priporočljiv	priporočljiva priporočljivo
+69	6069	kotel	kotla kotli kotlov
+70	6070	zmagovalen	zmagovalna zmagovalne zmagovalnega zmagovalnem zmagovalni zmagovalnih
+71	6071	podiplomski	podiplomske podiplomskega podiplomskem
+72	6072	vezati	vezala vezali vezalo vežejo vežemo vežete vežite
+73	6073	tajski	tajske tajskega tajskem
+74	6074	vplesti	vplete vpletel vpletla
+75	6075	romanje	romanja romanju
+76	6076	neformalen	neformalna neformalne neformalni neformalnih neformalno
+77	6077	kol	kole kolov kolu
+78	6078	specifikacija	specifikacijah specifikacije specifikaciji
+79	6079	vzajemen	vzajemna vzajemne vzajemnega vzajemni vzajemnih vzajemno
+80	6080	eleganten	elegantna
+81	6081	grozljivka	grozljivk grozljivkah grozljivke grozljivki grozljivko
+82	6082	brlog	brloga brloge brlogih brlogom brlogov brlogu
+83	6083	tribuna	tribun tribunah tribunami tribuni tribuno
+84	6084	vsakoleten	vsakoletna vsakoletnem vsakoletni vsakoletnih vsakoletno
+85	6085	marmelada	marmelade marmelado
+86	6086	zakonik	zakonika
+87	6087	podvozje	podvozja podvozjem podvozju
+88	6088	usklajen	usklajena usklajene usklajenega usklajeni usklajenih usklajeno
+89	6089	meščanski	meščanska meščanske meščanskega meščanskih meščansko
+90	6090	čistost	čistosti
+91	6091	izdelovanje	izdelovanja izdelovanju
+92	6092	preimenovati	preimenoval preimenovala preimenovali
+93	6093	dodajanje	dodajanjem
+94	6094	bodalo	bodala
+95	6095	dolgovati	dolguje
+96	6096	brutalen	brutalna brutalne brutalnega brutalnem brutalni brutalnih brutalnim brutalno
+97	6097	kosten	kostne kostnega kostnem kostni kostno
+98	6098	jahta	jahte jahti jahto
+99	6099	povleči	povlecite povlekel povlekla povlekli povlečemo
+100	6100	slabšati	slabša slabšajo

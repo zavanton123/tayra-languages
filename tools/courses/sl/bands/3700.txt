@@ -1,0 +1,100 @@
+1	3601	čakanje	čakanja čakanjem čakanju
+2	3602	diploma	diplome diplomi diplomo
+3	3603	kemija	kemije kemiji kemijo
+4	3604	vaški	vaška vaške vaškega vaškem vaških vaškim vaškimi vaško
+5	3605	nedvomen	nedvomno
+6	3606	navidezen	navidezna navidezne navideznega navidezni navideznih navideznim navideznimi navidezno
+7	3607	aktualen	aktualna aktualne aktualnega aktualni aktualnih aktualno
+8	3608	vlakno	vlaken vlakna
+9	3609	mamin	mamina mamini maminih mamino
+10	3610	zasledovati	zasledoval zasledovali zasleduje zasledujejo zasledujeta zasleduješ
+11	3611	arabski	arabska arabske arabskega arabskem arabskih arabskim arabskimi arabsko
+12	3612	sekcija	sekcij sekcije sekciji sekcijo
+13	3613	izvršen	izvršena izvršna izvršne izvršnega izvršnem izvršnemu izvršni izvršno
+14	3614	sesti	sede sedejo sedemo sedeta sedete sedeš sedli sest
+15	3615	cvetje	cvetja cvetjem cvetju
+16	3616	šifra	šifer šifre šifro
+17	3617	veza	veze
+18	3618	letenje	letenja letenjem letenju
+19	3619	tisočletje	tisočletij tisočletja tisočletji tisočletjih tisočletju
+20	3620	pristojnost	pristojnosti pristojnostmi
+21	3621	perspektiva	perspektive perspektivi perspektivo
+22	3622	prekršek	prekrška prekrške prekrški prekrških prekrškov prekršku
+23	3623	tuš	tuša tušem tušu
+24	3624	primerek	primerke primerki primerkih primerkom primerkov
+25	3625	pisec	pisca pisce piscem piscev pisci
+26	3626	poslovanje	poslovanja poslovanjem poslovanju
+27	3627	pretiravati	pretiravajo pretiravajte pretiraval pretiravali pretiravam pretiravamo pretiravate pretiravaš
+28	3628	ugotavljati	ugotavlja ugotavljajo ugotavljal ugotavljala ugotavljali ugotavljam ugotavljamo ugotavljata ugotavljaš
+29	3629	lepotica	lepotic lepoticam lepotice lepotici lepotico
+30	3630	mentor	mentorja mentorjem mentorjev mentorji mentorju
+31	3631	alternativen	alternativna alternativne alternativni alternativnih alternativno
+32	3632	poslovnež	poslovneža poslovneže poslovnežem poslovnežev poslovneži poslovnežu
+33	3633	usten	ustna ustne ustnega ustnem ustni ustnih ustnim ustno
+34	3634	prsten	prstne prstnega prstni prstnih prstnimi
+35	3635	tank	tanke tanki tankom tankov
+36	3636	propad	propada propadom propadu
+37	3637	predajati	predaja predajaj predajal predajali predaje predaji predajo
+38	3638	koza	koz kozah kozam kozami koze kozi kozo
+39	3639	producent	producenta producenti producentov producentu
+40	3640	objavljati	objavlja objavljajo objavljal objavljali objavljamo
+41	3641	podtakniti	podtaknil podtaknila podtaknili
+42	3642	idealen	idealna idealno
+43	3643	epizoda	epizodi
+44	3644	kamnit	kamnite kamnitega kamnitem kamniti kamnitih kamnitim kamnito
+45	3645	komedija	komedij komedijah komedije komediji komedijo
+46	3646	pristanek	pristanka pristankom pristanku
+47	3647	sindikat	sindikata sindikate sindikati sindikatom sindikatov sindikatu
+48	3648	gostilna	gostilnah gostilne gostilni gostilno
+49	3649	operacijski	operacijske operacijskega operacijskih operacijskim
+50	3650	velikanski	velikanska velikanske velikanskega velikanskem velikanskih velikanskim velikanskimi velikansko
+51	3651	tragičen	tragična tragične tragičnega tragičnem tragični tragičnih tragično
+52	3652	ded	deda dede dedi dedje dedom dedov dedu
+53	3653	igla	igel iglah iglami igle igli iglo
+54	3654	zaplesti	zapletel zapletemo zapletla zapletli zapletlo
+55	3655	izražanje	izražanja izražanju
+56	3656	sit	sitega siti
+57	3657	kroničen	kronična kronične kroničnih kronično
+58	3658	kemijski	kemijska kemijske kemijskega kemijskem kemijskih kemijskim kemijsko
+59	3659	blagosloviti	blagoslovi blagoslovijo blagoslovil blagoslovila blagoslovili blagoslovim blagoslovimo blagoslovit blagoslovite blagosloviš
+60	3660	najemnina	najemnin najemnine najemnino
+61	3661	ugotovitev	ugotovitvah ugotovitvami ugotovitve ugotovitvi ugotovitvijo
+62	3662	trgovanje	trgovanja trgovanju
+63	3663	nepravilen	nepravilna nepravilne nepravilnega nepravilni nepravilnih nepravilno
+64	3664	brazgotina	brazgotin brazgotinah brazgotinam brazgotinami brazgotine brazgotini brazgotino
+65	3665	komunikacijski	komunikacijska komunikacijske komunikacijskega komunikacijskem komunikacijskih komunikacijsko
+66	3666	vrsten	vrstne vrstnega vrstnem vrstni vrstnih vrstno
+67	3667	fantek	fantka
+68	3668	prodan	prodana prodane prodanega prodani prodanih prodano
+69	3669	nedavno	
+70	3670	norost	norosti
+71	3671	terasa	teras terasah terase terasi teraso
+72	3672	zaklenjen	zaklenjena zaklenjeni zaklenjeno
+73	3673	rezerven	rezervnega rezervni rezervnih rezervnimi rezervno
+74	3674	uvrščen	uvrščena uvrščene uvrščeni
+75	3675	izstopati	izstopa izstopajo izstopal izstopala izstopali izstopata izstopate
+76	3676	vladar	vladarja vladarjem vladarjev vladarji vladarju
+77	3677	spanec	spanca spancem spancu
+78	3678	dolenjski	dolenjska dolenjske dolenjskega dolenjskem
+79	3679	neodvisnost	neodvisnosti
+80	3680	posvečati	posveča posvečajo posvečajte posvečal posvečala posvečali
+81	3681	presegati	presega presegajo presegal presegala presegalo
+82	3682	nasproti	
+83	3683	konica	konic konicami konice konici konico
+84	3684	prekrit	prekrije prekrijejo prekrijem prekrijemo prekrijte prekril prekrila prekrili prekrita prekrite prekriti prekritim prekrito
+85	3685	krinka	krink krinkami krinke krinki krinko
+86	3686	napoved	napovedi napovedih napovedim napovedjo napovedmi
+87	3687	skuhati	skuha skuhajo skuhajte skuhal skuhala skuhali skuhamo
+88	3688	prilagojen	prilagojena prilagojene prilagojeni prilagojenih prilagojeno
+89	3689	kršiti	krši kršijo kršil kršila kršili kršiš
+90	3690	kolonija	kolonij kolonijah kolonije koloniji kolonijo
+91	3691	lanski	lanska lanske lanskega lanskem lanskih lanskim lansko
+92	3692	oltar	oltarja oltarje oltarjem oltarjev oltarji oltarjih oltarju
+93	3693	materialen	materialna materialne materialnega materialnem materialni materialnih materialno
+94	3694	pokrov	pokrova pokrove pokrovi pokrovom pokrovov pokrovu
+95	3695	kit	kiti kitih kitom kitov kitova kitove kitovega kitovih kitovo kitu
+96	3696	pretep	pretepa pretepe pretepov pretepu
+97	3697	kvaliteta	kvalitet kvalitete kvaliteti kvaliteto
+98	3698	novinec	novinca novince novincem novincev novinci novincih novincu
+99	3699	jok	joka jokom
+100	3700	optičen	optična optične optični optičnih optično

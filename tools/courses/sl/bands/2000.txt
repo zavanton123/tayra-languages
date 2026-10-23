@@ -1,0 +1,100 @@
+1	1901	klet	klel kleteh kleti kletjo
+2	1902	los	losa lose losi losom losov losu
+3	1903	graditi	gradi gradijo gradil gradili gradimo
+4	1904	prsa	prsi prsih prsim prsmi
+5	1905	literaren	literarna literarne literarnega literarnem literarni literarnih literarno
+6	1906	oblečen	oblečena oblečene oblečenega oblečeni oblečenih oblečenim oblečeno
+7	1907	dogajanje	dogajanj dogajanja dogajanjem dogajanjih dogajanju
+8	1908	spanje	spanja spanjem spanju
+9	1909	kopalnica	kopalnic kopalnicah kopalnicami kopalnice kopalnici kopalnico
+10	1910	dopust	dopusta dopusti dopustov dopustu
+11	1911	ustvarjanje	ustvarjanja ustvarjanjem ustvarjanju
+12	1912	prvoten	prvotna prvotne prvotnega prvotnem prvotnemu prvotni prvotnih prvotnim prvotnimi prvotno
+13	1913	svetnik	svetnika svetnike svetniki svetnikih svetnikom svetnikov svetnikovo svetniku
+14	1914	glasbenik	glasbenica glasbenika glasbenike glasbeniki glasbenikih glasbenikom glasbenikov glasbeniku
+15	1915	poročiti	poroči poročim poročita poročite
+16	1916	soden	sodna sodne sodnega sodnem sodni sodnih sodnim sodnimi sodno
+17	1917	obiskovalec	obiskovalca obiskovalce obiskovalcem obiskovalcev obiskovalci obiskovalcu
+18	1918	prikazovati	prikazoval prikazovala prikazovale prikazovali prikazuje prikazujejo
+19	1919	paket	paketa pakete paketi paketih paketom paketov paketu
+20	1920	hrib	hriba hribe hribi hribih hribom hribov hribu
+21	1921	zvezen	zvezna zvezne zveznega zvezni zveznih zvezno
+22	1922	pozdrav	pozdrava pozdrave pozdravi pozdravom pozdravov pozdravu
+23	1923	pozdraviti	pozdravil pozdravila pozdravile pozdravili pozdravilo pozdravimo pozdravit
+24	1924	kozarec	kozarca kozarce kozarcem kozarcev kozarci kozarcih kozarcu
+25	1925	mučiti	muči mučijo mučil mučila mučile mučili mučim mučite
+26	1926	dostopen	dostopna dostopne dostopni dostopnih dostopno
+27	1927	skladišče	skladišč skladišča skladiščem skladiščih skladišču
+28	1928	zmaj	zmaja zmaje zmajem zmajev zmajevega zmajevo zmaji zmajih zmaju
+29	1929	senca	senc sencah sencam sencami sence senci sencih senco
+30	1930	nežen	nežna nežne nežnega nežnejšega nežnejši nežnem nežni nežnih nežnim nežno
+31	1931	sklop	sklopa sklope sklopi sklopih sklopov sklopu
+32	1932	snemati	snema snemajo snemal snemala snemali snemamo snemat snemaš
+33	1933	očala	očal očali očalih
+34	1934	nase	
+35	1935	zabavati	zabavajo zabaval zabavala zabavale zabavali zabavava
+36	1936	pokrajina	pokrajin pokrajinah pokrajine pokrajini pokrajino
+37	1937	sedanji	sedanja sedanje sedanjega sedanjem sedanjih sedanjim sedanjimi sedanjo
+38	1938	razdeliti	razdeli razdelijo razdelil razdelila razdelile razdelili razdelilo razdelimo razdelite
+39	1939	študirati	študira študiraj študirajo študiral študirala študirale študirali študiram študiramo študiran študiranje študirat študirata študirate študirava študiraš
+40	1940	živalski	živalska živalske živalskega živalskem živalskih živalskim živalskimi
+41	1941	spomenik	spomenika spomenike spomeniki spomenikih spomenikom spomenikov spomeniku
+42	1942	galerija	galerije galeriji galerijo
+43	1943	kupovati	kupoval kupovala kupovale kupovali kupovalo kupovat kupuj kupuje kupujejo kupujem kupujemo kupujeta kupujete kupujeva kupuješ kupujte
+44	1944	scenarij	scenarija scenarije scenarijev scenariji scenarijih scenariju
+45	1945	ponedeljek	ponedeljka ponedeljke ponedeljki ponedeljkih ponedeljkom
+46	1946	stavek	stavk stavka stavke stavki stavkih stavko stavkom stavkov stavku
+47	1947	širiti	širi širijo širil širila širile širili širilo širite
+48	1948	jesen	jesena jeseni jesenjo
+49	1949	gorski	gorska gorske gorskega gorskem gorskih gorsko
+50	1950	tujina	tujine tujini tujino
+51	1951	tovornjak	tovornjaka tovornjake tovornjaki tovornjakih tovornjakom tovornjakov tovornjaku
+52	1952	sprej	spreja sprejem sprejema sprejeme sprejemi sprejemom sprejemu
+53	1953	turizem	turizma turizmom turizmu
+54	1954	stopinja	stopinj stopinjah stopinjam stopinjami stopinje stopinjo
+55	1955	tekoč	tekoča tekoče tekočega tekočem tekoči tekočih tekočim tekočimi tekočo
+56	1956	pohod	pohoda pohodom pohodov pohodu
+57	1957	varstvo	varstva varstvom varstvu
+58	1958	zbežati	zbežal zbežala zbežale zbežali zbežalo zbežat zbeži zbežijo zbežim zbežimo zbežita zbežite zbeživa zbežiš
+59	1959	začenjati	začenja začenjajo začenjal začenjala začenjale začenjali začenjalo začenjam začenjate
+60	1960	papež	papeža papežem papežev papeževa papeževega papeži papežu
+61	1961	ocean	oceana oceane oceani oceanih oceanom oceanov oceanu
+62	1962	veriga	verig verigah verigami verige verigi verigo
+63	1963	misija	misij misijah misije misiji misijo
+64	1964	presenetiti	preseneti presenetijo presenetil presenetila presenetili presenetilo presenetim presenetimo
+65	1965	koncept	koncepta koncepte koncepti konceptom konceptov konceptu
+66	1966	učenje	učenja učenjem učenju
+67	1967	sosednja	sosednje sosednjega sosednjem sosednji sosednjih sosednjim sosednjimi sosednjo
+68	1968	priimek	priimka priimke priimki priimkih priimkom priimkov priimku
+69	1969	eksplozija	eksplozij eksplozijah eksplozije eksploziji eksplozijo
+70	1970	veseliti	veselil veselila veselili veselilo veselim veselimo veselite
+71	1971	vreme	vremena vremenom vremenu
+72	1972	mišica	mišic mišicah mišicam mišicami mišice mišici mišico
+73	1973	marsikaj	marsičem marsičemu marsičim
+74	1974	kruh	kruha kruhom kruhu
+75	1975	umiriti	umiri umirijo umirila umirile umirili umirilo umirimo umirite
+76	1976	sorodnik	sorodnika sorodnike sorodniki sorodnikih sorodnikom sorodnikov sorodniku
+77	1977	predavanje	predavanj predavanja predavanjem predavanji predavanjih predavanju
+78	1978	kmetijski	kmetijska kmetijske kmetijskega kmetijskem kmetijskih kmetijskimi kmetijsko
+79	1979	natančen	natančna natančne natančnega natančnejša natančnejše natančnejši natančnem natančni natančnih natančnim natančnimi
+80	1980	skladba	skladb skladbami skladbe skladbi skladbo
+81	1981	storitev	storitvah storitvami storitve storitvi storitvijo
+82	1982	branje	branja branjem branju
+83	1983	ozek	najožji ozka ozke ozkega ozkem ozki ozkih ozkim ozkimi ozko ožje ožjega ožjem ožji ožjih
+84	1984	sneg	snega snegom snegu
+85	1985	nekam	
+86	1986	izgledati	izgledajo izgledal izgledale izgledali izgledalo
+87	1987	stopnica	stopnic stopnicah stopnicami stopnice stopnico
+88	1988	nenehen	nenehna nenehne nenehnega nenehnem nenehnemu nenehni nenehnih nenehnim nenehnimi nenehno
+89	1989	tajen	tajna tajne tajnem tajni tajnih tajnim tajnimi tajno
+90	1990	oster	najostrejši ostra ostre ostrega ostreje ostrejši ostrem ostri ostrih ostrim ostrimi ostro preostra
+91	1991	videz	videza videzom videzu
+92	1992	oborožen	oborožena oborožene oboroženega oboroženi oboroženih oboroženim oboroženimi oboroženo
+93	1993	osebje	osebja osebjem osebju
+94	1994	tlak	tlaka tlake tlaki tlakom tlakov tlaku
+95	1995	kaditi	kadi kadijo kadil kadila kadile kadili kadim kadimo kadit kadita kadite kadiva kadiš
+96	1996	proizvajalec	proizvajalca proizvajalce proizvajalcem proizvajalcev proizvajalci proizvajalcu
+97	1997	gumb	gumba gumbe gumbi gumbih gumbom gumbov gumbu
+98	1998	nasprotnik	nasprotnika nasprotnike nasprotniki nasprotnikom nasprotnikov nasprotnikovih nasprotniku
+99	1999	zaljubljen	zaljubljena zaljubljene zaljubljeni
+100	2000	bravo	bravu

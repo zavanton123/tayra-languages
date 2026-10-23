@@ -1,0 +1,100 @@
+1	9001	vietnamski	vietnamske vietnamskih vietnamsko
+2	9002	globalizacija	globalizacije globalizaciji
+3	9003	podpolkovnik	podpolkovnika
+4	9004	odbijač	odbijača odbijačem
+5	9005	poni	ponija
+6	9006	nepogrešljiv	nepogrešljiva nepogrešljive nepogrešljivega nepogrešljivi nepogrešljivo
+7	9007	rabljen	rabljene rabljenih rabljeno
+8	9008	jajčnik	jajčnika jajčnike jajčniki jajčnikih jajčnikov jajčniku
+9	9009	valček	valčka valčku
+10	9010	odmik	
+11	9011	utruditi	utrudi utrudil utrudili utrudimo
+12	9012	ovoj	ovoja
+13	9013	bedeti	bedel bedela bedeli bedi bedijo bedim bedite bediš
+14	9014	rezina	rezin rezinami rezine rezini rezino
+15	9015	holokavst	holokavstu
+16	9016	okenski	okenska okenske okensko
+17	9017	akademik	akademikov
+18	9018	treščiti	trešči treščil treščila
+19	9019	prebujati	prebuja prebujala prebujam
+20	9020	pokojninski	pokojninske pokojninskega pokojninskem pokojninskih pokojninsko
+21	9021	odvračati	odvrača odvračajo odvračal odvračala odvračali
+22	9022	valiti	vali valijo valila
+23	9023	fosil	fosile fosilov
+24	9024	prenočiti	prenočil prenočili
+25	9025	podložnik	podložniki podložnikov
+26	9026	nižina	nižinah nižine
+27	9027	saksofon	saksofona saksofonu
+28	9028	trenerka	trenerke trenerko
+29	9029	bistriti	bistri bistrim
+30	9030	bizantinski	bizantinske bizantinskega bizantinsko
+31	9031	šaleški	šaleške
+32	9032	vzpetina	vzpetine vzpetini vzpetino
+33	9033	hlapec	hlapci
+34	9034	štafeta	štafete štafeti
+35	9035	reformacija	reformacije
+36	9036	diplomat	diplomate diplomati diplomatov
+37	9037	slovenstvo	slovenstva
+38	9038	metrski	metrske metrskega metrsko
+39	9039	utrinek	utrinke utrinki
+40	9040	krčma	krčme krčmo
+41	9041	zdrobiti	zdrobil zdrobili zdrobimo zdrobite
+42	9042	cvreti	cvre cvrejo cvrem cvrenje cvreš cvri cvrite cvrl cvrla cvrli cvrto
+43	9043	željen	željan željenega željeni željne željni željnih željno
+44	9044	kulten	kultne kultnih kultno
+45	9045	senzacija	senzacije senzacijo
+46	9046	nagajati	nagaja nagajal
+47	9047	hierarhija	hierarhiji
+48	9048	oglaševalski	oglaševalska oglaševalske oglaševalskega oglaševalskih oglaševalsko
+49	9049	zborovski	zborovska zborovske zborovskega zborovsko
+50	9050	primanjkljaj	primanjkljaja primanjkljajem primanjkljaji
+51	9051	prekrižati	prekriža prekrižajte prekrižal prekrižala prekrižali prekrižamo
+52	9052	pomilostitev	pomilostitve
+53	9053	alkoholizem	alkoholizma
+54	9054	analen	analna analne analnega analnem analni analnim analno
+55	9055	zmagovit	zmagovita zmagovite zmagoviti zmagovito
+56	9056	diplomant	diplomantov
+57	9057	odpadnik	odpadnika odpadnike odpadnikov
+58	9058	protivneten	protivnetna protivnetnih protivnetno
+59	9059	iskan	iskano
+60	9060	oratorij	oratorija
+61	9061	sedežen	sedežne sedežni sedežno
+62	9062	zatrditi	zatrdil zatrdila zatrdili zatrdim
+63	9063	eksploziven	eksplozivna eksplozivnih
+64	9064	pristajalen	pristajalne pristajalnega pristajalno
+65	9065	zastrupljen	zastrupljenih
+66	9066	kositi	kosi kosijo kosim kosimo kosit kosite kosiva kosiš košenje
+67	9067	pretepen	pretepena pretepenega pretepeni
+68	9068	šepetati	šepeta šepetal šepetali
+69	9069	nadme	nadenj nadnjo
+70	9070	posveten	posvetne posvetnega posvetni posvetnih posvetnim
+71	9071	polh	polhov
+72	9072	češčenje	češčenja
+73	9073	miloščina	miloščine miloščino
+74	9074	pridržati	pridržala pridržali pridržim
+75	9075	kov	kova
+76	9076	preživnina	preživnine preživnino
+77	9077	svinjina	svinjine svinjino
+78	9078	odklenjen	odklenjena odklenjenega odklenjeno
+79	9079	upravljavec	upravljavci
+80	9080	stečaj	stečaja stečaju
+81	9081	očetovstvo	očetovstva
+82	9082	izvidnik	izvidnika
+83	9083	tacati	taca tace
+84	9084	čistilka	čistilk
+85	9085	naslovljen	naslovljeni naslovljeno
+86	9086	prestiž	prestiža
+87	9087	poslikati	poslika poslikal poslikali
+88	9088	pustolovski	pustolovske pustolovskega pustolovskih
+89	9089	funkcionirati	funkcionira funkcioniral
+90	9090	zgrožen	zgrožena zgroženi
+91	9091	domovati	domuje
+92	9092	paničen	panični
+93	9093	cmeriti	cmeri cmerijo cmeril cmerila cmerili cmerim cmerit cmeriš
+94	9094	mrežen	mrežne mrežni mrežnih
+95	9095	honorar	honorarje honorarjev
+96	9096	zlitina	zlitin zlitine zlitino
+97	9097	bambus	bambusa bambusom bambusov
+98	9098	piflar	piflarjem
+99	9099	jedilen	jedilna jedilnega jedilnem jedilni jedilno
+100	9100	ustvarjalka	ustvarjalke

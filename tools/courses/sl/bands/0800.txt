@@ -1,0 +1,100 @@
+1	701	bogat	bogata bogate bogatega bogatejši bogatejšo bogatem bogatemu bogati bogatih bogatim bogatimi bogato najbogatejša najbogatejše najbogatejši najbogatejših najbogatejšim najbogatejšimi
+2	702	list	lista liste listi listih listo listom listov listu
+3	703	tokrat	
+4	704	urediti	uredi uredijo uredil uredila uredile uredili uredilo uredimo uredite
+5	705	pogovor	pogovora pogovore pogovori pogovorih pogovorom pogovorov pogovoru
+6	706	cilj	cilja cilje ciljem ciljev cilji ciljih cilju
+7	707	izgled	izgleda izgledu
+8	708	zaupati	zaupa zaupajo zaupal zaupala zaupale zaupali zaupalo zaupam zaupamo zaupate
+9	709	neverjeten	neverjetna neverjetne neverjetni neverjetnih neverjetnimi neverjetno
+10	710	trajati	traja trajajo trajal trajala trajale trajali trajalo
+11	711	odvisen	odvisna odvisne odvisnega odvisni odvisnih odvisno
+12	712	pogled	pogleda poglede pogledi pogledih pogledom pogledov pogledu
+13	713	šef	šefa šefe šefi šefom šefov šefova šefove šefu
+14	714	problem	problema probleme problemi problemih problemom problemov problemu
+15	715	avtor	avtorja avtorje avtorjem avtorjev avtorjeva avtorjeve avtorjevega avtorjevi avtorjevo avtorji avtorju
+16	716	zaslužiti	zasluži zaslužijo zaslužil zaslužila zaslužile zaslužili zaslužilo zaslužim zaslužimo zaslužite
+17	717	očka	očke
+18	718	krasen	krasna krasne krasnega krasni krasno prekrasen prekrasnih prekrasno
+19	719	ukvarjati	ukvarja ukvarjaj ukvarjajmo ukvarjajo ukvarjajte ukvarjal ukvarjala ukvarjale ukvarjali ukvarjalo ukvarjam ukvarjamo ukvarjat ukvarjata ukvarjate ukvarjava ukvarjaš
+20	720	oktober	oktobra oktobrom oktobru
+21	721	izbira	izbir izbire izbiri izbiro
+22	722	višina	višin višinah višine višini višino
+23	723	priznati	prizna priznaj priznajmo priznajo priznajta priznajte priznajva priznal priznala priznale priznali priznalo priznam priznamo priznat priznata priznate priznaš
+24	724	hči	hčer hčera hčerah hčeram hčerama hčerami hčere hčeri hčerjo
+25	725	večerja	večerij večerjah večerjam večerjami večerje večerji večerjo
+26	726	prebrati	prebere preberejo preberem preberemo preberete preberi preberite prebral prebrala prebrale prebrali
+27	727	čutiti	čutenje čutijo čutil čutile čutili čutim čutimo čutit čutita čutite čutiva čutiš
+28	728	račun	računa račune računi računih računom računov računu
+29	729	naprava	naprav napravah napravam napravami naprave napravi napravo
+30	730	oddelek	oddelka oddelke oddelki oddelkih oddelkom oddelkov oddelku
+31	731	sedem	sedmih sedmimi
+32	732	pismo	pisem pisma pismi pismih pismom pismu
+33	733	proces	procesa procese procesi procesih procesom procesov procesu
+34	734	postelja	postelj posteljah posteljama posteljami postelje postelji posteljo
+35	735	namesto	
+36	736	pištola	pištol pištole pištolo
+37	737	miza	miz mizah mizam mizami mize mizi mizo
+38	738	zaposlen	zaposlena zaposlene zaposlenega zaposlenemu zaposleni zaposlenih zaposlenim zaposlenimi zaposleno
+39	739	prijazen	najprijaznejši najprijaznejših prijazna prijazne prijaznega prijazneje prijaznejša prijaznejše prijaznejši prijaznem prijaznemu prijazni prijaznih prijaznim prijaznimi prijazno
+40	740	vrag	vraga vragi vragom vragu
+41	741	besedilo	besedil besedila besedili besedilih besedilom besedilu
+42	742	pogovarjati	pogovarja pogovarjaj pogovarjajmo pogovarjajo pogovarjajta pogovarjajte pogovarjajva pogovarjal pogovarjala pogovarjale pogovarjali pogovarjam pogovarjamo pogovarjat pogovarjata pogovarjate pogovarjava pogovarjaš
+43	743	neumen	najneumnejši neumna neumne neumnega neumnejši neumnem neumnemu neumni neumnih neumnim neumnimi neumno
+44	744	dežela	dežel deželah deželam deželama deželami dežele deželi deželo
+45	745	učiti	uči učijo učil učila učile učili učim učimo učit učita učite učiva učiš
+46	746	strinjati	strinja strinjajo strinjajva strinjal strinjala strinjale strinjali strinjalo strinjam strinjamo strinjata strinjate strinjava
+47	747	junij	junija junijem juniju
+48	748	julij	julija julije julijem julijev juliji juliju
+49	749	duh	duha duhe duhi duhom duhov duhova duhove duhovi duhovih duhovom duhu
+50	750	nekoč	
+51	751	izdati	izda izdajmo izdajta izdajte izdal izdala izdale izdali izdalo izdam izdamo izdata izdate izdava izdaš
+52	752	hčerka	hčerke hčerki hčerko
+53	753	pisarna	pisarn pisarnah pisarnam pisarnami pisarne pisarni pisarno
+54	754	vreči	vrgel vrgla vrgle vrgli vrglo vrzi vrzimo vrzita vrzite vrziva vrže vržejo vržem vržemo vržeta vržete vrževa vržeš
+55	755	včeraj	
+56	756	predmet	predmeta predmete predmeti predmetih predmetom predmetov predmetu
+57	757	poročen	poročena poročene poročenega poročenemu poročeni poročenih poročenim poročenimi poročeno poročna poročne poročnega poročnem poročni poročnih poročnim poročnimi poročno
+58	758	lahek	lahka lahke lahkega lahkem lahki lahkih lahkim lahkimi lažja lažje lažji lažjih lažjim lažjimi najlažje najlažjega najlažji prelahke
+59	759	enostaven	enostavna enostavne enostavnejši enostavni enostavnih enostavno najenostavneje najenostavnejše najenostavnejši
+60	760	stavba	stavb stavbah stavbama stavbami stavbe stavbi stavbo
+61	761	škoda	škode škodi škodo
+62	762	športen	športna športne športnega športnem športnemu športni športnih športnim športnimi športno
+63	763	funkcija	funkcij funkcijah funkcije funkciji funkcijo
+64	764	veselje	veselja veseljem veselju
+65	765	zagotovo	
+66	766	pobegniti	pobegne pobegnejo pobegneta pobegnete pobegneš pobegnil pobegnila pobegnili
+67	767	bolečina	bolečin bolečinah bolečinam bolečinami bolečine bolečini bolečino
+68	768	hiter	hitra hitre hitrega hitrejši hitrejšo hitrem hitri hitrih hitrim hitrimi najhitrejša najhitrejši najhitrejšimi prehiter prehitra prehitre prehitri
+69	769	razvit	razvije razvijejo razvijemo razvil razvila razvile razvili razvilo razvita razvite razvitega razvitem razviti razvitih razvitim razvitimi razvito
+70	770	okrog	
+71	771	napasti	napadejo napadel napadla napadle napadli napadlo napasite
+72	772	prvenstvo	prvenstev prvenstva prvenstvih prvenstvom prvenstvu
+73	773	noter	
+74	774	zabaven	zabavna zabavne zabavnega zabavnejši zabavnem zabavni zabavnih zabavnimi zabavno
+75	775	kod	koda kodah kode kodi kodo
+76	776	zvezda	zvezd zvezdah zvezdam zvezdami zvezde zvezdi zvezdo
+77	777	odločitev	odločitvah odločitvam odločitvami odločitve odločitvi odločitvijo
+78	778	pomisliti	pomisli pomislil pomislila pomislili pomislim pomislimo pomislita pomislite pomisliva pomisliš
+79	779	desen	desna desne desnega desnem desnemu desni desnim desno
+80	780	polje	polj polja poljem polji poljih polju
+81	781	zares	
+82	782	zbor	zbora zbore zbori zborih zborom zborov zboru
+83	783	nujen	najnujnejše nujna nujne nujnega nujnejše nujnem nujni nujnih nujnim nujno
+84	784	raven	ravna ravne ravnega ravneh ravnem ravni ravnih ravnim ravnimi
+85	785	tih	tiha tihe tihega tihem tihi tihih tihim tiho tiše tišja tišje tišji
+86	786	možen	možna možne možnega možnem možni možnih možnim možnimi možno
+87	787	delavec	delavca delavce delavcem delavcev delavci delavcu
+88	788	otok	otoka otoke otoki otokih otokom otokov otoku
+89	789	smešen	smešna smešne smešni smešnih smešno
+90	790	mnenje	mnenj mnenja mnenjem mnenji mnenju
+91	791	skrivati	skriva skrivaj skrivajo skrivajta skrivajte skrival skrivala skrivale skrivali skrivalo skrivam skrivamo skrivat skrivata skrivate skrivava skrivaš
+92	792	informacija	informacij informacijah informacijami informacije informaciji informacijo
+93	793	brati	bere berejo berem beremo bereta berete bereva bereš berite beriva bral brala brale brali bralo
+94	794	sovražiti	sovraži sovražijo sovražil sovražila sovražile sovražili sovražilo sovražim sovražimo sovražit sovražita sovražite sovraživa sovražiš
+95	795	globok	globlja globlje globlji globljih globoka globoke globokega globokem globokemu globoki globokih globokim globokimi globoko najgloblje najglobljega najglobljem najgloblji najglobljo
+96	796	sreda	sred sredah srede sredi sredo
+97	797	poroka	poroke poroki poroko
+98	798	piti	pij pije pijejo pijem pijemo pijeta pijete pijeva piješ pijmo pijta pijte pijva pil pili pilo
+99	799	truplo	trupel trupla trupli truplih truplom truploma truplu
+100	800	socialen	socialna socialne socialnega socialnem socialni socialnih socialnimi socialno

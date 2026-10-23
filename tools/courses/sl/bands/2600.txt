@@ -1,0 +1,100 @@
+1	2501	omejitev	omejitvah omejitvami omejitve omejitvi omejitvijo
+2	2502	odkrit	odkrita odkritih
+3	2503	sram	sramu
+4	2504	dokazovati	dokazoval dokazovali dokazuje dokazujejo dokazuješ
+5	2505	vzgoja	vzgoje vzgoji vzgojo
+6	2506	pokvariti	pokvari pokvarijo pokvaril pokvarila pokvarile
+7	2507	baterija	baterij baterijah baterijami baterije bateriji baterijo
+8	2508	izvrsten	izvrstna izvrstne izvrstnega izvrstnem izvrstni izvrstnih izvrstno
+9	2509	pome	ponj ponje ponjo
+10	2510	ljubezenski	ljubezenska ljubezenske ljubezenskega ljubezenskem ljubezenskih ljubezenskimi ljubezensko
+11	2511	korenina	korenin koreninah koreninam koreninami korenine korenini korenino
+12	2512	zasnova	zasnove zasnovi zasnovo
+13	2513	toplota	toplote toploti toploto
+14	2514	globina	globin globinah globine globini globino
+15	2515	plesen	plesna plesne plesnega plesni plesnih plesnijo plesnim plesnimi plesno
+16	2516	katoliški	katoliška katoliške katoliškem katoliških katoliško
+17	2517	tekmovati	tekmoval tekmovala tekmovale tekmovali tekmovalo tekmuje tekmujejo tekmujem tekmujemo
+18	2518	plovilo	plovil plovila plovilih plovilom plovilu
+19	2519	vzdrževanje	vzdrževanja vzdrževanjem vzdrževanju
+20	2520	preiti	preide preidejo preidem preidemo preidite prešel prešla prešli prešlo
+21	2521	povečanje	povečanja povečanjem povečanju
+22	2522	napovedati	napove napovedal napovedala napovedale napovedali napovedalo napovem napoveste
+23	2523	realen	realna realne realnem realni realnih realnim realno
+24	2524	pesek	peska peski peskom pesku
+25	2525	napet	napel napela napeta napete napetega napeti napetih napeto napne napnejo napni
+26	2526	torta	torte torto
+27	2527	krvav	krvava krvave krvavem krvavi krvavih krvavimi krvavo
+28	2528	najraje	
+29	2529	napis	napisa napise napisi napisih napisom napisov
+30	2530	privesti	privede privedejo privedel privedla privedli privedlo
+31	2531	vstopnica	vstopnic vstopnice vstopnici vstopnico
+32	2532	zasnovan	zasnovana zasnovane zasnovani zasnovanih zasnovano
+33	2533	urednik	urednika urednike uredniki urednikom urednikov uredniku
+34	2534	strel	strelih strelom streloma strelov strelu
+35	2535	utrip	utripa utripe utripu
+36	2536	nasilen	nasilna nasilne nasilnega nasilnem nasilnemu nasilni nasilnih nasilnimi nasilno
+37	2537	prošnja	prošnjah prošnjami prošnje prošnji prošnjo
+38	2538	spremenjen	spremenjena spremenjene spremenjenega spremenjeni spremenjenih spremenjenim spremenjenimi spremenjeno
+39	2539	vrednota	vrednot vrednotah vrednotam vrednotami vrednote vrednoti vrednoto
+40	2540	nemško	
+41	2541	možganski	možganska možganske možganskega možganskih možganskimi možgansko
+42	2542	sklepati	sklepajo sklepal sklepala sklepali sklepam sklepamo sklepat sklepata
+43	2543	raba	rabe rabo
+44	2544	perilo	perila perilom perilu
+45	2545	znamenitost	znamenitosti
+46	2546	pokrit	pokrij pokrijejo pokrijemo pokril pokrila pokrile pokrili pokrita pokrite pokritega pokriti pokritih pokrito
+47	2547	hrup	hrupa hrupom hrupu
+48	2548	moralen	moralna moralne moralnega moralni moralnih moralno
+49	2549	obrat	obrata obrate obrati obratih obratom obratov obratu
+50	2550	priznan	priznana priznane priznanega priznani priznanih priznanim priznano
+51	2551	poljub	poljuba poljube poljubi poljubih poljubom poljubov poljubu
+52	2552	knjižen	knjižna knjižne knjižnega knjižnem knjižni knjižnim knjižno
+53	2553	spopad	spopada spopade spopadi spopadih spopadom spopadov spopadu
+54	2554	ljubek	ljubka ljubke ljubkega ljubki ljubkim ljubkimi ljubko
+55	2555	oboj	oboje obojega obojem oboji obojim
+56	2556	medicina	medicini medicino
+57	2557	kovina	kovin kovinami kovine kovini kovino
+58	2558	čestitka	čestitk čestitke čestitki čestitko
+59	2559	upreti	upre uprejo uprite uprl uprla uprle uprli
+60	2560	ograja	ograj ograjah ograjami ograje ograji ograjo
+61	2561	upor	upora upore uporom uporov uporu
+62	2562	trajen	trajna trajne trajnega trajnejše trajni trajnih trajno
+63	2563	standarden	standardna standardne standardnega standardnem standardni standardnih standardnimi standardno
+64	2564	kip	kipa kipe kipi kipih kipom kipov kipu
+65	2565	strelec	strelca strelce strelcem strelcev strelci strelcu
+66	2566	prestrašen	prestrašena prestrašeni
+67	2567	beden	bedna bedne bednega bednem bednemu bedni bednih bednim bednimi bedno najbednejši
+68	2568	pritegniti	pritegne pritegnejo pritegneš pritegnil pritegnila pritegnile pritegnili pritegnilo
+69	2569	načrtovanje	načrtovanja načrtovanjem načrtovanju
+70	2570	hladilnik	hladilnika hladilnike hladilniki hladilnikih hladilnikom hladilnikov hladilniku
+71	2571	trditev	trditvah trditvam trditvami trditve trditvi trditvijo
+72	2572	podgana	podgan podganah podganam podganami podgane podgani podgano
+73	2573	streljanje	streljanja streljanju
+74	2574	nesti	nese nesejo nesel nesem nesemo neseta nesete neseva neseš nesi nesimo nesita nesite nesiva nesla nesle nesli neslo
+75	2575	arhiv	arhiva arhivih arhivov arhivu
+76	2576	kaznovati	kaznoval kaznovala kaznovali kaznovalo kaznovat kaznuj kaznuje kaznujejo kaznujem kaznujemo kaznujeta kaznujete kaznujeva kaznuješ kaznujmo kaznujte
+77	2577	obrok	obroka obroke obroki obrokih obrokom obrokov obroku
+78	2578	izgovor	izgovora izgovore izgovori izgovorom izgovorov
+79	2579	tovrsten	tovrstna tovrstne tovrstnega tovrstnem tovrstni tovrstnih tovrstnim tovrstnimi tovrstno
+80	2580	plačan	plačana plačanega plačanem plačani plačanih plačanim plačano
+81	2581	sel	sla sle sli slo slov slu
+82	2582	blok	bloka bloki blokom blokov bloku
+83	2583	izgubljati	izgublja izgubljajo izgubljal izgubljala izgubljali izgubljamo izgubljata
+84	2584	podroben	podrobna podrobne podrobnega podrobneje podrobnejša podrobnejše podrobnejši podrobnejšo podrobnem podrobni podrobnih podrobnim podrobno
+85	2585	inženir	inženirja inženirjev inženirji
+86	2586	začutiti	začuti začutijo začutil začutila začutili začutilo začutim začutimo začutite začutiš
+87	2587	statističen	statistična statistične statističnega statistični statističnih statističnimi statistično
+88	2588	plast	plasteh plasti plastjo plastmi
+89	2589	nesrečen	nesrečna nesrečne nesrečnega nesrečnem nesrečnemu nesrečni nesrečnih nesrečnimi nesrečno
+90	2590	čokolada	čokolad čokolade čokoladi čokolado
+91	2591	pridobivanje	pridobivanja pridobivanjem pridobivanju
+92	2592	izpostavljen	izpostavljena izpostavljene izpostavljenem izpostavljeni izpostavljenih izpostavljeno
+93	2593	podzemen	podzemna podzemne podzemnega podzemnem podzemni podzemnih podzemnim podzemno
+94	2594	nadzirati	nadzira nadzirajo nadziral nadzirala nadzirali nadziralo nadzirat nadzirate
+95	2595	propasti	propade propadejo propadel propadla propadle propadlega propadli propadlih propadlo
+96	2596	zgrešiti	zgreši zgrešijo zgrešil zgrešila zgrešile zgrešili zgrešilo zgrešim zgrešimo zgrešita zgrešite zgrešiva zgrešiš
+97	2597	izdan	izdana izdane izdanega izdani izdanih izdano
+98	2598	barven	barvna barvne barvnega barvnem barvni barvnih barvnimi barvno
+99	2599	strateški	strateška strateške strateškega strateškem strateških strateškim strateško
+100	2600	relativno	

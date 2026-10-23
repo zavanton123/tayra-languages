@@ -1,0 +1,100 @@
+1	3401	menjava	menjavami menjave menjavi menjavo
+2	3402	deti	dene deni denimo deniva det
+3	3403	šotor	šotora šotori šotorom šotorov šotoru
+4	3404	učbenik	učbenika učbenike učbeniki učbenikih učbenikov
+5	3405	uničevati	uničevali uničevalo uničuje uničujejo uničujemo
+6	3406	okoliški	okoliške okoliškega okoliških okoliškim
+7	3407	statistika	statistikah statistike statistiki statistiko
+8	3408	soroden	sorodna sorodne sorodni sorodnih sorodnimi sorodno
+9	3409	kontekst	konteksta kontekstih kontekstu
+10	3410	umetnosten	umetnostna umetnostne umetnostnega umetnostnem umetnostni umetnostnih umetnostno
+11	3411	tule	
+12	3412	tržen	tržna tržne tržnega tržnem tržni tržnih tržnim tržno
+13	3413	železen	železna železne železnega železnem železni železnih železnim železnimi železno
+14	3414	pevka	pevk pevke pevki pevko
+15	3415	polica	polic policah policami polici polico
+16	3416	poziv	poziva pozive pozivi pozivom pozivu
+17	3417	nadomestiti	nadomesti nadomestijo nadomestile nadomestili nadomestimo nadomestite
+18	3418	dolgoleten	dolgoletna dolgoletne dolgoletni dolgoletno
+19	3419	vitamin	vitamina vitamine vitamini vitaminom vitaminov
+20	3420	kletka	kletk kletkah kletke kletki kletko
+21	3421	kopel	kopeli kopelih kopeljo
+22	3422	štajerski	štajerska štajerske štajerskega štajersko
+23	3423	zavrteti	zavrtel zavrtela zavrteli zavrtelo zavrti zavrtimo
+24	3424	uganka	ugank ugankah ugankami uganke uganki uganko
+25	3425	prostovoljec	prostovoljca prostovoljce prostovoljcem prostovoljcev prostovoljci
+26	3426	prtljažnik	prtljažnika prtljažnikom prtljažniku
+27	3427	zoben	zobna zobne zobni zobno
+28	3428	dvanajst	
+29	3429	prašič	prašiča prašiče prašičem prašičev prašiči prašičih prašiču
+30	3430	nasvidenje	
+31	3431	napreden	napredne naprednejši napredni naprednih naprednimi napredno
+32	3432	sumiti	sumi sumijo sumil sumili sumim sumimo sumiš
+33	3433	padati	pada padaj padajo padale padam padamo padata padate padava padaš
+34	3434	zameriti	zameri zamerijo zameril zamerila zamerili zamerim zamerimo zamerite
+35	3435	aplikacija	aplikacij aplikacijami aplikacije aplikaciji
+36	3436	rog	roga roge rogov rogova rogove rogovi rogovih rogu
+37	3437	obveščevalen	obveščevalna obveščevalne obveščevalnega obveščevalni obveščevalnih obveščevalno
+38	3438	infrastruktura	infrastrukture infrastrukturo
+39	3439	živina	živine živini živino
+40	3440	dih	diha
+41	3441	razpad	razpada razpadom razpadu
+42	3442	manjšina	manjšin manjšinam manjšine manjšini manjšino
+43	3443	krema	krem kremami kreme kremi kremo
+44	3444	glasovanje	glasovanja glasovanjem glasovanju
+45	3445	blazina	blazinami blazine blazini blazino
+46	3446	prid	prida pridom
+47	3447	stotina	stotine stotino
+48	3448	stiska	stiskah stiske stiski stisko
+49	3449	pajek	pajka pajke pajki pajkih pajkom pajkov pajku
+50	3450	poučevati	poučeval poučevala poučevali poučuje poučujejo
+51	3451	odprtina	odprtin odprtine odprtini odprtino
+52	3452	minimalen	minimalna minimalne minimalni minimalnih minimalnim minimalnimi minimalno
+53	3453	zmeda	zmede zmedi zmedo
+54	3454	omarica	omaricah omarice omarici omarico
+55	3455	zanimivost	zanimivosti
+56	3456	malica	malici malico
+57	3457	odpasti	odpade odpadejo odpadel odpadla odpadle odpadli odpadlih odpadlo
+58	3458	pripoved	pripovedi
+59	3459	bok	boki bokih bokov boku
+60	3460	pripomoček	pripomočka pripomočke pripomočki pripomočkom pripomočkov
+61	3461	used	usede usedi
+62	3462	srednjeveški	srednjeveška srednjeveške srednjeveškega srednjeveškem srednjeveških srednjeveško
+63	3463	bojevati	bojeval bojevala bojevali bojuje bojujejo
+64	3464	mineral	minerale minerali mineralov
+65	3465	zamisliti	zamislil zamislila zamislili zamislimo zamislite
+66	3466	božiček	božička
+67	3467	zdravniški	zdravniška zdravniške zdravniškega zdravniškem zdravniških zdravniškim zdravniško
+68	3468	tabela	tabel tabele tabeli tabelo
+69	3469	pritoževati	pritoževal pritoževala pritoževali pritožuje pritožujejo pritožujem pritožujete
+70	3470	izločiti	izloči izločijo izločil izločila izločili
+71	3471	kristal	kristala kristale kristali kristalih kristalom kristalov kristalu
+72	3472	zapeti	zapel zapela zapele zapeli zapoje zapojejo
+73	3473	sestati	sestal sestala sestali sestane
+74	3474	nevesta	nevesto
+75	3475	sindrom	sindroma sindromom
+76	3476	odvisnost	odvisnosti
+77	3477	družiti	druži družijo družili
+78	3478	prejemnik	prejemniki prejemnikom prejemnikov prejemniku
+79	3479	potopiti	potopi potopil potopila potopili potopilo potopimo potopite
+80	3480	dolgčas	dolgčasa
+81	3481	upravnik	upravnika upravniki upravnikom upravniku
+82	3482	zgodovinar	zgodovinarja zgodovinarjev zgodovinarji
+83	3483	zrel	zrela zrele zrelega zrelejši zreli zrelih zrelo
+84	3484	odkrito	
+85	3485	indijski	indijska indijske indijskega indijskem indijskemu indijskih indijskim indijskimi indijsko
+86	3486	krsta	krstah krstami krste krsti krsto
+87	3487	album	albuma albumom albumu
+88	3488	spodbuditi	spodbudijo spodbudil spodbudila spodbudile spodbudili spodbudilo spodbudimo
+89	3489	blizek	bližji najbližja najbližjega najbližjem najbližji najbližjih najbližjim najbližjimi najbližjo
+90	3490	dopolniti	dopolni dopolnijo dopolnil dopolnila dopolnili dopolnimo
+91	3491	ljubimec	ljubimca ljubimcema ljubimcev ljubimci ljubimcu
+92	3492	sumljiv	sumljiva sumljive sumljivi sumljivih sumljivim sumljivimi sumljivo
+93	3493	definicija	definicij definicije definiciji definicijo
+94	3494	smola	smole smoli smolo
+95	3495	prepoznaven	prepoznavna prepoznavne prepoznavni prepoznavnih prepoznavno
+96	3496	pospremiti	pospremi pospremil pospremila pospremili pospremimo
+97	3497	čutilo	čutila
+98	3498	štipendija	štipendij štipendije štipendijo
+99	3499	bratec	bratca
+100	3500	krvaveti	krvavel krvavelo krvavet krvavi krvavijo krvavim krvavimo krvavite krvaviš

@@ -1,0 +1,100 @@
+1	3201	reforma	reformah reformami reforme reformi reformo
+2	3202	steber	stebra stebre stebri stebrih stebrom stebrov stebru
+3	3203	rasa	ras rasami rase rasi raso
+4	3204	preprečevati	preprečeval preprečevali preprečuje preprečujejo preprečujemo
+5	3205	seksati	seksala seksali seksat
+6	3206	ritem	ritme ritmi ritmih ritmom ritmov ritmu
+7	3207	žara	žar žare žari žaro žarom žaru
+8	3208	čarovnija	čarovnije čarovnijo
+9	3209	pasji	pasje pasjemu pasjih pasjim
+10	3210	lekcija	lekcij lekcije lekciji lekcijo
+11	3211	slovar	slovarja slovarje slovarjem slovarjev slovarji slovarjih slovarju
+12	3212	razočarati	razočarajo razočaral razočarala razočarali
+13	3213	kolesar	kolesarja kolesarje kolesarjem kolesarjev kolesarji
+14	3214	zahteven	najzahtevnejši zahtevna zahtevne zahtevnega zahtevnejša zahtevnejše zahtevnejši zahtevnejših zahtevnem zahtevni zahtevnih zahtevnim zahtevno
+15	3215	klavir	klavirja klavirje klavirjem klavirjev klavirji klavirju
+16	3216	zahvaljevati	zahvaljeval zahvaljevala zahvaljuje zahvaljujejo zahvaljujem zahvaljujemo zahvaljujeva
+17	3217	čudežen	čudežna čudežne čudežnega čudežnem čudežni čudežnih čudežno
+18	3218	bančen	bančna bančne bančnega bančnem bančni bančnih bančnim bančnimi bančno
+19	3219	povečevati	povečeval povečevali povečuje povečujejo povečujemo
+20	3220	logik	logika logike logiki logiko
+21	3221	odlok	odloka odloke odlokom odlokov odloku
+22	3222	prisega	priseg prisegam prisege prisegi prisego
+23	3223	čelada	čelad čeladah čeladami čelade čeladi čelado
+24	3224	plemenit	plemenita plemenite plemenitega plemenitejše plemenitemu plemeniti plemenitih plemenitim plemenito
+25	3225	senat	senata senatom senatu
+26	3226	tožiti	toži tožijo tožil tožila tožili
+27	3227	izvoljen	izvoljena izvoljene izvoljeni izvoljenih izvoljenim izvoljeno
+28	3228	strojen	strojna strojne strojnega strojnem strojni strojnih strojno
+29	3229	organski	organska organske organskih organskimi organsko
+30	3230	avtomobilski	avtomobilska avtomobilske avtomobilskem avtomobilskih avtomobilsko
+31	3231	ukrepati	ukrepaj ukrepal ukrepala ukrepali ukrepalo ukrepamo
+32	3232	podajati	podaja podajajo podajala podajali podajam podajamo podajata podaje podaji podajo
+33	3233	razgovor	razgovora razgovore razgovori razgovorih razgovorom razgovorov razgovoru
+34	3234	bled	bleda bledega bledih bledim bledo
+35	3235	prestaviti	prestavi prestavil prestavila prestavili prestavim prestavimo prestaviš
+36	3236	usmeriti	usmeri usmerijo usmeril usmerila usmerili usmerimo usmerite
+37	3237	preostanek	preostanka preostankom preostanku
+38	3238	modrost	modrosti modrostjo
+39	3239	pritožba	pritožb pritožbah pritožbami pritožbe pritožbi pritožbo
+40	3240	disciplina	disciplin disciplinah disciplini disciplino
+41	3241	srebro	srebra srebrom srebru
+42	3242	dvojček	dvojčka dvojčke dvojčki dvojčkih dvojčkom dvojčkoma dvojčkov dvojčku
+43	3243	gasilec	gasilce gasilcem gasilcev gasilci
+44	3244	ravnatelj	ravnatelja ravnateljev ravnatelji ravnatelju
+45	3245	grozljiv	grozljiva grozljive grozljivega grozljivem grozljivemu grozljivi grozljivih grozljivim grozljivimi grozljivo najgrozljivejši
+46	3246	pohištvo	pohištva pohištvom pohištvu
+47	3247	smučanje	smučanja smučanjem smučanju
+48	3248	dodan	dodana dodane dodano
+49	3249	potres	potresa potrese potresi potresih potresom potresov potresu
+50	3250	preizkusiti	preizkusijo preizkusil preizkusila preizkusili preizkusim preizkusimo preizkusite
+51	3251	solata	solat solate solati solato
+52	3252	izstopiti	izstopi izstopil izstopila izstopili izstopilo izstopim izstopiš
+53	3253	fronta	fronte fronti fronto
+54	3254	krvavitev	krvavitve krvavitvijo
+55	3255	ugasniti	ugasne ugasnejo ugasnem ugasnil ugasnila ugasnilo ugasnite
+56	3256	črnec	črnca črnce črncev črnci črncih
+57	3257	deležen	deležna deležne deležni deležno
+58	3258	izkoriščati	izkorišča izkoriščajo izkoriščal izkoriščala izkoriščali izkoriščamo izkoriščata izkoriščate
+59	3259	navaditi	navadil navadila navadili navadiš
+60	3260	vrhunski	vrhunska vrhunske vrhunskega vrhunskem vrhunskih vrhunskim vrhunskimi vrhunsko
+61	3261	opustiti	opusti opustil opustila opustile opustili opustite
+62	3262	jugoslovanski	jugoslovanska jugoslovanske jugoslovanskega jugoslovanskem jugoslovanskih jugoslovansko
+63	3263	vrstica	vrstic vrsticah vrsticami vrstice vrstici vrstico
+64	3264	spomlad	spomladi
+65	3265	krompir	krompirja krompirje krompirjem krompirji krompirju
+66	3266	davčen	davčna davčne davčnega davčnem davčni davčnih davčnim davčnimi davčno
+67	3267	okrepitev	okrepitve
+68	3268	delodajalec	delodajalca delodajalce delodajalcem delodajalcev delodajalci delodajalcu
+69	3269	jutranji	jutranja jutranje jutranjega jutranjem jutranjih jutranjo
+70	3270	prostorski	prostorska prostorske prostorskega prostorskih prostorskim prostorsko
+71	3271	štab	štaba štabom štabov štabu
+72	3272	zmotiti	zmotijo zmotil zmotili
+73	3273	joška	jošk joške joški joškov
+74	3274	namig	namiga namige namigi namigov namigu
+75	3275	kamp	kampa kampi kampov kampu
+76	3276	odnehati	odneha odnehajte odnehal odnehali
+77	3277	baba	bab babam babami babi babo
+78	3278	okužen	okužena okužene okuženega okuženi okuženih okuženim okuženo
+79	3279	župnik	župnika župnikov župnikova župniku
+80	3280	preproga	preprog preprogah preprogami preproge preprogi preprogo
+81	3281	umorjen	umorjena umorjene umorjenega umorjenih umorjeno
+82	3282	salon	salona salonih salonu
+83	3283	kabel	kabla kable kabli kablom kablov kablu
+84	3284	uspešnica	uspešnic uspešnice uspešnici uspešnico
+85	3285	testiranje	testiranj testiranja testiranjem testiranji testiranjih testiranju
+86	3286	okoljski	okoljska okoljske okoljskega okoljskih okoljsko
+87	3287	izpasti	izpadejo izpadel izpadla izpadle izpadli izpadlo
+88	3288	izmenjava	izmenjave izmenjavi izmenjavo
+89	3289	površje	površja površju
+90	3290	škodljiv	škodljiva škodljive škodljivi škodljivih škodljivim škodljivimi škodljivo
+91	3291	zagovarjati	zagovarja zagovarjajo zagovarjal zagovarjala zagovarjali zagovarjam zagovarjamo zagovarjata
+92	3292	prepir	prepira prepire prepiri prepirih prepirom prepirov prepiru
+93	3293	zloben	zlobni zlobnim
+94	3294	koristiti	koristijo koristil koristila koristile koristili koristilo koristita
+95	3295	zlomljen	zlomljena zlomljene zlomljenega zlomljenem zlomljenemu zlomljeni zlomljenih zlomljenim zlomljenimi zlomljeno
+96	3296	tekst	teksta tekste teksti tekstih tekstom tekstov tekstu
+97	3297	vest	vestjo
+98	3298	sporen	sporna sporne spornega spornem sporni spornih sporno
+99	3299	enajst	enajstih enajstimi
+100	3300	tragedija	tragedij tragedije tragediji tragedijo

@@ -1,0 +1,100 @@
+1	9401	prehitevati	prehiteva prehitevajo prehiteval prehitevamo
+2	9402	svečanost	svečanosti
+3	9403	podjetniški	podjetniška podjetniške podjetniškega podjetniško
+4	9404	zaliti	zalij zalije zalijemo zalijte zalil zalila
+5	9405	tuberkuloza	tuberkuloze tuberkulozi tuberkulozo
+6	9406	polnilo	polnili polnilom
+7	9407	cvetlica	cvetlic cvetlice cvetlico
+8	9408	prelomiti	prelomi
+9	9409	rekreacijski	rekreacijskem rekreacijsko
+10	9410	povelje	
+11	9411	brigada	
+12	9412	filter	filtrom filtrov
+13	9413	prekašati	prekaša prekašajo prekašal
+14	9414	krivičen	krivične krivični krivično
+15	9415	preobremeniti	preobremeni preobremenil preobremenila preobremenili preobremenilo preobremenimo preobremeniš preobremenjen preobremenjena preobremenjene preobremenjeni preobremenjeno
+16	9416	podajanje	podajanja podajanjem podajanju
+17	9417	diskurz	diskurza
+18	9418	gonilen	gonilna gonilne gonilno
+19	9419	obhajilo	obhajilu
+20	9420	zbegan	zbegana zbegane
+21	9421	žeti	žanje žanjejo žanjemo žanjete žanješ žel žela
+22	9422	razkol	razkola
+23	9423	koncern	koncerna
+24	9424	menjavati	menjavajo menjaval menjavali
+25	9425	poligon	poligona poligonu
+26	9426	sedemdeset	
+27	9427	naslon	nasloni
+28	9428	znanstvenica	znanstvenice
+29	9429	lepljiv	lepljiva lepljive lepljivo
+30	9430	zganjati	zganja zganjajo zganjajte zganjal zganjali zganjam zganjate
+31	9431	kvalifikacijski	kvalifikacijskem
+32	9432	žlička	žličke žlički žličko
+33	9433	preporod	preporodu
+34	9434	reprezentativen	reprezentativne reprezentativni reprezentativnih
+35	9435	loto	lotu
+36	9436	štorklja	štorkelj štorklje štorkljo
+37	9437	semafor	semaforje semaforjem semaforjev semaforji semaforju
+38	9438	nastaniti	nastanil nastanila nastanimo
+39	9439	branik	branika
+40	9440	kiki	kikija
+41	9441	stojalo	stojal stojalom
+42	9442	nedvoumen	nedvoumno
+43	9443	opijat	opija opijajo opijal opijala opijam opijate opijati opijaš
+44	9444	lahkoten	lahkotne lahkotni lahkotno
+45	9445	podganji	podganja podganje podganjega podganjem podganjih podganjim podganjo
+46	9446	oslabiti	oslabi oslabila oslabile
+47	9447	anestetik	anestetika anestetike anestetiki anestetikom anestetikov
+48	9448	zapeljevanje	zapeljevanja zapeljevanjem
+49	9449	navdušenec	navdušenca navdušence navdušencev navdušenci
+50	9450	vohuniti	vohunijo vohunil
+51	9451	potiskati	potiskajo potiskajte potiskamo
+52	9452	razvpiti	razvpit razvpita razvpite razvpitega razvpitih razvpito
+53	9453	naselitev	naselitve
+54	9454	zvrstiti	zvrstili zvrstilo
+55	9455	plavalen	plavalna plavalne plavalnega plavalni plavalnih plavalno
+56	9456	različnost	različnosti
+57	9457	penina	penine penino
+58	9458	odplačati	odplačajo odplačal odplačali
+59	9459	zamreti	zamre zamrl zamrla zamrlo
+60	9460	prezbiterij	prezbiterija
+61	9461	preureditev	preureditve preureditvi
+62	9462	jezuit	jezuiti
+63	9463	šiling	šilingov
+64	9464	skupiti	skupil skupila
+65	9465	otipavati	otipava otipavaj otipavajo otipaval otipavala otipavali otipavam otipavaš
+66	9466	orgija	orgij orgijah orgije orgiji orgijo
+67	9467	stlačiti	stlači stlačil stlačila
+68	9468	pobarvati	pobarva pobarvaj pobarvajo pobarvajte pobarval pobarvali pobarvamo
+69	9469	kanu	kanuja
+70	9470	ako	
+71	9471	poroditi	porodi porodila porodilo
+72	9472	kola	
+73	9473	ustanoviteljica	ustanoviteljice
+74	9474	jasnovidec	jasnovidcev
+75	9475	neupravičen	neupravičena neupravičene neupravičeno
+76	9476	celovečeren	celovečerni
+77	9477	okruten	okrutna okrutno
+78	9478	zavpiti	zavpije zavpil zavpila
+79	9479	miti	
+80	9480	neresničen	neresnična neresnične neresničnega neresnični neresničnih neresnično
+81	9481	čebelji	čebeljih
+82	9482	mast	masti mastjo
+83	9483	preleteti	preletel
+84	9484	prenašalec	prenašalci
+85	9485	rediti	redi redili
+86	9486	prostovoljka	prostovoljke
+87	9487	spektakel	spektakla
+88	9488	tržiti	trži tržijo tržili
+89	9489	tramvaj	tramvaja tramvaje tramvajem tramvaji tramvaju
+90	9490	ustroj	ustroja
+91	9491	upornost	upornosti
+92	9492	borov	borova borove borovega borovem borovi borovih borovo
+93	9493	mirovanje	mirovanju
+94	9494	opominjati	opominja opominjaš
+95	9495	ubožica	ubožici
+96	9496	naveličan	naveličani
+97	9497	kokakola	kokakole kokakolo
+98	9498	pogret	pogreje pogrejem pogrejemo pogrejete pogrela pogreta pogrete pogreti pogreto
+99	9499	množina	množine množini množino
+100	9500	pobarvan	pobarvana pobarvanega pobarvanih pobarvanimi

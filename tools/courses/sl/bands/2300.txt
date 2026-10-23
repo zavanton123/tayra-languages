@@ -1,0 +1,100 @@
+1	2201	bogastvo	bogastva bogastvom bogastvu
+2	2202	domovina	domovine domovini domovino
+3	2203	previdno	
+4	2204	zrasti	zrasel zrasla zrasle zrasli zraslo zraste zrastejo zrastla zrastli
+5	2205	puščava	puščav puščavah puščave puščavi puščavo
+6	2206	zaključek	zaključka zaključke zaključki zaključkom zaključkov zaključku
+7	2207	izlet	izleta izlete izleti izletih izletov izletu
+8	2208	izdelovati	izdeloval izdelovala izdelovale izdelovali izdeluje izdelujejo izdelujem izdelujemo
+9	2209	oblak	oblaka oblake oblaki oblakih oblakom oblakov oblaku
+10	2210	cesar	cesarja cesarje cesarjem cesarji cesarju
+11	2211	obramben	obrambna obrambne obrambnega obrambnem obrambni obrambnih obrambnim obrambnimi obrambno
+12	2212	izvajanje	izvajanja izvajanjem izvajanju
+13	2213	kuhati	kuha kuhaj kuhajo kuhajte kuhal kuhala kuhale kuhali kuhalo kuham kuhamo kuhat kuhata kuhate kuhava kuhaš kuhe kuhi
+14	2214	mladina	mladine mladini mladino
+15	2215	puščati	pušča puščaj puščajo puščajta puščajte puščal puščala puščale puščali puščalo puščam puščamo puščanje puščata puščate puščaš
+16	2216	dolgočasen	dolgočasna dolgočasne dolgočasnega dolgočasnem dolgočasnemu dolgočasni dolgočasnih dolgočasnim dolgočasnimi dolgočasno najdolgočasnejši
+17	2217	zvest	najzvestejših zvesta zveste zvestega zvesti zvestih zvestim zvestimi zvesto
+18	2218	športnik	športnika športnike športniki športnikom športnikov športniku
+19	2219	spregovoriti	spregovori spregovorijo spregovoril spregovorila spregovorili spregovorilo spregovorimo
+20	2220	okoliščina	okoliščin okoliščinah okoliščinam okoliščine
+21	2221	režiser	režiserja režiserjem režiserjev režiserji režiserju
+22	2222	zavarovanje	zavarovanj zavarovanja zavarovanjem zavarovanji zavarovanju
+23	2223	vez	vezeh vezem vezi vezjo vezmi
+24	2224	prebiti	prebij prebije prebijejo prebijem prebijemo prebijeta prebijete prebijeva prebiješ prebijmo prebijte prebijva prebil prebila prebile prebili prebilo prebit prebito
+25	2225	izpit	izpij izpil izpita izpite izpiti izpitih izpitom izpitov izpitu
+26	2226	siv	siva sive sivega sivem sivi sivih sivim sivimi sivo
+27	2227	vztrajati	vztraja vztrajaj vztrajajo vztrajajte vztrajal vztrajala vztrajale vztrajali vztrajam vztrajamo vztrajata
+28	2228	minister	ministra ministre ministri ministrom ministrov ministrovega ministrovo ministru
+29	2229	izključiti	izključi izključijo izključil izključila izključile izključili izključilo izključim izključimo izključit izključita izključite izključiva izključiš
+30	2230	zapornik	zapornika zapornike zaporniki zapornikih zapornikom zapornikoma zapornikov zapornikova zapornikovo zaporniku
+31	2231	zasedba	zasedb zasedbah zasedbe zasedbi zasedbo
+32	2232	košček	koščka koščke koščki koščkih koščkom koščkov koščku
+33	2233	povečan	povečana povečane povečanega povečanem povečani povečanim povečano
+34	2234	vložiti	vloži vložijo vložil vložila vložile vložili vložilo vložimo vložiš
+35	2235	ujemati	ujema ujemajo ujemal ujemala ujemali ujemalo ujemata ujemava
+36	2236	teren	terena terene terenu
+37	2237	aretirati	aretirajo aretirala aretirali
+38	2238	norec	norca norce norcem norcev
+39	2239	reč	rečeh rečema rečjo rečmi
+40	2240	organiziran	organizirana organizirane organiziranega organiziranemu organizirani organiziranih organiziranim organizirano
+41	2241	človeštvo	človeštva človeštvu
+42	2242	civilen	civilna civilne civilnega civilnem civilnih civilnim civilno
+43	2243	smučarski	smučarska smučarske smučarskega smučarskem smučarskih smučarsko
+44	2244	stres	stresa stresom stresu
+45	2245	pogreb	pogreba pogrebe pogrebu
+46	2246	rečen	rečenega rečeno rečna rečne rečnega rečnem rečni rečnih rečno
+47	2247	nastajati	nastaja nastajajo nastajala nastajale nastajali
+48	2248	profesionalen	profesionalna profesionalne profesionalnega profesionalnem profesionalnemu profesionalni profesionalnih profesionalnim profesionalno
+49	2249	spalnica	spalnic spalnicah spalnicama spalnicami spalnice spalnici spalnico
+50	2250	neprijeten	neprijetna neprijetne neprijetnega neprijetni neprijetnih neprijetnim neprijetnimi neprijetno
+51	2251	portal	portala portale portali portalom
+52	2252	umirati	umira umirajo umiral umirala umirale umirali umiralo
+53	2253	verzija	verzij verzije verziji verzijo
+54	2254	obletnica	obletnic obletnicah obletnice obletnici obletnico
+55	2255	pripovedovati	pripovedoval pripovedovala pripovedovali pripoveduje pripovedujejo pripovedujem pripovedujemo
+56	2256	prizorišče	prizorišč prizorišča prizoriščem prizoriščih prizorišču
+57	2257	sol	soli soljo
+58	2258	naključje	naključij naključja naključjem naključji naključjih naključju
+59	2259	jak	jake jaki jakom jakov jaku
+60	2260	rast	rastjo
+61	2261	osvoboditi	osvobodi osvobodil osvobodila osvobodili osvobodilo osvobodimo osvobodit osvobodite
+62	2262	verjetnost	verjetnosti verjetnostjo
+63	2263	označen	označena označene označenega označeni označenih označenimi označeno
+64	2264	digitalen	digitalna digitalne digitalnega digitalni digitalnih digitalnim digitalno
+65	2265	sok	soka sokom sokov sokove sokovi sokovih soku
+66	2266	vzpon	vzpona vzpone vzponi vzponih vzponom vzponu
+67	2267	pritisniti	pritisne pritisnem pritisnemo pritisnete pritisni pritisnil pritisnila pritisnili pritisnimo pritisnite
+68	2268	palača	palač palačah palače palači palačo
+69	2269	podeliti	podeli podelijo podelil podelila podelili podelilo
+70	2270	trebuh	trebuha trebuhe trebuhi trebuhih trebuhom trebuhov trebuhu
+71	2271	ogrožen	ogrožena ogrožene ogroženega ogroženi ogroženih ogroženim ogroženo
+72	2272	muditi	mudi mudil mudilo
+73	2273	spiti	spij spijeta spijete spil spila spili
+74	2274	milost	milosti milostjo
+75	2275	igralka	igralk igralke igralki igralko
+76	2276	dvorišče	dvorišča dvorišču
+77	2277	vdreti	vdre vdrl vdrla vdrle vdrli vdrlo
+78	2278	svetovati	svetoval svetovala svetovali svetuje svetujejo svetujem svetujemo svetujete svetujeva
+79	2279	spol	spola spoli spolih spolom spoloma spolov spolu
+80	2280	maščevanje	maščevanja maščevanjem maščevanju
+81	2281	škof	škofa škofe škofi škofom škofov škofu
+82	2282	kranjski	kranjska kranjske kranjskega kranjskem kranjskih kranjsko
+83	2283	nuditi	nudi nudijo nudil nudila nudile nudili nudilo nudimo nudite nudiva
+84	2284	revolucija	revolucij revolucijah revolucije revoluciji revolucijo
+85	2285	trening	treninga treninge treningi treningih treningom treningov treningu
+86	2286	koncentracija	koncentracij koncentracijah koncentracije koncentraciji koncentracijo
+87	2287	govorica	govoric govoricah govoricam govorice govorici govorico
+88	2288	torek	torka torke torki torkih torkom torkov torkovo torku
+89	2289	posvečen	posvečena posvečene posvečeni posvečenih posvečeno
+90	2290	plašč	plašča plašče plaščem plaščev plašči plaščih plašču
+91	2291	žarek	žarka žarke žarki žarkih žarkom žarkov
+92	2292	mehanizem	mehanizma mehanizme mehanizmi mehanizmom mehanizmov
+93	2293	zaznati	zazna zaznajo zaznal zaznala zaznale zaznali zaznamo zaznate zaznav zaznava zaznave zaznavo
+94	2294	kampanja	kampanj kampanje kampanji kampanjo
+95	2295	odsek	odseka odseke odseki odsekih odsekov odseku
+96	2296	bolnica	bolnic bolnicah bolnicam bolnice bolnici bolnico
+97	2297	prevelik	prevelika prevelike preveliki prevelikih preveliko
+98	2298	značino	značilno
+99	2299	izgradnja	izgradnje izgradnji izgradnjo
+100	2300	biološki	biološka biološke biološkega biološkem biološkemu bioloških biološkim biološkimi biološko

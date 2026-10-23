@@ -1,0 +1,100 @@
+1	6101	diplomski	diplomsko
+2	6102	resolucija	resolucije resoluciji resolucijo
+3	6103	legalen	legalna legalne legalni legalnih legalnim legalno
+4	6104	živeč	živeče živečega živečih živečim
+5	6105	dajatev	dajatve
+6	6106	mehur	mehurja mehurjem mehurjev mehurju
+7	6107	kupčija	kupčijo
+8	6108	potovalen	potovalna potovalne potovalni potovalno
+9	6109	mukati	muka mukah mukajo mukal mukam muke muko
+10	6110	organiziranje	organiziranja organiziranjem organiziranju
+11	6111	apokalipsa	apokalipse apokalipsi apokalipso
+12	6112	grič	gričem gričih griču
+13	6113	pospeševati	pospeševal pospešuje pospešujejo
+14	6114	užaljen	užaljena užaljeni
+15	6115	onkraj	
+16	6116	preventiven	preventivna preventivne preventivni preventivnih preventivno
+17	6117	problematičen	problematična problematične problematičnih problematično
+18	6118	verovati	veroval veruje verujejo verujem verujemo
+19	6119	osvojitev	osvojitve osvojitvi osvojitvijo
+20	6120	geografski	geografska geografskih
+21	6121	dogodivščina	dogodivščin dogodivščinah dogodivščinam dogodivščine
+22	6122	spoštljiv	spoštljive spoštljivi spoštljivo
+23	6123	nabava	nabave nabavi nabavo
+24	6124	norčevati	norčevala norčevali norčuje norčujejo norčujem norčujeta
+25	6125	mavrica	mavric mavricah mavricami mavrice mavrici mavrico
+26	6126	carina	carine carino
+27	6127	izoblikovati	izoblikoval izoblikovala izoblikovale izoblikovali izoblikovalo izoblikuje
+28	6128	ser	sera seri seru
+29	6129	krpa	krp krpe krpo
+30	6130	akvarij	akvarija akvarije akvarijem akvarijev akvariji akvarijih akvariju
+31	6131	izkoristek	izkoristka
+32	6132	jakost	jakosti
+33	6133	uveljavitev	uveljavitve uveljavitvi uveljavitvijo
+34	6134	kombiniran	kombinirana kombiniranega kombinirani kombiniranih kombinirano
+35	6135	novoleten	novoletna novoletne novoletnega novoletni novoletnih novoletno
+36	6136	dokumentaren	dokumentarna dokumentarne dokumentarni
+37	6137	žarnica	žarnic žarnicami žarnice žarnici žarnico
+38	6138	narekovati	narekoval narekovala narekovali narekuje narekujejo
+39	6139	pretres	pretrese pretresi pretresom pretresov
+40	6140	sirena	sirenami sirene sireno
+41	6141	himna	himne himno
+42	6142	govedo	goveda govedi govedom govedu
+43	6143	rogaški	rogaška rogaške
+44	6144	meti	majo mane mani
+45	6145	prijem	prijema prijeme prijemi prijemov
+46	6146	rastoč	rastoča rastoče rastočega rastoči rastočo
+47	6147	bankovec	bankovce bankovcev
+48	6148	židovski	židovska židovske židovskega židovskem židovsko
+49	6149	pogostost	pogostosti
+50	6150	mag	
+51	6151	sesuti	sesujemo sesujmo sesul sesula sesulo
+52	6152	jadrnica	jadrnic jadrnice jadrnici jadrnico
+53	6153	zaščitnik	zaščitnika
+54	6154	brezhiben	brezhibna brezhibne brezhibnega brezhibnem brezhibni brezhibnih brezhibno
+55	6155	sestradati	sestradal sestradali sestradan sestradana sestradane sestradani sestradano
+56	6156	čar	čare čari čarom čarov
+57	6157	blokada	blokad blokado
+58	6158	mucka	mucke
+59	6159	logotip	logotipa logotipi logotipov logotipu
+60	6160	garda	garde
+61	6161	cigara	cigarah cigarami cigare cigari cigaro
+62	6162	pripasti	pripade pripadel pripadla pripadlo
+63	6163	citat	citate citati citatov
+64	6164	upasti	upade upadel upadla upadlo
+65	6165	prilagajati	prilagaja prilagajajo prilagajal prilagajali prilagajam
+66	6166	grenek	grenak grenka grenke grenkega grenki grenkih grenkim grenko
+67	6167	legija	legije legiji
+68	6168	čips	čipsa čipsu
+69	6169	priložnosten	priložnostna priložnostne priložnostni priložnostnih priložnostno
+70	6170	večinski	večinska večinske večinskega večinskim večinsko
+71	6171	aspirin	aspirina aspirine aspirini aspirinom aspirinov aspirinu
+72	6172	keramičen	keramične keramični keramičnih keramično
+73	6173	pregovor	pregovoru
+74	6174	sani	saneh sanmi
+75	6175	papirnat	papirnata papirnate papirnatega papirnati papirnatih papirnato
+76	6176	krzno	krzen krzna krzni krznom krznu
+77	6177	regijski	regijskega regijskem regijskih regijsko
+78	6178	beneški	beneška beneške beneškega
+79	6179	narodnost	narodnosti
+80	6180	rožen	rožna rožne rožnega rožni rožno
+81	6181	kila	kil kilami kile kili kilo
+82	6182	odkloniti	odklonijo odklonil odklonila odklonili odklonite
+83	6183	razprostirati	razprostira razprostirajo
+84	6184	prehlad	prehlada prehladi prehladom prehladov prehladu
+85	6185	skloniti	skloni sklonil sklonim
+86	6186	knjigarna	knjigarn knjigarnah knjigarne knjigarni knjigarno
+87	6187	vedenjski	vedenjska vedenjske vedenjskih
+88	6188	podrejeni	podrejene podrejenih
+89	6189	ciklus	ciklusa ciklusu
+90	6190	pogoltniti	pogoltnejo pogoltnete pogoltnil pogoltnila pogoltnili pogoltnilo
+91	6191	encim	encime encimov
+92	6192	kronika	kronike kroniki kroniko
+93	6193	posaditi	posadijo posadil posadila posadili posadimo posadite
+94	6194	civilist	civilistov
+95	6195	cenen	cenena cenene cenenega cenenem ceneni cenenih cenenim cenenimi ceneno
+96	6196	informatika	informatike informatiko
+97	6197	obtoževati	obtoževal obtoževala obtoževali obtožuje obtožujejo obtožujeta
+98	6198	prikrivati	prikriva prikrivajo prikrival prikrivali
+99	6199	narečje	narečij narečja narečju
+100	6200	tabletka	tabletk tabletkah tabletke tabletko

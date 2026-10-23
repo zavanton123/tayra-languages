@@ -1,0 +1,100 @@
+1	1401	mojster	mojstra mojstre mojstri mojstrom mojstrov mojstru
+2	1402	presenečenje	presenečenj presenečenja presenečenjem presenečenji presenečenjih presenečenju
+3	1403	učinkovit	najučinkovitejše najučinkovitejši učinkovita učinkovite učinkovitega učinkoviteje učinkovitejša učinkovitejše učinkovitejši učinkoviti učinkovitih učinkovitim učinkovito
+4	1404	odpraviti	odpravi odpravijo odpravil odpravila odpravile odpravili odpravilo odpravim odpravimo odpravita odpravite odpraviva odpraviš
+5	1405	spoštovanje	spoštovanja spoštovanjem spoštovanju
+6	1406	mreža	mrež mrežah mrežam mrežami mreže mreži mrežo
+7	1407	zahod	zahoda zahodom zahodu
+8	1408	večen	večna večne večnega večnem večnemu večni večnih večnim večno
+9	1409	last	lasti
+10	1410	umetnik	umetnika umetnike umetniki umetnikih umetnikom umetnikov umetnikovo umetniku
+11	1411	potegniti	potegne potegnejo potegnem potegnemo potegnete potegneš potegni potegnil potegnila potegnili potegnilo potegnite
+12	1412	neposredno	
+13	1413	prihod	prihoda prihode prihodom prihodov prihodu
+14	1414	kdor	kogar komer komur
+15	1415	faza	faz fazah faze fazi fazo
+16	1416	lačen	lačna lačne lačnega lačnemu lačni lačnih lačnim lačnimi lačno
+17	1417	voznik	voznika voznike vozniki voznikom voznikov voznikova voznikove voznikovem voznikovi voznikovo vozniku
+18	1418	televizija	televizij televizijah televizije televiziji televizijo
+19	1419	tok	toka toki tokom tokov tokove tokovi tokovih tokovom toku
+20	1420	povezovati	povezoval povezovala povezovali povezuje povezujejo povezujemo povezujeta
+21	1421	prijaviti	prijavi prijavijo prijavil prijavila prijavile prijavili prijavilo prijavim prijavimo prijavit prijavita prijavite prijaviva prijaviš
+22	1422	raziskovalen	raziskovalna raziskovalne raziskovalnega raziskovalnem raziskovalni raziskovalnih raziskovalnim raziskovalnimi raziskovalno
+23	1423	posloven	poslovna poslovne poslovnega poslovnem poslovni poslovnih poslovnim poslovnimi poslovno
+24	1424	udarec	udarca udarce udarcem udarcev udarci udarcih udarcu
+25	1425	redek	najredkejši redka redke redkega redkejša redkejši redkem redki redkih redkimi
+26	1426	peta	petah petama petami pete peto
+27	1427	kamor	
+28	1428	sosed	soseda sosede sosedi sosedih sosedje sosedo sosedom sosedoma sosedov sosedovega sosedovim sosedovo sosedu
+29	1429	vikend	vikenda vikende vikendi vikendih vikendom vikendov vikendu
+30	1430	zelen	zelene zelenega zelenem zelenemu zeleni zelenih zelenimi
+31	1431	premisliti	premisli premislijo premislil premislila premislili premislim premislimo premislita premislite
+32	1432	zaščititi	zaščitijo zaščitil zaščitila zaščitili zaščitilo zaščitim zaščitimo zaščitita zaščitite
+33	1433	novinar	novinarja novinarje novinarjem novinarjev novinarji novinarju
+34	1434	usluga	uslug usluge uslugo
+35	1435	naselje	naselij naselja naseljem naselji naseljih naselju
+36	1436	desetletje	desetletij desetletja desetletjem desetletji desetletjih desetletju
+37	1437	edino	
+38	1438	dosti	
+39	1439	izdelava	izdelave izdelavi izdelavo
+40	1440	pregledati	pregledajo pregledal pregledala pregledali pregledamo pregledate pregledava preglejmo preglejte
+41	1441	poleten	poletna poletne poletnega poletnem poletni poletnih poletnim poletnimi poletno
+42	1442	jama	jam jamah jamam jamami jame jami jamo
+43	1443	pojavljati	pojavlja pojavljajo pojavljal pojavljala pojavljale pojavljali pojavljalo
+44	1444	mladinski	mladinska mladinske mladinskega mladinskem mladinskih mladinsko
+45	1445	struktura	struktur strukturah strukturami strukture strukturi strukturo
+46	1446	otroški	otroška otroške otroškega otroškem otroških otroškim otroškimi otroško
+47	1447	znebiti	znebi znebijo znebil znebila znebili znebimo znebite znebiš
+48	1448	bar	bara bari barih barom barov baru
+49	1449	srečno	najsrečnejše srečnejše
+50	1450	strokovnjak	strokovnjaka strokovnjake strokovnjaki strokovnjakih strokovnjakom strokovnjakov strokovnjaku
+51	1451	puška	pušk puškah puškam puškama puškami puške puški puško
+52	1452	nadaljnji	nadaljnja nadaljnje nadaljnjega nadaljnjem nadaljnjih nadaljnjim nadaljnjo
+53	1453	članica	članic članicah članicam članicami članice članici članico
+54	1454	ohraniti	ohrani ohranijo ohranil ohranila ohranile ohranili ohranilo ohranimo ohranite ohraniš
+55	1455	uporabnik	uporabnika uporabnike uporabniki uporabnikih uporabnikom uporabnikov uporabniku
+56	1456	načelo	načel načela načeli načelih načelom načelu
+57	1457	duhovnik	duhovnika duhovnike duhovniki duhovnikom duhovnikov duhovnikova duhovnikovi duhovnikovo duhovniku
+58	1458	ostanek	ostanka ostanke ostanki ostankih ostankov
+59	1459	bitka	bitke bitki bitko
+60	1460	laž	lažeh laži lažjo lažmi
+61	1461	um	uma umu
+62	1462	privoščiti	privošči privoščijo privoščil privoščila privoščili privoščilo privoščim privoščimo privoščita privoščite privoščiš
+63	1463	kategorija	kategorij kategorijah kategorijami kategorije kategoriji kategorijo
+64	1464	izrazit	izrazijo izrazil izrazila izrazili izrazim izrazimo izrazita izrazite izrazitega izraziti izrazitih izrazito
+65	1465	prek	
+66	1466	razširiti	razširi razširijo razširil razširila razširile razširili razširilo razširimo razširite razširiva
+67	1467	sprožiti	sproži sprožijo sprožil sprožila sprožile sprožili sprožilo sprožim
+68	1468	sodelavec	sodelavca sodelavce sodelavcem sodelavcev sodelavci sodelavcu
+69	1469	temperatura	temperatur temperaturah temperaturam temperaturami temperaturi temperaturo
+70	1470	mirno	
+71	1471	krivda	krivde krivdi krivdo
+72	1472	slog	sloga sloge slogi slogov slogu
+73	1473	kdorkoli	kogarkoli komerkoli komurkoli
+74	1474	čoln	čolna čolne čolni čolnih čolnom čolnov čolnu
+75	1475	negativen	negativna negativne negativnega negativni negativnih negativnim negativnimi negativno
+76	1476	razlikovati	razlikoval razlikovala razlikovali razlikuje razlikujejo razlikujemo razlikujeta razlikuješ
+77	1477	zapomniti	zapomni zapomnijo zapomnil zapomnila zapomnili zapomnite zapomniš
+78	1478	nos	nosa nosom nosov nosova nosove nosovi nosovih nosu
+79	1479	nastopiti	nastopijo nastopil nastopila nastopile nastopili nastopilo nastopiva
+80	1480	princesa	princesah princesami princese princesi princeso
+81	1481	vključiti	vključi vključijo vključil vključila vključile vključili vključilo vključim vključimo vključita vključite vključiva vključiš
+82	1482	tek	teka teke teki tekih tekov teku
+83	1483	učenec	učenca učence učencem učencev učenci učencih učencu
+84	1484	dalje	
+85	1485	ustanovitev	ustanovitve ustanovitvi ustanovitvijo
+86	1486	važen	najvažnejša najvažnejše najvažnejši najvažnejših važna važne važnega važnejše važnih važno
+87	1487	izgubljen	izgubljena izgubljene izgubljenega izgubljenemu izgubljeni izgubljenih izgubljenimi izgubljeno
+88	1488	petek	petka petke petki petkih petkom petku
+89	1489	moderen	moderna moderne modernega modernejše modernem moderni modernih modernim modernimi moderno najmodernejši
+90	1490	sestavljen	sestavljena sestavljene sestavljeni sestavljenih sestavljeno
+91	1491	izobraževanje	izobraževanja izobraževanjem izobraževanju
+92	1492	nasproten	nasprotna nasprotne nasprotnega nasprotnem nasprotni nasprotnih nasprotnim nasprotno
+93	1493	ustvarjati	ustvarja ustvarjajo ustvarjal ustvarjala ustvarjali ustvarjalo ustvarjam ustvarjamo ustvarjata ustvarjate ustvarjaš
+94	1494	dneven	dnevna dnevne dnevnega dnevnem dnevni dnevnih dnevnim dnevno
+95	1495	lesen	lesena lesene lesenega lesenem leseni lesenih lesenim lesenimi leseno lesna lesne lesni lesno
+96	1496	predal	predala predale predali predalih predalom predalov predalu
+97	1497	steklo	stekel stekla stekli steklih steklom steklu
+98	1498	gorivo	goriv goriva gorivom gorivu
+99	1499	tradicija	tradicij tradicijah tradicijami tradicije tradiciji tradicijo
+100	1500	nikar	

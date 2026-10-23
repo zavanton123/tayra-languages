@@ -1,0 +1,100 @@
+1	9201	telekomunikacijski	telekomunikacijske telekomunikacijskih
+2	9202	partnerski	partnerske partnerskih partnersko
+3	9203	šivanje	šivanjem
+4	9204	zaskrbljujoč	zaskrbljujoče
+5	9205	pretiravanje	pretiravanja
+6	9206	kres	kresa kresove kresu
+7	9207	republikanski	republikanska republikanske
+8	9208	trgovati	trgoval trgovalo trgujejo
+9	9209	kavsati	kavsa kavsaj kavsajo kavsala kavsali kavsam kavsanje kavsat kavsata kavsaš
+10	9210	snop	snopi snopov
+11	9211	jubilej	jubileja jubileju
+12	9212	vplivanje	vplivanja
+13	9213	homoseksualnost	homoseksualnosti
+14	9214	domobranec	domobrancev domobranci
+15	9215	zliti	zlijejo zlijemo zlil zlili zlilo
+16	9216	oslarija	oslarij oslarijami oslarije oslarijo
+17	9217	skeptičen	skeptični
+18	9218	gostovanje	gostovanja
+19	9219	ječmen	ječmena ječmenom
+20	9220	eksotičen	eksotične
+21	9221	odobravanje	odobravanja odobravanjem odobravanju
+22	9222	bahat	baha bahaj bahajo bahal bahala bahali baham bahamo bahati bahava bahaš
+23	9223	spodrsniti	spodrsnilo
+24	9224	paranoja	paranoje paranoji paranojo
+25	9225	presežen	presežena presežne presežno
+26	9226	razpisati	razpisal razpisala razpisali
+27	9227	pograbiti	pograbi pograbil pograbila
+28	9228	adut	aduta adute aduti adutov
+29	9229	nazor	nazorov
+30	9230	vrtanje	vrtanja vrtanju
+31	9231	prelet	preleti preletom preletu
+32	9232	obdelovanje	obdelovanja obdelovanjem
+33	9233	nuklearen	nuklearna nuklearne nuklearnega nuklearnimi nuklearno
+34	9234	štirileten	štiriletna štiriletni štiriletno
+35	9235	pobotati	pobotal
+36	9236	mesečina	mesečine mesečini mesečino
+37	9237	izginul	izginula izginule izginulem izginulih
+38	9238	arhivski	arhivskega
+39	9239	pop	popa popu
+40	9240	hibrid	hibride
+41	9241	glasnost	glasnosti
+42	9242	tujka	
+43	9243	borzen	borzne borzni borznih
+44	9244	petnajsti	petnajstega
+45	9245	grešiti	greši grešijo grešila grešili grešim grešimo grešite grešiš
+46	9246	poglobljen	poglobljene poglobljeno
+47	9247	vzmetnica	vzmetnic vzmetnicami vzmetnice vzmetnici vzmetnico
+48	9248	semenišče	semenišču
+49	9249	ropanje	ropanjem ropanju
+50	9250	prizma	prizmo
+51	9251	astrologija	astrologije
+52	9252	posegati	posegajo posegal
+53	9253	čebelica	čebelic čebelicah čebelice
+54	9254	membrana	membrano
+55	9255	oviranje	oviranja
+56	9256	ponesti	ponesel ponesla ponesli
+57	9257	skregati	skregala skregali skregata
+58	9258	topilo	topil topila
+59	9259	umski	umskih umsko
+60	9260	doktrina	doktrine
+61	9261	atrij	atrija atriju
+62	9262	sprevod	sprevoda sprevodu
+63	9263	nazdraviti	nazdravili
+64	9264	nesebičen	nesebične nesebično
+65	9265	stokanje	stokanja
+66	9266	smetnjak	smetnjake smetnjakih
+67	9267	razkrit	razkrita razkrite
+68	9268	ločnica	ločnice ločnico
+69	9269	nedovoljen	nedovoljena nedovoljene nedovoljenega nedovoljenih
+70	9270	krstiti	krstil krstila krstili
+71	9271	banja	banj banje banji
+72	9272	ogovoriti	ogovori ogovoril ogovorili
+73	9273	zibelka	zibelke zibelki
+74	9274	vzporednica	vzporednic vzporednice vzporednico
+75	9275	laguna	lagune laguni laguno
+76	9276	stražnik	stražnikov
+77	9277	volčji	volčjega
+78	9278	utopija	utopije utopiji utopijo
+79	9279	nesporen	nesporna nesporne nespornega nesporno
+80	9280	narodnosten	narodnostna narodnostne narodnostnih
+81	9281	trilogija	trilogije
+82	9282	onemogočen	onemogočeno
+83	9283	dviganje	dviganja dviganjem dviganju
+84	9284	strežba	strežbi strežbo
+85	9285	kozmetičen	kozmetične kozmetičnega kozmetični kozmetično
+86	9286	pridružen	pridružena pridruženi pridruženih
+87	9287	obdelovalen	obdelovalna obdelovalne obdelovalnih obdelovalno
+88	9288	nedopusten	nedopustno
+89	9289	osvetliti	osvetli osvetlila osvetlili osvetlilo osvetlim osvetlite
+90	9290	vinogradništvo	vinogradništva
+91	9291	plutonij	plutonija
+92	9292	večleten	večletne večletnega večletnem večletni večletnih večletno
+93	9293	polaren	polarne polarni polarnih
+94	9294	timski	timska timskega timsko
+95	9295	izvijač	izvijača izvijače izvijačem izvijači izvijaču
+96	9296	improvizacija	improvizacije
+97	9297	premičen	premična premične premičnih premično
+98	9298	osvetljevati	osvetljuje osvetljujejo
+99	9299	borka	borke
+100	9300	sentimentalen	sentimentalna sentimentalne sentimentalnega sentimentalni sentimentalnih sentimentalno

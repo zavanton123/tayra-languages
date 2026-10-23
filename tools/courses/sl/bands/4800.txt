@@ -1,0 +1,100 @@
+1	4701	slan	preslano slana slane slanega slanem slani slanih slanimi slano
+2	4702	psihičen	psihične psihični psihičnih psihičnim psihičnimi psihično
+3	4703	balet	baleta baletom baletu
+4	4704	polfinale	polfinala polfinalu
+5	4705	prisluhniti	prisluhnejo prisluhnem prisluhnil prisluhnili prisluhnite
+6	4706	sposoditi	sposodil sposodila sposodili sposodimo sposodit sposodite sposodiva
+7	4707	zvezdnik	zvezdnika zvezdnike zvezdniki zvezdnikih zvezdnikom zvezdnikov zvezdniku
+8	4708	zavezništvo	zavezništev zavezništva zavezništvu
+9	4709	sapa	sape sapi sapo
+10	4710	daljen	daljne daljnega daljnem daljni daljnih
+11	4711	letalstvo	letalstva letalstvom letalstvu
+12	4712	povzet	povzame povzamem povzamemo povzel povzela povzeli povzeta povzeti povzeto
+13	4713	zmanjševanje	zmanjševanja zmanjševanjem zmanjševanju
+14	4714	nacističen	nacistična nacistične nacističnega nacističnem nacistični nacističnih nacističnim nacistično
+15	4715	mafija	mafije mafiji mafijo
+16	4716	cveten	cvetna cvetne cvetnega cvetni cvetnih cvetnimi cvetno
+17	4717	pregon	pregona pregonu
+18	4718	izobražen	izobražena izobražene izobraženega izobraženi izobraženih izobraženim
+19	4719	zaleteti	zaletel zaletela zaletele zaleteli zaletelo zaletim zaletita zaletite
+20	4720	kapaciteta	kapacitet kapacitete kapaciteto
+21	4721	črevesje	črevesja črevesju
+22	4722	obravnavan	obravnavana obravnavane obravnavani obravnavanih obravnavano
+23	4723	fundacija	fundacije fundaciji
+24	4724	natančnost	natančnosti natančnostjo
+25	4725	pritličje	pritličja pritličju
+26	4726	usposobljen	usposobljena usposobljene usposobljenega usposobljeni usposobljenih usposobljeno
+27	4727	premirje	premirja premirju
+28	4728	julijski	julijska julijske julijskih julijsko
+29	4729	portugalski	portugalske portugalskega portugalskem
+30	4730	kolesarski	kolesarska kolesarske kolesarskega kolesarskih
+31	4731	uporabnost	uporabnosti
+32	4732	vladavina	vladavine vladavini vladavino
+33	4733	modul	modula modulom modulov modulu
+34	4734	kapitalizem	kapitalizma kapitalizmom kapitalizmu
+35	4735	valuta	valut valutami valute valuti valuto
+36	4736	utrditi	utrdi utrdil utrdila utrdili utrdilo utrdimo utrdite
+37	4737	površinski	površinska površinske površinskih površinsko
+38	4738	kuhanje	kuhanja kuhanjem kuhanju
+39	4739	bister	bistra bistrejši najbistrejši
+40	4740	poslovati	posloval poslovala poslovali posluje poslujejo poslujemo poslujeta
+41	4741	prerezati	prerezal prerezale prerezali prereže prerežemo prerežite
+42	4742	pretirati	pretiral pretirala pretiran pretirana pretirane pretiranega pretirani pretiranih pretirava
+43	4743	obljubljati	obljublja obljubljajo obljubljal obljubljala obljubljali obljubljam obljubljamo
+44	4744	kapsula	kapsul kapsulah kapsulam kapsulami kapsule kapsuli kapsulo
+45	4745	tiskan	tiskana tiskane tiskani tiskanih tiskanimi tiskano
+46	4746	črpati	črpa črpajo črpal črpala črpali črpalo črpamo črpate črpaš
+47	4747	ciljen	ciljna ciljne ciljnem ciljni ciljnih ciljno
+48	4748	izračunati	izračunajte izračunal izračunala izračunali izračunamo
+49	4749	štirinajst	štirinajstih štirinajstimi
+50	4750	osvoboditev	osvoboditve osvoboditvi
+51	4751	domačija	domačije domačiji domačijo
+52	4752	opeklina	opeklin opeklinah opeklinam opeklinami opekline opeklino
+53	4753	oficir	oficirja oficirjev oficirji oficirju
+54	4754	španščina	španščine španščini španščino
+55	4755	generator	generatorja
+56	4756	goriški	goriška goriškem
+57	4757	trebušen	trebušna trebušne trebušni trebušnih trebušnimi trebušno
+58	4758	kopanje	kopanja kopanjem kopanju
+59	4759	preusmeriti	preusmeri preusmeril preusmerila preusmerili
+60	4760	trasa	trase trasi traso
+61	4761	vmesnik	vmesnika vmesnike vmesniki vmesnikom vmesnikov vmesniku
+62	4762	posilstvo	posilstev posilstva posilstvi posilstvih posilstvom posilstvu
+63	4763	zrezek	zrezke zrezki zrezkov
+64	4764	podzemlje	podzemlja podzemlju
+65	4765	povzetek	povzetka povzetke povzetki
+66	4766	zagon	zagona zagonom zagonu
+67	4767	želva	želv želvah želvam želvami želve želvi želvo
+68	4768	zabosti	zabode zabodejo zabodel zabodete
+69	4769	preiskovati	preiskovali preiskujejo preiskujem
+70	4770	povoziti	povozi povozil povozili
+71	4771	razdelitev	razdelitve razdelitvi razdelitvijo
+72	4772	igralnica	igralnice igralnici
+73	4773	znesek	zneska zneske zneski zneskih zneskom zneskov znesku
+74	4774	parfum	parfuma parfume parfumi parfumih parfumom parfumov parfumu
+75	4775	visokošolski	visokošolska visokošolske visokošolskega visokošolskih visokošolsko
+76	4776	izvirati	izvirajo izviral izvirala izvirali izviralo
+77	4777	občutljivost	občutljivosti preobčutljivost
+78	4778	žlica	žlic žlicami žlice žlici žlico
+79	4779	podobnost	podobnosti
+80	4780	pretirano	
+81	4781	tipka	tipk tipkah tipkam tipkami tipke tipki tipko
+82	4782	izpad	izpada izpade izpadi izpadom izpadov izpadu
+83	4783	pomol	pomola pomoli pomolih pomolov pomolu
+84	4784	simboličen	simbolična simbolične simboličnega simbolični simbolično
+85	4785	sirota	sirot sirotam sirote siroto
+86	4786	beda	bede bedi bedo
+87	4787	zunanjost	zunanjosti zunanjostjo
+88	4788	tiskoven	tiskovna tiskovne tiskovni tiskovnih tiskovno
+89	4789	kabinet	kabineta kabinetu
+90	4790	nakupovalen	nakupovalne nakupovalnega nakupovalnem nakupovalni nakupovalnih nakupovalnim nakupovalno
+91	4791	azijski	azijske azijskega azijskih azijsko
+92	4792	boter	botra botre botri botro
+93	4793	ran	ranega ranih ranim
+94	4794	partizanski	partizanska partizanske partizanskega partizanskih partizansko
+95	4795	kožen	kožne kožnega kožni kožnih kožnim kožno
+96	4796	razkošen	razkošna razkošne razkošnega razkošni razkošnih razkošnim razkošno
+97	4797	strasten	strastna strastne strastnega strastnem strastni strastnih strastnim strastno
+98	4798	italijanščina	italijanščine italijanščini italijanščino
+99	4799	nabrati	nabere naberejo naberemo naberi nabral nabrala nabrale nabrali nabralo
+100	4800	kokoš	kokoši kokoših kokošim kokošjo kokošmi

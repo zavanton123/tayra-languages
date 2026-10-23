@@ -1,0 +1,100 @@
+1	9701	plošček	
+2	9702	zaceliti	zacelijo zacelila zacelile
+3	9703	neustrašen	neustrašnega neustrašni
+4	9704	leska	lesk
+5	9705	observatorij	observatorija observatoriju
+6	9706	bolgarski	bolgarska bolgarske bolgarskega bolgarskem
+7	9707	grapa	grapi grapo
+8	9708	vrel	vrele vreli vrelo
+9	9709	kesanje	kesanju
+10	9710	razpisan	razpisana razpisano
+11	9711	vatikanski	vatikanske vatikanskega vatikanskih
+12	9712	odpovedovati	odpoveduje
+13	9713	popravljanje	popravljanja popravljanjem
+14	9714	budalo	budal budali
+15	9715	najet	najete najetih najetimi najeto
+16	9716	prestopnik	prestopnike prestopniki
+17	9717	osvojen	osvojeni osvojeno
+18	9718	odštevati	odšteva odštevajo odštevamo
+19	9719	odrgnina	odrgnine
+20	9720	protinapad	protinapada protinapadu
+21	9721	podnaslov	podnaslovom
+22	9722	zakuhati	zakuhal zakuhala zakuhali
+23	9723	točkovanje	točkovanja
+24	9724	odkup	odkupa odkupom odkupu
+25	9725	regeneracija	regeneracije regeneracijo
+26	9726	neudoben	neudobnih neudobno
+27	9727	vizum	vizuma
+28	9728	pizdarija	pizdarije
+29	9729	zamolčati	zamolčal zamolčali zamolči zamolčijo
+30	9730	poželeti	poželi
+31	9731	mehkužec	mehkužca mehkužce mehkužcev mehkužci mehkužcih
+32	9732	korespondenca	korespondence korespondenco
+33	9733	zeliščen	zeliščna zeliščne zeliščnega zeliščni zeliščnih zeliščnim zeliščno
+34	9734	primernost	primernosti
+35	9735	smrkavec	smrkavci
+36	9736	prilagodljivost	prilagodljivosti
+37	9737	kiparski	kiparskih kiparsko
+38	9738	kulinarika	kulinarike kulinariki
+39	9739	erozija	erozijo
+40	9740	požirati	požira požirajo požiral
+41	9741	pizza	pizzo
+42	9742	ploščat	ploščata ploščate ploščati ploščato
+43	9743	kotnik	
+44	9744	zavezanost	zavezanosti
+45	9745	puščavnik	puščavnika
+46	9746	zloženka	zloženke
+47	9747	zožiti	zoži zožil
+48	9748	natrijev	natrijevega natrijevim
+49	9749	poganski	poganska poganske poganskih
+50	9750	verodostojen	verodostojna verodostojne verodostojnih verodostojno
+51	9751	slabokrvnost	slabokrvnosti
+52	9752	zrediti	zredi zredila
+53	9753	sobarica	sobarico
+54	9754	neenakomeren	neenakomerna neenakomerno
+55	9755	hipec	
+56	9756	ubijalski	ubijalska ubijalskega
+57	9757	žgati	žgala žgali žgalo žge žgejo žgeš žgi
+58	9758	mučenec	mučencev
+59	9759	svakinja	svakinje svakinji svakinjo
+60	9760	državnost	državnosti
+61	9761	konjenik	konjenika konjeniki
+62	9762	soočanje	soočanju
+63	9763	pomiti	pomij pomije pomil
+64	9764	zanos	zanosa zanosom zanosu
+65	9765	obrazložitev	obrazložitve obrazložitvijo
+66	9766	vpoklicati	vpoklicali
+67	9767	zbledeti	zbledi zbledijo
+68	9768	brglez	
+69	9769	prestolonaslednik	prestolonaslednika
+70	9770	usmiljen	usmiljena usmiljeni usmiljeno
+71	9771	enostavnost	enostavnosti
+72	9772	prejemnica	prejemnice
+73	9773	skandinavski	skandinavska skandinavskih
+74	9774	votel	votla votle votli votlo
+75	9775	opisovanje	opisovanja opisovanju
+76	9776	pristaviti	pristavi pristavil pristavila pristavili
+77	9777	zasidran	zasidrana zasidrane zasidrani
+78	9778	slepota	slepote slepoto
+79	9779	ozdravljen	ozdravljena
+80	9780	koralen	koralnega koralnem koralni koralnih
+81	9781	vabljen	vabljeni
+82	9782	nastavljati	nastavlja nastavljajo nastavljal nastavljamo
+83	9783	prečkanje	prečkanjem
+84	9784	sporazumen	sporazumni sporazumno
+85	9785	konjeniški	konjeniške konjeniškega konjeniško
+86	9786	higienski	higienska higienske higienskih higiensko
+87	9787	vtikati	vtikajo vtikaš
+88	9788	retoričen	retorično
+89	9789	prepustnost	prepustnosti
+90	9790	razpadati	razpadajo
+91	9791	nespodoben	nespodobni nespodobnih nespodobno
+92	9792	posavski	posavskega
+93	9793	dehidracija	dehidracije
+94	9794	keš	keša
+95	9795	redakcija	redakcije redakciji redakcijo
+96	9796	barok	baroka
+97	9797	sindikalen	sindikalna sindikalne sindikalnega sindikalni sindikalnih sindikalno
+98	9798	transfuzija	transfuzijo
+99	9799	porajati	poraja porajajo
+100	9800	pav	pava pavi pavov pavu

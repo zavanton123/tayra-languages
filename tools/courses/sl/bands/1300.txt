@@ -1,0 +1,100 @@
+1	1201	streljati	strelja streljajo streljajte streljal streljala streljali streljamo
+2	1202	prizadet	prizadane prizadel prizadela prizadele prizadeli prizadelo prizadene prizadenejo prizadenem prizadenete prizadeta prizadete prizadetega prizadetem prizadeti prizadetih prizadetim prizadetimi prizadeto
+3	1203	temen	najtemnejši teman temna temne temnega temnejša temnejše temnejši temnejših temnejšo temnem temnemu temni temnih temnimi temno
+4	1204	kraja	kraje krajo
+5	1205	nazadnje	
+6	1206	opis	opisa opise opisi opisih opisom opisov opisu
+7	1207	šolski	šolska šolske šolskega šolskem šolskih šolskim šolsko
+8	1208	varnosten	varnostna varnostne varnostnega varnostnemu varnostni varnostnih varnostnim varnostnimi varnostno
+9	1209	priljubljen	priljubljena priljubljene priljubljenega priljubljenem priljubljenemu priljubljeni priljubljenih priljubljenim priljubljenimi priljubljeno
+10	1210	kariera	karier kariere karieri kariero
+11	1211	seks	seksa seksom seksu
+12	1212	zdrav	zdrava zdrave zdravega zdravem zdravemu zdravi zdravih zdravim zdravima zdravimi
+13	1213	center	centra centri centrih centrom centrov centru
+14	1214	govor	govora govore govorih govorom govorov govoru
+15	1215	proizvodnja	proizvodnje proizvodnji proizvodnjo
+16	1216	promet	prometa prometom prometu
+17	1217	objaviti	objavi objavijo objavil objavila objavile objavili objavilo objavim objavimo objavit objavita objavite objaviva objaviš
+18	1218	marati	mara marajo maral marala marale marali maram marate
+19	1219	komisija	komisij komisije komisiji komisijo
+20	1220	vsekakor	
+21	1221	zvok	zvoka zvoke zvoki zvokih zvokom zvokov zvoku
+22	1222	podpisati	podpisal podpisala podpisale podpisali podpisalo podpiše podpišejo podpišeta podpišeš
+23	1223	menda	
+24	1224	svoboden	svobodna svobodne svobodnega svobodnejši svobodnem svobodnemu svobodni svobodnih svobodnim svobodnimi svobodno
+25	1225	gledališče	gledališč gledališča gledališčem gledališči gledališčih gledališču
+26	1226	prehod	prehoda prehode prehodi prehodih prehodom prehodov prehodu
+27	1227	priznanje	priznanj priznanja priznanjem priznanji priznanju
+28	1228	usta	ust usti ustih ustom
+29	1229	iskanje	iskanj iskanja iskanjem iskanju
+30	1230	pozitiven	pozitivna pozitivne pozitivnega pozitivnem pozitivni pozitivnih pozitivnim pozitivnimi pozitivno
+31	1231	finančen	finančna finančne finančnega finančnem finančnemu finančni finančnih finančnim finančnimi finančno
+32	1232	pozornost	pozornosti pozornostjo
+33	1233	prenesti	prenese prenesejo prenesel prenesemo prenesete prenesite prenesla prenesle prenesli preneslo
+34	1234	bomba	bombah bombam bombami bombe bombi bombo
+35	1235	teorija	teorij teorijah teorijam teorijami teorije teoriji teorijo
+36	1236	vzhoden	vzhodna vzhodne vzhodnega vzhodnem vzhodnemu vzhodni vzhodnih vzhodnim vzhodno
+37	1237	ponosen	ponosna ponosni ponosnih ponosnim
+38	1238	izkazati	izkazal izkazala izkazale izkazali izkazalo izkaže izkažejo
+39	1239	bližnji	bližnje bližnjega bližnjem bližnjih bližnjim bližnjo
+40	1240	sobota	sobot sobotah sobote soboti soboto
+41	1241	srečanje	srečanj srečanja srečanjem srečanji srečanjih srečanju
+42	1242	zgraditi	zgradi zgradijo zgradil zgradila zgradile zgradili zgradilo zgradimo zgradite
+43	1243	rak	raka raki rakom raku
+44	1244	letališče	letališč letališča letališčem letališči letališčih letališču
+45	1245	topel	najtoplejši topla tople toplega topleje toplejša toplejše toplejšega toplejšem toplejši toplejših toplem topli toplih toplim toplimi toplo
+46	1246	obvestiti	obvesti obvestijo obvestil obvestila obvestili obvestilo obvestilom obvestilu obvestim obvestimo
+47	1247	kartica	kartic karticah karticam karticami kartice kartici kartico
+48	1248	narejen	narejena narejene narejenega narejenem narejeni narejenih narejenimi narejeno
+49	1249	zmoči	zmogel zmogla zmogle zmogli zmore zmorejo zmoremo zmoreta zmorete zmoreš
+50	1250	roman	romana romane romani romanih romanom romanov romanu román
+51	1251	volitev	volitvah volitvam volitvami volitve
+52	1252	spremljati	spremlja spremljajo spremljal spremljala spremljale spremljali spremljalo spremljam spremljamo spremljata spremljate
+53	1253	veter	vetra vetrom vetrov vetrove vetrovi vetrovih vetru
+54	1254	izdelek	izdelka izdelke izdelki izdelkih izdelkom izdelkov izdelku
+55	1255	čustvo	čustev čustva čustvi čustvih čustvom
+56	1256	zgled	zgleda zglede zgledi zgledom zgledov zgledu
+57	1257	dvorana	dvoran dvoranah dvorane dvorani dvorano
+58	1258	sanje	
+59	1259	hladen	hladna hladne hladnega hladnejši hladnem hladnemu hladni hladnih hladnim hladnimi hladno najhladnejši
+60	1260	kuhinja	kuhinj kuhinjah kuhinje kuhinji kuhinjo
+61	1261	sto	stotih stotim
+62	1262	dostop	dostopa dostopom dostopu
+63	1263	omogočiti	omogoči omogočijo omogočil omogočila omogočile omogočili omogočilo omogočimo omogočite
+64	1264	obala	obal obalah obalam obale obali obalo
+65	1265	celota	celote celoti celoto
+66	1266	župan	zupan župana župani županom županov županova županove županovem županovi županu
+67	1267	plin	plina plini plinih plinom plinov plinu
+68	1268	navaden	navadna navadne navadnega navadnem navadnemu navadni navadnih navadnim navadnimi
+69	1269	junak	junaka junake junaki junakih junakom junakov junaku
+70	1270	telesen	telesna telesne telesnega telesnem telesnemu telesni telesnih telesnim telesnimi telesno
+71	1271	meso	mes mesa mesi mesom mesu
+72	1272	vlak	vlaka vlake vlaki vlakih vlakom vlakov vlaku
+73	1273	liga	lig ligah lige ligi ligo
+74	1274	okus	okusa okuse okusi okusom okusov okusu
+75	1275	organ	organa organe organi organih organom organov organu
+76	1276	devet	devetih devetim devetimi
+77	1277	pojesti	pojedel pojedla pojedle pojedli pojedo pojedu pojejte pojemo pojest pojeste
+78	1278	pristati	pristal pristala pristale pristali pristalo pristane pristanejo pristanem pristanemo pristaneta pristanete pristaneva pristaneš pristani pristanimo pristanite pristoji pristojijo
+79	1279	spadati	spada spadajo spadal spadala spadali spadalo spadam spadamo spadata
+80	1280	dokazati	dokazal dokazala dokazale dokazali dokaže dokažejo
+81	1281	zadet	zadanem zadel zadele zadeli zadelo zadene zadenejo zadenem zadete zadeti zadeto
+82	1282	princ	princa princem princev princi princih princu
+83	1283	izhajati	izhaja izhajajo izhajal izhajala izhajale izhajali izhajalo izhajamo
+84	1284	žalost	žalosti žalostjo
+85	1285	vesolje	vesolj vesolja vesoljem vesoljema vesolji vesoljih vesolju
+86	1286	potovati	potoval potovala potovale potovali potovalo potuje potujejo potujem potujemo potujete potujte
+87	1287	svež	sveža sveže svežega svežem sveži svežih svežim svežimi svežo
+88	1288	zapis	zapisa zapise zapisi zapisih zapisom zapisov zapisu
+89	1289	razlagati	razlag razlaga razlagajo razlagal razlagala razlagali razlagam razlagami razlagamo razlagate razlage razlagi razlago
+90	1290	usoda	usod usode usodi usodo
+91	1291	miniti	minejo mini minil minila minile minili minilo
+92	1292	zlo	zel zeli zeljo zla zle zlega zlem zlemu zli zlih zlim zlimi zlom zloma zlomom zlomov zlomu zlu
+93	1293	krogla	krogel kroglah kroglam kroglama kroglami krogle krogli kroglo
+94	1294	manjkati	manjka manjkajo manjkal manjkala manjkale manjkali manjkalo manjkam manjkata manjkaš
+95	1295	pas	pasom pasov pasove pasovi pasu
+96	1296	nenavaden	nenavadna nenavadne nenavadnega nenavadnem nenavadni nenavadnih nenavadnim nenavadnimi nenavadno
+97	1297	trener	trenerja trenerje trenerjem trenerjev trenerjeva trenerjevo trenerji trenerju
+98	1298	avtobus	avtobusa avtobuse avtobusi avtobusih avtobusom avtobusov avtobusu
+99	1299	gol	gola gole golega golem golema golemu goli golih golima golimi golo golom golov golu
+100	1300	policijski	policijska policijske policijskega policijskem policijskemu policijskih policijskim policijskimi policijsko

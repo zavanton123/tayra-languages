@@ -1,0 +1,100 @@
+1	7701	kroven	krovne krovni krovno
+2	7702	plenilec	plenilca plenilcem
+3	7703	turško	
+4	7704	lesti	leze lezite lezla
+5	7705	obolel	obolelega oboleli obolelih
+6	7706	antika	antike antiki
+7	7707	božanstvo	božanstev božanstva božanstvom božanstvu
+8	7708	otročiček	otročička otročičke
+9	7709	opustitev	opustitve opustitvi
+10	7710	okrasti	okrade okradejo okradel okradem okrademo okradeš okradla okradli
+11	7711	oskrbeti	oskrbel oskrbeli oskrbijo oskrbim
+12	7712	otežen	otežena oteženo
+13	7713	odličnost	odličnosti
+14	7714	soseščina	soseščine soseščini soseščino
+15	7715	mumija	mumijo
+16	7716	improvizirati	improvizira improviziraj improvizirajo improvizirajte improviziral improvizirala improvizirali improviziram improviziramo improviziran improvizirana improvizirane improvizirani improviziranih improvizirano improvizirava improviziraš
+17	7717	navduševati	navduševal navdušuje navdušujejo navdušujem
+18	7718	tožilka	tožilke tožilko
+19	7719	naknaden	naknadne naknadnih naknadno
+20	7720	loterija	loteriji
+21	7721	nujnost	nujnosti
+22	7722	križev	križeva križevega
+23	7723	luksuzen	luksuzne luksuznega luksuznem luksuzni luksuznih luksuznim
+24	7724	popuščati	popušča popuščajo popuščal popuščala popuščate
+25	7725	zasvojenost	zasvojenosti
+26	7726	preklopiti	preklopi preklopila preklopili preklopite
+27	7727	hram	hrama hramu
+28	7728	zložiti	zložijo zložil zložila zložili zložimo zložite
+29	7729	prehranjevati	prehranjeval prehranjuje prehranjujejo
+30	7730	planinec	planincev planinci
+31	7731	osramotiti	osramotila osramotili osramotite
+32	7732	terminal	terminala terminale terminali terminalom terminalov terminalu
+33	7733	igralski	igralskega igralskem
+34	7734	tempo	tempa tempom tempu
+35	7735	nestrpen	nestrpna nestrpne nestrpni
+36	7736	barvilo	barvila barvilom
+37	7737	neobičajen	neobičajnega neobičajni
+38	7738	nesposobnost	nesposobnosti
+39	7739	invalidski	invalidskega invalidskem invalidskih invalidsko
+40	7740	ozdraviti	ozdravila ozdravili
+41	7741	zapleniti	zapleni zaplenijo zaplenili zaplenimo zaplenite
+42	7742	naznanilo	naznanil naznanila naznanili
+43	7743	topiti	topi topijo topili topim topiš topljen topljenje
+44	7744	vretence	vretenc vretenca vretencem vretenci vretencih vretencu
+45	7745	ventilator	ventilatorjem ventilatorji
+46	7746	malina	malin malinami maline malini malino
+47	7747	odrski	odrska odrske odrsko
+48	7748	vžgati	vžgal vžgale vžgejo
+49	7749	kompakten	kompaktna kompaktni kompaktno
+50	7750	svečka	svečke svečko
+51	7751	solina	solin solinah soline
+52	7752	nemara	
+53	7753	zapletati	zapleta zapletaj zapletajo
+54	7754	izgon	izgona izgonu
+55	7755	pridevnik	pridevnika pridevnike pridevniki pridevnikov
+56	7756	žrelo	žrela
+57	7757	zavist	zavisti zavistjo
+58	7758	modernizacija	modernizacije modernizaciji modernizacijo
+59	7759	koncesija	koncesij koncesije koncesijo
+60	7760	teleskop	teleskopi teleskopom teleskopov
+61	7761	slepar	sleparja sleparje sleparjem sleparjev sleparji sleparju
+62	7762	masoven	masovne masovno
+63	7763	skeniranje	skeniranja
+64	7764	zgledovati	zgledoval zgledovala zgledovali zgleduje zgledujejo zgledujemo
+65	7765	trdota	trdote trdoto
+66	7766	plavajoč	plavajoča plavajoče plavajoči plavajočih plavajočo
+67	7767	drobec	drobci
+68	7768	nadaljevanka	nadaljevank nadaljevanke nadaljevanki nadaljevanko
+69	7769	zavarovalen	zavarovalna zavarovalne zavarovalnega zavarovalni zavarovalnih zavarovalno
+70	7770	viza	vizami vize vizi vizo
+71	7771	črkovati	črkovala črkovali črkovano črkuj črkuje črkujejo črkujem črkujemo črkujete črkuješ črkujte
+72	7772	piščal	piščali
+73	7773	fantastika	fantastike
+74	7774	budala	budale
+75	7775	ponižanje	ponižanja ponižanju
+76	7776	prevoziti	prevozil prevozili prevozim
+77	7777	potujoč	potujoča potujoče potujočega potujoči potujočih potujočo
+78	7778	zavezniški	zavezniška zavezniške zavezniškega zavezniških zavezniškim zavezniško
+79	7779	pozivati	pozivajo pozival pozivala pozivam pozivamo
+80	7780	astronomija	astronomije astronomiji astronomijo
+81	7781	brana	brane brani brano
+82	7782	lepotička	lepotički
+83	7783	ambiciozen	ambicioznih ambiciozno
+84	7784	sklopka	sklopke sklopko
+85	7785	dopolnitev	dopolnitvah dopolnitve
+86	7786	sleherni	sleherna sleherne slehernega slehernem slehernemu sleherno
+87	7787	soočenje	soočenja soočenjem soočenju
+88	7788	protestirati	protestira protestirajo protestiral protestirala protestirale protestirali protestiralo protestirat
+89	7789	izmuzniti	izmuznil
+90	7790	gnojilo	gnojil
+91	7791	kvartet	kvarteta kvartetu
+92	7792	vzpostavljanje	vzpostavljanja vzpostavljanjem vzpostavljanju
+93	7793	strokovnjakinja	strokovnjakinje
+94	7794	preglednica	preglednice preglednici
+95	7795	raztresen	raztresena raztreseni
+96	7796	kobilica	kobilic kobilicami kobilice kobilici kobilico
+97	7797	neugoden	neugodne neugodnega neugodnem neugodnih
+98	7798	priključek	priključke priključki priključkov
+99	7799	kupljen	kupljena kupljene kupljeni kupljeno
+100	7800	motorist	motorista motoristi motoristov

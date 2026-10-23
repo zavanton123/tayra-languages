@@ -1,0 +1,100 @@
+1	2101	glasen	glasna glasne glasnega glasneje glasnejši glasnem glasni glasnih glasnim glasnimi glasno najglasnejši preglasno
+2	2102	jedrski	jedrska jedrske jedrskega jedrskih jedrskim jedrskimi jedrsko
+3	2103	identiteta	identitet identitete identiteti identiteto
+4	2104	lik	lika liki likih likom likov liku
+5	2105	razbit	razbije razbijete razbil razbila razbili razbilo razbita razbite razbitega razbiti razbitih razbitim razbito
+6	2106	primerjati	primerja primerjaj primerjajo primerjal primerjala primerjali primerjam primerjamo primerjate primerjaš
+7	2107	vesoljski	vesoljska vesoljske vesoljskega vesoljskem vesoljskih vesoljsko
+8	2108	cvet	cveta cvete cveti cvetom cvetov cvetove cvetovi cvetovih cvetu
+9	2109	pozoren	pozornejši pozorni pozorno
+10	2110	udoben	udobna udobne udobnega udobnejše udobnem udobni udobnih udobno
+11	2111	vodnik	vodnika vodnike vodniki vodnikov vodniku
+12	2112	pospraviti	pospravi pospravijo pospravil pospravila pospravili pospravim pospravimo pospravite pospraviš
+13	2113	izročiti	izroči izročil izročila izročili izročilo izročilom izročilu izročim izročimo izročite
+14	2114	igrišče	igrišč igrišča igriščem igrišči igriščih igrišču
+15	2115	obsežen	najobsežnejši obsežna obsežne obsežnega obsežnejše obsežnejši obsežnem obsežni obsežnih obsežnim obsežno
+16	2116	madžarski	madžarske madžarskega madžarskem madžarskih madžarskim
+17	2117	čudež	čudeže čudežev čudeži čudežu
+18	2118	naleteti	naletel naletela naleteli naletelo naleti naletijo naletimo naletite
+19	2119	četudi	
+20	2120	umoriti	umori umorijo umoril umorila umorile umorili umorilo umorim umorimo umorit umorite umoriš
+21	2121	kopija	kopij kopijah kopije kopijo
+22	2122	dovoljen	dovoljena dovoljeni dovoljenih dovoljeno
+23	2123	arhitektura	arhitekture arhitekturi arhitekturo
+24	2124	skupščina	skupščin skupščine skupščini skupščino
+25	2125	položiti	položi položil položila položili položim položimo položite
+26	2126	verski	verska verske verskega verskem verskemu verskih verskim verskimi versko
+27	2127	greh	greha grehe grehi grehih grehom grehov grehu
+28	2128	igranje	igranja igranjem
+29	2129	skrivnosten	skrivnostna skrivnostne skrivnostnega skrivnostnem skrivnostnemu skrivnostni skrivnostnih skrivnostnim skrivnostnimi skrivnostno
+30	2130	slučajno	
+31	2131	prirediti	priredi priredijo priredil priredila priredili
+32	2132	produkt	produkta produkte produkti produktov
+33	2133	angleško	
+34	2134	ceniti	cenijo cenili cenim
+35	2135	temelj	temelja temelje temeljev temeljih temelju
+36	2136	označiti	označi označil označila označili označilo označim označimo označita označite
+37	2137	lani	
+38	2138	prasec	prasca
+39	2139	svetovalec	svetovalca svetovalce svetovalcem svetovalcev svetovalci svetovalcih svetovalcu
+40	2140	nebesa	nebes nebesi nebesih
+41	2141	živec	živca živce živcev živci živcih
+42	2142	podpis	podpisa podpise podpisi podpisom podpisov podpisu
+43	2143	znamenje	znamenj znamenja znamenjem znamenji znamenju
+44	2144	zajec	zajca zajce zajcem zajcev zajci zajcih zajcu zajček zajčka zajčki zajčkom zajčkov
+45	2145	tvegati	tvegajo tvegal tvegali tvegam tvegate
+46	2146	steklenica	steklenic steklenicah steklenicami steklenice steklenici steklenico
+47	2147	plačilo	plačil plačila plačili plačilih plačilom plačilu
+48	2148	kurba	kurb kurbah kurbam kurbami kurbe kurbi kurbo kurva
+49	2149	likoven	likovna likovne likovnega likovnem likovni likovnih likovno
+50	2150	koča	koč kočah koče koči kočo
+51	2151	zaključen	zaključena zaključene zaključeni zaključeno zaključna zaključne zaključnega zaključnem zaključni zaključnim zaključnimi zaključno
+52	2152	vrteti	vrtel vrtela vrtele vrteli vrtelo vrti vrtijo vrtim vrtimo vrtita
+53	2153	merilo	meril merila merili merilih merilom merilu
+54	2154	helikopter	helikopterja helikopterjem helikopterji helikopterju
+55	2155	podpreti	podpre podprejo podpremo podprete podprite podprl podprla podprle podprli podprlo
+56	2156	letnik	letnika letniki letnikih letnikov letniku
+57	2157	katerikoli	katerakoli kateregakoli katerekoli kateremkoli katerokoli
+58	2158	ubit	ubita ubite ubitega ubitih
+59	2159	iskriti	iskren iskrena iskrene iskreni iskrijo iskrilo iskriva
+60	2160	zavit	zavij zavije zavijemo zaviješ zavijte zavil zavila zavili zavita zavite zaviti zavitih zavitim
+61	2161	punčka	punčke punčki punčko
+62	2162	smeh	smeha smehom smehu
+63	2163	bojen	bojna bojne bojnega bojni bojnih bojno
+64	2164	radijski	radijska radijske radijskega radijskih radijsko
+65	2165	vzpostaviti	vzpostavi vzpostavijo vzpostavil vzpostavila vzpostavile vzpostavili vzpostavimo vzpostavite
+66	2166	predstavitev	predstavitvah predstavitve predstavitvi predstavitvijo
+67	2167	sijajen	sijajna sijajne sijajnega sijajnem sijajnemu sijajni sijajnih sijajnim sijajnimi sijajno
+68	2168	razumevanje	razumevanja razumevanjem razumevanju
+69	2169	šerif	šerifa
+70	2170	zajet	zajame zajamemo zajamete zajel zajela zajele zajeli zajelo zajeta zajete zajetega zajeti zajetih zajeto
+71	2171	ugrabiti	ugrabijo ugrabil ugrabila ugrabili
+72	2172	pogum	poguma pogumom pogumu
+73	2173	terapija	terapijah terapije terapiji terapijo
+74	2174	vpleten	vpletena vpletene vpleteni vpletenih vpletenimi
+75	2175	majica	majic majicah majice majici majico
+76	2176	stotnik	stotnika stotnikom stotniku
+77	2177	ogledati	ogledajo ogledam ogledamo ogledat ogledate ogledava oglej oglejmo oglejta oglejte
+78	2178	leden	ledena ledene ledenega ledenem ledeni ledenih ledenim ledeno
+79	2179	znašati	znaša znašajo znašal znašala znašali znašalo
+80	2180	pravilen	pravilna pravilne pravilnega pravilnem pravilni pravilnih pravilnim pravilnimi
+81	2181	zmanjkati	zmanjka zmanjkalo
+82	2182	dno	dnom dnu
+83	2183	sklep	sklepa sklepe sklepi sklepih sklepom sklepov sklepu
+84	2184	veja	vej vejah vejami veje veji vejo
+85	2185	izogibati	izogiba izogibaj izogibajmo izogibajo izogibajte izogibal izogibala izogibale izogibali izogibam izogibamo izogibate
+86	2186	romantičen	romantična romantične romantičnega romantični romantičnih romantično
+87	2187	napisan	napisana napisane napisanega napisanem napisani napisanih napisanim napisano
+88	2188	iskreno	
+89	2189	vtis	vtisa vtise vtisi vtisih vtisom vtisov vtisu
+90	2190	poznan	poznana poznane poznanih poznanim poznano
+91	2191	raziskovati	raziskoval raziskovala raziskovali raziskovat raziskuje raziskujejo raziskujemo
+92	2192	finale	finala finalom finalu
+93	2193	sprejemati	sprejemajo sprejemajte sprejemal sprejemala sprejemale sprejemali sprejemam sprejemamo sprejemate
+94	2194	napetost	napetosti napetostjo
+95	2195	opravek	opravka opravke opravki opravkih opravkov
+96	2196	zbran	zbrana zbrane zbranega zbrani zbranih zbranim zbranimi zbrano
+97	2197	krščanski	krščanska krščanske krščanskega krščanskem krščanskemu krščanskih krščanskim krščanskimi krščansko
+98	2198	stališče	stališč stališča stališčem stališči stališčih stališču
+99	2199	intervju	intervjuja intervjuje intervjujev intervjuji intervjuju
+100	2200	heroj	heroja heroje herojem herojev heroji herojih heroju

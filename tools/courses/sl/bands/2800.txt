@@ -1,0 +1,100 @@
+1	2701	odpadek	odpadke odpadki odpadkih odpadkov
+2	2702	past	pasteh pastem pastjo pastmi
+3	2703	delitev	delitve delitvi delitvijo
+4	2704	tretjina	tretjine tretjini tretjino
+5	2705	priskrbeti	priskrbel priskrbela priskrbeli priskrbelo priskrbijo priskrbim priskrbite
+6	2706	rokavica	rokavic rokavicah rokavicami rokavice rokavici rokavico
+7	2707	zboleti	zbolel zbolela zbolele zboleli zbolelo zboli zbolijo zbolite
+8	2708	odmor	odmora odmori odmorom odmoru
+9	2709	talec	talca talce talcem talcev talci
+10	2710	potrjen	potrjena potrjene potrjeni potrjenih potrjeno
+11	2711	demokracija	demokracije demokraciji demokracijo
+12	2712	gotovina	gotovine gotovini gotovino
+13	2713	kovček	kovčka kovčke kovčki kovčkom kovčku
+14	2714	značaj	značaja značajem značajev značaju
+15	2715	kitara	kitar kitarami kitare kitari kitaro
+16	2716	petje	petja petjem petju
+17	2717	nadomestilo	nadomestil nadomestila
+18	2718	krona	kron kronam kronami krone kroni krono
+19	2719	veščina	veščin veščinah veščine
+20	2720	satelit	satelita satelite sateliti satelitih satelitom satelitov satelitu
+21	2721	ugled	ugleda ugledom ugledu
+22	2722	frekvenca	frekvenc frekvencah frekvencami frekvence frekvenci frekvenco
+23	2723	predati	preda predalo predam predava
+24	2724	gej	geja geje gejem gejev geji gejih geju
+25	2725	cona	conah cone coni cono zona zoni zono
+26	2726	okusen	najokusnejša najokusnejši okusna okusne okusnega okusnejši okusnem okusni okusnih okusnim okusnimi okusno
+27	2727	odzvati	odzove odzovejo odzovem odzval odzvala odzvale odzvali odzvalo
+28	2728	pravičen	pravična pravične pravičnega pravičnejši pravičnem pravični pravičnih pravičnim pravično
+29	2729	učen	učene učenega učna učne učnega učnem učni učnih učnim učnimi učno
+30	2730	konkurenca	konkurence konkurenci konkurenco
+31	2731	smrdeti	smrdel smrdele smrdeli smrdelo smrdi smrdijo
+32	2732	pljuča	pljuč pljučem pljuči pljučih
+33	2733	mešan	mešana mešane mešanega mešanem mešani mešanih mešanimi mešano
+34	2734	urban	urbana urbane urbanega urbanem urbani urbanih urbano
+35	2735	izključno	
+36	2736	sektor	sektorja sektorje sektorjem sektorjev sektorji sektorjih sektorju
+37	2737	izmisliti	izmisli izmislijo izmislil izmislila izmislili izmislimo izmislite
+38	2738	disk	diska diske diski diskih diskom diskov disku
+39	2739	soočiti	soočijo soočil soočila soočile soočili soočiš
+40	2740	demon	demone demoni demonov demonova demonove demonovo
+41	2741	opisan	opisana opisane opisani opisanih opisano
+42	2742	odstopiti	odstopi odstopijo odstopil odstopila odstopili odstopilo
+43	2743	stabilen	stabilna stabilne stabilnega stabilnem stabilni stabilnih stabilno
+44	2744	zapeljati	zapeljal zapeljala zapeljali zapeljalo zapelje zapeljemo zapeljete zapeljite
+45	2745	oceniti	ocenijo ocenil ocenila ocenili ocenimo ocenita ocenite
+46	2746	zaželeti	zaželel zaželela zaželeli zaželi zaželim zaželite
+47	2747	zavarovan	zavarovana zavarovane zavarovanih zavarovano
+48	2748	zakonski	zakonska zakonske zakonskega zakonskem zakonskih zakonskim zakonskimi zakonsko
+49	2749	hišen	hišna hišne hišnega hišnem hišnemu hišni hišnih hišnim hišnimi hišno
+50	2750	prednik	prednika prednike predniki prednikih prednikom prednikov predniku
+51	2751	konflikt	konflikta konflikte konflikti konfliktih konfliktov konfliktu
+52	2752	pokopati	pokopal pokopala pokopali pokoplje pokopljejo
+53	2753	primaren	primarna primarne primarnega primarnem primarni primarnih primarno
+54	2754	maslo	masla maslom maslu
+55	2755	orkester	orkestra orkestri orkestrom orkestrov
+56	2756	pripadnik	pripadnika pripadnike pripadniki pripadnikom pripadnikov
+57	2757	intenziven	intenzivna intenzivne intenzivnega intenzivnejše intenzivni intenzivnih intenzivno
+58	2758	zaseden	zasedena zasedene zasedeni zasedenih zasedeno
+59	2759	trud	truda trudu
+60	2760	pravočasno	
+61	2761	odrezati	odrezal odrezala odrezali odreže odrežemo odrežite
+62	2762	zmeden	zmedena zmedene zmedeni zmedeno
+63	2763	varovanje	varovanja varovanjem varovanju
+64	2764	kmečki	kmečka kmečke kmečkega kmečkem kmečkih kmečkim kmečkimi kmečko
+65	2765	inšpektor	inšpektorja inšpektorjem inšpektorjev inšpektorji
+66	2766	kocka	kock kockah kockam kockama kockami kocke kocki kocko
+67	2767	veličasten	veličastna veličastne veličastnega veličastnem veličastni veličastnih veličastno
+68	2768	mobilen	mobilna mobilne mobilnega mobilnem mobilnemu mobilni mobilnih mobilnim mobilnimi mobilno
+69	2769	f	
+70	2770	proizvajati	proizvaja proizvajajo proizvajali
+71	2771	skromen	skromna skromne skromnega skromnejše skromnejši skromnem skromnemu skromni skromnih skromnim skromnimi skromno
+72	2772	viseti	visel visela visele viseli viselo visi visijo
+73	2773	opravičiti	opravičil opravičim
+74	2774	resničnost	resničnosti resničnostjo
+75	2775	tablica	tablic tablicah tablicami tablice tablici tablico
+76	2776	dogovorjen	dogovorjena dogovorjenem dogovorjeno
+77	2777	katalog	kataloga kataloge katalogi katalogov katalogu
+78	2778	užitek	užitka užitki užitkom užitkov užitku
+79	2779	pica	pic picah picami pice pici pico
+80	2780	itak	
+81	2781	mladost	mladosti mladostjo
+82	2782	bakterija	bakterij bakterije
+83	2783	zaskrbljen	zaskrbljena zaskrbljeni zaskrbljenih
+84	2784	tiger	tigra tigre tigri tigrica tigrih tigrom tigrov tigru
+85	2785	srajca	srajc srajcah srajcami srajce srajci srajco
+86	2786	želodec	želodca želodce želodcih želodcu
+87	2787	sprednji	sprednja sprednje sprednjega sprednjem sprednjemu sprednjih
+88	2788	sestaven	sestavne sestavni sestavnih
+89	2789	prepoved	prepovedi prepovedjo
+90	2790	funt	funta funte funti funtih funtom funtov
+91	2791	načrtovan	načrtovana načrtovane načrtovanega načrtovanem načrtovani načrtovanih načrtovanim načrtovano
+92	2792	voziček	vozička vozičke vozički vozičkih vozičkom vozičku
+93	2793	vladati	vladaj vladajo vladajte vladal vladala vladale vladali vladalo vladamo vladat vladata vladate vladava vladaš
+94	2794	zver	zvereh zverem zveri zverjo zvermi
+95	2795	agentka	agentk agentke agentki agentko
+96	2796	sladoled	sladoleda sladolede sladoledi sladoledom sladoledov sladoledu
+97	2797	stan	stanov stanovi stanu
+98	2798	plod	ploda plodov plodove plodovi plodovih plodu
+99	2799	ponos	ponosa ponosom ponosu
+100	2800	daven	davna davne davnega davni davnih davnim davnimi davno

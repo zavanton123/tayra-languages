@@ -1,0 +1,100 @@
+1	8701	jasnost	jasnosti jasnostjo
+2	8702	mehaničen	mehanična mehanične mehaničnega mehanični mehaničnih mehanično
+3	8703	pega	pegami pege pegi
+4	8704	sončenje	sončenja sončenju
+5	8705	nasprotujoč	nasprotujoča nasprotujoči nasprotujočih
+6	8706	impresiven	impresivna impresivni
+7	8707	zametek	zametke zametki
+8	8708	veranda	verandi
+9	8709	dokazen	dokaznega dokazni dokazno
+10	8710	shranjevati	shranjuje shranjujejo shranjujemo
+11	8711	pripovedovalec	pripovedovalci
+12	8712	puberteta	pubertete puberteti puberteto
+13	8713	portugalsko	
+14	8714	pljuniti	pljune pljuni pljunil pljunili
+15	8715	silak	silaki silakov silaku
+16	8716	zverina	zverin zverinam zverine zverini zverino
+17	8717	obroba	obrobe obrobo
+18	8718	trileten	triletnega triletni triletno
+19	8719	zaupnik	zaupnika zaupniki zaupnikov
+20	8720	stvarca	stvarce
+21	8721	uporabljan	uporabljane uporabljani uporabljanih
+22	8722	tulec	tulce tulci tulcih
+23	8723	prilagodljiv	prilagodljiva prilagodljivi prilagodljivo
+24	8724	preprodaja	preprodaje preprodajo
+25	8725	natisniti	natisne natisnemo natisnili
+26	8726	stabilizacija	stabilizacije stabilizacijo
+27	8727	virusen	virusna virusne virusnih
+28	8728	šifriranje	šifriranja šifriranjem
+29	8729	toplica	toplicah
+30	8730	blesteti	blestel blestela blestijo blestim blestiš
+31	8731	rakec	rakca rakcem rakcev rakci
+32	8732	hidroelektrarna	hidroelektrarn hidroelektrarne
+33	8733	redoven	redovne redovni redovnih redovno
+34	8734	odlagati	odlaga odlagajo odlagali odlagamo
+35	8735	vulkanski	vulkanska vulkanskega
+36	8736	hrastov	hrastova hrastove hrastovega hrastovem hrastovi hrastovih hrastovim hrastovo
+37	8737	kurji	kurja kurjih kurjo
+38	8738	porotnik	porotnike porotniki
+39	8739	ponižnost	ponižnosti
+40	8740	samotar	samotarji
+41	8741	plima	
+42	8742	konservatorij	konservatoriju
+43	8743	podrediti	podredi podredil podredila podredim
+44	8744	papiga	papig papige papigi papigo
+45	8745	odpravljanje	odpravljanja odpravljanju
+46	8746	odrešiti	odreši odrešil odrešila
+47	8747	polnoleten	polnoletna
+48	8748	zaokrožen	zaokrožena zaokroženo
+49	8749	šolar	šolarje šolarjem šolarjev šolarji
+50	8750	šoba	šob šobe šobo
+51	8751	brivec	brivca brivcem brivci brivcu
+52	8752	krsten	krstna krstne krstni
+53	8753	optimizem	optimizma optimizmom optimizmu
+54	8754	kalorija	kalorij kalorijah
+55	8755	plezalec	plezalcev
+56	8756	računanje	računanja
+57	8757	prodor	prodora prodorom prodoru
+58	8758	zebra	zeber zebre zebri zebro
+59	8759	zanetiti	zanetil zanetila
+60	8760	vrba	vrbe vrbi vrbo
+61	8761	anatomija	anatomije anatomiji anatomijo
+62	8762	oljen	oljna oljne
+63	8763	renesansa	renesanse renesansi renesanso
+64	8764	kvas	kvasa kvasi
+65	8765	izbranec	izbrance izbrancem izbranci
+66	8766	medenica	medenice medenici medenico
+67	8767	zaslonka	zaslonke zaslonko
+68	8768	obnovljiv	obnovljive obnovljivih
+69	8769	klin	klinom klinov klinu
+70	8770	biotski	biotske
+71	8771	srečka	srečk
+72	8772	strelišče	strelišča strelišču
+73	8773	žarišče	žarišč žarišča
+74	8774	agresivnost	agresivnosti
+75	8775	veslanje	veslanja veslanju
+76	8776	nalaganje	nalaganja
+77	8777	rudarstvo	rudarstva rudarstvu
+78	8778	prelahek	prelahko
+79	8779	polomija	polomijo
+80	8780	izmazati	izmazal izmaže
+81	8781	zmrzniti	zmrznil zmrznili
+82	8782	nezaveden	nezavednega nezavedni nezavedno
+83	8783	magisterij	magisterija
+84	8784	ideal	ideali idealih idealov
+85	8785	prekinjati	prekinja prekinjajo prekinjali prekinjate
+86	8786	reportaža	reportaže reportažo
+87	8787	galeb	galeba galebe galebi galebov
+88	8788	klofuta	klofut klofute klofuti klofuto
+89	8789	frakcija	frakcije
+90	8790	pestrost	pestrosti
+91	8791	starešina	starešin starešinami
+92	8792	ministrski	ministrskega ministrskih
+93	8793	sotočje	sotočja sotočju
+94	8794	koncil	koncila
+95	8795	vokal	vokali
+96	8796	posteljnina	posteljnine posteljnini posteljnino
+97	8797	vranica	vranice vranici vranico
+98	8798	manipulirati	manipulirajo manipuliral
+99	8799	skalen	skalna skalnega skalnem skalni skalnih skalnim skalno
+100	8800	beljak	beljaka beljake beljaki beljakov beljaku

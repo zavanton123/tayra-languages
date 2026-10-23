@@ -1,0 +1,100 @@
+1	6601	programiranje	programiranja programiranjem programiranju
+2	6602	smatrati	smatrajo smatral smatrali smatrate
+3	6603	temnopolt	temnopolta temnopolte temnopoltega temnopolti temnopoltih
+4	6604	strelski	strelska strelskega strelskem strelskih
+5	6605	vprašalnik	vprašalnika vprašalnike vprašalnikov
+6	6606	slatina	
+7	6607	dolgoročno	
+8	6608	odrešitev	odrešitve
+9	6609	mentorstvo	mentorstvom
+10	6610	tetovaža	tetovaže
+11	6611	slovnica	slovnice slovnici slovnico
+12	6612	zavesten	zavestna zavestni zavestno
+13	6613	opcija	opcij opcijah opcijami opcije opcijo
+14	6614	ulov	ulova
+15	6615	provizija	provizij provizije provizijo
+16	6616	pretežek	pretežke pretežki pretežko
+17	6617	lina	lino
+18	6618	trend	trende trendi trendom trendov trendu
+19	6619	okusiti	okusil okusili
+20	6620	marsikdo	marsikoga marsikomu
+21	6621	izdajanje	izdajanja izdajanjem izdajanju
+22	6622	ležišče	ležišč ležišča ležišči ležišču
+23	6623	onesnaženje	onesnaženja onesnaženjem
+24	6624	embalaža	embalaže embalaži embalažo
+25	6625	primorje	primorja
+26	6626	kratkotrajen	kratkotrajna kratkotrajne kratkotrajnega kratkotrajni kratkotrajno
+27	6627	obširen	obširne obširnih obširno
+28	6628	rubrika	rubrike rubriki rubriko
+29	6629	hladilen	hladilna hladilne hladilnega hladilni
+30	6630	losos	lososa losose lososi lososom lososov lososu
+31	6631	vrtnar	vrtnarja vrtnarjev vrtnarji
+32	6632	zgoden	najzgodnejši najzgodnejših zgodnejše zgodnejših
+33	6633	skrajšan	skrajšana skrajšane skrajšani skrajšano
+34	6634	podvoden	podvodna podvodne podvodnega podvodnem podvodni podvodnih
+35	6635	efekt	efektov
+36	6636	upadati	upada upadajo upadala
+37	6637	godlja	godlje godlji godljo
+38	6638	nadnaraven	nadnaravnega nadnaravnem nadnaravnim nadnaravno
+39	6639	kaplan	kaplana
+40	6640	prevarant	prevarante prevarantov
+41	6641	montaža	montaže montaži montažo
+42	6642	kljuka	kljuk kljuke
+43	6643	spočiti	spočije spočijete spočila
+44	6644	junaški	junaška junaškega junaško
+45	6645	nezadovoljen	nezadovoljna nezadovoljni nezadovoljnih
+46	6646	počitniški	počitniška počitniške počitniškega počitniških počitniško
+47	6647	kolač	kolača kolačev kolači kolaču
+48	6648	debata	debat debato
+49	6649	ambicija	ambicije
+50	6650	stvarnik	stvarnika
+51	6651	simbolen	simbolna simbolne simbolni simbolno
+52	6652	rektor	rektorja rektorjem
+53	6653	poto	pota
+54	6654	bombnik	bombnika bombnike bombniki bombnikom bombnikov bombniku
+55	6655	mističen	mistične mističnega mistični mističnih mističnimi mistično
+56	6656	prikupen	prikupna prikupnih
+57	6657	vzet	vzeta vzeto
+58	6658	zmagovati	zmagoval zmagovala zmagovali zmaguj zmaguje
+59	6659	vračanje	vračanja vračanjem vračanju
+60	6660	trakt	trakta traktu
+61	6661	uspevati	uspevajo uspevale uspevalo
+62	6662	milimeter	milimetra milimetre milimetrov
+63	6663	klešče	klešč kleščah kleščami
+64	6664	direkten	direktni
+65	6665	pospešen	pospešeni pospešeno
+66	6666	grom	groma gromom gromov gromu
+67	6667	ranjenec	ranjenca ranjence ranjencem ranjencev
+68	6668	čudo	čuda
+69	6669	pozanimati	pozanima pozanimajte pozanimal pozanimala pozanimali pozanimate pozanimaš
+70	6670	prisrčen	prisrčna prisrčnega
+71	6671	navzočnost	navzočnosti navzočnostjo
+72	6672	gos	gosi gosjo gosmi
+73	6673	niša	niš niše niši nišo
+74	6674	zahajati	zahaja zahajajo zahajal zahajala zahajali zahajalo
+75	6675	rešilen	rešilna rešilne rešilnega rešilnem rešilni rešilnih rešilnim rešilno
+76	6676	ponavljanje	ponavljanja ponavljanjem ponavljanju
+77	6677	izurjen	izurjene izurjenega izurjeni izurjeno
+78	6678	primitiven	primitivna primitivnem primitivni primitivnih primitivnim primitivnimi primitivno
+79	6679	preža	preži prežo
+80	6680	škodljivec	škodljivca škodljivce škodljivcev škodljivci
+81	6681	privezati	privezal privezali privežejo privežemo privežete privežite
+82	6682	obdukcija	obdukcij obdukcijo
+83	6683	ponazarjati	ponazarja ponazarjajo
+84	6684	upodobitev	upodobitve
+85	6685	vsiljivec	vsiljivca vsiljivcev vsiljivci
+86	6686	zaskrbljenost	zaskrbljenosti
+87	6687	splezati	splezal splezala splezamo
+88	6688	plav	plava plave plavem plavi plavih plavim plavo
+89	6689	sestavljanje	sestavljanja sestavljanju
+90	6690	valovanje	valovanj valovanja
+91	6691	obilen	obilne obilnega obilnem obilni obilnih obilno
+92	6692	nastopajoč	nastopajoče nastopajoči nastopajočih
+93	6693	soški	soška soške
+94	6694	krepek	krepak krepka krepke krepkega krepki krepko
+95	6695	repertoar	repertoarja repertoarju
+96	6696	odtrgati	odtrgajo odtrgal odtrgala odtrgalo
+97	6697	pravokoten	pravokotna pravokotne pravokotni pravokotno
+98	6698	zvišati	zviša zvišajo zvišal zvišala zvišali
+99	6699	poljana	poljan poljane
+100	6700	terapevtski	terapevtska terapevtske terapevtskega terapevtskih

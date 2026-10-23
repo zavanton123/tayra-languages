@@ -1,0 +1,100 @@
+1	6201	karati	karate karatejem karateju
+2	6202	kipar	kiparja kiparjev kiparji
+3	6203	sezonski	sezonske sezonskih sezonsko
+4	6204	upokojenec	upokojenca upokojence upokojencev upokojenci
+5	6205	pretvoriti	pretvori pretvorijo pretvorila pretvorimo pretvorite
+6	6206	citirati	citira citiral citiram
+7	6207	navijati	navija navijajo navijajte navijal navijala navijali navijam navijat
+8	6208	plezati	pleza plezal plezat
+9	6209	akcijski	akcijska akcijskih
+10	6210	imenik	imenika imenike imeniku
+11	6211	sunek	sunka sunke sunki sunkom sunkov
+12	6212	poskrbljen	poskrbljeno
+13	6213	nalezljiv	nalezljiva nalezljive nalezljivih
+14	6214	izkusiti	izkusijo izkusil izkusile izkusili izkusim izkusimo
+15	6215	pšenica	pšenice pšenici pšenico
+16	6216	jašek	jaška jaške jaškov
+17	6217	skrivanje	skrivanja skrivanju
+18	6218	izpust	izpustu
+19	6219	nastavitev	nastavitvah nastavitvami nastavitve nastavitvi nastavitvijo
+20	6220	prikazovanje	prikazovanja prikazovanju
+21	6221	opomniti	opomni opomnil opomnila opomnilo
+22	6222	presaditev	presaditvah presaditve
+23	6223	tekstilen	tekstilna tekstilne tekstilni tekstilnih tekstilno
+24	6224	partnerka	partnerke partnerko
+25	6225	kandidatura	kandidature kandidaturi kandidaturo
+26	6226	kaša	kaše kašo
+27	6227	peščica	peščice peščici peščico
+28	6228	konzola	konzol konzole konzoli
+29	6229	vaza	vaze vazi vazo
+30	6230	vaščan	vaščani vaščanom
+31	6231	demonstracija	demonstracij demonstracijah demonstracijami demonstracije
+32	6232	mehanika	mehanike mehaniko
+33	6233	obtoženec	obtoženca obtožence obtožencev
+34	6234	obratovanje	obratovanja obratovanjem
+35	6235	kamela	kamel kamelah kamelam kamelami kamele kameli kamelo
+36	6236	vstajenje	vstajenja vstajenjem vstajenju
+37	6237	veličina	veličine veličini veličino
+38	6238	prepovedovati	prepovedoval prepoveduje prepovedujejo
+39	6239	vipavski	vipavska vipavske vipavsko
+40	6240	napota	napoto
+41	6241	nezgoda	nezgod nezgodah nezgode nezgodo
+42	6242	senator	senatorja senatorjem
+43	6243	postojanka	postojank postojanke postojanko
+44	6244	astma	astme astmo
+45	6245	ironija	ironij ironije ironiji ironijo
+46	6246	mikroorganizem	mikroorganizme mikroorganizmi mikroorganizmov
+47	6247	požirek	požirkom
+48	6248	certifikat	certifikata certifikate certifikati certifikatov
+49	6249	prenašanje	prenašanja prenašanju
+50	6250	stvarnost	stvarnosti stvarnostjo
+51	6251	lestev	lestvi
+52	6252	dobavitelj	dobavitelja dobaviteljev dobavitelji dobaviteljih
+53	6253	končevati	končevala končuje končujejo
+54	6254	jajčece	jajčec jajčeca
+55	6255	pripovedovanje	pripovedovanja pripovedovanjem pripovedovanju
+56	6256	kuhan	kuhana kuhane kuhanega kuhani kuhanih kuhano
+57	6257	uveden	uvedena uvedene uvedeno
+58	6258	plačanec	plačance plačancev plačanci
+59	6259	višinski	višinska višinske višinskih višinsko
+60	6260	bližnjica	bližnjic bližnjicah bližnjice bližnjici bližnjico
+61	6261	nastopanje	nastopanja nastopanjem nastopanju
+62	6262	steblo	stebel stebla steblih steblu
+63	6263	pokrovitelj	pokrovitelja pokrovitelje pokroviteljem pokroviteljev pokrovitelji
+64	6264	nagel	nagla nagle naglega naglem nagli naglih naglo
+65	6265	paznik	pazniki paznikov
+66	6266	obveščati	obvešča obveščajo obveščala obveščali obveščamo
+67	6267	grško	
+68	6268	atletski	atletske atletskem atletsko
+69	6269	znižanje	znižanja znižanjem znižanju
+70	6270	sklenitev	sklenitve sklenitvi
+71	6271	konfiguracija	konfiguracije konfiguraciji konfiguracijo
+72	6272	svoboščina	svoboščin svoboščine
+73	6273	lulati	lulat
+74	6274	komplet	kompleta kompleti kompletu
+75	6275	plazma	plazme plazmo
+76	6276	veljavnost	veljavnosti
+77	6277	etničen	etnična etnične etničnega etnično
+78	6278	pritrjen	pritrjena pritrjeno
+79	6279	alkoholik	alkoholika alkoholike alkoholiki alkoholikih alkoholikom alkoholikov alkoholiku
+80	6280	gnil	gnila gnile gnilega gnilem gnili gnilih gnilim gnilimi gnilo
+81	6281	fitnes	fitnesu
+82	6282	odsev	odsevi odsevov
+83	6283	golf	golfa golfom golfu
+84	6284	stranica	stranic stranice stranici stranico
+85	6285	žreti	žre žrejo žrem žremo žreš žri žrite žrl žrla žrle žrli žrlo žrtje
+86	6286	prehranjevanje	prehranjevanja prehranjevanju
+87	6287	vznemiriti	vznemiri vznemirijo vznemiril vznemirila vznemirili vznemirilo
+88	6288	terenski	terenske terenskega terenskih terenskim terensko
+89	6289	razburiti	razburi razburijo razburil razburila razburile razburili razburilo razburite
+90	6290	tednik	tednika tedniku
+91	6291	ordinacija	ordinacijah ordinacije ordinaciji ordinacijo
+92	6292	predvajanje	predvajanja predvajanju
+93	6293	polnjenje	polnjenja polnjenjem
+94	6294	zainteresiran	zainteresirane zainteresirani zainteresiranih zainteresirano
+95	6295	sebičen	sebični
+96	6296	razvrščanje	razvrščanja razvrščanju
+97	6297	zmešnjava	zmešnjave zmešnjavi
+98	6298	hranjenje	hranjenjem hranjenju
+99	6299	razprodaja	razprodajah razprodaje razprodaji razprodajo
+100	6300	stresti	strese stresel stresemo stresla stresli streslo

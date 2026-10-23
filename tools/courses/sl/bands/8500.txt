@@ -1,0 +1,100 @@
+1	8401	govorilnica	govorilnice govorilnico
+2	8402	smreka	smrek smreke smreko
+3	8403	nasmejan	nasmejana nasmejanega nasmejani
+4	8404	izdajstvo	izdajstva izdajstvom izdajstvu
+5	8405	kopirati	kopiraj kopiral
+6	8406	severozahoden	severozahodna severozahodnem severozahodni
+7	8407	koka	koko
+8	8408	stisk	stiskom
+9	8409	kartel	kartele kartelom
+10	8410	oljka	oljk oljke
+11	8411	kapica	kapico
+12	8412	funkcionalnost	funkcionalnosti
+13	8413	govoren	govorne govorni govornih
+14	8414	usmrčen	usmrčene
+15	8415	krajan	krajane krajani krajanov
+16	8416	nožnica	nožnice nožnici nožnico
+17	8417	lisjak	lisjaki
+18	8418	testosteron	testosterona testosteronom
+19	8419	dominanten	dominantna dominantne dominantnega dominantni dominantno
+20	8420	bujen	bujna bujne bujni bujnih bujno
+21	8421	domovanje	domovanja domovanju
+22	8422	stegna	
+23	8423	pravopis	pravopisa pravopisu
+24	8424	zoren	zornega zornih
+25	8425	vzrejati	vzreja vzreje vzrejo
+26	8426	izklop	izklopom
+27	8427	realizacija	realizacije realizacijo
+28	8428	bobnar	bobnarju
+29	8429	matrica	matrice matrici matrico
+30	8430	čarovniški	čarovniškega čarovniških čarovniškimi
+31	8431	manira	manir manire maniri
+32	8432	dežuren	dežurnega dežurni dežurno
+33	8433	nagnjenost	nagnjenosti
+34	8434	terminologija	terminologije terminologijo
+35	8435	ananas	ananasa ananase ananasi ananasom ananasov ananasu
+36	8436	mikroskop	mikroskopom
+37	8437	stopnjevati	stopnjeval stopnjevale stopnjevali stopnjuje stopnjujejo
+38	8438	rakun	rakuna rakune rakuni rakunom rakunov rakunu
+39	8439	ugovarjati	ugovarja ugovarjajo ugovarjal ugovarjala ugovarjate
+40	8440	zasvojen	zasvojena zasvojeni
+41	8441	sekirati	sekiraj
+42	8442	dramatičen	dramatičnih
+43	8443	desetnica	desetnik
+44	8444	pester	pestra pestro
+45	8445	luža	luže luži lužo
+46	8446	okončina	okončin
+47	8447	razvrstiti	razvrsti razvrstijo razvrstil razvrstili razvrstimo
+48	8448	severozahod	severozahoda severozahodu
+49	8449	veslo	vesla vesli
+50	8450	pločevina	pločevine pločevini pločevino
+51	8451	monopol	monopola
+52	8452	mladinec	mladinca mladince mladincev mladinci
+53	8453	jugovzhod	jugovzhoda jugovzhodu
+54	8454	tavati	tava taval tavala
+55	8455	sovražnost	sovražnosti
+56	8456	realizem	realizma
+57	8457	nestabilnost	nestabilnosti
+58	8458	pretvarjanje	pretvarjanja
+59	8459	nagnjenje	nagnjenj nagnjenja nagnjenji nagnjenju
+60	8460	zastavljen	zastavljena zastavljene zastavljeni zastavljenih zastavljeno
+61	8461	izkupiček	izkupička izkupičkom
+62	8462	osa	osam ose
+63	8463	scati	scat
+64	8464	menedžment	menedžmenta menedžmentu
+65	8465	črpanje	črpanja
+66	8466	uresničitev	uresničitve uresničitvi
+67	8467	lastniški	lastniška lastniške lastniškega lastniških lastniško
+68	8468	lešnik	lešnika lešnike lešniki lešnikom lešnikov
+69	8469	izpisek	izpiske
+70	8470	vpletati	vpletajo vpletal
+71	8471	religiozen	religiozna religiozne religioznega religiozni religioznih
+72	8472	osrečiti	osreči
+73	8473	mušketir	mušketirjev mušketirji
+74	8474	črevesen	črevesne črevesni črevesnih
+75	8475	lunin	lunina lunine luninega luninem luninih lunino
+76	8476	rušenje	rušenjem
+77	8477	fizik	fizikov
+78	8478	ritka	ritke ritki
+79	8479	pričenjati	pričenja pričenjajo pričenjamo
+80	8480	veleslalom	veleslalomu
+81	8481	uredniški	uredniško
+82	8482	jazz	jazza jazzu
+83	8483	naklon	
+84	8484	identičen	identična
+85	8485	porečje	porečja porečju
+86	8486	izgnan	izgnana izgnane
+87	8487	diagnostika	diagnostiko
+88	8488	bomben	bombne bombni bombnih
+89	8489	vdaja	vdaj vdajam vdaje vdaji vdajo
+90	8490	gostišče	gostišča
+91	8491	privolitev	privolitve
+92	8492	izraba	izrabe izrabi izrabo
+93	8493	črnski	črnska črnske črnskem črnskih črnsko
+94	8494	pregleden	pregledna pregledni pregledno
+95	8495	katastrski	katastrska katastrske katastrskih
+96	8496	smučati	smuča smučajo smučajte smučal smučala smučali smučam smučamo smučat smučate smučaš
+97	8497	ganiti	gane
+98	8498	dojenje	dojenja dojenjem
+99	8499	svetilo	svetil svetila svetili
+100	8500	ugrabljen	ugrabljeni ugrabljenih

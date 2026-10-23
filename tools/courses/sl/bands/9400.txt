@@ -1,0 +1,100 @@
+1	9301	pokalen	pokalni pokalnih
+2	9302	plazilec	plazilca plazilce plazilcev plazilcih
+3	9303	vdih	vdihom vdihu
+4	9304	zeleniti	zelenim
+5	9305	poklepetati	poklepetal poklepetala poklepetali
+6	9306	pobesneti	pobesnel pobesnela pobesnele pobesneli pobesnelo pobesni pobesnijo pobesnim pobesniš
+7	9307	atlantski	atlantska atlantske atlantskega atlantskem atlantskih atlantskim atlantsko
+8	9308	nacionalizem	nacionalizma
+9	9309	kosilnica	kosilnice kosilnico
+10	9310	žužek	žužke žužki
+11	9311	tesar	tesarja tesarje tesarjem tesarjev tesarji
+12	9312	zasuk	zasuka
+13	9313	pretakati	pretaka
+14	9314	gumijast	gumijaste
+15	9315	gibljivost	gibljivosti
+16	9316	helij	helija helijem
+17	9317	obogatiti	obogatil obogatila obogatili
+18	9318	kataster	katastra
+19	9319	poslušnost	poslušnosti
+20	9320	komičen	komične komično
+21	9321	posedovanje	posedovanju
+22	9322	piskati	piska piskajo
+23	9323	vzdolžen	vzdolžni vzdolžno
+24	9324	pritok	pritoka pritokov
+25	9325	vreti	vre vrejo vriva
+26	9326	zavitek	zavitku
+27	9327	zasuti	zasul zasuli
+28	9328	goveji	goveja goveje govejega govejo
+29	9329	upadanje	upadanja
+30	9330	preiskovanje	preiskovanja preiskovanjem
+31	9331	rastišče	rastišča
+32	9332	sijoč	sijoča sijoči sijočih sijočimi sijočo
+33	9333	zahoteti	zahotelo zahoče
+34	9334	nasloviti	naslovil naslovila naslovili
+35	9335	materinstvo	materinstva
+36	9336	soočen	soočeni
+37	9337	visokogorje	visokogorju
+38	9338	pentlja	pentelj pentljami pentlje pentlji pentljo
+39	9339	proteza	protez protezami protezo
+40	9340	povišica	povišico
+41	9341	zavlačevati	zavlačeval zavlačuje zavlačujejo
+42	9342	brezskrben	brezskrbna brezskrbne brezskrbnega brezskrbni brezskrbnih brezskrbno
+43	9343	štarten	štartni štartno
+44	9344	razstavišče	razstavišču
+45	9345	umivanje	umivanjem umivanju
+46	9346	zanemarjen	zanemarjena zanemarjene zanemarjenega zanemarjeni zanemarjenih zanemarjeno
+47	9347	ponev	ponvi
+48	9348	rusa	
+49	9349	dognanje	dognanj dognanja
+50	9350	striženje	striženja striženjem
+51	9351	kenguru	kenguruja kenguruje kengurujem kengurujev kenguruji kenguruju
+52	9352	retorika	retorike retoriki
+53	9353	očiščen	očiščene očiščeno
+54	9354	dolomit	dolomiti dolomitih dolomitov
+55	9355	nadzorovanje	nadzorovanja nadzorovanjem
+56	9356	narodnoosvobodilen	narodnoosvobodilnega
+57	9357	pazduha	pazduh pazduhami pazduhe pazduhi pazduho
+58	9358	kobra	kobro
+59	9359	minuten	minutni minutno
+60	9360	črtica	črtico
+61	9361	pročelje	pročelja
+62	9362	gospodarjenje	gospodarjenja
+63	9363	uvožen	uvožena uvožene uvoženega uvoženi uvoženih uvoženo
+64	9364	prašiček	prašičku
+65	9365	tata	
+66	9366	koristnost	koristnosti
+67	9367	kavica	kavici kavico
+68	9368	izvršitev	izvršitve izvršitvi
+69	9369	fleksibilnost	fleksibilnosti
+70	9370	sočustvovati	sočustvoval sočustvovala sočustvovali sočustvujem
+71	9371	vzleteti	vzleti
+72	9372	sabotaža	sabotaže sabotaži sabotažo
+73	9373	graditelj	graditelji
+74	9374	mučenik	mučenike
+75	9375	karamela	karamele karameli karamelo
+76	9376	štiriindvajset	štiriindvajsetih
+77	9377	razsvetliti	razsvetli razsvetlijo razsvetlil razsvetlili
+78	9378	sorazmeren	sorazmerna
+79	9379	razločen	razločna razločno
+80	9380	čer	čereh čeri
+81	9381	navzkrižen	navzkrižna navzkrižne navzkrižnem navzkrižni navzkrižnih navzkrižno
+82	9382	variacija	variacij variacije variacijo
+83	9383	polulati	polulal
+84	9384	zvabiti	zvabile zvabili
+85	9385	loputati	loputa loputaj lopute
+86	9386	publicist	publicista
+87	9387	epski	epsko
+88	9388	opozorilen	opozorilni opozorilnih opozorilno
+89	9389	štirica	štirice štirico
+90	9390	zbirališče	zbirališču
+91	9391	gladiator	gladiatorjev gladiatorji
+92	9392	pristan	pristana pristanu
+93	9393	fizikalen	fizikalnih
+94	9394	predpona	predpone predpono
+95	9395	skuter	skuterja skuterje skuterji
+96	9396	pristajanje	pristajanja pristajanjem pristajanju
+97	9397	listen	listna listne listni listnih
+98	9398	izgovorjava	izgovorjave izgovorjavi izgovorjavo
+99	9399	somrak	somraka
+100	9400	krilec	krilc krilca krilce krilci krilcih krilcu

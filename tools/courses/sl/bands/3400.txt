@@ -1,0 +1,100 @@
+1	3301	vzdrževati	vzdrževal vzdrževala vzdrževale vzdrževali vzdržuje vzdržujejo vzdržujte
+2	3302	dohodek	dohodka dohodke dohodki dohodkih dohodkom dohodkov dohodku
+3	3303	aretacija	aretacijah aretacije aretaciji aretacijo
+4	3304	zaiti	zaide zaidejo zaidem zaidemo zaideta zaidete zaideva zaideš zašel zašla zašle zašli zašlo
+5	3305	kvalifikacija	kvalifikacij kvalifikacijah kvalifikacijami kvalifikacije kvalifikacijo
+6	3306	snežen	sneženega snežna snežne snežnem snežni snežnih snežnim snežnimi snežno
+7	3307	proizvod	proizvoda proizvode proizvodi proizvodih proizvodom proizvodov proizvodu
+8	3308	narisati	narisal narisala narisali nariše narišem narišemo nariši narišite
+9	3309	prijateljski	prijateljska prijateljske prijateljskega prijateljskem prijateljskih prijateljskim prijateljsko
+10	3310	omaka	omakah omake omaki omako
+11	3311	oboževati	obožuje obožujejo
+12	3312	prisiljen	prisiljena prisiljene prisiljeni prisiljenih prisiljeno
+13	3313	predor	predora predore predori predorih predorom predorov predoru
+14	3314	ugrizniti	ugrizne ugriznejo ugriznem ugriznete ugrizneš ugrizni ugriznil ugriznila ugriznile ugriznili ugriznilo ugriznit ugriznite ugriznjen
+15	3315	utegniti	utegne utegnejo utegneta utegnete utegnil utegnila utegnile utegnili utegnilo
+16	3316	kapa	kapah kape kapo
+17	3317	neviden	nevidenega nevidna nevidne nevidni nevidnih nevidno
+18	3318	globalen	globalne globalnega globalnem globalni globalno
+19	3319	zvestoba	zvestobe zvestobo
+20	3320	len	lena lene lenega leni lenih lenim leno
+21	3321	nogometaš	nogometaša nogometaše nogometašem nogometašev nogometaši nogometašu
+22	3322	imenovanje	imenovanja imenovanjem imenovanju
+23	3323	drama	dram dramah drame drami dramo
+24	3324	jeklo	jekel jekla jeklom jeklu
+25	3325	zapuščen	zapuščena zapuščene zapuščeni zapuščenih zapuščeno
+26	3326	vabiti	vabi vabijo vabil vabili vabim vabimo vabita vabite vabiva vabiš
+27	3327	odraščati	odrašča odraščajo odraščal odraščali
+28	3328	ekološki	ekološka ekološke ekološkega ekoloških ekološko
+29	3329	velikan	velikana velikane velikani velikanom velikanov velikanu
+30	3330	kopati	kopa kopaj kopajo kopajte kopal kopala kopale kopali kopam kopamo kopat kopata kopate kopava kopaš kopljejo kopljemo koplji kopljimo kopljita kopljite kopljiva
+31	3331	vinski	vinska vinske vinskih vinsko
+32	3332	prevajalec	prevajalca prevajalcem prevajalcev prevajalci
+33	3333	fotograf	fotografa fotografe fotografi fotografom fotografov fotografu
+34	3334	faktor	faktorja faktorjem faktorjev
+35	3335	razum	razuma razumom razumu
+36	3336	zločinec	zločinca zločince zločincem zločincev zločinci zločincih zločincu zločinka
+37	3337	ček	čeka čeke čeki čekih čekom čekov čeku
+38	3338	župnija	župnijah župnije župnijo
+39	3339	tumor	tumorja tumorje tumorjev tumorji
+40	3340	sramota	sramote sramoto
+41	3341	polnoč	polnoči polnočjo
+42	3342	modo	mod moda modi modih modom modu
+43	3343	zasebnost	zasebnosti
+44	3344	reševalen	reševalna reševalne reševalnem reševalni reševalnih reševalnim reševalno
+45	3345	napadalec	napadalca napadalce napadalci napadalcu
+46	3346	zmožen	zmožna zmožne zmožni
+47	3347	ugrabitev	ugrabitvah ugrabitvam ugrabitvami ugrabitve ugrabitvi ugrabitvijo
+48	3348	poslabšati	poslabša poslabšajo poslabšal poslabšala poslabšale poslabšali poslabšalo
+49	3349	forma	forme formi formo
+50	3350	kuhar	kuharja kuharje kuharjem kuharjev kuharji kuharju
+51	3351	praznovanje	praznovanj praznovanja praznovanjem praznovanju
+52	3352	publikacija	publikacij publikacijah publikacije publikaciji publikacijo
+53	3353	naložiti	naloži naložil naložila naložili naložilo naložim naložimo
+54	3354	nepomemben	nepomembna nepomembne nepomembnem nepomembni nepomembnih nepomembno
+55	3355	klop	klopa klope klopeh klopi klopjo klopmi klopov
+56	3356	ujetnik	ujetnike ujetniki ujetnikov
+57	3357	plata	plat plati platjo
+58	3358	boleč	boleče bolečega boleči
+59	3359	stadion	stadiona stadione stadioni stadionov stadionu
+60	3360	trdnjava	trdnjav trdnjave trdnjavi trdnjavo
+61	3361	navdih	navdiha navdihom navdihu
+62	3362	raniti	ranijo ranil ranila ranile ranili ranimo
+63	3363	slap	slapa slapom slapov slapove slapovi slapovih slapovom slapu
+64	3364	razumen	razumna razumnega razumni razumnih razumno
+65	3365	vozniški	vozniška vozniške vozniškega vozniških vozniško
+66	3366	preseči	presegel presegla presegle presegli preseglo preseže presežejo presežemo
+67	3367	dihanje	dihanja dihanju
+68	3368	moden	modna modne modnega modnem modni modnih modnim modnimi modno
+69	3369	pepel	pepela pepelom pepelu
+70	3370	dijak	dijaka dijake dijaki dijakih dijakom dijakov dijaku
+71	3371	koš	koša koše košem košev koši košu
+72	3372	značka	značke znački značko
+73	3373	stražar	stražarjev stražarji
+74	3374	irski	irske irskega irskem irskemu irskih irskim irskimi
+75	3375	kilogram	kilograma kilograme kilogrami kilogramov
+76	3376	olajšati	olajša olajšajo olajšal olajšala olajšale olajšali olajšalo olajšamo olajšate
+77	3377	ščititi	ščitijo ščitil ščitila
+78	3378	formalen	formalne formalni formalnih formalno
+79	3379	miš	miši miših mišjo mišmi
+80	3380	vozovnica	vozovnic vozovnice vozovnico
+81	3381	zastopati	zastopa zastopajo zastopal zastopala zastopali zastopalo
+82	3382	naslednik	naslednika naslednike nasledniki naslednikom naslednikov nasledniku
+83	3383	lovski	lovska lovske lovskega lovskem lovskih lovskim lovskimi lovsko
+84	3384	orel	orla orle orli orlom orlov orlovem orlovo orlu
+85	3385	dlan	dlaneh dlani dlanjo dlanmi
+86	3386	vdova	vdov vdovam vdovami vdove vdovi vdovo
+87	3387	milo	milom milu
+88	3388	prilagoditi	prilagodi prilagodijo prilagodil prilagodile prilagodili prilagodimo prilagodite prilagodiš
+89	3389	mladič	mladiča mladiče mladičem mladičema mladičev mladiči mladiču
+90	3390	podelitev	podelitve podelitvi podelitvijo
+91	3391	zmanjševati	zmanjševal zmanjševali zmanjševalo zmanjšuje zmanjšujejo zmanjšujemo
+92	3392	akademski	akademske akademskega akademskem akademskih akademsko
+93	3393	uveljaviti	uveljavi uveljavijo uveljavil uveljavila uveljavili uveljavilo
+94	3394	operativen	operativna operativne operativnega operativnem operativni operativnih operativno
+95	3395	droben	drobna drobne drobnega drobni drobnih drobnim
+96	3396	francosko	
+97	3397	nepričakovan	nepričakovana nepričakovane nepričakovanega nepričakovanem nepričakovani nepričakovanih nepričakovano
+98	3398	ovca	ovac ovc ovcah ovcam ovcami ovce ovci ovco
+99	3399	tič	tiča
+100	3400	vojen	vojnega vojnem vojnih vojnim vojnimi

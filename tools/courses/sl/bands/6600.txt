@@ -1,0 +1,100 @@
+1	6501	poreden	porednega
+2	6502	zvezan	zvezana zvezane zvezani zvezanih
+3	6503	žalovanje	žalovanja
+4	6504	naslediti	nasledil nasledila nasledili
+5	6505	približevanje	približevanja približevanjem
+6	6506	svečan	svečana svečane svečanega svečani svečano
+7	6507	poučen	poučena poučeni poučna poučne poučnih poučno
+8	6508	odstavek	odstavka odstavke odstavkom odstavku
+9	6509	zvijača	zvijačam zvijače zvijači zvijačo
+10	6510	terapevt	terapevta terapevtov
+11	6511	kofein	kofeina
+12	6512	izpoved	izpovedi
+13	6513	razjedati	razjed razjeda razjedajo razjedala razjede
+14	6514	vžig	vžiga
+15	6515	trinajst	trinajstimi
+16	6516	razvedrilo	razvedril razvedrila
+17	6517	zatreti	zatremo zatrl zatrla zatrli
+18	6518	zalotiti	zaloti zalotil zalotila zalotili
+19	6519	metek	metke
+20	6520	počastiti	počasti počastijo počastil počastila počastili
+21	6521	tajnost	tajnosti
+22	6522	opremiti	opremijo opremil opremili opremite
+23	6523	neenakost	neenakosti
+24	6524	cimer	cimra
+25	6525	pomaranča	pomaranč pomarančah pomarančami pomaranče pomaranči pomarančo
+26	6526	absurden	absurdna absurdne absurdnega absurdni absurdnih absurdno
+27	6527	podrejen	podrejena podrejenega podrejenem podrejeno
+28	6528	intimen	intimnega intimnih intimno najintimnejše
+29	6529	obrten	obrtna obrtne obrtni obrtno
+30	6530	dizelski	dizelskega dizelskih dizelskim
+31	6531	klepet	klepetu
+32	6532	govedina	govedine govedini govedino
+33	6533	dajanje	dajanja
+34	6534	oglje	oglja ogljem oglju
+35	6535	izboljševati	izboljšuje izboljšujejo
+36	6536	nadzorovan	nadzorovana nadzorovanega nadzorovani nadzorovanih nadzorovano
+37	6537	pesmica	pesmic pesmice pesmico
+38	6538	brskalnik	brskalnika brskalniki brskalnikov
+39	6539	skušnjava	skušnjavi skušnjavo
+40	6540	vgraditi	vgradi vgradijo vgradil vgradili vgradimo
+41	6541	češnja	češenj češnjah češnjami češnje češnji češnjo
+42	6542	etičen	etična etične etični
+43	6543	glukoza	glukoze glukozo
+44	6544	struna	strun strunami strune struno
+45	6545	usran	usrane
+46	6546	goljufija	goljufij goljufije goljufijo
+47	6547	incident	incidenta incidentov
+48	6548	kratica	kratic kratice kratici kratico
+49	6549	kršenje	kršenja kršenju
+50	6550	osvetlitev	osvetlitve osvetlitvijo
+51	6551	okoliš	okoliša okoliši okolišu
+52	6552	ilirski	ilirska ilirske
+53	6553	razsvetljava	razsvetljave razsvetljavo
+54	6554	občuten	občuteno občutno
+55	6555	posvetovati	posvetoval posvetovala posvetovali posvetuje posvetujejo posvetujemo posvetujete posvetujte
+56	6556	god	godu
+57	6557	zlagati	zlagajo zlagal zlagala zlagamo zlaže
+58	6558	stvaren	stvarna stvarne stvarnega stvarnem stvarni stvarnih stvarno
+59	6559	cink	cinka cinkom
+60	6560	celovit	celovite celoviti celovito
+61	6561	prepad	prepada prepadu
+62	6562	dvojica	dvojic dvojicah dvojice dvojici dvojico
+63	6563	ugibanje	ugibanj ugibanja ugibanjem
+64	6564	blatiti	blaten blati blatijo blatil blatila blatili blatite blatiš blatna blatne blatnega blatnem blatni blatnih blatnimi blatno
+65	6565	deljenje	deljenja deljenju
+66	6566	vsakršen	vsakršna vsakršne vsakršnega vsakršni vsakršnih vsakršnim vsakršno
+67	6567	oživljanje	oživljanja oživljanju
+68	6568	zapisovati	zapisoval zapisuje zapisujejo zapisujem zapisujete
+69	6569	potisk	potiska
+70	6570	zvonik	zvonika
+71	6571	samouprava	samouprave samoupravi samoupravo
+72	6572	anketa	anket ankete anketi
+73	6573	konjiček	konjička konjički konjičkom konjičkov konjičku
+74	6574	bolniški	bolniške bolniškem
+75	6575	ogret	ogreje ogrejemo ogrejete ogrela ogrele ogreli ogreti ogreto
+76	6576	logističen	logistične logistični logističnih logistično
+77	6577	osamljenost	osamljenosti
+78	6578	mobilnost	mobilnosti
+79	6579	žetev	žetve žetvi žetvijo
+80	6580	vtakniti	vtakne vtaknemo vtaknil vtaknila vtaknili vtaknite
+81	6581	telefonirati	telefoniral telefonirala telefonirali telefoniramo
+82	6582	kurir	kurirja kurirje
+83	6583	barbar	barbari
+84	6584	osemnajst	osemnajstih osemnajstimi
+85	6585	zanesljivost	zanesljivosti
+86	6586	izboljšan	izboljšana
+87	6587	razbojnik	razbojnika razbojniki razbojnikom
+88	6588	lasulja	lasulj lasuljah lasuljami lasulje lasulji lasuljo
+89	6589	referendum	referenduma referendumu
+90	6590	balkanski	balkanska balkanske balkanskega balkanskem
+91	6591	poslikava	poslikav poslikave poslikavo
+92	6592	strgalo	strgal strgala strgali
+93	6593	zaledje	zaledja zaledju
+94	6594	starosten	starostna starostne starostni starostnih starostno
+95	6595	karavan	karavana karavane karavani karavano
+96	6596	prenočišče	prenočišč prenočišča
+97	6597	prekrivati	prekriva prekrivajo prekrivala prekrivale prekrivali prekrivalo prekrivaš
+98	6598	gesta	gesto
+99	6599	dežnik	dežnika dežnike dežniki dežnikom dežnikov dežniku
+100	6600	receptor	receptorja receptorje receptorjev receptorji

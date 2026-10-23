@@ -1,0 +1,100 @@
+1	101	narediti	nardila nardit naredi naredijo naredil naredila naredile naredili naredilo naredim naredimo naredit naredita naredite narediva narediš naredu
+2	102	govoriti	govori govorijo govoril govorila govorile govorili govorilo govorim govorimo govorit govorita govorite govoriva govoriš govort
+3	103	ob	
+4	104	rad	najrajši rada rade radi rado raj raja raju
+5	105	sam	sama same samega samem samemu sami samih samim samima samimi sámo
+6	106	najti	najde najdejo najdem najdemo najdeta najdete najdeva najdeš najdi najdimo najdita najdite najdiva najt našel našla našle našli našlo
+7	107	življenje	živlenja življenj življenja življenjem življenjema življenji življenjih življenju
+8	108	hvala	hvale hvalo
+9	109	ter	
+10	110	del	dele deli delih delov delu
+11	111	potem	
+12	112	ostati	ostal ostala ostale ostalega ostalemu ostali ostalih ostalim ostalimi ostalo ostane ostanejo ostanem ostanemo ostaneta ostanete ostaneva ostaneš ostani ostanimo ostanita ostanite ostaniva
+13	113	ime	imen imena imeni imenih imenom imenoma imenu
+14	114	kakšen	kakšna kakšne kakšnega kakšnem kakšnemu kakšni kakšnih kakšnim kakšnimi kakšno
+15	115	svet	najsvetejše najsvetejši sveta svete svetega svetem svetemu sveti svetih svetim svetimi sveto svetom svetov svetova svetove svetovi svetovih svetovoma svetu svét svéta
+16	116	tu	
+17	117	k	h
+18	118	stran	straneh stranem stranema strani stranjo stranmi
+19	119	začeti	začel začela začele začeli začelo začne začnejo začnem začnemo začneta začnete začneva začneš začni začnimo začnita začnite začniva začno
+20	120	vsak	vsaka vsake vsakega vsakem vsakemu vsaki vsakih vsakim vsakimi vsako
+21	121	brez	
+22	122	kjer	
+23	123	delati	dela delajo delajte delal delala delale delali delalo delam delamo delat delata delate delaš
+24	124	lep	lepe lepega lepem lepemu lepi lepih lepim lepima lepimi lepo lepša lepše lepšega lepšem lepši lepših lepšo najlepša najlepše najlepšega najlepšem najlepši najlepših najlepšim najlepšimi najlepšo
+25	125	prositi	proseč prosi prosijo prosil prosila prosile prosili prosilo prosim prosimo prosit prosita prosite prosiva prosiš
+26	126	kje	
+27	127	pomagati	pomaga pomagaj pomagajmo pomagajo pomagajta pomagajte pomagajva pomagal pomagala pomagale pomagali pomagalo pomagam pomagamo pomaganje pomagat pomagata pomagate pomagava pomagaš
+28	128	mogoče	
+29	129	vendar	
+30	130	oče	očeta očete očeti očetih očetje očetom očetoma očetov očetova očetove očetovega očetovem očetovi očetovih očetovim očetovo očetu
+31	131	seveda	
+32	132	star	najstarejša najstarejše najstarejšega najstarejši najstarejših najstarejšo stara starega starejša starejše starejšega starejšem starejšemu starejši starejših starejšim starejšima starejšimi starejšo starem staremu stari starih starim starima starimi staro
+33	133	slovenski	slovenska slovenske slovenskega slovenskem slovenskemu slovenskih slovenskim slovenskimi slovensko
+34	134	torej	
+35	135	tam	
+36	136	potrebovati	potreboval potrebovala potrebovale potrebovali potrebovalo potrebuje potrebujejo potrebujem potrebujemo potrebujeta potrebujete potrebujeva potrebuješ
+37	137	njen	njena njene njenega njenem njenemu njeni njenih njenim njenima njenimi njeno
+38	138	stvar	stvareh stvarem stvarema stvari stvarjo stvarmi
+39	139	malo	mal
+40	140	konec	konc konca konce koncem koncev konci koncih koncu
+41	141	trije	treh trem tremi tri
+42	142	pomemben	najpomembneje najpomembnejša najpomembnejše najpomembnejšega najpomembnejši najpomembnejših najpomembnejšim najpomembnejšimi najpomembnejšo pomembna pomembne pomembnega pomembneje pomembnejša pomembnejše pomembnejšega pomembnejši pomembnejših pomembnejšimi pomembnem pomembnemu pomembni pomembnih pomembnim pomembnimi pomembno
+43	143	živeti	živel živela živele živeli živelo živet živi živijo živim živimo živita živite živiva živiš
+44	144	gledati	gleda gledajo gledal gledala gledale gledali gledam gledamo gledat gledate gledaš glej glejmo glejta glejte glejva
+45	145	no	
+46	146	nikoli	nikol nkol
+47	147	slišati	slišal slišala slišale slišali slišalo slišat sliši slišijo slišim slišimo slišita slišite slišiva slišiš slišu
+48	148	država	držav državah državam državama državami države državi državo
+49	149	toda	
+50	150	pogledati	pogledajo pogledal pogledala pogledali pogledam pogledamo pogledat pogledata pogledate poglej poglejmo poglejte poglejva
+51	151	bolj	bol boljo
+52	152	razumeti	razume razumejo razumel razumela razumele razumeli razumelo razumem razumemo razumet razumeta razumete razumeva razumeš razumi
+53	153	ura	ur urah uram urama urami ure uri uro
+54	154	ženska	žensk ženskah ženskam ženskama ženskami ženske ženskega ženskem ženskemu ženski ženskih ženskim ženskimi žensko
+55	155	danes	
+56	156	zadnji	zadnja zadnje zadnjega zadnjem zadnjemu zadnjih zadnjim zadnjima zadnjimi zadnjo
+57	157	umreti	umre umrejo umrem umremo umret umreta umrete umreva umreš umri umrimo umrita umrite umriva umrl umrla umrle umrlega umrlemu umrli umrlih umrlim umrlo
+58	158	zgoditi	zgodi zgodijo zgodil zgodila zgodile zgodili zgodilo
+59	159	ubiti	ubij ubije ubijejo ubijem ubijemo ubijeta ubijete ubijeva ubiješ ubijmo ubijta ubijte ubijva ubil ubila ubile ubili ubilo
+60	160	primer	primera primere primeri primerih primerom primeroma primerov primeru
+61	161	mama	mam mamam mamama mame mami mamo
+62	162	morda	
+63	163	pomeniti	pomeni pomenijo pomenil pomenila pomenile pomenili pomenilo pomenita
+64	164	gospod	gospoda gospode gospodi gospodje gospodom gospodoma gospodu
+65	165	vrniti	vrne vrnejo vrnem vrnemo vrneta vrnete vrneš vrnil vrnila vrnile vrnili vrnilo vrnimo vrnite
+66	166	pravi	pravega pravem pravemu pravih pravimi
+67	167	vzeti	vzame vzamejo vzamem vzamemo vzameta vzamete vzameva vzameš vzel vzela vzele vzeli vzelo vzemi vzemimo vzemita vzemite vzemiva
+68	168	pod	poda pode podi podom podov podu
+69	169	skupaj	skupi
+70	170	majhen	majhna majhne majhnega majhnem majhnemu majhni majhnih majhnim majhnima majhnimi majhno manjša manjše manjšega manjšem manjšemu manjši manjših manjšim manjšimi manjšo najmanjša najmanjše najmanjšega najmanjšem najmanjši najmanjših najmanjšim najmanjšo premajhen premajhna premajhne premajhnega premajhni premajhno
+71	171	voda	vod vodah vodam vodami vode vodi vodih vodo
+72	172	postati	postal postala postale postali postalo postane postanejo postanem postanemo postaneta postanete postaneva postaneš postani postanimo postanite postaniva postat
+73	173	bog	boga bogom bogov bogova bogove bogovi bogovih bogovom bogu
+74	174	poznati	pozna poznaj poznajo poznal poznala poznale poznali poznalo poznam poznamo poznanje poznata poznate poznava poznaš
+75	175	proti	
+76	176	pustiti	pusti pustijo pustil pustila pustile pustili pustilo pustim pustimo pustit pustita pustite pustiva pustiš puščen
+77	177	občina	občin občinah občinami občine občini občino
+78	178	njihov	njihova njihove njihovega njihovem njihovemu njihovi njihovih njihovim njihovimi njihovo
+79	179	visok	najvišja najvišje najvišjega najvišjem najvišji najvišjih najvišjimi najvišjo previsok previsoka previsoke previsoki previsokih previsoko visoka visoke visokega visokem visokemu visoki visokih visokim visokimi visoko više višja višje višjega višjem višjemu višji višjih višjim višjimi višjo
+80	180	pomoč	pomoči pomočjo
+81	181	pot	poteh potema poti potjo potmi potom potu
+82	182	družina	družin družinah družinam družinama družinami družine družini družino
+83	183	hiša	hiš hišah hišam hišama hišami hiše hiši hišo
+84	184	prijatelj	prijatelja prijatelje prijateljem prijateljema prijateljev prijateljevega prijateljevem prijateljevo prijatelji prijateljih prijatelju
+85	185	denar	denarja denarje denarjem denarjev denarji denarju
+86	186	oprostiti	oprosti oprostijo oprostil oprostila oprostili oprostilo oprostite
+87	187	storiti	stori storijo storil storila storile storili storilo storim storimo storite storiš
+88	188	nekdo	nekoga nekom nekomu
+89	189	nazaj	
+90	190	čakati	čaka čakaj čakajmo čakajo čakajta čakajte čakajva čakal čakala čakale čakali čakalo čakam čakamo čakat čakata čakate čakava čakaš
+91	191	dovolj	
+92	192	verjeti	verjame verjamejo verjamem verjamemo verjameta verjamete verjameva verjameš verjel verjela verjeli verjelo verjemi verjemimo verjemita verjemite verjet
+93	193	fant	fanta fante fanti fantih fantje fantom fantoma fantomu fantov fantova fantove fantovega fantovem fantovi fantovih fantovim fantovo fantu
+94	194	sin	sina sinom sinov sinova sinove sinovi sinovih sinovom sinovoma sinu
+95	195	skupina	skupin skupinah skupinam skupinama skupinami skupine skupini skupino
+96	196	hitro	hitreje hitrejše najhitreje najhitrejše
+97	197	vrsta	vrst vrstah vrstam vrstama vrstami vrste vrsti vrsto
+98	198	nekateri	nekatera nekatere nekaterih nekaterim nekaterimi
+99	199	drugi	
+100	200	uporabljati	uporablja uporabljajmo uporabljajo uporabljajta uporabljajte uporabljajva uporabljal uporabljala uporabljale uporabljali uporabljalo uporabljam uporabljamo uporabljat uporabljata uporabljate uporabljava uporabljaš

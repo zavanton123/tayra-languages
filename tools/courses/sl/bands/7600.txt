@@ -1,0 +1,100 @@
+1	7501	lak	laki lakom lakov
+2	7502	nemoten	nemoteno
+3	7503	optimističen	optimistične optimistični optimističnih optimistično
+4	7504	podružničen	podružnična podružnične podružnični podružnično
+5	7505	zakričati	zakričal zakričala zakriči zakričim
+6	7506	dišava	dišav dišave
+7	7507	kosmat	kosmata kosmate kosmatega kosmati
+8	7508	alga	alge
+9	7509	napajati	napaja napajal napajamo
+10	7510	muzika	muzike muziko
+11	7511	moteč	moteča moteče motečega moteči
+12	7512	vrč	vrča vrče vrčem vrčev vrči vrču
+13	7513	diplomiran	diplomirana diplomirani
+14	7514	izpustitev	izpustitvi
+15	7515	novomeški	novomeške novomeško
+16	7516	zadek	zadka zadkom zadku
+17	7517	počivališče	počivališča počivališču
+18	7518	izključitev	izključitve izključitvi
+19	7519	krater	kraterja kraterje kraterjem kraterjev kraterji kraterju
+20	7520	administrativen	administrativna administrativnega administrativnih
+21	7521	korenje	korenja korenjem korenju
+22	7522	fosfor	fosforja fosforjem
+23	7523	plodnost	plodnosti
+24	7524	ognjemet	ognjemete ognjemeti ognjemetov
+25	7525	paraliza	paralizo
+26	7526	obrazen	obrazna obrazne obraznega obrazni obraznih obrazno
+27	7527	obstanek	obstanka obstanku
+28	7528	komunalen	komunalne komunalni komunalnih komunalno
+29	7529	povprašati	povprašajte povprašal povprašala povprašali
+30	7530	skrben	skrbna skrbne skrbnega skrbnem skrbni skrbnim
+31	7531	slalom	slalomu
+32	7532	svetopisemski	svetopisemska svetopisemske svetopisemskih svetopisemsko
+33	7533	jod	joda jodom
+34	7534	resnost	resnosti resnostjo
+35	7535	posumiti	posumi posumil posumili
+36	7536	pokroviteljstvo	pokroviteljstvom
+37	7537	privabljati	privablja privabljajo
+38	7538	divjad	divjadi
+39	7539	kubičen	kubični kubičnih
+40	7540	arašid	arašida arašide arašidi arašidov
+41	7541	ropati	ropal ropala ropali ropaš
+42	7542	odtok	odtoka odtoke odtoki odtokih odtokom odtokov odtoku
+43	7543	stiskanje	stiskanja stiskanjem stiskanju
+44	7544	čitalnica	čitalnice čitalnici čitalnico
+45	7545	suniti	sunil sunila
+46	7546	postrv	postrvi
+47	7547	videospot	videospota videospote videospotov videospotu
+48	7548	obrežje	obrežja obrežju
+49	7549	heker	hekerji hekerju
+50	7550	režirati	režiral
+51	7551	judo	judu
+52	7552	ozir	ozira ozirih ozirom
+53	7553	gorovje	gorovja
+54	7554	dokončanje	dokončanjem
+55	7555	razkrinkati	razkrinkajo razkrinkal razkrinkala razkrinkali
+56	7556	perverznež	perverzneži
+57	7557	sklicevanje	sklicevanja sklicevanjem
+58	7558	osvajanje	osvajanja osvajanjem
+59	7559	pripetiti	pripetil pripetila pripetile pripetilo
+60	7560	diktator	diktatorja
+61	7561	neznanski	neznanske neznansko
+62	7562	algoritem	algoritmom
+63	7563	zlorabljati	zlorablja zlorabljajo zlorabljal zlorabljali
+64	7564	instinkt	instinktom
+65	7565	beležiti	beleži beležijo
+66	7566	komentator	komentatorji
+67	7567	izplačilo	izplačil izplačila izplačilu
+68	7568	soglasen	soglasni soglasno
+69	7569	posteljica	posteljice posteljici posteljico
+70	7570	jahanje	jahanja jahanju
+71	7571	oblačenje	oblačenja oblačenju
+72	7572	starševski	starševska starševske starševskega starševskih starševsko
+73	7573	nastanjen	nastanjeni
+74	7574	primoran	primorana primorani
+75	7575	jasmin	jasmina jasminov
+76	7576	pisalen	pisalne pisalnem pisalni pisalnih pisalno
+77	7577	pozabljati	pozablja pozabljajo pozabljal pozabljamo
+78	7578	milica	milic milice
+79	7579	dojemanje	dojemanju
+80	7580	vljuden	vljudnega vljudni
+81	7581	veroizpoved	veroizpovedi
+82	7582	polog	pologa
+83	7583	namenski	namenskih namensko
+84	7584	lopa	lope lopo
+85	7585	trezor	trezorji
+86	7586	okrepljen	okrepljena okrepljeni okrepljeno
+87	7587	tiščati	tiščal tišči tiščijo
+88	7588	stereotip	stereotipa stereotipe stereotipi stereotipom stereotipov
+89	7589	vzvod	vzvoda vzvode vzvodov
+90	7590	nosilka	nosilke nosilko
+91	7591	pojavnost	pojavnosti
+92	7592	zarodek	zarodka zarodkov
+93	7593	vstopen	vstopne vstopni vstopnih vstopno
+94	7594	odgnati	odgnal odgnala odgnale odgnali odžene odženejo
+95	7595	razgiban	razgibana razgibane razgibano
+96	7596	marsikateri	marsikatera marsikatere marsikaterega marsikaterem marsikatero
+97	7597	deževje	deževja deževjem deževju
+98	7598	sopotnik	sopotnica sopotnico sopotnika sopotnike sopotniki sopotnikov sopotnikovem sopotniku
+99	7599	insekt	insekta insekte insekti insektih insektom insektov
+100	7600	kis	kisa kisom kisu

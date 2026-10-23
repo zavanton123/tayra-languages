@@ -1,0 +1,100 @@
+1	8301	nespoštovanje	nespoštovanja nespoštovanjem
+2	8302	smehljati	smehlja smehljajo smehljal smehljali
+3	8303	dijaški	dijaških
+4	8304	samorog	samoroga samoroge samorogi samorogom samorogov samorogu
+5	8305	gospodarjev	gospodarjeva gospodarjeve gospodarjevega gospodarjevi gospodarjevih gospodarjevo
+6	8306	zoperstaviti	zoperstavil zoperstavili
+7	8307	samoobramba	samoobrambe
+8	8308	grmada	grmade grmadi grmado
+9	8309	žilav	žilava žilavo
+10	8310	jugozahod	jugozahoda jugozahodu
+11	8311	gostoljubnost	gostoljubnosti
+12	8312	zmoten	zmotna zmotne zmotno
+13	8313	skovati	skoval skovali
+14	8314	vakuum	vakuuma vakuumu
+15	8315	rastlinje	rastlinja rastlinjem
+16	8316	napovedan	napovedana napovedane napovedani napovedano
+17	8317	zajtrkovati	zajtrkovala zajtrkovali zajtrkovat zajtrkuj zajtrkuje zajtrkujejo zajtrkujem zajtrkujemo zajtrkujete zajtrkujeva zajtrkuješ zajtrkujmo zajtrkujva
+18	8318	uteha	uteho
+19	8319	pravosoden	pravosodne pravosodnega pravosodnem pravosodni pravosodno
+20	8320	biografija	biografiji biografijo
+21	8321	omedleti	omedlel
+22	8322	oddih	oddiha
+23	8323	jamstvo	jamstev jamstva jamstvom
+24	8324	izpolnitev	izpolnitve izpolnitvi izpolnitvijo
+25	8325	simfonija	simfonije simfoniji simfonijo
+26	8326	vohunski	vohunska vohunske vohunskega vohunskem vohunskih vohunskim vohunsko
+27	8327	hrček	hrčka hrčke hrčki hrčkom hrčkov hrčku
+28	8328	usposobiti	usposobi usposobijo usposobil usposobili
+29	8329	izdajatelj	izdajatelja
+30	8330	dirkališče	dirkališča
+31	8331	oploditev	oploditve oploditvijo
+32	8332	tiskarna	tiskarni tiskarno
+33	8333	geološki	geološkega geološko
+34	8334	toaleten	toaletnega toaletni toaletnih
+35	8335	izpopolnjen	izpopolnjena izpopolnjenega izpopolnjeno
+36	8336	projekten	projektna projektni projektno
+37	8337	znižan	znižano
+38	8338	podirati	podira podirajo podiral podirala
+39	8339	nosilnost	nosilnosti nosilnostjo
+40	8340	požig	požigu
+41	8341	presledek	presledke presledkih presledkov
+42	8342	parazit	parazite
+43	8343	pomilovanje	pomilovanja
+44	8344	navdihniti	navdihnejo navdihnila navdihnili navdihnilo
+45	8345	priskočiti	priskoči priskočil priskočila priskočili
+46	8346	dopolnjen	dopolnjena
+47	8347	zagotovitev	
+48	8348	teoretski	teoretske teoretskih teoretsko
+49	8349	tonski	tonska tonskih tonsko
+50	8350	reja	rej reje reji rejo
+51	8351	vmešavanje	vmešavanja
+52	8352	podtalnica	podtalnice podtalnico
+53	8353	starček	starčka
+54	8354	obilica	obilice obilici obilico
+55	8355	padanje	padanja padanjem padanju
+56	8356	bienale	bienala bienalu
+57	8357	notar	notarja notarju
+58	8358	šampion	šampiona šampione šampionom
+59	8359	raztrgati	raztrga raztrgajo raztrgala raztrgale raztrgamo
+60	8360	opatija	opatij opatije opatiji opatijo
+61	8361	pretveza	pretvezo
+62	8362	bučka	bučk bučkami bučke
+63	8363	razsvetljenje	razsvetljenja razsvetljenju
+64	8364	ubežnik	ubežnike ubežniki ubežnikov
+65	8365	naseljen	naseljena naseljene naseljenega naseljenem naseljeni
+66	8366	blejski	blejskega blejskem
+67	8367	navigacijski	navigacijske navigacijskega navigacijskem navigacijskih
+68	8368	nepremičninski	nepremičninske nepremičninskega nepremičninskih nepremičninskim nepremičninsko
+69	8369	telekom	telekoma
+70	8370	nosorog	nosoroga nosoroge nosorogi nosorogom nosorogov nosorogu
+71	8371	zgorevanje	zgorevanja zgorevanjem
+72	8372	porivati	poriva porivali
+73	8373	kazino	kazinu
+74	8374	cerkvica	cerkvice
+75	8375	odrezan	odrezana odrezane odrezanimi
+76	8376	predjed	predjedi
+77	8377	konkretno	
+78	8378	mladosten	mladostne mladostnega mladostni mladostno
+79	8379	salama	salam salamo
+80	8380	pogolten	pogoltna pogoltne pogoltnem pogoltni
+81	8381	migniti	mignil mignila mignili
+82	8382	skakanje	skakanja skakanju
+83	8383	sadovnjak	sadovnjaka sadovnjake sadovnjaki sadovnjakih sadovnjakov sadovnjaku
+84	8384	onesnaženost	onesnaženosti
+85	8385	škrob	škroba
+86	8386	vešč	veščega vešči
+87	8387	krepost	kreposti
+88	8388	scvreti	scvre scvrejo scvrem scvremo scvreš scvri scvrite scvrl scvrla scvrli scvrlo scvrt scvrta scvrte scvrti
+89	8389	gnjaviti	gnjavi gnjavijo gnjavil gnjavila gnjavili gnjavim gnjavit gnjavita gnjavite gnjaviš
+90	8390	poved	povedi
+91	8391	zahtevnost	zahtevnosti
+92	8392	žičnica	žičnice
+93	8393	počastitev	
+94	8394	infuzija	infuzije infuziji infuzijo
+95	8395	donacija	donacijo
+96	8396	vegetarijanec	vegetarijanca vegetarijance vegetarijancev vegetarijanci vegetarijanka
+97	8397	tekmovalka	tekmovalk tekmovalke tekmovalki
+98	8398	prilegati	prilega prilegali
+99	8399	pospravljati	pospravlja pospravljajo pospravljal pospravljala pospravljali
+100	8400	zabresti	zabredejo zabredel zabredla

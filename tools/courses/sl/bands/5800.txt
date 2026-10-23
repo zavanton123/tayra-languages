@@ -1,0 +1,100 @@
+1	5701	holesterol	holesterola
+2	5702	protein	proteina proteine proteini proteinov
+3	5703	pribor	pribora priborom priboru
+4	5704	stresen	stresna stresne stresnega stresnih stresno
+5	5705	evangelij	evangelija
+6	5706	vrzel	vrzeli
+7	5707	zatiranje	zatiranja zatiranju
+8	5708	vesoljec	vesoljca vesoljce vesoljcem vesoljcev vesoljci vesoljcih vesoljcu
+9	5709	jadro	jader jadra jadri jadrih jadrom jadru
+10	5710	nakladati	naklada nakladali naklade nakladi naklado
+11	5711	poročanje	poročanja poročanju
+12	5712	samota	samote samoti samoto
+13	5713	uš	ušeh ušem uši ušmi
+14	5714	centrala	centralo
+15	5715	smet	smeteh smetem smetjo smetmi
+16	5716	pristen	pristna pristne pristnega pristni
+17	5717	kopje	kopja kopjem kopji kopju
+18	5718	dosleden	dosledna dosledni dosledno
+19	5719	ironičen	ironična ironične ironični ironično
+20	5720	ono	jima
+21	5721	zabiti	zabil zabili
+22	5722	ilegalen	ilegalna ilegalne ilegalnega ilegalnem ilegalni ilegalnih ilegalnim ilegalnimi ilegalno
+23	5723	voliti	volijo volila volili volit
+24	5724	odkrivati	odkriva odkrivajo odkrival odkrivala odkrivali odkrivamo odkrivate odkrivaš
+25	5725	servis	servisa servise servisih servisom servisov servisu
+26	5726	terme	termah
+27	5727	hecen	hecno
+28	5728	štirideset	štiridesetimi
+29	5729	potreti	potre potrejo potrem potret potrl potrla potrlo potrt potrta potrte potrti potrto
+30	5730	privlačnost	privlačnosti
+31	5731	prihajajoč	prihajajoče prihajajočem prihajajoči prihajajočih prihajajočim prihajajočo
+32	5732	komar	komarja komarje komarjem komarjev komarjeve komarji
+33	5733	videnje	videnja videnjem
+34	5734	nosečnica	nosečnic nosečnicah nosečnicam nosečnice nosečnici nosečnico
+35	5735	mojstrovina	mojstrovine mojstrovini mojstrovino
+36	5736	avstralski	avstralska avstralske avstralskih
+37	5737	soben	sobna sobne sobni sobno
+38	5738	pričakati	pričaka pričakajo pričakal pričakala pričakali pričakalo
+39	5739	nespremenjen	nespremenjena nespremenjene nespremenjeni nespremenjeno
+40	5740	modrica	modric modrice
+41	5741	ekonomist	ekonomista ekonomisti ekonomistov
+42	5742	brezposelnost	brezposelnosti
+43	5743	jutrišnji	jutrišnja jutrišnje jutrišnjega jutrišnjih jutrišnjim jutrišnjo
+44	5744	preoblikovati	preoblikoval preoblikovala preoblikovali preoblikuje
+45	5745	ponudnik	ponudnika ponudnike ponudniki ponudnikom ponudnikov ponudniku
+46	5746	fašizem	fašizma fašizmom fašizmu
+47	5747	volna	volne volni volno
+48	5748	kal	kali
+49	5749	rešetka	rešetk rešetkami rešetke rešetko
+50	5750	sprejetje	sprejetja sprejetju
+51	5751	nasloven	naslovna naslovne naslovnega naslovni naslovno
+52	5752	svetost	svetosti
+53	5753	rehabilitacija	rehabilitacije rehabilitacijo
+54	5754	figura	figur figurami figuro
+55	5755	severovzhoden	severovzhodna severovzhodne severovzhodnem severovzhodni severovzhodno
+56	5756	klimatski	klimatska klimatske klimatskih klimatskimi klimatsko
+57	5757	register	registra registrov registru
+58	5758	skica	skice skici skico
+59	5759	utež	uteži utežmi
+60	5760	nasprotovanje	nasprotovanj nasprotovanja nasprotovanjem nasprotovanju
+61	5761	odpiranje	odpiranja odpiranjem odpiranju
+62	5762	hidrat	hidrata hidrate hidrati hidratov
+63	5763	rojak	rojaka rojake rojaki rojakom rojakov
+64	5764	plenica	plenic plenice
+65	5765	posiliti	posilil
+66	5766	obvladovanje	obvladovanja obvladovanjem obvladovanju
+67	5767	mačji	mačje mačjih
+68	5768	volumen	volumna
+69	5769	odobren	odobrena odobrenih odobreno
+70	5770	ročica	ročic ročicami ročice ročici ročico
+71	5771	slikovit	slikovita slikoviti slikovitih slikovito
+72	5772	poraziti	porazil porazili
+73	5773	inovacija	inovacij inovacije
+74	5774	sijati	sijal sijale sijali sijalo sije
+75	5775	soteska	soteske soteski sotesko
+76	5776	obračun	obračuna obračuni obračunom obračunu
+77	5777	kreativen	kreativna kreativne kreativni kreativnih kreativno
+78	5778	trajnosten	trajnostnega trajnostni trajnostno
+79	5779	indijanski	indijanska indijanske indijanskega indijanskem indijanskemu indijanskih indijanskim indijanskimi indijansko
+80	5780	poravnava	poravnave poravnavi poravnavo
+81	5781	nadlegovanje	nadlegovanja nadlegovanjem
+82	5782	obuditi	obudi obudil obudila obudili
+83	5783	priteči	pritekel pritekla pritekle pritekli priteklo priteče pritečem
+84	5784	prevažati	prevaža prevažajo prevažal prevažala prevažali
+85	5785	palčka	palčk palčke palčko
+86	5786	speljati	speljal speljali
+87	5787	desnica	desnice desnici desnico
+88	5788	vejica	vejic vejicami vejice vejici vejico
+89	5789	optimalen	optimalna optimalne optimalnega optimalni optimalno
+90	5790	klient	klienta klientu
+91	5791	rjuha	rjuh rjuhah rjuhami rjuhe rjuhi rjuho
+92	5792	teater	teatra teatru
+93	5793	pločevinka	pločevink pločevinkah pločevinkami pločevinke pločevinki pločevinko
+94	5794	uporabniški	uporabniška uporabniške uporabniškega uporabniškem uporabniških uporabniškim uporabniško
+95	5795	pornografija	pornografije pornografiji pornografijo
+96	5796	predelan	predelana predelane predelanega predelani predelanih predelano
+97	5797	zanašati	zanaša zanašaj zanašajo zanašajte zanašala zanašalo zanašaš
+98	5798	neželen	neželene neželenega neželenih neželeno
+99	5799	napotek	napotke napotki napotkih napotkov
+100	5800	maraton	maratona maratone maratonom

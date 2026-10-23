@@ -610,6 +610,54 @@ def serbian_name_forms(names):
     return forms
 
 
+def slovene_name_forms(names):
+    """
+    The case forms of Slovene names, from their regular declension, and the possessive adjectives made from them: Ana,
+    Ane, Ani, Ano, Anin, Anina; Peter, Petra, Petru, Petrom, Petrov; Matej, Mateja, Matejem, Matejev; Marko, Marka,
+    Marku, Markom; Jože, Jožeta, Jožetu; Celje, Celja, Celju, Celjem; Jesenice, Jesenic, Jesenicah; Bled, Bledu. A name
+    whose e drops (Peter, Gradec) also gives the short stem (Petra, Gradca); one in -r its forms with j too (Gregorja,
+    Gregorjev); one in -a a masculine possessive too (Žigov), and one in -ca its possessive with č (Mojčin). A name of
+    several words or with a hyphen gives the forms of each part (Nova Gorica, Novi Gorici).
+    """
+    possessive = ("", "a", "o", "e", "i", "ega", "emu", "em", "im", "ih", "imi", "ima")
+    forms = set()
+    for name in names:
+        for part in re.split(r"[\s-]+", name.lower()):
+            if not part:
+                continue
+            forms.add(part)
+            stem, last = part[:-1], part[-1]
+            if last == "a":
+                forms.update(stem + e for e in ("e", "i", "o", "ama", "ah", "am", "ami", "ega", "emu", "em", "im", "ih", "imi"))
+                forms.update(stem + "in" + e for e in possessive)
+                forms.update(stem + "ov" + e for e in possessive)
+                if stem.endswith("c"):
+                    forms.update(stem[:-1] + "čin" + e for e in possessive)
+            elif last == "o":
+                forms.update(stem + e for e in ("a", "u", "om", "i", "ov", "e", "ih"))
+                forms.update(stem + "ov" + e for e in possessive)
+            elif last == "e":
+                forms.update(stem + e for e in ("a", "u", "em", "ih", "ah", "am", "ami", "i"))
+                forms.update(part + e for e in ("ta", "tu", "tom", "tov"))
+                forms.update(part + "tov" + e for e in possessive)
+                if part.endswith("ice"):
+                    forms.update(part[:-1] + e for e in ("", "ah", "am", "ami"))
+            elif last == "i":
+                forms.update(stem + e for e in ("ega", "emu", "em", "im", "ih", "a", "e", "o"))
+            else:
+                soft = last in "cčšžj"
+                forms.update(part + e for e in ("a", "u", "om", "em", "i", "e", "ov", "ev", "ih", "ah", "ama"))
+                forms.update(part + ("ev" if soft else "ov") + e for e in possessive)
+                if last == "r":
+                    forms.update(part + "j" + e for e in ("a", "u", "em", "i", "e", "ev", "ih"))
+                    forms.update(part + "jev" + e for e in possessive)
+                if len(part) > 3 and part[-2] == "e" and last in "crklnm" and part[-3] not in "aeiou":
+                    short = part[:-2] + last
+                    forms.update(short + e for e in ("a", "u", "om", "em", "i", "e", "ov", "ev", "ih"))
+                    forms.update(short + ("ev" if last == "c" else "ov") + e for e in possessive)
+    return forms
+
+
 # Object pronouns a Spanish verb can carry at its end, longest first so "les" goes before "le".
 SPANISH_CLITICS = ("los", "las", "les", "nos", "os", "lo", "la", "le", "me", "te", "se")
 UNACCENTED = str.maketrans("áéíóú", "aeiou")
@@ -1437,6 +1485,11 @@ def check(path, brief=False):
     # is written whole; each case form the text uses is listed whole (Zielonej Górze).
     if code == "pl":
         long_names = sorted((n for n in course.get("names", []) if " " in n or "-" in n), key=len, reverse=True)
+    # Slovene names decline (Ana, Ane, Ani, Ano; Ljubljana, Ljubljani), and a name of several words (Novo mesto, Murska
+    # Sobota) counts as one known word wherever it is written whole.
+    if code == "sl":
+        names = names | slovene_name_forms(course.get("names", []))
+        long_names = sorted((n for n in course.get("names", []) if " " in n or "-" in n), key=len, reverse=True)
     # Turkish names are lowercased the Turkish way (Işıl, İzmir); one of several words (Kız Kulesi) counts as one
     # known word wherever it is written whole, its suffix too (Kız Kulesi'ne).
     if code == "tr":
@@ -1502,6 +1555,8 @@ def check(path, brief=False):
             text = text.replace("質問：", "")
         if code == "uk":
             text = re.sub(r"(?m)^Запитання:", "", text)
+        if code == "sl":
+            text = re.sub(r"(?m)^Vprašanja:", "", text)
         if code == "ko":
             text = re.sub(r"(?m)^질문:", "", text)
         if code == "ar":

@@ -1,0 +1,100 @@
+1	5301	murski	murske
+2	5302	volivec	volivce volivcem volivcev volivci
+3	5303	zavrnjen	zavrnjena
+4	5304	šestdeseti	šestdeseta šestdesetih
+5	5305	odobritev	odobritve odobritvi
+6	5306	dolžnik	dolžnika dolžniki dolžnikom
+7	5307	telovadba	telovadbe telovadbi telovadbo
+8	5308	parkiren	parkirne parkirnega parkirnem parkirni parkirnih parkirno
+9	5309	kompozicija	kompozicij kompozicije kompoziciji kompozicijo
+10	5310	trezen	trezni treznim trezno
+11	5311	naravosloven	naravoslovna naravoslovne naravoslovnega naravoslovni naravoslovnih naravoslovno
+12	5312	poročnica	poročnice poročnici poročnico
+13	5313	selektor	selektorja
+14	5314	maščoben	maščobna maščobne maščobnih
+15	5315	sponzor	sponzorja sponzorje sponzorjem sponzorjev sponzorji sponzorju
+16	5316	višek	viški višku
+17	5317	produktivnost	produktivnosti
+18	5318	prepoznavanje	prepoznavanju
+19	5319	napajanje	napajanja
+20	5320	počutje	počutja počutju
+21	5321	vzgojen	vzgojna vzgojne vzgojni vzgojnih vzgojno
+22	5322	zadrega	zadrege zadregi zadrego
+23	5323	blaginja	blaginje blaginjo
+24	5324	slina	sline slini slino
+25	5325	oprati	operejo operemo operite opral oprala
+26	5326	gorenji	gorenja
+27	5327	islam	islama islamom islamu
+28	5328	dovoljevati	dovoljeval dovoljuje
+29	5329	umetnica	umetnice umetnici umetnico
+30	5330	ozdraveti	ozdravel ozdravela ozdraveli ozdravelo ozdravi ozdravijo
+31	5331	prebivališče	prebivališča prebivališčem
+32	5332	mah	maha mahom mahu
+33	5333	londonski	londonske londonskega londonskem londonskih londonsko
+34	5334	kamin	kamina kamine kaminom kaminov kaminu
+35	5335	kočevski	kočevska kočevske kočevskega kočevskem kočevskih kočevsko
+36	5336	saden	sadna sadne sadnega sadni sadnih sadnim sadno
+37	5337	očesen	očesna očesne očesnega očesni očesnih očesno
+38	5338	izolacija	izolacije izolacijo
+39	5339	predpostavka	predpostavke predpostavki predpostavko
+40	5340	dekorativen	dekorativna dekorativne dekorativni dekorativnih dekorativno
+41	5341	atom	atoma atome atomi atomom atomov atomu
+42	5342	nezavest	nezavesti
+43	5343	prestar	prestara prestare prestari prestaro
+44	5344	gaj	gaja gaje gajem gaju
+45	5345	pravilnik	pravilnika pravilnikom pravilniku
+46	5346	sperma	sperme spermi spermo
+47	5347	rudar	rudarja rudarje rudarjem rudarjev rudarji rudarjih
+48	5348	ignorirati	ignorira ignoriral ignorirali
+49	5349	osredotočati	osredotoča osredotočamo
+50	5350	preiskovalen	preiskovalna preiskovalne preiskovalnega preiskovalnem preiskovalnemu preiskovalni preiskovalnih preiskovalnim preiskovalno
+51	5351	dopolnjevati	dopolnjevala dopolnjevali dopolnjuje dopolnjujejo dopolnjujeta
+52	5352	kalcij	kalcija kalcijem
+53	5353	povest	povedli povesti
+54	5354	drža	drže držo
+55	5355	slikoven	slikovna slikovne slikovnega slikovni slikovnih slikovno
+56	5356	večkraten	večkratna večkratne večkratnega večkratni večkratnih večkratnim večkratno
+57	5357	obvarovati	obvaroval obvarovala obvarovali obvarovalo obvaruje obvarujejo
+58	5358	sijaj	sijaja sijajem sijaju
+59	5359	šofer	šoferja šoferjem šoferjev šoferji šoferju
+60	5360	prekinjen	prekinjena prekinjeni prekinjeno
+61	5361	prirejati	prireja prirejajo prirejala prirejali
+62	5362	listek	listka listke listki listkih listkov
+63	5363	razvijanje	razvijanja razvijanjem razvijanju
+64	5364	počaščen	počaščena počaščenega
+65	5365	opus	opusa
+66	5366	borovnica	borovnic borovnicah borovnicami borovnice borovnici borovnico
+67	5367	zastrupiti	zastrupil zastrupila
+68	5368	razvrstitev	razvrstitve razvrstitvi
+69	5369	odseliti	odselil odselila odselili odseliš
+70	5370	zaobljuba	zaobljube zaobljubi zaobljubo
+71	5371	lepilo	lepil lepila lepili lepilom
+72	5372	prislužiti	prisluži prislužil prislužila prislužili
+73	5373	zmagovalka	zmagovalke zmagovalki zmagovalko
+74	5374	raztopina	raztopine raztopini raztopino
+75	5375	razveseliti	razveseli razveselil razveselila razveselili razveselilo razveselita
+76	5376	izstrelitev	izstrelitve izstrelitvi
+77	5377	raztezati	razteza raztezajo
+78	5378	obtožnica	obtožnic obtožnicami obtožnice obtožnici obtožnico
+79	5379	nadmorski	nadmorska nadmorske
+80	5380	kolikšen	kolikšna kolikšne kolikšnem kolikšni kolikšno
+81	5381	predpisan	predpisana predpisane predpisanega predpisani predpisanih predpisanim predpisano
+82	5382	nadomeščati	nadomešča nadomeščajo nadomeščal nadomeščala nadomeščali
+83	5383	proslaviti	proslavijo proslavil proslavila proslavili proslavita
+84	5384	seznanjen	seznanjena seznanjeni
+85	5385	odmev	odmeva odmeve odmevi odmevov
+86	5386	paluba	palubi palubo
+87	5387	obtok	obtoka
+88	5388	kadrovski	kadrovska kadrovske kadrovskega kadrovskih kadrovsko
+89	5389	škandal	škandala škandali škandalih škandalom škandalov
+90	5390	ognjen	ognjene ognjenem ognjeni ognjenimi
+91	5391	zemljiški	zemljiške zemljiških zemljiško
+92	5392	pripravek	pripravka pripravke pripravki pripravkov
+93	5393	sestrica	sestric sestrici sestrico
+94	5394	prerasti	prerasel prerasla prerasli preraslo preraste
+95	5395	zastopnik	zastopnika zastopnike zastopniki zastopniku
+96	5396	sproščati	sprošča sproščajo
+97	5397	računalništvo	računalništva računalništvu
+98	5398	negotovost	negotovosti
+99	5399	runda	rundo
+100	5400	pritiskati	pritiskajo pritiskajte pritiskal pritiskala pritiskali pritiskate

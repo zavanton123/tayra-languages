@@ -1,0 +1,100 @@
+1	7201	proučevanje	proučevanja
+2	7202	izrezati	izrezal izrezali izrežejo izrežem izrežemo izrežete izrežite
+3	7203	sovpadati	sovpada sovpadajo sovpadala
+4	7204	republiški	republiška republiškega republiških
+5	7205	demokratski	demokratska demokratske
+6	7206	materinski	materinske materinskega materinskem materinskim materinsko
+7	7207	terjati	terja terjajo terjala terjali terjalo
+8	7208	zgorel	zgoreli
+9	7209	izvedljiv	izvedljiva izvedljive izvedljivo
+10	7210	pralen	pralna pralnega pralnem pralni pralnih pralnim
+11	7211	nakupovanje	nakupovanja nakupovanjem nakupovanju
+12	7212	konvoj	konvoja konvoje
+13	7213	nagovor	nagovori nagovorom nagovoru
+14	7214	postrežba	postrežbe postrežbi postrežbo
+15	7215	zaupnost	zaupnosti
+16	7216	kopičenje	kopičenja
+17	7217	gotovost	gotovostjo
+18	7218	zaspan	zaspana zaspane zaspanega zaspanem zaspani zaspano
+19	7219	impulz	impulza impulzi impulzov
+20	7220	prirejen	prirejena prirejene prirejeni prirejenih
+21	7221	segment	segmenta segmente segmenti segmentov segmentu
+22	7222	farmacija	farmacije farmaciji farmacijo
+23	7223	manjkajoč	manjkajoče manjkajočega manjkajoči manjkajočo
+24	7224	ogaben	ogabna
+25	7225	zakrament	zakramenta zakramente zakramentom zakramentu
+26	7226	namakanje	namakanja
+27	7227	nezavesten	nezavestna nezavestnega nezavestno
+28	7228	poraženec	poraženca poražence poražencem poražencev poraženci poražencu
+29	7229	utrjevanje	utrjevanja utrjevanju
+30	7230	raček	račka račke rački račko
+31	7231	glasbilo	glasbila glasbili
+32	7232	sultan	sultana sultanu
+33	7233	okostje	okostij okostja okostjem okostji okostju
+34	7234	produkcijski	produkcijska produkcijske produkcijskih
+35	7235	grščina	grščine grščini grščino
+36	7236	strpnost	strpnosti
+37	7237	onesposobiti	onesposobi onesposobila onesposobili
+38	7238	kognitiven	kognitivne kognitivnih
+39	7239	obliž	obliža obliže obližem obližev
+40	7240	razkošje	razkošja razkošjem razkošju
+41	7241	dragocenost	dragocenosti
+42	7242	oborožitev	oborožitve oborožitvi oborožitvijo
+43	7243	ograda	ograde ogradi ogrado
+44	7244	čistilen	čistilna čistilne čistilnega čistilni čistilno
+45	7245	posušiti	posuši posušijo posušili posušimo
+46	7246	spogledovati	spogledoval spogledovala spogledovali spogledovat spogleduj spogleduje spogledujejo spogledujem spogledujeta spogledujete spogledujeva spogleduješ spogledujte
+47	7247	figa	figah figami fige figo
+48	7248	naspati	naspal
+49	7249	izpostavljati	izpostavlja izpostavljal izpostavljaš
+50	7250	celičen	celična celične celični
+51	7251	termalen	termalna termalni termalnih termalno
+52	7252	slovničen	slovnična slovnične slovnični slovničnih slovnično
+53	7253	krokodil	krokodile krokodili krokodilom
+54	7254	hruška	hrušk hruške hruški hruško
+55	7255	poštar	poštarja poštarjem poštarju
+56	7256	soboten	sobotna sobotne sobotnega sobotnem sobotni sobotnih sobotno
+57	7257	zaključevati	zaključeval zaključevali zaključuje zaključujem
+58	7258	veren	verne
+59	7259	nizozemsko	
+60	7260	čaša	čaš čaše čaši čašo
+61	7261	zaklonišče	zaklonišča zakloniščih
+62	7262	uresničevanje	uresničevanja uresničevanju
+63	7263	zvezati	zvezal zvezali
+64	7264	katedra	katedre katedri
+65	7265	mutacija	mutacij mutacije
+66	7266	kmetovanje	kmetovanja kmetovanjem kmetovanju
+67	7267	farma	farmo
+68	7268	podcenjevati	podcenjeval podcenjevali podcenjuje podcenjujejo podcenjujete
+69	7269	znoj	znoja znojem znoju
+70	7270	potoniti	potone potonemo potonila
+71	7271	presoditi	presodi presodijo presodil presodila presodili presodilo presodite
+72	7272	ujemanje	ujemanja
+73	7273	poguba	pogube pogubi pogubo
+74	7274	cisterna	cistern cisterne cisterno
+75	7275	brki	brkih brkom brkov
+76	7276	posmehovati	posmehoval posmehovali posmehuje posmehujejo posmehujeta
+77	7277	vsemogočen	vsemogočni vsemogočno
+78	7278	strojništvo	strojništva
+79	7279	tekstil	tekstila tekstilom
+80	7280	zavezan	zavezana zavezani zavezanimi
+81	7281	totalen	totalna totalne totalnega totalni
+82	7282	kopičiti	kopiči kopičijo kopičila kopičili
+83	7283	veniti	vene venejo veni
+84	7284	vstopati	vstopajo vstopali vstopaš
+85	7285	materen	materna maternega maternem materni materno
+86	7286	poboj	poboja poboje pobojev poboji
+87	7287	specialist	specialista specialiste specialisti specialistom specialistov specialistu
+88	7288	suverenost	suverenosti
+89	7289	zadaviti	zadavil zadavila
+90	7290	osvobojen	osvobojeni osvobojeno
+91	7291	naklepati	naklepa naklepajo naklepal naklepala naklepali naklepam naklepata naklepate naklepava naklepaš
+92	7292	nekoristen	nekoristna nekoristne nekoristni nekoristnih nekoristno
+93	7293	šolnina	šolnin šolnine šolnino
+94	7294	oživitev	oživitve oživitvi
+95	7295	načrten	načrtna načrtno
+96	7296	kurčev	kurčeva
+97	7297	propaganda	propagande propagando
+98	7298	irsko	
+99	7299	treti	tare tarejo tre trlo
+100	7300	jeziti	jezijo jezila jezili jezimo jezite

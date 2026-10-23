@@ -1,0 +1,100 @@
+1	501	spraviti	spravi spravijo spravil spravila spravile spravili spravilo spravim spravimo spravite spraviš
+2	502	običajen	običajna običajne običajnega običajnem običajnemu običajni običajnih običajnim običajnimi običajno
+3	503	zadeva	zadev zadevah zadevami zadeve zadevi zadevo
+4	504	postaja	postaj postajah postajam postajama postajami postaje postaji postajo
+5	505	dovoliti	dovoli dovolijo dovolil dovolila dovolili dovolimo dovolite dovoliš
+6	506	pravzaprav	
+7	507	poskusiti	poskusi poskusijo poskusil poskusila poskusile poskusili poskusilo poskusim poskusimo poskusit poskusita poskusite poskusiva poskusiš
+8	508	rezultat	rezultata rezultate rezultati rezultatih rezultatom rezultatov rezultatu
+9	509	ideja	idej idejami ideje ideji idejo
+10	510	občutek	občutka občutke občutki občutkih občutkom občutkov občutku
+11	511	čuden	čudna čudne čudnega čudni čudnih čudnim čudno
+12	512	pravilo	pravil pravila pravili pravilih pravilom pravilu
+13	513	gospa	gospe gospem gospemi gospo
+14	514	seznam	seznama sezname seznami seznamih seznamom seznamov seznamu
+15	515	sodelovati	sodeloval sodelovala sodelovale sodelovali sodelovalo sodeluj sodeluje sodelujejo sodelujem sodelujemo sodelujete sodeluješ sodelujmo
+16	516	političen	politična politične političnega političnem političnemu politični političnih političnim političnimi politično
+17	517	pač	
+18	518	barva	barv barvah barvam barvami barve barvi barvo
+19	519	naučiti	nauči naučijo naučil naučila naučili naučilo naučim naučimo naučite naučiš
+20	520	uničiti	uniči uničijo uničil uničila uničile uničili uničilo uničimo uničite uničiš
+21	521	klub	kluba klube klubi klubih klubom klubov klubu
+22	522	odgovor	odgovora odgovore odgovori odgovorih odgovorom odgovorov odgovoru
+23	523	voditi	vodeč vodijo vodil vodila vodile vodili vodilo vodim vodimo vodit vodita vodite vodiva
+24	524	punca	punc punce punci punco
+25	525	pričakovati	pričakoval pričakovala pričakovale pričakovali pričakovalo pričakovat pričakuj pričakuje pričakujejo pričakujem pričakujemo pričakujeta pričakujete pričakujeva pričakuješ pričakujmo pričakujta pričakujte
+26	526	vir	vira vire viri virih virom virov viru
+27	527	žival	živali živalih živalim živaljo živalmi
+28	528	vojska	vojsk vojskah vojskam vojskama vojskami vojske vojski vojsko
+29	529	pripeljati	pripeljal pripeljala pripeljale pripeljali pripeljalo pripelje pripeljejo pripeljem pripeljemo pripelješ pripeljita
+30	530	vpliv	vpliva vplive vplivi vplivih vplivom vplivov vplivu
+31	531	izbrati	izbere izberejo izberem izberemo izbereta izberete izbereva izbereš izberi izberimo izberita izberite izberiva izbral izbrala izbrale izbrali izbralo izbrat
+32	532	meja	mej mejah mejam mejami meje meji mejo
+33	533	preveriti	preveri preverijo preveril preverila preverili preverimo preverit preverite preveriva
+34	534	zunaj	
+35	535	enota	enot enotah enotam enotami enote enoti enoto
+36	536	oziroma	
+37	537	javen	javna javne javnega javnem javnemu javni javnih javnim javnimi javno
+38	538	ujeti	ujame ujamejo ujamem ujamemo ujameta ujamete ujameva ujameš ujel ujela ujele ujeli ujelo ujemi ujemimo ujemita ujemite ujemiva ujet ujeta ujete ujetih ujetimi ujeto
+39	539	tekma	tekem tekmah tekmami tekme tekmi tekmo
+40	540	peljati	peljal peljala peljale peljali peljalo peljat pelje peljejo peljem peljemo peljete peljeva pelješ pelji peljimo peljita peljite peljiva
+41	541	par	para pare pari parih paro parom paroma parov paru
+42	542	napaka	napak napakah napakam napakami napake napaki napako
+43	543	ulica	ulic ulicah ulicam ulicama ulicami ulice ulici ulico
+44	544	pripraviti	pripravijo pripravil pripravila pripravile pripravili pripravilo pripravim pripravimo pripravit pripravita pripravite
+45	545	položaj	položaja položaje položajem položajev položaji položajih položaju
+46	546	vsebovati	vseboval vsebovala vsebovale vsebovali vsebuje vsebujejo vsebujeta
+47	547	nizek	najnižja najnižje najnižjem najnižji najnižjih najnižjimi najnižjo nizka nizke nizkega nizkem nizkemu nizki nizkih nizkim nizkimi nizko niže nižja nižje nižjem nižji nižjih nižjim nižjimi nižjo prenizko
+48	548	sprememba	sprememb spremembah spremembam spremembami spremembe spremembi spremembo
+49	549	jesti	jedel jedla jedle jedli jedlo jedo jej jejmo jejo jejte jem jemo jesta jeste jeva ješ
+50	550	preprosto	najpreprostejša najpreprostejši preprost preprosta preproste preprostega preprosteje preprostejša preprostejše preprostejši preprostem preprostemu preprosti preprostih preprostim preprostimi
+51	551	pogovoriti	pogovori pogovorijo pogovoril pogovorila pogovorile pogovorili pogovorim pogovorimo pogovorit pogovorita pogovorite pogovoriva pogovoriš
+52	552	ustaviti	ustavijo ustavil ustavila ustavile ustavili ustavilo ustavim ustavimo ustavita ustavite
+53	553	končno	
+54	554	društvo	društev društva društvi društvih društvom društvu
+55	555	naraven	naravna naravne naravnega naravnem naravnemu naravni naravnih naravnim naravnimi naravno
+56	556	deloven	delovna delovne delovnega delovnem delovni delovnih delovnim delovnimi delovno
+57	557	zanimiv	najzanimivejši najzanimivejših zanimiva zanimive zanimivega zanimivejša zanimivejše zanimivejši zanimivem zanimivi zanimivih zanimivim zanimivimi zanimivo
+58	558	sled	sledeh sledi sledjo sledmi sledov sledove sledovi sledovih sledu
+59	559	namen	namena namene nameni namenih namenom namenov namenu
+60	560	razmišljati	razmišlja razmišljaj razmišljajo razmišljajte razmišljal razmišljala razmišljale razmišljali razmišljam razmišljamo razmišljata razmišljate razmišljaš
+61	561	pozno	najpozneje pozneje poznejše
+62	562	uraden	uradna uradne uradnega uradnem uradni uradnih uradnim uradnimi uradno
+63	563	vrh	vrha vrhe vrhi vrhom vrhov vrhove vrhovi vrhovih vrhu
+64	564	dom	domom domova domove domovi domovih domovom domu
+65	565	nastati	nastal nastala nastale nastalega nastalem nastali nastalih nastalo nastane nastanejo nastani nastanite nastaniva
+66	566	film	filma filme filmi filmih filmom filmov filmu
+67	567	republika	republik republikah republike republiki republiko
+68	568	volja	volj volje volji voljo
+69	569	šele	
+70	570	šest	šestih
+71	571	splošen	splošna splošne splošnega splošnem splošnemu splošni splošnih splošnim splošnimi splošno
+72	572	stanje	stanj stanja stanjem stanji stanjih stanju
+73	573	najin	najina najine najinega najinem najinemu najini najinih najinim najinima najinimi najino
+74	574	deset	desetih desetim desetimi
+75	575	osnoven	najosnovnejše najosnovnejši osnovna osnovne osnovnega osnovnem osnovnemu osnovni osnovnih osnovnim osnovnimi osnovno
+76	576	študij	študija študijah študijami študije študijem študiji študijo študiju
+77	577	srednji	srednja srednje srednjega srednjem srednjemu srednjih srednjim srednjimi srednjo
+78	578	uspešen	najuspešnejša najuspešnejše najuspešnejšega najuspešnejši najuspešnejših najuspešnejšo uspešna uspešne uspešnega uspešneje uspešnejša uspešnejše uspešnejši uspešnem uspešnemu uspešni uspešnih uspešnim uspešnimi uspešno
+79	579	projekt	projekta projekte projekti projektih projektom projektov projektu
+80	580	politik	politika politike politiki politikih politiko politikom politikov politiku
+81	581	zdravilo	zdravil zdravila zdravili zdravilih zdravilom zdravilu
+82	582	lev	leva leve levega levem levi levih levim levo levom levoma levov levu
+83	583	odprt	odprta odprte odprtega odprtem odprtemu odprti odprtih odprtim odprtimi odprto
+84	584	smer	smereh smeri smerjo smermi
+85	585	vstopiti	vstopi vstopijo vstopil vstopila vstopile vstopili vstopilo vstopim vstopimo vstopit vstopita vstopite vstopiva vstopiš
+86	586	lasten	lastna lastne lastnega lastnem lastnemu lastni lastnih lastnim lastnima lastnimi lastno
+87	587	kriv	kriva krive krivega krivem krivi krivo
+88	588	kakor	koker
+89	589	kulturen	kulturna kulturne kulturnega kulturnem kulturni kulturnih kulturnim kulturnimi kulturno
+90	590	dogodek	dogodka dogodke dogodki dogodkih dogodkom dogodkoma dogodkov dogodku
+91	591	las	lase laseh lasem lasje lasmi
+92	592	odkriti	odkrije odkrijejo odkrijem odkrijemo odkriješ odkrijte odkril odkrila odkrile odkrili odkrilo
+93	593	mnog	mnoga mnoge mnogi mnogih mnogim mnogimi
+94	594	večer	večera večere večeri večerih večerom večeroma večerov večeru
+95	595	igralec	igralca igralce igralcem igralcema igralcev igralci igralcih igralcu
+96	596	roditi	rodi rodijo rodil rodila rodile rodili rodilo rodim rodimo rodit rodita rodite rodiš rojen rojena rojene rojenemu rojeni rojenih rojenim rojeno
+97	597	tla	tal tleh tlemi tlom
+98	598	počasi	
+99	599	motiti	moti motijo motil motila motile motili motilo motim motita motiš
+100	600	umor	umora umore umori umorih umorom umoroma umorov umoru

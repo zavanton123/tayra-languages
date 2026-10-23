@@ -1,0 +1,100 @@
+1	401	živjo	
+2	402	sreča	sreče sreči srečo
+3	403	uporabiti	uporabi uporabijo uporabil uporabila uporabile uporabili uporabilo uporabim uporabimo uporabit uporabita uporabite uporabiva uporabiš
+4	404	vloga	vlog vlogah vlogami vloge vlogi vlogo
+5	405	resničen	resnična resnične resničnega resničnejši resničnem resničnemu resnični resničnih resničnim resničnimi resnično
+6	406	mati	mater materah materam materami matere materi materjo
+7	407	varen	najvarnejša najvarnejši varna varne varnega varneje varnejša varnejše varnejši varnem varni varnih varnim varnimi varno
+8	408	cesta	cest cestah cestam cestami ceste cesti cesto
+9	409	slabo	najslabše preslabo slabše
+10	410	slediti	slede sledi sledijo sledil sledila sledile sledili sledilo sledim sledimo sledit sledita sledite slediva slediš
+11	411	sranje	sranja sranjem sranju
+12	412	tretji	tretja tretje tretjega tretjem tretjemu tretjih tretjim tretjo
+13	413	sestra	sester sestrah sestram sestrama sestrami sestre sestri sestro
+14	414	vseeno	vseen
+15	415	kratek	krajša krajše krajšega krajšem krajši krajših krajšim krajšimi krajšo kratka kratke kratkega kratkem kratki kratkih kratkim kratkimi kratko najkrajša najkrajše najkrajšem najkrajši najkrajšo
+16	416	klicati	klical klicala klicale klicali klicalo klicat kliče kličejo kličem kličemo kličeta kličete kličeva kličeš kliči kličimo kličita kličite kličiva
+17	417	jasen	jasne jasnega jasneje jasnejša jasnejši jasnem jasnemu jasni jasnih jasnim jasnimi jasno
+18	418	ameriški	ameriška ameriške ameriškega ameriškem ameriškemu ameriških ameriškim ameriškimi ameriško
+19	419	narobe	
+20	420	poln	polna polne polnega polnejše polnem polnemu polni polnih polnimi polno
+21	421	zapustiti	zapusti zapustijo zapustil zapustila zapustile zapustili zapustilo zapustim zapustimo zapustit zapustita zapustite zapustiva zapustiš
+22	422	starš	starša starše staršem staršema staršev starši starših
+23	423	sporočilo	sporočil sporočila sporočilih sporočilom sporočilu
+24	424	milijon	milijona milijone milijoni milijonih milijonom milijonoma milijonov milijonu
+25	425	orožje	orožij orožja orožjem orožji orožjih orožju
+26	426	drugače	
+27	427	bolezen	bolezni boleznih boleznijo boleznim boleznimi
+28	428	mir	mira miri miro mirom miru
+29	429	policija	policij policije policiji policijo
+30	430	naloga	nalog nalogah nalogam nalogami naloge nalogi nalogo nalogov nalogu
+31	431	napad	napada napade napadi napadih napadom napadov napadu
+32	432	daleč	dalj dlje najdalj najdlje
+33	433	izvedeti	izve izvedel izvedela izvedele izvedeli izvedelo izvedo izvejo izvem izvemo izveste izveš
+34	434	povezan	povezana povezane povezanega povezani povezanih povezanim povezanimi povezano
+35	435	potekati	poteka potekajo potekal potekala potekale potekali potekalo
+36	436	manj	
+37	437	nor	nora nore norega norem noremu nori norih norija norimi noro
+38	438	pes	psa pse psi psih psom psoma psov psu
+39	439	pasti	pade padejo padel padem pademo padeta padete padeva padeš padi padite padla padle padlega padli padlih padlim padlo pase pasejo pasel pasem paseš pasi pasla pasli
+40	440	veljati	velja veljajo veljal veljala veljale veljali veljalo veljamo veljata
+41	441	mednaroden	mednarodna mednarodne mednarodnega mednarodnem mednarodnemu mednarodni mednarodnih mednarodnim mednarodnimi mednarodno
+42	442	rabiti	rab rabi rabijo rabil rabila rabile rabili rabilo rabim rabimo rabita rabite rabiva rabiš
+43	443	zdravnik	zdravnika zdravnike zdravniki zdravnikih zdravnikom zdravnikoma zdravnikov zdravniku
+44	444	čisto	
+45	445	zabava	zabav zabavah zabavam zabavama zabavami zabave zabavi zabavo
+46	446	moč	močeh močem močjo močmi
+47	447	poskrbeti	poskrbel poskrbela poskrbele poskrbeli poskrbelo poskrbi poskrbijo poskrbimo poskrbite
+48	448	stoletje	stoletij stoletja stoletjem stoletjema stoletji stoletjih stoletju
+49	449	preklet	preklel preklete prekleti prekleto
+50	450	kasno	kasneje najkasneje
+51	451	spati	spal spala spale spali spalo spat spi spijo spim spimo spita spiva spiš
+52	452	paziti	pazi pazijo pazil pazila pazili pazilo pazim pazimo pazita pazite paziš
+53	453	prvič	
+54	454	bati	bal bala bali balo boječ boji bojijo bojim bojimo bojita bojite bojiva bojiš
+55	455	pol	pola polom poloma polov polu
+56	456	zdravo	
+57	457	medtem	
+58	458	jutri	
+59	459	organizacija	organizacij organizacijah organizacijam organizacijami organizacije organizaciji organizacijo
+60	460	priložnost	priložnosti priložnostih priložnostim priložnostjo priložnostmi
+61	461	telefon	telefona telefone telefoni telefonih telefonom telefonov telefonu
+62	462	kri	krvi krvjo
+63	463	črn	črna črne črnega črnem črnemu črni črnih črnim črnimi črno
+64	464	skupen	skupna skupne skupnega skupnem skupnemu skupni skupnih skupnim skupnimi skupno
+65	465	zemlja	zemelj zemlje zemlji zemljo
+66	466	drag	draga drage dragega dragem dragemu dragi dragih dragim dragimi dražja dražje dražji dražjo najdražja najdražjega najdražji najdražjih najdražjimi najdražjo
+67	467	izmed	
+68	468	doseči	dosegel dosegla dosegle dosegli doseglo doseže dosežejo dosežem dosežemo dosežete
+69	469	raje	rajši
+70	470	cerkev	cerkva cerkvah cerkvam cerkvami cerkve cerkvi cerkvijo
+71	471	celoten	celotna celotne celotnega celotnem celotnemu celotni celotnih celotnim celotno
+72	472	določen	določena določene določenega določenem določenemu določeni določenih določenim določenimi določeno
+73	473	glasba	glasbe glasbi glasbo glazba
+74	474	ponoven	ponovna ponovne ponovnega ponovnem ponovnemu ponovni ponovnim ponovno
+75	475	točen	točna točne točnega točneje točni točnih točno
+76	476	nositi	nosi nosijo nosil nosila nosile nosili nosilih nosilo nosim nosimo nosit nosita nosite nosiva nost
+77	477	štiri	
+78	478	kljub	kijub
+79	479	ugotoviti	ugotovi ugotovijo ugotovil ugotovila ugotovili ugotovilo ugotovim ugotovimo ugotovita ugotovite
+80	480	noga	nog nogah nogam nogama nogami noge nogi nogo
+81	481	preko	
+82	482	stranka	strank strankah strankam strankama strankami stranke stranki stranko
+83	483	mesten	mestna mestne mestnega mestnem mestnemu mestni mestnih mestnim mestnimi mestno
+84	484	sedeti	sedel sedela sedele sedeli sedelo sedet sedi sedijo sedim sedimo sedita sedite sediva sediš
+85	485	cel	cela cele celega celem celemu celi celih celim celimi
+86	486	precej	
+87	487	gotov	gotova gotovi gotovo
+88	488	letalo	letal letala letali letalih letalom letalu
+89	489	pesem	pesmi pesmih pesmijo pesmimi
+90	490	bel	bela bele belega belem belemu beli belih belim belimi belo
+91	491	vlada	vlad vladah vladam vladami vlade vladi
+92	492	rdeč	rdeča rdeče rdečega rdečem rdečemu rdeči rdečih rdečim rdečimi rdečo
+93	493	živ	žive živega živem živemu živih živima živimi živo
+94	494	tja	
+95	495	popoln	najpopolnejša popolna popolne popolnega popolnejše popolnejši popolnem popolnemu popolni popolnih popolnim popolnimi popolno
+96	496	nagrada	nagrad nagradah nagradami nagrade nagradi nagrado
+97	497	postaviti	postavi postavijo postavil postavila postavile postavili postavilo postavim postavimo postavite postaviš
+98	498	obraz	obraza obraze obrazi obrazih obrazom obrazoma obrazov obrazu
+99	499	popolnoma	
+100	500	nadaljevati	nadaljeval nadaljevala nadaljevale nadaljevali nadaljevalo nadaljuje nadaljujejo nadaljujem nadaljujemo nadaljujeta nadaljujete nadaljujmo nadaljujte

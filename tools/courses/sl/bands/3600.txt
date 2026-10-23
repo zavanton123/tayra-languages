@@ -1,0 +1,100 @@
+1	3501	prijava	prijav prijavah prijavami prijave prijavi prijavo
+2	3502	čebela	čebel čebelah čebelam čebelami čebele čebeli čebelo
+3	3503	gospodinjstvo	gospodinjstev gospodinjstva gospodinjstvih gospodinjstvu
+4	3504	potrjevati	potrjuje potrjujejo potrjujemo potrjujeta
+5	3505	princip	principe principi principih principov principu
+6	3506	navesti	navede navedel navedem navedemo navedi navedite navedla navedli navedlo
+7	3507	opredeljen	opredeljena opredeljene opredeljenih opredeljeno
+8	3508	pita	pitah pitami pite pito
+9	3509	priseči	prisegel prisegla prisegli
+10	3510	obseden	obsedena obsedeni obsedno
+11	3511	leči	legel legla legli leglo leglu lezi leč leže ležejo ležem
+12	3512	svinja	svinj svinjah svinje svinjo
+13	3513	zmožnost	zmožnosti zmožnostih zmožnostim zmožnostmi
+14	3514	podeželje	podeželja podeželju
+15	3515	vmesen	vmesna vmesne vmesnega vmesnem vmesni vmesnih vmesnim vmesnimi vmesno
+16	3516	povrniti	povrne povrnejo povrnem povrnil povrnila povrnili povrnilo povrnimo
+17	3517	vojvoda	vojvode vojvodi vojvodinja vojvodo
+18	3518	božanski	božanska božanske božanskega božanskem božanskemu božanskih božanskim božanskimi božansko
+19	3519	deska	deskah deskam deskami deske deski desko
+20	3520	posestvo	posestev posestva posestvu
+21	3521	sejem	sejma sejme sejmi sejmih sejmom sejmov sejmu
+22	3522	vpiti	vpij vpije vpijejo vpijem vpijemo vpijeta vpijete vpijeva vpiješ vpijta vpijte vpil vpila vpile vpili vpilo vpit
+23	3523	obsoditi	obsodi obsodil obsodila obsodili obsodilo
+24	3524	kaos	kaosa kaosom kaosu
+25	3525	turneja	turnej turneje turneji turnejo
+26	3526	oddati	odda oddal oddala oddali oddam oddamo oddaš
+27	3527	zaslišati	zaslišal zaslišala zaslišali zaslišalo zasliši zaslišijo zaslišim zaslišimo
+28	3528	paša	paše paši pašo
+29	3529	zmeren	zmerne zmernem zmerni zmernih zmernim zmerno
+30	3530	pripor	pripora priporu
+31	3531	zmanjšan	zmanjšana zmanjšane zmanjšanega zmanjšani zmanjšanim zmanjšano
+32	3532	odeja	odej odejah odejami odeje odeji odejo
+33	3533	bik	bika bike biki bikih bikom biku
+34	3534	tepec	tepci
+35	3535	pobočje	pobočja pobočjih pobočju
+36	3536	zelenjava	zelenjave zelenjavi zelenjavo
+37	3537	selitev	selitve selitvi selitvijo
+38	3538	ladija	ladij ladijo
+39	3539	vremenski	vremenska vremenske vremenskih vremenskim vremenskimi vremensko
+40	3540	šah	šaha šahom šahov šahu
+41	3541	opredeliti	opredeli opredelijo opredelil opredelila opredelili opredelilo opredelimo
+42	3542	raziti	razidejo razideva razšel razšla razšli
+43	3543	pripravljenost	pripravljenosti pripravljenostjo
+44	3544	urejanje	urejanja urejanjem urejanju
+45	3545	maček	mački mačkom mačkov mačku
+46	3546	ubogati	ubogaj ubogal ubogala
+47	3547	zaporeden	zaporedna zaporedne zaporedni zaporednih zaporednimi zaporedno
+48	3548	prepovedati	prepove prepovedal prepovedala prepovedali prepovedalo prepovedo prepoveš
+49	3549	gasilski	gasilska gasilske gasilskega gasilskem gasilskih gasilsko
+50	3550	vsebnost	vsebnosti vsebnostjo
+51	3551	mišljenje	mišljenja mišljenju
+52	3552	krožen	krožna krožne krožnega krožnem krožni krožnih krožno
+53	3553	sovražen	sovražna sovražne sovražnem sovražni sovražnih sovražnim sovražno
+54	3554	prevajanje	prevajanja prevajanjem prevajanju
+55	3555	dolgotrajen	dolgotrajna dolgotrajnega dolgotrajnem dolgotrajni dolgotrajnih dolgotrajno
+56	3556	običaj	običaja običaje običajem običajev običaji običajih običaju
+57	3557	ogroziti	ogrozi ogrozijo ogrozil ogrozila ogrozile ogrozili ogrozilo ogrozim ogrozimo ogrozite ogroziš
+58	3558	podružnica	podružnic podružnicah podružnice podružnici podružnico
+59	3559	promocija	promocije promociji promocijo
+60	3560	prevzem	prevzema prevzeme prevzemom prevzemov prevzemu
+61	3561	izpeljati	izpeljal izpeljala izpeljale izpeljali izpelje izpeljejo izpeljem izpelji izpeljimo izpeljite izpeljiva
+62	3562	uradnik	uradnika uradnike uradniki uradnikom uradnikov
+63	3563	odvrniti	odvrne odvrnete odvrnil odvrnila odvrnile odvrnili odvrnilo
+64	3564	rez	reza reze rezi rezu
+65	3565	lažnivec	lažnivca lažnivce lažnivcem lažnivcev lažnivci lažnivcu
+66	3566	hormon	hormona hormoni hormonov
+67	3567	post	posta postom postu
+68	3568	spekter	spektra spektrom spektru
+69	3569	nameren	namerna namerne namerni namerno
+70	3570	zapisek	zapiska zapiske zapiski zapiskov
+71	3571	potomec	potomca potomce potomcem potomcev potomci
+72	3572	vabilo	vabila vabilih vabilu
+73	3573	celina	celin celinah celine celini celino
+74	3574	dvajseti	dvajsetega dvajsetem dvajsetih
+75	3575	surov	surova surove surovega surovem surovi surovih surovim surovimi surovo
+76	3576	književnost	književnosti književnostjo
+77	3577	odstop	odstopa odstopom odstopu
+78	3578	tepsti	tepe tepejo tepem tepemo tepeta tepete tepeva tepeš tepi tepite tepla teple tepli teplo tepst
+79	3579	košarka	košarke košarki košarko
+80	3580	filozofski	filozofske filozofskih filozofsko
+81	3581	varuška	varušk varuške varuško
+82	3582	odpor	odpora odporom odporu
+83	3583	odražati	odraža odražajo odražalo
+84	3584	presenetljiv	presenetljiva presenetljive presenetljivega presenetljivem presenetljivi presenetljivih presenetljivo
+85	3585	širitev	širitve širitvi širitvijo
+86	3586	upravičen	upravičena upravičene upravičeni upravičenih upravičeno
+87	3587	zdravnica	zdravnice zdravnici zdravnico
+88	3588	kirurg	kirurga kirurgi
+89	3589	toploten	toplotna toplotne toplotni toplotno
+90	3590	posredovanje	posredovanja posredovanjem posredovanju
+91	3591	meritev	meritvah meritve
+92	3592	rima	rimah rimam rimami rime rimo
+93	3593	napadati	napadajo napadal napadala napadali napadate napadaš
+94	3594	motoren	motorna motorne motornega motorni motornih motornim motornimi motorno
+95	3595	komunist	komunista komuniste komunisti komunistom komunistov
+96	3596	odpuščanje	odpuščanja odpuščanju
+97	3597	kokain	kokaina
+98	3598	gibati	giblje gibljejo
+99	3599	evo	
+100	3600	tolpa	tolp tolpe

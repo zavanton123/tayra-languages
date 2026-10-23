@@ -1,0 +1,100 @@
+1	5801	pulover	puloverja puloverju
+2	5802	mesen	meseno mesne mesni mesnih mesnim mesno
+3	5803	plačilen	plačilna plačilne plačilnega plačilnem plačilni plačilnih plačilno
+4	5804	priklicati	priklical priklicala prikliče
+5	5805	oživeti	oživel oživela oživele oživeli oživelo
+6	5806	žalitev	žalitve
+7	5807	jezdec	jezdeca jezdeci jezdecu
+8	5808	manekenka	manekenk manekenke manekenko
+9	5809	kura	kur kuram kurami kure kuri kuro
+10	5810	trk	trkov trku
+11	5811	piper	
+12	5812	iskra	isker iskre iskri iskro
+13	5813	pankrt	pankrta
+14	5814	zaporen	zaporna zaporne zaporno
+15	5815	ideologija	ideologije ideologiji
+16	5816	plovba	plovbe plovbi plovbo
+17	5817	prenosnik	prenosnika prenosnike prenosniki prenosnikom prenosnikov
+18	5818	dreti	dere derejo derem derete dereš deri derite dre dret dri driva drla drle drli
+19	5819	orientacija	orientacije orientaciji orientacijo
+20	5820	skrajšati	skrajša skrajšal skrajšala skrajšali skrajšalo skrajšamo
+21	5821	izpeljan	izpeljana izpeljane izpeljanih izpeljano
+22	5822	doživljanje	doživljanja doživljanju
+23	5823	nadgradnja	nadgradnje nadgradnji nadgradnjo
+24	5824	zbit	zbil zbila zbili zbita zbiti
+25	5825	tolažba	tolažbo
+26	5826	vodka	vodke vodko
+27	5827	kanalizacija	kanalizacije kanalizacijo
+28	5828	zapestnica	zapestnicami zapestnice
+29	5829	mentalen	mentalne mentalnega mentalni mentalnih mentalno
+30	5830	združba	združb združbe združbi združbo
+31	5831	natakarica	natakarice
+32	5832	poslušanje	poslušanja poslušanjem poslušanju
+33	5833	vajen	vajene vajeni
+34	5834	traktor	traktorja traktorje traktorjem traktorjev traktorji traktorju
+35	5835	samodejen	samodejna samodejnega samodejni samodejno
+36	5836	obkrožati	obkroža obkrožajo obkrožala obkrožali
+37	5837	izvirnik	izvirnika izvirniki izvirniku
+38	5838	kvadrat	kvadrata kvadrate kvadrati kvadratih kvadratom kvadratov kvadratu
+39	5839	izginjati	izginja izginjajo izginjali
+40	5840	jesenski	jesenska jesenske jesenskega jesenskem jesenskih jesensko
+41	5841	zagrabiti	zagrabi zagrabijo zagrabil zagrabila zagrabili zagrabilo zagrabim
+42	5842	strugati	struga struge strugi strugo
+43	5843	sfera	sfer sferah sferi sfero
+44	5844	naraščajoč	naraščajoča naraščajoče naraščajoči naraščajočih naraščajočo
+45	5845	apetit	apetita
+46	5846	peklenski	peklenska peklenske peklenskih peklensko
+47	5847	priključitev	priključitve priključitvi priključitvijo
+48	5848	latinščina	latinščine latinščini latinščino
+49	5849	glasiti	glasi glasijo
+50	5850	najstniški	najstniška najstniških najstniško
+51	5851	zaseči	zasegel zasegla zasegli zaseže
+52	5852	velikodušen	velikodušne velikodušni velikodušno
+53	5853	podaljšek	podaljška podaljšku
+54	5854	vprašljiv	vprašljiva vprašljive vprašljivega vprašljivi vprašljivo
+55	5855	nedeljski	nedeljska nedeljske nedeljskega nedeljskem nedeljskih nedeljsko
+56	5856	loški	loška loškega loškem
+57	5857	premlad	premlada
+58	5858	ukreniti	ukrenejo ukrenil ukrenila ukrenili ukrenimo ukrenite ukreniva
+59	5859	perje	perja perjem
+60	5860	zaviranje	zaviranja zaviranjem zaviranju
+61	5861	buljiti	bulji buljijo buljil buljila buljili buljim buljita buljite buljiva buljiš
+62	5862	spremljevalka	spremljevalk spremljevalke spremljevalko
+63	5863	dirkati	dirka dirkaj dirkajmo dirkajo dirkajva dirkal dirkala dirkali dirkam dirkamo dirkat dirkata dirkava dirkaš
+64	5864	vladajoč	vladajoča vladajoče vladajočega vladajoči vladajočih
+65	5865	okrevati	okreva okrevajo okreval okrevali okrevata
+66	5866	primerjalen	primerjalna primerjalne primerjalni primerjalno
+67	5867	obdelovati	obdeloval obdelovala obdeluje obdelujejo obdelujemo
+68	5868	band	banda
+69	5869	branilec	branilca branilcem branilci
+70	5870	kuverta	kuverte kuverti kuverto
+71	5871	zadušiti	zaduši zadušil zadušili zadušilo
+72	5872	absorbirati	absorbira absorbirajo absorbiral absorbirala absorbiralo
+73	5873	pi	pija piju
+74	5874	predavati	predaval predavali
+75	5875	šiv	šivi šivov
+76	5876	obesek	obeska obeske obeski obeskih obeskom obeskov obesku
+77	5877	povišati	povišal povišala povišali povišalo
+78	5878	petdeseti	petdesetem petdesetih
+79	5879	shod	shoda shode shodi shodih shodu
+80	5880	drevje	drevja drevjem drevju
+81	5881	zaroka	zaroke zaroko
+82	5882	crkniti	crkne crknejo crknem crknemo crkneš crkni crknil crknila crknile crknili crknilo crknit crknite
+83	5883	morilski	morilska morilske morilskih morilsko
+84	5884	nalepka	nalepk nalepkah nalepkami nalepke nalepki nalepko
+85	5885	trčenje	trčenja trčenju
+86	5886	kompromis	kompromisa kompromise kompromisom kompromisov
+87	5887	zet	zeta zete zeti zetom zetu
+88	5888	kapelica	kapelice kapelici kapelico
+89	5889	ekran	ekrana ekranih ekranov ekranu
+90	5890	prijavljen	prijavljena prijavljeni prijavljenih prijavljenimi
+91	5891	potegovati	potegoval potegovala potegovali potegovalo poteguje potegujejo potegujem potegujemo potegujeta potegujete poteguješ
+92	5892	pust	pusta puste pustega pustem pustih pustima pusto
+93	5893	raznovrstnost	raznovrstnosti
+94	5894	morilka	morilko
+95	5895	vezava	vezave vezavi vezavo
+96	5896	pljučen	pljučna pljučne pljučnega pljučnem pljučni pljučnih
+97	5897	romantik	romantika romantike romantiki
+98	5898	aktivist	aktivisti aktivistov
+99	5899	vojašnica	taktirko vojašnice vojašnici vojašnico
+100	5900	jopič	jopičev

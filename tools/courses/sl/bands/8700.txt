@@ -1,0 +1,100 @@
+1	8601	oprijem	oprijema oprijemom
+2	8602	drobovje	drobovja drobovjem drobovju
+3	8603	snemalec	snemalcev snemalci
+4	8604	prezračevanje	prezračevanja
+5	8605	lepilen	lepilnega lepilni lepilnim
+6	8606	mladenka	mladenko
+7	8607	umazati	umazal
+8	8608	alpinist	alpinistov
+9	8609	zamenjevati	zamenjuj zamenjuje zamenjujejo zamenjujemo
+10	8610	kolajna	kolajne kolajno
+11	8611	brisati	brisal briše brišejo
+12	8612	vzpenjati	vzpenja
+13	8613	nedostopen	nedostopna nedostopne nedostopni nedostopno
+14	8614	žilen	žilne žilnih
+15	8615	skromnost	skromnosti
+16	8616	gosenica	gosenic gosenicah gosenicami gosenice gosenici gosenico
+17	8617	maskota	maskote maskoto
+18	8618	razvozlati	razvozla razvozlali
+19	8619	razporediti	razporedi razporedil razporedila razporedite
+20	8620	kemik	kemika kemiki
+21	8621	tekmovalnost	tekmovalnosti
+22	8622	predolg	predolga predolge predolgi
+23	8623	hrustanec	hrustanca
+24	8624	medoseben	medosebne medosebnih
+25	8625	ljubljenec	ljubljenca ljubljence ljubljencev ljubljenci
+26	8626	malarija	malarije malariji malarijo
+27	8627	amaterski	amaterska
+28	8628	oddan	oddana oddane oddanih oddano
+29	8629	glagol	glagola glagole glagoli glagolom glagolov
+30	8630	socialist	socialisti socialistov
+31	8631	nezaupanje	nezaupanja nezaupanjem
+32	8632	petleten	petletnega petletni petletno
+33	8633	plešast	plešasta
+34	8634	manipulacija	manipulacijo
+35	8635	nerešen	nerešena nerešenega nerešenem nerešeni nerešenih nerešeno
+36	8636	seno	senom senu
+37	8637	izdatek	izdatke izdatki izdatkih izdatkov
+38	8638	koalicijski	koalicijska koalicijske koalicijskih koalicijsko
+39	8639	vziti	vzide vzšla vzšlo
+40	8640	dokazovanje	dokazovanja
+41	8641	tjulenj	tjulnja tjulnje tjulnjem tjulnjev tjulnji tjulnjih
+42	8642	definiran	definirana
+43	8643	greda	gredah grede
+44	8644	sari	
+45	8645	pralnica	pralnici
+46	8646	godec	godci
+47	8647	folkloren	folklorna folklorne folklornih
+48	8648	ideološki	ideološka ideološke
+49	8649	obeležje	obeležja
+50	8650	zabaviščen	zabaviščne zabaviščnega zabaviščnem zabaviščni
+51	8651	zbiralec	zbiralci zbiralcu
+52	8652	planiranje	planiranja planiranju
+53	8653	izmikati	izmika izmikal izmikali
+54	8654	gniti	gnij gnije gnijejo gnijem gnijemo gnijeta gnijete gniješ
+55	8655	vlek	vleka vleke vleko
+56	8656	jazbec	jazbeca jazbecem jazbecev jazbeci
+57	8657	srbščina	srbščine srbščini srbščino
+58	8658	poplaven	poplavne poplavno
+59	8659	potolažiti	potolaži potolažil potolažila potolažili potolažite
+60	8660	animiran	animiranega animirani
+61	8661	kiparstvo	kiparstva
+62	8662	nelegalen	nelegalna nelegalne nelegalnega nelegalni nelegalno
+63	8663	cveteti	cvetela cvetijo
+64	8664	razsoditi	razsodi razsodil razsodila razsodili razsodilo razsodim razsodite
+65	8665	norveško	
+66	8666	informativen	informativna informativnega informativni
+67	8667	naveza	naveze navezi
+68	8668	domorodec	domorodcev domorodci
+69	8669	zasledovanje	zasledovanja zasledovanjem
+70	8670	sušenje	sušenja
+71	8671	odpluti	odplujemo odpluli
+72	8672	zadovoljiv	zadovoljive zadovoljivo
+73	8673	liker	likerja likerjem
+74	8674	mevža	mevžo
+75	8675	očaran	očarana očarani
+76	8676	obris	obrisa obrise obrisi obrisom
+77	8677	nagovarjati	nagovarja nagovarjajo nagovarjal
+78	8678	donator	donatorjev
+79	8679	preložiti	preloži preložil preložila preložili
+80	8680	prepoznan	prepoznane prepoznanih
+81	8681	avla	avli avlo
+82	8682	klor	klora klorom kloru
+83	8683	dravski	dravskem
+84	8684	kontinuiteta	kontinuitete kontinuiteto
+85	8685	parjenje	parjenja parjenju
+86	8686	grozota	grozote
+87	8687	salo	sala salom salu
+88	8688	pokojnik	pokojnika pokojniki pokojnikov pokojnikove pokojnikovo pokojniku
+89	8689	moravski	moravske moravskih
+90	8690	zavračanje	zavračanja zavračanju
+91	8691	preskus	preskusov preskusu
+92	8692	preklic	preklicu
+93	8693	pomarančen	pomarančnega pomarančni pomarančnim pomarančno
+94	8694	natakniti	natakne nataknemo nataknil nataknila nataknite
+95	8695	gravitacijski	gravitacijska gravitacijske gravitacijskega gravitacijskem gravitacijskih gravitacijsko
+96	8696	zaznamovan	zaznamovano
+97	8697	krom	kroma
+98	8698	krama	krame kramo
+99	8699	dovzeten	dovzetna dovzetni
+100	8700	zazvoniti	zazvoni zazvonil zazvonilo

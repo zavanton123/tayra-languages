@@ -1,0 +1,100 @@
+1	9801	fontana	fontani
+2	9802	dohiteti	dohitel
+3	9803	čik	čika čike čiki čikov čiku
+4	9804	berač	beračev
+5	9805	kosec	kosce koscev
+6	9806	petkov	petkova petkove petkovega petkovem petkovi petkovo
+7	9807	krmiljenje	
+8	9808	nezanesljiv	nezanesljive nezanesljivo
+9	9809	ponarediti	ponaredi ponaredijo ponaredila ponaredili ponaredim ponaredimo ponaredite ponarediš
+10	9810	cviliti	cvileč cvili cvilijo cvilil cvilila cvilili cvilim cviliš
+11	9811	napovedovanje	napovedovanja napovedovanju
+12	9812	krutost	krutostjo
+13	9813	sliva	sliv slivami slive slivo
+14	9814	zrnje	zrnja
+15	9815	mak	maka makom
+16	9816	kolosej	koloseju
+17	9817	kondicija	kondicije kondiciji kondicijo
+18	9818	preglobok	pregloboka pregloboke pregloboko
+19	9819	veti	vel vela
+20	9820	kompleten	kompletna kompletne kompletno
+21	9821	oktobrski	oktobrsko
+22	9822	izstreljen	izstreljene izstreljeni
+23	9823	knjižničarka	knjižničarke knjižničarko
+24	9824	sapnik	sapnika sapniku
+25	9825	protislovje	protislovij protislovja
+26	9826	korakati	korakajo korakal korakala korakali
+27	9827	križarski	križarske
+28	9828	sadika	sadik sadike
+29	9829	predzadnji	predzadnja
+30	9830	stolček	stolčke stolčku
+31	9831	zbiratelj	zbiratelja zbirateljev zbiratelji
+32	9832	skleroza	sklerozo
+33	9833	taliban	talibane talibani talibanih
+34	9834	servisen	servisna servisne servisni servisnih servisno
+35	9835	gostinski	gostinskem gostinskih gostinsko
+36	9836	žvečilka	žvečilk žvečilke žvečilki žvečilko
+37	9837	demografski	demografsko
+38	9838	vlaknina	vlaknin vlakninami vlaknine
+39	9839	brin	brina brini
+40	9840	rotacija	rotacije rotaciji rotacijo
+41	9841	koran	koranu
+42	9842	blodnja	blodnjah blodnjam blodnjami blodnje blodnjo
+43	9843	občestvo	občestva
+44	9844	solaren	solarna solarne solarnega solarnem solarni solarnih solarno
+45	9845	ustreznost	ustreznosti
+46	9846	jezditi	jezdi
+47	9847	agresija	agresije agresiji
+48	9848	rozina	rozin rozine
+49	9849	spodbuden	spodbudna spodbudne spodbudnega spodbudni spodbudno
+50	9850	lovorika	lovorikah lovorike lovoriko
+51	9851	poznanstvo	poznanstev poznanstva
+52	9852	slepič	slepiča
+53	9853	asociacija	asociacij asociacije asociacijo
+54	9854	potapljaški	potapljaška potapljaške potapljaško
+55	9855	habsburški	habsburške
+56	9856	obok	oboki obokom
+57	9857	brv	brvi
+58	9858	beliti	belil belila belili belilo belilom belilu belimo belite
+59	9859	premec	premca premcu
+60	9860	stekati	steka stekajo
+61	9861	matematik	matematikov
+62	9862	drevesen	drevesnih
+63	9863	trški	trške trško
+64	9864	severnoameriški	severnoameriške severnoameriških
+65	9865	reklamen	reklamna reklamne reklamnega reklamnem reklamni reklamnih reklamno
+66	9866	šaljivec	šaljivci
+67	9867	načrtovalec	načrtovalcev načrtovalci
+68	9868	graditev	graditvi
+69	9869	materničen	materničnega materničnem maternični
+70	9870	razumljen	razumljena razumljeni razumljeno
+71	9871	obči	obče
+72	9872	zanemarljiv	zanemarljive zanemarljivi zanemarljivo
+73	9873	deseterica	deseterico
+74	9874	umestitev	
+75	9875	obleganje	obleganjem
+76	9876	mafijski	mafijske mafijskega mafijskih mafijsko
+77	9877	domoljub	
+78	9878	inkvizicija	inkvizicije inkviziciji inkvizicijo
+79	9879	kljubovati	kljubovali kljubuje kljubujejo
+80	9880	vsakdan	vsakdana vsakdanu
+81	9881	bojazen	bojazni
+82	9882	nadgraditi	nadgradil
+83	9883	jezikoslovec	jezikoslovci
+84	9884	makro	
+85	9885	kalifornijski	kalifornijska kalifornijskem
+86	9886	negovati	negoval negovala negovali neguj neguje negujejo neguješ
+87	9887	modrc	modrca modrcem
+88	9888	strgati	strga strgaj strgajo strgajte strgale strgam strgamo strganje strgaš
+89	9889	količnik	
+90	9890	tiskati	tiskal tiskali tiskamo
+91	9891	pomenski	pomensko
+92	9892	podnožje	podnožja
+93	9893	sladkorček	sladkorčkov
+94	9894	atribut	atributov
+95	9895	vodovoden	vodovodne vodovodnega vodovodnih vodovodno
+96	9896	razmnoževati	razmnoževal razmnožuje razmnožujemo
+97	9897	manijak	manijakom
+98	9898	pobijanje	pobijanju
+99	9899	ustavljen	ustavljena ustavljene ustavljeno
+100	9900	napovednik	napovednika

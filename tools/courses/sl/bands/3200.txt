@@ -1,0 +1,100 @@
+1	3101	križišče	križišča križiščem križiščih križišču
+2	3102	nogavica	nogavic nogavicah nogavicam nogavicami nogavice nogavici nogavico
+3	3103	okrepiti	okrepi okrepijo okrepil okrepila okrepile okrepili okrepilo okrepim okrepimo
+4	3104	opozarjati	opozarja opozarjajo opozarjal opozarjala opozarjali opozarjam opozarjamo
+5	3105	lakota	lakote lakoti lakoto
+6	3106	travnik	travnika travnike travniki travnikih travnikov travniku
+7	3107	spuščati	spušča spuščajo spuščajte spuščal spuščali spuščam spuščamo
+8	3108	elektrarna	elektrarn elektrarne elektrarni elektrarno
+9	3109	obžalovati	obžaloval obžalovala obžalovali obžaluj obžaluje obžalujejo obžalujem obžalujemo obžalujete obžalujeva obžaluješ obžalujte
+10	3110	odločilen	odločilna odločilne odločilnega odločilnem odločilni odločilnih odločilno
+11	3111	pričati	pričajo pričal pričala pričali pričat pričata
+12	3112	razgled	razgleda razgledi razgledom
+13	3113	priporočilo	priporočil priporočila priporočili
+14	3114	hoja	hoje hoji hojo
+15	3115	petnajst	petnajstih petnajstim petnajstimi
+16	3116	gorenjski	gorenjska gorenjske gorenjskega gorenjskem
+17	3117	mraz	mraza mrazi mrazom mrazu
+18	3118	ptič	ptiča ptiče ptičem ptičev ptiči ptičih ptiču
+19	3119	slikar	slikarja slikarje slikarjem slikarjev slikarji slikarju
+20	3120	organizacijski	organizacijske organizacijskega organizacijskem organizacijskih organizacijsko
+21	3121	praviloma	
+22	3122	univerziteten	univerzitetne univerzitetnega univerzitetni univerzitetnih univerzitetno
+23	3123	spregledati	spregleda spregledajo spregledal spregledala spregledali spregledamo spreglej spreglejte
+24	3124	šok	šoka šoku
+25	3125	upirati	upira upirajo upiral upirala upirali upiralo
+26	3126	skupinski	skupinska skupinske skupinskega skupinskem skupinskih skupinskim skupinsko
+27	3127	dlaka	dlak dlakah dlakam dlakami dlake dlaki dlako
+28	3128	dimenzija	dimenzij dimenzijah dimenzije dimenzijo
+29	3129	komercialen	komercialna komercialne komercialnega komercialnem komercialni komercialnih komercialno
+30	3130	pisan	pisana pisane pisanega pisani pisanih pisanim pisanimi pisano
+31	3131	odvzeti	odvzame odvzamejo odvzamemo odvzel odvzela odvzeli
+32	3132	švedski	švedske švedskega švedskem švedskih švedskim
+33	3133	ukraden	ukradena ukradene ukradenega ukradeni ukradenih ukradenimi ukradeno
+34	3134	združitev	združitve združitvi združitvijo
+35	3135	priročnik	priročnika priročnike priročniki priročnikov priročniku
+36	3136	tamkajšnji	tamkajšnja tamkajšnje tamkajšnjega tamkajšnjem tamkajšnjih tamkajšnjim tamkajšnjimi tamkajšnjo
+37	3137	medijski	medijska medijske medijskega medijskem medijskih medijskim medijsko
+38	3138	mobitel	mobitela mobiteli mobitelu
+39	3139	penis	penisa penise penisi penisih penisom penisov penisu
+40	3140	celjski	celjska celjske celjskega celjskem celjskih celjsko
+41	3141	obroč	obroča obroče obročem obročev obroči obročih obroču
+42	3142	kasen	kasnejše kasnejšega kasnejšem kasnejši kasnejših kasnejšo
+43	3143	vzporeden	vzporedna vzporedne vzporednega vzporedni vzporednih vzporedno
+44	3144	ogljikov	ogljikove ogljikovega ogljikovi ogljikovih ogljikovim ogljikovo
+45	3145	pričakovanje	pričakovanj pričakovanja pričakovanjem pričakovanji pričakovanjih pričakovanju
+46	3146	grafičen	grafična grafične grafičnega grafični grafičnih grafično
+47	3147	firma	firmami firme firmi firmo
+48	3148	vsota	vsot vsotah vsotami vsote vsoti vsoto
+49	3149	uslužbenec	uslužbenca uslužbence uslužbencem uslužbencev uslužbenci uslužbencih uslužbencu
+50	3150	nosečnost	nosečnosti nosečnostjo
+51	3151	glasovati	glasoval glasovala glasovali glasovalo glasuje glasujejo
+52	3152	ustvarjalec	ustvarjalca ustvarjalce ustvarjalcem ustvarjalcev ustvarjalci
+53	3153	mit	mita mite mitih mitom mitov mitu
+54	3154	sveča	sveč svečah svečami sveče sveči svečo
+55	3155	krediten	kreditne kreditnega kreditni kreditnih kreditnimi kreditno
+56	3156	denaren	denarna denarne denarnega denarni denarnih denarno
+57	3157	opazen	opazna opazne opazni opaznih opazno
+58	3158	plen	plena plenom plenu
+59	3159	izračun	izračuna izračune izračuni izračunih izračunom izračunu
+60	3160	oboževalec	oboževalce oboževalcem oboževalcev oboževalci
+61	3161	begunec	begunca begunce beguncem beguncev begunci beguncih beguncu
+62	3162	originalen	originalna originalne originalni originalnih originalnimi originalno
+63	3163	prodajalec	prodajalca prodajalce prodajalcev prodajalci prodajalcih prodajalcu
+64	3164	prizadevati	prizadeva prizadevajo prizadeval prizadevala prizadevali prizadevamo prizadevata prizadevate
+65	3165	pevski	pevske pevskega pevskem pevskih pevsko
+66	3166	škofji	škofja škofje škofjo
+67	3167	poudariti	poudari poudarijo poudaril poudarila poudarili poudarilo poudarim poudarimo poudarite poudariš
+68	3168	zaslišanje	zaslišanja zaslišanjem zaslišanjih zaslišanju
+69	3169	ljubljen	ljubljena ljubljene ljubljenega ljubljeni ljubljenih ljubljeno
+70	3170	definitiven	definitivni definitivno
+71	3171	počiti	počen počeno poči počij počijem počijva počil počila počile počili počilo počit
+72	3172	igrica	igric igrice igrico
+73	3173	naključen	naključna naključne naključnega naključnem naključni naključnih naključnim naključno
+74	3174	poplava	poplav poplavah poplavam poplavami poplave poplavi poplavo
+75	3175	opravljanje	opravljanja opravljanjem opravljanju
+76	3176	veka	vek vekami veke veku
+77	3177	odločen	odločena odločene odločeni odločeno odločna odločnega odločni odločnih odločnim
+78	3178	prižgati	prižgal prižgala prižgali prižge prižgejo prižgemo prižgete prižgeš
+79	3179	zora	zor zore zori zoro
+80	3180	pest	pesteh pesti pestjo pestmi
+81	3181	zamera	zamer zamere zamero
+82	3182	miška	mišk miške miški miško
+83	3183	guma	gumah gumami gume gumo
+84	3184	spoznanje	spoznanj spoznanja spoznanjem spoznanji spoznanju
+85	3185	cikel	cikla ciklu
+86	3186	faks	faksa faksu
+87	3187	strogo	najstrožje strožje
+88	3188	reklama	reklam reklamah reklamami reklame reklamo
+89	3189	buden	budna budne budnega budnem budni budnih budnim budno
+90	3190	mešati	meša mešajo mešajte mešajva mešal mešali mešam mešamo mešat mešata mešate
+91	3191	presti	prede predejo predel predelu predem predi predla prest
+92	3192	samski	samska samske samskega samskih samsko
+93	3193	tovor	tovora tovore tovorom
+94	3194	preprečevanje	preprečevanjem preprečevanju
+95	3195	zdravilen	zdravilna zdravilne zdravilnega zdravilni zdravilnih zdravilno
+96	3196	soseska	soseske soseski
+97	3197	nadarjen	nadarjena nadarjene nadarjenega nadarjenemu nadarjeni nadarjenih nadarjenim nadarjenimi nadarjeno
+98	3198	pedagoški	pedagoške pedagoškega pedagoškem pedagoških pedagoško
+99	3199	varuh	varuha varuhe varuhi varuhom varuhov varuhu
+100	3200	prenova	prenove prenovi prenovo

@@ -1,0 +1,100 @@
+1	8201	nepredstavljiv	nepredstavljiva nepredstavljive nepredstavljivega nepredstavljivem nepredstavljivi nepredstavljivih nepredstavljivo
+2	8202	obkrožiti	obkroži obkrožijo obkrožil obkrožila obkrožili obkrožite obkrožiš
+3	8203	posodobiti	posodobi posodobil posodobila posodobili posodobim posodobite
+4	8204	investitor	investitorja investitorje investitorjem investitorjev investitorji
+5	8205	večerjati	večerjal večerjata
+6	8206	zamah	zamaha zamahih zamahom zamahu
+7	8207	korenček	korenčka
+8	8208	očividec	očividce očividcev očividci
+9	8209	oves	ovsa ovse
+10	8210	plesti	plest plete pletejo pletem pletemo pletete pleteš pletla pletli pletlo
+11	8211	umivati	umiva umivaj umivajo umivajte umivala umivali umivam umivamo umivata umivate umivaš
+12	8212	spotakniti	spotaknem spotaknil spotaknila spotaknili
+13	8213	slaboten	slabotna slabotne slabotnega slabotni slabotnim slabotno
+14	8214	čajen	čajna čajne čajni čajno
+15	8215	telovaditi	telovadi telovadijo telovadila telovadili telovadim telovadimo telovadit telovadite telovadiva telovadiš
+16	8216	obutev	obutve obutvijo
+17	8217	medvedji	medvedje medvedjem medvedjih medvedjo
+18	8218	posmeh	posmeha posmehu
+19	8219	ostrina	ostrine ostrino
+20	8220	mrgoleti	mrgolelo mrgoli
+21	8221	edinost	edinosti
+22	8222	stopati	stopa stopajo stopam stopamo stopata stopate stopaš
+23	8223	gostija	gostij gostije gostiji gostijo
+24	8224	predstavništvo	predstavništev predstavništva
+25	8225	genetik	genetika genetike genetiki genetikov
+26	8226	nabiranje	nabiranja nabiranju
+27	8227	stavben	stavbna stavbnega stavbni stavbno
+28	8228	stoodstoten	stoodstotna stoodstotni stoodstotno
+29	8229	dansko	
+30	8230	tančica	tančic tančice tančico
+31	8231	logistika	logistiko
+32	8232	cvetoč	cvetoče cvetočih
+33	8233	pristnost	pristnosti
+34	8234	izgnanstvo	izgnanstva izgnanstvu
+35	8235	ugladiti	uglajen uglajena uglajene uglajenega uglajeni uglajeno
+36	8236	navezanost	navezanosti
+37	8237	čudesa	čudes
+38	8238	razvajen	razvajena razvajeni razvajenim
+39	8239	cevka	cevk cevke cevko
+40	8240	čebelar	čebelarji
+41	8241	postarati	postaral postarala postaramo
+42	8242	paradoks	paradoksa paradokse paradoksi paradoksov paradoksu
+43	8243	bron	brona bronu
+44	8244	porcelan	porcelana porcelanom
+45	8245	odštevanje	odštevanja
+46	8246	polizati	polizala polizali polizat poliže poližejo poližem poližemo poližete poližeš poliži poližite
+47	8247	poljubljati	poljubljali poljubljam
+48	8248	solist	solisti solistov
+49	8249	slaščica	slaščic slaščicami slaščice slaščico
+50	8250	oboževalka	oboževalkami
+51	8251	odrešenje	odrešenja odrešenju
+52	8252	genialen	genialna
+53	8253	devetnajst	devetnajstih devetnajstimi
+54	8254	umrljivost	umrljivosti
+55	8255	poveljniški	poveljniška poveljniške poveljniškega poveljniško
+56	8256	posodobitev	posodobitvi
+57	8257	biomasa	biomase biomaso
+58	8258	puma	pume pumi pumo
+59	8259	krdelo	krdela
+60	8260	ponašati	ponaša ponašajo
+61	8261	nepristranski	nepristranskega nepristransko
+62	8262	dihalen	dihalnih dihalnimi
+63	8263	halja	halje halji
+64	8264	neučinkovit	neučinkovita neučinkovite neučinkovito
+65	8265	vrstiti	vrstijo vrstile vrstili
+66	8266	nežnost	nežnosti nežnostjo
+67	8267	prepustnica	prepustnic prepustnicami prepustnice prepustnici prepustnico
+68	8268	očitek	očitke očitki očitkov
+69	8269	poplavljen	poplavljena poplavljenih poplavljeno
+70	8270	sestav	sestavu
+71	8271	neprijetnost	neprijetnosti neprijetnostmi
+72	8272	petina	petine petino
+73	8273	izgovarjati	izgovarja izgovarjajo izgovarjali
+74	8274	neškodljiv	neškodljive neškodljivega neškodljivo
+75	8275	flavta	flavt flavte flavto
+76	8276	amulet	amuleta amulete amuleti amuletom amuletov amuletu
+77	8277	potikati	potika potikaj potikajo potikal potikala potikali potikam potikamo potikata potikate potikaš
+78	8278	spoj	spoja spoje spoji
+79	8279	šarm	šarmom
+80	8280	intimnost	intimnosti
+81	8281	original	originala originali originalu
+82	8282	zapeljiv	zapeljiva zapeljive zapeljivim zapeljivo
+83	8283	pomešati	pomeša pomešal pomešali
+84	8284	tlačiti	tlači tlačijo tlačila tlačim
+85	8285	žepen	žepna žepne žepnega žepnem žepni žepnih žepnim žepno
+86	8286	posladek	posladke
+87	8287	rudarjenje	rudarjenja
+88	8288	hitrosten	hitrostni hitrostnih hitrostno
+89	8289	ustaliti	ustali ustalil ustalilo
+90	8290	bajta	bajt bajte bajti bajto
+91	8291	prispodoba	prispodobi prispodobo
+92	8292	učiteljski	učiteljskega
+93	8293	dz	
+94	8294	plavut	plavuti plavutjo
+95	8295	zdravica	zdravic zdravice zdravici zdravico
+96	8296	izpopolniti	izpopolnil izpopolnila izpopolnili
+97	8297	manifestacija	manifestacije manifestacijo
+98	8298	slinavka	slinavke slinavki slinavko
+99	8299	medaljon	medaljona medaljone medaljoni medaljonom medaljonov medaljonu
+100	8300	obveščanje	obveščanja

@@ -1,0 +1,100 @@
+1	3901	pospešiti	pospeši pospešil pospešila pospešili pospešilo pospešite
+2	3902	odprtje	odprtja odprtjem odprtju
+3	3903	sprijazniti	sprijazni sprijaznijo sprijaznil sprijaznila sprijaznili sprijaznite sprijazniš
+4	3904	četrtina	četrtine četrtini četrtino
+5	3905	predan	predana predanega predani predano
+6	3906	pozdravljati	pozdravlja pozdravljajo pozdravljala pozdravljam pozdravljamo
+7	3907	glavobol	glavobola glavobole glavobolih
+8	3908	menih	meniha menihe menihi menihih menihom menihov menihova menihove menihu
+9	3909	ključavnica	ključavnic ključavnicah ključavnicami ključavnice ključavnici ključavnico
+10	3910	interpretacija	interpretacij interpretacije interpretaciji interpretacijo
+11	3911	trup	trupa trupe trupom trupu
+12	3912	mehanski	mehanske mehanskega mehanskih mehanskimi mehansko
+13	3913	sedlo	sedla sedlih sedlom sedlu
+14	3914	kriterij	kriterija kriterije kriterijem kriterijev kriteriji kriterijih kriteriju
+15	3915	studio	studia studiih studiu
+16	3916	dunajski	dunajska dunajske dunajskega dunajskem dunajskih dunajsko
+17	3917	nikakršen	nikakršna nikakršne nikakršnega nikakršnem nikakršnih nikakršno
+18	3918	porod	poroda porode porodih porodom porodov porodu
+19	3919	slikanje	slikanja slikanjem slikanju
+20	3920	zbornica	zbornice zbornici zbornico
+21	3921	boginja	boginj boginjah boginje boginji boginjo
+22	3922	socialističen	socialistična socialistične socialističnega socialistični socialističnih socialistično
+23	3923	predhodnik	predhodnika predhodniki predhodnikom predhodnikov predhodniku
+24	3924	vlažen	vlažna vlažne vlažnem vlažni vlažnih vlažnim vlažno
+25	3925	padalo	padal padala padali padalom padalu
+26	3926	starka	stark starkam starke starki starko
+27	3927	zanesti	zanese zanesel zanesem zanesete zaneseš zanesla zanesli zaneslo
+28	3928	bodoč	bodoče bodočega bodočih bodočo
+29	3929	aretiran	aretiranih
+30	3930	pričakovan	pričakovana pričakovane pričakovanega pričakovanem pričakovani pričakovanih pričakovanim pričakovano
+31	3931	pihati	piha pihaj pihajo pihajte pihal pihala pihali pihalo piham pihamo pihate pihaš
+32	3932	razširitev	razširitve razširitvi razširitvijo
+33	3933	postreči	postregel postregla postregle postregli postrezi postrezite postrežejo postrežemo postrežete
+34	3934	zadelati	zadela
+35	3935	vstaviti	vstavi vstavijo vstavil vstavila vstavili vstavim vstavimo vstavit vstavita vstavite vstaviva vstaviš
+36	3936	odporen	odporna odporne odporni odporno
+37	3937	dandanes	
+38	3938	švicarski	švicarska švicarske švicarskega švicarskem švicarskih švicarskim švicarsko
+39	3939	kartoteka	kartoteke kartoteko
+40	3940	avtomatski	avtomatska avtomatske avtomatskega avtomatskem avtomatskih avtomatskim avtomatskimi avtomatsko
+41	3941	pad	pada
+42	3942	senzor	senzorje senzorjem senzorji senzorju
+43	3943	pisava	pisave pisavi pisavo
+44	3944	seznaniti	seznani seznanijo seznanil seznanila seznanili seznanim seznanimo seznanit
+45	3945	osupljiv	osupljiva osupljive osupljivega osupljivi osupljivih osupljivo
+46	3946	trideset	tridesetim tridesetimi
+47	3947	mogoč	mogoča mogočega mogoči mogočih mogočim mogočimi
+48	3948	vklopiti	vklopi vklopil vklopila vklopile vklopili vklopilo vklopimo vklopit vklopita vklopite vklopiva
+49	3949	ustvarjalen	ustvarjalna ustvarjalne ustvarjalnega ustvarjalni ustvarjalnih ustvarjalno
+50	3950	obarvan	obarvana obarvane obarvani obarvanih obarvanim obarvano
+51	3951	norma	normam normami norme normo
+52	3952	francoščina	francoščine francoščini francoščino
+53	3953	pluti	plove plovejo plovemo pluj pluje plujejo plujem plujemo plujeta plujete plujeva pluješ plujmo plujte plul plula plule pluli plulo plut plutje
+54	3954	predvideti	predvidel predvidela predvideli predvidi predvidijo predvidim predvidimo predvidite predvidiš
+55	3955	prehiteti	prehitel prehitela prehitele prehiteli prehitijo
+56	3956	posamičen	posamične posamični posamičnih posamično
+57	3957	legendaren	legendarna legendarne legendarnega legendarnem legendarnemu legendarni legendarnih legendarnim legendarno
+58	3958	obsodba	obsodb obsodbami obsodbe obsodbi obsodbo
+59	3959	obračati	obrača obračajo obračal obračala obračali obračamo
+60	3960	smrtonosen	smrtonosna smrtonosne smrtonosnega smrtonosnem smrtonosni smrtonosnih smrtonosnim smrtonosnimi smrtonosno
+61	3961	plastika	plastik plastike plastiki plastiko
+62	3962	zvedeti	zvedel zvedela zvedeli zvedelo zvem zvemo
+63	3963	zdravstvo	zdravstva zdravstvu
+64	3964	zgledati	zgledal zgledalo zgledaš
+65	3965	oranžen	oranžna oranžne oranžnega oranžnem oranžni oranžnih oranžnim oranžnimi oranžno
+66	3966	izbruh	izbruhi izbruhom izbruhov izbruhu
+67	3967	klan	klana klanov klanu
+68	3968	sum	suma sume sumov sumu
+69	3969	obzorje	obzorja obzorju
+70	3970	oglaševanje	oglaševanja oglaševanju
+71	3971	konjski	konjska konjske konjskega konjskem konjskih konjskim konjskimi konjsko
+72	3972	popiti	popije popijejo popijemo popijete popil popili
+73	3973	krožiti	kroži krožijo krožil krožila krožile krožili krožita
+74	3974	podatkoven	podatkovna podatkovne podatkovnega podatkovni podatkovnih podatkovno
+75	3975	partija	partij partije partiji partijo
+76	3976	ozračje	ozračja ozračju
+77	3977	padavina	padavin padavinah padavinami padavine
+78	3978	dragulj	dragulja dragulje draguljem draguljev dragulji draguljih dragulju
+79	3979	cipa	cip cipah cipam cipami cipe cipi cipo
+80	3980	individualen	individualna individualne individualni individualnih individualno
+81	3981	vpliven	najvplivnejši najvplivnejših vplivna vplivne vplivnejši vplivni vplivnim vplivno
+82	3982	zmogljivost	zmogljivosti zmogljivostjo zmogljivostmi
+83	3983	odkupiti	odkupi odkupil odkupila odkupili odkupilo odkupimo
+84	3984	motivacija	motivacije motivaciji motivacijo
+85	3985	uspešnost	uspešnosti
+86	3986	viktor	viktorjev
+87	3987	metulj	metulja metulje metuljem metuljev metulji metuljih metulju
+88	3988	poganjati	poganja poganjajo poganjal poganjala poganjali poganjalo poganjam
+89	3989	radar	radarja radarje radarjem radarjev radarji radarjih radarju
+90	3990	instrument	instrumenta instrumente instrumenti instrumentov
+91	3991	belec	belce belci
+92	3992	utrdba	utrdb utrdbe utrdbi utrdbo
+93	3993	zagotavljanje	zagotavljanja zagotavljanju
+94	3994	strežnik	strežnika strežnike strežniki strežnikih strežnikom strežnikov strežniku
+95	3995	klovn	klovna klovne klovni klovnom klovnoma klovnov klovnu
+96	3996	pravičnost	pravičnosti pravičnostjo
+97	3997	radoveden	radovedna radovedne radovednega radovedni radovednih radovednim radovednimi radovedno
+98	3998	razpon	razpona razponom razponu
+99	3999	umetnina	umetnin umetninami umetnine umetnino
+100	4000	tir	tira tiri tirih tirov

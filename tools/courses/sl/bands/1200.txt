@@ -1,0 +1,100 @@
+1	1101	izvajati	izvaja izvajajo izvajal izvajala izvajale izvajali izvajamo izvajate izvajava
+2	1102	prazen	prazna prazne praznega praznem praznemu prazni praznih praznim praznimi prazno
+3	1103	znanost	znanosti znanostih znanostjo
+4	1104	odstraniti	odstrani odstranijo odstranil odstranila odstranili odstranim odstranimo odstranite
+5	1105	čast	časti častjo častmi
+6	1106	družinski	družinska družinske družinskega družinskem družinskih družinskim družinskimi družinsko
+7	1107	izbran	izbrana izbrane izbranega izbranem izbrani izbranih izbranim izbranimi izbrano
+8	1108	znanje	znanj znanja znanjem znanji znanju
+9	1109	ukaz	ukaza ukaze ukazi ukazih ukazom ukazov ukazu
+10	1110	francoski	francoska francoske francoskega francoskem francoskemu francoskih francoskim francoskimi
+11	1111	tradicionalen	tradicionalna tradicionalne tradicionalnega tradicionalnem tradicionalni tradicionalnih tradicionalnim tradicionalnimi tradicionalno
+12	1112	jezero	jezer jezera jezeri jezerih jezerom jezeru
+13	1113	okolica	okolice okolici okolico
+14	1114	element	elementa elemente elementi elementov elementu
+15	1115	dejanski	dejanska dejanske dejanskega dejanskem dejanskih dejanskim dejansko
+16	1116	severen	severna severne severnega severnem severnemu severni severnih severnim severnimi severno
+17	1117	dodati	doda dodaj dodajmo dodajo dodajte dodal dodala dodali dodam dodamo dodate
+18	1118	udariti	udari udarijo udaril udarila udarile udarili udarilo udarim udarimo udarit udarita udarite udariva udariš
+19	1119	preprečiti	prepreči preprečijo preprečil preprečila preprečile preprečili preprečilo preprečimo preprečita preprečite preprečiš
+20	1120	izreden	izredna izredne izrednega izrednem izredni izrednih izrednim izredno
+21	1121	aktiven	aktivna aktivne aktivni aktivnih aktivnimi aktivno
+22	1122	starost	starosti starostjo
+23	1123	osrednji	osrednja osrednje osrednjega osrednjem osrednjih osrednjim osrednjo
+24	1124	vera	verah verami vere veri vero véro
+25	1125	zob	zoba zobe zobeh zobem zobi zobje zobmi zobom zobov zobu
+26	1126	praven	pravna pravne pravnega pravnem pravnemu pravni pravnih pravnim pravnimi pravno
+27	1127	namreč	
+28	1128	nemogoč	nemogoča nemogoče nemogočega nemogočem nemogoči nemogočih nemogočim nemogočimi nemogočo
+29	1129	park	parka parke parki parkih parkom parkov parku
+30	1130	baza	baz bazah bazam bazami baze bazi bazo
+31	1131	zavedati	zaveda zavedajo zavedajte zavedal zavedala zavedali zavedalo zavedam zavedamo zavedata zavedate zavedaš
+32	1132	dogovor	dogovora dogovore dogovori dogovorih dogovorom dogovorov dogovoru
+33	1133	vplivati	vplivajo vplival vplivala vplivale vplivali vplivalo vplivamo vplivata vplivate
+34	1134	papir	papirja papirje papirjem papirjev papirji papirjih papirju
+35	1135	zgornji	zgornja zgornje zgornjega zgornjem zgornjih zgornjim zgornjo
+36	1136	karta	kart kartah kartami karte karti karto
+37	1137	avtomobil	avtomobila avtomobile avtomobili avtomobilih avtomobilom avtomobilov avtomobilu
+38	1138	rojsten	rojstne rojstnega rojstnem rojstni rojstnih rojstno
+39	1139	rešitev	rešitvah rešitvam rešitvami rešitve rešitvi rešitvijo
+40	1140	pozaba	pozabe pozabi pozabo
+41	1141	voden	vodena vodene vodeni vodenih vodenimi vodeno vodna vodne vodnega vodnem vodnemu vodni vodnih vodnim vodnimi vodno
+42	1142	doktor	doktorja doktorjev doktorjeva doktorjeve doktorjevega doktorjevem doktorjevi doktorjevih doktorjevo
+43	1143	doba	dob dobah dobe dobo dobu
+44	1144	pomiriti	pomiri pomiril pomirila pomirile pomirilo
+45	1145	jajce	jajc jajca jajcem jajci jajcih jajcu
+46	1146	serija	serij serije seriji serijo
+47	1147	obseg	obsega obsegom obsegu
+48	1148	dediščina	dediščine dediščini dediščino
+49	1149	kilometer	kilometra kilometre kilometri kilometrih kilometrov kilometru
+50	1150	regija	regij regijah regijami regije regiji regijo
+51	1151	izkušnja	izkušenj izkušnjah izkušnjami izkušnje izkušnji izkušnjo
+52	1152	pohiteti	pohitel pohitela pohiteli pohiti pohitijo pohitim pohitite pohitiš
+53	1153	obdržati	obdržal obdržala obdržali obdržalo obdrži obdržijo obdržimo
+54	1154	zdravstven	zdravstvena zdravstvene zdravstvenega zdravstvenem zdravstvenemu zdravstveni zdravstvenih zdravstvenim zdravstveno
+55	1155	agent	agenti agentov agentova agentovo
+56	1156	pivo	piv piva pivi pivih pivom pivu
+57	1157	ponudba	ponudb ponudbah ponudbami ponudbe ponudbi ponudbo
+58	1158	jebati	jeba jebaj jebajta jebajte jebala jebali jebanje jebat jebe jebejo jebem jebemo jebeta jebete jebeš jebi jebita jebite
+59	1159	jemati	jemal jemala jemale jemali jemalo jemat jemlje jemljejo jemljem jemljemo jemljeta jemljete jemljeva jemlješ jemlji jemljita jemljite
+60	1160	ljub	ljuba ljube ljubo ljubša ljubše ljubši najljubša najljubše najljubšem najljubši najljubših najljubšo
+61	1161	umetniški	umetniška umetniške umetniškega umetniškem umetniških umetniškim umetniškimi umetniško
+62	1162	odkar	
+63	1163	bivši	bivša bivše bivšega bivšemu bivših bivšo
+64	1164	poškodba	poškodb poškodbam poškodbami poškodbe poškodbi poškodbo
+65	1165	bolnik	bolnika bolnike bolniki bolnikih bolnikom bolnikov bolnikova bolnikove bolnikovega bolnikovo bolniku
+66	1166	kapitan	kapitana kapitanov kapitanova kapitanove kapitanovega kapitanovem kapitanovi kapitanovo kapitanu
+67	1167	hrbet	hrbta hrbte hrbti hrbtih hrbtom hrbtoma hrbtov hrbtu
+68	1168	misel	mislih mislima mislimi
+69	1169	takole	
+70	1170	zmanjšati	zmanjša zmanjšajo zmanjšajte zmanjšal zmanjšala zmanjšale zmanjšali zmanjšalo zmanjšamo zmanjšate
+71	1171	linija	linij linijah linije liniji linijo
+72	1172	javnost	javnosti javnostjo javnostmi
+73	1173	januar	januarja januarjem januarju
+74	1174	pritisk	pritiska pritiske pritiski pritiskom pritiskov pritisku
+75	1175	doživeti	doživel doživela doživele doživeli doživelo doživi doživijo doživim doživimo doživita doživite doživiva doživiš
+76	1176	kolo	koles kolesa kolesi kolesih kolesom kolesu kolih kolom
+77	1177	koncert	koncerta koncerte koncerti koncertih koncertom koncertov koncertu
+78	1178	objekt	objekta objekte objekti objektih objektom objektov objektu
+79	1179	rasti	rasejo rasel rasla rasle rasli raslo raste rastejo rastel rastem rastemo rasteta rasteš rastla rastle rastli rastlo
+80	1180	morski	morska morske morskega morskem morskemu morskih morskim morskimi morsko
+81	1181	bitje	bitij bitja bitjem bitji bitjih bitju
+82	1182	osvojiti	osvoji osvojijo osvojil osvojila osvojile osvojili osvojilo osvojit osvojiva osvojiš
+83	1183	omenjen	omenjena omenjene omenjenega omenjenem omenjeni omenjenih omenjenim omenjenimi omenjeno
+84	1184	pogost	najpogostejša najpogostejši najpogostejših najpogostejšimi pogosta pogoste pogostejša pogostejši pogostejših pogosti pogostih pogostimi
+85	1185	nekoliko	
+86	1186	deliti	delijo delil delila delili delimo delite
+87	1187	viden	najvidnejših videna videne videnemu videno vidna vidne vidnega vidnejše vidnejši vidnejših vidnem vidni vidnih vidnimi vidno
+88	1188	zločin	zločina zločine zločini zločinih zločinom zločinov zločinu
+89	1189	predstavnik	predstavnika predstavnike predstavniki predstavnikih predstavnikom predstavnikov predstavniku
+90	1190	vodstvo	vodstva vodstvom vodstvu
+91	1191	lokacija	lokacij lokacijah lokacijami lokacije lokaciji lokacijo
+92	1192	uprava	uprav uprave upravi upravo
+93	1193	sposobnost	sposobnosti sposobnostih sposobnostjo sposobnostmi
+94	1194	sinoči	
+95	1195	kazen	kazni kaznih kaznijo kaznimi
+96	1196	grob	groba grobe grobem grobi grobih grobo grobom grobov grobova grobove grobovi grobovih grobu pregrobo
+97	1197	akcija	akcij akcijah akcijami akcije akciji akcijo
+98	1198	luknja	lukenj luknjah luknjama luknjami luknje luknji luknjo
+99	1199	obravnavati	obravnava obravnavah obravnavajo obravnaval obravnavala obravnavale obravnavali obravnavalo obravnavamo obravnave obravnavi obravnavo
+100	1200	določiti	določi določijo določil določila določili določilih določilo določimo določite

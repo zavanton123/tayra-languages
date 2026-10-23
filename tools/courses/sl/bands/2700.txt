@@ -1,0 +1,100 @@
+1	2601	zasedati	zaseda zasedajo zasedal zasedala zasedali zasede zasedi zasedo
+2	2602	rep	repa repe repi repom repov repu
+3	2603	mariborski	mariborska mariborske mariborskega mariborskem mariborskih mariborsko
+4	2604	kongres	kongresa kongresom kongresov kongresu
+5	2605	razdeljen	razdeljena razdeljene razdeljenega razdeljeni razdeljenih razdeljeno
+6	2606	regionalen	regionalna regionalne regionalnega regionalnem regionalni regionalnih regionalnimi regionalno
+7	2607	vizija	vizij vizijami vizije viziji vizijo
+8	2608	plavati	plava plavaj plavajo plavajta plavajte plaval plavala plavale plavali plavalo plavam plavamo plavat plavata plavate plavava plavaš
+9	2609	vid	vida vidom
+10	2610	premoženje	premoženja premoženjem premoženju
+11	2611	gradben	gradbene gradbenega gradbenem gradbeni gradbenih gradbeno
+12	2612	informacijski	informacijska informacijske informacijskega informacijskih informacijsko
+13	2613	neskončen	neskončna neskončne neskončnega neskončnem neskončni neskončnim neskončno
+14	2614	takraten	takratna takratne takratnega takratnem takratni takratnih takratnim takratno
+15	2615	premalo	
+16	2616	popularen	najpopularnejša najpopularnejši najpopularnejših popularna popularne popularnega popularni popularnih popularno
+17	2617	samostan	samostana samostane samostani samostanih samostanom samostanov samostanu
+18	2618	opravičilo	opravičila opravičili
+19	2619	pevec	pevca pevce pevcem pevcev pevci pevcih pevcu
+20	2620	test	teste testi testov
+21	2621	trik	triki trikom trikov
+22	2622	letnica	letnic letnice letnici letnico
+23	2623	strategija	strategij strategijah strategije strategiji strategijo
+24	2624	geslo	gesel gesla gesli geslom geslu
+25	2625	opica	opic opicah opicam opicami opice opici opico
+26	2626	mešanica	mešanice mešanici mešanico
+27	2627	sestaviti	sestavijo sestavil sestavila sestavili sestavimo sestavita sestavite
+28	2628	gornji	gornja gornjega gornjem gornjih
+29	2629	strast	strasteh strastem strasti strastjo
+30	2630	pridobljen	pridobljena pridobljene pridobljenega pridobljeni pridobljenih pridobljenimi pridobljeno
+31	2631	lutka	lutk lutkam lutkami lutke lutki lutko
+32	2632	počitek	počitka počitkom počitku
+33	2633	vladen	vladna vladne vladnega vladnem vladnemu vladni vladnih vladnim vladno
+34	2634	kričati	kričal kričala kričalo kriči kričijo
+35	2635	domačin	domačina domačine domačini domačinom domačinov
+36	2636	as	asa ase asi asih asom asov
+37	2637	podmornica	podmornic podmornicah podmornicam podmornicami podmornice podmornici podmornico
+38	2638	noht	nohta nohte nohti nohtih nohtom nohtov nohtu
+39	2639	populacija	populacije populaciji populacijo
+40	2640	enoten	enotna enotne enotnega enotni enotno
+41	2641	prizadevanje	prizadevanj prizadevanja prizadevanjem prizadevanji prizadevanjih prizadevanju
+42	2642	stopalo	stopal stopala stopali stopalih stopalom stopalu
+43	2643	ohranjati	ohranja ohranjajo ohranjal ohranjali ohranjam
+44	2644	breme	bremen bremena bremenom
+45	2645	razmišljanje	razmišljanj razmišljanja razmišljanjem razmišljanju
+46	2646	rekord	rekorda rekorde rekordi rekordom rekordov rekordu
+47	2647	rudnik	rudnika rudnike rudniki rudnikih rudnikom rudnikov rudniku
+48	2648	groza	groze grozi grozo
+49	2649	vpisati	vpisal vpisala vpisali vpiše vpišejo vpišemo vpišete vpiši vpišite
+50	2650	krava	krav kravah kravam kravami krave kravi kravo
+51	2651	zmešan	zmešana zmešane zmešani
+52	2652	brezplačen	brezplačna brezplačne brezplačnega brezplačni brezplačnih brezplačno
+53	2653	žila	žil žilah žilami žile žili žilo
+54	2654	psihološki	psihološka psihološke psihološkega psihološkem psiholoških psihološkimi psihološko
+55	2655	učiteljica	učiteljic učiteljice učiteljici učiteljico
+56	2656	vila	vil vili vilo
+57	2657	vezan	vezana vezane vezanega vezani vezanih vezano
+58	2658	torbica	torbic torbicah torbice torbici torbico
+59	2659	profil	profila profili profilom profilov profilu
+60	2660	šolanje	šolanja šolanju
+61	2661	lokati	lokal lokala lokale lokali lokalih lokalom lokalov lokalu
+62	2662	trgovski	trgovska trgovske trgovskega trgovskem trgovskih trgovskim trgovskimi trgovsko
+63	2663	zasesti	zasedejo zasedel zasedla zasedle zasedli
+64	2664	sneti	sname snamejo snamem snamemo snameta snamete snameva snameš snel snela snele sneli snelo snemi snemimo snemita snemite snemiva snet sneta snete
+65	2665	zaposliti	zaposli zaposlil zaposlila zaposlili zaposlilo zaposlimo zaposlite zaposliš
+66	2666	usposabljanje	usposabljanja usposabljanjem usposabljanju
+67	2667	obsojen	obsojena obsojene obsojenega obsojeni obsojenih obsojeno
+68	2668	devica	devic devicam devicami device devici devico
+69	2669	povprečje	povprečja povprečjem povprečju
+70	2670	spominski	spominska spominske spominskega spominskem spominskih spominsko
+71	2671	iskalo	iskala
+72	2672	uresničiti	uresniči uresničijo uresničil uresničila uresničile uresničili uresničilo uresničimo
+73	2673	nikdar	
+74	2674	trpljenje	trpljenja trpljenjem trpljenju
+75	2675	signal	signala signale signali signalih signalom signalov
+76	2676	recept	recepta recepte recepti receptih receptov receptu
+77	2677	poraba	porabe porabi porabo
+78	2678	kovanec	kovanca kovance kovancem kovancev kovanci kovancih kovancu
+79	2679	izobraževalen	izobraževalna izobraževalne izobraževalnega izobraževalnem izobraževalni izobraževalnih izobraževalno
+80	2680	beg	bega begom begu
+81	2681	širjenje	širjenja širjenjem širjenju
+82	2682	pripomoči	pripomogel pripomogla pripomogle pripomogli pripomoglo pripomore pripomorejo pripomorem
+83	2683	namestnik	namestnika namestnikom namestnikov
+84	2684	slabost	slabosti slabostih slabostmi
+85	2685	produkcija	produkcije produkciji produkcijo
+86	2686	uniforma	uniformah uniformami uniforme uniformi uniformo
+87	2687	guverner	guvernerja guvernerjev
+88	2688	juha	juh juhe juhi juho
+89	2689	svetloben	svetlobna svetlobne svetlobnega svetlobni svetlobnih svetlobnim svetlobno
+90	2690	arhitekt	arhitekta arhitekti arhitektov arhitektu
+91	2691	čeden	čedna čednega čedno
+92	2692	prikaz	prikaza prikazi prikazom prikazu
+93	2693	planina	planin planinah planine planini planino
+94	2694	mehek	mehak mehka mehke mehkega mehkejša mehkejši mehkem mehki mehkih mehkim mehkimi najmehkejši premehak
+95	2695	turist	turista turiste turisti turistom turistov turistu
+96	2696	internet	interneta internetom internetu
+97	2697	obred	obreda obrede obredi obredih obredom obredov
+98	2698	obtožen	obtožena obtožene obtoženega obtoženi obtoženih obtoženim
+99	2699	diamant	diamanta diamante diamanti diamantih diamantom diamantov diamantu dijamant
+100	2700	študijski	študijske študijskega študijskem študijskih študijsko

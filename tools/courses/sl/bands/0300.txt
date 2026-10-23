@@ -1,0 +1,100 @@
+1	201	treba	
+2	202	šola	šol šolah šolam šolami šole šoli šolo
+3	203	početi	počel počela počele počeli počelo počne počnejo počnem počnemo počneta počnete počneš počno
+4	204	nihče	nikogar nikomer nikomur
+5	205	roka	rokah rokam rokama rokami roke roki roko
+6	206	tak	taka takega takem takemu taki takih takim takimi tazga
+7	207	težava	težav težavah težavam težavami težave težavi težavo
+8	208	sploh	
+9	209	sedaj	
+10	210	žal	žale žalega
+11	211	kdaj	
+12	212	pisati	napisal napisala napisale napisali napisalo napisat napisati napiše napišejo napišem napišemo napišeta napišete napiševa napišeš napiši napišimo napišita napišite napišiva pisal pisala pisale pisali pisalo pisalom pisat piše pišejo pišem pišemo pišeta pišete piševa pišeš piši pišita pišite
+13	213	takoj	
+14	214	težek	najtežja najtežje najtežji najtežjih najtežjimi najtežjo pretežka težak težja težje težji težjih težjim težjo težka težke težkega težkem težkemu težki težkih težkim težkimi težko
+15	215	všeč	
+16	216	različen	najrazličnejše najrazličnejših najrazličnejšimi različna različne različnega različnem različni različnih različnim različnima različnimi različno
+17	217	moški	moška moške moškega moškem moškemu moških moškim moškima moškimi moško
+18	218	močen	močan močna močne močnega močneje močnejša močnejše močnejšemu močnejši močnejših močnejšim močnejšimi močnejšo močnem močnemu močni močnih močnim močnimi močno najmočnejša najmočnejše najmočnejšega najmočnejši najmočnejših najmočnejšim najmočnejšimi najmočnejšo premočan
+19	219	oditi	odide odidejo odidem odidemo odideta odidete odideva odideš odidi odidimo odidita odidite odidiva odit odšel odšla odšle odšli odšlo
+20	220	nek	neka neke nekega nekem nekemu neki nekih nekim nekimi neko
+21	221	poklicati	poklical poklicala poklicale poklicali poklicalo poklicat pokliče pokličejo pokličem pokličemo pokličeta pokličete pokličeva pokličeš pokliči pokličimo pokličita pokličite pokličiva
+22	222	hej	
+23	223	teden	tedna tedne tedni tednih tednom tednoma tednov tednu
+24	224	smeti	sme smejo smela smele smeli smelo smem smemo smeta smete smeš
+25	225	naslednji	naslednja naslednje naslednjega naslednjem naslednjemu naslednjih naslednjim naslednjimi naslednjo
+26	226	niti	
+27	227	glede	
+28	228	knjiga	knjig knjigah knjigam knjigami knjige knjigi knjigo
+29	229	zdeti	zde zdel zdela zdele zdeli zdelo zdi zdijo zdim zdimo zdita zdite zdiš
+30	230	iskati	iskal iskale iskali iskat išče iščejo iščem iščemo iščeta iščete iščeva iščeš išči iščimo iščita iščite iščiva
+31	231	celo	
+32	232	igrati	igra igraj igraje igrajmo igrajo igrajta igrajte igrajva igral igrala igrale igrali igralo igram igramo igrat igrata igrate igrava igraš
+33	233	najbolj	
+34	234	sistem	sistema sisteme sistemi sistemih sistemom sistemov sistemu
+35	235	naprej	
+36	236	vsaj	
+37	237	način	načina načine načini načinih načinom načinov načinu
+38	238	poslušati	posluš posluša poslušaj poslušaje poslušajmo poslušajo poslušajta poslušajte poslušajva poslušal poslušala poslušale poslušali poslušalo poslušam poslušamo poslušat poslušata poslušate poslušava poslušaš
+39	239	odličen	najodličnejši odlična odlične odličnega odličnem odličnemu odlični odličnih odličnim odličnimi odlično
+40	240	smrt	smrti smrtih smrtjo smrtmi
+41	241	beseda	besed besedah besedam besedama besedami besede besedi besedo
+42	242	igra	iger igrah igrama igrami igre igri igro
+43	243	brat	brata brate bratih bratje bratom bratoma bratov bratova bratove bratovega bratovem bratovi bratovih bratovim bratovimi bratovo bratu
+44	244	oseba	oseb osebah osebam osebama osebami osebe osebi osebo
+45	245	verjeten	najverjetneje verjetna verjetne verjetnejša verjetnih verjetno
+46	246	spet	spetimi
+47	247	noben	nobena nobene nobenega nobenem nobenemu nobeni nobenih nobenim nobenimi nobeno
+48	248	končati	konča končaj končajmo končajo končajta končajte končajva končal končala končale končali končalo končam končamo končat končata končate končava končaš
+49	249	čez	
+50	250	takšen	takšna takšne takšnega takšnem takšnemu takšni takšnih takšnim takšnimi takšno
+51	251	pokazati	pokazal pokazala pokazale pokazali pokazalo pokazat pokaže pokažejo pokažem pokažemo pokažeta pokažete pokaževa pokažeš pokaži pokažimo pokažita pokažite pokaživa
+52	252	zgodba	zgodb zgodbah zgodbam zgodbami zgodbe zgodbi zgodbo
+53	253	vojna	vojn vojnah vojnam vojnama vojnami vojne vojni vojno
+54	254	preveč	
+55	255	oblika	oblik oblikah oblikam oblikami oblike obliki obliko
+56	256	skozi	skoz
+57	257	vprašanje	vprašan vprašani vprašanih vprašanj vprašanja vprašanjem vprašanji vprašanjih vprašanju
+58	258	obstajati	obstaja obstajajo obstajal obstajala obstajale obstajali obstajalo obstajata
+59	259	dolgo	predolgo
+60	260	član	člana člane člani članih članom članoma članov članu
+61	261	mesec	mesca mesce mescem mescev mesci mescih mescu meseca mesece mesecem mesecema mesecev meseci mesecih mesecu
+62	262	poslati	poslal poslala poslale poslali poslalo poslat pošlje pošljejo pošljem pošljemo pošljete pošlješ pošlji pošljimo pošljita pošljite pošljiva
+63	263	oko	očeh očem očes očesa očesi očesih očesom očesoma očesu oči očmi
+64	264	žena	žen ženah ženam ženama ženami žene ženi ženo
+65	265	glaven	glavna glavne glavnega glavnem glavnemu glavni glavnih glavnim glavnimi glavno
+66	266	uspeti	uspe uspejo uspel uspela uspele uspeli uspelo uspem uspemo uspeta uspete uspeva uspeš
+67	267	pripravljen	pripravljena pripravljene pripravljenega pripravljeni pripravljenih pripravljenim pripravljenimi pripravljeno
+68	268	začetek	začetka začetke začetki začetkih začetkom začetkov začetku
+69	269	praviti	pravi pravijo pravim pravimo pravita pravite praviš
+70	270	poleg	
+71	271	prej	
+72	272	svetoven	svetovna svetovne svetovnega svetovnem svetovnemu svetovni svetovnih svetovnim svetovnima svetovno
+73	273	mož	moža može možeh možem možema možev moževo moži možje možmi možu
+74	274	število	števil števila števili številih številom številu
+75	275	nad	
+76	276	oba	obe obeh obema
+77	277	dogajati	dogaja dogajajo dogajal dogajala dogajale dogajali dogajalo dogajat
+78	278	podoben	podobna podobne podobnega podobnem podobnemu podobni podobnih podobnim podobnimi podobno
+79	279	poseben	posebna posebne posebnega posebnem posebnemu posebni posebnih posebnim posebnimi posebno
+80	280	spremeniti	spremeni spremenijo spremenil spremenila spremenile spremenili spremenilo spremenim spremenimo spremenit spremenita spremenite spremeniva spremeniš
+81	281	noč	nočeh nočema noči nočjo nočmi
+82	282	počakati	počaka počakaj počakajo počakajte počakal počakala počakale počakali počakam počakamo počakat počakate
+83	283	izgubiti	izgubi izgubijo izgubil izgubila izgubile izgubili izgubilo izgubim izgubimo izgubit izgubita izgubite izgubiva izgubiš
+84	284	pravo	prava prave pravom pravu
+85	285	nato	
+86	286	ravno	
+87	287	tale	tejle temle tile tole
+88	288	ven	
+89	289	isti	ista iste istega istem istemu istih istim istimi isto
+90	290	spomniti	spomni spomnijo spomnil spomnila spomnili spomnilo spomnim spomnimo spomnite spomniš
+91	291	mlad	mlada mlade mladega mladem mlademu mladi mladih mladim mladima mladimi mlado mlajša mlajše mlajšega mlajšem mlajši mlajših mlajšim mlajšimi mlajšo najmlajša najmlajše najmlajšega najmlajši najmlajših najmlajšo
+92	292	večina	večine večini večino
+93	293	območje	območij območja območjem območji območjih območju
+94	294	doma	
+95	295	mrtev	mrtva mrtve mrtvega mrtvem mrtvemu mrtvi mrtvih mrtvima mrtvimi mrtvo
+96	296	skoraj	skor
+97	297	rešiti	rešen rešena reši rešijo rešil rešila rešile rešili rešilo rešim rešimo rešita rešite rešiva rešiš
+98	298	enkrat	
+99	299	služba	služb službah službam službami službe službi službo
+100	300	prostor	prostora prostore prostori prostorih prostorom prostorov prostoru

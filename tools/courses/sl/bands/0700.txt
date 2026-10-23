@@ -1,0 +1,100 @@
+1	601	malce	
+2	602	približno	
+3	603	strah	straha strahi strahom strahov strahove strahovi strahovih strahovom strahu
+4	604	delovanje	delovanja delovanjem delovanju
+5	605	imenovati	imenoval imenovala imenovale imenovali imenovalo imenuj imenuje imenujejo imenujem imenujemo imenujeta imenujete imenujeva imenuješ imenujmo imenujte imenujva
+6	606	žrtev	žrtvah žrtvam žrtvami žrtve žrtvi
+7	607	dol	dola doli dolu
+8	608	najbrž	
+9	609	zjutraj	
+10	610	zamenjati	zamenja zamenjajo zamenjal zamenjala zamenjale zamenjali zamenjalo zamenjam zamenjamo zamenjata zamenjate zamenjav zamenjava zamenjave zamenjavi zamenjavo zamenjaš
+11	611	srečen	najsrečnejši najsrečnejših presrečen presrečna presrečni srečna srečne srečnega srečnejši srečnem srečnemu srečni srečnih srečnim srečnimi
+12	612	povezava	povezav povezavah povezavami povezave povezavi povezavo
+13	613	spleten	spletene spleteno spletna spletne spletnega spletnem spletni spletnih spletnim spletnimi spletno
+14	614	skrbeti	skrbel skrbela skrbele skrbeli skrbelo skrbijo skrbim skrbimo skrbita skrbite
+15	615	dokaz	dokaze dokazi dokazov
+16	616	glasben	glasbena glasbene glasbenega glasbenem glasbenemu glasbeni glasbenih glasbenim glasbenimi glasbeno
+17	617	posel	posla posle posli poslih poslom poslov poslu
+18	618	prejšnji	prejšnja prejšnje prejšnjega prejšnjem prejšnjemu prejšnjih prejšnjim prejšnjimi prejšnjo
+19	619	energija	energij energije energiji energijo
+20	620	obljubiti	obljubi obljubijo obljubil obljubila obljubile obljubili obljubilo obljubim obljubimo obljubita obljubite obljubiva obljubiš
+21	621	znak	znaka znake znaki znakih znakom znakov znaku
+22	622	sila	sil silah silam silami sile sili silo
+23	623	nemški	nemška nemške nemškega nemškem nemškemu nemških nemškim nemškimi
+24	624	dajati	dajaj dajajta dajajte dajal dajala dajale dajali dajalo dajat daje dajejo dajem dajemo dajeta dajete dajeva daješ
+25	625	trg	trga trge trgi trgih trgom trgov trgu
+26	626	dolar	dolarja dolarje dolarjev
+27	627	opaziti	opazi opazijo opazil opazila opazili opazim opazimo opazite opaziš
+28	628	maj	maja majem majev maji majih maju
+29	629	povzročiti	povzroči povzročijo povzročil povzročila povzročile povzročili povzročilo povzročimo povzročita povzročite
+30	630	nesreča	nesreč nesrečah nesrečami nesreče nesreči nesrečo
+31	631	človeški	človeška človeške človeškega človeškem človeškemu človeških človeškim človeškimi človeško
+32	632	posledica	posledic posledicah posledicam posledicami posledice posledici posledico
+33	633	posebej	
+34	634	vreden	najvrednejši vredna vredne vrednega vrednejše vrednejši vrednem vredni vrednih vrednim vredno
+35	635	razlika	razlik razlikah razlikam razlikami razlike razliki razliko
+36	636	sezona	sezon sezonah sezone sezoni sezono
+37	637	trenuten	trenutna trenutne trenutnega trenutnem trenutnemu trenutni trenutnih trenutnim trenutno
+38	638	izginiti	izgine izginejo izgini izginil izginila izginile izginili izginilo
+39	639	vodja	vodij vodjami vodje vodjem vodji vodjo
+40	640	spraševati	spraševal spraševala spraševale spraševali sprašuje sprašujejo sprašujem sprašujemo sprašujete sprašujeva sprašuješ
+41	641	obleka	oblek oblekah oblekam oblekami obleke obleki obleko
+42	642	odnos	odnosa odnose odnosi odnosih odnosom odnosov odnosu
+43	643	zmaga	zmag zmagah zmagama zmagami zmage zmagi zmago
+44	644	sodoben	najsodobnejša najsodobnejše najsodobnejši najsodobnejšo sodobna sodobne sodobnega sodobnejši sodobnem sodobnemu sodobni sodobnih sodobnim sodobnimi sodobno
+45	645	kultura	kultur kulturah kulturami kulture kulturi kulturo
+46	646	poiskati	poiskal poiskala poiskale poiskali poiskalo poišče poiščejo poiščem poiščemo poiščeta poiščete poišči poiščimo poiščite
+47	647	zapreti	zapre zaprejo zaprem zapremo zapret zapreta zaprete zapreva zapreš zapri zaprimo zaprita zaprite zapriva zaprl zaprla zaprle zaprli zaprlo zapro
+48	648	glas	glasa glasom glasov glasova glasove glasovi glasovih glasovom glasu
+49	649	vojak	vojaka vojake vojaki vojakih vojakom vojakoma vojakov vojakova vojakovo vojaku
+50	650	zapor	zapora zapore zapori zaporih zaporo zaporom zaporov zaporu
+51	651	zrak	zraka zrakom zraku
+52	652	pomen	pomena pomene pomenih pomenom pomenov pomenu
+53	653	domač	domača domače domačega domačem domačemu domači domačih domačim domačimi domačo
+54	654	zunanji	zunanja zunanje zunanjega zunanjem zunanjemu zunanjih zunanjim zunanjimi zunanjo
+55	655	spomin	spomina spomine spomini spominih spominom spominov spominu
+56	656	nocoj	
+57	657	pravkar	
+58	658	odpeljati	odpeljal odpeljala odpeljali odpeljalo odpelje odpeljejo odpeljemo odpeljeta odpeljete odpeljeva odpeljite odpeljiva
+59	659	krog	kroga kroge krogi krogih krogom krogov krogu
+60	660	skupnost	skupnosti skupnostih skupnostim skupnostjo skupnostmi
+61	661	pameten	najpametneje najpametnejši pametna pametne pametnega pametneje pametnejši pametnejšo pametnemu pametni pametnih pametnim pametnimi pametno
+62	662	trgovina	trgovin trgovinah trgovinam trgovinami trgovine trgovini trgovino
+63	663	razred	razreda razrede razredi razredih razredom razredov razredu
+64	664	karkoli	čemerkoli česarkoli
+65	665	teči	teci tecimo tecita tecite teciva tekel tekla tekle tekli teklo teko teč teče tečejo tečem tečemo tečeta tečete tečeva tečeš
+66	666	morje	morij morja morjem morji morjih morju
+67	667	hudič	hudiča hudiče hudičem hudičev hudiči hudičih hudiču
+68	668	jutro	juter jutra jutrih jutrom jutru
+69	669	zahteva	zahtev zahtevah zahtevam zahtevami zahteve zahtevi zahtevo
+70	670	uživati	uživa uživaj uživajmo uživajo uživajta uživajte uživajva užival uživala uživale uživali uživalo uživam uživamo uživat uživata uživate uživava uživaš
+71	671	boriti	boreč bori borih borijo boril borila borile borili borilo borim borimo borit borita borite boriva boriš
+72	672	lokalen	lokalna lokalne lokalnega lokalnem lokalnemu lokalni lokalnih lokalnim lokalnimi lokalno
+73	673	univerza	univerz univerzah univerzam univerzami univerze univerzi univerzo
+74	674	ustvariti	ustvari ustvarijo ustvaril ustvarila ustvarile ustvarili ustvarilo ustvarim ustvarimo ustvarita ustvarite ustvariš
+75	675	stopnja	stopenj stopnjah stopnjami stopnje stopnji stopnjo
+76	676	prost	prosta proste prostega prostem prostemu prosti prostih prostim prostimi prosto
+77	677	srečati	sreča srečajo srečal srečala srečale srečali srečam srečamo srečat srečata srečate srečaš
+78	678	drugačen	drugačna drugačne drugačnega drugačni drugačnih drugačnim drugačnimi drugačno
+79	679	stanovanje	stanovanj stanovanja stanovanjem stanovanji stanovanjih stanovanju
+80	680	prodajati	prodaj prodaja prodajajo prodajal prodajala prodajale prodajali prodajalo prodajam prodajamo prodajat prodajata prodajate prodaje prodaji prodajo
+81	681	notranji	notranja notranje notranjega notranjem notranjemu notranjih notranjim notranjimi notranjo
+82	682	naročiti	naroči naročijo naročil naročila naročili naročilih naročilo naročilu naročimo naročite
+83	683	raziskava	raziskav raziskavah raziskavam raziskavami raziskave raziskavi raziskavo
+84	684	motor	motorja motorje motorjem motorjema motorjev motorji motorjih motorju
+85	685	širok	najširše najširšem najširši široka široke širokega širokem široki širokih širokim širokimi široko širša širše širšega širšem širšemu širši širših širšim širšo
+86	686	prejeti	prejel prejela prejele prejeli prejelo prejme prejmejo prejmem
+87	687	hrvaški	hrvaške hrvaškega hrvaškem hrvaškemu hrvaških hrvaškim hrvaškimi hrvaško
+88	688	peti	pel pela pele peli petega petem petemu petimi poj poje pojejo pojeta pojete pojeva poješ pojmo pojo pojta pojte pojva
+89	689	prihodnost	prihodnosti prihodnostjo
+90	690	nadzor	nadzora nadzorom nadzoru
+91	691	vrednost	vrednosti vrednostjo vrednostmi
+92	692	prevzeti	prevzame prevzamejo prevzamemo prevzameta prevzel prevzela prevzele prevzeli prevzelo
+93	693	gozd	gozda gozdom gozdov gozdove gozdovi gozdovih gozdovom gozdu
+94	694	štirje	štirih štirim štirimi
+95	695	okolje	okolij okolja okoljem okoljih okolju
+96	696	nahajati	nahaja nahajajo nahajala nahajale nahajali nahajamo nahajate
+97	697	sodišče	sodišč sodišča sodiščem sodišči sodiščih sodišču
+98	698	nevaren	najnevarnejšega najnevarnejši najnevarnejših nevarna nevarne nevarnega nevarnejša nevarnejše nevarnejši nevarnem nevarnemu nevarni nevarnih nevarnim nevarnimi nevarno
+99	699	general	generala generale generali generalom generalov generalova generalove generalovega generalovi generalovih generalovo generalu
+100	700	zmagati	zmagal zmagala zmagale zmagali zmagalo zmagam zmagamo zmagava

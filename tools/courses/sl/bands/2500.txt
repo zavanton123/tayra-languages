@@ -1,0 +1,100 @@
+1	2401	dar	darom darov darove darovi darovih daru
+2	2402	pokopališče	pokopališč pokopališča pokopališčem pokopališčih pokopališču
+3	2403	vrečka	vrečk vrečkah vrečke vrečki vrečko
+4	2404	organizem	organizma organizme organizmi organizmih organizmov organizmu
+5	2405	obljuba	obljub obljubah obljubam obljubami obljube obljubo
+6	2406	nastaviti	nastavi nastavijo nastavil nastavila nastavile nastavili nastavimo nastavita nastavite
+7	2407	milja	milj milje miljo
+8	2408	izziv	izzive izzivi izzivom izzivov izzivu
+9	2409	zaklad	zaklada zaklade zakladi zakladih zakladom zakladov zakladu
+10	2410	jetra	jeter jetri jetrih jetrom
+11	2411	primorski	primorska primorske primorskega primorskem primorskih primorsko
+12	2412	groziti	grozi grozijo grozil grozila grozile grozili grozilo grozim grozimo grozit grozita grozite groziš
+13	2413	predhoden	predhodna predhodne predhodnega predhodnem predhodni predhodnih predhodno
+14	2414	javiti	javi javijo javil javila javile javili javilo javim javimo javit javita javite javiva javiš
+15	2415	ogled	ogleda oglede ogledi ogledih ogledom ogledov ogledu
+16	2416	osumljenec	osumljenca osumljence osumljencem osumljencema osumljencev
+17	2417	vrv	vrvi vrvjo
+18	2418	ločitev	ločitve ločitvi ločitvijo
+19	2419	taksi	taksija taksije taksijem taksijev taksiji taksijih taksiju
+20	2420	poimenovati	poimenoval poimenovala poimenovali poimenuje poimenujejo poimenujete poimenujte
+21	2421	zaljubiti	zaljubi zaljubijo zaljubil zaljubila zaljubile zaljubili zaljubilo zaljubim zaljubimo zaljubita zaljubite zaljubiva zaljubiš
+22	2422	kino	kina kinih kinom kinov kinu
+23	2423	spodbujati	spodbuja spodbujajo spodbujal spodbujala spodbujale spodbujali spodbujamo spodbujate
+24	2424	kombi	kombija kombijem kombijev kombiji kombiju
+25	2425	zasluga	zaslug zaslugah zasluge zaslugi zaslugo
+26	2426	preteči	pretekel pretekla pretekle preteklega preteklem pretekli preteklih preteklimi preteklo preteče
+27	2427	grški	grška grške grškega grškem grških grškim grškimi
+28	2428	datoteka	datotek datotekah datotekami datoteke datoteki datoteko
+29	2429	predstavljen	predstavljena predstavljene predstavljeni predstavljenih predstavljeno
+30	2430	prihodnji	prihodnja prihodnje prihodnjega prihodnjem prihodnjemu prihodnjih prihodnjim prihodnjimi prihodnjo
+31	2431	sovjetski	sovjetska sovjetske sovjetskega sovjetskem sovjetskih sovjetskim sovjetsko
+32	2432	kovinski	kovinska kovinske kovinskega kovinskem kovinskih kovinskim kovinskimi kovinsko
+33	2433	nameščen	nameščena nameščene nameščeni nameščenih
+34	2434	doseg	dosega dosego dosegu
+35	2435	sedmi	sedma sedme sedmega sedmem sedmim sedmo
+36	2436	kisik	kisika kisikom kisiku
+37	2437	narednik	narednika
+38	2438	jezikoven	jezikovna jezikovne jezikovnega jezikovnem jezikovni jezikovnih jezikovnimi jezikovno
+39	2439	vitez	viteza viteze vitezi vitezih vitezom vitezov vitezova vitezu
+40	2440	starodaven	starodavna starodavne starodavnega starodavnem starodavnemu starodavni starodavnih starodavnim starodavnimi starodavno
+41	2441	zemeljski	zemeljska zemeljske zemeljskega zemeljskem zemeljskih zemeljskim zemeljskimi zemeljsko
+42	2442	slikati	slikaj slikajmo slikajo slikajta slikajte slikajva slikal slikala slikale slikali slikamo slikan slikat slikata slikate slikava slikaš
+43	2443	praznovati	praznoval praznovala praznovali praznovalo praznuje praznujejo praznujem praznujemo praznujeta
+44	2444	avtocesta	avtocest avtocestah avtoceste avtocesti avtocesto
+45	2445	okrogel	okrogla okrogle okroglega okrogli okroglih okroglim okroglimi okroglo
+46	2446	dvajset	dvajsetimi
+47	2447	mamilo	mamil mamila mamili mamilih mamilom mamilu
+48	2448	skriven	skrivna skrivne skrivnega skrivnem skrivnemu skrivni skrivnih skrivnim skrivnimi skrivno
+49	2449	napraviti	napravijo napravil napravila napravile napravili napravimo napravite napraviva napraviš
+50	2450	zamena	zameno
+51	2451	namestiti	namesti namestil namestila namestili namestim namestimo namestite
+52	2452	slava	slavi slavo
+53	2453	prijateljstvo	prijateljstev prijateljstva prijateljstvom prijateljstvu
+54	2454	opremljen	opremljena opremljene opremljeni opremljenih opremljeno
+55	2455	odkritje	odkritij odkritja odkritjem odkritju
+56	2456	seme	semen semena semeni semenih semenom semenu
+57	2457	poraz	poraza poraze porazi porazih porazom porazov porazu
+58	2458	matematika	matematike matematiki matematiko
+59	2459	študentski	študentska študentske študentskega študentskem študentskemu študentskih študentskim študentsko
+60	2460	postavljati	postavlja postavljajo postavljal postavljala postavljali postavljamo postavljata
+61	2461	splet	spleta spletu
+62	2462	izveden	izvedena izvedene izvedeni izvedenih izvedeno
+63	2463	vaditi	vadi vadijo vadila vadile vadili vadim vadimo vadit vadita vadite vadiva vadiš
+64	2464	prehrana	prehrane prehrani prehrano
+65	2465	španski	španska španske španskega španskem španskemu španskih španskim španskimi
+66	2466	obtožba	obtožb obtožbami obtožbe obtožbi obtožbo
+67	2467	veda	ved vedah vede vedi
+68	2468	učinkovitost	učinkovitosti učinkovitostjo
+69	2469	zažgati	zažgal zažgala zažgale zažgali zažgalo zažgan zažgat zažge zažgejo zažgem zažgemo zažgete zažgeva zažgeš zažgi zažgimo zažgita zažgite zažgiva
+70	2470	naporen	naporna naporne napornega napornem napornemu naporni napornih napornim naporno
+71	2471	cigareta	cigaret cigaretah cigaretam cigaretami cigarete cigareti cigareto
+72	2472	pogajanje	pogajanj pogajanja pogajanji pogajanjih pogajanju
+73	2473	pristanišče	pristanišč pristanišča pristanišči pristaniščih pristanišču
+74	2474	strela	strelah strelami strele streli strelo
+75	2475	maša	maš mašah maše maši mašo
+76	2476	obstoječ	obstoječa obstoječe obstoječega obstoječem obstoječi obstoječih obstoječim obstoječimi obstoječo
+77	2477	koledar	koledarja koledarje koledarjem koledarjev koledarji koledarjih koledarju
+78	2478	četrtek	četrtka četrtke četrtki četrtkih četrtkom četrtku
+79	2479	radio	radia radiem radiom radiu
+80	2480	borec	borca borce borcem borcev borci borcih borcu
+81	2481	logičen	logična logične logičnega logični logičnih logično
+82	2482	nastopati	nastopajo nastopal nastopala nastopale nastopali nastopalo nastopam nastopamo nastopat nastopata
+83	2483	absoluten	absolutne absolutni absolutno
+84	2484	povabiti	povabi povabijo povabili povabita povabite
+85	2485	duševen	duševna duševne duševnega duševnem duševnih duševnim duševno
+86	2486	tekmovalec	tekmovalca tekmovalce tekmovalcem tekmovalcev tekmovalci
+87	2487	uničenje	uničenja uničenjem uničenju
+88	2488	zadrževati	zadrževal zadrževala zadrževali zadrževalo zadržuje zadržujejo zadržujete
+89	2489	pogon	pogona pogone pogonom pogonov pogonu
+90	2490	mladenič	mladeniča mladeniče mladeničem mladeničev mladeničevo mladeniči mladeniču
+91	2491	vreča	vreč vrečah vrečami vreče vrečo
+92	2492	obvladati	obvlada obvladajo obvladal obvladala obvladali obvladam obvladamo obvladate
+93	2493	enkraten	enkratna enkratne enkratnega enkratnem enkratni enkratnim enkratno
+94	2494	borba	borb borbah borbami borbe borbi borbo
+95	2495	zajem	zajema
+96	2496	odvijati	odvija odvijajo odvijala odvijale odvijali odvijalo
+97	2497	izvajalec	izvajalca izvajalce izvajalcem izvajalcev izvajalci izvajalcu
+98	2498	medsebojen	medsebojna medsebojne medsebojnega medsebojnem medsebojni medsebojnih medsebojnim medsebojno
+99	2499	pobuda	pobud pobude pobudi pobudo
+100	2500	obnašanje	obnašanja obnašanjem obnašanju

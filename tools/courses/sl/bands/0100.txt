@@ -1,0 +1,100 @@
+1	1	biti	bi bije bil bila bile bili bilo bla bo bodi bodimo bodita bodite bodiva bodo bojo bom bomo bosta boste bova boš je ni nisem nisi nismo niso nista niste nisva sem si smo so sta ste sva sve
+2	2	se	sabo sebe sebi seboj si
+3	3	v	
+4	4	in	
+5	5	da	
+6	6	ta	tadva te tega teh tej tem temi temu to té téma
+7	7	ne	
+8	8	na	
+9	9	z	s
+10	10	za	
+11	11	jaz	jaza jazi jazom jazov jazu mano me medve mene meni menija meniji meniju menoj mi midva midve mój naju nama name nanju zame zanju
+12	12	ki	
+13	13	pa	
+14	14	ti	nate tabo te tebe tebi teboj tije vaju vama vedve vidva vidve zate
+15	15	on	ga jima mu nanj njega njem njemu nji njiju njim njima njimi nju onadva onedve zanj
+16	16	imeti	ima imajo imam imama imamo imaste imata imate imava imaš imej imejmo imejta imejte imejva imel imela imele imeli imelo imet mel nima nimajo nimam nimama nimamo nimata nimate nimava nimaš
+17	17	lahko	laže lohk najlaže
+18	18	kaj	kej kva čemu česa čim
+19	19	kot	kota kote koti kotih kotom kotov kotu
+20	20	še	
+21	21	tudi	tud
+22	22	če	čejev
+23	23	mi	mój nam nami nas
+24	24	tako	tko
+25	25	po	
+26	26	oni	jih jim ju nanje njih njim onega onem onih onim onimi plural zanje
+27	27	vedeti	mój ve vedel vedela vedele vedeli vedelo vedet vedite vedla vedli vedo vem vemo vesta veste veva veš
+28	28	ona	ji jima jo nanjo nje njej njo zanjo
+29	29	iti	gre gredo grejo grem grema gremo gresta greste greta grete greva greve greš idi idita idite pojde pojdejo pojdem pojdemo pojdeta pojdete pojdeva pojdeš pojdi pojdima pojdimo pojdita pojdite pojdiva šel šla šle šli šlo šu
+30	30	ali	
+31	31	od	
+32	32	o	
+33	33	morati	mora morajo moral morala morale morali moralo moram moramo morata morate morava moraš
+34	34	veliko	največ več večih čimveč
+35	35	leto	let leta lete leti letih letom letoma letov letu
+36	36	iz	
+37	37	že	
+38	38	vse	
+39	39	ko	
+40	40	kar	čemer čemur česar čimer
+41	41	vi	mój vam vami vas vasem
+42	42	svoj	svoja svoje svojega svojem svojemu svoji svojih svojim svojima svojimi svojo
+43	43	pri	
+44	44	moj	moja moje mojega mojem mojemu mojga moji mojih mojim mojima mojimi mojo
+45	45	do	
+46	46	ves	vsa vsega vseh vsej vsem vsemi vsemu vsi vso
+47	47	kako	
+48	48	misliti	misl misli mislijo mislil mislila mislile mislili mislilo mislim mislimo mislit mislita mislite misliva misliš mislm mislu mislš
+49	49	priti	pride pridejo pridem pridemo prideta pridete prideva prideš pridi pridimo pridita pridite pridiva prit prišel prišla prišle prišli prišlo pršla
+50	50	nekaj	nečemu nečesa nečim
+51	51	samo	
+52	52	čas	časa čase časi časih časom časoma časov času
+53	53	hoteti	hotel hotela hotele hoteli hotelih hotelo hotelom hotelov hotelu hoče hočejo hočem hočemo hočeta hočete hočeva hočeš nečem noče nočejo nočem nočemo nočeta nočete nočeva nočeš čem čet četa četam četami čete četi četo češ
+54	54	en	eden ena ene enega enem enemu eni enih enim enimi eno
+55	55	ja	
+56	56	videti	videl videla videle videli videlo videt vidi vidijo vidim vidimo vidita vidite vidiva vidiš
+57	57	dobro	bolje dobr najbolje
+58	58	človek	ljudeh ljudem ljudi ljudje ljudmi ludi človeka človekom človekoma človeku človk
+59	59	drug	druga druge drugega drugem drugemu drugih drugim drugima drugimi drugo
+60	60	dober	boljša boljše boljšega boljšem boljšemu boljši boljših boljšim boljšo dobra dobre dobrega dobrem dobremu dobri dobrih dobrim dobrima dobrimi najboljša najboljše najboljšega najboljšem najboljšemu najboljši najboljših najboljšim najboljšima najboljšimi najboljšo
+61	61	med	meda medom medu
+62	62	reči	reci recimo recita recite reciva rekel rekl rekla rekle rekli reklo reče rečejo rečem rečemo rečeta rečete rečeva rečeš
+63	63	prav	
+64	64	ker	
+65	65	kateri	katera katere katerega katerem kateremu katerih katerim katerima katerimi katero
+66	66	saj	sej
+67	67	moči	mogel mogla mogle mogli moglo mogu more morejo morem moremo moreta morete moreš morjo morš
+68	68	dan	dane danega dani danih dano dne dneh dnem dneva dneve dnevi dnevih dnevom dnevoma dnevov dnevu dni
+69	69	velik	največja največje največjega največjem največjemu največji največjih največjim največjima največjimi največjo prevelikega prevelikem prevelikim velika velike velikega velikem velikemu veliki velikih velikim velikima velikimi večja večje večjega večjem večjemu večji večjih večjim večjimi večjo
+70	70	dati	daj dajmo dajo dajta dajte dajva dal dala dale dali dalo dam damo dasta daste dava daš dá
+71	71	zelo	
+72	72	naj	nej
+73	73	tvoj	tvoja tvoje tvojega tvojem tvojemu tvoji tvojih tvojim tvojima tvojimi tvojo
+74	74	zakaj	zakva
+75	75	povedati	pove povedal povedala povedale povedali povedalo povedo povedu povej povejmo povejo povejte povem povemo povesta poveste poveš
+76	76	vedno	
+77	77	a	
+78	78	njegov	njegova njegove njegovega njegovem njegovemu njegovi njegovih njegovim njegovima njegovimi njegovo
+79	79	kdo	koga kom komu
+80	80	res	
+81	81	zaradi	zarad
+82	82	ampak	
+83	83	zato	
+84	84	zdaj	zdej
+85	85	želeti	želel želela želele želeli želelo želeč želi želijo želim želimo želita želite želiva želiš
+86	86	vaš	vaša vaše vašega vašem vašemu vaši vaših vašim vašima vašimi vašo
+87	87	mesto	mede medejo medel meden medi medla medli medlo mest mesta mesti mestih mestom mestoma mestu metel
+88	88	dva	dve dveh dvema
+89	89	naš	naša naše našega našem našemu naši naših našim našima našimi našo
+90	90	nov	najnovejša najnovejše najnovejšega najnovejšem najnovejši najnovejših najnovejšim najnovejšimi najnovejšo nova nove novega novejša novejše novejšega novejši novejših novejšo novem novemu novi novih novim novima novimi novo
+91	91	tisti	tist tista tiste tistega tistem tistemu tistih tistim tistima tistimi tisto
+92	92	red	reda redom redov redovi redu
+93	93	tukaj	
+94	94	prvi	prva prve prvega prvem prvemu prvih prvim prvima prvimi prvo
+95	95	le	
+96	96	delo	dela delom deloma
+97	97	dobiti	dobi dobijo dobil dobila dobile dobili dobilo dobim dobimo dobit dobita dobite dobiš
+98	98	nič	nikoga niča ničem ničemer ničemur ničesar ničimer niču nč
+99	99	pred	
+100	100	otrok	otroci otrocih otroka otroke otroki otrokom otrokoma otroku

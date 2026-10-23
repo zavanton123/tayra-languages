@@ -1,0 +1,100 @@
+1	901	rastlina	rastlin rastlinah rastlinam rastlinami rastline rastlini rastlino
+2	902	možgani	možgan možgane možganih možganom možganov
+3	903	prodati	prodal prodala prodale prodali prodalo prodam prodamo prodate
+4	904	dvigniti	dvigne dvignejo dvignem dvignemo dvigneta dvignete dvigneva dvigneš dvigni dvignil dvignila dvignile dvignili dvignilo dvignimo dvignit dvignita dvignite dvigniva
+5	905	plošča	plošč ploščah ploščama ploščami plošče plošči ploščo
+6	906	prevod	prevoda prevode prevodi prevodih prevodom prevodov prevodu
+7	907	tekmovanje	tekmovanj tekmovanja tekmovanjem tekmovanji tekmovanjih tekmovanju
+8	908	pobrati	pobere poberejo poberem poberemo pobereta poberete pobereva pobereš poberi poberimo poberita poberite poberiva pobral pobrala pobrale pobrali pobralo pobrat
+9	909	izdajati	izdaj izdaja izdajah izdajajo izdajal izdajala izdajali izdajam izdajamo izdaje izdaji izdajo
+10	910	sonce	sonc sonca soncem sonci soncu
+11	911	zahtevati	zahtevajo zahtevajte zahteval zahtevala zahtevale zahtevali zahtevalo zahtevamo zahtevata zahtevate zahtevaš
+12	912	zbrati	zbere zberejo zberem zberemo zbereta zberete zbereva zbereš zberi zberimo zberita zberite zberiva zbral zbrala zbrale zbrali zbralo zbrat
+13	913	četrt	četrta četrte četrtega četrtem četrti četrtih četrtim četrto
+14	914	april	aprila aprile aprilom aprilu
+15	915	knjižnica	knjižnic knjižnicah knjižnice knjižnici knjižnico
+16	916	ljubljanski	ljubljanska ljubljanske ljubljanskega ljubljanskem ljubljanskemu ljubljanskih ljubljanskim ljubljansko
+17	917	meniti	meneč menijo menil menila menile menili menilo menim menimo menita menite meniva meniš
+18	918	preteklost	preteklosti preteklostjo
+19	919	nekje	
+20	920	spodnji	spodnja spodnje spodnjega spodnjem spodnjemu spodnjih spodnjim spodnjimi spodnjo
+21	921	skušati	skušaj skušajo skušajte skušal skušala skušale skušali skušalo skušam skušamo skušata skušate
+22	922	površina	površin površinah površinami površine površini površino
+23	923	gora	gorah goram gorami gore goro goró
+24	924	prijeten	najprijetnejši prijetna prijetne prijetnega prijetneje prijetnejše prijetnem prijetni prijetnih prijetnim prijetno
+25	925	komaj	
+26	926	muzej	muzeja muzeje muzejem muzejev muzeji muzejih muzeju
+27	927	prepričati	prepriča prepričaj prepričajmo prepričajo prepričajte prepričal prepričala prepričale prepričali prepričalo prepričamo prepričate prepričaš
+28	928	potovanje	potovanj potovanja potovanjem potovanji potovanjih potovanju
+29	929	gospodarski	gospodarska gospodarske gospodarskega gospodarskem gospodarskemu gospodarskih gospodarskim gospodarskimi gospodarsko
+30	930	izjemen	izjemna izjemne izjemnega izjemnem izjemni izjemnih izjemnim izjemno
+31	931	september	septembra septembrom septembru
+32	932	sklad	sklada sklade skladi skladih skladom skladov skladu
+33	933	pojasniti	pojasni pojasnijo pojasnil pojasnila pojasnile pojasnili pojasnilih pojasnilo pojasnilom pojasnilu pojasnim pojasnimo pojasnit pojasnita pojasnite pojasniva pojasniš
+34	934	leten	letna letne letnega letnem letnemu letni letnih letnim letnimi letno
+35	935	banka	bank bankah bankam bankami banke banki banko
+36	936	odrasti	odrasel odrasla odrasle odraslega odraslem odrasli odraslih odraslim odraslima odraslimi odraslo odrastem
+37	937	nebo	neba nebi nebom nebu
+38	938	primeren	najprimernejša najprimernejše najprimernejši primerna primerne primernega primernejša primernejše primernejšem primernejši primernem primerni primernih primernimi primerno
+39	939	velikost	velikosti velikostih velikostjo
+40	940	želja	želj željah željam željami želje želji željo
+41	941	pošten	poštena poštene poštenemu pošteni poštenih pošteno poštna poštne poštnega poštnem poštni poštnih poštnim poštno
+42	942	zaprt	zaprta zaprte zaprtega zaprtem zaprti zaprtih zaprtim zaprtimi zaprto
+43	943	povečati	poveča povečajo povečal povečala povečale povečali povečalo povečamo povečate
+44	944	snov	snovi snovjo snovmi
+45	945	prijateljica	prijateljic prijateljicah prijateljicam prijateljicama prijateljicami prijateljice prijateljici prijateljico
+46	946	tuj	tuja tuje tujega tujem tujemu tuji tujih tujim tujimi tujo
+47	947	ločiti	ločen ločeno loči ločijo ločil ločila ločile ločili ločilo ločim ločimo ločit ločita ločite ločiva ločiš
+48	948	razmerje	razmerij razmerja razmerjem razmerji razmerjih razmerju
+49	949	članek	članka članke članki člankih člankom člankov članku
+50	950	ustreliti	ustreli ustrelil ustrelila ustrelili ustrelilo ustrelimo
+51	951	obisk	obiska obiske obiski obiskih obiskom obiskov obisku
+52	952	gradnja	gradenj gradnje gradnji gradnjo
+53	953	priča	prič pričah pričam pričama pričami priče priči pričo
+54	954	sodelovanje	sodelovanja sodelovanjem sodelovanju
+55	955	posamezen	posamezna posamezne posameznega posameznem posameznemu posamezni posameznih posameznim posameznimi posamezno
+56	956	zaščita	zaščit zaščite zaščiti zaščito
+57	957	potrditi	potrdi potrdijo potrdil potrdila potrdile potrdili potrdilo potrdilu potrdim potrdimo potrdite
+58	958	kraljica	kraljic kraljicam kraljicami kraljice kraljici kraljico
+59	959	svetloba	svetlobe svetlobi svetlobo
+60	960	podpora	podpore podpori podporo
+61	961	kitajski	kitajske kitajskega kitajskem kitajskemu kitajskih kitajskim kitajskimi kitajsko
+62	962	oblast	oblasteh oblastem oblasti oblastjo oblastmi
+63	963	fakulteta	fakultet fakultetah fakultete fakulteti fakulteto
+64	964	sredstvo	sredstev sredstva sredstvi sredstvih sredstvom sredstvu
+65	965	tehnik	tehnika tehnikah tehnikami tehnike tehniki tehniko tehnikom tehnikov
+66	966	vzorec	vzorca vzorce vzorcem vzorcev vzorci vzorcih vzorcu
+67	967	policist	policista policiste policisti policistih policistom policistoma policistov policistova policistu
+68	968	spominjati	spominja spominjaj spominjajo spominjajte spominjal spominjala spominjale spominjali spominjalo spominjam spominjamo spominjanje spominjat spominjata spominjate spominjava spominjaš
+69	969	kak	kaka kake kakega kakem kakemu kaki kakih kakim kakima kakimi
+70	970	ogenj	ognja ognje ognjem ognjema ognjev ognji ognjih ognju
+71	971	zraven	
+72	972	mnogo	
+73	973	bližina	bližine bližini bližino
+74	974	kolega	kolege kolegi kolegih kolegom kolegoma kolegov kolegu
+75	975	dejstvo	dejstev dejstva dejstvi dejstvih dejstvom dejstvu
+76	976	gost	gosta goste gostega gosteh gostejši gostem gostih gostim gostimi gostje gosto gostom gostoma gostov gostu pregosto
+77	977	zgoraj	
+78	978	notri	
+79	979	čevelj	čevlja čevlje čevljem čevljev čevlji čevljih čevlju
+80	980	zase	
+81	981	znova	
+82	982	pogoj	pogoja pogoje pogojem pogojev pogoji pogojih pogoju
+83	983	strokoven	strokovna strokovne strokovnega strokovnem strokovni strokovnih strokovnim strokovnimi strokovno
+84	984	dokument	dokumenta dokumente dokumenti dokumentih dokumentom dokumentov dokumentu
+85	985	koli	
+86	986	nameravati	namerava nameravajo nameraval nameravala nameravali nameravam nameravamo nameravata nameravate nameravaš
+87	987	narod	naroda narode narodi narodih narodom narodoma narodov narodu
+88	988	pozdravljen	pozdravljena pozdravljeni
+89	989	mimo	
+90	990	osnova	osnov osnovah osnovam osnove osnovi osnovo
+91	991	kolikor	
+92	992	stalen	stalna stalne stalnega stalnem stalni stalnih stalnim stalno
+93	993	zvečer	
+94	994	končan	končana končane končanem končani končanih končano
+95	995	pričeti	pričel pričela pričele pričeli pričelo prične pričnejo pričnem pričnemo pričnite prično
+96	996	večinoma	
+97	997	profesor	profesorja profesorje profesorjem profesorjev profesorji profesorjih profesorju
+98	998	odbor	odbora odborih odborom odborov odboru
+99	999	božji	božja božje božjih božjo
+100	1000	kamen	kamene kameno kamna kamne kamni kamnih kamnom kamnov kamnu

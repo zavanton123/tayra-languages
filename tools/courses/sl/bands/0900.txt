@@ -1,0 +1,100 @@
+1	801	duša	duš dušah dušam dušama dušami duše duši dušo
+2	802	učinek	učinka učinke učinki učinkih učinkom učinkov učinku
+3	803	reka	rek rekah rekam rekama rekami reke reki reko rekom reku
+4	804	boj	bojem bojev bojih boju
+5	805	pridružiti	pridruži pridružijo pridružil pridružila pridružile pridružili pridružilo pridružim pridružimo
+6	806	poskus	poskusa poskuse poskusi poskusih poskusom poskusov poskusu
+7	807	obiskati	obiskal obiskala obiskale obiskali obiskalo obiskat obišče obiščejo obiščem obiščemo obiščeta obiščete obiščeva obiščeš obišči obiščimo obiščita obiščite obiščiva
+8	808	vojaški	vojaška vojaške vojaškega vojaškem vojaškemu vojaških vojaškim vojaško
+9	809	stopiti	stopi stopijo stopil stopila stopile stopili stopilo stopim stopimo stopit stopita stopite stopiva stopiš
+10	810	pogodba	pogodb pogodbah pogodbami pogodbe pogodbi pogodbo
+11	811	sanjati	sanj sanja sanjah sanjaj sanjajo sanjajta sanjajte sanjal sanjala sanjale sanjali sanjalo sanjam sanjami sanjamo sanjat sanjata sanjate sanjava sanjaš
+12	812	prebivalec	prebivalca prebivalce prebivalcem prebivalcev prebivalci prebivalcih prebivalka
+13	813	obrniti	obrne obrnejo obrnem obrnemo obrnete obrneš obrni obrnil obrnila obrnile obrnili obrnilo
+14	814	vrat	vrate vratov vratova vratove vratovi vratovih vratu
+15	815	nastop	nastopa nastope nastopi nastopih nastopom nastopov nastopu
+16	816	pijača	pijač pijačah pijačami pijače pijači pijačo
+17	817	predstava	predstav predstavah predstavam predstavami predstave predstavi predstavo
+18	818	konj	konja konje konjem konjema konjev konji konjih konju
+19	819	umetnost	umetnosti umetnostjo
+20	820	gibanje	gibanj gibanja gibanjem gibanji gibanjih gibanju
+21	821	narava	narav narave naravi naravo
+22	822	sedež	sedeža sedeže sedežem sedežev sedeži sedežih sedežu
+23	823	okno	oken okna okni oknih oknom oknu
+24	824	posnetek	posnetka posnetke posnetki posnetkih posnetkom posnetkov posnetku
+25	825	d	
+26	826	dodaten	dodatna dodatne dodatnega dodatnem dodatni dodatnih dodatnim dodatnimi dodatno
+27	827	moder	modra modre modrega modrejši modrem modremu modri modrih modrim modrimi modro najmodrejši
+28	828	oddajati	oddaj oddaja oddajah oddajajo oddajal oddajala oddajali oddajami oddaje oddaji oddajo
+29	829	mera	mer merah merami mere meri mero
+30	830	normalen	normalna normalne normalnega normalnem normalni normalnih normalnim normalnimi normalno
+31	831	ključ	ključa ključe ključem ključev ključi ključih ključu
+32	832	operacija	operacij operacijah operacijam operacijami operacije operaciji operacijo
+33	833	spustiti	spusti spustijo spustil spustila spustile spustili spustilo spustim spustimo spustit spustita spustite spustiva spustiš
+34	834	smisel	smisla smislom smislu
+35	835	oprema	opreme opremi opremo
+36	836	rit	rije rijejo riti ritih ritjo ritma
+37	837	lagati	lagal lagala lagale lagali lagalo laganje lagat lažejo lažem lažemo lažeta lažete laževa lažeš lažita lažite
+38	838	darilo	daril darila darili darilih darilom darilu
+39	839	tema	temah temam temami teme temena temo téma témo
+40	840	središče	središč središča središčem središči središčih središču
+41	841	povsem	
+42	842	priprava	priprav pripravah pripravam pripravami priprave pripravi pripravo
+43	843	zlasti	
+44	844	reden	redna redne rednega rednem redni rednih rednim rednimi redno
+45	845	sekunda	sekund sekundah sekundama sekundami sekunde sekundi sekundo
+46	846	namenjen	namenjena namenjene namenjenega namenjeni namenjenih namenjeno
+47	847	lastnost	lastnosti lastnostih lastnostim lastnostjo lastnostmi
+48	848	omogočati	omogoča omogočajo omogočal omogočala omogočale omogočali omogočalo omogočamo omogočata
+49	849	napačen	napačna napačne napačnega napačnem napačnemu napačni napačnih napačnim napačnimi napačno
+50	850	posameznik	posameznika posameznike posamezniki posameznikih posameznikom posameznikov posameznikove posameznikovih posameznikovo posamezniku
+51	851	pojav	pojava pojave pojavi pojavih pojavo pojavom pojavov pojavu
+52	852	avgust	avgusta avgustom avgustu
+53	853	gor	
+54	854	bolnišnica	bolnišnic bolnišnicah bolnišnicam bolnišnicami bolnišnice bolnišnici bolnišnico
+55	855	skrivnost	skrivnosti skrivnostih skrivnostim skrivnostjo skrivnostmi
+56	856	kava	kav kavah kave kavi kavo
+57	857	klic	klica klice klicem klicev klici klicih klicu
+58	858	učitelj	učitelja učitelje učiteljem učiteljev učiteljeva učiteljeve učitelji učiteljih učitelju
+59	859	program	programa programe programi programih programom programov programu
+60	860	bistvo	bistva bistvom bistvu
+61	861	zbirka	zbirk zbirkah zbirkami zbirke zbirki zbirko
+62	862	vključevati	vključeval vključevala vključevale vključevali vključevalo vključuje vključujejo vključujemo
+63	863	vroč	vroča vroče vročega vročem vročemu vroči vročih vročim vročimi vročo
+64	864	količina	količin količinah količinami količine količini količino
+65	865	drevo	dreves drevesa drevesi drevesih drevesom drevesu
+66	866	pridobiti	pridobi pridobijo pridobil pridobila pridobile pridobili pridobilo pridobimo pridobita pridobite pridobiva pridobiš
+67	867	rob	roba robe robi robo robom robov robove robovi robovih robu
+68	868	luč	lučeh lučem luči lučjo lučmi
+69	869	nekako	nekak nekaka
+70	870	uspeh	uspeha uspehe uspehi uspehih uspehom uspehov uspehu
+71	871	dejavnost	dejavnosti dejavnostih dejavnostim dejavnostjo dejavnostmi
+72	872	potreba	potreb potrebah potrebam potrebami potrebe potrebi potrebo
+73	873	podlaga	podlag podlagah podlage podlagi podlago
+74	874	čist	najčistejši čista čiste čistega čistejša čistejši čistem čistemu čisti čistih čistim čistimi
+75	875	polovica	polovic polovice polovici polovico
+76	876	kamera	kamer kamerami kamere kameri kamero
+77	877	tisoč	tisočem tisočih
+78	878	adijo	
+79	879	osem	osmih osmimi
+80	880	morilec	morilca morilcem morilcev morilci
+81	881	dejanje	dejanj dejanja dejanjem dejanji dejanjih dejanju
+82	882	računalnik	računalnika računalnike računalniki računalnikih računalnikom računalnikov računalniku
+83	883	dobrodošel	dobrodošla dobrodošle dobrodošlega dobrodošli dobrodošlo
+84	884	stik	stika stike stiki stikih stikom stikov stiku
+85	885	korak	koraka korake koraki korakih korakom korakov koraku
+86	886	nekdanji	nekdanja nekdanje nekdanjega nekdanjem nekdanjemu nekdanjih nekdanjim nekdanjimi nekdanjo
+87	887	današnji	današnja današnje današnjega današnjem današnjemu današnjih današnjim današnjo
+88	888	pojem	pojma pojme pojmi pojmom pojmov pojmu
+89	889	meter	metra metri metrih metrom metrov metru
+90	890	hkrati	
+91	891	vame	vanj vanje vanjo vate
+92	892	družben	družbena družbene družbenega družbenem družbenemu družbeni družbenih družbenim družbenimi družbeno
+93	893	postopek	postopka postopke postopki postopkih postopkom postopkov postopku
+94	894	celica	celic celicah celicam celicami celice celici celico
+95	895	pojaviti	pojavijo pojavil pojavila pojavile pojavili pojavilo pojavita pojavite
+96	896	zdravljenje	zdravljenja zdravljenjem zdravljenju
+97	897	planet	planeta planete planeti planetih planetom planetoma planetov planetu
+98	898	cena	cen cenah cenami ceni ceno
+99	899	hitrost	hitrosti hitrostih hitrostjo hitrostmi
+100	900	znotraj	

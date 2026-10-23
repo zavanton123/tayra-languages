@@ -1,0 +1,100 @@
+1	5901	šibkost	šibkosti
+2	5902	okupator	okupatorja okupatorjem okupatorji okupatorju
+3	5903	odstranjen	odstranjena odstranjene
+4	5904	zašiti	zašijem zašil zašila zašili
+5	5905	ležeč	ležeče ležečega ležeči ležečih ležečo
+6	5906	kraljevina	kraljevine kraljevini kraljevino
+7	5907	vrtenje	vrtenja vrtenjem
+8	5908	rezerviran	rezervirana rezervirane rezervirani rezerviranih rezervirano
+9	5909	obetati	obeta obetajo obetal obetala obetali obetalo obetam obetata
+10	5910	žaliti	žali žalil žalili
+11	5911	začetnica	začetnic začetnicama začetnice začetnici začetnico
+12	5912	ledenik	ledenika ledenike ledeniki ledenikom ledenikov ledeniku
+13	5913	provinca	provinc provincah provinci provinco
+14	5914	podaljšan	podaljšana podaljšanega podaljšanem podaljšani podaljšanim
+15	5915	pok	poka poku
+16	5916	obžalovanje	obžalovanja obžalovanjem
+17	5917	kanjon	kanjona kanjone kanjoni kanjonih kanjonom kanjonov kanjonu
+18	5918	žganje	žganja žganjem žganju
+19	5919	ščurek	ščurka ščurke ščurki ščurkom ščurkov ščurku
+20	5920	ugrabitelj	ugrabitelja ugrabitelji
+21	5921	sprehoditi	sprehodil sprehodili sprehodim sprehodita sprehodite
+22	5922	zaostati	zaostal zaostala zaostale zaostalih zaostalo
+23	5923	obmejen	obmejna obmejne obmejnega obmejnem obmejni obmejnih obmejno
+24	5924	prenehanje	prenehanja prenehanju
+25	5925	zakonec	zakonca zakoncema zakoncev zakonci
+26	5926	odlikovati	odlikoval odlikuje odlikujejo
+27	5927	vpis	vpisa vpise vpisu
+28	5928	statut	statuta statutom statutu
+29	5929	hamburger	hamburgerje
+30	5930	ukinitev	ukinitvi
+31	5931	slanina	slanine slanini slanino
+32	5932	maksimalen	maksimalne maksimalnega maksimalni maksimalno
+33	5933	faraon	faraona faraone faraoni faraonom faraonov faraonova faraonove faraonovega faraonovi faraonovih faraonovo faraonu
+34	5934	preobrat	preobrata preobrate preobrati preobratom preobratov preobratu
+35	5935	zgoreti	zgorela zgorelo zgori
+36	5936	javljati	javlja javljaj javljajo javljajte javljal javljala javljali javljam javljamo javljata javljate javljaš
+37	5937	proslava	proslav proslave proslavi proslavo
+38	5938	postavljanje	postavljanja postavljanjem postavljanju
+39	5939	novinarstvo	novinarstva novinarstvu
+40	5940	ruša	ruše ruši rušo
+41	5941	poimenovan	poimenovana poimenovane poimenovanih
+42	5942	violina	violine violini violino
+43	5943	užaliti	užalil užalile užalilo
+44	5944	razpoložljiv	razpoložljiva razpoložljive razpoložljivega razpoložljivi razpoložljivih razpoložljivim razpoložljivimi razpoložljivo
+45	5945	vibracija	vibracij vibracije
+46	5946	težnja	težnje težnji težnjo
+47	5947	zaužiti	zaužije zaužijejo zaužijemo zaužijete zaužil zaužila zaužile zaužili
+48	5948	poznavalec	poznavalca poznavalce poznavalcev poznavalci
+49	5949	poljsko	
+50	5950	astronavt	astronavti
+51	5951	obnavljati	obnavlja obnavljajo obnavljal obnavljali obnavljamo
+52	5952	komet	kometa komete kometi kometom kometov kometu
+53	5953	pomirjevati	pomirjeval pomirjevala pomirjevali pomirjevalo
+54	5954	udaren	udarna udarne udarnega udarni udarno
+55	5955	preostati	preostane
+56	5956	dihalo	dihal
+57	5957	pokončen	pokončna pokončnega pokončni pokončno
+58	5958	letak	letake letaki letakov
+59	5959	carinski	carinska carinske carinskega carinskih carinsko
+60	5960	prilika	prilik priliki priliko
+61	5961	krožek	krožka krožke krožkom krožku
+62	5962	nasad	nasada nasade nasadi nasadih nasadov nasadu
+63	5963	polt	polti poltjo
+64	5964	oskar	oskarje oskarjem oskarjev oskarji oskarjih
+65	5965	reaktor	reaktorju
+66	5966	razčistiti	razčistila razčistili razčistimo razčistite
+67	5967	alternativa	alternativo
+68	5968	izsiljevanje	izsiljevanj izsiljevanja
+69	5969	odred	odreda odredi odredov
+70	5970	razglednica	razglednic razglednicah razglednice razglednici razglednico
+71	5971	estetski	estetskega estetskih estetsko
+72	5972	investicija	investicij investicijah investicije investicijo
+73	5973	delegacija	delegacije delegaciji
+74	5974	navzoč	navzoča navzoče navzočega navzoči navzočih navzočim
+75	5975	poseči	posegel posegla posegli poseže posežejo posežemo
+76	5976	določba	določb določbah določbami določbe
+77	5977	vizitka	vizitko
+78	5978	pričetek	pričetka pričetkom pričetku
+79	5979	norišnica	norišnice norišnico
+80	5980	občudovanje	občudovanja občudovanjem občudovanju
+81	5981	slikanica	slikanic slikanice slikanico
+82	5982	dekan	dekana
+83	5983	sklepanje	sklepanja sklepanjem sklepanju
+84	5984	obstati	obstal obstala obstali obstalo obstane obstanejo obstoji
+85	5985	krof	krofi krofov
+86	5986	prelom	preloma prelomu
+87	5987	zmesti	zmedejo zmedel zmedla zmedli zmedlo
+88	5988	sorod	sorodu
+89	5989	sklicati	sklical sklicali
+90	5990	ptujski	ptujska ptujskega ptujskem ptujsko
+91	5991	potrkati	potrka potrkal potrkala potrkali potrkalo potrkam
+92	5992	šahovski	šahovska šahovske šahovskega šahovskih šahovsko
+93	5993	boksar	boksarja boksarje boksarjem boksarjev boksarji boksarju
+94	5994	biologija	biologiji biologijo
+95	5995	rokometen	rokometna rokometne rokometni rokometno
+96	5996	svetovalka	svetovalke svetovalko
+97	5997	kult	kulta kultu
+98	5998	nagon	nagona nagone nagonu
+99	5999	izumreti	izumrl izumrla izumrle izumrli izumrlih izumrlo
+100	6000	srhljiv	srhljivih srhljivo

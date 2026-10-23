@@ -1,0 +1,227 @@
+{
+  "id": "sl-mini-0100",
+  "rankUpTo": 100,
+  "level": "A1",
+  "title": "Doma z družino",
+  "description": "Ten short everyday stories about home and family: a move to a new town, an old photo, a first day at work, a birthday, a father with no time, a visit to grandmother, two brothers, a child who asks why, a year in a new town and a tidy room.",
+  "topic": "Home and family",
+  "names": [
+    "Ana",
+    "Marko",
+    "Nina",
+    "Jan",
+    "Celje",
+    "Mojca",
+    "Lara",
+    "Tim",
+    "Tomaž",
+    "Vesna",
+    "Ivan",
+    "Rex",
+    "Gregor",
+    "Peter",
+    "Špela",
+    "Katja",
+    "Lovro",
+    "Žiga",
+    "Petra",
+    "Andrej",
+    "Ema",
+    "Boštjan",
+    "Zala",
+    "Tilen",
+    "Urška",
+    "Hana",
+    "Domen",
+    "Metka",
+    "Maribor",
+    "Miha",
+    "Blaž",
+    "Filip",
+    "Tina",
+    "Simon",
+    "Klemen",
+    "Neža",
+    "Sara",
+    "Anže",
+    "Kranj",
+    "Irena",
+    "Ljubljana",
+    "Aljaž",
+    "Kaja",
+    "Nejc",
+    "Barbara"
+  ],
+  "lessons": [
+    {
+      "title": "Novo mesto",
+      "summary": "Ana and Marko move with their two children to Celje, where both of them have new work.",
+      "newWords": [
+        "biti",
+        "v",
+        "in",
+        "ne",
+        "za",
+        "imeti",
+        "tudi",
+        "mesto",
+        "dva",
+        "nov",
+        "otrok",
+        "delo",
+        "reči",
+        "ali"
+      ],
+      "text": "Ana in Marko imata dva otroka, Nino in Jana. Ana, Marko, Nina in Jan so v Celju. Celje je novo mesto za Ano in Marka. Celje je tudi novo mesto za otroka.\n\nV Celju ima Marko novo delo. Ana ima tudi novo delo. Nina in Jan nimata dela. Nina in Jan sta otroka. Otroka imata v Celju novo šolo.\n\n»Imamo novo mesto,« reče Ana.\n»In novo delo,« reče Marko.\n»Ali imava tudi delo?« reče Nina.\n»Ne. Otroka nimata dela. Otroka imata v Celju novo šolo,« reče Marko.\n\nVprašanja:\nAli imata Ana in Marko dva otroka?\nAna in Marko imata dva otroka, Nino in Jana.\nAli je Celje novo mesto za Ano in Marka?\nCelje je novo mesto za Ano in Marka.\nAli ima Marko v Celju novo delo?\nMarko ima v Celju novo delo. Ana ima tudi novo delo.\nAli imata Nina in Jan delo?\nNe, Nina in Jan nimata dela. Nina in Jan sta otroka."
+    },
+    {
+      "title": "Kdo je to?",
+      "summary": "Mojca shows Lara and Tim old photos of her family.",
+      "newWords": [
+        "ta",
+        "jaz",
+        "ti",
+        "on",
+        "ona",
+        "moj",
+        "tvoj",
+        "njegov",
+        "kdo",
+        "ja"
+      ],
+      "text": "Mojca ima stare slike.\n\n»Kdo je to?« reče Lara.\n»To sem jaz,« reče Mojca.\n»Ti? To si ti?« reče Tim.\n»Ja, to sem jaz.«\n»In kdo je on?« reče Lara.\n»On je Tomaž, moj brat.«\n»In kdo je ona?« reče Tim.\n»Ona je Vesna.«\n»Ali je to tvoja mama?« reče Lara.\n»Ja, to je moja mama. In to je Ivan, moj oče.«\n»Ali je to tvoj pes?« reče Tim.\n»Ne, to ni moj. To je Rex. Rex je Tomažev. Je njegov, ni moj.«\n»In kdo je to? Ali je to tudi Tomaž?« reče Lara.\n»Ja, tudi to je Tomaž. In to je tudi Tomaž.«\n»Jaz nimam psa,« reče Tim.\n»Ti nimaš psa. Ti imaš mene!« reče Lara.\n\nVprašanja:\nKdo je Tomaž?\nTomaž je Mojčin brat.\nKdo je Vesna?\nVesna je Mojčina mama.\nKdo je Ivan?\nIvan je Mojčin oče.\nAli je Rex Mojčin?\nNe, Rex ni Mojčin. Rex je Tomažev. Je njegov."
+    },
+    {
+      "title": "Prvi dan",
+      "summary": "Gregor has his first day at a new job and meets his boss Peter and Špela, who is new too.",
+      "newWords": [
+        "prvi",
+        "dan",
+        "iti",
+        "priti",
+        "z",
+        "na",
+        "pred",
+        "ko",
+        "že"
+      ],
+      "text": "Za Gregorja je to prvi dan na novem delu. Gregor gre na delo z avtom.\n\nKo Gregor pride na delo, je Peter že na delu. Peter je Gregorjev šef.\n»Živjo, Gregor! Ali je to tvoj prvi dan?« reče Peter.\n»Ja, to je moj prvi dan,« reče Gregor.\n»Za Špelo je to tudi prvi dan,« reče Peter.\n\nŠpela pride na delo.\n»Jaz sem Špela,« reče Špela.\n»Jaz sem Gregor. Tudi za mene je to prvi dan,« reče Gregor.\n\nKo pride Gregor z dela, sta Katja in Lovro že pred hišo.\n»Ali je to delo za tebe?« reče Katja.\n»Ja, to je delo za mene,« reče Gregor.\n\nVprašanja:\nAli je to za Gregorja prvi dan na novem delu?\nJa, za Gregorja je to prvi dan na novem delu.\nAli gre Gregor na delo z avtom?\nJa, Gregor gre na delo z avtom.\nAli ima tudi Špela prvi dan?\nJa, tudi za Špelo je to prvi dan na delu.\nKdo je pred hišo, ko pride Gregor z dela?\nPred hišo sta Katja in Lovro."
+    },
+    {
+      "title": "Rojstni dan",
+      "summary": "For his birthday Žiga wants only one thing: a day in Ljubljana, and his sister Ema gives him a day with her.",
+      "newWords": [
+        "kaj",
+        "želeti",
+        "hoteti",
+        "dati",
+        "dobiti",
+        "en",
+        "nekaj",
+        "nič",
+        "ki",
+        "kateri"
+      ],
+      "text": "Žiga ima rojstni dan. Kaj želi Žiga za rojstni dan?\n\n»Kaj želiš?« reče Petra.\n»Želim en dan v Ljubljani,« reče Žiga.\n»En dan v Ljubljani? Kaj hočeš v Ljubljani?« reče Andrej.\n»Nič. Hočem iti v Ljubljano. To je nekaj novega.«\n»Ne želiš nič? Ne hočeš nič?« reče Petra.\n»Nič ne hočem. Hočem en dan v Ljubljani.«\n\nEma želi Žigi tudi nekaj dati.\n»Kaj mi daš?« reče Žiga.\n»Dam ti en dan z mano,« reče Ema.\n»Kateri dan?«\n»Dan, ki ga imaš v Ljubljani. Ta dan je tvoj in moj.«\n\n»V katero mesto gremo?« reče Andrej.\n»V Ljubljano!« reče Žiga.\n\nŽiga, Ema, Petra in Andrej gredo v Ljubljano. Žiga dobi en dan v Ljubljani. To je dan, ki ga želi. In dobi tudi en dan z Emo.\n\nVprašanja:\nKaj želi Žiga?\nŽiga želi en dan v Ljubljani.\nKaj reče Žiga?\nŽiga reče: »Nič ne hočem.«\nKaj želi Ema dati Žigi?\nEma želi Žigi dati en dan z njo.\nAli Žiga dobi en dan v Ljubljani?\nJa, Žiga dobi en dan v Ljubljani."
+    },
+    {
+      "title": "Oči nima časa",
+      "summary": "Boštjan is always at work, so one day he stays at home and has time only for his children.",
+      "newWords": [
+        "morati",
+        "moči",
+        "čas",
+        "vedno",
+        "samo",
+        "le",
+        "še",
+        "od",
+        "do",
+        "zdaj"
+      ],
+      "text": "Boštjan je vedno na delu. Na delu je od 7. do 17. ure. Ko pride z dela, nima časa za Zalo in Tilna.\n\n»Oči, ali imaš zdaj čas?« reče Zala.\n»Zdaj ne morem. Še moram nekaj narediti za delo,« reče Boštjan.\n»Ti imaš čas samo za delo,« reče Tilen.\n\nEn dan Boštjan ne gre na delo.\n»Danes ne grem na delo. Danes imam čas le za vaju,« reče Boštjan.\n»Od zdaj do večera?« reče Zala.\n»Od zdaj do večera,« reče Boštjan.\n»Ali moraš še kaj narediti za delo?« reče Tilen.\n»Ne. Danes ne moram nič narediti za delo. Imam čas samo za otroka. Od zdaj nimam časa le za delo.«\n\nVprašanja:\nAli je Boštjan vedno na delu?\nJa, Boštjan je vedno na delu.\nAli ima Boštjan čas, ko pride z dela?\nNe, ko pride z dela, Boštjan nima časa.\nKaj reče Boštjan, ko pride z dela?\nBoštjan reče: »Zdaj ne morem.«\nZa koga ima Boštjan čas, ko ne gre na delo?\nKo Boštjan ne gre na delo, ima čas le za otroka."
+    },
+    {
+      "title": "Pri babici",
+      "summary": "Urška and her children visit grandmother Metka in Maribor and tell her about their new town.",
+      "newWords": [
+        "pri",
+        "iz",
+        "o",
+        "po",
+        "povedati",
+        "mi",
+        "naš",
+        "vaš",
+        "vi",
+        "saj"
+      ],
+      "text": "Urška, Hana in Domen gredo v Maribor. V Mariboru je Metka, Urškina mama. Hana in Domen sta pri Metki.\n\n»Ali ste vi prišli iz Celja?« reče Metka.\n»Ja, mi smo prišli iz Celja,« reče Hana.\n»Povejte mi o Celju,« reče Metka. »Povejte mi o vašem novem mestu.«\n»V našem mestu imamo novo šolo,« reče Hana.\n»Vaša šola je nova?« reče Metka.\n»Ja, naša šola je nova. In mama ima novo delo,« reče Domen. »Pridi v Celje! Saj imaš čas.«\n»Pridem, saj imam čas,« reče Metka.\n\nPo kosilu gredo Metka, Urška, Hana in Domen po Mariboru. Metka pove Hani in Domnu o Mariboru. Hana in Domen povesta Metki o Celju.\n\nVprašanja:\nAli sta Hana in Domen pri Metki?\nJa, Hana in Domen sta pri Metki v Mariboru.\nKaj reče Metka?\nMetka reče: »Ali ste vi prišli iz Celja?«\nKaj imajo v Celju?\nV Celju imajo novo šolo.\nKaj pove Metka Hani in Domnu?\nMetka pove Hani in Domnu o Mariboru."
+    },
+    {
+      "title": "Dva brata",
+      "summary": "Little Blaž wants to be like his big brother Miha, and Miha makes time for him after work.",
+      "newWords": [
+        "velik",
+        "dober",
+        "dobro",
+        "drug",
+        "kot",
+        "tako",
+        "veliko",
+        "človek",
+        "med",
+        "zelo"
+      ],
+      "text": "Miha in Blaž sta brata. Miha je velik. Blaž ni velik. Blaž je še otrok.\n\nBlaž želi biti kot Miha. Za Blaža je Miha zelo dober človek.\n»Ali bom tudi jaz tako velik kot ti?« reče Blaž.\n»Ja, tudi ti boš velik,« reče Miha.\n»Ali bom tudi tako dober kot ti?«\n»Ti si že zdaj dober. Si zelo dober brat,« reče Miha.\n\nMiha ima veliko dela. Blaž ima veliko časa. Med delom Miha nima časa za Blaža. Med delom gre Blaž na igrišče z drugimi otroki. Ko Miha pride z dela, gre z Blažem na igrišče. Tam ni drugih otrok. Tam sta samo Miha in Blaž.\n»Dobro je imeti velikega brata,« reče Blaž.\n»Ja, zelo dobro,« reče Miha.\n\nVprašanja:\nAli je Miha velik?\nJa, Miha je velik.\nKaj želi Blaž?\nBlaž želi biti kot Miha.\nAli ima Miha med delom čas za Blaža?\nNe, med delom Miha nima časa za Blaža.\nAli je Miha za Blaža dober človek?\nJa, za Blaža je Miha zelo dober človek."
+    },
+    {
+      "title": "Zakaj?",
+      "summary": "Filip asks why again and again, and his mother Tina tells him that nobody always knows.",
+      "newWords": [
+        "zakaj",
+        "ker",
+        "vedeti",
+        "misliti",
+        "če",
+        "kako",
+        "prav",
+        "zaradi",
+        "da"
+      ],
+      "text": "Filip ima vedno vprašanje. Filip vedno reče: »Zakaj?«\n\n»Zakaj gre oči na delo?« reče Filip.\n»Ker ima delo,« reče Tina.\n»Zakaj ima delo?«\n»Ker mora.«\n»Zakaj mora?«\n»Ne vem,« reče Tina.\n»Kako ne veš? Mislim, da ti vedno veš.«\n»Ne vem vedno. Če ne vem, rečem: ne vem,« reče Tina. »Mislim, da je to prav.«\n»Kako veš, da je to prav?«\n»Vem. Če človek ne ve, je prav, da reče: ne vem.«\n\nSimon pride z dela.\n»Oči, zakaj greš na delo?« reče Filip.\n»Zaradi denarja. In zaradi vas,« reče Simon.\nFilip misli, da ima oči prav.\n\nVprašanja:\nKaj vedno reče Filip?\nFilip vedno reče: »Zakaj?«\nAli Tina vedno ve?\nNe, Tina ne ve vedno.\nKaj reče Tina, če ne ve?\nČe Tina ne ve, reče: »Ne vem.«\nZakaj gre Simon na delo?\nSimon gre na delo zaradi denarja in zaradi Tine in Filipa."
+    },
+    {
+      "title": "Eno leto",
+      "summary": "A year after the family moved to Kranj, grandmother Irena comes to visit and sees that everyone is happy there.",
+      "newWords": [
+        "leto",
+        "vse",
+        "ves",
+        "svoj",
+        "oni",
+        "kar",
+        "tisti",
+        "res",
+        "videti",
+        "se"
+      ],
+      "text": "Klemen, Neža, Sara in Anže so v Kranju že eno leto. Tisti prvi dan je bil v Kranju vse novo. Zdaj so v Kranju doma.\n\nIrena pride iz Ljubljane. Irena jih vidi in vidi, da se imajo vsi dobro.\n»Ali se imate v Kranju dobro?« reče Irena.\n»Ja, res se imamo dobro,« reče Neža.\n»Imate vse, kar želite?«\n»Ja, res. Klemen ima svoje delo in jaz imam svoje delo. Sara in Anže imata svojo šolo.«\n»In Anže ima svojega prijatelja Aljaža!« reče Sara.\n\nIrena vidi Saro in Anžeta. Tisti dan so vsi zelo dobre volje.\n»To je vse, kar sem želela videti,« jim reče Irena.\nKo gre Irena v Ljubljano, reče Anže: »Se vidimo, babica!«\n\nVprašanja:\nAli so Klemen, Neža, Sara in Anže v Kranju že eno leto?\nJa, v Kranju so že eno leto.\nAli se imajo v Kranju dobro?\nJa, v Kranju se imajo vsi dobro.\nKaj ima Anže v Kranju?\nAnže ima v Kranju svojega prijatelja Aljaža.\nKaj je Irena želela videti?\nIrena je želela videti, da se imajo vsi dobro."
+    },
+    {
+      "title": "Red v sobi",
+      "summary": "Kaja's room is a mess; she tidies it and finds her book.",
+      "newWords": [
+        "red",
+        "naj",
+        "pa",
+        "a",
+        "tukaj",
+        "lahko",
+        "ampak",
+        "zato"
+      ],
+      "text": "V Kajini sobi ni reda.\n\n»Kaja, tukaj ni reda,« reče Barbara. »Naj bo tukaj red!«\n»Ampak jaz nimam časa,« reče Kaja. »Ti imaš čas, jaz pa ne.«\n»Čas imaš. Zato lahko zdaj narediš red.«\n»A zdaj? Ampak jaz hočem knjigo.«\n\nKaja hoče svojo knjigo. Ampak tukaj je ni.\n»A vidiš? Ko ni reda, ni knjige,« reče Barbara.\n\nKaja naredi red. In knjiga? Tukaj je!\n»Zdaj je tukaj red, pa tudi knjiga je tukaj,« reče Kaja. »Zdaj jo lahko imam.«\n»Naj bo tako vedno,« reče Barbara. »Zato je red dober.«\n\nVprašanja:\nAli je v Kajini sobi red?\nNe, v Kajini sobi ni reda.\nKaj reče Kaja?\nKaja reče: »Ampak jaz nimam časa.«\nKaj hoče Kaja?\nKaja hoče svojo knjigo.\nAli je knjiga tukaj, ko je red?\nJa, ko je red, je knjiga tukaj."
+    }
+  ]
+}

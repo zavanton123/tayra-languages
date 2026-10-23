@@ -1,0 +1,100 @@
+1	1301	vožnja	voženj vožnjah vožnjami vožnje vožnji vožnjo
+2	1302	loviti	lovi lovijo lovil lovila lovile lovili lovilo lovim lovimo lovit lovita lovite loviva loviš
+3	1303	izvoliti	izvoli izvolijo izvolil izvolili
+4	1304	zadovoljen	zadovoljena zadovoljeni zadovoljna zadovoljne zadovoljnega zadovoljni
+5	1305	nasvet	nasveta nasvete nasveti nasvetih nasvetom nasvetov nasvetu
+6	1306	obramba	obramb obrambe obrambi obrambo
+7	1307	zagotoviti	zagotovi zagotovijo zagotovil zagotovila zagotovile zagotovili zagotovilo zagotovilom zagotovim zagotovimo zagotovite
+8	1308	pripadati	pripada pripadajo pripadal pripadala pripadale pripadali pripadalo pripadamo pripadata pripadate
+9	1309	pripravljati	pripravlja pripravljajo pripravljal pripravljala pripravljale pripravljali pripravljalo pripravljam pripravljamo pripravljata pripravljate
+10	1310	izkoristiti	izkoristi izkoristijo izkoristil izkoristila izkoristile izkoristili izkoristilo izkoristim izkoristimo izkoristite
+11	1311	suh	suha suhe suhega suhem suhi suhih suhim suhimi suho
+12	1312	krilo	kril krila krili krilih krilom krilu
+13	1313	vključen	vključena vključene vključenega vključeni vključenih vključeno
+14	1314	prevesti	prevede prevedejo prevedel prevedem prevedemo prevedete prevedeš prevedi prevedite prevedla prevedli preveze prevezi
+15	1315	zamuditi	zamudi zamudijo zamudil zamudila zamudile zamudili zamudilo zamudim zamudimo zamudit zamudita zamudite zamudiva zamudiš
+16	1316	žalosten	žalostna žalostne žalostnega žalostnem žalostnemu žalostni žalostnih žalostnim žalostno
+17	1317	avt	avte avtov avtu
+18	1318	inštitut	inštituta inštituti inštitutih inštitutom inštitutov inštitutu
+19	1319	iziti	izide izidejo izšel izšla izšle izšli izšlo
+20	1320	staviti	stavi stavijo stavil stavila stavile stavili stavilo stavim stavimo stavit stavita stavite staviva staviš
+21	1321	njun	njuna njune njunega njunem njunemu njuni njunih njunim njunima njunimi njuno
+22	1322	industrija	industrije industriji industrijo
+23	1323	nočen	nočna nočne nočnega nočnem nočni nočnih nočnim nočnimi nočno
+24	1324	spreminjati	spreminja spreminjaj spreminjajo spreminjal spreminjala spreminjale spreminjali spreminjalo spreminjamo spreminjata spreminjaš
+25	1325	udeleženec	udeleženca udeležence udeležencem udeležencev udeleženci
+26	1326	povprečen	povprečna povprečne povprečnega povprečnemu povprečni povprečnih povprečnim povprečno
+27	1327	čaj	čaja čaje čajem čaji čaju
+28	1328	upanje	upanja upanjem upanju
+29	1329	analiza	analiz analizah analizam analizami analize analizi analizo
+30	1330	zapisati	zapisal zapisala zapisali zapisalo zapiše zapišejo zapišem zapišemo zapišete zapiši zapišimo zapišite
+31	1331	oblačiti	oblači oblačil oblačila oblačili oblačilih oblačilo oblačite oblačiš
+32	1332	preseliti	preseli preselijo preselil preselila preselile preselili preselilo preselita preselite preseliš
+33	1333	tod	
+34	1334	ministrstvo	ministrstev ministrstva ministrstvom ministrstvu
+35	1335	podpirati	podpira podpirajo podpiral podpirala podpirale podpirali podpiralo podpiram podpiramo podpirata
+36	1336	naroden	narodna narodne narodnega narodnem narodni narodnih narodnim narodno
+37	1337	navada	navad navadah navadam navadami navade navadi navado
+38	1338	februar	februarja februarjem februarju
+39	1339	kost	kosteh kostem kosti kostjo kostmi
+40	1340	zgradba	zgradb zgradbah zgradbami zgradbe zgradbi zgradbo
+41	1341	mačka	mačk mačkah mačkam mačkama mačkami mačke mačko
+42	1342	streha	streh strehah strehami strehe strehi streho
+43	1343	bolan	bolna bolne bolnega bolni bolnih bolnim
+44	1344	vračati	vrača vračajo vračal vračala vračale vračali vračalo vračam vračamo vračata
+45	1345	razmera	razmer razmerah razmeram razmerami razmere
+46	1346	medicinski	medicinska medicinske medicinskega medicinskemu medicinskih medicinskimi medicinsko
+47	1347	dolžina	dolžin dolžinah dolžine dolžini dolžino
+48	1348	zamisel	zamisli zamislijo zamislim zamislimi
+49	1349	ponoviti	ponovi ponovijo ponovil ponovila ponovile ponovili ponovilo ponovim ponovimo ponovite
+50	1350	restavracija	restavracij restavracijah restavracijam restavracijami restavracije restavraciji restavracijo
+51	1351	partner	partnerja partnerje partnerjem partnerjema partnerjev partnerjeve partnerjevo partnerji partnerju
+52	1352	zgodnji	prezgodnja prezgodnje prezgodnjega prezgodnji zgodnja zgodnje zgodnjega zgodnjem zgodnjih zgodnjim zgodnjo
+53	1353	material	materiala materiale materiali materialih materialom materialov materialu
+54	1354	povabilo	povabil povabila povabilu
+55	1355	izjava	izjav izjavah izjavam izjavami izjave izjavi izjavo
+56	1356	policaj	policaja policaje policajev policaji
+57	1357	ljudski	ljudska ljudske ljudskega ljudskem ljudskih ljudskim ljudskimi ljudsko
+58	1358	prvak	prvaka prvake prvaki prvakom prvakov prvaku
+59	1359	umakniti	umakne umaknejo umaknem umaknil umaknila umaknile umaknili umaknilo umaknimo
+60	1360	spolen	spolna spolne spolnega spolnem spolnemu spolni spolnih spolnim spolnimi spolno
+61	1361	italijanski	italijanska italijanske italijanskega italijanskem italijanskemu italijanskih italijanskim italijanskimi
+62	1362	primerjava	primerjav primerjave primerjavi primerjavo
+63	1363	medij	medija medije medijem medijev mediji medijih mediju
+64	1364	divji	divja divje divjega divjem divjemu divjih divjim divjimi divjo
+65	1365	leteti	letel letela letele leteli letelo letet leti letijo letim letimo letita letite letiva letiš
+66	1366	prednost	prednosti prednostih prednostim prednostjo prednostmi
+67	1367	prispeti	prispe prispejo prispel prispela prispele prispeli prispelih prispelo prispemo
+68	1368	omejen	omejena omejene omejenega omejenem omejeni omejenih omejenim omejenimi omejeno
+69	1369	praznik	praznika praznike prazniki praznikih praznikom praznikov prazniku
+70	1370	les	lesa lesi lesom lesu
+71	1371	babica	babic babicam babicami babice babici babico
+72	1372	teža	teže teži težo
+73	1373	zlato	zlatom zlatu
+74	1374	slednji	slednja slednje slednjega slednjem slednjemu slednjih slednjim slednjo
+75	1375	bežati	bežal bežala bežale bežali bežalo bežanje bežat bežeč beži bežijo bežim bežimo bežita bežite beživa bežiš
+76	1376	zaključiti	zaključi zaključijo zaključil zaključila zaključile zaključili zaključilo zaključimo
+77	1377	oblikovanje	oblikovanja oblikovanjem oblikovanju
+78	1378	prepoznati	prepozna prepoznajo prepoznajte prepoznal prepoznala prepoznale prepoznali prepoznamo prepoznate
+79	1379	prisoten	prisotna prisotne prisotni prisotnih
+80	1380	sončen	sončna sončne sončnega sončnem sončnemu sončni sončnih sončnim sončnimi sončno
+81	1381	deklica	deklic deklice deklici deklico
+82	1382	gorica	goric goricah gorice gorici gorico
+83	1383	sposoben	najsposobnejši sposobna sposobne sposobnega sposobnejši sposobni sposobnih sposobnim sposobnimi sposobno
+84	1384	upraven	upravna upravne upravnega upravnem upravnemu upravni upravnih upravnim upravnimi upravno
+85	1385	led	ledom ledu
+86	1386	razstava	razstav razstavah razstavami razstave razstavi razstavo
+87	1387	kombinacija	kombinacij kombinacijah kombinacijami kombinacije kombinaciji kombinacijo
+88	1388	angleški	angleška angleške angleškega angleškem angleškemu angleških angleškim angleškima angleškimi
+89	1389	predlog	predloga predloge predlogi predlogih predlogo predlogom predlogov predlogu
+90	1390	gospodar	gospodarja gospodarje gospodarjem gospodarjema gospodarji gospodarjih gospodarju
+91	1391	vzhod	vzhoda vzhodom vzhodu
+92	1392	dvojen	dvojna dvojne dvojnega dvojnem dvojnemu dvojni dvojnih dvojnim dvojnimi dvojno
+93	1393	zavrniti	zavrne zavrnejo zavrnemo zavrneta zavrneš zavrnil zavrnila zavrnile zavrnili zavrnilo zavrnite
+94	1394	skočiti	skoči skočijo skočil skočila skočile skočili skočilo skočim skočimo skočit skočita skočite skočiva
+95	1395	debel	debela debele debelega debelejši debelejšo debelem debelemu debeli debelih debelim debelimi debelo najdebelejši
+96	1396	natančno	natančneje
+97	1397	polet	poleta polete poleti poletih poletom poletov poletu
+98	1398	polkovnik	polkovnika polkovnikom
+99	1399	model	modela modele modeli modelih modelom modelov modelu
+100	1400	zgodaj	prezgodaj

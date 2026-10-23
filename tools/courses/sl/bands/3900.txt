@@ -1,0 +1,100 @@
+1	3801	gojiti	goji gojijo gojil gojila gojili gojimo gojite
+2	3802	delta	delte delti
+3	3803	obrnjen	obrnjena obrnjene obrnjenega obrnjenem obrnjeni obrnjenim obrnjenimi obrnjeno
+4	3804	kostum	kostuma kostume kostumi kostumih kostumom kostumov
+5	3805	vznemirjen	vznemirjena vznemirjeni
+6	3806	predelava	predelav predelave predelavi predelavo
+7	3807	večnost	večnosti
+8	3808	sistemski	sistemska sistemske sistemskega sistemskem sistemskih sistemskim sistemsko
+9	3809	prespati	prespal prespala prespali prespi prespim prespiš
+10	3810	pokojen	pokojna pokojne pokojnega pokojnemu pokojni pokojnih pokojno
+11	3811	odpust	odpusti odpustu
+12	3812	obupan	obupana obupani obupanih obupano
+13	3813	rusko	
+14	3814	nobeden	
+15	3815	tematika	tematike tematiko
+16	3816	shranjen	shranjena shranjene shranjeni shranjenih shranjeno
+17	3817	stabilnost	stabilnosti stabilnostjo
+18	3818	greben	grebena grebenov grebenu
+19	3819	reševalec	reševalca reševalcem reševalcev reševalci reševalcih
+20	3820	znaten	znatne znatnim znatno
+21	3821	škodovati	škodoval škodovala škodovali škoduje škodujejo
+22	3822	spisek	spiska spiske spiski spiskom spisku
+23	3823	meščan	meščane meščani meščanom meščanov
+24	3824	umiti	umij umije umijejo umijem umijemo umijeta umijete umijeva umiješ umijmo umijta umijte umijva umil umila umile umili umit umita
+25	3825	oklep	oklepa oklepom oklepov
+26	3826	rožnat	rožnata rožnate rožnatem rožnati rožnatih rožnato
+27	3827	mobilnik	mobilnike mobilnikov
+28	3828	izbrisati	izbrisal izbriše izbrišejo
+29	3829	vrtec	vrtca vrtce vrtci vrtcih vrtcu
+30	3830	novost	novosti novostih novostim novostmi
+31	3831	deseti	deseta desete desetega desetem deseto
+32	3832	okrilje	okriljem
+33	3833	voz	vozom vozov vozove vozovih vozu
+34	3834	specialen	specialna specialne specialnega specialnem specialni specialnih
+35	3835	poreklo	porekla poreklom poreklu
+36	3836	prestati	prestal prestala prestali prestalo
+37	3837	zaman	
+38	3838	posojilo	posojil posojila posojili posojilih posojilom posojilu
+39	3839	kazniv	kazniva kaznive kaznivega kaznivem kaznivih kaznivimi kaznivo
+40	3840	pozicija	pozicijah pozicije poziciji pozicijo
+41	3841	telovadnica	telovadnice telovadnici telovadnico
+42	3842	inteligenca	inteligence inteligenco
+43	3843	skladatelj	skladatelja skladateljev skladatelji skladatelju
+44	3844	predsedniški	predsedniška predsedniške predsedniškega predsedniškem predsedniških predsedniškimi predsedniško
+45	3845	članski	članska članske članskega članskem člansko
+46	3846	črv	črva črve črvi črvih črvom črvov črvu
+47	3847	dirkač	dirkača dirkače dirkačem dirkačev dirkači dirkaču
+48	3848	kriminal	kriminala kriminalom kriminalu
+49	3849	meriti	merijo merimo merita merite
+50	3850	ranljiv	ranljiva ranljive ranljivega ranljivi ranljivih ranljivo
+51	3851	magneten	magnetna magnetne magnetnega magnetnem magnetni magnetnih magnetno
+52	3852	popoldan	popoldneva popoldnevi popoldnevih popoldnevu
+53	3853	dvigati	dviga dvigajo dvigajte dvigal
+54	3854	sproščen	sproščena sproščene sproščenega sproščeni sproščeno
+55	3855	seja	sejah seje seji sejo
+56	3856	tvoriti	tvorijo tvorila tvorili tvorilo tvorita
+57	3857	škoditi	škodijo škodil škodila škodili škodilo
+58	3858	volan	volana volanom volanu
+59	3859	slovesnost	slovesnosti slovesnostih slovesnostjo
+60	3860	fotoaparat	fotoaparata fotoaparate fotoaparati fotoaparatom fotoaparatov fotoaparatu
+61	3861	kopno	kopna kopnega kopnem kopnemu kopnu
+62	3862	izpod	
+63	3863	seči	segel segla segle segli seglo sezi sezite seča seže sežejo sežem
+64	3864	vhoden	vhodna vhodne vhodnega vhodni vhodnih vhodnimi vhodno
+65	3865	kuga	kuge kugi kugo
+66	3866	hrbtenica	hrbtenice hrbtenici hrbtenico
+67	3867	pognati	pognal pognala pognali pognalo požene poženejo poženemo poženete poženite
+68	3868	slovenje	slovenj slovenji
+69	3869	zgubati	zguba zgubam zguban zgubana zgubane zgubani zgubano
+70	3870	avtorica	avtorice avtorici
+71	3871	skladen	skladna skladni skladno
+72	3872	dopustiti	dopustil dopustili dopustite
+73	3873	oblikovalec	oblikovalca oblikovalce oblikovalcem oblikovalcev oblikovalci oblikovalcu
+74	3874	zmeniti	zmeni zmenil zmenila zmenili zmenimo
+75	3875	slaviti	slavijo slavil slavila slavile slavili slavilo slavimo
+76	3876	počasno	najpočasneje počasneje
+77	3877	vgrajen	vgrajena vgrajene vgrajenega vgrajeni vgrajenim vgrajenimi vgrajeno
+78	3878	naglas	naglasa naglase naglasi naglasom naglasov naglasu
+79	3879	protest	protesta proteste protesti protestih protestom protestov protestu
+80	3880	služben	službene službenega službenem službeni službenih službeno
+81	3881	kras	krasa krasu
+82	3882	štetje	štetja štetjem štetju
+83	3883	izmena	izmen izmenah izmene izmeni izmeno
+84	3884	jugovzhoden	jugovzhodna jugovzhodne jugovzhodnem jugovzhodni jugovzhodno
+85	3885	sprehajati	sprehaja sprehajajo sprehajajte sprehajal sprehajala sprehajali sprehajam sprehajamo sprehajate sprehajava
+86	3886	pomožen	pomožna pomožne pomožnega pomožnem pomožni pomožnih pomožnim pomožnimi pomožno
+87	3887	nadrejen	nadrejena nadrejene nadrejenega nadrejeni nadrejenih nadrejenim
+88	3888	cesarstvo	cesarstev cesarstva cesarstvi cesarstvom cesarstvu
+89	3889	religija	religij religijah religije religiji religijo
+90	3890	realnost	realnosti realnostjo
+91	3891	podpisan	podpisana podpisane podpisanega podpisani podpisanih podpisanim podpisano
+92	3892	vodnjak	vodnjaka vodnjake vodnjaki vodnjakih vodnjakom vodnjakov vodnjaku
+93	3893	analizirati	analizira analiziral analizirala analizirali analiziramo
+94	3894	hvaliti	hvali hvalijo hvalil hvalila hvalile hvalili hvalim hvalimo hvalit hvalita hvalite hvališ hvaljen hvaljenje
+95	3895	vlagati	vlaga vlagajo vlagal vlagala vlagali vlagamo vlagaš vlage vlagi vlago
+96	3896	ansambel	ansambla ansambli ansamblom ansamblov ansamblu
+97	3897	centimeter	centimetra centimetrov
+98	3898	državljanski	državljanska državljanske državljansko
+99	3899	dotikati	dotika dotikajo
+100	3900	avtorski	avtorske avtorskega avtorskih avtorsko

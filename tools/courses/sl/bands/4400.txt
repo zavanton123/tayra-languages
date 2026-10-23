@@ -1,0 +1,100 @@
+1	4301	trapast	trapasta trapaste trapastega trapasti
+2	4302	predavatelj	predavateljev predavatelji
+3	4303	prednji	prednja prednje prednjega prednjem prednjih prednjim prednjo
+4	4304	poznavanje	poznavanja poznavanjem poznavanju
+5	4305	večeren	večerna večerne večernega večernem večerni večernih večernim večerno
+6	4306	ubijanje	ubijanja ubijanjem
+7	4307	odstranjevanje	odstranjevanja odstranjevanjem odstranjevanju
+8	4308	sanjski	sanjska sanjske sanjskega sanjskem sanjskih sanjskim sanjsko
+9	4309	preskočiti	preskoči preskočijo preskočil preskočila preskočim preskočimo preskočite
+10	4310	srečevati	srečeval srečevala srečevali srečuje srečujejo srečujem srečujemo srečujeta srečujete srečuješ
+11	4311	kočija	kočij kočijah kočijami kočije kočiji kočijo
+12	4312	zavezati	zavezal zavezala zavezale zavezali zaveže zavežejo zavežemo zaveži zavežite
+13	4313	nagnjen	nagnjena nagnjene nagnjeni nagnjenih nagnjeno
+14	4314	zapirati	zapira zapirajo zapirajte zapiramo
+15	4315	sočutje	sočutja sočutjem sočutju
+16	4316	sekira	sekir sekiram sekirami sekire sekiri sekiro
+17	4317	čip	čipa čipe čipi čipom čipov čipu
+18	4318	ploščad	ploščadi
+19	4319	stvor	stvora stvore stvori stvorih stvorom stvorov stvoru
+20	4320	privoliti	privolil privolila privolile privolili
+21	4321	kamniški	kamniške kamniškega kamniškem kamniških kamniško
+22	4322	divizija	divizij divizijam divizijami divizije diviziji divizijo
+23	4323	opomoči	opomogel opomogla opomogle opomogli opomore opomorejo
+24	4324	jeklen	jeklena jeklene jeklenega jekleni jeklenih jeklenim jeklenimi jekleno
+25	4325	vznemirljiv	vznemirljiva vznemirljive vznemirljivih vznemirljivo
+26	4326	opomba	opomb opombah opombami opombe opombo
+27	4327	nebeški	nebeška nebeške nebeškega nebeškemu nebeško
+28	4328	soglasje	soglasij soglasja soglasjem soglasju
+29	4329	svinčnik	svinčnika svinčnike svinčniki svinčnikom svinčnikov svinčniku
+30	4330	musliman	muslimana muslimane muslimani muslimanih muslimanom muslimanov muslimanu
+31	4331	intelektualen	intelektualna intelektualne intelektualni intelektualnim intelektualno
+32	4332	pofukati	pofuka pofukaj pofukajo pofukajta pofukajte pofukajva pofukal pofukala pofukali pofukam pofukan pofukane pofukat pofukava pofukaš
+33	4333	povišan	povišana povišane povišani povišanih povišanim povišano
+34	4334	spremljevalec	spremljevalca spremljevalce spremljevalcem spremljevalcev spremljevalci
+35	4335	pozvati	pozove pozval pozvala pozvali
+36	4336	pravnik	pravnika pravniki pravnikov
+37	4337	odpuščen	
+38	4338	gostiti	gostil gostila gostili gostilo
+39	4339	odkrivanje	odkrivanja odkrivanju
+40	4340	spreti	spre sprejo sprl sprla sprli
+41	4341	dejaven	dejavna dejavne dejavni dejavnih dejavno
+42	4342	kriminalen	kriminalna kriminalne kriminalnega kriminalni kriminalnih kriminalno
+43	4343	ohranitev	ohranitve
+44	4344	termin	termina termini terminih terminom terminov terminu
+45	4345	osemdeseti	osemdeseta osemdesetih
+46	4346	sestrična	sestričen sestrične sestrični sestrično
+47	4347	poker	pokra pokru
+48	4348	zavarovalnica	zavarovalnic zavarovalnicami zavarovalnice zavarovalnici zavarovalnico
+49	4349	raznolikost	raznolikosti
+50	4350	muzejski	muzejska muzejske muzejskega muzejskem muzejskih muzejsko
+51	4351	navdušiti	navdušil navdušila navdušile navdušili
+52	4352	poslopje	poslopij poslopja poslopjem poslopju
+53	4353	rokav	rokava rokave rokavi rokavih rokavom rokavov rokavu
+54	4354	vendarle	
+55	4355	izum	izuma izumi izumom izumov
+56	4356	piramida	piramid piramidah piramidami piramide piramidi piramido
+57	4357	tvegan	tvegana tvegane tveganega tveganem tvegani tveganih tveganimi tvegano
+58	4358	opredelitev	opredelitve opredelitvi
+59	4359	seliti	seli selijo selili selimo
+60	4360	platforma	platformah platforme platformi platformo
+61	4361	vratar	vratarja vratarjem vratarjev vratarji vratarju
+62	4362	dražba	dražbe dražbi dražbo
+63	4363	šov	šova
+64	4364	popotnik	popotnika popotniki popotnikom popotnikov
+65	4365	skrbno	
+66	4366	identifikacija	identifikacije identifikaciji identifikacijo
+67	4367	prsen	prsne prsnega prsnem prsni prsno
+68	4368	ribiški	ribiška ribiške ribiškega ribiških ribiškimi ribiško
+69	4369	ilustracija	ilustracij ilustracijami ilustracije ilustracijo
+70	4370	gosti	
+71	4371	razburjen	razburjena razburjene
+72	4372	presenečati	preseneča presenečajo presenečala presenečalo
+73	4373	pogajati	pogaja pogajal pogajali
+74	4374	spodoben	spodobna spodobne spodobnega spodobnem spodobni spodobnih spodobnim spodobno
+75	4375	preizkušnja	preizkušenj preizkušnjah preizkušnje preizkušnji preizkušnjo
+76	4376	golob	goloba golobe golobi golobih golobom golobov golobu
+77	4377	zvon	zvona zvonom zvonov zvonove zvonovi zvonovih zvonu
+78	4378	prevladati	prevlada prevladajo prevladal prevladala prevladale prevladali prevladalo prevlade prevladi prevlado
+79	4379	zadosten	zadostna zadostne zadostnega zadostni zadostnih zadostno
+80	4380	peščen	peščene peščeni peščenih peščeno
+81	4381	razporeditev	razporeditve razporeditvi razporeditvijo
+82	4382	megla	megle megli
+83	4383	gripa	gripe gripi gripo
+84	4384	alpski	alpska alpskem alpsko
+85	4385	napolnjen	napolnjena napolnjene napolnjeni napolnjenih napolnjenimi napolnjeno
+86	4386	melodija	melodij melodije melodiji melodijo
+87	4387	vadba	vadbe vadbi vadbo
+88	4388	slovanski	slovanska slovanske slovanskega slovanskih slovansko
+89	4389	poteči	potekel potekla potekle poteče
+90	4390	nasmehniti	nasmehne nasmehnejo nasmehnem nasmehni nasmehnil nasmehnila nasmehnite
+91	4391	očarljiv	očarljiva očarljivi očarljivih
+92	4392	domisliti	domislil domislila domislili
+93	4393	jagoda	jagod jagodah jagodami jagode jagodi jagodo
+94	4394	car	carja carjem carjev carji carju
+95	4395	demokrat	demokrate demokrati demokratov
+96	4396	klima	klim klime klimi klimo
+97	4397	rezilo	rezil rezila rezili rezilom reziloma rezilu
+98	4398	preučiti	preuči preučil preučila preučili preučimo preučite
+99	4399	odločanje	odločanja odločanjem odločanju
+100	4400	vpisan	vpisana vpisane vpisani vpisanih vpisano

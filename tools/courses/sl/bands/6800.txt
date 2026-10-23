@@ -1,0 +1,100 @@
+1	6701	poštenost	poštenosti poštenostjo
+2	6702	trženje	trženja trženjem trženju
+3	6703	zahtevan	zahtevana zahtevane zahtevanega zahtevani zahtevanih zahtevano
+4	6704	ustavljati	ustavlja ustavljajo ustavljala ustavljamo
+5	6705	udobje	udobja udobjem udobju
+6	6706	potepuh	potepuha
+7	6707	potrpežljivost	potrpežljivosti potrpežljivostjo
+8	6708	nezaželen	nezaželena nezaželene nezaželeni nezaželenih
+9	6709	predsodek	predsodka predsodki predsodkov
+10	6710	naselbina	naselbin naselbine naselbini naselbino
+11	6711	sirup	sirupom
+12	6712	kadet	kadete kadeti kadetov kadetu
+13	6713	obuti	obuj obuje obujem obuješ obujta obujte obul obula obuli obut obute
+14	6714	ustreči	ustregel ustregla ustregli ustrežemo ustrežete
+15	6715	burja	burje burji burjo
+16	6716	izseliti	izselil izselili
+17	6717	vice	vicah
+18	6718	razbijati	razbija razbijajo razbijala razbijali razbijalo razbijam
+19	6719	spoved	spovedi
+20	6720	križarjenje	križarjenja križarjenju
+21	6721	učinkovati	učinkovala učinkuje učinkujejo
+22	6722	krčenje	krčenja
+23	6723	prodajan	prodajani prodajanih
+24	6724	čao	
+25	6725	spremljevalen	spremljevalna spremljevalni spremljevalnih
+26	6726	osrečevati	osrečuje osrečujejo
+27	6727	skakalnica	skakalnic skakalnice skakalnici skakalnico
+28	6728	zdrsniti	zdrsne zdrsneš zdrsnil zdrsnila zdrsnilo
+29	6729	poklekniti	poklekne poklekni pokleknil pokleknila pokleknile pokleknili pokleknita pokleknite
+30	6730	uravnavanje	uravnavanja uravnavanju
+31	6731	spizditi	pizditi spizdi spizdil spizdila spizdimo spizdita spizdite spizdiva spizdiš
+32	6732	svečenik	svečenika svečeniki
+33	6733	zaposlovati	zaposloval zaposlovala zaposluje zaposlujejo zaposlujemo
+34	6734	rekreacija	rekreacije rekreaciji rekreacijo
+35	6735	kviz	kviza kvizu
+36	6736	pospeševanje	pospeševanja pospeševanjem pospeševanju
+37	6737	ofenziva	ofenzive ofenzivi ofenzivo
+38	6738	zaselek	zaselka zaselki zaselkov zaselku
+39	6739	svinjski	svinjska svinjske svinjskega svinjsko
+40	6740	izmeriti	izmerijo izmerili
+41	6741	biotehniški	biotehniška biotehniške
+42	6742	pekoč	pekoča pekoče pekočega pekoči pekočo
+43	6743	fotografiranje	fotografiranja fotografiranju
+44	6744	živčevje	živčevja
+45	6745	nesmrtnost	nesmrtnosti
+46	6746	bojišče	bojiščih
+47	6747	heroin	heroina heroinom
+48	6748	prikazen	prikazni
+49	6749	odpravljati	odpravlja odpravljajo odpravljali odpravljamo
+50	6750	hrast	hrasta hraste hrasti
+51	6751	listič	lističa lističe lističev lističi lističu
+52	6752	preverjen	preverjena preverjene preverjenih preverjeno
+53	6753	verižica	verižice verižico
+54	6754	neurje	neurja
+55	6755	razpored	razporedom
+56	6756	miselnost	miselnosti
+57	6757	kozji	kozje kozjega
+58	6758	subjektiven	subjektivna subjektivnega subjektivni subjektivno
+59	6759	panj	panja panje panjem panjev panji panju
+60	6760	predstavnica	predstavnice predstavnici predstavnico
+61	6761	prestop	prestopa prestopu
+62	6762	revizija	revizije reviziji revizijo
+63	6763	daviti	davi
+64	6764	češko	
+65	6765	miseln	miselne miselni miselnih
+66	6766	higiena	higiene higieno
+67	6767	ponavljajoč	ponavljajoča ponavljajoči ponavljajočih ponavljajočo
+68	6768	bosanski	bosanska bosanske bosanskega bosanskih bosansko
+69	6769	soigralec	soigralca soigralce soigralcem soigralcev soigralci
+70	6770	izposoditi	izposodil izposodila izposodili izposodimo izposodit izposodite izposodiva
+71	6771	pomniti	pomni pomnim pomnite
+72	6772	soj	soja soje soji sojih soju
+73	6773	osvetljen	osvetljena osvetljene osvetljenem osvetljeni osvetljenih osvetljeno
+74	6774	proučevati	proučeval proučevali proučuje proučujejo proučujem proučujemo
+75	6775	kozmičen	kozmična kozmične kozmičnega kozmični kozmično
+76	6776	junakinja	junakinji junakinjo
+77	6777	odlika	odlik odlike odliko
+78	6778	boksati	boksa boksaj boksajo boksajta boksal boksala boksali boksam boksat boksata boksate boksaš
+79	6779	orgle	orgel orglah
+80	6780	iranski	iranska iranske iranskega iransko
+81	6781	napiti	napil
+82	6782	karantena	karantene karanteni karanteno
+83	6783	zgovoren	zgovorna zgovorne zgovornejši zgovorni zgovorno
+84	6784	vstaja	vstaji vstajo
+85	6785	uničujoč	uničujoča uničujoče uničujoči uničujočo
+86	6786	transformacija	transformacije transformacijo
+87	6787	vžigalica	vžigalic vžigalicah vžigalicami vžigalice vžigalici vžigalico
+88	6788	lizati	lizala lizale lizali lizat liže ližejo ližem ližemo ližeta ližete liževa ližeš liži ližite
+89	6789	mladoleten	mladoletnega mladoletni mladoletnih mladoletnim mladoletnimi mladoletno
+90	6790	poražen	poraženi poraženih
+91	6791	nosilen	nosilna nosilni nosilnih nosilno
+92	6792	menstruacija	menstruacije menstruaciji menstruacijo
+93	6793	silen	silna silne silnega silnem silni silno
+94	6794	snežiti	sneži snežilo
+95	6795	odraščanje	odraščanja odraščanjem
+96	6796	komad	komadov
+97	6797	slavje	slavju
+98	6798	gospodov	gospodova gospodovem
+99	6799	nagib	nagiba nagibi nagibov
+100	6800	vlažnost	vlažnosti

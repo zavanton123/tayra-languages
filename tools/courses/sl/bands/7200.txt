@@ -1,0 +1,100 @@
+1	7101	bazilika	bazilike
+2	7102	škorpijon	škorpijona škorpijone škorpijoni škorpijonom škorpijonov škorpijonu
+3	7103	partnerica	partnerice partnerico
+4	7104	protestnik	protestniki protestnikom protestnikov
+5	7105	pljučnica	pljučnice pljučnico
+6	7106	izbrisan	izbrisani izbrisanih
+7	7107	popularnost	popularnosti
+8	7108	inštruktor	inštruktorjev inštruktorji
+9	7109	cigan	cigana cigane cigani ciganih ciganom ciganov ciganu
+10	7110	oddajanje	oddajanja oddajanju
+11	7111	prevajalski	prevajalske prevajalskih prevajalsko
+12	7112	zamrzniti	zamrzne zamrznemo zamrznil zamrznila zamrznili zamrznite
+13	7113	analitik	analitike analitiki analitikom
+14	7114	raketen	raketne raketnega raketnem raketni raketnih raketnim
+15	7115	tun	tuna tune tuni tuno tunov
+16	7116	vžigalnik	vžigalnika vžigalnike vžigalniki vžigalnikom vžigalnikov vžigalniku
+17	7117	čuk	čuki čukov
+18	7118	pripadajoč	pripadajoče pripadajoči pripadajočih pripadajočimi
+19	7119	prepotovati	prepotoval prepotovala prepotuje
+20	7120	graf	grafu
+21	7121	polčas	polčasa polčasu
+22	7122	ledvičen	ledvične ledvičnega ledvični ledvičnih
+23	7123	gred	gredi
+24	7124	sodelavka	sodelavk sodelavke
+25	7125	površen	površna površne površnega površni površno
+26	7126	ujetništvo	ujetništva ujetništvu
+27	7127	strmeti	strmel strmela strmeli strmita strmite
+28	7128	zasliševati	zasliševal zasliševala zasliševali zaslišuje
+29	7129	lepoten	lepotne lepotni lepotnih lepotno
+30	7130	pismenost	pismenosti
+31	7131	odbijati	odbija odbijal odbijalo
+32	7132	ovratnik	ovratnika ovratnike ovratniki ovratnikom ovratnikov ovratniku
+33	7133	gram	grame gramov
+34	7134	psihiatričen	psihiatrične psihiatričnih psihiatrično
+35	7135	inženiring	inženiringa
+36	7136	prižgan	prižgane prižganih prižganim prižganimi
+37	7137	odobravati	odobrava odobraval odobravala odobravam
+38	7138	šunka	šunke šunki šunko
+39	7139	postoriti	postori postorila postorili postorimo postoriš
+40	7140	žerjav	žerjava žerjave žerjavi žerjavom žerjavov žerjavu
+41	7141	stopnička	stopničkah stopničke stopničko
+42	7142	umirjen	umirjene umirjenega umirjeni umirjeno
+43	7143	predvidljiv	predvidljiva predvidljive predvidljivega predvidljivi predvidljivo
+44	7144	prebaven	prebavne prebavnem prebavnih
+45	7145	priključen	priključena priključeni priključeno priključno
+46	7146	pešpot	pešpoti
+47	7147	vokalen	vokalna vokalne vokalno
+48	7148	nevladen	nevladna nevladne nevladnih nevladno
+49	7149	omejevanje	omejevanja omejevanjem omejevanju
+50	7150	živinoreja	živinoreje živinoreji živinorejo
+51	7151	kolesarstvo	kolesarstva kolesarstvu
+52	7152	človečnost	človečnosti
+53	7153	simbolizirati	simbolizira
+54	7154	psiček	psička psički
+55	7155	hala	hali
+56	7156	tičati	tičal tiči tičijo
+57	7157	precejšen	precejšna precejšno
+58	7158	odriniti	odrinejo odrinemo odrinil odrinila odrinili
+59	7159	srednješolski	srednješolskem srednješolskih srednješolsko
+60	7160	posreden	posredna posredne posredni posrednih
+61	7161	parkiranje	parkiranja parkiranju
+62	7162	veterinarski	veterinarska veterinarske veterinarskega
+63	7163	sklepen	sklepna sklepne sklepni sklepnih sklepno
+64	7164	travma	travmo
+65	7165	stepsti	stepejo stepel stepla stepli
+66	7166	dete	detetu
+67	7167	kroženje	kroženja
+68	7168	svetleč	svetleče svetlečem svetleči svetlečim svetlečimi
+69	7169	homoseksualec	homoseksualca homoseksualce homoseksualcem homoseksualcev homoseksualci homoseksualcih homoseksualka
+70	7170	bakla	bakel baklami bakle bakli baklo
+71	7171	neustrezen	neustrezna neustrezne neustreznega neustrezno
+72	7172	dosedanji	dosedanja dosedanje dosedanjih dosedanjo
+73	7173	vmešavati	vmešavajo vmešavala
+74	7174	zakonitost	zakonitosti
+75	7175	postopen	postopna postopne postopnega postopni postopnim
+76	7176	zagoreti	zagorel zagorela zagorele zagoreli zagorelo
+77	7177	paviljon	paviljona paviljonom paviljonu
+78	7178	neprofiten	neprofitna neprofitne neprofitnih neprofitno
+79	7179	usposobljenost	usposobljenosti
+80	7180	finalen	finalna finalni
+81	7181	inovativen	inovativni inovativnih inovativno
+82	7182	oddaljiti	oddaljijo oddaljil oddaljila oddaljili oddaljim oddaljimo oddaljite
+83	7183	rubin	rubina rubine rubini rubinom rubinov
+84	7184	prilepiti	prilepi prilepijo prilepil prilepila prilepili prilepim prilepimo prilepite
+85	7185	ljubiteljski	ljubiteljske ljubiteljskih ljubiteljsko
+86	7186	strešen	strešna strešne strešnega strešni strešno
+87	7187	pakt	pakta paktu
+88	7188	glasoven	glasovne glasovnega glasovnih glasovno
+89	7189	mula	mul mulah mulami muli mulo
+90	7190	anomalija	anomalij anomalije anomaliji anomalijo
+91	7191	speljan	speljana speljane speljani speljano
+92	7192	darovalec	darovalca darovalcem
+93	7193	časopisen	časopisne časopisni časopisnih časopisno
+94	7194	bič	biča biče bičem bičev biči
+95	7195	podvržen	podvržena podvrženo
+96	7196	zavidati	zavida zavidal zavidam
+97	7197	dilema	dilem dileme dilemi dilemo
+98	7198	medvedka	medvedki medvedko
+99	7199	zalezovati	zalezoval zalezovala zalezovali zalezuj zalezuje zalezujejo zalezujem zalezujete zalezuješ
+100	7200	zadrževanje	zadrževanja

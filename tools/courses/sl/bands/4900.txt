@@ -1,0 +1,100 @@
+1	4801	naiven	naivna naivni naivnih naivno
+2	4802	teniški	teniška teniške teniškega teniškem teniških teniškim teniškimi teniško
+3	4803	magičen	magična magične magičnega magični magičnih magično
+4	4804	kredit	kredita kredite krediti kreditom kreditov
+5	4805	odškodnina	odškodnin odškodnine odškodnini odškodnino
+6	4806	ruševina	ruševin ruševinah ruševinami ruševine
+7	4807	bivati	biva bivajo bival bivala bivali
+8	4808	lastništvo	lastništva lastništvom lastništvu
+9	4809	tajnik	tajnika tajniku
+10	4810	bivališče	bivališč bivališča bivališčem
+11	4811	obdan	obdana obdane obdani obdano
+12	4812	vodič	vodiča vodiče vodičem vodičev vodiči vodičih vodiču
+13	4813	pomota	pomote pomoti pomoto
+14	4814	pomislek	pomisleka pomisleke pomisleki pomislekom pomislekov
+15	4815	primerljiv	primerljiva primerljive primerljivi primerljivih primerljivo
+16	4816	dinamičen	dinamična dinamične dinamičnega dinamičnih dinamično
+17	4817	predanost	predanosti predanostjo
+18	4818	poskusen	poskusne poskusnega poskusnem poskusni poskusnih poskusnim poskusno
+19	4819	evolucija	evolucije evoluciji evolucijo
+20	4820	slikarstvo	slikarstva slikarstvom slikarstvu
+21	4821	arhitekturen	arhitekturna arhitekturne arhitekturnem arhitekturnih
+22	4822	nuna	nunah nunam nunami nune nuni nuno
+23	4823	nagrajenec	nagrajenca nagrajencev nagrajenci
+24	4824	virtualen	virtualna virtualne virtualnega virtualnem virtualni virtualnih virtualno
+25	4825	poslanski	poslanska poslanske poslanskih poslansko
+26	4826	samostojnost	samostojnosti
+27	4827	prenosen	prenosna prenosne prenosnega prenosni prenosnih prenosnim prenosno
+28	4828	nepravilnost	nepravilnosti nepravilnostih
+29	4829	brcniti	brcne brcnejo brcnem brcnemo brcnete brcneš brcni brcnil brcnila brcnili brcnilo brcnimo brcnite
+30	4830	segrevanje	segrevanja segrevanjem segrevanju
+31	4831	odstranitev	odstranitvijo
+32	4832	obolenje	obolenj obolenja obolenji obolenjih
+33	4833	jeben	jebeni
+34	4834	dosegati	dosegajo dosegal dosegala dosegali dosegamo
+35	4835	ovinek	ovinka ovinke ovinki ovinkih ovinku
+36	4836	kanadski	kanadska kanadske kanadskega kanadskem kanadskih kanadskimi kanadsko
+37	4837	začimba	začimb začimbami začimbe začimbo
+38	4838	radovednost	radovednosti radovednostjo
+39	4839	škatlica	škatlic škatlicah škatlice škatlici škatlico
+40	4840	problematika	problematike problematiki problematiko
+41	4841	vlom	vloma vlomom vlomov vlomu
+42	4842	mina	minah minam mino
+43	4843	nem	nema neme nemega nemem nemi nemih nemim nemo
+44	4844	praska	prask praske
+45	4845	dinozaver	dinozavra dinozavre dinozavri dinozavrih dinozavrom dinozavrov dinozavru
+46	4846	uveljavljen	uveljavljena uveljavljene uveljavljeni uveljavljenih
+47	4847	popravek	popravka popravke popravki popravkih popravkov
+48	4848	vile	vilah vilam vilami
+49	4849	utrpeti	utrpel utrpela utrpeli utrpelo utrpi
+50	4850	kodeks	kodeksa kodeksom kodeksu
+51	4851	čebula	čebul čebule čebuli čebulo
+52	4852	nadlegovati	nadlegovala nadlegovale nadlegovali nadlegovan nadlegovat nadleguj nadleguje nadlegujejo nadlegujem nadlegujemo nadlegujeta nadlegujete nadlegujeva nadleguješ nadlegujte
+53	4853	surovina	surovin surovinami surovine surovino
+54	4854	valoviti	valovi
+55	4855	porast	porasta porastom porastu
+56	4856	orbita	orbite orbiti orbito
+57	4857	dostojanstvo	dostojanstva
+58	4858	naseliti	naseli naselijo naselil naselila naselili naselilo
+59	4859	včerajšnji	včerajšnja včerajšnje včerajšnjega včerajšnjem včerajšnjih včerajšnjim včerajšnjo
+60	4860	pohvala	pohval pohvale pohvalo
+61	4861	obvladovati	obvladoval obvladovala obvladovali obvladuje obvladujejo obvladujemo obvladujete
+62	4862	nedolžnost	nedolžnosti
+63	4863	požreti	požre požrl požrla požrli
+64	4864	sad	sadi sadov sadove sadovi sadovih sadu
+65	4865	mehurček	mehurčka mehurčke mehurčki mehurčkov mehurčku
+66	4866	bedarija	bedarij bedarijah bedarijam bedarijami bedarije bedariji bedarijo
+67	4867	pristajati	pristaja pristajajo pristajal pristajali pristajalo pristajam
+68	4868	bruno	bruna brunom brunu
+69	4869	potrošnik	potrošnika potrošnike potrošniki potrošnikom potrošnikov potrošniku
+70	4870	zaslediti	zasledil zasledila zasledili zasledimo
+71	4871	zagrešiti	zagrešil zagrešila zagrešili
+72	4872	namestitev	namestitve namestitvi namestitvijo
+73	4873	podpornik	podpornika podpornike podporniki podpornikov
+74	4874	zastrupitev	zastrupitve
+75	4875	obveščen	obveščena obveščene obveščeni obveščeno
+76	4876	razstreliti	razstrelil razstrelili
+77	4877	popis	popisa popisom popisu
+78	4878	umazanija	umazanij umazanije umazanijo
+79	4879	črevo	črevesa črevesu
+80	4880	invalid	invalida invalide invalidi invalidom invalidov
+81	4881	priljubljenost	priljubljenosti priljubljenostjo
+82	4882	korupcija	korupcije korupciji korupcijo
+83	4883	deveti	devetega deveto
+84	4884	odsoten	odsotna odsotnega odsotni odsotnih
+85	4885	okrajen	okrajne okrajnega okrajni okrajnih okrajno
+86	4886	jedilnica	jedilnici jedilnico
+87	4887	plezanje	plezanja plezanju
+88	4888	postanek	postanka postanki postanku
+89	4889	polk	polka polke polko
+90	4890	gospodinja	gospodinje
+91	4891	pripeti	pripel pripela pripeli pripet pripeta pripete pripne pripnejo pripnem pripnemo pripnete pripneš pripni pripnimo pripnita pripnite
+92	4892	stražiti	straži stražijo stražil
+93	4893	atmosfera	atmosferi atmosfero
+94	4894	storjen	storjena storjene storjenega storjeni storjenih storjeno
+95	4895	simpatičen	simpatična simpatične simpatični simpatično
+96	4896	steklenička	stekleničkah stekleničke steklenički stekleničko
+97	4897	poslušalec	poslušalca poslušalce poslušalcem poslušalcev poslušalci
+98	4898	dokumentacija	dokumentacije dokumentaciji dokumentacijo
+99	4899	preboj	preboja prebojem
+100	4900	kopalka	kopalk kopalkah kopalkami kopalke

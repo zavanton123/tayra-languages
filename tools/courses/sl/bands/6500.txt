@@ -1,0 +1,100 @@
+1	6401	mrliški	mrliške mrliškega mrliškem
+2	6402	psihopat	psihopata psihopatu
+3	6403	kontinent	kontinenta kontinente kontinenti kontinentih kontinentom kontinentov kontinentu
+4	6404	druščina	druščini
+5	6405	geto	geta gete geti getih getov getu
+6	6406	vrana	vranam vranami vrane vrani vrano
+7	6407	pošiljanje	pošiljanja pošiljanjem pošiljanju
+8	6408	ohišje	ohišja ohišjem ohišju
+9	6409	skakalec	skakalcev skakalci
+10	6410	nagraditi	nagradijo nagradil nagradila nagradili nagradimo
+11	6411	zajebavati	zajebaval zajebavam
+12	6412	vozen	vozne voznega voznem vozni voznih
+13	6413	koordinacija	koordinacije koordinaciji koordinacijo
+14	6414	tiskanje	tiskanja tiskanjem tiskanju
+15	6415	mačeha	mačehe mačehi mačeho
+16	6416	proizvesti	proizvedejo proizvedel proizvedla proizvedli
+17	6417	rezervirati	rezervirala rezervirali rezerviram rezerviramo rezervirate
+18	6418	izoliran	izoliranega izolirani izoliranih izolirano
+19	6419	ladijski	ladijske ladijskega ladijskem ladijskim ladijsko
+20	6420	vrnjen	vrnjena vrnjene vrnjeni vrnjenih vrnjeno
+21	6421	brazilski	brazilska brazilske brazilskega brazilskem brazilskih brazilsko
+22	6422	palček	palčkov
+23	6423	prepoznavnost	prepoznavnosti
+24	6424	trkati	trka trkajo trkamo
+25	6425	specializacija	specializacije specializaciji specializacijo
+26	6426	jamčiti	jamči jamčijo jamčil jamčim
+27	6427	ministrica	ministrice ministrici ministrico
+28	6428	območen	območna območne območni območnih območno
+29	6429	nategniti	nategnejo nategnil
+30	6430	valj	valja valje valjev valji valju
+31	6431	prevzet	prevzeta prevzete prevzeto
+32	6432	teritorialen	teritorialna teritorialne teritorialnih teritorialno
+33	6433	drva	drv
+34	6434	deblo	debla debli deblom deblu
+35	6435	pričanje	pričanjem pričanju
+36	6436	radij	radija radijem radiji radiju
+37	6437	bradavica	bradavic bradavicah bradavicami bradavice bradavici bradavico
+38	6438	obetaven	obetavna obetavne obetavnega obetavni obetavnih obetavno
+39	6439	poanta	poanto
+40	6440	česen	česna česnom česnu
+41	6441	premestitev	premestitve premestitvi
+42	6442	fraza	fraze
+43	6443	kopica	kopici kopico
+44	6444	navpičen	navpična navpične navpični navpično
+45	6445	aplavz	aplavzom
+46	6446	kavbojke	kavbojk kavbojkami
+47	6447	gradbišče	gradbišč gradbišča gradbišču
+48	6448	avtohton	avtohtone avtohtonih
+49	6449	zlesti	zlezel zlezem zlezeš zlezla zlezle
+50	6450	nezmožnost	nezmožnosti
+51	6451	premeščen	premeščena premeščenih
+52	6452	spreobrniti	spreobrne spreobrnejo spreobrnil
+53	6453	zakopati	zakopal zakopala zakoplje zakopljemo
+54	6454	prvina	prvin prvine
+55	6455	blisk	bliska bliske bliski bliskom bliskov blisku
+56	6456	pirat	piratov
+57	6457	predrag	predraga predrage predrago
+58	6458	skupek	
+59	6459	svetilnik	svetilnika svetilnike svetilniki svetilnikom svetilnikov svetilniku
+60	6460	ruda	rud rudi rudo
+61	6461	izsledek	izsledke izsledki izsledkih izsledkov
+62	6462	procesor	procesorja procesorje procesorjem procesorjev procesorji
+63	6463	gnati	gnal gnala gnale gnali gnalo gnanje gnat ženejo ženem ženemo ženeta ženete ženeš ženite
+64	6464	okras	
+65	6465	izliv	izliva izlivi izlivu
+66	6466	granata	granat
+67	6467	sprostitev	sprostitve sprostitvi
+68	6468	pašnik	pašnike pašniki pašnikih pašnikov pašniku
+69	6469	naravoslovje	naravoslovja naravoslovju
+70	6470	destinacija	destinacije
+71	6471	plaketa	plaketo
+72	6472	migracija	migracij migracije migracijo
+73	6473	titan	titana titanom titanu
+74	6474	menjalnik	menjalnika menjalniki menjalnikom menjalniku
+75	6475	najstnica	najstnice
+76	6476	uvoz	uvoza uvozom uvozu
+77	6477	sl.	sl
+78	6478	bojevanje	bojevanja bojevanjem bojevanju
+79	6479	psiho	psiha
+80	6480	vznemirjenje	vznemirjenja vznemirjenju
+81	6481	patetičen	patetična patetičnem patetičnih patetično
+82	6482	prod	proda prodi
+83	6483	trn	trni trnih
+84	6484	svila	svile svili svilo
+85	6485	poglaviten	poglavitna poglavitne poglavitni poglavitno
+86	6486	posnemati	posnema posnemali
+87	6487	oskrbovati	oskrbovala oskrbovali oskrbuje oskrbujejo
+88	6488	neznosen	neznosna neznosne neznosnega neznosno
+89	6489	sužnja	
+90	6490	novorojenček	novorojenčka novorojenčke novorojenčki novorojenčkih novorojenčkov novorojenčku
+91	6491	žeja	žeje žeji žejo
+92	6492	najdišče	najdišč najdišča
+93	6493	steči	steci steče stečem
+94	6494	vseliti	vselil vselila vselili vselita
+95	6495	sramoten	sramotne sramotnim sramotno
+96	6496	ognjišče	ognjišča ognjišču
+97	6497	kozarček	kozarčke kozarčkov kozarčku
+98	6498	vlagatelj	vlagatelja vlagatelje vlagateljev vlagatelji vlagatelju
+99	6499	posrečiti	posreči posrečil posrečilo
+100	6500	stojnica	stojnic stojnicah stojnice stojnici stojnico

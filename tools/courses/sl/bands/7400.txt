@@ -1,0 +1,100 @@
+1	7301	naglica	naglice naglici naglico
+2	7302	doktorski	doktorske
+3	7303	maršal	maršala maršali
+4	7304	berlinski	berlinskega berlinskem
+5	7305	solidarnost	solidarnosti
+6	7306	zagroziti	zagrozi zagrozil zagrozila zagrozili
+7	7307	vztrajnost	vztrajnosti vztrajnostjo
+8	7308	odpovedan	odpovedana odpovedano
+9	7309	zaporniški	zaporniška zaporniških zaporniško
+10	7310	prepleten	prepletena prepletene prepleteni prepleteno
+11	7311	zapiranje	zapiranja zapiranjem zapiranju
+12	7312	paren	parna parni parno
+13	7313	razstaven	razstavne razstavnega razstavnem razstavni razstavnih
+14	7314	razglašen	razglašeno
+15	7315	čarodej	čarodeja čarodeje čarodejem čarodejev čarodeji čarodeju
+16	7316	pojmovanje	pojmovanja pojmovanju
+17	7317	enakopravnost	enakopravnosti
+18	7318	žrebec	žrebca žrebce žrebcem žrebcev žrebci žrebcu
+19	7319	brcati	brca brcaj brcajo brcajte brcal brcala brcali brcam brcat brcate brcava brcaš
+20	7320	smučišče	smučišč smučišča smučišču
+21	7321	neizmeren	neizmerne neizmernim neizmerno
+22	7322	odsevati	odseva odsevajo odsevalo
+23	7323	telegram	telegrame telegrami
+24	7324	porezati	porezal porezali porezalo porežeš porežite
+25	7325	prazničen	praznična praznične prazničnega prazničnem praznični prazničnih praznično
+26	7326	ploden	plodna plodne plodnega plodnem plodni plodnih plodno
+27	7327	oksid	oksida oksidom oksidov
+28	7328	škrlaten	škrlatna škrlatni škrlatnih škrlatnim škrlatno
+29	7329	izčrpanost	izčrpanosti
+30	7330	avtonomen	avtonomne avtonomni
+31	7331	lonček	lončka lončki lončkih lončkom lončku
+32	7332	goditi	godi godilo
+33	7333	interen	interna interne interni
+34	7334	zagrebški	zagrebške zagrebškega zagrebškem
+35	7335	ruta	rute ruto
+36	7336	žvečilen	žvečilnega žvečilni žvečilnih žvečilnim
+37	7337	makedonski	makedonske makedonskega makedonsko
+38	7338	nedokončan	nedokončane nedokončano
+39	7339	zgrešen	zgrešena zgrešene zgrešeni zgrešenih zgrešeno
+40	7340	kamnina	kamnin kamnine
+41	7341	prerokba	
+42	7342	ustanavljanje	ustanavljanja ustanavljanju
+43	7343	inflacija	inflacije inflacijo
+44	7344	svojec	svojce svojcem svojcev svojci
+45	7345	preddverje	preddverju
+46	7346	prevleka	prevlek prevleke prevleko
+47	7347	temačen	najtemačnejši temačna temačne temačnega temačnem temačni
+48	7348	procent	procenti procentov
+49	7349	razrezati	razrezal razrezali razrežemo
+50	7350	sestavljanka	sestavljanke
+51	7351	koruzen	koruzna koruzne koruznega koruznem koruzni koruznih koruznim koruzno
+52	7352	razjasniti	razjasni razjasnil razjasnili razjasnilo
+53	7353	razodetje	razodetij razodetja
+54	7354	shujšati	shujša shujšal shujšali
+55	7355	čuvati	čuvajo čuval čuvala
+56	7356	vojščak	vojščaka vojščake vojščaki vojščakom vojščakov vojščaku
+57	7357	kopenski	kopenske kopenskih kopenskim kopensko
+58	7358	dedovanje	dedovanja dedovanju
+59	7359	deževen	deževnem deževni
+60	7360	bleščeč	bleščeča bleščeči bleščečih
+61	7361	plaziti	plazi plazijo plazil
+62	7362	predsedovati	predsedoval predsedovala predseduje
+63	7363	zvitek	zvitka zvitke zvitki zvitkih zvitkom zvitkov zvitku
+64	7364	izpopolnjevati	izpopolnjeval izpopolnjevala izpopolnjevali izpopolnjuje izpopolnjujejo izpopolnjujemo
+65	7365	mornariški	mornariškega
+66	7366	limonada	limonade limonadi limonado
+67	7367	protitelo	protiteles protitelesa
+68	7368	knjižničar	knjižničarji
+69	7369	četrtfinale	četrtfinala četrtfinalu
+70	7370	kontrast	kontrasta kontrastom
+71	7371	prepričevati	prepričeval prepričevali prepričuje prepričujejo
+72	7372	izkopavanje	izkopavanj izkopavanja
+73	7373	evidenca	evidenc evidenco
+74	7374	razveljaviti	razveljavi razveljavil razveljavila razveljavili razveljavilo razveljavimo
+75	7375	otočje	otočja otočju
+76	7376	trop	tropov
+77	7377	svetovalen	svetovalna svetovalne svetovalnega svetovalnem svetovalni svetovalno
+78	7378	cenzura	cenzure cenzuri cenzuro
+79	7379	mozeg	mozga mozgu
+80	7380	besedica	besedice besedico
+81	7381	ptiček	ptička ptičko
+82	7382	maturantski	maturantska maturantskih
+83	7383	kljun	kljuna kljune kljuni kljunom kljunov kljunu
+84	7384	plesišče	plesišču
+85	7385	halucinacija	halucinacij halucinacijah halucinacijam halucinacijami halucinacije halucinacijo
+86	7386	obsojati	obsojaj obsojajte obsojamo
+87	7387	pravoslaven	pravoslavna pravoslavne pravoslavnih pravoslavno
+88	7388	grmovje	grmovja grmovjem
+89	7389	gabiti	gabi gabijo gabil gabila gabilo gabim gabite gabiš
+90	7390	razglas	razglasi
+91	7391	poslabšanje	poslabšanja
+92	7392	kakav	kakava kakavom
+93	7393	loža	lože ložo
+94	7394	deden	dedna dedno
+95	7395	talen	talne talnih talno
+96	7396	izobraževati	izobraževala izobraževali izobražuje
+97	7397	mejnik	mejnike mejnikov mejniku
+98	7398	pohlepen	pohlepna pohlepne pohlepnega pohlepni pohlepnih pohlepnim pohlepnimi pohlepno
+99	7399	odločnost	odločnosti odločnostjo
+100	7400	tiskalnik	tiskalnika tiskalnike tiskalniki tiskalnikom tiskalnikov tiskalniku

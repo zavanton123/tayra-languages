@@ -1,0 +1,100 @@
+1	7901	udejstvovanje	udejstvovanja
+2	7902	atlet	atletov
+3	7903	štirideseti	štirideseta štiridesetih
+4	7904	parkiran	parkirane parkirani parkiranih
+5	7905	pametnjakovič	pametnjakovičev
+6	7906	večati	veča večajo večalo
+7	7907	tašča	tašče tašči taščo
+8	7908	varovalen	varovalne varovalnega varovalni varovalno
+9	7909	jadranje	jadranja jadranjem jadranju
+10	7910	vegetacija	vegetacije vegetacijo
+11	7911	plemenski	plemenska plemenske plemenskega plemenskih plemenskimi plemensko
+12	7912	poizkus	poizkuse
+13	7913	romunski	romunska romunske romunskega romunskih
+14	7914	statičen	statična statične statični
+15	7915	katoličan	katoličani katoličanov
+16	7916	prelivanje	prelivanja prelivanju
+17	7917	enajsti	enajstem enajsto
+18	7918	brezpogojen	brezpogojno
+19	7919	iniciativa	iniciativi iniciativo
+20	7920	naložen	naložena naložene naloženi naloženih
+21	7921	superga	superge
+22	7922	čuten	čutne čutnih čutno
+23	7923	prestreči	prestregel prestreže
+24	7924	zavreti	zavre zavrejo zavrela zavrem zavremo zavreš zavri zavrl zavrla zavrli zavrt
+25	7925	fiksen	fiksne fiksno
+26	7926	formalnost	formalnosti
+27	7927	prekoračiti	prekorači prekoračil prekoračila prekoračili prekoračimo
+28	7928	štedilnik	štedilniku
+29	7929	založništvo	založništva založništvu
+30	7930	nakupovati	nakupovala nakupovat
+31	7931	plemstvo	plemstva plemstvom
+32	7932	odredba	odredb odredbe odredbi odredbo
+33	7933	vrstnik	vrstnika vrstniki vrstnikov
+34	7934	izposojati	izposoja izposojajo izposojal izposojala izposojam izposojamo izposojaš izposoji izposojo
+35	7935	sežgati	sežgala sežgali sežgi
+36	7936	pridelovati	prideloval pridelovali pridelujejo
+37	7937	polbrat	polbrata polbratom polbratu
+38	7938	zabit	zabita
+39	7939	namigniti	namigne namignil namignila namignili
+40	7940	glavica	glavico
+41	7941	lajati	laja lajaj lajajo lajala lajali lajam lajanje lajate lajaš
+42	7942	razširjanje	razširjanja
+43	7943	obravnavanje	obravnavanja obravnavanju
+44	7944	odslužiti	odslužil
+45	7945	sprejemen	sprejemne sprejemni
+46	7946	koten	kotna kotni kotnih kotno
+47	7947	zanikanje	zanikanju
+48	7948	razstrelivo	razstreliva
+49	7949	milijonar	milijonarja milijonarjev
+50	7950	sirotišnica	sirotišnice sirotišnici
+51	7951	masiven	masivnega masivnih masivno
+52	7952	rang	ranga rangu
+53	7953	garancija	garanciji garancijo
+54	7954	marveč	
+55	7955	nasledstvo	nasledstva
+56	7956	kandidatka	kandidatk kandidatke kandidatko
+57	7957	sesati	sesa sesaj sesajo sesajte sesala sesali sesam sesat sesaš
+58	7958	topništvo	topništva topništvom
+59	7959	preprečitev	preprečitve
+60	7960	rojevati	rojeva rojeval rojevala rojevale
+61	7961	vkrcati	vkrca vkrcal vkrcate
+62	7962	kamnolom	kamnoloma kamnolomu
+63	7963	streti	strl strla
+64	7964	postojnski	postojnska postojnske postojnsko
+65	7965	nagrajevanje	nagrajevanja
+66	7966	kolektiv	kolektiva kolektivu
+67	7967	blagostanje	blagostanja blagostanju
+68	7968	rokometaš	rokometaši
+69	7969	prisluškovati	prisluškoval prisluškovala prisluškovali
+70	7970	smrdljiv	smrdljivega smrdljivi smrdljivih smrdljivim
+71	7971	šivati	šiva šivala šivam
+72	7972	koordinator	koordinatorja
+73	7973	preprodajalec	preprodajalca preprodajalcev
+74	7974	referenca	referenc referenco
+75	7975	soustanovitelj	
+76	7976	prepis	prepisa prepisov
+77	7977	eteričen	eterična eteričnega eteričnih eterično
+78	7978	razširjati	razširja razširjajo
+79	7979	lovljenje	lovljenja lovljenjem
+80	7980	oljčen	oljčnega oljčno
+81	7981	predhodnica	predhodnice predhodnico
+82	7982	književen	književna književne književni književnih književno
+83	7983	povečevanje	povečevanja povečevanjem
+84	7984	poslanka	
+85	7985	renesančen	renesančna renesančne renesančnega renesančni renesančnih
+86	7986	misijonar	misijonarji
+87	7987	prepuščati	prepušča prepuščajo prepuščal prepuščala prepuščamo
+88	7988	pira	pire
+89	7989	reprezentančen	reprezentančni reprezentančnih reprezentančno
+90	7990	izpušen	izpušne izpušni izpušnih izpušno
+91	7991	krt	krta krte krti krtom krtov krtu
+92	7992	zagovor	zagovora zagovoru
+93	7993	zategniti	zategne zategnejo zategnem zategneš zategni zategnil zategnila zategnili zategnite zategnjen zategnjena zategnjene zategnjeni zategnjeno
+94	7994	okopati	okopa okopaj okopajo okopajte okopal okopala okopali okopam okopan okopat okopate okopava okopaš
+95	7995	vražji	vražjo
+96	7996	prikrivanje	prikrivanja
+97	7997	izvid	izvida
+98	7998	kolumna	kolumne kolumni kolumno
+99	7999	skener	skenerja skenerjem skenerjev skenerji
+100	8000	preplet	prepleta

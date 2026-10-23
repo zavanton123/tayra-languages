@@ -1,0 +1,100 @@
+1	6801	kelih	keliha kelihom kelihu
+2	6802	trinajsti	trinajsta trinajste trinajstega trinajstih trinajsto
+3	6803	iztrgati	iztrgal iztrgala iztrgale iztrgali iztrgalo
+4	6804	vrten	vrtna vrtne vrtnega vrtnem vrtnih vrtnim vrtnimi vrtno
+5	6805	povišanje	povišanja povišanju
+6	6806	ponesrečiti	ponesreči ponesrečil ponesrečila
+7	6807	revolver	revolverje revolverjem
+8	6808	urednica	urednice urednici
+9	6809	navigacija	navigaciji navigacijo
+10	6810	čudaški	čudaška čudaške čudaškim
+11	6811	razširjenost	razširjenosti
+12	6812	kompetenca	kompetenc kompetence
+13	6813	preganjanje	preganjanja preganjanjem preganjanju
+14	6814	nit	nitjo nitmi
+15	6815	sramežljiv	sramežljivi
+16	6816	objektiv	objektiva objektivi objektivom objektivu
+17	6817	sloveti	slovel sloveli slovi slovijo slovim slovimo sloviš
+18	6818	udeleževati	udeleževala udeleževali udeležuje udeležujejo
+19	6819	hokejski	hokejska hokejske
+20	6820	tovarniški	tovarniška tovarniške tovarniških tovarniško
+21	6821	depresiven	depresivne depresivni
+22	6822	trata	tratah trate trati
+23	6823	prelaz	prelaza prelaze prelazov prelazu
+24	6824	uporniški	uporniška uporniških uporniško
+25	6825	pooblaščen	pooblaščena pooblaščene pooblaščenega pooblaščeni pooblaščenih
+26	6826	rezati	rezal režejo režemo
+27	6827	zrcalo	zrcali zrcalu
+28	6828	kongresnik	kongresnika kongresnikov
+29	6829	triglavski	triglavskega triglavskem triglavskih
+30	6830	podeljen	podeljena podeljeni
+31	6831	terenec	terenca terencem terencev terenci
+32	6832	vpeljati	vpeljala vpeljali vpelje vpeljemo
+33	6833	ličinka	ličink ličinkah ličinke ličinko
+34	6834	svetnica	svetnice svetnici
+35	6835	predložiti	predloži predložil predložila predložili
+36	6836	trdilo	trdili
+37	6837	prenoviti	prenovil prenovila prenovili
+38	6838	prebava	prebave prebavi prebavo
+39	6839	odviti	odvije odvil odvila
+40	6840	marš	
+41	6841	moten	motene motenega moteni motenih moteno motna motnega motno
+42	6842	odstopanje	odstopanj odstopanja
+43	6843	odvleči	odvlekel odvlekla odvlekli
+44	6844	poper	popra poprom
+45	6845	očim	očima očimi očimom očimov očimu
+46	6846	brezposeln	brezposelna brezposelne brezposelni brezposelnih brezposelnim
+47	6847	neurejen	neurejena neurejene neurejenih neurejeno
+48	6848	avtomat	avtomati avtomatih
+49	6849	mrzlica	mrzlice mrzlici mrzlico
+50	6850	regulacija	regulaciji regulacijo
+51	6851	skozme	skozenj skoznje skoznjo
+52	6852	tolmač	tolmača tolmačev tolmači
+53	6853	križanka	križank križankah križanke križanki križanko
+54	6854	grah	graha grahom grahu
+55	6855	izpolnjen	izpolnjena izpolnjene izpolnjeni izpolnjeno
+56	6856	vestnik	vestnika
+57	6857	sodstvo	sodstva sodstvu
+58	6858	doživetje	doživetja
+59	6859	vit	vito
+60	6860	natisnjen	natisnjena natisnjene natisnjeni
+61	6861	geografija	geografije geografiji geografijo
+62	6862	neskončnost	neskončnosti
+63	6863	vmešati	vmešaj vmešal vmešala vmešale vmešamo vmešava
+64	6864	dinastija	dinastije
+65	6865	politi	polij polijemo polil polila
+66	6866	obveščevalec	obveščevalca obveščevalcev obveščevalci
+67	6867	smuč	smučeh smuči
+68	6868	kuharica	kuharice kuharico
+69	6869	zakopan	zakopana zakopani
+70	6870	republikanec	republikance republikancem republikancev republikanci
+71	6871	grditi	grdi grdim
+72	6872	vsestranski	vsestransko
+73	6873	trenje	trenj trenja
+74	6874	izvršiti	izvrši izvršila izvršili
+75	6875	finance	financ financah
+76	6876	zaužitje	zaužitju
+77	6877	cista	cist ciste cisti cisto
+78	6878	skladnost	skladnosti
+79	6879	potapljač	potapljača potapljače potapljačem potapljačev potapljači
+80	6880	komolec	komolca komolce komolcem komolcev komolci komolcu
+81	6881	predpisati	predpisal predpisala predpiše predpišejo
+82	6882	relativen	relativna relativne relativni
+83	6883	kolegij	kolegija kolegiju
+84	6884	metafora	metaforami metafore
+85	6885	ponarejen	ponarejene ponarejeni ponarejenih ponarejenim ponarejeno
+86	6886	spontan	spontana spontane spontanega spontanih
+87	6887	požeti	požel požela
+88	6888	ogljik	ogljika ogljikom ogljiku
+89	6889	sociologija	sociologije sociologijo
+90	6890	estetika	estetike estetiki
+91	6891	ljubosumje	ljubosumja ljubosumju
+92	6892	tesnoba	tesnobe tesnobi tesnobo
+93	6893	metodologija	metodologije metodologijo
+94	6894	prejet	prejete prejetih prejeto
+95	6895	zaveden	zavedeni zavedni zavedno
+96	6896	premožen	premožna premožne premožnejši premožni
+97	6897	življenski	življenska življenskem življensko
+98	6898	obremenjen	obremenjena obremenjene obremenjeni obremenjenih obremenjeno
+99	6899	kozel	kozla kozle kozli kozlom kozlov kozlu
+100	6900	zaznavati	zaznavajo zaznaval zaznavamo

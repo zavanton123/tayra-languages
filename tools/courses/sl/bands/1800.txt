@@ -1,0 +1,100 @@
+1	1701	top	topa tope topega topi topih topimi topo topom topov topova topove topovi topovih topovom topu
+2	1702	živčen	živčna živčne živčnega živčni živčnih živčno
+3	1703	strošek	stroška stroške stroški stroških stroškom stroškov
+4	1704	umeten	umetna umetne umetnega umetnem umetni umetnih umetnim umetnimi umetno
+5	1705	tableta	tablet tabletah tabletami tablete tableto
+6	1706	angleščina	angleščine angleščini angleščino
+7	1707	aktivnost	aktivnosti aktivnostih
+8	1708	izvedba	izvedb izvedbah izvedbe izvedbi izvedbo
+9	1709	posoda	posod posodah posodami posode posodi posodo
+10	1710	praktičen	praktična praktične praktičnega praktičnem praktični praktičnih praktičnim praktično
+11	1711	luka	luk lukah luke luki luko
+12	1712	ogromen	ogromna ogromne ogromnega ogromnem ogromnemu ogromni ogromnih ogromnim ogromnimi
+13	1713	izdelati	izdela izdelajo izdelajte izdelal izdelala izdelale izdelali izdelalo izdelamo izdelate izdelaš
+14	1714	kmet	kmeta kmete kmeti kmetih kmetje kmetom kmetov kmetu
+15	1715	tik	tika
+16	1716	premikati	premikaj premikajo premikajte premikal premikala premikali premikamo premikate premikava
+17	1717	kraljestvo	kraljestev kraljestva kraljestvi kraljestvih kraljestvom kraljestvoma kraljestvu
+18	1718	ukrep	ukrepa ukrepe ukrepi ukrepih ukrepom ukrepov ukrepu
+19	1719	ustanoviti	ustanovijo ustanovil ustanovila ustanovile ustanovili ustanovilo ustanovimo
+20	1720	računalniški	računalniška računalniške računalniškega računalniškem računalniškemu računalniških računalniškim računalniškimi računalniško
+21	1721	slep	slepa slepe slepega slepem slepemu slepi slepih slepim slepimi slepo
+22	1722	prenehati	preneha prenehajmo prenehajo prenehajte prenehal prenehala prenehale prenehalo prenehamo
+23	1723	neposreden	neposredna neposredne neposrednega neposrednem neposrednemu neposredni neposrednih neposrednim
+24	1724	priden	pridna pridne pridnega pridni pridnih pridnim pridno
+25	1725	vedenje	vedenj vedenja vedenjem vedenju
+26	1726	člen	člena člene členi členih členom členov členu
+27	1727	nanašati	nanaša nanašajo nanašala nanašale nanašali nanašalo nanašam nanašata nanašaš
+28	1728	ozemlje	ozemelj ozemlja ozemljem ozemljih ozemlju
+29	1729	val	vala valom valov valove valovih valovom valu
+30	1730	nasilje	nasilja nasiljem nasilju
+31	1731	ponujati	ponuja ponujajo ponujal ponujala ponujale ponujali ponujamo ponujata ponujate ponujava ponujaš
+32	1732	vidik	vidika vidike vidiki vidikih vidikom vidikov vidiku
+33	1733	razvijati	razvija razvijajo razvijal razvijala razvijale razvijali razvijalo razvijamo
+34	1734	umazan	umazana umazane umazanega umazanem umazanemu umazani umazanih umazanim umazanimi umazano
+35	1735	potnik	potnika potnike potniki potnikih potnikom potnikoma potnikov potniku
+36	1736	ščit	ščita ščite ščiti ščitih ščitom ščitov ščitu
+37	1737	napredovati	napredoval napredovala napredovale napredovali napredovalo napreduje napredujejo napredujem napreduješ
+38	1738	razdalja	razdalj razdaljah razdalje razdalji razdaljo
+39	1739	britanski	britanska britanske britanskega britanskem britanskemu britanskih britanskim britanskima britanskimi britansko
+40	1740	kritik	kritika kritikah kritikam kritikami kritike kritiki kritiko kritikom kritikov
+41	1741	zveneti	zvenel zvenela zveneli zveni zvenijo zvenita
+42	1742	dvomiti	dvomijo dvomil dvomila dvomili dvomim dvomimo dvomita dvomite dvomiva
+43	1743	koper	kopra koprom kopru
+44	1744	hvaležen	hvaležna hvaležni hvaležno
+45	1745	opisati	opisal opisala opisali opisalo opiše opišejo opišem opiši opišite
+46	1746	dolžen	dolžan dolžna dolžni dolžno
+47	1747	prisotnost	prisotnosti prisotnostjo
+48	1748	stranski	stranska stranske stranskega stranskemu stranskih stranskim stransko
+49	1749	odnesti	odnese odnesejo odnesel odnesla odnesli odneslo
+50	1750	dihati	diha dihaj dihajmo dihajo dihajta dihajte dihala dihali diham dihamo dihat dihata dihate dihava dihaš
+51	1751	odpovedati	odpove odpovedal odpovedala odpovedali odpovedalo odpovedo odpovejo odpovejte odpovemo odpovesta
+52	1752	nedelja	nedelj nedeljah nedelje nedelji nedeljo
+53	1753	občasen	občasna občasne občasnega občasni občasnih občasnim občasno
+54	1754	zgolj	
+55	1755	plaža	plaž plažah plažami plaže plaži plažo
+56	1756	značilen	značilna značilne značilnega značilnem značilni značilnih značilnim značilnimi
+57	1757	rumen	rumena rumene rumenega rumenem rumenemu rumeni rumenih rumenim rumenimi rumeno
+58	1758	omenjati	omenja omenjajo omenjajte omenjal omenjala omenjali omenjam omenjate
+59	1759	nivo	nivoja nivoje nivojem nivojev nivoji nivojih nivoju
+60	1760	dnevnik	dnevnika dnevnike dnevniki dnevnikih dnevnikom dnevnikov dnevniku
+61	1761	vsakič	
+62	1762	pristop	pristopa pristope pristopi pristopom pristopov pristopu
+63	1763	odprava	odpravah odprave odpravi odpravo
+64	1764	slovenščina	slovenščine slovenščini slovenščino
+65	1765	čarovnica	čarovnic čarovnicah čarovnicam čarovnicami čarovnice čarovnici čarovnico
+66	1766	simbol	simbola simbole simboli simbolih simbolom simbolov
+67	1767	sredina	sredine sredini sredino
+68	1768	navdušen	navdušena navdušenega navdušeni navdušenih
+69	1769	stranišče	stranišč stranišča straniščem stranišči straniščih stranišču
+70	1770	sporazum	sporazuma sporazume sporazumi sporazumom sporazumov sporazumu
+71	1771	jedro	jeder jedra jedri jedrom jedru
+72	1772	vstop	vstopa vstopom vstopu
+73	1773	zgrajen	zgrajena zgrajene zgrajeni zgrajenih zgrajeno
+74	1774	olimpijski	olimpijska olimpijske olimpijskega olimpijskem olimpijskih olimpijskimi olimpijsko
+75	1775	tona	ton tonami toni tonih tono tonom tonov tonu
+76	1776	ljudstvo	ljudstev ljudstva ljudstvi ljudstvom ljudstvu
+77	1777	moliti	moli molijo molil molila molile molili molim molimo molit molita molite moliva moliš
+78	1778	drek	dreka drekom dreku
+79	1779	motiv	motiva motivi motivih motivom motivov motivu
+80	1780	festival	festivala festivali festivalih festivalom festivalov festivalu
+81	1781	posvetiti	posvetijo posvetil posvetila posvetile posvetili posvetilo posvetim posvetimo posvetite
+82	1782	kriza	kriz krizah krize krizi krizo
+83	1783	bistven	bistvena bistvene bistvenega bistveni bistvenih bistveno
+84	1784	pogumen	najpogumnejši pogumna pogumne pogumnega pogumnejši pogumnem pogumnemu pogumni pogumnih pogumnim pogumnimi pogumno
+85	1785	oddaljen	oddaljena oddaljene oddaljenega oddaljenem oddaljenemu oddaljeni oddaljenih oddaljenimi oddaljeno
+86	1786	stolp	stolpa stolpe stolpi stolpih stolpom stolpov stolpu
+87	1787	izbor	izbora izborom izboru
+88	1788	ustrezati	ustreza ustrezajo ustrezal ustrezala ustrezalo ustrezam ustrezata
+89	1789	zapleten	zapletena zapletene zapletenega zapletenem zapleteni zapletenih zapletenim zapletenimi zapleteno
+90	1790	koleno	kolen kolena koleni kolenih kolenom kolenu
+91	1791	nogometen	nogometna nogometne nogometnega nogometnem nogometni nogometnih nogometnimi nogometno
+92	1792	žep	žepa žepe žepi žepih žepom žepov žepu
+93	1793	zelena	zeleno
+94	1794	vodenje	vodenja vodenjem vodenju
+95	1795	zračen	zračna zračne zračnega zračni zračnih zračnim zračno
+96	1796	raziskovalec	raziskovalca raziskovalce raziskovalcem raziskovalcev raziskovalci
+97	1797	tujec	tujca tujce tujcem tujcev tujci tujcih
+98	1798	obnova	obnove obnovi obnovo
+99	1799	razkriti	razkrije razkrijejo razkrijem razkrijete razkril razkrila razkrile razkrili razkrilo
+100	1800	naenkrat	

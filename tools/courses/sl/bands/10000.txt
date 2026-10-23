@@ -1,0 +1,100 @@
+1	9901	rabelj	rablja
+2	9902	sredinski	sredinska sredinske sredinsko
+3	9903	zaposlitven	zaposlitveni zaposlitvenih zaposlitveno
+4	9904	morija	morije morijo
+5	9905	dedec	dedci
+6	9906	kamenček	kamenčke kamenčkov
+7	9907	tekaški	tekaške tekaškega tekaških tekaško
+8	9908	marketing	marketinga marketingu
+9	9909	odličje	odličij odličja odličjem
+10	9910	razdejanje	razdejanja razdejanjem razdejanju
+11	9911	kemoterapija	kemoterapiji
+12	9912	limonin	limonina limonine limoninim limonino
+13	9913	sen	sna snu
+14	9914	prileči	prilegel prilegla
+15	9915	somišljenik	somišljeniki somišljenikov
+16	9916	šakal	šakala šakale šakali šakalom šakalov
+17	9917	nevzdržen	nevzdržna nevzdržne nevzdržnih nevzdržno
+18	9918	ježek	ježka
+19	9919	blišč	blišča
+20	9920	nazorno	
+21	9921	obreden	obredne obredni obredno
+22	9922	prežati	prežali prežijo prežite
+23	9923	starati	starajo staram staramo
+24	9924	vbrizgati	vbrizga vbrizgajo vbrizgali
+25	9925	tangice	tangic tangicah
+26	9926	razkazovati	razkazovali razkazuje razkazujejo
+27	9927	viti	vije vijejo
+28	9928	posekati	posekajo posekal posekali posekamo
+29	9929	cilinder	cilindra cilindre cilindri cilindrom cilindrov cilindru
+30	9930	vesten	vestnega vestni vestno
+31	9931	nominalen	nominalna nominalni nominalno
+32	9932	peugeot	
+33	9933	kongresen	kongresna kongresne kongresnega kongresnem kongresnih
+34	9934	odzivnik	odzivniku
+35	9935	izprašati	izprašali
+36	9936	vzhajati	vzhaja
+37	9937	emocionalen	emocionalna emocionalne emocionalnega emocionalni emocionalnih emocionalno
+38	9938	zavarovalniški	zavarovalniška zavarovalniške zavarovalniškega
+39	9939	vlakec	vlakcev vlakci
+40	9940	nejasnost	nejasnosti
+41	9941	ultimat	ultimata
+42	9942	sarkofag	sarkofaga sarkofagu
+43	9943	vržen	vrženo
+44	9944	picerija	picerije piceriji picerijo
+45	9945	pomiritev	pomiritve
+46	9946	tiranija	tiranije tiranijo
+47	9947	karma	karme karmo
+48	9948	socializacija	socializacije
+49	9949	spočetje	spočetja
+50	9950	kadilo	kadilom kadilu
+51	9951	oprostitev	oprostitve
+52	9952	dlesna	dlesen dlesni
+53	9953	ganljiv	ganljiva
+54	9954	neboleč	neboleča neboleče
+55	9955	paraliziran	paralizirana paralizirane paraliziranega paralizirani paralizirano
+56	9956	zajahati	zajaha zajahaj zajahajmo zajahajte zajahal zajahala zajahali zajaham zajahamo zajahate zajahaš
+57	9957	zmerjati	zmerja zmerjajo zmerjal zmerjali zmerjate
+58	9958	povoj	povojih
+59	9959	povzemati	povzema
+60	9960	izobilje	izobilju
+61	9961	knjižničen	knjižničnega
+62	9962	migrant	migrantov
+63	9963	bočen	bočni
+64	9964	proslavljati	proslavlja proslavljajo proslavljali
+65	9965	oddaljevati	oddaljuje oddaljujemo
+66	9966	opozarjanje	
+67	9967	banket	banketa bankete banketi banketu
+68	9968	vektor	vektorja vektorje vektorjev vektorji vektorju
+69	9969	fazan	fazana fazane fazani fazanka fazanov fazanu
+70	9970	zgubljati	zgublja zgubljaj zgubljajmo zgubljajo zgubljal zgubljala zgubljali zgubljam zgubljamo zgubljate zgubljava zgubljaš
+71	9971	prejšni	prejšno
+72	9972	ocenjevalec	ocenjevalci
+73	9973	atletika	atletiko
+74	9974	propeler	propelerja propelerjev propelerji
+75	9975	pridržanje	pridržanja pridržanjem pridržanju
+76	9976	mašina	mašini
+77	9977	dostopati	dostopajo
+78	9978	osmina	osmine osmini osmino
+79	9979	aspekt	aspekte
+80	9980	prazgodovinski	prazgodovinskega prazgodovinskih prazgodovinsko
+81	9981	sekretariat	sekretariata
+82	9982	nepopravljiv	nepopravljivo
+83	9983	dremati	drema dremaj dremajo dremal dremala dremali dremam dremat dremate dremaš dremlje
+84	9984	mrčes	mrčesu
+85	9985	pošaliti	pošalil pošalila pošalili
+86	9986	sakralen	sakralne sakralnih
+87	9987	nerazumljiv	nerazumljiva nerazumljive nerazumljivi nerazumljivih nerazumljivo
+88	9988	zadovoljevati	zadovoljevala zadovoljevali zadovoljuje zadovoljujejo zadovoljujem zadovoljuješ
+89	9989	zakup	zakupu
+90	9990	ranljivost	ranljivostjo
+91	9991	kros	krosu
+92	9992	ustavitev	ustavitve ustavitvijo
+93	9993	izrečen	izrečena izrečene izrečenih izrečeno
+94	9994	založniški	založniška založniškega
+95	9995	lektor	lektorji
+96	9996	rokovati	rokoval rokovali
+97	9997	mamljiv	mamljivo
+98	9998	doživljenjski	doživljenjsko
+99	9999	oliva	oliv olivami
+100	10000	orešček	oreščki

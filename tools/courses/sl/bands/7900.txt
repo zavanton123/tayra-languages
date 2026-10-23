@@ -1,0 +1,100 @@
+1	7801	piškotek	piškotki piškotkov
+2	7802	dovoz	dovoza dovoze dovozom dovozu
+3	7803	zaostanek	zaostanka zaostanke zaostankom
+4	7804	ozirati	ozirajo oziral ozirala ozirali oziram oziramo
+5	7805	vidljivost	vidljivosti
+6	7806	tog	toge togi togo
+7	7807	navezan	navezana navezani
+8	7808	tiralica	tiralico
+9	7809	pujsek	pujska pujske pujski pujskov
+10	7810	bruhati	bruha
+11	7811	zapah	zapahe zapahi
+12	7812	gospodinjski	gospodinjske gospodinjskih
+13	7813	segreti	segreje segrejejo segrejemo segrejte segrela segreli
+14	7814	pianist	pianista pianisti pianistom pianistu
+15	7815	bruto	
+16	7816	vzdržljivost	vzdržljivosti
+17	7817	ogel	ogle vogel voglom
+18	7818	izvrševanje	izvrševanja izvrševanju
+19	7819	misleč	misleča misleče mislečih mislečimi
+20	7820	obhod	obhoda obhodi
+21	7821	kupon	kupona kuponi kuponom
+22	7822	obarvati	obarva obarvajo obarval obarvala obarvali obarvalo
+23	7823	rajh	rajha rajhu
+24	7824	izključevati	izključeval izključuje izključujejo izključujeta
+25	7825	prebijati	prebija prebijajo prebijal prebijali
+26	7826	psihoterapija	psihoterapije psihoterapiji psihoterapijo
+27	7827	greti	grej greje grejejo grejem grejemo grejete greješ grela greli
+28	7828	vojskovanje	vojskovanja
+29	7829	odlagališče	odlagališč odlagališča odlagališču
+30	7830	samoten	samotne samotnega samotnem samotni samotnih
+31	7831	internat	internata internatih internatu
+32	7832	odpeti	odpel odpela odpne odpoje
+33	7833	mizica	mizice mizici mizico
+34	7834	odstranjevati	odstranjeval odstranjevali odstranjuj odstranjuje odstranjujejo odstranjujemo
+35	7835	križanje	križanja križanjem križanju
+36	7836	reorganizacija	reorganizacije reorganizaciji reorganizacijo
+37	7837	pokop	pokopa pokopi pokopom pokopu
+38	7838	spremljava	spremljavi
+39	7839	nominiran	nominirana nominirane
+40	7840	zborovanje	zborovanj zborovanja zborovanjih
+41	7841	krizen	krizna krizne kriznega kriznem krizni kriznih krizno
+42	7842	pokora	pokore pokori pokoro
+43	7843	zgaga	zgage zgagi zgago
+44	7844	bonbon	bonboni bonbonov
+45	7845	raznovrsten	raznovrstne raznovrstni raznovrstnih
+46	7846	asteroid	asteroida asteroide asteroidi asteroidih asteroidom asteroidov asteroidu
+47	7847	kitajščina	kitajščine kitajščini kitajščino
+48	7848	jež	ježa ježe ježev ježi
+49	7849	tolči	tolkel tolkla tolkli tolče tolčejo tolčemo
+50	7850	replika	replike repliko
+51	7851	poročevalec	poročevalca poročevalcem poročevalci
+52	7852	recenzija	recenzije
+53	7853	specialiteta	specialitet specialitete specialiteti
+54	7854	nadomestek	
+55	7855	nedosegljiv	nedosegljiva nedosegljivega nedosegljivi
+56	7856	belka	belkami belke belki belko
+57	7857	otresti	otresel otresemo otresla otresli
+58	7858	laser	laserja laserjev laserji
+59	7859	obkoliti	obkolili
+60	7860	iraški	iraška iraške iraškega iraškem iraških iraško
+61	7861	dude	duda dudami dudi dudo
+62	7862	razvalina	razvalin razvaline
+63	7863	pogruntati	pogruntal
+64	7864	vlomilec	vlomilca vlomilce vlomilcem vlomilcev vlomilci vlomilcu
+65	7865	zavetnik	zavetnika
+66	7866	razstaviti	razstavijo razstavili razstavite
+67	7867	mrtviti	mrtvilo mrtvim
+68	7868	jata	jatah jate jati
+69	7869	labod	laboda labode labodi labodu
+70	7870	presežek	presežka presežke presežkom presežkov presežku
+71	7871	akumulator	akumulatorja akumulatorje
+72	7872	diplomacija	diplomacije diplomacijo
+73	7873	nihati	niha nihajo
+74	7874	izstop	izstopu
+75	7875	doktorirati	doktoriral
+76	7876	nabiralnik	nabiralnike nabiralnikih
+77	7877	konservativen	konservativna konservativne konservativni konservativno
+78	7878	zavedeti	zave zavedela zavedeli zavejo zavem zavemo
+79	7879	sekati	seka sekal sekali
+80	7880	nevednost	nevednosti
+81	7881	žalovati	žaloval žalovala žalovali žalovalo žalujejo
+82	7882	ultrazvok	ultrazvokom ultrazvoku
+83	7883	prezir	prezira
+84	7884	vzmet	vzmeti
+85	7885	umirajoč	umirajočega umirajoči umirajočo
+86	7886	oblikovalka	oblikovalke oblikovalko
+87	7887	ljubezniv	ljubeznivega ljubeznivo
+88	7888	kapuca	kapuco
+89	7889	prevrniti	prevrne prevrnil prevrnila
+90	7890	lokomotiva	lokomotive lokomotivi lokomotivo
+91	7891	pionirski	pionirska pionirske pionirsko
+92	7892	priboriti	priboril priborila priborili
+93	7893	izpopolnjevanje	izpopolnjevanja izpopolnjevanju
+94	7894	popuščanje	popuščanja
+95	7895	predpisovati	predpisoval predpisuje predpisujejo
+96	7896	karneval	karnevala karnevalov karnevalu
+97	7897	idrijski	idrijske idrijskega idrijskem idrijsko
+98	7898	nespečnost	nespečnosti
+99	7899	varovalka	varovalke
+100	7900	ubraniti	ubranil ubranila ubranili

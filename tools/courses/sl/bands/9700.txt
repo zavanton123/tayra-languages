@@ -1,0 +1,100 @@
+1	9601	osemdeset	
+2	9602	tolmačenje	
+3	9603	zločinski	zločinskega
+4	9604	ošpice	ošpic ošpicami
+5	9605	nadvlada	nadvlade nadvladi nadvlado
+6	9606	spričevalo	spričeval spričevala spričevalu
+7	9607	zakrpati	zakrpa zakrpaj zakrpajo zakrpajte zakrpal zakrpala zakrpali zakrpam zakrpamo zakrpaš
+8	9608	refleks	refleksih refleksov
+9	9609	arheologija	arheologijo
+10	9610	luknjica	luknjic luknjice luknjici luknjico
+11	9611	šipa	šipe šipi šipo
+12	9612	božati	boža
+13	9613	otvoritven	otvoritvena otvoritvene otvoritvenega otvoritvenem otvoritveni
+14	9614	izkrcati	izkrcala izkrcali
+15	9615	cvetenje	cvetenja
+16	9616	opazka	opazke opazko
+17	9617	mučen	mučna mučnega mučnih
+18	9618	stadij	stadija stadijev stadijih stadiju
+19	9619	svetniški	svetniških svetniško
+20	9620	opozicijski	opozicijske opozicijskih
+21	9621	advokat	advokata
+22	9622	senčen	senčne senčni senčnih senčno
+23	9623	gozdar	gozdarja gozdarjev gozdarji
+24	9624	osvajalec	osvajalci
+25	9625	urica	uricah urice urico
+26	9626	žolč	žolča žolčem
+27	9627	farsa	farso
+28	9628	papagaj	papagaja papagaje papagajem papagajev papagaji papagaju
+29	9629	kajneda	
+30	9630	nalomiti	nalomi nalomijo nalomil nalomila nalomili nalomim nalomimo
+31	9631	otežiti	oteži otežil otežili otežilo
+32	9632	predme	predenj
+33	9633	zgodovinopisje	zgodovinopisja zgodovinopisju
+34	9634	oskrbnik	oskrbniki
+35	9635	majoneza	majoneze majonezi majonezo
+36	9636	silvestrovo	silvestrovega
+37	9637	lubenica	lubenic lubenice lubenici lubenico
+38	9638	kavelj	kavlja kavlje kavlji
+39	9639	plameneti	plameni
+40	9640	krošnja	krošnje krošnji krošnjo
+41	9641	kmetavz	kmetavza kmetavze kmetavzi kmetavzom kmetavzov kmetavzu
+42	9642	bankomat	bankomatov
+43	9643	pretrpeti	pretrpel
+44	9644	enoleten	enoletno
+45	9645	kepa	kepo
+46	9646	sipin	sipina sipine sipini sipino
+47	9647	ribniški	ribniške ribniško
+48	9648	plantaža	plantaž plantažah plantaže plantaži
+49	9649	tendenca	tendence tendenco
+50	9650	nadelati	nadela
+51	9651	soliden	solidne solidnega solidni solidno
+52	9652	proizveden	proizvedeno
+53	9653	lulček	lulčka lulčke lulčki lulčkom lulčkov lulčku
+54	9654	prikrasti	prikrade prikradejo prikradel prikradla
+55	9655	trepalnica	trepalnic trepalnicah trepalnicami trepalnice trepalnico
+56	9656	primat	primata primati
+57	9657	svariti	svari svarijo svarili
+58	9658	kriminalka	kriminalk kriminalke
+59	9659	ocvrt	ocvrte
+60	9660	kartati	karta kartajmo kartajo kartal kartala kartali kartam kartamo kartat kartata kartate kartaš
+61	9661	zrakoplov	zrakoplova zrakoplovi zrakoplovov zrakoplovu
+62	9662	hren	
+63	9663	izučiti	izučil izučila izučile
+64	9664	iskrica	iskrico
+65	9665	prepih	prepiha prepihu
+66	9666	stotnica	stotnice stotnici stotnico
+67	9667	spakirati	spakiraš
+68	9668	klavnica	klavnicah klavnice klavnici klavnico
+69	9669	savdski	savdska savdske savdskega savdsko
+70	9670	britev	britve britvi britvijo
+71	9671	lotevati	loteva loteval lotevala lotevaš
+72	9672	čelen	čelna čelne čelnem čelni čelno
+73	9673	referat	referata referate referatov referatu
+74	9674	rodoviten	rodovitna rodovitnih rodovitno
+75	9675	rušilec	rušilcev rušilci
+76	9676	optimizacija	optimizacijo
+77	9677	bandit	bandita bandite banditi banditom banditov banditu
+78	9678	mentorica	mentorico
+79	9679	obračanje	obračanja obračanjem
+80	9680	preselitev	preselitve preselitvi
+81	9681	hmelj	hmelja
+82	9682	nordijski	nordijskih
+83	9683	polagati	polagajo polagal polagala polagali polagam polagamo
+84	9684	vohunka	vohunke vohunki vohunko
+85	9685	iznajdljiv	iznajdljive iznajdljivi
+86	9686	nitrat	nitrati nitratov
+87	9687	čebelarstvo	čebelarstva čebelarstvu
+88	9688	varstven	varstveni varstveno
+89	9689	pomrl	pomrla pomrle pomrli pomrlo
+90	9690	drveti	drvela drvi
+91	9691	zaustavitev	zaustavitve
+92	9692	sulica	sulice
+93	9693	golobica	golobic golobice golobici golobico
+94	9694	ubrati	uberem ubral ubrala ubrali
+95	9695	šokirati	šokira šokiral šokirala šokirali
+96	9696	ožilje	ožilja
+97	9697	bife	bifeja
+98	9698	konkurent	konkurenta konkurenti konkurentov
+99	9699	spletka	spletkah spletke
+100	9700	prebroditi	prebrodil

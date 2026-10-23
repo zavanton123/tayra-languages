@@ -1,0 +1,100 @@
+1	4201	java	javi javo
+2	4202	portret	portreta portrete portreti portretih portretom portretov portretu
+3	4203	energetski	energetska energetske energetskih energetsko
+4	4204	pozabljen	pozabljena pozabljene pozabljenem pozabljeni pozabljenih pozabljeno
+5	4205	mikrofon	mikrofona mikrofone mikrofoni mikrofonom mikrofonu
+6	4206	motenje	motenj
+7	4207	opazovalec	opazovalca opazovalcem opazovalcev opazovalci opazovalcu
+8	4208	krivica	krivic krivice krivici krivico
+9	4209	usmiljenje	usmiljenja usmiljenju
+10	4210	financiranje	financiranja financiranjem financiranju
+11	4211	speč	specimo spekel spekla spekle spekli speče spečega spečemo speči spečih
+12	4212	nabor	nabora naborom naboru
+13	4213	hrošč	hrošča hrošče hroščem hroščev hrošči hroščih hrošču
+14	4214	tajnica	tajnici tajnico
+15	4215	določanje	določanja določanju
+16	4216	zanka	zank zankah zankami zanke zanki zanko
+17	4217	sožalje	sožalja
+18	4218	spreten	najspretnejši spretna spretnejši spretni spretnih spretnim spretno
+19	4219	izstreliti	izstreli izstrelil izstrelila izstrelili izstrelimo
+20	4220	miroven	mirovna mirovne mirovnega mirovnem mirovni mirovnih mirovnim mirovnimi mirovno
+21	4221	kemikalija	kemikalij kemikalijah kemikalijami kemikalije kemikalijo
+22	4222	čuditi	čudi čudijo čudil čudila čudili čudim čudimo
+23	4223	presojati	presoja presojajo presojal presojali presojamo presoje presoji presojo
+24	4224	koledž	kolidž kolidža kolidže
+25	4225	sklenjen	sklenjena sklenjene sklenjeni sklenjenih sklenjeno
+26	4226	diplomirati	diplomiral
+27	4227	preiskati	preiskal preiskali
+28	4228	ospredje	ospredju
+29	4229	žogica	žogic žogicah žogice žogici žogico
+30	4230	upokojiti	upokoji upokojijo upokojil upokojila upokojili
+31	4231	nenaden	nenadna nenadne nenadnem nenadni nenadnih nenadnim nenadnimi nenadno
+32	4232	tedanji	tedanja tedanje tedanjega tedanjih
+33	4233	krč	krča krče krčem krčev krči krčih krču
+34	4234	jebemti	bemti jebemtiš
+35	4235	vozel	vozla vozle vozli vozlih vozlom vozlov vozlu
+36	4236	izkušen	izkušena izkušene izkušenega izkušeni izkušenih izkušenim izkušeno
+37	4237	povezanost	povezanosti povezanostjo
+38	4238	balon	baloni balonov
+39	4239	kladivo	kladiv kladiva kladivi kladivom kladivu
+40	4240	služabnik	služabniki služabnikov
+41	4241	prikolica	prikolic prikolice prikolici prikolico
+42	4242	zgubiti	zgube zgubi zgubijo zgubil zgubila zgubile zgubili
+43	4243	strok	stroka stroke stroki stroko strokov stroku
+44	4244	verz	verza verze verzi verzih verzov verzu
+45	4245	vzor	vzoru
+46	4246	italijansko	
+47	4247	nepremičnina	nepremičnin nepremičninah nepremičninami nepremičnine nepremičnini nepremičnino
+48	4248	zatočišče	zatočišča zatočišču
+49	4249	riž	riža rižem rižu
+50	4250	leteč	leteče leteči
+51	4251	izkoriščanje	izkoriščanja izkoriščanjem izkoriščanju
+52	4252	škrat	škrata škrate škrati škratom škratov
+53	4253	pregnati	pregnal pregnale pregnali pregnalo preženimo
+54	4254	izboljšava	izboljšav izboljšavami izboljšave izboljšavi izboljšavo
+55	4255	nevtralen	nevtralna nevtralne nevtralnega nevtralni nevtralnih nevtralno
+56	4256	delavski	delavska delavske delavskega delavskem
+57	4257	odbit	odbije odbil odbila odbilo odbite odbitega odbiti
+58	4258	spopasti	spopadel spopadete spopadla spopadli spopadlo
+59	4259	izkopati	izkopal izkopala izkopali izkopljite
+60	4260	blagajna	blagajn blagajnah blagajne blagajni blagajno
+61	4261	spoznavati	spoznava spoznavajo spoznaval spoznavala spoznavali spoznavam spoznavamo spoznavat spoznavata spoznavaš
+62	4262	pastir	pastirja pastirje pastirjem pastirjev pastirji pastirju
+63	4263	odpotovati	odpotoval odpotovala odpotovali odpotuje odpotujete
+64	4264	zadnjica	zadnjic zadnjicah zadnjicami zadnjice zadnjici zadnjico
+65	4265	hiteti	hitel hiteli hiti hitijo
+66	4266	posrednik	posrednika posrednike posredniki posrednikom posrednikov
+67	4267	tržnica	tržnicah tržnice tržnici tržnico
+68	4268	joga	joge jogi jogo
+69	4269	razburljiv	razburljiva razburljive razburljivega razburljivem razburljivi razburljivih razburljivo
+70	4270	razjeziti	razjezi razjezijo razjezil
+71	4271	slovaški	slovaške slovaškega slovaškem slovaških
+72	4272	omejevati	omejevala omejevale omejuje omejujejo
+73	4273	stopnišče	stopnišč stopnišča stopniščem stopniščih stopnišču
+74	4274	podnebje	podnebja podnebjem podnebju
+75	4275	ljubitelj	ljubitelja ljubitelje ljubiteljem ljubiteljev ljubitelji ljubitelju
+76	4276	soočati	sooča soočajo soočala soočali soočam soočamo
+77	4277	študentka	študentk študentkah študentkami študentke študentki študentko
+78	4278	prigrizek	prigrizke prigrizki prigrizkov
+79	4279	stikalo	stikal stikala stikalom stikalu
+80	4280	navajen	navajena navajeni
+81	4281	obrt	obrti obrtjo
+82	4282	gobec	gobcu
+83	4283	univerzalen	univerzalna univerzalne univerzalnega univerzalni univerzalnih univerzalno
+84	4284	besen	besna
+85	4285	dramski	dramska dramske dramskega dramskih dramsko
+86	4286	končnica	končnic končnice končnici končnico
+87	4287	zaslužen	zaslužene zasluženega zasluženem zasluženi zasluženih zasluženo zaslužna zaslužni
+88	4288	shema	sheme shemi shemo
+89	4289	polniti	polnijo polnil polnila polnim polnite
+90	4290	naklonjen	naklonjena naklonjene naklonjeni naklonjenih naklonjeno
+91	4291	diagnoza	diagnozi diagnozo
+92	4292	dodeliti	dodeli dodelijo dodelil dodelila dodelili
+93	4293	koruza	koruze koruzi koruzo
+94	4294	cenjen	cenjena cenjene cenjeni cenjeno
+95	4295	spoštovan	spoštovana spoštovane spoštovani spoštovano
+96	4296	pokol	pokola pokole pokoli pokolih pokolom pokolov pokolu
+97	4297	džungla	džunglah džungle džungli džunglo
+98	4298	natakar	natakarja natakarje natakarjem natakarjev natakarji natakarju
+99	4299	popeljati	popeljal popeljala popeljale popeljali popeljalo popelje popelji
+100	4300	biser	bisera bisere biseri biserih biserom biserov biseru

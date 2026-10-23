@@ -1,0 +1,100 @@
+1	4101	barka	barkah barkami barke barki barko
+2	4102	dosežen	dosežena doseženih doseženo
+3	4103	kapela	kapel kapele kapeli kapelo
+4	4104	kraljevski	kraljevska kraljevske kraljevskega kraljevsko
+5	4105	poprava	popravi popravo
+6	4106	malček	malčka malčke malčki malčkom malčkov malčku
+7	4107	rezerva	rezerv rezervah rezervami rezerve rezervi rezervo
+8	4108	zapuščina	zapuščine zapuščino
+9	4109	prisilen	prisilna prisilne prisilnega prisilni prisilnih prisilnim prisilno
+10	4110	oporoka	oporok oporoke oporoki oporoko
+11	4111	pogrešan	pogrešane pogrešanega pogrešanih
+12	4112	živilo	živil živila živili živilih
+13	4113	tržaški	tržaška tržaške tržaškega tržaških tržaško
+14	4114	sistematičen	sistematičnega sistematični sistematičnim sistematično
+15	4115	finski	finske finskega finskem finskih
+16	4116	obupen	obupna obupnega obupnem obupno
+17	4117	spravljati	spravlja spravljajo spravljal spravljale spravljali spravljamo
+18	4118	status	statusa statusom statusu
+19	4119	neuspeh	neuspeha neuspehe neuspehi neuspehih neuspehom neuspehov neuspehu
+20	4120	pridobivati	pridobivajo pridobival pridobivala pridobivali pridobivamo
+21	4121	priključiti	priključi priključijo priključil priključila priključili priključimo priključite
+22	4122	prekletstvo	prekletstev prekletstva prekletstvom prekletstvu
+23	4123	dvoj	dvoje dvojega dvoji dvojih
+24	4124	objeti	objame objamejo objamem objamemo objameta objamete objameva objameš objel objela objemimo objemita objemite objemiva objet objeta
+25	4125	registriran	registrirana registrirane registrirani registriranih registriranimi registrirano
+26	4126	seksualen	seksualna seksualne seksualnega seksualnem seksualnemu seksualni seksualnih seksualnim seksualnimi seksualno
+27	4127	začetnik	začetnike začetniki začetnikom začetnikov
+28	4128	identificirati	identificira identificirajo identificiral identificiramo
+29	4129	krščanstvo	krščanstva krščanstvom krščanstvu
+30	4130	grafika	grafik grafike grafiki grafiko
+31	4131	zavora	zavor zavorah zavore zavori zavoro
+32	4132	genetski	genetska genetske genetskega genetsko
+33	4133	tabla	tablah tablami tabli tablo
+34	4134	močvirje	močvirij močvirja močvirjem močvirjih močvirju
+35	4135	škotski	škotske škotskega škotskem škotskih škotskim škotsko
+36	4136	nemočen	nemočna nemočne nemočnega nemočni nemočnim nemočno
+37	4137	poučevanje	poučevanja poučevanju
+38	4138	izjaviti	izjavil izjavila izjavili izjavilo
+39	4139	ducat	ducata ducate ducati ducatih ducatom ducatov ducatu
+40	4140	subjekt	subjekta subjekte subjekti subjektih subjektom subjektov subjektu
+41	4141	častiti	častijo častili častimo
+42	4142	stisniti	stisne stisnem stisnil stisnila stisnili stisnilo stisnite
+43	4143	nastajanje	nastajanja nastajanjem nastajanju
+44	4144	zgodbica	zgodbic zgodbicam zgodbicami zgodbice zgodbici zgodbico
+45	4145	udeležba	udeležbe udeležbi udeležbo
+46	4146	nagrajen	nagrajena nagrajene nagrajenega nagrajeni
+47	4147	zrušiti	zruši zrušijo zrušil zrušila zrušile zrušili zrušilo
+48	4148	nesmiseln	nesmiselna nesmiselne nesmiselnega nesmiselnem nesmiselni nesmiselnih nesmiselno
+49	4149	premikanje	premikanja premikanju
+50	4150	boben	bobne bobni bobnih bobnom bobnov bobnu
+51	4151	zavračati	zavrača zavračajo zavračal zavračala zavračali zavračalo zavračam
+52	4152	raziskati	raziskal razišče raziščejo raziščite
+53	4153	nauk	nauka nauki naukov nauku
+54	4154	neuspešen	neuspešna neuspešnega neuspešnem neuspešnih neuspešno
+55	4155	fotografirati	fotografira fotografirajo fotografirajte fotografiral fotografirala fotografirali fotografiramo
+56	4156	levica	levice levici levico
+57	4157	osel	osla osle osli oslih oslom oslu
+58	4158	premer	premera premerom premeru
+59	4159	plinski	plinska plinske plinskega plinskem plinskih plinsko
+60	4160	upokojitev	upokojitve upokojitvi
+61	4161	taktika	taktik taktike taktiki taktiko
+62	4162	obalen	obalna obalne obalnega obalni obalnih
+63	4163	masaža	masaž masažami masaže masažo
+64	4164	potniški	potniška potniškega potniškem potniških potniško
+65	4165	blagoslov	blagoslovom blagoslovu
+66	4166	poizkusiti	poizkusi poizkusil poizkusili poizkusite
+67	4167	hudoben	hudobna hudobne hudobnega hudobnemu hudobni hudobnih hudobnim hudobnimi hudobno
+68	4168	mornar	mornarja mornarjem mornarjev mornarjevo mornarji
+69	4169	namera	namer namerah nameram namerami namere nameri namero
+70	4170	drobiž	drobiža drobižem drobižu
+71	4171	trojica	trojice trojici trojico
+72	4172	zdraviti	zdravijo zdravimo zdravite
+73	4173	dotik	dotiki dotikom dotiku
+74	4174	volek	volkov volkova volkove volkovi volkovih volku
+75	4175	antibiotik	antibiotike antibiotiki antibiotikov
+76	4176	ugovor	ugovora ugovore ugovorom ugovorov
+77	4177	menjati	menja menjaj menjajmo menjajo menjajte menjajva menjala menjale menjali menjam menjamo menjat
+78	4178	vdor	vdora vdori vdorom vdoru
+79	4179	oddajnik	oddajnika oddajnike oddajniki oddajnikom oddajnikov oddajniku
+80	4180	mesečen	mesečna mesečne mesečnem mesečni mesečnih mesečnim mesečno
+81	4181	znižati	zniža znižal znižala znižale znižali znižalo
+82	4182	spremstvo	spremstvom spremstvu
+83	4183	bor	bora bori borih boru
+84	4184	razpasti	razpade razpadejo razpadel razpadla razpadle razpadlih razpadlo
+85	4185	osamosvojitev	osamosvojitve osamosvojitvi osamosvojitvijo
+86	4186	fasada	fasade fasado
+87	4187	dvor	dvora dvoru
+88	4188	dvanajsti	dvanajsta dvanajste dvanajstega dvanajstem dvanajstih dvanajstim dvanajstimi dvanajsto
+89	4189	podeljevati	podeljevali podeljuje podeljujejo
+90	4190	plesalka	plesalk plesalkami plesalke plesalki plesalko
+91	4191	pripisati	pripisal pripisala pripisali pripiše pripišejo pripišemo pripišete pripišite
+92	4192	kontrolen	kontrolna kontrolne kontrolnega kontrolnem kontrolni kontrolnih kontrolno
+93	4193	seštevek	seštevku
+94	4194	matematičen	matematična matematične matematičnega matematičnem matematični matematičnih matematičnim matematičnimi matematično
+95	4195	izplačati	izplača izplačajo izplačal izplačala izplačali izplačalo
+96	4196	partizan	partizana partizane partizani partizanih partizanom partizanov
+97	4197	sedanjost	sedanjosti
+98	4198	zadostovati	zadostoval zadostovala zadostovale zadostovali zadostovalo zadostuje zadostujejo zadostujeta
+99	4199	povezovanje	povezovanja povezovanjem povezovanju
+100	4200	edinstven	edinstveno

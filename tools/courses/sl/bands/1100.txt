@@ -1,0 +1,100 @@
+1	1001	nevarnost	nevarnosti nevarnostih nevarnostjo nevarnostmi
+2	1002	zdravje	zdravja zdravjem zdravju
+3	1003	varnost	varnosti varnostih varnostjo
+4	1004	zbuditi	zbudi zbudijo zbudil zbudila zbudili zbudilo zbudim zbudite
+5	1005	okvir	okvira okvire okviri okvirih okvirja okvirje okvirjem okvirjev okvirji okvirjih okvirju okvirov okviru
+6	1006	zgodovinski	zgodovinska zgodovinske zgodovinskega zgodovinskem zgodovinskemu zgodovinskih zgodovinskim zgodovinskimi zgodovinsko
+7	1007	fotografija	fotografij fotografijah fotografijam fotografijami fotografije fotografiji fotografijo
+8	1008	dirka	dirk dirkah dirkami dirke dirki dirko
+9	1009	dolina	dolin dolinah doline dolini dolino
+10	1010	koža	kož kožah kožami kože koži kožo
+11	1011	skriti	skrij skrije skrijejo skrijem skrijemo skrijeta skrijete skrijeva skriješ skrijmo skrijta skrijte skrijva skril skrila skrile skrili skrilo skrit skrita skritje
+12	1012	ponuditi	ponudi ponudijo ponudil ponudila ponudili ponudilo ponudim ponudimo ponudita ponudite ponudiš
+13	1013	življenjski	življenjska življenjske življenjskega življenjskem življenjskih življenjskim življenjskimi življenjsko
+14	1014	električen	električna električne električnega električni električnih električnim električno
+15	1015	omeniti	omeni omenil omenila omenili omenilo omenim omenimo omenite
+16	1016	predstaviti	predstavijo predstavil predstavila predstavile predstavili predstavilo predstavim predstavimo predstavit predstavita
+17	1017	temeljit	temelji temeljijo temeljil temeljila temeljile temeljili temeljilo temeljita temeljite temeljitega temeljiteje temeljitem temeljiti temeljito
+18	1018	pogrešati	pogreša pogrešajo pogrešal pogrešala pogrešali pogrešam pogrešamo pogrešava
+19	1019	ukrasti	ukrade ukradejo ukradel ukradem ukrademo ukradeta ukradete ukradeva ukradeš ukradi ukradimo ukradite ukradiva ukradla ukradle ukradli ukradlo ukrast
+20	1020	posnet	posname posnamejo posnamemo posnamete posnameš posnel posnela posnele posneli posnelo posnemite posneta posnete posnetega posneti posnetih posneto
+21	1021	kos	kosa kose kosi kosih koso kosom kosoma kosov kosu
+22	1022	klasičen	klasična klasične klasičnega klasičnem klasičnemu klasični klasičnih klasičnim klasičnimi klasično
+23	1023	nacionalen	nacionalna nacionalne nacionalnega nacionalnem nacionalnemu nacionalni nacionalnih nacionalnim nacionalnimi nacionalno
+24	1024	opravljati	opravlja opravljajo opravljal opravljala opravljale opravljali opravljalo opravljam opravljamo opravljat opravljata opravljate
+25	1025	december	decembra decembrom decembru
+26	1026	prst	prsta prste prsti prstih prstjo prstom prstoma prstov prstu
+27	1027	šteti	štej šteje štejejo štejem štejemo štejeta štejete štejeva šteješ štejmo štejta štejte štejva štel štela štele šteli štelo štet štete
+28	1028	kadar	
+29	1029	pregled	pregleda preglede pregledih pregledom pregledov pregledu
+30	1030	vrt	vrta vrtom vrtov vrtove vrtovi vrtovih vrtu
+31	1031	tehničen	tehnična tehnične tehničnega tehničnem tehnični tehničnih tehničnim tehničnimi tehnično
+32	1032	ustava	ustav ustave ustavi ustavo
+33	1033	odvetnik	odvetnika odvetnike odvetniki odvetnikom odvetnikoma odvetnikov odvetnikova odvetnikovega odvetnikovo
+34	1034	lastnik	lastnika lastnike lastniki lastnikom lastnikov lastniku
+35	1035	revija	revij revijah revijam revijami revije reviji revijo
+36	1036	predlagati	predlaga predlagaj predlagajo predlagajte predlagal predlagala predlagali predlagalo predlagam predlagamo predlagat predlagata predlagate predlagava predlagaš
+37	1037	utihniti	utihnejo utihni utihnil utihnila utihnile utihnili utihnite
+38	1038	sestanek	sestanka sestanki sestankih sestankom sestankov sestanku
+39	1039	imenovan	imenovana imenovane imenovanega imenovanem imenovanemu imenovani imenovanih imenovanim imenovanimi imenovano
+40	1040	trd	najtrši pretrd trda trde trdega trdem trdemu trdi trdih trdimi trdo trše trši tršo
+41	1041	poveljnik	poveljnika poveljnike poveljniki poveljnikom poveljnikov poveljnikova poveljnikove poveljnikovi poveljnikovo poveljniku
+42	1042	ruski	ruska ruske ruskega ruskem ruskemu ruskih ruskim ruskimi
+43	1043	izguba	izgub izgubah izgubami izgube izgubi izgubo
+44	1044	sodnik	sodnika sodnike sodniki sodnikih sodnikom sodnikoma sodnikov sodnikova sodnikovega sodnikovo sodniku
+45	1045	boleti	bolela bolelo boli bolijo bolita
+46	1046	dama	damah damam damama damami dame dami
+47	1047	premagati	premaga premagal premagala premagale premagali premagamo premagata premagate
+48	1048	večkrat	prevečkrat
+49	1049	svoboda	svobode svobodi svobodo
+50	1050	jezen	jezna jezne jeznega jeznem jeznemu jezni jeznih jeznim jeznimi jezno
+51	1051	vsebina	vsebin vsebinah vsebinami vsebine vsebini vsebino
+52	1052	šport	športa športe športi športih športom športov športu
+53	1053	november	novembra novembrom novembru
+54	1054	časopis	časopisa časopise časopisi časopisih časopisom časopisov časopisu
+55	1055	podoba	podob podobah podobami podobe podobi podobo
+56	1056	truditi	trudi trudijo trudil trudila trudile trudili trudim trudimo trudite trudiš
+57	1057	grad	grada gradom gradov gradove gradovi gradovih gradu
+58	1058	zid	sid zida zide zidi zidom zidov zidove zidovi zidovih zidovom zidu
+59	1059	kosilo	kosil kosila kosili kosilih kosilom kosilu
+60	1060	direktor	direktorja direktorjem direktorjev direktorjeva direktorjeve direktorjevega direktorjevi direktorjevo direktorji direktorju
+61	1061	most	mosta moste mostom mostov mostove mostovi mostovih mostu
+62	1062	ocena	ocen ocenah ocenami ocene oceni oceno
+63	1063	stric	strica strice stricem stricev strici stricu
+64	1064	popraviti	popravijo popravil popravila popravili popravilih popravilo popravimo popravita popravite
+65	1065	dovoljenje	dovoljenj dovoljenja dovoljenjem dovoljenji dovoljenjih dovoljenju
+66	1066	tehnologija	tehnologij tehnologijah tehnologijam tehnologijami tehnologije tehnologiji tehnologijo
+67	1067	opozoriti	opozori opozorijo opozoril opozorila opozorile opozorili opozorilo opozorilom opozorilu opozorim opozorimo
+68	1068	služiti	služi služijo služil služila služile služili služilo služit
+69	1069	različica	različic različicah različice različici različico
+70	1070	frank	frankov
+71	1071	rok	rokom rokov roku
+72	1072	riba	rib ribah ribam ribami ribe ribo
+73	1073	spodaj	
+74	1074	povzročati	povzroča povzročajo povzročal povzročala povzročali povzročalo povzročamo povzročata
+75	1075	znanstven	znanstvena znanstvene znanstvenega znanstvenem znanstvenemu znanstveni znanstvenih znanstvenim znanstvenimi znanstveno
+76	1076	angel	angela angele angeli angelih angelom angelov angelu ángel ángela
+77	1077	tom	toma tomi tomom tomov tomu
+78	1078	ležati	ležal ležala ležale ležali ležalo ležat leži ležijo ležim ležimo ležita ležite leživa ležiš
+79	1079	opazovati	opazoval opazovala opazovale opazovali opazovalo opazovat opazuj opazuje opazujejo opazujem opazujemo opazujeta opazujete opazujeva opazuješ opazujmo opazujta opazujte opazujva
+80	1080	vino	vin vina vini vinih vinom vinu
+81	1081	sovražnik	sovražnica sovražnika sovražnike sovražniki sovražnikih sovražnikom sovražnikov sovražnikove sovražniku
+82	1082	marec	marca marce marcem marcu
+83	1083	združen	združena združene združenega združenem združeni združenih združenim združenimi združeno
+84	1084	samostojen	samostojna samostojne samostojnega samostojni samostojnih samostojnim samostojnimi samostojno
+85	1085	stena	sten stenah stenam stenami stene steni steno
+86	1086	zahoden	zahodna zahodne zahodnega zahodnem zahodnemu zahodni zahodnih zahodnim zahodnimi zahodno
+87	1087	odgovoriti	odgovori odgovorijo odgovoril odgovorila odgovorile odgovorili odgovorilo odgovorim odgovorimo odgovorit odgovorita odgovorite odgovoriva odgovoriš
+88	1088	situacija	situacij situacijah situacijam situacije situaciji situacijo
+89	1089	izraz	izraza izraze izrazi izrazih izrazom izrazov izrazu
+90	1090	nekakšen	nekakšna nekakšne nekakšnega nekakšnem nekakšnemu nekakšni nekakšnih nekakšnimi nekakšno
+91	1091	stroj	stroja stroje strojem strojev stroji strojih stroju
+92	1092	južen	južna južne južnega južnem južnemu južni južnih južnim južnimi južno najjužnejši
+93	1093	temveč	
+94	1094	študent	študenta študente študenti študentih študentje študentom študentoma študentov študentu
+95	1095	preiskava	preiskav preiskavah preiskave preiskavi preiskavo
+96	1096	zaseben	zasebna zasebne zasebnega zasebnem zasebnemu zasebni zasebnih zasebnim zasebnimi zasebno
+97	1097	ples	plesa plese plesi plesih plesom plesov plesu
+98	1098	sir	sira sire siri sirom sirov sirovih sirovim sirovo siru
+99	1099	vzrok	vzroka vzroke vzroki vzrokih vzrokov vzroku
+100	1100	odgovoren	odgovorna odgovorne odgovornega odgovorni odgovornih odgovornim odgovornimi odgovorno

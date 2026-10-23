@@ -1,0 +1,100 @@
+1	9101	puder	pudra
+2	9102	dvoživka	dvoživk dvoživke dvoživko
+3	9103	končanje	končanju
+4	9104	poslovodja	poslovodje poslovodji
+5	9105	sinhronizacija	sinhronizacijo
+6	9106	pesnitev	pesnitve
+7	9107	čaščenje	čaščenju
+8	9108	imitacija	imitacije imitaciji imitacijo
+9	9109	nevljuden	nevljudna
+10	9110	strnjen	strnjena strnjene strnjeni strnjenih
+11	9111	mazilo	mazil mazilom
+12	9112	gad	gada gadi
+13	9113	uravnotežen	uravnotežena uravnotežene uravnoteženi uravnoteženo
+14	9114	vnema	vneme vnemi vnemo
+15	9115	upodobiti	upodobil upodobila
+16	9116	evolucijski	evolucijska evolucijske evolucijskega evolucijsko
+17	9117	pihalen	pihalni
+18	9118	obojestranski	obojestranske obojestransko
+19	9119	tabu	tabujev
+20	9120	apnenec	apnenca
+21	9121	nuja	nujo
+22	9122	opozorjen	opozorjena opozorjeni
+23	9123	nestrpnost	nestrpnosti nestrpnostjo
+24	9124	verižen	verižne verižnega verižni verižno
+25	9125	dvigovanje	dvigovanjem
+26	9126	preživljanje	preživljanja
+27	9127	teološki	teološke teoloških
+28	9128	ukinjen	ukinjena ukinjene ukinjeno
+29	9129	skalpel	skalpela skalpele skalpeli skalpelom
+30	9130	bosti	bodel boden bodena bodla bole
+31	9131	ublažiti	ublaži ublažijo ublažil ublažila ublažile ublažili ublažimo
+32	9132	popoldanski	popoldanska popoldanskega popoldanskem popoldanskih popoldansko
+33	9133	jabolčni	
+34	9134	pogubljen	pogubljena pogubljene pogubljenega pogubljeni pogubljenih pogubljeno
+35	9135	posmrten	posmrtna posmrtne posmrtni
+36	9136	varčevanje	varčevanja varčevanjem varčevanju
+37	9137	oliven	olivne olivnega olivnem olivnim olivno
+38	9138	trema	treme tremo
+39	9139	odpočiti	odpočila
+40	9140	opel	opla
+41	9141	studenec	studencu
+42	9142	vzgojitelj	vzgojitelja vzgojitelji
+43	9143	zajetje	zajetja zajetju
+44	9144	astronom	astronomi
+45	9145	oznanilo	oznanila
+46	9146	radikal	radikale radikalov
+47	9147	briljanten	briljantni
+48	9148	vzpostavljati	vzpostavlja vzpostavljajo
+49	9149	sorodnica	sorodnice
+50	9150	sostanovalec	sostanovalca sostanovalcev sostanovalci
+51	9151	levkemija	levkemijo
+52	9152	voh	voha vohom
+53	9153	svojevrsten	svojevrstna svojevrstno
+54	9154	škofjeloški	škofjeloškega
+55	9155	sečila	sečil
+56	9156	prebrisan	prebrisani
+57	9157	satan	satana satanom satanov satanu
+58	9158	čebelarski	čebelarsko
+59	9159	razpršiti	razprši razpršijo razpršila razpršili razpršilo
+60	9160	dvignjen	dvignjena dvignjenim
+61	9161	nasilnež	nasilneži
+62	9162	gorčica	gorčice gorčici gorčico
+63	9163	šimpanz	šimpanza šimpanze šimpanzi šimpanzih šimpanzom šimpanzov šimpanzu
+64	9164	protestantski	protestantska protestantske protestantskih
+65	9165	usekati	useka usekaj usekal usekala usekali usekalo usekam usekan usekana usekane usekani usekano
+66	9166	potapljati	potaplja potapljajo potapljal potapljali potapljamo
+67	9167	procesija	procesije procesijo
+68	9168	levji	levja levjega levjim
+69	9169	odbojka	odbojke odbojki odbojko
+70	9170	oktet	okteta
+71	9171	dokopati	dokopal dokopala dokopali dokopljemo
+72	9172	grabiti	grabi grabijo grabil grabila grabili grabim grabite grabiš
+73	9173	hinavec	hinavca hinavce hinavcem hinavcev hinavci
+74	9174	namočiti	namoči namočil namočilo namočim namočimo namočit namočite
+75	9175	pohorski	pohorske pohorskega
+76	9176	neoviran	neovirano
+77	9177	terapevtka	terapevtke
+78	9178	pozirati	pozira poziral pozirala
+79	9179	razrešitev	razrešitve razrešitvi razrešitvijo
+80	9180	vljudnost	vljudnosti vljudnostjo
+81	9181	vbod	vboda vbodom vbodov
+82	9182	poetičen	poetična poetične poetični poetično
+83	9183	izročitev	izročitve izročitvi
+84	9184	cimet	cimeta cimetom cimetu
+85	9185	patološki	patološka patološke patološkega patoloških patološko
+86	9186	obsojenec	obsojencev obsojenci
+87	9187	preusmeritev	preusmeritve
+88	9188	simbolika	simbolike
+89	9189	strašanski	strašansko
+90	9190	štartati	štartal štartala štartali štartamo
+91	9191	drkati	drka drkaj drkajo drkala drkali drkam drkamo drkat drkaš
+92	9192	zatrjevati	zatrjeval zatrjevala zatrjevali zatrjuje zatrjujejo
+93	9193	posodobljen	posodobljeni posodobljeno
+94	9194	vojvodina	vojvodine vojvodini
+95	9195	tapeta	tapet tapete tapeti
+96	9196	prepričevanje	prepričevanja prepričevanjem prepričevanju
+97	9197	korenit	korenite korenito
+98	9198	poveljevanje	poveljevanja poveljevanjem poveljevanju
+99	9199	izseljenec	izseljencev izseljenci
+100	9200	oproščati	oproščam

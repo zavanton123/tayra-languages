@@ -1,0 +1,100 @@
+1	7001	podleči	podlegel podlegla podlegle podlegli podleglo podleže podležejo
+2	7002	zavedanje	zavedanja zavedanju
+3	7003	medme	mednje mednju
+4	7004	pokrivalo	pokrivala
+5	7005	kolegica	kolegic kolegicami kolegice kolegico
+6	7006	bolha	bolh bolham bolhami bolhe bolhi bolho
+7	7007	vitek	vitka vitke vitkega vitkimi vitko
+8	7008	nesoglasje	nesoglasij nesoglasja
+9	7009	omogočen	omogočena omogočeno
+10	7010	animacija	animacije animacijo
+11	7011	amandma	amandmaja amandmaju
+12	7012	trobenta	trobent trobentami trobente trobenti trobento
+13	7013	odlikovanje	odlikovanj
+14	7014	robček	robčke robčki
+15	7015	prepoznavati	prepoznava prepoznavajo prepoznave prepoznavi prepoznavo
+16	7016	testenina	testenine
+17	7017	bober	bobra bobre bobri bobrom bobrov bobru
+18	7018	hrbten	hrbtna hrbtni
+19	7019	zahtevek	zahtevka zahtevke zahtevki zahtevkih zahtevkom zahtevkov zahtevku
+20	7020	spomladanski	spomladanska spomladanske spomladanskega spomladanskem spomladanskih spomladansko
+21	7021	uvajati	uvaja uvajajo uvajali uvajamo
+22	7022	domina	domin domine domino
+23	7023	prozoren	prozorna prozorne prozorni prozornih prozorno
+24	7024	pesticid	pesticidi pesticidov
+25	7025	kaznovanje	kaznovanja kaznovanjem kaznovanju
+26	7026	fosilen	fosilna fosilne fosilnega fosilni fosilnih fosilnimi
+27	7027	vladanje	vladanja vladanjem vladanju
+28	7028	iskalec	iskalcev
+29	7029	sidro	sidra sidrom
+30	7030	pretvorba	pretvorbe pretvorbi pretvorbo
+31	7031	spremenljivka	spremenljivk spremenljivke spremenljivko
+32	7032	duhovnost	duhovnosti duhovnostjo
+33	7033	rjavec	erjavec
+34	7034	utopiti	utopil
+35	7035	pokloniti	poklonil poklonila poklonili
+36	7036	katolik	katolika katolike katoliki katolikov
+37	7037	zasliševanje	zasliševanja zasliševanjem zasliševanju
+38	7038	oslabljen	oslabljena oslabljene oslabljeni oslabljeno
+39	7039	odzivati	odziva odzivajo odzivala odzivali odzivam odzivaš
+40	7040	medvedek	medvedke medvedkov medvedku
+41	7041	kuharski	kuharske kuharskega kuharskih kuharsko
+42	7042	podel	najpodlejši podla podle podlega podlem podli podlih podlim podlo
+43	7043	sodobnost	sodobnosti
+44	7044	cunja	cunj cunjah cunjami cunje cunji cunjo
+45	7045	intelektualec	intelektualce intelektualcev intelektualci
+46	7046	ličilo	ličila ličili
+47	7047	karakteristika	karakteristik karakteristike
+48	7048	šampon	šampona šamponi šamponom
+49	7049	vsadek	vsadka vsadki vsadkom
+50	7050	zaostajati	zaostaja zaostajajo zaostajal zaostajala
+51	7051	transakcija	transakcij transakcijah transakcije transakciji transakcijo
+52	7052	gostujoč	gostujoča gostujoči
+53	7053	nezaslišan	nezaslišanega nezaslišano
+54	7054	teologija	teologije teologiji teologijo
+55	7055	brošura	brošure brošuro
+56	7056	obogateti	obogatel obogatela obogati obogatijo obogatimo
+57	7057	terorizem	terorizmom
+58	7058	paprika	paprik paprike papriko
+59	7059	obveznica	obveznic obveznicami obveznice obveznico
+60	7060	kubanski	kubanska kubanske kubanskimi kubansko
+61	7061	koprski	koprske koprskega koprskem
+62	7062	pečina	pečinah pečinami pečine
+63	7063	verovanje	verovanj verovanja verovanjem verovanju
+64	7064	obiti	obidejo obidemo obšel obšla obšli obšlo
+65	7065	odprtost	odprtosti
+66	7066	ogrinjalo	ogrinjala
+67	7067	podkupiti	podkupil podkupila
+68	7068	gorila	goril gorilah gorilam gorilami gorile gorili gorilo
+69	7069	poljščina	poljščin poljščine poljščini
+70	7070	umiranje	umiranja umiranjem umiranju
+71	7071	podstavek	podstavka podstavke podstavki podstavku
+72	7072	švedsko	
+73	7073	nalagati	nalaga nalagajo nalagal nalagala nalagali nalagamo
+74	7074	epidemija	epidemije
+75	7075	podaljšanje	podaljšanja podaljšanju
+76	7076	konzulat	konzulata konzulatu
+77	7077	poldan	poldne poldneva poldnevom
+78	7078	kačji	kačje
+79	7079	oproščen	oproščeno
+80	7080	specialec	specialce specialcev specialci
+81	7081	delegat	delegati delegatov
+82	7082	napeljava	napeljave napeljavo
+83	7083	vodoraven	vodoravna vodoravne vodoravni vodoravno
+84	7084	premislek	premisleka premislekov premisleku
+85	7085	mahalo	mahal mahala mahali mahalu
+86	7086	polomiti	polomil polomilo
+87	7087	razgradnja	razgradnje razgradnji razgradnjo
+88	7088	severovzhod	severovzhodu
+89	7089	obveza	obvezo
+90	7090	baleten	baletna baletne baletni baletno
+91	7091	hokejist	hokejisti hokejistov
+92	7092	istoimenski	istoimenske istoimenskem
+93	7093	praporščak	praporščaka praporščakom praporščaku
+94	7094	zamrznjen	zamrznjena zamrznjenih zamrznjeno
+95	7095	preurediti	preuredi preuredijo preuredila preuredili preuredimo
+96	7096	komandir	komandirja
+97	7097	kostanj	kostanja kostanje kostanjem kostanjev kostanjeva kostanjevo kostanji
+98	7098	var	
+99	7099	naslikati	naslikal naslikali
+100	7100	zelje	zelja zelju

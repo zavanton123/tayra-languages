@@ -1,0 +1,100 @@
+1	2001	tišina	tišine tišini tišino
+2	2002	začeten	začetna začetne začetnega začetnem začetni začetnih začetnim začetno
+3	2003	odgovarjati	odgovarja odgovarjajo odgovarjal odgovarjala odgovarjale odgovarjali odgovarjam odgovarjamo
+4	2004	izboljšati	izboljša izboljšajo izboljšal izboljšala izboljšale izboljšali izboljšalo izboljšamo izboljšate
+5	2005	razširjen	razširjena razširjene razširjenega razširjeni razširjenih razširjenim razširjenimi razširjeno
+6	2006	kača	kač kačah kačam kačami kače kači kačo
+7	2007	odpoved	odpovedi odpovedjo
+8	2008	rama	ramah rame ramen ramena rameni ramenih ramenu rami ramo
+9	2009	določati	določa določajo določal določali določamo določata
+10	2010	delavnica	delavnic delavnicah delavnice delavnici delavnico
+11	2011	ponavljati	ponavlja ponavljajo ponavljajte ponavljal ponavljala ponavljale ponavljali ponavljalo ponavljam ponavljamo ponavljata ponavljaš
+12	2012	gradivo	gradiv gradiva gradivu
+13	2013	bodisi	
+14	2014	rimski	rimska rimske rimskega rimskem rimskih rimskimi rimsko
+15	2015	presenečen	presenečena presenečenega presenečeni
+16	2016	počitnice	počitnic počitnicah počitnicam počitnicami
+17	2017	nadaljevanje	nadaljevanj nadaljevanja nadaljevanjem nadaljevanjih nadaljevanju
+18	2018	tesen	najtesnejša najtesnejši pretesni tesna tesne tesnega tesneje tesnejša tesnejše tesnejši tesnem tesni tesnih tesnim tesno
+19	2019	peči	peci peciva pekli peklo peč peče pečeh pečejo pečem pečemo pečeta pečete pečeva pečeš pečjo
+20	2020	programski	programska programske programskega programskem programskih programsko
+21	2021	pobit	pobijejo pobil pobila pobile pobili pobita pobiti pobitih
+22	2022	naboj	naboja naboje nabojem nabojev naboji
+23	2023	legenda	legendah legende legendi legendo
+24	2024	tkivo	tkiv tkiva tkivi tkivom tkivu
+25	2025	častnik	častnika častnike častniki častnikom častnikov
+26	2026	tekočina	tekočin tekočinah tekočinami tekočine tekočini tekočino
+27	2027	nosilec	nosilca nosilce nosilcem nosilcev nosilci nosilcih nosilcu
+28	2028	otroštvo	otroštva otroštvom otroštvu
+29	2029	zapisan	zapisana zapisane zapisanega zapisani zapisanih zapisano
+30	2030	trgovec	trgovca trgovce trgovcem trgovcev trgovci trgovcu
+31	2031	hraniti	hrani hranijo hranile hranim hranimo hranit hranita hranite hraniva hraniš
+32	2032	reševanje	reševanja reševanjem reševanju
+33	2033	božičen	božična božične božični božičnih božično
+34	2034	dodatek	dodatka dodatke dodatki dodatkih dodatkom dodatkov dodatku
+35	2035	izvleči	izvleci izvlecite izvlekel izvlekla izvlekli izvleče izvlečem izvlečemo
+36	2036	potruditi	potrudi potrudijo potrudil potrudila potrudile potrudili potrudim potrudite potrudiš
+37	2037	kritičen	kritična kritične kritičnega kritičnem kritični kritičnih kritično
+38	2038	kmetija	kmetij kmetijah kmetije kmetiji kmetijo
+39	2039	izvor	izvora izvore izvori izvoru
+40	2040	elektrika	elektrike elektriko
+41	2041	stil	stila stile stili stilom stilov stilu
+42	2042	železniški	železniška železniške železniškega železniških železniško
+43	2043	pravljica	pravljic pravljicah pravljicam pravljicami pravljice pravljici pravljico
+44	2044	reprezentanca	reprezentanc reprezentance reprezentanci reprezentanco
+45	2045	meč	meča mečema mečev mečih meču
+46	2046	reakcija	reakcij reakcijah reakcije reakciji reakcijo
+47	2047	uiti	uide ušel ušla ušle ušli ušlo
+48	2048	prepričanje	prepričanj prepričanja prepričanjem prepričanji prepričanjih prepričanju
+49	2049	ukazati	ukazal ukazala ukazali ukaže
+50	2050	izvir	izvira izvire izviri izvirih izvirom izvirov izviru
+51	2051	pijan	pijana pijane pijanega pijani pijanih
+52	2052	lažen	lažne lažnega lažnemu lažni lažnih lažnim lažnimi lažno
+53	2053	časten	častna častnega častni častnih častnim častno
+54	2054	planinski	planinska planinske planinskega planinskem planinskih planinsko
+55	2055	založba	založb založbe založbi založbo
+56	2056	računati	računa računaj računajo računajte računal računala računali računam računamo računata računate računaš
+57	2057	tečaj	tečaja tečaje tečajem tečajev tečaji tečajih tečaju
+58	2058	občutiti	občuti občutijo občutil občutila občutile občutili občutim občutimo občutite
+59	2059	usmerjen	usmerjena usmerjene usmerjenega usmerjeni usmerjenih usmerjenim usmerjenimi usmerjeno
+60	2060	milijarda	milijard milijardah milijardam milijardami milijarde milijardi milijardo
+61	2061	očistiti	očisti očistijo očistil očistila očistile očistili očistim očistimo očistite
+62	2062	načelnik	načelnika načelniku
+63	2063	komunikacija	komunikacij komunikacijah komunikacijam komunikacije komunikaciji komunikacijo
+64	2064	izviren	izvirna izvirne izvirnega izvirnem izvirni izvirnih izvirnim izvirno
+65	2065	nadzorovati	nadzoroval nadzorovala nadzorovale nadzorovali nadzorovalo nadzorovat nadzoruj nadzoruje nadzorujejo nadzorujem nadzorujemo nadzorujeta nadzorujete nadzorujeva nadzoruješ nadzorujta nadzorujte
+66	2066	približati	približa približajo približajte približal približala približale približali približalo približam približamo približata približate
+67	2067	maska	maskami maske masko
+68	2068	odstotek	odstotka odstotke odstotki odstotkih odstotkom odstotkov odstotku
+69	2069	poglavje	poglavij poglavja poglavjem poglavji poglavjih poglavju
+70	2070	naziv	nazive nazivi nazivom nazivov nazivu
+71	2071	prinašati	prinaša prinašajo prinašal prinašala prinašale prinašali prinašalo prinašam prinašata prinašate
+72	2072	izid	izida izidi izidom izidov izidu
+73	2073	dokončen	dokončna dokončnega dokončni dokončno
+74	2074	prestrašiti	prestraši prestrašijo prestrašil prestrašila prestrašili prestrašimo
+75	2075	gledalec	gledalca gledalce gledalcem gledalcev gledalci gledalcih gledalcu
+76	2076	domnevati	domneva domnevah domnevajo domneval domnevali domnevam domnevamo domneve domnevi domnevo
+77	2077	voditelj	voditelja voditelje voditeljem voditeljev voditelji voditelju
+78	2078	prizor	prizora prizore prizori prizorih prizorom prizorov prizoru
+79	2079	čustven	čustvena čustvene čustvenega čustvenem čustvenemu čustveni čustvenih čustvenim čustvenimi čustveno
+80	2080	izogniti	izogne izognejo izognemo izogneta izognete izognil izognila izognili izognite
+81	2081	odločati	odloča odločajo odločal odločala odločale odločali odločalo odločamo odločata odločate odločaš
+82	2082	občutljiv	najobčutljivejši občutljiva občutljive občutljivega občutljivejši občutljivem občutljivi občutljivih občutljivim občutljivimi občutljivo
+83	2083	gledališki	gledališka gledališke gledališkega gledališkem gledaliških gledališkim gledališko
+84	2084	temeljen	temeljna temeljne temeljnega temeljnem temeljni temeljnih temeljnim temeljno
+85	2085	zavzet	zavzame zavzamejo zavzel zavzela zavzele zavzeli zavzelo zavzeta zavzeti zavzeto
+86	2086	izjema	izjem izjemami izjeme izjemi izjemo
+87	2087	poljubiti	poljubi poljubijo poljubil poljubila poljubile poljubili poljubilo poljubim poljubimo poljubit poljubita poljubite poljubiva poljubiš
+88	2088	poklicen	poklicna poklicne poklicnega poklicnem poklicni poklicnih poklicnim poklicnimi poklicno
+89	2089	medved	medveda medvede medvedi medvedih medvedom medvedov medvedu
+90	2090	navajati	navaja navajajo navajal navajala navajali navajam navajamo navajata navajate
+91	2091	napolniti	napolni napolnijo napolnil napolnila napolnili napolnimo napolnite
+92	2092	znamka	znamk znamkah znamkami znamke znamki znamko
+93	2093	hip	hipa hipi hipoma hipov hipu
+94	2094	volilen	volilna volilne volilnega volilnem volilni volilnih volilno
+95	2095	lepota	lepot lepotah lepote lepoti lepoto
+96	2096	obiskovati	obiskoval obiskovala obiskovale obiskovali obiskovalo obiskovat obiskuj obiskuje obiskujejo obiskujem obiskujemo obiskujeta obiskujete obiskujeva obiskuješ
+97	2097	lok	loka loke loki loko lokom lokov loku
+98	2098	trak	trakom trakov trakova trakove trakovi traku
+99	2099	vstati	vstal vstala vstali vstane vstanem vstanemo
+100	2100	pizda	pizd pizdam pizde pizdi pizdo

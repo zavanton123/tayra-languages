@@ -1,0 +1,100 @@
+1	6901	kolekcija	kolekcije kolekciji kolekcijo
+2	6902	katastrofalen	katastrofalne katastrofalnem katastrofalni katastrofalno
+3	6903	baročen	baročna baročni baročnih
+4	6904	dobitnik	dobitnikov
+5	6905	ustanoven	ustanovne ustanovnem ustanovni ustanovno
+6	6906	strelen	strelne strelnega strelnem strelni
+7	6907	ploskev	ploskve ploskvi
+8	6908	hrabrost	hrabrosti hrabrostjo
+9	6909	magnet	
+10	6910	spremenljiv	spremenljiva spremenljive spremenljivih spremenljivo
+11	6911	kuščar	kuščarja kuščarje kuščarjem kuščarjev kuščarji kuščarjih kuščarju
+12	6912	tolažiti	tolaži tolažijo tolažil tolažila tolažili tolažilo tolažim tolažite
+13	6913	promovirati	promovira promovirajo promoviral
+14	6914	večnamenski	večnamensko
+15	6915	prelomnica	prelomnice prelomnici prelomnico
+16	6916	realističen	realistična realistično
+17	6917	razvijalec	razvijalcev razvijalci
+18	6918	dosmrten	dosmrtna dosmrtno
+19	6919	smetišče	smetišča smetišču
+20	6920	uravnavati	uravnava uravnavajo uravnavam
+21	6921	prepevati	prepeva prepevajo prepeval prepevala prepevali prepevat
+22	6922	oženiti	oženi oženil
+23	6923	sablja	sabljami sablje sablji sabljo
+24	6924	usmerjanje	usmerjanja usmerjanju
+25	6925	substanca	substanc substanco
+26	6926	dirigent	dirigenta
+27	6927	blebetati	blebeta blebetaj blebetajo blebetal blebetala blebetali blebetalo blebetam blebetata blebetate blebetaš
+28	6928	korpus	korpusa
+29	6929	jogurt	jogurta jogurtom jogurtu
+30	6930	dobava	dobave dobavo
+31	6931	graščina	graščine graščino
+32	6932	ostarel	ostarele ostareli ostarelim ostarelo
+33	6933	učenka	učenke učenko
+34	6934	obiskan	obiskana obiskane obiskanih obiskano
+35	6935	mesar	mesarja mesarje mesarjem mesarji mesarju
+36	6936	inzulin	inzulina
+37	6937	izsiljevati	izsiljeval izsiljevala izsiljuj izsiljuje izsiljujeta
+38	6938	palma	palmah palmami palme palmi palmo
+39	6939	nadškofija	nadškofije nadškofiji nadškofijo
+40	6940	nasmejati	nasmejal nasmejala
+41	6941	razvrščen	razvrščene razvrščeni razvrščeno
+42	6942	arena	areni
+43	6943	sožitje	sožitja sožitju
+44	6944	pretek	preteku
+45	6945	skrinjica	skrinjice skrinjico
+46	6946	posvarilo	posvaril posvarila posvarili
+47	6947	iskrenost	iskrenostjo
+48	6948	pripravnik	pripravnika
+49	6949	porazdelitev	porazdelitvi
+50	6950	vrtinec	vrtince vrtinci vrtincu
+51	6951	ogroženost	ogroženosti
+52	6952	simpozij	simpozija
+53	6953	kalij	kalija kalijem
+54	6954	čopič	čopiča čopiče čopičem čopiči
+55	6955	prašen	prašna prašne prašni prašnih prašno
+56	6956	nitka	nitk nitke nitki nitko
+57	6957	razmislek	razmisleka
+58	6958	nadoknaditi	nadoknadil nadoknadila nadoknadili nadoknadimo
+59	6959	genocid	genocida genocidom genocidu
+60	6960	zavoj	zavoje zavojem zavojih zavoju
+61	6961	dvojčica	dvojčici
+62	6962	blesti	blede bledel bledem bledeš bledi bledlo
+63	6963	usmiliti	usmili usmilila usmilili
+64	6964	abstrakten	abstraktna abstraktne abstraktnega abstraktnem abstraktni abstraktnih
+65	6965	preliv	prelivom prelivu
+66	6966	banana	banane
+67	6967	odvzet	odvzeta odvzetega odvzeto
+68	6968	erekcija	erekcij erekcije erekciji erekcijo
+69	6969	prepisati	prepisal prepiši
+70	6970	zabojnik	zabojnike zabojniki zabojnikih zabojnikov zabojniku
+71	6971	elektrotehnika	elektrotehnike elektrotehniko
+72	6972	kapitalističen	kapitalistična kapitalistične kapitalističnega kapitalistični kapitalistično
+73	6973	letovišče	letovišča
+74	6974	humanitaren	humanitarne humanitarnih humanitarnim humanitarno
+75	6975	pomanjkljiv	pomanjkljiva pomanjkljive pomanjkljivi pomanjkljivo
+76	6976	izrabiti	izrabijo izrabil izrabili
+77	6977	hladnokrven	hladnokrvna hladnokrvne hladnokrvnega hladnokrvni hladnokrvno
+78	6978	pujs	pujsa pujse pujsi pujsom pujsov pujsu
+79	6979	betonski	betonskih betonsko
+80	6980	mošeja	mošej mošeje mošeji mošejo
+81	6981	izničiti	izniči izničil izničila izničili izničilo
+82	6982	reprezentant	reprezentanti reprezentantov
+83	6983	prednosten	prednostna prednostne prednostni prednostnih prednostno
+84	6984	vzbujati	vzbuja vzbujajo vzbujal vzbujala vzbujali vzbujate
+85	6985	prostitucija	prostitucije prostituciji prostitucijo
+86	6986	hrvaščina	hrvaščine hrvaščini hrvaščino
+87	6987	obkrožen	obkrožene
+88	6988	pekarna	pekarni pekarno
+89	6989	kabelski	kabelska kabelske kabelskega
+90	6990	sintetičen	sintetična sintetični sintetičnih
+91	6991	arheolog	arheologi
+92	6992	pravšnji	pravšnja pravšnje pravšnjega
+93	6993	zapornica	zapornic zapornice zapornici zapornico
+94	6994	neusmiljen	neusmiljena neusmiljenem neusmiljeni neusmiljenim
+95	6995	polovičen	polovična polovični polovično
+96	6996	vednost	vednosti vednostjo
+97	6997	vpletenost	vpletenosti
+98	6998	dizajn	dizajna
+99	6999	vzvraten	vzvratnega vzvratnem vzvratni vzvratno
+100	7000	voditeljica	voditeljice voditeljico

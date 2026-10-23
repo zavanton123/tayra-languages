@@ -1,0 +1,100 @@
+1	7601	zbujati	zbuja zbujajo zbujal zbujali
+2	7602	vodik	vodika vodikom
+3	7603	poganjek	poganjke poganjki poganjkov
+4	7604	parcela	parcele parceli parcelo
+5	7605	dražljaj	dražljaje dražljajev
+6	7606	usklajevanje	usklajevanja usklajevanju
+7	7607	silovit	silovita silovitega silovitem siloviti silovitim silovito
+8	7608	podjetništvo	podjetništva
+9	7609	spuščanje	spuščanja spuščanjem
+10	7610	žreb	žrebom žrebu
+11	7611	občutje	občutij občutja občutjih
+12	7612	guba	gub gubah gubami gube gubo
+13	7613	mojstrski	mojstrskega mojstrskih mojstrsko
+14	7614	sporazumevanje	sporazumevanja sporazumevanjem sporazumevanju
+15	7615	motocikel	motocikla motocikli motociklom motociklov motociklu
+16	7616	bratstvo	bratstva
+17	7617	ustaljen	ustaljena ustaljene ustaljenega ustaljeni ustaljenih ustaljeno
+18	7618	brezdomec	brezdomcev brezdomcih
+19	7619	viseč	viseče viseči visečih visečo
+20	7620	stimulacija	stimulacije stimulacijo
+21	7621	pomirjati	pomirja pomirjajo
+22	7622	prašek	praškom praškov
+23	7623	požgati	požgali
+24	7624	odrešenik	odrešenika odrešeniki odrešeniku
+25	7625	plevel	plevela plevelu
+26	7626	metla	metel metlah metlami metle metli metlo
+27	7627	nedoločen	nedoločeno
+28	7628	ravnateljica	ravnateljice ravnateljico
+29	7629	paranoičen	paranoični
+30	7630	traparija	traparij
+31	7631	komoren	komorni komornih komorno
+32	7632	organiziranost	organiziranosti
+33	7633	natura	
+34	7634	foto	
+35	7635	ugajati	ugaja ugajal ugajalo
+36	7636	popevka	popevk popevke popevki
+37	7637	urgenca	urgenco
+38	7638	poplačati	poplača poplačal poplačala
+39	7639	stoječ	stoječa stoječe stoječega stoječi stoječih
+40	7640	metabolizem	metabolizma
+41	7641	potapljanje	potapljanja
+42	7642	tast	tasta tastom tastu
+43	7643	oven	ovna ovne ovni ovnom ovnov
+44	7644	grobišče	grobišč
+45	7645	naraščanje	naraščanja naraščanju
+46	7646	oteževati	oteževalo otežuje otežujejo
+47	7647	nezadosten	nezadostna nezadostne nezadostnega nezadostni nezadostno
+48	7648	moškost	moškosti
+49	7649	konzerva	konzerv konzerve konzervo
+50	7650	uresničevati	uresničevala uresničuje uresničujejo uresničujemo uresničuješ
+51	7651	plavalec	plavalca plavalcev
+52	7652	atelje	ateljeju
+53	7653	lojalnost	lojalnosti lojalnostjo
+54	7654	debeluh	debeluha debeluhe debeluhi debeluhih debeluhom debeluhov debeluhu
+55	7655	vilice	vilic vilicah
+56	7656	izbruhati	izbruha izbruhaj izbruhal izbruhala izbruham
+57	7657	muzikal	muzikala muzikali muzikalov
+58	7658	razstavljati	razstavlja razstavljajo razstavljal razstavljala razstavljali
+59	7659	radioaktiven	radioaktivnega radioaktivni radioaktivnih radioaktivnim
+60	7660	trgati	trga trgaj trgajo trgal trgala trgale trgali trgalo trgam trgamo trgata trgate trgaš
+61	7661	presnet	presneli presneti presnetih presnetim
+62	7662	slutiti	slutil slutila slutili slutimo
+63	7663	pretresen	pretresena pretreseni
+64	7664	iznajti	iznašel iznašli
+65	7665	izumitelj	izumitelja izumitelji
+66	7666	poklican	poklicana poklicane poklicani
+67	7667	oteklina	otekline oteklino
+68	7668	morebiti	
+69	7669	brca	brcami brce brci brco
+70	7670	detonator	detonatorja detonatorje detonatorjem detonatorjev detonatorji detonatorju
+71	7671	scenarist	scenarista scenaristom
+72	7672	točnost	točnosti točnostjo
+73	7673	samoumeven	samoumevna samoumevne samoumevnega samoumevno
+74	7674	alkoholen	alkoholna alkoholne alkoholnih
+75	7675	čili	čilijem
+76	7676	nepozaben	nepozabna nepozabno
+77	7677	hipnoza	hipnoze hipnozi hipnozo
+78	7678	posvetovanje	posvetovanj posvetovanja posvetovanju
+79	7679	nadarjenost	nadarjenosti
+80	7680	jagnje	jagnjet jagnjeta jagnjetom
+81	7681	trajekt	trajektom trajektov trajektu
+82	7682	nepremagljiv	nepremagljive nepremagljivega nepremagljivi nepremagljivih nepremagljivo
+83	7683	klepetati	klepetal klepetala klepetali klepetam
+84	7684	kompleksnost	kompleksnosti
+85	7685	onemogočati	onemogoča onemogočajo onemogočal
+86	7686	mik	mikom miku
+87	7687	gnusen	gnusna gnusne gnusnega gnusnem gnusni gnusnih gnusnim gnusno
+88	7688	energetika	energetike energetiko
+89	7689	nota	notah notami noti noto
+90	7690	privezan	privezana privezane privezani privezano
+91	7691	opuščen	opuščene opuščenem opuščenih opuščeno
+92	7692	vetrn	vetrna vetrne vetrni vetrnih
+93	7693	trajajoč	trajajoča trajajoče trajajočem trajajoči
+94	7694	odvečen	odvečna odvečne odvečnega odvečni odvečnih odvečno
+95	7695	pogodben	pogodbena pogodbene pogodbenega pogodbeni pogodbenih pogodbeno
+96	7696	uhajati	uhaja uhajajo uhajale
+97	7697	pehota	pehoto
+98	7698	porcija	porcije porcijo
+99	7699	integriteta	integritete integriteto
+100	7700	pobožnost	pobožnosti

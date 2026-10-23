@@ -1,0 +1,100 @@
+1	5101	pristojen	pristojna pristojne pristojnega pristojni pristojnih pristojnim pristojno
+2	5102	obrobje	obrobja obrobju
+3	5103	naložba	naložb naložbah naložbami naložbe naložbi naložbo
+4	5104	sevnica	
+5	5105	usnje	usnja usnjem usnju
+6	5106	tropski	tropska tropske tropskega tropskem tropskih tropskimi tropsko
+7	5107	prijaznost	prijaznosti prijaznostjo
+8	5108	udeležen	udeležena udeležene udeleženi udeleženih
+9	5109	napotiti	napoti napotijo napotil napotili
+10	5110	harmonija	harmonije harmoniji harmonijo
+11	5111	čin	čina činu
+12	5112	trideseti	trideseta tridesetega tridesetih
+13	5113	urjenje	urjenjem urjenju
+14	5114	konjenica	konjenice konjenici konjenico
+15	5115	ženin	ženine ženinem ženini ženino ženinom
+16	5116	zanositi	zanosi zanosila
+17	5117	avtonomija	avtonomije avtonomijo
+18	5118	šal	šalom šalov šalu
+19	5119	krmiti	krmil krmila krmili krmilo krmilom krmilu
+20	5120	posvojiti	posvoji posvojil posvojila posvojili
+21	5121	prerok	preroka preroke preroki prerokov prerokovo preroku
+22	5122	vzdušje	vzdušja vzdušju
+23	5123	govorec	govorca govorce govorcev govorci
+24	5124	primanjkovati	primanjkovalo primanjkuje
+25	5125	samozavesten	samozavestna samozavestnejši samozavestni samozavestno
+26	5126	molk	molka molkom
+27	5127	brisača	brisačo
+28	5128	zaprtje	zaprtja zaprtjem zaprtju
+29	5129	karton	kartona kartoni kartonov kartonu
+30	5130	sodnica	sodnice sodnici sodnico
+31	5131	inštrument	inštrumente inštrumenti inštrumentov
+32	5132	forum	foruma forumu
+33	5133	ovojnica	ovojnic ovojnice ovojnici ovojnico
+34	5134	pridigati	pridiga pridigajo pridigal pridigali pridige pridigi
+35	5135	pritožiti	pritoži pritožil pritožila pritožili pritožilo
+36	5136	zajemati	zajemajo zajemal zajemala
+37	5137	smodnik	smodnika smodnikom smodniku
+38	5138	aktivirati	aktivira aktivirali
+39	5139	veleposlaništvo	veleposlaništva veleposlaništvom veleposlaništvu
+40	5140	komora	komore komoro
+41	5141	godba	godb godbe godbi godbo
+42	5142	podneben	podnebne podnebnih podnebnim podnebno
+43	5143	prefinjen	prefinjena prefinjene prefinjenega prefinjenem prefinjeni prefinjenim prefinjeno
+44	5144	razkrivati	razkriva razkrivajo razkrivamo
+45	5145	tele	telet teleta teliček
+46	5146	povojen	povojna povojne povojnem povojni povojnih povojno
+47	5147	fantazija	fantazije fantaziji
+48	5148	povzročitelj	povzročitelja povzročitelje povzročiteljev povzročitelji
+49	5149	trikotnik	trikotnika trikotnike trikotniki trikotnikih trikotnikom trikotnikov trikotniku
+50	5150	grozdje	grozdja grozdjem grozdju
+51	5151	oddaljenost	oddaljenosti
+52	5152	kandidirati	kandidira kandidirajo kandidirajte kandidiral kandidirala kandidirali
+53	5153	ud	uda ude udi udih udje udom udov udu
+54	5154	državljanstvo	državljanstva državljanstvom
+55	5155	vsebinski	vsebinska vsebinske vsebinskih vsebinsko
+56	5156	buča	buč bučah bučami buče buči bučo
+57	5157	oreh	oreha orehe orehi orehih orehom orehov orehovi orehu
+58	5158	jelka	jelk jelke jelki jelko
+59	5159	ruščina	ruščine ruščini ruščino
+60	5160	otrokov	otrokova otrokove otrokovega otrokovem otrokovi otrokovih otrokovim otrokovo
+61	5161	naklonjenost	naklonjenosti
+62	5162	omemba	omemb omembe omembi
+63	5163	izpuščen	izpuščena izpuščeni izpuščenih
+64	5164	pesjan	pesjani
+65	5165	knez	kneza knezi knezom knezov knezu
+66	5166	tukajšnji	tukajšnja tukajšnje tukajšnjega tukajšnjem tukajšnjih tukajšnjo
+67	5167	prestižen	najprestižnejših prestižna prestižne prestižnega prestižnem prestižni prestižnih prestižno
+68	5168	rokopis	rokopisa rokopisom rokopisov rokopisu
+69	5169	kreniti	krene krenemo krenete kreni krenil krenila krenile krenili krenilo krenimo krenite
+70	5170	označevanje	označevanja označevanju
+71	5171	neuporaben	neuporabna neuporabne neuporabni
+72	5172	zgoščenka	zgoščenk zgoščenke zgoščenki zgoščenko
+73	5173	polž	polža polže polžem polžev polži polžu
+74	5174	pravljičen	pravljična pravljične pravljičnem pravljični pravljičnih pravljično
+75	5175	opora	opore opori oporo
+76	5176	slasten	slastna slastno
+77	5177	okrevanje	okrevanja okrevanju
+78	5178	poriniti	porinil porinila porinili
+79	5179	ogrevanje	ogrevanja ogrevanju
+80	5180	prileteti	priletel priletela priletele prileteli priletelo prileti
+81	5181	pult	pulti pultom pultu
+82	5182	dvig	dvigom
+83	5183	opeka	opek opekah opekami opeke opeki opeko
+84	5184	odločno	
+85	5185	trgovinski	trgovinska trgovinske trgovinskega trgovinskih trgovinsko
+86	5186	domena	domene domeni
+87	5187	posluh	posluha posluhom
+88	5188	meditacija	meditacije meditaciji meditacijo
+89	5189	kritizirati	kritizira kritiziraj kritizirajo kritizirajte kritiziral kritizirala kritizirali kritiziram kritiziramo kritizirate kritiziraš
+90	5190	nemir	nemira nemire nemiri nemirih nemirom
+91	5191	planota	planote planoti planoto
+92	5192	ogrski	ogrske ogrskega ogrsko
+93	5193	naften	naftna naftne naftnega naftnem naftni naftnih naftnim naftnimi
+94	5194	veverica	veveric vevericah vevericam vevericami veverice veverici veverico
+95	5195	dodeljen	dodeljena
+96	5196	sklic	sklica sklicu
+97	5197	dinamika	dinamike dinamiki dinamiko
+98	5198	molekula	molekul molekulah molekulami molekule molekuli molekulo
+99	5199	nejasen	nejasna nejasne nejasnega nejasni nejasnih nejasno
+100	5200	dostaviti	dostavil

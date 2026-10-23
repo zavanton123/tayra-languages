@@ -1,0 +1,100 @@
+1	7401	povzročen	povzročena povzročene povzročenih povzročeno
+2	7402	ovitek	ovitka ovitki ovitku
+3	7403	čistilec	čistilca čistilcev
+4	7404	odmaknjen	odmaknjena odmaknjeni odmaknjenih odmaknjeno
+5	7405	praški	praška praške
+6	7406	zrelost	zrelosti
+7	7407	pomladen	pomladna pomladne pomladnega pomladnem pomladni pomladnih pomladno
+8	7408	vozlišče	vozlišč vozlišča vozlišču
+9	7409	opomin	opomina
+10	7410	priporočen	priporočena priporočene priporočeno
+11	7411	reprodukcija	reprodukcije reprodukcijo
+12	7412	krojač	krojača krojače krojači krojačica krojaču
+13	7413	invalidnost	invalidnosti
+14	7414	neznanka	neznank neznanke neznanko
+15	7415	poljubček	poljubčki
+16	7416	istrski	istrske istrsko
+17	7417	zaplesati	zaplesala zaplesale zaplesali zapleše zaplešejo
+18	7418	oaza	oazah oaze oazi oazo
+19	7419	šank	šankom šanku
+20	7420	oddolžiti	oddolžil oddolžila oddolžili
+21	7421	sedemnajst	sedemnajstimi
+22	7422	potop	potopa potopom
+23	7423	premišljen	premišljena premišljene premišljeno
+24	7424	ostrostrelec	ostrostrelcev
+25	7425	zasnubiti	zasnubil
+26	7426	funkcionalen	funkcionalne
+27	7427	osrčje	osrčja osrčju
+28	7428	vajet	vajeti
+29	7429	nastanitev	nastanitve nastanitvijo
+30	7430	neodgovoren	neodgovorni neodgovorno
+31	7431	mitologija	mitologije mitologiji mitologijo
+32	7432	breskev	breskvah breskvami breskve breskvi
+33	7433	začaran	začaranega začaranem začarani
+34	7434	kozmetika	kozmetike kozmetiki kozmetiko
+35	7435	koncentracijski	koncentracijska koncentracijskega koncentracijskem koncentracijskih
+36	7436	gibalo	gibal gibala gibali
+37	7437	recepcija	recepcije recepcijo
+38	7438	navezovati	navezuje navezujem
+39	7439	prevoznik	prevoznika prevoznike prevozniki prevoznikom prevoznikov
+40	7440	gestapo	gestapa gestapom gestapu
+41	7441	razkritje	razkritja
+42	7442	prevozen	prevozna prevoznega prevozni prevoznih prevoznim prevozno
+43	7443	prenesen	prenesene prenesenem prenesenih preneseno
+44	7444	rodbina	rodbine
+45	7445	varčevati	varčeval varčevala varčevali varčujejo varčujete
+46	7446	pulz	pulza pulze pulzi pulzom pulzu
+47	7447	hrepeneti	hrepenel hrepenela hrepeni
+48	7448	žveplo	žvepla žveplom žveplu
+49	7449	stisnjen	stisnjena stisnjene stisnjenih stisnjenimi stisnjeno
+50	7450	utemeljitev	utemeljitve utemeljitvijo
+51	7451	konferenčen	konferenčnega konferenčni konferenčno
+52	7452	prevezati	prevezal prevezala prevezali prevezan prevezane prevezani preveže prevežem prevežemo prevežete prevežeš preveži prevežite
+53	7453	pater	patra
+54	7454	krivulja	krivulj krivulje krivuljo
+55	7455	razlikovanje	razlikovanja
+56	7456	odpad	odpada odpadom
+57	7457	jamski	jamskega jamsko
+58	7458	smrtnost	smrtnosti
+59	7459	vdan	vdane vdanega vdani vdanim
+60	7460	blondinka	blondink blondinke
+61	7461	napoj	napoja
+62	7462	prepletati	prepletajo prepletala prepletata
+63	7463	kovati	koval kovala kovali kovan kuj kuje kujejo kujem kujemo kujeta kujete kuješ
+64	7464	rokomet	rokometu
+65	7465	bistro	bistroju
+66	7466	težnost	težnosti
+67	7467	metalec	metalci
+68	7468	lebdeti	lebdela lebdeli lebdi lebdijo lebdim
+69	7469	humor	humorja humorjem
+70	7470	prirojen	prirojene prirojenega prirojenih prirojeno
+71	7471	metanje	metanja metanju
+72	7472	ohlapen	ohlapna ohlapne ohlapni ohlapno
+73	7473	vešča	vešče veščo
+74	7474	nepoškodovan	nepoškodovana nepoškodovane nepoškodovano
+75	7475	glavnina	glavnine glavnino
+76	7476	merilen	merilne merilni merilno
+77	7477	suveren	suverene suverenega suvereni suvereno
+78	7478	marmor	marmorja marmorjem
+79	7479	uskladiti	uskladi uskladijo uskladil uskladila uskladili uskladimo uskladita
+80	7480	nošenje	nošenjem nošenju
+81	7481	konvencionalen	konvencionalna konvencionalne konvencionalni konvencionalnih konvencionalno
+82	7482	korejski	korejsko
+83	7483	artefakt	artefakta artefakte artefakti artefaktom artefaktov artefaktu
+84	7484	jugozahoden	jugozahodne jugozahodni jugozahodno
+85	7485	obrisati	obrisal obrisala obriše obrišem obrišemo obrišeš
+86	7486	pesa	pese peso
+87	7487	azil	azila azilu
+88	7488	ozreti	ozre ozrem ozremo ozrl ozrla ozrli
+89	7489	bogataš	bogataši
+90	7490	jezerski	jezerska jezerske jezersko
+91	7491	zavleči	zavlekel zavlekla zavlekli zavleklo zavlečejo
+92	7492	zasloveti	zaslovel zaslovela zasloveli zaslovi
+93	7493	zazdeti	zazdela zazdelo zazdi
+94	7494	onesnažen	onesnažena onesnažene onesnaženo
+95	7495	brk	brke
+96	7496	gozdarski	gozdarska gozdarske gozdarskega
+97	7497	spremen	spremna spremne spremni spremno
+98	7498	rasen	rasna rasne rasni rasnih rasno
+99	7499	hranilen	hranilna hranilne hranilni hranilnih hranilno
+100	7500	samomorilski	samomorilska samomorilske samomorilskih samomorilskim

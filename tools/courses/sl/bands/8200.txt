@@ -1,0 +1,100 @@
+1	8101	teror	terorja terorjem terorju
+2	8102	romarski	romarskih romarsko
+3	8103	delničar	delničarje delničarjem delničarjev delničarji
+4	8104	plemiški	plemiške plemiških
+5	8105	odsvetovati	odsvetoval odsvetovala odsvetovali odsvetuje odsvetujem
+6	8106	roden	rodna rodne rodnem rodno
+7	8107	zadržek	zadržka zadržke zadržki zadržkom zadržkov
+8	8108	šestdeset	
+9	8109	dirkanje	dirkanja
+10	8110	preplaviti	preplavijo preplavil preplavile preplavili preplavilo
+11	8111	svinjarija	svinjarij svinjarije svinjarijo
+12	8112	konzul	konzula
+13	8113	udarjati	udarja udarjala udarjaš
+14	8114	programer	programerjem programerjev programerji
+15	8115	analogen	analognega analogni analognih analogno
+16	8116	kolesariti	kolesari kolesarila kolesarili kolesarim kolesarimo kolesarit kolesariš kolesarjenje
+17	8117	delniški	delniška delniške delniških delniško
+18	8118	pregovoriti	pregovorili
+19	8119	selen	selena
+20	8120	razbitina	razbitin razbitino
+21	8121	dozdevati	dozdeva
+22	8122	sramotiti	sramoti sramotijo sramotil sramotila sramotili sramotim sramotimo sramotita sramotite sramotiš
+23	8123	valoven	valovni valovnih valovno
+24	8124	viteški	viteške viteškega viteških viteško
+25	8125	vodstven	vodstvene vodstveni vodstvenih
+26	8126	tekstura	teksture teksturi teksturo
+27	8127	recikliranje	recikliranja recikliranju
+28	8128	podpredsednica	podpredsednico
+29	8129	čarovništvo	čarovništva
+30	8130	radodaren	radodarne radodarni radodarno
+31	8131	aktovka	aktovke aktovki aktovko
+32	8132	stegno	stegen stegni stegnih stegnom stegnu
+33	8133	izločen	izločeni
+34	8134	nalit	nalij nalijte nalil nalila nalita naliti
+35	8135	malomarnost	malomarnosti
+36	8136	potrebščina	potrebščin potrebščinami potrebščine
+37	8137	velikonočen	velikonočnega velikonočnem velikonočnih velikonočnimi velikonočno
+38	8138	izpolnjevanje	izpolnjevanja izpolnjevanjem izpolnjevanju
+39	8139	teoretik	teoretiki teoretikov
+40	8140	nevšečnost	nevšečnosti nevšečnostim
+41	8141	zamik	zamika zamikom
+42	8142	trofeja	trofeje trofeji
+43	8143	okviren	okvirne okvirni okvirno
+44	8144	sekretarka	sekretarke sekretarko
+45	8145	sedenje	sedenja sedenjem sedenju
+46	8146	dedič	dedičem
+47	8147	polemika	polemik polemike polemiko
+48	8148	izvleček	izvlečki
+49	8149	travnat	travnata travnate travnatem travnati travnatih travnato
+50	8150	nominacija	nominacije nominacijo
+51	8151	toča	toči točo
+52	8152	žeton	žetone
+53	8153	ambasada	ambasade ambasadi
+54	8154	vonjati	vonja vonjajo vonjal vonjala vonjali vonjam vonjate vonjaš
+55	8155	odleči	odleglo
+56	8156	obriti	obril obrili
+57	8157	miljon	miljone miljonov
+58	8158	vlečen	vlečna vlečne vlečni
+59	8159	tehtnica	tehtnici tehtnico
+60	8160	zbližati	zbližajo zbližala zbližalo
+61	8161	odpravljen	odpravljena odpravljene
+62	8162	rezervat	rezervate
+63	8163	računski	računske računskega računsko
+64	8164	zdravilstvo	zdravilstva zdravilstvu
+65	8165	obvoznica	obvoznice obvoznici obvoznico
+66	8166	sestoj	sestoji
+67	8167	tihotapljenje	tihotapljenja tihotapljenjem tihotapljenju
+68	8168	čakalnica	čakalnice čakalnici čakalnico
+69	8169	pospešek	pospeška pospeške pospeškom
+70	8170	izvedenec	izvedence izvedenci
+71	8171	odklon	odkloni odklonov
+72	8172	meduza	meduz meduze
+73	8173	slutnja	slutnje slutnji slutnjo
+74	8174	smiliti	smilijo smilil smilila smilili
+75	8175	robotov	
+76	8176	zvonček	zvončki zvončkom zvončkov
+77	8177	izenačiti	izenačil izenačila izenačile izenačili izenačilo izenačimo
+78	8178	relikvija	relikvij relikvijami relikvije relikviji relikvijo
+79	8179	perutnina	perutnine perutnini perutnino
+80	8180	sezuti	sezuj sezuje sezujejo sezujem sezujete sezuješ sezujta sezujte sezula sezuli sezulo
+81	8181	poljubljanje	poljubljanja poljubljanjem poljubljanju
+82	8182	ribariti	ribari ribarijo ribarila ribarili ribarim ribarimo ribarit ribarita ribarite ribariva ribariš
+83	8183	pobijati	pobijajo
+84	8184	dovolilnica	dovolilnic dovolilnice dovolilnico
+85	8185	pojavljanje	pojavljanja
+86	8186	klapa	klape
+87	8187	aligator	aligatorja aligatorje aligatorjem aligatorjev aligatorji aligatorjih aligatorju
+88	8188	predsedovanje	predsedovanja predsedovanjem
+89	8189	mlakar	
+90	8190	pisk	piske pisku
+91	8191	prečen	prečna prečne prečno
+92	8192	prestavljen	prestavljena prestavljeno
+93	8193	tiran	tiranu
+94	8194	preprostost	preprostosti
+95	8195	poizkušati	poizkuša poizkušali poizkušamo
+96	8196	povzdigniti	povzdigne povzdignil povzdignila povzdignili
+97	8197	enciklopedija	enciklopedije enciklopediji enciklopedijo
+98	8198	psihiatrija	psihiatrije psihiatrijo
+99	8199	zvodnik	zvodniki
+100	8200	zbrisati	zbrisal zbrisala zbrisali zbriše zbrišemo

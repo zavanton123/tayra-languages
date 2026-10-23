@@ -1,0 +1,100 @@
+1	4601	osredotočen	osredotočena osredotočeni osredotočeno
+2	4602	iztek	izteka iztekom izteku
+3	4603	palačinka	palačink palačinke
+4	4604	sladkarija	sladkarij sladkarijah sladkarijami sladkarije sladkarijo
+5	4605	jahati	jaha jahaj jahajmo jahajo jahajte jahal jahala jahali jaham jahamo jahat jahata jahate jahava jahaš jaše jaši
+6	4606	priseljenec	priseljence priseljencev priseljenci
+7	4607	ogrlica	ogrlice ogrlico
+8	4608	eksplodirati	eksplodiral eksplodirala eksplodiralo
+9	4609	arterija	arterij arterijah arterije arteriji arterijo
+10	4610	neuraden	neuradna neuradne neuradni neuradnih neuradno
+11	4611	radikalen	radikalna radikalne radikalnega radikalni radikalnih radikalnim radikalno
+12	4612	interneten	internetne internetnega internetni internetnih internetno
+13	4613	skakati	skakal skakala skače skačete skačeš
+14	4614	zadruga	zadrug zadruge zadrugi zadrugo
+15	4615	preveden	prevedena prevedene prevedenih prevedeno
+16	4616	tkanina	tkanin tkanine tkanini tkanino
+17	4617	porušiti	poruši porušil porušila porušili porušilo porušimo
+18	4618	dokazan	dokazano
+19	4619	strahopetec	strahopetci
+20	4620	hokej	hokeja hokeju
+21	4621	strašiti	straši strašijo strašil strašile strašite
+22	4622	podporen	podporna podporne podporni podporno
+23	4623	žrtvovanje	žrtvovanja žrtvovanju
+24	4624	očitati	očita očitajo očital očitala očitali očitam očitate
+25	4625	košara	košar košarah košarami košare košari košaro
+26	4626	posvet	posveta posveti posvetu
+27	4627	preobrazba	preobrazbe preobrazbi preobrazbo
+28	4628	licenca	licenc licenco
+29	4629	zmanjkovati	zmanjkovalo zmanjkuje
+30	4630	skrinja	skrinje skrinji skrinjo
+31	4631	barje	barij barja barju
+32	4632	publika	publike publiki publiko
+33	4633	ročaj	ročaja ročaje ročajem ročaji ročaju
+34	4634	eksploziv	eksploziva eksplozivov
+35	4635	obnesti	obnese obnesejo obnesel obnesla obnesle obnesli obneslo
+36	4636	psica	psic psice psici psico
+37	4637	izstrelek	izstrelka izstrelki izstrelkov
+38	4638	odpaden	odpadna odpadne odpadnega odpadni odpadnih odpadno
+39	4639	divjina	divjine divjini divjino
+40	4640	zvit	zvijejo zvil zvila zvilo zvite zviti zvitih zvito
+41	4641	uveljavljanje	uveljavljanja uveljavljanju
+42	4642	namigovati	namigoval namigovala namigovali namigovalo namiguj namiguje namigujejo namigujem namigujeta namigujete namiguješ
+43	4643	fižol	fižola fižole fižolom fižolu
+44	4644	kamenje	kamenja kamenjem kamenju
+45	4645	trta	trt trte trti trtica trtice trtici trtico trto
+46	4646	podeželski	podeželske podeželskega podeželskih podeželsko
+47	4647	špansko	
+48	4648	zastoj	zastoja zastoje zastojem zastojev zastoji zastojih zastoju
+49	4649	revolucionaren	revolucionarna revolucionarne revolucionarnega revolucionarni revolucionarnih revolucionarno
+50	4650	pasma	pasme pasmo
+51	4651	ugriz	ugriza ugrize ugrizi ugrizih ugrizom ugrizov ugrizu
+52	4652	plaz	plaze plazom plazov plazove plazovi plazovih plazu
+53	4653	osebnosten	osebnostne osebnostni osebnostnih osebnostno
+54	4654	judovski	judovska judovske judovskega judovskem judovskemu judovskih judovsko
+55	4655	zaporedje	zaporedja zaporedju
+56	4656	financirati	financira financirajo financirala financirali financiralo
+57	4657	narasti	narasel narasla narasle naraslo naraste narastel
+58	4658	poglavar	poglavarja poglavarje poglavarjev poglavarji
+59	4659	ropar	roparja roparje roparjem roparjema roparjev roparji roparjih roparju
+60	4660	ekosistem	ekosistema ekosisteme ekosistemi ekosistemih ekosistemov ekosistemu
+61	4661	lahkota	lahkoto
+62	4662	praznina	praznine praznini praznino
+63	4663	založnik	založnika založniki založnikom založnikov
+64	4664	brskati	brska brskaj brskajo brskal brskala brskali brskam brskamo brskanje brskat brskata brskate brskaš
+65	4665	butast	butasta butaste butastega butastem butastemu butasti butastih butastim butastimi butasto
+66	4666	poljuben	poljubne poljubnega poljubnih poljubno
+67	4667	pila	
+68	4668	potrpežljiv	potrpežljiva potrpežljive potrpežljivega potrpežljivejši potrpežljivi potrpežljivo
+69	4669	časnik	časnika časnike časniki časnikih časnikov časniku
+70	4670	premišljevati	premišljeval premišljevala premišljuje premišljujejo premišljujte
+71	4671	savinjski	savinjska savinjske savinjskih savinjsko
+72	4672	vsakodneven	vsakodnevna vsakodnevne vsakodnevnega vsakodnevni vsakodnevnih vsakodnevnimi vsakodnevno
+73	4673	kroglica	kroglic kroglicami kroglice kroglico
+74	4674	enačba	enačb enačbah enačbami enačbe enačbi enačbo
+75	4675	mol	molu
+76	4676	kakovosten	kakovostna kakovostne kakovostnega kakovostnem kakovostni kakovostnih kakovostno
+77	4677	slušalka	slušalke slušalki slušalko
+78	4678	vložek	vložka vložke vložki vložkom vložkov vložku
+79	4679	prenovljen	prenovljena prenovljene prenovljeni prenovljeno
+80	4680	tehtati	tehta tehtajo tehtala tehtali tehtam
+81	4681	spojina	spojin spojine spojini spojino
+82	4682	navijač	navijača navijače navijačem navijačev navijači navijačih
+83	4683	enakost	enakosti
+84	4684	krivec	krivca krivce krivcev
+85	4685	poleteti	poletel poletela poleteli poletelo
+86	4686	magija	magije magiji
+87	4687	obtičati	obtičal obtičali obtičijo obtičimo obtičite
+88	4688	počistiti	počisti počistila
+89	4689	prepirati	prepirajo prepirala prepirali
+90	4690	mrak	mraka mraku
+91	4691	nered	nerede neredi neredih neredov neredu
+92	4692	ribolov	ribolova ribolovu
+93	4693	preklicati	preklical prekliče prekliči
+94	4694	pička	pičke pički pičko
+95	4695	rezervacija	rezervacij rezervacije rezervacijo
+96	4696	raznesti	razneslo
+97	4697	izginotje	izginotja izginotjem izginotju
+98	4698	smetana	smetane smetani smetano
+99	4699	zrno	zrn zrna zrni zrnu
+100	4700	gradbeništvo	gradbeništva gradbeništvu

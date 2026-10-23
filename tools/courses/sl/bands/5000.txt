@@ -1,0 +1,100 @@
+1	4901	pomočnica	pomočnic pomočnice pomočnici
+2	4902	prekršiti	prekrši prekršijo prekršil prekršila prekršili prekršite
+3	4903	krst	krstom krstu
+4	4904	volkodlak	volkodlaka volkodlake volkodlaki volkodlakih volkodlakom volkodlakov volkodlaku
+5	4905	enakomeren	enakomerno
+6	4906	žito	žita žitom žitu
+7	4907	bos	bosa bosi bosih boso
+8	4908	cedilo	cedilu
+9	4909	kupola	kupole kupolo
+10	4910	usoditi	usojen usojena usojene usojeni usojeno
+11	4911	delfin	delfina delfine delfini delfinih delfinom delfinov delfinu
+12	4912	prehajati	prehaja prehajajo prehajamo
+13	4913	streči	stregel stregla stregli streže strežejo
+14	4914	premestiti	premesti premestili premestimo
+15	4915	vulkan	vulkana vulkane vulkani vulkanih vulkanom vulkanov vulkanu
+16	4916	vzbuditi	vzbudi vzbudijo vzbudil vzbudila vzbudili vzbudilo
+17	4917	žur	žure žurih
+18	4918	prejemati	prejemajo prejemal prejemali prejemamo prejemate
+19	4919	moriti	mori morila morile morili morilo morim morimo morit morite moriš morjenje
+20	4920	sonda	sond sonde sondi sondo
+21	4921	udar	udarom udaru
+22	4922	izumiti	izumil
+23	4923	spodleteti	spodletela spodletelo spodleti
+24	4924	pridelava	pridelave pridelavi pridelavo
+25	4925	sprožilec	sprožilca sprožilce sprožilci sprožilcih sprožilcu
+26	4926	namenoma	
+27	4927	sklicevati	skliceval sklicevala sklicuje sklicujejo sklicujem
+28	4928	pomorski	pomorska pomorske pomorskega pomorskih pomorsko
+29	4929	navdušenje	navdušenja navdušenjem navdušenju
+30	4930	zmota	zmot zmote zmoti zmoto
+31	4931	uveljavljati	uveljavlja uveljavljajo uveljavljal uveljavljala uveljavljali
+32	4932	razporejen	razporejene razporejeni razporejenih
+33	4933	satelitski	satelitska satelitske satelitskega satelitskih
+34	4934	pranje	pranja pranjem pranju
+35	4935	spremljanje	spremljanja spremljanju
+36	4936	izražen	izražena izražene izraženo
+37	4937	razstavljen	razstavljena razstavljene razstavljeni razstavljenih razstavljeno
+38	4938	dobrota	dobrot dobrotami dobrote
+39	4939	ribji	ribja ribje ribjega ribjem ribjih ribjim ribjimi ribjo
+40	4940	gnoj	gnoja gnojem gnoju
+41	4941	patrulja	patrulj patruljami patrulje patrulji
+42	4942	ustrašiti	ustraši ustrašijo ustrašil ustrašila ustrašile
+43	4943	okrasen	okrasna okrasne okrasni okrasnih okrasnimi okrasno
+44	4944	nesporazum	nesporazuma nesporazumi nesporazumom nesporazumov
+45	4945	slovesen	slovesna slovesne slovesni slovesno
+46	4946	kaliber	kalibra kalibrov
+47	4947	poravnati	poravna poravnajo poravnajte poravnal poravnala poravnali poravnalo
+48	4948	ka	
+49	4949	okraj	okraja okrajev okrajih okraju
+50	4950	izklopiti	izklopila izklopile izklopili izklopilo izklopimo izklopit izklopita izklopite izklopiva
+51	4951	nacist	nacisti nacistom nacistov
+52	4952	petelin	petelina peteline petelini petelinom petelinov petelinu
+53	4953	cepljenje	cepljenja cepljenjem cepljenju
+54	4954	venec	venca vencem venci vencu
+55	4955	prodreti	prodre prodrejo prodrl prodrla prodrle prodrli prodrlo
+56	4956	sokol	sokola sokole sokoli sokolom sokolu
+57	4957	dres	dresa drese dresi dresih dresom dresov dresu
+58	4958	liti	lije lijejo lijem lila lile lili lilo
+59	4959	pripisovati	pripisoval pripisovala pripisovali pripisuje pripisujejo pripisujem
+60	4960	pariški	pariška pariške pariškega pariškem pariških pariško
+61	4961	žanr	žanra žanrov žanru
+62	4962	nagovoriti	nagovoril nagovorila
+63	4963	zaboj	zaboja zaboje zabojem zabojev zabojih
+64	4964	povpraševanje	povpraševanja povpraševanjem povpraševanju
+65	4965	razrešiti	razreši razrešijo razrešil razrešila razrešili razrešilo
+66	4966	gristi	grize grizejo grizel grizem grizemo grizeta grizete grizeš grizi grizite grizla grizle grizli grizlo
+67	4967	zaznavanje	zaznavanja zaznavanju
+68	4968	podan	podana podane podani podanih podano
+69	4969	upoštevanje	upoštevanja upoštevanjem upoštevanju
+70	4970	komunicirati	komunicira komunicirajo komunicirali komunicirava komuniciraš
+71	4971	žleza	žlez žlezah žlezami žleze žlezi žlezo
+72	4972	fukati	fuka fukaj fukajo fukajte fukajva fukala fukale fukali fukam fukamo fukat fukata fukate fukava fukaš
+73	4973	pasiven	pasivna pasivne pasivnega pasivni pasivno
+74	4974	mikati	mika mikalo
+75	4975	čreda	čred čredami črede čredo
+76	4976	košarkarski	košarkarska košarkarske košarkarskega košarkarskem košarkarskih košarkarsko
+77	4977	opredeljevati	opredeljuje opredeljujejo
+78	4978	vic	vicev
+79	4979	dobrodošlica	dobrodošlice dobrodošlico
+80	4980	usmeritev	usmeritve usmeritvi usmeritvijo
+81	4981	kristalen	kristalne kristalnega kristalnem kristalni kristalnih kristalno
+82	4982	zbornik	zbornika zborniku
+83	4983	predsedstvo	predsedstva predsedstvu
+84	4984	mrtvec	mrtveca mrtvece mrtvecem mrtvecev mrtveci mrtvecih mrtvecu
+85	4985	natečaj	natečaja natečaju
+86	4986	pipa	pip pipami pipi pipo
+87	4987	esej	eseja eseje esejem esejev eseji eseju
+88	4988	izčrpan	izčrpana izčrpani
+89	4989	zvoniti	zvoni zvonijo zvonila zvonili zvonilo zvonim zvonit zvonite zvoniš
+90	4990	deklaracija	deklaracije deklaraciji deklaracijo
+91	4991	devetdeseti	devetdesetih
+92	4992	borza	borz borze borzi borzo
+93	4993	garderoba	garderobi garderobo
+94	4994	izslediti	izsledili
+95	4995	sedemdeseti	sedemdesetih
+96	4996	rosa	rosi roso
+97	4997	kita	kitami kite kito
+98	4998	odtenek	odtenka odtenke odtenki odtenkih odtenkom odtenkov odtenku
+99	4999	injekcija	injekcije injekcijo
+100	5000	druženje	druženja druženju

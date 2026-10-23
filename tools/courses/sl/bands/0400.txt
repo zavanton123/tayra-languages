@@ -1,0 +1,100 @@
+1	301	koliko	
+2	302	avto	avta avti avtih avtom avtoma
+3	303	kajne	
+4	304	uporaba	uporab uporabe uporabi uporabo
+5	305	enak	enaka enake enakega enakem enaki enakih enakim enakimi enako
+6	306	glava	glav glavah glavam glavama glavami glave glavi glavo
+7	307	prihajati	prihaja prihajaj prihajajo prihajajta prihajajte prihajal prihajala prihajale prihajali prihajalo prihajam prihajamo prihajat prihajata prihajate prihajava prihajaš
+8	308	stati	stal stala stali stalo stane stanejo stanem staneta stanete staneš stani stoj stoje stoji stojijo stojim stojimo stojita stojite stojiva stojiš stojte
+9	309	skrb	skrbeh skrbem skrbi skrbjo
+10	310	predstavljati	predstavlja predstavljaj predstavljajmo predstavljajo predstavljajte predstavljal predstavljala predstavljale predstavljali predstavljalo predstavljam predstavljamo predstavljat predstavljata predstavljate predstavljaš
+11	311	tip	tipa tipe tipi tipih tipom tipoma tipov tipu
+12	312	obdobje	obdobij obdobja obdobjem obdobji obdobjih obdobju
+13	313	soba	sob sobah sobam sobama sobami sobe sobi sobo
+14	314	čeprav	
+15	315	minuta	minut minutah minutam minutama minutami minuti minuto
+16	316	trenutek	trenutka trenutke trenutki trenutkih trenutkom trenutkov trenutku
+17	317	upati	upa upaj upajmo upajo upajta upajte upajva upal upala upale upali upalo upam upamo upata upate upava upaš
+18	318	takrat	
+19	319	predvsem	
+20	320	področje	področij področja področjem področji področjih področju
+21	321	sprejeti	sprejel sprejela sprejele sprejeli sprejelo sprejet sprejeta sprejete sprejetega sprejetih sprejetim sprejeto sprejme sprejmejo sprejmemo sprejmeta sprejmete sprejmeš sprejmi
+22	322	spoznati	spozna spoznaj spoznajmo spoznajo spoznajta spoznajte spoznajva spoznal spoznala spoznale spoznali spoznalo spoznam spoznamo spoznat spoznata spoznate spoznaš
+23	323	včasih	
+24	324	slika	slik slikah slikam slikama slikami slike sliki sliko
+25	325	prepričan	prepričana prepričane prepričani prepričanih prepričano
+26	326	delovati	deloval delovala delovale delovali delovalo deluje delujejo delujeta
+27	327	zveza	zvez zvezah zvezam zveze zvezi zvezo
+28	328	podatek	podatka podatke podatki podatkih podatkom podatkov
+29	329	hud	huda hude hudega hudem hudemu hudi hudih hudim hudimi hudo huje hujša hujše hujšega hujši hujših najhuje najhujša najhujše najhujšem najhujši najhujših najhujšim prehud prehuda prehudo
+30	330	evropski	evropska evropske evropskega evropskem evropskemu evropskih evropskim evropskimi evropsko
+31	331	vesel	vesela vesele veselega veselem veseli veselih veselimi veselo
+32	332	državen	državna državne državnega državnem državnemu državni državnih državnim državnimi državno
+33	333	kraj	krajem krajev kraji krajih kraju
+34	334	številka	številk številkah številkam številkama številkami številke številki številko
+35	335	podjetje	podjetij podjetja podjetjem podjetji podjetjih podjetju
+36	336	domov	
+37	337	naslov	naslova naslove naslovi naslovom naslovov naslovu
+38	338	opraviti	opravi opravijo opravil opravila opravile opravili opravilih opravilo opravilom opravilu opravim opravimo opravite opraviš
+39	339	razen	razna razne razni raznih raznim raznimi razno
+40	340	nehati	neha nehaj nehajo nehajte nehal nehala nehali nehalo neham nehamo nehat nehate
+41	341	oseben	osebna osebne osebnega osebnem osebnemu osebni osebnih osebnim osebnimi osebno
+42	342	ladja	ladjah ladjam ladjama ladjami ladje ladji ladjo
+43	343	družba	družb družbah družbam družbami družbe družbi družbo
+44	344	kmalu	
+45	345	toliko	tolk
+46	346	slab	najslabša najslabšem najslabši najslabšim najslabšimi najslabšo preslabi slaba slabe slabega slabem slabemu slabi slabih slabim slabimi slabšega slabšem slabši slabših slabšim slabšimi slabšo
+47	347	številen	številna številne številni številnih številnim številnimi številno
+48	348	znan	znana znane znanega znanem znanemu znani znanih znanim znanimi znano
+49	349	jezik	jezika jezike jeziki jezikih jezikom jezikov jeziku
+50	350	dokler	
+51	351	plačati	plač plača plačah plačaj plačajmo plačajo plačajta plačajte plačajva plačal plačala plačale plačali plačalo plačam plačami plačamo plačat plačata plačate plačava plačaš plače plači plačo
+52	352	ljubiti	ljubeč ljubeče ljubečega ljubečem ljubeči ljubečih ljubečo ljubi ljubijo ljubil ljubila ljubile ljubili ljubilo ljubim ljubimo ljubit ljubita ljubite ljubiva ljubiš ljubljenja ljubljenje
+53	353	pet	petih petim
+54	354	načrt	načrta načrte načrti načrtih načrtom načrtov načrtu
+55	355	preden	
+56	356	vrata	vrati vratih vratom
+57	357	dolg	daljša daljše daljšega daljšem daljši daljših daljšo dolga dolge dolgega dolgem dolgemu dolgi dolgih dolgim dolgimi dolgom dolgov dolgove dolgovi dolgovih dolgu najdaljša najdaljše najdaljšega najdaljši najdaljših najdaljšim najdaljšo
+58	358	kam	
+59	359	potreben	potrebna potrebne potrebnega potrebnem potrebni potrebnih potrebnim potrebnimi potrebno
+60	360	pogosto	najpogosteje najpogostejše pogosteje pogostejše
+61	361	vprašati	vpraša vprašajmo vprašajo vprašajta vprašajte vprašajva vprašal vprašala vprašale vprašali vprašalo vprašam vprašamo vprašat vprašata vprašate vprašava vprašaš
+62	362	poskušati	poskuša poskušaj poskušajmo poskušajo poskušajta poskušajte poskušajva poskušal poskušala poskušale poskušali poskušalo poskušam poskušamo poskušanje poskušat poskušata poskušate poskušava poskušaš
+63	363	držati	držal držala držali držalo drži držijo držim držimo držite drživa
+64	364	telo	teles telesa telesi telesih telesom telesu
+65	365	kralj	kralja kralje kraljem kraljema kraljev kraljeva kraljeve kraljevega kraljevemu kraljevi kraljevih kraljevo kralji kraljih kralju
+66	366	srce	src srca srcem srcema srci srcih srcu
+67	367	predsednik	predsednika predsednike predsedniki predsednikih predsednikom predsednikov predsednikove predsednikovega predsednikovi predsednikovim predsednikovo predsedniku
+68	368	pozabiti	pozabi pozabijo pozabil pozabila pozabile pozabili pozabilo pozabim pozabimo pozabit pozabita pozabite pozabiva pozabiš
+69	369	možnost	možnosti možnostih možnostim možnostjo možnostmi
+70	370	odpreti	odpre odprejo odprem odpremo odpret odpreta odprete odpreva odpreš odpri odprimo odprita odprite odpriva odprl odprla odprle odprli odprlo odpro
+71	371	hrana	hrane hrani hrano
+72	372	dekle	deklet dekleta dekleti dekletih dekletom dekletoma dekletu
+73	373	sicer	
+74	374	odločiti	odloči odločijo odločil odločila odločile odločili odločilo odločim odločimo odločita odločite odločiš
+75	375	prinesti	prinese prinesejo prinesel prinesemo prineseta prinesete prineseš prinesi prinesite prinesla prinesle prinesli prineslo
+76	376	znati	zna znajo znal znala znale znali znalo znam znamo znat znata znate znava znaš
+77	377	resnica	resnic resnicam resnice resnici resnico
+78	378	zakon	zakona zakone zakoni zakonih zakonom zakonov zakonu
+79	379	okoli	
+80	380	resen	resna resne resnega resneje resnejša resnejše resnejšega resnejši resnejših resni resnih resnim resnimi resno
+81	381	preživeti	preživel preživela preživele preživelega preživeli preživelih preživelim preživelo preživet preživete preživi preživijo preživim preživimo preživita preživite preživiva preživiš
+82	382	poročilo	poročil poročila poročili poročilih poročilom poročilu
+83	383	razlog	razloga razloge razlogi razlogih razlogom razlogov
+84	384	pravica	pravic pravicah pravicam pravicami pravice pravici pravico
+85	385	najprej	
+86	386	edin	edina edine edinega edini
+87	387	kupiti	kupi kupijo kupil kupila kupile kupili kupilo kupim kupimo kupit kupita kupite kupiva kupiš
+88	388	hoditi	hodeč hodi hodijo hodil hodila hodile hodili hodilo hodim hodimo hodit hodita hodite hodiva hodiš
+89	389	zanimati	zanima zanimajo zanimal zanimala zanimale zanimalo zanimata
+90	390	točka	točk točkah točkam točkami točke točki točko
+91	391	kazati	kazal kazala kazale kazali kazalo kazanje kazat kaže kažejo kažem kažemo kažeta kažete kaževa kažeš kaži kažita kažite
+92	392	očiten	najočitnejši očitna očitne očitnega očitnem očitnemu očitni očitnih očitnim očitnimi očitno
+93	393	počutiti	počuti počutijo počutil počutila počutile počutili počutim počutimo počutita počutite počutiš
+94	394	ekipa	ekip ekipami ekipe ekipi ekipo
+95	395	ljubezen	ljubezni ljubeznijo
+96	396	zgodovina	zgodovine zgodovini zgodovino
+97	397	razvoj	razvoja razvojem razvoju
+98	398	voziti	vozi vozijo vozil vozila vozile vozili vozilih vozilo vozilom vozilu vozim vozimo vozit vozita vozite voziva
+99	399	čudovit	čudovita čudovite čudovitega čudovitem čudoviti čudovitih čudovitim čudovitimi čudovito
+100	400	blizu	bliže bližje najbliže najbližje

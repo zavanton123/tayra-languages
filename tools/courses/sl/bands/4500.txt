@@ -1,0 +1,100 @@
+1	4401	vnesti	vnese vnesejo vnesel vnesemo vnesete vnesite vnesla vnesli
+2	4402	apartma	
+3	4403	ravnovesje	ravnovesja ravnovesju
+4	4404	odpornost	odpornosti odpornostjo
+5	4405	liter	litra litri litrih litrom litrov
+6	4406	gostota	gostote gostoto
+7	4407	vizualen	vizualne vizualni vizualno
+8	4408	naslovnica	naslovnic naslovnicah naslovnice naslovnici
+9	4409	dosje	dosjeji
+10	4410	petdeset	petdesetimi
+11	4411	dvorec	dvorca
+12	4412	reagirati	reagira reagirajo reagiral reagirala reagirali reagiralo reagirate
+13	4413	invazija	invazije invaziji invazijo
+14	4414	gledan	gledano
+15	4415	nahrbtnik	nahrbtnika nahrbtnikih nahrbtnikom
+16	4416	tisočak	tisočaka tisočaki tisočakov
+17	4417	kriminalec	kriminalce kriminalci
+18	4418	sladica	sladic sladice sladici sladico
+19	4419	kisel	kisla kisle kislega kislem kisli kislih kislim kislimi kislo
+20	4420	gleženj	gležnja gležnje gležnjem gležnjev gležnji gležnjih gležnju
+21	4421	distribucija	distribucije distribuciji distribucijo
+22	4422	vlomiti	vlomil vlomila vlomili
+23	4423	pomanjkljivost	pomanjkljivosti pomanjkljivostih
+24	4424	shranjevanje	shranjevanja shranjevanju
+25	4425	preboleti	prebolel prebolela preboleli preboliš
+26	4426	arheološki	arheološke arheoloških arheološko
+27	4427	mercedes	mercedesa mercedesi mercedesom mercedesov
+28	4428	nadškof	nadškofa nadškofom nadškofov nadškofu
+29	4429	talent	talenta talenti talentov talentu
+30	4430	izraelski	izraelska izraelske izraelskega izraelskem izraelskih izraelskim izraelsko
+31	4431	vztrajen	vztrajna vztrajne vztrajni vztrajno
+32	4432	zagovornik	zagovorniki zagovornikov
+33	4433	pena	pene peni peno
+34	4434	čokoladen	čokoladna čokoladne čokoladnem čokoladni čokoladno
+35	4435	tematski	tematska tematske tematskih tematsko
+36	4436	matura	maturi maturo
+37	4437	mlin	mlina mline mlini mlinom mlinov mlinu
+38	4438	žaba	žab žabah žabam žabami žabe žabi žabo
+39	4439	marka	marke
+40	4440	trajanje	trajanja trajanjem trajanju
+41	4441	psihiater	psihiatre psihiatrov psihiatru
+42	4442	jelen	jelene jeleni jelenih jelenom jelenov jelenovega jelenu
+43	4443	psiholog	psihologa psihologi psihologom psihologov psihologu
+44	4444	risati	risal risala risali risat riše rišejo rišem rišemo rišeta rišete riševa rišeš riši
+45	4445	napor	napora napore napori naporih naporom naporov naporu
+46	4446	sprejemanje	sprejemanja sprejemanjem sprejemanju
+47	4447	doživljati	doživlja doživljajo doživljal doživljamo
+48	4448	predlagan	predlagana predlagane predlagani predlaganih predlagano
+49	4449	tehniški	tehniška tehniške tehniškega tehniškem tehniških tehniško
+50	4450	srati	serješ serji serjite sral srala srali sralo sran srat
+51	4451	učinkovina	učinkovin učinkovine učinkovino
+52	4452	čigar	
+53	4453	dobrina	dobrin dobrine
+54	4454	prodajalen	prodajaln prodajalna prodajalnah prodajalne prodajalni prodajalno
+55	4455	nabiti	nabij nabije nabijejo nabijem nabijemo nabiješ nabijmo nabijte nabil nabila nabili nabit nabita nabite nabitih nabitimi nabito
+56	4456	korporacija	korporacij korporacijami korporacije
+57	4457	naročen	naročena naročenega naročeni naročeno
+58	4458	urin	urina urinega urinu
+59	4459	klubski	klubska klubske klubskem klubskih klubsko
+60	4460	kader	kadra kadre kadri kadrih kadrov kadru
+61	4461	tržišče	tržišča tržišču
+62	4462	spodbuda	spodbud spodbude spodbudi spodbudo
+63	4463	avtobusen	avtobusna avtobusne avtobusnega avtobusni avtobusno
+64	4464	kajenje	kajenja kajenjem kajenju
+65	4465	kritje	kritja
+66	4466	popustiti	popustil popustila popustile popustili popustite
+67	4467	uličen	ulična ulične uličnega ulični uličnih uličnim ulično
+68	4468	pečica	pečice pečici pečico
+69	4469	kad	kadi kadjo
+70	4470	jura	jure
+71	4471	obzidje	obzidja obzidjem obzidju
+72	4472	zapestje	zapestij zapestja zapestjem zapestji zapestjih zapestju
+73	4473	pazljivo	
+74	4474	izpolnjevati	izpolnjeval izpolnjevala izpolnjevali izpolnjuje izpolnjujejo izpolnjujem izpolnjujte
+75	4475	zoprn	zoprna zoprne zoprni zoprnih zoprno
+76	4476	obremenitev	obremenitve obremenitvi obremenitvijo
+77	4477	preverjanje	preverjanj preverjanja preverjanjem preverjanju
+78	4478	varati	vara varal varali varamo
+79	4479	nabirati	nabira nabirajo nabiral nabirala nabirale nabirali nabiralo nabiram nabiramo
+80	4480	nerad	nerada nerade neradi
+81	4481	zatakniti	zatakne zataknil zataknila zataknilo zataknite
+82	4482	prag	pragom pragu
+83	4483	eksperiment	eksperimenta eksperimente eksperimentov
+84	4484	spodbujanje	spodbujanja spodbujanjem spodbujanju
+85	4485	pečat	pečata pečate pečatom pečatov pečatu
+86	4486	sprejemljiv	sprejemljiva sprejemljive sprejemljivega sprejemljivi sprejemljivih sprejemljivo
+87	4487	panoga	panog panogah panoge panogi panogo
+88	4488	kondom	kondoma kondome kondomi kondomih kondomom kondomov kondomu
+89	4489	čudak	čudaki
+90	4490	sporočati	sporoča sporočajo sporočala sporočali sporočamo
+91	4491	deževati	deževalo
+92	4492	ikona	ikon ikonami ikone ikoni ikono
+93	4493	krasiti	krasi krasijo krasil krasila krasile krasili
+94	4494	klobasa	klobas klobasah klobasami klobase klobasi klobaso
+95	4495	kardinal	kardinala kardinale kardinali kardinalom kardinalov kardinalu
+96	4496	čistilo	čistil čistila
+97	4497	izprazniti	izprazni izpraznil izpraznila izpraznili izpraznilo izpraznim
+98	4498	zvezdica	zvezdic zvezdicami zvezdice zvezdico
+99	4499	zasnovati	zasnoval zasnovala zasnovali
+100	4500	mestece	mesteca mestecu

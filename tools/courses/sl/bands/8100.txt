@@ -1,0 +1,100 @@
+1	8001	pridih	pridihom
+2	8002	zadolžitev	zadolžitve
+3	8003	upodobljen	upodobljena upodobljeni
+4	8004	zniževati	znižuje znižujejo
+5	8005	hipoteka	hipoteko
+6	8006	povodec	povodca povodce povodci povodcih povodcu
+7	8007	ogledovati	ogledoval ogledovala ogledovali ogleduje ogledujemo
+8	8008	cesarica	cesarice cesarici cesarico césar
+9	8009	klika	klik klike kliko klikom
+10	8010	magistrski	
+11	8011	poživilo	poživil poživila
+12	8012	uriti	urijo urila urili urim
+13	8013	besneti	besnel besnela besneli besni besnijo besnim besniš
+14	8014	spopadati	spopadajo spopadali spopadamo
+15	8015	rudarski	rudarskih rudarskimi
+16	8016	težišče	težišča
+17	8017	zenica	zenic zenice zenici zenico
+18	8018	pobiranje	pobiranja
+19	8019	skakač	skakača skakače skakačem skakačev skakači skakaču
+20	8020	predvidevanje	predvidevanj predvidevanja predvidevanjih
+21	8021	nakopati	nakopal nakopala nakopalo nakopljejo
+22	8022	svetiti	svetijo svetile
+23	8023	rešilec	rešilcu
+24	8024	oralen	oralne oralnega oralni oralno
+25	8025	žig	
+26	8026	pepe	pepeta
+27	8027	dvojka	dvojk dvojke dvojki dvojko
+28	8028	civilizirati	civiliziral civilizirali civiliziran civilizirana civilizirane civiliziranega civiliziranem civilizirani civiliziranih civilizirano
+29	8029	kij	kija kiji
+30	8030	draženje	draženja
+31	8031	smrtnik	smrtniki smrtnikov
+32	8032	vzljubiti	vzljubila vzljubili
+33	8033	izhodiščen	izhodiščna izhodiščne izhodiščnega izhodiščno
+34	8034	taksist	taksista taksiste taksisti taksistom taksistov taksistu
+35	8035	astronomski	astronomska astronomske astronomskega astronomskih astronomsko
+36	8036	sankcija	sankcij sankcijami sankcije
+37	8037	skrčiti	skrči skrčil skrčila skrčili skrčilo
+38	8038	stičišče	stičišču
+39	8039	komik	komika komiki komiku
+40	8040	prehoditi	prehodila prehodili
+41	8041	požiralnik	požiralnika požiralniku
+42	8042	motiviran	motivirana motivirani motivirano
+43	8043	odrediti	odredil odredila odredili odredilo
+44	8044	patologija	patologije patologiji patologijo
+45	8045	inšpekcija	inšpekcije inšpekciji inšpekcijo
+46	8046	pripomniti	pripomnil pripomnila pripomnili
+47	8047	kreda	krede kredi kredo
+48	8048	dokumentiran	dokumentirana dokumentirane dokumentirani dokumentiranih dokumentirano
+49	8049	pisarniški	pisarniška pisarniškega pisarniških pisarniško
+50	8050	orjaški	orjaškem orjaških orjaškim orjaško
+51	8051	znesti	znese znesla znesli zneslo
+52	8052	popek	popka popke popki popkom popkov popku
+53	8053	dobljen	dobljena dobljene dobljenih
+54	8054	obličje	obličja obličjem obličju
+55	8055	orhideja	orhidej orhidejah orhidejami orhideje orhideji orhidejo
+56	8056	razburjenje	razburjenja razburjenjem razburjenju
+57	8057	jedilnik	jedilnika jedilniki jedilnikov
+58	8058	rokoborba	rokoborbe rokoborbo
+59	8059	avenija	
+60	8060	kreativnost	kreativnosti
+61	8061	neodločen	neodločena neodločeno
+62	8062	operen	operne opernega operni operno
+63	8063	vrtoglavica	vrtoglavice vrtoglavico
+64	8064	lomiti	lomi lomile lomimo lomit lomita lomite lomiva
+65	8065	pojutrišnjem	
+66	8066	komanda	komando
+67	8067	skavt	skavtom skavtov
+68	8068	modrec	modreca modrece modrecem modrecev modreci modrecih modrecu
+69	8069	palestinski	palestinske palestinskega palestinskih palestinsko
+70	8070	briti	brij brije brijejo brijem brijemo brijete briješ brila brili
+71	8071	rešitelj	rešitelji
+72	8072	števec	števca števce števcev števci števcu
+73	8073	škofijski	škofijske škofijsko
+74	8074	izpostava	izpostave izpostavi izpostavo
+75	8075	konzorcij	konzorcija konzorciju
+76	8076	zaračunati	zaračunajo zaračunal zaračunali zaračunava
+77	8077	štor	štora štore štori štoru
+78	8078	kontakten	kontaktna kontaktne kontaktnih kontaktno
+79	8079	lajšanje	
+80	8080	križati	križajo križali križata
+81	8081	rentgenski	rentgenskih rentgensko
+82	8082	zreti	zre zrejo zrem zrl zrla zrli
+83	8083	opirati	opira opirajo
+84	8084	zal	zalo
+85	8085	mahniti	mahne mahnem mahnil mahnila mahnili
+86	8086	iztrebek	iztrebke iztrebkih iztrebkov
+87	8087	odpisati	odpisal odpisala odpisali odpišejo
+88	8088	prevzemati	prevzemajo prevzemal prevzemala prevzemali prevzemate
+89	8089	noreti	norela norim
+90	8090	kipec	kipce kipcev kipci
+91	8091	zadevati	zadevajo zadeval zadevala zadevali zadevalo
+92	8092	savna	savne savni savno
+93	8093	kavalir	kavalirja kavalirje kavalirjev kavalirji
+94	8094	cesarjev	cesarjeva cesarjeve cesarjevega cesarjevem cesarjevi cesarjevih cesarjevim cesarjevo
+95	8095	popotovanje	popotovanja popotovanju
+96	8096	pogorje	pogorja pogorju
+97	8097	spisati	spisal spisala spisali
+98	8098	poljanski	poljanska poljanske poljansko
+99	8099	župnišče	župnišču
+100	8100	gumi	gumija

@@ -1,0 +1,100 @@
+1	1801	izhod	izhoda izhodi izhodih izhodom izhodu
+2	1802	obdelava	obdelave obdelavi obdelavo
+3	1803	preostal	preostala preostale preostalega preostalem preostali preostalih preostalim preostalima preostalimi preostalo
+4	1804	sestava	sestave sestavi sestavo
+5	1805	navadno	
+6	1806	vrnitev	vrnitve vrnitvi
+7	1807	udeležiti	udeleži udeležijo udeležil udeležila udeležili udeležilo
+8	1808	previden	previdna previdne previdnejša previdnejši previdni
+9	1809	blago	blag blaga blagi blagih blagimi blagom blagu blažji
+10	1810	naveden	navedena navedene navedenega navedenem navedeni navedenih navedeno
+11	1811	trava	trav trave travi travo
+12	1812	alkohol	alkohola alkoholom alkoholu
+13	1813	poteza	potez potezah potezami poteze potezi potezo
+14	1814	jeza	jeze jezi jezo
+15	1815	lov	lova lovom lovu
+16	1816	korist	koristi
+17	1817	zdržati	zdržal zdržala zdržale zdržali zdržalo zdrži zdržijo zdržim zdržimo
+18	1818	omrežje	omrežij omrežja omrežjem omrežji omrežjih omrežju
+19	1819	okužba	okužb okužbah okužbami okužbe okužbi okužbo
+20	1820	ha	
+21	1821	jokati	jokaj jokajte jokal jokala jokale jokali jokalo jokat joče jočejo jočeta joči jočite
+22	1822	prah	prahom prahu
+23	1823	odziv	odziva odzive odzivi odzivih odzivom odzivov
+24	1824	kandidat	kandidata kandidate kandidati kandidatih kandidatom kandidatoma kandidatov kandidatu
+25	1825	konferenca	konferenc konferencah konference konferenci konferenco
+26	1826	ustanovljen	ustanovljena ustanovljene ustanovljenega ustanovljeni ustanovljeno
+27	1827	vleči	vlecimo vlecita vlecite vlegel vlekel vlekla vlekle vlekli vleklo vleče vlečejo vlečem vlečemo vlečete vlečeš
+28	1828	premik	premika premike premiki premikih premikom premikov premiku
+29	1829	samomor	samomora samomore samomori samomorih samomorom samomorov samomoru
+30	1830	gimnazija	gimnazij gimnazijah gimnazije gimnaziji gimnazijo
+31	1831	davek	davka davke davki davkih davkom davkov davku
+32	1832	unija	unije uniji unijo
+33	1833	premakniti	premakne premaknejo premaknemo premaknete premaknil premaknila premaknile premaknili premaknilo premaknimo
+34	1834	ranjen	ranjena ranjene ranjenega ranjeni ranjenih ranjenim ranjenimi ranjeno
+35	1835	vajin	vajina vajine vajinega vajinem vajinemu vajini vajinih vajinim vajinima vajinimi vajino
+36	1836	obnašati	obnaša obnašajo obnašajte obnašal obnašala obnašali obnašamo obnašate obnašaš
+37	1837	nikamor	
+38	1838	prometen	prometna prometne prometnega prometnem prometni prometnih prometnim prometno
+39	1839	čestitati	čestita čestitajo čestitajte čestitala čestitam čestitamo
+40	1840	zavest	zavede zavedejo zavedel zavedla zavedle zavedli zavedlo zavesti zavestjo
+41	1841	izpolniti	izpolni izpolnijo izpolnil izpolnila izpolnile izpolnili izpolnilo izpolnim izpolnite
+42	1842	predvidevati	predvideva predvidevajo predvideval predvidevala predvidevali predvidevam
+43	1843	ubog	uboga uboge ubogega ubogem ubogemu ubogi ubogih ubogim ubogimi ubogo
+44	1844	deček	dečka dečke dečki dečkih dečkom dečkov dečku
+45	1845	strašen	najstrašnejša strašna strašne strašnejša strašnem strašni strašnih strašno
+46	1846	redko	redkeje redkejše
+47	1847	človekov	človekova človekove človekovega človekovem človekovi človekovih človekovimi človekovo
+48	1848	črka	črk črkah črkam črkama črkami črke črki črko
+49	1849	uporaben	uporabna uporabne uporabnega uporabni uporabnih uporabno
+50	1850	zlomiti	zlomi zlomil zlomila zlomile zlomili zlomilo zlomimo zlomit zlomita zlomite zlomiva
+51	1851	uporabljen	uporabljena uporabljene uporabljeni uporabljenih uporabljeno
+52	1852	torba	torbah torbami torbe torbi torbo
+53	1853	droga	drogah drogami droge drogo
+54	1854	zbirati	zbira zbiraj zbirajo zbirajte zbiral zbirala zbirale zbirali zbiralo zbiram zbiramo zbirat zbirata zbirate zbirava zbiraš
+55	1855	pamet	pameti pametjo
+56	1856	kontrola	kontrol kontrolami kontrole kontroli kontrolo
+57	1857	akademija	akademij akademijah akademije akademiji akademijo
+58	1858	odložiti	odloži odložil odložila odložili odložimo
+59	1859	razmisliti	razmisli razmislijo razmislil razmislili razmislim razmislimo razmislita razmislite
+60	1860	državljan	državljana državljane državljani državljanom državljanov
+61	1861	dogovoriti	dogovorijo dogovoril dogovorila dogovorile dogovorili dogovorimo dogovorita dogovorite
+62	1862	upravljanje	upravljanja upravljanjem upravljanju
+63	1863	navodilo	navodil navodila navodili navodilih navodilom navodilu
+64	1864	šibek	najšibkejša najšibkejši šibak šibka šibke šibkega šibkejša šibkejšega šibkejši šibkejših šibkejšim šibkejšo šibkem šibki šibkih šibkim šibko
+65	1865	industrijski	industrijska industrijske industrijskega industrijskem industrijskih industrijskimi industrijsko
+66	1866	sod	soda sode sodi sodih sodom sodoma sodov sodu
+67	1867	pomočnik	pomočnika pomočnike pomočniki pomočnikom pomočnikov pomočniku
+68	1868	pozen	pozne poznega poznejša poznejšega poznejšem poznejši poznejših poznejšo poznem pozni poznih poznimi
+69	1869	dedek	dedka dedku
+70	1870	simptom	simptome simptomi simptomih simptomov
+71	1871	zahvaliti	zahvalijo zahvalil zahvalila zahvalile zahvalili zahvalite
+72	1872	miren	mirne mirnega mirnejše mirnejši mirnem mirnemu mirni mirnih mirnim
+73	1873	neumnost	neumnosti neumnostim neumnostjo
+74	1874	jug	juga jugom jugu
+75	1875	roža	rož rožah rožam rožami rože roži rožo
+76	1876	teta	tet tetam tetama tete teti teto
+77	1877	trditi	trdijo trdil trdila trdim trdimo trdita trdite
+78	1878	lestvica	lestvic lestvicah lestvice lestvici lestvico
+79	1879	pisatelj	pisatelja pisatelje pisateljem pisateljev pisatelji pisateljih pisatelju
+80	1880	sprehod	sprehoda sprehode sprehodi sprehodih sprehodom sprehodov sprehodu
+81	1881	soditi	sodijo sodil sodila sodile sodili sodilo sodim sodimo sodita sodite
+82	1882	prepustiti	prepusti prepustijo prepustil prepustila prepustile prepustili prepustim prepustimo prepustite
+83	1883	prijeti	prijel prijela prijele prijeli prijelo primejo primem primemo primite
+84	1884	obstoj	obstoja obstojem obstoju
+85	1885	smrten	smrtna smrtne smrtnem smrtni smrtnih smrtnim smrtnimi smrtno
+86	1886	dež	dežja dežjem dežju
+87	1887	grožnja	groženj grožnjam grožnjami grožnje grožnji grožnjo
+88	1888	neodvisen	neodvisna neodvisne neodvisnega neodvisnem neodvisni neodvisnih neodvisnim neodvisnimi neodvisno
+89	1889	prepovedan	prepovedana prepovedane prepovedanega prepovedanem prepovedani prepovedanih prepovedanim prepovedanimi prepovedano
+90	1890	poceni	ceneje cenejša cenejše cenejši cenejših cenejšo najceneje najcenejša najcenejše najcenejši najcenejšo prepoceni
+91	1891	padec	padca padce padcem padcev padci padcu
+92	1892	zaloga	zalog zalogah zalogami zaloge zalogi zalogo
+93	1893	zaspati	zaspal zaspala zaspale zaspali zaspat zaspi zaspijo zaspim zaspimo zaspita zaspite zaspiva zaspiš
+94	1894	ozadje	ozadja ozadjem ozadju
+95	1895	poklic	poklica poklice poklicem poklicev poklici poklicih poklicu
+96	1896	interes	interesa interese interesi interesom interesov interesu
+97	1897	uvrstiti	uvrsti uvrstil uvrstila uvrstile uvrstili uvrstilo uvrstimo uvrstiš
+98	1898	ravnati	ravnajmo ravnajo ravnajte ravnal ravnala ravnale ravnali ravnalo ravnamo ravnata ravnate
+99	1899	nogomet	nogometa nogometom nogometu
+100	1900	raketa	raket raketami rakete raketo

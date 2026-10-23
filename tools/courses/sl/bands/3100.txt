@@ -1,0 +1,100 @@
+1	3001	igrača	igrač igrače igrači
+2	3002	zakonodaja	zakonodaje zakonodaji zakonodajo
+3	3003	grlo	grl grla grli grlom grlu
+4	3004	demokratičen	demokratična demokratične demokratičnega demokratični demokratičnih demokratično
+5	3005	krut	kruta krute krutega krutejši krutem kruti krutih krutim krutimi kruto
+6	3006	sekretar	sekretarja sekretarjem sekretarjev sekretarji sekretarju
+7	3007	prestol	prestola prestolom prestolov prestolu
+8	3008	piščanec	piščanca piščance piščancem piščancev piščanci piščancih piščancu
+9	3009	ravnanje	ravnanja ravnanjem ravnanju
+10	3010	delnica	delnic delnicah delnicam delnicami delnice delnici delnico
+11	3011	hranilo	hranil hranila hranili
+12	3012	razviden	razvidna razvidne razvidno
+13	3013	grozen	grozne
+14	3014	dišati	dišal dišala dišalo diši dišijo
+15	3015	ekonomija	ekonomije ekonomiji ekonomijo
+16	3016	poudarek	poudarka poudarki poudarkom
+17	3017	ledvica	ledvic ledvicah ledvicam ledvicami ledvice ledvici ledvico
+18	3018	predpis	predpisa predpise predpisi predpisih predpisom predpisov
+19	3019	čuti	čuj čuje čujem čujemo čujete čuješ čujte čula čuli
+20	3020	posredovati	posredoval posredovala posredovale posredovali posredovalo posreduje posredujejo posredujemo
+21	3021	sloj	sloja sloje slojem slojev sloji slojih sloju
+22	3022	bližati	bliža bližajo bližal bližamo
+23	3023	pleme	plemen plemena plemenom plemenu
+24	3024	širina	širine širini širino
+25	3025	drog	drogi drogom drogov drogove drogovi drogovih drogu
+26	3026	sovraštvo	sovraštva sovraštvom sovraštvu
+27	3027	stanovanjski	stanovanjska stanovanjske stanovanjskega stanovanjskem stanovanjskih stanovanjsko
+28	3028	pokrivati	pokriva pokrivajo pokrival pokrivali pokrivata pokrivate
+29	3029	jabolko	jabolk jabolka jabolki jabolkih jabolkom jabolku
+30	3030	testo	testa testom testu
+31	3031	kapital	kapitala kapitalom kapitalu
+32	3032	prevara	prevar prevare prevaro
+33	3033	ocenjevati	ocenjeval ocenjevala ocenjevali ocenjuje ocenjujejo ocenjujem ocenjujemo ocenjujete
+34	3034	kavč	kavča kavčev kavči kavču
+35	3035	rop	ropa ropi ropom
+36	3036	rastlinski	rastlinske rastlinskega rastlinskih rastlinskim rastlinskimi
+37	3037	zvezek	zvezka zvezke zvezki zvezkih zvezkom zvezkov zvezku
+38	3038	pretok	pretoka pretokom pretoku
+39	3039	konvencija	konvencij konvencije konvenciji konvencijo
+40	3040	jakna	jaken jaknah jaknami jakne jakni jakno
+41	3041	rod	roda rodom rodov rodove rodovi rodovom rodu
+42	3042	institucija	institucij institucijah institucijam institucijami institucije institucijo
+43	3043	zoper	
+44	3044	zavzemati	zavzema zavzemajo zavzemal zavzemala zavzemali zavzemam zavzemamo zavzemata zavzemate
+45	3045	dvigalo	dvigala dvigalom
+46	3046	domneven	domnevne domnevnega domnevni domnevnih domnevno
+47	3047	krožnik	krožnika krožnike krožniki krožnikih krožnikom krožnikov krožniku
+48	3048	razočaran	razočarana razočarani
+49	3049	zakleniti	zaklene zaklenejo zakleni zaklenil zaklenila zaklenile zaklenili zaklenilo zaklenimo zaklenit zaklenita zaklenite zakleniva
+50	3050	predsednica	predsednice predsednici predsednico
+51	3051	znamenit	znamenita znamenite znamenitega znamenitem znameniti znamenitih znamenitim znamenito
+52	3052	odpirati	odpira odpirajo odpiral odpirala odpirali odpiralo odpiramo
+53	3053	os	osi osjo
+54	3054	urejati	ureja urejajo urejal urejala urejali urejamo urejat
+55	3055	napredovanje	napredovanja napredovanju
+56	3056	potencialen	potencialna potencialne potencialnega potencialnem potencialni potencialnih potencialnim potencialno
+57	3057	nakit	nakita nakitom nakitu
+58	3058	obvezen	obvezna obvezne obveznega obveznem obvezni obveznih obvezno
+59	3059	plastičen	plastična plastične plastičnega plastičnem plastični plastičnih plastičnim plastičnimi plastično
+60	3060	vnetje	vnetij vnetja vnetju
+61	3061	črpalka	črpalk črpalkah črpalke črpalki črpalko
+62	3062	zamujati	zamuja zamujajo zamujali zamujam
+63	3063	odobriti	odobri odobrijo odobril odobrila odobrile odobrili
+64	3064	scena	sceni sceno
+65	3065	kraški	kraška kraške kraškega kraškem kraških kraško
+66	3066	zloraba	zlorab zlorabah zlorabe zlorabi zlorabo
+67	3067	puščica	puščic puščicami puščice puščico
+68	3068	kaseta	kaset kasetami kasete kaseti kaseto
+69	3069	dokončati	dokončal dokončali
+70	3070	zaveznik	zaveznika zaveznike zavezniki zaveznikom zaveznikov
+71	3071	približevati	približeval približevala približuje približujejo približujem približujte
+72	3072	breg	brega bregom bregov bregove bregovi bregovih bregu
+73	3073	čarovnik	čarovnika čarovnike čarovniki čarovnikih čarovnikom čarovnikov čarovniku
+74	3074	ugleden	najuglednejše najuglednejši najuglednejših ugledna ugledne uglednega uglednem ugledni uglednih uglednim uglednimi ugledno
+75	3075	prevladovati	prevladoval prevladovala prevladovale prevladovali prevladovalo prevladuje prevladujejo prevladujeta
+76	3076	znoreti	znorel znorela znorele znoreli znorelo
+77	3077	matičen	matična matične matičnega matičnem matični matičnih matičnim matično
+78	3078	komunističen	komunistična komunistične komunističnega komunističnem komunistični komunističnih komunistično
+79	3079	tovariš	tovariša tovariše tovarišem tovarišev tovariši tovarišu
+80	3080	preživljati	preživlja preživljajo preživljal preživljala preživljale preživljali preživljate
+81	3081	nizozemski	nizozemske nizozemskega nizozemskem nizozemskih nizozemskim
+82	3082	urnik	urnika urnike urniki urnikih urnikom urnikov urniku
+83	3083	skuša	skuše skušo
+84	3084	svetilka	svetilk svetilkah svetilkami svetilke svetilko
+85	3085	kurec	kurac kurc kurca kurce kurcem kurcev kurci kurcih kurcu
+86	3086	kap	kapi
+87	3087	klinika	klinik klinikah klinike kliniki kliniko
+88	3088	nadzoren	nadzorna nadzorne nadzornega nadzornem nadzornemu nadzorni nadzornih nadzorno
+89	3089	osmi	osma osme osmega osmem osmim osmo
+90	3090	kabina	kabin kabinah kabine kabini kabino
+91	3091	izboljšanje	izboljšanja izboljšanju
+92	3092	lobanja	lobanj lobanjah lobanjami lobanje lobanji lobanjo
+93	3093	zmešati	zmeša zmešajte zmešal zmešalo zmešamo zmešate
+94	3094	prebuditi	prebudi prebudijo prebudil prebudila prebudili prebudilo prebudimo
+95	3095	upornik	upornike uporniki upornikov
+96	3096	obveznost	obveznosti obveznostih obveznostim
+97	3097	pisen	pisna pisne pisnega pisnem pisni pisnih pisnim pisno
+98	3098	odreči	odrekel odrekla odrekli odreklo
+99	3099	izdajalec	izdajalca izdajalce izdajalcem izdajalcev izdajalci izdajalcih izdajalcu
+100	3100	sodba	sodb sodbe sodbi sodbo

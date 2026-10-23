@@ -1,0 +1,100 @@
+1	5401	minutka	minutke minutko
+2	5402	konkurenčen	konkurenčna konkurenčne konkurenčnega konkurenčni konkurenčnih konkurenčno
+3	5403	uprizoritev	uprizoritve uprizoritvi
+4	5404	mravlja	mravljah mravljam mravljami mravlje mravlji mravljo
+5	5405	preizkušati	preizkuša preizkušajo preizkušal preizkušala preizkušali preizkušamo preizkušate
+6	5406	kolektiven	kolektivna kolektivne kolektivnega kolektivni kolektivnih kolektivno
+7	5407	okužiti	okuži okužijo okužil okužimo
+8	5408	listje	listja listjem listju
+9	5409	staranje	staranja staranjem staranju
+10	5410	limona	limon limonah limonami limone limoni limono
+11	5411	jev	jevega jevih
+12	5412	tobak	tobaka tobakom
+13	5413	kompas	kompasa kompase kompasi kompasom kompasu
+14	5414	pionir	pionirja pionirjev pionirji
+15	5415	zavetišče	zavetišča
+16	5416	pingvin	pingvina pingvine pingvini pingvinih pingvinom pingvinov pingvinu
+17	5417	priloga	prilog prilogami priloge prilogi prilogo
+18	5418	odvetniški	odvetniška odvetniške odvetniških odvetniško
+19	5419	ravnina	ravnin ravninah ravnine ravnini ravnino
+20	5420	hec	heca
+21	5421	prototip	prototipa prototipe prototipu
+22	5422	kamion	kamiona kamione kamioni kamionih kamionom kamionov kamionu
+23	5423	premoč	premogel premogla premore premorejo premoremo premoči premočjo
+24	5424	namizen	namizna namizne namiznega namiznem namizni namiznih namizno
+25	5425	grm	grma grme grmom grmov grmu
+26	5426	katedrala	katedral katedrale katedrali katedralo
+27	5427	blagoslovljen	blagoslovljena blagoslovljene blagoslovljenega blagoslovljeni blagoslovljenih blagoslovljeno
+28	5428	kopališče	kopališča kopališču
+29	5429	spodoba	spodobi
+30	5430	debelina	debeline debelino
+31	5431	obdelan	obdelana obdelane obdelani obdelanih obdelano
+32	5432	kupa	kupe kupeja kupeju kupo
+33	5433	izpuščaj	izpuščaja izpuščaje izpuščajem izpuščajev izpuščaji izpuščaju
+34	5434	komuniciranje	komuniciranja komuniciranju
+35	5435	oživiti	oživi oživijo oživil oživile oživili
+36	5436	nemiren	nemirna nemirne nemirnega nemirni nemirnih nemirno
+37	5437	slučaj	slučajih
+38	5438	pomeriti	pomeri pomerijo pomeril pomerila pomerile pomerili
+39	5439	bunker	bunkerju
+40	5440	tresti	trese tresejo tresel tresete tresite tresla treslo
+41	5441	življenjepis	življenjepisa
+42	5442	format	formata formate formati formatov formatu
+43	5443	parameter	parametra parametre parametri parametrov
+44	5444	poudarjen	poudarjena poudarjene poudarjeni poudarjeno
+45	5445	svinec	svinca svincem svincu
+46	5446	iluzija	iluzij iluzije
+47	5447	podstrešje	podstrešja podstrešju
+48	5448	dimnik	dimnika dimnike dimniki dimnikih dimnikom dimnikov dimniku
+49	5449	lutkoven	lutkovna lutkovne lutkovnega lutkovnem lutkovni lutkovnih lutkovno
+50	5450	izrecen	izrecna izrecne izrecno
+51	5451	nadomesten	nadomestne nadomestnega nadomestnih nadomestnim nadomestnimi nadomestno
+52	5452	njiva	njiv njivah njive njivi njivo
+53	5453	onesnaževanje	onesnaževanja onesnaževanjem onesnaževanju
+54	5454	zvonec	zvonca zvonce zvoncem zvoncev zvonci zvoncu
+55	5455	policistka	policistk policistke policistki policistko
+56	5456	priročen	priročna priročnega priročnem priročni priročnih priročno
+57	5457	rabin	rabina rabine rabini rabinom rabinov rabinu
+58	5458	krajinski	krajinskega krajinskem krajinskih krajinsko
+59	5459	moka	moke moki moko
+60	5460	nihanje	nihanja nihanjem
+61	5461	zaživeti	zaživel zaživela zaživeli zaživelo zaživi zaživijo zaživite
+62	5462	abeceda	abecede abecedi abecedo
+63	5463	pnevmatika	pnevmatik pnevmatike pnevmatiko
+64	5464	trojen	trojna trojnega trojni trojno
+65	5465	trdnost	trdnosti
+66	5466	pokojnina	pokojnin pokojnine pokojnini pokojnino
+67	5467	izbruhniti	izbruhnil izbruhnila izbruhnili
+68	5468	zdravilišče	zdravilišč zdravilišča zdravilišču
+69	5469	očarati	očara očaral očarala očarale očarali očaralo očaraš
+70	5470	farmacevtski	farmacevtska farmacevtske farmacevtskih
+71	5471	zaročenec	zaročenca
+72	5472	zateči	zatekel zatekla zatekle zatekli zateklo zateče zatečejo zatečem zatečemo zatečeš
+73	5473	spored	sporeda sporedi sporedu
+74	5474	ventil	ventila ventili ventilov
+75	5475	onemogočiti	onemogoči onemogočijo onemogočil onemogočila onemogočili onemogočilo
+76	5476	registrski	registrska registrske registrskih registrskimi registrsko
+77	5477	kanček	kančka kančkom
+78	5478	izgovoriti	izgovori izgovorijo izgovoril izgovorila izgovorili izgovorim izgovorimo izgovorite izgovoriva izgovoriš
+79	5479	bon	boni bonih bonom bonov bonu
+80	5480	projekcija	projekcij projekcije projekciji projekcijo
+81	5481	privabiti	privabi privabijo privabil privabila privabili privabilo
+82	5482	nastavljen	nastavljena nastavljene nastavljeno
+83	5483	gravitacija	gravitacije gravitaciji gravitacijo
+84	5484	okupacija	okupacije okupaciji okupacijo
+85	5485	uboj	uboja ubojem
+86	5486	lipa	lipe lipi lipo
+87	5487	suženjstvo	suženjstva suženjstvom suženjstvu
+88	5488	postopno	
+89	5489	newyorški	newyorške newyorškega newyorškem newyorških newyorško
+90	5490	zmes	zmesi zmesjo
+91	5491	podvig	podviga podvige podvigi podvigih podvigov podvigu
+92	5492	labirint	labirinta labirinte labirinti labirintu
+93	5493	skrbnik	skrbnike skrbniki skrbnikom skrbnikov
+94	5494	osumljen	osumljena osumljeni osumljenih osumljenim osumljeno
+95	5495	mrk	mrka mrkega mrki mrku
+96	5496	etika	etike
+97	5497	madžarsko	
+98	5498	bronast	bronasti bronasto
+99	5499	mirovati	miroval mirovala mirovalo miruj miruje mirujejo
+100	5500	strmoglaviti	strmoglavil strmoglavila strmoglavili

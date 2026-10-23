@@ -1,0 +1,100 @@
+1	1501	goreti	gorela gorenje goreč gori gorijo gorim gorimo gorita gorite goriš
+2	1502	dotakniti	dotakne dotaknejo dotaknem dotaknemo dotakneta dotaknete dotakneva dotakneš dotakni dotaknil dotaknila dotaknile dotaknili dotaknilo dotaknimo dotaknit dotaknita dotaknite dotaknjen
+3	1503	odhajati	odhaja odhajajo odhajal odhajala odhajali odhajam odhajamo odhajate
+4	1504	hlače	hlač hlačah hlačam hlačami
+5	1505	izvesti	izvede izvedejo izvedemo izvedla izvedle izvedli izvedlo izvezla
+6	1506	tikati	tika tikaj tikajte tikajva tikala tikalo tikam tikata tikava tikaš tiče tičejo
+7	1507	naravnost	
+8	1508	zadaj	
+9	1509	olje	olj olja oljem olji olju
+10	1510	pacient	pacienta paciente pacienti pacientih pacientov pacientova pacientovega pacientovo pacientu
+11	1511	nastanek	nastanka nastankom nastanku
+12	1512	zadržati	zadržal zadržala zadržale zadržali zadržan zadržana zadržani zadržano zadrži zadržijo zadržim zadržite
+13	1513	ptica	ptic pticah pticam pticami ptice ptici ptico
+14	1514	prenašati	prenaša prenašajo prenašal prenašala prenašale prenašali prenašam prenašamo prenašate
+15	1515	luna	lun lunah lunami lune luni luno
+16	1516	poročnik	poročnika poročnike poročniki poročnikom poročnikov poročniku
+17	1517	uho	ušes ušesa ušesi ušesih ušesom ušesoma ušesu
+18	1518	izpustiti	izpustijo izpustil izpustila izpustili izpustimo izpustite
+19	1519	poškodovan	poškodovana poškodovane poškodovanega poškodovani poškodovanih poškodovanim poškodovanimi poškodovano
+20	1520	filmski	filmska filmske filmskega filmskem filmskih filmsko
+21	1521	agencija	agencij agencijah agencijam agencijami agencije agenciji agencijo
+22	1522	poškodovati	poškodoval poškodovala poškodovale poškodovali poškodovalo poškoduje poškodujejo poškodujemo poškodujeta poškodujete
+23	1523	generacija	generacij generacije generaciji generacijo
+24	1524	združiti	združi združijo združil združila združile združili združilo združim združimo združite združiva združiš
+25	1525	prekiniti	prekine prekinejo prekinete prekinil prekinila prekinile prekinili prekinilo prekinite
+26	1526	smejati	smej smejal smejala smejale smejali smejalo smejanje smejat smeje smejejo smejem smejemo smejeta smejete smejeva smeješ smeji smejijo smejim smejimo smejita smejite smejiva smejiš smejmo smejta smejte
+27	1527	objavljen	objavljena objavljene objavljenega objavljenem objavljeni objavljenih objavljeno
+28	1528	ključen	ključna ključne ključnega ključni ključnih ključno
+29	1529	delen	delna delne delni delnim delno
+30	1530	zagotavljati	zagotavlja zagotavljajo zagotavljal zagotavljala zagotavljale zagotavljali zagotavljalo zagotavljam zagotavljamo zagotavljata
+31	1531	sporočiti	sporoči sporočijo sporočili sporočim sporočite
+32	1532	trpeti	trpe trpel trpela trpeli trpelo trpi trpijo trpim trpimo trpita trpite trpiva trpiš
+33	1533	dejati	dejal dejala dejali
+34	1534	rana	ranah ranam ranami rane rani rano
+35	1535	rojstvo	rojstev rojstva rojstvih rojstvom rojstvu
+36	1536	zmenek	zmenke zmenkov zmenku
+37	1537	urad	urada uradi uradih uradom uradov uradu
+38	1538	poročati	poroča poročajo poročajte poročal poročala poročali poročamo
+39	1539	odgovornost	odgovornosti odgovornostih odgovornostjo
+40	1540	ustanova	ustanov ustanovah ustanovam ustanovami ustanove ustanovi ustanovo
+41	1541	smel	
+42	1542	ustrezen	najustreznejši ustrezna ustrezne ustreznega ustreznem ustrezni ustreznih ustreznim ustreznimi ustrezno
+43	1543	vaja	vaj vajah vajami vaje vaji vajo
+44	1544	zlat	zlate zlatega zlatem zlatemu zlati zlatih zlatimi
+45	1545	razložiti	razloži razložijo razložil razložila razložili razložimo razložite
+46	1546	krven	krvna krvne krvnega krvnem krvnemu krvni krvnih krvnim krvno
+47	1547	podati	podaj podajmo podajte podal podala podali podalo podamo podate
+48	1548	telefonski	telefonska telefonske telefonskega telefonskem telefonskih telefonsko
+49	1549	spust	spusta spusti spustom spustu
+50	1550	začasen	začasna začasne začasnega začasnem začasni začasnih začasnim začasno
+51	1551	odpustiti	odpustijo odpustil odpustila odpustili odpustilo odpustim odpustite
+52	1552	časoven	časovna časovne časovnega časovnem časovni časovnih časovnim časovno
+53	1553	dobivati	dobiva dobivajo dobival dobivala dobivamo dobivate
+54	1554	nož	noža nože nožem nožev noži nožih nožu
+55	1555	pokal	pokala pokale pokali pokalov pokalu
+56	1556	prebivalstvo	prebivalstva prebivalstvom prebivalstvu
+57	1557	proga	prog progah progam progami proge progi progo
+58	1558	pošiljati	pošilja pošiljajo pošiljal pošiljala pošiljali pošiljam pošiljamo
+59	1559	dolžnost	dolžnosti
+60	1560	povezati	povezal povezala povezale povezali povezalo poveže povežejo povežem povežemo povežete povežite
+61	1561	datum	datuma datume datumi datumih datumom datumov datumu
+62	1562	nedolžen	nedolžna nedolžne nedolžnega nedolžni nedolžnih nedolžnimi nedolžno
+63	1563	znanstvenik	znanstvenika znanstvenike znanstveniki znanstvenikom znanstvenikov
+64	1564	končen	končna končne končnega končnem končnemu končni končnih končnim
+65	1565	kakršen	kakršna kakršne kakršnega kakršnem kakršnemu kakršni kakršnih kakršnim kakršnimi kakršno
+66	1566	načrtovati	načrtoval načrtovala načrtovali načrtuje načrtujejo načrtujem načrtujemo načrtujeta načrtujete načrtujte
+67	1567	odhod	odhoda odhode odhodih odhodom odhodu
+68	1568	vodilen	vodilna vodilne vodilnega vodilni vodilnih vodilnim vodilnimi vodilno
+69	1569	prevoz	prevoza prevoze prevozi prevozih prevozom prevozov prevozu
+70	1570	oglas	oglasa oglase oglasi oglasih oglasom oglasov oglasu
+71	1571	letalski	letalska letalske letalskega letalskem letalskih letalskim letalskimi letalsko
+72	1572	posadka	posadk posadkami posadke posadki posadko
+73	1573	organizirati	organizira organizirajmo organizirajo organizirajte organiziral organizirala organizirale organizirali organiziralo organiziramo organizirata
+74	1574	prireditev	prireditvah prireditve prireditvi prireditvijo
+75	1575	palica	palco palic palicah palicami palice palici palico
+76	1576	zmagovalec	zmagovalca zmagovalce zmagovalcem zmagovalcev zmagovalci zmagovalcu
+77	1577	slaven	najslavnejši najslavnejših slavna slavne slavnega slavnejši slavnem slavnemu slavni slavnih slavnim slavnimi slavno
+78	1578	zaščiten	zaščitena zaščitene zaščitenem zaščiteni zaščiteno zaščitna zaščitne zaščitnega zaščitni zaščitnih zaščitnim zaščitnimi zaščitno
+79	1579	oblikovati	oblikoval oblikovala oblikovale oblikovali oblikovalo oblikuje oblikujejo oblikujemo oblikujte
+80	1580	pošta	pošte pošti pošto
+81	1581	zimski	zimska zimske zimskega zimskem zimskih zimskim zimskimi zimsko
+82	1582	bob	boba
+83	1583	znajti	znajde znajdejo znajdemo znajdeta znajdete znašel znašla znašle znašli znašlo
+84	1584	urejen	urejena urejene urejenega urejenem urejeni urejenih urejenimi urejeno
+85	1585	zavod	zavoda zavode zavodi zavodih zavodom zavodov zavodu
+86	1586	dojenček	dojenčica dojenčka dojenčke dojenčki dojenčkih dojenčkom dojenčkov dojenčku
+87	1587	opravljen	opravljena opravljene opravljenega opravljenem opravljeni opravljenih opravljeno
+88	1588	plačevati	plačeval plačevala plačevale plačevali plačuje plačujejo plačujem plačujemo plačujeta
+89	1589	laboratorij	laboratorija laboratorije laboratorijem laboratorijev laboratoriji laboratorijih laboratoriju
+90	1590	utrujen	utrujena utrujene utrujenega utrujeni utrujenih utrujenim utrujeno
+91	1591	tveganje	tveganj tveganja tveganjem tveganji tveganjih tveganju
+92	1592	bedak	bedaka bedake bedaki bedakih bedakom bedakoma bedakov bedaku
+93	1593	tarča	tarč tarčah tarčam tarčami tarče tarči tarčo
+94	1594	srček	srčka srčki srčku
+95	1595	pisanje	pisanja pisanjem pisanju
+96	1596	tovarna	tovarn tovarnah tovarne tovarni tovarno
+97	1597	turnir	turnirja turnirje turnirjem turnirjev turnirji turnirjih turnirju
+98	1598	zmeraj	zmer
+99	1599	spoštovati	spoštoval spoštovala spoštovale spoštovali spoštovalo spoštuje spoštujejo spoštujem spoštujemo
+100	1600	izdelan	izdelana izdelane izdelanega izdelani izdelanih izdelanim izdelano

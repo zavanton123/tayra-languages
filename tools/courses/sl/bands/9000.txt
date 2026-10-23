@@ -1,0 +1,100 @@
+1	8901	obnavljanje	obnavljanja
+2	8902	poseliti	poselili poseljen poseljena poseljeno
+3	8903	zasilen	zasilna zasilni zasilnih
+4	8904	odklopiti	odklopil odklopili
+5	8905	brihten	brihtna brihtne brihtnega brihtni brihtnimi brihtno
+6	8906	konoplja	konoplje konopljo
+7	8907	diktatura	diktature
+8	8908	junaštvo	junaštva
+9	8909	liberalec	liberalce liberalcev liberalci
+10	8910	klanec	klancu
+11	8911	slovaško	
+12	8912	obmorski	obmorska obmorskih obmorsko
+13	8913	zaščitniški	zaščitniško
+14	8914	mladiček	mladički
+15	8915	zmedenost	zmedenosti
+16	8916	najaviti	najavil najavili najavite
+17	8917	vročica	vročici
+18	8918	lira	lir lire
+19	8919	brezobziren	brezobzirna brezobzirne brezobzirnega brezobzirni brezobzirnih brezobzirno
+20	8920	kopalen	kopalna kopalne kopalni kopalnih kopalno
+21	8921	hlap	hlape hlapi hlapih hlapov
+22	8922	pakiranje	pakiranja pakiranjem
+23	8923	kratkoročen	kratkoročna kratkoročne kratkoročnega kratkoročni kratkoročnih kratkoročno
+24	8924	ugoditi	ugodil ugodila ugodilo
+25	8925	neskladje	neskladja neskladju
+26	8926	umivalnik	umivalnikom
+27	8927	izmenjati	izmenjajo izmenjal izmenjala izmenjali
+28	8928	predvajalnik	predvajalnika predvajalnikom predvajalniku
+29	8929	prehranjevalen	prehranjevalne prehranjevalni prehranjevalnih prehranjevalno
+30	8930	prekmurski	prekmurskih
+31	8931	minevati	mineva minevala
+32	8932	hipertenzija	hipertenzije hipertenzijo
+33	8933	predstavljanje	predstavljanja
+34	8934	prezreti	prezrli
+35	8935	spuščen	spuščena spuščeni spuščenimi
+36	8936	številčnost	številčnosti
+37	8937	razplet	razpleta razpletu
+38	8938	oblikoven	oblikovne oblikovno
+39	8939	napihnjen	napihnjena napihnjeni
+40	8940	obraniti	obrani obranijo obranil obranila obranili obranim obranimo obranite obraniš
+41	8941	priseljevanje	priseljevanja
+42	8942	poslastica	poslastic poslastice
+43	8943	golazen	golazni golaznijo
+44	8944	povečava	povečave povečavi povečavo
+45	8945	dvojezičen	dvojezična dvojezičnih dvojezično
+46	8946	zlatiti	zlatim
+47	8947	trnovski	trnovska trnovskega
+48	8948	gazela	gazel gazele gazelo
+49	8949	zakriti	zakrije zakrijemo zakrila
+50	8950	hladiti	hladi hladijo hladil hladila hladim hladimo hladite hladiš
+51	8951	dopolnilo	
+52	8952	botrovati	botroval botrovala botrovalo
+53	8953	sanacija	sanacije sanacijo
+54	8954	kadilec	kadilce kadilcev kadilci
+55	8955	odraslost	odraslosti
+56	8956	vrabec	vrabca vrabce vrabcem vrabcev vrabci vrabcih vrabcu
+57	8957	oznaniti	oznanil oznanili
+58	8958	aroma	arom arome aromo
+59	8959	ovčji	ovčja ovčje ovčjo
+60	8960	blagajnik	blagajnika blagajnike blagajniki blagajnikom blagajniku
+61	8961	bizon	bizona bizone bizoni bizonom bizonov bizonu
+62	8962	avion	aviona
+63	8963	materija	materiji materijo
+64	8964	zlomek	zlomka
+65	8965	mislec	misleci
+66	8966	vrtiljak	vrtiljaku
+67	8967	usmrtiti	usmrtijo
+68	8968	prehajanje	prehajanja prehajanju
+69	8969	sociološki	sociološke sociološkega sociološko
+70	8970	presek	preseka presekam
+71	8971	telekomunikacija	telekomunikacij telekomunikacije
+72	8972	lenoba	lenobe
+73	8973	integriran	integrirane integrirani
+74	8974	optimist	optimisti
+75	8975	prelivati	preliva prelivajo prelivali
+76	8976	hiška	hiške
+77	8977	buditi	budi
+78	8978	čep	čepi
+79	8979	želodčen	želodčna želodčne želodčnega želodčni želodčnih
+80	8980	madžarščina	madžarščine madžarščini
+81	8981	okoljevarstven	okoljevarstvena okoljevarstvene okoljevarstvenih okoljevarstveno
+82	8982	bančništvo	bančništva bančništvu
+83	8983	olimpijada	olimpijadi
+84	8984	maksimum	maksimuma
+85	8985	pretrgati	pretrga pretrgal pretrgala pretrgale pretrgalo
+86	8986	ogorčen	ogorčena ogorčene ogorčeni ogorčeno
+87	8987	stoti	stotimi stoto
+88	8988	ion	ionov
+89	8989	odjemalec	odjemalca odjemalcev odjemalci
+90	8990	križanec	križancev križanci
+91	8991	vpet	vpeta vpeti
+92	8992	dostojanstven	dostojanstvena dostojanstvenega dostojanstveni dostojanstveno
+93	8993	jastreb	jastreba jastrebe jastrebi jastrebom jastrebov
+94	8994	zaudarjati	zaudarja zaudarjajo zaudarjal zaudarjala zaudarjalo zaudarjam zaudarjate zaudarjaš
+95	8995	pokončati	pokončala
+96	8996	lubje	lubja lubjem
+97	8997	à	
+98	8998	nagrobnik	nagrobnika nagrobniki nagrobnikih nagrobniku
+99	8999	toleranca	toleranco
+100	9000	konjak	konjaka konjakom konjaku

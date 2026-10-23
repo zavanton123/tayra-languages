@@ -1,0 +1,100 @@
+1	5001	plavanje	plavanja plavanjem plavanju
+2	5002	zavirati	zavira zavirajo zaviral zavirala
+3	5003	vznožje	vznožja vznožjem vznožju
+4	5004	koncerten	koncertna koncertnega koncertni koncertnih koncertno
+5	5005	komentirati	komentira komentirajo komentiral komentirala komentiram komentirate
+6	5006	poimenovanje	poimenovanj poimenovanja poimenovanju
+7	5007	uredništvo	uredništva uredništvu
+8	5008	hotelski	hotelska hotelske hotelskih
+9	5009	selekcija	selekcij selekcije selekciji selekcijo
+10	5010	možakar	možakarja možakarjem možakarjev možakarji
+11	5011	laserski	laserska laserske laserskega laserskih laserskim laserskimi lasersko
+12	5012	nadeti	nadel nadeli nadene nadenem nadenete
+13	5013	lupina	lupin lupine lupini lupino
+14	5014	vihar	viharja viharje viharjem viharjev viharji viharjih viharju
+15	5015	okrašen	okrašena okrašene okrašeni okrašenih okrašeno
+16	5016	kašelj	kašlja kašljem kašlju
+17	5017	prebivati	prebiva prebivajo prebivala prebivali
+18	5018	ugotavljanje	ugotavljanja ugotavljanjem ugotavljanju
+19	5019	goljufati	goljufa goljufaj goljufajo goljufajte goljufal goljufala goljufali goljufam goljufamo goljufata goljufate goljufava goljufaš
+20	5020	pazljiv	pazljiva pazljivi
+21	5021	družaben	družabna družabnega družabnem družabnih družabno
+22	5022	bratovščina	bratovščine
+23	5023	seminar	seminarja seminarje seminarjev seminarji seminarjih seminarju
+24	5024	argument	argumenta argumente argumenti argumentih argumentom argumentov argumentu
+25	5025	potrpljenje	potrpljenja
+26	5026	pobudnik	pobudnika pobudniki pobudnikov
+27	5027	lekarna	lekarn lekarnah lekarne lekarni lekarno
+28	5028	drzen	drzna drznih drzno predrzno
+29	5029	krški	krške krškega krškem
+30	5030	opozicija	opozicije opoziciji opozicijo
+31	5031	hišica	hišic hišici hišico
+32	5032	proizvoden	proizvodna proizvodne proizvodnega proizvodni proizvodnih
+33	5033	diskriminacija	diskriminacije diskriminaciji diskriminacijo
+34	5034	pisateljica	pisateljice pisateljici
+35	5035	veteran	veterana veterane veterani veteranom veteranov veteranu
+36	5036	koma	komi
+37	5037	polotok	polotoka polotoku
+38	5038	krik	krika krike kriki krikih krikom krikov kriku
+39	5039	uvoden	uvodna uvodne uvodnega uvodnem uvodni uvodnih uvodno
+40	5040	litij	litija
+41	5041	reža	rež reže reži režo
+42	5042	vzlet	vzleta vzletom vzletu
+43	5043	nasesti	nasede nasedejo nasedel nasedla nasedle nasedli
+44	5044	knjižica	knjižic knjižice knjižici knjižico
+45	5045	zaročen	zaročena zaročno
+46	5046	zavrnitev	zavrnitve zavrnitvi zavrnitvijo
+47	5047	uničevanje	uničevanja uničevanjem uničevanju
+48	5048	vključitev	vključitve vključitvi vključitvijo
+49	5049	sekundaren	sekundarne sekundarnega sekundarni sekundarnih sekundarno
+50	5050	oporišče	oporišč oporišča oporiščih oporišču
+51	5051	vpogled	vpogleda
+52	5052	mineralen	mineralna mineralne mineralnih mineralno
+53	5053	nesramen	nesramna nesramne
+54	5054	zapolniti	zapolni zapolnijo zapolnil zapolnila zapolnile zapolnili zapolnimo zapolnite
+55	5055	televizor	televizorje televizorjem televizorjev televizorji televizorju
+56	5056	pešec	pešca pešce pešcem pešcev pešci
+57	5057	utrujenost	utrujenosti utrujenostjo
+58	5058	uvajanje	uvajanja uvajanjem uvajanju
+59	5059	limuzina	limuzin limuzinami limuzine limuzino
+60	5060	bera	beri bero
+61	5061	atentat	atentata atentati atentatov atentatu
+62	5062	privrženec	privržence privržencem privržencev privrženci
+63	5063	izgnati	izgnal izgnala izgnali izžene
+64	5064	vasica	vasice vasici vasico
+65	5065	škarje	škarij škarjah škarjami
+66	5066	plakat	plakata plakate plakati plakatih plakatom plakatov plakatu
+67	5067	sadež	sadeža sadeže sadežem sadežev sadeži sadežu
+68	5068	veleposlanik	veleposlanika veleposlanike veleposlaniki veleposlanikom veleposlanikov veleposlanikova veleposlaniku
+69	5069	bataljon	bataljona bataljonov
+70	5070	ribnik	ribnika ribniki ribnikih ribnikov ribniku
+71	5071	grb	grbom grbu
+72	5072	galaksija	galaksij galaksije
+73	5073	testen	testna testne testnega testnem testni testnih testno
+74	5074	svetovanje	svetovanja svetovanjem svetovanju
+75	5075	varovan	varovana varovanega varovanem varovani varovanih varovano
+76	5076	matica	matice matici matico
+77	5077	smučar	smučarja smučarje smučarjev smučarji
+78	5078	reva	reve
+79	5079	videvati	videva videval videvala videvamo
+80	5080	napaden	napadena napadeni
+81	5081	čut	čuta čute čutih čutom čutov čutu
+82	5082	sošolec	sošolca sošolce sošolcem sošolcev sošolci sošolcu
+83	5083	jez	jezom jezov jezove jezovi jezu
+84	5084	olajšanje	olajšanja olajšanjem
+85	5085	popravljati	popravlja popravljajo popravljala popravljali popravljamo
+86	5086	tunel	tunela tunele tuneli
+87	5087	kosmič	kosmiče kosmičev kosmiči
+88	5088	zvočnik	zvočnike zvočniki zvočnikom zvočnikov zvočniku
+89	5089	daljava	daljavi daljavo
+90	5090	zasedanje	zasedanj zasedanja zasedanju
+91	5091	drseti	drsel drseli drsenje drsi drsijo drsim drsimo drsiš
+92	5092	kancler	kanclerja kanclerjem
+93	5093	povratek	povratka povratku
+94	5094	be	
+95	5095	čeljust	čeljusti
+96	5096	federacija	federacije federaciji federacijo
+97	5097	skrivališče	skrivališča skrivališčih skrivališču
+98	5098	netopir	netopirja netopirje netopirjem netopirjev netopirji netopirjih netopirju
+99	5099	zaročenka	zaročenke zaročenki zaročenko
+100	5100	navkljub	
