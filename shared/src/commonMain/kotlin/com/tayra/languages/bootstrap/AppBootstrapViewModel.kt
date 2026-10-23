@@ -59,7 +59,8 @@ class AppBootstrapViewModel(
                 courses.seedSamples()
                 coursePacks.refresh()
                 bookPacks.refresh()
-                learningLanguage.ensure()
+                // The first language is the user's choice: the app asks for it.
+                learningLanguage.ensure(pickUnchosen = false)
                 chineseScripts?.prepareIfUsed()
                 cutWords?.migrate()
                 emptyExceptions?.migrate()

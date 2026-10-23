@@ -122,6 +122,8 @@ internal val deCommon: Map<String, String> = mapOf(
     "Learning language: {0}" to "Lernsprache: {0}",
     "Choose a language" to "Sprache wählen",
     "Switch the language you're learning" to "Lernsprache wechseln",
+    "Select target language" to "Zielsprache wählen",
+    "Choose the language you want to study" to "Wähle die Sprache, die du lernen möchtest",
     "Search languages" to "Sprachen suchen",
     "Current language" to "Aktuelle Sprache",
     "All languages" to "Alle Sprachen",

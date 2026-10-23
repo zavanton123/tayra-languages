@@ -57,6 +57,21 @@ class LearningLanguageTest {
         assertEquals(portuguese, service.ensure())
     }
 
+    /** The app leaves the first language to the user; one that is gone is still replaced. */
+    @Test
+    fun anUnchosenLanguageIsLeftForTheUser() = runBlocking<Unit> {
+        val provider = DatabaseProvider(DatabaseDriverFactory(File.createTempFile("tayra-learning-unchosen", ".db").also { it.delete() }))
+        val languages = LanguageRepositoryImpl(provider)
+        val settings = SettingsRepositoryImpl(MapSettings())
+        val service = LearningLanguageService(settings, languages, BookRepositoryImpl(provider))
+        val czech = languages.save(Language(name = "Czech"))
+        assertEquals(0, service.ensure(pickUnchosen = false))
+        assertEquals(0, settings.current.currentLanguageId)
+
+        settings.update { it.copy(currentLanguageId = 987_654) }
+        assertEquals(czech, service.ensure(pickUnchosen = false))
+    }
+
     @Test
     fun theNativeLanguageIsNeverTheOneLearned() = runBlocking<Unit> {
         val provider = DatabaseProvider(DatabaseDriverFactory(File.createTempFile("tayra-learning-native", ".db").also { it.delete() }))

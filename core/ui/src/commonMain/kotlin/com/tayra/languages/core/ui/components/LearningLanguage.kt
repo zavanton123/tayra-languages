@@ -279,13 +279,20 @@ private fun PhoneSectionTitle(title: String, note: String? = null) {
     }
 }
 
+/** Asks for the language to learn while none is chosen, as on first start; it stays until one is. */
+@Composable
+fun TargetLanguageDialog(state: LearningLanguageState) {
+    LanguageDialog(state, onDismiss = {}, required = true)
+}
+
 /**
  * The languages to choose from, as a dialog: the current one first with the words known in it,
  * then every other one as a tile in a grid, narrowed by a search box that has the focus from the
- * start. The native language is listed but cannot be chosen.
+ * start on wide screens. The native language is listed but cannot be chosen. A [required] choice
+ * has no way to close the dialog but choosing.
  */
 @Composable
-private fun LanguageDialog(state: LearningLanguageState, onDismiss: () -> Unit) {
+private fun LanguageDialog(state: LearningLanguageState, onDismiss: () -> Unit, required: Boolean = false) {
     val colors = MaterialTheme.colorScheme
     val width = LocalWindowWidth.current
     val columns = when (width) {
@@ -295,18 +302,23 @@ private fun LanguageDialog(state: LearningLanguageState, onDismiss: () -> Unit) 
     }
     var query by remember { mutableStateOf("") }
     val focus = remember { FocusRequester() }
-    LaunchedEffect(Unit) { runCatching { focus.requestFocus() } }
+    // A phone's keyboard would cover the languages.
+    LaunchedEffect(Unit) { if (!width.isCompact) runCatching { focus.requestFocus() } }
     val needle = query.trim().lowercase()
     val others = state.choices.filter { it != state.current && it.matches(needle) }
     val current = state.current?.takeIf { it.matches(needle) }
-    AppDialogSurface(onDismissRequest = onDismiss, modifier = Modifier.fillMaxHeight(0.92f), maxWidth = 1160.dp) {
+    AppDialogSurface(onDismissRequest = onDismiss, modifier = Modifier.fillMaxHeight(0.92f).testTag(if (required) "target-language-dialog" else "language-dialog"), maxWidth = 1160.dp, dismissible = !required) {
         Column(Modifier.padding(horizontal = if (width.isCompact) AppSpacing.xl else AppSpacing.xxxl, vertical = AppSpacing.xxl)) {
             Row(verticalAlignment = Alignment.Top) {
                 Column(Modifier.weight(1f)) {
-                    Text(tr("Choose a language"), style = AppText.screenTitle)
-                    Text(tr("Switch the language you're learning"), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
+                    Text(if (required) tr("Select target language") else tr("Choose a language"), style = AppText.screenTitle)
+                    Text(
+                        if (required) tr("Choose the language you want to study") else tr("Switch the language you're learning"),
+                        style = MaterialTheme.typography.bodyLarge,
+                        color = colors.onSurfaceVariant,
+                    )
                 }
-                AppIconButton(Icons.Default.Close, contentDescription = tr("Close"), onClick = onDismiss, style = IconButtonStyle.Tonal, tint = colors.onSurface)
+                if (!required) AppIconButton(Icons.Default.Close, contentDescription = tr("Close"), onClick = onDismiss, style = IconButtonStyle.Tonal, tint = colors.onSurface)
             }
             SearchField(
                 value = query,

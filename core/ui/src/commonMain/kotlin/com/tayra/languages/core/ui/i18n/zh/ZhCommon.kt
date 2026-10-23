@@ -122,6 +122,8 @@ internal val zhCommon: Map<String, String> = mapOf(
     "Learning language: {0}" to "学习语言：{0}",
     "Choose a language" to "选择语言",
     "Switch the language you're learning" to "切换学习语言",
+    "Select target language" to "选择目标语言",
+    "Choose the language you want to study" to "选择你想学习的语言",
     "Search languages" to "搜索语言",
     "Current language" to "当前语言",
     "All languages" to "全部语言",

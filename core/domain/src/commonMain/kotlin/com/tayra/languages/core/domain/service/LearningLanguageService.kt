@@ -17,11 +17,14 @@ class LearningLanguageService(
      * Makes sure a language that still exists is chosen, picking one when none is: the language
      * of the book read last, else of any book, else the first by name, passing over the native
      * language while another one is there. Returns its id, or 0 when there are no languages.
+     * While none was ever chosen (0, as on first start), one is picked only when [pickUnchosen]:
+     * otherwise it is left for the user to choose.
      */
-    suspend fun ensure(): Long {
+    suspend fun ensure(pickUnchosen: Boolean = true): Long {
         val every = languages.getAll()
         val current = settings.current.currentLanguageId
         if (every.any { it.id == current }) return current
+        if (current == 0L && !pickUnchosen) return 0
         val all = every.filterNot { isNative(it) }.ifEmpty { every }
         val shelf = books.observeBooks(archived = false).first().filter { book -> all.any { it.id == book.languageId } }
         val pick = shelf.filter { it.lastOpened != null }.maxByOrNull { it.lastOpened!! }?.languageId

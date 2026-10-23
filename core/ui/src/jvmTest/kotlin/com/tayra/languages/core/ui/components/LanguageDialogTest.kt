@@ -11,6 +11,7 @@ import androidx.compose.ui.test.isRoot
 import androidx.compose.ui.test.assertIsDisplayed
 import androidx.compose.ui.test.onAllNodesWithTag
 import androidx.compose.ui.test.onAllNodesWithText
+import androidx.compose.ui.test.onAllNodesWithContentDescription
 import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.onNodeWithContentDescription
@@ -59,6 +60,22 @@ class LanguageDialogTest {
         open(compact = false)
         onNodeWithText("29 languages").assertExists()
         save("LANGUAGE_DIALOG_SCREENSHOT")
+    }
+
+    /** With no language chosen yet, as on first start, the dialog asks for one and cannot be closed without choosing. */
+    @Test
+    fun theFirstLanguageIsAskedFor() = runDesktopComposeUiTest(width = 420, height = 900) {
+        val chosen = mutableListOf<Long>()
+        val state = LearningLanguageState(names.mapIndexed { i, n -> (i + 1L) to n }, 0L, nativeIds = setOf(9L)) { chosen += it }
+        setContent { TayraTheme { ProvideWindowWidth { TargetLanguageDialog(state) } } }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Select target language").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("Choose the language you want to study").assertExists()
+        onNodeWithText("30 languages").assertExists()
+        assertEquals(0, onAllNodesWithTag("current-language").fetchSemanticsNodes().size)
+        assertEquals(0, onAllNodesWithContentDescription("Close").fetchSemanticsNodes().size)
+        save("TARGET_LANGUAGE_DIALOG_SCREENSHOT")
+        onNodeWithTag("language-be").performClick()
+        assertEquals(listOf(2L), chosen)
     }
 
     /** On a phone the selector does not open a dialog: it leads to the language screen. */

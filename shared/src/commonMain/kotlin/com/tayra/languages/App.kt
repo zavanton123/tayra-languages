@@ -28,6 +28,7 @@ import com.tayra.languages.core.domain.service.ChineseScriptService
 import com.tayra.languages.core.domain.service.LearningLanguageService
 import com.tayra.languages.core.ui.components.LearningLanguageState
 import com.tayra.languages.core.ui.components.LocalLearningLanguage
+import com.tayra.languages.core.ui.components.TargetLanguageDialog
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.remember
@@ -57,7 +58,8 @@ import com.tayra.languages.core.ui.theme.AppSpacing
 
 /**
  * Gives every screen's top bar the choice of the language being learned, and picks a language
- * again whenever the chosen one is gone (deleted, or the database was reset). Choosing another
+ * again whenever the chosen one is gone. While none is chosen (first start, a deleted language or
+ * a reset database), the user has to choose one before going on. Choosing another
  * language opens its courses ([onChosen]), asks for its vocabulary level when it was never given
  * one, and then offers what it can download.
  */
@@ -78,7 +80,7 @@ private fun ProvideLearningLanguage(currentId: Long, onChosen: () -> Unit, conte
     var setupPending by remember { mutableStateOf<Long?>(null) }
     var setupFor by remember { mutableStateOf<Long?>(null) }
     LaunchedEffect(currentId, languages) {
-        if (languages.isNotEmpty() && languages.none { it.id == currentId }) learning.ensure()
+        if (languages.isNotEmpty() && languages.none { it.id == currentId }) learning.ensure(pickUnchosen = false)
     }
     val state = remember(languages, currentId, native, knownWords) {
         // The native language is listed but cannot be chosen for learning.
@@ -110,6 +112,7 @@ private fun ProvideLearningLanguage(currentId: Long, onChosen: () -> Unit, conte
     val script = languages.firstOrNull { it.id == currentId }?.chineseScript
     CompositionLocalProvider(LocalLearningLanguage provides state, LocalLearnedScript provides script) {
         content()
+        if (currentId == 0L && languages.isNotEmpty()) TargetLanguageDialog(state)
         VocabularyLevelPrompt(askLevelFor, onClosed = {
             askLevelFor = null
             setupFor = setupPending
