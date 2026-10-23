@@ -1,0 +1,215 @@
+{
+  "id": "ca-mini-3500",
+  "rankUpTo": 3500,
+  "level": "B2",
+  "title": "Tecnologia i societat",
+  "description": "Stories, a column and an interview about technology in everyday life: a community radio, satellite internet in the mountains, a printed leg for a dog, a phone course for retired people, a first electric car, a digitised railway archive, screen habits at home, a neighbourhood compost app, robots in toy factories and a school underwater robot.",
+  "topic": "Technology and society",
+  "names": [
+    "Castellterçol",
+    "Moianès",
+    "RCC",
+    "Gregori",
+    "Thais",
+    "Xesca",
+    "Castelldefels",
+    "Barcelona",
+    "Alins",
+    "Pallars Sobirà",
+    "Severí",
+    "Nuno",
+    "Torredembarra",
+    "Kuki",
+    "Rebeca",
+    "Siena",
+    "Josefa",
+    "Petrer",
+    "Elda",
+    "Fede",
+    "Pepi",
+    "Alacant",
+    "Macià",
+    "Bunyola",
+    "Mallorca",
+    "Tamara",
+    "Deià",
+    "Elionor",
+    "la Pobla de Segur",
+    "Lleida",
+    "Arnald Sanchis",
+    "Arnald",
+    "Marcel·lí",
+    "Teresina Miralles",
+    "Calaf",
+    "Hortènsia",
+    "Guerau",
+    "Ibi",
+    "Melània Sanç",
+    "Melània",
+    "Jonàs",
+    "Biela",
+    "Alcanar",
+    "Tarragona",
+    "Antoni",
+    "Trabucador",
+    "Ebre"
+  ],
+  "lessons": [
+    {
+      "title": "La ràdio del veïnat",
+      "summary": "In Castellterçol, Thais is named the new director of the volunteer community radio; when the old aerial keeps cutting the signal, the whole neighbourhood pays for a new one.",
+      "newWords": [
+        "emissora",
+        "sigla",
+        "lucrar",
+        "mensual",
+        "antena",
+        "nomenament",
+        "veïnat",
+        "lleure",
+        "amable",
+        "interrompre"
+      ],
+      "text": "A Castellterçol, un poble del Moianès, hi ha una emissora petita que tothom coneix per les seves sigles: RCC, és a dir, Ràdio Comunitària de Castellterçol. La van fundar fa vint-i-cinc anys un grup de veïns, i encara avui és una associació sense ànim de lucre. Ningú no s'hi lucra: els locutors són voluntaris, i la quota mensual dels socis només serveix per pagar la llum, el lloguer del local i el manteniment de l'antena.\n\nAquest setembre l'emissora estrena directora. A la reunió mensual dels socis, en Gregori, que l'ha dirigida des del principi, va anunciar el nomenament de la Thais, una noia de vint-i-sis anys que treballa de mestra i fa un programa els dissabtes. A tothom li va semblar bé el nomenament. «L'emissora necessita idees noves», va dir en Gregori.\n\nLa Thais té un pla senzill: vol que la ràdio sigui la veu de tot el veïnat. Durant la primera setmana passeja pels carrers amb el mòbil i pregunta als veïns què fan en el seu temps de lleure. Una dona li parla del club de lectura; un noi, de l'equip de bàsquet; dos avis, de les partides de cartes a la plaça. Tots són molt amables i tenen ganes d'explicar-li coses. Amb aquestes veus prepara un programa nou: «El lleure del veïnat».\n\nPerò hi ha un problema antic. Quan plou o fa vent, el senyal s'interromp. Els oients escolten una cançó i, de cop, només se sent un soroll. L'antena, a dalt d'un turó, té més de vint anys.\n\nEl primer dissabte del programa nou comença a ploure. Al cap de poc, el senyal torna a interrompre's. La Thais rep missatges d'oients amables però tristos: «Ara que parlaven del meu fill!»\n\nL'endemà, en Gregori puja al turó amb un veí que és electricista. La conclusió és clara: cal una antena nova. Costa tres mil euros, i l'emissora no els té.\n\nLa Thais no es rendeix. Proposa als oients una cosa senzilla: que cada família del veïnat que pugui hi posi cinc euros, una sola vegada. Ho anuncia per la ràdio i penja cartells a les botigues. En tres setmanes arriben més de tres-cents donatius, i el forn de pa del poble hi posa la resta.\n\nA l'octubre, en Gregori i l'electricista instal·len l'antena nova. Des d'aleshores, ni la pluja ni el vent no interrompen el senyal. I cada dissabte, el programa sobre el lleure del veïnat comença amb la mateixa frase: «Bon dia, Castellterçol. Aquesta és la vostra emissora.»\n\nPreguntes:\nQuè volen dir les sigles RCC?\nVolen dir Ràdio Comunitària de Castellterçol.\nPer què ningú no es lucra amb l'emissora?\nPerquè és una associació sense ànim de lucre i els locutors són voluntaris.\nQuin nomenament es va anunciar a la reunió mensual?\nEs va anunciar el nomenament de la Thais com a nova directora.\nQuè pregunta la Thais als veïns?\nEls pregunta què fan en el seu temps de lleure.\nPer què s'interromp el senyal?\nPerquè l'antena és vella i, quan plou o fa vent, el senyal s'interromp.\nCom paga l'emissora l'antena nova?\nAmb els donatius de les famílies del veïnat i del forn de pa."
+    },
+    {
+      "title": "Internet per satèl·lit",
+      "summary": "Xesca, a graphic designer tired of the noise and commuting on the coast, moves to an old house near Alins, and satellite internet, with help from her farmer neighbour Severí, lets her work from the mountains.",
+      "newWords": [
+        "litoral",
+        "fart",
+        "desplaçament",
+        "hectàrea",
+        "vegetació",
+        "silenciós",
+        "satèl·lit",
+        "naturalment",
+        "raonable"
+      ],
+      "text": "La Xesca és dissenyadora gràfica i treballa amb l'ordinador. Durant deu anys va viure a Castelldefels, al litoral, en un pis a dues passes de la platja. Li agradava el mar, però estava farta del soroll, del trànsit i dels desplaçaments a Barcelona dos dies per setmana, quan havia d'anar a l'oficina. Cada desplaçament li costava una hora i mitja entre anar i tornar.\n\nL'any passat, la seva empresa li va dir que podia treballar des de casa tota la setmana. Aleshores la Xesca va prendre una decisió: deixaria el litoral i se n'aniria a viure a la muntanya. Va trobar una casa antiga a prop d'Alins, al Pallars Sobirà, amb dues hectàrees de prat i bosc. Al voltant, la vegetació és espessa: avets, pins, falgueres i, a la primavera, flors per tot arreu. És un lloc silenciós; de nit només se sent el riu.\n\nPerò una dissenyadora necessita una bona connexió, i allà no n'hi havia. La fibra no arriba a la vall, i el senyal del mòbil va i ve. Els primers dies, la Xesca havia de baixar a la biblioteca del poble del costat per enviar els fitxers als clients.\n\nLa solució va ser internet per satèl·lit. Un tècnic va pujar a la casa i va instal·lar una antena petita a la teulada. La connexió per satèl·lit és ràpida i, naturalment, funciona a qualsevol lloc des d'on es vegi el cel. El preu, uns cinquanta euros al mes, li sembla raonable.\n\nHi havia un detall: l'antena havia de veure el cel sense obstacles, i un avet molt alt en tapava una part. En Severí, el veí, un pagès de setanta anys que té vaques a les hectàrees del costat, li va proposar una solució raonable: en lloc de tallar l'arbre, van pujar l'antena tres metres amb un pal de fusta.\n\nEn Severí mirava l'antena amb curiositat. «I aquest plat parla amb un satèl·lit que és a l'espai?», va preguntar.\n\n«Naturalment», va dir la Xesca, i li va explicar que hi ha milers de satèl·lits que giren al voltant de la Terra.\n\nAra la Xesca treballa davant d'una finestra plena de vegetació. Ja no està farta de res: no fa desplaçaments, no perd hores al cotxe i, quan acaba la feina, surt a caminar pel bosc silenciós. De tant en tant en Severí li porta formatge, i ella l'ajuda a fer videotrucades amb el seu nét, que viu a Barcelona.\n\nPreguntes:\nOn vivia la Xesca abans?\nVivia a Castelldefels, al litoral, a prop de la platja.\nDe què estava farta?\nEstava farta del soroll, del trànsit i dels desplaçaments a Barcelona.\nCom és la casa que va trobar a prop d'Alins?\nÉs una casa antiga amb dues hectàrees de prat i bosc, en un lloc silenciós.\nPer què li va caldre internet per satèl·lit?\nPerquè la fibra no arriba a la vall i el senyal del mòbil va i ve.\nQuina solució raonable va proposar en Severí?\nVa proposar pujar l'antena tres metres amb un pal en lloc de tallar l'arbre."
+    },
+    {
+      "title": "Una pota per al Kuki",
+      "summary": "Nuno, a sixth-form student in Torredembarra, and his classmate Siena copy and adapt an online design to print a small prosthesis for his dog Kuki, who was born with one short front leg.",
+      "newWords": [
+        "batxillerat",
+        "pota",
+        "postura",
+        "clínica",
+        "diagnòstic",
+        "teràpia",
+        "copiar",
+        "fabricació",
+        "imaginació"
+      ],
+      "text": "En Nuno estudia segon de batxillerat tecnològic a l'institut de Torredembarra. Viu amb els seus pares i amb en Kuki, un gos petit i blanc que va néixer amb una pota del davant més curta que les altres. En Kuki corre i juga com qualsevol gos, però camina amb una postura estranya, una mica de costat, i a vegades li fa mal l'esquena.\n\nUn dissabte, en Nuno el porta a la clínica veterinària del poble. La veterinària, la Rebeca, l'examina amb calma. El diagnòstic és tranquil·litzador: en Kuki no té cap malaltia. El problema és la postura. Com que carrega tot el pes sobre tres potes, l'esquena treballa massa.\n\n«Li aniria bé una pròtesi petita per a la pota curta», explica la Rebeca, «i una mica de teràpia: exercicis i massatges, dues vegades per setmana, aquí a la clínica.» Però una pròtesi feta a mida és molt cara.\n\nAl vespre, en Nuno pensa en el diagnòstic i en la pròtesi, i té una idea. A l'aula de tecnologia de l'institut hi ha una impressora en tres dimensions. L'endemà ho explica a la Siena, la seva companya de batxillerat, que és la que més en sap de disseny per ordinador.\n\n«No cal inventar res», diu la Siena. «A internet hi ha models gratuïts de pròtesis per a gossos. En podem copiar un i adaptar-lo a la pota d'en Kuki.»\n\nEls dos amics mesuren la pota curta amb molta cura, i la Rebeca els dona les mides exactes que té a la clínica. Copien un model, el modifiquen a l'ordinador i en fan el seu treball de recerca de batxillerat.\n\nLa fabricació no és fàcil. La primera peça surt massa dura; la segona, massa tova. La fabricació de cada prova dura sis hores, i la impressora fa un soroll que no deixa estudiar ningú. Però hi posen molta imaginació: a la tercera prova afegeixen a la punta un tros de goma d'una sabatilla vella, perquè la pota no rellisqui a terra.\n\nQuan la pròtesi està acabada, la porten a la clínica. La Rebeca la mira amb atenció i la troba ben feta. En Kuki, al principi, no vol caminar: mira la peça nova amb desconfiança. Però al cap de tres sessions de teràpia ja camina amb una postura gairebé normal.\n\nAl juny, en Nuno i la Siena presenten el treball davant de tres professors. Hi porten en Kuki, que entra a l'aula amb la seva pota nova i saluda tothom. Els professors els feliciten per la imaginació i per la feina ben feta.\n\nPreguntes:\nPer què en Kuki camina amb una postura estranya?\nPerquè va néixer amb una pota del davant més curta que les altres.\nQuin diagnòstic fa la Rebeca a la clínica?\nDiu que en Kuki no té cap malaltia i que el problema és la postura.\nQuè fan en Nuno i la Siena per no començar de zero?\nCopien un model de pròtesi d'internet i l'adapten a la pota d'en Kuki.\nPer què la fabricació no és fàcil?\nPerquè les primeres peces surten massa dures o massa toves, i cada prova dura sis hores.\nCom ajuda la teràpia en Kuki?\nAl cap de tres sessions de teràpia ja camina amb una postura gairebé normal."
+    },
+    {
+      "title": "Classes de mòbil a la biblioteca",
+      "summary": "Josefa, a retired shoe-factory worker in Petrer, joins a library course for retired people when her bank branch closes, and with the help of the educator Fede and the assistant Pepi learns to pay money into her account from her phone.",
+      "newWords": [
+        "jubilar",
+        "ingressar",
+        "ordinari",
+        "educador",
+        "auxiliar",
+        "pànic",
+        "pedagògic",
+        "inclús"
+      ],
+      "text": "La Josefa té setanta-dos anys i fa set anys que està jubilada. Va treballar quaranta anys en una fàbrica de sabates de Petrer, i mai no ha necessitat l'ordinador. Té un mòbil, però només el fa servir per trucar a la seva filla. Per a tota la resta, prefereix el paper, el telèfon fix i el correu ordinari.\n\nAquest any, però, el banc ha tancat l'oficina del seu barri. Fins ara, cada mes hi anava a ingressar els diners que cobra pel lloguer d'un garatge. Ara l'oficina més propera és a Elda, i el director li ha dit que és més senzill ingressar els diners amb l'aplicació del mòbil.\n\nA la biblioteca de Petrer organitzen un curs gratuït per a persones jubilades. El fa en Fede, un educador social de trenta anys, amb l'ajuda de la Pepi, l'auxiliar de la biblioteca. El primer dia, quan la pantalla del mòbil s'omple de finestres i avisos, a la Josefa li agafa pànic. «Això no és per a mi», pensa. «Jo soc de paper i de correu ordinari.»\n\nPerò en Fede és un bon educador i té un mètode pedagògic molt clar: una sola cosa per classe, i repetir-la fins que surti sola. «Aquí no hi ha preguntes ximples», diu. «Si una cosa no s'entén, la culpa és meva, no vostra.» Els alumnes apunten cada pas en una llibreta, amb lletra grossa.\n\nLa primera setmana aprenen a fer fotos i a enviar-les. La segona, a fer una videotrucada. La tercera, a consultar l'horari de l'autobús. La quarta arriba la lliçó més difícil: com ingressar diners i fer pagaments amb l'aplicació del banc.\n\nLa Josefa torna a tenir pànic. Té por d'equivocar-se i d'enviar els diners a una persona desconeguda. La Pepi, l'auxiliar, seu al seu costat i l'ajuda amb paciència. «Primer comprovi el número del compte. Ara, a poc a poc», li diu. Inclús li proposa una prova amb un sol euro. L'euro arriba al compte, i la Josefa respira.\n\nAl final del curs, en Fede explica que el secret pedagògic és molt senzill: tenir temps i no tenir pressa. La Josefa ja ingressa sola els diners del garatge, i inclús envia fotos del seu nét a les amigues. Però a la seva germana, que viu a Alacant, li continua escrivint cartes per correu ordinari. «Hi ha coses que no s'han de canviar», diu.\n\nPreguntes:\nQuant de temps fa que la Josefa està jubilada?\nFa set anys que està jubilada.\nPer què ha d'aprendre a fer servir l'aplicació del banc?\nPerquè el banc ha tancat l'oficina del barri on anava a ingressar els diners.\nQui fa el curs de la biblioteca?\nEl fa en Fede, un educador social, amb l'ajuda de la Pepi, l'auxiliar de la biblioteca.\nQuin és el mètode pedagògic d'en Fede?\nUna sola cosa per classe, i repetir-la fins que surti sola.\nQuè fa la Pepi quan la Josefa té pànic?\nSeu al seu costat, l'ajuda amb paciència i inclús li proposa una prova amb un sol euro."
+    },
+    {
+      "title": "Un cotxe que no fa soroll",
+      "summary": "Macià, from Bunyola in Mallorca, wants to replace his twenty-year-old petrol car; an honest saleswoman lets him test an electric car on the winding road to Deià, and he buys it.",
+      "newWords": [
+        "venedor",
+        "realista",
+        "cinturó",
+        "accelerar",
+        "corb",
+        "tapa",
+        "aparcar"
+      ],
+      "text": "En Macià viu a Bunyola, a Mallorca, i ha conduït cotxes de gasolina tota la vida. El seu cotxe actual té vint anys i comença a fallar. Aquest hivern ha decidit que el pròxim serà elèctric, però té molts dubtes: no sap quants quilòmetres pot fer amb una càrrega, ni on el carregarà, ni si s'hi acostumarà.\n\nUn dissabte va a una botiga de cotxes elèctrics. El rep una venedora jove, la Tamara, que l'escolta amb atenció. En Macià ja ha parlat amb altres venedors, i tots li han promès meravelles. La Tamara, en canvi, és realista.\n\n«Amb una càrrega pot fer uns tres-cents cinquanta quilòmetres; a l'hivern, una mica menys», li explica. «Si vostè vol fer viatges llargs cada setmana, potser no és el cotxe adequat. Però per moure's per l'illa n'hi ha de sobres.»\n\nA en Macià li agrada que una venedora sigui realista i no li vulgui vendre el cotxe més car. Accepta fer una prova.\n\nS'asseuen al cotxe, i la Tamara li recorda que es posi el cinturó. En Macià es corda el cinturó i engega el motor. No sent res. «Ja està en marxa?», pregunta. «Sí, sí. Els elèctrics no fan soroll», diu ella, i riu.\n\nSurten de Bunyola cap a Deià, per una carretera plena de corbes. Al primer tram recte, en Macià accelera una mica, i el cotxe respon tan de pressa que s'espanta. «Compte», diu la Tamara, «aquest cotxe accelera molt més que el seu.» A les corbes, en canvi, el cotxe és estable i segur. En Macià agafa cada corba amb calma i, a poc a poc, perd la por.\n\nA Deià, la Tamara li ensenya com es carrega. Al costat del llum del darrere hi ha una tapa petita. S'obre la tapa, es connecta el cable i, quan s'ha acabat, es tanca la tapa. «És com omplir el dipòsit, però a casa i de nit», explica.\n\nAbans de tornar, la Tamara li vol ensenyar que el cotxe pot aparcar sol. En Macià ho prova i el cotxe aparca perfectament entre dos cotxes. Però ell diu que prefereix aparcar ell mateix, com sempre.\n\nUna setmana després, en Macià compra el cotxe. El primer dia l'aparca a la plaça del poble, i els veïns s'hi acosten a mirar-lo. Ell obre la tapa del carregador i els explica tot el que li va ensenyar la Tamara.\n\nPreguntes:\nPer què en Macià vol canviar de cotxe?\nPerquè el seu cotxe té vint anys i comença a fallar.\nPer què li agrada la Tamara?\nPerquè és una venedora realista i no li vol vendre el cotxe més car.\nQuè li passa quan accelera per primera vegada?\nEl cotxe respon tan de pressa que s'espanta.\nCom és la carretera de Bunyola a Deià?\nÉs una carretera plena de corbes.\nCom es carrega el cotxe?\nS'obre la tapa, es connecta el cable i, quan s'ha acabat, es tanca la tapa."
+    },
+    {
+      "title": "L'expedient del besavi",
+      "summary": "For her school research project, Elionor from la Pobla de Segur searches the railway company's newly digitised archive and by chance finds the staff record of her great-grandfather Arnald, who worked on the line for 38 years.",
+      "newWords": [
+        "avantpassat",
+        "ferrocarril",
+        "mixt",
+        "passatge",
+        "casualitat",
+        "expedient",
+        "antiguitat",
+        "remarcar",
+        "gòtic",
+        "culminar"
+      ],
+      "text": "L'Elionor té disset anys i viu a la Pobla de Segur, el poble on acaba la línia de tren que surt de Lleida. Per al treball de recerca de batxillerat ha triat un tema que li toca de prop: la història del ferrocarril a la comarca. A casa sempre han dit que algun avantpassat seu hi havia treballat, però ningú no en sap gaire res.\n\nFa poc, l'empresa de ferrocarrils ha digitalitzat el seu arxiu històric, i ara milers de documents antics es poden consultar per internet. Les primeres setmanes l'Elionor llegeix horaris, cartes i fotos. Aprèn que, durant molts anys, a la línia hi circulaven trens mixtos: el mateix tren portava mercaderies i passatge. Als vagons de davant hi anaven sacs de farina, fusta i bestiar; als del darrere, el passatge, és a dir, els veïns que anaven a mercat o a visitar la família. Un tren mixt podia trigar més de quatre hores a fer el viatge.\n\nUn vespre, l'Elionor busca fotos de l'estació de la Pobla i, per pura casualitat, troba una carpeta amb el nom de la seva família. És l'expedient d'un treballador: Arnald Sanchis, el seu besavi. L'expedient té quaranta pàgines, i l'Elionor les llegeix totes. Hi ha la data en què el besavi va començar a treballar, el 1949, i la data en què es va jubilar, el 1987: trenta-vuit anys d'antiguitat a la mateixa empresa. Hi ha també les notes dels seus caps. Un d'ells remarca que l'Arnald era «molt puntual i molt amable amb el passatge». Un altre remarca que sabia arreglar qualsevol màquina.\n\nL'Elionor ensenya l'expedient a l'àvia, que es posa a plorar d'alegria. «Quina casualitat més bonica», diu. «El meu pare parlava sempre dels trens mixtos.»\n\nL'arxiu original, amb els papers de debò, és a Lleida, en un edifici gòtic del centre. Un dissabte, l'Elionor i l'àvia hi van amb el tren. L'arxiver, en Marcel·lí, les rep a la sala gran, sota els arcs gòtics, i els deixa veure l'expedient original. L'àvia reconeix de seguida la signatura del seu pare.\n\nEl treball de l'Elionor culmina al juny amb una petita exposició a l'estació de la Pobla. Hi ha fotos de l'arxiu, un mapa de la línia del ferrocarril i, al mig, una còpia de l'expedient del besavi. Molts veïns hi van i hi busquen, a les fotos, la cara dels seus avantpassats.\n\nPreguntes:\nQuin tema ha triat l'Elionor per al treball de recerca?\nHa triat la història del ferrocarril a la comarca.\nQuè era un tren mixt?\nEra un tren que portava mercaderies i passatge alhora.\nCom troba l'Elionor l'expedient del besavi?\nEl troba per pura casualitat, quan busca fotos de l'estació de la Pobla.\nQuina antiguitat tenia l'Arnald a l'empresa?\nTenia trenta-vuit anys d'antiguitat.\nQuè remarca un dels seus caps?\nRemarca que era molt puntual i molt amable amb el passatge.\nCom culmina el treball de l'Elionor?\nCulmina amb una petita exposició a l'estació de la Pobla."
+    },
+    {
+      "title": "Sis hores de pantalla",
+      "summary": "A light opinion column: a mother finds out that the whole family, and she most of all, spends far more time on screens than they thought, and they change three habits at home.",
+      "newWords": [
+        "ignorància",
+        "excés",
+        "saludable",
+        "hàbit",
+        "contradicció",
+        "enfocament",
+        "independentment",
+        "essència"
+      ],
+      "text": "Fa uns mesos, durant un sopar, vaig fer una petita enquesta a casa. Vaig preguntar a cada membre de la família quantes hores passava al dia davant d'una pantalla. El meu fill gran, de quinze anys, va dir que dues. La petita, d'onze, va dir que una. El meu home va dir que «poques». Jo vaig dir que tres, i em vaig sentir molt sincera. L'endemà vam mirar les dades que guarda el mateix mòbil. Tots havíem mentit, i jo més que ningú: passava gairebé sis hores al dia davant de pantalles.\n\nNo era una qüestió d'ignorància. Sabia perfectament que l'excés de pantalles no és saludable: ho diuen els metges, ho diuen els mestres i ho diu el sentit comú. Però una cosa és saber-ho i una altra és canviar els hàbits. I aquí hi havia una contradicció que em feia vergonya: jo, que renyava els meus fills per l'excés de mòbil, era la primera que el mirava a taula.\n\nVaig parlar amb la tutora de la meva filla. A l'escola, em va explicar, tenen un enfocament interessant: no prohibeixen les pantalles, sinó que ensenyen a fer-ne un ús saludable. L'enfocament és senzill: no es tracta de comptar minuts, sinó de decidir per a què les fem servir. Mirar un documental en família no és el mateix que passar una hora saltant de vídeo en vídeo.\n\nA casa vam decidir canviar tres hàbits. Primer: a taula, cap pantalla, independentment de qui siguis o de qui et truqui. Segon: a la nit, els mòbils dormen a la cuina, no a les habitacions. Tercer: el diumenge al matí és per sortir a caminar, independentment del temps que faci.\n\nAl principi va costar. La primera setmana, la meva filla em va recordar dues vegades la meva pròpia contradicció: jo havia agafat el mòbil a taula per «mirar només una cosa». Tenia raó, i li ho vaig dir.\n\nAra, tres mesos després, no som una família perfecta. Encara mirem massa sèries i encara caiem en l'excés algun cap de setmana de pluja. Però he après una cosa. L'essència del problema no era la pantalla, sinó tot el que deixàvem de fer mentre la miràvem: parlar a taula, avorrir-nos una mica, llegir un llibre. Aquesta és l'essència d'un hàbit saludable: no és el que treus, sinó el que recuperes.\n\nTeresina Miralles\n\nPreguntes:\nQuantes hores passava l'autora davant de pantalles?\nPassava gairebé sis hores al dia davant de pantalles.\nPer què diu que no era una qüestió d'ignorància?\nPerquè sabia perfectament que l'excés de pantalles no és saludable.\nQuina contradicció li feia vergonya?\nRenyava els seus fills per l'excés de mòbil, però ella el mirava a taula.\nQuin enfocament té l'escola de la seva filla?\nNo prohibeix les pantalles, sinó que ensenya a fer-ne un ús saludable.\nQuins tres hàbits van canviar a casa?\nCap pantalla a taula, els mòbils dormen a la cuina i el diumenge al matí surten a caminar.\nQuina és, segons ella, l'essència del problema?\nNo era la pantalla, sinó tot el que deixaven de fer mentre la miraven."
+    },
+    {
+      "title": "El compost del carrer Major",
+      "summary": "In Calaf, the agronomist Hortènsia starts a neighbourhood composting project and the student Guerau builds a simple app with sensors; the neighbours' fear of bad smells fades and the park gets a year's worth of compost.",
+      "newWords": [
+        "problemàtica",
+        "compost",
+        "potenciar",
+        "mediambiental",
+        "adherir",
+        "majoritari",
+        "fàstic",
+        "rastre",
+        "abundant",
+        "flora"
+      ],
+      "text": "A Calaf, com a molts pobles, la brossa orgànica és una problemàtica de fa anys. Les restes de menjar van al mateix contenidor que la resta, i un camió se les emporta lluny. L'Hortènsia, una veïna del carrer Major que és enginyera agrònoma, va pensar que hi havia una solució més senzilla: fer compost al mateix barri.\n\nEl compost és una terra fosca i rica que s'obté de les restes orgàniques: pells de fruita, verdura, fulles seques. Amb temps, aire i una mica d'aigua, uns éssers petits del sòl ho transformen tot en menjar per a les plantes.\n\nL'Hortènsia va proposar a l'ajuntament posar tres caixes grans de compost en un solar buit. L'ajuntament, que vol potenciar els projectes de caràcter mediambiental, hi va estar d'acord, però va posar una condició: que almenys cinquanta famílies s'hi adherissin.\n\nAquí va entrar en Guerau, un noi del barri que estudia informàtica. Va crear una aplicació senzilla: cada família adherida al projecte hi té un usuari, hi apunta quan porta restes i pot veure quina caixa és plena. Uns aparells petits mesuren la temperatura i la humitat del compost i envien les dades al mòbil.\n\nAl principi, molts veïns tenien dubtes. L'opinió majoritària era que el compost faria pudor i portaria mosques. «Em fa fàstic només de pensar-hi», va dir una veïna a la primera reunió. L'Hortènsia els va convidar a veure un projecte semblant en un poble del costat. Allà no hi havia ni rastre de mala olor: només feia olor de bosc humit. Aquella visita va canviar l'opinió majoritària, i en un mes s'hi havien adherit setanta famílies.\n\nAra, un any després, el projecte funciona gairebé sol. L'aplicació avisa quan cal remenar el compost o afegir-hi fulles seques, i si la temperatura baixa massa, ho indica en vermell. Els veïns ja no hi veuen res que faci fàstic, i l'ajuntament vol potenciar la idea en altres barris.\n\nI el compost? És abundant: aquesta primavera n'han fet més de mil quilos. Una part se l'emporten els veïns per als seus testos, i la resta va al parc del poble. Gràcies a una terra tan rica, la flora del parc és més variada que mai: hi ha flors que no s'hi havien vist mai, i la collita de l'hort escolar també ha estat abundant. De la problemàtica de la brossa orgànica, al carrer Major ja no en queda ni rastre.\n\nPreguntes:\nQuina problemàtica hi havia a Calaf?\nLes restes de menjar anaven al mateix contenidor que la resta de la brossa.\nPer què l'ajuntament va acceptar el projecte?\nPerquè vol potenciar els projectes de caràcter mediambiental.\nQuina condició va posar l'ajuntament?\nQue almenys cinquanta famílies s'hi adherissin.\nQuina era l'opinió majoritària dels veïns al principi?\nQue el compost faria pudor i portaria mosques.\nQuè van trobar al poble del costat?\nNo hi havia ni rastre de mala olor.\nQuè fan amb el compost, que ara és abundant?\nUna part se l'emporten els veïns i la resta va al parc del poble.\nCom és ara la flora del parc?\nLa flora del parc és més variada que mai."
+    },
+    {
+      "title": "Robots i persones a Ibi",
+      "summary": "A short magazine interview: the economist Melània Sanç explains how the toy factories of Ibi have filled with robots and still hire people, what training workers need, and why young technicians must not be paid a pittance.",
+      "newWords": [
+        "economista",
+        "sospita",
+        "dotar",
+        "altament",
+        "graduar",
+        "activament",
+        "misèria",
+        "àmpliament"
+      ],
+      "text": "Ibi és coneguda com la ciutat de les joguines: fa més de cent anys que s'hi fabriquen nines, cotxes i trens de joguina. En els últims anys, però, les seves fàbriques s'han omplert de robots. Per entendre què ha canviat, hem parlat amb l'economista Melània Sanç, que fa deu anys que estudia la relació entre la tecnologia i el treball a la comarca. Ens rep al seu despatx, ple de joguines antigues.\n\nComencem per la pregunta que es fa tothom. Molts treballadors tenen la sospita que els robots els prendran la feina. És justa, aquesta sospita? «Entenc la sospita», respon l'economista, «però les dades diuen una altra cosa. A Ibi, en els últims quinze anys, les fàbriques s'han dotat de robots i, alhora, han contractat més gent, no menys. El que ha canviat és el tipus de feina. Abans, moltes persones feien la mateixa peça vuit hores al dia. Ara aquesta feina la fa una màquina, i les persones programen, controlen i reparen les màquines.»\n\nI els treballadors més grans, que no han fet mai servir un ordinador? «Aquesta és la part difícil», admet. «Per treballar amb robots cal formació. Les empreses que ho fan bé doten els seus treballadors de cursos pagats, dins l'horari de feina. Una empresa que es dota de robots i no dota la seva gent de formació s'equivoca.»\n\nHi ha prou gent preparada? «No. Les empreses busquen perfils altament qualificats, i costa trobar-los. Cada any es graduen a la comarca uns quants tècnics de formació professional, i molts ja tenen feina abans de graduar-se.» Segons la Melània, els joves han de participar activament en la vida de l'empresa: proposar idees, fer preguntes, aprendre dels companys més grans. «I les empreses han de buscar activament el talent, a les escoles i als instituts.»\n\nTambé té un missatge per als empresaris. «Si volen gent altament preparada, no poden pagar una misèria. Un tècnic jove que cobra una misèria se'n va a una altra ciutat, i no torna.»\n\nFa deu anys, aquestes idees no interessaven gaire ningú. Avui, explica, es comenten àmpliament a les empreses, a les escoles i a la premsa. «És un tema que s'ha estudiat àmpliament, i ja sabem una cosa: els robots no es cansen, però tampoc no tenen idees. Les idees, de moment, les posem les persones.»\n\nPreguntes:\nPer què és coneguda Ibi?\nÉs coneguda com la ciutat de les joguines.\nQuina sospita tenen molts treballadors?\nTenen la sospita que els robots els prendran la feina.\nQuè han fet les fàbriques d'Ibi en els últims quinze anys?\nS'han dotat de robots i, alhora, han contractat més gent.\nQuins perfils busquen les empreses?\nBusquen perfils altament qualificats.\nPer què les empreses no poden pagar una misèria als tècnics joves?\nPerquè un tècnic jove que cobra una misèria se'n va a una altra ciutat i no torna."
+    },
+    {
+      "title": "El robot del Trabucador",
+      "summary": "Jonàs and Biela, from the robotics team of a secondary school in Alcanar, test their underwater robot at the sandy peninsula of the Trabucador, solve a knotted cable and this time pass the semifinal in Tarragona.",
+      "newWords": [
+        "semifinal",
+        "decepció",
+        "desafiar",
+        "península",
+        "màscara",
+        "nus",
+        "admirar"
+      ],
+      "text": "En Jonàs i la Biela formen part de l'equip de robòtica de l'institut d'Alcanar. L'any passat van arribar a la semifinal d'un concurs de robots submarins que es fa cada any a Tarragona. Però el dia de la semifinal, el seu robot es va aturar al mig de la piscina i no es va tornar a moure. Va ser una gran decepció, i en Jonàs encara se'n recorda cada vegada que passa per davant de la piscina del poble.\n\nAquest any ho tornen a provar, amb l'ajuda del professor de tecnologia, l'Antoni. El concurs desafia els equips a construir un robot que pugui mesurar la temperatura de l'aigua i recollir objectes del fons. «Aquest any no hi haurà cap decepció», diu la Biela, convençuda.\n\nPer provar el robot al mar, l'Antoni els porta al delta de l'Ebre, a la península de sorra del Trabucador. És una península llarga i estreta, i a banda i banda l'aigua és tranquil·la i poc profunda. És el lloc perfecte per a les proves.\n\nLa Biela es posa una màscara de busseig i entra a l'aigua per seguir el robot de prop. Amb la màscara ho veu tot clar: les algues, els peixos petits i el robot, que avança a poc a poc pel fons. En Jonàs el dirigeix des de la sorra amb un comandament.\n\nDe sobte, el robot s'atura. La Biela s'acosta i ho veu de seguida: el cable que el connecta amb el comandament ha fet un nus i s'ha enganxat en una roca. Desfà el nus amb paciència i el robot torna a moure's. Però en Jonàs ha entès el problema de l'any passat: «Llavors també devia ser un nus!»\n\nAquella setmana, a l'institut, inventen una solució: un tub flexible que guia el cable i no deixa que es faci cap nus. A la segona prova a la península, el robot treballa una hora sense aturar-se.\n\nArriba el dia de la semifinal. Els organitzadors desafien els equips a recollir tres objectes del fons de la piscina en cinc minuts. El robot d'Alcanar ho fa en quatre. Els membres del jurat s'hi acosten i admiren el sistema del tub. «Mai no havíem vist una solució tan senzilla», diuen.\n\nL'Antoni admira els seus alumnes: han après més d'una decepció que de qualsevol llibre. L'equip d'Alcanar ha passat la semifinal, i al maig anirà a la final, a Barcelona.\n\nPreguntes:\nQuè va passar a la semifinal de l'any passat?\nEl robot es va aturar al mig de la piscina i va ser una gran decepció.\nA què desafia el concurs els equips?\nEls desafia a construir un robot que pugui mesurar la temperatura de l'aigua i recollir objectes del fons.\nOn fan les proves al mar?\nLes fan a la península de sorra del Trabucador, al delta de l'Ebre.\nPer què es posa la Biela una màscara?\nPer seguir el robot de prop sota l'aigua.\nQuin problema troba la Biela?\nEl cable ha fet un nus i s'ha enganxat en una roca.\nQuè admiren els membres del jurat?\nAdmiren el sistema del tub que guia el cable."
+    }
+  ]
+}
