@@ -19,9 +19,12 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.widthIn
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.KeyboardArrowRight
 import androidx.compose.material.icons.filled.Check
+import androidx.compose.material.icons.filled.Close
 import androidx.compose.material.icons.filled.KeyboardArrowDown
 import androidx.compose.material.icons.filled.Warning
 import androidx.compose.material3.Icon
@@ -30,6 +33,7 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
@@ -48,13 +52,16 @@ import com.tayra.languages.core.domain.playlists.PlaylistSource
 import com.tayra.languages.core.domain.playlists.PlaylistText
 import com.tayra.languages.core.domain.playlists.PlaylistTextKind
 import com.tayra.languages.core.ui.components.AppCheckbox
+import com.tayra.languages.core.ui.components.AppDialogSurface
 import com.tayra.languages.core.ui.components.AppDivider
+import com.tayra.languages.core.ui.components.AppIconButton
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppTextField
 import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.AppVerticalDivider
 import com.tayra.languages.core.ui.components.BarSurface
 import com.tayra.languages.core.ui.components.Crumb
+import com.tayra.languages.core.ui.components.IconButtonSize
 import com.tayra.languages.core.ui.components.IconTile
 import com.tayra.languages.core.ui.components.InfoBanner
 import com.tayra.languages.core.ui.components.LabeledField
@@ -79,6 +86,7 @@ import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.AppSizes
 import com.tayra.languages.core.ui.theme.AppSpacing
 import com.tayra.languages.core.ui.theme.AppText
+import kotlin.random.Random
 import org.koin.compose.viewmodel.koinViewModel
 import org.koin.core.parameter.parametersOf
 
@@ -107,6 +115,46 @@ fun PlaylistFormScreen(
             return@Scaffold
         }
         PlaylistFormContent(state, viewModel, onCancel, Modifier.padding(padding))
+    }
+}
+
+/**
+ * Making a playlist in a dialog over the screen it is made from: its name, description and cover.
+ * With [bookId] the open text goes into it. [onCreated] is told the new playlist's id and name.
+ */
+@Composable
+fun NewPlaylistDialog(bookId: Long?, onCreated: (playlistId: Long, name: String) -> Unit, onDismiss: () -> Unit) {
+    // Each opening starts from an empty form, not from the last one's.
+    val opening = remember { Random.nextLong() }
+    val viewModel: PlaylistFormViewModel = koinViewModel(key = "new-playlist-$bookId-$opening") { parametersOf(PlaylistFormMode.Create(bookId)) }
+    NewPlaylistDialog(viewModel, onCreated, onDismiss)
+}
+
+@Composable
+internal fun NewPlaylistDialog(viewModel: PlaylistFormViewModel, onCreated: (playlistId: Long, name: String) -> Unit, onDismiss: () -> Unit) {
+    val state by viewModel.state.collectAsStateWithLifecycle()
+    CollectEvents(viewModel.events) { event -> if (event is PlaylistFormEvent.Saved) onCreated(event.playlistId, state.name.trim()) }
+    AppDialogSurface(onDismissRequest = onDismiss, maxWidth = AppSizes.dialog) {
+        Column(
+            Modifier.verticalScroll(rememberScrollState()).padding(AppSpacing.xxl).testTag("new-playlist-dialog"),
+            verticalArrangement = Arrangement.spacedBy(AppSpacing.l),
+        ) {
+            Row(verticalAlignment = Alignment.Top) {
+                Text(tr("Create playlist"), Modifier.weight(1f), style = AppText.headline)
+                AppIconButton(Icons.Default.Close, contentDescription = tr("Close"), onClick = onDismiss, size = IconButtonSize.Small)
+            }
+            if (state.loading) {
+                LoadingIndicator()
+            } else {
+                state.error?.let { InfoBanner(it, tint = MaterialTheme.colorScheme.error, icon = Icons.Default.Warning) }
+                DetailsColumn(state, viewModel, Modifier.fillMaxWidth(), heading = false)
+                AppDivider(Modifier.padding(vertical = AppSpacing.xs))
+                Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(AppSpacing.m, Alignment.End)) {
+                    SecondaryButton(tr("Cancel"), onClick = onDismiss)
+                    PrimaryButton(tr("Create playlist"), onClick = viewModel::save, enabled = state.canSave, loading = state.saving, modifier = Modifier.testTag("form-save"))
+                }
+            }
+        }
     }
 }
 
@@ -185,10 +233,10 @@ private fun FormFooter(state: PlaylistFormUiState, onCancel: () -> Unit, onSave:
 
 /** The playlist's name, description and cover colour, with how its card will look. */
 @Composable
-private fun DetailsColumn(state: PlaylistFormUiState, viewModel: PlaylistFormViewModel, modifier: Modifier) {
+private fun DetailsColumn(state: PlaylistFormUiState, viewModel: PlaylistFormViewModel, modifier: Modifier, heading: Boolean = true) {
     val colors = MaterialTheme.colorScheme
     Column(modifier, verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
-        Text(tr("Playlist details"), style = AppText.sectionTitle)
+        if (heading) Text(tr("Playlist details"), style = AppText.sectionTitle)
         LabeledField(tr("Name")) {
             AppTextField(
                 value = state.name,

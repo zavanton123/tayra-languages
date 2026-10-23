@@ -28,10 +28,6 @@ sealed interface Route {
     @Serializable
     data class Playlist(val playlistId: Long) : Route
 
-    /** A new playlist; [bookId] names a text to start it with, as the reader's playlist menu does. */
-    @Serializable
-    data class NewPlaylist(val bookId: Long? = null) : Route
-
     @Serializable
     data class EditPlaylist(val playlistId: Long) : Route
 

@@ -116,6 +116,7 @@ internal fun PlaylistsContent(
     val width = LocalWindowWidth.current
     val compact = width.isCompact
     var deleting by remember { mutableStateOf<PlaylistSummary?>(null) }
+    var creating by remember { mutableStateOf(false) }
     ScrollColumn(
         modifier.fillMaxSize(),
         contentModifier = Modifier.padding(horizontal = if (compact) AppSpacing.l else AppSpacing.xxxl, vertical = if (compact) AppSpacing.l else AppSpacing.xxl),
@@ -126,7 +127,7 @@ internal fun PlaylistsContent(
             tr("Listen to your texts, one after another."),
             actions = {
                 if (state.playlists.isNotEmpty()) {
-                    PrimaryButton(if (compact) tr("Create") else tr("New playlist"), onClick = { onNavigate(Route.NewPlaylist()) }, icon = Icons.Default.Add, modifier = Modifier.testTag("new-playlist"))
+                    PrimaryButton(if (compact) tr("Create") else tr("New playlist"), onClick = { creating = true }, icon = Icons.Default.Add, modifier = Modifier.testTag("new-playlist"))
                 }
             },
         )
@@ -137,7 +138,7 @@ internal fun PlaylistsContent(
                 message = tr("Collect books, course lessons and news articles to listen to them one after another."),
                 action = {
                     Spacer(Modifier.height(AppSpacing.s))
-                    PrimaryButton(tr("Create playlist"), onClick = { onNavigate(Route.NewPlaylist()) }, icon = Icons.Default.Add, modifier = Modifier.testTag("new-playlist"))
+                    PrimaryButton(tr("Create playlist"), onClick = { creating = true }, icon = Icons.Default.Add, modifier = Modifier.testTag("new-playlist"))
                 },
             )
             return@ScrollColumn
@@ -191,6 +192,8 @@ internal fun PlaylistsContent(
             color = colors.onSurfaceVariant,
         )
     }
+    // A new playlist opens on its own page, to fill it.
+    if (creating) NewPlaylistDialog(bookId = null, onCreated = { id, _ -> creating = false; onNavigate(Route.Playlist(id)) }, onDismiss = { creating = false })
     deleting?.let { summary ->
         DeletePlaylistDialog(summary.playlist, summary.duration, onConfirm = { onDelete(summary.playlist.id); deleting = null }, onDismiss = { deleting = null })
     }

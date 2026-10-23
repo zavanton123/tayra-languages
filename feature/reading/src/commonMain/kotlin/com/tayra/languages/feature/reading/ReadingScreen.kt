@@ -2,6 +2,7 @@ package com.tayra.languages.feature.reading
 
 import com.tayra.languages.core.domain.playlists.PlaylistPlayer
 import com.tayra.languages.feature.playlists.AddToPlaylistButton
+import com.tayra.languages.feature.playlists.NewPlaylistDialog
 import com.tayra.languages.core.ui.components.inLearnedScript
 import com.tayra.languages.core.ui.components.learningLevels
 import androidx.compose.runtime.rememberUpdatedState
@@ -226,6 +227,7 @@ fun ReadingScreen(
     val focusRequester = remember { FocusRequester() }
     val shift = remember { ShiftTracker() }
     val toast = rememberToastState()
+    var newPlaylist by remember { mutableStateOf(false) }
     LifecycleEventEffect(Lifecycle.Event.ON_RESUME) {
         viewModel.onResumed()
         // Back in front (from the examples, say) the text takes the keys again, even with the term pane open, which the focus below leaves alone.
@@ -395,7 +397,7 @@ fun ReadingScreen(
                             onSettings = { onNavigate(Route.OfflineTranslation) },
                             onMenu = openPane,
                             onCourses = { onNavigate(Route.Courses) },
-                            onNewPlaylist = { onNavigate(Route.NewPlaylist(bookId)) },
+                            onNewPlaylist = { newPlaylist = true },
                             onAddedToPlaylist = { name -> toast.show(tr("Added to {0}", name)) },
                             focusText = { runCatching { focusRequester.requestFocus() } },
                         )
@@ -418,6 +420,14 @@ fun ReadingScreen(
             label = tr("Title"),
             onConfirm = { viewModel.addBookmark(it.trim()); bookmarkDialog = false },
             onDismiss = { bookmarkDialog = false },
+        )
+    }
+    // A playlist made from the reader starts with the open text, and the reader stays.
+    if (newPlaylist) {
+        NewPlaylistDialog(
+            bookId = bookId,
+            onCreated = { _, name -> newPlaylist = false; toast.show(tr("Added to {0}", name)) },
+            onDismiss = { newPlaylist = false },
         )
     }
     ToastHost(toast)

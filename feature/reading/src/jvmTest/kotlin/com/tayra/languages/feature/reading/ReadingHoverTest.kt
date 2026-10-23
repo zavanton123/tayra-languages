@@ -34,6 +34,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.height
 import androidx.compose.ui.text.TextLayoutResult
 import androidx.compose.ui.test.performMouseInput
+import kotlinx.coroutines.flow.first
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.onAllNodesWithText
 import androidx.compose.ui.test.junit4.createComposeRule
@@ -284,6 +285,7 @@ class ReadingHoverTest {
                 module {
                     single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio }; single { player }
                     viewModel { (bookId: Long) -> com.tayra.languages.feature.playlists.AddToPlaylistViewModel(bookId, playlists, settings) }
+                    viewModel { (mode: com.tayra.languages.feature.playlists.PlaylistFormMode) -> com.tayra.languages.feature.playlists.PlaylistFormViewModel(mode, playlists, settings) }
                 },
             )
         }
@@ -306,7 +308,15 @@ class ReadingHoverTest {
         rule.onNodeWithTag("add-to-playlist").performClick()
         rule.waitUntil(5_000) { rule.onAllNodesWithTag("menu-new-playlist").fetchSemanticsNodes().isNotEmpty() }
         rule.onNodeWithTag("menu-new-playlist").performClick()
-        assertEquals(listOf<com.tayra.languages.core.ui.navigation.Route>(com.tayra.languages.core.ui.navigation.Route.NewPlaylist(1)), visited)
+        // A new playlist is made in a dialog over the reader, starting with the open text.
+        rule.waitUntil(5_000) { rule.onAllNodesWithTag("new-playlist-dialog").fetchSemanticsNodes().isNotEmpty() }
+        rule.onNodeWithTag("playlist-name").performTextInput("Evening Portuguese")
+        rule.onNodeWithTag("form-save").performClick()
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("Added to Evening Portuguese").fetchSemanticsNodes().isNotEmpty() }
+        rule.waitUntil(5_000) { rule.onAllNodesWithTag("new-playlist-dialog").fetchSemanticsNodes().isEmpty() }
+        val evening = runBlocking { playlists.observePlaylists(languageId).first().single { it.name == "Evening Portuguese" } }
+        assertEquals(listOf(1L), evening.items.map { it.bookId })
+        assertEquals(emptyList(), visited, "the reader stays open")
     }
 
     /** The toolbar shows "page of pages" between the arrows, with a slider across the book. */

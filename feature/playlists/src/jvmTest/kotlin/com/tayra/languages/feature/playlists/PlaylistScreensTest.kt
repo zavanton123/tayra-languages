@@ -8,6 +8,7 @@ import androidx.compose.ui.test.hasText
 import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.performClick
+import androidx.compose.ui.test.hasTestTag
 import androidx.compose.ui.test.performTextInput
 import androidx.compose.ui.test.runDesktopComposeUiTest
 import com.tayra.languages.core.domain.playlists.ListeningPosition
@@ -82,48 +83,52 @@ class PlaylistScreensTest {
     }
 
     @Test
-    fun aPlaylistIsMadeFromBooksArticlesAndLessons() = runDesktopComposeUiTest(width = 1586, height = 1100) {
-        val book = data.book("Uma compra com problema", text.repeat(4))
-        data.newsArticle("Chuva forte em São Paulo", text)
+    fun aPlaylistIsMadeInADialogFromItsDetails() = runDesktopComposeUiTest(width = 1586, height = 1100) {
         val viewModel = PlaylistFormViewModel(PlaylistFormMode.Create(null), data.service, data.settings)
-        var saved: Long? = null
-        host(data, "Create playlist") {
-            com.tayra.languages.core.ui.state.CollectEvents(viewModel.events) { if (it is PlaylistFormEvent.Saved) saved = it.playlistId }
-            val state by viewModel.state.collectAsState()
-            if (!state.loading) PlaylistFormContent(state, viewModel, onCancel = {})
+        var created: Pair<Long, String>? = null
+        host(data, "Playlists") {
+            NewPlaylistDialog(viewModel, onCreated = { id, name -> created = id to name }, onDismiss = {})
         }
-        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Compras e serviços")).fetchSemanticsNodes().isNotEmpty() }
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasTestTag("playlist-name")).fetchSemanticsNodes().isNotEmpty() }
+        // The texts are added later, from the playlist's page or the reader.
+        assertTrue(onAllNodes(hasText("Compras e serviços")).fetchSemanticsNodes().isEmpty())
         onNodeWithTag("playlist-name").performTextInput("Morning practice")
         onNodeWithText("16 / 60").assertExists()
         onNodeWithTag("playlist-description").performTextInput("Short Portuguese texts for my commute.")
         onNodeWithTag("cover-2").performClick()
-        onNodeWithTag("pick-text-$book").performClick()
-        onNodeWithTag("expand-${data.course.id}").performClick()
-        onNodeWithTag("pick-lesson-${data.course.id}-pt-test-compras-1").performClick()
-        onNodeWithTag("pick-lesson-${data.course.id}-pt-test-compras-3").performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("3 selected", substring = true)).fetchSemanticsNodes().isNotEmpty() }
         screenshot("playlist-create")
-
-        // The Courses filter shows the courses alone.
-        onNodeWithTag("filter-COURSES").performClick()
-        onNodeWithTag("pick-text-$book").assertDoesNotExist()
         onNodeWithTag("form-save").performClick()
-        waitUntil(timeoutMillis = 5_000) { saved != null }
-        val playlist = runBlocking { data.service.playlist(saved!!)!! }
+        waitUntil(timeoutMillis = 5_000) { created != null }
+        assertEquals("Morning practice", created!!.second)
+        val playlist = runBlocking { data.service.playlist(created!!.first)!! }
         assertEquals("Morning practice", playlist.name)
+        assertEquals("Short Portuguese texts for my commute.", playlist.description)
         assertEquals(2, playlist.cover)
-        assertEquals(listOf("Uma compra com problema", "O ar-condicionado em promoção", "O vídeo da Júlia"), playlist.items.map { it.title })
+        assertTrue(playlist.items.isEmpty())
     }
 
     @Test
-    fun onAPhoneTheFormIsOneColumn() = runDesktopComposeUiTest(width = 400, height = 1800) {
-        data.book("Uma compra com problema", text.repeat(4))
-        val viewModel = PlaylistFormViewModel(PlaylistFormMode.Create(null), data.service, data.settings)
-        host(data, "Create playlist") {
-            val state by viewModel.state.collectAsState()
-            if (!state.loading) PlaylistFormContent(state, viewModel, onCancel = {})
+    fun aPlaylistMadeFromTheReaderStartsWithTheOpenText() = runDesktopComposeUiTest(width = 1586, height = 1100) {
+        val book = data.book("Uma compra com problema", text.repeat(4))
+        val viewModel = PlaylistFormViewModel(PlaylistFormMode.Create(book), data.service, data.settings)
+        var created: Long? = null
+        host(data, "Reader") {
+            NewPlaylistDialog(viewModel, onCreated = { id, _ -> created = id }, onDismiss = {})
         }
-        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Compras e serviços")).fetchSemanticsNodes().isNotEmpty() }
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasTestTag("playlist-name")).fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("playlist-name").performTextInput("Shopping")
+        onNodeWithTag("form-save").performClick()
+        waitUntil(timeoutMillis = 5_000) { created != null }
+        assertEquals(listOf(book), runBlocking { data.service.playlist(created!!)!!.items.map { it.bookId } })
+    }
+
+    @Test
+    fun onAPhoneTheNewPlaylistDialogFits() = runDesktopComposeUiTest(width = 400, height = 900) {
+        val viewModel = PlaylistFormViewModel(PlaylistFormMode.Create(null), data.service, data.settings)
+        host(data, "Playlists") {
+            NewPlaylistDialog(viewModel, onCreated = { _, _ -> }, onDismiss = {})
+        }
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasTestTag("playlist-name")).fetchSemanticsNodes().isNotEmpty() }
         screenshot("playlist-create-phone")
     }
 

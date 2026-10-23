@@ -38,16 +38,6 @@ fun NavGraphBuilder.playlistsGraph(navController: NavController) {
         PlaylistDetailScreen(route.playlistId, onNavigate = { navController.navigate(it) }, onBack = { navController.backTo(Route.Playlists) })
     }
     composable<Route.Player> { PlayerScreen(onNavigate = { navController.navigate(it) }, onBack = { navController.popBackStack() }) }
-    composable<Route.NewPlaylist> { entry ->
-        val route = entry.toRoute<Route.NewPlaylist>()
-        PlaylistFormScreen(
-            PlaylistFormMode.Create(route.bookId),
-            onNavigate = { navController.navigate(it) },
-            // The new playlist's page takes the form's place, so going back leaves it for where it was made from.
-            onSaved = { id -> navController.navigate(Route.Playlist(id)) { popUpTo<Route.NewPlaylist> { inclusive = true } } },
-            onCancel = { navController.popBackStack() },
-        )
-    }
     composable<Route.EditPlaylist> { entry ->
         val route = entry.toRoute<Route.EditPlaylist>()
         PlaylistFormScreen(PlaylistFormMode.Edit(route.playlistId), onNavigate = { navController.navigate(it) }, onSaved = { navController.popBackStack() }, onCancel = { navController.popBackStack() })

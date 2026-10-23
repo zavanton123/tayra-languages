@@ -213,7 +213,8 @@ data class PlaylistFormUiState(
     val error: String? = null,
 ) {
     val showsDetails: Boolean get() = mode !is PlaylistFormMode.AddTexts
-    val showsTexts: Boolean get() = mode !is PlaylistFormMode.Edit
+    /** A new playlist is made from its details alone; texts are chosen only when adding to one. */
+    val showsTexts: Boolean get() = mode is PlaylistFormMode.AddTexts
 
     /** The books and news articles to list, by the search and the filter. */
     val texts: List<com.tayra.languages.core.domain.playlists.PlaylistText>
@@ -279,7 +280,7 @@ class PlaylistFormViewModel(
                 is PlaylistFormMode.Create -> null
             }
             val languageId = existing?.languageId ?: settings.current.currentLanguageId
-            val library = if (mode is PlaylistFormMode.Edit) PlaylistLibrary(emptyList(), emptyList()) else service.library(languageId)
+            val library = if (mode is PlaylistFormMode.AddTexts) service.library(languageId) else PlaylistLibrary(emptyList(), emptyList())
             val start = (mode as? PlaylistFormMode.Create)?.bookId?.let { service.sourceFor(it) }
             _state.update {
                 it.copy(
