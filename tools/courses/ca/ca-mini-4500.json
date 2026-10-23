@@ -1,0 +1,194 @@
+{
+  "id": "ca-mini-4500",
+  "rankUpTo": 4500,
+  "level": "C1",
+  "title": "Cinema i televisió",
+  "description": "Ten standalone portraits, interviews, reviews, columns and stories about film and television: a silent-film pianist, a dubbing actress, a festival volunteer, a romantic comedy, a modernist cinema's retiring manager, almond popcorn, a quiz-show host, a series about a psychologist, restored home movies and a documentary camerawoman.",
+  "topic": "Film and television",
+  "names": [
+    "Llucià",
+    "Gelpí",
+    "Girona",
+    "Delia",
+    "Vergés",
+    "Barcelona",
+    "Granollers",
+    "València",
+    "Hollywood",
+    "Agapit",
+    "Rosich",
+    "Fornells",
+    "Menorca",
+    "Amanda",
+    "Gisbert",
+    "Sabrina",
+    "Teodoric",
+    "Sandro",
+    "Albareda",
+    "Ottó",
+    "Benaiges",
+    "Recreatiu",
+    "Manresa",
+    "Rafaela",
+    "Leonard",
+    "Lleida",
+    "Sorribes",
+    "Garrigues",
+    "Jorgina",
+    "Aloy",
+    "Qui en sap més?",
+    "Vic",
+    "Ofèlia",
+    "Puigpelat",
+    "Adriana",
+    "Esteller",
+    "Tortosa",
+    "Marcelina",
+    "Ventosa",
+    "Pallars Sobirà"
+  ],
+  "lessons": [
+    {
+      "title": "El pianista de les pel·lícules mudes",
+      "summary": "A portrait of Llucià Gelpí, a seventy-two-year-old pianist who plays live music for silent films at a film club in Girona: discreet melodies, shades and pauses, and an old piano with one shy key.",
+      "newWords": [
+        "pianista",
+        "tecla",
+        "pausa",
+        "matís",
+        "inusual",
+        "discret",
+        "perfecció"
+      ],
+      "text": "Cada dijous al vespre, el cineclub d'un barri de Girona projecta una pel·lícula muda, i cada dijous en Llucià Gelpí s'asseu davant del piano, al costat de la pantalla. Té setanta-dos anys i fa més de trenta anys que acompanya imatges en blanc i negre. Ell mateix es defineix com «un pianista de cinema»: una feina inusual avui, però molt habitual fa un segle, quan cap sala no projectava una pel·lícula sense música en directe.\n\nEn Llucià va estudiar piano al conservatori i, de jove, tocava en hotels i en festes. El cinema va arribar per casualitat. Un amic que organitzava un cicle de cinema mut li va demanar que toqués una nit. «Vaig pensar que seria una nit i prou», explica. «Però quan vaig sentir el públic rient amb les meves notes, vaig entendre que havia trobat el meu lloc.»\n\nSegons ell, un bon pianista de cinema ha de ser discret. La protagonista és la pel·lícula, no el piano. Per això no toca peces brillants que distreguin l'espectador. Prefereix melodies senzilles que canvien de matís segons el que passa a la pantalla: més lentes quan un personatge està trist, més ràpides quan un tren s'acosta a l'estació, més suaus en una escena d'amor. «La gràcia són els matisos», diu. «El públic no se n'ha d'adonar, però els ha de sentir.»\n\nAbans de cada sessió, mira la pel·lícula a casa dues o tres vegades i pren notes en una llibreta: on hi ha una carrera, on hi ha un ball, on hi ha un silenci. Els silencis són molt importants. De vegades, en el moment més emocionant, aixeca les mans de les tecles i fa una pausa. La sala queda en silenci absolut, i aquella pausa diu més que qualsevol acord.\n\nNo busca la perfecció. «Si una nota surt malament, la pel·lícula continua i jo també», diu rient. Al contrari, creu que la perfecció seria un error, perquè cada sessió ha de ser única, com ho era en els anys vint. Mai no toca dues vegades exactament igual.\n\nEl piano del cineclub és vell, i una de les tecles greus no sona gaire bé. En Llucià li diu «la tecla tímida». En les comèdies, de vegades la fa servir a propòsit, i el públic riu. És la seva manera discreta de saludar la sala. Una feina inusual, sí, però per a ell és la més natural del món.\n\nPreguntes:\nQuina feina inusual fa en Llucià Gelpí?\nÉs pianista de cinema: toca el piano en directe mentre el cineclub projecta pel·lícules mudes.\nPer què diu que un pianista de cinema ha de ser discret?\nPerquè la protagonista és la pel·lícula, no el piano, i la música no ha de distreure l'espectador.\nCom canvia la música segons el que passa a la pantalla?\nCanvia de matís: és més lenta quan un personatge està trist i més ràpida quan un tren s'acosta.\nQuè fa de vegades en el moment més emocionant?\nAixeca les mans de les tecles i fa una pausa, i la sala queda en silenci.\nPer què no busca la perfecció?\nPerquè creu que cada sessió ha de ser única.\nQuè és «la tecla tímida»?\nÉs una tecla greu del piano vell, que no sona gaire bé."
+    },
+    {
+      "title": "Entrevista: la veu de les estrelles",
+      "summary": "An interview with Delia Vergés, who has dubbed foreign actresses into Catalan for twenty years, about how a film is dubbed, why the work is physically tiring, voices that suit a character and how the studio has changed.",
+      "newWords": [
+        "doblar",
+        "físicament",
+        "correcció",
+        "apropiat",
+        "coherent",
+        "transcurs",
+        "preferència"
+      ],
+      "text": "La Delia Vergés fa vint anys que posa veu en català a actrius d'arreu del món. Si heu vist una pel·lícula doblada a la televisió, és molt probable que l'hàgiu sentida sense saber-ho. Parlem amb ella en un estudi de Barcelona, durant una pausa entre dues sessions de feina.\n\nCom es dobla una pel·lícula?\n\nPrimer, un traductor adapta el guió. Després, un altre professional en fa la correcció, perquè les frases durin el mateix que les de l'actriu original i encaixin amb el moviment dels llavis. Quan jo arribo a l'estudi, el text ja està a punt. Miro l'escena en versió original, l'escolto dues o tres vegades i després la doblo, frase per frase.\n\nÉs una feina cansada?\n\nMolt, i també físicament, encara que la gent no s'ho imagini. Si el personatge corre, jo no corro, però he de respirar com si corregués. Si crida, he de cridar. Al final d'un dia llarg acabo físicament esgotada, com si hagués anat al gimnàs.\n\nQuant de temps es triga a doblar una pel·lícula?\n\nEl paper d'una protagonista es pot doblar en dos o tres dies. En el transcurs d'una jornada podem gravar més de cent frases. Però no treballem mai sols: el director escolta cada frase i, si no li agrada, hi fa una correcció i la tornem a gravar.\n\nQuines qualitats ha de tenir una bona veu per doblar?\n\nNo cal una veu bonica. Cal una veu apropiada per a cada personatge. Una veu molt dolça no és apropiada per a una dona dura, i al revés. Trobar la veu apropiada és la meitat de la feina. A més, el resultat ha de ser coherent. Si una actriu fa de noia tímida, la meva veu ha de ser coherent amb aquest caràcter tímid de la primera escena a l'última.\n\nTé preferència per algun gènere?\n\nLes comèdies. Són les més difícils, perquè l'humor depèn del ritme, però també són les que em fan més feliç. Ara bé, no sempre puc triar: la meva preferència compta poc quan arriba un encàrrec.\n\nMolts espectadors joves prefereixen la versió original. Què en pensa?\n\nEm sembla bé. Cada espectador té les seves preferències, i la versió original és una manera magnífica d'aprendre idiomes. Però hi ha molta gent que vol veure una pel·lícula sense llegir, i per a aquesta gent una pel·lícula doblada és la porta d'entrada al cinema.\n\nHa canviat gaire la feina en el transcurs d'aquests anys?\n\nMoltíssim. Abans els actors doblàvem una escena junts, a la mateixa sala. Ara cadascú grava sol, i un tècnic ajunta les veus després. És més pràctic, però trobo a faltar els companys.\n\nPreguntes:\nPer què es fa una correcció del text abans de doblar?\nPerquè les frases durin el mateix que les originals i encaixin amb el moviment dels llavis.\nPer què la feina és cansada físicament?\nPerquè la Delia ha de respirar i cridar com el personatge, i acaba el dia esgotada.\nQuantes frases poden gravar en el transcurs d'una jornada?\nPoden gravar més de cent frases.\nQuè vol dir que la veu ha de ser coherent?\nVol dir que ha d'encaixar amb el personatge de la primera escena a l'última.\nQuina és la preferència de la Delia?\nLa seva preferència són les comèdies.\nCom ha canviat la feina?\nAbans doblaven les escenes junts, i ara cadascú grava sol."
+    },
+    {
+      "title": "Una setmana de voluntariat",
+      "summary": "A young woman spends a week as a volunteer at a modest short-film festival in Granollers: she looks after the guests, rescues a lost folder, watches a small red-carpet parade and hears the festival director thank the volunteers from a gilded theatre box.",
+      "newWords": [
+        "voluntariat",
+        "modest",
+        "daurat",
+        "llotja",
+        "confirmació",
+        "hoste",
+        "desfilada",
+        "amfitrió"
+      ],
+      "text": "Aquest octubre he fet una setmana de voluntariat al festival de curtmetratges de Granollers. És un festival modest: dura cinc dies, té un pressupost petit i les projeccions es fan al teatre municipal, un edifici del segle XIX amb tres pisos de llotges daurades. Però per als qui estimem el cinema, és una cita important.\n\nVaig enviar la sol·licitud al juliol, i a principis de setembre vaig rebre la confirmació per correu electrònic. A la confirmació hi havia l'horari, el nom de la meva coordinadora i un consell breu: «Porta sabates còmodes». Ara entenc per què.\n\nEl primer dia em van encarregar els hostes del festival: les directores i els actors que venien a presentar els seus curtmetratges. Havia d'anar-los a buscar a l'estació, acompanyar-los a l'hotel i portar-los al teatre a l'hora. Cada hoste tenia una carpeta amb el programa i una entrada per a una de les llotges. Un dels hostes, un director jove de València, estava tan nerviós que es va descuidar la carpeta al tren. Vaig haver de trucar a l'estació, esperar la confirmació que l'havien trobada i anar-la a buscar en bicicleta.\n\nLa nit de la inauguració hi va haver una desfilada davant de la porta del teatre. No era una desfilada de Hollywood: quatre fotògrafs, una vintena de veïns curiosos i el vent fred de la tardor. Però els hostes hi van passar amb el somriure de les grans estrenes, i els veïns aplaudien cada vegada que algú s'aturava a saludar.\n\nL'amfitrió de la vetllada era l'Agapit Rosich, el director del festival. És un amfitrió magnífic: coneix el nom de tothom, recorda el curtmetratge de cada director i sap fer que un festival modest sembli una gran festa. Des de l'escenari, sota les llotges daurades, va presentar cada pel·lícula amb dues frases i un somriure.\n\nL'últim dia, l'Agapit va reunir els voluntaris a la llotja més gran del teatre, la de les parets daurades, i ens va donar les gràcies. Va dir que sense el voluntariat el festival no existiria, i que la feina modesta de portar maletes i repartir programes era tan important com la dels directors. Jo vaig sortir del teatre cansada i contenta. Ja he enviat la sol·licitud per a l'any que ve.\n\nPreguntes:\nPer què és un festival modest?\nPerquè dura cinc dies, té un pressupost petit i es fa al teatre municipal.\nQuè hi havia a la confirmació del voluntariat?\nHi havia l'horari, el nom de la coordinadora i el consell de portar sabates còmodes.\nQuè havia de fer la narradora amb els hostes?\nHavia d'anar-los a buscar a l'estació, acompanyar-los a l'hotel i portar-los al teatre.\nCom era la desfilada de la inauguració?\nEra una desfilada petita, amb quatre fotògrafs, una vintena de veïns i vent fred.\nPer què l'Agapit Rosich és un bon amfitrió?\nPerquè coneix el nom de tothom i fa que el festival sembli una gran festa.\nQuè va dir l'Agapit als voluntaris a la llotja?\nVa dir que sense el voluntariat el festival no existiria."
+    },
+    {
+      "title": "Ressenya: «Un estiu a Fornells»",
+      "summary": "A review of a romantic comedy set in Menorca, in which an architect and the trumpet-playing neighbour she cannot stand are brought together by a sudden storm: a simple story, a sharp script, two good actors and an ending that comes a little too fast.",
+      "newWords": [
+        "amorós",
+        "boníssim",
+        "desencadenar",
+        "sobtat",
+        "guionista",
+        "ventura"
+      ],
+      "text": "La comèdia amorosa és un gènere difícil. Tothom sap com acabarà la història, i per això el camí ha de ser bo. «Un estiu a Fornells», el primer llargmetratge de la directora Amanda Gisbert, ho entén perfectament, i el resultat és boníssim.\n\nLa història és senzilla. La Sabrina, una arquitecta de Barcelona, lloga una casa a Fornells, a Menorca, per acabar un projecte amb tranquil·litat. El primer matí descobreix que la casa del costat és d'en Teodoric, un músic que assaja amb la trompeta cada dia a les vuit. Un fet petit ho desencadena tot: una tempesta sobtada deixa el poble sense llum, i la Sabrina ha de demanar ajuda al veí que no suporta.\n\nA partir d'aquí, la pel·lícula segueix el camí de qualsevol comèdia amorosa: discussions, sopars a la terrassa, passejades vora el mar i un malentès que gairebé ho espatlla tot. Res no és nou, però tot funciona. El guionista, Sandro Albareda, coneix bé el gènere i sap que el secret no és la sorpresa, sinó els detalls. Els diàlegs són boníssims, ràpids i naturals, i cada frase de la Sabrina desencadena una resposta encara més enginyosa d'en Teodoric.\n\nEls dos actors protagonistes tenen una química boníssima, i Menorca fa la resta: la llum de la tarda, les barques del port, el soroll del vent a les persianes. Hi ha una escena preciosa en què en Teodoric explica que la seva àvia deia que la ventura arriba quan no la busques. En el fons, la pel·lícula parla d'això, de la ventura: d'un esdeveniment tan petit com una tempesta, que canvia l'estiu de dues persones.\n\nNo tot és perfecte. El final és massa sobtat: després d'una hora i mitja de ritme tranquil, les últimes escenes passen tan de pressa que l'espectador gairebé no té temps de gaudir-les. Sembla que el guionista tingués pressa per acabar. També hi ha un parell de personatges secundaris, com la germana de la Sabrina, que es queden a mig fer.\n\nPerò són defectes petits. «Un estiu a Fornells» és una comèdia amorosa honesta, amable i molt ben escrita, d'aquelles que fan sortir del cinema amb ganes de tornar-hi. Si el guionista i la directora tornen a treballar junts, ja tenen un espectador assegurat.\n\nPreguntes:\nPer què la comèdia amorosa és un gènere difícil, segons la ressenya?\nPerquè tothom sap com acabarà la història, i per això el camí ha de ser bo.\nQuin fet desencadena la història?\nUna tempesta sobtada deixa el poble sense llum, i la Sabrina ha de demanar ajuda al veí.\nQuè fa bé el guionista?\nConeix bé el gènere, cuida els detalls i escriu diàlegs ràpids i naturals.\nQuè deia l'àvia d'en Teodoric?\nDeia que la ventura arriba quan no la busques.\nQuin és el defecte principal de la pel·lícula?\nEl final és massa sobtat i les últimes escenes passen massa de pressa."
+    },
+    {
+      "title": "L'última temporada del senyor Benaiges",
+      "summary": "A portrait of Ottó Benaiges, who retires after thirty-one years as manager of a modernist cinema in Manresa: how he rooted the cinema in its neighbourhood, cut its energy bill without touching the façade and hands it over to his niece Rafaela.",
+      "newWords": [
+        "gerent",
+        "jubilació",
+        "modernisme",
+        "arrelar",
+        "sostenibilitat",
+        "energètic",
+        "utilitat",
+        "compensació"
+      ],
+      "text": "L'Ottó Benaiges té seixanta-sis anys i, a final de mes, deixarà la feina de gerent del cinema Recreatiu de Manresa, que ha dirigit durant trenta-un anys. La jubilació li arriba amb una mica de pena i molta tranquil·litat, perquè sap que el cinema queda en bones mans: les de la seva neboda, la Rafaela, que en serà la nova gerent.\n\nEl Recreatiu és un edifici de 1912, una petita joia del modernisme. Per a l'Ottó, el modernisme no és només un estil: és la memòria de la ciutat. La façana té finestres corbes i flors de ceràmica, i a la sala hi ha columnes de ferro que semblen arbres. Quan l'Ottó en va ser nomenat gerent, el 1993, l'edifici estava en mal estat i el cinema perdia espectadors cada any. Molts pensaven que tancaria.\n\nL'Ottó no ho va permetre. La seva idea era senzilla: un cinema ha d'arrelar al barri on és, com un arbre. «Si no té arrels, el primer vent se l'emporta», diu. Per fer-lo arrelar, va organitzar sessions per a les escoles, cinema per a la gent gran els dimarts al matí i un cicle d'estiu a l'aire lliure, al pati del darrere. A poc a poc, el Recreatiu va arrelar de nou, i avui moltes famílies del barri hi van cada setmana.\n\nEls últims anys, la seva gran preocupació ha estat la sostenibilitat. Un edifici modernista és bonic, però gasta molt: sostres alts, finestres velles, una calefacció antiga. L'Ottó va encarregar un estudi energètic i va descobrir que el cinema consumia el doble que una sala moderna. Amb l'ajuda d'una arquitecta experta en modernisme, va canviar la calefacció, va aïllar el sostre i va posar vidres nous a les finestres sense tocar la façana. El consum energètic va baixar un terç.\n\n«La sostenibilitat no és una moda», diu. «És una qüestió d'utilitat: un cinema que no pot pagar la llum tanca.» Per a ell, la utilitat i la bellesa no són enemigues. Un edifici bonic que ningú no fa servir no té cap sentit, i un cinema útil en un edifici bonic és el millor que pot tenir una ciutat.\n\nLes obres van coincidir amb unes altres al carrer, que va estar tallat durant tres mesos. L'ajuntament va pagar al cinema una compensació per les entrades perdudes, i l'Ottó la va fer servir per restaurar les butaques. Però diu que la millor compensació de tots aquests anys és veure la sala plena un diumenge a la tarda.\n\nQuè farà durant la jubilació? «Anar al cinema, és clar», respon. «Però a la fila set, com un espectador més.»\n\nPreguntes:\nCom és l'edifici del cinema?\nÉs un edifici modernista de 1912, amb finestres corbes, flors de ceràmica i columnes de ferro.\nQuè va fer l'Ottó perquè el cinema arrelés al barri?\nVa organitzar sessions per a les escoles, cinema per a la gent gran i un cicle d'estiu a l'aire lliure.\nQuè va descobrir l'estudi energètic?\nVa descobrir que el cinema consumia el doble que una sala moderna.\nQuè va fer l'Ottó amb la compensació de l'ajuntament?\nLa va fer servir per restaurar les butaques.\nPer què la sostenibilitat és una qüestió d'utilitat, segons l'Ottó?\nPerquè un cinema que no pot pagar la llum tanca.\nQuè farà l'Ottó durant la jubilació?\nAnirà al cinema com un espectador més."
+    },
+    {
+      "title": "Crispetes amb ametlla",
+      "summary": "Leonard, a waiter at a cinema café in Lleida, keeps stopping to gaze at the screen; after a child spills orange juice on a round table, he invents almond popcorn with his grandparents' almonds, and the new flavour wins over the owner and the customers.",
+      "newWords": [
+        "cambrer",
+        "rodó",
+        "exprés",
+        "badar",
+        "vessar",
+        "tacar",
+        "ametlla",
+        "sabor"
+      ],
+      "text": "En Leonard té vint-i-tres anys i treballa de cambrer al bar d'un cinema de Lleida. El bar és petit: una barra llarga, sis taules rodones i una màquina de cafè exprés que la propietària, la senyora Sorribes, cuida com si fos una filla. Al matí, en Leonard serveix cafès exprés als veïns que llegeixen el diari. A la tarda, abans de les sessions, el bar s'omple de famílies que compren crispetes i sucs.\n\nEn Leonard és un bon cambrer, però té un defecte: li agrada massa el cinema. Quan la porta de la sala queda oberta, s'atura amb la safata a les mans i es queda badant davant de la pantalla. «Leonard, no badis!», li diu la senyora Sorribes des de la barra. Ell somriu, demana perdó i torna a la feina, fins que la porta es torna a obrir.\n\nUn dissabte a la tarda, mentre badava davant d'una pel·lícula d'animació, va passar el que havia de passar. En una de les taules rodones, un nen va moure el braç i va vessar un got de suc de taronja. El suc va vessar-se per tota la taula i va tacar el vestit blanc de la seva germana petita. La nena es va mirar el vestit tacat i va començar a plorar. En Leonard va córrer amb un drap, va netejar la taula i va portar aigua amb sal per a la taca. La taca no va desaparèixer del tot, però la nena va deixar de plorar quan en Leonard li va portar una bossa de crispetes de regal.\n\nAquella nit, a casa, en Leonard va pensar que les crispetes del bar eren avorrides. Totes tenien el mateix sabor: sal i prou. Els seus avis tenien ametllers a les Garrigues, i a casa sempre hi havia ametlles. Va provar de barrejar crispetes amb ametlles torrades i una mica de mel. El sabor era dolç i salat alhora, i cruixent. Va fer una segona prova amb canyella. Li va agradar encara més.\n\nEl dilluns ho va proposar a la senyora Sorribes. Ella va tastar les crispetes amb ametlla, va callar un moment i va dir: «Aquest sabor ens farà famosos». Ara el bar ven crispetes amb ametlla cada cap de setmana, i molts clients se les mengen a les taules rodones abans de la sessió, o en demanen una bossa per emportar-se-la a la sala. En Leonard encara bada de tant en tant davant de la pantalla, però la senyora Sorribes ja no li diu res.\n\nPreguntes:\nOn treballa en Leonard?\nTreballa de cambrer al bar d'un cinema de Lleida, on serveix cafès exprés i crispetes.\nQuin és el defecte d'en Leonard?\nLi agrada massa el cinema, i es queda badant davant de la pantalla.\nQuè va passar el dissabte a la tarda?\nUn nen va vessar un got de suc de taronja i va tacar el vestit de la seva germana.\nPer què en Leonard tenia ametlles a casa?\nPerquè els seus avis tenien ametllers a les Garrigues.\nQuin sabor tenen les crispetes noves?\nTenen un sabor dolç i salat alhora, amb ametlles torrades i una mica de mel.\nQuè va dir la senyora Sorribes quan les va tastar?\nVa dir que aquell sabor els faria famosos."
+    },
+    {
+      "title": "Entrevista: la presentadora de «Qui en sap més?»",
+      "summary": "An interview with Jorgina Aloy, who has hosted a cultural quiz show on a Valencian TV channel for ten years, about muted phones in the studio, the team that checks every question, the range of contestants and why she does not feel influential.",
+      "newWords": [
+        "presentador",
+        "silenciar",
+        "supervisar",
+        "supervisió",
+        "ventall",
+        "influent",
+        "cessar"
+      ],
+      "text": "La Jorgina Aloy fa deu anys que és la presentadora de «Qui en sap més?», un concurs cultural d'una televisió de València que cada vespre veuen milers de famílies. Parlem amb ella al plató, una hora abans de la gravació.\n\nQuè fa just abans de començar?\n\nSurto a saludar el públic i li demano que silenciï els mòbils. Sembla poca cosa, però un mòbil que sona ens obliga a repetir tota una pregunta. Els concursants també els silencien abans d'entrar al plató. Després respiro profundament i, quan s'encén el llum vermell, ja soc la presentadora.\n\nCom es preparen les preguntes?\n\nUn equip de quatre redactors les escriu cada setmana. Després, una altra persona supervisa totes les respostes, una per una, amb llibres i diccionaris. Aquesta supervisió és molt important: si una resposta és incorrecta, el programa perd la confiança dels espectadors. Jo també superviso les preguntes del dia, però només per saber pronunciar bé els noms.\n\nI durant la gravació?\n\nLa directora ho supervisa tot des d'una sala de control, i em parla per un auricular. De vegades em diu que vagi més de pressa, de vegades que faci una pausa. La seva supervisió em dona molta tranquil·litat.\n\nQui són els concursants?\n\nHi ha un ventall molt ampli: estudiants, jubilats, mestres, pagesos, una vegada fins i tot un pianista. M'agrada aquest ventall, perquè el programa s'assembla a la gent que el mira. També tenim un ventall de temes molt ampli: ciència, cinema, història, geografia, cuina.\n\nMolta gent diu que vostè és una de les presentadores més influents de la televisió. Què en pensa?\n\nQue no és veritat. Influent és el programa, no jo. Si un concursant parla d'un llibre i l'endemà les biblioteques el presten més, això és el que em fa feliç. Una presentadora influent seria la que diu a la gent què ha de pensar, i jo només faig preguntes.\n\nPensa a deixar-ho algun dia?\n\nAlgun dia el programa cessarà, com tots. Quan cessi, em sabrà greu, però me n'aniré contenta: hauran estat molts anys de feina bonica. De moment, les cartes dels espectadors no cessen, i això vol dir que encara tenim coses a dir.\n\nPreguntes:\nQuè demana la Jorgina al públic abans de la gravació?\nDemana que silenciï els mòbils.\nPer què és important la supervisió de les respostes?\nPerquè si una resposta és incorrecta, el programa perd la confiança dels espectadors.\nQui supervisa la gravació?\nLa directora la supervisa des d'una sala de control.\nPer què li agrada el ventall de concursants?\nPerquè el programa s'assembla a la gent que el mira.\nPer què diu la Jorgina que no és influent?\nPerquè creu que l'influent és el programa, no ella.\nQuè vol dir que les cartes dels espectadors no cessen?\nVol dir que els espectadors continuen escrivint i que el programa encara té coses a dir."
+    },
+    {
+      "title": "Article d'opinió: una psicòloga a la tele",
+      "summary": "An opinion column weighs a popular TV series about a psychologist in Vic: it shows anxiety as something ordinary and avoids the trick of instant cures, but the columnist warns that a series can never replace a real visit to a psychologist.",
+      "newWords": [
+        "psicòleg",
+        "angoixa",
+        "esbrinar",
+        "engany",
+        "transversal",
+        "forjar"
+      ],
+      "text": "Aquest hivern, mig país ha seguit «La consulta», una sèrie de vuit capítols sobre una psicòloga de Vic. Cada capítol és una sessió amb un pacient diferent: un estudiant que pateix angoixa abans dels exàmens, una dona que no dorm des que va canviar de feina, un home que no sap dir que no. No hi ha grans aventures. Només dues persones en una habitació, que parlen.\n\nVolia esbrinar per què una sèrie tan senzilla ha tingut tants espectadors, i vaig fer el que fem els periodistes: preguntar. Els meus veïns, la meva germana i dos companys de feina m'hi van ajudar. No vaig esbrinar gaire res de nou, però tots em van dir el mateix: «És com nosaltres».\n\nCrec que aquí hi ha la clau. Durant molt de temps, anar al psicòleg semblava una cosa estranya, que la gent amagava. La sèrie mostra l'angoixa com una cosa normal, que pot tenir qualsevol persona. I ho fa amb un públic transversal: la miren adolescents i jubilats, gent de ciutat i gent de poble. Pocs programes aconsegueixen un èxit tan transversal.\n\nTambé em sembla important que la sèrie eviti un engany molt freqüent. En moltes pel·lícules, el psicòleg resol el problema del pacient en una sola conversa. A «La consulta», no: els canvis són lents, de vegades el pacient fa un pas enrere, i la psicòloga també s'equivoca. L'actriu protagonista, Ofèlia Puigpelat, va forjar el personatge durant mesos amb l'ajuda d'una psicòloga real, i es nota. El personatge no es va forjar en una tarda.\n\nAra bé, una sèrie no és una consulta. El risc és que algú cregui que, després de veure vuit capítols, ja sap tot el que necessita. Seria un altre engany, potser més perillós. La televisió pot fer que parlem de l'angoixa sense vergonya, però no pot substituir un psicòleg de debò.\n\nPer això el millor moment de la sèrie, per a mi, és l'últim minut de l'últim capítol. L'estudiant de l'angoixa, que ja està més tranquil, diu a un amic que també té problemes: «Per què no hi vas? A mi m'ha ajudat». Potser és una frase senzilla. Però si algun espectador la segueix, la sèrie haurà fet més bé que molts discursos.\n\nPreguntes:\nDe què tracta «La consulta»?\nÉs una sèrie sobre una psicòloga de Vic, i cada capítol és una sessió amb un pacient diferent.\nQuè volia esbrinar l'autor de l'article?\nVolia esbrinar per què una sèrie tan senzilla ha tingut tants espectadors.\nPer què diu que el públic de la sèrie és transversal?\nPerquè la miren adolescents i jubilats, gent de ciutat i gent de poble.\nQuin engany evita la sèrie?\nEvita fer creure que el psicòleg resol el problema en una sola conversa.\nCom va forjar el personatge l'actriu protagonista?\nEl va forjar durant mesos amb l'ajuda d'una psicòloga real.\nQuin risc veu l'autor en la sèrie?\nQue algú cregui que una sèrie pot substituir una visita al psicòleg."
+    },
+    {
+      "title": "Les pel·lícules del garatge",
+      "summary": "Adriana Esteller, a restorer at a film archive, receives twelve small reels of amateur films from the 1950s found in a Tortosa garage: she cleans off dust, slows their decay in a cold room, scans every frame and shows the family their grandfather's films.",
+      "newWords": [
+        "degradació",
+        "partícula",
+        "absorbir",
+        "retardar",
+        "longitud",
+        "xip",
+        "gasolina"
+      ],
+      "text": "L'Adriana Esteller treballa en un arxiu de cinema de Barcelona. La seva feina és salvar pel·lícules velles. Un dilluns de març, una família de Tortosa li va portar una caixa de cartró amb dotze pel·lícules petites. Les havien trobades al garatge de l'avi, en un armari, al costat d'unes llaunes de gasolina velles. L'avi, que havia tingut un taller de cotxes, havia filmat la família durant els anys cinquanta amb una càmera d'aficionat.\n\nL'Adriana va obrir la caixa. Les pel·lícules feien una forta olor de gasolina i de vinagre. La gasolina era culpa del garatge: el plàstic de les pel·lícules absorbeix les olors i la humitat. El vinagre era un mal senyal. Volia dir que la degradació del material ja havia començat.\n\n«La degradació no es pot aturar, però es pot retardar», explica l'Adriana. Per retardar-la, el primer pas és el fred. Va posar les pel·lícules en una cambra a cinc graus, on la degradació va molt més a poc a poc. Després va mesurar la longitud de cada pel·lícula. La més llarga tenia una longitud de quinze metres, uns quatre minuts de pel·lícula.\n\nEl segon pas va ser la neteja. Les pel·lícules eren plenes de partícules de pols i de brutícia. L'Adriana les va netejar a mà, amb guants i un drap molt suau, metre a metre. Cada partícula que queda a la pel·lícula apareix després a la pantalla com una taca blanca, i cada taca distreu l'espectador.\n\nEl tercer pas va ser passar-les a format digital. Una màquina fotografia cada imatge de la pel·lícula, una per una, amb un xip semblant al de les càmeres digitals, però molt més precís. El xip absorbeix la llum que travessa la pel·lícula i la converteix en informació. Ara bé, la màquina és lenta: per a les dotze pel·lícules van caldre tres setmanes.\n\nAl maig, la família va tornar a l'arxiu. A la pantalla de la sala petita van aparèixer imatges en color d'una platja del delta, d'una paella enorme, d'un nen que aprenia a anar en bicicleta. La senyora més gran de la família es va posar a riure: aquell nen era el seu germà. Ningú no havia vist aquelles imatges en seixanta anys.\n\nPreguntes:\nOn havia trobat la família les pel·lícules?\nLes havia trobades al garatge de l'avi, al costat d'unes llaunes de gasolina.\nPer què les pel·lícules feien olor de gasolina?\nPerquè el plàstic de les pel·lícules absorbeix les olors i la humitat.\nCom es pot retardar la degradació?\nAmb el fred: les pel·lícules es guarden en una cambra a cinc graus.\nQuina longitud tenia la pel·lícula més llarga?\nTenia una longitud de quinze metres, uns quatre minuts de pel·lícula.\nPer què s'han de netejar les partícules de pols?\nPerquè cada partícula apareix a la pantalla com una taca blanca.\nQuè fa el xip de la màquina?\nAbsorbeix la llum que travessa la pel·lícula i la converteix en informació."
+    },
+    {
+      "title": "Una càmera al Pallars",
+      "summary": "Marcelina Ventosa, a young camerawoman from the Pallars, spends a year filming a documentary about her valley: the meadows after the rains, a caterpillar pest in the pines, the archaeology of shepherds' huts, the genetics of an old sheep breed and leaves floating on a lake.",
+      "newWords": [
+        "currículum",
+        "abastar",
+        "prada",
+        "precipitació",
+        "plaga",
+        "arqueologia",
+        "genètica",
+        "surar"
+      ],
+      "text": "La Marcelina Ventosa té vint-i-sis anys i és càmera. Fa dos anys, quan una productora petita buscava algú per filmar un documental sobre una vall del Pallars Sobirà, hi va enviar el currículum. No era un currículum gaire llarg: tres curtmetratges, uns quants vídeos de festes familiars i un curs de fotografia. Però tenia una cosa que els altres no tenien: havia crescut en aquella vall. La van agafar.\n\nEl documental havia d'abastar tot un any, de l'octubre a l'octubre, i també tres mil anys d'història. Era un projecte ambiciós per a un equip de tres persones. Per abastar-ho tot, la Marcelina va viure dotze mesos a casa dels seus pares, amb la càmera sempre a punt.\n\nA la tardor va filmar les prades. Aquell any les precipitacions van ser molt irregulars: un setembre sec i, de cop, un octubre de pluges fortes. Després de les precipitacions, les prades van canviar de color en una setmana, del groc al verd. La Marcelina va posar la càmera en un turó i va filmar la mateixa prada cada matí, a la mateixa hora. En el documental, aquelles imatges duren vint segons.\n\nA la primavera va arribar la plaga. Unes erugues petites van ocupar els pins del vessant sud i van fer uns nius blancs a les branques. Els pagesos ja coneixien aquella plaga, i la Marcelina va filmar els tècnics forestals que la controlaven.\n\nL'arqueologia va ocupar l'estiu. Un equip d'una universitat excavava les restes de cabanes de pastors de fa tres mil anys, a dalt d'una prada. La Marcelina no sabia res d'arqueologia, però va aprendre a filmar sense molestar: una pedra, una mà, un pinzell, la cara d'una arqueòloga que somriu.\n\nTambé va filmar un ramat d'ovelles d'una raça antiga de la vall. Una investigadora estudiava la genètica d'aquells animals per entendre per què resisteixen tan bé el fred. La genètica, va dir, explica una part de la història de la vall: gràcies a la genètica, sabem que aquestes ovelles hi viuen des de fa segles.\n\nL'última imatge del documental és la més senzilla. Unes fulles grogues suren a l'aigua d'un estany, i el vent les mou a poc a poc. Les fulles suren i el sol es pon. Ara la Marcelina té un currículum més llarg, i ja prepara el projecte següent.\n\nPreguntes:\nPer què van agafar la Marcelina, si el seu currículum no era gaire llarg?\nPerquè havia crescut a la vall del documental.\nQuè havia d'abastar el documental?\nHavia d'abastar tot un any i tres mil anys d'història.\nQuè va passar a les prades després de les precipitacions?\nVan canviar de color en una setmana, del groc al verd.\nQuina plaga va arribar a la primavera?\nUnes erugues petites van ocupar els pins i van fer nius blancs a les branques.\nQuè estudiava l'equip d'arqueologia?\nEstudiava les restes de cabanes de pastors de fa tres mil anys.\nQuina és l'última imatge del documental?\nUnes fulles grogues que suren a l'aigua d'un estany."
+    }
+  ]
+}
